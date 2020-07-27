@@ -1,0 +1,24 @@
++++
+title = "Set a Tables Hide Attributes from the Modify Attribute Form" 
+description = "" 
+weight = 12038 
++++
+
+Aspose.Cells for Reporting Services : Set a Table's Hide Attributes from the Modify Attribute Form  
+
+# Aspose.Cells for Reporting Services : Set a Table's Hide Attributes from the Modify Attribute Form
+
+
+Set a table report's hide attributes from **Modify Attribute**. Parameters include:
+
+*   **Type** represents the hide object type. It includes table, row and column.
+*   **Index** represents the hide object' position. When type is worksheet, the value is null. The index value starts from 0.
+*   **Expression** represents the hide state Value. The value is true, false or an Excel formula. The expression supports Reporting Services formula.
+
+**Setting a table report's hide attributes**  
+![](https://docs2.aspose.com/cells/reportingservices/attachments/6094926/6193403.png)
+
+## Attachments:
+
+![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addhide1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094926/6193403.png) (image/png)  
+

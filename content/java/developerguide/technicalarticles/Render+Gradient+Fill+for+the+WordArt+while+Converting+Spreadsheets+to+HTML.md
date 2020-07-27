@@ -1,0 +1,36 @@
++++
+title = "Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML" 
+description = "" 
+weight = 12574 
++++
+
+Aspose.Cells for Java : Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML  
+
+# Aspose.Cells for Java : Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML
+
+
+{{< panel title="Contents Summary" style="primary" >}}
+*   1 [Possible Usage Scenarios](#RenderGradientFillfortheWordArtwhileConvertingSpreadsheetstoHTML-PossibleUsageScenarios)
+*   2 [Render Gradient Fill for the WordArt while converting spreadsheets to HTML](#RenderGradientFillfortheWordArtwhileConvertingSpreadsheetstoHTML-RenderGradientFillfortheWordArtwhileconvertingspreadsheetstoHTML)
+*   3 [Sample Code](#RenderGradientFillfortheWordArtwhileConvertingSpreadsheetstoHTML-SampleCode)
+{{< /panel >}}
+ 
+
+ 
+
+## Possible Usage Scenarios
+
+Earlier, Aspose.Cells APIs were not capable of rendering gradient fill of the WordArt shapes when the spreadsheets were converted to HTML format. Now the Aspose.Cells APIs supports to render the gradient fill of the WordArt shapes. The following screenshot shows the effect of the gradient fill in HTML for previous and recent releases.
+
+![](https://docs2.aspose.com/cells/java/attachments/22970444/23166985.png)
+
+## Render Gradient Fill for the WordArt while converting spreadsheets to HTML
+
+The following sample code converts the source excel file into the output HTML forma[t](#). The source excel file contains a word art object with gradient fill as shown in the above screenshot.
+
+## Sample Code
+
+## Attachments:
+
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Gradient-Fill-for-the-WordArt-in-HTML.png](https://docs2.aspose.com/cells/java/attachments/22970444/23166985.png) (image/png)  
+

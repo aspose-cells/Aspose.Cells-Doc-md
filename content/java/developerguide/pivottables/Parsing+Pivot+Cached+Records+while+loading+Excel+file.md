@@ -1,0 +1,35 @@
++++
+title = "Parsing Pivot Cached Records while loading Excel file" 
+description = "" 
+weight = 12249 
++++
+
+Aspose.Cells for Java : Parsing Pivot Cached Records while loading Excel file  
+
+# Aspose.Cells for Java : Parsing Pivot Cached Records while loading Excel file
+
+
+{{< panel title="Contents Summary" style="primary" >}}
+*   1 [Possible Usage Scenarios](#ParsingPivotCachedRecordswhileloadingExcelfile-PossibleUsageScenarios)
+*   2 [Parsing Pivot Cached Records while loading Excel file](#ParsingPivotCachedRecordswhileloadingExcelfile-ParsingPivotCachedRecordswhileloadingExcelfile)
+*   3 [Sample Code](#ParsingPivotCachedRecordswhileloadingExcelfile-SampleCode)
+{{< /panel >}}
+ 
+
+## Possible Usage Scenarios
+
+When you create a Pivot Table, Microsoft Excel takes a copy of the source data and stores it in the Pivot Cache. The Pivot Cache is held inside the memory of Microsoft Excel. You cannot see it but that is the data the Pivot Table references when you build your Pivot Table or change a Slicer selection or move rows/columns around. This enables Microsoft Excel to be very responsive to changes in the Pivot Table but it can also double the size of your file. After all, the Pivot Cache is just a duplicate of your source data so it makes sense that your file size will be potentially double.
+
+When you load your Excel file inside the Workbook object, you can decide whether you also want to load the records of Pivot Cache or not, using the [LoadOptions.ParsingPivotCachedRecords](https://apireference.aspose.com/java/cells/com.aspose.cells/loadoptions#ParsingPivotCachedRecords) property. The default value of this property is **false**. If Pivot Cache is quite big, it can increase the performance. But if you also want to load the records of Pivot Cache, you should set this property as **true**.
+
+## Parsing Pivot Cached Records while loading Excel file
+
+The following sample code explains the usage of [LoadOptions.ParsingPivotCachedRecords](https://apireference.aspose.com/java/cells/com.aspose.cells/loadoptions#ParsingPivotCachedRecords) property. It loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/61541007/61767786.xlsx) while parsing the pivot cached records. Then it refreshes the pivot table and saves it as the [output Excel file](https://docs2.aspose.com/cells/java/attachments/61541007/61767785.xlsx).
+
+## Sample Code
+
+## Attachments:
+
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleParsingPivotCachedRecords.xlsx](https://docs2.aspose.com/cells/java/attachments/61541007/61767786.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputParsingPivotCachedRecords.xlsx](https://docs2.aspose.com/cells/java/attachments/61541007/61767785.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
+

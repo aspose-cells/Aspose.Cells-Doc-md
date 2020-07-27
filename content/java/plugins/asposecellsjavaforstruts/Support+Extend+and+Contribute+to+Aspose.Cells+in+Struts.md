@@ -1,0 +1,33 @@
++++
+title = "Support Extend and Contribute to Aspose.Cells in Struts" 
+description = "" 
+weight = 12689 
++++
+
+Aspose.Cells for Java : Support, Extend and Contribute to Aspose.Cells in Struts  
+
+# Aspose.Cells for Java : Support, Extend and Contribute to Aspose.Cells in Struts
+
+
+## Support
+
+*   If you like to see known / reported issues (by the users or Q.A team) in the application.
+*   Or you want to report any issue you found in the application
+*   Have any improvement suggestion or like to make any feature request
+
+**Please use any of the following project's issues tracker:**
+
+*   [CodePlex](https://asposecellsforstruts.codeplex.com/workitem/list/basic)
+*   [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
+
+## Extend and Contribute
+
+Aspose.cells Java for Struts 1.3 is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
+
+## Source Code
+
+You can get the latest source code from one of the following locations
+
+*   [CodePlex](https://asposecellsforstruts.codeplex.com)
+*   [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Struts)
+

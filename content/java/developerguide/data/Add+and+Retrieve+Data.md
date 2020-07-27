@@ -1,0 +1,62 @@
++++
+title = "Add and Retrieve Data" 
+description = "" 
+weight = 12161 
++++
+
+Aspose.Cells for Java : Add and Retrieve Data  
+
+# Aspose.Cells for Java : Add and Retrieve Data
+
+
+In [Accessing Cells of a Worksheet](https://docs2.aspose.com/cells/java/developerguide/data/accessing+cells+of+a+worksheet), we discussed basic approaches for accessing cells in a worksheet. This article uses one of those approaches to add different types of data to cells.
+
+{{< panel title="Contents Summary" style="primary" >}}
+*   1 [Adding Data to Cells](#AddandRetrieveData-AddingDatatoCells)
+    *   1.1 [Improving Efficiency](#AddandRetrieveData-ImprovingEfficiency)
+*   2 [Retrieving Data from Cells](#AddandRetrieveData-RetrievingDatafromCells)
+{{< /panel >}}
+ 
+
+## Adding Data to Cells
+
+Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook), that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook) class contains a [WorksheetCollection](https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class. The [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class provides a [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection. Each item in the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection represents an object of the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class.
+
+Aspose.Cells allows developers to add data to cells in worksheets by calling the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class' [setValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Value) property. By using the [setValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Value) property, it is possible to add Boolean, string, double, integer or date/time, etc. values to the cell.
+
+
+### Improving Efficiency
+
+If you use the [setValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Value) property to add a large amount of data to a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
+
+While working on worksheets, users may add different types of data in the cells. These data items may include boolean, integer, floating-point, text or date/time values. You can get the appropriate values from the cells according to their data types using Aspose.Cells.
+
+## Retrieving Data from Cells
+
+Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook)that represents an Excel file. [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook) class contains a [WorksheetCollection](https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class. The [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class provides a [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection. Each item in the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection represents an object of the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class.
+
+The [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class provides several properties that allow developers to retrieve values from the cells according to their data types. These properties include:
+
+*   [StringValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#StringValue), the cell's string value.
+*   [DoubleValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#DoubleValue), returns the cell's double value.
+*   [BoolValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#BoolValue), the cell's Boolean value.
+*   [DateTimeValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#DateTimeValue), the cell's date/time value.
+*   [FloatValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#FloatValue), the cell's float value.
+*   [IntValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#IntValue), the cell's integer value.
+
+Moreover, the type of data contained in a cell can also be checked by using the [Type](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Type) property of the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class. In fact, the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class' [Type](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Type) property is based on [CellValueType](https://apireference.aspose.com/java/cells/com.aspose.cells/CellValueType) enumeration whose pre-defined values are listed below:
+
+{{< table style="table-striped" >}}
+|Cell Value Types|Description|
+|:----|:----|
+|[IS\_BOOL](https://apireference.aspose.com/java/cells/com.aspose.cells/cellvaluetype#IS_BOOL)|Specifies that the cell value is Boolean.|
+|[IS\_DATE\_TIME](https://apireference.aspose.com/java/cells/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|Specifies that the cell value is date/time.|
+|[IS\_ERROR](https://apireference.aspose.com/java/cells/com.aspose.cells/cellvaluetype#IS_ERROR)|Represents that the cell contains an error value|
+|[IS\_NULL](https://apireference.aspose.com/java/cells/com.aspose.cells/cellvaluetype#IS_NULL)|Represents a blank cell.|
+|[IS\_NUMERIC](https://apireference.aspose.com/java/cells/com.aspose.cells/cellvaluetype#IS_NUMERIC)|Specifies that the cell value is numeric.|
+|[IS\_STRING](https://apireference.aspose.com/java/cells/com.aspose.cells/cellvaluetype#IS_STRING)|Specifies that the cell value is a string.|
+|[IS\_UNKNOWN](https://apireference.aspose.com/java/cells/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|Specifies that the cell value is unknown.|
+{{< /table >}}
+
+You can also use the above pre-defined cell value types to compare with the type of the data present in each cell.
+

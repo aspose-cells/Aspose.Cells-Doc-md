@@ -1,0 +1,35 @@
++++
+title = "Read and Write CSV File Format" 
+description = "" 
+weight = 12014 
++++
+
+Aspose.Cells for C++ : Read and Write CSV File Format  
+
+# Aspose.Cells for C++ : Read and Write CSV File Format
+
+
+{{< panel title="Contents Summary" style="primary" >}}
+*   1 [Possible Usage Scenarios](#ReadandWriteCSVFileFormat-PossibleUsageScenarios)
+*   2 [Read and Write CSV File Format](#ReadandWriteCSVFileFormat-ReadandWriteCSVFileFormat)
+*   3 [Sample Code](#ReadandWriteCSVFileFormat-SampleCode)
+{{< /panel >}}
+ 
+
+ 
+
+## Possible Usage Scenarios
+
+Microsoft Excel supports many formats like XLS, XLSX, XLSM, XLSB, CSV, etc. Aspose.Cells also supports many of these formats. This article explains how to read and write the excel file having CSV format using Aspose.Cells.
+
+## Read and Write CSV File Format
+
+The following sample code loads the [source CSV file](https://docs2.aspose.com/cells/cpp/attachments/22970904/23166994.csv) and reads its cell A1 and then copies its contents to cell C4 and saves it as [output CSV file](https://docs2.aspose.com/cells/cpp/attachments/22970904/23166994.csv).
+
+## Sample Code
+
+## Attachments:
+
+![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [srcReadWriteCSV.csv](https://docs2.aspose.com/cells/cpp/attachments/22970904/23166994.csv) (application/vnd.ms-excel)  
+![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outReadWriteCSV.csv](https://docs2.aspose.com/cells/cpp/attachments/22970904/23166995.csv) (application/vnd.ms-excel)  
+

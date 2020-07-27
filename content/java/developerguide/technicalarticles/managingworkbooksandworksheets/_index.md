@@ -1,0 +1,92 @@
++++
+title = "Managing Workbooks and Worksheets" 
+description = "" 
+weight = 12414 
++++
+
+Aspose.Cells for Java : Managing Workbooks and Worksheets  
+
+# Aspose.Cells for Java : Managing Workbooks and Worksheets
+
+
+###### This section includes the following topics:
+
+*   [Create Workbook (Global) and Worksheet Scoped Named Ranges](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/create+workbook+global+and+worksheet+scoped+named+ranges)
+*   [Copy and Move Worksheets Within and Between Workbooks](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/copy+and+move+worksheets+within+and+between+workbooks)
+*   [Set Background Picture for a Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/set+background+picture+for+a+worksheet)
+*   [Set Worksheet Tab Color](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/set+worksheet+tab+color)
+*   [Insert a Linked Picture from Web Address](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/insert+a+linked+picture+from+web+address)
+*   [Add a Picture to an Excel Comment](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/add+a+picture+to+an+excel+comment)
+*   [Combine Multiple Worksheets into a Single Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/combine+multiple+worksheets+into+a+single+worksheet)
+*   [Combine Multiple Workbooks into a Single Workbook](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/combine+multiple+workbooks+into+a+single+workbook)
+*   [How to Detect a File Format and Check if the File is Encrypted](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/how+to+detect+a+file+format+and+check+if+the+file+is+encrypted)
+*   [Show Formulas instead of Values in a Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/show+formulas+instead+of+values+in+a+worksheet)
+*   [Optimizing Memory Usage while Working with Big Files having Large Datasets](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/optimizing+memory+usage+while+working+with+big+files+having+large+datasets)
+*   [Create, Manipulate or Remove Scenarios from Worksheets](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/create+manipulate+or+remove+scenarios+from+worksheets)
+*   [Setting Formula Calculation Mode of Workbook](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/setting+formula+calculation+mode+of+workbook)
+*   [Reading CSV File with Multiple Encodings](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/reading+csv+file+with+multiple+encodings)
+*   [Get the Version Number of the Application that Created the Excel Document](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/get+the+version+number+of+the+application+that+created+the+excel+document)
+*   [How to set AutoRecover property of Workbook](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/how+to+set+autorecover+property+of+workbook)
+*   [Save ODS file in ODF 1.1 and 1.2 Specifications](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/save+ods+file+in+odf+1.1+and+1.2+specifications)
+*   [Create Signature Line in an Excel Workbook using Aspose.Cells](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/create+signature+line+in+an+excel+workbook+using+aspose.cells)
+*   [Check Password to modify using Aspose.Cells](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/check+password+to+modify+using+aspose.cells)
+*   [Adding Custom Properties visible inside Document Information Panel](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/adding+custom+properties+visible+inside+document+information+panel)
+*   [Determining if the License is loaded successfully](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/determining+if+the+license+is+loaded+successfully)
+*   [Activating Sheets and Activating a Cell in Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/activating+sheets+and+activating+a+cell+in+worksheet)
+*   [Load Specific Worksheets in a Workbook](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/load+specific+worksheets+in+a+workbook)
+*   [Insert Web Image from a URL into an Excel Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/insert+web+image+from+a+url+into+an+excel+worksheet)
+*   [Hiding the Display of Zero Values in the Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/hiding+the+display+of+zero+values+in+the+worksheet)
+*   [Extract OLE Objects from Workbook](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/extract+ole+objects+from+workbook)
+*   [Disable Compatibility Checker in Excel](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/disable+compatibility+checker+in+excel)
+*   [Detect if Worksheet is Password Protected](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/detect+if+worksheet+is+password+protected)
+*   [Verify Password Used to Protect the Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/verify+password+used+to+protect+the+worksheet)
+*   [Get Paper Width and Height from PageSetup of Worksheet](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/get+paper+width+and+height+from+pagesetup+of+worksheet)
+
+## Attachments:
+
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-001.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472987.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-002.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472988.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-003.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472989.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-004.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472991.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-005.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472990.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-006.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472993.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-007.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472992.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Set Background Picture for a Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472997.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Set Background Picture for a Worksheet-001.jpg](https://docs2.aspose.com/cells/java/attachments/5276651/5472996.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [colored-tabs.png](https://docs2.aspose.com/cells/java/attachments/5276651/5472998.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-001.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473077.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-002.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473074.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-003.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473075.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-004.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473072.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-001b.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473073.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-004b.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473070.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-003b.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473071.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Add a Picture to an Excel Comment-001.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473082.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [comment-picture.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473083.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet2.JPG](https://docs2.aspose.com/cells/java/attachments/5276651/5473091.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet1.JPG](https://docs2.aspose.com/cells/java/attachments/5276651/5473090.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/java/attachments/5276651/5473089.xlsx) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276651/5473088.xlsx) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputsheet.jpg](https://docs2.aspose.com/cells/java/attachments/5276651/5473087.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet3.JPG](https://docs2.aspose.com/cells/java/attachments/5276651/5473086.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Combine Multiple Workbooks into a Single Workbook-04.jpg](https://docs2.aspose.com/cells/java/attachments/5276651/5473094.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Combine Multiple Workbooks into a Single Workbook-01.jpg](https://docs2.aspose.com/cells/java/attachments/5276651/5473042.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Combine Multiple Workbooks into a Single Workbook-02.jpg](https://docs2.aspose.com/cells/java/attachments/5276651/5473043.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Combine Multiple Workbooks into a Single Workbook-03.jpg](https://docs2.aspose.com/cells/java/attachments/5276651/5473044.jpg) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [charts.xlsx](https://docs2.aspose.com/cells/java/attachments/5276651/5473045.xlsx) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [picture.xlsx](https://docs2.aspose.com/cells/java/attachments/5276651/5473038.xlsx) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [combined.xlsx](https://docs2.aspose.com/cells/java/attachments/5276651/5473039.xlsx) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [show-formulas-1.PNG](https://docs2.aspose.com/cells/java/attachments/5276651/5473050.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [show-formulas-2.PNG](https://docs2.aspose.com/cells/java/attachments/5276651/5473051.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [scenario1.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473053.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Formula-Calculation-Mode.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473047.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Muti-Encoded-CSV-File.Png](https://docs2.aspose.com/cells/java/attachments/5276651/5473058.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [CSV-File-Coverted-To-XLSX-Without-Setting-IsMultiEncoded-True.Png](https://docs2.aspose.com/cells/java/attachments/5276651/5473061.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [CSV-File-Converted-To-XLSX.Png](https://docs2.aspose.com/cells/java/attachments/5276651/5473060.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [signature-line-using-aspose.cells.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473054.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/java/attachments/5276651/5473067.xlsx) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Specify passwords while saving workbook.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473066.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Activating Sheets and Making an Active Cell in the Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473068.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Hiding the Display of Zero Values in the Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473062.png) (image/png)  
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [comp\_check.png](https://docs2.aspose.com/cells/java/attachments/5276651/5473064.png) (image/png)  
+
