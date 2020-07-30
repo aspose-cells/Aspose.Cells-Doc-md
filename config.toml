@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://docs2.aspose.com/cells/"
 title = "Documentation"
 toc = false
 enableRobotsTXT = true
