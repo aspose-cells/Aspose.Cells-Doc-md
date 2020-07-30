@@ -1,10 +1,11 @@
-+++
-title = "Getting Started" 
-description = "" 
-weight = 4002 
-+++
-
-Aspose.Cells for JasperReports : Getting Started  
+---
+title : "Getting Started" 
+description : "" 
+weight : 4002 
+toc : false
+type: docs
+url: /jasperreports/gettingstarted/
+---
 
 # Aspose.Cells for JasperReports : Getting Started
 

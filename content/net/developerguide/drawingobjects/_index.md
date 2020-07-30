@@ -1,10 +1,11 @@
-+++
-title = "Drawing Objects" 
-description = "" 
-weight = 8280 
-+++
-
-Aspose.Cells for .NET : Drawing Objects  
+---
+title : "Drawing Objects" 
+description : "" 
+weight : 8280 
+toc : false
+type: docs
+url: /net/developerguide/drawingobjects/
+---
 
 # Aspose.Cells for .NET : Drawing Objects
 

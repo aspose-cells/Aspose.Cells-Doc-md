@@ -1,10 +1,11 @@
-+++
-title = "Technical Articles" 
-description = "" 
-weight = 8339 
-+++
-
-Aspose.Cells for Java : Technical Articles  
+---
+title : "Technical Articles" 
+description : "" 
+weight : 8339 
+toc : false
+type: docs
+url: /java/developerguide/technicalarticles/
+---
 
 # Aspose.Cells for Java : Technical Articles
 
@@ -14,22 +15,22 @@ Aspose.Cells for Java : Technical Articles
 *   [Setting Strong Encryption Type](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/setting+strong+encryption+type)
 *   [Add Image Hyperlinks](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/add+image+hyperlinks)
 *   [Sort Data](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/sort+data)
-*   [Utilize Aspose.Cells in other Programming Languages](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/utilizeasposecellsinotherprogramminglanguages/)
+*   [Utilize Aspose.Cells in other Programming Languages](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/inotherlanguages/)
 *   [Create Table by Using Border Lines for a Range](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/create+table+by+using+border+lines+for+a+range)
 *   [Use Error Checking Options](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/use+error+checking+options)
-*   [Aspose.Cells Formula Calculation Engine](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/asposecellsformulacalculationengine/)
+*   [Aspose.Cells Formula Calculation Engine](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mulacalculationengine/)
 *   [Using LightCells API](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/using+lightcells+api)
 *   [Insert a Picture based on Cell Reference](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/insert+a+picture+based+on+cell+reference)
 *   [Change Text Direction of the Comment](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/change+text+direction+of+the+comment)
 *   [Reading Cell Values in Multiple Threads Simultaneously](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/reading+cell+values+in+multiple+threads+simultaneously)
 *   [Implementing IStreamProvider for HtmlSaveOptions.StreamProvider](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/implementing+istreamprovider+for+htmlsaveoptions.streamprovider)
-*   [Rendering and Printing](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/renderingandprinting/)
-*   [Styling and Data Formatting](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stylinganddataformatting/)
-*   [Managing Pivot Tables and Pivot Charts](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingpivottablesandpivotcharts/)
-*   [Managing Workbooks and Worksheets](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingworkbooksandworksheets/)
-*   [Managing Rows, Columns and Cells](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingrowscolumnsandcells/)
-*   [Managing Charts and Shapes](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingchartsandshapes/)
-*   [Managing Database Connections](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingdatabaseconnections/)
+*   [Rendering and Printing](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/)
+*   [Styling and Data Formatting](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/)
+*   [Managing Pivot Tables and Pivot Charts](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/)
+*   [Managing Workbooks and Worksheets](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/)
+*   [Managing Rows, Columns and Cells](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/)
+*   [Managing Charts and Shapes](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/)
+*   [Managing Database Connections](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngdatabaseconnections/)
 *   [Calculating IFNA function using Aspose.Cells](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/calculating+ifna+function+using+aspose.cells)
 *   [Easy way for Chart Setup using Chart.setChartDataRange method](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/easy+way+for+chart+setup+using+chart.setchartdatarange+method)
 *   [Convert Revision of XLSB to XLSM](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/convert+revision+of+xlsb+to+xlsm)
@@ -59,7 +60,7 @@ Aspose.Cells for Java : Technical Articles
 *   [Getting Notifications while Merging Data with Smart Markers](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/getting+notifications+while+merging+data+with+smart+markers)
 *   [Remove Unused Styles inside the Workbook](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/remove+unused+styles+inside+the+workbook)
 *   [Using Built-in Styles](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/using+built-in+styles)
-*   [Managing Conditional Formats](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/managingconditionalformats/)
+*   [Managing Conditional Formats](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngconditionalformats/)
 *   [Load or Import CSV file with Formulas](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/load+or+import+csv+file+with+formulas)
 *   [Save Excel into PDF with Standard or Minimum Size](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/save+excel+into+pdf+with+standard+or+minimum+size)
 *   [Adding 2-Color Scale and 3-Color Scale Conditional Formattings](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/adding+2-color+scale+and+3-color+scale+conditional+formattings)

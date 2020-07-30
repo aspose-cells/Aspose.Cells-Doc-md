@@ -1,10 +1,11 @@
-+++
-title = "User Guide" 
-description = "" 
-weight = 4048 
-+++
-
-Aspose.Cells for Reporting Services : User Guide  
+---
+title : "User Guide" 
+description : "" 
+weight : 4048 
+toc : false
+type: docs
+url: /reportingservices/userguide/
+---
 
 # Aspose.Cells for Reporting Services : User Guide
 

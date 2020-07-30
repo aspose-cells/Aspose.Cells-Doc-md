@@ -1,10 +1,11 @@
-+++
-title = "Features" 
-description = "" 
-weight = 8005 
-+++
-
-Aspose.Cells for Reporting Services : Features  
+---
+title : "Features" 
+description : "" 
+weight : 8005 
+toc : false
+type: docs
+url: /reportingservices/gettingstarted/features/
+---
 
 # Aspose.Cells for Reporting Services : Features
 

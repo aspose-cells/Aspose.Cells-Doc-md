@@ -1,10 +1,11 @@
-+++
-title = "Pivot Tables" 
-description = "" 
-weight = 8239 
-+++
-
-Aspose.Cells for Java : Pivot Tables  
+---
+title : "Pivot Tables" 
+description : "" 
+weight : 8239 
+toc : false
+type: docs
+url: /java/developerguide/pivottables/
+---
 
 # Aspose.Cells for Java : Pivot Tables
 

@@ -1,10 +1,11 @@
-+++
-title = "Formula Editor Window" 
-description = "" 
-weight = 8094 
-+++
-
-Aspose.Cells for Reporting Services : Formula Editor Window  
+---
+title : "Formula Editor Window" 
+description : "" 
+weight : 8094 
+toc : false
+type: docs
+url: /reportingservices/reference/formulaeditorwindow/
+---
 
 # Aspose.Cells for Reporting Services : Formula Editor Window
 

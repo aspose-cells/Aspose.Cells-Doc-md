@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Cells for Python via Java" 
-description = "" 
-weight = 70 
-+++
-
+---
+title : "Aspose.Cells for Python via Java" 
+description : "" 
+weight : 70 
+toc : false
+type: docs
+url: /pythonjava/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/pythonjava/images/icons/contenttypes/home_page_16.png) Aspose.Cells for Python via Java : Home 
 

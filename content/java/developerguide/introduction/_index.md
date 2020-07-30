@@ -1,10 +1,11 @@
-+++
-title = "Introduction" 
-description = "" 
-weight = 8040 
-+++
-
-Aspose.Cells for Java : Introduction  
+---
+title : "Introduction" 
+description : "" 
+weight : 8040 
+toc : false
+type: docs
+url: /java/developerguide/introduction/
+---
 
 # Aspose.Cells for Java : Introduction
 

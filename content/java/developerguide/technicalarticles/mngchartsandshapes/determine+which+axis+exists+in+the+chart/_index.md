@@ -1,0 +1,40 @@
+---
+title : "Determine which Axis exists in the Chart" 
+description : "" 
+weight : 16471 
+toc : false
+type: docs
+url: /java/developerguide/technicalarticles/mngchartsandshapes/determine+which+axis+exists+in+the+chart/
+---
+
+# Aspose.Cells for Java : Determine which Axis exists in the Chart
+
+
+Sometimes, the user needs to know if a particular axis exists in the Chart. For example, he wants to know if a Secondary Value Axis exists inside the chart or not. Some charts like Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded etc do not have an axis.
+
+Aspose.Cells provides [Chart.hasAxis(int axisType, boolean isPrimary)](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#hasAxis(int,%20boolean)) method to determine if the chart has a particular axis or not.
+
+#### Determine which Axis exists in the Chart
+
+The following screenshot shows a chart that has only the Primary Category and Value Axis. It does not have any Secondary Category and Value Axis.
+
+![](https://docs2.aspose.com/cells/java/attachments/5276464/5472944.png)
+
+The following sample code demonstrates the use of [Chart.hasAxis(int axisType, boolean isPrimary)](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#hasAxis(int,%20boolean))to determine if the sample chart has Primary and Secondary Category and Value Axis. The console output of the code has been shown below which displays true for Primary Category and Value Axis and false for Secondary Category and Value Axis.
+
+
+#### Console Output
+
+Here is the Console Output of the above Sample Code.
+
+{{< code lang="cs" >}}
+Has Primary Category Axis: true
+Has Secondary Category Axis: false
+Has Primary Value Axis: true
+Has Seconary Value Axis: false
+{{< /code >}}
+
+## Attachments:
+
+![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample-chart.png](https://docs2.aspose.com/cells/java/attachments/5276464/5472944.png) (image/png)  
+

@@ -1,10 +1,11 @@
-+++
-title = "Charts" 
-description = "" 
-weight = 8201 
-+++
-
-Aspose.Cells for Java : Charts  
+---
+title : "Charts" 
+description : "" 
+weight : 8201 
+toc : false
+type: docs
+url: /java/developerguide/charts/
+---
 
 # Aspose.Cells for Java : Charts
 

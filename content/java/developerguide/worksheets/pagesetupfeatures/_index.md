@@ -1,38 +1,39 @@
-+++
-title = "Page Setup Features" 
-description = "" 
-weight = 12130 
-+++
-
-Aspose.Cells for Java : Page Setup Features  
+---
+title : "Page Setup Features" 
+description : "" 
+weight : 12130 
+toc : false
+type: docs
+url: /java/developerguide/worksheets/pagesetupfeatures/
+---
 
 # Aspose.Cells for Java : Page Setup Features
 
 
 {{< panel title="Contents Summary" style="primary" >}}
-*   1 [Setting Page Options](#PageSetupFeatures-SettingPageOptions)
-    *   1.1 [Page Orientation](#PageSetupFeatures-PageOrientation)
-    *   1.2 [Scaling Factor](#PageSetupFeatures-ScalingFactor)
-    *   1.3 [FitToPages Options](#PageSetupFeatures-FitToPagesOptions)
-    *   1.4 [Paper Size](#PageSetupFeatures-PaperSize)
-    *   1.5 [Print Quality](#PageSetupFeatures-PrintQuality)
-    *   1.6 [First Page Number](#PageSetupFeatures-FirstPageNumber)
-*   2 [Setting Margins](#PageSetupFeatures-SettingMargins)
-    *   2.1 [Page Margins](#PageSetupFeatures-PageMargins)
-    *   2.2 [Center on Page](#PageSetupFeatures-CenteronPage)
-    *   2.3 [Header and Footer Margins](#PageSetupFeatures-HeaderandFooterMargins)
-*   3 [Setting Headers and Footers](#PageSetupFeatures-SettingHeadersandFooters)
-    *   3.1 [Script Commands](#PageSetupFeatures-ScriptCommands)
-    *   3.2 [Set Headers and Footers](#PageSetupFeatures-SetHeadersandFooters)
-    *   3.3 [Insert a Graphic into a Header or Footer](#PageSetupFeatures-InsertaGraphicintoaHeaderorFooter)
-    *   3.4 [Insert a Graphic in the First Page Header Only](#PageSetupFeatures-InsertaGraphicintheFirstPageHeaderOnly)
-*   4 [Setting Print Options](#PageSetupFeatures-SettingPrintOptions)
-    *   4.1 [Setting Print and Sheet Options](#PageSetupFeatures-SettingPrintandSheetOptions)
-    *   4.2 [Set Print Area](#PageSetupFeatures-SetPrintArea)
-    *   4.3 [Set Print Titles](#PageSetupFeatures-SetPrintTitles)
-    *   4.4 [Set Other Print Options](#PageSetupFeatures-SetOtherPrintOptions)
-    *   4.5 [Set Page Order](#PageSetupFeatures-SetPageOrder)
-*   5 [Remove Existing PrinterSettings of Worksheets in Excel file](#PageSetupFeatures-RemoveExistingPrinterSettingsofWorksheetsinExcelfile)
+*   1 [Setting Page Options](#setting-page-options)
+    *   1.1 [Page Orientation](#page-orientation)
+    *   1.2 [Scaling Factor](#scaling-factor)
+    *   1.3 [FitToPages Options](#fittopages-options)
+    *   1.4 [Paper Size](#paper-size)
+    *   1.5 [Print Quality](#print-quality)
+    *   1.6 [First Page Number](#first-page-number)
+*   2 [Setting Margins](#setting-margins)
+    *   2.1 [Page Margins](#page-margins)
+    *   2.2 [Center on Page](#center-on-page)
+    *   2.3 [Header and Footer Margins](#header-and-footer-margins)
+*   3 [Setting Headers and Footers](#setting-headers-and-footers)
+    *   3.1 [Script Commands](#script-commands)
+    *   3.2 [Set Headers and Footers](#set-headers-and-footers)
+    *   3.3 [Insert a Graphic into a Header or Footer](#insert-a-graphic-into-a-header-or-footer)
+    *   3.4 [Insert a Graphic in the First Page Header Only](#insert-a-graphic-in-the-first-page-header-only)
+*   4 [Setting Print Options](#setting-print-options)
+    *   4.1 [Setting Print and Sheet Options](#setting-print-and-sheet-options)
+    *   4.2 [Set Print Area](#set-print-area)
+    *   4.3 [Set Print Titles](#set-print-titles)
+    *   4.4 [Set Other Print Options](#set-other-print-options)
+    *   4.5 [Set Page Order](#set-page-order)
+*   5 [Remove Existing PrinterSettings of Worksheets in Excel file](#remove-existing-printersettings-of-worksheets-in-excel-file)
 {{< /panel >}}
  
 

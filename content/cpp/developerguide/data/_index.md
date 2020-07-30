@@ -1,10 +1,11 @@
-+++
-title = "Data" 
-description = "" 
-weight = 8025 
-+++
-
-Aspose.Cells for C++ : Data  
+---
+title : "Data" 
+description : "" 
+weight : 8025 
+toc : false
+type: docs
+url: /cpp/developerguide/data/
+---
 
 # Aspose.Cells for C++ : Data
 

@@ -1,10 +1,11 @@
-+++
-title = "Reference" 
-description = "" 
-weight = 4092 
-+++
-
-Aspose.Cells for Reporting Services : Reference  
+---
+title : "Reference" 
+description : "" 
+weight : 4092 
+toc : false
+type: docs
+url: /reportingservices/reference/
+---
 
 # Aspose.Cells for Reporting Services : Reference
 

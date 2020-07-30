@@ -1,10 +1,11 @@
-+++
-title = "Charts" 
-description = "" 
-weight = 8262 
-+++
-
-Aspose.Cells for .NET : Charts  
+---
+title : "Charts" 
+description : "" 
+weight : 8262 
+toc : false
+type: docs
+url: /net/developerguide/charts/
+---
 
 # Aspose.Cells for .NET : Charts
 

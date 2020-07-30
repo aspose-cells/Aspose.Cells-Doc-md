@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Cells for Node.js via Java" 
-description = "" 
-weight = 50 
-+++
-
+---
+title : "Aspose.Cells for Node.js via Java" 
+description : "" 
+weight : 50 
+toc : false
+type: docs
+url: /nodejsjava/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/nodejsjava/images/icons/contenttypes/home_page_16.png) Aspose.Cells for Node.js via Java : Aspose.Cells for Node.js via Java Home 
 

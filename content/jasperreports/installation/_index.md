@@ -1,10 +1,11 @@
-+++
-title = "Installation" 
-description = "" 
-weight = 4017 
-+++
-
-Aspose.Cells for JasperReports : Installation  
+---
+title : "Installation" 
+description : "" 
+weight : 4017 
+toc : false
+type: docs
+url: /jasperreports/installation/
+---
 
 # Aspose.Cells for JasperReports : Installation
 

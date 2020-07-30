@@ -1,10 +1,11 @@
-+++
-title = "Technical Articles" 
-description = "" 
-weight = 8334 
-+++
-
-Aspose.Cells for .NET : Technical Articles  
+---
+title : "Technical Articles" 
+description : "" 
+weight : 8334 
+toc : false
+type: docs
+url: /net/developerguide/technicalarticles/
+---
 
 # Aspose.Cells for .NET : Technical Articles
 

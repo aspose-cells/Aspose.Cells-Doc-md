@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Cells for JasperReports" 
-description = "" 
-weight = 99 
-+++
-
+---
+title : "Aspose.Cells for JasperReports" 
+description : "" 
+weight : 99 
+toc : false
+type: docs
+url: /jasperreports/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/jasperreports/images/icons/contenttypes/home_page_16.png) Aspose.Cells for JasperReports : Home 
 
@@ -37,20 +39,20 @@ weight = 99
 [**Reference**](https://docs2.aspose.com/cells/jasperreports/reference/)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Configuration Parameters**](https://docs2.aspose.com/cells/jasperreports/reference/configuration+parameters)    
 [**Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2018**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2018/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 18.11 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2018/aspose.cells+for+jasperreports+18.11+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2016**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2016/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 2.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2016/aspose.cells+for+jasperreports+2.0.0+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2013**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2013/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.3 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2013/aspose.cells+for+jasperreports+1.1.3+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2012**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2012/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2012/aspose.cells+for+jasperreports+1.1.1+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.2 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2012/aspose.cells+for+jasperreports+1.1.2+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2010**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2010/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.0.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2010/aspose.cells+for+jasperreports+1.0.1+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2010/aspose.cells+for+jasperreports+1.1.0+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2009**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2009/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports v1.0.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2009/aspose.cells+for+jasperreports+v1.0.0.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2018**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2018/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 18.11 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2018/aspose.cells+for+jasperreports+18.11+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2016**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2016/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 2.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2016/aspose.cells+for+jasperreports+2.0.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2013**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2013/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.3 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2013/aspose.cells+for+jasperreports+1.1.3+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2012**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2012/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2012/aspose.cells+for+jasperreports+1.1.1+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.2 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2012/aspose.cells+for+jasperreports+1.1.2+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2010**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2010/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.0.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2010/aspose.cells+for+jasperreports+1.0.1+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2010/aspose.cells+for+jasperreports+1.1.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2009**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2009/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports v1.0.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2009/aspose.cells+for+jasperreports+v1.0.0.0+release+notes)    
 
 [Expand all](#)   [Collapse all](#)
 

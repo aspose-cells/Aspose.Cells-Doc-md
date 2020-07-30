@@ -1,10 +1,11 @@
-+++
-title = "Pivot Tables" 
-description = "" 
-weight = 8233 
-+++
-
-Aspose.Cells for .NET : Pivot Tables  
+---
+title : "Pivot Tables" 
+description : "" 
+weight : 8233 
+toc : false
+type: docs
+url: /net/developerguide/pivottables/
+---
 
 # Aspose.Cells for .NET : Pivot Tables
 

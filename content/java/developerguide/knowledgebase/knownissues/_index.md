@@ -1,10 +1,11 @@
-+++
-title = "Known Issues" 
-description = "" 
-weight = 12581 
-+++
-
-Aspose.Cells for Java : Known Issues  
+---
+title : "Known Issues" 
+description : "" 
+weight : 12581 
+toc : false
+type: docs
+url: /java/developerguide/knowledgebase/knownissues/
+---
 
 # Aspose.Cells for Java : Known Issues
 

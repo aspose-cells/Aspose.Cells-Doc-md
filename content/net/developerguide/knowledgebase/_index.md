@@ -1,10 +1,11 @@
-+++
-title = "Knowledge Base" 
-description = "" 
-weight = 8721 
-+++
-
-Aspose.Cells for .NET : Knowledge Base  
+---
+title : "Knowledge Base" 
+description : "" 
+weight : 8721 
+toc : false
+type: docs
+url: /net/developerguide/knowledgebase/
+---
 
 # Aspose.Cells for .NET : Knowledge Base
 

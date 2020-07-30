@@ -1,10 +1,11 @@
-+++
-title = "Deployment" 
-description = "" 
-weight = 12036 
-+++
-
-Aspose.Cells for .NET : Deployment  
+---
+title : "Deployment" 
+description : "" 
+weight : 12036 
+toc : false
+type: docs
+url: /net/gettingstarted/installationanddeployment/deployment/
+---
 
 # Aspose.Cells for .NET : Deployment
 

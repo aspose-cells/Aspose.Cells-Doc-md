@@ -1,10 +1,11 @@
-+++
-title = "Smart Markers" 
-description = "" 
-weight = 8262 
-+++
-
-Aspose.Cells for Java : Smart Markers  
+---
+title : "Smart Markers" 
+description : "" 
+weight : 8262 
+toc : false
+type: docs
+url: /java/developerguide/smartmarkers/
+---
 
 # Aspose.Cells for Java : Smart Markers
 

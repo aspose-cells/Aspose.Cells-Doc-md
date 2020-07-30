@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Cells for .NET" 
-description = "" 
-weight = 10 
-+++
-
+---
+title : "Aspose.Cells for .NET" 
+description : "" 
+weight : 10 
+toc : false
+type: docs
+url: /net/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/net/images/icons/contenttypes/home_page_16.png) Aspose.Cells for .NET : Home 
 
@@ -17,8 +19,8 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 *   [Aspose.Cells for .NET Online Documentation](https://docs2.aspose.com/cells/net/)
-*   [Aspose.Cells for .NET Features](https://docs2.aspose.com/cells/net/gettingstarted/asposecellsfeatures/feature+overview)
-*   [Aspose.Cells for .NET Limitations](https://docs2.aspose.com/cells/net/gettingstarted/asposecellsfeatures/whatdocumentfeaturesaresupported/)
+*   [Aspose.Cells for .NET Features](https://docs2.aspose.com/cells/net/gettingstarted/features/feature+overview)
+*   [Aspose.Cells for .NET Limitations](https://docs2.aspose.com/cells/net/gettingstarted/features/documentsupported/)
 *   [Aspose.Cells for .NET Release Notes](https://docs2.aspose.com/cells/net/releasenotes/)
 *   [Aspose.Cells for .NET Product Page](https://products.aspose.com/cells/net)
 *   [Install Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/)

@@ -1,0 +1,25 @@
+---
+title : "Fit All Worksheet Columns on Single PDF Page" 
+description : "" 
+weight : 16366 
+toc : false
+type: docs
+url: /java/developerguide/technicalarticles/rnd-prt/fit+all+worksheet+columns+on+single+pdf+page/
+---
+
+# Aspose.Cells for Java : Fit All Worksheet Columns on Single PDF Page
+
+
+Sometimes you want to generate a PDF file that fits all a worksheet's columns onto a single page. The [PdfSaveOptions.setAllColumnsInOnePagePerSheet](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) property provides this feature in a very easy-to-use manner. Complex calculations such as the height and width of the output PDF page are handled internally and are based on the data in the worksheet.
+
+#### Fit Worksheet Columns on Single PDF Page
+
+[PdfSaveOptions.setAllColumnsInOnePagePerSheet](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) ensures that all columns of a worksheet are rendered to a single PDF page, although rows may expand to several pages depending upon the data in worksheet.
+
+When a given worksheet has many columns, the rendered PDF file may show the contents at a very small size. It is still readable when scaled up in a viewing application such as Acrobat Reader.
+
+The sample code below shows how to use the [PdfSaveOptions.setAllColumnsInOnePagePerSheet](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) property to render a large worksheet of 100 columns.
+
+
+If your spreadsheet contains formulas, it is best to call [Workbook.calculateFormula](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+

@@ -1,10 +1,11 @@
-+++
-title = "Support for Editable Charts" 
-description = "" 
-weight = 8030 
-+++
-
-Aspose.Cells for Reporting Services : Support for Editable Charts  
+---
+title : "Support for Editable Charts" 
+description : "" 
+weight : 8030 
+toc : false
+type: docs
+url: /reportingservices/newfeatures/supportforeditablecharts/
+---
 
 # Aspose.Cells for Reporting Services : Support for Editable Charts
 

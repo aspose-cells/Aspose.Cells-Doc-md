@@ -1,10 +1,11 @@
-+++
-title = "Success Stories" 
-description = "" 
-weight = 8041 
-+++
-
-Aspose.Cells for .NET : Success Stories  
+---
+title : "Success Stories" 
+description : "" 
+weight : 8041 
+toc : false
+type: docs
+url: /net/gettingstarted/successstories/
+---
 
 # Aspose.Cells for .NET : Success Stories
 

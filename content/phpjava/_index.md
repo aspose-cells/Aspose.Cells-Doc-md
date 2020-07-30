@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Cells for PHP via Java" 
-description = "" 
-weight = 60 
-+++
-
+---
+title : "Aspose.Cells for PHP via Java" 
+description : "" 
+weight : 60 
+toc : false
+type: docs
+url: /phpjava/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/phpjava/images/icons/contenttypes/home_page_16.png) Aspose.Cells for PHP via Java : Aspose.Cells for PHP via Java Home 
 

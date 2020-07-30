@@ -1,10 +1,11 @@
-+++
-title = "Aspose.Cells for Family" 
-description = "" 
-weight = 1 
-+++
-
-Aspose.Cells Product Family : Home  
+---
+title : "Aspose.Cells for Family" 
+description : "" 
+weight : 1 
+toc : false
+type: docs
+url: /
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/productfamily/images/icons/contenttypes/home_page_16.png) Aspose.Cells Product Family : Home 
 
@@ -18,8 +19,8 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 *   [Aspose.Cells for .NET Online Documentation](https://docs2.aspose.com/cells/net/)
-*   [Aspose.Cells for .NET Features](https://docs2.aspose.com/cells/net/gettingstarted/asposecellsfeatures/feature+overview)
-*   [Aspose.Cells for .NET Limitations](https://docs2.aspose.com/cells/net/gettingstarted/asposecellsfeatures/whatdocumentfeaturesaresupported/)
+*   [Aspose.Cells for .NET Features](https://docs2.aspose.com/cells/net/gettingstarted/features/feature+overview)
+*   [Aspose.Cells for .NET Limitations](https://docs2.aspose.com/cells/net/gettingstarted/features/documentsupported/)
 *   [Aspose.Cells for .NET Release Notes](https://docs2.aspose.com/cells/net/releasenotes/)
 *   [Aspose.Cells for .NET Product Page](https://products.aspose.com/cells/net)
 *   [Install Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/)
@@ -167,17 +168,17 @@ The following are the links to some useful resources you may need to accomplish 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Add Watermark to Excel document**](https://docs2.aspose.com/cells/sharepoint/productinformation/features/add+watermark+to+excel+document)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Add Footer to Excel document**](https://docs2.aspose.com/cells/sharepoint/productinformation/features/add+footer+to+excel+document)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**System Requirements**](https://docs2.aspose.com/cells/sharepoint/productinformation/system+requirements)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Install Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/installasposecellsforsharepoint/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Installing Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/installasposecellsforsharepoint/installing+aspose.cells+for+sharepoint)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Deployment and Activation**](https://docs2.aspose.com/cells/sharepoint/productinformation/installasposecellsforsharepoint/deployment+and+activation)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Activation and Deactivation after installation**](https://docs2.aspose.com/cells/sharepoint/productinformation/installasposecellsforsharepoint/activation+and+deactivation+after+installation)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Known Issue - Permissions to Personal Site Collections**](https://docs2.aspose.com/cells/sharepoint/productinformation/installasposecellsforsharepoint/known+issue+-+permissions+to+personal+site+collections)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Uninstalling Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/installasposecellsforsharepoint/uninstalling+aspose.cells+for+sharepoint)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Install Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/install/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Installing Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/install/installing+aspose.cells+for+sharepoint)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Deployment and Activation**](https://docs2.aspose.com/cells/sharepoint/productinformation/install/deployment+and+activation)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Activation and Deactivation after installation**](https://docs2.aspose.com/cells/sharepoint/productinformation/install/activation+and+deactivation+after+installation)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Known Issue - Permissions to Personal Site Collections**](https://docs2.aspose.com/cells/sharepoint/productinformation/install/known+issue+-+permissions+to+personal+site+collections)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Uninstalling Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/install/uninstalling+aspose.cells+for+sharepoint)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Evaluate Aspose.Cells**](https://docs2.aspose.com/cells/sharepoint/productinformation/evaluate+aspose.cells)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**License Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/licenseasposecellsforsharepoint/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Installing Aspose.Cells for SharePoint License**](https://docs2.aspose.com/cells/sharepoint/productinformation/licenseasposecellsforsharepoint/installing+aspose.cells+for+sharepoint+license)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Testing a License**](https://docs2.aspose.com/cells/sharepoint/productinformation/licenseasposecellsforsharepoint/testing+a+license)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Uninstalling Aspose.Cells for SharePoint License**](https://docs2.aspose.com/cells/sharepoint/productinformation/licenseasposecellsforsharepoint/uninstalling+aspose.cells+for+sharepoint+license)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**License Aspose.Cells for SharePoint**](https://docs2.aspose.com/cells/sharepoint/productinformation/license/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Installing Aspose.Cells for SharePoint License**](https://docs2.aspose.com/cells/sharepoint/productinformation/license/installing+aspose.cells+for+sharepoint+license)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Testing a License**](https://docs2.aspose.com/cells/sharepoint/productinformation/license/testing+a+license)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Uninstalling Aspose.Cells for SharePoint License**](https://docs2.aspose.com/cells/sharepoint/productinformation/license/uninstalling+aspose.cells+for+sharepoint+license)    
 [**Users Guide**](https://docs2.aspose.com/cells/sharepoint/usersguide/)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Convert One File**](https://docs2.aspose.com/cells/sharepoint/usersguide/convert+one+file)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Convert Multiple Files**](https://docs2.aspose.com/cells/sharepoint/usersguide/convert+multiple+files)    
@@ -192,24 +193,24 @@ The following are the links to some useful resources you may need to accomplish 
 [**Technical Articles**](https://docs2.aspose.com/cells/sharepoint/technicalarticles/)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint - Use and Benefits**](https://docs2.aspose.com/cells/sharepoint/technicalarticles/aspose.cells+for+sharepoint+-+use+and+benefits)    
 [**Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2017**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2017/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.9 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2017/aspose.cells+for+sharepoint+17.9+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.8 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2017/aspose.cells+for+sharepoint+17.8+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.7 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2017/aspose.cells+for+sharepoint+17.7+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.6 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2017/aspose.cells+for+sharepoint+17.6+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2014**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2014/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.1.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2014/aspose.cells+for+sharepoint+3.1.0+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2013**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2013/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.0.1 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2013/aspose.cells+for+sharepoint+3.0.1+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.0.2 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2013/aspose.cells+for+sharepoint+3.0.2+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2012**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2012/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2012/aspose.cells+for+sharepoint+3.0.0+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2011**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2011/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.1 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2011/aspose.cells+for+sharepoint+2.0.1+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.2 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2011/aspose.cells+for+sharepoint+2.0.2+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2010**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2010/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 1.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2010/aspose.cells+for+sharepoint+1.0.0+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/releasenotes-2010/aspose.cells+for+sharepoint+2.0.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2017**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2017/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.9 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2017/aspose.cells+for+sharepoint+17.9+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.8 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2017/aspose.cells+for+sharepoint+17.8+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.7 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2017/aspose.cells+for+sharepoint+17.7+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 17.6 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2017/aspose.cells+for+sharepoint+17.6+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2014**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2014/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.1.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2014/aspose.cells+for+sharepoint+3.1.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2013**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2013/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.0.1 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2013/aspose.cells+for+sharepoint+3.0.1+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.0.2 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2013/aspose.cells+for+sharepoint+3.0.2+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2012**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2012/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 3.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2012/aspose.cells+for+sharepoint+3.0.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2011**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2011/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.1 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2011/aspose.cells+for+sharepoint+2.0.1+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.2 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2011/aspose.cells+for+sharepoint+2.0.2+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2010**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2010/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 1.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2010/aspose.cells+for+sharepoint+1.0.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2010/aspose.cells+for+sharepoint+2.0.0+release+notes)    
 
 [Expand all](#)   [Collapse all](#)
 
@@ -244,20 +245,20 @@ The following are the links to some useful resources you may need to accomplish 
 [**Reference**](https://docs2.aspose.com/cells/jasperreports/reference/)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Configuration Parameters**](https://docs2.aspose.com/cells/jasperreports/reference/configuration+parameters)    
 [**Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2018**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2018/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 18.11 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2018/aspose.cells+for+jasperreports+18.11+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2016**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2016/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 2.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2016/aspose.cells+for+jasperreports+2.0.0+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2013**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2013/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.3 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2013/aspose.cells+for+jasperreports+1.1.3+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2012**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2012/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2012/aspose.cells+for+jasperreports+1.1.1+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.2 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2012/aspose.cells+for+jasperreports+1.1.2+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2010**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2010/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.0.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2010/aspose.cells+for+jasperreports+1.0.1+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2010/aspose.cells+for+jasperreports+1.1.0+release+notes)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2009**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2009/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports v1.0.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/releasenotes-2009/aspose.cells+for+jasperreports+v1.0.0.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2018**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2018/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 18.11 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2018/aspose.cells+for+jasperreports+18.11+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2016**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2016/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 2.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2016/aspose.cells+for+jasperreports+2.0.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2013**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2013/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.3 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2013/aspose.cells+for+jasperreports+1.1.3+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2012**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2012/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2012/aspose.cells+for+jasperreports+1.1.1+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.2 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2012/aspose.cells+for+jasperreports+1.1.2+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2010**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2010/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.0.1 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2010/aspose.cells+for+jasperreports+1.0.1+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports 1.1.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2010/aspose.cells+for+jasperreports+1.1.0+release+notes)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2009**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2009/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports v1.0.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2009/aspose.cells+for+jasperreports+v1.0.0.0+release+notes)    
 
 [Expand all](#)   [Collapse all](#)
 

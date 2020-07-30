@@ -1,10 +1,11 @@
-+++
-title = "Pivot Tables" 
-description = "" 
-weight = 8040 
-+++
-
-Aspose.Cells for C++ : Pivot Tables  
+---
+title : "Pivot Tables" 
+description : "" 
+weight : 8040 
+toc : false
+type: docs
+url: /cpp/developerguide/pivottables/
+---
 
 # Aspose.Cells for C++ : Pivot Tables
 

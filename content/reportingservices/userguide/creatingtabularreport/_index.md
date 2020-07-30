@@ -1,10 +1,11 @@
-+++
-title = "Creating Tabular Report" 
-description = "" 
-weight = 8062 
-+++
-
-Aspose.Cells for Reporting Services : Creating Tabular Report  
+---
+title : "Creating Tabular Report" 
+description : "" 
+weight : 8062 
+toc : false
+type: docs
+url: /reportingservices/userguide/creatingtabularreport/
+---
 
 # Aspose.Cells for Reporting Services : Creating Tabular Report
 

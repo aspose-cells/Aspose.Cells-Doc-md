@@ -1,10 +1,11 @@
-+++
-title = "Workbook" 
-description = "" 
-weight = 8115 
-+++
-
-Aspose.Cells for .NET : Workbook  
+---
+title : "Workbook" 
+description : "" 
+weight : 8115 
+toc : false
+type: docs
+url: /net/developerguide/workbook/
+---
 
 # Aspose.Cells for .NET : Workbook
 

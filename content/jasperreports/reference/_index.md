@@ -1,10 +1,11 @@
-+++
-title = "Reference" 
-description = "" 
-weight = 4026 
-+++
-
-Aspose.Cells for JasperReports : Reference  
+---
+title : "Reference" 
+description : "" 
+weight : 4026 
+toc : false
+type: docs
+url: /jasperreports/reference/
+---
 
 # Aspose.Cells for JasperReports : Reference
 

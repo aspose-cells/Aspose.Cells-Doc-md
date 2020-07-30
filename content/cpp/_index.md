@@ -1,10 +1,11 @@
-+++
-title = "Aspose.Cells for CPP" 
-description = "" 
-weight = 30 
-+++
-
-Aspose.Cells for C++ : Home  
+---
+title : "Aspose.Cells for CPP" 
+description : "" 
+weight : 30 
+toc : false
+type: docs
+url: /cpp/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/cpp/images/icons/contenttypes/home_page_16.png) Aspose.Cells for C++ : Home 
 

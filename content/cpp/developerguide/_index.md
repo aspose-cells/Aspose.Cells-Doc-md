@@ -1,26 +1,27 @@
-+++
-title = "Developer Guide" 
-description = "" 
-weight = 4009 
-+++
-
-Aspose.Cells for C++ : Developer Guide  
+---
+title : "Developer Guide" 
+description : "" 
+weight : 4009 
+toc : false
+type: docs
+url: /cpp/developerguide/
+---
 
 # Aspose.Cells for C++ : Developer Guide
 
 
 ### Developer Guide
 
-&nbsp;&nbsp;&nbsp;&nbsp;[**Loading Saving and Converting**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Opening Files**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/opening+files)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Saving Files**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/saving+files)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Managing Document Properties**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/managing+document+properties)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write CSV File Format**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/read+and+write+csv+file+format)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write Tab Delimited File Format**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/read+and+write+tab+delimited+file+format)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write XLSB File Format**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/read+and+write+xlsb+file+format)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write XLSM File Format**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/read+and+write+xlsm+file+format)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Convert Excel Workbook to PDF**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/convert+excel+workbook+to+pdf)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Converting Worksheet to Different Image Formats**](https://docs2.aspose.com/cells/cpp/developerguide/loadingsavingandconverting/converting+worksheet+to+different+image+formats)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Loading Saving and Converting**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Opening Files**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/opening+files)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Saving Files**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/saving+files)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Managing Document Properties**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/managing+document+properties)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write CSV File Format**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/read+and+write+csv+file+format)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write Tab Delimited File Format**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/read+and+write+tab+delimited+file+format)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write XLSB File Format**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/read+and+write+xlsb+file+format)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Write XLSM File Format**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/read+and+write+xlsm+file+format)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Convert Excel Workbook to PDF**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/convert+excel+workbook+to+pdf)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Converting Worksheet to Different Image Formats**](https://docs2.aspose.com/cells/cpp/developerguide/ld-sv-cvt/converting+worksheet+to+different+image+formats)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Rows and Columns**](https://docs2.aspose.com/cells/cpp/developerguide/rowsandcolumns/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Adjusting Row Height and Column Width**](https://docs2.aspose.com/cells/cpp/developerguide/rowsandcolumns/adjusting+row+height+and+column+width)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Copying Rows and Columns**](https://docs2.aspose.com/cells/cpp/developerguide/rowsandcolumns/copying+rows+and+columns)    
@@ -53,16 +54,16 @@ Aspose.Cells for C++ : Developer Guide
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create and Format Table**](https://docs2.aspose.com/cells/cpp/developerguide/tables/create+and+format+table)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Set the Comment of Table or List Object inside the Worksheet**](https://docs2.aspose.com/cells/cpp/developerguide/tables/set+the+comment+of+table+or+list+object+inside+the+worksheet)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Tables and Ranges**](https://docs2.aspose.com/cells/cpp/developerguide/tables/tables+and+ranges)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Cells Helper**](https://docs2.aspose.com/cells/cpp/developerguide/cellshelper/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Names and Indices**](https://docs2.aspose.com/cells/cpp/developerguide/cellshelper/names+and+indices)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Cells Helper**](https://docs2.aspose.com/cells/cpp/developerguide/helper/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Names and Indices**](https://docs2.aspose.com/cells/cpp/developerguide/helper/names+and+indices)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Technical Articles**](https://docs2.aspose.com/cells/cpp/developerguide/technicalarticles/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Apply Custom Theme Colors of the Workbook using Array of Colors**](https://docs2.aspose.com/cells/cpp/developerguide/technicalarticles/apply+custom+theme+colors+of+the+workbook+using+array+of+colors)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Copy Theme from one Workbook to Another**](https://docs2.aspose.com/cells/cpp/developerguide/technicalarticles/copy+theme+from+one+workbook+to+another)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create and Manipulate Excel Table**](https://docs2.aspose.com/cells/cpp/developerguide/technicalarticles/create+and+manipulate+excel+table)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Group Rows and Columns of Worksheet**](https://docs2.aspose.com/cells/cpp/developerguide/technicalarticles/group+rows+and+columns+of+worksheet)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Migrating from Earlier Versions of Aspose.Cells**](https://docs2.aspose.com/cells/cpp/developerguide/migratingfromearlierversionsofasposecells/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Cells 16.12.0**](https://docs2.aspose.com/cells/cpp/developerguide/migratingfromearlierversionsofasposecells/public+api+changes+in+aspose.cells+16.12.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Cells 17.1.0**](https://docs2.aspose.com/cells/cpp/developerguide/migratingfromearlierversionsofasposecells/public+api+changes+in+aspose.cells+17.1.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Migrating from Earlier Versions of Aspose.Cells**](https://docs2.aspose.com/cells/cpp/developerguide/migratingfromearliervs/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Cells 16.12.0**](https://docs2.aspose.com/cells/cpp/developerguide/migratingfromearliervs/public+api+changes+in+aspose.cells+16.12.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Cells 17.1.0**](https://docs2.aspose.com/cells/cpp/developerguide/migratingfromearliervs/public+api+changes+in+aspose.cells+17.1.0)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Charts**](https://docs2.aspose.com/cells/cpp/developerguide/charts/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Creating and Customizing Charts**](https://docs2.aspose.com/cells/cpp/developerguide/charts/creating+and+customizing+charts)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read and Manipulate Excel 2016 Charts**](https://docs2.aspose.com/cells/cpp/developerguide/charts/read+and+manipulate+excel+2016+charts)    

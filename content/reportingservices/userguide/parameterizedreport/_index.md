@@ -1,10 +1,11 @@
-+++
-title = "Parameterized Report" 
-description = "" 
-weight = 8058 
-+++
-
-Aspose.Cells for Reporting Services : Parameterized Report  
+---
+title : "Parameterized Report" 
+description : "" 
+weight : 8058 
+toc : false
+type: docs
+url: /reportingservices/userguide/parameterizedreport/
+---
 
 # Aspose.Cells for Reporting Services : Parameterized Report
 

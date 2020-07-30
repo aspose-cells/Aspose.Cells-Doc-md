@@ -1,10 +1,11 @@
-+++
-title = "Rows and Columns" 
-description = "" 
-weight = 8151 
-+++
-
-Aspose.Cells for Java : Rows and Columns  
+---
+title : "Rows and Columns" 
+description : "" 
+weight : 8151 
+toc : false
+type: docs
+url: /java/developerguide/rowsandcolumns/
+---
 
 # Aspose.Cells for Java : Rows and Columns
 

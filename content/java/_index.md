@@ -1,10 +1,11 @@
-+++
-title = "Aspose.Cells for  Java" 
-description = "" 
-weight = 20 
-+++
-
-Aspose.Cells for Java : Home  
+---
+title : "Aspose.Cells for  Java" 
+description : "" 
+weight : 20 
+toc : false
+type: docs
+url: /java/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/java/images/icons/contenttypes/home_page_16.png) Aspose.Cells for Java : Home 
 
@@ -18,8 +19,8 @@ Aspose.Cells for Java is a class library that enables your applications to perfo
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 *   [Aspose.Cells for Java Online Documentation](https://docs2.aspose.com/cells/java/)
-*   [Aspose.Cells for Java Features](https://docs2.aspose.com/cells/java/gettingstarted/productintroduction/asposecellsfeatures/feature+overview)
-*   [Aspose.Cells for Java Limitations](https://docs2.aspose.com/cells/java/gettingstarted/productintroduction/asposecellsfeatures/)
+*   [Aspose.Cells for Java Features](https://docs2.aspose.com/cells/java/gettingstarted/introduction/features/feature+overview)
+*   [Aspose.Cells for Java Limitations](https://docs2.aspose.com/cells/java/gettingstarted/introduction/features/)
 *   [Aspose.Cells for Java Release Notes](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforjava/)
 *   [Aspose.Cells for Java Product Page](https://products.aspose.com/cells/java)
 *   [Download Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)

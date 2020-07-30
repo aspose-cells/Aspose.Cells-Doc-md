@@ -1,10 +1,11 @@
-+++
-title = "Configuration" 
-description = "" 
-weight = 8080 
-+++
-
-Aspose.Cells for Reporting Services : Configuration  
+---
+title : "Configuration" 
+description : "" 
+weight : 8080 
+toc : false
+type: docs
+url: /reportingservices/userguide/configuration/
+---
 
 # Aspose.Cells for Reporting Services : Configuration
 

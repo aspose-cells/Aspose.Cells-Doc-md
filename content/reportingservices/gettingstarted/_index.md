@@ -1,10 +1,11 @@
-+++
-title = "Getting Started" 
-description = "" 
-weight = 4002 
-+++
-
-Aspose.Cells for Reporting Services : Getting Started  
+---
+title : "Getting Started" 
+description : "" 
+weight : 4002 
+toc : false
+type: docs
+url: /reportingservices/gettingstarted/
+---
 
 # Aspose.Cells for Reporting Services : Getting Started
 

@@ -1,10 +1,11 @@
-+++
-title = "Knowledge Base" 
-description = "" 
-weight = 8578 
-+++
-
-Aspose.Cells for Java : Knowledge Base  
+---
+title : "Knowledge Base" 
+description : "" 
+weight : 8578 
+toc : false
+type: docs
+url: /java/developerguide/knowledgebase/
+---
 
 # Aspose.Cells for Java : Knowledge Base
 

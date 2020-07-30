@@ -1,10 +1,11 @@
-+++
-title = "Tables" 
-description = "" 
-weight = 8256 
-+++
-
-Aspose.Cells for .NET : Tables  
+---
+title : "Tables" 
+description : "" 
+weight : 8256 
+toc : false
+type: docs
+url: /net/developerguide/tables/
+---
 
 # Aspose.Cells for .NET : Tables
 

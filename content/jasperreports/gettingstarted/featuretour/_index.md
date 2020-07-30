@@ -1,10 +1,11 @@
-+++
-title = "Feature Tour" 
-description = "" 
-weight = 8004 
-+++
-
-Aspose.Cells for JasperReports : Feature Tour  
+---
+title : "Feature Tour" 
+description : "" 
+weight : 8004 
+toc : false
+type: docs
+url: /jasperreports/gettingstarted/featuretour/
+---
 
 # Aspose.Cells for JasperReports : Feature Tour
 

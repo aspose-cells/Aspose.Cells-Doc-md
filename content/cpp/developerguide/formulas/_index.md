@@ -1,10 +1,11 @@
-+++
-title = "Formulas" 
-description = "" 
-weight = 8036 
-+++
-
-Aspose.Cells for C++ : Formulas  
+---
+title : "Formulas" 
+description : "" 
+weight : 8036 
+toc : false
+type: docs
+url: /cpp/developerguide/formulas/
+---
 
 # Aspose.Cells for C++ : Formulas
 

@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Cells for Reporting Services" 
-description = "" 
-weight = 80 
-+++
-
+---
+title : "Aspose.Cells for Reporting Services" 
+description : "" 
+weight : 80 
+toc : false
+type: docs
+url: /reportingservices/
+---
 
 # ![Home Page](https://docs2.aspose.com/cells/reportingservices/images/icons/contenttypes/home_page_16.png) Aspose.Cells for Reporting Services : Home 
 

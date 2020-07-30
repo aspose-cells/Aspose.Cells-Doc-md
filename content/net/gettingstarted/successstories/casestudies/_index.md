@@ -1,10 +1,11 @@
-+++
-title = "Case Studies" 
-description = "" 
-weight = 12043 
-+++
-
-Aspose.Cells for .NET : Case Studies  
+---
+title : "Case Studies" 
+description : "" 
+weight : 12043 
+toc : false
+type: docs
+url: /net/gettingstarted/successstories/casestudies/
+---
 
 # Aspose.Cells for .NET : Case Studies
 

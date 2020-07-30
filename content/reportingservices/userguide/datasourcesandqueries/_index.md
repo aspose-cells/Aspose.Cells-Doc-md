@@ -1,10 +1,11 @@
-+++
-title = "Data Sources and Queries" 
-description = "" 
-weight = 8053 
-+++
-
-Aspose.Cells for Reporting Services : Data Sources and Queries  
+---
+title : "Data Sources and Queries" 
+description : "" 
+weight : 8053 
+toc : false
+type: docs
+url: /reportingservices/userguide/datasourcesandqueries/
+---
 
 # Aspose.Cells for Reporting Services : Data Sources and Queries
 

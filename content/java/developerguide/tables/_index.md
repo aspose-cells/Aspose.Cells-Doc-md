@@ -1,10 +1,11 @@
-+++
-title = "Tables" 
-description = "" 
-weight = 8194 
-+++
-
-Aspose.Cells for Java : Tables  
+---
+title : "Tables" 
+description : "" 
+weight : 8194 
+toc : false
+type: docs
+url: /java/developerguide/tables/
+---
 
 # Aspose.Cells for Java : Tables
 

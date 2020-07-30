@@ -1,10 +1,11 @@
-+++
-title = "Drawing Objects" 
-description = "" 
-weight = 8066 
-+++
-
-Aspose.Cells for C++ : Drawing Objects  
+---
+title : "Drawing Objects" 
+description : "" 
+weight : 8066 
+toc : false
+type: docs
+url: /cpp/developerguide/drawingobjects/
+---
 
 # Aspose.Cells for C++ : Drawing Objects
 

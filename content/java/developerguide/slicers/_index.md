@@ -1,10 +1,11 @@
-+++
-title = "Slicers" 
-description = "" 
-weight = 8255 
-+++
-
-Aspose.Cells for Java : Slicers  
+---
+title : "Slicers" 
+description : "" 
+weight : 8255 
+toc : false
+type: docs
+url: /java/developerguide/slicers/
+---
 
 # Aspose.Cells for Java : Slicers
 

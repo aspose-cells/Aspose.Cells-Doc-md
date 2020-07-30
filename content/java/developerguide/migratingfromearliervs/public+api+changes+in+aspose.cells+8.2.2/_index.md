@@ -1,0 +1,47 @@
+---
+title : "Public API Changes in Aspose.Cells 8.2.2" 
+description : "" 
+weight : 12295 
+toc : false
+type: docs
+url: /java/developerguide/migratingfromearliervs/public+api+changes+in+aspose.cells+8.2.2/
+---
+
+# Aspose.Cells for Java : Public API Changes in Aspose.Cells 8.2.2
+
+
+This document describes the changes to the Aspose.Cells API from version 8.2.1 to 8.2.2 that may be of interest to module/application developers.
+
+## Added APIs
+
+### Property Version Added for BuiltInDocumentPropertyCollection Class
+
+The new property `Version` has been added to the `BuiltInDocumentPropertyCollection` class in order to allows developers to get or set the version of the application for a given spreadsheet.
+
+Please check detailed article on [Get Version of the Application that Created the Spreadsheet](http://www.aspose.com/docs/display/cellsjava/Get+the+Version+Number+of+the+Application+that+created+the+Excel+document).
+
+**Java**
+
+{{< code lang="java" >}}
+Workbook book = new Workbook("sample.xlsx");
+BuiltInDocumentPropertyCollection properties = book.getBuiltInDocumentProperties();
+System.out.println(properties.getVersion());
+{{< /code >}}
+
+  
+
+### Property Chart.Worksheet Added
+
+Before the release of Aspose.Cells 8.2.2, it was not possible to retrieve the instance of the `Worksheet` from a `Chart` object it contains. Aspose.Cells 8.2.2 has filled up this gap by providing the `Chart.Worksheet` property.
+
+Please check the detailed article [Get Worksheet of the Chart](http://www.aspose.com/docs/display/cellsjava/Get+Worksheet+of+the+Chart) for more information.
+
+**Java**
+
+{{< code lang="java" >}}
+Workbook workbook = new Workbook("sample.xlsx");
+Chart chart  = workbook.getWorksheets().get(0).getCharts().get(0);
+Worksheet  worksheet = chart.getWorksheet();
+System.out.println("Chart's Sheet Name: " + worksheet.getName());
+{{< /code >}}
+

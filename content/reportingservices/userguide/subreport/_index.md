@@ -1,10 +1,11 @@
-+++
-title = "Sub Report" 
-description = "" 
-weight = 8073 
-+++
-
-Aspose.Cells for Reporting Services : Sub Report  
+---
+title : "Sub Report" 
+description : "" 
+weight : 8073 
+toc : false
+type: docs
+url: /reportingservices/userguide/subreport/
+---
 
 # Aspose.Cells for Reporting Services : Sub Report
 

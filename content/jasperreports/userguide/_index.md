@@ -1,10 +1,11 @@
-+++
-title = "User Guide" 
-description = "" 
-weight = 4022 
-+++
-
-Aspose.Cells for JasperReports : User Guide  
+---
+title : "User Guide" 
+description : "" 
+weight : 4022 
+toc : false
+type: docs
+url: /jasperreports/userguide/
+---
 
 # Aspose.Cells for JasperReports : User Guide
 

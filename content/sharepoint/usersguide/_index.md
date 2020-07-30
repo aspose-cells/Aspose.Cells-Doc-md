@@ -1,10 +1,11 @@
-+++
-title = "Users Guide" 
-description = "" 
-weight = 4026 
-+++
-
-Aspose.Cells for SharePoint : User's Guide  
+---
+title : "Users Guide" 
+description : "" 
+weight : 4026 
+toc : false
+type: docs
+url: /sharepoint/usersguide/
+---
 
 # Aspose.Cells for SharePoint : User's Guide
 

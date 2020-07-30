@@ -1,10 +1,11 @@
-+++
-title = "Features" 
-description = "" 
-weight = 8005 
-+++
-
-Aspose.Cells for SharePoint : Features  
+---
+title : "Features" 
+description : "" 
+weight : 8005 
+toc : false
+type: docs
+url: /sharepoint/productinformation/features/
+---
 
 # Aspose.Cells for SharePoint : Features
 

@@ -1,0 +1,80 @@
+---
+title : "Setting Page Options in Ruby" 
+description : "" 
+weight : 24723 
+toc : false
+type: docs
+url: /java/plugins/ruby/guide/worksheets/pagesetup/setting+page+options+in+ruby/
+---
+
+# Aspose.Cells for Java : Setting Page Options in Ruby
+
+
+## Aspose.Cells - Setting Page Options
+
+##### Page Orientation
+
+To apply page orientation settings using **Aspose.Cells Java for Ruby**, call **page\_orientation** method of **pagesetup** module.
+
+**Ruby Code**
+
+{{< code lang="cs" >}}
+def page_orientation()
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
+    
+    # Instantiating a Workbook object by excel file path
+    workbook = Rjb::import('com.aspose.cells.Workbook').new
+    
+    # Accessing the first worksheet in the Excel file
+    worksheets = workbook.getWorksheets()
+    sheet_index = worksheets.add()
+    sheet = worksheets.get(sheet_index)
+
+    # Setting the orientation to Portrait
+    page_setup = sheet.getPageSetup()
+    page_orientation_type = Rjb::import('com.aspose.cells.PageOrientationType')
+    page_setup.setOrientation(page_orientation_type.PORTRAIT)
+    
+    # Saving the modified Excel file in default (that is Excel 2003) format
+    workbook.save(data_dir + "Page Orientation.xls")
+
+    puts "Set page orientation, please check the output file."
+end   
+{{< /code >}}
+
+##### Scaling Factor
+
+To apply scaling using **Aspose.Cells Java for Ruby**, call **scaling** method of **pagesetup** module.
+
+**Ruby Code**
+
+{{< code lang="cs" >}}
+def scaling()
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
+    
+    # Instantiating a Workbook object by excel file path
+    workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
+    
+    # Accessing the first worksheet in the Excel file
+    worksheets = workbook.getWorksheets()
+    sheet_index = worksheets.add()
+    sheet = worksheets.get(sheet_index)
+
+    # Setting the scaling factor to 100
+    page_setup = sheet.getPageSetup()
+    page_setup.setZoom(100)
+    
+    # Saving the modified Excel file in default (that is Excel 2003) format
+    workbook.save(data_dir + "Scaling.xls")
+
+    puts "Set scaling, please check the output file."
+end
+
+{{< /code >}}
+
+## Download Running Code
+
+Download **Setting Page Options (Aspose.Cells)** from any of the below mentioned social coding sites:
+
+*   [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)
+

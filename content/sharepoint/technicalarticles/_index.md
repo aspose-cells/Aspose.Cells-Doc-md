@@ -1,10 +1,11 @@
-+++
-title = "Technical Articles" 
-description = "" 
-weight = 4037 
-+++
-
-Aspose.Cells for SharePoint : Technical Articles  
+---
+title : "Technical Articles" 
+description : "" 
+weight : 4037 
+toc : false
+type: docs
+url: /sharepoint/technicalarticles/
+---
 
 # Aspose.Cells for SharePoint : Technical Articles
 

@@ -1,10 +1,11 @@
-+++
-title = "Known Issues" 
-description = "" 
-weight = 8022 
-+++
-
-Aspose.Cells for .NET : Known Issues  
+---
+title : "Known Issues" 
+description : "" 
+weight : 8022 
+toc : false
+type: docs
+url: /net/gettingstarted/knownissues/
+---
 
 # Aspose.Cells for .NET : Known Issues
 
