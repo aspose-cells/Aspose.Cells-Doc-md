@@ -18,7 +18,3 @@ The following sample code displays the absolute position of the first shape in t
 Absolute Position of this Shape is (320 , 183)
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [absolute-position-of-the-shape-in-pixel.png](https://docs2.aspose.com/cells/net/attachments/5017339/5112321.png) (image/png)  
-

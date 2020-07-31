@@ -50,10 +50,3 @@ Please see commenting these lines inside the code will break the links in `Sheet
 
 Here is the complete sample code which you can be executed with the provided [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013737/5115211.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sheet1.html-screenshot.png](https://docs2.aspose.com/cells/net/attachments/5013737/5115214.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [change-sheet-links-via-IFilePathProvider.png](https://docs2.aspose.com/cells/net/attachments/5013737/5115212.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [extract-this-zip-to-C-drive.zip](https://docs2.aspose.com/cells/net/attachments/5013737/5115213.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013737/5115211.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

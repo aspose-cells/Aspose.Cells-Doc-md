@@ -14,7 +14,3 @@ You can set the line space of the paragraph, its space before and space after us
 
 The following sample code explains the usage of the mentioned properties.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013823/5115235.xlsx) (application/unknown)  
-

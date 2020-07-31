@@ -28,10 +28,3 @@ This option can be accessed on the Excel interface by selecting any of the data 
 
 In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the boolean type [DataLabels.IsResizeShapeToFitText](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) property. The following piece of code shows the simple usage scenario of [DataLabels.IsResizeShapeToFitText](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) property.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Excel-Resize-Shape-To-Fit-Text.png](https://docs2.aspose.com/cells/net/attachments/5018336/5115053.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Excel-Resize-Shape-To-Fit-Text.png](https://docs2.aspose.com/cells/net/attachments/5018336/5115054.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DataLabels-Before.png](https://docs2.aspose.com/cells/net/attachments/5018336/5115056.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DataLabels-After.png](https://docs2.aspose.com/cells/net/attachments/5018336/5115055.png) (image/png)  
-

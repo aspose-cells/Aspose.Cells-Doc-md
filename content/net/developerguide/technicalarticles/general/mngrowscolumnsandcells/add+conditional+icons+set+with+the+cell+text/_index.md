@@ -14,8 +14,3 @@ Sometimes, you want to add conditional icons next to the text in a cell to make 
 
 The following code sample shows how to add conditional icons set with the Cell Text.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [addcondiconsset.png](https://docs2.aspose.com/cells/net/attachments/5017636/5115156.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [addcondiconsset.png](https://docs2.aspose.com/cells/net/attachments/5017636/5112281.png) (image/png)  
-

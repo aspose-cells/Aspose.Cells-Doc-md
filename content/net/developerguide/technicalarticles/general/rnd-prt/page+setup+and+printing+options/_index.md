@@ -78,12 +78,3 @@ Executing the code changes the print options.
 |![](https://docs2.aspose.com/cells/net/attachments/5017533/5112537.png)|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-001.png](https://docs2.aspose.com/cells/net/attachments/5017533/5112543.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-002.png](https://docs2.aspose.com/cells/net/attachments/5017533/5112540.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-003.png](https://docs2.aspose.com/cells/net/attachments/5017533/5112541.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-004.png](https://docs2.aspose.com/cells/net/attachments/5017533/5112538.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-005.png](https://docs2.aspose.com/cells/net/attachments/5017533/5112539.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-006.png](https://docs2.aspose.com/cells/net/attachments/5017533/5112537.png) (image/png)  
-

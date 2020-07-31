@@ -34,9 +34,3 @@ Aspose.Cells provides the [Shape.ShadowEffect](https://apireference.aspose.com/n
 
 The following sample code loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/5013609/5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ShadowEffect](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/shadoweffect) property and then saves the workbook in the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013609/5115411.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013609/5115425.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013609/5115411.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [shadow-effect-of-shape.png](https://docs2.aspose.com/cells/net/attachments/5013609/5115412.png) (image/png)  
-

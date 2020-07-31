@@ -28,8 +28,3 @@ Once the data is exported to a data table using the [Worksheet.Cells.ExportDataT
 |![](https://docs2.aspose.com/cells/net/attachments/5017562/5112470.png)|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [plot-visible-rows-1.png](https://docs2.aspose.com/cells/net/attachments/5017562/5112473.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [plot-visible-rows-2.png](https://docs2.aspose.com/cells/net/attachments/5017562/5112470.png) (image/png)  
-

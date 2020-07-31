@@ -16,8 +16,3 @@ When you convert your XLSB file into XLSM file using Aspose.Cells, these .bin fi
 
 The following code sample shows you how to convert the XLSB file into XLSM format using Aspose.Cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XLSB-Revisions.png](https://docs2.aspose.com/cells/net/attachments/5017303/5112349.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XLSM-Revisions.png](https://docs2.aspose.com/cells/net/attachments/5017303/5112348.png) (image/png)  
-

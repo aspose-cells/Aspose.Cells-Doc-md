@@ -244,10 +244,3 @@ There are three projects in the solution
 *   Aspose.Excel.GridViewExport\_DotNet\_2.0 - Extended GridView control for .NET 2.0
 *   Aspose.Excel.GridViewExport.Website - Web project for testing the Excel Exportable GridView control
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [previewExcel.png](https://docs2.aspose.com/cells/net/attachments/5020349/5115269.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ExportGridViewToExcel added to Toolbox in Visual Studio 2005 and 2008.png](https://docs2.aspose.com/cells/net/attachments/5020349/5115271.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ExportGridViewToExcel added to Toolbox in Visual Studio 2005 and 2008.png](https://docs2.aspose.com/cells/net/attachments/5020349/5115270.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ExportGridViewToExcel .NET 4.0 and Above.png](https://docs2.aspose.com/cells/net/attachments/5020349/5115272.png) (image/png)  
-

@@ -27,9 +27,3 @@ Please see the following sample code, its [source Excel file](https://docs2.aspo
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [samplePdfBookmarkEntry\_DestinationName.xlsx](https://docs2.aspose.com/cells/net/attachments/50270324/50528348.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add PDF Bookmarks with Named Destinations.png](https://docs2.aspose.com/cells/net/attachments/50270324/50528350.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputPdfBookmarkEntry\_DestinationName.pdf](https://docs2.aspose.com/cells/net/attachments/50270324/50528349.pdf) (application/pdf)  
-

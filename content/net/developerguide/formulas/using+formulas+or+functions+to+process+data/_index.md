@@ -77,8 +77,3 @@ It is possible to apply an array formula to a cell by calling the `Cell` class' 
 
 Add an **R1C1** reference style formula to a cell with the `Cell` class' `R1C1Formula` property.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [TestUDF.xlam](https://docs2.aspose.com/cells/net/attachments/5017210/81920908.xlam) (application/vnd.ms-excel.addin.macroenabled.12)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [test\_udf.xlsx](https://docs2.aspose.com/cells/net/attachments/5017210/81920909.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

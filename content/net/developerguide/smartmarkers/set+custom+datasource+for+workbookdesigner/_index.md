@@ -32,11 +32,3 @@ The source and output excel files are attached for reference.
 
 [Output File](https://docs2.aspose.com/cells/net/attachments/95323811/95584320.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WorkingWithContentTypeProperties.jpg](https://docs2.aspose.com/cells/net/attachments/95323811/95584316.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WorkingWithContentTypeProperties\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/95323811/95584317.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/net/attachments/95323811/95584318.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartMarker1.xlsx](https://docs2.aspose.com/cells/net/attachments/95323811/95584319.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [dest.xlsx](https://docs2.aspose.com/cells/net/attachments/95323811/95584320.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

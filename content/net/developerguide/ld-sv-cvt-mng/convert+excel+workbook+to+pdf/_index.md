@@ -113,9 +113,3 @@ The table that follows lists all features that are fully or partially supported 
 
 If your spreadsheet contains formulas, it is best to call [Workbook.CalculateFormula()](https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sourceWithCustProps.xlsx](https://docs2.aspose.com/cells/net/attachments/5013526/72417282.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outSourceWithCustProps.pdf](https://docs2.aspose.com/cells/net/attachments/5013526/72417283.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [CustomProperties.PNG](https://docs2.aspose.com/cells/net/attachments/5013526/72417284.png) (image/png)  
-

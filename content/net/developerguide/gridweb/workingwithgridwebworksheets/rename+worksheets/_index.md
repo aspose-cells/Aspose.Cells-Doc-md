@@ -31,13 +31,3 @@ After running the code, the worksheet is renamed Students.
 **Output: the worksheet is renamed Students**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013788/5115345.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rename Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013788/5115285.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rename Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5013788/5115284.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013788/5115286.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rename Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013788/5115123.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rename Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5013788/5115118.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rename Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013788/5115346.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rename Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5013788/5115345.png) (image/png)  
-

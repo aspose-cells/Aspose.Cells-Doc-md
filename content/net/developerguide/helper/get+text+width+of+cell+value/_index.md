@@ -23,7 +23,3 @@ The Source file used in the following code snippet is attached for your referenc
 
 [Source File](https://docs2.aspose.com/cells/net/attachments/96764748/96928090.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [GetTextWidthSample.xlsx](https://docs2.aspose.com/cells/net/attachments/96764748/96928090.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

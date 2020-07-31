@@ -65,11 +65,3 @@ If you have an issue with Aspose.Cells, follow these simple steps to make sure i
 
 *   Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Product Overview-001.png](https://docs2.aspose.com/cells/net/attachments/5018358/5114719.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [aspose.Cells-Java\_logo.png](https://docs2.aspose.com/cells/net/attachments/5018358/5114720.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [aspose.cells-for-.net.jpg](https://docs2.aspose.com/cells/net/attachments/5018358/5114717.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [aspose.cells-for-NET.png](https://docs2.aspose.com/cells/net/attachments/5018358/5114718.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [aspose-Cells-for-net.png](https://docs2.aspose.com/cells/net/attachments/5018358/5114756.png) (image/png)  
-

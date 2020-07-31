@@ -23,7 +23,3 @@ The following code snippet demonstrates creating a Union Range by using the [Wo
 
 *   [Output File](https://docs2.aspose.com/cells/net/attachments/106201464/106364952.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [CreateUnionRange\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/106201464/106364952.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

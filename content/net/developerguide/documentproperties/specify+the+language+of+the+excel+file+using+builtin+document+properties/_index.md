@@ -29,9 +29,3 @@ The following sample code creates a workbook and changes its built-in document p
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Specify-Language-Of-Excel-File.png](https://docs2.aspose.com/cells/net/attachments/64456175/64716890.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Specify-Language-Of-Excel-File.png](https://docs2.aspose.com/cells/net/attachments/64456175/64716889.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSpecifyLanguageOfExcelFile.xlsx](https://docs2.aspose.com/cells/net/attachments/64456175/64716891.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

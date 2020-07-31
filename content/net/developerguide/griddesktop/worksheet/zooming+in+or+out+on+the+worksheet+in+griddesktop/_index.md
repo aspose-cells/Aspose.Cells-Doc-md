@@ -29,9 +29,3 @@ Write below code in the `Load` event of form to set the template Excel file in G
   
 Now copy below code inside track `scroll` event and run the application. You will notice that moving track bar will change the zoom property of worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [zoomslider1.png](https://docs2.aspose.com/cells/net/attachments/5017757/5113822.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [zoomslider2.png](https://docs2.aspose.com/cells/net/attachments/5017757/5113827.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [zoomslider3.png](https://docs2.aspose.com/cells/net/attachments/5017757/5113828.png) (image/png)  
-

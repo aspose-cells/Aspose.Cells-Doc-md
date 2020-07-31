@@ -74,7 +74,3 @@ if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 *   [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Find and Replace.png](https://docs2.aspose.com/cells/net/attachments/5020491/5115043.png) (image/png)  
-

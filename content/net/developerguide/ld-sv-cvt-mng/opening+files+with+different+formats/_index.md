@@ -78,8 +78,3 @@ StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, fun
 
 FODS file is spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [samplePreferredParser.csv](https://docs2.aspose.com/cells/net/attachments/5013529/73990157.csv) (text/csv)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputsamplePreferredParser.xlsx](https://docs2.aspose.com/cells/net/attachments/5013529/73990158.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

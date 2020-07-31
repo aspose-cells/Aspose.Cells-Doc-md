@@ -48,8 +48,3 @@ Now, you can compile and run your application by pressing Ctrl+F5 and page will 
 
 Aspose.Cells.GridWeb offers great flexibility for working with GridWeb controls from either server or client side. Developers have wide number of options to use GridWeb control in different kinds of scenarios to provide better solutions to their customers.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using a Common Button to Submit Grid Data-001.png](https://docs2.aspose.com/cells/net/attachments/5013558/5115167.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using a Common Button to Submit Grid Data-002.png](https://docs2.aspose.com/cells/net/attachments/5013558/5115168.png) (image/png)  
-

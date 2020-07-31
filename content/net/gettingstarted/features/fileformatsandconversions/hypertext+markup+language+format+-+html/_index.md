@@ -44,8 +44,3 @@ Please see the following documentation article that explains how to convert/save
 
 *   [Converting Excel Files to HTML](https://docs2.aspose.com/cells/net/developerguide/ld-sv-cvt-mng/convert+workbook+to+different+formats#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HyperText Markup Language Format (HTML)-001.PNG](https://docs2.aspose.com/cells/net/attachments/5018344/5114736.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HyperText Markup Language Format (HTML)-002.PNG](https://docs2.aspose.com/cells/net/attachments/5018344/5114737.png) (image/png)  
-

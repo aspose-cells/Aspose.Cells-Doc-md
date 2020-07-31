@@ -39,8 +39,3 @@ The following sample code demonstrates how to make use of [HtmlSaveOptions.Table
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Prefix-Table-Elements-Styles.png](https://docs2.aspose.com/cells/net/attachments/60229103/60489789.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HTML-outputTableCssId.zip](https://docs2.aspose.com/cells/net/attachments/60229103/60489790.zip) (application/zip)  
-

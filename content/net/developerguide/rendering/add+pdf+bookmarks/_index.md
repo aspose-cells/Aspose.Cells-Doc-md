@@ -18,7 +18,3 @@ Please see the following sample code to find out how to add PDF bookmarks. The c
 
 If your spreadsheet has formulas, it is best to call [Workbook.CalculateFormula](https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula/index) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are refreshed & rendered correctly in PDF.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add PDF Bookmarks-001.png](https://docs2.aspose.com/cells/net/attachments/5017527/5112581.png) (image/png)  
-

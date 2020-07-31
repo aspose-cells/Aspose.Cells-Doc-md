@@ -31,7 +31,3 @@ Here is the console or debug output after the execution of the above sample code
 
 External Link Data Source: http:\\\\ws874dmErit\\WebFiles\\Files\\300\\ExternalAccounts.xlsxExternal Link Data Source After Removing Remote Path: D:\\Downloads\\ExternalAccounts.xlsxExternal Link Data Source After Changing Workbook.AbsolutePath to Local Path: C:\\Files\\Extra\\ExternalAccounts.xlsxExternal Link Data Source After Changing Workbook.AbsolutePath to Remote Path: http://www.aspose.com/WebFiles/ExcelFiles/ExternalAccounts.xlsx
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013577/5115146.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

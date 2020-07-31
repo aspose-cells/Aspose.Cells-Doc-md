@@ -20,7 +20,3 @@ To hide zero values in a worksheet in Microsoft Excel (for example Microsoft Exc
 
 Please see the following sample code that demonstrates hiding zeros using Aspose.Cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Hiding the Display of Zero Values in the Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017681/5112620.png) (image/png)  
-

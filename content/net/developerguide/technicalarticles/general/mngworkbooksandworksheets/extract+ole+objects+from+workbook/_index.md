@@ -56,11 +56,3 @@ Start **Visual Studio.Net** and create a new console application. This example w
 
 The code below does the actual work of finding and extracting OLE objects. The OLE objects (DOC, XLS and PDF files) are saved to disk.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Extract Ole Objects from Workbook-001.png](https://docs2.aspose.com/cells/net/attachments/5017693/5112157.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Extract Ole Objects from Workbook-002.png](https://docs2.aspose.com/cells/net/attachments/5017693/5112158.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Extract Ole Objects from Workbook-003.png](https://docs2.aspose.com/cells/net/attachments/5017693/5112159.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Extract Ole Objects from Workbook-004.png](https://docs2.aspose.com/cells/net/attachments/5017693/5112168.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Extract Ole Objects from Workbook-005.png](https://docs2.aspose.com/cells/net/attachments/5017693/5112169.png) (image/png)  
-

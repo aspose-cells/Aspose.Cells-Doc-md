@@ -29,7 +29,3 @@ The following sample code implements `ICustomRowCaption` and `ICustomColumnCapti
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Custom-Row-And-Custom-Column-Caption-of-GridDesktop-Worksheet.png](https://docs2.aspose.com/cells/net/attachments/48136523/48496687.png) (image/png)  
-

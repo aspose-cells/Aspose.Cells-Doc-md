@@ -56,7 +56,3 @@ Value: 25
 IsInSecondaryPlot: False
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PieBars.xlsx](https://docs2.aspose.com/cells/net/attachments/5024989/5115193.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

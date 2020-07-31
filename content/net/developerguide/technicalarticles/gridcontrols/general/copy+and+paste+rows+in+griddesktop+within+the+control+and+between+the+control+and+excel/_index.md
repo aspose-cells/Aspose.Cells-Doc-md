@@ -16,7 +16,3 @@ If you want to enable copy and paste rows in GridDesktop within the control or b
 
 The following sample code sets `GridDesktop.ClipboardCopyPaste` property in **Run Time**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [clipboard-copy-paste.png](https://docs2.aspose.com/cells/net/attachments/5013822/5115237.png) (image/png)  
-

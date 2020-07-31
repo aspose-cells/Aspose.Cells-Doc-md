@@ -37,8 +37,3 @@ When a workbook with multiple sheets is converted to HTML using Aspose.Cells, it
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputExportWorksheetCSSSeparately-HTML.zip](https://docs2.aspose.com/cells/net/attachments/60229044/60489766.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSingleSheet.xlsx](https://docs2.aspose.com/cells/net/attachments/60229044/79527937.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

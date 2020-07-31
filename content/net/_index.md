@@ -28,7 +28,3 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Cells for .NET Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [aspose-Cells-for-net.png](https://docs2.aspose.com/cells/net/attachments/5018363/66519084.png) (image/png)  
-

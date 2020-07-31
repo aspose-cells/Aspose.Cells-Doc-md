@@ -27,7 +27,3 @@ Finally, the following code saves the chart in image format and the workbook in 
 |![](https://docs2.aspose.com/cells/net/attachments/5017315/5112336.png)|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PieChartLeaderLines.png](https://docs2.aspose.com/cells/net/attachments/5017315/5112336.png) (image/png)  
-

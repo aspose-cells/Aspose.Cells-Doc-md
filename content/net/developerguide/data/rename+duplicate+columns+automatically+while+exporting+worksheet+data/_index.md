@@ -38,7 +38,3 @@ PeopleA
 PeopleB
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rename-duplicate-columns-automatically.png](https://docs2.aspose.com/cells/net/attachments/25002646/25395212.png) (image/png)  
-

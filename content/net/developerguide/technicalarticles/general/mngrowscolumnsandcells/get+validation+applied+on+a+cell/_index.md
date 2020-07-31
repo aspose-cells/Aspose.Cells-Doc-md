@@ -16,7 +16,3 @@ Similarly, you can use [Worksheet.Validations.GetValidationInCell](https://apire
 
 Below code sample, shows you how to get validation applied on a cell.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Validation-applied-on-cell-C1.PNG](https://docs2.aspose.com/cells/net/attachments/5017644/5112273.png) (image/png)  
-

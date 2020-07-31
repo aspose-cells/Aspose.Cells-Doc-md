@@ -35,11 +35,3 @@ In this article, we create a console application in Visual Studio.NET, and sort 
 6.  Sort the data in the worksheet:
     1.  Add code to the project.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017614/5112236.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017614/5112243.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Data-003.png](https://docs2.aspose.com/cells/net/attachments/5017614/5112242.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Data-001.jpg](https://docs2.aspose.com/cells/net/attachments/5017614/5112241.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Data-003.jpg](https://docs2.aspose.com/cells/net/attachments/5017614/5112240.jpg) (image/png)  
-

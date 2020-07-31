@@ -82,11 +82,3 @@ First create a column chart in Microsoft Excel and convert it to an image file, 
 1.  Set up a project, with references, as described above.
 2.  Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert an Excel Chart to Image-001.png](https://docs2.aspose.com/cells/net/attachments/5017568/5112512.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert an Excel Chart to Image-002.png](https://docs2.aspose.com/cells/net/attachments/5017568/5112515.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert an Excel Chart to Image-003.png](https://docs2.aspose.com/cells/net/attachments/5017568/5112514.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert an Excel Chart to Image-004.png](https://docs2.aspose.com/cells/net/attachments/5017568/5112517.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert an Excel Chart to Image-005.png](https://docs2.aspose.com/cells/net/attachments/5017568/5112516.png) (image/png)  
-

@@ -63,13 +63,3 @@ Now, convert the template file's worksheet Sheet1 to image files (one file per p
 
 Following is the code (written first in C# and then in VB) used by the component to accomplish the task. It converts Sheet1 in Testbook2.xls to image files by page.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-001.png](https://docs2.aspose.com/cells/net/attachments/5017529/5112528.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-002.png](https://docs2.aspose.com/cells/net/attachments/5017529/5112527.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-003.png](https://docs2.aspose.com/cells/net/attachments/5017529/5112526.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-004.png](https://docs2.aspose.com/cells/net/attachments/5017529/5112525.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-005.png](https://docs2.aspose.com/cells/net/attachments/5017529/5112524.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-006.png](https://docs2.aspose.com/cells/net/attachments/5017529/5112523.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-007.png](https://docs2.aspose.com/cells/net/attachments/5017529/5112522.png) (image/png)  
-

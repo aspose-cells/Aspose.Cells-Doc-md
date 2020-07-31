@@ -29,8 +29,3 @@ The following sample code adds a custom function named `MYTESTFUNC()` in cell B3
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [gridweb-custom-calculation.png](https://docs2.aspose.com/cells/net/attachments/5013744/5115427.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Calculate Custom Functions in GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5013744/5115169.png) (image/png)  
-

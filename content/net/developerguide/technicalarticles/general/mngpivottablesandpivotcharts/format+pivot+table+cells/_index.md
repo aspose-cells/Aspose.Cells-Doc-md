@@ -16,8 +16,3 @@ Sometimes, you want to format pivot table cells. For example, you want to apply 
 
 The following sample code formats the entire pivot table with a light blue color and then formats the table's second row yellow.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format-PivotTable-1.PNG](https://docs2.aspose.com/cells/net/attachments/5017733/5112626.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format-PivotTable-2.PNG](https://docs2.aspose.com/cells/net/attachments/5017733/5112629.png) (image/png)  
-

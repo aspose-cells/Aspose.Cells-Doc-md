@@ -32,12 +32,3 @@ The following sample code illustrates how to shift the first row down when inse
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleImportTableOptionsShiftFirstRowDown.xlsx](https://docs2.aspose.com/cells/net/attachments/44860310/45056031.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputImportTableOptionsShiftFirstRowDown-False.xlsx](https://docs2.aspose.com/cells/net/attachments/44860310/45056032.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputImportTableOptionsShiftFirstRowDown-True.xlsx](https://docs2.aspose.com/cells/net/attachments/44860310/45056033.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Effect-of-setting-ImportTableOptions.ShiftFirstRowDown-True-or-False.png](https://docs2.aspose.com/cells/net/attachments/44860310/45056040.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Effect-of-setting-ImportTableOptions.ShiftFirstRowDown-True-or-False.png](https://docs2.aspose.com/cells/net/attachments/44860310/45056041.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Effect-of-setting-ImportTableOptions.ShiftFirstRowDown-True-or-False.png](https://docs2.aspose.com/cells/net/attachments/44860310/45056034.png) (image/png)  
-

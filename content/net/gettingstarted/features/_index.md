@@ -12,19 +12,20 @@ url: /net/gettingstarted/features/
 
 ### Articles in this section
 
+*    [Aspose.Cells.GridDesktop - Desktop Grid Control](https://docs2.aspose.com/cells/net/gettingstarted/features/aspose.cells.griddesktop+-+desktop+grid+control/)    
+*    [Aspose.Cells.GridWeb - Web Grid Control](https://docs2.aspose.com/cells/net/gettingstarted/features/aspose.cells.gridweb+-+web+grid+control/)    
+*    [What Document Features are Supported](https://docs2.aspose.com/cells/net/gettingstarted/features/documentsupported/)    
+        *    [Save in the ODS - OpenDocument Spreadsheet Format](https://docs2.aspose.com/cells/net/gettingstarted/features/documentsupported/save+in+the+ods+-+opendocument+spreadsheet+format/)    
+*    [Feature Overview](https://docs2.aspose.com/cells/net/gettingstarted/features/feature+overview/)    
+*    [File Formats and Conversions](https://docs2.aspose.com/cells/net/gettingstarted/features/fileformatsandconversions/)    
+        *    [Adobe Portable Document Format - PDF](https://docs2.aspose.com/cells/net/gettingstarted/features/fileformatsandconversions/adobe+portable+document+format+-+pdf/)    
+        *    [HyperText Markup Language Format - HTML](https://docs2.aspose.com/cells/net/gettingstarted/features/fileformatsandconversions/hypertext+markup+language+format+-+html/)    
+        *    [OpenDocument - ODS](https://docs2.aspose.com/cells/net/gettingstarted/features/fileformatsandconversions/opendocument+-+ods/)    
+        *    [SpreadsheetML - XLSX XML](https://docs2.aspose.com/cells/net/gettingstarted/features/fileformatsandconversions/spreadsheetml+-+xlsx+xml/)    
+        *    [XML Paper Specification - XPS](https://docs2.aspose.com/cells/net/gettingstarted/features/fileformatsandconversions/xml+paper+specification+-+xps/)    
+*    [Aspose.Cells for iOS via Xamarin Features](https://docs2.aspose.com/cells/net/gettingstarted/features/iosviaxamarin/)    
+        *    [Aspose.Cells for iOS via Xamarin Limitations and API Differences](https://docs2.aspose.com/cells/net/gettingstarted/features/iosviaxamarin/aspose.cells+for+ios+via+xamarin+limitations+and+api+differences/)    
+*    [Microsoft Excel Spreadsheet Management Library](https://docs2.aspose.com/cells/net/gettingstarted/features/microsoft+excel+spreadsheet+management+library/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SpreadsheetML (XLSX, XML)-001.png](https://docs2.aspose.com/cells/net/attachments/5018360/5114738.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SpreadsheetML (XLSX, XML)-002.png](https://docs2.aspose.com/cells/net/attachments/5018360/5114747.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [OpenDocument (ODS)-001.png](https://docs2.aspose.com/cells/net/attachments/5018360/5114748.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-001.png](https://docs2.aspose.com/cells/net/attachments/5018360/5114749.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-002.png](https://docs2.aspose.com/cells/net/attachments/5018360/5114750.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-003.png](https://docs2.aspose.com/cells/net/attachments/5018360/5114743.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adobe Portable Document Format (PDF)-001.png](https://docs2.aspose.com/cells/net/attachments/5018360/5114744.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adobe Portable Document Format (PDF)-002.PNG](https://docs2.aspose.com/cells/net/attachments/5018360/5114745.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adobe Portable Document Format (PDF)-003.PNG](https://docs2.aspose.com/cells/net/attachments/5018360/5114746.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HyperText Markup Language Format (HTML)-001.PNG](https://docs2.aspose.com/cells/net/attachments/5018360/5114839.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HyperText Markup Language Format (HTML)-002.PNG](https://docs2.aspose.com/cells/net/attachments/5018360/5114840.png) (image/png)  
 

@@ -42,8 +42,3 @@ Aspose.Cells provides this valuable feature.
 
 The sample code below creates an XLSX file from scratch, and adds a comment with a picture background to cell A1.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add a Picture to an Excel Comment-001.png](https://docs2.aspose.com/cells/net/attachments/5017622/5112259.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [comment-picture.png](https://docs2.aspose.com/cells/net/attachments/5017622/5112264.png) (image/png)  
-

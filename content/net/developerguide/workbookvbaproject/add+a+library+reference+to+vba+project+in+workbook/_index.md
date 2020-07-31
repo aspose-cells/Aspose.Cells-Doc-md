@@ -28,7 +28,3 @@ In Microsoft Excel, you can add a library reference to the VBA project by clicki
 
 The following sample code adds or registers two library references to the VBA project of the workbook using [VbaProject.References.AddRegisteredReference()](https://apireference.aspose.com/net/cells/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) method.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [VBA-project-reference.png](https://docs2.aspose.com/cells/net/attachments/5017268/5112363.png) (image/png)  
-

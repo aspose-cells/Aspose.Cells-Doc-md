@@ -25,9 +25,3 @@ The widths of the columns are adjusted to show all the data they contain. When t
 
 An overloaded version of the `ImportDataView` method allows developers to specify the name of the sheet that holds the imported data and a specific number of rows and columns to import from the `DataView` object.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Import DataView to GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5013790/5115283.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Import DataView to GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5013790/5115344.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Import DataView to GridWeb.png](https://docs2.aspose.com/cells/net/attachments/5013790/5115119.png) (image/png)  
-

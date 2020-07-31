@@ -36,7 +36,3 @@ Gear Type Shape Text: Good
 Gear Type Shape Text: Excellent
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleExtractTextFromGearTypeSmartArtShape.xlsx](https://docs2.aspose.com/cells/net/attachments/66948394/67338483.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

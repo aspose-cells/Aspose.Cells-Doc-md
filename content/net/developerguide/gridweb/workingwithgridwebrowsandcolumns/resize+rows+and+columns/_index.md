@@ -39,8 +39,3 @@ To set the width of a column:
 2.  Access the worksheet's `Cells` collection.
 3.  Set the width of all cells in any specified column.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Resize Rows and Columns-001.png](https://docs2.aspose.com/cells/net/attachments/5013778/5115382.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Resize Rows and Columns-002.png](https://docs2.aspose.com/cells/net/attachments/5013778/5115383.png) (image/png)  
-

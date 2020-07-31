@@ -34,8 +34,3 @@ The following sample code explains how to convert Excel file to PDF format compa
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputCompliancePdfA1a.pdf](https://docs2.aspose.com/cells/net/attachments/44860248/45056014.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert-Excel-file-to-PDFA-1a.png](https://docs2.aspose.com/cells/net/attachments/44860248/45056015.png) (image/png)  
-

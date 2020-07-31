@@ -32,9 +32,3 @@ Any document loaded into Aspose.Cells can be converted to XPS. Aspose.Cells uses
 
 It is worthwhile to note that Aspose.Cells generates XPS directly (including sub-setting of TrueType fonts), without relying on the Windows Presentation Foundation classes found in the .NET Framework 3.5, this allows Aspose.Cells to produce XPS on machines that run .NET of earlier versions or on completely different platforms.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-001.png](https://docs2.aspose.com/cells/net/attachments/5018340/5114761.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-002.png](https://docs2.aspose.com/cells/net/attachments/5018340/5114739.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-003.png](https://docs2.aspose.com/cells/net/attachments/5018340/5114740.png) (image/png)  
-

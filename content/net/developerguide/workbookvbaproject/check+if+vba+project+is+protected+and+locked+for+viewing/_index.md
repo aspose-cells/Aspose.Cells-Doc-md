@@ -35,7 +35,3 @@ This is the console output of the above sample code when executed with the provi
 Is VBA Project Locked for Viewing: True
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleCheckifVBAProjectisProtected.xlsm](https://docs2.aspose.com/cells/net/attachments/42729754/43352065.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

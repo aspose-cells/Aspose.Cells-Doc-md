@@ -34,9 +34,3 @@ The following screenshot shows the Aspose.Cells output HTML file showing DataBar
 
 The following sample code converts the sample excel file into HTML which is just a normal [Excel to HTML conversion](https://docs2.aspose.com/cells/net/developerguide/ld-sv-cvt-mng/convert+workbook+to+different+formats#convertworkbooktodifferentformats-convertingexcelworkbooktohtml).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Conditional-formatting-in-sample-excel-file.png](https://docs2.aspose.com/cells/net/attachments/5013589/5115560.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Conditional-formatting-in-output-html.png](https://docs2.aspose.com/cells/net/attachments/5013589/5115559.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013589/5115558.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

@@ -32,8 +32,3 @@ Access the shape data using the [Shape.Paths](https://apireference.aspose.com/ne
 |![](https://docs2.aspose.com/cells/net/attachments/5017130/92340232.jpg)|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Fm3eNIO.png](https://docs2.aspose.com/cells/net/attachments/5017130/5115173.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [NonPrimitiveShape.jpg](https://docs2.aspose.com/cells/net/attachments/5017130/92340232.jpg) (image/jpeg)  
-

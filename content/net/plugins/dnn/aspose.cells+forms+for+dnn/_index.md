@@ -185,22 +185,3 @@ Please follow these simple steps to get started
 2.  Open Visual Studio 2010 and Choose **File** > **Open Project**
 3.  Browse to the latest source code that you have downloaded and open e.g **Aspose.DNN.DynamicFormsBuilderExcel.sln**
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderUseInput.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115544.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderSettingsPopup.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115543.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderExportPopup.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115246.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderExportPopup.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115545.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderSettings.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115546.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderSettings2.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115547.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderExport.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115542.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderDrag.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115541.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderExport.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115242.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderDrag.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115548.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderUseInput.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115248.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderSettingsPopup.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115244.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderExportPopup.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115245.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderSettings.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115247.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderSettings2.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115241.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDynamicFormBuilderDrag.png](https://docs2.aspose.com/cells/net/attachments/5013608/5115243.png) (image/png)  
-

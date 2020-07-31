@@ -35,7 +35,3 @@ X Value Type: IsString
 Y Value Type: IsNumeric
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleFindTypeOfXAndYValuesOfPoints.xlsx](https://docs2.aspose.com/cells/net/attachments/64456253/64716905.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -28,7 +28,3 @@ Is 15 a Valid Value for this Cell: True
 Is 30 a Valid Value for this Cell: False
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Validation-applied-on-cell-C1.PNG](https://docs2.aspose.com/cells/net/attachments/5017638/5112267.png) (image/png)  
-

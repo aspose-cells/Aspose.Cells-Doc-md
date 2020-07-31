@@ -32,8 +32,3 @@ Aspose.Cells allows you to implement your desired paper size of the worksheet. Y
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implement-Custom-Paper-Size-of-Worksheet-for-Rendering.png.png](https://docs2.aspose.com/cells/net/attachments/44860292/45056027.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputCustomPaperSize.pdf](https://docs2.aspose.com/cells/net/attachments/44860292/45056028.pdf) (application/pdf)  
-

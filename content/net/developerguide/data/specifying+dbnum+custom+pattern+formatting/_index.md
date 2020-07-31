@@ -26,7 +26,3 @@ Aspose.Cells supports the *DBNum *custom pattern formatting. For example, if yo
 
 The following sample code illustrates how to specify *DBNum *custom pattern formatting. Please check its [output PDF](https://docs2.aspose.com/cells/net/attachments/42730016/43352081.pdf) for more help.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputDBNumCustomFormatting.pdf](https://docs2.aspose.com/cells/net/attachments/42730016/43352081.pdf) (application/pdf)  
-

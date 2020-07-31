@@ -195,7 +195,6 @@ url: /net/plugins/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Extend and Contribute to CRM Update Import Tool**](https://docs2.aspose.com/cells/net/plugins/crm/updatetool/extend+and+contribute+to+crm+update+import+tool)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Using and Configuring CRM Update Import Tool**](https://docs2.aspose.com/cells/net/plugins/crm/updatetool/using+and+configuring+crm+update+import+tool)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

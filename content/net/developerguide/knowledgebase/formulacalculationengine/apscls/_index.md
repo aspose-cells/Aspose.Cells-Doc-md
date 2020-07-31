@@ -12,5 +12,7 @@ url: /net/developerguide/knowledgebase/formulacalculationengine/apscls/
 
 ### Articles in this section
 
+*    [Setting Formulas - Notice for Non English Users](https://docs2.aspose.com/cells/net/developerguide/knowledgebase/formulacalculationengine/apscls/setting+formulas+-+notice+for+non+english+users/)    
+
            
 

@@ -16,8 +16,3 @@ Aspose.Cells also provides this feature and has exposed the [Picture.SignatureLi
 
 The following sample code adds a Signature Line using [Picture.SignatureLine](https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture/properties/signatureline) property and saves the workbook.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [signature-line-using-aspose.cells.png](https://docs2.aspose.com/cells/net/attachments/5017321/5115160.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [signature-line-using-aspose.cells.png](https://docs2.aspose.com/cells/net/attachments/5017321/5112334.png) (image/png)  
-

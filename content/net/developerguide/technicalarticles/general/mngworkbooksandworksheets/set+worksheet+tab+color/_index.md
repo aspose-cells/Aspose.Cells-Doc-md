@@ -31,7 +31,3 @@ Aspose.Cells allows you to change the color of individual worksheet tabs to make
 
 The sample code below shows how to set tab color with Aspose.Cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [colored-tabs.png](https://docs2.aspose.com/cells/net/attachments/5017695/5112167.png) (image/png)  
-

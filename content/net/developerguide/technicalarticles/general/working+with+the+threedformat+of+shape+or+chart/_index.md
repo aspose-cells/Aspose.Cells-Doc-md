@@ -26,10 +26,3 @@ Aspose.Cells provides the [Shape.ThreeDFormat](https://apireference.aspose.com/n
 
 The following sample code loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/5013731/5115419.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ThreeDFormat](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/threedformat) property and then saves the workbook in the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013731/5115410.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreeDformat-of-shape.png](https://docs2.aspose.com/cells/net/attachments/5013731/5115409.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013731/5115489.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013731/5115419.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013731/5115410.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

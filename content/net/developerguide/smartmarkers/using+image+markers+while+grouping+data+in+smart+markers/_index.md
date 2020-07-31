@@ -22,10 +22,3 @@ The following sample creates a workbook and then adds the following smart marker
 
 Then it fills the data source with data and calls the [WorkbookDesigner.Process()](https://apireference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) method to process smart marker tags. The code uses these images i.e [moon.png](https://docs2.aspose.com/cells/net/attachments/5025000/5115492.png) and [moon2.png](https://docs2.aspose.com/cells/net/attachments/5025000/5115491.png) but you can use any image.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [moon.png](https://docs2.aspose.com/cells/net/attachments/5025000/5115492.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [moon2.png](https://docs2.aspose.com/cells/net/attachments/5025000/5115491.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [image-markers-while-grouping-data.png](https://docs2.aspose.com/cells/net/attachments/5025000/5115494.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [image-markers-while-grouping-data.png](https://docs2.aspose.com/cells/net/attachments/5025000/5115495.png) (image/png)  
-

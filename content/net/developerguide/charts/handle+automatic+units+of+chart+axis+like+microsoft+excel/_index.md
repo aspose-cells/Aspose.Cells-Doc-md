@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputHandleAutomaticAxisUnitsOfChart.pdf](https://docs2.aspose.com/cells/net/attachments/61540687/61767752.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Handle-Automatic-Axis-Units-Of-Chart.png](https://docs2.aspose.com/cells/net/attachments/61540687/61767753.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleHandleAutomaticAxisUnitsOfChart.xlsx](https://docs2.aspose.com/cells/net/attachments/61540687/61767755.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

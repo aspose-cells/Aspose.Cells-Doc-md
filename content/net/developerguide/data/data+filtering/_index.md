@@ -150,8 +150,3 @@ Excel provides custom filters like filter rows which ends with some specific str
 
 1.  [sourseSampleCountryNames.xlsx](https://docs2.aspose.com/cells/net/attachments/68944719/72417288.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sourseSampleCountryNames.xlsx](https://docs2.aspose.com/cells/net/attachments/68944719/72417288.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outSourseSampleCountryNames.xlsx](https://docs2.aspose.com/cells/net/attachments/68944719/72417289.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

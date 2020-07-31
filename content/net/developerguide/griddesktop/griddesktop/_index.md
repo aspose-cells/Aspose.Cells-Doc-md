@@ -12,29 +12,16 @@ url: /net/developerguide/griddesktop/griddesktop/
 
 ### Articles in this section
 
+*    [Default Font and Font Color of the GridDesktop](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/default+font+and+font+color+of+the+griddesktop/)    
+*    [Find GridDesktop Version at Runtime](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/find+griddesktop+version+at+runtime/)    
+*    [Handling Events after Deleting Columns and Rows in GridDesktop](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/handling+events+after+deleting+columns+and+rows+in+griddesktop/)    
+*    [Managing GridDesktops Context Menu](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/managing+griddesktops+context+menu/)    
+*    [Opening an Excel File](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/opening+an+excel+file/)    
+*    [Saving an Excel File](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/saving+an+excel+file/)    
+*    [Using Aspose.Cells.GridDesktop in WPF Application](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/using+aspose.cells.griddesktop+in+wpf+application/)    
+*    [Working with Aspose.Cells.GridDesktop Events](https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/working+with+aspose.cells.griddesktop+events/)    
+
            
 
  
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-001.png](https://docs2.aspose.com/cells/net/attachments/5017862/5114025.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-002.png](https://docs2.aspose.com/cells/net/attachments/5017862/5114028.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-003.png](https://docs2.aspose.com/cells/net/attachments/5017862/5114027.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-004.png](https://docs2.aspose.com/cells/net/attachments/5017862/5114022.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-005.png](https://docs2.aspose.com/cells/net/attachments/5017862/5114021.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-006.png](https://docs2.aspose.com/cells/net/attachments/5017862/5114024.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-007.png](https://docs2.aspose.com/cells/net/attachments/5017862/5114023.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-008.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113862.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Creating Control on a Windows Form-009.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113861.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Opening an Excel File-001.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113864.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-001.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113863.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-002.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113866.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-003.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113865.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-004.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113868.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-005.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113867.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-001.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113870.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-002.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113869.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-003.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113872.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-004.png](https://docs2.aspose.com/cells/net/attachments/5017862/5113871.png) (image/png)  
 

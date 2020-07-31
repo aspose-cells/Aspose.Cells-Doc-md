@@ -16,8 +16,3 @@ The following example shows how to add a WordArt shape as a watermark for the ch
 
 The following example shows how to add a WordArt shape as a watermark for an existing chart’s plot area.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add WordArt Watermark to Chart-001.png](https://docs2.aspose.com/cells/net/attachments/5017347/5112298.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add WordArt Watermark to Chart-002.png](https://docs2.aspose.com/cells/net/attachments/5017347/5112299.png) (image/png)  
-

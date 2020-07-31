@@ -76,16 +76,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 --------------------------------------------
 --------------------------------------------
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-1.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767834.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-3.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767836.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-2.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767835.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-4.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767833.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleRenderScrollbarInGridWeb.xlsx](https://docs2.aspose.com/cells/net/attachments/61540702/61767837.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-4.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767763.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-1.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767760.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-2.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767761.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-Scrollbar-in-GridWeb-3.png](https://docs2.aspose.com/cells/net/attachments/61540702/61767762.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleRenderScrollbarInGridWeb.xlsx](https://docs2.aspose.com/cells/net/attachments/61540702/61767764.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

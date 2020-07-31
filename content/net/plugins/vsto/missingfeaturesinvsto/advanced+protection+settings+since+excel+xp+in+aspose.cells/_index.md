@@ -120,7 +120,3 @@ fstream.Close();
 *   [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
 *   [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836#content)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Advanced Protection Settings since Excel XP-001.png](https://docs2.aspose.com/cells/net/attachments/5020675/5115079.png) (image/png)  
-

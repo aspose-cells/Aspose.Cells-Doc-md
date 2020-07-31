@@ -55,10 +55,3 @@ The following sample code applies the advanced filter on the [Sample Excel File
 
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Before-and-After-Advanced-Filtering.png](https://docs2.aspose.com/cells/net/attachments/48136879/48496690.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Microsoft-Excel-Advanced-Filtering-Interface.png](https://docs2.aspose.com/cells/net/attachments/48136879/48496693.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputAdvancedFilter.xlsx](https://docs2.aspose.com/cells/net/attachments/48136879/48496691.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleAdvancedFilter.xlsx](https://docs2.aspose.com/cells/net/attachments/48136879/48496692.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -44,19 +44,3 @@ The following example shows how to copy a column in a worksheet. This example us
 
 Similar to [Cells.CopyRows](https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/copyrows/index) method, the Aspose.Cells APIs also provide the [Cells.CopyColumns](https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/copycolumns/index) method in order to copy multiple source columns to a new location.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-003.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115567.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-004.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115570.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-005.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115566.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-004.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115575.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-001.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115569.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-002.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115571.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-003.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115576.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-006.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115574.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-007.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115573.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-008.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115572.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-002.png](https://docs2.aspose.com/cells/net/attachments/5017616/5115568.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-004.png](https://docs2.aspose.com/cells/net/attachments/5017616/5112252.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-003.png](https://docs2.aspose.com/cells/net/attachments/5017616/5112248.png) (image/png)  
-

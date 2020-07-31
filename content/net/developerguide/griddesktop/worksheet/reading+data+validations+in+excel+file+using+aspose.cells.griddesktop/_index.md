@@ -19,8 +19,3 @@ The following sample code imports the [sample excel file](https://docs2.aspose.c
   
 After importing the file into GridDesktop when we try to change the value of cell A2 greater than 100 which pops up the **Validation Error message box**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Validation-Error-message-box-pops-up.png](https://docs2.aspose.com/cells/net/attachments/5013594/5115551.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ValidationTesting.xlsx](https://docs2.aspose.com/cells/net/attachments/5013594/5115550.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

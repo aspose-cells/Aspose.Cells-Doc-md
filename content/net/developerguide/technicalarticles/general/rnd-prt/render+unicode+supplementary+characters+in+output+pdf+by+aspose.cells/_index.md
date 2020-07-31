@@ -38,9 +38,3 @@ You can use this sample code to convert [source excel file](https://docs2.aspose
   
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [unicode-supplementary-characters.png](https://docs2.aspose.com/cells/net/attachments/5013576/5115565.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [unicode-supplementary-characters.xlsx](https://docs2.aspose.com/cells/net/attachments/5013576/5115563.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/net/attachments/5013576/5115564.pdf) (application/pdf)  
-

@@ -37,8 +37,3 @@ End Sub
 
 You can download the [source Excel file](https://docs2.aspose.com/cells/net/attachments/5017574/5112508.xlsm) and the [output Excel file](https://docs2.aspose.com/cells/net/attachments/5017574/5112511.xlsm) from the given links.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsm](https://docs2.aspose.com/cells/net/attachments/5017574/5112508.xlsm) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsm](https://docs2.aspose.com/cells/net/attachments/5017574/5112511.xlsm) (image/png)  
-

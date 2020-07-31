@@ -18,9 +18,3 @@ The following screenshot highlights the effect of this code on [sample excel fi
 
 ![](https://docs2.aspose.com/cells/net/attachments/5013818/5115216.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013818/5115219.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013818/5115217.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [set-text-of-second-legend-entry-fill-to-none.png](https://docs2.aspose.com/cells/net/attachments/5013818/5115216.png) (image/png)  
-

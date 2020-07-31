@@ -48,12 +48,3 @@ The following sample code loads the sample Excel file and saves it to PDF/Image
 
 Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output-17.12.0.pdf](https://docs2.aspose.com/cells/net/attachments/81690955/81920900.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output-17.11.0.pdf](https://docs2.aspose.com/cells/net/attachments/81690955/81920901.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleRenderOfficeAdd-Ins.xlsx](https://docs2.aspose.com/cells/net/attachments/81690955/81920902.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputCrossType.pdf](https://docs2.aspose.com/cells/net/attachments/81690955/81920903.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputCrossType.png](https://docs2.aspose.com/cells/net/attachments/81690955/81920904.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleCrossType.xlsx](https://docs2.aspose.com/cells/net/attachments/81690955/81920905.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -100,8 +100,3 @@ private static void WrappingCellText()
 *   [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20(Aspose.Cells).zip/download)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20(Aspose.Cells).zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Wrapping Cell Text-003.png](https://docs2.aspose.com/cells/net/attachments/5020836/5115085.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Wrapping Cell Text-004.png](https://docs2.aspose.com/cells/net/attachments/5020836/5115086.png) (image/png)  
-

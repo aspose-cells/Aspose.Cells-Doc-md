@@ -26,7 +26,3 @@ Following sample code replaces tags TAG\_1 and TAG\_2 with some text say 'ys' an
 
 [sampleReplaceTagWithText.xlsx](https://docs2.aspose.com/cells/net/attachments/79331350/79527942.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleReplaceTagWithText.xlsx](https://docs2.aspose.com/cells/net/attachments/79331350/79527942.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

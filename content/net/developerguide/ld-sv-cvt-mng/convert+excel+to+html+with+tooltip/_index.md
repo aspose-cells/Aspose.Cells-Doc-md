@@ -25,12 +25,3 @@ The following code sample loads the [source excel file](https://docs2.aspose.com
 
 Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DocumentConversionProgressForTiff\_out.tiff](https://docs2.aspose.com/cells/net/attachments/97878711/98107413.tiff) (image/tiff)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleUseWorkbookRenderForImageConversion.xlsx](https://docs2.aspose.com/cells/net/attachments/97878711/98107414.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PagesBook1.xlsx](https://docs2.aspose.com/cells/net/attachments/97878711/98107415.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddTooltipToHtmlSample.xlsx](https://docs2.aspose.com/cells/net/attachments/97878711/98107416.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddTooltipToHtmlSample\_out.zip](https://docs2.aspose.com/cells/net/attachments/97878711/98107417.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddTooltipToHtml.jpg](https://docs2.aspose.com/cells/net/attachments/97878711/98107418.jpg) (image/jpeg)  
-

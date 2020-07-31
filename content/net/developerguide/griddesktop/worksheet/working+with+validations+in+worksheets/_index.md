@@ -88,7 +88,3 @@ To remove a specific validation from the worksheet, please follow the steps belo
 *   Access a desired **Worksheet**
 *   Remove a specific **Validation** from the **Worksheet** by specifying the cell name on which the validation was applied
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Validations in Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5017771/5113843.png) (image/png)  
-

@@ -21,8 +21,3 @@ This article will explain the use of [Shape.Geometry.ShapeAdjustValues](https://
 
 The below code sample shows how to change adjustment values of the shape.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Drawing-Shapes-Before-Adjustment.Png](https://docs2.aspose.com/cells/net/attachments/5017283/5112376.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Drawing-Shapes-After-Adjustment.Png](https://docs2.aspose.com/cells/net/attachments/5017283/5112377.png) (image/png)  
-

@@ -81,7 +81,3 @@ The following screenshot shows the GridWeb after the execution of the above samp
 
 ![](https://docs2.aspose.com/cells/net/attachments/22546721/22774112.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Binding-Worksheet-to-a-DataSet-At-Run-Time-using-GridWeb.png](https://docs2.aspose.com/cells/net/attachments/22546721/22774112.png) (image/png)  
-

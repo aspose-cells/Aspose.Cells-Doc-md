@@ -31,10 +31,3 @@ The following sample code demonstrated how to make use of [Workbook.AddDigitalS
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeDemo.pfx](https://docs2.aspose.com/cells/net/attachments/50266400/50528279.pfx) (application/x-pkcs12)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleDigitallySignedByCells.xlsx](https://docs2.aspose.com/cells/net/attachments/50266400/50528280.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputDigitallySignedByCells.xlsx](https://docs2.aspose.com/cells/net/attachments/50266400/50528281.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add-Digital-Signature-to-an-already-signed-Excel-file.png](https://docs2.aspose.com/cells/net/attachments/50266400/50528282.png) (image/png)  
-

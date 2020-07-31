@@ -30,7 +30,3 @@ To implement file encryption in Microsoft Excel (for example 2007):
 
 The code examples below apply strong encryption on a file and set a password.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Strong Encryption Type-001.png](https://docs2.aspose.com/cells/net/attachments/5017683/5112622.png) (image/png)  
-

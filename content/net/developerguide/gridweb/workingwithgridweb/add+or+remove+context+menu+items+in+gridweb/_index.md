@@ -44,8 +44,3 @@ This code shows how to add context menu item inside a GridWeb using code.
 
 This code shows how to remove context menu item using `CustomCommandButtons.Remove()` and `CustomCommandButtons.RemoveAt()` methods.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add or Remove Context Menu Items in GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5013783/5115332.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add or Remove Context Menu Items in GridWeb-002.png](https://docs2.aspose.com/cells/net/attachments/5013783/5115349.png) (image/png)  
-

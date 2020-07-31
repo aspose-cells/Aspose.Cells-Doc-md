@@ -12,5 +12,7 @@ url: /net/developerguide/knowledgebase/formulacalculationengine/apsclsgridcontro
 
 ### Articles in this section
 
+*    [List of Supported Functions](https://docs2.aspose.com/cells/net/developerguide/knowledgebase/formulacalculationengine/apsclsgridcontrols/list+of+supported+functions/)    
+
            
 

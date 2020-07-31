@@ -35,7 +35,3 @@ To print a whole workbook, iterate through the sheets and print them, or use the
 
 Aspose.Cells also provides overloads for the [WorkbookRender.ToPrinter()](https://apireference.aspose.com/net/cells/aspose.cells.rendering.workbookrender/toprinter/methods/3) and [SheetRender.ToPrinter()](https://apireference.aspose.com/net/cells/aspose.cells.rendering.sheetrender/toprinter/methods/2) methods, so it's possible to set the print job name while printing Excel spreadsheets. By default, all print jobs are created with the name "Document".
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Printing Workbooks-001.png](https://docs2.aspose.com/cells/net/attachments/5017531/5112530.png) (image/png)  
-

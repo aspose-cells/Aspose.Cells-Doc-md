@@ -14,7 +14,3 @@ Aspose.Cells allows you to check if the digital signature of the VBA code is val
 
 The following code demonstrates the usage of this property using the [sample excel file](https://docs2.aspose.com/cells/net/attachments/5018836/5115030.xlsm) which you can download from the provided link. The same excel file has a valid signature but when we modify its VBA code and save the workbook and then recheck, we find its signature has become invalid.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleVBAProjectSigned.xlsm](https://docs2.aspose.com/cells/net/attachments/5018836/5115030.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

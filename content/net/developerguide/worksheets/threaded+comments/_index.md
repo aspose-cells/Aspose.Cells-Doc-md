@@ -142,18 +142,3 @@ The following example demonstrates removing comments in column A1 by loading the
 
 Please note that by removing comment with Aspose.Cells, the author is not removed automatically. If you need to remove the author as well, please use the RemoveAt method of [ThreadedCommentAuthorCollection](https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentauthorcollection) class as shown in the example above.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsView.jpg](https://docs2.aspose.com/cells/net/attachments/89686042/89849857.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddWebExtension\_Out.xlsx](https://docs2.aspose.com/cells/net/attachments/89686042/89849858.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddThreadedComments\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/89686042/89849859.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [EditThreadedComment.jpg](https://docs2.aspose.com/cells/net/attachments/89686042/89849860.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsSample.xlsx](https://docs2.aspose.com/cells/net/attachments/89686042/89849861.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [EditThreadedComments.xlsx](https://docs2.aspose.com/cells/net/attachments/89686042/89849862.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DeleteThreadedComment.jpg](https://docs2.aspose.com/cells/net/attachments/89686042/89849863.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsSample\_Out.xlsx](https://docs2.aspose.com/cells/net/attachments/89686042/89849864.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsInExcel2016.jpg](https://docs2.aspose.com/cells/net/attachments/89686042/89849865.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsInExcel20162.jpg](https://docs2.aspose.com/cells/net/attachments/89686042/89849866.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddThreadedComment1.jpg](https://docs2.aspose.com/cells/net/attachments/89686042/89849867.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddThreadedComment2.jpg](https://docs2.aspose.com/cells/net/attachments/89686042/89849868.jpg) (image/jpeg)  
-

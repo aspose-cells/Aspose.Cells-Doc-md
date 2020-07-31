@@ -40,7 +40,3 @@ Set the **Workbook.Settings.CheckComptiliblity** property to **False** to disabl
 
 The code examples that follow show how to disable the Compatibility Checker with Aspose.Cells for .NET, first using C# and then using Visual Basic.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [comp\_check.png](https://docs2.aspose.com/cells/net/attachments/5017707/5112221.png) (image/png)  
-

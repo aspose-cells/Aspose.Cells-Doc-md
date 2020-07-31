@@ -26,7 +26,3 @@ Sometimes, you want a formula in your Table or List Object automatically propaga
 
 The following sample code creates a Table or List Object in such a way that the formula in column B will automatically propagate to new rows when you will enter new data. Please check the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013736/5115469.xlsx) generated with this code. If you enter any number in cell A3, you will see, the formula in cell B2 automatically propagates to cell B3.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013736/5115469.xlsx) (application/xlsx)  
-

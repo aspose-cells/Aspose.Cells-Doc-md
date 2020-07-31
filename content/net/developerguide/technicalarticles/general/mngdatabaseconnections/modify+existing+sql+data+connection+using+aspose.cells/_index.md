@@ -23,8 +23,3 @@ The following sample illustrates the use of Aspose.Cells to modify SQL Data Conn
 *   [Source Excel File](https://docs2.aspose.com/cells/net/attachments/5017317/5112357.xlsx)
 *   [Output Excel File](https://docs2.aspose.com/cells/net/attachments/5017317/5112356.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DataConnection.xlsx](https://docs2.aspose.com/cells/net/attachments/5017317/5112357.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5017317/5112356.xlsx) (image/png)  
-

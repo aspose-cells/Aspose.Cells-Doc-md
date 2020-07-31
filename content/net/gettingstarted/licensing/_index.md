@@ -263,12 +263,3 @@ protected void Application_Start(Object sender, EventArgs e)
 }
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Licensing-001.png](https://docs2.aspose.com/cells/net/attachments/5018325/5114841.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Licensing-002.png](https://docs2.aspose.com/cells/net/attachments/5018325/5114842.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Licensing-003.png](https://docs2.aspose.com/cells/net/attachments/5018325/5114843.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Licensing-004.png](https://docs2.aspose.com/cells/net/attachments/5018325/5114844.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Licensing-005.png](https://docs2.aspose.com/cells/net/attachments/5018325/5114845.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Licensing-006.png](https://docs2.aspose.com/cells/net/attachments/5018325/5114846.png) (image/png)  
-

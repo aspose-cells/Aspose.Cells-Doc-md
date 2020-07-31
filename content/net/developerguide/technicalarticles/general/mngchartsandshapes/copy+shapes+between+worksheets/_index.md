@@ -35,16 +35,3 @@ The following code demonstrates the use of [Worksheet.Shapes.AddCopy](https://ap
 
 To copy controls and other drawing objects, use the [Worksheet.Shapes.AddCopy](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shapecollection/methods/addcopy) method as shown in the example below.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112291.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112290.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-003.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112293.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-004.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112292.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-005.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112287.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-006.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112286.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-007.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112289.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy-Shapes-between-Worksheets-005b.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112288.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy-Shapes-between-Worksheets-002b.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112283.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy-Shapes-between-Worksheets-004a.png](https://docs2.aspose.com/cells/net/attachments/5017357/5112282.png) (image/png)  
-

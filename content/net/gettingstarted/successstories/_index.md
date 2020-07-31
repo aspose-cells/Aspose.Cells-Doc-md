@@ -12,11 +12,12 @@ url: /net/gettingstarted/successstories/
 
 ### Articles in this section
 
+*    [Case Studies](https://docs2.aspose.com/cells/net/gettingstarted/successstories/casestudies/)    
+        *    [Blue Inkt Business Solutions Providers](https://docs2.aspose.com/cells/net/gettingstarted/successstories/casestudies/blue+inkt+business+solutions+providers/)    
+        *    [Ohal Report Canvas Component](https://docs2.aspose.com/cells/net/gettingstarted/successstories/casestudies/ohal+report+canvas+component/)    
+        *    [Right90 Sales Forecasting](https://docs2.aspose.com/cells/net/gettingstarted/successstories/casestudies/right90+sales+forecasting/)    
+*    [Industry Reviews](https://docs2.aspose.com/cells/net/gettingstarted/successstories/industry+reviews/)    
+*    [Testimonials](https://docs2.aspose.com/cells/net/gettingstarted/successstories/testimonials/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Right90 Sales Forecasting-001.png](https://docs2.aspose.com/cells/net/attachments/5018317/5114854.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Blue Inkt Business Solutions Providers-001.png](https://docs2.aspose.com/cells/net/attachments/5018317/5114853.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Ohal Report Canvas Component-001.png](https://docs2.aspose.com/cells/net/attachments/5018317/5114873.png) (image/png)  
 

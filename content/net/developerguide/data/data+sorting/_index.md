@@ -53,8 +53,3 @@ Following are the sample files which can be downloaded for testing this feature:
 
 [outputsampleBackGroundFile.xlsx](https://docs2.aspose.com/cells/net/attachments/5025104/81920907.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleBackGroundFile.xlsx](https://docs2.aspose.com/cells/net/attachments/5025104/81920906.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputsampleBackGroundFile.xlsx](https://docs2.aspose.com/cells/net/attachments/5025104/81920907.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

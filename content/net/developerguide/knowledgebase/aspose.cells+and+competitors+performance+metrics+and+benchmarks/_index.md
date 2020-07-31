@@ -348,8 +348,3 @@ All the tasks are common and carefully chosen exploring each component's feature
 
 Overall, the benchmark results are useful for evaluating the following key points:Find out if your component is performing at its best, Compare the performance of one component to other similar components, Measure the effect of configuration changes and upgrades, Avoid paying for overpriced components only to get poor performance, Make objective independent measurements on which to base your purchasing decision, Measure the graph performance of the benchmarks related to a component
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells and Competitors Performance Matrics and Benchmarks-001.png](https://docs2.aspose.com/cells/net/attachments/5017262/5112132.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells and Competitors Performance Matrics and Benchmarks-002.png](https://docs2.aspose.com/cells/net/attachments/5017262/5112133.png) (image/png)  
-

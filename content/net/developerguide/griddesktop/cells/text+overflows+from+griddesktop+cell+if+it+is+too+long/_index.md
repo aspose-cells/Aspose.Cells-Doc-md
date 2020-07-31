@@ -29,9 +29,3 @@ The following screenshot shows that the text overflows from GridDesktop cell whe
 
 ![](https://docs2.aspose.com/cells/net/attachments/60229445/60489796.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Text-overflows-in-GridDesktop-Cell.png](https://docs2.aspose.com/cells/net/attachments/60229445/60489797.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Text-overflows-in-GridDesktop-Cell.png](https://docs2.aspose.com/cells/net/attachments/60229445/60489798.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Text-overflows-in-GridDesktop-Cell.png](https://docs2.aspose.com/cells/net/attachments/60229445/60489796.png) (image/png)  
-

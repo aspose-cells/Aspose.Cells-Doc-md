@@ -40,9 +40,3 @@ The example below implements both auto- and custom data filters. In the example,
 **Custom filtered data based on the criteria**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013799/5115378.jpg)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filter Data-001.jpg](https://docs2.aspose.com/cells/net/attachments/5013799/5115380.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filter Data-002.jpg](https://docs2.aspose.com/cells/net/attachments/5013799/5115379.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filter Data-003.jpg](https://docs2.aspose.com/cells/net/attachments/5013799/5115378.jpg) (image/jpeg)  
-

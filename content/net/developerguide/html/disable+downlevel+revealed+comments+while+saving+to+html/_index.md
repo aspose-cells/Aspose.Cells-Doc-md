@@ -33,9 +33,3 @@ The following sample code shows the usage of [HtmlSaveOptions.DisableDownlevelR
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleDisableDownlevelRevealedComments.xlsx](https://docs2.aspose.com/cells/net/attachments/50266163/50528257.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output HTML.zip](https://docs2.aspose.com/cells/net/attachments/50266163/50528258.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Disable-Downlevel-Revealed-Comments.png](https://docs2.aspose.com/cells/net/attachments/50266163/50528259.png) (image/png)  
-

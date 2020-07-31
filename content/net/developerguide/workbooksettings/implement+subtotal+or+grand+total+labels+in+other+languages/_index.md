@@ -31,8 +31,3 @@ The following sample code loads the [sample excel file](https://docs2.aspose.com
   
 Now use above created class in the code like below:
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013580/5115151.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013580/5115152.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

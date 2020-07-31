@@ -16,7 +16,3 @@ If you want to export your Excel file into HTML with GridLines, then please use 
 
 The following sample code creates a workbook and fills its worksheet with some values and then saves it in HTML format after setting the [HtmlSaveOptions.ExportGridLines](https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/exportgridlines) to **true**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output-html-with-gridlines.png](https://docs2.aspose.com/cells/net/attachments/5013816/5115224.png) (image/png)  
-

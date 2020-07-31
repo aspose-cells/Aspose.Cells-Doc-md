@@ -18,7 +18,3 @@ Below code sample shows you how to add HTML rich text inside the cell. Please se
 
 ![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5017640/5112268)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HTML-formatted-text.png](https://docs2.aspose.com/cells/net/attachments/5017640/5112268.png) (image/png)  
-

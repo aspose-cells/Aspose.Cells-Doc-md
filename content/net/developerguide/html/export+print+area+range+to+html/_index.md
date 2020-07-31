@@ -25,7 +25,3 @@ Following sample code loads a workbook and then exports print area to the HTML. 
 
 [sampleInlineCharts.xlsx](https://docs2.aspose.com/cells/net/attachments/79331352/79527946.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleInlineCharts.xlsx](https://docs2.aspose.com/cells/net/attachments/79331352/79527946.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

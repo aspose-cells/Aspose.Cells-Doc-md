@@ -27,7 +27,3 @@ The following sample code embeds the formula in the smart marker field named `Te
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputUsingFormulaParameterInSmartMarkerField.xlsx](https://docs2.aspose.com/cells/net/attachments/45908729/46465047.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -18,7 +18,3 @@ The following sample code creates a **Data Validation** in a cell B3. If you ent
 
 ![](https://docs2.aspose.com/cells/net/attachments/5013800/5115369.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Data Validations-001.png](https://docs2.aspose.com/cells/net/attachments/5013800/5115369.png) (image/png)  
-

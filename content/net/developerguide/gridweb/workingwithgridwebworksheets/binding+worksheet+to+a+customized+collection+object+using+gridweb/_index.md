@@ -212,10 +212,3 @@ After making changes to the data, click **Save** or **Submit** to save your chan
 
 This article showed how to bind a worksheet to a custom collection created. Using Aspose.Cells.GridWeb, developers can bind worksheets to either a database or custom collections via the Worksheets Designer in a GUI mode or through coding. This provides a wide range of options to developers for creating applications.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Binding Worksheet to a Customized Collection Object using GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5017594/5112972.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Binding Worksheet to a Customized Collection Object using GridWeb-002.png](https://docs2.aspose.com/cells/net/attachments/5017594/5112973.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Binding Worksheet to a Customized Collection Object using GridWeb-003.png](https://docs2.aspose.com/cells/net/attachments/5017594/5112974.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Binding Worksheet to a Customized Collection Object using GridWeb-004.png](https://docs2.aspose.com/cells/net/attachments/5017594/5112975.png) (image/png)  
-

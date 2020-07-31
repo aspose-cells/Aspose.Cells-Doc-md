@@ -12,26 +12,20 @@ url: /net/developerguide/griddesktop/cells/
 
 ### Articles in this section
 
+*    [Accessing and Modifying the Value of a Cell](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/accessing++and++modifying+the+value+of+a+cell/)    
+*    [Accessing Cells in a Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/accessing+cells+in+a+worksheet/)    
+*    [Adding Cell Protection in Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/adding+cell+protection+in+worksheet/)    
+*    [Adding Formulas to Cells](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/adding+formulas+to+cells/)    
+*    [Applying Styles on Cells](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/applying+styles+on+cells/)    
+*    [Changing the Font and Color of a Cell](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/changing+the+font+and+color+of+a+cell/)    
+*    [Filtering Data](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/filtering+data/)    
+*    [Formatting a Range of Cells](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/formatting+a+range+of+cells/)    
+*    [Merging and Unmerging Cells](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/merging++and++unmerging+cells/)    
+*    [Text overflows from GridDesktop cell if it is too long](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/text+overflows+from+griddesktop+cell+if+it+is+too+long/)    
+*    [Using Format Painter](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+format+painter/)    
+*    [Using Named Ranges](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+named+ranges/)    
+*    [Using Style Dialog](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+style+dialog/)    
+*    [Using Undo and Redo Feature](https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+undo+and+redo+feature/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Formulas to Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113918.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Formulas to Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113919.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Changing the Font and Color of a Cell-001.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113920.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Styles on Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113900.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Styles on Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113899.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Styles on Cells-003.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113898.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Formatting a Range of Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113897.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-001.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113896.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-002.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113895.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-003.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113894.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-004.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113893.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-005.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113908.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-006.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113907.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Merging and Unmerging Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113906.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Merging and Unmerging Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113905.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113904.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113903.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-003.png](https://docs2.aspose.com/cells/net/attachments/5017786/5113902.png) (image/png)  
 

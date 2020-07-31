@@ -24,10 +24,3 @@ This is the output image after setting the `ImageOrPrintOptions.DefaultFont` pro
 
 ![](https://docs2.aspose.com/cells/net/attachments/5024959/5115515.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_courier\_new.png](https://docs2.aspose.com/cells/net/attachments/5024959/5115113.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_times\_new\_roman.png](https://docs2.aspose.com/cells/net/attachments/5024959/5115108.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_courier\_new.png](https://docs2.aspose.com/cells/net/attachments/5024959/5115519.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_times\_new\_roman.png](https://docs2.aspose.com/cells/net/attachments/5024959/5115515.png) (image/png)  
-

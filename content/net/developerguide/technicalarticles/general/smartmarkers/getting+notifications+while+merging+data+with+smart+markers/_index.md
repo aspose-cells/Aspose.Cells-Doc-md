@@ -18,7 +18,3 @@ Rest of the process includes loading designer spreadsheet containing the Smart M
 
 ![](https://docs2.aspose.com/cells/net/attachments/5024969/5115522.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartMarker-ExcelView.png](https://docs2.aspose.com/cells/net/attachments/5024969/5115522.png) (image/png)  
-

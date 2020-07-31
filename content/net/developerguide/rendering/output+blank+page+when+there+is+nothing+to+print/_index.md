@@ -29,7 +29,3 @@ The following sample code creates the empty workbook which has an empty workshee
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [OutputBlankPageWhenNothingToPrint.png](https://docs2.aspose.com/cells/net/attachments/50266174/50528263.png) (image/png)  
-

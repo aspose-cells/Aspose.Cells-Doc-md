@@ -41,10 +41,3 @@ Name: Orders\_table
 
 Value: Source{\[Name="Orders",Signature="table"\]}\[Data\]
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WorkingWithContentTypeProperties.jpg](https://docs2.aspose.com/cells/net/attachments/96764782/96928095.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WorkingWithContentTypeProperties\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/96764782/96928096.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/net/attachments/96764782/96928097.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ODataSample.xlsx](https://docs2.aspose.com/cells/net/attachments/96764782/96928098.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

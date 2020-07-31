@@ -12,9 +12,13 @@ url: /net/gettingstarted/knownissues/
 
 ### Articles in this section
 
+*    [Document Not Saved Issue](https://docs2.aspose.com/cells/net/gettingstarted/knownissues/document+not+saved+issue/)    
+*    [HTTP Compression](https://docs2.aspose.com/cells/net/gettingstarted/knownissues/http+compression/)    
+*    [HTTPS SSL Issue](https://docs2.aspose.com/cells/net/gettingstarted/knownissues/https+ssl+issue/)    
+*    [License File Not Working Anymore](https://docs2.aspose.com/cells/net/gettingstarted/knownissues/license+file+not+working+anymore/)    
+*    [No overload for method Save takes 4 arguments](https://docs2.aspose.com/cells/net/gettingstarted/knownissues/no+overload+for+method+save+takes+4+arguments/)    
+*    [Pivot Table Issue](https://docs2.aspose.com/cells/net/gettingstarted/knownissues/pivot+table+issue/)    
+*    [Security Exception Issue](https://docs2.aspose.com/cells/net/gettingstarted/knownissues/security+exception+issue/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [No overload for method Save takes 4 arguments-001.png](https://docs2.aspose.com/cells/net/attachments/5017258/5112128.png) (image/png)  
 

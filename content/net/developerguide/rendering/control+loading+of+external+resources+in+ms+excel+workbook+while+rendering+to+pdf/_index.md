@@ -27,11 +27,3 @@ The following sample code explains how to make use of [WorkbookSettings.StreamPr
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [samplePdfSaveOptions\_StreamProvider.xlsx](https://docs2.aspose.com/cells/net/attachments/50270177/50528322.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [newPdfSaveOptions\_StreamProvider.png](https://docs2.aspose.com/cells/net/attachments/50270177/50528323.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputPdfSaveOptions\_StreamProvider.pdf](https://docs2.aspose.com/cells/net/attachments/50270177/50528325.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [oldPdfSaveOptions\_StreamProvider.png](https://docs2.aspose.com/cells/net/attachments/50270177/50528324.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Outcome of PdfSaveOptions\_StreamProvider.png](https://docs2.aspose.com/cells/net/attachments/50270177/50528326.png) (image/png)  
-

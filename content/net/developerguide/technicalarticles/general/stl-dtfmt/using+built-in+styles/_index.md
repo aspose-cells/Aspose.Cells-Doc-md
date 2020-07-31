@@ -68,7 +68,3 @@ The method `Workbook.CreateBuiltinStyle` and class `BuiltinStyleType`, make it c
 *   `ROW_LEVEL`
 *   `COLUMN_LEVEL`
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [builtin-styles.png](https://docs2.aspose.com/cells/net/attachments/5020411/5115273.png) (image/png)  
-

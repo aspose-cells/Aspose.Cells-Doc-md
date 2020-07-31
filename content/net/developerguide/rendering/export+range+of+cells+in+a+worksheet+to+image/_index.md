@@ -35,10 +35,3 @@ Executing the code creates an image of the range D8:G16 only.
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sample Excel File.png](https://docs2.aspose.com/cells/net/attachments/5017499/47153157.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Output Image.jpg](https://docs2.aspose.com/cells/net/attachments/5017499/47153159.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Output Image.jpg](https://docs2.aspose.com/cells/net/attachments/5017499/47153158.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleExportRangeOfCellsInWorksheetToImage.xlsx](https://docs2.aspose.com/cells/net/attachments/5017499/47153160.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

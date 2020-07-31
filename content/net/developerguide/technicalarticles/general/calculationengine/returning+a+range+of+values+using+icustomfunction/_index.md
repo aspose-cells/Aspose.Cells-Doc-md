@@ -21,8 +21,3 @@ Create a class with function `CalculateCustomFunction`. This class implements `I
   
 Now use above function into your program
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/net/attachments/5017295/5112353.pdf) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5017295/5112352.xlsx) (image/png)  
-

@@ -27,8 +27,3 @@ The following sample code loads the [Sample Numbers Spreadsheet](https://docs2.a
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleNumbersByAppleInc.numbers](https://docs2.aspose.com/cells/net/attachments/48136559/48496674.numbers) (application/octet-stream)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputNumbersByAppleInc.pdf](https://docs2.aspose.com/cells/net/attachments/48136559/48496675.pdf) (application/pdf)  
-

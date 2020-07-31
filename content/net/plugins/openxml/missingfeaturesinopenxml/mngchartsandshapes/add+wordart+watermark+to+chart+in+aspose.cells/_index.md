@@ -37,8 +37,3 @@ string FilePath = @"..\\..\\..\\Sample Files\\";string FileName = FilePath + "Ad
 *   [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 *   [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add WordArt Watermark to Chart-001.png](https://docs2.aspose.com/cells/net/attachments/5020414/5115047.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add WordArt Watermark to Chart-002.png](https://docs2.aspose.com/cells/net/attachments/5020414/5115046.png) (image/png)  
-

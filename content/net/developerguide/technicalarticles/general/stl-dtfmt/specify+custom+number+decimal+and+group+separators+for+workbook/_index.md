@@ -35,8 +35,3 @@ The following sample code illustrates how to specify the Custom Separators using
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [specify-custom-separator-in-excel.png](https://docs2.aspose.com/cells/net/attachments/5017719/5112645.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output-pdf.png](https://docs2.aspose.com/cells/net/attachments/5017719/5112646.png) (image/png)  
-

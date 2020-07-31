@@ -21,14 +21,3 @@ The following code sample demonstrates the use of [JsonLayoutOptions](https://a
 
 Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddTooltipToHtml.jpg](https://docs2.aspose.com/cells/net/attachments/104267878/104398863.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddTooltipToHtmlSample\_out.zip](https://docs2.aspose.com/cells/net/attachments/104267878/104398864.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddTooltipToHtmlSample.xlsx](https://docs2.aspose.com/cells/net/attachments/104267878/104398865.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PagesBook1.xlsx](https://docs2.aspose.com/cells/net/attachments/104267878/104398866.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleUseWorkbookRenderForImageConversion.xlsx](https://docs2.aspose.com/cells/net/attachments/104267878/104398867.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DocumentConversionProgressForTiff\_out.tiff](https://docs2.aspose.com/cells/net/attachments/104267878/104398868.tiff) (image/tiff)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleJson.json](https://docs2.aspose.com/cells/net/attachments/104267878/104398869.json) (application/json)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleJson\_out.csv](https://docs2.aspose.com/cells/net/attachments/104267878/104398870.csv) (application/vnd.ms-excel)  
-

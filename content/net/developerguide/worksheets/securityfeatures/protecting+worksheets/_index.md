@@ -113,8 +113,3 @@ The following example shows how to protect a column in the worksheet. It unlocks
 
 The following example shows how to allow users to edit a range in a protected worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Protect Worksheets Dialog.png](https://docs2.aspose.com/cells/net/attachments/5013518/5115175.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Unprotect worksheet dialog.png](https://docs2.aspose.com/cells/net/attachments/5013518/5115174.png) (image/png)  
-

@@ -58,12 +58,3 @@ Using **Font** tab, users can change their font name, size, color and styles etc
 
 Developers can also open **Style Dialog** programmatically by calling the **ShowStyleDialog** method of **GridDesktop**
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-001.png](https://docs2.aspose.com/cells/net/attachments/5017780/5113877.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-002.png](https://docs2.aspose.com/cells/net/attachments/5017780/5113878.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-003.png](https://docs2.aspose.com/cells/net/attachments/5017780/5113891.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-004.png](https://docs2.aspose.com/cells/net/attachments/5017780/5113892.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-005.png](https://docs2.aspose.com/cells/net/attachments/5017780/5113889.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Style Dialog-006.png](https://docs2.aspose.com/cells/net/attachments/5017780/5113890.png) (image/png)  
-

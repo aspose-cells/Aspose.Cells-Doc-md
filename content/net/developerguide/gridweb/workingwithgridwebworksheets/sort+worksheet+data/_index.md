@@ -61,18 +61,3 @@ After executing the code, data is sorted in ascending order.
 
 IMPORTANT: The above examples demonstrate sorting data on the basis of one column (top to bottom) or row (left to right). Aspose.Cells.GridWeb can also sort data according to more than one column or row. To do so, pass an array of column or row indices to the `Sort` method. Hybrid data type sorting is also supported.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-001.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115282.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-002.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115281.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-003.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115289.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-004.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115290.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-001.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115120.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-002.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115114.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-003.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115115.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-004.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115116.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-001.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115343.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-002.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115342.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-003.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115341.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Worksheet Data-004.png](https://docs2.aspose.com/cells/net/attachments/5013786/5115340.png) (image/png)  
-

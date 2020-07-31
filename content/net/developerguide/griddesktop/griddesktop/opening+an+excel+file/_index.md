@@ -62,8 +62,3 @@ Using file as a stream is a better approach to prohibit any kind of file access 
 
 IMPORTANT: An important point to discuss is that Aspose.Cells.GridDesktop control also contains a method named `LoadFromExcel`, which is also used to load the contents of an Excel file to the Grid. But, this method is now obsolete. So, it is recommended for all developers to use the `ImportExcelFile` method that is more robust and efficient than the obsolete one.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Opening an Excel File-001.png](https://docs2.aspose.com/cells/net/attachments/5017858/5113850.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Opening Excel File.png](https://docs2.aspose.com/cells/net/attachments/5017858/5115239.png) (image/png)  
-

@@ -28,9 +28,3 @@ The Aspose solution thoroughly supports the following document features when con
 
 You can also see the [detailed specification](/pages/createpage.action?spaceKey=cellsnet&title=Converting+Excel+to+PDF+Files&linkCreation=true&fromPageId=5018338) about how Aspose.Cells converts a document to PDF.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adobe Portable Document Format (PDF)-001.png](https://docs2.aspose.com/cells/net/attachments/5018338/5114741.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adobe Portable Document Format (PDF)-002.PNG](https://docs2.aspose.com/cells/net/attachments/5018338/5114742.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adobe Portable Document Format (PDF)-003.PNG](https://docs2.aspose.com/cells/net/attachments/5018338/5114735.png) (image/png)  
-

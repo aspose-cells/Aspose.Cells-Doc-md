@@ -38,9 +38,3 @@ Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Panel!$B$228
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:'Queries '!$D$14:$D$16
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleDuplicateDefinedName.xlsx](https://docs2.aspose.com/cells/net/attachments/25002729/25395215.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Get-Warnings-while-Loading-Excel-File.png](https://docs2.aspose.com/cells/net/attachments/25002729/25395216.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputDuplicateDefinedName.xlsx](https://docs2.aspose.com/cells/net/attachments/25002729/25395217.xlsx) (application/xlsx)  
-

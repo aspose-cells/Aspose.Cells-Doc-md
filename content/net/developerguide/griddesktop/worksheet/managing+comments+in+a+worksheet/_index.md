@@ -42,7 +42,3 @@ To access and modify an existing comment in the worksheet, developers can access
 
 To remove an existing comment, developers can simply access a desired worksheet and then **Remove** comment from the **Comments** collection of the **Worksheet** by specifying the cell (using its name or row & column number) containing comment.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing Comments in a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017763/5113814.png) (image/png)  
-

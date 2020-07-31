@@ -49,8 +49,3 @@ In the code example below, a text message is added to the cell A1 when the butto
 **Text added to A1 cell when custom command button is clicked**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013753/5115334.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create Custom Command Buttons-001.png](https://docs2.aspose.com/cells/net/attachments/5013753/5115333.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create Custom Command Buttons-002.png](https://docs2.aspose.com/cells/net/attachments/5013753/5115334.png) (image/png)  
-

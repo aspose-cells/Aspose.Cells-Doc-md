@@ -29,8 +29,3 @@ The following sample code creates a workbook and sets the value of the [Workboo
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx](https://docs2.aspose.com/cells/net/attachments/66945466/67338272.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Save-Workbook-to-Strict-Open-XML-Spreadsheet-Format.png](https://docs2.aspose.com/cells/net/attachments/66945466/67338273.png) (image/png)  
-

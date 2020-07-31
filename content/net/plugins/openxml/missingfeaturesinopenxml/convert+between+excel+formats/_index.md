@@ -65,7 +65,3 @@ Sometimes, you want to convert or save a workbook with multiple worksheets into 
 *   [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [covert to other formats.png](https://docs2.aspose.com/cells/net/attachments/5020532/5115067.png) (image/png)  
-

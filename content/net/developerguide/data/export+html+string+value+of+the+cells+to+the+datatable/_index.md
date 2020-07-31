@@ -37,8 +37,3 @@ The following sample code illustrates how to export HTML string value of the cel
 
 <Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #00b0f0;Background-Color: #ffe699;">Crow</Font>
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleExportTableAsHtmlString.xlsx](https://docs2.aspose.com/cells/net/attachments/44860284/45056025.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Cells-Data-Exported-as-HTML-String.png](https://docs2.aspose.com/cells/net/attachments/44860284/45056026.png) (image/png)  
-

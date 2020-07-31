@@ -22,8 +22,3 @@ The evaluation version of Aspose.Cells (that is, Aspose.Cells without a license 
 
 If you want to test Aspose.Cells without evaluation version limitations, [request a 30-day temporary license](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Evaluate Aspose.Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5018385/5114611.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Evaluate Aspose.Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5018385/5114612.png) (image/png)  
-

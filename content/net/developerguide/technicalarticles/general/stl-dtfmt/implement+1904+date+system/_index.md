@@ -26,7 +26,3 @@ To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 20
 
 See the following sample code on how to achieve this using Aspose.Cells APIs.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implement 1904 Date System-001.png](https://docs2.aspose.com/cells/net/attachments/5017711/5112598.png) (image/png)  
-

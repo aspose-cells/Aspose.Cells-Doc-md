@@ -20,10 +20,3 @@ When you use the sheet-to-image feature, the output image has whitespace, that i
 
 Below example code removes the whitespace around the data in the output image.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Worksheet to Image - Remove white space around data-001.png](https://docs2.aspose.com/cells/net/attachments/5017572/5112551.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Worksheet to Image - Remove white space around data-002.png](https://docs2.aspose.com/cells/net/attachments/5017572/5112548.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Worksheet to Image - Remove white space around data 002.jpg](https://docs2.aspose.com/cells/net/attachments/5017572/5112549.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Worksheet to Image - Remove white space around data 001.jpg](https://docs2.aspose.com/cells/net/attachments/5017572/5112546.jpg) (image/png)  
-

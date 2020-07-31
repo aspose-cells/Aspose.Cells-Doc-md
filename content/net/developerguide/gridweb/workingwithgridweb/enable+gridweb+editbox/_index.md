@@ -31,7 +31,3 @@ To enable this feature, you need to import "jquery.js" file to your project and 
 
 ### Example
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Enable GridWeb EditBox-001.png](https://docs2.aspose.com/cells/net/attachments/5013754/5115331.png) (image/png)  
-

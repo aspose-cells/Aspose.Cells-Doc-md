@@ -28,10 +28,3 @@ The following sample code loads the [source excel file](https://docs2.aspose.com
 
 If you open the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013738/5115467.xlsx) and click the `Developer > Source` button, you will see the cells are linked with XML Map elements and they will also be highlighted by Microsoft Excel as shown in this image.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [link-cells-to-xml-map-elements.png](https://docs2.aspose.com/cells/net/attachments/5013738/5115466.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013738/5115472.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013738/5115471.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013738/5115467.xlsx) (application/xlsx)  
-

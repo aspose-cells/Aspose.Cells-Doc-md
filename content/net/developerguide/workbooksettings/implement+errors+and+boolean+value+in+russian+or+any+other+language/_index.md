@@ -32,9 +32,3 @@ The following sample code illustrates how to implement Errors and Boolean Value 
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleRussianGlobalization.xlsx](https://docs2.aspose.com/cells/net/attachments/48136575/73990159.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implement-Errors-and-Boolean-Value-in-Russian-or-Any-Other-Language.png](https://docs2.aspose.com/cells/net/attachments/48136575/73990161.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputRussianGlobalization.pdf](https://docs2.aspose.com/cells/net/attachments/48136575/73990160.pdf) (application/pdf)  
-

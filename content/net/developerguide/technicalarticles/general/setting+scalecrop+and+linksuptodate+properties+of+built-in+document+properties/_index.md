@@ -34,8 +34,3 @@ The possible values for this element are defined by the W3C XML Schema boolean d
 
 The following sample code sets the [ScaleCrop](https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) and [LinksUpToDate](https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) extended built-in document properties of the workbook. Please check the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013554/5115500.xlsx) generated with this code, change its extension to `.zip` and extract its contents and view the app.xml as shown in the screenshot above.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [setting-scalecrop-and-linksuptodate-properties.png](https://docs2.aspose.com/cells/net/attachments/5013554/5115499.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013554/5115500.xlsx) (application/unknown)  
-

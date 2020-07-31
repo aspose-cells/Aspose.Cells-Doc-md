@@ -24,9 +24,3 @@ The following code snippet demonstrates the use of the [RegexKey](https://apire
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/net/attachments/101122950/101089317.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleRegexReplace.xlsx](https://docs2.aspose.com/cells/net/attachments/101122950/101089318.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [RegexReplace\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/101122950/101089319.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

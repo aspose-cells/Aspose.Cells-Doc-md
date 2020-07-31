@@ -49,7 +49,3 @@ End saving page index 7 of pages 11
 Start saving page index 8 of pages 11  
 End saving page index 8 of pages 11
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PagesBook1.xlsx](https://docs2.aspose.com/cells/net/attachments/94635041/94896151.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

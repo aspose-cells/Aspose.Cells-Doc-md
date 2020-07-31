@@ -95,7 +95,3 @@ workbook.Save(@"c:\BackgroundPicBook.xls");
  
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Set Background Picture of a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017467/5112096.png) (image/png)  
-

@@ -33,7 +33,3 @@ The following sample code sets the cell A1 `GridTableItemStyle.NumberType` as 10
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Enter Cell Data of GridWeb Worksheet in Percentage Format-001.png](https://docs2.aspose.com/cells/net/attachments/5013563/5115163.png) (image/png)  
-

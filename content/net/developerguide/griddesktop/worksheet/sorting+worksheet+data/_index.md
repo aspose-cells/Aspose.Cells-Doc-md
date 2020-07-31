@@ -34,9 +34,3 @@ Now we write method for **Ascending Sort**. You can create a button for **Ascend
   
 Finally, we write some code to achieve **Descending Sort** functionality. Create a **Descending Sort** button and write below code inside its **Click** Event.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sorting Worksheet Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017773/5113842.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sorting Worksheet Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017773/5113841.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sorting Worksheet Data-003.png](https://docs2.aspose.com/cells/net/attachments/5017773/5113815.png) (image/png)  
-

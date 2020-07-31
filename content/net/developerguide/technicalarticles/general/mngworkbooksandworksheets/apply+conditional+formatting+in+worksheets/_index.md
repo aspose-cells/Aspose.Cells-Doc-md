@@ -49,11 +49,3 @@ When the above code is executed, conditional formatting is applied to cell “A1
   
 When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as sum of B1 & B2.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5017697/5112178.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5017697/5112177.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-003.png](https://docs2.aspose.com/cells/net/attachments/5017697/5112176.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-004.png](https://docs2.aspose.com/cells/net/attachments/5017697/5112175.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-005.png](https://docs2.aspose.com/cells/net/attachments/5017697/5112174.png) (image/png)  
-

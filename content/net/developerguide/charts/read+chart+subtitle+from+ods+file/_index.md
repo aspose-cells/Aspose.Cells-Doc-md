@@ -27,7 +27,3 @@ Aspose.Cells provides you with the ability to read chart subtitles in ODS files 
 
 Chart Subtitle: Sample Chart Subtitle
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleChart.ods](https://docs2.aspose.com/cells/net/attachments/89456665/89620481.ods) (application/vnd.oasis.opendocument.spreadsheet)  
-

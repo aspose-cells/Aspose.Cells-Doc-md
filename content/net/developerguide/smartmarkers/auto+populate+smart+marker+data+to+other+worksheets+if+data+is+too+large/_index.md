@@ -27,7 +27,3 @@ The following sample code has a data source that has 21 records. We want to show
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputAutoPopulateSmartMarkerDataToOtherWorksheets.xlsx](https://docs2.aspose.com/cells/net/attachments/60229080/60489775.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

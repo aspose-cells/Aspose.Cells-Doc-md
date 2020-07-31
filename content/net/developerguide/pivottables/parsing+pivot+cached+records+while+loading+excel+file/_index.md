@@ -29,8 +29,3 @@ The following sample code explains the usage of [LoadOptions.ParsingPivotCached
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleParsingPivotCachedRecords.xlsx](https://docs2.aspose.com/cells/net/attachments/61540923/61767773.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputParsingPivotCachedRecords.xlsx](https://docs2.aspose.com/cells/net/attachments/61540923/61767774.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -22,8 +22,3 @@ To copy a sparkline to other cells in Microsoft Excel:
 
 Aspose.Cells provides the `SparklineCollection.Add(dataRange, row, column)` method to specify a sparkline group's data range and location. The following sample code loads the source Excel file as shown in the screenshot above, then accesses the first sparkline group and adds data ranges and locations in the sparkline group. Finally, it writes the output Excel file on disk which is also shown in the screenshot above.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sparklines-source-excel-file.png](https://docs2.aspose.com/cells/net/attachments/5017335/5112344.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sparklines-output-excel-file.png](https://docs2.aspose.com/cells/net/attachments/5017335/5112345.png) (image/png)  
-

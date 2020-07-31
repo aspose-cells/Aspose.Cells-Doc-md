@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [LoadDataFilterOptions-DefinedNames.png](https://docs2.aspose.com/cells/net/attachments/61542294/61767858.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleFilterDefinedNames.xlsx](https://docs2.aspose.com/cells/net/attachments/61542294/61767860.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputFilterDefinedNames.xlsx](https://docs2.aspose.com/cells/net/attachments/61542294/61767861.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

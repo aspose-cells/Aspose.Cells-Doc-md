@@ -44,7 +44,3 @@ private void gridDesktop1_AfterDeleteColumnsAndRows(object sender, Aspose.Cells.
 }
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Handling-Events-after-Deleting-Columns-and-Rows.png](https://docs2.aspose.com/cells/net/attachments/61540698/61767759.png) (image/png)  
-

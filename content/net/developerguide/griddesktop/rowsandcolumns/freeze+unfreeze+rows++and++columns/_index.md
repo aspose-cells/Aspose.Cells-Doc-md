@@ -50,10 +50,3 @@ To unfreeze rows of a worksheet using Aspose.Cells.GridDesktop, please follow th
 *   Access any desired **Worksheet**
 *   Set the number of **Frozen Rows** in the **Worskheet** to Zero (0). It will produce the effect of unfrozen rows
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Freeze Unfreeze Rows and Columns-001.png](https://docs2.aspose.com/cells/net/attachments/5017804/5113909.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Freeze Unfreeze Rows and Columns-002.png](https://docs2.aspose.com/cells/net/attachments/5017804/5113910.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Freeze Unfreeze Rows and Columns-003.png](https://docs2.aspose.com/cells/net/attachments/5017804/5113911.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Freeze Unfreeze Rows and Columns-004.png](https://docs2.aspose.com/cells/net/attachments/5017804/5113912.png) (image/png)  
-

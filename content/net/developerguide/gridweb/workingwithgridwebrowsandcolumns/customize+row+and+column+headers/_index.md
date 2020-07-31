@@ -40,12 +40,3 @@ To customize the header or caption of a column:
 **The headers of column 1, 2 and 3 has been customized**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013771/5115400.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Customize Row and Column Headers-001.png](https://docs2.aspose.com/cells/net/attachments/5013771/5115323.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Customize Row and Column Headers-002.png](https://docs2.aspose.com/cells/net/attachments/5013771/5115324.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Customize Row and Column Headers-001.png](https://docs2.aspose.com/cells/net/attachments/5013771/5115107.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Customize Row and Column Headers-002.png](https://docs2.aspose.com/cells/net/attachments/5013771/5115109.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Customize Row and Column Headers-001.png](https://docs2.aspose.com/cells/net/attachments/5013771/5115384.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Customize Row and Column Headers-002.png](https://docs2.aspose.com/cells/net/attachments/5013771/5115400.png) (image/png)  
-

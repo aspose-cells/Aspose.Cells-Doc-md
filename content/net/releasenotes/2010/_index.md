@@ -23,7 +23,6 @@ url: /net/releasenotes/2010/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .NET 4.9.0 Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2010/aspose.cells+for+.net+4.9.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .NET 4.8.2 Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2010/aspose.cells+for+.net+4.8.2+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

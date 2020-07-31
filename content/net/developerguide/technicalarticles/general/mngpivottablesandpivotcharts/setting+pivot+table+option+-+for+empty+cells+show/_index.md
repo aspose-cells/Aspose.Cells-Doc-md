@@ -33,7 +33,3 @@ To find and set this option in Microsoft Excel:
 
 Aspose.Cells provides the `PivotTable.DisplayNullString` and `PivotTable.NullString` properties for setting the "For empty cells show" pivot table option.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [For-empty-cells-show.png](https://docs2.aspose.com/cells/net/attachments/5017731/5112630.png) (image/png)  
-

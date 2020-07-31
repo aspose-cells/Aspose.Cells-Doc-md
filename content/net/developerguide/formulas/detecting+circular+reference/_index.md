@@ -36,7 +36,3 @@ The source sample file can be downloaded from the following link:
 
 Definition of *CircularMonitor* class which is derived from [AbstractCalculationMonitor](https://apireference.aspose.com/net/cells/aspose.cells/abstractcalculationmonitor) class is as follows:
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Circular Formulas.xls](https://docs2.aspose.com/cells/net/attachments/77365360/77496332.xls) (application/vnd.ms-excel)  
-

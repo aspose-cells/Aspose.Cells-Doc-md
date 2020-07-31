@@ -14,10 +14,3 @@ Aspose.Cells provides the [OleObject.AutoLoad](https://apireference.aspose.com/n
 
 The following sample code loads the [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013809/5115231.xlsx) which has a non-real OLE image. The OLE object is actually a Microsoft Word document but the sample excel file shows the animal image instead of Microsoft Word image. But if you open the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013809/5115225.xlsx), you will see Microsoft Excel displays the correct OLE image.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013809/5115231.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [source-excel-file-with-OLE-object-having-unreal-image.png](https://docs2.aspose.com/cells/net/attachments/5013809/5115227.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output-excel-file-with-OLE-object-having-real-image.png](https://docs2.aspose.com/cells/net/attachments/5013809/5115228.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013809/5115225.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

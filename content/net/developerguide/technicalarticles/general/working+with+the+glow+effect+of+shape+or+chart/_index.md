@@ -30,9 +30,3 @@ Aspose.Cells provides the [Shape.Glow](https://apireference.aspose.com/net/cells
 
 The following sample code loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/5013701/5115407.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.Glow](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/glow) property and then saves the workbook in [output excel file](https://docs2.aspose.com/cells/net/attachments/5013701/5115414.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013701/5115414.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013701/5115407.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [glow-effect-of-shape.png](https://docs2.aspose.com/cells/net/attachments/5013701/5115408.png) (image/png)  
-

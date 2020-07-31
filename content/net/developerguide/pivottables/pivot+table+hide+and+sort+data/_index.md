@@ -25,8 +25,3 @@ The source and output excel files used in the code snippet are attached for refe
 
 [Output File](https://docs2.aspose.com/cells/net/attachments/96764769/96928094.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PivotTableHideAndSortSample.xlsx](https://docs2.aspose.com/cells/net/attachments/96764769/96928093.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PivotTableHideAndSort\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/96764769/96928094.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

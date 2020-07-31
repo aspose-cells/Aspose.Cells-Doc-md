@@ -50,8 +50,3 @@ In Windows Explorer:
 
 This setting allows files to run directly in the web browser, without the Open-Save-Cancel dialog showing when downloading or opening the file.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Opening Excel File without Open Save Cancel Dialog Box-001.png](https://docs2.aspose.com/cells/net/attachments/5017701/5112199.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Opening Excel File without Open Save Cancel Dialog Box-002.png](https://docs2.aspose.com/cells/net/attachments/5017701/5112196.png) (image/png)  
-

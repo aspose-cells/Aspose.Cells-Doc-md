@@ -35,7 +35,3 @@ Here is the sample script of the **ASPX Page**.
 
 Here is the sample code of the **ASPX Code Behind CS File**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [set\_column\_header\_tip1.png](https://docs2.aspose.com/cells/net/attachments/42730054/43352083.png) (image/png)  
-

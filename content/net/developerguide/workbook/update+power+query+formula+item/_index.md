@@ -31,11 +31,3 @@ Aspose.Cells API provides the ability to update Power Query Formula Items. The 
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WebExtensionsSample.xlsx](https://docs2.aspose.com/cells/net/attachments/106201463/106364950.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddWebExtension\_Out.xlsx](https://docs2.aspose.com/cells/net/attachments/106201463/106364951.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SamplePowerQueryFormula.xlsx](https://docs2.aspose.com/cells/net/attachments/106201463/106364953.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SamplePowerQueryFormulaSource.xlsx](https://docs2.aspose.com/cells/net/attachments/106201463/106364954.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SamplePowerQueryFormula\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/106201463/106364955.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

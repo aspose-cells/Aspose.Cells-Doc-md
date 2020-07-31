@@ -16,8 +16,3 @@ Aspose.Cells provides a [DataLabels.IsTextWrapped](https://apireference.aspose.c
 
 The below code sample shows how to disable text wrapping for the data labels of the chart.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [wrapped-text-in-data-labels.png](https://docs2.aspose.com/cells/net/attachments/5017337/5112325.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [unwrapped-text-in-data-labels.png](https://docs2.aspose.com/cells/net/attachments/5017337/5112324.png) (image/png)  
-

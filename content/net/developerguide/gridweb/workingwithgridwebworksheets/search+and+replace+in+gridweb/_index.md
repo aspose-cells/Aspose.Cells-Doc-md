@@ -107,8 +107,3 @@ To replace text:
 
 If the worksheet is not in edit mode, the **Replace** button is not displayed.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Search and Replace in GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5013787/5115339.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Search and Replace in GridWeb-002.png](https://docs2.aspose.com/cells/net/attachments/5013787/5115338.png) (image/png)  
-

@@ -12,14 +12,15 @@ url: /net/developerguide/technicalarticles/gridcontrols/general/
 
 ### Articles in this section
 
+*    [Calculate Custom Functions in GridWeb](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/calculate+custom+functions+in+gridweb/)    
+*    [Copy and Paste Rows in GridDesktop within the Control and between the Control and Excel](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/copy+and+paste+rows+in+griddesktop+within+the+control+and+between+the+control+and+excel/)    
+*    [Enter Cell Data of GridWeb Worksheet in Percentage Format](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/enter+cell+data+of+gridweb+worksheet+in+percentage+format/)    
+*    [Loading GridWeb Data in Async Mode](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/loading+gridweb+data+in+async+mode/)    
+*    [Specify the path where GridWeb stores temporary session files](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/specify+the+path+where+gridweb+stores+temporary+session+files/)    
+*    [Using a Common Button to Submit Grid Data](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/using+a+common+button+to+submit+grid+data/)    
+*    [Using client side functions to select range or get the selected range in GridWeb](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/using+client+side+functions+to+select+range+or+get+the+selected+range+in+gridweb/)    
+*    [Using Show Formulas Feature of GridWeb](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/using+show+formulas+feature+of+gridweb/)    
+*    [Using Your Own Icons Instead of the GridWeb Default Icons](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/gridcontrols/general/using+your+own+icons+instead+of+the+gridweb+default+icons/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using a Common Button to Submit Grid Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017907/5113205.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using a Common Button to Submit Grid Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017907/5113204.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using a Common Button to Submit Grid Data-003.png](https://docs2.aspose.com/cells/net/attachments/5017907/5113203.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using a Common Button to Submit Grid Data-004.png](https://docs2.aspose.com/cells/net/attachments/5017907/5113202.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [showformulas1.png](https://docs2.aspose.com/cells/net/attachments/5017907/5113209.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [showformulas2.png](https://docs2.aspose.com/cells/net/attachments/5017907/5113208.png) (image/png)  
 

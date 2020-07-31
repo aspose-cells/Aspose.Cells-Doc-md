@@ -36,8 +36,3 @@ To unfreeze rows and columns:
 2.  Access a worksheet.
 3.  Unfreeze rows & columns.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Freeze and Unfreeze Panes-001.png](https://docs2.aspose.com/cells/net/attachments/5013769/5115399.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Freeze and Unfreeze Panes-002.png](https://docs2.aspose.com/cells/net/attachments/5013769/5115402.png) (image/png)  
-

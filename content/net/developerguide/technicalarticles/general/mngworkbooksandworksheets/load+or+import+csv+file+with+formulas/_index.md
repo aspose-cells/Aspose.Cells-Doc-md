@@ -22,9 +22,3 @@ The code first loads the CSV file, then import it again at cell D4. Finally, it 
 
 ![](https://docs2.aspose.com/cells/net/attachments/5018760/5115033.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output-xlsx-csv.png](https://docs2.aspose.com/cells/net/attachments/5018760/5115033.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.csv](https://docs2.aspose.com/cells/net/attachments/5018760/5115034.csv) (application/vnd.ms-excel)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5018760/5115052.xlsx) (application/unknown)  
-

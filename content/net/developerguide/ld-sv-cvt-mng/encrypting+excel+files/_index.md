@@ -47,7 +47,3 @@ Aspose.Cells allows to encrypt and decrypt ODS file. Decrypted ODS file can be o
 
 For decrypting an ODS file, load the file by providing a password in the **LoadOptions.Password**. Once the file is loaded, call function **Workbook.Unprotect()** with actual password as an argument and finally set the **WorkbookSettings.Password** string to null.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [effect-of-TxtSaveOptions.TrimLeadingBlankRowAndColumn-property.png.png](https://docs2.aspose.com/cells/net/attachments/5024978/25395205.png) (image/png)  
-

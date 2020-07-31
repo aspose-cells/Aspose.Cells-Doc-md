@@ -18,10 +18,3 @@ In the following sample code, we used the [source excel file](https://docs2.asp
 
 Here is the sample code used to generate the [output PDF](https://docs2.aspose.com/cells/net/attachments/5023561/5115538.pdf) from the [source excel file](https://docs2.aspose.com/cells/net/attachments/5023561/5115535.xlsx). Please read the comments for more information.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Array-formula-before-calculation.png](https://docs2.aspose.com/cells/net/attachments/5023561/5115534.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DataTable.xlsx](https://docs2.aspose.com/cells/net/attachments/5023561/5115535.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/net/attachments/5023561/5115538.pdf) (application/kswps)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Array-formula-after-calculation.png](https://docs2.aspose.com/cells/net/attachments/5023561/5115539.png) (image/png)  
-

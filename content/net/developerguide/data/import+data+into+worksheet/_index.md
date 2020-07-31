@@ -132,8 +132,3 @@ Aspose.Cells provides a [JsonUtility](https://apireference.aspose.com/net/cells
 
 The sample code given below demonstrates the use of the [JsonUtility](https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonutility) and [JsonLayoutOptions](https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonlayoutoptions) classes to import JSON data.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleMergedTemplate.xlsx](https://docs2.aspose.com/cells/net/attachments/5025402/90112033.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleMergedTemplate\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/5025402/90112034.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

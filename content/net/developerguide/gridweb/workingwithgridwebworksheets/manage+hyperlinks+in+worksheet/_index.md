@@ -135,11 +135,3 @@ To remove a hyperlink:
 1.  Access the active worksheet.
 2.  Remove a hyperlink using the `Hyperlinks` collection's `Remove` method.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Manage Hyperlinks in Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5013773/5115385.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Manage Hyperlinks in Worksheet-002\_2.png](https://docs2.aspose.com/cells/net/attachments/5013773/5115386.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Manage Hyperlinks in Worksheet-003\_2.png](https://docs2.aspose.com/cells/net/attachments/5013773/5115387.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Manage Hyperlinks in Worksheet-004.png](https://docs2.aspose.com/cells/net/attachments/5013773/5115388.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Manage Hyperlinks in Worksheet-005.png](https://docs2.aspose.com/cells/net/attachments/5013773/5115389.png) (image/png)  
-

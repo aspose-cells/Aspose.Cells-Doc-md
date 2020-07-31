@@ -45,7 +45,3 @@ To remove an existing hyperlink, developers can simply access a desired workshee
 
 If you want to add a hyperlink to a cell and want to display the hyperlink URL in the cell instead of some value then don't add any value to the cell and simply add the hyperlink to that cell. Doing so, the cell will be hyperlinked and the hyperlink URL will also be displayed in the cell as its value.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing Hyperlinks in a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017759/5113816.png) (image/png)  
-

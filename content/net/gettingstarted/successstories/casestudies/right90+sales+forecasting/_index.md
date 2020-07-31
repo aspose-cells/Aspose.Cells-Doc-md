@@ -46,7 +46,3 @@ We use the following Aspose.Cells features to create rich UI Excel worksheets:
 
 The Aspose.Cells component allowed us to quickly build and read Excel workbooks, giving our manufacturing customers another easy and intuitive way to capture, update and rollup their sales forecasts with Right90.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Right90 Sales Forecasting-001.png](https://docs2.aspose.com/cells/net/attachments/5018430/5114877.png) (image/png)  
-

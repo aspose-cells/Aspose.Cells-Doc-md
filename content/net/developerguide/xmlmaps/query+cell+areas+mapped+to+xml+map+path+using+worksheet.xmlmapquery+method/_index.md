@@ -53,11 +53,3 @@ XML data can be imported to worksheets. Sometimes XML path is required from the 
 2.  [Country List.xml](https://docs2.aspose.com/cells/net/attachments/54690143/72417287.xml)
 3.  [Food List.xml](https://docs2.aspose.com/cells/net/attachments/54690143/72417286.xml)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleXmlMapQuery.xlsx](https://docs2.aspose.com/cells/net/attachments/54690143/55541790.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sample-Excel-File-For-Xml-Map-Query.png](https://docs2.aspose.com/cells/net/attachments/54690143/55541791.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XML Data.xlsx](https://docs2.aspose.com/cells/net/attachments/54690143/72417285.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Food List.xml](https://docs2.aspose.com/cells/net/attachments/54690143/72417286.xml) (text/xml)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Country List.xml](https://docs2.aspose.com/cells/net/attachments/54690143/72417287.xml) (text/xml)  
-

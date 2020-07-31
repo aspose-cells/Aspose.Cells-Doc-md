@@ -38,8 +38,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 Worksheet is a Dialog Sheet.
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleFindIfWorksheetIsDialogSheet.xlsx](https://docs2.aspose.com/cells/net/attachments/64454872/64716820.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Dialog Sheet.png](https://docs2.aspose.com/cells/net/attachments/64454872/64716826.png) (image/png)  
-

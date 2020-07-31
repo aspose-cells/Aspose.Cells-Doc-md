@@ -53,8 +53,3 @@ string FilePath = @"..\\..\\..\\Sample Files\\";string srcFileName = FilePath + 
 *   [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Encrypting%20Excel%20Files)
 *   [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Encrypting Files-001.png](https://docs2.aspose.com/cells/net/attachments/5020521/5115042.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Encrypting Files-002.png](https://docs2.aspose.com/cells/net/attachments/5020521/5115041.png) (image/png)  
-

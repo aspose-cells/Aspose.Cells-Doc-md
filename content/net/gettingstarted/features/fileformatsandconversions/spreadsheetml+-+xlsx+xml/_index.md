@@ -132,8 +132,3 @@ Consider the following example. Some cells contain the text “Hello World” in
   
 Implementing even a simple find and replace operation in an Office Open XML document is difficult. Our advice: remember that open and standard does not mean simple, and use Aspose.Cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SpreadsheetML (XLSX, XML)-001.png](https://docs2.aspose.com/cells/net/attachments/5018350/5114760.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SpreadsheetML (XLSX, XML)-002.png](https://docs2.aspose.com/cells/net/attachments/5018350/5114759.png) (image/png)  
-

@@ -46,9 +46,3 @@ Change the height of the top header bar and the width of the left header bar usi
 **Changed header bar width and height**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013741/5115431.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Resizing Aspose.Cells.GridWeb and its Header Bar-001.png](https://docs2.aspose.com/cells/net/attachments/5013741/5115429.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Resizing Aspose.Cells.GridWeb and its Header Bar-002.png](https://docs2.aspose.com/cells/net/attachments/5013741/5115430.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Resizing Aspose.Cells.GridWeb and its Header Bar-003.png](https://docs2.aspose.com/cells/net/attachments/5013741/5115431.png) (image/png)  
-

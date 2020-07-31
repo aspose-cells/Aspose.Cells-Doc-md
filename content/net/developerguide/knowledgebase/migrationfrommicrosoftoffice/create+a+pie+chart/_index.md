@@ -133,8 +133,3 @@ private void PieChart()
   
 ![](https://docs2.aspose.com/cells/net/attachments/5017471/5112092.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create a Pie Chart-001.png](https://docs2.aspose.com/cells/net/attachments/5017471/5112099.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create a Pie Chart-002.png](https://docs2.aspose.com/cells/net/attachments/5017471/5112092.png) (image/png)  
-

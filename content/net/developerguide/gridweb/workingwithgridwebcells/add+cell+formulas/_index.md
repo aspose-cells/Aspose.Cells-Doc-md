@@ -50,9 +50,3 @@ Using Aspose.Cells.GridWeb, it is possible to reference values stored in differe
 
 The syntax for referencing a cell value from a different worksheet is SheetName!CellName.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Formulas-001.png](https://docs2.aspose.com/cells/net/attachments/5013761/5115361.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Formulas-002.png](https://docs2.aspose.com/cells/net/attachments/5013761/5115358.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Formulas-003.png](https://docs2.aspose.com/cells/net/attachments/5013761/5115359.png) (image/png)  
-

@@ -22,7 +22,3 @@ Below is the console output of the above code using the [sample excel file](http
 Is VBA Code Project Signed: True
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleVBAProjectSigned.xlsm](https://docs2.aspose.com/cells/net/attachments/5019023/5115032.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

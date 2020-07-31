@@ -114,20 +114,3 @@ Finally, to save any changes made by users to the worksheet back to the database
 4.  Then click **Update to Database** to save the changes to the database.
 5.  Check the database to see that the table records have been updated accordingly.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113063.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113064.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-003.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113065.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-004.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113058.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-005.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113059.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-006.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113060.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-007.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113061.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-008.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113054.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-009.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113055.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-010.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113056.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-011.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113057.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-012.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113050.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-013.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113051.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Implementing GridDesktops Data Binding Feature in Worksheets-014.png](https://docs2.aspose.com/cells/net/attachments/5017592/5113052.png) (image/png)  
-

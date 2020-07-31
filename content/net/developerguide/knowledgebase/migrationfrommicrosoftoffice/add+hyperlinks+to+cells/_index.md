@@ -93,8 +93,3 @@ workbook.Save("c:\\Hyperlink_test.xls");
  
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Hyperlinks to Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017461/5112102.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Hyperlinks to Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5017461/5112103.png) (image/png)  
-

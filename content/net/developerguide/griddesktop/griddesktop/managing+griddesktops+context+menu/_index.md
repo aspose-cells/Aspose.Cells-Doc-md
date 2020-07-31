@@ -56,13 +56,3 @@ After executing the above code, a new menu item can be seen in the context menu.
 **A new menu item is added to the list**  
 ![](https://docs2.aspose.com/cells/net/attachments/5017852/5113858.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-001.png](https://docs2.aspose.com/cells/net/attachments/5017852/5115170.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-002.png](https://docs2.aspose.com/cells/net/attachments/5017852/5115171.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-003.png](https://docs2.aspose.com/cells/net/attachments/5017852/5115172.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-004.png](https://docs2.aspose.com/cells/net/attachments/5017852/5113859.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-003.png](https://docs2.aspose.com/cells/net/attachments/5017852/5113858.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-002.png](https://docs2.aspose.com/cells/net/attachments/5017852/5113857.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing GridDesktops Context Menu-001.png](https://docs2.aspose.com/cells/net/attachments/5017852/5113856.png) (image/png)  
-

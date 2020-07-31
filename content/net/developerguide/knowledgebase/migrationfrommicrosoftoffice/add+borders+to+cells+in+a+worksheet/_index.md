@@ -169,8 +169,3 @@ objBook.Save("f:\\test\\ApplyBorders.xls");
  
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Borders to Cells in a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017459/5112100.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Borders to Cells in a Worksheet-002.png](https://docs2.aspose.com/cells/net/attachments/5017459/5112101.png) (image/png)  
-

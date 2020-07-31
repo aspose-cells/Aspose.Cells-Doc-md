@@ -36,7 +36,3 @@ When you use our product in a a web application, please use the Aspose.Cells.dll
 
 [http://www.aspose.com/community/forums/thread/340654.aspx](http://www.aspose.com/community/forums/thread/340654.aspx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [No overload for method Save takes 4 arguments-001.png](https://docs2.aspose.com/cells/net/attachments/5017244/5112129.png) (image/png)  
-

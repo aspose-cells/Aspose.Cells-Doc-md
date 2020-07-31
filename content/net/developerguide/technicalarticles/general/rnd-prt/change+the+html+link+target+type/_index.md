@@ -30,7 +30,3 @@ The following code illustrates the usage of `HtmlSaveOptions.LinkTargetType` pro
   
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/net/attachments/5017278/5112364.xlsx) (image/png)  
-

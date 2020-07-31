@@ -22,12 +22,3 @@ You can download the [source Excel file](https://docs2.aspose.com/cells/net/att
 
 ## Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Refresh Values of Linked Objects.png](https://docs2.aspose.com/cells/net/attachments/5017331/5112315.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [LinkedShape.xlsx](https://docs2.aspose.com/cells/net/attachments/5017331/5112314.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/net/attachments/5017331/5112338.pdf) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleRefreshValueOfLinkedShapes.xlsx](https://docs2.aspose.com/cells/net/attachments/5017331/95584291.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputRefreshValueOfLinkedShapes.pdf](https://docs2.aspose.com/cells/net/attachments/5017331/95584292.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [RefreshValueOfLinkedShapes.jpg](https://docs2.aspose.com/cells/net/attachments/5017331/95584293.jpg) (image/jpeg)  
-

@@ -12,23 +12,14 @@ url: /net/developerguide/introduction/
 
 ### Articles in this section
 
+*    [Aspose.Cells Object Model](https://docs2.aspose.com/cells/net/developerguide/introduction/aspose.cells+object+model/)    
+*    [Check Version Number](https://docs2.aspose.com/cells/net/developerguide/introduction/check+version+number/)    
+*    [Evaluate Aspose.Cells](https://docs2.aspose.com/cells/net/developerguide/introduction/evaluate+aspose.cells/)    
+*    [Installing Aspose.Cells on Windows Vista](https://docs2.aspose.com/cells/net/developerguide/introduction/installing+aspose.cells+on+windows+vista/)    
+*    [Upgrade to Modern Aspose.Cells Component](https://docs2.aspose.com/cells/net/developerguide/introduction/upgrade+to+modern+aspose.cells+component/)    
+*    [What is a Designer Spreadsheet](https://docs2.aspose.com/cells/net/developerguide/introduction/what+is+a+designer+spreadsheet/)    
+*    [Where to Use Aspose.Cells](https://docs2.aspose.com/cells/net/developerguide/introduction/where+to+use+aspose.cells/)    
+*    [Your First Aspose.Cells Application - Hello World](https://docs2.aspose.com/cells/net/developerguide/introduction/your+first+aspose.cells+application+-+hello+world/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-001.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114952.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-002.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114588.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-003.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114587.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-004.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114586.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-005.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114585.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-006.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114584.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-007.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114583.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-008.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114582.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-009.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114581.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Your First Application using Aspose.Cells Hello World-001.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114596.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Evaluate Aspose.Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114595.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Evaluate Aspose.Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114594.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [What is a Designer Spreadsheet-001.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114593.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SpreadSheet1.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114592.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Check Version Number of the Component-001.png](https://docs2.aspose.com/cells/net/attachments/5018393/5114591.png) (image/png)  
 

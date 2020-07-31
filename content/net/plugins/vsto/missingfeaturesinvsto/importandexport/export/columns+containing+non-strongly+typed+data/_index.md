@@ -45,8 +45,3 @@ Below are the screenshots:
 *   [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Export dialog.png](https://docs2.aspose.com/cells/net/attachments/5020597/5115065.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Export result window.png](https://docs2.aspose.com/cells/net/attachments/5020597/5115068.png) (image/png)  
-

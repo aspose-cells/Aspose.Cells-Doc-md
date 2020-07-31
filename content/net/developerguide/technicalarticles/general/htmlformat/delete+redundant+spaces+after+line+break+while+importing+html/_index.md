@@ -33,7 +33,3 @@ The following screenshot shows the effect of setting this property to **false** 
 
 The following sample code shows the usage of the [HTMLLoadOptions.DeleteRedundantSpaces](https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/deleteredundantspaces) property. Please set it **true** or **false** to get the output as shown in the above screenshot.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [redundant-spaces.png](https://docs2.aspose.com/cells/net/attachments/5024990/5115490.png) (image/png)  
-

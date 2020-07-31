@@ -94,7 +94,3 @@ This is the console output of the above sample code.
 40:A6,value is: ,row:5,col:0 
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [chrome-console-log.png](https://docs2.aspose.com/cells/net/attachments/5013765/5115360.png) (image/png)  
-

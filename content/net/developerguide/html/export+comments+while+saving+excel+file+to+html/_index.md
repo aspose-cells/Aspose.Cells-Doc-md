@@ -29,9 +29,3 @@ The following sample code explains the usage of [HtmlSaveOptions.IsExportCommen
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleExportCommentsHTML.xlsx](https://docs2.aspose.com/cells/net/attachments/50266169/50528260.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputExportCommentsHTML.html](https://docs2.aspose.com/cells/net/attachments/50266169/50528261.html) (text/html)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Export-Comments-while-Saving-Excel-file-to-Html.png](https://docs2.aspose.com/cells/net/attachments/50266169/50528262.png) (image/png)  
-

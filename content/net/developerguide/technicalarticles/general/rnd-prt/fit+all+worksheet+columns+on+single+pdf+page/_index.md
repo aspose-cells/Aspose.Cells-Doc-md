@@ -29,8 +29,3 @@ When a given worksheet has many columns, the rendered PDF file may show the cont
 
 If your spreadsheet contains formulas, it is best to call [Workbook.CalculateFormula()](https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sample-AllColumnsInOnePagePerSheet.xlsx](https://docs2.aspose.com/cells/net/attachments/5017543/5112566.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Output-AllColumnsInOnePagePerSheet.pdf](https://docs2.aspose.com/cells/net/attachments/5017543/5112569.pdf) (image/png)  
-

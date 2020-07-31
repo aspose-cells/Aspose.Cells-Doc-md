@@ -50,7 +50,3 @@ To remove a comment:
 1.  Access the cell as explained above.
 2.  Use the Comment collection's `RemoveAt` method to remove the comment.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Manage Comments in Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5013775/5115390.png) (image/png)  
-

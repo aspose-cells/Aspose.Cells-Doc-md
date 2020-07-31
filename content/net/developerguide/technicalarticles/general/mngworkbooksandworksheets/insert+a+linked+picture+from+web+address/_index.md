@@ -25,13 +25,3 @@ Aspose.Cells for .NET supports adding a linked image using the [ShapeCollection.
 
 The following example shows how to add linked picture from web address to a worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-001.png](https://docs2.aspose.com/cells/net/attachments/5017604/5112464.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-002.png](https://docs2.aspose.com/cells/net/attachments/5017604/5112465.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-003.png](https://docs2.aspose.com/cells/net/attachments/5017604/5112462.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-004.png](https://docs2.aspose.com/cells/net/attachments/5017604/5112463.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-001b.png](https://docs2.aspose.com/cells/net/attachments/5017604/5112468.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-003b.png](https://docs2.aspose.com/cells/net/attachments/5017604/5112469.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-004b.png](https://docs2.aspose.com/cells/net/attachments/5017604/5112466.png) (image/png)  
-

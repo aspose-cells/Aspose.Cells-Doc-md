@@ -33,11 +33,3 @@ We implement both Auto-Filter and Custom Data Filter features in this example. W
 
 ### Custom Data Filter
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017949/5113885.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017949/5115162.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-003.png](https://docs2.aspose.com/cells/net/attachments/5017949/5115164.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-003.png](https://docs2.aspose.com/cells/net/attachments/5017949/5113741.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Filtering Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017949/5113886.png) (image/png)  
-

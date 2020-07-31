@@ -31,7 +31,3 @@ If you merge multiple cells and each cell contains data, only the content of the
 
 To unmerge cells, use the `Cells` collection's `UnMerge` method that takes same parameters as of the `Merge` method and performs the unmerging of cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Merge and Unmerge Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5013797/5115377.png) (image/png)  
-

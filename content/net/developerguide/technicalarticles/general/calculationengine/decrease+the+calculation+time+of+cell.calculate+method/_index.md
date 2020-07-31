@@ -36,7 +36,3 @@ Recursive True: 96 seconds
 Recursive False: 42 seconds
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013541/5113710.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

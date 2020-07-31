@@ -43,7 +43,3 @@ After running the code, we can save different files based on their respective OL
 
 Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](https://docs2.aspose.com/cells/net/attachments/5017133/94896196.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [EmbeddedMolSample.xlsx](https://docs2.aspose.com/cells/net/attachments/5017133/94896196.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -90,9 +90,3 @@ Untill you enter a valid value, no data is submitted to the server. Enter a vali
 **ConfirmFunction invoked before submitting GridWeb data to server**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013756/5115336.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Write GridWeb Client Side Script-001.png](https://docs2.aspose.com/cells/net/attachments/5013756/5115337.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Write GridWeb Client Side Script-002.png](https://docs2.aspose.com/cells/net/attachments/5013756/5115335.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Write GridWeb Client Side Script-003.png](https://docs2.aspose.com/cells/net/attachments/5013756/5115336.png) (image/png)  
-

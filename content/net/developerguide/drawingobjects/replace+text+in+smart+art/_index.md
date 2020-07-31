@@ -26,7 +26,3 @@ The sample source file can be downloaded from the following link:
 
 ## Sample Code 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartArt.xlsx](https://docs2.aspose.com/cells/net/attachments/77365366/77496338.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

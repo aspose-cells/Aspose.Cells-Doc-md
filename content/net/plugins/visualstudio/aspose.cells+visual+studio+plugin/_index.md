@@ -153,14 +153,3 @@ There are two projects in the solution
 *   **AsposeVisualStudioPlugin** - Contains the integration with Visual Studio, selection and automatic download of Aspose APIs and Examples.
 *   **Installer** - Wix installer project to generate msi installer file for the plugin.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsAPIDownload.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115525.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsCreateProject.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115527.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsCSProject.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115526.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsInstaller1.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115529.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsInstaller2.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115528.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsInstaller3.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115531.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsMenu.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115530.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeCellsVBProject.png](https://docs2.aspose.com/cells/net/attachments/5024018/5115540.png) (image/png)  
-

@@ -131,8 +131,3 @@ void AddingCellFormula()
 ![](https://docs2.aspose.com/cells/net/attachments/5017447/5112085.png)  
 **Figure 2:** Output using formulas with Aspose.Cells for .NET
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Use Formulas Functions to Process Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017447/5112090.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Use Formulas Functions to Process Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017447/5112085.png) (image/png)  
-

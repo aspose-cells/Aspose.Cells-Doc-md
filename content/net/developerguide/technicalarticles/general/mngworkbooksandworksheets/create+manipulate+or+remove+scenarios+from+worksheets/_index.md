@@ -14,7 +14,3 @@ Sometimes, you need to create, manipulate or delete scenarios in spreadsheets. A
 
 Aspose.Cells provides some useful classes, for example, [ScenarioCollection](https://apireference.aspose.com/net/cells/aspose.cells/scenariocollection), [Scenario](https://apireference.aspose.com/net/cells/aspose.cells/scenario), [ScenarioInputCellCollection](https://apireference.aspose.com/net/cells/aspose.cells/scenarioinputcellcollection), and [ScenarioInputCell](https://apireference.aspose.com/net/cells/aspose.cells/scenarioinputcell) classes. It also provides the [Worksheet.Scenarios](https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/scenarios) property. The sample code below opens an XLSX Excel file that contains some scenarios and removes an existing scenario. It also adds a new scenario to the worksheet before saving the Excel file. The example uses a very simple template file that contains a scenario.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [scenario1.png](https://docs2.aspose.com/cells/net/attachments/5017653/5112223.png) (image/png)  
-

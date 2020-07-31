@@ -18,7 +18,3 @@ Aspose.Cells now supports fetching the refresh date and refresh by who informati
 
 **Sample Code**
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sourcePivotTable.xlsx](https://docs2.aspose.com/cells/net/attachments/77365364/77496335.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

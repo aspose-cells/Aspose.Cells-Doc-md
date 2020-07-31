@@ -26,8 +26,3 @@ Now run the application. If you double click on the cell where formula was added
 
 Aspose.Cells.GridDesktop supports most of the commonly used functions of MS Excel. For more details about the list of supported functions, please [click here.](https://docs2.aspose.com/cells/net/developerguide/knowledgebase/formulacalculationengine/apsclsgridcontrols/list+of+supported+functions)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Formulas to Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017788/5113901.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Formulas to Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5017788/5113883.png) (image/png)  
-

@@ -29,7 +29,3 @@ The following sample code finds the GridDesktop version at runtime. The screensh
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Find-GridDesktop-Version-At-RunTime.png](https://docs2.aspose.com/cells/net/attachments/48136516/48496684.png) (image/png)  
-

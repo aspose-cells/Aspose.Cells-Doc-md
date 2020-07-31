@@ -24,10 +24,3 @@ The following code snippet demonstrates the use of the [DigitalSignature](https
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [RegexReplace\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/101122954/101089320.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleRegexReplace.xlsx](https://docs2.aspose.com/cells/net/attachments/101122954/101089321.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/net/attachments/101122954/101089322.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sourceFile.xlsx](https://docs2.aspose.com/cells/net/attachments/101122954/101089323.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

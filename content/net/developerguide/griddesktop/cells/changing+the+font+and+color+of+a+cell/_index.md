@@ -24,7 +24,3 @@ To change the font and color of a cell using Aspose.Cells.GridDesktop, please fo
 
 If you only need to get information about the font or font color of the cell then you can also use **GetFont** and **GetFontColor** methods of the cell.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Changing the Font and Color of a Cell-001.png](https://docs2.aspose.com/cells/net/attachments/5017778/5113884.png) (image/png)  
-

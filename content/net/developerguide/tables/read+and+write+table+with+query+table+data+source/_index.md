@@ -25,8 +25,3 @@ The source and output excel files are attached for reference.
 
 [Output File](https://docs2.aspose.com/cells/net/attachments/96764758/96928092.xls)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleTableWithQueryTable.xls](https://docs2.aspose.com/cells/net/attachments/96764758/96928091.xls) (application/vnd.ms-excel)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleTableWithQueryTable\_out.xls](https://docs2.aspose.com/cells/net/attachments/96764758/96928092.xls) (application/vnd.ms-excel)  
-

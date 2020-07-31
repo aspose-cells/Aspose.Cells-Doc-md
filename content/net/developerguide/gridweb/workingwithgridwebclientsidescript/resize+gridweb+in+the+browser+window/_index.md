@@ -39,8 +39,3 @@ The following code will  make GridWeb control resizable in the browser window. 
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [resize\_gridweb1.png](https://docs2.aspose.com/cells/net/attachments/48136872/48496688.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [resize\_gridweb2.png](https://docs2.aspose.com/cells/net/attachments/48136872/48496689.png) (image/png)  
-

@@ -72,8 +72,3 @@ row.SetFont(font);
 row.SetFontColor(Color.Green);
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Removing a Row from Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017796/5113924.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Removing a Row from Worksheet-002.png](https://docs2.aspose.com/cells/net/attachments/5017796/5113917.png) (image/png)  
-

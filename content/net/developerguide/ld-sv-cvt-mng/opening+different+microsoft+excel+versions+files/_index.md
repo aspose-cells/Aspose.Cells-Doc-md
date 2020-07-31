@@ -71,7 +71,3 @@ Aspose.Cells also supports opening password-protected Microsoft Excel 2013 files
 
 Aspose.Cells supports Microsoft Excel file formats 5.0/95, 97, 2000, 2002/2003, 2007, 2010, 2013, 2016
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Excel95\_5.0.xls](https://docs2.aspose.com/cells/net/attachments/5013531/81920920.xls) (application/vnd.ms-excel)  
-

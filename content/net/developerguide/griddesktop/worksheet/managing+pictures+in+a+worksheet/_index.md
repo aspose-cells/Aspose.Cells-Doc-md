@@ -45,7 +45,3 @@ To remove an existing picture, developers can simply access a desired worksheet 
 
 In code below it is shown how to remove pictures from worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing Pictures in a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017761/5113813.png) (image/png)  
-

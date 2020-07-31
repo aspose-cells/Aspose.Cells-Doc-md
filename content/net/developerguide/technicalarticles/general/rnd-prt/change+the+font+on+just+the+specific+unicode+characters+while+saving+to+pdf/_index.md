@@ -43,9 +43,3 @@ As you can see in the first Pdf, the font of entire sentence has changed from Ti
   
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [change-the-font-of-specific-unicode-character.png](https://docs2.aspose.com/cells/net/attachments/5017491/5115111.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [change-the-font-of-specific-unicode-character.png](https://docs2.aspose.com/cells/net/attachments/5017491/5112607.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [change-the-font-of-specific-unicode-character-2.png](https://docs2.aspose.com/cells/net/attachments/5017491/5115112.png) (image/png)  
-

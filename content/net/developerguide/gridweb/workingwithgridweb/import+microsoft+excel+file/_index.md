@@ -47,7 +47,3 @@ If your file system is NTFS, you should grant read access permission to the ASPN
 
 As well as opening Excel files from file, the Aspose.Cells.GridWeb control can load Excel files from a stream. Using file as a stream is a better approach to prohibit any kind of file access or sharing violation problems because this approach ensures closing all connections to the files by closing the stream.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Opening an MS Excel File-001.png](https://docs2.aspose.com/cells/net/attachments/5013740/5115432.png) (image/png)  
-

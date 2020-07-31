@@ -58,9 +58,3 @@ Paper Size: PaperA3
 Printer settings of this worksheet are now removed by setting it null.
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PrinterSettings-Of-Worksheets.png](https://docs2.aspose.com/cells/net/attachments/44860266/45056019.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx](https://docs2.aspose.com/cells/net/attachments/44860266/45056020.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputRemoveExistingPrinterSettingsOfWorksheets.xlsx](https://docs2.aspose.com/cells/net/attachments/44860266/45056021.xlsx) (application/unknown)  
-

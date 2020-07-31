@@ -27,7 +27,3 @@ Aspose.Cells also allows you to set the **Formula Calculation Mode** using [Work
 *   CalcModeType.AutomaticExceptTable
 *   CalcModeType.Manual
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Formula-Calculation-Mode.png](https://docs2.aspose.com/cells/net/attachments/5017552/5112509.png) (image/png)  
-

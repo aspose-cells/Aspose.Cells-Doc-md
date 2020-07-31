@@ -39,7 +39,3 @@ The following sample code accesses the hyperlink of cell A1. If cell A1 contains
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [gridweb-cell-link-in-debug-window.png](https://docs2.aspose.com/cells/net/attachments/5013575/5115150.png) (image/png)  
-

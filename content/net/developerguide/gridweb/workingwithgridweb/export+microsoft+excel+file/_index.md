@@ -51,8 +51,3 @@ If you are working in Visual Studio you can easily create the `SaveCommand` even
 
 It is also possible to save grid content to a stream (for example `MemoryStream`).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Saving an MS Excel File-001.png.jpg](https://docs2.aspose.com/cells/net/attachments/5013751/5115435.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Saving an MS Excel File-002.png](https://docs2.aspose.com/cells/net/attachments/5013751/5115436.png) (image/png)  
-

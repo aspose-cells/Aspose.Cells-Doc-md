@@ -38,9 +38,3 @@ The following sample code changes the shape type of data labels of the chart to 
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSetShapeTypeOfDataLabelsOfChart.xlsx](https://docs2.aspose.com/cells/net/attachments/60229093/60489778.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSetShapeTypeOfDataLabelsOfChart.xlsx](https://docs2.aspose.com/cells/net/attachments/60229093/60489779.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Set-the-Shape-Type-of-Data-Labels-of-Chart.png](https://docs2.aspose.com/cells/net/attachments/60229093/60489792.png) (image/png)  
-

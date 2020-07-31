@@ -76,7 +76,3 @@ workbook.Save("Hyperlink_test.xls");
 *   [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20(Aspose.Cells).zip/download)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20(Aspose.Cells).zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Hyperlinks to Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5020859/5115087.png) (image/png)  
-

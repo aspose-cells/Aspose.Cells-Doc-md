@@ -104,9 +104,3 @@ IMPORTANT: Loading style file into GridWeb control doesn't affect the formatting
 
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Style or Appearance of Aspose.Cells.GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5013742/5115457.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Style or Appearance of Aspose.Cells.GridWeb-002.png](https://docs2.aspose.com/cells/net/attachments/5013742/5115456.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Style or Appearance of Aspose.Cells.GridWeb-003.png](https://docs2.aspose.com/cells/net/attachments/5013742/5115428.png) (image/png)  
-

@@ -48,7 +48,3 @@ We are likely to use Aspose.Cells for all loading and saving of Excel files. Thi
 
 As yet, we have had no problems using the Aspose.Cells components and the component should save us development time in both the short and long-term. Support and Sales queries have been answered swiftly and helpfully.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Ohal Report Canvas Component-001.png](https://docs2.aspose.com/cells/net/attachments/5018426/5114875.png) (image/png)  
-

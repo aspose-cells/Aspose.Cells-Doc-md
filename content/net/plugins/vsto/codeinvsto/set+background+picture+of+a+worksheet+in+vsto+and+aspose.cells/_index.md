@@ -76,7 +76,3 @@ workbook.Save("BackgroundPicBook.xls");
 *   [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20(Aspose.Cells).zip/download)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20(Aspose.Cells).zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Set Background Picture of a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5020840/5115077.png) (image/png)  
-

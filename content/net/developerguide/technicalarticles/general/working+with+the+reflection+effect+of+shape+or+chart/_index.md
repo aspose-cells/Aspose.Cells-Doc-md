@@ -35,9 +35,3 @@ Aspose.Cells provides the [Shape.Reflection](https://apireference.aspose.com/net
 
 The following sample code loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/5013635/5115424.xlsx) and accesses the first shape in the default worksheet and sets different properties of [Shape.Reflection](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/reflection) class and then saves the workbook in the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013635/5115423.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013635/5115424.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013635/5115423.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [reflection-effect-of-shape.png](https://docs2.aspose.com/cells/net/attachments/5013635/5115426.png) (image/png)  
-

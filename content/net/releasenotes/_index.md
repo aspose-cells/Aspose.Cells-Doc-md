@@ -187,7 +187,6 @@ url: /net/releasenotes/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells .Net 4.2.0.0 New Release Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2007/aspose.cells+.net+4.2.0.0+new+release+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells .Net 4.3.0.0 New Release Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2007/aspose.cells+.net+4.3.0.0+new+release+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

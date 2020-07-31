@@ -268,8 +268,3 @@ Below are the screenshots:
 *   [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Export dialog.png](https://docs2.aspose.com/cells/net/attachments/5020426/5115045.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Export result window.png](https://docs2.aspose.com/cells/net/attachments/5020426/5115044.png) (image/png)  
-

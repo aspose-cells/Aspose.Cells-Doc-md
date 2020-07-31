@@ -36,7 +36,3 @@ FullPathExample: CellReference
 https://products.aspose.com/cells: External  
 mailto:test@test.com?subject=TestLink: Email
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [LinkTypes.xlsx](https://docs2.aspose.com/cells/net/attachments/94635648/94896195.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

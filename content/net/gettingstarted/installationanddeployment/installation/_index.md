@@ -96,7 +96,3 @@ If you have used MSI installer to deploy Aspose.Cells for .NET, follow these ste
 *   Select Aspose.Cells for .NET (version).
 *   Click **Change/Remove** to remove Aspose.Cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Referencing Aspose.Cells for .NET.png](https://docs2.aspose.com/cells/net/attachments/5024995/5115501.png) (image/png)  
-

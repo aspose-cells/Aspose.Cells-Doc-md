@@ -64,14 +64,3 @@ Executing the code copies the worksheet named Copy is to SecondWorkbook.xlsx wit
 
 Executing the code moves the worksheet named Move from FirstWorkbook.xlsx to SecondWorkbook.xlsx with the name Sheet3.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-001.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112624.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-002.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112145.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-003.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112144.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-004.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112147.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-005.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112146.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-006.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112141.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-007.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112140.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-008.png](https://docs2.aspose.com/cells/net/attachments/5017687/5112143.png) (image/png)  
-

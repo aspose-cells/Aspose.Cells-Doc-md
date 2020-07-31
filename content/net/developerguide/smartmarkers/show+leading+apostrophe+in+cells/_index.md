@@ -34,14 +34,3 @@ The following code snippet demonstrates this by adding data with Smart Markers i
 
 The implementation of *DataObject *class is given below
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [dest.xlsx](https://docs2.aspose.com/cells/net/attachments/97878713/98107419.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartMarker1.xlsx](https://docs2.aspose.com/cells/net/attachments/97878713/98107420.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/net/attachments/97878713/98107421.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WorkingWithContentTypeProperties\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/97878713/98107422.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WorkingWithContentTypeProperties.jpg](https://docs2.aspose.com/cells/net/attachments/97878713/98107423.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AllowLeadingApostrophe.jpg](https://docs2.aspose.com/cells/net/attachments/97878713/98107424.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AllowLeadingApostropheSample.xlsx](https://docs2.aspose.com/cells/net/attachments/97878713/98107425.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AllowLeadingApostropheSample\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/97878713/98107426.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

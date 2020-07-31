@@ -16,8 +16,3 @@ You can set the comment of the Table or List Object inside the worksheet using t
 
 The following sample code loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/5013826/5115514.xlsx), sets the comment of the first table or list object inside the worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [setting-list-object-comment.png](https://docs2.aspose.com/cells/net/attachments/5013826/5115232.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/net/attachments/5013826/5115514.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

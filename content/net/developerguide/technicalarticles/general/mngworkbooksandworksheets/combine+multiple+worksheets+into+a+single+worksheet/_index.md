@@ -14,12 +14,3 @@ Sometimes, you need to combine multiple worksheets into a single worksheet. This
 
 The following code snippet shows you how to combine multiple worksheets into a single worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sheet1.JPG](https://docs2.aspose.com/cells/net/attachments/5017705/5112208.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sheet2.JPG](https://docs2.aspose.com/cells/net/attachments/5017705/5112211.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sheet3.JPG](https://docs2.aspose.com/cells/net/attachments/5017705/5112210.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputsheet.jpg](https://docs2.aspose.com/cells/net/attachments/5017705/5112213.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/net/attachments/5017705/5112212.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5017705/5112215.xlsx) (image/png)  
-

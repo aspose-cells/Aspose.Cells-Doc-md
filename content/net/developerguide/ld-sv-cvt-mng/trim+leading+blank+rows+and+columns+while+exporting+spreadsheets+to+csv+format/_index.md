@@ -37,10 +37,3 @@ The following sample code loads the [source excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [effect-of-TxtSaveOptions.TrimLeadingBlankRowAndColumn-property.png.png](https://docs2.aspose.com/cells/net/attachments/25002392/25395206.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleTrimBlankColumns.xlsx](https://docs2.aspose.com/cells/net/attachments/25002392/25395207.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputTrimBlankColumns.csv](https://docs2.aspose.com/cells/net/attachments/25002392/25395208.csv) (application/vnd.ms-excel)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputWithoutTrimBlankColumns.csv](https://docs2.aspose.com/cells/net/attachments/25002392/25395209.csv) (application/vnd.ms-excel)  
-

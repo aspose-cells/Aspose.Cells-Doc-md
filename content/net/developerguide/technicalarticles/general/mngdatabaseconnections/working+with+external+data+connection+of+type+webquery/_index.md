@@ -24,7 +24,3 @@ Here is the console output of the above code with this [sample excel file](https
 Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WebQuerySample.xlsx](https://docs2.aspose.com/cells/net/attachments/5017272/5112365.xlsx) (image/png)  
-

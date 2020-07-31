@@ -24,9 +24,3 @@ Aspose.Cells provides the option to export headings while converting Excel to HT
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Output-HTML-ExcludeUnusedStyles.zip](https://docs2.aspose.com/cells/net/attachments/101122961/101089324.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HtmlSaveOptions-Exclude-Unused-Styles.png](https://docs2.aspose.com/cells/net/attachments/101122961/101089325.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PrintHeadings.jpg](https://docs2.aspose.com/cells/net/attachments/101122961/101089326.jpg) (image/jpeg)  
-

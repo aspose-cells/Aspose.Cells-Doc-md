@@ -28,9 +28,3 @@ url: /net/developerguide/technicalarticles/general/calculation+of+excel+2016+min
 
 The following sample code loads the [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013583/5115149.xlsx) and calls the [Workbook.CalculateFormula()](https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula) method to perform the formula calculation via Aspose.Cells and then saves the results in the [output PDF](https://docs2.aspose.com/cells/net/attachments/5013583/5115154.pdf).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [support-of-minifs-and-maxifs-functions.png](https://docs2.aspose.com/cells/net/attachments/5013583/5115148.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample\_MINIFS\_MAXIFS.xlsx](https://docs2.aspose.com/cells/net/attachments/5013583/5115149.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/net/attachments/5013583/5115154.pdf) (application/pdf)  
-

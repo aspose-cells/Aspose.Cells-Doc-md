@@ -72,11 +72,3 @@ Step 3: Running the Application**
 1.  Build and run the application.
 2.  Whenever a grid cell is clicked, a message box with the message "Cell is Clicked" appears.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-001.png](https://docs2.aspose.com/cells/net/attachments/5017854/5113851.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-002.png](https://docs2.aspose.com/cells/net/attachments/5017854/5113852.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-003.png](https://docs2.aspose.com/cells/net/attachments/5017854/5113853.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-004.png](https://docs2.aspose.com/cells/net/attachments/5017854/5113854.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Aspose.Cells.GridDesktop Events-005.png](https://docs2.aspose.com/cells/net/attachments/5017854/5113855.png) (image/png)  
-

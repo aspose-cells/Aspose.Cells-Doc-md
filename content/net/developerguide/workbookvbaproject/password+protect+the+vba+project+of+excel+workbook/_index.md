@@ -26,8 +26,3 @@ You can password protect the VBA (Visual Basic for Applications) Project of work
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/42729773/43352067.xlsm), accesses its VBA Project and protects it with a password. Finally it saves it as the [output Excel file](https://docs2.aspose.com/cells/net/attachments/42729773/43352068.xlsm).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [samplePasswordProtectVBAProject.xlsm](https://docs2.aspose.com/cells/net/attachments/42729773/43352067.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputPasswordProtectVBAProject.xlsm](https://docs2.aspose.com/cells/net/attachments/42729773/43352068.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

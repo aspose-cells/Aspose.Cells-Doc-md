@@ -27,9 +27,3 @@ The following sample code explains how to use [DataSorter.AddKey(int key, SortO
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sort Data in Column with Custom Sort List.png](https://docs2.aspose.com/cells/net/attachments/50270185/50528329.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSortData\_CustomSortList.xlsx](https://docs2.aspose.com/cells/net/attachments/50270185/50528327.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSortData\_CustomSortList.xlsx](https://docs2.aspose.com/cells/net/attachments/50270185/50528328.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

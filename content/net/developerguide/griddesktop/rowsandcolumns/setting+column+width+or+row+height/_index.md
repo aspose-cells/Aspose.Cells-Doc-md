@@ -36,8 +36,3 @@ To set the height of a row using Aspose.Cells.GridDesktop, please follow the ste
 2.  Access the row you want to change the height of.
 3.  Set the row height.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Column Width or Row Height-001.png](https://docs2.aspose.com/cells/net/attachments/5017806/5113915.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Column Width or Row Height-002.png](https://docs2.aspose.com/cells/net/attachments/5017806/5113916.png) (image/png)  
-

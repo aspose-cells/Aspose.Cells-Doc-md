@@ -14,7 +14,3 @@ Microsoft Excel provides a feature that allows you to auto-size the height of a 
 
 Aspose.Cells supports this feature through the [AutoFitterOptions](https://apireference.aspose.com/net/cells/aspose.cells/autofitteroptions) API. Using this API, it is possible to auto-fit rows in a worksheet including merged cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AutoFit Rows for Merged Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017628/5112261.png) (image/png)  
-

@@ -54,7 +54,3 @@ It is not only possible to add values to the control, but also to perform other 
 
 Aspose.Grid.Desktop has been renamed and become part of Aspose.Cells so it is no longer possible to use older version of Aspose.Grid.Desktop anymore. Just to emphasize, there is not much work involved in upgrading to the latest version of the Aspose.Cells.GridDesktop component. There is no change in the API as the classes with the members, structs, enumerations etc. remain the same. The only change that has been made is regarding the control’s namespace.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [How to use Aspose.Cells.GridDesktop.png](https://docs2.aspose.com/cells/net/attachments/5020949/5115240.png) (image/png)  
-

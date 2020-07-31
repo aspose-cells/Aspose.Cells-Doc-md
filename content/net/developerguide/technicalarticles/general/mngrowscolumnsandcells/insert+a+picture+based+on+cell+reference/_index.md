@@ -18,7 +18,3 @@ Aspose.Cells supports displaying the contents of a worksheet cell in an image sh
 
 ### Code Example
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [referencedpic.png](https://docs2.aspose.com/cells/net/attachments/5017634/5112279.png) (image/png)  
-

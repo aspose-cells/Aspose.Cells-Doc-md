@@ -14,8 +14,3 @@ You can add custom labels to data points in the series of the chart. Aspose.Cell
 
 The following code creates **Scatter Chart Connected By Lines With Data Markers** and then adds **Custom Labels** to the **Data Points** in the **Series** of the **Chart**. Each custom label shows the **Series Name** and **Point Name**. You can use any other text instead of it.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Custom-Labels-to-Data-Points.png](https://docs2.aspose.com/cells/net/attachments/5017343/5115159.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Custom-Labels-to-Data-Points.png](https://docs2.aspose.com/cells/net/attachments/5017343/5112319.png) (image/png)  
-

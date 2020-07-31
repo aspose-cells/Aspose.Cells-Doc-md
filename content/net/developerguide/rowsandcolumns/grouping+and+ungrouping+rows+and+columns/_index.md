@@ -73,7 +73,3 @@ To ungroup any grouped rows or columns, call the [Cells](https://apireference.as
 
 [UngroupRows](https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/ungrouprows/index) has an overload that takes a boolean third parameter. Setting it to **true** removes all grouped information. Otherwise, only the outer group information is removed.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Grouping Rows and Columns.png](https://docs2.aspose.com/cells/net/attachments/5013587/5115161.png) (image/png)  
-

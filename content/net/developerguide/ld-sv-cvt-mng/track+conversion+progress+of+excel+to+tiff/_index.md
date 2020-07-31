@@ -51,9 +51,3 @@ End saving page index 7 of pages 10
 Start saving page index 8 of pages 10  
 End saving page index 8 of pages 10
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PagesBook1.xlsx](https://docs2.aspose.com/cells/net/attachments/95323804/95584310.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleUseWorkbookRenderForImageConversion.xlsx](https://docs2.aspose.com/cells/net/attachments/95323804/95584311.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DocumentConversionProgressForTiff\_out.tiff](https://docs2.aspose.com/cells/net/attachments/95323804/95584312.tiff) (image/tiff)  
-

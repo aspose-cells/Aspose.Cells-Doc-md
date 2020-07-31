@@ -254,9 +254,3 @@ SUM
 
 ref1, ref2, are the areas to be subtotaled. If ref1, ref2, ... contain other subtotal functions, the referenced cells are ignored to avoid duplicate calculation.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Group Rows and Create Subtotal-001.png](https://docs2.aspose.com/cells/net/attachments/5013767/5115403.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Group Rows and Create Subtotal-002.png](https://docs2.aspose.com/cells/net/attachments/5013767/5115406.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Group Rows and Create Subtotal-003.png](https://docs2.aspose.com/cells/net/attachments/5013767/5115405.png) (image/png)  
-

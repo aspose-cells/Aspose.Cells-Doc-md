@@ -160,9 +160,3 @@ Please follow these simple steps to get started
 2.  Open Visual Studio 2010 and Choose **File** > **Open Project**
 3.  Browse to the latest source code that you have downloaded and open e.g **Aspose.DNN.DatabaseDataExporterToExcel.sln**
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DNN DB Data Export to Excel.png](https://docs2.aspose.com/cells/net/attachments/5016404/5115266.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DNN DB Data Export to Excel.png](https://docs2.aspose.com/cells/net/attachments/5016404/5115263.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DNN DB Data Export to Excel1.png](https://docs2.aspose.com/cells/net/attachments/5016404/5115267.png) (image/png)  
-

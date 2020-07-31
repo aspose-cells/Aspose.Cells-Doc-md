@@ -43,7 +43,3 @@ this.gridDesktop1.DefaultCellFont = fnt;
 this.gridDesktop1.DefaultCellFontColor = System.Drawing.Color.Blue;
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Default-font-and-font-color-GridDesktop.png](https://docs2.aspose.com/cells/net/attachments/50266230/50528264.png) (image/png)  
-

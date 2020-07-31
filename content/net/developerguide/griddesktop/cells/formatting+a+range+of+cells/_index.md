@@ -20,7 +20,3 @@ Once we have created a **CellRange** object then we can use the overloaded versi
 
 Let's check out an example to understand this basic concept.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Formatting a Range of Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017782/5113880.png) (image/png)  
-

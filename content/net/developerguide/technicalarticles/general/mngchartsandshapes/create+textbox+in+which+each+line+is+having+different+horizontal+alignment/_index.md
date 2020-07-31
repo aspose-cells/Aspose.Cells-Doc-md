@@ -14,7 +14,3 @@ You can set the horizontal alignment of your paragraph text using the [TextParag
 
 The following sample code creates three lines and sets the horizontal alignment of each of them.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013824/5115236.xlsx) (application/unknown)  
-

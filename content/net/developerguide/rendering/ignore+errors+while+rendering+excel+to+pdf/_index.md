@@ -29,10 +29,3 @@ The following code loads the [sample Excel file](https://docs2.aspose.com/cells/
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputErrorExcel2Pdf.pdf](https://docs2.aspose.com/cells/net/attachments/54690010/55541779.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleErrorExcel2Pdf.xlsx](https://docs2.aspose.com/cells/net/attachments/54690010/60489730.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PdfSaveOptions.IgnoreError-True-Ignores-the-Errors-while-Excel2Pdf-Conversion.png](https://docs2.aspose.com/cells/net/attachments/54690010/55541780.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleErrorExcel2Pdf.xlsx](https://docs2.aspose.com/cells/net/attachments/54690010/55541778.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -72,9 +72,3 @@ To add comboboxes into a column using Aspose.Cells.GridDesktop, please follow th
   
 Above code snippet adds comboboxes to all cells of the specified column. Whenever any cell of that specific column is selected, a combobox becomes visible. For more information about the event handling of comboboxes, please refer to the [Event Handling of a ComboBox Control.](http://www.aspose.com/docs/display/cellsnet/Adding+Cell+Controls+in+Worksheets#AddingCellControlsinWorksheets-EventHandlingofComboBox)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Columns-001.png](https://docs2.aspose.com/cells/net/attachments/5017792/5113921.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Columns-002.png](https://docs2.aspose.com/cells/net/attachments/5017792/5113922.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Columns-003.png](https://docs2.aspose.com/cells/net/attachments/5017792/5113923.png) (image/png)  
-

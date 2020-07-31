@@ -22,11 +22,3 @@ The screenshot shows the effect of setting different default font names via `Htm
 
 The code generates the [output HTML file with Courier New](https://docs2.aspose.com/cells/net/attachments/5024958/5115516.htm), the [output HTML with Arial](https://docs2.aspose.com/cells/net/attachments/5024958/5115518.htm) and the [output HTML file with Times New Roman](https://docs2.aspose.com/cells/net/attachments/5024958/5115517.htm).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [effect-of-setting-different-default-fonts.png](https://docs2.aspose.com/cells/net/attachments/5024958/5115507.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5024958/5115506.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_courier\_new.htm](https://docs2.aspose.com/cells/net/attachments/5024958/5115516.htm) (text/html)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_times\_new\_roman.htm](https://docs2.aspose.com/cells/net/attachments/5024958/5115517.htm) (text/html)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_arial.htm](https://docs2.aspose.com/cells/net/attachments/5024958/5115518.htm) (text/html)  
-

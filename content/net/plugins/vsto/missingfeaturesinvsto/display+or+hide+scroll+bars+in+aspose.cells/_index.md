@@ -69,8 +69,3 @@ fstream.Close();
 *   [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
 *   [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836#content)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Display or Hide Scroll Bars-001.png](https://docs2.aspose.com/cells/net/attachments/5020762/5115084.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Display or Hide Scroll Bars-002.png](https://docs2.aspose.com/cells/net/attachments/5020762/5115070.png) (image/png)  
-

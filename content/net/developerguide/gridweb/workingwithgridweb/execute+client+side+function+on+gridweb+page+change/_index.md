@@ -31,7 +31,3 @@ The following aspx markup explains how to make use of the `OnPageChangeClientFun
 
 This is the code of the client side function `MyOnPageChange` that will be executed because of setting `OnPageChangeClientFunction ="MyOnPageChange"` property in GridWeb. This is the complete aspx page markup.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Execute-client-side-function-on-GridWeb-page-change.png](https://docs2.aspose.com/cells/net/attachments/40142260/40468496.png) (image/png)  
-

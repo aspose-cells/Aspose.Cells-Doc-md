@@ -12,25 +12,24 @@ url: /net/developerguide/griddesktop/worksheet/
 
 ### Articles in this section
 
+*    [Accessing Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/accessing+worksheet/)    
+*    [Add or Insert a Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/add+or+insert+a+worksheet/)    
+*    [Adding Cell Controls in Worksheets](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/adding+cell+controls+in+worksheets/)    
+*    [Display and Hide Scroll Bars](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/display+and+hide+scroll+bars/)    
+*    [Exporting Data from Grid](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/exporting+data+from+grid/)    
+*    [Importing Data from a DataTable to Grid](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/importing+data+from+a+datatable+to+grid/)    
+*    [Managing Cell Controls in Worksheets](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+cell+controls+in+worksheets/)    
+*    [Managing Comments in a Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+comments+in+a+worksheet/)    
+*    [Managing Hyperlinks in a Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+hyperlinks+in+a+worksheet/)    
+*    [Managing Pictures in a Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+pictures+in+a+worksheet/)    
+*    [Moving Worksheets](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/moving+worksheets/)    
+*    [Reading Data Validations in Excel file using Aspose.Cells.GridDesktop](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/reading+data+validations+in+excel+file+using+aspose.cells.griddesktop/)    
+*    [Remove a Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/remove+a+worksheet/)    
+*    [Rename a Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/rename+a+worksheet/)    
+*    [Sorting Worksheet Data](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/sorting+worksheet+data/)    
+*    [Split Panes in GridDesktop Worksheet](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/split+panes+in+griddesktop+worksheet/)    
+*    [Working with Validations in Worksheets](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/working+with+validations+in+worksheets/)    
+*    [Zooming In or Out On the Worksheet in GridDesktop](https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/zooming+in+or+out+on+the+worksheet+in+griddesktop/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Validations in Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113860.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sorting Worksheet Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113832.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sorting Worksheet Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113831.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sorting Worksheet Data-003.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113830.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing Hyperlinks in a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113829.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing Pictures in a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113836.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Managing Comments in a Worksheet-001.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113835.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113834.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113833.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-003.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113840.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-004.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113839.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-005.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113838.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-006.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113837.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-007.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113844.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [zoomslider1.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113825.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [zoomslider2.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113826.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [zoomslider3.png](https://docs2.aspose.com/cells/net/attachments/5017848/5113930.png) (image/png)  
 

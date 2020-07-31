@@ -64,8 +64,3 @@ style.Color = Color.Yellow;
 row.SetStyle(style);
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Style on a Row or Column-001.png](https://docs2.aspose.com/cells/net/attachments/5017800/5113913.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Style on a Row or Column-002.png](https://docs2.aspose.com/cells/net/attachments/5017800/5113914.png) (image/png)  
-

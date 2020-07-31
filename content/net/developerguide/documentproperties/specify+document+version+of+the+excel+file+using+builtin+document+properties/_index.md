@@ -29,8 +29,3 @@ The following sample code creates a workbook and changes its built-in document p
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSpecifyDocumentVersionOfExcelFile.xlsx](https://docs2.aspose.com/cells/net/attachments/64454840/64716811.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Specify-DocumentVersion-of-Excel-File.png](https://docs2.aspose.com/cells/net/attachments/64454840/64716812.png) (image/png)  
-

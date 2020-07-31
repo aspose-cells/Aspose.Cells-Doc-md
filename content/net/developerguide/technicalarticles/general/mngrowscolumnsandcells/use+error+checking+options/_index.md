@@ -41,7 +41,3 @@ You can use the error checking options to quickly convert numbers stored as text
 
 The following sample code shows how to disable the numbers stored as text error checking option for a worksheet in the template XLS file using the Aspose.Cells APIs.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Use Error Checking Options-001.png](https://docs2.aspose.com/cells/net/attachments/5017624/5112263.png) (image/png)  
-

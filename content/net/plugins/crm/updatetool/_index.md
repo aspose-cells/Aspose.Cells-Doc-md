@@ -101,9 +101,3 @@ You can log any issues or suggestions related to Aspose .Net Update Import Tool 
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.  
 Please find the latest Source Code and Code Example [here](http://www.aspose.com/docs/display/cellsnet/Extend+and+Contribute+to+CRM+Update+Import+Tool).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [1.jpg](https://docs2.aspose.com/cells/net/attachments/5016530/5115261.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [2.jpg](https://docs2.aspose.com/cells/net/attachments/5016530/5115264.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [2015-08-12\_23-45-29.jpg](https://docs2.aspose.com/cells/net/attachments/5016530/5115265.jpg) (image/jpeg)  
-

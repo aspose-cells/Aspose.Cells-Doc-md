@@ -90,13 +90,3 @@ To add a combobox into the worksheet using Aspose.Cells.GridDesktop , please fol
 
 Aspose.Cells.GridDesktop provides **CellSelectedIndexChanged** event that is triggered when the **Selected Index** of combobox is changed. Developers can handle this event according to their desires. For an instance, we have just displayed a message to show the **Selected Item** of the combobox:
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5017765/5113819.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5017765/5113820.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-003.png](https://docs2.aspose.com/cells/net/attachments/5017765/5113817.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-004.png](https://docs2.aspose.com/cells/net/attachments/5017765/5113818.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-005.png](https://docs2.aspose.com/cells/net/attachments/5017765/5113823.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-006.png](https://docs2.aspose.com/cells/net/attachments/5017765/5113824.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Adding Cell Controls in Worksheets-007.png](https://docs2.aspose.com/cells/net/attachments/5017765/5113821.png) (image/png)  
-

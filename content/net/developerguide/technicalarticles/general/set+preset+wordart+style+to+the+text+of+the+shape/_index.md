@@ -28,8 +28,3 @@ The following sample code creates a text box with some text and then sets preset
 
 ![](https://docs2.aspose.com/cells/net/attachments/5013746/5115442.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [set-preset-WordArt-style-to-the-text-of-the-shape.png](https://docs2.aspose.com/cells/net/attachments/5013746/5115442.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5013746/5115445.xlsx) (application/xlsx)  
-

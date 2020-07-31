@@ -42,7 +42,3 @@ Printing Rows Indices, Cell Names and Values Hidden By AutoFilter.
 12      A13     Pear
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx](https://docs2.aspose.com/cells/net/attachments/64456077/64716909.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -109,10 +109,3 @@ void WrappingCellText()
  
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Wrapping Cell Text-001.png](https://docs2.aspose.com/cells/net/attachments/5017441/5112095.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Wrapping Cell Text-002.png](https://docs2.aspose.com/cells/net/attachments/5017441/5112089.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Wrapping Cell Text-003.png](https://docs2.aspose.com/cells/net/attachments/5017441/5112088.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Wrapping Cell Text-004.png](https://docs2.aspose.com/cells/net/attachments/5017441/5112091.png) (image/png)  
-

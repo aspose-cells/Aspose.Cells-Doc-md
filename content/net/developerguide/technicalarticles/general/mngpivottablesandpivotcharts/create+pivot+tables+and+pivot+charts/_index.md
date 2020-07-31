@@ -65,10 +65,3 @@ To create a PivotChart using Aspose.Cells:
 2.  Set the `PivotSource` of the chart to refer to an existing pivot table in the spreadsheet.
 3.  Set other attributes.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create Pivot Tables and Pivot Charts-001.png](https://docs2.aspose.com/cells/net/attachments/5017727/5112635.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create Pivot Tables and Pivot Charts-002.png](https://docs2.aspose.com/cells/net/attachments/5017727/5112636.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create Pivot Tables and Pivot Charts-003.png](https://docs2.aspose.com/cells/net/attachments/5017727/5112637.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Create Pivot Tables and Pivot Charts-004.png](https://docs2.aspose.com/cells/net/attachments/5017727/5112638.png) (image/png)  
-

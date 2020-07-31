@@ -29,8 +29,3 @@ The following sample code explains the usage of [Workbook.Settings.WriteProtect
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx](https://docs2.aspose.com/cells/net/attachments/66950254/67338582.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Specify-Author-while-Write-Protecting-Workbook.png](https://docs2.aspose.com/cells/net/attachments/66950254/67338583.png) (image/png)  
-

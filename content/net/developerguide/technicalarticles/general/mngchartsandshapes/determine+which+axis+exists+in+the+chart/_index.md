@@ -27,7 +27,3 @@ Has Primary Value Axis: True
 Has Seconary Value Axis: False
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample-chart.png](https://docs2.aspose.com/cells/net/attachments/5017323/5112332.png) (image/png)  
-

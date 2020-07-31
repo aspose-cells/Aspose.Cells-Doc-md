@@ -119,8 +119,3 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
   
 ![](https://docs2.aspose.com/cells/net/attachments/5017443/5112094.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Auto Filter Data-001.png](https://docs2.aspose.com/cells/net/attachments/5017443/5112093.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Auto Filter Data-002.png](https://docs2.aspose.com/cells/net/attachments/5017443/5112094.png) (image/png)  
-

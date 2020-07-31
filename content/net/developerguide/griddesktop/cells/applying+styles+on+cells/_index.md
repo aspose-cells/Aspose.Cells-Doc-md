@@ -75,9 +75,3 @@ Aspose.Cells.GridDesktop also provides a strong feature of setting number format
 
 All built-in number formats are assigned an **Index** number. **For example** the **Index** number of **0.00E+00** number format is **11** . To use a built-in number format in any cell, developers can set the NumberFormat property of **Style** object to the **Index** number of that specific number format. However,if developers need to have their own custom number format then they can also use Custom property of **Style** object.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Styles on Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017776/5113881.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Styles on Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5017776/5113882.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Applying Styles on Cells-003.png](https://docs2.aspose.com/cells/net/attachments/5017776/5113879.png) (image/png)  
-

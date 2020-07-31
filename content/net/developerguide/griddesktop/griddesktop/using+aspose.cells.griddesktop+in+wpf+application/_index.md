@@ -77,16 +77,3 @@ We can now access & use Aspose.Cells.GridDesktop control in the .cs file as any 
 
 Now, build and run the application using **F5** or **Start** button on the Visual Studio UI.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [new-project-visual-studio.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115197.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Reference-Manager.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115198.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [add-reference.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115195.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [reference-assemblies-in-xaml.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115196.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [add-contorl-to-xaml.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115203.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [application-running.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115202.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [add-contorl-to-xaml.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115194.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [reference-assemblies-in-xaml.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115200.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [add-reference.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115199.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [add-contorl-to-xaml.png](https://docs2.aspose.com/cells/net/attachments/5013801/5115201.png) (image/png)  
-

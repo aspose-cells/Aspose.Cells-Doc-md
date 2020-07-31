@@ -74,14 +74,3 @@ Here is how Aspose.Cells.GridWeb look before & after copy rows operation.
 
 ![](https://docs2.aspose.com/cells/net/attachments/5013768/5115397.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-001.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115392.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-002.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115391.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-003.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115394.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-004.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115393.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-005.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115396.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-006.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115395.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-007.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115398.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Copy Rows and Columns-008.png](https://docs2.aspose.com/cells/net/attachments/5013768/5115397.png) (image/png)  
-

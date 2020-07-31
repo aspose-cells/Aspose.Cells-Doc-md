@@ -40,8 +40,3 @@ Is 567 correct Password to modify: False
 Is 5678 correct Password to modify: True
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Specify passwords while saving workbook.png](https://docs2.aspose.com/cells/net/attachments/5017659/5112231.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/net/attachments/5017659/5112232.xlsx) (image/png)  
-

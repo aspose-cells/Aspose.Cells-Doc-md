@@ -85,10 +85,3 @@ When the `ForceValidation` property is `true` the control does not post data to 
 **Wrong input value highlighted by GridWeb**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013798/5115381.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Validations-001.png](https://docs2.aspose.com/cells/net/attachments/5013798/5115376.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Validations-002.png](https://docs2.aspose.com/cells/net/attachments/5013798/5115375.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Validations-003.png](https://docs2.aspose.com/cells/net/attachments/5013798/5115374.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Cell Validations-004.png](https://docs2.aspose.com/cells/net/attachments/5013798/5115381.png) (image/png)  
-

@@ -27,9 +27,3 @@ Sample source file and output files can be downloaded from here for testing the 
 
 [Output PDF File](https://docs2.aspose.com/cells/net/attachments/97878786/98107430.pdf)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SamplePivotSort.xlsx](https://docs2.aspose.com/cells/net/attachments/97878786/98107428.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out.xlsx](https://docs2.aspose.com/cells/net/attachments/97878786/98107429.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out.pdf](https://docs2.aspose.com/cells/net/attachments/97878786/98107430.pdf) (application/pdf)  
-

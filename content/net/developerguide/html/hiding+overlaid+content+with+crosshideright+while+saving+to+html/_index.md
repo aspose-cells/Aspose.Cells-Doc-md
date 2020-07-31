@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Hiding-Overlaid-Content-With-CrossHideRight.png](https://docs2.aspose.com/cells/net/attachments/64456179/64716892.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [HTML-outputHidingOverlaidContentWithCrossHideRight.zip](https://docs2.aspose.com/cells/net/attachments/64456179/64716893.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleHidingOverlaidContentWithCrossHideRight.xlsx](https://docs2.aspose.com/cells/net/attachments/64456179/64716894.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

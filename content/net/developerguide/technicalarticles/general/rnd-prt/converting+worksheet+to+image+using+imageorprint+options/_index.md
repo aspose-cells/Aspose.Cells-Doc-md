@@ -67,10 +67,3 @@ It is possible to save specific pages to image. The following code converts the 
 
 You can cycle through the workbook and render each worksheet in it to a separate image:
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image using ImageOrPrint Options-001.png](https://docs2.aspose.com/cells/net/attachments/5017525/5112575.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image using ImageOrPrint Options-002.png](https://docs2.aspose.com/cells/net/attachments/5017525/5112576.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image using ImageOrPrint Options-003.png](https://docs2.aspose.com/cells/net/attachments/5017525/5112577.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Converting Worksheet to Image using ImageOrPrint Options-004.png](https://docs2.aspose.com/cells/net/attachments/5017525/5112570.png) (image/png)  
-

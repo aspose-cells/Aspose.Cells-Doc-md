@@ -29,9 +29,3 @@ Please see the following code, it loads the [sample Excel file](https://docs2.a
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleFormattingSlicer.xlsx](https://docs2.aspose.com/cells/net/attachments/66948320/67338473.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputFormattingSlicer.xlsx](https://docs2.aspose.com/cells/net/attachments/66948320/67338474.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Formatting-Slicer-using-Aspose.Cells.png](https://docs2.aspose.com/cells/net/attachments/66948320/67338490.png) (image/png)  
-

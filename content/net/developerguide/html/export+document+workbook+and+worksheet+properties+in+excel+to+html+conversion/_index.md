@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Export-Document-Workbook-Worksheet-Properties.png](https://docs2.aspose.com/cells/net/attachments/61540945/61767775.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleExportDocumentWorkbookWorksheetProperties.xlsx](https://docs2.aspose.com/cells/net/attachments/61540945/61767776.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Output HTML.zip](https://docs2.aspose.com/cells/net/attachments/61540945/61767779.zip) (application/zip)  
-

@@ -59,9 +59,3 @@ Given that `EnableClipboardCopyPaste` is `true` and `PasteType` is `All`,
 
 ![](https://docs2.aspose.com/cells/net/attachments/54690466/55541833.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Cell-Formatting-was-copied-because-EnableClipboardCopyPaste-is-True.png](https://docs2.aspose.com/cells/net/attachments/54690466/55541833.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [EnableClipboardCopyPaste-Effect-on-Cell-Copy-Paste.png](https://docs2.aspose.com/cells/net/attachments/54690466/55541835.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Cell-Formatting-was-not-copied-because-EnableClipboardCopyPaste-is-False.png](https://docs2.aspose.com/cells/net/attachments/54690466/55541834.png) (image/png)  
-

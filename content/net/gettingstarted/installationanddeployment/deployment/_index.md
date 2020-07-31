@@ -12,5 +12,7 @@ url: /net/gettingstarted/installationanddeployment/deployment/
 
 ### Articles in this section
 
+*    [Using Aspose.Cells on 32-bit and 64-bit Platforms](https://docs2.aspose.com/cells/net/gettingstarted/installationanddeployment/deployment/using+aspose.cells+on+32-bit+and+64-bit+platforms/)    
+
            
 

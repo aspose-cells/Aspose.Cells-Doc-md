@@ -18,7 +18,3 @@ The sample code loads the source Excel file and then sends it to printer by spec
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Job-Name-while-printing-with-Aspose.Cells.png](https://docs2.aspose.com/cells/net/attachments/5017517/5112596.png) (image/png)  
-

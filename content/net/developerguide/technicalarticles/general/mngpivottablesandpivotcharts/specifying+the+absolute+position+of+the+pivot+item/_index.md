@@ -22,8 +22,3 @@ The following sample code creates a Pivot Table and then it specifies the Pivot 
 
 Please note, it is necessary to call the `PivotTable.RefreshData` and `PivotTable.CalculateData` methods before using `PivotItem.Position`, `PivotItem.PositionInSameParentNode` properties and `PivotItem.Move(int count, bool isSameParent)` method.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/net/attachments/5017737/5112632.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5017737/5112619.xlsx) (image/png)  
-

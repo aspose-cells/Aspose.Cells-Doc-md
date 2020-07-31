@@ -83,7 +83,3 @@ Please check the following article for more help.
 
 *   [Working of GridWeb when ASP.NET Session state mode is SQL Server](https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/working+of+gridweb+when+asp.net+session+state+mode+is+sql+server)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Introduction to Different Grid Modes-001.png](https://docs2.aspose.com/cells/net/attachments/5013748/5115438.png) (image/png)  
-

@@ -46,9 +46,3 @@ The above code snippet uses the existing instance of the [Workbook](https://apir
 
 Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the [Chart.SetChartDataRange](https://apireference.aspose.com/net/cells/aspose.cells.charts/chart/methods/setchartdatarange) method so that we do not have to configure the chart further.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartMarkerDesignerSample.png](https://docs2.aspose.com/cells/net/attachments/5015274/5115060.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartMarkerDesignerProcessed.png](https://docs2.aspose.com/cells/net/attachments/5015274/5115059.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ChartView.png](https://docs2.aspose.com/cells/net/attachments/5015274/5115088.png) (image/png)  
-

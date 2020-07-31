@@ -20,8 +20,3 @@ Aspose.Cells provides the [Aspose.Cells.DigitalSignatures](https://apireference
 
 Please see the following sample code that describes how you can perform the task using the Aspose.Cells for .NET API.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Assign and Validate Digital Signatures-001.png](https://docs2.aspose.com/cells/net/attachments/5017703/5112204.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Assign and Validate Digital Signatures-002.png](https://docs2.aspose.com/cells/net/attachments/5017703/5112207.png) (image/png)  
-

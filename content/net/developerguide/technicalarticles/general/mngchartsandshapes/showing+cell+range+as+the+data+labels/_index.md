@@ -22,7 +22,3 @@ To show the cell range as data labels in Microsoft Excel:
 
 The sample code below accesses a chart series data labels and sets the [DataLabels.ShowCellRange](https://apireference.aspose.com/net/cells/aspose.cells.charts/datalabels/properties/showcellrange) property to **true** to select the **Label Contains - Value From Cells** option.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [show-cell-range.png](https://docs2.aspose.com/cells/net/attachments/5017333/5112342.png) (image/png)  
-

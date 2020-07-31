@@ -107,8 +107,3 @@ objworkbook.Save("c:\\RotateText_test.xlsx");
  
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rotating Cell Text-001.png](https://docs2.aspose.com/cells/net/attachments/5017469/5112097.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Rotating Cell Text-002.png](https://docs2.aspose.com/cells/net/attachments/5017469/5112098.png) (image/png)  
-

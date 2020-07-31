@@ -124,10 +124,3 @@ The source and output excel files are attached for reference.
 
 [Output File](https://docs2.aspose.com/cells/net/attachments/5025054/96928220.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleDataValidationRules.xlsx](https://docs2.aspose.com/cells/net/attachments/5025054/77496339.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleValidation.xlsx](https://docs2.aspose.com/cells/net/attachments/5025054/79527947.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ValidationsSample.xlsx](https://docs2.aspose.com/cells/net/attachments/5025054/96928219.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ValidationsSample\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/5025054/96928220.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

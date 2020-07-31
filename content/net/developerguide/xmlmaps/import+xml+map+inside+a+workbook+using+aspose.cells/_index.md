@@ -40,11 +40,3 @@ The following sample code shows how to make use of the [Workbook.ImportXml()](h
   
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleXML.txt](https://docs2.aspose.com/cells/net/attachments/5018589/5115037.txt) (text/plain)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [import-xml-using-excel.png](https://docs2.aspose.com/cells/net/attachments/5018589/5115038.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output-excel-file-xml-map.png](https://docs2.aspose.com/cells/net/attachments/5018589/5115035.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5018589/5115036.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleXML.xml](https://docs2.aspose.com/cells/net/attachments/5018589/43352086.xml) (application/x-upload-data)  
-

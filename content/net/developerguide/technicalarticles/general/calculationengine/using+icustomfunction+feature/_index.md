@@ -60,8 +60,3 @@ public object CalculateCustomFunction(string functionName, ArrayList paramsList,
 }
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using ICustomFunction feature-001.png](https://docs2.aspose.com/cells/net/attachments/5017602/5112467.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using ICustomFunction feature-002.png](https://docs2.aspose.com/cells/net/attachments/5017602/5112472.png) (image/png)  
-

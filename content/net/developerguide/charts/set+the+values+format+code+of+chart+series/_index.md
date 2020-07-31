@@ -29,9 +29,3 @@ The following sample code adds a series in the empty chart which has no series b
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSeries\_ValuesFormatCode.xlsx](https://docs2.aspose.com/cells/net/attachments/51479831/51740712.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Set-the-Values-Format-Code-of-Chart-Series.png](https://docs2.aspose.com/cells/net/attachments/51479831/51740714.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSeries\_ValuesFormatCode.xlsx](https://docs2.aspose.com/cells/net/attachments/51479831/51740713.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

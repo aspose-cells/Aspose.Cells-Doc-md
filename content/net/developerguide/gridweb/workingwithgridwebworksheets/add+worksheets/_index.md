@@ -39,14 +39,3 @@ To add a worksheet with a specific name to the GridWeb control instead of using 
 
 The `Add` method accepting the worksheet name as string returns an instance of `GridWorksheet`.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115275.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115274.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115288.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115287.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115106.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115105.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-001.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115348.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Worksheets-002.png](https://docs2.aspose.com/cells/net/attachments/5013781/5115347.png) (image/png)  
-

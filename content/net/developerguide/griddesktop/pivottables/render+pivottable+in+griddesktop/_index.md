@@ -32,8 +32,3 @@ The following sample code imports the [Sample Excel File containing the Pivot Ta
 
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Render-PivotTable-In-GridDesktop.png](https://docs2.aspose.com/cells/net/attachments/48136520/48496685.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleRenderPivotTableInGridDesktop.xlsx](https://docs2.aspose.com/cells/net/attachments/48136520/48496686.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

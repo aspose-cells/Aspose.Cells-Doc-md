@@ -54,8 +54,3 @@ Please see the following sample code. It loads the [sample Excel file](https://d
 
 \[X\]: 153.6035 \[Y\]: 82.94118 \[Width\]: 103.2035 \[Height\]: 14.47059 \[Cell Value\]: This is sample text.----------------------\[X\]: 267.6917 \[Y\]: 153.4853 \[Width\]: 160.4491 \[Height\]: 128.0647 \[Shape Name\]: Sun----------------------
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx](https://docs2.aspose.com/cells/net/attachments/64454877/64716821.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputGetDrawObjectAndBoundUsingDrawObjectEventHandler.pdf](https://docs2.aspose.com/cells/net/attachments/64454877/64716822.pdf) (application/pdf)  
-

@@ -43,8 +43,3 @@ It is possible to restrict any kind of client side operations on rows and column
 **Context menu after restricting row & column options**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013770/5115404.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Protect Rows and Columns-001.png](https://docs2.aspose.com/cells/net/attachments/5013770/5115401.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Protect Rows and Columns-002.png](https://docs2.aspose.com/cells/net/attachments/5013770/5115404.png) (image/png)  
-

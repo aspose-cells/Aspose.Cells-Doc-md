@@ -19,7 +19,6 @@ url: /net/releasenotes/2008/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .Net v4.4.2 Hotfix Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2008/aspose.cells+for+.net+v4.4.2+hotfix+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .Net 4.4.1 Hot Fix Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2008/aspose.cells+for+.net+4.4.1+hot+fix+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

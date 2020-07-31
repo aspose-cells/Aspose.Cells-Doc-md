@@ -14,8 +14,3 @@ Sometimes you need to search for and replace specific data in a range ignoring a
 
 Aspose.Cells provides the [FindOptions.SetRange()](https://apireference.aspose.com/net/cells/aspose.cells/findoptions/methods/setrange) method for specifying a range when searching data. Below code sample search and replace data in a range.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Search-Data-Within-Range-1.PNG](https://docs2.aspose.com/cells/net/attachments/5017630/5112275.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Search-Data-Within-Range-2.PNG](https://docs2.aspose.com/cells/net/attachments/5017630/5112276.png) (image/png)  
-

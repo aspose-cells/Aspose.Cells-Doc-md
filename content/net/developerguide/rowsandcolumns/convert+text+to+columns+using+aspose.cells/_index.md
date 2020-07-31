@@ -27,8 +27,3 @@ The following sample code explains the usage of [Worksheet.Cells.TextToColumns()
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputTextToColumns.xlsx](https://docs2.aspose.com/cells/net/attachments/25002706/25395213.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Split-text-into-columns.png](https://docs2.aspose.com/cells/net/attachments/25002706/25395214.png) (image/png)  
-

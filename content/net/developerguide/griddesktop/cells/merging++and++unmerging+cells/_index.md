@@ -42,8 +42,3 @@ You can use **Unmerge** method of **Worksheet** to unmerge a cell using its loca
 
 When you merge cells into a single cell then the formatting settings of top left cell (in the range of cells) are applied on the merged cell but when the cell is unmerged, all unmerged cells maintain their formatting settings.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Merging and Unmerging Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5017956/5113887.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Merging and Unmerging Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5017956/5113888.png) (image/png)  
-

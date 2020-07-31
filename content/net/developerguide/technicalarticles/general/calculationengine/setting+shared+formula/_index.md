@@ -32,8 +32,3 @@ Another approach is to use a **shared formula**. With a shared formula, the form
 
 The following example demonstrates how to use it.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Shared Formula 1.PNG](https://docs2.aspose.com/cells/net/attachments/5017612/5112460.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Setting Shared Formula 2.PNG](https://docs2.aspose.com/cells/net/attachments/5017612/5112461.png) (image/png)  
-

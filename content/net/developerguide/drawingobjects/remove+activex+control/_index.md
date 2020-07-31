@@ -22,8 +22,3 @@ Aspose.Cells provides the ability to remove ActiveX Control from workbooks. For
 
 ## Sample Code 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartArt.xlsx](https://docs2.aspose.com/cells/net/attachments/105284032/105480214.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleUpdateActiveXComboBoxControl.xlsx](https://docs2.aspose.com/cells/net/attachments/105284032/105480215.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

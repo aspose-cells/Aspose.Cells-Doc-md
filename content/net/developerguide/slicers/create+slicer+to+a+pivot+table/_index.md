@@ -29,10 +29,3 @@ Please see the following sample code. It loads the [sample Excel file](https://d
 
 ## Sample Code 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleCreateSlicerToPivotTable.xlsx](https://docs2.aspose.com/cells/net/attachments/66948306/67338470.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputCreateSlicerToPivotTable.xlsb](https://docs2.aspose.com/cells/net/attachments/66948306/67338472.xlsb) (application/vnd.ms-excel.sheet.binary.macroenabled.12)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputCreateSlicerToPivotTable.xlsx](https://docs2.aspose.com/cells/net/attachments/66948306/67338471.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Slicer-has-been-created-in-output-Excel-file-using-Aspose.Cells-API.png](https://docs2.aspose.com/cells/net/attachments/66948306/67338489.png) (image/png)  
-

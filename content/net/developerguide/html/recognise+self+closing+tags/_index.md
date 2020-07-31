@@ -18,8 +18,3 @@ HTML can have variety of tags formatting for empty tags like <td></td> or <td/>.
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSelfClosingTags.html](https://docs2.aspose.com/cells/net/attachments/73826369/73990155.html) (text/html)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outsampleSelfClosingTags.xlsx](https://docs2.aspose.com/cells/net/attachments/73826369/73990156.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

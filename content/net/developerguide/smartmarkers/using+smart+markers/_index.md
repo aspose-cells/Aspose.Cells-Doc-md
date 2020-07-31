@@ -223,16 +223,3 @@ The following sample code explains the use of HTML property of the Smart Markers
 
 Sometimes, it may be required to get the notifications about the cell reference or the particular Smart Marker being processed before the completion. This can be achieved using the `WorkbookDesigner.CallBack` property and `ISmartMarkerCallBack`
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [8Fez2cP (1).png](https://docs2.aspose.com/cells/net/attachments/5016199/5115178.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [8Fez2cP.png](https://docs2.aspose.com/cells/net/attachments/5016199/5115177.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [26aAQb1.jpg](https://docs2.aspose.com/cells/net/attachments/5016199/5115180.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [hjlIaJj.png](https://docs2.aspose.com/cells/net/attachments/5016199/5115179.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [JSpmtkh.jpg](https://docs2.aspose.com/cells/net/attachments/5016199/5115182.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [nmZhcQ6.jpg](https://docs2.aspose.com/cells/net/attachments/5016199/5115181.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [OkjM5jY.jpg](https://docs2.aspose.com/cells/net/attachments/5016199/5115184.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [vvPrAwi.png](https://docs2.aspose.com/cells/net/attachments/5016199/5115183.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XyjE4OB.png](https://docs2.aspose.com/cells/net/attachments/5016199/5115186.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [XyjE4OB (1).png](https://docs2.aspose.com/cells/net/attachments/5016199/5115185.png) (image/png)  
-

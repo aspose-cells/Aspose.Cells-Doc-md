@@ -31,9 +31,3 @@ The following sample code creates a shared workbook by setting [Workbook.Setting
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSharedWorkbook.xlsx](https://docs2.aspose.com/cells/net/attachments/54690107/55541786.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Shared-Workbook-in-Microsoft-Excel.png](https://docs2.aspose.com/cells/net/attachments/54690107/55541787.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Share-Workbook-Using-Microsoft-Excel.png](https://docs2.aspose.com/cells/net/attachments/54690107/55541795.png) (image/png)  
-

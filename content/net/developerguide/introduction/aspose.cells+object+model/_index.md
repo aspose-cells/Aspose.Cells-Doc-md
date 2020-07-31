@@ -124,15 +124,3 @@ Each `Worksheet` object contains a `VerticalPageBreakCollection` object that rep
 
 A `VerticalPageBreak` object is used to create a vertical page break in the worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-001.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114590.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-002.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114589.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-003.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114603.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-004.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114604.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-005.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114601.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-006.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114602.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-007.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114599.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-008.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114600.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-009.png](https://docs2.aspose.com/cells/net/attachments/5018389/5114597.png) (image/png)  
-

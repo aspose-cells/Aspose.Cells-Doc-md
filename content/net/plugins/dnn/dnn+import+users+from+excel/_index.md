@@ -134,7 +134,3 @@ Please follow these simple steps to get started
 2.  Open Visual Studio 2010 and Choose **File** > **Open Project**
 3.  Browse to the latest source code that you have downloaded and open **Aspose.DNN.ImportUsersFromExcel.sln**
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Aspose-.NET-Word-Processing-Document-and-PDF-Exporter-for-DNN-Add-module-to-page.png](https://docs2.aspose.com/cells/net/attachments/5016399/5115262.png) (image/png)  
-

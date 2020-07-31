@@ -30,8 +30,3 @@ The resultant spreadsheet, in this case, will look as follow.
 
 ![](https://docs2.aspose.com/cells/net/attachments/5019677/5115050.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Alternative\_Row\_Shading\_With\_Conditional\_Formatting.png](https://docs2.aspose.com/cells/net/attachments/5019677/5115049.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Alternative\_Column\_Shading\_With\_Conditional\_Formatting.png](https://docs2.aspose.com/cells/net/attachments/5019677/5115050.png) (image/png)  
-

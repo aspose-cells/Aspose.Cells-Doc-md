@@ -149,7 +149,3 @@ objBook.Save("ApplyBorders.xls");
 *   [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20(Aspose.Cells).zip/download)
 *   [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20(Aspose.Cells).zip)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Add Borders to Cells in a Worksheet-002.png](https://docs2.aspose.com/cells/net/attachments/5020861/5115078.png) (image/png)  
-

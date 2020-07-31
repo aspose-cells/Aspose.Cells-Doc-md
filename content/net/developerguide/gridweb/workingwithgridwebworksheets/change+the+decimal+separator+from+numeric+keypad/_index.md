@@ -33,8 +33,3 @@ Using the **GridWorksheetCollection.NumberDecimalSeparator** property, you may 
 
 Please note, decimal separator change is only for users' visual experience in GridWeb. When you edit and save your workbook, it will still store the numeric values (in the spreadsheet) as per your locale/regional decimal separator.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [change\_decimal\_separator1.png](https://docs2.aspose.com/cells/net/attachments/64455023/64716827.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [change\_decimal\_separator2.png](https://docs2.aspose.com/cells/net/attachments/64455023/64716828.png) (image/png)  
-

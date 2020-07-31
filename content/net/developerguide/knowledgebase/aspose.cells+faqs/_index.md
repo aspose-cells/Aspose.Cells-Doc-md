@@ -89,8 +89,3 @@ Users may trace the stack size by themselves using the APIs. Please note, checki
 
 There is no better way to get the stack size used at runtime. The above code we provided is just for example. The performance will be degraded significantly for sure. So, we think the code can be optimized by users (who really want to use it) according to their different scenarios and requirements. Such as, checking the stack when the recursive cells count reaches to certain number, gathering the average increase rate of stack for one recursive cell and determine the frequency to check the stack, etc.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThicknessIsDiff.png](https://docs2.aspose.com/cells/net/attachments/5017240/5112127.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThicknessIsSame.png](https://docs2.aspose.com/cells/net/attachments/5017240/5112124.png) (image/png)  
-

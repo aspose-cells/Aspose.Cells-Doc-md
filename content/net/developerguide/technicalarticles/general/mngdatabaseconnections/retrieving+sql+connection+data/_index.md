@@ -22,7 +22,3 @@ Aspose.Cells provides the `Workbook.DataConnections` property for retrieving ext
 
 If the `ExternalConnection` object contains SQL connection data, it can be type-caste to a `DBConnection` object and its properties can be used to retrieve database command, command type, connection description, connection information, credentials, and so on.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SQL-Connection-Data.PNG](https://docs2.aspose.com/cells/net/attachments/5017319/5112355.png) (image/png)  
-

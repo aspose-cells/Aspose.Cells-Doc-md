@@ -37,7 +37,3 @@ To find out which version of Aspose.Cells you are using manually:
 
 To find out which version of Aspose.Cells you are using through the API, use the [`CellsHelper`](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.CellsHelper+Class&linkCreation=true&fromPageId=5018377) class `GetVersion` static method to get Aspose.Cell's version number.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Check Version Number of the Component-001.png](https://docs2.aspose.com/cells/net/attachments/5018377/5114607.png) (image/png)  
-

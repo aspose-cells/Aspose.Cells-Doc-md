@@ -28,8 +28,3 @@ The following code accesses the first pivot table of the worksheet and then get 
 |![](https://docs2.aspose.com/cells/net/attachments/5017287/5112373.png)|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PivotTable-Before.PNG](https://docs2.aspose.com/cells/net/attachments/5017287/5112372.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [PivotTable-After.PNG](https://docs2.aspose.com/cells/net/attachments/5017287/5112373.png) (image/png)  
-

@@ -100,9 +100,3 @@ The grid content is saved to an Excel file.
 **Application in running mode**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013749/5115441.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Grid Events-001.png](https://docs2.aspose.com/cells/net/attachments/5013749/5115439.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Grid Events-002.png](https://docs2.aspose.com/cells/net/attachments/5013749/5115440.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Working with Grid Events-003.png](https://docs2.aspose.com/cells/net/attachments/5013749/5115441.png) (image/png)  
-

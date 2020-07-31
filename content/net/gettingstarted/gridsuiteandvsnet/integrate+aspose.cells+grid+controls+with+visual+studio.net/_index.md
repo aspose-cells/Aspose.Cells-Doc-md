@@ -27,11 +27,3 @@ To integrate Aspose.Cells Grid controls with Visual Studio.NET:
 
 the Aspose.Cells Grid Controls will have been added to the Toolbox's **General** tab. Only the GridWeb control is not active. This is because we are working on a Windows Forms application. GridWeb is only available when you are working on Web Forms whereas GridDesktop can be used with Windows forms only.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Integrate Aspose.Cells Grid Controls with Visual Studio.NET-001.png](https://docs2.aspose.com/cells/net/attachments/5018399/5114808.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Integrate Aspose.Cells Grid Controls with Visual Studio.NET-002.png](https://docs2.aspose.com/cells/net/attachments/5018399/5114805.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Integrate Aspose.Cells Grid Controls with Visual Studio.NET-003.png](https://docs2.aspose.com/cells/net/attachments/5018399/5114806.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Integrate Aspose.Cells Grid Controls with Visual Studio.NET-004.png](https://docs2.aspose.com/cells/net/attachments/5018399/5114803.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Integrate Aspose.Cells Grid Controls with Visual Studio.NET-005.png](https://docs2.aspose.com/cells/net/attachments/5018399/5114804.png) (image/png)  
-

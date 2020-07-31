@@ -28,7 +28,3 @@ The following sample code loads a workbook such that only VBA is filtered. A sam
 
 [sampleMacroEnabledWorkbook.xlsm](https://docs2.aspose.com/cells/net/attachments/79331346/79527938.xlsm)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleMacroEnabledWorkbook.xlsm](https://docs2.aspose.com/cells/net/attachments/79331346/79527938.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

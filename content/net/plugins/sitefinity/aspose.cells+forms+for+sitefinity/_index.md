@@ -195,9 +195,3 @@ Please follow these simple steps to get started
 2.  Open Visual Studio 2013 and Choose **File** > **Open Project**
 3.  Browse to the latest source code that you have downloaded and open the **.sln** file.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Main\_Form.png](https://docs2.aspose.com/cells/net/attachments/5023902/5115561.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AsposeExportImage.png](https://docs2.aspose.com/cells/net/attachments/5023902/5115562.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [All In one.png](https://docs2.aspose.com/cells/net/attachments/5023902/5115524.png) (image/png)  
-

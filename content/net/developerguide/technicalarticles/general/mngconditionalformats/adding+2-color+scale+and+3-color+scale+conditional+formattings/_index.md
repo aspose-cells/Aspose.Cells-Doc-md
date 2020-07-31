@@ -14,8 +14,3 @@ url: /net/developerguide/technicalarticles/general/mngconditionalformats/adding+
 
 The following sample code adds 2-Color and 3-Color Scale Conditional Formattings. It generates the [output excel file](https://docs2.aspose.com/cells/net/attachments/5018372/5115058.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [2-3-ColorScale-ConditionalFormattings.png](https://docs2.aspose.com/cells/net/attachments/5018372/5115057.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/net/attachments/5018372/5115058.xlsx) (application/unknown)  
-

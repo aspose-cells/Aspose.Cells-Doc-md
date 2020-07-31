@@ -24,7 +24,6 @@ url: /net/releasenotes/2011/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .NET 5.3.0 Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2011/aspose.cells+for+.net+5.3.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .NET 5.2.2 Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2011/aspose.cells+for+.net+5.2.2+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

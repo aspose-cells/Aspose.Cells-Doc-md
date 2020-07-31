@@ -26,7 +26,3 @@ This article also explains how to:
 
 [ChartPoint.Area.ForegroundColor](https://apireference.aspose.com/net/cells/aspose.cells.drawing/area/properties/foregroundcolor) is not specific to pie charts but it can be used for all types of charts.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Custom-Slice-or-Sector-Colors-in-Pie-Chart.Png](https://docs2.aspose.com/cells/net/attachments/5017349/5112327.png) (image/png)  
-

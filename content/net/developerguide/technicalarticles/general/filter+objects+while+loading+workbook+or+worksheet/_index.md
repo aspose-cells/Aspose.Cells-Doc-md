@@ -65,14 +65,3 @@ Once, it loads the [source excel file](https://docs2.aspose.com/cells/net/attach
   
 This is how to use the `CustomLoadFilter` class as per worksheet names.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleFilterChars.xlsx](https://docs2.aspose.com/cells/net/attachments/5013806/5115258.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleFilterChars.pdf](https://docs2.aspose.com/cells/net/attachments/5013806/5115257.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [NoShapes.png](https://docs2.aspose.com/cells/net/attachments/5013806/5115256.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013806/5115253.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [NoCharts.png](https://docs2.aspose.com/cells/net/attachments/5013806/5115254.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013806/5115252.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [NoConditionalFormatting.png](https://docs2.aspose.com/cells/net/attachments/5013806/5115251.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5013806/5115255.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

@@ -48,7 +48,3 @@ The [GlobalizationSettings](https://apireference.aspose.com/net/cells/aspose.cel
   
 The following snippet loads an existing spreadsheet containing a Pie chart and renders the chart to an image while utilizing the **CustomSettings **class created above.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.png](https://docs2.aspose.com/cells/net/attachments/5013574/5115147.png) (image/png)  
-

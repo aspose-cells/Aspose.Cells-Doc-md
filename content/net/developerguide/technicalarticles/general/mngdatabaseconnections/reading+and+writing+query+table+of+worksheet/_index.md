@@ -39,11 +39,3 @@ Preserve Formatting: False
 
 Aspose.Cells provides option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. Sample file can be downloaded [here](https://docs2.aspose.com/cells/net/attachments/5023523/72417290.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [before-setting-query-table.png](https://docs2.aspose.com/cells/net/attachments/5023523/5115536.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Output.xlsx](https://docs2.aspose.com/cells/net/attachments/5023523/5115537.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Sample.xlsx](https://docs2.aspose.com/cells/net/attachments/5023523/5115533.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [after-setting-query-table.png](https://docs2.aspose.com/cells/net/attachments/5023523/5115532.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Query TXT.xlsx](https://docs2.aspose.com/cells/net/attachments/5023523/72417290.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

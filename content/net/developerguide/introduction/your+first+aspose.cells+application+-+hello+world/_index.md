@@ -43,7 +43,3 @@ The following example creates a new workbook from the scratch, writes Hello Worl
 
 The following example opens an existing Microsoft Excel template file named "Sample.xlsx", inputs "Hello World!" text into the A1 cell in the first worksheet and saves the workbook.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Your First Application using Aspose.Cells Hello World-001.png](https://docs2.aspose.com/cells/net/attachments/5018387/5114598.png) (image/png)  
-

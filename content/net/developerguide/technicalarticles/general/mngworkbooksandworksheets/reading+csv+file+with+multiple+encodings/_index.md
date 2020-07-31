@@ -43,9 +43,3 @@ Below is the sample code that converts the above CSV file into XLSX format prope
   
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Muti-Encoded-CSV-File.Png](https://docs2.aspose.com/cells/net/attachments/5017651/5112225.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [CSV-File-Coverted-To-XLSX-Without-Setting-IsMultiEncoded-True.Png](https://docs2.aspose.com/cells/net/attachments/5017651/5112226.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [CSV-File-Converted-To-XLSX.Png](https://docs2.aspose.com/cells/net/attachments/5017651/5112227.png) (image/png)  
-

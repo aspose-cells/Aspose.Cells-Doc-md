@@ -44,9 +44,3 @@ First Worksheet of First Workbook - IsAutomaticPaperSize: False
 First Worksheet of Second Workbook - IsAutomaticPaperSize: True
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [samplePageSetupIsAutomaticPaperSize-False.xlsx](https://docs2.aspose.com/cells/net/attachments/48136585/48496681.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Determine-if-Paper-Size-of-Worksheet-is-Automatic.png](https://docs2.aspose.com/cells/net/attachments/48136585/48496683.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [samplePageSetupIsAutomaticPaperSize-True.xlsx](https://docs2.aspose.com/cells/net/attachments/48136585/48496682.xlsx) (application/unknown)  
-

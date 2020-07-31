@@ -45,12 +45,3 @@ See the output [PDF](https://docs2.aspose.com/cells/net/attachments/48136475/48
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [workbook\_defaultfont1.png](https://docs2.aspose.com/cells/net/attachments/48136475/48496669.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out1\_imagePNG.png](https://docs2.aspose.com/cells/net/attachments/48136475/48496706.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out1\_imageTIFF.tiff](https://docs2.aspose.com/cells/net/attachments/48136475/48496672.tiff) (image/tiff)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out1\_pdf.pdf](https://docs2.aspose.com/cells/net/attachments/48136475/48496673.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out1\_imagePNG.png](https://docs2.aspose.com/cells/net/attachments/48136475/48496671.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx](https://docs2.aspose.com/cells/net/attachments/48136475/49446913.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

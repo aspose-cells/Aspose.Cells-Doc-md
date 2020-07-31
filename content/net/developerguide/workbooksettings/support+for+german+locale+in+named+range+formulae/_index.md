@@ -16,7 +16,3 @@ Sample file for testing this feature can be downloaded from the following link:
 
 [sampleNamedRangeTest.xlsm](https://docs2.aspose.com/cells/net/attachments/73826373/73990165.xlsm)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleNamedRangeTest.xlsm](https://docs2.aspose.com/cells/net/attachments/73826373/73990165.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

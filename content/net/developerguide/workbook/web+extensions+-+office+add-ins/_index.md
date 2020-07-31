@@ -44,8 +44,3 @@ Aspose.Cells provides the ability to access the information of Web Extensions in
 
 Width: 350IsVisible: TrueIsLocked: FalseDockState: rightStoreName: en-USStoreType: OMEXWebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddWebExtension\_Out.xlsx](https://docs2.aspose.com/cells/net/attachments/89686048/89849869.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [WebExtensionsSample.xlsx](https://docs2.aspose.com/cells/net/attachments/89686048/89849870.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

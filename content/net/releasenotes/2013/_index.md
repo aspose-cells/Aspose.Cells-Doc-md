@@ -23,7 +23,6 @@ url: /net/releasenotes/2013/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .NET 7.4.1 Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2013/aspose.cells+for+.net+7.4.1+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for .NET 7.4.0 Release Notes**](https://docs2.aspose.com/cells/net/releasenotes/2013/aspose.cells+for+.net+7.4.0+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

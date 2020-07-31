@@ -50,21 +50,3 @@ Aspose.Cells provides the [OdsPageBackground](https://apireference.aspose.com/n
 
 #### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddThreadedComment2.jpg](https://docs2.aspose.com/cells/net/attachments/89981351/90112018.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddThreadedComment1.jpg](https://docs2.aspose.com/cells/net/attachments/89981351/90112019.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsInExcel20162.jpg](https://docs2.aspose.com/cells/net/attachments/89981351/90112020.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsSample\_Out.xlsx](https://docs2.aspose.com/cells/net/attachments/89981351/90112022.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsInExcel2016.jpg](https://docs2.aspose.com/cells/net/attachments/89981351/90112021.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [DeleteThreadedComment.jpg](https://docs2.aspose.com/cells/net/attachments/89981351/90112023.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [EditThreadedComments.xlsx](https://docs2.aspose.com/cells/net/attachments/89981351/90112024.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsSample.xlsx](https://docs2.aspose.com/cells/net/attachments/89981351/90112025.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [EditThreadedComment.jpg](https://docs2.aspose.com/cells/net/attachments/89981351/90112026.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddThreadedComments\_out.xlsx](https://docs2.aspose.com/cells/net/attachments/89981351/90112027.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [AddWebExtension\_Out.xlsx](https://docs2.aspose.com/cells/net/attachments/89981351/90112028.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ThreadedCommentsView.jpg](https://docs2.aspose.com/cells/net/attachments/89981351/90112029.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [GraphicBackground.ods](https://docs2.aspose.com/cells/net/attachments/89981351/90112032.ods) (application/vnd.oasis.opendocument.spreadsheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [ColoredBackground.ods](https://docs2.aspose.com/cells/net/attachments/89981351/90112031.ods) (application/vnd.oasis.opendocument.spreadsheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [GraphicBackground.ods](https://docs2.aspose.com/cells/net/attachments/89981351/90112030.ods) (application/vnd.oasis.opendocument.spreadsheet)  
-

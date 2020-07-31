@@ -31,8 +31,3 @@ The following sample code enforces Aspose.Cells to use 15 significant digits whi
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [out\_SignificantDigits.xlsx](https://docs2.aspose.com/cells/net/attachments/22546710/22774105.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Illustration-of-CellsHelper.SignificantDigits.png](https://docs2.aspose.com/cells/net/attachments/22546710/22774106.png) (image/png)  
-

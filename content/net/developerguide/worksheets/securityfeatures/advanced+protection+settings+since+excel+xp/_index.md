@@ -72,7 +72,3 @@ If you want to restrict users from editing cells the cells must be locked before
 
 It is possible to lock cells using the Aspose.Cells API too. Each cell can get [Style](https://apireference.aspose.com/net/cells/aspose.cells/style) formatting that contains a Boolean property, [IsLocked](https://apireference.aspose.com/net/cells/aspose.cells/style/properties/islocked). Set the [IsLocked](https://apireference.aspose.com/net/cells/aspose.cells/style/properties/islocked) property to **true** or **false** to lock or unlock the cell.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Cell lock dialog.png](https://docs2.aspose.com/cells/net/attachments/5013512/5115176.png) (image/png)  
-

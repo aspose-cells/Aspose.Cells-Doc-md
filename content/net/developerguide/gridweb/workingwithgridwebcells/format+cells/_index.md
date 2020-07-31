@@ -161,18 +161,3 @@ To set custom number format use the cell's `SetCustom` method.
 **Number format settings applied on B1 and B2**  
 ![](https://docs2.aspose.com/cells/net/attachments/5013760/5115355.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-001.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115364.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-002.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115365.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-003.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115362.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-004.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115363.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-005.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115352.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-006.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115353.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-007.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115350.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-008.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115356.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-008.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115357.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-008.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115351.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-009.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115354.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Cells-010.png](https://docs2.aspose.com/cells/net/attachments/5013760/5115355.png) (image/png)  
-

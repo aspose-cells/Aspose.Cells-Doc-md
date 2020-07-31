@@ -29,9 +29,3 @@ Please see the following sample code. It loads the [sample Excel file](https://d
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSetMarginsOfCommentOrShape.xlsx](https://docs2.aspose.com/cells/net/attachments/61542248/61767851.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Set-Margins-Of-Comment-Or-Shape.png](https://docs2.aspose.com/cells/net/attachments/61542248/61767853.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSetMarginsOfCommentOrShape.xlsx](https://docs2.aspose.com/cells/net/attachments/61542248/61767852.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

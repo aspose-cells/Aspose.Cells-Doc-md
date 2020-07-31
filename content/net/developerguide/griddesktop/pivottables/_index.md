@@ -12,6 +12,8 @@ url: /net/developerguide/griddesktop/pivottables/
 
 ### Articles in this section
 
+*    [Render PivotTable in GridDesktop](https://docs2.aspose.com/cells/net/developerguide/griddesktop/pivottables/render+pivottable+in+griddesktop/)    
+
            
 
  

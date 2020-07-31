@@ -26,8 +26,3 @@ The file is loaded into the GridWeb and we can see a sheet with all the values i
 After pressing CTRL + ~, all formulas are displayed.  
 ![](https://docs2.aspose.com/cells/net/attachments/5013557/5115166.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Show Formulas Feature of GridWeb-001.png](https://docs2.aspose.com/cells/net/attachments/5013557/5115165.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using Show Formulas Feature of GridWeb-002.png](https://docs2.aspose.com/cells/net/attachments/5013557/5115166.png) (image/png)  
-

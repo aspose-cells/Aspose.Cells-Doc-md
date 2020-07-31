@@ -34,7 +34,3 @@ The result of this test was very good. If you have, for example 100 requests for
 
 Now we have solved the issue that was causing our clients too much time. The usability of our products is higher.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Blue Inkt Business Solutions Providers-001.png](https://docs2.aspose.com/cells/net/attachments/5018432/5114878.png) (image/png)  
-

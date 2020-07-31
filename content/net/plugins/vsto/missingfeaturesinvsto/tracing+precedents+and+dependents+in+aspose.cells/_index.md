@@ -129,11 +129,3 @@ foreach (var dependent in dependents)
 *   [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
 *   [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836#content)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Encrypting Files-001.png](https://docs2.aspose.com/cells/net/attachments/5020673/5115061.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Encrypting Files-001.png](https://docs2.aspose.com/cells/net/attachments/5020673/5115062.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Encrypting Files-001 (1).png](https://docs2.aspose.com/cells/net/attachments/5020673/5115064.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Encrypting Files-002 (1).png](https://docs2.aspose.com/cells/net/attachments/5020673/5115063.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Encrypting Files-002.png](https://docs2.aspose.com/cells/net/attachments/5020673/5115066.png) (image/png)  
-

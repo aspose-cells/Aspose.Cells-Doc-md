@@ -34,10 +34,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 
 Sheet or Tab Id: 1297
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Get-SheetId-field-of-Excel-worksheet.png](https://docs2.aspose.com/cells/net/attachments/51479837/51740715.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleSheetId.xlsx](https://docs2.aspose.com/cells/net/attachments/51479837/51740716.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSheetId.xlsx](https://docs2.aspose.com/cells/net/attachments/51479837/51740718.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputSheetId.xlsx](https://docs2.aspose.com/cells/net/attachments/51479837/51740717.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

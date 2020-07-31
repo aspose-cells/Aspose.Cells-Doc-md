@@ -33,8 +33,3 @@ The following sample code makes use of [Workbook.ContentTypeProperties.Add()](ht
 
 *   [Adding Custom Properties visible inside Document Information Panel](https://docs2.aspose.com/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/adding+custom+properties+visible+inside+document+information+panel)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [custom-xml-parts-location.png](https://docs2.aspose.com/cells/net/attachments/5018956/5115249.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [BookStore-XML-Part.png](https://docs2.aspose.com/cells/net/attachments/5018956/5115250.png) (image/png)  
-

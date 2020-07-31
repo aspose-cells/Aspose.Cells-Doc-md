@@ -52,10 +52,3 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substitute
 
 If your spreadsheet contains formulas, it is best to call `Workbook.CalculateFormula` method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [fonts-substitution-warnings-1.png](https://docs2.aspose.com/cells/net/attachments/5017493/5112613.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [fonts-substitution-warnings-2.png](https://docs2.aspose.com/cells/net/attachments/5017493/5112610.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/net/attachments/5017493/5112611.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/net/attachments/5017493/5112616.pdf) (image/png)  
-

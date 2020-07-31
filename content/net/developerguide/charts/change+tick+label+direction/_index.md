@@ -48,12 +48,3 @@ The source and output files can be downloaded from the following links.
 
 [Output File](https://docs2.aspose.com/cells/net/attachments/105284039/105480223.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleChart.ods](https://docs2.aspose.com/cells/net/attachments/105284039/105480220.ods) (application/vnd.oasis.opendocument.spreadsheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SampleChangeTickLabelDirection.xlsx](https://docs2.aspose.com/cells/net/attachments/105284039/105480221.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputChangeChartDataLableDirectionToVertical.xlsx](https://docs2.aspose.com/cells/net/attachments/105284039/105480222.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputChangeChartDataLableDirection.xlsx](https://docs2.aspose.com/cells/net/attachments/105284039/105480223.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SourceChangeTickLabelDirection.jpg](https://docs2.aspose.com/cells/net/attachments/105284039/105480224.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [OutputChangeTickLabelDirection.jpg](https://docs2.aspose.com/cells/net/attachments/105284039/105480225.jpg) (image/jpeg)  
-

@@ -75,7 +75,3 @@ string strNote = gridComm.Note;
 bool isVis = gridComm.IsVisible;
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [GridWeb displays comment as Excel Tooltip.png](https://docs2.aspose.com/cells/net/attachments/50266181/50528371.png) (image/png)  
-

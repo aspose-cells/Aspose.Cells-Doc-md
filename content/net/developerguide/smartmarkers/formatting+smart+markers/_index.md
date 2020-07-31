@@ -39,9 +39,3 @@ While working with Smart Markers' grouping data feature, sometimes you need to a
 
 This example uses a [data file](https://docs2.aspose.com/cells/net/attachments/5017029/96927971.xlsx) and a [template file](https://docs2.aspose.com/cells/net/attachments/5017029/96927972.xlsx) with a few markers in the cells. When executing the code, Aspose.Cells adds some custom labels to the summary rows for the grouped data.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [LabelPosition-Files.zip](https://docs2.aspose.com/cells/net/attachments/5017029/50528291.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Book1.xlsx](https://docs2.aspose.com/cells/net/attachments/5017029/96927971.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [SmartMarker\_Designer.xlsx](https://docs2.aspose.com/cells/net/attachments/5017029/96927972.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -32,8 +32,3 @@ These string numbers have been converted to numbers using [Cells.ConvertStringTo
 
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert-String-To-Number-001.PNG](https://docs2.aspose.com/cells/net/attachments/5017715/5112588.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Convert-String-To-Number-002.PNG](https://docs2.aspose.com/cells/net/attachments/5017715/5112587.png) (image/png)  
-

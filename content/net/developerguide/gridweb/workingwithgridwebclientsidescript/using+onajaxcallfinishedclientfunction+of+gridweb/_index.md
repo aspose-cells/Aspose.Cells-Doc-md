@@ -113,9 +113,3 @@ public partial class TestGridWeb : System.Web.UI.Page
 }
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using-OnAjaxCallFinishedClientFunction-of-GridWeb-FireFox.png](https://docs2.aspose.com/cells/net/attachments/45909138/46465058.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using-OnAjaxCallFinishedClientFunction-of-GridWeb-Chrome.png](https://docs2.aspose.com/cells/net/attachments/45909138/46465060.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Using-OnAjaxCallFinishedClientFunction-of-GridWeb-Chrome.png](https://docs2.aspose.com/cells/net/attachments/45909138/46465059.png) (image/png)  
-

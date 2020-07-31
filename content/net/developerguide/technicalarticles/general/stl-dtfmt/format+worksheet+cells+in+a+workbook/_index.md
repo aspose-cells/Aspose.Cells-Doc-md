@@ -56,8 +56,3 @@ Below are the steps involved how to create a spreadsheet and format different ce
     3.  Add a reference to Aspose.Cells, for example …\\Program Files\\Aspose\\Aspose.Cells\\Bin\\Net1.0\\Aspose.Cells.dll
 3.  Add the following code to the project:
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Worksheet Cells in a Workbook-001.png](https://docs2.aspose.com/cells/net/attachments/5017509/5112594.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Format Worksheet Cells in a Workbook-002.png](https://docs2.aspose.com/cells/net/attachments/5017509/5112601.png) (image/png)  
-

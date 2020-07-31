@@ -32,11 +32,3 @@ You can fill the shape surface with some image and tile it using the [Shape.Fill
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Tile-Picture-as-a-Texture-inside-the-Shape.png](https://docs2.aspose.com/cells/net/attachments/45909120/46465049.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleTextureFill\_IsTiling.xlsx](https://docs2.aspose.com/cells/net/attachments/45909120/46465052.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputTextureFill\_IsTiling.xlsx](https://docs2.aspose.com/cells/net/attachments/45909120/46465053.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [sampleTextureFill\_IsTiling.xlsx](https://docs2.aspose.com/cells/net/attachments/45909120/46465050.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputTextureFill\_IsTiling.xlsx](https://docs2.aspose.com/cells/net/attachments/45909120/46465051.xlsx) (application/unknown)  
-

@@ -31,9 +31,3 @@ The following sample code creates a workbook and protects it while enabling shar
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Protected-Shared-Workbook-created-by-Aspose.Cells-using-ProtectSharedWorkbook()-method..png](https://docs2.aspose.com/cells/net/attachments/54690001/55541776.png) (image/png)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [outputProtectSharedWorkbook.xlsx](https://docs2.aspose.com/cells/net/attachments/54690001/55541777.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [Protect-Shared-Workbook-MS-Excel.png](https://docs2.aspose.com/cells/net/attachments/54690001/55541794.png) (image/png)  
-

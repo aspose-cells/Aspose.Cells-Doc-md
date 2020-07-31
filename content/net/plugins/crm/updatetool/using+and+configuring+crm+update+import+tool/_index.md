@@ -22,9 +22,3 @@ Below are the screenshot steps we need to follow to use the tool:
 *   **Get From Excel:** Click here and choose a source Excel file, and it will display the data from Excel file in the Grid.
 *   **Export to CRM:** Click here and choose a source Excel file and it will Import the Data from Excel back in CRM in the selected Entity. (Keep Note that the column names in Excel file should match the Schema name in CRM)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [1.jpg](https://docs2.aspose.com/cells/net/attachments/5025002/5115187.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [2.jpg](https://docs2.aspose.com/cells/net/attachments/5025002/5115189.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/net/images/icons/bullet_blue.gif) [2015-08-12\_23-45-29.jpg](https://docs2.aspose.com/cells/net/attachments/5025002/5115188.jpg) (image/jpeg)  
-
