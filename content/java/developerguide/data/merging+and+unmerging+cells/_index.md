@@ -81,8 +81,3 @@ The following example shows how to split the merged cells (C6). The example uses
 *   [Finding and splitting merged cells](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/detect+merged+cells+in+a+worksheet).
 *   [Merge and splitting a cell range using the Range.merge() and Range.unMerge() methods](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/merge+or+unmerge+range+of+cells).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Merging UnMerging Cells in the Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276718/5473132.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [merged-split.png](https://docs2.aspose.com/cells/java/attachments/5276718/5473133.png) (image/png)  
-

@@ -27,7 +27,3 @@ When `value` is set to “all”, all chart items are rendered as editable chart
 **Editing charts in Excel**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094933/6193424.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Render All Report Chart Items to Excel Charts-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094933/6193424.png) (image/png)  
-

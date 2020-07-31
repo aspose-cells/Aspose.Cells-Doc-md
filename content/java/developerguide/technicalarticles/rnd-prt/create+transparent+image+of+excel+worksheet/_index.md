@@ -24,8 +24,3 @@ While, in the following worksheet image, transparency has been applied. The cell
 
 You can use the following sample code to generate a transparent image of your Excel worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [non-transparent-image.PNG](https://docs2.aspose.com/cells/java/attachments/5276632/5472703.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [transparent-image.png](https://docs2.aspose.com/cells/java/attachments/5276632/5472702.png) (image/png)  
-

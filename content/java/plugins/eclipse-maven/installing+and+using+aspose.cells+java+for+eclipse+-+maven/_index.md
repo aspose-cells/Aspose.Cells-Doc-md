@@ -63,13 +63,3 @@ To use examples, just:
 6.  Review the example code, compile and run.
 7.  You can now test other examples and start building your own application using [Aspose.Cells for Java API](http://goo.gl/gtvhlQ).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [installation.png](https://docs2.aspose.com/cells/java/attachments/5275907/5473383.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [project 1.png](https://docs2.aspose.com/cells/java/attachments/5275907/5473385.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [project 2.png](https://docs2.aspose.com/cells/java/attachments/5275907/5473384.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [project 3.png](https://docs2.aspose.com/cells/java/attachments/5275907/5473387.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [example 1.png](https://docs2.aspose.com/cells/java/attachments/5275907/5473386.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [example 2.png](https://docs2.aspose.com/cells/java/attachments/5275907/5473389.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [example 3.png](https://docs2.aspose.com/cells/java/attachments/5275907/5473388.png) (image/png)  
-

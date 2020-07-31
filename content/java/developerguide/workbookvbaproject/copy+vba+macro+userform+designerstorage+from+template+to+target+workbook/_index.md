@@ -34,10 +34,3 @@ The following screenshot shows the output Excel file and its contents which were
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Target Workbook after copying VBA-Macro-UserForm-DesignerStorage from Template Workbook.png](https://docs2.aspose.com/cells/java/attachments/50270505/50528364.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleDesignerForm.xlsm](https://docs2.aspose.com/cells/java/attachments/50270505/50528367.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Besides other Modules - Template Workbook also contains UserForm-DesignerStorage.png](https://docs2.aspose.com/cells/java/attachments/50270505/50528365.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputDesignerForm.xlsm](https://docs2.aspose.com/cells/java/attachments/50270505/50528366.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

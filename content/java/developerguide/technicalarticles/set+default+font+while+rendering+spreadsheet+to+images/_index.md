@@ -25,8 +25,3 @@ This is the output image after setting the [ImageOrPrintOptions.DefaultFont](htt
 ![](https://docs2.aspose.com/cells/java/attachments/5276009/5472559.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out\_courier\_new.png](https://docs2.aspose.com/cells/java/attachments/5276009/5472560.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out\_times\_new\_roman.png](https://docs2.aspose.com/cells/java/attachments/5276009/5472559.png) (image/png)  
-

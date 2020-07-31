@@ -17,7 +17,3 @@ Pivot table based reports are useful but prone to error if target users do not h
 Following code demonstrates this feature by accessing a pivot table from a sheet and then calling the [setEnableWizard](https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#EnableWizard) to set this flag **false**. Sample pivot table file can be downloaded from this [link](https://docs2.aspose.com/cells/java/attachments/71303575/71630876.xlsx).
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [pivot\_table\_test.xlsx](https://docs2.aspose.com/cells/java/attachments/71303575/71630876.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

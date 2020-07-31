@@ -89,9 +89,3 @@ We use a simple template Microsoft Excel file in the example. The workbook has a
 
 To remove custom properties using Aspose.Cells, call the [DocumentPropertyCollection.remove](https://apireference.aspose.com/java/cells/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) method and pass the name of the document property to be removed.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [File-Info.png](https://docs2.aspose.com/cells/java/attachments/22546336/22773815.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [PropertiesDialog.png](https://docs2.aspose.com/cells/java/attachments/22546336/22773817.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Properties-AdvancedProperties.png](https://docs2.aspose.com/cells/java/attachments/22546336/22773816.png) (image/png)  
-

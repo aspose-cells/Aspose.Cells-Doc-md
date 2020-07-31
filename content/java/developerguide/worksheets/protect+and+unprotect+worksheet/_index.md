@@ -193,13 +193,3 @@ If you want to restrict users from editing cells the cells must be locked before
 
 It is possible to lock cells using the Aspose.Cells API too. Each cell has a `Style` API that further contains a `setLocked` method. Use it lock or unlock cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Advanced Protection Settings since Excel XP-001.png](https://docs2.aspose.com/cells/java/attachments/5276189/5472340.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Advanced Protection Settings since Excel XP-002.png](https://docs2.aspose.com/cells/java/attachments/5276189/5472342.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Protecting Worksheets-001.png](https://docs2.aspose.com/cells/java/attachments/5276189/5472341.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Protecting Worksheets-002.png](https://docs2.aspose.com/cells/java/attachments/5276189/5472319.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Protecting Worksheets-003.png](https://docs2.aspose.com/cells/java/attachments/5276189/5472320.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Unprotect a Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276189/5472321.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Unprotect a Worksheet-002.png](https://docs2.aspose.com/cells/java/attachments/5276189/5472322.png) (image/png)  
-

@@ -38,7 +38,3 @@ Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOpt
 // Save the output in pdf format  
 book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleMacroEnabledWorkbook.xlsm](https://docs2.aspose.com/cells/java/attachments/79331431/79527951.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

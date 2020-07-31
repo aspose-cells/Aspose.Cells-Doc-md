@@ -22,7 +22,3 @@ The following screenshot shows the effect of setting this property to **false** 
 
 The following sample code shows the usage of the [HtmlLoadOptions.DeleteRedundantSpaces](https://apireference.aspose.com/java/cells/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)property. Please set it **true** or **false** to get the output as shown in the above screenshot.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [redundant-spaces.png](https://docs2.aspose.com/cells/java/attachments/5276315/5472551.png) (image/png)  
-

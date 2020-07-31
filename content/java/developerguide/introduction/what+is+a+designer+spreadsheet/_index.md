@@ -39,7 +39,3 @@ Additionally, Aspose.Cells lets you add [smart markers](https://docs2.aspose.com
 
 [Find out more about smart markers](https://docs2.aspose.com/cells/java/developerguide/smartmarkers/).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [What is a Designer Spreadsheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276266/5473261.png) (image/png)  
-

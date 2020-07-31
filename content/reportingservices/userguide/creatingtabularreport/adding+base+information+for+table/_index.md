@@ -36,23 +36,3 @@ To create a new table:
     **All fields inserted**  
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338340.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating a new Table-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/6193299.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating a new Table-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/6193304.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating a new Table-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/6193305.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating a new Table-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/6193302.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating a new Table-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/6193303.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating a new Table-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/6193307.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating a new Table-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/6193306.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbaseinfo1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338323.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbaseinfo1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338322.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338330.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338326.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase2.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338331.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase3.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338333.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase4.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338335.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase5.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338337.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase6.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338338.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addingbase7.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338340.png) (image/png)  
-

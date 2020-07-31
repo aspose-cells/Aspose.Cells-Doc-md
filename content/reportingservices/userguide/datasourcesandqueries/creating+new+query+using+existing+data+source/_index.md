@@ -43,12 +43,3 @@ To create a new query using an existing data source:
     **The new data set**  
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193522.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Query Using Existing Data Source-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193529.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Query Using Existing Data Source-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193526.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Query Using Existing Data Source-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193527.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Query Using Existing Data Source-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193524.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Query Using Existing Data Source-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193525.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Query Using Existing Data Source-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193522.png) (image/png)  
-

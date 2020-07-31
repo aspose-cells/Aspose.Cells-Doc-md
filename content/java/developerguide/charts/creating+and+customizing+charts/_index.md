@@ -193,9 +193,3 @@ The example code below demonstrates how to create custom charts. In this example
 
 To see a list of supported chart types, read the[Chart Types](https://docs2.aspose.com/cells/java/developerguide/charts/chart+types) article.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating Custom Charts-001.png](https://docs2.aspose.com/cells/java/attachments/5276022/5472350.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [How to Create a Chart-001.png](https://docs2.aspose.com/cells/java/attachments/5276022/5472347.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [How to Create a Chart-003.jpg](https://docs2.aspose.com/cells/java/attachments/5276022/5472348.jpg) (image/jpeg)  
-

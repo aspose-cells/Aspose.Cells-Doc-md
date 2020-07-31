@@ -33,10 +33,3 @@ url: /reportingservices/userguide/parameterizedreport/mapping+query+parameters+t
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094958/6193289.png)
 8.  Click **Close**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094958/6193284.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094958/6193283.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094958/6193282.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094958/6193289.png) (image/png)  
-

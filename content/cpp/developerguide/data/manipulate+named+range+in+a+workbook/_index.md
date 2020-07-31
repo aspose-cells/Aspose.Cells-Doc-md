@@ -39,8 +39,3 @@ Full Text: TestRange
 Refers To: =Sheet1!$D$3:$G$6
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputManipulateNamedRangeInWorkbook.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970927/23167009.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleManipulateNamedRangeInWorkbook.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970927/23167008.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

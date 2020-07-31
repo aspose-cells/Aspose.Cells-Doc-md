@@ -29,8 +29,3 @@ The following sample code loads the [source CSV file](https://docs2.aspose.com/c
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [srcReadWriteCSV.csv](https://docs2.aspose.com/cells/cpp/attachments/22970904/23166994.csv) (application/vnd.ms-excel)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outReadWriteCSV.csv](https://docs2.aspose.com/cells/cpp/attachments/22970904/23166995.csv) (application/vnd.ms-excel)  
-

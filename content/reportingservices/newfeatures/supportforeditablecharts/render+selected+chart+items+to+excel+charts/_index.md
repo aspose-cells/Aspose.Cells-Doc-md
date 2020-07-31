@@ -33,8 +33,3 @@ For example:
 **A chart exported as an editable Excel chart**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094931/6193412.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Render Selected Chart Items to Excel Charts-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094931/6193413.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Render Selected Chart Items to Excel Charts-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094931/6193412.png) (image/png)  
-

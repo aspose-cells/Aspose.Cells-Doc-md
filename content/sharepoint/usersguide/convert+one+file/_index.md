@@ -32,8 +32,3 @@ To convert a particular document in a document library:
 **Conversion Settings screen for one file conversion**  
 ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357006/6488117.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Convert One File-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357006/6488114.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Convert One File-002.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357006/6488117.png) (image/png)  
-

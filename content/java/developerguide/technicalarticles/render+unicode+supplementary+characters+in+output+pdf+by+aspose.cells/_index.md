@@ -26,9 +26,3 @@ The following screenshot shows how Aspose.Cells rendered the [source excel file]
 You can use this sample code to convert the [source excel file](https://docs2.aspose.com/cells/java/attachments/5276130/5473390.xlsx) into [output PDF](https://docs2.aspose.com/cells/java/attachments/5276130/5473391.pdf).
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/5276130/5473391.pdf) (application/kswps)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [unicode-supplementary-characters.png](https://docs2.aspose.com/cells/java/attachments/5276130/5473392.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [unicode-supplementary-characters.xlsx](https://docs2.aspose.com/cells/java/attachments/5276130/5473390.xlsx) (application/unknown)  
-

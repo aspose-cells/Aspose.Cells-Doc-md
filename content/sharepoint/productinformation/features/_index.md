@@ -21,16 +21,3 @@ url: /sharepoint/productinformation/features/
 *   [Add Watermark to Excel document](https://docs2.aspose.com/cells/sharepoint/productinformation/features/add+watermark+to+excel+document)
 *   [Add Footer to Excel document](https://docs2.aspose.com/cells/sharepoint/productinformation/features/add+footer+to+excel+document)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Multiple formats support-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488073.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [World Class Free Technical Support-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488071.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [diff\_conversion1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488085.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [previewing\_doc1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488081.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [previewing\_doc2.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488080.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [previewing\_doc3.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488079.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [aspose\_tools.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488090.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [search\_in1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488086.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [search\_in2.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488087.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [search\_in3.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357009/6488088.png) (image/png)  
-

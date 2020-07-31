@@ -27,9 +27,3 @@ The chart looks as follows after executing the code.
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276044/5472507.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [DataLabels-After.png](https://docs2.aspose.com/cells/java/attachments/5276044/5472507.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [DataLabels-Before.png](https://docs2.aspose.com/cells/java/attachments/5276044/5472509.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel-Resize-Shape-To-Fit-Text.png](https://docs2.aspose.com/cells/java/attachments/5276044/5472510.png) (image/png)  
-

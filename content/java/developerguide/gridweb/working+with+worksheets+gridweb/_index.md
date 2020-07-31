@@ -301,35 +301,3 @@ To replace text:
 
 If the worksheet is not in edit mode, the **Replace** button is not displayed.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingworksheets1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472397.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingworksheets2.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472274.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [renamingworksheet1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472382.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [renamingworksheet2.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472281.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [managingcomments1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472279.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingworksheets1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472275.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Managing Hyperlinks in Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472277.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Managing Hyperlinks in Worksheet-002.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472381.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [renamingworksheet1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472278.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Managing Hyperlinks in Worksheet-002.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472276.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-001.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472280.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-002.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472267.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-003.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472377.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-003.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472388.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-003.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472266.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-004.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472269.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Searching And Replacing-001.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472390.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Searching And Replacing-002.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472389.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingworksheets1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472829.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingworksheets2.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472828.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Managing Hyperlinks in Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472380.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Managing Hyperlinks in Worksheet-002.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472379.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [managingcomments1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472805.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [renamingworksheet1.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472825.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [renamingworksheet2.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472824.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-001.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472376.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-002.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472375.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-003.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472378.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sorting Data-004.png](https://docs2.aspose.com/cells/java/attachments/5276833/5472387.png) (image/png)  
-

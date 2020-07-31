@@ -19,12 +19,3 @@ url: /java/developerguide/tables/
 *   [Format a List Object - Table](https://docs2.aspose.com/cells/java/developerguide/tables/format+a+list+object+-+table)
 *   [Read and Write Table with Query Table Data Source](https://docs2.aspose.com/cells/java/developerguide/tables/read+and+write+table+with+query+table+data+source)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [conv2range1.GIF](https://docs2.aspose.com/cells/java/attachments/5276803/5472844.gif) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [conv2range2.GIF](https://docs2.aspose.com/cells/java/attachments/5276803/5472845.gif) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating a List Object-001.png](https://docs2.aspose.com/cells/java/attachments/5276803/5472841.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating a List Object-002.png](https://docs2.aspose.com/cells/java/attachments/5276803/5472819.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating a List Object-003.png](https://docs2.aspose.com/cells/java/attachments/5276803/5472818.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Format a List Object (Table)-001.png](https://docs2.aspose.com/cells/java/attachments/5276803/5472820.png) (image/png)  
-

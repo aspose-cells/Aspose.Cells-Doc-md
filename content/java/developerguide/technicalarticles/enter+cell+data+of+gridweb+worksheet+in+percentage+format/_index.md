@@ -34,8 +34,3 @@ The following sample code sets the cell A1 `GridTableItemStyle.NumberType` as 10
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [enter-cell-data-in-percentage-format.png](https://docs2.aspose.com/cells/java/attachments/5275788/5473413.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [enter-cell-data-in-percentage-format.png](https://docs2.aspose.com/cells/java/attachments/5275788/5473421.png) (image/png)  
-

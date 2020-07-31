@@ -12,5 +12,10 @@ url: /cpp/developerguide/worksheets/
 
 ### Articles in this section
 
+*    [Copying and Moving Worksheets](https://docs2.aspose.com/cells/cpp/developerguide/worksheets/copying+and+moving+worksheets/)    
+*    [Manage Worksheets](https://docs2.aspose.com/cells/cpp/developerguide/worksheets/manage+worksheets/)    
+*    [Managing Page Breaks](https://docs2.aspose.com/cells/cpp/developerguide/worksheets/managing+page+breaks/)    
+*    [Worksheet Views](https://docs2.aspose.com/cells/cpp/developerguide/worksheets/worksheet+views/)    
+
            
 

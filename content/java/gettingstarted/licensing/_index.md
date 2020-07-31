@@ -136,8 +136,3 @@ if (License.isLicenseSet()) {
 }
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Licensing-001.png](https://docs2.aspose.com/cells/java/attachments/5276501/5473359.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [licensing\_evalwarningsheet1.png](https://docs2.aspose.com/cells/java/attachments/5276501/77987850.png) (image/png)  
-

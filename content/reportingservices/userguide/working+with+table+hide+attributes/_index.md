@@ -50,12 +50,3 @@ url: /reportingservices/userguide/working+with+table+hide+attributes/
     
 13.  Save and publish the report.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [tablehide1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193207.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [tablehide2.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193231.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [tablehide3.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193232.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [tablehide4.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193229.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [tablehide5.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193230.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [tablehide6.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193227.png) (image/png)  
-

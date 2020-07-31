@@ -31,9 +31,3 @@ The following sample code loads the [sample excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167015.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167016.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [list-object-or-table-created-using-aspose.cells.png](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167017.png) (image/png)  
-

@@ -29,7 +29,3 @@ When you're previewing several documents, the data area shows the first document
 1.  Select a document in the list.
 2.  Click **Preview**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [preview\_multiple1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357001/6488127.png) (image/png)  
-

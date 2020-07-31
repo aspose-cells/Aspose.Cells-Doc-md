@@ -35,10 +35,3 @@ This is a report designer tool that is integrated with Microsoft Excel in Add-In
 
 Aspose.Cells.Renderer for Reporting Services is an implementation of Microsoft's Reporting Services Rendering Extension. It can render RDL reports designed by both Visual Studio and Aspose.Cells.Report.Designer.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Product Overview-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193534.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Product Overview-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193535.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [aspose.Cells-SSRS\_logo.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193530.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [aspose-Cells-for-SSRS.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193531.png) (image/png)  
-

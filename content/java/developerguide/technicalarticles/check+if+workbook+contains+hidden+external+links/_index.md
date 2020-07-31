@@ -37,7 +37,3 @@ Here is the console output of the above sample code when executed with the given
 
 Data Source: C:\\International\\DDB\\FAS 133\\Swap Rates\\GS\_1M\_3M\_1\_2\_5\_¥$\_(B)IRSwaps\_0400.xlsIs Referred: TrueIs Visible: FalseData Source: C:\\DIST DAY\\MAY TEMPLATES\\030601t.xlsIs Referred: TrueIs Visible: FalseData Source: C:\\AREVIEW\\2002 Controllable\\Autobrct.xlsIs Referred: TrueIs Visible: FalseData Source: C:\\CARDSFO\\Main Files\\Rate Forecast\\FY 11\\IFR 11 01 (New Model REPORTS 11.08.07).xlsIs Referred: TrueIs Visible: False
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5275794/5472525.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

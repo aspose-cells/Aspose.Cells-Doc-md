@@ -353,25 +353,3 @@ If developers would like their users to only view data then they can switch to V
 
 Even in View mode, users can change the height and width of rows and columns.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [openingfile1.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472268.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Resizing Aspose.Cells.GridWeb and its Header Bar-001.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472794.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Resizing Aspose.Cells.GridWeb and its Header Bar-002.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472793.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Resizing Aspose.Cells.GridWeb and its Header Bar-003.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472792.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [GridWeb-Edit-Mode.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472403.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [GridWeb-View-Mode.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472273.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting-Style-or-Appearance-of-Aspose.Cells.GridWeb-001.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472271.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting-Style-or-Appearance-of-Aspose.Cells.GridWeb-002.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472270.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Simple-JSP-Page-Showing-GridWeb.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472272.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Directory-Structure.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472396.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [openingfile1.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472782.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting-Style-or-Appearance-of-Aspose.Cells.GridWeb-001.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472318.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting-Style-or-Appearance-of-Aspose.Cells.GridWeb-002.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472317.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [GridWeb-View-Mode.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472316.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Simple-JSP-Page-Showing-GridWeb.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472315.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting-Style-or-Appearance-of-Aspose.Cells.GridWeb-002.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472398.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting-Style-or-Appearance-of-Aspose.Cells.GridWeb-001.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472401.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Simple-JSP-Page-Showing-GridWeb.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472399.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [GridWeb-View-Mode.png](https://docs2.aspose.com/cells/java/attachments/5276811/5472400.png) (image/png)  
-

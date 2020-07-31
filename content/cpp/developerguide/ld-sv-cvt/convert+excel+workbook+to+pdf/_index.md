@@ -60,10 +60,3 @@ With the [IPdfSaveOptions](https://apireference.aspose.com/cpp/cells/class/aspo
 
 Please see the following sample code and its [output PDF](https://docs2.aspose.com/cells/cpp/attachments/66946026/67338371.pdf) for your reference.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleConvertExcelWorkbookToPDF.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66946026/67338368.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputConvertExcelWorkbookToPDF\_DirectConversion.pdf](https://docs2.aspose.com/cells/cpp/attachments/66946026/67338369.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputConvertExcelWorkbookToPDF\_PdfCompliance\_PdfA1b.pdf](https://docs2.aspose.com/cells/cpp/attachments/66946026/67338370.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputConvertExcelWorkbookToPDF\_PDFCreationTime.pdf](https://docs2.aspose.com/cells/cpp/attachments/66946026/67338371.pdf) (application/pdf)  
-

@@ -29,8 +29,3 @@ The following sample code sets the formula of cells C1 and E1 and adds both of t
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputAddCellsToMicrosoftExcelFormulaWatchWindow.xlsx](https://docs2.aspose.com/cells/java/attachments/66948437/67338509.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Add-Cells-to-Watch-Window-using-Aspose.Cells.png](https://docs2.aspose.com/cells/java/attachments/66948437/67338508.png) (image/png)  
-

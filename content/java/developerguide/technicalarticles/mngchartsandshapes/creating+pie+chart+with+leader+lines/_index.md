@@ -20,7 +20,3 @@ In order to demonstrate the usage of Aspose.Cells for Java API to create a pie c
 **Resultant Pie Chart**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276452/5472942.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [PieChartLeaderLines.png](https://docs2.aspose.com/cells/java/attachments/5276452/5472942.png) (image/png)  
-

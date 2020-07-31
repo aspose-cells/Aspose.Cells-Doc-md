@@ -77,8 +77,3 @@ Export any report to XLS format and check if the report contains an evaluation m
 **When a valid license there is no evaluation worksheet**  
 ![](https://docs2.aspose.com/cells/jasperreports/attachments/6619153/6848522.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [Licensing-001.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619153/6848521.png) (image/png)  
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [Licensing-002.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619153/6848522.png) (image/png)  
-

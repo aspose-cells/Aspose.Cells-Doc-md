@@ -28,17 +28,3 @@ The following table shows the command bars icons and tools on Aspose.Cells.Repor
 |Set Footer|![](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193243.png)|Inserts '##footer' into the cell.|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193222.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193219.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193220.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193217.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193218.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193248.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193247.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-008.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193246.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-009.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193245.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-010.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193244.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Command Bars-011.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094870/6193243.png) (image/png)  
-

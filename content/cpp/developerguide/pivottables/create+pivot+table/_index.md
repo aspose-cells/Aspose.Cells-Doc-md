@@ -31,8 +31,3 @@ The following sample code shows how to create a pivot table and work with it. Pl
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970931/23167010.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sample-pivot-table-using-aspose.cells.png](https://docs2.aspose.com/cells/cpp/attachments/22970931/23167011.png) (image/png)  
-

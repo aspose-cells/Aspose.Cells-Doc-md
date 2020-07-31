@@ -27,7 +27,3 @@ The following are the links to some useful resources you may need to accomplish 
 *   [Aspose.Cells for Python via Java Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for Python via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [aspose\_cells-for-python-via-java.png](https://docs2.aspose.com/cells/pythonjava/attachments/97878910/101089310.png) (image/png)  
-

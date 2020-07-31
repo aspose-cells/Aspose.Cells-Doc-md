@@ -31,8 +31,3 @@ The following sample code shows how to group rows and columns. It groups the row
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970914/23166998.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [grouping-of-rows-and-columns.png](https://docs2.aspose.com/cells/cpp/attachments/22970914/23166999.png) (image/png)  
-

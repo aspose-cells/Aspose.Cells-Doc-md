@@ -24,8 +24,3 @@ The following sample code shows how to [copy theme from one workbook](https://do
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleCopyThemeFromOneWorkbookToAnother.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970918/45056004.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [DamaskTheme.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970918/45056005.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

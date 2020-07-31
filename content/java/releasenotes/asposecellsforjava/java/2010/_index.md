@@ -22,7 +22,6 @@ url: /java/releasenotes/asposecellsforjava/java/2010/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for Java 2.2.0 Release Notes**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells+for+java+2.2.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for Java 2.1.2 Release Notes**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells+for+java+2.1.2+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

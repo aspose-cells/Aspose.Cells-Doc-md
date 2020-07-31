@@ -29,8 +29,3 @@ Please see the following sample code that explains how to specify the formula fi
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Specify-Formula-Fields-While-Importing-Data-To-Worksheet.png](https://docs2.aspose.com/cells/java/attachments/61542118/61767849.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSpecifyFormulaFieldsWhileImportingDataToWorksheet.xlsx](https://docs2.aspose.com/cells/java/attachments/61542118/61767850.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

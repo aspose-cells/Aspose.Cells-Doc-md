@@ -27,11 +27,3 @@ The following sample code explains how to make use of [PdfSaveOptions.StreamPro
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [samplePdfSaveOptions\_StreamProvider.xlsx](https://docs2.aspose.com/cells/java/attachments/50270488/50528353.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputPdfSaveOptions\_StreamProvider.pdf](https://docs2.aspose.com/cells/java/attachments/50270488/50528354.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [newPdfSaveOptions\_StreamProvider.png](https://docs2.aspose.com/cells/java/attachments/50270488/50528355.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [oldPdfSaveOptions\_StreamProvider.png](https://docs2.aspose.com/cells/java/attachments/50270488/50528356.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Outcome of PdfSaveOptions\_StreamProvider.png](https://docs2.aspose.com/cells/java/attachments/50270488/50528357.png) (image/png)  
-

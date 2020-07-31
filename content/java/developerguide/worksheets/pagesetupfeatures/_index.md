@@ -335,11 +335,3 @@ Please see this article related to this topic.
 
 *   [Remove Existing PrinterSettings of Worksheets in Excel file](https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/remove+existing+printersettings+of+worksheets+in+excel+file)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Headers and Footers-001.png](https://docs2.aspose.com/cells/java/attachments/5276187/5472462.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Headers and Footers-002.png](https://docs2.aspose.com/cells/java/attachments/5276187/5472458.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Margins-001.png](https://docs2.aspose.com/cells/java/attachments/5276187/5472459.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Page Options-001.png](https://docs2.aspose.com/cells/java/attachments/5276187/5472460.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Print Options-001.png](https://docs2.aspose.com/cells/java/attachments/5276187/5472461.png) (image/png)  
-

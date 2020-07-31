@@ -561,7 +561,6 @@ url: /java/developerguide/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**FAQs**](https://docs2.aspose.com/cells/java/developerguide/knowledgebase/faqs/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**This file format is not supported or you do not specify a correct format**](https://docs2.aspose.com/cells/java/developerguide/knowledgebase/faqs/this+file+format+is+not+supported+or+you+do+not+specify+a+correct+format)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

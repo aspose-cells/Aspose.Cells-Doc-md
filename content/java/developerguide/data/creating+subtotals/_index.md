@@ -47,9 +47,3 @@ When the code is executed, a worksheet with subtotals is created.
 **Applying subtotals**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276721/5473105.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating Subtotals-001.png](https://docs2.aspose.com/cells/java/attachments/5276721/5473107.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating Subtotals-002.png](https://docs2.aspose.com/cells/java/attachments/5276721/5473106.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating Subtotals-003.png](https://docs2.aspose.com/cells/java/attachments/5276721/5473105.png) (image/png)  
-

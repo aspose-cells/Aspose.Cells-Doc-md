@@ -14,7 +14,3 @@ It sets Group Page Break (Between) and Page Break for table report item. The def
 
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/95322270/95584274.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [TablixGroupPageBreak.png](https://docs2.aspose.com/cells/reportingservices/attachments/95322270/95584274.png) (image/png)  
-

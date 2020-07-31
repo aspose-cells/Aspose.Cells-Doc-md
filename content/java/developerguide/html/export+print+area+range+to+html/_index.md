@@ -26,10 +26,3 @@ Following sample code loads a workbook and then exports print area to the HTML. 
 
 [sampleInlineCharts.xlsx](https://docs2.aspose.com/cells/java/attachments/79331440/79527960.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleExportDocumentWorkbookWorksheetProperties.xlsx](https://docs2.aspose.com/cells/java/attachments/79331440/79527957.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Export-Document-Workbook-Worksheet-Properties.png](https://docs2.aspose.com/cells/java/attachments/79331440/79527959.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Output HTML.zip](https://docs2.aspose.com/cells/java/attachments/79331440/79527958.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleInlineCharts.xlsx](https://docs2.aspose.com/cells/java/attachments/79331440/79527960.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

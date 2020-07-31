@@ -30,7 +30,3 @@ The following sample code creates a Table or List Object in such a way that the 
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5275801/5472519.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

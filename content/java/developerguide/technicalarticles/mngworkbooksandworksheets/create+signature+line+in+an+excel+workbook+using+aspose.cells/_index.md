@@ -21,7 +21,3 @@ The following sample code adds a Signature Line using [Picture.setSignatureLine(
 ![](https://docs2.aspose.com/cells/java/attachments/5276700/5473055.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [signature-line-using-aspose.cells.png](https://docs2.aspose.com/cells/java/attachments/5276700/5473055.png) (image/png)  
-

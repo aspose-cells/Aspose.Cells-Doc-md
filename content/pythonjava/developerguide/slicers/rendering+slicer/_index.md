@@ -24,10 +24,3 @@ Aspose.Cells for Python via Java supports the rendering of slicer shape. The fol
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201897/106364972.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201897/106364973.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleRenderingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201897/106364974.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputRenderingSlicer.png](https://docs2.aspose.com/cells/pythonjava/attachments/106201897/106364975.png) (image/png)  
-

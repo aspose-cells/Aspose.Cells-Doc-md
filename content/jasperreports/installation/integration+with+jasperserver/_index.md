@@ -87,7 +87,3 @@ In all of the following steps <InstallDir> stands for the JasperServer installat
 ![](https://docs2.aspose.com/cells/jasperreports/attachments/6619174/6848537.png)  
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [Integration with JasperServer-001.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619174/6848537.png) (image/png)  
-

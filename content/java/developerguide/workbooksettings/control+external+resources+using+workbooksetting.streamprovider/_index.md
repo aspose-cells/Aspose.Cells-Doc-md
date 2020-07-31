@@ -29,10 +29,3 @@ The following sample code explains the usage of [Workbook.Settings.StreamProvid
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleLogo\_WorkbookSetting\_StreamProvider.png](https://docs2.aspose.com/cells/java/attachments/61542617/61767874.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Control-External-Resources-using-WorkbookSetting.StreamProvider.png](https://docs2.aspose.com/cells/java/attachments/61542617/61767875.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleControlExternalResourcesUsingWorkbookSettingStreamProvider.xlsx](https://docs2.aspose.com/cells/java/attachments/61542617/61767877.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputControlExternalResourcesUsingWorkbookSettingStreamProvider.png](https://docs2.aspose.com/cells/java/attachments/61542617/61767876.png) (image/png)  
-

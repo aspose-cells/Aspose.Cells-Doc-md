@@ -15,7 +15,3 @@ Aspose.Cells for Reporting Services Designer supports Microsoft Excel 2007 and 2
 **Aspose.Cells supports the latest version of Microsoft Excel**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094919/6193422.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Support MS Excel 2007 Custom UI-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094919/6193422.png) (image/png)  
-

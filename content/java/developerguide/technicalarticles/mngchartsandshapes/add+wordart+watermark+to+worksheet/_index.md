@@ -22,7 +22,3 @@ After running the code the output file contains a pale red WordArt watermark.
 ![](https://docs2.aspose.com/cells/java/attachments/5276685/5472850.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [wordart.png](https://docs2.aspose.com/cells/java/attachments/5276685/5472850.png) (image/png)  
-

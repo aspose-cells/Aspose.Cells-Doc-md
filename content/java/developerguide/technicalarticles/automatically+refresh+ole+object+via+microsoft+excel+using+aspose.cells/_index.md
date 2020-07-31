@@ -25,10 +25,3 @@ The following screenshot shows how the [output excel file](https://docs2.aspose.
 ![](https://docs2.aspose.com/cells/java/attachments/5276028/5473424.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source-excel-file-with-OLE-object-having-unreal-image.png](https://docs2.aspose.com/cells/java/attachments/5276028/5473430.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276028/5473429.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-excel-file-with-OLE-object-having-real-image.png](https://docs2.aspose.com/cells/java/attachments/5276028/5473424.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5276028/5473423.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

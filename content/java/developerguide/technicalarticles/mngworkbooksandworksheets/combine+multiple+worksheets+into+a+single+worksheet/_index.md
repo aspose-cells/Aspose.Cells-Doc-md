@@ -50,12 +50,3 @@ The following code snippet shows how to combine multiple worksheets into a singl
 
 You may find the [Combine Multiple Workbooks into a Single Workbook](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/combine+multiple+workbooks+into+a+single+workbook) article useful for more information.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet2.JPG](https://docs2.aspose.com/cells/java/attachments/5276646/5473080.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet1.JPG](https://docs2.aspose.com/cells/java/attachments/5276646/5473081.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/java/attachments/5276646/5473078.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276646/5473079.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputsheet.jpg](https://docs2.aspose.com/cells/java/attachments/5276646/5473093.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet3.JPG](https://docs2.aspose.com/cells/java/attachments/5276646/5473092.jpg) (image/png)  
-

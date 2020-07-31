@@ -27,8 +27,3 @@ The following sample code has a data source which has 21 records. We want to sho
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleAutoPopulateSmartMarkerDataToOtherWorksheets.accdb](https://docs2.aspose.com/cells/java/attachments/60229089/60489777.accdb) (application/msaccess)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputAutoPopulateSmartMarkerDataToOtherWorksheets.xlsx](https://docs2.aspose.com/cells/java/attachments/60229089/60489786.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

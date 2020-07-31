@@ -28,7 +28,3 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Cells for PHP via Java Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for PHP via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/phpjava/images/icons/bullet_blue.gif) [aspose.cells-for-php-via-java-64.png](https://docs2.aspose.com/cells/phpjava/attachments/66948467/67338576.png) (image/png)  
-

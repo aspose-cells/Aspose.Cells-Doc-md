@@ -29,8 +29,3 @@ The following code snippet loads the [sample Excel file](https://docs2.aspose.c
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleCreateSlicerToPivotTable.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201882/106364966.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputCreateSlicerToPivotTable.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201882/106364967.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

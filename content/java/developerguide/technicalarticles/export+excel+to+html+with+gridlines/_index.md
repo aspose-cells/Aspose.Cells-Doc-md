@@ -21,7 +21,3 @@ The following screenshot shows the output HTML generated with this sample code. 
 ![](https://docs2.aspose.com/cells/java/attachments/5276032/5473441.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-html-with-gridlines.png](https://docs2.aspose.com/cells/java/attachments/5276032/5473441.png) (image/png)  
-

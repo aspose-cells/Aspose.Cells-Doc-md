@@ -32,8 +32,3 @@ The following sample code adds Word Art texts with different Built-in Styles. Pl
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [add-word-art-using-cells.png](https://docs2.aspose.com/cells/java/attachments/5275796/5472537.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5275796/5472536.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

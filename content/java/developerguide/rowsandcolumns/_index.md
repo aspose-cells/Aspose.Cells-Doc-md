@@ -12,12 +12,13 @@ url: /java/developerguide/rowsandcolumns/
 
 ### Articles in this section
 
+*    [Adjusting Row Height and Column Width](https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/adjusting+row+height+and+column+width/)    
+*    [Autofit Rows and Columns](https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/autofit+rows+and+columns/)    
+*    [Convert Text to Columns using Aspose.Cells](https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/convert+text+to+columns+using+aspose.cells/)    
+*    [Copying Rows and Columns](https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/copying+rows+and+columns/)    
+*    [Grouping and Ungrouping Rows and Columns](https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/grouping+and+ungrouping+rows+and+columns/)    
+*    [Hiding and Showing Rows and Columns](https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/hiding+and+showing+rows+and+columns/)    
+*    [Inserting and Deleting Rows and Columns](https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/inserting+and+deleting+rows+and+columns/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Grouping Ungrouping Rows and Columns-001.png](https://docs2.aspose.com/cells/java/attachments/5276256/5473340.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Grouping Ungrouping Rows and Columns-002.png](https://docs2.aspose.com/cells/java/attachments/5276256/5473341.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copying Rows and Columns-001.png](https://docs2.aspose.com/cells/java/attachments/5276256/5473345.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copying Rows and Columns-002.png](https://docs2.aspose.com/cells/java/attachments/5276256/5473344.png) (image/png)  
 

@@ -29,25 +29,3 @@ url: /java/developerguide/technicalarticles/stl-dtfmt/
 *   [Convert Text Numeric Data to Number](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/convert+text+numeric+data+to+number)
 *   [Check Custom Number Format when Setting Style.Custom Property](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/check+custom+number+format+when+setting+style.custom+property)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Implement 1904 Date System-001.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472669.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-001.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472662.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-002.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472663.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-003.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472660.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-004.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472661.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addcondiconsset.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472659.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [cells-found-with-style.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472654.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [cells-with-styles.png](https://docs2.aspose.com/cells/java/attachments/5276622/5472655.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [HTML-formatted-text.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473009.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-pdf.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473012.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [specify-custom-separator-in-excel.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473013.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Displaying-Bullets-with-HTML.PNG](https://docs2.aspose.com/cells/java/attachments/5276622/5473011.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-001.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473020.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-002.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473021.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-003.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473018.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-004.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473019.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Format Worksheet Cells in a Workbook-002.png](https://docs2.aspose.com/cells/java/attachments/5276622/5473024.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Convert-String-To-Number-001.PNG](https://docs2.aspose.com/cells/java/attachments/5276622/5473029.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Convert-String-To-Number-002.PNG](https://docs2.aspose.com/cells/java/attachments/5276622/5473028.png) (image/png)  
-

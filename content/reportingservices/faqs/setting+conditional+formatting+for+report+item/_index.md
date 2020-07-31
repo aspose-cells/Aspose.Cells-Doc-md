@@ -43,12 +43,3 @@ To set conditional formatting for report items:
       
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094858/6193273.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to set Conditional Formatting for Report Item-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094858/6193250.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to set Conditional Formatting for Report Item-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094858/6193251.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to set Conditional Formatting for Report Item-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094858/6193252.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to set Conditional Formatting for Report Item-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094858/6193271.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to set Conditional Formatting for Report Item-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094858/6193270.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to set Conditional Formatting for Report Item-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094858/6193273.png) (image/png)  
-

@@ -67,7 +67,3 @@ The following sample code illustrates how to access the [MaxDisplayRange](https:
 Maximum Display Range: =Sheet1!$A$1:$G$15
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Accessing-Maximum-Display-Range-of-Worksheet.PNG](https://docs2.aspose.com/cells/java/attachments/5276742/5472473.png) (image/png)  
-

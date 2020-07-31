@@ -51,9 +51,3 @@ If there is any problem with the license file, the error message will be produce
 **Error message indicating licensing issue**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193561.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Licensing-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193563.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Licensing-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193562.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Licensing-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193561.png) (image/png)  
-

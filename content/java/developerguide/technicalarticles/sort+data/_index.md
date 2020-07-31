@@ -62,10 +62,3 @@ Aspose.Cells offer more flexibility than other components and provides outstandi
 
 We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warranty a prompt reply.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sort Data-001.png](https://docs2.aspose.com/cells/java/attachments/5276602/5472619.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sort Data-002.png](https://docs2.aspose.com/cells/java/attachments/5276602/5472618.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sort Data-003.jpg](https://docs2.aspose.com/cells/java/attachments/5276602/5472609.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sort Data-001.jpg](https://docs2.aspose.com/cells/java/attachments/5276602/5472608.jpg) (image/png)  
-

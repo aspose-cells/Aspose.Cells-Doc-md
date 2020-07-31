@@ -26,7 +26,3 @@ The following screenshot displays the `needValidateall` variable in `acwmain.js`
 
 ![](https://docs2.aspose.com/cells/java/attachments/40142284/40468500.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Validate-entire-worksheet-instead-of-updated-cells.png](https://docs2.aspose.com/cells/java/attachments/40142284/40468500.png) (image/png)  
-

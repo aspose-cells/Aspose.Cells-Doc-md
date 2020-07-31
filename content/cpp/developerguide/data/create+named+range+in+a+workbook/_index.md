@@ -39,8 +39,3 @@ Full Text: MyNamedRange
 Refers To: =Sheet1!$A$5:$C$10
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [invalid](https://docs2.aspose.com/cells/cpp/attachments/22970925/23167007) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputCreateNamedRange.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970925/23167006.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

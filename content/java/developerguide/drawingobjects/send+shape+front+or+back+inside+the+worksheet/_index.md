@@ -27,9 +27,3 @@ The following sample code explains the usage of [Shape.ToFrontOrBack()](https:/
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputToFrontOrBack.xlsx](https://docs2.aspose.com/cells/java/attachments/50270497/50528361.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Send Shape Front or Back inside the Worksheet.png](https://docs2.aspose.com/cells/java/attachments/50270497/50528363.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleToFrontOrBack.xlsx](https://docs2.aspose.com/cells/java/attachments/50270497/50528362.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

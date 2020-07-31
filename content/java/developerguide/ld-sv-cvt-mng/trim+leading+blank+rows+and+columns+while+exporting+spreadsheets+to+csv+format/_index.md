@@ -37,10 +37,3 @@ The following sample code loads the source excel file which has two leading blan
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [effect-of-TxtSaveOptions.TrimLeadingBlankRowAndColumn-property.png.png](https://docs2.aspose.com/cells/java/attachments/25002806/25395222.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputTrimBlankColumns.csv](https://docs2.aspose.com/cells/java/attachments/25002806/25395223.csv) (text/csv)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputWithoutTrimBlankColumns.csv](https://docs2.aspose.com/cells/java/attachments/25002806/25395224.csv) (text/csv)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleTrimBlankColumns.xlsx](https://docs2.aspose.com/cells/java/attachments/25002806/25395225.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

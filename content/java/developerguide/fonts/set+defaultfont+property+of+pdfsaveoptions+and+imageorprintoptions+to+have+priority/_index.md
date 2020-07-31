@@ -45,11 +45,3 @@ See the output [P](https://docs.aspose.com/download/attachments/48136475/out1_i
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [workbook\_defaultfont1.png](https://docs2.aspose.com/cells/java/attachments/48136510/48496707.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out1\_imagePNG.png](https://docs2.aspose.com/cells/java/attachments/48136510/48496708.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out1\_pdf.pdf](https://docs2.aspose.com/cells/java/attachments/48136510/48496710.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out1\_imageTIFF.tiff](https://docs2.aspose.com/cells/java/attachments/48136510/48496709.tiff) (image/tiff)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx](https://docs2.aspose.com/cells/java/attachments/48136510/49446914.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

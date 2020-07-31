@@ -31,8 +31,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 Root Element Name Of Xml Map: MiscData
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Root-Element-Name-Of-Xml-Map.png](https://docs2.aspose.com/cells/java/attachments/54690369/55541817.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRootElementNameOfXmlMap.xlsx](https://docs2.aspose.com/cells/java/attachments/54690369/55541816.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

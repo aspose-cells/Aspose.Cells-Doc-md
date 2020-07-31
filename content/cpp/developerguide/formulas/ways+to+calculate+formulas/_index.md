@@ -60,8 +60,3 @@ Please call `Workbook.GetISettings().SetCreateCalcChain()` with false parameter.
 
 **Sample Code**
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputAddingFormulasCalculatingResults.xlsx](https://docs2.aspose.com/cells/cpp/attachments/37978115/38109185.xlsx) (application/xlsx)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleCalculatingFormulasOnceOnly.xlsx](https://docs2.aspose.com/cells/cpp/attachments/37978115/38109186.xlsx) (application/xlsx)  
-

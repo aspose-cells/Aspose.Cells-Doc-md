@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/64456361/64716917.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/64456361/64716919.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Rotate-Text-With-Shape.png](https://docs2.aspose.com/cells/java/attachments/64456361/64716918.png) (image/png)  
-

@@ -27,8 +27,3 @@ The following sample code illustrates how to specify the Custom Separators using
 ![](https://docs2.aspose.com/cells/java/attachments/5276665/5473006.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-pdf.png](https://docs2.aspose.com/cells/java/attachments/5276665/5473006.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [specify-custom-separator-in-excel.png](https://docs2.aspose.com/cells/java/attachments/5276665/5473007.png) (image/png)  
-

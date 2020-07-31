@@ -30,7 +30,3 @@ The following image shows the Downlevel-revealed conditional comments which wil
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleSelfClosingTags\_out.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202320/106365187.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

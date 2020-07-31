@@ -30,7 +30,3 @@ This article also explains how to set:
 ![](https://docs2.aspose.com/cells/java/attachments/5276686/5472852.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Custom-Slice-or-Sector-Colors-in-Pie-Chart.Png](https://docs2.aspose.com/cells/java/attachments/5276686/5472852.png) (image/png)  
-

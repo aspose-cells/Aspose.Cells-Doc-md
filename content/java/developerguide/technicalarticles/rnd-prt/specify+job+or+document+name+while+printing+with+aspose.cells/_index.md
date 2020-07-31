@@ -19,7 +19,3 @@ The sample code loads the source Excel file and then sends it to the printer by 
 ![](https://docs2.aspose.com/cells/java/attachments/5276641/5472683.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Job-Name-while-printing-with-Aspose.Cells.png](https://docs2.aspose.com/cells/java/attachments/5276641/5472683.png) (image/png)  
-

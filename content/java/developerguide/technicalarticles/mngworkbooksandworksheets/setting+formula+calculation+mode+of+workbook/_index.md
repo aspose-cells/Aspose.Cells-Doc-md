@@ -33,7 +33,3 @@ The following sample code first creates a workbook, then it sets the formula cal
 ![](https://docs2.aspose.com/cells/java/attachments/5276656/5473046.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Formula-Calculation-Mode.png](https://docs2.aspose.com/cells/java/attachments/5276656/5473046.png) (image/png)  
-

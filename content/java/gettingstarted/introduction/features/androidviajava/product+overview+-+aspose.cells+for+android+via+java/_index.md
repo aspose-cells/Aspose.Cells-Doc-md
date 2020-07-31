@@ -117,7 +117,3 @@ Aspose.Cells is a flexible component that enables Android applications to create
 *   Change **Source Data of a Pivot Table** at runtime
 *   Create and manipulate PivotTables
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [asposeCells-logo.png](https://docs2.aspose.com/cells/java/attachments/41550543/50528297.png) (image/png)  
-

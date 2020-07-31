@@ -28,10 +28,3 @@ To preview a report:
       
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193216.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Previewing Report-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193211.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Previewing Report-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193214.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Previewing Report-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193213.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Previewing Report-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193216.png) (image/png)  
-

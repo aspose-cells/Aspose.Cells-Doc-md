@@ -29,9 +29,3 @@ Please see the following sample code that loads the [sample Excel file](https:/
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Create-Chart-PDF-With-Desired-Page-Size.png](https://docs2.aspose.com/cells/java/attachments/64456320/64716910.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleCreateChartPDFWithDesiredPageSize.xlsx](https://docs2.aspose.com/cells/java/attachments/64456320/64716912.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputCreateChartPDFWithDesiredPageSize.pdf](https://docs2.aspose.com/cells/java/attachments/64456320/64716911.pdf) (application/pdf)  
-

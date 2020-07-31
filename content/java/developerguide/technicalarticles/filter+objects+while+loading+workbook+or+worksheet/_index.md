@@ -72,12 +72,3 @@ Once, it loads the [source excel file](https://docs2.aspose.com/cells/java/attac
 *   [NoShapes.png](https://docs2.aspose.com/cells/java/attachments/5276002/5472491.png)
 *   [NoConditionalFormatting.png](https://docs2.aspose.com/cells/java/attachments/5276002/5472490.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5276002/5472492.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [NoCharts.png](https://docs2.aspose.com/cells/java/attachments/5276002/5472493.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [NoConditionalFormatting.png](https://docs2.aspose.com/cells/java/attachments/5276002/5472490.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [NoShapes.png](https://docs2.aspose.com/cells/java/attachments/5276002/5472491.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleFilterChars.pdf](https://docs2.aspose.com/cells/java/attachments/5276002/5472488.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleFilterChars.xlsx](https://docs2.aspose.com/cells/java/attachments/5276002/5472489.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

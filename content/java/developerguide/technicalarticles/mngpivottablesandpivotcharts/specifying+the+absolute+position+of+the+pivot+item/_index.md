@@ -25,8 +25,3 @@ Please note, it is necessary to call the [PivotTable.refreshData](https://apiref
 The following sample code creates a Pivot Table and then it specifies the Pivot Items positions in the same parent node.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/java/attachments/5276671/5472976.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276671/5472977.xlsx) (image/png)  
-

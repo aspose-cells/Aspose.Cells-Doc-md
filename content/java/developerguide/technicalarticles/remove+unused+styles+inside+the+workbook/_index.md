@@ -19,8 +19,3 @@ The following code explains the usage of [Workbook.removeUnusedStyles()](https:/
 ![](https://docs2.aspose.com/cells/java/attachments/5275811/5473450.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [remove-unused-style.png](https://docs2.aspose.com/cells/java/attachments/5275811/5473450.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Template-With-Unused-Custom-Style.xlsx](https://docs2.aspose.com/cells/java/attachments/5275811/5473451.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

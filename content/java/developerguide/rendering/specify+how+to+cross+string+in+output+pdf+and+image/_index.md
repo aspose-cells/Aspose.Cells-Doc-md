@@ -49,11 +49,3 @@ The following sample code loads the sample Excel file and saves it to PDF/Image
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleImageOrPrintOptions\_PageIndexPageCount.xlsx](https://docs2.aspose.com/cells/java/attachments/81690970/81920921.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-5.png](https://docs2.aspose.com/cells/java/attachments/81690970/81920922.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-4.png](https://docs2.aspose.com/cells/java/attachments/81690970/81920924.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-6.png](https://docs2.aspose.com/cells/java/attachments/81690970/81920923.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-7.png](https://docs2.aspose.com/cells/java/attachments/81690970/81920925.png) (image/png)  
-

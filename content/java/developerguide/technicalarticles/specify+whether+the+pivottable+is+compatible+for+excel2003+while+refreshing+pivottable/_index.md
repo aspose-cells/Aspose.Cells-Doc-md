@@ -23,8 +23,3 @@ Here is the console output of the above sample code when it is executed with the
 
 Length of original data string: 383Length of cell B5 after setting IsExcel2003Compatible property to True: 255Length of cell B5 after setting IsExcel2003Compatible property to False: 383
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample-pivot-table.xlsx](https://docs2.aspose.com/cells/java/attachments/5276005/5472558.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276005/5472557.xlsx) (application/unknown)  
-

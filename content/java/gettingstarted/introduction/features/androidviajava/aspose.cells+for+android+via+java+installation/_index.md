@@ -136,24 +136,3 @@ Clicking the button on the emulator will execute the code to create a new spread
 
 ![](https://docs2.aspose.com/cells/java/attachments/41550537/50528315.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [1.AndroidStudio-file-new-project.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528298.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [2.AndroidStudio-Start-a-new-project.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528299.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [3.AndroidStudio-New-Project.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528300.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [4.AndroidStudio-Target-Android-Device.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528301.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [5.AndroidStudio-Add-Activity.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528302.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [6.AndroidStudio-Customize-Activity.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528303.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [7.AndroidStudio-Building-Gradle-Project.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528305.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [7.AndroidStudio-Building-Gradle-Project.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528304.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [8.AndroidStudio-Project-View.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528306.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [9.AndroidStudio-build.gradle-dexOptions.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528307.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [11.AndroidStudio-Add-Jar-As-Library.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528309.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [11.AndroidStudio-Add-Jar-As-Library.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528308.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [12.AndroidStudio-Add-Library-to-Module.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528310.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [13.AndroidStudio-Add-Assets-Folder (1).png](https://docs2.aspose.com/cells/java/attachments/41550537/50528311.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [13.AndroidStudio-Add-Assets-Folder.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528312.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [15.AndroidStudio-Application-View.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528313.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [16.AndroidStudio-Android-Device-Moniter.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528314.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [17.AndroidStudio-Android-Device-Manager-Pull-A-File.png](https://docs2.aspose.com/cells/java/attachments/41550537/50528315.png) (image/png)  
-

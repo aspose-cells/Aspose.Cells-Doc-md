@@ -45,11 +45,3 @@ To add report parameters to reports:
     **A report parameter inserted into the cell**  
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193348.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Report Parameters to Report-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193352.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Report Parameters to Report-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193351.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Report Parameters to Report-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193350.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Report Parameters to Report-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193349.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Report Parameters to Report-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193348.png) (image/png)  
-

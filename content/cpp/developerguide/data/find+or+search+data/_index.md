@@ -51,8 +51,3 @@ Name of the cell containing the string that starts with AAA: C10
 Name of the cell containing the string that ends with BBB: C11
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleFindOrSearchData.xlsx](https://docs2.aspose.com/cells/cpp/attachments/21102595/21266434.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [find-data-sample-excel-file.png](https://docs2.aspose.com/cells/cpp/attachments/21102595/21266435.png) (image/png)  
-

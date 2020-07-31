@@ -31,10 +31,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleExtractingOLEObjectsFromWorksheet.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257169/66519077.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputExtractOleObject.docx](https://docs2.aspose.com/cells/cpp/attachments/66257169/66519078.docx) (application/vnd.openxmlformats-officedocument.wordprocessingml.document)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputExtractOleObject.pdf](https://docs2.aspose.com/cells/cpp/attachments/66257169/66519079.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputExtractOleObject.pptx](https://docs2.aspose.com/cells/cpp/attachments/66257169/66519080.pptx) (application/vnd.openxmlformats-officedocument.presentationml.presentation)  
-

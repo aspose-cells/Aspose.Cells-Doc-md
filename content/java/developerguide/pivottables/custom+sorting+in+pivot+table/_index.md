@@ -27,10 +27,3 @@ Sample source file and output files can be downloaded from here for testing the 
 
 [Output PDF File](https://docs2.aspose.com/cells/java/attachments/95323827/95584329.pdf)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/95323827/95584326.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/95323827/95584327.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out\_java.xlsx](https://docs2.aspose.com/cells/java/attachments/95323827/95584328.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out\_java.pdf](https://docs2.aspose.com/cells/java/attachments/95323827/95584329.pdf) (application/pdf)  
-

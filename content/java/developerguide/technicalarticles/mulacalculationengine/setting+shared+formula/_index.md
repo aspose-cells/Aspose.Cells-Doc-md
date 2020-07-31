@@ -31,8 +31,3 @@ The following example demonstrates how to use it. The screenshot below shows the
 ![](https://docs2.aspose.com/cells/java/attachments/5276609/5472605.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Shared Formula 1.PNG](https://docs2.aspose.com/cells/java/attachments/5276609/5472604.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Shared Formula 2.PNG](https://docs2.aspose.com/cells/java/attachments/5276609/5472605.png) (image/png)  
-

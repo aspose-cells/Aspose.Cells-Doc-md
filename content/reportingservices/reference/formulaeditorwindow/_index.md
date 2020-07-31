@@ -59,7 +59,3 @@ Related topics:
 
 *   [Formula List](https://docs2.aspose.com/cells/reportingservices/reference/formulaeditorwindow/formula+list) - a list of fields and operators.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Summary-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094872/6193262.png) (image/png)  
-

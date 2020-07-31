@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputRemovingSlicer.xlsx](https://docs2.aspose.com/cells/java/attachments/66948424/67338502.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Removing-Slicer-using-Aspose.Cells.png](https://docs2.aspose.com/cells/java/attachments/66948424/67338503.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRemovingSlicer.xlsx](https://docs2.aspose.com/cells/java/attachments/66948424/67338504.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

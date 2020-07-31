@@ -22,7 +22,3 @@ After running the above code, we can have the generated excel file containing th
   
 ![](https://docs2.aspose.com/cells/java/attachments/5276612/5472600.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Create Table (By Using Border Lines) for a Range-001.png](https://docs2.aspose.com/cells/java/attachments/5276612/5472600.png) (image/png)  
-

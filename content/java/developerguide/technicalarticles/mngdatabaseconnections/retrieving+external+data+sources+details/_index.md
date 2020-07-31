@@ -24,7 +24,3 @@ When the code runs, the connection details are printed to the console.
 ![](https://docs2.aspose.com/cells/java/attachments/5276454/5472973.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sqlconnectiondata1.png](https://docs2.aspose.com/cells/java/attachments/5276454/5472973.png) (image/png)  
-

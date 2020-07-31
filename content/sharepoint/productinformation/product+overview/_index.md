@@ -54,11 +54,3 @@ This documentation describes the [features](https://docs2.aspose.com/cells/share
 **![](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/48496647.png)  
 **
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Introducing Aspose.Cells for SharePoint-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/6488069.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Introducing Aspose.Cells for SharePoint-002.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/6488067.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [aspose.Cells-SP\_logo.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/6488068.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [aspose-Cells-for-SharePoint.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/6488065.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [product\_overview1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/48496647.png) (image/png)  
-

@@ -34,9 +34,3 @@ To search in a document:
 **Search results**  
 ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357014/6488093.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [search\_in1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357014/6488091.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [search\_in2.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357014/6488092.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [search\_in3.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357014/6488093.png) (image/png)  
-

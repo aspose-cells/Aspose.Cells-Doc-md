@@ -29,8 +29,3 @@ The following sample code creates a text box and adds some Japanese text inside
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Specify-FarEast-And-LatinName-Of-Font.png](https://docs2.aspose.com/cells/java/attachments/66945760/67338342.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx](https://docs2.aspose.com/cells/java/attachments/66945760/67338341.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

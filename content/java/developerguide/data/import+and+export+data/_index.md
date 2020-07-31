@@ -114,8 +114,3 @@ Spreadsheets stores data as a sequence of rows and columns. Use the [exportArray
 *   **Number of rows**, the number of rows to export.
 *   **Number of columns**, the number of columns to export.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleMergedTemplate.xlsx](https://docs2.aspose.com/cells/java/attachments/5276213/90112035.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleMergedTemplate\_out.xlsx](https://docs2.aspose.com/cells/java/attachments/5276213/90112036.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

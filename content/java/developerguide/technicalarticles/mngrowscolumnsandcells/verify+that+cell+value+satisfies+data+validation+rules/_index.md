@@ -27,7 +27,3 @@ Is 30 a Valid Value for this Cell: False
 {{< /code >}}
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Validation-applied-on-cell-C1.PNG](https://docs2.aspose.com/cells/java/attachments/5276679/5472906.png) (image/png)  
-

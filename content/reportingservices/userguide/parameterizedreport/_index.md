@@ -27,20 +27,3 @@ You can create report parameters and map query parameters to the corresponding r
 *   [Modifying Report Parameters](https://docs2.aspose.com/cells/reportingservices/userguide/parameterizedreport/modifying+report+parameters)
 *   [Mapping Query Parameters to Report Parameters](https://docs2.aspose.com/cells/reportingservices/userguide/parameterizedreport/mapping+query+parameters+to+report+parameters)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193501.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193500.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193499.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193498.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193277.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193276.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193275.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Parameters-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193279.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Parameters-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193278.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Parameters-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193285.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193288.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193287.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193286.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Mapping Query Parameters to Report Parameters-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094944/6193292.png) (image/png)  
-

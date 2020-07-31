@@ -21,7 +21,3 @@ Evaluation mode adds an evaluation warning into any exported documents. When you
 **In evaluation mode, Aspose.Cells for SharePoint injects an Evaluation Warning**  
 ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356996/6488104.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Evaluate Aspose.Cells for SharePoint-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356996/6488104.png) (image/png)  
-

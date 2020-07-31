@@ -29,7 +29,3 @@ The following screenshot highlights this option for your reference.
 The sample code below accesses the Data Labels of the Chart Series and then set [DataLabels.setShowCellRange()](https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#ShowCellRange) method to true to check **Label Contains - Value From Cells** option.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [show-cell-range.png](https://docs2.aspose.com/cells/java/attachments/5276462/5472950.png) (image/png)  
-

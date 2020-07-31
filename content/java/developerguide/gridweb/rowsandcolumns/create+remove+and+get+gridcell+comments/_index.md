@@ -76,7 +76,3 @@ boolean isVis = gridComm.isVisible();
 
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [GridWeb displays comment as Excel Tooltip.png](https://docs2.aspose.com/cells/java/attachments/50266359/50528372.png) (image/png)  
-

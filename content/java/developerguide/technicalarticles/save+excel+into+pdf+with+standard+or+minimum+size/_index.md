@@ -26,7 +26,3 @@ The following screenshot shows how to save Excel into PDF with Standard or Minim
 The following sample code shows how you can save Excel into PDF with Standard or Minimum size using [PdfSaveOptions.OptimizationType](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#OptimizationType) property.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [standard-or-minimum-size.png](https://docs2.aspose.com/cells/java/attachments/5276106/5472508.png) (image/png)  
-

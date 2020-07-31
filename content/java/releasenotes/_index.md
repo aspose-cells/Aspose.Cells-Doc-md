@@ -205,7 +205,6 @@ url: /java/releasenotes/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Python via Java Release Notes - 2019**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforpythonviajava/pythonviajavajava/2019/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for Python via Java 19.12 Release Notes**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforpythonviajava/pythonviajavajava/2019/aspose.cells+for+python+via+java+19.12+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

@@ -51,10 +51,3 @@ The following output is generated when executing the code.
 **The theme colors applied to the D3 cell of the worksheet**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276662/5473015.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-001.png](https://docs2.aspose.com/cells/java/attachments/5276662/5473016.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-002.png](https://docs2.aspose.com/cells/java/attachments/5276662/5473017.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-003.png](https://docs2.aspose.com/cells/java/attachments/5276662/5473014.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel 2007 Themes and Colors-004.png](https://docs2.aspose.com/cells/java/attachments/5276662/5473015.png) (image/png)  
-

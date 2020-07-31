@@ -159,7 +159,6 @@ url: /java/releasenotes/asposecellsforjava/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells Java 1.4.1.0 Hot Fix Release Notes**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforjava/java/2007/aspose.cells+java+1.4.1.0+hot+fix+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells Java 1.4.0.0 New Release Release Notes**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforjava/java/2007/aspose.cells+java+1.4.0.0+new+release+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

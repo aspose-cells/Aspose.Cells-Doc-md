@@ -19,11 +19,3 @@ url: /reportingservices/gettingstarted/features/
 *   [Miscellaneous](https://docs2.aspose.com/cells/reportingservices/gettingstarted/features/miscellaneous)
 *   [World Class Free Technical Support](https://docs2.aspose.com/cells/reportingservices/gettingstarted/features/world+class+free+technical+support)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [More Excel File Formats Export-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094898/6193555.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [More Excel File Formats Export-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094898/6193554.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Make Use of Report Designer Client Tool-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094898/6193552.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Advanced Formula Calculation-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094898/6193566.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [World Class Free Technical Support-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094898/6193564.png) (image/png)  
-

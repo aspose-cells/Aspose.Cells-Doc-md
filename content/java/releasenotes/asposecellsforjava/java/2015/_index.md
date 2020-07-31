@@ -22,7 +22,6 @@ url: /java/releasenotes/asposecellsforjava/java/2015/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for Java 8.4.0 Release Notes**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforjava/java/2015/aspose.cells+for+java+8.4.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for Java 8.3.2 Release Notes**](https://docs2.aspose.com/cells/java/releasenotes/asposecellsforjava/java/2015/aspose.cells+for+java+8.3.2+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

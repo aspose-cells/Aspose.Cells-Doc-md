@@ -24,7 +24,3 @@ The following image shows the output Excel file generated with the sample code. 
 
 *   [Merging and splitting cells](https://docs2.aspose.com/cells/java/developerguide/data/merging+and+unmerging+cells).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-of-merging-cells.png](https://docs2.aspose.com/cells/java/attachments/5276677/5472902.png) (image/png)  
-

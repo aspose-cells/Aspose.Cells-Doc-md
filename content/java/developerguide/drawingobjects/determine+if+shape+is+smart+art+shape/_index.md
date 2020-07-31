@@ -34,8 +34,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 Is Smart Art Shape: true
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sample-Smart-Art-Shape.png](https://docs2.aspose.com/cells/java/attachments/54690182/55541804.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSmartArtShape.xlsx](https://docs2.aspose.com/cells/java/attachments/54690182/55541805.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -62,18 +62,3 @@ Here is how source and resultant spreadsheets look in Excel.
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276682/5473458.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-001.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473456.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-002.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473457.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-003.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473454.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-004.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473453.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-005.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473452.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-004.png](https://docs2.aspose.com/cells/java/attachments/5276682/5472890.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-001.png](https://docs2.aspose.com/cells/java/attachments/5276682/5472893.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-002.png](https://docs2.aspose.com/cells/java/attachments/5276682/5472892.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-003.png](https://docs2.aspose.com/cells/java/attachments/5276682/5472891.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-006.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473455.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-008.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473458.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Rows and Columns-007.png](https://docs2.aspose.com/cells/java/attachments/5276682/5473459.png) (image/png)  
-

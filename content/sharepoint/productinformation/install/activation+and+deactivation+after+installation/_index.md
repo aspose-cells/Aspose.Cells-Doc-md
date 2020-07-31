@@ -17,7 +17,3 @@ url: /sharepoint/productinformation/install/activation+and+deactivation+after+in
 **Activating Aspose.Cells**  
 ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356997/6488106.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Activation and Deactivation after installation-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356997/6488106.png) (image/png)  
-

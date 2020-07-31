@@ -58,10 +58,3 @@ Aspose.Cells supports applying conditional formatting at runtime.
 **Setting a cell pattern in Microsoft Excel**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276770/5473180.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Conditional Formatting-001.png](https://docs2.aspose.com/cells/java/attachments/5276770/5473175.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Conditional Formatting-002.png](https://docs2.aspose.com/cells/java/attachments/5276770/5473174.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Conditional Formatting-003.png](https://docs2.aspose.com/cells/java/attachments/5276770/5473181.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Conditional Formatting-004.png](https://docs2.aspose.com/cells/java/attachments/5276770/5473180.png) (image/png)  
-

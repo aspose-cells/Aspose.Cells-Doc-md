@@ -30,9 +30,3 @@ Aspose.Cells uses the same high-fidelity page layout and rendering engine to pro
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276497/5473361.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-001.png](https://docs2.aspose.com/cells/java/attachments/5276497/5473368.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-002.png](https://docs2.aspose.com/cells/java/attachments/5276497/5473361.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [XML Paper Specification (XPS)-003.png](https://docs2.aspose.com/cells/java/attachments/5276497/5473362.png) (image/png)  
-

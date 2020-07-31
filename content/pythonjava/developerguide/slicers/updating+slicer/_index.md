@@ -24,12 +24,3 @@ Aspose.Cells for Python via Java supports updating slicers. For this, the API pr
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputRenderingSlicer.png](https://docs2.aspose.com/cells/pythonjava/attachments/106202011/106365046.png) (image/png)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleRenderingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202011/106365047.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202011/106365048.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202011/106365049.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleUpdatingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202011/106365050.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputUpdatingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202011/106365051.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

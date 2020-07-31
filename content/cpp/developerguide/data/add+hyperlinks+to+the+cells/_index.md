@@ -26,8 +26,3 @@ The following sample code shows how to add a hyperlink inside the cell of the wo
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970921/23167002.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [adding-hyperlink.png](https://docs2.aspose.com/cells/cpp/attachments/22970921/23167003.png) (image/png)  
-

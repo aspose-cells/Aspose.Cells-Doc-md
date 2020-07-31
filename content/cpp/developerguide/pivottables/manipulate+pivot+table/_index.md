@@ -41,9 +41,3 @@ Before refreshing Pivot Table value of cell H8: 15
 After refreshing Pivot Table value of cell H8: 6
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [refreshing-pivot-table-using-aspose.cells.png](https://docs2.aspose.com/cells/cpp/attachments/22970933/23167012.png) (image/png)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970933/23167014.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [samplePivotTable.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970933/23167013.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

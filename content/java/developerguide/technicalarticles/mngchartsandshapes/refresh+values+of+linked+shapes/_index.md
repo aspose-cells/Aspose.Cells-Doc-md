@@ -23,9 +23,3 @@ You can download the [source Excel file](https://docs2.aspose.com/cells/java/at
 #### Code
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [LinkedShape.xlsx](https://docs2.aspose.com/cells/java/attachments/5276461/5472956.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/5276461/5472955.pdf) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Refresh Values of Linked Objects.png](https://docs2.aspose.com/cells/java/attachments/5276461/5472954.png) (image/png)  
-

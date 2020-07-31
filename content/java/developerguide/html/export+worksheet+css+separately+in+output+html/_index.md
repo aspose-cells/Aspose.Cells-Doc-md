@@ -55,8 +55,3 @@ options.setExportHiddenWorksheet(true);
 //Save the workbook in Html format with specified Html Save Options  
 wb.save(outDir + "outputSampleSingleSheet.htm", options);
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputExportWorksheetCSSSeparately-HTML.zip](https://docs2.aspose.com/cells/java/attachments/60229052/60489780.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSingleSheet.xlsx](https://docs2.aspose.com/cells/java/attachments/60229052/79527948.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -77,12 +77,3 @@ Installing and using Aspose.Cells for SharePoint is easy. It not only adds a fea
 
 In other words, it is beneficial for SharePoint site administrators, developers and end users.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Aspose.Cells for SharePoint - Usage and Benefits-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357037/6488139.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Aspose.Cells for SharePoint - Usage and Benefits-002.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357037/6488134.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Aspose.Cells for SharePoint - Usage and Benefits-003.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357037/6488133.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Aspose.Cells for SharePoint - Usage and Benefits-004.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357037/6488136.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Aspose.Cells for SharePoint - Usage and Benefits-005.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357037/6488135.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Aspose.Cells for SharePoint - Usage and Benefits-006.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357037/6488121.png) (image/png)  
-

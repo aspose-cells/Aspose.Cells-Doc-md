@@ -20,8 +20,3 @@ Aspose.Cells for Reporting Services supports more file formats than the native e
 **A Sample Pivot Table XLS report is generated using Aspose.Cells for Reporting Services**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094896/6193556.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [More Excel File Formats Export-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094896/6193557.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [More Excel File Formats Export-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094896/6193556.png) (image/png)  
-

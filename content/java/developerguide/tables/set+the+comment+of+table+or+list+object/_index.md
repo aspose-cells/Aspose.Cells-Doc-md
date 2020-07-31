@@ -26,8 +26,3 @@ The following sample code loads the [source excel file](https://docs2.aspose.com
 ![](https://docs2.aspose.com/cells/java/attachments/5276080/5473434.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [setting-list-object-comment.png](https://docs2.aspose.com/cells/java/attachments/5276080/5473434.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/java/attachments/5276080/5472561.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

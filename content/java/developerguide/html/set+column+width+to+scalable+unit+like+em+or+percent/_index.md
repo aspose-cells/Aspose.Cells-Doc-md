@@ -18,8 +18,3 @@ Sample source file and output files can be downloaded from the following links:
 
 [outsampleForScalableColumns.zip](https://docs2.aspose.com/cells/java/attachments/74580174/74776597.zip)  
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleForScalableColumns.xlsx](https://docs2.aspose.com/cells/java/attachments/74580174/74776596.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outsampleForScalableColumns.zip](https://docs2.aspose.com/cells/java/attachments/74580174/74776597.zip) (application/zip)  
-

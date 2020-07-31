@@ -21,8 +21,3 @@ When the code runs, it saves an output file with an image hyperlink in it.
 **The output file**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276603/5472614.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Add Image Hyperlinks-001.png](https://docs2.aspose.com/cells/java/attachments/5276603/5472615.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [image-hyperlink.png](https://docs2.aspose.com/cells/java/attachments/5276603/5472614.png) (image/png)  
-

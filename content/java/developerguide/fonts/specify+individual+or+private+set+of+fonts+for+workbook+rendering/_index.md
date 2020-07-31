@@ -29,10 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Specify-Individual-or-Private-Set-of-Fonts-for-Workbook-Rendering.png](https://docs2.aspose.com/cells/java/attachments/66945689/67338301.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [CustomFonts.zip](https://docs2.aspose.com/cells/java/attachments/66945689/67338302.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf](https://docs2.aspose.com/cells/java/attachments/66945689/67338303.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx](https://docs2.aspose.com/cells/java/attachments/66945689/67338304.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

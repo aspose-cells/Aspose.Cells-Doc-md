@@ -20,7 +20,3 @@ After executing the code, Aspose.Cells auto-fits rows for merged cells.
 ![](https://docs2.aspose.com/cells/java/attachments/5276683/5472885.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [AutoFit Rows for Merged Cells-001.png](https://docs2.aspose.com/cells/java/attachments/5276683/5472885.png) (image/png)  
-

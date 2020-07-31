@@ -104,9 +104,3 @@ Once the data is in place, all we need to do is to create a chart based on the d
 The final chart looks as follow.  
 ![](https://docs2.aspose.com/cells/java/attachments/5275665/5472513.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SmartMarkerDesignerProcessed.png](https://docs2.aspose.com/cells/java/attachments/5275665/5472515.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SmartMarkerDesignerSample.png](https://docs2.aspose.com/cells/java/attachments/5275665/5472514.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Chart-View.png](https://docs2.aspose.com/cells/java/attachments/5275665/5472513.png) (image/png)  
-

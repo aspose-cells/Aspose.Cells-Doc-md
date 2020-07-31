@@ -141,15 +141,3 @@ After running the above code, the generated file has a split view.
 
 Developers can remove split panes using the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet) class' [removeSplit](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#removeSplit()) method.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Freeze Panes-001.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472455.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Freeze Panes-002.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472456.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Freeze Panes-003.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472457.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Page Break Preview-001.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472451.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Split Panes-001.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472452.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Zoom Factor-001.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472453.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Zoom Factor-002.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472454.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Zoom Factor-003.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472472.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Page Break Preview-002.png](https://docs2.aspose.com/cells/java/attachments/5276181/5472471.png) (image/png)  
-

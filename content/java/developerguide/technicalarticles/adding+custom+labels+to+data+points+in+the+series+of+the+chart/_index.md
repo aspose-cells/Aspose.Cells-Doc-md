@@ -19,7 +19,3 @@ The following code creates Scatter Chart Connected By Lines With Data Markers an
 ![](https://docs2.aspose.com/cells/java/attachments/5276490/5472939.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Custom-Labels-to-Data-Points.png](https://docs2.aspose.com/cells/java/attachments/5276490/5472939.png) (image/png)  
-

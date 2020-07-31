@@ -22,10 +22,3 @@ Aspose.Cells provides the ability to remove ActiveX Control from workbooks. For
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SmartArt.xlsx](https://docs2.aspose.com/cells/java/attachments/105284033/105480216.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/105284033/105480217.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/105284033/105480218.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Rotate-Text-With-Shape.png](https://docs2.aspose.com/cells/java/attachments/105284033/105480219.png) (image/png)  
-

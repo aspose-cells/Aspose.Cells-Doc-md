@@ -26,10 +26,3 @@ The following code snippet loads the [sample Excel file](https://docs2.aspose.
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201888/106364968.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201888/106364969.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleRemovingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201888/106364970.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputRemovingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106201888/106364971.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -51,13 +51,3 @@ To add sub-report item:
     **The sub-report inserted into a report table**  
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193400.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193386.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193387.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193388.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193389.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193398.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193399.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193400.png) (image/png)  
-

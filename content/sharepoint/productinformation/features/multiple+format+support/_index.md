@@ -47,8 +47,3 @@ The full list of output formats supported by Aspose.Cells for SharePoint is:
 **The supported conversion formats available for a file are listed**  
 ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357019/47153161.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Multiple formats support-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357019/6488074.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [multipleformat1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357019/47153161.png) (image/png)  
-

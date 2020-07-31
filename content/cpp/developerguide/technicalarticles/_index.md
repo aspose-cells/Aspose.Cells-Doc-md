@@ -17,7 +17,6 @@ url: /cpp/developerguide/technicalarticles/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create and Manipulate Excel Table**](https://docs2.aspose.com/cells/cpp/developerguide/technicalarticles/create+and+manipulate+excel+table)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Group Rows and Columns of Worksheet**](https://docs2.aspose.com/cells/cpp/developerguide/technicalarticles/group+rows+and+columns+of+worksheet)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

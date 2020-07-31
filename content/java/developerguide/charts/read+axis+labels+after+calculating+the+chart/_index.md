@@ -40,7 +40,3 @@ Brazil
 England
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleReadAxisLabelsAfterCalculatingTheChart.xlsx](https://docs2.aspose.com/cells/java/attachments/64454883/64716829.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

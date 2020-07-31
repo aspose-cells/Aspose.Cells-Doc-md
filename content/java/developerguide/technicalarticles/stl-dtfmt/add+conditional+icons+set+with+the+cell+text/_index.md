@@ -20,7 +20,3 @@ When the code is executed, images from the conditional icon set are added in the
 ![](https://docs2.aspose.com/cells/java/attachments/5276668/5472658.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addcondiconsset.png](https://docs2.aspose.com/cells/java/attachments/5276668/5472658.png) (image/png)  
-

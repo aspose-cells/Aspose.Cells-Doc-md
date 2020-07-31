@@ -28,9 +28,3 @@ Please consider this textual data i.e. {11, 111, 22}. This textual data is sorte
 
 The following sample code illustrates the usage of [DataSorter.SortAsNumber](https://apireference.aspose.com/java/cells/com.aspose.cells/datasorter#SortAsNumber) property as explained earlier. Please check its [sample Excel file](https://docs2.aspose.com/cells/java/attachments/42729853/43352077.xlsx) and [output Excel file](https://docs2.aspose.com/cells/java/attachments/42729853/43352078.xlsx) for more help.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSortAsNumber.xlsx](https://docs2.aspose.com/cells/java/attachments/42729853/43352077.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSortAsNumber.xlsx](https://docs2.aspose.com/cells/java/attachments/42729853/43352078.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sort-textual-data-as-numbers.png](https://docs2.aspose.com/cells/java/attachments/42729853/43352085.png) (image/png)  
-

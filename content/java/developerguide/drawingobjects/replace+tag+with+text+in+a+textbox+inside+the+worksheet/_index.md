@@ -24,11 +24,3 @@ Text boxes can have tags that can be replaced with some text at run time to conf
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SmartArt.xlsx](https://docs2.aspose.com/cells/java/attachments/79331438/79527952.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/79331438/79527953.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/79331438/79527954.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Rotate-Text-With-Shape.png](https://docs2.aspose.com/cells/java/attachments/79331438/79527955.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleReplaceTagWithText.xlsx](https://docs2.aspose.com/cells/java/attachments/79331438/79527956.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

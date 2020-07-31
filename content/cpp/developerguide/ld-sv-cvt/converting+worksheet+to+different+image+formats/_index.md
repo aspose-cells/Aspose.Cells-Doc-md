@@ -52,10 +52,3 @@ The [Aspose.Cells.Rendering.IImageOrPrintOptions](https://apireference.aspose.c
 
 Please see the following sample code, its [sample Excel file](https://docs2.aspose.com/cells/cpp/attachments/66946350/67338402.xlsx), and the [output SVG Images](https://docs2.aspose.com/cells/cpp/attachments/66946350/67338403.zip).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleConvertingWorksheetToDifferentImageFormats.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66946350/67338402.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputPNGImages.zip](https://docs2.aspose.com/cells/cpp/attachments/66946350/67338401.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputSVGImages.zip](https://docs2.aspose.com/cells/cpp/attachments/66946350/67338403.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputTIFFImage.zip](https://docs2.aspose.com/cells/cpp/attachments/66946350/67338419.zip) (application/zip)  
-

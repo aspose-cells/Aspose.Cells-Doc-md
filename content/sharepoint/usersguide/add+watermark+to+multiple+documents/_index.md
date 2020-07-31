@@ -26,8 +26,3 @@ The following options are available during the add water mark setup:
 
 **            Input image file path.**
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [addwatermarkmultiple1.png](https://docs2.aspose.com/cells/sharepoint/attachments/50270251/50528333.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [addwatermarkmultiple2.png](https://docs2.aspose.com/cells/sharepoint/attachments/50270251/50528334.png) (image/png)  
-

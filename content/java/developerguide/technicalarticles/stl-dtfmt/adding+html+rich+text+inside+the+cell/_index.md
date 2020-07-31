@@ -23,7 +23,3 @@ The following screenshot shows the output Excel file generated with Aspose.Cells
 This is the sample code that generated the output Excel file as shown inside the above screenshot.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [HTML-formatted-text.png](https://docs2.aspose.com/cells/java/attachments/5276666/5473008.png) (image/png)  
-

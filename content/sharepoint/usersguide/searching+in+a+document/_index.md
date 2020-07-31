@@ -27,7 +27,3 @@ The following options are available:
 *   **Find Options**: Focus your search by searching in cells, for formulas, or finding formulas that contains a specific expression.
 *   **CaseSensitive**: When the case-sensitive option is selected, the search matches characters exactly, including lower- and upper-case letters.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [searching\_in1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357002/6488137.png) (image/png)  
-

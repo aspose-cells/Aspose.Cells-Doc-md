@@ -24,7 +24,3 @@ To find and set this option in Microsoft Excel:
 Aspose.Cells provides the [PivotTable.setDisplayNullString()](https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#DisplayNullString) and [PivotTable.setNullString()](https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#NullString) properties for setting the "For empty cells show" pivot table option.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [For-empty-cells-show.png](https://docs2.aspose.com/cells/java/attachments/5276672/5472974.png) (image/png)  
-

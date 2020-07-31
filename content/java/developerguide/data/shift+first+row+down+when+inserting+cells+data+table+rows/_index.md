@@ -32,10 +32,3 @@ The following sample code illustrates how to shift first row down when insertin
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Effect-of-setting-ImportTableOptions.ShiftFirstRowDown-True-or-False.png](https://docs2.aspose.com/cells/java/attachments/44860349/45056042.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleImportTableOptionsShiftFirstRowDown.xlsx](https://docs2.aspose.com/cells/java/attachments/44860349/45056043.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImportTableOptionsShiftFirstRowDown-False.xlsx](https://docs2.aspose.com/cells/java/attachments/44860349/45056044.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImportTableOptionsShiftFirstRowDown-True.xlsx](https://docs2.aspose.com/cells/java/attachments/44860349/45056045.xlsx) (application/unknown)  
-

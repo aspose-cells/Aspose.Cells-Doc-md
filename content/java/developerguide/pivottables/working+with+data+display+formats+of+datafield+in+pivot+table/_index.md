@@ -27,10 +27,3 @@ Sample source and output files can be downloaded from here for testing the sampl
 
 [Output Excel File](https://docs.aspose.com/download/attachments/101122967/PivotTableDataDisplayFormatRanking_out.xlsx?version=1&modificationDate=1581096283568&api=v2)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out\_java.pdf](https://docs2.aspose.com/cells/java/attachments/101122968/101089336.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [out\_java.xlsx](https://docs2.aspose.com/cells/java/attachments/101122968/101089337.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/101122968/101089338.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/101122968/101089339.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

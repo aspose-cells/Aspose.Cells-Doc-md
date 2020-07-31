@@ -72,8 +72,3 @@ Ungroup grouped rows or columns by calling the [Cells](https://apireference.aspo
 *   First row or column index, the first row/column to be ungrouped.
 *   Last row or column index, the last row/column to be ungrouped.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Grouping Ungrouping Rows and Columns-001.png](https://docs2.aspose.com/cells/java/attachments/5276254/5473338.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Grouping Ungrouping Rows and Columns-002.png](https://docs2.aspose.com/cells/java/attachments/5276254/5473339.png) (image/png)  
-

@@ -27,9 +27,3 @@ The following sample code saves the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-17.11.0.pdf](https://docs2.aspose.com/cells/java/attachments/60229066/60489781.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRenderOfficeAdd-Ins.xlsx](https://docs2.aspose.com/cells/java/attachments/60229066/60489783.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-17.12.0.pdf](https://docs2.aspose.com/cells/java/attachments/60229066/60489782.pdf) (application/pdf)  
-

@@ -29,9 +29,3 @@ The following sample code first loads the sample HTML into Workbook without any 
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputWithout\_AutoFitColsAndRows.xlsx](https://docs2.aspose.com/cells/java/attachments/25002947/25395235.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Effect-of-HTMLLoadOptions.AutoFitColsAndRows.png](https://docs2.aspose.com/cells/java/attachments/25002947/25395236.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputWith\_AutoFitColsAndRows.xlsx](https://docs2.aspose.com/cells/java/attachments/25002947/25395237.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

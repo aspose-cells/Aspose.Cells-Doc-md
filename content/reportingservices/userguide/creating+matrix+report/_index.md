@@ -67,20 +67,3 @@ To create a new matrix:
     
 9.  Save, publish and review report.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193406.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193409.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193408.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193460.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193461.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193458.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193459.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-008.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193464.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-001a.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193465.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-002a.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193462.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-003a.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193463.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-004a.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193452.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-005b.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193453.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Design Matrix-007b.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193450.png) (image/png)  
-

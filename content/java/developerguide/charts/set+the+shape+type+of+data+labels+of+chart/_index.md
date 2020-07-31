@@ -38,9 +38,3 @@ The following sample code changes the shape type of data labels of the chart toÂ
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSetShapeTypeOfDataLabelsOfChart.xlsx](https://docs2.aspose.com/cells/java/attachments/60229099/60489793.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Set-the-Shape-Type-of-Data-Labels-of-Chart.png](https://docs2.aspose.com/cells/java/attachments/60229099/60489795.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSetShapeTypeOfDataLabelsOfChart.xlsx](https://docs2.aspose.com/cells/java/attachments/60229099/60489794.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

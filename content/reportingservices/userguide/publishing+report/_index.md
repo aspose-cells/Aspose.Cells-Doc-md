@@ -36,12 +36,3 @@ To publish a report to Report Server, follow the steps below:
 
 button to complete the work.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Publishing Report-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193200.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Publishing Report-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193185.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Publishing Report-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193186.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Publishing Report-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193187.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Publishing Report-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193188.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Publishing Report-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193189.png) (image/png)  
-

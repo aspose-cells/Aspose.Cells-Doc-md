@@ -25,8 +25,3 @@ The following code accesses the first pivot table of the worksheet and then gets
 ![](https://docs2.aspose.com/cells/java/attachments/5276470/5472918.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [PivotTable-After.PNG](https://docs2.aspose.com/cells/java/attachments/5276470/5472918.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [PivotTable-Before.PNG](https://docs2.aspose.com/cells/java/attachments/5276470/5472921.png) (image/png)  
-

@@ -56,12 +56,3 @@ options.setFilePathProvider(new FilePathProvider());
 
 Here is the complete sample code which you can execute with the provided [sample excel file](https://docs2.aspose.com/cells/java/attachments/5275789/5473414.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet1.html-screenshot.png](https://docs2.aspose.com/cells/java/attachments/5275789/5473422.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [change-sheet-links-via-IFilePathProvider.png](https://docs2.aspose.com/cells/java/attachments/5275789/5473415.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [extract-this-zip-to-C-drive.zip](https://docs2.aspose.com/cells/java/attachments/5275789/5473417.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5275789/5473414.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [change-sheet-links-via-IFilePathProvider.png](https://docs2.aspose.com/cells/java/attachments/5275789/5473416.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sheet1.html-screenshot.png](https://docs2.aspose.com/cells/java/attachments/5275789/5473418.png) (image/png)  
-

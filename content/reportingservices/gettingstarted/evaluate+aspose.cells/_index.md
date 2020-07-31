@@ -26,8 +26,3 @@ It will inject an extra evaluation watermark worksheet to the workbook.
 
 If you want to test Aspose.Cells for Reporting Services without evaluation version limitations, you may [request a 30-day temporary license](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) .
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Evaluate Aspose.Cells-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094907/6193540.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Evaluate Aspose.Cells-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094907/6193541.png) (image/png)  
-

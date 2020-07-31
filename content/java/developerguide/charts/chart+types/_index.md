@@ -281,20 +281,3 @@ The following pyramid charts are supported in Aspose.Cells:
 
 Custom charts allow you to create charts with custom formatting that can also be applied to other charts. Here, we've only discussed the standard charts. If you want to know more details about custom charts then please read the [Creating Custom Charts](https://docs2.aspose.com/cells/java/developerguide/charts/creating+and+customizing+charts#creatingandcustomizingcharts-usingchartingobjects) article which describes how to create custom charts.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-001.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472359.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-002.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472366.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-003.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472365.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-004.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472364.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-005.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472363.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-006.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472370.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-007.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472369.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-008.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472368.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-009.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472367.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-010.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472374.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-012.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472373.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-013.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472372.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-014.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472371.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Introduction to Charts and its Types-011.png](https://docs2.aspose.com/cells/java/attachments/5276207/5472345.png) (image/png)  
-

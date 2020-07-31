@@ -27,8 +27,3 @@ The sample code that follows loads the sample Microsoft Excel file using Aspose.
 ![](https://docs2.aspose.com/cells/java/attachments/5276457/5472864.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [wrapped-text-in-data-labels.png](https://docs2.aspose.com/cells/java/attachments/5276457/5472863.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [unwrapped-text-in-data-labels.png](https://docs2.aspose.com/cells/java/attachments/5276457/5472864.png) (image/png)  
-

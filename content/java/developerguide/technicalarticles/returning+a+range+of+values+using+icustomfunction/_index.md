@@ -22,8 +22,3 @@ Create a class with a function *CalculateCustomFunction*. This class implements
 
 Now use the above function into your program.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276466/5472922.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/5276466/5472925.pdf) (image/png)  
-

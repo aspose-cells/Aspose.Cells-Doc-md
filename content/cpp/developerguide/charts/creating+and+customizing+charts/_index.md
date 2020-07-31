@@ -43,10 +43,3 @@ A chart is composed of a data series. When creating a custom chart, developers h
 
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet. Please see the [output Excel file](https://docs2.aspose.com/cells/cpp/attachments/66257135/66519071.xlsx) of the following sample code.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputChartTypePyramid.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257135/66519068.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputChartTypeLine.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257135/66519069.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputChartTypeBubble.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257135/66519070.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputChartTypeCustom.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257135/66519071.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

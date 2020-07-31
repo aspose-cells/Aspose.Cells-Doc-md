@@ -29,8 +29,3 @@ The following sample code loads the [source tab-delimited file](https://docs2.as
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outReadWriteTabDelimited.txt](https://docs2.aspose.com/cells/cpp/attachments/22970906/23166996.txt) (text/plain)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [srcReadWriteTabDelimited.txt](https://docs2.aspose.com/cells/cpp/attachments/22970906/23166997.txt) (text/plain)  
-

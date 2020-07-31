@@ -27,7 +27,3 @@ In the example, the name of sub-report is “Sales Order Detail”. It has one p
 *   The Sub-Report can only be embedded in the table group row and the group row cannot contain other elements except the Sub-Report. Embedding a Sub-Report in the table detail rows or footer rows is not allowed.
 *   Currently, nesting more than one level is not supported. The Sub-Report cannot contain embedded report.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Sub Reports-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094922/6193432.png) (image/png)  
-

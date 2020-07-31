@@ -49,9 +49,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Output HTML Files.zip](https://docs2.aspose.com/cells/java/attachments/51480080/51740745.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleHtmlCrossStringType.xlsx](https://docs2.aspose.com/cells/java/attachments/51480080/51740747.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sample-Excel-File-HtmlCrossType.png](https://docs2.aspose.com/cells/java/attachments/51480080/51740746.png) (image/png)  
-

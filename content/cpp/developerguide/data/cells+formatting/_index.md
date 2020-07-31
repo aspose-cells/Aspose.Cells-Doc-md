@@ -36,8 +36,3 @@ The following sample code formats the cell C4 of the worksheet in various ways 
 
 ![](https://docs2.aspose.com/cells/cpp/attachments/21102594/21266439.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/cpp/attachments/21102594/21266438.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [cells-formatting-output.png](https://docs2.aspose.com/cells/cpp/attachments/21102594/21266439.png) (image/png)  
-

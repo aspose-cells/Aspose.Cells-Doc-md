@@ -29,7 +29,3 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Cells for Java Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [aspose-Cells-for-Java.png](https://docs2.aspose.com/cells/java/attachments/5276259/66519085.png) (image/png)  
-

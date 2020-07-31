@@ -54,7 +54,3 @@ Following is the resultant image when locale of the machine is set to France. As
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276113/5472582.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.png](https://docs2.aspose.com/cells/java/attachments/5276113/5472582.png) (image/png)  
-

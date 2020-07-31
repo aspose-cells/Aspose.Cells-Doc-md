@@ -43,13 +43,3 @@ After running the code, the generated Excel file contains a linked image on the 
 ![](https://docs2.aspose.com/cells/java/attachments/5276648/5473004.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-001.png](https://docs2.aspose.com/cells/java/attachments/5276648/5473001.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-002.png](https://docs2.aspose.com/cells/java/attachments/5276648/5473000.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-003.png](https://docs2.aspose.com/cells/java/attachments/5276648/5473003.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert a Linked Picture from Web Address-004.png](https://docs2.aspose.com/cells/java/attachments/5276648/5473002.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-001b.png](https://docs2.aspose.com/cells/java/attachments/5276648/5473005.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-004b.png](https://docs2.aspose.com/cells/java/attachments/5276648/5473004.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Insert-a-Linked-Picture-from-Web-Address-003b.png](https://docs2.aspose.com/cells/java/attachments/5276648/5473076.png) (image/png)  
-

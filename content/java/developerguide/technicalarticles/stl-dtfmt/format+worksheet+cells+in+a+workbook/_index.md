@@ -56,7 +56,3 @@ Aspose.Cells offers more flexibility than other solutions and provides outstandi
 
 We welcome your queries, comments and suggestions at [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warranty a prompt reply.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Format Worksheet Cells in a Workbook-002.png](https://docs2.aspose.com/cells/java/attachments/5276661/5473025.png) (image/png)  
-

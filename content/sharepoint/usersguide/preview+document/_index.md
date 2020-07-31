@@ -20,8 +20,3 @@ To preview a Microsoft Excel document in the document library:
     **Document preview**  
     ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357004/6488126.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [preview1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357004/6488131.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [preview2.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357004/6488126.png) (image/png)  
-

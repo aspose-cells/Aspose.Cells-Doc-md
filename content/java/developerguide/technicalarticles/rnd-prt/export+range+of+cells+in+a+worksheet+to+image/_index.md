@@ -24,10 +24,3 @@ Executing the code creates an image of the range E8:H10 only.
 **Output image**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276640/5472691.jpg)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample-file-with-some-data.png](https://docs2.aspose.com/cells/java/attachments/5276640/106365340.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source.xlsx.out.jpg](https://docs2.aspose.com/cells/java/attachments/5276640/106365341.jpg) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample-file-with-some-data.png](https://docs2.aspose.com/cells/java/attachments/5276640/5472690.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source.xlsx.out.jpg](https://docs2.aspose.com/cells/java/attachments/5276640/5472691.jpg) (image/jpeg)  
-

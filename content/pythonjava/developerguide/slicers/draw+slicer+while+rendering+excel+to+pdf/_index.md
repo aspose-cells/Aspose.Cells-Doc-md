@@ -24,14 +24,3 @@ Aspose.Cells for Python via Java supports exporting Excel to PDF with slicer set
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputUpdatingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365052.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365054.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleFormattingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365055.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleUpdatingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365053.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleRenderingSlicer.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365056.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [outputRenderingSlicer.png](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365057.png) (image/png)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [SampleSlicerChart.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365058.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [SampleSlicerChart.pdf](https://docs2.aspose.com/cells/pythonjava/attachments/106202013/106365059.pdf) (application/pdf)  
-

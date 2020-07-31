@@ -50,7 +50,3 @@ refersto: =Sheet1!$H$1:$N$69
 
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsm](https://docs2.aspose.com/cells/java/attachments/5276313/5472550.xlsm) (application/xlsx)  
-

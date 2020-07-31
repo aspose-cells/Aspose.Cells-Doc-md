@@ -49,7 +49,3 @@ The code example below shows how to create a simple pivot table following the ba
 **Creating a pivot table based on a corresponding field**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276003/5472483.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [How to Create a PivotTable-001.png](https://docs2.aspose.com/cells/java/attachments/5276003/5472483.png) (image/png)  
-

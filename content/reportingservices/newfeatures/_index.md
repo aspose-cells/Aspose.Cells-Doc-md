@@ -26,11 +26,3 @@ url: /reportingservices/newfeatures/
 *   [Add Group function in Aspose.Cells for Reporting Services Client](https://docs2.aspose.com/cells/reportingservices/newfeatures/add+group+function+in+aspose.cells+for+reporting+services+client)
 *   [Add Sorting feature for rendering Table item](https://docs2.aspose.com/cells/reportingservices/newfeatures/add+sorting+feature+for+rendering+table+item)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Sub Reports-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094924/6193433.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Integrate with Microsoft Report Viewer in Local Mode-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094924/6193420.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Integrate with Microsoft Report Viewer in Local Mode-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094924/6193421.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Support MS Excel 2007 Custom UI-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094924/6193423.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addmatrix.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094924/6193416.png) (image/png)  
-

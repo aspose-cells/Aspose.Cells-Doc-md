@@ -39,8 +39,3 @@ Please see the following sample code to find how to identify merged cell areas i
 
 *   [Merging and splitting cells](https://docs2.aspose.com/cells/java/developerguide/data/merging+and+unmerging+cells).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Detect Merged Cells in a Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276681/5472889.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Detect Merged Cells in a Worksheet-002.png](https://docs2.aspose.com/cells/java/attachments/5276681/5472888.png) (image/png)  
-

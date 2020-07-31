@@ -157,9 +157,3 @@ Below are some of the testimonials from Aspose.Cells customers.
 **Please check:**  
 [Aspose.Cells Forums - Testimonials](https://company.aspose.com/customers/success-stories/aspose-cells)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Product Overview-001.png](https://docs2.aspose.com/cells/java/attachments/5276511/5472933.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [aspose-Cells-for-Java\_100.png](https://docs2.aspose.com/cells/java/attachments/5276511/5472926.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [aspose-Cells-for-Java.png](https://docs2.aspose.com/cells/java/attachments/5276511/5472927.png) (image/png)  
-

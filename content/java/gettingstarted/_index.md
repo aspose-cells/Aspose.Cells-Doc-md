@@ -49,7 +49,6 @@ url: /java/gettingstarted/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Why Not Open XML SDK**](https://docs2.aspose.com/cells/java/gettingstarted/introduction/why+not+open+xml+sdk)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**How to Use the Examples**](https://docs2.aspose.com/cells/java/gettingstarted/introduction/how+to+use+the+examples)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

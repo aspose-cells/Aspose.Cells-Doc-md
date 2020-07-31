@@ -37,8 +37,3 @@ Ole Object Label - Before: Sample APIs
 Ole Object Label - After: Aspose APIs
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleAccessAndModifyLabelOfOleObject.xlsx](https://docs2.aspose.com/cells/java/attachments/64454888/64716833.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Access-and-Modify-the-Display-Label-of-the-Linked-Ole-Object.png](https://docs2.aspose.com/cells/java/attachments/64454888/64716834.png) (image/png)  
-

@@ -73,7 +73,3 @@ The following code demonstrates how to use built-in styles.
 ![](https://docs2.aspose.com/cells/java/attachments/5276319/5472496.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [builtin-styles.png](https://docs2.aspose.com/cells/java/attachments/5276319/5472496.png) (image/png)  
-

@@ -38,8 +38,3 @@ Is Group Shape: false
 Is Group Shape: true
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSmartArtShape\_GetResultOfSmartArt.xlsx](https://docs2.aspose.com/cells/java/attachments/54690193/55541806.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sample-Smart-Art-Shape.png](https://docs2.aspose.com/cells/java/attachments/54690193/55541807.png) (image/png)  
-

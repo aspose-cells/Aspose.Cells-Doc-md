@@ -25,8 +25,3 @@ Here is the console output of the above code with this [sample excel file](https
 Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [WebQuerySample.xlsx](https://docs2.aspose.com/cells/java/attachments/5276483/95584290.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [WebQuerySample.xlsx](https://docs2.aspose.com/cells/java/attachments/5276483/5472941.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

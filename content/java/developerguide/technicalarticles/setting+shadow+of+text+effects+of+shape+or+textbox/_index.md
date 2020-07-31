@@ -27,8 +27,3 @@ The following screenshot shows the [output excel file](https://docs2.aspose.com/
 ![](https://docs2.aspose.com/cells/java/attachments/5275660/5473445.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5275660/5473446.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Text-Effects--Shadow--Offset-Bottom.png](https://docs2.aspose.com/cells/java/attachments/5275660/5473445.png) (image/png)  
-

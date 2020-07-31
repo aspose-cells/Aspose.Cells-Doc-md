@@ -27,9 +27,3 @@ The following sample code explains how to use DataSorter.AddKey(int key, SortOr
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSortData\_CustomSortList.xlsx](https://docs2.aspose.com/cells/java/attachments/50270492/50528358.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sort Data in Column with Custom Sort List.png](https://docs2.aspose.com/cells/java/attachments/50270492/50528360.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSortData\_CustomSortList.xlsx](https://docs2.aspose.com/cells/java/attachments/50270492/50528359.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

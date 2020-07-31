@@ -28,7 +28,3 @@ Please see the following sample code to find how you can print your selected wor
   
 The developers can also use [WorkbookRender.toPrinter](https://apireference.aspose.com/java/cells/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) method to print the whole workbook. Please see the following sample code to find how you can print the whole workbook.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Printing Workbooks-001.png](https://docs2.aspose.com/cells/java/attachments/5276595/5472709.png) (image/png)  
-

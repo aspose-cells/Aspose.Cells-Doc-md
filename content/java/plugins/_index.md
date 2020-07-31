@@ -292,7 +292,6 @@ url: /java/plugins/
 &nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells Java for Eclipse - Maven**](https://docs2.aspose.com/cells/java/plugins/eclipse-maven/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Installing and Using Aspose.Cells Java for Eclipse - Maven**](https://docs2.aspose.com/cells/java/plugins/eclipse-maven/installing+and+using+aspose.cells+java+for+eclipse+-+maven)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

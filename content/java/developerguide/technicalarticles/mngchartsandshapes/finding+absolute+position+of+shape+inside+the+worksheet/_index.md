@@ -26,7 +26,3 @@ Absolute Position of this Shape is (320, 180)
 {{< /code >}}
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [absolute-position-of-the-shape-in-pixel.png](https://docs2.aspose.com/cells/java/attachments/5276458/5472867.png) (image/png)  
-

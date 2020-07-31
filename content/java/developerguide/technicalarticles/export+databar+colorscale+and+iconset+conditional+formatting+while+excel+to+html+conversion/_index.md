@@ -31,9 +31,3 @@ The following sample code converts the sample excel file into HTML which is just
 
 *   [Converting Excel Files to HTML](https://docs2.aspose.com/cells/java/developerguide/ld-sv-cvt-mng/converting+workbook+to+different+formats#convertingworkbooktodifferentformats-convertingexcelfilestohtml)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Conditional-formatting-in-output-html.png](https://docs2.aspose.com/cells/java/attachments/5275659/5473449.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Conditional-formatting-in-sample-excel-file.png](https://docs2.aspose.com/cells/java/attachments/5275659/5473448.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5275659/5473447.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-

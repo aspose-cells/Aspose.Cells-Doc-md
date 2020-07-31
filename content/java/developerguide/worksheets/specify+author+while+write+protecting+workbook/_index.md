@@ -29,8 +29,3 @@ The following sample code explains the usage of the [Workbook.Settings.WritePro
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Specify-Author-while-Write-Protecting-Workbook.png](https://docs2.aspose.com/cells/java/attachments/66950259/67338594.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx](https://docs2.aspose.com/cells/java/attachments/66950259/67338593.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

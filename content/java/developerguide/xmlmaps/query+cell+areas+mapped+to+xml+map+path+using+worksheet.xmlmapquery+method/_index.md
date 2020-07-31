@@ -53,8 +53,3 @@ XML data can be imported to worksheets. Sometimes XML path is required from the 
 2.  [Country List.xml](https://docs.aspose.com/download/attachments/54690143/Country%20List.xml?version=1&modificationDate=1537204022375&api=v2)
 3.  [Food List.xml](https://docs.aspose.com/download/attachments/54690143/Food%20List.xml?version=1&modificationDate=1537204018028&api=v2)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Sample-Excel-File-For-Xml-Map-Query.png](https://docs2.aspose.com/cells/java/attachments/54690375/55541819.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleXmlMapQuery.xlsx](https://docs2.aspose.com/cells/java/attachments/54690375/55541818.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

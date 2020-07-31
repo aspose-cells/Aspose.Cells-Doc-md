@@ -25,8 +25,3 @@ The following image shows the formula instead of the calculated value, enabled b
 ![](https://docs2.aspose.com/cells/java/attachments/5276657/5473041.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [show-formulas-1.PNG](https://docs2.aspose.com/cells/java/attachments/5276657/5473040.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [show-formulas-2.PNG](https://docs2.aspose.com/cells/java/attachments/5276657/5473041.png) (image/png)  
-

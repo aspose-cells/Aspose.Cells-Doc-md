@@ -28,9 +28,3 @@ To modify the attributes of a report:
     
 4.  Click **Commit** to finish.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Attributes-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094960/6193372.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Attributes-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094960/6193383.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Attributes-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094960/6193382.png) (image/png)  
-

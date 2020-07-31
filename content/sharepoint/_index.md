@@ -69,7 +69,6 @@ url: /sharepoint/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 1.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2010/aspose.cells+for+sharepoint+1.0.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2010/aspose.cells+for+sharepoint+2.0.0+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

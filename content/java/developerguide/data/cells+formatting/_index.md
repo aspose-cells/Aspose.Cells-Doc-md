@@ -214,22 +214,3 @@ In the output file, in the A1" cell, the word 'Visit' is formatted with the defa
 
 If you are interested in [formatting a portion of Rich Text in a cell](http://www.aspose.com/docs/display/cellsjava/Access+and+Update+the+Portions+of+Rich+Text+of+Cell), consider using the [Cell.getCharacters](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getCharacters()) & Cell.setCharacters methods. The [Cell.getCharacters](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getCharacters())method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of [FontSetting](https://apireference.aspose.com/java/cells/com.aspose.cells/FontSetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc and **set** method can be used to apply the changes.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Adding Borders to Cells-001.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472468.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Adding Borders to Cells-002.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472467.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Adding Borders to Cells-003.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472470.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Colors and Background Patterns-001.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472469.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Colors and Background Patterns-002.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472464.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Colors and Palette-001.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472463.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-001.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472466.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-002.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472465.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-003.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472433.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-004.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472434.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-005.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472431.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-006.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472432.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-008.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472429.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-009.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472430.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Formatting Selected Characters in a Cell-001.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472427.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-007.png](https://docs2.aspose.com/cells/java/attachments/5276199/5472428.png) (image/png)  
-

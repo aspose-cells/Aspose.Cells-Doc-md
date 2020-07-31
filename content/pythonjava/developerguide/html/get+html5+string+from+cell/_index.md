@@ -37,7 +37,3 @@ Html5:
 <div Style="FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;">This is some text.</div>
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleSelfClosingTags\_out.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202316/106365185.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

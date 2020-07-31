@@ -26,8 +26,3 @@ The following sample code shows how to apply custom theme colors of the workbook
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [custom-theme-colors-applied.png](https://docs2.aspose.com/cells/cpp/attachments/22970916/23167000.png) (image/png)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputApplyCustomThemeColorsOfWorkbookUsingArrayOfColors.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970916/23167001.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

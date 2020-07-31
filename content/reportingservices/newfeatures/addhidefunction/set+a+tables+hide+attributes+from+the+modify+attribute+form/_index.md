@@ -19,7 +19,3 @@ Set a table report's hide attributes from **Modify Attribute**. Parameters inclu
 **Setting a table report's hide attributes**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094926/6193403.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addhide1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094926/6193403.png) (image/png)  
-

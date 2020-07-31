@@ -93,7 +93,3 @@ This table lists important Aspose.Cells for C++ technical resources.
 |[Aspose.Cells for C++ product documentation](https://docs2.aspose.com/cells/cpp/)|Full online documentation that includes this documentation as well as Aspose.Cells API Reference.|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [aspose\_cells-for-cpp.png](https://docs2.aspose.com/cells/cpp/attachments/21102620/47153168.png) (image/png)  
-

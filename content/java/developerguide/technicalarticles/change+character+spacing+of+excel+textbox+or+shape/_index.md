@@ -25,10 +25,3 @@ The following screenshot shows how the [output excel file](https://docs2.aspose.
 ![](https://docs2.aspose.com/cells/java/attachments/5276027/5473444.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [character-spacing.xlsx](https://docs2.aspose.com/cells/java/attachments/5276027/5473426.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276027/5473425.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [input-excel-file-with-sample-textbox.png](https://docs2.aspose.com/cells/java/attachments/5276027/5473443.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-textbox-having-increased-character-spacing.png](https://docs2.aspose.com/cells/java/attachments/5276027/5473444.png) (image/png)  
-

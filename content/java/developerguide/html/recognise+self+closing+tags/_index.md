@@ -16,8 +16,3 @@ HTML can have variety of tags formatting for empty tags like <td></td> or <td/>.
 
 [outsampleSelfClosingTags.xlsx](https://docs2.aspose.com/cells/java/attachments/74580177/74776601.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSelfClosingTags.html](https://docs2.aspose.com/cells/java/attachments/74580177/74776600.html) (text/html)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outsampleSelfClosingTags.xlsx](https://docs2.aspose.com/cells/java/attachments/74580177/74776601.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

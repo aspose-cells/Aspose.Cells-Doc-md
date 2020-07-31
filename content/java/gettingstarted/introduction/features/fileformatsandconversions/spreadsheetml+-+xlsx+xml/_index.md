@@ -129,8 +129,3 @@ Implementing even a simple find and replace operation in an Office Open XML docu
 
 **Our advice:** remember that open and standard does not mean simple and use Aspose.Cells.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SpreadsheetML (XLSX, XML)-001.png](https://docs2.aspose.com/cells/java/attachments/5276499/5473370.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SpreadsheetML (XLSX, XML)-002.png](https://docs2.aspose.com/cells/java/attachments/5276499/5473371.png) (image/png)  
-

@@ -29,8 +29,3 @@ The following sample code creates a workbook and also creates an unused named st
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [HtmlSaveOptions-Exclude-Unused-Styles.png](https://docs2.aspose.com/cells/java/attachments/61540998/61767780.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Output-HTML-ExcludeUnusedStyles.zip](https://docs2.aspose.com/cells/java/attachments/61540998/61767781.zip) (application/zip)  
-

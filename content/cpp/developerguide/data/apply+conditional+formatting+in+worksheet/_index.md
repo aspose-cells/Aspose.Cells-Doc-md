@@ -37,8 +37,3 @@ The following sample code shows how to add a Cell Value conditional formatting 
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output-conditional-formatting.png](https://docs2.aspose.com/cells/cpp/attachments/22970923/23167005.png) (image/png)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/cpp/attachments/22970923/23167004.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

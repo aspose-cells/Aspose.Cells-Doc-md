@@ -72,7 +72,6 @@ url: /cpp/developerguide/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Extracting OLE Objects from Worksheet**](https://docs2.aspose.com/cells/cpp/developerguide/drawingobjects/extracting+ole+objects+from+worksheet)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Inserting OLE Objects into the Worksheet**](https://docs2.aspose.com/cells/cpp/developerguide/drawingobjects/inserting+ole+objects+into+the+worksheet)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

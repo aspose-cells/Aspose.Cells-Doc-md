@@ -173,13 +173,3 @@ For sample code and detail explanation, please see this article.
 
 *   [Getting Notifications while Merging Data with Smart Markers](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/getting+notifications+while+merging+data+with+smart+markers)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [using generic list as nested object.png](https://docs2.aspose.com/cells/java/attachments/5275916/5472411.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Smart Markers-004.png](https://docs2.aspose.com/cells/java/attachments/5275916/5472410.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Smart Markers-003.png](https://docs2.aspose.com/cells/java/attachments/5275916/5472409.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Smart Markers-002.png](https://docs2.aspose.com/cells/java/attachments/5275916/5472408.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Smart Markers-001.png](https://docs2.aspose.com/cells/java/attachments/5275916/5472407.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [nested object output.png](https://docs2.aspose.com/cells/java/attachments/5275916/5472406.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [nested object designer.png](https://docs2.aspose.com/cells/java/attachments/5275916/5472405.png) (image/png)  
-

@@ -53,7 +53,3 @@ As a workaround, you may try the following steps to work with the file for Aspos
 
 Now you can use Aspose.Cells to open/manipulate the file for your requirements, it will work fine.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [file-format-not-supported.jpg](https://docs2.aspose.com/cells/java/attachments/5275908/5472552.jpg) (image/jpeg)  
-

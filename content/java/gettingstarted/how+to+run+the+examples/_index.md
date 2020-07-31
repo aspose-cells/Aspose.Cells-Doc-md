@@ -51,7 +51,3 @@ Please see the following screenshot and its highlighted areas for more help.
 
 ![](https://docs2.aspose.com/cells/java/attachments/5275910/47153155.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Example-TilePictureAsTextureInsideShape.png](https://docs2.aspose.com/cells/java/attachments/5275910/47153155.png) (image/png)  
-

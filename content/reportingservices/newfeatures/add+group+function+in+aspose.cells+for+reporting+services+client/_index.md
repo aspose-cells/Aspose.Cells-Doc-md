@@ -25,9 +25,3 @@ Click **Modify** button and update Hide configuration.
 Click **Commit** button and save hide configs.  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094888/6193570.jpg)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [group\_function1.jpg](https://docs2.aspose.com/cells/reportingservices/attachments/6094888/6193569.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [group\_function2.jpg](https://docs2.aspose.com/cells/reportingservices/attachments/6094888/6193568.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [group\_function3.jpg](https://docs2.aspose.com/cells/reportingservices/attachments/6094888/6193570.jpg) (image/jpeg)  
-

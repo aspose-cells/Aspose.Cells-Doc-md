@@ -19,8 +19,3 @@ The following sample code adds 2-Color and 3-Color Scale Conditional Formattings
 ![](https://docs2.aspose.com/cells/java/attachments/5276055/5472512.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276055/5472511.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [2-3-ColorScale-ConditionalFormattings.png](https://docs2.aspose.com/cells/java/attachments/5276055/5472512.png) (image/png)  
-

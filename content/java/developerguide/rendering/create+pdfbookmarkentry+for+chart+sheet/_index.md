@@ -36,9 +36,3 @@ The following screenshot shows the [output PDF](https://docs2.aspose.com/cells/
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Create-PdfBookmarkEntry-for-Chart-Sheet.png](https://docs2.aspose.com/cells/java/attachments/61540759/61767770.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputCreatePdfBookmarkEntryForChartSheet.pdf](https://docs2.aspose.com/cells/java/attachments/61540759/61767771.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleCreatePdfBookmarkEntryForChartSheet.xlsx](https://docs2.aspose.com/cells/java/attachments/61540759/61767772.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

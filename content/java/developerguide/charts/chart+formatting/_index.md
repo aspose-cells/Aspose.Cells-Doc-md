@@ -216,21 +216,3 @@ A complete example is given below to demonstrate how to create a chart and apply
 
 For a full list of which 2D and 3D charts are supported, see [Supported chart types for rendering](https://docs2.aspose.com/cells/java/developerguide/charts/chart+rendering#chartrendering-supportedcharttypesforrendering).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Charts Appearance-001.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472446.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Charts Appearance-002.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472445.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Charts Appearance-003.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472444.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Charts Appearance-004.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472443.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Charts Appearance-005.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472442.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Setting Charts Appearance-006.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472441.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Change-the-Chart-Position-and-Size-1.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472440.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Change-the-Chart-Position-and-Size-2.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472439.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Manipulating Designer Charts-001.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472438.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Manipulating Designer Charts-002.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472437.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Manipulating Designer Charts-003.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472436.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Manipulating Designer Charts-004.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472435.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Using Sparklines-001.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472362.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Using Sparklines-002.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472361.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Applying 3 D Format-001.png](https://docs2.aspose.com/cells/java/attachments/5276210/5472360.png) (image/png)  
-

@@ -32,8 +32,3 @@ The following sample code accesses first three shapes of the first worksheet in 
 ![](https://docs2.aspose.com/cells/java/attachments/5276469/5472914.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Drawing-Shapes-After-Adjustment.Png](https://docs2.aspose.com/cells/java/attachments/5276469/5472914.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Drawing-Shapes-Before-Adjustment.Png](https://docs2.aspose.com/cells/java/attachments/5276469/5472917.png) (image/png)  
-

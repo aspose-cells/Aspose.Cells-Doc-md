@@ -29,8 +29,3 @@ The following sample code loads the [source XLSB file](https://docs2.aspose.com/
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outReadWriteXLSB.xlsb](https://docs2.aspose.com/cells/cpp/attachments/22970901/23166993.xlsb) (application/vnd.ms-excel.sheet.binary.macroenabled.12)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [srcReadWriteXLSB.xlsb](https://docs2.aspose.com/cells/cpp/attachments/22970901/23166992.xlsb) (application/vnd.ms-excel.sheet.binary.macroenabled.12)  
-

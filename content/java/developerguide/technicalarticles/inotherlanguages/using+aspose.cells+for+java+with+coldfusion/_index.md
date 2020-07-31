@@ -62,7 +62,3 @@ Aspose.Cells offers great flexibility and provides outstanding speed, efficiency
 
 We welcome queries, comments and suggestions in the [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Using Aspose.Cells for Java with ColdFusion-001.png](https://docs2.aspose.com/cells/java/attachments/5276605/5472611.png) (image/png)  
-

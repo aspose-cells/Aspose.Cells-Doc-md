@@ -26,9 +26,3 @@ The following sample code shows how to create subtotals using Aspose.Cells. The 
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [subtotals-sample-output-excel-files.png](https://docs2.aspose.com/cells/cpp/attachments/21102597/21266436.png) (image/png)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputCreatingSubtotals.xlsx](https://docs2.aspose.com/cells/cpp/attachments/21102597/21266437.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleCreatingSubtotals.xlsx](https://docs2.aspose.com/cells/cpp/attachments/21102597/21266433.xlsx) (application/unknown)  
-

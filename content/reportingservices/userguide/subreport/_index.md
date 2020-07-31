@@ -28,15 +28,3 @@ In the example, the name of sub-report is “Sales Order Detail”. It has one p
 *   [Creating Table Item](https://docs2.aspose.com/cells/reportingservices/userguide/subreport/creating+table+item)
 *   [Add Sub Report Item](https://docs2.aspose.com/cells/reportingservices/userguide/subreport/add+sub+report+item)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Sub Report-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193391.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Table Item-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193393.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193401.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193394.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193395.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193396.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193397.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193163.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Add Sub Report Item-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193164.png) (image/png)  
-

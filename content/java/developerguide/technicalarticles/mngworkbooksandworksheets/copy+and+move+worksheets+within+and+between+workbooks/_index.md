@@ -98,13 +98,3 @@ This article explains how to copy and move worksheets within and between workboo
 
 Aspose.Cells has benefited from years of research, design and careful tuning. We welcome your queries, comments and suggestions at [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warranty a prompt reply.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-001.png](https://docs2.aspose.com/cells/java/attachments/5276649/5472980.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-002.png](https://docs2.aspose.com/cells/java/attachments/5276649/5472981.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-003.png](https://docs2.aspose.com/cells/java/attachments/5276649/5472982.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-004.png](https://docs2.aspose.com/cells/java/attachments/5276649/5472983.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-005.png](https://docs2.aspose.com/cells/java/attachments/5276649/5472984.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-006.png](https://docs2.aspose.com/cells/java/attachments/5276649/5472985.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy and Move Worksheets Within and Between Workbooks-007.png](https://docs2.aspose.com/cells/java/attachments/5276649/5472986.png) (image/png)  
-

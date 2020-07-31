@@ -33,7 +33,3 @@ The following output is generated when the code is executed.
 **A formatted table is created in the worksheet**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276802/5472821.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Format a List Object (Table)-001.png](https://docs2.aspose.com/cells/java/attachments/5276802/5472821.png) (image/png)  
-

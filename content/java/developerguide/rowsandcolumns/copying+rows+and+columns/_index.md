@@ -85,8 +85,3 @@ This example copies a column from a worksheet and pastes it into a worksheet in 
 
 Aspose.Cells now provides [PasteOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/PasteOptions) while using functions [CopyRows](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyRows(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions)) and [CopyColumns](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions)). It allows setting appropriate paste options similar to Excel.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copying Rows and Columns-001.png](https://docs2.aspose.com/cells/java/attachments/5276735/5473343.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copying Rows and Columns-002.png](https://docs2.aspose.com/cells/java/attachments/5276735/5473342.png) (image/png)  
-

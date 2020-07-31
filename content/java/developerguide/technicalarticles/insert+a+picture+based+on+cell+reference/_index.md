@@ -24,7 +24,3 @@ Below is a screenshot of the file the code below generates.
 #### Code Example
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [referencedpic.png](https://docs2.aspose.com/cells/java/attachments/5276587/5472592.png) (image/png)  
-

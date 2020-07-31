@@ -84,11 +84,3 @@ This article shows how to set page setup and sheet print options using Aspose.Ce
 
 Aspose.Cells benefits from years of research, design and careful tuning. We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warranty a prompt reply.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-001.png](https://docs2.aspose.com/cells/java/attachments/5276589/5472715.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-002.png](https://docs2.aspose.com/cells/java/attachments/5276589/5472714.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-003.png](https://docs2.aspose.com/cells/java/attachments/5276589/5472717.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-004.png](https://docs2.aspose.com/cells/java/attachments/5276589/5472716.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Utilize Page Setup and Printing Options-005.png](https://docs2.aspose.com/cells/java/attachments/5276589/5472711.png) (image/png)  
-

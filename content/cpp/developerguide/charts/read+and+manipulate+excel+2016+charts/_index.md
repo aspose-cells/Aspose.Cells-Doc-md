@@ -46,10 +46,3 @@ Histogram
 BoxWhisker
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputReadAndManipulateExcel2016Charts.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519073.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [sampleReadAndManipulateExcel2016Charts.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519072.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [excel-2016-charts.png](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519082.png) (image/png)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [output-excel-2016-charts.png](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519083.png) (image/png)  
-

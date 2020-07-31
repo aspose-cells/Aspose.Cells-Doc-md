@@ -41,7 +41,3 @@ The following code explains how to enable paging and set the `OnPageChangeClient
 
 GridWebBean gridweb=BeanManager.getBean(request);gridweb.setEnablePaging(true);gridweb.setOnPageChangeClientFunction("MyOnPageChange");
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Execute-client-side-function-on-GridWeb-Java-page-change.png](https://docs2.aspose.com/cells/java/attachments/40142269/40468497.png) (image/png)  
-

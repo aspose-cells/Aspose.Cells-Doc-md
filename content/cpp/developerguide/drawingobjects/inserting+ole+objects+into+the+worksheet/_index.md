@@ -27,9 +27,3 @@ The following sample code creates the workbook object and inserts the Ole object
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outputInsertingOLEObjectsIntoWorksheet.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257162/66519074.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [AsposeLogo.png](https://docs2.aspose.com/cells/cpp/attachments/66257162/66519075.png) (image/png)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [inputInsertOleObject.xlsx](https://docs2.aspose.com/cells/cpp/attachments/66257162/66519081.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

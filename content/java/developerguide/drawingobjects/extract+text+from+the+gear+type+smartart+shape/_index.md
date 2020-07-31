@@ -32,7 +32,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleExtractTextFromGearTypeSmartArtShape.xlsx](https://docs2.aspose.com/cells/java/attachments/66948431/67338510.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

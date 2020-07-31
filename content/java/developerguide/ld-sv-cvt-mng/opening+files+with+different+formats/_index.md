@@ -225,9 +225,3 @@ FODS file is spreadsheet saved in OpenDocument XML without any compression. Asp
 
 ##### Example
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Opening Files-001.png](https://docs2.aspose.com/cells/java/attachments/5276272/5473257.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Opening Files-002.png](https://docs2.aspose.com/cells/java/attachments/5276272/5473256.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Excel95\_5.0.xls](https://docs2.aspose.com/cells/java/attachments/5276272/81920919.xls) (application/vnd.ms-excel)  
-

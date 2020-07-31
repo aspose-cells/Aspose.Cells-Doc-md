@@ -25,8 +25,3 @@ Please see the following generated file with range A1:B5 moved to C1:D5.
 ![](https://docs2.aspose.com/cells/java/attachments/5276489/5472913.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Move Range of Cells in a Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276489/5472910.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Move Range of Cells in a Worksheet-002.png](https://docs2.aspose.com/cells/java/attachments/5276489/5472913.png) (image/png)  
-

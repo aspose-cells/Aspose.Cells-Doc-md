@@ -108,22 +108,3 @@ To create a new data source and query in Aspose.Cells.Report.Designer:
       
     
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193495.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193496.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193497.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193490.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193491.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193492.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193493.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-008.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193486.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-009.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193487.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-010.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193488.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-011.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193489.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-012.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193482.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-013.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193483.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-014.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193484.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-015.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193485.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating New Data sources and Queries-016.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193479.png) (image/png)  
-

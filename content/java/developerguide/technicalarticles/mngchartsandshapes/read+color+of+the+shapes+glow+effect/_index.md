@@ -44,8 +44,3 @@ Transparency: 0.13
 Type: 2
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [color-of-glow-effect.png](https://docs2.aspose.com/cells/java/attachments/22970440/23166983.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sourceGlowEffectColor.xlsx](https://docs2.aspose.com/cells/java/attachments/22970440/23166984.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

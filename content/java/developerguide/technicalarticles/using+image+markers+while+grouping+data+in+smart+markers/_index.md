@@ -27,9 +27,3 @@ Then it fills the data source with data and call the [WorkbookDesigner.Process()
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276312/5472547.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [moon.png](https://docs2.aspose.com/cells/java/attachments/5276312/5472549.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [moon2.png](https://docs2.aspose.com/cells/java/attachments/5276312/5472548.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [image-markers-while-grouping-data.png](https://docs2.aspose.com/cells/java/attachments/5276312/5472547.png) (image/png)  
-

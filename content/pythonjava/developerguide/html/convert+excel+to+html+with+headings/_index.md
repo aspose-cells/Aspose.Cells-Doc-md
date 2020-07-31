@@ -26,7 +26,3 @@ The following sample code demonstrates using the [HtmlSaveOptions.ExportHeading
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/pythonjava/images/icons/bullet_blue.gif) [sampleSelfClosingTags\_out.xlsx](https://docs2.aspose.com/cells/pythonjava/attachments/106202318/106365186.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

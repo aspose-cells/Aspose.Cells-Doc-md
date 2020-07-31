@@ -28,7 +28,3 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Cells for Node.js via Java Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/nodejsjava/images/icons/bullet_blue.gif) [aspose\_cells-for-nodejs.png](https://docs2.aspose.com/cells/nodejsjava/attachments/94635760/94896194.png) (image/png)  
-

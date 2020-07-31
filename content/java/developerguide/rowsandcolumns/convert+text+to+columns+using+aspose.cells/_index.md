@@ -27,8 +27,3 @@ The following sample code explains the usage of the [TextToColumns](https://api
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputTextToColumns.xlsx](https://docs2.aspose.com/cells/java/attachments/25002826/25395230.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Split-text-into-columns.png](https://docs2.aspose.com/cells/java/attachments/25002826/25395231.png) (image/png)  
-

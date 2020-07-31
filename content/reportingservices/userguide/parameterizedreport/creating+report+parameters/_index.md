@@ -45,13 +45,3 @@ To create a report parameter in Aspose.Cells.Report.Designer:
     **The new parameter**  
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193502.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193508.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193507.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193506.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193505.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193504.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193503.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Creating Report Parameters-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193502.png) (image/png)  
-

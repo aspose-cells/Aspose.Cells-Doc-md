@@ -71,8 +71,3 @@ For example, the regular expression pattern `abc-*xyz` matches the strings "abc-
 
 Aspose.Cells allows you to search with regular expressions.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Find or Search Data-001.png](https://docs2.aspose.com/cells/java/attachments/5276729/5473347.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Find or Search Data-002.png](https://docs2.aspose.com/cells/java/attachments/5276729/5473346.png) (image/png)  
-

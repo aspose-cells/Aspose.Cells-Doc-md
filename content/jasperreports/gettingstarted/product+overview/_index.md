@@ -27,10 +27,3 @@ Besides the functionality provided by the original POI-based Micrsofot Excel exp
 **A sample report is generated using Aspose.Cells for JasperReports**  
 ![](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848515.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [Product Overview-001.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848513.png) (image/png)  
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [Product Overview-002.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848515.png) (image/png)  
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [aspose.Cells-JR\_logo.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848514.png) (image/png)  
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [aspose-Cells-for-JasperReports.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848524.png) (image/png)  
-

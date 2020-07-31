@@ -32,9 +32,3 @@ The following code snippet demonstrates the use of [Shape.getPaths()](https://a
 **Shows an example of a non-primitive shape**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276021/92340231.jpg)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Non-Primitive-Shape.PNG](https://docs2.aspose.com/cells/java/attachments/5276021/5472289.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Non-Primitive-Shape.PNG](https://docs2.aspose.com/cells/java/attachments/5276021/5472354.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [NonPrimitiveShape.jpg](https://docs2.aspose.com/cells/java/attachments/5276021/92340231.jpg) (image/jpeg)  
-

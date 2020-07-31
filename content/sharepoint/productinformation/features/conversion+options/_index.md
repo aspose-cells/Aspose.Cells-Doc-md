@@ -38,7 +38,3 @@ This option is only available under SharePoint 2007. In SharePoint 2010, subfold
 
 If the destination folder already contains files with the same name as the ones you want to convert, you have two options. Select to overwrite existing files to replace already existing files with freshly converted ones. Clear the option to skip processing files of the same name.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [diff\_conversion1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357017/6488070.png) (image/png)  
-

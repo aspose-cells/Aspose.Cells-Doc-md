@@ -26,10 +26,3 @@ The sample source file can be downloaded from the following link:
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Rotate-Text-With-Shape.png](https://docs2.aspose.com/cells/java/attachments/77791243/77987845.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/77791243/77987846.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputRotateTextWithShape.xlsx](https://docs2.aspose.com/cells/java/attachments/77791243/77987847.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SmartArt.xlsx](https://docs2.aspose.com/cells/java/attachments/77791243/77987848.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

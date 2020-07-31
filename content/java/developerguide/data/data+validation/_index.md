@@ -150,11 +150,3 @@ The source and output excel files are attached for reference.
 
 [Output File](https://docs.aspose.com/download/attachments/5025054/ValidationsSample_out.xlsx?version=1&modificationDate=1575568801067&api=v2)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Filtering and Validation-001.png](https://docs2.aspose.com/cells/java/attachments/5276732/5473113.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Filtering and Validation-002.png](https://docs2.aspose.com/cells/java/attachments/5276732/5473112.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Filtering and Validation-003.png](https://docs2.aspose.com/cells/java/attachments/5276732/5473111.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleDataValidationRules.xlsx](https://docs2.aspose.com/cells/java/attachments/5276732/77987849.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleValidation.xlsx](https://docs2.aspose.com/cells/java/attachments/5276732/79527961.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -27,8 +27,3 @@ These string numbers have been converted to numbers using [Cells.convertStringTo
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Convert-String-To-Number-001.PNG](https://docs2.aspose.com/cells/java/attachments/5276676/5473023.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Convert-String-To-Number-002.PNG](https://docs2.aspose.com/cells/java/attachments/5276676/5473022.png) (image/png)  
-

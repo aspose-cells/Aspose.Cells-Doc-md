@@ -21,9 +21,3 @@ The following screenshot highlights the effect of this code on [sample excel fil
 ![](https://docs2.aspose.com/cells/java/attachments/5276030/5473438.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276030/5473440.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5276030/5473437.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [set-text-of-second-legend-entry-fill-to-none.png](https://docs2.aspose.com/cells/java/attachments/5276030/5473438.png) (image/png)  
-

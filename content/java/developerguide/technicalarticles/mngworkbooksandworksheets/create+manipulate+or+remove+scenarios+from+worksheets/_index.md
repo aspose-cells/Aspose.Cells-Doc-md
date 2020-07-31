@@ -20,7 +20,3 @@ After executing the code, an existing scenario is removed and a new scenario is 
 ![](https://docs2.aspose.com/cells/java/attachments/5276655/5473052.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [scenario1.png](https://docs2.aspose.com/cells/java/attachments/5276655/5473052.png) (image/png)  
-

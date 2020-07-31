@@ -146,19 +146,3 @@ The following sample code sets the cell A1 `GridTableItemStyle.NumberType` as 10
 
 ### Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingformulas1.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472307.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingformulas2.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472305.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingformulas1a.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472308.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Adding-validation-in-a-gridcell.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472306.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating-Custom-Command-Button.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472386.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating-Custom-Command-Button.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472304.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [icon.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472385.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingformulas1.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472801.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingformulas1a.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472799.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [addingformulas2.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472798.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Adding-validation-in-a-gridcell.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472384.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating-Custom-Command-Button.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472383.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [enter-cell-data-in-percentage-format.png](https://docs2.aspose.com/cells/java/attachments/5276825/5472485.png) (image/png)  
-

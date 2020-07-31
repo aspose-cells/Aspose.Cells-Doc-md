@@ -78,7 +78,3 @@ It is possible to apply an array formula to a cell by calling the [Cell](https:/
 
 Apply an **R1C1** reference style formula to a cell with the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class' [setR1C1Formula](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#R1C1Formula) property.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Using Formulas Functions to Process Data-001.png](https://docs2.aspose.com/cells/java/attachments/5276797/5472815.png) (image/png)  
-

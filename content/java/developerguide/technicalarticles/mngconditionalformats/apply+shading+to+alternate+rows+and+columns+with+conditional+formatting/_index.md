@@ -32,8 +32,3 @@ The resultant spreadsheet, in this case, will look like the following image.
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276194/5472498.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Alternative\_Row\_Shading\_With\_Conditional\_Formatting.png](https://docs2.aspose.com/cells/java/attachments/5276194/5472497.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Alternative\_Column\_Shading\_With\_Conditional\_Formatting.png](https://docs2.aspose.com/cells/java/attachments/5276194/5472498.png) (image/png)  
-

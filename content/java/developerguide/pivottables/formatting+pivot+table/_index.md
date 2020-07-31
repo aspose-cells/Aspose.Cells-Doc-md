@@ -90,8 +90,3 @@ The following code applies **Average** consolidation function to first data fiel
 
 DistinctCount consolidation function is supported by Microsoft Excel 2013 only.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [How to Create a PivotTable-001.jpg](https://docs2.aspose.com/cells/java/attachments/5275912/5472484.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [How to Create a PivotTable-001.png](https://docs2.aspose.com/cells/java/attachments/5275912/5472482.png) (image/png)  
-

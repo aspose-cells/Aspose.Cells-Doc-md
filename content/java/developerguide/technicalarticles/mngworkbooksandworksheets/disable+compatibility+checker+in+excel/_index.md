@@ -32,7 +32,3 @@ Suppose we have a template XLS file. When a user saves or re-saves it in MS Exce
 
 The following code shows how to disable the Compatibility Checker with Aspose.Cells for Java.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [comp\_check.png](https://docs2.aspose.com/cells/java/attachments/5276702/5473065.png) (image/png)  
-

@@ -42,8 +42,3 @@ After executing the code, A1 has a comment with a background image.
 
 #### Java
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Add a Picture to an Excel Comment-001.png](https://docs2.aspose.com/cells/java/attachments/5276645/5473084.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [comment-picture.png](https://docs2.aspose.com/cells/java/attachments/5276645/5473085.png) (image/png)  
-

@@ -31,10 +31,3 @@ To configure a client Report Server URL:
     
 6.  Click **Modify** button to modify configuration information.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to Configure Aspose.Cells.ReportingServices Client Report Server URL-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/6193254.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to Configure Aspose.Cells.ReportingServices Client Report Server URL-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/6193255.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [ReportServerURLSetup.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/88211611.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [ReportServerURLSetup1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/88211612.png) (image/png)  
-

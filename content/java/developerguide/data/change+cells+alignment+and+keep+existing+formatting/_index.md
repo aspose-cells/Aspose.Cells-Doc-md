@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Change-Cells-Alignment-and-Keep-Existing-Formatting.png](https://docs2.aspose.com/cells/java/attachments/66950282/67338590.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx](https://docs2.aspose.com/cells/java/attachments/66950282/67338592.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputChangeCellsAlignmentAndKeepExistingFormatting.xlsx](https://docs2.aspose.com/cells/java/attachments/66950282/67338591.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

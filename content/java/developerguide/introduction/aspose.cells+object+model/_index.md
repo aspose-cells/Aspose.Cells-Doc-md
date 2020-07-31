@@ -96,15 +96,3 @@ Each **Worksheet** object contains a **VPageBreakCollection** object that repres
 
 A **VPageBreak** object is used to create a vertical page break in the worksheet.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-001.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473236.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-002.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473237.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-003.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473234.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-004.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473235.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-005.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473232.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-006.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473233.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-007.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473230.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-008.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473231.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Aspose.Cells Object Model-009.png](https://docs2.aspose.com/cells/java/attachments/5276262/5473244.png) (image/png)  
-

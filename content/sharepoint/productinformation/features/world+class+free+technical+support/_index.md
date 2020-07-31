@@ -30,8 +30,3 @@ Aspose offers free support to all users. For companies want that their issue wil
 
 ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357018/50528276.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [World Class Free Technical Support-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357018/6488072.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [wcs1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357018/50528276.png) (image/png)  
-

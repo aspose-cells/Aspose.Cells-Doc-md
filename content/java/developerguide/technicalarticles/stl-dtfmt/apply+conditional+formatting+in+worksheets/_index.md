@@ -78,10 +78,3 @@ Aspose.Cells offers great flexibility for solutions and provides outstanding spe
 
 We welcome your queries, comments and suggestions in the [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warrant a prompt reply.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-001.png](https://docs2.aspose.com/cells/java/attachments/5276626/5472666.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-002.png](https://docs2.aspose.com/cells/java/attachments/5276626/5472667.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-003.png](https://docs2.aspose.com/cells/java/attachments/5276626/5472664.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Apply Conditional Formatting in Worksheets-004.png](https://docs2.aspose.com/cells/java/attachments/5276626/5472665.png) (image/png)  
-

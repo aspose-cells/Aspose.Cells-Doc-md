@@ -30,8 +30,3 @@ Add footer position: Left Section, Center Section and Right Section.
 
 It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [addfootertomultipledocs1.png](https://docs2.aspose.com/cells/sharepoint/attachments/50266392/50528277.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [addfootertomultipledocs2.png](https://docs2.aspose.com/cells/sharepoint/attachments/50266392/50528278.png) (image/png)  
-

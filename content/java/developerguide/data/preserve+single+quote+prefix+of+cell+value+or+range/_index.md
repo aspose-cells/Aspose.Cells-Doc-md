@@ -45,7 +45,3 @@ Quote Prefix of Cell A1: true
 Quote Prefix of Cell A1: false
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Leading-Single-Quote-In-Formula-Bar.png](https://docs2.aspose.com/cells/java/attachments/64454894/64716824.png) (image/png)  
-

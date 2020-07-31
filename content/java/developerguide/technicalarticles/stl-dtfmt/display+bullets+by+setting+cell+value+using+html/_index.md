@@ -23,7 +23,3 @@ The following screenshot shows the output of the above sample code.
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276663/5473010.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Displaying-Bullets-with-HTML.PNG](https://docs2.aspose.com/cells/java/attachments/5276663/5473010.png) (image/png)  
-

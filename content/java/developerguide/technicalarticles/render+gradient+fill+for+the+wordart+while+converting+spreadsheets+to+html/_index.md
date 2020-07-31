@@ -31,7 +31,3 @@ The following sample code converts the source excel file into the output HTML f
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Gradient-Fill-for-the-WordArt-in-HTML.png](https://docs2.aspose.com/cells/java/attachments/22970444/23166985.png) (image/png)  
-

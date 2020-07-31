@@ -43,8 +43,3 @@ This is the console output of the above sample code when executed with the [samp
 DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xls](https://docs2.aspose.com/cells/java/attachments/5276174/5473378.xls) (application/vnd.ms-excel)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [class-identifier-of-the-ole-object.png](https://docs2.aspose.com/cells/java/attachments/5276174/5473377.png) (image/png)  
-

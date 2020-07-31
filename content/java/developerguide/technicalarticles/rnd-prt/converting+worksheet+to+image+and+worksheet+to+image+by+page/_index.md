@@ -41,12 +41,3 @@ After executing the above code, the worksheet named Sheet1 is converted into two
 
 This article shows how to convert a worksheet to an image file and convert worksheets with multiple pages to multiple image files (one per page) using Aspose.Cells. Aspose.Cells offers more flexibility than other components and provides outstanding speed, efficiency, and reliability. The results show that Aspose.Cells has benefited from years of research, design, and careful tuning.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-006.png](https://docs2.aspose.com/cells/java/attachments/5276615/5472681.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-005.png](https://docs2.aspose.com/cells/java/attachments/5276615/5472680.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-001.png](https://docs2.aspose.com/cells/java/attachments/5276615/5472679.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-003.png](https://docs2.aspose.com/cells/java/attachments/5276615/5472678.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-004.png](https://docs2.aspose.com/cells/java/attachments/5276615/5472677.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Converting Worksheet to Image and Worksheet to Image by Page-007.png](https://docs2.aspose.com/cells/java/attachments/5276615/5472676.png) (image/png)  
-

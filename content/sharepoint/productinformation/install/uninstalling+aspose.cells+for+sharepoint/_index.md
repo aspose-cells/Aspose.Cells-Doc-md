@@ -24,7 +24,3 @@ Please note that running the **Repair** option does not re-activate Aspose.Cells
 
 Uninstalling using the **Remove** option and then re-installing may be more convenient as it allows you to select target web applications and site collections during installation.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Uninstalling Aspose.Cells for SharePoint-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356995/6488102.png) (image/png)  
-

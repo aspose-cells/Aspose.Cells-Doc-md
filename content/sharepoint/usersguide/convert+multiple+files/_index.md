@@ -34,9 +34,3 @@ Under SharePoint 2010, the server ribbon button is available instead of the cust
 **Converting documents with Aspose.Cells for SharePoint on SharePoint 2010**  
 ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357003/6488112.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [multi-1.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357003/6488110.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [multi-2.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357003/6488113.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [multi-3.png](https://docs2.aspose.com/cells/sharepoint/attachments/6357003/6488112.png) (image/png)  
-

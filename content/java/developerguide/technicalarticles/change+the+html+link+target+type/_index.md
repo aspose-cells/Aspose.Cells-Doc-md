@@ -28,7 +28,3 @@ As you can see the target attribute in the above HTML link is **\_self**. You ca
 The following code illustrates the usage of [HtmlSaveOptions.setLinkTargetType()](https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#LinkTargetType) property. It changes the link target type to **blank**. By default, it is the **parent**. You can get the [source excel file](https://docs2.aspose.com/cells/java/attachments/5276487/5472932.xlsx) from this link however you can use any excel file which contains an HTML hyperlink inside it to run this code.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [source.xlsx](https://docs2.aspose.com/cells/java/attachments/5276487/5472932.xlsx) (image/png)  
-

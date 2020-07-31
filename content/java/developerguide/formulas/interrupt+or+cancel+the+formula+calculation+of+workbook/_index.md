@@ -36,7 +36,3 @@ The following sample code implements the [beforeCalculate()](https://apireferen
 0----7----1----B8
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleCalculationMonitor.xlsx](https://docs2.aspose.com/cells/java/attachments/51480076/51740744.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

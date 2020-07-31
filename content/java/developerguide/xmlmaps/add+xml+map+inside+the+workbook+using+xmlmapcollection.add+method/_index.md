@@ -32,9 +32,3 @@ The following sample code adds XML Map inside the workbook using the [XmlMapColl
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [add-xml-map-inside-the-workbook.png](https://docs2.aspose.com/cells/java/attachments/5275798/5472535.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5275798/5472533.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xml](https://docs2.aspose.com/cells/java/attachments/5275798/5472532.xml) (text/xml)  
-

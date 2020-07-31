@@ -25,8 +25,3 @@ After the execution of the code, the output file looks like the below. All "sear
 ![](https://docs2.aspose.com/cells/java/attachments/5276684/5472882.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Search-Data-Within-Range-1.PNG](https://docs2.aspose.com/cells/java/attachments/5276684/5472883.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Search-Data-Within-Range-2.PNG](https://docs2.aspose.com/cells/java/attachments/5276684/5472882.png) (image/png)  
-

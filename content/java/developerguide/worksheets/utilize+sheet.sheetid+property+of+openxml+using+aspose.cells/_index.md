@@ -34,9 +34,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 Sheet or Tab Id: 1297
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Get-SheetId-field-of-Excel-worksheet.png](https://docs2.aspose.com/cells/java/attachments/51480066/51740738.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleSheetId.xlsx](https://docs2.aspose.com/cells/java/attachments/51480066/51740740.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSheetId.xlsx](https://docs2.aspose.com/cells/java/attachments/51480066/51740739.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

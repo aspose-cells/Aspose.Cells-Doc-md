@@ -60,9 +60,3 @@ According to the specified range of cells, the `List` object is created in the w
 
 In the example given below, we have created the same [ListObject](https://apireference.aspose.com/java/cells/com.aspose.cells/ListObject) using Aspose.Cells API as we created using Microsoft Excel in the above section.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating a List Object-001.png](https://docs2.aspose.com/cells/java/attachments/5276801/5472838.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating a List Object-002.png](https://docs2.aspose.com/cells/java/attachments/5276801/5472839.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Creating a List Object-003.png](https://docs2.aspose.com/cells/java/attachments/5276801/5472840.png) (image/png)  
-

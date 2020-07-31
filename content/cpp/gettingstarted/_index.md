@@ -19,7 +19,6 @@ url: /cpp/gettingstarted/
 &nbsp;&nbsp;&nbsp;&nbsp;[**Licensing**](https://docs2.aspose.com/cells/cpp/gettingstarted/licensing)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**How to Run the Examples**](https://docs2.aspose.com/cells/cpp/gettingstarted/how+to+run+the+examples)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

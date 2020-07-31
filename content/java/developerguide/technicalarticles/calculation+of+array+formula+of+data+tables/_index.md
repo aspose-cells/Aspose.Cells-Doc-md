@@ -25,10 +25,3 @@ If you change the value of cell B1 to 100, the values of Data Table which are fi
 Here is the sample code used to generate the [output PDF](https://docs2.aspose.com/cells/java/attachments/5275859/5472577.pdf) from the [source excel file](https://docs2.aspose.com/cells/java/attachments/5275859/5472579.xlsx). Please read the comments for more information.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/5275859/5472577.pdf) (application/kswps)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Array-formula-after-calculation.png](https://docs2.aspose.com/cells/java/attachments/5275859/5472581.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Array-formula-before-calculation.png](https://docs2.aspose.com/cells/java/attachments/5275859/5472580.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [DataTable.xlsx](https://docs2.aspose.com/cells/java/attachments/5275859/5472579.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

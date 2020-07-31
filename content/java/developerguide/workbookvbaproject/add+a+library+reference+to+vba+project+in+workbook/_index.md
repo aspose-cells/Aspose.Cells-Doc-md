@@ -21,7 +21,3 @@ But sometimes, you need to add or register the library reference to the VBA proj
 The following sample code adds or registers two library references to the VBA project of the workbook using [VbaProject.getReferences().addRegisteredReference()](https://apireference.aspose.com/java/cells/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) method.
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [VBA-project-reference.png](https://docs2.aspose.com/cells/java/attachments/5276484/5472935.png) (image/png)  
-

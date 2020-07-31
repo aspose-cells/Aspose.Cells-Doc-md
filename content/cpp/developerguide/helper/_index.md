@@ -12,5 +12,7 @@ url: /cpp/developerguide/helper/
 
 ### Articles in this section
 
+*    [Names and Indices](https://docs2.aspose.com/cells/cpp/developerguide/helper/names+and+indices/)    
+
            
 

@@ -29,10 +29,3 @@ The sample file and output file can be downloaded from the following links:
 
 [outputSamplePivotTable.xls](https://docs2.aspose.com/cells/java/attachments/81690964/81920918.xlsx)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [How to Create a PivotTable-001.png](https://docs2.aspose.com/cells/java/attachments/81690964/81920916.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [samplePivotTable.xlsx](https://docs2.aspose.com/cells/java/attachments/81690964/81920917.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputSamplePivotTable.xlsx](https://docs2.aspose.com/cells/java/attachments/81690964/81920918.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Show report pages filter option.png](https://docs2.aspose.com/cells/java/attachments/81690964/87689051.png) (image/png)  
-

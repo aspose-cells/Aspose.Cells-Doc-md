@@ -36,9 +36,3 @@ The following screenshot shows the effect of the sample code on the [sample exce
 
 The following sample code updates the value of ActiveX ComboBox Control present inside the [sample excel file](https://docs2.aspose.com/cells/java/attachments/5276183/5473374.xlsx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Update-ActiveX-ComboBox-using-Aspose.Cells.png](https://docs2.aspose.com/cells/java/attachments/5276183/5473376.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276183/5473375.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5276183/5473374.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -29,7 +29,3 @@ If you have Java version/fix (Aspose.Cells for Java), you can unzip the Aspose.C
 
 You may also use the following APIs to get the version number of the product.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Check Version Number of the Component-001.png](https://docs2.aspose.com/cells/java/attachments/5276268/5473259.png) (image/png)  
-

@@ -25,7 +25,3 @@ Here is the console output from the sample code executed with the sample file sh
 
 Reading Properties of Validation--------------------------------Type: 2Operator: 0Formula1: =10Formula2: =20Ignore blank: true
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Validation-applied-on-cell-C1.PNG](https://docs2.aspose.com/cells/java/attachments/5276678/5472908.png) (image/png)  
-

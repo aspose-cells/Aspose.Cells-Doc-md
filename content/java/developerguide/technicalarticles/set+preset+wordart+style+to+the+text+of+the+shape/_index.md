@@ -32,8 +32,3 @@ The following sample code creates a text box with some text and then sets preset
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5275797/5472538.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [set-preset-WordArt-style-to-the-text-of-the-shape.png](https://docs2.aspose.com/cells/java/attachments/5275797/5472534.png) (image/png)  
-

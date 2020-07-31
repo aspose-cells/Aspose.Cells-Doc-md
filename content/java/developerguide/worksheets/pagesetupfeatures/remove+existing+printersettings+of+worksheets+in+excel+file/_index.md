@@ -57,9 +57,3 @@ Paper Size: 8
 Printer settings of this worksheet are now removed by setting it null.
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [PrinterSettings-Of-Worksheets.png](https://docs2.aspose.com/cells/java/attachments/44860273/45056022.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx](https://docs2.aspose.com/cells/java/attachments/44860273/45056023.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputRemoveExistingPrinterSettingsOfWorksheets.xlsx](https://docs2.aspose.com/cells/java/attachments/44860273/45056024.xlsx) (application/unknown)  
-

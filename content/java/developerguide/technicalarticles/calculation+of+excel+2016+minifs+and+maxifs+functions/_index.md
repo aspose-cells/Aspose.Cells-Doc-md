@@ -32,9 +32,3 @@ The following sample code loads the [sample excel file](https://docs2.aspose.com
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample\_MINIFS\_MAXIFS.xlsx](https://docs2.aspose.com/cells/java/attachments/5276198/5472586.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/5276198/5472585.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [support-of-minifs-and-maxifs-functions.png](https://docs2.aspose.com/cells/java/attachments/5276198/5472588.png) (image/png)  
-

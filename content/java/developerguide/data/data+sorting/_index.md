@@ -73,9 +73,3 @@ Following are the sample files which can be downloaded for testing this feature:
 
 ###  Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Sorting-001.png](https://docs2.aspose.com/cells/java/attachments/5276730/5473351.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Sorting-002.png](https://docs2.aspose.com/cells/java/attachments/5276730/5473350.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Sorting-003.png](https://docs2.aspose.com/cells/java/attachments/5276730/5473353.png) (image/png)  
-

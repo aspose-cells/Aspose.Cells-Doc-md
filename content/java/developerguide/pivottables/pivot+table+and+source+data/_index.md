@@ -56,12 +56,3 @@ Executing the example code below changes the source data of the pivot table and 
 **Dynamically changed pivot table**  
 ![](https://docs2.aspose.com/cells/java/attachments/5275913/5472413.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Pivot Table-001.png](https://docs2.aspose.com/cells/java/attachments/5275913/5472404.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Pivot Table-002.png](https://docs2.aspose.com/cells/java/attachments/5275913/5472416.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Pivot Table-003.png](https://docs2.aspose.com/cells/java/attachments/5275913/5472415.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Pivot Table-004.png](https://docs2.aspose.com/cells/java/attachments/5275913/5472414.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Pivot Table-005.png](https://docs2.aspose.com/cells/java/attachments/5275913/5472413.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [How to Create a PivotTable-001.png](https://docs2.aspose.com/cells/java/attachments/5275913/5472412.png) (image/png)  
-

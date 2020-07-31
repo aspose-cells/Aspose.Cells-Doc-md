@@ -29,8 +29,3 @@ The following sample code loads the [source XLSM file](https://docs2.aspose.com/
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [outReadWriteXLSM.xlsm](https://docs2.aspose.com/cells/cpp/attachments/22970899/23166991.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-![](https://docs2.aspose.com/cells/cpp/images/icons/bullet_blue.gif) [srcReadWriteXLSM.xlsm](https://docs2.aspose.com/cells/cpp/attachments/22970899/23166990.xlsm) (application/vnd.ms-excel.sheet.macroenabled.12)  
-

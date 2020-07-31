@@ -29,8 +29,3 @@ Because SVG is an XML-based format, you can also open the output chart image in 
 ![](https://docs2.aspose.com/cells/java/attachments/5276639/5472687.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Chart-image-in-SVG-format.png](https://docs2.aspose.com/cells/java/attachments/5276639/5472686.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [SVG-chart-image-inside-notepad.png](https://docs2.aspose.com/cells/java/attachments/5276639/5472687.png) (image/png)  
-

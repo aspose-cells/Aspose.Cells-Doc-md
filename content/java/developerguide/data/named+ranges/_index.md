@@ -120,7 +120,3 @@ The following example shows how to remove a named range with its contents.
 `  
 borderColors`
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Named Ranges-001.png](https://docs2.aspose.com/cells/java/attachments/5276725/5473128.png) (image/png)  
-

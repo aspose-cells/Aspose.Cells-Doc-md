@@ -38,10 +38,3 @@ To add global variables to reports:
     **A global variables marker in a cell**  
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193354.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Global Variables to Report-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193359.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Global Variables to Report-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193356.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Global Variables to Report-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193357.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Global Variables to Report-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193354.png) (image/png)  
-

@@ -70,11 +70,3 @@ The setup program performs the following actions:
     **Installation complete**  
     ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488101.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Installing Aspose.Cells for SharePoint-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488089.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Installing Aspose.Cells for SharePoint-002.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488098.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Installing Aspose.Cells for SharePoint-003.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488099.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Installing Aspose.Cells for SharePoint-004.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488100.png) (image/png)  
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [Installing Aspose.Cells for SharePoint-005.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488101.png) (image/png)  
-

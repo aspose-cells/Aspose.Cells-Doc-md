@@ -186,8 +186,3 @@ The table below lists all features that are fully or partially supported when ex
 
 ![](https://docs2.aspose.com/cells/java/attachments/5276167/5472417.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Html-view.png](https://docs2.aspose.com/cells/java/attachments/5276167/5472418.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [spreadsheet-view.png](https://docs2.aspose.com/cells/java/attachments/5276167/5472417.png) (image/png)  
-

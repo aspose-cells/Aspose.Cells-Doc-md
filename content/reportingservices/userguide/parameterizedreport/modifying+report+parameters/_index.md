@@ -27,9 +27,3 @@ To modify a report parameter:
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094955/6193280.png)
 6.  Click **Save**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Parameters-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094955/6193274.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Parameters-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094955/6193281.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Modifying Report Parameters-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094955/6193280.png) (image/png)  
-

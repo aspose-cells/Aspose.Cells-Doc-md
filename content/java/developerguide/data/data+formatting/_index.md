@@ -296,18 +296,3 @@ If the requirement is to set the display format of numbers & dates for a complet
 
 Please check the detailed article on \[Setting Display Formats of Numbers and [`Dates`](http://www.aspose.com/docs/display/cellsjava/Setting+Display+Formats+of+Numbers+and+Dates).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Activating Sheets and Making an Active Cell in the Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472425.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [applying\_gradient1.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472426.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-001.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472423.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-002.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472424.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-003.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472421.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-004.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472422.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-005.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472419.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-006.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472420.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-007.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472450.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-008.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472449.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Configuring Alignment Settings-009.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472448.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Formatting Selected Characters in a Cell-001.png](https://docs2.aspose.com/cells/java/attachments/5276212/5472447.png) (image/png)  
-

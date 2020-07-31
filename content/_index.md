@@ -212,7 +212,6 @@ The following are the links to some useful resources you may need to accomplish 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 1.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2010/aspose.cells+for+sharepoint+1.0.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for SharePoint 2.0.0 Release Notes**](https://docs2.aspose.com/cells/sharepoint/releasenotes/2010/aspose.cells+for+sharepoint+2.0.0+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 
@@ -260,7 +259,6 @@ The following are the links to some useful resources you may need to accomplish 
 &nbsp;&nbsp;&nbsp;&nbsp;[**Release Notes - 2009**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2009/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for JasperReports v1.0.0.0 Release Notes**](https://docs2.aspose.com/cells/jasperreports/releasenotes/2009/aspose.cells+for+jasperreports+v1.0.0.0+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

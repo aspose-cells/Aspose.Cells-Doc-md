@@ -17,7 +17,3 @@ Microsoft Excel is not required to generate documents with Aspose.Cells.
 **A sample XLS report exported using Aspose.Cells for JasperReports**  
 ![](https://docs2.aspose.com/cells/jasperreports/attachments/6619148/6848529.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/jasperreports/images/icons/bullet_blue.gif) [XLS or XLSX Export-001.png](https://docs2.aspose.com/cells/jasperreports/attachments/6619148/6848529.png) (image/png)  
-

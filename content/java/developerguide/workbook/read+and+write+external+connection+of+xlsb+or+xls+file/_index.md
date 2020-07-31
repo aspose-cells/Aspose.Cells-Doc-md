@@ -36,9 +36,3 @@ Following code shall work for both XLSB and XLS by loading and saving files with
 
 Connection Name: CustCommand: CustomerConnection Info: Provider=Microsoft.ACE.OLEDB.12.0;Password="";User ID=Admin;Data Source=C:\\TempSha\\Cust.accdb;Mode=Share Deny Write;Extended Properties="";Jet OLEDB:System database="";Jet OLEDB:Registry Path="";Jet OLEDB:Database Password="";Jet OLEDB:Engine Type=6;Jet OLEDB:Database Locking Mode=0;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password="";Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False;Jet OLEDB:Support Complex Data=False;Jet OLEDB:Bypass UserInfo Validation=False;Jet OLEDB:Limited DB Caching=False;Jet OLEDB:Bypass ChoiceField Validation=False
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Connection-Name-has-been-modified-inside-the-XLSB-file.png](https://docs2.aspose.com/cells/java/attachments/51480070/51740741.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputExternalConnection\_XLSB.xlsb](https://docs2.aspose.com/cells/java/attachments/51480070/51740742.xlsb) (application/vnd.ms-excel.sheet.binary.macroenabled.12)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleExternalConnection\_XLSB.xlsb](https://docs2.aspose.com/cells/java/attachments/51480070/51740743.xlsb) (application/vnd.ms-excel.sheet.binary.macroenabled.12)  
-

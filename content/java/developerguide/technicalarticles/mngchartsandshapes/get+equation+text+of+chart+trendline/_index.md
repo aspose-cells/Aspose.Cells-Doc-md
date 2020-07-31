@@ -29,7 +29,3 @@ This is the console output of the above sample code.
 Equation Text: y = 8.1333x + 5
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Trendline-Equation-shown-in-Red-color.png](https://docs2.aspose.com/cells/java/attachments/5276460/5472869.png) (image/png)  
-

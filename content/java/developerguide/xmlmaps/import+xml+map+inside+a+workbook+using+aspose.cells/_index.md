@@ -30,14 +30,3 @@ The following sample code shows how to make use of [Workbook.importXml()](https:
 ![](https://docs2.aspose.com/cells/java/attachments/5276088/5472504.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [import-xml-using-excel.png](https://docs2.aspose.com/cells/java/attachments/5276088/5472476.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276088/5472475.xlsx) (application/unknown)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleXML.txt](https://docs2.aspose.com/cells/java/attachments/5276088/5472477.txt) (text/plain)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-excel-file-xml-map.png](https://docs2.aspose.com/cells/java/attachments/5276088/5472474.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleXML.txt](https://docs2.aspose.com/cells/java/attachments/5276088/5472501.txt) (text/plain)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [import-xml-using-excel.png](https://docs2.aspose.com/cells/java/attachments/5276088/5472499.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276088/5472502.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-excel-file-xml-map.png](https://docs2.aspose.com/cells/java/attachments/5276088/5472504.png) (image/png)  
-

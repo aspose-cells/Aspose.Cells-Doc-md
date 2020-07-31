@@ -35,9 +35,3 @@ Below is the sample code that converts the above CSV file into XLSX format prope
 
 String filePath = "F:\\\\Downloads\\\\MutliEncoded.csv";//Set Multi Encoded Property to TrueTxtLoadOptions options = new TxtLoadOptions();options.setMultiEncoded(true);//Load the CSV file into WorkbookWorkbook workbook = new Workbook(filePath, options);//Save it in XLSX formatworkbook.save(filePath + ".out.xlsx", SaveFormat.XLSX);
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Muti-Encoded-CSV-File.Png](https://docs2.aspose.com/cells/java/attachments/5276653/5473048.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [CSV-File-Coverted-To-XLSX-Without-Setting-IsMultiEncoded-True.Png](https://docs2.aspose.com/cells/java/attachments/5276653/5473049.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [CSV-File-Converted-To-XLSX.Png](https://docs2.aspose.com/cells/java/attachments/5276653/5473059.png) (image/png)  
-

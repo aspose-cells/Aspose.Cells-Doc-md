@@ -80,7 +80,3 @@ out.println(gridweb.getHTMLBody());
 </html>
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [set\_column\_header\_tip2.png](https://docs2.aspose.com/cells/java/attachments/45908471/46465025.png) (image/png)  
-

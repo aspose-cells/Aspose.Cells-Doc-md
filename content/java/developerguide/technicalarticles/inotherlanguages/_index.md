@@ -17,7 +17,3 @@ url: /java/developerguide/technicalarticles/inotherlanguages/
 *   [Using Aspose.Cells for Java with Perl](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/inotherlanguages/using+aspose.cells+for+java+with+perl)
 *   [Using Aspose.Cells for Java with ColdFusion](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/inotherlanguages/using+aspose.cells+for+java+with+coldfusion)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Using Aspose.Cells for Java with ColdFusion-001.png](https://docs2.aspose.com/cells/java/attachments/5276601/5472610.png) (image/png)  
-

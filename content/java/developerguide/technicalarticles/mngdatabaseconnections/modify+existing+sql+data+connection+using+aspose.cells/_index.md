@@ -24,8 +24,3 @@ The following sample illustrates the use of Aspose.Cells to modify SQL Data Conn
 *   [Output Excel File](https://docs2.aspose.com/cells/java/attachments/5276456/5472966.xlsx)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [DataConnection.xlsx](https://docs2.aspose.com/cells/java/attachments/5276456/5472969.xlsx) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276456/5472966.xlsx) (image/png)  
-

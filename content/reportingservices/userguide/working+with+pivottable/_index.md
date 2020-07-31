@@ -86,15 +86,3 @@ To create a pivot table report:
       
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193154.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193162.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193167.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193168.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193165.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193166.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193155.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193156.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-008.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193153.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Working with PivotTable-009.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193154.png) (image/png)  
-

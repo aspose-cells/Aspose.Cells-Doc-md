@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Export-Similar-Border-Style.png](https://docs2.aspose.com/cells/java/attachments/64454886/64716830.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputExportSimilarBorderStyle.zip](https://docs2.aspose.com/cells/java/attachments/64454886/64716831.zip) (application/zip)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleExportSimilarBorderStyle.xlsx](https://docs2.aspose.com/cells/java/attachments/64454886/64716832.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

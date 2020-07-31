@@ -25,10 +25,3 @@ The following screenshot shows the [output PDF](https://docs2.aspose.com/cells/j
 ![](https://docs2.aspose.com/cells/java/attachments/5275666/5472553.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sample.xlsx](https://docs2.aspose.com/cells/java/attachments/5275666/5472556.xlsx) (application/vnd.openxmlformats-officedocument.spre)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [not-data-but-shapes-will-be-loaded.png](https://docs2.aspose.com/cells/java/attachments/5275666/5472555.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.pdf](https://docs2.aspose.com/cells/java/attachments/5275666/5472554.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output-pdf-after-loading-shapes-only.png](https://docs2.aspose.com/cells/java/attachments/5275666/5472553.png) (image/png)  
-

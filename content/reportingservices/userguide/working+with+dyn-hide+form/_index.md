@@ -33,8 +33,3 @@ To remove hide information:
 2.  Click **Delete**.  
     The selected area is deleted and is displayed in the report.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [dyn1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094977/6193203.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [dyn2.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094977/6193206.png) (image/png)  
-

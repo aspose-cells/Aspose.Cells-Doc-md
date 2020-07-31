@@ -48,8 +48,3 @@ The Aspose.Cells library allows encrypting and decrypting the ODS files. Un-encr
 
 #### Sample Code:
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Encrypting Files-001.png](https://docs2.aspose.com/cells/java/attachments/5276284/5473262.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Encrypting Files-002.png](https://docs2.aspose.com/cells/java/attachments/5276284/5473263.png) (image/png)  
-

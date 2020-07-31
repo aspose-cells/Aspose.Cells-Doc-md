@@ -69,8 +69,3 @@ Aspose.Cells.Font [ Calibri; 20.0; Regular; com.aspose.cells.Color@ff376268 ]
 Aspose.Cells.Font [ Calibri; 11.0; Regular; com.aspose.cells.Color@ff376268 ]
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Get-all-the-fonts-inside-the-workbook.png](https://docs2.aspose.com/cells/java/attachments/25002817/25395226.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleGetFonts.xlsx](https://docs2.aspose.com/cells/java/attachments/25002817/25395227.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

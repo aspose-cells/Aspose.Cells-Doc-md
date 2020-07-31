@@ -27,9 +27,3 @@ Please see the following sample code, its [source Excel file](https://docs2.asp
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Add PDF Bookmarks with Named Destinations.png](https://docs2.aspose.com/cells/java/attachments/50270509/50528368.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputPdfBookmarkEntry\_DestinationName.pdf](https://docs2.aspose.com/cells/java/attachments/50270509/50528369.pdf) (application/pdf)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [samplePdfBookmarkEntry\_DestinationName.xlsx](https://docs2.aspose.com/cells/java/attachments/50270509/50528370.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

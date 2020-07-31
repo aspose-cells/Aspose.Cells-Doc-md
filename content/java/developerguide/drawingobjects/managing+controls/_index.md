@@ -336,30 +336,3 @@ The following example shows how to add oval shapes to the worksheet. The example
 **Two oval shapes are added in the worksheet**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276018/5472338.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-001.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472302.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-002.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472303.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-003.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472297.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-004.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472296.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-005.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472294.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-006.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472301.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-007.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472300.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-008.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472299.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-009.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472337.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-010.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472298.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-011.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472292.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-012.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472291.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-001.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472351.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-002.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472352.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-003.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472357.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-004.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472295.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-004.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472358.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-005.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472355.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-006.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472356.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-007.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472335.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-008.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472334.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-010.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472336.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-011.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472339.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Working with Controls-012.png](https://docs2.aspose.com/cells/java/attachments/5276018/5472338.png) (image/png)  
-

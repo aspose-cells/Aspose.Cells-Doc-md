@@ -26,7 +26,3 @@ Aspose is renowned for its free and unlimited technical support provided directl
 
 Aspose offers free support to all users. For companies want that their issue will get prioritized, or who want to influence our product development road map, there are [advanced support options](http://www.aspose.com/corporate/services/support-options.aspx) like Priority Support and Enterprise Support.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [World Class Free Technical Support-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094903/6193565.png) (image/png)  
-

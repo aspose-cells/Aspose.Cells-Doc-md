@@ -32,7 +32,3 @@ To prevent this issue, grant portal administrators the permission to manage MySi
     
 8.  Click **Finish**.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/sharepoint/images/icons/bullet_blue.gif) [A known issue regarding permissions to the personal site collections-001.png](https://docs2.aspose.com/cells/sharepoint/attachments/6356998/6488108.png) (image/png)  
-

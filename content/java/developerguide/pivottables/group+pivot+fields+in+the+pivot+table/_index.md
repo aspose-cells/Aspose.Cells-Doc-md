@@ -29,9 +29,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputGroupPivotFieldsInPivotTable.xlsx](https://docs2.aspose.com/cells/java/attachments/64454892/64716837.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Group-Pivot-Fields-In-Pivot-Table.png](https://docs2.aspose.com/cells/java/attachments/64454892/64716839.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleGroupPivotFieldsInPivotTable.xlsx](https://docs2.aspose.com/cells/java/attachments/64454892/64716838.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -32,7 +32,6 @@ url: /cpp/releasenotes/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for CPP 16.12.0 Release Notes**](https://docs2.aspose.com/cells/cpp/releasenotes/2016/aspose.cells+for+cpp+16.12.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for CPP 16.11.0 Release Notes**](https://docs2.aspose.com/cells/cpp/releasenotes/2016/aspose.cells+for+cpp+16.11.0+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

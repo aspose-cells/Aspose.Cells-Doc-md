@@ -32,15 +32,3 @@ To add Reporting Services Formulas to the table data cell, follow the steps belo
 **Formula added to the sales column**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338346.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Formulas-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/6193314.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Formulas-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/6193317.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Formulas-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/6193316.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Formulas-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/6193319.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Adding Reporting Services Formulas-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/6193318.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addiingreportingservices1.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338343.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addiingreportingservices2.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338344.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addiingreportingservices3.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338345.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [addiingreportingservices4.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338346.png) (image/png)  
-

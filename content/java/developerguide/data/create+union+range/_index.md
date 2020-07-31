@@ -24,7 +24,3 @@ The following code snippet demonstrates creating a Union Range by using the [Wo
 
 *   [Output File](https://docs.aspose.com/download/attachments/106201464/CreateUnionRange_out.xlsx?version=1&modificationDate=1588182895593&api=v2)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Named Ranges-001.png](https://docs2.aspose.com/cells/java/attachments/106201471/106364957.png) (image/png)  
-

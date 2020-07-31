@@ -14,7 +14,6 @@ url: /reportingservices/releasenotes/2012/
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Cells for Reporting Services 1.8.0 Release Notes**](https://docs2.aspose.com/cells/reportingservices/releasenotes/2012/aspose.cells+for+reporting+services+1.8.0+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

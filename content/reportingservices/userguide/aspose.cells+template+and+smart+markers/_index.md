@@ -44,7 +44,3 @@ Dynamic Formulas allow the following additional options:
 **A repeating dynamic formula and the resulting Excel worksheet**  
 ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094949/6193436.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Aspose.Cells Template and Smart Markers-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094949/6193436.png) (image/png)  
-

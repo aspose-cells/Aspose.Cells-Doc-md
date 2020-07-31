@@ -46,8 +46,3 @@ The sample code given below demonstrates the use of [TableToRangeOptions](https
 
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [conv2range1.GIF](https://docs2.aspose.com/cells/java/attachments/5276804/5472842.gif) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [conv2range2.GIF](https://docs2.aspose.com/cells/java/attachments/5276804/5472843.gif) (image/png)  
-

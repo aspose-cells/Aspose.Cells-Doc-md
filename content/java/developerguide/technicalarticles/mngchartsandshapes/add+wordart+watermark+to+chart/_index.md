@@ -25,8 +25,3 @@ The following example shows how to add a WordArt shape as a watermark for an exi
 ![](https://docs2.aspose.com/cells/java/attachments/5276687/5472872.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Add WordArt Watermark to Chart-001.png](https://docs2.aspose.com/cells/java/attachments/5276687/5472871.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Add WordArt Watermark to Chart-002.png](https://docs2.aspose.com/cells/java/attachments/5276687/5472872.png) (image/png)  
-

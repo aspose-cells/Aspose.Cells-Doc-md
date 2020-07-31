@@ -213,17 +213,3 @@ The Book1.xls file is opened by calling the `Open` method of the `Workbook` clas
 *   [Printing gridlines and setting other printing options](/pages/createpage.action?spaceKey=cellsjava&title=Setting+Print+Options&linkCreation=true&fromPageId=5276190).
 *   [Adding borders to cells to create a table](https://docs2.aspose.com/cells/java/developerguide/technicalarticles/create+table+by+using+border+lines+for+a+range).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Gridlines-001.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472323.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Gridlines-002.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472324.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Row Column Headers-001.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472325.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Row Column Headers-002.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472326.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Scroll Bars-001.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472327.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Scroll Bars-002.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472328.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Tabs-001.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472329.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Tabs-002.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472330.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Display or Hide Tabs-003.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472331.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Hide or Unhide a Worksheet-001.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472332.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Hide or Unhide a Worksheet-002.png](https://docs2.aspose.com/cells/java/attachments/5276190/5472333.png) (image/png)  
-

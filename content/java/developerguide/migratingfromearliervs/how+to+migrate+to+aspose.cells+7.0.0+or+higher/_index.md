@@ -59,7 +59,3 @@ e.g., PageSetup.isBlackAndWhite() (Old) -> PageSetup.getBlackAndWhite() (New), .
 
 ![](plugins/servlet/confluence/placeholder/unknown-macro)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Migration\_of\_Aspose.Cells\_for\_API\_Changes.xls](https://docs2.aspose.com/cells/java/attachments/5276793/5472817.xls) (image/png)  
-

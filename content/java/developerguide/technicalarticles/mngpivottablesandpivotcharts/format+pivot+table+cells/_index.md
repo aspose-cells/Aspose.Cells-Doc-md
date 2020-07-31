@@ -23,8 +23,3 @@ The following sample code formats the entire pivot table with a light blue color
 ![](https://docs2.aspose.com/cells/java/attachments/5276673/5473036.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Format-PivotTable-1.PNG](https://docs2.aspose.com/cells/java/attachments/5276673/5473037.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Format-PivotTable-2.PNG](https://docs2.aspose.com/cells/java/attachments/5276673/5473036.png) (image/png)  
-

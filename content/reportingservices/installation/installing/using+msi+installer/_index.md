@@ -45,19 +45,3 @@ To install Aspose.Cells using the MSI installer:
       
     ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211610.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Using MSI Installer-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/6193536.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Using MSI Installer-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/6193537.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Using MSI Installer-003.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/6193550.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Using MSI Installer-004.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/6193551.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Using MSI Installer-005.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/6193548.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Using MSI Installer-006.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/6193549.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Using MSI Installer-007.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/6193546.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [WelcomeScreen.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211506.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [LicenseAgreement.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211507.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [SelectInstallationFolder.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211508.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [ConfirmInstallation.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211509.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Installation.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211609.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [InstallationComplete.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211610.png) (image/png)  
-

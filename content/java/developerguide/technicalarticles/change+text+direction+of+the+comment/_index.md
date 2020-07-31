@@ -20,7 +20,3 @@ The following image shows the comment with its format settings in Microsoft Exce
 ![](https://docs2.aspose.com/cells/java/attachments/5276588/5472590.png)
 
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [changecommenttextdirection1.png](https://docs2.aspose.com/cells/java/attachments/5276588/5472590.png) (image/png)  
-

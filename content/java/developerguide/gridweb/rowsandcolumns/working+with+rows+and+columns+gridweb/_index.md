@@ -174,19 +174,3 @@ It is possible to restrict any kind of client-side operations on rows and column
 **Context menu after restricting row & column options**  
 ![](https://docs2.aspose.com/cells/java/attachments/5276822/5472784.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [settingrowheightandcolwidth1.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472310.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [customizerowcolheaders1.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472313.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [customizerowcolheaders2.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472314.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [freezeunfreezerowscols1.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472311.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [freezeunfreezerowscols2.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472312.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [protectingrowscols1.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472785.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [protectingrowscols2.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472309.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [customizerowcolheaders1.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472808.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [customizerowcolheaders2.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472809.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [freezeunfreezerowscols1.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472789.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [freezeunfreezerowscols2.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472788.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [protectingrowscols2.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472784.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [settingrowheightandcolwidth1.png](https://docs2.aspose.com/cells/java/attachments/5276822/5472813.png) (image/png)  
-

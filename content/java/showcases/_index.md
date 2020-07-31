@@ -23,7 +23,6 @@ url: /java/showcases/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Spreadsheet Editor - Working with Functions**](https://docs2.aspose.com/cells/java/showcases/html5spreadsheet/developerguide/spreadsheet+editor+-+working+with+functions)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Spreadsheet Editor Knowledge Base**](https://docs2.aspose.com/cells/java/showcases/html5spreadsheet/spreadsheet+editor+knowledge+base)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

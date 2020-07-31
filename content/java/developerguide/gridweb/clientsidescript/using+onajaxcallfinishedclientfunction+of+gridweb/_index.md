@@ -107,8 +107,3 @@ out.print(gridweb.getHTMLBody());
 </html>
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Using-OnAjaxCallFinishedClientFunction-of-GridWeb-Chrome-Java-JSP.png](https://docs2.aspose.com/cells/java/attachments/46858283/47153153.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Using-OnAjaxCallFinishedClientFunction-of-GridWeb-FireFox-Java-JSP.png](https://docs2.aspose.com/cells/java/attachments/46858283/47153154.png) (image/png)  
-

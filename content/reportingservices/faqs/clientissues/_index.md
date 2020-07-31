@@ -21,11 +21,3 @@ url: /reportingservices/faqs/clientissues/
 *   [DeviceInfo in rsreportserver.config](https://docs2.aspose.com/cells/reportingservices/faqs/clientissues/deviceinfo+in+rsreportserver.config)
 *   [How to Load Aspose.Cells for Reporting Services Add-Ins for Excel x64](https://docs2.aspose.com/cells/reportingservices/faqs/clientissues/how+to+load+aspose.cells+for+reporting+services+add-ins+for+excel+x64)
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Automation error-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094878/6193257.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Data Source error-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094878/6193260.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [Data Source error-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094878/6193253.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to Configure Aspose.Cells.ReportingServices Client Report Server URL-001.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094878/6193256.png) (image/png)  
-![](https://docs2.aspose.com/cells/reportingservices/images/icons/bullet_blue.gif) [How to Configure Aspose.Cells.ReportingServices Client Report Server URL-002.png](https://docs2.aspose.com/cells/reportingservices/attachments/6094878/6193249.png) (image/png)  
-

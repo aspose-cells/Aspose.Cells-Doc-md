@@ -60,7 +60,3 @@ workbook.save("d:\\files\\out_test.xls");
  
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Use Error Checking Options-001.png](https://docs2.aspose.com/cells/java/attachments/5276611/5472598.png) (image/png)  
-

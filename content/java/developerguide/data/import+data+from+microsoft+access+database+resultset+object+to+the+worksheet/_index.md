@@ -55,10 +55,3 @@ The following sample code executes SQL query from Microsoft Access Database and 
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Students.accdb](https://docs2.aspose.com/cells/java/attachments/48136926/48496712.accdb) (application/msaccess)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImportResultSet.xlsx](https://docs2.aspose.com/cells/java/attachments/48136926/48496713.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Microsoft-Access-2016-Students-Database.png](https://docs2.aspose.com/cells/java/attachments/48136926/48496714.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Output-Excel-File.png](https://docs2.aspose.com/cells/java/attachments/48136926/48496715.png) (image/png)  
-

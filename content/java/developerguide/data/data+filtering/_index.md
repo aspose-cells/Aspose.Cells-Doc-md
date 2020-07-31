@@ -150,24 +150,3 @@ Excel provides custom filters like filter rows which end with some specific stri
 
 1.   [sourseSampleCountryNames.xlsx](https://docs.aspose.com/download/attachments/68944719/sourseSampleCountryNames.xlsx?version=1&modificationDate=1537209516129&api=v2).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Filtering and Validation-002.png](https://docs2.aspose.com/cells/java/attachments/72188214/72417298.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Filtering and Validation-003.png](https://docs2.aspose.com/cells/java/attachments/72188214/72417297.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Data Filtering and Validation-001.png](https://docs2.aspose.com/cells/java/attachments/72188214/72417299.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [AFData.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417300.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [AFData\_out.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417301.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [ColouredCells.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417315.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [FilteredColouredCells.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417316.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Date.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417317.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [FilteredDate.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417318.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [FilteredDynamicDate.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417319.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Number.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417320.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [FilteredNumber.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417321.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Text.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417322.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [FilteredText.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417323.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Blank.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417324.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [FilteredBlank.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417325.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [FilteredNonBlank.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/72417326.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sourseSampleCountryNames.xlsx](https://docs2.aspose.com/cells/java/attachments/72188214/74776605.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

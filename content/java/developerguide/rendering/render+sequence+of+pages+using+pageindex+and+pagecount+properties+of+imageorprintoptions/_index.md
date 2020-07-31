@@ -35,11 +35,3 @@ The following sample code loads the [sample Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-7.png](https://docs2.aspose.com/cells/java/attachments/54690163/55541808.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-4.png](https://docs2.aspose.com/cells/java/attachments/54690163/55541809.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-6.png](https://docs2.aspose.com/cells/java/attachments/54690163/55541811.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [outputImage-5.png](https://docs2.aspose.com/cells/java/attachments/54690163/55541810.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [sampleImageOrPrintOptions\_PageIndexPageCount.xlsx](https://docs2.aspose.com/cells/java/attachments/54690163/55541812.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

@@ -113,7 +113,3 @@ Make text superscript by using the [Font](https://apireference.aspose.com/java/c
 
 Apply superscript to text with the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setSuperscript](https://apireference.aspose.com/java/cells/com.aspose.cells/font#IsSuperscript) property.
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Dealing with Font Settings-001.png](https://docs2.aspose.com/cells/java/attachments/5276709/5473162.png) (image/png)  
-

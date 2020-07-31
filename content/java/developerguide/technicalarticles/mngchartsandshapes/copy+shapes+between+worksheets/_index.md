@@ -119,12 +119,3 @@ Aspose.Cells can offer more flexibility than others for solutions and provides o
 
 We heartily welcome your queries, comments and suggestions in the [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx).
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-001.png](https://docs2.aspose.com/cells/java/attachments/5276692/5472854.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-002.png](https://docs2.aspose.com/cells/java/attachments/5276692/5472857.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-003.png](https://docs2.aspose.com/cells/java/attachments/5276692/5472856.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-004.png](https://docs2.aspose.com/cells/java/attachments/5276692/5472859.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-005.png](https://docs2.aspose.com/cells/java/attachments/5276692/5472858.png) (image/png)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [Copy Shapes between Worksheets-006.png](https://docs2.aspose.com/cells/java/attachments/5276692/5472861.png) (image/png)  
-

@@ -25,7 +25,3 @@ The following sample code creates [Style](https://apireference.aspose.com/java/c
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [output.xlsx](https://docs2.aspose.com/cells/java/attachments/5276196/5472583.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-

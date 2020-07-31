@@ -24,9 +24,3 @@ The following sample code loads the [source Excel file](https://docs2.aspose.co
 
 ## Sample Code
 
-## Attachments:
-
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [KeepSeparatorsForBlankRowComparison.jpg](https://docs2.aspose.com/cells/java/attachments/84214140/84378943.jpg) (image/jpeg)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [KeepSeparatorsForBlankRow.xlsx](https://docs2.aspose.com/cells/java/attachments/84214140/84378944.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)  
-![](https://docs2.aspose.com/cells/java/images/icons/bullet_blue.gif) [KeepSeparatorsForBlankRow.out.csv](https://docs2.aspose.com/cells/java/attachments/84214140/84378945.csv) (application/vnd.ms-excel)  
-
