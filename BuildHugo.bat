@@ -1,3 +1,6 @@
+:: add path, modify it as your hugo path!
+@setx PATH "%PATH%;C:\Projects\aspose.nanjing.documents\hugo-0.73"
+
 rem "Begin to run hugo command.."
 hugo --minify --config config.toml
 rem "Hugo command run finished."
