@@ -1,8 +1,8 @@
-:: add path, modify it as your hugo path!
-@setx PATH "%PATH%;C:\Projects\aspose.nanjing.documents\hugo-0.73"
+:: Modify it as your hugo path!
+SET HugoPath="C:\Projects\aspose.nanjing.documents\hugo-0.73\hugo.exe"
 
 rem "Begin to run hugo command.."
-hugo --minify --config config.toml
+HugoPath --minify --config config.toml
 rem "Hugo command run finished."
 
 rem "Start to clean old cells site.."
