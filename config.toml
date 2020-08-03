@@ -142,8 +142,3 @@ footer_about_disable = false
 	name = "Contact"
 	url = "https://company.aspose.com/contact"
 
-
-[[menu.shortcuts]]
-name = "<i class='fab fa-github'></i>"
-url = "https://github.com/vantagedesign/ace-documentation"
-weight = 10
