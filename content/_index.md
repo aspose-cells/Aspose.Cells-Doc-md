@@ -47,7 +47,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Cells for Java Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-**![](https://docs2.aspose.com/cells/cpp/attachments/thumbnails/21102620/47153168)Welcome to the Aspose.Cells for C++**
+**![](https://docs2.aspose.com/cells/cpp/attachments/thumbnails/21102620/47153168.png)Welcome to the Aspose.Cells for C++**
 
 Aspose.Cells for C++ is a native C++ library that enables C++ developers to create, manipulate and convert spreadsheets programmatically without requiring Office Automation or Microsoft Excel application. Aspose.Cells for C++ supports spreadsheet formats such as MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML and other formats. You may also render images from worksheets and convert MS Excel spreadsheet to PDF format. The API also allows you to create, manipulate and render charts and shapes. Moreover, formula calculations is another good aspect provided by component and you may utilize it.
 
@@ -84,7 +84,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Install Aspose.Cells for Android via Java from Maven](https://docs.aspose.com/display/cellsjava/Aspose.Cells+for+Android+via+Java+Installation#Aspose.CellsforAndroidviaJavaInstallation-InstallAspose.CellsforAndroidviaJavafromMavenRepository)
 *   [Aspose.Cells for Android via Java API Reference Guide](https://apireference.aspose.com/java/cells) (Aspose.Cells for Android via Java is very similar to Aspose.Cells for Java. So, you can use the same API Reference Guide)
 
-**![](https://docs2.aspose.com/cells/nodejsjava/attachments/thumbnails/94635760/94896194)Welcome to Aspose.Cells for Node.js via Java**
+**![](https://docs2.aspose.com/cells/nodejsjava/attachments/thumbnails/94635760/94896194.png)Welcome to Aspose.Cells for Node.js via Java**
 
 Aspose.Cells for Node.js via Java presents all the useful features of Aspose.Cells for Java using Node.js. Aspose.Cells for Node.js via Java is a class library that enables you to perform a great range of spreadsheet processing tasks. Aspose.Cells for Node.js via Java is a scalable and feature-rich API that offers spreadsheet format conversion, styling of worksheets to the most granular level, chart management & rendering, and our reliable Formula Calculation Engine. Aspose.Cells for Node.js via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. With Aspose.Cells for Node.js via Java you can generate, modify, convert and render Excel documents.
 
@@ -102,7 +102,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Cells for Node.js via Java Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-**![](https://docs2.aspose.com/cells/phpjava/attachments/thumbnails/66948467/67338576)Welcome to Aspose.Cells for PHP via Java**
+**![](https://docs2.aspose.com/cells/phpjava/attachments/thumbnails/66948467/67338576.png)Welcome to Aspose.Cells for PHP via Java**
 
 Aspose.Cells for PHP via Java provides all the valuable features of Aspose.Cells for Java using JavaBridge. Aspose.Cells for PHP via Java is a class library that enables you to perform a great range of spreadsheet processing tasks. Aspose.Cells for PHP via Java is a scalable and feature rich API that offers spreadsheet format conversion, styling of worksheets to the most granular level, chart management & rendering, and our reliable Formula Calculation Engine. Aspose.Cells for PHP via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. With Aspose.Cells for PHP via Java you can generate, modify, convert and render Excel documents.
 
@@ -120,7 +120,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Cells for PHP via Java Free Support Forum](https://forum.aspose.com/c/cells)
 *   [Aspose.Cells for PHP via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-**![](https://docs2.aspose.com/cells/pythonjava/attachments/thumbnails/97878910/101089310)Welcome to Aspose.Cells for Python via Java**
+**![](https://docs2.aspose.com/cells/pythonjava/attachments/thumbnails/97878910/101089310.png)Welcome to Aspose.Cells for Python via Java**
 
 Aspose.Cells for Python via Java enables your applications to perform a great range of spreadsheet processing tasks. Aspose.Cells for Python via Java supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) file formats your business use every day. It also allows exporting Excel® files to PDF, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
 

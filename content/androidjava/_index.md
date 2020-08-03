@@ -10,7 +10,7 @@ url: /androidjava/
 # ![Home Page](https://docs2.aspose.com/cells/androidjava/images/icons/contenttypes/home_page_16.png) Aspose.Cells for Android via Java : Aspose.Cells for Android via Java Home 
 
 
-**![](https://docs2.aspose.com/cells/androidjava/attachments/thumbnails/45908612/46465026)**
+**![](https://docs2.aspose.com/cells/androidjava/attachments/thumbnails/45908612/46465026.png)**
 
 ****Welcome to the Aspose.Cells for Android via Java****
 

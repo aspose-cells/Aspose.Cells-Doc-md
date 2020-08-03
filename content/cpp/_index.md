@@ -10,7 +10,7 @@ url: /cpp/
 # ![Home Page](https://docs2.aspose.com/cells/cpp/images/icons/contenttypes/home_page_16.png) Aspose.Cells for C++ : Home 
 
 
-**![](https://docs2.aspose.com/cells/cpp/attachments/thumbnails/21102620/47153168)Welcome to the Aspose.Cells for C++**
+**![](https://docs2.aspose.com/cells/cpp/attachments/thumbnails/21102620/47153168.png)Welcome to the Aspose.Cells for C++**
 
 Aspose.Cells for C++ is a native C++ library that enables C++ developers to create, manipulate and convert spreadsheets programmatically without requiring Office Automation or Microsoft Excel application. Aspose.Cells for C++ supports spreadsheet formats such as MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML and other formats. You may also render images from worksheets and convert MS Excel spreadsheet to PDF format. The API also allows you to create, manipulate and render charts and shapes. Moreover, formula calculations is another good aspect provided by component and you may utilize it.
 
