@@ -1,4 +1,5 @@
 deploy_key
+deploy_key.key
 public/
 public_cells/
-deploy_key.key
+CellsHugo.bat
