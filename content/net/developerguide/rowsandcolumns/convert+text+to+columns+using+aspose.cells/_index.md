@@ -23,7 +23,7 @@ You can convert your Text to Columns using Microsoft Excel. This feature is avai
 
 The following sample code explains the usage of [Worksheet.Cells.TextToColumns()](https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/texttocolumns) method. The code first adds some people name in column A of the first worksheet. The first and last name is separated by space character. Then it applies [Worksheet.Cells.TextToColumns()](https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/texttocolumns)method on column A and save it as output excel file. If you open the [output excel file](https://docs2.aspose.com/cells/net/attachments/25002706/25395213.xlsx), you will see, first names are in column A while last names are in column B as shown in this screenshot.
 
-![](https://docs2.aspose.com/cells/net/attachments/25002706/25395214.png)
+![image](https://docs2.aspose.com/cells/net/attachments/25002706/25395214.png)
 
 ## Sample Code
 

@@ -22,7 +22,7 @@ url: /java/developerguide/drawingobjects/access+and+modify+the+display+label+of+
 
 Microsoft Excel allows you to change the display label of the Ole Object as shown in the following screenshot. You can also access or modify the display label of the Ole object using Aspose.Cells APIs with the [OleObject.Label](https://apireference.aspose.com/java/cells/com.aspose.cells/oleobject#Label) property. 
 
-![](https://docs2.aspose.com/cells/java/attachments/64454888/64716834.png)
+![image](https://docs2.aspose.com/cells/java/attachments/64454888/64716834.png)
 
 ## Access and Modify the Display Label of the Linked Ole Object
 

@@ -77,7 +77,7 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 **Auto-filter applied with VSTO**  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017443/5112093.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017443/5112093.png)
 
 #### Auto-filtering Data with Aspose.Cells for .NET
 
@@ -117,5 +117,5 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 **Auto-filter applied with Aspose.Cells for .NET**  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017443/5112094.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017443/5112094.png)
 

@@ -35,11 +35,11 @@ The example below sorts data in four columns of a worksheet in descending order.
 
 Before applying the code, the worksheet contains unordered data.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013786/5115343.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013786/5115343.png)
 
 After executing the code, the data is sorted in ascending order.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013786/5115342.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013786/5115342.png)
 
 ### From Left to Right
 
@@ -53,11 +53,11 @@ The example below sorts data in four rows in ascending order. Only four rows of 
 
 Before applying the code, the worksheet contains unordered data.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013786/5115341.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013786/5115341.png)
 
 After executing the code, data is sorted in ascending order.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013786/5115340.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013786/5115340.png)
 
 IMPORTANT: The above examples demonstrate sorting data on the basis of one column (top to bottom) or row (left to right). Aspose.Cells.GridWeb can also sort data according to more than one column or row. To do so, pass an array of column or row indices to the `Sort` method. Hybrid data type sorting is also supported.
 

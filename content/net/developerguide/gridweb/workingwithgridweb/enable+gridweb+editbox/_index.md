@@ -27,7 +27,7 @@ To enable this feature, you need to import "jquery.js" file to your project and 
 {{< /code >}}
 
 **GridWeb control with Edit Box**  
-![](https://docs2.aspose.com/cells/net/attachments/5013754/5115331.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013754/5115331.png)
 
 ### Example
 

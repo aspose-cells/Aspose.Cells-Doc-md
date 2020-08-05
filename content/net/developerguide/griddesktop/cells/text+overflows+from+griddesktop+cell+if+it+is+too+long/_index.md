@@ -27,5 +27,5 @@ The following screenshot shows that the text overflows from GridDesktop cell whe
 
 ## Screenshot
 
-![](https://docs2.aspose.com/cells/net/attachments/60229445/60489796.png)
+![image](https://docs2.aspose.com/cells/net/attachments/60229445/60489796.png)
 

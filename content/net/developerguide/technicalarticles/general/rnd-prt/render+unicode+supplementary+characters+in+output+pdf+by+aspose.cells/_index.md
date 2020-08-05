@@ -29,7 +29,7 @@ In the Unicode Character Standard, Supplementary Characters are the characters a
 
 The following screenshot shows how Aspose.Cells rendered the [source excel file](https://docs2.aspose.com/cells/net/attachments/5013576/5115563.xlsx) into the [output pdf](https://docs2.aspose.com/cells/net/attachments/5013576/5115564.pdf). As you can see all three Unicode Supplementary characters have been rendered exactly same as done by Microsoft Excel.
 
-![](http://i.imgsafe.org/20ee6a3f85.png)
+![image](http://i.imgsafe.org/20ee6a3f85.png)
 
 ### Programming Sample
 

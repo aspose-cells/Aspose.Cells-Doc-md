@@ -57,7 +57,7 @@ The GridWeb control provides the `PresetStyle` property to which developers can 
 The output of the below code snippet is shown below.  
   
 **GridWeb control with Colorful1 style applied on it**  
-![](https://docs2.aspose.com/cells/net/attachments/5013742/5115457.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013742/5115457.png)
 
 ### Header Bar Style
 
@@ -68,14 +68,14 @@ The GridWeb control provides the `HeaderBarStyle` property that applies a style 
 The output the example code below is shown here.  
   
 **Modified style of Header Bar**  
-![](https://docs2.aspose.com/cells/net/attachments/5013742/5115456.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013742/5115456.png)
 
 ### Tab Bar Style
 
 It's possible to set the style of the tab bar.  
   
 **Modified styles of active & non-active tab bars**  
-![](https://docs2.aspose.com/cells/net/attachments/5013742/5115428.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013742/5115428.png)
 
 In the above figure, Sheet4 is the active tab so its appearance is different from the other tabs, as defined by the example code below.
 

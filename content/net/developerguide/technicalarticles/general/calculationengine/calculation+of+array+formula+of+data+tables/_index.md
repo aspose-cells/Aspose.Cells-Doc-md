@@ -14,7 +14,7 @@ You can create Data Table in Microsoft Excel using `Data > What-If Analysis > Da
 
 In the following sample code, we used the [source excel file](https://docs2.aspose.com/cells/net/attachments/5023561/5115535.xlsx). If you change the value of cell B1 to 100, the values of the Data Table which are filled with Yellow color will become 120 as shown in the following images. The sample code generates the [output PDF](https://docs2.aspose.com/cells/net/attachments/5023561/5115538.pdf).
 
-![](https://docs2.aspose.com/cells/net/attachments/5023561/5115534.png)![](https://docs2.aspose.com/cells/net/attachments/5023561/5115539.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5023561/5115534.png)![image](https://docs2.aspose.com/cells/net/attachments/5023561/5115539.png)
 
 Here is the sample code used to generate the [output PDF](https://docs2.aspose.com/cells/net/attachments/5023561/5115538.pdf) from the [source excel file](https://docs2.aspose.com/cells/net/attachments/5023561/5115535.xlsx). Please read the comments for more information.
 

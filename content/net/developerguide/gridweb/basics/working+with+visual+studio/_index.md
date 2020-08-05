@@ -31,71 +31,71 @@ This topic shows how to use Aspose.Cells.GridWeb by making a sample website in V
 1.  Open Visual Studio 2013.
 2.  From the **File** menu, select **New Menu**, then **Web Site**.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115368.png)  
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115368.png)  
     The New Web Site dialog is opened.
 3.  Select **ASP.NET Web Forms Site** from Visual Studio installed templates.
 4.  Choose HTTP mode for the location of the web site.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115367.png)  
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115367.png)  
       
     
 5.  Specify a location where the web site files will be created and stored.
     1.  Click **Browse** in the New Web Site dialog.  
           
-        ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115298.png)  
+        ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115298.png)  
           
         The Choose Location dialog is displayed.
     2.  Click the **Local IIS** tab.  
         All folders and web applications stored in your IIS root folder are displayed (for example: C:\\Inetpub\\wwwroot).  
           
-        ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115294.png)  
+        ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115294.png)  
           
         
     3.  Now create a new web application in your local IIS where the website files will be stored.  
         The Choose Location dialog lets you create and delete web applications or virtual directories in your local IIS. To create a web application, click a button as shown below in the figure.  
           
-        ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115293.png)  
+        ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115293.png)  
           
         A new web application with the default name WebSite is created.
     4.  Rename the web application. We renamed it GridWebOn2013.
     5.  Click **Open**.  
           
-        ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115304.png)  
+        ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115304.png)  
           
         You return to the New Web Site dialog. The path of web site location is set to [http://localhost/GridWebOn2013](http://localhost/GridWebOn2013).
 6.  Click **OK** to let Visual Studio create a web site.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115303.png)
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115303.png)
 
 ### Step 2: Checking Source & Design Views of a Web Page
 
 A default web site will have been created by Visual Studio 2013. It contains a default.aspx web page with some dummy text and markup.  
   
 **Source view of default.aspx page**  
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115306.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115306.png)  
   
 All web pages (including ASP.NET) can be opened in two modes. One is the source view that lets developers access and modify the source code. The second mode is design view that can be used to design web pages in a WYSIWYG manner. The above screenshot shows a source view of default.aspx web page. To view the design view, click **Design**.  
   
 **Design view of default.aspx page**  
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115305.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115305.png)  
   
 
 Delete the Default.aspx page added by Visual Studio and add a new blank Default.aspx page.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115300.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115300.png)
 
 ### Step 3: Adding Aspose.Cells.GridWeb to Web Page
 
 You can simply add Aspose.Cells.GridWeb (or GridWeb) control to a web page by dragging it from the toolbox.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115299.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115299.png)  
   
 
 If you don't know about how to add Aspose.Cells.GridWeb to the toolbox, refer to [Integrate Aspose.Cells Grid Controls with Visual Studio.NET](https://docs2.aspose.com/cells/net/gettingstarted/gridsuiteandvsnet/integrate+aspose.cells+grid+controls+with+visual+studio.net).
 
 Once GridWeb control is dropped to web page, it would render like this:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115302.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115302.png)  
   
 
 ### Step 4: Change the <!DOCTYPE> tag
@@ -112,7 +112,7 @@ Once GridWeb control is dropped to web page, it would render like this:
     
 2.  Select the complete tag.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115301.png)  
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115301.png)  
       
     
 3.  Retain, change or delete the <!DOCTYPE> tag.
@@ -131,7 +131,7 @@ You can change the width and height of the GridWeb control after dragging it to 
 
 In design view, you can resize the width and height of the GridWeb.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115312.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115312.png)  
   
 
 ### Step 6: Configuring the Properties of Aspose.Cells.GridWeb
@@ -139,7 +139,7 @@ In design view, you can resize the width and height of the GridWeb.
 Configure the Aspose.Cells.GridWeb properties in WYSIWYG by clicking the **Properties** button on the right side of Visual Studio 2013 IDE.  
 A Properties dialog is displayed.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115314.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115314.png)  
   
 The Properties pane makes it possible to configure the look & feel of the GridWeb and some other properties to control GridWeb's behaviour.
 
@@ -149,10 +149,10 @@ Build and run the web site.
 
 1.  Run the web site directly from Visual Studio by pressing Ctrl+F5 or clicking **Start Debugging**.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013734/5115313.png)
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115313.png)
 
 Now, you can start playing with GridWeb control.  
   
 **GridWeb control in action**  
-![](https://docs2.aspose.com/cells/net/attachments/5013734/5115276.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013734/5115276.png)
 

@@ -71,12 +71,12 @@ It will activate Custom Command Button editor, the editor allows you to create c
 
 So, the custom command button is added as you may see it (encircled with red color) in the following screen shot.
 
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112476.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112476.png)
 
 Finally, I set some Font attributes (bold) for the label and command button. I also adjust the size of the controls to get the final look.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112475.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112475.png)
 
 ## Retrieving Data from an XML File
 
@@ -473,65 +473,65 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 Now, I run the application. The drop down list is filled with the distinct categories.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112474.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112474.png)
 
 I select a category by which I want to show the sales report and click the"Show Report"button.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112481.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112481.png)
 
 So, the report is shown into the**GridWeb**based on the selected category. The report is formatted by default based on the code (written earlier).
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112480.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112480.png)
 
 If you want to format data into some of the cells in WYSIWYG manner, you may do it quite easily.**Aspose.Cells.GridWeb**provides**Format Cells**editor, select your desired cell(s) and right-click on it, click the"Format Cell…"option.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112479.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112479.png)
 
 The Format Cell dialog is shown.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112478.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112478.png)
 
 I specify some Font attributes and click OK.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112485.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112485.png)
 
 And get the result.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112484.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112484.png)
 
 Apart from cells formatting, you can also edit your cell values. Double-click on your desired cell(s) and edit the value.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112483.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112483.png)
 
 For submitting the edit result and recalculating all the formula, I click the related button (encircled with red color) to update the report.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112482.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112482.png)
 
 Now I will create the chart and paste it into the control. I click the custom command button (encircled with red color) to create the pie chart based on the data range.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112489.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112489.png)
 
 Finally, I will export this data report with graph to MS Excel. I click the**Save**button (encircled with red color). Clicking on the**Save**button will display**File Download**dialog, you may either**Open**the resultant report (output excel file with graph) into MS Excel or Save it to the disk.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112488.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112488.png)
 
 When I click on Open button (File Download dialog), the excel report with graph is exported to MS Excel. The upper portion of the report is shown.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112487.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112487.png)
 
 The lower portion of the excel report is shown.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5017606/5112486.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017606/5112486.png)
 

@@ -16,7 +16,7 @@ Sometimes, it is necessary to dynamically verify if a given value satisfies the 
 
 The following sample Microsoft Excel file is used with the sample code below to test the [cell.getValidationValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()) method. As you can see in the snapshot that the cells **C1** has **decimal data validation** applied and will only accept values **between 10 and 20**. Whenever the value of the cell is between 10 and 20, [cell.getValidationValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()) method will return **True**, otherwise, it will return **False**.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276679/5472906.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276679/5472906.png)
 
 The following sample code illustrates how the [cell.getValidationValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()) method works. First, it enters the value 3 into C1. Because this does not satisfy the data validation rule, the [cell.getValidationValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()) method returns **False**. Then, it enters the value 15 into C1. Because this value satisfies the data validation rule, the [cell.getValidationValue](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()) method returns **True**. Similarly, it returns **False** for value 30. Here is the console output generated when the sample code is executed with the sample Excel file shown above.
 

@@ -19,7 +19,7 @@ By default, Aspose.Cells saves Excel into PDF with Standard size. However you ca
 
 The following screenshot shows how to save Excel into PDF with Standard or Minimum size using Microsoft Excel.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276106/5472508.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276106/5472508.png)
 
 #### Save Excel into PDF with Standard or Minimum Size using Aspose.Cells
 

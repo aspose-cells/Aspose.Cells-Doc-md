@@ -33,7 +33,7 @@ Prior to the release of Aspose.Cells for .NET 20.4, the default value of [TxtSav
 
 The following sample code loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/25002392/25395207.xlsx) which has two leading blank columns. It first saves the excel file in CSV format without any changes and then it sets [TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) property to **true **and saves it again. The screenshot shows the [source excel file](https://docs2.aspose.com/cells/net/attachments/25002392/25395207.xlsx), [output CSV file without trimming](https://docs2.aspose.com/cells/net/attachments/25002392/25395209.csv), and the [output CSV file with trimming](https://docs2.aspose.com/cells/net/attachments/25002392/25395208.csv).
 
-![](https://docs2.aspose.com/cells/net/attachments/25002392/25395206.png)
+![image](https://docs2.aspose.com/cells/net/attachments/25002392/25395206.png)
 
 ## Sample Code
 

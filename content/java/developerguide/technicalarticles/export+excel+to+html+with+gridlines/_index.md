@@ -18,6 +18,6 @@ The following sample code creates a workbook and fills its worksheet with some v
 
 The following screenshot shows the output HTML generated with this sample code. As you can see, it also displays gridlines in output HTML.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276032/5473441.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276032/5473441.png)
 
 

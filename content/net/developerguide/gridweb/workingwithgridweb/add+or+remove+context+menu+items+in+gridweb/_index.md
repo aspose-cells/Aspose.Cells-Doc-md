@@ -27,14 +27,14 @@ Here is the full ASP.NET markup that creates a GridWeb with above context menu i
 
 The is how the context menu item looks like after being added using the above ASP.NET markup.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013783/5115332.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013783/5115332.png)
 
 This is the event handler code which is executed when the context menu item is clicked. The code first checks the command name, if it matches our command, it adds a text in cell A1 of active GridWeb worksheet and sets the first column width to 40 units to make text visible.
 
   
 This is how the GridWeb looks when you click on the context menu item.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013783/5115349.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013783/5115349.png)
 
 ## Add Context Menu Items in Aspose.Cells.GridWeb using Code
 

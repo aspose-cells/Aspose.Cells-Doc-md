@@ -14,7 +14,7 @@ url: /reportingservices/faqs/clientissues/automation+error/
 
 When Microsoft Excel 2003 loads Aspose.Cells.ReportingServices.Client add-ins, Microsoft Excel produces an automation error:  
   
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094880/6193264.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094880/6193264.png)
 
 ##### Solution
 

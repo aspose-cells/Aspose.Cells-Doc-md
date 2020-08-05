@@ -22,7 +22,7 @@ If you have an Excel file which has slicer applied to it and you want to export 
 
 The following sample code loads the [sample Excel file](https://docs.aspose.com/download/attachments/93913092/SampleSlicerChart.xlsx?version=1&modificationDate=1563131839259&api=v2) that contains an existing slicer. It then saves the workbook as [output PDF file](https://docs.aspose.com/download/attachments/93913092/SampleSlicerChart.pdf?version=1&modificationDate=1563131839255&api=v2). The following screenshot compares the source Excel file and the generated PDF file.
 
-![](https://docs2.aspose.com/cells/java/attachments/93913092/94044164.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/93913092/94044164.jpg)
 
 ## Sample Code
 

@@ -28,7 +28,7 @@ Aspose.Cells provides the [Workbook.GetFonts](https://apireference.aspose.com/ne
 
 The following sample code loads the source excel file and retrieves the list of fonts used inside it. It has one dummy worksheet which has some dummy fonts added for illustration purpose. When the code prints all the fonts inside the workbook, it also prints those dummy fonts. The following screenshot shows the [sample excel file](https://docs2.aspose.com/cells/net/attachments/25002617/25395211.xlsx) and how the dummy fonts are listed.
 
-![](https://docs2.aspose.com/cells/net/attachments/25002617/25395210.png)
+![image](https://docs2.aspose.com/cells/net/attachments/25002617/25395210.png)
 
 ## Sample Code
 

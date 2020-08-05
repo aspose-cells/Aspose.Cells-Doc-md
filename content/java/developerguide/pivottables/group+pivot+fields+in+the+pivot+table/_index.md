@@ -25,7 +25,7 @@ Microsoft Excel allows you to group pivot fields of the pivot table. When there 
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/64454892/64716838.xlsx) and performs grouping on the first pivot field using the [PivotTable.setManualGroupField()](https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#setManualGroupField(com.aspose.cells.PivotField,%20com.aspose.cells.DateTime,%20com.aspose.cells.DateTime,%20java.util.ArrayList,%20int)) method. It then refreshes and calculates data of the pivot table and saves the workbook as the [output Excel file](https://docs2.aspose.com/cells/java/attachments/64454892/64716837.xlsx). The screenshot shows the effect of the sample code on the sample Excel file. As you can see in the screenshot, the first pivot field is now grouped by months and quarters.
 
-![](https://docs2.aspose.com/cells/java/attachments/64454892/64716839.png)
+![image](https://docs2.aspose.com/cells/java/attachments/64454892/64716839.png)
 
 ## Sample Code
 

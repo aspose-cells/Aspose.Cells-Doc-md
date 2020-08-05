@@ -17,5 +17,5 @@ Since Aspose.Cells.Report.Designer uses Microsoft Excel as a report template, us
 ### The Aspose.Cells.Report.Designer toolbar
 
 **Users can utilize the Aspose.Cells.Report.Designer toolbar to manipulate an RDL Report file**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094900/6193553.png)  
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094900/6193553.png)  
 

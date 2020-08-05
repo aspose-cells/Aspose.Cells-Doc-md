@@ -25,7 +25,7 @@ Merge multiple cells in a worksheet into a single cell by calling the `Cells` co
 If you merge multiple cells and each cell contains data, only the content of the top left cell in the range is retained after the merge. Data in the other cells is not lost. If you unmerge the cells, each cell recovers its data.
 
 **Four cells merged into one**  
-![](https://docs2.aspose.com/cells/net/attachments/5013797/5115377.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013797/5115377.png)
 
 ## Unmerging Cells
 

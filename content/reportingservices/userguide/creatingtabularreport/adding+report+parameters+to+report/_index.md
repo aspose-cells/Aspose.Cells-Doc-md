@@ -19,10 +19,10 @@ To add report parameters to reports:
 1.  Select a cell.  
       
     **Selecting a cell**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193352.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193352.png)  
       
     
-2.  Click Insert formula on the Aspose.Cells.Report.Designer toolbar (![](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193351.png)).
+2.  Click Insert formula on the Aspose.Cells.Report.Designer toolbar (![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193351.png)).
 3.  Select **Parameters** from the Parameters panel to the left.  
     All the parameters are listed in the right panel.
 4.  Select a parameter, in the example, we've selected EmpID.
@@ -30,18 +30,18 @@ To add report parameters to reports:
     A parameter has two data attributes: label and value (the default attribute is value).  
       
     **Selecting a parameter**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193350.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193350.png)  
       
     
 6.  In the sample, the parameter's label should be shown in the report, so modify the expression to `Parameters!EmpID.Label`.  
       
     **Modifying the parameter**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193349.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193349.png)  
       
     
 7.  Click **OK**.  
     The selected cell contains a report parameters marker.  
       
     **A report parameter inserted into the cell**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193348.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193348.png)
 

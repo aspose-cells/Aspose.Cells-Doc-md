@@ -30,22 +30,22 @@ There are times when you want to create Microsoft Excel reports with pivot table
     2.  Then define a named range, **DataSource**, which refers to this range of cells.  
           
         **Creating a designer template & defining a named range, DataSource**  
-        ![](https://docs2.aspose.com/cells/java/attachments/5275913/5472404.png)
+        ![image](https://docs2.aspose.com/cells/java/attachments/5275913/5472404.png)
 2.  Creating a Pivot Table Based on this named range.
     1.  In Microsoft Excel, choose **Data**, then **PivotTable** and **PivotChart Report**.
     2.  Create a pivot table based on the named range created in the first step.  
           
         **Creating a pivot table based on the named range, DataSource**  
-        ![](https://docs2.aspose.com/cells/java/attachments/5275913/5472416.png)
+        ![image](https://docs2.aspose.com/cells/java/attachments/5275913/5472416.png)
     3.  Drag the corresponding field to pivot table row and column, then create the resulting pivot table as in the screenshot below.  
           
         **Creating a pivot table based on a corresponding field**  
-        ![](https://docs2.aspose.com/cells/java/attachments/5275913/5472415.png)
+        ![image](https://docs2.aspose.com/cells/java/attachments/5275913/5472415.png)
 3.  Right-click the pivot table and select **Table Options**.
     1.  Check **Refresh on open** in **Data options** settings.  
           
         **Setting the pivot table options**  
-        ![](https://docs2.aspose.com/cells/java/attachments/5275913/5472414.png)  
+        ![image](https://docs2.aspose.com/cells/java/attachments/5275913/5472414.png)  
           
         Now, you can save this file as your designer template file.
 4.  Populating new data and changing source data of a pivot table.
@@ -54,5 +54,5 @@ There are times when you want to create Microsoft Excel reports with pivot table
 Executing the example code below changes the source data of the pivot table and the pivot table will look like the one below.
 
 **Dynamically changed pivot table**  
-![](https://docs2.aspose.com/cells/java/attachments/5275913/5472413.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275913/5472413.png)
 

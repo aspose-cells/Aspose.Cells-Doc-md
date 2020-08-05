@@ -65,7 +65,7 @@ To load the content from an Excel file to Aspose.Cells.GridWeb control, you have
 The above code snippet can be used any way you want. For example, to load an Excel file automatically when a web form loads, add this code to the form's `Page_Load` event that you have specified by yourself.
 
 **An Excel file is loaded into GridWeb**  
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472782.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472782.png)
 
 ## Saving a Microsoft Excel File
 
@@ -98,7 +98,7 @@ The width and height of the control can be defined in pixels or points.
 The output of the code snippet that follows is shown below.
 
 **Changed width and height of the GridWeb control**  
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472794.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472794.png)
 
 ### Changing Width & Height of Header Bar
 
@@ -110,12 +110,12 @@ Aspose.Cells.GridWeb control contains two header bars as follows:
 Both of these header bars are shown below.
 
 **Header bars**  
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472793.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472793.png)
 
 Change the height of the top header bar and the width of the left header bar using the `GridWeb` control's `HeaderBarHeight` and `HeaderBarWidth` properties respectively. The figure below shows the output of the code example that follows.
 
 **Changed header bar width and height**  
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472792.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472792.png)
 
 ## Working with Aspose.Cells.GridWeb Events
 
@@ -219,7 +219,7 @@ The output of the below code snippet is shown below.
 
 **GridWeb control with Colorful1 style applied on it**
 
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472401.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472401.png)
 
 ####   
 Header Bar Style
@@ -240,7 +240,7 @@ To apply style settings from an existing style file to GridWeb control, develope
 
 Please see the following image that shows GridWeb with the custom style applied to it.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472398.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472398.png)
 
 IMPORTANT: Loading style file into GridWeb control doesn't affect the formatting settings of the cells of the control.
 
@@ -263,7 +263,7 @@ You can get the entire running sample code discussed in this article from this l
 
 You need to create the following directory structure in the **webapps** directory of Tomcat Server
 
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472396.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472396.png)
 
 These are the directories and files you need to create. Please read the comments and follow them. You can get the latest Aspose.Cells.GridWeb for Java release archives from [this link](http://www.aspose.com/dowhttps://forum.aspose.com/uploads/discourse_instance3/22292nloads/cells-family/java).
 
@@ -291,7 +291,7 @@ http://localhost:8080/SamplePageGridWebJava/SamplePage.jsp
 
 You will see something like the following screenshot. Congrats, you have successfully used the GridWeb control on your JSP page.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472399.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472399.png)
 
 ## Printing GridWeb
 
@@ -334,7 +334,7 @@ By default, the `Aspose.Cells.GridWeb` control is in Edit mode. In Edit mode, yo
 
 **GridWeb control in Edit Mode**
 
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472403.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472403.png)
 
 Developers can also switch to Edit mode programmatically by setting the `EditMode` property of the GridWeb control to `true`.
 
@@ -345,7 +345,7 @@ Developers can also switch to Edit mode programmatically by setting the `EditMod
 When the GridWeb control is in View mode, users cannot edit or modify grid content, which means that users can only view grid content. That's why this mode is called View mode. In View mode, a few buttons (**Submit**, **Save** and **Undo**) are hidden and the menu that appears when right-clicking only contains the **Copy** and **Find** option.
 
 **GridWeb control in View Mode**  
-![](https://docs2.aspose.com/cells/java/attachments/5276811/5472400.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276811/5472400.png)
 
 If developers would like their users to only view data then they can switch to View mode programmatically by setting the GridWeb control's `EditMode` property to `false`.
 

@@ -55,7 +55,7 @@ To create validations using Microsoft Excel:
 3.  Click the **Settings** tab and enter settings as shown below.   
       
     **Data validation settings**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276732/5473111.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276732/5473111.png)
 
 #### Data Validation with Aspose.Cells
 

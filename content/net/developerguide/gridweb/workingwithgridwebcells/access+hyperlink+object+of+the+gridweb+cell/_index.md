@@ -31,7 +31,7 @@ You can check if cell contains hyperlink or not using the following two methods.
 
 If your excel file contains hyperlink which links to some URL like `[http://wwww.aspose.com/](http://wwww.aspose.com/)` and you load it in GridWeb then the hyperlinks will be rendered with target attribute set to `_blank`. It means, when you will click the hyperlink in a GridWeb cell, it will open up in a new window instead of existing window. Please check the `GridHyperlink.Target` property in the following debug window. Besides, if you want to open the hyperlink in the existing window, then please set the `GridHyperlink.Target` to `_self`.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013575/5115150.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013575/5115150.png)
 
 ## Access Hyperlink object of the GridWeb Cell
 

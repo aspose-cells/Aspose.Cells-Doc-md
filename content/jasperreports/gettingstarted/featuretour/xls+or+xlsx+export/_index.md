@@ -15,5 +15,5 @@ Aspose.Cells for JasperReports allows you to deliver reports in the XLS and XLSX
 Microsoft Excel is not required to generate documents with Aspose.Cells.
 
 **A sample XLS report exported using Aspose.Cells for JasperReports**  
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619148/6848529.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619148/6848529.png)
 

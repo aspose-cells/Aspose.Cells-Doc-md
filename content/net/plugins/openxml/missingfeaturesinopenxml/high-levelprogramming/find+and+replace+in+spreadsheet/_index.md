@@ -10,7 +10,7 @@ url: /net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/find+an
 # Aspose.Cells for .NET : Find and Replace in Spreadsheet
 
 
-![](download/thumbnails/5020491/985004860)
+![image](download/thumbnails/5020491/985004860)
 
 When we click on find button following is the code:
 

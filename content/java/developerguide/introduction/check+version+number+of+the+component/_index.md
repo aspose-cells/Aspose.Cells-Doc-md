@@ -22,7 +22,7 @@ This document describes some ways to check which version of the component is ins
 
 If you have Java version/fix (Aspose.Cells for Java), you can unzip the Aspose.Cells library jar file, open the MANIFEST file with notepad and search the string i.e.., "Specification-Version: " to check its value.  
   
-![](https://docs2.aspose.com/cells/java/attachments/5276268/5473259.png)  
+![image](https://docs2.aspose.com/cells/java/attachments/5276268/5473259.png)  
 **Figure:** Checking the version number of the Java fix
 
 ##### *2) Using the APIs*

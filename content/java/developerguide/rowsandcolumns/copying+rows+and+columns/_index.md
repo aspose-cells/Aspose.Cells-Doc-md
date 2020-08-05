@@ -57,7 +57,7 @@ The following example shows how to copy a row in a worksheet. It uses a template
 The following output is generated when the code below is executed.
 
 **The row is copied with the highest degree of precision and accuracy**  
-![](https://docs2.aspose.com/cells/java/attachments/5276735/5473343.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276735/5473343.png)
 
 When copying rows, it is important to note related images, charts or other drawing objects as this is the same with Microsoft Excel:
 
@@ -79,7 +79,7 @@ Use the [copyColumn](https://apireference.aspose.com/java/cells/com.aspose.cells
 This example copies a column from a worksheet and pastes it into a worksheet in another workbook.
 
 **A column is copied from one workbook to another**  
-![](https://docs2.aspose.com/cells/java/attachments/5276735/5473342.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276735/5473342.png)
 
 ### Pasting Rows/Columns with Paste Options
 

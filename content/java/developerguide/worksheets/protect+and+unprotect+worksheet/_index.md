@@ -65,17 +65,17 @@ The example below shows how to protect a worksheet with a password.
 After the above code is used to protect the worksheet, check the protection on the worksheet by opening it. Once you open the file and try to add some data to the worksheet, the following dialog is displayed:
 
 **A dialog warning that a user can't modify the worksheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276189/5472341.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276189/5472341.png)
 
 To work on the worksheet, unprotect the worksheet by selecting the **Protection**, then **Unprotect Sheet** from the **Tools** menu item as shown below.
 
 **Selecting Unprotect Sheet menu item**  
-![](https://docs2.aspose.com/cells/java/attachments/5276189/5472319.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276189/5472319.png)
 
 A dialog opens prompting for a password.
 
 **Entering password to unprotect the worksheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276189/5472320.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276189/5472320.png)
 
 ### Protecting a Few Cells
 
@@ -129,12 +129,12 @@ To remove protection from a worksheet:
 From the **Tools** menu, select **Protection** followed by **Unprotect Sheet**.  
   
 **Selecting Unprotect Sheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276189/5472321.png)  
+![image](https://docs2.aspose.com/cells/java/attachments/5276189/5472321.png)  
   
 Protection is removed, unless the worksheet is password protected. In this case, a dialog prompts for the password.  
   
 **Entering password to unprotect the worksheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276189/5472322.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276189/5472322.png)
 
 ### Using Aspose.Cells
 
@@ -169,7 +169,7 @@ To view the protection settings available in Excel XP:
     A dialog is displayed.  
       
     **Dialog to show protection options in Excel XP**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276189/5472340.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276189/5472340.png)
 2.  Allow or restrict worksheets features or apply a password.
 
 ### Advanced Protection Settings Using Aspose.Cells
@@ -189,7 +189,7 @@ Save the file to EXCEL97TO2003 or XLSX format because these advanced protection 
 If you want to restrict users from editing cells the cells must be locked before any protection settings are applied. Otherwise the cells can be edited even if worksheet is protected. In Microsoft Excel XP, cells can be locked through the following dialog:
 
 **Dialog to lock cells in Excel XP**  
-![](https://docs2.aspose.com/cells/java/attachments/5276189/5472342.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276189/5472342.png)
 
 It is possible to lock cells using the Aspose.Cells API too. Each cell has a `Style` API that further contains a `setLocked` method. Use it lock or unlock cells.
 

@@ -15,8 +15,8 @@ Aspose.Cells for Reporting Services allows you to deliver native Microsoft Excel
 Aspose.Cells for Reporting Services supports more file formats than the native exporters. Below, are screenshots from sample XLS reports exported with Aspose.Cells.
 
 **A Sample XLS report is exported using Aspose.Cells for Reporting Services**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094896/6193557.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094896/6193557.png)
 
 **A Sample Pivot Table XLS report is generated using Aspose.Cells for Reporting Services**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094896/6193556.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094896/6193556.png)
 

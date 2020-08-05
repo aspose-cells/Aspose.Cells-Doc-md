@@ -34,7 +34,7 @@ Aspose.Cells provides the [Shape.ShadowEffect](https://apireference.aspose.com/j
 
 The following screenshot shows the Microsoft Excel interface to set the *Shadow Effect* of Shape.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275792/5472524.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275792/5472524.png)
 
 ## Working with the Shadow Effect of Shape or Chart
 

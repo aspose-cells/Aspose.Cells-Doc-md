@@ -12,5 +12,5 @@ url: /sharepoint/productinformation/features/add+footer+to+excel+document/
 
 Aspose.Cells for SharePoint supports to add footer in Excel spreadsheet.
 
-![](https://docs2.aspose.com/cells/sharepoint/attachments/46858767/47153164.png)
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/46858767/47153164.png)
 

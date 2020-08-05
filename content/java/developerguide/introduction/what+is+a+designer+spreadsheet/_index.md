@@ -25,7 +25,7 @@ To speed up your development, Aspose.Cells offers the exciting feature designer 
 A designer spreadsheet is an Excel file created using Microsoft Excel in which all formatting are already applied and the contents can be decided at design time. It's more like a template file that doesn't contain any data but just the formatting, as shown below:
 
 **Designer spreadsheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276266/5473261.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276266/5473261.png)
 
 In [the Aspose.Cells demos](http://www.aspose.com/demos/java-components/aspose.cells/default.aspx), every spreadsheet is created using this methodology, with the exception of the Invoice demo.
 

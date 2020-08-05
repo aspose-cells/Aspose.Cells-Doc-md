@@ -33,20 +33,20 @@ Below, we use the AdventureWorks sample database that ships with SQL Server Repo
 3.  Create three report parameters: ReportYear, ReportMonth and EmpID.
     *   The valid values for the parameter ReportYear are:  
           
-        ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193291.png)  
+        ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193291.png)  
           
         
     *   The valid values for the parameter ReportMonth is:  
           
-        ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193296.png)  
+        ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193296.png)  
           
         
     *   The valid value for the parameter EmpID are:  
           
-        ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193297.png)  
+        ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193297.png)  
           
         
 4.  Map the dataset parameters to report parameters, as follow:  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193294.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193294.png)
 

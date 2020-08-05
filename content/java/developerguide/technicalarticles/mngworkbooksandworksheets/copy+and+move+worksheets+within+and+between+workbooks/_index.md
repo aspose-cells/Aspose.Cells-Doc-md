@@ -34,10 +34,10 @@ The initial steps are the same for all examples.
 *   SecondWorkbook.xls (1 worksheet).  
       
     **FirstWorkbook.xls**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276649/5472980.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276649/5472980.png)  
       
     **SecondWorkbook.xls**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276649/5472981.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276649/5472981.png)
 
 1.  Download and install Aspose.Cells:
     1.  [Download Aspose.Cells for Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx).
@@ -63,7 +63,7 @@ The initial steps are the same for all examples.
 Executing the codemoves the worksheet named Copy within FirstWorkbook.xls with the new name Last Sheet.
 
 **Output file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276649/5472982.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276649/5472982.png)
 
 
 #### Moving a Worksheet with in a Workbook
@@ -73,24 +73,24 @@ Below is the code used to accomplish the task.
 Executing the code moves the worksheet Move from index 1 to index 2 in FirstWorkbook.xls.
 
 **Output file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276649/5472983.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276649/5472983.png)
 
 #### Copying a Worksheet between Workbooks
 
 Executing the code copies the worksheet Copy to SecondWorkbook.xls with the new name Sheet2.
 
 **Output file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276649/5472984.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276649/5472984.png)
 
 #### Moving a Worksheet between Workbooks
 
 Executing the code moves the move worksheet from FirstWorkbook.xls to SecondWorkbook.xls with the new name Sheet3.
 
 **Output FirstWorkbook.xls**  
-![](https://docs2.aspose.com/cells/java/attachments/5276649/5472985.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276649/5472985.png)
 
 **Output SecondWorkbook.xls**  
-![](https://docs2.aspose.com/cells/java/attachments/5276649/5472986.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276649/5472986.png)
 
 ### Conclusion
 

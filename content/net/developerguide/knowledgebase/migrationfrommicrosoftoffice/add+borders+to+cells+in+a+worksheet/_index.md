@@ -34,7 +34,7 @@ These steps are shown in code below. The first code examples show how to impleme
 
 The code generates an Excel file with a number of cells on the first sheet, each with a different border:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017459/5112101.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017459/5112101.png)  
 **Cells with borders applied.**
 
 #### Adding Borders using VSTO

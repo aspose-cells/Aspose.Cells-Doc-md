@@ -24,7 +24,7 @@ url: /java/developerguide/technicalarticles/calculation+of+excel+2016+minifs+and
 
 `Microsoft Excel 2016` supports `MINIFS` and `MAXIFS` functions. These functions are not supported in `Excel 2013` or earlier versions. Aspose.Cells also supports the calculation of these function. The following screenshot illustrates the usage of these functions. Please read the red comments inside the screenshot to know how these functions work.
 
-![](https://docs2.aspose.com/cells/java/attachments/5013583/5115148.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5013583/5115148.png)
 
 ## Calculation of Excel 2016 MINIFS and MAXIFS functions
 

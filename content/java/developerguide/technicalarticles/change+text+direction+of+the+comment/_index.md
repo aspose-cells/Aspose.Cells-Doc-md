@@ -17,6 +17,6 @@ Aspose.Cells provides a [Shape.setTextDirection()](https://apireference.aspose.c
 The following image shows the comment with its format settings in Microsoft Excel. The output file is obtained after running the below code segment.
 
 **Comment with right-to-left text direction**  
-![](https://docs2.aspose.com/cells/java/attachments/5276588/5472590.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276588/5472590.png)
 
 

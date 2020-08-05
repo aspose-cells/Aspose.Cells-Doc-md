@@ -20,12 +20,12 @@ The following example shows how to copy a single row in a worksheet. The example
 
 Below is a snapshot of the input spreadsheet.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5472893.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5472893.png)
 
 
 After executing the above code snippet, the resultant spreadsheet looks as follow.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5472892.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5472892.png)
 
 #### Copying Multiple Rows
 
@@ -33,10 +33,10 @@ You can also copy multiple rows onto a new destination while using the [Cells.co
 
 Below is a snapshot of the input spreadsheet containing 3 rows of data whereas the code snippet provided below copies all 3 rows to a new location starting from 7th row.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5473452.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5473452.png)
 
 Here is the resultant spreadsheet view after executing the above code snippet.  
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5473455.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5473455.png)
 
 ### Copying Columns
 
@@ -46,11 +46,11 @@ The following example shows how to copy a column in a worksheet. This example us
 
 Here is how the input spreadsheet looks.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5472891.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5472891.png)
 
 Here is the view of resultant spreadsheet after executing the above code snippet.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5472890.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5472890.png)
 
 #### Copying Multiple Columns
 
@@ -58,7 +58,7 @@ Similar to [Cells.copyRows](https://apireference.aspose.com/java/cells/com.aspos
 
 Here is how source and resultant spreadsheets look in Excel.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5473459.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5473459.png)
 
-![](https://docs2.aspose.com/cells/java/attachments/5276682/5473458.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276682/5473458.png)
 

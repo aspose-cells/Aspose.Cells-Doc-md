@@ -46,7 +46,7 @@ In a 2010 **Infoworld** report, IntelliJ received the highest test center score 
 *   Aspose.Cells Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Cells for Java API maven dependency) and download source code examples of the API for using [Aspose.Cells for Java API](http://www.aspose.com/java/excel-component.aspx).
 
 *   This plugin helps you to work with [Aspose.Cells for Java API](http://www.aspose.com/java/excel-component.aspx) inside your favorite IntelliJ IDEA.  
-    ![](http://i.imgur.com/KWKGljg.png)  
+    ![image](http://i.imgur.com/KWKGljg.png)  
     **WIZARDS**:  
     The plugin contains two wizards
     

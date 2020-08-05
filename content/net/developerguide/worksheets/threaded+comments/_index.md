@@ -39,11 +39,11 @@ url: /net/developerguide/worksheets/threaded+comments/
 
 MS Excel 365 provides a feature to add threaded comments. These comments work as conversations and can be used for discussions. The comments now come with a Reply box that allows for threaded conversations. The old comments are called Notes in Excel 365. The screenshot below shows how threaded comments are displayed when opened in Excel.
 
-![](https://docs2.aspose.com/cells/net/attachments/89686042/89849857.jpg)
+![image](https://docs2.aspose.com/cells/net/attachments/89686042/89849857.jpg)
 
 Threaded comments are shown like this in older versions of Excel. The following images have been taken by opening the sample file in Excel 2016.
 
-![](https://docs2.aspose.com/cells/net/attachments/89686042/89849865.jpg)         ![](https://docs2.aspose.com/cells/net/attachments/89686042/89849866.jpg)
+![image](https://docs2.aspose.com/cells/net/attachments/89686042/89849865.jpg)         ![image](https://docs2.aspose.com/cells/net/attachments/89686042/89849866.jpg)
 
 Aspose.Cells also provides the feature to manage threaded comments. 
 
@@ -57,12 +57,12 @@ To add threaded comments in Excel 365, follow the following steps.
     *   Click the **Review** Tab
     *   Click the **New Comment** button
     *   This will open a dialogue to enter comments in the active cell.
-    *   ![](https://docs2.aspose.com/cells/net/attachments/89686042/89849867.jpg)
+    *   ![image](https://docs2.aspose.com/cells/net/attachments/89686042/89849867.jpg)
 *   Method 2
     *   Right click on the cell where you want to insert the comment.
     *   Click the **New Comment** option.
     *   This will open a dialogue to enter comments in the active cell.
-    *   ![](https://docs2.aspose.com/cells/net/attachments/thumbnails/89686042/89849868)
+    *   ![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/89686042/89849868)
 
 ### Add Threaded Comment using Aspose.Cells
 
@@ -82,7 +82,7 @@ The following code sample demonstrates the use of [Comments.AddThreadedComment]
 
 To read threaded comments in Excel, simply hover your mouse over the cell containing comments to view the comments. The comments view will look like the view in the following image.
 
-![](https://docs2.aspose.com/cells/net/attachments/89686042/89849857.jpg)
+![image](https://docs2.aspose.com/cells/net/attachments/89686042/89849857.jpg)
 
 ### Read Threaded comments using Aspose.Cells
 
@@ -114,7 +114,7 @@ Comment: Test Threaded CommentAuthor: Aspose TestCreated Time: 5/15/2019 12:46:2
 
 To edit a threaded comment in Excel, click the **Edit** link on the comment as shown in the following image.
 
-![](https://docs2.aspose.com/cells/net/attachments/89686042/89849860.jpg)
+![image](https://docs2.aspose.com/cells/net/attachments/89686042/89849860.jpg)
 
 ### Edit Threaded comment using Aspose.Cells
 
@@ -130,7 +130,7 @@ The following example demonstrates editing the first threaded comment in column 
 
 To remove threaded comments in Excel, right click on the cell containing the comments and click the **Delete Comment** option as shown in the following image.
 
-![](https://docs2.aspose.com/cells/net/attachments/89686042/89849863.jpg)
+![image](https://docs2.aspose.com/cells/net/attachments/89686042/89849863.jpg)
 
 ### Remove Threaded comments using Aspose.Cells
 

@@ -27,7 +27,7 @@ You can add custom XML parts using Aspose.Cells via the [Workbook.ContentTypePro
 The following sample code makes use of [Workbook.ContentTypeProperties.Add()](https://apireference.aspose.com/net/cells/aspose.cells.properties/contenttypepropertycollection/methods/add/index) method and adds the **Book Catalog XML** and its name is **BookStore**. The following image shows the result of this code. As you can see Book Catalog XML is added inside the BookStore node which is the name of this property.
 
   
-![](https://docs2.aspose.com/cells/net/attachments/5018956/5115249.png)![](https://docs2.aspose.com/cells/net/attachments/5018956/5115250.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5018956/5115249.png)![image](https://docs2.aspose.com/cells/net/attachments/5018956/5115250.png)
 
 ### Related Article
 

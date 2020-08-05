@@ -22,13 +22,13 @@ The purpose of this article is to let all developers learn how you can create a 
 
 First of all we will create a sample database that will be used in this article. We have used MS Access to create a sample database containing **Products** table whose schema is shown below:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112981.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112981.png)  
 
 **Figure:** Design information of **Products** table
 
 Few dummy records are added to the **Products** table as shown below in the figure:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112982.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112982.png)  
 
 **Figure:** Records in **Products** table
 
@@ -39,38 +39,38 @@ An **ASP.NET Web Application** is created and designed in Visual Studio.NET 2005
 
 First start VS.Net 2005.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112983.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112983.png)  
 
 **Figure:** Starting VS.Net 2005
 
 Create a new Web Site from the File|New|Web Site... Menu.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112984.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112984.png)  
 
 **Figure:** Creating a new WebSite
 
 After clicking File|New|Web Site... menu option, **New Web Site** dialog is shown. Click the **Browse** button in it.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112985.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112985.png)  
 
 **Figure:** New Web Site Dialog
 
 After clicking the **Browse** button, choose the location folder in the local IIS. You may create a new folder and make it as virtual folder as shown in the figure.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112987.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112987.png)  
 
 **Figure:** Creating a new Folder
 
   
 After clicking the **Open** button in the **Choose Location** dialog, **New Web Site** dialog will look like.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112986.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112986.png)  
 
 **Figure:** Setting Project Location
 
 Now the project is created  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112989.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112989.png)  
 
 **Figure:** Created Project
 
@@ -94,7 +94,7 @@ Now the project is created
 
 Once you find that tag, select that complete tag in the source code as shown below.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112988.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112988.png)  
 
 **Figure:** Selecting **<!DOCTYPE> tag**
 
@@ -109,7 +109,7 @@ Replace the **<!DOCTYPE>** tag from your source code with the following one.
 
   
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112991.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112991.png)  
 **Figure:** Modifying **<!DOCTYPE> tag**
 
 ##### *2\. After you will add the GridWeb control to the web form. You should select the control and choose the XhtmlMode property from the Properties window to set it to False.  
@@ -119,7 +119,7 @@ Replace the **<!DOCTYPE>** tag from your source code with the following one.
 
 Right-Click on **ToolBox** and select **Choose Items...** from the menu.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112990.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112990.png)  
 
 **Figure:** Choosing Items
 
@@ -127,18 +127,18 @@ Now select **GridWeb** component and click **OK**
 
   
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112993.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112993.png)  
 **Figure:** Selecting **GridWeb** component in the component dialog
 
 Now the **GridWeb** is added as show in the figure below.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112992.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112992.png)  
 
 **Figure:** **GridWeb** is added in the toolbox
 
 Place the **GridWeb** on the web form as shown below.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112995.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112995.png)  
 
 **Figure:** Placing **GridWeb** on the web page
 
@@ -149,62 +149,62 @@ Place the **GridWeb** on the web form as shown below.
 
 First we add the MS Access database to the project which we previously created in **Step 1** . You may see that **db.mdb** file is added to the project.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112994.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112994.png)  
 
 **Figure:** Added database to the project folder
 
 Now, we go to **Component Designer** window of the web form using the web page's right-click menu option.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112997.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112997.png)  
 
 **Figure:** Selecting **View Component Designer** option
 
 The Component Designer window is shown as below.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112996.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112996.png)  
 
 **Figure:** Component Designer Window
 
 Double-Click the **OleDbConnection** component from Data panel to place oleDbConnection1 object to window.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112999.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112999.png)  
 
 **Figure:** oleDbConnection1 object
 
 Now, it's time to connect with the database. We can do it easily by using **Server Explorer** in Visual Studio.NET 2005. Just select **Data Connection** in **Server Explorer** and right click. You will see a context menu appearing in front of you. Select **Add Connection...** option from the menu as shown below in the figure:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112998.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112998.png)  
 
 **Figure:** Selecting **Add Connection...** option from menu
 
   
 After selecting **Add Connection...** option from menu, **Add Connection** dialog will be opened and **Browse** to select the database file as shown below.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5113001.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5113001.png)  
 
 **Figure:** Selecting the database file
 
 You may test the Connection.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5113000.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5113000.png)  
 
 **Figure:** Testing the connection
 
 You may browse the connection to check the table and its fields.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112944.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112944.png)  
 
 **Figure:** Checking the table and its fields of the connection
 
 Now if you select **oleDbConnection1** object in the **Component Designer** window, you may select the connection string related the existing connection which is just created, it is there in the "ConnectionString" property of the **oleDbConnection1** object in the Properties window.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112945.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112945.png)  
 
 **Figure:** Selecting the connection string for the object
 
 Finally the object's modifier is changed to **Protected** for better accessibility.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112942.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112942.png)  
 
 **Figure:** Setting the modifier of the object
 
@@ -213,29 +213,29 @@ Finally the object's modifier is changed to **Protected** for better accessibili
 
 Now, add an **OleDbDataAdapter** component from the Data panel in the toolbox to configure it. Double-Click the **OleDbDataAdapter** in the Data panel of the toolbox, it will start its configuration wizard and select the existing connection as shown in the figure:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112943.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112943.png)  
 
 **Figure:** Data Adapter Configuration Wizard
 
 After clicking **Next** button, click the **Query Builder** to add the **Products** table, select All Columns and click **OK** button.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112940.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112940.png)  
 
 **Figure:** Adding Product table  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112941.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112941.png)  
 
 **Figure:** Query Builder
 
 Now click **Finish** button to finish the wizard.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112938.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112938.png)  
 
 **Figure:** Finishing the Wizard
 
 After configuring the wizard, the oleDbDataAdapter1 is automatically added to the window as shown below. Also, you may set its modifier to **Protected** .  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112939.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112939.png)  
 
 **Figure:** Retrieving the OleDbDataAdapter object on the designer window
 
@@ -244,25 +244,25 @@ After configuring the wizard, the oleDbDataAdapter1 is automatically added to th
 
 As we have created database connection and data adapter objects but still we need something where we can store data after conencting with database. A **DataSet** object can store data precisely and we can also generate it easily using VS.NET 2005 IDE. To do so, select **oleDbDataAdaper1** and right click. A context menu would be popped up with some options. Select **Generate** **DataSet...** option from the menu as shown below in the figure.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112952.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112952.png)  
 
 **Figure:** Selecting **Generate** **DataSet...** option from menu
 
 After selecting **Generate** **DataSet...** option from menu, a **Generate DataSet** dialog would be opened. Using this dialog, we can select that what would be the name of the new **DataSet** object to be created and which tables should be added to **DataSet** . Check **Add this dataset to designer** option and click **OK** button as shown below in the figure.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112953.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112953.png)  
 
 **Figure:** Clicking **OK** button to generate **DataSet**
 
 Now, you can see a **dataSet11** object added to designer as shown below in the figure. Set the object modifier to **Protected** .  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112950.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112950.png)  
 
 **Figure:** **DataSet** generated and added to the designer window
 
 Certain code is automatically generated in the .cs file related connection, data adapter, dataset object.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112951.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112951.png)  
 
 **Figure:** Generated Code
 
@@ -271,23 +271,23 @@ Certain code is automatically generated in the .cs file related connection, data
 
 Now, its time to open the secret. Select the control and right click. A context menu would be opened. Select Worksheets Designer... option from the menu as shown below in the figure.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112948.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112948.png)  
 
 **Figure:** Selecting **Worksheets Designer...** option from menu
 
 After that **Worksheet Collection Editor** dialog (also called **Worksheets Designer** ) will be opened, you can see several properties that can be configured to bind the **Sheet1** with any table in the database. Let's select **DataSource** property. Write **dataSet11** in it (that we generated and added to designer window in previous step). Then click on **DataMember** property. Write **Products** as a table name here as shown below in the figure:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112949.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112949.png)  
 
 **Figure:** Setting **DataSource** and **DataMember** properties
 
 Now, you can configure **BindColumns** property. After clicking it, Now you may add the binding columns and set the **Caption** , **DataField** (It should be same as **Products** table fields), and other properties. You can set the **IsAutoCreated** to **true** and apply **Validation** and set the **NumberType** of different fields for your requirements.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112946.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112946.png)  
 
 **Figure:** Clicking **BindColumns** property  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112947.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112947.png)  
 
 **Figure:** **BindColumn Collection Editor** dialog
 
@@ -298,11 +298,11 @@ We have used **Worksheets Designer** easily and now we just have to add some lin
 
 First we will add **OnInit** event related code to instialize **InitializeComponent** method to intialize and create connection, command, dataadapter and dataset objects. These lines of code are not added with the auto generated code, so we have to add them manually.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112961.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112961.png)  
 
 **Figure:** Adding some code1  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112960.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112960.png)  
 
 **Figure:** Adding some code2
 
@@ -363,7 +363,7 @@ End Sub
 
 You can also check the code added to **Page\_Load** event handler as shown below in the figure:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112959.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112959.png)  
 
 **Figure:** Code added to **Page\_Load** event handler
 
@@ -419,7 +419,7 @@ End Sub
 
 You can also check the code added to **GridWeb1\_SaveCommand** event handler as shown below in the figure:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112958.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112958.png)  
 
 **Figure:** Code added to **GridWeb1\_SaveCommand** event handler
 
@@ -430,13 +430,13 @@ Now, if you will save your changes to database using **Save** button of the **Gr
 
 Finally, we can compile and run our application by either pressing **Ctrl+F5** or clicking **Start** button. In the debugging dialog, you may specify appropriate debugging option and click **OK** button as shown below in the figure.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112957.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112957.png)  
 
 **Figure:** Running application
 
 After compilation, **Default.aspx** page of our web application will be opened in a new browser window where we can see all data loaded from database as shown below:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112956.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112956.png)  
 
 **Figure:** Data loaded into **GridWeb** control from database
 
@@ -447,7 +447,7 @@ When data is loaded into **GridWeb** control then you would feel that Aspose.Cel
 
 Aspose.Cells.GridWeb automatically creates appropriate validation rules for all bound columns according to their data types defined in the database. You can see the validation type of a cell by hovering your mouse pointer on it as shown below in the figure:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112955.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112955.png)  
 
 **Figure:** Checking validation type of a cell
 
@@ -458,13 +458,13 @@ In the above figure, we can see that selected cell contains **<INT>** type of va
 
 To delete a row, you should first select a row (or any cell of the row) and select **Delete Row** option from right click menu as shown below:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112954.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112954.png)  
 
 **Figure:** Selecting **Delete Row** option from menu
 
 After selecting **Delete Row** from menu, the row is deleted from the **GridWeb** . Now click **save** button of the **GridWeb** to delete that record in the original database table.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112969.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112969.png)  
 
 **Figure:** Grid data (after a row is deleted)
 
@@ -473,11 +473,11 @@ After selecting **Delete Row** from menu, the row is deleted from the **GridWeb*
 
 You may also edit data in cells or rows and then click **Save** button to save your changes.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112968.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112968.png)  
 
 **Figure:** Grid data (Editing Record1)  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112967.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112967.png)  
 
 **Figure:** Grid data (Editing Record2)
 
@@ -486,19 +486,19 @@ You may also edit data in cells or rows and then click **Save** button to save y
 
 To add a row, select **Add Row** option from right click menu as shown below:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112966.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112966.png)  
 
 **Figure:** Selecting **Add Row** option from menu
 
 A new row will be added to sheet at the end of the rows after selecting **Add Row** option from the menu. At the left of the newly added row, you would notice an **asterisk** mark, indicating that the row is a newly added.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112965.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112965.png)  
 
 **Figure:** New row added to Grid
 
 After input the values in the new row, click **Save** button to confirm the changes in the original database table as shown below  
   
-![](https://docs2.aspose.com/cells/net/attachments/5017582/5112964.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017582/5112964.png)  
 
 **Figure:** Saving changes to database table by clicking **Save** button
 

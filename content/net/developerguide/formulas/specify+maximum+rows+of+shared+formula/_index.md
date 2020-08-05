@@ -21,7 +21,7 @@ url: /net/developerguide/formulas/specify+maximum+rows+of+shared+formula/
 
 The default maximum rows of the shared formula are 64. It could be any number e.g. it could be 1000. The performance of shared formula changes with a different number of rows. Therefore, Aspose.Cells provides the [Workbook.Settings.MaxRowsOfSharedFormula](https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) property that can be used to specify the maximum rows of the shared formula. The shared formula will be split to several shared formulae if the total rows of the shared formula are greater than it as shown in the following screenshot.
 
-![](https://docs2.aspose.com/cells/net/attachments/61542290/61767855.png)
+![image](https://docs2.aspose.com/cells/net/attachments/61542290/61767855.png)
 
 ## Specify Maximum Rows of Shared Formula
 

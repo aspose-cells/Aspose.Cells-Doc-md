@@ -14,7 +14,7 @@ url: /reportingservices/faqs/clientissues/data+source+error/
 
 When publishing a report, Aspose.Cells.ReportingServices Client generates an error:  
   
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094874/6193258.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094874/6193258.png)
 
 ##### Solution
 
@@ -22,5 +22,5 @@ When publishing a report, Aspose.Cells.ReportingServices Client generates an err
 2.  Select **Share data source**.
 3.  Re-publish the report.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094874/6193259.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094874/6193259.png)
 

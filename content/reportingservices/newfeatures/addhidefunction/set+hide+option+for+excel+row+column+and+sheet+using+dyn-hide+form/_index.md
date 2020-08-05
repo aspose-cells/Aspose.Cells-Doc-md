@@ -18,5 +18,5 @@ Aspose.Cells for Reporting Services hides any specified row, column and sheet ba
 *   **Hide State** represents the hide state value. The value is true, false or an Excel formula. The parameter only supports Reporting Services report parameters.
 
 **Specifying hide options**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094941/6193404.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094941/6193404.png)
 

@@ -23,7 +23,7 @@ This article shows how to use Aspose.Cells for Java API to convert a worksheet t
 After executing the above code, the worksheet named Sheet1 is converted into an image file SheetImage.jpg.  
   
 **The output JPG**  
-![](https://docs2.aspose.com/cells/java/attachments/5276615/5472678.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276615/5472678.png)
 
 ### Using Aspose.Cells to Convert Worksheet to Image File by Page
 
@@ -34,10 +34,10 @@ This example shows how to use Aspose.Cells to convert a worksheet from a templat
 After executing the above code, the worksheet named Sheet1 is converted into two image files (1 per page) Sheet 1 Page 1.Tiff and Sheet 1 Page 2.Tiff.  
   
 **Generated image file (Sheet 1 Page 1.Tiff)**  
-![](https://docs2.aspose.com/cells/java/attachments/5276615/5472681.png)  
+![image](https://docs2.aspose.com/cells/java/attachments/5276615/5472681.png)  
   
 **Generated image file (Sheet 1 Page 2.Tiff)**  
-![](https://docs2.aspose.com/cells/java/attachments/5276615/5472676.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276615/5472676.png)
 
 This article shows how to convert a worksheet to an image file and convert worksheets with multiple pages to multiple image files (one per page) using Aspose.Cells. Aspose.Cells offers more flexibility than other components and provides outstanding speed, efficiency, and reliability. The results show that Aspose.Cells has benefited from years of research, design, and careful tuning.
 

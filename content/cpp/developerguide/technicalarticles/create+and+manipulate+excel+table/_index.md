@@ -27,7 +27,7 @@ Aspose.Cells allows you to create and manipulate new or existing list objects or
 
 The following sample code loads the [sample excel file](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167015.xlsx) and then creates a list object or table in a range `A1:H10`, then it makes use of its various methods and sets show subtotal. Then it sets the total functions of `3rd, 4th and 5th` columns to `Min`, `Max` and `Count` respectively and writes the [output excel file](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167016.xlsx). The following screenshot shows the effect of the sample code on the [sample excel file](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167015.xlsx) after execution.
 
-![](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167017.png)
+![image](https://docs2.aspose.com/cells/cpp/attachments/22970935/23167017.png)
 
 ## Sample Code
 

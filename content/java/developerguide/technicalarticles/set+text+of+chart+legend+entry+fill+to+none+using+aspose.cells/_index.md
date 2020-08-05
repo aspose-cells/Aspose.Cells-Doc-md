@@ -18,6 +18,6 @@ The following sample code sets the text of the chart's second legend entry fill 
 
 The following screenshot highlights the effect of this code on [sample excel file](https://docs2.aspose.com/cells/java/attachments/5276030/5473437.xlsx).
 
-![](https://docs2.aspose.com/cells/java/attachments/5276030/5473438.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276030/5473438.png)
 
 

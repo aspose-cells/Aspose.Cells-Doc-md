@@ -18,10 +18,10 @@ The following sample code loads only shape objects while loading the workbook fr
 
 The following screenshot shows the [template file](https://docs2.aspose.com/cells/java/attachments/5275666/5472556.xlsx) contents and also explains that the data in Red color and Yellow background will not be loaded because the [LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/loadfilter#LoadDataFilterOptions)property has been set to [LoadDataFilterOptions.SHAPE](https://apireference.aspose.com/java/cells/com.aspose.cells/loaddatafilteroptions#SHAPE).
 
-![](https://docs2.aspose.com/cells/java/attachments/5275666/5472555.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275666/5472555.png)
 
 The following screenshot shows the [output PDF](https://docs2.aspose.com/cells/java/attachments/5275666/5472554.pdf) which you can download from the given link. Here you can see, the data in Red color and Yellow background is not present but all shapes are there.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275666/5472553.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275666/5472553.png)
 
 

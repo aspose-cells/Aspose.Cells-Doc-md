@@ -23,6 +23,6 @@ Please set the comment of the Table or List Object inside the worksheet using th
 
 The following sample code loads the [source excel file](https://docs2.aspose.com/cells/java/attachments/5276080/5472561.xlsx), sets the comment of the first table or list object inside the worksheet and the screenshot shows the comment created by this code in the red rectangle.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276080/5473434.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276080/5473434.png)
 
 

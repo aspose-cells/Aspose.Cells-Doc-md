@@ -29,7 +29,7 @@ By installing Aspose.Cells for Reporting Services on a development machine and f
         (where `<InstallDir>` is the directory where you installed or unpacked Aspose.Cells for Reporting Services.  
           
         **Adding a reference to Aspose.Cells.ReportingServices.dll to a project**  
-        ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094921/6193418.png)  
+        ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094921/6193418.png)  
           
         
 2.  Copy and paste the following `AddExtension` method into the project.  
@@ -117,5 +117,5 @@ extensions.Add(instance);
     3.  Verify that the document is created the way you expected.
 
 **New export formats appear in Report Viewer running in local mode**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094921/6193419.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094921/6193419.png)
 

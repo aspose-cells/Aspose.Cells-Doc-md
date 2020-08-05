@@ -50,7 +50,7 @@ This initial version of the control provides the following features:
 *   Option to save each exported document on server at configurable disk path
 *   Option to export current page or all pages when paging is enabled
 
-![](https://docs2.aspose.com/cells/net/attachments/5020349/5115269.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115269.png)
 
 This control allows you to export GridView in the following different file formats.
 
@@ -118,24 +118,18 @@ On the Tools menu, click Choose Toolbox Items.
 
 When you open an aspx or ascx control in the left side Toolbox you will see ExportGridViewToWord under General Tab
 
-![](https://docs2.aspose.com/cells/net/attachments/5020349/5115270.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115270.png)
 
 ## **Using**
 
 Once installed, it is very easy to start using this control in your ASP.NET applications
 
-For .NET framework 4.0 and above
-
-For .NET framework 2.0 and above
-
-For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportGridViewToExcel** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started.
-
-In order you use this control in applications running in .NET 2.0 in any visual studio version make sure that you have added ExportGridViewToExcel to your toolbox as per instructions on ﻿[8.1.2.1 Downloading and Installing](#) under heading **For Visual Studio 2005, 2008 and Express editions**  
-You should see **ExportGridViewToExcel** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started.
-
-![](download/thumbnails/5020349/568878106)  
-
-![](download/thumbnails/5020349/1489014690)  
+{{< table style="table-striped" >}}
+|For .NET framework 4.0 and above|For .NET framework 2.0 and above|
+|:----|:----|
+|For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportGridViewToExcel** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started.|In order you use this control in applications running in .NET 2.0 in any visual studio version make sure that you have added ExportGridViewToExcel to your toolbox as per instructions on ﻿[8.1.2.1 Downloading and Installing](#) under heading **For Visual Studio 2005, 2008 and Express editions**  <br>You should see **ExportGridViewToExcel** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started.|
+|![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115272.png)|![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115271.png)|
+{{< /table >}} 
 
 ### Manually adding ExportGridViewToExcel control
 
@@ -145,22 +139,22 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 2.  Add reference to **Aspose.Excel.GridViewExport.dll** available in extracted download package in your ASP.NET project or web application. Make sure your web application/Visual Studio have full access to this folder otherwise you might get Access is denied exception.
 3.  Add this line to the top of the page, control or MasterPage
     
-    <%@ Register assembly="Aspose.Excel.GridViewExport" namespace="Aspose.Excel.GridViewExport" tagprefix="aspose" %>
+    {{< code lang="html" >}}<%@ Register assembly="Aspose.Excel.GridViewExport" namespace="Aspose.Excel.GridViewExport" tagprefix="aspose" %>{{< /code >}}
     
 4.  Add the following to a place on your ASP.NET page, control or masterpage where you want the control to be added
     
-    <aspose:ExportGridViewToExcel ID="ExportGridViewToExcel1" runat="server"></aspose:ExportGridViewToExcel>
+    {{< code lang="html" >}}<aspose:ExportGridViewToExcel ID="ExportGridViewToExcel1" runat="server"></aspose:ExportGridViewToExcel>{{< /code >}}
     
 
 ### FAQs
 
 Common questions and issues you might face while using this Control
 
-{{< table style="table-striped" >}}
+{{{< table style="table-striped" >}}
 |# |Question|Answer|
 |:----|:----|:----|
-|1|I cannot see ExportGridViewToExcel control in Toolbox|**Visual Studio 2010 and higher**    1.Make sure that you have installed this control using VSIX extension file found in downloaded package. To verify go to Tools -> Extension and Updates. Unders Installed you should see 'Aspose Export Export GridView To Excel Control'. If don't see it please try re-installing it    2.Make sure your web application is running in .NET framework 4.0 or higher, for lower versions of .NET framework please check the above alternate method.**Older Versions of Visual Studio**    3.Make sure that you have manually added this control to your Toolbox as per above instructions.|
-|2|I am getting 'Access is denied' error when running the application|If you are experiencing this problem on production then make sure that you copy both Aspose.Excel.dll and Aspose.Excel.GridViewExport.dll to your bin folder.If you are using Visual Studio make sure to run it as Administrator even if you are already logged-in as administrator.|
+|1|I cannot see ExportGridViewToExcel control in Toolbox|**Visual Studio 2010 and higher**    <br><br>1.Make sure that you have installed this control using VSIX extension file found in downloaded package. To verify go to Tools -> Extension and Updates. Unders Installed you should see 'Aspose Export Export GridView To Excel Control'. If don't see it please try re-installing it    <br><br>2.Make sure your web application is running in .NET framework 4.0 or higher, for lower versions of .NET framework please check the above alternate method.**Older Versions of Visual Studio**    <br><br>3.Make sure that you have manually added this control to your Toolbox as per above instructions.|
+|2|I am getting 'Access is denied' error when running the application|If you are experiencing this problem on production then make sure that you copy both Aspose.Excel.dll and Aspose.Excel.GridViewExport.dll to your bin folder.<br><br>If you are using Visual Studio make sure to run it as Administrator even if you are already logged-in as administrator.|
 {{< /table >}}
 
 ### Aspose .NET Export GridView To Excel Control Properties
@@ -172,7 +166,7 @@ The following properties are exposed to configure and use cool features provided
 |:----|:----|:----|:----|
 |ExportButtonText|string  |Export to Excel|You can use this property to override existing default text  |
 |ExportButtonCssClass|string  |btn btn-primary  |Css Class that is applied to the outer div of the export button. To apply css on button you can use .yourClass input|
-|ExportFileHeading|string  |<h4>GridView Export Example Report</h4>|You can use html tags to add style to your heading  |
+|ExportFileHeading|string  |\<h4\>GridView Export Example Report\</h4\>|You can use html tags to add style to your heading  |
 |ExportOutputFormat|enum|Xlsx, Xlsb, Xls, Txt, Csv, Ods|Output format of the exported document. Supported formats are Xlsx, Xlsb, Xls, Txt, Csv, Ods|
 |ExportOutputPathOnServer|string  |c:  temp|Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path.|
 |ExportDataSource|object  |allRowsDataTable  |Sets the object from which this data-bind control retrieves its list of data items. The object must have all the data that need to be exported. This property is used in addition to normal DataSource property and is useful when custom paging is enabled and current page only fetches rows to be displayed on screen.  |
@@ -195,7 +189,7 @@ An example of Export GridView to Excel control with all properties used is shown
 
 Please check [the video](https://www.youtube.com/watch?v=_fSq_3TP1oM) below to see the module in action.
 
-![](https://www.youtube.com/embed/_fSq_3TP1oM?rel=0)
+![image](https://www.youtube.com/embed/_fSq_3TP1oM?rel=0)
 
 ## **Support, Extend and Contribute**
 

@@ -34,7 +34,7 @@ To sort data in Microsoft Excel:
 Generally, sorting is performed on a list - defined as a contiguous group of data where the data is displayed in columns.
 
 **The Sort dialog box in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276730/5473351.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276730/5473351.png)
 
 ### Sorting Data with Aspose.Cells
 
@@ -52,12 +52,12 @@ This example shows how to sort data using `Aspose.Cells` API. The example uses a
 This example uses the template file "Book1.xls" created in Microsoft Excel.
 
 **Template Excel file complete with data**  
-![](https://docs2.aspose.com/cells/java/attachments/5276730/5473350.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276730/5473350.png)
 
 After executing the code below, data is sorted appropriately as you can see from the output Excel file.
 
 **Output Excel file after sorting data**  
-![](https://docs2.aspose.com/cells/java/attachments/5276730/5473353.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276730/5473353.png)
 
 To sort *LeftToRight*, use the [DataSorter.SortLeftToRight](https://apireference.aspose.com/java/cells/com.aspose.cells/datasorter#SortLeftToRight) attribute.
 

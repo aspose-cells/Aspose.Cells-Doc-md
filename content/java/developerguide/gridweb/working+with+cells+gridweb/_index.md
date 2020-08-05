@@ -86,19 +86,19 @@ The formula syntax should be compatible with Microsoft Excel syntax. For example
 To add a formula programmatically, Aspose.Cells.GridWeb will recognize it as a formula even if you don't use an **\=** sign, but if end users working in the GUI must use it.
 
 **Formula added to B3 cell but not calculated by GridWeb**  
-![](https://docs2.aspose.com/cells/java/attachments/5276825/5472801.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276825/5472801.png)
 
 In the above screenshot, you can see that a formula has been added to B3 but has not been calculated yet. To calculate all formulas, call the GridWeb control's `GridWorksheetCollection` 's `calculateFormula` method after adding formulas to worksheets as shown below.
 
 Users can also calculate formulas by clicking **Submit**.
 
 **Clicking Submit button of GridWeb**  
-![](https://docs2.aspose.com/cells/java/attachments/5276825/5472799.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276825/5472799.png)
 
 **IMPORTANT**: If a user clicks the **Save** or **Undo** buttons, or the sheet tabs, all formulas are calculated by GridWeb automatically.
 
 **Formula result after calculation**  
-![](https://docs2.aspose.com/cells/java/attachments/5276825/5472798.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276825/5472798.png)
 
 ### Referencing Cells from Other Worksheets
 
@@ -112,7 +112,7 @@ Aspose.Cells.GridWeb allows you to add **Data Validation** using the `GridWorksh
 
 The following sample code creates a **Data Validation** in a cell B3. If you enter any value which is not between 20 and 40, the cell B3 will show **Validation Error** in the form of **Red XXXX** as shown in this screenshot.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276825/5472384.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276825/5472384.png)
 
 ## Creating Custom Command Buttons
 
@@ -120,11 +120,11 @@ Aspose.Cells.GridWeb contains special buttons like Submit, Save, and Undo. All t
 
 The following sample code explains how to create a custom command button and how to handle its click event. You can use any icon for your custom command button. For illustration purpose, we used this image icon.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276825/5472385.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276825/5472385.png)
 
 As you can see in the following screenshot, when the user clicks the custom command button, it adds a text in cell A1 saying **"My Custom Command Button is Clicked."**
 
-![](https://docs2.aspose.com/cells/java/attachments/5276825/5472383.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276825/5472383.png)
 
 ### Event Handling of Custom Command Button
 
@@ -142,7 +142,7 @@ If you have not set the cell style to `Percentage Format`, then input data 3% wi
 
 The following sample code sets the cell A1 `GridTableItemStyle.NumberType` as 10, therefore the input data 3% automatically be formatted as 3.00% as shown in the screenshot.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276825/5472485.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276825/5472485.png)
 
 ### Sample Code
 

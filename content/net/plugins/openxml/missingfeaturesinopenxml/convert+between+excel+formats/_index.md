@@ -10,7 +10,7 @@ url: /net/plugins/openxml/missingfeaturesinopenxml/convert+between+excel+formats
 # Aspose.Cells for .NET : Convert between Excel formats
 
 
-![](download/thumbnails/5020532/887745142)
+![image](download/thumbnails/5020532/887745142)
 
 ## Converting Excel to PDF
 

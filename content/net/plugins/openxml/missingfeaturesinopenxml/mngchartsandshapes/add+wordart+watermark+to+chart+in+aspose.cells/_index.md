@@ -15,11 +15,11 @@ You can use WordArt to add special text effects to spreadsheets. For example, st
 The following example shows how to add a WordArt shape as a watermark for an existing chart’s plot area. The example uses a template Excel file that already contains the chart.
 
 **The input file**  
-![](download/thumbnails/5020414/1612888729)
+![image](download/thumbnails/5020414/1612888729)
 
 **The output file**
 
-![](download/thumbnails/5020414/700483713)
+![image](download/thumbnails/5020414/700483713)
 
 **C#**
 

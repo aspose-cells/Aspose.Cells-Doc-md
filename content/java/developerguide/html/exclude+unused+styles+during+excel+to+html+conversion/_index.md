@@ -21,7 +21,7 @@ url: /java/developerguide/html/exclude+unused+styles+during+excel+to+html+conver
 
 Microsoft Excel file may contain many unused styles. When you export the Excel file to HTML format, these unused styles are also exported. This can increase the size of HTML. You can exclude the unused styles during the conversion of Excel file to HTML using the [HtmlSaveOptions.ExcludeUnusedStyles](https://apireference.aspose.com/javascript/cells/aspose.cells/htmlsaveoptions#ExcludeUnusedStyles) property. When you set it **true**, all unused styles are excluded from output HTML. The following screenshot displays a sample unused style inside the output HTML. 
 
-![](https://docs2.aspose.com/cells/java/attachments/61540998/61767780.png)
+![image](https://docs2.aspose.com/cells/java/attachments/61540998/61767780.png)
 
 ## Exclude Unused Styles during Excel to HTML conversion
 

@@ -27,7 +27,7 @@ Please use [IPivotTableCollection.Add()](https://apireference.aspose.com/cpp/cel
 
 The following sample code shows how to create a pivot table and work with it. Please check the [output excel file](https://docs2.aspose.com/cells/cpp/attachments/22970931/23167010.xlsx) generated with this code and the following screenshot showing the [output excel file](https://docs2.aspose.com/cells/cpp/attachments/22970931/23167010.xlsx) in Microsoft Excel.
 
-![](https://docs2.aspose.com/cells/cpp/attachments/22970931/23167011.png)
+![image](https://docs2.aspose.com/cells/cpp/attachments/22970931/23167011.png)
 
 ## Sample Code
 

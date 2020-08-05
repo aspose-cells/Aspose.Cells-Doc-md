@@ -17,7 +17,7 @@ Similarly, it is possible to split cells by creating a range and calling the [Ra
 
 The following image shows the output Excel file generated with the sample code. As you can see, the range A1:D4 has been merged into a single cell.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276677/5472902.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276677/5472902.png)
 
 
 #### Related Articles

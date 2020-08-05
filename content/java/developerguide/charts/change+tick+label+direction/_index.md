@@ -32,11 +32,11 @@ The following image compares the source and output files
 
 #### Source file image
 
-![](https://docs2.aspose.com/cells/java/attachments/105284039/105480224.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/105284039/105480224.jpg)
 
 #### Output file image
 
-![](https://docs2.aspose.com/cells/java/attachments/105284039/105480225.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/105284039/105480225.jpg)
 
 The following code snippet changes the tick label direction from [ROTATE\_90](https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#ROTATE_90) to [HORIZONTAL](https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 

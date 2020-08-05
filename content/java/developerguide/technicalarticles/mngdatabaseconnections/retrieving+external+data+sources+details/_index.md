@@ -21,6 +21,6 @@ The following example shows how to get database connection and other details. Th
 When the code runs, the connection details are printed to the console.
 
 **SQL connection information**  
-![](https://docs2.aspose.com/cells/java/attachments/5276454/5472973.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276454/5472973.png)
 
 

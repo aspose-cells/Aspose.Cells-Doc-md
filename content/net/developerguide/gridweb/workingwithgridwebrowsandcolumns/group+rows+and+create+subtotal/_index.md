@@ -45,7 +45,7 @@ When the rows are grouped, an expand/collapse button is displayed at the top of 
 The following example groups the rows from 2nd row to 10th row.
 
 **Grouping rows**  
-![](https://docs2.aspose.com/cells/net/attachments/5013767/5115403.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013767/5115403.png)
 
 {{< code lang="cs" >}}
 // Accessing the reference of the worksheet that is currently active
@@ -60,7 +60,7 @@ sheet.Cells.GroupRows(1, 9);
 You can create levels of organization while grouping a set of rows. You may group rows among the grouped rows. The following example shows nesting grouped rows.
 
 **Grouping rows**  
-![](https://docs2.aspose.com/cells/net/attachments/5013767/5115406.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013767/5115406.png)
 
 {{< code lang="cs" >}}
 // Accessing the reference of the worksheet that is currently active
@@ -206,7 +206,7 @@ Calculates the sum of the values.
 The following example generates the subtotals that calculates the non-numeric values grouped by the second column in the worksheet.
 
 **Subtotals**  
-![](https://docs2.aspose.com/cells/net/attachments/5013767/5115405.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013767/5115405.png)
 
 sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int\[\] { 1, 2, 3, 4, 5 });
 

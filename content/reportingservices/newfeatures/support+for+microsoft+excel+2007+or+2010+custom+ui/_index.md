@@ -13,5 +13,5 @@ url: /reportingservices/newfeatures/support+for+microsoft+excel+2007+or+2010+cus
 Aspose.Cells for Reporting Services Designer supports Microsoft Excel 2007 and 2010 custom user interface and you can easily use this interface to get a new look and feel.
 
 **Aspose.Cells supports the latest version of Microsoft Excel**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094919/6193422.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094919/6193422.png)
 

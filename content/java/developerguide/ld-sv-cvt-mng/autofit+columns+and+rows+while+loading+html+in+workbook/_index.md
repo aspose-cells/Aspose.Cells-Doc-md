@@ -25,7 +25,7 @@ You can autofit columns and rows while loading your HTML file inside the [Workbo
 
 The following sample code first loads the sample HTML into Workbook without any load options and saves it in XLSX format. It then again loads the sample HTML into Workbook but this time, it loads the HTML after setting the [HtmlLoadOptions.AutoFitColsAndRows](https://apireference.aspose.com/java/cells/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) property to **true **and saves it in XLSX format. Please download both the output excel files i.e.[Output Excel File Without AutoFitColsAndRows](https://docs2.aspose.com/cells/java/attachments/25002947/25395235.xlsx) and [Output Excel File With AutoFitColsAndRows](https://docs2.aspose.com/cells/java/attachments/25002947/25395237.xlsx). The following screenshot shows the effect of [HtmlLoadOptions.AutoFitColsAndRows](https://apireference.aspose.com/java/cells/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) property on both output excel files.
 
-![](https://docs2.aspose.com/cells/java/attachments/25002947/25395236.png)
+![image](https://docs2.aspose.com/cells/java/attachments/25002947/25395236.png)
 
 ## Sample Code
 

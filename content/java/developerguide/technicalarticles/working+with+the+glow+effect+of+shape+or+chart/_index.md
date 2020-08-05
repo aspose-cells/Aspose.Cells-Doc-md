@@ -29,7 +29,7 @@ Aspose.Cells provides the `Shape.Glow` property to work with the glow effect of 
 
 The following screenshot shows Microsoft Excel interface to set the `Glow Effect` of Shape.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275791/5472526.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275791/5472526.png)
 
 ## Working with the Glow Effect of Shape or Chart
 

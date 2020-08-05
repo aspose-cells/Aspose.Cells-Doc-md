@@ -19,6 +19,6 @@ The following example shows how to add a WordArt shape to set a background water
 After running the code the output file contains a pale red WordArt watermark.
 
 **The output file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276685/5472850.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276685/5472850.png)
 
 

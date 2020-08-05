@@ -72,8 +72,8 @@ This method is applicable for use with JasperServer.
 Export any report to XLS format and check if the report contains an evaluation message. If there is no evaluation message, then the license is working properly.  
 
 **Aspose.Cells for JasperReports injects an evaluation worksheet in evaluation mode**  
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619153/6848521.png)  
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619153/6848521.png)  
   
 **When a valid license there is no evaluation worksheet**  
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619153/6848522.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619153/6848522.png)
 

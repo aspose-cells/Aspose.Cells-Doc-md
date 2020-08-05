@@ -19,5 +19,5 @@ The download for both evaluation and full versions of Aspose.Cells for SharePoin
 Evaluation mode adds an evaluation warning into any exported documents. When you have purchased a license, simply [install the license](https://docs2.aspose.com/cells/sharepoint/productinformation/license/installing+aspose.cells+for+sharepoint+license) and it will work in licensed mode.
 
 **In evaluation mode, Aspose.Cells for SharePoint injects an Evaluation Warning**  
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6356996/6488104.png)
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356996/6488104.png)
 

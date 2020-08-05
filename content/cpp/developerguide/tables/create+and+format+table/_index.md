@@ -42,7 +42,7 @@ There are quite a few advantages when you convert a list of data to an actual Li
 {{< table style="table-striped" >}}
 |Selecting data range for creating List object|
 |:----|
-|![](http://i.imgur.com/jHcNq4o.png)|
+|![image](http://i.imgur.com/jHcNq4o.png)|
 {{< /table >}}
 
 This displays the Create List dialog.
@@ -50,7 +50,7 @@ This displays the Create List dialog.
 {{< table style="table-striped" >}}
 |Create List dialog|
 |:----|
-|![](http://i.imgur.com/kJmukRF.png)|
+|![image](http://i.imgur.com/kJmukRF.png)|
 {{< /table >}}
 
 Implementing the List object for the data and specifying total row (Select **Data**, then **List**, followed by **Total Row**).
@@ -58,7 +58,7 @@ Implementing the List object for the data and specifying total row (Select **Dat
 {{< table style="table-striped" >}}
 |Creating a list object|
 |:----|
-|![](http://i.imgur.com/ECSGVdR.png)|
+|![image](http://i.imgur.com/ECSGVdR.png)|
 {{< /table >}}
 
 ### Using Aspose.Cells API

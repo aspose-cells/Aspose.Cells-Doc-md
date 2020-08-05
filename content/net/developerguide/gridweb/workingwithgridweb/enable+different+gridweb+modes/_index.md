@@ -40,7 +40,7 @@ By default, the `Aspose.Cells.GridWeb` control is in Edit mode. In Edit mode, yo
 *   Formatting cells etc.
 
 **GridWeb control in Edit Mode**  
-![](https://docs2.aspose.com/cells/net/attachments/5013748/5115438.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013748/5115438.png)
 
 Developers can also switch to Edit mode programmatically by setting the `EditMode` property of the GridWeb control to `true`.
 
@@ -53,7 +53,7 @@ Whenever a user clicks the **Undo** button, it brings the GridWeb to its previou
 When the GridWeb control is in View mode, users cannot edit or modify grid content, which means that users can only view grid content. That's why this mode is called View mode. In View mode, a few buttons (**Submit**, **Save** and **Undo**) are hidden and the menu that appears when right-clicking only contians the **Copy** option.
 
 **GridWeb control in View Mode**  
-![](https://docs2.aspose.com/cells/net/attachments/5013748/5115438.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013748/5115438.png)
 
 If developers would like their users to only view data then they can switch to View mode programmatically by setting the GridWeb control's `EditMode` property to `false`.
 

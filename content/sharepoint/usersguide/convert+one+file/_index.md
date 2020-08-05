@@ -19,7 +19,7 @@ To convert a particular document in a document library:
 1.  Select **Convert with Aspose.Cells.SharePoint** in the document's Edit Control Block (ECB).  
       
     **Selecting “Convert via Aspose.Cells” item in the document’s ECB**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357006/6488114.png)  
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357006/6488114.png)  
       
     The conversion settings screen is displayed. Here, you can fine-tune the conversion:
 2.  Select the destination file format from the **Convert to** list.
@@ -30,5 +30,5 @@ To convert a particular document in a document library:
     (Or go back to the library, dismissing your settings, by clicking **Cancel**.)
 
 **Conversion Settings screen for one file conversion**  
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6357006/6488117.png)
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357006/6488117.png)
 

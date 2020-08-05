@@ -27,7 +27,7 @@ To view the protection settings available in Excel XP:
     A dialog is displayed.  
       
     **Dialog to show protection options in Excel XP**  
-    ![](https://docs2.aspose.com/cells/net/attachments/5020675/5115079.png)
+    ![image](https://docs2.aspose.com/cells/net/attachments/5020675/5115079.png)
 2.  Allow or restrict worksheets features or apply a password.
 
 #### Advanced Protection Settings Using Aspose.Cells

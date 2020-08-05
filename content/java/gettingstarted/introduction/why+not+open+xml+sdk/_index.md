@@ -32,7 +32,7 @@ Aspose.Cells is a class library that allows your application to perform the foll
 
 #### *Compare Open XML SDK and Aspose.Words*
 
-The following table compares Open XML SDK and Aspose.Cells features.
+![image](https://docs2.aspose.com/cells/java/attachments/thumbnails/41550542/ri.png)The following table compares Open XML SDK and Aspose.Cells features.
 
 {{< table style="table-striped" >}}
 |Feature or Feature Category|Open XML SDK|Aspose.Cells|
@@ -50,7 +50,7 @@ The following table compares Open XML SDK and Aspose.Cells features.
 
 #### *Conclusion*
 
-Open XML SDK and Aspose.Cells do not compete head to head because they address quite different needs and audiences. Open XML SDK is a class library to provide a strong-typed way to work with OOXML documents. Aspose.Cells is a very useful spreadsheet processing library that provides great support for all Microsoft Excel and other file formats. If all you need to do is a fairly basic programming operation on a XLSX document, then Open XML SDK might be a suitable choice. With Open XML SDK you will be fairly comfortable doing simple tasks like generating a simple XLSX document or removing comments, headers/footers, extracting images or others. Some tasks can be achieved with Open XML SDK, but cannot be achieved with Aspose.Cells. For example, if you need to directly access the XML elements and attributes of an OOXML document, then you should use Open XML SDK.However, if you need to perform complex operations on documents, such as some of the following tasks, then using Aspose.Cells is your best option:
+![image](https://docs2.aspose.com/cells/java/attachments/thumbnails/41550542/ri.png)Open XML SDK and Aspose.Cells do not compete head to head because they address quite different needs and audiences. Open XML SDK is a class library to provide a strong-typed way to work with OOXML documents. Aspose.Cells is a very useful spreadsheet processing library that provides great support for all Microsoft Excel and other file formats. If all you need to do is a fairly basic programming operation on a XLSX document, then Open XML SDK might be a suitable choice. With Open XML SDK you will be fairly comfortable doing simple tasks like generating a simple XLSX document or removing comments, headers/footers, extracting images or others. Some tasks can be achieved with Open XML SDK, but cannot be achieved with Aspose.Cells. For example, if you need to directly access the XML elements and attributes of an OOXML document, then you should use Open XML SDK.However, if you need to perform complex operations on documents, such as some of the following tasks, then using Aspose.Cells is your best option:
 
 *   Support other file formats in addition to XLSX.
 *   Copy fragments and worksheets between workbooks or join workbooks in a way that combines objects, styles and other formatting in an appropriate manner.

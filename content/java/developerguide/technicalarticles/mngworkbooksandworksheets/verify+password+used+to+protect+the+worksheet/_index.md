@@ -21,5 +21,5 @@ The [Protection.verifyPassword](https://apireference.aspose.com/java/cells/com.a
 
 I've read some excellent stuff here. Definitely price bookmarking for revisiting. I surprise how much effort you place to create this type of great informative site. acdbaaefbefkadeb
 
-![](https://docs2.aspose.com/cells/java/images/icons/contenttypes/comment_16.png) Posted by at Feb 11, 2017 07:28
+![image](https://docs2.aspose.com/cells/java/images/icons/contenttypes/comment_16.png) Posted by at Feb 11, 2017 07:28
 

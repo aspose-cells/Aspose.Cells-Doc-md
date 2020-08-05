@@ -25,7 +25,7 @@ You can customize row and column caption of GridDesktop worksheet. Normally, row
 
 The following sample code implements `ICustomRowCaption` and `ICustomColumnCaption` interfaces and changes the captions of rows and columns. The screenshot shows the result of the execution of this sample code for a reference.
 
-![](https://docs2.aspose.com/cells/net/attachments/48136523/48496687.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/48136523/48496687.png)  
 
 ## Sample Code
 

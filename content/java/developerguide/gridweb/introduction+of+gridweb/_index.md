@@ -31,18 +31,18 @@ This article describes how to run Aspose.Cells for GridWeb Java Demos in Apache 
 
 1.  Extract **apache-tomcat-7.0.52.zip** in any directory e.g C:\\Tomcat  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472644.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472644.png)  
       
     The following snapshot shows the extracted directories and files of the Apache Tomcat server  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472630.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472630.png)  
       
     You might also need to set the environment variable **CATALINA\_HOME**  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472631.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472631.png)
 2.  Open the **tomcat-users.xml** file.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472632.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472632.png)
 3.  Add this user:
     
 {{< code lang="cs" >}}
@@ -53,50 +53,50 @@ This article describes how to run Aspose.Cells for GridWeb Java Demos in Apache 
       
       
     **Here the user name is tomcat and the password is secret**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472633.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472633.png)
     
 4.  Run the **startup.bat** file.  
     It will run the Apache Tomcat Server.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472634.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472634.png)  
       
     **Tomcat server running in a command window**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472635.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472635.png)
 5.  Now open the browser and type **localhost:8080**.  
     The Apache Tomcat web page is displayed.  
       
     **The Apache Tomcat web page**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472636.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472636.png)
 6.  Click **Manager App** and type user name and password. (As above: tomcat, secret)  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472637.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472637.png)
 7.  Scroll down to the section **WAR file to deploy** and browse the **gridwebdemo.war** file.
 8.  Click **Deploy**.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472622.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472622.png)
 9.  Browse **gridwebdemo.war** file.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472623.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472623.png)
 10.  Click **Deploy**.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472624.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472624.png)
 11.  Once it is deployed, click **/gridwebdemo** and start running demos.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472626.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472626.png)  
     The GridWeb Demo page is displayed.  
       
     **The GridWeb Demo page**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472625.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472625.png)
 12.  Click any demo and run it.  
       
     **Creating contents demo running**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472627.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472627.png)  
       
     **Worksheets demo running**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472628.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472628.png)  
       
     **HeaderBar and CommandButton demo running**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276809/5472629.png)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276809/5472629.png)
 
 ## Aspose.Cells.GridWeb - Demos
 

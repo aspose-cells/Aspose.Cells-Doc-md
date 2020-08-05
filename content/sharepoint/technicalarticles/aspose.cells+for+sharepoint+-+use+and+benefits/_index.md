@@ -21,7 +21,7 @@ SharePoint sites are meant for collaboration, communication and content storage 
 The contents on SharePoint sites are in the form of documents shared at a centralized location called a SharePoint document library (sometimes known as a "shared document library"). Authorized users can upload documents from their local machine to the SharePoint site. These documents are stored in binary format in an SQL Server database used by the SharePoint site. Documents become available to other SharePoint users in the form of a list of hyperlinks as shown below:
 
 **A document library**  
-![](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-001.png")
+![image](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-001.png")
 
 ### Benefits
 
@@ -39,7 +39,7 @@ The following list highlights a few benefits of using Aspose.Cells for SharePoin
 Once Aspose.Cells for SharePoint is installed on the SharePoint server, the option **Convert with Aspose.Cells.SharePoint** is available in the context menu:  
   
 **Finding the Convert with... option**  
-![](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-002.png")  
+![image](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-002.png")  
   
 
 To convert a Microsoft Excel document from your SharePoint document library into other formats, follow the below steps:
@@ -48,7 +48,7 @@ To convert a Microsoft Excel document from your SharePoint document library into
     The Conversion Settings screen is displayed.  
       
     **Deciding to convert**  
-    ![](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-003.png")  
+    ![image](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-003.png")  
       
     
 2.  Select the output format.  
@@ -56,20 +56,20 @@ To convert a Microsoft Excel document from your SharePoint document library into
 3.  Click **Convert**.  
       
     **Selecting the output format**  
-    ![](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-004.png")  
+    ![image](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-004.png")  
       
     
 4.  When the conversion is complete, a success message is displayed.  
       
     **Successful conversion**  
-    ![](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-005.png")  
+    ![image](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-005.png")  
       
     
 5.  Click **Return** to get back to the document library.
 6.  The converted document is listed in the SharePoint document library.  
       
     **The converted file is listed in the document library**  
-    ![](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-006.png")
+    ![image](plugins/servlet/confluence/placeholder/unknown-attachment "Aspose.Cells for SharePoint – Usage and Benefits-006.png")
 
 ### Summary
 

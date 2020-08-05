@@ -13,7 +13,7 @@ url: /java/developerguide/data/find+or+search+data/
 In Microsoft Excel, users can search for cells that contain specific data. For example, clicking **Edit** and then **Find** opens the Search dialog. Users enters a value and clicks **OK** to search for it. Excel highlights matching fields.
 
 **Using the Find dialog to find cells containing a specific value**  
-![](https://docs2.aspose.com/cells/java/attachments/5276729/5473347.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276729/5473347.png)
 
 In this example, the search value is "Oranges".
 
@@ -48,7 +48,7 @@ Typically, the [find](https://apireference.aspose.com/java/cells/com.aspose.cell
 *   Find Options: represents the Finding criteria. In the examples below, the following worksheet data is used to practice finding methods:
 
 **Sample worksheet data**  
-![](https://docs2.aspose.com/cells/java/attachments/5276729/5473346.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276729/5473346.png)
 
 
 ## Searching for Strings

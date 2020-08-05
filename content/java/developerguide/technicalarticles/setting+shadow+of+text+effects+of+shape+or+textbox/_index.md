@@ -24,6 +24,6 @@ You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please u
 
 The following screenshot shows the [output excel file](https://docs2.aspose.com/cells/java/attachments/5275660/5473446.xlsx) generated with the following sample code. The screenshot also shows the value of the **Shadow** which has been set as **Offset Bottom**.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275660/5473445.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275660/5473445.png)
 
 

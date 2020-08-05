@@ -21,20 +21,20 @@ The sample below uses the [Range.copy()](https://apireference.aspose.com/java/ce
 You can use any source workbook. For this example, we are using a source workbook which has three worksheets.
 
 **Worksheet 1**  
-![](https://docs2.aspose.com/cells/java/attachments/5276646/5473081.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/5276646/5473081.jpg)
 
 **Worksheet 2**  
-![](https://docs2.aspose.com/cells/java/attachments/5276646/5473080.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/5276646/5473080.jpg)
 
 **Worksheet 3**  
-![](https://docs2.aspose.com/cells/java/attachments/5276646/5473092.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/5276646/5473092.jpg)
 
 #### Output Workbook
 
 Running the following code provides a workbook with a single worksheet containing the data of all three worksheets.
 
 **The output worksheet now contains the data of all 3 source worksheets**  
-![](https://docs2.aspose.com/cells/java/attachments/5276646/5473093.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/5276646/5473093.jpg)
 
 ### Download Source Workbook and Output Workbook
 

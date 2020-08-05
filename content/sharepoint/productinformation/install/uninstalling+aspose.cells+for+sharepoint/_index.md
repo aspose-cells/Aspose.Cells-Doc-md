@@ -17,7 +17,7 @@ To uninstall Aspose.Cells for SharePoint, run the setup program. If Aspose.Cells
 During removal, the setup program deactivates Aspose.Cells for SharePoint for all site collections and retracts the solution from the server farm.  
   
 **Uninstalling Aspose.Cells**  
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6356995/6488102.png)  
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356995/6488102.png)  
   
 
 Please note that running the **Repair** option does not re-activate Aspose.Cells for SharePoint on site collections. Instead, the feature must be activated manually after re-deployment with the **Repair** option.

@@ -15,22 +15,22 @@ Aspose.Cells.Report.Designer integrates with MS Query and uses MS Query as a too
 To create a new data source and query in Aspose.Cells.Report.Designer:
 
 1.  Open Microsoft Excel.
-2.  Click **Build DataSet** in the Aspose.Cells.Report.Designer toolbar: ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193495.png)  
+2.  Click **Build DataSet** in the Aspose.Cells.Report.Designer toolbar: ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193495.png)  
     All the data sources and queries are listed in the dialog box.
-    *   A data source node: ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193496.png)
-    *   A data set node: ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193497.png)
+    *   A data source node: ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193496.png)
+    *   A data set node: ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193497.png)
 3.  Select the tree's root node.
 4.  Click **Add**.  
       
     **Adding data sources and data sets**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193490.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193490.png)  
       
     
 5.  In the dialog box, call the data source **SqlServer** and the data set **EmpsSalesDetail**.
 6.  Click **Next**.  
       
     **Adding data sets and data sources**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193491.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193491.png)  
       
     Aspose.Cells.Report.Designer starts Microsoft Query.
 7.  In the Choose Data Source dialog, select **New Data Source**.
@@ -38,14 +38,14 @@ To create a new data source and query in Aspose.Cells.Report.Designer:
     You may also select a existing data source.  
       
     **Choosing a data source**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193492.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193492.png)  
       
     
 9.  Input a data source name and select SQL Server from the drop-down list of database drivers.
 10.  Click **Connect**.  
       
     **Creating a new data source**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193493.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193493.png)  
       
     
 11.  In the SQL Server Login dialog, select the appropriate value for each item.  
@@ -53,26 +53,26 @@ To create a new data source and query in Aspose.Cells.Report.Designer:
 12.  Click **OK**.  
       
     **Logging in to the SQL server**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193486.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193486.png)  
       
     
 13.  Click **OK**.  
       
     **Note that we are now logged in to the SQL server**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193487.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193487.png)  
       
     The new data source appears in the **Choose Data Source** dialog.
 14.  Select the new data source.  
       
     **The new data source**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193488.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193488.png)  
       
     
 15.  Click **OK** to open Microsoft Query.
 16.  To create a query in Microsoft Query, refer to the Microsoft Query Helper. In the following sample, we create a query with parameters.  
       
     **Building a query**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193489.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193489.png)  
       
     The SQL is as follows:  
       
@@ -86,25 +86,25 @@ To create a new data source and query in Aspose.Cells.Report.Designer:
 17.  From Microsoft Query's **File** menu, select **Return To Aspose.Cells.Report.Designer**.  
       
     **Returning to the report designer**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193482.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193482.png)  
       
     The data source and query created above are listed in the dialog box.
 18.  Click the data source **SqlServer** to view its detailed information.  
       
     **The new data source**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193483.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193483.png)  
       
     
 19.  Click the query EmpSalesDetails to view its detailed information.  
       
     **Click SQL Tab to view the sql for the query**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193484.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193484.png)  
       
     **Click Columns Tab to view the columns of the query**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193485.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193485.png)  
       
     **Click Parameters Tab to view the parameters of the query**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193479.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094945/6193479.png)  
       
     
 

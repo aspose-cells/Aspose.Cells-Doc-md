@@ -51,7 +51,7 @@ This version provides the following features:
 *   A selected project is automatically opened in Visual Studio with all required references set to give you a ready to run and explore environment.
 *   Automatically downloads the latest API libraries from **NuGet** and examples from **GitHub**.
 
-![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115527)
+![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115527)
 
 ## **System Requirements and Supported Platforms**
 
@@ -79,7 +79,7 @@ It is very simple and easy to install Aspose Visual Studio Plugin, please follow
 
 You will get a success dialog once the installation is completed.
 
-![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115531)
+![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115531)
 
 **Note:** Please make sure to restart Visual Studio for the changes to take effect.
 
@@ -87,20 +87,20 @@ You will get a success dialog once the installation is completed.
 
 Once installed you can easy launch and use the interactive plugin as described below:  
 **1.** Open the plugin by selecting **File > Aspose** followed by **New Aspose.Cells Example Project** in Visual Studio.  
-![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115530)
+![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115530)
 
 **2.** The first time you open the plugin you see the API selection dialog as shown below. It will take few minutes to download the latest API and their libraries from **NuGet** and latest examples source code from **GitHub**.  
-![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115525)
+![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115525)
 
 **3.** In the Select an API to View Examples dialog, select or change the location where the example projects will be created and also select or change examples project type as **C#** or **VB.NET** and click **Continue** to open the example project in Visual Studio.  
-![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115527)
+![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115527)
 
 **4.** New Examples projects as per project type selection of **C#** or **VB.NET** in Visual Studio.
 
 {{< table style="table-striped" >}}
 |C# Examples|VB.NET Examples|
 |:----|:----|
-|![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115526)|![](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115540)|
+|![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115526)|![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5024018/5115540)|
 {{< /table >}}
 
 ## **Video Demo**

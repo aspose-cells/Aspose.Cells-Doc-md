@@ -45,13 +45,13 @@ The following sample Microsoft Access 2016 Database File was used inside the sam
 
 The following screenshot shows the database file when opened in Microsoft Access 2016.
 
-![](https://docs2.aspose.com/cells/java/attachments/48136926/48496714.png)
+![image](https://docs2.aspose.com/cells/java/attachments/48136926/48496714.png)
 
 ## Import Data from Microsoft Access Database ResultSet Object to the Worksheet.
 
 The following sample code executes SQL query from Microsoft Access Database and creates a ResultSet object. Then it imports data from ResultSet object into worksheet using [Worksheet.getCells().importResultSet()](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#importResultSet(java.sql.ResultSet,%20int,%20int,%20boolean)) method. The first time, it uses row and column indices and then it uses cell name to import data into the worksheet. Finally, it saves the workbook as an [Output Excel File](https://docs2.aspose.com/cells/java/attachments/48136926/48496713.xlsx). The screenshot shows the effect of the sample code on the output Excel file for a reference.
 
-![](https://docs2.aspose.com/cells/java/attachments/48136926/48496715.png)
+![image](https://docs2.aspose.com/cells/java/attachments/48136926/48496715.png)
 
 ## Sample Code
 

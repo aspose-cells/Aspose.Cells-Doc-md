@@ -64,7 +64,7 @@ Following the XLAM file shall be downloaded for registering the add-in function 
 Array formulas are formulas that work with arrays, instead of individual numbers, as arguments to the functions that make up the formula. When an array formula is displayed, it is surrounded by braces ({}) as shown below.
 
 **Setting an array formula on cell G2**  
-![](https://docs2.aspose.com/cells/java/attachments/5276797/5472815.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276797/5472815.png)
 
 Some Microsoft Excel functions return arrays of values. To calculate multiple results with an array formula, enter the array into a range of cells with the same number of rows and columns as the array arguments.
 

@@ -18,7 +18,7 @@ If you closely look at the bottom of a Microsoft Excel file, you will see a numb
 Sheet tabs represent the worksheets in the Excel file. Click any tab to switch to that worksheet. The more worksheets in the workbook, the more sheet tabs there are. If the Excel file has a good number of worksheets you need buttons to navigate through them. So, Microsoft Excel provides tab scrolling buttons for scrolling through the sheet tabs.
 
 **Sheet tabs & tab scrolling buttons**  
-![](https://docs2.aspose.com/cells/net/attachments/5020764/5115069.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5020764/5115069.png)
 
 Using Aspose.Cells, developers can control the visibility of sheet tabs and tabs scrolling buttons in Excel files.
 
@@ -27,10 +27,10 @@ Below is a complete example that opens an Excel file (book1.xls), hides its tabs
 You can see that Book1.xls file contains tabs in the figure below. After the example code is executed, the tabs are hidden, as you can see from the screenshot of the output.xls file below.
 
 **book1.xls: Excel file before any modification**  
-![](https://docs2.aspose.com/cells/net/attachments/5020764/5115072.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5020764/5115072.png)
 
 **output.xls: Excel file after modification**  
-![](https://docs2.aspose.com/cells/net/attachments/5020764/5115074.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5020764/5115074.png)
 
 **C#**
 

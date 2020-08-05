@@ -23,5 +23,5 @@ Microsoft Excel supports some type of dashed borders that are not supported by W
 
 The following sample code loads the [sample Excel file](https://docs.aspose.com/download/attachments/64454886/sampleExportSimilarBorderStyle.xlsx?version=1&modificationDate=1522151988853&api=v2) that contains some unsupported borders as shown in the following screenshot. The screenshot further illustrates the effect of [HtmlSaveOptions.ExportSimilarBorderStyle](https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle) property inside the [output HTML](https://docs.aspose.com/download/attachments/64454886/outputExportSimilarBorderStyle.zip?version=1&modificationDate=1522151939950&api=v2).
 
-![](https://docs.aspose.com/download/attachments/64454886/Export-Similar-Border-Style.png?version=1&modificationDate=1522151881518&api=v2)
+![image](https://docs.aspose.com/download/attachments/64454886/Export-Similar-Border-Style.png?version=1&modificationDate=1522151881518&api=v2)
 

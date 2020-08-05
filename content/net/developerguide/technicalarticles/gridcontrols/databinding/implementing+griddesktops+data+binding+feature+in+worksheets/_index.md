@@ -31,10 +31,10 @@ Data Binding is an exciting feature offered by the Microsoft .NET Framework. We 
 ## Creating a Sample Database
 
 1.  Create a sample database to use with the example. We used Microsoft Access to create a sample database with a Products table (schema below).  
-    ![](https://docs2.aspose.com/cells/net/attachments/5017592/5113063.png)
+    ![image](https://docs2.aspose.com/cells/net/attachments/5017592/5113063.png)
 2.  Three dummy records are added to the Products table.  
     **Records in Products table**  
-    ![](https://docs2.aspose.com/cells/net/attachments/5017592/5113064.png)
+    ![image](https://docs2.aspose.com/cells/net/attachments/5017592/5113064.png)
 
 ## Create a Sample Application
 

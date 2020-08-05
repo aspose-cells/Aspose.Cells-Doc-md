@@ -27,7 +27,7 @@ You might need to set tooltip for your custom column while creating the table in
 
 A complete example is given below to demonstrate how to change columns' captions and apply tooltip text. After executing the example code, tooltip text would be popped out when you place the mouse cursor over the specified column's header as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/45908471/46465025.png?effects=drop-shadow)
+![image](https://docs2.aspose.com/cells/java/attachments/45908471/46465025.png?effects=drop-shadow)
 
 ## Sample Code
 

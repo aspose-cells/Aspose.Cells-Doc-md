@@ -19,29 +19,29 @@ url: /reportingservices/installation/installing/using+msi+installer/
 To install Aspose.Cells using the MSI installer:
 
 1.  The Welcome Screen is the first screen in the installation. Click **Next**.  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211506.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211506.png)  
       
     
 2.  Read and accept the license agreement and click **Next**.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211507.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211507.png)  
       
     
 3.  Select the installation folder and click **Next**.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211508.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211508.png)  
       
     
 4.  Confirm that you want to install Aspose.Cells for Reporting Services by clicking **Install**.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211509.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211509.png)  
       
     The installation progress is shown on screen.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211609.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211609.png)  
       
     
 5.  Once the installation is complete, click **Finish** to close the installer.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211610.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094914/88211610.png)
 

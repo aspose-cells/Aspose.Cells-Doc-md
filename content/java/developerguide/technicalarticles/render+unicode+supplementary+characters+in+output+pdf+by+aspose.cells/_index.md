@@ -21,7 +21,7 @@ In the Unicode Character Standard, Supplementary Characters are the characters a
 
 The following screenshot shows how Aspose.Cells rendered the [source excel file](https://docs2.aspose.com/cells/java/attachments/5276130/5473390.xlsx) into the [output PDF](https://docs2.aspose.com/cells/java/attachments/5276130/5473391.pdf). As you can see all three Unicode Supplementary characters have been rendered exactly the same as done by Microsoft Excel.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276130/5473392.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276130/5473392.png)
 
 You can use this sample code to convert the [source excel file](https://docs2.aspose.com/cells/java/attachments/5276130/5473390.xlsx) into [output PDF](https://docs2.aspose.com/cells/java/attachments/5276130/5473391.pdf).
 

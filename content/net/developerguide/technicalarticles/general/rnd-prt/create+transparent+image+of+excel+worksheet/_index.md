@@ -17,7 +17,7 @@ In the following worksheet image, transparency has not been applied. The cells w
 {{< table style="table-striped" >}}
 |Output without transparency: the cell background is white|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017541/5112562.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017541/5112562.png)|
 {{< /table >}}
 
 While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
@@ -25,7 +25,7 @@ While, in the following worksheet image, transparency has been applied. The cell
 {{< table style="table-striped" >}}
 |Output with transparency enabled|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017541/5112565.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017541/5112565.png)|
 {{< /table >}}
 
 The following sample code generates a transparent image from an Excel worksheet.

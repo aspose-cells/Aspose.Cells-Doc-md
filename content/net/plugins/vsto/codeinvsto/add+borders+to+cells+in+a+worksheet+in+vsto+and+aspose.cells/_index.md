@@ -29,7 +29,7 @@ These steps are shown in code below. The first code examples show how to impleme
 
 The code generates an Excel file with a number of cells on the first sheet, each with a different border:
 
-![](download/thumbnails/5020861/497314934)
+![image](download/thumbnails/5020861/497314934)
 
 Cells with borders applied.
 

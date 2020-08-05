@@ -21,14 +21,14 @@ This article provides compact instructions on how to find and then unmerge merge
 This example uses a template Microsoft Excel file called **MergeTrial**. It has some merged cell areas in a sheet also called Merge Trial.  
   
 **The template file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276681/5472889.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276681/5472889.png)
 
 Aspose.Cells provides the [Cells.getMergedCells](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#MergedCells) method which is used to get an ArrayList of merged cell areas.
 
 When the code below is executed, it clears the contents of the sheet and unmerges all the cell areas before saving the file again.  
   
 **The Output File**  
-![](https://docs2.aspose.com/cells/java/attachments/5276681/5472888.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276681/5472888.png)
 
 ### Code Example
 

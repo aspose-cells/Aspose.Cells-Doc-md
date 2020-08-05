@@ -29,10 +29,10 @@ Use the **Convert to Range** feature to quickly convert a table to a range witho
 
 1.  Click anywhere in the table to make sure that the active cell is in a table column.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276804/5472842.gif)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276804/5472842.gif)
 2.  On the **Design** tab, in the **Tools** group, click **Convert to Range**.  
       
-    ![](https://docs2.aspose.com/cells/java/attachments/5276804/5472843.gif)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276804/5472843.gif)
 
 The table features are no longer available after the table has been converted to a range. For example, row headers no longer include the sort and filter arrows, and structured references (references that use table names) that were used in formulas turn into regular cell references.
 

@@ -27,7 +27,7 @@ The top level structure of the Aspose.Cells object model is shown below in a hie
 {{< table style="table-striped" >}}
 |Top level structure of Aspose.Cells Object Model|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114590.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114590.png)|
 {{< /table >}}
 
 As you can see from the above figure that the root of the object model is the `Workbook` object. A brief description of few of the objects is provided below for the introductory purposes.
@@ -39,7 +39,7 @@ As you can see from the above figure that the root of the object model is the `W
 {{< table style="table-striped" >}}
 |Worksheets & Worksheet objects|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114589.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114589.png)|
 {{< /table >}}
 
 ## Cells/Cell
@@ -49,7 +49,7 @@ Each `Worksheet` object contains a `Cells` object that represents the collection
 {{< table style="table-striped" >}}
 |Cells & Cell objects|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114603.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114603.png)|
 {{< /table >}}
 
 You can use the `Cell` object to get and set the value, style, formula and other properties of a single cell.
@@ -61,7 +61,7 @@ You can use the `Cell` object to get and set the value, style, formula and other
 {{< table style="table-striped" >}}
 |Object model of the Chart|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114604.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114604.png)|
 {{< /table >}}
 
 ## CommentCollection/Comment
@@ -71,7 +71,7 @@ Each `Worksheet` object also contains a `Comments` object that represents the co
 {{< table style="table-striped" >}}
 |Comments & Comment objects|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114601.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114601.png)|
 {{< /table >}}
 
 A `Comment` object is used to add a comment to any specified cell in the worksheet.
@@ -83,7 +83,7 @@ Each `Worksheet` object contains a `HorizontalPageBreakCollection` that represen
 {{< table style="table-striped" >}}
 |HPageBreaks & HPageBreak objects|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114602.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114602.png)|
 {{< /table >}}
 
 A `HorizontalPageBreak` object is used to create a horizontal page break in the worksheet.
@@ -95,7 +95,7 @@ A `Worksheet` object also contains a `HyperlinkCollection` that represents a col
 {{< table style="table-striped" >}}
 |Hyperlinks & Hyperlink objects|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114599.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114599.png)|
 {{< /table >}}
 
 A `Hyperlink` object represents a hyperlink in the worksheet. Developers can set hyperlink address and other related properties using `Hyperlink` object.
@@ -107,7 +107,7 @@ Each `Worksheet` object contains a `PictureCollection` object that represents a 
 {{< table style="table-striped" >}}
 |Pictures & Picture objects|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114600.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114600.png)|
 {{< /table >}}
 
 A `Picture` object represents a picture in the worksheet. Using `Picture` object, developers cannot only add pictures into their worksheets but also position these pictures at any location. It is also possible to set borders or other properties of the pictures.
@@ -119,7 +119,7 @@ Each `Worksheet` object contains a `VerticalPageBreakCollection` object that rep
 {{< table style="table-striped" >}}
 |VPageBreaks & VPageBreak objects|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5018389/5114597.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5018389/5114597.png)|
 {{< /table >}}
 
 A `VerticalPageBreak` object is used to create a vertical page break in the worksheet.

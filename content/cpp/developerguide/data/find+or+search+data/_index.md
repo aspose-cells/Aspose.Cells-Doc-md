@@ -33,7 +33,7 @@ You can use Aspose.Cells to find or search data in various ways using the follow
 
 The following sample code illustrates the usage of the above methods using the [sample excel file](https://docs2.aspose.com/cells/cpp/attachments/21102595/21266434.xlsx) as shown in this screenshot.
 
-![](https://docs2.aspose.com/cells/cpp/attachments/21102595/21266435.png)
+![image](https://docs2.aspose.com/cells/cpp/attachments/21102595/21266435.png)
 
 ## Sample Code
 

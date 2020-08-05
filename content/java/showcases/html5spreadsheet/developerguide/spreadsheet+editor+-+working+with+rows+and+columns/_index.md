@@ -42,7 +42,7 @@ To add a new row:
 
 The editor will add a new row at the selected location.
 
-![](http://i.imgur.com/JJSOrNM.png)
+![image](http://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 
@@ -100,7 +100,7 @@ To add a new column:
 
 The editor will add a new column at the selected location.
 
-![](http://i.imgur.com/JJSOrNM.png)
+![image](http://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 
@@ -151,7 +151,7 @@ To delete a row:
 
 The editor will delete the row which includes the selected cell.
 
-![](http://i.imgur.com/JJSOrNM.png)
+![image](http://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 
@@ -184,7 +184,7 @@ To delete a column:
 
 The editor will delete the column which includes the selected cell.
 
-![](http://i.imgur.com/JJSOrNM.png)
+![image](http://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 

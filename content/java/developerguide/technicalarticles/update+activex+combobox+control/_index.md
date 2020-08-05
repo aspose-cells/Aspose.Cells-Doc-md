@@ -30,7 +30,7 @@ Please download the [sample excel file](https://docs2.aspose.com/cells/java/atta
 
 The following screenshot shows the effect of the sample code on the [sample excel file](https://docs2.aspose.com/cells/java/attachments/5276183/5473374.xlsx). As you can see, the ActiveX ComboBox value has been updated to `"This is combo box control"`.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276183/5473376.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276183/5473376.png)
 
 ## Sample Code
 

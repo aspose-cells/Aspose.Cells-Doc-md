@@ -26,5 +26,5 @@ You can add Word Art Text with Built-in Styles using Aspose.Cells. Please use [S
 
 The following sample code adds Word Art texts with different Built-in Styles. Please check the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013735/5115470.xlsx) generated with this code. This is how the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013735/5115470.xlsx) looks in Microsoft Excel.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013735/5115443.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013735/5115443.png)
 

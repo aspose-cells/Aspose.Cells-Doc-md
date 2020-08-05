@@ -19,7 +19,7 @@ The following example shows how to add a WordArt shape to set a background water
 After running the code the output file contains a pale red WordArt watermark.
 
 **The output file**  
-![](download/thumbnails/5020417/490069126)
+![image](download/thumbnails/5020417/490069126)
 
 **C#**
 

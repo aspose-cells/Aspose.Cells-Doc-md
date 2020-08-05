@@ -12,13 +12,13 @@ url: /sharepoint/usersguide/add+footer+to+multiple+documents/
 
 If you want to add footer in multiple Excel files, please choose “Add Footer with Aspose.Cells” option in Ribbon bar.
 
-![](https://docs2.aspose.com/cells/sharepoint/attachments/50266392/50528277.png) 
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/50266392/50528277.png) 
 
 Get all Excel files from data source folder and create file list table.
 
 Select file which needs to add footer, click **Add Footer** button to add footer for selected files. 
 
-![](https://docs2.aspose.com/cells/sharepoint/attachments/50266392/50528278.png) 
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/50266392/50528278.png) 
 
 The following options are available during adding footer setup:
 

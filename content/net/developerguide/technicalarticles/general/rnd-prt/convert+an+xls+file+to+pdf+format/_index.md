@@ -34,17 +34,17 @@ This example uses an Excel file (SampleInput.xlsx) as a template. The workbook c
 
 The template file has three worksheets, including charts and image as Media. The first worksheet has charts and last worksheet has an image as shown below in the screenshots.
 
-![](download/thumbnails/5017570/1256716648)
+![image](download/thumbnails/5017570/1256716648)
 
-![](download/thumbnails/5017570/1349245484)
+![image](download/thumbnails/5017570/1349245484)
 
 The first worksheet **(Sales Forecast)**
 
 The second worksheet **(Sales Report)**
 
-![](download/thumbnails/5017570/17404915)
+![image](download/thumbnails/5017570/17404915)
 
-![](download/thumbnails/5017570/722590035)
+![image](download/thumbnails/5017570/722590035)
 
 The third worksheet **(Data Entry)**
 
@@ -68,17 +68,17 @@ If the spreadsheet contains formulas, it is best to call `Workbook.CalculateForm
 when the above code has been run, a PDF file is created in the Files folder in your application directory.  
 The following screenshots show the PDF pages. Note that headers and footers are also retained in the output PDF file.
 
-![](download/thumbnails/5017570/1564930819)
+![image](download/thumbnails/5017570/1564930819)
 
-![](download/thumbnails/5017570/1725461310)
+![image](download/thumbnails/5017570/1725461310)
 
 The first worksheet **(Sales Forecast)**
 
 The second worksheet **(Sales Report)**
 
-![](download/thumbnails/5017570/791518362)
+![image](download/thumbnails/5017570/791518362)
 
-![](download/thumbnails/5017570/170861991)
+![image](download/thumbnails/5017570/170861991)
 
 The third worksheet **(Data Entry)**
 

@@ -84,6 +84,6 @@ In all of the following steps <InstallDir> stands for the JasperServer installat
     
 
 **New export formats available (on the right) after installing Aspose.Cells for JasperReports on JasperServer**  
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619174/6848537.png)  
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619174/6848537.png)  
   
 

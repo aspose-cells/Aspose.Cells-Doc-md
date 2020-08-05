@@ -19,7 +19,7 @@ url: /net/developerguide/pivottables/show+report+filter+pages+option/
 
 Excel supports creating pivot tables, adding report filters and enable the "Show Report Filter Pages" option. Aspose.Cells also supports this feature to enable the "Show Report Filter Pages" option on the created pivot table. Following is the screen showing the "Show Report Filter Pages" option in Excel.
 
-![](https://docs2.aspose.com/cells/net/attachments/81690914/81920769.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/81690914/81920769.png)  
 
 Sample source file and output files can be downloaded from here for testing the sample code:
 

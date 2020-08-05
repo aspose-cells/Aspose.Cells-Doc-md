@@ -27,6 +27,6 @@ When you copy rows or range which contains charts to new worksheet, then data so
 
 The following sample code explains the usage of `CopyOptions.ReferToDestinationSheet` property while copying rows or range containing chart to new worksheet. The code uses the [sample excel file](https://docs2.aspose.com/cells/java/attachments/5275731/5472284.xlsx) and generates the [output excel file](https://docs2.aspose.com/cells/java/attachments/5275731/5472283.xlsx). The screenshot shows that the data source of chart in [output excel file](https://docs2.aspose.com/cells/java/attachments/5275731/5472283.xlsx) now refers to `DestSheet` instead of `Sheet1`.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275731/5472282.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275731/5472282.png)
 
 

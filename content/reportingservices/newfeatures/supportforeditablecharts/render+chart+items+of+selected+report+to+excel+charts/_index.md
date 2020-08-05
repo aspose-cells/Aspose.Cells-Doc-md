@@ -26,5 +26,5 @@ For example:
 {{< /code >}}
 
 **Excel charts can be edited in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094932/6193411.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094932/6193411.png)
 

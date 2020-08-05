@@ -14,7 +14,7 @@ You can retrieve the Equation Text of Chart Trendline using Aspose.Cells. Aspose
 
 The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the [Trendline.DataLabels.Text](https://apireference.aspose.com/net/cells/aspose.cells.charts/datalabels/properties/text) property in the following sample code.
 
-![](https://docs2.aspose.com/cells/net/attachments/5017329/5112317.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017329/5112317.png)
 
 ## Output
 

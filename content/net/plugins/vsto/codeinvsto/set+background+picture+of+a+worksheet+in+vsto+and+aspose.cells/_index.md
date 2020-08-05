@@ -20,7 +20,7 @@ The code samples that follow show how to do this first with VSTO, using either C
 
 The code examples in this article create a worksheet with a repeating background image, like the one in the screentshot below.
 
-![](download/thumbnails/5020840/2032630548)
+![image](download/thumbnails/5020840/2032630548)
 
 A background has been set for the worksheet.
 

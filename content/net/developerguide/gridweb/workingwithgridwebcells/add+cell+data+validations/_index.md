@@ -16,5 +16,5 @@ Aspose.Cells.GridWeb allows you to add **Data Validation** using the `GridWorksh
 
 The following sample code creates a **Data Validation** in a cell B3. If you enter any value which is not between 20 and 40, the cell B3 will show **Validation Error** in the form of **Red XXXX** as shown in this screenshot.
 
-![](https://docs2.aspose.com/cells/net/attachments/5013800/5115369.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013800/5115369.png)
 

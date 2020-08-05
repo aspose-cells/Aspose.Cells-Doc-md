@@ -27,7 +27,7 @@ You can query cell areas mapped to the XML map path with Aspose.Cells using the�
 
 The following screenshot shows the Microsoft Excel displaying XML Map inside the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/54690143/55541790.xlsx) used in the code. The code queries the XML map two times and prints the list of cell areas returned by the [Worksheet.XmlMapQuery()](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery) method on the console as shown below.
 
-![](https://docs2.aspose.com/cells/net/attachments/54690143/55541791.png)
+![image](https://docs2.aspose.com/cells/net/attachments/54690143/55541791.png)
 
 ### Sample Code
 

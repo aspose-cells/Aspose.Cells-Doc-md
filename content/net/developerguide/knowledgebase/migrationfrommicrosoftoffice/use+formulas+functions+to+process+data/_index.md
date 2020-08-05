@@ -120,7 +120,7 @@ void AddingCellFormula()
 
   
   
-![](https://docs2.aspose.com/cells/net/attachments/5017447/5112090.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017447/5112090.png)  
 **Figure 1:** Output using formulas with VSTO
 
 ##### *2) Aspose.Cells for .NET  
@@ -128,6 +128,6 @@ void AddingCellFormula()
 
   
   
-![](https://docs2.aspose.com/cells/net/attachments/5017447/5112085.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017447/5112085.png)  
 **Figure 2:** Output using formulas with Aspose.Cells for .NET
 

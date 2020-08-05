@@ -25,7 +25,7 @@ When you save your Excel file into HTML, comments are not exported. However, Asp
 
 The following sample code explains the usage of [HtmlSaveOptions.IsExportComments](https://apireference.aspose.com/javascript/cells/aspose.cells/htmlsaveoptions#IsExportComments) property. The screenshot shows the effect of the code on the HTML when the property is set to **true**. Please download the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/50266320/50528270.xlsx) and the [generated HTML](https://docs2.aspose.com/cells/java/attachments/50266320/50528269.html) for a reference.
 
-![](https://docs2.aspose.com/cells/java/attachments/50266320/50528268.png)
+![image](https://docs2.aspose.com/cells/java/attachments/50266320/50528268.png)
 
 ## Sample Code
 

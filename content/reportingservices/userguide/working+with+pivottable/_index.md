@@ -34,14 +34,14 @@ To create a pivot table report:
 2.  Create a table report according to the instruction in [Creating Tabular Report](https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/), as shown below.  
     The table will be the data source for the pivot table.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193162.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193162.png)  
       
     
 3.  In Microsoft Excel, from the **Insert** menu, select **Name** and then **Define**.
 4.  Define a name as “sales”.  
     The range of the name starts with the first cell of the header title and ends at the last cell of table data row as shown below.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193167.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193167.png)  
       
     
 5.  Click **OK** to finish.
@@ -51,38 +51,38 @@ To create a pivot table report:
 8.  Select **Microsoft Office Excel list or database** as a data source and **pivot table** as report type.
 9.  Click **Next** to continue.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193168.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193168.png)  
       
     
 10.  In the dialog box, enter “sales”, the name you defined above.
 11.  Click **Next** to continue.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193165.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193165.png)  
       
     
 12.  Click **Finish**.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193166.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193166.png)  
       
     
 13.  Design the pivot table in Excel.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193155.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193155.png)  
       
     The designed pivot table is shown below.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193156.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193156.png)  
       
     
 14.  Right-click the pivot table and select **Table Options**.
 15.  Make sure that **Refresh on open** is selected.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193153.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193153.png)  
       
     
 16.  Save the report and publish it to Report Server.
 17.  Export the report from Report Server.  
     The result is shown below.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193154.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193154.png)
 

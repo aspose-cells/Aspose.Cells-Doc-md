@@ -14,5 +14,5 @@ To create new table item, follow the steps described in [Creating a New Table](/
 Following is an example report table.
 
   
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094961/6193392.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094961/6193392.png)
 

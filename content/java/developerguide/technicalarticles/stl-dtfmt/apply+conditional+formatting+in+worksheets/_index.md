@@ -52,10 +52,10 @@ This article works through the following tasks:
 When the above code is executed, conditional formatting is applied to cell “A1” in first worksheet of the output file (output.xls). The conditional formatting applied to A1 depends on the cell value. If the cell value of A1 is between 50 and 100 the background color is red due to the conditional formatting applied. Please see the following screenshots of the generated XLS file.
 
 **Output Excel file with A1 value less than 50**  
-![](https://docs2.aspose.com/cells/java/attachments/5276626/5472666.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276626/5472666.png)
 
 **Output Excel file with A1 between 50 and 100**  
-![](https://docs2.aspose.com/cells/java/attachments/5276626/5472667.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276626/5472667.png)
 
 #### Task 2: Using Aspose.Cells to Apply Conditional Formatting Based on a Formula
 
@@ -65,10 +65,10 @@ When the above code is executed, conditional formatting is applied to cell “A1
 When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as sum of B1 & B2. Please see the following screenshots of the generated XLS file.
 
 **Output Excel file with B3 value less than 100**  
-![](https://docs2.aspose.com/cells/java/attachments/5276626/5472664.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276626/5472664.png)
 
 **Output Excel file with B3 greater than 100**  
-![](https://docs2.aspose.com/cells/java/attachments/5276626/5472665.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276626/5472665.png)
 
 #### Conclusion
 

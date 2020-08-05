@@ -14,10 +14,10 @@ To configure a client Report Server URL:
 
 1.  Click the **Open Remote Report** button and get the **Retrieve Report** dialog box.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/6193254.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/6193254.png)
 2.  Click the **Config** button and get **Report Server URL Setup** dialog.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/88211612.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/88211612.png)
 3.  Input report server configuration information (URL, user name and password).
     *   The Report Server URL must be in the format ‘[http://host/ReportServer](http://host/ReportServer)’. For example [http://172.16.204.11/ReportServer](http://172.16.204.11/ReportServer).
     *   The user name is the Window Server user name. For example, Administrator.
@@ -26,7 +26,7 @@ To configure a client Report Server URL:
 4.  Click the **Test** button to check configuration information.
 5.  Click **Save** and save the report server configuration information.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/88211611.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094854/88211611.png)  
       
     
 6.  Click **Modify** button to modify configuration information.

@@ -19,7 +19,7 @@ Aspose.Cells supports displaying the contents of a worksheet cell in an image sh
 Below is a screenshot of the file the code below generates.
 
 **Inserting a picture based on cell reference**  
-![](https://docs2.aspose.com/cells/java/attachments/5276587/5472592.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276587/5472592.png)
 
 #### Code Example
 

@@ -21,8 +21,8 @@ All you need to use a shortcut "CTRL + ~" to display all the formulas in the wor
 For example, we load a template file into the GridWeb which has formulas in the C column, here is the code we simply used to load the file.
 
 The file is loaded into the GridWeb and we can see a sheet with all the values in the picture below.  
-![](https://docs2.aspose.com/cells/net/attachments/5013557/5115165.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013557/5115165.png)
 
 After pressing CTRL + ~, all formulas are displayed.  
-![](https://docs2.aspose.com/cells/net/attachments/5013557/5115166.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013557/5115166.png)
 

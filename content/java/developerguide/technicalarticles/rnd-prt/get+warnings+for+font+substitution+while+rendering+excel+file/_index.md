@@ -16,11 +16,11 @@ If you want to get the warnings for font substitution while rendering an Excel f
 
 The screenshot below shows the source Excel file used in the following code. It has some text in cells A6 and A7 in fonts that are not rendered well by Microsoft Excel.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276637/5472701.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276637/5472701.png)
 
 Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable fonts as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276637/5472698.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276637/5472698.png)
 
 #### Download Source File and Output PDF
 

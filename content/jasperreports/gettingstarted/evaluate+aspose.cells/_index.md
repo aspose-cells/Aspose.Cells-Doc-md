@@ -14,13 +14,13 @@ You can easily download Aspose.Cells for JasperReports for evaluation from the [
 
 Evaluation version of Aspose.Cells for JasperReports (without a license specified) provides product functionality to some extent not complete though. One limitation is that it always injects an extra worksheet with evaluation watermark on open / save any spreadsheet document.
 
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619152/6848534.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619152/6848534.png)
 
 **Figure:** Demo Spreadsheet created by Aspose.Cells component
 
 It will inject an extra evaluation watermark worksheet to the workbook.
 
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619152/6848533.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619152/6848533.png)
 
 **Figure:** Evaluation Warning – An Extra Worksheet
 

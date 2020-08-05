@@ -36,7 +36,7 @@ Custom command buttons can also be added in WYSIWYG mode using Visual Studio's P
 The output of code snippet is shown below:
 
 **A custom command button added to GridWeb control**  
-![](https://docs2.aspose.com/cells/net/attachments/5013753/5115333.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013753/5115333.png)
 
 ### Event Handling of Custom Command Button
 
@@ -47,5 +47,5 @@ The `CustomCommand` event is always triggered when a custom command button is cl
 In the code example below, a text message is added to the cell A1 when the button is clicked.
 
 **Text added to A1 cell when custom command button is clicked**  
-![](https://docs2.aspose.com/cells/net/attachments/5013753/5115334.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013753/5115334.png)
 

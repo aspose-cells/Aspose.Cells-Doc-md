@@ -44,7 +44,7 @@ List validation allows users to provide cell input either by typing or selecting
 The example code adds a list validation to C1. When a user clicks the cell, a list appears.
 
 **Output: selecting a value from the list**  
-![](https://docs2.aspose.com/cells/net/attachments/5013798/5115376.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013798/5115376.png)
 
 ### Drop-down List Validation
 
@@ -59,7 +59,7 @@ Drop-down list validation allows users to provide input for cells by selecting a
 The example code adds a drop-down list validation to C1. When a user clicks the cell, a drop-down appears and users can select a value from it.
 
 **Selecting a value from a drop-down**  
-![](https://docs2.aspose.com/cells/net/attachments/5013798/5115375.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013798/5115375.png)
 
 ### Custom Expression Validation
 
@@ -74,7 +74,7 @@ Custom expression Validation allows developers to write their own custom regular
 The sample code adds a custom expression validation to C1. Users can only add a date into the cell as per the format specified by the regular expression.
 
 **Adding a date value to C1 according to a regular expression**  
-![](https://docs2.aspose.com/cells/net/attachments/5013798/5115374.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013798/5115374.png)
 
 ### Forcing Validation
 
@@ -83,5 +83,5 @@ Using Aspose.Cells.GridWeb, users may post input data to a server. Even if there
 When the `ForceValidation` property is `true` the control does not post data to the web server until the input values of all cells are valid. For example, if someone enters an invalid input value into a cell, or don't enter a value, the client-side validation is activated and the users can't post data even if they click **Submit**.
 
 **Wrong input value highlighted by GridWeb**  
-![](https://docs2.aspose.com/cells/net/attachments/5013798/5115381.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013798/5115381.png)
 

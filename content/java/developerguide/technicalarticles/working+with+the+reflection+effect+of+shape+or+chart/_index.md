@@ -35,7 +35,7 @@ Aspose.Cells provides the [Shape.ReflectionEffect](https://apireference.aspose.c
 
 The following screenshot shows the Microsoft Excel interface to set the *Reflection Effect* of Shape.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275793/5472528.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275793/5472528.png)
 
 ## Working with the Reflection Effect of Shape or Chart
 

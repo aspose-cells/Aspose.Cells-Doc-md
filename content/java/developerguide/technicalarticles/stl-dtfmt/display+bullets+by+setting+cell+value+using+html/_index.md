@@ -21,5 +21,5 @@ The following code uses the HTML code to set the cell value. Once, you will run 
 
 The following screenshot shows the output of the above sample code.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276663/5473010.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276663/5473010.png)
 

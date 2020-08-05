@@ -10,7 +10,7 @@ url: /net/gettingstarted/product+overview/
 # Aspose.Cells for .NET : Product Overview
 
 
-![](https://docs2.aspose.com/cells/net/attachments/5018358/5114756.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5018358/5114756.png)
 
 **Welcome to the Aspose.Cells for .NET documentation**
 

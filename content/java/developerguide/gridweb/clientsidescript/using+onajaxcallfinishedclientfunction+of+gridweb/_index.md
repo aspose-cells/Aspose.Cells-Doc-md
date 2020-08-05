@@ -30,11 +30,11 @@ The following sample code explains how to make use of `OnAjaxCallFinishedClient
 
 ## Google Chrome Console Output
 
-![](https://docs2.aspose.com/cells/java/attachments/46858283/47153153.png)
+![image](https://docs2.aspose.com/cells/java/attachments/46858283/47153153.png)
 
 ## FireFox Console Output
 
-![](https://docs2.aspose.com/cells/java/attachments/46858283/47153154.png)
+![image](https://docs2.aspose.com/cells/java/attachments/46858283/47153154.png)
 
 ## Sample Code
 

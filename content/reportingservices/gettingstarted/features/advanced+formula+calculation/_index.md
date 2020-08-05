@@ -22,5 +22,5 @@ Microsoft Excel dynamic formulas are not calculated but converted to a real Micr
 ### Formula Output
 
 **A sample report containing formulas (calculated) is exported using Aspose.Cells for Reporting Services**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094901/6193567.png)  
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094901/6193567.png)  
 

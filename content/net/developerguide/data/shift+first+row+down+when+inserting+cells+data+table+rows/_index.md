@@ -28,7 +28,7 @@ The following sample code illustrates how to shift the first row down when inse
 
 ## Screenshot
 
-![](https://docs2.aspose.com/cells/net/attachments/44860310/45056034.png)
+![image](https://docs2.aspose.com/cells/net/attachments/44860310/45056034.png)
 
 ## Sample Code
 

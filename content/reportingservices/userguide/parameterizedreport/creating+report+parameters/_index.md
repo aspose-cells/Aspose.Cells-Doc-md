@@ -13,25 +13,25 @@ url: /reportingservices/userguide/parameterizedreport/creating+report+parameters
 To create a report parameter in Aspose.Cells.Report.Designer:
 
 1.  Open Microsoft Excel.
-2.  Click **Report Parameter** on the Aspose.Cells.Report.Designer toolbar. (![](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193508.png))  
+2.  Click **Report Parameter** on the Aspose.Cells.Report.Designer toolbar. (![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193508.png))  
     In the dialog box, all the report parameters are listed in the left panel.
 3.  Click **Add**.  
       
     **The Report Parameter Configuration form**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193507.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193507.png)  
       
     
 4.  In the dialog box, input the report parameter information.  
       
     **Adding parameter information**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193506.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193506.png)  
       
     The valid values for a report parameter may come from a dataset or a group of user-defined values. A report parameter has two data fields: label and value. The label value can be null.
 5.  Click **Setup** to set up a group of values for the report parameter.
 6.  Add values for the **Label** and **Value** fields.  
       
     **Adding label and value**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193505.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193505.png)  
       
     
 7.  Click **Add**.  
@@ -43,5 +43,5 @@ To create a report parameter in Aspose.Cells.Report.Designer:
 10.  The new report parameter is listed in the left panel.  
       
     **The new parameter**  
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193502.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094956/6193502.png)
 

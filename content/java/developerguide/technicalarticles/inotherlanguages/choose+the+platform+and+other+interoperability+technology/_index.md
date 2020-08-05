@@ -29,8 +29,8 @@ From the above table you can see that for some programming languages it is possi
 {{< table style="table-striped" >}}
 |Scenario|When to Use|
 |:----|:----|
-|Aspose.Cells for Java via Java Bridge or Inline::Java|**Pros**:*   Available on any platform where Java is available.*   Easy to call static methods, constructors with parameters, overloaded methods and use enumerated values.|
-| |**Cons**:*   Has less frequent releases and fewer features than Aspose.Cells for .NET.|
+|Aspose.Cells for Java via Java Bridge or Inline::Java|**Pros**:<ul><li>Available on any platform where Java is available.</li><li>Easy to call static methods, constructors with parameters, overloaded methods and use enumerated values.</li></ul>|
+| |**Cons**:<ul><li>Has less frequent releases and fewer features than Aspose.Cells for .NET.</li></ul>|
 {{< /table >}}
 
 Please note that Aspose.Cells for Java is designed for Java applications and using it in other programming languages is subjected to some technical limitations or workarounds.

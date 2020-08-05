@@ -33,7 +33,7 @@ Below, we create a simple application that generates an empty Microsoft Excel fi
 Following is the actual code (ColdFusion & Aspose.Cells for Java). After executing the code, an Excel file, output.xls, is generated.
 
 **Generated output.xls**  
-![](https://docs2.aspose.com/cells/java/attachments/5276605/5472611.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276605/5472611.png)
 
 **Java**
 

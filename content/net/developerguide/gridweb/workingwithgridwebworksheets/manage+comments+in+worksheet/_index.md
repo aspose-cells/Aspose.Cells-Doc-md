@@ -32,7 +32,7 @@ To add a comment to worksheet, please follow the steps below:
 4.  Set a note for the new comment.
 
 **A comment has been added to the worksheet**  
-![](https://docs2.aspose.com/cells/net/attachments/5013775/5115390.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013775/5115390.png)
 
 ### Accessing Comments
 

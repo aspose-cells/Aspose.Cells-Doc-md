@@ -25,7 +25,7 @@ Sometimes you want to customize the *Pivot Total, Sub Total, Grand Total, All It
 
 The following sample code explains how to customize globalization settings for the pivot table. It creates a class *CustomPivotTableGlobalizationSettings* derived from a base class [GlobalizationSettings](https://apireference.aspose.com/net/cells/aspose.cells/globalizationsettings) and overrides all of its necessary methods. These methods return the customized text for the *Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values*. Then it assigns the object of this class to [WorkbookSettings.GlobalizationSettings](https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/globalizationsettings) property. The code loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/40142238/40468488.xlsx) that contains the pivot table, refreshes and calculate its data and saves it as [output PDF](https://docs2.aspose.com/cells/net/attachments/40142238/40468487.pdf) file. The following screenshot shows the effect of the sample code on the output PDF. As you can see in the screenshot, different parts of the pivot table have now a customized text returned by the overridden methods of [GlobalizationSettings](https://apireference.aspose.com/net/cells/aspose.cells/globalizationsettings) class.
 
-![](https://docs2.aspose.com/cells/net/attachments/40142238/40468489.png)
+![image](https://docs2.aspose.com/cells/net/attachments/40142238/40468489.png)
 
 ## Sample Code
 

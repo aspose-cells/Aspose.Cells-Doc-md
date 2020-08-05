@@ -25,5 +25,5 @@ The following sample code creates a workbook and then adds the following smart m
 
 Then it fills the data source with data and call the [WorkbookDesigner.Process()](https://apireference.aspose.com/java/cells/com.aspose.cells/workbookdesigner#process()) method to process smart marker tags. The code uses these images i.e [moon.png](https://docs2.aspose.com/cells/java/attachments/5276312/5472549.png) and [moon2.png](https://docs2.aspose.com/cells/java/attachments/5276312/5472548.png) but you can use any image. The following screenshot shows the output of this sample code. As you can see, the data in column E and F are grouped with respect to the data in column D.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276312/5472547.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276312/5472547.png)
 

@@ -42,7 +42,7 @@ The examples below demonstrate the above steps.
 The following example creates a new workbook from scratch, writes the words "Hello World!" into cell A1 on the first worksheet, and saves the file.
 
 **The generated spreadsheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276265/5473251.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276265/5473251.png)
 
 #### Opening an Existing File
 

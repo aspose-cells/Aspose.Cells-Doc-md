@@ -19,7 +19,7 @@ url: /net/gettingstarted/successstories/casestudies/right90+sales+forecasting/
 {{< /panel >}}
 ## Product Background
 
-![](https://docs2.aspose.com/cells/net/attachments/5018430/5114877.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5018430/5114877.png)
 
 Right90 Sales Forecasting helps manufacturing companies see and manage changes to their sales forecasts. Right90 is intuitive enough for anyone to use, and provides actionable insight to help managers stay alert to changes, be confident of their number and reduce potential risks. Right90 delivers rapid results through a flexible, on-demand platform that accelerates sales adoption and business value, while minimizing risk and IT infrastructure.
 

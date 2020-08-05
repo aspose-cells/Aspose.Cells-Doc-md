@@ -10,7 +10,7 @@ url: /reportingservices/gettingstarted/product+overview/
 # Aspose.Cells for Reporting Services : Product Overview
 
 
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193531.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193531.png)
 
 ### Welcome to the Aspose.Cells for Reporting Services Documentation!
 
@@ -23,7 +23,7 @@ Aspose.Cells for Reporting Services is a solution for developers who need to del
 There are two ways to design reports using Aspose.Cells for Reporting Services component. Get started with an empty Microsoft Excel template and then complete tasks, from setting up data sources to publishing reports to Report Server. Or start with an existing RDL Report in which database queries are available for use. Taking this route, users have to focus on report design only. This way is useful to those users who want to separate report design from query creation. The latter is relatively complex and has to be done by the users with database and SQL skills.
 
 **A sample report rendered using Aspose.Cells for Reporting Services**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193535.png)  
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094894/6193535.png)  
 
 Aspose.Cells for Reporting Services is comprised of two parts.
 

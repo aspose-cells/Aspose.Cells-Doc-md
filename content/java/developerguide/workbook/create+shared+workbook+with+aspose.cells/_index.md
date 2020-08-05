@@ -21,13 +21,13 @@ url: /java/developerguide/workbook/create+shared+workbook+with+aspose.cells/
 
 Microsoft Excel allows you to share the workbook as shown in the following screenshot. When you share the workbook, then more than one user can edit the workbook on the network. Aspose.Cells enables you to create a shared workbook with [Workbook.Settings.Shared](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Shared) property.
 
-![](https://docs2.aspose.com/cells/java/attachments/54690165/55541803.png)
+![image](https://docs2.aspose.com/cells/java/attachments/54690165/55541803.png)
 
 ## Create Shared Workbook with Aspose.Cells
 
 The following sample code creates a shared workbook by setting [Workbook.Settings.Shared](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Shared) property as **true**. When you will open the [output Excel file](https://docs2.aspose.com/cells/java/attachments/54690165/55541801.xlsx) in Microsoft Excel, you will see *Shared* with the output workbook name as shown in this screenshot.
 
-![](https://docs2.aspose.com/cells/java/attachments/54690165/55541802.png) 
+![image](https://docs2.aspose.com/cells/java/attachments/54690165/55541802.png) 
 
 ## Sample Code
 

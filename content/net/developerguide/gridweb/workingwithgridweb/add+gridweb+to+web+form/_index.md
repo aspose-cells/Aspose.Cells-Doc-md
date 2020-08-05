@@ -33,40 +33,40 @@ First, create a web application project in which to use the Aspose.Cells.GridWeb
 1.  Open Visual Studio.
 2.  From the **File** menu, select **New** followed by **Project**.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013739/5115093.png)  
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115093.png)  
       
     A New Project Dialog appears.
 3.  Select **ASP.NET Web Application** for desired language.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013739/5115094.png)
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115094.png)
 4.  Select **Web Forms** template.  
       
-    ![](https://docs2.aspose.com/cells/net/attachments/5013739/5115095.png)
+    ![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115095.png)
 5.  Add a new web form to the project.
 
 ### Step 2: Embedding Control to the Web Form
 
 Drag and drop the Aspose.Cells.GridWeb control from the Visual Studio toolbox to the web form.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013739/5115096.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115096.png)
 
 To learn how to add Aspose.Cells Grid controls to the Visual Studio Toolbox, please read [Integrate Aspose.Cells.Grid Controls with Visual Studio.NET](https://docs2.aspose.com/cells/net/gettingstarted/gridsuiteandvsnet/integrate+aspose.cells+grid+controls+with+visual+studio.net).
 
 When the control has been added to the form, it is rendered like this:  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013739/5115097.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115097.png)
 
 ### Step 3: Resizing Control
 
 The form is rendered at a default size. Adjust the size by dragging the borders or corners.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013739/5115098.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115098.png)
 
 ### Step 4: Setting Control Properties
 
 Aspose.Cells.GridWeb control can also be configured using various properties.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013739/5115099.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115099.png)
 
 It is possible to adjust many properties of the control with the Properties dialog. Basic properties include height, width, color and visual styles. Advanced properties include the edit mode, session mode and double-click mode. Moreover, it is possible to set customized event handlers in the Properties dialog.
 
@@ -79,11 +79,11 @@ There are also some extra configuration tools for Aspose.Cells.GridWeb that can 
 To open the custom command buttons editor:  
 Right-click the GridWeb control and select **Custom Command Buttons**.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013739/5115102.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115102.png)  
   
 The CustomCommandButton Collection Editor dialog os displayed.  
   
-![](https://docs2.aspose.com/cells/net/attachments/5013739/5115103.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115103.png)
 
 The dialog lets developers add and remove custom command buttons in the GridWeb control.
 
@@ -106,5 +106,5 @@ Run the application by pressing Ctrl+F5 or clicking the **Start** button.
 When the application runs in a browser, the WebForm1.aspx page is displayed, now containing an empty Aspose.Cells.GridWeb control. Add values to cells by clicking them. It is also possible to perform other tasks like changing the height of a row or the width of a column, copying (Ctrl+C) or cutting (Ctrl+X) cell data to the clipboard and pasting (Ctrl+V) data to cell. To performing more operations, right-click the control to see full list of options.  
   
 **Context menu of GridWeb control**  
-![](https://docs2.aspose.com/cells/net/attachments/5013739/5115122.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013739/5115122.png)
 

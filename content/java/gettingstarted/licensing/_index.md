@@ -43,7 +43,7 @@ When running your program, you can only open 100 Excel files. If your applicatio
 
 #### 2nd Limitation: Worksheet with Evaluation Watermark
 
-![](https://docs2.aspose.com/cells/java/attachments/5276501/77987850.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276501/77987850.png)
 
 This worksheet will always show as the active worksheet. Only in licensed version, you can set the active worksheet to other worksheets.
 

@@ -36,10 +36,10 @@ This article explains how to:
     The following screenshots show the two template worksheets created in Microsoft Excel.  
       
     **Worksheet “Chart” with chart**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276692/5472854.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276692/5472854.png)  
       
     **Worksheet “Picture” with picture**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276692/5472857.png)  
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276692/5472857.png)  
       
     Now, copy the picture in worksheet named “Picture” to the last worksheet “Result”.
 
@@ -78,7 +78,7 @@ Following is the code to accomplish the task. It copies a picture from the works
 After executing the above code, the picture from worksheet “Picture” is now copied to the last worksheet “Result”  
   
 **Worksheet “Result” with copied picture**  
-![](https://docs2.aspose.com/cells/java/attachments/5276692/5472856.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276692/5472856.png)
 
 #### Task 2: Copying a Chart from One Worksheet to Another
 
@@ -91,12 +91,12 @@ Following is the actual code used by the component to accomplish the task.
 After executing the above code, the chart from worksheet “Chart” is copied to the worksheet “Result”. Please see the following snap shot of resultant worksheet.  
   
 **Worksheet “Result” with copied picture and chart**  
-![](https://docs2.aspose.com/cells/java/attachments/5276692/5472859.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276692/5472859.png)
 
 #### Task 3: Copying Controls and Other Drawing Objects from One Worksheet to Another
 
 **Worksheet “Control” with textbox and oval**  
-![](https://docs2.aspose.com/cells/java/attachments/5276692/5472858.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276692/5472858.png)
 
 Please see the following simple steps which you need to perform to get your desired results.
 
@@ -109,7 +109,7 @@ The following is the code used by the component to accomplish the task.
 After executing the above code, the controls from the worksheet “Control” are now copied to worksheet “Result”. Please see the following snap shot of “Result”.  
   
 **Worksheet “Result” with copied textbox and oval**  
-![](https://docs2.aspose.com/cells/java/attachments/5276692/5472861.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276692/5472861.png)
 
 ### Conclusion
 

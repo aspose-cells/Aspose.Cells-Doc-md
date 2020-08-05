@@ -70,6 +70,6 @@ The method [Workbook.createBuiltinStyle](https://apireference.aspose.com/java/ce
 
 The following code demonstrates how to use built-in styles.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276319/5472496.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276319/5472496.png)
 
 

@@ -25,11 +25,11 @@ Running the code results in a spreadsheet with two cells, one that has text that
 
 ### Output using VSTO Excel
 
-![](download/thumbnails/5020836/684639929)
+![image](download/thumbnails/5020836/684639929)
 
 ### Output using Aspose.Cells for .NET
 
-![](download/thumbnails/5020836/1728440716)
+![image](download/thumbnails/5020836/1728440716)
 
 ### VSTO
 

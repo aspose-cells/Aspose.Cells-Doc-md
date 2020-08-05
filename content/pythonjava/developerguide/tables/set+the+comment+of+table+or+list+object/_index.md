@@ -23,7 +23,7 @@ Aspose.Cells for Python via Java supports adding the comment of List Object. For
 
 The following screenshot shows the comment created by the sample code in the red rectangle.
 
-![](https://docs.aspose.com/download/attachments/5276080/setting-list-object-comment.png?version=1&modificationDate=1467533626620&api=v2)
+![image](https://docs.aspose.com/download/attachments/5276080/setting-list-object-comment.png?version=1&modificationDate=1467533626620&api=v2)
 
 The following sample code loads the [source excel file](https://docs.aspose.com/download/attachments/5276080/source.xlsx?version=1&modificationDate=1469506992817&api=v2), sets the comment of the first table or list object inside the worksheet 
 

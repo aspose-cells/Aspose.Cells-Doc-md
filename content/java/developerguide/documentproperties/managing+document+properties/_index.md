@@ -38,7 +38,7 @@ Microsoft Excel allows managing document properties of the Excel files in a WYSI
 {{< table style="table-striped" >}}
 |Selecting Info Menu|
 |:----|
-|        ![](https://docs2.aspose.com/cells/java/attachments/22546336/22773815.png)    2.  Click on **Properties** heading and select "Advanced Properties".        **Clicking Advanced Properties Selection**        ![](https://docs2.aspose.com/cells/java/attachments/22546336/22773816.png)    3.  Manage the file's document properties.        **Properties Dialog**        ![](https://docs2.aspose.com/cells/java/attachments/22546336/22773817.png)    |
+|        ![image](https://docs2.aspose.com/cells/java/attachments/22546336/22773815.png)    2.  Click on **Properties** heading and select "Advanced Properties".        **Clicking Advanced Properties Selection**        ![image](https://docs2.aspose.com/cells/java/attachments/22546336/22773816.png)    3.  Manage the file's document properties.        **Properties Dialog**        ![image](https://docs2.aspose.com/cells/java/attachments/22546336/22773817.png)    |
 {{< /table >}}
 
 In the Properties dialog, there are different tabs, like General, Summary, Statistics, Contents, and Customs. Each tab helps configure different kinds of information related to the file. The Custom tab is used to manage custom properties.

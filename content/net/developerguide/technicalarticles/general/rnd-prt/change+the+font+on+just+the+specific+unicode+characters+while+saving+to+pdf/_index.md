@@ -29,13 +29,13 @@ As you can see in the first Pdf, the font of entire sentence has changed from Ti
 {{< table style="table-striped" >}}
 |First Pdf File|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017491/5112607.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017491/5112607.png)|
 {{< /table >}}
 
 {{< table style="table-striped" >}}
 |Second Pdf File|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017491/5115112.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017491/5115112.png)|
 {{< /table >}}
 
 ### Sample Code

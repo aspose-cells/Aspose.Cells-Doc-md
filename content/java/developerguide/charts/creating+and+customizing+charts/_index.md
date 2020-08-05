@@ -160,13 +160,13 @@ These general steps allow you to create any type of chart. Use different chartin
 When the example code is executed, a pyramid chart is added to the worksheet as shown below.
 
 **Pyramid chart with its data source**  
-![](https://docs2.aspose.com/cells/java/attachments/5276022/5472347.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276022/5472347.png)
 
   
 To create a bubble chart, the [ChartType](https://apireference.aspose.com/java/cells/com.aspose.cells/ChartType) has to be set to [ChartType.BUBBLE](https://apireference.aspose.com/java/cells/com.aspose.cells/charttype#BUBBLE) and few extra properties such as `BubbleSizes`, `Values` & `XValues` need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet as shown below.
 
 **Bubble chart with its data source**  
-![](https://docs2.aspose.com/cells/java/attachments/5276022/5472348.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/5276022/5472348.jpg)
 
 #### Line with Data Marker Chart
 
@@ -187,7 +187,7 @@ Currently Aspose.Cells only supports custom charts that combine pie, line, colum
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet.  
   
 **Custom chart combining column and line charts**  
-![](https://docs2.aspose.com/cells/java/attachments/5276022/5472350.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276022/5472350.png)
 
 **Programming Example**
 

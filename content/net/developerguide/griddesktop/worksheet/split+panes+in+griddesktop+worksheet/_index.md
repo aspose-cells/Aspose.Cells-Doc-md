@@ -28,9 +28,9 @@ The following screenshots shows the GridDesktop before split planes and after sp
 
 ### GridDesktop Before Split Panes
 
-![](https://docs2.aspose.com/cells/net/attachments/25002956/25395238.png)
+![image](https://docs2.aspose.com/cells/net/attachments/25002956/25395238.png)
 
 ### GridDesktop After Split Panes
 
-![](https://docs2.aspose.com/cells/net/attachments/25002956/25395239.png)
+![image](https://docs2.aspose.com/cells/net/attachments/25002956/25395239.png)
 

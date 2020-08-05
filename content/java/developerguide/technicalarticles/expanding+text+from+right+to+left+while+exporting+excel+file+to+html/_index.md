@@ -16,15 +16,15 @@ Aspose.Cells now supports expanding text from right to left while exporting Exce
 
 The following sample code converts the [sample excel file](https://docs2.aspose.com/cells/java/attachments/5276007/5472562.xlsx) into HTML. This screenshot shows how the sample excel looks like in Microsoft Excel 2013.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276007/5472571.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276007/5472571.png)
 
 This screenshot shows the [output HTML generated with older version](https://docs2.aspose.com/cells/java/attachments/5276007/5472570.html).
 
-![](https://docs2.aspose.com/cells/java/attachments/5276007/5472569.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276007/5472569.png)
 
 This screenshot shows the [output HTML generated with newer version](https://docs2.aspose.com/cells/java/attachments/5276007/5472563.html).
 
-![](https://docs2.aspose.com/cells/java/attachments/5276007/5472564.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276007/5472564.png)
 
 As you can see in the screenshots, the newer version expands the right-aligned text to left correctly just like Microsoft Excel.
 

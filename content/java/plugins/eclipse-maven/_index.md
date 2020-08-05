@@ -48,7 +48,7 @@ The Eclipse IDE can be extended with additional software components. Eclipse cal
 *   Aspose.Cells Java for Eclipse (Maven) is a Plugin for **Eclipse IDE** by **Aspose.** This Plugin is intended for developers using Maven platform for Java developments and want to use [Aspose.Cells for Java](http://goo.gl/gtvhlQ) in their projects. The Plugin lets you create maven projects for using [Aspose.Cells for Java API](http://goo.gl/gtvhlQ) and also download [Code Examples](https://goo.gl/uxznrb) of the API. 
 
 *   The plugin provides following features to work with [Aspose.Cells for Java API](http://goo.gl/gtvhlQ) within **Eclipse IDE** comfortably:  
-    ![](http://i.imgur.com/KWKGljg.png)  
+    ![image](http://i.imgur.com/KWKGljg.png)  
     **WIZARDS**:  
     The plugin contains two wizards
     

@@ -26,7 +26,7 @@ If your Excel file has a Pivot Table, GridDesktop will be able to load and rende
 
 The following sample code imports the [Sample Excel File containing the Pivot Table](https://docs2.aspose.com/cells/net/attachments/48136520/48496686.xlsx). The screenshot shows the result of the execution of this sample code for a reference.
 
-![](https://docs2.aspose.com/cells/net/attachments/48136520/48496685.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/48136520/48496685.png)  
 
 ## Sample Code  
 

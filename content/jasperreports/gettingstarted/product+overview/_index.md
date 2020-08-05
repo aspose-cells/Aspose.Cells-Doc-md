@@ -10,7 +10,7 @@ url: /jasperreports/gettingstarted/product+overview/
 # Aspose.Cells for JasperReports : Product Overview
 
 
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848524.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848524.png)
 
 ### Welcome to the Aspose.Cells for JasperReports Documentation!
 
@@ -25,5 +25,5 @@ Besides the functionality provided by the original POI-based Micrsofot Excel exp
 *   Provide editable charts in Microsoft Excel format rather than static pictures.
 
 **A sample report is generated using Aspose.Cells for JasperReports**  
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848515.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619141/6848515.png)
 

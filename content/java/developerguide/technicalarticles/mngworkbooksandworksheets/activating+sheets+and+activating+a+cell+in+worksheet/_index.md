@@ -24,7 +24,7 @@ To make sure that the horizontal or vertical scrollbars are at the row and colum
 The following example shows how to activate a worksheet and make an active cell in it. The following output is generated when executing the code. The scrollbars are scrolled to make the 2nd row and 2nd column as their first visible row and column.
 
 **Setting B2 cell as an active cell**  
-![](https://docs2.aspose.com/cells/java/attachments/5276695/5473069.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276695/5473069.png)
 
 
 In evaluation mode, that is; without setting a valid license, the active worksheet will always be the one containing the evaluation watermark. This behavior can only be overridden by setting the license at the start of the application.

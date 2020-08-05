@@ -16,5 +16,5 @@ The following piece of code demonstrates the usage of [ISmartMarkerCallBack](htt
 
 Rest of the process includes loading designer spreadsheet containing the Smart Markers with [WorkbookDesigner](https://apireference.aspose.com/net/cells/aspose.cells/workbookdesigner)and process it by setting the data source. In order to keep the example simple, we have used a predefined designer spreadsheet containing only two Smart Markers as shown in the below snapshot where the data source is being created dynamically to merge the data according to the specified Smart Markers.
 
-![](https://docs2.aspose.com/cells/net/attachments/5024969/5115522.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5024969/5115522.png)
 

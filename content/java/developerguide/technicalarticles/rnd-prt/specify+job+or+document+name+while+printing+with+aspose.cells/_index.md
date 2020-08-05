@@ -16,6 +16,6 @@ You can specify Job or Document Name while printing your workbook or worksheet u
 
 The sample code loads the source Excel file and then sends it to the printer by specifying the job or document name using the [WorkbookRender.toPrinter(printerName, jobName)](https://apireference.aspose.com/java/cells/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)) and [SheetRender.toPrinter(printerName, jobName)](https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) methods. The screenshot shows how the job name looks like in the printer queue.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276641/5472683.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276641/5472683.png)
 
 

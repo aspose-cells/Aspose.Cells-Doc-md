@@ -30,19 +30,19 @@ The formula syntax should be compatible with Microsoft Excel syntax. For example
 To add a formula dynamically, Aspose.Cells.GridWeb will recognize it as a formula even if you don't use an **\=** sign, but if end users working in the GUI, he must use the "=" sign.
 
 **Formula added to B3 cell but not calculated by GridWeb**  
-![](https://docs2.aspose.com/cells/net/attachments/5013761/5115361.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013761/5115361.png)
 
 In the above screenshot, you can see that a formula has been added to B3 but has not been calculated yet. To calculate all formulas, call the GridWeb control's `GridWorksheetCollection`'s `CalculateFormula` method after adding formulas to worksheets as shown below.
 
 Users can also calculate formulas by clicking **Submit**.
 
 **Clicking Submit button of GridWeb**  
-![](https://docs2.aspose.com/cells/net/attachments/5013761/5115358.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013761/5115358.png)
 
 **IMPORTANT**: If a user clicks the **Save** or **Undo** buttons, or the sheet tabs, all formulas are calculated by GridWeb automatically.
 
 **Formula result after calculation**  
-![](https://docs2.aspose.com/cells/net/attachments/5013761/5115359.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013761/5115359.png)
 
 ### Referencing Cells from Other Worksheets
 

@@ -13,8 +13,8 @@ url: /jasperreports/gettingstarted/featuretour/high+fidelity+to+the+report+desig
 Aspose.Cells for JasperReports exports reports as Microsoft Excel spreadsheets that look identical to reports exported by the built-in exporters of [JasperReports](http://jasperforge.org/sf/projects/jasperreports).
 
 **A sample XLS report exported using Aspose.Cells for JasperReports**  
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619144/6848531.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619144/6848531.png)
 
 **A sample XLS report exported using the built-in [JasperReports](http://jasperforge.org/sf/projects/jasperreports) exporters**  
-![](https://docs2.aspose.com/cells/jasperreports/attachments/6619144/6848516.png)
+![image](https://docs2.aspose.com/cells/jasperreports/attachments/6619144/6848516.png)
 

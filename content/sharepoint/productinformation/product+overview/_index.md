@@ -10,7 +10,7 @@ url: /sharepoint/productinformation/product+overview/
 # Aspose.Cells for SharePoint : Product Overview
 
 
-![](https://docs2.aspose.com/cells/sharepoint/attachments/thumbnails/6357010/6488065)
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/thumbnails/6357010/6488065)
 
 ### Welcome to the Aspose.Cells for SharePoint Documentation!
 
@@ -51,6 +51,6 @@ This documentation describes the [features](https://docs2.aspose.com/cells/share
 
 **Use Aspose.Cells for SharePoint from SharePoint’s document library to convert documents**
 
-**![](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/48496647.png)  
+**![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357010/48496647.png)  
 **
 

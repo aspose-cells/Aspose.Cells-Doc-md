@@ -22,5 +22,5 @@ Aspose.Cells for SharePoint provides a toolbar that includes some valuable optio
 
 **The Aspose.Cells toolbar**
 
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6357015/47153162.png)
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357015/47153162.png)
 

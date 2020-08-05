@@ -79,5 +79,5 @@ public partial class GridBind : System.Web.UI.Page
 
 The following screenshot shows the GridWeb after the execution of the above sample code.
 
-![](https://docs2.aspose.com/cells/net/attachments/22546721/22774112.png)
+![image](https://docs2.aspose.com/cells/net/attachments/22546721/22774112.png)
 

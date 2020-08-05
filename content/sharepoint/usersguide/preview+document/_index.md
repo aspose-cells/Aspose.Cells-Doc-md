@@ -15,8 +15,8 @@ To preview a Microsoft Excel document in the document library:
 1.  Select **Preview Document with Aspose.Cells** from the document’s Edit Control Block (ECB).  
       
     **Selecting Preview Document from the menu**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357004/6488131.png)  
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357004/6488131.png)  
       
     **Document preview**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6357004/6488126.png)
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357004/6488126.png)
 

@@ -28,7 +28,7 @@ You can set preset WordArt style to the text of the shape using Aspose.Cells. Pl
 
 The following sample code creates a text box with some text and then sets preset WordArt style of its text using [FontSetting.SetWordArtStyle()](https://apireference.aspose.com/java/cells/com.aspose.cells/fontsetting#setWordArtStyle(int)) method. This is how the [output excel file](https://docs2.aspose.com/cells/java/attachments/5275797/5472538.xlsx) looks in Microsoft Excel.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275797/5472534.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275797/5472534.png)
 
 ## Sample Code
 

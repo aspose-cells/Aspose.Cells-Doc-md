@@ -52,7 +52,7 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 **The final Windows tag will look similar to as shown below.**
 
-![](https://docs2.aspose.com/cells/net/attachments/5013801/5115200.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013801/5115200.png)
 
 ## Add Aspose.Cells.GridDesktop control to XAML
 
@@ -67,7 +67,7 @@ Simply add the below code inside the Grid tag in XAML. The **WindowsFormsHost** 
 {{< /code >}}
 
 **The final XAML will look as follow.**  
-![](https://docs2.aspose.com/cells/net/attachments/5013801/5115201.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013801/5115201.png)
 
 ## Use Aspose.Cells.GridDesktop
 

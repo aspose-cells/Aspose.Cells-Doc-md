@@ -49,13 +49,13 @@ e.g., PageSetup.isBlackAndWhite() (Old) -> PageSetup.getBlackAndWhite() (New), .
 
 ### General API Set
 
-![](plugins/servlet/confluence/placeholder/unknown-macro)
+![image](plugins/servlet/confluence/placeholder/unknown-macro)
 
 ### Charts API Set
 
-![](plugins/servlet/confluence/placeholder/unknown-macro)
+![image](plugins/servlet/confluence/placeholder/unknown-macro)
 
 ### Drawing Shapes API Set
 
-![](plugins/servlet/confluence/placeholder/unknown-macro)
+![image](plugins/servlet/confluence/placeholder/unknown-macro)
 

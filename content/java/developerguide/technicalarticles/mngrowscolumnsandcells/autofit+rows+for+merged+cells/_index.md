@@ -17,6 +17,6 @@ Aspose.Cells supports this feature through the [AutoFitterOptions](https://apire
 After executing the code, Aspose.Cells auto-fits rows for merged cells.
 
 **Output Excel file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276683/5472885.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276683/5472885.png)
 
 

@@ -19,7 +19,7 @@ There might be cases where the text is cut off in the generated HTML and you wan
 
 The following image shows the tooltip in the generated HTML file.
 
-![](https://docs2.aspose.com/cells/java/attachments/97878711/98107418.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/97878711/98107418.jpg)
 
 The following code sample loads the [source excel file](https://docs.aspose.com/download/attachments/97878711/AddTooltipToHtmlSample.xlsx?version=1&modificationDate=1577761498436&api=v2) and generates the [output HTML file](https://docs.aspose.com/download/attachments/97878711/AddTooltipToHtmlSample_out.zip?version=1&modificationDate=1577761498439&api=v2) with the tooltip.
 

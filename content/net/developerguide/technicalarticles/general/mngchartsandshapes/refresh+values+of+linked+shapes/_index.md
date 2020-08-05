@@ -16,7 +16,7 @@ Sometimes, you have a linked shape in your Excel file which is linked to some ce
 
 The following screenshot shows the source Excel file used in the sample code below. It has a linked picture linked to cells A1 to E4. We will change the value of cell B4 with Aspose.Cells and then call [Worksheet.Shapes.UpdateSelectedValue()](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shapecollection/methods/updateselectedvalue) method to refresh the value of the picture and save it in PDF format.
 
-![](https://docs2.aspose.com/cells/net/attachments/5017331/95584293.jpg)
+![image](https://docs2.aspose.com/cells/net/attachments/5017331/95584293.jpg)
 
 You can download the [source Excel file](https://docs2.aspose.com/cells/net/attachments/5017331/95584291.xlsx) and the [output PDF](https://docs2.aspose.com/cells/net/attachments/5017331/95584292.pdf) from the given links.
 

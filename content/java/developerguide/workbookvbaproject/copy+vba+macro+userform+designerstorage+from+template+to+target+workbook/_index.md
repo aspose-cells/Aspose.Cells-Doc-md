@@ -26,11 +26,11 @@ Aspose.Cells allows you to copy the VBA project from one Excel file into another
 
 Please see the following sample code. It copies the VBA project from the [template Excel file](https://docs2.aspose.com/cells/java/attachments/50270505/50528367.xlsm) into an empty workbook and saves it as the [output Excel file](https://docs2.aspose.com/cells/java/attachments/50270505/50528366.xlsm). If you open the VBA project inside the template Excel file, you will see a User Form as shown below. The User Form consists of Designer Storage, so it will be copied using [VbaModuleCollection.GetDesignerStorage()](https://apireference.aspose.com/java/cells/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) and VbaModuleCollection.AddDesignerStorage() methods.
 
-![](https://docs2.aspose.com/cells/java/attachments/50270505/50528365.png)
+![image](https://docs2.aspose.com/cells/java/attachments/50270505/50528365.png)
 
 The following screenshot shows the output Excel file and its contents which were copied from the template Excel file. When you click on the `Button 1`, it opens up the `VBA User Form` which itself has a command button that shows a message box on clicking.
 
-![](https://docs2.aspose.com/cells/java/attachments/50270505/50528364.png)
+![image](https://docs2.aspose.com/cells/java/attachments/50270505/50528364.png)
 
 ## Sample Code
 

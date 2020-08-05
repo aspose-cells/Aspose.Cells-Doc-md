@@ -25,7 +25,7 @@ Sometime, it is important to find the GridDesktop version at runtime. For exampl
 
 The following sample code finds the GridDesktop version at runtime. The screenshot shows the result of the execution of this sample code for a reference.
 
-![](https://docs2.aspose.com/cells/net/attachments/48136516/48496684.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/48136516/48496684.png)  
 
 ## Sample Code
 

@@ -17,7 +17,7 @@ This example shows how to export data from the following worksheet. Rows 5, 6 an
 {{< table style="table-striped" >}}
 |Sample data in worksheet, rows 5, 6 and 7 are hidden|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017562/5112473.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017562/5112473.png)|
 {{< /table >}}
 
 Once the data is exported to a data table using the [Worksheet.Cells.ExportDataTable()](https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/exportdatatable/index) method with the [ExportTableOptions.PlotVisibleRows](https://apireference.aspose.com/net/cells/aspose.cells/exporttableoptions/properties/plotvisiblerows) option, it will look like this. Hidden rows are plotted as blank rows
@@ -25,6 +25,6 @@ Once the data is exported to a data table using the [Worksheet.Cells.ExportDataT
 {{< table style="table-striped" >}}
 |Hidden rows are exported to the data table as blank rows|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017562/5112470.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017562/5112470.png)|
 {{< /table >}}
 

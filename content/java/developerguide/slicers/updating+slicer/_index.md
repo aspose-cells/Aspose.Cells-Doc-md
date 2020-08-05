@@ -25,7 +25,7 @@ If you want to update slicer in Microsoft Excel, select or unselect its items, i
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/66948428/67338506.xlsx) that contains an existing slicer. It unselects the 2nd and 3rd items of the slicer and refreshes the slicer. It then saves the workbook as the [output Excel file](https://docs2.aspose.com/cells/java/attachments/66948428/67338505.xlsx). The following screenshot shows the effect of the sample code on the sample Excel file. As you can see in the screenshot, refreshing the slicer with selected items has also refreshed the pivot table accordingly.
 
-![](https://docs2.aspose.com/cells/java/attachments/66948428/67338507.png)
+![image](https://docs2.aspose.com/cells/java/attachments/66948428/67338507.png)
 
 ## Sample Code
 

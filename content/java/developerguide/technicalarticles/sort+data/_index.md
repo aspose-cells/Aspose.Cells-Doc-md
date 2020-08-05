@@ -23,7 +23,7 @@ In this article, we create a console application, and sort data with a few simpl
 1.  Create a Microsoft Excel file with different data sets or contents.  
     I created a new workbook in Microsoft Excel and added sample data into cells on the first worksheet.  
     **The template worksheet created in Microsoft Excel**  
-    ![](https://docs2.aspose.com/cells/java/attachments/5276602/5472608.jpg)
+    ![image](https://docs2.aspose.com/cells/java/attachments/5276602/5472608.jpg)
 2.  Download and install Aspose.Cells:
     1.  [Download](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) Aspose.Cells for Java.
     2.  Install it on your development computer.
@@ -52,7 +52,7 @@ In this article, we create a console application, and sort data with a few simpl
 When the above code is executed, the data is sorted:  
   
 **Output file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276602/5472609.jpg)
+![image](https://docs2.aspose.com/cells/java/attachments/5276602/5472609.jpg)
 
 ### Conclusion
 

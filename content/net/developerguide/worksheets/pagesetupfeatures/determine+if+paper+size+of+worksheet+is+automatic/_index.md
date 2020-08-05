@@ -31,7 +31,7 @@ The sample code given below loads the following two Excel files
 
 and find if the paper size of their first worksheet is automatic or not. In Microsoft Excel, you can check if the paper size is automatic or not via the Page Setup window as shown in this screenshot.
 
-![](https://docs2.aspose.com/cells/net/attachments/48136585/48496683.png)
+![image](https://docs2.aspose.com/cells/net/attachments/48136585/48496683.png)
 
 ## Sample Code
 

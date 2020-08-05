@@ -52,5 +52,5 @@ The following snippet loads an existing spreadsheet containing a Pie chart and r
   
 Following is the resultant image when locale of the machine is set to France. As you can see that the label "Other" has been translated to "Autre" as defined in *CustomSettings *class.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276113/5472582.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276113/5472582.png)
 

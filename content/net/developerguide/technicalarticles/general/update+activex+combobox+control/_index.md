@@ -29,7 +29,7 @@ Please download the [sample excel file](https://docs2.aspose.com/cells/net/attac
 
 The following screenshot shows the effect of the sample code on the [sample excel file](https://docs2.aspose.com/cells/net/attachments/5024461/5115124.xlsx). As you can see, the ActiveX ComboBox value has been updated to `"This is combo box control"`.
 
-![](https://docs2.aspose.com/cells/net/attachments/5024461/5115192.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5024461/5115192.png)
 
 ## Sample Code
 

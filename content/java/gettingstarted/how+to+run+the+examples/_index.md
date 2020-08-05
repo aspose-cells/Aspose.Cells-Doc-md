@@ -49,5 +49,5 @@ and run it.
 
 Please see the following screenshot and its highlighted areas for more help.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275910/47153155.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275910/47153155.png)
 

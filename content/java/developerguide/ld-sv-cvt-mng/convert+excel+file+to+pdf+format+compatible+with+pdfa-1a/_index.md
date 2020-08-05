@@ -30,7 +30,7 @@ The following sample code explains how to convert Excel file to PDF format compa
 
 ## Screenshot
 
-![](https://docs2.aspose.com/cells/java/attachments/44860262/45056016.png)
+![image](https://docs2.aspose.com/cells/java/attachments/44860262/45056016.png)
 
 ## Sample Code
 

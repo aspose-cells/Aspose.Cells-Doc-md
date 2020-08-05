@@ -18,9 +18,9 @@ Aspose.Cells for Share Point supports previewing documents directly from SharePo
 *   XML – Microsoft Excel SpreadsheetML
 
 **Selecting a document to preview**  
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6357016/6488084.png)  
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357016/6488084.png)  
   
 **Document preview from within a SharePoint library**  
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6357016/6488082.png)  
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357016/6488082.png)  
   
 

@@ -25,7 +25,7 @@ Slicers are used to filter data quickly. They can be used to filter data both in
 
 The following code snippet loads the [sample Excel file](https://docs2.aspose.com/cells/pythonjava/attachments/106201882/106364966.xlsx) that contains the pivot table. It then creates the slicer based on the first base pivot field. Finally, it saves the workbook in [output XLSX](https://docs2.aspose.com/cells/pythonjava/attachments/106201882/106364967.xlsx) format. The following screenshot shows the slicer created by Aspose.Cells in the output Excel file.
 
-![](https://docs2.aspose.com/cells/pythonjava/attachments/66948420/67338495.png)
+![image](https://docs2.aspose.com/cells/pythonjava/attachments/66948420/67338495.png)
 
 ## Sample Code
 

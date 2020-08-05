@@ -114,7 +114,7 @@ With the [PdfSaveOptions](https://apireference.aspose.com/java/cells/com.aspose.
 
 With the [PdfSaveOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions) class, you can export the custom properties in source workbook to the PDF. [PdfCustomPropertiesExport](https://apireference.aspose.com/java/cells/com.aspose.cells/PdfCustomPropertiesExport) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](https://docs.aspose.com/download/attachments/5013526/sourceWithCustProps.xlsx?version=1&modificationDate=1537199854325&api=v2) for testing and output PDF file "outSourceWithCustProps" is available [here](https://docs.aspose.com/download/attachments/5013526/outSourceWithCustProps.pdf?version=1&modificationDate=1537199854325&api=v2) for analysis.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276010/72417294.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276010/72417294.png)
 
 ## Convert Excel Workbook to Markdown
 

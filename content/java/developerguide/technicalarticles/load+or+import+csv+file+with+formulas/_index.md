@@ -22,6 +22,6 @@ The following code illustrates how you can load as well as import a CSV file wit
 
 The code first loads the CSV file, then import it again at cell D4. Finally, it saves the workbook object in XSLX format. The [output XLSX file](https://docs2.aspose.com/cells/java/attachments/5276090/5472503.xlsx) looks like this. As you see cell C3 and F4 contains formula and its result 800.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276090/5472506.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276090/5472506.png)
 
 

@@ -43,30 +43,30 @@ The setup program performs the following actions:
 1.  Check installation prerequisites. Setup will not continue if any check fails.  
       
     **System check**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488089.png)  
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488089.png)  
       
     
 2.  Display End User License Agreement. The user must accept the agreement in order to proceed.  
       
     **The EULA**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488098.png)  
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488098.png)  
       
     
 3.  Display deployment target selection dialog. The user selects web applications and site collections where the feature shall be activated. See the figure below.  
       
     **Deployment targets**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488099.png)  
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488099.png)  
       
     
 4.  Deploy the feature to the server farm.  
       
     **Running installation**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488100.png)  
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488100.png)  
       
     
 5.  Activate the feature for the selected site collections and configure their parent web applications.
 6.  Display a list of web applications and site collections where the feature has been deployed and activated.  
       
     **Installation complete**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488101.png)
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356999/6488101.png)
 

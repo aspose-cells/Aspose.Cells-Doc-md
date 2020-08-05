@@ -26,7 +26,7 @@ To edit a formula in a Microsoft Excel cell:
     The formula is inserted into the cell.
 
 **The Edit Formula dialog**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094872/6193262.png)  
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094872/6193262.png)  
 
 The Edit Formula dialog is divided into sections, described below.
 

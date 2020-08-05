@@ -18,10 +18,10 @@ The following sample code changes the character spacing of the text box in an ex
 
 The following screenshot shows how the [sample excel file](https://docs2.aspose.com/cells/java/attachments/5276027/5473426.xlsx) looks before the execution of the code.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276027/5473443.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276027/5473443.png)
 
 The following screenshot shows how the [output excel file](https://docs2.aspose.com/cells/java/attachments/5276027/5473425.xlsx) looks after the execution of the code.
 
-![](https://docs2.aspose.com/cells/java/attachments/5276027/5473444.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276027/5473444.png)
 
 

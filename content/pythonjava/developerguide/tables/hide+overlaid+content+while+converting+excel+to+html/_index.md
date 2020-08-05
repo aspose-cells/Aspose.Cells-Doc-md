@@ -24,7 +24,7 @@ When you save your Excel file to HTML, you can specify different cross types for
 
 The following sample code loads the [sample Excel file](https://docs.aspose.com/download/attachments/64456354/sampleHidingOverlaidContentWithCrossHideRight.xlsx?version=1&modificationDate=1525009682893&api=v2) and saves it to [output HTML](https://docs.aspose.com/download/attachments/64456354/HTML-outputHidingOverlaidContentWithCrossHideRight.zip?version=1&modificationDate=1525009682893&api=v2) after setting the [HtmlSaveOptions.HtmlCrossStringType](https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType) as [CROSS\_HIDE\_RIGHT](https://apireference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT). The screenshot explains how [CROSS\_HIDE\_RIGHT](https://apireference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT) affects the output HTML from the default output.
 
-![](https://docs.aspose.com/download/attachments/64456354/Hiding-Overlaid-Content-With-CrossHideRight.png?version=1&modificationDate=1525009682893&api=v2)
+![image](https://docs.aspose.com/download/attachments/64456354/Hiding-Overlaid-Content-With-CrossHideRight.png?version=1&modificationDate=1525009682893&api=v2)
 
 ## Sample Code
 

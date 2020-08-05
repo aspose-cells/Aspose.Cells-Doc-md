@@ -17,7 +17,7 @@ We incorporated support for Embedding a Sub-Report in a Table group row. The for
 ### Example
 
 **A sub-report in a table**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094922/6193432.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094922/6193432.png)
 
 In the example, the name of sub-report is “Sales Order Detail”. It has one parameter, *SalesOrderNumber*. The value of the parameter is *EmpSalesDetail.SalesOrderNumber.*
 

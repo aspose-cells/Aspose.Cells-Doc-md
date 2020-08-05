@@ -32,10 +32,10 @@ In MS Excel (e.g MS Excel 2003), to implement file encryption settings, you may 
 *   Choose the encryption type and confirm the password.
 
   
-![](https://docs2.aspose.com/cells/java/attachments/5276284/5473262.png)  
+![image](https://docs2.aspose.com/cells/java/attachments/5276284/5473262.png)  
 **Figure: Options dialog**  
   
-![](https://docs2.aspose.com/cells/java/attachments/5276284/5473263.png)  
+![image](https://docs2.aspose.com/cells/java/attachments/5276284/5473263.png)  
 **Figure: Encryption Type dialog**
 
 The following example shows how you can encrypt / password protect an excel file using the Aspose.Cells API.

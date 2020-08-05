@@ -14,5 +14,5 @@ Unused styles in excel file not only take space but also cause performance issue
 
 The following code explains the usage of [Workbook.RemoveUnusedStyles()](https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/removeunusedstyles). The code loads the [template excel file](https://docs2.aspose.com/cells/net/attachments/5024962/5115520.xlsx) which you can download from the provided link. It contains an unused style named **AsposeStyle**, this style and all other unused styles will be removed after the execution of the code.
 
-![](https://docs2.aspose.com/cells/net/attachments/5024962/5115521.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5024962/5115521.png)
 

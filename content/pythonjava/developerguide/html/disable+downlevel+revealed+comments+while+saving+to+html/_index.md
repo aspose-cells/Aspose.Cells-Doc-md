@@ -26,7 +26,7 @@ To remove Downlevel-revealed conditional comments, Aspose.Cells provides the [
 
 The following image shows the Downlevel-revealed conditional comments which will be removed in the output HTML file
 
-![](https://docs.aspose.com/download/attachments/50266308/Disable-Downlevel-Revealed-Comments.png?version=1&modificationDate=1503518199337&api=v2)
+![image](https://docs.aspose.com/download/attachments/50266308/Disable-Downlevel-Revealed-Comments.png?version=1&modificationDate=1503518199337&api=v2)
 
 ## Sample Code
 

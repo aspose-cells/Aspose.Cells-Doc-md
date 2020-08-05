@@ -191,22 +191,22 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 Run the application by either pressing **Ctrl+F5** or clicking the **Start** button in VS.NET. The web form is opened in a new browser window.  
   
 **Worksheet bound with a custom collection**  
-![](https://docs2.aspose.com/cells/net/attachments/5017594/5112972.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017594/5112972.png)  
   
 Right-click the GridWeb control to add or delete a record. For example, add a new record to the worksheet by selecting **Add Row** option.  
   
 **Selecting Add Row option from the menu**  
-![](https://docs2.aspose.com/cells/net/attachments/5017594/5112973.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017594/5112973.png)  
   
 When a new row is added to the worksheet, cells contain default data including the current system date.  
   
 **New row added to worksheet with default data**  
-![](https://docs2.aspose.com/cells/net/attachments/5017594/5112974.png)  
+![image](https://docs2.aspose.com/cells/net/attachments/5017594/5112974.png)  
   
 After making changes to the data, click **Save** or **Submit** to save your changes.  
   
 **Saving changes by clicking Save button**  
-![](https://docs2.aspose.com/cells/net/attachments/5017594/5112975.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017594/5112975.png)
 
 ##### Conclusion
 

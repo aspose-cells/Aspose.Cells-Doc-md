@@ -15,5 +15,5 @@ url: /sharepoint/productinformation/install/activation+and+deactivation+after+in
 ### Activating Aspose.Cells for SharePoint on a site collection.
 
 **Activating Aspose.Cells**  
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6356997/6488106.png)
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356997/6488106.png)
 

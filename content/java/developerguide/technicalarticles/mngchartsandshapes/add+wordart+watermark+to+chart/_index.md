@@ -19,9 +19,9 @@ The following example shows how to add a WordArt shape as a watermark for the ch
 The following example shows how to add a WordArt shape as a watermark for an existing chart’s plot area. The example uses a template Excel file that already contains the chart.
 
 **The input file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276687/5472871.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276687/5472871.png)
 
 **The ouptput file**  
-![](https://docs2.aspose.com/cells/java/attachments/5276687/5472872.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276687/5472872.png)
 
 

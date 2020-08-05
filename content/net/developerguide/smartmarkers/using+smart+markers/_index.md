@@ -76,7 +76,7 @@ The following screenshots show how to insert data on every other row.
 {{< table style="table-striped" >}}
 |Template File|Output File|
 |:----|:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5016199/5115180.jpg)|![](https://docs2.aspose.com/cells/net/attachments/5016199/5115181.jpg)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115180.jpg)|![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115181.jpg)|
 {{< /table >}}
 
 ### Dynamic Formulas
@@ -103,7 +103,7 @@ The following screenshots illustrate a repeating dynamic formula and the resulti
 {{< table style="table-striped" >}}
 |Template File|OutPut File|
 |:----|:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5016199/5115184.jpg)|![](https://docs2.aspose.com/cells/net/attachments/5016199/5115182.jpg)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115184.jpg)|![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115182.jpg)|
 {{< /table >}}
 
 Cell "C1" contains the formula **\= A1\*B1**, cell "C2" contains **\= A2\*B2** and cell "C3" contains **\= A3\*B3**.
@@ -162,7 +162,7 @@ The designer file has two worksheets. In the first we put smart markers with gro
 
 **The first worksheet in the SmartMarker\_Designer.xls file, complete with smart markers**
 
-![](https://docs2.aspose.com/cells/net/attachments/5016199/5115177.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115177.png)
 
 In the second worksheet of the designer file, we put some more smart markers as shown in the figure below. We place the following smart markers:  
 `&=``[``Order Details]``.``OrderID``(``group``:``normal)`,  
@@ -173,7 +173,7 @@ In the second worksheet of the designer file, we put some more smart markers as 
 
 **The second worksheet of the SmartMarker\_Designer.xls file, showing mixed smart markers.**
 
-![](https://docs2.aspose.com/cells/net/attachments/5016199/5115186.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115186.png)
 
 Here is the source code used in the example.
 
@@ -205,7 +205,7 @@ Aspose.Cells supports nested objects in smart markers, the nested objects should
 
 **The first worksheet of the SM\_NestedObjects.xlsx file showing nested smart markers.**
 
-![](https://docs2.aspose.com/cells/net/attachments/5016199/5115179.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115179.png)
 
 The example that follows shows how this works.
 
@@ -213,7 +213,7 @@ The example that follows shows how this works.
 
 Aspose.Cells now also supports using generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a husband object contains multiple nested wife objects.
 
-![](https://docs2.aspose.com/cells/net/attachments/5016199/5115183.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5016199/5115183.png)
 
 ## Using HTML property of Smart Markers
 

@@ -55,7 +55,7 @@ To upload a file from local computer:
 
 The file will be opened in the editor.
 
-![](http://i.imgur.com/BwYl3XI.png)
+![image](http://i.imgur.com/BwYl3XI.png)
 
 **How it works?**
 
@@ -104,7 +104,7 @@ To open files from Dropbox:
 
 Your selected file will be opened from Dropbox.
 
-![](http://i.imgur.com/1e2sfo0.png)
+![image](http://i.imgur.com/1e2sfo0.png)
 
 **How it works?**
 
@@ -116,7 +116,7 @@ Files can be directly opened from URLs. This allows user to edit any publicly av
 
 http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
-![](http://i.imgur.com/ExC9ckp.png)
+![image](http://i.imgur.com/ExC9ckp.png)
 
 **How it works?**
 
@@ -159,7 +159,7 @@ To create a new empty spreadsheet:
 
 The editor will close the opened spreadsheet, if any, and will open a new one.
 
-![](http://i.imgur.com/LnydmMf.png)
+![image](http://i.imgur.com/LnydmMf.png)
 
 **How it works?**
 

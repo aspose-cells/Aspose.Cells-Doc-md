@@ -19,7 +19,7 @@ Suppose you have a worksheet filled with data in the format that looks like the 
 {{< table style="table-striped" >}}
 |Input file with one column or data|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017612/5112460.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017612/5112460.png)|
 {{< /table >}}
 
 You want to add a function in B2 that will calculate the sales tax for the first row of data. The tax is **9%**. The formula that calculates the sales tax is: **"=A2\*0.09"**. This article explains how to apply this formula with Aspose.Cells.

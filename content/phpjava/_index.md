@@ -7,10 +7,10 @@ type: docs
 url: /phpjava/
 ---
 
-# ![Home Page](https://docs2.aspose.com/cells/phpjava/images/icons/contenttypes/home_page_16.png) Aspose.Cells for PHP via Java : Aspose.Cells for PHP via Java Home 
+# ![Home Page](https://docs2.aspose.com/cells/phpjava/images/icons/contenttypes/home_page_16.png) Aspose.Cells for PHP via Java : Home 
 
 
-**![](https://docs2.aspose.com/cells/phpjava/attachments/thumbnails/66948467/67338576.png)Welcome to Aspose.Cells for PHP via Java**
+**![image](https://docs2.aspose.com/cells/phpjava/attachments/thumbnails/66948467/67338576.png)Welcome to Aspose.Cells for PHP via Java**
 
 Aspose.Cells for PHP via Java provides all the valuable features of Aspose.Cells for Java using JavaBridge. Aspose.Cells for PHP via Java is a class library that enables you to perform a great range of spreadsheet processing tasks. Aspose.Cells for PHP via Java is a scalable and feature rich API that offers spreadsheet format conversion, styling of worksheets to the most granular level, chart management & rendering, and our reliable Formula Calculation Engine. Aspose.Cells for PHP via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. With Aspose.Cells for PHP via Java you can generate, modify, convert and render Excel documents.
 

@@ -18,5 +18,5 @@ The following code uses the HTML code to set the cell value. Once, you will run 
 
 The following screenshot shows the output of the above sample code.
 
-![](https://docs2.aspose.com/cells/net/attachments/5017723/5112649.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017723/5112649.png)
 

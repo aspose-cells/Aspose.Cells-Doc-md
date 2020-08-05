@@ -23,7 +23,7 @@ url: /java/developerguide/technicalarticles/render+gradient+fill+for+the+wordart
 
 Earlier, Aspose.Cells APIs were not capable of rendering gradient fill of the WordArt shapes when the spreadsheets were converted to HTML format. Now the Aspose.Cells APIs supports to render the gradient fill of the WordArt shapes. The following screenshot shows the effect of the gradient fill in HTML for previous and recent releases.
 
-![](https://docs2.aspose.com/cells/java/attachments/22970444/23166985.png)
+![image](https://docs2.aspose.com/cells/java/attachments/22970444/23166985.png)
 
 ## Render Gradient Fill for the WordArt while converting spreadsheets to HTML
 

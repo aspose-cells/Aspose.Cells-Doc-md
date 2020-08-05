@@ -25,7 +25,7 @@ You can format the slicer in Microsoft Excel by setting its number of columns or
 
 Please see the following code, it loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/66948422/67338501.xlsx) that contains a slicer. It accesses the slicer and sets its number of columns and style type and saves it as [output Excel file](https://docs2.aspose.com/cells/java/attachments/66948422/67338500.xlsx). The screenshot shows how the slicer looks after the execution of the sample code.
 
-![](https://docs2.aspose.com/cells/java/attachments/66948422/67338499.png)
+![image](https://docs2.aspose.com/cells/java/attachments/66948422/67338499.png)
 
 ## Sample Code
 

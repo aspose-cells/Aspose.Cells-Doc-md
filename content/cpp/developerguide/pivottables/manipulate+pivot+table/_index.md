@@ -28,7 +28,7 @@ Besides creating new pivot tables, you can manipulate the new and existing pivot
 
 The following sample code loads the [sample excel file](https://docs2.aspose.com/cells/cpp/attachments/22970933/23167013.xlsx) and accesses the existing pivot table insides its first worksheet. It changes the value of cell B3 which is inside the source range of pivot table and then refreshes the pivot table. Before it refreshes the pivot table, it accesses the value of pivot table cell H8 which is 15 and after refreshing the pivot table, its value changes to 6. Please see the [output excel file](https://docs2.aspose.com/cells/cpp/attachments/22970933/23167014.xlsx) generated with this code and the screenshot showing the effect of sample code on the sample excel file. Please also see the console output below which shows the value of the pivot table cell H8 before and after refreshing the pivot table.
 
-![](https://docs2.aspose.com/cells/cpp/attachments/22970933/23167012.png)
+![image](https://docs2.aspose.com/cells/cpp/attachments/22970933/23167012.png)
 
 ## Sample Code
 

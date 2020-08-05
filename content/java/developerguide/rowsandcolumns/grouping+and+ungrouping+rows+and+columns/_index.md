@@ -29,7 +29,7 @@ In a Microsoft Excel file, you can create an outline for the data to let you sho
 Click the **Outline Symbols**, 1,2,3, + and - to quickly display only the rows or columns that provide summaries or headings for sections in a worksheet, or you can use the symbols to see details under an individual summary or heading as shown below in the figure:
 
 Grouping of rows & columns  
-![](https://docs2.aspose.com/cells/java/attachments/5276254/5473338.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276254/5473338.png)
 
 ### Group Management of Rows & Columns
 
@@ -53,7 +53,7 @@ Microsoft Excel also allows to configure group settings for displaying:
 *   Summary columns to right of detail.
 
 **Group settings**  
-![](https://docs2.aspose.com/cells/java/attachments/5276254/5473339.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276254/5473339.png)
 
 It is possible to configure these group settings using the `Worksheet` class' `Outline` property.
 

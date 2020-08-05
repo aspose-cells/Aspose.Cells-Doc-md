@@ -25,7 +25,7 @@ If you want to remove slicer in Microsoft Excel, just select it and press the *
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/66948424/67338504.xlsx) that contains an existing slicer. It accesses the slicers and then removes it. Finally, it saves the workbook as [output Excel file](https://docs2.aspose.com/cells/java/attachments/66948424/67338502.xlsx). The following screenshot shows the slicer that will be removed after the execution of the sample code.
 
-![](https://docs2.aspose.com/cells/java/attachments/66948424/67338503.png)
+![image](https://docs2.aspose.com/cells/java/attachments/66948424/67338503.png)
 
 ## Sample Code
 

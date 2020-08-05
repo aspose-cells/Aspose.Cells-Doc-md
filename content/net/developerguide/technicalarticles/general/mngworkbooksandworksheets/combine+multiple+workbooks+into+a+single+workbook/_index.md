@@ -32,14 +32,14 @@ Below are screenshots of the source and output workbooks.
 You can use any source workbooks. These images are just for illustration purposes.
 
 **The first worksheet of the charts workbook - stacked**  
-![](download/attachments/5276659/731425608)
+![image](download/attachments/5276659/731425608)
 
 **Second worksheet of charts workbook - line**  
-![](download/attachments/5276659/838085336)
+![image](download/attachments/5276659/838085336)
 
 **First worksheet of the picture workbook - picture**  
-![](download/attachments/5276659/1121323668)
+![image](download/attachments/5276659/1121323668)
 
 **All three worksheets in the combined workbook - stacked, line, picture**  
-![](download/attachments/5276659/735023027)
+![image](download/attachments/5276659/735023027)
 

@@ -25,9 +25,9 @@ By default, Aspose.Cells.GridWeb displays numeric data accordingly based on the 
 
 Using the **GridWorksheetCollection.NumberDecimalSeparator** property, you may change the decimal separator from Numeric keypad programmatically. Please see the screenshots that show how it works
 
-![](https://docs2.aspose.com/cells/net/attachments/64455023/64716827.png)
+![image](https://docs2.aspose.com/cells/net/attachments/64455023/64716827.png)
 
-![](https://docs2.aspose.com/cells/net/attachments/64455023/64716828.png)
+![image](https://docs2.aspose.com/cells/net/attachments/64455023/64716828.png)
 
 ## Sample Code
 

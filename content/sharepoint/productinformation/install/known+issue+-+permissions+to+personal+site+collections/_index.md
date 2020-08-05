@@ -27,7 +27,7 @@ To prevent this issue, grant portal administrators the permission to manage MySi
 7.  Select the level of control.  
       
     **Adding users and setting the control level**  
-    ![](https://docs2.aspose.com/cells/sharepoint/attachments/6356998/6488108.png)  
+    ![image](https://docs2.aspose.com/cells/sharepoint/attachments/6356998/6488108.png)  
       
     
 8.  Click **Finish**.

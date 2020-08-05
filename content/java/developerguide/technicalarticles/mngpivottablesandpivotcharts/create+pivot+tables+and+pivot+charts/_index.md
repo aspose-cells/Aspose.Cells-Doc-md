@@ -57,10 +57,10 @@ To create a pivot table using Aspose.Cells:
 A code sample is given below. Executing the code generates a new file: pivotTable\_test.xls.  
   
 **Input data**  
-![](https://docs2.aspose.com/cells/java/attachments/5276674/5473027.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276674/5473027.png)
 
 **The output pivot table**  
-![](https://docs2.aspose.com/cells/java/attachments/5276674/5473026.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276674/5473026.png)
 
 
 #### Creating a Pivot Chart based on the Pivot Table
@@ -74,7 +74,7 @@ To create a pivot chart using Aspose.Cells:
 Below is the code used by the component to accomplish the task. Executing the code generates a new file: pivotChart\_test.xls.
 
 **The pivot chart sheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276674/5473033.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276674/5473033.png)
 
 This article shows how to create pivot tables and pivot charts using Aspose.Cells. Hopefully, it will help you use these features in your own scenarios.
 

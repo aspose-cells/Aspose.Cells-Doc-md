@@ -42,5 +42,5 @@ Dynamic Formulas allow the following additional options:
 *   {2}, {-1} – Offset to current row number.
 
 **A repeating dynamic formula and the resulting Excel worksheet**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094949/6193436.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094949/6193436.png)
 

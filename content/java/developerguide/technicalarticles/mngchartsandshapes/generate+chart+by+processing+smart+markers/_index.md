@@ -49,7 +49,7 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 
 If you save the resultant spreadsheet at this stage, the data in the worksheet will look as follow.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275665/5472514.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275665/5472514.png)
 
 #### Processing Designer Spreadsheet
 
@@ -92,7 +92,7 @@ designer.process();
 
 If you save the spreadsheet at this stage, the data will look as follow.
 
-![](https://docs2.aspose.com/cells/java/attachments/5275665/5472515.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275665/5472515.png)
 
 Above code snippet uses the existing instance of the `Workbook` class created in the first step. If you already have the designer spreadsheet file on disk or memory, you can create an instance of `Workbook` class by loading the existing designer spreadsheet.
 
@@ -102,5 +102,5 @@ Once the data is in place, all we need to do is to create a chart based on the d
 
 
 The final chart looks as follow.  
-![](https://docs2.aspose.com/cells/java/attachments/5275665/5472513.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5275665/5472513.png)
 

@@ -26,11 +26,11 @@ Aspose.Cells supports the reading and manipulation of Microsoft Excel 2016 chart
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519072.xlsx) which contains Excel 2016 charts in the first worksheet. It reads all charts one by one and changes its title as per its chart type. The following screenshot shows the sample Excel file before the execution of the code. As you can see, the chart title is the same for all charts.
 
-![](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519082.png)
+![image](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519082.png)
 
 The following screenshot shows the [output Excel file](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519073.xlsx) after the execution of code. As you can see, the chart title is changed as per its chart type.
 
-![](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519083.png)
+![image](https://docs2.aspose.com/cells/cpp/attachments/66257152/66519083.png)
 
 ## Sample Code
 

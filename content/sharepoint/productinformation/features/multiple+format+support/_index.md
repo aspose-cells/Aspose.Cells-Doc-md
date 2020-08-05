@@ -45,5 +45,5 @@ The full list of output formats supported by Aspose.Cells for SharePoint is:
 *   DIF – Drawing Interchange Format
 
 **The supported conversion formats available for a file are listed**  
-![](https://docs2.aspose.com/cells/sharepoint/attachments/6357019/47153161.png)
+![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357019/47153161.png)
 

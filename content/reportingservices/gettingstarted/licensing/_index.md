@@ -41,13 +41,13 @@ To test the license file was installed correctly, export any report as a Microso
 Aspose.Cells for Reporting Services injects an evaluation watermark worksheet when working in the evaluation mode. When a valid license file, for example when **Aspose.Cells.ReportingServices.lic** is in the $\[Installation Folder\]\\License\\ folder, there is no evaluation watermark worksheet.
 
 **A file created in evaluation mode. Note the second worksheet.**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193562.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193562.png)
 
 **A file created with a full license**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193563.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193563.png)
 
 If there is any problem with the license file, the error message will be produced into the generated report.
 
 **Error message indicating licensing issue**  
-![](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193561.png)
+![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094906/6193561.png)
 

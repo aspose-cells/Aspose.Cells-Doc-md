@@ -22,7 +22,7 @@ url: /net/gettingstarted/knownissues/no+overload+for+method+save+takes+4+argumen
 
 ### Screenshot of Error
 
-![](https://docs2.aspose.com/cells/net/attachments/5017244/5112129.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5017244/5112129.png)
 
 ### Solution
 

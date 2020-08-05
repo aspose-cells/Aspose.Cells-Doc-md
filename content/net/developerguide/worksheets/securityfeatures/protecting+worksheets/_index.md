@@ -68,14 +68,14 @@ After the above code is used to protect the worksheet, you can check the protect
 {{< table style="table-striped" >}}
 |A dialog warning that a user can't modify the worksheet|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5013518/5115175.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5013518/5115175.png)|
 {{< /table >}}
 
 To work on the worksheet, unprotect the worksheet by selecting the **Protection**, then **Unprotect Sheet** from the **Tools** menu item.
 
 After you select Unprotect Sheet menu item, a dialog will open that would prompt you to enter the password so that you may work on the worksheet as shown below:
 
-![](https://docs2.aspose.com/cells/net/attachments/5013518/5115174.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013518/5115174.png)
 
 ### Protect a few Cells in the Worksheet Using Microsoft Excel
 

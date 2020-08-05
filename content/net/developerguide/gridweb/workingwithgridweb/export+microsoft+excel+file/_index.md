@@ -40,10 +40,10 @@ If your file system is NTFS, grant read/write access to the ASPNET or Everyone u
 The above code snippet can be used in several ways. A common way is to add a button that saves the grid content to an Excel file when clicked. Aspose.Cells.GridWeb offers an easier approach for task. Aspose.Cells.GridWeb has an event called `SaveCommand`. The above code snippet can be added to the `SaveCommand` event's event handler which allow users to save their work by clicking the Aspose.Cells.GridWeb's in-built **Save** button.
 
 **The GridWeb's SaveCommand event**  
-![](https://docs2.aspose.com/cells/net/attachments/5013751/5115435.jpg)
+![image](https://docs2.aspose.com/cells/net/attachments/5013751/5115435.jpg)
 
 **Saving grid content to Excel by clicking GridWeb's in-built Save button**  
-![](https://docs2.aspose.com/cells/net/attachments/5013751/5115436.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013751/5115436.png)
 
 If you are working in Visual Studio you can easily create the `SaveCommand` event's event handler by double-clicking the event in the **Properties** pane. To learn more about this, please refer to [Working with GridWeb Events](https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/working+with+gridweb+events)
 

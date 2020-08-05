@@ -21,7 +21,7 @@ url: /java/developerguide/html/export+document+workbook+and+worksheet+properties
 
 When Microsoft Excel file is exported to HTML using Microsoft Excel or Aspose.Cells, it also exports various types of Document, Workbook and Worksheet properties as shown in the following screenshot. You can avoid exporting these properties by setting the [HtmlSaveOptions.ExportDocumentProperties](https://apireference.aspose.com/javascript/cells/aspose.cells/htmlsaveoptions#ExportDocumentProperties), [HtmlSaveOptions.ExportWorkbookProperties](https://apireference.aspose.com/javascript/cells/aspose.cells/htmlsaveoptions#ExportWorkbookProperties) and [HtmlSaveOptions.ExportWorksheetProperties](https://apireference.aspose.com/javascript/cells/aspose.cells/htmlsaveoptions#ExportWorksheetProperties) as **false**. The default value of these properties is **true**. The following screenshot shows how these properties look like in exported HTML.
 
-![](https://docs2.aspose.com/cells/java/attachments/61541003/61767782.png)  
+![image](https://docs2.aspose.com/cells/java/attachments/61541003/61767782.png)  
 
 ## Export Document, Workbook and Worksheet Properties in Excel to HTML conversion
 

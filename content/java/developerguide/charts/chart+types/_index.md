@@ -67,7 +67,7 @@ Each of the standard chart types is described in more detail below.
 Column charts use vertical bars (called columns) to display different values of one or more data items. Column charts are mostly used to compare values across different categories. They are ideal for showing variations in an item's value over time, for example, when doing a budget analysis.
 
 **Column charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472359.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472359.png)
 
 The following column charts are supported in Aspose.Cells:
 
@@ -84,7 +84,7 @@ The following column charts are supported in Aspose.Cells:
 Bar charts are almost the same type as column charts. The difference is that they use horizontal bars instead of vertical ones.
 
 **Bar charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472366.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472366.png)
 
 The following bar charts are supported in Aspose.Cells:
 
@@ -100,7 +100,7 @@ The following bar charts are supported in Aspose.Cells:
 Line charts make use of lines to display information. These charts are very useful to show a temporal trend over time and are often used to show variations in the value of more than one item over time.
 
 **Line charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472365.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472365.png)
 
 The following line charts are supported in Aspose.Cells:
 
@@ -119,7 +119,7 @@ Data markers are used to represents data points, the individual values plotted i
 Pie charts are mostly used to display information when you want to represent the different parts of a whole or the percentages of a total.
 
 **Pie charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472364.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472364.png)
 
 The following pie charts are supported in Aspose.Cells:
 
@@ -135,7 +135,7 @@ The following pie charts are supported in Aspose.Cells:
 Scatter charts are mostly used in statistics to visually display and compare two sets of related quantitative or numerical data by displaying only finitely many points, each having a coordinate on a horizontal ("X") and a vertical ("Y") axis.
 
 **Scatter charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472363.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472363.png)
 
 The following scatter charts are supported in Aspose.Cells:
 
@@ -150,7 +150,7 @@ The following scatter charts are supported in Aspose.Cells:
 An area chart is a kind of line chart in which each area is given a solid color or pattern to emphasize the relationships between the pieces of charted information.
 
 **Area charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472370.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472370.png)
 
 The following area charts are supported in Aspose.Cells:
 
@@ -166,7 +166,7 @@ The following area charts are supported in Aspose.Cells:
 A doughnut chart is similar to a pie chart and is mostly used to show how proportions of data contribute to the whole.
 
 **Doughnut charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472369.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472369.png)
 
 The following doughnut charts are supported in Aspose.Cells:
 
@@ -178,7 +178,7 @@ The following doughnut charts are supported in Aspose.Cells:
 Radar charts are most useful when you want to look at several different factors, which are related to one item. These charts have multiple axes along which data can be plotted.
 
 **Radar charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472368.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472368.png)
 
 The following radar charts are supported in Aspose.Cells:
 
@@ -191,7 +191,7 @@ The following radar charts are supported in Aspose.Cells:
 Like other 3D charts, surface 3D charts are based on the X, Y and Z axes. These charts are useful for showing a variation in the "Z" variable according to the other two variables, "X" and "Y".
 
 **Surface 3D charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472367.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472367.png)
 
 The following surface 3D charts are supported in Aspose.Cells:
 
@@ -205,7 +205,7 @@ The following surface 3D charts are supported in Aspose.Cells:
 A bubble chart is a variation of a scatter chart in which the data points are replaced with bubbles. A Bubble chart can be used instead of a scatter chart if your data has three data series, each of which contains a set of values. Bubble charts are mostly used to display financial data.
 
 **Bubble charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472374.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472374.png)
 
 The following bubble charts are supported in Aspose.Cells:
 
@@ -217,7 +217,7 @@ The following bubble charts are supported in Aspose.Cells:
 Stock charts are mostly used for stock price data, but can also be used for scientific data.
 
 **Stock charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472345.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472345.png)
 
 The following stock charts are supported in Aspose.Cells:
 
@@ -231,7 +231,7 @@ The following stock charts are supported in Aspose.Cells:
 These chart types use cylinder data markers to lend a dramatic effect to column, bar, and 3D column charts.
 
 **Cylinder charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472373.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472373.png)
 
 The following cylinder charts are supported in Aspose.Cells:
 
@@ -247,7 +247,7 @@ The following cylinder charts are supported in Aspose.Cells:
 
 These chart types use cone data markers to lend a dramatic effect to column, bar, and 3D column charts.  
   
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472372.png)  
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472372.png)  
 **Cone charts supported in Microsoft Excel**
 
 The following cone charts are supported in Aspose.Cells:
@@ -265,7 +265,7 @@ The following cone charts are supported in Aspose.Cells:
 These chart types use pyramid data markers to lend a dramatic effect to column, bar, and 3D column charts.
 
 **Pyramid charts supported in Microsoft Excel**  
-![](https://docs2.aspose.com/cells/java/attachments/5276207/5472371.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276207/5472371.png)
 
 The following pyramid charts are supported in Aspose.Cells:
 

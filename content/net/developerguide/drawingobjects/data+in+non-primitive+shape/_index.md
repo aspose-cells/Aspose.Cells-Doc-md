@@ -29,6 +29,6 @@ Access the shape data using the [Shape.Paths](https://apireference.aspose.com/ne
 {{< table style="table-striped" >}}
 |Shows an example of a non-primitive shape|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5017130/92340232.jpg)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5017130/92340232.jpg)|
 {{< /table >}}
 

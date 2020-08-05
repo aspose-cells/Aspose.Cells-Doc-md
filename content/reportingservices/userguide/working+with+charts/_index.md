@@ -30,29 +30,29 @@ To add a chart to report template:
     
 2.  Create a tabular report according to the instructions in [Creating Tabular Report](https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/). The report we've created for this example is below. The table is the chart's data source.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193183.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193183.png)  
       
     
 3.  In Microsoft Excel, click the **Insert** menu and select **Chart**.
 4.  Click **Next**.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193182.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193182.png)  
       
     
 5.  Click the **Series** tab.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193181.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193181.png)  
       
     
 6.  Click **Add**.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193172.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193172.png)  
       
     
 7.  In the dialog box, set the value of Series1 (Quarter series) to the table's first data field.  
     In the sample, that is “CompanySales!$C$3:$C$3”. The first $C$3 is the first row index of “Quarter” and the second $C$3 is a placeholder for last row index of “Quarter” and will be replaced with the table data's real row index at rendering time. Set the category(X) axis labels to “=CompanySales!$C$3:$C$3”.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193171.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193171.png)  
       
     
 8.  Click **Add** to add another series.  
@@ -61,22 +61,22 @@ To add a chart to report template:
     In the sample it is “CompanySales!$D$3:$D$3”. The first $D$3 is the first row index of “Sales” and the second $D$3 is a placeholder for last row index of “Sales” and will be replaced with the table data's real row index at rendering time.
 10.  Click **Next** to continue.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193170.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193170.png)  
       
     
 11.  In the dialog box, set the chart title and category(X) axis.
 12.  Click **Finish** to complete the work.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193169.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193169.png)  
       
     The template looks like the below.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193176.png)  
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193176.png)  
       
     
 13.  Save the report and publish it to Report Server.
 14.  Export the report from Report Server.  
     The result is as below.  
       
-    ![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193175.png)
+    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193175.png)
 

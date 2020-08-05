@@ -23,7 +23,7 @@ url: /pythonjava/developerguide/worksheets/find+if+the+worksheet+is+dialog+sheet
 
 Dialog Sheet is an old format of the sheet that contains a dialog box. Such a sheet could be inserted by an older version of Microsoft Excel e.g. 2003 as shown in this screenshot. It can also be inserted with VBA in newer versions e.g. Microsoft Excel 2016.
 
-![](https://docs.aspose.com/download/attachments/64454897/Dialog%20Sheet.png?version=1&modificationDate=1522155535466&api=v2)
+![image](https://docs.aspose.com/download/attachments/64454897/Dialog%20Sheet.png?version=1&modificationDate=1522155535466&api=v2)
 
 ## Find if the Worksheet is Dialog Sheet
 

@@ -27,6 +27,6 @@ This article also explains how to set:
 [ChartPoint.getArea().setForegroundColor()](https://apireference.aspose.com/java/cells/com.aspose.cells/area#ForegroundColor) is not specific to pie charts but can be used for all types of charts.
 
 **Custom slice colors in the pie chart**  
-![](https://docs2.aspose.com/cells/java/attachments/5276686/5472852.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276686/5472852.png)
 
 

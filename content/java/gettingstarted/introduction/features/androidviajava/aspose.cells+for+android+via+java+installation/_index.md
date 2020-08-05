@@ -61,56 +61,56 @@ Aspose.Cells for Android via Java package can be downloaded from [here](https://
 
 Once the Android Studio IDE loads, click on File > New > New Project as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528298.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528298.png)
 
 You can also create a new project from the Android Studio's Welcome Screen as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528299.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528299.png)
 
 Next, you will be prompt to specify the application name, domain & location to store the project files. You can choose to change the default values as per your choice or let them as they are, and click Next.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528300.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528300.png)
 
 In the next step, you have to specify the Android Device you wish to host/run your application. Once selected, click on Next button.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528301.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528301.png)
 
 Now you need to select the Activity from a predefined list of templates. In order to keep the demonstration simple, we have selected the Empty Activity template as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528302.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528302.png)
 
 Click on Finish button on the Customize the Activity dialog as we will keep all the default settings as they are.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528303.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528303.png)
 
 As soon as you click on the Finish button on the previous step, the IDE will start building the project as shown below. Let it finish or click the Cancel button.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528304.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528304.png)
 
 Now the project has been loaded in the IDE, however, you may wish to change the view to Project so that you can view the complete hierarchy of the project files. In order to change the view, please check the following snapshot.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528306.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528306.png)
 
 After changing the view to Project, find & load the **build.gradle** file in the editor and paste the following snippet as shown below.
 
 dexOptions{    javaMaxHeapSize "4g"}
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528307.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528307.png)
 
 Next, we will add the Aspose.Cells for Android via Java Jar to the project. There are 2 important steps as detailed below.
 
 *   Manually copy the Aspose.Cells for Android via Java Jar to the **\\app\\libs** folder.
 *   Add Aspose.Cells for Android via Java Jar as Library to the module as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528308.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528308.png)
 
 You will be prompt to select the module to which you wish to add the Aspose.Cells for Java.Android Jar as a library. Please choose appropriately and click OK.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528310.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528310.png)
 
 You also need to add the APK file to the project. You have to copy the APK to the **\\app\\src\\main\\assets** folder. If you do not have the assets folder under the main folder, you can create one by right-clicking the main node in the Project view. Select New > Folder > Asset Folder.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528312.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528312.png)
 
 Once the APK has been added to the project, it needs to be loaded by the project. There are 2 ways to load the APK as follow.
 
@@ -128,11 +128,11 @@ private class TestTask extends AsyncTask<Void, String, Boolean> {    @Override  
 
 When you run the application using the play button on IDE interface (or using SHIFT + F10) the emulator will load the application as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528313.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528313.png)
 
 Clicking the button on the emulator will execute the code to create a new spreadsheet in the external storage folder of the emulator. You can access the file from the Android Device Monitor as shown below.
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528314.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528314.png)
 
-![](https://docs2.aspose.com/cells/java/attachments/41550537/50528315.png)
+![image](https://docs2.aspose.com/cells/java/attachments/41550537/50528315.png)
 

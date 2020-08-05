@@ -59,7 +59,7 @@ You can access a worksheet's maximum display range using [Worksheet.getCells().g
 In the following figure, the selected worksheet' maximum display range is A1:G15.
 
 **Showing the maximum display range of this worksheet**  
-![](https://docs2.aspose.com/cells/java/attachments/5276742/5472473.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276742/5472473.png)
 
 The following sample code illustrates how to access the [MaxDisplayRange](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#MaxDisplayRange) property. The code generates the following output.
 

@@ -30,7 +30,7 @@ Click the **Outline Symbols**, 1,2,3, + and - to quickly display only the rows o
 {{< table style="table-striped" >}}
 |Grouping Rows and Columns.|
 |:----|
-|![](https://docs2.aspose.com/cells/net/attachments/5013587/5115161.png)|
+|![image](https://docs2.aspose.com/cells/net/attachments/5013587/5115161.png)|
 {{< /table >}}
 
 ## Group Management of Rows and Columns

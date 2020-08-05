@@ -94,7 +94,7 @@ To set the height of a row:
 Aspose.Cells.GridWeb accepts row height and column width measurements in points, inches, pixels, etc.
 
 **Output: the height of the 1st row has been set to 50 points**  
-![](https://docs2.aspose.com/cells/java/attachments/5276822/5472813.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276822/5472813.png)
 
 #### Setting Column Width
 
@@ -117,7 +117,7 @@ To customize the header or caption of a row:
 3.  Set the caption of any specified row.
 
 **The headers of row 1 and 2 have been customized**  
-![](https://docs2.aspose.com/cells/java/attachments/5276822/5472809.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276822/5472809.png)
 
 ### Customizing Column Header
 
@@ -128,7 +128,7 @@ To customize the header or caption of a column:
 3.  Set the caption of any specified column.
 
 **The headers of column 1 and 2 have been customized**  
-![](https://docs2.aspose.com/cells/java/attachments/5276822/5472808.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276822/5472808.png)
 
 ## Freeze and Unfreeze Rows and Columns
 
@@ -145,7 +145,7 @@ To freeze a specific number of rows and columns:
 It is also possible to freeze a specific number of rows & columns using the interface. Right-click a cell where you want to freeze rows & columns and select **Freeze** from the list.
 
 **Rows & columns in a frozen state**  
-![](https://docs2.aspose.com/cells/java/attachments/5276822/5472789.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276822/5472789.png)
 
 ### Unfreezing Rows & Columns
 
@@ -156,7 +156,7 @@ To unfreeze rows and columns:
 3.  Unfreeze rows & columns.
 
 **Worksheet after being unfrozen**  
-![](https://docs2.aspose.com/cells/java/attachments/5276822/5472788.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276822/5472788.png)
 
 ## Protecting Rows and Columns
 
@@ -167,10 +167,10 @@ This topic discusses a few techniques for protecting cells in rows and columns f
 GridWeb provides a context menu that end users can use to perform operations on the control. The menu provides many options for manipulating cells, rows, and columns.
 
 **Complete contextual options**  
-![](https://docs2.aspose.com/cells/java/attachments/5276822/5472785.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276822/5472785.png)
 
 It is possible to restrict any kind of client-side operations on rows and columns by restricting the options available in the context menu. It can be done by setting the `EnableClientColumnOperations` and `EnableClientRowOperations` attributes of the GridWeb control to false. It is also possible to restrict users from freezing rows and columns by setting the GridWeb control's `EnableClientFreeze` attribute to false.
 
 **Context menu after restricting row & column options**  
-![](https://docs2.aspose.com/cells/java/attachments/5276822/5472784.png)
+![image](https://docs2.aspose.com/cells/java/attachments/5276822/5472784.png)
 

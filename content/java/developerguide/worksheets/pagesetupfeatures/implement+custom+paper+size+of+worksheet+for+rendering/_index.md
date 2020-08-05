@@ -28,7 +28,7 @@ Aspose.Cells allows you to implement your desired paper size of the worksheet by
 
 ## Screenshot
 
-![](https://docs2.aspose.com/cells/java/attachments/44860297/45056029.png)
+![image](https://docs2.aspose.com/cells/java/attachments/44860297/45056029.png)
 
 ## Sample Code
 

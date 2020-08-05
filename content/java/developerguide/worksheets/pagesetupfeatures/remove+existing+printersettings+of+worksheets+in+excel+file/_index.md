@@ -29,7 +29,7 @@ Aspose.Cells allows you to remove existing printer settings specified for differ
 
 ## Screenshot
 
-![](https://docs2.aspose.com/cells/java/attachments/44860273/45056022.png)
+![image](https://docs2.aspose.com/cells/java/attachments/44860273/45056022.png)
 
 ## Sample Code
 

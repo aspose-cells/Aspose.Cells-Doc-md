@@ -24,10 +24,10 @@ For more details on how to access worksheets in Aspose.Cells.GridWeb, please ref
 Before executing the code, the worksheet has a default name, such as Sheet1.
 
 **Input file: a worksheet with a default name Sheet1**  
-![](https://docs2.aspose.com/cells/net/attachments/5013788/5115346.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013788/5115346.png)
 
 After running the code, the worksheet is renamed Students.
 
 **Output: the worksheet is renamed Students**  
-![](https://docs2.aspose.com/cells/net/attachments/5013788/5115345.png)
+![image](https://docs2.aspose.com/cells/net/attachments/5013788/5115345.png)
 
