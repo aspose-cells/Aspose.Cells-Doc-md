@@ -7,7 +7,7 @@ type: docs
 url: /jasperreports/
 ---
 
-# ![Home Page](https://docs2.aspose.com/cells/jasperreports/images/icons/contenttypes/home_page_16.png) Aspose.Cells for JasperReports : Home 
+# ![Home Page](home_page_16.png) Aspose.Cells for JasperReports : Home 
 
 
 ### Aspose.Cells for JasperReports

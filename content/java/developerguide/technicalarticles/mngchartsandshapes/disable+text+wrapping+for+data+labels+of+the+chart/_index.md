@@ -19,11 +19,11 @@ Similarly, use the [DataLabels.isTextWrapped()](https://apireference.aspose.com/
 This screenshot shows a sample Microsoft Excel file containing a chart in which the text of the data labels are wrapped. As you can see, you can check or clear the **Wrap text in shape** option in the ALIGNMENT section of the Format Datalabels panel in Microsoft Excel 2013.
 
 **Wrapping data labels**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276457/5472863.png)
+![image](5472863.png)
 
 The sample code that follows loads the sample Microsoft Excel file using Aspose.Cells and disables data label text wrapping using the [DataLabels.setTextWrapped()](https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#IsTextWrapped) method. When the code is executed, the chart looks like this. The previously wrapped text is now unwrapped.
 
 **Showing data labels on one line only**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276457/5472864.png)
+![image](5472864.png)
 
 

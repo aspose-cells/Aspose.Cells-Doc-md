@@ -26,7 +26,7 @@ You can fill the shape surface with some image and tile it using the [Shape.Fil
 
 ## Screenshot
 
-![image](https://docs2.aspose.com/cells/java/attachments/45909128/46465054.png)
+![image](46465054.png)
 
 ## Sample Code
 

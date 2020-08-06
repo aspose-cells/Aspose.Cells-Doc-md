@@ -19,5 +19,5 @@ The following sample code illustrates how to add an image hyperlink into a works
 When the code runs, it saves an output file with an image hyperlink in it.  
   
 **The output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276603/5472614.png)
+![image](5472614.png)
 

@@ -7,10 +7,10 @@ type: docs
 url: /reportingservices/
 ---
 
-# ![Home Page](https://docs2.aspose.com/cells/reportingservices/images/icons/contenttypes/home_page_16.png) Aspose.Cells for Reporting Services : Home 
+# ![Home Page](home_page_16.png) Aspose.Cells for Reporting Services : Home 
 
 
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/thumbnails/6094894/6193531)**Welcome to Aspose.Cells for **Reporting Services****
+![image](6193531)**Welcome to Aspose.Cells for **Reporting Services****
 
 Aspose.Cells for Reporting Services is a solution for developers who need to deliver Microsoft Excel reports in Reporting Services. It adds flexible and user-friendly features the Reporting Services through the Aspose.Cells.Report.Designer tool. The API can perform all tasks related to developing reports in Reporting Services such as setting up data sources, creating queries, designing reports and publishing reports to Report Server. Since Aspose.Cells.Report.Designer uses Microsoft Excel as a report template, users can take advantage of the powerful features available in Microsoft Excel.
 

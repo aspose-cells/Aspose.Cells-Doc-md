@@ -22,7 +22,7 @@ Aspose.Cells provides the [DataLabels.setShowCellRange()](https://apireference.a
 
 The following screenshot highlights this option for your reference.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276462/5472950.png)
+![image](5472950.png)
 
 #### Sample Code
 

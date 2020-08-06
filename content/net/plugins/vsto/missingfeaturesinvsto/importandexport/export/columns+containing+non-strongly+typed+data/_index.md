@@ -35,9 +35,9 @@ fstream.Close();
 
 Below are the screenshots:
 
-![image](download/thumbnails/5020597/1696001168)
+![image](1696001168.png)
 
-![image](download/thumbnails/5020597/1262298099)
+![image](1262298099.png)
 
 ## Download Sample Code
 

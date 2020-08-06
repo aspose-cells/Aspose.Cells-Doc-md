@@ -68,14 +68,14 @@ Worksheets are an integral part of GridWeb. All data is managed and stored in th
 The simplest way to add a worksheet to Aspose.Cells.GridWeb is to call the `GridWorksheetCollection` class's `add` method in the GridWeb control. This creates worksheets that use default names (that is Sheet1, Sheet2, Sheet3 and so on) and adds them to the GridWeb control.
 
 **Output: a worksheet with default name has been added to GridWeb**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472829.png)
+![image](5472829.png)
 
 ### With Specified Sheet Name
 
 To add a worksheet with a specific name to the GridWeb control instead of using the default naming scheme, call an overloaded version of the `add` method that takes the specified string `SheetName`. For instance, the example below adds a worksheet named Invoice.
 
 **Output: a worksheet with a specified name has been added to GridWeb**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472828.png)
+![image](5472828.png)
 
 The `add()` method returns the new worksheet's index which can be used to access the instance of this worksheet. For more details on how to access worksheets, read [Accessing Worksheets](https://docs2.aspose.com/cells/java/developerguide/gridweb/working+with+worksheets+gridweb#workingwithworksheetsgridweb-accessingworksheets).
 
@@ -95,12 +95,12 @@ For more details on how to access worksheets in Aspose.Cells.GridWeb, please ref
 Before executing the code, the worksheet has a default name, such as Sheet1.
 
 **Input file: a worksheet with a default name Sheet1**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472825.png)
+![image](5472825.png)
 
 After running the code, the worksheet is renamed Invoice.
 
 **Output: the worksheet is renamed Invoice**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472824.png)
+![image](5472824.png)
 
 ## Copying a Worksheet
 
@@ -148,7 +148,7 @@ To add a comment to worksheet, please follow the steps below:
 4.  Set a note for the new comment.
 
 **A comment has been added to the worksheet**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472805.png)
+![image](5472805.png)
 
 #### Accessing Comments
 
@@ -181,7 +181,7 @@ The following hyperlinks are supported by Aspose.Cells.GridWeb:
 
 The example below adds two hyperlinks to a worksheet. One has a \_blank target while the other is set to \_parent.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472380.png)
+![image](5472380.png)
 
 **Output: text hyperlinks added to worksheet**
 
@@ -189,7 +189,7 @@ The example below adds two hyperlinks to a worksheet. One has a \_blank target w
 
 The example below adds image URL hyperlink to a worksheet.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472379.png)
+![image](5472379.png)
 
 **Output: image hyperlink added to worksheet**
 
@@ -212,12 +212,12 @@ The example below sorts data in two columns (Student ID and Student Name) of a w
 Before applying the code, the worksheet contains unordered data.
 
 **Input: unsorted data**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472376.png)
+![image](5472376.png)
 
 After executing the code, the data is sorted in ascending order.
 
 **Output: data sorted from top to bottom in ascending order**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472375.png)
+![image](5472375.png)
 
 ### From Left to Right
 
@@ -232,12 +232,12 @@ The example below sorts data in two rows (Student ID and Student Name) in ascend
 Before applying the code, the worksheet contains unordered data.
 
 **Input: unsorted data before executing the code snippet**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472378.png)
+![image](5472378.png)
 
 After executing the code, data is sorted in ascending order.
 
 **Output: data sorted from left to right in ascending order**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472387.png)
+![image](5472387.png)
 
 ## Searching and Replacing
 
@@ -251,12 +251,12 @@ There are two ways to open the Find/Replace dialog:
 2.  Move the cursor to the cell area in the worksheet, then right-click. Select **Find** or **Replace** from the menu.
 
 **Selecting Find**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472390.png)
+![image](5472390.png)
 
 A find and replace dialog is displayed.
 
 **The Find/Replace dialog**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276833/5472389.png)
+![image](5472389.png)
 
 **Using Find**
 

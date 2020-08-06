@@ -22,7 +22,7 @@ url: /net/developerguide/worksheets/utilize+sheet.sheetid+property+of+openxml+us
 
 *Sheet.SheetId* property is found inside the *DocumentFormat.OpenXml.Spreadsheet* namespace and is part of OpenXml. You can see this property and its value inside *workbook.xml* as shown in the following screenshot. Aspose.Cells provides the equivalent property as [Worksheet.TabId](https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/tabid).
 
-![image](https://docs2.aspose.com/cells/net/attachments/51479837/51740715.png)
+![image](51740715.png)
 
 ## Utilize Sheet.SheetId property of OpenXml using Aspose.Cells
 

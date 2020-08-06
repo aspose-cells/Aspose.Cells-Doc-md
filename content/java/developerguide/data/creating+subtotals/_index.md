@@ -29,10 +29,10 @@ To create subtotals in Microsoft Excel:
     The Subtotals dialog is displayed. Define what function to use and where to place the subtotals.  
       
     **Selecting a data range to add subtotals**  
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276721/5473107.png)  
+    ![image](5473107.png)  
       
     **The Subtotal dialog**  
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276721/5473106.png)
+    ![image](5473106.png)
 
 ### Using Aspose.Cells API
 
@@ -45,5 +45,5 @@ The example below shows how to create subtotals in the first worksheet of the te
 When the code is executed, a worksheet with subtotals is created.  
   
 **Applying subtotals**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276721/5473105.png)
+![image](5473105.png)
 

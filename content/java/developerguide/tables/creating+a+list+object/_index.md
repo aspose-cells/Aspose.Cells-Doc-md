@@ -38,17 +38,17 @@ There are quite a few advantages when you convert a list of data to an actual Li
 #### Creating a List Object using Microsoft Excel
 
 **Selecting data range for creating a list object**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276801/5472838.png)
+![image](5472838.png)
 
 This displays the Create List dialog.
 
 **Create List dialog**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276801/5472839.png)
+![image](5472839.png)
 
 Implementing the List object and specifying Total Row (Select **Data**, then **List**, followed by **Total Row**).
 
 **Creating a List object**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276801/5472840.png)
+![image](5472840.png)
 
 #### Using Aspose.Cells API
 

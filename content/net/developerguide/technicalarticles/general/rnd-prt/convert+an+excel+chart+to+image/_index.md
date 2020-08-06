@@ -34,7 +34,7 @@ First, create a pie chart in Microsoft Excel and then convert it to an image fil
 {{< table style="table-striped" >}}
 |Output: pie chart image|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017568/5112514.png)|
+|![image](5112514.png)|
 {{< /table >}}
 
 1.  Create a pie chart in Microsoft Excel :
@@ -46,7 +46,7 @@ First, create a pie chart in Microsoft Excel and then convert it to an image fil
 {{< table style="table-striped" >}}
 |The input file.|
 |:----|
-|                ![image](https://docs2.aspose.com/cells/net/attachments/5017568/5112512.png)        2.  Download and install Aspose.Cells:    1.  [Download Aspose.Cells for .NET](http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx).    2.  Install it on your development computer.|
+|                ![image](5112512.png)        2.  Download and install Aspose.Cells:    1.  [Download Aspose.Cells for .NET](http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx).    2.  Install it on your development computer.|
 {{< /table >}}
 
 All [Aspose](http://www.aspose.com/) components work in evaluation mode when first installed. The evaluation mode has no time limit and it only injects watermarks into output documents.
@@ -64,7 +64,7 @@ First create a column chart in Microsoft Excel and convert it to an image file, 
 {{< table style="table-striped" >}}
 |Output file: a column chart image.|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017568/5112516.png)|
+|![image](5112516.png)|
 {{< /table >}}
 
 1.  Create a column chart in Microsoft Excel:
@@ -76,7 +76,7 @@ First create a column chart in Microsoft Excel and convert it to an image file, 
 {{< table style="table-striped" >}}
 |Input file.|
 |:----|
-|                ![image](https://docs2.aspose.com/cells/net/attachments/5017568/5112517.png)        |
+|                ![image](5112517.png)        |
 {{< /table >}}
 
 1.  Set up a project, with references, as described above.

@@ -23,7 +23,7 @@ You can convert your Text to Columns using Microsoft Excel. This feature is avai
 
 The following sample code explains the usage of the [TextToColumns](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#textToColumns(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions)) method. The code first adds some people names in column A of the first worksheet. The first and last name is separated by space character. Then it applies the [TextToColumns](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#textToColumns(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions)) method on column A and saves it as output excel file. If you open the [output excel file](https://docs2.aspose.com/cells/java/attachments/25002826/25395230.xlsx), you will see, first names are in column A while last names are in column B as shown in this screenshot.
 
-![image](https://docs2.aspose.com/cells/java/attachments/25002826/25395231.png)
+![image](25395231.png)
 
 ## Sample Code
 

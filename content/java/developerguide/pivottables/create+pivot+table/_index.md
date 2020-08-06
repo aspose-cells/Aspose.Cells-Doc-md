@@ -47,5 +47,5 @@ When assigning a range of cells as the data source, the range must be set from t
 The code example below shows how to create a simple pivot table following the basic steps listed above. When executing the code, a pivot table is added to the worksheet:
 
 **Creating a pivot table based on a corresponding field**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276003/5472483.png)
+![image](5472483.png)
 

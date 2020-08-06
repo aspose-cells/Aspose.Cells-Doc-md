@@ -14,9 +14,9 @@ Sometimes, you want to specify which kind of data should be loaded when building
 
 The following sample code loads only shape objects while loading the workbook from the [template file](https://docs2.aspose.com/cells/net/attachments/5013590/5115552.xlsx) which you can download from the given link. The following screenshot shows the [template file](https://docs2.aspose.com/cells/net/attachments/5013590/5115552.xlsx) contents and also explains that the data in Red color and Yellow background will not be loaded because [LoadOptions.LoadFilter](https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter) property has been set to [LoadDataFilterOptions.Shape](https://apireference.aspose.com/net/cells/aspose.cells/loaddatafilteroptions)
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013590/5115554.png)
+![image](5115554.png)
 
 The following screenshot shows the [output PDF](https://docs2.aspose.com/cells/net/attachments/5013590/5115555.pdf) which you can download from the given link. Here you can see, the data in Red color and Yellow background is not present but all shapes are there.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013590/5115553.png)
+![image](5115553.png)
 

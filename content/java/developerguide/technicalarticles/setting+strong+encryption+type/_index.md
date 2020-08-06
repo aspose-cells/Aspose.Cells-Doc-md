@@ -27,7 +27,7 @@ To implement file encryption in Microsoft Excel (for example 2007):
 5.  Choose the encryption type and confirm the password.  
       
     **Setting encryption in Microsoft Excel**  
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276604/5472617.png)
+    ![image](5472617.png)
 
 #### Applying Encryption with Aspose.Cells
 

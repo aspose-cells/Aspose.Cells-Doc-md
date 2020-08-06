@@ -26,11 +26,11 @@ To search in a document:
     The search results are displayed.
 
 **The Search in Document option**  
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357014/6488091.png)
+![image](6488091.png)
 
 **Set the search criteria**  
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357014/6488092.png)
+![image](6488092.png)
 
 **Search results**  
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357014/6488093.png)
+![image](6488093.png)
 

@@ -25,7 +25,7 @@ Sometimes you need to execute your client side function when GridWeb page change
 
 The following java code explains how to make use of the `GridWebBean.setOnPageChangeClientFunction()` property. It sets the property with the client side function named `MyOnPageChange`. Please note, this property is valid only if you have enabled paging i.e. `GridWebBean.setEnablePaging(true)`. Now, whenever you will change the GridWeb page, it will call the client side function `MyOnPageChange` which prints the **current page index** on the **console** as shown in this screenshot.
 
-![image](https://docs2.aspose.com/cells/java/attachments/40142269/40468497.png)
+![image](40468497.png)
 
 ## Sample Code
 

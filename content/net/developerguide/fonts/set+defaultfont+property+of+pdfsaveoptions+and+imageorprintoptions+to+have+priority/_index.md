@@ -33,11 +33,11 @@ The default value of ***CheckWorkbookDefaultFont*** attribute is **true**.
 
 This is the screenshot of the [template file](https://docs2.aspose.com/cells/net/attachments/48136475/49446913.xlsx) used in the example code.
 
-![image](https://docs2.aspose.com/cells/net/attachments/48136475/48496669.png)
+![image](48496669.png)
 
 This is the output PNG image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/imageformat) property to "`Times New Roman"`.
 
-![image](https://docs2.aspose.com/cells/net/attachments/48136475/48496671.png)
+![image](48496671.png)
 
 See the output [TIFF](https://docs2.aspose.com/cells/net/attachments/48136475/48496672.tiff) image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/imageformat) property to "`Times New Roman".`
 

@@ -35,14 +35,14 @@ The `ContextMenuManager` class is used to manage the context menu items. The `Gr
 To perform this task, we first take a look the default context menu the GridDesktop has.
 
 **GridDeskop's default menu**  
-![image](https://docs2.aspose.com/cells/net/attachments/5017852/5113856.png)
+![image](5113856.png)
 
 Now, hide some menu items using the code below:
 
 After executing the above code, some menu items will not be visible for the users:
 
 **Some menu items are hidden**  
-![image](https://docs2.aspose.com/cells/net/attachments/5017852/5113857.png)
+![image](5113857.png)
 
 ### Adding New Menu Items
 
@@ -54,5 +54,5 @@ We also specify an event handler for the new command/option.
 After executing the above code, a new menu item can be seen in the context menu. A message will also appear when cell is clicked.
 
 **A new menu item is added to the list**  
-![image](https://docs2.aspose.com/cells/net/attachments/5017852/5113858.png)
+![image](5113858.png)
 

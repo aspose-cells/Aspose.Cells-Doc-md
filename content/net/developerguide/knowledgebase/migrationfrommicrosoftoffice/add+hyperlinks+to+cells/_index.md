@@ -29,7 +29,7 @@ These steps are shown in the code examples below. The first examples shows how t
 
 The code samples generate an Excel file that has a hyperlink in cell A1 on the first worksheet.  
   
-![image](https://docs2.aspose.com/cells/net/attachments/5017461/5112103.png)  
+![image](5112103.png)  
 **A hyperlink is added to cell A1.**
 
 #### Adding Hyperlinks to Cells with VSTO

@@ -37,5 +37,5 @@ Category data is used for the labeling of chart data and can be added to [Series
 
 **  
 Column chart with chart & category data**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276023/5472353.png)
+![image](5472353.png)
 

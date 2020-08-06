@@ -10,6 +10,6 @@ url: /reportingservices/userguide/saving+reports/
 # Aspose.Cells for Reporting Services : Saving Reports
 
 
-To save a report, click **Save Report** on the Aspose.Cells.Report.Designer toolbar (![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094959/6193380.png)).  
+To save a report, click **Save Report** on the Aspose.Cells.Report.Designer toolbar (![image](6193380.png)).  
 The report (Microsoft Excel template) is saved as an RDL file.
 

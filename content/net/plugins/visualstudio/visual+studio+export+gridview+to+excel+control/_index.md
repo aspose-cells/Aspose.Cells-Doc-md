@@ -50,7 +50,7 @@ This initial version of the control provides the following features:
 *   Option to save each exported document on server at configurable disk path
 *   Option to export current page or all pages when paging is enabled
 
-![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115269.png)
+![image](5115269.png)
 
 This control allows you to export GridView in the following different file formats.
 
@@ -118,7 +118,7 @@ On the Tools menu, click Choose Toolbox Items.
 
 When you open an aspx or ascx control in the left side Toolbox you will see ExportGridViewToWord under General Tab
 
-![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115270.png)
+![image](5115270.png)
 
 ## **Using**
 
@@ -128,7 +128,7 @@ Once installed, it is very easy to start using this control in your ASP.NET appl
 |For .NET framework 4.0 and above|For .NET framework 2.0 and above|
 |:----|:----|
 |For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportGridViewToExcel** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started.|In order you use this control in applications running in .NET 2.0 in any visual studio version make sure that you have added ExportGridViewToExcel to your toolbox as per instructions on ﻿[8.1.2.1 Downloading and Installing](#) under heading **For Visual Studio 2005, 2008 and Express editions**  <br>You should see **ExportGridViewToExcel** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started.|
-|![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115272.png)|![image](https://docs2.aspose.com/cells/net/attachments/5020349/5115271.png)|
+|![image](5115272.png)|![image](5115271.png)|
 {{< /table >}} 
 
 ### Manually adding ExportGridViewToExcel control

@@ -24,7 +24,7 @@ These steps are shown in the code examples below. The first examples shows how t
 
 The code samples generate an Excel file that has a hyperlink in cell A1 on the first worksheet.
 
-![image](download/thumbnails/5020859/1119347197)
+![image](1119347197.png)
 
 A hyperlink is added to cell A1.
 

@@ -15,7 +15,7 @@ You can use Aspose.Cells API to get the validation applied to any cell. Aspose.C
 The following snapshot shows the sample Microsoft Excel file used in the sample code below. Cell **C1** has **decimal validation** applied and can only take values **between 10 and 20**.
 
 **A cell with validation**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276678/5472908.png)
+![image](5472908.png)
 
 The sample code below gets the validation applied to C1 and reads its various properties.
 

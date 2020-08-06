@@ -39,7 +39,7 @@ Microsoft Excel allows you to manage the document properties of the Excel files
 {{< table style="table-striped" >}}
 |Selecting Info Menu|
 |:----|
-|        ![image](https://docs2.aspose.com/cells/net/attachments/22546332/22773812.png)    2.  Click on **Properties** heading and select "Advanced Properties".        **Clicking Advanced Properties Selection**        ![image](https://docs2.aspose.com/cells/net/attachments/22546332/22773813.png)    3.  Manage the file's document properties.        **Properties Dialog**        ![image](https://docs2.aspose.com/cells/net/attachments/22546332/22773814.png)    |
+|        ![image](22773812.png)    2.  Click on **Properties** heading and select "Advanced Properties".        **Clicking Advanced Properties Selection**        ![image](22773813.png)    3.  Manage the file's document properties.        **Properties Dialog**        ![image](22773814.png)    |
 {{< /table >}}
 
 In the Properties dialog, there are different tabs, like General, Summary, Statistics, Contents, and Customs. Each tab helps configure different kinds of information related to the file. The Custom tab is used to manage custom properties.

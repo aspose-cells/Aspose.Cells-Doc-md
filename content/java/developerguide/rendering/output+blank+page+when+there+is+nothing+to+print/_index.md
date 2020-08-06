@@ -25,7 +25,7 @@ If the sheet is empty, then Aspose.Cells will not print anything when you export
 
 The following sample code creates the empty workbook which has an empty worksheet and renders the empty worksheet to an image after setting the [ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint](https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) property as **true**. Consequently, it generates the blank page as there is nothing to print which you can see as below.
 
-![image](https://docs2.aspose.com/cells/java/attachments/50266333/50528272.png)  
+![image](50528272.png)  
 
 ## Sample Code
 

@@ -31,7 +31,7 @@ url: /java/developerguide/data/cells+formatting/
 Microsoft Excel allows users to format cells by adding borders.
 
 **Borders settings in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276199/5472468.png)
+![image](5472468.png)
 
 The type of border depends on where it is added. For example, a top border is one added to the top position of a cell. Users can also modify the borders' line style and color.
 
@@ -86,7 +86,7 @@ Select one of the above line styles and then assign it to the [Style](https://ap
 The following output is generated when executing the code below.
 
 **Borders applied on all sides of a cell**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276199/5472467.png)
+![image](5472467.png)
 
 #### Adding Borders to a Range of Cells
 
@@ -105,14 +105,14 @@ The [createRange](https://apireference.aspose.com/java/cells/com.aspose.cells/ce
 The following output is generated when executing the code below.
 
 **Borders applied on a range of cells**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276199/5472470.png)
+![image](5472470.png)
 
 ## Colors and Palette
 
 A palette is the number of colors available for use in creating an image. The use of a standardized palette in a presentation allows the user to create a consistent look. Each Microsoft Excel (97-2003) file has a palette of 56 colors that can be applied to cells, fonts, gridlines, graphic objects, fills and lines in a chart.
 
 **Palette settings in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276199/5472463.png)
+![image](5472463.png)
 
 With Aspose.Cells it is not only possible to use existing colors but also custom colors. Before using a custom color, add it to the palette. This topic explains how to add custom colors to the palette.
 
@@ -134,7 +134,7 @@ The example below adds a custom color to the palette before applying it on a fon
 Microsoft Excel can set the foreground (outline) and background (fill) colors of cells and background patterns as shown below.
 
 **Setting colors and background Patterns in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276199/5472469.png)
+![image](5472469.png)
 
 Aspose.Cells also supports these features in a flexible manner. In this topic, we learn to use these features using Aspose.Cells.
 
@@ -179,7 +179,7 @@ In the example below, the foreground color of the A1 cell is set but A2 is confi
 The following output is generated when executing the code.
 
 **Foreground and background colors applied on cells with background patterns**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276199/5472464.png)
+![image](5472464.png)
 
 ### Important to Know
 
@@ -210,7 +210,7 @@ The [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) c
 In the output file, in the A1" cell, the word 'Visit' is formatted with the default font but 'Aspose!' is bold and blue.
 
 **Formatting selected characters**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276199/5472427.png)
+![image](5472427.png)
 
 If you are interested in [formatting a portion of Rich Text in a cell](http://www.aspose.com/docs/display/cellsjava/Access+and+Update+the+Portions+of+Rich+Text+of+Cell), consider using the [Cell.getCharacters](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getCharacters()) & Cell.setCharacters methods. The [Cell.getCharacters](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getCharacters())method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of [FontSetting](https://apireference.aspose.com/java/cells/com.aspose.cells/FontSetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc and **set** method can be used to apply the changes.
 

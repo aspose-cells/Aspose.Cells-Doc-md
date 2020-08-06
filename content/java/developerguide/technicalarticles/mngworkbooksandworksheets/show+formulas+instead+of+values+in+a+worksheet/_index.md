@@ -17,11 +17,11 @@ Aspose.Cells provides a [Worksheet.setShowFormulas()](https://apireference.aspo
 The following image shows the worksheet which has a formula in cell A3: `=Sum(A1:A2)`.
 
 **Worksheet with formula in cell A3**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276657/5473040.png)
+![image](5473040.png)
 
 The following image shows the formula instead of the calculated value, enabled by setting the [Worksheet.setShowFormulas()](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#ShowFormulas) property to **true** with Aspose.Cells.
 
 **Worksheet now shows formula instead of the calculated value**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276657/5473041.png)
+![image](5473041.png)
 
 

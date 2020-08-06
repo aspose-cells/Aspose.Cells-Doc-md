@@ -30,5 +30,5 @@ Access the shape data using the [Shape.getPaths()](https://apireference.aspose.c
 The following code snippet demonstrates the use of [Shape.getPaths()](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#Paths) method to access path information of non-primitive shape.
 
 **Shows an example of a non-primitive shape**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276021/92340231.jpg)
+![image](92340231.jpg)
 

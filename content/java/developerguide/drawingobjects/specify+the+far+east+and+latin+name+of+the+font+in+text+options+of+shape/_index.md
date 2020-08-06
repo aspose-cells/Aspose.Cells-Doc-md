@@ -25,7 +25,7 @@ Sometimes you want to display text in Far East language font e.g. Japanese, Chin
 
 The following sample code creates a text box and adds some Japanese text inside it. It then specifies the Latin and Far East font names of the text and saves the workbook as [output Excel file](https://docs2.aspose.com/cells/java/attachments/66945760/67338341.xlsx). The following screenshot shows the Latin and Far East font names of the output text box in Microsoft Excel.
 
-![image](https://docs2.aspose.com/cells/java/attachments/66945760/67338342.png)  
+![image](67338342.png)  
 
 ## Sample Code
 

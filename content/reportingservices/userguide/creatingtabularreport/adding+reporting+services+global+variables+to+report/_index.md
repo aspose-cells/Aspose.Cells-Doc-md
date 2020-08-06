@@ -19,22 +19,22 @@ To add global variables to reports:
 1.  Select a cell.  
       
     **A selected cell**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193359.png)  
+    ![image](6193359.png)  
       
     
-2.  Click **Insert formula** on the Aspose.Cells.Report.Designer toolbar (![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193356.png)).
+2.  Click **Insert formula** on the Aspose.Cells.Report.Designer toolbar (![image](6193356.png)).
 3.  Select **Globals** in the left panel.  
     All global variables are listed to the right.
 4.  Select **ReportName** and double-click.  
     The expression appears in the **Edit** box at the top.  
       
     **Selecting a global variable**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193357.png)  
+    ![image](6193357.png)  
       
     
 5.  Click **OK** to finish.  
     The cell now contains a global variable marker.  
       
     **A global variables marker in a cell**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193354.png)
+    ![image](6193354.png)
 

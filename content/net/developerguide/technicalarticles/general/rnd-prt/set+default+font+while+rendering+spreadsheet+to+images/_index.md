@@ -18,9 +18,9 @@ The following sample code creates a workbook, adds some text in cell A4 of first
 
 This is the output image after setting the `ImageOrPrintOptions.DefaultFont` property to `Courier New`.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5024959/5115519.png)
+![image](5115519.png)
 
 This is the output image after setting the `ImageOrPrintOptions.DefaultFont` property to `Times New Roman`.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5024959/5115515.png)
+![image](5115515.png)
 

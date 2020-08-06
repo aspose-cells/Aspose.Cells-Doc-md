@@ -14,7 +14,7 @@ This document is designed to provide the developers with understanding (in a com
 
 After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your need. When you are printing, MS Excel assumes you want to print the entire worksheet area unless you specify your selection. In this document, we have provided the simplest lines of code using **Aspose.Cells API** to perform the task for you.  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276595/5472709.png)
+![image](5472709.png)
 
 **Figure:** Print Dialog Box
 

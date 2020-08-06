@@ -12,13 +12,13 @@ url: /sharepoint/usersguide/add+watermark+to+multiple+documents/
 
 If you want to add watermark in multiple Excel files, please choose “Add WaterMark with Aspose.Cells” option in the Ribbon bar.
 
- ![image](https://docs2.aspose.com/cells/sharepoint/attachments/50270251/50528333.png)
+ ![image](50528333.png)
 
 Get all Excel files from data source folder and create file list table.
 
 Select file which needs to add watermark, click **Add Watermark** button to add watermark for the selected files. 
 
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/50270251/50528334.png) 
+![image](50528334.png) 
 
 The following options are available during the add water mark setup:
 

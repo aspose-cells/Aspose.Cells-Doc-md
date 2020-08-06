@@ -12,11 +12,11 @@ url: /sharepoint/usersguide/add+footer+to+a+document/
 
 If you want to add footer in an Excel file, please choose “Add Footer with Aspose.Cells” option in the document’s Edit Control Block (ECB).
 
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/48136378/48496650.png)
+![image](48496650.png)
 
 The following options are available during the add footer setup:
 
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/48136378/48496651.png)
+![image](48496651.png)
 
 **Section**
 

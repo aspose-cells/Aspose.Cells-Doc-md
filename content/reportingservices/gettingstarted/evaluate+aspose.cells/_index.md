@@ -14,13 +14,13 @@ You can easily download Aspose.Cells for Reporting Services for evaluation from 
 
 Evaluation version of Aspose.Cells for Reporting Services (without a license specified) provides product functionality to some extent not complete though. One limitation is that it always injects an extra worksheet with evaluation watermark on open / save any spreadsheet document.
 
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094907/6193540.png)
+![image](6193540.png)
 
 **Figure:** Demo Spreadsheet created by Aspose.Cells component
 
 It will inject an extra evaluation watermark worksheet to the workbook.
 
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094907/6193541.png)
+![image](6193541.png)
 
 **Figure:** Evaluation Warning – An Extra Worksheet
 

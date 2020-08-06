@@ -47,7 +47,7 @@ Drag and drop the Aspose.Cells.GridDesktop control from the Toolbox to the form.
 
 Finally, run the application by pressing **Ctrl+F5** or clicking the **Start** button. When the application runs, we see a form containing an empty Aspose.Cells.GridDesktop control. Now you can add values to cells by clicking them. Following screenshot shows how you application will finally look.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5020949/5115240.png)  
+![image](5115240.png)  
 
 It is not only possible to add values to the control, but also to perform other tasks like changing the height of a row or the width of a column, copying (Ctrl+C) or cutting (Ctrl+X) cell data to clipboard and pasting (Ctrl+V) data to cell etc. To perform more operations, right-click the control to see its context menu.  
   

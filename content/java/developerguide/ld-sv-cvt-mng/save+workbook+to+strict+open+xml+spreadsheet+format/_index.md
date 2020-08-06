@@ -25,7 +25,7 @@ Aspose.Cells allows you to save the workbook in *Strict Open XML Spreadsheet* 
 
 The following sample code creates a workbook and sets the value of the [Workbook.Settings.Compliance](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Compliance) property as [OoxmlCompliance.ISO\_29500\_2008\_STRICT](https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT) and saves it as [output Excel file](https://docs2.aspose.com/cells/java/attachments/66945679/67338299.xlsx). If you open the output Excel file in Microsoft Excel and open the *Save As...* dialog box, you will see its format as *Strict Open XML Spreadsheet* as shown in this screenshot.
 
-![image](https://docs2.aspose.com/cells/java/attachments/66945679/67338300.png)
+![image](67338300.png)
 
 ## Sample Code
 

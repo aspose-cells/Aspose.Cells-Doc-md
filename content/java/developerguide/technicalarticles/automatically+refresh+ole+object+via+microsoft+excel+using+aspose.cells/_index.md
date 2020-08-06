@@ -18,10 +18,10 @@ The following sample code loads the [sample excel file](https://docs2.aspose.com
 
 The following screenshot shows how the [sample excel file](https://docs2.aspose.com/cells/java/attachments/5276028/5473423.xlsx) looks when opened in Microsoft Excel.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276028/5473430.png)
+![image](5473430.png)
 
 The following screenshot shows how the [output excel file](https://docs2.aspose.com/cells/java/attachments/5276028/5473429.xlsx) looks when opened in Microsoft Excel.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276028/5473424.png)
+![image](5473424.png)
 
 

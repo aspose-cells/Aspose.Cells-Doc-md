@@ -19,7 +19,7 @@ To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 20
 3.  Click **OK**.  
       
     **Selecting 1904 date system in Microsoft Excel**  
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276624/5472668.png)
+    ![image](5472668.png)
 
 See the following sample code on how to achieve this using Aspose.Cells APIs.
 

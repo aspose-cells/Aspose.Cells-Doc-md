@@ -17,5 +17,5 @@ Set a table report's hide attributes from **Modify Attribute**. Parameters inclu
 *   **Expression** represents the hide state Value. The value is true, false or an Excel formula. The expression supports Reporting Services formula.
 
 **Setting a table report's hide attributes**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094926/6193403.png)
+![image](6193403.png)
 

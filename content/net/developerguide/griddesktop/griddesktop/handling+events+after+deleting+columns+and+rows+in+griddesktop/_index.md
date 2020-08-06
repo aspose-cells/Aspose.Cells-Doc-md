@@ -21,7 +21,7 @@ url: /net/developerguide/griddesktop/griddesktop/handling+events+after+deleting+
 
 `Aspose.Cells for GridDesktop` has added two new events i.e. `AfterDeleteColumns` and `AfterDeleteRows` as shown in the following screenshot. These events are fired when you delete columns and rows respectively.
 
-![image](https://docs2.aspose.com/cells/net/attachments/61540698/61767759.png)
+![image](61767759.png)
 
 ## Handling Events after Deleting Columns and Rows in GridDesktop
 

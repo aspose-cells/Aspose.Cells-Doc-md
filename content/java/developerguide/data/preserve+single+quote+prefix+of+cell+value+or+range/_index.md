@@ -22,7 +22,7 @@ url: /java/developerguide/data/preserve+single+quote+prefix+of+cell+value+or+ran
 
 When you put some value inside the cell that has leading apostrophe or single quote mark, then Microsoft Excel hides it, but when you select the cell, it displays the leading apostrophe or single quote in a formula bar as shown in the following screenshot.
 
-![image](https://docs2.aspose.com/cells/java/attachments/64454894/64716824.png)
+![image](64716824.png)
 
 Aspose.Cells also hides the leading apostrophe or single quote like Microsoft Excel but it sets the [Style.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/style#QuotePrefix) as **true** for that cell. If you set an empty style of the cell, then [Style.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/style#QuotePrefix) becomes **false** again. In order to deal with this issue, Aspose.Cells provides [StyleFlag.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/styleflag#QuotePrefix) property, when it is set **false**, then [StyleFlag.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/styleflag#QuotePrefix) is not updated at all and its old value is preserved. It means if the old value of [Style.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/style#QuotePrefix) property was **true**, it will remain true and if the old value was false, it will remain false.
 

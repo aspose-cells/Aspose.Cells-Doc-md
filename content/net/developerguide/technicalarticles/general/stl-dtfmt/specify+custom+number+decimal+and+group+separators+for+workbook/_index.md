@@ -27,7 +27,7 @@ Aspose.Cells provides the [WorkbookSettings.NumberDecimalSeparator](https://apir
 
 The following screenshot shows the **Advanced Excel Options** and highlights the section to specify the **Custom Separators**.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5017719/5112645.png)
+![image](5112645.png)
 
 ## Specifying Custom Separators using Aspose.Cells
 

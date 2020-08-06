@@ -12,7 +12,7 @@ url: /java/developerguide/technicalarticles/mngchartsandshapes/resize+charts+dat
 
 Excel application provides the **Resize shape to fit text** option for Chart's DataLabels in order to increase the size of the shape so that the text fits inside of it. This option can be accessed on Excel interface by selecting any of the data labels on the chart. Right click and select **Format DataLabels** menu. On **Size & Properties** tab, expand **Alignment** to reveal the related properties including the **Resize shape to fix text** option.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276044/5472510.png)
+![image](5472510.png)
 
 ### Resize Chart's Data Label Shape To Fit Text
 
@@ -20,10 +20,10 @@ In order to mimic Excel's feature of resizing data label shapes to fit the text,
 
 The chart looks as follows before executing the code.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276044/5472509.png)
+![image](5472509.png)
 
 
 The chart looks as follows after executing the code.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276044/5472507.png)
+![image](5472507.png)
 

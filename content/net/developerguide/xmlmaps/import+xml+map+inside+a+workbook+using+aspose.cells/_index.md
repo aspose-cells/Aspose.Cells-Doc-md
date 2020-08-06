@@ -29,13 +29,13 @@ You will need to provide your XML data to complete the import. Here is a [sample
 
 The following screenshot shows how to import XML Map using Microsoft Excel.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5018589/5115038.png)
+![image](5115038.png)
 
 ## Import XML Map using Aspose.Cells
 
 The following sample code shows how to make use of the [Workbook.ImportXml()](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). It generates the [output excel file](https://docs2.aspose.com/cells/net/attachments/5018589/5115036.xlsx) as shown in this screenshot.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5018589/5115035.png)
+![image](5115035.png)
 
   
   

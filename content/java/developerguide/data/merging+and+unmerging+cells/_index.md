@@ -27,7 +27,7 @@ url: /java/developerguide/data/merging+and+unmerging+cells/
 You don't always want the same number of cells in every row or column. For example, you might want to put a title in a cell that spans several columns. Or, if creating an invoice, you might want fewer columns for the total. To make one cell from two or more cells, merge them. Microsoft Excel lets users select cells and merge them to structure the spreadsheet the way they want.
 
 **The result of merging and then splitting a range of cells formatted as the cells to the left in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276718/5473133.png)
+![image](5473133.png)
 
 Aspose.Cells supports this feature and can also merge cells in a worksheet. You may unmerge, or split, the merged cells too. A merged cell's cell reference is the reference for the top-left cell in the originally selected range.
 
@@ -52,7 +52,7 @@ The [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) c
 The following output is generated after executing the code below.  
   
 **The cells (C6:E7) have been merged**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276718/5473132.png)
+![image](5473132.png)
 
 ##### Code Example
 

@@ -13,7 +13,7 @@ url: /java/developerguide/technicalarticles/stl-dtfmt/excel+2007+themes+and+colo
 Themes provide a unified look with named styles, graphical effects and other objects used in a workbook. For example, the Accent1 style looks different in the Office and the Apex themes. Often, you apply a document theme and then amend it as per your needs.
 
 **Applying themes in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276662/5473016.png)
+![image](5473016.png)
 
 ### Get and Set Theme Colors
 
@@ -35,12 +35,12 @@ The following example uses a template XLSX file, gets the colors for different t
 The following example shows how to apply custom themes with your desired colors. The example uses a sample template file manually created in Microsoft Excel 2007.
 
 **The template CustomThemeColor.xlsx file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276662/5473017.png)
+![image](5473017.png)
 
 The following example loads a template XLSX file, defines colors for different theme color types, applies the custom colors and saves the excel file.
 
 **The generated file with customized theme colors**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276662/5473014.png)
+![image](5473014.png)
 
 #### Using Theme Colors
 
@@ -49,5 +49,5 @@ The following example applies a cell’s foreground and font colors based on the
 The following output is generated when executing the code.
 
 **The theme colors applied to the D3 cell of the worksheet**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276662/5473015.png)
+![image](5473015.png)
 

@@ -92,7 +92,7 @@ The code below demonstrates how to use [HtmlSaveOptions.ImageOptions](https://ap
 {{< table style="table-striped" >}}
 |Spreadsheet view before export|HTML view after export|
 |:----|:----|
-|![image](https://docs2.aspose.com/cells/java/attachments/5276167/5472417.png)|![image](https://docs2.aspose.com/cells/java/attachments/5276167/5472418.png)|
+|![image](5472417.png)|![image](5472418.png)|
 {{< /table >}}
 
 ## Converting Excel to PDF Files
@@ -184,5 +184,5 @@ The table below lists all features that are fully or partially supported when ex
 |Row Height/Column Width| |Yes| |
 {{< /table >}}
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276167/5472417.png)
+![image](5472417.png)
 

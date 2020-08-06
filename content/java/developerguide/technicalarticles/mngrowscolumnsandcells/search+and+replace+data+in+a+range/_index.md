@@ -17,11 +17,11 @@ Aspose.Cells provides the [FindOptions.setRange()](https://apireference.aspose.
 Suppose you want to search for the string **"search"** and replace it with **"replace"** in the range **E3:H6**. In the screenshot below, the string "search" can be seen in several cells but we want to replace it only in a given range, here highlighted in yellow.
 
 **Input file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276684/5472883.png)
+![image](5472883.png)
 
 After the execution of the code, the output file looks like the below. All "search" strings within the range have been replaced with "replace".
 
 **Output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276684/5472882.png)
+![image](5472882.png)
 
 

@@ -29,7 +29,7 @@ Aspose.Cells provides the [OleObject.ClassIdentifier](https://apireference.aspos
 
 The following screenshot shows the Ole Object Class Identifier i.e GUID which has been read from the [sample excel file](https://docs2.aspose.com/cells/java/attachments/5276174/5473378.xls) containing the embedded PowerPoint ole object.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276174/5473377.png)
+![image](5473377.png)
 
 ## Sample Code
 

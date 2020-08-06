@@ -31,7 +31,7 @@ A designer spreadsheet is an Excel file created using Microsoft Excel in which a
 {{< table style="table-striped" >}}
 |Designer spreadsheet|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5018383/5114610.png)|
+|![image](5114610.png)|
 {{< /table >}}
 
 In [the Aspose.Cells demos](http://www.aspose.com/demos/.net-components/aspose.cells/default.aspx), every spreadsheet is created using this methodology, with the exception of the Invoice demo.

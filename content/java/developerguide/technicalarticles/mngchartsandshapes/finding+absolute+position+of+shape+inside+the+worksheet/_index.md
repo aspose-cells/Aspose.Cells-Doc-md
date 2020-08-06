@@ -17,7 +17,7 @@ Sometimes, you need to know the absolute position of a shape on a worksheet. Asp
 This screenshot explains what distances the [Shape.getLeftToCorner()](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#LeftToCorner) and [Shape.getTopToCorner()](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#TopToCorner) properties measure.
 
 **Measuring absolute position**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276458/5472867.png)
+![image](5472867.png)
 
 The following sample code displays the absolute position of the first shape in a worksheet in pixels. The code displays the following output in the console:
 

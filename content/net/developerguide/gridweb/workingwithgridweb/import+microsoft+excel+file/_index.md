@@ -39,7 +39,7 @@ However, to load the content from an Excel file to Aspose.Cells.GridWeb control,
 The above code snippet can be used any way you want. For example, to load an Excel file automatically when a web form loads, add this code to the form's `Page_Load` event. If you want to open a file when a button is clicked, add a button to the web form and write the above code under the button's `Click` event.
 
 **An Excel file is loaded when a button is clicked**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013740/5115432.png)
+![image](5115432.png)
 
 If your file system is NTFS, you should grant read access permission to the ASPNET or Everyone user accounts or you will get an access denied exception at runtime.
 

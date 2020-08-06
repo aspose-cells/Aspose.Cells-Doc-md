@@ -20,14 +20,14 @@ In Microsoft Excel (for example 2007):
 
 1.  Click the **Insert** menu and select **Picture**.  
       
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276648/5473005.png)
+    ![image](5473005.png)
 2.  Specify the web address for the picture in the Insert Picture dialog.  
       
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276648/5473000.png)  
+    ![image](5473000.png)  
       
     The image is inserted.  
       
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276648/5473076.png)
+    ![image](5473076.png)
 
 #### Using Aspose.Cells for Java
 
@@ -40,6 +40,6 @@ The following example shows how to add linked picture from web address to a work
 After running the code, the generated Excel file contains a linked image on the first worksheet.
 
 **The output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276648/5473004.png)
+![image](5473004.png)
 
 

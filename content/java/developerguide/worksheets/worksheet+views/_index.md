@@ -53,19 +53,19 @@ A complete example is given below that demonstrates the use of the [Worksheet](h
 In the screenshot below, you can see that Book1.xls file is in Normal View.
 
 **Book1.xls: Worksheet before modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472451.png)
+![image](5472451.png)
 
 Book1.xls is opened with the [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook) class and the mode is switched to page break preview for the first worksheet. The modified file is saved as output.xls.
 
 **Ouput.xls: worksheet after modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472471.png)
+![image](5472471.png)
 
 ## Zoom Factor
 
 Microsoft Excel provides a feature that lets users set a worksheet's zoom or scaling factor. This feature helps users to see the worksheet contents in smaller or larger views. Users can set the zoom factor to any value.
 
 **Setting the Zoom Factor using Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472453.png)
+![image](5472453.png)
 
 Aspose.Cells also allows developers to set the worksheet zoom factor.
 
@@ -80,19 +80,19 @@ A complete example is given below that demonstrates how to use the [setZoom ](h
 In the screenshot below, you can see the Book1.xls file in the default view.
 
 **Book1.xls: worksheet before modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472454.png)
+![image](5472454.png)
 
 The Book1.xls file is opened with the [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook) class and the zoom factor of the first worksheet is set to 75. The modified file is saved as output.xls.
 
 **Output.xls: worksheet after modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472472.png)
+![image](5472472.png)
 
 ## Freeze Panes
 
 Freeze panes is a feature provided by Microsoft Excel. Freezing panes allows you to select data to remain visible when scrolling in a worksheet.
 
 **Using freeze panes in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472455.png)
+![image](5472455.png)
 
 Aspose.Cells also allows developers to apply freeze panes to worksheets at runtime.
 
@@ -111,12 +111,12 @@ A complete example is given below that shows how to use the [Worksheet](https://
 In the screenshot below, you can see Book1.xls file without freeze panes.
 
 **Book1.xls: worksheet view before any modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472456.png)
+![image](5472456.png)
 
 The Book1.xls file is opened with the [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook) class and then a few rows and columns are frozen on the first worksheet. The modified file is saved as output.xls.
 
 **Outlook.xls: worksheet view after modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472457.png)
+![image](5472457.png)
 
 ## Split Panes
 
@@ -135,7 +135,7 @@ In the example, we use a simple template file that is loaded, then the set split
 After running the above code, the generated file has a split view.
 
 **Split panes in the output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276181/5472452.png)
+![image](5472452.png)
 
 #### Removing Panes
 

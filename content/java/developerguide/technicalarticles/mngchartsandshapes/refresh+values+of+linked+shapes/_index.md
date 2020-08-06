@@ -16,7 +16,7 @@ Sometimes, you have a linked shape in your Excel file which is linked to some ce
 
 The following screenshot shows the source Excel file used in the sample code below. It has a linked **Picture 1** linked to cell A1. We will change the value of cell A1 with Aspose.Cells and then call [Worksheet.getShapes().updateSelectedValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#updateSelectedValue()) method to refresh the value of **Picture 1** and save it in PDF format.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276461/5472954.png)
+![image](5472954.png)
 
 You can download the [source Excel file](https://docs2.aspose.com/cells/java/attachments/5276461/5472956.xlsx) and the [output PDF](https://docs2.aspose.com/cells/java/attachments/5276461/5472955.pdf) from the given links.
 

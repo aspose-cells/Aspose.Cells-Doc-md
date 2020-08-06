@@ -51,7 +51,7 @@ This initial version of the Add-on have the following features:
 *   Exported document is automatically sent to browser for downloading. 
 
 .  
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5016666/5115260)
+![image](5115260)
 
 ## **System Requirements and Supported Platforms**
 
@@ -104,11 +104,11 @@ After you have installed Aspose .NET Database Data Exporter to Excel for Umbraco
 5.  Click **Insert Macro** on the top ribbon.
 6.  From **Choose a macro** (Aspose .NET Database Data Exporter to Excel for Umbraco), select the recently installed Aspose .NET Database Data Exporter to Excel for Umbraco macro and click **OK**.
 
-Please check the screenshot below for details. ![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5016666/5115259)
+Please check the screenshot below for details. ![image](5115259)
 
 You have successfully added Aspose .NET Database Data Exporter to Excel module to your page.
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5016666/5115260)
+![image](5115260)
 
 1.  Enter or Use pre-populated MS SQL Server Connection String
 2.  Seletec Data Source Type (Table, View, Custom Query)

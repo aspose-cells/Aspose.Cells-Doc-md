@@ -15,6 +15,6 @@ Aspose.Cells allows you to set a gradient, texture, pattern or picture as fill e
 The following chart is created with the sample code.
 
 **Output chart**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276688/5472875.png)
+![image](5472875.png)
 
 

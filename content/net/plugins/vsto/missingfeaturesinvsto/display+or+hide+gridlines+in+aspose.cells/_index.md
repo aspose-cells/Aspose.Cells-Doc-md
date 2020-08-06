@@ -23,12 +23,12 @@ A complete example is given below that demonstrates the use of the `IsGridlinesV
 In the screenshot below, you can see that the Book1.xls file contains three worksheets: Sheet1, Sheet2 and Sheet3. All worksheets have gridlines.
 
 **Book1.xls: worksheet view before modification**  
-![image](https://docs2.aspose.com/cells/net/attachments/5020671/5115080.png)
+![image](5115080.png)
 
 The Book1.xls file is opened by calling the `Workbook` class' `Open` method and the gridlines on the first worksheet are hidden. The modified file is saved as output.xls.
 
 **Output.xls: worksheet after modification**  
-![image](https://docs2.aspose.com/cells/net/attachments/5020671/5115081.png)
+![image](5115081.png)
 
 **C#**
 

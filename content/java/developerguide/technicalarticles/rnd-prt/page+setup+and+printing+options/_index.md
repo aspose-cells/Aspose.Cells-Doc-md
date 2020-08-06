@@ -23,7 +23,7 @@ For this example, we created a workbook in Microsoft Excel and use Aspose.Cells 
 First create a simple worksheet in Microsoft Excel. Then apply page setup options to it. Executing the code changes the Page Setup options as in the screenshot below.
 
 **Output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276589/5472717.png)
+![image](5472717.png)
 
 1.  Create a worksheet with some data in Microsoft Excel:
     1.  Open a new workbook in Microsoft Excel.
@@ -31,12 +31,12 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
         Below is a screenshot of the file.  
           
         **Input file**  
-        ![image](https://docs2.aspose.com/cells/java/attachments/5276589/5472715.png)
+        ![image](5472715.png)
 2.  Set page setup options:  
     Apply page setup options to the file. Below is a screenshot of the default options, before the new options are applied.  
       
     **Default page setup options**  
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276589/5472714.png)
+    ![image](5472714.png)
 3.  Downlaod and install Aspose.Cells:
     1.  [Download](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) Aspose.Cells for Java.
     2.  Unzip it on your development computer.  
@@ -72,11 +72,11 @@ Page setup settings also provide several print options (also called sheet option
 
 The example that follows applies print options to the file created in the example above (PageSetup.xls). The screenshot below shows the default print options before new options are applied.  
 **Input document**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276589/5472716.png)
+![image](5472716.png)
 
 Executing the code changes the print options.  
 **Output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276589/5472711.png)
+![image](5472711.png)
 
 ### Summary
 

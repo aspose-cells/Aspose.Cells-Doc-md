@@ -19,7 +19,7 @@ To set a sheet's background image in Microsoft Excel (for example, Microsoft Exc
 1.  From the **Format** menu, select **Sheet**, and then select the **Background** option.
 2.  Select a picture to set the sheet's background picture.  
     **Setting a sheet background**  
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276650/5472994.jpg)
+    ![image](5472994.jpg)
 
 #### Setting Sheet Background with Aspose.cells
 

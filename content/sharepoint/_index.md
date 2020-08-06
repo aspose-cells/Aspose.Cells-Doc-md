@@ -7,7 +7,7 @@ type: docs
 url: /sharepoint/
 ---
 
-# ![Home Page](https://docs2.aspose.com/cells/sharepoint/images/icons/contenttypes/home_page_16.png) Aspose.Cells for SharePoint : Home 
+# ![Home Page](home_page_16.png) Aspose.Cells for SharePoint : Home 
 
 
 ### Aspose.Cells for SharePoint

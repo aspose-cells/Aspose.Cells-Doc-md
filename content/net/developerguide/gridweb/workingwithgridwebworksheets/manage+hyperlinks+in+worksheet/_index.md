@@ -69,7 +69,7 @@ NOTE: The hyperlink target can be set to \_self, \_top or \_parent for opening w
 The example below adds two hyperlinks to a worksheet. One has no target while the other is set to \_parent.
 
 **Output: text hyperlinks added to worksheet**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013773/5115385.png)
+![image](5115385.png)
 
 ##### Image Hyperlinks
 
@@ -84,12 +84,12 @@ To add an image hyperlink:
 7.  Set the hyperlink text, if desired.
 
 **Output: image hyperlinks added to worksheet**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013773/5115386.png)
+![image](5115386.png)
 
 Setting the image hyperlink's AltText fills a similar function as setting an <ALT> tag in HTML. The text is displayed only if the hyperlinked image is not displayed. (For example, if the image isn't at the specified location.) If the image of the second hyperlink is not found, the output of the code snippet below would look as follows.
 
 **The image for the image URL could not be found**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013773/5115387.png)
+![image](5115387.png)
 
 #### Cell Command Hyperlinks
 
@@ -106,7 +106,7 @@ To add a cell command hyperlink:
 6.  Set the URL for the Image that will be displayed as a hyperlink.
 
 **A cell command hyperlink has been added to worksheet**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013773/5115388.png)
+![image](5115388.png)
 
 ##### Event Handling of Cell Command Hyperlinks
 
@@ -117,7 +117,7 @@ The example below creates an event handler for the cell command hyperlink create
 The event handler is invoked when the hyperlink is clicked.
 
 **Output: text added to A6 cell when hyperlink is clicked**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013773/5115389.png)
+![image](5115389.png)
 
 ### Accessing Hyperlinks
 

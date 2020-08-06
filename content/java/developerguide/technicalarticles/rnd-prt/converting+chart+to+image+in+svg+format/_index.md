@@ -21,11 +21,11 @@ The following sample code explains how to use Aspose.Cells to convert a chart in
 The following screenshot shows the converted chart image in SVG format created with the sample code.
 
 **Output image**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276639/5472686.png)
+![image](5472686.png)
 
 Because SVG is an XML-based format, you can also open the output chart image in a text editor like Notepad as shown in this screenshot.
 
 **Output SCG in a text editor**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276639/5472687.png)
+![image](5472687.png)
 
 

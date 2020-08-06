@@ -14,11 +14,11 @@ You can easily download Aspose.Cells for evaluation from the [download page](htt
 
 Evaluation version of Aspose.Cells (without a license specified) provides product functionality to some extent not complete though. One limitation is that it always injects an extra worksheet with evaluation watermark on open / save any spreadsheet document.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276264/5473249.png)
+![image](5473249.png)
 
 **Figure:** Demo Spreadsheet created by Aspose.Cells component
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276264/5473248.png)
+![image](5473248.png)
 
 **Figure:** Evaluation Warning – An Extra Worksheet
 

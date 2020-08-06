@@ -17,6 +17,6 @@ Following is a sample that creates an XLSX file from scratch, adding conditional
 When the code is executed, images from the conditional icon set are added in the cell area "B2:C4" as shown below.
 
 **Output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276668/5472658.png)
+![image](5472658.png)
 
 

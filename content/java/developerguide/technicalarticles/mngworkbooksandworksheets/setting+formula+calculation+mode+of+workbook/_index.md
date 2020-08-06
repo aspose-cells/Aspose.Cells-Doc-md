@@ -30,6 +30,6 @@ Aspose.Cells also allows you to set the **Formula Calculation Mode** using the [
 The following sample code first creates a workbook, then it sets the formula calculation mode to **Manual** and saves the workbook as output Excel file on disk.
 
 **The output file. Note the formula calculation mode.**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276656/5473046.png)
+![image](5473046.png)
 
 

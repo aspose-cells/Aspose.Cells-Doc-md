@@ -22,7 +22,7 @@ url: /java/developerguide/worksheets/find+if+the+worksheet+is+dialog+sheet/
 
 Dialog Sheet is an old format of the sheet that contains a dialog box. Such a sheet could be inserted by an older version of Microsoft Excel e.g. 2003 as shown in this screenshot. It can also be inserted with VBA in newer versions e.g. Microsoft Excel 2016.
 
-![image](https://docs2.aspose.com/cells/java/attachments/64454897/64716840.png)
+![image](64716840.png)
 
 You can find if the sheet is a dialog sheet or some other type of sheet with [Worksheet.Type](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Type) property provided by Aspose.Cells. If it returns enumeration value [SheetType.DIALOG](https://apireference.aspose.com/java/cells/com.aspose.cells/sheettype#DIALOG), then it means, you are dealing with a dialog sheet.
 

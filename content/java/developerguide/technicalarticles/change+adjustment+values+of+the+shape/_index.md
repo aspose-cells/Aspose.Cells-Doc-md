@@ -25,10 +25,10 @@ The following sample code accesses first three shapes of the first worksheet in 
 
 ##### Drawing Shapes Before Changing Adjustment Values
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276469/5472917.png)
+![image](5472917.png)
 
 ##### Drawing Shapes After Changing Adjustment Values
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276469/5472914.png)
+![image](5472914.png)
 
 

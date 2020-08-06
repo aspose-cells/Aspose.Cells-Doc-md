@@ -17,6 +17,6 @@ Aspose.Cells provides some useful classes, for example [ScenarioCollection](http
 After executing the code, an existing scenario is removed and a new scenario is added to the worksheet.
 
 **The output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276655/5473052.png)
+![image](5473052.png)
 
 

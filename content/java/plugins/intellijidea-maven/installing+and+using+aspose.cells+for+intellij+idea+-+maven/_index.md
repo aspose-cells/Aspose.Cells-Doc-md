@@ -68,7 +68,7 @@ Then follow the steps below:
 ![image](http://i.imgur.com/EeZOq3s.jpg)  
 ![image](http://i.imgur.com/buJsM8V.jpg)
 
-     Congratulations ! ![(thumbs up)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/thumbs_up.png) You have successfully created Aspose.Cells Maven project for using [Aspose.Cells for Java API](http://goo.gl/c1eSD2).
+     Congratulations ! ![thumbs up](thumbs_up.png) You have successfully created Aspose.Cells Maven project for using [Aspose.Cells for Java API](http://goo.gl/c1eSD2).
 
 ![image](http://i.imgur.com/2oON4Vh.jpg)
 
@@ -96,7 +96,7 @@ Then follow the steps below on IntelliJ IDEA:
 
 ![image](http://i.imgur.com/jyxdO4D.jpg)
 
-       Congratulations ! ![(thumbs up)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/thumbs_up.png) You have successfully done the following:
+       Congratulations ! ![thumbs up](thumbs_up.png) You have successfully done the following:
 
        1. You' have created Aspose.Cells Maven Project using Aspose.Cells Maven Project Wizard.
 

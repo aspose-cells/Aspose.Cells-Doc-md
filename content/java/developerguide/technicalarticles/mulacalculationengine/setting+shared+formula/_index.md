@@ -13,7 +13,7 @@ url: /java/developerguide/technicalarticles/mulacalculationengine/setting+shared
 Suppose you have a worksheet filled with data in the format that looks like the following sample worksheet.
 
 **Input file with one column or data**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276609/5472604.png)
+![image](5472604.png)
 
 You want to add a function in B2 that will calculate the sales tax for the first row of data. The tax is **9%**. The formula that calculates the sales tax is: **"=A2\*0.09"**. This article explains how to apply this formula with Aspose.Cells.
 
@@ -28,6 +28,6 @@ Another approach is to use a **shared formula**. With a shared formula, the form
 The following example demonstrates how to use it. The screenshot below shows the output file.
 
 **Output file: shared formula applied**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276609/5472605.png)
+![image](5472605.png)
 
 

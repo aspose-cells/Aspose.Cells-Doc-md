@@ -45,7 +45,7 @@ Only displaying the string within the width of the cell.
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/51480080/51740747.xlsx) and saves it to HTML format by specifying different [HtmlCrossType](https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlCrossType). Please download the [output HTML](https://docs2.aspose.com/cells/java/attachments/51480080/51740745.zip) files generated with this code. The sample Excel file contains the image bordered with red color as shown in this screenshot that shows the effect of the [HtmlCrossType](https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlCrossType) values on output HTML.
 
-![image](https://docs2.aspose.com/cells/java/attachments/51480080/51740746.png)
+![image](51740746.png)
 
 ## Sample Code
 

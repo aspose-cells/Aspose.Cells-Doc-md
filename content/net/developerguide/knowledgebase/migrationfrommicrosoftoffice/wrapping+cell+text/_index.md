@@ -31,10 +31,10 @@ The code samples below show how to perform these steps using [VSTO](https://docs
 Running the code results in a spreadsheet with two cells, one that has text that hasn't been wrapped, and one that has:
 
 **Output wrapping cell text with VSTO**  
-![image](https://docs2.aspose.com/cells/net/attachments/5017441/5112088.png)
+![image](5112088.png)
 
 **Output wrapping cell text with Aspose.Cells for .NET**  
-![image](https://docs2.aspose.com/cells/net/attachments/5017441/5112091.png)
+![image](5112091.png)
 
 #### Wrapping Cell Text Using VSTO
 

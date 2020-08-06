@@ -25,11 +25,11 @@ The screenshot below shows Book1.xls file containing both scroll bars. The modif
 
 **Book1.xls: Excel file before any modification**
 
-![image](https://docs2.aspose.com/cells/net/attachments/5020762/5115084.png)
+![image](5115084.png)
 
 **output.xls: Excel file after modification**
 
-![image](https://docs2.aspose.com/cells/net/attachments/5020762/5115070.png)
+![image](5115070.png)
 
 **C#**
 

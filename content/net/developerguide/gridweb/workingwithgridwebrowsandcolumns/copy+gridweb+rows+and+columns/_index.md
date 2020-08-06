@@ -31,26 +31,26 @@ If you are not already acquainted with Aspose.Cells.GridWeb component, we strong
 
 In order to keep the example simple, the article uses an existing spreadsheet with one row and a simple formula that sums all the values in the row. Here is how the spreadsheet is displayed in the Aspose.Cells.GridWeb interface before copying the row.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115392.png)
+![image](5115392.png)
 
 The code snippet is simple as demonstrated below. It accesses `GridCells` object of active worksheet order to make a copy of the first row to the subsequent row.
 
   
 Here is how the Aspose.Cells.GridWeb looks after copy row operation.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115391.png)
+![image](5115391.png)
 
 ### Copying Single Column
 
 The following example uses an existing spreadsheet with one column and a simple formula that sums all the values in the column. Here is how the spreadsheet is displayed in the Aspose.Cells.GridWeb interface before copying the column.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115394.png)
+![image](5115394.png)
 
 Similar to the above example, the following code snippet accesses the `GridCells` object of active worksheet order to make a copy of the first column to the subsequent column.
 
 Here is how the Aspose.Cells.GridWeb looks after copy column operation.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115393.png)
+![image](5115393.png)
 
 You may use the `GridCells.CopyRow` & `GridCells.CopyColumn` methods in loop to copy the source row & column to multiple rows & columns respectively.
 
@@ -60,9 +60,9 @@ It is also possible to copy multiple rows to a new destination while using the `
 
 Here is how Aspose.Cells.GridWeb look before & after copy rows operation.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115396.png)
+![image](5115396.png)
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115395.png)
+![image](5115395.png)
 
 ### Copying Multiple Columns
 
@@ -70,7 +70,7 @@ The `GridCells` class also provide the `CopyColumns` method, which takes an addi
 
 Here is how Aspose.Cells.GridWeb look before & after copy rows operation.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115398.png)
+![image](5115398.png)
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013768/5115397.png)
+![image](5115397.png)
 

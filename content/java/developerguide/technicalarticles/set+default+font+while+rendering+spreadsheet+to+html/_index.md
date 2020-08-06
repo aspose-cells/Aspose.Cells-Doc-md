@@ -18,7 +18,7 @@ The following sample code creates a workbook and adds some text in cell B4 of th
 
 The screenshot shows the effect of setting different default font names via [HtmlSaveOptions.DefaultFontName](https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#DefaultFontName) property.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276008/5472566.png)
+![image](5472566.png)
 
 The code generates the [output HTML file with Courier New](https://docs2.aspose.com/cells/java/attachments/5276008/5472568.htm), the [output HTML with Arial](https://docs2.aspose.com/cells/java/attachments/5276008/5472567.htm) and the [output HTML file with Times New Roman](https://docs2.aspose.com/cells/java/attachments/5276008/5472565.htm).
 

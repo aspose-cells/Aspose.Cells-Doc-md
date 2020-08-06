@@ -28,7 +28,7 @@ The code samples that follow show how to perform these steps first in [VSTO](htt
 The code examples in this article give the output shown below.  
 **A cell with rotated text.**  
   
-![image](https://docs2.aspose.com/cells/net/attachments/5017469/5112098.png)
+![image](5112098.png)
 
 #### Rotating Text with VSTO
 

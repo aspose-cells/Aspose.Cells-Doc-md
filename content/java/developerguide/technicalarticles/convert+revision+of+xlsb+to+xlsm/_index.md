@@ -18,11 +18,11 @@ When you convert your XLSB file into XLSM file using Aspose.Cells, these .bin fi
 
 The following screenshot shows the .bin files inside the path \\xl\\revisions of the XLSB file.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276475/5472965.png)
+![image](5472965.png)
 
 The following screenshot shows how .bin files have been converted into .xml files when the XLSB file is converted to XLSM format using Aspose.Cells.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276475/5472962.png)
+![image](5472962.png)
 
 Here is the code to convert the XLSB file into XLSM format using Aspose.Cells.
 

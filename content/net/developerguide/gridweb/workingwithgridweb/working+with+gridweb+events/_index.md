@@ -74,14 +74,14 @@ To perform a specific operation on triggering a specific event, we have to creat
 1.  Double-click an event in the Properties dialog.  
       
     **Double clicking on a selected event**  
-    ![image](https://docs2.aspose.com/cells/net/attachments/5013749/5115439.png)  
+    ![image](5115439.png)  
       
     
 
 When the event is double-clicked, an event handler is automatically created by Visual Studio.  
   
 **An event handler created by Visual Studio**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013749/5115440.png)  
+![image](5115440.png)  
   
 
 1.  Add code to perform some action inside the event handler.
@@ -98,5 +98,5 @@ To get more information, move the cursor above to see some code then you will fi
 The grid content is saved to an Excel file.  
   
 **Application in running mode**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013749/5115441.png)
+![image](5115441.png)
 

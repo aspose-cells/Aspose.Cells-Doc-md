@@ -67,7 +67,7 @@ If you want to restrict users from editing cells the cells must be locked before
 {{< table style="table-striped" >}}
 |Dialog to lock cells in Excel XP|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5013512/5115176.png)|
+|![image](5115176.png)|
 {{< /table >}}
 
 It is possible to lock cells using the Aspose.Cells API too. Each cell can get [Style](https://apireference.aspose.com/net/cells/aspose.cells/style) formatting that contains a Boolean property, [IsLocked](https://apireference.aspose.com/net/cells/aspose.cells/style/properties/islocked). Set the [IsLocked](https://apireference.aspose.com/net/cells/aspose.cells/style/properties/islocked) property to **true** or **false** to lock or unlock the cell.

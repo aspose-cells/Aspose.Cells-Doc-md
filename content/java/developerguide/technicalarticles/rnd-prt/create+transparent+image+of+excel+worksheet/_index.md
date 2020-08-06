@@ -15,12 +15,12 @@ Sometimes, you need to generate the image of your worksheet as a transparent ima
 In the following worksheet image, transparency has not been applied. The cells with no fill colors are drawn white.
 
 **Worksheet image without applying transparency**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276632/5472703.png)
+![image](5472703.png)
 
 While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.
 
 **Worksheet image after applying transparency**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276632/5472702.png)
+![image](5472702.png)
 
 You can use the following sample code to generate a transparent image of your Excel worksheet.
 

@@ -72,7 +72,7 @@ The following is a list of improvements and changes in this release of Aspose.Ce
 
 (CELLSNET-43521) - API returns null for DataLabel.NumberFormat
 
-(CELLSNET-43519) - Chart x-axis has negative values but only the minus sign ![(minus)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/forbidden.png) is shown
+(CELLSNET-43519) - Chart x-axis has negative values but only the minus sign ![minus](forbidden.png) is shown
 
 (CELLSNET-43509) - Separator is read as "Auto" instead of "(NewLine)" for the Chart's Datalabels
 

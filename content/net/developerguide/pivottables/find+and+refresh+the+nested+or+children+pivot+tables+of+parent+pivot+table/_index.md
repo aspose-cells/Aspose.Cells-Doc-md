@@ -25,7 +25,7 @@ Sometimes, one pivot table uses another pivot table as a data source, so it is c
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/61540682/61767747.xlsx) that contains three pivot tables. The bottom two pivot tables are the children of the above pivot table as shown in this screenshot. The code finds the children pivot table using the [PivotTable.GetChildren()](https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/getchildren) method and then refreshes them one by one.
 
-![image](https://docs2.aspose.com/cells/net/attachments/61540682/61767748.png)
+![image](61767748.png)
 
 ## Sample Code
 

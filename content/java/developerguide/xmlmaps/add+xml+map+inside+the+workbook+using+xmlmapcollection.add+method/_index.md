@@ -28,7 +28,7 @@ Aspose.Cells provides [XmlMapCollection.Add()](https://apireference.aspose.com/
 
 The following sample code adds XML Map inside the workbook using the [XmlMapCollection.Add()](https://apireference.aspose.com/java/cells/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) method and saves it as [output excel file](https://docs2.aspose.com/cells/java/attachments/5275798/5472533.xlsx). The screenshot shows the XML Map that has been imported from the [sample.xml](https://docs2.aspose.com/cells/java/attachments/5275798/5472532.xml) inside the output excel file.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5275798/5472535.png)
+![image](5472535.png)
 
 ## Sample Code
 

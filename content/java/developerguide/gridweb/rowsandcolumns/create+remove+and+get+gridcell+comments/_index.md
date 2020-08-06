@@ -22,7 +22,7 @@ url: /java/developerguide/gridweb/rowsandcolumns/create+remove+and+get+gridcell+
 
 The following article explains how to create, remove and get GridCell comments inside the GridWeb worksheet. It is worth noting that GridWeb displays comment as Tooltip like MS-Excel when you hover mouse over the cell as shown in this screenshot.
 
-![image](https://docs2.aspose.com/cells/java/attachments/50266359/50528372.png)
+![image](50528372.png)
 
 ## Create Comment object inside Cell
 

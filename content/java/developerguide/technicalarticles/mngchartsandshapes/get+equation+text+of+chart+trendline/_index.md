@@ -16,7 +16,7 @@ You can retrieve the Equation Text of Chart Trendline using Aspose.Cells. Aspose
 
 The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the [Trendline.getDataLabels().getText()](https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#Text)property in the following sample code.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276460/5472869.png)
+![image](5472869.png)
 
 #### Sample Code
 

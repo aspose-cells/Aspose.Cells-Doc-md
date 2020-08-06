@@ -31,5 +31,5 @@ The example below adds sample data to a worksheet, adds a [ListObject](https://a
 The following output is generated when the code is executed.
 
 **A formatted table is created in the worksheet**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276802/5472821.png)
+![image](5472821.png)
 

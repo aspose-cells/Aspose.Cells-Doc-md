@@ -16,6 +16,6 @@ You can add custom labels to data points in the series of the chart. Aspose.Cell
 
 The following code creates Scatter Chart Connected By Lines With Data Markers and then adds Custom Labels to the Data Points in the Series of the Chart. Each custom label shows Series Name and Point Name. You can use any other text instead of it. After the execution of the code, the following Excel file is created. As you can see inside the Chart, each DataPoint has Custom Label set.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276490/5472939.png)
+![image](5472939.png)
 
 

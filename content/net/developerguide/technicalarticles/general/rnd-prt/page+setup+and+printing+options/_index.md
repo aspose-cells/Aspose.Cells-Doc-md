@@ -34,7 +34,7 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
 {{< table style="table-striped" >}}
 |Output file.|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017533/5112538.png)|
+|![image](5112538.png)|
 {{< /table >}}
 
 1.  Create a worksheet with some data in Microsoft Excel:
@@ -46,7 +46,7 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
 {{< table style="table-striped" >}}
 |Default page setup options.|
 |:----|
-|        ![image](https://docs2.aspose.com/cells/net/attachments/5017533/5112540.png)    3.  Download and install Aspose.Cells:    1.  [Download](http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx) Aspose.Cells for .Net.    2.  Install it on your development computer.          All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.4.  Create a project:    1.  Start Visual Studio. Net.    2.  Create a new console application.          This example will show a C# console application, but you can use VB.NET too.5.  Add references:    1.  This example uses Aspose.Cells so add a reference to that component to the project. For example:          `…\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll`6.  Write the application that invokes the API:|
+|        ![image](5112540.png)    3.  Download and install Aspose.Cells:    1.  [Download](http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx) Aspose.Cells for .Net.    2.  Install it on your development computer.          All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.4.  Create a project:    1.  Start Visual Studio. Net.    2.  Create a new console application.          This example will show a C# console application, but you can use VB.NET too.5.  Add references:    1.  This example uses Aspose.Cells so add a reference to that component to the project. For example:          `…\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll`6.  Write the application that invokes the API:|
 {{< /table >}}
 
 ### Setting Print options
@@ -67,7 +67,7 @@ The example that follows applies print options to the file created in the exampl
 {{< table style="table-striped" >}}
 |Input document|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017533/5112539.png)|
+|![image](5112539.png)|
 {{< /table >}}
 
 Executing the code changes the print options.
@@ -75,6 +75,6 @@ Executing the code changes the print options.
 {{< table style="table-striped" >}}
 |Output file|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017533/5112537.png)|
+|![image](5112537.png)|
 {{< /table >}}
 

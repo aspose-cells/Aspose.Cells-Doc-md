@@ -18,7 +18,7 @@ Similarly, if there is some simple HTML, Aspose.Cells can convert it into HTML R
 
 The following screenshot shows the output Excel file generated with Aspose.Cells. As you can see, it shows HTML formatted rich text added inside the cell A1 using the [Cell.setHtmlString()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#HtmlString) property.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276666/5473008.png)
+![image](5473008.png)
 
 This is the sample code that generated the output Excel file as shown inside the above screenshot.
 

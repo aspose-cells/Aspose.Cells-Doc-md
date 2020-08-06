@@ -36,12 +36,12 @@ To use the Style dialog:
 Select a range of cells then right-click and select **Format Cell**.  
   
 **Selecting Format Cell**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115364.png)  
+![image](5115364.png)  
   
 The Style dialog is displayed.  
   
 **The Style dialog is used to format cells**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115365.png)
+![image](5115365.png)
 
 The Style dialog lets users format cells by customizing font and border settings.
 
@@ -62,7 +62,7 @@ You can customize the following font settings using the Style dialog:
 You can check the selected font settings in a small preview area.
 
 **Customized font settings**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115362.png)
+![image](5115362.png)
 
 ### Customizing Border Settings
 
@@ -73,7 +73,7 @@ Click **Borders** in the Style dialog.
 Border related options are displayed.  
   
 **Border options in style dialog**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115363.png)
+![image](5115363.png)
 
 The following border options can be selected from the Style dialog:
 
@@ -83,14 +83,14 @@ The following border options can be selected from the Style dialog:
 *   Border lines, select the numbering and positioing of border lines.
 
 **Customized border settings**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115352.png)
+![image](5115352.png)
 
 ### Applying Settings
 
 Click **OK** in the Style dialog to apply the changes.
 
 **Font and border settings applied**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115353.png)
+![image](5115353.png)
 
 ## Formatting Cells Using API
 
@@ -111,7 +111,7 @@ To customize font settings programmatically:
 9.  Set the style back to the cell.
 
 **Output: customized font settings shown in A1**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115350.png)
+![image](5115350.png)
 
 ### Setting Borders
 
@@ -131,7 +131,7 @@ To set the borders of a single cell:
 8.  Set the style to the cell.
 
 **Customized border settings on a single cell**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115351.png)
+![image](5115351.png)
 
 It is possible to set different styles for each border line with the cell's `Style.TopBorderStyle`, `Style.BottomBorderStyle`, `Style.LeftBorderStyle`, `Style.RightBorderStyle` properties.
 
@@ -148,7 +148,7 @@ To set borders on a range of cells:
 7.  Apply border settings stored in WebBorderStyle object to a specified range of cells
 
 **A range of cells with customized border settings**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115354.png)
+![image](5115354.png)
 
 ### Setting Number Formats
 
@@ -159,5 +159,5 @@ All built-in number formats are in the `NumberType` enumeration. To use a built-
 To set custom number format use the cell's `SetCustom` method.
 
 **Number format settings applied on B1 and B2**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013760/5115355.png)
+![image](5115355.png)
 

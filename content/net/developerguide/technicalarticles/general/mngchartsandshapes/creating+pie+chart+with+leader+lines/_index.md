@@ -24,6 +24,6 @@ Finally, the following code saves the chart in image format and the workbook in 
 {{< table style="table-striped" >}}
 |Resultant Pie Chart|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017315/5112336.png)|
+|![image](5112336.png)|
 {{< /table >}}
 

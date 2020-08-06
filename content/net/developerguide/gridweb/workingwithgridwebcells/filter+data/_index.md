@@ -28,15 +28,15 @@ To enable custom filter, use the worksheet `AddCustomFilter` method which accept
 The example below implements both auto- and custom data filters. In the example, the auto-filter feature is enabled and filtered rows are searched based on some criteria.
 
 **Input: the data list in the first worksheet**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013799/5115380.jpg)
+![image](5115380.jpg)
 
 **Output: enable auto-filter feature**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013799/5115379.jpg)
+![image](5115379.jpg)
 
 ### Auto-filter
 
 ### Custom Data Filter
 
 **Custom filtered data based on the criteria**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013799/5115378.jpg)
+![image](5115378.jpg)
 

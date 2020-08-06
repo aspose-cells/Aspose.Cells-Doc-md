@@ -19,7 +19,7 @@ In Microsoft Excel, connect to a database by:
 3.  Use the Connections wizard to connect to the database and create a database query.
 
 **Showing the SQL connection option in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276455/5472971.png)
+![image](5472971.png)
 
 Aspose.Cells provides the `Workbook.getDataConnections()` method for retrieving external connections. It returns a collection of `ExternalConnection` objects in the workbook.
 

@@ -19,12 +19,12 @@ The following code accesses the first pivot table of the worksheet and then get 
 {{< table style="table-striped" >}}
 |Pivot Table - Before|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017287/5112372.png)|
+|![image](5112372.png)|
 {{< /table >}}
 
 {{< table style="table-striped" >}}
 |Pivot Table - After|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017287/5112373.png)|
+|![image](5112373.png)|
 {{< /table >}}
 

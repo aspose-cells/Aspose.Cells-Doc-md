@@ -35,7 +35,7 @@ This article shows how to create a console application in Visual Studio.Net and 
 {{< table style="table-striped" >}}
 |Template document with OLE objects (OleFile.xls)|
 |:----|
-|        ![image](https://docs2.aspose.com/cells/net/attachments/5017693/5112157.png)        Next extract the OLE objects and save them to the hard disk with their respective file types.    |
+|        ![image](5112157.png)        Next extract the OLE objects and save them to the hard disk with their respective file types.    |
 {{< /table >}}
 
 ### Download and Install Aspose.Cells

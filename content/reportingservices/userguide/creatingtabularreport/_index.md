@@ -13,7 +13,7 @@ url: /reportingservices/userguide/creatingtabularreport/
 A table in an Aspose.Cells Report template consists of a header, table data rows, row groups and footers. A sample table is shown below.
 
 **An example table**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094957/6193293.png)
+![image](6193293.png)
 
 #### Table Header
 
@@ -44,7 +44,7 @@ The footer tag is removed from output Microsoft Excel file at rendering time. Fo
 The output of the sample template is shown below.
 
 **Sample template**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094957/6193290.png)
+![image](6193290.png)
 
 ###### This section includes the following topics:  
 

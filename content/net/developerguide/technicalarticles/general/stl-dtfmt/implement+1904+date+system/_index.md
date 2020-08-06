@@ -21,7 +21,7 @@ To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 20
 {{< table style="table-striped" >}}
 |Selecting 1904 date system in Microsoft Excel|
 |:----|
-|        ![image](https://docs2.aspose.com/cells/net/attachments/5017711/5112598.png)    |
+|        ![image](5112598.png)    |
 {{< /table >}}
 
 See the following sample code on how to achieve this using Aspose.Cells APIs.

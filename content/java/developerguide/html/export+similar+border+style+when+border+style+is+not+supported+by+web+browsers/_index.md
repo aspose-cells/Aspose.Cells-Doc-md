@@ -25,7 +25,7 @@ Microsoft Excel supports some type of dashed borders which are not supported by 
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/64454886/64716832.xlsx) that contains some unsupported borders as shown in the following screenshot. The screenshot further illustrates the effect of [HtmlSaveOptions.ExportSimilarBorderStyle](https://apireference.aspose.com/javascript/cells/aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle) property inside the [output HTML](https://docs2.aspose.com/cells/java/attachments/64454886/64716831.zip).
 
-![image](https://docs2.aspose.com/cells/java/attachments/64454886/64716830.png)
+![image](64716830.png)
 
 ## Sample Code
 

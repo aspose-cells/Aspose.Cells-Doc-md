@@ -14,7 +14,7 @@ url: /java/developerguide/introduction/aspose.cells+object+model/
 
 **Aspose.Cells Object Model** provides information about the structural relationships between the objects of Aspose.Cells class library. The top level structure of the **Aspose.Cells** object model is shown below in a hierarchical manner:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473236.png)  
+![image](5473236.png)  
 
 **Figure:** Top level structure of Aspose.Cells Object Model
 
@@ -24,7 +24,7 @@ As you can see from the above figure that the root of the object model is the **
 
 **Workbook** object contains the **WorksheetCollection** object, which represents the collection of all the **Worksheet** objects in a spreadsheet as shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473237.png)  
+![image](5473237.png)  
 
 **Figure:** WorksheetCollection & Worksheet objects
 
@@ -32,7 +32,7 @@ As you can see from the above figure that the root of the object model is the **
 
 Each **Worksheet** object contains a **Cells** object that represents the collection of all **Cell** objects in a worksheet as shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473234.png)  
+![image](5473234.png)  
 
 **Figure:** Cells & Cell objects
 
@@ -42,7 +42,7 @@ You can use the **Cell** object to get and set the value, style, formula and oth
 
 **ChartCollection** object represents the collection of all the **Chart** objects in a **Worksheet** . Each **Chart** object is comprised of several other objects that work together to create and manage charts. The **Chart** structure in Aspose.Cells is shown in the diagram below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473235.png)  
+![image](5473235.png)  
 
 **Figure:** Object model of the Chart
 
@@ -50,7 +50,7 @@ You can use the **Cell** object to get and set the value, style, formula and oth
 
 Each **Worksheet** object also contains a **CommentCollection** object that represents the collection of all **Comment** objects in a worksheet as shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473232.png)  
+![image](5473232.png)  
 
 **Figure:** CommentCollection & Comment objects
 
@@ -60,7 +60,7 @@ A **Comment** object is used to add a comment to any specified cell in the works
 
 Each **Worksheet** object contains an **HPageBreakCollection** object that represents the collection of all **HPageBreak** objects in a worksheet as shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473233.png)  
+![image](5473233.png)  
 
 **Figure:** HPageBreakCollection & HPageBreak objects
 
@@ -70,7 +70,7 @@ An **HPageBreak** object is used to create a horizontal page break in the worksh
 
 A **Worksheet** object also contains a **HyperlinkCollection** object that represents the collection of all **Hyperlink** objects in the worksheet as shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473230.png)  
+![image](5473230.png)  
 
 **Figure:** HyperlinkCollection & Hyperlink objects
 
@@ -80,7 +80,7 @@ A **Hyperlink** object represents a hyperlink in the worksheet. Developers can s
 
 Each **Worksheet** object contains a **PictureCollection** object that represents the collection of all **Picture** \*\* objects in a worksheet as shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473231.png)  
+![image](5473231.png)  
 
 **Figure:** PictureCollection & Picture objects
 
@@ -90,7 +90,7 @@ A **Picture** object represents a picture in the worksheet. Using **Picture** ob
 
 Each **Worksheet** object contains a **VPageBreakCollection** object that represents the collection of all **VPageBreak** objects in a worksheet as shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276262/5473244.png)  
+![image](5473244.png)  
 
 **Figure:** VPageBreakCollection & VPageBreak objects
 

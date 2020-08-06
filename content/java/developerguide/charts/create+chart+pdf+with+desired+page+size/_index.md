@@ -25,7 +25,7 @@ You can create a chart PDF with your desired page size using Aspose.Cells and sp
 
 Please see the following sample code that loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/64456320/64716912.xlsx), accesses the first chart inside the worksheet and then converts it into [output PDF](https://docs2.aspose.com/cells/java/attachments/64456320/64716911.pdf) with desired page size. The following screenshot shows that the page size in the output PDF is 7x7 as specified inside the code and chart is center aligned both horizontally as well as vertically. 
 
-![image](https://docs2.aspose.com/cells/java/attachments/64456320/64716910.png)
+![image](64716910.png)
 
 ## Sample Code
 

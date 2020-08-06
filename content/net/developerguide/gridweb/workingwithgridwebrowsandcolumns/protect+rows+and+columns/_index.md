@@ -36,10 +36,10 @@ To make rows and columns read only:
 Aspose.Cells.GridWeb provides a context menu that end users can use to perform operations on the control. The menu provides many options for manipulating cells, rows and columns.
 
 **Complete contextual options**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013770/5115401.png)
+![image](5115401.png)
 
 It is possible to restrict any kind of client side operations on rows and columns by restricting the options available in the context menu. It can be done by setting the `EnableClientColumnOperations` and `EnableClientRowOperations` properties of the GridWeb control to false. It is also possible to restrict users from freezing rows and columns by setting the GridWeb control's `EnableClientFreeze` property to false.
 
 **Context menu after restricting row & column options**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013770/5115404.png)
+![image](5115404.png)
 

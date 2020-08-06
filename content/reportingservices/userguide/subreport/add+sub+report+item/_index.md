@@ -13,11 +13,11 @@ url: /reportingservices/userguide/subreport/add+sub+report+item/
 To add sub-report item:
 
 1.  Select the cell that will reference the sub-report item.
-2.  Click **Sub-Report** (![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193386.png)).  
+2.  Click **Sub-Report** (![image](6193386.png)).  
     The sub-report form is shown.  
       
     **The SubReport form**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193387.png)  
+    ![image](6193387.png)  
       
     
 3.  Click **Add Sub-Report**.  
@@ -25,29 +25,29 @@ To add sub-report item:
 4.  Select a report.  
       
     **Selecting a report**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193388.png)  
+    ![image](6193388.png)  
       
     
 5.  Click **Close**.  
       
     **A sub-report has been selected**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193389.png)  
+    ![image](6193389.png)  
       
     
 6.  Double-click the parameter list to show the Edit Formula dialog.  
       
     **The Edit Formula dialog**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193398.png)  
+    ![image](6193398.png)  
       
     
 7.  Edit and/or update a parameter value.  
       
     **Naming the sub-report**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193399.png)  
+    ![image](6193399.png)  
       
     
 8.  Click **Insert Sub-Report**.  
       
     **The sub-report inserted into a report table**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094972/6193400.png)
+    ![image](6193400.png)
 

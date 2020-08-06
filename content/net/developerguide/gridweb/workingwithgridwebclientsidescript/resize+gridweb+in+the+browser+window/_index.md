@@ -27,7 +27,7 @@ Sometimes you want Aspose.Cells.GridWeb should resize itself in accordance with 
 
 The following code will check if there is resizing action taken place every 100 milliseconds. When there is no more resizing action, then it thinks the resize operation is finished now. We use a sample template file which is imported into GridWeb. We use client side code for resize the GridWeb. The screenshot shows that GridWeb resizes itself accordingly when resizing the browser window.
 
-![image](https://docs2.aspose.com/cells/net/attachments/48136872/48496688.png)
+![image](48496688.png)
 
 ### Sample Code
 
@@ -35,7 +35,7 @@ The following code will check if there is resizing action taken place every 100 
 
 The following code will  make GridWeb control resizable in the browser window. For example, you may use the bottom right handle to customize its size of GridWeb in the window. We use the same template file which is imported into GridWeb first. We use jquery scripts to make the GridWeb resizable. The screenshot shows that GridWeb has been resized using its bottom right handle in the browser window.
 
-![image](https://docs2.aspose.com/cells/net/attachments/48136872/48496689.png)
+![image](48496689.png)
 
 ### Sample Code
 

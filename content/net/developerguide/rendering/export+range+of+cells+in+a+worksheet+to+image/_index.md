@@ -26,12 +26,12 @@ To take an image of a range, set the print area to the desired range and then se
 
 ## Screenshot of Sample Excel File and its Exported Image
 
-**![image](https://docs2.aspose.com/cells/net/attachments/5017499/47153157.png)  
+**![image](47153157.png)  
 **
 
 Executing the code creates an image of the range D8:G16 only.
 
-**![image](download/thumbnails/5017499/1575420641)**
+**![image](1575420641.png)**
 
 ## Sample Code
 

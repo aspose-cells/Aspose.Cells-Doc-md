@@ -51,7 +51,7 @@ This initial version of the module is enriched with the following features to ma
 *   Option to select desired output format before exporting.
 *   Exported document is automatically sent to browser for downloading.
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115248)
+![image](5115248)
 
 ## **System Requirements and Supported Platforms**
 
@@ -101,11 +101,11 @@ After you have installed the Aspose .NET Dynamic Forms Builder for DNN module, i
 3.  Select **Modules** followed by **Add New Module** from the top ribbon.
 4.  From the list, select ‘Aspose.NET Dynamic Forms Builder’ and drag it into position. 
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115243)
+![image](5115243)
 
 You have successfully added Aspose .NET Dynamic Forms Builder for DNN module to your page.
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115248)
+![image](5115248)
 
 ### Dynamic Forms Settings
 
@@ -115,11 +115,11 @@ You have successfully added Aspose .NET Dynamic Forms Builder for DNN module to 
 4.  There are few pre-defined fields, you can edit/hide just by clicking **Edit** in grid
 5.  You can create new fields any type of **(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Title, Success Message)**
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115244)  
+![image](5115244)  
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115247)  
+![image](5115247)  
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115241)  
+![image](5115241)  
 
 ### Using Dynamic Form (Submit)
 
@@ -135,9 +135,9 @@ You have successfully added Aspose .NET Dynamic Forms Builder for DNN module to 
 4.  Click **Export Data**
 5.  Exported data file as per export type will poupup to download/open
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115245)
+![image](5115245)
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5013608/5115242)
+![image](5115242)
 
 ## **Video Demo**
 

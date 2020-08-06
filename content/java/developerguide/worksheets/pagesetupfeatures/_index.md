@@ -42,7 +42,7 @@ url: /java/developerguide/worksheets/pagesetupfeatures/
 Sometimes, it is necessary to configure page setup settings for worksheets to control printing. These page setup settings offer various options.
 
 **Page Options**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276187/5472460.png)
+![image](5472460.png)
 
 Page setup options are fully supported in Aspose.Cells. This article explains how to set page options with Aspose.Cells and shows code samples for setting:
 
@@ -143,7 +143,7 @@ Start the numbering of worksheet pages using the [`PageSetup`](http://www.aspose
 
 Aspose.Cells fully supports Microsoft Excel's page setup options. Developers may need to configure page setup settings for worksheets to control the printing process. This topic discusses how to use Aspose.Cells to configure page margins.  
 **Page margins in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276187/5472459.png)
+![image](5472459.png)
 
 Aspose.Cells provides a class, [`Workbook`](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook) that represents a Microsoft Excel file. The `Workbook` class contains the `Worksheets` collection that allows access to each worksheet in a Excel file. A worksheet is represented by the [`Worksheet`](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet) class.
 
@@ -171,7 +171,7 @@ Set header and footer margins with `PageSetup` members such as `setHeaderMargin`
 Headers and footers are the sections of text and images above the top margin or below the bottom margin on a page. It's possible to add headers and footers to worksheets also. Headers & footers can be used to display any kind of useful information, for example page number, author name, document title or date and time. Headers & footers are also managed using the Page Setup dialog.
 
 **The Page Setup dialog**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276187/5472462.png)
+![image](5472462.png)
 
 Aspose.Cells allows to add headers and footer to the worksheets at runtime but it is recommended that headers and footers are set manually in a pre-designed file for printing. You can use Microsoft Excel as a GUI tool to set headers and footers easily to reduce development time. Aspose.Cells can import the file and reserve these settings.
 
@@ -213,7 +213,7 @@ After executing the code and opening the file, check the worksheet's header in M
 2.  On the Page Setup dialog, select the **Header/Footer** tab.
 
 **Inserting a graphic in a header/footer**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276187/5472458.png)
+![image](5472458.png)
 
 ### Insert a Graphic in the First Page Header Only
 
@@ -235,7 +235,7 @@ Microsoft Excel's page setup settings provide several print options (also referr
 All of these print options are shown below.
 
 **Print (sheet) options**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276187/5472461.png)
+![image](5472461.png)
 
 ### Setting Print and Sheet Options
 

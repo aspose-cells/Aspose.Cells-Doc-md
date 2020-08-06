@@ -28,7 +28,7 @@ Aspose.Cells provides the [Workbook.getFonts()](https://apireference.aspose.com/
 
 The following sample code loads the source excel file and retrieves the list of fonts used inside it. It has one dummy worksheet which has some dummy fonts added for illustration purpose. When the code prints all the fonts inside the workbook, it also prints those dummy fonts. The following screenshot shows the [sample excel file](https://docs.aspose.com/download/attachments/25002617/sampleGetFonts.xlsx?version=1&modificationDate=1487759607027&api=v2) and how the dummy fonts are listed.
 
-![image](https://docs2.aspose.com/cells/java/attachments/25002617/25395210.png)
+![image](25395210.png)
 
 ## Sample Code
 

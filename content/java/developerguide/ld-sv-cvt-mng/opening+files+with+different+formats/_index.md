@@ -61,12 +61,12 @@ Developers use of Aspose.Cells to open files for different purposes. For example
 Aspose.Cells supports Excel file formats from Excel 97 to Excel 2007/2010. But, if you save your Excel file in the following format as shown below in the figure then your Excel file will fail to open using Aspose.Cells.  
   
 **Don't save your Excel files in this format**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276272/5473257.png)
+![image](5473257.png)
 
 If you do, the Excel file will contain data in Excel 5.0/95 format, which is not supported by Aspose.Cells. So, please save your Excel file as a Microsoft Excel Workbook as shown below.  
   
 **Save your Excel files in this format**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276272/5473256.png)
+![image](5473256.png)
 
 #### Opening through Path
 

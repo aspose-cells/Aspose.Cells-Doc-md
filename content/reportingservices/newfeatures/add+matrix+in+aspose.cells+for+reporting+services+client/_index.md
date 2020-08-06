@@ -15,5 +15,5 @@ We incorporated support to create a matrix report item in a report. The matrix c
 For example, in the screenshot below, the matrix range is E9:G11.
 
 **A matrix report item**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094928/6193417.png)
+![image](6193417.png)
 

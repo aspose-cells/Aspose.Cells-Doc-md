@@ -257,9 +257,9 @@ fstream.Close();
 
 Below are the screenshots:
 
-![image](download/thumbnails/5020426/1055949214)
+![image](1055949214.png)
 
-![image](download/thumbnails/5020426/2007743969)
+![image](2007743969.png)
 
 ## Download Sample Code
 

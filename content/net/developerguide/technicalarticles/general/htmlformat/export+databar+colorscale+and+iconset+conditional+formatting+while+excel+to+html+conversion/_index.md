@@ -24,11 +24,11 @@ You can export DataBar, ColorScale and IconSet Conditional Formatting while conv
 
 The following screenshot shows the [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013589/5115558.xlsx) with DataBar, ColorScale and IconSet Conditional Formatting. You can download the [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013589/5115558.xlsx) from the given link.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013589/5115560.png)
+![image](5115560.png)
 
 The following screenshot shows the Aspose.Cells output HTML file showing DataBar, ColorScale and IconSet Conditional Formatting. As you can see, it looks exactly like [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013589/5115558.xlsx).
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013589/5115559.png)
+![image](5115559.png)
 
 ### Sample Code
 

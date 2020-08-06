@@ -23,7 +23,7 @@ Named Destinations are special kinds of bookmarks or links in PDF that do not de
 
 Please see the following sample code, its [source Excel file](https://docs2.aspose.com/cells/java/attachments/50270509/50528370.xlsx), and its [output PDF file](https://docs2.aspose.com/cells/java/attachments/50270509/50528369.pdf). The screenshot shows the bookmarks and named destinations inside the output PDF. The screenshot also describes how to view Named Destinations and that you need Professional version of Acrobat Reader. 
 
-![image](https://docs2.aspose.com/cells/java/attachments/50270509/50528368.png)
+![image](50528368.png)
 
 ## Sample Code
 

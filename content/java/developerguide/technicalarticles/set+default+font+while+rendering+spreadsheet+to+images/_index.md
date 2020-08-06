@@ -18,10 +18,10 @@ The following sample code creates a workbook, adds some text in cell A4 of the f
 
 This is the output image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#DefaultFont) property to *Courier New*.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276009/5472560.png)
+![image](5472560.png)
 
 This is the output image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#DefaultFont) property to *Times New Roman*.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276009/5472559.png)
+![image](5472559.png)
 
 

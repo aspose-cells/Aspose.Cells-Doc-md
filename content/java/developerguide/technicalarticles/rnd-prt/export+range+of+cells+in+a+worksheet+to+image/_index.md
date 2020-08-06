@@ -17,10 +17,10 @@ To take an image of a range, set the print area to the desired range and then se
 The following code takes an image of the range E8:H10. Below is a screenshot of the source workbook used in the code. You can try the code with any workbook.
 
 **Input file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276640/5472690.png)
+![image](5472690.png)
 
 Executing the code creates an image of the range E8:H10 only.
 
 **Output image**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276640/5472691.jpg)
+![image](5472691.jpg)
 

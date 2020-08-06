@@ -24,7 +24,7 @@ url: /java/developerguide/data/conditional+formatting/
 Conditional formatting is an advanced Microsoft Excel feature that allows you to apply formats to a cell or range of cells and have that formatting change depending on the value of the cell or the value of a formula. For example, you can have a cell appear bold only when the value of the cell is greater than 500. When the value of the cell meets the condition, the specified format is applied to the cell. If the value of the cell does not meet the condition, the default formatting is used. In Microsoft Excel, select **Format**, then **Conditional Formatting** to open the Conditional Formatting dialog.
 
 **Conditional formatting in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276770/5473175.png)
+![image](5473175.png)
 
 Aspose.Cells supports applying conditional formatting to cells at runtime. This article explains how.
 
@@ -46,15 +46,15 @@ Aspose.Cells supports applying conditional formatting at runtime.
 #### Set Font
 
 **Setting fonts in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276770/5473174.png)
+![image](5473174.png)
 
 #### Set Border
 
 **Setting borders in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276770/5473181.png)
+![image](5473181.png)
 
 #### Set Pattern
 
 **Setting a cell pattern in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276770/5473180.png)
+![image](5473180.png)
 

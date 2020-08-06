@@ -16,5 +16,5 @@ The following sample code sets the text of the chart's second legend entry fill 
 
 The following screenshot highlights the effect of this code on [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013818/5115219.xlsx).
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013818/5115216.png)
+![image](5115216.png)
 

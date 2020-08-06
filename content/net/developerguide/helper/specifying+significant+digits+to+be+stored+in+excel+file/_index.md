@@ -27,7 +27,7 @@ By default, Aspose.Cells stores 17 significant digits of double values inside th
 
 The following sample code enforces Aspose.Cells to use 15 significant digits while storing double values inside the excel file. Please check the [output excel file](https://docs2.aspose.com/cells/net/attachments/22546710/22774105.xlsx). Change its extension to `.zip` and unzip it and you will see, only 15 significant digits are stored inside the excel file. The following screenshot explains the effect of [CellsHelper.SignificantDigits](https://apireference.aspose.com/net/cells/aspose.cells/cellshelper/properties/significantdigits) property on the output excel file.
 
-![image](https://docs2.aspose.com/cells/net/attachments/22546710/22774106.png)
+![image](22774106.png)
 
 ## Sample Code
 

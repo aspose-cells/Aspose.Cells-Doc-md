@@ -41,15 +41,15 @@ The following example shows how to extract OLE Objects in a Workbook. The exampl
 Here is the screenshot of the template XLS file, it has different OLE Objects embedded in the first worksheet.
 
 **The template file contains four OLE objects**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276757/5472748.png)
+![image](5472748.png)
 
 After running the code, we can save different files based on their respective OLE Objects format types. Following are screenshots for some of the created files.
 
 **The extracted XLS file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276757/5472749.png)
+![image](5472749.png)
 
 **The extracted PPT file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276757/5472746.png)
+![image](5472746.png)
 
 ### Extracting Embedded MOL File
 

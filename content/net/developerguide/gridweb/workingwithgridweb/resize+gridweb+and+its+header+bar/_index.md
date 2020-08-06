@@ -27,7 +27,7 @@ The width and height of the control can be defined in pixels or points.
 The output of the code snippet that follows is shown below.
 
 **Changed width and height of the GridWeb control**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013741/5115429.png)
+![image](5115429.png)
 
 ### Changing Width & Height of Header Bar
 
@@ -39,10 +39,10 @@ Aspose.Cells.GridWeb control contains two header bars as follows:
 Both of these header bars are shown below.
 
 **Header bars**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013741/5115430.png)
+![image](5115430.png)
 
 Change the height of the top header bar and the width of the left header bar using the `GridWeb` control's `HeaderBarHeight` and `HeaderBarWidth` properties respectively. The figure below shows the output of the code example that follows.
 
 **Changed header bar width and height**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013741/5115431.png)
+![image](5115431.png)
 

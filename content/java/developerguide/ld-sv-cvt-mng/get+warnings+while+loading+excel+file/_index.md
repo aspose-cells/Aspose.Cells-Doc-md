@@ -24,7 +24,7 @@ Sometimes the user tries to load the workbook which is somewhat corrupt but load
 
 The following sample code explains how to get warnings while loading excel file. The code loads the [sample excel file](https://docs2.aspose.com/cells/java/attachments/25002833/25395234.xlsx) which throws [DuplicateDefinedName](https://apireference.aspose.com/java/cells/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) warning on loading. This warning is then caught by [IWarningCallback.Warning()](https://apireference.aspose.com/java/cells/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) method that prints the warning messages on the console. The code then saves the workbook as [output excel file](https://docs2.aspose.com/cells/java/attachments/25002833/25395233.xlsx). If you open the sample excel file in Microsoft Excel, it will also display you this warning as shown in this screenshot. Please also check the console output of the code given below for more understanding.
 
-![image](https://docs2.aspose.com/cells/java/attachments/25002833/25395232.png)
+![image](25395232.png)
 
 ## Sample Code
 

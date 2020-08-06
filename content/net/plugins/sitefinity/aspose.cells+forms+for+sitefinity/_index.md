@@ -34,7 +34,7 @@ url: /net/plugins/sitefinity/aspose.cells+forms+for+sitefinity/
 
 Aspose.Cells Dynamic Forms for Sitefinity Module allows users to Generate Dynamic Questionnaire and Surveys, save user input into Excel Spreadsheet and Export the results into Excel, Text, CSV and OpenDocument Spreadsheet using Aspose.Cells. This module demonstrates the powerful spreadsheet building feature provided by Aspose.Cells for .NET.
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5023902/5115561)  
+![image](5115561)  
 
 ### Module Features
 
@@ -109,7 +109,7 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
         4.  When finished, click **Save changes**.
         5.  The widget is registered in the toolbox and can be used in Sitefinity. (**See** **below**** Image**)
 
-![image](download/thumbnails/5023902/685775646)  
+![image](685775646.png)  
 
 ## Using and Video Demo
 
@@ -121,7 +121,7 @@ After you have installed and configured the Aspose.Cells Dynamic Forms Builder f
 2.  Navigate to the page where you want to add the plugin. Make sure the page is opened in edit mode.
 3.  From the **Drag Widgets** menu on the right, select Aspose Edit/View/Export Form and drag it into position. (**See** **below ****Image** )
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5023902/5115562)  
+![image](5115562)  
 
 You have successfully added Aspose.Cells Dynamic Form Builder for Sitefinity module to your page.
 

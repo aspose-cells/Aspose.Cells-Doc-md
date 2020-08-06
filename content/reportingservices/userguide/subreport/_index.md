@@ -13,7 +13,7 @@ url: /reportingservices/userguide/subreport/
 A sub-report can be embedded in a table item. The format is: `&=subreport{ReportName=your report name; parameter1 name = parameter1 value; parameter2 name = parameter2 value; ...`}
 
 **A sub-report in a report definition**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193391.png)
+![image](6193391.png)
 
 In the example, the name of sub-report is “Sales Order Detail”. It has one parameter, SalesOrderNumber. The value of the parameter is `EmpSalesDetail.SalesOrderNumber`.
 

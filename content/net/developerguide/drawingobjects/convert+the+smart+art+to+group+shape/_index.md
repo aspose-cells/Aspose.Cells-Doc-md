@@ -26,7 +26,7 @@ You can convert Smart Art Shape into Group Shape using the [Shape.GetResultOfSm
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/54690186/55541793.xlsx) containing a smart art shape as shown in this screenshot. It then converts the smart art shape into group shape and prints the Shape.IsGroup property. Please see the console output of the sample code given below.
 
-![image](https://docs2.aspose.com/cells/net/attachments/54690186/55541797.png)
+![image](55541797.png)
 
 ## Sample Code
 

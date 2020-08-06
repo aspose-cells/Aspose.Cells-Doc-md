@@ -25,10 +25,10 @@ Let us start writing some code to accomplish the goal with the help of Aspose.Ce
 
 The following snapshot shows the resultant spreadsheet loaded in Excel application.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276194/5472497.png)
+![image](5472497.png)
 
 In order to apply the shading to alternative columns, all you have to do is to change the formula **\=MOD(ROW(),2)=0** as **\=MOD(COLUMN(),2)=0**, that is; instead of getting the row index, modify the formula to retrieve the column index.  
 The resultant spreadsheet, in this case, will look like the following image.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276194/5472498.png)
+![image](5472498.png)
 

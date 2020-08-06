@@ -7,10 +7,10 @@ type: docs
 url: /java/
 ---
 
-# ![Home Page](https://docs2.aspose.com/cells/java/images/icons/contenttypes/home_page_16.png) Aspose.Cells for Java : Home 
+# ![Home Page](home_page_16.png) Aspose.Cells for Java : Home 
 
 
-**![image](https://docs2.aspose.com/cells/java/attachments/5276259/66519085.png)Welcome to Aspose.Cells for Java**
+**![image](66519085.png)Welcome to Aspose.Cells for Java**
 
 Aspose.Cells for Java is a class library that enables your applications to perform a great range of spreadsheet processing tasks. Aspose.Cells for Java supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) file formats your business use every day. It also allows exporting Excel® files to PDF, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
 

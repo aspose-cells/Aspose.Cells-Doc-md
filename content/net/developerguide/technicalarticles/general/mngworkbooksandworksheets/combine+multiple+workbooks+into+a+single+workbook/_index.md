@@ -29,17 +29,17 @@ The example code combines two workbooks into a single workbook using Aspose.Cell
 
 Below are screenshots of the source and output workbooks.
 
-You can use any source workbooks. These images are just for illustration purposes.
+![image](warningmark.png)You can use any source workbooks. These images are just for illustration purposes.
 
 **The first worksheet of the charts workbook - stacked**  
-![image](download/attachments/5276659/731425608)
+![image](731425608.png)
 
 **Second worksheet of charts workbook - line**  
-![image](download/attachments/5276659/838085336)
+![image](838085336.png)
 
 **First worksheet of the picture workbook - picture**  
-![image](download/attachments/5276659/1121323668)
+![image](1121323668.png)
 
 **All three worksheets in the combined workbook - stacked, line, picture**  
-![image](download/attachments/5276659/735023027)
+![image](735023027.png)
 

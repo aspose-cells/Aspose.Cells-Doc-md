@@ -18,7 +18,7 @@ Aspose.Cells provides [Chart.hasAxis(int axisType, boolean isPrimary)](https://a
 
 The following screenshot shows a chart that has only the Primary Category and Value Axis. It does not have any Secondary Category and Value Axis.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276464/5472944.png)
+![image](5472944.png)
 
 The following sample code demonstrates the use of [Chart.hasAxis(int axisType, boolean isPrimary)](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#hasAxis(int,%20boolean))to determine if the sample chart has Primary and Secondary Category and Value Axis. The console output of the code has been shown below which displays true for Primary Category and Value Axis and false for Secondary Category and Value Axis.
 

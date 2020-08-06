@@ -78,15 +78,15 @@ To create a test application containing client-side scripts that work with Aspos
 The output of the code example is shown below:
 
 **A validation added to C1 cell**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013756/5115337.png)
+![image](5115337.png)
 
 Add an invalid value and click **Save**. A validation error occur and the `ValidationErrorFunction` is executed.
 
 **ValidationErrorFunction invoked on validation error**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013756/5115335.png)
+![image](5115335.png)
 
 Untill you enter a valid value, no data is submitted to the server. Enter a valid value and click **Save**. The `ConfirmFunction` is executed.
 
 **ConfirmFunction invoked before submitting GridWeb data to server**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013756/5115336.png)
+![image](5115336.png)
 

@@ -20,5 +20,5 @@ The following example shows how to create a [Range](https://apireference.aspose.
 
 After running the above code, we can have the generated excel file containing the formatted table; here is the screenshot of the file.  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276612/5472600.png)
+![image](5472600.png)
 

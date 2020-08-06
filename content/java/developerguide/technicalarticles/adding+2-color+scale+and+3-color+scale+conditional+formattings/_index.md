@@ -16,6 +16,6 @@ url: /java/developerguide/technicalarticles/adding+2-color+scale+and+3-color+sca
 
 The following sample code adds 2-Color and 3-Color Scale Conditional Formattings. It generates the [output excel file](https://docs2.aspose.com/cells/java/attachments/5276055/5472511.xlsx) as shown below.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276055/5472512.png)
+![image](5472512.png)
 
 

@@ -30,7 +30,7 @@ The following sample code loads the [source excel file](https://docs2.aspose.com
 
 If you open the [output excel file](https://docs2.aspose.com/cells/java/attachments/5275800/5472517.xlsx) and click the *Developer > Source* button, you will see the cells are linked with XML Map elements and they will also be highlighted by Microsoft Excel as shown in this image.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5275800/5472516.png)
+![image](5472516.png)
 
 ## Sample Code
 

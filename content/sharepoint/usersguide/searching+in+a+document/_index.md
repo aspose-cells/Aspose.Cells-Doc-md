@@ -20,7 +20,7 @@ To search several files at once:
 2.  With the files still selected, select **Search Document with Aspose.Cells**.
 
 **Searching documents**  
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357002/6488137.png)
+![image](6488137.png)
 
 The following options are available:
 

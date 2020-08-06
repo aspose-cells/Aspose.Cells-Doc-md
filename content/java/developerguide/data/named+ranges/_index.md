@@ -104,7 +104,7 @@ The following example shows how to set an outline border to a range.
   
 The following output would be generated after executing the above code:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276725/5473128.png)
+![image](5473128.png)
 
 ##### Apply style to cells in a Range
 

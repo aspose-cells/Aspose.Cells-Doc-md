@@ -28,7 +28,7 @@ If you want to read the color of the glow effect of any shape, please use the [S
 
 Please see the following sample code and its [source excel file](https://docs2.aspose.com/cells/java/attachments/22970440/23166984.xlsx) and the console output for your reference. The following screenshot shows the glow effect of the shape inside the source excel file when viewed in Microsoft Excel.
 
-![image](https://docs2.aspose.com/cells/java/attachments/22970440/23166983.png)
+![image](23166983.png)
 
 ## Sample Code
 

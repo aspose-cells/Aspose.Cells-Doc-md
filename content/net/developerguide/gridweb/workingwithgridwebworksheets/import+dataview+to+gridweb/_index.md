@@ -19,7 +19,7 @@ Import data from a `DataView` object using the `GridWorsheetCollection`'s `Impor
 When data is imported from a `DataView` object, a new worksheet is created to hold the imported data. The worksheet is named the same as the `DataTable`.
 
 **Output: Data imported from a DataView into a new worksheet**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013790/5115119.png)
+![image](5115119.png)
 
 The widths of the columns are adjusted to show all the data they contain. When the data is imported from `DataView`, column widths are not adjusted automatically. Users need to adjust them by themselves. To adjust the column widths programmatically, refer to [Resize Rows and Columns](https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/resize+rows+and+columns).
 

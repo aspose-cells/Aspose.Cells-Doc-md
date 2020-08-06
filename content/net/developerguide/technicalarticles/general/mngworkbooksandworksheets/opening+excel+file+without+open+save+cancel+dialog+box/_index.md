@@ -23,7 +23,7 @@ The following image shows the Open-Save-Cancel dialog box shown by Internet Expl
 {{< table style="table-striped" >}}
 |The Open-Save-Cancel dialog|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017701/5112199.png)|
+|![image](5112199.png)|
 {{< /table >}}
 
 As explained above, allowing a file to open or run on your system without confirmation that you really want it to is a security risk. Some files contains viruses, and some site will try to download harmful files to your machine without prompting you. It is therefore not recommended that you allow file download without the download prompt so that users have to verify the file and its source can be verified before downloading or running it. Disabling the download dialog box makes the system vulnerable to viruses, Trojans and hackers who may silently affect your system.
@@ -45,7 +45,7 @@ In Windows Explorer:
 {{< table style="table-striped" >}}
 |Editing file type options|
 |:----|
-|        ![image](https://docs2.aspose.com/cells/net/attachments/5017701/5112196.png)    |
+|        ![image](5112196.png)    |
 {{< /table >}}
 
 This setting allows files to run directly in the web browser, without the Open-Save-Cancel dialog showing when downloading or opening the file.

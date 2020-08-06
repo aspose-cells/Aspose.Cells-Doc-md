@@ -24,5 +24,5 @@ By default, GridWeb validates only the updated cells and does not validate the e
 
 The following screenshot displays the `needValidateall` variable in `acwmain.js`. Please set it to `true` and now GridWeb will validate your entire worksheet not just the updated cells.
 
-![image](https://docs2.aspose.com/cells/net/attachments/40142278/40468499.png)
+![image](40468499.png)
 

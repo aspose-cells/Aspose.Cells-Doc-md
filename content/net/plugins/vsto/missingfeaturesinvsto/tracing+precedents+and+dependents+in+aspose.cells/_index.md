@@ -33,7 +33,7 @@ Microsoft Excel allows users to trace precedents and dependents.
 1.  On the **View Toolbar**, select **Formula Auditing**.  
     The Formula Auditing dialog is displayed.  
     **The Formula Auditing dialog**  
-    ![image](https://docs2.aspose.com/cells/net/attachments/5020673/5115062.png)
+    ![image](5115062.png)
 2.  Trace Precedents:
     1.  Select the cell that contains the formula for which you want to find precedent cells.
     2.  To display a tracer arrow to each cell that directly provides data to the active cell, click **Trace Precedents** on the **Formula Auditing** toolbar.
@@ -50,7 +50,7 @@ Aspose.Cells makes it easy to get precedent cells. Not only can it retrieve cell
 In the example below, a template excel file, Book1.xls, is used. The spreadsheet has data and formulas on the first Worksheet.
 
 **The input spreadsheet**  
-![image](https://docs2.aspose.com/cells/net/attachments/5020673/5115066.png)
+![image](5115066.png)
 
 `Aspose.Cells` provides the `Cell` class' `GetPrecedents` method used to trace a cell's precedents. It returns an `ReferredAreaCollection`. As you can see above, in Book1.xls, cell B7 contains a formula "=SUM(A1:A3)". So cells A1:A3 are the precedent cells to cell B7. The following example demonstrates the tracing precedents feature using the template file Book1.xls.
 

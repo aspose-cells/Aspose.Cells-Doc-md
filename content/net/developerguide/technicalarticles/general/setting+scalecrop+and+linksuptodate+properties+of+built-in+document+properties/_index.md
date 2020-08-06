@@ -28,7 +28,7 @@ The possible values for this element are defined by the W3C XML Schema boolean d
 
 ## Screenshot showing these properties inside the `app.xml` file
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013554/5115499.png)
+![image](5115499.png)
 
 ## Setting ScaleCrop and LinksUpToDate properties of Built-In Document Properties
 

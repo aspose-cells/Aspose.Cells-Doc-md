@@ -200,7 +200,7 @@ OK
 
 The following image shows a graph of the products' performance in the first set of scenarios.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5017262/5112132.png)
+![image](5112132.png)
 
 ## Reading/Updating existing Excel Files
 
@@ -336,7 +336,7 @@ OK
 
 The following image shows the a graph of the results for the reading and updating existing Excel file scenarios.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5017262/5112133.png)
+![image](5112133.png)
 
 ## Declaration
 

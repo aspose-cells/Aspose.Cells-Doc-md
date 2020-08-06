@@ -22,7 +22,7 @@ To preview multiple files from within a folder:
 2.  With the files still selected, select **Preview Document with Aspose.Cells**.
 
 **Document preview from withing SharePoint**  
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357001/6488127.png)
+![image](6488127.png)
 
 When you're previewing several documents, the data area shows the first document in the list. The documents list shows all the previewed documents. To view another document:
 

@@ -32,7 +32,7 @@ url: /java/gettingstarted/product+overview/
 
  
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276511/5472927.png)
+![image](5472927.png)
 
 ### Welcome to the Aspose.Cells documentation!
 

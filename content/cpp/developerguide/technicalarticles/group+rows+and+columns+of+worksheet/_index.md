@@ -27,7 +27,7 @@ Aspose.Cells allows you to group rows and columns in a worksheet using [ICells.G
 
 The following sample code shows how to group rows and columns. It groups the rows and columns up to the 3rd level. Please check the [output excel file](https://docs2.aspose.com/cells/cpp/attachments/22970914/23166998.xlsx) generated with this code. It has two worksheets, the first one contains the grouping of rows and the second one contains the grouping of columns. Please also see the screenshot showing the grouping of rows in its first worksheet.
 
-![image](https://docs2.aspose.com/cells/cpp/attachments/22970914/23166999.png)
+![image](23166999.png)
 
 ## Sample Code
 

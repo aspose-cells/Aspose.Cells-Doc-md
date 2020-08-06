@@ -12,7 +12,7 @@ url: /java/developerguide/technicalarticles/mngworkbooksandworksheets/check+pass
 
 You can assign a **Password to open** and a **Password to modify** while creating your workbooks in Microsoft Excel. Please see this screenshot which shows the interface Microsoft Excel provides to specify these passwords.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276699/5473056.png)
+![image](5473056.png)
 
 Sometimes, you need to check if the given password matches with the **Password to modify** programmatically. Aspose.Cells provides [workbook.getSettings().getWriteProtection().validatePassword()](https://apireference.aspose.com/java/cells/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) method which you can use to check if the given Password to modify is correct or not.
 

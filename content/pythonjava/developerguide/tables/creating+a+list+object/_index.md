@@ -35,17 +35,17 @@ There are quite a few advantages when you convert a list of data to an actual Li
 ### Creating a List Object using Microsoft Excel
 
 **Selecting data range for creating a list object**  
-![image](download/attachments/5276801/2007166704)
+![image](2007166704.png)
 
 This displays the Create List dialog.
 
 **Create List dialog**  
-![image](download/attachments/5276801/355131023)
+![image](5276801/355131023.png)
 
 Implementing the List object and specifying Total Row (Select **Data**, then **List**, followed by **Total Row**).
 
 **Creating a List object**  
-![image](download/attachments/5276801/121132945)
+![image](5276801/121132945.png)
 
 ### Creating a List Object using Aspose.Cells API
 

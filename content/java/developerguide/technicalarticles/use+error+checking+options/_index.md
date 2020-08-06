@@ -32,7 +32,7 @@ You can use the error checking options to quickly convert numbers stored as text
 3.  Disable it.  
     See the below picture on how the green triangle is displayed for the data in MS Excel.  
       
-    ![image](https://docs2.aspose.com/cells/java/attachments/5276611/5472598.png)  
+    ![image](5472598.png)  
     
 
 The following sample code shows how to disable the numbers stored as text error checking option for a worksheet in the template XLS file using the Aspose.Cells APIs.

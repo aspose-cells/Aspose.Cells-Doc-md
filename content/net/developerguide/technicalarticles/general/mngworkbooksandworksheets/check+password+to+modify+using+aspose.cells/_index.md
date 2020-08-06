@@ -25,7 +25,7 @@ Sometimes, you need to check if the given password matches with the **Password t
 
 You can assign **Password to open** and **Password to modify** while creating your workbooks in Microsoft Excel. Please see this screenshot which shows the interface Microsoft Excel provides to specify these passwords.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5017659/5112231.png)
+![image](5112231.png)
 
 ## Check Password to modify using Aspose.Cells
 

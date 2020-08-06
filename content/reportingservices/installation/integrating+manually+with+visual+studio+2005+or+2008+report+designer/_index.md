@@ -65,5 +65,5 @@ This section describes how to install Aspose.Cells for Reporting Services on a c
         You should notice new formats available in the list of export formats.
 
 **When the component has been registered, new export formats appear in Report Designer**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094925/6193430.png)
+![image](6193430.png)
 

@@ -32,16 +32,16 @@ Below are screenshots of the source and output workbooks.
 You can use any source workbooks. These images are just for illustration purposes.
 
 **The first worksheet of the charts workbook - stacked**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276659/5473100.jpg)
+![image](5473100.jpg)
 
 **Second worksheet of charts workbook - line**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276659/5473099.jpg)
+![image](5473099.jpg)
 
 **First worksheet of the picture workbook - picture**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276659/5473098.jpg)
+![image](5473098.jpg)
 
 **All three worksheets in the combined workbook - stacked, line, picture**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276659/5473101.jpg)
+![image](5473101.jpg)
 
 The following code snippet shows how to combine multiple workbooks into a single workbook.
 

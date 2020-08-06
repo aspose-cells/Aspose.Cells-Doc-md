@@ -34,11 +34,11 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 The following screenshot shows how the `C:\Temp\Sheet1.html` and its links look like
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013737/5115214.png)
+![image](5115214.png)
 
 The following screenshot shows the HTML source. As you can see that the links are now referring to `C:\Temp\OtherSheets` directory. This was achieved using the [IFilePathProvider](https://apireference.aspose.com/net/cells/aspose.cells/ifilepathprovider) interface.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013737/5115212.png)
+![image](5115212.png)
 
 ## Sample Code
 

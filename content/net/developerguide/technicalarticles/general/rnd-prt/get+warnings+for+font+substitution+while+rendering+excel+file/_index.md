@@ -19,7 +19,7 @@ The screenshot below shows a source Excel file that we will use in the following
 {{< table style="table-striped" >}}
 |Not all fonts are rendered correctly|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017493/5112613.png)|
+|![image](5112613.png)|
 {{< /table >}}
 
 Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable fonts as shown below.
@@ -27,7 +27,7 @@ Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable font
 {{< table style="table-striped" >}}
 |Substituted fonts|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017493/5112610.png)|
+|![image](5112610.png)|
 {{< /table >}}
 
 ## Download Source File and Output PDF

@@ -25,7 +25,7 @@ Sometimes when you convert your Excel file to PDF, errors or exceptions occur an
 
 The following code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/54690010/55541778.xlsx) but the sample Excel file is erroneous and throws an error during [conversion to PDF](https://docs2.aspose.com/cells/net/attachments/54690010/55541779.pdf) in 17.11 but since we are using [PdfSaveOptions.IgnoreError](https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/ignoreerror) property, it does not throw an error. However, one *rounded red arrow like shape* as shown in this screenshot is lost. 
 
-![image](https://docs2.aspose.com/cells/net/attachments/54690010/55541780.png)
+![image](55541780.png)
 
 ## Sample Code
 

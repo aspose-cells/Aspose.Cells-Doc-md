@@ -19,7 +19,7 @@ The following screenshot shows string numbers in cells **A1:A17**. String number
 {{< table style="table-striped" >}}
 |Input file: numbers entered as text strings|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017715/5112588.png)|
+|![image](5112588.png)|
 {{< /table >}}
 
 These string numbers have been converted to numbers using [Cells.ConvertStringToNumericValue()](https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/convertstringtonumericvalue) in the following screenshot. As you can see, they are now right-aligned.
@@ -27,7 +27,7 @@ These string numbers have been converted to numbers using [Cells.ConvertStringTo
 {{< table style="table-striped" >}}
 |Output file: the strings have been converted to numbers|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017715/5112587.png)|
+|![image](5112587.png)|
 {{< /table >}}
 
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.

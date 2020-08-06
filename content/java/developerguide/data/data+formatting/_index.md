@@ -78,14 +78,14 @@ To apply your desired Gradient Fill Effects to the cell, use the `Style` object'
 The following output is achieved by executing the code below.  
   
 **Applying Gradient Fill Effects**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472426.png)
+![image](5472426.png)
 
 ## Configuring Alignment Settings
 
 Anyone who has used Microsoft Excel to format cells will be familiar with the alignment settings in Microsoft Excel.
 
 **Alignment settings in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472423.png)
+![image](5472423.png)
 
 As you can see from the above figure, there are different kinds of alignment options:
 
@@ -131,7 +131,7 @@ Use the [`Style`](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/
 The following output is achieved by executing the example code below:
 
 **Aligning the text horizontally**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472424.png)
+![image](5472424.png)
 
 #### Vertical Alignment
 
@@ -140,7 +140,7 @@ Use the [`Style`](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/
 The following output is achieved when `VerticalAlignment` is set to center.
 
 **Aligning the text vertically**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472421.png)
+![image](5472421.png)
 
 ### Indentation
 
@@ -149,7 +149,7 @@ It is possible to set the indentation level of the text in a cell by using the [
 The following output is achieved when `IndentLevel` is set to 2.
 
 **Indentation level adjusted to 2**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472422.png)
+![image](5472422.png)
 
 ### Orientation
 
@@ -158,7 +158,7 @@ Set the orientation (rotation) of the text in a cell with the [`Style`](http://w
 The following output is achieved when the rotation angle is set to 25.
 
 **Rotation angle set to 25**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472419.png)
+![image](5472419.png)
 
 ### Text Control
 
@@ -173,7 +173,7 @@ Set text wrapping on or off with the [`Style`](http://www.aspose.com/api/java/ce
 The following output is achieved when text wrapping is enabled.
 
 **Text wrapped inside the cell**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472420.png)
+![image](5472420.png)
 
 #### Shrinking to Fit
 
@@ -182,7 +182,7 @@ An option to wrapping text in a field is to shrink the text size to fit a cell's
 The following output is achieved when text is shrunk to fit the cell.
 
 **Text shrinked to fit inside the boundaries of the cell**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472450.png)
+![image](5472450.png)
 
 #### Merging Cells
 
@@ -191,7 +191,7 @@ Like Microsoft Excel, Aspose.Cells supports merging several cells into one.
 The following output is achieved if the three cells in the first row are merged to create a big single cell.
 
 **Three cells merged to create a big cell**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472449.png)
+![image](5472449.png)
 
 Use the [`Cells`](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Cells) collection's `Merge` method to merge cells. The `Merge` method takes the following parameters:
 
@@ -217,7 +217,7 @@ The reading order is set with the [`Style`](http://www.aspose.com/api/java/cells
 The following output is achieved if the reading order of the text is set to right to left.
 
 **Setting text reading order to right to left**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472448.png)
+![image](5472448.png)
 
 ## Formatting Selected Characters in a Cell
 
@@ -237,7 +237,7 @@ The `Cell` class provides `characters` method that takes the following parameter
 In the output file, in the A1" cell, the word 'Visit' is formatted with the default font but 'Aspose!' is bold and blue.
 
 **Formatting selected characters**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472447.png)
+![image](5472447.png)
 
 If you are interested in \[formatting a portion of Rich Text in a [`cell`](http://www.aspose.com/docs/display/cellsjava/Access+and+Update+the+Portions+of+Rich+Text+of+Cell), consider using the `Cell.getCharacters` & `Cell.setCharacters` methods. The `Cell.getCharacters` method is to be used to access the portions of the text and then amendments can be done using the `Cell.setCharacters` method whereas the **get** method returns an array of `FontSetting` objects which can be manipulated to set various properties font name, font color, boldness etc and **set** method can be used to apply the changes.
 
@@ -256,7 +256,7 @@ If you want that the horizontal and vertical scrollbars to be scrolled to the ro
 The following example shows how to activate a worksheet and make a cell in it active. The scrollbars are scrolled to make the 2nd row and 2nd column as their first visible row and column.
 
 **Setting B2 cell as an active cell**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276212/5472425.png)
+![image](5472425.png)
 
 #### Selecting a Range of Cells in the Worksheet
 

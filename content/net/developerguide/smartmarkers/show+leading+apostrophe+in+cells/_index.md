@@ -22,7 +22,7 @@ In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspos
 
 The following screenshot shows the output excel file with the visible apostrophe.
 
-![image](https://docs2.aspose.com/cells/net/attachments/97878713/98107424.jpg)
+![image](98107424.jpg)
 
 The following code snippet demonstrates this by adding data with Smart Markers in the source excel file. The source and output excel files are attached for reference.
 

@@ -17,7 +17,7 @@ The evaluation version of Aspose.Cells (that is, Aspose.Cells without a license 
 {{< table style="table-striped" >}}
 |Evaluation warning – an extra worksheet|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5018385/5114612.png)|
+|![image](5114612.png)|
 {{< /table >}}
 
 If you want to test Aspose.Cells without evaluation version limitations, [request a 30-day temporary license](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx).

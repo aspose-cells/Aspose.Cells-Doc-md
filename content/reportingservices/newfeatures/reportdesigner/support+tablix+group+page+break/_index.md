@@ -12,5 +12,5 @@ url: /reportingservices/newfeatures/reportdesigner/support+tablix+group+page+bre
 
 It sets Group Page Break (Between) and Page Break for table report item. The default value is set to no page break. 
 
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/95322270/95584274.png)
+![image](95584274.png)
 

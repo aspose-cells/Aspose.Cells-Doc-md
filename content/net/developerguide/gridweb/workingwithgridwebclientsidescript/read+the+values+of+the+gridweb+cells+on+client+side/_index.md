@@ -36,7 +36,7 @@ The following sample code retrieves all the cells and then prints their name, va
 
 ## Screenshot
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013765/5115360.png)
+![image](5115360.png)
 
 ## Sample Code
 

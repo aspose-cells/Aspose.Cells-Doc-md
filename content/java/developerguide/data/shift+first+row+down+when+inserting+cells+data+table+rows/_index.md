@@ -28,7 +28,7 @@ The following sample code illustrates how to shift first row down when insertin
 
 ## Screenshot
 
-![image](https://docs2.aspose.com/cells/java/attachments/44860349/45056042.png)
+![image](45056042.png)
 
 ## Sample Code
 

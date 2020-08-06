@@ -25,7 +25,7 @@ When you save your Excel file to HTML, you can specify different cross types for
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/64456179/64716894.xlsx) and saves it to [output HTML](https://docs2.aspose.com/cells/net/attachments/64456179/64716893.zip) after setting the [HtmlSaveOptions.HtmlCrossStringType](https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype) as [CrossHideRight](https://apireference.aspose.com/net/cells/aspose.cells/htmlcrosstype). The screenshot explains how [CrossHideRight](https://apireference.aspose.com/net/cells/aspose.cells/htmlcrosstype) affects the output HTML from default output.
 
-![image](https://docs2.aspose.com/cells/net/attachments/64456179/64716892.png)
+![image](64716892.png)
 
 ## Sample Code
 

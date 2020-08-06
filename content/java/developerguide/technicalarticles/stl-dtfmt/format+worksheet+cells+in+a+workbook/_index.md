@@ -43,7 +43,7 @@ This article shows how to generate an annual sales report. The workbook is creat
 After executing the above code, a Microsoft Excel file is generated with a new, formatted worksheet called Sales Report.  
   
 **The output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276661/5473025.png)
+![image](5473025.png)
 
 ### Summary
 

@@ -28,7 +28,7 @@ The code examples in this article create a worksheet with a repeating background
 
 **A background has been set for the worksheet.**  
   
-![image](https://docs2.aspose.com/cells/net/attachments/5017467/5112096.png)
+![image](5112096.png)
 
 #### Setting Background Pictures with VSTO
 

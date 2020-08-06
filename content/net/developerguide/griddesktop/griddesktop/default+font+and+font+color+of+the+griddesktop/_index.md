@@ -28,7 +28,7 @@ Sometimes, you want to change the default font and font color of the GridDesktop
 
 The following screenshot shows how to change the default font and font color of GridDesktop at Design Time.
 
-![image](https://docs2.aspose.com/cells/net/attachments/50266230/50528264.png)
+![image](50528264.png)
 
 ## Change Default Font and Font Color at Run Time
 

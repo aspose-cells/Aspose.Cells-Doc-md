@@ -13,33 +13,33 @@ url: /reportingservices/userguide/datasourcesandqueries/creating+new+query+using
 To create a new query using an existing data source:
 
 1.  Open Microsoft Excel.
-2.  Click **Build DataSet** in the Aspose.Cells.Report.Designer (![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193529.png)).
+2.  Click **Build DataSet** in the Aspose.Cells.Report.Designer (![image](6193529.png)).
 3.  In the dialog box, select one of the data sources listed in the left panel. For example, **SqlServer**.
 4.  Click **Add**.  
       
     **Selecting a data source**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193526.png)  
+    ![image](6193526.png)  
       
     
 5.  In the dialog box, type a new data set name, for example SalesEmps.
 6.  Click **Next**.  
       
     **Naming a new data set**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193527.png)  
+    ![image](6193527.png)  
       
     Aspose.Cells.Report.Designer starts Microsoft Query and connects to the selected data source. A new query can now be created with Microsoft Query.  
       
     **Building a new query**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193524.png)  
+    ![image](6193524.png)  
       
     
 7.  From Microsoft Query's **File** menu, select **Return To Aspose.Cells.Report.Designer**.  
       
     **Return to the Report Designer**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193525.png)  
+    ![image](6193525.png)  
       
     The data source SqlServer contains two datasets, one of which is the new dataset SalesEmps.  
       
     **The new data set**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094946/6193522.png)
+    ![image](6193522.png)
 

@@ -18,10 +18,10 @@ display it in the control to make it more elegant.
 
 This topic discusses creating a hierarchical view sheet. Some of the rows in the sheet have child views. When a user clicks the row's **Expand**
 
-button ![(plus)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/add.png), the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report.
+button ![plus](add.png), the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report.
 
 **A table with a hierarchical view**  
-![image](https://docs2.aspose.com/cells/net/attachments/5017584/5112976.png)
+![image](5112976.png)
 
 ### Create Relations for DataTables
 
@@ -39,16 +39,16 @@ FOr this to work, the following to relationships must be established between the
 
 1.  Create a foreign key on DataTable Orders, the key field is CustomerID  
       
-    ![image](https://docs2.aspose.com/cells/net/attachments/5017584/5112977.png)  
+    ![image](5112977.png)  
       
     
 2.  Create a foreingn key on DataTable Order Details, the key field is OrderID.  
       
-    ![image](https://docs2.aspose.com/cells/net/attachments/5017584/5112978.png)  
+    ![image](5112978.png)  
       
     The DataSet Designer now looks like this:  
       
-    ![image](https://docs2.aspose.com/cells/net/attachments/5017584/5112979.png)
+    ![image](5112979.png)
 
 #### Bind Worksheet
 
@@ -61,7 +61,7 @@ child views. When the + icon is clicked, the record expands to show the child vi
 worksheet to the root parent `DataTable` Customers.  
   
 
-![image](https://docs2.aspose.com/cells/net/attachments/5017584/5112980.png)
+![image](5112980.png)
 
 #### Customize the Child Tables Bind Columns
 

@@ -19,7 +19,7 @@ There might be cases where the text is cut off in the generated HTML and you wan
 
 The following image shows the tooltip in the generated HTML file.
 
-![image](https://docs2.aspose.com/cells/net/attachments/97878711/98107418.jpg)
+![image](98107418.jpg)
 
 The following code sample loads the [source excel file](https://docs2.aspose.com/cells/net/attachments/97878711/98107416.xlsx) and generates the [output HTML file](https://docs2.aspose.com/cells/net/attachments/97878711/98107417.zip) with the tooltip.
 

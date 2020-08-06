@@ -21,7 +21,7 @@ url: /java/developerguide/worksheets/update+days+preserving+history+of+revision+
 
 When you share a workbook, you get an option saying ***Keep change history for N days*** as shown in the following screenshot. You can update the number of days for preserving history using Aspose.Cells with [WorksheetCollection.RevisionLogs.DaysPreservingHistory](https://apireference.aspose.com/java/cells/com.aspose.cells/revisionlogcollection#DaysPreservingHistory) property.
 
-![image](https://docs2.aspose.com/cells/java/attachments/60229074/60489785.png)
+![image](60489785.png)
 
 ## Update Days Preserving History of Revision Logs in Shared Workbook
 

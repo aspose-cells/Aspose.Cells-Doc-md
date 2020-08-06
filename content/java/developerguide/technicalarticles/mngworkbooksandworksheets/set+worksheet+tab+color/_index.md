@@ -20,7 +20,7 @@ Aspose.Cells allows you to change the color of individual worksheet tabs to make
 4.  Click **OK**.
 
 **The tabs have been colored red, green and blue**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276647/5472999.png)
+![image](5472999.png)
 
 #### Setting Worksheet Tab Color with Aspose.Cells
 

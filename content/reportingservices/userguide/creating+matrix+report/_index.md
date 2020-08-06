@@ -17,7 +17,7 @@ Aspose.Cells for Reporting Services lets you design a matrix in Microsoft Excel.
 In an Aspose.Cells report template, a matrix consists of corner, rows groups, column groups and data portions. A sample matrix is shown below.
 
 **A sample matrix**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193465.png)
+![image](6193465.png)
 
 *   **Matrix corner**: located in the upper-left corner, or upper-right corner for right-to-left (RTL) layouts. This area is automatically created when you add both row groups and column groups to a matrix data region. In this area, you can merge cells embedded textbox report item.
 *   **Matrix column groups area**: located in the upper-right corner (upper-left corner for RTL layout). This area is automatically created when you add a column group. The cells in this area represent members of the column groups hierarchy, and display the column group instance values. In the figure, the cells that display OrderYear is a nested column group, and the cell that displays OrderQtr is an adjacent column group.
@@ -35,34 +35,34 @@ To create a new matrix:
     Once the file has been opened successfully all its information is available for use, for example, its datasets are listed in the **DataSet** list.
 3.  Open a Microsoft Excel worksheet and select a data set.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193462.png)  
+    ![image](6193462.png)  
       
     
 4.  Set row groups and column groups through **Set Group**.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193463.png)  
+    ![image](6193463.png)  
       
     
 5.  Merge cells to set matrix corner.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193452.png)  
+    ![image](6193452.png)  
       
     
 6.  Set matrix corner through inserting a formula.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193453.png)  
+    ![image](6193453.png)  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193458.png)  
+    ![image](6193458.png)  
       
     
 7.  Click **Set Attribute** to set matrix attribute.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193450.png)  
+    ![image](6193450.png)  
       
     It consists of name, range, group and order.
 8.  Clicking modify attribute checks and modifies all matrix attributes of the current worksheet.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193464.png)  
+    ![image](6193464.png)  
       
     
 9.  Save, publish and review report.

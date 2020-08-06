@@ -31,7 +31,7 @@ etc.
 
 The following screenshot shows the effect of using [HtmlSaveOptions.TableCssId](https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/tablecssid) property on output HTML. 
 
-![image](https://docs2.aspose.com/cells/net/attachments/60229103/60489789.png)
+![image](60489789.png)
 
 ## Prefix Table Elements Styles with HtmlSaveOptions.TableCssId property
 

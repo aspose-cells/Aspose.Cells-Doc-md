@@ -26,7 +26,7 @@ Smart Art Shapes are special shapes in Microsoft Excel that allow you to create 
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/java/attachments/54690182/55541805.xlsx) containing a smart art shape as shown in this screenshot. It then prints the value of [Shape.IsSmartArt](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#IsSmartArt) property of the first shape. Please see the console output of the sample code given below.
 
-![image](https://docs2.aspose.com/cells/java/attachments/54690182/55541804.png)  
+![image](55541804.png)  
 
 ## Sample Code
 

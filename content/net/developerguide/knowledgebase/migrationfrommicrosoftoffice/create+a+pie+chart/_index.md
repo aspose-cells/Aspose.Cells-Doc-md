@@ -75,7 +75,7 @@ void PieChart()
 
 **A pie chart created with VSTO**  
   
-![image](https://docs2.aspose.com/cells/net/attachments/5017471/5112099.png)
+![image](5112099.png)
 
 #### Creating a Pie Chart with Aspose.Cells for .NET
 
@@ -131,5 +131,5 @@ private void PieChart()
 
 **Pie chart created with Aspose.Cells for .NET**  
   
-![image](https://docs2.aspose.com/cells/net/attachments/5017471/5112092.png)
+![image](5112092.png)
 

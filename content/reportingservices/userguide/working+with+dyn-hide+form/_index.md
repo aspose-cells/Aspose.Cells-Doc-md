@@ -17,13 +17,13 @@ To hide information:
 1.  In Microsoft Excel, click **Dyn-Hide** on the Aspose.Cells command bar.  
     The Dyn-Hide dialog is displayed.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094977/6193203.png)  
+    ![image](6193203.png)  
       
     
 2.  Edit the hide information.
 3.  Click **Add** to add hide information.  
       
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094977/6193206.png)  
+    ![image](6193206.png)  
       
     The defined area is hidden from the report.
 

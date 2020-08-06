@@ -51,7 +51,7 @@ This initial version of the module is enriched with the following cool features 
 *   Exported document is automatically sent to browser for downloading. 
 
 .  
-![image](download/thumbnails/5016404/756259497)
+![image](756259497.png)
 
 ## **System Requirements and Supported Platforms**
 
@@ -101,11 +101,11 @@ After you have installed the Aspose .NET Database Data Expoeter for DNN module, 
 3.  Select **Modules** followed by **Add New Module** from the top ribbon.
 4.  From the list, select ‘Aspose.NET DNN Data Exporter to Excel Using Aspose.Cells’ and drag it into position. 
 
-. ![image](download/thumbnails/5016404/1707744984)
+. ![image](1707744984.png)
 
 You have successfully added Aspose .NET Database Data Exporter to Excel for DNN module to your page.
 
-![image](download/thumbnails/5016404/319120958)
+![image](319120958.png)
 
 1.  Enter or Use pre-populated MS SQL Server Connection String
 2.  Seletec Data Source Type (Table, View, Custom Query)

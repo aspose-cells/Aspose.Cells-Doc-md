@@ -25,7 +25,7 @@ Aspose.Cells supports the rendering of slicer shape. If you convert your workshe
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/66948360/67338479.xlsx) that contains an existing slicer. It converts the worksheet into an image by setting the print area that covers only the slicer. The flowing image is the [output image](https://docs2.aspose.com/cells/net/attachments/66948360/67338480.png) that shows the rendered slicer. As you can see, slicer has been rendered properly and it looks the same as in the sample Excel file.
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/66948360/67338480)
+![image](67338480)
 
 ## Sample Code
 

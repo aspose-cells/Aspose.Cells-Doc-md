@@ -25,7 +25,7 @@ url: /java/developerguide/knowledgebase/faqs/this+file+format+is+not+supported+o
 
 Sometime user gets the exception saying this file is actually in a very old format which is not supported by Aspose.Cells. If you open your file in MS-Excel and save it with `Save As` menu command, you will see MS-Excel will show you its format i.e. `Microsoft Excel 5.0/95 Workbook (*.xls)` as shown in this screenshot.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5275908/5472552.jpg)
+![image](5472552.jpg)
 
 So this file is actually in a `Microsoft Excel 5.0 or 95` format which is not supported by Aspose.Cells. You can also use this code to detect the `FileFormatType` of this file.
 

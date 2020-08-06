@@ -29,7 +29,7 @@ The following sample code illustrates how to export HTML string value of the cel
 
 ## Screenshot
 
-![image](https://docs2.aspose.com/cells/net/attachments/44860284/45056026.png)
+![image](45056026.png)
 
 ## Sample Code
 

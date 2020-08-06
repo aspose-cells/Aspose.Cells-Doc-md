@@ -29,7 +29,7 @@ If you have not set the cell style to `Percentage Format`, then input data 3% wi
 
 The following sample code sets the cell A1 `GridTableItemStyle.NumberType` as 10, therefore the input data 3% automatically be formatted as 3.00% as shown in the screenshot.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013563/5115163.png)
+![image](5115163.png)
 
 ### Sample Code
 

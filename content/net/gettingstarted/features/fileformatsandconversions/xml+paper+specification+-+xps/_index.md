@@ -23,7 +23,7 @@ url: /net/gettingstarted/features/fileformatsandconversions/xml+paper+specificat
 {{< table style="table-striped" >}}
 |||
 |:----|:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5018340/5114740.png)|The [XML Paper Specification](http://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
+|![image](5114740.png)|The [XML Paper Specification](http://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
 {{< /table >}}
 
 ## XPS in Aspose.Cells

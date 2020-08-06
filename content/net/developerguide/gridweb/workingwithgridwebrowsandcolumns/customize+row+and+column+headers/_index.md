@@ -27,7 +27,7 @@ To customize the header or caption of a row:
 3.  Set the caption of any specified row.
 
 **The headers of row 1 and 2 has been customized**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013771/5115384.png)
+![image](5115384.png)
 
 ## Customizing Column Header
 
@@ -38,5 +38,5 @@ To customize the header or caption of a column:
 3.  Set the caption of any specified column.
 
 **The headers of column 1, 2 and 3 has been customized**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013771/5115400.png)
+![image](5115400.png)
 

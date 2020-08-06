@@ -72,10 +72,10 @@ If you have multiple parameters, separate them with a comma, but no space: `para
 The following screenshots show how to insert data on every other row.
 
   
-![image](https://docs2.aspose.com/cells/java/attachments/5275916/5472407.png)  
+![image](5472407.png)  
 **becomes...**  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5275916/5472408.png)
+![image](5472408.png)
 
 ### Dynamic Formulas
 
@@ -88,11 +88,11 @@ Dynamic formulas allow the following additional options:
 
 The following illustrates a repeating dynamic formula and the resulting Excel worksheet.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5275916/5472409.png)
+![image](5472409.png)
 
 **becomes…**
 
-![image](https://docs2.aspose.com/cells/java/attachments/5275916/5472410.png)
+![image](5472410.png)
 
 Cell C1 contains the formula `=A1*B1`, C2 contains `= A2*B2` and C3 `= A3*B3`.
 
@@ -148,18 +148,18 @@ Aspose.Cells supports nested objects in smart markers, the nested objects should
 We use a simple template file. See the designer spreadsheet that contains some nested smart markers.
 
 **The first worksheet of the designer file showing nested smart markers.**  
-![image](https://docs2.aspose.com/cells/java/attachments/5275916/5472405.png)
+![image](5472405.png)
 
 The example that follows shows how this works. Running the code below results in the output below.
 
 **The first worksheet of the output file showing the resultant data.**  
-![image](https://docs2.aspose.com/cells/java/attachments/5275916/5472406.png)
+![image](5472406.png)
 
 ## Using Generic List as Nested Object
 
 Aspose.Cells now also supports using a generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a husband object contains multiple nested wife objects.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5275916/5472411.png)
+![image](5472411.png)
 
 ## Using HTML property of Smart Markers
 

@@ -25,7 +25,7 @@ Early versions of Aspose.Cells were not able to handle automatic units of the ch
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/61540687/61767755.xlsx) and generates the [output PDF chart](https://docs2.aspose.com/cells/net/attachments/61540687/61767752.pdf). The screenshot shows the automatic units of chart axis in red rectangles and also compares the sample Excel file chart with the output PDF chart. Both are exactly similar.
 
-![image](https://docs2.aspose.com/cells/net/attachments/61540687/61767753.png)
+![image](61767753.png)
 
 ## Sample Code
 

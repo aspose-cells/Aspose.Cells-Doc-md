@@ -28,8 +28,8 @@ For example:
 {{< /code >}}
 
 **A chart exported as an image**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094931/6193413.png)
+![image](6193413.png)
 
 **A chart exported as an editable Excel chart**  
-![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094931/6193412.png)
+![image](6193412.png)
 

@@ -28,5 +28,5 @@ Aspose offers free support to all users. For companies want that their issue wil
 
 **There is plenty of activity in the Aspose.Support Forums.**
 
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357018/50528276.png)
+![image](50528276.png)
 

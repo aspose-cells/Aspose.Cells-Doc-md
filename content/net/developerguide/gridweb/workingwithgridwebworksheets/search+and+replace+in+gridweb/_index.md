@@ -29,14 +29,14 @@ There are two ways to open the Find/Replace dialog:
 2.  Move the cursor to the cell area in the worksheet, then right-click. Select **Find** or **Replace** from the menu.  
       
     **Selecting Find**  
-    ![image](https://docs2.aspose.com/cells/net/attachments/5013787/5115339.png)  
+    ![image](5115339.png)  
       
     
 
 A style dialog is displayed.  
   
 **The Find/Replace dialog**  
-![image](https://docs2.aspose.com/cells/net/attachments/5013787/5115338.png)
+![image](5115338.png)
 
 ### Using Find
 

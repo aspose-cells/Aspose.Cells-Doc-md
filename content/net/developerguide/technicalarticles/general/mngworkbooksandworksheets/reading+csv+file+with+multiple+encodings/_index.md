@@ -19,7 +19,7 @@ The following screenshot shows a sample CSV file that contains two lines. The fi
 {{< table style="table-striped" >}}
 |Input file|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017651/5112225.png)|
+|![image](5112225.png)|
 {{< /table >}}
 
 The following screenshot shows the XLSX file converted from the above CSV file without setting the [TxtLoadOptions.IsMultiEncoded](https://apireference.aspose.com/net/cells/aspose.cells/txtloadoptions/properties/ismultiencoded) property to **true**. As you can see, the Unicode text was not converted properly.
@@ -27,7 +27,7 @@ The following screenshot shows the XLSX file converted from the above CSV file w
 {{< table style="table-striped" >}}
 |Output file 1: no accommodation made for multiple encoding|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017651/5112226.png)|
+|![image](5112226.png)|
 {{< /table >}}
 
 The following screenshot shows the XSLX file converted from the above CSV file after setting the [TxtLoadOptions.IsMultiEncoded](https://apireference.aspose.com/net/cells/aspose.cells/txtloadoptions/properties/ismultiencoded) property to **true**. As you can see, the Unicode text is now converted properly.
@@ -35,7 +35,7 @@ The following screenshot shows the XSLX file converted from the above CSV file a
 {{< table style="table-striped" >}}
 |Output file 2: IsMultiEncoded is set to true|
 |:----|
-|![image](https://docs2.aspose.com/cells/net/attachments/5017651/5112227.png)|
+|![image](5112227.png)|
 {{< /table >}}
 
 Below is the sample code that converts the above CSV file into XLSX format properly.

@@ -25,7 +25,7 @@ Please use [HTMLLoadOptions.DeleteRedundantSpaces](https://apireference.aspose.c
 
 The following screenshot shows the effect of setting this property to **false** and **true**.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5024990/5115490.png)
+![image](5115490.png)
 
 ## Delete redundant spaces after line break while importing Html
 

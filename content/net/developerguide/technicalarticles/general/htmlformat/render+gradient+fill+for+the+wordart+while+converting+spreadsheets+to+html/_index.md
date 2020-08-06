@@ -23,7 +23,7 @@ url: /net/developerguide/technicalarticles/general/htmlformat/render+gradient+fi
 
 Before Aspose.Cells 17.1, Aspose.Cells did not render gradient fill of the word art when the Excel file was converted to HTML format. Since the release of Aspose.Cells 17.1, word art gradient fill is supported. The following screenshot compares the effect on the gradient fill by converting the excel file using Aspose.Cells 17.1 and the older version.
 
-![image](https://docs2.aspose.com/cells/net/attachments/22546716/22774110.png)
+![image](22774110.png)
 
 ## Render Gradient Fill for the WordArt while converting spreadsheets to HTML
 

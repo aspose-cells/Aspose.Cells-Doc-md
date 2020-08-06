@@ -17,12 +17,12 @@ Aspose.Cells for Java API provides the [Cells.convertStringToNumericValue()](ht
 The following screenshot shows string numbers in cells **A1:A17**. String numbers are aligned to the left.
 
 **Input file: numbers entered as text strings**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276676/5473023.png)
+![image](5473023.png)
 
 These string numbers have been converted to numbers using [Cells.convertStringToNumericValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#convertStringToNumericValue()) in the following screenshot. As you can see, they are now right-aligned.
 
 **Output file: the strings have been converted to numbers**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276676/5473022.png)
+![image](5473022.png)
 
 The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.
 

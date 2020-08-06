@@ -23,13 +23,13 @@ To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):
 2.  Select the **Security** tab.
 3.  Input a password and click **Advanced**  
     **Options dialog**  
-    ![image](https://docs2.aspose.com/cells/net/attachments/5020521/5115042.png)  
+    ![image](5115042.png)  
       
     
 4.  Choose the encryption type and confirm the password.  
       
     **Encryption Type dialog**  
-    ![image](https://docs2.aspose.com/cells/net/attachments/5020521/5115041.png)  
+    ![image](5115041.png)  
       
     
 

@@ -27,7 +27,7 @@ url: /java/gettingstarted/introduction/features/androidviajava/product+overview+
 
  
 
-[![image](https://docs2.aspose.com/cells/java/attachments/thumbnails/41550543/50528297)](https://docs2.aspose.com/cells/java/attachments/41550543/50528297.png)Welcome to the Aspose.Cells for Android via Java documentation!
+[![image](50528297)](https://docs2.aspose.com/cells/java/attachments/41550543/50528297.png)Welcome to the Aspose.Cells for Android via Java documentation!
 
 Aspose.Cells is a flexible component that enables Android applications to create and manage Excel spreadsheets without requiring Microsoft Excel installed on the system. Unlike similar products from other vendors, Aspose.Cells not only supports spreadsheet generation and other basic file formatting features, but also a number of advanced features. These advanced features make it easy for developers to manipulate spreadsheet contents, cell formatting and file protection. Aspose.Cells also allows you to import data into spreadsheets from different data sources, add common and complex mathematical, date and time, financial, or text formulas and functions. It further supports manipulating charts, pictures, comments, drawing objects and controls.
 

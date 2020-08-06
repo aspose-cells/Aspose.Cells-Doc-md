@@ -25,7 +25,7 @@ Microsoft Excel Watch Window is a useful tool to watch the cell values and its f
 
 The following sample code sets the formula of cells C1 and E1 and adds both of them to *Watch Window*. It then saves the workbook as [output Excel file](https://docs2.aspose.com/cells/java/attachments/66948437/67338509.xlsx). If you open the output Excel file and view the *Watch Window*, you will see both cells as shown in this screenshot.
 
-![image](https://docs2.aspose.com/cells/java/attachments/66948437/67338508.png)
+![image](67338508.png)
 
 ## Sample Code
 

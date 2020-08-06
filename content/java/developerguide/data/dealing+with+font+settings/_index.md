@@ -27,7 +27,7 @@ url: /java/developerguide/data/dealing+with+font+settings/
 The look and feel of the text can be controlled by changing its font settings. These font settings may include the name, style, size, color and other effects of the fonts as shown below in the figure:
 
 **Font settings in Microsoft Excel**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276709/5473162.png)
+![image](5473162.png)
 
 Just like Microsoft Excel, Aspose.Cells also supports configuring the font settings of the cells.
 

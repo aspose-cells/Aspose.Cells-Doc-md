@@ -18,10 +18,10 @@ The following code accesses the first pivot table of the worksheet and then gets
 
 ##### Pivot Table - Before
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276470/5472921.png)
+![image](5472921.png)
 
 ##### Pivot Table - After
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276470/5472918.png)
+![image](5472918.png)
 
 

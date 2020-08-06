@@ -37,7 +37,7 @@ The sample code below creates an XLSX file from scratch, and adds a comment with
 After executing the code, A1 has a comment with a background image.
 
 **The output file**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276645/5473085.png)
+![image](5473085.png)
 
 
 #### Java

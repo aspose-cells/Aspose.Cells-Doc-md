@@ -24,12 +24,12 @@ The screenshot shows Book1.xls, the input file. It contains three worksheets: Sh
 
 **Book1.xls: worksheet before modification**
 
-![image](https://docs2.aspose.com/cells/net/attachments/5020669/5115082.png)
+![image](5115082.png)
 
 Book1.xls is opened by calling the `Workbook` class' `Open` method and the row and column headers on the first worksheet are hidden. The modified file is saved as output.xls.
 
 **Output.xls: worksheet after modification**  
-![image](https://docs2.aspose.com/cells/net/attachments/5020669/5115083.png)
+![image](5115083.png)
 
 **C#**
 

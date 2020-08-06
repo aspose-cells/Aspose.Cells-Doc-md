@@ -14,11 +14,11 @@ To create a table report, you need to set report attributes before publishing th
 
 To set up the attributes of a table report:
 
-1.  Click **Set Attribute** on the Aspose.Cells.Report.Designer toolbar (![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193367.png)).
+1.  Click **Set Attribute** on the Aspose.Cells.Report.Designer toolbar (![image](6193367.png)).
 2.  Enter the report name into the dialog box.  
       
     **Setting the report name**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193364.png)  
+    ![image](6193364.png)  
       
     
 3.  Click **Next**.
@@ -27,7 +27,7 @@ To set up the attributes of a table report:
     The start and end cells' index appears in the **Range** field automatically. Here, the range includes cells from D4 to H8.  
       
     **Defining the report range**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193365.png)  
+    ![image](6193365.png)  
       
     
 5.  Click **Next** to continue.  
@@ -35,20 +35,20 @@ To set up the attributes of a table report:
 6.  Select fields to group the data by.  
       
     **Selecting fields for grouping data**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193362.png)  
+    ![image](6193362.png)  
       
     
 7.  Click **Next** to continue.
 8.  Select fields to order the data by.  
       
     **Selecting fields to order data by**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193363.png)  
+    ![image](6193363.png)  
       
     
 9.  Click **Next**.  
       
     A summary of the report is displayed.  
     **Report summary**  
-    ![image](https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193375.png)
+    ![image](6193375.png)
 10.  Click **Finish**.
 

@@ -28,7 +28,7 @@ If you are using Microsoft Excel in Russian Locale or Language or any other Loca
 
 The following sample code illustrates how to implement Errors and Boolean Value in Russian or Any Other Language. Please check the [Sample Excel File](https://docs2.aspose.com/cells/net/attachments/48136575/73990159.xlsx) used in this code and its [Output PDF](https://docs2.aspose.com/cells/net/attachments/48136575/73990160.pdf). The screenshot shows the difference between Sample Excel File and the Output PDF for a reference.
 
-![image](https://docs2.aspose.com/cells/net/attachments/48136575/73990161.png)
+![image](73990161.png)
 
 ## Sample Code
 

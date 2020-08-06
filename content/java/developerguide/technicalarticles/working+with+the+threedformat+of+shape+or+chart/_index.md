@@ -26,7 +26,7 @@ Aspose.Cells provides the [Shape.ThreeDFormat](https://apireference.aspose.com/j
 
 The following screenshot shows Microsoft Excel interface to set the `3-D Format` of Shape.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5275799/5472523.png)
+![image](5472523.png)
 
 ## Working with the ThreeDFormat of Shape or Chart
 

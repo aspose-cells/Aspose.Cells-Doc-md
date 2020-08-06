@@ -23,7 +23,7 @@ Select **Combine Files** to combine files that were originally in different form
 This option is available when you select a folder, or several individual files, for conversion. Move documents in the list up or down to set the order in which you want the documents to be combined.
 
 **Combining files**  
-![image](https://docs2.aspose.com/cells/sharepoint/attachments/6357017/6488070.png)  
+![image](6488070.png)  
   
 
 #### Convert Files in Subfolders

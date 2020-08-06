@@ -69,7 +69,7 @@ With the [PdfSaveOptions](https://apireference.aspose.com/net/cells/aspose.cell
 
 With the [PdfSaveOptions](https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions) class, you can export the custom properties in the source workbook to the PDF. [PdfCustomPropertiesExport](https://apireference.aspose.com/net/cells/aspose.cells.rendering/pdfcustompropertiesexport) enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](https://docs2.aspose.com/cells/net/attachments/5013526/72417282.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](https://docs2.aspose.com/cells/net/attachments/5013526/72417283.pdf) for analysis.
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013526/72417284.png)
+![image](72417284.png)
 
 ### Conversion Attributes
 

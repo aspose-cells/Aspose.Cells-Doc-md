@@ -25,7 +25,7 @@ Sometimes, you want to change the alignment of multiple cells but also want to k
 
 The following sample code loads the [sample Excel file](https://docs2.aspose.com/cells/net/attachments/66950270/67338585.xlsx), creates the range and center aligns it horizontally and vertically and keeps the existing formatting intact. The following screenshot compares the sample Excel file and [output Excel file](https://docs2.aspose.com/cells/net/attachments/66950270/67338586.xlsx) and shows that all existing formatting of the cells is the same except that cells are now center aligned horizontally and vertically.
 
-![image](https://docs2.aspose.com/cells/net/attachments/66950270/67338588.png)
+![image](67338588.png)
 
 ## Sample Code
 

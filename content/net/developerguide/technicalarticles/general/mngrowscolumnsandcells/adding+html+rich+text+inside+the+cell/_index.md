@@ -16,5 +16,5 @@ Similarly, if there is some simple HTML, Aspose.Cells can convert it into HTML R
 
 Below code sample shows you how to add HTML rich text inside the cell. Please see the screenshot of the output Excel file.
 
-![image](https://docs2.aspose.com/cells/net/attachments/thumbnails/5017640/5112268)
+![image](5112268)
 

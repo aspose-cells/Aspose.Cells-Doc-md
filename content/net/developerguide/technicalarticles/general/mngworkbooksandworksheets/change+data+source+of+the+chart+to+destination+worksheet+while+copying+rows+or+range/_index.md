@@ -26,5 +26,5 @@ When you copy rows or range which contains charts to a new worksheet, then the d
 
 The following sample code explains the usage of [CopyOptions.ReferToDestinationSheet](https://apireference.aspose.com/net/cells/aspose.cells/copyoptions/properties/refertodestinationsheet) property while copying rows or range containing charts to a new worksheet. The code uses the [sample excel file](https://docs2.aspose.com/cells/net/attachments/5013542/5113699.xlsx) and generates the [output excel file](https://docs2.aspose.com/cells/net/attachments/5013542/5113697.xlsx).
 
-![image](https://docs2.aspose.com/cells/net/attachments/5013542/5113695.png)
+![image](5113695.png)
 

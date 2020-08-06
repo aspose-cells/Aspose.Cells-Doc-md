@@ -18,6 +18,6 @@ Aspose.Cells also provides this feature and has exposed the [Picture.setSignatur
 
 The following sample code adds a Signature Line using [Picture.setSignatureLine()](https://apireference.aspose.com/java/cells/com.aspose.cells/picture#SignatureLine) property and saves the workbook. The screenshot shows how the output workbook looks like in Microsoft Excel.
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276700/5473055.png)
+![image](5473055.png)
 
 

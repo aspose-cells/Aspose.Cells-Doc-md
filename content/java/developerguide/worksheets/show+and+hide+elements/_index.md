@@ -57,7 +57,7 @@ A complete example is given below that demonstrates the use of *setVisible(* *fa
 **Worksheet - Before Modification:**  
 In the screenshot below, you can see that **Book1.xls** file contains three worksheets: **Sheet1** , **Sheet2** and **Sheet3** .  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472332.png)
+![image](5472332.png)
 
 **Figure:** Worksheet view before any modification
 
@@ -65,7 +65,7 @@ In the screenshot below, you can see that **Book1.xls** file contains three work
 {\_}  
 **Book1.xls** file is opened by calling the **Open** method of **Workbook** class and then the first worksheet of the **Book1.xls** file is made hidden. The modified file is saved as **output.xls** file whose pictorial view is shown below:  
   
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472333.png)
+![image](5472333.png)
 
 **Figure:** Worksheet view after modification
 
@@ -82,7 +82,7 @@ If you closely look at the bottom of a Microsoft Excel file, you will see a numb
 Sheet tabs represent the worksheets in the Excel file. Click any tab to switch to that worksheet. The more worksheets in the workbook, the more sheet tabs there are. If the Excel file has a good number of worksheets you need buttons to navigate through them. So, Microsoft Excel provides tab scrolling buttons for scrolling through the sheet tabs.
 
 **Sheet tabs & tab scrolling buttons**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472329.png)
+![image](5472329.png)
 
 Using Aspose.Cells, developers can control the visibility of sheet tabs and tabs scrolling buttons in Excel files.
 
@@ -104,10 +104,10 @@ Below is a complete example that opens an Excel file (book1.xls), hides its tabs
 You can see that Book1.xls file contains tabs in the figure below. After the example code is executed, the tabs are hidden, as you can see from the screenshot of the output.xls file below.
 
 **book1.xls: Excel file before any modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472330.png)
+![image](5472330.png)
 
 **output.xls: Excel file after modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472331.png)
+![image](5472331.png)
 
 ## Show and Hide Rows and Columns
 
@@ -132,12 +132,12 @@ A complete example is given below that demonstrates how to use the `Worksheet` c
 The screenshot below shows that Book1.xls contains three worksheets: Sheet1, Sheet2 and Sheet3. Each worksheet is showing row and column headers.
 
 **Book1.xls: worksheet before modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472325.png)
+![image](5472325.png)
 
 Book1.xls is opened by calling the `Workbook` class' `Open` method and the row and column headers on the first worksheet are hidden. The modified file is saved as output.xls.
 
 **Worksheet view after modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472326.png)
+![image](5472326.png)
 
 ## Show and Hide Scroll Bars
 
@@ -167,10 +167,10 @@ Below is a complete code that opens an Excel file, book1.xls, hides both scroll 
 The screenshot below shows Book1.xls file containing both scroll bars. The modified file is saved as output.xls file, also shown below.
 
 **Book1.xls: Excel file before any modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472327.png)
+![image](5472327.png)
 
 **output.xls: Excel file after modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472328.png)
+![image](5472328.png)
 
 ## Show and Hide Gridlines
 
@@ -201,12 +201,12 @@ The example below demonstrates the use of the `Worksheet` class' `setGridlinesVi
 The screenshot below shows that the Book1.xls file contains three worksheets: Sheet1, Sheet2 and Sheet3. All of these worksheets have gridlines.  
   
 **Worksheet view before modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472323.png)
+![image](5472323.png)
 
 The Book1.xls file is opened by calling the `Open` method of the `Workbook` class and then the gridlines of the first worksheet are hidden. The modified file is saved as output.xls file.  
   
 **Worksheet view after modification**  
-![image](https://docs2.aspose.com/cells/java/attachments/5276190/5472324.png)
+![image](5472324.png)
 
 ### Related Articles
 

@@ -15,7 +15,7 @@ url: /java/gettingstarted/introduction/features/fileformatsandconversions/xml+pa
 {{< table style="table-striped" >}}
 |||
 |:----|:----|
-|![image](https://docs2.aspose.com/cells/java/attachments/5276497/5473362.png)|The [XML Paper Specification](http://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
+|![image](5473362.png)|The [XML Paper Specification](http://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
 {{< /table >}}
 
 #### XPS in Aspose.Cells
@@ -26,7 +26,7 @@ Aspose.Cells uses the same high-fidelity page layout and rendering engine to pro
 
 **The images below show the high degree of fidelity with which Aspose.Cells has converted a document from XLS to XPS.**
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276497/5473368.png)
+![image](5473368.png)
 
-![image](https://docs2.aspose.com/cells/java/attachments/5276497/5473361.png)
+![image](5473361.png)
 
