@@ -1,0 +1,31 @@
+---
+title: Read Color of the Shape's Glow Effect
+type: docs
+weight: 210
+url: /java/read-color-of-the-shape-s-glow-effect/
+---
+
+## **Possible Usage Scenarios**
+If you want to read the color of the glow effect of any shape, please use the [Shape.Glow.Color](https://apireference.aspose.com/java/cells/com.aspose.cells/gloweffect#Color) property. It will help you find the various properties relating to the color of the glow effect applied in a shape.
+## **Read Color of the Glow Effect of Shape**
+Please see the following sample code and its [source excel file](attachments/22970440/23166984.xlsx) and the console output for your reference. The following screenshot shows the glow effect of the shape inside the source excel file when viewed in Microsoft Excel.
+
+![todo:image_alt_text](read-color-of-the-shape-s-glow-effect_1.png)
+## **Sample Code**
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-ReadColorGlowEffect-ReadColorGlowEffect.java" >}}
+## **Console Output**
+Here is the console output of the above sample code when executed with the provided [source excel file](attachments/22970440/23166984.xlsx).
+
+{{< highlight java >}}
+
+ Color: com.aspose.cells.Color@deff0000
+
+ColorIndex: 16711672
+
+IsShapeColor: true
+
+Transparency: 0.13
+
+Type: 2
+
+{{< /highlight >}}

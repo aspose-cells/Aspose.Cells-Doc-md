@@ -1,0 +1,16 @@
+---
+title: How to Detect a File Format and Check if the File is Encrypted
+type: docs
+weight: 90
+url: /java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/
+---
+
+{{% alert color="primary" %}} 
+
+Sometimes you need to detect a file's format before opening it because the file extension does not guarantee that the file content is appropriate. The file might be encrypted (a password-protected file) so it can't be read it directly, or we should not read it. Aspose.Cells provides the [FileFormatUtil.detectFileFormat()](https://apireference.aspose.com/java/cells/com.aspose.cells/fileformatutil#detectFileFormat\(java.io.InputStream\)) static method and some relevant APIs which you can use to process documents.
+
+{{% /alert %}} 
+#### **Example**
+The following sample code illustrates how to detect a file format (using the file path) and check its extension. You can also determine whether the file is encrypted.
+
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectFileFormatandCheckFileEncrypted-DetectFileFormatandCheckFileEncrypted.java" >}}
