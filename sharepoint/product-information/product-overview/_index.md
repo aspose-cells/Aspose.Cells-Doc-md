@@ -44,7 +44,7 @@ Aspose.Cells for SharePoint is designed to be used with the following products:
 
 There are no additional system requirements beyond the products above.
 
-This documentation describes the [features](/cells/sharepoint/features-html/), [installation](/cells/sharepoint/install-aspose-cells-for-sharepoint-html/), [evaluation](/cells/sharepoint/evaluate-aspose-cells-html/), [licensing](/cells/sharepoint/license-aspose-cells-for-sharepoint-html/), common use cases and settings of Aspose.Cells for SharePoint.
+This documentation describes the [features](/cells/sharepoint/features/), [installation](/cells/sharepoint/install-aspose-cells-for-sharepoint/), [evaluation](/cells/sharepoint/evaluate-aspose-cells/), [licensing](/cells/sharepoint/license-aspose-cells-for-sharepoint/), common use cases and settings of Aspose.Cells for SharePoint.
 
 **Use Aspose.Cells for SharePoint from SharePoint’s document library to convert documents**
 
