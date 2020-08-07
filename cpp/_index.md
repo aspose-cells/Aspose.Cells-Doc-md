@@ -2,7 +2,7 @@
 title: Aspose.Cells for C++
 type: docs
 weight: 30
-url: /cpp/home/
+url: /cpp/
 is_root: true
 ---
 
