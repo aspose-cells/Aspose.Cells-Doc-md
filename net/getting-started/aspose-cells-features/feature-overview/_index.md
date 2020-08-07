@@ -38,7 +38,7 @@ Many customers worldwide rely on the thorough document import and export feature
 |Tab delimited|Load and save documents in the tab delimited file format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Plain text (TXT)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XPS document](/cells/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Convert Excel spreadsheet to XPS document|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Converting worksheet to image & worksheet to image by page](/cells/net/converting-worksheet-to-image-and-worksheet-to-image-by-page-html/)|The spreadsheets can also be exported to Tagged Image File Format (TIFF) with any desired compression types.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Converting worksheet to image & worksheet to image by page](/cells/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|The spreadsheets can also be exported to Tagged Image File Format (TIFF) with any desired compression types.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Rendering and Printing**
 Aspose.Cells for .NET now provides high fidelity rendering of spreadsheet pages.
 
