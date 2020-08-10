@@ -2,7 +2,7 @@
 title: Expanding text from right to left while exporting Excel file to HTML
 type: docs
 weight: 60
-url: /net/expanding-text-from-right-to-left-while-exporting-excel-file-to-html/
+url: /net/expanding-text-from-right-to-left-while-exporting-excel-file-to/
 ---
 
 {{% alert color="primary" %}} 

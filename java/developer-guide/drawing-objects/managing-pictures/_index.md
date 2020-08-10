@@ -29,7 +29,7 @@ Simply call the [add](https://apireference.aspose.com/java/cells/com.aspose.cell
 ### **Positioning of Pictures**
 Pictures can be positioned using Aspose.Cells as follows:
 
-- [Absolute Positioning](/cells/java/managing-pictures-html/).
+- [Absolute Positioning](/cells/java/managing-pictures/).
 #### **Absolute Positioning**
 Developers can position the pictures absolutely by using the [setUpperDeltaX](https://apireference.aspose.com/java/cells/com.aspose.cells/picture#UpperDeltaX) and [setUpperDeltaY](https://apireference.aspose.com/java/cells/com.aspose.cells/picture#UpperDeltaY) methods of the [Picture](https://apireference.aspose.com/java/cells/com.aspose.cells/Picture) object.
 

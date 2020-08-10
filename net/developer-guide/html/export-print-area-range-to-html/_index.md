@@ -2,7 +2,7 @@
 title: Export print area range to HTML
 type: docs
 weight: 60
-url: /net/export-print-area-range-to-html/
+url: /net/export-print-area-range-to/
 ---
 
 ## **Possible Usage Scenarios**

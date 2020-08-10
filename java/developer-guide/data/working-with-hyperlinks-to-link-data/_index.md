@@ -16,11 +16,11 @@ Using Aspose.Cells, developers can create different kinds of hyperlinks in Micro
 ### **Adding Hyperlinks**
 Three types of hyperlink can be added to a cell using Aspose.Cells:
 
-- [Adding a link to a URL](/cells/java/working-with-hyperlinks-to-link-data-html/).
-- [Adding a link to another cell in the same file](/cells/java/working-with-hyperlinks-to-link-data-html/).
-- [Adding a link to an external file](/cells/java/working-with-hyperlinks-to-link-data-html/).
+- [Adding a link to a URL](/cells/java/working-with-hyperlinks-to-link-data/).
+- [Adding a link to another cell in the same file](/cells/java/working-with-hyperlinks-to-link-data/).
+- [Adding a link to an external file](/cells/java/working-with-hyperlinks-to-link-data/).
 
-Aspose.Cells allows developers to add hyperlinks to Excel files either by using the API or [designer spreadsheets](/cells/java/what-is-a-designer-spreadsheet-html/) (spreadsheets where hyperlinks are created manually and Aspose.Cells is used to import them into other spreadsheets).
+Aspose.Cells allows developers to add hyperlinks to Excel files either by using the API or [designer spreadsheets](/cells/java/what-is-a-designer-spreadsheet/) (spreadsheets where hyperlinks are created manually and Aspose.Cells is used to import them into other spreadsheets).
 
 Aspose.Cells provides a class, [Workbook](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook) that represents a Microsoft Excel file. The [Workbook](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook) class contains a [WorksheetCollection](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/WorksheetCollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet) class. The [Worksheet](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet) class provides different methods for adding different hyperlinks to Excel files.
 #### **Adding Link to a URL**

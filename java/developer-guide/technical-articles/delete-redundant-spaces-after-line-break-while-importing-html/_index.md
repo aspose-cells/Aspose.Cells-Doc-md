@@ -2,7 +2,7 @@
 title: Delete redundant spaces after line break while importing HTML
 type: docs
 weight: 620
-url: /java/delete-redundant-spaces-after-line-break-while-importing-html/
+url: /java/delete-redundant-spaces-after-line-break-while-importing/
 ---
 
 {{% alert color="primary" %}} 

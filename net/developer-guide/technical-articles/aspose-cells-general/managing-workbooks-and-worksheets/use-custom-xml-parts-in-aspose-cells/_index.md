@@ -20,6 +20,6 @@ The following sample code makes use of [Workbook.ContentTypeProperties.Add()](ht
 ### **Related Article**
 {{% alert color="primary" %}} 
 
-- [Adding Custom Properties visible inside Document Information Panel](/cells/net/adding-custom-properties-visible-inside-document-information-panel-html/)
+- [Adding Custom Properties visible inside Document Information Panel](/cells/net/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}

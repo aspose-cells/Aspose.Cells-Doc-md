@@ -18,6 +18,6 @@ Aspose .NET can be used with Dynamics CRM in multiple ways. When you are working
 
 This section includes the following topics
 
-- [Update Import Tool for Dynamics CRM](/cells/net/update-import-tool-for-dynamics-crm-html/)
-  - [Extend and Contribute to CRM Update Import Tool](/cells/net/extend-and-contribute-to-crm-update-import-tool-html/)
-  - [Using and Configuring CRM Update Import Tool](/cells/net/using-and-configuring-crm-update-import-tool-html/)
+- [Update Import Tool for Dynamics CRM](/cells/net/update-import-tool-for-dynamics-crm/)
+  - [Extend and Contribute to CRM Update Import Tool](/cells/net/extend-and-contribute-to-crm-update-import-tool/)
+  - [Using and Configuring CRM Update Import Tool](/cells/net/using-and-configuring-crm-update-import-tool/)

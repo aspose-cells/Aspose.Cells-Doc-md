@@ -21,9 +21,9 @@ To add comments to cells:
 
 To remove the comments, the process is similar, with the exception that the comment is removed.
 
-The code samples below illustrate first how to [add a comment](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-html/) and then how to [remove a comment](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-html/) with either VSTO or Aspose.Cells for .NET.
+The code samples below illustrate first how to [add a comment](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/) and then how to [remove a comment](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/) with either VSTO or Aspose.Cells for .NET.
 ### **Inserting Comments**
-These code snippets show how to add a comment to a cell first with [VSTO](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-html/) (C#, VB) and then with [Aspose.Cells for .NET](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-html/) (C#, VB).
+These code snippets show how to add a comment to a cell first with [VSTO](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) and then with [Aspose.Cells for .NET](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB).
 #### **Inserting a Comment with VSTO**
 [**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017487)
 
@@ -129,7 +129,7 @@ workbook.Save(@"d:\test\Book1.xls");
 
 {{< /highlight >}}
 ### **Removing Comments**
-To remove a comment from a cell, use the following lines of code for [VSTO](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-html/) (C#, VB) and [Aspose.Cells](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-html/) for .NET (C#, VB).
+To remove a comment from a cell, use the following lines of code for [VSTO](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) and [Aspose.Cells](/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/) for .NET (C#, VB).
 #### **Removing a Comment with VSTO**
 [**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017487)
 

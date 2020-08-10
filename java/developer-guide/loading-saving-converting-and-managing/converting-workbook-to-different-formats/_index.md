@@ -77,9 +77,9 @@ The code below demonstrates how to use [HtmlSaveOptions.ImageOptions](https://ap
 ## **Converting Excel to PDF Files**
 PDF documents are widely used as a standard format of exchanging documents between organizations, government sectors, and individuals. Software developers are often asked to device a way to easily convert Microsoft Excel files into PDF documents. Aspose.Cells supports these features. This article shows how.
 ### **Converting Excel to PDF**
-Microsoft Excel to PDF conversion was introduced with Aspose.Cells for Java 2.3.0. From that release, Aspose.Cells can [convert spreadsheets to PDF directly](/cells/java/converting-workbook-to-different-formats-html/) (including [PDF/A](/cells/java/converting-workbook-to-different-formats-html/)), without another product. To convert spreadsheets with older versions of Aspose.Cells, [use Aspose.PDF for the conversion](/cells/java/converting-workbook-to-different-formats-html/).
+Microsoft Excel to PDF conversion was introduced with Aspose.Cells for Java 2.3.0. From that release, Aspose.Cells can [convert spreadsheets to PDF directly](/cells/java/converting-workbook-to-different-formats/) (including [PDF/A](/cells/java/converting-workbook-to-different-formats/)), without another product. To convert spreadsheets with older versions of Aspose.Cells, [use Aspose.PDF for the conversion](/cells/java/converting-workbook-to-different-formats/).
 
-Aspose.Cell's converts spreadsheets to PDF with a high degree of accuracy and fidelity. However, there are a few [limitations](/cells/java/converting-workbook-to-different-formats-html/), listed at the end of this article.
+Aspose.Cell's converts spreadsheets to PDF with a high degree of accuracy and fidelity. However, there are a few [limitations](/cells/java/converting-workbook-to-different-formats/), listed at the end of this article.
 
 {{% alert color="primary" %}} 
 

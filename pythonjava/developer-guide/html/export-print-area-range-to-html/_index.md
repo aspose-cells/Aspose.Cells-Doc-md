@@ -2,7 +2,7 @@
 title: Export print area range to HTML
 type: docs
 weight: 70
-url: /pythonjava/export-print-area-range-to-html/
+url: /pythonjava/export-print-area-range-to/
 ---
 
 ## **Export print area range to HTML**

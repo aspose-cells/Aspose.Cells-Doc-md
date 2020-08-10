@@ -19,10 +19,10 @@ This article discusses some data import techniques that developers have access t
 ### **Importing Data Using Aspose.Cells**
 When you open an Excel file with Aspose.Cells, all data in the file is automatically imported. Aspose.Cells can also import data from other data sources:
 
-- [Array](/cells/java/import-and-export-data-html/).
-- [Array list](/cells/java/import-and-export-data-html/).
-- [Result set](/cells/java/import-and-export-data-html/).
-- [JSON](/cells/java/import-and-export-data-html/)
+- [Array](/cells/java/import-and-export-data/).
+- [Array list](/cells/java/import-and-export-data/).
+- [Result set](/cells/java/import-and-export-data/).
+- [JSON](/cells/java/import-and-export-data/)
 
 Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook) class contains the collection [WorksheetCollection](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#Worksheets) which allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class. The [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class provides a [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Cells) collection. [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Cells) collection provides very useful methods for importing data from other data sources. This article explains how these methods can be used.
 #### **Importing from Array**

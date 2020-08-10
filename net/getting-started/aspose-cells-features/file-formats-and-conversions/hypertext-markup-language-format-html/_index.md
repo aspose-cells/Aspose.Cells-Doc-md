@@ -2,7 +2,7 @@
 title: HyperText Markup Language Format - HTML
 type: docs
 weight: 50
-url: /net/hypertext-markup-language-format-html/
+url: /net/hypertext-markup-language-format/
 ---
 
 {{% alert color="primary" %}} 

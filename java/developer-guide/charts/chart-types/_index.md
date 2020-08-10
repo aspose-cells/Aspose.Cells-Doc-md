@@ -13,12 +13,12 @@ A chart is a visual display of information. Aspose.Cells allows developers to vi
 ## **Chart Types**
 Aspose.Cells supports almost all chart types supported in Microsoft Excel. Charts are categorized into two major categories:
 
-- [Standard types](/cells/java/chart-types-html/).
-- [Custom types](/cells/java/chart-types-html/).
+- [Standard types](/cells/java/chart-types/).
+- [Custom types](/cells/java/chart-types/).
 ### **Standard Types**
 Standard charts are those normally used with standard formatting:
 
-|<p>- [Column](/cells/java/chart-types-html/)</p><p>- [Bar](/cells/java/chart-types-html/)</p><p>- [Line](/cells/java/chart-types-html/)</p><p>- [Pie](/cells/java/chart-types-html/)</p><p>- [Scatter](/cells/java/chart-types-html/)</p><p>- [Area](/cells/java/chart-types-html/)</p><p>- [Doughnut](/cells/java/chart-types-html/)</p>|<p>- [Radar](/cells/java/chart-types-html/)</p><p>- [Surface 3D](/cells/java/chart-types-html/)</p><p>- [Bubble](/cells/java/chart-types-html/)</p><p>- [Stock](/cells/java/chart-types-html/)</p><p>- [Cylinder](/cells/java/chart-types-html/)</p><p>- [Cone](/cells/java/chart-types-html/)</p><p>- [Pyramid](/cells/java/chart-types-html/)</p>|
+|<p>- [Column](/cells/java/chart-types/)</p><p>- [Bar](/cells/java/chart-types/)</p><p>- [Line](/cells/java/chart-types/)</p><p>- [Pie](/cells/java/chart-types/)</p><p>- [Scatter](/cells/java/chart-types/)</p><p>- [Area](/cells/java/chart-types/)</p><p>- [Doughnut](/cells/java/chart-types/)</p>|<p>- [Radar](/cells/java/chart-types/)</p><p>- [Surface 3D](/cells/java/chart-types/)</p><p>- [Bubble](/cells/java/chart-types/)</p><p>- [Stock](/cells/java/chart-types/)</p><p>- [Cylinder](/cells/java/chart-types/)</p><p>- [Cone](/cells/java/chart-types/)</p><p>- [Pyramid](/cells/java/chart-types/)</p>|
 | :- | :- |
 Each of the standard chart types is described in more detail below.
 #### **Column Charts**

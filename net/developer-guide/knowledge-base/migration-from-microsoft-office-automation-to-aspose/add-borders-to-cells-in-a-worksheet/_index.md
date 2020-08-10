@@ -27,7 +27,7 @@ To add borders to cells in a spreadsheet, take the following steps:
    1. Autofit the column that the cells are in to fit the text neatly.
    1. Save the document.
 
-These steps are shown in code below. The first code examples show how to implement them using [VSTO](/cells/net/add-borders-to-cells-in-a-worksheet-html/) with either C# or Visual Basic. After the VSTO examples are examples that show how to perform the same steps using [Aspose.Cells for .NET](/cells/net/add-borders-to-cells-in-a-worksheet-html/), again using either C# or Visual Basic. The Aspose.Cells code samples are a lot shorter because Aspose.Cells is optimized for efficient coding.
+These steps are shown in code below. The first code examples show how to implement them using [VSTO](/cells/net/add-borders-to-cells-in-a-worksheet/) with either C# or Visual Basic. After the VSTO examples are examples that show how to perform the same steps using [Aspose.Cells for .NET](/cells/net/add-borders-to-cells-in-a-worksheet/), again using either C# or Visual Basic. The Aspose.Cells code samples are a lot shorter because Aspose.Cells is optimized for efficient coding.
 
 The code generates an Excel file with a number of cells on the first sheet, each with a different border: 
 

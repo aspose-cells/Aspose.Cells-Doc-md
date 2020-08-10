@@ -7,4 +7,4 @@ url: /java/management-features-in-php/
 
 **This section includes the following topics:**
 
-- [Managing Worksheets in Php](/cells/java/managing-worksheets-in-php-html/)
+- [Managing Worksheets in Php](/cells/java/managing-worksheets-in-php/)

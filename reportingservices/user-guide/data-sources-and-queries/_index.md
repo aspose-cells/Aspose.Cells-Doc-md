@@ -11,7 +11,7 @@ The first step in the procedure for designing a report in Aspose.Cells.Report.De
 
 {{% /alert %}} 
 ###### **This section includes the following topics:** 
-- [Using Data Sources and Queries Created in Visual Studio](/cells/reportingservices/using-data-sources-and-queries-created-in-visual-studio-html/)
-- [Creating New Data sources and Queries](/cells/reportingservices/creating-new-data-sources-and-queries-html/)
-- [Creating New Query Using Existing Data Source](/cells/reportingservices/creating-new-query-using-existing-data-source-html/)
-- [Editing Query](/cells/reportingservices/editing-query-html/)
+- [Using Data Sources and Queries Created in Visual Studio](/cells/reportingservices/using-data-sources-and-queries-created-in-visual-studio/)
+- [Creating New Data sources and Queries](/cells/reportingservices/creating-new-data-sources-and-queries/)
+- [Creating New Query Using Existing Data Source](/cells/reportingservices/creating-new-query-using-existing-data-source/)
+- [Editing Query](/cells/reportingservices/editing-query/)

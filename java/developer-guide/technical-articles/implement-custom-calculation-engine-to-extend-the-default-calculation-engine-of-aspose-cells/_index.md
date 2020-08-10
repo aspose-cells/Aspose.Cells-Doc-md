@@ -33,6 +33,6 @@ With Custom Engine Value of A1: 50
 #### **Related Article**
 {{% alert color="primary" %}} 
 
-- [Direct calculation of custom function without writing it in a worksheet](/cells/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet-html/)
+- [Direct calculation of custom function without writing it in a worksheet](/cells/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}

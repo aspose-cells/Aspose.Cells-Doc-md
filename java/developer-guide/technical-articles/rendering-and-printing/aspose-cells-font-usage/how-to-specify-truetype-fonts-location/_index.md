@@ -9,9 +9,9 @@ url: /java/how-to-specify-truetype-fonts-location/
 
 This article describes:
 
-1. [Where the Aspose.Cells API looks for TrueType fonts](/cells/java/how-to-specify-truetype-fonts-location-html/).
-1. [How to explicitly specify a TrueType font folders for Aspose.Cells API](/cells/java/how-to-specify-truetype-fonts-location-html/).
-1. [How to restrict the Aspose.Cells API to use only one TrueType fonts location](/cells/java/how-to-specify-truetype-fonts-location-html/).
+1. [Where the Aspose.Cells API looks for TrueType fonts](/cells/java/how-to-specify-truetype-fonts-location/).
+1. [How to explicitly specify a TrueType font folders for Aspose.Cells API](/cells/java/how-to-specify-truetype-fonts-location/).
+1. [How to restrict the Aspose.Cells API to use only one TrueType fonts location](/cells/java/how-to-specify-truetype-fonts-location/).
 
 {{% /alert %}} 
 ### **Working with Fonts**

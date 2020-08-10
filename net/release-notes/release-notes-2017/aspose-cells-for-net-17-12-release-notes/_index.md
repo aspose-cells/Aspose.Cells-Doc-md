@@ -80,7 +80,7 @@ Represents the web extension shape.
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Auto Populate Smart Marker Data to Other Worksheets if Data is too Large](/cells/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [Export Worksheet CSS Separately in Output HTML](/cells/net/export-worksheet-css-separately-in-output-html/)
+- [Export Worksheet CSS Separately in Output HTML](/cells/net/export-worksheet-css-separately-in-output/)
 - [Implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal](/cells/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [Prefix Table Elements Styles with HtmlSaveOptions.TableCssId property](/cells/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Render Office Add-Ins while converting Excel to Pdf](/cells/net/render-office-add-ins-while-converting-excel-to-pdf/)

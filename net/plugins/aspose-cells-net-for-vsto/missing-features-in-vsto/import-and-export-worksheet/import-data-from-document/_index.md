@@ -25,7 +25,7 @@ Cells collection provides very useful methods to import data from different data
 
 This section has following topics:
 
-- [Importing from Array](/cells/net/importing-from-array-html/)
-- [Importing from ArrayList](/cells/net/importing-from-arraylist-html/)
-- [Importing from Custom Objects](/cells/net/importing-from-custom-objects-html/)
-- [Importing from DataTable](/cells/net/importing-from-datatable-html/)
+- [Importing from Array](/cells/net/importing-from-array/)
+- [Importing from ArrayList](/cells/net/importing-from-arraylist/)
+- [Importing from Custom Objects](/cells/net/importing-from-custom-objects/)
+- [Importing from DataTable](/cells/net/importing-from-datatable/)

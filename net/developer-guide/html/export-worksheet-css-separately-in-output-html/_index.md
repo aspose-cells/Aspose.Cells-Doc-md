@@ -2,7 +2,7 @@
 title: Export Worksheet CSS Separately in Output HTML
 type: docs
 weight: 80
-url: /net/export-worksheet-css-separately-in-output-html/
+url: /net/export-worksheet-css-separately-in-output/
 ---
 
 ## **Possible Usage Scenarios**

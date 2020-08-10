@@ -8,7 +8,6 @@ url: /java/aspose-cells-for-node-js-via-java-limitations-and-api-differences/
 ## **Public API Differences**
 The following list (with sample code segments) shows some differences between Aspose.Cells for Java and Aspose.Cells for Node.js via Java APIs.
 ### **Importing library (Package Comparisons)**
-** 
 
 **Aspose.Cells for Java**
 
@@ -18,7 +17,6 @@ The following list (with sample code segments) shows some differences between As
 
 {{< /highlight >}}
 
-** 
 
 **Aspose.Cells for Node.js via Java**
 
@@ -30,7 +28,6 @@ aspose.cells = require("aspose.cells");
 
 {{< /highlight >}}
 ### **Instantiating a new Workbook**
-** 
 
 **Aspose.Cells for Java**
 
@@ -40,7 +37,6 @@ aspose.cells = require("aspose.cells");
 
 {{< /highlight >}}
 
-** 
 
 **Aspose.Cells for Node.js via Java**
 
@@ -50,7 +46,6 @@ aspose.cells = require("aspose.cells");
 
 {{< /highlight >}}
 ### **Enums or Constants**
-** 
 
 **Aspose.Cells for Java**
 
@@ -70,7 +65,6 @@ aspose.cells = require("aspose.cells");
 
 {{< /highlight >}}
 ### **Streaming Files**
-** 
 
 **Aspose.Cells for Java**
 

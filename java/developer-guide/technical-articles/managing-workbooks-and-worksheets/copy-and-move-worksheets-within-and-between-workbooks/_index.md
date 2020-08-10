@@ -15,10 +15,10 @@ Aspose.Cells supports copying or moving worksheets within or between workbooks. 
 ### **Copying and Moving Worksheets**
 This article explains how to use Aspose.Cells to:
 
-- [Copy a worksheet within a workbook](/cells/java/copy-and-move-worksheets-within-and-between-workbooks-html/).
-- [Move a worksheet within a workbook](/cells/java/copy-and-move-worksheets-within-and-between-workbooks-html/).
-- [Copy a worksheet between workbooks](/cells/java/copy-and-move-worksheets-within-and-between-workbooks-html/).
-- [Move a worksheet between workbooks](/cells/java/copy-and-move-worksheets-within-and-between-workbooks-html/).
+- [Copy a worksheet within a workbook](/cells/java/copy-and-move-worksheets-within-and-between-workbooks/).
+- [Move a worksheet within a workbook](/cells/java/copy-and-move-worksheets-within-and-between-workbooks/).
+- [Copy a worksheet between workbooks](/cells/java/copy-and-move-worksheets-within-and-between-workbooks/).
+- [Move a worksheet between workbooks](/cells/java/copy-and-move-worksheets-within-and-between-workbooks/).
 #### **Copying a Worksheet within a Workbook**
 The initial steps are the same for all examples.
 

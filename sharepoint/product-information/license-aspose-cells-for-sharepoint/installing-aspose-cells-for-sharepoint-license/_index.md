@@ -7,7 +7,7 @@ url: /sharepoint/installing-aspose-cells-for-sharepoint-license/
 
 {{% alert color="primary" %}} 
 
-Once you are happy with your [evaluation](/cells/sharepoint/evaluate-aspose-cells-html/), [buy a license](http://www.aspose.com/purchase/default.aspx).
+Once you are happy with your [evaluation](/cells/sharepoint/evaluate-aspose-cells/), [buy a license](http://www.aspose.com/purchase/default.aspx).
 
 Before buying, make sure that you understand and agree to the license subscription terms.
 

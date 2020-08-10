@@ -94,6 +94,6 @@ If you want to use SQL Server or StateServer to hold sessions, use Session mode.
 
 Please check the following article for more help.
 
-- [Working of GridWeb when ASP.NET Session state mode is SQL Server](/cells/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server-html/)
+- [Working of GridWeb when ASP.NET Session state mode is SQL Server](/cells/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
 
 {{% /alert %}}

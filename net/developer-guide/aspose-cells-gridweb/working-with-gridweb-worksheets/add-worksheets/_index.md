@@ -24,7 +24,7 @@ The simplest way to add a worksheet to Aspose.Cells.GridWeb is to call the GridW
 
 {{% alert color="primary" %}} 
 
-The Add method returns the new worksheet's index which can be used to access the instance of this worksheet. For more details on how to access worksheets, read [Access Worksheets](/cells/net/access-worksheets-html/).
+The Add method returns the new worksheet's index which can be used to access the instance of this worksheet. For more details on how to access worksheets, read [Access Worksheets](/cells/net/access-worksheets/).
 
 {{% /alert %}} 
 ### **With Specified Sheet Name**

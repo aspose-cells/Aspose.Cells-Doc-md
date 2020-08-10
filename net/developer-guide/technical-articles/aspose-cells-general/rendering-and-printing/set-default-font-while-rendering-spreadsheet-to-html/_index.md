@@ -2,7 +2,7 @@
 title: Set Default Font while rendering spreadsheet to HTML
 type: docs
 weight: 370
-url: /net/set-default-font-while-rendering-spreadsheet-to-html/
+url: /net/set-default-font-while-rendering-spreadsheet-to/
 ---
 
 {{% alert color="primary" %}} 

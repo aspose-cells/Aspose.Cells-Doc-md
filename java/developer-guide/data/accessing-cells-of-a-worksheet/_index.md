@@ -15,8 +15,8 @@ Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/java/c
 
 We can use the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection to access cells in a worksheet. Aspose.Cells provides different basic approaches for accessing cells:
 
-1. [Using cell name](/cells/java/accessing-cells-of-a-worksheet-html/).
-1. [Using row & column index](/cells/java/accessing-cells-of-a-worksheet-html/).
+1. [Using cell name](/cells/java/accessing-cells-of-a-worksheet/).
+1. [Using row & column index](/cells/java/accessing-cells-of-a-worksheet/).
 ### **Using Cell Name**
 Developers can access any specific cell by passing its cell name to the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection of the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class.
 
@@ -37,8 +37,8 @@ This approach works in the same way as that of the first approach.
 ### **Related Articles**
 {{% alert color="primary" %}} 
 
-- [Named Ranges](/cells/java/named-ranges-html/)
-- [Create Workbook (Global) and Worksheet Scoped Named Ranges](/cells/java/create-workbook-28global-29-and-worksheet-scoped-named-ranges-html/)
+- [Named Ranges](/cells/java/named-ranges/)
+- [Create Workbook (Global) and Worksheet Scoped Named Ranges](/cells/java/create-workbook-28global-29-and-worksheet-scoped-named-ranges/)
 
 {{% /alert %}} 
 ## **Accessing Maximum Display Range of Worksheet**

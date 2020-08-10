@@ -13,8 +13,8 @@ In our previous topics, we have already provided many examples to demonstrate th
 ### **Setting Chart Data**
 There are two types of data to deal with while working on charts using Aspose.Cells as follows:
 
-- [Chart data](/cells/java/data-formatting-in-charts-html/).
-- [Category data](/cells/java/data-formatting-in-charts-html/).
+- [Chart data](/cells/java/data-formatting-in-charts/).
+- [Category data](/cells/java/data-formatting-in-charts/).
 #### **Chart Data**
 Chart data is that data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [SeriesCollection](https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection) object's [Add](https://apireference.aspose.com/java/cells/com.aspose.cells/seriescollection#add\(java.lang.Object\)) method.
 

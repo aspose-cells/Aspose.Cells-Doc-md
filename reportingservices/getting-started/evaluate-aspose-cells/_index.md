@@ -7,7 +7,7 @@ url: /reportingservices/evaluate-aspose-cells/
 
 {{% alert color="primary" %}} 
 
-You can easily download Aspose.Cells for Reporting Services for evaluation from the [download page](http://www.aspose.com/community/files/52/ssrs-rendering-extensions/aspose.cells-for-reporting-services/default.aspx). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after [applying a license](/cells/reportingservices/licensing-html/).
+You can easily download Aspose.Cells for Reporting Services for evaluation from the [download page](http://www.aspose.com/community/files/52/ssrs-rendering-extensions/aspose.cells-for-reporting-services/default.aspx). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after [applying a license](/cells/reportingservices/licensing/).
 
 {{% /alert %}} 
 

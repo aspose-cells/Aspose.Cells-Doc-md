@@ -53,11 +53,11 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 {{% alert color="primary" %}} 
 
-Please refer to [Data Sources and Queries](/cells/reportingservices/data-sources-and-queries-html/) to learn more about how to create a data source and dataset with Aspose.Cells.Report.Designer.
+Please refer to [Data Sources and Queries](/cells/reportingservices/data-sources-and-queries/) to learn more about how to create a data source and dataset with Aspose.Cells.Report.Designer.
 
 {{% /alert %}} 
 
-1. Create a table report according to the instruction in [Creating Tabular Report](/cells/reportingservices/creating-tabular-report-html/), as shown below.
+1. Create a table report according to the instruction in [Creating Tabular Report](/cells/reportingservices/creating-tabular-report/), as shown below.
    The table will be the data source for the pivot table. 
 
 ![todo:image_alt_text](working-with-pivottable_1.png)

@@ -7,4 +7,4 @@ url: /java/page-setup-features-in-ruby/
 
 **This section includes the following topics:**
 
-- [Setting Page Options in Ruby](/cells/java/setting-page-options-in-ruby-html/)
+- [Setting Page Options in Ruby](/cells/java/setting-page-options-in-ruby/)

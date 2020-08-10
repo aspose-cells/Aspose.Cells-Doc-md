@@ -33,4 +33,4 @@ Please see the following sample code to find how to identify merged cell areas i
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectMergedCells-DetectMergedCells.java" >}}
 #### **Related Articles**
-- [Merging and splitting cells](/cells/java/merging-and-unmerging-cells-html/).
+- [Merging and splitting cells](/cells/java/merging-and-unmerging-cells/).

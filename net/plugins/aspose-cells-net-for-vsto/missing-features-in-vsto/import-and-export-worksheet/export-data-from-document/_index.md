@@ -13,5 +13,5 @@ Developers can easily export their worksheet data to a DataTable object by calli
 
 This section has following topics:
 
-- [Columns Containing Non-Strongly Typed Data](/cells/net/columns-containing-non-strongly-typed-data-html/)
-- [Columns Containing Strongly Typed Data](/cells/net/columns-containing-strongly-typed-data-html/)
+- [Columns Containing Non-Strongly Typed Data](/cells/net/columns-containing-non-strongly-typed-data/)
+- [Columns Containing Strongly Typed Data](/cells/net/columns-containing-strongly-typed-data/)

@@ -10,12 +10,12 @@ In [Chart Types](/cells/java/chart-types/), we gave a brief introduction to the 
 
 In this article, we discuss how to customize the appearance of charts by setting a number of different properties:
 
-- [Setting the chart area](/cells/java/chart-formatting-html/).
-- [Setting chart lines](/cells/java/chart-formatting-html/).
-- [Applying themes](/cells/java/chart-formatting-html/).
-- [Setting titles to charts and axes](/cells/java/chart-formatting-html/).
-- [Working with gridlines](/cells/java/chart-formatting-html/).
-- [Setting borders for back and side walls](/cells/java/chart-formatting-html/).
+- [Setting the chart area](/cells/java/chart-formatting/).
+- [Setting chart lines](/cells/java/chart-formatting/).
+- [Applying themes](/cells/java/chart-formatting/).
+- [Setting titles to charts and axes](/cells/java/chart-formatting/).
+- [Working with gridlines](/cells/java/chart-formatting/).
+- [Setting borders for back and side walls](/cells/java/chart-formatting/).
 ### **Setting Chart Area**
 There are different kinds of areas in a chart and Aspose.Cells provides the flexibility of modifying the appearance of each area. Developers can apply different formatting settings on an area by changing its foreground color, background color and fill format etc.
 

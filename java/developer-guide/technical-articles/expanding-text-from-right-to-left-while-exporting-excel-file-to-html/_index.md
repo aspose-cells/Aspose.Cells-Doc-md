@@ -2,7 +2,7 @@
 title: Expanding text from right to left while exporting Excel file to HTML
 type: docs
 weight: 820
-url: /java/expanding-text-from-right-to-left-while-exporting-excel-file-to-html/
+url: /java/expanding-text-from-right-to-left-while-exporting-excel-file-to/
 ---
 
 {{% alert color="primary" %}} 

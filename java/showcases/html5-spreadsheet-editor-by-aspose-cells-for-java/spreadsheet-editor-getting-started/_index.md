@@ -200,6 +200,6 @@ We are using one of the most liberal open source licenses for minimum liabilitie
 
 **Aspose License**
 
-The product works without Aspose license, [with limitations](/cells/java/licensing-html/). To remove limitations, you can acquire a [free temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx) or [buy full license](http://www.aspose.com/purchase/default.aspx).
+The product works without Aspose license, [with limitations](/cells/java/licensing/). To remove limitations, you can acquire a [free temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx) or [buy full license](http://www.aspose.com/purchase/default.aspx).
 
 By default, the editor will try to load **Aspose.Total.Java.lic** file from **src/main/resources/com/aspose/spreadsheeteditor** directory. Just copy the license file to this directory. The default behavior can be changed by editing the **AsposeLicense** class.

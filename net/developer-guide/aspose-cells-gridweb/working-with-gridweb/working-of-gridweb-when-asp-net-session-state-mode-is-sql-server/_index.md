@@ -18,4 +18,4 @@ You will set the GridWeb.SessionMode to SessionMode.Session and use the follow
 
 {{< /highlight >}}
 ## **Reference Article**
-- [Enable Different GridWeb Modes](/cells/net/enable-different-gridweb-modes-html/)
+- [Enable Different GridWeb Modes](/cells/net/enable-different-gridweb-modes/)

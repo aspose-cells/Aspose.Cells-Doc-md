@@ -14,10 +14,10 @@ This topic discusses what types of hyperlinks are supported in Aspose.Cells.Grid
 ### **Types of Hyperlinks**
 Generally,the following hyperlinks are supported by Aspose.Cells.GridWeb:
 
-- [URL hyperlinks](/cells/net/manage-hyperlinks-in-worksheet-html/), hyperlinks that can be linked to web URLs.
-- [Text hyperlinks](/cells/net/manage-hyperlinks-in-worksheet-html/), URL hyperlinks applied to text.
-- [Image hyperlinks](/cells/net/manage-hyperlinks-in-worksheet-html/), URL hyperlinks applied to images.
-- [Cell command hyperlinks](/cells/net/manage-hyperlinks-in-worksheet-html/), hyperlinks that post data to a server. Such hyperlinks act more like a button that triggers a server-side event when clicked.
+- [URL hyperlinks](/cells/net/manage-hyperlinks-in-worksheet/), hyperlinks that can be linked to web URLs.
+- [Text hyperlinks](/cells/net/manage-hyperlinks-in-worksheet/), URL hyperlinks applied to text.
+- [Image hyperlinks](/cells/net/manage-hyperlinks-in-worksheet/), URL hyperlinks applied to images.
+- [Cell command hyperlinks](/cells/net/manage-hyperlinks-in-worksheet/), hyperlinks that post data to a server. Such hyperlinks act more like a button that triggers a server-side event when clicked.
 
 The below sections describe the use of all types of hyperlinks in detail. It also discusses how to access or remove links.
 ### **Adding Hyperlinks**

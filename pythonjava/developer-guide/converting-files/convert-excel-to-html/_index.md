@@ -2,7 +2,7 @@
 title: Convert Excel to HTML
 type: docs
 weight: 10
-url: /pythonjava/convert-excel-to-html/
+url: /pythonjava/convert-excel-to/
 ---
 
 ## **Convert Excel to HTML**

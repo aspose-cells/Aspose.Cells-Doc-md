@@ -7,7 +7,7 @@ url: /net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-fi
 
 {{% alert color="primary" %}} 
 
-Sometimes, you want to specify which kind of data should be loaded when building the workbook from the template file. Filtering loaded data can improve the performance for your special purpose, especially when using [LightCells APIs](/cells/net/using-lightcells-api-html/). Please use the [LoadOptions.LoadFilter](https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter) property for this purpose.
+Sometimes, you want to specify which kind of data should be loaded when building the workbook from the template file. Filtering loaded data can improve the performance for your special purpose, especially when using [LightCells APIs](/cells/net/using-lightcells-api/). Please use the [LoadOptions.LoadFilter](https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter) property for this purpose.
 
 {{% /alert %}} 
 

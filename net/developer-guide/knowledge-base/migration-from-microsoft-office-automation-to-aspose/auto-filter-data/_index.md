@@ -22,7 +22,7 @@ To apply auto-filtering to a column:
 1. Auto-fit columns to make the display attractive.
 1. Save the spreadsheet.
 
-The code samples in this article show how to perform these steps using [VSTO](/cells/net/auto-filter-data-html/) with either C# or Visual Basic, or using [Apose.Cells](/cells/net/auto-filter-data-html/), again with either C# or Visual Basic.
+The code samples in this article show how to perform these steps using [VSTO](/cells/net/auto-filter-data/) with either C# or Visual Basic, or using [Apose.Cells](/cells/net/auto-filter-data/), again with either C# or Visual Basic.
 #### **Auto-filtering Data with VSTO**
 [**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017443)
 

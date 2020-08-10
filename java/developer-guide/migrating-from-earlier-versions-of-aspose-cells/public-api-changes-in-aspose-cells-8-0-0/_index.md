@@ -55,7 +55,7 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Optimizing Memory while Working with Large File](/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets-html/)s.
+Please check the detailed article on [Optimizing Memory while Working with Large File](/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)s.
 
 {{% /alert %}}
 ### **Implementations of Row & Cell has changed**

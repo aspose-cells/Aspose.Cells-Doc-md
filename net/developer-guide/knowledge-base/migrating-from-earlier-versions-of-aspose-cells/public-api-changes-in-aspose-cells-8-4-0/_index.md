@@ -7,12 +7,12 @@ url: /net/public-api-changes-in-aspose-cells-8-4-0/
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.3.2 to 8.4.0 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/net/public-api-changes-in-aspose-cells-8-4-0-html/) and [removed classes etc.](/cells/net/public-api-changes-in-aspose-cells-8-4-0-html/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.3.2 to 8.4.0 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/net/public-api-changes-in-aspose-cells-8-4-0/) and [removed classes etc.](/cells/net/public-api-changes-in-aspose-cells-8-4-0/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Mechanism to Modify the VBA/Macro Code in Spreadsheets**
-In order to provide the feature of [VBA/Macro Code Manipulation](/cells/net/modifying-vba-or-macro-code-using-aspose-cells-html/), the Aspose.Cells for .NET 8.4.0 has exposed a series of new classes and properties in the Aspose.Cells.Vba namespace. A few of the important details of these new classes are as follow.
+In order to provide the feature of [VBA/Macro Code Manipulation](/cells/net/modifying-vba-or-macro-code-using-aspose-cells/), the Aspose.Cells for .NET 8.4.0 has exposed a series of new classes and properties in the Aspose.Cells.Vba namespace. A few of the important details of these new classes are as follow.
 
 - VbaProject class can be used to fetch the VBA project from a given spreadsheet.
 - VbaModuleCollection class represents the collection of VBA modules that are part of a given VbaProject.

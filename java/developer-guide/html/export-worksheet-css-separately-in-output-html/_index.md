@@ -2,7 +2,7 @@
 title: Export Worksheet CSS Separately in Output HTML
 type: docs
 weight: 80
-url: /java/export-worksheet-css-separately-in-output-html/
+url: /java/export-worksheet-css-separately-in-output/
 ---
 
 ## **Possible Usage Scenarios**

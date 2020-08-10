@@ -2,7 +2,7 @@
 title: Delete redundant spaces after line break while importing Html
 type: docs
 weight: 20
-url: /net/delete-redundant-spaces-after-line-break-while-importing-html/
+url: /net/delete-redundant-spaces-after-line-break-while-importing/
 ---
 
 {{% alert color="primary" %}} 

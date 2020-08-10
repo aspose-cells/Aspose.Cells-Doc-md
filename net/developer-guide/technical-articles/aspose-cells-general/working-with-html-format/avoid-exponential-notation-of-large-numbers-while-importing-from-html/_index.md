@@ -2,7 +2,7 @@
 title: Avoid exponential notation of large numbers while importing from Html
 type: docs
 weight: 10
-url: /net/avoid-exponential-notation-of-large-numbers-while-importing-from-html/
+url: /net/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
 
 {{% alert color="primary" %}} 

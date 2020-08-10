@@ -116,7 +116,7 @@ End Sub
 
 {{< /highlight >}}
 #### **Load Data from Database and Binding**
-As described in [Binding Worksheet to a DataSet using GridWebs Worksheets Designer](/cells/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer-html/),
+As described in [Binding Worksheet to a DataSet using GridWebs Worksheets Designer](/cells/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
 you need to add code to the Page_Load block to load data to the DataSet from a database, and bind the DataSet to the sheet in the 
 
 next step. 

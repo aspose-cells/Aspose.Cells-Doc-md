@@ -43,9 +43,9 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 
-Please refer to [Data Sources and Queries](/cells/reportingservices/data-sources-and-queries-html/) to learn more about how to create a data source and dataset in Aspose.Cells.Report.Designer.
+Please refer to [Data Sources and Queries](/cells/reportingservices/data-sources-and-queries/) to learn more about how to create a data source and dataset in Aspose.Cells.Report.Designer.
 
-1. Create a tabular report according to the instructions in [Creating Tabular Report](/cells/reportingservices/creating-tabular-report-html/). The report we've created for this example is below. The table is the chart's data source. 
+1. Create a tabular report according to the instructions in [Creating Tabular Report](/cells/reportingservices/creating-tabular-report/). The report we've created for this example is below. The table is the chart's data source. 
 
 ![todo:image_alt_text](working-with-charts_1.png)
 

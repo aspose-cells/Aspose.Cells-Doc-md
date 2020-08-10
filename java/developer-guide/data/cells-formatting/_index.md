@@ -171,7 +171,7 @@ The following output is generated when executing the code.
 
 {{% /alert %}} 
 ## **Formatting Selected Characters in a Cell**
-[Dealing with Font Settings](/cells/java/dealing-with-font-settings-html/) explained how to format cells but only how to format the content of the entire cells. What if you want to format only selected characters?
+[Dealing with Font Settings](/cells/java/dealing-with-font-settings/) explained how to format cells but only how to format the content of the entire cells. What if you want to format only selected characters?
 
 Aspose.Cells supports this feature. This topic explains how to use this feature.
 ### **Formatting Selected Characters**

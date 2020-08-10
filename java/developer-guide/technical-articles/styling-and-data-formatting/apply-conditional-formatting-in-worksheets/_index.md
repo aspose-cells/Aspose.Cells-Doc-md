@@ -19,8 +19,8 @@ This article shows how to create a console application, add conditional formatti
 ### **Working with Conditional Formatting**
 This article works through the following tasks:
 
-1. [Using Aspose.Cells to apply conditional formatting based on cell value](/cells/java/apply-conditional-formatting-in-worksheets-html/).
-1. [Using Aspose.Cells to apply conditional formatting based on a formula](/cells/java/apply-conditional-formatting-in-worksheets-html/).
+1. [Using Aspose.Cells to apply conditional formatting based on cell value](/cells/java/apply-conditional-formatting-in-worksheets/).
+1. [Using Aspose.Cells to apply conditional formatting based on a formula](/cells/java/apply-conditional-formatting-in-worksheets/).
 #### **Task 1: Using Aspose.Cells to Apply Conditional Formatting Based on Cell Value**
 1. **Download and install Aspose.Cells.zip**:
    1. [Download](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) Aspose.Cells for Java.

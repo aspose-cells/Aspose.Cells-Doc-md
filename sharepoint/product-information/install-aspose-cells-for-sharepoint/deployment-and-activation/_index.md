@@ -7,7 +7,7 @@ url: /sharepoint/deployment-and-activation/
 
 {{% alert color="primary" %}} 
 
-[Installing Aspose.Cells for SharePoint](/cells/sharepoint/installing-aspose-cells-for-sharepoint-html/) walks you through the installation process. This article explains what the installation process is deployed and activated.
+[Installing Aspose.Cells for SharePoint](/cells/sharepoint/installing-aspose-cells-for-sharepoint/) walks you through the installation process. This article explains what the installation process is deployed and activated.
 
 {{% /alert %}} 
 ### **Deployment**

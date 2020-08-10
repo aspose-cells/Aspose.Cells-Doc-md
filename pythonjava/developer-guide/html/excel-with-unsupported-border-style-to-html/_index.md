@@ -2,7 +2,7 @@
 title: Excel with unsupported border style to HTML
 type: docs
 weight: 80
-url: /pythonjava/excel-with-unsupported-border-style-to-html/
+url: /pythonjava/excel-with-unsupported-border-style-to/
 ---
 
 ## **Excel with unsupported border style to HTML**

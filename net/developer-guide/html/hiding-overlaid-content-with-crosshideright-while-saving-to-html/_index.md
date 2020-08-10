@@ -2,7 +2,7 @@
 title: Hiding Overlaid Content with CrossHideRight while saving to Html
 type: docs
 weight: 100
-url: /net/hiding-overlaid-content-with-crosshideright-while-saving-to-html/
+url: /net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 ---
 
 ## **Possible Usage Scenarios**

@@ -2,7 +2,7 @@
 title: Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML
 type: docs
 weight: 1070
-url: /java/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to-html/
+url: /java/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/
 ---
 
 ## **Possible Usage Scenarios**

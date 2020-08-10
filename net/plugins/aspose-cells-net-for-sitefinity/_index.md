@@ -25,5 +25,5 @@ Aspose.Cells for .NET supports XSL, XSLX, OpenOffice and many other formats.
 #### **Aspose.Cells for .NET Plugins**
 This section has the following topics:
 
-- [Aspose.Cells Forms for Sitefinity](/cells/net/aspose-cells-forms-for-sitefinity-html/)
-- [Sitefinity Export Users to Excel](/cells/net/sitefinity-export-users-to-excel-html/)
+- [Aspose.Cells Forms for Sitefinity](/cells/net/aspose-cells-forms-for-sitefinity/)
+- [Sitefinity Export Users to Excel](/cells/net/sitefinity-export-users-to-excel/)

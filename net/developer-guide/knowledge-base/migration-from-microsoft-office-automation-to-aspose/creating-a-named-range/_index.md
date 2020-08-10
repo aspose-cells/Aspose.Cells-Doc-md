@@ -28,7 +28,7 @@ To create a named range:
    1. Name the range.
 1. Save the file.
 
-The code examples below show how to perform these steps using [VSTO](/cells/net/creating-a-named-range-html/) with either C# or Visual Basic. The code examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/creating-a-named-range-html/), again with either C# or Visual Basic.
+The code examples below show how to perform these steps using [VSTO](/cells/net/creating-a-named-range/) with either C# or Visual Basic. The code examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/creating-a-named-range/), again with either C# or Visual Basic.
 #### **Creating a Named Range with VSTO**
 [**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017463)
 

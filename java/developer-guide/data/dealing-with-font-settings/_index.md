@@ -23,14 +23,14 @@ Aspose.Cells provides the [Cell](https://apireference.aspose.com/java/cells/com.
 
 This article shows how to:
 
-- [Apply a specific font to text.](/cells/java/dealing-with-font-settings-html/)
-- [Set text to bold](/cells/java/dealing-with-font-settings-html/).
-- [Set the font size](/cells/java/dealing-with-font-settings-html/).
-- [Set the font color](/cells/java/dealing-with-font-settings-html/).
-- [Underline text](/cells/java/dealing-with-font-settings-html/).
-- [Strikeout text](/cells/java/dealing-with-font-settings-html/).
-- [Set text to subscript](/cells/java/dealing-with-font-settings-html/).
-- [Set text to superscript](/cells/java/dealing-with-font-settings-html/).
+- [Apply a specific font to text.](/cells/java/dealing-with-font-settings/)
+- [Set text to bold](/cells/java/dealing-with-font-settings/).
+- [Set the font size](/cells/java/dealing-with-font-settings/).
+- [Set the font color](/cells/java/dealing-with-font-settings/).
+- [Underline text](/cells/java/dealing-with-font-settings/).
+- [Strikeout text](/cells/java/dealing-with-font-settings/).
+- [Set text to subscript](/cells/java/dealing-with-font-settings/).
+- [Set text to superscript](/cells/java/dealing-with-font-settings/).
 #### **Setting Font Name**
 Apply a specific font to text in cells using the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setName](https://apireference.aspose.com/java/cells/com.aspose.cells/font#Name) property.
 

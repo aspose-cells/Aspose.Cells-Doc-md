@@ -11,7 +11,7 @@ In our previous topic, we have discussed about accessing cells of a worksheet. I
 
 {{% /alert %}} 
 ## **Access and Modify Cell Value using Aspose.Cells.GridDesktop**
-Before accessing and modifying the value of a cell, we should know that how to access cells. There are three approaches to access cells of a worksheet. For more details about these three approaches, please [Accessing Cells in a Worksheet.](/cells/net/accessing-cells-in-a-worksheet-html/)
+Before accessing and modifying the value of a cell, we should know that how to access cells. There are three approaches to access cells of a worksheet. For more details about these three approaches, please [Accessing Cells in a Worksheet.](/cells/net/accessing-cells-in-a-worksheet/)
 
 Each cell has a property named Value . So, once a cell is accessed, developers can access and modify the contents of the Value property in order to access and change the value of a cell.
 

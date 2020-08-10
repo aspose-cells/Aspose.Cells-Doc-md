@@ -20,6 +20,6 @@ You can create report parameters and map query parameters to the corresponding r
 
 {{% /alert %}} 
 ###### **This section includes the following topics:** 
-- [Creating Report Parameters](/cells/reportingservices/creating-report-parameters-html/)
-- [Modifying Report Parameters](/cells/reportingservices/modifying-report-parameters-html/)
-- [Mapping Query Parameters to Report Parameters](/cells/reportingservices/mapping-query-parameters-to-report-parameters-html/)
+- [Creating Report Parameters](/cells/reportingservices/creating-report-parameters/)
+- [Modifying Report Parameters](/cells/reportingservices/modifying-report-parameters/)
+- [Mapping Query Parameters to Report Parameters](/cells/reportingservices/mapping-query-parameters-to-report-parameters/)

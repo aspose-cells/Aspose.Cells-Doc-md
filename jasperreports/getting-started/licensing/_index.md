@@ -15,12 +15,12 @@ The license is available for download from the order page when the order has bee
 
 There are two ways to apply a license:
 
-- [Call setLicense](/cells/jasperreports/licensing-html/)
-- [Set an exporter parameter in applicationContext.xml](/cells/jasperreports/licensing-html/)
+- [Call setLicense](/cells/jasperreports/licensing/)
+- [Set an exporter parameter in applicationContext.xml](/cells/jasperreports/licensing/)
 
 After installing the license,
 
-- [Verify that it works](/cells/jasperreports/licensing-html/).
+- [Verify that it works](/cells/jasperreports/licensing/).
 
 {{% /alert %}} 
 ### **Call setLicense**

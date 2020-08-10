@@ -8,13 +8,13 @@ url: /java/using-smart-markers/
 ## **Introduction**
 {{% alert color="primary" %}} 
 
-**Smart markers** are used to let Aspose.Cells know what information to place in a Microsoft Excel [designer spreadsheet](/cells/java/what-is-a-designer-spreadsheet-html/). Smart markers allow you to create templates that contain only relevant information and formatting.
+**Smart markers** are used to let Aspose.Cells know what information to place in a Microsoft Excel [designer spreadsheet](/cells/java/what-is-a-designer-spreadsheet/). Smart markers allow you to create templates that contain only relevant information and formatting.
 
 {{% /alert %}} 
 ## **Designer Spreadsheet & Smart Markers**
 Designer spreadsheets are standard Excel files that contain visual formatting, formulas and smart markers. They can contain smart markers that reference one or more data source, such as information from a project and information for related contacts. Smart markers are written into the cells where you want information.
 
-All smart markers start with &=. An example of a data marker is &=Party.FullName. If the data marker results in more than one item, for example, a complete row, then the following rows are moved down automatically to make room for the new information. Thus sub-totals and totals can be placed on the row immediately after the data marker to make calculations based on inserted data. To make calculations on the inserted rows, use [**dynamic formulas**](/cells/java/using-smart-markers-html/).
+All smart markers start with &=. An example of a data marker is &=Party.FullName. If the data marker results in more than one item, for example, a complete row, then the following rows are moved down automatically to make room for the new information. Thus sub-totals and totals can be placed on the row immediately after the data marker to make calculations based on inserted data. To make calculations on the inserted rows, use [**dynamic formulas**](/cells/java/using-smart-markers/).
 
 Smart markers consist of the **data source** and **field name** parts for most information. Special information may also be passed with variables and variable arrays. Variables always fill only one cell whereas variable arrays may fill several. Only use one data marker per cell. Unused smart markers are removed.
 
@@ -150,4 +150,4 @@ Sometimes, it may be required to get the notifications about the cell reference 
 
 For sample code and detail explanation, please see this article.
 
-- [Getting Notifications while Merging Data with Smart Markers](/cells/java/getting-notifications-while-merging-data-with-smart-markers-html/)
+- [Getting Notifications while Merging Data with Smart Markers](/cells/java/getting-notifications-while-merging-data-with-smart-markers/)

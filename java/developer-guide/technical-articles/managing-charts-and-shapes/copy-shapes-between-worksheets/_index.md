@@ -19,9 +19,9 @@ This document is designed to provide the developers with a detailed understandin
 ### **Copying Shapes**
 This article explains how to:
 
-- [Copy a picture from one worksheet to another](/cells/java/copy-shapes-between-worksheets-html/).
-- [Copy a chart from one worksheet to another](/cells/java/copy-shapes-between-worksheets-html/).
-- [Copy controls and other drawing objects from one worksheet to another](/cells/java/copy-shapes-between-worksheets-html/).
+- [Copy a picture from one worksheet to another](/cells/java/copy-shapes-between-worksheets/).
+- [Copy a chart from one worksheet to another](/cells/java/copy-shapes-between-worksheets/).
+- [Copy controls and other drawing objects from one worksheet to another](/cells/java/copy-shapes-between-worksheets/).
 #### **Copying a Picture from one Worksheet to Another**
 ##### **Step 1: Creating a workbook with picture and chart in Microsoft Excel**
 1. Created a new workbook in Microsoft Excel.

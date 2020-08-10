@@ -2,7 +2,7 @@
 title: Prevent Exporting Hidden Worksheet Contents on Saving to HTML
 type: docs
 weight: 210
-url: /net/prevent-exporting-hidden-worksheet-contents-on-saving-to-html/
+url: /net/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 ---
 
 {{% alert color="primary" %}} 

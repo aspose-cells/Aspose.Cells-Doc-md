@@ -7,7 +7,7 @@ url: /reportingservices/adding-report-parameters-to-report/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells' report template supports Reporting Services report parameters as a data source for cells that contains a Reporting Services parameter marker. Please refer to [Aspose.Cells Template and Smart Markers](/cells/reportingservices/aspose-cells-template-and-smart-markers-html/) to learn about Reporting Services parameter markers. Report parameters are normally placed in the text area of table header or footer.
+Aspose.Cells' report template supports Reporting Services report parameters as a data source for cells that contains a Reporting Services parameter marker. Please refer to [Aspose.Cells Template and Smart Markers](/cells/reportingservices/aspose-cells-template-and-smart-markers/) to learn about Reporting Services parameter markers. Report parameters are normally placed in the text area of table header or footer.
 
 {{% /alert %}} 
 ### **Adding a Report Parameter**

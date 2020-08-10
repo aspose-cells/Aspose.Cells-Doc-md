@@ -15,7 +15,7 @@ To edit a formula in a Microsoft Excel cell:
 
 1. In Microsoft Excel, select a cell.
 1. Open the Edit Formula dialog by clicking **Edit Formula** on the tool bar.
-   ([Adding Reporting Services Formulas](/cells/reportingservices/adding-reporting-services-formulas-html/) walks through an example that edits a formula.)
+   ([Adding Reporting Services Formulas](/cells/reportingservices/adding-reporting-services-formulas/) walks through an example that edits a formula.)
    The dialog is divided into section: the edit area at the top, and the formula area at the bottom. Use the formula area to populate the edit area.
 1. Select a category (user, parameters, fields etc.) from the **Report Fields** list (the left-hand list).
 1. Select the type from the **Functions** list (in the middle).
@@ -50,6 +50,6 @@ The dialog has several controls:
 
 Related topics:
 
-- [Formula List](/cells/reportingservices/formula-list-html/) - a list of fields and operators.
+- [Formula List](/cells/reportingservices/formula-list/) - a list of fields and operators.
 
 {{% /alert %}}

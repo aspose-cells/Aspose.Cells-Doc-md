@@ -23,7 +23,7 @@ When data is imported from a DataView object, a new worksheet is created to hold
 
 ![todo:image_alt_text](import-dataview-to-gridweb_1.png)
 
-The widths of the columns are adjusted to show all the data they contain. When the data is imported from DataView, column widths are not adjusted automatically. Users need to adjust them by themselves. To adjust the column widths programmatically, refer to [Resize Rows and Columns](/cells/net/resize-rows-and-columns-html/).
+The widths of the columns are adjusted to show all the data they contain. When the data is imported from DataView, column widths are not adjusted automatically. Users need to adjust them by themselves. To adjust the column widths programmatically, refer to [Resize Rows and Columns](/cells/net/resize-rows-and-columns/).
 
 
 

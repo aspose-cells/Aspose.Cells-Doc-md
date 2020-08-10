@@ -7,5 +7,5 @@ url: /java/security-features-in-ruby/
 
 **This section includes the following topics:**
 
-- [Protecting Worksheets in Ruby](/cells/java/protecting-worksheets-in-ruby-html/)
-- [Unprotect a Worksheet in Ruby](/cells/java/unprotect-a-worksheet-in-ruby-html/)
+- [Protecting Worksheets in Ruby](/cells/java/protecting-worksheets-in-ruby/)
+- [Unprotect a Worksheet in Ruby](/cells/java/unprotect-a-worksheet-in-ruby/)

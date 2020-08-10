@@ -7,4 +7,4 @@ url: /java/management-features-in-ruby/
 
 **This section includes the following topics:**
 
-- [Managing Worksheets in Ruby](/cells/java/managing-worksheets-in-ruby-html/)
+- [Managing Worksheets in Ruby](/cells/java/managing-worksheets-in-ruby/)

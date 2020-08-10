@@ -39,7 +39,7 @@ Drag and drop the Aspose.Cells.GridWeb control from the Visual Studio toolbox to
 
 {{% alert color="primary" %}} 
 
-To learn how to add Aspose.Cells Grid controls to the Visual Studio Toolbox, please read [Integrate Aspose.Cells.Grid Controls with Visual Studio.NET](/cells/net/integrate-aspose-cells-grid-controls-with-visual-studio-net-html/).
+To learn how to add Aspose.Cells Grid controls to the Visual Studio Toolbox, please read [Integrate Aspose.Cells.Grid Controls with Visual Studio.NET](/cells/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/).
 
 {{% /alert %}} 
 

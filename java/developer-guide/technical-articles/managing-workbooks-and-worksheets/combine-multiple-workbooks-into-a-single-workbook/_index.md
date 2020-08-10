@@ -48,6 +48,6 @@ The following code snippet shows how to combine multiple workbooks into a single
 ### **Additional Resources**
 {{% alert color="primary" %}} 
 
-You may find the [Combine Multiple Worksheets into a Single Worksheet](/cells/java/combine-multiple-worksheets-into-a-single-worksheet-html/) article useful for more information.
+You may find the [Combine Multiple Worksheets into a Single Worksheet](/cells/java/combine-multiple-worksheets-into-a-single-worksheet/) article useful for more information.
 
 {{% /alert %}}

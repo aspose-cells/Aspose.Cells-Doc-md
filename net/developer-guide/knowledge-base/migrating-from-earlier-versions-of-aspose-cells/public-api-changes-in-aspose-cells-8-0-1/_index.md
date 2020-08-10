@@ -41,6 +41,6 @@ The memory settings will not work for the default sheet automatically created by
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Optimizing Memory while Working with Large Data Sets](/cells/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets-html/)
+Please check the detailed article on [Optimizing Memory while Working with Large Data Sets](/cells/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}

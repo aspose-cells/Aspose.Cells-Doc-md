@@ -7,7 +7,7 @@ url: /java/public-api-changes-in-aspose-cells-8-4-2/
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.4.1 to 8.4.2 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-4-2-html/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.4.1 to 8.4.2 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-4-2/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**

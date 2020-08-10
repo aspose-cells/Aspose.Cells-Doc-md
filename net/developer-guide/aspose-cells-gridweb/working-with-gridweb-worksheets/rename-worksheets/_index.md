@@ -20,7 +20,7 @@ All worksheets contain a Name property that allows developers to access or modif
 
 {{% alert color="primary" %}} 
 
-For more details on how to access worksheets in Aspose.Cells.GridWeb, please refer to [Access Worksheets](/cells/net/access-worksheets-html/).
+For more details on how to access worksheets in Aspose.Cells.GridWeb, please refer to [Access Worksheets](/cells/net/access-worksheets/).
 
 {{% /alert %}} 
 

@@ -7,7 +7,7 @@ url: /java/copy-range-style-only/
 
 {{% alert color="primary" %}} 
 
-[Copy Range Data Only](/cells/java/copy-range-data-only-html/) and [Copy Range Data with Style](/cells/java/copy-range-data-with-style-html/) explained how to copy data from a range to another with or without formatting. It is also possible to copy only the formatting of the range. This article shows how.
+[Copy Range Data Only](/cells/java/copy-range-data-only/) and [Copy Range Data with Style](/cells/java/copy-range-data-with-style/) explained how to copy data from a range to another with or without formatting. It is also possible to copy only the formatting of the range. This article shows how.
 
 {{% /alert %}} 
 #### **Copy Range Style Only**

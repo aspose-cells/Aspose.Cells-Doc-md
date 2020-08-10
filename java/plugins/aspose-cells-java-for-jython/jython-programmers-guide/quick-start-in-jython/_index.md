@@ -7,4 +7,4 @@ url: /java/quick-start-in-jython/
 
 **This section includes the following topics:**
 
-- [Hello World in Jython](/cells/java/hello-world-in-jython-html/)
+- [Hello World in Jython](/cells/java/hello-world-in-jython/)

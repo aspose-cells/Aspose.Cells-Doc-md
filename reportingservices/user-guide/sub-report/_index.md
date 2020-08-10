@@ -21,5 +21,5 @@ In the example, the name of sub-report is “Sales Order Detail”. It has one p
 
 {{% /alert %}} 
 ###### **This section includes the following topics:** 
-- [Creating Table Item](/cells/reportingservices/creating-table-item-html/)
-- [Add Sub Report Item](/cells/reportingservices/add-sub-report-item-html/)
+- [Creating Table Item](/cells/reportingservices/creating-table-item/)
+- [Add Sub Report Item](/cells/reportingservices/add-sub-report-item/)

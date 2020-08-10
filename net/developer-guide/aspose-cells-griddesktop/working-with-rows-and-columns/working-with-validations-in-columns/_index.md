@@ -7,7 +7,7 @@ url: /net/working-with-validations-in-columns/
 
 {{% alert color="primary" %}} 
 
-In one of our previous topics, we have discussed about validations but that was in the context of [Validations in Worksheets](/cells/net/working-with-validations-in-worksheets-html/) (for having general information about validation and validation modes, developers can refer to this topic). In this topic, we will explain validations with respect to columns. Using this feature, it is possible for developers to apply a validation rule on any column of the worksheet. Let's discuss it in detail.
+In one of our previous topics, we have discussed about validations but that was in the context of [Validations in Worksheets](/cells/net/working-with-validations-in-worksheets/) (for having general information about validation and validation modes, developers can refer to this topic). In this topic, we will explain validations with respect to columns. Using this feature, it is possible for developers to apply a validation rule on any column of the worksheet. Let's discuss it in detail.
 
 {{% /alert %}} 
 ## **Adding Column Validation**
@@ -17,7 +17,7 @@ To add any kind of validation to a column, please follow the steps below:
 - Access any desired **Worksheet**
 - **Add** a desired **Validation** to any column
 
-**IMPORTANT:** For more information about the types of validation (or validation modes like **Is Required Validation**, **Regular Expressions Validation** and **Custom Validation**) and implementing **Custom Validation**, please refer to [Working with Validations in Worksheets.](/cells/net/working-with-validations-in-worksheets-html/)
+**IMPORTANT:** For more information about the types of validation (or validation modes like **Is Required Validation**, **Regular Expressions Validation** and **Custom Validation**) and implementing **Custom Validation**, please refer to [Working with Validations in Worksheets.](/cells/net/working-with-validations-in-worksheets/)
 
 
 

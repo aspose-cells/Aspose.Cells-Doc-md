@@ -19,7 +19,7 @@ This article compares how to create a pie chart using Office Automation and VSTO
 1. Adding a pie chart, defining the data range and chart title.
 1. Saving spreadsheet.
 
-The code samples in this article show how to add a pie chart with [VSTO](/cells/net/create-a-pie-chart-html/), using either C# or Visual Basic, compared to creating one with [Aspose.Cells](/cells/net/create-a-pie-chart-html/), again using either C# or Visual Basic.
+The code samples in this article show how to add a pie chart with [VSTO](/cells/net/create-a-pie-chart/), using either C# or Visual Basic, compared to creating one with [Aspose.Cells](/cells/net/create-a-pie-chart/), again using either C# or Visual Basic.
 #### **Creating a Pie Chart with VSTO**
 The code samples that follow show how to add a pie chart to a spreadsheet using VSTO.
 

@@ -7,7 +7,7 @@ url: /net/add-and-retrieve-data/
 
 {{% alert color="primary" %}} 
 
-In [Accessing Cells of a Worksheet](/cells/net/accessing-cells-of-a-worksheet-html/), we discussed basic approaches for accessing cells in a worksheet. This article uses one of those approaches to add different types of data to cells.
+In [Accessing Cells of a Worksheet](/cells/net/accessing-cells-of-a-worksheet/), we discussed basic approaches for accessing cells in a worksheet. This article uses one of those approaches to add different types of data to cells.
 
 {{% /alert %}} 
 ## **Adding Data to Cells**

@@ -19,7 +19,7 @@ Currently, Aspose.Cells.GridDesktop support adding three types of cell controls,
 
 All of these controls are derived from an abstract class, **CellControl**.
 
-**IMPORTANT:** If you want to add cell controls to a single cell instead of the whole column then you can refer to [Adding Cell Controls in Worksheets.](/cells/net/adding-cell-controls-in-worksheets-html/)
+**IMPORTANT:** If you want to add cell controls to a single cell instead of the whole column then you can refer to [Adding Cell Controls in Worksheets.](/cells/net/adding-cell-controls-in-worksheets/)
 ### **Adding Button**
 To add buttons into a column using Aspose.Cells.GridDesktop, please follow the steps below:
 

@@ -7,4 +7,4 @@ url: /java/introduction-in-php/
 
 **This section includes the following topics:**
 
-- [Hello World](/cells/java/hello-world-html/)
+- [Hello World](/cells/java/hello-world/)

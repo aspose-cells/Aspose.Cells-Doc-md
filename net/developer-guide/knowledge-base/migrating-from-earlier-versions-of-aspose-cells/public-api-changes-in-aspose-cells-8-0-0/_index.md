@@ -55,7 +55,7 @@ book.Settings.MemorySetting = MemorySetting.MEMORY_PREFERENCE;
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Optimizing Memory while Working with Large File](/cells/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets-html/).
+Please check the detailed article on [Optimizing Memory while Working with Large File](/cells/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
 
 {{% /alert %}}
 ### **Implementations of Row & Cell has changed**

@@ -7,7 +7,7 @@ url: /java/copy-range-data-with-style/
 
 {{% alert color="primary" %}} 
 
-[Copy Range Data Only](/cells/java/copy-range-data-only-html/) explained how to copy the data from a range of cells to another range. Aspose.Cells can also copy a range complete with formatting. This article explains how.
+[Copy Range Data Only](/cells/java/copy-range-data-only/) explained how to copy the data from a range of cells to another range. Aspose.Cells can also copy a range complete with formatting. This article explains how.
 
 {{% /alert %}} 
 #### **Copy Range Data with Style**

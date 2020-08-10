@@ -25,6 +25,6 @@ Below is the console output of the above sample code.
 #### **Related Article**
 {{% alert color="primary" %}} 
 
-- [Implement Custom Calculation Engine to extend the Default Calculation Engine of Aspose.Cells](/cells/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells-html/)
+- [Implement Custom Calculation Engine to extend the Default Calculation Engine of Aspose.Cells](/cells/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}

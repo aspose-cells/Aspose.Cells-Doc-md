@@ -9,7 +9,7 @@ url: /reportingservices/adding-reporting-services-global-variables-to-report/
 
 Aspose.Cells' report template supports Reporting Services' global variables as a data source for cells that contain a Reporting Services global variables marker. 
 
-[Aspose.Cells Template and Smart Markers](/cells/reportingservices/aspose-cells-template-and-smart-markers-html/) explains how Reporting Services Global Variables markers work. Global variables are normally placed in the text area of a table header or footer.
+[Aspose.Cells Template and Smart Markers](/cells/reportingservices/aspose-cells-template-and-smart-markers/) explains how Reporting Services Global Variables markers work. Global variables are normally placed in the text area of a table header or footer.
 
 {{% /alert %}} 
 

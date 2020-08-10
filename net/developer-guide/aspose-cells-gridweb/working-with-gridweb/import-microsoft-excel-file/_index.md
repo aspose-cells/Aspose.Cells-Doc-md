@@ -20,7 +20,7 @@ To open an Excel file using Aspose.Cells.GridWeb control:
 
 {{% alert color="primary" %}} 
 
-If you don't know how to add the control to a web form, refer to [Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form-html/).
+If you don't know how to add the control to a web form, refer to [Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form/).
 
 {{% /alert %}} 
 

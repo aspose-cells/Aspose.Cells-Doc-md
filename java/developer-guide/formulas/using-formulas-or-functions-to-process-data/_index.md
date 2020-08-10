@@ -15,14 +15,14 @@ Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/java/c
 
 It is possible to apply formulas to cells using properties and methods offered by the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class, discussed in more detail below.
 
-- [Using built-in functions](/cells/java/using-formulas-or-functions-to-process-data-html/).
-- [Using add-in functions](/cells/java/using-formulas-or-functions-to-process-data-html/).
-- [Working with array formulas](/cells/java/using-formulas-or-functions-to-process-data-html/).
-- [Creating a R1C1 formula](/cells/java/using-formulas-or-functions-to-process-data-html/).
+- [Using built-in functions](/cells/java/using-formulas-or-functions-to-process-data/).
+- [Using add-in functions](/cells/java/using-formulas-or-functions-to-process-data/).
+- [Working with array formulas](/cells/java/using-formulas-or-functions-to-process-data/).
+- [Creating a R1C1 formula](/cells/java/using-formulas-or-functions-to-process-data/).
 #### **Using Built-in Functions**
-Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/java/supported-formula-functions-html/). The functions are listed in alphabetical order. More functions will be supported in the future.
+Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/java/supported-formula-functions/). The functions are listed in alphabetical order. More functions will be supported in the future.
 
-Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/java/what-is-a-designer-spreadsheet-html/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup, and reference formulas.
+Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/java/what-is-a-designer-spreadsheet/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup, and reference formulas.
 
 Use the [Formula](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Formula) property of the [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/cell) class to add a formula to a cell. **Complex formulas**, for example
 

@@ -7,7 +7,7 @@ url: /net/resize-gridweb-and-its-header-bar/
 
 {{% alert color="primary" %}} 
 
-[Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form-html/), discussed resizing the Aspose.Cells.GridWeb control using WYSIWYG. This article explains how to do the same thing but at runtime using the Aspose.Cells.GridWeb API. It also explains how to resize the header bars of the Aspose.Cells.GridWeb control to make their data easier to read.
+[Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form/), discussed resizing the Aspose.Cells.GridWeb control using WYSIWYG. This article explains how to do the same thing but at runtime using the Aspose.Cells.GridWeb API. It also explains how to resize the header bars of the Aspose.Cells.GridWeb control to make their data easier to read.
 
 {{% /alert %}} 
 ## **Changing Width & Height of Aspose.Cells.GridWeb**

@@ -20,6 +20,6 @@ Following are the steps involved for copying and moving worksheets within or bet
 
 This section includes the following topics
 
-- [Copy Worksheets between Workbooks](/cells/net/copy-worksheets-between-workbooks-html/)
-- [Copy Worksheets within a Workbook](/cells/net/copy-worksheets-within-a-workbook-html/)
-- [Move Worksheets within Workbook](/cells/net/move-worksheets-within-workbook-html/)
+- [Copy Worksheets between Workbooks](/cells/net/copy-worksheets-between-workbooks/)
+- [Copy Worksheets within a Workbook](/cells/net/copy-worksheets-within-a-workbook/)
+- [Move Worksheets within Workbook](/cells/net/move-worksheets-within-workbook/)

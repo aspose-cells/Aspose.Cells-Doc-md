@@ -98,7 +98,7 @@ You can simply add Aspose.Cells.GridWeb (or GridWeb) control to a web page by dr
 
 {{% alert color="primary" %}} 
 
-If you don't know about how to add Aspose.Cells.GridWeb to the toolbox, refer to [Integrate Aspose.Cells Grid Controls with Visual Studio.NET](/cells/net/integrate-aspose-cells-grid-controls-with-visual-studio-net-html/). 
+If you don't know about how to add Aspose.Cells.GridWeb to the toolbox, refer to [Integrate Aspose.Cells Grid Controls with Visual Studio.NET](/cells/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
 
 {{% /alert %}} 
 

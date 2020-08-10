@@ -22,7 +22,7 @@ To add hyperlinks to cells in a spreadsheet, take the following steps:
 1. Add hyperlink.
 1. Save the document.
 
-These steps are shown in the code examples below. The first examples shows how to use [VSTO](/cells/net/add-hyperlinks-to-cells-html/) with either C# or Visual Basic to add a hyperlink to a cell. The examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/add-hyperlinks-to-cells-html/), again using C# or Visual Basic.
+These steps are shown in the code examples below. The first examples shows how to use [VSTO](/cells/net/add-hyperlinks-to-cells/) with either C# or Visual Basic to add a hyperlink to a cell. The examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/add-hyperlinks-to-cells/), again using C# or Visual Basic.
 
 The code samples generate an Excel file that has a hyperlink in cell A1 on the first worksheet. 
 

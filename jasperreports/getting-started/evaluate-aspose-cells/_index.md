@@ -7,7 +7,7 @@ url: /jasperreports/evaluate-aspose-cells/
 
 {{% alert color="primary" %}} 
 
-You can easily download Aspose.Cells for JasperReports for evaluation from the [download page](http://www.aspose.com/community/files/67/jasperreports-exporters/aspose.cells-for-jasperreports/default.aspx). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after [applying a license](/cells/jasperreports/licensing-html/).
+You can easily download Aspose.Cells for JasperReports for evaluation from the [download page](http://www.aspose.com/community/files/67/jasperreports-exporters/aspose.cells-for-jasperreports/default.aspx). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after [applying a license](/cells/jasperreports/licensing/).
 
 {{% /alert %}} 
 

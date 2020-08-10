@@ -9,9 +9,9 @@ url: /sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 
 SharePoint sites are meant for collaboration, communication and content storage in order to fulfill particular business needs. Aspose.Cells for SharePoint has been introduced to perform certain operations on Microsoft Excel documents available in SharePoint document libraries. This article covers the following:
 
-- [A brief note about SharePoint document libraries](/cells/sharepoint/aspose-cells-for-sharepoint-use-and-benefits-html/).
-- [The benefits Aspose.Cells for SharePoint](/cells/sharepoint/aspose-cells-for-sharepoint-use-and-benefits-html/).
-- [How to convert Microsoft Excel documents into other formats](/cells/sharepoint/aspose-cells-for-sharepoint-use-and-benefits-html/).
+- [A brief note about SharePoint document libraries](/cells/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
+- [The benefits Aspose.Cells for SharePoint](/cells/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
+- [How to convert Microsoft Excel documents into other formats](/cells/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 
 {{% /alert %}} 
 ### **A Brief Note on SharePoint Document Libraries**
@@ -26,8 +26,8 @@ The following list highlights a few benefits of using Aspose.Cells for SharePoin
 - The SharePoint site server does not have built-in capability to convert Microsoft Excel files directly on the server. Aspose.Cells for SharePoint adds this feature to the SharePoint site server.
 - Aspose.Cells for SharePoint does not require Microsoft Excel to work. It is installed on the server so SharePoint users do not need Microsoft Excel on their local systems to convert Microsoft Excel documents from one format to another.
 - Aspose.Cells for SharePoint does not require any pre-requisite except those required for creating a SharePoint site.
-- Aspose.Cells for SharePoint is [easy to deploy on a SharePoint site server](/cells/sharepoint/installing-aspose-cells-for-sharepoint-html/).
-- Aspose.Cells for SharePoint supports [a number of input and output formats](/cells/sharepoint/multiple-format-support-html/).
+- Aspose.Cells for SharePoint is [easy to deploy on a SharePoint site server](/cells/sharepoint/installing-aspose-cells-for-sharepoint/).
+- Aspose.Cells for SharePoint supports [a number of input and output formats](/cells/sharepoint/multiple-format-support/).
 - Aspose.Cells for SharePoint exposes a public API for developers who need to develop their own SharePoint solutions.
 ### **Converting Microsoft Excel Documents with Aspose.Cells for SharePoint**
 Once Aspose.Cells for SharePoint is installed on the SharePoint server, the option **Convert with Aspose.Cells.SharePoint** is available in the context menu: 

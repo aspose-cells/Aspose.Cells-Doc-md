@@ -7,12 +7,12 @@ url: /java/public-api-changes-in-aspose-cells-8-3-2/
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.3.1 to 8.3.2 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-3-2-html/) and [removed classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-3-2-html/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.3.1 to 8.3.2 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-3-2/) and [removed classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-3-2/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
 ### **Mechanism to Set Absolute Position of PivotItem**
-In order to provide the feature [PivotItem's Absolute Positioning](/cells/java/specifying-the-absolute-position-of-the-pivot-item-html/), the Aspose.Cells for Java 8.3.2 has exposed a series of properties and a method as listed below.
+In order to provide the feature [PivotItem's Absolute Positioning](/cells/java/specifying-the-absolute-position-of-the-pivot-item/), the Aspose.Cells for Java 8.3.2 has exposed a series of properties and a method as listed below.
 
 - PivotItem.setPosition can be used to set the position index in all the PivotItems regardless of the parent node.
 - PivotItem.setPositionInSameParentNode can be used to set the position index in the PivotItems under the same parent node.

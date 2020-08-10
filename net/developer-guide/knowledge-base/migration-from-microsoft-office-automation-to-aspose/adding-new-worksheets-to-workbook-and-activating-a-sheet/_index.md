@@ -11,7 +11,7 @@ When working with a template file, sometimes, there's a need to add extra worksh
 
 Similarly, you may need a specific worksheet to be active and viewed first when the file is opened in Microsoft Excel. An "active sheet" is the sheet that you're working on in a workbook. The name on the tab of the active sheet is bold by default.
 
-Adding worksheets and setting which sheet is active are common and simple tasks that developers need to know how to perform. In this article, we carry out these tasks using [VSTO](/cells/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-html/) and [Aspose.Cells for .NET](/cells/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-html/).
+Adding worksheets and setting which sheet is active are common and simple tasks that developers need to know how to perform. In this article, we carry out these tasks using [VSTO](/cells/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) and [Aspose.Cells for .NET](/cells/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
 ### **Adding Worksheets and Activating a Sheet**

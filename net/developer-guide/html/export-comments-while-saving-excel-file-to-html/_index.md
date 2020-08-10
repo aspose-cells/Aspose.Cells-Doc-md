@@ -2,7 +2,7 @@
 title: Export Comments while Saving Excel file to Html
 type: docs
 weight: 40
-url: /net/export-comments-while-saving-excel-file-to-html/
+url: /net/export-comments-while-saving-excel-file-to/
 ---
 
 ## **Possible Usage Scenarios**

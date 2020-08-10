@@ -6,4 +6,4 @@ url: /jasperreports/reference/
 ---
 
 ###### **This section includes the following topics:** 
-- [Configuration Parameters](/cells/jasperreports/configuration-parameters-html/)
+- [Configuration Parameters](/cells/jasperreports/configuration-parameters/)

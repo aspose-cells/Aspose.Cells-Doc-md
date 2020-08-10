@@ -13,12 +13,12 @@ Sometimes, it is necessary to configure page setup settings for worksheets to co
 
 Page setup options are fully supported in Aspose.Cells. This article explains how to set page options with Aspose.Cells and shows code samples for setting:
 
-- [Page orientation](/cells/java/page-setup-features-html/).
-- [Scaling](/cells/java/page-setup-features-html/).
-- [FitToPages settings](/cells/java/page-setup-features-html/).
-- [Paper size](/cells/java/page-setup-features-html/).
-- [Print quality](/cells/java/page-setup-features-html/).
-- [First page number](/cells/java/page-setup-features-html/).
+- [Page orientation](/cells/java/page-setup-features/).
+- [Scaling](/cells/java/page-setup-features/).
+- [FitToPages settings](/cells/java/page-setup-features/).
+- [Paper size](/cells/java/page-setup-features/).
+- [Print quality](/cells/java/page-setup-features/).
+- [First page number](/cells/java/page-setup-features/).
 ## **Setting Page Options**
 Aspose.Cells provides a class, [Workbook](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook), that represents a Microsoft Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet) class.
 

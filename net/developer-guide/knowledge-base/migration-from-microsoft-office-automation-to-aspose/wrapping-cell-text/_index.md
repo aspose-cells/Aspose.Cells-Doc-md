@@ -23,7 +23,7 @@ To create a worksheet with two cells, one with wrapped text and one without:
    1. Add wrapped text to cell A5.
 1. Save the spreadsheet.
 
-The code samples below show how to perform these steps using [VSTO](/cells/net/wrapping-cell-text-html/) with either C# or Visual Basic. Code samples that show how to do the same thing using [Aspose.Cells for .NET](/cells/net/wrapping-cell-text-html/), again using either C# or Visual Basic follow immediately after.
+The code samples below show how to perform these steps using [VSTO](/cells/net/wrapping-cell-text/) with either C# or Visual Basic. Code samples that show how to do the same thing using [Aspose.Cells for .NET](/cells/net/wrapping-cell-text/), again using either C# or Visual Basic follow immediately after.
 
 Running the code results in a spreadsheet with two cells, one that has text that hasn't been wrapped, and one that has:
 

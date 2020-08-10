@@ -11,7 +11,7 @@ A cell cannot only just contain a simple value like a numeric figure or some tex
 
 {{% /alert %}} 
 ## **Adding Formula to a Cell**
-Adding formula to a cell is just like setting the value of a cell as we have discussed in our previous topic: [Accessing & Modifying the Value of a Cell](/cells/net/accessing-and-modifying-the-value-of-a-cell-html/) except that in that case, we just added simple values to cells. Now, we will add formulas. Developers can use Value property of a cell to access & modify the formula or otherwise **SetCellValue** method of the cell can also be used to add or modify the formula in a cell.
+Adding formula to a cell is just like setting the value of a cell as we have discussed in our previous topic: [Accessing & Modifying the Value of a Cell](/cells/net/accessing-and-modifying-the-value-of-a-cell/) except that in that case, we just added simple values to cells. Now, we will add formulas. Developers can use Value property of a cell to access & modify the formula or otherwise **SetCellValue** method of the cell can also be used to add or modify the formula in a cell.
 
 **IMPORTANT:** The basic difference between using Value property or **SetCellValue** method of a cell is that Value property invokes **RunAllFormulas** method of Grid automatically to recalculate the values of all formulas where as in the case of **SetCellValue** method developers need to call **RunAllFormulas** method explicitly after the formulas are added to cells. Actually, when we use **SetCellValue** method of a cell then this method sets the value of the cell to **FormulaType** only and don't calculate the formula. Moreover, calling **RunAllFormulas** method every time is not necessary. If you want to add many formulas in the cells of a worksheet then you can call **RunAllFormulas** method just once at the end.
 
@@ -29,6 +29,6 @@ Now run the application. If you double click on the cell where formula was added
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop supports most of the commonly used functions of MS Excel. For more details about the list of supported functions, please [click here.](/cells/net/list-of-supported-functions-html/)
+Aspose.Cells.GridDesktop supports most of the commonly used functions of MS Excel. For more details about the list of supported functions, please [click here.](/cells/net/list-of-supported-functions/)
 
 {{% /alert %}}

@@ -22,7 +22,7 @@ In an Aspose.Cells report template, a matrix consists of corner, rows groups, co
 - **Matrix row groups area**: located on the lower-left corner (lower right for RTL layout). This area is automatically created when you add a row group. The cells in this area represent members of the row groups hierarchy, and display row group instance values. In the figure, these cells are nested row groups.
 - **Matrix data area**: located in the lower right corner (lower left for RTL layout). The matrix data displays detail and grouped data. In this example, only aggregated data is used. By default, the cells in a group row or column that contain simple expressions that do not include an aggregate function, evaluate to the first value in the group. In the figure, the cells display the aggregate totals for the line totals for all sales orders.
 #### **Creating a Matrix Template**
-Before creating a matrix report, create the data sources, datasets and report parameters (optional). (Follow the instructions in [Data Sources and Queries](/cells/reportingservices/data-sources-and-queries-html/) if you need assistance.) In the sample, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2008.
+Before creating a matrix report, create the data sources, datasets and report parameters (optional). (Follow the instructions in [Data Sources and Queries](/cells/reportingservices/data-sources-and-queries/) if you need assistance.) In the sample, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2008.
 
 To create a new matrix:
 

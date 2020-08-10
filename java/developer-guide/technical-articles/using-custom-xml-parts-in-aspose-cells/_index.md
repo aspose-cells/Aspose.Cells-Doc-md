@@ -23,6 +23,6 @@ The following sample code makes use of [Workbook.getContentTypeProperties().add(
 #### **Related Article**
 {{% alert color="primary" %}} 
 
-- [Adding Custom Properties visible inside Document Information Panel](/cells/java/adding-custom-properties-visible-inside-document-information-panel-html/)
+- [Adding Custom Properties visible inside Document Information Panel](/cells/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}

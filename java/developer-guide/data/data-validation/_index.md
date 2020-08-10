@@ -9,18 +9,18 @@ url: /java/data-validation/
 
 Microsoft Excel provides some good features to auto-filter or validate worksheet data.
 
-[Data validation](/cells/java/data-validation-html/) is the ability to set rules pertaining to data entered on a worksheet. For example, use validation to ensure that a column labeled DATE contains only dates, or that another column contains only numbers. You could even ensure that a column labeled DATE contains only dates within a certain range. With data validation, you can control what is entered into cells in the worksheet. Aspose.Cells fully supports Microsoft Excel's data validation and autofilter features. This article explains how to use the features in Microsoft Excel, and how to code them using Aspose.Cells.
+[Data validation](/cells/java/data-validation/) is the ability to set rules pertaining to data entered on a worksheet. For example, use validation to ensure that a column labeled DATE contains only dates, or that another column contains only numbers. You could even ensure that a column labeled DATE contains only dates within a certain range. With data validation, you can control what is entered into cells in the worksheet. Aspose.Cells fully supports Microsoft Excel's data validation and autofilter features. This article explains how to use the features in Microsoft Excel, and how to code them using Aspose.Cells.
 
 {{% /alert %}} 
 ### **Data Validation Types and Execution**
 Microsoft Excel supports a number of different types of data validation. Each type is used to control what type of data is entered into a cell, or cell range. Below, code snippets illustrate how to validate that:
 
-- [Numbers are whole](/cells/java/data-validation-html/), that is, that they don't have a decimal part.
-- [Decimal numbers follow the right structure](/cells/java/data-validation-html/). The code example defines that a range of cells should have two decimal spaces.
-- [Values are restricted to a list of values](/cells/java/data-validation-html/). List validation defines a separate list of values that can be applied to a cell, or cell range.
-- [Dates fall within a specific range](/cells/java/data-validation-html/).
-- [Time is within a specific range](/cells/java/data-validation-html/).
-- [A text is within a given character length](/cells/java/data-validation-html/).
+- [Numbers are whole](/cells/java/data-validation/), that is, that they don't have a decimal part.
+- [Decimal numbers follow the right structure](/cells/java/data-validation/). The code example defines that a range of cells should have two decimal spaces.
+- [Values are restricted to a list of values](/cells/java/data-validation/). List validation defines a separate list of values that can be applied to a cell, or cell range.
+- [Dates fall within a specific range](/cells/java/data-validation/).
+- [Time is within a specific range](/cells/java/data-validation/).
+- [A text is within a given character length](/cells/java/data-validation/).
 #### **Data Validation with Microsoft Excel**
 To create validations using Microsoft Excel:
 

@@ -2,7 +2,7 @@
 title: Avoid exponential notation of large numbers while importing from HTML
 type: docs
 weight: 600
-url: /java/avoid-exponential-notation-of-large-numbers-while-importing-from-html/
+url: /java/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
 
 {{% alert color="primary" %}} 

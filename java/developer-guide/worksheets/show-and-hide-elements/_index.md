@@ -206,7 +206,7 @@ Hide gridlines using the the Worksheet class' setGridlinesVisible(false) method.
 
 {{% alert color="primary" %}} 
 
-Gridlines are applied to the entire sheet. To 'hide' gridlines on a section of a worksheet, use [border formatting](/cells/java/create-table-by-using-border-lines-for-a-range-html/) to set the borders to a color that blends into the sheet's color scheme.
+Gridlines are applied to the entire sheet. To 'hide' gridlines on a section of a worksheet, use [border formatting](/cells/java/create-table-by-using-border-lines-for-a-range/) to set the borders to a color that blends into the sheet's color scheme.
 
 {{% /alert %}} 
 
@@ -239,6 +239,6 @@ The Book1.xls file is opened by calling the Open method of the Workbook class an
 {{% alert color="primary" %}} 
 
 - [Printing gridlines and setting other printing options](/pages/createpage.action?spaceKey=cellsjava&title=Setting+Print+Options&linkCreation=true&fromPageId=5276190).
-- [Adding borders to cells to create a table](/cells/java/create-table-by-using-border-lines-for-a-range-html/).
+- [Adding borders to cells to create a table](/cells/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}

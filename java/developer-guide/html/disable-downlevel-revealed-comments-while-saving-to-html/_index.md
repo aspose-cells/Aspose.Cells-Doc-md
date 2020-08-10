@@ -2,7 +2,7 @@
 title: Disable Downlevel Revealed Comments while saving to HTML
 type: docs
 weight: 20
-url: /java/disable-downlevel-revealed-comments-while-saving-to-html/
+url: /java/disable-downlevel-revealed-comments-while-saving-to/
 ---
 
 ## **Possible Usage Scenarios**

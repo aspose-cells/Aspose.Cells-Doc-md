@@ -7,4 +7,4 @@ url: /java/page-setup-features-in-php/
 
 **This section includes the following topics:**
 
-- [Setting Page Options in Php](/cells/java/setting-page-options-in-php-html/)
+- [Setting Page Options in Php](/cells/java/setting-page-options-in-php/)

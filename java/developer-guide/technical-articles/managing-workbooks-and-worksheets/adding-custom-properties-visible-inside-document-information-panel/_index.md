@@ -19,6 +19,6 @@ The following sample code adds two custom properties. The first property is with
 #### **Related Article**
 {{% alert color="primary" %}} 
 
-- [Using Custom XML Parts in Aspose.Cells](/cells/java/using-custom-xml-parts-in-aspose-cells-html/)
+- [Using Custom XML Parts in Aspose.Cells](/cells/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}

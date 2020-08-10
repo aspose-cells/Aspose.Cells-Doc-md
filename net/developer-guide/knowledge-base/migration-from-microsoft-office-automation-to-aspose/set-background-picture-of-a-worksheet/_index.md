@@ -19,7 +19,7 @@ To apply a background image to a spreadsheet:
 1. Apply the background image.
 1. Save the workbook.
 
-The code samples that follow show how to do this first with [VSTO](/cells/net/set-background-picture-of-a-worksheet-html/), using either C# or Visual Basic, and then with [Aspose.Cells for .NET](/cells/net/set-background-picture-of-a-worksheet-html/), again using either C# or Visual Basic.
+The code samples that follow show how to do this first with [VSTO](/cells/net/set-background-picture-of-a-worksheet/), using either C# or Visual Basic, and then with [Aspose.Cells for .NET](/cells/net/set-background-picture-of-a-worksheet/), again using either C# or Visual Basic.
 
 The code examples in this article create a worksheet with a repeating background image, like the one in the screentshot below.
 

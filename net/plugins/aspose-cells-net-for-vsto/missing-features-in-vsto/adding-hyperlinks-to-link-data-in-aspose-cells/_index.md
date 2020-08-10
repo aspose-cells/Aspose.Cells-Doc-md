@@ -15,11 +15,11 @@ Using Aspose.Cells, developers can create different kinds of hyperlinks in Micro
 ### **Adding Hyperlinks**
 Three types of hyperlink can be added to a cell using Aspose.Cells:
 
-- [Adding link to a URL](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells-html/).
-- [Adding a link to another cell in the same file](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells-html/).
-- [Adding a link to an external file](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells-html/).
+- [Adding link to a URL](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+- [Adding a link to another cell in the same file](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+- [Adding a link to an external file](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
-Aspose.Cells allows developers to add hyperlinks to Excel files either using the API or [designer spreadsheets](/cells/net/what-is-a-designer-spreadsheet-html/) (spreadsheets where hyperlinks are created manually and Aspose.Cells is used to import them into other spreadsheets).
+Aspose.Cells allows developers to add hyperlinks to Excel files either using the API or [designer spreadsheets](/cells/net/what-is-a-designer-spreadsheet/) (spreadsheets where hyperlinks are created manually and Aspose.Cells is used to import them into other spreadsheets).
 
 Aspose.Cells provides a class, [Workbook](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.Workbook+class&linkCreation=true&fromPageId=5020678) that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.Worksheet+class&linkCreation=true&fromPageId=5020678) class. The Worksheet class provides different methods for adding different hyperlinks to Excel files.
 

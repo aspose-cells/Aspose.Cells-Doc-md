@@ -2,7 +2,7 @@
 title: Display Bullets by setting Cell Value using HTML
 type: docs
 weight: 120
-url: /java/display-bullets-by-setting-cell-value-using-html/
+url: /java/display-bullets-by-setting-cell-value-using/
 ---
 
 {{% alert color="primary" %}} 

@@ -2,7 +2,7 @@
 title: Export print area range to HTML
 type: docs
 weight: 60
-url: /java/export-print-area-range-to-html/
+url: /java/export-print-area-range-to/
 ---
 
 ## **Possible Usage Scenarios**

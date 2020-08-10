@@ -9,7 +9,7 @@ url: /net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
 
 To make it easier to upgrade, we maintain a document describing information critical to existing users, especially ones who have used the older Aspose.Grid.Web and need to upgrade to the merged Aspose.Cells.GridWeb. 
 
-These are intended to be brief notes, and you should be able to find more information by looking at the sections of the [Developer Guide](/cells/net/developer-guide-html/) and [Aspose.Cells.GridWeb API Reference](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.GridWeb+namespace&linkCreation=true&fromPageId=5013732).
+These are intended to be brief notes, and you should be able to find more information by looking at the sections of the [Developer Guide](/cells/net/developer-guide/) and [Aspose.Cells.GridWeb API Reference](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.GridWeb+namespace&linkCreation=true&fromPageId=5013732).
 
 {{% /alert %}} 
 ## **Upgrading to Aspose.Cells.GridWeb**

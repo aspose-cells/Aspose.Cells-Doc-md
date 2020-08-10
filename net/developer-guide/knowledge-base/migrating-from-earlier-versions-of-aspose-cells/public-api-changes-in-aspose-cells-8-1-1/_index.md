@@ -15,7 +15,7 @@ The HtmlSaveOptions class has exposed PresentationPreference property which can 
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Use PresentationPreference Option for Better Layout](/cells/net/excel-to-html-use-presentationpreference-option-for-better-layout-html/)
+Please check the detailed article on [Use PresentationPreference Option for Better Layout](/cells/net/excel-to-html-use-presentationpreference-option-for-better-layout/)
 
 {{% /alert %}}
 ### **Added Support for Worksheet Scenarios**
@@ -28,6 +28,6 @@ A scenario is named what-if model that includes variable input cells linked toge
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [How to Create, Manipulate or Remove Scenarios from Worksheets](/cells/net/create-2c-manipulate-or-remove-scenarios-from-worksheets-html/).
+Please check the detailed article on [How to Create, Manipulate or Remove Scenarios from Worksheets](/cells/net/create-2c-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}

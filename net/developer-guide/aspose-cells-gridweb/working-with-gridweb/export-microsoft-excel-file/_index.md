@@ -20,7 +20,7 @@ To save the content of Aspose.Cells.GridWeb control as an Excel file:
 
 {{% alert color="primary" %}} 
 
-If you don't know about how to add Aspose.Cells.GridWeb control to your web form then you should refer to [Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form-html/)
+If you don't know about how to add Aspose.Cells.GridWeb control to your web form then you should refer to [Add GridWeb to Web Form](/cells/net/add-gridweb-to-web-form/)
 
 {{% /alert %}} 
 
@@ -50,7 +50,7 @@ The above code snippet can be used in several ways. A common way is to add a but
 
 {{% alert color="primary" %}} 
 
-If you are working in Visual Studio you can easily create the SaveCommand event's event handler by double-clicking the event in the **Properties** pane. To learn more about this, please refer to [Working with GridWeb Events](/cells/net/working-with-gridweb-events-html/)
+If you are working in Visual Studio you can easily create the SaveCommand event's event handler by double-clicking the event in the **Properties** pane. To learn more about this, please refer to [Working with GridWeb Events](/cells/net/working-with-gridweb-events/)
 
 {{% /alert %}} 
 ### **Export as a Stream**

@@ -10,8 +10,8 @@ This topic discusses cells, looking at GridWeb's most basic feature: accessing c
 
 Each worksheet contains a GridCells object, a collection of GridCell objects. A GridCell object represents a cell in Aspose.Cells.GridWeb. It is possible to access any cell using GridWeb. There are two preferred methods:
 
-- [Accessing the cell by name](/cells/java/working-with-cells-gridweb-html/).
-- [Accessing the cell by row and column indices](/cells/java/working-with-cells-gridweb-html/).
+- [Accessing the cell by name](/cells/java/working-with-cells-gridweb/).
+- [Accessing the cell by row and column indices](/cells/java/working-with-cells-gridweb/).
 
 Below, each approach is discussed.
 ### **Using Cell Name**

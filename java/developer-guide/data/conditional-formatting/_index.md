@@ -19,10 +19,10 @@ Aspose.Cells supports applying conditional formatting to cells at runtime. This 
 ### **Applying Conditional Formatting**
 Aspose.Cells supports conditional formatting in two ways:
 
-- [Using a designer spreadsheet](/cells/java/conditional-formatting-html/).
-- [Creating conditional formatting at runtime](/cells/java/conditional-formatting-html/).
+- [Using a designer spreadsheet](/cells/java/conditional-formatting/).
+- [Creating conditional formatting at runtime](/cells/java/conditional-formatting/).
 #### **Using Designer Spreadsheet**
-Developers can create a designer spreadsheet that contains conditional formatting in Microsoft Excel and then open that spreadsheet with Aspose.Cells. Aspose.Cells loads and saves the designer spreadsheet, keeping any conditional formatting setting. To find out more about designer spreadsheets, read [What is a Designer Spreadsheet](/cells/java/what-is-a-designer-spreadsheet-html/).
+Developers can create a designer spreadsheet that contains conditional formatting in Microsoft Excel and then open that spreadsheet with Aspose.Cells. Aspose.Cells loads and saves the designer spreadsheet, keeping any conditional formatting setting. To find out more about designer spreadsheets, read [What is a Designer Spreadsheet](/cells/java/what-is-a-designer-spreadsheet/).
 ### **Applying Conditional Formatting at Runtime**
 Aspose.Cells supports applying conditional formatting at runtime.
 

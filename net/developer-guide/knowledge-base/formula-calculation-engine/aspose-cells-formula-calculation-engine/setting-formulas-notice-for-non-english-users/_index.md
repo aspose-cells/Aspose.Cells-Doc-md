@@ -7,7 +7,7 @@ url: /net/setting-formulas-notice-for-non-english-users/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells supports most of the formulas/functions that are part of Microsoft Excel. Developers can use these formulas with either the API or [designer spreadsheets](/cells/net/what-is-a-designer-spreadsheet-html/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas. The formulas should be specified using English (US) style.
+Aspose.Cells supports most of the formulas/functions that are part of Microsoft Excel. Developers can use these formulas with either the API or [designer spreadsheets](/cells/net/what-is-a-designer-spreadsheet/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas. The formulas should be specified using English (US) style.
 
 {{% /alert %}} 
 ## **Notice for Non English Users**

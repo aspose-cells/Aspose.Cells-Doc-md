@@ -2,7 +2,7 @@
 title: Export Comments while Saving Excel file to HTML
 type: docs
 weight: 40
-url: /java/export-comments-while-saving-excel-file-to-html/
+url: /java/export-comments-while-saving-excel-file-to/
 ---
 
 ## **Possible Usage Scenarios**

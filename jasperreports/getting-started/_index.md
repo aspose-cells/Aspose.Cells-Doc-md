@@ -6,9 +6,9 @@ url: /jasperreports/getting-started/
 ---
 
 ###### **This section includes the following topics:** 
-- [Product Overview](/cells/jasperreports/product-overview-html/)
-- [Feature Tour](/cells/jasperreports/feature-tour-html/)
-- [Edition Types](/cells/jasperreports/edition-types-html/)
-- [Licensing](/cells/jasperreports/licensing-html/)
-- [Evaluate Aspose.Cells](/cells/jasperreports/evaluate-aspose-cells-html/)
-- [Supported File Formats](/cells/jasperreports/supported-file-formats-html/)
+- [Product Overview](/cells/jasperreports/product-overview/)
+- [Feature Tour](/cells/jasperreports/feature-tour/)
+- [Edition Types](/cells/jasperreports/edition-types/)
+- [Licensing](/cells/jasperreports/licensing/)
+- [Evaluate Aspose.Cells](/cells/jasperreports/evaluate-aspose-cells/)
+- [Supported File Formats](/cells/jasperreports/supported-file-formats/)

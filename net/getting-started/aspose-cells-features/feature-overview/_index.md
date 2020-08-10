@@ -33,7 +33,7 @@ Many customers worldwide rely on the thorough document import and export feature
 |Comma Separated Value (CSV)|Comprehensive support of the CSV format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |TSV|Load and save documents in the TSV file format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|Save as HTML is available.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[OpenDocument - ODS](/cells/net/opendocument-ods-html/)|Aspose.Cells can load and save documents in the OpenDocument Spreadsheet (.ods) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[OpenDocument - ODS](/cells/net/opendocument-ods/)|Aspose.Cells can load and save documents in the OpenDocument Spreadsheet (.ods) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Converting to PDF files|Convert any Spreadsheet to PDF with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tab delimited|Load and save documents in the tab delimited file format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Plain text (TXT)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

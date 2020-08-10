@@ -2,7 +2,7 @@
 title: Disable Downlevel Revealed Comments while saving to HTML
 type: docs
 weight: 20
-url: /pythonjava/disable-downlevel-revealed-comments-while-saving-to-html/
+url: /pythonjava/disable-downlevel-revealed-comments-while-saving-to/
 ---
 
 ## **Disable Downlevel Revealed Comments while saving to HTML**

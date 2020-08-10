@@ -39,12 +39,12 @@ The output of the sample template is shown below.
 
 {{% /alert %}} 
 ###### **This section includes the following topics:** 
-- [Preparing for Creating Table Report](/cells/reportingservices/preparing-for-creating-table-report-html/)
-- [Adding base information for Table](/cells/reportingservices/adding-base-information-for-table-html/)
-- [Adding Reporting Services Formulas](/cells/reportingservices/adding-reporting-services-formulas-html/)
-- [Adding Table Group](/cells/reportingservices/adding-table-group-html/)
-- [Adding Table Footers](/cells/reportingservices/adding-table-footers-html/)
-- [Adding Report Parameters to Report](/cells/reportingservices/adding-report-parameters-to-report-html/)
-- [Adding Reporting Services Global Variables to Report](/cells/reportingservices/adding-reporting-services-global-variables-to-report-html/)
-- [Setting Report Attributes](/cells/reportingservices/setting-report-attributes-html/)
-- [Modifying Report Attributes](/cells/reportingservices/modifying-report-attributes-html/)
+- [Preparing for Creating Table Report](/cells/reportingservices/preparing-for-creating-table-report/)
+- [Adding base information for Table](/cells/reportingservices/adding-base-information-for-table/)
+- [Adding Reporting Services Formulas](/cells/reportingservices/adding-reporting-services-formulas/)
+- [Adding Table Group](/cells/reportingservices/adding-table-group/)
+- [Adding Table Footers](/cells/reportingservices/adding-table-footers/)
+- [Adding Report Parameters to Report](/cells/reportingservices/adding-report-parameters-to-report/)
+- [Adding Reporting Services Global Variables to Report](/cells/reportingservices/adding-reporting-services-global-variables-to-report/)
+- [Setting Report Attributes](/cells/reportingservices/setting-report-attributes/)
+- [Modifying Report Attributes](/cells/reportingservices/modifying-report-attributes/)

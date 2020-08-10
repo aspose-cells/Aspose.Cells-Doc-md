@@ -26,6 +26,6 @@ In [the Aspose.Cells demos](http://www.aspose.com/demos/java-components/aspose.c
 #### **How to Use It?**
 After creating a designer spreadsheet, use Aspose.Cells to read the designer spreadsheet and add data to its specified positions (according to the pre-defined format settings) at runtime. For example, in the screenshot above, you can see that we already decided at design time to add **Product Name**, **Category Name**, **Quantity Per Unit** and **Units In Stock** columns. They don't have any data yet: this is be added at runtime. The above figure shows a very simple spreadsheet but designer spreadsheets save you time even on complex spreadsheet.
 #### **Smart Markers**
-Additionally, Aspose.Cells lets you add [smart markers](/cells/java/smart-markers-html/) to the designer spreadsheet. Smart markers are processed at runtime using the [WorkbookDesigner](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/WorkbookDesigner) class's Process method. This can help you write less code and still get great result.
+Additionally, Aspose.Cells lets you add [smart markers](/cells/java/smart-markers/) to the designer spreadsheet. Smart markers are processed at runtime using the [WorkbookDesigner](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/WorkbookDesigner) class's Process method. This can help you write less code and still get great result.
 
-[Find out more about smart markers](/cells/java/smart-markers-html/).
+[Find out more about smart markers](/cells/java/smart-markers/).

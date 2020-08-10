@@ -11,7 +11,7 @@ A pivot table is an interactive summary of records. For example, you may have hu
 
 A pivot chart is an interactive graphical representation of the data in a pivot table. Pivot charts were introduced in Excel 2000. Using a pivot chart makes it even easier to understand the data since the pivot table creates subtotals and totals automatically.
 
-Aspose.Cells supports [pivot tables](/cells/java/create-pivot-tables-and-pivot-charts-html/) and [pivot charts](/cells/java/create-pivot-tables-and-pivot-charts-html/).
+Aspose.Cells supports [pivot tables](/cells/java/create-pivot-tables-and-pivot-charts/) and [pivot charts](/cells/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}} 
 ### **Adding Pivot Tables and Charts**

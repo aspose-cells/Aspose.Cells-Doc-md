@@ -19,9 +19,9 @@ It is possible to apply formulas to cells using properties and methods offered b
 
 
 ## **Using Built-in Functions**
-Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/net/supported-formula-functions-html/) supported by Aspose.Cells. The functions are listed in alphabetical order. More functions will be supported in future.
+Built-in functions or formulas are provided as ready-made functions to reduce developers' efforts and time. See [a list of built-in functions](/cells/net/supported-formula-functions/) supported by Aspose.Cells. The functions are listed in alphabetical order. More functions will be supported in future.
 
-Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/net/what-is-a-designer-spreadsheet-html/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas.
+Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/net/what-is-a-designer-spreadsheet/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas.
 
 Use the Cell class' Formula property to add a formula to a cell. **Complex formulas**, for example
 

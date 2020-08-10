@@ -90,9 +90,9 @@ Gets or sets the default font color of the cell.
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Add Digital Signature to an already signed Excel file](/cells/net/add-digital-signature-to-an-already-signed-excel-file/)
-- [Disable Downlevel Revealed Comments while saving to HTML](/cells/net/disable-downlevel-revealed-comments-while-saving-to-html/)
-- [Export Comments while Saving Excel file to Html](/cells/net/export-comments-while-saving-excel-file-to-html/)
-- [Output Blank Page when there is Nothing to Print](/cells/net/output-blank-page-when-there-is-nothing-to-print-html/)
-- [Using CustomImplementationFactory to create custom implementation of Memory Stream](/cells/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream-html/)
-- [Create Remove and Get GridCell Comments](/cells/net/create-remove-and-get-gridcell-comments-html/)
-- [Default Font and Font Color of the GridDesktop](/cells/net/default-font-and-font-color-of-the-griddesktop-html/)
+- [Disable Downlevel Revealed Comments while saving to HTML](/cells/net/disable-downlevel-revealed-comments-while-saving-to/)
+- [Export Comments while Saving Excel file to Html](/cells/net/export-comments-while-saving-excel-file-to/)
+- [Output Blank Page when there is Nothing to Print](/cells/net/output-blank-page-when-there-is-nothing-to-print/)
+- [Using CustomImplementationFactory to create custom implementation of Memory Stream](/cells/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/)
+- [Create Remove and Get GridCell Comments](/cells/net/create-remove-and-get-gridcell-comments/)
+- [Default Font and Font Color of the GridDesktop](/cells/net/default-font-and-font-color-of-the-griddesktop/)

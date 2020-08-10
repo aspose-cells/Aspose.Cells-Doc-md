@@ -6,7 +6,7 @@ url: /reportingservices/faqs/
 ---
 
 ###### **This section includes the following topics:** 
-- [Aspose.Cells.ReportingServices Client Issues](/cells/reportingservices/aspose-cells-reportingservices-client-issues-html/)
-- [Performance Configuration](/cells/reportingservices/performance-configuration-html/)
-- [Setting Conditional Formatting for Report Item](/cells/reportingservices/setting-conditional-formatting-for-report-item-html/)
-- [Configuring Encryption](/cells/reportingservices/configuring-encryption-html/)
+- [Aspose.Cells.ReportingServices Client Issues](/cells/reportingservices/aspose-cells-reportingservices-client-issues/)
+- [Performance Configuration](/cells/reportingservices/performance-configuration/)
+- [Setting Conditional Formatting for Report Item](/cells/reportingservices/setting-conditional-formatting-for-report-item/)
+- [Configuring Encryption](/cells/reportingservices/configuring-encryption/)

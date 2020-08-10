@@ -7,7 +7,7 @@ url: /net/formatting-a-range-of-cells/
 
 {{% alert color="primary" %}} 
 
-This topic also belongs to the series of topics related to the application of font settings and other formatting styles on cells. Our last topics have covered well about handling such features. For example, you can refer to [Changing the Font & Color of a Cell](/cells/net/changing-the-font-and-color-of-a-cell-html/) and [Applying Styles on Cells](/cells/net/applying-styles-on-cells-html/) topics to learn about the same features. Then what is new in this topic if we have already covered these concepts. Well, the only difference of this topic with the previous ones is that we will apply formatting settings (related to fonts and other styles) on a range of cells instead of just a single cell. We hope that you will still find this topic useful for you.
+This topic also belongs to the series of topics related to the application of font settings and other formatting styles on cells. Our last topics have covered well about handling such features. For example, you can refer to [Changing the Font & Color of a Cell](/cells/net/changing-the-font-and-color-of-a-cell/) and [Applying Styles on Cells](/cells/net/applying-styles-on-cells/) topics to learn about the same features. Then what is new in this topic if we have already covered these concepts. Well, the only difference of this topic with the previous ones is that we will apply formatting settings (related to fonts and other styles) on a range of cells instead of just a single cell. We hope that you will still find this topic useful for you.
 
 {{% /alert %}} 
 ## **Setting Font & Style of a Range of Cells**

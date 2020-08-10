@@ -12,7 +12,7 @@ The most valuable feature offered by Aspose.Cells.GridWeb is support for formula
 {{% /alert %}} 
 ## **Adding Formulas to Cells**
 ### **How to Add & Calculate a Formula?**
-It is possible to add, access and modify formulas in cells by using a cell's Formula property. Aspose.Cells.GridWeb supports user-defined formulas ranging from simple to complex. However, a large number of built-in functions or formulas (similar to Microsoft Excel) are also supplied with Aspose.Cells.GridWeb. To see the full list of built-in functions, please refer to this [list of supported functions.](/cells/net/list-of-supported-functions-html/)
+It is possible to add, access and modify formulas in cells by using a cell's Formula property. Aspose.Cells.GridWeb supports user-defined formulas ranging from simple to complex. However, a large number of built-in functions or formulas (similar to Microsoft Excel) are also supplied with Aspose.Cells.GridWeb. To see the full list of built-in functions, please refer to this [list of supported functions.](/cells/net/list-of-supported-functions/)
 
 {{% alert color="primary" %}} 
 

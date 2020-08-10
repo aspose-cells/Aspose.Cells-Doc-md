@@ -7,7 +7,7 @@ url: /java/public-api-changes-in-aspose-cells-8-5-1/
 
 {{% alert color="primary" %}} 
 
-This document describes the changes to the Aspose.Cells API from version 8.5.0 to 8.5.1 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-5-1-html/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
+This document describes the changes to the Aspose.Cells API from version 8.5.0 to 8.5.1 that may be of interest to module/application developers. It includes not only new and updated public methods, [added classes etc.](/cells/java/public-api-changes-in-aspose-cells-8-5-1/), but also a description of any changes in the behavior behind the scenes in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Added APIs**
@@ -28,7 +28,7 @@ book.dispose();
 
 {{< /highlight >}}
 ### **Method Cell.getHeightOfValue Added**
-Aspose.Cells for Java 8.5.1 has exposed the Cell.getHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](/cells/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels-html/).
+Aspose.Cells for Java 8.5.1 has exposed the Cell.getHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](/cells/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
 ### **Enumeration TableDataSourceType Added**
 Aspose.Cells for Java 8.5.1 has exposed the enumeration com.aspose.cells.TableDataSourceType to retrieve the data source type of a ListObject. The TableDataSourceType enumeration as following fields. 
 

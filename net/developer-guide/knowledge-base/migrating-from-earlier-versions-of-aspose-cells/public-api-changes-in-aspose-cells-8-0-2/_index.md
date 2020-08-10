@@ -53,7 +53,7 @@ book.Save(myDir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Changing Text Direction of the Comment](/cells/net/change-text-direction-of-the-comment-html/)
+Please check the detailed article on [Changing Text Direction of the Comment](/cells/net/change-text-direction-of-the-comment/)
 
 {{% /alert %}}
 ### **Added ConvertFormulasData Property to HTMLLoadOptions Class**

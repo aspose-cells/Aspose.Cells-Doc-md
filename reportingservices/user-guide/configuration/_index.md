@@ -6,12 +6,12 @@ url: /reportingservices/configuration/
 ---
 
 ###### **This section contains the following topics:**
-- [Gridlines](/cells/reportingservices/gridlines-html/)
-- [Delimiters](/cells/reportingservices/delimiters-html/)
-- [Performance](/cells/reportingservices/performance-html/)
-- [Encryption](/cells/reportingservices/encryption-html/)
-- [Digital Signatures](/cells/reportingservices/digital-signatures-html/)
-- [Set DeviceInfo in rsreportserver.config](/cells/reportingservices/set-deviceinfo-in-rsreportserver-config-html/)
-- [DeviceInfo in rsreportserver.config file](/cells/reportingservices/deviceinfo-in-rsreportserver-config-file-html/)
-- [Page Setup](/cells/reportingservices/page-setup-html/)
-- [Table Sorting Configuration](/cells/reportingservices/table-sorting-configuration-html/)
+- [Gridlines](/cells/reportingservices/gridlines/)
+- [Delimiters](/cells/reportingservices/delimiters/)
+- [Performance](/cells/reportingservices/performance/)
+- [Encryption](/cells/reportingservices/encryption/)
+- [Digital Signatures](/cells/reportingservices/digital-signatures/)
+- [Set DeviceInfo in rsreportserver.config](/cells/reportingservices/set-deviceinfo-in-rsreportserver-config/)
+- [DeviceInfo in rsreportserver.config file](/cells/reportingservices/deviceinfo-in-rsreportserver-config-file/)
+- [Page Setup](/cells/reportingservices/page-setup/)
+- [Table Sorting Configuration](/cells/reportingservices/table-sorting-configuration/)

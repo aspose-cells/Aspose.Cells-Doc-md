@@ -36,7 +36,7 @@ The parameters **noadd** and skip can be combined to insert data on alternating 
 
 This section includes the following topics
 
-- [Grouping Data in Aspose.Cells](/cells/net/grouping-data-in-aspose-cells-html/)
-- [Image Markers in Aspose.Cells](/cells/net/image-markers-in-aspose-cells-html/)
-- [Using Anonymous Types or Custom Objects in Aspose.Cells](/cells/net/using-anonymous-types-or-custom-objects-in-aspose-cells-html/)
-- [Using Nested Objects in Aspose.Cells](/cells/net/using-nested-objects-in-aspose-cells-html/)
+- [Grouping Data in Aspose.Cells](/cells/net/grouping-data-in-aspose-cells/)
+- [Image Markers in Aspose.Cells](/cells/net/image-markers-in-aspose-cells/)
+- [Using Anonymous Types or Custom Objects in Aspose.Cells](/cells/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
+- [Using Nested Objects in Aspose.Cells](/cells/net/using-nested-objects-in-aspose-cells/)

@@ -18,6 +18,6 @@ The following sample code adds two custom properties. The first property is with
 ### **Related Article**
 {{% alert color="primary" %}} 
 
-- [Use Custom XML Parts in Aspose.Cells](/cells/net/use-custom-xml-parts-in-aspose-cells-html/)
+- [Use Custom XML Parts in Aspose.Cells](/cells/net/use-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}

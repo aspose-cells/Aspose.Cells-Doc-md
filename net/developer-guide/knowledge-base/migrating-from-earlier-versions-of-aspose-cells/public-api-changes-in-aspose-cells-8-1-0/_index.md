@@ -15,7 +15,7 @@ The HtmlSaveOptions class has exposed ExportHiddenWorksheet property which can b
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Prevent Exporting Hidden Worksheet](/cells/net/prevent-exporting-hidden-worksheet-contents-on-saving-to-html-html/)
+Please check the detailed article on [Prevent Exporting Hidden Worksheet](/cells/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
 
 {{% /alert %}}
 ### **Added Cell.StringValueWithoutFormat Property**

@@ -17,7 +17,7 @@ You need to set a license before performing any operations with documents. Make 
 
 {{% /alert %}} 
 ### **Loading the License file**
-In Aspose.Cells for Android via Java, the license can be [embedded as a resource](/cells/java/applying-a-license-html/), or loaded from a stream:
+In Aspose.Cells for Android via Java, the license can be [embedded as a resource](/cells/java/applying-a-license/), or loaded from a stream:
 
 1. Put the license file at any location on **/mnt/sdcard/**.
 1. Create a stream that references file.

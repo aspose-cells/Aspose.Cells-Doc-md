@@ -69,11 +69,11 @@ Anyone who has used Microsoft Excel to format cells will be familiar with the al
 
 As you can see from the above figure, there are different kinds of alignment options:
 
-- [Text alignment](/cells/java/data-formatting-html/) (horizontal & vertical)
-- [Indentation](/cells/java/data-formatting-html/).
-- [Orientation](/cells/java/data-formatting-html/).
-- [Text control](/cells/java/data-formatting-html/).
-- [Text direction](/cells/java/data-formatting-html/).
+- [Text alignment](/cells/java/data-formatting/) (horizontal & vertical)
+- [Indentation](/cells/java/data-formatting/).
+- [Orientation](/cells/java/data-formatting/).
+- [Text control](/cells/java/data-formatting/).
+- [Text direction](/cells/java/data-formatting/).
 
 All of these alignment settings are fully supported by Aspose.Cells and are discussed in more detail below.
 ### **Configuring Alignment Settings**
@@ -267,7 +267,7 @@ The following output is achieved if the reading order of the text is set to righ
 
 ![todo:image_alt_text](data-formatting_10.png)
 ## **Formatting Selected Characters in a Cell**
-[Dealing with Font Settings](/cells/java/dealing-with-font-settings-html/) explained how to format cells but only how to format the content of the wntire cells. What if you want to format only selected characters?
+[Dealing with Font Settings](/cells/java/dealing-with-font-settings/) explained how to format cells but only how to format the content of the wntire cells. What if you want to format only selected characters?
 
 Aspose.Cells supports this feature. This topic explains how to use this feature.
 ### **Formatting Selected Characters**

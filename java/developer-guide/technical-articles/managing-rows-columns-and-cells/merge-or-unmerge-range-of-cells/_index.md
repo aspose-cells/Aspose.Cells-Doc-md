@@ -22,6 +22,6 @@ The following image shows the output Excel file generated with the sample code. 
 
 {{% alert color="primary" %}} 
 #### **Related Articles**
-- [Merging and splitting cells](/cells/java/merging-and-unmerging-cells-html/).
+- [Merging and splitting cells](/cells/java/merging-and-unmerging-cells/).
 
 {{% /alert %}}

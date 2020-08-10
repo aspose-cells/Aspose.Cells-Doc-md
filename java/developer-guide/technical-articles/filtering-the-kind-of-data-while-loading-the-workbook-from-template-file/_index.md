@@ -7,7 +7,7 @@ url: /java/filtering-the-kind-of-data-while-loading-the-workbook-from-template-f
 
 {{% alert color="primary" %}} 
 
-Sometimes, you want to specify which kind of data should be loaded when building the workbook from a template file. Filtering loaded data can improve the performance for your special purpose, especially when using [LightCells APIs](/cells/java/using-lightcells-api-html/). Please use the [LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/loadfilter#LoadDataFilterOptions) property for this purpose.
+Sometimes, you want to specify which kind of data should be loaded when building the workbook from a template file. Filtering loaded data can improve the performance for your special purpose, especially when using [LightCells APIs](/cells/java/using-lightcells-api/). Please use the [LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/loadfilter#LoadDataFilterOptions) property for this purpose.
 
 {{% /alert %}} 
 #### **Filtering the kind of data while loading the workbook from a template file**

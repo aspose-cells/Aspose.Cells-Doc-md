@@ -25,6 +25,6 @@ To rename a worksheet using Aspose.Cells.GridDesktop control:
 
 {{% alert color="primary" %}} 
 
-Before changing the name of the worksheet, it's required to access the reference of that worksheet. There are many ways to access a worksheet reference. To learn about those ways, please refer to [Accessing Worksheets](/cells/net/accessing-worksheet-html/).
+Before changing the name of the worksheet, it's required to access the reference of that worksheet. There are many ways to access a worksheet reference. To learn about those ways, please refer to [Accessing Worksheets](/cells/net/accessing-worksheet/).
 
 {{% /alert %}}
