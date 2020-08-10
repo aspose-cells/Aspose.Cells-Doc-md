@@ -66,7 +66,7 @@ Aspose.Cells for C++ is a native C++ library that enables C++ developers to crea
 ## **Aspose.Cells for C++ Resources**
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Cells for C++ Online Documentation](https://docs.aspose.com/cells/cpp/home/)
+- [Aspose.Cells for C++ Online Documentation](https://docs.aspose.com/cells/cpp/)
 - [Aspose.Cells for C++ Features](https://docs.aspose.com/cells/cpp/product-overview/)
 - [Aspose.Cells for C++ Release Notes](https://docs.aspose.com/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Product Page](https://products.aspose.com/cells/cpp)
