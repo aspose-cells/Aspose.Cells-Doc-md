@@ -2,13 +2,13 @@
 title: Aspose.Cells for C++
 type: docs
 weight: 30
-url: /cpp/home/
+url: /cpp/
 is_root: true
 ---
 
 {{% alert color="primary" %}} 
 
-**![todo:image_alt_text](home_1)**
+**![Aspose.Cells for C++ Product Logo](home_1.png)**
 
 **Welcome to the Aspose.Cells for C++**
 
