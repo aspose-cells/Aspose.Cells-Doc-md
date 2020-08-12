@@ -23,4 +23,4 @@ The Aspose solution thoroughly supports the following document features when con
 - Hyperlinks
 - Merged Cells, Page Breaks, Print Titles
 
-You can also see the [detailed specification](/pages/createpage.action?spaceKey=cellsnet&title=Converting+Excel+to+PDF+Files&linkCreation=true&fromPageId=5018338) about how Aspose.Cells converts a document to PDF.
+You can also see the [detailed specification](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) about how Aspose.Cells converts a document to PDF.
