@@ -1,15 +1,15 @@
 ---
 title: Aspose.Cells for Java 20.7 Release Notes
 type: docs
-weight: 70
+weight: 9
 url: /java/aspose-cells-for-java-20-7-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.Cells for Java 20.7.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -36,21 +36,39 @@ This page contains release notes for Aspose.Cells for Java 20.7.
 |CELLSJAVA-43229|Exception while loading XLSM file with option setKeepUnparsedData(false)|Exception|
 |CELLSJAVA-43238|Calculation fails with NPE (java.lang.NullPointerException)|Exception|
 |CELLSJAVA-43199|Exception "java.lang.NegativeArraySizeException" on saving to HTML|Exception|
+
 ### **Public API and Backwards Incompatible Changes**
+
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
+
 #### **Adds Cells.RemoveDuplicates() method.**
+
 Overloaded method of Cells.RemoveDuplicates(...) for user's convenience to remove duplicated rows in the whole sheet.
+
 #### **Adds TickLabels.DisplayNumberFormat property.**
+
 Gets and sets the display number format of tick labels.
+
 #### **Adds Cells.GetViewRowHeight() and Cells.GetViewRowHeightInch() method.**
+
 Gets the view row height.
+
 #### **Adds enum SheetType.InternationalMacro.**
+
 Adds new sheet type: international macro.
+
 #### **Adds PivotFieldCollection.iterator() method.**
+
 Gets an enumerator over the elements in this collection in the proper sequence.
+
 #### **Adds PivotItemCollection.iterator() method.**
+
 Gets an enumerator over the elements in this collection in the proper sequence.
+
 #### **Adds Workbook.IsWorkbookProtectedWithPassword property.**
+
 Indicates whether the structure and window is protected with a password.
+
 #### **Add PowerQueryFormulaParameters and PowerQueryFormulaParameter classes**
+
 Represents the power query formula parameters.
