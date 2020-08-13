@@ -5,11 +5,11 @@ weight: 20
 url: /net/aspose-cells-for-net-20-6-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-This page contains release notes for Aspose.Cells for .NET 20.6.
+This page contains release notes for [Aspose.Cells for .NET 20.6](https://www.nuget.org/packages/Aspose.Cells/20.6.0).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |

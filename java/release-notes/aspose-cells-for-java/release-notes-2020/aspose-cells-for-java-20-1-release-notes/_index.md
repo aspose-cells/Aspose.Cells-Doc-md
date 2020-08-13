@@ -5,11 +5,11 @@ weight: 60
 url: /java/aspose-cells-for-java-20-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-This page contains release notes for Aspose.Cells for Java 20.1.
+This page contains release notes for [Aspose.Cells for Java 20.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.1/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
