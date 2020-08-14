@@ -17,7 +17,7 @@ This question is easy to answer: features and functionality.
 
 ## **What is Open XML SDK?**
 
-According to the [MSDN Library](http://msdn.microsoft.com/en-us/library/bb448854.aspx), the Open XML SDK is defined as:
+According to the [MSDN Library](https://docs.microsoft.com/en-us/office/open-xml/open-xml-sdk?redirectedfrom=MSDN), the Open XML SDK is defined as:
 
 "The Open XML SDK 2.5 simplifies the task of manipulating Open XML packages and the underlying Open XML schema elements within a package. The Open XML SDK 2.5 encapsulates many common tasks that developers perform on Open XML packages, so that you can perform complex operations with just a few lines of code."
 
