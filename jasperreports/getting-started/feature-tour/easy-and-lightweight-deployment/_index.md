@@ -5,12 +5,12 @@ weight: 40
 url: /jasperreports/easy-and-lightweight-deployment/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Aspose.Cells for JasperReports is an external exporter for [JasperReports](http://jasperforge.org/sf/projects/jasperreports).
+Aspose.Cells for JasperReports is an external exporter for [JasperReports](https://community.jaspersoft.com/project/jasperreports-library).
 
-Aspose.Cells for JasperReports is provided as a single JAR file and can be easily installed on computers running JasperReports. [Download it to start a trial](http://www.aspose.com/community/files/67/jasperreports-exporters/aspose.cells-for-jasperreports/default.aspx).
+Aspose.Cells for JasperReports is provided as a single JAR file and can be easily installed on computers running JasperReports. [Download it to start a trial](https://downloads.aspose.com/cells/jasperreports).
 
-[To install the exporter](/cells/jasperreports/installation/), **aspose.cells.jasperreports.jar** should be copied to the **JasperReports\lib** directory. 
+[To install the exporter](/cells/jasperreports/installation/), **aspose.cells.jasperreports.jar** should be copied to the **JasperReports\lib** directory.
 
 {{% /alert %}}
