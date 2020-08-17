@@ -11,7 +11,7 @@ Sometimes, you need to find out Query Tables and List Objects related to some Ex
 
 {{% /alert %}} 
 ## **Find Query Tables and List Objects related to External Data Connections**
-The following sample code explains how you can find Query Tables and List Objects related to External Data Connection. The code uses the [sample excel file](attachments/5024993/5115493.xlsm) which you can download from the provided link. You can also see the output of this sample code at the bottom of this article.
+The following sample code explains how you can find Query Tables and List Objects related to External Data Connection. The code uses the [sample excel file](5115493.xlsm) which you can download from the provided link. You can also see the output of this sample code at the bottom of this article.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-FindQueryTablesAndListObjectsOfExternalDataConnections.cs" >}}
 
@@ -21,7 +21,7 @@ Now write the following method into your application which is used by the above 
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-VisualBasic-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.vb" >}}
 
-Here is the console output of the above sample code using this [sample excel file](attachments/5024993/5115493.xlsm).
+Here is the console output of the above sample code using this [sample excel file](5115493.xlsm).
 
 {{< highlight java >}}
 

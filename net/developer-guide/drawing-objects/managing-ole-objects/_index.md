@@ -29,7 +29,7 @@ After running the code, we can save different files based on their respective OL
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-OLE-ExtractingOLEObjects-1.cs" >}}
 #### **Extracting Embedded MOL File**
-Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](attachments/5017133/94896196.xlsx).
+Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](94896196.xlsx).
 
 
 

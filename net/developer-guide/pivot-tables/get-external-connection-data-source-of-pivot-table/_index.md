@@ -12,4 +12,4 @@ Aspose.Cells provides the ability to get the external connection data source of 
 
 The source file used in the code snippet is attached for reference.
 
-[Source File](attachments/104267858/104398862.xlsx)
+[Source File](104398862.xlsx)

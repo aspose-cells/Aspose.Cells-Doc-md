@@ -20,7 +20,7 @@ The default value of ***CheckWorkbookDefaultFont*** attribute is **true**.
 
 {{% /alert %}} 
 
-This is the screenshot of the [template file](attachments/48136475/49446913.xlsx) used in the example code.
+This is the screenshot of the [template file](49446913.xlsx) used in the example code.
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
@@ -28,8 +28,8 @@ This is the output PNG image after setting the [ImageOrPrintOptions.DefaultFont
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-See the output [TIFF](attachments/48136475/48496672.tiff) image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/imageformat) property to "Times New Roman".
+See the output [TIFF](48496672.tiff) image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/imageformat) property to "Times New Roman".
 
-See the output [PDF](attachments/48136475/48496673.pdf) file after setting the [PdfSaveOptions.DefaultFont](https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/defaultfont) property to "Times New Roman".
+See the output [PDF](48496673.pdf) file after setting the [PdfSaveOptions.DefaultFont](https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/defaultfont) property to "Times New Roman".
 ## **Sample Code**
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.cs" >}}

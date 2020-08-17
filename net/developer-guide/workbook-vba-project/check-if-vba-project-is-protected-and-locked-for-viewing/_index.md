@@ -12,7 +12,7 @@ The following sample code loads the [sample Excel file](attachments/42729754/433
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-WorkbookVBAProject-CheckifVBAProjectisProtectedandLockedforViewing.cs" >}}
 ## **Console Output**
-This is the console output of the above sample code when executed with the provided [sample Excel file](attachments/42729754/43352065.xlsm).
+This is the console output of the above sample code when executed with the provided [sample Excel file](43352065.xlsm).
 
 {{< highlight java >}}
 

@@ -12,7 +12,7 @@ Dialog Sheet is an old format of sheet that contains a dialog box. Such sheet co
 
 You can find if the sheet is a dialog sheet or some other type of sheet with [Worksheet.Type](https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/type) property provided by Aspose.Cells. If it returns enumeration value [SheetType.Dialog](https://apireference.aspose.com/net/cells/aspose.cells/sheettype), then it means, you are dealing with dialog sheet.
 ## **Find if the Worksheet is Dialog Sheet**
-The following sample code loads the [sample Excel file](attachments/64454872/64716820.xlsx) that contains a dialog sheet. It checks the [Worksheet.Type](https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/type) property compares it with [SheetType.Dialog ](https://apireference.aspose.com/net/cells/aspose.cells/sheettype)and then prints the message. Please see the console output of the sample code given below for more help.
+The following sample code loads the [sample Excel file](64716820.xlsx) that contains a dialog sheet. It checks the [Worksheet.Type](https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/type) property compares it with [SheetType.Dialog ](https://apireference.aspose.com/net/cells/aspose.cells/sheettype)and then prints the message. Please see the console output of the sample code given below for more help.
 ## **Sample Code**
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Worksheets-FindIfWorksheetIsDialogSheet.cs" >}}
 ## **Console Output**

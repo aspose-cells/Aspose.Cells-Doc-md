@@ -17,7 +17,7 @@ Aspose.Cells provides the [Shape.Reflection](https://apireference.aspose.com/net
 - [Transparency](https://apireference.aspose.com/net/cells/aspose.cells.drawing/reflectioneffect/properties/transparency)
 - [Type](https://apireference.aspose.com/net/cells/aspose.cells.drawing/reflectioneffect/properties/type)
 ## **Working with the Reflection Effect of Shape or Chart**
-The following sample code loads the [source excel file](attachments/5013635/5115424.xlsx) and accesses the first shape in the default worksheet and sets different properties of [Shape.Reflection](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/reflection) class and then saves the workbook in the [output excel file](attachments/5013635/5115423.xlsx).
+The following sample code loads the [source excel file](5115424.xlsx) and accesses the first shape in the default worksheet and sets different properties of [Shape.Reflection](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/reflection) class and then saves the workbook in the [output excel file](5115423.xlsx).
 
 
 

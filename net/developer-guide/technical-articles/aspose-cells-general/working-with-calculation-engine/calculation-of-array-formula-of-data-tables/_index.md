@@ -11,13 +11,13 @@ You can create Data Table in Microsoft Excel using Data > What-If Analysis > Dat
 
 {{% /alert %}} 
 
-In the following sample code, we used the [source excel file](attachments/5023561/5115535.xlsx). If you change the value of cell B1 to 100, the values of the Data Table which are filled with Yellow color will become 120 as shown in the following images. The sample code generates the [output PDF](attachments/5023561/5115538.pdf).
+In the following sample code, we used the [source excel file](5115535.xlsx). If you change the value of cell B1 to 100, the values of the Data Table which are filled with Yellow color will become 120 as shown in the following images. The sample code generates the [output PDF](5115538.pdf).
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_1.png)
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_2.png)
 
-Here is the sample code used to generate the [output PDF](attachments/5023561/5115538.pdf) from the [source excel file](attachments/5023561/5115535.xlsx). Please read the comments for more information.
+Here is the sample code used to generate the [output PDF](5115538.pdf) from the [source excel file](5115535.xlsx). Please read the comments for more information.
 
 
 

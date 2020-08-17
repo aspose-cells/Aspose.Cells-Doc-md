@@ -12,7 +12,7 @@ Aspose.Cells provides the [Shape.Glow](https://apireference.aspose.com/net/cells
 - [GlowEffect.Transparency](https://apireference.aspose.com/net/cells/aspose.cells.drawing/gloweffect/properties/transparency)
 - [GlowEffect.Color](https://apireference.aspose.com/net/cells/aspose.cells.drawing/gloweffect/properties/color)
 ## **Working with the Glow Effect of Shape or Chart**
-The following sample code loads the [source excel file](attachments/5013701/5115407.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.Glow](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/glow) property and then saves the workbook in [output excel file](attachments/5013701/5115414.xlsx).
+The following sample code loads the [source excel file](5115407.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.Glow](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/glow) property and then saves the workbook in [output excel file](5115414.xlsx).
 
 
 

@@ -45,9 +45,9 @@ Aspose.Cells provides features to register add in functions using Worksheets.Reg
 
 Following XLAM file shall be downloaded for registering the add in function in the below sample code. Similarly the output file "test_udf.xlsx" can be downloaded to check the output.
 
-[TestUDF.xlam](attachments/5017210/81920908.xlam)
+[TestUDF.xlam](81920908.xlam)
 
-[test_udf.xlsx](attachments/5017210/81920909.xlsx)
+[test_udf.xlsx](81920909.xlsx)
 
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Formulas-RegisterAndCallFuncFromAddIn-1.cs" >}}
 ## **Using Array Formula**

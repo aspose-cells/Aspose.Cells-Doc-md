@@ -11,11 +11,11 @@ Sometimes, you want to specify which kind of data should be loaded when building
 
 {{% /alert %}} 
 
-The following sample code loads only shape objects while loading the workbook from the [template file](attachments/5013590/5115552.xlsx) which you can download from the given link. The following screenshot shows the [template file](attachments/5013590/5115552.xlsx) contents and also explains that the data in Red color and Yellow background will not be loaded because [LoadOptions.LoadFilter](https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter) property has been set to [LoadDataFilterOptions.Shape](https://apireference.aspose.com/net/cells/aspose.cells/loaddatafilteroptions)
+The following sample code loads only shape objects while loading the workbook from the [template file](5115552.xlsx) which you can download from the given link. The following screenshot shows the [template file](5115552.xlsx) contents and also explains that the data in Red color and Yellow background will not be loaded because [LoadOptions.LoadFilter](https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter) property has been set to [LoadDataFilterOptions.Shape](https://apireference.aspose.com/net/cells/aspose.cells/loaddatafilteroptions)
 
 ![todo:image_alt_text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-The following screenshot shows the [output PDF](attachments/5013590/5115555.pdf) which you can download from the given link. Here you can see, the data in Red color and Yellow background is not present but all shapes are there.
+The following screenshot shows the [output PDF](5115555.pdf) which you can download from the given link. Here you can see, the data in Red color and Yellow background is not present but all shapes are there.
 
 ![todo:image_alt_text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

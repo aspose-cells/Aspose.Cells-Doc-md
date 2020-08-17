@@ -9,8 +9,8 @@ Generating an HTML file from a spreadsheet is very common. The size of the colum
 
 Sample source file and output files can be downloaded from the following links:
 
-[sampleForScalableColumns.xlsx](attachments/73826367/73990150.xlsx)
+[sampleForScalableColumns.xlsx](73990150.xlsx)
 
-[outsampleForScalableColumns.zip](attachments/73826367/73990151.zip)
+[outsampleForScalableColumns.zip](73990151.zip)
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-HTML-SetScalableColumnWidth-1.cs" >}}

@@ -12,7 +12,7 @@ Sample Code
 
 Following sample code loads a workbook and then exports print area to the HTML. Sample file for testing this feature can be downloaded from the following link:
 
-[sampleInlineCharts.xlsx](attachments/79331352/79527946.xlsx)
+[sampleInlineCharts.xlsx](79527946.xlsx)
 
 
 

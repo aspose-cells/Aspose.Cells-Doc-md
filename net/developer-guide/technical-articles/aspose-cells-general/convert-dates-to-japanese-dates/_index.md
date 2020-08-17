@@ -13,7 +13,7 @@ In the Japanese** **Calendar, a new era begins with the reign of a new emperor. 
 
 
 
-Aspose.Cells provides a way to convert Gregorian dates to Japanese dates. During this conversion, the changes in the era are also considered. The following code snippet converts the [source Excel](attachments/89981349/90112015.xlsx) file containing Gregorian dates to the [output PDF](attachments/89981349/90112016.pdf) with Japanese dates as shown in the image below.
+Aspose.Cells provides a way to convert Gregorian dates to Japanese dates. During this conversion, the changes in the era are also considered. The following code snippet converts the [source Excel](90112015.xlsx) file containing Gregorian dates to the [output PDF](90112016.pdf) with Japanese dates as shown in the image below.
 
 ![todo:image_alt_text](convert-dates-to-japanese-dates_1.jpg)
 

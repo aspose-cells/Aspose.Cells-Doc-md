@@ -17,7 +17,7 @@ The screenshot shows the effect of setting different default font names via [Htm
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
-The code generates the [output HTML file with Courier New](attachments/5024958/5115516.htm), the [output HTML with Arial](attachments/5024958/5115518.htm), and the [output HTML file with Times New Roman](attachments/5024958/5115517.htm).
+The code generates the [output HTML file with Courier New](5115516.htm), the [output HTML with Arial](5115518.htm), and the [output HTML file with Times New Roman](5115517.htm).
 
 
 

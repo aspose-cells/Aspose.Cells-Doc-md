@@ -12,6 +12,6 @@ With Aspose.Cells, you can read and write a table which has a QueryTable as Data
 
 The source and output excel files are attached for reference.
 
-[Source File](attachments/96764758/96928091.xls)
+[Source File](96928091.xls)
 
-[Output File](attachments/96764758/96928092.xls)
+[Output File](96928092.xls)

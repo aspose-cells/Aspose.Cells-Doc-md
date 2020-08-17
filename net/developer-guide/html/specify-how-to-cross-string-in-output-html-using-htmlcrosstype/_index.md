@@ -24,7 +24,7 @@ Display HTML cross string, the performance for creating large html files will be
 
 Only displaying the string within the width of cell.
 ## **Specify how to cross string in output HTML using HtmlCrossType**
-The following sample code loads the [sample Excel file](attachments/51479995/51740732.xlsx) and saves it to HTML format by specifying different HtmlCrossType. Please download the [output HTMLs](attachments/51479995/51740734.zip) generated with this code. The sample Excel file contains the image bordered with red color as shown in this screenshot that shows the effect of the HtmlCrossType values on output HTML.
+The following sample code loads the [sample Excel file](51740732.xlsx) and saves it to HTML format by specifying different HtmlCrossType. Please download the [output HTMLs](51740734.zip) generated with this code. The sample Excel file contains the image bordered with red color as shown in this screenshot that shows the effect of the HtmlCrossType values on output HTML.
 
 ![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 ## **Sample Code**

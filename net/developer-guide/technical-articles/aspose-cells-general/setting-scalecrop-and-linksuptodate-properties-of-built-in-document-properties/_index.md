@@ -18,7 +18,7 @@ The possible values for this element are defined by the W3C XML Schema boolean d
 ## **Screenshot showing these properties inside the app.xml file**
 ![todo:image_alt_text](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
 ## **Setting ScaleCrop and LinksUpToDate properties of Built-In Document Properties**
-The following sample code sets the [ScaleCrop](https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) and [LinksUpToDate](https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) extended built-in document properties of the workbook. Please check the [output excel file](attachments/5013554/5115500.xlsx) generated with this code, change its extension to .zip and extract its contents and view the app.xml as shown in the screenshot above.
+The following sample code sets the [ScaleCrop](https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) and [LinksUpToDate](https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) extended built-in document properties of the workbook. Please check the [output excel file](5115500.xlsx) generated with this code, change its extension to .zip and extract its contents and view the app.xml as shown in the screenshot above.
 
 
 

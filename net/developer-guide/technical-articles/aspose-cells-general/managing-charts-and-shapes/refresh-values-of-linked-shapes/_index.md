@@ -15,6 +15,6 @@ The following screenshot shows the source Excel file used in the sample code bel
 
 ![todo:image_alt_text](refresh-values-of-linked-shapes_1.jpg)
 
-You can download the [source Excel file](attachments/5017331/95584291.xlsx) and the [output PDF](attachments/5017331/95584292.pdf) from the given links.
+You can download the [source Excel file](95584291.xlsx) and the [output PDF](95584292.pdf) from the given links.
 ## **Code**
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}

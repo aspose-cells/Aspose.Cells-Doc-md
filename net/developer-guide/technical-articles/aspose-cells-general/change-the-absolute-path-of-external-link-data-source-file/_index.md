@@ -13,7 +13,7 @@ The following sample code loads the [sample excel file](attachments/5013577/5115
 
 
 
-Here is the console or debug output after the execution of the above sample code with the [sample excel file](attachments/5013577/5115146.xlsx).
+Here is the console or debug output after the execution of the above sample code with the [sample excel file](5115146.xlsx).
 
 
 

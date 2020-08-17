@@ -11,7 +11,7 @@ url: /net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 
 {{% /alert %}} 
 
-The following sample code adds 2-Color and 3-Color Scale Conditional Formattings. It generates the [output excel file](attachments/5018372/5115058.xlsx).
+The following sample code adds 2-Color and 3-Color Scale Conditional Formattings. It generates the [output excel file](5115058.xlsx).
 
 
 

@@ -18,6 +18,6 @@ The implementation of *CustomerDataSource*, *Customer*, and *CustomerList* cl
 
 The source and output excel files are attached for reference.
 
-[Source File](attachments/95323811/95584319.xlsx)
+[Source File](95584319.xlsx)
 
-[Output File](attachments/95323811/95584320.xlsx)
+[Output File](95584320.xlsx)

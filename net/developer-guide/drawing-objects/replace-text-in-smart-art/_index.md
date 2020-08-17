@@ -10,6 +10,6 @@ Smart art is one of the major objects in a workbook. Many times there is a need 
 
 The sample source file can be downloaded from the following link:
 
-[SmartArt.xlsx](attachments/77365366/77496338.xlsx)
+[SmartArt.xlsx](77496338.xlsx)
 ## **Sample Code**
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Articles-ReplaceTextInSmartArt-1.cs" >}}

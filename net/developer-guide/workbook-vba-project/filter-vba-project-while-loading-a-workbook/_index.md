@@ -10,6 +10,6 @@ Some .xlsm/.xslb files have an extremely large amount of macros (or very, very l
 ## **Sample Code**
 The following sample code loads a workbook such that only VBA is filtered. A sample file for testing this feature can be downloaded from the following link:
 
-[sampleMacroEnabledWorkbook.xlsm](attachments/79331346/79527938.xlsm)
+[sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-FilterVBAMacrosWhileLoadingWorkbook-1.cs" >}}

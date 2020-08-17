@@ -26,8 +26,8 @@ Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable font
 ## **Download Source File and Output PDF**
 You can download the source Excel file and the output PDF from the following links
 
-- [source.xlsx](attachments/5017493/5112611.xlsx)
-- [output.pdf](attachments/5017493/5112616.pdf)
+- [source.xlsx](5112611.xlsx)
+- [output.pdf](5112616.pdf)
 ## **Code**
 The following code implements the IWarningCallback and set the PdfSaveOptions.WarningCallback property with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the WarningCallback.Warning() method.
 

@@ -26,11 +26,11 @@ Only display the string within the width of the cell.
 ## **Specify how to cross string in output PDF/Image using TextCrossType**
 The following sample code loads the sample Excel file and saves it to PDF/Image format by specifying different [TextCrossType](https://apireference.aspose.com/net/cells/aspose.cells/textcrosstype). The sample Excel file and output files can be downloaded from the following links:
 
-[sampleCrossType.xlsx](attachments/81690955/81920905.xlsx)
+[sampleCrossType.xlsx](81920905.xlsx)
 
-[outputCrossType.pdf](attachments/81690955/81920903.pdf)
+[outputCrossType.pdf](81920903.pdf)
 
-[outputCrossType.png](attachments/81690955/81920904.png)
+[outputCrossType.png](81920904.png)
 
 Sample Code
 

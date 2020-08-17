@@ -19,11 +19,11 @@ Some APIs (classes, struct, enumerations etc.) are added based on some advanced 
 
 Following is the classes list which are renamed:
 
-\1. **Excel** class is replaced by **Workbook** class.
+1. **Excel** class is replaced by **Workbook** class.
 
-\2. **ExcelDesigner** class is replaced by **WorkbookDesigner** class.
+2. **ExcelDesigner** class is replaced by **WorkbookDesigner** class.
 
-\3. **ExcelHelper** class is replaced by **CellsHelper** class.
+3. **ExcelHelper** class is replaced by **CellsHelper** class.
 
 For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-.NET>
 

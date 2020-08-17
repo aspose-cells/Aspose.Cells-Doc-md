@@ -11,7 +11,7 @@ CSV file mostly contains textual data and they do not contain any formulas. Howe
 
 {{% /alert %}} 
 
-The following code illustrates how you can load as well as import a CSV file with formulas. You can use any CSV file. For illustration purpose, we use the [simple csv file](attachments/5018760/5115034.csv) which contains this data. As you see it contains a formula.
+The following code illustrates how you can load as well as import a CSV file with formulas. You can use any CSV file. For illustration purpose, we use the [simple csv file](5115034.csv) which contains this data. As you see it contains a formula.
 
 {{< highlight java >}}
 
@@ -23,7 +23,7 @@ The following code illustrates how you can load as well as import a CSV file wit
 
 
 
-The code first loads the CSV file, then import it again at cell D4. Finally, it saves the workbook object in XSLX format. The [output XLSX file](attachments/5018760/5115052.xlsx) looks like this. As you see cell C3 and F4 contain formula and its result 800.
+The code first loads the CSV file, then import it again at cell D4. Finally, it saves the workbook object in XSLX format. The [output XLSX file](5115052.xlsx) looks like this. As you see cell C3 and F4 contain formula and its result 800.
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |

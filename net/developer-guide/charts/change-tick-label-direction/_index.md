@@ -6,7 +6,7 @@ url: /net/change-tick-label-direction/
 ---
 
 # **Change Tick Label Direction**
-Aspose.Cells provides you with the ability to change the chart tick label direction by using the [TickLabels.DirectionType](https://apireference.aspose.com/net/cells/aspose.cells.charts/ticklabels/properties/directiontype) property. The [TickLabels.DirectionType](https://apireference.aspose.com/net/cells/aspose.cells.charts/ticklabels/properties/directiontype) property accepts the [ChartTextDirectionType](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttextdirectiontype) enumeration value. The [ChartTextDirectionType](attachments/105284039/105480220.ods) enumeration provides the following members
+Aspose.Cells provides you with the ability to change the chart tick label direction by using the [TickLabels.DirectionType](https://apireference.aspose.com/net/cells/aspose.cells.charts/ticklabels/properties/directiontype) property. The [TickLabels.DirectionType](https://apireference.aspose.com/net/cells/aspose.cells.charts/ticklabels/properties/directiontype) property accepts the [ChartTextDirectionType](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttextdirectiontype) enumeration value. The [ChartTextDirectionType](105480220.ods) enumeration provides the following members
 
 - Horizontal
 - Vertical
@@ -26,6 +26,6 @@ The following code snippet changes the tick label direction from Rotate90 to Hor
 
 The source and output files can be downloaded from the following links.
 
-[Source File](attachments/105284039/105480221.xlsx)
+[Source File](105480221.xlsx)
 
-[Output File](attachments/105284039/105480223.xlsx)
+[Output File](105480223.xlsx)

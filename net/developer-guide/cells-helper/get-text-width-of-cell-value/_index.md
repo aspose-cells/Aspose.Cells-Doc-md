@@ -10,7 +10,7 @@ Sometimes, the developers might need to calculate the width of the cell's value 
 
 The Source file used in the following code snippet is attached for your reference.
 
-[Source File](attachments/96764748/96928090.xlsx)
+[Source File](96928090.xlsx)
 
 
 

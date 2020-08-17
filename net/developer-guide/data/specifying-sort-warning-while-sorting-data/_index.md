@@ -10,6 +10,6 @@ Please consider this textual data i.e. {11, 111, 22}. This textual data is sorte
 
 ![todo:image_alt_text](specifying-sort-warning-while-sorting-data_1.png)
 ## **Sample Code**
-The following sample code illustrates the usage of [DataSorter.SortAsNumber](https://apireference.aspose.com/net/cells/aspose.cells/datasorter/properties/sortasnumber) property as explained earlier. Please check its [sample Excel file](attachments/42729848/43352075.xlsx) and [output Excel file](attachments/42729848/43352076.xlsx) for more help.
+The following sample code illustrates the usage of [DataSorter.SortAsNumber](https://apireference.aspose.com/net/cells/aspose.cells/datasorter/properties/sortasnumber) property as explained earlier. Please check its [sample Excel file](43352075.xlsx) and [output Excel file](43352076.xlsx) for more help.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-SpecifyingSortWarningWhileSortingData.cs" >}}

@@ -16,13 +16,13 @@ You can assign **Password to open** and **Password to modify** while creating yo
 |![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|
 | :- |
 ## **Check Password to modify using Aspose.Cells**
-The following sample codes load the [source Excel](attachments/5017659/5112232.xlsx) file. It has a Password to open as 1234 and Password to modify as 5678. The code first checks if 567 is correct Password to modify and it returns false and then it checks if 5678 is Password to modify and it returns true.
+The following sample codes load the [source Excel](5112232.xlsx) file. It has a Password to open as 1234 and Password to modify as 5678. The code first checks if 567 is correct Password to modify and it returns false and then it checks if 5678 is Password to modify and it returns true.
 
 
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckPasswordToModify-CheckPasswordToModifyUsingAsposeCells.cs" >}}
 ### **Console Output**
-Here is the Console Output of the above sample code after loading the [source Excel](attachments/5017659/5112232.xlsx) file.
+Here is the Console Output of the above sample code after loading the [source Excel](5112232.xlsx) file.
 
 {{< highlight java >}}
 

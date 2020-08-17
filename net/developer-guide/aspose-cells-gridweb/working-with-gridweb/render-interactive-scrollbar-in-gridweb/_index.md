@@ -22,7 +22,7 @@ Aspose.Cells for GridWeb can render interactive scroll bar control inside the Gr
 
 {{< /highlight >}}
 ## **Render Interactive Scrollbar in GridWeb**
-The following sample code loads the [sample Excel file](attachments/61540702/61767764.xlsx) containing the scroll bar as shown in the following screenshot. The other screenshots show how the GridWeb renders interactive scroll bar and displays the value of scroll bar in cell B3. Whenever you scroll the scroll bar, the value of cell B3 shows the resulting value.
+The following sample code loads the [sample Excel file](61767764.xlsx) containing the scroll bar as shown in the following screenshot. The other screenshots show how the GridWeb renders interactive scroll bar and displays the value of scroll bar in cell B3. Whenever you scroll the scroll bar, the value of cell B3 shows the resulting value.
 
 ![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 

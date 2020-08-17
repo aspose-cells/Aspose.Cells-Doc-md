@@ -10,7 +10,7 @@ Text boxes can have tags which can be replaced with some text at run time to con
 ## **Sample Code**
 Following sample code replaces tags TAG_1 and TAG_2 with some text say 'ys' and '1'. Sample file for testing below code can be downloaded from the following link:
 
-[sampleReplaceTagWithText.xlsx](attachments/79331350/79527942.xlsx)
+[sampleReplaceTagWithText.xlsx](79527942.xlsx)
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-ReplaceTagWithTextInTextBox-1.cs" >}}
 

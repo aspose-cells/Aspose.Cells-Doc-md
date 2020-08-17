@@ -14,9 +14,9 @@ The following screenshot shows the output excel file with the visible apostroph
 
 The following code snippet demonstrates this by adding data with Smart Markers in the source excel file. The source and output excel files are attached for reference.
 
-[Source File](attachments/97878713/98107425.xlsx)
+[Source File](98107425.xlsx)
 
-[Output File](attachments/97878713/98107426.xlsx)
+[Output File](98107426.xlsx)
 ### **Sample Code**
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Workbook-AllowLeadingApostrophe-1.cs" >}}
 

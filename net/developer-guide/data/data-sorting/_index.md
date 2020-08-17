@@ -43,8 +43,8 @@ Excel provides features to sort data based on the background colour. The same fe
 
 Following are the sample files which can be downloaded for testing this feature:
 
-[sampleBackGroundFile.xlsx](attachments/5025104/81920906.xlsx)
+[sampleBackGroundFile.xlsx](81920906.xlsx)
 
-[outputsampleBackGroundFile.xlsx](attachments/5025104/81920907.xlsx)
+[outputsampleBackGroundFile.xlsx](81920907.xlsx)
 
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Data-SortDataInColumnWithBackgroundColor-1.cs" >}}

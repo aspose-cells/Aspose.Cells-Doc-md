@@ -16,7 +16,7 @@ Aspose.Cells provides the [Shape.ShadowEffect](https://apireference.aspose.com/n
 - [Size](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shadoweffect/properties/size)
 - [Transparency](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shadoweffect/properties/transparency)
 ## **Working with the Shadow Effect of Shape or Chart**
-The following sample code loads the [source excel file](attachments/5013609/5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ShadowEffect](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/shadoweffect) property and then saves the workbook in the [output excel file](attachments/5013609/5115411.xlsx).
+The following sample code loads the [source excel file](5115425.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ShadowEffect](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/shadoweffect) property and then saves the workbook in the [output excel file](5115411.xlsx).
 
 
 

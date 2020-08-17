@@ -9,6 +9,6 @@ English formulae are written into named region. This Excel file can be opened in
 
 Sample file for testing this feature can be downloaded from the following link:
 
-[sampleNamedRangeTest.xlsm](attachments/73826373/73990165.xlsm)
+[sampleNamedRangeTest.xlsm](73990165.xlsm)
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.cs" >}}

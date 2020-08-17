@@ -18,7 +18,7 @@ User may gather those circular references in the implementation of [AbstractCalc
 
 The source sample file can be downloaded from the following link:
 
-[Circular Formulas.xls](attachments/77365360/77496332.xls)
+[Circular Formulas.xls](77496332.xls)
 
 
 

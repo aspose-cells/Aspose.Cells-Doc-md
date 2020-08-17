@@ -11,7 +11,7 @@ Aspose.Cells.GridDesktop can read and apply **Data Validations** in your Excel f
 
 {{% /alert %}} 
 ## **Reading Data Validations in Excel file using Aspose.Cells.GridDesktop**
-The following sample code imports the [sample excel file](attachments/5013594/5115550.xlsx) which contains some **Data Validations** inside the GridDesktop.
+The following sample code imports the [sample excel file](5115550.xlsx) which contains some **Data Validations** inside the GridDesktop.
 
 
 

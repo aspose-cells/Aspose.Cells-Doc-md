@@ -11,7 +11,7 @@ Aspose.Cells allows you to export VBA Digital Certificate to stream such as file
 
 {{% /alert %}} 
 
-Please see the following sample code that saves the raw data of the VBA Certificate into a file. You can download the [sample excel file used in this code](attachments/5018962/5115031.xlsm) from the provided link.
+Please see the following sample code that saves the raw data of the VBA Certificate into a file. You can download the [sample excel file used in this code](5115031.xlsm) from the provided link.
 
 
 

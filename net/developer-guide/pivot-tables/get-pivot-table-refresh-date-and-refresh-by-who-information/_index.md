@@ -13,7 +13,7 @@ Aspose.Cells now supports fetching the refresh date and refresh by who informati
 
 [PivotTable.RefreshDate](https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/refreshdate) returns the date on which the PivotTable report was last refreshed. Similarly [PivotTable.RefreshByWho](https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/refreshedbywho) property returns the name of the user who refreshed the report last time. Following example demonstrates this feature and sample file can be downloaded from the following link.
 
-[SourcePivotTable.xlsx](attachments/77365364/77496335.xlsx)
+[SourcePivotTable.xlsx](77496335.xlsx)
 
 **Sample Code**
 

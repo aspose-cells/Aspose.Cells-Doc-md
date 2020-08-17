@@ -100,25 +100,25 @@ When cells having any text are to be filtered, use MatchNonBlanks filter functio
 ##### **Custom filter with Contains**
 Excel provides custom filters like filter rows which contain some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file. Sample files are given below.
 
-1. ` `[sourseSampleCountryNames.xlsx](attachments/68944719/72417288.xlsx)
-1. [outSourseSampleCountryNames.xlsx](attachments/68944719/72417289.xlsx).
+1. ` `[sourseSampleCountryNames.xlsx](72417288.xlsx)
+1. [outSourseSampleCountryNames.xlsx](72417289.xlsx).
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-Contains-1.cs" >}}
 ##### **Custom filter with NotContains**
 Excel provides custom filters like filter rows which does not contain some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
 
-1. [sourseSampleCountryNames.xlsx](attachments/68944719/72417288.xlsx).
+1. [sourseSampleCountryNames.xlsx](72417288.xlsx).
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-NotContains-1.cs" >}}
 ##### **Custom filter with BeginsWith**
 Excel provides custom filters like filter rows which begins with some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
 
-1. [sourseSampleCountryNames.xlsx](attachments/68944719/72417288.xlsx).
+1. [sourseSampleCountryNames.xlsx](72417288.xlsx).
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterBeginsWith-1.cs" >}}
 ##### **Custom filter with EndsWith**
 Excel provides custom filters like filter rows which ends with some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
 
-1. [sourseSampleCountryNames.xlsx](attachments/68944719/72417288.xlsx).
+1. [sourseSampleCountryNames.xlsx](72417288.xlsx).
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}

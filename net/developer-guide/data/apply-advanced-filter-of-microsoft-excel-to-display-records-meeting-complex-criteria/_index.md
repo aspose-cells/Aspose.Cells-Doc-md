@@ -32,7 +32,7 @@ The range where copying data to.
 
 Only displaying or copying unique rows.
 ## **Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria**
-The following sample code applies the advanced filter on the [Sample Excel File](attachments/48136879/48496692.xlsx) and generates the [Output Excel File](attachments/48136879/48496691.xlsx). The screenshot shows both files for comparison. As you can see inside the screenshot, data has been filtered inside the output Excel file according to complex criteria.
+The following sample code applies the advanced filter on the [Sample Excel File](48496692.xlsx) and generates the [Output Excel File](48496691.xlsx). The screenshot shows both files for comparison. As you can see inside the screenshot, data has been filtered inside the output Excel file according to complex criteria.
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 ## **Sample Code**

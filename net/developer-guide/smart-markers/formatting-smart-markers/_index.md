@@ -19,6 +19,6 @@ When executing the code, Aspose.Cells copies the formatting to all the records i
 ### **Introduction**
 While working with Smart Markers' grouping data feature, sometimes you need to add your own custom labels to the summary row. You also want to concatenate the Column's name with that Label, e.g "Sub Total of Orders". Aspose.Cells provides you Label and LabelPosition attributes, so you may place your custom labels in the Smart Markers while concatenating with the Subtotal rows in grouping data.
 ### **Adding custom Labels to concatenate with the Subtotal rows in Smart Markers**
-This example uses a [data file](attachments/5017029/96927971.xlsx) and a [template file](attachments/5017029/96927972.xlsx) with a few markers in the cells. When executing the code, Aspose.Cells adds some custom labels to the summary rows for the grouped data.
+This example uses a [data file](96927971.xlsx) and a [template file](96927972.xlsx) with a few markers in the cells. When executing the code, Aspose.Cells adds some custom labels to the summary rows for the grouped data.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-AddCustomLabels-1.cs" >}}

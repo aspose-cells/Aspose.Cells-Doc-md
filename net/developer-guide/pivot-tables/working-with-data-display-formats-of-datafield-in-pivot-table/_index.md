@@ -15,9 +15,9 @@ Aspsoe.Cells provides the ability to set the display format option for pivot fie
 
 Sample source and output files can be downloaded from here for testing the sample code:
 
-[Source Excel File](attachments/101122967/101089332.xlsx)
+[Source Excel File](101089332.xlsx)
 
-[Output Excel File](attachments/101122967/101089333.xlsx)
+[Output Excel File](101089333.xlsx)
 
 
 

@@ -13,7 +13,7 @@ An Excel file can have different types of hyperlinks like external, cell referen
 - Email: Email
 - CellReference: Link to cell or named range.
 
-To check the type of hyperlink, the [Hyperlink](https://apireference.aspose.com/net/cells/aspose.cells/hyperlink) class provides a [LinkType](https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/properties/linktype) property with a return type of [TargetModeType](https://apireference.aspose.com/net/cells/aspose.cells/targetmodetype). The following code snippet demonstrates the use of the [LinkType](https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/properties/linktype) property by using this [source excel file](attachments/94635648/94896195.xlsx).
+To check the type of hyperlink, the [Hyperlink](https://apireference.aspose.com/net/cells/aspose.cells/hyperlink) class provides a [LinkType](https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/properties/linktype) property with a return type of [TargetModeType](https://apireference.aspose.com/net/cells/aspose.cells/targetmodetype). The following code snippet demonstrates the use of the [LinkType](https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/properties/linktype) property by using this [source excel file](94896195.xlsx).
 
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Workbook-DetectLinkTypes-1.cs" >}}
 

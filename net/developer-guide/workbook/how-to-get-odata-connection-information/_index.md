@@ -12,7 +12,7 @@ The following code snippet demonstrates the use of these classes to retrieve the
 
 The Source file used in the following code snippet is attached for your reference.
 
-[Source File](attachments/96764782/96928098.xlsx)
+[Source File](96928098.xlsx)
 ### **Sample Code**
 {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Workbook-GetOdataDetails-1.cs" >}}
 ### **Console Output**

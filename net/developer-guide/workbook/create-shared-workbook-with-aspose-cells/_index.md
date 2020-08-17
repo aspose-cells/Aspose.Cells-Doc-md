@@ -10,7 +10,7 @@ Microsoft Excel allows you to share the workbook as shown in the following scree
 
 ![todo:image_alt_text](create-shared-workbook-with-aspose-cells_1.png)
 ## **Create Shared Workbook with Aspose.Cells**
-The following sample code creates a shared workbook by setting [Workbook.Settings.Shared](https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/shared) property as **true**. When you will open the [output Excel file](attachments/54690107/55541786.xlsx) in Microsoft Excel, you will see **Shared** with the output workbook name as shown in this screenshot.
+The following sample code creates a shared workbook by setting [Workbook.Settings.Shared](https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/shared) property as **true**. When you will open the [output Excel file](55541786.xlsx) in Microsoft Excel, you will see **Shared** with the output workbook name as shown in this screenshot.
 
 
 
