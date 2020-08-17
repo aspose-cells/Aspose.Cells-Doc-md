@@ -9,6 +9,6 @@ url: /net/testimonials/
 
 For testimonials from Aspose.Cells customers, please check:
 
-[Testimonials](hhttps://downloads.aspose.com/corporate/case-studies/aspose.cells/)
+[Testimonials](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 
 {{% /alert %}}
