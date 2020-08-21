@@ -51,50 +51,50 @@ Aspose.Cells provides multiple options to apply different type of filters like C
 ##### **Fill Color**
 Aspose.Cells provides a function [addFillColorFilter](https://apireference.aspose.com/java/cells/com.aspose.cells/autofilter#addFillColorFilter\(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor\)) to filter data based upon the fill color property of the cells. In the example given below, a template file having different fill colors in the first column of the sheet is used to test the color filtering function. Following files can be downloaded to check the functionality.
 
-1. [ColouredCells.xlsx](attachments/72188214/72417315.xlsx)
-1. [FilteredColouredCells.xlsx](attachments/72188214/72417316.xlsx)
+1. [ColouredCells.xlsx](72417315.xlsx)
+1. [FilteredColouredCells.xlsx](72417316.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterColor.java" >}}
 ##### **Date**
 Different types of date filters can be implemented like filtering all the rows having dates in January 2018. Following sample code demonstrates this filter using [addDateFilter](https://apireference.aspose.com/java/cells/com.aspose.cells/autofilter#addDateFilter\(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int\)) function. Following files can be used for testing this functionality.
 
-1. [Date.xlsx](attachments/72188214/72417317.xlsx)
-1. [FilteredDate.xlsx](attachments/72188214/72417318.xlsx)
+1. [Date.xlsx](72417317.xlsx)
+1. [FilteredDate.xlsx](72417318.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDate.java" >}}
 ##### **Dynamic Date**
 Sometimes dynamic filters are required based on a date like all the cells having dates in January irrespective of the year. In this case, [DynamicFilter](https://apireference.aspose.com/java/cells/com.aspose.cells/autofilter#dynamicFilter\(int,%20int\)) function is used as given in the following sample code. Following files can be used for testing.
 
-1. [Date.xlsx](attachments/72188214/72417317.xlsx)
-1. [FilteredDynamicDate.xlsx](attachments/72188214/72417319.xlsx)
+1. [Date.xlsx](72417317.xlsx)
+1. [FilteredDynamicDate.xlsx](72417319.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDynamicFilter.java" >}}
 ##### **Number**
 Custom filters can be applied using Aspose.Cells like selecting cells having number between a given range. Following example demonstrates the usage of [custom()](https://apireference.aspose.com/java/cells/com.aspose.cells/autofilter#custom\(int,%20int,%20java.lang.Object\)) function to filter numbers. Sample files can be downloaded from the following links.
 
-1. [Number.xlsx](attachments/72188214/72417320.xlsx)
-1. [FilteredNumber.xlsx](attachments/72188214/72417321.xlsx)
+1. [Number.xlsx](72417320.xlsx)
+1. [FilteredNumber.xlsx](72417321.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterNumber.java" >}}
 ##### **Text**
 If a column contains text and cells are to be selected containing particular text, [filter()](https://apireference.aspose.com/java/cells/com.aspose.cells/autofilter#filter\(int,%20java.lang.String\)) function can be used. In the following example, the template file contains a list of countries and row is to be selected containing particular country name. Following code demonstrates filtering text using the below sample files.
 
-1. [Text.xlsx](attachments/72188214/72417322.xlsx)
-1. [FilteredText.xlsx](attachments/72188214/72417323.xlsx)
+1. [Text.xlsx](72417322.xlsx)
+1. [FilteredText.xlsx](72417323.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterText.java" >}}
 ##### **Blanks**
 If a column contains text such that few cells are blank, and filter is required to select those rows only where blank cells are present, [matchBlanks()](https://apireference.aspose.com/java/cells/com.aspose.cells/autofilter#matchBlanks\(int\)) function can be used as demonstrated below. Sample files can be downloaded from the following links.
 
-1. [Blank.xlsx](attachments/72188214/72417324.xlsx)
-1. [FilteredBlank.xlsx](attachments/72188214/72417325.xlsx)
+1. [Blank.xlsx](72417324.xlsx)
+1. [FilteredBlank.xlsx](72417325.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterBlank.java" >}}
 ##### **Non Blanks**
 When cells having any text are to be filtered, use [MatchNonBlanks](https://apireference.aspose.com/java/cells/com.aspose.cells/autofilter#matchNonBlanks\(int\)) filter function as demonstrated below. Sample files can be downloaded from the following links.
 
-1. [Blank.xlsx](attachments/72188214/72417324.xlsx)
-1. [FilteredNonBlank.xlsx](attachments/72188214/72417326.xlsx)
+1. [Blank.xlsx](72417324.xlsx)
+1. [FilteredNonBlank.xlsx](72417326.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterNonBlank.java" >}}
 ##### **Custom filter with Contains**

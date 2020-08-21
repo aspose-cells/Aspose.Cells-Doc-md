@@ -10,7 +10,7 @@ Smart art is one of the major objects in a workbook. Many times there is a need 
 
 The sample source file can be downloaded from the following link:
 
-[SmartArt.xlsx](attachments/77791243/77987848.xlsx)
+[SmartArt.xlsx](77987848.xlsx)
 ## **Sample Code**
 
 

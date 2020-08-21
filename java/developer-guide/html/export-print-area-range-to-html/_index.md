@@ -10,6 +10,6 @@ This is a very common scenario that we need to export only print area i.e. selec
 ## **Sample Code**
 Following sample code loads a workbook and then exports print area to the HTML. The sample file for testing this feature can be downloaded from the following link:
 
-[sampleInlineCharts.xlsx](attachments/79331440/79527960.xlsx)
+[sampleInlineCharts.xlsx](79527960.xlsx)
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}

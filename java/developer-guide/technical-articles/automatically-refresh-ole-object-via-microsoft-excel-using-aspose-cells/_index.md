@@ -11,13 +11,13 @@ Aspose.Cells provides the [OleObject.AutoLoad](https://apireference.aspose.com/j
 
 {{% /alert %}} 
 #### **Automatically refresh OLE object via Microsoft Excel using Aspose.Cells**
-The following sample code loads the [sample excel file](attachments/5276028/5473423.xlsx) which has a non-real OLE image. The OLE object is actually a Microsoft Word document but the sample excel file shows the animal image instead of Microsoft Word image. But if you open the [output excel file](attachments/5276028/5473429.xlsx), you will see Microsoft Excel displays the correct OLE image.
+The following sample code loads the [sample excel file](5473423.xlsx) which has a non-real OLE image. The OLE object is actually a Microsoft Word document but the sample excel file shows the animal image instead of Microsoft Word image. But if you open the [output excel file](5473429.xlsx), you will see Microsoft Excel displays the correct OLE image.
 
-The following screenshot shows how the [sample excel file](attachments/5276028/5473423.xlsx) looks when opened in Microsoft Excel.
+The following screenshot shows how the [sample excel file](5473423.xlsx) looks when opened in Microsoft Excel.
 
 ![todo:image_alt_text](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_1.png)
 
-The following screenshot shows how the [output excel file](attachments/5276028/5473429.xlsx) looks when opened in Microsoft Excel.
+The following screenshot shows how the [output excel file](5473429.xlsx) looks when opened in Microsoft Excel.
 
 ![todo:image_alt_text](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_2.png)
 

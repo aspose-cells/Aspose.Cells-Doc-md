@@ -20,7 +20,7 @@ The default value of ***CheckWorkbookDefaultFont*** attribute is **true**.
 
 {{% /alert %}} 
 
-This is the screenshot of the [template file](attachments/48136510/49446914.xlsx) used in the example code.
+This is the screenshot of the [template file](49446914.xlsx) used in the example code.
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 

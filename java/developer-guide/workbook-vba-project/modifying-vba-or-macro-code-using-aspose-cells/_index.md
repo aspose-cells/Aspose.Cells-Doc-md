@@ -41,7 +41,7 @@ End Sub
 
 {{< /highlight >}}
 
-You can download the [source Excel file](attachments/5276586/5472596.xlsm) and the [output Excel file](attachments/5276586/5472597.xlsm) from the given links.
+You can download the [source Excel file](5472596.xlsm) and the [output Excel file](5472597.xlsm) from the given links.
 
 
 

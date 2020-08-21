@@ -10,7 +10,7 @@ Some .xlsm/.xslb files have extremely large amount of macros (or very, very long
 ## **Sample Code**
 The following sample code loads a workbook such that only VBA is filtered. Sample file for testing this feature can be downloaded from the following link:
 
-[sampleMacroEnabledWorkbook.xlsm](attachments/79331431/79527951.xlsm)
+[sampleMacroEnabledWorkbook.xlsm](79527951.xlsm)
 
 // Set the load options, we do not want to load VBA
 LoadOptions loadOptions = new LoadOptions(LoadFormat.AUTO);

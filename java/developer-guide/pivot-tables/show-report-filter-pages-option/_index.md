@@ -14,9 +14,9 @@ As a result of this option, the created workbook contains more worksheets. It sp
 
 The sample file and output file can be downloaded from the following links:
 
-[samplePivotTable.xlsx](attachments/81690964/81920917.xlsx)
+[samplePivotTable.xlsx](81920917.xlsx)
 
-[outputSamplePivotTable.xls](attachments/81690964/81920918.xlsx)
+[outputSamplePivotTable.xls](81920918.xlsx)
 
 
 

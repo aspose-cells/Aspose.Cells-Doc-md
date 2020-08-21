@@ -101,7 +101,7 @@ With this type of validation, users can enter text values of a specified length 
 ### **Data Validation Rules**
 When data validations are implemented, then validation can be checked by assigning different values in the cells. [Cell.GetValidationValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue\(\)) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:
 
-[SampleDataValidationRules.xlsx](attachments/5276732/77987849.xlsx)
+[SampleDataValidationRules.xlsx](77987849.xlsx)
 
 **Sample Code**
 
@@ -109,7 +109,7 @@ When data validations are implemented, then validation can be checked by assigni
 ### **Check if validation in a cell is dropdown**
 As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [Validation.InCellDropDown](https://apireference.aspose.com/java/cells/com.aspose.cells/validation#InCellDropDown) property can be used to test this. Following sample code demonstrates the usage of this property. The sample file for testing can be downloaded from the following link:
 
-[sampleDataValidationRules.xlsx](attachments/5276732/77987849.xlsx)
+[sampleDataValidationRules.xlsx](77987849.xlsx)
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ### **Add CellArea to existing Validation**

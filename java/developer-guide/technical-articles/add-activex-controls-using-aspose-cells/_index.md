@@ -26,6 +26,6 @@ Once, you have added the ActiveX control inside the shape collection, you can th
 
 {{% /alert %}} 
 #### **Add Toggle Button ActiveX Control using Aspose.Cells**
-The following sample code adds Toggle Button ActiveX Control using Aspose.Cells. Please download the [output excel file](attachments/5276029/5473427.xlsx) generated with this code for your reference.
+The following sample code adds Toggle Button ActiveX Control using Aspose.Cells. Please download the [output excel file](5473427.xlsx) generated with this code for your reference.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-AddActiveXControl-AddActiveXControl.java" >}}

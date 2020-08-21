@@ -33,8 +33,8 @@ Running the following code provides a workbook with a single worksheet containin
 
 ![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
 ### **Download Source Workbook and Output Workbook**
-- [Source Workbook](attachments/5276646/5473078.xlsx)
-- [Output Workbook](attachments/5276646/5473079.xlsx)
+- [Source Workbook](5473078.xlsx)
+- [Output Workbook](5473079.xlsx)
 #### **Code Example**
 The following code snippet shows how to combine multiple worksheets into a single worksheet.
 

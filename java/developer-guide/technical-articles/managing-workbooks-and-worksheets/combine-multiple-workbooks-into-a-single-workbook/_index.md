@@ -13,10 +13,10 @@ Sometimes, you need to combine workbooks with various content like images, chart
 ### **Combining Workbooks**
 The example code combines two workbooks into a single workbook using Aspose.Cells for Java. The code loads the source workbooks, uses the [Workbook.combine()](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#combine\(com.aspose.cells.Workbook\)) method to combine them and saves the output workbook.
 #### **Source Workbooks**
-- [charts.xlsx](attachments/5276659/5473097.xlsx)
-- [picture.xlsx](attachments/5276659/5473096.xlsx)
+- [charts.xlsx](5473097.xlsx)
+- [picture.xlsx](5473096.xlsx)
 #### **Output Workbooks**
-- [combined.xlsx](attachments/5276659/5473095.xlsx)
+- [combined.xlsx](5473095.xlsx)
 #### **Screenshots**
 Below are screenshots of the source and output workbooks.
 

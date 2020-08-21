@@ -10,8 +10,8 @@ Most of the time, the paper size of the worksheet is automatic. When it is autom
 ## **Determine if Paper Size of Worksheet is Automatic**
 The sample code given below loads the following two Excel files
 
-- [samplePageSetupIsAutomaticPaperSize-False.xlsx](attachments/48136904/48496700.xlsx)
-- [samplePageSetupIsAutomaticPaperSize-True.xlsx](attachments/48136904/48496701.xlsx)
+- [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496700.xlsx)
+- [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496701.xlsx)
 
 and find if the paper size of their first worksheet is automatic or not. In Microsoft Excel, you can check if the paper size is automatic or not via the Page Setup window as shown in this screenshot.
 

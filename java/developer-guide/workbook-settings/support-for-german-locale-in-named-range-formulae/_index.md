@@ -9,7 +9,7 @@ English formulae are written into named region. This Excel file can be opened in
 
 Sample file for testing this feature can be downloaded from the following link:
 
-[sampleNamedRangeTest.xlsm](attachments/74580185/74776604.xlsm)
+[sampleNamedRangeTest.xlsm](74776604.xlsm)
 
 
 

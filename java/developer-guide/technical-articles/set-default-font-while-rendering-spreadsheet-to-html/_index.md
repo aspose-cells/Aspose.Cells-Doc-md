@@ -17,6 +17,6 @@ The screenshot shows the effect of setting different default font names via [Htm
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
-The code generates the [output HTML file with Courier New](attachments/5276008/5472568.htm), the [output HTML with Arial](attachments/5276008/5472567.htm) and the [output HTML file with Times New Roman](attachments/5276008/5472565.htm).
+The code generates the [output HTML file with Courier New](5472568), the [output HTML with Arial](5472567) and the [output HTML file with Times New Roman](5472565).
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}

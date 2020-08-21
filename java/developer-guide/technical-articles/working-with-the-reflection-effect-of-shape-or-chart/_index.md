@@ -21,6 +21,6 @@ The following screenshot shows the Microsoft Excel interface to set the *Reflect
 
 ![todo:image_alt_text](working-with-the-reflection-effect-of-shape-or-chart_1.png)
 ## **Working with the Reflection Effect of Shape or Chart**
-The following sample code loads the [source excel file](attachments/5275793/5472529.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ReflectionEffect](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#Reflection) property and then saves the workbook in the [output excel file](attachments/5275793/5472539.xlsx).
+The following sample code loads the [source excel file](5472529.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ReflectionEffect](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#Reflection) property and then saves the workbook in the [output excel file](5472539.xlsx).
 ## **Sample Code**
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}

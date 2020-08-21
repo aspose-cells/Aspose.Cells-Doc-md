@@ -15,7 +15,7 @@ The following screenshot shows Microsoft Excel interface to set the Glow Effect 
 
 ![todo:image_alt_text](working-with-the-glow-effect-of-shape-or-chart_1.png)
 ## **Working with the Glow Effect of Shape or Chart**
-The following sample code loads the [source excel file](attachments/5275791/5472520.xlsx) and accesses the first shape in first worksheet and sets the sub properties of Shape.Glow property and then saves the workbook in [output excel file](attachments/5275791/5472527.xlsx).
+The following sample code loads the [source excel file](5472520.xlsx) and accesses the first shape in first worksheet and sets the sub properties of Shape.Glow property and then saves the workbook in [output excel file](5472527.xlsx).
 ## **Sample Code**
 
 

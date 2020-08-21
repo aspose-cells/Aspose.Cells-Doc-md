@@ -10,6 +10,6 @@ The default maximum rows of the shared formula are 64. It could be any number e.
 
 ![todo:image_alt_text](specify-maximum-rows-of-shared-formula_1.png)
 ## **Specify Maximum Rows of Shared Formula**
-The following sample code explains the usage of the [Workbook.Settings.MaxRowsOfSharedFormula](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#MaxRowsOfSharedFormula) property. It sets the maximum rows of the shared formula to 5 and adds the shared formula in cell D1 for 100 rows and saves to [output Excel file](attachments/61542589/61767869.xlsx). If you extract the contents of output Excel file and check the *sheet1.xml*, you will see the shared formula splits after every 5 rows as highlighted in the above screenshot.
+The following sample code explains the usage of the [Workbook.Settings.MaxRowsOfSharedFormula](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#MaxRowsOfSharedFormula) property. It sets the maximum rows of the shared formula to 5 and adds the shared formula in cell D1 for 100 rows and saves to [output Excel file](61767869.xlsx). If you extract the contents of output Excel file and check the *sheet1.xml*, you will see the shared formula splits after every 5 rows as highlighted in the above screenshot.
 ## **Sample Code**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Formulas-SpecifyMaximumRowsOfSharedFormula.java" >}}

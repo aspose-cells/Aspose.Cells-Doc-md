@@ -16,10 +16,10 @@ In the Unicode Character Standard, Supplementary Characters are the characters a
 
 {{% /alert %}} 
 #### **Render Unicode Supplementary characters in output PDF by Aspose.Cells**
-The following screenshot shows how Aspose.Cells rendered the [source excel file](attachments/5276130/5473390.xlsx) into the [output PDF](attachments/5276130/5473391.pdf). As you can see all three Unicode Supplementary characters have been rendered exactly the same as done by Microsoft Excel.
+The following screenshot shows how Aspose.Cells rendered the [source excel file](5473390.xlsx) into the [output PDF](5473391.pdf). As you can see all three Unicode Supplementary characters have been rendered exactly the same as done by Microsoft Excel.
 
 ![todo:image_alt_text](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 
-You can use this sample code to convert the [source excel file](attachments/5276130/5473390.xlsx) into [output PDF](attachments/5276130/5473391.pdf).
+You can use this sample code to convert the [source excel file](5473390.xlsx) into [output PDF](5473391.pdf).
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}

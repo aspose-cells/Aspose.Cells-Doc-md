@@ -28,7 +28,7 @@ Display HTML cross string and hide the right string when the texts overlap.
 
 Only displaying the string within the width of the cell.
 ## **Specify how to cross string in output HTML using HtmlCrossType**
-The following sample code loads the [sample Excel file](attachments/51480080/51740747.xlsx) and saves it to HTML format by specifying different [HtmlCrossType](https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlCrossType). Please download the [output HTML](attachments/51480080/51740745.zip) files generated with this code. The sample Excel file contains the image bordered with red color as shown in this screenshot that shows the effect of the [HtmlCrossType](https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlCrossType) values on output HTML.
+The following sample code loads the [sample Excel file](51740747.xlsx) and saves it to HTML format by specifying different [HtmlCrossType](https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlCrossType). Please download the [output HTML](51740745.zip) files generated with this code. The sample Excel file contains the image bordered with red color as shown in this screenshot that shows the effect of the [HtmlCrossType](https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlCrossType) values on output HTML.
 
 ![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 ## **Sample Code**

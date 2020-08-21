@@ -10,7 +10,7 @@ url: /java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 
 ![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 ## **Utilize Sheet.SheetId property of OpenXml using Aspose.Cells**
-The following sample code loads the [sample Excel file](attachments/51480066/51740740.xlsx), reads its Sheet or Tab Id, then it assigns it new Tab Id and saves it as [output Excel file](attachments/51480066/51740739.xlsx). Please also see the console output of the code given below for a reference.
+The following sample code loads the [sample Excel file](51740740.xlsx), reads its Sheet or Tab Id, then it assigns it new Tab Id and saves it as [output Excel file](51740739.xlsx). Please also see the console output of the code given below for a reference.
 ## **Sample Code**
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-AsposeCellsExamples-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.java" >}}
 ## **Console Output**

@@ -10,7 +10,7 @@ You can find the *Root Element Name of XML Map* using Aspose.Cells with [Xml
 
 ![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 ## **Sample Code**
-The following sample code loads the [sample Excel file](attachments/54690369/55541816.xlsx) and accesses the first XML Map and prints its [XmlMap.RootElementName](https://apireference.aspose.com/java/cells/com.aspose.cells/xmlmap#RootElementName) property. Please see the console output of the sample code given below.
+The following sample code loads the [sample Excel file](55541816.xlsx) and accesses the first XML Map and prints its [XmlMap.RootElementName](https://apireference.aspose.com/java/cells/com.aspose.cells/xmlmap#RootElementName) property. Please see the console output of the sample code given below.
 
 
 

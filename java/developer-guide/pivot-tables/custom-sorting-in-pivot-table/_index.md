@@ -12,8 +12,8 @@ Sample source file and output files can be downloaded from here for testing the 
 
 [Source Excel File](https://docs.aspose.com/download/attachments/81690914/SamplePivotSort.xlsx?version=1&modificationDate=1573651745357&api=v2)
 
-[Output Excel File](attachments/95323827/95584328.xlsx)
+[Output Excel File](95584328.xlsx)
 
-[Output PDF File](attachments/95323827/95584329.pdf)
+[Output PDF File](95584329.pdf)
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

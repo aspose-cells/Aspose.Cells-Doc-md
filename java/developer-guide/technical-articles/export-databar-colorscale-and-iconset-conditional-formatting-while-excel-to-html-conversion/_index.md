@@ -11,11 +11,11 @@ You can export DataBar, ColorScale and IconSet Conditional Formatting while conv
 
 {{% /alert %}} 
 #### **Export DataBar, ColorScale and IconSet Conditional Formatting while Excel to HTML Conversion**
-The following screenshot shows the [sample excel file](attachments/5275659/5473447.xlsx) with DataBar, ColorScale and IconSet Conditional Formatting. You can download the [sample excel file](attachments/5275659/5473447.xlsx) from the given link.
+The following screenshot shows the [sample excel file](5473447.xlsx) with DataBar, ColorScale and IconSet Conditional Formatting. You can download the [sample excel file](5473447.xlsx) from the given link.
 
 ![todo:image_alt_text](export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion_1.png)
 
-The following screenshot shows the Aspose.Cells output HTML file showing DataBar, ColorScale and IconSet Conditional Formatting. As you can see, it looks exactly like the [sample excel file](attachments/5275659/5473447.xlsx).
+The following screenshot shows the Aspose.Cells output HTML file showing DataBar, ColorScale and IconSet Conditional Formatting. As you can see, it looks exactly like the [sample excel file](5473447.xlsx).
 
 ![todo:image_alt_text](export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion_2.png)
 #### **Sample Code**

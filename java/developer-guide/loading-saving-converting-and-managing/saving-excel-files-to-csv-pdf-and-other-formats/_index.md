@@ -82,7 +82,7 @@ If developers need to save their files to a **Stream** then they should create a
 ### **PDF Files**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveInPdfFormat-SaveInPdfFormat.java" >}}
 #### **Set ContentCopyForAccessibility option**
-With the [PdfSaveOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions) class, you can get or set the PDF [AccessibilityExtractContent](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent) option to control the content access in the converted PDF. It means it allows screen reader software to utilize the text within the PDF file for reading the PDF file.  You can disable it by applying a change permissions password and deselecting the two items in the screenshot [here](attachments/5276010/71630877.png).
+With the [PdfSaveOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions) class, you can get or set the PDF [AccessibilityExtractContent](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent) option to control the content access in the converted PDF. It means it allows screen reader software to utilize the text within the PDF file for reading the PDF file.  You can disable it by applying a change permissions password and deselecting the two items in the screenshot [here](71630877.png).
 
 {{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-ContentCopyForAccessibilityOption.java" >}}
 #### **Export Custom properties to PDF**

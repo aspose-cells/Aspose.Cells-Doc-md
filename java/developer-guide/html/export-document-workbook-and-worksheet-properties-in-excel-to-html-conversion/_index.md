@@ -11,6 +11,6 @@ When Microsoft Excel file is exported to HTML using Microsoft Excel or Aspose.Ce
 ![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
 
 ## **Export Document, Workbook and Worksheet Properties in Excel to HTML conversion**
-The following sample code loads the [sample Excel file](attachments/61541003/61767784.xlsx) and converts it to HTML and does not export the Document, Workbook and Worksheet properties in [output HTML](attachments/61541003/61767783.zip).
+The following sample code loads the [sample Excel file](61767784.xlsx) and converts it to HTML and does not export the Document, Workbook and Worksheet properties in [output HTML](61767783.zip).
 ## **Sample Code**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "HTML-ExportDocumentWorkbookAndWorksheetPropertiesInHTML.java" >}}

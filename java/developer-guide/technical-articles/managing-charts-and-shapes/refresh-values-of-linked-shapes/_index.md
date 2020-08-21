@@ -15,6 +15,6 @@ The following screenshot shows the source Excel file used in the sample code bel
 
 ![todo:image_alt_text](refresh-values-of-linked-shapes_1.png)
 
-You can download the [source Excel file](attachments/5276461/5472956.xlsx) and the [output PDF](attachments/5276461/5472955.pdf) from the given links.
+You can download the [source Excel file](5472956.xlsx) and the [output PDF](5472955.pdf) from the given links.
 #### **Code**
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}

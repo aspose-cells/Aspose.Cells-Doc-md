@@ -10,7 +10,7 @@ Microsoft Excel allows you to change the display label of the Ole Object as show
 
 ![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 ## **Access and Modify the Display Label of the Linked Ole Object**
-Please see the following sample code, it loads the [sample Excel file](attachments/64454888/64716833.xlsx) that contains the Ole Object. The code accesses the Ole Object and changes its Label from Sample APIs to Aspose APIs. Please see the console output given below that shows the effect of the sample code on the sample Excel file for a reference.
+Please see the following sample code, it loads the [sample Excel file](64716833.xlsx) that contains the Ole Object. The code accesses the Ole Object and changes its Label from Sample APIs to Aspose APIs. Please see the console output given below that shows the effect of the sample code on the sample Excel file for a reference.
 ## **Sample Code**
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "DrawingObjects-AccessAndModifyLabelOfOleObject.java" >}}
 ## **Console Output**

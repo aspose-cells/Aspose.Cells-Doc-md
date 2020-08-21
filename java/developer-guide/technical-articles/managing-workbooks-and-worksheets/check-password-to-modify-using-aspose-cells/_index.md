@@ -15,11 +15,11 @@ Sometimes, you need to check if the given password matches with the **Password t
 
 {{% /alert %}} 
 #### **Check Password to modify using Aspose.Cells**
-The following sample codes load the [source Excel](attachments/5276699/5473057.xlsx) file. It has a Password to open as 1234 and Password to modify as 5678. The code first checks if 567 is correct Password to modify and it returns false and then it checks if 5678 is Password to modify and it returns true.
+The following sample codes load the [source Excel](5473057.xlsx) file. It has a Password to open as 1234 and Password to modify as 5678. The code first checks if 567 is correct Password to modify and it returns false and then it checks if 5678 is Password to modify and it returns true.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckPassword-CheckPassword.java" >}}
 #### **Console Output**
-Here is the Console Output of the above sample code after loading the [source Excel](attachments/5276699/5473057.xlsx) file.
+Here is the Console Output of the above sample code after loading the [source Excel](5473057.xlsx) file.
 
 {{< highlight java >}}
 

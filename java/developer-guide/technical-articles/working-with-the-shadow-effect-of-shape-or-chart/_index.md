@@ -20,6 +20,6 @@ The following screenshot shows the Microsoft Excel interface to set the *Shadow 
 
 ![todo:image_alt_text](working-with-the-shadow-effect-of-shape-or-chart_1.png)
 ## **Working with the Shadow Effect of Shape or Chart**
-The following sample code loads the [source excel file](attachments/5275792/5472531.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ShadowEffect](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#ShadowEffect) property and then saves the workbook in the [output excel file](attachments/5275792/5472530.xlsx).
+The following sample code loads the [source excel file](5472531.xlsx) and accesses the first shape in the first worksheet and sets the sub-properties of [Shape.ShadowEffect](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#ShadowEffect) property and then saves the workbook in the [output excel file](5472530.xlsx).
 ## **Sample Code**
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}
