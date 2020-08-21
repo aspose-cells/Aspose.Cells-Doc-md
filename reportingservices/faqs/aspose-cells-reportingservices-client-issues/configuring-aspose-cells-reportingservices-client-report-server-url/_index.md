@@ -16,7 +16,7 @@ To configure a client Report Server URL:
 ![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_2.png)
 
 1. Input report server configuration information (URL, user name and password).
-   1. The Report Server URL must be in the format ‘<http://host/ReportServer>’. For example <http://172.16.204.11/ReportServer>.
+   1. The Report Server URL must be in the format http://host/ReportServer. For example http://172.16.204.11/ReportServer.
    1. The user name is the Window Server user name. For example, Administrator.
    1. The password is the Window Server user password. For example, 123456.
    1. The default value of the Domain is null.

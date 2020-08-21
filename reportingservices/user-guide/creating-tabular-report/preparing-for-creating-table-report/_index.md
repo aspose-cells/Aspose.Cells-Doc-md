@@ -5,7 +5,7 @@ weight: 10
 url: /reportingservices/preparing-for-creating-table-report/
 ---
 
-Before creating a tabular report user must first create data sources, datasets and report parameters (optional) as described in [DataSources and Queries](/pages/createpage.action?spaceKey=cellsreportingservices&title=DataSources+and+Queries&linkCreation=true&fromPageId=6094952).
+Before creating a tabular report user must first create data sources, datasets and report parameters (optional) as described in [DataSources and Queries](/cells/reportingservices/data-sources-and-queries/).
 
 Below, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2005.
 
