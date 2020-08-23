@@ -16,13 +16,13 @@ You can use Aspose.Cells to find or search data in various ways using the follow
 - [FindStringStartsWith](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#afa17f3d771e73731dd9f682f4ac359df)
 - [FindStringEndsWith](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a7d0c58798771b7bc220fb162c30f247b)
 
-The following sample code illustrates the usage of the above methods using the [sample excel file](attachments/21102595/21266434.xlsx) as shown in this screenshot.
+The following sample code illustrates the usage of the above methods using the [sample excel file](21266434.xlsx) as shown in this screenshot.
 
 ![todo:image_alt_text](find-or-search-data_1.png)
 ## **Sample Code**
 {{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-FindOrSearchData.cpp" >}}
 ## **Console Output**
-This is the console output of the above sample code when executed with the given [sample excel file](attachments/21102595/21266434.xlsx).
+This is the console output of the above sample code when executed with the given [sample excel file](21266434.xlsx).
 
 
 

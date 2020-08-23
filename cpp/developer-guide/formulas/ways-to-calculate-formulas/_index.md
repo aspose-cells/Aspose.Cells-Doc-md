@@ -12,7 +12,7 @@ Aspose.Cells supports most of the formulas or functions that are the part of Mic
 
 Use the Cell.Formula method to add a formula to a cell. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel. Use a comma (,) to delimit function parameters.
 
-To calculate the results of formulas, call the Workbook.CalculateFormula() method which processes all the formulas embedded in an Excel file. Please see the following sample code that adds the formula and calculates its results. Please check the [output excel file](attachments/37978115/38109185.xlsx) generated with this code.
+To calculate the results of formulas, call the Workbook.CalculateFormula() method which processes all the formulas embedded in an Excel file. Please see the following sample code that adds the formula and calculates its results. Please check the [output excel file](38109185.xlsx) generated with this code.
 
 **Sample Code**
 
@@ -44,7 +44,7 @@ However, if the template contains lots of formulas, the first time the formula i
 
 Aspose.Cells allows you to turn off creating a calculating chain which is useful when you want to calculate formulas only once.
 
-Please call Workbook.GetISettings().SetCreateCalcChain() with false parameter. You can use the [provided excel file](attachments/37978115/38109186.xlsx) to test this code.
+Please call Workbook.GetISettings().SetCreateCalcChain() with false parameter. You can use the [provided excel file](38109186.xlsx) to test this code.
 
 **Sample Code**
 

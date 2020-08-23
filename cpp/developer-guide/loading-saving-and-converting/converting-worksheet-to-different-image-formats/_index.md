@@ -21,11 +21,11 @@ The [Aspose.Cells.Rendering.ISheetRender](https://apireference.aspose.com/cpp/c
 
 The following code snippet shows how to convert a worksheet in an Excel file to an image file.
 ### **PNG Format**
-Please see the following sample code, its [sample Excel file](attachments/66946350/67338402.xlsx), and the [output PNG Images](attachments/66946350/67338401.zip).
+Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output PNG Images](67338401.zip).
 
 {{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG.cpp" >}}
 ### **TIFF Format**
-Please see the following sample code, its [sample Excel file](attachments/66946350/67338402.xlsx), and the [output TIFF Image](attachments/66946350/67338419.zip).
+Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
 
 {{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF.cpp" >}}
 ## **Converting Worksheet to SVG**
@@ -37,6 +37,6 @@ To use this feature, import the [Aspose.Cells.Rendering](https://apireference.a
 
 The [Aspose.Cells.Rendering.IImageOrPrintOptions](https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_image_or_print_options/) class specifies that the worksheet will be saved in SVG format. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file
 
-Please see the following sample code, its [sample Excel file](attachments/66946350/67338402.xlsx), and the [output SVG Images](attachments/66946350/67338403.zip).
+Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output SVG Images](67338403.zip).
 
 {{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG.cpp" >}}

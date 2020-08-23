@@ -29,7 +29,7 @@ Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
 The file format should be PDF so select relevant PDF (a pre-defined value) from the SaveFormat enumeration to generate the final PDF document
 
-Please see the following sample code, its [sample Excel file](attachments/66946026/67338368.xlsx) and [output PDF](attachments/66946026/67338369.pdf) for your reference.
+Please see the following sample code, its [sample Excel file](67338368.xlsx) and [output PDF](67338369.pdf) for your reference.
 
 {{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_DirectConversion.cpp" >}}
 ### **Advanced Conversion**
@@ -37,12 +37,12 @@ You may also opt to use the [IPdfSaveOptions](https://apireference.aspose.com/c
 #### **Saving Workbook to PDF/A Complied Files**
 The following code snippet demonstrates how to use the [IPdfSaveOptions](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/) class to save Excel files to PDF/A compliant PDF format
 
-Please see the following sample code and its [output PDF](attachments/66946026/67338370.pdf) for your reference.
+Please see the following sample code and its [output PDF](67338370.pdf) for your reference.
 
 {{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_A_CompliedFiles.cpp" >}}
 #### **Set the PDF Creation Time**
 With the [IPdfSaveOptions](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/) class, you can get or set the PDF creation time.
 
-Please see the following sample code and its [output PDF](attachments/66946026/67338371.pdf) for your reference.
+Please see the following sample code and its [output PDF](67338371.pdf) for your reference.
 
 {{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime.cpp" >}}
