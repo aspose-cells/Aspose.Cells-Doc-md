@@ -9,7 +9,7 @@ HTML can have variety of tags formatting for empty tags like <td></td> or <td/>.
 
 [Source File](https://docs-qa.aspose.com/download/attachments/74580177/sampleSelfClosingTags.html?version=1&modificationDate=1541371875771&api=v2)
 
-[Output File](attachments/106202307/106365184.xlsx)
+[Output File](106365184.xlsx)
 
 
 
