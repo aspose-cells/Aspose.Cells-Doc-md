@@ -14,6 +14,6 @@ Aspose.Cells supports hiding and sorting data in the pivot table. The following 
 
 The source and output excel files used in the code snippet are attached for reference.
 
-[Source File](https://docs.aspose.com/download/attachments/96764769/PivotTableHideAndSortSample.xlsx?version=1&modificationDate=1575563265610&api=v2)
+[Source File](PivotTableHideAndSortSample.xlsx)
 
-[Output File](https://docs.aspose.com/download/attachments/96764769/PivotTableHideAndSort_out.xlsx?version=1&modificationDate=1575563265606&api=v2)
+[Output File](PivotTableHideAndSort_out.xlsx)

@@ -38,6 +38,6 @@ Preserve Formatting: false
 
 {{< /highlight >}}
 ## **Retrieve query table result range**
-Aspose.Cells provides the option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. The sample file can be downloaded [here](https://docs.aspose.com/download/attachments/5023523/Query%20TXT.xlsx?version=1&modificationDate=1537282315660&api=v2).
+Aspose.Cells provides the option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. The sample file can be downloaded [here](Query%20TXT.xlsx).
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}

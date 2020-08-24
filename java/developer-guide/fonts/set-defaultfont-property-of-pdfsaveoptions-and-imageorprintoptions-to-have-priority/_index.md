@@ -28,8 +28,8 @@ This is the output PNG image after setting the [ImageOrPrintOptions.DefaultFont
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-See the output [TIFF](https://docs.aspose.com/download/attachments/48136475/out1_imageTIFF.tiff?version=1&modificationDate=1500578450497&api=v2) image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#DefaultFont) property to "Times New Roman".
+See the output [TIFF](out1_imageTIFF.tiff) image after setting the [ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#DefaultFont) property to "Times New Roman".
 
-See the output [P](https://docs.aspose.com/download/attachments/48136475/out1_imageTIFF.tiff?version=1&modificationDate=1500578450497&api=v2)[DF](https://docs.aspose.com/download/attachments/48136475/out1_pdf.pdf?version=1&modificationDate=1500578496704&api=v2) file after setting the [PdfSaveOptions.DefaultFont](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#DefaultFont) property to "Times New Roman".
+See the output [P](out1_imageTIFF.tiff)[DF](out1_pdf.pdf) file after setting the [PdfSaveOptions.DefaultFont](https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#DefaultFont) property to "Times New Roman".
 ## **Sample Code**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}

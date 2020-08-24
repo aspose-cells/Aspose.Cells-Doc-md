@@ -14,7 +14,7 @@ Aspose.Cells supports converting CSV to JSON. For this, the API provides [Expor
 
 The [JsonUtility](https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility) class exports the JSON using the export options set with the [ExportRangeToJsonOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions) class.
 
-The following code sample demonstrates the use of [ExportRangeToJsonOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions) and [JsonUtility](https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility) classes to load the [source CSV file](https://docs.aspose.com/download/attachments/104267887/SampleCsv.csv?version=1&modificationDate=1582857186959&api=v2) and prints the [J](https://docs.aspose.com/download/attachments/104267887/SampleJson_out.csv?version=1&modificationDate=1582857186965&api=v2)SON output in the console.
+The following code sample demonstrates the use of [ExportRangeToJsonOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions) and [JsonUtility](https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility) classes to load the [source CSV file](SampleCsv.csv) and prints the [J](SampleJson_out.csv)SON output in the console.
 ### **Sample Code**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.java" >}}
 ### **Console Output**

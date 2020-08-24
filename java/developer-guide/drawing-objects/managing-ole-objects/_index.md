@@ -43,7 +43,7 @@ After running the code, we can save different files based on their respective OL
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-ole-ExtractingOLEObjects-1.java" >}}
 ### **Extracting Embedded MOL File**
-Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](https://docs.aspose.com/download/attachments/5017133/EmbeddedMolSample.xlsx?version=1&modificationDate=1568199529048&api=v2).
+Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](EmbeddedMolSample.xlsx).
 
 
 

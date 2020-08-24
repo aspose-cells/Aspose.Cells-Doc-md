@@ -14,9 +14,9 @@ The following screenshot shows the output excel file with the visible apostroph
 
 The following code snippet demonstrates this by adding data with Smart Markers in the source excel file. The source and output excel files are attached for reference.
 
-[Source File](https://docs.aspose.com/download/attachments/97878713/AllowLeadingApostropheSample.xlsx?version=1&modificationDate=1577762799073&api=v2)
+[Source File](AllowLeadingApostropheSample.xlsx)
 
-[Output File](https://docs.aspose.com/download/attachments/97878713/AllowLeadingApostropheSample_out.xlsx?version=1&modificationDate=1577762799076&api=v2)
+[Output File](AllowLeadingApostropheSample_out.xlsx)
 ### **Sample Code**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Workbook-AllowLeadingApostrophe-1.java" >}}
 

@@ -26,6 +26,6 @@ The following code snippet changes the tick label direction from [ROTATE_90](htt
 
 The source and output files can be downloaded from the following links.
 
-[Source File](https://docs.aspose.com/download/attachments/105284039/SampleChangeTickLabelDirection.xlsx?version=1&modificationDate=1585811151935&api=v2)
+[Source File](SampleChangeTickLabelDirection.xlsx)
 
-[Output File](https://docs.aspose.com/download/attachments/105284039/outputChangeChartDataLableDirection.xlsx?version=1&modificationDate=1585811151921&api=v2)
+[Output File](outputChangeChartDataLableDirection.xlsx)

@@ -100,25 +100,25 @@ When cells having any text are to be filtered, use [MatchNonBlanks](https://api
 ##### **Custom filter with Contains**
 Excel provides custom filters like filter rows which contain some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file. Sample files can be downloaded from the following links. 
 
-1. [sourseSampleCountryNames.xlsx](https://docs.aspose.com/download/attachments/68944719/sourseSampleCountryNames.xlsx?version=1&modificationDate=1537209516129&api=v2)
-1. [outSourseSampleCountryNames.xlsx](https://docs.aspose.com/download/attachments/68944719/outSourseSampleCountryNames.xlsx?version=1&modificationDate=1537209549009&api=v2)
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
+1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx)
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-Contains.java" >}}
 ##### **Custom filter with NotContains**
 Excel provides custom filters like filter rows which does not contain some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
 
-1. ` `[sourseSampleCountryNames.xlsx](https://docs.aspose.com/download/attachments/68944719/sourseSampleCountryNames.xlsx?version=1&modificationDate=1537209516129&api=v2).
+1. ` `[sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-NotContains.java" >}}
 ##### **Custom filter with BeginsWith**
 Excel provides custom filters like filter rows which begins with some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
 
-1. ` `[sourseSampleCountryNames.xlsx](https://docs.aspose.com/download/attachments/68944719/sourseSampleCountryNames.xlsx?version=1&modificationDate=1537209516129&api=v2).
+1. ` `[sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-BeginsWith.java" >}}
 ##### **Custom filter with EndsWith**
 Excel provides custom filters like filter rows which end with some specific string. This feature is available in Aspose.Cells and demonstrated below by filtering the names in the sample file given below.
 
-1. ` `[sourseSampleCountryNames.xlsx](https://docs.aspose.com/download/attachments/68944719/sourseSampleCountryNames.xlsx?version=1&modificationDate=1537209516129&api=v2).
+1. ` `[sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-EndsWith.java" >}}

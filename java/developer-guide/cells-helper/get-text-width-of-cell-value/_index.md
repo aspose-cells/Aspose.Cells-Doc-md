@@ -10,7 +10,7 @@ Sometimes, the developers might need to calculate the width of the cell's value 
 
 The Source file used in the following code snippet is attached for your reference.
 
-[Source File](https://docs.aspose.com/download/attachments/96764748/GetTextWidthSample.xlsx?version=1&modificationDate=1575555437280&api=v2)
+[Source File](GetTextWidthSample.xlsx)
 
 
 

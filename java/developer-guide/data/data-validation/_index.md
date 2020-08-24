@@ -123,6 +123,6 @@ The following code snippet demonstrates the use of the [Validation.AddAreaCellA
 
 The source and output excel files are attached for reference.
 
-[Source File](https://docs.aspose.com/download/attachments/96764769/PivotTableHideAndSortSample.xlsx?version=1&modificationDate=1575563265610&api=v2)
+[Source File](PivotTableHideAndSortSample.xlsx)
 
-[Output File](https://docs.aspose.com/download/attachments/5025054/ValidationsSample_out.xlsx?version=1&modificationDate=1575568801067&api=v2)
+[Output File](ValidationsSample_out.xlsx)

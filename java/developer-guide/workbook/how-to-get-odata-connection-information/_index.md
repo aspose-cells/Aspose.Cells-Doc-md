@@ -12,7 +12,7 @@ The following code snippet demonstrates the use of these classes to retrieve the
 
 The Source file used in the following code snippet is attached for your reference.
 
-[Source File](https://docs.aspose.com/download/attachments/96764782/ODataSample.xlsx?version=1&modificationDate=1575566431680&api=v2)
+[Source File](ODataSample.xlsx)
 ### **Sample Code**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Workbook-GetOdataDetails-1.java" >}}
 ### **Console Output**

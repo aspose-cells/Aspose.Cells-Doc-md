@@ -10,7 +10,7 @@ By using the Aspose.Cells API, you can sort Pivot Tables on field values. The fo
 
 Sample source file and output files can be downloaded from here for testing the sample code:
 
-[Source Excel File](https://docs.aspose.com/download/attachments/81690914/SamplePivotSort.xlsx?version=1&modificationDate=1573651745357&api=v2)
+[Source Excel File](SamplePivotSort.xlsx)
 
 [Output Excel File](95584328.xlsx)
 

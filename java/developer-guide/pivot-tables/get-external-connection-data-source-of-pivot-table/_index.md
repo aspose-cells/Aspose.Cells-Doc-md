@@ -12,4 +12,4 @@ Aspose.Cells provides the ability to get the external connection data source of 
 
 The source file used in the code snippet is attached for reference.
 
-[Source File](https://docs.aspose.com/download/attachments/104267858/SamplePivotTableExternalConnection.xlsx?version=1&modificationDate=1582820136142&api=v2)
+[Source File](SamplePivotTableExternalConnection.xlsx)

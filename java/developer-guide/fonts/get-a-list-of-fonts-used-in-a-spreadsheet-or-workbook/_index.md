@@ -12,13 +12,13 @@ In order to deal with such cases, you should know what fonts are beings used by 
 
 Aspose.Cells provides the [Workbook.getFonts()](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#getFonts\(\)) method which returns the list of all the fonts used in your workbook or spreadsheet.
 ## **Get a List of Fonts used in a Spreadsheet or Workbook**
-The following sample code loads the source excel file and retrieves the list of fonts used inside it. It has one dummy worksheet which has some dummy fonts added for illustration purpose. When the code prints all the fonts inside the workbook, it also prints those dummy fonts. The following screenshot shows the [sample excel file](https://docs.aspose.com/download/attachments/25002617/sampleGetFonts.xlsx?version=1&modificationDate=1487759607027&api=v2) and how the dummy fonts are listed.
+The following sample code loads the source excel file and retrieves the list of fonts used inside it. It has one dummy worksheet which has some dummy fonts added for illustration purpose. When the code prints all the fonts inside the workbook, it also prints those dummy fonts. The following screenshot shows the [sample excel file](sampleGetFonts.xlsx) and how the dummy fonts are listed.
 
 ![todo:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 ## **Sample Code**
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-GetFontsUsedinWorkbook-GetFontsUsedinWorkbook.java" >}}
 ## **Console Output**
-Here is the console output of the above sample code when executed with the given [sample excel file](https://docs.aspose.com/download/attachments/25002617/sampleGetFonts.xlsx?version=1&modificationDate=1487759607027&api=v2).
+Here is the console output of the above sample code when executed with the given [sample excel file](sampleGetFonts.xlsx).
 
 {{< highlight java >}}
 

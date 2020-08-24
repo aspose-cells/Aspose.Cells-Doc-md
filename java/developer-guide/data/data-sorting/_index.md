@@ -62,8 +62,8 @@ Excel provides the feature to sort data based on the background color. The same 
 
 Following are the sample files which can be downloaded for testing this feature:
 
-[sampleBackGroundFile.xlsx](https://docs.aspose.com/download/attachments/5025104/sampleBackGroundFile.xlsx?version=1&modificationDate=1549117593310&api=v2)
+[sampleBackGroundFile.xlsx](sampleBackGroundFile.xlsx)
 
-[outputsampleBackGroundFile.xlsx](https://docs.aspose.com/download/attachments/5025104/outputsampleBackGroundFile.xlsx?version=1&modificationDate=1549117599997&api=v2)
+[outputsampleBackGroundFile.xlsx](outputsampleBackGroundFile.xlsx)
 ### ` `**Sample Code**
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}
