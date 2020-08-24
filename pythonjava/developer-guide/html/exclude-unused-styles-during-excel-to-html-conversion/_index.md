@@ -10,7 +10,7 @@ Microsoft Excel files may contain many unused styles. When these files are expor
 
 The following screenshot shows unused styles in the HTML file which will be removed by setting the value of [HtmlSaveOptions.ExcludeUnusedStyles](https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles) property to **True**.
 
-![todo:image_alt_text](https://docs.aspose.com/download/attachments/61540998/HtmlSaveOptions-Exclude-Unused-Styles.png?version=1&modificationDate=1517307631543&api=v2)
+![todo:image_alt_text](HtmlSaveOptions-Exclude-Unused-Styles.png)
 
 The following sample code demonstrates removing unused styles during Excel to HTML conversion.
 

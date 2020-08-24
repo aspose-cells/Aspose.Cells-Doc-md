@@ -8,7 +8,7 @@ url: /pythonjava/find-if-the-worksheet-is-dialog-sheet/
 ## **Possible Usage Scenarios**
 Dialog Sheet is an old format of the sheet that contains a dialog box. Such a sheet could be inserted by an older version of Microsoft Excel e.g. 2003 as shown in this screenshot. It can also be inserted with VBA in newer versions e.g. Microsoft Excel 2016.
 
-![todo:image_alt_text](https://docs.aspose.com/download/attachments/64454897/Dialog%20Sheet.png?version=1&modificationDate=1522155535466&api=v2)
+![todo:image_alt_text](Dialog%20Sheet.png)
 ## **Find if the Worksheet is Dialog Sheet**
 Aspose.Cells for Python via Java provides you with the ability to check if the worksheet is a dialog sheet. For this, it provides the [Worksheet.Type](https://apireference.aspose.com/cells/python/asposecells.api/worksheet#Type) property. If [Worksheet.Type](https://apireference.aspose.com/cells/python/asposecells.api/worksheet#Type) returns enumeration value [SheetType.DIALOG](https://apireference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), then it means, you are dealing with a dialog sheet.
 

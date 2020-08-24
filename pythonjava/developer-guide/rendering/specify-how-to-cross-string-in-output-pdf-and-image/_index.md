@@ -15,10 +15,10 @@ When a cell contains text or string that is larger than the width of the cell, t
 
 The following sample code loads the sample Excel file and saves it to PDF/Image format by specifying different TextCrossType. The sample Excel file and output files can be downloaded from the following links:
 
-[sampleCrossType.xlsx](https://docs.aspose.com/download/attachments/81690955/sampleCrossType.xlsx?version=1&modificationDate=1549116106058&api=v2)
+[sampleCrossType.xlsx](sampleCrossType.xlsx)
 
-[outputCrossType.pdf](https://docs.aspose.com/download/attachments/81690955/outputCrossType.pdf?version=1&modificationDate=1549116106051&api=v2)
+[outputCrossType.pdf](outputCrossType.pdf)
 
-[outputCrossType.png](https://docs.aspose.com/download/attachments/81690955/outputCrossType.png?version=1&modificationDate=1549116106054&api=v2)
+[outputCrossType.png](outputCrossType.png)
 ## **Sample Code**
 {{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Rendering-RenderUsingTextCrossType.py" >}}
