@@ -4,6 +4,3 @@ type: docs
 weight: 70
 url: /net/workbook-settings/
 ---
-
-### **Articles in this section**
-
