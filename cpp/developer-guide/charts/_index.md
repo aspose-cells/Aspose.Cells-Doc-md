@@ -1,9 +1,6 @@
 ---
 title: Charts
 type: docs
-weight: 110
+weight: 75
 url: /cpp/charts/
 ---
-
-### **Articles in this section**
-

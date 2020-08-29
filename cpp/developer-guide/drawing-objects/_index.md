@@ -1,9 +1,6 @@
 ---
 title: Drawing Objects
 type: docs
-weight: 120
+weight: 76
 url: /cpp/drawing-objects/
 ---
-
-### **Articles in this section**
-
