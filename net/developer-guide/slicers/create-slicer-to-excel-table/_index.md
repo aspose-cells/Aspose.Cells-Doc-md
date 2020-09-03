@@ -15,4 +15,4 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}

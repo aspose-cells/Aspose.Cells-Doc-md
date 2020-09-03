@@ -15,4 +15,4 @@ Aspose.Cells GridWeb now supports adding and removing sheets by using buttons in
 
 ## Sample Code
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples.GridWeb-CSharp-Worksheets-ShowAddButton.aspx-ShowAddButton-1.cs" >}}
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples.GridWeb-CSharp-Worksheets-ShowAddButton.aspx-ShowAddButton-1.cs" >}}
