@@ -38,4 +38,4 @@ url: /net/supported-file-formats/
 |SXC|An XML based format used by OpenOffice and StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |FODS|This is an Open Document format stored as flat XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|A well-known format for Microsoft Word documents that is a combination of XML and binary files.||{{< emoticons/tick >}}|
-|[PPTX](https://docs.fileformat.com/presentation/pptx/)|The PPTX format is based on the Microsoft PowerPoint open XML presentation file format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[PPTX](https://docs.fileformat.com/presentation/pptx/)|The PPTX format is based on the Microsoft PowerPoint open XML presentation file format.||{{< emoticons/tick >}}|
