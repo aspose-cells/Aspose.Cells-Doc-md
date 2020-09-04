@@ -6,32 +6,33 @@ url: /java/chart-rendering/
 ---
 
 ## **Creating Charts**
-Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic [Creating & Customizing Excel Charts](http://www.aspose.com/docs/display/cellsjava/Creating+and+Customizing+Charts). In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image & PDF format, we will create a chart of type Column as per the following snippet.
 
-
+Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic [Creating & Customizing Excel Charts](/cells/java/creating-and-customizing-charts/). In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image & PDF format, we will create a chart of type Column as per the following snippet.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
+
 ## **Rendering Charts**
-Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide rendering support, the [Chart](https://apireference.aspose.com/java/cells/com.aspose.cells/Chart) class has exposed [toImage](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage\(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions\)) & [toPdf ](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toPdf\(java.io.OutputStream\))methods with a verity of overloads to best suit the application requirements.
-#### **Rendering Charts to Images**
-The [Chart.toImage](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage\(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions\)) method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [Chart.toImage](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage\(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions\)) method as follow.
 
+Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://apireference.aspose.com/cells/java/com.aspose.cells/Chart) class has exposed [**toImage**](https://apireference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**toPdf**](https://apireference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) methods with a verity of overloads to best suit the application requirements.
 
+### **Rendering Charts to Images**
+
+The [**Chart.toImage**](https://apireference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the [**Chart.toImage**](https://apireference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) method as follow.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-
-
-It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of [Chart.toImage](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage\(java.lang.String,%20com.aspose.cells.ImageOrPrintOptions\)) method that could accept an instance of [ImageOrPrintOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions) while allowing to specify parameters such as resolution, rendering hints, image format and so on.
+It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of [**Chart.toImage**](https://apireference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) method that could accept an instance of [**ImageOrPrintOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) while allowing to specify parameters such as resolution, rendering hints, image format and so on.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
-#### **Rendering Chart to PDF**
-In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [Chart.toPdf](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toPdf\(java.io.OutputStream\)) method with the ability to store the resultant PDF on disc path or an instance of OutputStream.
 
+### **Rendering Chart to PDF**
 
+In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.toPdf**](https://apireference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) method with the ability to store the resultant PDF on disc path or an instance of OutputStream.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
+
 ## **Supported Chart Types for Rendering**
+
 There are a few chart types that are currently not supported for rendering. Such chart types contain **N** in the **Supported** column of below table.
 
 |**Chart type**|**Chart sub-type**|**Supported**|
@@ -84,7 +85,7 @@ There are a few chart types that are currently not supported for rendering. Such
 | |SurfaceContourWireframe|N|
 |**Bubble**|Bubble|**Y**|
 | |Bubble3D|N|
-|Stock|StockHighLowClose|**Y**|
+|**Stock**|StockHighLowClose|**Y**|
 | |StockOpenHighLowClose|**Y**|
 | |StockVolumeHighLowClose|**Y**|
 | |StockVolumeOpenHighLowClose|**Y**|
@@ -109,12 +110,17 @@ There are a few chart types that are currently not supported for rendering. Such
 | |PyramidBarStacked|**Y**|
 | |PyramidBar100PercentStacked|**Y**|
 | |PyramidColumn3D|**Y**|
-{{% alert color="primary" %}} 
+|**BoxWhisker**|BoxWhisker|N|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|N|
+|**Map**|Map|**Y**|
+
+{{% alert color="primary" %}}
 
 In case you try to render the non-supported chart types to image or PDF, you may end up with 0 sized images or blank PDF.
 
-{{% /alert %}} 
-
-
-
-https://gist.github.com/aspose-com-gists/a20e8fa273e7cfa37d032b8211fcf8bf
+{{% /alert %}}
