@@ -15,8 +15,8 @@ Aspose.Cells GridWeb now supports adding and removing hyperlinks from client sid
 
 ## Sample Code
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples.GridWeb-CSharp-Worksheets-AddRemoveHyperlinkFromClientSide.aspx-AddRemoveHyperlinkFromClientSide-1.cs" >}}
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples.GridWeb-CSharp-Worksheets-AddRemoveHyperlinkFromClientSide-1.aspx" >}}
 
 You may also link to sheet using the following code snippet.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples.GridWeb-CSharp-Worksheets-AddRemoveHyperlinkFromClientSide.aspx-AddRemoveHyperlinkFromClientSide-2.cs" >}}
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples.GridWeb-CSharp-Worksheets-AddRemoveHyperlinkFromClientSide-2.aspx" >}}
