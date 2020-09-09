@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for .NET 20.9 Release Notes
 type: docs
-weight: 9
+weight: 8
 url: /net/aspose-cells-for-net-20-9-release-notes/
 ---
 
