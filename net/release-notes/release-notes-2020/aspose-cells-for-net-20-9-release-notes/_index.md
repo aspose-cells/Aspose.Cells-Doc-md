@@ -94,7 +94,7 @@ Indicates whether the slicer object is printable.
 
 Gets or sets the horizontal offset of slicer shape from its left column, in pixels.
 
-### **Adds Slicer.LockedAspectRatio property
+### **Adds Slicer.LockedAspectRatio property**
 
 Indicates whether locking aspect ratio.
 
