@@ -15,13 +15,13 @@ Page setup options are fully supported in Aspose.Cells. This article explains ho
 
 ## **Setting Page Options**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class.
+Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
 The Worksheet class provides the PageSetup property, used to set page setup options. In fact, the PageSetup property is an object of the PageSetup class which makes it possible to set page layout options for a printed worksheet. The PageSetup class provides various properties are used to set page setup options. Some of these properties are discussed below.
 
 ### **Page Orientation**
 
-Page orientation can be set to portrait or landscape using the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class' [**setOrientation(PageOrientationType)**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) method. The [**setOrientation(PageOrientationType)**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) method takes the [**PageOrientationType**](https://apireference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumeration as a parameter. The members of the [**PageOrientationType**](https://apireference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumeration are listed below.
+Page orientation can be set to portrait or landscape using the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class' [**setOrientation(PageOrientationType)**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) method. The [**setOrientation(PageOrientationType)**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) method takes the [**PageOrientationType**](https://apireference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumeration as a parameter. The members of the [**PageOrientationType**](https://apireference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumeration are listed below.
 
 |**Page Orientation Types**|**Description**|
 | :- | :- |
@@ -32,19 +32,19 @@ Page orientation can be set to portrait or landscape using the [**PageSetup**](h
 
 ### **Scaling Factor**
 
-It is possible to reduce or enlarge a worksheet's size by adjusting the scaling factor with the [**setZoom**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) method of the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class.
+It is possible to reduce or enlarge a worksheet's size by adjusting the scaling factor with the [**setZoom**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) method of the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class.
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ScalingFactor-ScalingFactor.java" >}}
 
 ### **FitToPages Options**
 
-To fit the contents of the worksheet to a specific number of pages, use the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class' [**setFitToPagesTall**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) and [**setFitToPagesWide**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) methods. These methods are also used to scale worksheets.
+To fit the contents of the worksheet to a specific number of pages, use the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class' [**setFitToPagesTall**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) and [**setFitToPagesWide**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) methods. These methods are also used to scale worksheets.
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FitToPagesOptions-FitToPagesOptions.java" >}}
 
 ### **Paper Size**
 
-Set the paper size that the worksheets will be printed to using the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class' [**PaperSize**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) property. The PaperSize property accepts one of the pre-defined values in the [**PaperSizeType**](https://apireference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) enumeration, listed below.
+Set the paper size that the worksheets will be printed to using the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class' [**PaperSize**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) property. The PaperSize property accepts one of the pre-defined values in the [**PaperSizeType**](https://apireference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) enumeration, listed below.
 
 |**Paper Size Types**|**Description**|
 | :- | :- |
@@ -96,13 +96,13 @@ Set the paper size that the worksheets will be printed to using the [**PageSetup
 
 ### **Print Quality**
 
-Set the print quality of the worksheets to be printed with the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class' [**setPrintQuality**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) method. The measuring unit for print quality is dots per inch (DPI).
+Set the print quality of the worksheets to be printed with the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class' [**setPrintQuality**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) method. The measuring unit for print quality is dots per inch (DPI).
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintQuality-SetPrintQuality.java" >}}
 
 ### **First Page Number**
 
-Start the numbering of worksheet pages using the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class' [**setFirstPageNumber**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) method. The setFirstPageNumber method sets the page number of the first worksheet page and the following pages are numbered in ascending order.
+Start the numbering of worksheet pages using the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class' [**setFirstPageNumber**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) method. The setFirstPageNumber method sets the page number of the first worksheet page and the following pages are numbered in ascending order.
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetFirstPageNumber-SetFirstPageNumber.java" >}}
 
@@ -114,13 +114,13 @@ Aspose.Cells fully supports Microsoft Excel's page setup options. Developers may
 
 ![todo:image_alt_text](page-setup-features_2.png)
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The Workbook class contains the Worksheets collection that allows access to each worksheet in a Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class.
+Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The Workbook class contains the Worksheets collection that allows access to each worksheet in a Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
-The Worksheet class provides the PageSetup property, used to set page setup options. The PageSetup attribute is an object of the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class which makes it possible to set different page layout options for a printed worksheet. The PageSetup class provides various properties and methods used to set page setup options.
+The Worksheet class provides the PageSetup property, used to set page setup options. The PageSetup attribute is an object of the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class which makes it possible to set different page layout options for a printed worksheet. The PageSetup class provides various properties and methods used to set page setup options.
 
 ### **Page Margins**
 
-Set the margins (left, right, top, bottom) of a page with [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class members. A few of the methods used to specify page margins are listed below:
+Set the margins (left, right, top, bottom) of a page with [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class members. A few of the methods used to specify page margins are listed below:
 
 - [**setLeftMargin(int)**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#LeftMargin)
 - [**setRightMargin(int)**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#RightMargin)
@@ -131,13 +131,13 @@ Set the margins (left, right, top, bottom) of a page with [**PageSetup**](https:
 
 ### **Center on Page**
 
-It is possible to center something on a page horizontally and vertically. The [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class has members for this purpose: [**setCenterHorizontally**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) and [**setCenterVertically**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
+It is possible to center something on a page horizontally and vertically. The [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class has members for this purpose: [**setCenterHorizontally**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) and [**setCenterVertically**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CenterOnPage-CenterOnPage.java" >}}
 
 ### **Header and Footer Margins**
 
-Set header and footer margins with [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) members such as [**setHeaderMargin**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) and [**setFooterMargin**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+Set header and footer margins with [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) members such as [**setHeaderMargin**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) and [**setFooterMargin**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -172,13 +172,13 @@ Script commands are special commands provided by Aspose.Cells that allow develop
 
 ### **Set Headers and Footers**
 
-The [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class provides method [**setHeader**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) for adding a header and [**setFooter**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) for adding a footer to a worksheet. The script is used as an argument for all the above mentioned methods. It represents the script to be used for header or footer. This script contains script commands to format headers or footers.
+The [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class provides method [**setHeader**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) for adding a header and [**setFooter**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) for adding a footer to a worksheet. The script is used as an argument for all the above mentioned methods. It represents the script to be used for header or footer. This script contains script commands to format headers or footers.
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Insert a Graphic into a Header or Footer**
 
-The [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class has the methods [**setHeadPicture**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) and [**setFooterPicture**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) for adding pictures to a worksheet's header and footer. These methods take two parameters:
+The [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class has the methods [**setHeadPicture**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) and [**setFooterPicture**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) for adding pictures to a worksheet's header and footer. These methods take two parameters:
 
 - **Section**, the section of the header or footer where the picture will be placed. There are three sections: left, center and right, represented by the numeric values 0, 1 and 2 respectively.
 - **File InputStream**, the graphical data. The binary data should be written into the buffer of a byte array.
@@ -196,7 +196,7 @@ After executing the code and opening the file, check the worksheet's header in M
 
 ### **Insert a Graphic in the First Page Header Only**
 
-The [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class also has other useful methods, for example [**setPicture**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), for adding pictures into a worksheet's first page header/footer. The first page is a special page: it is common to want it to show special information, for example a company logo.
+The [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class also has other useful methods, for example [**setPicture**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), for adding pictures into a worksheet's first page header/footer. The first page is a special page: it is common to want it to show special information, for example a company logo.
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -221,19 +221,19 @@ All of these print options are shown below.
 
 ### **Setting Print and Sheet Options**
 
-spose.Cells supports all the print options offered by Microsoft Excel and developers can easily configure these options for worksheets using the properties offered by the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class. How these properties are used is discussed below in more detail.
+spose.Cells supports all the print options offered by Microsoft Excel and developers can easily configure these options for worksheets using the properties offered by the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class. How these properties are used is discussed below in more detail.
 
 ### **Set Print Area**
 
 By default, only the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
 
-To select a specific print area, use the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class' [**setPrintArea**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) property. Assign a cell range that defines the print area to this property.
+To select a specific print area, use the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class' [**setPrintArea**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) property. Assign a cell range that defines the print area to this property.
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintArea-SetPrintArea.java" >}}
 
 ### **Set Print Titles**
 
-Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class' [**setPrintTitleColumns**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) and [**setPrintTitleRows**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) properties.
+Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class' [**setPrintTitleColumns**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) and [**setPrintTitleRows**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) properties.
 
 The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
@@ -241,7 +241,7 @@ The rows or columns that will be repeated are defined by passing their row or co
 
 ### **Set Other Print Options**
 
-The [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class also provides several other properties to set general print options as follows:
+The [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class also provides several other properties to set general print options as follows:
 
 - [**setPrintGridlines**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines), a Boolean property that defines whether to print gridlines or not print.
 - [*setPrintHeadings*](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings), a Boolean property that defines whether to print row and column headings or not.
@@ -273,7 +273,7 @@ The pre-defined values of the [**PrintErrorsType**](https://apireference.aspose.
 
 ### **Set Page Order**
 
-The [**PageSetup**](https://apireference.aspose.com/cells//java/com.aspose.cells/pagesetup) class provides the [**setOrder**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows:
+The [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup) class provides the [**setOrder**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows:
 
 - **Down then over** prints all pages down before printing any pages to the right.
 - **Over then down** prints pages left to right before printing any pages below.
