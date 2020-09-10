@@ -7,7 +7,7 @@ url: /net/aspose-cells-for-net-20-9-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for Aspose.Cells for .NET 20.9.
+This page contains release notes for [Aspose.Cells for .NET 20.9](https://www.nuget.org/packages/Aspose.Cells/20.9.0).
 
 {{% /alert %}}
 
