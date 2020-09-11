@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-20-9-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for Aspose.Cells for Java 20.9.
+This page contains release notes for [Aspose.Cells for Java 20.9](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.9/).
 
 {{% /alert %}}
 
