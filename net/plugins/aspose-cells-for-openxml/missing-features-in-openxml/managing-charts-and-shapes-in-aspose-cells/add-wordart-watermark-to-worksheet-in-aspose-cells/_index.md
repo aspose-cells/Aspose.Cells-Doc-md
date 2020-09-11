@@ -5,11 +5,11 @@ weight: 20
 url: /net/add-wordart-watermark-to-worksheet-in-aspose-cells/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Use WordArt to add special text effects to spreadsheets. For example, stretch a title across the top of the file, decorate text, and make text fit a preset shape, or apply text to an Excel sheet as a background watermark. The WordArt becomes an object that you can move or position in spreadsheets to add decoration.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following example shows how to add a WordArt shape to set a background watermark for a worksheet.
 
@@ -17,7 +17,7 @@ After running the code the output file contains a pale red WordArt watermark.
 
 **The output file** 
 
-![todo:image_alt_text](/download/thumbnails/5020417/157748250)
+![todo:image_alt_text](picture1.png)
 
 **C#**
 
@@ -66,11 +66,13 @@ lineFormat.IsVisible = false;
 workbook.Save(FileName);
 
 {{< /highlight >}}
-### **Download Sample Code**
-- [Codeplex](https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells Features missing in OpenXML/Add WordArt Watermark/)
+
+## **Download Sample Code**
+
+- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c/view/SourceCode#content)
-### **Download Running Example**
-- [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
+
+## **Download Running Example**
+
+- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)

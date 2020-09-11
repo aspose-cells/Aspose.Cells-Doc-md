@@ -39,10 +39,12 @@ fstream.Close();
 
 Below are the screenshots:
 
-![todo:image_alt_text](/download/thumbnails/5020597/1308473743)
+![todo:image_alt_text](picture1.png)
 
-![todo:image_alt_text](/download/thumbnails/5020597/1688694630)
+![todo:image_alt_text](picture2.png)
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposeopenxml.codeplex.com/downloads/get/808994)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -5,9 +5,12 @@ weight: 10
 url: /net/import-export-data-from-document/
 ---
 
-# **Import data from document**
+## **Import data from document**
+
 Data is the collection of raw facts and we create spreadsheet documents or reports to present these raw facts in a more meaningful manner. Normally, we add data to spreadsheets by ourselves but sometimes, we need to reuse existing data resources and here comes the need to import data to spreadsheets from different data sources. In this topic, we will discuss some techniques to import data to worksheets from different data sources.
+
 ## **Importing Data Using Aspose.Cells**
+
 When you use **Aspose.Cells** to open an Excel file, all data in the file is automatically imported but Aspose.Cells also supports to import data from different data sources. A few of these data sources are listed below:
 
 - **Array**
@@ -22,7 +25,9 @@ When you use **Aspose.Cells** to open an Excel file, all data in the file is aut
 Aspose.Cells provides a class, **Workbook** that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection.
 
 Cells collection provides very useful methods to import data from different data sources.
+
 ### **Importing from Array**
+
 Developers can import data from an array to their worksheets by calling the **ImportArray** method of the Cells collection. There are many overloaded versions of the ImportArray method but a typical overload takes the following parameters:
 
 - Array, represents the array object whose contents need to import
@@ -32,7 +37,7 @@ Developers can import data from an array to their worksheets by calling the **Im
 
 {{< highlight csharp >}}
 
- //Instantiating a Workbook object
+//Instantiating a Workbook object
 
 Workbook workbook = new Workbook();
 
@@ -57,7 +62,9 @@ worksheet.Cells.ImportArray(names, 0, 0, true);
 workbook.Save(MyDir+"DataImport from Array.xls");
 
 {{< /highlight >}}
+
 ### **Importing from ArrayList**
+
 Developers can import data from an ArrayList to their worksheets by calling the **ImportArrayList** method of the Cells collection. ImportArray method takes the following parameters: **ArrayList** , represents the ArrayList object whose contents need to import
 
 - Row Number , represents the row number of the first cell where the data will be imported
@@ -66,7 +73,7 @@ Developers can import data from an ArrayList to their worksheets by calling the 
 
 {{< highlight csharp >}}
 
- //Instantiating a Workbook object
+//Instantiating a Workbook object
 
 Workbook workbook = new Workbook();
 
@@ -100,14 +107,15 @@ worksheet.Cells.ImportArrayList(list, 0, 0, true);
 
 workbook.Save(MyDir + "DataImport from Array List.xls");
 
-
 {{< /highlight >}}
+
 ### **Importing from Custom Objects**
+
 Developers can import data from collection of objects to a worksheet using **ImportCustomObjects**. You can provide a list of columns/properties to the method to display your desired list of objects.
 
 {{< highlight csharp >}}
 
- //Instantiate a new Workbook
+//Instantiate a new Workbook
 
 Workbook book = new Workbook();
 
@@ -160,7 +168,9 @@ book.Worksheets[0].AutoFitColumns();
 book.Save(MyDir+"ImportedCustomObjects.xls");
 
 {{< /highlight >}}
+
 ### **Importing from DataTable**
+
 Developers can import data from a **DataTable** to their worksheets by calling the **ImportDataTable** method of the Cells collection. There are many overloaded versions of the **ImportDataTable** method but a typical overload takes the following parameters:**DataTable** , represents the **DataTable** object whose contents need to import
 
 - **Is Field Name Shown**, specifies that whether the names of the columns of DataTable should be imported to worksheet as a first row or not
@@ -168,7 +178,7 @@ Developers can import data from a **DataTable** to their worksheets by calling t
 
 {{< highlight csharp >}}
 
- //Instantiating a Workbook object
+//Instantiating a Workbook object
 
 Workbook workbook = new Workbook();
 
@@ -234,17 +244,23 @@ worksheet.Cells.ImportDataTable(dataTable, true, "A1");
 
 workbook.Save(MyDir+"Import From Data Table.xls");
 
-
 {{< /highlight >}}
+
 ## **Download Sample Code**
-- [Codeplex](http://goo.gl/FEQD3H)
-- [Github](https://github.com/asposemarketplace/Aspose_for_OpenXML/releases/download/4/Import.to.Worksheet.Aspose.Cells.zip)
+
+- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
-# **Export data from document**
+
+## **Export data from document**
+
 Aspose.Cells not only facilitates its users to import data to worksheets from external data sources but also allow them to export their worksheet data to a **DataTable**. As we know that **DataTable** is the part of ADO.NET and is used to hold data. Once the data is stored in a **DataTable**, it can be used in any way according to the requirements of users.
+
 ## **Exporting Data to DataTable (.NET) Using Aspose.Cells**
+
 Developers can easily export their worksheet data to a DataTable object by calling either ExportDataTable or ExportDataTableAsString method of the Cells class. Both methods are used in different scenarios, which are discussed below in more detail.
+
 ### **Columns Containing Strongly Typed Data**
+
 We know that a spreadsheet stores data as a sequence of rows and columns. If all values in the columns of a worksheet are strongly typed (that means all values in a column must have the same data type) then we can export the worksheet content by calling the **ExportDataTable** method of the Cells class. **ExportDataTable** method takes the following parameters to export worksheet data as **DataTable** object: **Row Number** , represents the row number of the first cell from where the data will be exported
 
 - **Column Number** , represents the column number of the first cell from where the data will be exported
@@ -254,7 +270,7 @@ We know that a spreadsheet stores data as a sequence of rows and columns. If all
 
 {{< highlight csharp >}}
 
- //Creating a file stream containing the Excel file to be opened
+//Creating a file stream containing the Excel file to be opened
 
 FileStream fstream = new FileStream(FOD_OpenFile.FileName, FileMode.Open);
 
@@ -281,12 +297,14 @@ dataGridView1.DataSource = dataTable;
 fstream.Close();
 
 {{< /highlight >}}
+
 ### **Columns Containing Non-Strongly Typed Data**
+
 If all values in the columns of a worksheet are not strongly typed (that means the values in a column may have the different data types) then we can export the worksheet content by calling the **ExportDataTableAsString** method of the Cells class. **ExportDataTableAsString** method takes the same set of parameters as that of **ExportDataTable** method to export worksheet data as **DataTable** object.
 
 {{< highlight csharp >}}
 
- //Creating a file stream containing the Excel file to be opened
+//Creating a file stream containing the Excel file to be opened
 
 FileStream fstream = new FileStream(FOD_OpenFile.FileName, FileMode.Open);
 
@@ -314,13 +332,8 @@ fstream.Close();
 
 {{< /highlight >}}
 
-Below are the screenshots:
-
-![todo:image_alt_text](/download/thumbnails/5020426/1123400652)
-
-![todo:image_alt_text](/download/thumbnails/5020426/255391929)
 ## **Download Sample Code**
-- [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
+
+- [Codeplex](https://archive.codeplex.com/?p=asposecellsopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

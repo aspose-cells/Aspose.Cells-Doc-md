@@ -82,7 +82,7 @@ Once installed, it is very easy to start using this control in your ASP.NET appl
 |**For .NET framework 4.0 and above** |**For .NET framework 2.0 and above** |** |
 | :- | :- | :- |
 |For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportGridViewToExcel** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. |In order you use this control in applications running in .NET 2.0 in any visual studio version make sure that you have added ExportGridViewToExcel to your toolbox as per instructions on ﻿[8.1.2.1 Downloading and Installing]() under heading **For Visual Studio 2005, 2008 and Express editions** <br>You should see **ExportGridViewToExcel** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. | |
-|<p>![todo:image_alt_text](/download/thumbnails/5020349/903673519)</p><p></p>|<p>![todo:image_alt_text](/download/thumbnails/5020349/1925217473)</p><p></p>| |
+|<p>![todo:image_alt_text](picture2.png)</p><p></p>|<p>![todo:image_alt_text](picture3.png)</p><p></p>| |
 ### **Manually adding ExportGridViewToExcel control**
 If you have any issues using the above methods which uses Visual Studio Toolbox, you can manually add this control to your ASP.NET application running on any .NET framework greater than 2.0
 

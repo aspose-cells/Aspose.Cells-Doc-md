@@ -24,7 +24,7 @@ These steps are shown in code below. The first code examples show how to impleme
 
 The code generates an Excel file with a number of cells on the first sheet, each with a different border:
 
-![todo:image_alt_text](/download/thumbnails/5020861/1479486362)
+![todo:image_alt_text](picture1.png)
 
 Cells with borders applied.
 ### **VSTO**

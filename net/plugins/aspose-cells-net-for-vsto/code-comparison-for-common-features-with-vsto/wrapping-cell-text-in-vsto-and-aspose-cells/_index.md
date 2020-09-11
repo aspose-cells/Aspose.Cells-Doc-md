@@ -17,11 +17,17 @@ To create a worksheet with two cells, one with wrapped text and one without:
    The code samples below show how to perform these steps using VSTO with either C#. Code samples that show how to do the same thing using Aspose.Cells for .NET, again using either C# follow immediately after.
 
 Running the code results in a spreadsheet with two cells, one that has text that hasn't been wrapped, and one that has:
-### **Output using VSTO Excel**
-![todo:image_alt_text](/download/thumbnails/5020836/1680931727)
-### **Output using Aspose.Cells for .NET**
-![todo:image_alt_text](/download/thumbnails/5020836/675231991)
-### **VSTO**
+
+## **Output using VSTO Excel**
+
+![todo:image_alt_text](picture1.png)
+
+## **Output using Aspose.Cells for .NET**
+
+![todo:image_alt_text](picture2.png)
+
+## **VSTO**
+
 {{< highlight csharp >}}
 
  //Access vsto application
@@ -63,7 +69,9 @@ workbook.SaveAs("OutputVsto.xlsx");
 app.Quit();
 
 {{< /highlight >}}
-### **Aspose.Cells**
+
+## **Aspose.Cells**
+
 {{< highlight csharp >}}
 
  private static void WrappingCellText()
@@ -107,7 +115,9 @@ app.Quit();
 }
 
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/1459782)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)

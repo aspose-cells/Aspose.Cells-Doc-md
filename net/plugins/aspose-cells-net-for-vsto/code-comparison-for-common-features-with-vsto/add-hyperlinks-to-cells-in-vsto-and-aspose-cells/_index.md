@@ -19,10 +19,12 @@ These steps are shown in the code examples below. The first examples shows how t
 
 The code samples generate an Excel file that has a hyperlink in cell A1 on the first worksheet.
 
-![todo:image_alt_text](/download/thumbnails/5020859/1810473641)
+![todo:image_alt_text](picture1.png)
 
 A hyperlink is added to cell A1.
-### **VSTO**
+
+## **VSTO**
+
 {{< highlight csharp >}}
 
  //Instantiate the Application object.
@@ -56,7 +58,9 @@ objBook.SaveCopyAs("Hyperlink_test.xls");
 ExcelApp.Quit();
 
 {{< /highlight >}}
-### **Aspose.Cells**
+
+## **Aspose.Cells**
+
 {{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
@@ -84,7 +88,9 @@ worksheet.Hyperlinks[index].ScreenTip = "Click to go to Aspose site";
 workbook.Save("Hyperlink_test.xls");
 
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/1459771)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)

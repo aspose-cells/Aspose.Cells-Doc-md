@@ -15,10 +15,12 @@ The code samples that follow show how to do this first with VSTO, using either C
 
 The code examples in this article create a worksheet with a repeating background image, like the one in the screentshot below.
 
-![todo:image_alt_text](/download/thumbnails/5020840/974689553)
+![todo:image_alt_text](picture1.png)
 
 A background has been set for the worksheet.
-### **VSTO**
+
+## **VSTO**
+
 {{< highlight csharp >}}
 
  //Instantiate the Application object.
@@ -46,7 +48,9 @@ objBook.SaveCopyAs("BackgroundPicBook.xls");
 ExcelApp.Quit();
 
 {{< /highlight >}}
-### **Aspose.Cells**
+
+## **Aspose.Cells**
+
 {{< highlight csharp >}}
 
  //Instantiate a new Workbook.
@@ -86,7 +90,9 @@ sheet.SetBackground(imageData);
 workbook.Save("BackgroundPicBook.xls");
 
 {{< /highlight >}}
+
 ## **Download Sample Code**
+
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/1459785)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/download)

@@ -15,17 +15,17 @@ The following example shows how to add a WordArt shape as a watermark for an exi
 
 **The input file** 
 
-![todo:image_alt_text](/download/thumbnails/5020414/1538484526)
+![todo:image_alt_text](picture1.png)
 
 **The output file**
 
-![todo:image_alt_text](/download/thumbnails/5020414/345803732)
+![todo:image_alt_text](picture2.png)
 
 **C#**
 
 {{< highlight csharp >}}
 
- string FilePath = @"..\..\..\Sample Files\";
+string FilePath = @"..\..\..\Sample Files\";
 
 string FileName = FilePath + "Add WordArt Watermark to Chart.xlsx";
 
@@ -62,11 +62,13 @@ lineFormat.IsVisible = false;
 workbook.Save(FileName);
 
 {{< /highlight >}}
+
 ### **Download Sample Code**
-- [Codeplex](https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells Features missing in OpenXML/Add WordArt Watermark to Chart/)
+
+- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark%20to%20Chart)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c/view/SourceCode#content)
+
 ### **Download Running Example**
-- [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
+
+- [Codeplex](https://archive.codeplex.com/?p=asposecellsopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)

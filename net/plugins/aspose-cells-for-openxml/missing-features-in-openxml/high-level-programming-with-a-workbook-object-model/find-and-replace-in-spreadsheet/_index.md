@@ -5,7 +5,7 @@ weight: 30
 url: /net/find-and-replace-in-spreadsheet/
 ---
 
-![todo:image_alt_text](/download/thumbnails/5020491/1646666428)
+![todo:image_alt_text](Find_and_Replace.png)
 
 When we click on find button following is the code:
 
@@ -108,8 +108,9 @@ Clicking on Replace button following code is executed:
 }
 
 {{< /highlight >}}
+
 ## **Download Sample Code**
-- [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
+
+- [Codeplex](https://archive.codeplex.com/?p=asposecellsopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
