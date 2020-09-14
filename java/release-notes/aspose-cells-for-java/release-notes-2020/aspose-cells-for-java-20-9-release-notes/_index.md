@@ -52,7 +52,7 @@ For performance and user's convenience consideration, we add this property and m
 
 ### **Adds TxtLoadOptions.HasTextQualifier property**
 
-Denotes whethere there is text qualifier for cell values in the template file.
+Denotes whether there is text qualifier for cell values in the template file.
 
 ### **Adds TxtLoadOptions.TextQualifier property**
 
@@ -128,7 +128,7 @@ Use FilterColumn.IsDropdownVisible instead.
 
 ### **Adds CopyOptions.KeepMacros property.**
 
-Indicates whether keeping the macors in the target workbook. It only effects when original workbook does not contains macros.
+Indicates whether keeping the macros in the target workbook. It only effects when original workbook does not contains macros.
 
 ### **Adds overload Workbook.Copy(Workbook,CopyOptions) method.**
 
@@ -136,7 +136,7 @@ Copies workbook with options.
 
 ### **Adds WarningType.InvalidAutoFilterRange enum.**
 
-Represents the warning type that the range could not autofiltered.
+Represents the warning type that the range could not auto filtered.
 
 ### **Adds Chart.DisplayNaAsBlank property.**
 
