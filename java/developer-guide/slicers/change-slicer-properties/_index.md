@@ -1,7 +1,7 @@
 ---
 title: Change Slicer Properties
 type: docs
-weight: 60
+weight: 70
 url: /java/change-slicer-properties/
 ---
 
