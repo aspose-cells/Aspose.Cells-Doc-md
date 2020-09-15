@@ -337,9 +337,9 @@ Aspose.Cells GridWeb now supports changing font settings from the client side. F
 - **updateCellFontStyle**: Params - r/i/b/ib for regular/italic/bold/italic&&bold
 - **updateCellFontSize**: Params - fontname, etc. 'System'
 - **updateCellFontName**: Params - fontsize,etc. '12pt'
-- **updateCellFontColor**: Params - none/u/l/ul/ for none/underline/strikout/underline&&strikout
-- **updateCellFontLine**: Params - html color like #aa22ee or wellknown color name like green,red,...
-- **updateCellBackGroundColor**: Params - html color like #aa22ee or wellknown color name like green,red,...
+- **updateCellFontColor**: Params - none/u/l/ul/ for none/underline/strikeout/underline&&strikeout
+- **updateCellFontLine**: Params - html color like #aa22ee or well-known color name like green,red,...
+- **updateCellBackGroundColor**: Params - html color like #aa22ee or well-known color name like green,red,...
 
 The following code snippet demonstrates changing font settings from client side in GridWeb.
 
@@ -354,3 +354,11 @@ Aspose.Cells GridWeb now supports adding and removing Comments from client side.
 ### Sample Code
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-add_remove_comments_from_client_side.jsp" >}}
+
+## Show buttons to Add/Remove Worksheets
+
+Aspose.Cells GridWeb now supports adding and removing sheets by using buttons in the toolbar. For the buttons to be visible on the frontend, you need to set **GridWeb1.ShowAddButton** to **true**. The following code snippet demonstrates adding Add/Remove buttons to the GridWeb toolbar.
+
+### Sample Code
+
+{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "GridWeb-show_add_remove_worksheet_buttons.java" >}}

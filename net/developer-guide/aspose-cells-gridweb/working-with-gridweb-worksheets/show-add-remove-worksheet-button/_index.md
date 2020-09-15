@@ -11,7 +11,7 @@ This topic discusses showing the Add/Remove buttons to Add/Remove worksheets in 
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb now supports adding and removing sheets by using buttons in the toolbar. For the buttons to be visible on the frontend, you need to set **GridWeb1.ShowAddButton** to **true**. The following code snippet demonstrtes adding Add/Remove buttons to the GridWeb toolbar.
+Aspose.Cells GridWeb now supports adding and removing sheets by using buttons in the toolbar. For the buttons to be visible on the frontend, you need to set **GridWeb1.ShowAddButton** to **true**. The following code snippet demonstrates adding Add/Remove buttons to the GridWeb toolbar.
 
 ## Sample Code
 
