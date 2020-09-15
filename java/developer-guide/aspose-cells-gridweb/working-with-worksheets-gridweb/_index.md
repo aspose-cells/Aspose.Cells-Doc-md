@@ -346,3 +346,11 @@ The following code snippet demonstrates changing font settings from client side 
 ### Sample Code
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-update_font_from_client_side-1.jsp" >}}
+
+## Add/Remove Comments From Client Side
+
+Aspose.Cells GridWeb now supports adding and removing Comments from client side. For this, the API provides the "addcomments" and "delcomments" functions. The following code snippet demonstrates adding and removing comments from client side in GridWeb.
+
+### Sample Code
+
+{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-add_remove_comments_from_client_side.jsp" >}}
