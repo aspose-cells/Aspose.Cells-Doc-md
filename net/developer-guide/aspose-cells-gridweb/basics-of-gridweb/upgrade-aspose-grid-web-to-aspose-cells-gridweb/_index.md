@@ -5,23 +5,25 @@ weight: 30
 url: /net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-To make it easier to upgrade, we maintain a document describing information critical to existing users, especially ones who have used the older Aspose.Grid.Web and need to upgrade to the merged Aspose.Cells.GridWeb. 
+To make it easier to upgrade, we maintain a document describing information critical to existing users, especially ones who have used the older Aspose.Grid.Web and need to upgrade to the merged Aspose.Cells.GridWeb.
 
-These are intended to be brief notes, and you should be able to find more information by looking at the sections of the [Developer Guide](/cells/net/developer-guide/) and [Aspose.Cells.GridWeb API Reference](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.GridWeb+namespace&linkCreation=true&fromPageId=5013732).
+These are intended to be brief notes, and you should be able to find more information by looking at the sections of the [Developer Guide](/cells/net/developer-guide/).
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Upgrading to Aspose.Cells.GridWeb**
+
 Aspose.Grid.Web users might come across issues using the new Aspose.Cells.GridWeb when they upgrade to it. It is to be noted that Aspose.Grid.Web has been renamed and become a part of Aspose.Cells so we will not continue or make amendments to older versions of the control. 
 
 It is not hard to upgrade to the latest Aspose.Cells.GridWeb component.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 There are a few changes in the API as the classes with the members, structs, enumerations etc. remain the same. Most of the changes have been made to the control’s namespaces and other tags or attributes.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following is the namespaces list and other attributes/tags that are changed now:
 
