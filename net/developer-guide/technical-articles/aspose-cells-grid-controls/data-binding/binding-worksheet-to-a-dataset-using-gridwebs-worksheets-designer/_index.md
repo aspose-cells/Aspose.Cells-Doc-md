@@ -284,7 +284,7 @@ End Sub
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
 #### **Step 8: Running the Application**
-Compile and run the application: either press **Ctrl+F5** or clic **Start**. 
+Compile and run the application: either press **Ctrl+F5** or click **Start**. 
 **Running the application** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
@@ -340,7 +340,7 @@ At the left of the new row is an asterisk {{< emoticons/cross >}}, indicating th
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
 #### **Setting Number Format**
-At the moment, the prices in the **Product Price** column are showns as numeric values. It is possible to make them look like currency.
+At the moment, the prices in the **Product Price** column are shown as numeric values. It is possible to make them look like currency.
 
 1. Return to Visual Studio.NET.
 1. Open the BindColumn Collection Editor.

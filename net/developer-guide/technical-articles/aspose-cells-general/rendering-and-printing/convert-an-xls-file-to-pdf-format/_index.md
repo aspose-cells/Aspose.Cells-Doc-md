@@ -17,7 +17,7 @@ This document is designed to provide comprehensive understanding of how a Micros
 
 ## **Converting Excel to PDF**
 
-This example uses an Excel file (SampleInput.xlsx) as a template. The workbook contains worksheets with charts and image. Each worksheet contians different types of formats using fonts, attributes, colors, shading effects and borders. There's a column chart on the first worksheet and an image on the last.
+This example uses an Excel file (SampleInput.xlsx) as a template. The workbook contains worksheets with charts and image. Each worksheet contains different types of formats using fonts, attributes, colors, shading effects and borders. There's a column chart on the first worksheet and an image on the last.
 
 ### **The Template Excel File**
 

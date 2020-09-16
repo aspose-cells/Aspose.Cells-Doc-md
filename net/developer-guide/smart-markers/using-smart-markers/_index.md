@@ -162,7 +162,7 @@ Smart marker parameters for managing images.
 
 - **Picture:FitToCell** - Auto-fit the image to the cell’s row height and column width.
 - **Picture:ScaleN** - Scale height and width to N percent.
-- **Picture:Width:Nin&Height:Nin** - Render the image N inches high and N inches wide. You can also sepecify Left and Top positions (in points).
+- **Picture:Width:Nin&Height:Nin** - Render the image N inches high and N inches wide. You can also specify Left and Top positions (in points).
 
 Here is the source code used in the example.
 

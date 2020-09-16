@@ -54,7 +54,7 @@ cell.SetStyle(style);
 
 //but 20 will not be visible because
 
-//the cell is formated as ---
+//the cell is formatted as ---
 
 cell.Formula = "=Sum(A1:A2)";
 

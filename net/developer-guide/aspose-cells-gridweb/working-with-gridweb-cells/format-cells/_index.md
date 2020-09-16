@@ -39,7 +39,7 @@ You can customize the following font settings using the Style dialog:
 - Font size, select a font size in points.
 - Underline, underline text.
 - Strikethrough, apply a strikethrough effect to text.
-- Horzontal alignment, select horizontal alignment.
+- Horizontal alignment, select horizontal alignment.
 - Vertical alignment, select vertical alignment.
 - Font color, select a font color.
 - Background, select a color for the background.
@@ -65,7 +65,7 @@ The following border options can be selected from the Style dialog:
 - Border line style, select the border style like solid, dashed etc.
 - Border line width, select the border width in pixels.
 - Border line color, select the line color.
-- Border lines, select the numbering and positioing of border lines.
+- Border lines, select the numbering and positioning of border lines.
 
 **Customized border settings** 
 
@@ -86,7 +86,7 @@ To customize font settings programmatically:
 1. Add the Aspose.Cells.GridWeb control to a Web Form.
 1. Access a worksheet.
 1. Access the cell you are formatting.
-1. Acces the cell's style.
+1. Access the cell's style.
 1. Set the font size in points.
 1. Set the font style.
 1. Set foreground and background colors.

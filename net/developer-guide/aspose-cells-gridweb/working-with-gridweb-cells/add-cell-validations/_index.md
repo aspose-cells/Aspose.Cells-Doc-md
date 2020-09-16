@@ -7,7 +7,7 @@ url: /net/add-cell-validations/
 
 {{% alert color="primary" %}} 
 
-One of Aspose.Cells.GridWeb's advenced features is its apability to add input validation rules for cells. Developers can create different types of validation rules for cells to control and validate input values. This topic discusses the validation types supported and how to create them.
+One of Aspose.Cells.GridWeb's advanced features is to add input validation rules for cells. Developers can create different types of validation rules for cells to control and validate input values. This topic discusses the validation types supported and how to create them.
 
 {{% /alert %}} 
 ## **Types of Validations**

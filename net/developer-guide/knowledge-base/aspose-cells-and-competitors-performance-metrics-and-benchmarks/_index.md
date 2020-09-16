@@ -144,7 +144,7 @@ The results show that Aspose.Cells completed the task in 6.12 seconds, Product1 
 |Product2|69.04|Partially Done|
 |Product3|27.32|OK|
 ### **Scenario 3 - Load a 10 MB XLS Template File**
-For this scenario uses a large excel file filled with common data. The file consists of a workbook with a fixed number of worksheets. The file is opened, a number of columns are inseted into each worksheet and the file updated. In this scenario, we measured benchmarking results of Aspose.Cells, Product1, Product2 and Product3.
+For this scenario uses a large excel file filled with common data. The file consists of a workbook with a fixed number of worksheets. The file is opened, a number of columns are inserted into each worksheet and the file updated. In this scenario, we measured benchmarking results of Aspose.Cells, Product1, Product2 and Product3.
 
 The workbook contains 100 worksheets with 377 * 18 records in each. Each worksheet is filled with similar data. The code then inserts 10 columns in each worksheet, fills them with string values and saves the updated file.
 

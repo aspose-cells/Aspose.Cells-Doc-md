@@ -7,7 +7,7 @@ url: /net/using-undo-and-redo-feature/
 
 {{% alert color="primary" %}} 
 
-The GridDesktop's Undo/Redo feature is very useful. The name explains its functionality itselft, it allows you to undo/redo the recent action(s) in a worksheet. For example, if a formula is accidentally deleted or you edit data in a cell which you don't actually want, these actions can be corrected by using the Undo and Redo operations provided by the control.
+The GridDesktop's Undo/Redo feature is very useful. The name explains its functionality itself, it allows you to undo/redo the recent action(s) in a worksheet. For example, if a formula is accidentally deleted or you edit data in a cell which you don't actually want, these actions can be corrected by using the Undo and Redo operations provided by the control.
 
 {{% /alert %}} 
 ## **Performing Undo and Redo Operation**

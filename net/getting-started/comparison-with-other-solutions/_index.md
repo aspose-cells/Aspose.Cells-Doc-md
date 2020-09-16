@@ -16,7 +16,7 @@ This comparison table attempts to provide an overview of **How Aspose.Cells comp
 |**File Formats**| | | | |
 |Native Excel File Format|**Yes**|**Yes**|**Yes**|**Yes**|
 |CSV Format| | | |**Yes**|
-|Tab Delimted Text Format| | | |**Yes**|
+|Tab Delimited Text Format| | | |**Yes**|
 |*SpreadsheetML* Format| | | |**Yes**|
 |Convert Workbook to Pdf format| | | |**Yes**|
 |Convert Workbook to HTML file| | | |**Yes**|

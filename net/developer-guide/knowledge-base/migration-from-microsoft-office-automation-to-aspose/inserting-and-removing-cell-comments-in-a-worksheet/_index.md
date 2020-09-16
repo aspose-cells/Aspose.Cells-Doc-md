@@ -9,7 +9,7 @@ url: /net/inserting-and-removing-cell-comments-in-a-worksheet/
 
 Generally, comments are used to add additional information to cells in a worksheet. We use them every now and then and we delete them when we do not need them any longer. Comments are useful if you need to document a particular value or to help you remember what a formula does. When you move the mouse pointer over a cell that has a comment, the comment pops up in a small box.
 
-In this article, we compare how to add and remove comments from cells using VSTO and Aspose.Cells for .NET. Aspose.Cells for .NET works with Microsoft Excel files independently of Office Automation and giives you powerful tools for creating and manipulating spreadsheets.
+In this article, we compare how to add and remove comments from cells using VSTO and Aspose.Cells for .NET. Aspose.Cells for .NET works with Microsoft Excel files independently of Office Automation and gives you powerful tools for creating and manipulating spreadsheets.
 
 {{% /alert %}} 
 ### **Adding and Removing Comments on Cells**

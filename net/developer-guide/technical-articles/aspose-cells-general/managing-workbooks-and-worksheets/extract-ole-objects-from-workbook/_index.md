@@ -7,7 +7,7 @@ url: /net/extract-ole-objects-from-workbook/
 
 {{% alert color="primary" %}} 
 
-Sometimes, you do need to extract OLE objects from a workbook. Aspose.Cells supports extracting and saving those OLe objects.
+Sometimes, you do need to extract OLE objects from a workbook. Aspose.Cells supports extracting and saving those Ole objects.
 
 This article shows how to create a console application in Visual Studio.Net and extract different OLE objects from a workbook with a few simple lines of code.
 

@@ -65,7 +65,7 @@ The pre-defined chart types are:
 |Column|Represents Clustered Column Chart|
 |ColumnStacked|Represents Stacked Column Chart|
 |Column100PercentStacked|Represents 100% Stacked Column Chart|
-|Column3DClustered|Represents 3D Colustered Column Chart|
+|Column3DClustered|Represents 3D Clustered Column Chart|
 |Column3DStacked|Represents 3D Stacked Column Chart|
 |Column3D100PercentStacked|Represents 3D 100% Stacked Column Chart|
 |Column3D|Represents 3D Column Chart|

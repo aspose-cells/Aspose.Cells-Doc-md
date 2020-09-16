@@ -52,8 +52,8 @@ Aspose.Cells.GridWeb also exposes functions especially for client-side scripting
 |**Functions**|**Description**|
 | :- | :- |
 |updateData(bool cancelEdit)|Updates all client data of Aspose.Cells.GridWeb before posting it to the server. If the cancelEdit parameter is true then GridWeb discards all user input.|
-|validateAll()|Used to check if there are any validation errors in the user input. If there is an error, the function returns false, otherwise ture .|
-|submit(string arg, bool cancelEdit)|Call this function to postback or submit data to the server. This function performs both tasks that is updating data and validating user input. This function can also fire a command event at server side. Use the arg parameter to pass your command. For example: the SAVE command is used for clicking the **Save** button on the command bar of teh GridWeb control and the CCMD:MYCOMMAND command fires a CustomCommand event.|
+|validateAll()|Used to check if there are any validation errors in the user input. If there is an error, the function returns false, otherwise true .|
+|submit(string arg, bool cancelEdit)|Call this function to postback or submit data to the server. This function performs both tasks that is updating data and validating user input. This function can also fire a command event at server side. Use the arg parameter to pass your command. For example: the SAVE command is used for clicking the **Save** button on the command bar of the GridWeb control and the CCMD:MYCOMMAND command fires a CustomCommand event.|
 |setActiveCell(int row, int column)|Used to activate a specific cell.|
 |setCellValue(int row, int column, string value)|Used to put a value to any cell specified using its row and column numbers.|
 |getCellValue(int row, int column)|Returns the value of any specified cell.|

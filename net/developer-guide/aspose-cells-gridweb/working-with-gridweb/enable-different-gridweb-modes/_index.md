@@ -46,7 +46,7 @@ Whenever a user clicks the **Undo** button, it brings the GridWeb to its previou
 
 {{% /alert %}} 
 ## **View Mode**
-When the GridWeb control is in View mode, users cannot edit or modify grid content, which means that users can only view grid content. That's why this mode is called View mode. In View mode, a few buttons (**Submit**, **Save** and **Undo**) are hidden and the menu that appears when right-clicking only contians the **Copy** option.
+When the GridWeb control is in View mode, users cannot edit or modify grid content, which means that users can only view grid content. That's why this mode is called View mode. In View mode, a few buttons (**Submit**, **Save** and **Undo**) are hidden and the menu that appears when right-clicking only contains the **Copy** option.
 
 **GridWeb control in View Mode** 
 

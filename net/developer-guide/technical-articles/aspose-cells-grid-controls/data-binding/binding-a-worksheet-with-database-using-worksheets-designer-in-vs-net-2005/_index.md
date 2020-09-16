@@ -25,7 +25,7 @@ Few dummy records are added to the **Products** table as shown below in the figu
 
 **Figure:** Records in **Products** table 
 ##### **Step 2: Designing Sample Application**
-An **ASP.NET Web Application** is created and designed in Visual Studio.NET 2005 as shown in the figures below. These screen shots are usefull for those developers who are not much familiar using Aspose.Cells.GridWeb in Visual Studio.Net 2005. 
+An **ASP.NET Web Application** is created and designed in Visual Studio.NET 2005 as shown in the figures below. These screen shots are useful for those developers who are not much familiar using Aspose.Cells.GridWeb in Visual Studio.Net 2005. 
 
 First start VS.Net 2005. 
 
@@ -236,7 +236,7 @@ After configuring the wizard, the oleDbDataAdapter1 is automatically added to th
 
 **Figure:** Retrieving the OleDbDataAdapter object on the designer window 
 ##### **Step 5: Generating DataSet**
-As we have created database connection and data adapter objects but still we need something where we can store data after conencting with database. A **DataSet** object can store data precisely and we can also generate it easily using VS.NET 2005 IDE. To do so, select **oleDbDataAdaper1** and right click. A context menu would be popped up with some options. Select **Generate** **DataSet...** option from the menu as shown below in the figure. 
+As we have created database connection and data adapter objects but still we need something where we can store data after connecting with database. A **DataSet** object can store data precisely and we can also generate it easily using VS.NET 2005 IDE. To do so, select **oleDbDataAdaper1** and right click. A context menu would be popped up with some options. Select **Generate** **DataSet...** option from the menu as shown below in the figure. 
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_30.png)
 
@@ -284,7 +284,7 @@ Now, you can configure **BindColumns** property. After clicking it, Now you may 
 ##### **Step 7: Adding Some Lines of Code for the Web Page**
 We have used **Worksheets Designer** easily and now we just have to add some lines of code 
 
-First we will add **OnInit** event related code to instialize **InitializeComponent** method to intialize and create connection, command, dataadapter and dataset objects. These lines of code are not added with the auto generated code, so we have to add them manually. 
+First we will add **OnInit** event related code to initialize **InitializeComponent** method to initialize and create connection, command, dataadapter and dataset objects. These lines of code are not added with the auto generated code, so we have to add them manually. 
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_38.png)
 

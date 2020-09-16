@@ -23,7 +23,7 @@ Simply call the [Add](https://apireference.aspose.com/net/cells/aspose.cells.dra
 There are two possible ways to control the positioning of pictures using Aspose.Cells:
 
 - Proportional positioning: define a position proportional to the row height and width.
-- Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20picels below the edge of the cell.
+- Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20pixels below the edge of the cell.
 ##### **Proportional Positioning**
 Developers can position the pictures proportional to row height and column width using the [UpperDeltaX](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/upperdeltax) and [UpperDeltaY](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/upperdeltay) properties of the [Aspose.Cells.Drawing.Picture](https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture) object. A [Picture](https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture) object can be obtained from the [Pictures](https://apireference.aspose.com/net/cells/aspose.cells.drawing/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
 

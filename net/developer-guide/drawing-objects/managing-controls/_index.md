@@ -18,7 +18,7 @@ One way to stress important information in a report is to use a text box. For ex
 - The LineFormat property returns the MsoLineFormat object usually used to style and weight of the text box line.
 - The Text property specifies the input text for the text box.
 
-The following example creates two textboxes in the first worksheet of the workbook. The first text box is well-furnished with differnt format settings. The second is a simple one.
+The following example creates two textboxes in the first worksheet of the workbook. The first text box is well-furnished with different format settings. The second is a simple one.
 
 
 
@@ -26,7 +26,7 @@ The following example creates two textboxes in the first worksheet of the workbo
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingTextBoxControl-1.cs" >}}
 ## **Manipulating Text Box Controls in Designer Spreadsheets**
-Aspose.Cells also lets you access textboxes in the desinger worksheets and manipulate them. Use the Worksheet.TextBoxes property to get the textboxes collection in the sheet.
+Aspose.Cells also lets you access textboxes in the designer worksheets and manipulate them. Use the Worksheet.TextBoxes property to get the textboxes collection in the sheet.
 
 The following example uses the Microsoft Excel file that we created in the above example. It gets the text strings of the two textboxes and changes the text of the second textbox to save the file.
 

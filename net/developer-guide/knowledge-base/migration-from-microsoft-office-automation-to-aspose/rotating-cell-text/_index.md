@@ -121,7 +121,7 @@ objstyle.ForegroundColor = Color.FromArgb(0, 51, 105);
 
 
 
-// Set the background pattern for fillment color.
+// Set the background pattern for fill color.
 
 objstyle.Pattern = BackgroundType.Solid;
 

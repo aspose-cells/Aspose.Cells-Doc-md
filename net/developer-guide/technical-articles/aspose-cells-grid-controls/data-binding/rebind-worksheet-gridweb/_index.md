@@ -73,7 +73,7 @@ End Sub
 
 {{< /highlight >}}
 
-The worksheet will always bind to dataSet11 even if you change the worksheet.DataSource property at runtime. This is because the sheet alway uses the DataSource binding information in the worksheet's tag in the ASPX file. To bind the sheet to another datasource at runtime, remove the datasource binding information in the worksheet tag in the ASPC file. Edit the tag to this: 
+The worksheet will always bind to dataSet11 even if you change the worksheet.DataSource property at runtime. This is because the sheet always uses the DataSource binding information in the worksheet's tag in the ASPX file. To bind the sheet to another datasource at runtime, remove the datasource binding information in the worksheet tag in the ASPC file. Edit the tag to this: 
 
 **XML**
 

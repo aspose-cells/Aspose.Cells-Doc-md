@@ -208,7 +208,7 @@ protected void Page_Load(object sender, EventArgs e)
 
         GridWorksheet sheet = GridWeb1.WorkSheets[0];
 
-        //Setting the Data Sorce of worksheet
+        //Setting the Data Source of worksheet
 
         sheet.DataSource = list;
 

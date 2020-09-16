@@ -39,8 +39,8 @@ The [PivotField](https://apireference.aspose.com/net/cells/aspose.cells.pivot/pi
 
 - Access row fields.
 - Setting subtotals.
-- Setting autorsort.
-- Setting autorshow.
+- Setting autosort.
+- Setting autoshow.
 #### **Setting Row/Column/Page Fields Format**
 
 

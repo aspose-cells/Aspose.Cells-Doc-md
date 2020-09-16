@@ -64,8 +64,8 @@ To replace text:
 
 1. Open the dialog box.
 1. Enter the text you want to find in the **Find what** field, and the text you want to replace it with in the **Replace with** field.
-1. Replace one occurence at a time by clicking **Find Next** followed by **Replace**.
-1. If you are very sure of what the worlsheet contains, click **Replace All**.
+1. Replace one occurrence at a time by clicking **Find Next** followed by **Replace**.
+1. If you are very sure of what the worksheet contains, click **Replace All**.
 
 {{% alert color="primary" %}} 
 

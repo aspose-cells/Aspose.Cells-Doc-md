@@ -22,7 +22,7 @@ You can follow the steps below to reference the Aspose.Cells component using the
 - Select **Tools** -> **Library Package Manager** -> **Package Manager Console** from the menu to open package manager console.
   - Type the command “Install-Package Aspose.Cells” and press enter to install latest full release into your application. Alternatively you can add the "-prerelease" suffix to the command in order to specify that the latest release including hot fixes is to be installed as well.
 - You will see that the "Downloading Aspose.Cells..." tip appears down the bottom left of the window indicating that the download is process.
-- Once downloaded you will see the following confirmation messages. If you are not farmilar with the Aspose EULA then it is a good idea to read the license referenced in the URL.
+- Once downloaded you will see the following confirmation messages. If you are not familiar with the Aspose EULA then it is a good idea to read the license referenced in the URL.
 - You should now find that Aspose.Cells has successfully been added and referenced in your application for you.
 ## **Referencing Aspose.Cells from a .NET Project**
 In order to use Aspose.Cells in an application, add a reference to it. To add a reference using Visual Studio:

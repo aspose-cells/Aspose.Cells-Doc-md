@@ -98,7 +98,7 @@ var book = new Workbook("sample.csv", options);
 
 
 ### **Property Shape.Id Added**
-The propery Id has been added to the Shape class to uniquely identify each shape object in a given spredsheet. This new property also helps in identifying Chart objects in a spreadsheet as demonstrated below.
+The property Id has been added to the Shape class to uniquely identify each shape object in a given spredsheet. This new property also helps in identifying Chart objects in a spreadsheet as demonstrated below.
 
 **C#**
 

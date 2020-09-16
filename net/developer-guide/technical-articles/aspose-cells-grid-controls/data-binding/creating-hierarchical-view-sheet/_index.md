@@ -31,9 +31,9 @@ this example, there are three DataTables: Customers, Orders, Order Details. The 
 
 the user expands a customer, the grid shows all the orders that customer has placed. When the user expands an order, the grid shows the details 
 
-of that order. The data is hieracical: order details are listed under orders, and orders are listed under customers.
+of that order. The data is hierarchical: order details are listed under orders, and orders are listed under customers.
 
-FOr this to work, the following to relationships must be established between the data tables:
+For this to work, the following to relationships must be established between the data tables:
 
 1. Create a foreign key on DataTable Orders, the key field is CustomerID 
 
@@ -42,7 +42,7 @@ FOr this to work, the following to relationships must be established between the
 
 
 
-1. Create a foreingn key on DataTable Order Details, the key field is OrderID. 
+1. Create a foreign key on DataTable Order Details, the key field is OrderID. 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
@@ -116,7 +116,7 @@ End Sub
 
 {{< /highlight >}}
 #### **Load Data from Database and Binding**
-As described in [Binding Worksheet to a DataSet using GridWebs Worksheets Designer](/cells/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
+As described in [Binding Worksheet to a DataSet using GridWeb's Worksheets Designer](/cells/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
 you need to add code to the Page_Load block to load data to the DataSet from a database, and bind the DataSet to the sheet in the 
 
 next step. 

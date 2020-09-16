@@ -13,7 +13,7 @@ Aspose.Cells.GridWeb is a GUI based web control that can be embedded in ASP.NET 
 ## **Comparison**
 Aspose.Cells.GridWeb is built using Microsoft .NET Framework so it is fully supported on Microsoft's Internet Explorer (IE). However, on other browsers it has minor limitations. This topic provides a detailed comparison of which features are supported on different browsers.
 
-|**Client Side Featrues** |**Microsoft Internet Explorer** |**Google Chrome** |**Mozilla Firefox** |**Opera** |
+|**Client Side Features** |**Microsoft Internet Explorer** |**Google Chrome** |**Mozilla Firefox** |**Opera** |
 | :- | :- | :- | :- | :- |
 |Context Menu of Cell |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Client Side Validation |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

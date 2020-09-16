@@ -1,5 +1,5 @@
 ---
-title: Implementing GridDesktops Data Binding Feature in Worksheets
+title: Implementing GridDesktop Data Binding Feature in Worksheets
 type: docs
 weight: 10
 url: /net/implementing-griddesktops-data-binding-feature-in-worksheets/

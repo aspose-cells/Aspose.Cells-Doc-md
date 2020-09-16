@@ -22,7 +22,7 @@ If developers want to use the feature of format painter for just one time only t
 
 {{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UsingFormatPainter-UseOnce.cs" >}}
 ### **Using Format Painter Always**
-To use format painter always is a useful feature when we need to apply the formatting settings on more than ons cells. Developers can achieve this feature by simply calling **StartFormatPainter** method and passing a **true** value to it.
+To use format painter always is a useful feature when we need to apply the formatting settings on more than one cells. Developers can achieve this feature by simply calling **StartFormatPainter** method and passing a **true** value to it.
 
 
 

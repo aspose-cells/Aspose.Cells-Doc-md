@@ -40,7 +40,7 @@ The output of code snippet is shown below:
 ### **Event Handling of Custom Command Button**
 The most important aspect of custom command buttons is the action they perform when clicked. To set the action, create an event handler for the GridWeb control's CustomCommand event.
 
-The CustomCommand event is always triggered when a custom command button is clicked. So the event handler has to identify the specific custom command button that it applies to by the Command set when adding the button to the GridWib control. Finally, add custom code that is executed when the button is clicked.
+The CustomCommand event is always triggered when a custom command button is clicked. So the event handler has to identify the specific custom command button that it applies to by the Command set when adding the button to the GridWeb control. Finally, add custom code that is executed when the button is clicked.
 
 In the code example below, a text message is added to the cell A1 when the button is clicked.
 

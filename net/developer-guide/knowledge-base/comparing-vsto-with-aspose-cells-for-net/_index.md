@@ -7,7 +7,7 @@ url: /net/comparing-vsto-with-aspose-cells-for-net/
 
 {{% alert color="primary" %}} 
 
-This article compares using VSTO (Visual Studio Tools for Office) with other approaches for developing Microsoft Office-based solisions. In particular, it looks at Aspose.Cells and provides a comparison of how the two solutions work. The articles gives information developers can use to analyze, compare and evaluate different options before adopting a solution.
+This article compares using VSTO (Visual Studio Tools for Office) with other approaches for developing Microsoft Office-based solutions. In particular, it looks at Aspose.Cells and provides a comparison of how the two solutions work. The articles gives information developers can use to analyze, compare and evaluate different options before adopting a solution.
 
 {{% /alert %}} 
 ## **Overview**
@@ -33,7 +33,7 @@ On the contrary, Aspose.Cells for .NET does not necessarily demand the .NET Fram
 ### **Features**
 The features that VSTO provide depend on which combination of VSTO and Visual Studio products you have installed. Common tasks performed by VSTO for Microsoft Office Excel 2003 include adding data to Cells, creating, opening and saving workbooks, adding, moving and hiding worksheets, protecting worksheets, named ranges, list object, styles formatting, searching text in cells, sorting data, printing and Excel formula calculations.
 
-Aspose.Cells provides everything necessary to manage Microsoft Office Excel files plus much, much more. The API gives developers great results with the least amount of effort. Aspose.Cells provides many powerful, time saving functions. ther API provides easy-to-use APIs for all types of spreadsheet management activities, covering almost all the features Microsoft Excel provides. All the tasks listed for VSTO can easily be performed by Aspose.Cells.
+Aspose.Cells provides everything necessary to manage Microsoft Office Excel files plus much, much more. The API gives developers great results with the least amount of effort. Aspose.Cells provides many powerful, time saving functions. the API provides easy-to-use APIs for all types of spreadsheet management activities, covering almost all the features Microsoft Excel provides. All the tasks listed for VSTO can easily be performed by Aspose.Cells.
 
 Aspose.Cells also supports several advanced features, including support for Smart Markers, importing and exporting data to and from a number of data sources, objects and Excel files, support for COM clients (ASP client) Interoperability with the component, converting Excel files to PDF format, saving Excel charts and worksheets as image files.
 ### **Security**
@@ -104,7 +104,7 @@ The results showed that using VSTO API took about 2.5 minutes (approx. over 150 
 
 If the loop is extended, say to fill 10,000*20 cells, Aspose.Cells takes about 5.5 seconds to do the job.
 ## **Conclusion**
-If you are considering using an Microsoft Office technology in a business solution, first become familiar with alternatives available. Perform some tests based on differnet products and expose them to a variety of real world conditions such as load and stress to see how well they perform.
+If you are considering using an Microsoft Office technology in a business solution, first become familiar with alternatives available. Perform some tests based on different products and expose them to a variety of real world conditions such as load and stress to see how well they perform.
 
 Aspose.Cells is a stable and mature product with worldwide customer base, and scalable enough to perform well under heavy loads.
 
