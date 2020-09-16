@@ -5,14 +5,16 @@ weight: 90
 url: /net/set-background-picture-of-a-worksheet/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Background images sit behind the text and lines in a spreadsheet. They are used to give information about a workbook, for example when used as status watermarks, but can also add company branding, or decoration. Microsoft Excel allows users to add background images manually.
 
 Developers can also add background images through their applications, using either Aspose.Cells for .NET or VSTO. This article compares the two approaches.
 
-{{% /alert %}} 
-### **Setting a Background Picture on a Worksheet**
+{{% /alert %}}
+
+## **Setting a Background Picture on a Worksheet**
+
 To apply a background image to a spreadsheet:
 
 1. Create a workbook and access the sheet you want to apply a background image to.
@@ -21,13 +23,15 @@ To apply a background image to a spreadsheet:
 
 The code samples that follow show how to do this first with [VSTO](/cells/net/set-background-picture-of-a-worksheet/), using either C# or Visual Basic, and then with [Aspose.Cells for .NET](/cells/net/set-background-picture-of-a-worksheet/), again using either C# or Visual Basic.
 
-The code examples in this article create a worksheet with a repeating background image, like the one in the screentshot below.
+The code examples in this article create a worksheet with a repeating background image, like the one in the screenshot below.
 
-**A background has been set for the worksheet.** 
+**A background has been set for the worksheet.**
 
 ![todo:image_alt_text](set-background-picture-of-a-worksheet_1.png)
-#### **Setting Background Pictures with VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017467)
+
+### **Setting Background Pictures with VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -72,8 +76,10 @@ ExcelApp.Quit();
 
 
 {{< /highlight >}}
-#### **Setting Background Pictures with Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017467)
+
+### **Setting Background Pictures with Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 

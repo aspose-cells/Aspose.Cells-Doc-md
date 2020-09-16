@@ -5,16 +5,18 @@ weight: 60
 url: /net/add-hyperlinks-to-cells/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells for .NET allows you to perform almost any tasks through your application that a user can perform in Microsoft Excel. This article compares how to add a hyperlink to a cell in a worksheet using VSTO and Aspose.Cells for .NET.
 
-{{% /alert %}} 
-### **Adding Hyperlinks to Cells**
+{{% /alert %}}
+
+## **Adding Hyperlinks to Cells**
+
 To add hyperlinks to cells in a spreadsheet, take the following steps:
 
 1. Set up the worksheet:
-   1. Instantiate an Application object. 
+   1. Instantiate an Application object.
       (VSTO only.)
    1. Add a Workbook.
    1. Get the first sheet.
@@ -24,14 +26,15 @@ To add hyperlinks to cells in a spreadsheet, take the following steps:
 
 These steps are shown in the code examples below. The first examples shows how to use [VSTO](/cells/net/add-hyperlinks-to-cells/) with either C# or Visual Basic to add a hyperlink to a cell. The examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/add-hyperlinks-to-cells/), again using C# or Visual Basic.
 
-The code samples generate an Excel file that has a hyperlink in cell A1 on the first worksheet. 
+The code samples generate an Excel file that has a hyperlink in cell A1 on the first worksheet.
 
 ![todo:image_alt_text](add-hyperlinks-to-cells_1.png)
 
-
 **A hyperlink is added to cell A1.**
-#### **Adding Hyperlinks to Cells with VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017461)
+
+### **Adding Hyperlinks to Cells with VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -84,8 +87,10 @@ ExcelApp.Quit();
 
 
 {{< /highlight >}}
-#### **Adding Hyperlinks to Cells with Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017461)
+
+### **Adding Hyperlinks to Cells with Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 

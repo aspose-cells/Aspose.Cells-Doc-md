@@ -5,11 +5,11 @@ weight: 20
 url: /java/aspose-cells-for-android-via-java-18-9-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.Cells for Android via Java 18.9.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -49,7 +49,7 @@ This page contains release notes for Aspose.Cells for Android via Java 18.9.
 |CELLSJAVA-42703|Chart not rendered while converting ODS to PDF|Bug |
 |CELLSJAVA-42702|Gray borders appear after reading cell style in the worksheet|Bug |
 |CELLSJAVA-42699|PasteType.VALUES_AND_NUMBER_FORMATS is not working fine|Bug |
-|CELLSJAVA-42646|Exception: "[FormulaBuild](/pages/createpage.action?spaceKey=cellsjava&title=FormulaBuild&linkCreation=true&fromPageId=72188249)Unknown formula token[0](/pages/createpage.action?spaceKey=cellsjava&title=0&linkCreation=true&fromPageId=72188249)" on Name.getRefersTo()|Exception |
+|CELLSJAVA-42646|Exception: "FormulaBuild Unknown formula token0" on Name.getRefersTo()|Exception |
 |CELLSJAVA-42707|Chart.calculate method causes OutOfMemoryError|Exception |
 |CELLSJAVA-42673|Exception "java.lang.NumberFormatException" when loading an Excel file|Exception |
 |CELLSJAVA-42669|Exception "java.lang.NullPointerException" when calculating formulas in the workbook|Exception |
@@ -60,68 +60,128 @@ This page contains release notes for Aspose.Cells for Android via Java 18.9.
 |CELLSJAVA-42678|Exception when rendering worksheet to PNG file format|Exception |
 |CELLSJAVA-42411|Error in Cell: E22-Invalid formula - exception on opening MS Excel file|Exception |
 |CELLSJAVA-42691|NegativeArraySizeException while converting XLSX to HTML|Exception |
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds enum StyleFlag.Alignments**
+
+### **Adds enum StyleFlag.Alignments**
+
 Represents all the settings of alignment.
-#### **Adds WorkbookSettings.MaxRow and WorkbookSettings.MaxColumn properties**
+
+### **Adds WorkbookSettings.MaxRow and WorkbookSettings.MaxColumn properties**
+
 Gets the max row and column index of the workbook.
-#### **Adds WriteProtection.Author property**
+
+### **Adds WriteProtection.Author property**
+
 Gets and sets the author of the write protection.
-#### **Adds PdfSecurityOptions.AccessibilityExtractContent property**
+
+### **Adds PdfSecurityOptions.AccessibilityExtractContent property**
+
 Permission to copy or extract content (in support of accessibility to disabled users or for other purposes).
-#### **Adds SubtotalSetting class**
+
+### **Adds SubtotalSetting class**
+
 Represents the setting of subtotal.
-#### **Adds Cells.RetrieveSubtotalSetting(CellArea) method**
+
+### **Adds Cells.RetrieveSubtotalSetting(CellArea) method**
+
 Retrieves the setting of subtotal.
-#### **Adds overload Range.ExportDataTable(Aspose.Cells.ExportTableOptions) method.**
+
+### **Adds overload Range.ExportDataTable(Aspose.Cells.ExportTableOptions) method.**
+
 Supports options of exporting range.
-#### **Adds WebQueryConnection.IsSameSetting property and deletes WebQueryConnection.IsFirstRow property**
+
+### **Adds WebQueryConnection.IsSameSetting property and deletes WebQueryConnection.IsFirstRow property**
+
 Use WebQueryConnection.IsSameSetting property instead.
-#### **Adds WebQueryConnection.IsXmlSourceData property and deletes WebQueryConnection.IsSourceData property**
+
+### **Adds WebQueryConnection.IsXmlSourceData property and deletes WebQueryConnection.IsSourceData property**
+
 Use WebQueryConnection.IsXmlSourceData property instead.
-#### **Adds Shape.IsEquation property**
+
+### **Adds Shape.IsEquation property**
+
 Indicates whether the shape contains equation.
-#### **Adds overload Cells.CopyColumns(Int32,Int32,PasteOptions) and Cels.CopyRows(Int32,Int32,PasteOptions) method**
+
+### **Adds overload Cells.CopyColumns(Int32,Int32,PasteOptions) and Cells.CopyRows(Int32,Int32,PasteOptions) method**
+
 Supports paste options when copying rows and columns.
-#### **Adds Axis.IsAutoTickLabelSpacing property**
+
+### **Adds Axis.IsAutoTickLabelSpacing property**
+
 Indicates whether tick label spacing is automatic.
-#### **Adds CellsHelper.CreateSafeSheetName(string nameProposal)/CreateSafeSheetName(string nameProposal, char replaceChar) methods**
+
+### **Adds CellsHelper.CreateSafeSheetName(string nameProposal)/CreateSafeSheetName(string nameProposal, char replaceChar) methods**
+
 Methods for user's convenience to create valid sheet name.
-#### **Adds Row.FirstDataCell**
+
+### **Adds Row.FirstDataCell**
+
 Gets the first non-blank cell in the row.
-#### **Adds MapChartLabelLayout enum**
+
+### **Adds MapChartLabelLayout enum**
+
 Represents the label layout type of the map chart.
-#### **Adds MapChartProjectionType enum**
+
+### **Adds MapChartProjectionType enum**
+
 Represents the projection type of the map chart.
-#### **Adds MapChartRegionType enum**
+
+### **Adds MapChartRegionType enum**
+
 Represents the region type of the map chart.
-#### **Adds QuartileCalculationType enum**
+
+### **Adds QuartileCalculationType enum**
+
 Represents the quartile calculation type of the chart.
-#### **Adds Series.LayoutProperties property and class SeriesLayoutProperties**
+
+### **Adds Series.LayoutProperties property and class SeriesLayoutProperties**
+
 Represents the layout properties of the series.
-#### **Adds TickLabels.IsAutomaticRotation property**
+
+### **Adds TickLabels.IsAutomaticRotation property**
+
 Indicates whether the rotation of the tick labels is automatic.
-#### **Adds FilterOperatorType.BeginsWith, Contains, EndsWith and NotContains enum**
+
+### **Adds FilterOperatorType.BeginsWith, Contains, EndsWith and NotContains enum**
+
 Represents the text filter operator type.
-#### **Adds Cell.GetDisplayStyle(bool) method**
+
+### **Adds Cell.GetDisplayStyle(bool) method**
+
 Gets the display style of the cell.
-#### **Adds GlobalizationSettings.GetStandardHeaderFooterFontStyleName(string localFontStyleName) method**
+
+### **Adds GlobalizationSettings.GetStandardHeaderFooterFontStyleName(string localFontStyleName) method**
+
 Gets standard English font style name (Regular, Bold, Italic) for Header/Footer according to given locale font style name.
-#### **Adds PdfCustomPropertiesExport enum**
+
+### **Adds PdfCustomPropertiesExport enum**
+
 Specifies the way CustomDocumentPropertyCollection are exported to PDF file.
-#### **Adds PdfSaveOptions.CustomPropertiesExport property**
+
+### **Adds PdfSaveOptions.CustomPropertiesExport property**
+
 Gets or sets a value determining the way CustomDocumentPropertyCollection are exported to PDF file. Default value is None.
-#### **Adds class XmlDataBinding**
+
+### **Adds class XmlDataBinding**
+
 Represents Xml Data Binding information.
-#### **Adds ListObject.XmlMap property**
+
+### **Adds ListObject.XmlMap property**
+
 Gets an XmlMap used for this list.
-#### **Adds XmlDataBinding.Url property**
+
+### **Adds XmlDataBinding.Url property**
+
 Gets source url of this data binding.
-#### **Adds XmlMap.DataBinding property**
+
+### **Adds XmlMap.DataBinding property**
+
 Gets an XmlDataBinding of this map.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.7, Aspose.Cells for .NET v18.8, Aspose.Cells for .NET v18.9, Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 and Aspose.Cells for Java v18.9 are also included in this Aspose.Cells for Android via Java v18.9.
 

@@ -5,21 +5,22 @@ weight: 70
 url: /net/creating-a-named-range/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells for .NET lets developers perform most of the the tasks that users can perform in Microsoft Excel through their applications. This article explains how to apply a named range programmatically.
 
-A named range is an Excel feature that lets you assign a name to a cell, or a range of cells, in an Excel 
-spreadsheet. You can then use the name in formulas to refer to the cell (or range). Sensibly named ranges make formulas easier to understand.
+A named range is an Excel feature that lets you assign a name to a cell, or a range of cells, in an Excel spreadsheet. You can then use the name in formulas to refer to the cell (or range). Sensibly named ranges make formulas easier to understand.
 
 A named range has to be unique within its scope so do not use the same name for several ranges in a worksheet. Descriptive range names help avoid this: for example, OrderSubTotal is more descriptive than SubTotal and also less likely to be duplicated on a sheet.
 
-{{% /alert %}} 
-### **Creating a Named Range**
+{{% /alert %}}
+
+## **Creating a Named Range**
+
 To create a named range:
 
 1. Set up the worksheet:
-   1. Instantiate an Application object. 
+   1. Instantiate an Application object.
       (VSTO only.)
    1. Add a Workbook.
    1. Get the first sheet.
@@ -29,8 +30,9 @@ To create a named range:
 1. Save the file.
 
 The code examples below show how to perform these steps using [VSTO](/cells/net/creating-a-named-range/) with either C# or Visual Basic. The code examples that follow show how to do the same thing using [Aspose.Cells for .NET](/cells/net/creating-a-named-range/), again with either C# or Visual Basic.
-#### **Creating a Named Range with VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017463)
+### **Creating a Named Range with VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -91,8 +93,10 @@ xl.Quit();
 
 
 {{< /highlight >}}
-#### **Creating a Named Range with Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017463)
+
+### **Creating a Named Range with Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 

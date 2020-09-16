@@ -5,14 +5,16 @@ weight: 100
 url: /net/rotating-cell-text/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes, a column header is much wider than the data in the cells below. This can cause unnecessary whitespace on the page. One solution is to rotate the text vertically so that it takes less horizontal space. In Microsoft Excel, rotating text is easy. Luckily, it is possible to rotate text programmatically too, so that developers can rotate labels in the spreadsheets they create within their applications.
 
 This article looks at how to rotate text in cells using [Aspose.Cells for .NET](/cells/net/rotating-cell-text/) compared to doing the same thing with [VSTO](/cells/net/rotating-cell-text/).
 
-{{% /alert %}} 
-### **Rotating Text in Cells**
+{{% /alert %}}
+
+## **Rotating Text in Cells**
+
 To rotate text in a cell on a worksheet, take the following steps:
 
 1. Create a workbook and get a worksheet.
@@ -23,11 +25,13 @@ To rotate text in a cell on a worksheet, take the following steps:
 The code samples that follow show how to perform these steps first in [VSTO](/cells/net/rotating-cell-text/), using either C# or Visual Basic, and then in [Aspose.Cells](/cells/net/rotating-cell-text/), again using either C# or Visual Basic.
 
 The code examples in this article give the output shown below.
-**A cell with rotated text.** 
+**A cell with rotated text.**
 
 ![todo:image_alt_text](rotating-cell-text_1.png)
-#### **Rotating Text with VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017469)
+
+### **Rotating Text with VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -84,8 +88,10 @@ ExcelApp.Quit();
 
 
 {{< /highlight >}}
+
 #### **Rotating Text with Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017469)
+
+**C#**
 
 {{< highlight csharp >}}
 

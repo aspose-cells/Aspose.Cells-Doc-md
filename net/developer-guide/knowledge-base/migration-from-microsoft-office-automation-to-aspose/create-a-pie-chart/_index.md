@@ -5,12 +5,14 @@ weight: 110
 url: /net/create-a-pie-chart/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Charts present data in an easy to understand way. Users who work with Microsoft Excel can create a number of different charts and customize them. The same features are available for developers who work with Aspose.Cells for .NET.
 
-{{% /alert %}} 
-### **Creating a Pie Chart**
+{{% /alert %}}
+
+## **Creating a Pie Chart**
+
 This article compares how to create a pie chart using Office Automation and VSTO to using Aspose.Cells for .NET. The steps for creating a pie chart are:
 
 1. Creating a workbook and worksheet.
@@ -20,10 +22,12 @@ This article compares how to create a pie chart using Office Automation and VSTO
 1. Saving spreadsheet.
 
 The code samples in this article show how to add a pie chart with [VSTO](/cells/net/create-a-pie-chart/), using either C# or Visual Basic, compared to creating one with [Aspose.Cells](/cells/net/create-a-pie-chart/), again using either C# or Visual Basic.
-#### **Creating a Pie Chart with VSTO**
+
+### **Creating a Pie Chart with VSTO**
+
 The code samples that follow show how to add a pie chart to a spreadsheet using VSTO.
 
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017471)
+**C#**
 
 {{< highlight csharp >}}
 
@@ -95,15 +99,15 @@ The code samples that follow show how to add a pie chart to a spreadsheet using 
 
 {{< /highlight >}}
 
-
-
 **A pie chart created with VSTO** 
 
 ![todo:image_alt_text](create-a-pie-chart_1.png)
-#### **Creating a Pie Chart with Aspose.Cells for .NET**
+
+### **Creating a Pie Chart with Aspose.Cells for .NET**
+
 The code samples that follow show how to add a pie chart to a spreadsheet using Aspose.Cells.
 
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017471)
+**C#**
 
 {{< highlight csharp >}}
 
@@ -173,11 +177,7 @@ The code samples that follow show how to add a pie chart to a spreadsheet using 
 
 }
 
-
-
 {{< /highlight >}}
-
-
 
 **Pie chart created with Aspose.Cells for .NET** 
 

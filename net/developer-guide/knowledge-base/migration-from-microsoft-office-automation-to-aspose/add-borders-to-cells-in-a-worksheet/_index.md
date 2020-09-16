@@ -5,23 +5,25 @@ weight: 50
 url: /net/add-borders-to-cells-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells for .NET allows you to perform almost any tasks through your application that a user can perform in Microsoft Excel. Aspose.Cells is performant and robust and has the added benefit of working independently of Microsoft Automation. This article shows how to add borders to cells in a worksheet using Aspose.Cells for .NET compared to VSTO.
 
-{{% /alert %}} 
-### **Adding Borders to Cells**
+{{% /alert %}}
+
+## **Adding Borders to Cells**
+
 To add borders to cells in a spreadsheet, take the following steps:
 
 1. Set up the worksheet:
-   1. Instantiate an Application object. 
+   1. Instantiate an Application object.
       (VSTO only.)
    1. Add a Workbook.
    1. Get the first sheet.
    1. Add text to the cells that you'll add borders to.
 1. Add borders:
    1. Define a range.
-   1. Apply a border style to the range. 
+   1. Apply a border style to the range.
       Repeat for each range and each border style you want to set. This example applies hairlines, thin, medium and thick lines.
 1. Finish:
    1. Autofit the column that the cells are in to fit the text neatly.
@@ -29,20 +31,19 @@ To add borders to cells in a spreadsheet, take the following steps:
 
 These steps are shown in code below. The first code examples show how to implement them using [VSTO](/cells/net/add-borders-to-cells-in-a-worksheet/) with either C# or Visual Basic. After the VSTO examples are examples that show how to perform the same steps using [Aspose.Cells for .NET](/cells/net/add-borders-to-cells-in-a-worksheet/), again using either C# or Visual Basic. The Aspose.Cells code samples are a lot shorter because Aspose.Cells is optimized for efficient coding.
 
-The code generates an Excel file with a number of cells on the first sheet, each with a different border: 
+The code generates an Excel file with a number of cells on the first sheet, each with a different border:
 
 ![todo:image_alt_text](add-borders-to-cells-in-a-worksheet_1.png)
 
-
 **Cells with borders applied.**
-#### **Adding Borders using VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017459)
+
+### **Adding Borders using VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
  .......
-
-
 
 using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -185,8 +186,10 @@ ExcelApp.Quit();
 
 
 {{< /highlight >}}
-#### **Adding Borders using Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017459)
+
+### **Adding Borders using Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 

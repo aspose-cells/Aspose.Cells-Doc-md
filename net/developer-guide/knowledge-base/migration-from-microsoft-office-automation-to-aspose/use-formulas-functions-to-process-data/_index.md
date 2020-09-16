@@ -5,17 +5,19 @@ weight: 140
 url: /net/use-formulas-functions-to-process-data/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This technical tip will illustrate how you can use formulas/functions to process data with **VSTO** and **Aspose.Cells for .NET** through code. 
 
-{{% /alert %}} 
-#### **Description**
+{{% /alert %}}
 
-#### **Using Formulas/Functions to Process Data**
+## **Description**
 
-##### **1) VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017447)
+## **Using Formulas/Functions to Process Data**
+
+### **1) VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -84,8 +86,10 @@ void AddingCellFormula()
 
 
 {{< /highlight >}}
-##### **2) Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017447)
+
+### **2) Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -143,24 +147,18 @@ void AddingCellFormula()
 
 }
 
-
-
 {{< /highlight >}}
-#### **Output**
 
-##### **1) VSTO**
+## **Output**
 
-
+### **1) VSTO**
 
 ![todo:image_alt_text](use-formulas-functions-to-process-data_1.png)
 
+**Figure 1:** Output using formulas with VSTO
 
-**Figure 1:** Output using formulas with VSTO 
-##### **2) Aspose.Cells for .NET**
-
-
+### **2) Aspose.Cells for .NET**
 
 ![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
-
-**Figure 2:** Output using formulas with Aspose.Cells for .NET 
+**Figure 2:** Output using formulas with Aspose.Cells for .NET

@@ -5,14 +5,16 @@ weight: 80
 url: /net/hide-and-unhide-worksheets-in-a-workbook/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When presenting workbooks to customers, or doing a presentation, it can be useful to hide worksheets in a workbook. A structured approach to spreadsheet modelling suggests that data, formulas and visualizations such as charts are kept on separate sheets. This approach keeps the layout clean and simple and makes the workbook easier to navigate. When presenting results, you might want to hide the data or formula sheets from view to avoid distraction.
 
 Users who work in Microsoft Excel, can easily hide and then unhide (show) worksheets. The same features are available to developers who program with Excel spreadsheets. There are different ways of working with spreadsheets from within software applications. One method is to use VSTO, another is Aspose.Cells for .NET.
 
-{{% /alert %}} 
-### **Hiding and Unhiding Worksheets**
+{{% /alert %}}
+
+## **Hiding and Unhiding Worksheets**
+
 This article compares [hiding](/cells/net/hide-and-unhide-worksheets-in-a-workbook/) and [unhiding](/cells/net/hide-and-unhide-worksheets-in-a-workbook/) worksheets with [VSTO](/cells/net/hide-and-unhide-worksheets-in-a-workbook/), using either C# or Visual Basic, to performing the same task with [Aspose.Cells](/cells/net/hide-and-unhide-worksheets-in-a-workbook/), again using either C# or Visual Basic. Aspose.Cells lets you work without Microsoft Excel installed.
 
 The steps to hide a worksheet are:
@@ -27,10 +29,14 @@ To [unhide](/cells/net/hide-and-unhide-worksheets-in-a-workbook/) a worksheet ag
 The code samples below first show how to hide a worksheet. The first samples show the process with [VSTO](/cells/net/hide-and-unhide-worksheets-in-a-workbook/), using either C# or Visual Basic, compared to using [Aspose.Cells](/cells/net/hide-and-unhide-worksheets-in-a-workbook/), again using either C# or Visual Basics.
 
 The second set of code samples show the line used to unhide the worksheet in [VSTO](/cells/net/hide-and-unhide-worksheets-in-a-workbook/) or [Aspose.Cells](/cells/net/hide-and-unhide-worksheets-in-a-workbook/).
-### **Hiding Worksheets**
+
+## **Hiding Worksheets**
+
 Below are code samples for VSTO and Aspose.Cells that illustrate how to hide a worksheet in a workbook.
-#### **Hiding Worksheets with VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017465)
+
+### **Hiding Worksheets with VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -103,8 +109,9 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-#### **Hiding Worksheets with Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017465)
+### **Hiding Worksheets with Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -149,10 +156,14 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-### **Unhiding Worksheets**
+
+## **Unhiding Worksheets**
+
 Below are code samples for VSTO and Aspose.Cells that illustrate how to unhide a worksheet in a workbook.
-#### **Unhiding a Worksheet with VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017465)
+
+### **Unhiding a Worksheet with VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -167,17 +178,14 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-#### **Unhiding a Worksheet with Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017465)
+### **Unhiding a Worksheet with Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
-
-
 
 //Unhide the worksheet.
 
 objSheet.IsVisible = true;
-
-
 
 {{< /highlight >}}

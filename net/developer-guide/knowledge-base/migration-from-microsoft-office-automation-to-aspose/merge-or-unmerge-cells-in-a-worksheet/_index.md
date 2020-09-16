@@ -5,17 +5,23 @@ weight: 40
 url: /net/merge-or-unmerge-cells-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 While working with worksheets, you often need to create a title / heading in a single cell that spans the top of your worksheet. You might be creating an invoice, and want a fewer columns for the total or summary values. When you want to make one cell from two or more cells, you merge the cells. We carry out the task using VSTO and Aspose.Cells for .NET independently.
 
-{{% /alert %}} 
-#### **Description**
+{{% /alert %}}
+
+## **Description**
+
 Open an existing excel file, Merge some cells in the first worksheet in the workbook and save the excel file.
-#### **Merging Cells**
+
+## **Merging Cells**
+
 Following are the parallel code snippets for VSTO (C#, VB) and Aspose.Cells for .NET (C#, VB).
-##### **1) VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017457)
+
+### **1) VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -63,7 +69,7 @@ Excel.Range rng1 = excelApp.get_Range("A1", "C1");
 
 //Merge the cells.
 
-rng1.Merge(Missing.Value); 
+rng1.Merge(Missing.Value);
 
 //Save the file.
 
@@ -76,8 +82,10 @@ excelApp.Quit();
 
 
 {{< /highlight >}}
-##### **2) Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017457)
+
+### **2) Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -114,10 +122,14 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-#### **UnMerging the Cells**
+
+## **UnMerging the Cells**
+
 To unmerge the cell(s), use the following lines of code for VSTO (C#, VB) and Aspose.Cells for .NET (C#, VB).
-##### **1) VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017457)
+
+### **1) VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -132,8 +144,10 @@ rng1.UnMerge();     
 
 
 {{< /highlight >}}
-##### **2) Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017457)
+
+### **2) Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -144,7 +158,5 @@ Cells rng1 = workbook.Worksheets[0].Cells;
 //UnMerge the cell.
 
 rng1.UnMerge(0, 0, 1, 3); 
-
-
 
 {{< /highlight >}}
