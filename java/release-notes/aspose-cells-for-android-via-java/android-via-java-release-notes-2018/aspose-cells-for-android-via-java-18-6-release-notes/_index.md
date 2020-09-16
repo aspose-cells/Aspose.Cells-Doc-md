@@ -5,11 +5,11 @@ weight: 30
 url: /java/aspose-cells-for-android-via-java-18-6-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.Cells for Android via Java 18.6.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -22,11 +22,11 @@ This page contains release notes for Aspose.Cells for Android via Java 18.6.
 |CELLSJAVA-42569|Unable to access horizontal category axis labels items of Chart in XLS|Enhancement |
 |CELLSJAVA-42580|Get/set Language document property|Enhancement |
 |CELLSJAVA-42565|Foreground color vs Background color vs Fill color - Use a single method that takes two arguments|Enhancement |
-|CELLSJAVA-42528|"<Font>" is not a valid HTML5 and self-closing tag and web browsers misrepresent its contents|Enhancement |
+|CELLSJAVA-42528|"\<Font>" is not a valid HTML5 and self-closing tag and web browsers misrepresent its contents|Enhancement |
 |CELLSJAVA-42413|Insert SVG image type into worksheet cells by Aspose.Cells|Enhancement |
 |CELLSJAVA-42594|Detect LoadFormat and FileFormatType of XLAM|Enhancement |
-|CELLSJAVA-42646|Exception: "[FormulaBuild](/pages/createpage.action?spaceKey=cellsjava&title=FormulaBuild&linkCreation=true&fromPageId=66948275)Unknown formula token[0](/pages/createpage.action?spaceKey=cellsjava&title=0&linkCreation=true&fromPageId=66948275)" on Name.getRefersTo()|Enhancement |
-|CELLSJAVA-42645|Exception: "[FormulaBuild](/pages/createpage.action?spaceKey=cellsjava&title=FormulaBuild&linkCreation=true&fromPageId=66948275)More than one token in stack...." on Cell.getFormula()|Enhancement |
+|CELLSJAVA-42646|Exception: "FormulaBuild Unknown formula token 0" on Name.getRefersTo()|Enhancement |
+|CELLSJAVA-42645|Exception: "FormulaBuild More than one token in stack...." on Cell.getFormula()|Enhancement |
 |CELLSJAVA-42516|Aspose.Cells accepts and corrects an invalid formula|Enhancement |
 |CELLSJAVA-42551|Some shapes are not correct in the output PDF |Bug |
 |CELLSJAVA-42578|Conditional formatting is lost while saving Excel to HTML|Bug |
@@ -81,81 +81,157 @@ This page contains release notes for Aspose.Cells for Android via Java 18.6.
 |CELLSJAVA-42650|Exception: "Invalid encoding: null" when loading an XLS file|Exception |
 |CELLSJAVA-42649|Exception: "The count of HPageBreaks cannot be larger than 1024" when loading an XLS file|Exception |
 |CELLSJAVA-42648|Exception: "Failed to read image data" on Picture.getData()|Exception |
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds new item "CrossHideRight" for HtmlCrossType enum**
+
+### **Adds new item "CrossHideRight" for HtmlCrossType enum**
+
 Displays HTML cross string and hides the right string when the text is overlapped.
-#### **Adds new item "TSV" for LoadFormat, SaveFormat and FileFormatType enums**
+
+### **Adds new item "TSV" for LoadFormat, SaveFormat and FileFormatType enums**
+
 Represents a TSV(Tab-separated values) file, same with the "TabDelimited".
-#### **Adds enum ImageType**
+
+### **Adds enum ImageType**
+
 Represents the type of the image.
-#### **Adds MsoTextFrame.RotateTextWithShape and ShapeTextAlignment.RotateTextWithShape properties**
+
+### **Adds MsoTextFrame.RotateTextWithShape and ShapeTextAlignment.RotateTextWithShape properties**
+
 Indicates whether the text rotates with the shape.
-#### **Adds OleObject.ImageType and Picture.ImageType properties**
+
+### **Adds OleObject.ImageType and Picture.ImageType properties**
+
 Gets the image format of the picture.
-#### **Obsoletes OleObject.ImageFormat and Picture.ImageFormat properties**
+
+### **Obsoletes OleObject.ImageFormat and Picture.ImageFormat properties**
+
 Use OleObject.ImageType and Picture.ImageType properties instead.
-#### **Adds an overload AutoFilter.Refresh (System.Boolean) method**
+
+### **Adds an overload AutoFilter.Refresh (System.Boolean) method**
+
 Gets all hidden rows's indexes and refreshes the auto-filter.
-#### **Adds overload Cell.GetHtmlString(System.Boolean) method**
+
+### **Adds overload Cell.GetHtmlString(System.Boolean) method**
+
 Gets the HTML string which contains data and some formats in this cell.
-#### **Adds BuiltInDocumentPropertyCollection.Language property**
+
+### **Adds BuiltInDocumentPropertyCollection.Language property**
+
 Gets and sets the language of the file.
-#### **Adds Style.SetPatternColor(Aspose.Cells.BackgroundType,System.Drawing.Color,System.Drawing.Color)**
+
+### **Adds Style.SetPatternColor(Aspose.Cells.BackgroundType,System.Drawing.Color,System.Drawing.Color)**
+
 Sets the pattern and color of the cell
-#### **Adds ChartPoint.XValueType property**
+
+### **Adds ChartPoint.XValueType property**
+
 Gets X value type of the chart point.
-#### **Adds ChartPoint.YValueType property**
+
+### **Adds ChartPoint.YValueType property**
+
 Gets Y value type of the chart point.
-#### **Adds enum PageLayoutAlignmentType**
+
+### **Adds enum PageLayoutAlignmentType**
+
 Represents page layout alignment types.
-#### **Adds Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) method**
+
+### **Adds Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) method**
+
 Creates the chart's PDF with desired page size and saves it to a stream.
-#### **Adds Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) method**
+
+### **Adds Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) method**
+
 Creates the chart's PDF with desired page size and saves it to a file.
-#### **Adds PdfSaveOptions.OutputBlankPageWhenNothingToPrint property**
+
+### **Adds PdfSaveOptions.OutputBlankPageWhenNothingToPrint property**
+
 Indicates whether to output a blank page when there is nothing to print.
-#### **Adds new properties Cell.IsTableFormula/IsArrayFormula to replace Cell.IsInTable/IsInArray**
+
+### **Adds new properties Cell.IsTableFormula/IsArrayFormula to replace Cell.IsInTable/IsInArray**
+
 Indicates whether one cell is part of the table formula or array formula. Old names make ambiguity, so we made them obsolete and provide new ones.
-#### **Adds IndividualFontConfigs class**
+
+### **Adds IndividualFontConfigs class**
+
 Represents Font configs for each workbook object.
-#### **Adds LoadOptions.FontConfigs property**
+
+### **Adds LoadOptions.FontConfigs property**
+
 Gets and sets individual font configs.
-#### **Deletes obsoleted FontSetting.ShapeFont property**
+
+### **Deletes obsoleted FontSetting.ShapeFont property**
+
 Use FontSetting.TextOptions property instead.
-#### **Adds OoxmlCompliance enum and WorkbookSettings.Compliance property**
+
+### **Adds OoxmlCompliance enum and WorkbookSettings.Compliance property**
+
 Supports Strict Open Xml Spreadsheet.
-#### **Adds GroupShape.Ungroup() method**
+
+### **Adds GroupShape.Ungroup() method**
+
 Ungroups shapes.
-#### **Adds MsoFormatPicture.Gamma property**
+
+### **Adds MsoFormatPicture.Gamma property**
+
 Gets and sets the gamma of the picture.
-#### **Adds TextOptions.FarEastName and TextOptions.LatinName property**
+
+### **Adds TextOptions.FarEastName and TextOptions.LatinName property**
+
 Get and sets the Far East and Latin name of the font.
-#### **Adds Slicer, SlicerCollection, SlicerCache, SlicerCacheItem and SlicerCacheItemCollection classes**
+
+### **Adds Slicer, SlicerCollection, SlicerCache, SlicerCacheItem and SlicerCacheItemCollection classes**
+
 These APIs are used to create and modify the Slicer in the file.
-#### **Adds SlicerCacheItemSortType and SlicerStyleType enums**
+
+### **Adds SlicerCacheItemSortType and SlicerStyleType enums**
+
 These APIs are used to create and modify the Slicer in the file.
-#### **Adds CellWatchCollection and CellWatch classes, Adds Worksheet.CellWatches property**
+
+### **Adds CellWatchCollection and CellWatch classes, Adds Worksheet.CellWatches property**
+
 Adds Cell Watch Item in the 'watch window'.
-#### **Adds CustomXmlShape class and MsoDrawingType.CustomXml enum**
+
+### **Adds CustomXmlShape class and MsoDrawingType.CustomXml enum**
+
 Supports keeping custom xml shape.
-#### **Adds MsoDrawingType.SmartArt enum**
+
+### **Adds MsoDrawingType.SmartArt enum**
+
 Represents the smart art shape type.
-#### **Adds Font.SchemeType property and FontSchemeType enums**
+
+### **Adds Font.SchemeType property and FontSchemeType enums**
+
 Gets and sets the scheme type of the font.
-#### **Adds CustomXmlPart.ID property**
+
+### **Adds CustomXmlPart.ID property**
+
 Gets and sets the Id of custom xml part.
-#### **Adds CustomXmlPartCollection.SelectByID() method**
+
+### **Adds CustomXmlPartCollection.SelectByID() method**
+
 Gets Custom xml part by id.
-#### **Adds Range.Address, Range.CellCount, EntireColumn, Range.EntireRow and Range.GetOffset(System.Int32,System.Int32)**
+
+### **Adds Range.Address, Range.CellCount, EntireColumn, Range.EntireRow and Range.GetOffset(System.Int32,System.Int32)**
+
 Enhancement for processing range.
-#### **Overloads WorkbookRender.ToImage() method**
+
+### **Overloads WorkbookRender.ToImage() method**
+
 Renders the workbook to image by the page index.
-#### **Adds Legend.LegendEntriesLabels() method**
+
+### **Adds Legend.LegendEntriesLabels() method**
+
 Gets the labels of the legend entries after calling Chart.Calculate() method.
-#### **Adds CustomFilter.SetCriteria(FilterOperatorType filterOperator, object criteria) method**
+
+### **Adds CustomFilter.SetCriteria(FilterOperatorType filterOperator, object criteria) method**
+
 Sets the filter criteria.
-#### **Provides new APIs for supporting to get/set formulas in locale dependent format (the FormulaLocal function of Microsoft Interop)**
+
+### **Provides new APIs for supporting to get/set formulas in locale dependent format (the FormulaLocal function of Microsoft Interop)**
+
 Cell.GetFormula(bool isR1C1, bool isLocal)
 Cell.SetFormula(string formula, bool isR1C1, bool isLocal, object value)
 Name.GetRefersTo(bool isR1C1, bool isLocal)
@@ -181,7 +257,7 @@ GlobalizationSettings.ListSeparator
 GlobalizationSettings.RowSeparatorOfFormulaArray
 GlobalizationSettings.ColumnSeparatorOfFormulaArray
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.4, Aspose.Cells for .NET v18.5, Aspose.Cells for .NET v18.6, Aspose.Cells for Java v18.4, Aspose.Cells for Java v18.5 and Aspose.Cells for Java v18.6 are also included in this Aspose.Cells for Android via Java v18.6.
 

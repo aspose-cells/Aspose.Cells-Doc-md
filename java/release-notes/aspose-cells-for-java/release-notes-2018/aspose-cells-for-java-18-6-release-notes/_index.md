@@ -5,19 +5,19 @@ weight: 70
 url: /java/aspose-cells-for-java-18-6-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.Cells for Java 18.6.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |CELLSJAVA-42339|Implement custom data sorting in Pivot Table report via Aspose.Cells APIs|New Feature |
 |CELLSJAVA-42625|The implementation of the MS Excel feature 'Watch Window'|New Feature |
 |CELLSJAVA-42612|Unable to extract the text from the gear type SmartArt|New Feature |
-|CELLSJAVA-42646|Exception: "[FormulaBuild](/pages/createpage.action?spaceKey=cellsjava&title=FormulaBuild&linkCreation=true&fromPageId=66948079)Unknown formula token[0](/pages/createpage.action?spaceKey=cellsjava&title=0&linkCreation=true&fromPageId=66948079)" on Name.getRefersTo()|Enhancement |
-|CELLSJAVA-42645|Exception: "[FormulaBuild](/pages/createpage.action?spaceKey=cellsjava&title=FormulaBuild&linkCreation=true&fromPageId=66948079)More than one token in stack...." on Cell.getFormula()|Enhancement |
+|CELLSJAVA-42646|Exception: "FormulaBuild](/p Unknown formula token0" on Name.getRefersTo()|Enhancement |
+|CELLSJAVA-42645|Exception: "FormulaBuild More than one token in stack...." on Cell.getFormula()|Enhancement |
 |CELLSJAVA-42516|Aspose.Cells accepts and corrects an invalid formula|Enhancement |
 |CELLSJAVA-42636|Some drawing shapes are displaced or rendered wrongly in Excel to HTML rendering|Bug |
 |CELLSJAVA-42627|CELLSJAVA-42619 - Unable to extract Smart Art images correctly|Bug |
@@ -42,35 +42,65 @@ This page contains release notes for Aspose.Cells for Java 18.6.
 |CELLSJAVA-42650|Exception: "Invalid encoding: null" when loading an XLS file|Exception |
 |CELLSJAVA-42649|Exception: "The count of HPageBreaks cannot be larger than 1024" when loading an XLS file|Exception |
 |CELLSJAVA-42648|Exception: "Failed to read image data" on Picture.getData()|Exception |
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Slicer, SlicerCollection, SlicerCache, SlicerCacheItem and SlicerCacheItemCollection classes**
+
+### **Adds Slicer, SlicerCollection, SlicerCache, SlicerCacheItem and SlicerCacheItemCollection classes**
+
 These APIs are used to create and modify the Slicer in the file.
-#### **Adds SlicerCacheItemSortType and SlicerStyleType enums**
+
+### **Adds SlicerCacheItemSortType and SlicerStyleType enums**
+
 These APIs are used to create and modify the Slicer in the file.
-#### **Adds CellWatchCollection and CellWatch classes, Adds Worksheet.CellWatches property**
+
+### **Adds CellWatchCollection and CellWatch classes, Adds Worksheet.CellWatches property**
+
 Adds Cell Watch Item in the 'watch window'.
-#### **Adds CustomXmlShape class and MsoDrawingType.CustomXml enum**
+
+### **Adds CustomXmlShape class and MsoDrawingType.CustomXml enum**
+
 Supports keeping custom xml shape.
-#### **Adds MsoDrawingType.SmartArt enum**
+
+### **Adds MsoDrawingType.SmartArt enum**
+
 Represents the smart art shape type.
-#### **Adds Font.SchemeType property and FontSchemeType enums**
+
+### **Adds Font.SchemeType property and FontSchemeType enums**
+
 Gets and sets the scheme type of the font.
-#### **Adds CustomXmlPart.ID property**
+
+### **Adds CustomXmlPart.ID property**
+
 Gets and sets the Id of custom xml part.
-#### **Adds CustomXmlPartCollection.SelectByID() method**
+
+### **Adds CustomXmlPartCollection.SelectByID() method**
+
 Gets Custom xml part by id.
-#### **Adds Range.Address, Range.CellCount, EntireColumn, Range.EntireRow and Range.GetOffset(System.Int32,System.Int32)**
+
+### **Adds Range.Address, Range.CellCount, EntireColumn, Range.EntireRow and Range.GetOffset(System.Int32,System.Int32)**
+
 Enhancement for processing range.
-#### **Adds ColorDepth enum and ImageOrPrintOptions.TiffColorDepth property**
+
+### **Adds ColorDepth enum and ImageOrPrintOptions.TiffColorDepth property**
+
 Gets or sets bit depth to apply only when saving pages to the Tiff format.
-#### **Overloads WorkbookRender.ToImage() method**
+
+### **Overloads WorkbookRender.ToImage() method**
+
 Renders the workbook to image by the page index.
-#### **Adds Legend.LegendEntriesLabels() method**
+
+### **Adds Legend.LegendEntriesLabels() method**
+
 Gets the labels of the legend entries after calling Chart.Calculate() method.
-#### **Adds CustomFilter.SetCriteria(FilterOperatorType filterOperator, object criteria) method**
+
+### **Adds CustomFilter.SetCriteria(FilterOperatorType filterOperator, object criteria) method**
+
 Sets the filter criteria.
-#### **Provides new APIs for supporting to get/set formulas in locale dependent format (the FormulaLocal function of Microsoft Interop)**
+
+### **Provides new APIs for supporting to get/set formulas in locale dependent format (the FormulaLocal function of Microsoft Interop)**
+
 Cell.GetFormula(bool isR1C1, bool isLocal)
 Cell.SetFormula(string formula, bool isR1C1, bool isLocal, object value)
 Name.GetRefersTo(bool isR1C1, bool isLocal)

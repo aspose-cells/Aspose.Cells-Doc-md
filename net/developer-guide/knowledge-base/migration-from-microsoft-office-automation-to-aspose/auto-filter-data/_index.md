@@ -5,14 +5,16 @@ weight: 120
 url: /net/auto-filter-data/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 To get an understanding of what data is in a range, it is often easier to sort and filter the data than to look at columns of unordered data. Sorting organizes data in either ascending or descending order, making it easier to find specific values. Filtering the data, allows you to show only certain values. It helps focus in on particular items in sales records, for example.
 
 Users of Microsoft Excel can apply auto-filtering to columns. Auto-filtering adds a menu to the top of the column, from which you can sort of filter column data. This feature is also available to developers who work with Excel spreadsheets, either through VSTO or Aspose.Cells for .NET.
 
-{{% /alert %}} 
-### **Auto Filtering Data**
+{{% /alert %}}
+
+## **Auto Filtering Data**
+
 To apply auto-filtering to a column:
 
 1. Create a workbook.
@@ -23,8 +25,10 @@ To apply auto-filtering to a column:
 1. Save the spreadsheet.
 
 The code samples in this article show how to perform these steps using [VSTO](/cells/net/auto-filter-data/) with either C# or Visual Basic, or using [Apose.Cells](/cells/net/auto-filter-data/), again with either C# or Visual Basic.
-#### **Auto-filtering Data with VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017443)
+
+### **Auto-filtering Data with VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -106,13 +110,13 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 
-
-
 **Auto-filter applied with VSTO** 
 
 ![todo:image_alt_text](auto-filter-data_1.png)
-#### **Auto-filtering Data with Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017443)
+
+### **Auto-filtering Data with Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -165,8 +169,6 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 
 {{< /highlight >}}
-
-
 
 **Auto-filter applied with Aspose.Cells for .NET** 
 

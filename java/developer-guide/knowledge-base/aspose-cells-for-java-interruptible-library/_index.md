@@ -5,17 +5,18 @@ weight: 20
 url: /java/aspose-cells-for-java-interruptible-library/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells for Java supports to interrupt loading/saving process while working with large Excel files. Sometimes, you want to to make the libraries /components interruptible. This would surely improve the efficiency and reliability of your services/processes. You can reliably give up on a conversion part way through when you discover it is taking too long. That would save the CPU usage, RAM etc. It means you don't have to take drastic steps like killing the whole server just to cancel the conversion. 
+{{% /alert %}}
 
-{{% /alert %}} 
-##### **Example:**
-The following program shows how to interrupt the save process using **InterruptMonitor.interrupt()** method. 
+## **Example:**
 
-[**Java**](/pages/createpage.action?spaceKey=cellsjava&title=Java&linkCreation=true&fromPageId=5276486)
+The following program shows how to interrupt the save process using **InterruptMonitor.interrupt()** method.
 
-{{< highlight csharp >}}
+[**Java**]
+
+{{< highlight java >}}
 
  //Create a new Workbook  
 
@@ -94,7 +95,5 @@ try {
     }
 
 }
-
-
 
 {{< /highlight >}}

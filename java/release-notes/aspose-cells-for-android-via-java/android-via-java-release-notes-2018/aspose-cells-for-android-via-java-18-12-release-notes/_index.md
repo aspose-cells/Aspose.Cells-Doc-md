@@ -5,11 +5,11 @@ weight: 10
 url: /java/aspose-cells-for-android-via-java-18-12-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.Cells for Android via Java 18.12.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -50,7 +50,9 @@ This page contains release notes for Aspose.Cells for Android via Java 18.12.
 |CELLSJAVA-42774|NullPointerException when loading a CSV|Exception|
 |CELLSJAVA-42765|Exception "com.aspose.cells.CellsException" when rendering an Excel file to PDF file format|Exception|
 |CELLSJAVA-42754|Exception "IllegalStateException: Invalid encoding: null" when instantiating an XLS file format|Exception|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
 **Adds HtmlSaveOptions.WidthScalable property**
@@ -63,7 +65,7 @@ Indicates whether processing the empty string value as null.
 
 **Updates the returned value of DocumentProperty.ToDateTime() method, BuiltInDocumentPropertyCollection.CreatedTime, BuiltInDocumentPropertyCollection.LastPrinted and BuiltInDocumentPropertyCollection.LastSavedTime properties**
 
-Returns the time in local timezone.
+Returns the time in local time zone.
 
 **Requires stronger constraint for user's input for FormatCondition.Formula1/Formula2**
 
@@ -111,7 +113,7 @@ Copies validation.
 
 **Adds CreatedUniversalTime,LastPrintedUniversalTime and LastSavedUniversalTime properties of BuiltInDocumentPropertyCollection**
 
-Returns UTC time about the builtin properties.
+Returns UTC time about the built-in properties.
 
 **Adds OoxmlSaveOptions.UpdateSmartArt property**
 
@@ -170,7 +172,7 @@ Use Cells.FirstCell property instead.
 
 Use Cells.LastCell property instead.
 
-**Deletes Cells[[int](/pages/createpage.action?spaceKey=cellsjava&title=int&linkCreation=true&fromPageId=77791980)] property**
+**Deletes Cells[int] property**
 
 Use Cells.GetEnumerator() method to iterate all cells in this worksheet instead.
 
@@ -198,7 +200,7 @@ Use PivotItem.Move(int , bool ) method instead.
 
 Use ExportDataTable(firstRow,firstColumn, totalRows, totalColumns,ExportTableOptions) method instead.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.10, Aspose.Cells for .NET v18.11, Aspose.Cells for .NET v18.12, Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 and Aspose.Cells for Java v18.12 are also included in this Aspose.Cells for Android via Java v18.12.
 
