@@ -5,14 +5,16 @@ weight: 130
 url: /net/wrapping-cell-text/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Wrapping text makes it easier to read: a cell with wrapped text expands to fit the text so that the text isn't displayed over other cells.
 
 With Aspose.Cells for .NET, developers can perform most of the tasks in their applications that users can perform with Microsoft Excel, including wrapping text in cells. This article explains how, and compares the task using VSTO and Aspose.Cells. Aspose.Cells is optimized for efficient coding and works without Microsoft Automation.
 
-{{% /alert %}} 
-### **Wrapping Cell Text**
+{{% /alert %}}
+
+## **Wrapping Cell Text**
+
 To create a worksheet with two cells, one with wrapped text and one without:
 
 1. Set up the worksheet:
@@ -29,8 +31,10 @@ Running the code results in a spreadsheet with two cells, one that has text that
 
 |<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
 | :- | :- |
-#### **Wrapping Cell Text Using VSTO**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017441)
+
+### **Wrapping Cell Text Using VSTO**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -80,11 +84,11 @@ void WrappingCellText()
 
 }
 
-
-
 {{< /highlight >}}
-#### **Wrapping Cell Text Using Aspose.Cells for .NET**
-[**C#**](/pages/createpage.action?spaceKey=cellsnet&title=C&linkCreation=true&fromPageId=5017441)
+
+### **Wrapping Cell Text Using Aspose.Cells for .NET**
+
+**C#**
 
 {{< highlight csharp >}}
 
@@ -127,7 +131,5 @@ void WrappingCellText()
     workbook.Save("f:\\downloads\\OutputAspose.xlsx", SaveFormat.Xlsx);
 
 }
-
-
 
 {{< /highlight >}}

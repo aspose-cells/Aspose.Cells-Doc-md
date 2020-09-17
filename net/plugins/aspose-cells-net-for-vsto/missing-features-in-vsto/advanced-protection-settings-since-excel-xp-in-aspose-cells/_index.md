@@ -5,7 +5,7 @@ weight: 20
 url: /net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 - Delete rows or columns.
 - Edit contents, objects or scenarios.
@@ -14,26 +14,30 @@ url: /net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 - Select locked or unlocked cells.
 - Use pivot tables and much more.
 
-Aspose.Cells supports all the advanced protection settings offered by Excel XP or later versions. 
+Aspose.Cells supports all the advanced protection settings offered by Excel XP or later versions.
 
-{{% /alert %}} 
-### **Advanced Protection Settings Using Excel XP and Later Versions**
+{{% /alert %}}
+
+## **Advanced Protection Settings Using Excel XP and Later Versions**
+
 To view the protection settings available in Excel XP:
 
 1. From the **Tools** menu, select **Protection** followed by **Protect Sheet**.
-   A dialog is displayed. 
+   A dialog is displayed.
 
-   **Dialog to show protection options in Excel XP** 
+   **Dialog to show protection options in Excel XP**
 
 ![todo:image_alt_text](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
 1. Allow or restrict worksheets features or apply a password.
-#### **Advanced Protection Settings Using Aspose.Cells**
+
+### **Advanced Protection Settings Using Aspose.Cells**
+
 Aspose.Cells support all of the advanced protection settings.
 
-Aspose.Cells provides a class, [Workbook](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.Workbook+class&linkCreation=true&fromPageId=5020675), that represents a Microsoft Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.Worksheet+class&linkCreation=true&fromPageId=5020675) class.
+Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class.
 
-The Worksheet class provides the Protection property that is used to apply these advanced protection settings. The Protection property is in fact an object of the [Protection](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.Protection+class&linkCreation=true&fromPageId=5020675) class that encapsulates several Boolean properties for disabling or enabling restrictions.
+The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides the [**Protection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property that is used to apply these advanced protection settings. The [**Protection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property is in fact an object of the [**Protection**](https://apireference.aspose.com/cells/net/aspose.cells/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
 
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
@@ -123,16 +127,16 @@ excel.Save("output.xls", SaveFormat.Excel97To2003);
 
 fstream.Close();
 
-
-
 {{< /highlight >}}
+
 ## **Download Running Code**
-- [CodePlex](https://asposecellsnet.codeplex.com/SourceControl/latest#Plugins/Aspose For VSTO/Aspose.Cells Features missing in VSTO/Advanced Protection Settings/)
-- [CodePlex](https://asposevsto.codeplex.com/SourceControl/latest#Aspose Only features Unavailable in VSTO/Aspose.Cells/Advanced Protection Settings/)
+
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsnet)
+- [CodePlex](https://archive.codeplex.com/?p=asposevsto#Aspose)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
-- [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836/view/SourceCode#content)
+
 ## **Download Sample Code**
-- [CodePlex](https://asposecellsnet.codeplex.com/releases/view/618484)
-- [CodePlex](https://asposevsto.codeplex.com/releases/view/618289)
+
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsnet)
+- [CodePlex](https://archive.codeplex.com/?p=asposevsto)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836#content)

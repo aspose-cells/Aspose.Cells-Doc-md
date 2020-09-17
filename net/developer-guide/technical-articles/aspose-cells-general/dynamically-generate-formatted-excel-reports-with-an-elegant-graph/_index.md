@@ -49,7 +49,7 @@ Finally, I set some Font attributes (bold) for the label and command button. I a
 ## **Retrieving Data from an XML File**
 Following is XML file structure used in the project.
 ### **XML File Structure**
-[**XML**](/pages/createpage.action?spaceKey=cellsnet&title=XML&linkCreation=true&fromPageId=5017606)
+**XML**
 
 {{< highlight csharp >}}
 

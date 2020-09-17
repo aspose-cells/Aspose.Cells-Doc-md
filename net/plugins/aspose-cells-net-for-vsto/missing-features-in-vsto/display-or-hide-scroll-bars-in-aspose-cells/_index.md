@@ -5,7 +5,7 @@ weight: 70
 url: /net/display-or-hide-scroll-bars-in-aspose-cells/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Scroll bars are very used to navigate the contents of any file. Normally, there are two kinds of scroll bars:
 
@@ -14,9 +14,9 @@ Scroll bars are very used to navigate the contents of any file. Normally, there 
 
 Microsoft Excel also provides horizontal and vertical scroll bars so that users can scroll through worksheet contents. Using Aspose.Cells, developers can control the visibility of both types of scroll bars in Excel files.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-Aspose.Cells provides a class, [Workbook](/pages/createpage.action?spaceKey=cellsnet&title=Aspose.Cells.Workbook+class&linkCreation=true&fromPageId=5020762) that represents an Excel file. The Workbook class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the Workbook class' IsVScrollBarVisible and IsHScrollBarVisible properties. IsVScrollBarVisible and IsHScrollBarVisible are Boolean properties, which means that these properties can only store **true** or **false** values.
+Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) that represents an Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class provides a wide range of properties and methods for managing an Excel file. To control the visibility of scroll bars, use the [**WorkbookSettings**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings) class' [**IsVScrollBarVisible**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**IsHScrollBarVisible**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) properties. [**IsVScrollBarVisible**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) and [**IsHScrollBarVisible**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) are Boolean properties, which means that these properties can only store **true** or **false** values.
 
 Below is a complete code that opens an Excel file, book1.xls, hides both scroll bars and then saves the modified file as output.xls .
 
@@ -60,16 +60,16 @@ workbook.Save("output.xls");
 
 fstream.Close();
 
-
-
 {{< /highlight >}}
+
 ## **Download Running Code**
-- [CodePlex](https://asposecellsnet.codeplex.com/SourceControl/latest#Plugins/Aspose For VSTO/Aspose.Cells Features missing in VSTO/Display or Hide Scroll Bars/)
-- [CodePlex](https://asposevsto.codeplex.com/SourceControl/latest#Aspose Only features Unavailable in VSTO/Aspose.Cells/Display or Hide Scroll Bars/)
+
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsnet)
+- [CodePlex](https://archive.codeplex.com/?p=asposevsto)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
-- [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836/view/SourceCode#content)
+
 ## **Download Sample Code**
-- [CodePlex](https://asposecellsnet.codeplex.com/releases/view/618484)
-- [CodePlex](https://asposevsto.codeplex.com/releases/view/618289)
+
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsnet)
+- [CodePlex](https://archive.codeplex.com/?p=asposevsto#Aspose)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836#content)
