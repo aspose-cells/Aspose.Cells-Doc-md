@@ -5,7 +5,7 @@ weight: 40
 url: /java/apply-conditional-formatting-in-worksheets/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This article is designed to provide a detailed understanding of how to add conditional formatting to a range of cells in a worksheet.
 
@@ -15,15 +15,19 @@ It's possible to apply conditional formatting with Microsoft Office Automation b
 
 This article shows how to create a console application, add conditional formatting on cells with a few simplest lines of code using the Aspose.Cells API.
 
-{{% /alert %}} 
-### **Working with Conditional Formatting**
+{{% /alert %}}
+
+## **Working with Conditional Formatting**
+
 This article works through the following tasks:
 
-1. [Using Aspose.Cells to apply conditional formatting based on cell value](/cells/java/apply-conditional-formatting-in-worksheets/).
-1. [Using Aspose.Cells to apply conditional formatting based on a formula](/cells/java/apply-conditional-formatting-in-worksheets/).
-#### **Task 1: Using Aspose.Cells to Apply Conditional Formatting Based on Cell Value**
+1. [Using Aspose.Cells to apply conditional formatting based on cell value](/cells/java/apply-conditional-formatting-in-worksheets/#task-1-using-asposecells-to-apply-conditional-formatting-based-on-cell-value).
+1. [Using Aspose.Cells to apply conditional formatting based on a formula](/cells/java/apply-conditional-formatting-in-worksheets/#task-2-using-asposecells-to-apply-conditional-formatting-based-on-a-formula).
+
+### **Task 1: Using Aspose.Cells to Apply Conditional Formatting Based on Cell Value**
+
 1. **Download and install Aspose.Cells.zip**:
-   1. [Download](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) Aspose.Cells for Java.
+   1. [Download](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
    1. Unzip it on your development computer.
       All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and only injects watermarks into produced documents.
 1. **Create a project**.
@@ -47,57 +51,43 @@ This article works through the following tasks:
 1. **Apply conditional formatting based on cell value**.
    Below is the code used by the component to accomplish the task. It applies conditional formatting on a cell.
 
-
-
-
-
-
-
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingOnCellValue-ApplyConditionalFormattingOnCellValue.java" >}}
-
-
-
-
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingOnCellValue-ApplyConditionalFormattingOnCellValue.java" >}}
 
 When the above code is executed, conditional formatting is applied to cell “A1” in first worksheet of the output file (output.xls). The conditional formatting applied to A1 depends on the cell value. If the cell value of A1 is between 50 and 100 the background color is red due to the conditional formatting applied. Please see the following screenshots of the generated XLS file.
 
-**Output Excel file with A1 value less than 50** 
+**Output Excel file with A1 value less than 50**
 
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheets_1.png)
 
-**Output Excel file with A1 between 50 and 100** 
+**Output Excel file with A1 between 50 and 100**
 
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheets_2.png)
-#### **Task 2: Using Aspose.Cells to Apply Conditional Formatting Based on a Formula**
+
+### **Task 2: Using Aspose.Cells to Apply Conditional Formatting Based on a Formula**
+
 1. **Apply conditional formatting depending on formula**.
    Below is the actual code used by the component to accomplish the task. It applies conditional formatting on “B3”.
 
-
-
-
-
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingBasedOnFormula-ConditionalFormattingBasedOnFormula.java" >}}
-
-
-
-
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingBasedOnFormula-ConditionalFormattingBasedOnFormula.java" >}}
 
 When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as sum of B1 & B2. Please see the following screenshots of the generated XLS file.
 
-**Output Excel file with B3 value less than 100** 
+**Output Excel file with B3 value less than 100**
 
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheets_3.png)
 
-**Output Excel file with B3 greater than 100** 
+**Output Excel file with B3 greater than 100**
 
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheets_4.png)
-#### **Conclusion**
-{{% alert color="primary" %}} 
 
-This article hows how to apply conditional formatting to cells in a worksheet with the Aspose.Cells API. Hopefully, it will gives you some insight so you can use these options in your own scenarios.
+### **Conclusion**
+
+{{% alert color="primary" %}}
+
+This article shows how to apply conditional formatting to cells in a worksheet with the Aspose.Cells API. Hopefully, it will gives you some insight so you can use these options in your own scenarios.
 
 Aspose.Cells offers great flexibility for solutions and provides outstanding speed, efficiency and reliability to meet specific business application requirements. Aspose.Cells benefits from years of research, design and careful tuning.
 
-We welcome your queries, comments and suggestions in the [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warrant a prompt reply.
+We welcome your queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warrant a prompt reply.
 
 {{% /alert %}}

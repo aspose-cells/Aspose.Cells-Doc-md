@@ -5,7 +5,7 @@ weight: 30
 url: /java/sort-data/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This article is designed to provide developers with detailed understanding of how to sort data in a worksheet.
 
@@ -15,19 +15,21 @@ You might work with Office Automation for data sorting but Office Automation has
 
 In this article, we create a console application, and sort data with a few simple lines of code using the Aspose.Cells API.
 
-{{% /alert %}} 
-### **Using Aspose.Cells to Sort Data in a Worksheet**
+{{% /alert %}}
+
+## **Using Aspose.Cells to Sort Data in a Worksheet**
+
 1. Create a Microsoft Excel file with different data sets or contents.
-   I created a new workbook in Microsoft Excel and added sample data into cells on the first worksheet. 
-   **The template worksheet created in Microsoft Excel** 
+   I created a new workbook in Microsoft Excel and added sample data into cells on the first worksheet.
+   **The template worksheet created in Microsoft Excel**
 
 ![todo:image_alt_text](sort-data_1.jpg)
 
 1. Download and install Aspose.Cells:
-   1. [Download](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) Aspose.Cells for Java.
+   1. [Download](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
    1. Install it on your development computer.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
 
@@ -46,39 +48,31 @@ All [Aspose](http://www.aspose.com/) components, when installed, work in evaluat
 
 {{< highlight java >}}
 
- javac -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName   
+ javac -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName
 
 {{< /highlight >}}
 
 1. Sort the data in the worksheet:
    1. Add code to the project.
 
-
-
-
-
-
-
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-SortData-SortData.java" >}}
-
-
-
-
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SortData-SortData.java" >}}
 
 1. Execute the program.
 
-When the above code is executed, the data is sorted: 
+When the above code is executed, the data is sorted:
 
 **Output file** 
 
 ![todo:image_alt_text](sort-data_2.jpg)
-### **Conclusion**
-{{% alert color="primary" %}} 
+
+## **Conclusion**
+
+{{% alert color="primary" %}}
 
 In this article I have shown how we can sort data using Aspose.Cells. Hopefully, you will be able to adapt these options to your own scenarios.
 
 Aspose.Cells offer more flexibility than other components and provides outstanding speed, efficiency and reliability. Aspose.Cells benefits from years of research, design and careful tuning.
 
-We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warranty a prompt reply.
+We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
 
 {{% /alert %}}

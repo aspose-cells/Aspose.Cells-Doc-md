@@ -5,21 +5,26 @@ weight: 10
 url: /java/download-and-configure-aspose-cells-in-jython/
 ---
 
-### **Downloading**
+## **Downloading**
+
 **Download Examples from social coding websites**
 
 Following releases of running examples are available to download on all of the below mentioned social coding sites:
 
-- [CodePlex](http://asposecellsjavajython.codeplex.com/)
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsjavajython)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
 
 **Download Aspose.Cells for Java component**
 
-- [Aspose.Cells for Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx)
-### **Installing**
+- [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
+
+## **Installing**
+
 - Place downloaded Aspose.Cells for Java jar file into "lib" directory.
 - Replace "your-lib" with the downloaded jar filename in _*init*_.py file.
-### **Using**
+
+## **Using**
+
 You can create HelloWorld document using following example code:
 
 {{< highlight java >}}

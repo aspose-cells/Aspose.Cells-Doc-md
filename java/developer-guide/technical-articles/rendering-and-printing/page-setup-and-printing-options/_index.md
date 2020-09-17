@@ -5,16 +5,20 @@ weight: 10
 url: /java/page-setup-and-printing-options/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes, developers need to configure page setup and print settings to control the printing process. Page setup and print settings offer various options and are fully supported in Aspose.Cells.
 
 This article shows how to create a console application and apply page setup and printing options to a worksheet with a few simple lines of code using the Aspose.Cells API.
 
-{{% /alert %}} 
-### **Working with Page and Print Settings**
+{{% /alert %}}
+
+## **Working with Page and Print Settings**
+
 For this example, we created a workbook in Microsoft Excel and use Aspose.Cells to set page setup and print options.
-#### **Setting Page Setup Options**
+
+### **Setting Page Setup Options**
+
 First create a simple worksheet in Microsoft Excel. Then apply page setup options to it. Executing the code changes the Page Setup options as in the screenshot below.
 
 **Output file** 
@@ -26,19 +30,19 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
    1. Add some data.
       Below is a screenshot of the file.
 
-      **Input file** 
+      **Input file**
 
 ![todo:image_alt_text](page-setup-and-printing-options_2.png)
 
 1. Set page setup options:
    Apply page setup options to the file. Below is a screenshot of the default options, before the new options are applied.
 
-   **Default page setup options** 
+   **Default page setup options**
 
 ![todo:image_alt_text](page-setup-and-printing-options_3.png)
 
-1. Downlaod and install Aspose.Cells:
-   1. [Download](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) Aspose.Cells for Java.
+1. Download and install Aspose.Cells:
+   1. [Download](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
    1. Unzip it on your development computer.
       All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
 1. Create a project.
@@ -53,25 +57,17 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
 
 {{< highlight java >}}
 
- javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName 
+ javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName
 
 {{< /highlight >}}
 
 1. Write the application that invokes APIs:
    Below is the code used by the component in this example.
 
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPageSetupOptions-SettingPageSetupOptions.java" >}}
 
+### **Setting Print options**
 
-
-
-
-
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPageSetupOptions-SettingPageSetupOptions.java" >}}
-
-
-
-
-#### **Setting Print options**
 Page setup settings also provide several print options (also called sheet options) that allow users to control how worksheet pages are printed. They allow users to:
 
 - Select a specific print area of a worksheet.
@@ -84,29 +80,23 @@ Page setup settings also provide several print options (also called sheet option
 - Define page ordering.
 
 The example that follows applies print options to the file created in the example above (PageSetup.xls). The screenshot below shows the default print options before new options are applied.
-**Input document** 
+**Input document**
 
 ![todo:image_alt_text](page-setup-and-printing-options_4.png)
 
 Executing the code changes the print options.
-**Output file** 
+**Output file**
 
 ![todo:image_alt_text](page-setup-and-printing-options_5.png)
 
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
 
+## **Summary**
 
-
-
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
-
-
-
-
-### **Summary**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This article shows how to set page setup and sheet print options using Aspose.Cells. Hopefully, it will give you some insight, and you can use these options in your own scenarios.
 
-Aspose.Cells benefits from years of research, design and careful tuning. We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warranty a prompt reply.
+Aspose.Cells benefits from years of research, design and careful tuning. We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
 
 {{% /alert %}}
