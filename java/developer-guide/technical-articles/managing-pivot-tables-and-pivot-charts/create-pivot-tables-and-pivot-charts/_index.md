@@ -5,7 +5,7 @@ weight: 10
 url: /java/create-pivot-tables-and-pivot-charts/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A pivot table is an interactive summary of records. For example, you may have hundreds of invoice entries in a list in a worksheet. A pivot table can total the invoices by customer, product or date. With Microsoft Excel it is possible to quickly re-arrange the information in the pivot table by dragging buttons to a new position.
 
@@ -13,17 +13,21 @@ A pivot chart is an interactive graphical representation of the data in a pivot 
 
 Aspose.Cells supports [pivot tables](/cells/java/create-pivot-tables-and-pivot-charts/) and [pivot charts](/cells/java/create-pivot-tables-and-pivot-charts/).
 
-{{% /alert %}} 
-### **Adding Pivot Tables and Charts**
+{{% /alert %}}
+
+## **Adding Pivot Tables and Charts**
+
 Aspose.Cells provides a special set of classes used to create pivot tables. These classes are used to create and set PivotTable objects, which act as a PivotTable object's basic building blocks:
 
 - PivotField, a field in a pivot table report.
 - PivotFields, a collection of all the PivotField objects in a pivot table.
 - PivotTable, a PivotTable report on a worksheet.
 - PivotTables, a collection of all the PivotTable objects on the worksheet.
-#### **Preparing to use Aspose.Cells**
+
+### **Preparing to use Aspose.Cells**
+
 1. Download and install Aspose.Cells.Zip:
-   1. [Download Aspose.Cells for Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx).
+   1. [Download Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
    1. Unzip it on your development computer.
       All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
 1. Create a project
@@ -42,7 +46,9 @@ Aspose.Cells provides a special set of classes used to create pivot tables. Thes
  javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName 
 
 {{< /highlight >}}
-#### **Creating a Pivot Table**
+
+### **Creating a Pivot Table**
+
 To create a pivot table using Aspose.Cells:
 
 1. Add some data to a worksheet cells using a Cell object's PutValue/setValue method. You also use a template file already filled with data. The data will be used as the pivot table's data source.
@@ -50,28 +56,20 @@ To create a pivot table using Aspose.Cells:
 1. Access the new PivotTable object from the PivotTables collection by passing its index.
 1. Use any of the pivot table objects encapsulated in the PivotTable object to manage the table.
 
-A code sample is given below. Executing the code generates a new file: pivotTable_test.xls. 
+A code sample is given below. Executing the code generates a new file: pivotTable_test.xls.
 
 **Input data** 
 
 ![todo:image_alt_text](create-pivot-tables-and-pivot-charts_1.png)
 
-**The output pivot table** 
+**The output pivot table**
 
 ![todo:image_alt_text](create-pivot-tables-and-pivot-charts_2.png)
 
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotTable-CreatePivotTable.java" >}}
 
+### **Creating a Pivot Chart based on the Pivot Table**
 
-
-
-
-
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotTable-CreatePivotTable.java" >}}
-
-
-
-
-#### **Creating a Pivot Chart based on the Pivot Table**
 To create a pivot chart using Aspose.Cells:
 
 1. Add a chart.
@@ -80,28 +78,18 @@ To create a pivot chart using Aspose.Cells:
 
 Below is the code used by the component to accomplish the task. Executing the code generates a new file: pivotChart_test.xls.
 
-**The pivot chart sheet** 
+**The pivot chart sheet**
 
 ![todo:image_alt_text](create-pivot-tables-and-pivot-charts_3.png)
 
+{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotChartbasedonPivotTable-CreatePivotChartbasedonPivotTable.java" >}}
 
-
-
-
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotChartbasedonPivotTable-CreatePivotChartbasedonPivotTable.java" >}}
-
-
-
-
-
-
-
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This article shows how to create pivot tables and pivot charts using Aspose.Cells. Hopefully, it will help you use these features in your own scenarios.
 
 Aspose.Cells has benefited from years of research, design and careful tuning.
 
-We welcome your queries, comments and suggestions at [Aspose.Cells Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx). We warranty a prompt reply.
+We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
 
 {{% /alert %}}
