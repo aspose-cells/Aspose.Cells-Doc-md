@@ -105,7 +105,7 @@ You have successfully added Aspose.Cells Dynamic Form Builder for Sitefinity mod
 
 #### **How to apply Aspose License?**
 
-This Plugin uses an evaluation version of Aspose.Cells. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Cells. Once you are happy with your evaluation, you can purchase a license at the [Aspose Purchase Website](https://purchase.aspose.com/buy).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Total.lic**
@@ -130,7 +130,7 @@ To remove evaluation message and feature limitations, product license should be 
 1. Mouse Over **Export Icon** and Click **onit** export page will be open
 1. Select **Export Type**
 1. Click **Export Data**
-1. Exported data file as per export type will poupup to download/open
+1. Exported data file as per export type will popup to download/open
 
 You have successfully added Aspose Sitefinity Export Users to Excel.
 
