@@ -6,7 +6,8 @@ url: /java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-ran
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells provides the [Range](https://apireference.aspose.com/java/cells/com.aspose.cells/Range) object which has various utility methods that facilitate the user to work with Excel Ranges easily. This article illustrates the usage of the following methods or properties of the [Range](https://apireference.aspose.com/java/cells/com.aspose.cells/Range) object.
+
+Aspose.Cells provides the [**Range**](https://apireference.aspose.com/cells/java/com.aspose.cells/Range) object which has various utility methods that facilitate the user to work with Excel Ranges easily. This article illustrates the usage of the following methods or properties of the [**Range**](https://apireference.aspose.com/cells/java/com.aspose.cells/Range) object.
 
 - **Address**
 
@@ -27,11 +28,17 @@ Gets a Range object that represents the entire column (or columns) that contains
 - **Entire Row**
 
 Gets a Range object that represents the entire row (or rows) that contains the specified range.
+
 ## **Get Address, Cell Count, Offset, Entire Column and Entire Row of the Range**
+
 The following sample code explains the usage of the methods and properties as discussed above. Please see the console output of the code given below for a reference.
-## ` `**Sample Code**
+
+## **Sample Code**
+
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.java" >}}
+
 ## **Console Output**
+
 {{< highlight java >}}
 
  Creating Range A1:B3

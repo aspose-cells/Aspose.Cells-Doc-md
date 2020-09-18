@@ -6,7 +6,8 @@ url: /cpp/chart-rendering/
 ---
 
 ## **Creating Charts**
-Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic [Creating & Customizing Excel Charts](http://www.aspose.com/docs/display/cellscpp/Creating+and+Customizing+Charts). In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image & PDF format, we will create a chart of type Column as per following snippet.
+
+Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic [Creating & Customizing Excel Charts](/cells/cpp/creating-and-customizing-charts/). In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image & PDF format, we will create a chart of type Column as per following snippet.
 
 {{< highlight cpp >}}
 
@@ -46,10 +47,12 @@ Aspose.Cells APIs support to create a verity of Excel charts as detailed under t
 
 {{< /highlight >}}
 
-
 ## **Rendering Charts**
-` `Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide the rendering support, the Chart class has exposed ToImage & ToPdf methods with a verity of overloads to best suit the application requirements.
-#### **Rendering Charts to Images**
+
+Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide the rendering support, the Chart class has exposed ToImage & ToPdf methods with a verity of overloads to best suit the application requirements.
+
+### **Rendering Charts to Images**
+
 The Chart.toImage method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you to use the Chart.toImage method as follow.
 
 {{< highlight cpp >}}
@@ -67,7 +70,9 @@ StringPtr outputChartImage = outDir->StringAppend(new String("out1image.png"));
 chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageFormat::GetPng());
 
 {{< /highlight >}}
-#### **Rendering Chart to PDF**
+
+### **Rendering Chart to PDF**
+
 In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the Chart.ToPdf method with ability to store the resultant PDF on disc path or Stream.
 
 {{< highlight cpp >}}
@@ -81,7 +86,9 @@ StringPtr outputPdfFile = outDir->StringAppend(new String("out1pdf.pdf"));
 chart->ToPdf(outputPdfFile);
 
 {{< /highlight >}}
+
 ## **Supported Chart Types for Rendering**
+
 There are a few chart types that are currently not supported for rendering. Such chart types contain **N** in the **Supported** column of below table.
 
 |**Chart type**|**Chart sub-type**|**Supported**|
@@ -159,7 +166,8 @@ There are a few chart types that are currently not supported for rendering. Such
 | |PyramidBarStacked|**Y**|
 | |PyramidBar100PercentStacked|**Y**|
 | |PyramidColumn3D|**Y**|
-{{% alert color="primary" %}} 
+
+{{% alert color="primary" %}}
 
 In case you try to render the non-supported chart types to image or PDF, you may end up with 0 sized images or blank PDF.
 
