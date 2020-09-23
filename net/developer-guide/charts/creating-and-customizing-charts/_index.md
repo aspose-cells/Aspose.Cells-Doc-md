@@ -5,16 +5,21 @@ weight: 10
 url: /net/creating-and-customizing-charts/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Aspose.Cells provides many flexible charting objects. This topic discusses Aspose.Cells' charting objects.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Creating Charts**
+
 ### **Things to Know Before Creating a Chart**
+
 Before creating charts it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.
+
 #### **Charting Objects**
-Aspose.Cells provides a special set of classes in the [Aspose.Cells.Charts](https://apireference.aspose.com/cells/net/aspose.cells.charts) namespace used to create the charts supported by Aspose.Cells. These classes are used to create **charting objects**, which act as the chart building blocks. The charting objects are listed below:
+
+Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Charts**](https://apireference.aspose.com/cells/net/aspose.cells.charts) namespace used to create the charts supported by Aspose.Cells. These classes are used to create **charting objects**, which act as the chart building blocks. The charting objects are listed below:
 
 - Series, a single data series in a chart.
 - Axis, a chart's axis.
@@ -36,27 +41,31 @@ Aspose.Cells provides a special set of classes in the [Aspose.Cells.Charts](http
 - Trendline, a trendline in a chart.
 - TrendlineCollection, a collection of all Trendline objects for the specified data series.
 - Walls, the walls of a 3D chart.
+
 #### **Using Charting Objects**
+
 As mentioned above, all charting objects are instances of their respective classes and provide specific properties and methods to perform specific tasks. Use charting objects to create charts.
 
-Add any type of chart to a worksheet using the [Charts](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection. Each item in the [Charts](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection represents a [Chart](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object. A [Chart](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
+Add any type of chart to a worksheet using the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection. Each item in the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection represents a [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object. A [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
+
 ### **Create Chart Using Aspose.Cells**
+
 **Steps:**
 
-1. Add some data to worksheet cells with the [Cell](https://apireference.aspose.com/cells/net/aspose.cells/cell) object's [PutValue](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method.
+1. Add some data to worksheet cells with the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) object's [**PutValue**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method.
    This will be used as the data source for the chart.
-1. Add a chart to the worksheet by calling the [Charts](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection's [Add](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) method, encapsulated in the [Worksheet](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) object.
-1. Specify the type of chart with the [ChartType](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttype) enumeration.
-   For example, the example below uses the [ChartType.Pyramid](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) value as the chart type.
-1. Access the new [Chart](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object from the [Charts](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection by passing its index.
-1. Use any of the charting objects encapsulated in the [Chart](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object to manage the chart.
-   The example below uses the [SeriesCollection](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
+1. Add a chart to the worksheet by calling the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection's [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) method, encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) object.
+1. Specify the type of chart with the [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) enumeration.
+   For example, the example below uses the [**ChartType.Pyramid**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) value as the chart type.
+1. Access the new [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object from the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection by passing its index.
+1. Use any of the charting objects encapsulated in the [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object to manage the chart.
+   The example below uses the [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
 
 When adding source data to chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
 
 These general steps allow you to create any type of chart. Use different charting objects to create different charts.
 
-It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [Aspose.Cells.Charts.ChartType](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype).
+It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [**Aspose.Cells.Charts.ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype).
 
 The pre-defined chart types are:
 
@@ -113,10 +122,10 @@ The pre-defined chart types are:
 |Cylinder|Represents Cylinder Chart|
 |CylinderStacked|Represents Stacked Cylinder Chart|
 |Cylinder100PercentStacked|Represents 100% Stacked Cylinder Chart|
-|CylindericalBar|Represents Cylinderical Bar Chart.|
-|CylindericalBarStacked|Represents Stacked Cylinderical Bar Chart|
-|CylindericalBar100PercentStacked|Represents 100% Stacked Cylinderical Bar Chart|
-|CylindericalColumn3D|Represents 3D Cylinderical Column Chart|
+|CylindericalBar|Represents Cylindrical Bar Chart.|
+|CylindericalBarStacked|Represents Stacked Cylindrical Bar Chart|
+|CylindericalBar100PercentStacked|Represents 100% Stacked Cylindrical Bar Chart|
+|CylindericalColumn3D|Represents 3D Cylindrical Column Chart|
 |Cone|Represents Cone Chart|
 |ConeStacked|Represents Stacked Cone Chart|
 |Cone100PercentStacked|Represents 100% Stacked Cone Chart|
@@ -131,47 +140,47 @@ The pre-defined chart types are:
 |PyramidBarStacked|Represents Stacked Pyramid Bar Chart|
 |PyramidBar100PercentStacked|Represents 100% Stacked Pyramid Bar Chart|
 |PyramidColumn3D|Represents 3D Pyramid Column Chart|
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When you assign a range of cells as the data source, you can only set the range from top left to bottom right. For example, "A1:C3" is valid while "C3:A1" is invalid.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 #### **Pyramid Chart**
+
 When the example code is executed, a pyramid chart is added to the worksheet.
 
-
-
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
+
 #### **Line Chart**
-In the above example, simply changing the [ChartType](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
 
-
+In the above example, simply changing the [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
-#### **Bubble Chart**
-In order to create a bubble chart, the [ChartType](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttype) has to be set to [ChartType.Bubble](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
+#### **Bubble Chart**
+
+In order to create a bubble chart, the [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to [**ChartType.Bubble**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
 #### **Line with Data Marker Chart**
-In order to create a line with the data marker chart, [ChartType](https://apireference.aspose.com/net/cells/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
 
-
+In order to create a line with the data marker chart, [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
+
 ## **Creating Custom Charts**
+
 So far, when we've discussed charts, we've looked at standard charts that have their standard formatting settings. We only define the data source, set a few properties, and the chart is created with its default format settings. But Aspose.Cells APIs also supports creating custom charts that allows developers to create charts with their own format settings.
 
 Developers can create custom charts at run-time using Aspose.Cells.
 
-A chart is composed of a data series. Each data series in Aspose.Cells is represented by a [Series](https://apireference.aspose.com/cells/net/aspose.cells.charts/series) object whereas [SeriesCollection](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object serves as a collection of [Series](https://apireference.aspose.com/cells/net/aspose.cells.charts/series) objects. When creating a custom chart, developers have the freedom to use different types of charts for different data series (collected in the [SeriesCollection](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object).
+A chart is composed of a data series. Each data series in Aspose.Cells is represented by a [**Series**](https://apireference.aspose.com/cells/net/aspose.cells.charts/series) object whereas [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object serves as a collection of [**Series**](https://apireference.aspose.com/cells/net/aspose.cells.charts/series) objects. When creating a custom chart, developers have the freedom to use different types of charts for different data series (collected in the [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object).
 
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet.
 
-
-
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-ManipulateChart-HowToCreateCustomChart-1.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Currently Aspose.Cells only supports custom charts that combine pie, line, column, and column stack charts but more charts will be supported in future releases.
 
