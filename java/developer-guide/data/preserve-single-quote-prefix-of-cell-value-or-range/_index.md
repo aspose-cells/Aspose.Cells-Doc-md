@@ -6,19 +6,26 @@ url: /java/preserve-single-quote-prefix-of-cell-value-or-range/
 ---
 
 ## **Possible Usage Scenarios**
+
 When you put some value inside the cell that has leading apostrophe or single quote mark, then Microsoft Excel hides it, but when you select the cell, it displays the leading apostrophe or single quote in a formula bar as shown in the following screenshot.
 
 ![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells also hides the leading apostrophe or single quote like Microsoft Excel but it sets the [Style.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/style#QuotePrefix) as **true** for that cell. If you set an empty style of the cell, then [Style.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/style#QuotePrefix) becomes **false** again. In order to deal with this issue, Aspose.Cells provides [StyleFlag.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/styleflag#QuotePrefix) property, when it is set **false**, then [StyleFlag.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/styleflag#QuotePrefix) is not updated at all and its old value is preserved. It means if the old value of [Style.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/style#QuotePrefix) property was **true**, it will remain true and if the old value was false, it will remain false.
+Aspose.Cells also hides the leading apostrophe or single quote like Microsoft Excel but it sets the [**Style.QuotePrefix**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) as **true** for that cell. If you set an empty style of the cell, then [**Style.QuotePrefix**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) becomes **false** again. In order to deal with this issue, Aspose.Cells provides [**StyleFlag.QuotePrefix**](https://apireference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) property, when it is set **false**, then [**StyleFlag.QuotePrefix**](https://apireference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) is not updated at all and its old value is preserved. It means if the old value of [**Style.QuotePrefix**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) property was **true**, it will remain true and if the old value was false, it will remain false.
+
 ## **Preserve Single Quote Prefix of Cell Value or Range**
-The following sample code explains the usage of [StyleFlag.QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/styleflag#QuotePrefix) property as described previously. Please read the comments inside the code and see the console output of the code given below for more help.
+
+The following sample code explains the usage of [**StyleFlag.QuotePrefix**](https://apireference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) property as described previously. Please read the comments inside the code and see the console output of the code given below for more help.
+
 ## **Sample Code**
+
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.java" >}}
+
 ## **Console Output**
+
 {{< highlight java >}}
 
- Quote Prefix of Cell A1: false
+Quote Prefix of Cell A1: false
 
 Quote Prefix of Cell A1: true
 
