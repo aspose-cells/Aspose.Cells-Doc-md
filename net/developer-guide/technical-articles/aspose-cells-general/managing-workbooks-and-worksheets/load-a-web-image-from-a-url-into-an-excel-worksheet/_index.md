@@ -3,15 +3,20 @@ title: Load a Web Image from a URL into an Excel Worksheet
 type: docs
 weight: 30
 url: /net/load-a-web-image-from-a-url-into-an-excel-worksheet/
+description: How to convert an Image from URL to actual Excel image? This article demonstrate achieving this using C# and the simple to use Aspose.Cells for .NET API.
+keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, C#, Excel,
 ---
 
-{{% alert color="primary" %}} 
+## Load an Image from a URL into an Excel Worksheet
 
-[Insert a Linked Picture from Web Address](/cells/net/insert-a-linked-picture-from-web-address/) explained how to insert an image from the web into a spreadsheet. As well as linking to the image, you can extract and download the image data into a stream and then insert the image from the stream into the worksheet with Aspose.Cells. This adds the image to the spreadsheet's image collection whereas the other method loads the image from the web each time the spreadsheet is opened.
+Aspose.Cells for .NET API provides a simple and easy way to load images from URLs into Excel Worksheets. This article explains downloading the image data into a stream and then inserting it into the worksheet using the Aspose.Cells API. Using this method, the images becomes a part of the excel file and are not downloaded every time the worksheet is opened.
 
-{{% /alert %}} 
-
-
-
+## Sample Code
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-LoadWebImage-1.cs" >}}
+
+{{% alert color="primary" %}
+
+There might be cases where you always want the updated image from a URL. To achieve this, you may follow the instructions given in the [Insert a Linked Picture from Web Address](/cells/net/insert-a-linked-picture-from-web-address/) article. By following this method, the image is loaded from the URL each time the worksheet is opened.
+
+{{% /alert %}}
