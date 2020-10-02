@@ -3,7 +3,7 @@ title: Load a Web Image from a URL into an Excel Worksheet
 type: docs
 weight: 30
 url: /net/load-a-web-image-from-a-url-into-an-excel-worksheet/
-description: How to convert an Image from URL to actual Excel image? This article demonstrate achieving this using C# and the simple to use Aspose.Cells for .NET API.
+description: How to convert an Image from URL to actual Excel image? This article demonstrates achieving this using C# and the simple to use Aspose.Cells for .NET API.
 keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, C#, Excel
 ---
 
