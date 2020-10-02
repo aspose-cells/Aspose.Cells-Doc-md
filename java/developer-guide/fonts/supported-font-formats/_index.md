@@ -7,5 +7,5 @@ url: /java/supported-font-formats/
 
 |**Format**|**Description**|
 | :- | :- | :- | :- |
-|**TTF**|OpenType Fonts|
-|**OTF**|TrueType Fonts|
+|**TTF**|TrueType Fonts|
+|**OTF**|OpenType Fonts|
