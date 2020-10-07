@@ -5,14 +5,18 @@ weight: 10
 url: /java/supported-formula-functions/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells APIs support most of the standard functions and Excel's built-in formula. Below, you can find all the supported functions in alphabetical order.
 
-{{% /alert %}} 
-### **Set, Read and Calculate at Runtime**
+{{% /alert %}}
+
+## **Set, Read and Calculate at Runtime**
+
 Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate the results of the following formulas and functions.
-#### **A**
+
+### **A**
+
 - ABS
 - ACCRINT
 - ACCRINTM
@@ -35,7 +39,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - AVERAGEA
 - AVERAGEIF
 - AVERAGEIFS
-#### **B**
+
+### **B**
+
 - BESSELI
 - BESSELJ
 - BESSELK
@@ -54,7 +60,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - BITOR
 - BITRSHIFT
 - BITXOR
-#### **C**
+
+### **C**
+
 - CEILING
 - CEILING.MATH
 - CEILING.PRECISE
@@ -99,7 +107,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - CRITBINOM
 - CUMIPMT
 - CUMPRINC
-#### **D**
+
+### **D**
+
 - DATE
 - DATEDIF
 - DATEVALUE
@@ -131,7 +141,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - DURATION
 - DVAR
 - DVARP
-#### **E**
+
+### **E**
+
 - EDATE
 - EFFECT
 - EOMONTH
@@ -142,7 +154,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - EXACT
 - EXP
 - EXPONDIST
-#### **F**
+
+### **F**
+
 - F.DIST
 - F.DIST.RT
 - F.INV.RT
@@ -164,7 +178,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - FREQUENCY, FV
 - FVSCHEDULE
 - FALSE
-#### **G**
+
+### **G**
+
 - GAMMA.DIST
 - GAMMA.INV
 - GAMMADIST
@@ -175,7 +191,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - GETPIVOTDATA
 - GESTEP
 - GROWTH
-#### **H**
+
+### **H**
+
 - HARMEAN
 - HEX2BIN
 - HEX2DEC
@@ -185,7 +203,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - HYPERLINK
 - HYPGEOM.DIST
 - HYPGEOMDIST
-#### **I**
+
+### **I**
+
 - IF
 - IFERROR
 - IFNA
@@ -227,9 +247,13 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - ISPMT
 - ISREF
 - ISTEXT
-#### **K**
+
+### **K**
+
 - KURT
-#### **L**
+
+### **L**
+
 - LARGE
 - LCM
 - LEFT
@@ -246,7 +270,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - LOGNORMDIST
 - LOOKUP
 - LOWER
-#### **M**
+
+### **M**
+
 - MATCH
 - MAX
 - MAXA
@@ -270,7 +296,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - MONTH
 - MROUND
 - MULTINOMIAL
-#### **N**
+
+### **N**
+
 - N
 - NA
 - NEGBINOM.DIST
@@ -291,7 +319,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - NPER
 - NPV
 - NUMBERVALUE
-#### **O**
+
+### **O**
+
 - OCT2BIN
 - OCT2DEC
 - OCT2HEX
@@ -302,7 +332,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - ODDLYIELD
 - OFFSET
 - OR
-#### **P**
+
+### **P**
+
 - PEARSON
 - PERCENTILE
 - PERCENTILE.EXC
@@ -324,12 +356,16 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - PRODUCT
 - PROPER
 - PV
-#### **Q**
+
+### **Q**
+
 - QUARTILE
 - QUARTILE.EXC
 - QUARTILE.INC
 - QUOTIENT
-#### **R**
+
+### **R**
+
 - RADIANS
 - RAND
 - RANDBETWEEN
@@ -350,7 +386,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - ROW
 - ROWS
 - RSQ
-#### **S**
+
+### **S**
+
 - SEARCH
 - SEARCHB
 - SECOND
@@ -384,7 +422,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - SUMXMY2
 - SWITCH
 - SYD
-#### **T**
+
+### **T**
+
 - T
 - T.DIST.2T
 - T.DIST.RT
@@ -410,12 +450,16 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - TTEST
 - TYPE
 - TRUE
-#### **U**
+
+### **U**
+
 - UNICHAR
 - UNICODE
 - UPPER
 - USDOLLAR
-#### **V**
+
+### **V**
+
 - VALUE
 - VAR
 - VAR.P
@@ -425,7 +469,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - VARPA
 - VDB
 - VLOOKUP
-#### **W**
+
+### **W**
+
 - WEEKDAY
 - WEEKNUM
 - WEIBULL
@@ -433,15 +479,21 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - WIDECHAR
 - WORKDAY
 - WORKDAY.INTL
-#### **X**
+
+### **X**
+
 - XIRR
 - XNPV
-#### **Y**
+
+### **Y**
+
 - YEAR
 - YEARFRAC
 - YIELD
 - YIELDDISC
 - YIELDMAT
-#### **Z**
+
+### **Z**
+
 - Z.TEST
 - ZTEST
