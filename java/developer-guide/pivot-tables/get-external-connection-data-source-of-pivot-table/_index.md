@@ -6,7 +6,10 @@ url: /java/get-external-connection-data-source-of-pivot-table/
 ---
 
 ## **Get External Connection Data Source of Pivot Table**
-Aspose.Cells provides the ability to get the external connection data source of the pivot table. For this, the API provides the [ExternalConnectionDataSource](https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#ExternalConnectionDataSource) property of the [PivotTable](https://apireference.aspose.com/java/cells/com.aspose.cells/PivotTable) class. The [ExternalConnectionDataSource](https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#ExternalConnectionDataSource) property returns the [ExternalConnection](https://apireference.aspose.com/java/cells/com.aspose.cells/ExternalConnection) object. The following code snippet demonstrates the use of the [PivotTable.ExternalConnectionDataSource](https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#ExternalConnectionDataSource) property to get the external connection data source of the pivot table.
+
+Aspose.Cells provides the ability to get the external connection data source of the pivot table. For this, the API provides the [**ExternalConnectionDataSource**](https://apireference.aspose.com/cells/java/com.aspose.cells/pivottable#ExternalConnectionDataSource) property of the [**PivotTable**](https://apireference.aspose.com/cells/java/com.aspose.cells/PivotTable) class. The [**ExternalConnectionDataSource**](https://apireference.aspose.com/cells/java/com.aspose.cells/pivottable#ExternalConnectionDataSource) property returns the [**ExternalConnection**](https://apireference.aspose.com/cells/java/com.aspose.cells/ExternalConnection) object. The following code snippet demonstrates the use of the [**PivotTable.ExternalConnectionDataSource**](https://apireference.aspose.com/cells/java/com.aspose.cells/pivottable#ExternalConnectionDataSource) property to get the external connection data source of the pivot table.
+
+## Sample Code
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableGetExternalConnectionDataSource-1.java" >}}
 
