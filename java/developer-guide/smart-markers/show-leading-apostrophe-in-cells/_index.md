@@ -5,8 +5,9 @@ weight: 20
 url: /java/show-leading-apostrophe-in-cells/
 ---
 
-# **Show leading apostrophe in cells**
-In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [Workbook.Settings.QuotePrefixToStyle](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#QuotePrefixToStyle) property. This property indicates whether to set the [QuotePrefix](https://apireference.aspose.com/java/cells/com.aspose.cells/Style#QuotePrefix) property when entering string value starting with a single quote to the cell. Setting the [Workbook.Settings.QuotePrefixToStyle](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#QuotePrefixToStyle) property to **false** will display the leading apostrophe in the output excel file.
+## **Show leading apostrophe in cells**
+
+In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [**Workbook.Settings.QuotePrefixToStyle**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) property. This property indicates whether to set the [**QuotePrefix**](https://apireference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix) property when entering string value starting with a single quote to the cell. Setting the [**Workbook.Settings.QuotePrefixToStyle**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) property to **false** will display the leading apostrophe in the output excel file.
 
 The following screenshot shows the output excel file with the visible apostrophe.
 
@@ -17,7 +18,9 @@ The following code snippet demonstrates this by adding data with Smart Markers i
 [Source File](AllowLeadingApostropheSample.xlsx)
 
 [Output File](AllowLeadingApostropheSample_out.xlsx)
-### **Sample Code**
+
+## **Sample Code**
+
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Workbook-AllowLeadingApostrophe-1.java" >}}
 
 The implementation of *DataObject* class is given below
