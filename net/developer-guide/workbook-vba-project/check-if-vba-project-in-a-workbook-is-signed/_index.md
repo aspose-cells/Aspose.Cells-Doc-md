@@ -5,14 +5,12 @@ weight: 70
 url: /net/check-if-vba-project-in-a-workbook-is-signed/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-You can check if your VBA project is signed or not using Microsoft Excel via **Tools > Digital Signatures...** menu command. Similarly, you can check it programmatically using Aspose.Cells [Workbook.VbaProject.IsSigned](https://apireference.aspose.com/net/cells/aspose.cells.vba/vbaproject/properties/issigned) property.
+You can check if your VBA project is signed or not using Microsoft Excel via **Tools > Digital Signatures...** menu command. Similarly, you can check it programmatically using Aspose.Cells [**Workbook.VbaProject.IsSigned**](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) property.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-The following code loads the workbook and checks if its VBA project is signed using [Workbook.VbaProject.IsSigned](https://apireference.aspose.com/net/cells/aspose.cells.vba/vbaproject/properties/issigned) property. The property will return **true** if the project is signed otherwise it will return **false**.
-
-
+The following code loads the workbook and checks if its VBA project is signed using [**Workbook.VbaProject.IsSigned**](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) property. The property will return **true** if the project is signed otherwise it will return **false**.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}
