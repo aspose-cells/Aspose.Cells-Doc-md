@@ -5,7 +5,7 @@ weight: 10
 url: /java/setting-strong-encryption-type/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Microsoft Excel (97-2007/2010) enables you to encrypt and password protect spreadsheets. It uses algorithms provided by a Crypto Service Provider. A Crypto Service Provider (or CSP) is a set of cryptographic algorithms with different properties. The default CSP is "Office 97/2000 Compatible". This is a CSP with some public known security issues. Spreadsheets that are secured with the "weak encryption (XOR)" or with the "Office 97/2000 Compatible" encryption type can be cracked easily.
 
@@ -13,8 +13,10 @@ To overcome this problem, use one of the strong encryption types provided by Mic
 
 You can also encrypt and password protect Excel files with strong encryption type using the Aspose.Cells API.
 
-{{% /alert %}} 
-#### **Applying Encryption with Microsoft Excel**
+{{% /alert %}}
+
+## **Applying Encryption with Microsoft Excel**
+
 To implement file encryption in Microsoft Excel (for example 2007):
 
 1. From the **Tools** menu, select **Options**.
@@ -23,10 +25,12 @@ To implement file encryption in Microsoft Excel (for example 2007):
 1. Click **Advanced**.
 1. Choose the encryption type and confirm the password.
 
-   **Setting encryption in Microsoft Excel** 
+   **Setting encryption in Microsoft Excel**
 
 ![todo:image_alt_text](setting-strong-encryption-type_1.png)
-#### **Applying Encryption with Aspose.Cells**
+
+## **Applying Encryption with Aspose.Cells**
+
 The code example below applies strong encryption on a file and sets a password.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}
