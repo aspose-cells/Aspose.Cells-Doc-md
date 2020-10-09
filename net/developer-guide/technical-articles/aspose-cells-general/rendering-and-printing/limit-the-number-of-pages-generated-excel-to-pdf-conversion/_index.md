@@ -5,20 +5,20 @@ weight: 180
 url: /net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes, you want to print a range of pages to an output PDF file. Aspose.Cells has the ability to set a limit on how many pages are generated when converting an Excel spreadsheet to the PDF file format.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 ## **Limiting the Number of Pages Generated**
+
 The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
-
-
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LimitNumberOfPagesGenerated-1.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [Workbook.CalculateFormula()](https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula) just before rendering it to PDF. Doing ensures that formula dependent values are recalculated, and the correct values are rendered in the output file.
+If the spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula) just before rendering it to PDF. Doing ensures that formula dependent values are recalculated, and the correct values are rendered in the output file.
 
 {{% /alert %}}
