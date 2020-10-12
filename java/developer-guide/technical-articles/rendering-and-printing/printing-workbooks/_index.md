@@ -38,3 +38,7 @@ The following code snippet demonstrates the use of the [**SheetRender.toPrinter*
 You can also use the [**WorkbookRender.toPrinter**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) method to print the whole workbook. The following code snippet demonstrates the use of the [**WorkbookRender.toPrinter**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) method to print the whole workbook.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
+
+## Related Articles
+
+- [Specify Job or Document Name while printing with Aspose.Cells](/cells/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
