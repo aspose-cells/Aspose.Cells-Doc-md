@@ -5,13 +5,13 @@ weight: 110
 url: /java/reading-cell-values-in-multiple-threads-simultaneously/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Needing to read cell values in multiple threads simultaneously is a common requirement. This article explains how to use Aspose.Cells for this purpose.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-To read cell values in more than one thread simultaneously, set [Worksheet.getCells().setMultiThreadReading()](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#MultiThreadReading) to **true**. If you do not, you might get the wrong cell values.
+To read cell values in more than one thread simultaneously, set [**Worksheet.getCells().setMultiThreadReading()**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading) to **true**. If you do not, you might get the wrong cell values.
 
 The following code:
 
@@ -25,7 +25,7 @@ If you comment this line:
 
 {{< highlight java >}}
 
- testWorkbook.getWorksheets().get(0).getCells().setMultiThreadReading(true);
+testWorkbook.getWorksheets().get(0).getCells().setMultiThreadReading(true);
 
 {{< /highlight >}}
 
@@ -33,7 +33,7 @@ then the following message is displayed:
 
 {{< highlight java >}}
 
- if (s.equals("R" + row + "C" + col)!=true)
+if (s.equals("R" + row + "C" + col)!=true)
 
 {
 
