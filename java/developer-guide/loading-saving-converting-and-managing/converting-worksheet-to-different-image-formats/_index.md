@@ -52,3 +52,9 @@ The following code snippet shows how to convert a worksheet in an Excel file to 
 A simple way to convert active worksheet in a workbook is to set the active sheet index and then save the workbook as SVG. It will render the active sheet to SVG. Following sample code demonstrates this feature:
 
 {{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertActiveWorksheetToSVG-1.java" >}}
+
+## Related Articles
+
+- [Export Chart to SVG with viewBox attribute](/cells/java/export-chart-to-svg-with-viewbox-attribute/)
+- [Export Worksheet or Chart into Image with Desired Width and Height](/cells/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [Converting Worksheet to Image and Worksheet to Image by Page](/cells/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
