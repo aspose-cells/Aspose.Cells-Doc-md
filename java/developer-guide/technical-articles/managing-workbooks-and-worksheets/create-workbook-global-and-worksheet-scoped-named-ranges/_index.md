@@ -5,7 +5,7 @@ weight: 10
 url: /java/create-workbook-global-and-worksheet-scoped-named-ranges/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Microsoft Excel allows users to define named ranges with two different scopes: workbook (also known as global scope) and worksheet.
 
@@ -14,10 +14,14 @@ Microsoft Excel allows users to define named ranges with two different scopes: w
 
 Aspose.Cells provides the same functionality as Microsoft Excel for adding workbook and worksheet scoped named ranges. When creating a worksheet scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet scoped named range.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-The following code samples show how to create workbook and worksheet scoped name ranges by using the [Range](https://apireference.aspose.com/java/cells/com.aspose.cells/Range) class.
-#### **Adding a Named Range with Workbook Scope**
+The following code samples show how to create workbook and worksheet scoped name ranges by using the [**Range**](https://apireference.aspose.com/cells/java/com.aspose.cells/Range) class.
+
+## **Adding a Named Range with Workbook Scope**
+
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorkbookScope-AddNamedRangeWithWorkbookScope.java" >}}
-#### **Adding a Named Range with Worksheet Scope**
+
+## **Adding a Named Range with Worksheet Scope**
+
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}
