@@ -3,6 +3,8 @@ title: Create Pivot Tables and Pivot Charts
 type: docs
 weight: 10
 url: /java/create-pivot-tables-and-pivot-charts/
+description: Create Pivot Tables and Pivot Charts with Aspose.Cells for Java API.
+keywords: excel create pivot table java, excel create pivot chart java, excel create pivot table and pivot chart java, create excel pivot table java, create excel pivot chart java, create excel pivot table and pivot chart java, java create excel pivot table and pivot chart, how to create excel pivot table and pivot chart java
 ---
 
 {{% alert color="primary" %}}
@@ -11,7 +13,7 @@ A pivot table is an interactive summary of records. For example, you may have hu
 
 A pivot chart is an interactive graphical representation of the data in a pivot table. Pivot charts were introduced in Excel 2000. Using a pivot chart makes it even easier to understand the data since the pivot table creates subtotals and totals automatically.
 
-Aspose.Cells supports [pivot tables](/cells/java/create-pivot-tables-and-pivot-charts/) and [pivot charts](/cells/java/create-pivot-tables-and-pivot-charts/).
+Aspose.Cells supports [pivot tables](/cells/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table) and [pivot charts](/cells/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
 
 {{% /alert %}}
 
@@ -93,3 +95,10 @@ Aspose.Cells has benefited from years of research, design and careful tuning.
 We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
 
 {{% /alert %}}
+
+## Related Articles
+
+- [Custom sorting in Pivot Table](/cells/java/custom-sorting-in-pivot-table/)
+- [Formatting Pivot Table](/cells/java/formatting-pivot-table/)
+- [Refresh and Calculate Pivot Table having Calculated Items](/cells/java/refresh-and-calculate-pivot-table-having-calculated-items/)
+- [Disable Pivot Table Ribbons](/cells/java/disable-pivot-table-ribbons/)
