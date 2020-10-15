@@ -5,16 +5,19 @@ weight: 50
 url: /java/insert-a-linked-picture-from-web-address/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes you need to insert a picture from the web (http://) into a worksheet. To do so, specify the picture’s URL and the picture will be downloaded every time the spreadsheet is opened in Microsoft Excel. The image is not physically embedded into the Excel document, but points to a web resource.
 
-{{% /alert %}} 
-### **Inserting a Linked Picture from Web Address**
-#### **Using Microsoft Excel**
+{{% /alert %}}
+
+## **Inserting a Linked Picture from Web Address**
+
+### **Using Microsoft Excel**
+
 In Microsoft Excel (for example 2007):
 
-1. Click the **Insert** menu and select **Picture**. 
+1. Click the **Insert** menu and select **Picture**.
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_1.png)
 
@@ -22,15 +25,15 @@ In Microsoft Excel (for example 2007):
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_2.png)
 
-
-
-The image is inserted. 
+The image is inserted.
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_3.png)
-#### **Using Aspose.Cells for Java**
-Aspose.Cells for Java supports adding a linked image using the method [ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)](https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#addLinkedPicture\(int,%20int,%20int,%20int,%20java.lang.String\)).
 
-The method returns a [Picture](https://apireference.aspose.com/java/cells/com.aspose.cells/Picture) object.
+### **Using Aspose.Cells for Java**
+
+Aspose.Cells for Java supports adding a linked image using the method [**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
+
+The method returns a [**Picture**](https://apireference.aspose.com/cells/java/com.aspose.cells/Picture) object.
 
 The following example shows how to add linked picture from web address to a worksheet.
 

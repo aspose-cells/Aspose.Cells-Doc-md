@@ -5,14 +5,16 @@ weight: 60
 url: /java/add-a-picture-to-an-excel-comment/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Microsoft Excel lets users customize the look and feel of spreadsheets to a great extent. It is even possible to add background pictures to comments.
 
-Comments are added to cells to record comments, anything from the details of how a formula is worked, where a value comes from or questions from reviewers. Adding a background image can be an aesthetic choice, or be used to strengthen branding. 
+Comments are added to cells to record comments, anything from the details of how a formula is worked, where a value comes from or questions from reviewers. Adding a background image can be an aesthetic choice, or be used to strengthen branding.
 
-{{% /alert %}} 
-#### **Microsoft Excel**
+{{% /alert %}}
+
+## Add picture to Excel Comment with Microsoft Excel
+
 With Microsoft Excel 2007, it is possible to have an image as the background to a cell comment. In Excel 2007, this is accomplished (supposing the comment has already been added) this way:
 
 1. Right-click the cell which contains the comment.
@@ -24,15 +26,19 @@ With Microsoft Excel 2007, it is possible to have an image as the background to 
 1. On the Picture tab, click **Select Picture**.
 1. Locate and select the picture
 1. Click **OK**.
-#### **Aspose.Cells**
-Aspose.Cells provides this valuable feature. 
+
+## Add picture to Excel Comment with Aspose.Cells
+
+Aspose.Cells provides this valuable feature.
 
 The sample code below creates an XLSX file from scratch, and adds a comment with a picture background to cell A1.
 
-After executing the code, A1 has a comment with a background image. 
+After executing the code, A1 has a comment with a background image.
 
-**The output file** 
+**The output file**
 
 ![todo:image_alt_text](add-a-picture-to-an-excel-comment_1.png)
-#### **Java**
+
+## Sample Code
+
 {{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPicturetoExcelComment-AddPicturetoExcelComment.java" >}}
