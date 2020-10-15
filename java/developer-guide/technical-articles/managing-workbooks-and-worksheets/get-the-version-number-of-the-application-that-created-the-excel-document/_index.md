@@ -5,19 +5,19 @@ weight: 150
 url: /java/get-the-version-number-of-the-application-that-created-the-excel-document/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Often you need to know the version number of the application that created a Microsoft Excel document. Aspose.Cells provides the [Workbook.getBuiltInDocumentProperties().getVersion()](https://apireference.aspose.com/java/cells/com.aspose.cells/builtindocumentpropertycollection#Version) property for this purpose.
+Often you need to know the version number of the application that created a Microsoft Excel document. Aspose.Cells provides the [**Workbook.getBuiltInDocumentProperties().getVersion()**](https://apireference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) property for this purpose.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-The following sample code demonstrates the use of the [Workbook.getBuiltInDocumentProperties().getVersion()](https://apireference.aspose.com/java/cells/com.aspose.cells/builtindocumentpropertycollection#Version) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010 and 2013 and prints the version number of the application that created these Excel documents.
+The following sample code demonstrates the use of the [**Workbook.getBuiltInDocumentProperties().getVersion()**](https://apireference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010 and 2013 and prints the version number of the application that created these Excel documents.
 
 For your reference, below is the console output the sample code creates.
 
 {{< highlight java >}}
 
- Excel 2003 XLS Version: 726502
+Excel 2003 XLS Version: 726502
 
 Excel 2007 XLS Version: 786432
 
