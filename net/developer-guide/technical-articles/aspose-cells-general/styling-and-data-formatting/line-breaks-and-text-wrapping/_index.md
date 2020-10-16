@@ -5,20 +5,20 @@ weight: 60
 url: /net/line-breaks-and-text-wrapping/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, which explicit line breaks put in breaks exactly where you want them.
 
-{{% /alert %}} 
-# **To Wrap Text in a Cell**
-To wrap text in a cell, use the [Aspose.Cells.Style.IsTextWrapped](https://apireference.aspose.com/net/cells/aspose.cells/style/properties/istextwrapped) property.
+{{% /alert %}}
 
+## **To Wrap Text in a Cell**
 
+To wrap text in a cell, use the [**Aspose.Cells.Style.IsTextWrapped**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) property.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
-# **To Use Explicit Line Breaks**
+
+## **To Use Explicit Line Breaks**
+
 You can use ‘\n’ in C# and ‘ vbLf’ in VB.NET to insert explicit line breaks in a cell.
-
-
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
