@@ -45,19 +45,18 @@ Represents ExceptionType.Permission.
 
 Gets the definition of power query formula.
 
-## **Adds FileFormatUtil.VerifyPassword method.**
+### **Adds FileFormatUtil.VerifyPassword method.**
 
 Verifies whether the password is valid for the file.
 
-## **Adds VbaProject.Copy() method.**
+### **Adds VbaProject.Copy() method.**
 
 Copies VBA project.
 
-## **Adds XlsSaveOptions.MatchColor property.**
+### **Adds XlsSaveOptions.MatchColor property.**
 
 Indicates whether matching color if the color is not in the palette when saving .xls file.
 
-## **Deletes obsoleted Series.Line property.**
+### **Deletes obsoleted Series.Line property.**
 
-ries.Line  property.
-Edit
+Use Series.Border property instead.
