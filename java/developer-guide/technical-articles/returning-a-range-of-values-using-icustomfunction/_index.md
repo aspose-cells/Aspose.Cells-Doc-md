@@ -21,7 +21,7 @@ Mostly when you implement the [**ICustomFunction**](https://apireference.aspose.
 
 {{% /alert %}}
 
-#### **Returning a Range of Values using ICustomFunction**
+## **Returning a Range of Values using ICustomFunction**
 
 The following code implements [**ICustomFunction**](https://apireference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) and returns the range of values via its method. Please check the [output excel file](5472922.xlsx) and [pdf](5472925.pdf) generated with the code for your reference.
 
