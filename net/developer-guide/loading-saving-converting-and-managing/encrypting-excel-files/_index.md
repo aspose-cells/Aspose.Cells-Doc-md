@@ -36,9 +36,10 @@ The following example shows how to set the **Password to modify** Microsoft Exce
 
 ## **Verify the password of the encrypted file**
 
-To verify the password of the encrypted file, Aspose.Cells for .NET provides the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method. The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method to verify whether the provided password is valid or not.
+To verify the password of the encrypted file, Aspose.Cells for .NET provides the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method. The methods accepts two parameters, the file stream and the password that needs to be verified.
+The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method to verify whether the provided password is valid or not.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Gist_Aspose_Cells_Net_2\Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
 ## **Encryption/Decryption of ODS file with Aspose.Cells**
 

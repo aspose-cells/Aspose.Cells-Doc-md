@@ -42,7 +42,8 @@ The Aspose.Cells library allows encrypting and decrypting the ODS files. Un-encr
 
 ## **Verify the password of the encrypted file**
 
-To verify the password of the encrypted file, Aspose.Cells for Java provides the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method. The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method to verify whether the provided password is valid or not.
+To verify the password of the encrypted file, Aspose.Cells for Java provides the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method. The methods accepts two parameters, the file stream and the password that needs to be verified.
+The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method to verify whether the provided password is valid or not.
 
 ### **Sample Code:**
 
