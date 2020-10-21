@@ -3,15 +3,19 @@ title: Using Built-in Styles
 type: docs
 weight: 150
 url: /net/using-built-in-styles/
+description: C# code to use Excel built-in styles with Aspose.Cells for .NET API
+keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells provides a vast collection of re-usable styles to format a cell in spreadsheet document. We can use built-in styles in our workbook and also create custom styles.
 
-{{% /alert %}} 
-# **How to use Built-in Styles**
-The method Workbook.CreateBuiltinStyle and class BuiltinStyleType, make it convenient to create re-usable styles. Here is a list of all possible built-in styles:
+{{% /alert %}}
+
+## **How to use Built-in Styles**
+
+The method [**Workbook.CreateBuiltinStyle**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) and the enumeration [**BuiltinStyleType**](https://apireference.aspose.com/cells/net/aspose.cells/builtinstyletype) make it convenient to use built-in styles. Here is a list of all possible built-in styles:
 
 - TWENTY_PERCENT_ACCENT_1
 - TWENTY_PERCENT_ACCENT_2
@@ -65,6 +69,6 @@ The method Workbook.CreateBuiltinStyle and class BuiltinStyleType, make it conve
 - ROW_LEVEL
 - COLUMN_LEVEL
 
+## C# code to use built-in styles
 
-
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
