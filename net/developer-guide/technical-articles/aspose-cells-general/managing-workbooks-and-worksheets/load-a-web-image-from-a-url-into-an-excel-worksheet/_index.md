@@ -13,7 +13,7 @@ Aspose.Cells for .NET API provides a simple and easy way to load images from URL
 
 ## Sample Code
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-LoadWebImage-1.cs" >}}
+{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LoadWebImage-1.cs" >}}
 
 {{% alert color="primary" %}}
 
