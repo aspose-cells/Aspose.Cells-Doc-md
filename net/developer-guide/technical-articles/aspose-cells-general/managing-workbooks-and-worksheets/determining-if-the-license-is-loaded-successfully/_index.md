@@ -15,7 +15,7 @@ Aspose.Cells provides [**Workbook.IsLicensed**](https://apireference.aspose.com/
 
 The following code accesses the [**Workbook.IsLicensed**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) property before setting a license and it returns **false**. Then it loads the license and accesses the property again which now returns **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DeterminingLicenseLoading-DeterminingLicenseLoading.cs" >}
+{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DeterminingLicenseLoading-DeterminingLicenseLoading.cs" >}}
 
 ## **Console Output**
 
