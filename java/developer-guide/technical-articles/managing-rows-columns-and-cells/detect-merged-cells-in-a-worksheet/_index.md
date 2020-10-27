@@ -5,7 +5,7 @@ weight: 30
 url: /java/detect-merged-cells-in-a-worksheet/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In Microsoft Excel, several cells can be merged into one. This is often used to create complex tables or to create a cell that holds a heading that spans several columns.
 
@@ -13,24 +13,30 @@ Aspose.Cells allows you to identify merged cell areas in a worksheet. You can un
 
 This article provides compact instructions on how to find and then unmerge merged cells in a worksheet.
 
-{{% /alert %}} 
-### **Demonstration**
-This example uses a template Microsoft Excel file called **MergeTrial**. It has some merged cell areas in a sheet also called Merge Trial. 
+{{% /alert %}}
 
-**The template file** 
+## **Demonstration**
+
+This example uses a template Microsoft Excel file called **MergeTrial**. It has some merged cell areas in a sheet also called Merge Trial.
+
+**The template file**
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells provides the [Cells.getMergedCells](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#MergedCells) method which is used to get an ArrayList of merged cell areas.
+Aspose.Cells provides the [**Cells.getMergedCells**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells) method which is used to get an ArrayList of merged cell areas.
 
-When the code below is executed, it clears the contents of the sheet and unmerges all the cell areas before saving the file again. 
+When the code below is executed, it clears the contents of the sheet and unmerges all the cell areas before saving the file again.
 
-**The Output File** 
+**The Output File**
 
 ![todo:image_alt_text](detect-merged-cells-in-a-worksheet_2.png)
-### **Code Example**
+
+## **Code Example**
+
 Please see the following sample code to find how to identify merged cell areas in a worksheet and unmerge them.
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectMergedCells-DetectMergedCells.java" >}}
-#### **Related Articles**
+
+## **Related Articles**
+
 - [Merging and splitting cells](/cells/java/merging-and-unmerging-cells/).
