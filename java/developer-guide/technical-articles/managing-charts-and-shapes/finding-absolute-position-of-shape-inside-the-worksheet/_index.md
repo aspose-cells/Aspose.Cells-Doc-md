@@ -5,15 +5,17 @@ weight: 70
 url: /java/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Sometimes, you need to know the absolute position of a shape on a worksheet. Aspose.Cells provides the [Shape.getLeftToCorner()](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#LeftToCorner) and [Shape.getTopToCorner()](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#TopToCorner) properties for this purpose. These properties return the absolute position of a shape in a worksheet in pixels.
+Sometimes, you need to know the absolute position of a shape on a worksheet. Aspose.Cells provides the [**Shape.getLeftToCorner()**](https://apireference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) and [**Shape.getTopToCorner()**](https://apireference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) properties for this purpose. These properties return the absolute position of a shape in a worksheet in pixels.
 
-{{% /alert %}} 
+{{% /alert %}}
+
 #### **Explanation of the Shape.getLeftToCorner() and Shape.getTopToCorner() properties**
-This screenshot explains what distances the [Shape.getLeftToCorner()](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#LeftToCorner) and [Shape.getTopToCorner()](https://apireference.aspose.com/java/cells/com.aspose.cells/shape#TopToCorner) properties measure.
 
-**Measuring absolute position** 
+This screenshot explains what distances the [**Shape.getLeftToCorner()**](https://apireference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) and [**Shape.getTopToCorner()**](https://apireference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) properties measure.
+
+**Measuring absolute position**
 
 ![todo:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 
@@ -21,7 +23,7 @@ The following sample code displays the absolute position of the first shape in a
 
 {{< highlight java >}}
 
- Absolute Position of this Shape is (320, 180)
+Absolute Position of this Shape is (320, 180)
 
 {{< /highlight >}}
 
