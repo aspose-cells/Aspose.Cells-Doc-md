@@ -26,7 +26,7 @@ In this article, we create a console application in Visual Studio.NET, and sort 
 
 {{% alert color="primary" %}}
 
-All [Aspose](http://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
+All [Aspose](https://www.aspose.com/) components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.
 
 {{% /alert %}}
 
