@@ -5,22 +5,21 @@ weight: 90
 url: /net/get-worksheet-of-the-chart/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [Chart.Worksheet](https://apireference.aspose.com/net/cells/aspose.cells.charts/chart/properties/worksheet) property which returns the reference of the worksheet that contains the chart.
+Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells provides the [**Chart.Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) property which returns the reference of the worksheet that contains the chart.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-The following example shows how to use the [Chart.Worksheet](https://apireference.aspose.com/net/cells/aspose.cells.charts/chart/properties/worksheet) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [Chart.Worksheet](https://apireference.aspose.com/net/cells/aspose.cells.charts/chart/properties/worksheet) property.
+The following example shows how to use the [**Chart.Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) property.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
-
 
 Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
 
 {{< highlight java >}}
 
- Sheet Name: Portfolio
+Sheet Name: Portfolio
 
 Chart's Sheet Name: Portfolio
 
