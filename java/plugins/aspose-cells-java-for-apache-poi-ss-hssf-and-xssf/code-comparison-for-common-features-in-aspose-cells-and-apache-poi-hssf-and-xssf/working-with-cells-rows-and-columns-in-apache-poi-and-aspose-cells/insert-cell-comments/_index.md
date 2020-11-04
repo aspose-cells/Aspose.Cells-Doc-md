@@ -3,10 +3,13 @@ title: Insert Cell Comments
 type: docs
 weight: 40
 url: /java/insert-cell-comments/
+aliases:
+    - /java/insert-cell-comments-html/
 ---
 
 ## **Aspose.Cells - Insert Cell Comments**
-Add a comment to a cell by calling the Shapes collection's addComments method (encapsulated in the Worksheet object). The new Comment object can be accessed from the Comments collection by passing the comment index. After accessing the Comment object, customize the comment note by using the COmment object's setNote method.
+
+Add a comment to a cell by calling the Shapes collection's addComments method (encapsulated in the Worksheet object). The new Comment object can be accessed from the Comments collection by passing the comment index. After accessing the Comment object, customize the comment note by using the Comment object's setNote method.
 
 **Java**
 
@@ -29,7 +32,9 @@ Comment comment = worksheet.getComments().get(commentIndex);
 comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
+
 ## **Apache POI SS - HSSF & XSSF - Insert Cell Comments**
+
 Below examples shows how Comments can be inserted using Apache POI API
 
 **Java**
@@ -77,15 +82,13 @@ comment.setAuthor("Apache POI");
 cell.setCellComment(comment);
 
 {{< /highlight >}}
+
 ## **Download Running Code**
+
 - [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/releases/view/618615)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+
 ## **Download Sample Code**
+
 - [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/addcomments/)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/addcomments)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [Adding Comments](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Comments).
-
-{{% /alert %}}
