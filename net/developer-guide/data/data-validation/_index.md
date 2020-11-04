@@ -117,6 +117,6 @@ The following code snippet demonstrates the use of the [**Validation.AddAreaCel
 
 The source and output excel files are attached for reference.
 
-[Source File](attachments/96764769/96928093.xlsx)
+[Source File](96928093.xlsx)
 
 [Output File](96928220.xlsx)

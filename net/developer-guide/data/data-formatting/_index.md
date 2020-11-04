@@ -3,6 +3,8 @@ title: Data Formatting
 type: docs
 weight: 100
 url: /net/data-formatting/
+aliases:
+    - /net/data-formatting-selected-characters
 ---
 
 ## **Introduction**

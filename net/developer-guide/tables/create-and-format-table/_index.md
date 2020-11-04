@@ -3,6 +3,8 @@ title: Create and Format Table
 type: docs
 weight: 10
 url: /net/create-and-format-table/
+aliases:
+    - /net/format-a-list-object-table/
 ---
 
 ## **Create Table**
