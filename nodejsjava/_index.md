@@ -6,6 +6,7 @@ url: /nodejsjava/
 is_root: true
 aliases:
     - /nodejs/
+    - /node/
 ---
 
 {{% alert color="primary" %}}
