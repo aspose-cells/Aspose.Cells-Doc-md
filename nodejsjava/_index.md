@@ -4,6 +4,8 @@ type: docs
 weight: 50
 url: /nodejsjava/
 is_root: true
+aliases:
+    - /nodejs/
 ---
 
 {{% alert color="primary" %}}
