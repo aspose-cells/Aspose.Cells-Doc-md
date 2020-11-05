@@ -3,6 +3,8 @@ title: Merging and Unmerging Cells
 type: docs
 weight: 140
 url: /java/merging-and-unmerging-cells/
+aliases:
+   - /java/merge-and-unmerge-cells/
 ---
 
 {{% alert color="primary" %}}
@@ -67,7 +69,7 @@ The following example shows how to split the merged cells (C6). The example uses
 
 {{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-UnMergingCellsInWorksheet-UnMergingCellsInWorksheet.java" >}}
 
-### **Related Articles**
+## **Related Articles**
 
 - [Finding and splitting merged cells](/cells/java/detect-merged-cells-in-a-worksheet/).
 - [Merge and splitting a cell range using the Range.merge() and Range.unMerge() methods](/cells/java/merge-or-unmerge-range-of-cells/).
