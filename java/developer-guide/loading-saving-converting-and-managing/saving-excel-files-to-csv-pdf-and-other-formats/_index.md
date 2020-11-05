@@ -3,6 +3,9 @@ title: Saving Excel files to CSV, PDF and other formats
 type: docs
 weight: 35
 url: /java/saving-excel-files-to-csv-pdf-and-other-formats/
+aliases:
+    - /java/different-ways-to-save-files/
+    - /java/convert-excel-workbook-to-pdf/
 ---
 
 {{% alert color="primary" %}}

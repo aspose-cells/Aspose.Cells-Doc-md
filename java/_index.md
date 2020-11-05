@@ -4,6 +4,8 @@ type: docs
 weight: 20
 url: /java/
 is_root: true
+aliases:
+    - /java/documentation/
 ---
 
 {{% alert color="primary" %}}
