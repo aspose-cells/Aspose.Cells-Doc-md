@@ -5,10 +5,10 @@ weight: 340
 url: /net/applying-text-alignment-to-partial-text-inside-the-textbox/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-You can change the text alignment of partial text inside TextBox shape using the appropriate Html text.
+You can change the text alignment of partial text inside TextBox shape using the appropriate HTML text.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-TextBox-ApplyPartialTextAlignment-1.cs" >}}
+{{< gist "aspose-com-gists" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-TextBox-ApplyPartialTextAlignment-1.cs" >}}

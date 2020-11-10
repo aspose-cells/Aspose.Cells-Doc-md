@@ -5,11 +5,11 @@ weight: 10
 url: /net/retrieving-sql-connection-data/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Cells can help you retrieve SQL connection data. This includes any and all data that is required to make a connection to the SQL server, for example, **server URL**, **username**, **table name**, **full SQL query**, **query type**, **location of the table**, and **name of the named range** associated with it.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In Microsoft Excel, connect to a database by:
 
@@ -21,6 +21,4 @@ Aspose.Cells provides the Workbook.DataConnections property for retrieving exter
 
 If the ExternalConnection object contains SQL connection data, it can be type-caste to a DBConnection object and its properties can be used to retrieve database command, command type, connection description, connection information, credentials, and so on.
 
-
-
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
+{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageDatabaseConnection-RetrievingSQLConnectionData-1.cs" >}}
