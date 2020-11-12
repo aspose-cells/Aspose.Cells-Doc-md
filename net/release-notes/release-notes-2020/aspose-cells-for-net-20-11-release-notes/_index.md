@@ -1,13 +1,13 @@
 ---
-title: Aspose.Cells for .NET 2020.11 Release Notes
+title: Aspose.Cells for .NET 20.11 Release Notes
 type: docs
 weight: 2
-url: /net/aspose-cells-for-net-2020-11-release-notes/
+url: /net/aspose-cells-for-net-20-11-release-notes/
 ---
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for .NET 2020.11](https://www.nuget.org/packages/Aspose.Cells/2020.11.0).
+This page contains release notes for [Aspose.Cells for .NET 20.11](https://www.nuget.org/packages/Aspose.Cells/20.11.0).
 
 {{% /alert %}}
 
