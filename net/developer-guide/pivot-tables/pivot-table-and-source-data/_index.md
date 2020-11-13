@@ -3,6 +3,8 @@ title: Pivot Table and Source Data
 type: docs
 weight: 30
 url: /net/pivot-table-and-source-data/
+aliases:
+   - /.net/pivot-table-and-source-data/
 ---
 
 ## **Create Pivot Table**
