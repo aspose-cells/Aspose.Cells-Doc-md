@@ -38,7 +38,7 @@ The following is a list of any changes made to the public API such as added, ren
 
 Use FileFormatUtil.DetectFileFormat().IsProtectedByRMS property instead.
 
-### **Deletes obsoleted CellsHelper.DetectLoadFormat() and?CellsHelper.DetectFileFormat() method**
+### **Deletes obsoleted CellsHelper.DetectLoadFormat() and CellsHelper.DetectFileFormat() method**
 
 Use FileFormatUtil.DetectFileFormat() instead.
 
@@ -76,7 +76,7 @@ Clears all xml maps.
 
 ### **Adds SaveFormat.Docx enum.**
 
-Represents that saving as.docx files.
+Represents that saving as .docx files.
 
 ### **Adds ImageType.OfficeCompatibleEmf enum.**
 
