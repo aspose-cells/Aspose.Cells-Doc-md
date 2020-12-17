@@ -37,7 +37,7 @@ This page contains release notes for [Aspose.Cells for .NET 20.12](https://www.n
 |CELLSNET-47764|Number converted to scientific during conversion from XLSX to CSV|Bug|
 |CELLSNET-47740|Text is clipped (first line is not displayed) with custom font when auto-fitting rows |Bug|
 |CELLSNET-47753|Border around icon when converting Excel to PDF|Bug|
-|CELLSNET-47664|XLSX to EMF conversion: Chart with Long Label issue|Bug|
+|CELLSNETCORE-88|SetFontFolders not working correctly with data series labels|Bug|
 |CELLSNET-47739|Legend shows the name of the series instead of the label text|Bug|
 |CELLSNET-47713|Issue with copying sheets when "hidden name definition" exists in Excel file|Bug|
 |CELLSNET-47733|Different behavior between version 20.3 and 20.11|Bug|
