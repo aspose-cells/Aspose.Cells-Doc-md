@@ -146,7 +146,7 @@ The example that follows shows how this works. Running the code below results in
 
 ## **Using Generic List as Nested Object**
 
-Aspose.Cells now also supports using a generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a husband object contains multiple nested wife objects.
+Aspose.Cells now also supports using a generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a Teacher object contains multiple nested student objects.
 
 ![todo:image_alt_text](using-smart-markers_7.png)
 
