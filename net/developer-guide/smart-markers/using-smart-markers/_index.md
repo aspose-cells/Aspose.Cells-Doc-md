@@ -179,7 +179,7 @@ The example that follows shows how this works.
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
+{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
 ## **Using Generic List as Nested Object**
 Aspose.Cells now also supports using generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a husband object contains multiple nested wife objects.
 
