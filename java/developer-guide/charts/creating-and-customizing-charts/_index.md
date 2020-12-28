@@ -9,7 +9,14 @@ url: /java/creating-and-customizing-charts/
 
 It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Aspose.Cells provides many flexible charting objects. This topic discusses Aspose.Cells' charting objects.
 
-### **Things to Know Before Creating a Chart**
+### **Simply Creating a Chart**
+
+It's simple to create a chart with Aspose.Cells with the following example codes:
+
+{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
+
+
+### **Things to Know For Creating a Chart**
 
 Before creating charts it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.
 
