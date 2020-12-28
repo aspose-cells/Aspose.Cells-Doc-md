@@ -13,7 +13,11 @@ It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Asp
 
 ## **Creating Charts**
 
-### **Things to Know Before Creating a Chart**
+### **Simply Creating a Chart**
+
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
+
+### **Things to Know for Creating a Chart**
 
 Before creating charts it's important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.
 
