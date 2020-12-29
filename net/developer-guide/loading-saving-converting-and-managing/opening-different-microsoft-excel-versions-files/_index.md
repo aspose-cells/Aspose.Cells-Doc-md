@@ -61,7 +61,7 @@ It's possible to create encrypted Excel files using Microsoft Excel. To open an 
 
 Aspose.Cells also supports opening password-protected Microsoft Excel 2013 files.
 
-### **Unsupported Excel formats**
+### **Supported Excel formats**
 
 {{% alert color="primary" %}}
 
