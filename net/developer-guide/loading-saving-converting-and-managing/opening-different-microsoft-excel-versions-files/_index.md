@@ -13,7 +13,7 @@ Aspose.Cells can open a range of different Microsoft Excel Versions Files, such 
 
 ## **Opening Files of Different Microsoft Excel Versions**
 
-An application often has to be able to open Microsoft Excel files created in different versions, for example, Microsoft Excel 95,97, or Microsoft Excel 2007/2010. You might need to load a file in any one of several formats, including XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited or TSV, CSV, ODS and so on. Use the constructor, or specify the **[Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook)** class' **[FileFormat](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** type attribute that specifies the format using the **[FileFormatType](https://apireference.aspose.com/cells/net/aspose.cells/fileformattype)** enumeration.
+An application often has to be able to open Microsoft Excel files created in different versions, for example, Microsoft Excel 95,97, or Microsoft Excel 2007/2010/2013/2016/2019 and Office 365 . You might need to load a file in any one of several formats, including XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited or TSV, CSV, ODS and so on. Use the constructor, or specify the **[Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook)** class' **[FileFormat](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** type attribute that specifies the format using the **[FileFormatType](https://apireference.aspose.com/cells/net/aspose.cells/fileformattype)** enumeration.
 
 The **[FileFormatType](https://apireference.aspose.com/cells/net/aspose.cells/fileformattype)** enumeration contains many pre-defined file formats some of which are given below.
 
