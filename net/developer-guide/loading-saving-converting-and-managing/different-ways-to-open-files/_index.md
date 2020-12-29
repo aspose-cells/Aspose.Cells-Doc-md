@@ -17,7 +17,7 @@ Developers can open a Microsoft Excel file using its file path on the local comp
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
-## **Opening a File using a Stream**
+## **Opening a File via a Stream**
 
 It is also possible to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.
 

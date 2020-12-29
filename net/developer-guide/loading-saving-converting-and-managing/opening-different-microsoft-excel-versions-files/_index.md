@@ -7,7 +7,7 @@ url: /net/opening-different-microsoft-excel-versions-files/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells can open a range of different Microsoft Excel Versions Files, such as Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010 XLSX or Encrypted Excel Files.
+Aspose.Cells can open a range of different Microsoft Excel Versions Files, such as Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010/2013/2016/2019 and Office 365 XLSX or Encrypted Excel Files.
 
 {{% /alert %}}
 
@@ -21,11 +21,11 @@ The **[FileFormatType](https://apireference.aspose.com/cells/net/aspose.cells/fi
 | :- | :- |
 |CSV|Represents a CSV file|
 |Excel97To2003|Represents an Excel 97 - 2003 file|
-|Xlsx|Represents an Excel 2007/2010/2013 XLSX file|
-|Xlsm|Represents an Excel 2007/2010/2013 XLSM file|
-|Xltx|Represents an Excel 2007/2010/2013 template XLTX file|
-|Xltm|Represents an Excel 2007/2010/2013 macro-enabled XLTM file|
-|Xlsb|Represents an Excel 2007/2010/2013 binary XLSB file|
+|Xlsx|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 XLSX file|
+|Xlsm|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 XLSM file|
+|Xltx|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 template XLTX file|
+|Xltm|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 macro-enabled XLTM file|
+|Xlsb|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 binary XLSB file|
 |Excel2003XML|Represents a SpreadsheetML file|
 |TSV|Represents a Tab-separated values file|
 |TabDelimited|Represents a Tab Delimited text file|
@@ -47,9 +47,9 @@ To open a Microsoft Excel 97 - 2003 file, use **[LoadOptions](https://apireferen
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel972003Files-1.cs" >}}
 
-### **Opening Microsoft Excel 2007/2010 XLSX Files**
+### **Opening Microsoft Excel 2007/2010/2013/2016/2019 and Office 365  XLSX Files**
 
-To open a Microsoft Excel 2007/2010/2013 format, that is, XLSX or XLSB, specify the file path. You can also use **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** and set the related attribute/options of the **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** class for the template file to be loaded.
+To open a Microsoft Excel 2007/2010/2013/2016/2019 and Office 365 format, that is, XLSX or XLSB, specify the file path. You can also use **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** and set the related attribute/options of the **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** class for the template file to be loaded.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 
@@ -59,12 +59,6 @@ It's possible to create encrypted Excel files using Microsoft Excel. To open an 
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningEncryptedExcelFiles-1.cs" >}}
 
-Aspose.Cells also supports opening password-protected Microsoft Excel 2013 files.
+Aspose.Cells also supports opening password-protected Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365 files.
 
-### **Supported Excel formats**
 
-{{% alert color="primary" %}}
-
-Aspose.Cells supports Microsoft Excel file formats 5.0/95, 97, 2000, 2002/2003, 2007, 2010, 2013, 2016
-
-{{% /alert %}}
