@@ -113,6 +113,8 @@ Pay attention to the mount argument, because, as mentioned earlier, a folder on 
 
 ## Images Supporting Aspose.Cells
 
+- Aspose.Cells for .NET Standard not support EMF and TIFF on Linux.
+
 
 ## More Examples
 
