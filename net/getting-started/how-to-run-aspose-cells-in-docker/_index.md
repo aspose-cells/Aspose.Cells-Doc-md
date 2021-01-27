@@ -118,18 +118,16 @@ Pay attention to the mount argument, because, as mentioned earlier, a folder on 
 
 ## More Examples
 
-1. To run the application in Windows Server 2019
+***1. To run the application in Windows Server 2019***
 
 - Dockerfile
 
 {{< highlight plain >}}
-
 FROM microsoft/dotnet-framework:4.7.2-sdk-windowsservercore-ltsc2019
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Cells.Docker.csproj" -c Release -o /app/publish
 ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
-
 {{< /highlight >}}
 
 - Build Docker Image
