@@ -13,9 +13,9 @@ This page contains release notes for [Aspose.Cells for .NET 21.2](https://www.nu
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|CELLSNET-42427|Support?percentage?of?column?display?format for PivotTable|New Feature|
+|CELLSNET-42427|Support percentage of column display format for PivotTable|New Feature|
 |CELLSNET-44288|Using LightCells API with XLSB files|New Feature|
-|CELLSNET-47817|Update data source when changing Waterfall?chart  to Column chart.|Enhancement|
+|CELLSNET-47817|Update data source when changing Waterfall chart  to Column chart.|Enhancement|
 |CELLSNETCORE-99|Support updating display icon for embedded jpg, zip, msg object.|Enhancement|
 |CELLSNET-47827|Hang on CalculateFormula|Performance|
 |CELLSNET-47832|Cells.DeleteBlankRows never finishes (infinite loop) on a particular worksheet|Performance|
@@ -35,7 +35,7 @@ This page contains release notes for [Aspose.Cells for .NET 21.2](https://www.nu
 |CELLSNET-47813|Strange behavior (and differences) with Treemap chart (and other advanced charts) |Bug|
 |CELLSNET-47815|Threaded Comments are not transferred with the Enclosing shape|Bug|
 |CELLSNET-47816|File size and MaxColumn of the workbook are increased after setting outline border|Bug|
-|CELLSNET-47828|Additional?Ctls stream in XLS file after upgrade to Aspose.Cells for .NET 21.1|Bug|
+|CELLSNET-47828|Additional Ctls stream in XLS file after upgrade to Aspose.Cells for .NET 21.1|Bug|
 |CELLSNET-47838|Native chart color palette is not preserved|Bug|
 |CELLSNET-47845|Borders unexpectedly removed after pasting with DefaultExceptBorders paste type |Bug|
 |CELLSNET-47848|Issue with AutoFilter removal of ListObject or Add Filter Button flag for it|Bug|
@@ -64,7 +64,7 @@ Please use Range.RowCount and Range.ColumnCount to get the total cell count inst
 
 Indicates whether showing filter button of auto filter.
 
-### **Deletes obsoleted? SeriesCollection.SecondCatergoryData property.**
+### **Deletes obsoleted SeriesCollection.SecondCatergoryData property.**
 
 Please use SeriesCollection.SecondCategoryData property instead.
 
