@@ -17,6 +17,8 @@ The Aspose.Cells for .NET components do not require Microsoft Excel to be instal
 - Microsoft Windows Server 2003 ( x64, x86)
 - Microsoft Windows Server 2008 ( x64, x86)
 - Microsoft Windows Server 2012 ( x64, x86)
+- Microsoft Windows Server 2016 ( x64, x86)
+- Microsoft Windows Server 2019 ( x64, x86)
 - Microsoft Windows Vista ( x64, x86)
 - Microsoft Windows 7 ( x64, x86)
 - Microsoft Windows 8 ( x64, x86)
@@ -42,6 +44,7 @@ Aspose.Cells for .NET supports .NET and Mono frameworks as follows:
 - .NET Framework 4.7.1
 - .NET Framework 4.7.2
 - .NET Standard 2.0 (.NET Core 2.0/2.1).
+- .NET 5.0
 ### **Mono Framework**
 - Mono 1.2 or newer.
 ## **Development Environments**
