@@ -142,6 +142,73 @@ docker build -t actest .
 docker run --mount type=bind,source=C:\Temp,target=c:\TestOut --rm actest from Docker
 {{< /highlight >}}
 
+
+***2. To run the application  in Linux***
+
+- Write a simple program that set font folder , creates a “Hello World!” workbook and saves it.
+
+{{< highlight csharp >}}
+namespace Aspose.Cells.Docker.Fonts
+{
+    using System;
+    using System.IO;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // Set font folders on linux.
+                string[] fonts = { "/Fonts" };
+                FontConfigs.SetFontFolders(fonts, true);
+                // build workbook
+                Workbook workbook = new Workbook();
+                MemoryStream memoryStream = new MemoryStream();
+                workbook.Worksheets[0].Cells[0, 0].PutValue("Hello from Aspose.Cells!!!");
+                Style style = workbook.CreateStyle();
+                style.Font.Name = "Arial";
+                style.Font.Size = 16;
+                workbook.Worksheets[0].Cells[0, 0].SetStyle(style);
+                workbook.Save("/TestOut/TestFontsOut.xlsx");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Saving outfonts.xlsx\t\t[FAILED],{0}", e.Message);
+            }
+           
+        }
+    }
+}
+
+{{< /highlight >}}
+- Dockerfile
+
+{{< highlight plain >}}
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
+WORKDIR /app
+COPY . ./
+RUN apt-get update && \
+    apt-get install -y --allow-unauthenticated libgdiplus libc6-dev
+WORKDIR /app
+COPY . ./
+RUN dotnet publish "Aspose.Cells.Docker.Fonts.csproj" -c Release -o /app/publish
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.Fonts.dll"]
+{{< /highlight >}}
+
+- Build Docker Image
+
+{{< highlight plain >}}
+docker build -t actest .
+{{< /highlight >}}
+
+- Run Docker Image
+
+{{< highlight plain >}}
+docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
+{{< /highlight >}}
+
+
 ## See Also
 
 - [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
