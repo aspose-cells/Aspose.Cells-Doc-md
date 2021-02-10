@@ -5,9 +5,9 @@ weight: 10
 url: /net/aspose-cells-for-ios-via-xamarin-limitations-and-api-differences/
 ---
 
-# **Latest Version of Aspose.Cells for iOS via Xamarin may not Work with Old Xamarin.iOS Version**
+## Latest Version of Aspose.Cells for iOS via Xamarin may not Work with Old Xamarin.iOS Version
 Please note that Aspose.Cells for iOS via Xamarin is always built by using the latest stable versions of Xamarin and Xamarin.iOS platforms. If you face any problems when using Aspose.Cells for iOS via Xamarin in your Xamarin.Android application, please make sure you have the latest Xamarin and Xamarin.iOS versions installed. Sometimes Aspose.Cells for iOS via Xamarin is built by using the latest Xamarin (Xamarin.iOS) version which does not work with older versions of Xamarin.
-# **Aspose.Cells for iOS via Xamarin Limitations**
+## Aspose.Cells for iOS via Xamarin Limitations
 - Inserting images - Not Supported.
 - Creating charts - Not Supported.
 - Setting gradient background - Not Supported.
@@ -25,7 +25,7 @@ Please note that Aspose.Cells for iOS via Xamarin is always built by using the l
 - Adding, preserving or extracting OLE objects from the spreadsheets - Not Supported.
 - Implementing Microsoft Excel 2010 spark lines - Not Supported.
 - Encrypting files - Not Supported.
-# **Public API (namespace) differences**
+## Public API (namespace) differences
 In Aspose.Cells for iOS via Xamarin, Aspose.Cells.Drawing namespace is used instead of System.Drawing in .NET API. The list of affected objects are as follows:
 
 - Aspose.Cells.Drawing.Color

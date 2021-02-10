@@ -13,7 +13,7 @@ The GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows & GridCells.Copy
 
 {{% /alert %}} 
 ## **Copying Rows & Columns**
-If you are not already acquainted with Aspose.Cells.GridWeb component, we strongly suggest you to check the [Introduction to Aspose.Cells.GridWeb](http://www.aspose.com/docs/display/cellsnet/Introduction+of+GridWeb) and detailed article on [How to add Aspose.Cells.GridWeb component in a WebForms application](http://www.aspose.com/docs/display/cellsnet/Creating+Control+on+a+Web+Form).
+If you are not already acquainted with Aspose.Cells.GridWeb component, we strongly suggest you to check the [Introduction to Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/browsers-capabilities/) and detailed article on [How to add Aspose.Cells.GridWeb component in a WebForms application](https://docs.aspose.com/cells/net/add-gridweb-to-web-form/).
 ### **Copying Single Row**
 In order to keep the example simple, the article uses an existing spreadsheet with one row and a simple formula that sums all the values in the row. Here is how the spreadsheet is displayed in the Aspose.Cells.GridWeb interface before copying the row.
 

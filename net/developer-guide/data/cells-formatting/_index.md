@@ -19,7 +19,7 @@ Aspose.Cells provides the [**GetStyle**](https://apireference.aspose.com/cells/n
 
 #### **Adding Borders to a Cell**
 
-Developers can add borders to a cell by using the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**Borders**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection. The border type is passed as an index to the [**Borders**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection. All border types are pre-defined in the [**BorderType**](apireference.aspose.com/cells/net/aspose.cells/bordertype) enumeration.
+Developers can add borders to a cell by using the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**Borders**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection. The border type is passed as an index to the [**Borders**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection. All border types are pre-defined in the [**BorderType**](https://apireference.aspose.com/cells/net/aspose.cells/bordertype) enumeration.
 
 **Border enumeration**
 

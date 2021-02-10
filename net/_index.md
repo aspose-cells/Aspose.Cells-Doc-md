@@ -29,6 +29,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for .NET Release Notes](/cells/net/release-notes/)
 - [Aspose.Cells for .NET Product Page](https://products.aspose.com/cells/net)
 - [Install Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/)
+- [Download Aspose.Cells for .NET](https://downloads.aspose.com/cells/)
 - [Aspose.Cells for .NET API Reference Guide](https://apireference.aspose.com/cells/net)
 - [Aspose.Cells for .NET Free Support Forum](https://forum.aspose.com/c/cells)
 - [Aspose.Cells for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)

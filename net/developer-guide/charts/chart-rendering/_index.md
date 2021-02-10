@@ -27,7 +27,7 @@ It is also possible to render the charts to images with advanced settings. Aspos
 
 ### **Rendering Chart to PDF**
 
-In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.ToPdf**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/indexx) method with the ability to store the resultant PDF on disc path or Stream.
+In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the [**Chart.ToPdf**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) method with the ability to store the resultant PDF on disc path or Stream.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 

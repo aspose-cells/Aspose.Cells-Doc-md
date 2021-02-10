@@ -47,7 +47,7 @@ The following example shows how to copy a worksheet from one workbook to another
 
 ### **Move Worksheets within Workbook**
 
-Aspose.Cells provides a method [**Aspose.Cells.Worksheet.MoveTo()**](https://ahttps://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/moveto) which is used to move a worksheet to another location in the same spreadsheet. The method takes the target worksheet index as a parameter.
+Aspose.Cells provides a method [**Aspose.Cells.Worksheet.MoveTo()**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/moveto) which is used to move a worksheet to another location in the same spreadsheet. The method takes the target worksheet index as a parameter.
 
 The following example shows how to move a worksheet to another location within the workbook.
 

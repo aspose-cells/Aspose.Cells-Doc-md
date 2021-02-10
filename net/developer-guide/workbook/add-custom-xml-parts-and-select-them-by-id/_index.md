@@ -11,7 +11,7 @@ Custom XML Parts are the XML data that is stored inside the Microsoft Excel docu
 
 ## **Add Custom XML Parts and Select them by ID**
 
-The following sample code first adds four Custom XML Parts using [**Workbook.CustomXmlParts.Add()**](https://apireference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add) method. It then sets their IDs using [**CustomXmlPart.ID**](h**ttps://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpart/properties/id**) property. Finally, it finds or selects one of the added Custom XML Part using [**Workbook.CustomXmlParts.SelectByID()**](https://apireference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid) method. Please also see the console output of the code given below for reference.
+The following sample code first adds four Custom XML Parts using [**Workbook.CustomXmlParts.Add()**](https://apireference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add) method. It then sets their IDs using [**CustomXmlPart.ID**](https://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpart/properties/id) property. Finally, it finds or selects one of the added Custom XML Part using [**Workbook.CustomXmlParts.SelectByID()**](https://apireference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid) method. Please also see the console output of the code given below for reference.
 
 ## **Sample Code**
 

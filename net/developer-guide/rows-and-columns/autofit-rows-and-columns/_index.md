@@ -23,13 +23,13 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 
 ### **AutoFit Row in a Range of Cells**
 
-A row is composed of many columns. Aspose.Cells allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of the [**AutoFitRow**](apireference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) method. It takes the following parameters:
+A row is composed of many columns. Aspose.Cells allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of the [**AutoFitRow**](https://apireference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) method. It takes the following parameters:
 
 - **Row index**, the index of the row about to be auto-fitted.
 - **First column index**, the index of the row's first column.
 - **Last column index**, the index of the row's last column.
 
-The [**AutoFitRow**](apireference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) method checks the contents of all the columns in the row and then auto-fits the row.
+The [**AutoFitRow**](https://apireference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) method checks the contents of all the columns in the row and then auto-fits the row.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
