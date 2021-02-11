@@ -16,11 +16,11 @@ Aspose.Cells works independently of Microsoft Office Automation and is developed
 Protecting a workbook does not stop users from editing cells. To protect the data, you must protect the worksheets.
 
 {{% /alert %}} 
-### **Protecting a Workbook**
+## **Protecting a Workbook**
 To open an existing Microsoft Excel file, protect the workbook with structure and Windows attributes and save the file.
 
 Below are parallel code snippets for VSTO (C#, VB) and Aspose.Cells for .NET (C#, VB) that show how to protect a workbook.
-#### **VSTO**
+### **VSTO**
 **C#**
 
 {{< highlight csharp >}}
@@ -78,7 +78,7 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-#### **Aspose.Cells for .NET**
+### **Aspose.Cells for .NET**
 **C#**
 
 {{< highlight csharp >}}
@@ -111,9 +111,9 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-### **Unprotecting a Workbook**
+## **Unprotecting a Workbook**
 To unprotect a workbook, use the following lines of code for VSTO (C#, VB) and Aspose.Cells for .NET (C#, VB).
-#### **VSTO**
+### **VSTO**
 **C#**
 
 {{< highlight csharp >}}
@@ -127,7 +127,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 {{< /highlight >}}
 
 
-#### **Aspose.Cells for .NET**
+### **Aspose.Cells for .NET**
 **C#**
 
 {{< highlight csharp >}}

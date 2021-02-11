@@ -10,9 +10,9 @@ url: /net/binding-worksheet-to-a-customized-collection-object-using-gridweb/
 The Microsoft .NET Framework offers many collection classes but sometimes they don't fulfill the development requirements so developers create **custom collections**, and may require to bind such custom collections with Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
-### **Binding a Worksheet with a Custom Collection**
+## **Binding a Worksheet with a Custom Collection**
 To illustrate this feature, this article goes through how to create a sample application, step by step. First, create a custom collection and then use that collection to binding with a worksheet.
-#### **Step 1: Creating a Custom Record**
+### **Step 1: Creating a Custom Record**
 Before creating a custom collection, create a class to hold the custom records that will be stored in the collection. The purpose of this article is to give an idea of how to create your own custom collections and bind them with Aspose.Cells.GridWeb, so how you create the custom record is up to you.
 
 The example below uses the MyCustomRecord class which contains five private fields and five public properties that control access to the private fields. Here is the structure of properties:
@@ -106,7 +106,7 @@ public class MyCustomRecord
 }
 
 {{< /highlight >}}
-#### **Step 2: Creating a Custom Collection**
+### **Step 2: Creating a Custom Collection**
 Now, create a custom collection to add customer records to and access them from. To make it simple, this example uses the MyCollection class which contains a readonly indexer. Using this indexer, we can get any custom record stored in the collection.
 
 **C#**
@@ -142,7 +142,7 @@ public class MyCollection : CollectionBase
 }
 
 {{< /highlight >}}
-#### **Step 3: Binding a Worksheet with a Custom Collection**
+### **Step 3: Binding a Worksheet with a Custom Collection**
 The process of creating a custom collection is complete. Now use the custom collection to bind to a worksheet in Aspose.Cells.GridWeb . First create a web form, add the GridWeb control to it and add some code.
 
 To use the custom collection for binding, first create an object of the MyCollection class (created in the above step).
@@ -233,7 +233,7 @@ protected void Page_Load(object sender, EventArgs e)
 }
 
 {{< /highlight >}}
-#### **Step 4: Handling the Worksheet's InitializeNewBindRow Event**
+### **Step 4: Handling the Worksheet's InitializeNewBindRow Event**
 In the above code, you might have noticed an extra line of code used to assign the GridWeb1_InitializeNewBindRow event handler to the worksheet's InitializeNewBindRow. This event is triggered whenever a new bound row is added to the worksheet. We created an event handler for this this event because of the MyCustomRecord object's DateField1 property.
 
 Aspose.Cells.GridWeb automatically initializes **int** and **double** values with **zero (0)** whenever a new bound row is added to the GridWeb control. For dates, we would like the GridWeb control to automatically add the current date from the system. To do so, we have created the GridWeb1_InitializeNewBindRow event handler for the InitializeNewBindRow event.
@@ -261,7 +261,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 }
 
 {{< /highlight >}}
-#### **Step 5: Running the Application**
+### **Step 5: Running the Application**
 Run the application by either pressing **Ctrl+F5** or clicking the **Start** button in VS.NET. The web form is opened in a new browser window. 
 
 **Worksheet bound with a custom collection** 
@@ -291,7 +291,7 @@ After making changes to the data, click **Save** or **Submit** to save your chan
 **Saving changes by clicking Save button** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
-##### **Conclusion**
+## **Conclusion**
 {{% alert color="primary" %}} 
 
 This article showed how to bind a worksheet to a custom collection created. Using Aspose.Cells.GridWeb, developers can bind worksheets to either a database or custom collections via the Worksheets Designer in a GUI mode or through coding. This provides a wide range of options to developers for creating applications.

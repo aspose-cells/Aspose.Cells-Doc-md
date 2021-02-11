@@ -22,7 +22,7 @@ button {{< emoticons/cross >}}, the child view table of that row is expanded dow
 ![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-### **Create Relations for DataTables**
+## **Create Relations for DataTables**
 For example, you use ADO.Net API and extract data from the database tables. To create hierarchical view sheet, you must design a DataSet
 
 object based on some tables and create a relationship between them first. Use the VS.NET's **DataSet Designer** to create the relationship. In 
@@ -51,7 +51,7 @@ For this to work, the following to relationships must be established between the
 The DataSet Designer now looks like this: 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
-#### **Bind Worksheet**
+### **Bind Worksheet**
 Now use the **Worksheets Designer** to set the DataSource and DataMember for the worksheet, and configure the data field binding columns. 
 
 The control automatically adds a + icon for each row that corresponds to a record whose binding object (generally a DataRowView object) has 
@@ -61,7 +61,7 @@ child views. When the + icon is clicked, the record expands to show the child vi
 worksheet to the root parent DataTable Customers. 
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
-#### **Customize the Child Tables Bind Columns**
+### **Customize the Child Tables Bind Columns**
 The control provides an event named GridWeb.BindingChildView which developers use to customize the child tables' bind columns. This example 
 
 needs to display the order details' **UnitPrice** field in a currency format. Add an event handler to change the bind column's number format. 
@@ -115,7 +115,7 @@ End Sub
 
 
 {{< /highlight >}}
-#### **Load Data from Database and Binding**
+### **Load Data from Database and Binding**
 As described in [Binding Worksheet to a DataSet using GridWeb's Worksheets Designer](/cells/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
 you need to add code to the Page_Load block to load data to the DataSet from a database, and bind the DataSet to the sheet in the 
 

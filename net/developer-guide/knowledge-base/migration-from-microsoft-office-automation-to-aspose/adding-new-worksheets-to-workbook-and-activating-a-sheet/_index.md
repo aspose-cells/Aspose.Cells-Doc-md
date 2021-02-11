@@ -14,7 +14,7 @@ Similarly, you may need a specific worksheet to be active and viewed first when 
 Adding worksheets and setting which sheet is active are common and simple tasks that developers need to know how to perform. In this article, we carry out these tasks using [VSTO](/cells/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) and [Aspose.Cells for .NET](/cells/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
-### **Adding Worksheets and Activating a Sheet**
+## **Adding Worksheets and Activating a Sheet**
 For the purposes of this migration tip:
 
 1. Add new worksheets to an existing Microsoft Excel file.
@@ -23,7 +23,7 @@ For the purposes of this migration tip:
 1. Save as Microsoft Excel file.
 
 Below, are parallel code snippets for VSTO (C#, VB) and Aspose.Cells for .NET (C#, VB), that show how to achieve these tasks.
-#### **VSTO**
+### **VSTO**
 **C#**
 
 {{< highlight csharp >}}
@@ -183,7 +183,7 @@ excelApp.Quit()
 
 
 {{< /highlight >}}
-#### **Aspose.Cells for .NET**
+### **Aspose.Cells for .NET**
 **C#**
 
 {{< highlight csharp >}}
