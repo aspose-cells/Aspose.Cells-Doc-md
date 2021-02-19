@@ -20,7 +20,7 @@ The limitations are shown below:
 - **Number of Opened Files** (Aspose.Cells)
   When running your program, you can only open 100 Excel files using Aspose.Cells library. If your application exceeds this number, an exception will be thrown.
 - **Config file settings** (Aspose.Cells.GridWeb)
-  You can't re-specify the script path by adding the following lines of code into the configuration section (e.g in the web.config file). The acw_client is a folder that contains files and Aspose.Cells.GridWeb uses this folder to manage its internal configuration, it has scripts files, image files and other files to specify GridWeb's behavior and set other operations. The config file is used to prevent the control from using the embedded client resources (images, scripts, etc.) which is useful in some cases / scenarios. Moreover, this configuration settings in the web.config file will only take effect with the LICENSED version of the control.
+  You can't re-specify the script path by adding the following lines of code into the configuration section (e.g in the web.config file). The acw_client is a folder that contains files and Aspose.Cells.GridWeb uses this folder to manage its internal configuration, it has script files, image files and other files to specify GridWeb's behavior and set other operations. The config file is used to prevent the control from using the embedded client resources (images, scripts, etc.) which is useful in some cases / scenarios. Moreover, this configuration settings in the web.config file will only take effect with the LICENSED version of the control.
 
 **XML**
 

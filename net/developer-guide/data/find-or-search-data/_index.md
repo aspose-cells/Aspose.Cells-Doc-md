@@ -55,6 +55,6 @@ It is possible to find specified values using the [**Cells**](https://apireferen
 
 It is possible to find specified string values by calling the same [**Find**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) method found in the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection with various [**FindOptions**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions).
 
-Specify the [**FindOptions.LookInType**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) and [**FindOptions.LookAtType**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) properties. The following example code illustrates how to use these properties to find cells with various number or strings at the **beginning** or at the **center** or at the **end** of the cell's string.
+Specify the [**FindOptions.LookInType**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) and [**FindOptions.LookAtType**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) properties. The following example code illustrates how to use these properties to find cells with various number of strings at the **beginning** or at the **center** or at the **end** of the cell's string.
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}

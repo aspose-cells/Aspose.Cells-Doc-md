@@ -34,7 +34,7 @@ Some of the autofilter options are:
 |Custom|Customize filter criteria like contains/not contains|
 |Filter by Color|Filters based on filled color|
 |Date Filters|Filters rows based on different criteria on date|
-|Number Filters|Different type of filter on numbers like comparison, averages and Top 10 etc.|
+|Number Filters|Different types of filter on numbers like comparison, averages and Top 10 etc.|
 |Text Filters|Different filters like begins with, ends with, contains etc,|
 |Blanks/Non Blanks|These filters can be implemented through Text Filter Blank|
 

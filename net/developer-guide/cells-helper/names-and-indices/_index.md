@@ -15,7 +15,7 @@ Unlike Microsoft Excel, where row and column indices start from 1, Aspose.Cells 
 
 {{% /alert %}} 
 
-The following sample code illustrates how to use CellsHelper.CellIndexToName to access the a cell's name given a known row and column index. The code generates the following output.
+The following sample code illustrates how to use CellsHelper.CellIndexToName to access the cell's name given a known row and column index. The code generates the following output.
 
 
 

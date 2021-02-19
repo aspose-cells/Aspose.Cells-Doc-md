@@ -22,9 +22,8 @@ When **UAC** mode is enabled, every program that you run will be given only "sta
 
 Following are some ways to achieve this.
 ### **Using Command Line**
-\1. Search for cmd.exe into your windows directory, then right click on it and select Run as... **Administrator**
-
-\2. Now, Run the following command on command prompt: msiexec /i <your path>/Aspose.Cells.msi and Enter.
+1. Search for cmd.exe into your windows directory, then right click on it and select Run as... **Administrator**
+2. Now, Run the following command on command prompt: msiexec /i <your path>/Aspose.Cells.msi and Enter.
 ### **Using Control Panel**
 - Click Start
 - Click Control Panel

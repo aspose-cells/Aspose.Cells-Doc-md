@@ -5,7 +5,7 @@ weight: 180
 url: /net/adjust-workbook-compression-level/
 ---
 
-## **Adjust workbook compression level**
+## **Adjust Workbook Compression Level**
 
 Developers can adjust the compression level of the workbook when working with larger workbooks. Developers may prioritize smaller file sizes over processing time or vice versa. Aspose.Cells provides **[OoxmlCompressionType](https://apireference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumeration which you can use to set the compression level of the workbook. The **[OoxmlCompressionType](https://apireference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumeration provides the following members.
 

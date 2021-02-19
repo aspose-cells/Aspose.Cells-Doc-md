@@ -11,11 +11,10 @@ This technical tip will illustrate how you can use formulas/functions to process
 
 {{% /alert %}}
 
-## **Description**
 
-## **Using Formulas/Functions to Process Data**
 
-### **1) VSTO**
+
+## **1) VSTO**
 
 **C#**
 
@@ -87,7 +86,7 @@ void AddingCellFormula()
 
 {{< /highlight >}}
 
-### **2) Aspose.Cells for .NET**
+## **2) Aspose.Cells for .NET**
 
 **C#**
 

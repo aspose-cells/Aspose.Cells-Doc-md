@@ -24,7 +24,7 @@ In this article, we compare VSTO with Aspose.Cells for .NET.
 [Aspose.Cells](https://products.aspose.com/cells/net) is an independent Microsoft Excel spreadsheet manipulation API that reads and writes Microsoft Excel spreadsheets without Microsoft Excel installed on the client or server side. Aspose.Cells is feature rich component and offers much more than just basic data export. With Aspose.Cells developers can export data, format spreadsheets, import images, import create and manipulate charts, stream Excel data, and save to various formats. To find out more about the product and its features:
 
 - Check out the [Aspose.Cells documentation](https://docs.aspose.com/cells/net/).
-- See how the it works in the [online demos](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
+- See how it works in the [online demos](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
 - Try it out: [download](https://downloads.aspose.com/cells/net) an evaluation version for free.
 
 This article compares VSTO and Aspose.Cells on different aspects related to Microsoft Excel. The list is not complete but it represents a few issues that decision makers must understand before making a final decision before adopting an approach.
@@ -124,7 +124,7 @@ If the loop is extended, say to fill 10,000*20 cells, Aspose.Cells takes about 5
 
 ## **Conclusion**
 
-If you are considering using an Microsoft Office technology in a business solution, first become familiar with alternatives available. Perform some tests based on different products and expose them to a variety of real world conditions such as load and stress to see how well they perform.
+If you are considering to use a Microsoft Office technology in a business solution, first become familiar with alternatives available. Perform some tests based on different products and expose them to a variety of real world conditions such as load and stress to see how well they perform.
 
 Aspose.Cells is a stable and mature product with worldwide customer base, and scalable enough to perform well under heavy loads.
 

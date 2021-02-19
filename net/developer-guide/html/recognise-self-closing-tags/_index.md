@@ -1,5 +1,5 @@
 ---
-title: Recognise self closing tags
+title: Recognise Self Closing Tags
 type: docs
 weight: 120
 url: /net/recognise-self-closing-tags/

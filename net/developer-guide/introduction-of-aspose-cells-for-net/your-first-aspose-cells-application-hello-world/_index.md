@@ -23,7 +23,7 @@ The steps below creates the Hello World application using the Aspose.Cells API:
 1. Insert the words **Hello World!** into a cell accessed.
 1. Generate the modified Microsoft Excel file.
 
-The implementation of above steps is demonstrated in the examples below.
+The implementation of the above steps is demonstrated in the examples below.
 
 ## **Code Sample: Creating a New Workbook**
 

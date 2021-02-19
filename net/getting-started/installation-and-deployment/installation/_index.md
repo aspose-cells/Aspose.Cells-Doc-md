@@ -50,7 +50,7 @@ If your VS.NET 2010 project's target framework is ".NET Framework 4" or other, t
 
 {{% /alert %}} 
 ## **Referencing Aspose.Cells Grid Controls from a .NET project**
-To use a grid control in your application, add a reference to it. To reference a grid control in Visual studio do the following:
+To use a grid control in your application, add a reference to it. To reference a grid control in Visual Studio do the following:
 
 - In **Solution Explorer**, expand the project node you want to add a reference to.
 - Right-click the **References** node for the project and select **Add Reference** from the menu.

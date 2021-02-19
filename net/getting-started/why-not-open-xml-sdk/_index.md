@@ -9,7 +9,7 @@ url: /net/why-not-open-xml-sdk/
 
 We sometimes hear this question:
 
-**. Why should we use Aspose products rather than the free Open XML SDK?**
+**Why should we use Aspose products rather than the free Open XML SDK?**
 
 This question is easy to answer: features and functionality.
 

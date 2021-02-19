@@ -24,4 +24,4 @@ The following code snippet demonstrates changing font settings from client side 
 
 ## Sample Code
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples.GridWeb-CSharp-Worksheets-UpdateFontFromClientSide-1.aspx" >}}
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples.GridWeb-CSharp-Worksheets-UpdateFontFromClientSide.aspx" >}}
