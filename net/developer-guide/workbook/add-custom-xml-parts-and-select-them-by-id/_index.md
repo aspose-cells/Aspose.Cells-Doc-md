@@ -15,7 +15,7 @@ The following sample code first adds four Custom XML Parts using [**Workbook.Cu
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-UsingCustomXmlParts-UsingCustomXmlParts.cs" >}}
+{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-AddCustomXMLPartsAndSelectThemByID.cs" >}}
 
 ## **Console Output**
 
