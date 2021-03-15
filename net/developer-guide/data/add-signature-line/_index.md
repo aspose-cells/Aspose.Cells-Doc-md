@@ -7,6 +7,8 @@ url: /net/add-signature-line/
 
 ## **Possible Usage Scenarios**
 
+{{% alert color="primary" %}}
+
 Aspose.Cells provides the [**Picture.SignatureLine**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) property to add the signature line of the worksheet.
 
 {{% /alert %}}
