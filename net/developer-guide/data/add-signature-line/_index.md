@@ -15,7 +15,7 @@ Aspose.Cells provides the [**Picture.SignatureLine**](https://apireference.aspos
 
 ## **Add Signature Line to the worksheet**
 
-The following sample code demonstrated how to make use of [**Picture.SignatureLine**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) property to dd the signature line of the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.
+The following sample code demonstrated how to make use of [**Picture.SignatureLine**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) property to add the signature line of the worksheet. The screenshot shows the effect of the sample code on the sample Excel file after execution.
 
 ![todo:image_alt_text](add-signature-line.png)
 
