@@ -196,5 +196,12 @@ The following sample code explains the use of HTML property of the Smart Markers
 
 
 {{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-UsingHTMLProperty-1.cs" >}}
+
+## **Not line by line **
+The current default processing method is to process smartmaker line by line. But sometimes the smart markers of the same data table needs to be processed together, no matter 
+if they are in the same row or not, then you have to specify a named range "_CellsSmartMarkers" and specify  WorkbookDesigner.LineByLine as false before calling the processing.
+|![todo:image_alt_text](using-smart-markers_11.png)|
+{{< gist "aspose-cells" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-SmartMarkers-LayerByLayer.cs" >}}
+
 ## **Getting Notifications while Merging Data with Smart Markers**
 Sometimes, it may be required to get the notifications about the cell reference or the particular Smart Marker being processed before the completion. This can be achieved using the WorkbookDesigner.CallBack property and ISmartMarkerCallBack
