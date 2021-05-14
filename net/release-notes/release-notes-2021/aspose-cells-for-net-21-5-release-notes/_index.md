@@ -324,5 +324,5 @@ Inserts a range with shift option.
 ### **Adds GridCells.DeleteRange() method.**
 
  
-Deletes?a range with shift option.
+Deletes a range with shift option.
 
