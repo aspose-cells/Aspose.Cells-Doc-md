@@ -1,7 +1,7 @@
 ---
 title: Linux
 type: docs
-weight: 9
+weight: 10
 url: /cpp/release-notes-2021/linux/
 ---
 
