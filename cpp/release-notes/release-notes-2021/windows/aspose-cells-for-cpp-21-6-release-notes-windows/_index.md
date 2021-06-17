@@ -14,3 +14,5 @@ This page contains release notes for Aspose.Cells for C++ 21.6 for Windows.
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |CELLSCPP-292|Optimize the search results of Aspose.Cells.C++ for Windows in nuget  |Improvement|
+|CELLSCPP-283|Fix ArrayList constructor bug   |Bug|
+|CELLSCPP-284|PathHelper initialization issue |Bug|
