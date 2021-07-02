@@ -29,7 +29,7 @@ The implementation of the above steps is demonstrated in the examples below.
 
 The following example creates a new workbook from the scratch, writes Hello World! into cell A1 on the first worksheet and saves the Excel file.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
+{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
 ## **Code Sample: Opening an Existing File**
 
