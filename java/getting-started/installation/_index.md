@@ -57,7 +57,7 @@ Then define Aspose.Cells for Java API dependency in your pom.xml as follows (Th
 
         </dependency>
 
-		<dependency>
+        <dependency>
 
             <groupId>org.bouncycastle</groupId>
 
@@ -67,7 +67,7 @@ Then define Aspose.Cells for Java API dependency in your pom.xml as follows (Th
 
         </dependency>        
 
-		<dependency>
+        <dependency>
 
             <groupId>org.bouncycastle</groupId>
 
