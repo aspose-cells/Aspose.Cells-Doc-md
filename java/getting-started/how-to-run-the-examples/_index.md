@@ -6,7 +6,7 @@ url: /java/how-to-run-the-examples/
 ---
 
 ## **Download from GitHub**
-All examples of Aspose.Cells for JAVA are hosted on [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java). You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
+All examples of Aspose.Cells for Java are hosted on [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java). You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
 
 Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
 

@@ -10,13 +10,13 @@ url: /java/feature-overview/
 The tables below summarize Aspose.Cells for Java features and provide links to detailed feature descriptions.
 
 {{% /alert %}} 
-##### **Supported Platforms**
+## **Supported Platforms**
 Aspose.Cells for Java product covers most of the popular development environments and deployment platforms that support Java.
 
 |**Feature**|**Description**|
 | :- | :- |
 |[Java](https://docs.asposeptyltd.com/display/cellsjava/Installation#Installation-SystemRequirements)|Aspose.Cells for Java is available for 1.6, 1.7 and 1.8 and will run in any place where Java is installed.|
-##### **File Formats and Conversions**
+## **File Formats and Conversions**
 Many customers worldwide rely on the thorough document import and export features provided by Aspose.Cells for Java.
 
 |**Feature**|**Description**|**Aspose.Cells for Java**|
@@ -30,7 +30,7 @@ Many customers worldwide rely on the thorough document import and export feature
 |Adobe Portable Document Format (PDF)|Convert any Spreadsheet to PDF with high fidelity.|Yes|
 |Tab Delimited|Load and save documents in the tab delimited file format.|Yes|
 |Plain Text (TXT)|Easily extract text by saving in plain text format.|Yes|
-##### **Rendering and Printing**
+## **Rendering and Printing**
 Aspose.Cells for Java now provides high fidelity rendering of spreadsheet pages.
 
 |**Feature**|**Aspose.Cells for Java**|
@@ -41,7 +41,7 @@ Aspose.Cells for Java now provides high fidelity rendering of spreadsheet pages.
 |Specify image resolution, quality, compression and other options.|Yes|
 |Print spreadsheets using the .NET printing infrastructure. The component has built-in print method to print <br>worksheets as shown in Microsoft Excel's print preview.|Yes|
 |Update page numbers and other fields before rendering or printing.|Yes|
-##### **Spreadsheet Content Features**
+## **Spreadsheet Content Features**
 Aspose.Cells for Java provides a rich object model that consists of over 100 public classes/interfaces, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded spreadsheets. Some key features are given in the below table.
 
 |**Feature**|**Aspose.Cells for Java**|
@@ -80,7 +80,7 @@ Aspose.Cells for Java provides a rich object model that consists of over 100 pub
 |Add, preserve or extract OLE objects from the spreadsheets.|Yes|
 |Implement Microsoft Excel 2010 sparklines|Yes|
 |Encrypt files|Yes|
-##### **Spreadsheet Formatting Features**
+## **Spreadsheet Formatting Features**
 Aspose.Cells for Java provides detailed programmatic access to formatting properties of all spreadsheet elements.
 
 |**Feature**|**Aspose.Cells for Java**|
@@ -94,7 +94,7 @@ Aspose.Cells for Java provides detailed programmatic access to formatting proper
 |Apply different border settings on cells.|Yes|
 |Apply different background patterns on cells.|Yes|
 |Apply Format settings on a worksheet, row, column or a range of cells etc.|Yes|
-##### **PageSetup Features**
+## **PageSetup Features**
 You can use Aspose.Cells for Java to implement page setup options for worksheets.
 
 |**Feature**|**Aspose.Cells for Java**|

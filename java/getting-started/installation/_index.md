@@ -41,7 +41,7 @@ Then define Aspose.Cells for Java API dependency in your pom.xml as follows (Th
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>20.10</version>
+            <version>21.6</version>
 
         </dependency>
 
@@ -51,7 +51,7 @@ Then define Aspose.Cells for Java API dependency in your pom.xml as follows (Th
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>20.10</version>
+            <version>21.6</version>
 
             <classifier>javadoc</classifier>
 
@@ -62,6 +62,16 @@ Then define Aspose.Cells for Java API dependency in your pom.xml as follows (Th
             <groupId>org.bouncycastle</groupId>
 
             <artifactId>bcprov-jdk15on</artifactId>
+
+            <version>1.60</version>
+
+        </dependency>        
+
+		<dependency>
+
+            <groupId>org.bouncycastle</groupId>
+
+            <artifactId>bcpkix-jdk15on</artifactId>
 
             <version>1.60</version>
 
