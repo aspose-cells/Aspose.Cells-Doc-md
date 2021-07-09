@@ -10,4 +10,4 @@ Aspose.Cells allows you to insert an OLE object inside the worksheet. Please use
 ## **Inserting OLE Objects into the Worksheet**
 The following sample code creates the workbook object and inserts the Ole object inside the first worksheet and saves it as [output Excel file](66519074.xlsx). Please see the [Aspose Logo](66519075.png) used as image bytes and [input Excel file](66519081.xlsx) used as Ole object data inside the code for reference.
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "DrawingObjects-InsertingOLEObjectsIntoWorksheet.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-InsertingOLEObjectsIntoWorksheet.cpp" >}}

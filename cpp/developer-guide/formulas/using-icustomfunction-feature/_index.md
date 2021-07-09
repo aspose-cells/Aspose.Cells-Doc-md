@@ -12,7 +12,7 @@ The ICustomFunction interface allows you to add custom formula calculation funct
 ## **Using ICustomFunction Feature**
 The following sample code implements the ICustomFunction interface which evaluates and returns the values of the two custom functions i.e. MySampleFunc() and YourSampleFunc(). These custom functions are inside the cells A1 and A2 respectively. Then it calls the IWorkbook.CalculateFormula(false, ICustomFunction) method to invoke the implementation of ICustomFunction.CalculateCustomFunction() method. Then, it prints the values of A1 and A2 on console which are actually the values returned by ICustomFunction.CalculateCustomFunction(). Please see the Console Output of the sample code below for more help.
 ## **Sample Code**
-{{< gist "aspose-cells" "9f351edfebf7c0f682eedd4dec8eb98c" "Examples-CellsCPP-Formulas-UsingICustomFunctionFeature.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-UsingICustomFunctionFeature.cpp" >}}
 
 
 ## **Console Output**

@@ -15,7 +15,7 @@ Aspose.Cells provides a class [IWorkbook](https://apireference.aspose.com/cpp/ce
 
 Aspose.Cells allows developers to add data to the cells in worksheets by calling the [ICell](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/) class [PutValue](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9) method. Aspose.Cells provides overloaded versions of the [PutValue](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9) method that lets developers add different kinds of data to cells. Using these overloaded versions of the [PutValue](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9) method, it is possible to add a Boolean, string, double, integer or date/time, etc. values to the cell.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-AddAndRetrieveData-AddingDataToCells.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-AddingDataToCells.cpp" >}}
 ### **Improving Efficiency**
 If you use [PutValue](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9) method to put a large amount of data into a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
 ## **Retrieving Data from Cells**
@@ -44,4 +44,4 @@ The type of data contained in a cell can also be checked by using the [ICell](ht
 |CellValueType_IsUnknown|Specifies that cell value is unknown.|
 You can also use the above pre-defined cell value types to compare with the Type of the data present in each cell.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells.cpp" >}}

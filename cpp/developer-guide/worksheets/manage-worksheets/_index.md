@@ -25,12 +25,12 @@ To create a new Excel file programmatically:
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-ManageWorksheets-AddingWorksheetsToNewExcelFile.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-AddingWorksheetsToNewExcelFile.cpp" >}}
 ## **Accessing Worksheets using Sheet Index**
 The following sample code shows how to access or get any worksheet by specifying its index.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-ManageWorksheets-AccessingWorksheetsUsingSheetIndex.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-AccessingWorksheetsUsingSheetIndex.cpp" >}}
 ## **Removing Worksheets using Sheet Index**
 Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the [RemoveAt](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/#addabcc7d7d76874694018fb3ba37b72c) method that takes the sheet index of the worksheet instead of its sheet name.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex.cpp" >}}

@@ -16,7 +16,7 @@ The following screenshot shows the [output Excel file](66519073.xlsx) after the 
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_2.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Charts-ReadAndManipulateExcel2016Charts.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-ReadAndManipulateExcel2016Charts.cpp" >}}
 ## **Console Output**
 Here is the console output of the above sample code when executed with the provided sample Excel file.
 

@@ -44,7 +44,7 @@ In the example given below, we have created the same [IListObject](https://apire
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-C-main-CreatingListObjects.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-CreatingListObjects.cpp" >}}
 ## **Format a Table**
 To manage and analyze a group of related data, it is possible to turn a range of cells into a list object (also known as an Excel table). A table is a series of rows and columns that contain related data managed independently from the data in other rows and columns. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your list object data quickly. You can add a total row (a special row in a list that provides a selection of aggregate functions useful for working with numerical data) to the list object that provides a drop-down list of aggregate functions for each totals row cell. Aspose.Cells provides options for creating and managing lists (or tables).
 ### **Formatting a List Object**
@@ -56,4 +56,4 @@ The example below adds sample data to a worksheet, adds an [IListObject](https:/
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-C-main-FormatTable.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-FormatTable.cpp" >}}

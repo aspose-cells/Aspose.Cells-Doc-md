@@ -21,7 +21,7 @@ It is possible to set the height of a single row by calling the [ICells](https:/
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfRow.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfRow.cpp" >}}
 
 
 #### **Setting the Height of All Rows in a Worksheet**
@@ -29,7 +29,7 @@ If developers need to set the same row height for all rows in the worksheet, the
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfAllRowsInWorksheet.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfAllRowsInWorksheet.cpp" >}}
 ## **Working with Columns**
 ### **Setting the Width of a Column**
 Set the width of a column by calling the [ICells](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/) collection's [SetColumnWidth](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ab1c6a4e89760d2a022d5bfba8bc40987) method. The [SetColumnWidth](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ab1c6a4e89760d2a022d5bfba8bc40987) method takes the following parameters:
@@ -39,10 +39,10 @@ Set the width of a column by calling the [ICells](https://apireference.aspose.co
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingWidthOfColumn.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingWidthOfColumn.cpp" >}}
 ### **Setting the Width of All Columns in a Worksheet**
 To set the same column width for all columns in the worksheet, use the [ICells](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/) collection's [SetStandardWidth](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a48f5dbccc3bf4bb9e6e882094b500bd7) method.
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingWidthOfAllColumnsInWorksheet.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingWidthOfAllColumnsInWorksheet.cpp" >}}

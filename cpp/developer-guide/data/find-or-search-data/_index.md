@@ -20,7 +20,7 @@ The following sample code illustrates the usage of the above methods using the [
 
 ![todo:image_alt_text](find-or-search-data_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-FindOrSearchData.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData.cpp" >}}
 ## **Console Output**
 This is the console output of the above sample code when executed with the given [sample excel file](21266434.xlsx).
 

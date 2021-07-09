@@ -31,7 +31,7 @@ The file format should be PDF so select relevant PDF (a pre-defined value) fro
 
 Please see the following sample code, its [sample Excel file](67338368.xlsx) and [output PDF](67338369.pdf) for your reference.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_DirectConversion.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_DirectConversion.cpp" >}}
 ### **Advanced Conversion**
 You may also opt to use the [IPdfSaveOptions](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/) class to set different attributes for the conversion. Setting different properties of the [IPdfSaveOptions](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/) class gives you control over the print, font, security and compression settings for the output PDF. The most important property is [SetCompliance](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/#a2158ff23d7c071f8224b1cd063233c07) which enables you to save the Excel files to PDF/A compliant PDF files.
 #### **Saving Workbook to PDF/A Complied Files**
@@ -39,10 +39,10 @@ The following code snippet demonstrates how to use the [IPdfSaveOptions](https:
 
 Please see the following sample code and its [output PDF](67338370.pdf) for your reference.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_A_CompliedFiles.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_A_CompliedFiles.cpp" >}}
 #### **Set the PDF Creation Time**
 With the [IPdfSaveOptions](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/) class, you can get or set the PDF creation time.
 
 Please see the following sample code and its [output PDF](67338371.pdf) for your reference.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime.cpp" >}}

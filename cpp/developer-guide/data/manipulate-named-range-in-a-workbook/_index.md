@@ -10,7 +10,7 @@ Aspose.Cells supports the manipulation of existing named ranges. All the existin
 ## **Manipulate Named Range in a Workbook**
 The following sample code reads the first named-range inside the [source excel file](23167008.xlsx) and prints its [FullText](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#a5b450ef193365dec035c58280fbe9563) and [RefersTo](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36) properties on the console. After that, it modifies [RefersTo](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36) property and saves the [output excel file](23167009.xlsx).
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-ManipulateNamedRangeInWorkbook.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ManipulateNamedRangeInWorkbook.cpp" >}}
 ## **Console Output**
 The following console output prints the values of [FullText](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#a5b450ef193365dec035c58280fbe9563) and [RefersTo](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36) members of the existing *Named Range* in the above code.
 

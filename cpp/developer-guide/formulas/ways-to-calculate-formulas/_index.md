@@ -16,7 +16,7 @@ To calculate the results of formulas, call the Workbook.CalculateFormula() metho
 
 **Sample Code**
 
-{{< gist "aspose-cells" "9f351edfebf7c0f682eedd4dec8eb98c" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-AddingFormulasAndCalculatingResults.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-AddingFormulasAndCalculatingResults.cpp" >}}
 ## **Direct Calculation of Formula**
 Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
 
@@ -36,7 +36,7 @@ Result of Sum(A1:A2): 50
 
 **Sample Code**
 
-{{< gist "aspose-cells" "9f351edfebf7c0f682eedd4dec8eb98c" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-DirectCalculationOfFormula.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-DirectCalculationOfFormula.cpp" >}}
 ## **Calculating Formulas Once Only**
 When Workbook.CalculateFormula() is called to calculate the values of formulas in a workbook template, Aspose.Cells creates a calculating chain. It increases performance when formulas are calculated for the second or third time.
 
@@ -48,4 +48,4 @@ Please call Workbook.GetISettings().SetCreateCalcChain() with false parameter. Y
 
 **Sample Code**
 
-{{< gist "aspose-cells" "9f351edfebf7c0f682eedd4dec8eb98c" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-CalculatingFormulasOnceOnly.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-CalculatingFormulasOnceOnly.cpp" >}}

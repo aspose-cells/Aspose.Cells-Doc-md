@@ -37,7 +37,7 @@ You can skip the step that gets the source row height using the **GetRowHeigh** 
 
 
 
-{{< gist "aspose-cells" "9f351edfebf7c0f682eedd4dec8eb98c" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingRows.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingRows.cpp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -62,4 +62,4 @@ This example copies a column from a worksheet and pastes it into a worksheet in 
 
 
 
-{{< gist "aspose-cells" "9f351edfebf7c0f682eedd4dec8eb98c" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingColumns.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-CopyingRowsAndColumns-CopyingColumns.cpp" >}}

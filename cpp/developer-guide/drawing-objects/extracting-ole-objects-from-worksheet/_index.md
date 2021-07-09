@@ -14,4 +14,4 @@ The following sample code loads the [sample Excel file](66519077.xlsx) which has
 - [outputExtractOleObject.pdf](66519079.pdf)
 - [outputExtractOleObject.docx](66519078.docx)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "DrawingObjects-ExtractingOLEObjectsFromWorksheet.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-ExtractingOLEObjectsFromWorksheet.cpp" >}}

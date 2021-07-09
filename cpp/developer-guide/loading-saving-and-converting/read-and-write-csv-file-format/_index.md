@@ -10,4 +10,4 @@ Microsoft Excel supports many formats like XLS, XLSX, XLSM, XLSB, CSV, etc. Aspo
 ## **Read and Write CSV File Format**
 The following sample code loads the [source CSV file](23166994.csv) and reads its cell A1 and then copies its contents to cell C4 and saves it as [output CSV file](23166994.csv).
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteCSVFileFormat.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ReadAndWriteCSVFileFormat.cpp" >}}

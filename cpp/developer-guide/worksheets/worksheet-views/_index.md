@@ -23,7 +23,7 @@ Set any worksheet to page break preview by setting the [IsPageBreakPreview](htt
 
 A complete example is given below that demonstrates how to use the [IsPageBreakPreview](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#aa1af81cfb7635232c7f839192b442892) method to enable page break preview mode for the first worksheet of an Excel file.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-WorksheetViews-EnablingPageBreakPreview.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-EnablingPageBreakPreview.cpp" >}}
 ## **Zoom Factor**
 ### **Using Microsoft Excel**
 Microsoft Excel provides a feature that lets users set a worksheet's zoom or scaling factor. This feature helps users to see the worksheet contents in smaller or larger views. Users can set the zoom factor to any value.
@@ -34,7 +34,7 @@ A worksheet is represented by the [IWorksheet](https://apireference.aspose.com/c
 
 A complete example is given below that demonstrates how to use the [Zoom](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#ad94669a93a4324b3a4b7f9582df5b0ec) method to set the zoom factor of the first worksheet of the Excel file.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-WorksheetViews-ZoomFactor.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-ZoomFactor.cpp" >}}
 ## **Freeze Panes**
 ### **Using Microsoft Excel**
 Freeze panes is a feature provided by Microsoft Excel. Freezing panes allows you to select data to remain visible when scrolling in a worksheet.
@@ -50,7 +50,7 @@ A worksheet is represented by the [IWorksheet](https://apireference.aspose.com/c
 
 A complete example is given below that shows how to use the [FreezePanes](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#ac4f68dfe9ac219fb8de6d6824ec1aa22) method to freeze rows and columns (starting from C4, represented by 4th row and 3rd column, where the rows and columns start from the 0 index) of the first worksheet of the Excel file.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-WorksheetViews-FreezePanes.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-FreezePanes.cpp" >}}
 ## **Split Panes**
 If you need to split the screen to get two different views in the same worksheet, split panes. Microsoft Excel offers a very handy feature that allows you to view more than one copy of your worksheet, and for you to be able to scroll through each pane of your worksheet independently: split panes.
 
@@ -61,8 +61,8 @@ Aspose.Cells provides a class [IWorkbook](https://apireference.aspose.com/cpp/ce
 
 In the example, we use a simple template file that is loaded, then the set split panes feature is applied on a cell in the first worksheet. The updated file is saved.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-WorksheetViews-SplitPanes.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-SplitPanes.cpp" >}}
 #### **Removing Panes**
 Remove split panes using the [RemoveSplit](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#a5b554108c91f686e906400c26248eee5) method.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-WorksheetViews-RemovingPanes.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-RemovingPanes.cpp" >}}

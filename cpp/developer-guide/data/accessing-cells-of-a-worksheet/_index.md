@@ -29,14 +29,14 @@ Developers can access any specific cell by passing its cell name to the [Cells](
 
 If you create a blank worksheet at start, the count of [Cells](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/) collection is zero. When you use this approach to access a cell, it will check whether this cell exists in the collection or not. If yes, it returns the cell object in the collection otherwise, it creates a new [ICell](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/) object, adds the object to the [Cells](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/) collection and then returns that object. This approach is the easiest way to access the cell if you are familiar with Microsoft Excel but it's the slowest one as compared to other approaches.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingCellName.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingCellName.cpp" >}}
 ### **Using Row & Column Index of the Cell**
 Developers can access any specific cell by passing the indices of its row and column to the [Cells](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/) collection of the [IWorksheet](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/) class. This approach works in the same way as that of the first approach.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingRowAndColumnIndexOfTheCell.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingRowAndColumnIndexOfTheCell.cpp" >}}
 ## **Accessing Maximum Display Range of Worksheet**
 Aspose.Cells allows developers to access a worksheet's maximum display range. The maximum display range - the range of cells between the first and last cell with content - is useful when you need to copy, select or display the entire contents of a worksheet in an image.
 
 You can access a worksheet's maximum display range using [MaxDisplayIRange](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ad351277ccaa0a4e1e8cd0693a1e2e988) method of the [Cells](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/) collection.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingMaximumDisplayRangeOfWorksheet.cpp" >}}

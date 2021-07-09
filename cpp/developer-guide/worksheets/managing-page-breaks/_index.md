@@ -22,4 +22,4 @@ Aspose.Cells provides a class [IWorkbook](https://apireference.aspose.com/cpp/ce
 
 A worksheet is represented by the [IWorksheet](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/) class. The [IWorksheet](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/) class provides a wide range of methods used to manage a worksheet. To add the page breaks, use the [AddPageBreaks](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#a5f8dd5624b81e0ee2e7455f2b83380f6) method of the [IWorksheet](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/) class.
 ### **Adding Page Breaks**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManagingPageBreaks-AddingPageBreaks.cpp" >}}

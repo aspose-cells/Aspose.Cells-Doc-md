@@ -15,4 +15,4 @@ The following sample code loads the source excel file and sets the comment of th
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-C-main-SetCommentOfTableOrListObject.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-SetCommentOfTableOrListObject.cpp" >}}

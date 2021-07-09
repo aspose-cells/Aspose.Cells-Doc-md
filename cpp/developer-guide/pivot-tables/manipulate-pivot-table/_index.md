@@ -12,7 +12,7 @@ The following sample code loads the [sample excel file](23167013.xlsx) and acces
 
 ![todo:image_alt_text](manipulate-pivot-table_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-PivotTables-ManipulatePivotTable.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-PivotTables-ManipulatePivotTable.cpp" >}}
 ## **Console Output**
 Below is the console output of the above sample code when executed with the provided [sample excel file](23167013.xlsx).
 

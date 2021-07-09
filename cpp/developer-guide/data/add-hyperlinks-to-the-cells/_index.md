@@ -10,4 +10,4 @@ The following sample code shows how to add a hyperlink inside the cell of the wo
 
 ![todo:image_alt_text](add-hyperlinks-to-the-cells_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Data-AddHyperlinksToCells.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddHyperlinksToCells.cpp" >}}

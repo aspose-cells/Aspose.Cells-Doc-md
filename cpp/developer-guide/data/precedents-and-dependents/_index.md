@@ -39,10 +39,10 @@ Aspose.Cells makes it easy to get precedent cells. Not only can it retrieve cell
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-C-main-TracingPrecedents.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingPrecedents.cpp" >}}
 ### **Tracing Dependents**
 Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells can not only retrieve cells that provide data regarding a simple formula but also find cells that provide data to complex formula dependents with named ranges.
 
 
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-C-main-TracingDependents.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingDependents.cpp" >}}

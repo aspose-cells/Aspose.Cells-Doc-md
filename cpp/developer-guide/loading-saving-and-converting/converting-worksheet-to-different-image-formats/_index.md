@@ -23,11 +23,11 @@ The following code snippet shows how to convert a worksheet in an Excel file to 
 ### **PNG Format**
 Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output PNG Images](67338401.zip).
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG.cpp" >}}
 ### **TIFF Format**
 Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output TIFF Image](67338419.zip).
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF.cpp" >}}
 ## **Converting Worksheet to SVG**
 SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.
 
@@ -39,4 +39,4 @@ The [Aspose.Cells.Rendering.IImageOrPrintOptions](https://apireference.aspose.c
 
 Please see the following sample code, its [sample Excel file](67338402.xlsx), and the [output SVG Images](67338403.zip).
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG.cpp" >}}

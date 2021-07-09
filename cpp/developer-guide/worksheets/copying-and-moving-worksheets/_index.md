@@ -25,8 +25,8 @@ The following are the steps involved in copying and moving worksheets within or 
 ### **Copy Worksheets within a Workbook with Aspose.Cells**
 Aspose.Cells provides an overloaded method [AddCopy()](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/#aa1e73c54ea19bb7aa0f9f197c2baa5ba) that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet. The following example shows how to copy an existing worksheet within a workbook.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-CopyWorksheetsWithinWorkbook.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-CopyWorksheetsWithinWorkbook.cpp" >}}
 ### **Move Worksheets within Workbook**
 Aspose.Cells provides a method [MoveTo()](https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#a240bf1d3d52ea8c8bfd54ffa320921b7) that is used to move a worksheet to another location in the same spreadsheet. The method takes the target worksheet index as a parameter. The following example shows how to move a worksheet to another location within the workbook.
 
-{{< gist "aspose-com-gists" "0edd1c91ebaa6cd099be1200b1ec7480" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook.cpp" >}}
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-CopyingAndMovingWorksheets-MoveWorksheetsWithinWorkbook.cpp" >}}
