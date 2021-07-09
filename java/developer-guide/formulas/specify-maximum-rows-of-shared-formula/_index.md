@@ -17,4 +17,4 @@ The following sample code explains the usage of the [**Workbook.Settings.MaxRow
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Formulas-SpecifyMaximumRowsOfSharedFormula.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-SpecifyMaximumRowsOfSharedFormula.java" >}}

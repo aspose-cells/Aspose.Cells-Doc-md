@@ -12,4 +12,4 @@ Please consider this textual data i.e. {11, 111, 22}. This textual data is sorte
 ## **Sample Code**
 The following sample code illustrates the usage of [DataSorter.SortAsNumber](https://apireference.aspose.com/java/cells/com.aspose.cells/datasorter#SortAsNumber) property as explained earlier. Please check its [sample Excel file](43352077.xlsx) and [output Excel file](43352078.xlsx) for more help.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingSortWarningWhileSortingData.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingSortWarningWhileSortingData.java" >}}

@@ -29,7 +29,7 @@ The [**HorizontalPageBreaks**](https://apireference.aspose.com/cells/java/com.as
 
 To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the [**HorizontalPageBreaks**](https://apireference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) and [**VerticalPageBreaks**](https://apireference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) collections' **Add** methods. Each **Add** method takes the cell name where the page break is to be added.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingPageBreaks-AddingPageBreaks.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingPageBreaks-AddingPageBreaks.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -41,13 +41,13 @@ In page break preview or print preview modes, you can see how these page breaks 
 
 To clear all page breaks in a worksheet, call the [**HorizontalPageBreakCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) and [**VerticalPageBreakCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) collections' **Clear** methods.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ClearAllPageBreaks-ClearAllPageBreaks.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ClearAllPageBreaks-ClearAllPageBreaks.java" >}}
 
 ### **Removing Specific Page Break**
 
 To remove a specific page break in the worksheet, call the [**HorizontalPageBreakCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) and [**VerticalPageBreakCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) collections' **removeAt** methods. Each **removeAt** method will take the index of the page break to be removed.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemoveSpecificPageBreak-RemoveSpecificPageBreak.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemoveSpecificPageBreak-RemoveSpecificPageBreak.java" >}}
 
 {{% alert color="primary" %}}
 

@@ -21,7 +21,7 @@ The following screenshot shows the Aspose.Cells output HTML file showing DataBar
 #### **Sample Code**
 The following sample code converts the sample excel file into HTML which is just a normal [Excel to HTML conversion](/cells/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml).
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ConvertingToHTMLFiles-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ConvertingToHTMLFiles-1.java" >}}
 #### **Related Article**
 {{% alert color="primary" %}} 
 

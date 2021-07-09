@@ -42,13 +42,13 @@ To import data to a spreadsheet from an array, call the importArray method of t
 - **Column number**, the column number of the first cell that the data will be imported to.
 - **Is vertical**, a Boolean value that specifies whether to import data vertically or horizontally.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArray-ImportingFromArray.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArray-ImportingFromArray.java" >}}
 
 #### Importing from Multi-dimensional Arrays
 
 To import data to a spreadsheet from multi-dimensional arrays, call the relevant importArray overload of the [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collection:
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromMultiDimensionalArray-ImportingFromMultiDimensionalArray.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromMultiDimensionalArray-ImportingFromMultiDimensionalArray.java" >}}
 
 #### Importing from an ArrayList
 
@@ -59,13 +59,13 @@ To import data from an *ArrayList* to worksheets, call the [**ImportArrayList**
 - **Column Number**, the column number of the first cell from which data will be imported.
 - **Is Vertical**, is a Boolean value that specifies whether to import data vertically or horizontally.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
 #### Importing from Custom Objects to merged area
 
 To import data from a collection of objects to a worksheet containing merged cells, use [**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) property. If the Excel template has merged cells, set the value of [**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) property to true. Pass the [**ImportTableOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/ImportTableOptions) object along with the list of columns/properties to the method to display your desired list of objects. The following code sample demonstrates the use of [**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) property to import data from Custom Objects to merged cells. Please see the attached [source Excel](90112035.xlsx) file and the [output Excel](90112036.xlsx) file for reference.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
 #### Importing Data from JSON
 
@@ -82,7 +82,7 @@ Aspose.Cells provides a [**JsonUtility**](https://apireference.aspose.com/cells/
 
 The sample code given below demonstrates the use of the [**JsonUtility**](https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility) and [**JsonLayoutOptions**](https://apireference.aspose.com/java/cells/com.aspose.cells/JsonLayoutOptions) classes to import JSON data.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 
 ## Export Data from Worksheet
 
@@ -103,4 +103,4 @@ Spreadsheets stores data as a sequence of rows and columns. Use the [**exportArr
 - Number of rows, the number of rows to export.
 - Number of columns, the number of columns to export.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Data-ExportingDataFromWorksheets-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ExportingDataFromWorksheets-1.java" >}}

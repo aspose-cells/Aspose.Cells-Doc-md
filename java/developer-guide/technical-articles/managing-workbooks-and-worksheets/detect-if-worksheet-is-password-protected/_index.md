@@ -15,4 +15,4 @@ It is possible to protect the workbooks and worksheets separately. For instance,
 
 Aspose.Cells for Java 8.7.0 has exposed the [**Protection.isProtectedWithPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) property to detect if a worksheet is password protected or not. Boolean type [**Protection.isProtectedWithPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) field returns **true** if [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) is password protected and **false** if not.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectWorksheetisPasswordProtected-DetectWorksheetisPasswordProtected.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectWorksheetisPasswordProtected-DetectWorksheetisPasswordProtected.java" >}}

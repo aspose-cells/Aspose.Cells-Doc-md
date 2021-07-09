@@ -14,7 +14,7 @@ The following screenshot shows the Ole Object Class Identifier i.e GUID which ha
 ## **Sample Code**
 Please see the following sample code executed with [sample excel file](5473378.xls) and its console output which prints the *Class Identifier* of Ole Object i.e GUID. The printed GUID is exactly same as shown inside the screenshot.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSettheClassIdentifier-GetSettheClassIdentifier.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSettheClassIdentifier-GetSettheClassIdentifier.java" >}}
 ## **Console Output**
 This is the console output of the above sample code when executed with the [sample excel file](5473378.xls).
 

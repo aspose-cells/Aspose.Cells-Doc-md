@@ -23,7 +23,7 @@ When a given worksheet has many columns, the rendered PDF file may show the cont
 
 The sample code below shows how to use the [**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) property to render a large worksheet of 100 columns.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-FitAllWorksheetColumns-FitAllWorksheetColumns.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FitAllWorksheetColumns-FitAllWorksheetColumns.java" >}}
 
 {{% alert color="primary" %}}
 

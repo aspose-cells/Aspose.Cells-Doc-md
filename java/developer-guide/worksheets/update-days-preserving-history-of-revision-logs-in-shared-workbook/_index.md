@@ -17,4 +17,4 @@ The following sample code creates an empty workbook, then shares it and updates 
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}

@@ -37,17 +37,17 @@ Typically, the [find](https://apireference.aspose.com/java/cells/com.aspose.cell
 
 ![todo:image_alt_text](find-or-search-data_2.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsContainingFormula-FindingCellsContainingFormula.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsContainingFormula-FindingCellsContainingFormula.java" >}}
 ## **Searching for Strings**
 Searching for cells that contain a string value is easy and flexible. There are different ways of searching, for example, search for cells that contain strings that start with a particular character, or set of characters.
 ### **Searching for Strings that Start with Specific Characters**
 To search for the first character in a string, call the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection's [find](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) method, set the [FindOptions.setLookAtType](https://apireference.aspose.com/java/cells/com.aspose.cells/findoptions#LookAtType) to [LookAtType.START_WITH](https://apireference.aspose.com/java/cells/com.aspose.cells/lookattype#START_WITH) and pass it as a parameter to the [find](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) method.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **Searching for Strings that End with Specific Characters**
 Aspose.Cells can also find strings that end with specific characters. To search for the last characters in a string, call the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection's [find](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) method, set the [FindOptions.setLookAtType](https://apireference.aspose.com/java/cells/com.aspose.cells/findoptions#LookAtType) to [LookAtType.END_WITH](https://apireference.aspose.com/java/cells/com.aspose.cells/lookattype#END_WITH) and pass it as a parameter to the [find](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) method.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **Searching with Regular Expressions: the RegEx Feature**
 A regular expression provides a concise and flexible means of matching (specifying and recognizing) strings of text, such as particular characters, words, or patterns.
 
@@ -55,4 +55,4 @@ For example, the regular expression pattern abc-*~~xyz~~ matches the strings "ab
 
 Aspose.Cells allows you to search with regular expressions.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-FindingwithRegularExpressions-FindingwithRegularExpressions.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingwithRegularExpressions-FindingwithRegularExpressions.java" >}}

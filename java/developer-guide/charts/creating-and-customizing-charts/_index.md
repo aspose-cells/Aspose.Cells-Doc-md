@@ -13,7 +13,7 @@ It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Asp
 
 It's simple to create a chart with Aspose.Cells with the following example codes:
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
 
 
 ### **Things to Know For Creating a Chart**
@@ -153,7 +153,7 @@ When the example code is executed, a pyramid chart is added to the worksheet as 
 
 ![todo:image_alt_text](creating-and-customizing-charts_1.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
 To create a bubble chart, the [**ChartType**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.BUBBLE**](https://apireference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet as shown below.
 
@@ -161,13 +161,13 @@ To create a bubble chart, the [**ChartType**](https://apireference.aspose.com/ce
 
 ![todo:image_alt_text](creating-and-customizing-charts_2.jpg)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
 
 #### **Line with Data Marker Chart**
 
 To create a line with a data marker chart, the [**ChartType**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.LINE_WITH_DATA_MARKERS**](https://apireference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) and few extra properties such as background area,Series Markers , Values & XValues need to be set accordingly. Upon executing the following code, a line with a data marker chart is added to the worksheet.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
 ## **Creating Custom Charts**
 
@@ -193,7 +193,7 @@ The example code below demonstrates how to create custom charts. In this example
 
 **Programming Example**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateCustomChart-HowToCreateCustomChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateCustomChart-HowToCreateCustomChart.java" >}}
 
 {{% alert color="primary" %}}
 

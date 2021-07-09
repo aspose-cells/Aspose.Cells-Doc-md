@@ -58,7 +58,7 @@ The following output is generated when executing the code below.
 
 ![todo:image_alt_text](cells-formatting_2.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBordersToCells-AddingBordersToCells.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBordersToCells-AddingBordersToCells.java" >}}
 #### **Adding Borders to a Range of Cells**
 It is possible to add borders to a range of cells rather than just a single cell. First, create a range of cells by calling the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection's [createRange](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)) method, which takes the following parameters:
 
@@ -78,7 +78,7 @@ The following output is generated when executing the code below.
 
 ![todo:image_alt_text](cells-formatting_3.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBorderstoRange-AddingBorderstoRange.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBorderstoRange-AddingBorderstoRange.java" >}}
 ## **Colors and Palette**
 A palette is the number of colors available for use in creating an image. The use of a standardized palette in a presentation allows the user to create a consistent look. Each Microsoft Excel (97-2003) file has a palette of 56 colors that can be applied to cells, fonts, gridlines, graphic objects, fills and lines in a chart.
 
@@ -105,7 +105,7 @@ The example below adds a custom color to the palette before applying it on a fon
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-ColorsAndPalette-ColorsAndPalette.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ColorsAndPalette-ColorsAndPalette.java" >}}
 ## **Colors and Background Patterns**
 Microsoft Excel can set the foreground (outline) and background (fill) colors of cells and background patterns as shown below.
 
@@ -158,7 +158,7 @@ The following output is generated when executing the code.
 
 ![todo:image_alt_text](cells-formatting_6.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-ColorsAndBackground-ColorsAndBackground.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ColorsAndBackground-ColorsAndBackground.java" >}}
 ### **Important to Know**
 {{% alert color="primary" %}} 
 
@@ -188,7 +188,7 @@ In the output file, in the A1" cell, the word 'Visit' is formatted with the defa
 
 ![todo:image_alt_text](cells-formatting_7.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-FormattingSelectedCharacters-FormattingSelectedCharacters.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormattingSelectedCharacters-FormattingSelectedCharacters.java" >}}
 
 {{% alert color="primary" %}} 
 

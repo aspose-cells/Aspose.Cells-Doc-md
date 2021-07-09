@@ -15,4 +15,4 @@ The [**SheetRender**](https://apireference.aspose.com/cells/java/com.aspose.cell
 
 When you use the sheet-to-image feature, the output image has white/blank space, that is, a border, around it by default. You can remove this. Set the top, left, bottom, and right page setup margins for the source worksheet to 0 and specify [**ImageOrPrintOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) attributes accordingly.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}

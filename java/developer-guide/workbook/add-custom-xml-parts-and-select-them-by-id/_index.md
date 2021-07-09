@@ -15,7 +15,7 @@ The following sample code first adds four Custom XML Parts using [**Workbook.ge
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Workbook-AddCustomXMLPartsAndSelectThemByID.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Workbook-AddCustomXMLPartsAndSelectThemByID.java" >}}
 
 ## **Console Output**
 

@@ -17,4 +17,4 @@ The following sample code creates a workbook and changes its built-in document p
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}

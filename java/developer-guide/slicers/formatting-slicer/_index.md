@@ -12,4 +12,4 @@ Please see the following code, it loads theÂ [sample Excel file](67338501.xlsx)Â
 
 ![todo:image_alt_text](formatting-slicer_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Slicers-FormattingSlicer.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-FormattingSlicer.java" >}}

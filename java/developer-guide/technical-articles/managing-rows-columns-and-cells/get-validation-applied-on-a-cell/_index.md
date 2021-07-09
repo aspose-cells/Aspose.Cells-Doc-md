@@ -21,7 +21,7 @@ The following snapshot shows the sample Microsoft Excel file used in the sample 
 
 The sample code below gets the validation applied to C1 and reads its various properties.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-GetValidationAppliedonCell-GetValidationAppliedonCell.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetValidationAppliedonCell-GetValidationAppliedonCell.java" >}}
 
 Here is the console output from the sample code executed with the sample file shown in the snapshot above.
 

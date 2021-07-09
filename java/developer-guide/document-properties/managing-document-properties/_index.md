@@ -64,7 +64,7 @@ Both the [**WorksheetCollection.BuiltInDocumentProperties**](https://apireferenc
 
 It is up to the application requirement how to access a property, that is; by using the index or name of the property from the [**DocumentPropertyCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection) as demonstrated in the example below.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentProperties.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentProperties.java" >}}
 
 The [**DocumentProperty**](https://apireference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) class allows to retrieve the name, value, and type of the document property:
 
@@ -72,7 +72,7 @@ The [**DocumentProperty**](https://apireference.aspose.com/cells/java/com.aspose
 - To get the property value, use [**DocumentProperty.Value**](https://apireference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value). [**DocumentProperty.Value**](https://apireference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value) returns the value as an Object.
 - To get the property type, use [**DocumentProperty.Type**](https://apireference.aspose.com/cells/java/com.aspose.cells/documentproperty#Type). This returns one of the [**PropertyType**](https://apireference.aspose.com/cells/java/com.aspose.cells/PropertyType) enumeration values.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentPropertyValue.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentPropertyValue.java" >}}
 
 ### **Adding or Removing Custom Document Properties**
 
@@ -82,7 +82,7 @@ As we have described earlier at the beginning of this topic, developers can't ad
 
 Aspose.Cells APIs have exposed the [**add**](https://apireference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) method for the [**CustomDocumentPropertyCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) class in order to add custom properties to the collection. The [**add**](https://apireference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) method adds the property to the Excel file and returns a reference for the new document property as a [**DocumentProperty**](https://apireference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) object.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **Configuring “Link to content” Custom Property**
 
@@ -90,10 +90,10 @@ To create a custom property linked to the content of a given range, call the [**
 
 We use a simple template Microsoft Excel file in the example. The workbook has a defined named range labeled **MyRange** which refers to a cell value.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConfiguringLinkToContentCustomProperty.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConfiguringLinkToContentCustomProperty.java" >}}
 
 ### **Removing Custom Properties**
 
 To remove custom properties using Aspose.Cells, call the [**DocumentPropertyCollection.remove**](https://apireference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) method and pass the name of the document property to be removed.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}

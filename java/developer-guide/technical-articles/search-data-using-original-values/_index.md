@@ -13,7 +13,7 @@ Sometimes the value of the data is hidden because it is formatted in some way. F
 #### **Search Data using Original Values**
 The following sample code illustrates the above point. It finds cell D4 which cannot be found using Microsoft Excel find options but Aspose.Cells can find it using [LookInType.ORIGINAL_VALUES](https://apireference.aspose.com/java/cells/com.aspose.cells/lookintype#ORIGINAL_VALUES). Please read the comments inside the code for more information.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchDataUsingOriginalValues-SearchDataUsingOriginalValues.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchDataUsingOriginalValues-SearchDataUsingOriginalValues.java" >}}
 #### **Console Output**
 Here is the console output of the above sample code.
 

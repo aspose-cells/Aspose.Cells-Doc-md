@@ -25,7 +25,7 @@ To set a sheet's background image in Microsoft Excel (for example, Microsoft Exc
 
 The code below sets a background image using an image from a stream.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-SetBackgroundPictureforWorksheet-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SetBackgroundPictureforWorksheet-1.java" >}}
 
 ## Related Articles
 

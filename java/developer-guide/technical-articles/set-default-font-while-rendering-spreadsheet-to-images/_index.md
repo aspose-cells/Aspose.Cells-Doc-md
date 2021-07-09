@@ -21,4 +21,4 @@ This is the output image after setting the [ImageOrPrintOptions.DefaultFont](htt
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}

@@ -11,4 +11,4 @@ HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td
 
 [outsampleSelfClosingTags.xlsx](74776601.xlsx)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-HTML-RecognizeSelfClosingTags-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-RecognizeSelfClosingTags-1.java" >}}

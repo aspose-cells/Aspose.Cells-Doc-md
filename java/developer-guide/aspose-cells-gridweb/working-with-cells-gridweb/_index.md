@@ -19,7 +19,7 @@ All cells have a unique name. For example, A1, A2, B1, B2, etc. Aspose.Cells.Gri
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-Accessingcellbyname-Accessingcellbyname.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyname-Accessingcellbyname.jsp" >}}
 
 
 ### **Using Row & Column Indices**
@@ -27,7 +27,7 @@ A cell can also be recognized by its location in terms of row and column indices
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-Accessingcellbyrowandcolumnindices-Accessingcellbyrowandcolumnindices.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyrowandcolumnindices-Accessingcellbyrowandcolumnindices.jsp" >}}
 ## **Accessing and Modifying the Value of a Cell**
 [Accessing Cells in the Worksheet](/cells/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) discussed accessing cells. This topic extends that discussion to show how to access and modify cell values using the GridWeb API.
 ### **Accessing & Modifying a Cell's Value**
@@ -42,13 +42,13 @@ IMPORTANT: Five types of values (Boolean, int, double, DateTime and string) can 
 
 {{% /alert %}} 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-AccessingModifyingCellStringValue-AccessingModifyingCellStringValue.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCellStringValue-AccessingModifyingCellStringValue.jsp" >}}
 #### **All Types of Values**
 Aspose.Cells.GridWeb also provides a special method, putValue, for each cell. With this method, it is possible to insert or modify any type of value (Boolean, int, double, DateTime and string) in a cell.
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-AccessingModifyingCell-AccessingModifyingCell.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCell-AccessingModifyingCell.jsp" >}}
 
 
 
@@ -56,7 +56,7 @@ There is also an overloaded version of the putValue method that can take any kin
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-AccessingModifyingCellAllTypeValue-AccessingModifyingCellAllTypeValue.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCellAllTypeValue-AccessingModifyingCellAllTypeValue.jsp" >}}
 ## **Adding Formulas to the Cells**
 The most valuable feature offered by Aspose.Cells.GridWeb is support for formulas or functions. Aspose.Cells.GridWeb has its own Formula Engine that calculates the formulas in worksheets. Aspose.Cells.GridWeb supports both in-built and user-defined functions or formulas. This topic discusses adding formulas to cells using Aspose.Cells.GridWeb API in detail.
 ### **How to Add & Calculate a Formula?**
@@ -70,7 +70,7 @@ To add a formula programmatically, Aspose.Cells.GridWeb will recognize it as a f
 
 {{% /alert %}} 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-AddingFormulastoCells-AddingFormulastoCells.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AddingFormulastoCells-AddingFormulastoCells.jsp" >}}
 
 
 
@@ -82,7 +82,7 @@ In the above screenshot, you can see that a formula has been added to B3 but has
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-CalculateFormula-CalculateFormula.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CalculateFormula-CalculateFormula.jsp" >}}
 
 Users can also calculate formulas by clicking **Submit**.
 
@@ -100,7 +100,7 @@ Using Aspose.Cells.GridWeb, it is possible to reference values stored in differe
 
 The syntax for referencing a cell value from a different worksheet is SheetName!CellName.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-ReferencingCellsfromOtherWorksheets-ReferencingCellsfromOtherWorksheets.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-ReferencingCellsfromOtherWorksheets-ReferencingCellsfromOtherWorksheets.jsp" >}}
 ## **Create Data Validation in a GridCell of GridWeb**
 Aspose.Cells.GridWeb allows you to add **Data Validation** using the GridWorksheet.getValidations().add() method. Using this method, you have to specify the **Cell Range**. But if you want to create a Data Validation in a single GridCell then you can do it directly using GridCell.createValidation() method. Similarly, you can remove **Data Validation** from a GridCell using the GridCell.removeValidation() method.
 
@@ -110,7 +110,7 @@ The following sample code creates a **Data Validation** in a cell B3. If you ent
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-CreateDataValidationinGridCellofGridWeb-CreateDataValidationinGridCellofGridWeb.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreateDataValidationinGridCellofGridWeb-CreateDataValidationinGridCellofGridWeb.jsp" >}}
 ## **Creating Custom Command Buttons**
 Aspose.Cells.GridWeb contains special buttons like Submit, Save, and Undo. All these buttons perform specific tasks for Aspose.Cells.GridWeb. It is also possible to add custom buttons that performs custom tasks. This topic explains how to use this feature.
 
@@ -124,13 +124,13 @@ As you can see in the following screenshot, when the user clicks the custom comm
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-CreatingCustomCommandButtons-CreatingCustomCommandButtons.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreatingCustomCommandButtons-CreatingCustomCommandButtons.jsp" >}}
 ### **Event Handling of Custom Command Button**
 The following sample code explains how to perform event handling of custom command button.
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-EventHandlingofCustomCommandButton-EventHandlingofCustomCommandButton.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EventHandlingofCustomCommandButton-EventHandlingofCustomCommandButton.jsp" >}}
 ## **Formatting cells for GridWeb**
 ### **Possible Usage Scenarios**
 GridWeb now supports users to enter cell data in percentage format like 3% and the data in the cell will automatically be formatted as 3.00%. However, you will have to set the cell style to Percentage Format which is either GridTableItemStyle.NumberType a 9 or 10. The number 9 will format 3% as 3% but the number 10 will format 3% as 3.00%.
@@ -145,4 +145,4 @@ The following sample code sets the cell A1 GridTableItemStyle.NumberType as 10, 
 
 ![todo:image_alt_text](working-with-cells-gridweb_7.png)
 ### **Sample Code**
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-cells-EnterCellDataofGridWebWorksheet-EnterCellDataofGridWebWorksheet.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EnterCellDataofGridWebWorksheet-EnterCellDataofGridWebWorksheet.jsp" >}}

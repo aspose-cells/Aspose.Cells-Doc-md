@@ -22,7 +22,7 @@ Sometimes, you do need to extract OLE objects from a workbook. Aspose.Cells supp
 
 The code below does the actual work of finding and extracting OLE objects as DOCX, XLSX, PPTX and PDF files.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 
 ### **Conclusion:**
 

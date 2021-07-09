@@ -15,8 +15,8 @@ This article explains how to implement [**IStreamProvider**](https://apireferenc
 
 This is the main code showing the usage of [**HtmlSaveOptions.StreamProvider**](https://apireference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#StreamProvider) property
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-HtmlSaveOptions-HtmlSaveOptions.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-HtmlSaveOptions-HtmlSaveOptions.java" >}}
 
 Here is the code for *ExportStreamProvider* class which implements [**IStreamProvider**](https://apireference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) interface used inside the above code.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportStreamProvider-ExportStreamProvider.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportStreamProvider-ExportStreamProvider.java" >}}

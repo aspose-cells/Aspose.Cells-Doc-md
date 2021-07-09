@@ -29,7 +29,7 @@ At present, the converting worksheet to image API does not support 3D-bubble cha
 
 The code below shows how to convert a worksheet in a Microsoft Excel file to a PNG file.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-WorksheetToImage-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-WorksheetToImage-1.java" >}}
 
 ## **Converting Worksheet to SVG**
 
@@ -45,13 +45,13 @@ The **[SheetRender](https://apireference.aspose.com/cells/java/com.aspose.cells
 
 The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingWorksheetToSVG-ConvertingWorksheetToSVG.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingWorksheetToSVG-ConvertingWorksheetToSVG.java" >}}
 
 ### **Render active worksheet in a workbook**
 
 A simple way to convert active worksheet in a workbook is to set the active sheet index and then save the workbook as SVG. It will render the active sheet to SVG. Following sample code demonstrates this feature:
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertActiveWorksheetToSVG-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertActiveWorksheetToSVG-1.java" >}}
 
 ## Related Articles
 

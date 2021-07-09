@@ -13,4 +13,4 @@ Aspose.Cells provides [Workbook.dispose()](https://apireference.aspose.com/java/
 #### **Release Unmanaged Resources of the Workbook**
 The following sample code shows how to make use of the [Workbook.dispose()](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#dispose\(\)) method.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ReleaseUnmanagedResources-ReleaseUnmanagedResources.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReleaseUnmanagedResources-ReleaseUnmanagedResources.java" >}}

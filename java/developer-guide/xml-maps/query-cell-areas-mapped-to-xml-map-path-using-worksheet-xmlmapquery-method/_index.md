@@ -17,7 +17,7 @@ The following screenshot shows the Microsoft Excel displaying XML Map inside the
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-AsposeCellsExamples-XmlMaps-QueryCellAreasMappedToXmlMapPath.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-QueryCellAreasMappedToXmlMapPath.java" >}}
 
 ## **Console Output**
 
@@ -49,4 +49,4 @@ XML data can be imported to worksheets. Sometimes XML path is required from the 
 1. [Country List.xml](Country%20List.xml)
 1. [Food List.xml](Food%20List.xml)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-GetXMLPathFromListObject.java" >}}

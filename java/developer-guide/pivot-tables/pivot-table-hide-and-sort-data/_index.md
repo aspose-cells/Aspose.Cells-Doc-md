@@ -10,7 +10,7 @@ Aspose.Cells supports hiding and sorting data in the pivot table. The following 
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableSortAndHide-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableSortAndHide-1.java" >}}
 
 The source and output excel files used in the code snippet are attached for reference.
 

@@ -13,4 +13,4 @@ Aspose.Cells supports saving (**OpenDocument Spreadsheet**) ODS file in (**OpenD
 
 The sample code below creates the workbook object, adds some value in cell A1 of the first worksheet and then saves the ODS file in ODF 1.1 and 1.2 specifications. By default, ODS file is saved in ODF 1.2 specification.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveODSfile-SaveODSfile.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveODSfile-SaveODSfile.java" >}}

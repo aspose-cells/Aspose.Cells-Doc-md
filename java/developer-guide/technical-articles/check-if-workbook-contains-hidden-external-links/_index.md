@@ -10,7 +10,7 @@ Sometimes, the workbook contains external links which are hidden and cannot be v
 ## **Check if Workbook contains hidden External Links**
 The following sample code loads the [source excel file](5472525.xlsx) which contains hidden external links. These links cannot be viewed in Microsoft Excel but they are present inside the workbook. After printing [ExternalLink.DataSource](https://apireference.aspose.com/java/cells/com.aspose.cells/externallink#DataSource) and [ExternalLink.IsReferred](https://apireference.aspose.com/java/cells/com.aspose.cells/externallink#IsReferred) property, it prints the [ExternalLink.IsVisible](https://apireference.aspose.com/java/cells/com.aspose.cells/externallink#IsVisible) property. In the console output below, you see, all of its external links are not visible.
 ## **Sample Code**
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckWorkbookContainsHiddenExternalLinks-CheckWorkbookContainsHiddenExternalLinks.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckWorkbookContainsHiddenExternalLinks-CheckWorkbookContainsHiddenExternalLinks.java" >}}
 ## **Console Output**
 Here is the console output of the above sample code when executed with the given [sample excel file](5472525.xlsx).
 

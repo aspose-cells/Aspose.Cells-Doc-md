@@ -12,4 +12,4 @@ The following sample code creates a text box with some text and then sets preset
 
 ![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPresetWordArtStyle-SetPresetWordArtStyle.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPresetWordArtStyle-SetPresetWordArtStyle.java" >}}

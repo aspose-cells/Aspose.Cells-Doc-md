@@ -13,7 +13,7 @@ When you delete blank columns and rows in a worksheet, then its references in ot
 #### **Update references in other worksheets while deleting blank columns and rows in a worksheet**
 Please see the following sample code and its console output. The cell E3 in the second worksheet has a formula =Sheet1!C3 which is referring to cell C3 in the first worksheet. If you will set [DeleteOptions.UpdateReference](https://apireference.aspose.com/java/cells/com.aspose.cells/deleteoptions#UpdateReference) property as **true**, this formula will be updated and become =Sheet1!A1 on deleting blank columns and rows in the first worksheet. However, if you will set [DeleteOptions.UpdateReference](https://apireference.aspose.com/java/cells/com.aspose.cells/deleteoptions#UpdateReference) property as **false**, the formula in cell E3 of the second worksheet will remain =Sheet1!C3 and become invalid.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-management-Updatereferencesinotherworksheetswhiledeletingblankcolumnsandrowsinworksheet-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-management-Updatereferencesinotherworksheetswhiledeletingblankcolumnsandrowsinworksheet-1.java" >}}
 #### **Console Output**
 This is the console output of the above sample code when [DeleteOptions.UpdateReference](https://apireference.aspose.com/java/cells/com.aspose.cells/deleteoptions#UpdateReference) property has been set as **true**.
 

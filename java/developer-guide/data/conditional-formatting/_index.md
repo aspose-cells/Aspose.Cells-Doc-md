@@ -26,7 +26,7 @@ Developers can create a designer spreadsheet that contains conditional formattin
 ### **Applying Conditional Formatting at Runtime**
 Aspose.Cells supports applying conditional formatting at runtime.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-ConditionalFormattingatRuntime-ConditionalFormattingatRuntime.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConditionalFormattingatRuntime-ConditionalFormattingatRuntime.java" >}}
 #### **Set Font**
 **Setting fonts in Microsoft Excel** 
 
@@ -34,7 +34,7 @@ Aspose.Cells supports applying conditional formatting at runtime.
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontStyle-SettingFontStyle.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontStyle-SettingFontStyle.java" >}}
 #### **Set Border**
 **Setting borders in Microsoft Excel** 
 
@@ -42,7 +42,7 @@ Aspose.Cells supports applying conditional formatting at runtime.
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SetBorder-SetBorder.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetBorder-SetBorder.java" >}}
 #### **Set Pattern**
 **Setting a cell pattern in Microsoft Excel** 
 
@@ -50,4 +50,4 @@ Aspose.Cells supports applying conditional formatting at runtime.
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SetPattern-SetPattern.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetPattern-SetPattern.java" >}}

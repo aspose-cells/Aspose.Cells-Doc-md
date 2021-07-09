@@ -13,4 +13,4 @@ Aspose.Cells now provides [Chart.setChartDataRange()](https://apireference.aspos
 #### **The easy way for Chart Setup using Chart.setChartDataRange method**
 The following sample code explains the use [Chart.setChartDataRange()](https://apireference.aspose.com/java/cells/com.aspose.cells/chart#setChartDataRange\(java.lang.String,%20boolean\)) method to set up the chart easily.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-EasyWayForChartSetup-EasyWayForChartSetup.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-EasyWayForChartSetup-EasyWayForChartSetup.java" >}}

@@ -18,14 +18,14 @@ The [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspos
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
 
 
 In order to inject custom labels, it is required to assign the [WorkbookSettings.GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#GlobalizationSettings) property to an instance of the *CustomSettings* class defined above before adding the Subtotals to the worksheet.
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomLabelsforSubtotals-CustomLabelsforSubtotals.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomLabelsforSubtotals-CustomLabelsforSubtotals.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -37,14 +37,14 @@ The [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspos
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
 
 
 The following snippet loads an existing spreadsheet containing a Pie chart and renders the chart to an image while utilizing the *CustomSettings* class created above.
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomTextforOtherLabelofPieChart-CustomTextforOtherLabelofPieChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomTextforOtherLabelofPieChart-CustomTextforOtherLabelofPieChart.java" >}}
 
 
 Following is the resultant image when locale of the machine is set to France. As you can see that the label "Other" has been translated to "Autre" as defined in *CustomSettings* class.

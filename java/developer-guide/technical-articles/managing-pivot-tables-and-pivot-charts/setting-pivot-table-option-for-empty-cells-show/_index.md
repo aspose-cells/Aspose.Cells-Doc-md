@@ -22,4 +22,4 @@ To find and set this option in Microsoft Excel:
 
 Aspose.Cells provides the [**PivotTable.setDisplayNullString()**](https://apireference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) and [**PivotTable.setNullString()**](https://apireference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString) properties for setting the "For empty cells show" pivot table option.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}

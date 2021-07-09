@@ -27,7 +27,7 @@ Aspose.Cells provides the following enums to support the printing comments while
 
 The following sample code illustrates how to use [**PrintCommentsType**](https://apireference.aspose.com/cells/java/com.aspose.cells/printcommentstype) enum to print comments while saving to PDF.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintComments-PrintComments.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintComments-PrintComments.java" >}}
 
 ## Related Articles
 

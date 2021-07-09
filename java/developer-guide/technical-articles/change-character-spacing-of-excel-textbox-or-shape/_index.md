@@ -21,4 +21,4 @@ The following screenshot shows how the [output excel file](5473425.xlsx) looks a
 
 ![todo:image_alt_text](change-character-spacing-of-excel-textbox-or-shape_2.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeCharacterSpacing-ChangeCharacterSpacing.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeCharacterSpacing-ChangeCharacterSpacing.java" >}}

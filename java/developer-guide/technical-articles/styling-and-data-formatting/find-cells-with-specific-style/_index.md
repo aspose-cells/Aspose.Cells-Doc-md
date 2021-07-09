@@ -32,7 +32,7 @@ Aspose.Cells for Java provides the feature to find cells in worksheet with some 
 
 The following code snippet finds all the cells which have the same style as that of cell **A1** and changes the text inside those cells. Please see the screenshot of the source and output files to analyze the output of the sample code.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-FindCellsWithSpecificStyle-FindCellsWithSpecificStyle.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindCellsWithSpecificStyle-FindCellsWithSpecificStyle.java" >}}
 
 After the execution of code, all the cells that have the same style as of cell A1 will have a text "Found".
 

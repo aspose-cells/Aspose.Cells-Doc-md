@@ -17,4 +17,4 @@ The following sample code loads the [sample Excel file](67338304.xlsx) with it
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.java" >}}

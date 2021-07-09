@@ -13,7 +13,7 @@ You can access the external data connection of any type using the [Workbook.Data
 #### **Working with External Data Connection of type WebQuery**
 The following code shows how to work with external data connection of type **WebQuery**. It uses the [sample excel file](5472941.xlsx) which you can download from the provided link. You can also see the console output of this code further below.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithExternalDataConnection-WorkingWithExternalDataConnection.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithExternalDataConnection-WorkingWithExternalDataConnection.java" >}}
 #### **Console Output**
 Here is the console output of the above code with this [sample excel file](5472941.xlsx).
 

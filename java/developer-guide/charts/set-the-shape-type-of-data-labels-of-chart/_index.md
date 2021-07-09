@@ -33,4 +33,4 @@ The following sample code changes the shape type of data labels of the chart toÂ
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}

@@ -11,4 +11,4 @@ The following code snippet demonstrates the use of the [**RegexKey**](https://a
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Workbook-RegexReplace-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-RegexReplace-1.java" >}}

@@ -29,7 +29,7 @@ The following code snippet changes the tick label direction from [**ROTATE_90**]
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
 
 The source and output files can be downloaded from the following links.
 

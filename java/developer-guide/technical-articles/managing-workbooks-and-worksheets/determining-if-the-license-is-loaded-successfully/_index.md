@@ -15,7 +15,7 @@ Aspose.Cells provides [**Workbook.isLicensed()**](https://apireference.aspose.co
 
 The following code accesses the [**Workbook.isLicensed()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed) method before setting a license and it returns false. Then it loads the license and accesses the property again which now returns true.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-DeterminetheLicenseLoadedSuccessfully-DeterminetheLicenseLoadedSuccessfully.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeterminetheLicenseLoadedSuccessfully-DeterminetheLicenseLoadedSuccessfully.java" >}}
 
 ## **Console Output**
 

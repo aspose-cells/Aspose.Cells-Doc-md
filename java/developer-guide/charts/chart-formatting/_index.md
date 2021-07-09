@@ -35,7 +35,7 @@ After executing the example code, a column chart will be added to the worksheet 
 
 ![todo:image_alt_text](chart-formatting_1.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
 ### **Setting Chart Lines**
 
@@ -45,13 +45,13 @@ Developers can also apply different kinds of styles on the lines or data markers
 
 ![todo:image_alt_text](chart-formatting_2.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
 ### **Applying Microsoft Excel 2007/2010 Themes to Charts**
 
 Developers can apply different Microsoft Excel themes and colors to the [**SeriesCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) or other chart objects as shown in the example below.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
 ### **Setting the Titles of Charts or Axes**
 
@@ -67,7 +67,7 @@ Aspose.Cells also allows developers to set the titles of a chart and its axes at
 
 ![todo:image_alt_text](chart-formatting_4.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
 ### **Setting Major Gridlines**
 
@@ -79,7 +79,7 @@ Developers can control the visibility of major gridlines by using the [**setVisi
 
 ![todo:image_alt_text](chart-formatting_5.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
 #### **Changing Major Gridlines Settings**
 
@@ -89,7 +89,7 @@ Developers cannot only control the visibility of major gridlines but also other 
 
 ![todo:image_alt_text](chart-formatting_6.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
 ### **Setting Borders for Back and Side Walls**
 
@@ -97,7 +97,7 @@ Since the release of Microsoft Excel 2007, the walls of a 3D chart have been div
 
 The example given below shows how to set the border of the sidewall by using different attributes.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-SettingBorders-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-SettingBorders-1.java" >}}
 
 ## **Change the Chart Position and Size**
 
@@ -126,7 +126,7 @@ After the execution, the output file looks like this:
 
 ![todo:image_alt_text](chart-formatting_8.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
 ## **Manipulating Designer Charts**
 
@@ -144,7 +144,7 @@ The following example shows how to create a pie chart. We will manipulate this c
 
 ![todo:image_alt_text](chart-formatting_9.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 #### **Manipulating the Chart**
 
@@ -154,7 +154,7 @@ The following example shows how to manipulate the existing chart. In this exampl
 
 ![todo:image_alt_text](chart-formatting_10.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
 #### **Manipulating a Line Chart in the Designer Template**
 
@@ -172,7 +172,7 @@ Now we manipulate the line chart (which is contained in the **linechart.xls** fi
 
 ![todo:image_alt_text](chart-formatting_12.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
 ## **Using Sparklines**
 
@@ -207,7 +207,7 @@ The example below demonstrates the Sparklines feature. The example shows how to:
 1. Add new sparklines for a given data range to a cell area.
 1. Saves the Excel file to disk.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-UsingSparklines-UsingSparklines.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-UsingSparklines-UsingSparklines.java" >}}
 
 ## **Applying 3D Format to Chart**
 
@@ -221,7 +221,7 @@ A complete example is given below to demonstrate how to create a chart and apply
 
 ![todo:image_alt_text](chart-formatting_15.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
 
 {{% alert color="primary" %}}
 

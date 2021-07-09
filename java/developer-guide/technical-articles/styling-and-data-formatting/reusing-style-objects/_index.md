@@ -17,11 +17,11 @@ To apply some formatting to a large range of cells in a worksheet:
 1. Specify the attributes.
 1. Apply the style to the cells in the range.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ReuseStyleObjects-ReuseStyleObjects.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReuseStyleObjects-ReuseStyleObjects.java" >}}
 
 The same process as discussed above could also be accomplished as follow.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "ReuseStyleObjects2.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReuseStyleObjects2.java" >}}
 
 {{% alert color="primary" %}}
 

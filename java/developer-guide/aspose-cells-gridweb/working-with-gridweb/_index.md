@@ -17,7 +17,7 @@ To open an Excel file using GridWeb control:
 
 To load the content from an Excel file to Aspose.Cells.GridWeb control, you have to call the importExcelFile method to specify the path of the Excel file. After that, GridWeb control will automatically find the file from the specified path and display its contents in it. A code snippet that loads the contents of an Excel file is provided below.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-OpeningfromFile-OpeningfromFile.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-OpeningfromFile-OpeningfromFile.jsp" >}}
 
 The above code snippet can be used any way you want. For example, to load an Excel file automatically when a web form loads, add this code to the form's Page_Load event that you have specified by yourself.
 
@@ -39,7 +39,7 @@ To save the content of Aspose.Cells.GridWeb control as an Excel file:
 
 The code example below illustrates how to save grid content to an Excel file.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
 The above code snippet can be used in several ways. A common way is to add a button that saves the grid content to an Excel file when clicked. Aspose.Cells.GridWeb offers an easier approach for the task. Aspose.Cells.GridWeb has an event called SaveCommand. The above code snippet can be added to the SaveCommand event's event handler which allows users to save their work by clicking the Aspose.Cells.GridWeb's in-built **Save** button.
 
@@ -63,7 +63,7 @@ The output of the code snippet that follows is shown below.
 
 ![todo:image_alt_text](working-with-gridweb_2.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
 ### **Changing Width & Height of Header Bar**
 
@@ -84,7 +84,7 @@ Change the height of the top header bar and the width of the left header bar usi
 
 ![todo:image_alt_text](working-with-gridweb_4.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
 ## **Working with Aspose.Cells.GridWeb Events**
 
@@ -123,7 +123,7 @@ Aspose.Cells.GridWeb control supports several events that provide more control f
 
 To perform a specific operation on triggering a specific event, we have to create an event handler. An event handler performs the desired task when a certain event is triggered. The example that follows shows how to handle a simple grid event.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-HandlingGridEvents-HandlingGridEvents.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HandlingGridEvents-HandlingGridEvents.jsp" >}}
 
 ## **Working with Double Click Events**
 
@@ -145,7 +145,7 @@ By default, the EnableDoubleClickEvent property is set to false. This means that
 
 {{% /alert %}}
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-EnablingDoubleClickEvents-EnablingDoubleClickEvents.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-EnablingDoubleClickEvents-EnablingDoubleClickEvents.jsp" >}}
 
 Once double-click events are enabled, it is possible to create event handlers for any double-click events. These event handlers perform specific tasks when a given double-click event is fired.
 
@@ -155,19 +155,19 @@ Once double-click events are enabled, it is possible to create event handlers fo
 
 The event handler for the CellDoubleClick event provides an argument of the CellEventArgs type, which provides the complete information of the cell that is double-clicked.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-DoubleClickCell-DoubleClickCell.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickCell-DoubleClickCell.jsp" >}}
 
 #### **Double Click Column Header**
 
 The event handler for the ColumnDoubleClick event provides an argument of the RowColumnEventArgs type that provides the index number of the column for the header that was double-clicked and other information.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-DoubleClickColumnHeader-DoubleClickColumnHeader.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickColumnHeader-DoubleClickColumnHeader.jsp" >}}
 
 #### **Double Click Row Header**
 
 The event handler for the RowDoubleClick event provides an argument of the RowColumnEventArgs type that provides the index number of the row for the header that was double-clicked and other related information.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-DoubleClickRowHeader-DoubleClickRowHeader.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickRowHeader-DoubleClickRowHeader.jsp" >}}
 
 ## **Setting Style or Appearance of Aspose.Cells.GridWeb**
 
@@ -199,7 +199,7 @@ The output of the below code snippet is shown below.
 
 ![todo:image_alt_text](working-with-gridweb_5.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
 #### **Header Bar Style**
 
@@ -211,13 +211,13 @@ The GridWeb control provides the HeaderBarStyle property that applies a style on
 
 {{% /alert %}}
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
 #### **Tab Bar Style**
 
 It's possible to set the style of the tab bar too. Please see the following code
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-HeaderBarStyle-HeaderBarStyle.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HeaderBarStyle-HeaderBarStyle.jsp" >}}
 
 #### **Loading Style File**
 
@@ -227,7 +227,7 @@ Please see the following image that shows GridWeb with the custom style applied 
 
 ![todo:image_alt_text](working-with-gridweb_6.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-CustomStyleSheet-CustomStyleSheet.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-CustomStyleSheet-CustomStyleSheet.jsp" >}}
 
 {{% alert color="primary" %}}
 
@@ -439,7 +439,7 @@ span.wrap {
 
 **SamplePage.jsp**
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "examples-SamplePage-SamplePage.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-SamplePage-SamplePage.jsp" >}}
 
 **Step 3 - Running Your Sample JSP Web Page**
 
@@ -463,7 +463,7 @@ There are times when developers need to print the GridWeb content included from 
 
 To print without saving a separate file, call the GridWeb class' print() method client-side to print the grid. You may choose some appropriate event too.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-PrintingGridWeb-PrintingGridWeb.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-PrintingGridWeb-PrintingGridWeb.jsp" >}}
 
 Since you are calling it from the client side, so you will have to first get the gridweb client id. You can get the client id using gridweb.getClientID() method.
 
@@ -508,7 +508,7 @@ Developers can also switch to Edit mode programmatically by setting the EditMode
 
 ### **Code Example**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-GridWebEditMode-GridWebEditMode.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebEditMode-GridWebEditMode.jsp" >}}
 
 ### **View Mode**
 
@@ -522,7 +522,7 @@ If developers would like their users to only view data then they can switch to V
 
 ### **Code Example**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-gridweb-GridWebViewMode-GridWebViewMode.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebViewMode-GridWebViewMode.jsp" >}}
 
 {{% alert color="primary" %}}
 

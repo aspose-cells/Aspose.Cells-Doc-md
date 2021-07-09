@@ -21,7 +21,7 @@ Currently, Aspose.Cells supports the following operators: +, －, *, /, <, <=, =
 
 {{% /alert %}}
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
 
 ### **Important to Know**
 
@@ -51,7 +51,7 @@ Result of Sum(A1:A2): 50.0
 
 {{< /highlight >}}
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
 ## **Calculating Formulas Once Only**
 
@@ -63,4 +63,4 @@ Aspose.Cells allows you to turn off creating a calculating chain which is useful
 
 To improve Aspose.Cell's formula calculation performance and when you do not want to create a formula calculating chain, set [**Workbook.getSettings().setCreateCalcChain()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CreateCalcChain) to **false**. By default, it is set to **true**.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulasOnce-CalculatingFormulasOnce.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulasOnce-CalculatingFormulasOnce.java" >}}

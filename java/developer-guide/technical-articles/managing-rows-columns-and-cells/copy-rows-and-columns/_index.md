@@ -21,7 +21,7 @@ Below is a snapshot of the input spreadsheet.
 
 ![todo:image_alt_text](copy-rows-and-columns_1.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingSingleRow-CopyingSingleRow.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingSingleRow-CopyingSingleRow.java" >}}
 
 After executing the above code snippet, the resultant spreadsheet looks as follow.
 
@@ -35,7 +35,7 @@ Below is a snapshot of the input spreadsheet containing 3 rows of data whereas t
 
 ![todo:image_alt_text](copy-rows-and-columns_3.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleRows-CopyingMultipleRows.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleRows-CopyingMultipleRows.java" >}}
 
 Here is the resultant spreadsheet view after executing the above code snippet.
 
@@ -51,7 +51,7 @@ Here is how the input spreadsheet looks.
 
 ![todo:image_alt_text](copy-rows-and-columns_5.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingSingleColumn-CopyingSingleColumn.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingSingleColumn-CopyingSingleColumn.java" >}}
 
 Here is the view of resultant spreadsheet after executing the above code snippet.
 
@@ -61,7 +61,7 @@ Here is the view of resultant spreadsheet after executing the above code snippet
 
 Similar to [**Cells.copyRows**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) method, the Aspose.Cells APIs also provide the [**Cells.copyColumns**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) method in order to copy multiple source columns to a new location.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 
 Here is how source and resultant spreadsheets look in Excel.
 

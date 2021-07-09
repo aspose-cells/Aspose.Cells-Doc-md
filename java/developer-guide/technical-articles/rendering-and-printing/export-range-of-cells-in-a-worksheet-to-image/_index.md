@@ -25,6 +25,6 @@ Executing the code creates an image of the range E8:H10 only.
 
 ![todo:image_alt_text](export-range-of-cells-in-a-worksheet-to-image_2.jpg)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
 You may also find the article [Converting Worksheet to Different Image Formats](/cells/java/converting-worksheet-to-different-image-formats/) helpful.

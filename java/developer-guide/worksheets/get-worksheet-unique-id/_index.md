@@ -11,4 +11,4 @@ Aspose.Cells provides the ability to get the unique id of a worksheet by using t
 
 ## Sample Code
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Worksheets-GetWorksheetUniqueId-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-GetWorksheetUniqueId-1.java" >}}

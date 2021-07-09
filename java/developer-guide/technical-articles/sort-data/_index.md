@@ -55,7 +55,7 @@ All [Aspose](http://www.aspose.com/) components, when installed, work in evaluat
 1. Sort the data in the worksheet:
    1. Add code to the project.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SortData-SortData.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SortData-SortData.java" >}}
 
 1. Execute the program.
 

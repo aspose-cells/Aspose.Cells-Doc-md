@@ -26,7 +26,7 @@ It is possible to group rows or columns by calling the [groupRows](https://apire
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-RowsAndColumns-GroupingRowsandColumns-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-GroupingRowsandColumns-1.java" >}}
 ### **Group Settings**
 Microsoft Excel also allows to configure group settings for displaying:
 
@@ -43,13 +43,13 @@ Developers can control displaying summary rows below detail by using the [Outlin
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowBelow-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowBelow-1.java" >}}
 #### **Summary Columns to Right of Detail**
 It is possible to control whether summary columns are displayed to the right of the details with the [Outline](https://apireference.aspose.com/java/cells/com.aspose.cells/Outline) class' [SummaryColumnRight](https://apireference.aspose.com/java/cells/com.aspose.cells/outline#SummaryColumnRight) method.
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 #### **Ungrouping Rows & Columns**
 Ungroup grouped rows or columns by calling the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection's [UngroupRows](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#ungroupRows\(int,%20int\)) and [UngroupColumns](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) methods. Both methods take the same parameters:
 
@@ -58,4 +58,4 @@ Ungroup grouped rows or columns by calling the [Cells](https://apireference.aspo
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UngroupingRowsandColumns-UngroupingRowsandColumns.java" >}}

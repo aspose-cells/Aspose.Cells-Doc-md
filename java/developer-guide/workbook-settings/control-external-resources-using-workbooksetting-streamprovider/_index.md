@@ -12,4 +12,4 @@ The following sample code explains the usage of [Workbook.Settings.StreamProvid
 
 ![todo:image_alt_text](control-external-resources-using-workbooksetting-streamprovider_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.java" >}}

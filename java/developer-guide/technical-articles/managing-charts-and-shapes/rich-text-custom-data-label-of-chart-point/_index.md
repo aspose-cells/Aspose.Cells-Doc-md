@@ -15,7 +15,7 @@ You can use Aspose.Cells to create rich text custom data label of the chart poin
 
 The following code accesses the first chart point of the first series, sets its text and then sets the font of the first 10 characters by settings it's color to red and boldness to true.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-RichTextCustomData-RichTextCustomData.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RichTextCustomData-RichTextCustomData.java" >}}
 
 ## Related Articles
 

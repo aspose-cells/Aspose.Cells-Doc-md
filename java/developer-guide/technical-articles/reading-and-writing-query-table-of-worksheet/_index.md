@@ -26,7 +26,7 @@ The following screenshot shows the [output excel file](5472574.xlsx) generated b
 
 ![todo:image_alt_text](reading-and-writing-query-table-of-worksheet_2.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.java" >}}
 #### **Console Output**
 Here is the console output of the above sample code
 
@@ -40,4 +40,4 @@ Preserve Formatting: false
 ## **Retrieve query table result range**
 Aspose.Cells provides the option to read the address i.e. result range of cells for a query table. Following code demonstrates this feature by reading the address of result range for a query table. The sample file can be downloaded [here](Query%20TXT.xlsx).
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}

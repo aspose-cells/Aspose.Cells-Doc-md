@@ -15,7 +15,7 @@ The following sample code creates an Excel file, adds some text in cell B5 in�
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.java" >}}
 
 ## **Export single sheet workbook to HTML**
 
@@ -25,4 +25,4 @@ When a workbook with multiple sheets is converted to HTML using Aspose.Cells, it
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-HTML-SetSingleSheetTabNameInHtml-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-SetSingleSheetTabNameInHtml-1.java" >}}

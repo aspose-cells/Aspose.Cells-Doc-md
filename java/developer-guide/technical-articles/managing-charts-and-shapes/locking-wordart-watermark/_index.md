@@ -15,4 +15,4 @@ Aspose.Cells APIs allow adding WordArt watermarks on the worksheet in a way that
 
 Aspose.Cells APIs allow locking certain aspects of the watermark so that the user interaction could be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for Java API to create a watermark for each worksheet in the loaded spreadsheet and lock selection, movement, editing, and re-sizing of the watermark.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-LockWordArtWatermark-LockWordArtWatermark.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LockWordArtWatermark-LockWordArtWatermark.java" >}}

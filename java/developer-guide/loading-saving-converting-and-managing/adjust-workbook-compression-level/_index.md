@@ -21,4 +21,4 @@ Developers can adjust the compression level of the workbook when working with la
 
 The following code snippet demonstrates the use of **[OoxmlCompressionType](https://apireference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)** enumeration and compares the conversion time for **[LEVEL_1](https://apireference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_1)**, **[LEVEL_6](https://apireference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_6)**, and **[LEVEL_9](https://apireference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_9)**. You may also compare the sizes of the generated files.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Workbook-AdjustCompressionLevel-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AdjustCompressionLevel-1.java" >}}

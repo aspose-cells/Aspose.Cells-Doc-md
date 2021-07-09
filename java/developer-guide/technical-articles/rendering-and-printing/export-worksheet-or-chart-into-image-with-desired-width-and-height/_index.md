@@ -15,7 +15,7 @@ You can use Aspose.Cells to export your worksheet or chart into an image with th
 
 The following code exports the worksheet into an image with 400x400 size.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportWorksheettoImage-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportWorksheettoImage-1.java" >}}
 
 ## Related Articles
 

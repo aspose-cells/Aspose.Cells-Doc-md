@@ -40,7 +40,7 @@ Use the [**Formula**](https://apireference.aspose.com/cells/java/com.aspose.cell
 
 In the example below, a complex formula is applied to the first cell of a worksheet's [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collection. The formula uses a built-in **IF** function provided by Aspose.Cells.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingBuiltinfunction-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingBuiltinfunction-1.java" >}}
 
 ## **Using Add-in Functions**
 
@@ -54,7 +54,7 @@ Following the XLAM file shall be downloaded for registering the add-in function 
 
 [test_udf.xlsx](test_udf.xlsx)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Formulas-RegisterAndCallFuncFromAddIn-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Formulas-RegisterAndCallFuncFromAddIn-1.java" >}}
 
 ## **Using Array Formula**
 
@@ -72,10 +72,10 @@ It is possible to apply an array formula to a cell by calling the [**Cell**](htt
 - **Number of Rows**, the number of rows to populate result of the array formula.
 - **Number of Columns**, the number of columns to populate the result of the array formula.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}
 
 ## **Using R1C1 Formula**
 
 Apply an **R1C1** reference style formula to a cell with the [**Cell**](https://apireference.aspose.com/cells/java/com.aspose.cells/cell) class' [**setR1C1Formula**](https://apireference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula) property.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}

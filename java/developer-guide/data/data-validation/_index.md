@@ -60,14 +60,14 @@ The [ValidationType](https://apireference.aspose.com/java/cells/com.aspose.cell
 ##### **Programming Sample: Whole Number Data Validation**
 With this type of validation, users can enter only whole numbers within a specified range into the validated cells. The code examples that follow show how to implement the [WHOLE_NUMBER](https://apireference.aspose.com/java/cells/com.aspose.cells/validationtype#WHOLE_NUMBER) validation type. The example creates the same data validation using Aspose.Cells that we created using Microsoft Excel above.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-WholeNumberDataValidation-WholeNumberDataValidation.java" >}}
 
 
 
 ##### **Programming Sample: Decimal Data Validation**
 With this type of validation, the user can enter decimal numbers into the validated cells. In the example, the user is restricted to enter decimal value only and the validation area is A1:A10.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-DecimalDataValidation-DecimalDataValidation.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-DecimalDataValidation-DecimalDataValidation.java" >}}
 
 
 
@@ -76,28 +76,28 @@ This type of validation allows the user to enter values from a drop-down list. I
 
 It is important here that you set the [Validation.setInCellDropDown](https://apireference.aspose.com/java/cells/com.aspose.cells/validation#InCellDropDown) property to **true**.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-ListDataValidation-ListDataValidation.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ListDataValidation-ListDataValidation.java" >}}
 
 
 
 ##### **Programming Sample: Date Data Validation**
 With this type of validation, users enter date values within a specified range, or meeting specific criteria, into the validated cells. In the example, the user is restricted to enter dates between 1970 to 1999. Here, the validation area is the B1 cell.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-DateDataValidation-DateDataValidation.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-DateDataValidation-DateDataValidation.java" >}}
 
 
 
 ##### **Programming Samples: Time Data Validation**
 With this type of validation, users can enter times within a specified range, or meeting some criteria, into the validated cells. In the example, the user is restricted to enter times between 09:00 to 11:30 AM. Here, the validation area is the B1 cell.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-TimeDataValidation-TimeDataValidation.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TimeDataValidation-TimeDataValidation.java" >}}
 
 
 
 ##### **Programming Samples: Text Length Data Validation**
 With this type of validation, users can enter text values of a specified length into the validated cells. In the example, the user is restricted to enter string values with no more than 5 characters. The validation area is the B1 cell.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ### **Data Validation Rules**
 When data validations are implemented, then validation can be checked by assigning different values in the cells. [Cell.GetValidationValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue\(\)) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:
 
@@ -105,13 +105,13 @@ When data validations are implemented, then validation can be checked by assigni
 
 **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-VerifyCellValueSatisfiesDataValidationRules-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-VerifyCellValueSatisfiesDataValidationRules-1.java" >}}
 ### **Check if validation in a cell is dropdown**
 As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [Validation.InCellDropDown](https://apireference.aspose.com/java/cells/com.aspose.cells/validation#InCellDropDown) property can be used to test this. Following sample code demonstrates the usage of this property. The sample file for testing can be downloaded from the following link:
 
 [sampleDataValidationRules.xlsx](77987849.xlsx)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ### **Add CellArea to existing Validation**
 There might be cases where you might want to add [CellArea](https://apireference.aspose.com/java/cells/com.aspose.cells/CellArea) to existing [Validation](https://apireference.aspose.com/java/cells/com.aspose.cells/Validation). When you add [CellArea](https://apireference.aspose.com/java/cells/com.aspose.cells/CellArea) using [Validation.AddArea(CellArea cellArea)](https://apireference.aspose.com/java/cells/com.aspose.cells/validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells checks all existing areas to see if the new area already exists. If the file has a large number of validations, this takes a performance hit. To overcome this, the API provides the [Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://apireference.aspose.com/java/cells/com.aspose.cells/validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) method. The *checkIntersection* parameter indicates whether to check the intersection of a given area with existing validation areas. Setting it to **false** will disable the checking of other areas. The *checkEdge* parameter indicates whether to check the applied areas. If the new area becomes the top-left area, internal settings are rebuilt. If you are sure that the new area is not the top-left area, you may set this parameter as **false**.
 
@@ -119,7 +119,7 @@ The following code snippet demonstrates the use of the [Validation.AddAreaCellA
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Data-AddValidationArea-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-AddValidationArea-1.java" >}}
 
 The source and output excel files are attached for reference.
 

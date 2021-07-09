@@ -9,7 +9,7 @@ Aspose.Cells provides the ability to save pivot table in ODS files. For this, yo
 
 ## Sample Code
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableSaveInODS-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableSaveInODS-1.java" >}}
 
 The output file generated the above code is attached for your reference.
 

@@ -10,7 +10,7 @@ Microsoft Excel Formulas may have different names in different locales or region
 ## **Implement Cell.FormulaLocal similar to Excel VBA Range.FormulaLocal**
 The following sample code explains how to implement [GlobalizationSettings.getLocalFunctionName(String standardName)](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getLocalFunctionName\(java.lang.String\)) method. The method returns the local name of the standard function. If the standard function name is *SUM*, it returns *UserFormulaLocal_SUM*. You can change the code as per your needs and return the correct local function names e.g. *SUM* is *SUMME* in *German* and *TEXT* is *ТЕКСТ* in *Russian*. Please also see the console output of the sample code given below for a reference.
 ## **Sample Code**
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "WorkbookSettings-Implement_Cell_FormulaLocal_SimilarTo_Range_FormulaLocal.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "WorkbookSettings-Implement_Cell_FormulaLocal_SimilarTo_Range_FormulaLocal.java" >}}
 ## **Console Output**
 {{< highlight java >}}
 

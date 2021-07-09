@@ -18,7 +18,7 @@ Note: It is also possible to hide a row or column if we set the row height or co
 
 {{% /alert %}} 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-HidingRowsandColumns-HidingRowsandColumns.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-HidingRowsandColumns-HidingRowsandColumns.java" >}}
 #### **Showing Rows and Columns**
 Developers can unhide any hidden row or column by calling the [UnhideRow](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#unhideRow\(int,%20double\)) and [UnhideColumn](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#unhideColumn\(int,%20double\)) methods of the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection respectively. Both methods take two parameters:
 
@@ -27,7 +27,7 @@ Developers can unhide any hidden row or column by calling the [UnhideRow](https:
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UnhidingRowsandColumns-UnhidingRowsandColumns.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-UnhidingRowsandColumns-UnhidingRowsandColumns.java" >}}
 
 {{% alert color="primary" %}} 
 

@@ -29,7 +29,7 @@ The following example shows how to get and set theme colors.
 
 The following example uses a template XLSX file, gets the colors for different theme color types, changes the colors and saves the Microsoft Excel file.
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSetThemeColors-GetSetThemeColors.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSetThemeColors-GetSetThemeColors.java" >}}
 
 ### **Customizing Themes**
 
@@ -45,7 +45,7 @@ The following example loads a template XLSX file, defines colors for different t
 
 ![todo:image_alt_text](excel-2007-themes-and-colors_3.png)
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomizingThemes-CustomizingThemes.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomizingThemes-CustomizingThemes.java" >}}
 
 ### **Using Theme Colors**
 
@@ -57,4 +57,4 @@ The following output is generated when executing the code.
 
 ![todo:image_alt_text](excel-2007-themes-and-colors_4.png)
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-UseThemeColors-UseThemeColors.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseThemeColors-UseThemeColors.java" >}}

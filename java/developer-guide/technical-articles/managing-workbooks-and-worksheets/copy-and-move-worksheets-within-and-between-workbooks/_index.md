@@ -74,7 +74,7 @@ Executing the code moves the worksheet named Copy within FirstWorkbook.xls with 
 
 ![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_3.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWithinWorkbook-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWithinWorkbook-1.java" >}}
 
 ### **Moving a Worksheet with in a Workbook**
 
@@ -86,7 +86,7 @@ Executing the code moves the worksheet Move from index 1 to index 2 in FirstWork
 
 ![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_4.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
 ### **Copying a Worksheet between Workbooks**
 
@@ -96,7 +96,7 @@ Executing the code copies the worksheet Copy to SecondWorkbook.xls with the new 
 
 ![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_5.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.java" >}}
 
 ### **Moving a Worksheet between Workbooks**
 
@@ -110,7 +110,7 @@ Executing the code moves the move worksheet from FirstWorkbook.xls to SecondWork
 
 ![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_7.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
 ## **Conclusion**
 

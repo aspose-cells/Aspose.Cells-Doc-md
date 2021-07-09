@@ -21,7 +21,7 @@ The following sample code loads the [source excel file](5472520.xlsx) and access
 
 
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithGlowEffect-WorkingWithGlowEffect.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithGlowEffect-WorkingWithGlowEffect.java" >}}
 
 
 

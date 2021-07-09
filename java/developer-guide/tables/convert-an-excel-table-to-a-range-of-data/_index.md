@@ -33,7 +33,7 @@ The table features are no longer available after the table has been converted to
 
 ## **Using Aspose.Cells**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-tables-ConvertTableToRange-ConvertTableToRange.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-ConvertTableToRange-ConvertTableToRange.java" >}}
 
 ## **Convert Table to Range with Options**
 
@@ -41,4 +41,4 @@ Aspose.Cells provides additional options while converting Table to Range through
 
 The sample code given below demonstrates the use of [**TableToRangeOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Tables-ConvertTableToRangeWithOptions-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ConvertTableToRangeWithOptions-1.java" >}}

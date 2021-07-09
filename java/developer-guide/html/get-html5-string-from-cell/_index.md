@@ -15,7 +15,7 @@ The following sample code creates a workbook object and adds some text in cell A
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "HTML-GetHTML5StringFromCell.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-GetHTML5StringFromCell.java" >}}
 
 ## **Console Output**
 

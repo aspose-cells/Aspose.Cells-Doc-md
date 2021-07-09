@@ -12,7 +12,7 @@ Please download the [sample excel file](5473373.xlsx) used in the following samp
 ## **Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart**
 The following sample code shows how to find if data points are in the second pie or bar on a *Pie of Pie* or *Bar of Pie* chart.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **Console Output**
 Please see the following console output generated after the execution of the above sample code with the [sample excel file](5473373.xlsx). If [IsInSecondaryPlot](https://apireference.aspose.com/java/cells/com.aspose.cells/chartpoint#IsInSecondaryPlot) is **false**, the data point is inside the Pie or if it is **true**, then data point is inside the Bar.
 

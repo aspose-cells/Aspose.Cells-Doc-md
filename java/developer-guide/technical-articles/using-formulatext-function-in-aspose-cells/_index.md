@@ -13,7 +13,7 @@ url: /java/using-formulatext-function-in-aspose-cells/
 #### **Using FormulaText function in Aspose.Cells**
 The following sample code shows the usage of *FormulaText* with Aspose.Cells. The code first writes a formula in cell A1 and then prints the text of the formula using *FormulaText* in cell A2.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingFormulaTextfunction-UsingFormulaTextfunction.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingFormulaTextfunction-UsingFormulaTextfunction.java" >}}
 #### **Console Output**
 Here is the console output of the above sample code.
 

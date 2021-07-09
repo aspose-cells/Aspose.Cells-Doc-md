@@ -35,7 +35,7 @@ Book1.xls is opened with the [Workbook](https://apireference.aspose.com/java/cel
 
 ![todo:image_alt_text](worksheet-views_2.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
 ## **Zoom Factor**
 Microsoft Excel provides a feature that lets users set a worksheet's zoom or scaling factor. This feature helps users to see the worksheet contents in smaller or larger views. Users can set the zoom factor to any value.
 
@@ -65,7 +65,7 @@ The Book1.xls file is opened with the [Workbook](https://apireference.aspose.com
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}
 ## **Freeze Panes**
 Freeze panes is a feature provided by Microsoft Excel. Freezing panes allows you to select data to remain visible when scrolling in a worksheet.
 
@@ -86,7 +86,7 @@ A worksheet is represented by the [Worksheet](https://apireference.aspose.com/ja
 
 A complete example is given below that shows how to use the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet) class' [freezePanes](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) method to freeze rows and columns (starting from C4, represented by 4th row and 3rd column, where the rows and columns start from 0 indexes) of the first worksheet of the Excel file.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
 
 In the screenshot below, you can see Book1.xls file without freeze panes.
@@ -112,7 +112,7 @@ In the example, we use a simple template file that is loaded, then the set split
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SplitPanes-SplitPanes.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SplitPanes-SplitPanes.java" >}}
 
 
 
@@ -124,4 +124,4 @@ After running the above code, the generated file has a split view.
 #### **Removing Panes**
 Developers can remove split panes using the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet) class' [removeSplit](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#removeSplit\(\)) method.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}

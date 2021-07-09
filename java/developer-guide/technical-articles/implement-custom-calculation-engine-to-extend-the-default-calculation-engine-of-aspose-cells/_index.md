@@ -19,7 +19,7 @@ The following property and classes are used in implementing this feature.
 #### **Implement Custom Calculation Engine**
 The following code implements the Custom Calculation Engine. It implements the interface [AbstractCalculationEngine](https://apireference.aspose.com/java/cells/com.aspose.cells/AbstractCalculationEngine) which has only one method [calculate(CalculationData data)](https://apireference.aspose.com/java/cells/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). This method is called against all of your formulas. Inside this method, we capture the **SUM** formula and increases its value by 30. So if the Aspose.Cells calculated value is 20, then our custom engine will make it 50 by adding 30.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.java" >}}
 #### **Console Output**
 Here is the console output of the above sample code.
 

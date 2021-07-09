@@ -14,4 +14,4 @@ The following code snippet demonstrates creating a Union Range by using the [Wo
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}

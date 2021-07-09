@@ -13,7 +13,7 @@ Earlier, text boxes are accessed by index from the [Workheet.getTextBoxes()](htt
 #### **Access the Text Box by the Name**
 The following sample code first creates a text box and assigns it some text and name. Then in the next lines, we access the same text box by its name and print its text.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-AccessTextBoxName-AccessTextBoxName.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AccessTextBoxName-AccessTextBoxName.java" >}}
 #### **Console Output**
 Here is the console output of the above sample code.
 

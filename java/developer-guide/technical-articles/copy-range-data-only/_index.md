@@ -21,4 +21,4 @@ This example shows how to:
 1. Create another range of cells.
 1. Copy data of the first range to this second range by using the [Range.copyData](https://apireference.aspose.com/java/cells/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) method.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataOnly-CopyRangeDataOnly.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataOnly-CopyRangeDataOnly.java" >}}

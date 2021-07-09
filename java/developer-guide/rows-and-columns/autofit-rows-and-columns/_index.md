@@ -19,7 +19,7 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
 #### **AutoFit Row in a Range of Cells**
 A row is composed of many columns. Aspose.Cells allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of the [autoFitRow](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) method. It takes the following parameters:
 
@@ -31,13 +31,13 @@ The [autoFitRow](https://apireference.aspose.com/java/cells/com.aspose.cells/wor
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsinaRangeofCells-AutoFitRowsinaRangeofCells.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsinaRangeofCells-AutoFitRowsinaRangeofCells.java" >}}
 #### **AutoFit Column - Simple**
 The easiest way to auto-size the width and height of a column is to call the [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class' [autoFitColumn](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn\(int\)) method. The [autoFitColumn](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn\(int\)) method takes the column index (of the column about to be resized) as a parameter.
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
 #### **AutoFit Column in a Range of Cells**
 A column is composed of many rows. It is possible to auto-fit a column based on the content in a range of cells in the column by calling an overloaded version of [autoFitColumn](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) method that takes the following parameters:
 
@@ -49,7 +49,7 @@ The [autoFitColumn](https://apireference.aspose.com/java/cells/com.aspose.cells/
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitColumnsinaRangeofCells-AutoFitColumnsinaRangeofCells.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitColumnsinaRangeofCells-AutoFitColumnsinaRangeofCells.java" >}}
 #### **AutoFit Rows for Merged Cells**
 With Aspose.Cells it is possible to autofit rows even for cells that have been merged using the [AutoFitterOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions) API. [AutoFitterOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions) class provides [AutoFitMergedCellsType](https://apireference.aspose.com/java/cells/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType) property that can be used to autofit rows for merged cells. [AutoFitMergedCellsType](https://apireference.aspose.com/java/cells/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType) accepts [AutoFitMergedCellsType](https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitMergedCellsType) enumerable which has the following members.
 
@@ -60,7 +60,7 @@ With Aspose.Cells it is possible to autofit rows even for cells that have been m
 
 
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-RowsAndColumns-AutofitRowsforMergedCells-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-AutofitRowsforMergedCells-1.java" >}}
 
 You may also use the overloaded versions of [autoFitRows](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitRows\(\)) & [autoFitColumns](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumns\(\)) methods accepting a range of rows/columns and an instance of [AutoFitterOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions) to auto-fit the selected rows/columns with the desired [AutoFitterOptions](https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions) accordingly.
 

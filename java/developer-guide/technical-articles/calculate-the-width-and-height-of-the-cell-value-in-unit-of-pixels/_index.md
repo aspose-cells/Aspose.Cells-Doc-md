@@ -15,4 +15,4 @@ Alternatively, you can also [autofit rows and columns of your cell or range of c
 #### **Calculate the Width and Height of the Cell Value in Unit of Pixels**
 The following code explains the use of [Cell.getWidthOfValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getWidthOfValue\(\))   and [Cell.getHeightOfValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getHeightOfValue\(\)) methods.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculateWidthAndHeightOfCell-CalculateWidthAndHeightOfCell.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculateWidthAndHeightOfCell-CalculateWidthAndHeightOfCell.java" >}}

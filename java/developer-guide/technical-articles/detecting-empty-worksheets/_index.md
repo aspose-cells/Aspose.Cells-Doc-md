@@ -24,4 +24,4 @@ There are a number of ways to acquire the cells enumerator as detailed in [How &
 ## **Check for Shapes**
 It is possible that a given worksheet does not have any populated cells, however, it could contain shapes & objects such as controls, charts, images and so on. If we need to check if a worksheet contains any shape, we can do it by inspecting the [ShapeCollection.Count](https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#Count) property. Any positive value indicates the presence of shape(s) in the worksheet.
 ## **Programming Sample**
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CheckForShapes-1.java" >}}

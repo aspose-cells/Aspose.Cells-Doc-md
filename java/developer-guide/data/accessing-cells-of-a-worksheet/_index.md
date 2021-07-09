@@ -22,7 +22,7 @@ Developers can access any specific cell by passing its cell name to the [Cells](
 
 If you create a blank worksheet at the start, the count of [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection is zero. When you use this approach to access a cell, it will check whether this cell exists in the collection or not. If yes, it returns the cell object in the collection otherwise, it creates a new [Cell](https://apireference.aspose.com/java/cells/com.aspose.cells/Cell) object, adds the object to the [Cells](https://apireference.aspose.com/java/cells/com.aspose.cells/Cells) collection and then returns the object. This approach is the easiest way to access the cell if you are familiar with Microsoft Excel but it's slower than other approaches.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
 
 
 
@@ -33,7 +33,7 @@ This approach works in the same way as that of the first approach.
 
 
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-data-UsingRowAndColumnIndexOfCell-UsingRowAndColumnIndexOfCell.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingRowAndColumnIndexOfCell-UsingRowAndColumnIndexOfCell.java" >}}
 ### **Related Articles**
 {{% alert color="primary" %}} 
 
@@ -60,4 +60,4 @@ The following sample code illustrates how to access the [MaxDisplayRange](https:
 
 {{< /highlight >}}
 
-{{< gist "aspose-cells" "87c05ec07dd1a65ac6fcdf2fa896b01e" "Examples-src-main-java-com-aspose-cells-examples-data-AccessingMaximumDisplayRangeofWorksheet-AccessingMaximumDisplayRangeofWorksheet.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessingMaximumDisplayRangeofWorksheet-AccessingMaximumDisplayRangeofWorksheet.java" >}}

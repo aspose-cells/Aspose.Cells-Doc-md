@@ -13,7 +13,7 @@ All worksheets contained in the GridWeb control are stored in a GridWorksheetCol
 
 Developers can access a specific worksheet by specifying its sheet index as demonstrated below in the example code snippet.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-AccessingWorksheet-AccessingWorksheet.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AccessingWorksheet-AccessingWorksheet.jsp" >}}
 
 ## **Removing a Worksheet**
 
@@ -21,7 +21,7 @@ This topic provides brief information about removing worksheets from Microsoft E
 
 Developers can remove a specific worksheet by specifying its sheet index using the GridWorksheetCollection collection's removeAt method as demonstrated below in the example code snippet.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-RemovingWorksheet-RemovingWorksheet.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RemovingWorksheet-RemovingWorksheet.jsp" >}}
 
 ## **Adding Worksheets**
 
@@ -35,7 +35,7 @@ The simplest way to add a worksheet to Aspose.Cells.GridWeb is to call the GridW
 
 ![todo:image_alt_text](working-with-worksheets-gridweb_1.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-AddingWorksheetWithoutSpecificName-AddingWorksheetWithoutSpecificName.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithoutSpecificName-AddingWorksheetWithoutSpecificName.jsp" >}}
 
 ### **With Specified Sheet Name**
 
@@ -45,7 +45,7 @@ To add a worksheet with a specific name to the GridWeb control instead of using 
 
 ![todo:image_alt_text](working-with-worksheets-gridweb_2.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-AddingWorksheetWithSpecificName-AddingWorksheetWithSpecificName.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithSpecificName-AddingWorksheetWithSpecificName.jsp" >}}
 
 {{% alert color="primary" %}}
 
@@ -82,7 +82,7 @@ After running the code, the worksheet is renamed Invoice.
 
 ![todo:image_alt_text](working-with-worksheets-gridweb_4.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-RenamingWorksheet-RenamingWorksheet.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RenamingWorksheet-RenamingWorksheet.jsp" >}}
 
 ## **Copying a Worksheet**
 
@@ -92,11 +92,11 @@ After running the code, the worksheet is renamed Invoice.
 
 The example code below shows how to add a copy of a worksheet to the GridWeb control by specifying the worksheet's index in the GridWorksheetCollection's addCopy method.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-CopyWorksheetUsingSheetIndex-CopyWorksheetUsingSheetIndex.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-CopyWorksheetUsingSheetIndex-CopyWorksheetUsingSheetIndex.jsp" >}}
 ### **Using Sheet Name**
 The example code below shows how to add a copy of a worksheet to the GridWeb control by specifying the worksheet's name in the GridWorksheetCollection's addCopy method.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-CopyWorksheetUsingSheetName-CopyWorksheetUsingSheetName.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-CopyWorksheetUsingSheetName-CopyWorksheetUsingSheetName.jsp" >}}
 
 {{% alert color="primary" %}}
 
@@ -120,7 +120,7 @@ The GridWeb control provides two classes (GridName and GridNameCollection) for w
 
 The following code snippet will help you understand how to use them.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-AddingNamedRangesinFormulas-AddingNamedRangesinFormulas.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingNamedRangesinFormulas-AddingNamedRangesinFormulas.jsp" >}}
 
 ## **Managing Comments in Worksheet**
 
@@ -141,7 +141,7 @@ To add a comment to worksheet, please follow the steps below:
 
 ![todo:image_alt_text](working-with-worksheets-gridweb_5.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-AddingComments-AddingComments.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingComments-AddingComments.jsp" >}}
 
 #### **Accessing Comments**
 
@@ -152,7 +152,7 @@ To access a comment:
 1. Pass the reference to the Comment collection's to access the comment.
 1. It's now possible to modify the comment's properties.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-AccessingComments-AccessingComments.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AccessingComments-AccessingComments.jsp" >}}
 
 #### **Removing Comments**
 
@@ -161,7 +161,7 @@ To remove a comment:
 1. Access the cell as explained above.
 1. Use the Comment collection's removeAt method to remove the comment.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-RemovingComments-RemovingComments.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RemovingComments-RemovingComments.jsp" >}}
 
 ## **Managing Hyperlinks in Worksheet**
 
@@ -182,7 +182,7 @@ The example below adds two hyperlinks to a worksheet. One has a _blank target wh
 
 **Output: text hyperlinks added to worksheet**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-TextURLHyperlinks-TextURLHyperlinks.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-TextURLHyperlinks-TextURLHyperlinks.jsp" >}}
 
 #### **Image URL Hyperlinks**
 
@@ -192,7 +192,7 @@ The example below adds image URL hyperlink to a worksheet.
 
 **Output: image hyperlink added to worksheet**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-ImageURLHyperlinks-ImageURLHyperlinks.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-ImageURLHyperlinks-ImageURLHyperlinks.jsp" >}}
 
 ## **Sorting Data**
 
@@ -222,7 +222,7 @@ After executing the code, the data is sorted in ascending order.
 
 ![todo:image_alt_text](working-with-worksheets-gridweb_9.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-datasortedfromtoptobottomascendingorder-datasortedfromtoptobottomascendingorder.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromtoptobottomascendingorder-datasortedfromtoptobottomascendingorder.jsp" >}}
 
 ### **From Left to Right**
 
@@ -246,7 +246,7 @@ After executing the code, data is sorted in ascending order.
 
 ![todo:image_alt_text](working-with-worksheets-gridweb_11.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-datasortedfromleftrightascendingorder-datasortedfromleftrightascendingorder.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromleftrightascendingorder-datasortedfromleftrightascendingorder.jsp" >}}
 
 ## **Searching and Replacing**
 
@@ -324,11 +324,11 @@ Aspose.Cells GridWeb now supports adding and removing hyperlinks from client sid
 
 ### Sample Code
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-add-remove-hyperlink-from-client-side-1.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add-remove-hyperlink-from-client-side-1.jsp" >}}
 
 You may also link to sheet using the following code snippet.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-add-remove-hyperlink-from-client-side-2.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add-remove-hyperlink-from-client-side-2.jsp" >}}
 
 ## Update Font Settings From Client Side
 
@@ -345,7 +345,7 @@ The following code snippet demonstrates changing font settings from client side 
 
 ### Sample Code
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-update_font_from_client_side-1.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-update_font_from_client_side-1.jsp" >}}
 
 ## Add/Remove Comments From Client Side
 
@@ -353,7 +353,7 @@ Aspose.Cells GridWeb now supports adding and removing Comments from client side.
 
 ### Sample Code
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "examples-worksheets-add_remove_comments_from_client_side.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add_remove_comments_from_client_side.jsp" >}}
 
 ## Show buttons to Add/Remove Worksheets
 
@@ -361,4 +361,4 @@ Aspose.Cells GridWeb now supports adding and removing sheets by using buttons in
 
 ### Sample Code
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "GridWeb-show_add_remove_worksheet_buttons.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "GridWeb-show_add_remove_worksheet_buttons.java" >}}

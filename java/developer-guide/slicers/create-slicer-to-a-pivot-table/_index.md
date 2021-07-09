@@ -12,4 +12,4 @@ Please see the following sample code. It loads the [sample Excel file](67338498
 
 ![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Slicers-CreateSlicerToPivotTable.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-CreateSlicerToPivotTable.java" >}}

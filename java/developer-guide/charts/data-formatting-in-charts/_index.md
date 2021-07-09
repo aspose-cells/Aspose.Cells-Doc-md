@@ -22,13 +22,13 @@ There are two types of data to deal with while working on charts using Aspose.Ce
 
 Chart data is that data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) object's [**Add**](https://apireference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) method.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
 ### **Category Data**
 
 Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) by using its [**setCategoryData**](https://apireference.aspose.com/cells/java/com.aspose.cells/seriescollection#CategoryData) method.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingCategoryData-SettingCategoryData.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingCategoryData-SettingCategoryData.java" >}}
 
 **Column chart with chart & category data** 
 

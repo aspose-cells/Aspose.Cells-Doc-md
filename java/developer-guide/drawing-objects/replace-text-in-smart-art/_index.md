@@ -15,4 +15,4 @@ The sample source file can be downloaded from the following link:
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-DrawingObjects-ReplaceTextInSmartArt-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-ReplaceTextInSmartArt-1.java" >}}

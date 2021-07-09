@@ -19,7 +19,7 @@ Signing process requires a certificate as discussed above. Along with the certif
 
 The following code snippet demonstrates the usage of Aspose.Cells for Java API to sign a spreadsheet.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SigningSpreadsheets-SigningSpreadsheets.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SigningSpreadsheets-SigningSpreadsheets.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -31,4 +31,4 @@ In case the specified password does not match with the password of certificate t
 
 The following code snippet demonstrates the usage of Aspose.Cells for Java API to validate the spreadsheet.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}

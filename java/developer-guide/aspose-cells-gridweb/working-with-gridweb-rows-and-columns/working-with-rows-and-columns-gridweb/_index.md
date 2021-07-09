@@ -16,7 +16,7 @@ To insert a row at any position in a worksheet:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-InsertingRows-InsertingRows.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-InsertingRows-InsertingRows.jsp" >}}
 ### **Inserting Columns**
 To insert a column at any position in a worksheet:
 
@@ -26,7 +26,7 @@ To insert a column at any position in a worksheet:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-InsertingColumns-InsertingColumns.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-InsertingColumns-InsertingColumns.jsp" >}}
 
 {{% alert color="primary" %}} 
 
@@ -44,7 +44,7 @@ To delete a row from your worksheet:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-DeletingRows-DeletingRows.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-DeletingRows-DeletingRows.jsp" >}}
 ### **Deleting Columns**
 To delete a column from your worksheet:
 
@@ -54,7 +54,7 @@ To delete a column from your worksheet:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-DeletingColumns-DeletingColumns.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-DeletingColumns-DeletingColumns.jsp" >}}
 ## **Setting Row Height and Column Width**
 Sometimes cell values are wider than the cell they are in or are on several lines. Such values are not fully visible to users unless they change the height and width of rows and columns. Aspose.Cells.GridWeb fully supports setting row heights and column width. This topic discusses these features in detail with the help of examples.
 ### **Working with Row Heights and Column Width**
@@ -77,7 +77,7 @@ Aspose.Cells.GridWeb accepts row height and column width measurements in points,
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-SettingRowHeight-SettingRowHeight.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingRowHeight-SettingRowHeight.jsp" >}}
 #### **Setting Column Width**
 To set the width of a column:
 
@@ -87,7 +87,7 @@ To set the width of a column:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-SettingColumnWidth-SettingColumnWidth.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingColumnWidth-SettingColumnWidth.jsp" >}}
 ## **Customizing Row and Column Headers**
 Like Microsoft Excel, Aspose.Cells.GridWeb also uses standard headers or captions for rows (numbers like 1, 2, 3 and so on) and columns (alphabetic like A, B, C and so on). Aspose.Cells.GridWeb also makes it possible to customize captions. This topic discusses customizing row and column headers at runtime using Aspose.Cells.GridWeb API.
 ### **Customizing Row Header**
@@ -103,7 +103,7 @@ To customize the header or caption of a row:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-CustomizingRowHeader-CustomizingRowHeader.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-CustomizingRowHeader-CustomizingRowHeader.jsp" >}}
 ### **Customizing Column Header**
 To customize the header or caption of a column:
 
@@ -117,7 +117,7 @@ To customize the header or caption of a column:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-CustomizingColumnHeader-CustomizingColumnHeader.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-CustomizingColumnHeader-CustomizingColumnHeader.jsp" >}}
 ## **Freeze and Unfreeze Rows and Columns**
 This topic explains how to freeze and unfreeze rows and columns. Freezing columns or rows allows users to keep the column headings or row titles visible while they scroll to other parts of the worksheet. This feature is very helpful when working with worksheets that contain large volumes of data. When users scroll only data is scrolled down and the headings stay in place, making the date easier to read. The freeze panes feature is only supported in Internet Explorer 6.0 or above.
 ### **Freezing Rows & Columns**
@@ -139,7 +139,7 @@ It is also possible to freeze a specific number of rows & columns using the inte
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-FreezingRowsandColumns-FreezingRowsandColumns.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-FreezingRowsandColumns-FreezingRowsandColumns.jsp" >}}
 ### **Unfreezing Rows & Columns**
 To unfreeze rows and columns:
 
@@ -153,7 +153,7 @@ To unfreeze rows and columns:
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-UnfreezingRowsandColumns-UnfreezingRowsandColumns.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-UnfreezingRowsandColumns-UnfreezingRowsandColumns.jsp" >}}
 ## **Protecting Rows and Columns**
 This topic discusses a few techniques for protecting cells in rows and columns from any kind of action performed by end users. Developers can implement this protection using two techniques: by making cells in rows and columns read-only, or by restricting the GridWeb's context menu options.
 ### **Restricting Context Menu Options**
@@ -171,4 +171,4 @@ It is possible to restrict any kind of client-side operations on rows and column
 
 
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "examples-rowsandcolumns-ProtectingCellsinRowsandColumns-ProtectingCellsinRowsandColumns.jsp" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-ProtectingCellsinRowsandColumns-ProtectingCellsinRowsandColumns.jsp" >}}

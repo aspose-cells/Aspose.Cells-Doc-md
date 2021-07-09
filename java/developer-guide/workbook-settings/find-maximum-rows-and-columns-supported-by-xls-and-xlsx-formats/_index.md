@@ -10,7 +10,7 @@ There are different number of rows and columns supported by Excel formats. For e
 ## **Find Maximum Rows and Columns supported by XLS and XLSX formats**
 The following sample code creates workbook first in XLS and then in XLSX format. After creation, it prints the values of [Workbook.Settings.MaxRow](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#MaxRow) and [Workbook.Settings.MaxColumn](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#MaxColumn) properties. Please see the console output of the code given below for your reference.
 ## **Sample Code**
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.java" >}}
 
 Console Output
 

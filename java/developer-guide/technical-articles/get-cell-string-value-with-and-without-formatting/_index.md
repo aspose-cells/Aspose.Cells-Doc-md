@@ -17,7 +17,7 @@ Aspose.Cells provides a method [Cell.getStringValue()](https://apireference.aspo
 #### **Get Cell String Value with and without Formatting**
 The following sample code explains the use of [Cell.getStringValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getStringValue\(int\)) method.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-GetCellStringValue-GetCellStringValue.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetCellStringValue-GetCellStringValue.java" >}}
 #### **Console Output**
 Below is the console output of the above sample code.
 

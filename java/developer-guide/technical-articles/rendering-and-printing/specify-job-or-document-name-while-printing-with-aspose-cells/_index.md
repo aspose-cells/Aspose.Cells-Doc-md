@@ -17,7 +17,7 @@ The sample code loads the source Excel file and then sends it to the printer by 
 
 ![todo:image_alt_text](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyJoborDocumentName-SpecifyJoborDocumentName.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyJoborDocumentName-SpecifyJoborDocumentName.java" >}}
 
 ## Related Articles
 

@@ -34,15 +34,15 @@ This article shows how to:
 #### **Setting Font Name**
 Apply a specific font to text in cells using the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setName](https://apireference.aspose.com/java/cells/com.aspose.cells/font#Name) property.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
 #### **Setting Font Style to Bold**
 Set text to bold by setting the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setBold](https://apireference.aspose.com/java/cells/com.aspose.cells/font#IsBold) property to **true**.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
 #### **Setting Font Size**
 Set the font size using the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setSize](https://apireference.aspose.com/java/cells/com.aspose.cells/font#Size) property.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
 #### **Setting Font Underline Type**
 Underline text with the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setUnderline](https://apireference.aspose.com/java/cells/com.aspose.cells/font#Underline) property. Aspose.Cells offers various pre-defined font underline types in the [FontUnderlineType](https://apireference.aspose.com/java/cells/com.aspose.cells/FontUnderlineType) enumeration.
 
@@ -68,32 +68,32 @@ Underline text with the [Font](https://apireference.aspose.com/java/cells/com.as
 |[WAVY_DOUBLE](https://apireference.aspose.com/java/cells/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Double Wave Underline|
 |[WAVY_HEAVY](https://apireference.aspose.com/java/cells/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Heavy Wave Underline|
 |` `[WORDS](https://apireference.aspose.com/java/cells/com.aspose.cells/fontunderlinetype#WORDS)|Underline Non-Space Characters Only|
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
 
 
 #### **Setting Font Color**
 Set the font color with the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setColor](https://apireference.aspose.com/java/cells/com.aspose.cells/font#Color) property. Select any color from the [Color](https://apireference.aspose.com/java/cells/com.aspose.cells/Color) enumeration and assign the selected color to the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setColor](https://apireference.aspose.com/java/cells/com.aspose.cells/font#Color).
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
 
 
 
 #### **Setting Strikeout Effect on Text**
 Strikeout text with the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setStrikeout](https://apireference.aspose.com/java/cells/com.aspose.cells/font#IsStrikeout) property.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
 
 
 
 #### **Setting Subscript**
 Make text superscript by using the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setSubscript](https://apireference.aspose.com/java/cells/com.aspose.cells/font#IsSubscript) property.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
 
 
 
 #### **Setting Superscript**
 Apply superscript to text with the [Font](https://apireference.aspose.com/java/cells/com.aspose.cells/Font) object's [setSuperscript](https://apireference.aspose.com/java/cells/com.aspose.cells/font#IsSuperscript) property.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}

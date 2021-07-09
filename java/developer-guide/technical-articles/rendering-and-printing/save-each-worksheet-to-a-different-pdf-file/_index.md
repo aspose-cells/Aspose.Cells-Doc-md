@@ -13,7 +13,7 @@ Aspose.Cells supports converting spreadsheet files (that contain images, charts,
 
 If you need to save each worksheet in your template Excel file to generate different PDF files. This can be achieved easily. You may try to hide sheets in the file and make one sheet visible at a time based on which you would render PDFs.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 

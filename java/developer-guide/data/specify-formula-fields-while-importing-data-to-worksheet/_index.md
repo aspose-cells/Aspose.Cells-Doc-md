@@ -17,4 +17,4 @@ Please see the following sample code that explains how to specify the formula fi
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}

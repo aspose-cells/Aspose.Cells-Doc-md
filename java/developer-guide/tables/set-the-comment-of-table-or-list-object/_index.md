@@ -13,4 +13,4 @@ The following sample code loads the [source excel file](5472561.xlsx), sets the 
 
 ![todo:image_alt_text](set-the-comment-of-table-or-list-object_1.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-tables-SettheCommentofTableorListObject-SettheCommentofTableorListObject.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-SettheCommentofTableorListObject-SettheCommentofTableorListObject.java" >}}

@@ -12,4 +12,4 @@ The following sample code loads the [sample Excel file](67338504.xlsx) that co
 
 ![todo:image_alt_text](removing-slicer_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Slicers-RemovingSlicer.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-RemovingSlicer.java" >}}

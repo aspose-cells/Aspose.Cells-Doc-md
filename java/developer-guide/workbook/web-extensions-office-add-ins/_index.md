@@ -17,7 +17,7 @@ Aspose.Cells also provides the feature to add Web Extensions by using the WebEx
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
 
 ## **Access Web Extension Information**
 
@@ -25,7 +25,7 @@ Aspose.Cells provides the ability to access the information of Web Extensions in
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-Workbook-AccessWebExtensionInformation-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AccessWebExtensionInformation-1.java" >}}
 
 ### **Console Output**
 

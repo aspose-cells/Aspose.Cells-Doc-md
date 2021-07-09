@@ -33,7 +33,7 @@ Developers can hide a worksheet by passing **false** as a parameter to the [**se
 
 A complete example is given below that demonstrates the use of [**setVisible(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class to hide the first worksheet of the Excel file.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-HideUnhideWorksheet-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-HideUnhideWorksheet-1.java" >}}
 
 **Worksheet - Before Modification:**
 
@@ -77,13 +77,13 @@ Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/ce
 
 Hide tabs in an Excel file by setting the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**getSettings().setShowTabs(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) method.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
 ### **Making Tabs Visible**
 
 Make tabs visible with the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**getSettings().setShowTabs(true)**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) method.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayTab-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayTab-1.java" >}}
 
 **Complete Code Example:**
 
@@ -99,7 +99,7 @@ You can see that Book1.xls file contains tabs in the figure below. After the exa
 
 ![todo:image_alt_text](show-and-hide-elements_5.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
 ## **Show and Hide Rows and Columns**
 
@@ -133,7 +133,7 @@ Book1.xls is opened using the [**Workbook**](https://apireference.aspose.com/cel
 
 ![todo:image_alt_text](show-and-hide-elements_7.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideUnhideWorksheet-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideUnhideWorksheet-1.java" >}}
 
 ## **Show and Hide Scroll Bars**
 
@@ -170,7 +170,7 @@ The screenshot below shows Book1.xls file containing both scroll bars. The modif
 
 ![todo:image_alt_text](show-and-hide-elements_9.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-DisplayHideScrollBars-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-DisplayHideScrollBars-1.java" >}}
 
 ## **Show and Hide Gridlines**
 
@@ -214,7 +214,7 @@ The Book1.xls file is opened using the [**Workbook**](https://apireference.aspos
 
 ![todo:image_alt_text](show-and-hide-elements_11.png)
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayHideGridlines-DisplayHideGridlines.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayHideGridlines-DisplayHideGridlines.java" >}}
 
 ### **Related Articles**
 

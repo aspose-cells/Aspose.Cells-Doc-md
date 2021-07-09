@@ -19,4 +19,4 @@ The screenshot shows the effect of setting different default font names via [Htm
 
 The code generates the [output HTML file with Courier New](5472568), the [output HTML with Arial](5472567) and the [output HTML file with Times New Roman](5472565).
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}

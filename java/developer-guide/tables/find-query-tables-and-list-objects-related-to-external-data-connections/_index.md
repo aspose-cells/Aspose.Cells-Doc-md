@@ -11,7 +11,7 @@ Sometimes, you need to find out Query Tables and List Objects related to some Ex
 
 The following sample code explains how you can find Query Tables and List Objects related to External Data Connection. The code uses the [sample excel file](5472550.xlsm) which you can download from the provided link. You can also see the output of this sample code at the bottom of this article.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
 
 ## **Console Output**
 

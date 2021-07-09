@@ -17,7 +17,7 @@ Sometimes, you might need to present worksheets as images, for example, to use t
 
 This article shows how to use Aspose.Cells for Java API to convert a worksheet to image. The API provides several valuable classes, such as [**SheetRender**](https://apireference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://apireference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), and so on. The [**SheetRender**](https://apireference.aspose.com/cells/java/com.aspose.cells/SheetRender) class represents a worksheet to render images for the worksheet and has an overloaded [**toImage**](https://apireference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)) method that can convert a worksheet to image files directly with any attributes or options set.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
 ### **Result**
 
@@ -31,7 +31,7 @@ After executing the above code, the worksheet named Sheet1 is converted into an 
 
 This example shows how to use Aspose.Cells to convert a worksheet from a template workbook that has several pages to one image file per page.
 
-{{< gist "aspose-com-gists" "439a68a5e4305388c50ca306ef238de5" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheetToImageByPage-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheetToImageByPage-1.java" >}}
 
 ### **Result**
 

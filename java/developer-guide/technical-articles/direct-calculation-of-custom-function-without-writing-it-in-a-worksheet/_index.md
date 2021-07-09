@@ -13,7 +13,7 @@ This article explains how you can directly calculate your custom functions witho
 #### **Direct calculation of custom function without writing it in a worksheet**
 Please see the following sample code that illustrates the usage of this method. We have used a custom function named *MyCompany.CustomFunction()* and we calculate its value as "Aspose.Cells." by ourselves and then this value is automatically concatenated with the value of cell A1 which is "Welcome to " by the calculation engine and the final calculated value returns as "Welcome to Aspose.Cells.". As you can see in a code that we have not written our custom function anywhere in a worksheet and it is calculated directly by our own custom logic.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementDirectCalculationOfCustomFunction-ImplementDirectCalculationOfCustomFunction.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementDirectCalculationOfCustomFunction-ImplementDirectCalculationOfCustomFunction.java" >}}
 #### **Console Output**
 Below is the console output of the above sample code.
 

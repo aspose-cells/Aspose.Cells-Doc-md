@@ -17,7 +17,7 @@ Please see the following sample code, it loads the [sample Excel file](64716833
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "DrawingObjects-AccessAndModifyLabelOfOleObject.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-AccessAndModifyLabelOfOleObject.java" >}}
 
 ## **Console Output**
 

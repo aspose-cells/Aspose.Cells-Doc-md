@@ -25,7 +25,7 @@ Simply call the [**add**](https://apireference.aspose.com/cells/java/com.aspose.
 - **Upper left column index**, the index of the upper left column.
 - **Image file name**, the name of the image file, complete with path.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-AddingPictures-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-AddingPictures-1.java" >}}
 
 ## **Positioning of Pictures**
 
@@ -37,4 +37,4 @@ Pictures can be positioned using Aspose.Cells as follows:
 
 Developers can position the pictures absolutely by using the [**setUpperDeltaX**](https://apireference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) and [**setUpperDeltaY**](https://apireference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) methods of the [**Picture**](https://apireference.aspose.com/cells/java/com.aspose.cells/Picture) object.
 
-{{< gist "aspose-com-gists" "a20e8fa273e7cfa37d032b8211fcf8bf" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
