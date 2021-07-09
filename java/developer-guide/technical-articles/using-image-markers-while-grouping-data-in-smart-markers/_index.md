@@ -29,4 +29,4 @@ Then it fills the data source with data and call the [WorkbookDesigner.Process()
 
 
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Articles-SmartMarkerGroupingImage.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Technical-Articles-SmartMarkerGroupingImage.java" >}}
