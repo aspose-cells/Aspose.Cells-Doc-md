@@ -10,4 +10,4 @@ Aspose.Cells for Python via Java supports exporting only the print area i.e. sel
 
 The following sample code demonstrates the use of the [HtmlSaveOptions.ExportPrintAreaOnly](https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) property to export only the print area to HTML.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "HTML-ExportPrintAreaToHtml.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-ExportPrintAreaToHtml.py" >}}

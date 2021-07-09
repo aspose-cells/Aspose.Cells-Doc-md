@@ -12,4 +12,4 @@ Aspose.Cells for Python via Java supports converting Excel files to SVG images. 
 
 The following code snippet demonstrates converting an Excel worksheet to an SVG image.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "LoadingSavingConvertingAndManaging-ConvertingToSVG.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToSVG.py" >}}

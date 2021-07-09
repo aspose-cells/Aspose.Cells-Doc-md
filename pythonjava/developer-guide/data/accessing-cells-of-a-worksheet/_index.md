@@ -10,8 +10,8 @@ Aspose.Cells for Python via Java allows you to access cells in a worksheet by us
 ### **Access cell using cell name**
 The following code snippet demonstrates accessing the cell using the name of the cell. The sample code accesses the cell "C5" and prints its value.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Data-UsingCellName.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Data-UsingCellName.py" >}}
 ### **Access cell using the row and column index**
 The following code snippet demonstrates accessing the cell using the row and column index. The sample code accesses and prints the value of the cell "C5" that is identified by row index 4 and cell index 2.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Data-UsingRowAndColumnIndexOfCell.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Data-UsingRowAndColumnIndexOfCell.py" >}}

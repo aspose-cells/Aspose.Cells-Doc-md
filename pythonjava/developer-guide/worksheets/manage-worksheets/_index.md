@@ -11,20 +11,20 @@ To create a new Workbook, create an object of the [Workbook](https://docs.aspose
 
 The following code snippet demonstrates creating a new Excel file and adding a worksheet to it.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-AddingWorksheetsToNewExcelFile.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-AddingWorksheetsToNewExcelFile.py" >}}
 ## **Adding Worksheets to a Designer Spreadsheet**
 Adding worksheets to a designer spreadsheet is exactly the same as adding the worksheet to a new Excel file. The only difference is that instead of creating a new Excel file, we open an existing file by the [Workbook](https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook) class.
 
 The following code snippet demonstrates adding a worksheet to a designer spreadsheet.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-AddingWorksheetsToDesignerSpreadsheet.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-AddingWorksheetsToDesignerSpreadsheet.py" >}}
 ## **Accessing Worksheets using Sheet Name**
 After loading a workbook, developers can access any worksheet by using its index or name. The following code snippet demonstrates accessing a worksheet by using its name.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-AccessingWorksheetsUsingSheetName.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-AccessingWorksheetsUsingSheetName.py" >}}
 ## **Removing Worksheets**
 There may be times when some sheets meet to be removed from the workbook. For this, the API provides the [WorksheetCollection.removeAt](https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection#removeAt\(int\)) method. You can pass it sheet index or sheet name of the sheet to be removed. The following examples demonstrate removing worksheets by using the sheet index and sheet name.
 ### **Removing Worksheets using Sheet Index**
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-RemovingWorksheetsUsingSheetIndex.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-RemovingWorksheetsUsingSheetIndex.py" >}}
 ### **Removing Worksheets using Sheet Name**
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-RemovingWorksheetsUsingSheetName.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-RemovingWorksheetsUsingSheetName.py" >}}

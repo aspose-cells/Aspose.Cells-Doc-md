@@ -10,4 +10,4 @@ Aspose.Cells for Python via Java supports updating slicers. For this, the API pr
 
 ![todo:image_alt_text](Updating-Slicer-using-Aspose.Cells.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Slicers-UpdatingSlicer.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-UpdatingSlicer.py" >}}

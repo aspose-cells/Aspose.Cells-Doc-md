@@ -10,4 +10,4 @@ To get hyperlinks in range, use the [getHyperlinks()](https://docs.aspose.com/a
 
 The following code snippet shows how to get all hyperlinks in the selected range.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-GetHyperlinksInRange.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-GetHyperlinksInRange.py" >}}

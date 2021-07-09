@@ -10,4 +10,4 @@ Aspose.Cells for Python via Java provides the ability to count the number of cel
 
 The following code snippet shows how to use the [Cells.getCount](https://apireference.aspose.com/cells/python/asposecells.api/cells#Count)() or [Cells.getCountLarge](https://apireference.aspose.com/cells/python/asposecells.api/cells#CountLarge)() properties to get the number of cells in a worksheet.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-CountNumberOfCells.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-CountNumberOfCells.py" >}}

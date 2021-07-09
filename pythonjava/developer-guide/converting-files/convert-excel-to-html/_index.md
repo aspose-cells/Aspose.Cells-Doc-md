@@ -10,4 +10,4 @@ Aspose.Cells for Python via Java API provides the ability to convert Excel files
 
 The following code snippet demonstrates the use of [HtmlSaveOptions](https://apireference.aspose.com/cells/python/asposecells.api/HtmlSaveOptions) class to export Excel Files to HTML format.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "LoadingSavingConvertingAndManaging-ConvertingToHTMLFiles.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToHTMLFiles.py" >}}

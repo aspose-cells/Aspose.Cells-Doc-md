@@ -12,4 +12,4 @@ Aspose.Cells provides the option to export row and column headings while convert
 
 The following sample code demonstrates using the [HtmlSaveOptions.ExportHeadings](https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) property to render headings in the output HTML file.
 ## **Sample Code**
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "HTML-GetHTML5StringFromCell.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}

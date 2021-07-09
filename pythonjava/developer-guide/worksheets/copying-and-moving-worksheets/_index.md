@@ -29,7 +29,7 @@ The following example shows how to copy an existing worksheet within a workbook.
 
 
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-CopyWithinWorkbook.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-CopyWithinWorkbook.py" >}}
 ### **Copy Worksheets between Workbooks**
 Aspose.Cells provides the [Worksheet.copy()](https://apireference.aspose.com/cells/python/asposecells.api/worksheet#copy\(com.aspose.cells.Worksheet\)) method used to copy worksheets to other workbooks. The method takes the source worksheet object as a parameter.
 
@@ -37,7 +37,7 @@ The following example shows how to copy a worksheet from one workbook to another
 
 
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-CopyWorksheetsBetweenWorkbooks.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-CopyWorksheetsBetweenWorkbooks.py" >}}
 ### **Move Worksheets within Workbook**
 Aspose.Cells provides the [Worksheet.moveTo()](https://apireference.aspose.com/cells/python/asposecells.api/worksheet#moveTo\(int\)) method used to move a worksheet to another location in the same spreadsheet.
 
@@ -45,4 +45,4 @@ The following example shows how to move a worksheet to another location within t
 
 
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-MoveWorksheet.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-MoveWorksheet.py" >}}

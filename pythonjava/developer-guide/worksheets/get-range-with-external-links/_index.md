@@ -10,4 +10,4 @@ There are many instances where excel files access data from other excel files by
 
 The following code snippet shows how to get external links.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Worksheets-GetRangeWithExternalLinks.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-GetRangeWithExternalLinks.py" >}}

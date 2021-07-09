@@ -15,4 +15,4 @@ Aspose.Cells for Python via Java provides the feature to create pivot tables. T
 
 The following code snippet demonstrates creating a pivot table with the Aspose.Cells API.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "PivotTables-CreatePivotTable.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "PivotTables-CreatePivotTable.py" >}}

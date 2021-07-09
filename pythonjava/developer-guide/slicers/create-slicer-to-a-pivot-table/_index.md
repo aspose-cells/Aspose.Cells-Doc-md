@@ -12,4 +12,4 @@ The following code snippet loads the [sample Excel file](106364966.xlsx) that 
 
 ![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Slicers-CreateSlicerToPivotTable.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-CreateSlicerToPivotTable.py" >}}

@@ -14,10 +14,10 @@ The simplest way to convert an Excel file to ODS is to load the workbook and sav
 
 The following code snippet demonstrated converting Excel directly to ODS
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "LoadingSavingConvertingAndManaging-ConvertingToODSFiles.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToODSFiles.py" >}}
 ### **Save the ODS document in ODF 1.1 or 1.2 Specifications**
 Aspose.Cells for Python via Java supports saving ODS files in ODF 1.1 and ODF 1.2 specifications. For this, the API provides [OdsSaveOptions.setStrictSchema11()](https://apireference.aspose.com/cells/python/asposecells.api/odssaveoptions#IsStrictSchema11) property. Setting this property to **true** will save the file with the ODF 1.1 specification. The default value of [OdsSaveOptions.setStrictSchema11()](https://apireference.aspose.com/cells/python/asposecells.api/odssaveoptions#IsStrictSchema11) is **false**, so the ODS file saved without special settings is saved with ODF 1.2 specification.
 
 The following code snippet demonstrated saving ODS files with ODF 1.1 and 1.2 specifications.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "LoadingSavingConvertingAndManaging-SaveODSFilesWithSpecifications.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-SaveODSFilesWithSpecifications.py" >}}

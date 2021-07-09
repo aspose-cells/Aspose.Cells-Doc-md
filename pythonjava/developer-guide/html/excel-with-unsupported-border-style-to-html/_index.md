@@ -12,4 +12,4 @@ The following sample code loads the [sample Excel file](sampleExportSimilarBord
 
 ![todo:image_alt_text](Export-Similar-Border-Style.png)
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "HTML-ExportSimilarBorderStyle.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-ExportSimilarBorderStyle.py" >}}

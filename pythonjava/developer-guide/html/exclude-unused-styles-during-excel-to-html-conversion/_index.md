@@ -14,4 +14,4 @@ The following screenshot shows unused styles in the HTML file which will be remo
 
 The following sample code demonstrates removing unused styles during Excel to HTML conversion.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "HTML-ExcludeUnusedStylesInExcelToHTML.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-ExcludeUnusedStylesInExcelToHTML.py" >}}

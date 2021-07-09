@@ -10,4 +10,4 @@ Aspose.Cells for Python via Java supports exporting Excel to PDF with slicer set
 
 ![todo:image_alt_text](SlicerExcelToPDF.jpg)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Slicers-ExportSlicerToPDF.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-ExportSlicerToPDF.py" >}}

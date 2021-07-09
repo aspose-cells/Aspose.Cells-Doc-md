@@ -12,4 +12,4 @@ To open CSV files, use the [LoadOptions](https://apireference.aspose.com/cells/
 
 The following code snippet demonstrates opening CSV file with Aspose.Cells for Python via Java API.
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "LoadingSavingConvertingAndManaging-OpeningCSVFiles.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-OpeningCSVFiles.py" >}}

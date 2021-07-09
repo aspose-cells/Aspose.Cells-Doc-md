@@ -14,4 +14,4 @@ The following screenshot shows the comment created by the sample code in the red
 
 The following sample code loads the [source excel file](source.xlsx), sets the comment of the first table or list object inside the worksheet 
 
-{{< gist "aspose-com-gists" "f3cac13617c487b51b47cc9ae1d7c008" "Tables-SetTheCommentOfTableOrListObject.py" >}}
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-SetTheCommentOfTableOrListObject.py" >}}
