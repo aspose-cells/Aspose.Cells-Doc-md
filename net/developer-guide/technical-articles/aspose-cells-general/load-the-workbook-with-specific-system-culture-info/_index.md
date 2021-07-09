@@ -12,11 +12,11 @@ The following sample code shows how to load the workbook with specific system cu
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoDateFormat-LoadWorkbookWithSpecificCultureInfoDateFormat.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoDateFormat-LoadWorkbookWithSpecificCultureInfoDateFormat.cs" >}}
 
 
 The following sample code shows how to load the workbook with specific system culture Info to deal with numbers.
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoNumberFormat-LoadWorkbookWithSpecificCultureInfoNumberFormat.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWorkbookWithSpecificCultureInfoNumberFormat-LoadWorkbookWithSpecificCultureInfoNumberFormat.cs" >}}

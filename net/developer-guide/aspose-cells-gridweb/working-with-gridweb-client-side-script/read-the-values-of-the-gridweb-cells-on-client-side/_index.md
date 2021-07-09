@@ -17,11 +17,11 @@ The following sample code retrieves all the cells and then prints their name, va
 ## **Screenshot**
 ![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 ## **Sample Code**
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 
 Please call the JavaScript function ReadGridWebCells() as shown in the above sample code like this.
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
 ## **Console Output**
 This is the console output of the above sample code.
 

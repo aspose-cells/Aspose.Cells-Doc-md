@@ -17,10 +17,10 @@ The code snippet below shows how to access a specific web worksheet from the Gri
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Worksheets-AccessWorksheets.aspx-AccessWorksheetUsingIndex.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AccessWorksheets.aspx-AccessWorksheetUsingIndex.cs" >}}
 ### **Using Sheet Name**
 The code snippet below shows how to access a web worksheet from the GridWeb control's GridWorksheetCollection collection using the sheet name.
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Worksheets-AccessWorksheets.aspx-AccessWorksheetUsingName.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AccessWorksheets.aspx-AccessWorksheetUsingName.cs" >}}

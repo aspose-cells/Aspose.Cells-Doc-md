@@ -17,7 +17,7 @@ Aspose.Cells provides the [**OdsPageBackground**](https://apireference.aspose.c
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-ReadODSBackground-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-ReadODSBackground-1.cs" >}}
 
 ### **Console Output**
 
@@ -31,7 +31,7 @@ Aspose.Cells provides the [**OdsPageBackground**](https://apireference.aspose.c
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-SetODSColoredBackground-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-SetODSColoredBackground-1.cs" >}}
 
 ## **Add Graphic Background to ODS file**
 
@@ -39,4 +39,4 @@ Aspose.Cells provides the [**OdsPageBackground**](https://apireference.aspose.c
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-SetODSGraphicBackground-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-SetODSGraphicBackground-1.cs" >}}

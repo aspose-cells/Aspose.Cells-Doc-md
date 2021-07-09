@@ -15,10 +15,10 @@ To ensure that text in a cell can be read, explicit line breaks and text wrappin
 
 To wrap text in a cell, use the [**Aspose.Cells.Style.IsTextWrapped**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
 ## **To Use Explicit Line Breaks**
 
 You can use ‘\n’ in C# and ‘ vbLf’ in VB.NET to insert explicit line breaks in a cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}

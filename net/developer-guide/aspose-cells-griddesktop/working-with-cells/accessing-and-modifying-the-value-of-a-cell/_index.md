@@ -17,11 +17,11 @@ Each cell has a property named Value . So, once a cell is accessed, developers c
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-AccessAndModifyCells-UsingValue.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-AccessAndModifyCells-UsingValue.cs" >}}
 
 
 **IMPORTANT:** Using Value property of a cell to modify its value is a good approach for setting the value of a single or few cells. If you need to set the values of many cells then the performance of this approach would not be good. So, to set the values of many cells, you should use **SetCellValue** method of the cell for improving the performance of your applications. A modified version of the above code snippet using **SetCellValue** method is shown below.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-AccessAndModifyCells-UsingSetCellValue.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-AccessAndModifyCells-UsingSetCellValue.cs" >}}

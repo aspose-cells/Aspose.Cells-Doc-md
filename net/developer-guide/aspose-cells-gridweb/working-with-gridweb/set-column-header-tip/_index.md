@@ -14,8 +14,8 @@ A complete example is given below to demonstrate how to change columns' captions
 ## **Sample Code**
 Here is the sample script of the **ASPX Page**.
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-SetColumnHeaderTip.aspx" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-SetColumnHeaderTip.aspx" >}}
 
 Here is the sample code of the **ASPX Code Behind CS File**.
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-SetColumnHeaderTip.aspx.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-SetColumnHeaderTip.aspx.cs" >}}

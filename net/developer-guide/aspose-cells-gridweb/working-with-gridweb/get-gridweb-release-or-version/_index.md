@@ -15,10 +15,10 @@ The following sample code finds the running version of Aspose.Cells.GridWeb and 
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-GetGridWebVersion.aspx-GetGridWebVersion.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-GetGridWebVersion.aspx-GetGridWebVersion.cs" >}}
 ## **Find the version number of client side script file of GridWeb**
 You can also find the version number of acwmain.js which is the client side script file of GridWeb. It contains a variable acw_version which holds the version number of acwmain.js file. You can print the version number of acwmain.js file on console like this
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-GetGridWebVersion-GetClientSideGridWebVersion.aspx" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-GetGridWebVersion-GetClientSideGridWebVersion.aspx" >}}

@@ -13,4 +13,4 @@ Sometimes your Html contains numbers like 1234567890123456 which are longer tha
 
 The following sample code explains the usage of [**HTMLLoadOptions.KeepPrecision**](https://apireference.aspose.com/cells/net/aspose.cells/abstracttextloadoptions/properties/keepprecision) property. The API will import the number as it is without converting it to exponential notation.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-AvoidExponentialNotationWhileImportingFromHtml-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AvoidExponentialNotationWhileImportingFromHtml-1.cs" >}}

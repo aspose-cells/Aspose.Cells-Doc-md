@@ -17,7 +17,7 @@ To apply some formatting to a large range of cells in a worksheet:
 1. Specify the attributes.
 1. Apply the style to the cells in the range.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-StylingAndDataFormatting-ReusingStyleObjects-ReusingStyleObjects.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ReusingStyleObjects-ReusingStyleObjects.cs" >}}
 
 {{% alert color="primary" %}}
 

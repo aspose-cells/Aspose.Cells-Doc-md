@@ -47,7 +47,7 @@ All [Aspose](http://www.aspose.com/) components work in evaluation mode when fir
    1. Add a reference. This project uses Aspose.Cells so add a reference to Aspose.Cells, for example ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
    1. Write the code that finds and converts the chart. Below is the code used by the component to accomplish the task. Very few lines of code are used.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingPieChartToImageFile-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingPieChartToImageFile-1.cs" >}}
 
 ### **Converting a Column Chart to an Image File**
 
@@ -70,4 +70,4 @@ First create a column chart in Microsoft Excel and convert it to an image file, 
 1. Set up a project, with references, as described above.
 1. Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertExcelChartToImage-ConvertingColumnChartToImage-1.cs" >}}

@@ -35,7 +35,7 @@ The example code adds a list validation to C1. When a user clicks the cell, a li
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Cells-AddListValidation.aspx-AddListValidation.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-AddListValidation.aspx-AddListValidation.cs" >}}
 ### **Drop-down List Validation**
 Drop-down list validation allows users to provide input for cells by selecting a value from a pre-defined list. To create a drop-down list validation:
 
@@ -53,7 +53,7 @@ The example code adds a drop-down list validation to C1. When a user clicks the 
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Cells-AddDropdownListValidation.aspx-AddDropDownListValidation.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-AddDropdownListValidation.aspx-AddDropDownListValidation.cs" >}}
 ### **Custom Expression Validation**
 Custom expression Validation allows developers to write their own custom regular expressions to validate input values. To create a custom expression validation:
 
@@ -71,7 +71,7 @@ The sample code adds a custom expression validation to C1. Users can only add a 
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Cells-AddCustomValidation.aspx-AddCustomValidation.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-AddCustomValidation.aspx-AddCustomValidation.cs" >}}
 ### **Forcing Validation**
 Using Aspose.Cells.GridWeb, users may post input data to a server. Even if there are validation rules for different cells but the GridWeb control's ForceValidation property is not set to true, input data that's wrong will also be submitted to the server and no validation is forced. The GridWeb's ForceValidation property is always set to true by default.
 

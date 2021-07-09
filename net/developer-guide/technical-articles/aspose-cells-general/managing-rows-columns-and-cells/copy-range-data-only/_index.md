@@ -23,4 +23,4 @@ This example shows how to:
 1. Create another range of cells.
 1. Copy data of the first range to this second range.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}

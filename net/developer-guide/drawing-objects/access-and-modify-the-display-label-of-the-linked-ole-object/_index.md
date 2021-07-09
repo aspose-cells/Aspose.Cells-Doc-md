@@ -17,7 +17,7 @@ Please see the following sample code, it loads the [sample Excel file](64716810
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "DrawingObjects-AccessAndModifyLabelOfOleObject.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-AccessAndModifyLabelOfOleObject.cs" >}}
 
 ## **Console Output**
 

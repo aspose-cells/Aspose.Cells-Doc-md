@@ -23,7 +23,7 @@ Below is the sample code for adding pictures into worksheets.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-AddingPictures.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-AddingPictures.cs" >}}
 ## **Accessing Pictures**
 To access and modify an existing picture in the worksheet, developers can access the picture from the **Pictures** collection of the **Worksheet** by specifying the cell (using cell name or its location in terms of row and column number) in which the picture is inserted. Once the picture is accessed, developers can modify its Image at runtime.
 
@@ -31,7 +31,7 @@ Below is the sample code to access and modify the pictures in a worksheet.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-AccessAndModifyPicture.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-AccessAndModifyPicture.cs" >}}
 ## **Removing Pictures**
 To remove an existing picture, developers can simply access a desired worksheet and then **Remove** picture from the **Pictures** collection of the **Worksheet** by specifying the cell (using its name or row & column number) that contains the picture.
 
@@ -39,4 +39,4 @@ In code below it is shown how to remove pictures from worksheet.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-RemovePicture.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-RemovePicture.cs" >}}

@@ -17,7 +17,7 @@ Aspose.Cells APIs allows to create a waterfall chart with the help of line chart
 
 Below provided code snippet demonstrates the usage of Aspose.Cells for .NET API to create a waterfall chart from scratch.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
 ## Related Articles
 

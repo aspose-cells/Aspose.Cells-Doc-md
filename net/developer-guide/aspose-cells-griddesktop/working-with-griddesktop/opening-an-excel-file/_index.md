@@ -31,7 +31,7 @@ To load the content from an Excel file to Aspose.Cells.GridDesktop control, you 
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningExcelFile.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningExcelFile.cs" >}}
 
 
 The above code snippet can be used by developers in any way they want. For example, if you want to load an Excel file automatically when a windows form loads then you can add this code under the Load event of your Form.
@@ -40,13 +40,13 @@ Aspose.Cells.GridDesktop control supports loading CSV file also. Create the Clic
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningCSVFile.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningCSVFile.cs" >}}
 ### **Opening from a Stream**
 In our above discussion, we have discussed about loading an Excel file by using its file path but Aspose.Cells.GridDesktop control also supports loading Excel file from a stream. Create the Click event of the **Open from Stream** button and paste the following code inside it.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningFromStream.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningFromStream.cs" >}}
 
 
 

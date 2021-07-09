@@ -28,4 +28,4 @@ The following sample code changes the shape type of data labels of the chart to 
 
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 ## **Sample Code**
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Charts-SetShapeTypeOfDataLabelsOfChart.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SetShapeTypeOfDataLabelsOfChart.cs" >}}

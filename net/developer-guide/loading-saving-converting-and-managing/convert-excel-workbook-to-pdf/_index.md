@@ -38,7 +38,7 @@ Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
 The file format should be PDF so select *Pdf* (a pre-defined value) from the **[SaveFormat](https://apireference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration to generate the final PDF document.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
 
 ### **Advanced Conversion**
 
@@ -48,7 +48,7 @@ You may also opt to use the **[PdfSaveOptions](https://apireference.aspose.com/c
 
 The below-provided code snippet demonstrates how to use the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class to save Excel files to PDF/A compliant PDF format.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-AdvancedConversiontoPdf-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AdvancedConversiontoPdf-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -60,13 +60,13 @@ Please note, the **[Compliance](https://apireference.aspose.com/cells/net/aspose
 
 With the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF creation time. The following code demonstrates the use of **[PdfSaveOptions.CreatedTime](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)** property to set the creation time of the PDF file.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-SetPDFCreationTime-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetPDFCreationTime-1.cs" >}}
 
 #### **Set ContentCopyForAccessibility option**
 
 With the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF **[AccessibilityExtractContent](https://apireference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** option to control the content access in the converted PDF.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
 #### **Export Custom properties to PDF**
 
@@ -74,7 +74,7 @@ With the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.ce
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-ExportCustomPropertiesToPdf-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ExportCustomPropertiesToPdf-1.cs" >}}
 
 ### **Conversion Attributes**
 

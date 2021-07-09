@@ -19,7 +19,7 @@ The following sample code loads the [sample Excel file](64716820.xlsx) that cont
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Worksheets-FindIfWorksheetIsDialogSheet.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Worksheets-FindIfWorksheetIsDialogSheet.cs" >}}
 
 ## **Console Output**
 

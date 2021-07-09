@@ -15,7 +15,7 @@ In order to print the contents, the Aspose.Cells.GridWeb for .NET has exposed th
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-PrintGridWeb-PrintGridWebJS.aspx" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-PrintGridWeb-PrintGridWebJS.aspx" >}}
 
 
 
@@ -23,4 +23,4 @@ Once the JavaScript function is in place, it can be triggered on any event of ch
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-PrintGridWeb-PrintGridWeb.aspx" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-PrintGridWeb-PrintGridWeb.aspx" >}}

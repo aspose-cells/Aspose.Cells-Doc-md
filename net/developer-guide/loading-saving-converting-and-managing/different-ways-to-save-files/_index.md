@@ -40,7 +40,7 @@ The file format that the file is saved to is decided by the **[SaveFormat](https
 
 To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the **[SaveFormat](https://apireference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration) when calling the **[Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook)** object's **[Save](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
 ## **Saving Workbook to Text or CSV Format**
 
@@ -52,16 +52,16 @@ When the code is executed, it converts the data of all sheets in the workbook to
 
 You can modify the same example to save your file to CSV. By default, **[TxtSaveOptions.Separator](https://apireference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)** is comma, so do not specify a separator if saving to CSV format.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
 ## **Saving Text Files with Custom Separator**
 
 Text files contain spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters between its data.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-SavingTextFilewithCustomSeparator-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingTextFilewithCustomSeparator-1.cs" >}}
 
 ## **Saving File to a Stream**
 
 To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the **[Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook)** object's **[Save](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method. Specify the desired file format using the **[SaveFormat](https://apireference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration when calling the **[Save](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}

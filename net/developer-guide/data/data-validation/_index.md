@@ -63,7 +63,7 @@ The [**ValidationType**](https://apireference.aspose.com/cells/net/aspose.cells/
 
 With this type of validation, users can enter only whole numbers within a specified range into the validated cells. The code examples that follow show how to implement the WholeNumber validation type. The example creates the same data validation using Aspose.Cells that we created using Microsoft Excel above.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Processing-FilteringAndValidation-WholeNumberDataValidation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-WholeNumberDataValidation-1.cs" >}}
 
 ##### **List Data Validation**
 
@@ -71,25 +71,25 @@ This type of validation allows the user to enter values from a drop-down list. I
 
 It is important here that you set the [**Validation.InCellDropDown**](https://apireference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) property to **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
 
 ##### **Date Data Validation**
 
 With this type of validation, users enter date values within a specified range, or meeting specific criteria, into the validated cells. In the example, the user is restricted to enter dates between 1970 to 1999. Here, the validation area is the B1 cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Processing-FilteringAndValidation-DateDataValidation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-DateDataValidation-1.cs" >}}
 
 ##### **Time Data Validation**
 
 With this type of validation, users can enter times within a specified range, or meeting some criteria, into the validated cells. In the example, the user is restricted to enter times between 09:00 to 11:30 AM. Here, the validation area is the B1 cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Processing-FilteringAndValidation-TimeDataValidation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TimeDataValidation-1.cs" >}}
 
 ##### **Text Length Data Validation**
 
 With this type of validation, users can enter text values of a specified length into the validated cells. In the example, the user is restricted to enter string values with no more than 5 characters. The validation area is the B1 cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Processing-FilteringAndValidation-TextLengthDataValidation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TextLengthDataValidation-1.cs" >}}
 
 ### **Data Validation Rules**
 
@@ -97,7 +97,7 @@ When data validations are implemented, then validation can be checked by assigni
 
 [sampleDataValidationRules.xlsx](77496339.xlsx)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
 
 ## **Check if validation in cell is dropdown**
 
@@ -105,7 +105,7 @@ As we have seen there are many types of validations that can be implemented with
 
 [sampleValidation.xlsx](79527947.xlsx)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CheckIfValidationInCellDropDown-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CheckIfValidationInCellDropDown-1.cs" >}}
 
 ## **Add CellArea to existing Validation**
 
@@ -113,7 +113,7 @@ There might be cases where you might want to add [**CellArea**](https://apirefer
 
 The following code snippet demonstrates the use of the [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://apireference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) method to add new [**CellArea**](https://apireference.aspose.com/cells/net/aspose.cells/cellarea) to existing [**Validation**](https://apireference.aspose.com/cells/net/aspose.cells/validation).
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Data-AddValidationArea-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddValidationArea-1.cs" >}}
 
 The source and output excel files are attached for reference.
 

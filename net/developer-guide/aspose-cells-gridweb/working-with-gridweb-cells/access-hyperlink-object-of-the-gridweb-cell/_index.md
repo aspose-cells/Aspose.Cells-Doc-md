@@ -17,4 +17,4 @@ If your excel file contains hyperlink which links to some URL like <http://wwww.
 ## **Access Hyperlink object of the GridWeb Cell**
 The following sample code accesses the hyperlink of cell A1. If cell A1 contains hyperlink then it will return GridHyperlink object, otherwise, it will return null.
 ### **Sample Code**
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Cells-AccessCellHyperlink.aspx-AccessHyperlink.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-AccessCellHyperlink.aspx-AccessHyperlink.cs" >}}

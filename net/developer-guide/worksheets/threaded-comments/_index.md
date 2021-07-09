@@ -48,7 +48,7 @@ The following code sample demonstrates the use of [**Comments.AddThreadedCommen
 
 #### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-AddThreadedComments-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-AddThreadedComments-1.cs" >}}
 
 ## **Read Threaded Comments**
 
@@ -66,7 +66,7 @@ The following example demonstrates reading comments from column A1 by loading th
 
 #### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-ReadThreadedComments-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-ReadThreadedComments-1.cs" >}}
 
 #### **Console Output**
 
@@ -82,7 +82,7 @@ The following example demonstrates reading the created time of threaded comments
 
 #### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-ReadThreadedCommentCreatedTime-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-ReadThreadedCommentCreatedTime-1.cs" >}}
 
 #### **Console Output**
 
@@ -108,7 +108,7 @@ The following example demonstrates editing the first threaded comment in column 
 
 #### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
 
 ## **Remove Threaded Comments**
 
@@ -126,7 +126,7 @@ The following example demonstrates removing comments in column A1 by loading the
 
 #### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-RemoveThreadedComments-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-RemoveThreadedComments-1.cs" >}}
 
 {{% alert color="primary" %}}
 

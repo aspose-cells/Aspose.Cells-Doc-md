@@ -17,4 +17,4 @@ The following sample code explains the usage of [**Workbook.Settings.WriteProte
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}

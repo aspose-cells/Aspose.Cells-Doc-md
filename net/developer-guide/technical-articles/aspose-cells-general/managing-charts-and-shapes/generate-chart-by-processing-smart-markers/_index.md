@@ -21,7 +21,7 @@ A designer spreadsheet is a simple Excel file created with Microsoft Excel appli
 
 For the sake of simplicity, we will create the designer spreadsheet using the Aspose.Cells for .NET API and later process it against a dynamically created data source for demonstration purposes.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfDesignerSpreadsheet.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfDesignerSpreadsheet.cs" >}}
 
 ## Processing Designer Spreadsheet
 
@@ -29,11 +29,11 @@ In order to process the designer spreadsheet, one must have a data source that c
 
 In order to demonstrate this use case, we will create the data source from scratch and process it against the designer spreadsheet created in the previous step. However, in a real-time scenario, data could already be available for further processing so you can skip the creation of data source if data is already available.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingDesignerSpreadsheet.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingDesignerSpreadsheet.cs" >}}
 
 The processing of Smart Markers is quite simple as demonstrated by the following code snippet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingOfSmartMarkers.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingOfSmartMarkers.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -45,4 +45,4 @@ The above code snippet uses the existing instance of the [**Workbook**](https://
 
 Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the [**Chart.SetChartDataRange**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) method so that we do not have to configure the chart further.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}

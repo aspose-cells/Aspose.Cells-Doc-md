@@ -19,7 +19,7 @@ Similarly, you can use [**Worksheet.Validations.GetValidationInCell**](https://a
 
 Below code sample, shows you how to get validation applied on a cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetValidationAppliedOnCell-GetValidationAppliedOnCell.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetValidationAppliedOnCell-GetValidationAppliedOnCell.cs" >}}
 
 ## Related Articles
 

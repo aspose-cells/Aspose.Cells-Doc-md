@@ -19,13 +19,13 @@ Microsoft Excel assumes that you want to print the entire worksheet area unless 
 
 The [**Aspose.Cells.Rendering.SheetRender**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class represents a worksheet and has the [**ToPrinter**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter/index) method which can print a worksheet. The following sample code shows how to print a worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingUsingSheetRender-PrintingExcelWorkbookUsingSheetRender.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingUsingSheetRender-PrintingExcelWorkbookUsingSheetRender.cs" >}}
 
 ### **Print Using WorkbookRender**
 
 To print a whole workbook, iterate through the sheets and print them, or use the [**WorkbookRender**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) class.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingUsingWorkbookRender-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingUsingWorkbookRender-1.cs" >}}
 
 {{% alert color="primary" %}}
 

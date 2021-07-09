@@ -17,7 +17,7 @@ The following sample code loads the [sample Excel file](55541793.xlsx) contain
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-ConvertSmartArtToGroupShape.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ConvertSmartArtToGroupShape.cs" >}}
 
 ## **Console Output**
 

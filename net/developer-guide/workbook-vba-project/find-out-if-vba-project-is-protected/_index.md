@@ -13,7 +13,7 @@ You can find if the VBA (Visual Basic Applications) Project of your Excel file i
 
 The following sample code creates a workbook and then checks if its VBA project is protected or not. Then it protects the VBA project and again checks if its VBA project is protected or not. Please see its console output for a reference. Before protection, [**VbaProject.IsProtected**](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) returns **false** but after protection, it returns **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
 
 ## **Console Output**
 

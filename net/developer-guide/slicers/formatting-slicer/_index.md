@@ -17,4 +17,4 @@ Please see the following code, it loads theÂ [sample Excel file](67338473.xlsx)Â
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Slicers-FormattingSlicer.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Slicers-FormattingSlicer.cs" >}}

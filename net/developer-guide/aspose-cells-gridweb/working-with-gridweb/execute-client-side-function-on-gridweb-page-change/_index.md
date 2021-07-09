@@ -14,4 +14,4 @@ The following aspx markup explains how to make use of the OnPageChangeClientFunc
 ## **Sample Code**
 This is the code of the client side function MyOnPageChange that will be executed because of setting OnPageChangeClientFunction ="MyOnPageChange" property in GridWeb. This is the complete aspx page markup.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples.GridWeb-CSharp-GridWebBasics-CallClientsideScriptforGridWeb.aspx-CallClientsideScriptforGridWeb.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples.GridWeb-CSharp-GridWebBasics-CallClientsideScriptforGridWeb.aspx-CallClientsideScriptforGridWeb.cs" >}}

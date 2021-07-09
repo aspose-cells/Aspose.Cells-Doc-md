@@ -25,7 +25,7 @@ The [Worksheet](https://apireference.aspose.com/cells/net/aspose.cells/worksheet
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToURL-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToURL-1.cs" >}}
 
 {{% alert color="primary" %}} 
 
@@ -42,7 +42,7 @@ It is possible to add hyperlinks to cells in the same Excel file by calling the 
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToAnotherCell-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToAnotherCell-1.cs" >}}
 ### **Adding a Link to an External File**
 It is possible to add hyperlinks to external Excel files by calling the [Hyperlinks](https://apireference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) collection's [Add](https://apireference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) method. The [Add](https://apireference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) method takes the following parameters:
 
@@ -53,4 +53,4 @@ It is possible to add hyperlinks to external Excel files by calling the [Hyperli
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToExternalFile-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToExternalFile-1.cs" >}}

@@ -17,7 +17,7 @@ The following screenshot shows the Microsoft Excel displaying XML Map inside the
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-XmlMaps-QueryCellAreasMappedToXmlMapPath.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-XmlMaps-QueryCellAreasMappedToXmlMapPath.cs" >}}
 
 ### **Console Output**
 
@@ -49,4 +49,4 @@ XML data can be imported to worksheets. Sometimes XML path is required from the 
 1. [Country List.xml](72417287.xml)
 1. [Food List.xml](72417286.xml)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-XmlMaps-GetXMLPathFromListObject.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-XmlMaps-GetXMLPathFromListObject.cs" >}}

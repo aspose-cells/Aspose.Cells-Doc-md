@@ -19,7 +19,7 @@ Apply different kinds of formatting styles on cells to set background or foregro
 
 If developers need to apply different formatting styles to different cells then it's better to get the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) of the cell using [**Cell.GetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) method, specify the style attributes and then apply the formatting using [**Cell.SetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) method. An example is given below to demonstrate this approach to apply various formatting on a cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingGetStyleSetStyle-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingGetStyleSetStyle-1.cs" >}}
 
 ### **Using Style Object to Format Different Cells**
 
@@ -32,16 +32,16 @@ If developers need to apply the Same formatting style to different cells then th
 
 This approach can greatly improve the efficiency of your applications and save memory too.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingStyleObject-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingStyleObject-1.cs" >}}
 
 ### **Using Microsoft Excel 2007 Predefined Styles**
 
 If you need to apply different formatting styles for Microsoft Excel 2007, apply styles using the Aspose.Cells API. An example is given below to demonstrate this approach to apply a predefined style on a cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingExcelPredefinedStyles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingExcelPredefinedStyles-1.cs" >}}
 
 ### **Applying Gradient Fill Effects**
 
 To apply your desired Gradient Fill Effects to the cell, use the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**SetTwoColorGradient**](https://apireference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient) method accordingly.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}

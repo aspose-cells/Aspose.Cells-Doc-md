@@ -23,7 +23,7 @@ There are many useful properties and methods offered by **Style** object that ca
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-ApplyStyle.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-ApplyStyle.cs" >}}
 ## **Drawing Borders of Cells**
 Using **Style** object, we can draw borders of a cell very easily. The borders can be drawn in any color. Moreover, developers also have the flexibility to choose a specific type of line that will be used to draw borders around the cell. Developers can use **SetBorderLine** and **SetBorderColor** methods of **Style** object to draw borders of any type and colors. Similarly, to get border information of any cell, developers can also make use of **GetBorderLine** and **GetBorderColor** methods of **Style** object.
 ### **Types of Borders**
@@ -52,7 +52,7 @@ A border is composed of a line. Changing the type of line, changes the appearanc
 ## **Summing Up All Together - Example**
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-SummingUp.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-SummingUp.cs" >}}
 ## **Setting Number Formats**
 Aspose.Cells.GridDesktop also provides a strong feature of setting number formats for the values entered into cells. There are 58 built-in number formats offered by Aspose.Cells.GridDesktop. To see a complete list of all supported number formats, please refer to [Supported Number Formats.](/cells/net/list-of-supported-number-formats/)
 
@@ -60,4 +60,4 @@ All built-in number formats are assigned an **Index** number. **For example** th
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-SetNumberFormat.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-SetNumberFormat.cs" >}}

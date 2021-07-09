@@ -17,7 +17,7 @@ Aspose.Cells also provides the feature to add Web Extensions by using the [**We
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Workbook-AddWebExtension-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddWebExtension-1.cs" >}}
 
 ## **Access Web Extension Information**
 
@@ -25,7 +25,7 @@ Aspose.Cells provides the ability to access the information of Web Extensions in
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Workbook-AccessWebExtensionInformation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AccessWebExtensionInformation-1.cs" >}}
 
 ### **Console Output**
 

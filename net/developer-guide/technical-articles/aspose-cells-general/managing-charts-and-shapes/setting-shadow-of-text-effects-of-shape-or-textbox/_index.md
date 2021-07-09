@@ -21,4 +21,4 @@ You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please u
 
 The following code snippet demonstrates the use of [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://apireference.aspose.com/net/cells/aspose.cells.drawing/shadoweffect/properties/presettype) property to set shadow of text effects of Shape or TextBox.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}

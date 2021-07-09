@@ -54,25 +54,25 @@ You can also apply the justify distributed setting using the [**Style.IsJustifyD
 
 Use the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**HorizontalAlignment**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment) property to align the text horizontally.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentHorizontal-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentHorizontal-1.cs" >}}
 
 #### **Vertical Alignment**
 
 Similar to horizontal alignment, use the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**VerticalAlignment**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment) property to align the text vertically.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentVertical-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentVertical-1.cs" >}}
 
 #### **Indentation**
 
 It is possible to set the indentation level of the text in a cell with the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**IndentLevel**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Indentation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Indentation-1.cs" >}}
 
 #### **Orientation**
 
 Set the orientation (rotation) of the text in a cell with the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**RotationAngle**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
 
 #### **Text Control**
 
@@ -82,13 +82,13 @@ The following section discusses how to control text by setting text wrapping, sh
 
 Wrapping text in a cell makes it easier to read: the height of the cell adjusts to fit all the text, instead of cutting it off or spilling over into adjacent cells. Set text wrapping on or off with the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**IsTextWrapped**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
 ##### **Shrinking to Fit**
 
 An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**IsTextWrapped**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) property to **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 
 ##### **Merging Cells**
 
@@ -99,7 +99,7 @@ Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspo
 - Number of rows: the number of rows to merge.
 - Number of columns: the number of columns to merge.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 
 The other way is to first call the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection's [**CreateRange**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) method to create a range of the cells to be merged. The [**CreateRange**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) method takes the same set of parameters as that of the [**Merge**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) method discussed above and returns a [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range) object. The [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range) object also provides a [**Merge**](https://apireference.aspose.com/cells/net/aspose.cells/range/methods/merge) method that merges the range specified in the [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range) object.
 
@@ -115,4 +115,4 @@ The reading order is set with the [**Style**](https://apireference.aspose.com/ce
 |LeftToRight|Left to right reading order|
 |RightToLeft|Right to left reading order|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}

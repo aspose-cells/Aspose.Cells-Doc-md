@@ -13,4 +13,4 @@ Microsoft Excel allows users to add comments to cells to add additional informat
 
 Aspose.Cells provides a [**Shape.TextDirection**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) property to set text direction for a comment. The following sample code demonstrates the use of [**Shape.TextDirection**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection) property to set text direction for a comment.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}

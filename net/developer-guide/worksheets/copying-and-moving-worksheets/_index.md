@@ -31,7 +31,7 @@ Aspose.Cells provides an overloaded method, [**Aspose.Cells.WorksheetCollection.
 
 The following example shows how to copy an existing worksheet within a workbook.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Value-CopyWithinWorkbook-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Value-CopyWithinWorkbook-1.cs" >}}
 
 ### **Copy Worksheets between Workbooks**
 
@@ -39,11 +39,11 @@ Aspose.Cells provides a method, [**Aspose.Cells.Worksheet.Copy()**](https://apir
 
 The following example shows how to copy a worksheet from one workbook to another workbook.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.cs" >}}
 
 The following example shows how to copy a worksheet from one workbook to another.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Value-CopyWorksheetFromWorkbookToOther-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Value-CopyWorksheetFromWorkbookToOther-1.cs" >}}
 
 ### **Move Worksheets within Workbook**
 
@@ -51,4 +51,4 @@ Aspose.Cells provides a method [**Aspose.Cells.Worksheet.MoveTo()**](https://api
 
 The following example shows how to move a worksheet to another location within the workbook.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Value-MoveWorksheet-1.cs" >}}

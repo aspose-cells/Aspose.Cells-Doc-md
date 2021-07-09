@@ -25,7 +25,7 @@ It is also possible to freeze a specific number of rows & columns using the inte
 
 {{% /alert %}} 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-RowsAndColumns-FreezePanes.aspx-FreezePanes.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-FreezePanes.aspx-FreezePanes.cs" >}}
 ## **Unfreezing Rows & Columns**
 To unfreeze rows and columns:
 
@@ -35,4 +35,4 @@ To unfreeze rows and columns:
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-RowsAndColumns-FreezePanes.aspx-UnfreezePanes.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-FreezePanes.aspx-UnfreezePanes.cs" >}}

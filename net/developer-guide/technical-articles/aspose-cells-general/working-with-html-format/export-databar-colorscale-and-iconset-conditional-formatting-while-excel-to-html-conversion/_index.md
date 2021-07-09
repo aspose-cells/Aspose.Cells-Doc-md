@@ -20,6 +20,6 @@ The following screenshot shows the Aspose.Cells output HTML file showing DataBar
 ![todo:image_alt_text](export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion_2.png)
 ### **Sample Code**
 The following sample code converts the sample excel file into HTML which is just a normal [Excel to HTML conversion](/cells/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml).
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
 
 

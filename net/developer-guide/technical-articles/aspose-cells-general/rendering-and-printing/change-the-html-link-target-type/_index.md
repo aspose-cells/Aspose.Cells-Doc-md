@@ -26,4 +26,4 @@ As you can see the target attribute in the above HTML link is **_self**. You can
 
 The following code illustrates the usage of [**HtmlSaveOptions.LinkTargetType**](https://apireference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) property. It changes the link target type to **blank**. By default, it is the **parent**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}

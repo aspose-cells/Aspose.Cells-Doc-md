@@ -26,16 +26,16 @@ Set page margins (left, right, top, bottom) using [**PageSetup**](https://apiref
 - [**TopMargin**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/topmargin)
 - [**BottomMargin**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/bottommargin)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-1.cs" >}}
 
 ### **Center on Page**
 
 It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) class, [**CenterHorizontally**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) and [**CenterVertically**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-CenterOnPage.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-CenterOnPage.cs" >}}
 
 ### **Header and Footer Margins**
 
 Set header and footer margins with the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) class members such as [**HeaderMargin**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) and [**FooterMargin**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}

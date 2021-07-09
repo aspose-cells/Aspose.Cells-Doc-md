@@ -22,7 +22,7 @@ Developers can show any hidden row or column by calling the [**UnhideRow**](http
 - **Row or column index** - the index of a row or column that is used to show the specific row or column.
 - **Row height or column width** - the row height or column width assigned to the row or column after unhiding.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -34,7 +34,7 @@ While making a hidden column visible, if you need to restore it to previously as
 
 Developers can hide a row or column by calling the [**HideRow**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) and [**HideColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) methods of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection respectively. Both methods take the row and column index as a parameter to hide the specific row or column.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ It is also possible to hide a row or column by setting the row height or column 
 
 Developers can hide multiple rows or columns at once by calling the [**HideRows**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) and [**HideColumns**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) methods of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection respectively. Both methods take the starting row or column index and the number of rows or columns that should be hidden as parameters.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
 
 ## **Show and Hide Scroll Bars**
 
@@ -73,4 +73,4 @@ Hide scroll bars by setting the [**Workbook**](https://apireference.aspose.com/c
 
 Below is a complete code that opens an Excel file, book1.xls, hides both scroll bars and then saves the modified file as output.xls.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}

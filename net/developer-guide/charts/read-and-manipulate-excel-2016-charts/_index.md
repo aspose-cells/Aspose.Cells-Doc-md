@@ -16,7 +16,7 @@ The following screenshot shows the [output excel file](22774104.xlsx) after the 
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_2.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-ReadAndManipulateExcel2016Charts.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ReadAndManipulateExcel2016Charts.cs" >}}
 ## **Console Output**
 Here is the console output of the above sample code when executed with the provided [source excel file](22774101.xlsx).
 

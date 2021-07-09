@@ -49,7 +49,7 @@ The following example shows how to copy a row in a worksheet. It uses a template
 
 You can skip the step that gets the source row height using the [**Cells.GetRowHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) method and then sets the destination row height using the [**Cells.SetRowHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) method as the [**CopyRow**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) method automatically takes care of the row height.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Copying-CopyingRows-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingRows-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -74,10 +74,10 @@ Use the [**CopyColumn**](https://apireference.aspose.com/cells/net/aspose.cells/
 
 This example copies a column from a worksheet and pastes it into a worksheet in another workbook.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Copying-CopyingColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingColumns-1.cs" >}}
 
 ### **Pasting Rows/Columns with Paste Options**
 
 Aspose.Cells now provides [**PasteOptions**](https://apireference.aspose.com/cells/net/aspose.cells/pasteoptions) while using functions [**CopyRows**](https://apireference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) and [**CopyColumns**](https://apireference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). It allows to set appropriate paste option similar to Excel.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}

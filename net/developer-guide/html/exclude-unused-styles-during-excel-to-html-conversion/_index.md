@@ -17,4 +17,4 @@ The following sample code creates a workbook and also creates an unused named st
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "HTML-ExcludeUnusedStylesInExcelToHTML.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "HTML-ExcludeUnusedStylesInExcelToHTML.cs" >}}

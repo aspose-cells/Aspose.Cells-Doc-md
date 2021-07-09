@@ -19,7 +19,7 @@ The following sample code explains the usage of [**StyleFlag.QuotePrefix**](http
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
 ## **Console Output**
 

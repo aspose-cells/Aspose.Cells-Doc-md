@@ -27,19 +27,19 @@ The following code snippet demonstrates how to set the chart area.
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartArea-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartArea-1.cs" >}}
 ### **Setting Chart Lines**
 Developers can also apply different kinds of styles on the lines or data markers of the [SeriesCollection](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection). The following code snippet demonstrates how to set chart lines using Aspose.Cells API.
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartLines-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartLines-1.cs" >}}
 ### **Applying Microsoft Excel 2007/2010 Themes to Charts**
 Developers can apply different Microsoft Excel themes/colors to [SeriesCollection](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) or other chart objects as shown below in the example.
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-SettingChartsAppearance-ApplyingThemes-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ApplyingThemes-1.cs" >}}
 ### **Setting the Titles of Charts or Axes**
 You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title) property that can be used to set their titles as shown below in an example.
 
@@ -47,7 +47,7 @@ The following code snippet demonstrates how to set titles to charts and axes.
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
 ### **Working with Major Gridlines**
 It is possible to customize the look of major gridlines. Hide or show gridlines, or define their color and other settings. Below, we show how to hide gridlines and how to change their color.
 #### **Hiding Major Gridlines**
@@ -57,7 +57,7 @@ The following code snippet demonstrates how to hide major gridlines. After hidi
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-SettingChartsAppearance-MajorGridlines-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-MajorGridlines-1.cs" >}}
 #### **Changing Major Gridlines Settings**
 Developers cannot only control the visibility of major gridlines but also other properties including its color etc.
 
@@ -65,4 +65,4 @@ The following code snippet demonstrates how to change the major gridlines' colo
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-SettingChartsAppearance-ChangingMajorGridlines-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ChangingMajorGridlines-1.cs" >}}

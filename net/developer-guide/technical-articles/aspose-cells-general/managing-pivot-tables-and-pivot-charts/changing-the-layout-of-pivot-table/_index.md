@@ -19,4 +19,4 @@ Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://apirefer
 
 The following sample code first shows the Pivot Table in **Compact Form**, then it shows the Pivot Table in **Outline Form** and lastly it shows Pivot Table in **Tabular Form**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-ChangingLayoutOfPivotTable-ChangingLayoutOfPivotTable.cs" >}}

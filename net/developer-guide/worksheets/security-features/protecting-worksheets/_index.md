@@ -47,7 +47,7 @@ The [**ProtectionType**](https://apireference.aspose.com/cells/net/aspose.cells/
 
 The example below shows how to protect a worksheet with a password.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingWorksheet-1.cs" >}}
 
 After the above code is used to protect the worksheet, you can check the protection on the worksheet by opening it. Once you open the file and try to add some data to the worksheet, you will see the following dialog:
 
@@ -81,7 +81,7 @@ In this method, we use Aspose.Cells API only to do the task.
 
 Example: The following example exhibits how to protect a few cells in the worksheet. It unlocks all the cells in the worksheet first and then locks 3 cells (A1, B1, C1) in it. Finally, it protects the worksheet. The [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object contains a boolean property, [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked). You can set [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked) property to true or false and apply *Column/Row.ApplyStyle()* method to lock or unlock the row/column with your desired attributes.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificCellsinaWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificCellsinaWorksheet-1.cs" >}}
 
 ### **Protect a Row in the Worksheet**
 
@@ -89,7 +89,7 @@ Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can ma
 
 The following example shows how to protect a row in the worksheet. It unlocks all the cells in the worksheet first and then locks the first row in it. Finally, it protects the worksheet. The [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object contains a boolean property, [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked). You can set [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked) property to true or false to lock or unlock the row/column using the [**StyleFlag**](https://apireference.aspose.com/cells/net/aspose.cells/styleflag) object.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificRowInWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificRowInWorksheet-1.cs" >}}
 
 ### **Protect a Column in the Worksheet**
 
@@ -97,10 +97,10 @@ Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can
 
 The following example shows how to protect a column in the worksheet. It unlocks all the cells in the worksheet first and then locks the first column in it. Finally, it protects the worksheet. The [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object contains a boolean property, [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked). You can set [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked) property to true or false to lock or unlock the row/column using the [**StyleFlag**](https://apireference.aspose.com/cells/net/aspose.cells/styleflag) object.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Security-Protecting-ProtectColumnWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Security-Protecting-ProtectColumnWorksheet-1.cs" >}}
 
 ### **Allow Users to Edit Ranges**
 
 The following example shows how to allow users to edit a range in a protected worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}

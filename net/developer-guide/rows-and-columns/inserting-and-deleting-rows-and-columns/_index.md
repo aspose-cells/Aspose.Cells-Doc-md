@@ -26,7 +26,7 @@ When rows or columns are added, the content in the worksheet is shifted down or 
 
 Insert a row into the worksheet at any location by calling the [**InsertRow**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**InsertRow**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) method takes the index of the row where the new row will be inserted.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARow-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARow-1.cs" >}}
 
 ### **Inserting Multiple Rows**
 
@@ -35,7 +35,7 @@ To insert multiple rows into a worksheet, call the [**InsertRows**](https://apir
 - Row index, the index of the row from where the new rows will be inserted.
 - Number of rows, the total number of rows that need to be inserted.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingMultipleRows-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingMultipleRows-1.cs" >}}
 
 ### **Insert a Row with Formatting**
 
@@ -45,7 +45,7 @@ To insert a row with formatting options, use the [**InsertRows**](https://apire
 - SameAsBelow:  Formats the row same as below row.
 - Clear: Clears the formatting.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARowWithFormatting-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARowWithFormatting-1.cs" >}}
 
 ### **Deleting Multiple Rows**
 
@@ -54,16 +54,16 @@ To delete multiple rows from a worksheet, call the [**DeleteRows**](https://apir
 - Row index, the index of the row from where the rows will be deleted.
 - Number of rows, the total number of rows that need to be deleted.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingMultipleRows-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingMultipleRows-1.cs" >}}
 
 ### **Insert a Column**
 
 Developers can also insert a column into the worksheet at any location by calling the [**InsertColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**InsertColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) method takes the index of the column where the new column will be inserted.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingAColumn-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingAColumn-1.cs" >}}
 
 ### **Delete a Column**
 
 To delete a column from the worksheet at any location, call the [**DeleteColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**DeleteColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) method takes the index of the column to delete.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}

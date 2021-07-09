@@ -15,7 +15,7 @@ Aspose.Cells allows you to add bookmarks on the fly. PDF bookmarks can drastical
 
 Please see the following sample code to find out how to add PDF bookmarks. The code generates a simple workbook, specifies PDF bookmarks with destination locations and generates the PDF file.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-AddPDFBookmarks-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddPDFBookmarks-1.cs" >}}
 
 {{% alert color="primary" %}}
 

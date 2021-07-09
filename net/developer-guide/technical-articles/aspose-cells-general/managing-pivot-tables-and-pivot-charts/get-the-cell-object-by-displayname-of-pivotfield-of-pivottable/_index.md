@@ -19,7 +19,7 @@ The following code accesses the first pivot table of the worksheet and then get 
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
 
-{{< gist "aspose-com-gists" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetCellByDisplayName-GetCellObjectByDisplayName.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetCellByDisplayName-GetCellObjectByDisplayName.cs" >}}
 
 |**Pivot Table - After**|
 | :- |

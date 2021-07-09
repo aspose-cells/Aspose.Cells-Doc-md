@@ -15,7 +15,7 @@ By default, when the chart is exported to SVG format, the **viewBox** attribute 
 
 The following sample code exports the chart to SVG format with the viewBox attribute.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-RenderingAndPrinting-ExportChartToSvgWithViewBox-ExportChartToSvgWithViewBox.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ExportChartToSvgWithViewBox-ExportChartToSvgWithViewBox.cs" >}}
 
 {{% alert color="primary" %}}
 

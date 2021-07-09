@@ -31,7 +31,7 @@ The example below demonstrates the Sparklines feature. The example shows how to:
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-UsingSparklines-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-UsingSparklines-1.cs" >}}
 ## **Setting 3D Format**
 You might need 3D charting styles so you can get just the results for your scenario. Aspose.Cells does provide the relevant API to apply Microsoft Excel 2007 3D formatting.
 
@@ -39,4 +39,4 @@ A complete example is given below to demonstrate how to create a chart and apply
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-Applying3DFormat-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-Applying3DFormat-1.cs" >}}

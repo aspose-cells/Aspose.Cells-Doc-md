@@ -79,13 +79,13 @@ It's very easy to process the smart markers. What follows are two code snippets,
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-DynamicFormulas-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-DynamicFormulas-1.cs" >}}
 ## **Using Variable Arrays**
 Following example code shows on how to use variable arrays in Smart Markers. We place a variable array marker into A1 cell of the first worksheet of the workbook dynamically which contains string of values which we set for the marker, process the markers to fill data into the cells against the marker. Finally we save the Excel file.
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-UsingVariableArray-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingVariableArray-1.cs" >}}
 ## **Grouping Data**
 In some Excel reports you might need to break the data into groups to make it easier to read and analyze. One of the primary purposes for breaking data into groups is to run calculations (perform summary operations) on each group of records.
 
@@ -140,7 +140,7 @@ Here is the source code used in the example.
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-GroupingData-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-GroupingData-1.cs" >}}
 
 {{% alert color="primary" %}} 
 
@@ -154,7 +154,7 @@ Aspose.Cells also supports anonymous types or custom objects in smart markers. T
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-UsingAnonymousTypes-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingAnonymousTypes-1.cs" >}}
 ## **Image Markers**
 Aspose.Cells smart markers support image markers too. This section shows you how to insert pictures using smart markers.
 ### **Image Parameters**
@@ -168,7 +168,7 @@ Here is the source code used in the example.
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-ImageMarkers-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-ImageMarkers-1.cs" >}}
 ## **Using Nested Objects**
 Aspose.Cells supports nested objects in smart markers, the nested objects should be simple. We use a simple template file. See the designer spreadsheet that contains some nested smart markers.
 
@@ -179,7 +179,7 @@ The example that follows shows how this works.
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingNestedObjects-1.cs" >}}
 ## **Using Generic List as Nested Object**
 Aspose.Cells now also supports using generic list as a nested object. Please check the screenshot of the output excel file generated with the following code. As you can see in the screenshot a Teacher object contains multiple nested Student objects.
 
@@ -195,7 +195,7 @@ The following sample code explains the use of HTML property of the Smart Markers
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-SmartMarkers-UsingHTMLProperty-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingHTMLProperty-1.cs" >}}
 
 ## **Not line by line**
 The current default processing method is to process smartmaker line by line. But sometimes the smart markers of the same data table needs to be processed together, no matter 
@@ -203,7 +203,7 @@ if they are in the same row or not, then you have to specify a named range "_Cel
 
 |![todo:image_alt_text](using-smart-markers_11.png)|
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-SmartMarkers-LayerByLayer.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-LayerByLayer.cs" >}}
 
 ## **Getting Notifications while Merging Data with Smart Markers**
 Sometimes, it may be required to get the notifications about the cell reference or the particular Smart Marker being processed before the completion. This can be achieved using the WorkbookDesigner.CallBack property and ISmartMarkerCallBack

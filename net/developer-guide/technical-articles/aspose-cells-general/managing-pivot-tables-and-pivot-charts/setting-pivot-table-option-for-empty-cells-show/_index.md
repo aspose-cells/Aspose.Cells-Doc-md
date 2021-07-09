@@ -24,7 +24,7 @@ To find and set this option in Microsoft Excel:
 
 Aspose.Cells provides the [**PivotTable.DisplayNullString**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/displaynullstring) and [**PivotTable.NullString**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/nullstring) properties for setting the "For empty cells show" pivot table option.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SettingPivotTableOption-SettingPivotTableOption.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SettingPivotTableOption-SettingPivotTableOption.cs" >}}
 
 ## Related Articles
 

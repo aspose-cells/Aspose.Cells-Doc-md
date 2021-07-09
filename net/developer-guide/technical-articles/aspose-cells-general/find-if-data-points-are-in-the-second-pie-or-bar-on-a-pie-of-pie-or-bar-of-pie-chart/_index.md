@@ -14,7 +14,7 @@ The following sample code shows how to find if data points are in the second pie
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
 ## **Console Output**
 Please see the following console output generated after the execution of the above sample code with the [sample excel file](5115193.xlsx). If [IsInSecondaryPlot](https://apireference.aspose.com/net/cells/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) is **false**, the data point is inside the Pie or if it is **true**, then the data point is inside the Bar.
 

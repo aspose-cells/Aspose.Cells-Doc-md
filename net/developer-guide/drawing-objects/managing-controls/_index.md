@@ -23,7 +23,7 @@ One way to stress important information in a report is to use a text box. For ex
 
 The following example creates two textboxes in the first worksheet of the workbook. The first text box is well-furnished with different format settings. The second is a simple one.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingTextBoxControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingTextBoxControl-1.cs" >}}
 
 ## **Manipulating Text Box Controls in Designer Spreadsheets**
 
@@ -31,7 +31,7 @@ Aspose.Cells also lets you access textboxes in the designer worksheets and manip
 
 The following example uses the Microsoft Excel file that we created in the above example. It gets the text strings of the two textboxes and changes the text of the second textbox to save the file.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-ManipulatingTextBoxControls-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-ManipulatingTextBoxControls-1.cs" >}}
 
 ## **Adding Check Box Control to a Worksheet**
 
@@ -58,7 +58,7 @@ Aspose.Cells provides the [**CheckBoxCollection**](https://apireference.aspose.c
 
 The following example shows how to add a checkbox to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingCheckBoxControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingCheckBoxControl-1.cs" >}}
 
 ## **Adding Radio Button Control to the Worksheet**
 
@@ -87,7 +87,7 @@ To place a Radio Button control in your worksheet, follow these steps:
 
 The following example shows how to add radio buttons to a worksheet. The example adds three radio buttons representing age groups.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingRadioButtonControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRadioButtonControl-1.cs" >}}
 
 ## **Adding Combo Box Control to a Worksheet**
 
@@ -115,7 +115,7 @@ The [**Aspose.Cells.Drawing.ShapeCollection**](https://apireference.aspose.com/c
 
 The following example shows how to add a combo box to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingComboBoxControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingComboBoxControl-1.cs" >}}
 
 ## **Adding Label Control to a Worksheet**
 
@@ -126,7 +126,7 @@ Labels are a means of give users information about a speadsheet's contents. Aspo
 
 The following example shows how to add a label to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingLabelControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLabelControl-1.cs" >}}
 
 ## **Adding List Box Control to a Worksheet**
 
@@ -154,7 +154,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add a list box to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingListBoxControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingListBoxControl-1.cs" >}}
 
 ## **Adding Button Control to a Worksheet**
 
@@ -181,7 +181,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add a button to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingButtonControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingButtonControl-1.cs" >}}
 
 ## **Adding Line Control to the Worksheet**
 
@@ -202,7 +202,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add lines to the worksheet. It creates three lines with different styles.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingLineControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLineControl-1.cs" >}}
 
 ### **Adding an Arrow Head to a Line**
 
@@ -210,7 +210,7 @@ Aspose.Cells also allows you to draw arrow lines. It is possible to add an arrow
 
 The following example shows how to add an arrowhead to a line.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddinganArrowHead-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddinganArrowHead-1.cs" >}}
 
 ## **Adding Rectangle Control to a Worksheet**
 
@@ -234,7 +234,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add a rectangle to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingRectangleControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRectangleControl-1.cs" >}}
 
 ## **Adding Arc Control to the Worksheet**
 
@@ -257,7 +257,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add arc shapes to the worksheet. The example creates two arc shapes: one is filled and other is simple.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingArcControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingArcControl-1.cs" >}}
 
 ## **Adding Oval Control to a Worksheet**
 
@@ -283,7 +283,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add oval shapes to the worksheet. The example creates two oval shapes: one is filled oval other is a simple circle.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingOvalControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingOvalControl-1.cs" >}}
 
 ## **Adding Spinner Control to the Worksheet**
 
@@ -313,7 +313,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add a spin box to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingSpinnerControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingSpinnerControl-1.cs" >}}
 
 ## **Adding Scroll Bar Control to a Worksheet**
 
@@ -349,7 +349,7 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add a scroll bar to the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingScrollBarControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingScrollBarControl-1.cs" >}}
 
 ## **Adding GroupBox Control to Group Controls in a Worksheet**
 
@@ -375,4 +375,4 @@ The [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells
 
 The following example shows how to add a group box and group the controls in the worksheet.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-DrawingObjects-Controls-AddingGroupBoxControl-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingGroupBoxControl-1.cs" >}}

@@ -48,7 +48,7 @@ First create a simple worksheet in Microsoft Excel. Then apply page setup option
       …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 1. Write the application that invokes the API:
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPageSetup-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPageSetup-1.cs" >}}
 
 ### **Setting Print options**
 
@@ -74,4 +74,4 @@ Executing the code changes the print options.
 | :- |
 |![todo:image_alt_text](page-setup-and-printing-options_4.png)|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPrintingOptions-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPrintingOptions-1.cs" >}}

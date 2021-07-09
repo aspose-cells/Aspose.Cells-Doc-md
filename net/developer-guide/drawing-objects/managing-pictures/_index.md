@@ -18,7 +18,7 @@ Simply call the [**Add**](https://apireference.aspose.com/cells/net/aspose.cells
 - **Upper left column index**, the index of the upper left column.
 - **Image file name**, the name of the image file, complete with path.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 ### **Positioning Pictures**
 
@@ -31,13 +31,13 @@ There are two possible ways to control the positioning of pictures using Aspose.
 
 Developers can position the pictures proportional to row height and column width using the [**UpperDeltaX**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltax) and [**UpperDeltaY**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltay) properties of the [**Aspose.Cells.Drawing.Picture**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture) object. A [**Picture**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture) object can be obtained from the [**Pictures**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection by passing its picture index. This example places an image in the F6 cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-ProportionalPositioning-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-ProportionalPositioning-1.cs" >}}
 
 #### **Absolute Positioning**
 
 Developers can also position the pictures absolutely by using the [**Left**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/left) and [**Top**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/top) properties of the [**Picture**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture) object. This example places an image in cell F6, 60 pixels from the left and 10 pixels from the top of the cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-AbsolutePositioning-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-AbsolutePositioning-1.cs" >}}
 
 ### **Inserting a Picture Based on Cell Reference**
 
@@ -45,4 +45,4 @@ Aspose.Cells lets you display the contents of a worksheet cell in an image shape
 
 Add a picture to the worksheet by calling the [**AddPicture**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) method of the [**ShapeCollection**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) collection (encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) object). Specify the cell range by using the [**Formula**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) attribute of the [**Picture**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture) object.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-Pictures-PictureCellReference-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PictureCellReference-1.cs" >}}

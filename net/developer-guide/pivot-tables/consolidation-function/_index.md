@@ -28,7 +28,7 @@ Aspose.Cells provides [**ConsolidationFunction**](https://apireference.aspose.co
 
 The following code applies **Average** consolidation function to the first data field (or value field) and **DistinctCount** consolidation function to the second data field (or value field).
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-PivotTable-ConsolidationFunctions-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ConsolidationFunctions-1.cs" >}}
 
 {{% alert color="primary" %}}
 

@@ -47,4 +47,4 @@ Below are the steps involved how to create a spreadsheet and format different ce
    1. Add a reference to Aspose.Cells, for example …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 1. Add the following code to the project:
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatWorksheetCells-1.cs" >}}

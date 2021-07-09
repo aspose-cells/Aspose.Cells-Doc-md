@@ -13,4 +13,4 @@ Aspose.Cells APIs have enhanced the [**Protection**](https://apireference.aspose
 
 The [**Protection.VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) method returns **true** if the specified password matches the password used to protect the given worksheet and **false** if the specified password does not match. Following piece of code uses the [**Protection.VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) method in conjunction with [**Protection.IsProtectedWithPassword**](https://apireference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) property to detect the password protection, and verifies the password.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-VerifyPasswordUsedToProtectWorksheets-VerifyPasswordUsedToProtectWorksheets.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-VerifyPasswordUsedToProtectWorksheets-VerifyPasswordUsedToProtectWorksheets.cs" >}}

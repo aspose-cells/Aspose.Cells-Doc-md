@@ -37,19 +37,19 @@ While traversing the cells, the collection should not be modified (operations th
 
 The following code example demonstrates the implementation of the IEnumerator interface for a Cells collection.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-CellsEnumerator.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-CellsEnumerator.cs" >}}
 
 ### **Rows Enumerator**
 
 The Rows Enumerator can be accessed while using the [**RowCollection.GetEnumerator**](https://apireference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator) method. The following code example demonstrates the implementation of the IEnumerator interface for [**RowCollection**](https://apireference.aspose.com/cells/net/aspose.cells/rowcollection).
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-RowEnumerator.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-RowEnumerator.cs" >}}
 
 ### **Columns Enumerator**
 
 The Columns Enumerator can be accessed while using the [**ColumnCollection.GetEnumerator**](https://apireference.aspose.com/cells/net/aspose.cells/columncollection) method. The following code example demonstrates the implementation of the IEnumerator interface for [**ColumnCollection**](https://apireference.aspose.com/cells/net/aspose.cells/columncollection).
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 
 ## **Where to use Enumerators**
 
@@ -61,11 +61,11 @@ An application requirement is to traverse all cells in a given [**Worksheet**](h
 
 ### **Using Display Range**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingDisplayRange.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingDisplayRange.cs" >}}
 
 ### **Using MaxDataRow & MaxDataColumn**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingMaxDataRowAndMaxDataColumn.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingMaxDataRowAndMaxDataColumn.cs" >}}
 
 As you can observe that both of the above-mentioned approaches use more or less similar logic, that is; loop over all cells in the collection to read the cell values. This could be problematic for a number of reasons as discussed below.
 

@@ -25,28 +25,28 @@ To create a new Excel file programmatically:
 1. Perform work on the worksheets.
 1. Save the new Excel file with new worksheets by calling the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class' [**Save**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) method.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 
 ## **Adding Worksheets to a Designer Spreadsheet**
 
 The process of adding worksheets to a designer spreadsheet is the same as that of adding a new worksheet, except that the Excel file already exists so should be opened before worksheets are added. A designer spreadsheet can be opened by the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToDesignerSpreadSheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToDesignerSpreadSheet-1.cs" >}}
 
 ## **Accessing Worksheets using Sheet Name**
 
 Access any worksheet by specifying its name or index.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Management-AccessingWorksheetsusingSheetName-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AccessingWorksheetsusingSheetName-1.cs" >}}
 
 ## **Removing Worksheets using Sheet Name**
 
 To remove worksheets from a file, call the [**RemoveAt**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) method of [**WorksheetCollection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection) class. Pass the sheet name to the [**RemoveAt**](https://apireference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1) method to remove a specific worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetName-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetName-1.cs" >}}
 
 ## **Removing Worksheets using Sheet Index**
 
 Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the [**RemoveAt**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat) method that takes the sheet index of the worksheet instead of its sheet name.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetIndex-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetIndex-1.cs" >}}

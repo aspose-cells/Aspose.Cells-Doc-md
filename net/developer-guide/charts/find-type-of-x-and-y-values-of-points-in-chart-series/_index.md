@@ -10,7 +10,7 @@ Sometime, you want to know the type of X and Y values of chart points in a serie
 ## **Find Type of X and Y Values of Points in Chart Series**
 The following sample code loads the [sample Excel file](64716905.xlsx) and accesses the first chart inside the first worksheet. It then calls the Chart.Calculate() method and finds the type of X and Y values of first chart point and prints them on console. Please see the console output shown below for a reference.
 ## **Sample Code**
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Charts-FindTypeOfXandYValuesOfPointsInChartSeries.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-FindTypeOfXandYValuesOfPointsInChartSeries.cs" >}}
 ## **Console Output**
 {{< highlight java >}}
 

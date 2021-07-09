@@ -21,11 +21,11 @@ The [**GlobalizationSettings**](https://apireference.aspose.com/cells/net/aspose
 
 The [**GlobalizationSettings**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings) class can be used to customize the Subtotal labels by overriding the [**GlobalizationSettings.GetTotalName**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname) methods as demonstrated ahead.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 
 In order to inject custom labels, it is required to assign the [**WorkbookSettings.GlobalizationSettings**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) property to an instance of the **CustomSettings** class defined above before adding the Subtotals to the worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CustomLabelsSubtotals-UsingGlobalizationSettings.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-UsingGlobalizationSettings.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -37,8 +37,8 @@ The [**GlobalizationSettings**](https://apireference.aspose.com/cells/net/aspose
 
 The [**GlobalizationSettings**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings) class offers [**GetOtherName**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername) method which is useful to give the "Other" label of Pie charts a custom value. The following snippet defines a custom class and overrides the [**GetOtherName**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername) method to get a custom label based on the system's culture identifier.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CustomTextForLabels-GlobalizationSettings.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-GlobalizationSettings.cs" >}}
 
 The following snippet loads an existing spreadsheet containing a Pie chart and renders the chart to an image while utilizing the **CustomSettings** class created above.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}

@@ -33,7 +33,7 @@ The following screenshot shows the XSLX file converted from the above CSV file a
 
 Below is the sample code that converts the above CSV file into XLSX format properly.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ReadingCSVMultipleEncodings-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCSVMultipleEncodings-1.cs" >}}
 
 ## Related Articles
 

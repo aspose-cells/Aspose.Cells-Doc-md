@@ -16,4 +16,4 @@ Aspose.Cells can now render worksheet to graphic context. Graphic context can be
 
 The following code illustrates how to use Aspose.Cells to render worksheet to graphic context. Once you will execute a code, it will print the entire worksheet and fill the leftover empty space with blue color in graphics context and save the image as **OutputImage_out_.png** file. You can use any source excel file to try this code. Please also read the comments inside the code for better understanding.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-RenderWorksheetToGraphicContext-RenderWorksheetToGraphicContext.cs" >}}

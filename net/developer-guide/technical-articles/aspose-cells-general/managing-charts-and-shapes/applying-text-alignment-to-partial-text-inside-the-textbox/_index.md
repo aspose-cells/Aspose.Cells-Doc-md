@@ -11,4 +11,4 @@ You can change the text alignment of partial text inside TextBox shape using the
 
 {{% /alert %}}
 
-{{< gist "aspose-com-gists" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-TextBox-ApplyPartialTextAlignment-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TextBox-ApplyPartialTextAlignment-1.cs" >}}

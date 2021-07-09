@@ -33,7 +33,7 @@ The following example shows how to merge cells (C6:E7) in a worksheet.
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 ## **Unmerging (Splitting) Merged Cells**
 ### **Using Microsoft Excel**
 The following steps describe how to split merged cells using Microsoft Excel.
@@ -48,4 +48,4 @@ The following example shows how to split the merged cells (C6). The example uses
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-AddOn-Merging-UnMergingtheMergedCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-UnMergingtheMergedCells-1.cs" >}}

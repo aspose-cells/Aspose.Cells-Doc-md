@@ -19,7 +19,7 @@ This article makes use of Excel's built-in functions such as ROW, COLUMN & MOD. 
 
 Let's start writing some code to accomplish this goal with the help of Aspose.Cells for .NET API.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageConditionalFormatting-ApplyShadingToAlternateRowsColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-ApplyShadingToAlternateRowsColumns-1.cs" >}}
 
 The following snapshot shows the resultant spreadsheet loaded in Excel application.
 

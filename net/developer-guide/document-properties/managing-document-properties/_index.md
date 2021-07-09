@@ -64,7 +64,7 @@ Both the [**WorksheetCollection.BuiltInDocumentProperties**](https://apireferenc
 
 It is up to the application requirement how to access a property, that is; by using the index or name of the property from the [**DocumentPropertyCollection**](https://apireference.aspose.com/cells/net/aspose.cells.properties/documentpropertycollection) as demonstrated in the example below.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-AccessingDocumentProperties.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AccessingDocumentProperties.cs" >}}
 
 The [**Aspose.Cells.Properties.DocumentProperty**](https://apireference.aspose.com/cells/net/aspose.cells.properties/documentproperty) class allows to retrieve the name, value, and type of the document property:
 
@@ -86,7 +86,7 @@ The [**DocumentProperty**](https://apireference.aspose.com/cells/net/aspose.cell
 |Number|The property data type is Int32|ToInt|
 |String|The property data type is String|ToString|
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Files-Utility-AccessingValueOfDocumentProperties.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AccessingValueOfDocumentProperties.cs" >}}
 
 ### **Adding or Removing Custom Document Properties**
 
@@ -96,7 +96,7 @@ As we have described earlier at the beginning of this topic, developers can't ad
 
 Aspose.Cells APIs have exposed the [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) method for the [**CustomDocumentPropertyCollection**](https://apireference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) class in order to add custom properties to the collection. The [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) method adds the property to the Excel file and returns a reference for the new document property as an [**Aspose.Cells.Properties.DocumentProperty**](https://apireference.aspose.com/cells/net/aspose.cells.properties/documentproperty) object.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
 
 ### **Configuring “Link to content” Custom Property**
 
@@ -104,10 +104,10 @@ To create a custom property linked to the content of a given range, call the [**
 
 We use a simple template Microsoft Excel file in the example. The workbook has a defined named range labeled **MyRange** which refers to a cell value.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-ConfigureLinktoContentDocumentProperty.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConfigureLinktoContentDocumentProperty.cs" >}}
 
 ### **Removing Custom Properties**
 
 To remove custom properties using Aspose.Cells, call the [**DocumentPropertyCollection.Remove**](https://apireference.aspose.com/cells/net/aspose.cells.properties/documentpropertycollection/methods/remove) method and pass the name of the document property to be removed.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-RemovingCustomProperties.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-RemovingCustomProperties.cs" >}}

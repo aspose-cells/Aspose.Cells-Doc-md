@@ -20,4 +20,4 @@ The code below sets a background image using an image from a stream.
 
 
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Articles-SetBackgroundPicture-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetBackgroundPicture-1.cs" >}}

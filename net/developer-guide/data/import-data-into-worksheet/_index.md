@@ -26,7 +26,7 @@ To import data to a spreadsheet from an array, call the [**ImportArray**](https:
 - **Column number**, the column number of the first cell that the data will be imported to.
 - **Is vertical**, a Boolean value that specifies whether to import data vertically or horizontally.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromArray-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArray-1.cs" >}}
 
 ### **Importing from ArrayList**
 
@@ -37,19 +37,19 @@ To import data from an *ArrayList* to worksheets, call the [**Cells**](https://
 - **Column number**, represents the column number of the first cell that the data will be imported to.
 - **Is vertical**, a Boolean value that specifies whether to import data vertically or horizontally.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromArrayList-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArrayList-1.cs" >}}
 
 ### **Importing from Custom Objects**
 
 To import data from a collection of objects to a worksheet, use [**ImportCustomObjects**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importcustomobjects/index). Provide a list of columns/properties to the method to display your desired list of objects.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromCustomObject-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromCustomObject-1.cs" >}}
 
 ### **Importing from Custom Objects to merged area**
 
 To import data from a collection of objects to a worksheet containing merged cells, use [**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property. If the Excel template has merged cells, set the value of[**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property to true. Pass the [**ImportTableOptions**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions) object along with the list of columns/properties to the method to display your desired list of objects. The following code sample demonstrates the use of [**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property to import data from Custom Objects to merged cells. Please see the attached [source Excel](90112033.xlsx) file and the [output Excel](90112034.xlsx) file for reference.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Data-Handling-Importing-ImportCustomObjectsToMergedArea-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportCustomObjectsToMergedArea-1.cs" >}}
 
 ### **Importing from DataTable**
 
@@ -59,7 +59,7 @@ To import data from a *DataTable*, call the [**Cells**](https://apireference.asp
 - **Is field name shown**, specifies whether the names of the *DataTable* columns should be imported to the worksheet as a first row or not.
 - **Start cell**, represents the name of the start cell (for example "A1") from where to import the contents of the *DataTable*.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
 ### **Importing from dynamic object as data source**
 
@@ -69,7 +69,7 @@ In this example, a template model is used which initially contains two variables
 
 [Using Smart Markers](/cells/net/using-smart-markers/)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromDynamicDataTable-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDynamicDataTable-1.cs" >}}
 
 ### **Importing from DataColumn (.NET)**
 
@@ -77,7 +77,7 @@ A *DataTable* or *DataView* object is composed of one or more columns. Devel
 
 The sample code given below demonstrates the use of [**ImportTableOptions.ColumnIndexes**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes) to import selective columns.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataColumn-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataColumn-1.cs" >}}
 
 ### **Importing from DataView (.NET)**
 
@@ -88,7 +88,7 @@ To import data from a *DataView*, call the [**Cells**](https://apireference.aspo
 - **First Column:** the column number of the first cell that the data will be imported to.
 - **ImportTableOptions:** The import options.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataView-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataView-1.cs" >}}
 
 ### **Importing from DataGrid (.NET)**
 
@@ -99,7 +99,7 @@ It is possible to import data from a *DataGrid* by calling the [**ImportDataGri
 - **Column Number**, the column number of the first cell that the data will be imported to.
 - **Insert Rows**, a Boolean property that indicates whether extra rows should be added to the worksheet to fit data or not.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
 
 ### **Importing from GridView**
 
@@ -111,7 +111,7 @@ Aspose.Cells allows us to respect HTML formatted values while importing data to 
 
 Aspose.Cells provides a [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) class that provides very useful methods for importing data from external data sources. This article shows how to parse HTML formatted text while importing data and convert the HTML into formatted cell values.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
 ### **Importing Data from JSON**
 
@@ -128,4 +128,4 @@ Aspose.Cells provides a [**JsonUtility**](https://apireference.aspose.com/cells
 
 The sample code given below demonstrates the use of the [**JsonUtility**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonutility) and [**JsonLayoutOptions**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) classes to import JSON data.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}

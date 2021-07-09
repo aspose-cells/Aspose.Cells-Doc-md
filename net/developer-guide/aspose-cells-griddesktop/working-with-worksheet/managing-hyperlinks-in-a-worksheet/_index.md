@@ -25,19 +25,19 @@ Below code will add a hyperlink to **B2** and **C3** cells of the worksheet.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AddHyperlink.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AddHyperlink.cs" >}}
 ## **Accessing Hyperlinks**
 Once a hyperlink will be added to a cell, it may also be required to access and modify the hyperlink at runtime. To do so, developers can simply access the hyperlink from the **Hyperlinks** collection of the **Worksheet** by specifying the cell (using cell name or its location in terms of row and column number) to which the hyperlink is added. Once the hyperlink is accessed, developers can modify its URL at runtime.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AccessHyperlink.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AccessHyperlink.cs" >}}
 ## **Removing Hyperlinks**
 To remove an existing hyperlink, developers can simply access a desired worksheet and then **Remove** hyperlink from the **Hyperlinks** collection of the **Worksheet** by specifying the hyperlinked cell (using its name or row & column number).
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-RemoveHyperlink.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-RemoveHyperlink.cs" >}}
 
 {{% alert color="primary" %}} 
 

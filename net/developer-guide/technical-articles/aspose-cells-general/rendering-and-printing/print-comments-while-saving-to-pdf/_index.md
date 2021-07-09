@@ -25,4 +25,4 @@ Aspose.Cells provide the [**PrintCommentsType**](https://apireference.aspose.com
 
 The following sample code illustrates how to use [**PrintCommentsType**](https://apireference.aspose.com/cells/net/aspose.cells/printcommentstype) to print comments while saving to PDF.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

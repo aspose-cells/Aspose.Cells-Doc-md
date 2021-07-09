@@ -47,7 +47,7 @@ The output of the below code snippet is shown below.
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-ApplyPresetStyle.aspx-ApplyPresetStyle.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyPresetStyle.aspx-ApplyPresetStyle.cs" >}}
 ### **Header Bar Style**
 If you take a look at the GridWeb control, you'll notice two header bars. One for columns (that is A, B, C, D etc.) and other for rows (that is 1, 2, 3, 4 etc.). Aspose.Cells.GridWeb allows developers to control the appearance of these header bars. Developers may set the style of header bars either at design time or runtime.
 
@@ -65,7 +65,7 @@ The output the example code below is shown here.
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-ApplyHeaderBarStyle.aspx-ApplyHeaderBarStyle.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyHeaderBarStyle.aspx-ApplyHeaderBarStyle.cs" >}}
 ### **Tab Bar Style**
 It's possible to set the style of the tab bar. 
 
@@ -79,7 +79,7 @@ In the above figure, Sheet4 is the active tab so its appearance is different fro
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-ApplyTabBarStyle.aspx-ApplyTabBarStyle.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyTabBarStyle.aspx-ApplyTabBarStyle.cs" >}}
 ### **Reusable Customized Style File**
 Aspose.Cells.GridWeb also supports to persist its appearance or style settings to a file. When you have set all the appearance properties of the GridWeb control, you may save these properties or settings to a disk file. This approach is very useful for developers to save their time and efforts by re-using their old style configurations from a style file instead of setting all style (or appearance) properties of the control one by one.
 ### **Saving Style File**
@@ -87,7 +87,7 @@ Once you have finished setting style properties, you can save your style configu
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-ApplyCustomPresetStyle.aspx-SaveCustomStyle.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyCustomPresetStyle.aspx-SaveCustomStyle.cs" >}}
 
 {{% alert color="primary" %}} 
 
@@ -103,7 +103,7 @@ It is also possible to load or save style file using Aspose.Cells.GridWeb Design
 
 {{% /alert %}} 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-GridWebBasics-ApplyCustomPresetStyle.aspx-LoadCustomStyle.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyCustomPresetStyle.aspx-LoadCustomStyle.cs" >}}
 
 {{% alert color="primary" %}} 
 

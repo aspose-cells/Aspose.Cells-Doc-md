@@ -23,8 +23,8 @@ The source sample file can be downloaded from the following link:
 
 [Circular Formulas.xls](77496332.xls)
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Formulas-DetectCircularReference-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-1.cs" >}}
 
 Definition of *CircularMonitor* class which is derived from [**AbstractCalculationMonitor**](https://apireference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) class is as follows:
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}

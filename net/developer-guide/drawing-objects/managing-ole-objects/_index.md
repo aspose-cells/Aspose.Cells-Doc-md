@@ -20,7 +20,7 @@ Aspose.Cells supports adding, extracting and manipulating OLE objects in workshe
 
 The following example shows how to add an OLE Object(s) into a worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
 ### **Extracting OLE Objects in the Workbook**
 
@@ -28,10 +28,10 @@ The following example shows how to extract OLE Objects in a Workbook. The exampl
 
 After running the code, we can save different files based on their respective OLE Objects format types.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-OLE-ExtractingOLEObjects-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-ExtractingOLEObjects-1.cs" >}}
 
 ### **Extracting Embedded MOL File**
 
 Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](94896196.xlsx).
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Workbook-ExtractEmbeddedMolFile-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ExtractEmbeddedMolFile-1.cs" >}}

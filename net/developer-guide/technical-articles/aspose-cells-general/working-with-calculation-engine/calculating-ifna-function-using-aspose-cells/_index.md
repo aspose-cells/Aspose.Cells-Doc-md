@@ -15,7 +15,7 @@ The following sample code illustrates the calculation of IFNA function by Aspose
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculateIFNAFunction-CalculateIFNAFunction.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculateIFNAFunction-CalculateIFNAFunction.cs" >}}
 ## **Console Output**
 Here is the console output of the above sample code.
 

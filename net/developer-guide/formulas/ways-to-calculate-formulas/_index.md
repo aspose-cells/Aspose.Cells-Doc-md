@@ -23,7 +23,7 @@ Currently, Aspose.Cells supports the following operators: +, －, *, /, <, <=, =
 
 {{% /alert %}}
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Formulas-CalculatingFormulas-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-CalculatingFormulas-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -51,7 +51,7 @@ Result of Sum(A1:A2): 50
 
 {{< /highlight >}}
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Formulas-DirectCalculationFormula-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DirectCalculationFormula-1.cs" >}}
 
 ## **Calculating Formulas Once Only**
 
@@ -63,4 +63,4 @@ Aspose.Cells allows you to turn off creating a calculating chain which is useful
 
 To improve Aspose.Cell's formula calculation performance and when you do not want to create a formula calculating chain, set [**Workbook.Settings.CreateCalcChain**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/createcalcchain) to **false**. By default, it is set to **true**.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Formulas-CalculatingFormulasOnce-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-CalculatingFormulasOnce-1.cs" >}}

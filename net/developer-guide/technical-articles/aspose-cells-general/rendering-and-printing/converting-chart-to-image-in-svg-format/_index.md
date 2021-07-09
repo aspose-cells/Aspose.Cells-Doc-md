@@ -19,4 +19,4 @@ The following sample code explains how to use Aspose.Cells to convert a chart in
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-RenderingAndPrinting-ConvertChartToSvgImage-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ConvertChartToSvgImage-1.cs" >}}

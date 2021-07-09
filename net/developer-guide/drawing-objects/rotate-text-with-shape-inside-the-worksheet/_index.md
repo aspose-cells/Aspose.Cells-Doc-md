@@ -17,4 +17,4 @@ The following sample code loads the [sample Excel file](attachments/64456195/647
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "DrawingObjects-RotateTextWithShapeInsideWorksheet.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-RotateTextWithShapeInsideWorksheet.cs" >}}

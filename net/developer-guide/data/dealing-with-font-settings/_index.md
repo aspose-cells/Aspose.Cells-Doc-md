@@ -21,25 +21,25 @@ Aspose.Cells provides the [**Cell**](https://apireference.aspose.com/cells/net/a
 
 Developers can apply any font to text inside a cell by using the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font) object's [Name](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/name) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontName-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontName-1.cs" >}}
 
 ### **Setting Font Style to Bold**
 
 Developers can make text bold by setting the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font) object's [**IsBold**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/isbold) property to **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-SetFontStyle.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-SetFontStyle.cs" >}}
 
 ### **Setting Font Size**
 
 Set the font size with the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font) object's [**Size**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/size) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
 
 ### **Setting Font Color**
 
 Use the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font) object's [**Color**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/color) property to set the font color. Select any color from the Color enumeration (part of the .NET framework) and assign it to the [**Color**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/color) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
 
 ### **Setting Font Underline Type**
 
@@ -53,22 +53,22 @@ Use the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells
 |None|No underline|
 |Single|A single underline|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontUnderlineType-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontUnderlineType-1.cs" >}}
 
 ### **Setting Strikeout Effect**
 
 Apply strikeout by setting the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font) object's [**IsStrikeout**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout) property to **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingStrikeOutEffect-SetStrikeout.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingStrikeOutEffect-SetStrikeout.cs" >}}
 
 ### **Setting Subscript Effect**
 
 Apply subscript by setting the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font) object's [**IsSubScript**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) property to **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSubScriptEffect-SetSubscript.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSubScriptEffect-SetSubscript.cs" >}}
 
 ### **Setting Superscript Effect on Font**
 
 Developers can apply the superscript effect on the font by setting the [**IsSuperscript**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) property of the [**Style.Font**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font) object to **true**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}

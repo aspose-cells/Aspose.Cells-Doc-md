@@ -12,7 +12,7 @@ The following sample code illustrates how to export HTML string value of the cel
 ## **Screenshot**
 ![todo:image_alt_text](export-html-string-value-of-the-cells-to-the-datatable_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-ExportHTMLStringValueOfCellsToDataTable.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ExportHTMLStringValueOfCellsToDataTable.cs" >}}
 ## **Console Output**
 {{< highlight java >}}
 

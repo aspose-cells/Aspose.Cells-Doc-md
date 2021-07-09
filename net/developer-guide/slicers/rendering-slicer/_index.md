@@ -12,4 +12,4 @@ The following sample code loads the [sample Excel file](67338479.xlsx) that co
 
 ![todo:image_alt_text](rendering-slicer_1)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Slicers-RenderingSlicer.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Slicers-RenderingSlicer.cs" >}}

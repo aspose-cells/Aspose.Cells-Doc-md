@@ -19,7 +19,7 @@ Aspose.Cells provides a [**Workbook**](https://apireference.aspose.com/cells/
 
 The most straight-forward approach to auto-sizing the width and height of a row is to call the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class [**AutoFitRow**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) method. The [**AutoFitRow**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) method takes a row index (of the row to be resized) as a parameter.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
 ### **AutoFit Row in a Range of Cells**
 
@@ -31,7 +31,7 @@ A row is composed of many columns. Aspose.Cells allows developers to auto-fit a 
 
 The [**AutoFitRow**](https://apireference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) method checks the contents of all the columns in the row and then auto-fits the row.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
 ### **AutoFit Column in a Range of Cells**
 
@@ -43,7 +43,7 @@ A column is composed of many rows. It is possible to auto-fit a column based on 
 
 The [**AutoFitColumn**](https://apireference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) method checks the contents of all rows in the column and then auto-fits the column.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 
 ### **AutoFit Rows for Merged Cells**
 
@@ -54,7 +54,7 @@ With Aspose.Cells it is possible to autofit rows even for cells that have been m
 - LastLine: Only expands the height of the last row.
 - EachLine: Only expands the height of each row.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-RowsColumns-AutofitRowsforMergedCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsforMergedCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 

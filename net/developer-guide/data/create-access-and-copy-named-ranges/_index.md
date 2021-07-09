@@ -40,7 +40,7 @@ It is possible to create a named range by calling the overloaded [**CreateRange*
 
 When the [**CreateRange**](https://apireference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) method is called, it returns the newly created range as an instance of the [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range) class. Use this [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range) object to configure the named range. For example, set the name of the range using the [**Name**](https://apireference.aspose.com/cells/net/aspose.cells/range/properties/name) property. The following example shows how to create a named range of cells that extends over B4:G14.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
 ### **Input Data into the Cells in the Named Range**
 
@@ -60,7 +60,7 @@ Use the following properties to identify the cells in the range:
 
 The following example shows how to input some values into the cells of a specified range.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-NamedRanges-InputDataInCellsInRange-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-InputDataInCellsInRange-1.cs" >}}
 
 ### **Identify Cells in the Named Range**
 
@@ -80,7 +80,7 @@ Use the following properties to identify the cells in the range:
 
 The following example shows how to input some values into the cells of a specified range.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-NamedRanges-IdentifyCellsinNamedRange-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IdentifyCellsinNamedRange-1.cs" >}}
 
 ### **Access Named Ranges**
 
@@ -88,7 +88,7 @@ The following example shows how to input some values into the cells of a specifi
 
 Call the [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection) collection's [**GetRangeByName**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) method to get a range by the specified name. A typical [**GetRangeByName**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) method takes the name of the named range and returns the specified named range as an instance of the [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range) class. The following example shows how to access a specified range by its name.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 
 #### **Access All the Named Ranges in a Spreadsheet**
 
@@ -96,7 +96,7 @@ Call the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/
 
 The following example shows how to access all the named ranges in a workbook.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-NamedRanges-AccessAllNamedRanges-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessAllNamedRanges-1.cs" >}}
 
 ### **Copy Named Ranges**
 
@@ -104,4 +104,4 @@ Aspose.Cells provides [**Range.Copy()**](https://apireference.aspose.com/cells/n
 
 The following example shows how to copy a source range of cells to another named range.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}

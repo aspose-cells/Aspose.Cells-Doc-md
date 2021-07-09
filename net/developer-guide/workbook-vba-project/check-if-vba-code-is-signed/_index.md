@@ -15,7 +15,7 @@ The following code explains how to check if the VBA code is signed or not using 
 
 ## Sample Code
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaCodeIsSigned-CheckVbaCodeIsSigned.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaCodeIsSigned-CheckVbaCodeIsSigned.cs" >}}
 
 ## Console Output
 

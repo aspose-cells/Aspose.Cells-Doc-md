@@ -13,7 +13,7 @@ Aspose.Cells allows you to check if VBA (Visual Basic for Applications) Project 
 
 The following sample code loads the [sample Excel file](43352065.xlsm) and checks if VBA (Visual Basic for Applications) Project of Excel file is protected and locked for viewing. Please also see its Console Output for a reference.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-WorkbookVBAProject-CheckifVBAProjectisProtectedandLockedforViewing.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-CheckifVBAProjectisProtectedandLockedforViewing.cs" >}}
 
 ## **Console Output**
 

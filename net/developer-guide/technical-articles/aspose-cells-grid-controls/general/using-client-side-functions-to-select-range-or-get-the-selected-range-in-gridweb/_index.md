@@ -21,4 +21,4 @@ The following code explains the usage of these functions.
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Articles-UsingClientSideRangeFunctions-UsingRangeFunctions.aspx" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-UsingClientSideRangeFunctions-UsingRangeFunctions.aspx" >}}

@@ -15,7 +15,7 @@ Please see the following sample code that loads the [sample Excel file](64716909
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
 
 ## **Console Output**
 

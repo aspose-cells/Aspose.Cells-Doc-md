@@ -25,7 +25,7 @@ The following example shows how to get and set theme colors.
 
 The following example uses a template XLSX file, gets the colors for different theme color types, changes the colors and saves the Microsoft Excel file.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 
 #### **Customize Themes**
 
@@ -33,10 +33,10 @@ The following example shows how to apply custom themes with your desired colors.
 
 The following example loads a template XLSX file, defines colors for different theme color types, applies the custom colors and saves the excel file.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
 
 #### **Use Theme Colors**
 
 The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the excel file to disk.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-Excel2007Themes-UtilizeThemeColors-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-UtilizeThemeColors-1.cs" >}}

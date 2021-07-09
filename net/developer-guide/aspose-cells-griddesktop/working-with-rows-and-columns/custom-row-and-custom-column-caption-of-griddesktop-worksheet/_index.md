@@ -15,4 +15,4 @@ The following sample code implements ICustomRowCaption and ICustomColumnCaption 
 ![todo:image_alt_text](custom-row-and-custom-column-caption-of-griddesktop-worksheet_1.png)
 
 ## **Sample Code**
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples-GridDesktop-CSharp-WorkingWithRowsandColumns-Form_CustomRowAndCustomColumnCaptionOfGridDesktopWorksheet.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithRowsandColumns-Form_CustomRowAndCustomColumnCaptionOfGridDesktopWorksheet.cs" >}}

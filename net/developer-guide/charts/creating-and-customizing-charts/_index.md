@@ -15,7 +15,7 @@ It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Asp
 
 ### **Simply Creating a Chart**
 It’s simple to create a chart with Aspose.Cells with the following example codes:
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
 ### **Things to Know for Creating a Chart**
 
@@ -154,13 +154,13 @@ When you assign a range of cells as the data source, you can only set the range 
 
 When the example code is executed, a pyramid chart is added to the worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
 
 #### **Line Chart**
 
 In the above example, simply changing the [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
 #### **Bubble Chart**
 
@@ -170,7 +170,7 @@ In order to create a bubble chart, the [**ChartType**](https://apireference.aspo
 
 In order to create a line with the data marker chart, [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 
 ## **Creating Custom Charts**
 
@@ -182,7 +182,7 @@ A chart is composed of a data series. Each data series in Aspose.Cells is repres
 
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-ManipulateChart-HowToCreateCustomChart-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateCustomChart-1.cs" >}}
 
 {{% alert color="primary" %}}
 

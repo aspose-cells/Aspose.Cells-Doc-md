@@ -11,4 +11,4 @@ Sample file for testing this feature can be downloaded from the following link:
 
 [sampleNamedRangeTest.xlsm](73990165.xlsm)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-SupportNamedRangeFormulasInGermanLocale-1.cs" >}}

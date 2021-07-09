@@ -17,7 +17,7 @@ Sometimes you want to generate a PDF file that fits all a worksheet's columns on
 
 The sample code below shows how to use [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet) property to render a large worksheet of 100 columns.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-FitAllWorksheetColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FitAllWorksheetColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 

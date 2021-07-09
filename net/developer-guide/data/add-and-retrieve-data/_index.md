@@ -17,7 +17,7 @@ Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/ce
 
 Aspose.Cells allows developers to add data to the cells in worksheets by calling the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class' [**PutValue**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method. Aspose.Cells provides overloaded versions of the [**PutValue**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method that lets developers add different kinds of data to cells. Using these overloaded versions of the [**PutValue**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method, it is possible to add a Boolean, string, double, integer or date/time, etc. values to the cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
 ### **Improving Efficiency**
 
@@ -51,7 +51,7 @@ The type of data contained in a cell can also be checked by using the [**Cell**]
 
 You can also use the above pre-defined cell value types to compare with the Type of data present in each cell.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-RetrievingDataFromCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-RetrievingDataFromCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 

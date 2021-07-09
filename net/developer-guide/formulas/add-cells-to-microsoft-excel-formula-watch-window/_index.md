@@ -17,4 +17,4 @@ The following sample code sets the formula of cells C1 and E1 and adds both of t
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}

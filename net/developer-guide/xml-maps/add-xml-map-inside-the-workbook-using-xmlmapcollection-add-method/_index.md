@@ -13,4 +13,4 @@ Aspose.Cells provides [**XmlMapCollection.Add()**](https://apireference.aspose.c
 
 The following sample code adds XML Map inside the workbook using the [**XmlMapCollection.Add()**](https://apireference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) method and saves it as [output excel file](attachments/5013750/5115434.xlsx). The screenshot shows the XML Map that has been imported from the [sample.xml](attachments/5013750/5115433.xml) inside the output excel file.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-AddXmlMapInsideWorkbook-AddXmlMapInsideWorkbook.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddXmlMapInsideWorkbook-AddXmlMapInsideWorkbook.cs" >}}

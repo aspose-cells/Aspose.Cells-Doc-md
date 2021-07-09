@@ -15,4 +15,4 @@ Aspose.Cells allows you to add hyperlinks to images in spreadsheets at runtime. 
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-AddImageHyperlinks-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddImageHyperlinks-1.cs" >}}

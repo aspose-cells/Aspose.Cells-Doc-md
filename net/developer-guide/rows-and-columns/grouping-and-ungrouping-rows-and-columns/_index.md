@@ -29,7 +29,7 @@ It is possible to group rows or columns by calling the [**GroupRows**](https://a
 - Last row/column index, the last row or column in the group.
 - Is hidden, a Boolean parameter that specifies whether to hide rows/columns after grouping or not.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Grouping-GroupingRowsAndColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-GroupingRowsAndColumns-1.cs" >}}
 
 #### **Group Settings**
 
@@ -44,13 +44,13 @@ Developers can configure these group settings using the [**Outline**](https://ap
 
 It is possible to control whether summary rows are displayed below detail by setting the [**Outline**](https://apireference.aspose.com/cells/net/aspose.cells/outline) class' [**SummaryRowBelow**](https://apireference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) property to **true** or **false**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
 ### **Summary Columns to Right of Detail**
 
 Developers can also control displaying summary columns to the right of detail by setting the [**SummaryColumnRight**](https://apireference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) property of [**Outline**](https://apireference.aspose.com/cells/net/aspose.cells/outline) class to **true** or **false**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 
 ## **Ungrouping Rows and Columns**
 
@@ -61,4 +61,4 @@ To ungroup any grouped rows or columns, call the [**Cells**](https://apireferenc
 
 [**UngroupRows**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) has an overload that takes a Boolean third parameter. Setting it to **true** removes all grouped information. Otherwise, only the outer group information is removed.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}

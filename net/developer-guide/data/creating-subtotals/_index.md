@@ -29,4 +29,4 @@ In the examples below, we have added subtotals to the first worksheet of the tem
 
 The code snippets that follow show how to add subtotals to a worksheet with Aspose.Cells for .NET.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Processing-CreatingSubtotals-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-CreatingSubtotals-1.cs" >}}

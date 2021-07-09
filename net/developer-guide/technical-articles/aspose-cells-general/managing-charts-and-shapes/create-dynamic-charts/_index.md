@@ -32,7 +32,7 @@ In order to keep the demonstration simple to understand, we will create the [**W
 1. Create [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) based on the data range of [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject).
 1. Save the result on the disc.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
 
 ## **Using Dynamic Formulas**
 
@@ -49,4 +49,4 @@ In order to keep the demonstration simple to understand, we will create the Work
 1. Create [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) based on the range created in the previous step.
 1. Save the result on the disc.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}

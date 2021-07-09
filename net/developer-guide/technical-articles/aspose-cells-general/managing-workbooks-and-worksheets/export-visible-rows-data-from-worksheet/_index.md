@@ -23,4 +23,4 @@ Once the data is exported to a data table using the [**Worksheet.Cells.ExportDat
 | :- |
 |![todo:image_alt_text](export-visible-rows-data-from-worksheet_2.png)|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ExportVisibleRowsData-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportVisibleRowsData-1.cs" >}}

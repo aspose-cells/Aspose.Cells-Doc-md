@@ -62,6 +62,6 @@ We can now access & use Aspose.Cells.GridDesktop control in the .cs file as any 
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
 ## **Build & Run**
 Now, build and run the application using **F5** or **Start** button on the Visual Studio UI.

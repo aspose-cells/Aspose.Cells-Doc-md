@@ -35,7 +35,7 @@ The program creates a huge file with **10,000 (10000x30 matrix) records** in a w
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-UsingLightCellsAPI-WritingLargeExcelFile.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingLightCellsAPI-WritingLargeExcelFile.cs" >}}
 ## Reading Large Excel Files
 Aspose.Cells provides an interface, LightCellsDataHandler that needs to be implemented in your program. The interface represents Data provider for reading large spreadsheet files in light-weight mode.
 
@@ -47,4 +47,4 @@ The program reads a huge file with millions of records in a worksheet. It takes 
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-UsingLightCellsAPI-ReadingLargeExcelFile.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingLightCellsAPI-ReadingLargeExcelFile.cs" >}}

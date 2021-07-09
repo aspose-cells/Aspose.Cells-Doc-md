@@ -29,7 +29,7 @@ Hide gridlines by setting the [**Worksheet**](https://apireference.aspose.com/ce
 
 A complete example is given below that demonstrates the use of the [**IsGridlinesVisible**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) property by opening an excel file(book1.xls), hiding the gridlines on the first worksheet and saving the modified file as output.xls.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-DisplayHideGridlines-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideGridlines-1.cs" >}}
 
 ## **Show and Hide Row Column Headers**
 
@@ -49,7 +49,7 @@ Hide row and column headers by setting the [**Worksheet**](https://apireference.
 
 A complete example is given below that shows how to use the [**IsRowColumnHeadersVisible**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) property by opening an excel file(book1.xls), hiding the row and column headers on the first worksheet and saving the modified file as output.xls.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-DisplayHideRowColumnHeaders-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideRowColumnHeaders-1.cs" >}}
 
 {{% alert color="primary" %}}
 

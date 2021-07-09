@@ -15,7 +15,7 @@ This article explains how to pass in PDF security options when saving spreadshee
 
 Aspose.Cells provides the [**Aspose.Cells.Rendering.PdfSecurity**](https://apireference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity) namespace for working with security. The sample code below describes how to secure PDFs with Aspose.Cells.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-SecurePDFDocuments-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SecurePDFDocuments-1.cs" >}}
 
 {{% alert color="primary" %}}
 

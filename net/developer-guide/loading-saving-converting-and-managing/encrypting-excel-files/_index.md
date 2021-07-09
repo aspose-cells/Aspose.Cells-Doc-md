@@ -26,27 +26,27 @@ To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):
 
 The following example shows how to encrypt and password protect an excel file using the Aspose.Cells API.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-EncryptingFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-1.cs" >}}
 
 ### **Specifying Password to modify Option**
 
 The following example shows how to set the **Password to modify** Microsoft Excel option for an existing file using the Aspose.Cells API.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-EncryptingFiles-SpecifyPasswordToModifyOption.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-SpecifyPasswordToModifyOption.cs" >}}
 
 ## **Verify the password of the encrypted file**
 
 To verify the password of the encrypted file, Aspose.Cells for .NET provides the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method. These methods accept two parameters, the file stream and the password that needs to be verified.
 The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method to verify whether the provided password is valid or not.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
 ## **Encryption/Decryption of ODS file with Aspose.Cells**
 
 Aspose.Cells allows to encrypt and decrypt ODS file. Decrypted ODS file can be opened both in Excel and OpenOffice, however encrypted ODS file can only be opened by OpenOffice after providing the password. Excel cannot open the encrypted ODS file and may raise warning message. The Encryption options are not applicable for ODS file unlike other file types. For encrypting an ODS file, load the file and set the [**WorkbookSettings.Password**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 
 For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.Password**](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). Once the file is loaded, call function [**Workbook.Unprotect()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotect) with actual password as an argument and finally set the [**WorkbookSettings.Password**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) string to null.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}

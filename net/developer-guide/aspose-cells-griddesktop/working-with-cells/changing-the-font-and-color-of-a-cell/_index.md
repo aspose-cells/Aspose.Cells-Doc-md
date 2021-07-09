@@ -21,7 +21,7 @@ To change the font and color of a cell using Aspose.Cells.GridDesktop, please fo
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ChangeFontColorOfCell-1.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ChangeFontColorOfCell-1.cs" >}}
 
 {{% alert color="primary" %}} 
 

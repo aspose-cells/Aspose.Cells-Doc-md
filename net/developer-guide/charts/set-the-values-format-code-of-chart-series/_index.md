@@ -12,4 +12,4 @@ The following sample code adds a series in the empty chart which has no series b
 
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
 ## **Sample Code**
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Charts-SetValuesFormatCodeOfChartSeries.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SetValuesFormatCodeOfChartSeries.cs" >}}

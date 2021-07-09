@@ -76,14 +76,14 @@ Aspose.Cells offers some built-in number formats to configure the display format
 |48|Scientific|##0.0E+00|
 |49|Text|@|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingBuiltInNumberFormats-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingBuiltInNumberFormats-1.cs" >}}
 
 ### **Using Custom Number Formats**
 
 To define your own customized format string for setting the display format, use the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**Custom**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/custom) property. This approach is not as fast as using pre-set formats but it is more flexible.
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingCustomNumber-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingCustomNumber-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -108,7 +108,7 @@ The [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) cla
 
 The [**Characters**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/characters) method returns an instance of the [**FontSetting**](https://apireference.aspose.com/cells/net/aspose.cells/fontsetting) class that allows developers to format the characters in the same way as they would a cell as shown below in the code example. In the output file, in the A1 cell, the word 'Visit' will be formatted with the default font but 'Aspose!' is bold and blue.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-FormattingSelectedCharacters-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormattingSelectedCharacters-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -134,7 +134,7 @@ To make sure that the horizontal or vertical scrollbars are at the row and colum
 
 The following example shows how to activate a worksheet and make an active cell in it. In the generated output, the scrollbars will be scrolled to make the 2nd row and 2nd column as their first visible row and column.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
 
 ## **Formatting Rows and Columns**
 
@@ -154,10 +154,10 @@ Each item in the [**Rows**](https://apireference.aspose.com/cells/net/aspose.cel
 1. Make the relevant attributes ON for the [**StyleFlag**](https://apireference.aspose.com/cells/net/aspose.cells/styleflag) object.
 1. Assign the configured [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object to the [**Row**](https://apireference.aspose.com/cells/net/aspose.cells/row) object.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingARow-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingARow-1.cs" >}}
 
 ### **Formatting a Column**
 
 The [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection also provides a [**Columns**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/columns) collection. Each item in the [**Columns**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/columns) collection represents a [**Column**](https://apireference.aspose.com/cells/net/aspose.cells/column) object. Similar to a [**Row**](https://apireference.aspose.com/cells/net/aspose.cells/row) object, the [**Column**](https://apireference.aspose.com/cells/net/aspose.cells/column) object also offers the [**ApplyStyle**](https://apireference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) method for formatting a column.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}

@@ -9,7 +9,7 @@ Aspose.Cells provides the ability to save pivot table in ODS files. For this, yo
 
 ## Sample Code
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-PivotTables-PivotTableSaveInODS-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableSaveInODS-1.cs" >}}
 
 The output file generated the above code is attached for your reference.
 

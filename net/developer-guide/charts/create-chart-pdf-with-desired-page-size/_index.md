@@ -12,4 +12,4 @@ Please see the following sample code that loads the [sample Excel file](64716906
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **Sample Code**
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}

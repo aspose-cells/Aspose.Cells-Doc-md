@@ -19,7 +19,7 @@ To set the width of a column using Aspose.Cells.GridDesktop:
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetColumnWidth.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetColumnWidth.cs" >}}
 ## **Setting Row Height**
 To set the height of a row using Aspose.Cells.GridDesktop, please follow the steps below:
 
@@ -29,4 +29,4 @@ To set the height of a row using Aspose.Cells.GridDesktop, please follow the ste
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetRowHeight.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetRowHeight.cs" >}}

@@ -20,4 +20,4 @@ The following sample code loads the [source excel file](5115425.xlsx) and access
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ShadowEffectOfShape-ShadowEffectOfShape.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShadowEffectOfShape-ShadowEffectOfShape.cs" >}}

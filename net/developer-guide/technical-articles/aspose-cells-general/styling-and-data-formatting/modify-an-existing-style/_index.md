@@ -37,7 +37,7 @@ The following examples demonstrate how to use [**Style.Update**](https://apirefe
 
 This example creates a [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object, applies it to a range of cells and modifies the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object. The modifications are automatically applied to the cell and the range the style was applied to.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughStyleObject-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughStyleObject-1.cs" >}}
 
 ### **Modifying an Existing Style**
 
@@ -49,4 +49,4 @@ This example uses a simple template Excel file in which a style called Percent h
 
 The modifications are automatically applied to the range the style was applied to.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}

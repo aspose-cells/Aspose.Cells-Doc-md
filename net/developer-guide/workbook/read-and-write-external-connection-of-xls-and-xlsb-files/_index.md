@@ -19,7 +19,7 @@ The following sample code loads the sample XLSB file (XLS can also be loaded) 
 
 The following code shall work for both XLSB and XLS files by loading and saving files with the appropriate extension.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
 
 ## **Console Output**
 

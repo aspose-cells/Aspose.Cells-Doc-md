@@ -30,7 +30,7 @@ Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Pivot**](h
 
 After executing the example code, a pivot table is added to the worksheet.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-PivotTable-CreatePivotTable-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CreatePivotTable-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -61,4 +61,4 @@ Now, you can save this file as your designer template file.
 
 Executing the example code below changes the source data of the pivot table.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-PivotTable-ChangeSourceData-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ChangeSourceData-1.cs" >}}

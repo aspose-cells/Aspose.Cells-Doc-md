@@ -32,7 +32,7 @@ A complete example is given below that demonstrates how to use the [**IsPageBrea
 
 The book1.xls file is opened by creating an instance of the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class. The view is switched to page break preview for the first worksheet by setting the [**IsPageBreakPreview**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) property to **true**. The modified file is saved as output.xls.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
 
 ## **Zoom Factor**
 
@@ -51,7 +51,7 @@ A complete example is given below that demonstrates how to use the [**Zoom**](h
 
 The book1.xls file is opened by creating an instance of the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class. The zoom factor of the first worksheet is set to 75 and the modified file is saved as output.xls.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-ZoomFactor-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ZoomFactor-1.cs" >}}
 
 ## **Freeze Panes**
 
@@ -76,7 +76,7 @@ The book1.xls file is opened by calling the [**Workbook**](https://apireference.
 
 A complete example is given below that shows how to use the [**FreezePanes**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index) method to freeze rows and columns (starting from C4, represented by the 4th row and 3rd column, where the rows and columns start from the 0 index) of the first worksheet of the Excel file.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-FreezePanes-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-FreezePanes-1.cs" >}}
 
 ## **Split Panes**
 
@@ -92,7 +92,7 @@ Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/ce
 
 In the example, we use a simple template file that is loaded, then the set split panes feature is applied on a cell in the first worksheet. The updated file is saved.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-SplitPanes-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-SplitPanes-1.cs" >}}
 
 After running the above code, the generated file will have a split view.
 
@@ -100,4 +100,4 @@ After running the above code, the generated file will have a split view.
 
 Remove split panes using the [**RemoveSplit**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit) method.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-RemovePanes-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-RemovePanes-1.cs" >}}

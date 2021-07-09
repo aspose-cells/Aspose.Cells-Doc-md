@@ -19,7 +19,7 @@ Use the **Convert to Range** feature to quickly convert a table to a range witho
 
 ## **Using Aspose.Cells**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Tables-ConvertTableToRange-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToRange-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -33,4 +33,4 @@ Aspose.Cells provides additional options while converting Table to Range through
 
 The sample code given below demonstrates the use of [**TableToRangeOptions**](https://apireference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) class.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Tables-ConvertTableToRangeWithOptions-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToRangeWithOptions-1.cs" >}}

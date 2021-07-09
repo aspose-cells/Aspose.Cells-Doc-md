@@ -27,7 +27,7 @@ Make a worksheet visible by setting the [**Worksheet**](https://apireference.asp
 
 Hide a worksheet by setting the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class' [**IsVisible**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) property to **false**.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-HideUnhideWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-HideUnhideWorksheet-1.cs" >}}
 
 ## **Show and Hide Tabs**
 
@@ -52,8 +52,8 @@ Hide tabs in an Excel file by setting the [**Workbook**](https://apireference.as
 
 Below is a complete example that opens an Excel file (book1.xls), hides its tabs and saves the modified file as output.xls. After the code execution, you will see that the tabs of the workbook are hidden.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-HideTabs-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-HideTabs-1.cs" >}}
 
 ### **Controlling the Tab Bar Width**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}

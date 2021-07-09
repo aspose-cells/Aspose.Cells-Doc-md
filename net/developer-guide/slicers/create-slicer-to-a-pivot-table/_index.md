@@ -17,4 +17,4 @@ Please see the following sample code. It loads the [sample Excel file](67338470.
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Slicers-CreateSlicerToPivotTable.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Slicers-CreateSlicerToPivotTable.cs" >}}

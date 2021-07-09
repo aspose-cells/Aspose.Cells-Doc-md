@@ -19,4 +19,4 @@ This example creates a workbook, populates it with data and copies a range's sty
 1. Create a second range of cells.
 1. Copy the first range's formatting to the second range.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}

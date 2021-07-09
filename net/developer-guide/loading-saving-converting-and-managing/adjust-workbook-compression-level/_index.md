@@ -21,4 +21,4 @@ Developers can adjust the compression level of the workbook when working with la
 
 The following code snippet demonstrates the use of **[OoxmlCompressionType](https://apireference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumeration and compares the conversion time for Level1, Level6, and Level9. You may also compare the sizes of the generated files.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Workbook-AdjustCompressionLevel-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AdjustCompressionLevel-1.cs" >}}

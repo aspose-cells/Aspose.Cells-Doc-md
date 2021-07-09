@@ -18,7 +18,7 @@ To freeze columns of a worksheet using Aspose.Cells.GridDesktop, please follow t
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeColumns.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeColumns.cs" >}}
 ## **Un-Freezing Columns**
 To unfreeze columns of a worksheet using Aspose.Cells.GridDesktop, please follow the steps below:
 
@@ -27,7 +27,7 @@ To unfreeze columns of a worksheet using Aspose.Cells.GridDesktop, please follow
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-UnFreezeColumns.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-UnFreezeColumns.cs" >}}
 ## **Freezing Rows**
 To freeze rows of a worksheet using Aspose.Cells.GridDesktop, please follow the steps below:
 
@@ -36,7 +36,7 @@ To freeze rows of a worksheet using Aspose.Cells.GridDesktop, please follow the 
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeRows.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeRows.cs" >}}
 ## **Un-Freezing Rows**
 To unfreeze rows of a worksheet using Aspose.Cells.GridDesktop, please follow the steps below:
 
@@ -45,4 +45,4 @@ To unfreeze rows of a worksheet using Aspose.Cells.GridDesktop, please follow th
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-UnFreezeRows.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-UnFreezeRows.cs" >}}

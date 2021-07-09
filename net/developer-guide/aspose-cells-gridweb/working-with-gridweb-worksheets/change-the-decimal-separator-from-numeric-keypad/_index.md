@@ -14,7 +14,7 @@ Using the **GridWorksheetCollection.NumberDecimalSeparator** property, you may 
 
 ![todo:image_alt_text](change-the-decimal-separator-from-numeric-keypad_2.png)
 ## **Sample Code**
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Worksheets-ChangeDecimalSeparatorFromNumericKeypad.aspx.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Worksheets-ChangeDecimalSeparatorFromNumericKeypad.aspx.cs" >}}
 
 {{% alert color="primary" %}} 
 

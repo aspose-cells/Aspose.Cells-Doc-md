@@ -21,7 +21,7 @@ In the example given below, we have created a specific DataTable object having f
 
 **Example:**
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToSpecificDataTable.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToSpecificDataTable.cs" >}}
 ### **Exporting To a New DataTable**
 Sometimes, developers may not be interested in creating their own DataTable object and might have a simple need to just export the worksheet data to a new DataTable object. It would be more quickest way for the developers to just export the worksheet data.
 
@@ -29,7 +29,7 @@ In the example given below, we have tried a different way to explain the usage o
 
 **Example:**
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToNewDataTable.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToNewDataTable.cs" >}}
 
 {{% alert color="primary" %}} 
 

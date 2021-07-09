@@ -71,4 +71,4 @@ The method [**Workbook.CreateBuiltinStyle**](https://apireference.aspose.com/cel
 
 ## C# code to use built-in styles
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

@@ -12,7 +12,7 @@ The following code will check if there is resizing action taken place every 100 
 
 ![todo:image_alt_text](resize-gridweb-in-the-browser-window_1.png)
 ### **Sample Code**
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-ResizeGridWebUsingResizeMethod" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-ResizeGridWebUsingResizeMethod" >}}
 
 
 ## **Making GridWeb resizable using resizable jquery ui feature**
@@ -20,4 +20,4 @@ The following code will  make GridWeb control resizable in the browser window. 
 
 ![todo:image_alt_text](resize-gridweb-in-the-browser-window_2.png)
 ### **Sample Code**
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-MakingGridWebResizableUsingResizablejQueryUiFeature" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-MakingGridWebResizableUsingResizablejQueryUiFeature" >}}

@@ -15,7 +15,7 @@ The following piece of code demonstrates the usage of [ISmartMarkerCallBack](htt
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-GetSmartMarkerNotifications-ISmartMarkerCallBack.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetSmartMarkerNotifications-ISmartMarkerCallBack.cs" >}}
 
 
 
@@ -23,4 +23,4 @@ Rest of the process includes loading designer spreadsheet containing the Smart M
 
 |![todo:image_alt_text](getting-notifications-while-merging-data-with-smart-markers_1.png)|
 | :- |
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-GetSmartMarkerNotifications-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetSmartMarkerNotifications-1.cs" >}}

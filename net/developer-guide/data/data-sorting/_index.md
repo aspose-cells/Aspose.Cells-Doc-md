@@ -33,7 +33,7 @@ The [**Sort**](https://apireference.aspose.com/cells/net/aspose.cells.datasorter
 
 This example uses the template file "Book1.xls" created in Microsoft Excel. After executing the code below, data is sorted appropriately.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-DataSorting-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-DataSorting-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -51,4 +51,4 @@ Following are the sample files which can be downloaded for testing this feature:
 
 [outputsampleBackGroundFile.xlsx](81920907.xlsx)
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Data-SortDataInColumnWithBackgroundColor-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithBackgroundColor-1.cs" >}}

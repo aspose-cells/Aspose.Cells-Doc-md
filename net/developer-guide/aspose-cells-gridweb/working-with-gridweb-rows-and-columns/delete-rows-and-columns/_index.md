@@ -19,7 +19,7 @@ To delete a row from your worksheet:
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-RowsAndColumns-DeleteRowsColumns.aspx-DeleteRow.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-DeleteRowsColumns.aspx-DeleteRow.cs" >}}
 ## **Deleting Columns**
 To delete a column from your worksheet:
 
@@ -29,7 +29,7 @@ To delete a column from your worksheet:
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-RowsAndColumns-DeleteRowsColumns.aspx-DeleteColumn.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-DeleteRowsColumns.aspx-DeleteColumn.cs" >}}
 
 {{% alert color="primary" %}} 
 

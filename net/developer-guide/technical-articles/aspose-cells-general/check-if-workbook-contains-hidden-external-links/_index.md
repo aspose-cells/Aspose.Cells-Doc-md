@@ -10,7 +10,7 @@ Sometimes, the workbook contains external links which are hidden and cannot be v
 ## **Check if Workbook contains hidden External Links**
 The following sample code loads the [source excel file](5115413.xlsx) which contains hidden external links. These links cannot be viewed in Microsoft Excel but they are present inside the workbook. After printing [ExternalLink.DataSource](https://apireference.aspose.com/net/cells/aspose.cells/externallink/properties/datasource) and [ExternalLink.IsReferred](https://apireference.aspose.com/net/cells/aspose.cells/externallink/properties/isreferred) property, it prints the [ExternalLink.IsVisible](https://apireference.aspose.com/net/cells/aspose.cells/externallink/properties/isvisible) property. In the console output below, you see, all of its external links are not visible.
 ### **Sample Code**
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CheckHiddenExternalLinks-CheckHiddenExternalLinks.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CheckHiddenExternalLinks-CheckHiddenExternalLinks.cs" >}}
 ### **Console Output**
 Here is the console output of the above sample code when executed with the given [sample excel file](5115413.xlsx).
 

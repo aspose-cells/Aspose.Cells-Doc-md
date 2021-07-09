@@ -21,7 +21,7 @@ If you will set it to [**CellValueFormatStrategy.None**](https://apireference.as
 
 The following sample explains the use of [**ExportTableOptions.FormatStrategy**](https://apireference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy) property to export excel data with and without any formatting.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ExportExcelDataToDataTableWithoutFormatting-ExportExcelDataToDataTableWithoutFormatting.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ExportExcelDataToDataTableWithoutFormatting-ExportExcelDataToDataTableWithoutFormatting.cs" >}}
 
 ## **Console Output**
 

@@ -28,13 +28,13 @@ Page orientation can be set to portrait or landscape using the [**PageSetup**](h
 |Landscape|Landscape orientation|
 |Portrait|Portrait orientation|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
 ### **Scaling Factor**
 
 It is possible to reduce or enlarge a worksheet's size by adjusting the scaling factor with the [**PageSetup.Zoom**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
 ### **FitToPages Options**
 
@@ -46,7 +46,7 @@ You can either choose the [**FitToPagesTall**](https://apireference.aspose.com/c
 
 {{% /alert %}}
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
 ### **Paper Size**
 
@@ -175,16 +175,16 @@ Set the paper size that the worksheets will be printed to using the [**PageSetup
 |PaperThermal|Thermal(3 x 11 in)|
 |Custom|Represents the custom paper size.|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
 ### **Print Quality**
 
 Set the print quality of the worksheets to be printed with the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintQuality**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality) property. The measuring unit for print quality is Dots Per Inches (DPI).
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
 ### **First Page Number**
 
 Start the numbering of worksheet pages using the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**FirstPageNumber**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property. The [**FirstPageNumber**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property sets the page number of the first worksheet page and the next pages are numbered in ascending order.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

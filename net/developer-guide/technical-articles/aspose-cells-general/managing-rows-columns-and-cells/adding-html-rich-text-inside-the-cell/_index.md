@@ -17,7 +17,7 @@ Below code sample shows you how to add HTML rich text inside the cell. Please se
 
 ![todo:image_alt_text](adding-html-rich-text-inside-the-cell_1)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AddingHTMLRichTextInCell-AddingHTMLRichTextInCell.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AddingHTMLRichTextInCell-AddingHTMLRichTextInCell.cs" >}}
 
 ## Related Articles
 

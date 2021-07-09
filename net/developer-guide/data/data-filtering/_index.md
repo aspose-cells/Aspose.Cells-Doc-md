@@ -50,7 +50,7 @@ In each worksheet, you can only specify one filter range. This is limited by Mic
 
 In the example given below, we have created the same AutoFilter using Aspose.Cells as we created using Microsoft Excel in the above section.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterData-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterData-1.cs" >}}
 
 #### **Different types of Filter**
 
@@ -63,7 +63,7 @@ Aspose.Cells provides a function AddFillColorFilter to filter data based upon th
 1. [ColouredCells.xlsx](72417315.xlsx)
 1. [FilteredColouredCells.xlsx](72417316.xlsx)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterColor-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterColor-1.cs" >}}
 
 ##### **Date**
 
@@ -72,7 +72,7 @@ Different type of date filters can be implemented like filtering all the rows ha
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterDate-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDate-1.cs" >}}
 
 ##### **Dynamic Date**
 
@@ -81,7 +81,7 @@ Sometimes dynamic filters are required based on date like all the cells having d
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterDynamicFilter-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDynamicFilter-1.cs" >}}
 
 ##### **Number**
 
@@ -90,7 +90,7 @@ Custom filters can be applied using Aspose.Cells like selecting cells having num
 1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterNumber-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterNumber-1.cs" >}}
 
 ##### **Text**
 
@@ -99,7 +99,7 @@ If a column contains text and cells are to be selected containing particular tex
 1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterText-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterText-1.cs" >}}
 
 ##### **Blanks**
 
@@ -108,7 +108,7 @@ If a column contains text such that few cells are blank, and filter is required 
 1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredBlank.xlsx](72417325.xlsx)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterBlank-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterBlank-1.cs" >}}
 
 ##### **Non Blanks**
 
@@ -117,7 +117,7 @@ When cells having any text are to be filtered, use MatchNonBlanks filter functio
 1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredNonBlank.xlsx](72417326.xlsx)
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterNonBlank-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterNonBlank-1.cs" >}}
 
 ##### **Custom filter with Contains**
 
@@ -126,7 +126,7 @@ Excel provides custom filters like filter rows which contain some specific strin
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
 1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx).
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-Contains-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-Contains-1.cs" >}}
 
 ##### **Custom filter with NotContains**
 
@@ -134,7 +134,7 @@ Excel provides custom filters like filter rows which does not contain some speci
 
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-NotContains-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-NotContains-1.cs" >}}
 
 ##### **Custom filter with BeginsWith**
 
@@ -142,7 +142,7 @@ Excel provides custom filters like filter rows which begins with some specific s
 
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterBeginsWith-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterBeginsWith-1.cs" >}}
 
 ##### **Custom filter with EndsWith**
 
@@ -150,4 +150,4 @@ Excel provides custom filters like filter rows which ends with some specific str
 
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}

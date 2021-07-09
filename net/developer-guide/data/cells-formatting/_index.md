@@ -58,7 +58,7 @@ The border's line style is set by selecting a line style from the [**CellBorderT
 |Thin|Thin line|
 Select one of the line styles and then assign it to the [**Border**](https://apireference.aspose.com/cells/net/aspose.cells/border) object's [**LineStyle**](https://apireference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -81,7 +81,7 @@ The [**CreateRange**](https://apireference.aspose.com/cells/net/aspose.cells.cel
 - **Line Style**, the border line style, selected from the [**CellBorderType**](https://apireference.aspose.com/cells/net/aspose.cells/cellbordertype) enumeration.
 - **Color**, the line color, selected from the Color enumeration.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}
 
 ## **Colors and Palette**
 
@@ -102,7 +102,7 @@ Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/ce
 
 The example below adds a custom color (Orchid) to the palette before applying it on a font.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ColorsAndPalette-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndPalette-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -146,7 +146,7 @@ The [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) has
 
 In the example below, the foreground color of the A1 cell is set but A2 is configured to have both foreground and background colors with a vertical stripe background pattern.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ColorsAndBackground-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndBackground-1.cs" >}}
 
 ### **Important to Know**
 

@@ -29,16 +29,16 @@ We know that a spreadsheet stores data as a sequence of rows and columns. If all
 - **Number of columns**, the number of columns to export.
 - **Export column names**, a Boolean property that indicates whether the data in the first row of the worksheet should be exported as column names of the [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) or not.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-ExportColumnContainingStronglyTypedData-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportColumnContainingStronglyTypedData-1.cs" >}}
 
 #### **Columns Containing Non-Strongly Typed Data**
 
 If all values in the columns of a worksheet are not strongly typed (that means the values in a column may have the different data types) then we can export the worksheet content by calling the [**ExportDataTableAsString**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) class. [**ExportDataTableAsString**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index) method takes the same set of parameters as that of the [**ExportDataTable**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) method to export worksheet data as a [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) object.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-ExportColumnContainingNonStronglyTypedData-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportColumnContainingNonStronglyTypedData-1.cs" >}}
 
 #### **Export Range with flag to skip column name**
 
 Data from a range can be exported to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) where a flag is available to skip header row in the exported data. Following code exports a range of data to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) with an argument [**ExportTableOptions**](https://apireference.aspose.com/cells/net/aspose.cells/exporttableoptions) which contains [**ExportColumnName**](https://apireference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/exportcolumnname) flag. It is set to **true** if header information is there, hence it will not be included in data and set to **false** if no header is there and all rows are to be considered as data.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-ExportRangeWithFlagToSkipColumnHeader-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportRangeWithFlagToSkipColumnHeader-1.cs" >}}

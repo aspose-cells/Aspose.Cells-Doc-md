@@ -17,7 +17,7 @@ The following code explains how to use [**Workbook.Settings.AutoRecover**](https
 
 ## C# code to set the AutoRecover property of Workbook
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SetAutoRecovery-SetAutoRecovery.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SetAutoRecovery-SetAutoRecovery.cs" >}}
 
 ## **Output**
 

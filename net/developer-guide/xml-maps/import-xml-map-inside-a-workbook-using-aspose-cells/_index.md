@@ -30,4 +30,4 @@ The following sample code shows how to make use of the [**Workbook.ImportXml()*
 |![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
 | :- |
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}

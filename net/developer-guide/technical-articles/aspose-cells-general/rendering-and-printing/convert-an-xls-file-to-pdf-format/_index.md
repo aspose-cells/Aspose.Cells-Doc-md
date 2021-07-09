@@ -40,7 +40,7 @@ The template file has three worksheets, including charts and image as Media. The
    1. Add a reference to …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 1. Add the conversion code to the project:
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-ConvertXLSFileToPDF-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertXLSFileToPDF-1.cs" >}}
 
 {{% alert color="primary" %}}
 

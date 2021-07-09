@@ -13,7 +13,7 @@ Sometimes, you want to access a worksheet from a chart's reference. Aspose.Cells
 
 The following example shows how to use the [**Chart.Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the [**Chart.Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
 
 Below is the console output that the sample code results in. As you can see, it prints the same worksheet name both times.
 

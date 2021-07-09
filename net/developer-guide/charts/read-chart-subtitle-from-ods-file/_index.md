@@ -11,7 +11,7 @@ Aspose.Cells provides you with the ability to read chart subtitles in ODS files 
 
 ## **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Charts-GetChartSubTitleForODSFile-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-GetChartSubTitleForODSFile-1.cs" >}}
 
 ## **Console Output**
 

@@ -21,10 +21,10 @@ Aspose.Cells fully supports the conditional formatting provided by Microsoft Exc
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **Compute the Color Chosen by Microsoft Excel for ColorScale Conditional Formatting**
 Aspose.Cells lets you calculate the color selected by Microsoft Excel when ColorScale conditional formatting is used in a template file. See the sample code below to learn how to compute the color selected by Microsoft Excel.
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ComputeColorChoosenByMSExcel-1.cs" >}}

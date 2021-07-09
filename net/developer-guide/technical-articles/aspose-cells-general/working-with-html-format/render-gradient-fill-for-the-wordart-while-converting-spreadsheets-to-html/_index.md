@@ -12,4 +12,4 @@ Before Aspose.Cells 17.1, Aspose.Cells did not render gradient fill of the word 
 ## **Render Gradient Fill for the WordArt while converting spreadsheets to HTML**
 The following sample code converts the [source excel file](22774111.xlsx) into [output HTML format](22774109.zip). The source excel file contains a word art object with gradient fill as shown in the above screenshot.
 ## **Sample Code**
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}

@@ -13,4 +13,4 @@ The following code sample demonstrates the use of the [**GetValidation**](https
 
 ### **Sample Code**
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}

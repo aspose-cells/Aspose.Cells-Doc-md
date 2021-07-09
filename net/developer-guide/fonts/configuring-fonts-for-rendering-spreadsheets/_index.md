@@ -32,7 +32,7 @@ Both **[FontConfigs.SetFontFolder](https://apireference.aspose.com/cells/net/asp
 
 {{% /alert %}}
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-RenderingAndPrinting-SetCustomFontFolders-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetCustomFontFolders-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -50,7 +50,7 @@ Aspose.Cells APIs also provide the ability to specify the substitute font for re
 
 Here is a simple usage scenario.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-RenderingAndPrinting-SetCustomFontFolders-FontSubstitution.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetCustomFontFolders-FontSubstitution.cs" >}}
 
 ## **Information Gathering**
 

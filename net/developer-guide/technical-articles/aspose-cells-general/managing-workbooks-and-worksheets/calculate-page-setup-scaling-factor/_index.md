@@ -13,4 +13,4 @@ When you set Page Setup Scaling using **Fit to n page(s) wide by m tall** option
 
 The following sample code illustrates how to calculate page setup scaling factor using [**SheetRender.PageScale**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CalculateScalingFactor-CalculatePageSetupScalingFactor.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CalculateScalingFactor-CalculatePageSetupScalingFactor.cs" >}}

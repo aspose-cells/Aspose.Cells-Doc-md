@@ -50,7 +50,7 @@ We wrote code snippets for different components to accomplish the task. The proc
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-Benchmarking-Creating50XLSFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-Benchmarking-Creating50XLSFiles-1.cs" >}}
 #### **Results from Scenario 1**
 The results show that Aspose.Cells completed the task in 17.21, Product1 in 33.67 seconds, Product2 in 23.62 seconds, and Product3 in 70.95 seconds.
 
@@ -71,7 +71,7 @@ We wrote code snippets for different components to accomplish the task. The proc
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-Benchmarking-CreateAnExcelFileSingleWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-Benchmarking-CreateAnExcelFileSingleWorksheet-1.cs" >}}
 #### **Scenario 2 Results**
 The results show that Aspose.Cells used 7.51 seconds to complete the task, Product1 used 9.30 seconds, and Product3 used 14.14. Aspose.Cells finished the task the first and Product3 took the longest. We reviewed the file created by each component to check data, it is fine tuned as described in response to their code snippets.
 
@@ -89,7 +89,7 @@ We wrote code snippets for different components to accomplish the task. The proc
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-Benchmarking-CreateAnExcelFileFiveSheets-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-Benchmarking-CreateAnExcelFileFiveSheets-1.cs" >}}
 #### **Scenario 3 Results**
 The results show that Aspose.Cells completed the task in 0.42 seconds, Product1 in 0.78 seconds, Product2 in 0.56 and Product3 in 1.51. Aspose.Cells finished the task in the least time and Product3 took the longest. We reviewed the file created by each component to check data, it is fine tuned as described in response to their code snippets.
 
@@ -114,7 +114,7 @@ We wrote code snippets for different components to accomplish the task. The proc
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-Benchmarking-LoadLargeExcelScenario1-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-Benchmarking-LoadLargeExcelScenario1-1.cs" >}}
 #### **Scenario 1 Results**
 The results show that Aspose.Cells completed the task in 5.23 seconds, Product1 in 18.35 seconds, Product2 in 69.78 seconds and Product3 on 10.71 seconds. Aspose.Cells completed the task in the least time and Product2 took the longest. We reviewed the files created by each component to check the data. Product2 only partially completed the task - its evaluation version only supports creating a workbook of five worksheets with 150 records per sheet. All other components performed the task with 100% results. They are fine-tuned as described in response to their code snippets.
 
@@ -133,7 +133,7 @@ We wrote code snippets for different components to accomplish the task. The proc
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-Benchmarking-LoadLargeExcelScenario2-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-Benchmarking-LoadLargeExcelScenario2-1.cs" >}}
 #### **Scenario 2 Results**
 The results show that Aspose.Cells completed the task in 6.12 seconds, Product1 in 17.59 seconds, Product2 in 69.04 seconds and Product3 in 27.32 seconds. Aspose.Cells completed the task in the last time and Product2 took the longest. We reviewed the files created by each component to check the data. Product2 only partially completed the task because its evaluation version only supports creating a workbook with a maximum of five worksheets with 150 records per sheet. All other components performed the task with 100% results. They are fine tuned as described in response to their code snippets.
 
@@ -152,7 +152,7 @@ We wrote code snippets for different components to accomplish the task. The proc
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-Benchmarking-LoadLargeExcelScenario3-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-Benchmarking-LoadLargeExcelScenario3-1.cs" >}}
 #### **Scenario 3 Results**
 The results show that Aspose.Cells completed the task in 7.10 seconds, Product1 in 16.81 seconds, Product2 in 66.25 seconds and Product3 in 25.93 seconds. So, Aspose.Cells completed the task in the least time and Product2 took the longest. We reviewed the files created by each component to check the data. Product2 only partially completed the task because its evaluation version only supports creating a workbook of five worksheets with 150 records per sheet. All other components performed the task with 100% results. They are fine tuned as described in response to their code snippets.
 

@@ -38,7 +38,7 @@ Use the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) 
 
 In the example below, a complex formula is applied to the first cell of a worksheet's [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection. The formula uses a built-in **IF** function provided by Aspose.Cells.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Formulas-ProcessDataUsingBuiltinfunction-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingBuiltinfunction-1.cs" >}}
 
 ## **Using Add-in Functions**
 
@@ -52,7 +52,7 @@ Following XLAM file shall be downloaded for registering the add in function in t
 
 [test_udf.xlsx](81920909.xlsx)
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Formulas-RegisterAndCallFuncFromAddIn-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-RegisterAndCallFuncFromAddIn-1.cs" >}}
 
 ## **Using Array Formula**
 
@@ -66,10 +66,10 @@ It is possible to apply an array formula to a cell by calling the [**Cell**](htt
 - **Number of Rows**, the number of rows to populate result of the array formula.
 - **Number of Columns**, the number of columns to populate result of the array formula.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 
 ### **Using R1C1 Formula**
 
 Add an **R1C1** reference style formula to a cell with the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class' [**R1C1Formula**](https://apireference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) property.
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}

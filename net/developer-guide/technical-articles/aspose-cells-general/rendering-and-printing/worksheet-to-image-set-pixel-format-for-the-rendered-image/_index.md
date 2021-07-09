@@ -15,4 +15,4 @@ Please see the sample code below that demonstrates how to set the desired pixel 
 
 
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Articles-SetPixelFormatRenderedImage-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPixelFormatRenderedImage-1.cs" >}}

@@ -39,25 +39,25 @@ To open a Microsoft Excel 95/5.0 file, use **[LoadOptions](https://apireference
 
 [Excel95_5.0.xls](Excel95_5.0.xls)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel95Files-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel95Files-1.cs" >}}
 
 ### **Opening Microsoft Excel 97 - 2003 Files**
 
 To open a Microsoft Excel 97 - 2003 file, use **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** and set the related attribute for the **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** class for the template file to be loaded.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel972003Files-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel972003Files-1.cs" >}}
 
 ### **Opening Microsoft Excel 2007/2010/2013/2016/2019 and Office 365  XLSX Files**
 
 To open a Microsoft Excel 2007/2010/2013/2016/2019 and Office 365 format, that is, XLSX or XLSB, specify the file path. You can also use **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** and set the related attribute/options of the **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** class for the template file to be loaded.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 
 ### **Opening Encrypted Excel Files**
 
 It's possible to create encrypted Excel files using Microsoft Excel. To open an encrypted file, use the **[LoadOptions](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions)** and set its attributes and options (for example, give a password) for the template file to be loaded.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Files-Handling-OpeningEncryptedExcelFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningEncryptedExcelFiles-1.cs" >}}
 
 Aspose.Cells also supports opening password-protected Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365 files.
 

@@ -15,4 +15,4 @@ Please consider this textual data i.e. {11, 111, 22}. This textual data is sorte
 
 The following sample code illustrates the usage of [**DataSorter.SortAsNumber**](https://apireference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber) property as explained earlier. Please check its [sample Excel file](43352075.xlsx) and [output Excel file](43352076.xlsx) for more help.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-SpecifyingSortWarningWhileSortingData.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingSortWarningWhileSortingData.cs" >}}

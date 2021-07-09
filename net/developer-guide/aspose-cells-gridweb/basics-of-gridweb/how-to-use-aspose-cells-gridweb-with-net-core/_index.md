@@ -49,7 +49,7 @@ Running the newly created project shows the default template in the browser as s
 ![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
 
 1. Add the following to the **_ViewImports.cshtml** file in the Views folder.
-1. {{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "GridWebCore-ViewImports.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "GridWebCore-ViewImports.cs" >}}
 
 The file will look like this after the modifications
 
@@ -57,7 +57,7 @@ The file will look like this after the modifications
 
 1. Put the following code in the HomeController's Index method.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "GridWebCore-HomeController.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "GridWebCore-HomeController.cs" >}}
 
 {{% alert color="primary" %}} 
 
@@ -69,7 +69,7 @@ Remember to update the SessionStorePath and the ImportExcelFile path.
 
 1. Add the following code in the **Index.cshtml** file in the View > Home directory.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "GridWebCore-IndexView.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "GridWebCore-IndexView.cs" >}}
 
 The file will look like this after the change.
 
@@ -78,20 +78,20 @@ The file will look like this after the change.
 1. Add Session support and GridScheduedService in the Startup.cs file
    1. Add the following code snippet in the ConfigureServices method.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "GridWebCore-Startup1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "GridWebCore-Startup1.cs" >}}
 
 ![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
 
 1. Add the following code snippet in the Configure method.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "GridWebCore-Startup2.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "GridWebCore-Startup2.cs" >}}
 
 ![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
 
 1. Put the latest acw_client in directory: **wwwroot/js** {{% alert color="primary" %}}   {{% /alert %}}
 1. Add **AcwController** in Controllers to deal with the acw route map that can provide all the default operations for general edit action.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "GridWebCore-AcwController.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "GridWebCore-AcwController.cs" >}}
 
 ![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
 ### **Step 4: Test the App**

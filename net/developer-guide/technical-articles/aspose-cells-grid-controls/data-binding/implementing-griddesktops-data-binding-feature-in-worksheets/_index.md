@@ -29,7 +29,7 @@ Because this example uses a Microsoft Access database, add the System.Data.OleDb
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-AddingNamespaceToTheTop.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-AddingNamespaceToTheTop.cs" >}}
 
 
 You can now use the classes packaged under this namespace.
@@ -38,7 +38,7 @@ You can now use the classes packaged under this namespace.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-DeclareGlobalVariable.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-DeclareGlobalVariable.cs" >}}
 ## **Filling DataSet with Data from Database**
 Now connect to the sample database to fetch and fill data into a DataSet object.
 
@@ -46,7 +46,7 @@ Now connect to the sample database to fetch and fill data into a DataSet object.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-FillDataSet.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-FillDataSet.cs" >}}
 ## **Binding Worksheet with DataSet**
 Bind the worksheet with the Products table of the DataSet:
 
@@ -57,7 +57,7 @@ Add the following code to the **Bind Worksheet** button's click event.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-BindWorksheet.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-BindWorksheet.cs" >}}
 ## **Setting Column Headers of Worksheet**
 The bound worksheet now loads data successfully but the column headers are labelled A, B and C by default. It would be better to set the column headers to the column names in the database table.
 
@@ -70,7 +70,7 @@ Append the code written in the **Bind Worksheet** button's click event with the 
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-SettingColumnHeader.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-SettingColumnHeader.cs" >}}
 ## **Customizing the Width and Styles of Columns**
 To improve the look of the worksheet further, it is possible to set the width and styles of columns. For example, sometimes, the column header or the value inside the column consists of long number of characters that don't fit inside the cell. To solve such issues, Aspose.Cells.GridDesktop supports changing the widths of columns.
 
@@ -78,14 +78,14 @@ Append the following code to the **Bind Worksheet** button. The column widths wi
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-CustomizingStyle.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-CustomizingStyle.cs" >}}
 
 
 Aspose.Cells.GridDesktop also supports applying custom styles to columns. The following code, appended to the **Bind Worksheet** button, customizes the column styles to make them more presentable.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-ApplyCustomStyle.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-ApplyCustomStyle.cs" >}}
 
 
 Now run the application and click the **Bind Worksheet** Button.
@@ -94,13 +94,13 @@ To add new rows to a worksheet, use the Worksheet class AddRow method. This appe
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-AddingRows.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-AddingRows.cs" >}}
 ## **Deleting Rows**
 Aspose.Cells.GridDesktop also supports deleting rows by calling the Worksheet class RemoveRow method. Removing a row using Aspose.Cells.GridDesktop requires the index of the row to be deleted.
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-DeletingRows.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-DeletingRows.cs" >}}
 
 
 Adding the above code to the **Delete Row** button and run the application. A few records are displayed before the row is removed. Selecting a row and clicking the **Delete Row** button removes the selected row.
@@ -109,7 +109,7 @@ Finally, to save any changes made by users to the worksheet back to the database
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-SavingChangesToDatabase.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-SavingChangesToDatabase.cs" >}}
 
 
 

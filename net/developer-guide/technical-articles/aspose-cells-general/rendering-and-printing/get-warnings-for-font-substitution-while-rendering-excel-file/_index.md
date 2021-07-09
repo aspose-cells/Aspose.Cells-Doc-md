@@ -33,7 +33,7 @@ The following code implements the IWarningCallback and set the PdfSaveOptions.Wa
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-Articles-GetWarningsForFontSubstitution-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetWarningsForFontSubstitution-1.cs" >}}
 ## **Output**
 After converting the source Excel file to PDF, the warnings are output to the debug console like this:
 

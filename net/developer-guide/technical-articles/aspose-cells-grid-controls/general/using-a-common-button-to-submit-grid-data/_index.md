@@ -27,7 +27,7 @@ ASP.NET Button control is a server side control. Whenever it is clicked, a serve
 #### **Code Example**
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Articles-UsingCommonSubmitButton.aspx-UsingCommonSubmitButton.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-UsingCommonSubmitButton.aspx-UsingCommonSubmitButton.cs" >}}
 ### **3. Running the Application**
 Now, you can compile and run your application by pressing Ctrl+F5 and page will be opened in a new browser window. Let's add some values to GridWeb and press Submit Grid Data to Server button and you would see occurring a postback to update and validate GridWeb data.
 ## **Conclusion**

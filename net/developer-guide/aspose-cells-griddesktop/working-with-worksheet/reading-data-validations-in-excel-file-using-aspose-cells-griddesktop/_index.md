@@ -15,7 +15,7 @@ The following sample code imports the [sample excel file](5115550.xlsx) which co
 
 
 
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ReadingDataValidations-1.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ReadingDataValidations-1.cs" >}}
 
 
 After importing the file into GridDesktop when we try to change the value of cell A2 greater than 100 which pops up the **Validation Error message box**.

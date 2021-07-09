@@ -19,4 +19,4 @@ Access the shape data using the [**Shape.Paths**](https://apireference.aspose.co
 | :- |
 |![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)|
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-DrawingObjects-AccessNonPrimitiveShape-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-AccessNonPrimitiveShape-1.cs" >}}

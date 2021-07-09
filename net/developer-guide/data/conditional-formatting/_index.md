@@ -27,7 +27,7 @@ Developers can create a designer spreadsheet that contains conditional formattin
 
 Aspose.Cells allows developers to copy conditional format settings from one cell to another in the worksheet by calling the [**Range.Copy()**](https://apireference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) method.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-UsingCopyMethod-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-UsingCopyMethod-1.cs" >}}
 
 ## **Applying Conditional Formatting at Runtime**
 
@@ -43,11 +43,11 @@ After this example comes a number of other smaller examples that show how to app
 
 Microsoft Excel 2007 added more advanced conditional formatting that Aspose.Cells also support. The examples here, illustrate how to use simple formatting, the Microsoft Excel 2007 examples show how to apply more advanced conditional formatting.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-ConditionalFormattingatRuntime-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormattingatRuntime-1.cs" >}}
 
 ### **Set Font**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -57,7 +57,7 @@ You can only change font style, text color, underline style, and strikeout style
 
 ### **Set Border**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-SetBorder-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SetBorder-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -67,4 +67,4 @@ You can only use thin line styles to the outline border. Diagonal lines are not 
 
 ### **Set Pattern**
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Formatting-SetPattern-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SetPattern-1.cs" >}}

@@ -12,7 +12,7 @@ We use **"Content-disposition", "inline; filename=test.xls"** header to force th
 ### **Exceptions**
 You can use the following code to verify that it is NOT a bug of Aspose.
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-KnowledgeBase-KnownIssues-HTTPCompression.aspx-HTTPCompression.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-KnownIssues-HTTPCompression.aspx-HTTPCompression.cs" >}}
 ### **Solutions**
 You can use one of the following workarounds to solve this problem:
 

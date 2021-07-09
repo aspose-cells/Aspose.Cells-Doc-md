@@ -40,7 +40,7 @@ According to the specified range of cells, the List object is created by Aspose
 
 In the example given below, we have created the same [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) using Aspose.Cells API as we created using Microsoft Excel in the above section.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Tables-CreatingListObject-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-CreatingListObject-1.cs" >}}
 
 ## **Format a Table**
 
@@ -54,4 +54,4 @@ A worksheet is represented by the [**Worksheet**](https://apireference.aspose.co
 
 The example below adds sample data to a worksheet, adds a [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) and apply default styles to it. [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) styles are supported by Microsoft Excel 2007/2010.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}

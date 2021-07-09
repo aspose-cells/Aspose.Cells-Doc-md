@@ -10,7 +10,7 @@ Sometimes, users face System.StackOverFlowException on Workbook.CalculateFormula
 
 
 
-{{< gist "aspose-cells" "18f6c28b77ee30c773fb2199168e73ed" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
+{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
 ## **Thickness of lines issue while rendering Excel to PDF**
 Sometimes, when Excel file is converted to PDF, then thickness of lines is different in the output PDF. This issue is not caused by Aspose.Cells. It is caused by **Adobe Reader** when its settings **"Smooth line art"** and **"Enhance thin lines"** are checked. Unchecking these options will display PDF fine.
 
@@ -32,7 +32,7 @@ Aspose.Cells APIs provide Memory Preferences to optimize the memory consumption 
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-FAQs-FixOutOfMemoryException-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-FAQs-FixOutOfMemoryException-1.cs" >}}
 ## **This file format is not supported or you do not specify a correct format.**
 Sometime user gets the exception saying this file is actually in a very old format which is not supported by Aspose.Cells. If you open your file in MS-Excel and save it with Save As menu command, you will see MS-Excel will show you its format i.e. Microsoft Excel 5.0/95 Workbook (*.xls).
 
@@ -40,7 +40,7 @@ So the file is actually in a Microsoft Excel 5.0 or 95 format which is not suppo
 
 
 
-{{< gist "aspose-cells" "c326c6c668fc372e30569fa9e0f6bf4b" "Examples-CSharp-KnowledgeBase-FAQs-FileFormatInformation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-FAQs-FileFormatInformation-1.cs" >}}
 
 
 This is the console output of the above sample code for excel file which is in older format.

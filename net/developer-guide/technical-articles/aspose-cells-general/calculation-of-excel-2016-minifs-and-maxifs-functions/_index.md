@@ -14,4 +14,4 @@ The following sample code loads the [sample excel file](5115149.xlsx) and calls 
 
 
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-MINIFSAndMAXIFS-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-MINIFSAndMAXIFS-1.cs" >}}

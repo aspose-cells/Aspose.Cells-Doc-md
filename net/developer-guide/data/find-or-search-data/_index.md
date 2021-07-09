@@ -39,7 +39,7 @@ Developers can find a specified formula in the worksheet by calling the [**Cells
 
 The examples below use worksheet data for practicing find methods:
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingFormula-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingFormula-1.cs" >}}
 
 ## **Finding Data or Formulas using FindOptions**
 
@@ -49,7 +49,7 @@ It is possible to find specified values using the [**Cells**](https://apireferen
 - **Previous cell**, the last cell that contained the same value. This parameter can be set to null when searching from the start.
 - **Find options**, the find options.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Find-FindingDataOrFormulasUsingFindOptions-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingDataOrFormulasUsingFindOptions-1.cs" >}}
 
 ## **Finding Cells Containing Specified String Value or Number**
 
@@ -57,4 +57,4 @@ It is possible to find specified string values by calling the same [**Find**](ht
 
 Specify the [**FindOptions.LookInType**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) and [**FindOptions.LookAtType**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) properties. The following example code illustrates how to use these properties to find cells with various number of strings at the **beginning** or at the **center** or at the **end** of the cell's string.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}

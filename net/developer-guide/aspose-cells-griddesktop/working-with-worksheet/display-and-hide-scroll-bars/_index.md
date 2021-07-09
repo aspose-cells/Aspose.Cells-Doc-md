@@ -26,10 +26,10 @@ To control scroll bar's visibility in the GridDesktop, use the IsVerticalScrollB
 
 To hide scrollbars, set the properties that control visibility to false.
 
-{{< gist "aspose-com-gists" "450189dd05e175bb3c7765dbe7c33651" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-HideScrollbars.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-HideScrollbars.cs" >}}
 
 ### **Programming Samples: Making Scroll Bars Visible**
 
 To make scrollbars visible, set the properties that control visibility to true.
 
-{{< gist "aspose-com-gists" "450189dd05e175bb3c7765dbe7c33651" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-ShowScrollbars.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-ShowScrollbars.cs" >}}

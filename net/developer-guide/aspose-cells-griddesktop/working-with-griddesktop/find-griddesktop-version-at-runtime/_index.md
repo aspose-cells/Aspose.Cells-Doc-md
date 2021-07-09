@@ -13,4 +13,4 @@ The following sample code finds the GridDesktop version at runtime. The screensh
 ![todo:image_alt_text](find-griddesktop-version-at-runtime_1.png)
 
 ## **Sample Code**
-{{< gist "aspose-cells" "12f660d9525e46ef9ab404004d07c3e8" "Examples-GridDesktop-CSharp-WorkingWithGridDesktop-Form_FindGridDesktopVersionAtRunTime.cs" >}}
+{{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithGridDesktop-Form_FindGridDesktopVersionAtRunTime.cs" >}}

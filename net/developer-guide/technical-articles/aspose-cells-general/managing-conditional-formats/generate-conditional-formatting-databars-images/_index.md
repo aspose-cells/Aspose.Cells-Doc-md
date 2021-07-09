@@ -13,4 +13,4 @@ Sometimes, you need to generate images of Conditional Formatting DataBars. You c
 
 The following sample code generates the DataBar image of cell C1. First, it accesses the format condition object of the cell, and then from that object, it accesses the [**DataBar**](https://apireference.aspose.com/cells/net/aspose.cells/databar) object and uses its [**ToImage()**](https://apireference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) method to generate the image of the cell. Finally, it saves the image on disk.
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}

@@ -29,7 +29,7 @@ Developers can access any specific cell by passing its cell name to the [**Cells
 
 If you create a blank worksheet at the start, the count of [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection is zero. When you use this approach to access a cell, it will check whether this cell exists in the collection or not. If yes, it returns the cell object in the collection otherwise, it creates a new [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) object, adds the object to the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection and then returns the object. This approach is the easiest way to access the cell if you are familiar with Microsoft Excel but it's the slowest one as compared to other approaches.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
 ### **Using Row & Column Index of the Cell**
 
@@ -37,7 +37,7 @@ Developers can access any specific cell by passing the indices of its row and co
 
 This approach works in the same way as that of the first approach.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
 
 ### **Using Cell Index in Cells Collection**
 
@@ -45,7 +45,7 @@ A cell can also be accessed by passing the cell's numeric index to the [**Cells*
 
 If you use this approach to access cells, an exception can be thrown if the numeric index of the cell is out of range. This approach is the fastest one to access the cells but an important thing to know is that if you use this approach to access a cell object, the numeric index may change after new cells are added to the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection. The cell objects in the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection are internally sorted by row and column indices.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
 
 ## **Accessing Maximum Display Range of Worksheet**
 
@@ -53,4 +53,4 @@ Aspose.Cells allows developers to access a worksheet's maximum display range. Th
 
 You can access a worksheet's maximum display range using [**Worksheet.Cells.MaxDisplayRange**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). The following sample code illustrates how to access the [**MaxDisplayRange**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) property.
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}

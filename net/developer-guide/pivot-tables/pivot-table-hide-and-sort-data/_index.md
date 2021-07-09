@@ -10,7 +10,7 @@ Aspose.Cells supports hiding and sorting data in the pivot table. The following
 
 
 
-{{< gist "aspose-com-gists" "922f990b02cf4e04a328bd6f37029af8" "Examples-CSharp-PivotTables-PivotTableSortAndHide-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTables-PivotTableSortAndHide-1.cs" >}}
 
 The source and output excel files used in the code snippet are attached for reference.
 

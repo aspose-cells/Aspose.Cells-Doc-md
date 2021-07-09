@@ -50,4 +50,4 @@ You can use any source workbooks. These images are just for illustration purpose
 
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
-{{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
