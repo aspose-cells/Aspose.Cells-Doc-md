@@ -53,7 +53,7 @@ The **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cel
 
 ### **Opening Microsoft Excel 95/5.0 Files**
 
-To open Microsoft Excel 95 files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select **[EXCEL_95](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#EXCEL_95)** value in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration. Sample file to test the code can be downloaded from the following link:
+To open Microsoft Excel 95 files, instantiate the **[Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance with the path or stream of the template file. Sample file to test the code can be downloaded from the following link:
 
 [Excel95_5.0.xls](Excel95_5.0.xls)
 
@@ -61,41 +61,17 @@ To open Microsoft Excel 95 files, use the **[LoadOptions](https://apireference.a
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningExcel95_5_0XLSFiles-1.java" >}}
 
-### **Opening Microsoft Excel 97 Files**
+### **Opening Microsoft Excel 97 or later versions XLS Files**
 
-To open Microsoft Excel 97 files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** method and select the **[EXCEL_97_TO_2003](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#EXCEL_97_TO_2003)** value in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
-
-#### **Example**
-
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
-
-### **Opening Microsoft Excel 2000 Files**
-
-To open Microsoft Excel 2000 files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[XLSX](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#XLSX)** value in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
-
-#### **Example**
-
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel2007XlsxFiles-OpeningMicrosoftExcel2007XlsxFiles.java" >}}
-
-### **Opening Microsoft Excel 2003 Files**
-
-To open Microsoft Excel 2003 files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[EXCEL_97_TO_2003](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#EXCEL_97_TO_2003)** value, predefined in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
+To open XLS files of Microsoft Excel XLS 97 or later versions, instantiate the **[Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance with the path or stream of the template file. Or use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** method and select the **[EXCEL_97_TO_2003](https://apireference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** value in the **[LoadFormat](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
 
 #### **Example**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
 
-### **Opening Microsoft Excel XP Files**
+### **Opening Microsoft Excel 2007 or later versions XLSX Files**
 
-To open Microsoft Excel XP files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[EXCEL_97_TO_2003](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#EXCEL_97_TO_2003)** value, predefined in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
-
-#### **Example**
-
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
-
-### **Opening Microsoft Excel 2007/2010 XLSX Files**
-
-To open Microsoft Excel 2007/2010 XLSX files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[XLSX](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#XLSX)** value, predefined in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
+To open XLSX files of Microsoft Excel 2007 or later versions, instantiate the **[Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance with the path or stream of the template file. Or use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[XLSX](https://apireference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** value in the **[LoadFormat](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
 
 #### **Example**
 
@@ -109,7 +85,7 @@ Aspose.Cells allows developers to open spreadsheet files with different formats 
 
 SpreadsheetML files are the XML representations of your spreadsheets including all information about the spreadsheet such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.
 
-To open SpreadsheetML files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[EXCEL_2003_XML](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#EXCEL_2003_XML)** value, predefined in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
+To open SpreadsheetML files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[SPREADSHEET_ML](https://apireference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)** value in the **[LoadFormat](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
 
 #### **Example**
 
@@ -119,7 +95,7 @@ To open SpreadsheetML files, use the **[LoadOptions](https://apireference.aspos
 
 Comma Separated Values (CSV) files contain records whose values are delimited or separated by commas. In CSV files, data is stored in a tabular format that has fields separated by the comma character and quoted by the double-quote character. If a field's value contains a double quote character it is escaped with a pair of double-quote characters. You can also use Microsoft Excel to export your spreadsheet data to a CSV file.
 
-To open CSV files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[CSV](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#CSV)** value, predefined in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
+To open CSV files, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[CSV](https://apireference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** value, predefined in the **[LoadFormat](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
 
 #### **Example**
 
@@ -147,25 +123,15 @@ Sample source file and output files can be downloaded from the following links f
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
-### **Opening Tab Delimited Files**
+### **Opening TSV(Tab Delimited) Files**
 
 Tab-delimited files contain spreadsheet data but without any formatting. Data is arranged in rows and columns such as tables and spreadsheets. Shortly, a tab-delimited file is a special kind of plain text file with a tab between each column in the text.
 
-To open tab-delimited files, developers should use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[TAB_DELIMITED](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#TAB_DELIMITED)** value, predefined in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
+To open tab-delimited files, developers should use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[TSV](https://apireference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** value, predefined in the **[LoadFormat](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
 
 #### **Example**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningTabDelimitedFiles-OpeningTabDelimitedFiles.java" >}}
-
-### **Opening Tab-Separated Values (TSV) Files**
-
-TSV files are also used to contain spreadsheet data but without any formatting. The format is the same with Tab Delimited where data is arranged in rows and columns such as tables and spreadsheets.
-
-To open tab-delimited files, developers should use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class and select the **[TSV](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformattype#TSV)** value, predefined in the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
-
-#### **Example**
-
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Files-Handling-OpeningTSVFiles-1.java" >}}
 
 ### **Opening Encrypted Excel Files**
 
