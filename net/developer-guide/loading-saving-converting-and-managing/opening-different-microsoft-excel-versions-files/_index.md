@@ -26,7 +26,7 @@ The **[FileFormatType](https://apireference.aspose.com/cells/net/aspose.cells/fi
 |Xltx|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 template XLTX file|
 |Xltm|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 macro-enabled XLTM file|
 |Xlsb|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 binary XLSB file|
-|Excel2003XML|Represents a SpreadsheetML file|
+|SpreadsheetML|Represents a SpreadsheetML file|
 |Tsv|Represents a Tab-separated values file|
 |TabDelimited|Represents a Tab Delimited text file|
 |Ods|Represents an ODS file|
