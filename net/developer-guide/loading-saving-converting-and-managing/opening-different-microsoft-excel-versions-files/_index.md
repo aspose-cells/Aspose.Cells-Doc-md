@@ -19,7 +19,7 @@ The **[FileFormatType](https://apireference.aspose.com/cells/net/aspose.cells/fi
 
 |**File Format Types**|**Description**|
 | :- | :- |
-|CSV|Represents a CSV file|
+|Csv|Represents a CSV file|
 |Excel97To2003|Represents an Excel 97 - 2003 file|
 |Xlsx|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 XLSX file|
 |Xlsm|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 XLSM file|
@@ -27,11 +27,11 @@ The **[FileFormatType](https://apireference.aspose.com/cells/net/aspose.cells/fi
 |Xltm|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 macro-enabled XLTM file|
 |Xlsb|Represents an Excel 2007/2010/2013/2016/2019 and Office 365 binary XLSB file|
 |Excel2003XML|Represents a SpreadsheetML file|
-|TSV|Represents a Tab-separated values file|
+|Tsv|Represents a Tab-separated values file|
 |TabDelimited|Represents a Tab Delimited text file|
-|ODS|Represents an ODS file|
-|HTML|Represents an HTML file|
-|MHTML|Represents an MHTML file|
+|Ods|Represents an ODS file|
+|Html|Represents an HTML file|
+|Mhtml|Represents an MHTML file|
 
 ### **Opening Microsoft Excel 95/5.0 Files**
 
