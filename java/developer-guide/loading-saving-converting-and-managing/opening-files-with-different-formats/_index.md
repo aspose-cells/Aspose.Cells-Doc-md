@@ -31,11 +31,11 @@ Sometimes, the Excel file that you want to open is stored as a stream. In that c
 
 ### **Opening Files of Different Microsoft Excel Versions**
 
-It's very common to believe that the Excel files that you're opening could be created by different versions of Microsoft Excel: Microsoft Excel 97, 2000, XP, 2003 and 2007/2010. When that's the case, use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class to specify the format of the Excel file using the **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration.
+User may use the **[LoadOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class to specify the format of the Excel file using the **[LoadFormat](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration.
 
-The **[FileFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/FileFormatType)** enumeration contains many pre-defined file formats some of which are given below.
+The **[LoadFormat](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadFormat)** enumeration contains many pre-defined file formats some of which are given below.
 
-|**File Format Types**|**Description**|
+|**Format Types**|**Description**|
 | :- | :- |
 |Csv|Represents a CSV file|
 |Excel97To2003|Represents an Excel 97 - 2003 file|
