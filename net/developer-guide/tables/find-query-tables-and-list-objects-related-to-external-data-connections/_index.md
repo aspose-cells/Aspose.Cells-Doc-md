@@ -19,8 +19,6 @@ Now write the following method into your application which is used by the above 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-VisualBasic-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.vb" >}}
-
 Here is the console output of the above sample code using this [sample excel file](5115493.xlsm).
 
 {{< highlight java >}}
