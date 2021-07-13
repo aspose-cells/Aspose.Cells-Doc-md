@@ -17,7 +17,7 @@ The following sample codes with [sample excel file](5115493.xlsm) explain how to
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
-The following is the console output of the above sample code using this [sample excel file](5115493.xlsm).
+The following is the console output of running the above sample codes with this [sample excel file](5115493.xlsm).
 
 {{< highlight java >}}
 
