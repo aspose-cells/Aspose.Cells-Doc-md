@@ -52,7 +52,7 @@ The following is a list of any changes made to the public API such as added, ren
 
  Adds PivotTable conditional format limit in the column fields.
 
-### **Adds PivotFormatCondition.AddColumnAreaCondition(string fieldName) method .**
+### **Adds PivotFormatCondition.AddColumnAreaCondition(String fieldName) method .**
 
  Adds PivotTable conditional format limit in the column fields.
 
@@ -60,7 +60,7 @@ The following is a list of any changes made to the public API such as added, ren
 
 Adds PivotTable conditional format limit in the row fields.
 
-### **Adds PivotFormatCondition.AddRowAreaCondition(string fieldName) method .**
+### **Adds PivotFormatCondition.AddRowAreaCondition(String fieldName) method .**
 
 Adds PivotTable conditional format limit in the row fields.
 
@@ -68,7 +68,7 @@ Adds PivotTable conditional format limit in the row fields.
 
 Adds PivotTable conditional format limit in the data fields.
 
-### **Adds PivotFormatCondition.AddDataAreaCondition(string fieldName) method .**
+### **Adds PivotFormatCondition.AddDataAreaCondition(String fieldName) method .**
 
 Adds PivotTable conditional format limit in the data fields.
 
@@ -76,7 +76,7 @@ Adds PivotTable conditional format limit in the data fields.
 
 Sets conditional areas of PivotFormatCondition object.
 
-### **Adds SeriesCollection.Add(System.String,System.Boolean,System.Boolean) method.**
+### **Adds SeriesCollection.Add(boolean,boolean) method.**
 
 Adds series with a range.
 
