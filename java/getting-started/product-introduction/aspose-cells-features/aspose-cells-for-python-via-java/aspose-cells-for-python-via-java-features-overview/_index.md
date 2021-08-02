@@ -21,7 +21,7 @@ This page summarizes Aspose.Cells for Python via Java features.
 - Copy or move worksheets within or between workbooks
 - Insert images, Create conventional and custom charts and Set gradient background for charts using API
 - Add comments to cells
-- Microsoft Excel 2007/2010 themes and colors
+- Microsoft Excel 2007 and later versions themes and colors
 - Create auto-filters
 - Implement data validations
 - Implement data sorting
@@ -30,7 +30,7 @@ This page summarizes Aspose.Cells for Python via Java features.
 - Group/ungroup rows and columns
 - Create custom page breaks
 - Calculate complex Excel formulae
-- Support advanced conditional formatting supported in Microsoft Excel 2007/2010
+- Support advanced conditional formatting supported in Microsoft Excel 2007 and later versions
 - Freeze/unfreeze Panes
 - Insert hyperlinks to link data
 - Implement Smart Markers

@@ -23,7 +23,7 @@ Many customers worldwide rely on the thorough document import and export feature
 | :- | :- | :- |
 |High-Quality Conversions|Quickly and reliably, convert between several popular document formats.|Yes|
 |Microsoft Excel Workbook (XLS)|The fastest and most complete XLS format implementation you can find.|Yes|
-|SpreadsheetML (XLSX, XML)|Aspose.Cells supports OOXML, Flat OPC and also Excel 2003 XML. Moreover, <br>the component supports all major Excel 2007, 2010 and 2013 file formats e.g XLSX, XLTX, XLSM, XLTM etc.|Yes|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells supports OOXML, Flat OPC and also Excel 2003 XML. Moreover, <br>the component supports all major Excel 2007 and later versions file formats e.g XLSX, XLTX, XLSM, XLTM, XLSB etc.|Yes|
 |Comma Separated Value (CSV)|Comprehensive support of the CSV format to interact with a variety of applications.|Yes|
 |HTML|Save as HTML is available.|Yes|
 |OpenDocument (ODS)|Aspose.Cells can load and save documents in the OpenDocument Spreadsheet (.ods) format.|Yes|
@@ -39,7 +39,7 @@ Aspose.Cells for Java now provides high fidelity rendering of spreadsheet pages.
 |Render worksheet pages to raster images (PNG, JPEG, BMP etc.).|Yes|
 |Render spreadsheet pages to vector images (EMF).|Yes|
 |Specify image resolution, quality, compression and other options.|Yes|
-|Print spreadsheets using the .NET printing infrastructure. The component has built-in print method to print <br>worksheets as shown in Microsoft Excel's print preview.|Yes|
+|Print spreadsheets using Java printing infrastructure. The component has built-in print method to print <br>worksheets as shown in Microsoft Excel's print preview.|Yes|
 |Update page numbers and other fields before rendering or printing.|Yes|
 ## **Spreadsheet Content Features**
 Aspose.Cells for Java provides a rich object model that consists of over 100 public classes/interfaces, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded spreadsheets. Some key features are given in the below table.
@@ -53,7 +53,7 @@ Aspose.Cells for Java provides a rich object model that consists of over 100 pub
 |Create charts|Yes|
 |Set gradient background for charts using API|Yes|
 |Add comments to cells|Yes|
-|Microsoft Excel 2007 themes and colors|Yes|
+|Microsoft Excel 2007 and later versions themes and colors|Yes|
 |Create auto-filters|Yes|
 |Implement data validations|Yes|
 |Implement data sorting|Yes|
@@ -63,7 +63,7 @@ Aspose.Cells for Java provides a rich object model that consists of over 100 pub
 |Create custom page breaks|Yes|
 |Insert/delete or hide rows, columns and sheets|Yes|
 |Calculate complex Excel formulae|Yes|
-|Support advanced conditional formatting supported in Microsoft Excel 2007|Yes|
+|Support advanced conditional formatting supported in Microsoft Excel 2007 and later versions|Yes|
 |Freeze/unfreeze Panes|Yes|
 |Insert hyperlinks to link data|Yes|
 |Implement Smart Markers|Yes|
@@ -78,7 +78,7 @@ Aspose.Cells for Java provides a rich object model that consists of over 100 pub
 |Manipulate named ranges|Yes|
 |Create custom charts|Yes|
 |Add, preserve or extract OLE objects from the spreadsheets.|Yes|
-|Implement Microsoft Excel 2010 sparklines|Yes|
+|Implement sparklines|Yes|
 |Encrypt files|Yes|
 ## **Spreadsheet Formatting Features**
 Aspose.Cells for Java provides detailed programmatic access to formatting properties of all spreadsheet elements.

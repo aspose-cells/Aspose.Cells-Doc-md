@@ -5,5 +5,5 @@ weight: 40
 url: /java/downloads/
 ---
 
-#### **Please check:**
-[Aspose.Cells for Java - Downloads (Maven Repos.)](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-cells/)
+## **Please check:**
+[Aspose.Cells for Java - Downloads (Maven Repos.)](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)

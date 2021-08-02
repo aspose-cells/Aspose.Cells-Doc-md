@@ -67,6 +67,5 @@ This article has covered the key points on why Aspose components are a better ch
 For more information, see the following Internet articles:
 
 - [Considerations for Server-Side Automation of Office](https://support.microsoft.com/en-us/help/257757/considerations-for-server-side-automation-of-office)
-- [Licensing the Office 2000 Web Components and Office Server Extensions](http://support.microsoft.com/default.aspx?scid=kb;EN-US;q243006)
 
 {{% /alert %}}

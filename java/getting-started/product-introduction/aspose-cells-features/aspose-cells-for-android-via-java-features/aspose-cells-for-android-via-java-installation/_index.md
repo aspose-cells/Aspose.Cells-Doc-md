@@ -8,7 +8,7 @@ url: /java/aspose-cells-for-android-via-java-installation/
 ## **System Requirements**
 Aspose.Cells for Android via Java is platform-independent and can be used on any platform where the Android Runtime environment is installed and will run on Android systems running Android OS 2.0 or greater. At present, the component has been tested with:
 
-- Android 4.2 v 17
+- Android 5.1 v 22
 ## **Install Aspose.Cells for Android via Java from Maven Repository**
 1. Add maven repository into your build.gradle 
 1. Add 'Aspose.Cells for Android via Java' JAR as a dependency

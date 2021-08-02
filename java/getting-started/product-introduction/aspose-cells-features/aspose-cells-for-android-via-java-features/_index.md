@@ -13,8 +13,8 @@ Many customers worldwide rely on the thorough document import and export feature
 |**Feature**|**Description**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 | :- | :- | :- | :- |
 |High-Quality Conversions|Quickly and reliably, convert between several popular document formats.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel Workbook (XLS)|The fastest and most complete XLS format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX, XML)|Aspose.Cells supports OOXML, Flat OPC and also Excel 2003 XML. Moreover, <br>the component supports all major Excel 2007, 2010 and 2013 file formats e.g XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel Workbook (XLS/XLSB)|The fastest and most complete XLS/XLSB format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells supports OOXML, Flat OPC and also Excel 2003 XML. Moreover, <br>the component supports all major Excel 2007 and later versions file formats e.g XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Comma Separated Value (CSV)|Comprehensive support of the CSV format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|Save as HTML is available.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |OpenDocument (ODS)|Aspose.Cells can load and save documents in the OpenDocument Spreadsheet (.ods) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -45,7 +45,7 @@ Aspose.Cells provides a rich object model that consists of over 100 public class
 |Create charts|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Set gradient background for charts using API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Add comments to cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 2007 themes and colors|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel 2007 and later versions themes and colors|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Create auto-filters|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implement data validations|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implement data sorting|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -55,7 +55,7 @@ Aspose.Cells provides a rich object model that consists of over 100 public class
 |Create custom page breaks|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insert/delete or hide rows, columns and sheets|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Calculate complex Excel formulae|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Support advanced conditional formatting supported in Microsoft Excel 2007|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Support advanced conditional formatting supported in Microsoft Excel 2007 and later versions|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Freeze/unfreeze Panes|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insert hyperlinks to link data|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implement Smart Markers|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -70,7 +70,7 @@ Aspose.Cells provides a rich object model that consists of over 100 public class
 |Manipulate named ranges|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Create custom charts|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Add, preserve or extract OLE objects from the spreadsheets.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Implement Microsoft Excel 2010 sparklines|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Implement sparklines|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Encrypt files|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Spreadsheet Formatting Features**
 Aspose.Cells provides detailed programmatic access to formatting properties of all spreadsheet elements.

@@ -10,7 +10,6 @@ url: /java/aspose-cells-for-php-via-java-limitations-and-api-differences/
 
 The following list (with sample code segments) shows some differences between Aspose.Cells for Java and Aspose.Cells for PHP via Java APIs.
 ### **Importing library (Package Comparisons)**
-** 
 
 **Aspose.Cells for Java**
 
@@ -19,8 +18,6 @@ The following list (with sample code segments) shows some differences between As
  import com.aspose.cells.*;
 
 {{< /highlight >}}
-
-** 
 
 **Aspose.Cells for PHP via Java**
 
@@ -38,7 +35,6 @@ use aspose\cells\Workbook;
 
 
 ### **Instantiating a new Workbook**
-** 
 
 **Aspose.Cells for Java**
 
@@ -48,7 +44,6 @@ use aspose\cells\Workbook;
 
 {{< /highlight >}}
 
-** 
 
 **Aspose.Cells for PHP via Java**
 
@@ -60,7 +55,6 @@ use aspose\cells\Workbook;
 
 
 ### **Enums or Constants**
-** 
 
 **Aspose.Cells for Java**
 
@@ -82,7 +76,6 @@ use aspose\cells\Workbook;
 
 
 ### **Example**
-** 
 
 **Aspose.Cells for Java**
 

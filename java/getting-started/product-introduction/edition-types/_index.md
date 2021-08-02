@@ -34,16 +34,12 @@ Aspose.Cells offers only one edition type: Enterprise, whose features are summar
 |Excel 2000 |Yes |
 |Excel XP |Yes |
 |Excel 2003 |Yes |
-|Excel 2007, 2010, 2013 XLSX |Yes |
-|Excel 2007, 2010, 2013 XLSM |Yes |
-|Excel 2007, 2010, 2013 XLTM |Yes |
-|Excel 2007, 2010, 2013 XLTX |Yes |
+|Excel 2007 and later versions XLSX/XLSM/XLSB/... |Yes |
 |CSV |Yes |
 |Tab Delimited Text |Yes |
 |SpreadsheetML |Yes |
 |HTML |Yes |
 |ODS |Yes |
-|Aspose.Pdf.xml format (that can be used by Aspose.Pdf to create PDF files) |Yes |
 |Spreadsheet Content | |
 |Cell Data |Yes |
 |Formula |Yes |
