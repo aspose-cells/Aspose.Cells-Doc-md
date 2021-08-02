@@ -6,11 +6,19 @@ url: /java/setup-environment-and-installation-guidelines/
 ---
 
 ## **System Requirements**
-Aspose.Cells for Node.js via Java is platform-independent API and can be used on any platform (Windows, Linux, etc.) where [Node.js](https://nodejs.org/en/download/) and [node-java](https://github.com/joeferner/node-java) bridge are installed. The machine must have Oracle JDK 7 or greater versions before setting up the installation.
-## **Installation and Usage**
-Aspose.Cells for Node.js via Java is distributed as a ZIP archive.
+Aspose.Cells for Node.js via Java is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where [Node.js](https://nodejs.org/en/download/) and [node-java](https://github.com/joeferner/node-java) bridge are installed. The machine must have Oracle JDK 7 or greater versions before setting up the installation.
+## **Install from NPM**
+You can easily use Aspose.Cells for Node.js via Java from [NPM](https://www.npmjs.com/package/aspose.cells) with the following command.
+{{< highlight java >}}
 
-To install and use Aspose.Cells for Node.js via Java, follow the following instructions:
+ $ npm install aspose.cells
+
+{{< /highlight >}}
+
+If you encounter any problems during the installation process, please refer to https://www.npmjs.com/package/java.
+
+## **Install from ZIP archive**
+To install and use Aspose.Cells for Node.js via Java from a ZIP archive, follow the following instructions:
 ### **Linux:**
 - Download and install [Node.js](https://nodejs.org/en/download/).
 - Install Oracle JDK (1.7 or 1.8) for Linux, configure JAVA_HOME environment variable.
@@ -52,13 +60,11 @@ console.log("hello world");
 
 - Now run "node hello.js" @command prompt to run it.
 ### **Windows:**
-- Install Python 2.7 and add python.exe to PATH.
-- Install Node.js v8.9 and add node.exe to PATH.
 - Install Oracle JDK8 and configure JAVA_HOME environment variable.
-- Install Microsoft .Net Framework 4.5.1.
-- Install [Visual C++ 2015 Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools).
-- Install [Visual C++ 2010 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=14632).
-- Install [node-java bridge](https://github.com/joeferner/node-java) and run below commands @ command prompt as an administrator:
+- Install Node.js and add node.exe to PATH.
+- Install node-gyp.
+- Install Windows Build Tools.
+- Install [node-java bridge](https://www.npmjs.com/package/java) and run below commands @ command prompt as an administrator:
 
 
 
@@ -68,9 +74,9 @@ console.log("hello world");
 
 \> cd aspose.cells.js.java
 
-\> npm config set msvs_version 2015
-
 \> npm install -g node-gyp
+
+\> npm install --global --production windows-build-tools
 
 \> npm install java
 
