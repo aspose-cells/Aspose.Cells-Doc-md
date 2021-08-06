@@ -16,12 +16,19 @@ There are times when you want to create Microsoft Excel reports with pivot table
 1. Creating a new designer template.
    1. Create a new designer template file as in the screenshot below.
    1. Then define a named range, **DataSource**, which refers to this range of cells.
+   ![todo:image_alt_text](pivot-table-and-source-data_1.png)
+   
 1. Creating a Pivot Table Based on this named range.
    1. In Microsoft Excel, choose **Data**, then **PivotTable** and **PivotChart Report**.
    1. Create a pivot table based on the named range created in the first step.
+   ![todo:image_alt_text](pivot-table-and-source-data_2.png)
+   
    1. Drag the corresponding field to pivot table row and column, then create the resulting pivot table as in the screenshot below.
+   ![todo:image_alt_text](pivot-table-and-source-data_3.png)
+   
 1. Right-click the pivot table and select **Table Options**.
    1. Check **Refresh on open** in **Data options** settings.
+![todo:image_alt_text](pivot-table-and-source-data_4.png)
 
 Now, you can save this file as your designer template file.
 
