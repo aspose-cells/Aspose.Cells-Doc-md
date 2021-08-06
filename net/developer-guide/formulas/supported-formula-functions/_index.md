@@ -400,6 +400,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - RADIANS
 - RAND
 - RANDBETWEEN
+- RANDARRAY
 - RANK
 - RANK.AVG
 - RANK.EQ
@@ -425,6 +426,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - SEARCH
 - SEARCHB
 - SECOND
+- SEQUENCE
 - SERIESSUM
 - SIGN
 - SIN
@@ -434,6 +436,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 - SLOPE
 - SMALL
 - SQRT
+- SORTBY
 - SQRTPI
 - STANDARDIZE
 - STDEV
@@ -492,6 +495,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 
 - UNICHAR
 - UNICODE
+- UNIQUE
 - UPPER
 - USDOLLAR
 
