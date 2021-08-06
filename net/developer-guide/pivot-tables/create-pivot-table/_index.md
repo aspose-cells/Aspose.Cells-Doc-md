@@ -1,7 +1,7 @@
 ---
 title: Create Pivot Table
 type: docs
-weight: 20
+weight: 9
 url: /net/create-pivot-table/
 ---
 
