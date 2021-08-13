@@ -10,9 +10,9 @@ url: /java/public-api-changes-in-aspose-cells-8-0-0/
 This page lists public API changes that were introduced in Aspose.Cells 8.0.0. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Cells which may affect the existing code.
 
 {{% /alert %}} 
-### **Added MemorySetting to LoadOptions & WorkbookSettings**
+## **Added MemorySetting to LoadOptions & WorkbookSettings**
 Starting from v8.0.0 of Aspose.Cells for Java we have provided the memory usage options for performance considerations. MemorySetting property is now available in LoadOptions & WorkbookSettings classes.
-##### **Example**
+### **Example**
 Demonstrates how to read an Excel file (having large size) in optimized mode.
 
 **Java**
@@ -58,9 +58,9 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 Please check the detailed article on [Optimizing Memory while Working with Large File](/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)s.
 
 {{% /alert %}}
-### **Implementations of Row & Cell has changed**
+## **Implementations of Row & Cell has changed**
 In previous versions, Row and Cell objects were kept in memory to represent corresponding row and cell in a Worksheet. The same instance was returned whenever **RowCollection[int index]** or **Cells[int row, int column]** were retrieved. For memory performance consideration, only properties and data of Row and Cell will be kept in the memory now onward. Hence, the Row & Cell object have become the wrapper of aforesaid properties.
-##### **Example**
+### **Example**
 Demonstrates how to compare the Cell and Row objects from now onward.
 
 **Java**
@@ -79,7 +79,7 @@ cell1.equals(cell2);
 {{< /highlight >}}
 
 Because the Row and Cell objects are instantiated according to the invocation, they will not be kept and managed in memory by the Cells component. Therefore after some insertion and deletion operations, the Row & Column indexes may not be updated or even worse, these objects become invalid.
-##### **Example**
+### **Example**
 For instance the following code snippet will return invalid results using 8.0.0 and above,
 
 **Java**
@@ -121,15 +121,15 @@ System.out.println(cell.getName() + ":" + cell.getValue());
 RowCollection does not inherit CollectionBase anymore because there is no Row object in its inner list.
 
 {{% /alert %}}
-### **Cell.StringValue Behavior Changed**
+## **Cell.StringValue Behavior Changed**
 In previous versions, special pattern _ was ignored while formatting cell values, wheres the special character * always produced one character into the formatted result. From this version, we have changed the logic to handle special characters _ and * in order to make the formatted result same as of Excel application. For instance, the custom cell format "_(\$* #,##0.00_)" used to represent value 123 produced the result as "$ 123.00". With new versions, Cell.StringValue will contain the result as "$123.00" which is the same behavior as Excel application exhibits while copying the cell to text or export to CSV.
-### **Added CreatedTime to PdfSaveOptions**
+## **Added CreatedTime to PdfSaveOptions**
 Now users can get or set PDF creation time while saving the spreadsheet to PDF while using PdfSaveOptions class.
-### **Added ShowFormulas to Worksheet**
+## **Added ShowFormulas to Worksheet**
 From now onward, users may use Boolean property ShowFormulas offered by Worksheet to switch the view between formula and value of a given worksheet.
-### **Added Ooxml to FileFormatType**
+## **Added Ooxml to FileFormatType**
 A new constant Ooxml has been added to the FileFormatType class to represent the encrypted Office open XML file such as XLSX, DOCX, PPTX and more.
-### **Obsoleted FilterColumnCollection of AutoFilter**
+## **Obsoleted FilterColumnCollection of AutoFilter**
 With Aspose.Cells for Java, the getFilterColumnCollection method has been marked obsoleted. It is suggested to use AuotFilter.getFilterColumns method instead.
-### **Replaced SeriesCollection.SecondCatergoryData with SeriesCollection.SecondCategoryData**
+## **Replaced SeriesCollection.SecondCatergoryData with SeriesCollection.SecondCategoryData**
 We have basically corrected the typo error in method name for SeriesCollection.getSecondCatergoryData. You may use SeriesCollection.getSecondCategoryData method now onward, whereas the original method SeriesCollection.getSecondCatergoryData has been marked obsoleted.

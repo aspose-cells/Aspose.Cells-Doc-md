@@ -16,7 +16,7 @@ You can modify VBA or Macro Code using Aspose.Cells. Aspose.Cells has added the 
 This article will show you how to change the VBA or Macro Code inside the source Excel file using Aspose.Cells.
 
 {{% /alert %}} 
-#### **Example**
+## **Example**
 The following sample code loads the source Excel file which has a following VBA or Macro code inside it
 
 {{< highlight java >}}

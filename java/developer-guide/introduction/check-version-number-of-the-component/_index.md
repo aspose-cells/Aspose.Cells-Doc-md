@@ -14,15 +14,15 @@ major.minor[.build[.revision]] , we may increase a part by 1 and make a new vers
 This document describes some ways to check which version of the component is installed on your system.
 
 {{% /alert %}} 
-#### **Checking the version number**
-##### **1) Manual Way**
+## **Checking the version number**
+### **1) Manual Way**
 If you have Java version/fix (Aspose.Cells for Java), you can unzip the Aspose.Cells library jar file, open the MANIFEST file with notepad and search the string i.e.., "Specification-Version: " to check its value.
 
 ![todo:image_alt_text](check-version-number-of-the-component_1.png)
 
 
 **Figure:** Checking the version number of the Java fix
-##### **2) Using the APIs**
+### **2) Using the APIs**
 You may also use the following APIs to get the version number of the product.
 
 

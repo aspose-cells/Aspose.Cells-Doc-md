@@ -11,12 +11,14 @@ This article provides a detailed understanding of how to use the ICustomFunction
 
 The ICustomFunction interface allows to add custom formula calculation functions to extend the Aspose.Cells' core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
 
+Please note, this interface has been replaced by [AbstractCalculationEngine](https://apireference.aspose.com/java/cells/com.aspose.cells/AbstractCalculationEngine) and will be removed in future. Some technical articles/examples atbout the new API: [here](https://docs.aspose.com/cells/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) and [here](https://docs.aspose.com/cells/java/returning-a-range-of-values-using-abstractcalculationengine/)
+
 {{% /alert %}} {{% alert color="primary" %}} 
 
 If you are new to Aspose.Cells for Java APIs, please check [this](http://www.aspose.com/docs/display/cellsjava/Installation) article to know how you can acquire and reference the Aspose.Cells for Java in your project.
 
 {{% /alert %}} 
-### **Creating and Evaluating a User-defined Function**
+## **Creating and Evaluating a User-defined Function**
 This article demonstrates the implementation of ICustomFunction interface to write a custom function and use it in the spreadsheet to get the results. We will define a custom function by name **MyFunc** which will accepts 2 parameters with following details.
 
 - 1st parameter refers to a single cell
@@ -147,7 +149,7 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-### **Overview**
+## **Overview**
 The Aspose.Cells APIs just put the ReferredArea object into the "paramsList" when the corresponding parameter is a reference or its calculated result is reference. If you need the reference itself then you can use the ReferredArea directly. If you need to get value of a single cell from the reference corresponding with the formula's position, you can use ReferredArea.getValue(rowOffset, int colOffset) method. If you need cell values array for the whole area then you can use ReferredArea.getValues method.
 
 As the Aspose.Cells APIs give the ReferredArea in "paramsList", the ReferredAreaCollection in "contextObjects" will not be needed anymore (in old versions it was not able to give one-to-one map to the parameters of the custom function always) therefore it has been removed from the "contextObjects".

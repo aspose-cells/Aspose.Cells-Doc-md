@@ -5,7 +5,7 @@ weight: 220
 url: /java/migrating-from-earlier-versions-of-aspose-cells/
 ---
 
-###### **This section includes the following topics:** 
+## **This section includes the following topics:** 
 - [How to Migrate to Aspose.Cells 7.0.0 or Higher](/cells/java/how-to-migrate-to-aspose-cells-7-0-0-or-higher/)
 - [Public API Changes in Aspose.Cells 8.0.0](/cells/java/public-api-changes-in-aspose-cells-8-0-0/)
 - [Public API Changes in Aspose.Cells 8.0.1](/cells/java/public-api-changes-in-aspose-cells-8-0-1/)
