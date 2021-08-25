@@ -38,7 +38,7 @@ The easiest way to auto-size the width and height of a column is to call the [Wo
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
-#### **AutoFit Column in a Range of Cells**
+### **AutoFit Column in a Range of Cells**
 A column is composed of many rows. It is possible to auto-fit a column based on the content in a range of cells in the column by calling an overloaded version of [autoFitColumn](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) method that takes the following parameters:
 
 - **Column index**, represents the index of the column whose contents need to auto-fit
