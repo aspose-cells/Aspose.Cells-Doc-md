@@ -15,7 +15,7 @@ Use the following Aspose.Cells methods to delete empty rows and columns:
 1. To delete blank columns, use the [Cells.deleteBlankColumns()](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteBlankColumns\(\)) method.
 
 {{% /alert %}} 
-#### **Deleting Blank Rows**
+## **Deleting Blank Rows**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankRows-DeletingBlankRows.java" >}}
-#### **Deleting Blank Columns**
+## **Deleting Blank Columns**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeletingBlankColumns-DeletingBlankColumns.java" >}}

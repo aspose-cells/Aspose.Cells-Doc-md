@@ -17,11 +17,11 @@ Aspose.Cells provides [Shape.getGeometry().getShapeAdjustValues()](https://apire
 This article will explain the use of [Shape.getGeometry().getShapeAdjustValues()](https://apireference.aspose.com/java/cells/com.aspose.cells/geometry#ShapeAdjustValues) property to change the adjustment value of the different shapes.
 
 {{% /alert %}} 
-#### **Change Adjustment Values of the Shape**
+## **Change Adjustment Values of the Shape**
 The following sample code accesses first three shapes of the first worksheet in the source excel file and then changes the adjustment values of the shapes. Below screenshots show how the shapes look before changing adjustment values and then after changing adjustment values.
-##### **Drawing Shapes Before Changing Adjustment Values**
+### **Drawing Shapes Before Changing Adjustment Values**
 ![todo:image_alt_text](change-adjustment-values-of-the-shape_1.png)
-##### **Drawing Shapes After Changing Adjustment Values**
+### **Drawing Shapes After Changing Adjustment Values**
 ![todo:image_alt_text](change-adjustment-values-of-the-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeAdjustmentValuesOfShape-ChangeAdjustmentValuesOfShape.java" >}}

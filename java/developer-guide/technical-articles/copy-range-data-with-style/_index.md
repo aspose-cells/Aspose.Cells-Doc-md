@@ -10,7 +10,7 @@ url: /java/copy-range-data-with-style/
 [Copy Range Data Only](/cells/java/copy-range-data-only/) explained how to copy the data from a range of cells to another range. Aspose.Cells can also copy a range complete with formatting. This article explains how.
 
 {{% /alert %}} 
-#### **Copy Range Data with Style**
+## **Copy Range Data with Style**
 Aspose.Cells provides a range of classes and methods for working with ranges, for example, [createRange()](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [StyleFlag](https://apireference.aspose.com/java/cells/com.aspose.cells/StyleFlag), [applyStyle()](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)), etc.
 
 This example:

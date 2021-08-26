@@ -10,7 +10,7 @@ url: /java/using-built-in-styles/
 Aspose.Cells provides a vast collection of re-usable styles to format a cell in a spreadsheet document. We can use built-in styles in our workbook and also create custom styles.
 
 {{% /alert %}} 
-### **How to use Built-in Styles**
+## **How to use Built-in Styles**
 The method [Workbook.createBuiltinStyle](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#createBuiltinStyle\(int\)) and class [BuiltinStyleType](https://apireference.aspose.com/java/cells/com.aspose.cells/BuiltinStyleType) make it convenient to create re-usable styles. Here is a list of all possible built-in styles:
 
 - [TWENTY_PERCENT_ACCENT_1](https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_1)

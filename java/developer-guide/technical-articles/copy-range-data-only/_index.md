@@ -10,7 +10,7 @@ url: /java/copy-range-data-only/
 Sometimes, you need to copy data from one range of cells to another, copying the data only, not the formatting. Aspose.Cells offers this feature by providing the [Range.copyData](https://apireference.aspose.com/java/cells/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) method.
 
 {{% /alert %}} 
-#### **Copy Range Data Only**
+## **Copy Range Data Only**
 This example shows how to:
 
 1. Create a workbook.

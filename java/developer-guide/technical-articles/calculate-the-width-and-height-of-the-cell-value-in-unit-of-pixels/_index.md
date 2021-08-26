@@ -12,7 +12,7 @@ Sometimes you need to calculate the width and height of cell value to fit the ce
 Alternatively, you can also [autofit rows and columns of your cell or range of cells](/cells/java/autofit-rows-and-columns/) using Aspose.Cells APIs.
 
 {{% /alert %}} 
-#### **Calculate the Width and Height of the Cell Value in Unit of Pixels**
+## **Calculate the Width and Height of the Cell Value in Unit of Pixels**
 The following code explains the use of [Cell.getWidthOfValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getWidthOfValue\(\))   and [Cell.getHeightOfValue()](https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getHeightOfValue\(\)) methods.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculateWidthAndHeightOfCell-CalculateWidthAndHeightOfCell.java" >}}
