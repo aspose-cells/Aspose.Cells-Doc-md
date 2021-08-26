@@ -15,7 +15,7 @@ In the Unicode Character Standard, Supplementary Characters are the characters a
 - In UTF-16 these characters require 2 surrogates (16-bit units).
 
 {{% /alert %}} 
-#### **Render Unicode Supplementary characters in output PDF by Aspose.Cells**
+## **Render Unicode Supplementary characters in output PDF by Aspose.Cells**
 The following screenshot shows how Aspose.Cells rendered the [source excel file](5473390.xlsx) into the [output PDF](5473391.pdf). As you can see all three Unicode Supplementary characters have been rendered exactly the same as done by Microsoft Excel.
 
 ![todo:image_alt_text](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)

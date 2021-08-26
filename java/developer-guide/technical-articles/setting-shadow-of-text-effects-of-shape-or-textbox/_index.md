@@ -18,7 +18,7 @@ You can set the **Shadow** of **Text Effects** of any Shape or TextBox. Please u
 - [PERSPECTIVE_DIAGONAL_UPPER_RIGHT](https://apireference.aspose.com/java/cells/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_RIGHT)
 
 {{% /alert %}} 
-#### **Setting Shadow of Text Effects of Shape or TextBox**
+## **Setting Shadow of Text Effects of Shape or TextBox**
 The following screenshot shows the [output excel file](5473446.xlsx) generated with the following sample code. The screenshot also shows the value of the **Shadow** which has been set as **Offset Bottom**.
 
 ![todo:image_alt_text](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)

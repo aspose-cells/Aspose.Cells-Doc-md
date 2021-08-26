@@ -20,8 +20,8 @@ Aspose.Cells APIs provide a bunch of iterators, however, this article mainly dis
 1. Columns Iterator
 
 {{% /alert %}} 
-#### **How to use Iterators**
-##### **Cells Iterator**
+## **How to use Iterators**
+### **Cells Iterator**
 There are various ways to access the cells' iterator, and one can use any of these methods based on the application requirements. Here are the methods that return the cells' iterator.
 
 1. Cells.iterator

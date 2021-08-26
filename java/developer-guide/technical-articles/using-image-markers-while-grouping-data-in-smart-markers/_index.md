@@ -10,7 +10,7 @@ url: /java/using-image-markers-while-grouping-data-in-smart-markers/
 This article presents an example that illustrates the usage of image markers while grouping data in smart markers.
 
 {{% /alert %}} 
-#### **Using Image Markers while Grouping Data in Smart Markers**
+## **Using Image Markers while Grouping Data in Smart Markers**
 The following sample code creates a workbook and then adds the following smart marker tags in cells D2, E2 and F2 respectively.
 
 {{< highlight java >}}

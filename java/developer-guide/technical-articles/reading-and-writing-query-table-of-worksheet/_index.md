@@ -15,7 +15,7 @@ Aspose.Cells provides [Worksheet.getQueryTables()](https://apireference.aspose.c
 These are both boolean values. You can view them in Microsoft Excel via Data > Connections > Properties.
 
 {{% /alert %}} 
-#### **Reading and Writing Query Table of Worksheet**
+## **Reading and Writing Query Table of Worksheet**
 The following sample code reads the first [QueryTable](https://apireference.aspose.com/java/cells/com.aspose.cells/QueryTable) of the first worksheet and then prints both of the [QueryTable](https://apireference.aspose.com/java/cells/com.aspose.cells/QueryTable) properties. Then it sets the [QueryTable.PreserveFormatting](https://apireference.aspose.com/java/cells/com.aspose.cells/querytable#PreserveFormatting) to **true**.
 
 The following screenshot shows the [source excel file](5472578.xlsx) used in the code and its properties showing both of the [QueryTable](https://apireference.aspose.com/java/cells/com.aspose.cells/QueryTable) values.
@@ -27,7 +27,7 @@ The following screenshot shows the [output excel file](5472574.xlsx) generated b
 ![todo:image_alt_text](reading-and-writing-query-table-of-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.java" >}}
-#### **Console Output**
+## **Console Output**
 Here is the console output of the above sample code
 
 {{< highlight java >}}

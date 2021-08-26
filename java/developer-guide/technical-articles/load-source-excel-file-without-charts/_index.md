@@ -10,7 +10,7 @@ url: /java/load-source-excel-file-without-charts/
 Aspose.Cells allows you to load your excel file without charts. Please use LoadOptions.LoadFilter property for this purpose.
 
 {{% /alert %}} 
-#### **Load source excel file without charts**
+## **Load source excel file without charts**
 The following sample code loads the sample excel file without charts and saves it in output pdf format.
 
 

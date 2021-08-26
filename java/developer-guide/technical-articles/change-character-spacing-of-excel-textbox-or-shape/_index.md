@@ -10,7 +10,7 @@ url: /java/change-character-spacing-of-excel-textbox-or-shape/
 You can change the character spacing of excel textbox or shape using the [FontSetting.TextOptions.Spacing](https://apireference.aspose.com/java/cells/com.aspose.cells/textoptions#Spacing) property.
 
 {{% /alert %}} 
-#### **Change Character Spacing of Excel TextBox or Shape**
+## **Change Character Spacing of Excel TextBox or Shape**
 The following sample code changes the character spacing of the text box in an excel file to point 4 and then saves it on disk.
 
 The following screenshot shows how the [sample excel file](5473426.xlsx) looks before the execution of the code.
