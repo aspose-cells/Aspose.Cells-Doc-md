@@ -57,11 +57,11 @@ For server side storage,we also provide an example.
 Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs></https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 ## 2. Get json from the spreadsheet file.
 ```C#
- GridJsWorkbook wbj = new GridJsWorkbook();
- using (FileStream fs = new FileStream(path, FileMode.Open))
+GridJsWorkbook wbj = new GridJsWorkbook();
+using (FileStream fs = new FileStream(path, FileMode.Open))
 {
-                  wbj.ImportExcelFile(fs,GridJsWorkbook.GetGridLoadFormat(Path.GetExtension(path)));
- }
+    wbj.ImportExcelFile(fs,GridJsWorkbook.GetGridLoadFormat(Path.GetExtension(path)));
+}
 String ret =wbj.ExportToJson();
 ```
 ## 3. Get the images/shapes  from the spreadsheet file
@@ -77,9 +77,9 @@ Stream s=GridJsWorkbook.CacheImp.LoadStream(fileid), mimeType, fileid.Replace('/
 ```
 ## 4. Update spreadsheet file in cache
 ```C#
-  GridJsWorkbook gwb = new GridJsWorkbook();
-  //p is the update json,uid is the unique id for the spreadsheet
-  String ret = gwb.UpdateCell(p, uid);
+GridJsWorkbook gwb = new GridJsWorkbook();
+//p is the update json,uid is the unique id for the spreadsheet
+String ret = gwb.UpdateCell(p, uid);
 ```
 ## 5.  Save spreadsheet file in cache
 ```C#
