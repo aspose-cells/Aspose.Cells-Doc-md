@@ -12,7 +12,7 @@ Sometimes, you might want to retrieve information about external data sources. F
 Aspose.Cells provide some useful calls for retrieving such details from corporate databases linked to template Excel files.
 
 {{% /alert %}} 
-#### **Retrieving External Data Sources Details**
+## **Retrieving External Data Sources Details**
 The following example shows how to get database connection and other details. The example utilizes a simple Excel file that contains links to external data source (SQL Server).
 
 When the code runs, the connection details are printed to the console.

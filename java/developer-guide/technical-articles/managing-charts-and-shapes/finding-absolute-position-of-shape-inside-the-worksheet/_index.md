@@ -11,7 +11,7 @@ Sometimes, you need to know the absolute position of a shape on a worksheet. Asp
 
 {{% /alert %}}
 
-#### **Explanation of the Shape.getLeftToCorner() and Shape.getTopToCorner() properties**
+## **Explanation of the Shape.getLeftToCorner() and Shape.getTopToCorner() properties**
 
 This screenshot explains what distances the [**Shape.getLeftToCorner()**](https://apireference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) and [**Shape.getTopToCorner()**](https://apireference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) properties measure.
 

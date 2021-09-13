@@ -21,7 +21,7 @@ Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable font
 
 ![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-#### **Download Source File and Output PDF**
+## **Download Source File and Output PDF**
 
 You can download the source Excel file and the output PDF from the following links
 

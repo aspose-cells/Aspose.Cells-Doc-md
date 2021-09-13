@@ -10,7 +10,7 @@ url: /java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatti
 Aspose.Cells APIs provide the means to add & manipulate conditional formatting rules for [Worksheet](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) object. These rules can be tailored in a number of ways to get the desired formatting based on conditions or rules. This article will demonstrate the use of Aspose.Cells for Java API to apply shading to alternate rows & columns with the help of conditional formatting rules and Excel's built-in functions.
 
 {{% /alert %}} 
-#### **Apply Shading to Alternate Rows & Columns using Conditional Formatting**
+## **Apply Shading to Alternate Rows & Columns using Conditional Formatting**
 This article makes use of Excel's built-in functions such as ROW, COLUMN & MOD. Here are little details of these functions for a better understanding of the code snippet provided ahead.
 
 - **ROW()** function returns the row number of a cell reference. If the reference is omitted, it assumes that the reference is the cell address in which the ROW function has been entered in.

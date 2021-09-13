@@ -11,7 +11,7 @@ Aspose.Cells APIs have enhanced the [**Protection**](https://apireference.aspose
 
 {{% /alert %}}
 
-### **Verify Password Used to Protect the Worksheet**
+## **Verify Password Used to Protect the Worksheet**
 
 The [**Protection.verifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)) method returns **true** if the specified password matches with the password used to protect the given worksheet, **false** if the specified password does not match. Following piece of code uses the [**Protection.verifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)) method in conjunction with [**Protection.isProtectedWithPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) property to detect the password protection, and verifies the password.
 

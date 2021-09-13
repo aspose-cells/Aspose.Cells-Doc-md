@@ -14,7 +14,7 @@ Aspose.Cells APIs provide the WorkbookDesigner class to work with Smart Markers 
 - Creation of chart based on populated data
 
 {{% /alert %}} 
-#### **Creation of Designer Spreadsheet**
+## **Creation of Designer Spreadsheet**
 A designer spreadsheet is a simple Excel file created with Microsoft Excel application or Aspose.Cells APIs containing the visual formatting, formulas and smart markers, where the contents are to be populated at runtime.
 
 {{% alert color="primary" %}} 
@@ -62,7 +62,7 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 If you save the resultant spreadsheet at this stage, the data in the worksheet will look as follow.
 
 ![todo:image_alt_text](generate-chart-by-processing-smart-markers_1.png)
-#### **Processing Designer Spreadsheet**
+## **Processing Designer Spreadsheet**
 In order to process the designer spreadsheet, we must have a data source that corresponds to the Smart Markers used in the designer spreadsheet. For instance, we have created a Smart Marker entry as **&=$Headers(horizontal)**, that represents the variable by name Headers whereas the key **(horizontal)** suggests that the data should be populated horizontally.
 
 In order to demonstrate this use case, we will create the data source from scratch and process it against the designer spreadsheet created in previous step. However, in real time scenario, data could already be available for further processing so you can skip the creation of data source if data is already available.
@@ -126,7 +126,7 @@ If you save the spreadsheet at this stage, the data will look as follow.
 Above code snippet uses the existing instance of the Workbook class created in the first step. If you already have the designer spreadsheet file on disk or memory, you can create an instance of Workbook class by loading the existing designer spreadsheet.
 
 {{% /alert %}} 
-#### **Creation of Chart**
+## **Creation of Chart**
 Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the Chart.setChartDataRange method so that we do not have to configure the chart further.
 
 
