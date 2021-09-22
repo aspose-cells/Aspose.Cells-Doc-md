@@ -15,7 +15,7 @@ Aspose.Cells for Java product covers most of the popular development environment
 
 |**Feature**|**Description**|
 | :- | :- |
-|[Java](https://docs.asposeptyltd.com/display/cellsjava/Installation#Installation-SystemRequirements)|Aspose.Cells for Java is available for 1.6 and later versions and will run in any place where Java is installed.|
+|[Java](https://docs.aspose.com/cells/java/installation/)|Aspose.Cells for Java is available for 1.6 and later versions and will run in any place where Java is installed.|
 ## **File Formats and Conversions**
 Many customers worldwide rely on the thorough document import and export features provided by Aspose.Cells for Java.
 
