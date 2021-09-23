@@ -10,7 +10,7 @@ url: /java/supported-file-formats/
 |[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Excel 95/5.0 - 2003 Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XML SpreadsheetML Workbook or template file, with or without macros.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Excel Binary Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLSM](hhttps://docs.fileformat.com/spreadsheet/xlsm/)|Excel Macro-Enabled Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Excel Macro-Enabled Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLT](https://docs.fileformat.com/spreadsheet/xlt/)|Excel 97 - Excel 2003 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTX](https://docs.fileformat.com/spreadsheet/xltx/)|Excel Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTM](https://docs.fileformat.com/spreadsheet/xltm/)|Excel Macro-Enabled Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
