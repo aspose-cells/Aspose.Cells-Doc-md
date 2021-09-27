@@ -72,7 +72,7 @@ You can log any issues or suggestions related to this control using any of the f
 
 - [CodePlex](https://asposecellsnet.codeplex.com/workitem/list/basic)
 - [CodePlex ](https://asposevsto.codeplex.com/workitem/list/basic)
-- [Github ](https://github.com/aspose-cellss/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 - [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836/view/Discussions#content)
 ### **Extend and Contribute**
 Comparison code for Aspose.Cells for .Net and VSTO source code is available on major social coding websites listed below.Developers are encouraged to download the source code to migrate from VSTO to Aspose.Cells as per their requirements.
