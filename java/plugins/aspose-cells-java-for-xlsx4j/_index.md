@@ -97,7 +97,7 @@ Aspose.Cells Java for xlsx4j is open source and its source code is available on 
 You can get the latest source code from one of the following locations
 
 - [CodePlex](https://asposecellsjavaxlsx4j.codeplex.com/SourceControl/latest)
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose.Cells-for-Java_for_Xlsx4j)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j)
 ## **Sample Code Examples**
 This section includes the following topics
 
