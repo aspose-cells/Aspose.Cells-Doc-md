@@ -57,10 +57,10 @@ To download Eclipse IDE
 ### **Download Aspose.Cells Java for Eclipse (Maven)**
 Following are three recommended methods for the successful downloading and installation of Aspose.Cells Java for Eclipse (Maven) plugin:
 
-- Drag and drop installation from [Eclipse Marketplace](https://marketplace.eclipse.org/content/asposecells-java-eclipse-maven) to your Eclipse workspace.
+- Drag and drop installation from [Eclipse Marketplace](https://marketplace.eclipse.org/content/asposecells-java-maven-eclipse) to your Eclipse workspace.
 - Or download the plugin jar from [Downloads](https://asposecellsjavamaveneclipse.codeplex.com/releases/view/620256) and copy it into /**dropins** folder of Eclipse installation and restart the IDE.
 - Or goto **Help** > **Install New Software...** > Enter following update site url in **Work with**:
-  <http://cdn.aspose.com/marketplace/eclipse/java/maven/asposecells>
+ cdn.aspose.com/marketplace/eclipse/java/maven/asposecells
   Then select "Aspose.Cells Java for Eclipse (Maven)" and **Finish**. Accept License Agreement and Install the plugin.
 ## **Installing**
 [Installing Aspose.Cells Java for Eclipse - Maven](http://www.aspose.com/docs/display/cellsjava/Installing+and+Using+Aspose.Cells+Java+for+Eclipse+-+Maven#InstallingandUsingAspose.CellsJavaforEclipse-Maven-Installing)
