@@ -146,7 +146,7 @@ Clone, PHP examples by issuing the following commands inside webapps/JavaBridge 
 
  $ git init&nbsp;
 
-$ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose.Cells-for-Java_for_PHP] 
+$ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP] 
 
 {{< /highlight >}}
 

@@ -75,7 +75,7 @@ Clone, PHP examples by issuing the following commands inside webapps/JavaBridge 
 
  $ git init&nbsp;
 
-$ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose.Cells-for-Java_for_PHP] 
+$ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP] 
 
 {{< /highlight >}}
 
@@ -96,7 +96,7 @@ Please follow below simple steps to configure PHP/Java Bridge on Windows Platfor
 
 7.Copy your [Aspose.Cells Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) jar file to C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib
 
-\8. Clone [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose.Cells-for-Java_for_PHP) examples inside C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ folder.
+\8. Clone [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) examples inside C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ folder.
 
 \8. Copy folder C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java to your Aspose.Cells Java for PHP examples folder.
 
