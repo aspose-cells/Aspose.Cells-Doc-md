@@ -28,7 +28,7 @@ The following screenshot shows the database file when opened in Microsoft Access
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **Import Data from Microsoft Access Database ResultSet Object to the Worksheet.**
-The following sample code executes SQL query from Microsoft Access Database and creates a ResultSet object. Then it imports data from ResultSet object into worksheet using [Worksheet.getCells().importResultSet()](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)) method. The first time, it uses row and column indices and then it uses cell name to import data into the worksheet. Finally, it saves the workbook as an [Output Excel File](48496713.xlsx). The screenshot shows the effect of the sample code on the output Excel file for a reference.
+The following sample code executes SQL query from Microsoft Access Database and creates a ResultSet object. Then it imports data from ResultSet object into worksheet using [Worksheet.getCells().importResultSet()](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)) method. The first time, it uses row and column indices and then it uses cell name to import data into the worksheet. Finally, it saves the workbook as an [Output Excel File](48496713.xlsx). The screenshot shows the effect of the sample code on the output Excel file for a reference.
 
 ![todo:image_alt_text](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **Sample Code**

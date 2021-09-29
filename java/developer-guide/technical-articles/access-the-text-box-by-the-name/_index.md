@@ -7,7 +7,7 @@ url: /java/access-the-text-box-by-the-name/
 
 {{% alert color="primary" %}} 
 
-Earlier, text boxes are accessed by index from the [Workheet.getTextBoxes()](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#TextBoxes) collection but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
+Earlier, text boxes are accessed by index from the [Workheet.getTextBoxes()](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) collection but now you can also access the text box by name from this collection. This is a convenient and quick way to access your text box if you already know its name.
 
 {{% /alert %}} 
 ## **Access the Text Box by the Name**

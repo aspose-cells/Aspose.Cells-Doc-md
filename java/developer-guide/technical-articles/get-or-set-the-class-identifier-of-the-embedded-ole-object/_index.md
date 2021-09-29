@@ -6,7 +6,7 @@ url: /java/get-or-set-the-class-identifier-of-the-embedded-ole-object/
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells provides the [OleObject.ClassIdentifier](https://apireference.aspose.com/java/cells/com.aspose.cells/oleobject#ClassIdentifier) property which you can use to get or set the class identifier of an embedded ole object. Ole Object Class Identifiers are actually GUIDs i.e Globally Unique Identifiers. GUID is always 16-bytes long, therefore Class Identifiers are also 16-bytes long. They are often found inside the Windows Registry and provide information to host application about how to open embedded ole object containing various embedded resources inside the client application.
+Aspose.Cells provides the [OleObject.ClassIdentifier](https://apireference.aspose.com/cells/java/com.aspose.cells/oleobject#ClassIdentifier) property which you can use to get or set the class identifier of an embedded ole object. Ole Object Class Identifiers are actually GUIDs i.e Globally Unique Identifiers. GUID is always 16-bytes long, therefore Class Identifiers are also 16-bytes long. They are often found inside the Windows Registry and provide information to host application about how to open embedded ole object containing various embedded resources inside the client application.
 ## **Get or Set the Class Identifier of the Embedded OLE Object**
 The following screenshot shows the Ole Object Class Identifier i.e GUID which has been read from the [sample excel file](5473378.xls) containing the embedded PowerPoint ole object.
 

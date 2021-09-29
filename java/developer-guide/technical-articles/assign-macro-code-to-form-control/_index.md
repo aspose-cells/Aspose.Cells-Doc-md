@@ -7,7 +7,7 @@ url: /java/assign-macro-code-to-form-control/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [ShapeCollection.addShape()](https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) method to assign a new Macro Code to a Form Control inside the workbook.
+Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the [ShapeCollection.addShape()](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape\(int,%20int,%20int,%20int,%20int,%20int,%20int\)) method to assign a new Macro Code to a Form Control inside the workbook.
 
 {{% /alert %}} 
 ## **Assigning Macro Code to Form Control using Aspose.Cells**

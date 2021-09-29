@@ -6,22 +6,22 @@ url: /java/using-globalizationsettings-class-for-custom-subtotal-labels-and-othe
 ---
 
 ## **Possible Usage Scenarios**
-Aspose.Cells APIs have exposed the [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings) class in order to deal with the scenarios where the user wishes to use custom labels for Subtotals in a spreadsheet. Moreover, the [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings) class can also be used to modify the **Other** label for the Pie chart while rendering worksheet or chart.
+Aspose.Cells APIs have exposed the [GlobalizationSettings](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class in order to deal with the scenarios where the user wishes to use custom labels for Subtotals in a spreadsheet. Moreover, the [GlobalizationSettings](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class can also be used to modify the **Other** label for the Pie chart while rendering worksheet or chart.
 ## **Introduction to GlobalizationSettings Class**
-The [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings) class currently offers the following 3 methods which can be overridden in a custom class to get desired labels for the Subtotals or to render custom text for the **Other** label of a Pie chart.
+The [GlobalizationSettings](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class currently offers the following 3 methods which can be overridden in a custom class to get desired labels for the Subtotals or to render custom text for the **Other** label of a Pie chart.
 
-1. [GlobalizationSettings.getTotalName](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Gets the total name of the function.
-1. [GlobalizationSettings.getGrandTotalName](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Gets the grand total name of the function.
-1. [GlobalizationSettings.getOtherName](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getOtherName\(\)): Gets the name of "Other" labels for Pie charts.
+1. [GlobalizationSettings.getTotalName](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Gets the total name of the function.
+1. [GlobalizationSettings.getGrandTotalName](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Gets the grand total name of the function.
+1. [GlobalizationSettings.getOtherName](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Gets the name of "Other" labels for Pie charts.
 ### **Custom Labels for Subtotals**
-The [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings) class can be used to customize the Subtotal labels by overriding the [GlobalizationSettings.getTotalName](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) methods as demonstrated ahead.
+The [GlobalizationSettings](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class can be used to customize the Subtotal labels by overriding the [GlobalizationSettings.getTotalName](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) methods as demonstrated ahead.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
 
 
-In order to inject custom labels, it is required to assign the [WorkbookSettings.GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#GlobalizationSettings) property to an instance of the *CustomSettings* class defined above before adding the Subtotals to the worksheet.
+In order to inject custom labels, it is required to assign the [WorkbookSettings.GlobalizationSettings](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) property to an instance of the *CustomSettings* class defined above before adding the Subtotals to the worksheet.
 
 
 
@@ -29,11 +29,11 @@ In order to inject custom labels, it is required to assign the [WorkbookSettings
 
 {{% alert color="primary" %}} 
 
-The [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings) class only works for adding new Subtotals. If a spreadsheet already contains Subtotals, their labels cannot be modified.
+The [GlobalizationSettings](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class only works for adding new Subtotals. If a spreadsheet already contains Subtotals, their labels cannot be modified.
 
 {{% /alert %}} 
 ### **Custom Text for Other Label of Pie Chart**
-The [GlobalizationSettings](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings) class offers the [getOtherName](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getOtherName\(\)) method which is useful to give the "Other" label of Pie charts a custom value. The following snippet defines a custom class and overrides the [getOtherName](https://apireference.aspose.com/java/cells/com.aspose.cells/globalizationsettings#getOtherName\(\)) method to get a custom label based on default language set for JVM.
+The [GlobalizationSettings](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class offers the [getOtherName](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) method which is useful to give the "Other" label of Pie charts a custom value. The following snippet defines a custom class and overrides the [getOtherName](https://apireference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)) method to get a custom label based on default language set for JVM.
 
 
 

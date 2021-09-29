@@ -71,16 +71,16 @@ To import data from a collection of objects to a worksheet containing merged cel
 
 Aspose.Cells provides a [**JsonUtility**](https://apireference.aspose.com/cells/java/com.aspose.cells/JsonUtility) class for processing JSON. [**JsonUtility**](https://apireference.aspose.com/cells/java/com.aspose.cells/JsonUtility) class has an [**ImportData**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) method for importing JSON data. Aspose.Cells also provides a [**JsonLayoutOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) class that represents the options of JSON layout. The [**ImportData**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) method accepts [**JsonLayoutOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) as a parameter. The [**JsonLayoutOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) class provides the following properties.
 
-- [**ArrayAsTable**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Indicates in the array should be processed as a table or not.
-- [**ConvertNumericOrDate**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Gets or sets a value that indicates whether the string in JSON is to be converted to numeric or date.
-- [**DateFormat**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#DateFormat): Gets and sets the format of the date value.
-- [**IgnoreArrayTitle**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): Indicates whether to ignore the title if the property of the object is an array
-- [**IgnoreNull**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#IgnoreNull): Indicates whether the null value should be ignored or not.
-- [**IgnoreObjectTitle**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): Indicates whether to ignore the title if the property of the object is an object.
-- [**NumberFormat**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#NumberFormat): Gets and sets the format of numeric value.
-- [**TitleStyle**](https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#TitleStyle): Gets and sets the style of the title.
+- [**ArrayAsTable**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Indicates in the array should be processed as a table or not.
+- [**ConvertNumericOrDate**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Gets or sets a value that indicates whether the string in JSON is to be converted to numeric or date.
+- [**DateFormat**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): Gets and sets the format of the date value.
+- [**IgnoreArrayTitle**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): Indicates whether to ignore the title if the property of the object is an array
+- [**IgnoreNull**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): Indicates whether the null value should be ignored or not.
+- [**IgnoreObjectTitle**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): Indicates whether to ignore the title if the property of the object is an object.
+- [**NumberFormat**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): Gets and sets the format of numeric value.
+- [**TitleStyle**](https://apireference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): Gets and sets the style of the title.
 
-The sample code given below demonstrates the use of the [**JsonUtility**](https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility) and [**JsonLayoutOptions**](https://apireference.aspose.com/java/cells/com.aspose.cells/JsonLayoutOptions) classes to import JSON data.
+The sample code given below demonstrates the use of the [**JsonUtility**](https://apireference.aspose.com/cells/java/com.aspose.cells/JsonUtility) and [**JsonLayoutOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) classes to import JSON data.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 
@@ -90,13 +90,13 @@ Aspose.Cells not only lets its users import data to worksheets from external dat
 
 ### Exporting Data Using Aspose.Cells - Exporting Data to Array
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#Worksheets) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class. The [**Worksheet**](https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet) class provides a [**Cells**](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Cells) collection.
+Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) class provides a [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collection.
 
-Data can easily be exported to an Array object using the [**Cells**](https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Cells) class' [**exportArray**](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) method.
+Data can easily be exported to an Array object using the [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) class' [**exportArray**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) method.
 
 #### Columns Containing Strongly Typed Data
 
-Spreadsheets stores data as a sequence of rows and columns. Use the [**exportArray**](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) method to export the data from a worksheet to an array. [**exportArray**](https://apireference.aspose.com/java/cells/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) takes the following parameters to export worksheet data as an *Array* object:
+Spreadsheets stores data as a sequence of rows and columns. Use the [**exportArray**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) method to export the data from a worksheet to an array. [**exportArray**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) takes the following parameters to export worksheet data as an *Array* object:
 
 - Row number, the row number of the first cell the data will be exported from.
 - Column number, the column number of the first cell from where the data will be exported
