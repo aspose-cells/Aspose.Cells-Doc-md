@@ -27,7 +27,7 @@ Following are the steps involved for copying and moving worksheets within or bet
 
 ### **Copy Worksheets within a Workbook with Aspose.Cells**
 
-Aspose.Cells provides an overloaded method, [**Aspose.Cells.WorksheetCollection.AddCopy()**](https://apireference.aspose.com/net/cells/aspose.cells/worksheetcollection/methods/addcopy/index), that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.
+Aspose.Cells provides an overloaded method, [**Aspose.Cells.WorksheetCollection.AddCopy()**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/addcopy/index), that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.
 
 The following example shows how to copy an existing worksheet within a workbook.
 

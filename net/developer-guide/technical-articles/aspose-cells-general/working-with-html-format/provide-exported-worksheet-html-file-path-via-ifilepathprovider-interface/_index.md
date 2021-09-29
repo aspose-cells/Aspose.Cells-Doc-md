@@ -6,7 +6,7 @@ url: /net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interf
 ---
 
 ## **Possible Usage Scenarios**
-Suppose, you have an excel file with multiples sheets and you want to export each sheet to individual HTML file. If any of your sheets have links to other sheets, then those links will be broken in the exported HTML. To deal with this problem, Aspose.Cells provides [IFilePathProvider](https://apireference.aspose.com/net/cells/aspose.cells/ifilepathprovider) interface which you can implement to fix the broken links.
+Suppose, you have an excel file with multiples sheets and you want to export each sheet to individual HTML file. If any of your sheets have links to other sheets, then those links will be broken in the exported HTML. To deal with this problem, Aspose.Cells provides [IFilePathProvider](https://apireference.aspose.com/cells/net/aspose.cells/ifilepathprovider) interface which you can implement to fix the broken links.
 ## **Provide exported worksheet HTML file path via IFilePathProvider interface**
 Please download the [sample excel file](5115213.zip) used in the following code and its exported HTML files. All these files are inside the Temp directory. You should extract it on C: drive. Then it will become C:\Temp directory. Then you will open the Sheet1.html file in the browser and click the two links inside it. These links refer to these two exported HTML worksheets which are inside the C:\Temp\OtherSheets directory.
 
@@ -22,7 +22,7 @@ The following screenshot shows how the C:\Temp\Sheet1.html and its links look li
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
-The following screenshot shows the HTML source. As you can see that the links are now referring to C:\Temp\OtherSheets directory. This was achieved using the [IFilePathProvider](https://apireference.aspose.com/net/cells/aspose.cells/ifilepathprovider) interface.
+The following screenshot shows the HTML source. As you can see that the links are now referring to C:\Temp\OtherSheets directory. This was achieved using the [IFilePathProvider](https://apireference.aspose.com/cells/net/aspose.cells/ifilepathprovider) interface.
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Sample Code**

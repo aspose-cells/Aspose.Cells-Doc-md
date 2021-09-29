@@ -6,9 +6,9 @@ url: /net/set-preset-wordart-style-to-the-text-of-the-shape/
 ---
 
 ## **Possible Usage Scenarios**
-You can set preset WordArt style to the text of the shape using Aspose.Cells. Please use [FontSetting.SetWordArtStyle()](https://apireference.aspose.com/net/cells/aspose.cells/fontsetting/methods/setwordartstyle) or [FontSettingCollection.SetWordArtStyle()](https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/fontsettingcollection/methods/setwordartstyle) methods for this purpose.
+You can set preset WordArt style to the text of the shape using Aspose.Cells. Please use [FontSetting.SetWordArtStyle()](https://apireference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle) or [FontSettingCollection.SetWordArtStyle()](https://apireference.aspose.com/cells/net/aspose.cells.drawing.texts/fontsettingcollection/methods/setwordartstyle) methods for this purpose.
 ## **Set preset WordArt style to the text of the shape**
-The following sample code creates a text box with some text and then sets preset WordArt style of its text using [FontSetting.SetWordArtStyle()](https://apireference.aspose.com/net/cells/aspose.cells/fontsetting/methods/setwordartstyle) method. This is how the [output excel file](5115445.xlsx) looks in Microsoft Excel.
+The following sample code creates a text box with some text and then sets preset WordArt style of its text using [FontSetting.SetWordArtStyle()](https://apireference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle) method. This is how the [output excel file](5115445.xlsx) looks in Microsoft Excel.
 
 
 

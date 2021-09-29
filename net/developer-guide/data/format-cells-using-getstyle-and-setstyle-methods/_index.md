@@ -7,7 +7,7 @@ url: /net/format-cells-using-getstyle-and-setstyle-methods/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides the [**GetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) and [**SetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) methods of the [Cell](https://apireference.aspose.com/net/cells/aspose.cells/cell) class, used to get/set the formatting style of a cell. Aspose.Cells also provides a [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) class.
+Aspose.Cells provides the [**GetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) and [**SetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) methods of the [Cell](https://apireference.aspose.com/cells/net/aspose.cells/cell) class, used to get/set the formatting style of a cell. Aspose.Cells also provides a [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) class.
 
 {{% /alert %}}
 
