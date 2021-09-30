@@ -13,7 +13,7 @@ You can downloaded the pre-built (binary) .war file from the latest releases hos
 You can download / check out the project source codes from the following locations:
 
 - [CodePlex](https://asposecellsforstruts.codeplex.com)
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Struts)
+- 
 ## **Building Aspose.Cells Java for Struts 1.3 from Source Codes**
 After checking out source codes from any of the above repository, apply the following mvn commands:
 

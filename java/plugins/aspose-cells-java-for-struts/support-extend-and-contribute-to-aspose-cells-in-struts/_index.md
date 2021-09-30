@@ -20,4 +20,4 @@ Aspose.cells Java for Struts 1.3 is open source and its source code is available
 You can get the latest source code from one of the following locations
 
 - [CodePlex](https://asposecellsforstruts.codeplex.com)
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Struts)
+- 
