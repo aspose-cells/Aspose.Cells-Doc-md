@@ -7,7 +7,7 @@ url: /java/applying-a-license/
 
 {{% alert color="primary" %}}
 
-Once you are happy with your evaluation of Aspose.Cells, [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different [license types](https://purchase.aspose.com/policies/license-types/) offered. If you have any questions, do not hesitate to [contact the Aspose sales team](https://company.aspose.com/contact).
+Once you are happy with your evaluation of Aspose.Cells, [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different [license types](https://purchase.aspose.com/policies/license-types/) offered. If you have any questions, do not hesitate to [contact the Aspose sales team](https://about.aspose.com/contact).
 
 Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
 
