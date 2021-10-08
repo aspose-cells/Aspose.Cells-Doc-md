@@ -5,7 +5,7 @@ weight: 40
 url: /net/aspose-cells-gridjs-features/
 ---
 
-## **Aspose.Cells.GridJs **
+## **Aspose.Cells.GridJs**
 ### **Import/Export Features**
 - Import from and export to Excel spreadsheets.
 
