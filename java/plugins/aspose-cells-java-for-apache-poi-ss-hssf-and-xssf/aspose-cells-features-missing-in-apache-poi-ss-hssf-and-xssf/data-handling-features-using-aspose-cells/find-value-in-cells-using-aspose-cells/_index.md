@@ -40,10 +40,10 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{< /highlight >}}
 ## **Download Running Code**
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/releases/view/618615)
+
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Download Sample Code**
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/cells/examples/asposefeatures/search/AsposeFindCellsWithString.java)
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsjavaapachepoi)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/search/AsposeFindCellsWithString.java)
 
 {{% alert color="primary" %}} 

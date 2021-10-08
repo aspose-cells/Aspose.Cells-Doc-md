@@ -102,4 +102,4 @@ Moreover, there are also a number of unique features that the developers can onl
 Below are some of the testimonials from Aspose.Cells customers.
 
 **Please check:** 
-[Aspose.Cells Forums - Testimonials](https://company.aspose.com/customers/success-stories/aspose-cells)
+[Aspose.Cells Forums - Testimonials](https://about.aspose.com/customers/success-stories/aspose-cells)
