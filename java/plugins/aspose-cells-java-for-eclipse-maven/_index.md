@@ -58,7 +58,7 @@ To download Eclipse IDE
 Following are three recommended methods for the successful downloading and installation of Aspose.Cells Java for Eclipse (Maven) plugin:
 
 - Drag and drop installation from [Eclipse Marketplace](https://marketplace.eclipse.org/content/asposecells-java-maven-eclipse) to your Eclipse workspace.
-- Or download the plugin jar from [Downloads](https://asposecellsjavamaveneclipse.codeplex.com/releases/view/620256) and copy it into /**dropins** folder of Eclipse installation and restart the IDE.
+- Or download the plugin jar from [Downloads](https://archive.codeplex.com/?p=asposecellsjavamaveneclipse) and copy it into /**dropins** folder of Eclipse installation and restart the IDE.
 - Or goto **Help** > **Install New Software...** > Enter following update site url in **Work with**:
  cdn.aspose.com/marketplace/eclipse/java/maven/asposecells
   Then select "Aspose.Cells Java for Eclipse (Maven)" and **Finish**. Accept License Agreement and Install the plugin.
@@ -92,7 +92,7 @@ Please follow [**GitHub Issues Tracker**](https://github.com/aspose-cells/Aspos
 Aspose.Cells Java for Eclipse (Maven) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it. Developers can also learn from it to make their own plugins.
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Eclipse\(Maven\))
-- [CodePlex](https://asposecellsjavamaveneclipse.codeplex.com/)
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsjavamaveneclipse)
 #### **How to configure source code of Aspose.Cells Java for Eclipse (Maven)**
 Below simple steps will smoothly lead to successful configuration of  **"Aspose.Cells Java for Eclipse (Maven)"** plugin source code in Eclipse IDE
 

@@ -127,7 +127,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Cells Java for Jython using any of the following platforms:
 
 - [CodePlex](https://asposewordsjavajython.codeplex.com/workitem/list/basic)
-- [Github](https://github.com/asposewords/Aspose_Words_Java/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ### **Extend and Contribute**
 
