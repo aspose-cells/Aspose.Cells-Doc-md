@@ -20,4 +20,4 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 ## **Convert Excel to PDF using C#**
 The code snippet below shows how to convert Excel to PDF using C#:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PDF.cs" >}}
