@@ -118,16 +118,62 @@ url: /net/developer-guide/
         </ul>
         <p>Picture</p>
         <ul>
+            <li><a href="/cells/net/insert-a-linked-picture-from-web-address/">Insert a Linked Picture from Web Address</a></li>
+            <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
         </ul>
         <p>Shape</p>
         <ul>
+            <li><a href="/cells/net/determine-if-shape-is-smart-art-shape/">Determine if Shape is Smart Art Shape</a></li>
+            <li><a href="/cells/net/get-connection-points-from-shape/">Get Connection points from shape</a></li>
+            <li><a href="/cells/net/data-in-non-primitive-shape/">Data in Non-Primitive Shape</a></li>
+            <li><a href="/cells/net/read-color-of-shape-s-glow-effect/">Read Color of Shape's Glow Effect</a></li>
+            <li><a href="/cells/net/change-adjustment-values-of-the-shape/">Change Adjustment Values of the Shape</a></li>
+            <li><a href="/cells/net/send-shape-front-or-back-inside-the-worksheet/">Send Shape Front or Back inside the Worksheet</a></li>
+            <li><a href="/cells/net/rotate-text-with-shape-inside-the-worksheet/">Rotate Text with Shape inside the Worksheet</a></li>
+            <li><a href="/cells/net/change-character-spacing-of-excel-textbox-or-shape/">Change Character Spacing of Excel TextBox or Shape</a></li>
+            <li><a href="/cells/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Set Margins of Comment or Shape inside the Worksheet</a></li>
+            <li><a href="/cells/net/working-with-the-threedformat-of-shape-or-chart/">Working with the ThreeDFormat of Shape or Chart</a></li>
+            <li><a href="/cells/net/tile-picture-as-a-texture-inside-the-shape/">Tile Picture as a Texture inside the Shape</a></li>
+            <li><a href="/cells/net/finding-absolute-position-of-shape-inside-the-worksheet/">Finding Absolute Position of Shape inside the Worksheet</a></li>
+            <li><a href="/cells/net/working-with-the-reflection-effect-of-shape-or-chart/">Working with the Reflection Effect of Shape or Chart</a></li>
+            <li><a href="/cells/net/setting-shadow-of-text-effects-of-shape-or-textbox/">Setting Shadow of Text Effects of Shape or TextBox</a></li>
+            <li><a href="/cells/net/working-with-the-glow-effect-of-shape-or-chart/">Working with the Glow Effect of Shape or Chart</a></li>
+            <li><a href="/cells/net/working-with-the-shadow-effect-of-shape-or-chart/">Working with the Shadow Effect of Shape or Chart</a></li>
+            <li><a href="/cells/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/">Set Line Spacing of the Paragraph in a Shape or Textbox</a></li>
+            <li><a href="/cells/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/">Specify the Far East and Latin Name of the Font in Text Options of Shape</a></li>
+            <li><a href="/cells/net/copy-shapes-between-worksheets/">Copy Shapes between Worksheets</a></li>
+            <li><a href="/cells/net/copy-shapes-between-worksheets-in-aspose-cells/">Copy Shapes between Worksheets in Aspose.Cells</a></li>
+            <li><a href="/cells/net/refresh-values-of-linked-shapes/">Refresh Values of Linked Shapes</a></li>
+            <li><a href="/cells/net/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
+            <li><a href="/cells/net/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
+            <li><a href="/cells/net/working-with-the-reflection-effect-of-shape-or-chart/">Set preset WordArt style to the text of the shape</a></li>
         </ul>
         <p>SmartArt</p>
         <ul>
+            <li><a href="/cells/net/determine-if-shape-is-smart-art-shape/">Determine if Shape is Smart Art Shape</a></li>
+            <li><a href="/cells/net/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
+            <li><a href="/cells/net/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
         </ul>
          <p>Chart</p>
-        <ul>
-        </ul>
+		  <ul>
+            <li><a href="/cells/net/creating-and-customizing-charts/">Creating and Customizing Charts</a></li>
+			<li><a href="/cells/net/setting-chart-appearance/">Setting Chart Appearance</a></li>
+			<li><a href="/cells/net/manipulate-position-size-and-designer-chart/">Manipulate Position Size and Designer Chart</a></li>
+			<li><a href="/cells/net/using-sparklines-and-settings-3d-format/">Using Sparklines and Settings 3D Format</a></li>
+			<li><a href="/cells/net/chart-rendering/">Chart Rendering</a></li>
+			<li><a href="/cells/net/chart-types/">Chart Types</a></li>
+			<li><a href="/cells/net/controls-in-charts/">Controls in Charts</a></li>
+			<li><a href="/cells/net/data-formatting-in-charts/">Data Formatting in Charts</a></li>
+			<li><a href="/cells/net/read-and-manipulate-excel-2016-charts/">Read and Manipulate Excel 2016 Charts</a></li>
+        	<li><a href="/cells/net/set-the-values-format-code-of-chart-series/">Set the Values Format Code of Chart Series</a></li>
+            <li><a href="/cells/net/set-the-shape-type-of-data-labels-of-chart/">Set the Shape Type of Data Labels of Chart</a></li>
+			<li><a href="/cells/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/">Handle Automatic Units of Chart Axis like Microsoft Excel</a></li>
+			<li><a href="/cells/net/read-axis-labels-after-calculating-the-chart/">Read Axis Labels after Calculating the Chart</a></li>
+			<li><a href="/cells/net/create-chart-pdf-with-desired-page-size/">Create Chart PDF with Desired Page Size</a></li>
+			<li><a href="/cells/net/find-type-of-x-and-y-values-of-points-in-chart-series/">Find Type of X and Y Values of Points in Chart Series</a></li>
+			<li><a href="/cells/net/change-tick-label-direction/">Change Tick Label Direction</a></li>
+		    <li><a href="/cells/net/read-chart-subtitle-from-ods-file/">Read Chart Subtitle from ODS File</a></li>
+	   </ul>
         <p>Sparklines</p>
         <ul>
         </ul>
@@ -135,6 +181,7 @@ url: /net/developer-guide/
     <div class="col-md-6">       
         <p>OleObject</p>
         <ul>
+            <li><a href="/cells/net/managing-ole-objects/">Managing OLE Objects</a></li>
         </ul>
         <p>Slicer</p>
         <ul>
@@ -149,12 +196,26 @@ url: /net/developer-guide/
         </ul>
         <p>Text Box</p>
         <ul>
+            <li><a href="/cells/net/access-the-text-box-by-the-name/">Access the Text Box by the Name</a></li>
+            <li><a href="/cells/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/">Replace tag with text in a textbox inside the Worksheet</a></li>
+            <li><a href="/cells/net/change-character-spacing-of-excel-textbox-or-shape/">Change Character Spacing of Excel TextBox or Shape</a></li>
+            <li><a href="/cells/net/setting-shadow-of-text-effects-of-shape-or-textbox/">Setting Shadow of Text Effects of Shape or TextBox</a></li>
+            <li><a href="/cells/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/">Set Line Spacing of the Paragraph in a Shape or Textbox</a></li>
         </ul>
         <p>Header&Footer</p>
         <ul>
         </ul>
         <p>WordArt</p>
         <ul>
+            <li><a href="/cells/net/add-wordart-watermark-to-worksheet/">Add WordArt Watermark to Worksheet</a></li>
+            <li><a href="/cells/net/add-wordart-watermark-to-worksheet-in-aspose-cells/">Add WordArt Watermark to Worksheet in Aspose.Cells</a></li>
+            <li><a href="/cells/net/add-wordart-watermark-to-chart/">Add WordArt Watermark to Chart</a></li>
+            <li><a href="/cells/net/add-wordart-watermark-to-chart-in-aspose-cells/">Add WordArt Watermark to Chart in Aspose.Cells</a></li>
+            <li><a href="/cells/net/add-word-art-text-with-built-in-styles/">Add Word Art Text with Built-in Styles</a></li>
+            <li><a href="/cells/net/locking-wordart-watermark/">Locking WordArt Watermark</a></li>
+            <li><a href="/cells/net/locking-wordart-watermark-in-aspose-cells/">Locking WordArt Watermark in Aspose.Cells</a></li>
+            <li><a href="/cells/net/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/">Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML</a></li>
+            <li><a href="/cells/net/working-with-the-reflection-effect-of-shape-or-chart/">Set preset WordArt style to the text of the shape</a></li>
         </ul>
         <p>Symbols</p>
         <ul>
