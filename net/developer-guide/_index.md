@@ -116,12 +116,12 @@ url: /net/developer-guide/
         <p>Table</p>
         <ul>
         </ul>
-        <p>Pictures</p>
+        <p>Picture</p>
         <ul>
             <li><a href="/cells/net/insert-a-linked-picture-from-web-address/">Insert a Linked Picture from Web Address</a></li>
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
         </ul>
-        <p>Shapes</p>
+        <p>Shape</p>
         <ul>
             <li><a href="/cells/net/determine-if-shape-is-smart-art-shape/">Determine if Shape is Smart Art Shape</a></li>
             <li><a href="/cells/net/get-connection-points-from-shape/">Get Connection points from shape</a></li>
@@ -181,6 +181,7 @@ url: /net/developer-guide/
     <div class="col-md-6">       
         <p>OleObject</p>
         <ul>
+            <li><a href="/cells/net/managing-ole-objects/">Managing OLE Objects</a></li>
         </ul>
         <p>Slicer</p>
         <ul>
