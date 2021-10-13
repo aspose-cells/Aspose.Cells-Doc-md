@@ -65,12 +65,16 @@ url: /net/developer-guide/
         <p>PivotTable</p>
         <ul>
             <li><a href="/cells/net/create-pivot-table/">Create Pivot Table</a></li>
+            <li><a href="/cells/net/delete-pivot-table-from-a-worksheet/">Delete Pivot Table from a Worksheet</a></li>
+            <li><a href="/cells/net/setting-pivot-table-option-for-empty-cells-show/">Setting Pivot Table Option - For Empty Cells Show</a></li>
+            <li><a href="/cells/net/changing-the-layout-of-pivot-table/">Changing the Layout of Pivot Table</a></li>
             <li><a href="/cells/net/save-pivot-table-in-ods-file/">Save Pivot Table in ODS file</a></li>
             <li><a href="/cells/net/show-report-filter-pages-option/">Show report filter pages option</a></li>
             <li><a href="/cells/net/working-with-data-display-formats-of-datafield-in-pivot-table//">Working with data display formats of DataField in Pivot Table</a></li>
             <li><a href="/cells/net/get-pivot-table-refresh-date-and-refresh-by-who-information/">Get Pivot Table refresh date and refresh by who information</a></li>
             <li><a href="/cells/net/disable-pivot-table-ribbons/">Disable Pivot Table Ribbons</a></li>
             <li><a href="/cells/net/formatting-pivot-table/">Formatting Pivot Table</a></li>
+            <li><a href="/cells/net/format-pivot-table-cells/">Format Pivot Table Cells</a></li>
             <li><a href="/cells/net/custom-sorting-in-pivot-table/">Custom sorting in Pivot Table</a></li>
             <li><a href="/cells/net/pivot-table-and-source-data/">Pivot Table and Source Data</a></li>
             <li><a href="/cells/net/pivot-table-hide-and-sort-data/">Pivot Table Hide and Sort data</a></li>
@@ -80,7 +84,11 @@ url: /net/developer-guide/
             <li><a href="/cells/net/get-external-connection-data-source-of-pivot-table/">Get External Connection Data Source of Pivot Table</a></li>        
             <li><a href="/cells/net/group-pivot-fields-in-the-pivot-table/">Group Pivot Fields in the Pivot Table</a></li>
             <li><a href="/cells/net/parsing-pivot-cached-records-while-loading-excel-file/">Parsing Pivot Cached Records while loading Excel file</a></li>           
-            <li><a href="/cells/net/consolidation-function/">Consolidation Function</a></li>        
+            <li><a href="/cells/net/consolidation-function/">Consolidation Function</a></li>
+            <li><a href="/cells/net/create-pivot-tables-and-pivot-charts/">Create Pivot Tables and Pivot Charts</a></li>   
+            <li><a href="/cells/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/">Get the Cell object by DisplayName of PivotField of PivotTable</a></li> 
+            <li><a href="/cells/net/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/">Specify whether the PivotTable is compatible for Excel2003 while refreshing PivotTable</a></li>
+            <li><a href="/cells/net/specifying-the-absolute-position-of-the-pivot-item/">Specifying the Absolute Position of the Pivot Item</a></li>
         </ul>
         <p>Table</p>
         <ul>
