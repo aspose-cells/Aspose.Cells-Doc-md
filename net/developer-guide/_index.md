@@ -42,6 +42,13 @@ url: /net/developer-guide/
             <li><a href="/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convert Excel file to PDF format compatible with PDFA-1a</a></li>
             <li><a href="/cells/net/converting-worksheet-to-different-image-formats/"></a>Converting Worksheet to Different Image Formats</li>
             <li><a href="/cells/net/track-document-conversion-progress/">Track Document Conversion Progress</a></li>
+            <li><a href="/cells/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>
+            <li><a href="/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convert Excel file to PDF format compatible with PDFA-1a</a></li>
+            <li><a href="/cells/net/convert-workbook-to-different-formats/">Convert Workbook to Different Formats</a></li>
+            <li><a href="/cells/net/converting-worksheet-to-different-image-formats/">Converting Worksheet to Different Image Formats</a></li>
+            <li><a href="/cells/net/convert-excel-to-html-with-tooltip/">Convert Excel to HTML with tooltip</a></li>
+            <li><a href="/cells/net/convert-json-to-csv/">Convert JSON to CSV</a></li>
+            <li><a href="/cells/net/convert-csv-to-json/">Convert CSV to JSON</a></li>
         </ul>
         <p>Options</p>
         <ul>
