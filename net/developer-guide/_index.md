@@ -126,8 +126,25 @@ url: /net/developer-guide/
         <ul>
         </ul>
          <p>Chart</p>
-        <ul>
-        </ul>
+		  <ul>
+            <li><a href="/cells/net/creating-and-customizing-charts/">Creating and Customizing Charts</a></li>
+			<li><a href="/cells/net/setting-chart-appearance/">Setting Chart Appearance</a></li>
+			<li><a href="/cells/net/manipulate-position-size-and-designer-chart/">Manipulate Position Size and Designer Chart</a></li>
+			<li><a href="/cells/net/using-sparklines-and-settings-3d-format/">Using Sparklines and Settings 3D Format</a></li>
+			<li><a href="/cells/net/chart-rendering/">Chart Rendering</a></li>
+			<li><a href="/cells/net/chart-types/">Chart Types</a></li>
+			<li><a href="/cells/net/controls-in-charts/">Controls in Charts</a></li>
+			<li><a href="/cells/net/data-formatting-in-charts/">Data Formatting in Charts</a></li>
+			<li><a href="/cells/net/read-and-manipulate-excel-2016-charts/">Read and Manipulate Excel 2016 Charts</a></li>
+        	<li><a href="/cells/net/set-the-values-format-code-of-chart-series/">Set the Values Format Code of Chart Series</a></li>
+            <li><a href="/cells/net/set-the-shape-type-of-data-labels-of-chart/">Set the Shape Type of Data Labels of Chart</a></li>
+			<li><a href="/cells/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/">Handle Automatic Units of Chart Axis like Microsoft Excel</a></li>
+			<li><a href="/cells/net/read-axis-labels-after-calculating-the-chart/">Read Axis Labels after Calculating the Chart</a></li>
+			<li><a href="/cells/net/create-chart-pdf-with-desired-page-size/">Create Chart PDF with Desired Page Size</a></li>
+			<li><a href="/cells/net/find-type-of-x-and-y-values-of-points-in-chart-series/">Find Type of X and Y Values of Points in Chart Series</a></li>
+			<li><a href="/cells/net/change-tick-label-direction/">Change Tick Label Direction</a></li>
+		    <li><a href="/cells/net/read-chart-subtitle-from-ods-file/">Read Chart Subtitle from ODS File</a></li>
+	   </ul>
         <p>Sparklines</p>
         <ul>
         </ul>
