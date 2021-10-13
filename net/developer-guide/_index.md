@@ -10,22 +10,42 @@ url: /net/developer-guide/
 {{< tab tabNum="1" >}}
 <div class="row">
     <div class="col-md-6">
+        <p>Info</p>
+        <ul>
+            <li><a href="cells/net/document-properties/">Document Properties</a></li>
+            <li><a href="cells/net/security-features/">Security Features</a></li>
+        </ul>
         <p>New</p>
-        <ul>            
+        <ul>
+            <li><a href="/cells/net/your-first-aspose-cells-application-hello-world/#code-sample-creating-a-new-workbook">Creating a New Workbook</a></li>
         </ul>
         <p>Open</p>
-        <ul>            
+        <ul>
+            <li><a href="/cells/net/different-ways-to-open-files/">Different Ways to Open Files</a></li>
+            <li><a href="/cells/net/opening-different-microsoft-excel-versions-files/">Opening Different Microsoft Excel Versions Files</a></li>
+            <li><a href="/cells/net/opening-files-with-different-formats/">Opening Files with Different Formats</a></li>
+            <li><a href="/cells/net/get-warnings-while-loading-excel-file/">Get Warnings while Loading Excel File</a></li>
+            <li><a href="/cells/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells</a></li>
         </ul>
         <p>Save</p>
-        <ul>            
+        <ul>
+            <li><a href="/cells/net/different-ways-to-save-files/">Different Ways to Save Files</a></li>
+            <li><a href="/cells/net/encrypting-excel-files/">Encrypting Excel Files</a></li>
+            <li><a href="/cells/net/save-workbook-to-strict-open-xml-spreadsheet-format/">Save Workbook to Strict Open XML Spreadsheet Format</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Convert</p>
         <ul>
+            <li><a href=/cells/net/convert-workbook-to-different-formats/>Convert Workbook to Different Formats</a></li>
+            <li><a href="/cells/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>
+            <li><a href="/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convert Excel file to PDF format compatible with PDFA-1a</a></li>
+            <li><a href="/cells/net/converting-worksheet-to-different-image-formats/"></a>Converting Worksheet to Different Image Formats</li>
+            <li><a href="/cells/net/track-document-conversion-progress/">Track Document Conversion Progress</a></li>
         </ul>
         <p>Options</p>
         <ul>
+            <li><a href="/cells/net/workbook-settings/">Workbook Settings</a></li>
         </ul>
     </div>
 </div>
@@ -164,17 +184,22 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Function Library</p>
         <ul>
+            <li><a href="/cells/net/supported-formula-functions/">Supported Formula Functions</a></li>
         </ul>
         <p>Defined Names</p>
         <ul>
+            <li><a href="/cells/net/create-access-and-copy-named-ranges/">Create Access and Copy Named Ranges</a></li>
+            <li><a href="/cells/net/setting-formula-for-named-range/">Format and Modify Named Ranges</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Formula Auditing</p>
         <ul>
+            <li><a href="/cells/net/precedents-and-dependents/">Precedents and Dependents</a></li>
         </ul>
         <p>Calculation</p>
         <ul>
+            <li><a href="/cells/net/ways-to-calculate-formulas/">Ways to Calculate Formulas</a></li>
         </ul>
     </div>
 </div>
