@@ -37,10 +37,10 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Convert</p>
         <ul>
-            <li><a href=/cells/net/convert-workbook-to-different-formats/>Convert Workbook to Different Formats</a></li>
+            <li><a href="/cells/net/convert-workbook-to-different-formats/">Convert Workbook to Different Formats</a></li>
             <li><a href="/cells/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>
             <li><a href="/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convert Excel file to PDF format compatible with PDFA-1a</a></li>
-            <li><a href="/cells/net/converting-worksheet-to-different-image-formats/"></a>Converting Worksheet to Different Image Formats</li>
+            <li><a href="/cells/net/converting-worksheet-to-different-image-formats/">Converting Worksheet to Different Image Formats</a></li>
             <li><a href="/cells/net/track-document-conversion-progress/">Track Document Conversion Progress</a></li>
         </ul>
         <p>Options</p>
