@@ -142,7 +142,7 @@ This section includes the following topics
   - [Rendering and Printing in Aspose.Cells](/cells/net/rendering-and-printing-in-aspose-cells/)
     - [Convert charts to images](/cells/net/convert-charts-to-images/)
     - [Print spreadsheets](/cells/net/print-spreadsheets/)
-    - [Specify image resolution, quality, compression and other options](/cells/net/specify-image-resolution-2c-quality-2c-compression-and-other-options/)
+    - [Specify image resolution, quality, compression and other options](/cells/net/specify-image-resolution-quality-compression-and-other-options/)
   - [Save Workbook to Text or CSV Format using Aspose.Cells](/cells/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
   - [Set External Links in Formulas in Aspose.Cells](/cells/net/set-external-links-in-formulas-in-aspose-cells/)
   - [Setting Formula Calculation Mode of Workbook in Aspose.Cells](/cells/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)

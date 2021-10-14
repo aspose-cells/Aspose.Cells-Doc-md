@@ -99,7 +99,7 @@ sw.Close();
 ## **Download Running Code**
 Download **Add Image in Worksheet** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://https://asposecellsnpoi.codeplex.com/downloads/get/1536884)
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsnpoi)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
 
 {{% alert color="primary" %}} 

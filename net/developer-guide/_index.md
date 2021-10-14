@@ -93,7 +93,7 @@ url: /net/developer-guide/
             <li><a href="/cells/net/changing-the-layout-of-pivot-table/">Changing the Layout of Pivot Table</a></li>
             <li><a href="/cells/net/save-pivot-table-in-ods-file/">Save Pivot Table in ODS file</a></li>
             <li><a href="/cells/net/show-report-filter-pages-option/">Show report filter pages option</a></li>
-            <li><a href="/cells/net/working-with-data-display-formats-of-datafield-in-pivot-table//">Working with data display formats of DataField in Pivot Table</a></li>
+            <li><a href="/cells/net/working-with-data-display-formats-of-datafield-in-pivot-table/">Working with data display formats of DataField in Pivot Table</a></li>
             <li><a href="/cells/net/get-pivot-table-refresh-date-and-refresh-by-who-information/">Get Pivot Table refresh date and refresh by who information</a></li>
             <li><a href="/cells/net/disable-pivot-table-ribbons/">Disable Pivot Table Ribbons</a></li>
             <li><a href="/cells/net/formatting-pivot-table/">Formatting Pivot Table</a></li>

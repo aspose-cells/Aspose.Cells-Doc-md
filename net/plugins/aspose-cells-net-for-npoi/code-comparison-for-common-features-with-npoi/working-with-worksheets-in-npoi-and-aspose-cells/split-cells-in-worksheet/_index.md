@@ -60,7 +60,7 @@ file.Close();
 ## **Download Running Code**
 Download **Split Cells in Worksheet** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposecellsnpoi.codeplex.com/downloads/get/1565292)
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsnpoi)
 
 {{% alert color="primary" %}} 
 
