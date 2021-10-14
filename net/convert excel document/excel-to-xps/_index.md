@@ -24,4 +24,4 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 ## **Converting Excel Workbook to XPS**
 The code snippet below shows how to convert Excel to XPS using C#:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-XPS.cs" >}}

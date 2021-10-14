@@ -15,7 +15,12 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 </a>
 </div>
 
-## **Convert single Excel page to PNG image**
+## **Convert Excel to PNG images**
 The code snippet below shows how to convert Excel to PNG using C#:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PNG.cs" >}}
+
+## **Convert Worksheet to PNG image**
+The code snippet below shows how to convert Worksheet to PNG using C#:
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PNG2.cs" >}}
