@@ -114,6 +114,10 @@ url: /net/developer-guide/
             <li><a href="/cells/net/specifying-the-absolute-position-of-the-pivot-item/">Specifying the Absolute Position of the Pivot Item</a></li>
         </ul>
         <p>Table</p>
+         <ul>
+            <li><a href="/cells/net/create-and-format-table/">Create and Format Table</a></li>
+            <li><a href="/cells/net/tables-and-ranges/">Tables and Ranges</a></li>
+        </ul>
         <ul>
         </ul>
         <p>Picture</p>
