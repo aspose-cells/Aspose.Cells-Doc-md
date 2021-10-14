@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for PHP via Java Features
+title: Features
 type: docs
 weight: 5
 url: /phpjava/features/
