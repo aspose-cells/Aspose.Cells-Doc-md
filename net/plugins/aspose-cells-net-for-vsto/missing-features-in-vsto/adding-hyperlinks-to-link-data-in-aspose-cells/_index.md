@@ -17,9 +17,9 @@ Using Aspose.Cells, developers can create different kinds of hyperlinks in Micro
 
 Three types of hyperlink can be added to a cell using Aspose.Cells:
 
-- [Adding link to a URL](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells/#adding-link-to-a-url).
-- [Adding a link to another cell in the same file](cells/net/adding-hyperlinks-to-link-data-in-aspose-cells/#adding-a-link-to-a-cell-in-the-same-file).
-- [Adding a link to an external file](/cells/net/adding-hyperlinks-to-link-data-in-aspose-cells/#adding-a-link-to-an-external-file).
+- [Adding link to a URL](#adding-link-to-a-url).
+- [Adding a link to another cell in the same file](#adding-a-link-to-a-cell-in-the-same-file).
+- [Adding a link to an external file](#adding-a-link-to-an-external-file).
 
 Aspose.Cells allows developers to add hyperlinks to Excel files either using the API or [designer spreadsheets](/cells/net/what-is-a-designer-spreadsheet/) (spreadsheets where hyperlinks are created manually and Aspose.Cells is used to import them into other spreadsheets).
 
@@ -138,6 +138,4 @@ workbook.Save("C:\\book2.xls");
 
 ## **Download Sample Code**
 
-- [CodePlex](https://archive.codeplex.com/?p=asposecellsnet)
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
