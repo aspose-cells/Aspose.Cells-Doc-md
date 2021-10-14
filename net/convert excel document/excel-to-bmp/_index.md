@@ -15,7 +15,12 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 </a>
 </div>
 
-## **Convert single Excel page to BMP image**
+## **Convert Excel to BMP images**
 The code snippet below shows how to convert Excel to BMP using C#:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-BMP.cs" >}}
+
+## **Convert Worksheet to BMP image**
+The code snippet below shows how to convert Worksheet to BMP using C#:
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-BMP2.cs" >}}
