@@ -79,9 +79,9 @@ You can download latest version for Aspose.Cells for .NET from
 
 You can download Aspose for NPOI from one of the following locations
 
-- [CodePlex ](https://asposecellsnpoi.codeplex.com/releases)
+- [CodePlex ](https://archive.codeplex.com/?p=asposecellsnpoi)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/NPOI)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Vs-NPOI-HWPF-d3f50a9b)
+
 
 #### **Installing**
 
@@ -126,9 +126,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to this control using any of the following platforms
 
-- [CodePlex ](https://asposecellsnpoi.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Vs-NPOI-HWPF-d3f50a9b/view/Discussions#content)
 
 #### **Extend and Contribute**
 
@@ -138,9 +136,7 @@ Aspose for NPOI is open source and its source code is available on the major soc
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposecellsnpoi.codeplex.com/releases/view/621091)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/NPOI)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Vs-NPOI-HWPF-d3f50a9b/view/SourceCode#content)
 
 #### **How to configure the source code**
 

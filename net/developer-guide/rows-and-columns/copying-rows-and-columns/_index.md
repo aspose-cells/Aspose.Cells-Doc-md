@@ -64,7 +64,7 @@ When copying rows, it is important to note related images, charts or other drawi
 
 Aspose.Cells provides the [**CopyColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.
 
-The [**CopyColumn**](hhttps://apireference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) method takes the following parameters:
+The [**CopyColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) method takes the following parameters:
 
 - the source [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) object,
 - source column index, and

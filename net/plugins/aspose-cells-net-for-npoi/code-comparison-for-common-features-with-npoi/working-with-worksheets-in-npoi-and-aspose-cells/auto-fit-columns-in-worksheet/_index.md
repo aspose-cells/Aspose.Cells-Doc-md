@@ -82,7 +82,7 @@ file.Close();
 ## **Download Running Code**
 Download **Auto Fit Column** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposecellsnpoi.codeplex.com/downloads/get/1565289)
+- [CodePlex](https://archive.codeplex.com/?p=asposecellsnpoi)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 

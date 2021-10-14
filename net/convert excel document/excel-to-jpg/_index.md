@@ -15,7 +15,12 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 </a>
 </div>
 
-## **Convert single Excel page to JPG image**
+## **Convert Excel to JPG images**
 The code snippet below shows how to convert Excel to JPG using C#:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JPG.cs" >}}
+
+## **Convert Worksheet to JPG image**
+The code snippet below shows how to convert Worksheet to JPG using C#:
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JPG2.cs" >}}

@@ -23,6 +23,12 @@ Standard charts are those normally used with standard formatting:
 - Area
 - Doughnut
 - Radar
+- Treemap
+- Sunburst
+- Histogram
+- Box and Whisker
+- Waterfall
+- Funnel
 - Surface 3D
 - Bubble
 - Stock
@@ -110,7 +116,7 @@ The following doughnut charts are supported in Aspose.Cells:
 - Simple doughnut chart
 - Exploded doughnut chart
 
-\4. Radar Charts
+#### **Radar Charts**
 
 Radar charts are most useful when you want to look at several different factors, which are related to one item. These charts have multiple axes along which data can be plotted.
 
@@ -119,6 +125,40 @@ The following radar charts are supported in Aspose.Cells:
 - Simple radar chart
 - Radar chart with data markers
 - Filled radar chart
+
+#### **Treemap Chart**
+A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best sellers. The tree branches are represented by rectangles and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity and can easily show lots of data which would be difficult with other chart types.
+
+The treemap chart is supported in Aspose.Cells.
+
+#### **Sunburst Chart**
+The sunburst chart is ideal for displaying hierarchical data. Each level of the hierarchy is represented by one ring or circle with the innermost circle as the top of the hierarchy. A sunburst chart without any hierarchical data (one level of categories), looks similar to a doughnut chart. However, a sunburst chart with multiple levels of categories shows how the outer rings relate to the inner rings. The sunburst chart is most effective at showing how one ring is broken into its contributing pieces, while another type of hierarchical chart, the treemap chart, is ideal for comparing relative sizes.
+
+The sunburst chart is supported in Aspose.Cells.
+
+#### **Histogram Chart**
+A histogram is a column chart that shows frequency data.
+
+The following radar charts are supported in Aspose.Cells:
+
+- Histogram chart
+- Pareto chart
+
+#### **Box and Whisker Chart**
+A box and whisker chart shows distribution of data into quartiles, highlighting the mean and outliers. The boxes may have lines extending vertically called “whiskers”. These lines indicate variability outside the upper and lower quartiles, and any point outside those lines or whiskers is considered an outlier.
+
+The box and whisker chart is supported in Aspose.Cells.
+
+#### **Waterfall Chart**
+A waterfall chart shows a running total as values are added or subtracted. It's useful for understanding how an initial value (for example, net income) is affected by a series of positive and negative values.
+
+The waterfall chart is supported in Aspose.Cells.
+
+#### **Funnel Chart**
+A funnel chart shows values across multiple stages in a process. For example, you could use a funnel chart to show the number of sales prospects at each stage in a sales pipeline. Typically, the values decrease gradually, allowing the bars to resemble a funnel.
+
+The funnel chart is supported in Aspose.Cells.
+
 #### **Surface 3D Charts**
 Like other 3D charts, surface 3D charts are also based on the X, Y, and Z axes. These charts are useful for showing a variation in the "Z" variable according to the other two variables, "X" and "Y".
 
