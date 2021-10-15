@@ -160,10 +160,10 @@ url: /net/developer-guide/
         </ul>
          <p>Chart</p>
 		  <ul>
-            <li><a href="/cells/net/creating-and-customizing-charts/">Creating and Customizing Charts</a></li>
+            <li><a href="/cells/net/creating-charts/">Creating Charts</a></li>
+            <li><a href="/cells/net/customizing-charts/">Customizing Charts</a></li>
 			<li><a href="/cells/net/setting-chart-appearance/">Setting Chart Appearance</a></li>
 			<li><a href="/cells/net/manipulate-position-size-and-designer-chart/">Manipulate Position Size and Designer Chart</a></li>
-			<li><a href="/cells/net/using-sparklines-and-settings-3d-format/">Using Sparklines and Settings 3D Format</a></li>
 			<li><a href="/cells/net/chart-rendering/">Chart Rendering</a></li>
 			<li><a href="/cells/net/chart-types/">Chart Types</a></li>
 			<li><a href="/cells/net/controls-in-charts/">Controls in Charts</a></li>
@@ -178,8 +178,9 @@ url: /net/developer-guide/
 			<li><a href="/cells/net/change-tick-label-direction/">Change Tick Label Direction</a></li>
 		    <li><a href="/cells/net/read-chart-subtitle-from-ods-file/">Read Chart Subtitle from ODS File</a></li>
 	   </ul>
-        <p>Sparklines</p>
-        <ul>
+        <p>Sparklines</p>		
+		 <ul>	
+		   <li><a href="/cells/net/using-sparklines-and-settings-3d-format/">Using Sparklines and Settings 3D Format</a></li>       
         </ul>
     </div>
     <div class="col-md-6">       

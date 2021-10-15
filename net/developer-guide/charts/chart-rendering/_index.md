@@ -5,12 +5,6 @@ weight: 50
 url: /net/chart-rendering/
 ---
 
-## **Creating Charts**
-
-Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic [Creating & Customizing Excel Charts](/cells/net/creating-and-customizing-charts/). In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image & PDF format, we will create a chart of type Column as per the following snippet.
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingCreatingChart.cs" >}}
-
 ## **Rendering Charts**
 
 Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide rendering support, the [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) class has exposed [**ToImage**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) methods with a verity of overloads to best suit the application requirements.
