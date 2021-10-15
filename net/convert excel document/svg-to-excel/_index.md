@@ -1,7 +1,7 @@
 ---
 title: Convert SVG to Excel
 type: docs
-weight: 20
+weight: 30
 url: /net/convert-svg-to-excel/
 ---
 

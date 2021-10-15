@@ -1,7 +1,7 @@
 ---
 title: Convert PNG to Excel
 type: docs
-weight: 20
+weight: 30
 url: /net/convert-png-to-excel/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Convert JPG to Excel
 type: docs
-weight: 20
+weight: 30
 url: /net/convert-jpg-to-excel/
 ---
 
