@@ -18,4 +18,4 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 ## **Convert Excel Workbook to DOCX**
 The following code example demonstrates exporting active worksheet to DOCX by using [**SaveFormat.Docx**](https://apireference.aspose.com/cells/net/aspose.cells/saveformat) enumeration member.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToDocx-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-DOCX.cs" >}}
