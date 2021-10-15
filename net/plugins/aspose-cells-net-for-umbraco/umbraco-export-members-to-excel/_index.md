@@ -7,7 +7,7 @@ url: /net/umbraco-export-members-to-excel/
 
 ## **Introduction**
 
-Export Members to Excel is an Add-on for Umbraco which allows you to export members from your Umbraco CMS to an Excel and OpenDocument Spreadsheet using [Aspose.Cells](https://products.aspose.com/cells/net). A new node titled **Export Members To Excel** appears under Members tree in Umbraco backend after installation where you can simply select members to export and output format to get members in selected output document format.
+Export Members to Excel is an Add-on for Umbraco which allows you to export members from your Umbraco CMS to an Excel and OpenDocument Spreadsheet using [Aspose.Cells](https://products.aspose.com/cells/net/). A new node titled **Export Members To Excel** appears under Members tree in Umbraco backend after installation where you can simply select members to export and output format to get members in selected output document format.
 
 ### **Module Features**
 

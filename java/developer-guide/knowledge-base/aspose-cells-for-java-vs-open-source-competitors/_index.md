@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-vs-open-source-competitors/
 
 {{% alert color="primary" %}}
 
-This article compares the feature of [Aspose.Cells for Java](https://products.aspose.com/cells/java) with its open source competitors. The document compares Aspose.Cells for Java with [JExcelAPI](http://jexcelapi.sourceforge.net/) and [POI](http://poi.apache.org/)'s HSSF for some common set of features.
+This article compares the feature of [Aspose.Cells for Java](https://products.aspose.com/cells/java/) with its open source competitors. The document compares Aspose.Cells for Java with [JExcelAPI](http://jexcelapi.sourceforge.net/) and [POI](http://poi.apache.org/)'s HSSF for some common set of features.
 
 {{% /alert %}}
 

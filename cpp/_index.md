@@ -23,7 +23,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for C++ Online Documentation](/cells/cpp/)
 - [Aspose.Cells for C++ Features](/cells/cpp/product-overview/)
 - [Aspose.Cells for C++ Release Notes](/cells/cpp/release-notes/)
-- [Aspose.Cells for C++ Product Page](https://products.aspose.com/cells/cpp)
+- [Aspose.Cells for C++ Product Page](https://products.aspose.com/cells/cpp/)
 - [Install Aspose.Cells for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Cells.CPP/)
 - [Aspose.Cells for C++ API Reference Guide](https://apireference.aspose.com/cells/cpp)
 - [Download Examples at GitHub Repository](https://github.com/aspose-cells/Aspose.Cells-for-C)

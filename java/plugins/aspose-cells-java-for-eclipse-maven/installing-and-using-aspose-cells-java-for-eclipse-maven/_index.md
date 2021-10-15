@@ -21,7 +21,7 @@ url: /java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 ### **Aspose.Cells Maven Project (wizard)**
 
-To create **Maven Project** by wizard for using [Aspose.Cells for Java API](https://products.aspose.com/cells/java):
+To create **Maven Project** by wizard for using [Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
 
 1. Select **New -> Project**.
 1. Select **Aspose.Cells Maven Project** in the **Maven** category.
@@ -39,11 +39,11 @@ To create **Maven Project** by wizard for using [Aspose.Cells for Java API](htt
 ![todo:image_alt_text](project_4.png)
 
 1. The created **Maven Project** is configured to use **Aspose.Cells for Java API** and ready to be enhanced as per your Project requirements.
-   If you have opted to download [Code Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java), you can use **Aspose.Cells Code Example (wizard)** for importing needed **Code Examples** of [Aspose.Cells for Java](https://products.aspose.com/cells/java) API into your project.
+   If you have opted to download [Code Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java), you can use **Aspose.Cells Code Example (wizard)** for importing needed **Code Examples** of Aspose.Cells for Java API into your project.
 
 ### **Aspose.Cells Code Example (wizard)**
 
-**Aspose.Cells Code Example wizard** allows you to try out many samples provided for [Aspose.Cells for Java](https://products.aspose.com/cells/java) API.
+**Aspose.Cells Code Example wizard** allows you to try out many samples provided for Aspose.Cells for Java API.
 
 {{% alert color="primary" %}}
 
@@ -68,4 +68,4 @@ To use examples, just:
 ![todo:image_alt_text](example_3.png)
 
 1. Review the example code, compile and run.
-1. You can now test other examples and start building your own application using [Aspose.Cells for Java API](https://products.aspose.com/cells/java).
+1. You can now test other examples and start building your own application using Aspose.Cells for Java API.
