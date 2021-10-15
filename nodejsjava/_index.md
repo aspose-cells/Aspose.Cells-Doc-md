@@ -30,5 +30,5 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for Node.js via Java Product Page](https://products.aspose.com/cells/nodejs-java)
 - [Download Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Reference Guide](https://apireference.aspose.com/cells/nodejs)
-- [Aspose.Cells for Node.js via Java Free Support Forum](https://forum.aspose.com/c/cells)
+- [Aspose.Cells for Node.js via Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

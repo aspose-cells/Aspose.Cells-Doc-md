@@ -27,5 +27,5 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for PHP via Java Product Page](https://products.aspose.com/cells/php-java)
 - [Download Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Reference Guide](https://apireference.aspose.com/cells/php)
-- [Aspose.Cells for PHP via Java Free Support Forum](https://forum.aspose.com/c/cells)
+- [Aspose.Cells for PHP via Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for PHP via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

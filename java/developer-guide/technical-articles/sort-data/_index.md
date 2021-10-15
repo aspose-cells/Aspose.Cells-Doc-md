@@ -73,6 +73,6 @@ In this article I have shown how we can sort data using Aspose.Cells. Hopefully,
 
 Aspose.Cells offer more flexibility than other components and provides outstanding speed, efficiency and reliability. Aspose.Cells benefits from years of research, design and careful tuning.
 
-We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
+We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}

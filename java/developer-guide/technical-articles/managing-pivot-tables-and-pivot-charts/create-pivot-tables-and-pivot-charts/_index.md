@@ -92,7 +92,7 @@ This article shows how to create pivot tables and pivot charts using Aspose.Cell
 
 Aspose.Cells has benefited from years of research, design and careful tuning.
 
-We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
+We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}
 

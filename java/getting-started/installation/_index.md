@@ -87,4 +87,4 @@ Congratulations! You have successfully defined the Aspose.Cells for Java Maven d
 
 Please check the following to get quick technical support
 
-[Aspose.Cells - Forums](https://forum.aspose.com/c/cells)
+[Aspose.Cells - Forums](https://forum.aspose.com/c/cells/9)

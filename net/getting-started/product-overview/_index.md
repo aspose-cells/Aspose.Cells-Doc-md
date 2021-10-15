@@ -36,7 +36,7 @@ Aspose provides unlimited free technical support for all its products. The suppo
 
 If you need help with Aspose.Cells, consider the following:
 
-- The main avenue for support is the [Aspose.Forums](https://forum.aspose.com) . Post your question in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells) and it will be answered within a few hours.
+- The main avenue for support is the [Aspose.Forums](https://forum.aspose.com) . Post your question in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) and it will be answered within a few hours.
 - Aspose does not provide technical support over the phone. Phone support is only available for sales and purchase questions.
 - When expecting a reply in the forums, please consider the time zone differences.
 

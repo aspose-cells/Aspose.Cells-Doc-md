@@ -57,6 +57,6 @@ This articles demonstrated how to format data occupied in different cells in a w
 
 Aspose.Cells offers more flexibility than other solutions and provides outstanding speed, efficiency and reliability. Aspose.Cells benefits from years of research, design and careful tuning.
 
-We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
+We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}

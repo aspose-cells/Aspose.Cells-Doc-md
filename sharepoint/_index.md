@@ -25,5 +25,5 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Cells for SharePoint Release Notes](/cells/sharepoint/release-notes/)
 - [Aspose.Cells for SharePoint Product Page](https://products.aspose.com/cells/python-java)
 - [Download Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
-- [Aspose.Cells for SharePoint Free Support Forum](https://forum.aspose.com/c/cells)
+- [Aspose.Cells for SharePoint Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for SharePoint Paid Support Helpdesk](https://helpdesk.aspose.com/)

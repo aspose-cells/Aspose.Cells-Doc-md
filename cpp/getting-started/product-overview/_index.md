@@ -55,7 +55,7 @@ Aspose.Cells for C++ is designed to perform equally well server or client-side. 
 
 Aspose provides unlimited free technical support for all its products. Support is available to all users, including evaluation.
 
-If you need help with Aspose.Cells for C++ [visit the Aspose.Forums](https://forum.aspose.com/c/cells). Post your question in the Aspose.Cells for C++ forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Cells for C++ support team.
+If you need help with Aspose.Cells for C++ [visit the Aspose.Forums](https://forum.aspose.com/c/cells/9). Post your question in the Aspose.Cells for C++ forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Cells for C++ support team.
 
 When expecting a reply in the forums, please allow for time zone differences.
 
@@ -80,5 +80,5 @@ This table lists important Aspose.Cells for C++ technical resources.
 |[Aspose.Cells home Page](https://products.aspose.com/cells/cpp)|Product home page.|
 |[Aspose.Cells blog](https://blog.aspose.com/category/cells/)|Check this often for information about new releases and useful tips about Aspose.Cells.|
 |[Aspose.Cells for C++ download](https://downloads.aspose.com/cells/cpp)|Download the latest version of Aspose.Cells from here. We release often.|
-|[Aspose.Cells for C++ support forum](https://forum.aspose.com/c/cells)|Post your questions and issues here for a speedy resolution.|
+|[Aspose.Cells for C++ support forum](https://forum.aspose.com/c/cells/9)|Post your questions and issues here for a speedy resolution.|
 |[Aspose.Cells for C++ product documentation](/cells/cpp/)|Full online documentation that includes this documentation as well as Aspose.Cells API Reference.|

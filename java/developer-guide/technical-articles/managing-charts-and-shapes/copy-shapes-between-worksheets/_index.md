@@ -127,4 +127,4 @@ This article has shown how to copy different shapes like pictures, charts and ot
 
 Aspose.Cells can offer more flexibility than others for solutions and provides outstanding speed, efficiency and reliability to meet specific business application requirements. The results do show that Aspose.Cells has benefited from years of research, design and careful tuning.
 
-We heartily welcome your queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/).
+We heartily welcome your queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9).
