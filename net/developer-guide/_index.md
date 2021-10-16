@@ -292,11 +292,16 @@ url: /net/developer-guide/
         <p>Connections</p>
         <ul>
         </ul>
-        <p>Sort & Filter</p>
+        <p>Sort</p>
+        <ul>
+        </ul>
+         <p>Filter</p>
         <ul>
         </ul>
         <p>Data Tools</p>
         <ul>
+        <li><a href="/cells/net/data-validation/">Data Validation</a></li>
+        <li><a href="/cells/net/get-validation-applied-on-a-cell/">Get Validation Applied on a Cell</a></li>
         </ul>
     </div>
     <div class="col-md-6">
@@ -326,12 +331,14 @@ url: /net/developer-guide/
          <li><a href="/cells/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/#asposecells">Protecting and Unprotecting Workbooks</a></li>
          <li><a href="/cells/net/protect-and-unprotect-worksheets/">Protect and unProtect Worksheets</a></li>
          <li><a href="/cells/net/protecting-worksheets/#allow-users-to-edit-ranges">Allow Users to Edit Ranges</a></li>
+         <li><a href="/cells/net/create-shared-workbook-with-aspose-cells/">Create Shared Workbook</a></li>
          <li><a href="/cells/net/password-protect-or-unprotect-the-shared-workbook/">Password Protect or Unprotect the Shared Workbook</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Changes</p>
         <ul>
+         <li><a href="/cells/net/convert-revision-of-xlsb-to-xlsm/">Convert Revision of XLSB to XLSM</a></li>
         </ul>
     </div>
 </div>
@@ -341,6 +348,7 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Workbook Views</p>
         <ul>
+         <li><a href="/cells/net/worksheet-views/#page-break-preview">Page Break Preview</a></li>
         </ul>
         <p>Show</p>
         <ul>
@@ -349,9 +357,12 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Zoom</p>
         <ul>
+         <li><a href="/cells/net/worksheet-views/#zoom-factor">Zoom</a></li>
         </ul>
         <p>Window</p>
         <ul>
+        <li><a href="/cells/net/working-with-freeze-panes/">Freeze Panes</a></li>
+        <li><a href="/cells/net/split-cells-in-worksheet/">Split Cells in Worksheet</a></li>
         </ul>
     </div>
 </div>
