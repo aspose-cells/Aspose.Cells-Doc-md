@@ -237,6 +237,15 @@ url: /net/developer-guide/
         </ul>
         <p>Page Setup</p>
         <ul>
+         <li><a href="/cells/net/setting-margins/">Setting Margins</a></li>
+         <li><a href="/cells/net/setting-page-options/">Setting Page Options</a></li>
+         <li><a href="/cells/net/ssetting-print-options/">Setting Print Options</a></li>
+         <li><a href="/cells/net//get-paper-width-and-height-of-page-setup-of-worksheet/">Get Paper Width and Height of Page Setup of Worksheet</a></li>
+         <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
+         <li><a href="/cells/net/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>
+         <li><a href="/cells/net/implement-custom-paper-size-of-worksheet-for-rendering/">Implement Custom Paper Size of Worksheet for Rendering</a></li>
+         <li><a href="/cells/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/">Copy Page Setup Settings</a></li>
+         <li><a href="/cells/net/determine-if-paper-size-of-worksheet-is-automatic/">Determine if Paper Size of Worksheet is Automatic</a></li>
         </ul>
     </div>
     <div class="col-md-6">
