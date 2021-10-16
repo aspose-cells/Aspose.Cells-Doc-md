@@ -241,6 +241,7 @@ url: /net/developer-guide/
          <li><a href="/cells/net/setting-page-options/">Setting Page Options</a></li>
          <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
          <li><a href="/cells/net/managing-page-breaks/">Managing Page Breaks</a></li>
+         <li><a href="/cells/net/set-background-picture-for-a-worksheet/">Set Background Picture for a Worksheet</a></li>
          <li><a href="/cells/net/get-paper-width-and-height-of-page-setup-of-worksheet/">Get Paper Width and Height of Page Setup of Worksheet</a></li>
          <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
          <li><a href="/cells/net/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>
