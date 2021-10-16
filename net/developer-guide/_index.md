@@ -209,6 +209,7 @@ url: /net/developer-guide/
         </ul>
         <p>Header&Footer</p>
         <ul>
+        <li><a href="/cells/net/setting-headers-and-footers/">Setting Headers and Footers</a></li>
         </ul>
         <p>WordArt</p>
         <ul>
