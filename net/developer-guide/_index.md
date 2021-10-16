@@ -294,12 +294,18 @@ url: /net/developer-guide/
         </ul>
         <p>Sort</p>
         <ul>
+         <li><a href="/cells/net/data-sorting/">Sort</a></li>
+          <li><a href="/cells/net/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
         </ul>
          <p>Filter</p>
         <ul>
+         <li><a href="/cells/net/data-filtering/">Filter</a></li>
+         <li><a href="/cells/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
+         <li><a href="/cells/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Advanced Filter</a></li>
         </ul>
         <p>Data Tools</p>
         <ul>
+         <li><a href="/cells/net/convert-text-to-columns-using-aspose-cells/">Text to Columns</a></li>
         <li><a href="/cells/net/data-validation/">Data Validation</a></li>
         <li><a href="/cells/net/get-validation-applied-on-a-cell/">Get Validation Applied on a Cell</a></li>
         </ul>
@@ -330,6 +336,7 @@ url: /net/developer-guide/
         <ul>
          <li><a href="/cells/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/#asposecells">Protecting and Unprotecting Workbooks</a></li>
          <li><a href="/cells/net/protect-and-unprotect-worksheets/">Protect and unProtect Worksheets</a></li>
+          <li><a href="/cells/net/advanced-protection-settings-since-excel-xp/">Advanced Protection Settings</a></li>
          <li><a href="/cells/net/protecting-worksheets/#allow-users-to-edit-ranges">Allow Users to Edit Ranges</a></li>
          <li><a href="/cells/net/create-shared-workbook-with-aspose-cells/">Create Shared Workbook</a></li>
          <li><a href="/cells/net/password-protect-or-unprotect-the-shared-workbook/">Password Protect or Unprotect the Shared Workbook</a></li>
