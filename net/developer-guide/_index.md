@@ -234,6 +234,7 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Themes</p>
         <ul>
+        <li><a href="/cells/net/excel-2007-themes-and-colors/">Themes and Colors</a></li>
         </ul>
         <p>Page Setup</p>
         <ul>
@@ -313,6 +314,19 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Comments</p>
         <ul>
+          <li><a href="/cells/net/add-comment-in-worksheet/#asposecells---add-comment-in-worksheet">Add Comment</a></li>
+          <li><a href="/cells/net/managing-comments/">Managing Comments</a></li>
+          <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
+          <li><a href="/cells/net/threaded-comments/">Threaded Comments</a></li>
+        </ul>
+    </div>
+     <div class="col-md-6">
+        <p>Protect</p>
+        <ul>
+         <li><a href="/cells/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/#asposecells">Protecting and Unprotecting Workbooks</a></li>
+         <li><a href="/cells/net/protect-and-unprotect-worksheets/">Protect and unProtect Worksheets</a></li>
+         <li><a href="/cells/net/protecting-worksheets/#allow-users-to-edit-ranges">Allow Users to Edit Ranges</a></li>
+         <li><a href="/cells/net/password-protect-or-unprotect-the-shared-workbook/">Password Protect or Unprotect the Shared Workbook</a></li>
         </ul>
     </div>
     <div class="col-md-6">
