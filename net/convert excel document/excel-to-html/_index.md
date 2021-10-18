@@ -18,4 +18,4 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 ## **Converting Excel Workbook to HTML**
 The code example below shows how to save a workbook as an HTML file using C#:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-HTML.cs" >}}

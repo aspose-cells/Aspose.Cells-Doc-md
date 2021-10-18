@@ -19,4 +19,4 @@ Aspose.Cells for .NET presents you online free application [“Convert Excel to 
 ## **Converting Excel Workbook to MHTML Files**
 The code example below shows how to save a workbook as an MHTML file using C#:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToMHTMLFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
