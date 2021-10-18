@@ -1,11 +1,11 @@
 ---
-title: Excel 2007 Themes and Colors
+title: Excel Themes and Colors
 type: docs
 weight: 50
-url: /net/excel-2007-themes-and-colors/
+url: /net/excel-themes-and-colors/
 ---
 
-## **Excel 2007 Themes and Colors**
+## **Excel Themes and Colors**
 
 Themes provide a unified look with named styles, graphical effects and other objects used in a workbook. For example, the Accent1 style, for example, looks different in the Office and the Apex themes. Often, you apply a document theme and then amend it to how you want it.
 

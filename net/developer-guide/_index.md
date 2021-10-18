@@ -234,7 +234,7 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Themes</p>
         <ul>
-        <li><a href="/cells/net/excel-2007-themes-and-colors/">Themes and Colors</a></li>
+        <li><a href="/cells/net/excel-themes-and-colors/">Themes and Colors</a></li>
         </ul>
         <p>Page Setup</p>
         <ul>
