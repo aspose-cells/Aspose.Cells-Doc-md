@@ -21,7 +21,7 @@ VSTO allows Microsoft Office documents to execute code wrapped in a .NET assembl
 
 In this article, we compare VSTO with Aspose.Cells for .NET.
 
-[Aspose.Cells](https://products.aspose.com/cells/net) is an independent Microsoft Excel spreadsheet manipulation API that reads and writes Microsoft Excel spreadsheets without Microsoft Excel installed on the client or server side. Aspose.Cells is feature rich component and offers much more than just basic data export. With Aspose.Cells developers can export data, format spreadsheets, import images, import create and manipulate charts, stream Excel data, and save to various formats. To find out more about the product and its features:
+[Aspose.Cells](https://products.aspose.com/cells/net/) is an independent Microsoft Excel spreadsheet manipulation API that reads and writes Microsoft Excel spreadsheets without Microsoft Excel installed on the client or server side. Aspose.Cells is feature rich component and offers much more than just basic data export. With Aspose.Cells developers can export data, format spreadsheets, import images, import create and manipulate charts, stream Excel data, and save to various formats. To find out more about the product and its features:
 
 - Check out the [Aspose.Cells documentation](https://docs.aspose.com/cells/net/).
 - See how it works in the [online demos](https://github.com/aspose-cells/Aspose.Cells-for-.NET).

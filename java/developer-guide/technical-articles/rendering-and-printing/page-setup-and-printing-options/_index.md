@@ -97,6 +97,6 @@ Executing the code changes the print options.
 
 This article shows how to set page setup and sheet print options using Aspose.Cells. Hopefully, it will give you some insight, and you can use these options in your own scenarios.
 
-Aspose.Cells benefits from years of research, design and careful tuning. We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
+Aspose.Cells benefits from years of research, design and careful tuning. We heartily welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}

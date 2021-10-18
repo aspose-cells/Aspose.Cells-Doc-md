@@ -15,13 +15,13 @@ In a 2010 **Infoworld** report, IntelliJ received the highest test center score 
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java) for Java is an Excel® spreadsheet reporting component that enables Java applications to create and manage Excel® spreadsheets without using Microsoft Excel®. Aspose.Cells for Java is an incredibly feature rich component that offers much more than just basic data export functions.
+[Aspose.Cells](https://products.aspose.com/cells/java/) for Java is an Excel® spreadsheet reporting component that enables Java applications to create and manage Excel® spreadsheets without using Microsoft Excel®. Aspose.Cells for Java is an incredibly feature rich component that offers much more than just basic data export functions.
 
 ### **Aspose.Cells Java for IntelliJ IDEA - Maven**
 
-- Aspose.Cells Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Cells for Java API maven dependency) and download source code examples of the API for using [Aspose.Cells for Java API](https://products.aspose.com/cells/java).
+- Aspose.Cells Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Cells for Java API maven dependency) and download source code examples of the API for using **Aspose.Cells for Java API**.
 
-- This plugin helps you to work with [Aspose.Cells for Java API](https://products.aspose.com/cells/java) inside your favorite IntelliJ IDEA.
+- This plugin helps you to work with **Aspose.Cells for Java API** inside your favorite IntelliJ IDEA.
 
 ![todo:image_alt_text](http://i.imgur.com/KWKGljg.png)
 
@@ -30,9 +30,9 @@ The plugin contains two wizards -----
 
 **Wizard 1:** Aspose.Cells Maven Project
 
-- Plugin's **Aspose Maven Project Wizard** lets developers to create [Aspose.Cells for Java API](https://products.aspose.com/cells/java) Maven project.
-- The reference of [Aspose.Cells for Java API](https://products.aspose.com/cells/java) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) and gets added in the pom.xml.
-- The created project will always contain most recent available version Maven Dependency for [Aspose.Cells for Java API](https://products.aspose.com/cells/java).
+- Plugin's **Aspose Maven Project Wizard** lets developers to create Aspose.Cells for Java Maven project.
+- The reference of **Aspose.Cells for Java API** maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) and gets added in the pom.xml.
+- The created project will always contain most recent available version Maven Dependency for Aspose.Cells for Java.
 - The wizard steps also present with the option for downloading [Source Code Examples for using Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
 **Wizard 2:** Aspose.Cells Examples

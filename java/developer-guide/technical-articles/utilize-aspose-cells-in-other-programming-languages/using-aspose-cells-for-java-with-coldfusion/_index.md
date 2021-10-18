@@ -75,6 +75,6 @@ This article explains how to use Aspose.Cells for Java with ColdFusion.
 
 Aspose.Cells offers great flexibility and provides outstanding speed, efficiency and reliability. Aspose.Cells has benefited from years of research, design and careful tuning.
 
-We welcome queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/).
+We welcome queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9).
 
 {{% /alert %}}

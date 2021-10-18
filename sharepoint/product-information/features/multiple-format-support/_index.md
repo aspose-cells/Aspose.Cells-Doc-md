@@ -22,7 +22,7 @@ Aspose.Cells for SharePoint supports the following input formats:
 - ODS – OpenDocument
 - XML – Microsoft Excel SpreadsheetML
 
-To generate documents, Aspose.Cells for SharePoint relies on a built-in version of [Aspose.Cells for .NET](https://products.aspose.com/cells/net), the market leading spreadsheet-processing component from Aspose. Microsoft Excel is not used to generate documents.
+To generate documents, Aspose.Cells for SharePoint relies on a built-in version of [Aspose.Cells for .NET](https://products.aspose.com/cells/net/), the market leading spreadsheet-processing component from Aspose. Microsoft Excel is not used to generate documents.
 
 ## **Supported Output Formats**
 

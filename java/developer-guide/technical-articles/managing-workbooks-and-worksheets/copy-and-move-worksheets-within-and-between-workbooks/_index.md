@@ -118,6 +118,6 @@ Executing the code moves the move worksheet from FirstWorkbook.xls to SecondWork
 
 This article explains how to copy and move worksheets within and between workbooks using Aspose.Cells.
 
-Aspose.Cells has benefited from years of research, design and careful tuning. We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warranty a prompt reply.
+Aspose.Cells has benefited from years of research, design and careful tuning. We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warranty a prompt reply.
 
 {{% /alert %}}

@@ -88,6 +88,6 @@ This article shows how to apply conditional formatting to cells in a worksheet w
 
 Aspose.Cells offers great flexibility for solutions and provides outstanding speed, efficiency and reliability to meet specific business application requirements. Aspose.Cells benefits from years of research, design and careful tuning.
 
-We welcome your queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/). We warrant a prompt reply.
+We welcome your queries, comments and suggestions in the [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). We warrant a prompt reply.
 
 {{% /alert %}}

@@ -18,7 +18,7 @@ This article shows how to:
 1. Change data alignment and orientation.
 1. Set row height and column width.
 
-The example project performs all of these tasks and provides developers with a detailed description of how to create a workbook, add data into and apply formatting using [Aspose.Cells](https://products.aspose.com/cells/net).
+The example project performs all of these tasks and provides developers with a detailed description of how to create a workbook, add data into and apply formatting using [Aspose.Cells](https://products.aspose.com/cells/net/).
 
 {{% /alert %}}
 

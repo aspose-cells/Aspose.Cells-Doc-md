@@ -209,6 +209,7 @@ url: /net/developer-guide/
         </ul>
         <p>Header&Footer</p>
         <ul>
+        <li><a href="/cells/net/setting-headers-and-footers/">Setting Headers and Footers</a></li>
         </ul>
         <p>WordArt</p>
         <ul>
@@ -233,9 +234,21 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Themes</p>
         <ul>
+        <li><a href="/cells/net/excel-themes-and-colors/">Themes and Colors</a></li>
         </ul>
         <p>Page Setup</p>
         <ul>
+         <li><a href="/cells/net/setting-margins/">Setting Margins</a></li>
+         <li><a href="/cells/net/setting-page-options/">Setting Page Options</a></li>
+         <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
+         <li><a href="/cells/net/managing-page-breaks/">Managing Page Breaks</a></li>
+         <li><a href="/cells/net/set-background-picture-for-a-worksheet/">Set Background Picture for a Worksheet</a></li>
+         <li><a href="/cells/net/get-paper-width-and-height-of-page-setup-of-worksheet/">Get Paper Width and Height of Page Setup of Worksheet</a></li>
+         <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
+         <li><a href="/cells/net/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>
+         <li><a href="/cells/net/implement-custom-paper-size-of-worksheet-for-rendering/">Implement Custom Paper Size of Worksheet for Rendering</a></li>
+         <li><a href="/cells/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/">Copy Page Setup Settings</a></li>
+         <li><a href="/cells/net/determine-if-paper-size-of-worksheet-is-automatic/">Determine if Paper Size of Worksheet is Automatic</a></li>
         </ul>
     </div>
     <div class="col-md-6">
@@ -279,11 +292,22 @@ url: /net/developer-guide/
         <p>Connections</p>
         <ul>
         </ul>
-        <p>Sort & Filter</p>
+        <p>Sort</p>
         <ul>
+         <li><a href="/cells/net/data-sorting/">Sort</a></li>
+          <li><a href="/cells/net/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
+        </ul>
+         <p>Filter</p>
+        <ul>
+         <li><a href="/cells/net/data-filtering/">Filter</a></li>
+         <li><a href="/cells/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
+         <li><a href="/cells/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Advanced Filter</a></li>
         </ul>
         <p>Data Tools</p>
         <ul>
+         <li><a href="/cells/net/convert-text-to-columns-using-aspose-cells/">Text to Columns</a></li>
+        <li><a href="/cells/net/data-validation/">Data Validation</a></li>
+        <li><a href="/cells/net/get-validation-applied-on-a-cell/">Get Validation Applied on a Cell</a></li>
         </ul>
     </div>
     <div class="col-md-6">
@@ -301,11 +325,27 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Comments</p>
         <ul>
+          <li><a href="/cells/net/add-comment-in-worksheet/#asposecells---add-comment-in-worksheet">Add Comment</a></li>
+          <li><a href="/cells/net/managing-comments/">Managing Comments</a></li>
+          <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
+          <li><a href="/cells/net/threaded-comments/">Threaded Comments</a></li>
+        </ul>
+    </div>
+     <div class="col-md-6">
+        <p>Protect</p>
+        <ul>
+         <li><a href="/cells/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/#asposecells">Protecting and Unprotecting Workbooks</a></li>
+         <li><a href="/cells/net/protect-and-unprotect-worksheets/">Protect and unProtect Worksheets</a></li>
+          <li><a href="/cells/net/advanced-protection-settings-since-excel-xp/">Advanced Protection Settings</a></li>
+         <li><a href="/cells/net/protecting-worksheets/#allow-users-to-edit-ranges">Allow Users to Edit Ranges</a></li>
+         <li><a href="/cells/net/create-shared-workbook-with-aspose-cells/">Create Shared Workbook</a></li>
+         <li><a href="/cells/net/password-protect-or-unprotect-the-shared-workbook/">Password Protect or Unprotect the Shared Workbook</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <p>Changes</p>
         <ul>
+         <li><a href="/cells/net/convert-revision-of-xlsb-to-xlsm/">Convert Revision of XLSB to XLSM</a></li>
         </ul>
     </div>
 </div>
@@ -315,6 +355,7 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Workbook Views</p>
         <ul>
+         <li><a href="/cells/net/worksheet-views/#page-break-preview">Page Break Preview</a></li>
         </ul>
         <p>Show</p>
         <ul>
@@ -323,9 +364,12 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Zoom</p>
         <ul>
+         <li><a href="/cells/net/worksheet-views/#zoom-factor">Zoom</a></li>
         </ul>
         <p>Window</p>
         <ul>
+        <li><a href="/cells/net/working-with-freeze-panes/">Freeze Panes</a></li>
+        <li><a href="/cells/net/split-cells-in-worksheet/">Split Cells in Worksheet</a></li>
         </ul>
     </div>
 </div>
