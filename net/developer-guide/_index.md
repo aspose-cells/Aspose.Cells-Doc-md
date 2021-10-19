@@ -124,6 +124,7 @@ url: /net/developer-guide/
         <ul>
             <li><a href="/cells/net/insert-a-linked-picture-from-web-address/">Insert a Linked Picture from Web Address</a></li>
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
+            <li><a href="/cells/net/add-image-in-worksheet/#asposecells---add-image-in-worksheet">Add Image in Worksheet</a></li>
         </ul>
         <p>Shape</p>
         <ul>
@@ -325,10 +326,41 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Comments</p>
         <ul>
-          <li><a href="/cells/net/add-comment-in-worksheet/#asposecells---add-comment-in-worksheet">Add Comment</a></li>
-          <li><a href="/cells/net/managing-comments/">Managing Comments</a></li>
-          <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
-          <li><a href="/cells/net/threaded-comments/">Threaded Comments</a></li>
+            <li><a href="/cells/net/aspose-cells-object-model/#commentcollectioncomment">CommentCollection/Comment</a></li>
+            <li><a href="/cells/net/add-comment-in-worksheet/">Add Comment In Worksheet</a></li>
+            <li><a href="/cells/net/manage-comments-in-worksheet/#adding-comments">Adding Comments in excel(1)</a></li>
+            <li><a href="/cells/net/managing-comments-in-a-worksheet/#adding-comments">Adding Comments in excel(2)</a></li>
+            <li><a href="/cells/net/managing-comments/#adding-a-comment">Adding Comments in excel(3)</a></li>
+            <li><a href="/cells/net/manage-comments-in-worksheet/#accessing-comments">Accessing Comments in excel(1)</a></li>
+            <li><a href="/cells/net/managing-comments-in-a-worksheet/#accessing-comments">Accessing Comments in excel(2)</a></li>
+            <li><a href="/cells/net/Accessing Comments/">Removing Comments in excel(1)</a></li>
+            <li><a href="/cells/net/managing-comments-in-a-worksheet/#removing-comments">Removing Comments in excel(2)</a></li>
+            <li><a href="/cells/net/managing-comments/#comment-formatting">Comment Formatting in excel</a></li>
+            <li><a href="/cells/net/managing-comments/#add-an-image-to-comment">Add an Image to Comment in excel</a></li>
+            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/#inserting-comments">Inserting Comments in VSTO and Aspose.Cells(1)</a></li>
+            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/#removing-comments">Removing Comments in VSTO and Aspose.Cells(1)</a></li>
+            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/#inserting-comments">Inserting Comments in VSTO and Aspose.Cells(2)</a></li>
+            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/#removing-comments">Removing Comments in VSTO and Aspose.Cells(2)</a></li>
+            <li><a href="/cells/net/create-remove-and-get-gridcell-comments/">Create Remove and Get GridCell Comments</a></li>
+            <li><a href="/cells/net/add-a-picture-to-an-excel-comment/#add-picture-to-comment-in-microsoft-excel">Add Picture to Comment in Microsoft Excel</a></li>
+            <li><a href="/cells/net/add-a-picture-to-an-excel-comment/#add-picture-to-comment-using-asposecells">Add Picture to Comment using Aspose.Cells</a></li>
+            <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
+            <li><a href="/cells/net/change-text-direction-of-the-comment/">Change Text Direction of the Comment</a></li>
+            <li><a href="/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">Set the Comment of Table or List Object inside the Worksheet</a></li>
+            <li><a href="/cells/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Set Margins of Comment or Shape inside the Worksheet</a></li>
+            <li><a href="/cells/net/disable-downlevel-revealed-comments-while-saving-to/">Disable Downlevel Revealed Comments while saving to HTML</a></li>
+            <li><a href="/cells/net/threaded-comments/">Threaded Comments</a></li>
+                <ul>
+                    <li><a href="/cells/net/threaded-comments/#add-threaded-comment-with-excel">Add Threaded comment with Excel</a></li>
+                    <li><a href="/cells/net/threaded-comments/#add-threaded-comment-using-asposecells">Add Threaded Comment using Aspose.Cells</a></li>
+                    <li><a href="/cells/net/threaded-comments/#read-threaded-comments-with-excel">Read Threaded comments with Excel</a></li>
+                    <li><a href="/cells/net/threaded-comments/#read-threaded-comments-using-asposecells">Read Threaded comments using Aspose.Cells</a></li>
+                    <li><a href="/cells/net/threaded-comments/#read-created-time-of-threaded-comments">Read Created Time of threaded comments</a></li>
+                    <li><a href="/cells/net/threaded-comments/#edit-threaded-comment-with-excel">Edit Threaded comment with Excel</a></li>
+                    <li><a href="/cells/net/threaded-comments/#edit-threaded-comment-using-asposecells">Edit Threaded comment using Aspose.Cells</a></li>
+                    <li><a href="/cells/net/threaded-comments/#remove-threaded-comments-with-excel">Remove Threaded comments with Excel </a></li>
+                    <li><a href="/cells/net/threaded-comments/#remove-threaded-comments-using-asposecells">Remove Threaded comments using Aspose.Cells</a></li>
+                </ul>
         </ul>
     </div>
      <div class="col-md-6">
