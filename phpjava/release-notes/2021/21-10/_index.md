@@ -7,7 +7,7 @@ url: /phpjava/aspose-cells-for-php-via-java-21-10-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for Node.js via Java 21.10](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.10/).
+This page contains release notes for [Aspose.Cells for PHP via Java 21.10](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.10/).
 
 {{% /alert %}}
 
