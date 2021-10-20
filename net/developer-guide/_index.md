@@ -122,9 +122,17 @@ url: /net/developer-guide/
         </ul>
         <p>Picture</p>
         <ul>
+            <li><a href="/cells/net/aspose-cells-object-model/#picturecollectionpicture">PictureCollection/Picture(in Aspose.Cells)</a></li>
             <li><a href="/cells/net/insert-a-linked-picture-from-web-address/">Insert a Linked Picture from Web Address</a></li>
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
             <li><a href="/cells/net/add-image-in-worksheet/#asposecells---add-image-in-worksheet">Add Image in Worksheet</a></li>
+            <li><a href="/cells/net/managing-pictures/#adding-pictures">Adding Pictures in Aspose.Cells</a></li>
+            <li><a href="/cells/net/managing-pictures/#positioning-pictures">Positioning Pictures in Aspose.Cells</a></li>
+            <li><a href="/cells/net/managing-pictures/#inserting-a-picture-based-on-cell-reference">Inserting a Picture Based on Cell Reference in Aspose.Cells</a></li>
+            <li><a href="/cells/net/managing-pictures-in-a-worksheet/#adding-pictures">Adding Pictures in Aspose.Cells.GridDesktop</a></li>
+            <li><a href="/cells/net/managing-pictures-in-a-worksheet/#accessing-pictures">Accessing Pictures in Aspose.Cells.GridDesktop</a></li>
+            <li><a href="/cells/net/managing-pictures-in-a-worksheet/#removing-pictures">Removing Pictures in Aspose.Cells.GridDesktop</a></li>
+            <li><a href="/cells/net/copy-shapes-between-worksheets/#copying-a-picture-from-one-worksheet-to-another">Copying a Picture from one Worksheet to Another</a></li>
         </ul>
         <p>Shape</p>
         <ul>
