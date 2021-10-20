@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /nodejsjava/setup-environment-and-installation-guidelines/
 aliases: [/java/setup-environment-and-installation-guidelines/]
-keywords: "php, excel, install"
+keywords: "nodejs, excel, install"
 description: "setup Aspose.Cells for Node.js via Java and installation guidelines."
 ---
 
