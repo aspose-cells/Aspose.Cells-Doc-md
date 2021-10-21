@@ -1,8 +1,8 @@
 ---
-title: "Aspose.Cells Reporting Services 21.10 Release Notes"
+title: "Aspose.Cells for Reporting Services 21.10 Release Notes"
 second_title: "Aspose.Cells Reporting Services Document"
 type: docs
-/reportingservices/aspose-cells-for-reporting-services-21-10-release-notes/
+url: /reportingservices/aspose-cells-for-reporting-services-21-10-release-notes/
 weight: 12
 ---
 {{% alert color="primary" %}} 
