@@ -157,6 +157,9 @@ url: /net/developer-guide/
 	   </ul>
         <p>Sparklines</p>		
 		 <ul>	
+		   <li><a href="/cells/net/creating-sparklines/">Creating Sparklines</a></li>       
+        </ul>
+		 <ul>	
 		   <li><a href="/cells/net/using-sparklines-and-settings-3d-format/">Using Sparklines and Settings 3D Format</a></li>       
         </ul>
     </div>
