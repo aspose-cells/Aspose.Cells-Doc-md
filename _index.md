@@ -116,9 +116,9 @@ Aspose.Cells for Node.js via Java presents all the useful features of Aspose.Cel
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Cells for Java Online Documentation](https://docs.aspose.com/cells/java/) (Aspose.Cells for Node.js via Java is ported from Aspose.Cells for Java. So, you can use the same documentation)
-- [Aspose.Cells for Node.js via Java Features](https://docs.aspose.com/cells/java/aspose-cells-for-node-js-via-java-features/)
-- [Aspose.Cells for Node.js via Java Limitations and API Differences](https://docs.aspose.com/cells/java/aspose-cells-for-node-js-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Release Notes](https://docs.aspose.com/cells/java/aspose-cells-for-node-js-via-java/)
+- [Aspose.Cells for Node.js via Java Features](https://docs.aspose.com/cells/nodejsjava/features/)
+- [Aspose.Cells for Node.js via Java Limitations and API Differences](https://docs.aspose.com/cells/nodejsjava/limitations-and-api-differences/)
+- [Aspose.Cells for Node.js via Java Release Notes](https://docs.aspose.com/cells/nodejsjava/)
 - [Aspose.Cells for Node.js via Java Product Page](https://products.aspose.com/cells/nodejs-java/)
 - [Download Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Reference Guide](https://apireference.aspose.com/cells/nodejs)
@@ -140,9 +140,9 @@ Aspose.Cells for PHP via Java provides all the valuable features of Aspose.Cells
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Cells for Java Online Documentation](https://docs.aspose.com/cells/java/) (Aspose.Cells for PHP via Java is ported from Aspose.Cells for Java. So, you can use the same documentation)
-- [Aspose.Cells for PHP via Java Features](https://docs.aspose.com/cells/java/aspose-cells-for-php-via-java-features/)
+- [Aspose.Cells for PHP via Java Features](https://docs.aspose.com/cells/phpjava/features/)
 - [Aspose.Cells for PHP via Java Limitations and API Differences](https://docs.aspose.com/cells/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [Aspose.Cells for PHP via Java Release Notes](https://docs.aspose.com/cells/java/aspose-cells-for-php-via-java/)
+- [Aspose.Cells for PHP via Java Release Notes](https://docs.aspose.com/cells/phpjava/)
 - [Aspose.Cells for PHP via Java Product Page](https://products.aspose.com/cells/php-java/)
 - [Download Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java API Reference Guide](https://apireference.aspose.com/cells/php)
@@ -164,8 +164,8 @@ Aspose.Cells for Python via Java enables your applications to perform a great ra
 The following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Cells for Java Online Documentation](https://docs.aspose.com/cells/java/) (Aspose.Cells for Python via Java is very similar to Aspose.Cells for Java. So, you can use the same documentation)
-- [Aspose.Cells for Python via Java Features](https://docs.aspose.com/cells/java/aspose-cells-for-python-via-java-features-overview/)
-- [Aspose.Cells for Python via Java Release Notes](https://docs.aspose.com/cells/java/aspose-cells-for-python-via-java-release-notes/)
+- [Aspose.Cells for Python via Java Features](https://docs.aspose.com/cells/pythonjava/features/)
+- [Aspose.Cells for Python via Java Release Notes](https://docs.aspose.com/cells/pythonjava/release-notes/)
 - [Aspose.Cells for Python via Java Product Page](https://products.aspose.com/cells/python-java/)
 - [Download Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python)
 - [Aspose.Cells for Python via Java API Reference Guide](https://apireference.aspose.com/cells/python)
