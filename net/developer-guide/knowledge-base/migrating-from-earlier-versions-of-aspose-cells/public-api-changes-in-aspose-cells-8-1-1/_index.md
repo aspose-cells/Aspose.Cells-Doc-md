@@ -28,6 +28,6 @@ A scenario is named what-if model that includes variable input cells linked toge
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [How to Create, Manipulate or Remove Scenarios from Worksheets](/cells/net/create-2c-manipulate-or-remove-scenarios-from-worksheets/).
+Please check the detailed article on [How to Create, Manipulate or Remove Scenarios from Worksheets](/cells/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}

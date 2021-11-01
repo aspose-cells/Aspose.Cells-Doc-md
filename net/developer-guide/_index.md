@@ -12,8 +12,8 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Info</p>
         <ul>
-            <li><a href="cells/net/document-properties/">Document Properties</a></li>
-            <li><a href="cells/net/security-features/">Security Features</a></li>
+            <li><a href="/cells/net/document-properties/">Document Properties</a></li>
+            <li><a href="/cells/net/security-features/">Security Features</a></li>
         </ul>
         <p>New</p>
         <ul>

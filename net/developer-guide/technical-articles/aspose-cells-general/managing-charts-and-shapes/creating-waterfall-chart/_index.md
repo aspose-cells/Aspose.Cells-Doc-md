@@ -21,4 +21,5 @@ Below provided code snippet demonstrates the usage of Aspose.Cells for .NET API 
 
 ## Related Articles
 
-- [Creating and Customizing Charts](/cells/net/creating-and-customizing-charts/)
+- [Creating Charts](/cells/net/creating-charts/)
+- [Cusomizing Charts](/cells/net/customizing-charts/)

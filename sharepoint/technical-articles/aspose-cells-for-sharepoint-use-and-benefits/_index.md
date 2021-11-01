@@ -19,7 +19,7 @@ The contents on SharePoint sites are in the form of documents shared at a centra
 
 **A document library** 
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
+
 ### **Benefits**
 The following list highlights a few benefits of using Aspose.Cells for SharePoint:
 
@@ -34,21 +34,12 @@ Once Aspose.Cells for SharePoint is installed on the SharePoint server, the opti
 
 **Finding the Convert with... option** 
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
-
-
-
-
 To convert a Microsoft Excel document from your SharePoint document library into other formats, follow the below steps:
 
 1. Click on the desired Microsoft Excel document and then click Convert with Aspose.Cells for SharePoint
    The Conversion Settings screen is displayed. 
 
    **Deciding to convert** 
-
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
-
-
 
 
 1. Select the output format.
@@ -57,17 +48,11 @@ To convert a Microsoft Excel document from your SharePoint document library into
 
    **Selecting the output format** 
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
-
-
 
 
 1. When the conversion is complete, a success message is displayed. 
 
    **Successful conversion** 
-
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
-
 
 
 
@@ -76,7 +61,7 @@ To convert a Microsoft Excel document from your SharePoint document library into
 
    **The converted file is listed in the document library** 
 
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-attachment)
+
 ### **Summary**
 {{% alert color="primary" %}} 
 

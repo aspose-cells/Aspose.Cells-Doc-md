@@ -52,7 +52,7 @@ You can download Aspose .NET Cells Database Data Exporter to Excel for Umbraco m
 ## **Installing**
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
-1. Log in to the Umbraco **Developer** section, for example <http://www.myblog.com/umbraco/>
+1. Log in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco`
 1. From the tree, expand the **Packages** folder.
 1. From here there are two ways to install a package: select **Install local package** or browse the **Umbraco Package Respository.**
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
@@ -63,7 +63,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 ## **Using**
 After you have installed Aspose .NET Database Data Exporter to Excel for Umbraco module it is really simple to start using it on your website. Please follow these simple steps to get started
 
-1. Make sure you are logged in to the Umbraco **Developer** section, for example <http://www.myblog.com/umbraco/>
+1. Make sure you are logged in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco/`
 1. Click **Settings** in the list of sections in the bottom left of the screen.
 1. Expand the **Templates** node and select the template that you want to add to, for example Textpage.
 1. Select the position in the selected template where you want to export button to be added. Usually you may want to add it to the top right of the page, or the bottom of the page.

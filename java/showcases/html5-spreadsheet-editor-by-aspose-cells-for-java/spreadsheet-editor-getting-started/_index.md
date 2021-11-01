@@ -71,7 +71,7 @@ HTML5 Spreadsheet Editor is a Java EE application and can be deployed to any Jav
 
 **Source Code**
 
-The project source is available at [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Showcases/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). We are also maintaining Git mirrors at the following sites:
+The project source is available at [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/). We are also maintaining Git mirrors at the following sites:
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
 - [Google Code](https://code.google.com/p/html5-spreadsheet-editor/)

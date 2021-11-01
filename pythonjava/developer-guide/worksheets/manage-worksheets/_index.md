@@ -7,13 +7,13 @@ url: /pythonjava/manage-worksheets/
 
 Managing worksheets using Aspose.Cells for Python via Java is very easy. In this article, we will demonstrate added, accessing, and removing worksheets using the Aspose.Cells API.
 ## **Adding Worksheets to a New Excel File**
-To create a new Workbook, create an object of the [Workbook](https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook) class. The [Workbook](https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook) class represents an Excel file. Then by using the [add](https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\)) method of the [WorksheetCollection](https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection), new worksheets are added to the Excel file. Finally, to save the newly created Excel file, call the [save](https://apireference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\)) method of the [Workbook](https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook) class.
+To create a new Workbook, create an object of the [Workbook](https://apireference.aspose.com/cells/python/asposecells.api/Workbook) class. The [Workbook](https://apireference.aspose.com/cells/python/asposecells.api/Workbook) class represents an Excel file. Then by using the [add](https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\)) method of the [WorksheetCollection](https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection), new worksheets are added to the Excel file. Finally, to save the newly created Excel file, call the [save](https://apireference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\)) method of the [Workbook](https://apireference.aspose.com/cells/python/asposecells.api/Workbook) class.
 
 The following code snippet demonstrates creating a new Excel file and adding a worksheet to it.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-AddingWorksheetsToNewExcelFile.py" >}}
 ## **Adding Worksheets to a Designer Spreadsheet**
-Adding worksheets to a designer spreadsheet is exactly the same as adding the worksheet to a new Excel file. The only difference is that instead of creating a new Excel file, we open an existing file by the [Workbook](https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook) class.
+Adding worksheets to a designer spreadsheet is exactly the same as adding the worksheet to a new Excel file. The only difference is that instead of creating a new Excel file, we open an existing file by the [Workbook](https://apireference.aspose.com/cells/python/asposecells.api/Workbook) class.
 
 The following code snippet demonstrates adding a worksheet to a designer spreadsheet.
 

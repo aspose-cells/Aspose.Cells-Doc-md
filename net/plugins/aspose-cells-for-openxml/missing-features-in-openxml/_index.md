@@ -10,7 +10,7 @@ This section includes the following topics
 - [Calculate or Recalculate formulas dynamically](/cells/net/calculate-or-recalculate-formulas-dynamically/)
 - [Convert between Excel formats](/cells/net/convert-between-excel-formats/)
 - [Encrypting Excel Files using Aspose.Cells](/cells/net/encrypting-excel-files-using-aspose-cells/)
-- [Generate reports, populate documents with data](/cells/net/generate-reports-2c-populate-documents-with-data/)
+- [Generate reports, populate documents with data](/cells/net/generate-reports-populate-documents-with-data/)
   - [Import Export data from document](/cells/net/import-export-data-from-document/)
   - [Insert or Delete Rows or Columns](/cells/net/insert-or-delete-rows-or-columns/)
   - [Smart Markers feature in Aspose.Cells](/cells/net/smart-markers-feature-in-aspose-cells/)
