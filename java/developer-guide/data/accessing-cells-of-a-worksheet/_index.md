@@ -38,7 +38,6 @@ This approach works in the same way as that of the first approach.
 {{% alert color="primary" %}} 
 
 - [Named Ranges](/cells/java/named-ranges/)
-- [Create Workbook (Global) and Worksheet Scoped Named Ranges](/cells/java/create-workbook-28global-29-and-worksheet-scoped-named-ranges/)
 
 {{% /alert %}} 
 ## **Accessing Maximum Display Range of Worksheet**
