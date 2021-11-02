@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Java V2.0.1 Hotfix](http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-v2.0.1-hotfix/)
+This page contains release notes for [Aspose.Cells for Java V2.0.1 Hotfix](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-v2.0.1-hotfix/)
 
 {{% /alert %}} 
 

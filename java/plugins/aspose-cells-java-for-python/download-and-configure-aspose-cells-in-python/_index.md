@@ -8,7 +8,7 @@ url: /java/download-and-configure-aspose-cells-in-python/
 ## **Download Required Libraries**
 Download required libraries mentioned below. These are the required for executing Aspose.Cells Java for Python examples.
 
-- **Aspose:** [Aspose.Cells for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx)
+- **Aspose:** [Aspose.Cells for Java Component](https://downloads.aspose.com/cells/java/)
 - [JPype](https://pypi.python.org/pypi/JPype1)
 ## **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:

@@ -53,7 +53,7 @@ Gets comment object on this cell.
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Add Digital Signature to an already signed Excel file](/cells/java/add-digital-signature-to-an-already-signed-excel-file/)
-- [Disable Downlevel Revealed Comments while saving to HTML](/cells/java/disable-downlevel-revealed-comments-while-saving-to/)
-- [Export Comments while Saving Excel file to Html](/cells/java/export-comments-while-saving-excel-file-to/)
+- [Disable Downlevel Revealed Comments while saving to HTML](/cells/java/disable-downlevel-revealed-comments-while-saving-to-html/)
+- [Export Comments while Saving Excel file to Html](/cells/java/export-comments-while-saving-excel-file-to-html/)
 - [Output Blank Page when there is Nothing to Print](/cells/java/output-blank-page-when-there-is-nothing-to-print/)
 - [Create Remove and Get GridCell Comments](/cells/java/create-remove-and-get-gridcell-comments/)

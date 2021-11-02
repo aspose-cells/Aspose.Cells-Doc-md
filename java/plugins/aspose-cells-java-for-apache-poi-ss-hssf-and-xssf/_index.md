@@ -16,13 +16,13 @@ HSSF and XSSF provides ways to read spreadsheets create, modify, read and write 
 - an eventmodel api for efficient read-only access
 - a full usermodel api for creating, reading and modifying XLS files
 
-Read more at [poi.apache.org](http://poi.apache.org/spreadsheet/index.html)
+Read more at [poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ### **Aspose.Cells for Java**
 Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
 
 Aspose.Cells for Java is a mature, scalable and feature rich component that offers many functions that are way beyond the simple data exporting capabilities of other vendors. With Aspose.Cells for Java developers can export data, format spreadsheets to the most granular level, import images, create charts, apply and calculate complex formulas, stream Excel® data, save in various formats and much more - all this without the need of Microsoft Excel® or Microsoft Office Automation.
 
-Read more at [aspose.com](http://www.aspose.com/java/excel-component.aspx)
+Read more at [aspose.com](https://products.aspose.com/cells/java/)
 ### **Aspose.Cells Java for Apache POI SS - HSSF and XSSF**
 Project Aspose.Cells for Apache POI HSSF and XSSF shows how different tasks can be performed using Aspose.Cells Java APIs in comparison with Apache POI SS. The project also covers the features that are only available in Aspose.Cells APIs but not in Apache POI SS for dealing with spreadsheets.
 
@@ -134,7 +134,7 @@ This section includes the following topics
     - [Create New Workbook](/cells/java/create-new-workbook/)
     - [Page Setup - Fit to Page Setting](/cells/java/page-setup-fit-to-page-setting/)
     - [Set Print Area](/cells/java/set-print-area/)
-  - [Working with Cells, Rows and Columns in Apache POI and Aspose.Cells](/cells/java/working-with-cells-2c-rows-and-columns-in-apache-poi-and-aspose-cells/)
+  - [Working with Cells, Rows and Columns in Apache POI and Aspose.Cells](/cells/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells/)
     - [Auto Fit Row and Column](/cells/java/auto-fit-row-and-column/)
     - [Cell Alignment Settings](/cells/java/cell-alignment-settings/)
     - [Hide and Unhide Cells](/cells/java/hide-and-unhide-cells/)

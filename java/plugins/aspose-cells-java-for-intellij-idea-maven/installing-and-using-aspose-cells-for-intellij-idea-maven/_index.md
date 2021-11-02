@@ -16,23 +16,23 @@ The  plugin is listed on IntelliJ IDEA’s CE [official plugin website](https:/
 1. Select **Settings** from the **File** menu.
 1. Click **Plugins**, then browse the repositories in IntelliJ IDEA. 
 
-![todo:image_alt_text](http://i.imgur.com/LbtcI11.jpg)
+![todo:image_alt_text](https://i.imgur.com/LbtcI11.jpg)
 ### **Aspose.Cells Maven Project Wizard**
 Installing this plugin will introduce a new project type – 
 
-![todo:image_alt_text](https://raw.githubusercontent.com/aspose-cells/Aspose.Cells-for-Java/master/Plugins/Aspose.Cells-for-Java_for_IntelliJ%28Maven%29/src/resources/asposeSmall.png)
+![todo:image_alt_text](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven)/src/resources/asposeSmall.png)
 
 **Aspose.Cells Maven Project** – into IntelliJ IDEA, which will enable you to create Aspose.Cells Maven based project for using [Aspose.Cells for Java API. ](http://goo.gl/c1eSD2). 
 
-![todo:image_alt_text](http://i.imgur.com/m1DU9A1.jpg)
+![todo:image_alt_text](https://i.imgur.com/m1DU9A1.jpg)
 ### **Aspose.Cells Examples Wizard**
 An option for creating [Source Code Examples of using Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) inside the project, will also appear after the installation under "New" menu (using Right Click -> New **OR** File menu->New) – 
 
-![todo:image_alt_text](https://raw.githubusercontent.com/aspose-cells/Aspose.Cells-for-Java/master/Plugins/Aspose.Cells-for-Java_for_IntelliJ%28Maven%29/src/resources/asposeSmall.png)
+![todo:image_alt_text](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven)/src/resources/asposeSmall.png)
 
 **Aspose.Cells Examples**
 
-![todo:image_alt_text](http://i.imgur.com/bc05c5V.jpg)
+![todo:image_alt_text](https://i.imgur.com/bc05c5V.jpg)
 ## **Using**
 ### **Aspose.Cells Maven Project Wizard**
 To create Aspose.Cells Maven project for using [Aspose.Cells for Java API](http://goo.gl/c1eSD2) within IntelliJ IDEA, you need to have the internet connection.
@@ -43,32 +43,32 @@ Then follow the steps below:
 \2. Select **Aspose.Cells Maven Project** 
 \3. Click **Next**. 
 
-![todo:image_alt_text](http://i.imgur.com/m1DU9A1.jpg)
+![todo:image_alt_text](https://i.imgur.com/m1DU9A1.jpg)
 
 
 \4. Provide a **GroupId, ArtifactId** and **Version** for your maven project and click **Next.**
 
-![todo:image_alt_text](http://i.imgur.com/kHiJRCe.jpg)
+![todo:image_alt_text](https://i.imgur.com/kHiJRCe.jpg)
 
 
 `    `You can select "Also Download Examples Source Code" checkbox to download the sample usage examples of the API (as shown in above snapshot)
 
 \6. Provide a **Project Name** and **Location** just like when creating any Java application
 
-![todo:image_alt_text](http://i.imgur.com/0gSZUIu.jpg)
+![todo:image_alt_text](https://i.imgur.com/0gSZUIu.jpg)
 
 
 \7. Click **Finish**.
 `    `This will retrieve the [Aspose.Cells for Java API](http://goo.gl/c1eSD2) latest maven dependency reference from Aspose Cloud Maven Repository and configure it in pom.xml
 `     `If you have selected "Also Download Examples Source Code" checkbox. Downloading of the examples will also begin from the [Aspose.Cells for Java API GitHub Repository](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
-![todo:image_alt_text](http://i.imgur.com/EeZOq3s.jpg)
+![todo:image_alt_text](https://i.imgur.com/EeZOq3s.jpg)
 
-![todo:image_alt_text](http://i.imgur.com/buJsM8V.jpg)
+![todo:image_alt_text](https://i.imgur.com/buJsM8V.jpg)
 
 `     `Congratulations ! {{< emoticons/cross >}} You have successfully created Aspose.Cells Maven project for using [Aspose.Cells for Java API](http://goo.gl/c1eSD2).
 
-![todo:image_alt_text](http://i.imgur.com/2oON4Vh.jpg)
+![todo:image_alt_text](https://i.imgur.com/2oON4Vh.jpg)
 
 `      `The created Aspose.Cells for Java API Maven project is ready to be modified as per your project’s requirements.
 
@@ -80,34 +80,34 @@ Then follow the steps below on IntelliJ IDEA:
 
 \1. Select **File** => **New -** As shown below: 
 
-![todo:image_alt_text](http://i.imgur.com/N8tT9Q0.jpg)
+![todo:image_alt_text](https://i.imgur.com/N8tT9Q0.jpg)
 
 
 `    `-OR- **Right Click** (on project window) => **New**  - As shown below: 
 
-![todo:image_alt_text](http://i.imgur.com/aUBWkhp.jpg)
+![todo:image_alt_text](https://i.imgur.com/aUBWkhp.jpg)
 
 
 \2. Select **Aspose.Cells Example** Option from Menu - As shown below: 
 
-![todo:image_alt_text](http://i.imgur.com/G4nwlEM.jpg)
+![todo:image_alt_text](https://i.imgur.com/G4nwlEM.jpg)
 
 
 `  `The wizard will refresh / check for the latest available [Aspose.Cells for Java API Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) 
 
-![todo:image_alt_text](http://i.imgur.com/5PZwsuq.jpg)
+![todo:image_alt_text](https://i.imgur.com/5PZwsuq.jpg)
 
 
 \3. **Aspose.Cells Examples wizard** dialog will appear, where you can select any examples category to create / copy the examples into your project
 `    `Select any examples category and click **Create**: 
 
-![todo:image_alt_text](http://i.imgur.com/bc05c5V.jpg)
+![todo:image_alt_text](https://i.imgur.com/bc05c5V.jpg)
 
 
 \5. This will create / copy  the selected category examples into the project under **com.aspose.cells.examples** package.
 `    `Also any required resources for the execution of the examples will be copied to **src/main/resources** folder - As shown below:
 
-![todo:image_alt_text](http://i.imgur.com/jyxdO4D.jpg)
+![todo:image_alt_text](https://i.imgur.com/jyxdO4D.jpg)
 
 
 

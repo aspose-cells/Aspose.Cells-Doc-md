@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-8-4-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Java 8.4.0](http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-8.4.0/)
+This page contains release notes for [Aspose.Cells for Java 8.4.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.4.0/)
 
 {{% /alert %}} 
 

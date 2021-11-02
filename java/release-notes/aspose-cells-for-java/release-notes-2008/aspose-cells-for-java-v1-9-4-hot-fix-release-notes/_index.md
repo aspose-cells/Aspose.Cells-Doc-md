@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-v1-9-4-hot-fix-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Java V1.9.4 Hot Fix](http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-v1.9.4-hot-fix/)
+This page contains release notes for [Aspose.Cells for Java V1.9.4 Hot Fix](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-v1.9.4-hot-fix/)
 
 {{% /alert %}} 
 

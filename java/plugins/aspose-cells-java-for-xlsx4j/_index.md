@@ -11,13 +11,13 @@ xlsx4j is an open source (ASLv2) Java library for creating and manipulating Micr
 It is similar to Microsoft’s OpenXML SDK, but for Java. docx4j uses JAXB to create the in-memory object representation.
 You’ll need to take the time to understand JAXB, and the Open XML file structure.
 
-Read more at [docx4java.org](http://www.docx4java.org/trac/docx4j)
+Read more at [docx4java.org](https://www.docx4java.org/trac/docx4j)
 ### **Aspose.Cells for Java**
 Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
 
 Aspose.Cells for Java is a mature, scalable and feature rich component that offers many functions that are way beyond the simple data exporting capabilities of other vendors. With Aspose.Cells for Java developers can export data, format spreadsheets to the most granular level, import images, create charts, apply and calculate complex formulas, stream Excel® data, save in various formats and much more - all this without the need of Microsoft Excel® or Microsoft Office Automation.
 
-Read more at [aspose.com](http://www.aspose.com/java/excel-component.aspx)
+Read more at [aspose.com](https://products.aspose.com/cells/java/)
 ### **Aspose.Cells Java for xlsx4j**
 Project Aspose.Cells for xlsx4j shows how different tasks can be performed using Aspose.Cells Java APIs in comparison with xlsx4j. The project also covers the features that are only available in Aspose.Cells APIs but not in xlsx4j for dealing with spreadsheets.
 

@@ -55,6 +55,6 @@ Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Set the Values Format Code of Chart Series](/cells/java/set-the-values-format-code-of-chart-series/)
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [Read and Write External Connection of XLSB file](/cells/java/read-and-write-external-connection-of-xlsb-file/)
+- [Read and Write External Connection of XLSB file](/cells/java/read-and-write-external-connection-of-xlsb-or-xls-file/)
 - [Interrupt or Cancel the Formula Calculation of Workbook](/cells/java/interrupt-or-cancel-the-formula-calculation-of-workbook/)
 - [Specify how to cross string in output HTML using HtmlCrossType](/cells/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)

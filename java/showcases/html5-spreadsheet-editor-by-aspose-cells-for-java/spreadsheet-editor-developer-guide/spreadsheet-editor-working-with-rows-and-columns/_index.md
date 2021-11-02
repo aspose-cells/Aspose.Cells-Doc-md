@@ -33,7 +33,7 @@ To add a new row:
 
 The editor will add a new row at the selected location.
 
-![todo:image_alt_text](http://i.imgur.com/JJSOrNM.png)
+![todo:image_alt_text](https://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 
@@ -107,7 +107,7 @@ To add a new column:
 
 The editor will add a new column at the selected location.
 
-![todo:image_alt_text](http://i.imgur.com/JJSOrNM.png)
+![todo:image_alt_text](https://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 
@@ -172,7 +172,7 @@ To delete a row:
 
 The editor will delete the row which includes the selected cell.
 
-![todo:image_alt_text](http://i.imgur.com/JJSOrNM.png)
+![todo:image_alt_text](https://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 
@@ -212,7 +212,7 @@ To delete a column:
 
 The editor will delete the column which includes the selected cell.
 
-![todo:image_alt_text](http://i.imgur.com/JJSOrNM.png)
+![todo:image_alt_text](https://i.imgur.com/JJSOrNM.png)
 
 **How it works?**
 

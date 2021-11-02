@@ -16,9 +16,9 @@ url: /java/spreadsheet-editor-getting-started/
 ### **Introduction**
 Html5 Spreadsheet Editor is a web application that can view and edit spreadsheet documents in a web browser. It supports Excel, SpreadsheetML, CVS, OpenDocument and many other formats supported by Microsoft Excel. All basic features including cell editing, formatting, formula editing, row and column management etc. are supported.
 
-![todo:image_alt_text](http://i.imgur.com/aoWCRc1.png)
+![todo:image_alt_text](https://i.imgur.com/aoWCRc1.png)
 
-HTML5 Spreadsheet Editor uses many features of [Aspose.Cells for Java](http://www.aspose.com/java/excel-component.aspx) and shows how to use them to create, manipulate and render a spreadsheet in your Java application.
+HTML5 Spreadsheet Editor uses many features of [Aspose.Cells for Java](https://products.aspose.com/cells/java/) and shows how to use them to create, manipulate and render a spreadsheet in your Java application.
 
 **Features**
 
@@ -55,7 +55,7 @@ HTML5 Spreadsheet Editor uses many features of [Aspose.Cells for Java](http://ww
 **Software Requirements**
 
 - CDI supported Java application server
-- [Aspose.Cells for Java](http://www.aspose.com/java/excel-component.aspx)
+- [Aspose.Cells for Java](https://products.aspose.com/cells/java/)
 - [JavaServer Faces 2.0](http://javaserverfaces.java.net/)
 - [Primefaces 5.1](http://www.primefaces.org/)
 
@@ -200,6 +200,6 @@ We are using one of the most liberal open source licenses for minimum liabilitie
 
 **Aspose License**
 
-The product works without Aspose license, [with limitations](/cells/java/licensing/). To remove limitations, you can acquire a [free temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx) or [buy full license](http://www.aspose.com/purchase/default.aspx).
+The product works without Aspose license, [with limitations](/cells/java/licensing/). To remove limitations, you can acquire a [free temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx) or [buy full license](https://purchase.aspose.com/buy).
 
 By default, the editor will try to load **Aspose.Total.Java.lic** file from **src/main/resources/com/aspose/spreadsheeteditor** directory. Just copy the license file to this directory. The default behavior can be changed by editing the **AsposeLicense** class.

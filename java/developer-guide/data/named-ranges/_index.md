@@ -27,32 +27,32 @@ You cannot name a cell while you are changing the contents of the cell.
 ### **Using Aspose.Cells**
 Here, we use the Aspose.Cells API to do the task.
 
-Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class. The [Worksheet](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class provides a [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection.
+Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection.
 
 It is possible to create a named range by calling the overloaded [createRange](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) method of the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. A typical version of the [createRange](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) method takes the following parameters:
 
 - Name of the upper-left cell, the name of the top-left cell in the range.
 - Name of the lower right cell, the name of the bottom right cell in the range.
 
-When the [createRange](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) method is called, it returns the newly created named range as an instance of [Range](https://apireference.aspose.com/cells//java/com.aspose.cells/range) class.
+When the [createRange](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) method is called, it returns the newly created named range as an instance of [Range](https://apireference.aspose.com/cells/java/com.aspose.cells/range) class.
 
 The following example shows how to create a named range of cells that extends over B4:G14.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **Accessing All Named Ranges in a Spreadsheet**
-Call the [getNamedRanges](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) method of the [WorksheetCollection](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheetcollection) to get all named ranges in a spreadsheet. The [getNamedRanges](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) method returns an array of all named ranges in the [WorksheetCollection](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheetcollection).
+Call the [getNamedRanges](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) method of the [WorksheetCollection](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) to get all named ranges in a spreadsheet. The [getNamedRanges](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\)) method returns an array of all named ranges in the [WorksheetCollection](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
 
 The following example shows how to access all the named ranges in a workbook.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Access a Specific Named Range**
-Call the [WorksheetCollection](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheetcollection) collection's [getRangeByName](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) method to get a specified range by name. A typical [getRangeByName](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) method takes the name of the named range and returns the specified named range as an instance of the [Range](https://apireference.aspose.com/cells//java/com.aspose.cells/range) class.
+Call the [WorksheetCollection](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) collection's [getRangeByName](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) method to get a specified range by name. A typical [getRangeByName](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\)) method takes the name of the named range and returns the specified named range as an instance of the [Range](https://apireference.aspose.com/cells/java/com.aspose.cells/range) class.
 
 The following example shows how to access a specified range by its name.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessSpecificNamedRange-AccessSpecificNamedRange.java" >}}
 #### **Identify Cells in a Named Range**
-Using Aspose.Cells, you can insert data into the individual cells of a range. Suppose, you have a named range of cells.i.e., A1:C4. So the matrix would make 4 * 3 = 12 cells and the individual range cells are arranged sequentially. Aspose.Cells provides you some useful Properties of [Range](https://apireference.aspose.com/cells//java/com.aspose.cells/range) class to access the individual cells in the range. You may use the following methods to identify the cells in the range:
+Using Aspose.Cells, you can insert data into the individual cells of a range. Suppose, you have a named range of cells.i.e., A1:C4. So the matrix would make 4 * 3 = 12 cells and the individual range cells are arranged sequentially. Aspose.Cells provides you some useful Properties of [Range](https://apireference.aspose.com/cells/java/com.aspose.cells/range) class to access the individual cells in the range. You may use the following methods to identify the cells in the range:
 
 - [getFirstRow](https://apireference.aspose.com/cells/java/com.aspose.cells/range#FirstRow) returns the index of the first row in the named range.
 - [getFirstColumn](https://apireference.aspose.com/cells/java/com.aspose.cells/range#FirstColumn) returns the index of the first column in the named range.
@@ -61,7 +61,7 @@ The following example shows how to input some values into the cells of a specifi
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-IdentifyCellsinNamedRange-IdentifyCellsinNamedRange.java" >}}
 #### **Input Data into the Cells in the Named Range**
-Using Aspose.Cells, you can insert data into the individual cells of a range. Suppose, you have a named range of cells i.e., H1:J4. So the matrix would make 4 * 3 = 12 cells and the individual range cells are arranged sequentially. Aspose.Cells provides you some useful Properties of [Range](https://apireference.aspose.com/cells//java/com.aspose.cells/range) class to access the individual cells in the range. You may use the following properties to identify the cells in the range:
+Using Aspose.Cells, you can insert data into the individual cells of a range. Suppose, you have a named range of cells i.e., H1:J4. So the matrix would make 4 * 3 = 12 cells and the individual range cells are arranged sequentially. Aspose.Cells provides you some useful Properties of [Range](https://apireference.aspose.com/cells/java/com.aspose.cells/range) class to access the individual cells in the range. You may use the following properties to identify the cells in the range:
 
 - [getFirstRow](https://apireference.aspose.com/cells/java/com.aspose.cells/range#FirstRow) returns the index of the first row in the named range.
 - [getFirstColumn](https://apireference.aspose.com/cells/java/com.aspose.cells/range#FirstColumn) returns the index of the first column in the named range.
@@ -70,13 +70,13 @@ The following example shows how to input some values into the cells of a specifi
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-InputDataInCellsInRange-InputDataInCellsInRange.java" >}}
 #### **Format Ranges...Setting Background Color and Font Attributes to a Named Range**
-To apply formatting, define a [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object to specify style settings and apply it to the [Range](https://apireference.aspose.com/cells//java/com.aspose.cells/range) object.
+To apply formatting, define a [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object to specify style settings and apply it to the [Range](https://apireference.aspose.com/cells/java/com.aspose.cells/range) object.
 
 The following example shows how to set solid fill color (shading color) with font settings to a range.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Format Ranges...Adding Borders to a Named Range**
-It is possible to add borders to a range of cells instead of just a single cell. The [Range](https://apireference.aspose.com/cells//java/com.aspose.cells/range) object provides a [setOutlineBorders](https://apireference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) method that takes the following parameters to add a border to the range of cells:
+It is possible to add borders to a range of cells instead of just a single cell. The [Range](https://apireference.aspose.com/cells/java/com.aspose.cells/range) object provides a [setOutlineBorders](https://apireference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) method that takes the following parameters to add a border to the range of cells:
 
 - borderStyle: the type of border, selected from the [CellBorderType](https://apireference.aspose.com/cells/java/com.aspose.cells/CellBorderType) enumeration.
 - borderColor: the line color of the border, selected from the [Color](https://apireference.aspose.com/cells/java/com.aspose.cells/Color) enumeration.
@@ -90,7 +90,7 @@ The following output would be generated after executing the above code:
 
 ![todo:image_alt_text](named-ranges_1.png)
 #### **Apply style to cells in a Range**
-Sometimes, you want to create apply a style to the cells in a [Range](https://apireference.aspose.com/cells//java/com.aspose.cells/range). For this, you may iterate over the cells in the range and use the [Cell.setStyle](https://apireference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) method to apply the style to the cell.
+Sometimes, you want to create apply a style to the cells in a [Range](https://apireference.aspose.com/cells/java/com.aspose.cells/range). For this, you may iterate over the cells in the range and use the [Cell.setStyle](https://apireference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) method to apply the style to the cell.
 
 The following example shows how to apply styles to cells in a Range.
 

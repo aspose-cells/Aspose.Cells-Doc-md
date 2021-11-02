@@ -23,7 +23,7 @@ In a 2010 **Infoworld** report, IntelliJ received the highest test center score 
 
 - This plugin helps you to work with **Aspose.Cells for Java API** inside your favorite IntelliJ IDEA.
 
-![todo:image_alt_text](http://i.imgur.com/KWKGljg.png)
+![todo:image_alt_text](https://i.imgur.com/KWKGljg.png)
 
 **WIZARDS**:
 The plugin contains two wizards -----

@@ -8,7 +8,7 @@ url: /java/download-and-configure-aspose-cells-in-ruby/
 ## **Download Required Libraries**
 Download required libraries mentioned below. These are the required for executing Aspose.Cells Java for Ruby examples.
 
-- [Aspose.Cell for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/)
+- [Aspose.Cell for Java Component](https://downloads.aspose.com/cells/java/)
 ## **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:
 

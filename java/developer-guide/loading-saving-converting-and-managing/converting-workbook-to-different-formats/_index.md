@@ -130,7 +130,7 @@ Below provided code snippet demonstrates the usage of the **[PdfSaveOptions](ht
 
 #### **Conversion with Aspose.Pdf: Aspose.Cells Prior to 2.3.0**
 
-For Aspose.Cells versions prior to version 2.3.0 you need to use a component like [Aspose.PDF for Java](/pdf/java/introducing-aspose-pdf-for-java/) to convert spreadsheets to PDF files. Aspose.Cells and Aspose.PDF work together to convert a spreadsheet to PDF via an intermediate step.
+For Aspose.Cells versions prior to version 2.3.0 you need to use a component like [Aspose.PDF for Java](/pdf/java/) to convert spreadsheets to PDF files. Aspose.Cells and Aspose.PDF work together to convert a spreadsheet to PDF via an intermediate step.
 
 To convert spreadsheets to PDF with Aspose.Cells and Aspose.PDF:
 

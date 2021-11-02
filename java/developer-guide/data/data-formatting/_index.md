@@ -8,11 +8,11 @@ url: /java/data-formatting/
 ## **Approaches to Format Data in Cells**
 It's a common fact that if the worksheet cells are formatted properly then it becomes easier for the users to read the contents (data) of the cell. There are many ways to format cells and their contents. The simplest way is to format cells using Microsoft Excel in a WYSIWYG environment while creating a Designer Spreadsheet. After the designer spreadsheet is created, you can open the spreadsheet using Aspose.Cells keeping all format settings saved with the spreadsheet. Another way to format cells and their contents is to use Aspose.Cells API. In this topic, we'll describe two approaches to format cells and their contents with the use of Aspose.Cells API.
 ### **Formatting Cells**
-Developers can format cells and their contents using the flexible API of Aspose.Cells. Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class. The [Worksheet](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class provides a Cells collection. Each item in the [Cells](https://apireference.aspose.com/cells//java/com.aspose.cells/cells) collection represents an object of **Cell** class.
+Developers can format cells and their contents using the flexible API of Aspose.Cells. Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [WorksheetCollection](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) that allows access to each worksheet in an Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a Cells collection. Each item in the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/cells) collection represents an object of **Cell** class.
 
-Aspose.Cells provides the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) property in the [Cell](https://apireference.aspose.com/cells//java/com.aspose.cells/cell) class, used to set the formatting style of a cell. Moreover, Aspose.Cells also provides a [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) class that is used to serve the same purpose. Apply different kinds of formatting styles on the cells to set their background or foreground colors, borders, fonts, horizontal and vertical alignments, indentation level, text direction, rotation angle and much more.
+Aspose.Cells provides the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) property in the [Cell](https://apireference.aspose.com/cells/java/com.aspose.cells/cell) class, used to set the formatting style of a cell. Moreover, Aspose.Cells also provides a [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) class that is used to serve the same purpose. Apply different kinds of formatting styles on the cells to set their background or foreground colors, borders, fonts, horizontal and vertical alignments, indentation level, text direction, rotation angle and much more.
 #### **Using the setStyle Method**
-When applying different formatting styles to different cells then it's better to use the setStyle method of the [Cell](https://apireference.aspose.com/cells//java/com.aspose.cells/cell) class. An example is given below to demonstrate the use of setStyle method to apply various formatting settings on a cell.
+When applying different formatting styles to different cells then it's better to use the setStyle method of the [Cell](https://apireference.aspose.com/cells/java/com.aspose.cells/cell) class. An example is given below to demonstrate the use of setStyle method to apply various formatting settings on a cell.
 
 
 
@@ -24,9 +24,9 @@ When applying different formatting styles to different cells then it's better to
 
 
 #### **Using the Style Object**
-When applying the same formatting style to different cells, use the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object.
+When applying the same formatting style to different cells, use the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object.
 
-1. Add a [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object to the Styles collection of the [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook) class by calling the createStyle method of the Workbook class.
+1. Add a [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object to the Styles collection of the [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class by calling the createStyle method of the Workbook class.
 1. Access the newly added Style object from the Styles collection.
 1. Set the desired properties of the Style object to apply desired formatting settings.
 1. Assign the configured Style object to the Style property of any desired cell.
@@ -77,11 +77,11 @@ As you can see from the above figure, there are different kinds of alignment opt
 
 All of these alignment settings are fully supported by Aspose.Cells and are discussed in more detail below.
 ### **Configuring Alignment Settings**
-Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook), that represents an Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class.
+Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents an Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
-The Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of the [Cell](https://apireference.aspose.com/cells//java/com.aspose.cells/cell) class.
+The Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of the [Cell](https://apireference.aspose.com/cells/java/com.aspose.cells/cell) class.
 
-Aspose.Cells provides the setStyle method in the [Cell](https://apireference.aspose.com/cells//java/com.aspose.cells/cell) class that is used a cell's formatting. The [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) class provides useful properties for configuring font settings.
+Aspose.Cells provides the setStyle method in the [Cell](https://apireference.aspose.com/cells/java/com.aspose.cells/cell) class that is used a cell's formatting. The [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) class provides useful properties for configuring font settings.
 
 Select any text alignment type using the TextAlignmentType enumeration. The pre-defined text alignment types in the TextAlignmentType enumeration are:
 
@@ -103,7 +103,7 @@ You can also apply justify distributed setting using the Style.setJustifyDistrib
 
 {{% /alert %}} 
 #### **Horizontal Alignment**
-Use the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object's setHorizontalAlignment method to align the text horizontally.
+Use the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object's setHorizontalAlignment method to align the text horizontally.
 
 The following output is achieved by executing the example code below:
 
@@ -121,7 +121,7 @@ The following output is achieved by executing the example code below:
 
 
 #### **Vertical Alignment**
-Use the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object's setVerticalAlignment mehod to align the text vertically.
+Use the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object's setVerticalAlignment mehod to align the text vertically.
 
 The following output is achieved when VerticalAlignment is set to center.
 
@@ -139,7 +139,7 @@ The following output is achieved when VerticalAlignment is set to center.
 
 
 ### **Indentation**
-It is possible to set the indentation level of the text in a cell by using the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object's setIndentLevel method.
+It is possible to set the indentation level of the text in a cell by using the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object's setIndentLevel method.
 
 The following output is achieved when IndentLevel is set to 2.
 
@@ -157,7 +157,7 @@ The following output is achieved when IndentLevel is set to 2.
 
 
 ### **Orientation**
-Set the orientation (rotation) of the text in a cell with the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object's setRotationAngle method.
+Set the orientation (rotation) of the text in a cell with the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object's setRotationAngle method.
 
 The following output is achieved when the rotation angle is set to 25.
 
@@ -179,7 +179,7 @@ The following section discusses how to control text by setting text wrapping, sh
 #### **Wrapping Text**
 Wrapping text in a cell makes it easier to read: the height of the cell adjusts to fit all the text, instead of cutting it off or spilling over into adjacent cells.
 
-Set text wrapping on or off with the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object's setTextWrapped method.
+Set text wrapping on or off with the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object's setTextWrapped method.
 
 The following output is achieved when text wrapping is enabled.
 
@@ -197,7 +197,7 @@ The following output is achieved when text wrapping is enabled.
 
 
 #### **Shrinking to Fit**
-An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object's IsTextWrapped property to **true**.
+An option to wrapping text in a field is to shrink the text size to fit a cell's dimensions. This is done by setting the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object's IsTextWrapped property to **true**.
 
 The following output is achieved when text is shrunk to fit the cell.
 
@@ -242,7 +242,7 @@ Use the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/cell
 ### **Text Direction**
 It is possible to set the reading order of text in cells. The reading order is the visual order in which characters, words etc. are displayed. For example, English is a left to right language while Arabic is a right to left language.
 
-The reading order is set with the [Style](https://apireference.aspose.com/cells//java/com.aspose.cells/style) object's TextDirection property. Aspose.Cells provides pre-defined text direction types in the TextDirectionType enumeration.
+The reading order is set with the [Style](https://apireference.aspose.com/cells/java/com.aspose.cells/style) object's TextDirection property. Aspose.Cells provides pre-defined text direction types in the TextDirectionType enumeration.
 
 |**Text Direction Types**|**Description**|
 | :- | :- |
@@ -271,7 +271,7 @@ The following output is achieved if the reading order of the text is set to righ
 
 Aspose.Cells supports this feature. This topic explains how to use this feature.
 ### **Formatting Selected Characters**
-Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class. The Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of the [Cell](https://apireference.aspose.com/cells//java/com.aspose.cells/cell) class.
+Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a Worksheets collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of the [Cell](https://apireference.aspose.com/cells/java/com.aspose.cells/cell) class.
 
 The Cell class provides characters method that takes the following parameters to select a range of characters in a cell:
 
@@ -352,7 +352,7 @@ Formatting the rows and columns in a spreadsheet to give the report a look is po
 
 In this article, we will try to explain how to use Aspose.Cells for Java API to apply formatting to rows and columns. 
 ### **Formatting Rows & Columns**
-Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/cells//java/com.aspose.cells/workbook) class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the Worksheet class. The [Worksheet](https://apireference.aspose.com/cells//java/com.aspose.cells/worksheet) class provides the Cells collection. The Cells collection provides a Rows collection.
+Aspose.Cells provides a class, [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The [Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the Worksheet class. The [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides the Cells collection. The Cells collection provides a Rows collection.
 #### **Formatting a Row**
 Each item in the Rows collection represents a Row object. The Row object offers the applyStyle method used to apply formatting to a row.
 
