@@ -15,7 +15,7 @@ With Aspose.Cells for Java 8.2.0, the MultiThreadReading property has been added
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Simultaneously Read Cells Values in Multi-Threaded Environment](http://www.aspose.com/docs/display/cellsjava/Reading+Cell+Values+in+Multiple+Threads+Simultaneously) for more information.
+Please check the detailed article on [Simultaneously Read Cells Values in Multi-Threaded Environment](/cells/java/reading-cell-values-in-multiple-threads-simultaneously/) for more information.
 
 {{% /alert %}}
 ## **Added Overloads for autoFitRows & autoFitColumns Methods**

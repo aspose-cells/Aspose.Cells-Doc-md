@@ -100,7 +100,7 @@ The Aspose.Cells for Java has also provided means to gather information on what 
 
 {{% alert color="primary" %}} 
 
-For more details on FontConfigs, please review the article on [Configuring Fonts for Rendering Spreadsheets](http://www.aspose.com/docs/display/cellsjava/Configuring+Fonts+for+Rendering+Spreadsheets).
+For more details on FontConfigs, please review the article on [Configuring Fonts for Rendering Spreadsheets](/cells/java/configuring-fonts-for-rendering-spreadsheets/).
 
 {{% /alert %}} 
 ### **Added IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider property**
@@ -174,7 +174,7 @@ for (int i = 0; i < book.getWorksheets().getCount(); i++)
 
 {{% alert color="primary" %}} 
 
-For more details on this enhancement, please review the article on [Implementing IFilePathProvider Interface](http://www.aspose.com/docs/display/cellsjava/Provide+exported+worksheet+html+file+path+via+IFilePathProvider+interface).
+For more details on this enhancement, please review the article on [Implementing IFilePathProvider Interface](/cells/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
 
 {{% /alert %}} 
 ### **Added CopyOptions.ReferToDestinationSheet Property & Overload for Cells.copyRows Method**
@@ -216,7 +216,7 @@ book.save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Control the Data Source of Chart while Copying Rows](http://www.aspose.com/docs/display/cellsjava/Change+Data+Source+of+the+Chart+to+Destination+Worksheet+while+Copying+Rows+or+Range).
+For more details on this feature, please review the article on [Control the Data Source of Chart while Copying Rows](/cells/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
 
 {{% /alert %}} 
 ### **Added CalculationOptions.Recursive Property**
@@ -246,7 +246,7 @@ book.calculateFormula(options);
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Optimize Calculation Time](http://www.aspose.com/docs/display/cellsjava/Decrease+the+Calculation+Time+of+Cell.Calculate%28%29+method).
+For more details on this feature, please review the article on [Optimize Calculation Time](/cells/java/decrease-the-calculation-time-of-cell-calculate-method/).
 
 {{% /alert %}}
 ## **Obsoleted APIs**

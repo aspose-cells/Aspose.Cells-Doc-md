@@ -50,9 +50,3 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 ## **Download Sample Code**
 - [CodePlex](https://archive.codeplex.com/?p=asposecellsjavaxlsx4j)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidescrollbars/AsposeDisplayAndHideScrollbars.java)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [Display or Hide Scroll Bars](http://www.aspose.com/docs/display/cellsjava/Display+or+Hide+Scroll+Bars).
-
-{{% /alert %}}

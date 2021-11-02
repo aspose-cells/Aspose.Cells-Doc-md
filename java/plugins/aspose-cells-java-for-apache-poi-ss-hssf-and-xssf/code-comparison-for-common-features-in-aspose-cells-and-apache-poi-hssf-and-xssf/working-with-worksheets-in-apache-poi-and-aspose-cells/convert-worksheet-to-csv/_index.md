@@ -697,6 +697,6 @@ Download **Convert Worksheet to CSV** from any of the below mentioned social cod
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Saving Files](http://www.aspose.com/docs/display/cellsjava/Saving+Files).
+For more details, visit [Saving Files](/cells/java/saving-excel-files-to-csv-pdf-and-other-formats/).
 
 {{% /alert %}}

@@ -12,7 +12,7 @@ This document describes the changes to the Aspose.Cells API from version 8.5.1 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Render Worksheet to Graphic Context**
-This release of Aspose.Cells for Java API has exposed another overload of SheetRender.toImage method that now allows to accept an instance of Graphics2D class to [render the Worksheet in Graphics context](http://www.aspose.com/docs/display/cellsjava/Render+Worksheet+to+Graphic+Context). The signatures of newly added method is as follow.
+This release of Aspose.Cells for Java API has exposed another overload of SheetRender.toImage method that now allows to accept an instance of Graphics2D class to [render the Worksheet in Graphics context](/cells/java/render-worksheet-to-graphic-context/). The signatures of newly added method is as follow.
 
 - SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
@@ -64,7 +64,7 @@ ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
 ### **Method PivotTable.getCellByDisplayName Added**
-Aspose.Cells for Java 8.5.2 has exposed the PivotTable.getCellByDisplayName method that can be used to [retrieve the Cell object by the name of the PivotField](http://www.aspose.com/docs/display/cellsjava/Get+the+Cell+object+by+DisplayName+of+PivotField+of+PivotTable). This method could be useful in scenarios where you wish to highlight or format the PivotField header.
+Aspose.Cells for Java 8.5.2 has exposed the PivotTable.getCellByDisplayName method that can be used to [retrieve the Cell object by the name of the PivotField](/cells/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). This method could be useful in scenarios where you wish to highlight or format the PivotField header.
 
 Following is the simple usage scenario.
 
@@ -116,7 +116,7 @@ If a spreadsheet has too many individual cells with validation applied, there ar
 
 {{% /alert %}} 
 ### **Property Geometry.ShapeAdjustValues Added**
-With the release of v8.5.2, the Aspose.Cells API has exposed the Geometry.getShapeAdjustValues method that can be used to [access and make changes to the adjustment points of different shapes](http://www.aspose.com/docs/display/cellsjava/Change+Adjustment+Values+of+the+Shape).
+With the release of v8.5.2, the Aspose.Cells API has exposed the Geometry.getShapeAdjustValues method that can be used to [access and make changes to the adjustment points of different shapes](/cells/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 

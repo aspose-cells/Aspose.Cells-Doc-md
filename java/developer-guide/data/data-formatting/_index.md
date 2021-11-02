@@ -298,7 +298,7 @@ In the output file, in the A1" cell, the word 'Visit' is formatted with the defa
 
 {{% alert color="primary" %}} 
 
-If you are interested in [formatting a portion of Rich Text in a [cell](https://docs.aspose.com/cells/java/access-and-update-the-portions-of-rich-text-of-cell/), consider using the Cell.getCharacters & Cell.setCharacters methods. The Cell.getCharacters method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of FontSetting objects which can be manipulated to set various properties font name, font color, boldness etc and **set** method can be used to apply the changes.
+If you are interested in [formatting a portion of Rich Text in a [cell](/cells/java/access-and-update-the-portions-of-rich-text-of-cell/), consider using the Cell.getCharacters & Cell.setCharacters methods. The Cell.getCharacters method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of FontSetting objects which can be manipulated to set various properties font name, font color, boldness etc and **set** method can be used to apply the changes.
 
 {{% /alert %}} 
 ## **Activating Sheets and Making an Active Cell or Select a Range of Cells in the Worksheet**
@@ -400,6 +400,6 @@ If the requirement is to set the display format of numbers & dates for a complet
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Setting Display Formats of Numbers and [Dates](https://docs.aspose.com/cells/java/data-formatting/).
+Please check the detailed article on [Setting Display Formats of Numbers and [Dates](/cells/java/data-formatting/).
 
 {{% /alert %}}

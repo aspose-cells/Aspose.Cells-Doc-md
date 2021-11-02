@@ -19,4 +19,4 @@ You may the find the following articles regarding Excel to HTML conversion helpf
 - [Export Worksheet CSS Separately in Output HTML](/cells/java/export-worksheet-css-separately-in-output-html/)
 - [Disable Downlevel Revealed Comments while saving to HTML](/cells/java/disable-downlevel-revealed-comments-while-saving-to-html/)
 - [Export Document Workbook and Worksheet Properties in Excel to HTML conversion](/cells/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
-- [Export print area range to HTML](https://docs.aspose.com/cells/java/export-print-area-range-to-html/)
+- [Export print area range to HTML](/cells/java/export-print-area-range-to-html/)

@@ -16,7 +16,7 @@ The new property Version has been added to the BuiltInDocumentPropertyCollection
 
 {{% alert color="primary" %}} 
 
-Please check detailed article on [Get Version of the Application that Created the Spreadsheet](http://www.aspose.com/docs/display/cellsjava/Get+the+Version+Number+of+the+Application+that+created+the+Excel+document).
+Please check detailed article on [Get Version of the Application that Created the Spreadsheet](/cells/java/get-the-version-number-of-the-application-that-created-the-excel-document/).
 
 {{% /alert %}} 
 
@@ -37,7 +37,7 @@ Before the release of Aspose.Cells 8.2.2, it was not possible to retrieve the in
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article [Get Worksheet of the Chart](http://www.aspose.com/docs/display/cellsjava/Get+Worksheet+of+the+Chart) for more information.
+Please check the detailed article [Get Worksheet of the Chart](/cells/java/get-worksheet-of-the-chart/) for more information.
 
 {{% /alert %}} 
 

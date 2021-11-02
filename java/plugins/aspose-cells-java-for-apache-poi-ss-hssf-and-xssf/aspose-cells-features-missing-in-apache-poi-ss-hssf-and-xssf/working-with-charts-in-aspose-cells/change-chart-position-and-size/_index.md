@@ -46,6 +46,6 @@ chart.getChartObject().setY(150);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Change the Chart Position and Size](http://www.aspose.com/docs/display/cellsjava/Change+the+Chart+Position+and+Size).
+For more details, visit [Change the Chart Position and Size](/cells/java/change-chart-position-and-size/).
 
 {{% /alert %}}

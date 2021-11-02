@@ -16,7 +16,7 @@ Aspose.Cells for Java 8.8.2 has exposed the overloaded versions of the Cells.del
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Deleting Blank Rows & Columns with Updated References](http://www.aspose.com/docs/display/cellsjava/Update+references+in+other+worksheets+while+deleting+blank+columns+and+rows+in+a+worksheet).
+For more details on this feature, please review the detailed article on [Deleting Blank Rows & Columns with Updated References](/cells/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
 
 {{% /alert %}} 
 

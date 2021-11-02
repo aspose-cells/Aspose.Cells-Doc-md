@@ -96,6 +96,6 @@ Download source code for **Create Different Cell Types in Aspose.Cells and Apach
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Setting Display Formats of Numbers and Dates](http://www.aspose.com/docs/display/cellsjava/Setting+Display+Formats+of+Numbers+and+Dates).
+For more details, visit [Setting Display Formats of Numbers and Dates](/cells/java/data-formatting/).
 
 {{% /alert %}}

@@ -12,11 +12,11 @@ This document describes the changes to the Aspose.Cells API from version 8.7.0 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Added LookInType.ORIGINAL_VALUES Property**
-Aspose.Cells APIs already support the [Find or Search Data](http://www.aspose.com/docs/display/cellsjava/Find+or+Search+Data) feature for spreadsheets in order to find some particular piece of contents in cell value & formula. However, this feature was lacking the aspect of formatting applied onto the cell that may change the appearance as well as the value of the contents, consequently make the text unsearchable using the original value. With this release of Aspose.Cells APIs, another constant by the name LookInType.ORIGINAL_VALUES has been exposed to the public API which allows to overcome the situation as discussed above. 
+Aspose.Cells APIs already support the [Find or Search Data](/cells/java/find-or-search-data/) feature for spreadsheets in order to find some particular piece of contents in cell value & formula. However, this feature was lacking the aspect of formatting applied onto the cell that may change the appearance as well as the value of the contents, consequently make the text unsearchable using the original value. With this release of Aspose.Cells APIs, another constant by the name LookInType.ORIGINAL_VALUES has been exposed to the public API which allows to overcome the situation as discussed above. 
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Search Data Using Original Values](http://www.aspose.com/docs/display/cellsjava/Search+Data+using+Original+Values)
+For more details on this feature, please review the detailed article on [Search Data Using Original Values](https://docs.aspose.com/cells/java/search-data-using-original-values/)
 
 {{% /alert %}} 
 

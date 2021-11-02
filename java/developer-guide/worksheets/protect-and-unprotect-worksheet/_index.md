@@ -115,7 +115,7 @@ The following example shows how to protect a column in the worksheet. It unlocks
 
 ## **Unprotect a Worksheet**
 
-[Protecting Worksheets](/cells/java/protect-and-unprotect-worksheet/#protect-worksheets) and [Advanced Protection Settings since Excel XP](https://docs.aspose.com/cells/java/protect-and-unprotect-worksheet/#advanced-protection-settings-since-excel-xp) discussed different approaches of protecting worksheets. What if a developer needs to remove protection from a protected worksheet at runtime so that some changes can be made to the file? This can easily be done with Aspose.Cells.
+[Protecting Worksheets](/cells/java/protect-and-unprotect-worksheet/#protect-worksheets) and [Advanced Protection Settings since Excel XP](/cells/java/protect-and-unprotect-worksheet/#advanced-protection-settings-since-excel-xp) discussed different approaches of protecting worksheets. What if a developer needs to remove protection from a protected worksheet at runtime so that some changes can be made to the file? This can easily be done with Aspose.Cells.
 
 ### **Using Microsoft Excel**
 

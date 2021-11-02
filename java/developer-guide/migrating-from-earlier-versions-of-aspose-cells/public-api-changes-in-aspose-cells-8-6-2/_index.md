@@ -12,7 +12,7 @@ This document describes the changes to the Aspose.Cells API from version 8.6.1 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for Call Back with Smart Markers**
-This release of Aspose.Cells for Java API has exposed the WorkbookDesigner.CallBack field and ISmartMarkerCallBack interface that together allows to [get the notifications about the cell reference and/or smart marker being processed](http://www.aspose.com/docs/display/cellsjava/Getting+Notifications+while+Merging+Data+with+Smart+Markers). Following piece of code demonstrates the usage of ISmartMarkerCallBack interface to define a new class that handles the call back for WorkbookDesigner.process method. 
+This release of Aspose.Cells for Java API has exposed the WorkbookDesigner.CallBack field and ISmartMarkerCallBack interface that together allows to [get the notifications about the cell reference and/or smart marker being processed](/cells/java/getting-notifications-while-merging-data-with-smart-markers/). Following piece of code demonstrates the usage of ISmartMarkerCallBack interface to define a new class that handles the call back for WorkbookDesigner.process method. 
 
 **Java**
 
@@ -84,7 +84,7 @@ report.process(false);
 
 {{< /highlight >}}
 ### **Method Chart.toPdf Added**
-Aspose.Cells for Java 8.6.2 has exposed the Chart.toPdf method that can be used to [directly render the Chart shape to PDF format](http://www.aspose.com/docs/display/cellsjava/Converting+Chart+to+PDF). The said method currently accepts a parameter of of type String as file path location to store the resultant file on disk.
+Aspose.Cells for Java 8.6.2 has exposed the Chart.toPdf method that can be used to directly render the Chart shape to PDF format. The said method currently accepts a parameter of of type String as file path location to store the resultant file on disk.
 
 Following is the simple usage scenario.
 
@@ -110,7 +110,7 @@ chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
 ### **Method Workbook.removeUnusedStyles Added**
-Aspose.Cells for Java 8.6.2 has exposed the Workbook.removeUnusedStyles method that can be used to [remove all unused Style objects from the pool of styles](http://www.aspose.com/docs/display/cellsjava/Remove+Unused+Styles+inside+the+Workbook). 
+Aspose.Cells for Java 8.6.2 has exposed the Workbook.removeUnusedStyles method that can be used to [remove all unused Style objects from the pool of styles](/cells/java/remove-unused-styles-inside-the-workbook/). 
 
 Following is the simple usage scenario.
 

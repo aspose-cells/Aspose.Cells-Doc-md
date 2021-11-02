@@ -19,7 +19,7 @@ A designer spreadsheet is a simple Excel file created with Microsoft Excel appli
 
 {{% alert color="primary" %}} 
 
-Detailed information on Smart Markers is available [here](http://www.aspose.com/docs/display/cellsjava/Smart+Markers).
+Detailed information on Smart Markers is available [here](/cells/java/smart-markers/).
 
 {{% /alert %}} 
 

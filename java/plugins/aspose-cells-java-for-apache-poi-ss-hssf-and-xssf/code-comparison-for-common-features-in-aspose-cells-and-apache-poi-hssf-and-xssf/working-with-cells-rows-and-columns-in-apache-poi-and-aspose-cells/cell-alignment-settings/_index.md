@@ -136,6 +136,6 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Configuring Alignment Settings](http://www.aspose.com/docs/display/cellsjava/Configuring+Alignment+Settings).
+For more details, visit [Configuring Alignment Settings](/cells/java/data-formatting/).
 
 {{% /alert %}}

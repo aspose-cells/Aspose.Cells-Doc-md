@@ -12,7 +12,7 @@ This document describes the changes to the Aspose.Cells API from version 8.5.2 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for Metadata Manipulation Without Creating an Object of Workbook**
-This release of Aspose.Cells for Java API has exposed two new classes namely WorkbookMetadata & MetadataOptions along with a new enumeration MetadataType that now allows to manipulate the document properties (metadata) without creating an instance of Workbook. The WorkbookMetadata class is light weight and provides very easy to use, efficient mechanism to [read, write & update document properties without impacting the over all performance](http://www.aspose.com/docs/display/cellsjava/Using+WorkbookMetadata). 
+This release of Aspose.Cells for Java API has exposed two new classes namely WorkbookMetadata & MetadataOptions along with a new enumeration MetadataType that now allows to manipulate the document properties (metadata) without creating an instance of Workbook. The WorkbookMetadata class is light weight and provides very easy to use, efficient mechanism to [read, write & update document properties without impacting the over all performance](/cells/java/using-workbookmetadata/). 
 
 Following is the simple usage scenario.
 
@@ -36,7 +36,7 @@ metaWorkbook.save(filePath);
 
 {{< /highlight >}}
 ### **Property HtmlSaveOptions.ExportFrameScriptsAndProperties Added**
-Aspose.Cells for Java 8.6.0 has exposed the HtmlSaveOptions.ExportFrameScriptsAndProperties property that can be used to influence the creation of additional scripts while converting the spreadsheets to HTML format. With default settings, the Aspose.Cells APIs export the spreadsheet in HTML format as Excel application does the export, that is; the resultant HTML contains the frames and conditional comments, that detects the browser type & adjusts the layout accordingly. The default value of HtmlSaveOptions.ExportFrameScriptsAndProperties property is true, that means; the export is done as per Excel standards. If the property is set to false, the API will not [generate the scripts related to the frames and conditional comments](http://www.aspose.com/docs/display/cellsjava/Disable+exporting+frame+scripts+and+document+properties). In this case, the resultant HTML can be viewed correctly in any browser, however, it cannot be imported back using Aspose.Cells APIs.
+Aspose.Cells for Java 8.6.0 has exposed the HtmlSaveOptions.ExportFrameScriptsAndProperties property that can be used to influence the creation of additional scripts while converting the spreadsheets to HTML format. With default settings, the Aspose.Cells APIs export the spreadsheet in HTML format as Excel application does the export, that is; the resultant HTML contains the frames and conditional comments, that detects the browser type & adjusts the layout accordingly. The default value of HtmlSaveOptions.ExportFrameScriptsAndProperties property is true, that means; the export is done as per Excel standards. If the property is set to false, the API will not [generate the scripts related to the frames and conditional comments](/cells/java/disable-exporting-frame-scripts-and-document-properties/). In this case, the resultant HTML can be viewed correctly in any browser, however, it cannot be imported back using Aspose.Cells APIs.
 
 Following is the simple usage scenario.
 
@@ -60,7 +60,7 @@ book.save("output.html", options)
 
 {{< /highlight >}}
 ### **Property Shape.MarcoName Added**
-Aspose.Cells for Java 8.6.0 has exposed the Shape.MarcoName property that can be used to [assign a VBA module to a form control](http://www.aspose.com/docs/display/cellsjava/Assign+Macro+Code+to+Form+Control) such a Button in order to provide the interaction. The property is of type string therefore it can accept the module name and assigns it to the control.
+Aspose.Cells for Java 8.6.0 has exposed the Shape.MarcoName property that can be used to [assign a VBA module to a form control](/cells/java/assign-macro-code-to-form-control/) such a Button in order to provide the interaction. The property is of type string therefore it can accept the module name and assigns it to the control.
 
 Following is the simple usage scenario.
 

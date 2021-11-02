@@ -42,8 +42,3 @@ workbook.save(dataDir + "AsposeDisplayTabs.xls");
 - [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)
 
-{{% alert color="primary" %}} 
-
-For more details, visit [Display or Hide Tabs](http://www.aspose.com/docs/display/cellsjava/Display+or+Hide+Tabs).
-
-{{% /alert %}}

@@ -51,6 +51,6 @@ chart.setHidePivotFieldButtons(false);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Create Pivot Tables and Pivot Charts](http://www.aspose.com/docs/display/cellsjava/Create+Pivot+Tables+and+Pivot+Charts).
+For more details, visit [Create Pivot Tables and Pivot Charts](/cells/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
