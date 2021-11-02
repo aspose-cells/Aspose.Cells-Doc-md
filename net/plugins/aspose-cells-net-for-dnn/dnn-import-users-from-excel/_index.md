@@ -50,8 +50,6 @@ After you have installed the Aspose .NET Cells Import Users from Excel for DNN m
 1. Navigate to the page where you want to add the Export module.
 1. Select **Modules** followed by **Add New Module** from the top ribbon. 
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Processing-Document-and-PDF-Exporter-for-DNN-Add-module-to-page.png)
-
 1. From the list, select ‘Aspose Import Users from Excel module for DNN’ and drag it into position.
 
 You have successfully added Aspose .NET Cells Import Users from Excel module for DNN module to your page. File Uploading Controls will be visible along with "Template File" link. You can download template file and format your contents as per template file. Once you upload your excel file it'll automatically process all the users and filter out existing users. You can select the users you want to import and press "Import Users" button.

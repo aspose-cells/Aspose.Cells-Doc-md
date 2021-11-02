@@ -7,7 +7,7 @@ url: /net/aspose-cells-for-net-5-3-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for .NET 5.3.3](http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-5.3.3/)
+This page contains release notes for [Aspose.Cells for .NET 5.3.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.3.3/)
 
 {{% /alert %}} 
 ### **We are happy to announce Aspose.Cells for .NET v5.3.3!**

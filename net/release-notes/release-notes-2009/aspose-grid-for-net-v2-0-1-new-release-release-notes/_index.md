@@ -7,7 +7,7 @@ url: /net/aspose-grid-for-net-v2-0-1-new-release-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Grid for .NET V2.0.1 New Release](http://www.aspose.com/downloads/cells/net/new-releases/aspose.grid-for-.net-v2.0.1-new-release/)
+This page contains release notes for [Aspose.Grid for .NET V2.0.1 New Release](https://downloads.aspose.com/cells/net/new-releases/aspose.grid-for-.net-v2.0.1-new-release/)
 
 {{% /alert %}} 
 

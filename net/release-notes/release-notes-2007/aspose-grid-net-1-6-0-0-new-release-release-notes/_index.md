@@ -7,7 +7,7 @@ url: /net/aspose-grid-net-1-6-0-0-new-release-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Grid .Net 1.6.0.0 New Release](http://www.aspose.com/downloads/cells/net/new-releases/aspose.grid-.net-1.6.0.0-new-release/)
+This page contains release notes for [Aspose.Grid .Net 1.6.0.0 New Release](https://downloads.aspose.com/cells/net/new-releases/aspose.grid-.net-1.6.0.0-new-release/)
 
 {{% /alert %}} 
 

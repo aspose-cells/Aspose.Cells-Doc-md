@@ -7,7 +7,7 @@ url: /net/aspose-cells-for-net-v4-4-2-hotfix-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for .Net v4.4.2 Hotfix](http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-v4.4.2-hotfix/)
+This page contains release notes for [Aspose.Cells for .Net v4.4.2 Hotfix](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-v4.4.2-hotfix/)
 
 {{% /alert %}} 
 

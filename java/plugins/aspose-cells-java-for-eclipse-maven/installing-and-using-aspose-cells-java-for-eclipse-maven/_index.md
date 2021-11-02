@@ -33,7 +33,7 @@ To create **Maven Project** by wizard for using [Aspose.Cells for Java API](htt
 
 ![todo:image_alt_text](project_3.png)
 
-1. This will retrieve the [Aspose.Cells for Java](https://products.aspose.com/cells/java) latest [Maven Dependency](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) reference from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Cells for Java API Examples Repository.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+1. This will retrieve the [Aspose.Cells for Java](https://products.aspose.com/cells/java/) latest [Maven Dependency](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) reference from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Cells for Java API Examples Repository.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 1. Following **Maven** Project will be created on your **Eclipse IDE** on completion of the wizard:  
 
 ![todo:image_alt_text](project_4.png)

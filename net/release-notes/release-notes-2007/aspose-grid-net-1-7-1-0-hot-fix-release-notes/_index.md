@@ -7,7 +7,7 @@ url: /net/aspose-grid-net-1-7-1-0-hot-fix-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Grid .Net 1.7.1.0 Hot Fix](http://www.aspose.com/downloads/cells/net/new-releases/aspose.grid-.net-1.7.1.0-hot-fix/)
+This page contains release notes for [Aspose.Grid .Net 1.7.1.0 Hot Fix](https://downloads.aspose.com/cells/net/new-releases/aspose.grid-.net-1.7.1.0-hot-fix/)
 
 {{% /alert %}} 
 

@@ -56,8 +56,8 @@ HTML5 Spreadsheet Editor uses many features of [Aspose.Cells for Java](https://p
 
 - CDI supported Java application server
 - [Aspose.Cells for Java](https://products.aspose.com/cells/java/)
-- [JavaServer Faces 2.0](http://javaserverfaces.java.net/)
-- [Primefaces 5.1](http://www.primefaces.org/)
+- [JavaServer Faces 2.0](https://javaee.github.io/javaserverfaces-spec/)
+- [Primefaces 5.1](https://www.primefaces.org/)
 
 **Hardware Requirements**
 
@@ -67,14 +67,14 @@ The hardware requirements vary based upon the Java application server we choose 
 - 2 GB RAM
 - 500 MB Disk
 ### **Download and Installation**
-HTML5 Spreadsheet Editor is a Java EE application and can be deployed to any Java application server web profile with CDI support. It has been tested with [Glassfish](https://glassfish.java.net/).
+HTML5 Spreadsheet Editor is a Java EE application and can be deployed to any Java application server web profile with CDI support. It has been tested with [Glassfish](https://javaee.github.io/glassfish/).
 
 **Source Code**
 
 The project source is available at [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/). We are also maintaining Git mirrors at the following sites:
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [Google Code](https://code.google.com/p/html5-spreadsheet-editor/)
+- [Google Code](https://code.google.com/archive/p/html5-spreadsheet-editor/)
 - [Codeplex](http://html5spreadsheeteditor.codeplex.com/)
 - [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
@@ -132,7 +132,7 @@ The project build process is managed using Maven. So you can prepare a WAR file 
 
 **Using NetBeans**
 
-It is very easy to manage the project using [NetBeans IDE](https://netbeans.org/). NetBeans is one the popular IDEs among Java developers and is sponsored by Oracle.
+It is very easy to manage the project using [NetBeans IDE](https://netbeans.apache.org/). NetBeans is one the popular IDEs among Java developers and is sponsored by Oracle.
 
 - Download the project source code.
 - Open the project in NetBeans IDE.
@@ -168,11 +168,11 @@ You can ask all kind of question related to HTML5 Spreadsheet Editor using [Gith
 
 **Aspose.Cells for Java Forums**
 
-Aspose product forums provide full support for both trial and paid customers. Experts are sitting 24/7 to provide help and answer queries. Visit [product forums here](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx).
+Aspose product forums provide full support for both trial and paid customers. Experts are sitting 24/7 to provide help and answer queries. Visit [product forums here](https://forum.aspose.com/c/cells/9).
 
 **Aspose Blogs**
 
-Get in touch with us and stay up-to-date with latest news about our products and offers. Subscribe to [our blog here](http://www.aspose.com/blogs/).
+Get in touch with us and stay up-to-date with latest news about our products and offers. Subscribe to [our blog here](http://blog.aspose.com).
 ### **Contribute**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
@@ -192,14 +192,14 @@ The project source is available at [Github](https://github.com/AsposeShowcase/Ht
 
 **Pull Requests**
 
-To contribute source code to the project just send a pull request via Github. Read more information in Github’s article on [Create a pull request](https://help.github.com/articles/creating-a-pull-request/).
+To contribute source code to the project just send a pull request via Github. Read more information in Github’s article on [Create a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 ### **License**
 **MIT License**
 
-We are using one of the most liberal open source licenses for minimum liabilities on contributors. HTML5 Spreadsheet Editor is released under [MIT License](http://www.opensource.org/licenses/mit-license.php).
+We are using one of the most liberal open source licenses for minimum liabilities on contributors. HTML5 Spreadsheet Editor is released under [MIT License](https://opensource.org/licenses/mit-license.php).
 
 **Aspose License**
 
-The product works without Aspose license, [with limitations](/cells/java/licensing/). To remove limitations, you can acquire a [free temporary license](http://www.aspose.com/corporate/purchase/temporary-license.aspx) or [buy full license](https://purchase.aspose.com/buy).
+The product works without Aspose license, [with limitations](/cells/java/licensing/). To remove limitations, you can acquire a [free temporary license](https://purchase.aspose.com/temporary-license) or [buy full license](https://purchase.aspose.com/buy).
 
 By default, the editor will try to load **Aspose.Total.Java.lic** file from **src/main/resources/com/aspose/spreadsheeteditor** directory. Just copy the license file to this directory. The default behavior can be changed by editing the **AsposeLicense** class.

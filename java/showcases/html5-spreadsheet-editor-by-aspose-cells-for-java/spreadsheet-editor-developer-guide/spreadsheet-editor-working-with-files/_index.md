@@ -51,7 +51,7 @@ The file will be opened in the editor.
 
 **File upload**
 
-The user select a file from local computer which is uploaded from web browser to server and received by [PrimeFaces fileUpload](http://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) component.
+The user select a file from local computer which is uploaded from web browser to server and received by [PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) component.
 
 {{< highlight java >}}
 

@@ -53,8 +53,6 @@ After you have installed the Aspose .NET Cells Export Users and Roles for DNN mo
 1. Navigate to the page where you want to add the Export module.
 1. Select **Modules** followed by **Add New Module** from the top ribbon. 
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Processing-Document-and-PDF-Exporter-for-DNN-Add-module-to-page.png)
-
 1. From the list, select ‘Aspose Export Users and Roles to Excel’ and drag it into position.
 
 You have successfully added Aspose .NET Export Users and Roles to Excel for DNN module to your page. All the dnn users will be visible in grid and you can choose users to export and click on "Export" button after selecting the desired output format from the dropdown. Desired file will be downloaded automatically.

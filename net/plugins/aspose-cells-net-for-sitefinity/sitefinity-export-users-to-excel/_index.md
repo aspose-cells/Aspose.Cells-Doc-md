@@ -24,7 +24,6 @@ url: /net/sitefinity-export-users-to-excel/
 ## **Introduction**
 Aspose .NET Export Users to Excel for SiteFinity Module allows developers to export SiteFinity Users into Microsoft Excel or OpenOffice Spreadsheet. This module demonstrates the powerful spreadsheet building feature provided by Aspose.Cells.
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/11/Screenshot-2015-11-20-13.12.00-1024x309.png)
 ## **System Requirements and Supported Platforms**
 ### **System Requirements**
 In order to setup Aspose.Cells .NET for Sitefinity add-ons you need to have the following requirements met:

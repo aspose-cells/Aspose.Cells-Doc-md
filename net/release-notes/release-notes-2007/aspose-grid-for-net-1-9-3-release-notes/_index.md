@@ -7,7 +7,7 @@ url: /net/aspose-grid-for-net-1-9-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Grid for .Net 1.9.3](http://www.aspose.com/downloads/cells/net/new-releases/aspose.grid-for-.net-1.9.3/)
+This page contains release notes for [Aspose.Grid for .Net 1.9.3](https://downloads.aspose.com/cells/net/new-releases/aspose.grid-for-.net-1.9.3/)
 
 {{% /alert %}} 
 
