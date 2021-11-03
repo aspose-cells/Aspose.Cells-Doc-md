@@ -27,7 +27,7 @@ Here is simple usage scenario of Shape.Reflection property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Working with Reflection Effects](http://www.aspose.com/docs/display/cellsnet/Working+with+the+Reflection+Effect+of+Shape+or+Chart)
+Check the detailed article on [Working with Reflection Effects](/cells/net/working-with-the-reflection-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
@@ -85,7 +85,7 @@ Here is simple usage scenario of aforementioned property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Working with Shadow Effects](http://www.aspose.com/docs/display/cellsnet/Working+with+the+Shadow+Effect+of+Shape+or+Chart)
+Check the detailed article on [Working with Shadow Effects](/cells/net/working-with-the-shadow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
@@ -140,7 +140,7 @@ Here is simple usage scenario of Shape.Glow property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Working with Glow Effect](http://www.aspose.com/docs/display/cellsnet/Working+with+the+Glow+Effect+of+Shape+or+Chart)
+Check the detailed article on [Working with Glow Effect](/cells/net/working-with-the-glow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
@@ -207,7 +207,7 @@ Following is the simple usage scenario of Shape.ThreeDFormat property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Working with 3D Formatting](http://www.aspose.com/docs/display/cellsnet/Working+with+the+ThreeDFormat+of+Shape+or+Chart)
+Check the detailed article on [Working with 3D Formatting](/cells/net/working-with-the-threedformat-of-shape-or-chart/)
 
 {{% /alert %}} 
 
@@ -253,7 +253,7 @@ Here is simple usage scenario of aforementioned methods.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Working with WordArt Styles](http://www.aspose.com/docs/display/cellsnet/Set+preset+WordArt+style+to+the+text+of+the+shape)
+Check the detailed article on [Working with WordArt Styles](/cells/net/set-preset-wordart-style-to-the-text-of-the-shape/)
 
 {{% /alert %}} 
 
@@ -293,7 +293,7 @@ Here is simple usage scenario of ShapeCollection.AddWordArt method.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Add WordArt with Built-in Styles](http://www.aspose.com/docs/display/cellsnet/Add+Word+Art+Text+with+Built-in+Styles)
+Check the detailed article on [Add WordArt with Built-in Styles](/cells/net/add-word-art-text-with-built-in-styles/)
 
 {{% /alert %}} 
 
@@ -337,7 +337,7 @@ Aspose.Cells has exposed the XmlMapCollection.Add method that allows to add Xml 
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Add XML Map to Spreadsheet](http://www.aspose.com/docs/display/cellsnet/Add+XML+Map+inside+the+Workbook+using+XmlMapCollection.Add+method)
+Check the detailed article on [Add XML Map to Spreadsheet](/cells/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
 
 {{% /alert %}} 
 
@@ -363,7 +363,7 @@ Here is simple usage scenario of Cells.LinkToXmlMap method.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Link Cells to XML Map Elements](http://www.aspose.com/docs/display/cellsnet/Link+Cells+to+Xml+Map+Elements)
+Check the detailed article on [Link Cells to XML Map Elements](/cells/net/link-cells-to-xml-map-elements/)
 
 {{% /alert %}} 
 
@@ -411,7 +411,7 @@ Here is simple usage scenario of ListColumn.Formula property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Automatically Propagate Formula in List Object](http://www.aspose.com/docs/display/cellsnet/Propagate+Formula+in+Table+or+List+Object+automatically+while+entering+data+in+new+rows)
+Check the detailed article on [Automatically Propagate Formula in List Object](/cells/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
 
 {{% /alert %}} 
 
@@ -459,7 +459,7 @@ Here is simple usage scenario of aforementioned APIs.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Calculating Custom Functions with GridWeb](http://www.aspose.com/docs/display/cellsnet/Calculate+Custom+Functions+in+GridWeb)
+Check the detailed article on [Calculating Custom Functions with GridWeb](/cells/net/calculate-custom-functions-in-gridweb/)
 
 {{% /alert %}} 
 

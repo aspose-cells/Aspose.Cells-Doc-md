@@ -15,7 +15,7 @@ Data validation is one of the features that spreadsheet designers use to stop us
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Get Validation Applied on a Cell](http://www.aspose.com/docs/display/cellsnet/Get+Validation+applied+on+a+Cell) for more information.
+Please check the detailed article on [Get Validation Applied on a Cell](/cells/net/get-validation-applied-on-a-cell/) for more information.
 
 {{% /alert %}}
 ## **Added GetValidationValue() method for Cell class**
@@ -23,7 +23,7 @@ In addition to determining whether validation has been applied, you can also ver
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [Verify that Cell Value Satisfies Data Validation Rules](http://www.aspose.com/docs/display/cellsnet/Verify+that+Cell+Value+satisfies+Data+Validation+Rules).
+Please check the detailed article on [Verify that Cell Value Satisfies Data Validation Rules](/cells/net/verify-that-cell-value-satisfies-data-validation-rules/).
 
 {{% /alert %}}
 ## **Added overload ToPrinter(PrinterSettings printerSettings) method for WorkbookRender class**

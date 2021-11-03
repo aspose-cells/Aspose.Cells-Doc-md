@@ -40,6 +40,6 @@ On the other hand, if the requirement is to get number of filtered rows after th
 
 {{% alert color="primary" %}} 
 
-Check introduction to all [Working with GridWeb Events](http://www.aspose.com/docs/display/cellsnet/Working+with+GridWeb+Events) along with some details on how to handle these event.
+Check introduction to all [Working with GridWeb Events](/cells/net/working-with-gridweb-events/) along with some details on how to handle these event.
 
 {{% /alert %}}

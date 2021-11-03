@@ -11,7 +11,7 @@ A unique feature of Aspose.Cells Grid Suite is its compatibility with Excel file
 
 {{% /alert %}} 
 ## **Introduction**
-To open an Excel file using Aspose.Cells.GridDesktop you have to create a desktop application with GridDesktop Control in it. If you don't know about how to add Aspose.Cells.GridDesktop control to your windows form then you should refer to [How to use Aspose.Cells.GridDesktop](http://www.aspose.com/docs/display/cellsnet/How+to+Use+Aspose.Cells.GridDesktop)
+To open an Excel file using Aspose.Cells.GridDesktop you have to create a desktop application with GridDesktop Control in it. If you don't know about how to add Aspose.Cells.GridDesktop control to your windows form then you should refer to [How to use Aspose.Cells.GridDesktop](/cells/net/how-to-use-aspose-cells-griddesktop/)
 
 Aspose.Cells.GridDesktop provides three following different ways to open an Excel file.
 

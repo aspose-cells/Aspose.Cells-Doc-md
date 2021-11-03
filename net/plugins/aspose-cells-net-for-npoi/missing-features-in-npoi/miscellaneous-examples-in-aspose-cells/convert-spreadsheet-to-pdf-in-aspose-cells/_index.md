@@ -24,9 +24,3 @@ Download **Convert Spreadsheet to PDF** form any of the below mentioned social c
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1482189)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [Converting Excel to PDF Files](http://www.aspose.com/docs/display/cellsnet/Converting+Excel+to+PDF+Files).
-
-{{% /alert %}}

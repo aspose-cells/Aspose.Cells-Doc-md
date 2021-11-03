@@ -50,7 +50,6 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 - [Codeplex](https://asposenetcrm.codeplex.com/releases/view/616773)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Update-Import-1f94d3f9)
 ## **Installing or Uninstalling**
 It is a custom developed tool and doesn't require any installation or uninstall.
 You simply need to download the tool and extract it on your drive, and it is ready to use.
@@ -71,7 +70,7 @@ Add the following code in the form by providing the path to the license file:
 
 {{< /highlight >}}
 ## **Using**
-Easily configure and Use Aspose .NET Update Import Tool for Dynamics CRM by following the instructions [here](http://www.aspose.com/docs/display/cellsnet/Using+and+Configuring+CRM+Update+Import+Tool).
+Easily configure and Use Aspose .NET Update Import Tool for Dynamics CRM by following the instructions [here](/cells/net/using-and-configuring-crm-update-import-tool/).
 ## **Support**
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
@@ -79,7 +78,6 @@ You can log any issues or suggestions related to Aspose .Net Update Import Tool 
 
 - [Codeplex](https://asposenetcrm.codeplex.com/wikipage?title=Aspose%20.NET%20Update%20Import%20Tool)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Update-Import-1f94d3f9#content)
 ## **Extend and Contribute**
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
-Please find the latest Source Code and Code Example [here](http://www.aspose.com/docs/display/cellsnet/Extend+and+Contribute+to+CRM+Update+Import+Tool).
+Please find the latest Source Code and Code Example [here](/cells/net/extend-and-contribute-to-crm-update-import-tool/).

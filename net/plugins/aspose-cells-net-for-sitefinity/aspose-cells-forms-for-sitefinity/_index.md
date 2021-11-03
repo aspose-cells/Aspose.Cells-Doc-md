@@ -50,7 +50,6 @@ You can download Aspose .NET Content Exporter for Sitefinity module from one of 
 
 - [CodePlex](https://asposecellssitefinity.codeplex.com/releases/view/620241)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity/Aspose.SiteFinity.FormBuilder.ToExcel)
-- [Microsoft Developer Network](https://code.msdn.microsoft.com/Sitefinity-Dynamic-Forms-93656293)
 
 ### **Installing**
 
@@ -148,8 +147,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Cells .NET for Sitefinity Modules using any of the following platforms
 
 - [CodePlex](https://asposecellssitefinity.codeplex.com/workitem/list/basic)
-- [Github](https://github.com/asposecells/Aspose.Cells-for-.NET/issues)
-- [Microsoft Developer Network](https://code.msdn.microsoft.com/Sitefinity-Dynamic-Forms-93656293/view/Discussions#content)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 ### **Extend and Contribute**
 
@@ -158,8 +156,7 @@ You can log any issues or suggestions related to Aspose.Cells .NET for Sitefinit
 You can download the latest source code at:
 
 - [Codeplex](https://asposecellssitefinity.codeplex.com/SourceControl/latest)
-- [Github](https://github.com/asposecells/Aspose.Cells-for-.NET)
-- [Microsoft Developer Network](https://code.msdn.microsoft.com/Sitefinity-Dynamic-Forms-93656293)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET)
 
 #### **How to configure source code**
 

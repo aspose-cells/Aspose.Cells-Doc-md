@@ -8,7 +8,7 @@ url: /net/set-print-area/
 ## **Aspose.Cells - Set Print Area**
 By default, only the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
 
-To select a specific print area, use the [PageSetup](http://www.aspose.com/docs/display/cellsnet/Aspose.Cells.PageSetup+Class) class' PrintArea property. Assign a cell range that defines the print area to this property.
+To select a specific print area, use the [PageSetup](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' PrintArea property. Assign a cell range that defines the print area to this property.
 
 **C#**
 
@@ -132,6 +132,6 @@ Download **Set Print Area** form any of the below mentioned social coding sites:
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Setting Print Options](http://www.aspose.com/docs/display/cellsnet/Setting+Print+Options).
+For more details, visit [Setting Print Options](/cells/net/setting-print-options/).
 
 {{% /alert %}}

@@ -53,15 +53,14 @@ only .NET framework 2.0 or greater.
 ## **Downloading**
 You can download latest version for Aspose.Words for .NET from
 
-- [Aspose Downloads](http://www.aspose.com/community/files/default.aspx)
+- [Aspose Downloads](https://downloads.aspose.com/)
 
 You can download Aspose for VSTO from one of the following locations
 
 - [CodePlex ](https://asposevsto.codeplex.com/releases)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836)
 ## **Installing**
-To open the project you need to download and install the latest version of Aspose.Cells for .NET from [here](http://www.aspose.com/.net/excel-component.aspx) and include it in the project.
+To open the project you need to download and install the latest version of Aspose.Cells for .NET from [here](https://products.aspose.com/cells/net/) and include it in the project.
 ## **Support, Extend and Contribute**
 ### **Support**
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
@@ -73,7 +72,6 @@ You can log any issues or suggestions related to this control using any of the f
 - [CodePlex](https://asposecellsnet.codeplex.com/workitem/list/basic)
 - [CodePlex ](https://asposevsto.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836/view/Discussions#content)
 ### **Extend and Contribute**
 Comparison code for Aspose.Cells for .Net and VSTO source code is available on major social coding websites listed below.Developers are encouraged to download the source code to migrate from VSTO to Aspose.Cells as per their requirements.
 ### **Source Code**
@@ -82,7 +80,6 @@ You can get the latest source code from one of the following locations.
 - [CodePlex](https://asposecellsnet.codeplex.com/SourceControl/latest)
 - [CodePlex](https://asposevsto.codeplex.com/SourceControl/latest)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO)
-- [Code.MSDN](https://code.msdn.microsoft.com/Missing-features-in-VSTO-ac9ea836/view/SourceCode#content)
 ### **How to configure the source code**
 Please follow these simple steps to get started
 

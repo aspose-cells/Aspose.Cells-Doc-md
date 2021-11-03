@@ -29,7 +29,7 @@ Aspose.Cells for .NET 8.8.3 has exposed the AddActiveXControl method that allows
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Adding ActiveX Controls to Worksheet](http://www.aspose.com/docs/display/cellsnet/Add+ActiveX+Controls+using+Aspose.Cells).
+For more details on this feature, please review the detailed article on [Adding ActiveX Controls to Worksheet](/cells/net/add-activex-controls-using-aspose-cells/).
 
 {{% /alert %}} 
 
@@ -69,7 +69,7 @@ Aspose.Cells for .NET 8.8.3 allows to set the default print paper size from the 
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Load Spreadsheets with Specified Paper Size](http://www.aspose.com/docs/display/cellsnet/Load+Workbook+with+specified+Printer+Paper+Size).
+For more details on this feature, please review the detailed article on [Load Spreadsheets with Specified Paper Size](/cells/net/load-workbook-with-specified-printer-paper-size/).
 
 {{% /alert %}} 
 
@@ -131,7 +131,7 @@ Aspose.Cells for .NET 8.8.3 has exposed the OleObject.AutoLoad property which al
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Automatically Refresh OleObjects](http://www.aspose.com/docs/display/cellsnet/Automatically+refresh+OLE+object+via+Microsoft+Excel+using+Aspose.Cells).
+For more details on this feature, please review the detailed article on [Automatically Refresh OleObjects](/cells/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
 
 {{% /alert %}} 
 
@@ -169,7 +169,7 @@ Aspose.Cells for .NET 8.8.3 has exposed the HTMLLoadOptions.SupportDivTag proper
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Support Inner DIV Tags while Loading HTML](http://www.aspose.com/docs/display/cellsnet/Support+the+layout+of+DIV+tags+while+loading+html+to+excel+workbook).
+For more details on this feature, please review the detailed article on [Support Inner DIV Tags while Loading HTML](/cells/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
 
 {{% /alert %}} 
 
@@ -281,7 +281,7 @@ Aspose.Cells for .NET 8.8.3 has exposed the HtmlSaveOptions.ExportGridLines prop
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Render Grid Lines to HTML](http://www.aspose.com/docs/display/cellsnet/Export+Excel+to+HTML+with+GridLines).
+For more details on this feature, please review the detailed article on [Render Grid Lines to HTML](/cells/net/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 
@@ -315,7 +315,7 @@ Aspose.Cells APIs now allow to get and set the comments for an instance of ListO
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Adding Comments for ListObjects](http://www.aspose.com/docs/display/cellsnet/Set+the+Comment+of+Table+or+List+Object+inside+the+Worksheet).
+For more details on this feature, please review the detailed article on [Adding Comments for ListObjects](/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/).
 
 {{% /alert %}} 
 
@@ -353,7 +353,7 @@ Aspose.Cells.GridWeb for .NET 8.8.3 has exposed the SessionStorePath property wh
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Specify Path for Temporary Session Files](http://www.aspose.com/docs/display/cellsnet/Specify+the+path+where+GridWeb+stores+temporary+session+files).
+For more details on this feature, please review the detailed article on [Specify Path for Temporary Session Files](/cells/net/specify-the-path-where-gridweb-stores-temporary-session-files/).
 
 {{% /alert %}} 
 

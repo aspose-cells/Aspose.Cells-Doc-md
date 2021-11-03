@@ -46,7 +46,7 @@ for example the below code init a x_spreadsheet object.
 - showContextmenu:   means whether to show contextmenu on right click on a cell
 
 for detail info ,you can check the example here
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs></https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 
 

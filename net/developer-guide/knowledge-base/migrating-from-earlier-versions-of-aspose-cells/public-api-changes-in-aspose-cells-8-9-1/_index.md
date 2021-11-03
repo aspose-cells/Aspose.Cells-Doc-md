@@ -100,7 +100,7 @@ The Aspose.Cells for .NET has also provided means to gather information on what 
 
 {{% alert color="primary" %}} 
 
-For more details on FontConfigs, please review the article on [Configuring Fonts for Rendering Spreadsheets](http://www.aspose.com/docs/display/cellsnet/Configuring+Fonts+for+Rendering+Spreadsheets).
+For more details on FontConfigs, please review the article on [Configuring Fonts for Rendering Spreadsheets](/cells/net/configuring-fonts-for-rendering-spreadsheets/).
 
 {{% /alert %}} 
 ### **Added IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider property**
@@ -204,7 +204,7 @@ Here is how to implement the IFilePathProvider interface.
 
 {{% alert color="primary" %}} 
 
-For more details on this enhancement, please review the article on [Implementing IFilePathProvider Interface](http://www.aspose.com/docs/display/cellsnet/Provide+exported+worksheet+html+file+path+via+IFilePathProvider+interface).
+For more details on this enhancement, please review the article on [Implementing IFilePathProvider Interface](/cells/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
 
 {{% /alert %}} 
 ### **Added CopyOptions.ReferToDestinationSheet Property & Overload for Cells.CopyRows Method**
@@ -246,7 +246,7 @@ book.Save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Control the Data Source of Chart while Copying Rows](http://www.aspose.com/docs/display/cellsnet/Change+Data+Source+of+the+Chart+to+Destination+Worksheet+while+Copying+Rows+or+Range).
+For more details on this feature, please review the article on [Control the Data Source of Chart while Copying Rows](/cells/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
 
 {{% /alert %}} 
 ### **Added CalculationOptions.Recursive Property**
@@ -276,7 +276,7 @@ book.CalculateFormula(options);
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Optimize Calculation Time](http://www.aspose.com/docs/display/cellsnet/Decrease+the+Calculation+Time+of+Cell.Calculate%28%29+method).
+For more details on this feature, please review the article on [Optimize Calculation Time](/cells/net/decrease-the-calculation-time-of-cell-calculate-method/).
 
 {{% /alert %}}
 ## **Obsoleted APIs**

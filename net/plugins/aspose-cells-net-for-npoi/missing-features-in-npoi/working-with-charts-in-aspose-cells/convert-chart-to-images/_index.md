@@ -72,6 +72,6 @@ Download **Convert Chart to Images** form any of the below mentioned social codi
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Converting Chart to Image](http://www.aspose.com/docs/display/cellsnet/Converting+Chart+to+Image).
+For more details, visit [Converting Chart to Image](/cells/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}

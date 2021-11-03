@@ -11,7 +11,7 @@ Aspose.Cells supports most of the formulas or functions that are the part of Mic
 
 Use the Cell class' Formula property to add a formula to a cell. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel. Use a comma (,) to delimit function parameters.
 
-To calclulate the results of the formulas, call the Excel class' CalculateFormula method which processes all the formulas embedded in an Excel file. Read the [url:list of functions supported by the CalculateFormula method](http://www.aspose.com/docs/display/cellsnet/Supported+Formula+Functions).
+To calclulate the results of the formulas, call the Excel class' CalculateFormula method which processes all the formulas embedded in an Excel file. Read the [url:list of functions supported by the CalculateFormula method](/cells/net/supported-formula-functions/).
 
 {{< highlight csharp >}}
 
@@ -143,4 +143,4 @@ workbook.Save("Calulate Any Formulae.xls");
 ## **Download Sample Code**
 - [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)* [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)

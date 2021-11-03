@@ -77,6 +77,6 @@ Download **Create Charts** form any of the below mentioned social coding sites:
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Create a Chart](http://www.aspose.com/docs/display/cellsnet/How+to+Create+a+Chart).
+For more details, visit [How to Create a Chart](/cells/net/create-charts/).
 
 {{% /alert %}}

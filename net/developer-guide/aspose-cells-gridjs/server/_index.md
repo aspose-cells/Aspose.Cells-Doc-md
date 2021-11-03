@@ -54,7 +54,7 @@ For local file storage ,here is an example:
     }
 ```
 For server side storage,we also provide an example.
-Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs></https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+Please check: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 ## 2. Get json from the spreadsheet file.
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();
@@ -90,4 +90,4 @@ wb.SaveToCacheWithFileName(uid, filename,password);
 ```
 
 For detail info ,you can check the example here:
-<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs></https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs>
+<https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

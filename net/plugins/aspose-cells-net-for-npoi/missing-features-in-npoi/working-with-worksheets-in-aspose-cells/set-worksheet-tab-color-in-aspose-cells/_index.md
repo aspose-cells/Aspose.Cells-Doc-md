@@ -42,6 +42,6 @@ Download **Set Worksheet Tab Color** form any of the below mentioned social codi
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Set Worksheet Tab Color](http://www.aspose.com/docs/display/cellsnet/Set+Worksheet+Tab+Color).
+For more details, visit [Set Worksheet Tab Color](/cells/net/set-worksheet-tab-color/).
 
 {{% /alert %}}

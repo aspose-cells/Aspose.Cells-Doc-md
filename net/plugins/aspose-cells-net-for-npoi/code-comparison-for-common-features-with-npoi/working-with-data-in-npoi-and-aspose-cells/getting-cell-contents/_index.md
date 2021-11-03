@@ -123,6 +123,6 @@ Download **Getting Cell Contents** form any of the below mentioned social coding
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Data Handling Features](http://www.aspose.com/docs/display/cellsnet/Data+Handling+Features).
+For more details, visit [Data Handling Features](/cells/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}

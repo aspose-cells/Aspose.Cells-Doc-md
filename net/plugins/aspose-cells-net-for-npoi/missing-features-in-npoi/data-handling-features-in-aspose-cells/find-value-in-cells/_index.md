@@ -47,6 +47,6 @@ Download **Find Value in Cells** form any of the below mentioned social coding s
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Find or Search Data](http://www.aspose.com/docs/display/cellsnet/Find+or+Search+Data).
+For more details, visit [Find or Search Data](/cells/net/find-or-search-data/).
 
 {{% /alert %}}

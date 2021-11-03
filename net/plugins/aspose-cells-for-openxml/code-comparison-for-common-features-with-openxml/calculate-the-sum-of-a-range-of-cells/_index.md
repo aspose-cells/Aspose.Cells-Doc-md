@@ -385,5 +385,5 @@ private static void CalculateSumOfCellRange(string docName, string worksheetName
 ## **Download Sample Code**
 - [CodePlex](https://asposeopenxml.codeplex.com/releases/view/616479)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](http://goo.gl/IvaspK)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip)

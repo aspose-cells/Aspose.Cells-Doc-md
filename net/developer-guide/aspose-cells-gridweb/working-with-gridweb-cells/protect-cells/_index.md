@@ -11,7 +11,7 @@ This topic describes a few techniques for protecting cells. Using these techniqu
 
 {{% /alert %}} 
 ## **Protecting Cells**
-Aspose.Cells.GridWeb provides a few different techniques for controlling the protection level on cells when the control is in [Edit mode](http://www.aspose.com/docs/display/cellsnet/Enable+Different+GridWeb+Modes#EnableDifferentGridWebModes-EditMode) (the default mode). This protects cells from being modified by end users.
+Aspose.Cells.GridWeb provides a few different techniques for controlling the protection level on cells when the control is in [Edit mode](/cells/net/enable-different-gridweb-modes/#edit-mode) (the default mode). This protects cells from being modified by end users.
 ### **Making All Cells Read Only**
 To set all cells in a worksheet to read only, call the worksheet's SetAllCellsReadonly method.
 

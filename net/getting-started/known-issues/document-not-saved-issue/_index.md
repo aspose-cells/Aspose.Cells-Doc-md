@@ -9,7 +9,6 @@ url: /net/document-not-saved-issue/
 I am having a strange problem with a spreadsheet I've created with your control. It opens and edits just fine in Excel, but when I try to perform a Save or Save As, I get a "Document Not Saved" msgbox.
 ### **Issue Summary**
 This is an Excel bug: 
-<http://support.microsoft.com/default.aspx?scid=kb;en-us;121942&Product=xlw97>
 
 "Document Not Saved" Saving File Created from Template
 

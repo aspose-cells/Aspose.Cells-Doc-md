@@ -36,7 +36,7 @@ cells.ImportData(table, 0, 0, importOptions);
 
 
 ### **Method Workbook.CreateBuiltinStyle Added**
-Aspose.Cells for .NET 8.6.3 has exposed the Workbook.CreateBuiltinStyle method that can be used to create an object of the Style class that corresponds to one of the [built-in styles offered by the Excel application](http://www.aspose.com/docs/display/cellsnet/Using+Built-in+Styles). The Workbook.CreateBuiltinStyle method accepts a constant from the enumeration BuiltinStyleType. Please note, with previous releases of the Aspose.Cells APIs, same task could be accomplished via StyleCollection.CreateBuiltinStyle method but as the recent releases of Aspose.Cells APIs have removed the StyleCollection class therefore the newly exposed Workbook.CreateBuiltinStyle method can be considered as an alternative approach to achieve the same.
+Aspose.Cells for .NET 8.6.3 has exposed the Workbook.CreateBuiltinStyle method that can be used to create an object of the Style class that corresponds to one of the [built-in styles offered by the Excel application](/cells/net/using-built-in-styles/). The Workbook.CreateBuiltinStyle method accepts a constant from the enumeration BuiltinStyleType. Please note, with previous releases of the Aspose.Cells APIs, same task could be accomplished via StyleCollection.CreateBuiltinStyle method but as the recent releases of Aspose.Cells APIs have removed the StyleCollection class therefore the newly exposed Workbook.CreateBuiltinStyle method can be considered as an alternative approach to achieve the same.
 
 Following is the simple usage scenario.
 
@@ -128,7 +128,7 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 
 
 ### **Property LoadDataOption.OnlyVisibleWorksheet Added**
-Aspose.Cells for .NET 8.6.3 has exposed the LoadDataOption.OnlyVisibleWorksheet property which upon setting to true will influence the loading mechanism of Aspose.Cells for .NET API, as a result only visible worksheets from a given spreadsheet will be loaded. Please check the [detailed article](http://www.aspose.com/docs/display/cellsnet/Load+Visible+Sheets+Only) on this subject.
+Aspose.Cells for .NET 8.6.3 has exposed the LoadDataOption.OnlyVisibleWorksheet property which upon setting to true will influence the loading mechanism of Aspose.Cells for .NET API, as a result only visible worksheets from a given spreadsheet will be loaded. Please check the [detailed article](/cells/net/different-ways-to-open-files/) on this subject.
 
 Following is the simple usage scenario.
 

@@ -56,7 +56,7 @@ Here is simple usage scenario of aforementioned properties.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Loading Spreadsheet with Specific CultureInfo](http://www.aspose.com/docs/display/cellsnet/Load+the+Workbook+with+specific+System+Culture+Info)
+Check the detailed article on [Loading Spreadsheet with Specific CultureInfo](/cells/net/load-the-workbook-with-specific-system-culture-info/)
 
 {{% /alert %}} 
 
@@ -94,7 +94,7 @@ Here is simple usage scenario of Shape.Line property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Finding a DataPoint resides on the Second Plot](http://www.aspose.com/docs/display/cellsnet/Find+if+Data+Points+are+in+the+Second+Pie+or+Bar+on+a+Pie+of+Pie+or+Bar+of+Pie+Chart)
+Check the detailed article on [Finding a DataPoint resides on the Second Plot](/cells/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 
 {{% /alert %}} 
 
@@ -144,7 +144,7 @@ Following is the simple usage scenario of OleObject.ClassIdentifier property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Using OleObject.ClassIdentifier](http://www.aspose.com/docs/display/cellsnet/Get+or+Set+the+Class+Identifier+of+the+Embedded+OLE+Object)
+Check the detailed article on [Using OleObject.ClassIdentifier](/cells/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 
 {{% /alert %}} 
 

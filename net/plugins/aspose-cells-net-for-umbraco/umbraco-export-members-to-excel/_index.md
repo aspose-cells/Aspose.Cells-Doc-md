@@ -91,7 +91,6 @@ You can log any issues or suggestions related to Aspose.Words .NET for Umbraco M
 
 - [CodePlex ](https://asposeumbraco.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Umbraco-Export-Members-to-a91ae1e2/view/Discussions#content)
 
 ### **Extend and Contribute**
 
@@ -103,7 +102,6 @@ You can get the latest source code from one of the following locations
 
 - [CodePlex ](https://asposeumbraco.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
-- [Code.MSDN](https://code.msdn.microsoft.com/Umbraco-Export-Members-to-a91ae1e2)
 
 #### **How to configure the source code**
 

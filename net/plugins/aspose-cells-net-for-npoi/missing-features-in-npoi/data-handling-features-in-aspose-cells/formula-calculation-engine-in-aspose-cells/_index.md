@@ -67,6 +67,6 @@ Download **Formula Calculation Engine** form any of the below mentioned social c
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Formula Calculation Engine](http://www.aspose.com/docs/display/cellsnet/Formula+Calculation+Engine).
+For more details, visit [Formula Calculation Engine](/cells/net/formula-calculation-engine/).
 
 {{% /alert %}}

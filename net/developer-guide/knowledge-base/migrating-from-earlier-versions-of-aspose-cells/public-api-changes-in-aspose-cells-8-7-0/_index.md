@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 8.6.3 t
 ### **Support for VBA Project Digital Signing, Detection & Extraction**
 This release of Aspose.Cells for .NET has exposed some new properties and methods to aid the users in tasks such as digitally signing a VBA project, detecting if a VBA project is signed & valid. Moreover, the new API allows to extract the certificate as raw data from digitally signed VBA project in Workbook.
 ###### **Digitally Sign VBA Project**
-Aspose.Cells for .NET 8.7.0 has exposed the VbaProject.Sign method that can be used to [digitally sign the VBA project in a Workbook](http://www.aspose.com/docs/display/cellsnet/Digitally+Sign+a+VBA+Code+Project+with+Certificate). The said method accepts an instance of DigitalSignature class which resides in the Aspose.Cells.DigitalSignatures namespace.
+Aspose.Cells for .NET 8.7.0 has exposed the VbaProject.Sign method that can be used to [digitally sign the VBA project in a Workbook](/cells/net/digitally-sign-a-vba-code-project-with-certificate/). The said method accepts an instance of DigitalSignature class which resides in the Aspose.Cells.DigitalSignatures namespace.
 
 Following is the simple usage scenario.
 
@@ -40,7 +40,7 @@ vbaProject.Sign(new DigitalSignature(new System.Security.Cryptography.X509Certif
 
 
 ###### **Detection of Digitally Signed VBA Project**
-Newly exposed VbaProject.IsSigned property can be used to in [detect if the VBA project in a Workbook is digitally signed](http://www.aspose.com/docs/display/cellsnet/Check+if+VBA+Code+is+Signed). The VbaProject.IsSigned property is of type Boolean, which returns true if the VBA project is digitally signed and vice versa.
+Newly exposed VbaProject.IsSigned property can be used to in [detect if the VBA project in a Workbook is digitally signed](/cells/net/check-if-vba-code-is-signed/). The VbaProject.IsSigned property is of type Boolean, which returns true if the VBA project is digitally signed and vice versa.
 
 Following is the simple usage scenario.
 
@@ -78,7 +78,7 @@ else
 
 
 ###### **Extraction of Digital Signature from VBA Project**
-This revision of the API has also exposed the VbaProject.CertRawData property which allows to [extract the digital certificate's raw data from the VBA project](http://www.aspose.com/docs/display/cellsnet/Export+VBA+Certifcate+to+File+or+Stream). The VbaProject.CertRawData property is of type byte array, which will contain the raw certificate data if VBA project is digitally signed, otherwise the said property will be null.
+This revision of the API has also exposed the VbaProject.CertRawData property which allows to [extract the digital certificate's raw data from the VBA project](/cells/net/export-vba-certificate-to-file-or-stream/). The VbaProject.CertRawData property is of type byte array, which will contain the raw certificate data if VBA project is digitally signed, otherwise the said property will be null.
 
 Following is the simple usage scenario.
 
@@ -102,7 +102,7 @@ var cert = vbaProject.CertRawData;
 
 
 ###### **Validate the Digital Signature of VBA Project**
-Another addition to the public API is the VbaProject.IsValidSigned property which could be useful in [validating the digital signature of the VBA project](http://www.aspose.com/docs/display/cellsnet/Check+if+Digital+Signature+of+VBA+Code+is+Valid). The said property returns true if the digital signature is valid and false if the signature is invalid.
+Another addition to the public API is the VbaProject.IsValidSigned property which could be useful in [validating the digital signature of the VBA project](/cells/net/check-if-digital-signature-of-vba-code-is-valid/ The said property returns true if the digital signature is valid and false if the signature is invalid.
 
 Following is the simple usage scenario.
 
@@ -140,7 +140,7 @@ if (vbaProject.IsSigned)
 
 
 ### **Method Protection.VerifyPassword Added**
-Aspose.Cells for .NET 8.7.0 has exposed the Protection.VerifyPassword method that can be used to [verify the password used to protect the Worksheet](http://www.aspose.com/docs/display/cellsnet/Verify+Password+Used+to+Protect+the+Worksheet). This method accepts an instance of string as parameter and returns true if specified password matches with the password used to protect the Worksheet.
+Aspose.Cells for .NET 8.7.0 has exposed the Protection.VerifyPassword method that can be used to [verify the password used to protect the Worksheet](/cells/net/verify-password-used-to-protect-the-worksheet/). This method accepts an instance of string as parameter and returns true if specified password matches with the password used to protect the Worksheet.
 
 Following is the simple usage scenario.
 
@@ -182,7 +182,7 @@ else
 
 
 ### **Property Protection.IsProtectedWithPassword Added**
-This release of Aspose.Cells for .NET API has also exposed the Protection.IsProtectedWithPassword property that can be useful in [detecting if a Worksheet is password protected or not](http://www.aspose.com/docs/display/cellsnet/Detect+if+Worksheet+is+Password+Protected).
+This release of Aspose.Cells for .NET API has also exposed the Protection.IsProtectedWithPassword property that can be useful in [detecting if a Worksheet is password protected or not](/cells/net/detect-if-worksheet-is-password-protected/).
 
 Following is the simple usage scenario.
 
@@ -224,7 +224,7 @@ else
 
 
 ### **Property ColorScale.Is3ColorScale Added**
-Aspose.Cells for .NET 8.7.0 has exposed the ColorScale.Is3ColorScale property that can be used to create 2-Color Scale conditional format. The said property is of type Boolean with default value of true which means that the conditional format will be of 3-Color Scale by default. However, switching the ColorScale.Is3ColorScale property to false will [generate a 2-Color Scale conditional format](http://www.aspose.com/docs/display/cellsnet/Adding+2-Color+Scale+and+3-Color+Scale+Conditional+Formattings).
+Aspose.Cells for .NET 8.7.0 has exposed the ColorScale.Is3ColorScale property that can be used to create 2-Color Scale conditional format. The said property is of type Boolean with default value of true which means that the conditional format will be of 3-Color Scale by default. However, switching the ColorScale.Is3ColorScale property to false will [generate a 2-Color Scale conditional format](/cells/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
 
 Following is the simple usage scenario.
 
@@ -276,7 +276,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **Property TxtLoadOptions.HasFormula Added**
-Aspose.Cells for .NET 8.7.0 has provided support to [identify & parse the formulas while loading CSV/TXT files having delimited plain data](http://www.aspose.com/docs/display/cellsnet/Load+or+Import+CSV+file+with+Formulas). Newly exposed TxtLoadOptions.HasFormula property when set to true directs the API to parse the formulas from the input delimited file and set them to relevant cells without requiring any additional processing.
+Aspose.Cells for .NET 8.7.0 has provided support to [identify & parse the formulas while loading CSV/TXT files having delimited plain data](/cells/net/load-or-import-csv-file-with-formulas/). Newly exposed TxtLoadOptions.HasFormula property when set to true directs the API to parse the formulas from the input delimited file and set them to relevant cells without requiring any additional processing.
 
 Following is the simple usage scenario.
 
@@ -312,7 +312,7 @@ book.Save(outFilePath);
 
 
 ### **Property DataLabels.IsResizeShapeToFitText Added**
-Another useful feature that Aspose.Cells for .NET 8.7.0 has exposed is the DataLabels.IsResizeShapeToFitText property that can enable the [Resize shape to fit text](http://www.aspose.com/docs/display/cellsnet/Resize+Chart%27s+Data+Label+Shape+To+Fit+Text) feature of Excel application for chart's data labels.
+Another useful feature that Aspose.Cells for .NET 8.7.0 has exposed is the DataLabels.IsResizeShapeToFitText property that can enable the [Resize shape to fit text](/cells/net/resize-chart-s-data-label-shape-to-fit-text/) feature of Excel application for chart's data labels.
 
 Following is the simple usage scenario.
 
@@ -348,7 +348,7 @@ chart.Calculate();
 
 
 ### **Property PdfSaveOptions.OptimizationType Added**
-Aspose.Cells for .NET 8.7.0 has exposed the PdfSaveOptions.OptimizationType property along with PdfOptimizationType enumeration in order to facilitate the users to [choose the desired optimization algorithm while exporting spreadsheets to PDF format](http://www.aspose.com/docs/display/cellsnet/Save+Excel+into+PDF+with+Standard+or+Minimum+Size). There are 2 possible values for the PdfSaveOptions.OptimizationType property as detailed below.
+Aspose.Cells for .NET 8.7.0 has exposed the PdfSaveOptions.OptimizationType property along with PdfOptimizationType enumeration in order to facilitate the users to [choose the desired optimization algorithm while exporting spreadsheets to PDF format](/cells/net/save-excel-into-pdf-with-standard-or-minimum-size/). There are 2 possible values for the PdfSaveOptions.OptimizationType property as detailed below.
 
 1. PdfOptimizationType.MinimumSize: Quality is compromised for the resultant file size.
 1. PdfOptimizationType.Standard: Quality isn't compromised so the resultant file size will be large.

@@ -26,7 +26,7 @@ If uncheck **"Smooth line art"** and **"Enhance thin lines"**, the thickness of 
 - Select **Preferences**
 - In the **Page Display** Category Uncheck the **"Smooth line art"** and **"Enhance thin lines"**
 ## **How to Fix the System.OutOfMemoryException while Loading Large Spreadsheets?**
-There are fair chances that the Workbook constructor may throw System.OutOfMemoryException while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory therefore the spreadsheet has to be loaded while enabling the [Memory Preferences](http://www.aspose.com/docs/display/cellsnet/Optimizing+Memory+Usage+while+Working+with+Big+Files+having+Large+Datasets).
+There are fair chances that the Workbook constructor may throw System.OutOfMemoryException while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory therefore the spreadsheet has to be loaded while enabling the [Memory Preferences](/cells/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
 
 Aspose.Cells APIs provide Memory Preferences to optimize the memory consumption while loading & processing spreadsheets. These options are also helpful in efficiently loading the large spreadsheets containing huge data sets in Workbook object as demonstrated below.
 

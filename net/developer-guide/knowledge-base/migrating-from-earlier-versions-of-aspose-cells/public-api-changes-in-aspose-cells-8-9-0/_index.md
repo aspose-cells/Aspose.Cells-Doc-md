@@ -16,7 +16,7 @@ Aspose.Cells for .NET 8.9.0 has exposed the DefaultFontName property for the Htm
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Setting Default Font for Rendering Spreadsheets to HTML Format](http://www.aspose.com/docs/display/cellsnet/Set+Default+Font+while+rendering+spreadsheet+to+HTML).
+For more details on this feature, please review the article on [Setting Default Font for Rendering Spreadsheets to HTML Format](/cells/net/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 
@@ -54,7 +54,7 @@ Set the DefaultFont property to MingLiu or MS Gothic to show Unicode characters.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Setting Default Font for Rendering Spreadsheets in Image Formats](http://www.aspose.com/docs/display/cellsnet/Set+Default+Font+while+rendering+spreadsheet+to+images).
+For more details on this feature, please review the article on [Setting Default Font for Rendering Spreadsheets in Image Formats](/cells/net/set-default-font-while-rendering-spreadsheet-to-images/
 
 {{% /alert %}} 
 
@@ -96,7 +96,7 @@ Aspose.Cells for .NET API has exposed the Boolean type IsExcel2003Compatible pro
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Compatibility for Excel 2003 for Refreshing Pivot Tables](http://www.aspose.com/docs/display/cellsnet/Specify+whether+the+PivotTable+is+compatible+for+Excel2003+while+refreshing+PivotTable).
+For more details on this feature, please review the article on [Compatibility for Excel 2003 for Refreshing Pivot Tables](https://docs.aspose.com/cells/net/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/).
 
 {{% /alert %}} 
 
