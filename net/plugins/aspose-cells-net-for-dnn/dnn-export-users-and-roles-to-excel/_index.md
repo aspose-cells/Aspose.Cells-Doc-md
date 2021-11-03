@@ -56,7 +56,7 @@ After you have installed the Aspose .NET Cells Export Users and Roles for DNN mo
 
 You have successfully added Aspose .NET Export Users and Roles to Excel for DNN module to your page. All the dnn users will be visible in grid and you can choose users to export and click on "Export" button after selecting the desired output format from the dropdown. Desired file will be downloaded automatically.
 ## **Video Demo**
-Please check [the video](https://youtu.be/fq8xh2uE2gc) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=fq8xh2uE2gc) below to see the module in action.
 ## **Support, Extend and Contribute**
 ### **Support**
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.

@@ -91,7 +91,7 @@ You have successfully added Aspose .NET Database Data Exporter to Excel for DNN 
 
 ## **Video Demo**
 
-Please check [the video](https://youtu.be/weqS_sq4FjI) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=weqS_sq4FjI) below to see the module in action.
 
 ## **Support, Extend and Contribute**
 

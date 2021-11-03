@@ -53,7 +53,7 @@ After you have installed the Aspose .NET Cells Import Users from Excel for DNN m
 
 You have successfully added Aspose .NET Cells Import Users from Excel module for DNN module to your page. File Uploading Controls will be visible along with "Template File" link. You can download template file and format your contents as per template file. Once you upload your excel file it'll automatically process all the users and filter out existing users. You can select the users you want to import and press "Import Users" button.
 ## **Video Demo**
-Please check [the video](https://youtu.be/7CN-tz1nYvo) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=7CN-tz1nYvo) below to see the module in action.
 ## **Support, Extend and Contribute**
 ### **Support**
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.

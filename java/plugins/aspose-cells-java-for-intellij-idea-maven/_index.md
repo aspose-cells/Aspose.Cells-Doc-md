@@ -95,7 +95,7 @@ To download IntellliJ IDEA
 
 ## **Video Demo**
 
-Please check [the video](https://youtu.be/8sHoB5Isq-A) below to see Aspose.Cells Maven Project Wizard and Aspose.Cells Example Wizard in action.
+Please check [the video](https://www.youtube.com/watch?v=8sHoB5Isq-A) below to see Aspose.Cells Maven Project Wizard and Aspose.Cells Example Wizard in action.
 
 ## **Support, Extend and Contribute**
 
