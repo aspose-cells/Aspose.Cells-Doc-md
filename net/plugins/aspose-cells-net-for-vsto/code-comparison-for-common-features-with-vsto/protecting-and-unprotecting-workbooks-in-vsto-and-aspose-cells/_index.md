@@ -99,5 +99,5 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/1459787)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protecting.and.Unprotecting.Workbooks.Aspose.Cells.zip)
-- [Sourceforge](http://goo.gl/JH1J2I)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip)

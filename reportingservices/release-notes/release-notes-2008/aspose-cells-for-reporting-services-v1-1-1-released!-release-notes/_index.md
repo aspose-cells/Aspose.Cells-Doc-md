@@ -7,7 +7,7 @@ url: /reportingservices/aspose-cells-for-reporting-services-v1-1-1-released!-rel
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Reporting Services V1.1.1 Released!](http://www.aspose.com/downloads/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.1.1/)
+This page contains release notes for [Aspose.Cells for Reporting Services V1.1.1 Released!](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.1.1/)
 
 {{% /alert %}} 
 

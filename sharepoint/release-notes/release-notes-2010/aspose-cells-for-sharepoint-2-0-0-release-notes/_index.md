@@ -7,7 +7,7 @@ url: /sharepoint/aspose-cells-for-sharepoint-2-0-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for SharePoint 2.0.0](http://www.aspose.com/downloads/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-2.0.0/)
+This page contains release notes for [Aspose.Cells for SharePoint 2.0.0](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-2.0.0/)
 
 {{% /alert %}} 
 

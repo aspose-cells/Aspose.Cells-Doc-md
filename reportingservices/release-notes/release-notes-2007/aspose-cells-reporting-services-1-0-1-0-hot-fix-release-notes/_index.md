@@ -7,7 +7,7 @@ url: /reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-release-
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells Reporting Services 1.0.1.0 Hot Fix](http://www.aspose.com/downloads/cells/reportingservices/new-releases/aspose.cells-reporting-services-1.0.1.0-hot-fix/)
+This page contains release notes for [Aspose.Cells Reporting Services 1.0.1.0 Hot Fix](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-reporting-services-1.0.1.0-hot-fix/)
 
 {{% /alert %}} 
 
@@ -31,4 +31,4 @@ What’s Fixed?
 
 Download URL: 
 
-<http://www.aspose.com/Downloads/Aspose.Cells.Reporting.Services/Default.aspx>
+<https://downloads.aspose.com/cells/reportingservices>
