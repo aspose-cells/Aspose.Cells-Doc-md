@@ -58,23 +58,45 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Data Clipboard</p>
         <ul>
+		 <li><a href="/cells/net/accessing-cells-of-a-worksheet/">Accessing Cells of a Worksheet</a></li>
+		 <li><a href="/cells/net/add-and-retrieve-data/">Add and Retrieve Data</a></li>
         </ul>
         <p>Style</p>
         <ul>
+		 <li><a href="/cells/net/data-formatting/">Number</a></li>
+		 <li><a href="/cells/net/dealing-with-font-settings/">Alignment</a></li>
+		 <li><a href="/cells/net/fonts/">Font</a></li>
+		 <li><a href="/cells/net/cells-formatting/#adding-borders-to-cells">Border</a></li>
+		 <li><a href="/cells/net/cells-formatting/#colors-and-background-patterns">Fill</a></li>
+		 <li><a href="/cells/net/dealing-with-font-settings/">Dealing with Font Settings</a></li>		 
+		 <li><a href="/cells/net/format-cells-using-getstyle-and-setstyle-methods/">Format Cells using GetStyle and SetStyle Methods</a></li>
+		 <li><a href="/cells/net/change-cells-alignment-and-keep-existing-formatting/">Change Cells Alignment and Keep Existing Formatting</a></li>
         </ul>
         <p>Conditional Formatting</p>
         <ul>
+		  <li><a href="/cells/net/conditional-formatting/">Conditional Formatting</a></li>
+          <li><a href="/cells/net/apply-advanced-conditional-formatting/">Apply Advanced Conditional Formatting</a></li>
         </ul>
         <p>Cells Fill</p>
         <ul>
         </ul>
     </div>
     <div class="col-md-6">        
-        <p>Cells Sort&Filter</p>
+        <p>Sort</p>
         <ul>
+		 <li><a href="/cells/net/data-sorting/">Data Sorting</a></li>
+         <li><a href="/cells/net/sort-data-in-column-with-custom-sort-list/">Sort Data in Column with Custom Sort List</a></li>
+		 <li><a href="/cells/net/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
+        </ul>
+		 <p>Filter</p>
+        <ul>
+		 <li><a href="/cells/net/data-filtering/">Data Filtering</a></li>
+         <li><a href="/cells/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria</a></li>
+		 <li><a href="/cells/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
         </ul>
         <p>Cells Find&Select</p>
         <ul>
+		<li><a href="/cells/net/find-or-search-data/">Find or Search Data</a></li>
         </ul>
         <p>Cells Clear</p>
         <ul>
