@@ -210,6 +210,8 @@ url: /net/developer-guide/
         </ul>
         <p>Text Box</p>
         <ul>
+            <li><a href="/cells/net/add-text-box-to-worksheet/">Add Text Box to Worksheet</a></li>
+            <li><a href="/cells/net/add-text-box-to-worksheet-in-aspose-cells/">Add Text Box to Worksheet in Aspose.Cells</a></li>
             <li><a href="/cells/net/access-the-text-box-by-the-name/">Access the Text Box by the Name</a></li>
             <li><a href="/cells/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/">Replace tag with text in a textbox inside the Worksheet</a></li>
             <li><a href="/cells/net/change-character-spacing-of-excel-textbox-or-shape/">Change Character Spacing of Excel TextBox or Shape</a></li>
