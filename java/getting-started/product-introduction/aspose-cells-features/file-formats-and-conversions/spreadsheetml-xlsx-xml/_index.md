@@ -9,15 +9,15 @@ url: /java/spreadsheetml-xlsx-xml/
 SpreadsheetML is a name for a family of XML-based formats for spreadsheet documents. There are several versions of SpreadsheetML:
 
 1. SpreadsheetML version 2003 was introduced in Microsoft Word 2003. SpreadsheetML was a significant step by Microsoft towards making the document format open.
-1. [Office Open XML](http://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for several specialized XML-based markup languages. SpreadsheetML version 2007 is the markup language used by Microsoft Office Excel 2007 to store its documents.
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for several specialized XML-based markup languages. SpreadsheetML version 2007 is the markup language used by Microsoft Office Excel 2007 to store its documents.
 1. Microsoft Excel 2010 and later versions store documents in the SpreadsheetML version 2010 as defined in the updated OOXML standard.
 ## **SpreadsheetML in Aspose.Cells**
 There are three "versions" of SpreadsheetML available:
 
 |**SpreadsheetML “Version”**|**Applicable Standard/Specification**|**Supported in Aspose.Cells for Java**|
 | :- | :- | :- |
-|Microsoft Excel 2003|[Microsoft Excel 2003 XML](http://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Yes|
-|Microsoft Excel 2007|[OOXML ECMA-376](http://www.ecma-international.org/publications/standards/Ecma-376.htm)|Yes|
+|Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Yes|
+|Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Yes|
 |Microsoft Excel 2010 and later versions|OOXML ISO/IEC DIS 29500|Yes|
 OOXML SpreadsheetML documents most often come as XLSX files, which are ZIP packages. In addition to XLSX. Aspose.Cells provides extensive support for loading, saving and converting SpreadsheetML documents. Such an all-embracing implementation is possible because Aspose.Cells was designed with the structure of Microsoft Excel documents in mind (and SpreadsheetML is known to mimic the internal representation of Microsoft Excel documents).
 

@@ -15,7 +15,7 @@ This article shows how to create a simple web page using ColdFusion and use Aspo
 
 ## **Aspose.Cells: The Real Product**
 
-With Aspose.Cells developers can export data, format spreadsheets in every detail and at every level, import images, import charts, create charts, manipulate charts, stream Microsoft Excel data, save in various formats including XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java) integrated) and many more.
+With Aspose.Cells developers can export data, format spreadsheets in every detail and at every level, import images, import charts, create charts, manipulate charts, stream Microsoft Excel data, save in various formats including XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integrated) and many more.
 
 To find out more about the product information, features and for a programmer's guide, refer to the Aspose.Cells documentation and online featured [demos](https://github.com/aspose-cells/Aspose.Cells-for-Java). You can [download](https://downloads.aspose.com/cells/java) and evaluate it for free.
 

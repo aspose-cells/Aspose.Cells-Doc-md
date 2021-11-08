@@ -44,9 +44,3 @@ Download **Create New Workbook** form any of the below mentioned social coding s
 
 - [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1479038)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [File Handling Features](http://www.aspose.com/docs/display/cellsnet/File+Handling+Features).
-
-{{% /alert %}}

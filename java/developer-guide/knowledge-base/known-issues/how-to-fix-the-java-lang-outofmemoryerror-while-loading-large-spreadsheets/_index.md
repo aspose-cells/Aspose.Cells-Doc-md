@@ -7,7 +7,7 @@ url: /java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spreads
 
 {{% alert color="primary" %}} 
 
-There are fair chances that the Workbook constructor may throw java.lang.OutOfMemoryError while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory therefore the spreadsheet has to be loaded while enabling the [Memory Preferences](http://www.aspose.com/docs/display/cellsjava/Optimizing+Memory+Usage+while+Working+with+Big+Files+having+Large+Datasets).
+There are fair chances that the Workbook constructor may throw java.lang.OutOfMemoryError while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory therefore the spreadsheet has to be loaded while enabling the [Memory Preferences](/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
 
 {{% /alert %}} 
 #### **How to fix the java.lang.OutOfMemoryError while loading large spreadsheet**

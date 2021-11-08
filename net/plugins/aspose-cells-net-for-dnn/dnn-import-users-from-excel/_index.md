@@ -31,7 +31,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 You can download Aspose .NET Cells Import Users from Excel for DNN module from one of the following locations
 
 - [CodePlex ](https://aspose-cellsdnn.codeplex.com/releases)
-- [DNN Store ](http://store.dnnsoftware.com/home/product-details/aspose-net-import-users-from-excel-for-dnn)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/DNN)
 ## **Installing**
 Once downloaded, please follow these steps to install the module into your DNN website:
@@ -42,7 +41,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 1. As directed browse to the location of the downloaded zip file, select it then click **Open**.
 1. Click **Next**, accept the license, continue through the install. When finished click the **Return** button.
 
-Please check [this module installation video](http://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
+Please check [this module installation video](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
 ## **Using**
 After you have installed the Aspose .NET Cells Import Users from Excel for DNN module, it is really simple to start using it on your website. Please follow these simple steps to get started:
 
@@ -50,13 +49,11 @@ After you have installed the Aspose .NET Cells Import Users from Excel for DNN m
 1. Navigate to the page where you want to add the Export module.
 1. Select **Modules** followed by **Add New Module** from the top ribbon. 
 
-![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/08/Aspose-.NET-Word-Processing-Document-and-PDF-Exporter-for-DNN-Add-module-to-page.png)
-
 1. From the list, select ‘Aspose Import Users from Excel module for DNN’ and drag it into position.
 
 You have successfully added Aspose .NET Cells Import Users from Excel module for DNN module to your page. File Uploading Controls will be visible along with "Template File" link. You can download template file and format your contents as per template file. Once you upload your excel file it'll automatically process all the users and filter out existing users. You can select the users you want to import and press "Import Users" button.
 ## **Video Demo**
-Please check [the video](https://youtu.be/7CN-tz1nYvo) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=7CN-tz1nYvo) below to see the module in action.
 ## **Support, Extend and Contribute**
 ### **Support**
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
@@ -67,8 +64,7 @@ You can log any issues or suggestions related to Aspose.Cells .NET for DNN Modu
 
 - [CodePlex ](https://asposednn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
-- [DNN Store ](http://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Aspose-DotNetNuke-Content-84438f2c/view/Discussions#content)
+- [DNN Store ](https://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
 ### **Extend and Contribute**
 Aspose .NET Cells Import Users from Excel module for DNN is open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 #### **Source Code**
@@ -80,7 +76,7 @@ You can get the latest source code from one of the following locations
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](http://www.aspose.com/docs/display/totalnet/Aspose+DNN+Module+Development+Template)
+- [DNN Development Template](/total/net/aspose-dnn-module-development-template/)
 
 Please follow these simple steps to get started
 

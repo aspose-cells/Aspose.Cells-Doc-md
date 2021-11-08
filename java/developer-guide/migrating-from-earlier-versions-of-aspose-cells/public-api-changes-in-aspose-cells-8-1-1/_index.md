@@ -29,7 +29,7 @@ A scenario is a what-if model that includes variable input cells linked together
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article on [How to Create, Manipulate or Remove Scenarios from Worksheets](/cells/java/create-2c-manipulate-or-remove-scenarios-from-worksheets/).
+Please check the detailed article on [How to Create, Manipulate or Remove Scenarios from Worksheets](/cells/java/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}
 ## **Change in Behavior for CellsException**

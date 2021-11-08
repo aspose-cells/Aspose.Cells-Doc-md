@@ -145,7 +145,7 @@ Aspose.Cells also supports opening password-protected MS Excel 2013 files.
 
 {{% alert color="primary" %}}
 
-There are fair chances that the Workbook constructor may throw System.OutOfMemoryException while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory, therefore, the spreadsheet has to be loaded while enabling the [Memory Preferences](https://docs.aspose.com/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+There are fair chances that the Workbook constructor may throw System.OutOfMemoryException while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory, therefore, the spreadsheet has to be loaded while enabling the [Memory Preferences](/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
 
 {{% /alert %}}
 

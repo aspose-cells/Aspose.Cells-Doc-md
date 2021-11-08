@@ -75,6 +75,6 @@ Download **New Line in Cells** form any of the below mentioned social coding sit
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Line Breaks and Text Wrapping](http://www.aspose.com/docs/display/cellsnet/Line+Breaks+and+Text+Wrapping).
+For more details, visit [Line Breaks and Text Wrapping](/cells/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

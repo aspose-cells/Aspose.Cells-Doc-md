@@ -65,7 +65,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 1. As directed browse to the location of the downloaded zip file, select it then click **Open**.
 1. Click **Next**, accept the license, continue through the install. When finished click the **Return** button.
 
-Please check [this module installation video](http://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
+Please check [this module installation video](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
 
 ## **Using**
 
@@ -91,7 +91,7 @@ You have successfully added Aspose .NET Database Data Exporter to Excel for DNN 
 
 ## **Video Demo**
 
-Please check [the video](https://youtu.be/weqS_sq4FjI) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=weqS_sq4FjI) below to see the module in action.
 
 ## **Support, Extend and Contribute**
 
@@ -104,7 +104,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Cells .NET for DNN Modules using any of the following platforms
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [DNN Store](http://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
+- [DNN Store](https://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
 
 ### **Extend and Contribute**
 

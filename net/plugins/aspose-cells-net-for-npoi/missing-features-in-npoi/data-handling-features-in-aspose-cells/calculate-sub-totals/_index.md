@@ -51,6 +51,6 @@ Download **Calculate Sub Totals** form any of the below mentioned social coding 
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating Subtotals](http://www.aspose.com/docs/display/cellsnet/Creating+Subtotals).
+For more details, visit [Creating Subtotals](/cells/net/creating-subtotals/).
 
 {{% /alert %}}

@@ -7,7 +7,7 @@ url: /java/aspose-cells-java-1-7-0-0-new-release-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells Java 1.7.0.0 New Release](http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-java-1.7.0.0-new-release/)
+This page contains release notes for [Aspose.Cells Java 1.7.0.0 New Release](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-java-1.7.0.0-new-release/)
 
 {{% /alert %}} 
 

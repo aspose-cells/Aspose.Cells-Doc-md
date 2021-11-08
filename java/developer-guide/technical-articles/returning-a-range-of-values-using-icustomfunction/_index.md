@@ -9,7 +9,7 @@ url: /java/returning-a-range-of-values-using-icustomfunction/
 
 The [**ICustomFunction**](https://apireference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) is deprecated since the release of Aspose.Cells for Java 20.8. Please use the [**AbstractCalculationEngine**](https://apireference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) class. The use of the [**AbstractCalculationEngine**](https://apireference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) class is described in the following article.
 
-[Returning a Range of Values using AbstractCalculationEngine](/cells//java/returning-a-range-of-values-using-abstractcalculationengine/).
+[Returning a Range of Values using AbstractCalculationEngine](/cells/java/returning-a-range-of-values-using-abstractcalculationengine/).
 
 {{% /alert %}}
 

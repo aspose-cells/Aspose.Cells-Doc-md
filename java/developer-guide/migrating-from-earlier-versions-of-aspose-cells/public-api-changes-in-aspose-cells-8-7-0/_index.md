@@ -12,7 +12,7 @@ This document describes the changes to the Aspose.Cells API from version 8.6.3 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for PDF Optimization**
-Aspose.Cells APIs already provide the feature of converting spreadsheets to PDF. With this release of the API, users can now [optimize the resultant PDF size](http://www.aspose.com/docs/display/cellsjava/Save+Excel+into+PDF+with+Standard+or+Minimum+Size) as well. Aspose.Cells for Java 8.7.0 has exposed the PdfSaveOptions.OptimizationType property along with PdfOptimizationType enumeration in order to facilitate the users to choose the desired optimization algorithm while exporting spreadsheets to PDF format. There are 2 possible values for the PdfSaveOptions.OptimizationType property as detailed below. 
+Aspose.Cells APIs already provide the feature of converting spreadsheets to PDF. With this release of the API, users can now [optimize the resultant PDF size](/cells/java/save-excel-into-pdf-with-standard-or-minimum-size/) as well. Aspose.Cells for Java 8.7.0 has exposed the PdfSaveOptions.OptimizationType property along with PdfOptimizationType enumeration in order to facilitate the users to choose the desired optimization algorithm while exporting spreadsheets to PDF format. There are 2 possible values for the PdfSaveOptions.OptimizationType property as detailed below. 
 
 1. PdfOptimizationType.MINIMUM_SIZE: Quality is compromised for the resultant file size.
 1. PdfOptimizationType.STANDARD: Quality isn't compromised so the resultant file size will be large.
@@ -43,7 +43,7 @@ book.save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
 ### **Detection of Digitally Signed VBA Project**
-Newly exposed VbaProject.isSigned property can be used to in [detect if the VBA project in a Workbook is digitally signed](http://www.aspose.com/docs/display/cellsjava/Check+if+VBA+Code+is+Signed). The VbaProject.isSigned property is of type Boolean, which returns true if the VBA project is digitally signed and vice versa.
+Newly exposed VbaProject.isSigned property can be used to in [detect if the VBA project in a Workbook is digitally signed](/cells/java/check-if-vba-code-is-signed/). The VbaProject.isSigned property is of type Boolean, which returns true if the VBA project is digitally signed and vice versa.
 
 Following is the simple usage scenario.
 
@@ -79,7 +79,7 @@ else
 
 {{< /highlight >}}
 ### **Method Protection.verifyPassword Added**
-Aspose.Cells APIs have enhanced the Protection class by introducing the verifyPassword method which allows to specify a password as an instance of String and [verifies if same password has been used to protect the Worksheet](http://www.aspose.com/docs/display/cellsjava/Verify+Password+Used+to+Protect+the+Worksheet). The Protection.verifyPassword method returns true if the specified password matches with the password used to protect the given worksheet, and false if specified password does not match. Following piece of code uses the Protection.verifyPassword method in conjunction with Protection.isProtectedWithPassword field to detect the password protection, and verifies the password.
+Aspose.Cells APIs have enhanced the Protection class by introducing the verifyPassword method which allows to specify a password as an instance of String and [verifies if same password has been used to protect the Worksheet](/cells/java/verify-password-used-to-protect-the-worksheet/). The Protection.verifyPassword method returns true if the specified password matches with the password used to protect the given worksheet, and false if specified password does not match. Following piece of code uses the Protection.verifyPassword method in conjunction with Protection.isProtectedWithPassword field to detect the password protection, and verifies the password.
 
 Following is the simple usage scenario.
 
@@ -123,7 +123,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 
 {{< /highlight >}}
 ### **Property Protection.isProtectedWithPassword Added**
-This release of Aspose.Cells for Java has also exposed the Protection.isProtectedWithPassword field that can be useful in [detecting if a Worksheet is password protected or not](http://www.aspose.com/docs/display/cellsjava/Detect+if+Worksheet+is+Password+Protected).
+This release of Aspose.Cells for Java has also exposed the Protection.isProtectedWithPassword field that can be useful in [detecting if a Worksheet is password protected or not](/cells/java/detect-if-worksheet-is-password-protected/).
 
 Following is the simple usage scenario.
 
@@ -163,7 +163,7 @@ else
 
 {{< /highlight >}}
 ### **Property ColorScale.Is3ColorScale Added**
-Aspose.Cells for Java 8.7.0 has exposed the ColorScale.Is3ColorScale property that can be used to [create 2-Color Scale conditional format](http://www.aspose.com/docs/display/cellsjava/Adding+2-Color+Scale+and+3-Color+Scale+Conditional+Formattings). The said property is of type Boolean with default value of true which means that the conditional format will be of 3-Color Scale by default. However, switching the ColorScale.Is3ColorScale property to false will generate a 2-Color Scale conditional format.
+Aspose.Cells for Java 8.7.0 has exposed the ColorScale.Is3ColorScale property that can be used to [create 2-Color Scale conditional format](/cells/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). The said property is of type Boolean with default value of true which means that the conditional format will be of 3-Color Scale by default. However, switching the ColorScale.Is3ColorScale property to false will generate a 2-Color Scale conditional format.
 
 Following is the simple usage scenario.
 
@@ -213,7 +213,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Property TxtLoadOptions.HasFormula Added**
-Aspose.Cells for Java 8.7.0 has provided support to [identify & parse the formulas while loading CSV/TXT files having delimited plain data](http://www.aspose.com/docs/display/cellsjava/Load+or+Import+CSV+file+with+Formulas). Newly exposed TxtLoadOptions.HasFormula property when set to true directs the API to parse the formulas from the input delimited file and set them to relevant cells without requiring any additional processing.
+Aspose.Cells for Java 8.7.0 has provided support to [identify & parse the formulas while loading CSV/TXT files having delimited plain data](/cells/java/load-or-import-csv-file-with-formulas/). Newly exposed TxtLoadOptions.HasFormula property when set to true directs the API to parse the formulas from the input delimited file and set them to relevant cells without requiring any additional processing.
 
 Following is the simple usage scenario.
 
@@ -247,7 +247,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Property DataLabels.ResizeShapeToFitText Added**
-Another useful feature that Aspose.Cells for Java 8.7.0 has exposed is the DataLabels.ResizeShapeToFitText property that can enable the [resize shape to fit text](http://www.aspose.com/docs/display/cellsjava/Resize+Chart%27s+Data+Label+Shape+To+Fit+Text) feature of Excel application for chart's data labels.
+Another useful feature that Aspose.Cells for Java 8.7.0 has exposed is the DataLabels.ResizeShapeToFitText property that can enable the [resize shape to fit text](/cells/java/resize-chart-s-data-label-shape-to-fit-text/) feature of Excel application for chart's data labels.
 
 Following is the simple usage scenario.
 

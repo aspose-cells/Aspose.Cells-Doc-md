@@ -82,7 +82,7 @@ Here is a simple scenario to demonstrate the usage of CellsHelper.SignificantDig
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Setting Number of Significant Digits](/cells/java/specifying-significant-digits-to-be-stored-in-excel-file/)[](http://docs.asposeptyltd.com/display/cellsjava/Specifying+Significant+Digits+to+be+Stored+in+Excel+file)[.](http://www.aspose.com/docs/display/cellsjava/Specifying+Significant+Digits+to+be+stored+in+Excel+file)
+Check the detailed article on [Setting Number of Significant Digits](/cells/java/specifying-significant-digits-to-be-stored-in-excel-file/)
 
 {{% /alert %}} 
 
@@ -102,8 +102,7 @@ The following snippet make use of the GlowEffect.Color property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Reading the Shape's Glow Color](/cells/java/read-color-of-the-shape-s-glow-effect/)[](http://docs.asposeptyltd.com/display/cellsjava/Read+Color+of+the+Shape%27s+Glow+Effect)[.](http://www.aspose.com/docs/display/cellsjava/Read+Color+of+the+Glow+Effect+of+Shape)
-
+Check the detailed article on [Reading the Shape's Glow Color](/cells/java/read-color-of-the-shape-s-glow-effect/)
 {{% /alert %}} 
 
 **Java**
@@ -134,7 +133,7 @@ Aspose.Cells 17.1.0 has exposed PaperWidth & PaperHeight properties for the Page
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Retrieving Worksheet's Paper Size](/cells/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)[](http://docs.asposeptyltd.com/display/cellsjava/Get+Paper+Width+and+Height+from+PageSetup+of+Worksheet)[.](http://www.aspose.com/docs/display/cellsjava/Get+Paper+Width+and+Height+of+Page+Setup+of+Worksheet)
+Check the detailed article on [Retrieving Worksheet's Paper Size](/cells/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
 
 {{% /alert %}} 
 ### **Added WorkbookSettings.CheckCustomNumberFormat Property**
@@ -142,7 +141,7 @@ Aspose.Cells 17.1.0 has added the CheckCustomNumberFormat property to the Workbo
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Verifying Custom Forma](/cells/java/check-custom-number-format-when-setting-style-custom-property/)[t](http://docs.asposeptyltd.com/display/cellsjava/Check+Custom+Number+Format+when+Setting+Style.Custom+Property)[.](http://www.aspose.com/docs/display/cellsjava/Check+Custom+Number+Format+when+setting+Style.Custom+property)
+Check the detailed article on [Verifying Custom Forma](/cells/java/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 

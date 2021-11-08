@@ -23,6 +23,6 @@ Here is the console output of the above code with this [sample excel file](51123
 
 {{< highlight java >}}
 
-Web Query URL: http://www.aspose.com/docs/display/cellsnet/Home
+Web Query URL: https://docs.aspose.com/cells/net/
 
 {{< /highlight >}}

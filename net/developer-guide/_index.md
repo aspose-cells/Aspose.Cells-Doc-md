@@ -12,8 +12,8 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Info</p>
         <ul>
-            <li><a href="cells/net/document-properties/">Document Properties</a></li>
-            <li><a href="cells/net/security-features/">Security Features</a></li>
+            <li><a href="/cells/net/document-properties/">Document Properties</a></li>
+            <li><a href="/cells/net/security-features/">Security Features</a></li>
         </ul>
         <p>New</p>
         <ul>
@@ -378,6 +378,8 @@ url: /net/developer-guide/
         <ul>
          <li><a href="/cells/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/#asposecells">Protecting and Unprotecting Workbooks</a></li>
          <li><a href="/cells/net/protect-and-unprotect-worksheets/">Protect and unProtect Worksheets</a></li>
+         <li><a href="/cells/net/protecting-worksheets/">Protecting Worksheets</a></li>
+         <li><a href="/cells/net/unprotect-a-worksheet/">Unprotect a Worksheet</a></li>
           <li><a href="/cells/net/advanced-protection-settings-since-excel-xp/">Advanced Protection Settings</a></li>
          <li><a href="/cells/net/protecting-worksheets/#allow-users-to-edit-ranges">Allow Users to Edit Ranges</a></li>
          <li><a href="/cells/net/create-shared-workbook-with-aspose-cells/">Create Shared Workbook</a></li>

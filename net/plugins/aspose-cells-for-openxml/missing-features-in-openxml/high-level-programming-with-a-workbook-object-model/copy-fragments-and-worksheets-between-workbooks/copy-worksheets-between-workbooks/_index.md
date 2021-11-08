@@ -78,7 +78,6 @@ excelWorkbook1.Save(FileName);
 {{< /highlight >}}
 ## **Download Sample Code**
 - [Codeplex](http://goo.gl/sbk9qP)
-- [Github](http://www.aspose.com/docs/display/cellsnet/2.3.2.3.2+Copy+Worksheets+between+Workbooks)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
 The following example shows how to copy a worksheet from one workbook to another workbook.
@@ -150,5 +149,4 @@ excelWorkbook1.Save("copyworksheet.xls");
 ## **Download Sample Code**
 - [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

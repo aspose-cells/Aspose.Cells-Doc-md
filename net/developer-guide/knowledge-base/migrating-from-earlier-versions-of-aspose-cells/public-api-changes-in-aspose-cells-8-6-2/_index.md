@@ -12,7 +12,7 @@ This document describes the changes to the Aspose.Cells API from version 8.6.1 t
 {{% /alert %}} 
 ## **Added APIs**
 ### **Support for Call Back with Smart Markers**
-This release of Aspose.Cells for .NET API has exposed the WorkbookDesigner.CallBack property and ISmartMarkerCallBack interface that together allows to [get the notifications about the cell reference and/or smart marker being processed](http://www.aspose.com/docs/display/cellsnet/Getting+Notifications+while+Merging+Data+with+Smart+Markers). Following piece of code demonstrates the usage of ISmartMarkerCallBack interface to define a new class that handles the call back for WorkbookDesigner.Process method.
+This release of Aspose.Cells for .NET API has exposed the WorkbookDesigner.CallBack property and ISmartMarkerCallBack interface that together allows to [get the notifications about the cell reference and/or smart marker being processed](/cells/net/getting-notifications-while-merging-data-with-smart-markers/). Following piece of code demonstrates the usage of ISmartMarkerCallBack interface to define a new class that handles the call back for WorkbookDesigner.Process method.
 
 **C#**
 
@@ -78,7 +78,7 @@ designer.Process(false);
 
 
 ### **Method Chart.ToPdf Added**
-Aspose.Cells for .NET 8.6.2 has exposed the Chart.ToPdf method that can be used to [directly render the Chart shape to PDF format](http://www.aspose.com/docs/display/cellsnet/Converting+Chart+to+PDF). The said method currently accepts a parameter of of type string as file path location to store the resultant file on disk.
+Aspose.Cells for .NET 8.6.2 has exposed the Chart.ToPdf method that can be used to [directly render the Chart shape to PDF format](/cells/net/convert-an-excel-chart-to-image/). The said method currently accepts a parameter of of type string as file path location to store the resultant file on disk.
 
 Following is the simple usage scenario.
 
@@ -106,7 +106,7 @@ chart.ToPdf(outputFilePath);
 
 
 ### **Method Workbook.RemoveUnusedStyles Added**
-Aspose.Cells for .NET 8.6.2 has exposed the Workbook.RemoveUnusedStyles method that can be used to [remove all unused Style objects from the pool of styles](http://www.aspose.com/docs/display/cellsnet/Remove+Unused+Styles+inside+the+Workbook).
+Aspose.Cells for .NET 8.6.2 has exposed the Workbook.RemoveUnusedStyles method that can be used to [remove all unused Style objects from the pool of styles](/cells/net/remove-unused-styles-inside-the-workbook/).
 
 Following is the simple usage scenario.
 

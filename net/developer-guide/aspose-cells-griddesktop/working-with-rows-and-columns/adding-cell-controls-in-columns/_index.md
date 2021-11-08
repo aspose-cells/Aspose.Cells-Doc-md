@@ -34,7 +34,7 @@ To add buttons into a column using Aspose.Cells.GridDesktop, please follow the s
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddingCellControlsInColumns-AddingButton.cs" >}}
 
 
-Above code snippet adds buttons to all cells of the specified column. Whenever any cell of that specific column is selected, a button becomes visible. For more information about the event handling of buttons, please refer to the [Event Handling of a Button Control.](http://www.aspose.com/docs/display/cellsnet/Adding+Cell+Controls+in+Worksheets#AddingCellControlsinWorksheets-EventHandlingofButton)
+Above code snippet adds buttons to all cells of the specified column. Whenever any cell of that specific column is selected, a button becomes visible. For more information about the event handling of buttons, please refer to the [Event Handling of a Button Control.](/cells/net/adding-cell-controls-in-worksheets/#event-handling-of-button)
 ### **Adding CheckBox**
 To add checkboxes into a column using Aspose.Cells.GridDesktop, please follow the steps below:
 
@@ -49,7 +49,7 @@ To add checkboxes into a column using Aspose.Cells.GridDesktop, please follow th
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddingCellControlsInColumns-AddingCheckbox.cs" >}}
 
 
-Above code snippet adds checkboxes to all cells of the specified column. For more information about the event handling of checkboxes, please refer to the [Event Handling of a CheckBox Control.](http://www.aspose.com/docs/display/cellsnet/Adding+Cell+Controls+in+Worksheets#AddingCellControlsinWorksheets-EventHandlingofCheckBox)
+Above code snippet adds checkboxes to all cells of the specified column. For more information about the event handling of checkboxes, please refer to the [Event Handling of a CheckBox Control.](/cells/net/adding-cell-controls-in-worksheets/#event-handling-of-checkbox)
 ### **Adding ComboBox**
 To add comboboxes into a column using Aspose.Cells.GridDesktop, please follow the steps below:
 
@@ -63,4 +63,4 @@ To add comboboxes into a column using Aspose.Cells.GridDesktop, please follow th
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddingCellControlsInColumns-AddingCombobox.cs" >}}
 
 
-Above code snippet adds comboboxes to all cells of the specified column. Whenever any cell of that specific column is selected, a combobox becomes visible. For more information about the event handling of comboboxes, please refer to the [Event Handling of a ComboBox Control.](http://www.aspose.com/docs/display/cellsnet/Adding+Cell+Controls+in+Worksheets#AddingCellControlsinWorksheets-EventHandlingofComboBox)
+Above code snippet adds comboboxes to all cells of the specified column. Whenever any cell of that specific column is selected, a combobox becomes visible. For more information about the event handling of comboboxes, please refer to the [Event Handling of a ComboBox Control.](/cells/net/adding-cell-controls-in-worksheets/#event-handling-of-combobox)

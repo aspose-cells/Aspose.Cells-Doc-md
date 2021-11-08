@@ -7,7 +7,7 @@ url: /net/aspose-cells-for-net-7-2-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for .NET 7.2.1](http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-7.2.1/)
+This page contains release notes for [Aspose.Cells for .NET 7.2.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.2.1/)
 
 {{% /alert %}} 
 

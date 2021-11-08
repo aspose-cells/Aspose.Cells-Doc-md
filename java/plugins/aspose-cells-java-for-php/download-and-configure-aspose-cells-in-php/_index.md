@@ -8,7 +8,7 @@ url: /java/download-and-configure-aspose-cells-in-php/
 ## **Download Required Libraries**
 Download required libraries mentioned below. These are the required for executing Aspose.Cells Java for PHP examples.
 
-- **Aspose:** [Aspose.Cells for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx)
+- **Aspose:** [Aspose.Cells for Java Component](https://downloads.aspose.com/cells/java/)
 - [PHP/Java Bridge](http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip)
 ## **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:
@@ -87,14 +87,14 @@ Please follow below simple steps to configure PHP/Java Bridge on Windows Platfor
 
 \3. Install Apache Tomcat 8.0. You can download it here
 
-4.Download [JavaBridge.war](http://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copy this file to tomcat webapps directory.
+4.Download [JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copy this file to tomcat webapps directory.
 (ex: C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps )
 
 \5. Restart tomcat apache service.
 
 6.Go to <http://localhost:8080/JavaBridge/test.php> to check if php works. You can find other examples in there
 
-7.Copy your [Aspose.Cells Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) jar file to C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib
+7.Copy your Aspose.Cells Java jar file to C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib
 
 \8. Clone [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) examples inside C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ folder.
 

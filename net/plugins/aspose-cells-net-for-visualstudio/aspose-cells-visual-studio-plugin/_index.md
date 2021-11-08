@@ -45,9 +45,7 @@ Please feel free to contact us if you find any issues in installing or using thi
 You can download Aspose Visual Studio Plugin from one of the following locations
 
 - [CodePlex ](https://asposeCellsvs.codeplex.com/releases)
-- [Code.MSDN ](https://code.msdn.microsoft.com/Explore-AsposeCells-for-df7cb8b3)
-- [Visual Studio Gallery ](https://visualstudiogallery.msdn.microsoft.com/38368f60-0472-4778-81ce-802f8bd12b65)
-- [Github ](https://github.com/asposeCells/Aspose.Cells-for-.NET/releases)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
 
 ## **Installing**
 
@@ -98,9 +96,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose Visual Studio Plugin using any of the following platforms
 
 - [CodePlex ](https://asposeCellsvs.codeplex.com/workitem/list/basic)
-- [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/38368f60-0472-4778-81ce-802f8bd12b65)
-- [Github ](https://github.com/asposeCells/Aspose.Cells-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Explore-AsposeCells-for-df7cb8b3/view/Discussions#content)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 ### **Extend and Contribute**
 
@@ -111,8 +107,8 @@ You can log any issues or suggestions related to Aspose Visual Studio Plugin usi
 You can get the latest source code from one of the following locations
 
 - [CodePlex ](https://asposeCellsvs.codeplex.com/SourceControl/latest)
-- [Github ](https://github.com/asposeCells/Aspose.Cells-for-.NET)
-- [Microsoft Developer Network ](https://code.msdn.microsoft.com/Explore-AsposeCells-for-df7cb8b3)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET)
+
 
 #### **How to configure the source code**
 

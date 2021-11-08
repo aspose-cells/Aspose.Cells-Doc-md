@@ -7,7 +7,7 @@ url: /reportingservices/aspose-cells-for-reporting-services-1-8-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Reporting Services 1.8.0](http://www.aspose.com/downloads/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
+This page contains release notes for [Aspose.Cells for Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
 
 {{% /alert %}} 
 

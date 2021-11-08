@@ -18,7 +18,7 @@ The Eclipse IDE can be extended with additional software components. Eclipse cal
 - Aspose.Cells Java for Eclipse (Maven) is a Plugin for **Eclipse IDE** by **Aspose.** This Plugin is intended for developers using Maven platform for Java developments and want to use [Aspose.Cells for Java](http://goo.gl/gtvhlQ) in their projects. The Plugin lets you create maven projects for using [Aspose.Cells for Java API](http://goo.gl/gtvhlQ) and also download [Code Examples](https://goo.gl/uxznrb) of the API. 
 - The plugin provides following features to work with [Aspose.Cells for Java API](http://goo.gl/gtvhlQ) within **Eclipse IDE** comfortably: 
 
-![todo:image_alt_text](http://i.imgur.com/KWKGljg.png)
+![todo:image_alt_text](https://i.imgur.com/KWKGljg.png)
 
 
 **WIZARDS**:
@@ -27,7 +27,7 @@ The plugin contains two wizards-----
 **       ****Aspose.Cells Maven Project (wizard)**
 
 - This New Project wizard lets developers to create **Maven** project for using [Aspose.Cells for Java](http://goo.gl/gtvhlQ) from **New -> Project -> Maven-> Aspose.Cells Maven Project.**
-- The reference of [Aspose.Cells for Java API](http://goo.gl/gtvhlQ) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and gets added in the pom.xml.
+- The reference of [Aspose.Cells for Java API](http://goo.gl/gtvhlQ) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/) and gets added in the pom.xml.
 - The created project will always contain most recent available version **Maven** Dependency for [Aspose.Cells for Java API](http://goo.gl/gtvhlQ).
 - The wizard steps also presents with the option for downloading [Code Examples](https://goo.gl/uxznrb) for using [Aspose.Cells for Java API](http://goo.gl/gtvhlQ).
 
@@ -63,11 +63,11 @@ Following are three recommended methods for the successful downloading and insta
  cdn.aspose.com/marketplace/eclipse/java/maven/asposecells
   Then select "Aspose.Cells Java for Eclipse (Maven)" and **Finish**. Accept License Agreement and Install the plugin.
 ## **Installing**
-[Installing Aspose.Cells Java for Eclipse - Maven](http://www.aspose.com/docs/display/cellsjava/Installing+and+Using+Aspose.Cells+Java+for+Eclipse+-+Maven#InstallingandUsingAspose.CellsJavaforEclipse-Maven-Installing)
+[Installing Aspose.Cells Java for Eclipse - Maven](/cells/java/installing-and-using-aspose-cells-java-for-eclipse-maven/#installing)
 ## **Using the Plugin**
-[Using Aspose.Cells Java for Eclipse - Maven](http://www.aspose.com/docs/display/cellsjava/Installing+and+Using+Aspose.Cells+Java+for+Eclipse+-+Maven#InstallingandUsingAspose.CellsJavaforEclipse-Maven-Using)
+[Using Aspose.Cells Java for Eclipse - Maven](/cells/java/installing-and-using-aspose-cells-java-for-eclipse-maven/#using)
 ### **How to apply Aspose License?**
-This Plugin uses an evaluation version of Aspose.Cells. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Cells. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://purchase.aspose.com/buy).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Cells.Java.lic**

@@ -14,7 +14,7 @@ This document describes the changes to the Aspose.Cells API from version 16.11.0
 ### **Support for Pivot Tables**
 The second release of Aspose.Cells for C++ supports creation as well as the manipulation of the Pivot Tables. Aspose.Cells for C++ provides the IPivotTable class which represents a Pivot Table object whereas IPivotTableCollection represents a collection of Pivot Tables. The IPivotTableCollection can be accessed via the IWorksheet object and a new Pivot Table can be added to the collection while using the IPivotTableCollection.Add method.
 
-The following code snippet demonstrates how simple is to use Aspose.Cells for C++ API to [create Pivot Tables from scratch](http://www.aspose.com/docs/display/cellscpp/Create+Pivot+Table+inside+the+Worksheet).
+The following code snippet demonstrates how simple is to use Aspose.Cells for C++ API to [create Pivot Tables from scratch](/cells/cpp/create-pivot-table/).
 
 **C++**
 
@@ -88,7 +88,7 @@ wb->Save(outputPath);
 
 Besides creating new Pivot Tables, Aspose.Cells for C++ APIs also support to manipulate existing Pivot Tables. The API currently supports to change the data at the source range of the Pivot Table and then refresh it. Once the Pivot Table has been manipulated as desired, it is best to use the IPivotTable.RefreshData and IPivotTable.CalculateData methods to refresh the Pivot Table against the updated data source.
 
-The following code snippet uses the Aspose.Cells for C++ API to [manipulate an existing Pivot Table](http://www.aspose.com/docs/display/cellscpp/Manipulate+Pivot+Table+inside+the+Worksheet).
+The following code snippet uses the Aspose.Cells for C++ API to [manipulate an existing Pivot Table](/cells/cpp/manipulate-pivot-table/).
 
 **C++**
 
@@ -134,7 +134,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Support for Conditional Formatting Rules**
-Aspose.Cells for C++ now provides the ability to add conditional formatting rules to the worksheet by exposing the IFormatCondition class. The aforementioned class further provides the following methods to [apply the conditional formatting rules](http://www.aspose.com/docs/display/cellscpp/Apply+Conditional+Formatting+in+Worksheet) as per application requirements.
+Aspose.Cells for C++ now provides the ability to add conditional formatting rules to the worksheet by exposing the IFormatCondition class. The aforementioned class further provides the following methods to [apply the conditional formatting rules](/cells/cpp/apply-conditional-formatting-in-worksheet/) as per application requirements.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -192,7 +192,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Support for Hyperlinks**
-Aspose.Cells for C++ now supports [adding hyperlinks to the worksheet cells](http://www.aspose.com/docs/display/cellscpp/Add+Hyperlinks+to+the+Cells). In order to provide this feature, the Aspose.Cells for C++ 16.12.0 has exposed the IHyperlinkCollection class which is accessible via the IWorksheet object whereas a hyperlink can be added to the collection while using the IHyperlinkCollection.Add method as demonstrated below.
+Aspose.Cells for C++ now supports [adding hyperlinks to the worksheet cells](/cells/cpp/add-hyperlinks-to-the-cells/). In order to provide this feature, the Aspose.Cells for C++ 16.12.0 has exposed the IHyperlinkCollection class which is accessible via the IWorksheet object whereas a hyperlink can be added to the collection while using the IHyperlinkCollection.Add method as demonstrated below.
 
 **C++**
 
@@ -231,7 +231,7 @@ Excel application supports 2 types of document properties as listed below.
 - System defined (built-in) properties: Built-in properties contain general information about the document like document title, author name, document statistics and so on.
 - User-defined (custom) properties: Custom properties defined by the end user in the form of name value pair.
 
-Aspose.Cells for C++ supports [managing both types of document properties, built-in and custom](http://www.aspose.com/docs/display/cellscpp/Create+and+Manipulate+Built-In+or+Custom+Document+Properties+of+Workbook). Aspose.Cells’ IWorkbook class represents an Excel file. In order to access the built-in document properties, use IWorkbook.GetBuiltInDocumentProperties whereas the custom document properties can be accessed while using the IWorkbook.GetCustomDocumentProperties method.
+Aspose.Cells for C++ supports [managing both types of document properties, built-in and custom](/cells/cpp/managing-document-properties/). Aspose.Cells’ IWorkbook class represents an Excel file. In order to access the built-in document properties, use IWorkbook.GetBuiltInDocumentProperties whereas the custom document properties can be accessed while using the IWorkbook.GetCustomDocumentProperties method.
 
 The following sample code loads an existing sample spreadsheet and reads the built-in document properties such as Title, Subject and custom property by the name MyCustom1.
 
@@ -287,7 +287,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Support for ListObjects**
-An Excel table is a matrix of cells containing any number of rows and columns whereas the same table is referred to be as a List Object in Aspose.Cells for C++ APIs. The Aspose::Cells::Tables namespace contains all the necessary classes that deals with the operations related to the List Objects. Most worth mentioning classes are IListObject and IListObjectCollection which allow to [create and format List Objects](http://www.aspose.com/docs/display/cellscpp/Create+and+Manipulate+Table+or+List+Objects+inside+Worksheet) and so on.
+An Excel table is a matrix of cells containing any number of rows and columns whereas the same table is referred to be as a List Object in Aspose.Cells for C++ APIs. The Aspose::Cells::Tables namespace contains all the necessary classes that deals with the operations related to the List Objects. Most worth mentioning classes are IListObject and IListObjectCollection which allow to [create and format List Objects](/cells/cpp/create-and-format-table/) and so on.
 
 The following sample code loads the sample spreadsheet file and then creates a List Object (table) in a range A1:H10, then make use of its various methods to show the subtotal.
 
@@ -337,7 +337,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Support for Row & Column Grouping**
-Aspose.Cells for C++ API can be used to group rows & columns while using the ICells class which is basically the collection of all cells in a given worksheet. The ICells class offers the GroupRows and GroupColumns methods in order to [group rows and columns](http://www.aspose.com/docs/display/cellscpp/Group+Rows+and+Columns+of+Worksheet) respectively.
+Aspose.Cells for C++ API can be used to group rows & columns while using the ICells class which is basically the collection of all cells in a given worksheet. The ICells class offers the GroupRows and GroupColumns methods in order to [group rows and columns](/cells/cpp/group-rows-and-columns-of-worksheet/) respectively.
 
 The following code snippet demonstrates the simple usage scenario of both aforementioned methods.
 
@@ -425,7 +425,7 @@ wb->Save(outputPath);
 ### **Support for Themes**
 Aspose.Cells for C++ APIs now support to use and manipulate the themes offered by Excel application.
 #### **Ability to Apply the Custom Theme Colors**
-The following snippet tries to [create a new theme with custom colors](http://www.aspose.com/docs/display/cellscpp/Apply+Custom+Theme+Colors+of+the+Workbook+using+Array+of+Colors) for the workbook.
+The following snippet tries to [create a new theme with custom colors](/cells/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) for the workbook.
 
 **C++**
 
@@ -497,7 +497,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Support for Manipulation of Theme Colors**
-The following sample code shows how to [read and modify theme colors of the workbook](http://www.aspose.com/docs/display/cellscpp/Read+and+Modify+Theme+Colors+of+the+Workbook). The sample code loads an existing spreadsheet, read its theme colors i.e. Accent1-Accent6, and modifies the colors before saving the spreadsheet.
+The following sample code shows how to [read and modify theme colors of the workbook](/cells/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). The sample code loads an existing spreadsheet, read its theme colors i.e. Accent1-Accent6, and modifies the colors before saving the spreadsheet.
 
 **C++**
 
@@ -563,7 +563,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Ability to Copy Themes Across Workbooks**
-The following sample code shows how to [copy theme from one workbook to another](http://www.aspose.com/docs/display/cellscpp/Copy+Theme+from+one+Workbook+to+another), which could be useful in applying built-in or custom themes on multiple spreadsheets.
+The following sample code shows how to [copy theme from one workbook to another](/cells/cpp/copy-theme-from-one-workbook-to-another/), which could be useful in applying built-in or custom themes on multiple spreadsheets.
 
 **C++**
 

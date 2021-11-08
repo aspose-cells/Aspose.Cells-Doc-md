@@ -31,6 +31,7 @@ Finally, the following code saves the chart in image format and the workbook in 
 
 ## Related Articles
 
-- [Creating and Customizing Charts](/cells/net/creating-and-customizing-charts/)
+- [Creating Charts](/cells/net/creating-charts/)
+- [Cusomizing Charts](/cells/net/customizing-charts/)
 - [Data Formatting in Charts](/cells/net/data-formatting-in-charts/)
 - [Setting Chart Appearance](/cells/net/setting-chart-appearance/)

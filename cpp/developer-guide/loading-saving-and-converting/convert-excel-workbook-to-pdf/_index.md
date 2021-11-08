@@ -18,14 +18,14 @@ Please note that you cannot instruct Aspose.Cells for C++ to change or remove th
 
 {{% /alert %}} 
 ### **Direct Conversion**
-Aspose.Cells supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook/) class' [Save](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349) method. The [Save](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349) method provides the [SaveFormat_Pdf](https://apireference.aspose.com/cells/cpp/namespace/aspose.cells/#a11cae527e4e68f1adcac8f47ea64481a) enumeration member that converts the native Excel files to PDF format.
+Aspose.Cells supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class' [Save](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349) method. The [Save](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349) method provides the [SaveFormat_Pdf](https://apireference.aspose.com/cells/cpp/namespace/aspose.cells#a11cae527e4e68f1adcac8f47ea64481a) enumeration member that converts the native Excel files to PDF format.
 
 Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
-1. Instantiate an object of the [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook/) class by calling its empty constructor.
+1. Instantiate an object of the [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class by calling its empty constructor.
 1. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.
 1. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.
-1. When the spreadsheet code is complete, call the [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook/) class' [Save](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349) method to save the spreadsheet.
+1. When the spreadsheet code is complete, call the [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class' [Save](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349) method to save the spreadsheet.
 
 The file format should be PDF so select relevant PDF (a pre-defined value) from the SaveFormat enumeration to generate the final PDF document
 
@@ -33,15 +33,15 @@ Please see the following sample code, its [sample Excel file](67338368.xlsx) and
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_DirectConversion.cpp" >}}
 ### **Advanced Conversion**
-You may also opt to use the [IPdfSaveOptions](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_pdf_save_options/) class to set different attributes for the conversion. Setting different properties of the [IPdfSaveOptions](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_pdf_save_options/) class gives you control over the print, font, security and compression settings for the output PDF. The most important property is [SetCompliance](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_pdf_save_options/#a2158ff23d7c071f8224b1cd063233c07) which enables you to save the Excel files to PDF/A compliant PDF files.
+You may also opt to use the [IPdfSaveOptions](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_pdf_save_options) class to set different attributes for the conversion. Setting different properties of the **IPdfSaveOptions** class gives you control over the print, font, security and compression settings for the output PDF. The most important property is [SetCompliance](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_pdf_save_options#a2158ff23d7c071f8224b1cd063233c07) which enables you to save the Excel files to PDF/A compliant PDF files.
 #### **Saving Workbook to PDF/A Complied Files**
-The following code snippet demonstrates how to use the [IPdfSaveOptions](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_pdf_save_options/) class to save Excel files to PDF/A compliant PDF format
+The following code snippet demonstrates how to use the **IPdfSaveOptions** class to save Excel files to PDF/A compliant PDF format
 
 Please see the following sample code and its [output PDF](67338370.pdf) for your reference.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_A_CompliedFiles.cpp" >}}
 #### **Set the PDF Creation Time**
-With the [IPdfSaveOptions](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_pdf_save_options/) class, you can get or set the PDF creation time.
+With the **IPdfSaveOptions** class, you can get or set the PDF creation time.
 
 Please see the following sample code and its [output PDF](67338371.pdf) for your reference.
 

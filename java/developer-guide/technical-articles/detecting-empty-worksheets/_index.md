@@ -18,7 +18,7 @@ All cells which have values are automatically initialized, however, there is a p
 
 {{% alert color="primary" %}} 
 
-There are a number of ways to acquire the cells enumerator as detailed in [How & Where to use Iterators](http://www.aspose.com/docs/display/cellsjava/How+and+Where+to+Use+Iterators).
+There are a number of ways to acquire the cells enumerator as detailed in [How & Where to use Iterators](/cells/java/how-and-where-to-use-iterators/).
 
 {{% /alert %}} 
 ## **Check for Shapes**

@@ -61,7 +61,7 @@ Project Aspose.Cells for PHP shows how different tasks can be performed using As
     - [Value Features in Php](/cells/java/value-features-in-php/)
       - [Copying and Moving Worksheets in Php](/cells/java/copying-and-moving-worksheets-in-php/)
       - [Managing Page Breaks in Php](/cells/java/managing-page-breaks-in-php/)
-- [Support, Extend and Contribute to Aspose.Cells in PHP](/cells/java/support-2c-extend-and-contribute-to-aspose-cells-in-php/)
+- [Support, Extend and Contribute to Aspose.Cells in PHP](/cells/java/support-extend-and-contribute-to-aspose-cells-in-php/)
 ## **System Requirements and Supported Platforms**
 ### **System Requirements**
 **Following are the system requirements to use Aspose.Cells Java for PHP:**
@@ -158,7 +158,7 @@ Please follow below simple steps to configure PHP/Java Bridge on Windows Platfor
 
 \3. Install Apache Tomcat 8.0. You can download it here
 
-4.Download [JavaBridge.war](http://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copy this file to tomcat webapps directory.
+4.Download [JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copy this file to tomcat webapps directory.
 (ex: C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps )
 
 \5. Restart tomcat apache service.

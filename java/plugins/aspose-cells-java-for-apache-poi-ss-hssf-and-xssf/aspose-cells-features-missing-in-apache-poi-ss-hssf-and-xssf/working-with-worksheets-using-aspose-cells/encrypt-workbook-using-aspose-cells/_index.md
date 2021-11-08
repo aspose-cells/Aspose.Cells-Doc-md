@@ -42,6 +42,6 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Encrypting Excel Files](http://www.aspose.com/docs/display/cellsjava/Encrypting+Excel+Files).
+For more details, visit [Encrypting Excel Files](/cells/java/encrypting-excel-files/).
 
 {{% /alert %}}

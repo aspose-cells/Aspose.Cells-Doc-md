@@ -6,7 +6,7 @@ url: /net/visual-studio-export-gridview-to-excel-control/
 ---
 
 ## **Introduction**
-Export GridView To Excel Control is an ASP.NET server control which allows exporting contents of GridView into Microsoft Excel or OpenOffice Spreadsheets using [Aspose.Cells](http://www.aspose.com/.net/excel-component.aspx). It adds **Export to Excel** button on top of the GridView control. Clicking the button dynamically exports the content of the GridView control to a Microsoft Excel or OpenOffice Spreadsheet and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
+Export GridView To Excel Control is an ASP.NET server control which allows exporting contents of GridView into Microsoft Excel or OpenOffice Spreadsheets using [Aspose.Cells](https://products.aspose.com/cells/net/). It adds **Export to Excel** button on top of the GridView control. Clicking the button dynamically exports the content of the GridView control to a Microsoft Excel or OpenOffice Spreadsheet and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
 ### **Module Features**
 This initial version of the control provides the following features:
 
@@ -47,7 +47,6 @@ You can download Export GridView To Excel Control from one of the following loca
 
 - [CodePlex ](https://asposecellsnet.codeplex.com/releases/view/617433)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Export_GridView_Excel)
-- [Visual Studio Gallery ](https://visualstudiogallery.msdn.microsoft.com/ce6e61a8-da1b-4b16-8825-c2d7fa0f45be)
 ## **Installing**
 It is very simple and easy to install Export GridView To Excel Control, please follow these simple steps
 ### **For Visual Studio 2010, 2012 and 2013**
@@ -154,8 +153,6 @@ You can log any issues or suggestions related to this control using any of the f
 
 - [CodePlex ](https://asposecellsnet.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [Visual Studio Gallery Q & A ](https://visualstudiogallery.msdn.microsoft.com/ce6e61a8-da1b-4b16-8825-c2d7fa0f45be)
-- [Code.MSDN Q & A ](https://code.msdn.microsoft.com/Aspose-NET-Export-GridView-601e98b0)
 ### **Extend and Contribute**
 Aspose .NET Export GridView To Excel Control for Visual Studio is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 #### **Source Code**
@@ -163,7 +160,6 @@ You can get the latest source code from one of the following locations
 
 - [CodePlex ](https://asposecellsnet.codeplex.com/SourceControl/latest#Plugins/VisualStudio/Aspose.Excel.GridViewExport/)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins)
-- [Code.MSDN ](https://code.msdn.microsoft.com/Aspose-NET-Export-GridView-601e98b0)
 #### **How to configure the source code**
 You need to have the following installed in order to open and extend the source code
 

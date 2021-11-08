@@ -7,7 +7,7 @@ url: /java/aspose-cells-java-1-7-5-0-hot-fix-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells Java 1.7.5.0 Hot Fix](http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-java-1.7.5.0-hot-fix/)
+This page contains release notes for [Aspose.Cells Java 1.7.5.0 Hot Fix](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-java-1.7.5.0-hot-fix/)
 
 {{% /alert %}} 
 

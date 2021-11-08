@@ -86,6 +86,6 @@ Download **Add Data in Cells** form any of the below mentioned social coding sit
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adding Data to Cells](http://www.aspose.com/docs/display/cellsnet/Adding+Data+to+Cells).
+For more details, visit [Adding Data to Cells](/cells/net/add-data-in-cells/).
 
 {{% /alert %}}

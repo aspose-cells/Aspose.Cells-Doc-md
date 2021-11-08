@@ -56,7 +56,7 @@ Here is simple usage scenario of Shape.Line property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Finding a DataPoint resides on the Second Plot](http://www.aspose.com/docs/display/cellsjava/Find+if+Data+Points+are+in+the+Second+Pie+or+Bar+on+a+Pie+of+Pie+or+Bar+of+Pie+Chart)
+Check the detailed article on [Finding a DataPoint resides on the Second Plot](/cells/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
 {{% /alert %}} 
 
@@ -108,7 +108,7 @@ Following is the simple usage scenario of OleObject.ClassIdentifier property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Using OleObject.ClassIdentifier](http://www.aspose.com/docs/display/cellsjava/Get+or+Set+the+Class+Identifier+of+the+Embedded+OLE+Object)
+Check the detailed article on [Using OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 
 {{% /alert %}} 
 

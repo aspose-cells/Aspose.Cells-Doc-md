@@ -6,7 +6,7 @@ url: /net/set-print-titles/
 ---
 
 ## **Aspose.Cells - Set Print Titles**
-Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [PageSetup](http://www.aspose.com/docs/display/cellsnet/PageSetup) class PrintTitleColumns and PrintTitleRows properties.
+Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [PageSetup](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class PrintTitleColumns and PrintTitleRows properties.
 
 The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
@@ -39,6 +39,6 @@ Download **Set Print Titles** form any of the below mentioned social coding site
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Setting Print Options](http://www.aspose.com/docs/display/cellsnet/Setting+Print+Options).
+For more details, visit [Setting Print Options](/cells/net/setting-print-options/).
 
 {{% /alert %}}

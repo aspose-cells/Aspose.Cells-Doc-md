@@ -39,7 +39,7 @@ The LoadDataFilterOptions enumeration provides the following selections.
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Filter Data for Loading](http://www.aspose.com/docs/display/cellsnet/Filtering+the+kind+of+data+while+loading+the+workbook+from+template+file).
+For more details on this feature, please review the detailed article on [Filter Data for Loading](/cells/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/).
 
 {{% /alert %}} 
 
@@ -66,12 +66,6 @@ var book = new Workbook(filePath, options);
 
 ### **Directly Convert Chart to PDF**
 Aspose.Cells APIs have already provided the facility to render charts to PDF while using the Chart.ToPdf method. With this release, the API has exposed another overloaded version of the said method that could accept an instance of Stream, allowing the users to save the chart's PDF in an instance of MemoryStream.
-
-{{% alert color="primary" %}} 
-
-For more details on this feature, please review the detailed article on [Converting Charts to PDF](http://www.aspose.com/docs/display/cellsnet/Converting+Chart+to+PDF).
-
-{{% /alert %}} 
 
 Following is the simple usage scenario.
 
@@ -133,7 +127,7 @@ This release of Aspose.Cells for .NET API has exposed the Shape.TextBody in orde
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Setting Shadow Effect for Text](http://www.aspose.com/docs/display/cellsnet/Setting+Shadow+of+Text+Effects+of+Shape+or+TextBox).
+For more details on this feature, please review the detailed article on [Setting Shadow Effect for Text](/cells/net/setting-shadow-of-text-effects-of-shape-or-textbox/).
 
 {{% /alert %}} 
 
@@ -175,17 +169,13 @@ Aspose.Cells for .NET 8.8.1 has exposed another overload for the CalculateFormul
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Direct Calculation of Custom Function](http://www.aspose.com/docs/display/cellsnet/Direct+calculation+of+custom+function+without+writing+it+in+a+worksheet).
+For more details on this feature, please review the detailed article on [Direct Calculation of Custom Function](/cells/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/).
 
 {{% /alert %}} 
 ### **Added GridCell.CreateValidation Method**
 Aspose.Cells.GridWeb has provided the ability to directly add the validation rule to a single cell while using the GridCell.CreateValidation method. The said method requires 2 parameters. First one is of type GridValidationType which determines the validation type, whereas the second parameter (isRequied) is of type Boolean.
 
-{{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Create Data Validation for a GridCell](http://www.aspose.com/docs/display/cellsnet/Create+Data+Validation+in+a+GridCell+of+GridWeb).
-
-{{% /alert %}} 
 
 **C#**
 

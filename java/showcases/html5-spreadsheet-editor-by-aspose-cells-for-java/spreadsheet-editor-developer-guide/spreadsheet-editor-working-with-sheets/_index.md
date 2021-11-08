@@ -31,7 +31,7 @@ To remove the currently selected sheet:
 
 The currently selected sheet will be removed and the editor will switch to last selected one.
 
-![todo:image_alt_text](http://i.imgur.com/4WGvMU8.png)
+![todo:image_alt_text](https://i.imgur.com/4WGvMU8.png)
 
 **How it works?**
 
@@ -107,7 +107,7 @@ To rename a sheet:
 
 The sheet will be renamed.
 
-![todo:image_alt_text](http://i.imgur.com/4WGvMU8.png)
+![todo:image_alt_text](https://i.imgur.com/4WGvMU8.png)
 
 **How it works?**
 
@@ -144,7 +144,7 @@ To switch to another sheet:
 
 The editor will switch to the selected sheet.
 
-![todo:image_alt_text](http://i.imgur.com/4WGvMU8.png)
+![todo:image_alt_text](https://i.imgur.com/4WGvMU8.png)
 
 **How it works?**
 

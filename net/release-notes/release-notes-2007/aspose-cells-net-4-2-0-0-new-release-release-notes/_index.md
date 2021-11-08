@@ -7,7 +7,7 @@ url: /net/aspose-cells-net-4-2-0-0-new-release-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells .Net 4.2.0.0 New Release](http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-.net-4.2.0.0-new-release/)
+This page contains release notes for [Aspose.Cells .Net 4.2.0.0 New Release](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-.net-4.2.0.0-new-release/)
 
 {{% /alert %}} 
 

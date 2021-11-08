@@ -7,7 +7,7 @@ url: /net/aspose-cells-for-net-8-7-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for .NET 8.7.0](http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.7.0/)
+This page contains release notes for [Aspose.Cells for .NET 8.7.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.7.0/)
 
 {{% /alert %}} 
 

@@ -40,7 +40,7 @@ using (Workbook book = new Workbook())
 
 
 ### **Method Cell.GetHeightOfValue Added**
-Aspose.Cells for .NET 8.5.1 has exposed the Cell.GetHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](http://www.aspose.com/docs/display/cellsnet/Calculate+the+Width+and+Height+of+the+Cell+Value+in+Unit+of+Pixels).
+Aspose.Cells for .NET 8.5.1 has exposed the Cell.GetHeightOfValue method to get the height of cell value. By using this method you can calculate height of the cell value and then set the height of the row of that cell respectively. Check the detailed article on [how to calculate the cell height & width](/cells/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
 ### **Enumeration TableDataSourceType Added**
 Aspose.Cells for .NET 8.5.1 has exposed the enumeration Aspose.Cells.Tables.TableDataSourceType to retrieve the data source type of a ListObject. The TableDataSourceType enumeration as following fields.
 

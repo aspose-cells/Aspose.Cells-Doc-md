@@ -55,10 +55,9 @@ only .NET framework 2.0 or greater.
 
 You can download the latest code at:
 
-- [Codeplex](http://goo.gl/x6gdD4)
-- [Github](http://goo.gl/sZsbbu)
-- [Sourceforge](http://goo.gl/AWc3J3)
-- [Bitbucket](http://goo.gl/8B9p3b)
+- [Github](https://github.com/asposemarketplace/Aspose_for_OpenXML/releases)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/)
 
 ### **Installing**
 
@@ -71,10 +70,9 @@ To open the project you need to download and install the latest version of Aspos
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 You can log any issues or suggestions related to Aspose .NET for OpenXML using any of the following platforms:
 
-- [Codeplex](http://goo.gl/LD4ZPz)
-- [Github](http://goo.gl/UHkCJe)
-- [Sourceforge](http://goo.gl/f8zdLU)
-- [Bitbucket](http://goo.gl/1Eo1DQ)
+- [Github](https://github.com/asposemarketplace/Aspose_for_OpenXML)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml)
 
 #### **Extend and Contribute**
 
@@ -84,10 +82,9 @@ Comparison code for Aspose.Cells for .Net and OpenXML source code is available o
 
 You can get the latest source code from one of the following locations.
 
-- [Codeplex](https://goo.gl/SB7Hjv)
-- [Github](https://goo.gl/gN0nf2)
-- [Sourceforge](https://goo.gl/noku6v)
-- [Bitbucket](https://goo.gl/T83r2D)
+- [Github](https://github.com/asposemarketplace/Aspose_for_OpenXML)
+- [Sourceforge](https://sourceforge.net/p/asposeopenxml/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/src)
 
 #### **How to configure the source code**
 
@@ -119,7 +116,7 @@ This section includes the following topics
   - [Calculate or Recalculate formulas dynamically](/cells/net/calculate-or-recalculate-formulas-dynamically/)
   - [Convert between Excel formats](/cells/net/convert-between-excel-formats/)
   - [Encrypting Excel Files using Aspose.Cells](/cells/net/encrypting-excel-files-using-aspose-cells/)
-  - [Generate reports, populate documents with data](/cells/net/generate-reports-2c-populate-documents-with-data/)
+  - [Generate reports, populate documents with data](/cells/net/generate-reports-populate-documents-with-data/)
     - [Import Export data from document](/cells/net/import-export-data-from-document/)
     - [Insert or Delete Rows or Columns](/cells/net/insert-or-delete-rows-or-columns/)
     - [Smart Markers feature in Aspose.Cells](/cells/net/smart-markers-feature-in-aspose-cells/)

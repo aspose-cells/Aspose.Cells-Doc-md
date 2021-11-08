@@ -12,7 +12,7 @@ You may get the java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.
 ### **Solution**
 The solution is actually very simple as detailed below.
 
-1. Download any major release of [Aspose.Cells for Java](http://www.aspose.com/downloads/cells/java).
+1. Download any major release of [Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
 1. Extract the downloaded archive and browse to \JDK 1.6\aspose-cells-x.x.0-java\lib directory.
 1. Reference the bcprov-jdk16-146.jar in the class path of the project.
 

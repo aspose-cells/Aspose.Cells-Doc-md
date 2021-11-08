@@ -83,16 +83,16 @@ Aspose.Cells.GridWeb also supports 59 types of number formats which are listed b
 |24 |\"$\"#,##0.00;(\"$\"#,##0.00) |
 |25 |\"$\"#,##0.00;(\"$\"#,##0.00) |
 |26 |\"$\"#,##0.00_);(\"$\"#,##0.00) |
-|27 |[M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
-|28 |[M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
-|29 |[M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
+|27 |M月D日|
+|28 |M月D日|
+|29 |M月D日|
 |30 |M/D/YY |
-|31 |[YYYY年M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.YYYY%e5%b9%b4M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
+|31 |YYYY年M月D日|
 |32 |h 时 mm 分 |
 |33 |h\ 时 \"mm\" 分 \"ss\" 秒 \" |
 |34 |tth 时 mm 分 |
 |35 |tth 时 mm 分 ss 秒 |
-|36 |[YYYY年M月](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.YYYY%e5%b9%b4M%e6%9c%88&return=Aspose.Grid.NumberFormats)|
+|36 |YYYY年M月|
 |37 |_(#,##0 );(#,##0) |
 |38 |_(#,##0 );(#,##0) |
 |39 |_(#,##0.00 );(#,##0.00) |
@@ -106,15 +106,15 @@ Aspose.Cells.GridWeb also supports 59 types of number formats which are listed b
 |47 |mm:ss.0 |
 |48 |##0.0E+0 |
 |49 |@ |
-|50 |[YYYY年M月](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.YYYY%e5%b9%b4M%e6%9c%88&return=Aspose.Grid.NumberFormats)|
-|51 |[M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
-|52 |[YYYY年M月](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.YYYY%e5%b9%b4M%e6%9c%88&return=Aspose.Grid.NumberFormats)|
-|53 |[M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
-|54 |[M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
+|50 |YYYY年M月|
+|51 |M月D日|
+|52 |YYYY年M月|
+|53 |M月D日|
+|54 |M月D日|
 |55 |tth 时 mm 分 |
 |56 |tth 时 mm 分 ss 秒 |
-|57 |[YYYY年M月](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.YYYY%e5%b9%b4M%e6%9c%88&return=Aspose.Grid.NumberFormats)|
-|58 |[M月D日](http://www.aspose.com/Wiki/wikiedit.aspx?topic=Aspose.Grid.M%e6%9c%88D%e6%97%a5&return=Aspose.Grid.NumberFormats)|
+|57 |YYYY年M月|
+|58 |M月D日|
 
 {{% alert color="primary" %}} 
 

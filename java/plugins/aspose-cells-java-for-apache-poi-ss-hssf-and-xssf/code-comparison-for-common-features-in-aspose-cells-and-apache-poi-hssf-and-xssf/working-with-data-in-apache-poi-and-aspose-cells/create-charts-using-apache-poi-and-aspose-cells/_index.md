@@ -155,6 +155,6 @@ Download source code for **Create Charts using Apache POI and Aspose.Cells** fro
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating Custom Charts](http://www.aspose.com/docs/display/cellsjava/Creating+Custom+Charts).
+For more details, visit [Creating Custom Charts](/cells/java/creating-and-customizing-charts/).
 
 {{% /alert %}}

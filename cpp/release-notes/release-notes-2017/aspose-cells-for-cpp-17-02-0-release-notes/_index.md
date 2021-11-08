@@ -285,9 +285,9 @@ It calculates the formula of cell in the worksheet.
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
-1. [Adding Formulas and Calculating Results](/cells/cpp/ways-to-calculate-formulas/#waystocalculateformulas-addingformulas&calculatingresults)
-1. [Direct Calculation of Formula](/cells/cpp/ways-to-calculate-formulas/#waystocalculateformulas-directcalculationofformula)
-1. [Calculating Formulas Once Only](/cells/cpp/ways-to-calculate-formulas/#waystocalculateformulas-calculatingformulasonceonly)
-1. [Using ICustomFunction Feature](/cells/cpp/using-icustomfunction-feature/#usingicustomfunctionfeature-usingicustomfunctionfeature) 
+1. [Adding Formulas and Calculating Results](/cells/cpp/ways-to-calculate-formulas#waystocalculateformulas-addingformulas&calculatingresults)
+1. [Direct Calculation of Formula](/cells/cpp/ways-to-calculate-formulas#waystocalculateformulas-directcalculationofformula)
+1. [Calculating Formulas Once Only](/cells/cpp/ways-to-calculate-formulas#waystocalculateformulas-calculatingformulasonceonly)
+1. [Using ICustomFunction Feature](/cells/cpp/using-icustomfunction-feature#usingicustomfunctionfeature-usingicustomfunctionfeature) 
 
 

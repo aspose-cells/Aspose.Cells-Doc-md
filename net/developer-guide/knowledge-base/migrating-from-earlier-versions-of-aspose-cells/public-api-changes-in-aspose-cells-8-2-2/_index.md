@@ -16,7 +16,7 @@ The new property Version has been added to the BuiltInDocumentPropertyCollection
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article [Get Version of the Application that Created the Spreadsheet](http://www.aspose.com/docs/display/cellsnet/Get+the+Version+Number+of+the+Application+that+created+the+Excel+document) for more information.
+Please check the detailed article [Get Version of the Application that Created the Spreadsheet](/cells/net/get-the-version-number-of-the-application-that-created-the-excel-document/) for more information.
 
 {{% /alert %}} 
 
@@ -38,7 +38,7 @@ Before the release of Aspose.Cells 8.2.2, it was not possible to retrieve the in
 
 {{% alert color="primary" %}} 
 
-Please check the detailed article [Get Worksheet of the Chart](http://www.aspose.com/docs/display/cellsnet/Get+Worksheet+of+the+Chart) for more information.
+Please check the detailed article [Get Worksheet of the Chart](/cells/net/get-worksheet-of-the-chart/) for more information.
 
 {{% /alert %}} 
 

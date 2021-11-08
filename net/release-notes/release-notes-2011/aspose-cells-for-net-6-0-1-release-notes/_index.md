@@ -7,7 +7,7 @@ url: /net/aspose-cells-for-net-6-0-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for .NET 6.0.1](http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-6.0.1/)
+This page contains release notes for [Aspose.Cells for .NET 6.0.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-6.0.1/)
 
 {{% /alert %}} 
 ### **We are happy to announce Aspose.Cells for .NET v6.0.1!<!-?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /->**

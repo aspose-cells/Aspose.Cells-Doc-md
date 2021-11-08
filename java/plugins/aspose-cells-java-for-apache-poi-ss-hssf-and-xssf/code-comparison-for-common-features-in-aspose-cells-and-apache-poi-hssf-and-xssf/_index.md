@@ -28,7 +28,7 @@ This section includes the following Code Comparison Examples:
   - [Create New Workbook](/cells/java/create-new-workbook/)
   - [Page Setup - Fit to Page Setting](/cells/java/page-setup-fit-to-page-setting/)
   - [Set Print Area](/cells/java/set-print-area/)
-- [Working with Cells, Rows and Columns in Apache POI and Aspose.Cells](/cells/java/working-with-cells-2c-rows-and-columns-in-apache-poi-and-aspose-cells/)
+- [Working with Cells, Rows and Columns in Apache POI and Aspose.Cells](/cells/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells/)
   - [Auto Fit Row and Column](/cells/java/auto-fit-row-and-column/)
   - [Cell Alignment Settings](/cells/java/cell-alignment-settings/)
   - [Hide and Unhide Cells](/cells/java/hide-and-unhide-cells/)

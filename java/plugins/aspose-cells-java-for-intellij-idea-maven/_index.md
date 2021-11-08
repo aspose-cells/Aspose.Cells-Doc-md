@@ -23,7 +23,7 @@ In a 2010 **Infoworld** report, IntelliJ received the highest test center score 
 
 - This plugin helps you to work with **Aspose.Cells for Java API** inside your favorite IntelliJ IDEA.
 
-![todo:image_alt_text](http://i.imgur.com/KWKGljg.png)
+![todo:image_alt_text](https://i.imgur.com/KWKGljg.png)
 
 **WIZARDS**:
 The plugin contains two wizards -----
@@ -95,7 +95,7 @@ To download IntellliJ IDEA
 
 ## **Video Demo**
 
-Please check [the video](https://youtu.be/8sHoB5Isq-A) below to see Aspose.Cells Maven Project Wizard and Aspose.Cells Example Wizard in action.
+Please check [the video](https://www.youtube.com/watch?v=8sHoB5Isq-A) below to see Aspose.Cells Maven Project Wizard and Aspose.Cells Example Wizard in action.
 
 ## **Support, Extend and Contribute**
 

@@ -43,6 +43,6 @@ Download **Printing Workbooks** form any of the below mentioned social coding si
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Printing Workbooks](http://www.aspose.com/docs/display/cellsnet/Printing+Workbooks).
+For more details, visit [Printing Workbooks](/cells/net/printing-workbooks/).
 
 {{% /alert %}}

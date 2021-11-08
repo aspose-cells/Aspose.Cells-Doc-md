@@ -7,7 +7,7 @@ url: /java/opendocument-ods/
 
 ## **About OpenDocument**
 
-The [OpenDocument format (ODF)](http://en.wikipedia.org/wiki/OpenDocument) is a free and open file format for electronic office documents originally developed by Sun for the Open Office suite. OpenDocument Spreadsheet (ODS) is the file format for Excel documents. OpenDocument is currently an OASIS and ISO standard.
+The [OpenDocument format (ODF)](https://en.wikipedia.org/wiki/OpenDocument) is a free and open file format for electronic office documents originally developed by Sun for the Open Office suite. OpenDocument Spreadsheet (ODS) is the file format for Excel documents. OpenDocument is currently an OASIS and ISO standard.
 
 ## **ODS in Aspose.Cells**
 

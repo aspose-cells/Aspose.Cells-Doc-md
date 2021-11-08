@@ -41,10 +41,7 @@ Please feel free to contact us if you wish to install these modules on other ver
 ## **Downloading**
 You can download Aspose .NET Dynamic Forms Builder for DNN module from one of the following locations
 
-- [CodePlex ](https://aspose-cellsdnn.codeplex.com/releases)
-- [DNN Store ](http://goo.gl/07GhJ6)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/)
-- [Microsoft Developer Network ](https://code.msdn.microsoft.com/AsposeCells-Dynamic-Forms-df168c5a)
 ## **Installing**
 Once downloaded, please follow these steps to install the module into your DNN website:
 
@@ -54,7 +51,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 1. As directed browse to the location of the downloaded zip file, select it then click **Open**.
 1. Click **Next**, accept the license, continue through the install. When finished click the **Return** button.
 
-Please check [this module installation video](http://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
+Please check [this module installation video](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
 ## **Using**
 After you have installed the Aspose .NET Dynamic Forms Builder for DNN module, it is really simple to start using it on your website. Please follow these simple steps to get started:
 
@@ -91,7 +88,7 @@ You have successfully added Aspose .NET Dynamic Forms Builder for DNN module to 
 |**![todo:image_alt_text](aspose-cells-forms-for-dnn_7)**|**![todo:image_alt_text](aspose-cells-forms-for-dnn_8)**|
 | :- | :- |
 ## **Video Demo**
-Please check [the video](https://youtu.be/yTNBfw1zUO4) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=yTNBfw1zUO4) below to see the module in action.
 
 ## **Support, Extend and Contribute**
 ### **Support**
@@ -100,24 +97,18 @@ From the very first days of Aspose, we knew that just giving our customers good 
 This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
 You can log any issues or suggestions related to Aspose.Cells .NET for DNN Modules using any of the following platforms
-
-- [CodePlex ](https://aspose-cellsdnn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [DNN Store ](http://goo.gl/07GhJ6)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/AsposeCells-Dynamic-Forms-df168c5a/view/Discussions#content)
 ### **Extend and Contribute**
 Aspose .NET Dynamic Forms Builder module for DNN is an open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 #### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://aspose-cellsdnn.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/DNN)
-- [Microsoft Developer Network ](https://code.msdn.microsoft.com/AsposeCells-Dynamic-Forms-df168c5a)
 #### **How to configure the source code**
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](http://www.aspose.com/docs/display/totalnet/Aspose+DNN+Module+Development+Template)
+- [DNN Development Template](/total/net/aspose-dnn-module-development-template/)
 
 Please follow these simple steps to get started
 

@@ -58,7 +58,7 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
-Besides creating new Named Ranges, Aspose.Cells for C++ APIs also support to manipulate existing Named Ranges. The following code snippet uses the Aspose.Cells for C++ API to [manipulate an existing named range](/cells/cpp/manipulate-named-range-in-a-workbook/)[](http://www.aspose.com/docs/display/cellscpp/Manipulate+Named+Range+in+a+Workbook).
+Besides creating new Named Ranges, Aspose.Cells for C++ APIs also support to manipulate existing Named Ranges. The following code snippet uses the Aspose.Cells for C++ API to [manipulate an existing named range](/cells/cpp/manipulate-named-range-in-a-workbook/).
 
 **C++**
 

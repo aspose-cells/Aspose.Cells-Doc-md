@@ -29,7 +29,7 @@ Aspose.Cells for Java 8.8.3 has exposed the addActiveXControl method that allows
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Adding ActiveX Controls to Worksheet](http://www.aspose.com/docs/display/cellsjava/Add+ActiveX+Controls+using+Aspose.Cells).
+For more details on this feature, please review the detailed article on [Adding ActiveX Controls to Worksheet](/cells/java/add-activex-controls-using-aspose-cells/).
 
 {{% /alert %}} 
 
@@ -67,7 +67,7 @@ Aspose.Cells for Java 8.8.3 allows to set the default print paper size from the 
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Load Spreadsheets with Specified Paper Size](http://www.aspose.com/docs/display/cellsjava/Load+Workbook+with+specified+Printer+Paper+Size).
+For more details on this feature, please review the detailed article on [Load Spreadsheets with Specified Paper Size](/cells/java/load-workbook-with-specified-printer-paper-size/).
 
 {{% /alert %}} 
 
@@ -125,7 +125,7 @@ Aspose.Cells for Java 8.8.3 has exposed the OleObject.AutoLoad property which al
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Automatically Refresh OleObjects](http://www.aspose.com/docs/display/cellsjava/Automatically+refresh+OLE+object+via+Microsoft+Excel+using+Aspose.Cells).
+For more details on this feature, please review the detailed article on [Automatically Refresh OleObjects](/cells/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
 
 {{% /alert %}} 
 
@@ -161,7 +161,7 @@ Aspose.Cells for Java 8.8.3 has exposed the HTMLLoadOptions.SupportDivTag proper
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Support Inner DIV Tags while Loading HTML](http://www.aspose.com/docs/display/cellsjava/Support+the+layout+of+DIV+tags+while+loading+html+to+excel+workbook).
+For more details on this feature, please review the detailed article on [Support Inner DIV Tags while Loading HTML](/cells/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
@@ -257,7 +257,7 @@ Aspose.Cells for Java 8.8.3 has exposed the HtmlSaveOptions.ExportGridLines prop
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Render Grid Lines to HTML](http://www.aspose.com/docs/display/cellsjava/Export+Excel+to+HTML+with+GridLines).
+For more details on this feature, please review the detailed article on [Render Grid Lines to HTML](/cells/java/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 
@@ -289,7 +289,7 @@ Aspose.Cells APIs now allow to get and set the comments for an instance of ListO
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Adding Comments for ListObjects](http://www.aspose.com/docs/display/cellsjava/Set+the+Comment+of+Table+or+List+Object+inside+the+Worksheet).
+For more details on this feature, please review the detailed article on [Adding Comments for ListObjects](/cells/java/set-the-comment-of-table-or-list-object/).
 
 {{% /alert %}} 
 

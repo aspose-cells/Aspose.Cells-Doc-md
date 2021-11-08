@@ -9,7 +9,6 @@ You can download the latest source code at:
 
 - [CodePlex](https://asposenetcrm.codeplex.com/SourceControl/latest#Aspose.Plugins.UpdateImportTool/).
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Update-Import-1f94d3f9/view/SourceCode#content).
 
 Export Data from CRM to Excel
 

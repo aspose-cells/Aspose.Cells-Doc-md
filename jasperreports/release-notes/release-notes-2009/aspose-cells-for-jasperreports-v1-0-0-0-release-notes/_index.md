@@ -7,7 +7,7 @@ url: /jasperreports/aspose-cells-for-jasperreports-v1-0-0-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for JasperReports v1.0.0.0](http://www.aspose.com/downloads/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-v1.0.0.0/)
+This page contains release notes for [Aspose.Cells for JasperReports v1.0.0.0](https://downloads.aspose.com/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-v1.0.0.0/)
 
 {{% /alert %}} 
 

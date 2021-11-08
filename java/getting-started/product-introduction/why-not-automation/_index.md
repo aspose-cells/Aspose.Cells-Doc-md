@@ -14,7 +14,7 @@ There are two questions that we hear most often here at Aspose:
 1. **Do your products require Microsoft Office to be installed in order for them to run?** 
    The simple answer is no. Aspose components are totally independent and are not affiliated with, nor authorized, sponsored, or otherwise approved by Microsoft Corporation.
 1. **Why should we use Aspose products rather than utilizing Microsoft Office automation?**
-   The shortest answer we could give is that there are many reasons, with the main one being that Microsoft themselves strongly recommends against Office automation from software solutions: [Considerations for server-side Automation of Office](https://support.microsoft.com/en-us/help/257757/considerations-for-server-side-automation-of-office).
+   The shortest answer we could give is that there are many reasons, with the main one being that Microsoft themselves strongly recommends against Office automation from software solutions: [Considerations for server-side Automation of Office](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
 
 There are several reasons why Aspose components are a better alternative to automation. Some of the key reasons are:
 
@@ -54,7 +54,7 @@ When creating web-based applications it is important to know that Microsoft Offi
 
 ## **Features**
 
-Aspose components provide everything needed for managing Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work. Unlike Office automation, Aspose components provide many powerful, time-saving functions. For instance, [Aspose.Cells](https://products.aspose.com/cells/java/) offers developers the ability to export from a **DataTable** or **DataView** directly into an Excel File. [Every component](https://products.aspose.com/total) in the Aspose family offers its own set of unique, powerful features.
+Aspose components provide everything needed for managing Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work. Unlike Office automation, Aspose components provide many powerful, time-saving functions. For instance, [Aspose.Cells](https://products.aspose.com/cells/java/) offers developers the ability to export from a **DataTable** or **DataView** directly into an Excel File. [Every component](https://products.aspose.com/total/) in the Aspose family offers its own set of unique, powerful features.
 
 The best part of purchasing an Aspose component or a component suite is having access to our development teams. Our development teams realize that if there is a feature that your company needs, more than likely other companies will need it as well. While not every feature request can be added, our teams try to be very open-minded and flexible when providing assistance. That mindset is what has helped Aspose components to become as powerful as they are. If there are additional features that you need from Office automation objects, your chances of having them added are very, very low.
 
@@ -62,10 +62,10 @@ The best part of purchasing an Aspose component or a component suite is having a
 
 {{% alert color="primary" %}}
 
-This article has covered the key points on why Aspose components are a better choice than Office automation. All of the different Aspose components offer a risk-free, no-obligation [evaluation version](https://products.aspose.com/total). We encourage you to take advantage of that evaluation in order to better see what Aspose can do for your applications.
+This article has covered the key points on why Aspose components are a better choice than Office automation. All of the different Aspose components offer a risk-free, no-obligation [evaluation version](https://products.aspose.com/total/). We encourage you to take advantage of that evaluation in order to better see what Aspose can do for your applications.
 
 For more information, see the following Internet articles:
 
-- [Considerations for Server-Side Automation of Office](https://support.microsoft.com/en-us/help/257757/considerations-for-server-side-automation-of-office)
+- [Considerations for Server-Side Automation of Office](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2)
 
 {{% /alert %}}

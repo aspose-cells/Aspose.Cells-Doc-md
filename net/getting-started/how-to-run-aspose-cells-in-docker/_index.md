@@ -213,6 +213,6 @@ docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type
 
 - [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
 - [Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
-- [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites?tabs=netcore31#prerequisites-to-develop-net-core-apps-with-visual-studio)
+- [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
 - [Switch to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) option
 - Additional information on [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)

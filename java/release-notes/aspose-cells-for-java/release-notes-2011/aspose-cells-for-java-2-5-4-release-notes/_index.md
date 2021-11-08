@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-2-5-4-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Java 2.5.4](http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.5.4/)
+This page contains release notes for [Aspose.Cells for Java 2.5.4](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.5.4/)
 
 {{% /alert %}} 
 ### **We are happy to announce Aspose.Cells for Java v2.5.4!**

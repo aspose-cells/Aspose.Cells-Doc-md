@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-7-6-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Java 7.6.0](http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-7.6.0/)
+This page contains release notes for [Aspose.Cells for Java 7.6.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.6.0/)
 
 {{% /alert %}} 
 

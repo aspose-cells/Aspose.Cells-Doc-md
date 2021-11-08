@@ -53,7 +53,7 @@ Further, Aspose.Cells adds a custom chart API and efficient formula calculation 
 
 ### **Try Aspose.Cells for Java**
 
-Aspose.Cells for Java has a huge list of features. To find out more about the features and for the Programmer’s Guide, please check [the documentation](https://docs.aspose.com/cells/java/) and [online demos](https://github.com/aspose-cells/Aspose.Cells-for-Java).
+Aspose.Cells for Java has a huge list of features. To find out more about the features and for the Programmer’s Guide, please check [the documentation](/cells/java/) and [online demos](https://github.com/aspose-cells/Aspose.Cells-for-Java).
 
 Please try the component to see the difference between it and its competitors. The evaluation version is totally free without any time limitation. [Download](https://downloads.aspose.com/cells/java) the evaluation version for free.
 

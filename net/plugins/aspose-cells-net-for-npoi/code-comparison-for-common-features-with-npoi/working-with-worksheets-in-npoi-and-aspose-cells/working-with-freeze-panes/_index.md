@@ -71,6 +71,6 @@ Download **Working with Freeze Panes** form any of the below mentioned social co
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with Worksheets](http://www.aspose.com/docs/display/cellsnet/Working+with+Worksheets).
+For more details, visit [Working with Worksheets](/cells/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

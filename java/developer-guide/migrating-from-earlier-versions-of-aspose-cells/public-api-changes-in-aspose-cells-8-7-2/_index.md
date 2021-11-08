@@ -26,7 +26,7 @@ Above mentioned APIs allow to implement custom calculation engine for all functi
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Implementing Custom Calculation Engine](http://www.aspose.com/docs/display/cellsjava/Implement+Custom+Calculation+Engine+to+extend+the+Default+Calculation+Engine+of+Aspose.Cells)
+For more details on this feature, please review the detailed article on [Implementing Custom Calculation Engine](/cells/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}} 
 
@@ -66,7 +66,7 @@ Aspose.Cells for Java 8.7.2 has exposed the overloaded indexer for the TextBoxCo
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Accessing the TextBox via its Name](http://www.aspose.com/docs/display/cellsjava/Access+the+Text+Box+by+the+Name)
+For more details on this feature, please review the detailed article on [Accessing the TextBox via its Name](/cells/java/access-the-text-box-by-the-name/)
 
 {{% /alert %}} 
 

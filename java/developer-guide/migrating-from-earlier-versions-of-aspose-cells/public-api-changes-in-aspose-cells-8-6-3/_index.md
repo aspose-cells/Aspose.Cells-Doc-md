@@ -34,7 +34,7 @@ cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
 ### **Method Workbook.createBuiltinStyle Added**
-Aspose.Cells for Java 8.6.3 has exposed the Workbook.createBuiltinStyle method that can be used to create an object of the Style class that corresponds to one of the [built-in styles offered by the Excel application](http://www.aspose.com/docs/display/cellsjava/Using+Built-in+Styles). The Workbook.createBuiltinStyle method accepts a constant from the enumeration BuiltinStyleType. Please note, with previous releases of the Aspose.Cells APIs, same task could be accomplished via StyleCollection.createBuiltinStyle method but as the recent releases of Aspose.Cells APIs have removed the StyleCollection class therefore the newly exposed Workbook.createBuiltinStyle method can be considered as an alternative approach to achieve the same.
+Aspose.Cells for Java 8.6.3 has exposed the Workbook.createBuiltinStyle method that can be used to create an object of the Style class that corresponds to one of the [built-in styles offered by the Excel application](/cells/java/using-built-in-styles/). The Workbook.createBuiltinStyle method accepts a constant from the enumeration BuiltinStyleType. Please note, with previous releases of the Aspose.Cells APIs, same task could be accomplished via StyleCollection.createBuiltinStyle method but as the recent releases of Aspose.Cells APIs have removed the StyleCollection class therefore the newly exposed Workbook.createBuiltinStyle method can be considered as an alternative approach to achieve the same.
 
 Following is the simple usage scenario.
 
@@ -54,7 +54,7 @@ Style style = book.createBuiltinStyle(BuiltinStyleType.TITLE);
 
 {{< /highlight >}}
 ### **Property LoadDataOption.OnlyVisibleWorksheet Added**
-Aspose.Cells for Java 8.6.3 has exposed the LoadDataOption.OnlyVisibleWorksheet property which upon setting to true will influence the loading mechanism of Aspose.Cells for Java API, as a result only visible worksheets from a given spreadsheet will be loaded. Please check a [detailed article](http://www.aspose.com/docs/display/cellsjava/Load+Visible+Sheets+Only) on this subject.
+Aspose.Cells for Java 8.6.3 has exposed the LoadDataOption.OnlyVisibleWorksheet property which upon setting to true will influence the loading mechanism of Aspose.Cells for Java API, as a result only visible worksheets from a given spreadsheet will be loaded.
 
 Following is the simple usage scenario.
 

@@ -50,7 +50,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-Please check the article [Showing Cell Range as the Data Labels](http://www.aspose.com/docs/display/cellsjava/Showing+Cell+Range+as+the+Data+Labels) for more information.
+Please check the article [Showing Cell Range as the Data Labels](/cells/java/showing-cell-range-as-the-data-labels/) for more information.
 
 {{% /alert %}} 
 
@@ -93,7 +93,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-Please check the article [Accessing Table from Cell and Adding Values inside it using Row and Column Offsets](http://www.aspose.com/docs/display/cellsjava/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) for more information.
+Please check the article [Accessing Table from Cell and Adding Values inside it using Row and Column Offsets](/cells/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/) for more information.
 
 {{% /alert %}} 
 
@@ -136,7 +136,7 @@ workbook.save("ODF1.1.ods", options);
 
 {{% alert color="primary" %}} 
 
-Please check the article [Save ODS file in ODF 1.1 and 1.2 Specifications](http://www.aspose.com/docs/display/cellsjava/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) for more information.
+Please check the article [Save ODS file in ODF 1.1 and 1.2 Specifications](/cells/java/save-ods-file-in-odf-1-1-and-1-2-specifications/) for more information.
 
 {{% /alert %}} 
 
@@ -184,6 +184,6 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-Please check the article [Copy Sparkline by Specifying Data Range and Location of Sparkline Group](http://www.aspose.com/docs/display/cellsjava/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) for more information.
+Please check the article [Copy Sparkline by Specifying Data Range and Location of Sparkline Group](/cells/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) for more information.
 
 {{% /alert %}}

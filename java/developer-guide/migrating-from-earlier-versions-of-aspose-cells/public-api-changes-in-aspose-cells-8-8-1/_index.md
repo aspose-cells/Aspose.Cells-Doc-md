@@ -39,7 +39,7 @@ The LoadDataFilterOptions enumeration provides the following selections.
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Filter Data for Loading](http://www.aspose.com/docs/display/cellsjava/Filtering+the+kind+of+data+while+loading+the+workbook+from+template+file).
+For more details on this feature, please review the detailed article on [Filter Data for Loading](/cells/java/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/).
 
 {{% /alert %}} 
 
@@ -64,12 +64,6 @@ Workbook book = new Workbook(filePath, options);
 {{< /highlight >}}
 ### **Directly Convert Chart to PDF**
 Aspose.Cells APIs have already provided the facility to render charts to PDF while using the Chart.toPdf method. With this release, the API has exposed another overloaded version of the said method that could accept an instance of OutputStream, allowing the users to save the chart's PDF in an instance of ByteArrayOutputStream.
-
-{{% alert color="primary" %}} 
-
-For more details on this feature, please review the detailed article on [Converting Charts to PDF](http://www.aspose.com/docs/display/cellsjava/Converting+Chart+to+PDF).
-
-{{% /alert %}} 
 
 Following is the simple usage scenario.
 
@@ -123,7 +117,7 @@ This release of Aspose.Cells for Java API has exposed the Shape.TextBody in orde
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Setting Shadow Effect for Text](http://www.aspose.com/docs/display/cellsjava/Setting+Shadow+of+Text+Effects+of+Shape+or+TextBox).
+For more details on this feature, please review the detailed article on [Setting Shadow Effect for Text](/cells/java/setting-shadow-of-text-effects-of-shape-or-textbox/).
 
 {{% /alert %}} 
 
@@ -165,17 +159,11 @@ Aspose.Cells for Java 8.8.1 has exposed another overload for the Worksheet.calcu
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Direct Calculation of Custom Function](http://www.aspose.com/docs/display/cellsjava/Direct+calculation+of+custom+function+without+writing+it+in+a+worksheet).
+For more details on this feature, please review the detailed article on [Direct Calculation of Custom Function](/cells/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/).
 
 {{% /alert %}} 
 ### **Added GridCell.createValidation Method**
 Aspose.Cells.GridWeb has provided the ability to directly add the validation rule to a single cell while using the GridCell.createValidation method. The said method requires 2 parameters. First one is of type GridValidationType which determines the validation type, whereas the second parameter (isRequied) is of type Boolean.
-
-{{% alert color="primary" %}} 
-
-For more details on this feature, please review the detailed article on [Create Data Validation for a GridCell](http://www.aspose.com/docs/display/cellsjava/Create+Data+Validation+in+a+GridCell+of+GridWeb).
-
-{{% /alert %}} 
 
 **Java**
 

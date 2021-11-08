@@ -16,7 +16,7 @@ Aspose.Cells for .NET 8.8.2 has exposed the overloaded versions of the Cells.Del
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Deleting Blank Rows & Columns with Updated References](http://www.aspose.com/docs/display/cellsnet/Update+references+in+other+worksheets+while+deleting+blank+columns+and+rows+in+a+worksheet).
+For more details on this feature, please review the detailed article on [Deleting Blank Rows & Columns with Updated References](/cells/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/
 
 {{% /alert %}} 
 

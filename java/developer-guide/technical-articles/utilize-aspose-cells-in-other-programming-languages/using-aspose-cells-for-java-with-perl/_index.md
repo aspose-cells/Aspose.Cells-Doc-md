@@ -18,7 +18,7 @@ The following software and libraries are required.
 - Java - Perl extension.
 - Java runtime that meets the requirement of Aspose.Cells for Java and Java-Perl extension.
 ### **Guide**
-To call a Java API in Perl, you need to install the Java-Perl extension for Perl first. (For the purposes of this article, we assume that Perl has been installed and set properly.) You can get the Java-Perl extension from [http://search.cpan.org/metzzo/Java-4.7/](http://search.cpan.org/~metzzo/Java-4.7/)
+To call a Java API in Perl, you need to install the Java-Perl extension for Perl first. (For the purposes of this article, we assume that Perl has been installed and set properly.) You can get the Java-Perl extension from [Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
 
 At the end of this document, there is an example of Perl script that calls Aspose.Cells for Java. To run it, follow the following steps: 
 
@@ -40,7 +40,7 @@ To use Aspose.Cells for Java, should contain two JAR file at least:
 1. **JavaServer.jar** from Java-4.7.tar.gz
 1. Run the Perl script which invokes the Aspose.Cells for Java API.
 
-For more information on how to work with Java in Perl, see documentation of Java - Perl extension at [http://search.cpan.org/metzzo/Java-4.7/](http://search.cpan.org/~metzzo/Java-4.7/)
+For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
 **Java**
 

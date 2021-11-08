@@ -6,7 +6,7 @@ url: /java/page-setup-fit-to-page-setting/
 ---
 
 ## **Aspose.Cells - Page Setup - Fit to Page Setting**
-To fit the contents of the worksheet to a specific number of pages, use the [PageSetup](http://www.aspose.com/docs/display/cellsjava/PageSetup) class' setFitToPagesTall and setFitToPagesWide methods. These methods are also used to scale worksheets.
+To fit the contents of the worksheet to a specific number of pages, use the [PageSetup](/cells/java/page-setup-fit-to-page-setting/) class' setFitToPagesTall and setFitToPagesWide methods. These methods are also used to scale worksheets.
 
 **Java**
 
@@ -62,7 +62,7 @@ ps.setFitWidth((short) 1);
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Download Sample Code**
 - [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/cells/examples/featurescomparison/workbook/fittoonepage/)
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/fittoonepage)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/fittoonepage)
 
 {{% alert color="primary" %}} 
 

@@ -11,7 +11,7 @@ When you copy rows or range which contains charts to a new worksheet, then the d
 
 ## **Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range**
 
-The following sample code explains the usage of [**CopyOptions.ReferToDestinationSheet**](https://apireference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) property while copying rows or range containing charts to a new worksheet. The code uses the [sample excel file](attachments/5013542/5113699.xlsx) and generates the [output excel file](attachments/5013542/5113697.xlsx).
+The following sample code explains the usage of [**CopyOptions.ReferToDestinationSheet**](https://apireference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) property while copying rows or range containing charts to a new worksheet. The code uses the [sample excel file](5113699.xlsx) and generates the [output excel file](5113697.xlsx).
 
 ![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 

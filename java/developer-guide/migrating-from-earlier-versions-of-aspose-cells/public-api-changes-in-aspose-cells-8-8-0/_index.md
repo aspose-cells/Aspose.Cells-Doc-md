@@ -20,7 +20,7 @@ Aspose.Cells for Java 8.8.0 has exposed the following new properties that are he
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Find Query Tables and List Objects related to External Data Connections](http://www.aspose.com/docs/display/cellsjava/Find+Query+Tables+and+List+Objects+related+to+External+Data+Connections)
+For more details on this feature, please review the detailed article on [Find Query Tables and List Objects related to External Data Connections](/cells/java/find-query-tables-and-list-objects-related-to-external-data-connections/)
 
 {{% /alert %}} 
 ### **Added HTMLLoadOptions.KeepPrecision Property**
@@ -28,7 +28,7 @@ Aspose.Cells for Java 8.8.0 has added the HTMLLoadOptions.KeepPrecision property
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Avoid the Conversion of Large Numeric Values to Exponential Notation ](http://www.aspose.com/docs/display/cellsjava/Avoid+exponential+notation+of+large+numbers+while+importing+from+Html)
+For more details on this feature, please review the detailed article on [Avoid the Conversion of Large Numeric Values to Exponential Notation ](/cells/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)
 
 {{% /alert %}} 
 
@@ -86,7 +86,7 @@ Aspose.Cells for Java 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpace
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Delete Redundant Spaces from HTML](http://www.aspose.com/docs/display/cellsjava/Delete+redundant+spaces+after+line+break+while+importing+Html)
+For more details on this feature, please review the detailed article on [Delete Redundant Spaces from HTML](/cells/java/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 
@@ -160,7 +160,7 @@ Aspose.Cells for Java 8.8.0 has exposed the Style.QuotePrefix property in order 
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Detect Single Quote at the Start of Cell Value](http://www.aspose.com/docs/display/cellsjava/Find+if+the+cell+value+starts+with+single+quote+mark)
+For more details on this feature, please review the detailed article on [Detect Single Quote at the Start of Cell Value](/cells/java/find-if-the-cell-value-starts-with-single-quote-mark/)
 
 {{% /alert %}} 
 

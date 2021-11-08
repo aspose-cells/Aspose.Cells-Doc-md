@@ -11,13 +11,13 @@ description: "setup Aspose.Cells for PHP via Java and installation guidelines."
 
 
 ## **System Requirements**
-Aspose.Cells for PHP via Java is platform independent API and can be used on any platform (Windows, Linux, MacOS etc.) where [PHP](http://www.php.net/downloads.php) 7 or greater versions is installed. The machine must have Oracle JDK 7 or greater versions before setting up the installation.
+Aspose.Cells for PHP via Java is platform independent API and can be used on any platform (Windows, Linux, MacOS etc.) where [PHP](https://www.php.net/downloads.php) 7 or greater versions is installed. The machine must have Oracle JDK 7 or greater versions before setting up the installation.
 ## **Installation and Usage**
 Aspose.Cells for PHP via Java is distributed as a ZIP archive.
 
 To setup environment, install and use Aspose.Cells for PHP via Java, follow the instructions:
 ### **Linux:**
-- Download [PHP](http://www.php.net/downloads.php) source and  install it. Or, use “sudo apt install php-xxx” command to install php binary.
+- Download [PHP](https://www.php.net/downloads.php) source and  install it. Or, use “sudo apt install php-xxx” command to install php binary.
 - Install Oracle JDK (1.7 or 1.8) for Linux, configure JAVA_HOME environment variable.
 - Download/Get "Aspose.Cells for PHP via Java" API and extract it. There will be a folder named "aspose.cells".
 - Run “PHP/Java Bridge” in the above folder with below command.
@@ -29,7 +29,7 @@ To setup environment, install and use Aspose.Cells for PHP via Java, follow the 
 |$ php example.php|
 | :- |
 ### **Windows:**
-- Download [PHP](http://php.net/downloads.php) windows binary and add "php.exe" to PATH.
+- Download [PHP](https://www.php.net/downloads.php) windows binary and add "php.exe" to PATH.
 - Install Oracle JDK (1.7 or 1.8) for Windows and configure JAVA_HOME environment variable.
 - Download "Aspose.Cells for PHP via Java" API and extract it. There will be a folder named "aspose.cells".
 - Run “PHP/Java Bridge” in the above folder with below command. Select 8080 http listener port when the bridge started and click OK button.
@@ -41,7 +41,7 @@ To setup environment, install and use Aspose.Cells for PHP via Java, follow the 
 |> php example.php|
 | :- |
 ### **Mac:**
-- Install [PHP](http://www.php.net/downloads.php).
+- Install [PHP](https://www.php.net/downloads.php).
 - Install Oracle JDK (1.7 or 1.8) for Mac, configure JAVA_HOME environment variable.
 - Download "Aspose.Cells for PHP via Java" API and extract it. There will be a folder named "aspose.cells".
 - Run “PHP/Java Bridge” in the above folder with below command. Select 8080 http listener port when the bridge started and click OK button.

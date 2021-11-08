@@ -100,6 +100,6 @@ Download source code for **Create Date Cell in Aspose.Cells and Apache POI** fro
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adding Data to Cells](http://www.aspose.com/docs/display/cellsjava/Adding+Data+to+Cells).
+For more details, visit [Adding Data to Cells](/cells/java/add-data-in-cells/).
 
 {{% /alert %}}

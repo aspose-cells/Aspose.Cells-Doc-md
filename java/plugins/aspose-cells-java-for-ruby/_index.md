@@ -29,7 +29,7 @@ Project Aspose.Cells Java for Ruby shows how different tasks can be performed us
 ### **Download Required Libraries**
 Download required libraries mentioned below. These are the required for executing Aspose.Cells Java for Ruby examples.
 
-- [Aspose.Cell for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/)
+- [Aspose.Cell for Java Component](https://downloads.aspose.com/cells/java/)
 ### **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:
 
@@ -149,4 +149,4 @@ You can get the latest source code from one of the following locations:
     - [Grouping and Ungrouping Rows and Columns in Ruby](/cells/java/grouping-and-ungrouping-rows-and-columns-in-ruby/)
     - [Hiding and Showing Rows and Columns in Ruby](/cells/java/hiding-and-showing-rows-and-columns-in-ruby/)
     - [Inserting and Deleting Rows and Columns in Ruby](/cells/java/inserting-and-deleting-rows-and-columns-in-ruby/)
-- [Support, Extend and Contribute to Aspose.Cells in Ruby](/cells/java/support-2c-extend-and-contribute-to-aspose-cells-in-ruby/)
+- [Support, Extend and Contribute to Aspose.Cells in Ruby](/cells/java/support-extend-and-contribute-to-aspose-cells-in-ruby/)

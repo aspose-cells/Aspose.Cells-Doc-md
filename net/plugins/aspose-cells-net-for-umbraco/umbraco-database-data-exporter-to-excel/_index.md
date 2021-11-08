@@ -48,11 +48,10 @@ You can download Aspose .NET Cells Database Data Exporter to Excel for Umbraco m
 - [CodePlex ](https://aspose-cellsdnn.codeplex.com/releases)
 - [Umbraco Projects ](https://goo.gl/BPrWm2)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsUmbracoDatatoExcel)
-- [Code.MSDN ](https://code.msdn.microsoft.com/Aspose-NET-Database-Data-ccabeee5)
 ## **Installing**
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
-1. Log in to the Umbraco **Developer** section, for example <http://www.myblog.com/umbraco/>
+1. Log in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco`
 1. From the tree, expand the **Packages** folder.
 1. From here there are two ways to install a package: select **Install local package** or browse the **Umbraco Package Respository.**
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
@@ -63,7 +62,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 ## **Using**
 After you have installed Aspose .NET Database Data Exporter to Excel for Umbraco module it is really simple to start using it on your website. Please follow these simple steps to get started
 
-1. Make sure you are logged in to the Umbraco **Developer** section, for example <http://www.myblog.com/umbraco/>
+1. Make sure you are logged in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco/`
 1. Click **Settings** in the list of sections in the bottom left of the screen.
 1. Expand the **Templates** node and select the template that you want to add to, for example Textpage.
 1. Select the position in the selected template where you want to export button to be added. Usually you may want to add it to the top right of the page, or the bottom of the page.
@@ -96,7 +95,6 @@ You can log any issues or suggestions related to Aspose.Words .NET for Umbraco M
 
 - [CodePlex ](https://aspose-cellsumbraco.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Aspose-NET-Database-Data-ccabeee5/view/Discussions#content)
 ### **Extend and Contribute**
 Export Members to Excel is an open source Add-on and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 #### **Source Code**
@@ -104,7 +102,6 @@ You can get the latest source code from one of the following locations
 
 - [CodePlex ](https://aspose-cellsumbraco.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.DatabaseDataExportertoExcel)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Database-Data-ccabeee5)
 #### **How to configure the source code**
 You need to have the following installed in order to open and extend the source code
 
