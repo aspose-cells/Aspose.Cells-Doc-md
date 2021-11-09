@@ -149,13 +149,10 @@ url: /net/developer-guide/
             <li><a href="/cells/net/aspose-cells-object-model/#picturecollectionpicture">PictureCollection/Picture(in Aspose.Cells)</a></li>
             <li><a href="/cells/net/insert-a-linked-picture-from-web-address/">Insert a Linked Picture from Web Address</a></li>
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
-            <li><a href="/cells/net/add-image-in-worksheet/#asposecells---add-image-in-worksheet">Add Image in Worksheet</a></li>
-            <li><a href="/cells/net/managing-pictures/#adding-pictures">Adding Pictures in Aspose.Cells</a></li>
+            <li><a href="/cells/net/add-image-in-worksheet/#asposecells---add-image-in-worksheet">Insert Image in Worksheet</a></li>
+            <li><a href="/cells/net/managing-pictures/#adding-pictures">Insert Picture in Aspose.Cells</a></li>
             <li><a href="/cells/net/managing-pictures/#positioning-pictures">Positioning Pictures in Aspose.Cells</a></li>
             <li><a href="/cells/net/managing-pictures/#inserting-a-picture-based-on-cell-reference">Inserting a Picture Based on Cell Reference in Aspose.Cells</a></li>
-            <li><a href="/cells/net/managing-pictures-in-a-worksheet/#adding-pictures">Adding Pictures in Aspose.Cells.GridDesktop</a></li>
-            <li><a href="/cells/net/managing-pictures-in-a-worksheet/#accessing-pictures">Accessing Pictures in Aspose.Cells.GridDesktop</a></li>
-            <li><a href="/cells/net/managing-pictures-in-a-worksheet/#removing-pictures">Removing Pictures in Aspose.Cells.GridDesktop</a></li>
             <li><a href="/cells/net/copy-shapes-between-worksheets/#copying-a-picture-from-one-worksheet-to-another">Copying a Picture from one Worksheet to Another</a></li>
         </ul>
         <p>Shape</p>
@@ -184,6 +181,10 @@ url: /net/developer-guide/
             <li><a href="/cells/net/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
             <li><a href="/cells/net/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
             <li><a href="/cells/net/working-with-the-reflection-effect-of-shape-or-chart/">Set preset WordArt style to the text of the shape</a></li>
+        </ul>
+        <p>Icons</p>
+        <ul>
+            <li><a href="/cells/net/add-icons-to-worksheet-in-aspose-cells/">Insert Icons to Worksheet in Aspose.Cells</a></li>
         </ul>
         <p>SmartArt</p>
         <ul>
