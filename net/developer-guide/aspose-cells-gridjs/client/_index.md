@@ -123,6 +123,12 @@ xs.sheet.data.insert(type, n)
     type: row | column
 	n:the row or column number
 ```
+-  Delete row or columns at  the selected cell  
+```javascript
+xs.sheet.data.delete(type)
+    // the parameters are:
+    type: row | column
+```
 
 -  Set the width for the column
 ```javascript
