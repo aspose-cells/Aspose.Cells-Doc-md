@@ -56,10 +56,12 @@ url: /net/developer-guide/
 {{< tab tabNum="2" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Data Clipboard</p>
+        <p>Data</p>
         <ul>
 		 <li><a href="/cells/net/accessing-cells-of-a-worksheet/">Accessing Cells of a Worksheet</a></li>
 		 <li><a href="/cells/net/add-and-retrieve-data/">Add and Retrieve Data</a></li>
+		 <li><a href="/cells/net/worksheets/">Worksheets</a></li>
+		 <li><a href="/cells/net/rows-and-columns/">Rows and Columns</a></li>
         </ul>
         <p>Style</p>
         <ul>
@@ -344,11 +346,9 @@ url: /net/developer-guide/
         </ul>
     </div>
     <div class="col-md-6">
-        <p>Forecast</p>
-        <ul>
-        </ul>
         <p>Outline</p>
         <ul>
+		<li><a href="/cells/net/creating-subtotals/">Creating Subtotals</a></li>
         </ul>
     </div>
 </div>
