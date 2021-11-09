@@ -1,7 +1,7 @@
 ---
 title: Deployment
 type: docs
-weight: 30
+weight: 40
 url: /net/deployment/
 ---
 
