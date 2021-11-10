@@ -7,17 +7,21 @@ url: /net/getting-started/
 
 {{% alert color="primary" %}} 
 
-This page will show you how to install Aspose Cells, and a simple Hello World program to get you started.
+This page will show you how to install Aspose Cells, and creates a Hello World application.
 
 {{% /alert %}}
 
 ## **How To Install**
- 
-You can install Aspose Cells in the following ways:
 
 ### **Install Aspose Cells through NuGet.**
 
-NuGet is the easiest way to download and install Aspose APIs for .NET. Open Microsoft Visual Studio and NuGet package manager. Search "aspose.cells" to find the desired Aspose Cells API. Click on "Install", the selected API will be downloaded and referenced in your project.
+NuGet is the easiest way to download and install Aspose APIs for .NET. 
+
+1. Open Microsoft Visual Studio and NuGet package manager. 
+1. Search "aspose.cells" to find the desired Aspose Cells API. 
+1. Click on "Install", the selected API will be downloaded and referenced in your project.
+
+**![Install Aspose Cells through NuGet](InstallThroughNuget.png)**
 
 You can also download it from the nuget web page for aspose.cells: 
 [Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/)
@@ -26,12 +30,23 @@ You can also download it from the nuget web page for aspose.cells:
 
 ### **Install Aspose Cells on windows.**
 
-You can download Aspose Cells msi from the following page:
-[Download Aspose.Cells msi](https://downloads.aspose.com/cells/net/)
+1. Download Aspose.Cells.msi from the following page:
+[Download Aspose.Cells.msi](https://downloads.aspose.com/cells/net/)
+1. Double-click the Aspose Cells msi and follow the instructions to install it:
 
-On Windows, double-click the MSI installation package and follow the instructions to install it.
+**![Install Aspose Cells on windows](InstallOnWindows.png)**
 
 [More step for details](/cells/net/installing-aspose-cells-on-windows/)
+
+### **How to use Aspose Cells on linux or MAC OS.**
+
+Aspose.Cells For .NetStandard can support your requirement on linux or MAC OS.
+
+Please install Aspose Cells through nuget, you can use VSCode on linux, and Visual Studio for Mac on MAC OS.
+
+### **How to run Aspose Cells on Docker.**
+Please refer to:
+[How to Run Aspose Cells on Docker](/cells/net/how-to-run-aspose-cells-in-docker/)
 
 ## **Creating the Hello World Application**
 
