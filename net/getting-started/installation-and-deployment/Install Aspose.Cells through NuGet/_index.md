@@ -8,6 +8,10 @@ url: /net/installation/
 
 ## **Install Aspose.Cells for .NET through NuGet**
 NuGet is the easiest way to download and install Aspose APIs for .NET. Open Microsoft Visual Studio and NuGet package manager. Search "aspose" to find the desired Aspose API. Click on "Install", the selected API will be downloaded and referenced in your project.
+
+Note: You can visit nuget web page for aspose.cells for more information: 
+[Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/)
+
 ### **Install Aspose.Cells using Package Manager GUI**
 Follow these steps to reference the Aspose.Cells component using package manager GUI:
 
