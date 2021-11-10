@@ -7,7 +7,7 @@ url: /net/getting-started/
 
 {{% alert color="primary" %}} 
 
-This page will show you how to install Aspose Cells, and creates a Hello World application.
+This page will show you how to install Aspose Cells, and create a Hello World application.
 
 {{% /alert %}}
 
@@ -15,11 +15,11 @@ This page will show you how to install Aspose Cells, and creates a Hello World a
 
 ### **Install Aspose Cells through NuGet.**
 
-NuGet is the easiest way to download and install Aspose APIs for .NET. 
+NuGet is the easiest way to download and install Aspose.Cells for .NET. 
 
 1. Open Microsoft Visual Studio and NuGet package manager. 
-1. Search "aspose.cells" to find the desired Aspose Cells API. 
-1. Click on "Install", the selected API will be downloaded and referenced in your project.
+1. Search "aspose.cells" to find the desired Aspose.Cells for .NET. 
+1. Click on "Install", Aspose.Cells for .NET will be downloaded and referenced in your project.
 
 **![Install Aspose Cells through NuGet](InstallThroughNuget.png)**
 
@@ -40,12 +40,14 @@ You can also download it from the nuget web page for aspose.cells:
 
 ### **How to use Aspose Cells on linux or MAC OS.**
 
-Aspose.Cells For .NetStandard can support your requirement on linux or MAC OS.
-
 Please install Aspose Cells through nuget, you can use VSCode on linux, and Visual Studio for Mac on MAC OS.
 
+Note: Aspose.Cells For .NetStandard can support your requirement on linux or MAC OS.
+
+Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0 and advanced version.
+
 ### **How to run Aspose Cells on Docker.**
-Please refer to:
+
 [How to Run Aspose Cells on Docker](/cells/net/how-to-run-aspose-cells-in-docker/)
 
 ## **Creating the Hello World Application**
