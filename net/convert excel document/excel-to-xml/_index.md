@@ -10,9 +10,7 @@ No need to wonder how to convert Excel to XML, because Apose.Cells for .NET libr
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to XML”](https://products.aspose.app/cells/conversion/excel-to-xml), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-xml">
-<img src="exceltoxml.png" width="60%">
-</a>
+{{% cells-convert excel-to-xml %}}
 </div>
 
 ## **Converting Excel to XML**

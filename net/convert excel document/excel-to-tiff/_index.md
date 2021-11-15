@@ -10,9 +10,7 @@ The SheetRender class allows you to convert Excel pages to TIFF images. This cla
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to TIFF”](https://products.aspose.app/cells/conversion/excel-to-tiff), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-tiff">
-<img src="exceltotiff.png" width="60%">
-</a>
+{{% cells-convert excel-to-tiff %}}
 </div>
 
 ## **Convert Excel to TIFF image**

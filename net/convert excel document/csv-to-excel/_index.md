@@ -10,9 +10,7 @@ No need to wonder how to convert CSV to Excel, because Apose.Cells for .NET libr
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert CSV to Excel”](https://products.aspose.app/cells/conversion/csv-to-excel), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/csv-to-excel">
-<img src="csvtoexcel.png" width="60%">
-</a>
+{{% cells-convert %}}
 </div>
 
 ## **Converting CSV to Excel**

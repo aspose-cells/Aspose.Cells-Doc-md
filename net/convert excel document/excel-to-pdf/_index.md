@@ -12,9 +12,7 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to PDF”](https://products.aspose.app/cells/conversion/excel-to-pdf), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-pdf">
-<img src="exceltopdf.png" width="60%">
-</a>
+{{% cells-convert excel-to-pdf %}}
 </div>
 
 ## **Convert Excel to PDF using C#**

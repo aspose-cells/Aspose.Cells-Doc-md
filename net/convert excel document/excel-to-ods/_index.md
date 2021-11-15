@@ -10,9 +10,7 @@ Aspose.Cells supports saving an ODS file (**OpenDocument Spreadsheet**) in the O
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to ODS”](https://products.aspose.app/cells/conversion/excel-to-ods), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-ods">
-<img src="exceltoods.png" width="60%">
-</a>
+{{% cells-convert excel-to-ods %}}
 </div>
 
 ## **Converting Excel Workbook to ODS**

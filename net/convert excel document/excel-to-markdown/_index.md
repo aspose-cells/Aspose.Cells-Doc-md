@@ -10,9 +10,7 @@ The Aspose.Cells API provides support for exporting spreadsheets to Markdown for
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to Markdown”](https://products.aspose.app/cells/conversion/excel-to-md), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-md">
-<img src="exceltomarkdown.png" width="60%">
-</a>
+{{% cells-convert excel-to-md %}}
 </div>
 
 ## **Convert Excel Workbook to Markdown**

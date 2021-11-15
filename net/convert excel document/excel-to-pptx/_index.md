@@ -10,9 +10,7 @@ The Aspose.Cells API provides support for converting spreadsheets to PPTX format
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to PPTX”](https://products.aspose.app/cells/conversion/excel-to-pptx), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-pptx">
-<img src="exceltopptx.png" width="60%">
-</a>
+{{% cells-convert excel-to-pptx %}}
 </div>
 
 ## **Convert Excel Workbook to PPTX**

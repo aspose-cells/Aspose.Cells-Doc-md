@@ -10,9 +10,7 @@ The SheetRender class allows you to convert Excel pages to SVG images. This clas
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to SVG”](https://products.aspose.app/cells/conversion/excel-to-svg), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-svg">
-<img src="exceltosvg.png" width="60%">
-</a>
+{{% cells-convert excel-to-svg %}}
 </div>
 
 ## **Convert Excel to SVG image**

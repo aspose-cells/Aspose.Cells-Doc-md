@@ -10,9 +10,7 @@ The SheetRender class allows you to convert Excel pages to JPEG images. This cla
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to JPG”](https://products.aspose.app/cells/conversion/excel-to-jpg), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-jpg">
-<img src="exceltojpg.png" width="60%">
-</a>
+{{% cells-convert excel-to-jpg %}}
 </div>
 
 ## **Convert Excel to JPG images**

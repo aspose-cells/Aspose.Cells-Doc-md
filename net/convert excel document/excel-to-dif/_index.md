@@ -10,9 +10,7 @@ In order to convert XLSX to DIF, we’ll use Aspose.Cells API which is a feature
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to DIF”](https://products.aspose.app/cells/conversion), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion">
-<img src="exceltodif.png" width="60%">
-</a>
+{{% cells-convert excel-to-dif %}}
 </div>
 
 ## **Converting Excel Workbook to DIF**

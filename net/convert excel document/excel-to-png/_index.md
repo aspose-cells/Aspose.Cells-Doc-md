@@ -10,9 +10,7 @@ The SheetRender class allows you to convert Excel pages to PNG images. This clas
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to PNG”](https://products.aspose.app/cells/conversion/excel-to-png), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-png">
-<img src="exceltopng.png" width="60%">
-</a>
+{{% cells-convert excel-to-png %}}
 </div>
 
 ## **Convert Excel to PNG images**

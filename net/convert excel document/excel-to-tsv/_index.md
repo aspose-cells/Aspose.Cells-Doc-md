@@ -10,9 +10,7 @@ The following code example explains how to save an entire workbook into text for
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to TSV”](https://products.aspose.app/cells/conversion/excel-to-tsv), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-tsv">
-<img src="exceltotsv.png" width="60%">
-</a>
+{{% cells-convert excel-to-tsv %}}
 </div>
 
 ## **Converting Excel Workbook to TSV**

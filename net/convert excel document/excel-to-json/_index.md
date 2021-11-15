@@ -10,9 +10,7 @@ The following code example explains how to save a range into JSON format. Load t
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to JSON”](https://products.aspose.app/cells/conversion/excel-to-json), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/excel-to-json">
-<img src="exceltojson.png" width="60%">
-</a>
+{{% cells-convert excel-to-json %}}
 </div>
 
 ## **Converting Excel to JSON**
