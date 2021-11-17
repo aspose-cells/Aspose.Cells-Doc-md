@@ -10,9 +10,7 @@ SXC represents StarOffice Calc Spreadsheet (.sxc) file format. No need to wonder
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert SXC to Excel”](https://products.aspose.app/cells/conversion), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion">
-<img src="sxctoexcel.png" width="60%">
-</a>
+{{% cells-convert %}}
 </div>
 
 ## **Converting SXC to Excel**

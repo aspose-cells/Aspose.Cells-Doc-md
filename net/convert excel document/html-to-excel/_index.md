@@ -10,9 +10,7 @@ No need to wonder how to convert HTML to Excel, because Apose.Cells for .NET lib
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert HTML to Excel”](https://products.aspose.app/cells/conversion/html-to-excel), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/html-to-excel">
-<img src="htmltoexcel.png" width="60%">
-</a>
+{{% cells-convert %}}
 </div>
 
 ## **Converting HTML to Excel**

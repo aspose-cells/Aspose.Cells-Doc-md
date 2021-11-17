@@ -10,9 +10,7 @@ No need to wonder how to convert XML exported from excel to Excel, because Apose
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert XML to Excel”](https://products.aspose.app/cells/conversion), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion">
-<img src="xmltoexcel.png" width="60%">
-</a>
+{{% cells-convert %}}
 </div>
 
 ## **Converting XML to Excel**

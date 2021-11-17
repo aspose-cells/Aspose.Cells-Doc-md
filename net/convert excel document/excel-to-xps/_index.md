@@ -16,7 +16,7 @@ From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to XPS”](https://products.aspose.app/cells/conversion/excel-to-xps), where you may try to investigate the functionality and quality it works.
 <div>
-{{% cells-convert excel-to-xps %}}
+{{% cells-convert %}}
 </div>
 
 ## **Converting Excel Workbook to XPS**

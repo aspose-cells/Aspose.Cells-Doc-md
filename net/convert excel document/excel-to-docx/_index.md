@@ -10,7 +10,7 @@ The Aspose.Cells API provides support for converting spreadsheets to DOCX format
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to DOCX”](https://products.aspose.app/cells/conversion/excel-to-docx), where you may try to investigate the functionality and quality it works.
 <div>
-{{% cells-convert excel-to-docx %}}
+{{% cells-convert %}}
 </div>
 
 ## **Convert Excel Workbook to DOCX**

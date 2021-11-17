@@ -10,7 +10,7 @@ The SheetRender class allows you to convert Excel pages to BMP images. This clas
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to BMP”](https://products.aspose.app/cells/conversion/excel-to-bmp), where you may try to investigate the functionality and quality it works.
 <div>
-{{% cells-convert excel-to-bmp %}}
+{{% cells-convert%}}
 </div>
 
 ## **Convert Excel to BMP images**

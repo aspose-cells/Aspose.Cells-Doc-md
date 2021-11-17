@@ -10,7 +10,7 @@ The Aspose.Cells API provides support for exporting spreadsheets to HTML format.
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to HTML”](https://products.aspose.app/cells/conversion/excel-to-html), where you may try to investigate the functionality and quality it works.
 <div>
-{{% cells-convert excel-to-html %}}
+{{% cells-convert %}}
 </div>
 
 ## **Converting Excel Workbook to HTML**

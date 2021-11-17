@@ -10,7 +10,7 @@ MHTML combines normal HTML with external resources (that is, content that is usu
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to MHTML”](https://products.aspose.app/cells/conversion/excel-to-mhtml), where you may try to investigate the functionality and quality it works.
 <div>
-{{% cells-convert excel-to-mhtml %}}
+{{% cells-convert %}}
 </div>
 
 

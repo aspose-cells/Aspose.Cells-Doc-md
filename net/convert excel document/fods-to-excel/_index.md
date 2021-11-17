@@ -10,9 +10,7 @@ FODS represents OpenDocument Flat XML Spreadsheet (.fods) file format. No need t
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert FODS to Excel”](https://products.aspose.app/cells/conversion), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion">
-<img src="fodstoexcel.png" width="60%">
-</a>
+{{% cells-convert %}}
 </div>
 
 ## **Converting FODS to Excel**

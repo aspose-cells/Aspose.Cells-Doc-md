@@ -10,9 +10,7 @@ No need to wonder how to convert ODS to Excel, because Apose.Cells for .NET libr
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert ODS to Excel”](https://products.aspose.app/cells/conversion/ods-to-excel), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/ods-to-excel">
-<img src="odstoexcel.png" width="60%">
-</a>
+{{% cells-convert %}}
 </div>
 
 ## **Converting ODS to Excel**

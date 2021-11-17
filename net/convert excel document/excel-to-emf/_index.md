@@ -10,7 +10,7 @@ The SheetRender class allows you to convert Excel pages to EMF images. This clas
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert Excel to EMF”](https://products.aspose.app/cells/conversion), where you may try to investigate the functionality and quality it works.
 <div>
-{{% cells-convert excel-to-emf %}}
+{{% cells-convert %}}
 </div>
 
 ## **Convert Excel to EMF images**

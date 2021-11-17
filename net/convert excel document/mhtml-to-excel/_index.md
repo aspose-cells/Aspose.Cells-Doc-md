@@ -10,9 +10,7 @@ No need to wonder how to convert MHTML to Excel, because Apose.Cells for .NET li
 ## **Live Example**
 Aspose.Cells for .NET presents you online free application [“Convert MHTML to Excel”](https://products.aspose.app/cells/conversion/mhtml-to-excel), where you may try to investigate the functionality and quality it works.
 <div>
-<a href="https://products.aspose.app/cells/conversion/mhtml-to-excel">
-<img src="mhtmltoexcel.png" width="60%">
-</a>
+ {{% cells-convert %}}
 </div>
 
 ## **Converting MHTML to Excel**
