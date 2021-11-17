@@ -8,7 +8,7 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
-## Aspose.Words for .NET 21.11
+## Aspose.Cells for .NET 21.11
 
 Support calculating XLookup formula/function.
 Integrate saving json and images to saving workbook.
