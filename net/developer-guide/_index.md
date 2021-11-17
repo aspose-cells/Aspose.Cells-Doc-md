@@ -79,9 +79,7 @@ url: /net/developer-guide/
 		  <li><a href="/cells/net/conditional-formatting/">Conditional Formatting</a></li>
           <li><a href="/cells/net/apply-advanced-conditional-formatting/">Apply Advanced Conditional Formatting</a></li>
         </ul>
-        <p>Cells Fill</p>
-        <ul>
-        </ul>
+       
     </div>
     <div class="col-md-6">        
         <p>Sort</p>
@@ -96,13 +94,26 @@ url: /net/developer-guide/
          <li><a href="/cells/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria</a></li>
 		 <li><a href="/cells/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
         </ul>
-        <p>Cells Find&Select</p>
+        <p>Find&Select</p>
         <ul>
 		<li><a href="/cells/net/find-or-search-data/">Find or Search Data</a></li>
         </ul>
-        <p>Cells Clear</p>
+        <p>Cells</p>
         <ul>
+			<li>Insert
+			<ul>
+			<li><a href="/cells/net/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
+			</ul>
+			</li>
+			
+			<li>Delete
+			<ul>
+			<li><a href="/cells/net/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
+			</ul>
+			</li>
+			<li>Format</li>
         </ul>
+		
     </div>
 </div>
 {{< /tab >}}
