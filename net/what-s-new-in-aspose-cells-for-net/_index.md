@@ -11,6 +11,8 @@ This page describes the most interesting new Aspose.Cells features introduced in
 ## Aspose.Cells for .NET 21.11
 
 Support calculating XLookup formula/function.
+
 Integrate saving json and images to saving workbook.
+
 Improve performance while converting Excel to HTML.
 
