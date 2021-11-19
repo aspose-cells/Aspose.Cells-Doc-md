@@ -3,6 +3,7 @@ title: Convert Excel Workbook to PDF
 type: docs
 weight: 70
 url: /net/convert-excel-workbook-to-pdf/
+aliases: [/net/convert-excel-to-pdf/]
 ---
 
 {{% alert color="primary" %}}
