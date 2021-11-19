@@ -3,6 +3,7 @@ title: Managing Pictures
 type: docs
 weight: 90
 url: /net/managing-pictures/
+aliases: [/net/convert-png-to-excel/,/net/convert-jpg-to-excel/,/net/convert-emf-to-excel/,/net/convert-bmp-to-excel/,/net/convert-tiff-to-excel/]
 ---
 
 Aspose.Cells allows developers to add pictures to spreadsheets at runtime. Moreover, the positioning of these pictures can be controlled at runtime, which is discussed in more detail in the coming sections.

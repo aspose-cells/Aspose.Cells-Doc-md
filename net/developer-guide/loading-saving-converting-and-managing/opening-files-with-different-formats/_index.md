@@ -3,6 +3,8 @@ title: Opening Files with Different Formats
 type: docs
 weight: 30
 url: /net/opening-files-with-different-formats/
+aliases: [/net/convert-xml-to-excel/,/net/convert-sxc-to-excel/,/net/convert-fods-to-excel/,/net/convert-mhtml-to-excel/]
+
 description: Aspose.Cells for .NET API allows you to open/read different formats like XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
 ---

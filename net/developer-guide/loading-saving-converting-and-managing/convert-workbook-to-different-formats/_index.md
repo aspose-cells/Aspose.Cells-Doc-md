@@ -3,6 +3,7 @@ title: Convert Workbook to Different Formats
 type: docs
 weight: 60
 url: /net/convert-workbook-to-different-formats/
+aliases: [/net/convert-excel-to-xps/,/net/convert-excel-to-pptx/,/net/convert-excel-to-markdown/,/net/convert-excel-to-xps/,/net/convert-excel-to-mhtml/]
 ---
 
 {{% alert color="primary" %}}
