@@ -78,8 +78,7 @@ url: /net/developer-guide/
         <ul>
 		  <li><a href="/cells/net/conditional-formatting/">Conditional Formatting</a></li>
           <li><a href="/cells/net/apply-advanced-conditional-formatting/">Apply Advanced Conditional Formatting</a></li>
-        </ul>
-       
+        </ul>       
     </div>
     <div class="col-md-6">        
         <p>Sort</p>
@@ -112,8 +111,7 @@ url: /net/developer-guide/
 			</ul>
 			</li>
 			<li>Format</li>
-        </ul>
-		
+        </ul>		
     </div>
 </div>
 {{< /tab >}}

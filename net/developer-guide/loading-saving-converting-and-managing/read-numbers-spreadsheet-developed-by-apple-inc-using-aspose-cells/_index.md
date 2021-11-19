@@ -3,6 +3,7 @@ title: Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells
 type: docs
 weight: 140
 url: /net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
+aliases: [/net/convert-numbers-to-excel/]
 ---
 
 ## **Possible Usage Scenarios**

@@ -3,6 +3,7 @@ title: Reading CSV File with Multiple Encodings
 type: docs
 weight: 200
 url: /net/reading-csv-file-with-multiple-encodings/
+aliases: [/net/convert-csv-to-excel/]
 ---
 
 {{% alert color="primary" %}}

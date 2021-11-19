@@ -3,6 +3,7 @@ title: Converting Worksheet to Different Image Formats
 type: docs
 weight: 80
 url: /net/converting-worksheet-to-different-image-formats/
+aliases: [/net/convert-excel-to-svg/,/net/convert-excel-to-bmp/]
 ---
 
 {{% alert color="primary" %}}

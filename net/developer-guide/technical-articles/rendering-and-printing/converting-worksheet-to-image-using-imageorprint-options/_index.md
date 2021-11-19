@@ -3,6 +3,7 @@ title: Converting Worksheet to Image using ImageOrPrint Options
 type: docs
 weight: 90
 url: /net/converting-worksheet-to-image-using-imageorprint-options/
+aliases: [/net/convert-excel-to-jpg/]
 ---
 
 {{% alert color="primary" %}}

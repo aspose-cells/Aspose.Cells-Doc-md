@@ -3,6 +3,7 @@ title: Converting Worksheet to Image and Worksheet to Image by Page
 type: docs
 weight: 80
 url: /net/converting-worksheet-to-image-and-worksheet-to-image-by-page/
+aliases: [/net/convert-excel-to-png/]
 ---
 
 {{% alert color="primary" %}}

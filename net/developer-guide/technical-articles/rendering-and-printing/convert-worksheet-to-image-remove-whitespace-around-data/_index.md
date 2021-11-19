@@ -3,6 +3,7 @@ title: Convert Worksheet to Image - Remove whitespace around data
 type: docs
 weight: 40
 url: /net/convert-worksheet-to-image-remove-whitespace-around-data/
+aliases: [/net/convert-excel-to-emf/]
 ---
 
 {{% alert color="primary" %}}

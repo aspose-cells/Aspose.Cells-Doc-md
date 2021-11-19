@@ -3,6 +3,7 @@ title: Track Conversion Progress of Excel to TIFF
 type: docs
 weight: 190
 url: /net/track-conversion-progress-of-excel-to-tiff/
+aliases: [/net/convert-excel-to-tiff/]
 ---
 
 ## **Possible Usage Scenarios**

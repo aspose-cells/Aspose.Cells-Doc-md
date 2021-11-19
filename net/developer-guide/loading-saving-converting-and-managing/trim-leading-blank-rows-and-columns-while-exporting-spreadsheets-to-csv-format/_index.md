@@ -3,6 +3,7 @@ title: Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV f
 type: docs
 weight: 100
 url: /net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
+aliases: [/net/convert-excel-to-csv/,/net/convert-excel-to-tsv/]
 ---
 
 ## **Possible Usage Scenarios**

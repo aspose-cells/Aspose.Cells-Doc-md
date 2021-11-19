@@ -3,6 +3,7 @@ title: Load or Import CSV file with Formulas
 type: docs
 weight: 350
 url: /net/load-or-import-csv-file-with-formulas/
+aliases: [/net/convert-tsv-to-excel/]
 ---
 
 {{% alert color="primary" %}} 

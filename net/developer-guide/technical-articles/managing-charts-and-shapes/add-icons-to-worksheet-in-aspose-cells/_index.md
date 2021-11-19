@@ -3,6 +3,7 @@ title: Add Icons to Worksheet in Aspose.Cells
 type: docs
 weight: 220
 url: /net/add-icons-to-worksheet-in-aspose-cells/
+aliases: [/net/convert-svg-to-excel/]
 ---
 
 ## Add Icons to Worksheet in Aspose.Cells

@@ -3,6 +3,7 @@ title: Convert JSON to CSV
 type: docs
 weight: 210
 url: /net/convert-json-to-csv/
+aliases: [/net/convert-json-to-excel/]
 ---
 
 ## **Convert JSON to CSV**

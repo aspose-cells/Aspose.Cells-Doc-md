@@ -3,6 +3,7 @@ title: AutoFit Columns and Rows while loading HTML in Workbook
 type: docs
 weight: 120
 url: /net/autofit-columns-and-rows-while-loading-html-in-workbook/
+aliases: [/net/convert-html-to-excel/]
 ---
 
 ## **Possible Usage Scenarios**
