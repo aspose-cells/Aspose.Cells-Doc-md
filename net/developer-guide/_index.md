@@ -171,17 +171,10 @@ url: /net/developer-guide/
         <ul>
         <li><a href="/cells/net/setting-headers-and-footers/">Setting Headers and Footers</a></li>
         </ul>
-        <p>WordArt</p>
+        <p><a href="/cells/net/managing-charts-and-shapes/">WordArt</a></p>
         <ul>
             <li><a href="/cells/net/add-wordart-watermark-to-worksheet/">Add WordArt Watermark to Worksheet</a></li>
             <li><a href="/cells/net/add-wordart-watermark-to-worksheet-in-aspose-cells/">Add WordArt Watermark to Worksheet in Aspose.Cells</a></li>
-            <li><a href="/cells/net/add-wordart-watermark-to-chart/">Add WordArt Watermark to Chart</a></li>
-            <li><a href="/cells/net/add-wordart-watermark-to-chart-in-aspose-cells/">Add WordArt Watermark to Chart in Aspose.Cells</a></li>
-            <li><a href="/cells/net/add-word-art-text-with-built-in-styles/">Add Word Art Text with Built-in Styles</a></li>
-            <li><a href="/cells/net/locking-wordart-watermark/">Locking WordArt Watermark</a></li>
-            <li><a href="/cells/net/locking-wordart-watermark-in-aspose-cells/">Locking WordArt Watermark in Aspose.Cells</a></li>
-            <li><a href="/cells/net/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/">Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML</a></li>
-            <li><a href="/cells/net/working-with-the-reflection-effect-of-shape-or-chart/">Set preset WordArt style to the text of the shape</a></li>
         </ul>
         <p>Symbols</p>
         <ul>
