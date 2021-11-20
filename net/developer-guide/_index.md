@@ -107,33 +107,10 @@ url: /net/developer-guide/
 {{< tab tabNum="3" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>PivotTable</p>
+        <p><a href="/cells/net/pivot-tables/">PivotTable</a></p>
         <ul>
             <li><a href="/cells/net/create-pivot-table/">Create Pivot Table</a></li>
-            <li><a href="/cells/net/delete-pivot-table-from-a-worksheet/">Delete Pivot Table from a Worksheet</a></li>
-            <li><a href="/cells/net/setting-pivot-table-option-for-empty-cells-show/">Setting Pivot Table Option - For Empty Cells Show</a></li>
-            <li><a href="/cells/net/changing-the-layout-of-pivot-table/">Changing the Layout of Pivot Table</a></li>
-            <li><a href="/cells/net/save-pivot-table-in-ods-file/">Save Pivot Table in ODS file</a></li>
-            <li><a href="/cells/net/show-report-filter-pages-option/">Show report filter pages option</a></li>
-            <li><a href="/cells/net/working-with-data-display-formats-of-datafield-in-pivot-table/">Working with data display formats of DataField in Pivot Table</a></li>
-            <li><a href="/cells/net/get-pivot-table-refresh-date-and-refresh-by-who-information/">Get Pivot Table refresh date and refresh by who information</a></li>
-            <li><a href="/cells/net/disable-pivot-table-ribbons/">Disable Pivot Table Ribbons</a></li>
             <li><a href="/cells/net/formatting-pivot-table/">Formatting Pivot Table</a></li>
-            <li><a href="/cells/net/format-pivot-table-cells/">Format Pivot Table Cells</a></li>
-            <li><a href="/cells/net/custom-sorting-in-pivot-table/">Custom sorting in Pivot Table</a></li>
-            <li><a href="/cells/net/pivot-table-and-source-data/">Pivot Table and Source Data</a></li>
-            <li><a href="/cells/net/pivot-table-hide-and-sort-data/">Pivot Table Hide and Sort data</a></li>
-            <li><a href="/cells/net/refresh-and-calculate-pivot-table-having-calculated-items/">Refresh and Calculate Pivot Table having Calculated Items</a></li>
-            <li><a href="/cells/net/customize-globalization-settings-for-pivot-table/">Customize Globalization Settings for Pivot Table</a></li>    
-            <li><a href="/cells/net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/">Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table</a></li>
-            <li><a href="/cells/net/get-external-connection-data-source-of-pivot-table/">Get External Connection Data Source of Pivot Table</a></li>        
-            <li><a href="/cells/net/group-pivot-fields-in-the-pivot-table/">Group Pivot Fields in the Pivot Table</a></li>
-            <li><a href="/cells/net/parsing-pivot-cached-records-while-loading-excel-file/">Parsing Pivot Cached Records while loading Excel file</a></li>           
-            <li><a href="/cells/net/consolidation-function/">Consolidation Function</a></li>
-            <li><a href="/cells/net/create-pivot-tables-and-pivot-charts/">Create Pivot Tables and Pivot Charts</a></li>   
-            <li><a href="/cells/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/">Get the Cell object by DisplayName of PivotField of PivotTable</a></li> 
-            <li><a href="/cells/net/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/">Specify whether the PivotTable is compatible for Excel2003 while refreshing PivotTable</a></li>
-            <li><a href="/cells/net/specifying-the-absolute-position-of-the-pivot-item/">Specifying the Absolute Position of the Pivot Item</a></li>
         </ul>
         <p>Table</p>
          <ul>
@@ -202,7 +179,7 @@ url: /net/developer-guide/
             <li><a href="/cells/net/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
             <li><a href="/cells/net/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
         </ul>
-         <p><a href="/net/charts/">Chart</a></p>
+         <p><a href="/cells/net/charts/">Chart</a></p>
 		  <ul>
             <li><a href="/cells/net/creating-charts/">Creating Charts</a></li>
             <li><a href="/cells/net/customizing-charts/">Customizing Charts</a></li>
