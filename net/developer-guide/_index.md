@@ -133,11 +133,7 @@ url: /net/developer-guide/
         <p>Comments</p>
         <ul>
             <li><a href="/cells/net/add-comment-in-worksheet/">Add Comment In Worksheet</a></li>
-            <li><a href="/cells/net/add-a-picture-to-an-excel-comment">Add a Picture to an Excel Comment</a></li>
             <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
-            <li><a href="/cells/net/change-text-direction-of-the-comment/">Change Text Direction of the Comment</a></li>
-            <li><a href="/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">Set the Comment of Table or List Object inside the Worksheet</a></li>
-            <li><a href="/cells/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Set Margins of Comment or Shape inside the Worksheet</a></li>
             <li><a href="/cells/net/threaded-comments/">Threaded Comments</a></li>
         </ul>
         <p>SmartArt</p>
