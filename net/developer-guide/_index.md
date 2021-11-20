@@ -304,17 +304,6 @@ url: /net/developer-guide/
             <li><a href="/cells/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Set Margins of Comment or Shape inside the Worksheet</a></li>
             <li><a href="/cells/net/disable-downlevel-revealed-comments-while-saving-to/">Disable Downlevel Revealed Comments while saving to HTML</a></li>
             <li><a href="/cells/net/threaded-comments/">Threaded Comments</a></li>
-                <ul>
-                    <li><a href="/cells/net/threaded-comments/#add-threaded-comment-with-excel">Add Threaded comment with Excel</a></li>
-                    <li><a href="/cells/net/threaded-comments/#add-threaded-comment-using-asposecells">Add Threaded Comment using Aspose.Cells</a></li>
-                    <li><a href="/cells/net/threaded-comments/#read-threaded-comments-with-excel">Read Threaded comments with Excel</a></li>
-                    <li><a href="/cells/net/threaded-comments/#read-threaded-comments-using-asposecells">Read Threaded comments using Aspose.Cells</a></li>
-                    <li><a href="/cells/net/threaded-comments/#read-created-time-of-threaded-comments">Read Created Time of threaded comments</a></li>
-                    <li><a href="/cells/net/threaded-comments/#edit-threaded-comment-with-excel">Edit Threaded comment with Excel</a></li>
-                    <li><a href="/cells/net/threaded-comments/#edit-threaded-comment-using-asposecells">Edit Threaded comment using Aspose.Cells</a></li>
-                    <li><a href="/cells/net/threaded-comments/#remove-threaded-comments-with-excel">Remove Threaded comments with Excel </a></li>
-                    <li><a href="/cells/net/threaded-comments/#remove-threaded-comments-using-asposecells">Remove Threaded comments using Aspose.Cells</a></li>
-                </ul>
         </ul>
     </div>
      <div class="col-md-6">
