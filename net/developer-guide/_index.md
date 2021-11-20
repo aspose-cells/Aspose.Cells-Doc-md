@@ -112,7 +112,7 @@ url: /net/developer-guide/
             <li><a href="/cells/net/create-pivot-table/">Create Pivot Table</a></li>
             <li><a href="/cells/net/formatting-pivot-table/">Formatting Pivot Table</a></li>
         </ul>
-        <p>Table</p>
+        <p><a href="/cells/net/tables/">Table</a></p>
          <ul>
             <li><a href="/cells/net/create-and-format-table/">Create and Format Table</a></li>
             <li><a href="/cells/net/tables-and-ranges/">Tables and Ranges</a></li>
