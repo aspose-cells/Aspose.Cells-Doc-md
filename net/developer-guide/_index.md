@@ -99,18 +99,7 @@ url: /net/developer-guide/
         </ul>
         <p>Cells</p>
         <ul>
-			<li>Insert
-			<ul>
-			<li><a href="/cells/net/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
-			</ul>
-			</li>
-			
-			<li>Delete
-			<ul>
-			<li><a href="/cells/net/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
-			</ul>
-			</li>
-			<li>Format</li>
+		<li><a href="/cells/net/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
         </ul>		
     </div>
 </div>
