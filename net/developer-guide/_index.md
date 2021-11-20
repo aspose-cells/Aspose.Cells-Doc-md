@@ -207,9 +207,13 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Scale to Fit</p>
         <ul>
+		<li><a href="/cells/net/setting-page-options/#scaling-factor">Scale</a></li>
+		<li><a href="/cells/net/setting-page-options/#fittopages-options">Width and Height</a></li>
         </ul>
         <p>Sheet Options</p>
         <ul>
+		<li><a href="/net/show-and-hide-gridlines-and-row-column-headers/">View Gridlines and Heading</a></li>
+		<li><a href="/cells/net/setting-print-options/#set-other-print-options">Print Gridlines and Heading</a></li>
         </ul>
     </div>
 </div>
