@@ -188,21 +188,8 @@ url: /net/developer-guide/
         <ul>
             <li><a href="/cells/net/aspose-cells-object-model/#commentcollectioncomment">CommentCollection/Comment</a></li>
             <li><a href="/cells/net/add-comment-in-worksheet/">Add Comment In Worksheet</a></li>
-            <li><a href="/cells/net/manage-comments-in-worksheet/#adding-comments">Adding Comments in excel(1)</a></li>
-            <li><a href="/cells/net/managing-comments-in-a-worksheet/#adding-comments">Adding Comments in excel(2)</a></li>
-            <li><a href="/cells/net/managing-comments/#adding-a-comment">Adding Comments in excel(3)</a></li>
-            <li><a href="/cells/net/manage-comments-in-worksheet/#accessing-comments">Accessing Comments in excel(1)</a></li>
-            <li><a href="/cells/net/managing-comments-in-a-worksheet/#accessing-comments">Accessing Comments in excel(2)</a></li>
-            <li><a href="/cells/net/manage-comments-in-worksheet/#removing-comments">Removing Comments in excel(1)</a></li>
-            <li><a href="/cells/net/managing-comments-in-a-worksheet/#removing-comments">Removing Comments in excel(2)</a></li>
-            <li><a href="/cells/net/managing-comments/#comment-formatting">Comment Formatting in excel</a></li>
-            <li><a href="/cells/net/managing-comments/#add-an-image-to-comment">Add an Image to Comment in excel</a></li>
-            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/#inserting-comments">Inserting Comments in VSTO and Aspose.Cells(1)</a></li>
-            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/#removing-comments">Removing Comments in VSTO and Aspose.Cells(1)</a></li>
-            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/#inserting-comments">Inserting Comments in VSTO and Aspose.Cells(2)</a></li>
-            <li><a href="/cells/net/inserting-and-removing-cell-comments-in-a-worksheet/#removing-comments">Removing Comments in VSTO and Aspose.Cells(2)</a></li>
-            <li><a href="/cells/net/create-remove-and-get-gridcell-comments/">Create Remove and Get GridCell Comments</a></li>
-            <li><a href="/cells/net/add-a-picture-to-an-excel-comment/#add-picture-to-comment-in-microsoft-excel">Add Picture to Comment in Microsoft Excel</a></li>
+            <li><a href="/cells/net/manage-comments-in-worksheet/">Managing Comments</a></li>
+            <li><a href="/cells/net/add-a-picture-to-an-excel-comment">Add a Picture to an Excel Comment</a></li>
             <li><a href="/cells/net/add-a-picture-to-an-excel-comment/#add-picture-to-comment-using-asposecells">Add Picture to Comment using Aspose.Cells</a></li>
             <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
             <li><a href="/cells/net/change-text-direction-of-the-comment/">Change Text Direction of the Comment</a></li>
