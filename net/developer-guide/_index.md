@@ -186,11 +186,9 @@ url: /net/developer-guide/
         </ul>
         <p>Comments</p>
         <ul>
-            <li><a href="/cells/net/aspose-cells-object-model/#commentcollectioncomment">CommentCollection/Comment</a></li>
             <li><a href="/cells/net/add-comment-in-worksheet/">Add Comment In Worksheet</a></li>
             <li><a href="/cells/net/manage-comments-in-worksheet/">Managing Comments</a></li>
             <li><a href="/cells/net/add-a-picture-to-an-excel-comment">Add a Picture to an Excel Comment</a></li>
-            <li><a href="/cells/net/add-a-picture-to-an-excel-comment/#add-picture-to-comment-using-asposecells">Add Picture to Comment using Aspose.Cells</a></li>
             <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
             <li><a href="/cells/net/change-text-direction-of-the-comment/">Change Text Direction of the Comment</a></li>
             <li><a href="/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">Set the Comment of Table or List Object inside the Worksheet</a></li>
@@ -204,25 +202,10 @@ url: /net/developer-guide/
             <li><a href="/cells/net/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
             <li><a href="/cells/net/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
         </ul>
-         <p>Chart</p>
+         <p><a href="/net/charts/">Chart</a></p>
 		  <ul>
             <li><a href="/cells/net/creating-charts/">Creating Charts</a></li>
             <li><a href="/cells/net/customizing-charts/">Customizing Charts</a></li>
-			<li><a href="/cells/net/setting-chart-appearance/">Setting Chart Appearance</a></li>
-			<li><a href="/cells/net/manipulate-position-size-and-designer-chart/">Manipulate Position Size and Designer Chart</a></li>
-			<li><a href="/cells/net/chart-rendering/">Chart Rendering</a></li>
-			<li><a href="/cells/net/chart-types/">Chart Types</a></li>
-			<li><a href="/cells/net/controls-in-charts/">Controls in Charts</a></li>
-			<li><a href="/cells/net/data-formatting-in-charts/">Data Formatting in Charts</a></li>
-			<li><a href="/cells/net/read-and-manipulate-excel-2016-charts/">Read and Manipulate Excel 2016 Charts</a></li>
-        	<li><a href="/cells/net/set-the-values-format-code-of-chart-series/">Set the Values Format Code of Chart Series</a></li>
-            <li><a href="/cells/net/set-the-shape-type-of-data-labels-of-chart/">Set the Shape Type of Data Labels of Chart</a></li>
-			<li><a href="/cells/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/">Handle Automatic Units of Chart Axis like Microsoft Excel</a></li>
-			<li><a href="/cells/net/read-axis-labels-after-calculating-the-chart/">Read Axis Labels after Calculating the Chart</a></li>
-			<li><a href="/cells/net/create-chart-pdf-with-desired-page-size/">Create Chart PDF with Desired Page Size</a></li>
-			<li><a href="/cells/net/find-type-of-x-and-y-values-of-points-in-chart-series/">Find Type of X and Y Values of Points in Chart Series</a></li>
-			<li><a href="/cells/net/change-tick-label-direction/">Change Tick Label Direction</a></li>
-		    <li><a href="/cells/net/read-chart-subtitle-from-ods-file/">Read Chart Subtitle from ODS File</a></li>
 	   </ul>
         <p>Sparklines</p>		
 		 <ul>	
