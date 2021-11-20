@@ -119,44 +119,13 @@ url: /net/developer-guide/
         </ul>
         <ul>
         </ul>
-        <p>Picture</p>
+        <p><a href="/cells/net/managing-pictures">Picture</a></p>
         <ul>
-            <li><a href="/cells/net/aspose-cells-object-model/#picturecollectionpicture">PictureCollection/Picture(in Aspose.Cells)</a></li>
             <li><a href="/cells/net/insert-a-linked-picture-from-web-address/">Insert a Linked Picture from Web Address</a></li>
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
-            <li><a href="/cells/net/add-image-in-worksheet/#asposecells---add-image-in-worksheet">Insert Image in Worksheet</a></li>
             <li><a href="/cells/net/managing-pictures/#adding-pictures">Insert Picture in Aspose.Cells</a></li>
-            <li><a href="/cells/net/managing-pictures/#positioning-pictures">Positioning Pictures in Aspose.Cells</a></li>
-            <li><a href="/cells/net/managing-pictures/#inserting-a-picture-based-on-cell-reference">Inserting a Picture Based on Cell Reference in Aspose.Cells</a></li>
-            <li><a href="/cells/net/copy-shapes-between-worksheets/#copying-a-picture-from-one-worksheet-to-another">Copying a Picture from one Worksheet to Another</a></li>
         </ul>
-        <p>Shape</p>
-        <ul>
-            <li><a href="/cells/net/determine-if-shape-is-smart-art-shape/">Determine if Shape is Smart Art Shape</a></li>
-            <li><a href="/cells/net/get-connection-points-from-shape/">Get Connection points from shape</a></li>
-            <li><a href="/cells/net/data-in-non-primitive-shape/">Data in Non-Primitive Shape</a></li>
-            <li><a href="/cells/net/read-color-of-shape-s-glow-effect/">Read Color of Shape's Glow Effect</a></li>
-            <li><a href="/cells/net/change-adjustment-values-of-the-shape/">Change Adjustment Values of the Shape</a></li>
-            <li><a href="/cells/net/send-shape-front-or-back-inside-the-worksheet/">Send Shape Front or Back inside the Worksheet</a></li>
-            <li><a href="/cells/net/rotate-text-with-shape-inside-the-worksheet/">Rotate Text with Shape inside the Worksheet</a></li>
-            <li><a href="/cells/net/change-character-spacing-of-excel-textbox-or-shape/">Change Character Spacing of Excel TextBox or Shape</a></li>
-            <li><a href="/cells/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Set Margins of Comment or Shape inside the Worksheet</a></li>
-            <li><a href="/cells/net/working-with-the-threedformat-of-shape-or-chart/">Working with the ThreeDFormat of Shape or Chart</a></li>
-            <li><a href="/cells/net/tile-picture-as-a-texture-inside-the-shape/">Tile Picture as a Texture inside the Shape</a></li>
-            <li><a href="/cells/net/finding-absolute-position-of-shape-inside-the-worksheet/">Finding Absolute Position of Shape inside the Worksheet</a></li>
-            <li><a href="/cells/net/working-with-the-reflection-effect-of-shape-or-chart/">Working with the Reflection Effect of Shape or Chart</a></li>
-            <li><a href="/cells/net/setting-shadow-of-text-effects-of-shape-or-textbox/">Setting Shadow of Text Effects of Shape or TextBox</a></li>
-            <li><a href="/cells/net/working-with-the-glow-effect-of-shape-or-chart/">Working with the Glow Effect of Shape or Chart</a></li>
-            <li><a href="/cells/net/working-with-the-shadow-effect-of-shape-or-chart/">Working with the Shadow Effect of Shape or Chart</a></li>
-            <li><a href="/cells/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/">Set Line Spacing of the Paragraph in a Shape or Textbox</a></li>
-            <li><a href="/cells/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/">Specify the Far East and Latin Name of the Font in Text Options of Shape</a></li>
-            <li><a href="/cells/net/copy-shapes-between-worksheets/">Copy Shapes between Worksheets</a></li>
-            <li><a href="/cells/net/copy-shapes-between-worksheets-in-aspose-cells/">Copy Shapes between Worksheets in Aspose.Cells</a></li>
-            <li><a href="/cells/net/refresh-values-of-linked-shapes/">Refresh Values of Linked Shapes</a></li>
-            <li><a href="/cells/net/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
-            <li><a href="/cells/net/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
-            <li><a href="/cells/net/working-with-the-reflection-effect-of-shape-or-chart/">Set preset WordArt style to the text of the shape</a></li>
-        </ul>
+        <p><a href="/cells/net/managing-charts-and-shapes/">Shape</a></p>       
         <p>Icons</p>
         <ul>
             <li><a href="/cells/net/add-icons-to-worksheet-in-aspose-cells/">Insert Icons to Worksheet in Aspose.Cells</a></li>
@@ -164,13 +133,11 @@ url: /net/developer-guide/
         <p>Comments</p>
         <ul>
             <li><a href="/cells/net/add-comment-in-worksheet/">Add Comment In Worksheet</a></li>
-            <li><a href="/cells/net/manage-comments-in-worksheet/">Managing Comments</a></li>
             <li><a href="/cells/net/add-a-picture-to-an-excel-comment">Add a Picture to an Excel Comment</a></li>
             <li><a href="/cells/net/how-to-change-the-comment-font-color/">How to change the Comment Font Color</a></li>
             <li><a href="/cells/net/change-text-direction-of-the-comment/">Change Text Direction of the Comment</a></li>
             <li><a href="/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">Set the Comment of Table or List Object inside the Worksheet</a></li>
             <li><a href="/cells/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Set Margins of Comment or Shape inside the Worksheet</a></li>
-            <li><a href="/cells/net/disable-downlevel-revealed-comments-while-saving-to/">Disable Downlevel Revealed Comments while saving to HTML</a></li>
             <li><a href="/cells/net/threaded-comments/">Threaded Comments</a></li>
         </ul>
         <p>SmartArt</p>
@@ -190,30 +157,19 @@ url: /net/developer-guide/
         </ul>
     </div>
     <div class="col-md-6">       
-        <p>OleObject</p>
+        <p><a href="/cells/net/managing-ole-objects/">OleObject</a></p>
         <ul>
-            <li><a href="/cells/net/managing-ole-objects/">Managing OLE Objects</a></li>
+            <li><a href="/cells/net/managing-ole-objects/#inserting-ole-objects-into-the-worksheet">Managing OLE Objects</a></li>
         </ul>
-        <p>Slicer</p>
+        <p><a href="/cells/net/slicers/">Slicer</a></p>
         <ul>
             <li><a href="/cells/net/create-slicer-to-a-pivot-table/">Create Slicer to a Pivot Table</a></li>
             <li><a href="/cells/net/create-slicer-to-excel-table/">Create Slicer to Excel Table</a></li>
-            <li><a href="/cells/net/change-slicer-properties/">Change Slicer Properties</a></li>
-            <li><a href="/cells/net/removing-slicer/">Removing Slicer</a></li>
-            <li><a href="/cells/net/rendering-slicer/">Rendering Slicer</a></li>
-            <li><a href="/cells/net/updating-slicer/"> Updating Slicer</a></li>      
-            <li><a href="/cells/net/draw-slicer-while-rendering-excel-to-pdf/"> Draw Slicer while rendering Excel to PDF</a></li>
             <li><a href="/cells/net/formatting-slicer/">Formatting Slicer</a></li>
         </ul>
-        <p>Text Box</p>
+        <p><a href="/cells/net/managing-charts-and-shapes/">Text Box</a</p>
         <ul>
-            <li><a href="/cells/net/add-text-box-to-worksheet/">Add Text Box to Worksheet</a></li>
             <li><a href="/cells/net/add-text-box-to-worksheet-in-aspose-cells/">Add Text Box to Worksheet in Aspose.Cells</a></li>
-            <li><a href="/cells/net/access-the-text-box-by-the-name/">Access the Text Box by the Name</a></li>
-            <li><a href="/cells/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/">Replace tag with text in a textbox inside the Worksheet</a></li>
-            <li><a href="/cells/net/change-character-spacing-of-excel-textbox-or-shape/">Change Character Spacing of Excel TextBox or Shape</a></li>
-            <li><a href="/cells/net/setting-shadow-of-text-effects-of-shape-or-textbox/">Setting Shadow of Text Effects of Shape or TextBox</a></li>
-            <li><a href="/cells/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/">Set Line Spacing of the Paragraph in a Shape or Textbox</a></li>
         </ul>
         <p>Header&Footer</p>
         <ul>
