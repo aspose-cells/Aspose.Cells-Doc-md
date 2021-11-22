@@ -6,7 +6,7 @@ url: /net/developer-guide/
 ---
 
 ## Working with Aspose.Cells APIs.
-{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" >}}
+{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
     <div class="col-md-6">
@@ -35,7 +35,11 @@ url: /net/developer-guide/
         </ul>
     </div>
     <div class="col-md-6">
-        <p>Convert</p>
+	   <p>Print</p>
+        <ul>
+            <li><a href="/cells/net/specify-job-or-document-name-while-printing-with-aspose-cells/">Print</a></li>
+        </ul>
+        <p>Export</p>
         <ul>
             <li><a href="/cells/net/convert-workbook-to-different-formats/">Convert Workbook to Different Formats</a></li>
             <li><a href="/cells/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>
@@ -129,6 +133,10 @@ url: /net/developer-guide/
         <p>Icons</p>
         <ul>
             <li><a href="/cells/net/add-icons-to-worksheet-in-aspose-cells/">Insert Icons to Worksheet in Aspose.Cells</a></li>
+        </ul>
+		<p>Links</p>
+        <ul>
+            <li><a href="/cells/net/working-with-hyperlinks-to-link-data/">Working with Hyperlinks to Link Data</a></li>
         </ul>
         <p>Comments</p>
         <ul>
@@ -246,8 +254,17 @@ url: /net/developer-guide/
 {{< tab tabNum="6" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Connections</p>
+	    <p><a href="/cells/net/managing-database-connections/">Get & Transform data</a></p>
         <ul>
+		 <li><a href="/cells/net/xml-maps/">XML Maps</a></li>
+		 <li><a href="/cells/net/retrieving-sql-connection-data/">Retrieving SQL Connection Data</a></li>
+		 <li><a href="/cells/net/how-to-get-odata-connection-information/">How to get OData Connection Information</a></li>
+		 <li><a href="/cells/net/modify-existing-sql-data-connection-using-aspose-cells/">Modify existing SQL Data Connection using Aspose.Cells</a></li>
+		 <li><a href="/cells/net/working-with-external-data-connection-of-type-webquery/">Working with External Data Connection of type WebQuery</a></li>
+        </ul>
+        <p><a href="/cells/net/managing-database-connections/">Queries & Connections</a></p>
+        <ul>
+		 <li><a href="/cells/net/reading-and-writing-query-table-of-worksheet/">Reading and Writing Query Table of Worksheet</a></li>
         </ul>
         <p>Sort</p>
         <ul>
@@ -319,7 +336,8 @@ url: /net/developer-guide/
          <li><a href="/cells/net/worksheet-views/#page-break-preview">Page Break Preview</a></li>
         </ul>
         <p>Show</p>
-        <ul>
+         <ul>
+		<li><a href="/net/show-and-hide-gridlines-and-row-column-headers/">View Gridlines and Heading</a></li>
         </ul>
     </div>
     <div class="col-md-6">
@@ -335,5 +353,18 @@ url: /net/developer-guide/
     </div>
 </div>
 {{< /tab >}}
-
+{{< tab tabNum="9" >}}
+<div class="row">
+    <div class="col-md-6">
+        <p>Controls</p>
+        <ul>
+         <li><a href="/cells/net/workbook-vba-project/">Workbook VBA Project</a></li>
+        </ul>
+        <p>XML</p>
+         <ul>
+		<li><a href="/cells/net/xml-maps/">XML Maps</a></li>
+        </ul>
+    </div>
+</div>
+{{< /tab >}}
 {{< /tabs >}}
