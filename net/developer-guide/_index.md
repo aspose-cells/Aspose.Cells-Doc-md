@@ -154,6 +154,7 @@ url: /net/developer-guide/
 		  <ul>
             <li><a href="/cells/net/creating-charts/">Creating Charts</a></li>
             <li><a href="/cells/net/customizing-charts/">Customizing Charts</a></li>
+			<li><a href="/cells/net/create-pivot-tables-and-pivot-charts/">Create Pivot Tables and Pivot Charts</a></li>
 	   </ul>
         <p>Sparklines</p>		
 		 <ul>	
