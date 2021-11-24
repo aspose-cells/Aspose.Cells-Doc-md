@@ -1,5 +1,5 @@
 ---
-title: Insert Sparklines
+title: Creating Sparklines
 type: docs
 weight: 40
 url: /net/creating-sparklines/
