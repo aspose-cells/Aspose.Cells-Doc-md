@@ -2,8 +2,8 @@
 title: Insert Sparklines
 type: docs
 weight: 40
-url: /net/creating-sparklines
-aliases:/net/insert-sparklines
+url: /net/creating-sparklines/
+aliases:[/net/insert-sparklines/]
 ---
 
 {{% alert color="primary" %}} 
