@@ -5,7 +5,7 @@ weight: 20
 url: /java/developer-guide/
 ---
 
-## Working with Aspose.Cells APIs.
+## Working with Aspose.Cells Java APIs.
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
