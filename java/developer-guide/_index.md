@@ -150,6 +150,7 @@ url: /java/developer-guide/
          <p><a href="/cells/java/charts/">Chart</a></p>
 		  <ul>
             <li><a href="/cells/java/creating-and-customizing-charts/">Creating and Customizing Charts</a></li>
+			<li><a href="/cells/java/create-pivot-tables-and-pivot-charts/">Create Pivot Tables and Pivot Charts</a></li>
             <li><a href="/cells/java/chart-formatting/">Chart Formatting</a></li>
 	   </ul>
     </div>
