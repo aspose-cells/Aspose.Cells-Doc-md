@@ -91,7 +91,7 @@ The table that follows lists all features that are fully or partially supported 
 |Border|Line style|Yes| |
 |Border|Line width|Yes| |
 |Cell Data| |Yes| |
-|Comments| |No| |
+|Comments| |Yes| |
 |Conditional Formatting| |Yes| |
 |Document Properties| |Yes| |
 |Drawing Objects| |Partially|Supported Objects: TextBox, Line, Rectangle, Oval, GroupBox, Button, CheckBox, RadioButton, ListBox, ComboBox, Label|
