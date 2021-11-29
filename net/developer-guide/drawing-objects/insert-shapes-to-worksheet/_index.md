@@ -26,6 +26,8 @@ Do not worry! [Aspose.Cells](https://products.aspose.com/cells/) supports all th
 
 ***Using Aspose.Cells for .NET:***
 
+For C#:
+
 You can use the [AddRectangle(
 	int upperLeftRow,
 	int top,
@@ -34,6 +36,10 @@ You can use the [AddRectangle(
 	int height,
 	int width
 )](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle) method to insert a rectangle in the worksheet.The method returns a [RectangleShape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) object.
+
+For java:
+
+You can use the [addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int)) method to insert a rectangle in the worksheet.The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 The following example shows how to insert rectangle to a worksheet.
 
