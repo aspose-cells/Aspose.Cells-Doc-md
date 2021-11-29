@@ -1,7 +1,7 @@
 ---
 title: Controls in Charts
 type: docs
-weight: 30
+weight: 60
 url: /java/controls-in-charts/
 ---
 

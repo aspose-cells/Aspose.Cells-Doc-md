@@ -1,6 +1,6 @@
 ---
 title: Rendering
 type: docs
-weight: 40
+weight: 300
 url: /java/rendering/
 ---

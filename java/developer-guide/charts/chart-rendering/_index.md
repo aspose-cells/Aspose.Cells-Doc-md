@@ -1,7 +1,7 @@
 ---
 title: Chart Rendering
 type: docs
-weight: 140
+weight: 40
 url: /java/chart-rendering/
 ---
 
