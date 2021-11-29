@@ -183,7 +183,7 @@ url: /java/developer-guide/
         </ul>
         <p>Icons</p>
         <ul>
-            <li><a href="/cells/java/add-conditional-icons-set-with-the-cell-text/">Add Conditional Icons Set with the Cell Text</a></li>
+            <li><a href="/cells/java/add-icons-to-worksheet-in-aspose-cells/">insert Icons to Worksheet</a></li>
         </ul>
     </div>
 </div>

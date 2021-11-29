@@ -27,7 +27,7 @@ Here, we have prepared *sample code* to help you insert icons using [Aspose.Cell
 
 ### Java
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-AddIconsToWorksheetInAsposeCells.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-AddIconsToWorksheetInAsposeCells.java" >}}
 
 When you execute the above code in your project, you will get the following results:
 
