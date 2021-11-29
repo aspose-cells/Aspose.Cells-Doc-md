@@ -129,7 +129,10 @@ url: /java/developer-guide/
             <li><a href="/cells/java/managing-pictures/#adding-pictures">Insert Picture in Aspose.Cells</a></li>
         </ul>
         <p><a href="/cells/java/managing-charts-and-shapes/">Shape</a></p>
-		<p>Links</p>
+        <ul>
+            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/">Insert Shapes to Worksheet In Aspose.Cells</a></li>
+        </ul> 
+		    <p>Links</p>
         <ul>
             <li><a href="/cells/java/working-with-hyperlinks-to-link-data/">Working with Hyperlinks to Link Data</a></li>
             <li><a href="/cells/java/add-image-hyperlinks/">Add Image Hyperlinks</a></li>

@@ -1,7 +1,7 @@
 ---
 title: Determine if Shape is Smart Art Shape
 type: docs
-weight: 40
+weight: 400
 url: /net/determine-if-shape-is-smart-art-shape/
 ---
 

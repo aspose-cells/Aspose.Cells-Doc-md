@@ -1,7 +1,7 @@
 ---
 title: Managing Comments
 type: docs
-weight: 60
+weight: 600
 url: /net/managing-comments/
 ---
 

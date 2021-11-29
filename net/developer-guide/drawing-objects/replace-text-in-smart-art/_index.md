@@ -1,7 +1,7 @@
 ---
 title: Replace text in smart art
 type: docs
-weight: 120
+weight: 1200
 url: /net/replace-text-in-smart-art/
 ---
 

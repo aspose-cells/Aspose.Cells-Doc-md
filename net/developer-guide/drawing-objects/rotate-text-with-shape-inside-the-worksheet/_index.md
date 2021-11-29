@@ -1,7 +1,7 @@
 ---
 title: Rotate Text with Shape inside the Worksheet
 type: docs
-weight: 130
+weight: 1300
 url: /net/rotate-text-with-shape-inside-the-worksheet/
 ---
 

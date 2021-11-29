@@ -1,7 +1,7 @@
 ---
 title: Access and Modify the Display Label of the Linked Ole Object
 type: docs
-weight: 10
+weight: 100
 url: /net/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
 

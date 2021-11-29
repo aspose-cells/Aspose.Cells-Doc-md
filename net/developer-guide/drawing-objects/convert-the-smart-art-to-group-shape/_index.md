@@ -1,7 +1,7 @@
 ---
 title: Convert the Smart Art to Group Shape
 type: docs
-weight: 20
+weight: 200
 url: /net/convert-the-smart-art-to-group-shape/
 ---
 

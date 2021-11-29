@@ -1,7 +1,7 @@
 ---
 title: Specify the Far East and Latin Name of the Font in Text Options of Shape
 type: docs
-weight: 160
+weight: 1600
 url: /net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
 

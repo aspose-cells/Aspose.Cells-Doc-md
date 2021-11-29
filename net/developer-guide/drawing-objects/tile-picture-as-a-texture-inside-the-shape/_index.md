@@ -1,7 +1,7 @@
 ---
 title: Tile Picture as a Texture inside the Shape
 type: docs
-weight: 170
+weight: 1700
 url: /net/tile-picture-as-a-texture-inside-the-shape/
 ---
 

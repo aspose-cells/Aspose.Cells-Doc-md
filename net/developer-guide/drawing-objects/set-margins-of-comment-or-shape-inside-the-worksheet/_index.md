@@ -1,7 +1,7 @@
 ---
 title: Set Margins of Comment or Shape inside the Worksheet
 type: docs
-weight: 150
+weight: 1500
 url: /net/set-margins-of-comment-or-shape-inside-the-worksheet/
 ---
 

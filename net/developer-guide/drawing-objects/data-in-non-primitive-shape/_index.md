@@ -1,7 +1,7 @@
 ---
 title: Data in Non-Primitive Shape
 type: docs
-weight: 30
+weight: 300
 url: /net/data-in-non-primitive-shape/
 ---
 

@@ -129,7 +129,10 @@ url: /net/developer-guide/
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
             <li><a href="/cells/net/managing-pictures/#adding-pictures">Insert Picture in Aspose.Cells</a></li>
         </ul>
-        <p><a href="/cells/net/managing-charts-and-shapes/">Shape</a></p>       
+        <p><a href="/cells/net/managing-charts-and-shapes/">Shape</a></p>    
+        <ul>
+            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/">Insert Shapes to Worksheet In Aspose.Cells</a></li>
+        </ul>   
         <p>Icons</p>
         <ul>
             <li><a href="/cells/net/add-icons-to-worksheet-in-aspose-cells/">Insert Icons to Worksheet in Aspose.Cells</a></li>

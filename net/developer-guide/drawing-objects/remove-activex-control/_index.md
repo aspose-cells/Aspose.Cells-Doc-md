@@ -1,7 +1,7 @@
 ---
 title: Remove ActiveX Control
 type: docs
-weight: 100
+weight: 1000
 url: /net/remove-activex-control/
 ---
 

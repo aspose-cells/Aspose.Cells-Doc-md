@@ -1,7 +1,7 @@
 ---
 title: Extract Text from the Gear Type SmartArt Shape
 type: docs
-weight: 50
+weight: 500
 url: /net/extract-text-from-the-gear-type-smartart-shape/
 ---
 
