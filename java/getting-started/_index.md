@@ -5,4 +5,117 @@ weight: 10
 url: /java/getting-started/
 ---
 
+{{% alert color="primary" %}} 
 
+This page will show you how to install Aspose Cells for Java, and create a Hello World application.
+
+{{% /alert %}}
+
+## **System Requirements**
+
+Aspose.Cells for Java supports the following Java versions:
+
+- J2SE 6.0 (1.6)
+- J2SE 7.0 (1.7)
+- or above
+
+[More details](/cells/java/system-requirements/)
+
+## **How To Install**
+
+### **Install Aspose Cells for Java from Maven Repository.**
+
+Maven is the easiest way to download and install Aspose.Cells for Java. 
+
+1. Specify Aspose Maven Repository configuration/location in your Maven pom.xml. 
+
+{{< highlight java >}}
+
+ <repositories>
+
+      <repository>
+
+          <id>AsposeJavaAPI</id>
+
+          <name>Aspose Java API</name>
+
+          <url>http://repository.aspose.com/repo/</url>
+
+      </repository>
+
+</repositories>
+
+{{< /highlight >}}
+
+2. Define Aspose.Cells for Java API dependency in your pom.xml. 
+
+{{< highlight java >}}
+
+     <dependencies>
+
+        <dependency>
+
+            <groupId>com.aspose</groupId>
+
+            <artifactId>aspose-cells</artifactId>
+
+            <version>21.10</version>
+
+        </dependency>
+
+        <dependency>
+
+            <groupId>com.aspose</groupId>
+
+            <artifactId>aspose-cells</artifactId>
+
+            <version>21.10</version>
+
+            <classifier>javadoc</classifier>
+
+        </dependency>
+
+        <dependency>
+
+            <groupId>org.bouncycastle</groupId>
+
+            <artifactId>bcprov-jdk15on</artifactId>
+
+            <version>1.60</version>
+
+        </dependency>        
+
+        <dependency>
+
+            <groupId>org.bouncycastle</groupId>
+
+            <artifactId>bcpkix-jdk15on</artifactId>
+
+            <version>1.60</version>
+
+        </dependency>        
+
+    </dependencies>
+
+{{< /highlight >}}
+
+[More step for details](/cells/java/installation/)
+
+### **Install Aspose Cells for Java manually.**
+
+1. Download aspose-cells-{version}-java.zip from the following page:
+[Download Aspose.Cells for Java](https://downloads.aspose.com/cells/java/)
+1. Unzip the package, enter the \JDK 1.6\ directory, unzip aspose-cells-{version}-java.zip.
+1. Enter the \JDK 1.6\aspose-cells-{version}-java\lib\ directory, install the JAR packages manually with Eclipse or Intellij.
+
+Install Aspose Cells for Java with Eclipse:
+**![Eclipse install Aspose Cells for Java](Eclipse_install.png)**
+
+Install Aspose Cells for Java with Intellij:
+**![IntelliJ install Aspose Cells for Java](IntelliJ_install.png)**
+
+## **Creating the Hello World Application**
+
+The steps below creates the Hello World application using the Aspose.Cells API:
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelloWorld.java" >}}
