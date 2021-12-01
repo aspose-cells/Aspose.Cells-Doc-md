@@ -55,14 +55,8 @@ Result of Sum(A1:A2): 50.0
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
-## **Calculating Formulas Once Only**
+## **Calculating Formulas repeatedly**
 
-When [**Workbook.calculateFormula()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(boolean)) is called to calculate the values of formulas in a workbook template, Aspose.Cells creates a calculating chain. This increases performance when formulas are calculated for the second or third time.
-
-However, if the template contains lots of formulas, the first time the formula is calculated can consume a lot of CPU processing time and memory.
-
-Aspose.Cells allows you to turn off creating a calculating chain which is useful when you want to calculate formulas only once.
-
-To improve Aspose.Cell's formula calculation performance and when you do not want to create a formula calculating chain, set [**Workbook.getSettings().setCreateCalcChain()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CreateCalcChain) to **false**. By default, it is set to **true**.
-
+When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the formula calculating chain: [**Workbook.getSettings().setCreateCalcChain(true)**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CreateCalcChain).
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulasOnce-CalculatingFormulasOnce.java" >}}
+By default the calculating chain is disabled. Because creating the chain also needs time, the first time of calculating formulas([**Workbook.calculateFormula()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) may consume more CPU processing time and memory when comparing with calculating formulas without chain. If user does not need to calculate formulas repeatedly, the default behavior that calculating formula directly without the calculating chain should be the better way.
