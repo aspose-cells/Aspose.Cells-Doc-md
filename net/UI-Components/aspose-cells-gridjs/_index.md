@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells.GridJs
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose-cells-gridjs/
 ---
 
