@@ -1,8 +1,8 @@
 ---
-title: Aspose Cells Grid Technical Articles
+title: Technical Articles
 type: docs
 weight: 300
-url: /net/aspose-cells-grid-technical-articles/
+url: /net/UI-technical-articles/
 ---
 
 
