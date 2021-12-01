@@ -1,7 +1,7 @@
 ---
 title: Change Tick Label Direction
 type: docs
-weight: 130
+weight: 90
 url: /java/change-tick-label-direction/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Chart Types
 type: docs
-weight: 20
+weight: 10
 url: /java/chart-types/
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: Using Formulas or Functions to Process Data
 type: docs
-weight: 50
-url: /java/using-formulas-or-functions-to-process-data/
+weight: 5
+url: /java/get-and-set-formula/
+aliases:
+    - /java/using-formulas-or-functions-to-process-data/
 ---
 
 {{% alert color="primary" %}}

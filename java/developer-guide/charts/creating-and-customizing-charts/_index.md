@@ -1,7 +1,7 @@
 ---
 title: Creating and Customizing Charts
 type: docs
-weight: 40
+weight: 15
 url: /java/creating-and-customizing-charts/
 ---
 
