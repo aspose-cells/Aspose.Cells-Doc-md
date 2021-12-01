@@ -2,7 +2,7 @@
 title: FAQ
 type: docs
 weight: 400
-url: /net/UI-Components-faq/
+url: /net/aspose-cells-grid-faq/
 aliases: [/net/aspose-cells-grid-controls-faqs/]
 ---
 

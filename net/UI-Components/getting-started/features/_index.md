@@ -1,8 +1,8 @@
 ---
-title: UI Components Features
+title: Aspose Cells Grid Features
 type: docs
 weight: 10
-url: /net/UI-Components-features/
+url: /net/aspose-cells-grid-features/
 ---
 
 
