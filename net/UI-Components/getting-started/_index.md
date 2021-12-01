@@ -2,7 +2,7 @@
 title: Getting Started
 type: docs
 weight: 10
-url: /net/aspose-cells-grid-getting-started/
+url: /net/grid-getting-started/
 ---
 
 
