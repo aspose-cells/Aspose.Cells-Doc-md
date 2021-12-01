@@ -74,7 +74,7 @@ url: /net/edition-types/
 |Using Designer Spreadsheet |Yes |
 |Using API |Yes |
 |**Workbook Encryption**| |
-|Open Encrypted File |Yes |
+|Open and save Encrypted File |Yes |
 |**Auto-Filtering of Data**| |
 |Using Designer Spreadsheet |Yes |
 |Using API |Yes |
@@ -94,6 +94,7 @@ url: /net/edition-types/
 |Using API |Yes |
 |**VBA Supported**| |
 |Using Designer Spreadsheet |Yes |
+|Using API |Yes |
 |**Pivot Tables**| |
 |Using Designer Spreadsheet |Yes |
 |Using API |Yes |
