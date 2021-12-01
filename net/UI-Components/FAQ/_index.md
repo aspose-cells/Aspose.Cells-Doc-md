@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells UI Components FAQ
+title: FAQ
 type: docs
 weight: 400
 url: /net/UI-Components-faq/
