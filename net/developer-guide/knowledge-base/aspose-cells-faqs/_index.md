@@ -33,34 +33,7 @@ Aspose.Cells APIs provide Memory Preferences to optimize the memory consumption 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-FAQs-FixOutOfMemoryException-1.cs" >}}
-## **This file format is not supported or you do not specify a correct format.**
-Sometime user gets the exception saying this file is actually in a very old format which is not supported by Aspose.Cells. If you open your file in MS-Excel and save it with Save As menu command, you will see MS-Excel will show you its format i.e. Microsoft Excel 5.0/95 Workbook (*.xls).
 
-So the file is actually in a Microsoft Excel 5.0 or 95 format which is not supported by Aspose.Cells. You can also use this code to detect the FileFormatType of this file. In the code sample below it is shown how it is done.
-
-
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-FAQs-FileFormatInformation-1.cs" >}}
-
-
-This is the console output of the above sample code for excel file which is in older format.
-
-
-
-{{< highlight java >}}
-
- True
-
-{{< /highlight >}}
-### **More Information**
-Aspose.Cells supports BIFF8 or greater formats i.e. Excel 97 - Excel 2010/2016, so you cannot read/write the Excel 95 or earlier file formats.
-
-As a workaround, you may try the following steps to work with the file for Aspose.Cells product, so that Aspose.Cells could open/process the file fine.
-
-- Open your template file into MS Excel (e.g.. Ms Excel 2003 or 2007/2010).
-- Save the file As "Microsoft Office Excel Workbook".
-
-Now you can use Aspose.Cells to open/manipulate the file for your requirements, it will work fine.
 ## **Determine which stack size is needed for a certain Workbook**
 Although, we have enhanced the Aspose.Cells formula calculation engine and in most cases, you should be able to get all the formulas calculated successfully for a given template file without specifying smaller stack size. But still, sometimes StackOverFlowException on Workbook.CalculateFormula method might be inevitable. We provide new APIs for the users to track the formula calculations. We have added a class named "AbstractCalculationMonitor" and provided a property, i.e., *CalculationOptions.CalculationMonitor* to cope with/trace the issue.
 
