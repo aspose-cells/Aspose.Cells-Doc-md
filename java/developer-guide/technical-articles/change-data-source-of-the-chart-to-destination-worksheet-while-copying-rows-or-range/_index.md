@@ -10,7 +10,7 @@ When you copy rows or range which contains charts to new worksheet, then data so
 ## **Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range**
 The following sample code explains the usage of CopyOptions.ReferToDestinationSheet property while copying rows or range containing chart to new worksheet. The code uses the [sample excel file](5472284.xlsx) and generates the [output excel file](5472283.xlsx). The screenshot shows that the data source of chart in [output excel file](5472283.xlsx) now refers to DestSheet instead of Sheet1.
 
-![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
+![todo:image_alt_text](change-data-source-of-the-chart_1.png)
 
 
 
