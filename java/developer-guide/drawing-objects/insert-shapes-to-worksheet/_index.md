@@ -2,7 +2,7 @@
 title: Insert Shapes To Worksheet In Aspose.Cells
 type: docs
 weight: 10
-url: /net/insert-shapes-to-worksheet-in-aspose-cells/
+url: /java/insert-shapes-to-worksheet-in-aspose-cells/
 ---
 
 
@@ -46,22 +46,15 @@ You can use the following method to insert a line in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [LineShape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert line to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Line.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -87,22 +80,15 @@ You can use the following method to insert a line arrow in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [LineShape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert line arrow to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-LineArrow.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-LineArrow.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -128,22 +114,15 @@ You can use the following method to insert a rectangle in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public RectangleShape AddRectangle(
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [RectangleShape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert rectangle to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Rectangle.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Rectangle.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -169,23 +148,15 @@ You can use the following method to insert a cube in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert cube to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Cube.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -211,23 +182,15 @@ You can use the following method to insert a callout quad arrow in the worksheet
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert callout quad arrow to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -253,23 +216,15 @@ You can use the following method to insert a multiplication sign in the workshee
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert multiplication sign to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -295,23 +250,15 @@ You can use the following method to insert a multidocument in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert multidocument to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Multidocument.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Multidocument.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -337,23 +284,15 @@ You can use the following method to insert a Five-pointed star in the worksheet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert Five-pointed star to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-FivePointedStar.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-FivePointedStar.java" >}}
 
 Execute the above code, you will get the following results:
 
@@ -379,23 +318,15 @@ You can use the following method to insert a thought bubble cloud in the workshe
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
-	AutoShapeType type,
-	int upperLeftRow,
-	int top,
-	int upperLeftColumn,
-	int left,
-	int height,
-	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://apireference.aspose.com/cells/java/com.aspose.cells/Shape) object.
 
 {{% /alert %}}
 
 The following example shows how to insert thought bubble cloud to a worksheet.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.java" >}}
 
 Execute the above code, you will get the following results:
 
