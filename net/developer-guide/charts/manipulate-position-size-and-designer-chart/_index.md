@@ -1,7 +1,7 @@
 ---
 title: Manipulate Position Size and Designer Chart
 type: docs
-weight: 30
+weight: 60
 url: /net/manipulate-position-size-and-designer-chart/
 ---
 
