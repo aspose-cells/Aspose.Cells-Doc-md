@@ -1,7 +1,7 @@
 ---
 title: Using Formulas or Functions to Process Data
 type: docs
-weight: 60
+weight: 10
 url: /net/using-formulas-or-functions-to-process-data/
 ---
 

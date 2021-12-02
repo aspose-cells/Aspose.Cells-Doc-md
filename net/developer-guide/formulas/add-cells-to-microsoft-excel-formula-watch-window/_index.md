@@ -1,7 +1,7 @@
 ---
 title: Add Cells to Microsoft Excel Formula Watch Window
 type: docs
-weight: 10
+weight: 60
 url: /net/add-cells-to-microsoft-excel-formula-watch-window/
 ---
 

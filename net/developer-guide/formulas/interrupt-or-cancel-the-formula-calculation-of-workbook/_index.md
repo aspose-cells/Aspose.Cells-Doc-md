@@ -1,7 +1,7 @@
 ---
 title: Interrupt or Cancel the Formula Calculation of Workbook
 type: docs
-weight: 30
+weight: 50
 url: /net/interrupt-or-cancel-the-formula-calculation-of-workbook/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Data Filtering
 type: docs
-weight: 350
+weight: 85
 url: /net/data-filtering/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Supported Formula Functions
 type: docs
-weight: 50
+weight: 30
 url: /net/supported-formula-functions/
 ---
 

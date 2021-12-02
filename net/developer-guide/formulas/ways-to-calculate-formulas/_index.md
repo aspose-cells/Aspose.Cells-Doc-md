@@ -1,7 +1,7 @@
 ---
 title: Ways to Calculate Formulas
 type: docs
-weight: 70
+weight: 20
 url: /net/ways-to-calculate-formulas/
 ---
 

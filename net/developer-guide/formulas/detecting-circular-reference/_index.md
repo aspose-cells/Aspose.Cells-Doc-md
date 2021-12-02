@@ -1,7 +1,7 @@
 ---
 title: Detecting Circular Reference
 type: docs
-weight: 20
+weight: 70
 url: /net/detecting-circular-reference/
 ---
 
