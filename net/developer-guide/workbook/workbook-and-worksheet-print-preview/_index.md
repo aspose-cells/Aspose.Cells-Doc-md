@@ -1,7 +1,7 @@
 ---
 title: Workbook and Worksheet Print Preview
 type: docs
-weight: 140
+weight: 30
 url: /net/workbook-and-worksheet-print-preview/
 ---
 

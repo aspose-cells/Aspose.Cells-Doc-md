@@ -1,7 +1,7 @@
 ---
 title: Password Protect or Unprotect the Shared Workbook
 type: docs
-weight: 70
+weight: 10
 url: /net/password-protect-or-unprotect-the-shared-workbook/
 ---
 
