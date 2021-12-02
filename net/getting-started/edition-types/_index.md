@@ -34,14 +34,9 @@ url: /net/edition-types/
 |Using API |Yes |
 |Smart Marker |Yes |
 |**File Formats Supported**| |
-|Excel 97 |Yes |
-|Excel 2000 |Yes |
-|Excel XP |Yes |
-|Excel 2003 |Yes |
-|Excel 2007, 2010, 2013 XLSX |Yes |
-|Excel 2007, 2010, 2013 XLSM |Yes |
-|Excel 2007, 2010, 2013 XLTM |Yes |
-|Excel 2007, 2010, 2013 XLTX |Yes |
+|Excel 95 - 2003 |Yes |
+|Excel 2007 - 2019 |Yes |
+|office 365 |Yes |
 |Pdf |Yes |
 |CSV |Yes |
 |Tab Delimited Text |Yes |
@@ -49,7 +44,8 @@ url: /net/edition-types/
 |HTML |Yes |
 |ODS |Yes |
 |XPS |Yes |
-|Aspose.Pdf.xml format (that can be used by **Aspose.Pdf** to create PDF files) |Yes |
+|Json |Yes |
+|Xml |Yes |
 |**Spreadsheet Content**| |
 |Cell Data |Yes |
 |Formula |Yes |
@@ -78,7 +74,7 @@ url: /net/edition-types/
 |Using Designer Spreadsheet |Yes |
 |Using API |Yes |
 |**Workbook Encryption**| |
-|Open Encrypted File |Yes |
+|Open and save Encrypted File |Yes |
 |**Auto-Filtering of Data**| |
 |Using Designer Spreadsheet |Yes |
 |Using API |Yes |
@@ -98,6 +94,7 @@ url: /net/edition-types/
 |Using API |Yes |
 |**VBA Supported**| |
 |Using Designer Spreadsheet |Yes |
+|Using API |Yes |
 |**Pivot Tables**| |
 |Using Designer Spreadsheet |Yes |
 |Using API |Yes |

@@ -1,7 +1,7 @@
 ---
 title: Chart Formatting
 type: docs
-weight: 10
+weight: 20
 url: /java/chart-formatting/
 ---
 

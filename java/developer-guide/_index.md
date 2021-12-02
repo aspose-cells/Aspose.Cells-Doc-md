@@ -130,8 +130,16 @@ url: /java/developer-guide/
         </ul>
         <p><a href="/cells/java/managing-charts-and-shapes/">Shape</a></p>
         <ul>
-            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/">Insert Shapes to Worksheet In Aspose.Cells</a></li>
-        </ul> 
+            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-to-worksheet">Inserting a Line to Worksheet</a></li>
+            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-arrow-to-worksheet">Inserting a line arrow to Worksheet</a></li>
+            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-rectangle-to-worksheet">Inserting a Rectangle to Worksheet</a></li>
+            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-cube-to-worksheet">Inserting a Cube to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-callout-quad-arrow-to-worksheet">Inserting a callout quad arrow to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multiplication-sign-to-worksheet">Inserting a multiplication sign to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multidocument-to-worksheet">Inserting a multidocument to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-five-pointed-star-to-worksheet">Inserting a Five-pointed star to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-thought-bubble-cloud-to-worksheet">Inserting a thought bubble cloud to Worksheet</a></li>
+        </ul>
 		    <p>Links</p>
         <ul>
             <li><a href="/cells/java/working-with-hyperlinks-to-link-data/">Working with Hyperlinks to Link Data</a></li>
