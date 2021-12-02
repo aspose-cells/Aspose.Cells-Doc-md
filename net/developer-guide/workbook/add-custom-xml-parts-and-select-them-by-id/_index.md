@@ -1,7 +1,7 @@
 ---
 title: Add Custom XML Parts and Select them by ID
 type: docs
-weight: 10
+weight: 70
 url: /net/add-custom-xml-parts-and-select-them-by-id/
 ---
 
