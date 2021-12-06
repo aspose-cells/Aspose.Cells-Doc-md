@@ -38,7 +38,7 @@ You can also download it from the nuget web page for aspose.cells:
 ### **How to use Aspose.Cells for C++ on linux OS.**
 
 1. Download Aspose.Cells for C++ from the following page:
-[Download Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
+[Download Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
 2. Unzip the package and run the Demo.sln,for more details please refer to the README.txt
 
 ## **Creating the Hello World Application**
