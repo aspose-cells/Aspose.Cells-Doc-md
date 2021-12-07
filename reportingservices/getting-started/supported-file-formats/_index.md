@@ -21,3 +21,9 @@ url: /reportingservices/supported-file-formats/
 |SpreadsheetML|Saves the document in Excel 2003 XML file.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Saves the document in XPS file| |{{< emoticons/tick >}}|
 |[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Represents a markdown document.| |{{< emoticons/tick >}}|
+|[EMF](https://docs.fileformat.com/image/emf/)|Saves the document in EMF file| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Saves the document in DIF file| |{{< emoticons/tick >}}|
+|[JPG](https://docs.fileformat.com/image/jpeg/)|Saves the document in JPG file| |{{< emoticons/tick >}}|
+|[PNG](https://docs.fileformat.com/image/png/)|Saves the document in PNG file| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Saves the document in TIFF file| |{{< emoticons/tick >}}|
+|[SVG](https://docs.fileformat.com/page-description-language/svg/)|Saves the document in SVG file| |{{< emoticons/tick >}}|
