@@ -47,23 +47,22 @@ The steps below creates the Hello World application using the Aspose.Cells API:
 
 1. Create an instance of the [Workbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class.
 1. If you have a license, then [apply it](/cells/cpp/licensing/).
-1. If you have a license, then [apply it](/cells/cpp/licensing/).
    If you are using the evaluation version, skip the license related code lines.
 1. Create a new Excel file, or open an existing Excel file.
 1. Access any desired cell of a worksheet in the Excel file.
-1. Insert the words **Hello World!** into a cell accessed.
+1. Insert the words "**Hello World!**" into a cell accessed.
 1. Generate the modified Microsoft Excel file.
 
 The implementation of the above steps is demonstrated in the examples below.
 
 ### **Code Sample: Creating a New Workbook**
 
-The following example creates a new workbook from the scratch, writes Hello World! into cell A1 on the first worksheet and saves the Excel file named MyBook_out.xlsx.
+The following example creates a new workbook from the scratch, inserts "**Hello World!**" into cell "**A1**" on the first worksheet and saves the Excel file.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1.cpp" >}}
 
 ### **Code Sample: Opening an Existing File**
 
-The following example opens an existing Microsoft Excel template file named "MyBook_out.xlsx", check the string "Hello World!" text and saves the workbook.
+The following example opens an existing Microsoft Excel template file, gets a cell and checks the value in the cell.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1.cpp" >}}
