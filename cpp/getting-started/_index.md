@@ -56,12 +56,12 @@ The implementation of the above steps is demonstrated in the examples below.
 
 ### **Code Sample: Creating a New Workbook**
 
-The following example creates a new workbook from the scratch, inserts "**Hello World!**" into cell "**A1**" on the first worksheet and saves the Excel file.
+The following example creates a new workbook from the scratch, inserts "**Hello World!**" into cell A1 on the first worksheet and saves the Excel file.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-FirstApplication-1.cpp" >}}
 
 ### **Code Sample: Opening an Existing File**
 
-The following example opens an existing Microsoft Excel template file, gets a cell and checks the value in the cell "**A1**".
+The following example opens an existing Microsoft Excel template file, gets a cell and checks the value in the cell A1.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CPP-Introduction-OpenExistingFile-1.cpp" >}}
