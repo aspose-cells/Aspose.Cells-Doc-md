@@ -12,7 +12,7 @@ Users can design and deliver reports into Microsoft Excel directly using Aspose.
 Since Aspose.Cells.Report.Designer uses Microsoft Excel as a report template, users can take advantage of all the powerful functionality and features in Microsoft Excel, including Pivot Tables, interactive charts, VBA, macros and formulas. Not all of these features are supported by the standard Microsoft Excel format that Reporting Services deliver.
 
 {{% /alert %}} 
-### **The Aspose.Cells.Report.Designer toolbar**
+- **The Aspose.Cells.Report.Designer toolbar**
 **Users can utilize the Aspose.Cells.Report.Designer toolbar to manipulate an RDL Report file** 
 
 ![todo:image_alt_text](make-use-of-report-designer-client-tool_1.png)

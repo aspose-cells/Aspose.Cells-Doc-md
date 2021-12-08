@@ -5,7 +5,7 @@ weight: 10
 url: /reportingservices/formula-list/
 ---
 
-### **Report fields**
+**Report fields**
 
 |**Set Name** |**Formula Name**|**Description**|
 | :- | :- | :- |
@@ -15,14 +15,14 @@ url: /reportingservices/formula-list/
 | |ReportFolder |The full path to the folder containing the report. This does not include the report server URL. |
 |User |UserID |The ID of the user running the report. |
 | |Language |The language ID of the user running the report. |
-### **Report fields**
+**Report fields**
 
 |**Set Name**|**Description**|
 | :- | :- |
 |Parameters |The Parameters collection contains the report parameters within the report. Parameters can be passed to queries, used in filters or used in other functions that alter the report appearance based on the parameter. |
 |Fields |The Fields collection contains the fields within the current dataset. |
 |DataSet ||
-### **Operators**
+**Operators**
 Arithmetic operators are used to combine numbers, numeric variables, numeric fields and numeric functions to get another number. Comparison operators are usually used to compare operands for a condition in a control structure such as an If statement. Boolean operators are typically used with comparison operators to generate conditions for control structures.
 
 |**Set Name**|**Formula name**|**Description**|

@@ -10,7 +10,7 @@ url: /reportingservices/comprehensive-rdl-support/
 Aspose.Cells for Reporting Services fully supports the RDL specification. This means that you can easily port existing RDL reports to an Aspose solution.
 
 {{% /alert %}} 
-### **Supported RDL Elements**
+**Supported RDL Elements**
 Aspose.Cells supports the following RDL elements: 
 
 - Page, headers, footers

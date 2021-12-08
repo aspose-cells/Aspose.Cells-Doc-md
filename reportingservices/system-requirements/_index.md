@@ -22,6 +22,10 @@ The following Microsoft Excel versions are supported. Moreover, you need to inst
 - Microsoft Excel 2007
 - Microsoft Excel 2010
 - Microsoft Excel 2013
+- Microsoft Excel 2016
+- Microsoft Excel 2019
+- Microsoft Excel 365
+ 
 ### **Reporting Services**
 - Microsoft SQL Server Reporting Services 2005
 - Microsoft SQL Server Reporting Services 2008
@@ -29,10 +33,14 @@ The following Microsoft Excel versions are supported. Moreover, you need to inst
 - Microsoft SQL Server Reporting Services 2012
 - Microsoft SQL Server Reporting Services 2014
 - Microsoft SQL Server Reporting Services 2016
+- Microsoft SQL Server Reporting Services 2019
 ### **Visual Studio**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
 - Microsoft Visual Studio 2010
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
 ### **Operating System**
 The following Microsoft Windows operating systems are supported:
 
@@ -48,6 +56,9 @@ The following Microsoft Windows operating systems are supported:
 - Microsoft Windows 2008 Server R2
 - Microsoft Windows 2012 Server
 - Microsoft Windows 2012 R2 Server
+- Microsoft Windows 2016 Server
+- Microsoft Windows 2019 Server
+
 ### **Supported .NET Framework Versions**
 The following .NET Framework versions are supported:
 

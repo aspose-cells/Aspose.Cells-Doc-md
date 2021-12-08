@@ -8,7 +8,7 @@ url: /reportingservices/comparisons/
 {{% alert color="primary" %}} 
 
 The difference between Aspose.Cells for Reporting Services and other similar products is summarized below. 
-### **Feature Comparison**
+- **Feature Comparison**
 
 |**Features** |**Aspose.Cells for Reporting Services** |**SA OfficeWriter** |**Visual Studio + the Standard Renderer for Microsoft Excel** |
 | :- | :- | :- | :- |
@@ -26,10 +26,10 @@ The difference between Aspose.Cells for Reporting Services and other similar pro
 |Dynamic formulas |Yes (implemented by special Smart Markers). |No |No |
 |Report parameters configuration. |Yes |No |Yes |
 |Exporting various report items to the designated sheets in an Excel workbook. |Yes (specified at design time) |Yes (specified at design time) |No |
-#### **Unsupported Features**
+- **Unsupported Features**
 The following features are not supported:
 
-- Sub-Reports in tables.
-- Tables within tables.
+-- Sub-Reports in tables.
+-- Tables within tables.
 
 {{% /alert %}}

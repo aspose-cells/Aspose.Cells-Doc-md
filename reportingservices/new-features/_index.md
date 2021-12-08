@@ -5,7 +5,7 @@ weight: 40
 url: /reportingservices/new-features/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 - [Composite Markers](/cells/reportingservices/composite-markers/)
 - [Sub-reports](/cells/reportingservices/sub-reports/)
 - [Integrate with Microsoft Report Viewer in Local Mode](/cells/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/)
