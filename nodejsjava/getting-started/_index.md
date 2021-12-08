@@ -1,9 +1,9 @@
 ---
-title: Setup Environment and Installation Guidelines
+title: Getting started
 type: docs
-weight: 20
-url: /nodejsjava/setup-environment-and-installation-guidelines/
-aliases: [/java/setup-environment-and-installation-guidelines/]
+weight: 5
+url: /nodejsjava/getting-started/
+aliases: [/java/setup-environment-and-installation-guidelines/,/nodejsjava/setup-environment-and-installation-guidelines/]
 keywords: "nodejs, excel, install"
 description: "setup Aspose.Cells for Node.js via Java and installation guidelines."
 ---
