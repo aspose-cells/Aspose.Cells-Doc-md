@@ -6,7 +6,7 @@ url: /java/display-or-hide-tabs-in-python/
 ---
 
 ## **Aspose.Cells - Display Hide Tabs**
-##### **Hiding Tabs**
+### **Hiding Tabs**
 To hide tabs using **Aspose.Cells Java for Ruby**, call **displayhidetabs** module.
 
 **Python Code**

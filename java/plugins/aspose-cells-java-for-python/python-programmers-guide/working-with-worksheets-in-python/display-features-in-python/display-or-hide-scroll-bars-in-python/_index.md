@@ -6,7 +6,7 @@ url: /java/display-or-hide-scroll-bars-in-python/
 ---
 
 ## **Aspose.Cells - Display or Hide Scroll Bars**
-##### **Hiding Row/Column Headers**
+### **Hiding Row/Column Headers**
 To hide row/column headers using **Aspose.Cells Java for Python**, call **DisplayHideRowColumnHeaders** module.
 
 **Python Code**

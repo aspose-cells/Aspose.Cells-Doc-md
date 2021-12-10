@@ -6,7 +6,7 @@ url: /java/managing-page-breaks-in-python/
 ---
 
 ## **Aspose.Cells - Managing Page Breaks**
-##### **Adding Page Breaks**
+### **Adding Page Breaks**
 To add page breaks using **Aspose.Cells Java for Ruby**, call **add_page_breaks** method of **pagebreaks** module. Below you can see code example.
 
 **Python Code**
@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 
 {{< /highlight >}}
-##### **Clearing All Page Breaks**
+### **Clearing All Page Breaks**
 To clear all page breaks using **Aspose.Cells Java for Python**, call **clear_all_page_breaks** method of **pagebreaks** module. Below you can see code example.
 
 **Python Code**
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-##### **Removeing Specific Page Break**
+### **Removeing Specific Page Break**
 To remove specific page break using **Aspose.Cells Java for Python**, call **remove_page_break** method of **pagebreaks** module. Below you can see code example.
 
 **Python Code**
