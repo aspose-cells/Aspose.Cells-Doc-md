@@ -5,7 +5,7 @@ weight: 20
 url: /java/utility-features-in-python/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 - [Converting Excel Files to HTML in Python](/cells/java/converting-excel-files-to-html-in-python/)
 - [Converting Excel to PDF Files in Python](/cells/java/converting-excel-to-pdf-files-in-python/)
 - [Converting To MHTML Files in Python](/cells/java/converting-to-mhtml-files-in-python/)

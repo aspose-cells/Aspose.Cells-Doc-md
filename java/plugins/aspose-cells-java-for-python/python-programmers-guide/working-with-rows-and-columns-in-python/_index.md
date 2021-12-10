@@ -5,7 +5,7 @@ weight: 30
 url: /java/working-with-rows-and-columns-in-python/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 - [Adjusting Row Height and Column Width in Python](/cells/java/adjusting-row-height-and-column-width-in-python/)
 - [Autofit Rows and Columns in Python](/cells/java/autofit-rows-and-columns-in-python/)
 - [Copying Rows and Columns in Python](/cells/java/copying-rows-and-columns-in-python/)
