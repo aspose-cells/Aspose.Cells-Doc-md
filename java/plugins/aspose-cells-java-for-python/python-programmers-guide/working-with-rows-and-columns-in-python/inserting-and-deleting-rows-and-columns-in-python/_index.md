@@ -6,7 +6,7 @@ url: /java/inserting-and-deleting-rows-and-columns-in-python/
 ---
 
 ## **Aspose.Cells - Managing Rows/Columns**
-##### **Inserting a Row**
+### **Inserting a Row**
 Insert a row into at any location by calling the insertRows method of the Cells collection. The insertRows method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.
 
 **Python Code**
@@ -34,7 +34,7 @@ workbook.save(self.dataDir + "Insert Row.xls")
 print "Insert Row Successfully." 
 
 {{< /highlight >}}
-##### **Inserting Multiple Rows**
+### **Inserting Multiple Rows**
 To insert multiple rows into the worksheet, call the insertRows method of the Cells collection. The InsertRows method takes two parameters:
 
 - Row index, the index of the row from where the new rows will be inserted.
@@ -66,7 +66,7 @@ print "Insert Multiple Rows Successfully."
 
 
 {{< /highlight >}}
-##### **Deleting a Row**
+### **Deleting a Row**
 To delete a row at any location, call the deleteRows method of the Cells collection. The DeleteRows method takes two parameters:
 
 - Row index, the index of the row from where the rows will be deleted.
@@ -97,7 +97,7 @@ workbook.save(self.dataDir + "Delete Row.xls")
 print "Delete Row Successfully." 
 
 {{< /highlight >}}
-##### **Deleting Multiple Rows**
+### **Deleting Multiple Rows**
 To delete multiple rows from a worksheet, call the deleteRows method of the Cells collection. The DeleteRows method takes two parameters:
 
 - Row index, the index of the row from where the rows will be deleted.
@@ -129,7 +129,7 @@ print "Delete Multiple Rows Successfully."
 
 
 {{< /highlight >}}
-##### **Inserting a Column**
+### **Inserting a Column**
 Developers can also insert a column into the worksheet at any location by calling the insertColumns method of the Cells collection. insertColumns method takes two parameters:
 
 - Column index, the index of the column from where the column will be inserted
@@ -161,7 +161,7 @@ print "Insert Column Successfully."
 
 
 {{< /highlight >}}
-##### **Deleting a Column**
+### **Deleting a Column**
 To delete a column from the worksheet at any location, call the deleteColumns method of the Cells collection. The deleteColumns method takes the following parameters:
 
 - Column index, the index of the column from where the column will be deleted.

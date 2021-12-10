@@ -5,7 +5,7 @@ weight: 10
 url: /java/display-features-in-python/
 ---
 
-###### **This section includes the following topics:** 
+**This section includes the following topics:** 
 - [Display or Hide Gridlines in Python](/cells/java/display-or-hide-gridlines-in-python/)
 - [Display or Hide Scroll Bars in Python](/cells/java/display-or-hide-scroll-bars-in-python/)
 - [Display or Hide Tabs in Python](/cells/java/display-or-hide-tabs-in-python/)

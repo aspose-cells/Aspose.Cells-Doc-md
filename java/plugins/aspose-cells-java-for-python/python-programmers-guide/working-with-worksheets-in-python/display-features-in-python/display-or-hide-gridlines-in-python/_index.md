@@ -6,7 +6,7 @@ url: /java/display-or-hide-gridlines-in-python/
 ---
 
 ## **Aspose.Cells - Display Hide Gridlines**
-##### **Hiding Gridlines**
+### **Hiding Gridlines**
 To hide worksheet using **Aspose.Cells Java for Ruby**, call **displayhidegridlines** module.
 
 **Python Code**
