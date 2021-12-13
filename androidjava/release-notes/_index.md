@@ -1,7 +1,7 @@
 ---
-title: Aspose.Cells for Android via Java
+title: Release Notes
 type: docs
-weight: 20
+weight: 50
 url: /java/aspose-cells-for-android-via-java/
 ---
 
