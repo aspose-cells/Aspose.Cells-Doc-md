@@ -6,7 +6,7 @@ url: /java/display-or-hide-row-column-headers-in-ruby/
 ---
 
 ## **Aspose.Cells - Display or Hide Row Column Headers**
-##### **Hiding Row/Column Headers**
+### **Hiding Row/Column Headers**
 To hide row/column headers using **Aspose.Cells Java for Ruby**, call **DisplayHideRowColumnHeaders** module.
 
 **Ruby Code**
@@ -38,7 +38,7 @@ workbook.save(data_dir + "output.xls")
 puts "Headers of rows and columns are now hidden, please check the output file."
 
 {{< /highlight >}}
-##### **Making Row/Column Headers Visible**
+### **Making Row/Column Headers Visible**
 Make row and column headers visible by using the Worksheet class' setRowColumnHeadersVisible(true) method.
 
 **Ruby Code**

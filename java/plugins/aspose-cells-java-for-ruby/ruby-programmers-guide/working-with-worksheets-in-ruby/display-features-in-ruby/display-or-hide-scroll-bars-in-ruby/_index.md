@@ -6,7 +6,7 @@ url: /java/display-or-hide-scroll-bars-in-ruby/
 ---
 
 ## **Aspose.Cells - Display or Hide Scroll Bars**
-##### **Hiding Scroll Bars**
+### **Hiding Scroll Bars**
 To hide Scroll Bars using **Aspose.Cells Java for Ruby**, call **displayhidescrollbars** module.
 
 **Ruby Code**
@@ -34,7 +34,7 @@ workbook.save(data_dir + "output.xls")
 puts "Scroll Bars are now hidden, please check the output file."
 
 {{< /highlight >}}
-##### **Making Scroll Bars Visible**
+### **Making Scroll Bars Visible**
 Make scroll bars visible by setting the Workbook class' setVerticalScrollBarHidden() or setHorizontalScrollBarHidden() methods to true.
 
 **Ruby Code**

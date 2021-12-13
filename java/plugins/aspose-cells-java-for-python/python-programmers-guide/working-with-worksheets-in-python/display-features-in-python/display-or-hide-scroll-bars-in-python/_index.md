@@ -32,7 +32,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Scroll bars are now hidden, please check the output document."
 
 {{< /highlight >}}
-##### **Making Row/Column Headers Visible**
+### **Making Row/Column Headers Visible**
 Make row and column headers visible by using the Worksheet class' setRowColumnHeadersVisible(true) method.
 
 **Python Code**

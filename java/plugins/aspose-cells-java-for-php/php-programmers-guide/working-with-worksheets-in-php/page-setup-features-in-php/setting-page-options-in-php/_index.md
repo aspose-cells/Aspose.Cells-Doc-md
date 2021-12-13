@@ -6,7 +6,7 @@ url: /java/setting-page-options-in-php/
 ---
 
 ## **Aspose.Cells - Setting Page Options**
-##### **Page Orientation**
+### **Page Orientation**
 To apply page orientation settings using **Aspose.Cells Java for PHP**, call **page_orientation** method of **pagesetup** module.
 
 **PHP Code**
@@ -46,7 +46,7 @@ To apply page orientation settings using **Aspose.Cells Java for PHP**, call **p
 }
 
 {{< /highlight >}}
-##### **Scaling Factor**
+### **Scaling Factor**
 To apply scaling using **Aspose.Cells Java for PHP**, call **scaling** method of **pagesetup** module.
 
 **PHP Code**

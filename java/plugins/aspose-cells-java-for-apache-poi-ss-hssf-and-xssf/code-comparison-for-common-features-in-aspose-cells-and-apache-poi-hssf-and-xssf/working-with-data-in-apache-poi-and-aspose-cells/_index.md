@@ -5,7 +5,7 @@ weight: 40
 url: /java/working-with-data-in-apache-poi-and-aspose-cells/
 ---
 
-###### **This section includes the following topics:**
+ **This section includes the following topics:**
 
 - [Getting Cell Contents](/cells/java/getting-cell-contents/)
 - [Insert Hyperlinks in Worksheet](/cells/java/insert-hyperlinks-in-worksheet/)

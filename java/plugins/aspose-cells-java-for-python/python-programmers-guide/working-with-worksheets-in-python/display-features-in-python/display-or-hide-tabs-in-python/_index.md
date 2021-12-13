@@ -28,7 +28,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
-##### **Making Tabs Visible**
+### **Making Tabs Visible**
 Make tabs visible with the Workbook class' setSheetTabBarHidden(false) method.
 
 **Python Code**

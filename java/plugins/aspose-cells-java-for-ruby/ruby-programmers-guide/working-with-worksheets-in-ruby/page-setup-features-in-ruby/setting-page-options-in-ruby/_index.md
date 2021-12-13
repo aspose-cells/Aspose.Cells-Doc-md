@@ -6,7 +6,7 @@ url: /java/setting-page-options-in-ruby/
 ---
 
 ## **Aspose.Cells - Setting Page Options**
-##### **Page Orientation**
+### **Page Orientation**
 To apply page orientation settings using **Aspose.Cells Java for Ruby**, call **page_orientation** method of **pagesetup** module.
 
 **Ruby Code**
@@ -52,7 +52,7 @@ To apply page orientation settings using **Aspose.Cells Java for Ruby**, call **
 end   
 
 {{< /highlight >}}
-##### **Scaling Factor**
+### **Scaling Factor**
 To apply scaling using **Aspose.Cells Java for Ruby**, call **scaling** method of **pagesetup** module.
 
 **Ruby Code**

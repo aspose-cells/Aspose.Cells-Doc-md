@@ -6,7 +6,7 @@ url: /java/managing-worksheets-in-ruby/
 ---
 
 ## **Aspose.Cells - Managing Worksheets**
-##### **Adding Worksheets to a New Excel File**
+### **Adding Worksheets to a New Excel File**
 To add Worksheet to a new Excel file using **Aspose.Cells Java for Ruby**, simply call **add_worksheet** method of **MangingWorksheets** module.
 
 **Ruby Code**
@@ -40,7 +40,7 @@ To add Worksheet to a new Excel file using **Aspose.Cells Java for Ruby**, simpl
 end 
 
 {{< /highlight >}}
-##### **Adding Worksheets to a Designer Spreadsheet**
+### **Adding Worksheets to a Designer Spreadsheet**
 The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding worksheet to it.
 
 **Ruby Code**
@@ -76,7 +76,7 @@ The process of adding worksheets to a designer spreadsheet is entirely same as t
 end  
 
 {{< /highlight >}}
-##### **Accessing Worksheets using Sheet Name**
+### **Accessing Worksheets using Sheet Name**
 To access worksheet by sheet name using **Aspose.Cells Java for Ruby**, simply call **get_worksheet** method of **MangingWorksheets** module.
 
 **Ruby Code**
@@ -102,7 +102,7 @@ To access worksheet by sheet name using **Aspose.Cells Java for Ruby**, simply c
 end
 
 {{< /highlight >}}
-##### **Removing Worksheets using Sheet Name**
+### **Removing Worksheets using Sheet Name**
 To remove worksheet by sheet name using **Aspose.Cells Java for Ruby**, simply call **remove_worksheet_by_name** method of **MangingWorksheets** module.
 
 **Ruby Code**
@@ -139,7 +139,7 @@ end
 
 
 {{< /highlight >}}
-##### **Removing Worksheets using Sheet Index**
+### **Removing Worksheets using Sheet Index**
 To remove worksheet by sheet index using **Aspose.Cells Java for Ruby**, simply call **remove_worksheet_by_index** method of **MangingWorksheets** module.
 
 **Ruby Code**

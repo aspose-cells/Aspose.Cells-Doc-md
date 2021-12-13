@@ -6,7 +6,7 @@ url: /java/hide-or-unhide-a-worksheet-in-ruby/
 ---
 
 ## **Aspose.Cells - Hide or Unhide a Worksheet**
-##### **Hiding a Worksheet**
+### **Hiding a Worksheet**
 To hide worksheet using Aspose.Cells Java for Ruby, call **hideunhideworksheet** module.
 
 **Ruby Code**
@@ -36,7 +36,7 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-##### **Showing a Worksheet**
+### **Showing a Worksheet**
 Developers can make a worksheet visible by setting the *setVisible(* *true* *)* method of the **Worksheet** class.
 
 **Ruby Code**

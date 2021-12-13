@@ -5,7 +5,7 @@ weight: 10
 url: /java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 ---
 
-###### **This section includes the following topics:**
+ **This section includes the following topics:**
 
 - [Create New Worksheet](/cells/java/create-new-worksheet)
 - [Add Images in Worksheet](/cells/java/add-images-in-worksheet/)

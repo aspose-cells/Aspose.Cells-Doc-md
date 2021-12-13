@@ -6,7 +6,7 @@ url: /java/managing-page-breaks-in-php/
 ---
 
 ## **Aspose.Cells - Managing Page Breaks**
-##### **Adding Page Breaks**
+### **Adding Page Breaks**
 To add page breaks using **Aspose.Cells Java for PHP**, call **add_page_breaks** method of **pagebreaks** module. Below you can see code example.
 
 **PHP Code**
@@ -30,7 +30,7 @@ $v_page_breaks->add("Y30");
 $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
-##### **Clearing All Page Breaks**
+### **Clearing All Page Breaks**
 To clear all page breaks using **Aspose.Cells Java for PHP**, call **clear_all_page_breaks** method of **pagebreaks** module. Below you can see code example.
 
 **PHP Code**
@@ -46,7 +46,7 @@ $workbook->getWorksheets()->get(0)->getVerticalPageBreaks()->clear();
 $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
-##### **Removeing Specific Page Break**
+### **Removeing Specific Page Break**
 To remove specific page break using **Aspose.Cells Java for PHP**, call **remove_page_break** method of **pagebreaks** module. Below you can see code example.
 
 **PHP Code**

@@ -5,7 +5,7 @@ weight: 30
 url: /java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells/
 ---
 
-###### **This section includes the following topics:**
+ **This section includes the following topics:**
 - [Auto Fit Row and Column](/cells/java/auto-fit-row-and-column-html/)
 - [Cell Alignment Settings](/cells/java/cell-alignment-settings-html/)
 - [Hide and Unhide Cells](/cells/java/hide-and-unhide-cells-html/)

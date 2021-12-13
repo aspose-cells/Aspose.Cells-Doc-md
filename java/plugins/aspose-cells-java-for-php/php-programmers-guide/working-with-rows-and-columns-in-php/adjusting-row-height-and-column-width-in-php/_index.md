@@ -6,7 +6,7 @@ url: /java/adjusting-row-height-and-column-width-in-php/
 ---
 
 ## **Aspose.Cells - Adjusting Row Height and Column Width**
-##### **Setting the Row Height**
+### **Setting the Row Height**
 It is possible to set the height of a single row by calling the Cells collection's setRowHeight method. The setRowHeight method takes the folloing parameters:
 
 - **Row index**, the index of the row that you're changing the height of.
@@ -43,7 +43,7 @@ It is possible to set the height of a single row by calling the Cells collecti
 }
 
 {{< /highlight >}}
-##### **Setting the Column Width**
+### **Setting the Column Width**
 Set the width of a column by calling the Cells collection's setColumnWidth method. The setColumnWidth method takes the following parameters:
 
 - **Column index**, the index of the column that you're changing the width of.

@@ -5,7 +5,7 @@ weight: 10
 url: /java/data-handling-features-using-aspose-cells/
 ---
 
-###### **This section includes the following topics:**
+ **This section includes the following topics:**
 - [Find Value in Cells using Aspose.Cells](/cells/java/find-value-in-cells-using-aspose-cells/)
 - [Calculate Sub Totals using Aspose.Cells](/cells/java/calculate-sub-totals-using-aspose-cells/)
 - [Import Data to Worksheets using Aspose.Cells](/cells/java/import-data-to-worksheets-using-aspose-cells/)

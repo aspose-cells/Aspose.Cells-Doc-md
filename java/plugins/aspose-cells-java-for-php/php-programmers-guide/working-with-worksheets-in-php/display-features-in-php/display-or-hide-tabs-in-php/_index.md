@@ -6,7 +6,7 @@ url: /java/display-or-hide-tabs-in-php/
 ---
 
 ## **Aspose.Cells - Display or Hide Tabs**
-##### **Hiding Tabs**
+### **Hiding Tabs**
 To hide tabs using **Aspose.Cells Java for PHP**, call **displayhidetabs** module.
 
 **PHP Code**

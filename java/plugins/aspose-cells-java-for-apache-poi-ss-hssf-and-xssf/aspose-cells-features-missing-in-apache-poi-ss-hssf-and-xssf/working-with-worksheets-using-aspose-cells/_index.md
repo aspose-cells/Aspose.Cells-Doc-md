@@ -5,7 +5,7 @@ weight: 20
 url: /java/working-with-worksheets-using-aspose-cells/
 ---
 
-###### **This section includes the following topics:**
+ **This section includes the following topics:**
 - [Add Word Art Watermark to Worksheet using Aspose.Cells](/cells/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
 - [Convert Workbook to HTML using Aspose.Cells](/cells/java/convert-workbook-to-html-using-aspose-cells/)
 - [Detect Merged Cells using Aspose.Cells](/cells/java/detect-merged-cells-using-aspose-cells/)

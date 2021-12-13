@@ -6,7 +6,7 @@ url: /java/display-or-hide-scroll-bars-in-php/
 ---
 
 ## **Aspose.Cells - Display or Hide Scroll Bars**
-##### **Hiding Scroll Bars**
+### **Hiding Scroll Bars**
 To hide Scroll Bars using **Aspose.Cells Java for PHP**, call **displayhidescrollbars** module.
 
 **PHP Code**

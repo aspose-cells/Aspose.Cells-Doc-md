@@ -6,7 +6,7 @@ url: /java/managing-page-breaks-in-ruby/
 ---
 
 ## **Aspose.Cells - Managing Page Breaks**
-##### **Adding Page Breaks**
+### **Adding Page Breaks**
 To add page breaks using **Aspose.Cells Java for Ruby**, call **add_page_breaks** method of **pagebreaks** module. Below you can see code example.
 
 **Ruby Code**
@@ -38,7 +38,7 @@ To add page breaks using **Aspose.Cells Java for Ruby**, call **add_page_breaks*
 end   
 
 {{< /highlight >}}
-##### **Clearing All Page Breaks**
+### **Clearing All Page Breaks**
 To clear all page breaks using **Aspose.Cells Java for Ruby**, call **clear_all_page_breaks** method of **pagebreaks** module. Below you can see code example.
 
 **Ruby Code**
@@ -60,7 +60,7 @@ To clear all page breaks using **Aspose.Cells Java for Ruby**, call **clear_all_
 end 
 
 {{< /highlight >}}
-##### **Removeing Specific Page Break**
+### **Removeing Specific Page Break**
 To remove specific page break using **Aspose.Cells Java for Ruby**, call **remove_page_break** method of **pagebreaks** module. Below you can see code example.
 
 **Ruby Code**

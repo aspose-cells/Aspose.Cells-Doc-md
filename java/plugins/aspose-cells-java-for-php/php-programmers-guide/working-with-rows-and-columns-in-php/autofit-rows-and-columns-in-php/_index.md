@@ -6,7 +6,7 @@ url: /java/autofit-rows-and-columns-in-php/
 ---
 
 ## **Aspose.Cells - Autofit Rows and Columns**
-##### **Autofit Row**
+### **Autofit Row**
 The most straight-forward approach to auto-sizing the width and height of a row is to call the Worksheet class' autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
 
 **PHP Code**
@@ -44,7 +44,7 @@ The most straight-forward approach to auto-sizing the width and height of a row 
 }
 
 {{< /highlight >}}
-##### **Autofit Column**
+### **Autofit Column**
 The easiest way to auto-size the width and height of a column is to call the Worksheet class' autoFitColumn method. The autoFitColumn method takes the column index (of the column about to be resized) as a parameter.
 
 **PHP Code**

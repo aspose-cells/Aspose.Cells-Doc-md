@@ -6,7 +6,7 @@ url: /java/display-or-hide-tabs-in-ruby/
 ---
 
 ## **Aspose.Cells - Display or Hide Tabs**
-##### **Hiding Tabs**
+### **Hiding Tabs**
 To hide tabs using **Aspose.Cells Java for Ruby**, call **displayhidetabs** module.
 
 **Ruby Code**
@@ -30,7 +30,7 @@ workbook.save(data_dir + "output.xls")
 puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
-##### **Making Tabs Visible**
+### **Making Tabs Visible**
 Make tabs visible with the Workbook class' setSheetTabBarHidden(false) method.
 
 **Ruby Code**

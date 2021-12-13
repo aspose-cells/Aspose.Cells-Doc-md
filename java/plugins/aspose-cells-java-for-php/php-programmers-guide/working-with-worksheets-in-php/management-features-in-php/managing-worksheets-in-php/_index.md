@@ -6,7 +6,7 @@ url: /java/managing-worksheets-in-php/
 ---
 
 ## **Aspose.Cells - Managing Worksheets**
-##### **Adding Worksheets to a New Excel File**
+### **Adding Worksheets to a New Excel File**
 To add Worksheet to a new Excel file using **Aspose.Cells Java for PHP**, simply call **add_worksheet** method of **MangingWorksheets** module.
 
 **PHP Code**
@@ -34,7 +34,7 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-##### **Removing Worksheets using Sheet Name**
+### **Removing Worksheets using Sheet Name**
 To remove worksheet by sheet name using **Aspose.Cells Java for PHP**, simply call **remove_worksheet_by_name** method of **MangingWorksheets** module.
 
 **PHP Code**
@@ -62,7 +62,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-##### **Removing Worksheets using Sheet Index**
+### **Removing Worksheets using Sheet Index**
 To remove worksheet by sheet index using **Aspose.Cells Java for PHP**, simply call **remove_worksheet_by_index** method of **MangingWorksheets** module.
 
 **PHP Code**

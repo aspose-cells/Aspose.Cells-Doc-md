@@ -6,7 +6,7 @@ url: /java/display-or-hide-gridlines-in-php/
 ---
 
 ## **Aspose.Cells - Display or Hide Gridlines**
-##### **Hiding Gridlines**
+### **Hiding Gridlines**
 To hide worksheet using **Aspose.Cells Java for PHP**, call **displayhidegridlines** module.
 
 **PHP Code**

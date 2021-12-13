@@ -6,7 +6,7 @@ url: /java/display-or-hide-gridlines-in-ruby/
 ---
 
 ## **Aspose.Cells - Display or Hide Gridlines**
-##### **Hiding Gridlines**
+### **Hiding Gridlines**
 To hide worksheet using **Aspose.Cells Java for Ruby**, call **displayhidegridlines** module.
 
 **Ruby Code**
@@ -38,7 +38,7 @@ workbook.save(data_dir + "output.xls")
 puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
-##### **Making Gridlines Visible**
+### **Making Gridlines Visible**
 To make gridlines visible, use the the Worksheet class' setGridlinesVisible(true) method.
 
 **Ruby Code**

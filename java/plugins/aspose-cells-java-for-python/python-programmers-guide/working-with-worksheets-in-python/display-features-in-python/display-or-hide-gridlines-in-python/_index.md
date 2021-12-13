@@ -34,7 +34,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Grid lines are now hidden on sheet 1, please check the output document."
 
 {{< /highlight >}}
-##### **Making Gridlines Visible**
+### **Making Gridlines Visible**
 To make gridlines visible, use the the Worksheet class' setGridlinesVisible(true) method.
 
 **Python Code**

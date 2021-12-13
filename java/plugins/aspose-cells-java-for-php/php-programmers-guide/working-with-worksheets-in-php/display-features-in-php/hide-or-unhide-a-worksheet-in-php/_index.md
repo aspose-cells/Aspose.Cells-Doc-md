@@ -6,7 +6,7 @@ url: /java/hide-or-unhide-a-worksheet-in-php/
 ---
 
 ## **Aspose.Cells - Hide or Unhide a Worksheet**
-##### **Hiding a Worksheet**
+### **Hiding a Worksheet**
 To hide worksheet using Aspose.Cells Java for PHP, call **hideunhideworksheet** module.
 
 **PHP Code**

@@ -6,7 +6,7 @@ url: /java/copying-rows-and-columns-in-ruby/
 ---
 
 ## **Aspose.Cells - Copying Rows and Columns**
-##### **Copying Rows**
+### **Copying Rows**
 Aspose.Cells provides the copyRow method of the Cells class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.
 
 The copyRow method takes the following parameters:
@@ -48,7 +48,7 @@ The copyRow method takes the following parameters:
 end
 
 {{< /highlight >}}
-##### **Copying Columns**
+### **Copying Columns**
 Aspose.Cells provides the copyColumn method of the Cells class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.
 
 The copyColumn method takes the following parameters:

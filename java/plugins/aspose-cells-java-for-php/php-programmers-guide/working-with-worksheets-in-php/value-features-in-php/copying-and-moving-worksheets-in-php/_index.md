@@ -6,7 +6,7 @@ url: /java/copying-and-moving-worksheets-in-php/
 ---
 
 ## **Aspose.Cells - Copying and Moving Worksheets**
-##### **Copy Worksheets within a Workbook**
+### **Copy Worksheets within a Workbook**
 To copy worksheet using **Aspose.Cells for Java in PHP**, call **copy_worksheet** method of **copyworksheets** module. Below you can see code example.
 
 **PHP Code**
@@ -27,7 +27,7 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 
 {{< /highlight >}}
-##### **Move Worksheets within a Workbook**
+### **Move Worksheets within a Workbook**
 To move worksheet using **Aspose.Cells for Java in PHP**, call **move_worksheet** method of **copyworksheets** module. Below you can see code example.
 
 **PHP Code**
