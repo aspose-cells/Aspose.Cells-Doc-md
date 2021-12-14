@@ -6,7 +6,7 @@ url: /net/sort-data-in-worksheets/
 ---
 
 Below is the comparison code example for VSTO and Aspose.Cells.
-#### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
@@ -36,7 +36,7 @@ Below is the comparison code example for VSTO and Aspose.Cells.
   Excel.XlSortDataOption.xlSortNormal);
 
 {{< /highlight >}}
-#### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
@@ -54,6 +54,6 @@ Below is the comparison code example for VSTO and Aspose.Cells.
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-#### **Download**
+## **Download**
 - [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459768)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

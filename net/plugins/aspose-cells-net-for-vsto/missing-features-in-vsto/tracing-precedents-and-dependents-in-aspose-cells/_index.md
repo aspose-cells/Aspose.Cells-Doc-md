@@ -17,7 +17,7 @@ To make the spreadsheet easy to read, you might want to clearly show which cells
 Aspose.Cells allows you to trace cells and find out which are linked.
 
 {{% /alert %}} 
-### **Tracing Precedent and Dependent Cells: Microsoft Excel**
+## **Tracing Precedent and Dependent Cells: Microsoft Excel**
 Formulas may change based on modifications made by a client. For example, if cell C1 is dependent on C3 and C4 containing a formula, and C1 is changed (so the formula is overriden), C3 and C4, or other cells, need to change to balance the spreadsheet based on business rules.
 
 Similarly, suppose C1 contains the formula "=(B1*22)/(M2*N32)". I want to find the cells that C1 depends on, that is the precedent cells B1, M2 and N32.
@@ -38,8 +38,8 @@ Microsoft Excel allows users to trace precedents and dependents.
 1. Trace formulas that reference a particular cell (dependents)
    1. Select the cell for which you want to identify the dependent cells.
    1. To display a tracer arrow to each cell that is dependent on the active cell, click Trace Dependents on the Formula Auditing toolbar.
-### **Tracing Precedent and Dependent Cells: Aspose.Cells**
-#### **Tracing Precedents**
+## **Tracing Precedent and Dependent Cells: Aspose.Cells**
+### **Tracing Precedents**
 Aspose.Cells makes it easy to get precedent cells. Not only can it retrieve cells that provide data to a simple formula precedents but also find cells that provide data to a complex formula precedents with named ranges.
 
 In the example below, a template excel file, Book1.xls, is used. The spreadsheet has data and formulas on the first Worksheet.
@@ -120,7 +120,7 @@ if(ret != null)
 
 
 {{< /highlight >}}
-#### **Tracing Dependents**
+### **Tracing Dependents**
 Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells can not only can retrieve cells that provide data regarding a simple formula but also find cells that provide data to a complex formula dependents with named ranges.
 
 Aspose.Cells provides the Cell class' GetDependents method used to trace a cell's dependents. For example, in Book1.xlsx there are formulas: "=A1+20" and "=A1+30" in the B2 and C2 cells respectively. The following example demonstrates how to trace the dependents for the A1 cell using the template file Book1.xlsx.

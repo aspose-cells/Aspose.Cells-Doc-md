@@ -15,7 +15,7 @@ To apply auto-filtering to a column:
 1. Save the spreadsheet.
 
 The code samples in this article show how to perform these steps using VSTO with either C#, or using Apose.Cells, again with either C#.
-### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
  Excel.Application ExcelApp = Application;
@@ -73,7 +73,7 @@ sheet.get_Range("B1", "B5").EntireColumn.AutoFit();
 objBook.SaveCopyAs("vsto_autofilter.xlsx");
 
 {{< /highlight >}}
-### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
  //Instantiate a new Workbook.

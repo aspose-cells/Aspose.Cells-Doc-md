@@ -12,7 +12,7 @@ To rotate text in a cell on a worksheet, take the following steps:
 1. Format the text: rotate, add background colour.
 1. Save the file.
    The code samples that follow show how to perform these steps first in VSTO, using either C#, and then in Aspose.Cells, again using either C#.
-### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
  //intiate Application object
@@ -58,7 +58,7 @@ objBook.SaveCopyAs("VSTO_RotateText_test.xlsx");
 ExcelApp.Quit();
 
 {{< /highlight >}}
-### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
  // Instantiate a new Workbook.

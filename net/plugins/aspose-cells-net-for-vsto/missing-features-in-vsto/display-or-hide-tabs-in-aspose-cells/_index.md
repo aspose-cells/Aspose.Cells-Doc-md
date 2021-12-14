@@ -55,7 +55,7 @@ workbook.Save("output.xls");
 
 
 {{< /highlight >}}
-#### **Controlling the Tab Bar Width**
+## **Controlling the Tab Bar Width**
 **C#**
 
 {{< highlight csharp >}}

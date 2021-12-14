@@ -5,7 +5,7 @@ weight: 130
 url: /net/get-text-of-specific-cell/
 ---
 
-### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
  //Instantiate the Application object.
@@ -45,7 +45,7 @@ excelApp.ActiveWorkbook.Save();
 excelApp.Quit();
 
 {{< /highlight >}}
-### **Aspose**
+## **Aspose**
 {{< highlight csharp >}}
 
  //Specify the excel file path.

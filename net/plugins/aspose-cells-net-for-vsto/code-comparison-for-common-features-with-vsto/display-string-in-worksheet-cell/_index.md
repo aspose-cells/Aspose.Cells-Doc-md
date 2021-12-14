@@ -5,7 +5,7 @@ weight: 110
 url: /net/display-string-in-worksheet-cell/
 ---
 
-#### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
@@ -17,7 +17,7 @@ url: /net/display-string-in-worksheet-cell/
  cells.set_Item(1, 1, "Some Text");
 
 {{< /highlight >}}
-#### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
@@ -31,6 +31,6 @@ url: /net/display-string-in-worksheet-cell/
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-#### **Download**
+## **Download**
 - [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459769)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)

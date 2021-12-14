@@ -78,10 +78,10 @@ for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 File.WriteAllBytes(destFileName, workbookData);
 
 {{< /highlight >}}
-### **Download Sample Code**
+## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells Features missing in OpenXML/Save Workbook to Text or CSV Format/)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
 
-### **Download Running Example**
+## **Download Running Example**
 - [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

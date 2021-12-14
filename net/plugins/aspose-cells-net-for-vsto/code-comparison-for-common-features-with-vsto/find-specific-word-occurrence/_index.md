@@ -5,7 +5,7 @@ weight: 120
 url: /net/find-specific-word-occurrence/
 ---
 
-### **VSTO Excel**
+## **VSTO Excel**
 {{< highlight csharp >}}
 
  Excel.Application excelApp = Application;
@@ -42,7 +42,7 @@ excelApp.Quit();
 
 
 {{< /highlight >}}
-### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
  static void Main(string[] args)

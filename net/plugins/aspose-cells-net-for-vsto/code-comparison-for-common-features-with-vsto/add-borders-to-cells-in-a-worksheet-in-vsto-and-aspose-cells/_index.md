@@ -27,7 +27,7 @@ The code generates an Excel file with a number of cells on the first sheet, each
 ![todo:image_alt_text](picture1.png)
 
 Cells with borders applied.
-### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
  //Instantiate the Application object.
@@ -145,7 +145,7 @@ objBook.SaveAs("ApplyBorders.xls",
 ExcelApp.Quit();
 
 {{< /highlight >}}
-### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
  //Instantiate a new Workbook.

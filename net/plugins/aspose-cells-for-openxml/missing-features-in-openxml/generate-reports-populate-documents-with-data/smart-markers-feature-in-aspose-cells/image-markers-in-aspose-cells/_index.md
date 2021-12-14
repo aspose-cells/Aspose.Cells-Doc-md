@@ -6,7 +6,7 @@ url: /net/image-markers-in-aspose-cells/
 ---
 
 Aspose.Cells smart markers support image markers too. This section shows you how to insert pictures using smart markers.
-### **Image Parameters**
+## **Image Parameters**
 Smart marker parameters for managing images.
 
 - **Picture:FitToCell** - Auto-fit the image to the cell’s row height and column width.

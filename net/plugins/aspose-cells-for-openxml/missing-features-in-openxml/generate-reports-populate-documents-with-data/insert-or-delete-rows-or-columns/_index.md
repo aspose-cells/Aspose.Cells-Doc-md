@@ -6,7 +6,7 @@ url: /net/insert-or-delete-rows-or-columns/
 ---
 
 Whether we are creating a new worksheet from scratch or we are working on an existing worksheet, we may need to add extra rows or columns into the worksheet to accomodate more data or for some other reason. Inversely, it may also be required to delete rows or columns from specified positions of the worksheet.
-### **Managing Rows/Columns**
+## **Managing Rows/Columns**
 **Aspose.Cells** provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
 
 **Cells** collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.

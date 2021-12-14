@@ -10,7 +10,7 @@ In some Excel reports you might need to break the data into groups to make it ea
 Aspose.Cells smart markers allow you to group your data by field(s) and place summary rows in between data sets or data groups. For example, if grouping data by Customers.CustomerID, you can add a summary record every time the group changes.
 
 The example code snippets that follow shows how to group data in an Excel report using smart markers.
-### **Parameters**
+## **Parameters**
 Following are some of the smart marker parameters used for grouping data.
 **group:normal/merge/repeat**
 

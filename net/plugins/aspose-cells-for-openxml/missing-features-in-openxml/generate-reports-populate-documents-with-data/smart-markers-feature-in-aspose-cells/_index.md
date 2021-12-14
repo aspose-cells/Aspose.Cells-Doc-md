@@ -6,7 +6,7 @@ url: /net/smart-markers-feature-in-aspose-cells/
 ---
 
 **Smart markers** are used to let Aspose.Cells know what information to place in an Microsoft Excel designer spreadsheet. Smart markers allow you to create templates that contain only specific information and formatting.
-### **Designer Spreadsheet & Smart Markers**
+## **Designer Spreadsheet & Smart Markers**
 Designer spreadsheets are standard Excel files that contain visual formatting, formulas and smart markers. They can contain smart markers that reference one or more data source, such as information from a project and information for related contacts. Smart markers are written into the cells where you want the information.
 
 All smart markers start with &=. An example of a data marker is &=Party.FullName. If the data marker results in more than one item, for example, a complete row, then the following rows are moved down automatically to make room for all of the new information. Thus sub-totals and totals can be placed on the row immediately after the data marker to make calculations based on the inserted data. To make calculations on the inserted rows, use dynamic formulas.

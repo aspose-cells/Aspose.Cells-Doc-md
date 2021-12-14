@@ -5,13 +5,13 @@ weight: 60
 url: /net/copy-worksheets/
 ---
 
-#### **Migration Tip:**
+## **Migration Tip:**
 \1. Create Workbook object and get Worksheet.
 \2. Insert text in worksheet.
 \3. Create new Worksheet and Copy it to previous before made worksheet.
-#### **VSTO**
+### **VSTO**
 Error rendering macro 'code' : Invalid value specified for parameter lang
-#### **Aspose.Cells**
+### **Aspose.Cells**
 {{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
@@ -31,6 +31,6 @@ Error rendering macro 'code' : Invalid value specified for parameter lang
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-#### **Download**
+## **Download**
 - [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459764)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

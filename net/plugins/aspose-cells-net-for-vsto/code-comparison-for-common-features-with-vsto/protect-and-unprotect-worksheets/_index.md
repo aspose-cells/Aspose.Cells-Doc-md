@@ -5,7 +5,7 @@ weight: 190
 url: /net/protect-and-unprotect-worksheets/
 ---
 
-### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
  //Instantiate the Application object.
@@ -55,7 +55,7 @@ excelApp.ActiveWorkbook.Save();
 excelApp.Quit();
 
 {{< /highlight >}}
-### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
  //Specify the template excel file path.

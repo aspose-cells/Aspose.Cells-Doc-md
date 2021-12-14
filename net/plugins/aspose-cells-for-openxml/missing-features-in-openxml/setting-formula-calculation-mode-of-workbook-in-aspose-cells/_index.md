@@ -49,9 +49,9 @@ workbook.Settings.CalcMode = CalcModeType.Manual;
 workbook.Save(FileName, SaveFormat.Xlsx);
 
 {{< /highlight >}}
-### **Download Sample Code**
+## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells Features missing in OpenXML/Setting Formula Calculation Mode/)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Formula%20Calculation%20Mode)
-### **Download Running Example**
+## **Download Running Example**
 - [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

@@ -12,7 +12,7 @@ Microsoft Excel (97 - 2007) enables you to encrypt and password protect your spr
 Aspose.Cells allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.
 
 {{% /alert %}} 
-#### **Using Microsoft Excel**
+## **Using Microsoft Excel**
 To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):
 
 1. From the **Tools** menu, select **Options**.
@@ -34,7 +34,7 @@ To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):
 
 
 
-#### **Encryption with Aspose.Cells**
+## **Encryption with Aspose.Cells**
 The following example shows how to encrypt and password protect an excel file using the Aspose.Cells API.
 
 **C#**
@@ -68,10 +68,10 @@ workbook.Settings.Password = "1234";
 workbook.Save(destFileName);
 
 {{< /highlight >}}
-### **Download Running Code**
+## **Download Running Code**
 - [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-### **Download Sample Code**
+## **Download Sample Code**
 - [Codeplex](https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells Features missing in OpenXML/Encrypting Excel Files/)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Encrypting%20Excel%20Files)
 

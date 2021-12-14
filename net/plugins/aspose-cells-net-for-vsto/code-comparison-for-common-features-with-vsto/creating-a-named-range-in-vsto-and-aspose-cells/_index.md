@@ -17,7 +17,7 @@ To create a named range:
    1. Save the file.
 
 The code examples below show how to perform these steps using VSTO with either C#. The code examples that follow show how to do the same thing using Aspose.Cells for .NET, again with either C#.
-### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
  //Create Excel Object
@@ -63,7 +63,7 @@ wb.SaveCopyAs("Test_Range.xls");
 xl.Quit();
 
 {{< /highlight >}}
-### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
  //Instantiating a Workbook object

@@ -6,7 +6,7 @@ url: /net/apply-styles-to-ranges-in-workbooks/
 ---
 
 Below is the code comparison of applying style to rows and columns of workbooks:
-#### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
@@ -30,7 +30,7 @@ Below is the code comparison of applying style to rows and columns of workbooks:
  FormatingRange.Style = "NewStyle";
 
 {{< /highlight >}}
-#### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
@@ -82,6 +82,6 @@ Below is the code comparison of applying style to rows and columns of workbooks:
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-#### **Download**
+## **Download**
 - [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459813)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

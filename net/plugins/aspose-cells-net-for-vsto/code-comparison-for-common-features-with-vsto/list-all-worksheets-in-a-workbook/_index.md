@@ -5,7 +5,7 @@ weight: 160
 url: /net/list-all-worksheets-in-a-workbook/
 ---
 
-### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
  	Excel.Application excelApp = Application;
@@ -55,7 +55,7 @@ private void ListSheets(Microsoft.Office.Interop.Excel.Workbook workbook)
 }
 
 {{< /highlight >}}
-### **Aspose**
+## **Aspose**
 {{< highlight csharp >}}
 
  static void Main(string[] args)
