@@ -6,7 +6,7 @@ url: /net/opening-files-in-php/
 ---
 
 ## **Aspose.Cells - Open Excel Files**
-##### **Opening through Path**
+### **Opening through Path**
 Simply open a Microsoft Excel file by referencing the file's path
 
 **PHP Code**

@@ -6,7 +6,7 @@ url: /net/open-text-files-as-workbooks/
 ---
 
 Below are comparison code example for opening textfile as Workbooks:
-#### **VSTO**
+## **VSTO**
 {{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
@@ -22,7 +22,7 @@ Below are comparison code example for opening textfile as Workbooks:
     missing, missing, missing, missing, missing, missing);
 
 {{< /highlight >}}
-#### **Aspose.Cells**
+## **Aspose.Cells**
 {{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
@@ -38,6 +38,6 @@ Below are comparison code example for opening textfile as Workbooks:
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-##### **Download**
+##**Download**
 - [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459767)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

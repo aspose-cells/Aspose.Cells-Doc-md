@@ -6,7 +6,7 @@ url: /net/saving-files-in-php/
 ---
 
 ## **Aspose.Cells - Save Excel Files**
-##### **Opening through Path**
+### **Opening through Path**
 Saving a Microsoft Excel file by referencing the file's path
 
 **PHP Code**

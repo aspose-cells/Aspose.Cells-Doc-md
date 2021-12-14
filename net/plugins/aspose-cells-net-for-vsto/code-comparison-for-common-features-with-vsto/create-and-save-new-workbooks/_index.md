@@ -5,12 +5,12 @@ weight: 70
 url: /net/create-and-save-new-workbooks/
 ---
 
-##### **Migration Tips:**
+## **Migration Tips:**
 \1. Create Workbook object
 \2. Get current Worksheet.
 \3. Insert some text in any cell.
 \4. Save the Workbook.
-#### **VSTO**
+### **VSTO**
 Below is code example for VSTO
 
 {{< highlight csharp >}}
@@ -26,7 +26,7 @@ Below is code example for VSTO
  newWorkbook.Save();
 
 {{< /highlight >}}
-#### **Aspose.Cells**
+### **Aspose.Cells**
 Below is code example for Aspose.Cells
 
 {{< highlight csharp >}}
@@ -42,6 +42,6 @@ Below is code example for Aspose.Cells
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-##### **Download**
+## **Download**
 - [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459765)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)
