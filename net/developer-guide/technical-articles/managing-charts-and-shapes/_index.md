@@ -1,8 +1,9 @@
 ---
-title: Managing Charts and Shapes
+title: Managing Shapes
 type: docs
 weight: 60
-url: /net/managing-charts-and-shapes/
+url: /net/managing-shapes/
+aliases: [/net/managing-charts-and-shapes/]
 ---
 
 
