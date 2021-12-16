@@ -50,3 +50,23 @@ To remove worksheets from a file, call the [**RemoveAt**](https://apireference.
 Removing worksheets by name works well when the name of the worksheet is known. If you don't know the worksheet's name, use an overloaded version of the [**RemoveAt**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat) method that takes the sheet index of the worksheet instead of its sheet name.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetIndex-1.cs" >}}
+
+## **Activating Sheets and Making an Active Cell in the Worksheet**
+
+Sometimes, you need a specific worksheet to be active and displayed when a user opens a Microsoft Excel file in Excel. Similarly, you might want to activate a specific cell and set the scrollbars to show the active cell.
+Aspose.Cells is capable of doing all these tasks.
+
+An **active sheet** is a sheet you're working on: the active sheet's name on the tab is bold by default.
+
+An **active cell** is a selected cell, the cell into which data is entered when you begin typing. Only one cell is active at a time. The active cell is highlighted by a heavy border.
+
+### **Activating Sheets and Making a Cell Active**
+
+Aspose.Cells provides specific API calls for activating a sheet and a cell. For Example, the [**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex) property is useful for setting the active sheet in a workbook.
+Similarly, [**Aspose.Cells.Worksheet.ActiveCell**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell) property is used to set and get an active cell in the worksheet.
+
+To make sure that the horizontal or vertical scrollbars are at the row and column index position you want to show specific data, use the [**Aspose.Cells.Worksheet.FirstVisibleRow**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) and [**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn) properties.
+
+The following example shows how to activate a worksheet and make an active cell in it. In the generated output, the scrollbars will be scrolled to make the 2nd row and 2nd column as their first visible row and column.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
