@@ -1,7 +1,7 @@
 ---
 title: Excel Themes and Colors
 type: docs
-weight: 50
+weight: 100
 url: /net/excel-themes-and-colors/
 ---
 

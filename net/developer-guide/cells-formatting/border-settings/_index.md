@@ -1,7 +1,7 @@
 ---
 title: Border Settings
 type: docs
-weight: 30
+weight: 40
 url: /net/cells-border-settings/
 ---
 

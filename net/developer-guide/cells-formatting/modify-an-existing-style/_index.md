@@ -1,7 +1,7 @@
 ---
 title: Modify an Existing Style
 type: docs
-weight: 40
+weight: 90
 url: /net/modify-an-existing-style/
 ---
 

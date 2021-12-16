@@ -1,7 +1,7 @@
 ---
 title: Create Style object using CellsFactory class
 type: docs
-weight: 310
+weight: 70
 url: /net/create-style-object-using-cellsfactory-class/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Format and Modify Named Ranges
 type: docs
-weight: 210
+weight: 85
 url: /net/format-and-modify-named-ranges/
 ---
 

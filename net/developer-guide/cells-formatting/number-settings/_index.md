@@ -1,7 +1,7 @@
 ---
 title: Number Settings
 type: docs
-weight: 100
+weight: 10
 url: /net/cells-number-settings/
 ---
 

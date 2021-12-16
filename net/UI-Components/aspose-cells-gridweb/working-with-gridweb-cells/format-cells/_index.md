@@ -2,7 +2,7 @@
 title: Format Cells
 type: docs
 weight: 40
-url: /net/format-cells/
+url: /net/format-grid-cells/
 ---
 
 {{% alert color="primary" %}} 

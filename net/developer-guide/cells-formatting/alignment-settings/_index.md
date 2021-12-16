@@ -1,7 +1,7 @@
 ---
 title: Alignment Settings
 type: docs
-weight: 120
+weight: 20
 url: /net/cells-alignment-settings/
 aliases: [/net/configuring-alignment-settings/]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Font Settings
 type: docs
-weight: 150
+weight: 30
 url: /net/cells-font-settings/
 aliases: [/net/dealing-with-font-settings/,/net/fonts/]
 ---
