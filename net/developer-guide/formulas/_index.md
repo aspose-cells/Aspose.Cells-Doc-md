@@ -69,7 +69,7 @@ It is possible to apply an array formula to a cell by calling the [**Cell**](htt
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 
-### **Using R1C1 Formula**
+## **Using R1C1 Formula**
 
 Add an **R1C1** reference style formula to a cell with the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class' [**R1C1Formula**](https://apireference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) property.
 
