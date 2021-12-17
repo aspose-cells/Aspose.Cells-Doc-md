@@ -1,6 +1,6 @@
 ---
 title: Slicers
 type: docs
-weight: 140
+weight: 170
 url: /net/slicers/
 ---

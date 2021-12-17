@@ -1,7 +1,7 @@
 ---
 title: Charts
 type: docs
-weight: 160
+weight: 130
 url: /net/charts/
 ---
 

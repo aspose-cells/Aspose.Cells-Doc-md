@@ -1,7 +1,7 @@
 ---
 title: Pivot Tables
 type: docs
-weight: 130
+weight: 160
 url: /net/pivot-tables/
 ---
 
