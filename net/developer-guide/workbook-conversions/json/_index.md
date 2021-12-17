@@ -11,7 +11,7 @@ Aspose.Cells supports converting a workbook to Json(JavaScript Object Notation) 
 
 {{% /alert %}}
 
-## **Convert Excel Workbook to JSON **
+## **Convert Excel Workbook to JSON**
 
 The Aspose.Cells API provides support for converting spreadsheets to JSON format. To export the workbook to JSON, pass [**SaveFormat.Json**](https://apireference.aspose.com/cells/net/aspose.cells/saveformat) as the second parameter of [**Workbook.Save**](https://apireference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) method. You may also use [**JsonSaveOptions**](https://apireference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) class to specify additional settings for exporting worksheet to JSON.
 
