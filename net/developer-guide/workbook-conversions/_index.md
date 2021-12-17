@@ -83,7 +83,7 @@ The following code example demonstrates exporting active worksheet to Markdown b
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.cs" >}}
 
-## **Convert Excel Workbook to JSON **
+## **Convert Excel Workbook to JSON**
 
 Aspose.Cells supports converting a workbook to Json(JavaScript Object Notation) file.
 
