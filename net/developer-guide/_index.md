@@ -67,16 +67,13 @@ url: /net/developer-guide/
 		 <li><a href="/cells/net/worksheets/">Worksheets</a></li>
 		 <li><a href="/cells/net/rows-and-columns/">Rows and Columns</a></li>
         </ul>
-        <p>Style</p>
+        <p><a href="/cells/net/cells-formatting/">Style</a></p>
         <ul>
-		 <li><a href="/cells/net/data-formatting/">Number</a></li>
-		 <li><a href="/cells/net/dealing-with-font-settings/">Alignment</a></li>
-		 <li><a href="/cells/net/fonts/">Font</a></li>
-		 <li><a href="/cells/net/cells-formatting/#adding-borders-to-cells">Border</a></li>
-		 <li><a href="/cells/net/cells-formatting/#colors-and-background-patterns">Fill</a></li>
-		 <li><a href="/cells/net/dealing-with-font-settings/">Dealing with Font Settings</a></li>		 
-		 <li><a href="/cells/net/format-cells-using-getstyle-and-setstyle-methods/">Format Cells using GetStyle and SetStyle Methods</a></li>
-		 <li><a href="/cells/net/change-cells-alignment-and-keep-existing-formatting/">Change Cells Alignment and Keep Existing Formatting</a></li>
+		 <li><a href="/cells/net/cells-number-settings/">Number</a></li>
+		 <li><a href="/cells/net/cells-alignment-settings/">Alignment</a></li>
+		 <li><a href="/cells/net/cells-font-settings/">Font</a></li>
+		 <li><a href="/cells/net/cells-border-settings/">Border</a></li>
+		 <li><a href="/cells/net/cells-fill-settings/">Fill</a></li>
         </ul>
         <p>Conditional Formatting</p>
         <ul>
