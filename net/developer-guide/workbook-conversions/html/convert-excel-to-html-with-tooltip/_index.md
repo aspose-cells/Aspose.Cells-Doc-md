@@ -3,7 +3,6 @@ title: Convert Excel to HTML with tooltip
 type: docs
 weight: 200
 url: /net/convert-excel-to-html-with-tooltip/
-aliases: [/net/convert-excel-to-html/]
 ---
 
 ## **Convert Excel to HTML with tooltip**
