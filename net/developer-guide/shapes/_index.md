@@ -39,6 +39,7 @@ Simply call the [**Add**](https://apireference.aspose.com/cells/net/aspose.cells
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
+
 ## **Inserting OLE Objects into the Worksheet**
 
 Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobject), represents an OLE Object. It has some important members:
