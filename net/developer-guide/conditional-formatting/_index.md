@@ -1,7 +1,7 @@
 ---
 title: Conditional Formatting
 type: docs
-weight: 60
+weight: 128
 url: /net/conditional-formatting/
 aliases: [/net/managing-conditional-formats/]
 ---

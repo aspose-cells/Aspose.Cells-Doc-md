@@ -1,7 +1,7 @@
 ---
 title: Format cells
 type: docs
-weight: 30
+weight: 125
 url: /net/cells-formatting/
 aliases: [/net/data-formatting/,/net/format-cells-using-getstyle-and-setstyle-methods/,/net/data-formatting-selected-characters]
 ---
