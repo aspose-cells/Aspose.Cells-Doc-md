@@ -1,7 +1,7 @@
 ---
 title: Comments and Notes
 type: docs
-weight: 125
+weight: 128
 url: /net/comments-and-notes/
 aliases: [/net/managing-comments/]
 ---
