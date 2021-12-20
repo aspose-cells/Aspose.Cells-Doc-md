@@ -1,7 +1,7 @@
 ---
 title: Print and Preview
 type: docs
-weight: 185
+weight: 70
 url: /net/print-and-preview/
 aliases: [/net/printing-workbooks/,/net/workbook-and-worksheet-print-preview/]
 ---
