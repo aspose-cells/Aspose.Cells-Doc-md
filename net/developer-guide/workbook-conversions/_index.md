@@ -109,8 +109,7 @@ The following code example demonstrates exporting active worksheet to PPTX by us
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
 ## **Advance topics**
-- [HTML](/net/convert-excel-to-html/)
-- [Image](/net/convert-to-images/)
-- [Json](/net/convert-workbook-to-json/)
-- [Pdf](/net/convert-excel-workbook-to-pdf/)
-- [Track Document Conversion Progress](/net/track-document-conversion-progress/)
+- [Convert Excel To Html](/cells/net/convert-excel-to-html/)
+- [Convert Excel To Image](/cells/net/convert-to-images/)
+- [Convert Excel To Json](/cells/net/convert-workbook-to-json/)
+- [Convert Excel To Pdf](/cells/net/convert-excel-workbook-to-pdf/)

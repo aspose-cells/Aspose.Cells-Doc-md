@@ -211,14 +211,14 @@ if they are in the same row or not, then you have to specify a named range "_Cel
 Sometimes, it may be required to get the notifications about the cell reference or the particular Smart Marker being processed before the completion. This can be achieved using the WorkbookDesigner.CallBack property and ISmartMarkerCallBack
 
 ## **Advance topics**
-- [Adding Anonymous or Custom Object into SmartMarkers](/net/adding-anonymous-or-custom-object-into-smartmarkers/)
-- [Auto Populate Smart Marker Data to Other Worksheets if Data is too Large](/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [Formatting Smart Markers](/net/formatting-smart-markers/)
-- [Getting Notifications while Merging Data with Smart Markers](/net/getting-notifications-while-merging-data-with-smart-markers/)
-- [Set custom DataSource for WorkbookDesigner](/net/set-custom-datasource-for-workbookdesigner/)
-- [Show leading apostrophe in cells](/net/show-leading-apostrophe-in-cells/)
-- [Using Formula parameter in Smart Marker field](/net/using-formula-parameter-in-smart-marker-field/)
-- [Using Image Markers while Grouping Data in Smart Markers](/net/using-image-markers-while-grouping-data-in-smart-markers/)
+- [Adding Anonymous or Custom Object into SmartMarkers](/cells/net/adding-anonymous-or-custom-object-into-smartmarkers/)
+- [Auto Populate Smart Marker Data to Other Worksheets if Data is too Large](/cells/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
+- [Formatting Smart Markers](/cells/net/formatting-smart-markers/)
+- [Getting Notifications while Merging Data with Smart Markers](/cells/net/getting-notifications-while-merging-data-with-smart-markers/)
+- [Set custom DataSource for WorkbookDesigner](/cells/net/set-custom-datasource-for-workbookdesigner/)
+- [Show leading apostrophe in cells](/cells/net/show-leading-apostrophe-in-cells/)
+- [Using Formula parameter in Smart Marker field](/cells/net/using-formula-parameter-in-smart-marker-field/)
+- [Using Image Markers while Grouping Data in Smart Markers](/cells/net/using-image-markers-while-grouping-data-in-smart-markers/)
 
 
 

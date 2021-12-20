@@ -19,5 +19,5 @@ It’s simple to create a sparkline with Aspose.Cells with the following example
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertSparkline.cs" >}}
 
 ## **Advance topics**
-- [Using Sparklines and Settings 3D Format](/net/using-sparklines-and-settings-3d-format/)
+- [Using Sparklines and Settings 3D Format](/cells/net/using-sparklines-and-settings-3d-format/)
 

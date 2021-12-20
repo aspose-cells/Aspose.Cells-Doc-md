@@ -34,8 +34,8 @@ The following sample code shows how to make use of the [**Workbook.ImportXml()*
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}
 
 ## **Advance topics**
-- [Add XML Map inside the Workbook using XmlMapCollection.Add method](/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
-- [Export XML Data linked to XML Map inside the Workbook](/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
-- [Find the Root Element Name of XML Map](/net/find-the-root-element-name-of-xml-map/)
-- [Link Cells to XML Map Elements](/net/link-cells-to-xml-map-elements/)
-- [Query Cell Areas Mapped to XML Map Path using Worksheet.XmlMapQuery method](/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
+- [Add XML Map inside the Workbook using XmlMapCollection.Add method](/cells/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+- [Export XML Data linked to XML Map inside the Workbook](/cells/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
+- [Find the Root Element Name of XML Map](/cells/net/find-the-root-element-name-of-xml-map/)
+- [Link Cells to XML Map Elements](/cells/net/link-cells-to-xml-map-elements/)
+- [Query Cell Areas Mapped to XML Map Path using Worksheet.XmlMapQuery method](/cells/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)

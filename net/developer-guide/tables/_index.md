@@ -56,8 +56,8 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
 
 ## **Advance topics**
-- [Convert Table to ODS](/net/convert-table-to-ods/)
-- [Find Query Tables and List Objects related to External Data Connections](/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
-- [Read and Write Table with Query Table Data Source](/net/read-and-write-table-with-query-table-data-source/)
-- [Set the Comment of Table or List Object inside the Worksheet](/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
-- [Tables and Ranges](/net/tables-and-ranges/)
+- [Convert Table to ODS](/cells/net/convert-table-to-ods/)
+- [Find Query Tables and List Objects related to External Data Connections](/cells/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+- [Read and Write Table with Query Table Data Source](/cells/net/read-and-write-table-with-query-table-data-source/)
+- [Set the Comment of Table or List Object inside the Worksheet](/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
+- [Tables and Ranges](/cells/net/tables-and-ranges/)
