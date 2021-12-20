@@ -12,7 +12,7 @@ After creating a worksheet, you often want to print a hard copy of it. This arti
 
 {{% /alert %}}
 
-## **Introduction**
+## **Print Introduction**
 
 Microsoft Excel assumes that you want to print the entire worksheet area unless you specify a selection. To print using Aspose.Cells, first import the Aspose.Cells.Rendering namespace to the program. It has several useful classes, for example, [**SheetRender**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) and [**WorkbookRender**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/workbookrender).
 
