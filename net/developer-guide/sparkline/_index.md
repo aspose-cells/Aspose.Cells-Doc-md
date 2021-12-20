@@ -6,6 +6,7 @@ url:  /net/creating-sparklines/
 aliases: [/net/sparkline/,/net/insert-sparklines/]
 ---
 
+## **Insert a sparkline**
 {{% alert color="primary" %}} 
 
 Sparkline is a tiny chart in a worksheet cell that provides a visual representation of data. Use sparklines to show trends in a series of values, such as seasonal increases or decreases, economic cycles, or to highlight maximum and minimum values. Position a sparkline near its data for greatest impact.There are three types of Sparkline: Line, Column and Stacked.

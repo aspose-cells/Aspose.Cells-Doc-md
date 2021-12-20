@@ -16,7 +16,7 @@ Please see the following sample code. It loads the [sample Excel file](67338470.
 
 ![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 
-## **Sample Code**
+### **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Slicers-CreateSlicerToPivotTable.cs" >}}
 
@@ -24,7 +24,7 @@ Please see the following sample code. It loads the [sample Excel file](67338470.
 
 Please see the following sample code. It loads the [sample Excel file](sampleCreateSlicerToExcelTable.xlsx) that contains a table. It then creates the slicer based on the first column. Finally, it saves the workbook in [output XLSX](outputCreateSlicerToExcelTable.xlsx) format.
 
-## **Sample Code**
+### **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
 
