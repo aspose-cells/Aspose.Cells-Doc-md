@@ -27,3 +27,11 @@ Please see the following sample code. It loads the [sample Excel file](sampleCre
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
+
+## **Advance topics**
+- [Change Slicer Properties](/net/change-slicer-properties/)
+- [Draw Slicer while rendering Excel to PDF](/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [Formatting Slicer](/net/formatting-slicer/)
+- [Removing Slicer](/net/removing-slicer/)
+- [Rendering Slicer](/net/rendering-slicer/)
+- [Updating Slicer](/net/updating-slicer/)

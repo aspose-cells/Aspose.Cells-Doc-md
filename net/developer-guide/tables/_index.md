@@ -54,3 +54,10 @@ A worksheet is represented by the [**Worksheet**](https://apireference.aspose.co
 The example below adds sample data to a worksheet, adds a [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) and apply default styles to it. [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) styles are supported by Microsoft Excel 2007/2010.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
+
+## **Advance topics**
+- [Convert Table to ODS](/net/convert-table-to-ods/)
+- [Find Query Tables and List Objects related to External Data Connections](/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+- [Read and Write Table with Query Table Data Source](/net/read-and-write-table-with-query-table-data-source/)
+- [Set the Comment of Table or List Object inside the Worksheet](/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
+- [Tables and Ranges](/net/tables-and-ranges/)

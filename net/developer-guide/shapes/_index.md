@@ -423,3 +423,21 @@ The following example shows how to insert thought bubble cloud to a worksheet.
 Execute the above code, you will get the following results:
 
 ![](thought_bubble_cloud2.png)
+
+## **Advance topics**
+- [Access and Modify the Display Label of the Linked Ole Object](/net/access-and-modify-the-display-label-of-the-linked-ole-object/)
+- [Convert the Smart Art to Group Shape](/net/convert-the-smart-art-to-group-shape/)
+- [Data in Non-Primitive Shape](/net/data-in-non-primitive-shape/)
+- [Determine if Shape is Smart Art Shape](/net/determine-if-shape-is-smart-art-shape/)
+- [Extract Text from the Gear Type SmartArt Shape](/net/extract-text-from-the-gear-type-smartart-shape/)
+- [Managing Controls](/net/managing-controls/)
+- [Managing OLE Objects](/net/managing-ole-objects/)
+- [Managing Pictures](/net/managing-pictures/)
+- [Remove ActiveX Control](/net/remove-activex-control/)
+- [Replace tag with text in a textbox inside the Worksheet](/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/)
+- [Replace text in smart art](/net/replace-text-in-smart-art/)
+- [Rotate Text with Shape inside the Worksheet](/net/rotate-text-with-shape-inside-the-worksheet/)
+- [Send Shape Front or Back inside the Worksheet](/net/send-shape-front-or-back-inside-the-worksheet/)
+- [Set Margins of Comment or Shape inside the Worksheet](/net/set-margins-of-comment-or-shape-inside-the-worksheet/)
+- [Specify the Far East and Latin Name of the Font in Text Options of Shape](/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/)
+- [Tile Picture as a Texture inside the Shape](/net/tile-picture-as-a-texture-inside-the-shape/)
