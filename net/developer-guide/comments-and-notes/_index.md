@@ -4,8 +4,8 @@ type: docs
 weight: 128
 url: /net/comments-and-notes/
 aliases: [/net/managing-comments/]
-description: How to insert a comment or note in CSharp.
-keywords: insert comment, insert note
+description: Insert and manage comments or notes in CSharp.
+keywords: insert comments, insert notes
 ---
 
 ## **Introduction**

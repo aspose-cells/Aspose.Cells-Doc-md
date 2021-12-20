@@ -4,6 +4,7 @@ type: docs
 weight: 160
 url: /net/create-pivot-table/
 aliases: [/net/pivot-tables/]
+description: Create and format pivot tables of spreadsheet files.
 ---
 
 ## **Create Pivot Table**

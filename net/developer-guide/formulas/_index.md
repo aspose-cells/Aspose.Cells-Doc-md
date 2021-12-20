@@ -4,6 +4,7 @@ type: docs
 weight: 120
 url: /net/using-formulas-or-functions-to-process-data/
 aliases: [/net/formulas/]
+description: Gets, sets and calculates formulas of excel files.
 ---
 
 ## **Introduction**

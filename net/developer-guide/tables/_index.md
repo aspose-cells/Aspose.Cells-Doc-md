@@ -4,6 +4,7 @@ type: docs
 weight: 150
 url: /net/create-and-format-table/
 aliases: [/net/tables/,/net/format-a-list-object-table/]
+description: Insert, resize, edit, delete, format table of excel files.
 ---
 
 ## **Create Table**

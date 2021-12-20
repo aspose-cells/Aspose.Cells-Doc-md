@@ -4,6 +4,7 @@ type: docs
 weight: 110
 url: /net/add-and-retrieve-data/
 aliases: [/net/data/]
+description: Get and Set value of cells to Excel files.
 ---
 
 {{% alert color="primary" %}}

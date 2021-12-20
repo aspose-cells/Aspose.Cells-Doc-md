@@ -4,6 +4,7 @@ type: docs
 weight: 125
 url: /net/cells-formatting/
 aliases: [/net/data-formatting/,/net/format-cells-using-getstyle-and-setstyle-methods/,/net/data-formatting-selected-characters]
+description: Format cells of Excel files in CSharp or VB.
 ---
 
 ## **Introduction**
