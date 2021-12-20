@@ -4,6 +4,8 @@ type: docs
 weight: 125
 url: /net/conditional-formatting/
 aliases: [/net/managing-conditional-formats/]
+description: How to apply conditional formats in CSharp.
+keywords: apply conditional formats 
 ---
 
 ## **Introduction**

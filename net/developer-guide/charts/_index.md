@@ -4,6 +4,8 @@ type: docs
 weight: 130
 url: /net/creating-charts/
 aliases: [/net/charts/]
+description: How to create a chart in CSharp for Excel and ODS files.
+keywords: create a chart, make a graph 
 ---
 
 {{% alert color="primary" %}}
@@ -172,4 +174,22 @@ In order to create a bubble chart, the [**ChartType**](https://apireference.aspo
 In order to create a line with the data marker chart, [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
+
+## **Advance topics**
+- [Change Tick Label Direction](/net/change-tick-label-direction/)
+- [Chart Rendering](/net/chart-rendering/)
+- [Chart Types](/net/chart-types/)
+- [Controls in Charts](/net/controls-in-charts/)
+- [Create Chart PDF with Desired Page Size](/net/create-chart-pdf-with-desired-page-size/)
+- [Customizing Charts](/net/customizing-charts/)
+- [Data Formatting in Charts](/net/data-formatting-in-charts/)
+- [Find Type of X and Y Values of Points in Chart Series](/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+- [Handle Automatic Units of Chart Axis like Microsoft Excel](/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+- [Manipulate Position Size and Designer Chart](/net/manipulate-position-size-and-designer-chart/)
+- [Read and Manipulate Excel 2016 Charts](/net/read-and-manipulate-excel-2016-charts/)
+- [Read Axis Labels after Calculating the Chart](/net/read-axis-labels-after-calculating-the-chart/)
+- [Read Chart Subtitle from ODS File](/net/read-chart-subtitle-from-ods-file/)
+- [Set the Shape Type of Data Labels of Chart](/net/set-the-shape-type-of-data-labels-of-chart/)
+- [Set the Values Format Code of Chart Series](/net/set-the-values-format-code-of-chart-series/)
+- [Setting Chart Appearance](/net/setting-chart-appearance/)
 
