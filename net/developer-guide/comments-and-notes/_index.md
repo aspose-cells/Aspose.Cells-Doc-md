@@ -41,3 +41,8 @@ With Microsoft Excel 2007, it is also possible to have an image as the backgroun
 Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell "A1" with a picture set as its background.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-AddImageToComment-1.cs" >}}
+
+## **Advance topics**
+- [Change Text Direction of the Comment](/net/change-text-direction-of-the-comment/)
+- [How to change the Comment Font Color](/net/how-to-change-the-comment-font-color/)
+- [Threaded Comments](/net/threaded-comments/)

@@ -73,3 +73,24 @@ The following example shows how to activate a worksheet and make an active cell 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
 
+## **Advance topics**
+- [Copying and Moving Worksheets](/net/copying-and-moving-worksheets/)
+- [Count number of cells in the Worksheet](/net/count-number-of-cells-in-the-worksheet/)
+- [Cut and Paste Cells](/net/cut-and-paste-cells/)
+- [Detect Hyperlink Type](/net/detect-hyperlink-type/)
+- [Display Features](/net/display-features/)
+- [Find if the Worksheet is Dialog Sheet](/net/find-if-the-worksheet-is-dialog-sheet/)
+- [Get Cell Validation in ODS Files](/net/get-cell-validation-in-ods-files/)
+- [Get Hyperlinks in Range](/net/get-hyperlinks-in-range/)
+- [Get Range with External Links](/net/get-range-with-external-links/)
+- [Get worksheet unique id](/net/get-worksheet-unique-id/)
+- [Managing Page Breaks](/net/managing-page-breaks/)
+- [Page Setup Features](/net/page-setup-features/)
+- [Print multiple copies of a worksheet](/net/print-multiple-copies-of-a-worksheet/)
+- [Security Features](/net/security-features/)
+- [Update Days Preserving History of Revision Logs in Shared Workbook](/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/)
+- [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
+- [Working with Background in ODS Files](/net/working-with-background-in-ods-files/)
+- [Worksheet Views](/net/worksheet-views/)
+
+

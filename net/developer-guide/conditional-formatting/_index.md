@@ -71,3 +71,10 @@ You can only use thin line styles to the outline border. Diagonal lines are not 
 ### **Set Pattern**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SetPattern-1.cs" >}}
+
+## **Advance topics**
+- [Adding 2-Color Scale and 3-Color Scale Conditional Formattings](/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [Apply Advanced Conditional Formatting](/net/apply-advanced-conditional-formatting/)
+- [Apply Shading to Alternate Rows and Columns with Conditional Formatting](/net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
+- [Generate Conditional Formatting DataBars Images](/net/generate-conditional-formatting-databars-images/)
+- [Get Icon Sets, Data Bars or Color Scales Objects used in Conditional Formatting](/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)

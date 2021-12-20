@@ -75,4 +75,13 @@ Add an **R1C1** reference style formula to a cell with the [**Cell**](https://ap
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 
+## **Advance topics**
+- [Add Cells to Microsoft Excel Formula Watch Window](/net/add-cells-to-microsoft-excel-formula-watch-window/)
+- [Detecting Circular Reference](/net/detecting-circular-reference/)
+- [Interrupt or Cancel the Formula Calculation of Workbook](/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
+- [Specify Maximum Rows of Shared Formula](/net/specify-maximum-rows-of-shared-formula/)
+- [Supported Formula Functions](/net/supported-formula-functions/)
+- [Ways to Calculate Formulas](/net/ways-to-calculate-formulas/)
+
+
 

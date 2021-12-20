@@ -96,3 +96,16 @@ The [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}
 
+## **Advance topics**
+- [Access and Update the Portions of Rich Text of Cell](/net/access-and-update-the-portions-of-rich-text-of-cell/)
+- [Alignment Settings](/net/cells-alignment-settings/)
+- [Border Settings](/net/cells-border-settings/)
+- [Create Style object using CellsFactory class](/net/create-style-object-using-cellsfactory-class/)
+- [Excel Themes and Colors](/net/excel-themes-and-colors/)
+- [Fill Settings](/net/cells-fill-settings/)
+- [Font Settings](/net/cells-font-settings/)
+- [Format and Modify Named Ranges](/net/format-and-modify-named-ranges/)
+- [Modify an Existing Style](/net/modify-an-existing-style/)
+- [Number Settings](/net/cells-number-settings/)
+- [Using Built-in Styles](/net/using-built-in-styles/)
+
