@@ -30,7 +30,7 @@ Here is the sample code to generate the output XLSM file with VBA Module and Ma
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 
-## ** Modify VBA or Macro**
+## **Modify VBA or Macro**
 
 {{% alert color="primary" %}} 
 
