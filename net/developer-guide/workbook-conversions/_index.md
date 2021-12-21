@@ -92,7 +92,7 @@ The following code example demonstrates exporting active worksheet to Json by us
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
-## **Convert Excel to TIFF image**
+## **Convert Excel to TIFF*
 Aspose.Cells supports converting a workbook to TIFF file.
 
 The code snippet below shows how to convert Excel to TIFF:
