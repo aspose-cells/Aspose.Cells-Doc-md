@@ -21,11 +21,17 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PDF.cs" >}}
 
+## **Convert Excel to JPG**
+Aspose.Cells supports converting Excel files to JPG.
+The code example below shows how to save a workbook as JPG.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JPG.cs" >}}
+
 ## **Convert Excel to Image**
 Aspose.Cells supports converting Excel files to images.
 The code example below shows how to save a workbook as images.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PNG.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-Image.cs" >}}
 
 ## **Converting Excel Workbook to XPS**
 
@@ -92,7 +98,7 @@ The following code example demonstrates exporting active worksheet to Json by us
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
-## **Convert Excel to TIFF*
+## **Convert Excel to TIFF**
 Aspose.Cells supports converting a workbook to TIFF file.
 
 The code snippet below shows how to convert Excel to TIFF:
