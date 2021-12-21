@@ -32,4 +32,4 @@ url: /net/how-to-run-aspose-cells-in-aws-lambda/
    Right click the project name, choose "Publish to AWS Elastic Beanstalk". (This option will only exists after you install AWS Toolkit for Visual Studio). 
 1. You will need to add a new user with your AWS account and IAM user, you can import "credentials.csv" file which you get in the previous step. 
 1. Publish success, you will get a link address like: http://testprojectaspose-test.us-west-2.elasticbeanstalk.com/
-   Wait about 10 minutes for your link effected, then you can visit it!
+   Wait 10 minutes for the link to take effect, then you can visit it!
