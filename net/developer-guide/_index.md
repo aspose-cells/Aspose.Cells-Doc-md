@@ -120,7 +120,7 @@ url: /net/developer-guide/
         </ul>
         <ul>
         </ul>
-        <p><a href="/cells/net/managing-pictures">Picture</a></p>
+        <p><a href="/cells/net/managing-pictures/">Picture</a></p>
         <ul>
             <li><a href="/cells/net/insert-a-linked-picture-from-web-address/">Insert a Linked Picture from Web Address</a></li>
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>

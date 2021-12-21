@@ -27,12 +27,9 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 				<li><a href="/cells/net/what-s-new-in-aspose-cells-for-net/">What's new in Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/net/product-overview/">Product Overview</a></li>
 				<li><a href="/cells/net/licensing/">Licensing and Subscription</a></li>
+			    <li><a href="/cells/net/release-notes/">Aspose.Cells for .NET Release Notes</a></li>
 			</ul>            
-			<p>GET STARTED</p>
-			<ul>
-				<li><a href="/cells/net/getting-started/">Getting Started</a></li>
-			</ul>
-			<p>USEFUL RESOURCES</p>
+	        <p>USEFUL RESOURCES</p>
 			<ul>
 				<li><a href="https://www.nuget.org/packages/Aspose.Cells/">Download Aspose.Cells for .NET at NuGet</a></li>
 				<li><a href="https://downloads.aspose.com/cells/net">Download Aspose.Cells for .NET</a></li>
@@ -66,10 +63,7 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 				<li><a href="/cells/net/print-and-preview/">Print and Preview</a></li>
 				<li><a href="https://apireference.aspose.com/cells/net">Aspose.Cells for .NET API Reference Guide</a></li>
 			</ul>
-			<p>LEARN</p>
-			<ul>
-				<li><a href="/cells/net/release-notes/">Aspose.Cells for .NET Release Notes</a></li>
-			</ul>
+	
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Free Support Forum</a></li>
