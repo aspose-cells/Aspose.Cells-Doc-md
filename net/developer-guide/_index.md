@@ -132,11 +132,11 @@ url: /net/developer-guide/
             <li><a href="/cells/net/insert-shapes/#inserting-a-line-arrow-to-worksheet">Inserting a line arrow to Worksheet</a></li>
             <li><a href="/cells/net/insert-shapes/#inserting-a-rectangle-to-worksheet">Inserting a Rectangle to Worksheet</a></li>
             <li><a href="/cells/net/insert-shapes/#inserting-a-cube-to-worksheet">Inserting a Cube to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes/#inserting-a-callout-quad-arrow-to-worksheet">Inserting a callout quad arrow to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">Inserting a multiplication sign to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes/#inserting-a-multidocument-to-worksheet">Inserting a multidocument to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes/#inserting-a-five-pointed-star-to-worksheet">Inserting a Five-pointed star to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">Inserting a thought bubble cloud to Worksheet</a></li>
+			<li><a href="/cells/net/insert-shapes/#inserting-a-callout-quad-arrow-to-worksheet">Inserting a callout quad arrow to Worksheet</a></li>
+			<li><a href="/cells/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">Inserting a multiplication sign to Worksheet</a></li>
+			<li><a href="/cells/net/insert-shapes/#inserting-a-multidocument-to-worksheet">Inserting a multidocument to Worksheet</a></li>
+			<li><a href="/cells/net/insert-shapes/#inserting-a-five-pointed-star-to-worksheet">Inserting a Five-pointed star to Worksheet</a></li>
+			<li><a href="/cells/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">Inserting a thought bubble cloud to Worksheet</a></li>
         </ul>
         <p>Icons</p>
         <ul>
