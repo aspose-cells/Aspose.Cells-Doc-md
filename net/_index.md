@@ -45,7 +45,7 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 				<li><a href="/cells/net/supported-file-formats/>Supported file Formats</a></li>
 				<li><a href="/cells/net/aspose-cells-features/">Features</a></li>
 				<li><a href="/cells/net/system-requirements/">System Requirements</a></li>
-				<li><a href="cells/net/getting-started/#how-to-install">Installation</a></li>
+				<li><a href="/cells/net/getting-started/#how-to-install">Installation</a></li>
 				<li><a href="/cells/net/installation/">Install Aspose Cells through NuGet</a></li>
 			</ul>
 			<p>LEARN</p>
@@ -53,6 +53,7 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 				<li><a href="/cells/net/how-to-run-the-examples/">How to Run the Examples</a></li>
 				<li><a href="/cells/net/how-to-run-aspose-cells-in-docker/">How to Run Aspose.Cells in Docker</a></li>
 				<li><a href="/cells/net/how-to-run-aspose-cells-in-aws-lambda/">How to Run Aspose.Cells in AWS Lambda</a></li>
+				<li><a href="/cells/net/plugins/">Plugins</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -70,7 +71,7 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 				<li><a href="/cells/net/release-notes/">Aspose.Cells for .NET Release Notes</a></li>
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
-			<ul>/
+			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Free Support Forum</a></li>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Cells for .NET Paid Support Helpdesk</a></li>
 			</ul>
