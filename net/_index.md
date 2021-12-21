@@ -62,8 +62,7 @@ Aspose.Cells for .NET is a spreadsheet programming library that allows software 
 				<li><a href="/cells/net/convert-workbook-to-different-formats/">Workbook Conversions</a></li>
 				<li><a href="/cells/net/print-and-preview/">Print and Preview</a></li>
 				<li><a href="https://apireference.aspose.com/cells/net">Aspose.Cells for .NET API Reference Guide</a></li>
-			</ul>
-	
+			</ul>	
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Free Support Forum</a></li>
