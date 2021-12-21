@@ -12,7 +12,7 @@ url: /net/developer-guide/
     <div class="col-md-6">
         <p>Info</p>
         <ul>
-            <li><a href="/cells/net/document-properties/">Document Properties</a></li>
+            <li><a href="/cells/net/managing-document-properties/">Document Properties</a></li>
             <li><a href="/cells/net/security-features/">Security Features</a></li>
         </ul>
         <p>New</p>
@@ -37,16 +37,16 @@ url: /net/developer-guide/
     <div class="col-md-6">
 	   <p>Print</p>
         <ul>
-            <li><a href="/cells/net/specify-job-or-document-name-while-printing-with-aspose-cells/">Print</a></li>
+            <li><a href="/cells/net/print-and-preview/">Print and Preview</a></li>
         </ul>
         <p>Export</p>
         <ul>
             <li><a href="/cells/net/convert-workbook-to-different-formats/">Convert Workbook to Different Formats</a></li>
             <li><a href="/cells/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>
             <li><a href="/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convert Excel file to PDF format compatible with PDFA-1a</a></li>
-            <li><a href="/cells/net/converting-worksheet-to-different-image-formats/">Converting Worksheet to Different Image Formats</a></li>
+            <li><a href="/net/convert-excel-to-image/">Convert Workbook to Different Image Formats</a></li>
             <li><a href="/cells/net/track-document-conversion-progress/">Track Document Conversion Progress</a></li>
-            <li><a href="/cells/net/convert-excel-to-html-with-tooltip/">Convert Excel to HTML with tooltip</a></li>
+            <li><a href="/cells/net/convert-excel-to-html/">Convert Excel to HTML</a></li>
             <li><a href="/cells/net/convert-json-to-csv/">Convert JSON to CSV</a></li>
             <li><a href="/cells/net/convert-csv-to-json/">Convert CSV to JSON</a></li>
         </ul>
@@ -60,11 +60,11 @@ url: /net/developer-guide/
 {{< tab tabNum="2" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Data</p>
+        <p><li><a href="/cells/net/add-and-retrieve-data/">Data</a></p>
         <ul>
 		 <li><a href="/cells/net/accessing-cells-of-a-worksheet/">Accessing Cells of a Worksheet</a></li>
 		 <li><a href="/cells/net/add-and-retrieve-data/">Add and Retrieve Data</a></li>
-		 <li><a href="/cells/net/worksheets/">Worksheets</a></li>
+		 <li><a href="cells/net/manage-worksheets/">Worksheets</a></li>
 		 <li><a href="/cells/net/rows-and-columns/">Rows and Columns</a></li>
         </ul>
         <p><a href="/cells/net/cells-formatting/">Style</a></p>
@@ -108,12 +108,12 @@ url: /net/developer-guide/
 {{< tab tabNum="3" >}}
 <div class="row">
     <div class="col-md-6">
-        <p><a href="/cells/net/pivot-tables/">PivotTable</a></p>
+        <p><a href="/cells/net/create-pivot-table/">PivotTable</a></p>
         <ul>
             <li><a href="/cells/net/create-pivot-table/">Create Pivot Table</a></li>
             <li><a href="/cells/net/formatting-pivot-table/">Formatting Pivot Table</a></li>
         </ul>
-        <p><a href="/cells/net/tables/">Table</a></p>
+        <p><a href="/net/create-and-format-table/">Table</a></p>
          <ul>
             <li><a href="/cells/net/create-and-format-table/">Create and Format Table</a></li>
             <li><a href="/cells/net/tables-and-ranges/">Tables and Ranges</a></li>
@@ -126,17 +126,17 @@ url: /net/developer-guide/
             <li><a href="/cells/net/insert-a-picture-based-on-cell-reference/">Insert a Picture Based on Cell Reference</a></li>
             <li><a href="/cells/net/managing-pictures/#adding-pictures">Insert Picture in Aspose.Cells</a></li>
         </ul>
-        <p><a href="/cells/net/managing-charts-and-shapes/">Shape</a></p>    
+        <p><a href="/cells/net/insert-shapes/">Shape</a></p>    
         <ul>
-            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-to-worksheet">Inserting a Line to Worksheet</a></li>
-            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-arrow-to-worksheet">Inserting a line arrow to Worksheet</a></li>
-            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-rectangle-to-worksheet">Inserting a Rectangle to Worksheet</a></li>
-            <li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-cube-to-worksheet">Inserting a Cube to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-callout-quad-arrow-to-worksheet">Inserting a callout quad arrow to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multiplication-sign-to-worksheet">Inserting a multiplication sign to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multidocument-to-worksheet">Inserting a multidocument to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-five-pointed-star-to-worksheet">Inserting a Five-pointed star to Worksheet</a></li>
-						<li><a href="/cells/net/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-thought-bubble-cloud-to-worksheet">Inserting a thought bubble cloud to Worksheet</a></li>
+            <li><a href="/cells/net/insert-shapes/#inserting-a-line-to-worksheet">Inserting a Line to Worksheet</a></li>
+            <li><a href="/cells/net/insert-shapes/#inserting-a-line-arrow-to-worksheet">Inserting a line arrow to Worksheet</a></li>
+            <li><a href="/cells/net/insert-shapes/#inserting-a-rectangle-to-worksheet">Inserting a Rectangle to Worksheet</a></li>
+            <li><a href="/cells/net/insert-shapes/#inserting-a-cube-to-worksheet">Inserting a Cube to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes/#inserting-a-callout-quad-arrow-to-worksheet">Inserting a callout quad arrow to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">Inserting a multiplication sign to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes/#inserting-a-multidocument-to-worksheet">Inserting a multidocument to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes/#inserting-a-five-pointed-star-to-worksheet">Inserting a Five-pointed star to Worksheet</a></li>
+						<li><a href="/cells/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">Inserting a thought bubble cloud to Worksheet</a></li>
         </ul>
         <p>Icons</p>
         <ul>
@@ -158,7 +158,7 @@ url: /net/developer-guide/
             <li><a href="/cells/net/extract-text-from-the-gear-type-smartart-shape/">Extract Text from the Gear Type SmartArt Shape</a></li>
             <li><a href="/cells/net/convert-the-smart-art-to-group-shape/">Convert the Smart Art to Group Shape</a></li>
         </ul>
-         <p><a href="/cells/net/charts/">Chart</a></p>
+         <p><a href="/cells/net/creating-charts/">Chart</a></p>
 		  <ul>
             <li><a href="/cells/net/creating-charts/">Creating Charts</a></li>
             <li><a href="/cells/net/customizing-charts/">Customizing Charts</a></li>
@@ -175,10 +175,9 @@ url: /net/developer-guide/
         <ul>
             <li><a href="/cells/net/managing-ole-objects/#inserting-ole-objects-into-the-worksheet">Managing OLE Objects</a></li>
         </ul>
-        <p><a href="/cells/net/slicers/">Slicer</a></p>
+        <p><a href="/cells/net/create-slicer/">Slicer</a></p>
         <ul>
-            <li><a href="/cells/net/create-slicer-to-a-pivot-table/">Create Slicer to a Pivot Table</a></li>
-            <li><a href="/cells/net/create-slicer-to-excel-table/">Create Slicer to Excel Table</a></li>
+            <li><a href="/net/create-slicer/">Create Slicer</a></li>
             <li><a href="/cells/net/formatting-slicer/">Formatting Slicer</a></li>
         </ul>
         <p><a href="/cells/net/managing-charts-and-shapes/">Text Box</a</p>
@@ -189,7 +188,7 @@ url: /net/developer-guide/
         <ul>
         <li><a href="/cells/net/setting-headers-and-footers/">Setting Headers and Footers</a></li>
         </ul>
-        <p><a href="/cells/net/managing-charts-and-shapes/">WordArt</a></p>
+        <p><a href="/cells/net/managing-shapes/">WordArt</a></p>
         <ul>
             <li><a href="/cells/net/add-wordart-watermark-to-worksheet/">Add WordArt Watermark to Worksheet</a></li>
             <li><a href="/cells/net/add-wordart-watermark-to-worksheet-in-aspose-cells/">Add WordArt Watermark to Worksheet in Aspose.Cells</a></li>
