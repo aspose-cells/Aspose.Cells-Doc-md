@@ -44,7 +44,7 @@ url: /net/developer-guide/
             <li><a href="/cells/net/convert-workbook-to-different-formats/">Convert Workbook to Different Formats</a></li>
             <li><a href="/cells/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>
             <li><a href="/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convert Excel file to PDF format compatible with PDFA-1a</a></li>
-            <li><a href="/net/convert-excel-to-image/">Convert Workbook to Different Image Formats</a></li>
+            <li><a href="/cells/net/convert-excel-to-image/">Convert Workbook to Different Image Formats</a></li>
             <li><a href="/cells/net/track-document-conversion-progress/">Track Document Conversion Progress</a></li>
             <li><a href="/cells/net/convert-excel-to-html/">Convert Excel to HTML</a></li>
             <li><a href="/cells/net/convert-json-to-csv/">Convert JSON to CSV</a></li>
@@ -113,7 +113,7 @@ url: /net/developer-guide/
             <li><a href="/cells/net/create-pivot-table/">Create Pivot Table</a></li>
             <li><a href="/cells/net/formatting-pivot-table/">Formatting Pivot Table</a></li>
         </ul>
-        <p><a href="/net/create-and-format-table/">Table</a></p>
+        <p><a href="/cells/net/create-and-format-table/">Table</a></p>
          <ul>
             <li><a href="/cells/net/create-and-format-table/">Create and Format Table</a></li>
             <li><a href="/cells/net/tables-and-ranges/">Tables and Ranges</a></li>
@@ -177,7 +177,7 @@ url: /net/developer-guide/
         </ul>
         <p><a href="/cells/net/create-slicer/">Slicer</a></p>
         <ul>
-            <li><a href="/net/create-slicer/">Create Slicer</a></li>
+            <li><a href="/cells/net/create-slicer/">Create Slicer</a></li>
             <li><a href="/cells/net/formatting-slicer/">Formatting Slicer</a></li>
         </ul>
         <p><a href="/cells/net/managing-charts-and-shapes/">Text Box</a</p>
@@ -229,7 +229,7 @@ url: /net/developer-guide/
         </ul>
         <p>Sheet Options</p>
         <ul>
-		<li><a href="/net/show-and-hide-gridlines-and-row-column-headers/">View Gridlines and Heading</a></li>
+		<li><a href="/cells/net/show-and-hide-gridlines-and-row-column-headers/">View Gridlines and Heading</a></li>
 		<li><a href="/cells/net/setting-print-options/#set-other-print-options">Print Gridlines and Heading</a></li>
         </ul>
     </div>
@@ -346,7 +346,7 @@ url: /net/developer-guide/
         </ul>
         <p>Show</p>
          <ul>
-		<li><a href="/net/show-and-hide-gridlines-and-row-column-headers/">View Gridlines and Heading</a></li>
+		<li><a href="/cells/net/show-and-hide-gridlines-and-row-column-headers/">View Gridlines and Heading</a></li>
         </ul>
     </div>
     <div class="col-md-6">
