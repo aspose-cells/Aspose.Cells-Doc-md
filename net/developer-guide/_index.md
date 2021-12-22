@@ -289,8 +289,9 @@ This Developer Guide provides information on using Aspose.Cells in a variety of 
         <p>Data Tools</p>
         <ul>
          <li><a href="/cells/net/convert-text-to-columns-using-aspose-cells/">Text to Columns</a></li>
-        <li><a href="/cells/net/data-validation/">Data Validation</a></li>
-        <li><a href="/cells/net/get-validation-applied-on-a-cell/">Get Validation Applied on a Cell</a></li>
+         <li><a href="/cells/net/data-validation/">Data Validation</a></li>
+         <li><a href="/cells/net/get-validation-applied-on-a-cell/">Get Validation Applied on a Cell</a></li>
+         <li><a href="/cells/net/remove-duplicate-rows-in-a-worksheet/">Remove duplicate rows in a Worksheet</a></li>
         </ul>
     </div>
     <div class="col-md-6">

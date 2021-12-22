@@ -87,7 +87,7 @@ While working on worksheets, users may add different types of data in the cells.
 - [Specify Formula Fields while Importing Data to Worksheet](/cells/net/specify-formula-fields-while-importing-data-to-worksheet/)
 - [Specifying Sort Warning While Sorting Data](/cells/net/specifying-sort-warning-while-sorting-data/)
 - [Working with Hyperlinks to Link Data](/cells/net/working-with-hyperlinks-to-link-data/)
-
+- [Remove duplicate rows in a Worksheet](/cells/net/remove-duplicate-rows-in-a-worksheet/)
 
 
 

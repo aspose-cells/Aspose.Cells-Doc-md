@@ -1,0 +1,18 @@
+---
+title: Remove duplicate rows in a Worksheet
+type: docs
+weight: 370
+url: /net/remove-duplicate-rows-in-a-worksheet/
+---
+
+{{% alert color="primary" %}}
+
+Remove duplicate rows is one of Microsoft Excel's many useful features. It allows users to remove duplicate rows in a Worksheet, you can pick which columns should be checked for duplicate information.
+
+Aspose.Cells provides the Cells.RemoveDuplicates() method for this purpose. You can also set startRow, startColumn, endRow, endColumn to pick up columns.
+
+Following are the sample files which can be downloaded for testing this feature:
+
+[RemoveDuplicates.xlsx](81920906.xlsx)
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-Remove-Duplicate-Rows-In-A-Worksheet.cs" >}}
