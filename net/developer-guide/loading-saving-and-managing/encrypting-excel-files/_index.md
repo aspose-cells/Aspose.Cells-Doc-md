@@ -7,7 +7,7 @@ url: /net/encrypting-excel-files/
 
 {{% alert color="primary" %}}
 
-Microsoft Excel (97 - 2007) enables you to encrypt and password protect your spreadsheets. It uses algorithms provided by a cryptographic service provider, or CSP, a set of cryptographic algorithms with different properties. The default CSP is 'Office 97/2000 Compatible' or 'Weak Encryption (XOR)'. It's important to choose the proper encryption key length. Some CSPs don't support more than 40 or 56 bits. That's considered to be weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the 'Microsoft Strong Cryptographic Provider'. To give you an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems.
+Microsoft Excel (97 - 365) enables you to encrypt and password protect your spreadsheets. It uses algorithms provided by a cryptographic service provider, or CSP, a set of cryptographic algorithms with different properties. The default CSP is 'Office 97/2000 Compatible' or 'Weak Encryption (XOR)'. It's important to choose the proper encryption key length. Some CSPs don't support more than 40 or 56 bits. That's considered to be weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the 'Microsoft Strong Cryptographic Provider'. To give you an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems.
 
 Aspose.Cells allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.
 
@@ -47,6 +47,6 @@ Aspose.Cells allows to encrypt and decrypt ODS file. Decrypted ODS file can be o
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 
-For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.Password**](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). Once the file is loaded, call function [**Workbook.Unprotect()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotect) with actual password as an argument and finally set the [**WorkbookSettings.Password**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) string to null.
+For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.Password**](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). Once the file is loaded, set the [**WorkbookSettings.Password**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) string to null.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}

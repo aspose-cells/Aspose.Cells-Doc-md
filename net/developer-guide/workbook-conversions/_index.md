@@ -13,7 +13,7 @@ Aspose.Cells supports conversion between many formats. Technically, conversion m
 
 {{% /alert %}}
 
-## **Convert Excel to PDF**
+## **Convert Excel Workbook to PDF**
 
 PDF files are widely used to exchange documents between organizations, government sectors, and individuals. It is a standard document format and software developers are often asked to find a way to convert Microsoft Excel files into PDF documents.
 
@@ -21,13 +21,13 @@ Aspose.Cells supports converting Excel files to PDF and maintains high visual fi
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PDF.cs" >}}
 
-## **Convert Excel to JPG**
+## **Convert Excel Workbook to JPG**
 Aspose.Cells supports converting Excel files to JPG.
 The code example below shows how to save a workbook as JPG.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JPG.cs" >}}
 
-## **Convert Excel to Image**
+## **Convert Excel Workbook to Image**
 Aspose.Cells supports converting Excel files to images.
 The code example below shows how to save a workbook as images.
 
@@ -98,7 +98,7 @@ The following code example demonstrates exporting active worksheet to Json by us
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
-## **Convert Excel to TIFF**
+## **Convert Excel Workbook to TIFF**
 Aspose.Cells supports converting a workbook to TIFF file.
 
 The code snippet below shows how to convert Excel to TIFF:

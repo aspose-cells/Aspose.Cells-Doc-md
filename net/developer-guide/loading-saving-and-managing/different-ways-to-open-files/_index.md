@@ -7,7 +7,7 @@ url: /net/different-ways-to-open-files/
 
 {{% alert color="primary" %}}
 
-With Aspose.Cells it is possible to open files, for example, to retrieve data, or to use a designer template to speed up the development process.
+With Aspose.Cells it is simple to open files, for example, to retrieve data, or to use a designer template to speed up the development process.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Developers can open a Microsoft Excel file using its file path on the local comp
 
 ## **Opening a File via a Stream**
 
-It is also possible to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.
+It is also simple to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 
