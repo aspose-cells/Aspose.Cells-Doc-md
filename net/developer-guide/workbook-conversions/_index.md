@@ -98,6 +98,11 @@ The following code example demonstrates exporting active worksheet to Json by us
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
+## **Convert Excel to XML**
+Aspose.Cells supports converting excel to Excel 2003 Spreadsheet XML and plain XML data.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-XML.cs" >}}
+
 ## **Convert Excel Workbook to TIFF**
 Aspose.Cells supports converting a workbook to TIFF file.
 
