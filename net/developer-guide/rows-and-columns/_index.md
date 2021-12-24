@@ -21,7 +21,7 @@ Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/ce
 
 The [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.
 
-#### **Setting the Height of a Row**
+### **Setting the Height of a Row**
 
 It is possible to set the height of a single row by calling the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection's [**SetRowHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) method. The [**SetRowHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) method takes the following parameters as follows:
 
@@ -30,7 +30,7 @@ It is possible to set the height of a single row by calling the [**Cells**](http
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingHeightOfRow-1.cs" >}}
 
-#### **Setting the Height of All Rows in a Worksheet**
+### **Setting the Height of All Rows in a Worksheet**
 
 If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**StandardHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) property of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection.
 
