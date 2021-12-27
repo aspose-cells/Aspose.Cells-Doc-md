@@ -2,8 +2,8 @@
 title: Rows and Columns
 type: docs
 weight: 100
-url: /net/adjusting-row-height-and-column-width/ 
-aliases: [/net/rows-and-columns/]
+url: /net/rows-and-columns/
+aliases: [/net/adjusting-row-height-and-column-width/]
 ---
 
 
