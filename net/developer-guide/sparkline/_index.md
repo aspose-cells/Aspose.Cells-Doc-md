@@ -1,9 +1,11 @@
 ---
-title: Sparklines
+title: Insert Sparkline
+linktitle: Sparklines
 type: docs
 weight: 160
 url:  /net/creating-sparklines/
 aliases: [/net/sparkline/,/net/insert-sparklines/]
+description: Create sparkline for Excel using Aspose.Cells.
 ---
 
 ## **Insert a sparkline**

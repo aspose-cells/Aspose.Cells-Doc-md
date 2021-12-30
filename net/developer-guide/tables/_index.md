@@ -1,10 +1,11 @@
 ---
-title: Tables
+title: Create and manage table of Microsoft Excel files.
+linktitle: Tables
 type: docs
 weight: 150
 url: /net/create-and-format-table/
 aliases: [/net/tables/,/net/format-a-list-object-table/]
-description: Insert, resize, edit, delete, format table of excel files.
+description: Insert, resize, edit, delete, format table of Excel files using Aspose.Cells library.
 ---
 
 ## **Create Table**
