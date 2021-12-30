@@ -1,10 +1,11 @@
 ---
-title: Data
+title: Managing data of Excel files.
+linktitle: Data
 type: docs
 weight: 110
 url: /net/add-and-retrieve-data/
 aliases: [/net/data/]
-description: Get and Set value of cells to Excel files.
+description: This article describes how to manage data of Excel files with Aspose.Cells library.
 ---
 
 {{% alert color="primary" %}}
