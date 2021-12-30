@@ -1,9 +1,11 @@
 ---
-title: XML Maps
+title: Import XML to Excel workbook 
+linktitle: XML Maps
 type: docs
 weight: 210
 url: /net/import-xml-map-inside-a-workbook-using-aspose-cells/
 aliases: [/net/xml-maps/]
+description: Import data from an XML data files to Microsoft Excel.
 ---
 
 {{% alert color="primary" %}}

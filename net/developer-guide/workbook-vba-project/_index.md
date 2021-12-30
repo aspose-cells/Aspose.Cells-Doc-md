@@ -3,8 +3,8 @@ title: Manage VBA Project of Excel Macro-Enabled workbook.
 linktitle: Workbook VBA Project
 type: docs
 weight: 200
-url: /net/workbook-vba-project/
-aliases: [/net/managing-vba-modules/,/net/adding-vba-module-and-code-using-aspose-cells/,/net/modifying-vba-or-macro-code-using-aspose-cells/]
+url: /net/manage-vba-project/
+aliases: [/net/workbook-vba-project/,/net/managing-vba-modules/,/net/adding-vba-module-and-code-using-aspose-cells/,/net/modifying-vba-or-macro-code-using-aspose-cells/]
 description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library.
 ---
 
