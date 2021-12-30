@@ -1,10 +1,11 @@
 ---
-title: Pivot Tables
+title: Insert Pivot Table
+linktitle: Pivot Tables
 type: docs
 weight: 160
 url: /net/create-pivot-table/
 aliases: [/net/pivot-tables/]
-description: Create and format pivot tables of spreadsheet files.
+description: Create and format pivot tables of Excel spreadsheet files.
 ---
 
 ## **Create Pivot Table**

@@ -1,5 +1,5 @@
 ---
-title: Smartly importing and placing data
+title: Smartly importing and placing data with Smart markers
 linktitle: Smart markers
 type: docs
 weight: 190
