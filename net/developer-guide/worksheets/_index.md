@@ -1,9 +1,11 @@
 ---
-title: Worksheets
+title: Manage Worksheets of Microsoft Excel files.
+linktitle: Worksheets
 type: docs
 weight: 90
 url: /net/manage-worksheets/
 aliases: [/net/worksheets/]
+description: Add worksheet, remove worksheet and active Sheet using Aspose.Cells.
 ---
 
 
