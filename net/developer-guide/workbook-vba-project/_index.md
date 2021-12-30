@@ -1,5 +1,5 @@
 ---
-title: Manage VBA Project of Excel Macro-Enabled workbook.
+title: Manage VBA codes of Excel Macro-Enabled workbook.
 linktitle: Workbook VBA Project
 type: docs
 weight: 200
