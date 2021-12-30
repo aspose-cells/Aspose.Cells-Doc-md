@@ -1,5 +1,6 @@
 ---
-title: Document Properties
+title: Manage Document Properties
+linktitle: Document Properties
 type: docs
 weight: 80
 url: /net/managing-document-properties/

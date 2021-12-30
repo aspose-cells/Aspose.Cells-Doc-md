@@ -1,5 +1,6 @@
 ---
-title: Charts
+title: Create and Manage Chart
+linktitle: Charts
 type: docs
 weight: 130
 url: /net/creating-charts/

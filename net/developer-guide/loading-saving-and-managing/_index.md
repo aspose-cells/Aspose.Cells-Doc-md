@@ -1,14 +1,16 @@
 ---
-title: Loading, Saving and Managing
+title: Open, Save and Manage Excel files
+linktitle: Loading, Saving and Managing
 type: docs
 weight: 20
 url: /net/loading-saving-and-managing/
 aliases: [/net/loading-saving-converting-and-managing/]
+description: With Aspose.Cells, it is simple to create,open, save and manage Excel,CSV,TSV,ODS,HTML,Numbers,Json,XML,Pdf,Jpg,Tiff,Image,Mht and XPS files.
 ---
 
 {{% alert color="primary" %}}
 
-With Aspose.Cells, it is simple to create,open, save and mange Excel files, for example, to retrieve data, or to use a designer template to speed up the development process.
+With Aspose.Cells, it is simple to create,open, save and manage Excel files, for example, to retrieve data, or to use a designer template to speed up the development process.
 
 {{% /alert %}}
 

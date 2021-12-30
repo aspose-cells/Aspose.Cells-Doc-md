@@ -1,5 +1,6 @@
 ---
-title: Conditional Formatting
+title: Set Conditional Formats of Excel and ODS files.
+linktitle: Conditional Formatting
 type: docs
 weight: 125
 url: /net/conditional-formatting/

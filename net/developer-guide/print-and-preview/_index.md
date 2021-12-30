@@ -1,9 +1,11 @@
 ---
-title: Print and Preview
+title: Print and Preview workbook
+linktitle: Print and Preview
 type: docs
 weight: 70
 url: /net/print-and-preview/
 aliases: [/net/printing-workbooks/,/net/workbook-and-worksheet-print-preview/]
+description: Aspose.Cells supports printing and previewing Excel files without Microsoft Excel intallation.
 ---
 
 {{% alert color="primary" %}}

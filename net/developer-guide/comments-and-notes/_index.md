@@ -1,10 +1,11 @@
 ---
-title: Comments and Notes
+title: Manage Comments and Notes
+linktitle: Comments and Notes
 type: docs
 weight: 128
 url: /net/comments-and-notes/
 aliases: [/net/managing-comments/]
-description: Insert and manage comments or notes in CSharp.
+description: Insert and manage comments or notes with Aspose.Cells.
 keywords: insert comments, insert notes
 ---
 

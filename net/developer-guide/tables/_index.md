@@ -1,5 +1,5 @@
 ---
-title: Create and manage table of Microsoft Excel files.
+title: Create and manage tables of Microsoft Excel files.
 linktitle: Tables
 type: docs
 weight: 150

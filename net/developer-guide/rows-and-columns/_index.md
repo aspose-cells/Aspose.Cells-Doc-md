@@ -1,5 +1,6 @@
 ---
-title: Rows and Columns
+title: Format Rows and Columns
+linktitle: Rows and Columns
 type: docs
 weight: 100
 url: /net/rows-and-columns/

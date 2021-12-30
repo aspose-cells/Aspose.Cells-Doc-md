@@ -1,5 +1,6 @@
 ---
-title: Workbook Conversions
+title: Convert Excel to Pdf, Image and other formats.
+linktitle: Workbook Conversions
 type: docs
 weight: 65
 url: /net/convert-workbook-to-different-formats/
