@@ -1,9 +1,11 @@
 ---
-title: Smart Markers
+title: Smartly importing and placing data
+linktitle: Smart markers
 type: docs
 weight: 190
 url: /net/using-smart-markers/
 aliases: [/net/smart-markers/]
+description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells library.
 ---
 
 
