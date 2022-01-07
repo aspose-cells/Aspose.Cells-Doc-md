@@ -1,5 +1,6 @@
 ---
 title: Format cells
+linktitle: Format cells
 type: docs
 weight: 125
 url: /net/cells-formatting/
