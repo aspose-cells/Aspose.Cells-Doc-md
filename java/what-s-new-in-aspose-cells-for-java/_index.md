@@ -8,6 +8,14 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 22.1
+
+* Support to generate editable pptx
+* Support to import large csv into multiple worksheets when data row/column exceeding limit
+* Support to import csv with LightCells
+* Support to remove specified external link
+* Support to keep formulas while removing external links
+
 ## Aspose.Cells for Java 21.12
 
 * Support converting Excel to SQL Scripts

@@ -21,7 +21,7 @@ First, you need to specify Aspose Maven Repository configuration/location in you
 
           <name>Aspose Java API</name>
 
-          <url>http://repository.aspose.com/repo/</url>
+          <url>https://repository.aspose.com/repo/</url>
 
       </repository>
 
@@ -41,7 +41,7 @@ Then define Aspose.Cells for Java API dependency in your pom.xml as follows (Th
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>21.10</version>
+            <version>22.1</version>
 
         </dependency>
 
@@ -51,7 +51,7 @@ Then define Aspose.Cells for Java API dependency in your pom.xml as follows (Th
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>21.10</version>
+            <version>22.1</version>
 
             <classifier>javadoc</classifier>
 
