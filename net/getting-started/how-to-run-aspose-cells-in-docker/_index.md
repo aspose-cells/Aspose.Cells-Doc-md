@@ -76,6 +76,7 @@ The next step is to create and configure the Dockerfile.
 
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
+COPY fonts/* /usr/share/fonts/
 WORKDIR /app
 COPY . ./
 RUN apt-get update && \
@@ -87,6 +88,7 @@ ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
 The above is a simple Dockerfile, which contains the following instructions:
 
 - The SDK image to be used. Here it is the .Net Core SDK 3.1 image. Docker will download it when the build is run. The version of SDK is specified as a tag.
+- Install Fonts because the SDK image contains very few fonts. The command copies font files from local to docker image. Make sure you have a local "fonts" directory that contains all the fonts you need to install. In this example, the local "fonts" directory is put in the same directory as the Dockerfile.
 - The working directory, which is specified in the next line.
 - The command to copy everything to container, publish the application, and specify the entry point.
 - The command to install libgdiplus is run in the container. This is required by System.Drawing.Common.
