@@ -25,9 +25,9 @@ The Aspose.Cells for .NET components do not require Microsoft Excel to be instal
 - Microsoft Windows 10 ( x64, x86)
 - Windows Azure
 ### **Linux**
-- Linux (Ubuntu, openSUSE, CentOS and others)
+- Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine and others)
 ### **Mac**
-- Mac OS X etc.
+- Mac OS X, macOS High Sierra, etc.
 ## **.NET Framework versions supported**
 Aspose.Cells for .NET supports .NET and Mono frameworks as follows:
 ### **.NET Frameworks**
@@ -43,8 +43,9 @@ Aspose.Cells for .NET supports .NET and Mono frameworks as follows:
 - .NET Framework 4.6.2
 - .NET Framework 4.7.1
 - .NET Framework 4.7.2
-- .NET Standard 2.0 (.NET Core 2.0/2.1).
+- .NET Standard 2.0 (.NET Core 2.1/3.1).
 - .NET 5.0
+- .NET 6.0
 ### **Mono Framework**
 - Mono 1.2 or newer.
 ## **Development Environments**
@@ -58,6 +59,7 @@ You can use Aspose.Cells for .NET to develop applications in any development env
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 
 {{% alert color="primary" %}} 
 

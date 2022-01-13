@@ -27,6 +27,7 @@ Aspose.Cells supports both 32-bit and 64-bit environments. When you install Aspo
 |Xamarin.iOS|Contains assemblies to use with Xamarin.iOS|
 |Xamarin.Android|Contains assemblies to use with Xamarin.Android|
 |net5.0|Contains assemblies to use with .net5.0.|
+|net6.0|Contains assemblies to use with .net6.0.|
 {{% alert color="primary" %}} 
 
 In VS.NET (for example 2005, 2008, 2010, 2012 etc.) projects, when adding a reference to Aspose.Cells, the Add Reference dialog refers to Aspose.Cells.dll files in the net2.0 or  net3.5 folder(s) respectively. (For further reference, read Referencing Aspose.Cells from a .NET project.) You can change the reference to the library according to your environment. Please note if the project's target framework is .NET Framework 3.5/4 Client Profile, use the Aspose.Cells.dll component file located in net_ClientProfile folder.
