@@ -21,7 +21,7 @@ NuGet is the easiest way to download and install Aspose.Cells for .NET.
 1. Search "aspose.cells" to find the desired Aspose.Cells for .NET. 
 1. Click on "Install", Aspose.Cells for .NET will be downloaded and referenced in your project.
 
-**![Install Aspose Cells through NuGet](InstallThroughNuget.png)**
+**![Install Aspose Cells through NuGet](install-through-nuget.png)**
 
 You can also download it from the nuget web page for aspose.cells: 
 [Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/)
@@ -34,7 +34,7 @@ You can also download it from the nuget web page for aspose.cells:
 [Download Aspose.Cells.msi](https://downloads.aspose.com/cells/net/)
 1. Double-click the Aspose Cells msi and follow the instructions to install it:
 
-**![Install Aspose Cells on windows](InstallOnWindows.png)**
+**![Install Aspose Cells on windows](install-on-windows.png)**
 
 [More step for details](/cells/net/installing-aspose-cells-on-windows/)
 
