@@ -38,13 +38,39 @@ You can also download it from the nuget web page for aspose.cells:
 
 [More step for details](/cells/net/installing-aspose-cells-on-windows/)
 
-### **How to use Aspose Cells on linux or MAC OS.**
+### **How to use Aspose Cells on linux.**
 
-Please install Aspose Cells through nuget, you can use VSCode on linux, and Visual Studio for Mac on MAC OS.
+In this example, I use Ubuntu to show how to start using Aspose.Cells on linux.
 
-Note: Aspose.Cells For .NetStandard can support your requirement on linux or MAC OS.
+1. Create a .netcore application, named "AsposeCellsTest".
+2. Open file "AsposeCellsTest.csproj", add the following lines into it for Aspose.Cells package references:
+{{< highlight plain >}}
+  <ItemGroup>
+    <PackageReference Include="Aspose.Cells" Version="22.1" />
+  </ItemGroup>
+{{< /highlight >}}
+3. Open the project with VSCode on Ubuntu:
+**![Install Aspose Cells on linux](install-on-linux.png)**
+4. run test with the following code:
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnLinux.cs" >}}
 
-Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0 and advanced version.
+Note: Aspose.Cells For .NetStandard can support your requirement on linux.
+
+Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 and advanced version.
+
+### **How to use Aspose Cells on MAC OS.**
+
+In this example, I use macOS High Sierra to show how to start using Aspose.Cells on MAC OS.
+
+1. Create a .netcore application, named "AsposeCellsTest".
+2. Open the application with Visual Studio for Mac, then install Aspose Cells through NuGet:
+**![Install Aspose Cells on macOS](install-on-mac-os.png)**
+3. run test with the following code:
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
+
+Note: Aspose.Cells For .NetStandard can support your requirement on MAC OS.
+
+Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 and advanced version.
 
 ### **How to run Aspose Cells on Docker.**
 
