@@ -13,6 +13,6 @@ Aspose.Cells provides the Cells.RemoveDuplicates() method for this purpose. You 
 
 Following are the sample files which can be downloaded for testing this feature:
 
-[RemoveDuplicates.xlsx](81920906.xlsx)
+[removeduplicates.xlsx](removeduplicates.xlsx)
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-Remove-Duplicate-Rows-In-A-Worksheet.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Remove-Duplicate-Rows-In-A-Worksheet.cs" >}}
