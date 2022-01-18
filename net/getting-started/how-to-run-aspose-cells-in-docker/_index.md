@@ -1,7 +1,7 @@
 ---
 title: How to Run Aspose.Cells in Docker
 type: docs
-description: "Integrate Aspose.Cells functionality into your application using Docker regardless of what technology is in your development stack. Learn how to use Aspose .Cells in a Docker container."
+description: "Run Aspose.Cells in a Docker container for Linux, Windows Server and any OS. "
 weight: 139
 url: /net/how-to-run-aspose-cells-in-docker/
 ---
