@@ -8,7 +8,8 @@ url: /reportingservices/using-msi-installer/
 {{% alert color="primary" %}} 
 
 - If you have a previous version of Aspose.Cells for Reporting Services installed, please uninstall it first. See [Uninstalling Aspose.Cells for Reporting Services](/cells/reportingservices/uninstalling-aspose-cells-for-reporting-services/) topic on how to remove the component.
-- [Visit the Aspose.Cells for Reporting Services download page](https://downloads.aspose.com/cells/reportingservices) and download the Aspose.Cells MSI installer with the latest version of the component.
+- [Visit the Aspose.Cells for Reporting Services download page](https://downloads.aspose.com/cells/reportingservices) and download the Aspose.Cells for Reporting Services MSI installer with the latest version of the component.
+    - Aspose.Cells for ReportingServices Msi only supports Microsoft SQL Server 2008 Reporting Services and later products.
 - Run the downloaded file and follow the installer instructions.
 
 {{% /alert %}} 

@@ -5,21 +5,27 @@ weight: 20
 url: /reportingservices/using-dll-only/
 ---
 
-To install Aspose.Cells using only the DLL:
+## How to install Aspose.Cells for Reporting Services using only the DLL:
 
-1. Visit the Aspose.Cells for Reporting Services [download page](https://downloads.aspose.com/cells/reportingservices) and download the **Aspose.Cells.ReportingServices.zip** archive that contains the latest version of the component and the installed documentation.
-1. Unpack the archive into a directory on your hard drive.
-1. Register the client component:
-   1. Register **Aspose.Cells.ReportingServices.Client.dll** using the Regasm.exe utility.
-   1. Add Aspose.Cells for Reporting Services add-in in Excel.
-1. Register the services component:
-   1. Put the **Aspose.Cells.ReportingServices.dll** into the …\Microsoft SQL Server\<SQL Server Instance>\Reporting Services\bin folder, where SQL Server version is 9.
-1. Register Aspose.Cells for Reporting Services as a rendering extension:
-1. Open **C:\Program Files\Microsoft SQL Server\MSSQL.x\Reporting Services\ReportServer\rsreportserver.config** and add the following lines into the <Render>……</Render> element: 
+- Visit the Aspose.Cells for Reporting Services [download page](https://downloads.aspose.com/cells/reportingservices) and download the **Aspose.Cells for Reporting Services (zip)** archive that contains the latest version of the component and the installed documentation.
+   - There are 7 kinds of versions Aspose.Cells.ReprotingSerivces.dll in Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. They support different Microsoft report server products.
+       - Aspose.Cells.ReportingServices.dll in SSRS2005 folder support Microsoft SQL Server 2005 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll in SSRS2008 folder support Microsoft SQL Server 2008 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll in SSRS2008R2 folder support Microsoft SQL Server 2008R2/2012/2014 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll in SSRS2016 folder support Microsoft SQL Server 2016/2017/2019 Reporting Services.
+   
+- Unpack the archive into a directory on your hard drive.
 
-**XML**
-
-{{< highlight csharp >}}
+- Install Aspose.Cells for Reporting Services Report Designer:
+   - Register **Aspose.Cells.ReportingServices.Client.dll** using the Regasm.exe utility.
+   - Add Aspose.Cells for Reporting Services add-in in Excel.
+   
+- Install Aspose.Cells for Reporting Services for Microsoft SQL Server Reporting Services the services component:
+   - Put the **Aspose.Cells.ReportingServices.dll** into the ${Microsoft SQL Server Reporting Services installation folder}\ReportServer\bin folder. 
+   - Add Aspose.Cells for Reporting Services renderer extensions :  
+      - Open **${Microsoft SQL Server Reporting Services installation folder}\ReportServer\rsreportserver.config**
+      - Add the following lines into the <Render>……</Render> element: 
+{{< highlight xml >}}
 
  <Render>
 
@@ -47,19 +53,35 @@ To install Aspose.Cells using only the DLL:
 
 <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" />
 
+<Extension Name="ACXPS" Type="Aspose.Cells.ReportingServices.XpsRenderer,Aspose.Cells.ReportingServices" />
 
+<Extension Name="ACMD" Type="Aspose.Cells.ReportingServices.MarkdownRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACTIFF" Type="Aspose.Cells.ReportingServices.TIFFRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACPDF" Type="Aspose.Cells.ReportingServices.PDFRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACPNG" Type="Aspose.Cells.ReportingServices.PNGRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACJPG" Type="Aspose.Cells.ReportingServices.JPGRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACEMF" Type="Aspose.Cells.ReportingServices.EMFRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACDIF" Type="Aspose.Cells.ReportingServices.DifRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACSVG" Type="Aspose.Cells.ReportingServices.SvgRenderer,Aspose.Cells.ReportingServices" />
+
+<Extension Name="ACJSON" Type="Aspose.Cells.ReportingServices.JsonRenderer,Aspose.Cells.ReportingServices" />
 <!--End here.-->
 
 </Render>
 
 {{< /highlight >}}
+   - Add Aspose.Cells for Reporting Services permissions to execute:
+      - Open **${Microsoft SQL Server Reporting Services installation folder}\ReportServer\rssrvpolicy.config** and a
+      - Add the following as the last item in the second to the outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
-1. Give Aspose.Cells for Reporting Services permissions to execute:
-   1. Open **C:\Program Files\Microsoft SQL Server\MSSQL.x\Reporting Services\ReportServer\rssrvpolicy.config** and add the following as the last item in the second to the outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
-
-**XML**
-
-{{< highlight csharp >}}
+{{< highlight xml >}}
 
  <CodeGroup>
 
@@ -83,11 +105,9 @@ To install Aspose.Cells using only the DLL:
 
 </CodeGroup>
 
-
-
 {{< /highlight >}}
 
-1. Verify that Aspose.Cells for Reporting Services is installed successfully:
+## Verify that Aspose.Cells for Reporting Services is installed successfully:
    1. Open the Report Manager and check the list of available export types for a report. (Launch Report Manager by opening a browser and type the Report Manager URL into the address bar. (By default, the URL is http://<ComputerName>/Reports).
    1. Select one of the reports on the server and open the **Select Format** list.
       You should see the list of export formats provided by Aspose.Cells for Reporting Services.
@@ -97,3 +117,6 @@ To install Aspose.Cells using only the DLL:
    1. Send it to the client and open it in an appropriate application. In this case, the report opens in Microsoft Excel.
 
 Congratulations, you’ve successfully installed Aspose.Cells for Reporting Services and generated a report as a Microsoft Excel file!
+
+
+There are 7 kinds of versions Aspose.Cells.ReprotingSerivces.dll in Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. They support different Microsoft report server products. 
