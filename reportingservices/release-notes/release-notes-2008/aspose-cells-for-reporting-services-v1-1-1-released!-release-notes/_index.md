@@ -2,7 +2,7 @@
 title: Aspose.Cells for Reporting Services V1.1.1 Released! Release Notes
 type: docs
 weight: 20
-url: /reportingservices/aspose-cells-for-reporting-services-v1-1-1-released!-release-notes/
+url: /reportingservices/aspose-cells-for-reporting-services-v1-1-1-released-release-notes/
 ---
 
 {{% alert color="primary" %}} 
