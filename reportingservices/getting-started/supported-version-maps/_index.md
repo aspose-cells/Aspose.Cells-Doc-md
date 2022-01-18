@@ -33,7 +33,7 @@ There are 7 kinds of version Aspose.Cells.ReprotingSerivces.dll in Aspose.Cells.
 |Microsoft Visual Studio 2019 |{{< emoticons/tick >}}| Aspose.Cells.ReportingServices.dll in SSRS2016 folder |
 
 
-|**Microsoft Visual Studio Report Viewer **|**Aspose.Cells.ReportingSrvices Support**|**Folder Position**|
+|**Microsoft Visual Studio Report Viewer**|**Aspose.Cells.ReportingSrvices Support**|**Folder Position**|
 | :- | :- | :- | 
 |Microsoft Visual Studio 2005 Report Viewer |{{< emoticons/tick >}}| Aspose.Cells.ReportingServices.dll in ReportViewer2005 folder |
 |Microsoft Visual Studio 2008 Report Viewer |{{< emoticons/tick >}}| Aspose.Cells.ReportingServices.dll in ReportViewer2008 folder |
