@@ -5,7 +5,7 @@ weight: 20
 url: /reportingservices/supported-version-maps/
 ---
 
-There are 7 kinds of version Aspose.Cells.ReprotingSerivces.dll in Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. They support different Microsoft report server products. Aspose.Cells.ReportingServices.Msi only support for Microsoft SQL Server 2008 Reporting Services and later products.
+There are 7 kinds of versions Aspose.Cells.ReprotingSerivces.dll in Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. They support different Microsoft report server products. Aspose.Cells.ReportingServices.Msi only support Microsoft SQL Server 2008 Reporting Services and later products.
 
 
 **List of supported product versions for the latest version of Aspose.Cells for Reporting Services:**
