@@ -22,17 +22,17 @@ There are quite a few advantages when you convert a list of data to an actual Li
 
 |**Selecting data range for creating List object**|
 | :- |
-|![todo:image_alt_text](https://i.imgur.com/jHcNq4o.png)|
+|![todo:image_alt_text](jHcNq4o.png)|
 This displays the Create List dialog.
 
 |**Create List dialog**|
 | :- |
-|![todo:image_alt_text](https://i.imgur.com/kJmukRF.png)|
+|![todo:image_alt_text](kJmukRF.png)|
 Implementing the List object for the data and specifying total row (Select **Data**, then **List**, followed by **Total Row**).
 
 |**Creating a list object**|
 | :- |
-|![todo:image_alt_text](https://i.imgur.com/ECSGVdR.png)|
+|![todo:image_alt_text](ECSGVdR.png)|
 ### **Using Aspose.Cells API**
 Aspose.Cells provides a class [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) that represents a Microsoft Excel file. The [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class contains an [IWorksheets](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) collection that allows access to each worksheet in an Excel file.
 
