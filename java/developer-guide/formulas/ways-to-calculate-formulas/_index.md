@@ -23,7 +23,7 @@ To calculate the results of formulas, user may call the [**CalculateFormula**](h
 
 {{% alert color="primary" %}}
 
-The **Formula** property and **SetFormula(...)** methods of the [**Cell**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cell) class work differently from the **Calculate** methods of the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/Workbook)/[**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet)/[**Cell**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cell) classes. The **Formula** property and **SetFormula(...)** methods simply add the formula to a cell but do not calculate the result at runtime. To get the result of the formulas, please call **Calculate** methods.
+The **Formula** property and **SetFormula(...)** methods of the [**Cell**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cell) class work differently from the **Calculate** methods of the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/Workbook), [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) and [**Cell**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cell) classes. The **Formula** property and **SetFormula(...)** methods simply add the formula to a cell but do not calculate the result at runtime. To get the result of the formulas, please call **Calculate** methods.
 
 {{% /alert %}}
 
@@ -33,11 +33,11 @@ Aspose.Cells has an embedded formula calculation engine. As well as calculating 
 
 Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
 
-You can use Aspose.Cells' formula calculation engine APIs for ([**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet)) to ([**calculate**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions))) the results of such formulas without adding them to the worksheet:
+You can use Aspose.Cells' formula calculation engine APIs for [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) to [**calculate**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)) the results of such formulas without adding them to the worksheet:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
-Above code produces the following output.
+Above code produces the following output:
 {{< highlight java >}}
 Value of A1: 20
 Value of A2: 30
@@ -54,6 +54,6 @@ When there are lots of formulas in the workbook and user needs to calculate them
 
 {{% alert color="primary" %}}
 
-By default the calculation chain is disabled. Because creating the chain also needs extra time, the first time of calculating formulas(Workbook.CalculateFormula(...)) may consume more CPU processing time and memory when comparing with calculating formulas without chain. If user does not need to calculate formulas repeatedly, the default behavior(calculating formula directly without creating calculation chain) should be the better way.
+By default the calculation chain is disabled. Because creating the chain also needs extra time, the first time of calculating formulas([**Workbook.CalculateFormula(...)**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))) may consume more CPU processing time and memory when comparing with calculating formulas without chain. If user does not need to calculate formulas repeatedly, the default behavior(calculating formula directly without creating calculation chain) should be the better way.
 
 {{% /alert %}}
