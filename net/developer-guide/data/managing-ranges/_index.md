@@ -44,3 +44,25 @@ The following example shows how to do AutoFill operation to the Range, and here 
 [range_autofill.xlsx](range_autofill.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-AutoFill.cs" >}}
+
+### **Get CurrentRegion of the Range**
+
+CurrentRegion is a property that returns a Range object that represents the current region. 
+
+The current region is a range bounded by any combination of blank rows and blank columns. Read-only.
+
+In excel, you can get CurrentRegion area by:
+1. Select an area(range1) with the mouse box.
+2. Click "Home - Editing - Find & Select - Go To Special - Currect region", or use "Ctrl+Shift+*", you will see excel automatically helps you select an area(range2), now you made it, range2 is the CurrentRegion of range1.
+
+Using Aspose.Cells, you can use "Range.CurrentRegion" property to perform the same function.
+
+Please downloaded the following test file, open it in excel, use the mouse box to select an area "A1:D7", then click "Ctrl+Shift+*", you will see area "A1:C3" selected.
+
+[current_region.xlsx](current_region.xlsx)
+
+Now please run the following example, see how it works in Aspose.Cells:
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-CurrentRegion.cs" >}}
+
+
