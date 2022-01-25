@@ -60,6 +60,6 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Printing Workbooks ](http://docs.aspose.com:8082/docs/display/cellsjava/Printing+Workbooks).
+For more details, visit [Printing Workbooks ](/java/printing-workbooks).
 
 {{% /alert %}}

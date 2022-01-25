@@ -36,6 +36,6 @@ workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Reading CSV File with Multiple Encodings](http://docs.aspose.com:8082/docs/display/cellsjava/Reading+CSV+File+with+Multiple+Encodings).
+For more details, visit [Reading CSV File with Multiple Encodings](/java/reading-csv-file-with-multiple-encodings).
 
 {{% /alert %}}

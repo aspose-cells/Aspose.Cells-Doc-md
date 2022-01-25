@@ -51,6 +51,6 @@ workbook.save("AsposeTotal.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating Subtotals](http://docs.aspose.com:8082/docs/display/cellsjava/Creating+Subtotals).
+For more details, visit [Creating Subtotals](/java/creating-subtotals).
 
 {{% /alert %}}

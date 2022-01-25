@@ -63,6 +63,6 @@ for(int i = al.size()-1 ; i > -1; i--)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Detect Merged Cells in a Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Detect+Merged+Cells+in+a+Worksheet).
+For more details, visit [Detect Merged Cells in a Worksheet](/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}

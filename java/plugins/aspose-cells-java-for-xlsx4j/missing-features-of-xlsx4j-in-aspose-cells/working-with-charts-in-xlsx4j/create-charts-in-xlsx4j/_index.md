@@ -78,6 +78,6 @@ workbook.save(dataDir + "Chart_Aspose.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Create a Chart](http://docs.aspose.com:8082/docs/display/cellsjava/How+to+Create+a+Chart).
+For more details, visit [How to Create a Chart](/java/how-to-create-a-chart).
 
 {{% /alert %}}

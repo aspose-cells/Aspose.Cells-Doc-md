@@ -46,6 +46,6 @@ for (int i = 0 ; i < dataTable.length ; i++)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Exporting Data from Worksheets](http://docs.aspose.com:8082/docs/display/cellsjava/Exporting+Data+from+Worksheets).
+For more details, visit [Exporting Data from Worksheets](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}

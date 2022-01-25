@@ -43,6 +43,6 @@ workbook.save(dataPath + "AsposeColoredTab_Out.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Set Worksheet Tab Color](http://docs.aspose.com:8082/docs/display/cellsjava/Set+Worksheet+Tab+Color).
+For more details, visit [Set Worksheet Tab Color](/java/set-worksheet-tab-color).
 
 {{% /alert %}}

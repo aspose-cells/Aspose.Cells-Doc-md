@@ -73,6 +73,6 @@ sorter.sort(cells, ca);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Sort Data](http://docs.aspose.com:8082/docs/display/cellsjava/Sort+Data), or [Data Sorting](http://docs.aspose.com:8082/docs/display/cellsjava/Data+Sorting).
+For more details, visit [Sort Data](/java/sort-data), or [Data Sorting](/java/data-sorting).
 
 {{% /alert %}}

@@ -124,6 +124,6 @@ private static Cell createCell(String content) {
 
 {{% alert color="primary" %}} 
 
-For more details, visit [File Handling Features](http://docs.aspose.com:8082/docs/display/cellsjava/File+Handling+Features).
+For more details, visit [File Handling Features](/java/file-handling-features).
 
 {{% /alert %}}

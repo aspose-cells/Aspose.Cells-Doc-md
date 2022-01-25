@@ -72,6 +72,6 @@ workbook.save(dataDir + "AsposeDataImport.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Importing Data to Worksheets](http://docs.aspose.com:8082/docs/display/cellsjava/Importing+Data+to+Worksheets).
+For more details, visit [Importing Data to Worksheets](/java/importing-data-to-worksheets).
 
 {{% /alert %}}

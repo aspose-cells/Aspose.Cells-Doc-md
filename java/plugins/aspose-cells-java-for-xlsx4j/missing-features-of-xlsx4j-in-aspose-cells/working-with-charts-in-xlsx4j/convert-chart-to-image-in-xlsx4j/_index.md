@@ -33,6 +33,6 @@ chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage_Out.png"), imgOpt
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Converting Chart to Image](http://docs.aspose.com:8082/docs/display/cellsjava/Converting+Chart+to+Image).
+For more details, visit [Converting Chart to Image](/java/converting-chart-to-image).
 
 {{% /alert %}}

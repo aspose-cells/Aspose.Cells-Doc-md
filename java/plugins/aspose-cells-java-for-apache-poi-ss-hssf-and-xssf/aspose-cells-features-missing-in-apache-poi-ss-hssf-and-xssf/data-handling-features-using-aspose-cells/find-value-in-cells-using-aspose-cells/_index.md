@@ -48,6 +48,6 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Find or Search Data](http://docs.aspose.com:8082/docs/display/cellsjava/Find+or+Search+Data).
+For more details, visit [Find or Search Data](/java/find-or-search-data).
 
 {{% /alert %}}

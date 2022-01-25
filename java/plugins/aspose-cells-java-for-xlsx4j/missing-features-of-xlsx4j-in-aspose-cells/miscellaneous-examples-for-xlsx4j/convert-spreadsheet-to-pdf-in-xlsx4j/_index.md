@@ -28,6 +28,6 @@ workbook.save(dataDir + "AsposeConvert.pdf", SaveFormat.PDF);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Converting Excel to PDF Files](http://docs.aspose.com:8082/docs/display/cellsjava/Converting+Excel+to+PDF+Files).
+For more details, visit [Converting Excel to PDF Files](/java/converting-excel-to-pdf-files).
 
 {{% /alert %}}

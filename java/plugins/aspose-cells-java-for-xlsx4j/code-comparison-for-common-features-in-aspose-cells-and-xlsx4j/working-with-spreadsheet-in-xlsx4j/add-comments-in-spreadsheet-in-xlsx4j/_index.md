@@ -248,6 +248,6 @@ public static org.docx4j.vml.root.Xml getVml(int row, int col) throws JAXBExcept
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adding Comments](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Comments).
+For more details, visit [Adding Comments](/java/adding-comments).
 
 {{% /alert %}}

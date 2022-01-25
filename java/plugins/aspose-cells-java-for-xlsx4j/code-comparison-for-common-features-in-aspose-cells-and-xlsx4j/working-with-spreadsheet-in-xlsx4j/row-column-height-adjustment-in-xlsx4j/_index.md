@@ -98,6 +98,6 @@ sheetData.getRow().add(row);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adjusting Row Height and Column Width](http://docs.aspose.com:8082/docs/display/cellsjava/Adjusting+Row+Height+and+Column+Width).
+For more details, visit [Adjusting Row Height and Column Width](/java/adjusting-row-height-and-volumn-width).
 
 {{% /alert %}}
