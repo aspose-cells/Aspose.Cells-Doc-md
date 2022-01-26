@@ -34,7 +34,6 @@ pageSetup.PrintTitleRows= "$1:$2";
 ## **Download Running Code**
 Download **Set Print Titles** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1482194)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 

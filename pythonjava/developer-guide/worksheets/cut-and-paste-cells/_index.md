@@ -11,7 +11,7 @@ Aspose.Cells for Python via Java provides the ability to cut and paste cells. Fo
 - [Range](https://apireference.aspose.com/cells/python/asposecells.api/Range): The range of cells to be cut.
 - Row Index: The index of the row to insert cells.
 - Column Index: The index of the column to insert cells.
-- [ShiftType](https://apireference.aspose.com/error/404?path=cells/python/com.aspose.cells/ShiftType): The shift direction of the columns.
+- [ShiftType](https://apireference.aspose.com/cells/python/asposecells.api/ShiftType): The shift direction of the columns.
 
 The following code snippet demonstrates how to cut and paste cells within a worksheet.
 

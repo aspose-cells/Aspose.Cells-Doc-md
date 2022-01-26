@@ -149,11 +149,7 @@ foreach (var dependent in dependents)
 
 {{< /highlight >}}
 ## **Download Running Code**
-- [CodePlex](https://asposecellsnet.codeplex.com/SourceControl/latest#Plugins/Aspose For VSTO/Aspose.Cells Features missing in VSTO/Tracing Precedents and Dependents/)
-- [CodePlex](https://asposevsto.codeplex.com/SourceControl/latest#Aspose Only features Unavailable in VSTO/Aspose.Cells/Tracing Precedents and Dependents/)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Tracing%20Precedents%20and%20Dependents)
 ## **Download Sample Code**
-- [CodePlex](https://asposecellsnet.codeplex.com/releases/view/618484)
-- [CodePlex](https://asposevsto.codeplex.com/releases/view/618289)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
 

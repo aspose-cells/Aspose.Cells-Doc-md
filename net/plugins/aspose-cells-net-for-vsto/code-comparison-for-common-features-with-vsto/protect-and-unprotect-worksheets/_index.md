@@ -83,7 +83,6 @@ workbook.Save(myPath);
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposevsto.codeplex.com/downloads/get/1459774)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protect.and.unProtect.Worksheets.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Protect%20and%20unProtect%20Worksheets)

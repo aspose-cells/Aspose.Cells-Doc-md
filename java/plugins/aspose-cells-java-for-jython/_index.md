@@ -52,7 +52,6 @@ Aspose.Cells Java for Jython is a project that demonstrates / provides the Aspos
 
 Following releases of running examples are available to download on all of the below mentioned social coding sites:
 
-- [CodePlex](http://asposecellsjavajython.codeplex.com/releases/view/619599)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Jython-v1.0.0)
 
 **Download Aspose.Cells for Java component**
@@ -126,7 +125,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells Java for Jython using any of the following platforms:
 
-- [CodePlex](https://asposewordsjavajython.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ### **Extend and Contribute**
@@ -137,5 +135,4 @@ Aspose.Cells Java for Jython is open source and its source code is available on 
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex](http://asposecellsjavajython.codeplex.com/releases/view/619599)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Jython-v1.0.0)

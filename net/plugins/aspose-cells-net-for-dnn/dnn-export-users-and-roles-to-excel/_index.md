@@ -33,7 +33,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 ## **Downloading**
 You can download Aspose .NET Cells Export Users and Roles to Excel for DNN module from one of the following locations
 
-- [CodePlex ](https://aspose-cellsdnn.codeplex.com/downloads/get/1508280)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETExportUsersAndRolesToExcelForDNN)
 ## **Installing**
 Once downloaded, please follow these steps to install the module into your DNN website:
@@ -65,7 +64,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells .NET for DNN Modules using any of the following platforms
 
-- [CodePlex ](https://asposednn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
 - [DNN Store ](https://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
 

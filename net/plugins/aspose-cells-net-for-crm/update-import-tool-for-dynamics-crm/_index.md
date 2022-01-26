@@ -48,7 +48,6 @@ This addon will work with all version of Microsoft Dynamics CRM:
 ## **Downloading**
 You can download Aspose .NET Document Generator for CRM from one of the following locations:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/releases/view/616773)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
 ## **Installing or Uninstalling**
 It is a custom developed tool and doesn't require any installation or uninstall.
@@ -76,7 +75,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .Net Update Import Tool using any of the following platforms:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/wikipage?title=Aspose%20.NET%20Update%20Import%20Tool)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
 ## **Extend and Contribute**
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.

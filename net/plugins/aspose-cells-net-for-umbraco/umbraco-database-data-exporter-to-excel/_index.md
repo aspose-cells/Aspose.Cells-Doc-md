@@ -45,7 +45,6 @@ The module is supported on all versions of
 ## **Downloading**
 You can download Aspose .NET Cells Database Data Exporter to Excel for Umbraco module from one of the following locations
 
-- [CodePlex ](https://aspose-cellsdnn.codeplex.com/releases)
 - [Umbraco Projects ](https://goo.gl/BPrWm2)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsUmbracoDatatoExcel)
 ## **Installing**
@@ -93,14 +92,12 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [CodePlex ](https://aspose-cellsumbraco.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ### **Extend and Contribute**
 Export Members to Excel is an open source Add-on and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 #### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://aspose-cellsumbraco.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.DatabaseDataExportertoExcel)
 #### **How to configure the source code**
 You need to have the following installed in order to open and extend the source code

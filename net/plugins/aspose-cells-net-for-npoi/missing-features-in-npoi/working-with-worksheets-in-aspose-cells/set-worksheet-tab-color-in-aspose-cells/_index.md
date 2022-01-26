@@ -37,7 +37,6 @@ workbook.Save("AsposeColoredTab_Out.xls");
 ## **Download Running Code**
 Download **Set Worksheet Tab Color** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1482195)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Worksheet.Tab.Color.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 

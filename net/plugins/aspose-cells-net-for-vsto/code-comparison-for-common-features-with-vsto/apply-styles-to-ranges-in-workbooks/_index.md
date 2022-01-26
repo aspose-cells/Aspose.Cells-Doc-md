@@ -83,5 +83,4 @@ Below is the code comparison of applying style to rows and columns of workbooks:
 
 {{< /highlight >}}
 ## **Download**
-- [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459813)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

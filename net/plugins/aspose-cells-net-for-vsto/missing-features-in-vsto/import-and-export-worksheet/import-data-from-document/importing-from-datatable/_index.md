@@ -80,6 +80,5 @@ workbook.Save("Import From Data Table.xls");
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposeopenxml.codeplex.com/downloads/get/808999)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)

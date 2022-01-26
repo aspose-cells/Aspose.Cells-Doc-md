@@ -43,5 +43,4 @@ Below is code example for Aspose.Cells
 
 {{< /highlight >}}
 ## **Download**
-- [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459765)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)

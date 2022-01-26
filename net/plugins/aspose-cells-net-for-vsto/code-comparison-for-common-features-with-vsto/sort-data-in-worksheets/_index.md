@@ -54,6 +54,5 @@ Below is the comparison code example for VSTO and Aspose.Cells.
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Download**
-- [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459768)
+## **Download
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

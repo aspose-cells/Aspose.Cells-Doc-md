@@ -30,7 +30,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 ## **Downloading**
 You can download Aspose .NET Cells Import Users from Excel for DNN module from one of the following locations
 
-- [CodePlex ](https://aspose-cellsdnn.codeplex.com/releases)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/DNN)
 ## **Installing**
 Once downloaded, please follow these steps to install the module into your DNN website:
@@ -62,7 +61,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells .NET for DNN Modules using any of the following platforms
 
-- [CodePlex ](https://asposednn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
 - [DNN Store ](https://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
 ### **Extend and Contribute**
@@ -70,7 +68,6 @@ Aspose .NET Cells Import Users from Excel module for DNN is open source and thei
 #### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposecellsdnn.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN)
 #### **How to configure the source code**
 You need to have the following installed in order to open and extend the source code

@@ -45,6 +45,5 @@ Below are the screenshots:
 
 ## **Download Sample Code**
 
-- [Codeplex](https://asposeopenxml.codeplex.com/downloads/get/808994)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

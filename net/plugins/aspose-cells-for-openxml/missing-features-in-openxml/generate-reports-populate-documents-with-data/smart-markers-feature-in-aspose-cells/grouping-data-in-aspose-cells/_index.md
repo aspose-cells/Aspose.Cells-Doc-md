@@ -85,5 +85,4 @@ wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)

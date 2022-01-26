@@ -38,7 +38,6 @@ The Add-on is supported on all versions of
 ## **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposecellssitefinity.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
 ### **How to configure the source code**
 You need to have the following installed in order to open and extend the source code
@@ -54,7 +53,6 @@ Please follow these simple steps to get started
 ### **Downloading**
 You can download Aspose .NET Content Exporter for Sitefinity module from one of the following locations
 
-- [CodePlex ](https://asposecellssitefinity.codeplex.com/releases)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
 ### **Installing**
 Once downloaded, please follow these steps to install the Add-on into your Sitefinity website:
@@ -107,7 +105,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells .NET for Sitefinity Modules using any of the following platforms
 
-- [CodePlex ](https://asposecellssitefinity.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ## **Extend and Contribute**
 Aspose Sitefinity Widgets / Modules are open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.

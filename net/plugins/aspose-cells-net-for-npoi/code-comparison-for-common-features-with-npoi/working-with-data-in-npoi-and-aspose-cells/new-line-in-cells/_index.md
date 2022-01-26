@@ -70,7 +70,6 @@ sw.Close();
 ## **Download Running Code**
 Download **New Line in Cells** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1479035)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 

@@ -67,7 +67,6 @@ chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 ## **Download Running Code**
 Download **Convert Chart to Images** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1482188)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 

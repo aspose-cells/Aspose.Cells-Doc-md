@@ -69,10 +69,8 @@ workbook.Save(FileName);
 
 ## **Download Sample Code**
 
-- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 
 ## **Download Running Example**
 
-- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

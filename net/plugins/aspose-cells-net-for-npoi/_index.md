@@ -31,7 +31,6 @@ This project is helpful for developers who want to compare NPOI with Aspose.Cell
 
 NPOI is the .NET version of POI Java project at <http://poi.apache.org/>. POI is an open source project which can help you read/write XLS, DOC, PPT files.
 
-Read more at <https://npoi.codeplex.com/>
 
 #### **What's HSSF and XSSF**
 
@@ -79,7 +78,6 @@ You can download latest version for Aspose.Cells for .NET from
 
 You can download Aspose for NPOI from one of the following locations
 
-- [CodePlex ](https://archive.codeplex.com/?p=asposecellsnpoi)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/NPOI)
 
 

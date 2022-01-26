@@ -32,5 +32,4 @@ url: /net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Download**
-- [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459769)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)

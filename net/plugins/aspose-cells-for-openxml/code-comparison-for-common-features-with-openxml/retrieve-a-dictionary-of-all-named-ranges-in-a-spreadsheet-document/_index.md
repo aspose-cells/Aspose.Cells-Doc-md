@@ -110,8 +110,6 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
 {{< /highlight >}}
 ## **Download Running Code Example**
-- [CodePlex](https://asposeopenxml.codeplex.com/releases/view/616479)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 ## **Sample Code**
-- [CodePlex](http://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells VS OpenXML/Retrieve a dictionary of all named ranges/)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Retrieve%20a%20dictionary%20of%20all%20named%20ranges)

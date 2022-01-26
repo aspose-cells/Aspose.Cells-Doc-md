@@ -99,7 +99,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Download Running Code**
-Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
+Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding 
 
-- [CodePlex](http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

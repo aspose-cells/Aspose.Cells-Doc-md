@@ -38,7 +38,6 @@ sr.ToPrinter("Samsung ML-1520 Series");
 ## **Download Running Code**
 Download **Printing Workbooks** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1482192)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 

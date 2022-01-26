@@ -71,6 +71,5 @@ Console.ReadKey();
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposevsto.codeplex.com/downloads/get/1459779)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Get.Text.of.Specific.Cell.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Get%20Text%20of%20Specific%20Cell)

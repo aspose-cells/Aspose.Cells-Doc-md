@@ -32,5 +32,4 @@ Error rendering macro 'code' : Invalid value specified for parameter lang
 
 {{< /highlight >}}
 ## **Download**
-- [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459764)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

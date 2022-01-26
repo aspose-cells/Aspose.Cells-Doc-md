@@ -75,7 +75,6 @@ The project source is available at [Github](https://github.com/aspose-cells/Aspo
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
 - [Google Code](https://code.google.com/archive/p/html5-spreadsheet-editor/)
-- [Codeplex](http://html5spreadsheeteditor.codeplex.com/)
 - [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
 Use one of the following commands to download the source code via command line:
@@ -101,14 +100,6 @@ Use one of the following commands to download the source code via command line:
 {{< highlight bash >}}
 
  git clone https://code.google.com/p/html5-spreadsheet-editor/
-
-{{< /highlight >}}
-
-**Codeplex**
-
-{{< highlight bash >}}
-
- git clone https://git01.codeplex.com/html5spreadsheeteditor
 
 {{< /highlight >}}
 
@@ -186,8 +177,6 @@ HTML5 Spreadsheet Editor is an open source project which allows maximum options 
 The project source is available at [Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). We are also maintaining Git mirrors at the following sites:
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [Google Code](https://code.google.com/p/html5-spreadsheet-editor/)
-- [Codeplex](http://html5spreadsheeteditor.codeplex.com/)
 - [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
 **Pull Requests**

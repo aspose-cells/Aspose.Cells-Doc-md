@@ -3,6 +3,7 @@ title: Feature Overview
 type: docs
 weight: 10
 url: /net/feature-overview/
+aliases: [/net/save-in-the-ods-opendocument-spreadsheet-format/,/net/what-document-features-are-supported/]
 ---
 
 {{% alert color="primary" %}} 

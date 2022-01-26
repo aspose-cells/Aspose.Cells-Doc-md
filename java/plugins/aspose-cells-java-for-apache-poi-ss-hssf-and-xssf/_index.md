@@ -42,9 +42,6 @@ Following are the supported platforms:
 - Java IDE (Eclipse, NetBeans, IntelliJ, ...).
 ## **Downloading**
 You can directly include the source code of Aspose.Cells Java for Apache POI SS in your own project, Following releases of running examples are available to download on all of the below mentioned social coding sites:
-### **CodePlex**
-- [Aspose.Cells Java for Apache POI SS - v 1.0](https://asposecellsjavaapachepoi.codeplex.com/releases/view/618615)
------
 ### **GitHub**
 - [Aspose.Cells Java for Apache POI SS - v 1.0](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
@@ -93,14 +90,12 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells Java for Apache POI SS - HSSF and XSSF using any of the following platforms:
 
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ### **Extend and Contribute**
 Aspose.Cells Java for Apache POI (HSSF+XSSF) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 ### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/SourceControl/latest)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 ### **How to configure the source code**
 Please follow these simple steps in order to open and extend the source code while using:

@@ -118,7 +118,6 @@ for (int index = 0; index <= sheet1.LastRowNum; index++)
 ## **Download Running Code**
 Download **Getting Cell Contents** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1479037)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 

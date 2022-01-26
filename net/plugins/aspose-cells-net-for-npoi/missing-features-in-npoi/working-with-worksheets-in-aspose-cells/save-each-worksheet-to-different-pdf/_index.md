@@ -58,7 +58,6 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 ## **Download Running Code**
 Download **Save Each Worksheet to Different PDF** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1482193)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
