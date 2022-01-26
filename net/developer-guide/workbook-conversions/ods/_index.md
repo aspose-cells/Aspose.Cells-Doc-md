@@ -1,6 +1,6 @@
 ---
-title: Ods (OpenOffice / LibreOffice calc)
-linktitle: Convert Excel workbook to Ods,Sxc and Fods (OpenOffice / LibreOffice calc).
+title: Convert Excel workbook to Ods,Sxc and Fods (OpenOffice / LibreOffice calc).
+linktitle: Ods
 type: docs
 weight: 20
 url: /net/convert-excel-to-ods/
