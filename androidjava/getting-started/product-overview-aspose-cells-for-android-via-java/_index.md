@@ -7,9 +7,7 @@ url: /java/product-overview-aspose-cells-for-android-via-java/
 
 {{% alert color="primary" %}} 
 
-[](50528297.png)
-
-[!\[todo:image_alt_text\](/attachments/thumbnails/41550543/50528297)](50528297.png)
+![cells-logo](50528297.png)
 
 Welcome to the Aspose.Cells for Android via Java documentation!
 
