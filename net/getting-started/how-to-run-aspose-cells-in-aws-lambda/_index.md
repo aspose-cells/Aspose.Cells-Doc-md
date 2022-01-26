@@ -31,5 +31,5 @@ url: /net/how-to-run-aspose-cells-in-aws-lambda/
 1. Make sure the test project runs well on your local machine, then deploy it to AWS Elastic Beanstalk:
    Right click the project name, choose "Publish to AWS Elastic Beanstalk". (This option will only exists after you install AWS Toolkit for Visual Studio). 
 1. You will need to add a new user with your AWS account and IAM user, you can import "credentials.csv" file which you get in the previous step. 
-1. Publish success, you will get a link address like: "http://testprojectaspose-test.us-west-2.elasticbeanstalk.com/"
+1. Publish success, you will get a link address like: ht<span>tp://testprojectaspose-test.us-west-2.elasticbeanstalk.com/
    Wait 10 minutes for the link to take effect, then you can visit it!
