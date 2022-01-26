@@ -248,7 +248,6 @@ workbook.Save(MyDir+"Import From Data Table.xls");
 
 ## **Download Sample Code**
 
-- [Codeplex](https://archive.codeplex.com/?p=asposeopenxml)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
 
 ## **Export data from document**
@@ -334,6 +333,5 @@ fstream.Close();
 
 ## **Download Sample Code**
 
-- [Codeplex](https://archive.codeplex.com/?p=asposecellsopenxml)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

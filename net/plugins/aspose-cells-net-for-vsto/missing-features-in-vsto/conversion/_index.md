@@ -39,5 +39,4 @@ workbook.Save("Converted.xlsx", SaveFormat.Xlsx);
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposevsto.codeplex.com/downloads/get/813302)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Conversion%20between%20Excel%20Formats%20%28Aspose.Cells%29.zip)

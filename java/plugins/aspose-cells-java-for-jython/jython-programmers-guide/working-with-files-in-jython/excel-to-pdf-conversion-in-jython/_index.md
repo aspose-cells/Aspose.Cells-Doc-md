@@ -50,5 +50,4 @@ if __name__ == '__main__':
 ## **Download Running Code**
 Download **Append Documents (Aspose.Cells)** from any of the below mentioned social coding sites:
 
-- [CodePlex](http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/Excel2PdfConversion.py)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/Excel2PdfConversion.py)

@@ -17,9 +17,6 @@ Following releases of running examples are available to download on below mentio
 ### **GitHub**
 - **Aspose.Cells Java for Python Examples** 
   - [Aspose.Cells Java for Python](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
-### **CodePlex**
-- **Aspose.Cells Java for Python Examples** 
-  - [Aspose.Cells Java for Python](https://asposecellsjavapython.codeplex.com/releases/view/620185)
 ## **How to configure the source code**
 Please follow these simple steps in order to open and extend the source code while using:
 

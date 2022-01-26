@@ -95,7 +95,6 @@ sw.Close();
 ## **Download Running Code**
 Download **Working With Fonts** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1508250)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 

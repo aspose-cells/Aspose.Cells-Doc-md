@@ -31,4 +31,3 @@ print "Document has been saved, please check the output file.";
 Download **Hello World (Aspose.Cells)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
-- [CodePlex](https://asposecellsjavapython.codeplex.com/releases/view/620185)

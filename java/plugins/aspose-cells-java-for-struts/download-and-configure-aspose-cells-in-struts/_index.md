@@ -5,14 +5,6 @@ weight: 10
 url: /java/download-and-configure-aspose-cells-in-struts/
 ---
 
-## **Downloading Aspose.Cells Java for Struts 1.3**
-You can downloaded the pre-built (binary) .war file from the latest releases hosted on [codeplex](http://aspose-cellsforstruts.codeplex.com/releases).
-
--OR-
-
-You can download / check out the project source codes from the following locations:
-
-- [CodePlex](https://asposecellsforstruts.codeplex.com)
 - 
 ## **Building Aspose.Cells Java for Struts 1.3 from Source Codes**
 After checking out source codes from any of the above repository, apply the following mvn commands:

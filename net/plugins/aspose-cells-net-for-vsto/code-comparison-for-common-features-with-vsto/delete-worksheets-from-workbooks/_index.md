@@ -25,5 +25,4 @@ You can delete any worksheet in a workbook. To delete a worksheet, use the works
 
 {{< /highlight >}}
 ## **Download**
-- [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459766)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)

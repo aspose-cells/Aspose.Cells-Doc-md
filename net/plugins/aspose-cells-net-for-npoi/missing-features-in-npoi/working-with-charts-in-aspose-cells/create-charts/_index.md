@@ -72,7 +72,6 @@ workbook.Save("Chart_Aspose.xls");
 ## **Download Running Code**
 Download **Create Charts** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1482209)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 

@@ -81,4 +81,3 @@ print "Set scaling, please check the output file."
 Download **Setting Page Options (Aspose.Cells)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
-- [CodePlex](https://asposecellsjavapython.codeplex.com/releases/view/620185)

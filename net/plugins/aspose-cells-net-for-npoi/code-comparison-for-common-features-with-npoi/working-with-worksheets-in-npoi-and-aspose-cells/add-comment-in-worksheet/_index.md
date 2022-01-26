@@ -98,7 +98,6 @@ file.Close();
 ## **Download Running Code**
 Download **Add Image in Worksheet** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposecellsnpoi.codeplex.com/downloads/get/1565288)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 

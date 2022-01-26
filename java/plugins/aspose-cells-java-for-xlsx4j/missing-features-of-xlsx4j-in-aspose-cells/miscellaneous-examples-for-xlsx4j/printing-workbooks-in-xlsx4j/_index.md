@@ -52,10 +52,8 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 ## **Download Running Code**
-- [CodePlex](http://asposecellsjavaxlsx4j.codeplex.com/releases/view/618923)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Download Sample Code**
-- [CodePlex](https://archive.codeplex.com/?p=asposecellsjavaxlsx4j)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 

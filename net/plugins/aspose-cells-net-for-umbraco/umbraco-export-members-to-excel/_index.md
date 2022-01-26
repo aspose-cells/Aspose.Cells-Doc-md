@@ -44,7 +44,6 @@ The module is supported on all versions of
 
 You can download Export Members to Excel Add-on from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/releases/view/616298)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Umbraco_Member_Export_To_Excel_1.0)
 
 ## **Installing**
@@ -89,7 +88,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 ### **Extend and Contribute**
@@ -100,7 +98,6 @@ Export Members to Excel is an open source Add-on and its source code is availabl
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
 
 #### **How to configure the source code**

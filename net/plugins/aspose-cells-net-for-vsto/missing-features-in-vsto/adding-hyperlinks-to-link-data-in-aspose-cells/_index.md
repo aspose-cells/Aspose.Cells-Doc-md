@@ -132,8 +132,6 @@ workbook.Save("C:\\book2.xls");
 
 ## **Download Running Code**
 
-- [CodePlex](https://archive.codeplex.com/?p=asposecellsnet)
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto#Aspose)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 
 ## **Download Sample Code**

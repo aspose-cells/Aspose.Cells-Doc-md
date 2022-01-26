@@ -133,6 +133,5 @@ pageSetup.Order = PrintOrderType.OverThenDown;
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Print%20Spreadsheet%20with%20Options%20%28Aspose.Cells%29.zip)

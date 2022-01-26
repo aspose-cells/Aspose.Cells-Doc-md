@@ -312,7 +312,6 @@ private static void MergeTwoCells(string docName, string sheetName, string cell1
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [CodePlex](https://asposeopenxml.codeplex.com/releases/view/616479)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 - [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip)

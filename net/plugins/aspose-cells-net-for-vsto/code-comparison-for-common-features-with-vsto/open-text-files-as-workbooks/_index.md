@@ -39,5 +39,4 @@ Below are comparison code example for opening textfile as Workbooks:
 
 {{< /highlight >}}
 ##**Download**
-- [CodePlex](https://asposevsto.codeplex.com/downloads/get/1459767)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

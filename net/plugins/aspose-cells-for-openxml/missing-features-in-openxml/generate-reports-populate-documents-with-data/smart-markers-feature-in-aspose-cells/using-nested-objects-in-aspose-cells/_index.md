@@ -58,6 +58,5 @@ designer.Process(false);
 designer.Workbook.Save("out_SM_NestedObjects.xlsx");
 
 {{< /highlight >}}
-## **Download Sample Code**
-- [Codeplex](https://asposeopenxml.codeplex.com/downloads/get/809005)
+## **Download Sample Code
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

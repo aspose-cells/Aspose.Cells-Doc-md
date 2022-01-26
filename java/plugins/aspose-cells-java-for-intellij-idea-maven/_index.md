@@ -107,7 +107,6 @@ Please check [the video](https://www.youtube.com/watch?v=8sHoB5Isq-A) below to s
 
 **Please use any of the following project's issues tracker:**
 
-- [CodePlex](https://archive.codeplex.com/?p=asposecellsforintellij)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 
 ### **Extend and Contribute**
@@ -118,5 +117,4 @@ Please check [the video](https://www.youtube.com/watch?v=8sHoB5Isq-A) below to s
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://archive.codeplex.com/?p=asposecellsforintellij)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven))

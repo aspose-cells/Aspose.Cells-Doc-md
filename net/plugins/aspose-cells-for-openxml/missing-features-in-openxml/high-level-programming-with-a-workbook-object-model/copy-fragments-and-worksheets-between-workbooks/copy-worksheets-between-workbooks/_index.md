@@ -147,6 +147,5 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposecellsopenxml.codeplex.com/releases/view/619160)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

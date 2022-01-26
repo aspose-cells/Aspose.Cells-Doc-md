@@ -37,8 +37,7 @@ Following are the supported platforms:
 - Java IDE (Eclipse, NetBeans, IntelliJ, ...).
 ## **Downloading**
 Following releases of running examples are available to download on all of the below mentioned social coding sites:
-### **CodePlex**
-- [Aspose.Cells Java for Xlsx4j - v 1.0](http://asposecellsjavaxlsx4j.codeplex.com/releases/view/618923)
+
 ### **GitHub**
 - [Aspose.Cells Java for Xlsx4j - v 1.0](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 
@@ -89,14 +88,12 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells Java for xlsx4j using any of the following platforms:
 
-- [CodePlex](https://asposecellsjavaxlsx4j.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ### **Extend and Contribute**
 Aspose.Cells Java for xlsx4j is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 ### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://archive.codeplex.com/?p=asposecellsjavaxlsx4j)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j)
 ## **Sample Code Examples**
 This section includes the following topics

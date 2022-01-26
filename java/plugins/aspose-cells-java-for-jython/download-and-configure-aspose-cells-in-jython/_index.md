@@ -11,7 +11,6 @@ url: /java/download-and-configure-aspose-cells-in-jython/
 
 Following releases of running examples are available to download on all of the below mentioned social coding sites:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposecellsjavajython)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
 
 **Download Aspose.Cells for Java component**

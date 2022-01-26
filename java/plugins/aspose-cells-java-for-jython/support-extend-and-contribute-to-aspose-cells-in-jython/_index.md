@@ -12,12 +12,10 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells Java for Jython using any of the following platforms:
 
-- [CodePlex](http://asposecellsjavajython.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ### **Extend and Contribute**
 Aspose.Cells Java for Jython is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 ### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex](http://asposecellsjavajython.codeplex.com/releases/view/619599)
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
