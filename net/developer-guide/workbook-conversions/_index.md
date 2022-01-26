@@ -46,6 +46,12 @@ From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
 
+## **Convert Excel to Ods,Sxc and Fods (OpenOffice / LibreOffice Calc)**
+Aspose.Cells supports converting Excel files to Ods,Sxc and Fods files . The code example below shows how to convert the [tempalte](book1.xls) to Ods,Sxc and Fods file.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
+
+
 ## **Converting Excel Workbook to MHTML Files**
 
 MHTML combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio, and so on) into one file. They are used for emails with the .mht file extension.
@@ -132,3 +138,4 @@ The following code example demonstrates exporting active worksheet to PPTX by us
 - [Convert Excel To Image](/cells/net/convert-to-images/)
 - [Convert Excel To Json](/cells/net/convert-workbook-to-json/)
 - [Convert Excel To Pdf](/cells/net/convert-excel-workbook-to-pdf/)
+- [Convert Excel To ODS](/cells/net/convert-excel-to-ods/)

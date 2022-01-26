@@ -3,7 +3,6 @@ title: Working with Background in ODS Files
 type: docs
 weight: 150
 url: /net/working-with-background-in-ods-files/
-aliases: [/net/convert-ods-to-excel/,/net/convert-excel-to-ods/]
 ---
 
 ## **Background in ODS Files**
