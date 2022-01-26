@@ -11,8 +11,8 @@ url: /net/how-to-run-aspose-cells-in-aws-lambda/
 1. Register an AWS account: 
 [Register AWS account](https://aws.amazon.com/)
 1. Login in your AWS account, add an IAM user under your account. You can refer to AWS official document:
-[AWS Developer Guide](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/quick-start-s3-1-winvs.html/)
-1. In this official document, after you add your IAM user, it will guide you to add permission “AmazonS3FullAccess”, please use the same way, add EC2 and Elastic Beanstalk, full access for each.
+[Add IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html)
+1. Add permission “AmazonS3FullAccess”, please use the same way, add EC2 and Elastic Beanstalk, full access for each.
 1. At the last step, make sure you get IAM user name, Key, Key ID, and “credentials.csv” file, you need to save them well.
    Now make sure your IAM user have S3, EC2, Elastic Beanstalk, full access. see:
    
