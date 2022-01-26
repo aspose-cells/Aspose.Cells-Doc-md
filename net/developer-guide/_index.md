@@ -64,7 +64,7 @@ This Developer Guide provides information on using Aspose.Cells in a variety of 
         <ul>
 		 <li><a href="/cells/net/accessing-cells-of-a-worksheet/">Accessing Cells of a Worksheet</a></li>
 		 <li><a href="/cells/net/add-and-retrieve-data/">Add and Retrieve Data</a></li>
-		 <li><a href="cells/net/manage-worksheets/">Worksheets</a></li>
+		 <li><a href="/cells/net/manage-worksheets/">Worksheets</a></li>
 		 <li><a href="/cells/net/rows-and-columns/">Rows and Columns</a></li>
         </ul>
         <p><a href="/cells/net/cells-formatting/">Style</a></p>
