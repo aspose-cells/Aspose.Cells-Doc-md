@@ -1,5 +1,7 @@
 ---
 title: Save ODS File in ODF 1.1 and 1.2 Specifications
+linktitle:  Save as ODF 1.1 and 1.2 
+description: Convert Excel to ODF 1.1 and 1.2 Specifications with Aspose.Cells.
 type: docs
 weight: 230
 url: /net/save-ods-file-in-odf-1-1-and-1-2-specifications/
