@@ -6,7 +6,7 @@ url: /net/aspose-cells-gridjs/client/
 ---
 
 # Working with GridJs Client Side
-We developed GridJs client based on [x-spreadsheet](https://github.com/myliang/x-spreadsheet "x-spreadsheet").
+We developed GridJs client based on [x-spreadsheet](https://github.com/myliang/x-spreadsheet).
 
 ##  the main steps are:
 
