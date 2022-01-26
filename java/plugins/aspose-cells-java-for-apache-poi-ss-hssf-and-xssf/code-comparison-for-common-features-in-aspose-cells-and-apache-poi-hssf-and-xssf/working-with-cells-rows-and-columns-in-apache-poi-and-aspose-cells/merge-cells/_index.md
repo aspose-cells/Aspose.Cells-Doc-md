@@ -76,6 +76,6 @@ sheet.addMergedRegion(new CellRangeAddress(
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Merging and Unmerging (Splitting) Cells](http://docs.aspose.com:8082/docs/display/cellsjava/Merging+and+Unmerging+%28Splitting%29+Cells).
+For more details, visit [Merging and Unmerging (Splitting) Cells](/java/merging-and-unmerging-%28splitting%29-cells).
 
 {{% /alert %}}

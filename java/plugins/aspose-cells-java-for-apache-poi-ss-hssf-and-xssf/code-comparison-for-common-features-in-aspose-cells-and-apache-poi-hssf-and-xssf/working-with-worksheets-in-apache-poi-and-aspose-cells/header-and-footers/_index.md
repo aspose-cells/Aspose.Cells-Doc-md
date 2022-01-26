@@ -90,6 +90,6 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Setting Headers and Footers](http://docs.aspose.com:8082/docs/display/cellsjava/Setting+Headers+and+Footers).
+For more details, visit [Setting Headers and Footers](/java/setting-headers-and-footers).
 
 {{% /alert %}}

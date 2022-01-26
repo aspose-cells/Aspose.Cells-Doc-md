@@ -68,6 +68,6 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Save Each Worksheet to a Different PDF File](http://docs.aspose.com:8082/docs/display/cellsjava/Save+Each+Worksheet+to+a+Different+PDF+File).
+For more details, visit [Save Each Worksheet to a Different PDF File](/java/save-each-worksheet-to-a-different-pdf-file).
 
 {{% /alert %}}

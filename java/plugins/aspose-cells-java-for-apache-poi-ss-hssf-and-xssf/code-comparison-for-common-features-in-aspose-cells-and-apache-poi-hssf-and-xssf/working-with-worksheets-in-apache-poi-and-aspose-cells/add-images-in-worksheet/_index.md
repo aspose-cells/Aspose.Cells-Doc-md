@@ -97,6 +97,6 @@ pict.resize();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Add Image Hyperlinks](http://docs.aspose.com:8082/docs/display/cellsjava/Add+Image+Hyperlinks).
+For more details, visit [Add Image Hyperlinks](/java/add-image-hyperlinks).
 
 {{% /alert %}}

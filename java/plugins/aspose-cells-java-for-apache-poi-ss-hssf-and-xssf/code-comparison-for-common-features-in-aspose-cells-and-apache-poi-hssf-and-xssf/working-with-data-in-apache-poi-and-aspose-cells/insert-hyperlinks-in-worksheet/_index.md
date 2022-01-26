@@ -168,6 +168,6 @@ cell.setCellStyle(hlink_style);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adding Hyperlinks to Link Data](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Hyperlinks+to+Link+Data).
+For more details, visit [Adding Hyperlinks to Link Data](/java/adding-hyperlinks-to-link-data).
 
 {{% /alert %}}

@@ -117,6 +117,6 @@ for (int i = 0; i< dependents.length; i++)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Tracing Precedents and Dependents](http://docs.aspose.com:8082/docs/display/cellsjava/Tracing+Precedents+and+Dependents).
+For more details, visit [Tracing Precedents and Dependents](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}

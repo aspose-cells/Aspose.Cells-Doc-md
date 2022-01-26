@@ -138,6 +138,6 @@ for (Row row : sheet1) {
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Data Handling Features](http://docs.aspose.com:8082/docs/display/cellsjava/Data+Handling+Features).
+For more details, visit [Data Handling Features](/java/data-handling-features).
 
 {{% /alert %}}

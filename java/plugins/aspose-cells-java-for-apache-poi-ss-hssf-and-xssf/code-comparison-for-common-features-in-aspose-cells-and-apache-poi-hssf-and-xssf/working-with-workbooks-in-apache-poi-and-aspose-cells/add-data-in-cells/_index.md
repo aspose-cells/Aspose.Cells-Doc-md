@@ -96,6 +96,6 @@ fileOut.close();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adding Data to Cells](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Data+to+Cells).
+For more details, visit [Adding Data to Cells](/java/adding-data-to-cells).
 
 {{% /alert %}}

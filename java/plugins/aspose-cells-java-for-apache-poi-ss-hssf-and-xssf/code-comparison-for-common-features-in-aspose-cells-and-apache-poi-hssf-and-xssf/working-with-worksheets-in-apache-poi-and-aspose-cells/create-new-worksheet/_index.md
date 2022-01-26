@@ -87,6 +87,6 @@ fileOut.close();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Managing Worksheets](http://docs.aspose.com:8082/docs/display/cellsjava/Managing+Worksheets).
+For more details, visit [Managing Worksheets](/java/managing-worksheets).
 
 {{% /alert %}}

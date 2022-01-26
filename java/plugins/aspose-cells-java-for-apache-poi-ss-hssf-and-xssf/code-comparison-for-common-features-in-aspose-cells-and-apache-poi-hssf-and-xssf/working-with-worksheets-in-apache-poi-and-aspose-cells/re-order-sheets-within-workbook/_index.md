@@ -74,6 +74,6 @@ fileOut.close();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Copying and Moving Worksheets](http://docs.aspose.com:8082/docs/display/cellsjava/Copying+and+Moving+Worksheets).
+For more details, visit [Copying and Moving Worksheets](/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

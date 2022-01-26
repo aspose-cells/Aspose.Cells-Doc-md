@@ -61,6 +61,6 @@ cell.setCellStyle(cs);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Line Breaks and Text Wrapping](http://docs.aspose.com:8082/docs/display/cellsjava/Line+Breaks+and+Text+Wrapping).
+For more details, visit [Line Breaks and Text Wrapping](/java/line-breaks-and-text-wrapping).
 
 {{% /alert %}}

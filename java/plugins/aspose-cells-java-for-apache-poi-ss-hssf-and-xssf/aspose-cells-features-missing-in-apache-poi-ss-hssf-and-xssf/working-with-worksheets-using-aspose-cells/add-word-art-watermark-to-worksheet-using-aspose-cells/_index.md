@@ -52,6 +52,6 @@ workbook.save(dataDir + "AsposeWatermark_Out.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Add WordArt Watermark to Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Add+WordArt+Watermark+to+Worksheet).
+For more details, visit [Add WordArt Watermark to Worksheet](/java/add-wordart-watermark-to-worksheet).
 
 {{% /alert %}}

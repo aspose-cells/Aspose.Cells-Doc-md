@@ -8,7 +8,7 @@ url: /java/set-print-area/
 ## **Aspose.Cells - Set Print Area**
 By default, only the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
 
-To select a specific print area, use the [PageSetup](http://docs.aspose.com:8082/docs/display/cellsjava/PageSetup) class' setPrintArea method. Assign a cell range that defines the print area to this property.
+To select a specific print area, use the [PageSetup](/java/pagesetup) class' setPrintArea method. Assign a cell range that defines the print area to this property.
 
 **Java**
 
@@ -73,6 +73,6 @@ wb.setPrintArea(
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Setting Print Options](http://docs.aspose.com:8082/docs/display/cellsjava/Setting+Print+Options).
+For more details, visit [Setting Print Options](/java/setting-print-options).
 
 {{% /alert %}}
