@@ -40,3 +40,9 @@ SVG stands for Scalable Vector Graphics. SVG is a specification based on XML sta
 Aspose.Cells for .NET has been able to convert worksheets to SVG image since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheetToSVG-1.cs" >}}
+
+## **Advance topics**
+- [Convert an Excel Chart to Image](/cells/net/convert-an-excel-chart-to-image/)
+- [Converting Chart to Image in SVG Format](/cells/net/converting-chart-to-image-in-svg-format/)
+- [Export Chart to SVG with viewBox attribute](/cells/net/export-chart-to-svg-with-viewbox-attribute/)
+- [Track Conversion Progress of Excel to TIFF](/cells/net/track-conversion-progress-of-excel-to-tiff/)

@@ -120,3 +120,28 @@ The table that follows lists all features that are fully or partially supported 
 If your spreadsheet contains formulas, it is best to call **[Workbook.CalculateFormula()](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)** just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
+
+## **Advance topics**
+- [Add PDF Bookmarks](/cells/net/add-pdf-bookmarks/)
+- [Add PDF Bookmarks with Named Destinations](/cells/net/add-pdf-bookmarks-with-named-destinations/)
+- [Avoid Blank Page in Output PDF when there is Nothing to Print](/cells/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
+- [Change the Font on just the specific Unicode characters while saving to PDF](/cells/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
+- [Control loading of External Resources in MS Excel Workbook while rendering to PDF](/cells/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Convert an XLS File to PDF Format](/cells/net/convert-an-xls-file-to-pdf-format/)
+- [Convert Excel file to PDF format compatible with PDFA-1a](/cells/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Convert XLS File with Images or Charts to PDF](/cells/net/convert-xls-file-with-images-or-charts-to-pdf/)
+- [Create PdfBookmarkEntry for Chart Sheet](/cells/net/create-pdfbookmarkentry-for-chart-sheet/)
+- [Fit All Worksheet Columns on Single PDF Page](/cells/net/fit-all-worksheet-columns-on-single-pdf-page/)
+- [Get DrawObject and Bound while rendering to PDF using DrawObjectEventHandler class](/cells/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
+- [Get Warnings for Font Substitution while Rendering Excel File](/cells/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [Ignore Errors while Rendering Excel to PDF](/cells/net/ignore-errors-while-rendering-excel-to-pdf/)
+- [Limit the Number of Pages Generated - Excel to PDF Conversion](/cells/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
+- [Print Comments while saving to PDF](/cells/net/print-comments-while-saving-to-pdf/)
+- [Render Office Add-Ins while converting Excel to PDF](/cells/net/render-office-add-ins-while-converting-excel-to-pdf/)
+- [Render One PDF Page Per Excel Worksheet - Excel to PDF Conversion](/cells/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
+- [Render Unicode Supplementary characters in output PDF by Aspose.Cells](/cells/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
+- [Resampling Added Images - Excel to PDF Conversion](/cells/net/resampling-added-images-excel-to-pdf-conversion/)
+- [Save Each Worksheet to a Different PDF File](/cells/net/save-each-worksheet-to-a-different-pdf-file/)
+- [Save Excel into PDF with Standard or Minimum Size](/cells/net/save-excel-into-pdf-with-standard-or-minimum-size/)
+- [Secure PDF Documents](/cells/net/secure-pdf-documents/)
+- [Specify how to cross string in output PDF and image](/cells/net/specify-how-to-cross-string-in-output-pdf-and-image/)

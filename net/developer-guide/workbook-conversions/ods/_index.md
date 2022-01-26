@@ -20,3 +20,6 @@ Aspose.Cells supports loading Ods,Sxc and Fods which are supported by OpenOffice
 Aspose.Cells supports converting Excel files to Ods,Sxc and Fods files . The code example below shows how to convert the [tempalte](book1.xls) to Ods,Sxc and Fods file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
+
+## **Advance topics**
+- [Save ODS File in ODF 1.1 and 1.2 Specifications](/cells/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
