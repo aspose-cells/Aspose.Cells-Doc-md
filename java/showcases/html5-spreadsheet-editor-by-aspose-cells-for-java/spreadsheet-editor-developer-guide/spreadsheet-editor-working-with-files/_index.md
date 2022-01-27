@@ -45,7 +45,7 @@ To upload a file from local computer:
 
 The file will be opened in the editor.
 
-![todo:image_alt_text](https://i.imgur.com/BwYl3XI.png)
+![todo:image_alt_text](bwyl3xi.png)
 
 **How it works?**
 
@@ -275,7 +275,7 @@ To open files from Dropbox:
 
 Your selected file will be opened from Dropbox.
 
-![todo:image_alt_text](https://i.imgur.com/1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
 **How it works?**
 
@@ -289,7 +289,7 @@ Files can be directly opened from URLs. This allows user to edit any publicly av
 
 {{< /highlight >}}
 
-![todo:image_alt_text](https://i.imgur.com/ExC9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
 **How it works?**
 
@@ -508,7 +508,7 @@ To create a new empty spreadsheet:
 
 The editor will close the opened spreadsheet, if any, and will open a new one.
 
-![todo:image_alt_text](https://i.imgur.com/LnydmMf.png)
+![todo:image_alt_text](lnydmmf.png)
 
 **How it works?**
 
