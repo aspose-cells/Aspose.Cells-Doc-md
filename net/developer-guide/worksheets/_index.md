@@ -92,7 +92,6 @@ The following example shows how to activate a worksheet and make an active cell 
 - [Security Features](/cells/net/security-features/)
 - [Update Days Preserving History of Revision Logs in Shared Workbook](/cells/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/)
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [Working with Background in ODS Files](/cells/net/working-with-background-in-ods-files/)
 - [Worksheet Views](/cells/net/worksheet-views/)
 
 
