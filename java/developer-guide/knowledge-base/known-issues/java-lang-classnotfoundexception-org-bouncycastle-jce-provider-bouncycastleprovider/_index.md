@@ -5,11 +5,11 @@ weight: 30
 url: /java/java-lang-classnotfoundexception-org-bouncycastle-jce-provider-bouncycastleprovider/
 ---
 
-### **Summary**
+## **Summary**
 Aspose.Cells for Java API depends on Bouncy Castle for encryption and decryption features, that is; if the program is required to load or save encrypted spreadsheets, it is required to add reference of bcprov-jdk16-146.jar in the project's class path.
-### **Symptoms**
+## **Symptoms**
 You may get the java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider. 
-### **Solution**
+## **Solution**
 The solution is actually very simple as detailed below.
 
 1. Download any major release of [Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
