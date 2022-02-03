@@ -8,7 +8,7 @@ url: /java/product-overview/
 {{% alert color="primary" %}} 
 
 ![todo:image_alt_text](product-overview_1.png)
-### **Welcome to the Aspose.Cells documentation!**
+## **Welcome to the Aspose.Cells documentation!**
 **Aspose.Cells** is the most flexible component that enables Java Applications to create and manage Excel spreadsheets without requiring **Microsoft Excel** to be installed on the system. Unlike similar products from other vendors, Aspose.Cells not only supports spreadsheet generation and other basic file formatting features, but also supports a number of advanced features. These advanced features make it much more convenient for the developers to manipulate spreadsheet contents, cells formatting and files protection. Aspose.Cells also allows to import data into spreadsheets from different data sources, add common and complex Mathematical, DateTime, Financial, Text Formulas / Functions, supports manipulation of charts, pictures, comments, drawing objects and controls etc.
 
 Aspose.Cells for Java also provides a complete Grid solution for web clients; it has a GUI based control as follows:
