@@ -3,11 +3,18 @@ title: Inserting and Deleting Rows and Columns in Python
 type: docs
 weight: 60
 url: /java/inserting-and-deleting-rows-and-columns-in-python/
+keywords: "create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel python"
+description:Use Python Excel API to create Excel spreadsheets in Python. Insert or delete rows from XLSX or XLS in your Python applications without MS Office.
 ---
 
-## **Aspose.Cells - Managing Rows/Columns**
+## **Create Excel Spreadsheets in Python - Managing Rows/Columns**
 ### **Inserting a Row**
-Insert a row into at any location by calling the insertRows method of the Cells collection. The insertRows method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.
+Insert a row at any location by calling the insertRows method of the Cells collection. The insertRows method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument. Following are the steps:
+
+- Load XLS or XLSX workbook
+- Access the worksheet
+- Insert the row
+- Save as XLS or XLSX workbook
 
 **Python Code**
 
