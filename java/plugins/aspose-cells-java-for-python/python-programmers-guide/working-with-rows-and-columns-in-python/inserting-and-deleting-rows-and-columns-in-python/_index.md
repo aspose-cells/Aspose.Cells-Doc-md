@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /java/inserting-and-deleting-rows-and-columns-in-python/
 keywords: "create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel python"
-description:Use Python Excel API to create Excel spreadsheets in Python. Insert or delete rows from XLSX or XLS in your Python applications without MS Office.
+description: Use Python Excel API to create Excel spreadsheets in Python. Insert or delete rows from XLSX or XLS in your Python applications without MS Office.
 ---
 
 ## **Create Excel Spreadsheets in Python - Managing Rows/Columns**
