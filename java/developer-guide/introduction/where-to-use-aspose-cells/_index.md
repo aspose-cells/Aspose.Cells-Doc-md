@@ -14,16 +14,16 @@ Aspose.Cells provides most of the features available in Microsoft Excel but the 
 This article discusses common scenarios of using Aspose.Cells.
 
 {{% /alert %}} 
-### **Possible Usage Scenarios**
+## **Possible Usage Scenarios**
 It's up to developers how they use Aspose.Cells but there are few common scenarios in which Aspose.Cells can help. The most common use of Aspose.Cells is deploying it on the Web Server or in Web Services for server side processing. Some of the possible usage scenarios of Aspose.Cells are described below.
-#### **Automated Spreadsheet Management**
+## **Automated Spreadsheet Management**
 1. Users upload manually created spreadsheets to a server.
 1. Aspose.Cells is used to open files and retrieve data.
    After the data is retrieved:
    1. The data is saved to a database.
    1. Certain data are presented in web pages.
    1. Some aspects of the spreadsheets are modified and saved back to Microsoft Excel files.
-#### **Web Application**
+## **Web Application**
 1. Users input data in web pages.
 1. Data is collected by the web server.
 1. Aspose.Cells is used to populate data in brand new files or pre-defined template files.
