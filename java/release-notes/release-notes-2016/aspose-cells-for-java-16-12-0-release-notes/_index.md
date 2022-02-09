@@ -42,35 +42,35 @@ url: /java/aspose-cells-for-java-16-12-0-release-notes/
 |CELLSJAVA-42066 |CellsException at Workbook.save while converting an XLS to PDF |Exception  |
 |CELLSJAVA-42101 |Invalid Formula exception on opening the Excel file |Exception  |
 |CELLSJAVA-42080 |Exception on saving the workbook |Exception  |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds BuiltInDocumentPropertyCollection.ScaleCrop and BuiltInDocumentPropertyCollection.LinksUpToDate properties**
+### **Adds BuiltInDocumentPropertyCollection.ScaleCrop and BuiltInDocumentPropertyCollection.LinksUpToDate properties**
 Gets and sets some builtin document properties.
-#### **Deletes obsoleted DataLabels.Rotation property**
+### **Deletes obsoleted DataLabels.Rotation property**
 Use DataLabels.RotationAngle property instead.
-#### **Deletes obsoleted Title.Rotation property**
+### **Deletes obsoleted Title.Rotation property**
 Use Title.RotationAngle property instead.
-#### **Deletes obsoleted DataLabels.Background property**
+### **Deletes obsoleted DataLabels.Background property**
 Use DataLabels.BackgroundMode property instead.
-#### **Deletes obsoleted DisplayUnitLabel.Rotation property**
+### **Deletes obsoleted DisplayUnitLabel.Rotation property**
 Use DisplayUnitLabel.RotationAngle property instead.
-#### **Deletes obsoleted Title.getCharacters() method**
+### **Deletes obsoleted Title.getCharacters() method**
 Use Title.characters() method instead.
-#### **Adds LoadFilter class and LoadOptions.LoadFilter property**
+### **Adds LoadFilter class and LoadOptions.LoadFilter property**
 Allows user to control what data should be loaded while loading a Workbook from template file.
-#### **Obsoletes LoadOptions.LoadDataFilterOptions property**
+### **Obsoletes LoadOptions.LoadDataFilterOptions property**
 Use LoadOptions.LoadFilter property instead. Example: LoadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.All & ~LoadDataFilterOptions.Chart);
-#### **Obsoletes LoadOptions.OnlyLoadDocumentProperties property**
+### **Obsoletes LoadOptions.OnlyLoadDocumentProperties property**
 Use LoadOptions.LoadFilter property instead. Usage: LoadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.DocumentProperties);
-#### **Obsoletes LoadOptions.LoadDataAndFormatting property**
+### **Obsoletes LoadOptions.LoadDataAndFormatting property**
 Use LoadOptions.LoadFilter property instead. Usage: LoadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.CellData);
-#### **Obsoletes LoadOptions.LoadDataOptions property**
+### **Obsoletes LoadOptions.LoadDataOptions property**
 Use LoadFilter property instead, user may extend LoadFilter to filter the worksheet and data.
-#### **Adds Workbook.ExportXml(string mapName, string path) method**
+### **Adds Workbook.ExportXml(string mapName, string path) method**
 Export XML data.
-#### **Adds enum FileFormatType.OTS**
+### **Adds enum FileFormatType.OTS**
 Represents the OTS file format.
-#### **Adds WorksheetCollection.CreateRange() method**
+### **Adds WorksheetCollection.CreateRange() method**
 Creates a range.
-#### **Adds FontConfigs.PreferSystemFontSubstitutes property**
+### **Adds FontConfigs.PreferSystemFontSubstitutes property**
 Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set.

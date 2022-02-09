@@ -3,11 +3,13 @@ title: Adjusting Row Height and Column Width in Python
 type: docs
 weight: 10
 url: /java/adjusting-row-height-and-column-width-in-python/
+keywords: "create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel python"
+description: Use Python Excel API to create Excel files in Python. Adjust row height and column width in XLSX or XLS in your Python applications without MS Office.
 ---
 
-## **Aspose.Cells - Adjusting Row Height and Column Width**
+## **Excel Spreadsheets in Python - Adjusting Row Height and Column Width**
 ### **Setting the Row Height**
-It is possible to set the height of a single row by calling the Cells collection's setRowHeight method. The setRowHeight method takes the folloing parameters:
+With Aspose.Cells, it is possible to set the height of a single row in Python by calling the Cells collection's setRowHeight method. The setRowHeight method takes the folloing parameters:
 
 - **Row index**, the index of the row that you're changing the height of.
 - **Row height**, the row height to apply on the row.

@@ -5,7 +5,7 @@ weight: 30
 url: /java/aspose-cells-for-java-16-10-0-release-notes/
 ---
 
-### **1) Aspose.Cells**
+## **1) Aspose.Cells**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
