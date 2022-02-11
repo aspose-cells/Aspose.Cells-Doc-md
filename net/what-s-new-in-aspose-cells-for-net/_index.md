@@ -8,6 +8,10 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.2
+
+* Support to extract defined names from NameCollection by speicified scope filter.
+
 ## Aspose.Cells for .NET 22.1
 
 * Support to generate editable pptx
