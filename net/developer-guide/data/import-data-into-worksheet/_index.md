@@ -129,3 +129,6 @@ Aspose.Cells provides a [**JsonUtility**](https://apireference.aspose.com/cells
 The sample code given below demonstrates the use of the [**JsonUtility**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonutility) and [**JsonLayoutOptions**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) classes to import JSON data.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
+
+## **Advance topics**
+- [Specify Formula Fields while Importing Data to Worksheet](/cells/net/specify-formula-fields-while-importing-data-to-worksheet/)
