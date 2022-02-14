@@ -42,3 +42,6 @@ If all values in the columns of a worksheet are not strongly typed (that means t
 Data from a range can be exported to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) where a flag is available to skip header row in the exported data. Following code exports a range of data to [**DataTable**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8) with an argument [**ExportTableOptions**](https://apireference.aspose.com/cells/net/aspose.cells/exporttableoptions) which contains [**ExportColumnName**](https://apireference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/exportcolumnname) flag. It is set to **true** if header information is there, hence it will not be included in data and set to **false** if no header is there and all rows are to be considered as data.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportRangeWithFlagToSkipColumnHeader-1.cs" >}}
+
+## **Advance topics**
+- [Export HTML String Value of the Cells to the DataTable](/cells/net/export-html-string-value-of-the-cells-to-the-datatable/)

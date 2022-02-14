@@ -151,3 +151,7 @@ Excel provides custom filters like filter rows which ends with some specific str
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}
+
+## **Advance topics**
+- [Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria](/cells/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Get All Hidden Rows Indices after Refreshing AutoFilter](/cells/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
