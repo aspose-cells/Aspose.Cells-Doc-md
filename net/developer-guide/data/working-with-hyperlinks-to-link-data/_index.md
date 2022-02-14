@@ -1,5 +1,6 @@
 ---
 title: Working with Hyperlinks to Link Data
+linktitle: Inserting Hyperlinks
 type: docs
 weight: 240
 url: /net/working-with-hyperlinks-to-link-data/
