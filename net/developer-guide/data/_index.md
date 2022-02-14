@@ -74,7 +74,6 @@ While working on worksheets, users may add different types of data in the cells.
 - [Find or Search Data](/cells/net/find-or-search-data/)
 - [Get Address Cell Count Offset Entire Column and Entire Row of the Range](/cells/net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
 - [Import Data into Worksheet](/cells/net/import-data-into-worksheet/)
-- [Merging and Unmerging Cells](/cells/net/merging-and-unmerging-cells/)
 - [Preserve Single Quote Prefix of Cell Value or Range](/cells/net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Rename duplicate columns automatically while exporting worksheet data](/cells/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
 - [Shift First Row down when inserting Cells Data Table Rows](/cells/net/shift-first-row-down-when-inserting-cells-data-table-rows/)

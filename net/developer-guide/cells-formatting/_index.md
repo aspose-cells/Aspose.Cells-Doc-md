@@ -110,4 +110,5 @@ The [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet
 - [Modify an Existing Style](/cells/net/modify-an-existing-style/)
 - [Number Settings](/cells/net/cells-number-settings/)
 - [Using Built-in Styles](/cells/net/using-built-in-styles/)
+- [Merging and Unmerging Cells](/cells/net/merging-and-unmerging-cells/)
 
