@@ -45,3 +45,4 @@ Data from a range can be exported to [**DataTable**](https://docs.microsoft.com/
 
 ## **Advance topics**
 - [Export HTML String Value of the Cells to the DataTable](/cells/net/export-html-string-value-of-the-cells-to-the-datatable/)
+- [Rename duplicate columns automatically while exporting worksheet data](/cells/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
