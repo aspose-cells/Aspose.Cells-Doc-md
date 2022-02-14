@@ -77,7 +77,6 @@ While working on worksheets, users may add different types of data in the cells.
 - [Merging and Unmerging Cells](/cells/net/merging-and-unmerging-cells/)
 - [Preserve Single Quote Prefix of Cell Value or Range](/cells/net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Rename duplicate columns automatically while exporting worksheet data](/cells/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
-- [Setting Formula for Named Range](/cells/net/setting-formula-for-named-range/)
 - [Shift First Row down when inserting Cells Data Table Rows](/cells/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
 - [Working with Hyperlinks to Link Data](/cells/net/working-with-hyperlinks-to-link-data/)
 - [Remove duplicate rows in a Worksheet](/cells/net/remove-duplicate-rows-in-a-worksheet/)
