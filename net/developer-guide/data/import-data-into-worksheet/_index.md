@@ -17,7 +17,7 @@ When you open an Excel file with Aspose.Cells, all data in the file is automatic
 
 Aspose.Cells provides a [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection provides useful methods to import data from different data sources. This article explains how these methods can be used.
 
-### **Importing from Array**
+## **Importing from Array**
 
 To import data to a spreadsheet from an array, call the [**ImportArray**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. There are many overloaded versions of the [**ImportArray**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index) method but a typical overload takes the following parameters:
 
@@ -28,7 +28,7 @@ To import data to a spreadsheet from an array, call the [**ImportArray**](https:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArray-1.cs" >}}
 
-### **Importing from ArrayList**
+## **Importing from ArrayList**
 
 To import data from an *ArrayList* to worksheets, call the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection's [**ImportArrayList**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importarraylist) method. The ImportArray method takes the following parameters:
 
@@ -39,19 +39,19 @@ To import data from an *ArrayList* to worksheets, call the [**Cells**](https://
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArrayList-1.cs" >}}
 
-### **Importing from Custom Objects**
+## **Importing from Custom Objects**
 
 To import data from a collection of objects to a worksheet, use [**ImportCustomObjects**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importcustomobjects/index). Provide a list of columns/properties to the method to display your desired list of objects.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromCustomObject-1.cs" >}}
 
-### **Importing from Custom Objects to merged area**
+## **Importing from Custom Objects to merged area**
 
 To import data from a collection of objects to a worksheet containing merged cells, use [**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property. If the Excel template has merged cells, set the value of[**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property to true. Pass the [**ImportTableOptions**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions) object along with the list of columns/properties to the method to display your desired list of objects. The following code sample demonstrates the use of [**ImportTableOptions.CheckMergedCells**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) property to import data from Custom Objects to merged cells. Please see the attached [source Excel](90112033.xlsx) file and the [output Excel](90112034.xlsx) file for reference.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportCustomObjectsToMergedArea-1.cs" >}}
 
-### **Importing from DataTable**
+## **Importing from DataTable**
 
 To import data from a *DataTable*, call the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection's [**ImportDataTable**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) method. There are many overloaded versions of the [**ImportDataTable**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) method but a typical overload takes the following parameters:
 
@@ -61,7 +61,7 @@ To import data from a *DataTable*, call the [**Cells**](https://apireference.asp
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
-### **Importing from dynamic object as data source**
+## **Importing from dynamic object as data source**
 
 Aspose.Cells provides features to work with dynamic objects as datasource. It helps in using datasource where properties are added dynamically to the objects. Once the properties are added to the object, Aspose.Cells considers the first entry as the template and handles the rest accordingly. It means if some dynamic property is added to a first item only and not to other objects, Aspose.Cells considers that all items in the collection should be the same.
 
@@ -71,7 +71,7 @@ In this example, a template model is used which initially contains two variables
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDynamicDataTable-1.cs" >}}
 
-### **Importing from DataColumn (.NET)**
+## **Importing from DataColumn (.NET)**
 
 A *DataTable* or *DataView* object is composed of one or more columns. Developers can also import data from any Column/Columns of the *DataTable* or *DataView* by calling the [**ImportData**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. The [**ImportData**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method accepts a parameter of type [**ImportTableOptions**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions). The [**ImportTableOptions**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions) class provides a [**ColumnIndexes**](https://apireference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes) property that accepts an array of columns indexes.
 
@@ -79,7 +79,7 @@ The sample code given below demonstrates the use of [**ImportTableOptions.Colum
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataColumn-1.cs" >}}
 
-### **Importing from DataView (.NET)**
+## **Importing from DataView (.NET)**
 
 To import data from a *DataView*, call the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection's [**ImportData**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method. There are many overloaded versions of the [**ImportData**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) method but the one for DataView takes the following parameters:
 
@@ -90,7 +90,7 @@ To import data from a *DataView*, call the [**Cells**](https://apireference.aspo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataView-1.cs" >}}
 
-### **Importing from DataGrid (.NET)**
+## **Importing from DataGrid (.NET)**
 
 It is possible to import data from a *DataGrid* by calling the [**ImportDataGrid**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. There are many overloaded versions of the [**ImportDataGrid**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index) method but a typical overload takes the following parameters:
 
@@ -101,19 +101,19 @@ It is possible to import data from a *DataGrid* by calling the [**ImportDataGri
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
 
-### **Importing from GridView**
+## **Importing from GridView**
 
 To import data from a *GridView* control, call the [**ImportGridView**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) method of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection.
 
 Aspose.Cells allows us to respect HTML formatted values while importing data to the spreadsheet. When HTML parsing is enabled while importing data, Aspose.Cells converts the HTML into corresponding cell formatting.
 
-### **Importing HTML formatted data**
+## **Importing HTML formatted data**
 
 Aspose.Cells provides a [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) class that provides very useful methods for importing data from external data sources. This article shows how to parse HTML formatted text while importing data and convert the HTML into formatted cell values.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
-### **Importing Data from JSON**
+## **Importing Data from JSON**
 
 Aspose.Cells provides a [**JsonUtility**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonutility) class for processing JSON. [**JsonUtility**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonutility) class has an [**ImportData**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) method for importing JSON data. Aspose.Cells also provides a [**JsonLayoutOptions**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) class that represents the options of JSON layout. The [**ImportData**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) method accepts [**JsonLayoutOptions**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) as a parameter. The [**JsonLayoutOptions**](https://apireference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) class provides the following properties.
 
