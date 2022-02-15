@@ -132,3 +132,4 @@ The sample code given below demonstrates the use of the [**JsonUtility**](https
 
 ## **Advance topics**
 - [Specify Formula Fields while Importing Data to Worksheet](/cells/net/specify-formula-fields-while-importing-data-to-worksheet/)
+- [Shift First Row down when inserting Cells Data Table Rows](/cells/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
