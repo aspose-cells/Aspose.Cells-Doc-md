@@ -84,6 +84,7 @@ Add an **R1C1** reference style formula to a cell with the [**Cell**](https://ap
 - [Specify Maximum Rows of Shared Formula](/cells/net/specify-maximum-rows-of-shared-formula/)
 - [Supported Formula Functions](/cells/net/supported-formula-functions/)
 - [Ways to Calculate Formulas](/cells/net/ways-to-calculate-formulas/)
-
+- [Precedents and Dependents](/cells/net/precedents-and-dependents/)
+- [Setting Formula for Named Range](/cells/net/setting-formula-for-named-range/)
 
 

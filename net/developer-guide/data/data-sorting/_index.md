@@ -52,3 +52,8 @@ Following are the sample files which can be downloaded for testing this feature:
 [outputsampleBackGroundFile.xlsx](81920907.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithBackgroundColor-1.cs" >}}
+
+## **Advance topics**
+- [Find or Search Data](/cells/net/find-or-search-data/)
+- [Sort Data in Column with Custom Sort List](/cells/net/sort-data-in-column-with-custom-sort-list/)
+- [Specifying Sort Warning While Sorting Data](/cells/net/specifying-sort-warning-while-sorting-data/)
