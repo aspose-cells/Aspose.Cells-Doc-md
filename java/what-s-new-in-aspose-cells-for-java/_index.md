@@ -8,6 +8,10 @@ url: /java/what-s-new-in-aspose-cells-for-java/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 22.2
+
+* Support to extract defined names from NameCollection by speicified scope filter.
+
 ## Aspose.Cells for Java 22.1
 
 * Support to generate editable pptx

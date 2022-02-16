@@ -28,76 +28,7 @@ Aspose.Cells for Java supports the following Java versions:
 Maven is the easiest way to download and install Aspose.Cells for Java. 
 
 1. Specify Aspose Maven Repository configuration/location in your Maven pom.xml. 
-
-{{< highlight java >}}
-
- <repositories>
-
-      <repository>
-
-          <id>AsposeJavaAPI</id>
-
-          <name>Aspose Java API</name>
-
-          <url>http://repository.aspose.com/repo/</url>
-
-      </repository>
-
-</repositories>
-
-{{< /highlight >}}
-
 2. Define Aspose.Cells for Java API dependency in your pom.xml. 
-
-{{< highlight java >}}
-
-     <dependencies>
-
-        <dependency>
-
-            <groupId>com.aspose</groupId>
-
-            <artifactId>aspose-cells</artifactId>
-
-            <version>21.10</version>
-
-        </dependency>
-
-        <dependency>
-
-            <groupId>com.aspose</groupId>
-
-            <artifactId>aspose-cells</artifactId>
-
-            <version>21.10</version>
-
-            <classifier>javadoc</classifier>
-
-        </dependency>
-
-        <dependency>
-
-            <groupId>org.bouncycastle</groupId>
-
-            <artifactId>bcprov-jdk15on</artifactId>
-
-            <version>1.60</version>
-
-        </dependency>        
-
-        <dependency>
-
-            <groupId>org.bouncycastle</groupId>
-
-            <artifactId>bcpkix-jdk15on</artifactId>
-
-            <version>1.60</version>
-
-        </dependency>        
-
-    </dependencies>
-
-{{< /highlight >}}
 
 [More step for details](/cells/java/installation/)
 
