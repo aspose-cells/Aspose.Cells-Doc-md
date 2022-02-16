@@ -10,7 +10,7 @@ url: /java/aspose-cells-for-java-2-5-4-release-notes/
 This page contains release notes for [Aspose.Cells for Java 2.5.4](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.5.4/)
 
 {{% /alert %}} 
-### **We are happy to announce Aspose.Cells for Java v2.5.4!**
+## **We are happy to announce Aspose.Cells for Java v2.5.4!**
 ### **New Features**
 25051 - Support advanced auto-filter types: MultipleFilter, DynamicFilter, IconFilter 
 

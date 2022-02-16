@@ -25,7 +25,7 @@ url: /java/aspose-cells-for-java-16-11-0-release-notes/
 |CELLSJAVA-42021 |Issue with extending Excel Table/List Object content regarding formulas |Bug  |
 |CELLSJAVA-42019 |Incorrect formula returned from a worksheet cell |Bug  |
 |CELLSJAVA-42004 |java.lang.NullPointerException, at Workbook ctor while loading the XLSX file |Exception  |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 ### **Adds Workbook.AbsolutePath property**
 Gets and sets the Absolute path of the file. Only used for external links.
