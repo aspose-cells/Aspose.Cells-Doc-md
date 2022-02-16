@@ -15,4 +15,4 @@ This page describes the most interesting new Aspose.Cells for Reporting Services
 
 ## Aspose.Cells for Reporting Services  22.1
 
-* |Support to render json format.
+* Support to render json format.
