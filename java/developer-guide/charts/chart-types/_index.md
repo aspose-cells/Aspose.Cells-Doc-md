@@ -18,7 +18,7 @@ Aspose.Cells supports almost all chart types supported in Microsoft Excel. Chart
 ### **Standard Types**
 Standard charts are those normally used with standard formatting:
 
-|<p>- [Column](/cells/java/chart-types/)</p><p>- [Bar](/cells/java/chart-types/)</p><p>- [Line](/cells/java/chart-types/)</p><p>- [Pie](/cells/java/chart-types/)</p><p>- [Scatter](/cells/java/chart-types/)</p><p>- [Area](/cells/java/chart-types/)</p><p>- [Doughnut](/cells/java/chart-types/)</p>|<p>- [Radar](/cells/java/chart-types/)</p><p>- [Surface 3D](/cells/java/chart-types/)</p><p>- [Bubble](/cells/java/chart-types/)</p><p>- [Stock](/cells/java/chart-types/)</p><p>- [Cylinder](/cells/java/chart-types/)</p><p>- [Cone](/cells/java/chart-types/)</p><p>- [Pyramid](/cells/java/chart-types/)</p>|
+|<p>- [Column](/cells/java/chart-types/)</p><p>- [Bar](/cells/java/chart-types/)</p><p>- [Line](/cells/java/chart-types/)</p><p>- [Pie](/cells/java/chart-types/)</p><p>- [Scatter](/cells/java/chart-types/)</p><p>- [Area](/cells/java/chart-types/)</p><p>- [Doughnut](/cells/java/chart-types/)</p>|<p>- [Radar](/cells/java/chart-types/)</p><p>- [Surface 3D](/cells/java/chart-types/)</p><p>- [Bubble](/cells/java/chart-types/)</p><p>- [Stock](/cells/java/chart-types/)</p><p>- [Cylinder](/cells/java/chart-types/)</p><p>- [Cone](/cells/java/chart-types/)</p><p>- [Pyramid](/cells/java/chart-types/)</p><p>- [Treemap](/cells/java/chart-types/)</p><p>- [Sunburst](/cells/java/chart-types/)</p><p>- [Histogram](/cells/java/chart-types/)</p><p>- [Box and Whisker](/cells/java/chart-types/)</p><p>- [Waterfall](/cells/java/chart-types/)</p>|
 | :- | :- |
 Each of the standard chart types is described in more detail below.
 #### **Column Charts**
@@ -227,5 +227,33 @@ The following pyramid charts are supported in Aspose.Cells:
 - Stacked pyramid bar chart
 - 100% stacked pyramid bar chart
 - 3D pyramid column chart
+#### **Treemap Chart**
+A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns, such as which items are a store's best sellers. The tree branches are represented by rectangles and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by color and proximity and can easily show lots of data which would be difficult with other chart types.
+
+The treemap chart is supported in Aspose.Cells.
+
+#### **Sunburst Chart**
+The sunburst chart is ideal for displaying hierarchical data. Each level of the hierarchy is represented by one ring or circle with the innermost circle as the top of the hierarchy. A sunburst chart without any hierarchical data (one level of categories), looks similar to a doughnut chart. However, a sunburst chart with multiple levels of categories shows how the outer rings relate to the inner rings. The sunburst chart is most effective at showing how one ring is broken into its contributing pieces, while another type of hierarchical chart, the treemap chart, is ideal for comparing relative sizes.
+
+The sunburst chart is supported in Aspose.Cells.
+
+#### **Histogram Chart**
+A histogram is a column chart that shows frequency data.
+
+The following radar charts are supported in Aspose.Cells:
+
+- Histogram chart
+- Pareto chart
+
+#### **Box and Whisker Chart**
+A box and whisker chart shows distribution of data into quartiles, highlighting the mean and outliers. The boxes may have lines extending vertically called “whiskers”. These lines indicate variability outside the upper and lower quartiles, and any point outside those lines or whiskers is considered an outlier.
+
+The box and whisker chart is supported in Aspose.Cells.
+
+#### **Waterfall Chart**
+A waterfall chart shows a running total as values are added or subtracted. It's useful for understanding how an initial value (for example, net income) is affected by a series of positive and negative values.
+
+The waterfall chart is supported in Aspose.Cells.
+
 ### **Custom Chart Types**
 Custom charts allow you to create charts with custom formatting that can also be applied to other charts. Here, we've only discussed the standard charts. If you want to know more details about custom charts then please read the [Creating Custom Charts](/cells/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) article which describes how to create custom charts.
