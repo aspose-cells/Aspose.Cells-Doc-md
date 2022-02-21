@@ -30,7 +30,7 @@ The shapes in excel are mainly divided into the following types:
 
 This guide document will select one or two shapes from each type to make samples.Through these examples, you will learn how to use [Aspose.Cells](https://products.aspose.com/cells/) to insert the specified shape into the worksheet.
 
-## **Adding Pictures**
+## **Adding Pictures in Excel Worksheet in C#**
 
 Adding pictures to a spreadsheet is very easy. It only takes a few lines of code:
 Simply call the [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method of the [**Pictures**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection (encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) object). The [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method takes the following parameters:
@@ -42,7 +42,7 @@ Simply call the [**Add**](https://apireference.aspose.com/cells/net/aspose.cells
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 
-## **Inserting OLE Objects into the Worksheet**
+## **Inserting OLE Objects into Excel Worksheet in C#**
 
 Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobject), represents an OLE Object. It has some important members:
 
@@ -53,7 +53,7 @@ The following example shows how to add an OLE Object(s) into a worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **Inserting a Line to Worksheet**
+## **Inserting a Line to Excel Worksheet in C#**
 
 The shape of line belongs to the **lines** category.
 
@@ -94,7 +94,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a line arrow to Worksheet**
+## **Inserting a line arrow to Excel Worksheet in C#**
 
 The shape of line arrow belongs to the **Lines** category.It is a special case of line.
 
@@ -135,7 +135,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a Rectangle to Worksheet**
+## **Inserting a Rectangle to Excel Worksheet in C#**
 
 The shape of rectangle belongs to the **Rectangles** category.
 
@@ -176,7 +176,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a Cube to Worksheet**
+## **Inserting a Cube to Excel Worksheet in C#**
 
 The shape of cube belongs to the **Basic Shapes** category.
 
@@ -218,7 +218,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a callout quad arrow to Worksheet**
+## **Inserting a callout quad arrow to Excel Worksheet in C#**
 
 The shape of callout quad arrow belongs to the **Block Arrows** category.
 
@@ -260,7 +260,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a multiplication sign to Worksheet**
+## **Inserting a multiplication sign to Excel Worksheet in C#**
 
 The shape of multiplication sign belongs to the **Equation Shapes** category.
 
@@ -302,7 +302,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a multidocument to Worksheet**
+## **Inserting a multidocument to Excel Worksheet in C#**
 
 The shape of multidocument belongs to the **FlowCharts** category.
 
@@ -344,7 +344,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a Five-pointed star to Worksheet**
+## **Inserting a Five-pointed star to Excel Worksheet in C#**
 
 The shape of Five-pointed star belongs to the **Stars and Banners** category.
 
@@ -386,7 +386,7 @@ Execute the above code, you will get the following results:
 
 
 
-## **Inserting a thought bubble cloud to Worksheet**
+## **Inserting a thought bubble cloud to Excel Worksheet in C#**
 
 The shape of thought bubble cloud belongs to the **Callouts** category.
 
