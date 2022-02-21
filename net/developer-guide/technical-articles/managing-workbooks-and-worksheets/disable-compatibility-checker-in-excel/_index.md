@@ -5,6 +5,8 @@ weight: 170
 url: /net/disable-compatibility-checker-in-excel/
 ---
 
+## Disable Compatibility Checker in Excel Worksheets in C# 
+
 {{% alert color="primary" %}}
 
 Microsoft Excel's Compatibility Checker flags when saving a file in an earlier file format might cause functionality issues or loss of fidelity. The Compatibility Checker is a feature of Microsoft Office Excel 2007 and Microsoft Excel 2010.
