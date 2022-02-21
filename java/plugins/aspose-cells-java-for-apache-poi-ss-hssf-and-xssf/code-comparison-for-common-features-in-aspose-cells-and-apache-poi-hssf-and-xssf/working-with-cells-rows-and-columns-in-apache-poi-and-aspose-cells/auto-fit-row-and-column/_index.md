@@ -8,6 +8,8 @@ url: /java/auto-fit-row-and-column/
 ## **Aspose.Cells - Auto Fit Row and Column**
 The most straight-forward approach to auto-sizing the width and height of a row is to call the Worksheet.autoFitRow method. The autoFitRow method takes a row index (of the row to be resized) as a parameter.
 
+**Please note:** If you want to autofit rows and columns in Excel spreadsheets using Java, please visit [Autofit Rows and Columns](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+
 **Java**
 
 {{< highlight java >}}
@@ -58,9 +60,3 @@ fileOut.close();
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Download Sample Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [Autofit Rows and Columns](http://docs.aspose.com:8082/docs/display/cellsjava/Autofit+Rows+and+Columns).
-
-{{% /alert %}}
