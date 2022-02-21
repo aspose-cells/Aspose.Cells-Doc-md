@@ -5,7 +5,7 @@ weight: 10
 url: /net/password-protect-the-vba-project-of-excel-workbook/
 ---
 
-## **Possible Usage Scenarios**
+## **Password Protect the VBA Project of Excel Workbook in C#**
 
 You can password protect the VBA (Visual Basic for Applications) Project of workbook with Aspose.Cells using [**VbaProject.Protect()**](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/protect) method.
 
