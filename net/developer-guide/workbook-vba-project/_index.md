@@ -8,7 +8,7 @@ aliases: [/net/workbook-vba-project/,/net/managing-vba-modules/,/net/adding-vba-
 description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library.
 ---
 
-## **Add a VBA Module**
+## **Add a VBA Module in C#**
 {{% alert color="primary" %}}
 
 Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells. Please use the [**Workbook.VbaProject.Modules.Add()**](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) method to add the new VBA Module inside the workbook
@@ -31,7 +31,7 @@ Here is the sample code to generate the output XLSM file with VBA Module and Ma
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 
-## **Modify VBA or Macro**
+## **Modify VBA or Macro in C#**
 
 {{% alert color="primary" %}} 
 
