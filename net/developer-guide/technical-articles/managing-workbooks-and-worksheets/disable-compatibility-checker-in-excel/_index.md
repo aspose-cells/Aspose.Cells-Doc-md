@@ -3,6 +3,7 @@ title: Disable Compatibility Checker in Excel
 type: docs
 weight: 170
 url: /net/disable-compatibility-checker-in-excel/
+keywords: "c# excel disable compatibility checker"
 ---
 
 ## Disable Compatibility Checker in Excel Worksheets in C# 
