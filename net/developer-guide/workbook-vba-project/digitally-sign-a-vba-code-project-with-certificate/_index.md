@@ -16,6 +16,8 @@ and it will show the **Digital Signature Form** showing if the document is digit
 
 {{% /alert %}} 
 
+## **Digitally Sign a VBA Code Project with Certificate in C#**
+
 The following sample code illustrates how to make use of [**Workbook.VbaProject.Sign()**](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/sign) method. Here are the input and output files of the sample code. You can use any excel file and any certificate to test this code.
 
 - [Source Excel file](5115028.xlsm) used in the sample code.
