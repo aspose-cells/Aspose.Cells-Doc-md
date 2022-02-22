@@ -7,7 +7,7 @@ url: /
 
 {{% alert color="primary" %}}
 
-{{% image img=”aspose-cells-for-net.png” alt=”Aspose.Cells for .NET Product Logo” %}}
+{{% image img="aspose-cells-for-net.png" alt="Aspose.Cells for .NET Product Logo" %}}
 
 **Welcome to Aspose.Cells for .NET**
 
