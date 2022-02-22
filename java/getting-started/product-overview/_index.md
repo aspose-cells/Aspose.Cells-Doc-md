@@ -18,13 +18,13 @@ Aspose.Cells for Java also provides a complete Grid solution for web clients; it
 Using Aspose.Cells.GridWeb for JAVA Grid control, developers can import from and export to Excel® spreadsheets easily. Any kind of user who is familiar with Microsoft Excel, can control the look and feel of the grid. Aspose.Cells offers rich set of features such as controlling the design and layout of the Grid, managing multiple worksheets, managing cells, rows and columns of a worksheet, creating and calculating formulas etc.
 
 {{% /alert %}} 
-### **Product Description**
+## **Product Description**
 Aspose.Cells can be used with any kind of application whether Java Web Application or a Java Desktop Application. Moreover, the library can also be used with some other solutions like PHP etc. Aspose.Cells provides fully featured demos and working examples written in Java for developers to have a better understanding of the features exposed by the component.
 
 Besides supporting common features like creating or reading native Excel files, Aspose.Cells also offers many advanced features such as saving and opening Excel files to and from streams, sending output to a client browser, importing and exporting data from a **ResultSet** or an **Array**, importing images and charts, creating images and charts through API, importing formulae from a designer spreadsheet and configuring page setup through API.
 
 Moreover, there are also a number of unique features that the developers can only find in Aspose.Cells such as the support of CSV and SpreadsheetML formats, adding the copy of an existing worksheet (with full contents, images and charts etc.) to a file, setting gradient background for charts through API, creating comments, auto-filters and page breaks through API, setting complex formulae, supporting conditional formatting, supporting protection options introduced in Microsoft Excel XP or above, manipulating named ranges, locating APIs, supporting custom chart API and formula calculation engine etc.
-### **Document Features**
+## **Document Features**
 - Open Plain or Encrypted Excel files (Excel97- Excel2007/2010/2013) from different sources
 - Save Excel files (Excel97- Excel2007/2010/2013) in different formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
 - Convert Excel file to PDF document
@@ -32,23 +32,23 @@ Moreover, there are also a number of unique features that the developers can onl
 - Convert to Tagged Image File Format **(TIFF)**
 - Read and Write **OpenDocument Spreadsheet (ODS )** format
 - Modify the document properties of Excel files
-### **Worksheet Features**
+## **Worksheet Features**
 #### **Display Options**
 - **Hide or show** a Worksheet
 - Display or hide **tabs, scroll bars, gridlines & row and column headers**
 - **Preview page breaks**
 - Set **zoom level** for the worksheet
 - Make selected data remain visible while scrolling using **freeze panes**
-#### **Worksheet Protection**
+### **Worksheet Protection**
 - **Protect contents, objects and scenarios** of a worksheet
-#### **Page Setup Options**
+### **Page Setup Options**
 - Set **page orientation, scaling, paper size, print quality** etc.
 - Set **page margins** like top, left, right, bottom etc.
 - Set **headers and footers**
 - Set **print area**, **print title** etc.
-#### **Page Breaks**
+### **Page Breaks**
 - Insert **horizontal** and **vertical page breaks** at a specified cell
-#### **Rows & Columns Features**
+### **Rows & Columns Features**
 - **Adjust column width** as required
 - Auto size the width and height of cells according to their contents
 - **Insert or delete** rows and columns
@@ -66,7 +66,7 @@ Moreover, there are also a number of unique features that the developers can onl
 - Create or access named ranges
 - Apply **data validation** and **auto-filtering**
 - Apply **subtotals** to worksheet tables
-#### **Formatting Features**
+### **Formatting Features**
 - Apply **number format settings** for cells
 - Format cell as a date
 - Set **text alignment**
@@ -78,7 +78,7 @@ Moreover, there are also a number of unique features that the developers can onl
 - Apply different **background patterns** on cells
 - Apply **format settings** on a worksheet, row or column etc.
 - Apply **conditional formatting** on cells
-### **Charting & Graphics Features**
+## **Charting & Graphics Features**
 - Create different kinds of charts easily
 - Customize **charts** by setting properties
 - Set **data for charts** dynamically
@@ -88,16 +88,16 @@ Moreover, there are also a number of unique features that the developers can onl
 - Convert chart to image file
 - Convert worksheet to image file
 - Print worksheets
-### **Advanced Features**
+## **Advanced Features**
 - Supports **formula calculation** using robust Formula Calculation Engine
 - Change the **source data of a pivot table** at runtime
 - Create and manipulate pivot tables
 - Manipulate VBA code or Macros.
-### **Platforms Supported**
+## **Platforms Supported**
 - Enterprise Web Application
 - Linux
 - Unix
-### **Success Stories**
+## **Success Stories**
 #### **Testimonials**
 Below are some of the testimonials from Aspose.Cells customers.
 
