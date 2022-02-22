@@ -4,6 +4,7 @@ type: docs
 description: "Aspose.Cells for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 5
 url: /java/what-s-new-in-aspose-cells-for-java/
+aliases: [/java/whats-new/]
 ---
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
