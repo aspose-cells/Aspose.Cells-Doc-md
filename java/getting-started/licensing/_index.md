@@ -19,23 +19,23 @@ If you want to test **Aspose.Cells** without evaluation version limitations, req
 
 {{% /alert %}}
 
-### **Evaluation Version Limitations**
+## **Evaluation Version Limitations**
 
 Evaluation version of **Aspose.Cells** product (without a license specified) provides full product functionality, but it is limited to open 100 files in one program and an extra worksheet with evaluation watermark.
 
 The limitations are shown below:
 
-#### **1st Limitation: Number of Opened Files**
+### **1st Limitation: Number of Opened Files**
 
 When running your program, you can only open 100 Excel files. If your application exceeds this number, an exception will be thrown.
 
-#### **2nd Limitation: Worksheet with Evaluation Watermark**
+### **2nd Limitation: Worksheet with Evaluation Watermark**
 
 ![todo:image_alt_text](licensing_1.png)
 
 This worksheet will always show as the active worksheet. Only in licensed version, you can set the active worksheet to other worksheets.
 
-### **Setting a License**
+## **Setting a License**
 
 The license is a plain text XML file that contains details such as the product name, number of developers it is licensed to, subscription expiry date and so on. The file is digitally signed, so do not modify the file; even the inadvertent addition of an extra line break into the file will invalidate it.
 
@@ -48,7 +48,7 @@ The license can be loaded from a stream or file in the following locations:
 
 Use the [License.setLicense](https://apireference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Cells.jar and specify just the file name without path as shown in the following example:
 
-#### **Example 1**
+### **Example 1**
 
 In this example **Aspose.Cells** will attempt to find the license file in the folder that contain the JARs of your application.
 
@@ -60,7 +60,7 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-#### **Example 2**
+### **Example 2**
 
 Initializes a license from a stream.
 
@@ -72,7 +72,7 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-#### **Notes on Applying a License in Aspose.Cells.GridWeb**
+### **Notes on Applying a License in Aspose.Cells.GridWeb**
 
 It's recommended to put the licensing code at a place in your web application where it should be processed first.
 
@@ -86,7 +86,7 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-### **Applying Metered License**
+## **Applying Metered License**
 
 Aspose.Cells allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
