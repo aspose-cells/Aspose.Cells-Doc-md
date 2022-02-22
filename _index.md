@@ -31,7 +31,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](aspose-Cells-for-Java.png)**
+**![Aspose.Cells for Java Product Logo](aspose-cells-for-java.png)**
 
 **Welcome to Aspose.Cells for Java**
 
@@ -56,7 +56,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](home_3.png)**
+**![Aspose.Cells for C++ Product Logo](home_3.png)**
 
 **Welcome to the Aspose.Cells for C++**
 
@@ -80,7 +80,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](home_4.png)**
+**![Aspose.Cells for for Android via Java Product Logo](home_4.png)**
 
 **Welcome to the Aspose.Cells for Android via Java**
 
@@ -103,7 +103,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](home_5.png)**
+**![Aspose.Cells for Node.js via Java Product Logo](home_5.png)**
 
 **Welcome to Aspose.Cells for Node.js via Java**
 
@@ -127,7 +127,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](home_6.png)**
+**![Aspose.Cells for PHP via Java Product Logo](home_6.png)**
 
 **Welcome to Aspose.Cells for PHP via Java**
 
@@ -151,7 +151,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](home_7.png)**
+**![Aspose.Cells for Python via Java Product Logo](home_7.png)**
 
 **Welcome to Aspose.Cells for Python via Java**
 
@@ -174,7 +174,7 @@ The following are the links to some useful resources you may need to accomplish 
 
 {{% alert color="primary" %}}
 
-![todo:image_alt_text](aspose-Cells-for-SSRS.png)
+![Aspose.Cells for Reporting Services Product Logo](aspose-cells-for-ssrs.png)
 
 **Welcome to Aspose.Cells for Reporting Services** 
 
@@ -196,7 +196,7 @@ The following are the links to some useful resources you may need to accomplish 
 
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](sharepoint_logo.png)**
+**![Aspose.Cells for SharePoint Product Logo](sharepoint_logo.png)**
 
 **Welcome to Aspose.Cells for SharePoint**
 
