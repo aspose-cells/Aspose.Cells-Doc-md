@@ -2,7 +2,7 @@
 title: Aspose.Cells Object Model
 type: docs
 weight: 20
-url: /net/aspose-cells-object-model/
+url: /java/aspose-cells-object-model/
 ---
 
 {{% alert color="primary" %}}
