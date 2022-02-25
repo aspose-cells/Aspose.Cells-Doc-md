@@ -17,4 +17,4 @@ Here we have prepared a [sample file](exmaple.xlsx) for you.This file is used to
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HowToSetCommentBackground.cs" >}}
 
-Execute the above code and you will get an[output file](result.xlsx).
+Execute the above code and you will get an [output file](result.xlsx).
