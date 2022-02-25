@@ -14,7 +14,7 @@ A timeline is used to filter data quickly. It can be used to filter data in a pi
 
 ## **Create Timeline to a Pivot Table**
 
-Please see the following sample code. It loads the [sample Excel file](input.xlsx) that contains the pivot table. It then creates the timeline based on the first base pivot field. Finally, it saves the workbook in [output XLSX](out.xlsx) format. The following screenshot shows the timeline created by Aspose.Cells in the output Excel file.
+Please see the following sample code. It loads the [sample Excel file](input.xlsx) that contains the pivot table. It then creates the timeline based on the first base pivot field. Finally, it saves the workbook in [output XLSX](output.xlsx) format. The following screenshot shows the timeline created by Aspose.Cells in the output Excel file.
 
 ![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
 
