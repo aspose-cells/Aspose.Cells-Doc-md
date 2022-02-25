@@ -7,7 +7,7 @@ url: /
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for .NET Product Logo](aspose-cells-for-net.png)**
+**![Aspose.Cells for .NET Product Logo](cells-for-net.png)**
 
 **Welcome to Aspose.Cells for .NET**
 
