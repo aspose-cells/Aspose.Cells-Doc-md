@@ -14,8 +14,10 @@ Aspose.Cells APIs provide the facility to render the spreadsheets in image forma
 Below is the process that Aspose.Cells APIs follow behind the scene.
 
 1. The API tries to find the fonts on the file system matching the exact font name used in the spreadsheet.
-1. If API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's **[DefaultStyle.Font](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font)** property.
-1. If API cannot locate the font defined under the workbook's **[DefaultStyle.Font](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font)** property, it attempts to select the most suitable fonts from all of the available fonts.
+1. If API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's **[DefaultStyle.Font](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font)** property.
+1. If API cannot locate the font defined under the workbook's **[DefaultStyle.Font](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/font)** property, it attempts to use the font specified under **[PdfSaveOptions.DefaultFont](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** or **[ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** property.
+1. If API cannot locate the font defined under **[PdfSaveOptions.DefaultFont](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** or **[ImageOrPrintOptions.DefaultFont](https://apireference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** property, it attempts to use the font specified under **[FontConfigs.DefaultFontName](https://apireference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** property.
+1. If API cannot locate the font defined under **[FontConfigs.DefaultFontName](https://apireference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** property, it attempts to select the most suitable fonts from all of the available fonts.
 1. Finally, if API cannot find any fonts on the file system, it renders the spreadsheet using Arial.
 
 ## **Set Custom Font Folders**
