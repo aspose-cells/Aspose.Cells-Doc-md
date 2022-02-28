@@ -21,7 +21,7 @@ For example, the following code set the ReCalculateOnOpen to false to stop the c
    //do not re-calculate all formulas on opening the file.
     gws.ReCalculateOnOpen = false;
     gw.Settings = gws;
-    gw.ImportExcelFile(ms, GridLoadFormat.Xlsx);
+    gw.ImportExcelFile(@"c:\test.xlsx");
 ```
  the following code set the author for the file :
 ```C#
@@ -30,7 +30,7 @@ For example, the following code set the ReCalculateOnOpen to false to stop the c
    //set author.
     gws.Author = "peter";
     gw.Settings = gws;
-    gw.ImportExcelFile(ms, GridLoadFormat.Xlsx);
+    gw.ImportExcelFile(@"c:\test.xlsx");
 ```
 You can check more settings in this class.
  
