@@ -23,7 +23,7 @@ You can use a small tool like: iisexpress proxy.
 
 Install with the following command:
 
-*npm install -g iisexpress-proxy *
+*npm install -g iisexpress-proxy*
 
 Run the command to complete the port mapping:
 
