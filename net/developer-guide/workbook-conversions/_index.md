@@ -1,5 +1,5 @@
 ---
-title: Convert Excel to Pdf, Image and other formats.
+title: Convert Excel to Pdf, Image and other formats
 linktitle: Workbook Conversions
 type: docs
 weight: 65

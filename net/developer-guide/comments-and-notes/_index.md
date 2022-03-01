@@ -5,7 +5,7 @@ type: docs
 weight: 128
 url: /net/comments-and-notes/
 aliases: [/net/managing-comments/]
-description: Insert and manage comments or notes with Aspose.Cells.
+description: Insert and manage comments or notes with Aspose.Cells for .Net.
 keywords: insert comments, insert notes
 ---
 

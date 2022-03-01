@@ -4,8 +4,8 @@ linktitle: Conditional Formatting
 type: docs
 weight: 125
 url: /net/conditional-formatting/
-aliases: [/net/managing-conditional-formats/]
-description: How to apply conditional formats in CSharp.
+aliases: [/net/managing-conditional-formats/,/net/insert-conditional-formats/]
+description: How to apply conditional formats to Excel and ODS files in CSharp.
 keywords: apply conditional formats 
 ---
 
