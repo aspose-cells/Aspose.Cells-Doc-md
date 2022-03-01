@@ -21,19 +21,5 @@ The following code implements the Custom Calculation Engine. It implements the i
 
 ### **Programming Sample**
 
-```C#
-class MyCalculation : GridAbstractCalculationEngine
-        {
-           public override void Calculate(GridCalculationData data)
-            {
-                if (!"MYTESTFUNC".Equals(data.FunctionName.ToUpper()))
-                {
-                    return;
-                }
-                data.CalculatedValue = (decimal)(2.0 * (double)data.GetParamValue(0));
-            }
-        }
-// in the startup.cs when you do initialization ,set the CalculateEngine		
-  MyCalculation ce = new MyCalculation();
-  GridJsWorkbook.CalculateEngine = ce;
-```
+{{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "CustomCalculation.cs" >}}
+ 
