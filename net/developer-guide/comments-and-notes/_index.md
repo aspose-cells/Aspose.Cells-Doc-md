@@ -46,4 +46,5 @@ Aspose.Cells also provides this feature. Below is a code sample that creates an 
 ## **Advance topics**
 - [Change Text Direction of the Comment](/cells/net/change-text-direction-of-the-comment/)
 - [How to change the Comment Font Color](/cells/net/how-to-change-the-comment-font-color/)
+- [How to set comment background](/cells/net/how-to-set-comment-background/)
 - [Threaded Comments](/cells/net/threaded-comments/)

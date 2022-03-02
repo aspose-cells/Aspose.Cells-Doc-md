@@ -1,6 +1,6 @@
 ---
 title: How to set comment background
-linktitle: comment background
+linktitle: Comment Background
 type: docs
 weight: 190
 url: /net/how-to-set-comment-background/
