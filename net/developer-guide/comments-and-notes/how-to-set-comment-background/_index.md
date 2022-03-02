@@ -17,7 +17,7 @@ Comments are added to cells to record comments, anything from the details of how
 
 ## **Change comment background color**
 
-When you don¡¯t need the default background color for comments, you may want to replace it with a color you¡¯re interested in.How do I change the background color of the Comments box in Excel?
+When you don't need the default background color for comments, you may want to replace it with a color you're interested in.How do I change the background color of the Comments box in Excel?
 
 The following code will guide you how to use [**Aspose.Cells**](https://products.aspose.com/cells/net/) to add your favorite background color to comments of your own choice.
 
