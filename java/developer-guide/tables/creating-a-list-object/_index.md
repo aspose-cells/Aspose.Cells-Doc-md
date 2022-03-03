@@ -1,5 +1,5 @@
 ---
-title: Creating a List Object
+title: Creating a Table
 type: docs
 weight: 40
 url: /java/creating-a-list-object/
@@ -13,7 +13,7 @@ Aspose.Cells supports creating and managing Lists.
 
 {{% /alert %}}
 
-## **Advantages of a List Object**
+## **Advantages of a table**
 
 There are quite a few advantages when you convert a list of data to an actual List Object:
 
@@ -24,7 +24,7 @@ There are quite a few advantages when you convert a list of data to an actual Li
 - Named ranges assigned to rows and columns will be expanded automatically.
 - The list is protected from accidental row and column deletion.
 
-### **Creating a List Object using Microsoft Excel**
+## **Creating a table using Microsoft Excel**
 
 **Selecting data range for creating a list object** 
 
@@ -42,7 +42,7 @@ Implementing the List object and specifying Total Row (Select **Data**, then **L
 
 ![todo:image_alt_text](creating-a-list-object_3.png)
 
-### **Using Aspose.Cells API**
+## **Creating a table using Using Aspose.Cells API**
 
 Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) collection that allows access to each worksheet in an Excel file.
 
