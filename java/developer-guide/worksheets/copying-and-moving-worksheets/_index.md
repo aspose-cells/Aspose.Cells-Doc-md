@@ -25,7 +25,7 @@ Following are the steps involved for copying and moving worksheets within or bet
 1. In the **Before sheet** box, click the sheet before which you want to insert the moved or copied sheets.
 1. To copy the sheets instead of moving them, select the **Create a copy** checkbox.
 
-### **Copy Worksheets within a Workbook**
+## **Copy Worksheets within a Workbook**
 
 Aspose.Cells provides an overloaded method, [**WorksheetCollection.addCopy()**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.
 
@@ -33,7 +33,7 @@ The following example shows how to copy an existing worksheet within a workbook.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CopyWithinWorkbook-CopyWithinWorkbook.java" >}}
 
-### **Copy Worksheets between Workbooks**
+## **Copy Worksheets between Workbooks**
 
 Aspose.Cells provides a method, [**Worksheet.copy()**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), used to copy data and formatting from a source worksheet to another worksheet within or between the workbooks. The method takes the source worksheet object as a parameter.
 
@@ -45,7 +45,7 @@ The following example shows how to copy a worksheet from one workbook to another
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CopyWorksheetFromWorkbookToOther-CopyWorksheetFromWorkbookToOther.java" >}}
 
-### **Move Worksheets within Workbook**
+## **Move Worksheets within Workbook**
 
 Aspose.Cells provides a method, [**Worksheet.moveTo()**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), used to move a worksheet to another location in the same spreadsheet.
 

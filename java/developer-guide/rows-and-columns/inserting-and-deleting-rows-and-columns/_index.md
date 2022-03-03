@@ -19,18 +19,18 @@ The [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/workshee
 When rows or columns are added, the content in the worksheet is shifted down or to the right, but if rows or columns are removed, the content is shifted up or the left.
 
 {{% /alert %}} 
-### **Inserting a Row**
+## **Inserting a Row**
 Insert a row into at any location by calling the [insertRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) method of the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [insertRows ](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\))method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
-### **Inserting Multiple Rows**
+## **Inserting Multiple Rows**
 To insert multiple rows into the worksheet, call the [insertRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) method of the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [insertRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) method takes two parameters:
 
 - Row index: the index of the row from where the new rows will be inserted.
 - Number of rows: the total number of rows that need to be inserted.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingMultipleRows-InsertingMultipleRows.java" >}}
-### **Insert a Row with Formatting**
+## **Insert a Row with Formatting**
 To insert a row with formatting options, use the [insertRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) overload that takes [InsertOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/InsertOptions) as a parameter. Set the [CopyFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType) property of [InsertOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/InsertOptions) class with [CopyFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) Enumeration. The [CopyFormatType](https://apireference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) Enumeration has three members as listed below.
 
 - [SAME_AS_ABOVE](https://apireference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): Formats the row same as the above row.
@@ -38,21 +38,21 @@ To insert a row with formatting options, use the [insertRows](https://apirefere
 - [CLEAR](https://apireference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Clears the formatting.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}
-### **Deleting a Row**
+## **Deleting a Row**
 To delete a row at any location, call the [deleteRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) method of the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [deleteRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) method takes two parameters:
 
 - Row index: the index of the row from where the rows will be deleted.
 - Number of rows: the total number of rows that need to be deleted.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteARow-DeleteARow.java" >}}
-### **Deleting Multiple Rows**
+## **Deleting Multiple Rows**
 To delete multiple rows from a worksheet, call the [deleteRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) method of the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [deleteRows](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) method takes two parameters:
 
 - Row index: the index of the row from where the rows will be deleted.
 - Number of rows: the total number of rows that need to be deleted.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteMultipleRows-DeleteMultipleRows.java" >}}
-### **Inserting one or Multiple Columns**
+## **Inserting one or Multiple Columns**
 Developers can also insert a column into the worksheet at any location by calling the [insertColumns](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) method of the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [insertColumns](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) method takes two parameters:
 
 - Column index, the index of the column from where the column will be inserted
