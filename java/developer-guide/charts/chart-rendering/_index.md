@@ -110,14 +110,14 @@ There are a few chart types that are currently not supported for rendering. Such
 | |PyramidBarStacked|**Y**|
 | |PyramidBar100PercentStacked|**Y**|
 | |PyramidColumn3D|**Y**|
-|**BoxWhisker**|BoxWhisker|N|
+|**BoxWhisker**|BoxWhisker|Y|
 |**Funnel**|Funnel|**Y**|
 |**ParetoLine**|ParetoLine|**Y**|
 |**Sunburst**|Sunburst|**Y**|
 |**Treemap**|Treemap|**Y**|
 |**Waterfall**|Waterfall|**Y**|
-|**Histogram**|Histogram|N|
-|**Map**|Map|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
