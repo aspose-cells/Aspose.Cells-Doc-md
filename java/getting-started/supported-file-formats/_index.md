@@ -23,7 +23,7 @@ url: /java/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Numbers|The document is created by Apple's "Numbers" application which forms part of Apple's iWork office suite, a set of applications which run on the Mac OS X and iOS operating systems.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Numbers|The document is created by Apple's "Numbers" application which forms part of Apple's iWork office suite, a set of applications which run on the Mac OS X and iOS operating systems.|{{< emoticons/tick >}}||
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Data Interchange Format.| |{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.| |{{< emoticons/tick >}}|
