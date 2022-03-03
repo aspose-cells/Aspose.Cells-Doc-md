@@ -98,7 +98,6 @@ Moreover, there are also a number of unique features that the developers can onl
 - Linux
 - Unix
 ## **Success Stories**
-#### **Testimonials**
 Below are some of the testimonials from Aspose.Cells customers.
 
 **Please check:** 
