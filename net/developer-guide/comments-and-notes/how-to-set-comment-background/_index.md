@@ -5,7 +5,7 @@ type: docs
 weight: 190
 url: /net/how-to-set-comment-background/
 aliases: [/net/add-a-picture-to-an-excel-comment/]
-description: How to set background color in Excel comment object.Add a picture or image to an Excel comment.
+description: How to change color in comment in Excel.How to insert picture or image in comment in Excel.
 keywors: add inset picture iamge color comment background excel
 ---
 
@@ -15,7 +15,7 @@ Comments are added to cells to record comments, anything from the details of how
 
 {{% /alert %}}
 
-## **Change comment background color**
+## **How to change color in comment in Excel**
 
 When you don't need the default background color for comments, you may want to replace it with a color you're interested in.How do I change the background color of the Comments box in Excel?
 
@@ -27,10 +27,10 @@ Here we have prepared a [sample file](exmaple.xlsx) for you.This file is used to
 
 Execute the above code and you will get an [output file](result.xlsx).
 
-## **Add a picture or image to an Excel comment**
+## **How to insert picture or image in comment in Excel**
 
 Microsoft Excel lets users customize the look and feel of spreadsheets to a great extent. It is even possible to add background pictures to comments.Adding a background image can be an aesthetic choice, or be used to strengthen branding.
 
-The sample code below creates an XLSX file from scratch, and adds a comment with a picture background to cell A1.
+The sample code below creates an XLSX file from scratch using [**Aspose.Cells**](https://products.aspose.com/cells/net/) API , and adds a comment with a picture background to cell A1.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddPictureToExcelComment-1.cs" >}}
