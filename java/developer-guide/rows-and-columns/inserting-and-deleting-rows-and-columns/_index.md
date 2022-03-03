@@ -59,7 +59,7 @@ Developers can also insert a column into the worksheet at any location by callin
 - Number of columns, the total number of columns that need to be inserted
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingAColumn-InsertingAColumn.java" >}}
-### **Deleting a Column**
+## **Deleting a Column**
 To delete a column from the worksheet at any location, call the [deleteColumns](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) method of the [Cells](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. The [deleteColumns](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) method takes the following parameters:
 
 - Column index: the index of the column from where the column will be deleted.
