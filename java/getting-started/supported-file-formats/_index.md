@@ -24,6 +24,7 @@ url: /java/supported-file-formats/
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|The document is created by Apple's "Numbers" application which forms part of Apple's iWork office suite, a set of applications which run on the Mac OS X and iOS operating systems.|{{< emoticons/tick >}}||
+|[JSON](https://docs.fileformat.com/web/json/)|JavaScript Object Notation|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Data Interchange Format.| |{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.| |{{< emoticons/tick >}}|
