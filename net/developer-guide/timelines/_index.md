@@ -20,4 +20,4 @@ Please see the following sample code. It loads the [sample Excel file](input.xls
 
 ### **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "timelines-CreateTimelineToPivotTable.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Timelines-CreateTimelineToPivotTable.cs" >}}
