@@ -15,5 +15,5 @@ Aspose.Cells supports the rendering of timeline shape without using office 2013,
 The following sample code loads the [sample Excel file](input.xlsx) that contains an existing timeline. Get the shape object according to the name of timeline, and then render it into a picture through the [**Shape.ToImage()**] method. The flowing image is the [output image](out.png) that shows the rendered timeline. As you can see, timeline has been rendered properly and it looks the same as in the sample Excel file.
 
 ![todo:image_alt_text](out.png)
-## **Sample Code**
+### **Sample Code**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Timelines-RenderingTimeline.cs" >}}
