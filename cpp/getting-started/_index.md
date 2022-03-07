@@ -33,13 +33,33 @@ You can also download it from the nuget web page for aspose.cells:
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
-2. Unzip the package and run the Demo.sln,for more details please refer to the README.txt
+2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++.
+- Demo.sln: Run with Visual Studio 2017 or higher to test Aspose.Cells for C++, you can find the information in detail in the file main.cpp
+- main.cpp: A demo file shows how to code to test Aspose.Cells for C++
+- sourceFile/resultFile: test file storage directory used in main.cpp
+3. Doc: APIs and license document
+- Aspose.Cells for C++.chm: APIs referance
+- The third party licenses of Aspose.Cells for C++.pdf      
+4. Include: All header files related to Aspose.Cells for C++, but for users,
+- "Aspose.Cells.h" is the unique header file need to be included.
+5. lib: All dlls and libs for 32bits(Win32) mode
+6. lib64: All dlls and libs for 64bits(x64) mode
 
 ### **How to use Aspose.Cells for C++ on linux OS.**
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
-2. Unzip the package and run the Demo.sln,for more details please refer to the README.txt
+2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++ for Linux.
+- build:A directory created to run cmake and make 
+- sourceFile: source files for the demo
+- resultFile: result files for the demo
+- CMakeLists.txt: A file for creating the Makefile using cmake command
+- main.cpp: the test file for the demo
+3. Include : All header files that needed, but usually you only need include Aspose.Cell.h in your project just like the file main.cpp
+4. lib64: All libraries files needed to run your program
+5. Doc: APIs and license document
+- Aspose.Cells for C++.chm: APIs referance
+- The third party licenses of Aspose.Cells for C++.pdf
 
 ## **Creating the Hello World Application**
 
