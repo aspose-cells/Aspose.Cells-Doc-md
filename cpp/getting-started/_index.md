@@ -34,20 +34,20 @@ You can also download it from the nuget web page for aspose.cells:
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
 2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++.
-   (1): Demo.sln: Run with Visual Studio 2017 or higher to test Aspose.Cells for C++, you can find the information in detail in the file main.cpp
-   (2): main.cpp: A demo file shows how to code to test Aspose.Cells for C++
-   (3): sourceFile/resultFile: test file storage directory used in main.cpp
+3. Open the Demo.sln with Visual Studio 2017 or higher version
+4. main.cpp: this file shows how to code to test Aspose.Cells for C++
+5. sourceFile/resultFile: these two folders are storage directories used in main.cpp 
 
-### **How to use Aspose.Cells for C++ on linux OS.**
+### **How to use Aspose.Cells for C++ on Linux OS.**
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
 2. Unzip the package and you will find a Demo which is on how to use Aspose.Cells for C++ for Linux.
-   (1): cd Demo 
-   (2): rm -rf build;mkdir build;cd build
-   (2): cmake ..
-   (3): make 
-   (4): ./demo
+3. Run "cd Demo" in your Linux command line
+4. Run "rm -rf build;mkdir build;cd build"
+5. Run "cmake .." will create a Makefile by CMakeLists.txt in Demo folder
+6. Run "make" to compile
+7. Run "./demo" you will see the result 
 
 ## **Creating the Hello World Application**
 
