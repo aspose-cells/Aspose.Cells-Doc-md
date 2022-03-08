@@ -3,7 +3,7 @@ title: Image
 type: docs
 weight: 300
 url: /net/convert-excel-to-image/
-aliases: [/net/convert-to-images/,/net/convert-excel-to-svg/,/net/convert-excel-to-bmp/,/net/converting-worksheet-to-different-image-formats/]
+aliases: [/net/convert-to-images/,/net/convert-excel-to-svg/,/net/convert-excel-to-bmp/,/net/convert-excel-to-tiff/,/net/converting-worksheet-to-different-image-formats/]
 ---
 
 
@@ -12,6 +12,14 @@ aliases: [/net/convert-to-images/,/net/convert-excel-to-svg/,/net/convert-excel-
 Aspose.Cells allows you to export a worksheet from the workbook and convert it into different formats. This article explains how to convert a worksheet to different formats.
 
 {{% /alert %}}
+
+## Converting Workbook to TIFF
+
+An Excel file can contain multiple sheets with multiple pages. [WorkbookRender](https://apireference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) allows you to convert Excel to TIFF with multiple pages. Also, you can control multiple options for TIFF, like [Compression](https://apireference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression), [Color depth](https://apireference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcolordepth), Resolution([Horizontal resolution](https://apireference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution), [Vertical resolution](https://apireference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution)).
+
+The following code snippet shows how to convert Excel to TIFF with multiple pages. The [source Excel file](workbook-to-tiff-with-mulitiple-pages.xlsx) and [generated TIFF image](workbook-to-tiff-with-mulitiple-pages.tiff) are attached for your reference.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Workbook-To-Tiff-With-Mulitiple-Pages.cs" >}}
 
 ## **Converting Worksheet to Image**
 
