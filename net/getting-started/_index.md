@@ -46,7 +46,7 @@ In this example, I use Ubuntu to show how to start using Aspose.Cells on linux.
 2. Open file "AsposeCellsTest.csproj", add the following lines into it for Aspose.Cells package references:
 {{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="22.1" />
+    <PackageReference Include="Aspose.Cells" Version="22.3" />
   </ItemGroup>
 {{< /highlight >}}
 3. Open the project with VSCode on Ubuntu:
