@@ -16,7 +16,7 @@ Instead of adjusting filters to show dates, you can use a PivotTable Timeline—
 
 Please see the following sample code. It loads the [sample Excel file](input.xlsx) that contains the pivot table. It then creates the timeline based on the first base pivot field. Finally, it saves the workbook in [output XLSX](output.xlsx) format. The following screenshot shows the timeline created by Aspose.Cells in the output Excel file.
 
-![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
+<img src="create-timeline-to-a-pivot-table_1.png" width="60%">
 
 ### **Sample Code**
 
