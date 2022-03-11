@@ -3,8 +3,8 @@ title: Insert Timeline
 linktitle: Timelines
 type: docs
 weight: 170
-url: /net/create-timeline/
-aliases: [/net/timelines/,/net/create-timeline-to-a-pivot-table/]
+url: /java/create-timeline/
+aliases: [/java/timelines/,/java/create-timeline-to-a-pivot-table/]
 description: Manage timelines of Excel files with Aspose.Cells For java.
 ---
 
