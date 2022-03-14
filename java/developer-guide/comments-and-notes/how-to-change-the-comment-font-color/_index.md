@@ -1,7 +1,7 @@
 ---
 title: How to change the Comment Font Color
 type: docs
-weight: 1100
+weight: 180
 url: /java/how-to-change-the-comment-font-color/
 ---
 
