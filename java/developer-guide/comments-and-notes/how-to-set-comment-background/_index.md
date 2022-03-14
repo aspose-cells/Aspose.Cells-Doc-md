@@ -1,5 +1,5 @@
 ---
-title: How to set comment background
+title: How to change background in comment in Excel
 linktitle: Comment Background
 type: docs
 weight: 190
