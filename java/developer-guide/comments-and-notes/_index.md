@@ -17,13 +17,13 @@ Comments are used to add additional information to cells. Aspose.Cells provides 
 
 Add a comment to a cell by calling the [**Comments**](https://apireference.aspose.com/cells/java/com.aspose.cells/CommentCollection) collection's **Add** method (encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) object). The new [**Comment**](https://apireference.aspose.com/cells/java/com.aspose.cells/Comment) object can be accessed from the [**Comments**](https://apireference.aspose.com/cells/java/com.aspose.cells/CommentCollection) collection by passing the comment index. After accessing the [**Comment**](https://apireference.aspose.com/cells/java/com.aspose.cells/Comment) object, customize the comment note by using the [**Comment**](https://apireference.aspose.com/cells/java/com.aspose.cells/Comment) object's [**Note**](https://apireference.aspose.com/cells/java/com.aspose.cells/comment#Note) property.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.java" >}}
 
 ## **Comment Formatting**
 
 It is also possible to format comments' appearance by configuring their height, width and font settings.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "CommentFormatting-1.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "CommentFormatting-1.java" >}}
 
 ## **Add an Image to Comment**
 
@@ -41,7 +41,7 @@ With Microsoft Excel 2007, it is also possible to have an image as the backgroun
 
 Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell "A1" with a picture set as its background.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.java" >}}
 
 ## **Advance topics**
 - [Change Text Direction of the Comment](/cells/java/change-text-direction-of-the-comment/)
