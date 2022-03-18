@@ -38,7 +38,7 @@ The [GridLoadDataFilterOptions](https://apireference.aspose.com/cells/net/aspose
 - VBA
 - XmlMap
 ## **Filter data while Loading Workbook**
-The following sample code illustrates how to filter drawing from the workbook. Please check the [sample excel file](5472489.xlsx) . As you can see in the output PDF, all charts/shapes/images have been filtered out of the workbook.
+The following sample code illustrates how to filter drawing from the workbook. Please check the [sample excel file](5472489.xlsx) . As you can see , all charts/shapes/images have been filtered out of the workbook.
 ![workbook without image](nodrawing.png)
 ### **Sample Code**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
