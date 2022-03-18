@@ -5,12 +5,12 @@ type: docs
 weight: 170
 url: /net/create-timeline/
 aliases: [/net/timelines/,/net/create-timeline-to-a-pivot-table/]
-description: Manage timelines of Excel files with Aspose.Cells.
+description: Learn how to create a timeline with Aspose.Cells.
 ---
 
 ## **Possible Usage Scenarios**
 
-A timeline is used to filter data quickly. It can be used to filter data in a pivot table. Microsoft Excel allows you to create timeline by selecting a pivot table and then clicking the *Insert > Timeline*. Aspose.Cells also allows you to create timeline using the [**Worksheet.Timelines.Add()**](https://apireference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index) method.
+Instead of adjusting filters to show dates, you can use a PivotTable Timeline——a dynamic filter option that lets you easily filter by date/time, and zoom in on the period you want with a slider control. Microsoft Excel allows you to create timeline by selecting a pivot table and then clicking the *Insert > Timeline*. Aspose.Cells also allows you to create timeline using the [**Worksheet.Timelines.Add()**](https://apireference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index) method.
 
 ## **Create Timeline to a Pivot Table**
 
