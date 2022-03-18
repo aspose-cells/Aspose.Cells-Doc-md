@@ -7,7 +7,7 @@ url: /java/change-the-html-link-target-type/
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells allows you to change the HTML link target type. HTML link looks like this
+Aspose.Cells allows you to change the HTML link target type. HTML link looks like this :
 
 {{< highlight java >}}
 

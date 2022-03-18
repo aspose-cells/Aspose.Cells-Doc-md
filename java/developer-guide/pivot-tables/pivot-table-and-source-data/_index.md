@@ -7,7 +7,7 @@ url: /java/pivot-table-and-source-data/
 
 ## **Pivot Table's Source Data**
 There are times when you want to create Microsoft Excel reports with pivot tables that takes data from different data sources (such as a database) that are not known at design time. This article provides an approach to dynamically change a pivot table's data source.
-### **Changing a Pivot Table's Source Data**
+## **Changing a Pivot Table's Source Data**
 1. Creating a new designer template.
    1. Create a new designer template file as in the screenshot below.
    1. Then define a named range, **DataSource**, which refers to this range of cells. 

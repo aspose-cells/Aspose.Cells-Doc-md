@@ -33,7 +33,7 @@ Moreover, there are also a number of unique features that the developers can onl
 - Read and Write **OpenDocument Spreadsheet (ODS )** format
 - Modify the document properties of Excel files
 ## **Worksheet Features**
-#### **Display Options**
+### **Display Options**
 - **Hide or show** a Worksheet
 - Display or hide **tabs, scroll bars, gridlines & row and column headers**
 - **Preview page breaks**
@@ -98,7 +98,6 @@ Moreover, there are also a number of unique features that the developers can onl
 - Linux
 - Unix
 ## **Success Stories**
-#### **Testimonials**
 Below are some of the testimonials from Aspose.Cells customers.
 
 **Please check:** 

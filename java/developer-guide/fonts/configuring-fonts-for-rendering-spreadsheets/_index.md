@@ -14,8 +14,10 @@ Aspose.Cells APIs provide the facility to render the spreadsheets in image forma
 Below is the process that Aspose.Cells APIs follow behind the scene.
 
 1. The API tries to find the fonts on the file system matching the exact font name used in the spreadsheet.
-1. If API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's [**DefaultStyle.Font**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#Font) property.
-1. If API cannot locate the font defined under the workbook's [**DefaultStyle.Font**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#Font) property, it attempts to select the most suitable fonts from all of the available fonts.
+1. If API cannot find the fonts with the exact same name, it attempts to use the default font specified under the Workbook's [**DefaultStyle.Font**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#Font) property.
+1. If API cannot locate the font defined under the workbook's [**DefaultStyle.Font**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#Font) property, it attempts to use the font specified under [**PdfSaveOptions.DefaultFont**](https://apireference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) or [**ImageOrPrintOptions.DefaultFont**](https://apireference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) property.
+1. If API cannot locate the font defined under [**PdfSaveOptions.DefaultFont**](https://apireference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) or [**ImageOrPrintOptions.DefaultFont**](https://apireference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) property, it attempts to use the font specified under [**FontConfigs.DefaultFontName**](https://apireference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) property.
+1. If API cannot locate the font defined under [**FontConfigs.DefaultFontName**](https://apireference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) property, it attempts to select the most suitable fonts from all of the available fonts.
 1. Finally, if API cannot find any fonts on the file system, it renders the spreadsheet using Arial.
 
 {{% alert color="primary" %}}

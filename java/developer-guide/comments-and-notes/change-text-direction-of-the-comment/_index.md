@@ -1,7 +1,7 @@
 ---
 title: Change Text Direction of the Comment
 type: docs
-weight: 100
+weight: 10
 url: /java/change-text-direction-of-the-comment/
 description: How to change the text direction of comments in Excel files. This article provides the Java code to do just that by using the Aspose.Cells for Java API.
 keywords: excel change comment text direction, change text direction of the comments excel, change text direction of the comment excel, excel change text direction of the comment, excel change text direction of the comments, excel change text direction of the comment java, excel change text direction of the comments java, excel change comment text direction java, how to change comment text direction in excel 
@@ -21,4 +21,4 @@ The following image shows the comment with its format settings in Microsoft Exce
 
 ![todo:image_alt_text](change-text-direction-of-the-comment_1.png)
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeTextDirectionofComment-ChangeTextDirectionofComment.java" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirectionofComment.java" >}}

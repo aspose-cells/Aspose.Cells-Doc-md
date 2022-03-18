@@ -8,4 +8,5 @@ url: /net/supported-font-formats/
 |**Format**|**Description**|
 | :- | :- | :- | :- |
 |**TTF**|TrueType Fonts|
+|**TTC**|TrueType Collection|
 |**OTF**|OpenType Fonts|
