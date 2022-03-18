@@ -1,5 +1,5 @@
 ---
-title: loading event in GridDesktop
+title: Loading event in GridDesktop
 type: docs
 weight: 1060
 url: /net/aspose-cells-griddesktop/loading-event
