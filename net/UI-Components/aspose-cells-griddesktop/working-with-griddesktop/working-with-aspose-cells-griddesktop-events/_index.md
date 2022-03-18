@@ -21,13 +21,10 @@ This list doesn't include those events that are inherited by Aspose.Cells.GridDe
 
 |**Events**|**Description**|
 | :- | :- |
-|SelectedSheetIndexChanged|Occurs when a user selects a new worksheet, that is, when the selected sheet changes from one worksheet to another. This event can also be triggered programmatically if the GridDesktop control's ActiveSheetIndex property changes.|
-|RowHeaderClick|Occurs when the row header is clicked.|
-|RowHeaderDoubleClick|Occurs when the row header is double clicked.|
-|RowColumnHiddenChanged|Occurs when the row or column hidden status is changed.|
+|BeforeCalculate| Occurs before calculate formula in workbook.|
+|BeforeLoadFile| Occurs before workbook loaded from file.|
 |ColumnHeaderClick|Occurs when the column header is clicked.|
 |ColumnHeaderDoubleClick|Occurs when the column header is double clicked.|
-|FocusedCellChanged|Occurs whenever a cell's focus is changed.|
 |CellDataChanged|Occurs when the data or value inside a Grid cell is changed. This event can also be triggered if a cell's value is changed programmatically using the Value property or the SetCellValue method of a GridCell.|
 |CellButtonClick|Occurs when the cell button is clicked.|
 |CellCheckedChanged|Occurs when the Checked property of cell checkbox is changed.|
@@ -35,8 +32,16 @@ This list doesn't include those events that are inherited by Aspose.Cells.GridDe
 |CellClick|Occurs when a Grid cell is clicked.|
 |CellDoubleClick|Occurs when a Grid cell is double clicked.|
 |CellKeyPressed|Occurs when a key is pressed while a cell has focus. If you want to create an event handler for CellKeyPressed event then set the Handled property of CellKeyEventArgs argument to true for preventing the GridDesktop control from handling the key event.|
-|AfterInsertRows|Occurs when a row is inserted. You may get the row index by using the Aspose.Cells.GridDesktop.WorksheetEventArgs argument's Index property.|
 |AfterInsertColumns|Occurs when a column is inserted. You may get the column index by using the Aspose.Cells.GridDesktop.WorksheetEventArgs argument's Index property.|
+|AfterInsertRows|Occurs when a row is inserted. You may get the row index by using the Aspose.Cells.GridDesktop.WorksheetEventArgs argument's Index property.|
+|FailLoadFile| Occurs when fail to load workbook.|
+|FinishCalculate|Occurs after calculate formula in workbook.|
+|FinishLoadFile|Occurs when the   workbook is loaded.|
+|FocusedCellChanged|Occurs whenever a cell's focus is changed.|
+|RowHeaderClick|Occurs when the row header is clicked.|
+|RowHeaderDoubleClick|Occurs when the row header is double clicked.|
+|RowColumnHiddenChanged|Occurs when the row or column hidden status is changed.|
+|SelectedSheetIndexChanged|Occurs when a user selects a new worksheet, that is, when the selected sheet changes from one worksheet to another. This event can also be triggered programmatically if the GridDesktop control's ActiveSheetIndex property changes.|
 ## **Handling Grid Events**
 To perform a specific operation when a specific event is triggered, create an event handler. An event handler performs a particular task when a certain event is triggered. Below, an event handler is set up to handle a simple Grid event using Visual Studio.NET.
 
