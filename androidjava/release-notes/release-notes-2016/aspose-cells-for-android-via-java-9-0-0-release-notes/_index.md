@@ -47,73 +47,73 @@ url: /java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41961|Invalid string in the file exception occurs while opening the source a3.xls|Exception |
 |CELLSJAVA-41960|NegativeArraySizeException exception occurs while opening the source a2.xls|Exception |
 |CELLSJAVA-41959|NullPointerException exception occurs while opening the source a1.xlsx|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds CopyOptions.ReferToDestinationSheet property and Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) method**
+### **Adds CopyOptions.ReferToDestinationSheet property and Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) method**
 When copying the range and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet.
-#### **Adds HtmlSaveOptions.FilePathProvider property**
+### **Adds HtmlSaveOptions.FilePathProvider property**
 Gets or sets the IFilePathProvider for exporting Worksheet to HTML separately.
-#### **Adds IFilePathProvider interface**
+### **Adds IFilePathProvider interface**
 Represents the exported file path provider.
-#### **Adds FontConfigs class**
+### **Adds FontConfigs class**
 Specifies font settings.
-#### **Adds FontSourceBase class**
+### **Adds FontSourceBase class**
 This is an abstract base class for the classes that allow the user to specify various font sources.
-#### **Adds FileFontSource class**
+### **Adds FileFontSource class**
 Represents the single TrueType font file stored in the file system.
-#### **Adds FolderFontSource class**
+### **Adds FolderFontSource class**
 Represents the folder that contains TrueType font files.
-#### **Adds MemoryFontSource class**
+### **Adds MemoryFontSource class**
 Represents the single TrueType font file stored in memory.
-#### **Adds FontSourceType enum**
+### **Adds FontSourceType enum**
 Specifies the type of a font source.
-#### **Adds CalculationOptions.Recursive property**
+### **Adds CalculationOptions.Recursive property**
 Specifies whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.
-#### **Obsoletes CellsHelper.FontDir property**
+### **Obsoletes CellsHelper.FontDir property**
 Use FontConfigs.SetFontFolder(string, bool) method with folder recursive to false instead.
-#### **Obsoletes CellsHelper.FontDirs property**
+### **Obsoletes CellsHelper.FontDirs property**
 Use FontConfigs.SetFontFolders(string[], bool) method with folder recursive to false instead.
-#### **Obsoletes CellsHelper.FontFiles property**
+### **Obsoletes CellsHelper.FontFiles property**
 Use FontConfigs.SetFontSources(FontSourceBase[]) instead.
-#### **Obsoletes Shape.LineFormat property and adds Shape.Line property**
+### **Obsoletes Shape.LineFormat property and adds Shape.Line property**
 Please use Shape.Line property instead.
-#### **Obsoletes Shape.FillFormat property and adds Shape.Fill property**
+### **Obsoletes Shape.FillFormat property and adds Shape.Fill property**
 Please use Shape.Fill property instead.
-#### **Obsoletes ShapeFormat class and Shape.Format property**
+### **Obsoletes ShapeFormat class and Shape.Format property**
 Please directly use Shape.Fill and Shape.Line properties.
-#### **Obsoletes ShapeFont class and adds TextOptions class**
+### **Obsoletes ShapeFont class and adds TextOptions class**
 Please use TextOptions class instead.
-#### **Adds TextOptions.Fill property, TextOptions.Outline and TextOptions.Shadow property**
+### **Adds TextOptions.Fill property, TextOptions.Outline and TextOptions.Shadow property**
 Represents the fill, outline and shadow of the text.
-#### **Obsoletes FontSetting.ShapeFont property and adds FontSetting.TextOptions property**
+### **Obsoletes FontSetting.ShapeFont property and adds FontSetting.TextOptions property**
 Please use FontSetting.TextOptions property instead.
-#### **Adds Shape.TextOptions property.**
+### **Adds Shape.TextOptions property.**
 Represents the text options of the shape.
-#### **Obsoletes Worksheet.SetBackground method.**
+### **Obsoletes Worksheet.SetBackground method.**
 Please use Worksheet.BackgroundImage property instead.
-#### **Obsoletes LineShape.BeginArrowheadStyle and ArcShape.BeginArrowheadStyle**
+### **Obsoletes LineShape.BeginArrowheadStyle and ArcShape.BeginArrowheadStyle**
 Please use Shape.Line.BeginArrowheadStyle property instead.
-#### **Obsoletes LineShape.BeginArrowheadWidth and ArcShape.BeginArrowheadWidth**
+### **Obsoletes LineShape.BeginArrowheadWidth and ArcShape.BeginArrowheadWidth**
 Please use Shape.Line.BeginArrowheadWidth property instead.
-#### **Obsoletes LineShape.BeginArrowheadLength and ArcShape.BeginArrowheadLength**
+### **Obsoletes LineShape.BeginArrowheadLength and ArcShape.BeginArrowheadLength**
 Please use Shape.Line.BeginArrowheadLength property instead.
-#### **Obsoletes LineShape.EndArrowheadStyle and ArcShape.EndArrowheadStyle**
+### **Obsoletes LineShape.EndArrowheadStyle and ArcShape.EndArrowheadStyle**
 Please use Shape.Line.EndArrowheadStyle property instead.
-#### **Obsoletes LineShape.EndArrowheadWidth and ArcShape.EndArrowheadWidth**
+### **Obsoletes LineShape.EndArrowheadWidth and ArcShape.EndArrowheadWidth**
 Please use Shape.Line.EndArrowheadWidth property instead.
-#### **Obsoletes LineShape.EndArrowheadLength and ArcShape.EndArrowheadLength**
+### **Obsoletes LineShape.EndArrowheadLength and ArcShape.EndArrowheadLength**
 Please use Shape.Line.EndArrowheadLength property instead.
-#### **Deletes obsoleted Worksheet.CopyConditionalFormatting() method.**
-#### **Deletes obsoleted Workbook.CheckWriteProtectedPassword() method.**
+### **Deletes obsoleted Worksheet.CopyConditionalFormatting() method.**
+### **Deletes obsoleted Workbook.CheckWriteProtectedPassword() method.**
 Please use WorkbookSettings.WriteProtection.ValidatePassword method instead.
-#### **Renames Workbook.RemoveDigitallySign as Workbook.RemoveDigitalSignature method.**
-#### **Obsoletes WorksheetCollection.ClearPivots method adds WorksheetCollection.ClearPivottables method.**
+### **Renames Workbook.RemoveDigitallySign as Workbook.RemoveDigitalSignature method.**
+### **Obsoletes WorksheetCollection.ClearPivots method adds WorksheetCollection.ClearPivottables method.**
 Please use WorksheetCollection.ClearPivottables method.
-#### **Adds ChartSplitType.Auto property.**
+### **Adds ChartSplitType.Auto property.**
 Represents the data points shall be split using the default mechanism for this chart type.
-#### **Adds ChartPoint.IsInSecondaryPlot property.**
+### **Adds ChartPoint.IsInSecondaryPlot property.**
 Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart.
-#### **Adds OleObject.ClassIdentifier property.**
+### **Adds OleObject.ClassIdentifier property.**
 Gets or sets the class identifier of the embedded object.
 
 {{% alert color="primary" %}} 

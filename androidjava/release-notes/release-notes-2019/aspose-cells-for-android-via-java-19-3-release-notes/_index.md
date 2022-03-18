@@ -59,69 +59,69 @@ This page contains release notes for Aspose.Cells for Android via Java 19.3.
 |CELLSJAVA-42820|Exception "Invalid IMEModeType string val" when loading an XLSX file format|Exception|
 |CELLSJAVA-42849|IndexOutOfBoundsException exception while converting XLSX to HTML|Exception|
 |CELLSJAVA-42831|Exception raised by Excel after applying styling to range of header cells|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
 **Adds PivotTable.ShowReportFilterPageByName(string fieldName) method**
 
 Shows all the report filter pages according to PivotField's name, the PivotField must be located in the PageFields.
-#### **Adds PivotTable.ShowReportFilterPageByIndex(int posIndex) method**
+### **Adds PivotTable.ShowReportFilterPageByIndex(int posIndex) method**
 Shows all the report filter pages according to the position index in the PageFields.
-#### **Adds PivotTable.ShowReportFilterPage(PivotField pageField) method**
+### **Adds PivotTable.ShowReportFilterPage(PivotField pageField) method**
 Shows all the report filter pages according to PivotField, the PivotField must be located in the PageFields.
-#### **Adds DataSorterKey and DataSorterKeyCollection class**
+### **Adds DataSorterKey and DataSorterKeyCollection class**
 Represents the key of the data sorter.
-#### **Adds DataSorter.AddKey(Int32,SortOnType,SortOrder,Object) method**
+### **Adds DataSorter.AddKey(Int32,SortOnType,SortOrder,Object) method**
 Adds the sort key such as cell's background color, font color.
-#### **Adds Aspose.Cells.DataSorter.Keys property**
+### **Adds Aspose.Cells.DataSorter.Keys property**
 Gets all keys of the data sorter.
-#### **Adds SortOnType enum**
+### **Adds SortOnType enum**
 Represents the type of sorted data.
-#### **Adds ODSLoadOptions class**
+### **Adds ODSLoadOptions class**
 Represents the options of loading ODS file.
-#### **Adds HTMLLoadOptions.ProgId property**
+### **Adds HTMLLoadOptions.ProgId property**
 Gets the program id of creating the file. used only for MHT files.
-#### **Adds PdfSaveOptions.TextCrossType property**
+### **Adds PdfSaveOptions.TextCrossType property**
 Gets or sets displaying text type when the text width is larger than cell width.
-#### **Adds TextCrossType enum class**
+### **Adds TextCrossType enum class**
 Enumerates displaying text type when the text width is larger than cell width.
-#### **Adds WorksheetCollection.RegisterAddInFunction() methods**
+### **Adds WorksheetCollection.RegisterAddInFunction() methods**
 Replacement of Cell.SetAddInFormula(), a more convenient and efficient way for users to add and use addin functions.
-#### **Obsoletes Cell.SetAddInFormula() method**
+### **Obsoletes Cell.SetAddInFormula() method**
 Please register the addin functions firstly by WorksheetCollection.RegisterAddInFunction() and then setting the formula for Cell by Cell.Formula/Cell.SetFormula() instead.
-#### **Adds Cells.CountLarge property**
+### **Adds Cells.CountLarge property**
 Functionally is the same as the Count property, except that the Count property may generate an overflow error when there are too many instantiated Cell objects.
-#### **Adds Hyperlink.Delete() method**
+### **Adds Hyperlink.Delete() method**
 Deletes this hyperlink.
-#### **Adds Range.Hyperlinks property**
+### **Adds Range.Hyperlinks property**
 Gets all hyperlinks in the range.
-#### **Adds enum CopyFormatType**
+### **Adds enum CopyFormatType**
 Represents the type of copying format when inserting rows.
-#### **Adds InsertOptions class and Cells.InsertRows(int, int , InsertOptions) method**
+### **Adds InsertOptions class and Cells.InsertRows(int, int , InsertOptions) method**
 Inserting rows with some options.
-#### **Adds FileFormatUtil.DetectFileFormat(Stream,String) and FileFormatUtil.DetectFileFormat(String,String) methods**
+### **Adds FileFormatUtil.DetectFileFormat(Stream,String) and FileFormatUtil.DetectFileFormat(String,String) methods**
 Detects the file format of encrypted OOXML file.
-#### **Adds ListObject.AlternativeDescription and ListObject.AlternativeText properties**
+### **Adds ListObject.AlternativeDescription and ListObject.AlternativeText properties**
 Gets and sets the alternative text and description of the table.
-#### **Adds Line.ThemeColor property**
+### **Adds Line.ThemeColor property**
 Gets and sets the theme color of the line.
-#### **Adds Mode3d and MsoModel3dFormat class**
+### **Adds Mode3d and MsoModel3dFormat class**
 Encapsulates the object that represents a single 3D model in a spreadsheet.
-#### **Adds ImageType.Gltf enum**
+### **Adds ImageType.Gltf enum**
 Represents the type of 3D model.
-#### **Changes for default font of loaded XLS template file**
+### **Changes for default font of loaded XLS template file**
 In older versions, we did not support to apply the font defined in theme (advanced feature in MS Excel 2007 and later versions) according to the region when loading the XLS template files. On some users' requirement, we have supported it from v19.3. If the region has been specified in the XLS template file, then we will apply the font defined in theme according to the saved specified region value. Otherwise we will apply the font defined in theme according to the application environment's regional settings. This will cause the default font of the workbook (loaded from XLS template file which has specified theme data) changed, and then influence other features, such as column width, shape size, rendering effect, ...etc.
-#### **Adds Name.GetReferredAreas(bool recalculate) method**
+### **Adds Name.GetReferredAreas(bool recalculate) method**
 Provides the references referred by the defined Name like GetRanges(bool recalculate) method. But the returned references are represented by ReferredArea object which provides richer features including external links.
-#### **Adds TxtSaveOptions.KeepSeparatorsForBlankRow property**
+### **Adds TxtSaveOptions.KeepSeparatorsForBlankRow property**
 Indicates whether separators should be output for blank row. Default value is false which means the content for blank row will be empty.
-#### **Adds enum AutoFitMergedCellsType**
+### **Adds enum AutoFitMergedCellsType**
 Represents the type of auto fitting merged cells.
-#### **Obsoletes AutoFitterOptions.AutoFitMergedCells property and Adds AutoFitterOptions.AutoFitMergedCellsType property**
+### **Obsoletes AutoFitterOptions.AutoFitMergedCells property and Adds AutoFitterOptions.AutoFitMergedCellsType property**
 Gets and sets the type of auto fitting row height.
-#### **Adds JSONUtility and JsonLayoutOptions classes**
+### **Adds JSONUtility and JsonLayoutOptions classes**
 It's used to import json files.
-#### **Adds TableToRangeOptions class and ListObject.ConvertToRange(TableToRangeOptions options) method**
+### **Adds TableToRangeOptions class and ListObject.ConvertToRange(TableToRangeOptions options) method**
 Converts the table to range with options.
 
 {{% alert color="primary" %}} 

@@ -54,83 +54,83 @@ This page contains release notes for Aspose.Cells for Android via Java 19.12.
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException while loading the Excel file|Exception|
 |CELLSJAVA-43060|Exception "java.lang.NullPointerException" on Workbook.save after setting external data source as empty|Exception|
 |CELLSJAVA-42923|Exceptions while loading XLS Document |Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Cells.RemoveDuplicates() method**
+### **Adds Cells.RemoveDuplicates() method**
 Removes duplicate data of the range.
-#### **Adds OleObject.FullObjectBin property**
+### **Adds OleObject.FullObjectBin property**
 Gets the full embedded ole object binary data in the template file.
-#### **Adds ContentTypeProperty.IsNillable property**
+### **Adds ContentTypeProperty.IsNillable property**
 Indicates whether the property could be null.
-#### **Add WorkbookDesigner.SetDataSource(String,ICellsDataTable) method**
+### **Add WorkbookDesigner.SetDataSource(String,ICellsDataTable) method**
 Sets the data source for smart marker designer.
-#### **Adds ImageOrPrintOptions.PageSavingCallback property**
+### **Adds ImageOrPrintOptions.PageSavingCallback property**
 Control/Indicate progress of page saving process..
-#### **Adds ImageOrPrintOptions.IsFontSubstitutionCharGranularity property**
+### **Adds ImageOrPrintOptions.IsFontSubstitutionCharGranularity property**
 Indicates whether only substitute the font of character when the cell font is not compatibility for it.
-#### **Removes obsoleted class HTMLLoadOptions**
+### **Removes obsoleted class HTMLLoadOptions**
 Use class HtmlLoadOptions instead.
-#### **Removes obsoleted class ODSLoadOptions**
+### **Removes obsoleted class ODSLoadOptions**
 Use class OdsLoadOptions instead.
-#### **Removes obsoleted class JSONUtility**
+### **Removes obsoleted class JSONUtility**
 Use class JsonUtility instead.
-#### **Adds methods: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
+### **Adds methods: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
 Adds/Removes validation settings from given area(s) with performance consideration.
-#### **Adds Workbook.ImportXml(Stream stream, string sheetName, int row, int col) method.**
+### **Adds Workbook.ImportXml(Stream stream, string sheetName, int row, int col) method.**
 Imports an XML file stream into the workbook.
-#### **Adds Workbook.ExportXml(string mapName, Stream stream) method.**
+### **Adds Workbook.ExportXml(string mapName, Stream stream) method.**
 Export XML data to a stream.
-#### **Adds HtmlSaveOptions.ExportArea property**
+### **Adds HtmlSaveOptions.ExportArea property**
 Gets or Sets the exporting CellArea of current active Worksheet. If you set this attribute, the print area of the current active Worksheet will be omitted. Only the specified area will be exported when saving the file to HTML.
-#### **Adds classes : DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem and PowerQueryFormulaItemCollection**
+### **Adds classes : DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem and PowerQueryFormulaItemCollection**
 Gets info in the DataMashup.
-#### **Adds DBConnection.SeverCommand property.**
+### **Adds DBConnection.SeverCommand property.**
 Gets and sets a second command text string that is persisted when PivotTable server-based page fields are in use. 
-#### **Adds CellsHelper.GetTextWidth() method.**
+### **Adds CellsHelper.GetTextWidth() method.**
 Gets the width of the text in the unit of points.
-#### **Deletes obsoleted DataLabels.BaseField property**
+### **Deletes obsoleted DataLabels.BaseField property**
 Please use PivotField.BaseFieldIndex instead.
-#### **Deletes obsoleted DataLabels.BaseItem property**
+### **Deletes obsoleted DataLabels.BaseItem property**
 Please use PivotField.BaseItemIndex instead.
-#### **Deletes obsoleted DataLabels.IsValueShown property**
+### **Deletes obsoleted DataLabels.IsValueShown property**
 Use DataLabels.ShowValue property instead.
-#### **Deletes obsoleted DataLabels.IsPercentageShown property**
+### **Deletes obsoleted DataLabels.IsPercentageShown property**
 Use DataLabels.ShowPercentage property instead.
-#### **Deletes obsoleted DataLabels.IsBubbleSizeShown property**
+### **Deletes obsoleted DataLabels.IsBubbleSizeShown property**
 Use DataLabels.ShowBubbleSize property instead.
-#### **Deletes obsoleted DataLabels.IsCategoryNameShown property**
+### **Deletes obsoleted DataLabels.IsCategoryNameShown property**
 Use DataLabels.ShowCategoryName property instead.
-#### **Deletes obsoleted DataLabels.IsSeriesNameShown property**
+### **Deletes obsoleted DataLabels.IsSeriesNameShown property**
 Use DataLabels.ShowSeriesName property instead.
-#### **Deletes obsoleted DataLabels.IsLegendKeyShown property**
+### **Deletes obsoleted DataLabels.IsLegendKeyShown property**
 Use DataLabels.ShowLegendKey property instead.
-#### **Adds LoadOptions.KeepUnparsedData option**
+### **Adds LoadOptions.KeepUnparsedData option**
 The option denotes whether to keep the unparsed data in memory for the Workbook when it is loaded from a template file. If users do not need to fully save the workbook back, especially when they only need to read some special content of the workbook(such as by some kind of LoadFilter), the unparsed data is not needed anymore and they may set this property as false to get better performance. For old versions, when loading Workbook from a template file with user-specified LoadFilter, for performance consideration the unparsed data was not kept. Now we provide this option and make its default value true, it may influence the performance of users' cases of using LoadFilter. If so, users should set this property as false explicitly in their application.
-#### **Adds LoadDataFilterOptions.Picture option**
+### **Adds LoadDataFilterOptions.Picture option**
 The option denoting whether the Picture should be loaded.
-#### **Adds LoadDataFilterOptions.OleObject option**
+### **Adds LoadDataFilterOptions.OleObject option**
 The option denoting whether OleObject should be loaded.
-#### **Adds LoadDataFilterOptions.Drawing option**
+### **Adds LoadDataFilterOptions.Drawing option**
 The option denoting whether drawing objects(including Chart, Picture, OleObject, and all other drawing objects) should be loaded.
-#### **Obsoletes LoadDataFilterOptions.Shape option**
+### **Obsoletes LoadDataFilterOptions.Shape option**
 Please use (LoadDataFilterOptions.Drawing & ~LoadDataFilterOptions.Chart) instead of LoadDataFilterOptions.Shape.
-#### **Adds FormulaParseOptions class**
+### **Adds FormulaParseOptions class**
 Provides user options for setting formulas.
-#### **Adds methods: Cell.SetFormula(string formula,FormulaParseOptions options,object value),SetArrayFormula(string arrayFormula,int rowNumber,int columnNumber,FormulaParseOptions options),SetSharedFormula(string sharedFormula,int rowNumber,int columnNumber,FormulaParseOptions options)**
+### **Adds methods: Cell.SetFormula(string formula,FormulaParseOptions options,object value),SetArrayFormula(string arrayFormula,int rowNumber,int columnNumber,FormulaParseOptions options),SetSharedFormula(string sharedFormula,int rowNumber,int columnNumber,FormulaParseOptions options)**
 Sets formulas with options.
-#### **Obsoletes methods: Cell.SetFormula(string formula,bool isR1C1,bool isLocal,object value),SetArrayFormula(string arrayFormula,int rowNumber,int columnNumber,bool isR1C1,bool isLocal),SetSharedFormula(string sharedFormula,int rowNumber,int columnNumber,bool isR1C1,bool isLocal)**
+### **Obsoletes methods: Cell.SetFormula(string formula,bool isR1C1,bool isLocal,object value),SetArrayFormula(string arrayFormula,int rowNumber,int columnNumber,bool isR1C1,bool isLocal),SetSharedFormula(string sharedFormula,int rowNumber,int columnNumber,bool isR1C1,bool isLocal)**
 Please use corresponding methods with FormulaParseOptions instead.
-#### **Adds FileFormatType.OTP enum**
+### **Adds FileFormatType.OTP enum**
 Supports detecting the .OTP file format.
-#### **Adds AutoFitterOptions.AutoFitWrappedTextType property and AutoFitWrappedTextType enum.**
+### **Adds AutoFitterOptions.AutoFitWrappedTextType property and AutoFitWrappedTextType enum.**
 Gets and sets the type of auto fitting wrapped text.
-#### **Adds EmfRenderSetting class**
+### **Adds EmfRenderSetting class**
 Sets for rendering EMF metafile.
-#### **Adds PdfSaveOptions.EmfRenderSetting property**
+### **Adds PdfSaveOptions.EmfRenderSetting property**
 Sets for rendering EMF metafile while rendering to PDF file.
-#### **Adds ShapeCollection.AddSvg() method**
+### **Adds ShapeCollection.AddSvg() method**
 Adds svg image.
-#### **Adds WorkbookSettings.QuotePrefixToStyle property**
+### **Adds WorkbookSettings.QuotePrefixToStyle property**
 Indicates whether setting Style.QuotePrefix property when entering the string value(which starts with a single quote mark ) to the cell 
-#### **Adds HtmlSaveOptions.AddTooltipText property**
+### **Adds HtmlSaveOptions.AddTooltipText property**
 Indicates whether adding tooltip text when the data can't be fully displayed. The default value is false.

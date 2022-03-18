@@ -63,7 +63,7 @@ This page contains release notes for Aspose.Cells for Android via Java 21.12.
 |CELLSJAVA-44071|com.aspose.cells.CellsException: You have entered too few parameters for function IF when calling Workbook.calculateFormula()|Exception
 |CELLSJAVA-44104|NullPointerException when importing SpreadSheetML|Exception
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 

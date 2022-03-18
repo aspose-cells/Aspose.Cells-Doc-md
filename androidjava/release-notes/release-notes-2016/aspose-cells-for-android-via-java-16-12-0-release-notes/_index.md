@@ -78,85 +78,85 @@ url: /java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-41968|IndexOutOfBoundsException: Index: 23, Size: 14 while refreshing PivotChart|Exception |
 |CELLSJAVA-42014|ClassCastException while re-saving XLSX|Exception |
 |CELLSJAVA-42004|java.lang.NullPointerException, at Workbook ctor while loading the XLSX file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Shape.Reflection property and ReflectionEffect class.**
+### **Adds Shape.Reflection property and ReflectionEffect class.**
 Represents reflection effect for the chart element or shape.
-#### **Adds Shape.Glow,GlowEffect.Size and GlowEffect.Transparency proerties.**
+### **Adds Shape.Glow,GlowEffect.Size and GlowEffect.Transparency proerties.**
 Represents glow effect for the chart element or shape.
-#### **Adds LightRigType.None enum.**
+### **Adds LightRigType.None enum.**
 Represents no lighting setting.
-#### **Adds Shape.ShadowEffect property.**
+### **Adds Shape.ShadowEffect property.**
 Represents shadow effect for the chart element or shape.
-#### **Adds ExternalLink.IsVisible property.**
+### **Adds ExternalLink.IsVisible property.**
 Indicates whether the external link is visible.
-#### **Adds Shape.ThreeDFormat property and ThreeDFormat class.**
+### **Adds Shape.ThreeDFormat property and ThreeDFormat class.**
 Gets and sets 3d format of the shape.
-#### **Adds PresetCameraType enum.**
+### **Adds PresetCameraType enum.**
 Represent different algorithmic methods for setting all camera properties, including position.
-#### **Adds LightRigDirectionType enum.**
+### **Adds LightRigDirectionType enum.**
 Repesents the light rig direction type.
-#### **Adds BevelType enum.**
+### **Adds BevelType enum.**
 Represents a preset for a type of bevel which can be applied to a shape in 3D.
-#### **Adds XmlMapCollection.Add(string url) method.**
+### **Adds XmlMapCollection.Add(string url) method.**
 Add a XmlMap by the url/path of a xml file.
-#### **Adds ShapeCollection.AddWordArt() method and PresetWordArtStyle enum.**
+### **Adds ShapeCollection.AddWordArt() method and PresetWordArtStyle enum.**
 Adds preset WordArt since Excel 2007.
-#### **Adds FontSettingCollection.SetWordArtStyle() method and FontSetting.SetWordArtStyle() method.**
+### **Adds FontSettingCollection.SetWordArtStyle() method and FontSetting.SetWordArtStyle() method.**
 Sets preset WordArt style to the text of the shape.
-#### **Adds Cells.LinkToXmlMap(string mapName, int row, int column, string path) method.**
+### **Adds Cells.LinkToXmlMap(string mapName, int row, int column, string path) method.**
 Link to a xml map.
-#### **Adds ListColumn.Formula property.**
+### **Adds ListColumn.Formula property.**
 Gets and sets the formula of the list column.
-#### **Adds Workbook.AbsolutePath property.**
+### **Adds Workbook.AbsolutePath property.**
 Gets and sets the Absolute path of the file.Only for external links.
-#### **Adds GlobalizationSettings class and WorkbookSettings.GlobalizationSettings property.**
+### **Adds GlobalizationSettings class and WorkbookSettings.GlobalizationSettings property.**
 Gets and sets the globalization settings.
-#### **Removes obsoleted Cell.GetConditionalStyle() method.**
+### **Removes obsoleted Cell.GetConditionalStyle() method.**
 Use Cell.GetConditionalFormattingResult() method instead.
-#### **Removes obsoleted Cells.MaxDataRowInColumn(int column) method.**
+### **Removes obsoleted Cells.MaxDataRowInColumn(int column) method.**
 Use Cells.GetLastDataRow(int) method instead.
-#### **Removes Obsoleted PageSetup.Draft property.**
+### **Removes Obsoleted PageSetup.Draft property.**
 Use PageSetup.PrintDraft property instead.
-#### **Removes obsoleted AutoFilter.FilterColumnCollection property.**
+### **Removes obsoleted AutoFilter.FilterColumnCollection property.**
 Use AutoFilter.FilterColumns property instead.
-#### **Obsoletes the Style constructor and adds CellsFactory class.**
+### **Obsoletes the Style constructor and adds CellsFactory class.**
 Use CellsFactory.CreateStyle() method instead.
-#### **Removes obsoleted TickLabels.Rotation property.**
+### **Removes obsoleted TickLabels.Rotation property.**
 Use TickLabels.RotationAngle property instead.
-#### **Adds GridHyperlinkCollection.GetHyperlink(GridCell cell) method.**
+### **Adds GridHyperlinkCollection.GetHyperlink(GridCell cell) method.**
 Gets the cell's Hyperlink object. If there is no Hyperlink of the cell, returns null.
-#### **Adds GridHyperlinkCollection.GetHyperlink(int row,int column) method.**
+### **Adds GridHyperlinkCollection.GetHyperlink(int row,int column) method.**
 Gets the cell's Hyperlink object. If there is no Hyperlink of the cell, returns null.
-#### **Adds BuiltInDocumentPropertyCollection.ScaleCrop and BuiltInDocumentPropertyCollection.LinksUpToDate properties.**
+### **Adds BuiltInDocumentPropertyCollection.ScaleCrop and BuiltInDocumentPropertyCollection.LinksUpToDate properties.**
 Gets and sets some builtin document properties.
-#### **Deletes obsoleted DataLabels.Rotation property.**
+### **Deletes obsoleted DataLabels.Rotation property.**
 Use DataLabels.RotationAngle property instead.
-#### **Deletes obsoleted Title.Rotation property.**
+### **Deletes obsoleted Title.Rotation property.**
 Use Title.RotationAngle property instead.
-#### **Deletes obsoleted DataLabels.Background property.**
+### **Deletes obsoleted DataLabels.Background property.**
 Use DataLabels.BackgroundMode property instead.
-#### **Deletes obsoleted DisplayUnitLabel.Rotation property.**
+### **Deletes obsoleted DisplayUnitLabel.Rotation property.**
 Use DisplayUnitLabel.RotationAngle property instead.
-#### **Deletes obsoleted Title.getCharacters() method.**
+### **Deletes obsoleted Title.getCharacters() method.**
 Use Title.characters() method instead.
-#### **Adds LoadFilter class and LoadOptions.LoadFilter property**
+### **Adds LoadFilter class and LoadOptions.LoadFilter property**
 Allows user to control what data should be loaded while loading a Workbook from template file.
-#### **Obsoletes LoadOptions.LoadDataFilterOptions property**
+### **Obsoletes LoadOptions.LoadDataFilterOptions property**
 Use LoadOptions.LoadFilter property instead. Example: LoadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.All & ~LoadDataFilterOptions.Chart);
-#### **Obsoletes LoadOptions.OnlyLoadDocumentProperties property**
+### **Obsoletes LoadOptions.OnlyLoadDocumentProperties property**
 Use LoadOptions.LoadFilter property instead. Usage: LoadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.DocumentProperties);
-#### **Obsoletes LoadOptions.LoadDataAndFormatting property**
+### **Obsoletes LoadOptions.LoadDataAndFormatting property**
 Use LoadOptions.LoadFilter property instead. Usage: LoadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.CellData);
-#### **Obsoletes LoadOptions.LoadDataOptions property**
+### **Obsoletes LoadOptions.LoadDataOptions property**
 Use LoadFilter property instead, user may extend LoadFilter to filter the worksheet and data.
-#### **Adds Workbook.ExportXml(string mapName, string path) method**
+### **Adds Workbook.ExportXml(string mapName, string path) method**
 Export XML data.
-#### **Adds enum FileFormatType.OTS.**
+### **Adds enum FileFormatType.OTS.**
 Represents the OTS file format.
-#### **Adds WorksheetCollection.CreateRange() method.**
+### **Adds WorksheetCollection.CreateRange() method.**
 Creates a range.
-#### **Adds FontConfigs.PreferSystemFontSubstitutes property.**
+### **Adds FontConfigs.PreferSystemFontSubstitutes property.**
 Indicate whether to use system font substitutes first or not when a font is not presented and the substitute of this font is not set.
 
 {{% alert color="primary" %}} 

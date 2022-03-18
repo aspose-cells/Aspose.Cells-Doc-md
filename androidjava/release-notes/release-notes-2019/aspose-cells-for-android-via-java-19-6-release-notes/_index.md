@@ -42,27 +42,27 @@ This page contains release notes for Aspose.Cells for Android via Java 19.6.
 |CELLSJAVA-42859|CellsException for loading Name from ODS file|Exception|
 |CELLSJAVA-42908|Exception while calling Name.getRefersTo()|Exception|
 |CELLSJAVA-42926|IllegalStateException on loading workbook|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds StreamProviderOptions constructor**
+### **Adds StreamProviderOptions constructor**
 New StreamProviderOptions.
-#### **Adds FileFormatType.GraphChart enum**
+### **Adds FileFormatType.GraphChart enum**
 Represents the embedded graph chart file.
-#### **Adds ImportTableOptions.CheckMergedCells properties**
+### **Adds ImportTableOptions.CheckMergedCells properties**
 Indicates whether checking merged cells when importing data.
-#### **Adds ODSCellFieldCollection, ODSCellField classes and ODSCellFieldType enum**
+### **Adds ODSCellFieldCollection, ODSCellField classes and ODSCellFieldType enum**
 Represents the cell field of ODS.
-#### **Adds Cells.ODSCellFields properties**
+### **Adds Cells.ODSCellFields properties**
 Gets the list of cell fields of ODS.
-#### **Adds ODSPageBackground class and PageSetup.ODSPageBackground property**
+### **Adds ODSPageBackground class and PageSetup.ODSPageBackground property**
 Represents the background of ODS.
-#### **Adds enum FileFormatType.FODS,FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS and SaveFormat.SXC**
+### **Adds enum FileFormatType.FODS,FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS and SaveFormat.SXC**
 Represents the .FODS and .SXC file format types.
-#### **Adds enum WarningType.UnsupportedFileFormat**
+### **Adds enum WarningType.UnsupportedFileFormat**
 Represents unsupported file format for warning types.
-#### **Adds enum ODSGeneratorType**
+### **Adds enum ODSGeneratorType**
 Represents the generator type of ods.
-#### **OoxmlSaveOptions.EmbedOoxmlAsOleObject**
+### **OoxmlSaveOptions.EmbedOoxmlAsOleObject**
 Indicates whether embeding OOXML file as OleObject.
-#### **Adds Row.CopySettings(Aspose.Cells.Row,System.Boolean)**
+### **Adds Row.CopySettings(Aspose.Cells.Row,System.Boolean)**
 Copy settings of row, such as style, height, visibility, ...etc.

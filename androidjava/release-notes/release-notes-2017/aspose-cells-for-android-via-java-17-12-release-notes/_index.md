@@ -69,71 +69,71 @@ This page contains release notes for Aspose.Cells for Android via Java 17.12.
 |CELLSJAVA-42440|"java.lang.IllegalArgumentException: Invalid row index" occurred|Exception |
 |CELLSJAVA-42439|Exception: "java.lang.IllegalArgumentException: Invalid row index" |Exception |
 |CELLSJAVA-42437|Exception: java.lang.NumberFormatException when re-saving an XLSB file format|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds AbstractCalculationMonitor.Interrupt(string) method**
+### **Adds AbstractCalculationMonitor.Interrupt(string) method**
 Allows users to interrupt the progress of formula calculations.
-#### **Adds HtmlCrossType.MSExport enum**
+### **Adds HtmlCrossType.MSExport enum**
 Displays the string like MS Excel exporting HTML.
-#### **Adds Worksheet.TabId property**
+### **Adds Worksheet.TabId property**
 Gets the internal identifier for the sheet.
-#### **Adds enum OLEDBCommandType.None**
+### **Adds enum OLEDBCommandType.None**
 The command type is not specified.
-#### **Adds enum ConnectionDataSourceType**
+### **Adds enum ConnectionDataSourceType**
 Represents the data source type of connection.
-#### **Obsoletes ExternalConnection.Credentials and ExternalConnection.ReConnectionMethod property**
+### **Obsoletes ExternalConnection.Credentials and ExternalConnection.ReConnectionMethod property**
 Use ExternalConnection.CredentialsMethodType and ExternalConnection.ReconnectionMethodType property instead.
-#### **Obsoletes WebQueryConnection.EditPage property**
+### **Obsoletes WebQueryConnection.EditPage property**
 Use WebQueryConnection.EditWebPage property instead.
-#### **Adds Series.ValuesFormatCode property**
+### **Adds Series.ValuesFormatCode property**
 Represents number format code of series values.
-#### **Adds Shape.GetResultOfSmartArt() method**
+### **Adds Shape.GetResultOfSmartArt() method**
 Convert the smart art to a group shape.
-#### **Adds Shape.IsSmartArt property**
+### **Adds Shape.IsSmartArt property**
 Indicates whether the shape is smart art.
-#### **Adds Workbook.ProtectSharedWorkbook() and Workbook.UnprotectSharedWorkbook() methods**
+### **Adds Workbook.ProtectSharedWorkbook() and Workbook.UnprotectSharedWorkbook() methods**
 Protects and unprotects the shared workbook.
-#### **Adds enum StyleModifyFlag.Spacing**
+### **Adds enum StyleModifyFlag.Spacing**
 Specifies the spacing between characters within a text run.
-#### **Adds PdfSaveOptions.IgnoreError property**
+### **Adds PdfSaveOptions.IgnoreError property**
 Indicates if you need to hide the error while rendering.
-#### **Adds ImageOrPrintOptions.PageIndex property**
+### **Adds ImageOrPrintOptions.PageIndex property**
 Gets or sets the 0-based index of the first page to save.
-#### **Adds ImageOrPrintOptions.PageCount property**
+### **Adds ImageOrPrintOptions.PageCount property**
 Gets or sets the number of pages to save.
-#### **Adds XmlMap.RootElementName property**
+### **Adds XmlMap.RootElementName property**
 Gets root element name.
-#### **Adds Worksheet.XmlMapQuery(string path, XmlMap xmlMap) method**
+### **Adds Worksheet.XmlMapQuery(string path, XmlMap xmlMap) method**
 Query cell areas that mapped/linked to the specific path of xml map.
-#### **Adds LoadOptions.AutoFitterOptions property**
+### **Adds LoadOptions.AutoFitterOptions property**
 Gets and sets the auto fitter options.
-#### **Adds HtmlSaveOptions.TableCssId property**
+### **Adds HtmlSaveOptions.TableCssId property**
 Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "".
-#### **Adds Cell.FormulaLocal property**
+### **Adds Cell.FormulaLocal property**
 Gets the local formatted formula which may vary according to different locale settings for separators, built in Names, function names, ...etc. Those locales are dependent.
-#### **Adds GlobalizationSettings.GetLocalFunctionName(string standardName) method**
+### **Adds GlobalizationSettings.GetLocalFunctionName(string standardName) method**
 Gets the locale dependent function name according to given standard function name.
-#### **Adds GlobalizationSettings.GetLocalBuiltInName(string standardName) method**
+### **Adds GlobalizationSettings.GetLocalBuiltInName(string standardName) method**
 Gets the locale dependent text for built-in Name according to given standard text.
-#### **Adds GlobalizationSettings.ListSeparator property**
+### **Adds GlobalizationSettings.ListSeparator property**
 Gets the separator for list, parameters of function, ...etc.
-#### **Adds GlobalizationSettings.RowSeparatorOfFormulaArray property**
+### **Adds GlobalizationSettings.RowSeparatorOfFormulaArray property**
 Gets the separator for rows in array data in formula.
-#### **Adds GlobalizationSettings.ColumnSeparatorOfFormulaArray property**
+### **Adds GlobalizationSettings.ColumnSeparatorOfFormulaArray property**
 Gets the separator for the items in array's row data in formula.
-#### **Adds HtmlSaveOptions.ExportWorksheetCSSSeparately property**
+### **Adds HtmlSaveOptions.ExportWorksheetCSSSeparately property**
 Indicates whether exporting the worksheet css separately. The default value is false.
-#### **Adds LoadDataFilterOptions.Structure to replace LoadDataFilterOptions.None**
+### **Adds LoadDataFilterOptions.Structure to replace LoadDataFilterOptions.None**
 LoadDataFilterOptions.None gave ambiguous directions and caused confusion. It was designed to denote that load nothing for worksheet data. Now we provide new one (member), i.e., Structure to replace it.
-#### **Adds DataLabelShapeType enum**
+### **Adds DataLabelShapeType enum**
 Specifies the preset shape geometry that is to be used for a chart.
-#### **Adds DataLabels.ShapeType property**
+### **Adds DataLabels.ShapeType property**
 Gets or sets shape type of data label.
-#### **Deletes some obsoleted FileFormatType**
+### **Deletes some obsoleted FileFormatType**
 Deletes obsoleted file format types.
-#### **Added WorksheetCollection.RevisionLogs property, RevisionLogCollection class and Revisions.RevisionLog class**
+### **Added WorksheetCollection.RevisionLogs property, RevisionLogCollection class and Revisions.RevisionLog class**
 Gets setting of revision log.
-#### **Adds enum MsoDrawingType.WebExtension**
+### **Adds enum MsoDrawingType.WebExtension**
 Represents the web extension shape.
 
 {{% alert color="primary" %}} 

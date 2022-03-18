@@ -168,80 +168,80 @@ This page contains release notes for [Aspose.Cells for Android via Java 17.5](h
 |CELLSJAVA-42268|Exception: "java.lang.NullPointerException" when rendering a chart to image|Exception |
 |CELLSJAVA-42278|Exception: "java.lang.IndexOutOfBoundsException: Index: 12, Size: 12" when saving to HTML file format|Exception |
 |CELLSJAVA-42274|Exception: "java.lang.StringIndexOutOfBoundsException: String index out of range: 0" when loading an XLSX file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds setter for LoadFilter.LoadDataFilterOptions property to replace m_LoadDataFilterOptions variable**
+### **Adds setter for LoadFilter.LoadDataFilterOptions property to replace m_LoadDataFilterOptions variable**
 User may change the LoadDataFilterOptions property in their implementation of LoadFilter to change the behavior of loading workbook.
-#### **Adds CellsHelper.SignificantDigits property.**
+### **Adds CellsHelper.SignificantDigits property.**
 Gets and sets the number of significant digits.
-#### **Adds GlowEffect.Color property.**
+### **Adds GlowEffect.Color property.**
 Gets the color of the glow effect.
-#### **Adds PageSetup.PaperWidth property.**
+### **Adds PageSetup.PaperWidth property.**
 Represents the width in inches of the paper, considered page orientation.
-#### **Adds PageSetup.PaperHeight property.**
+### **Adds PageSetup.PaperHeight property.**
 Represents the height in inches of the paper, considered page orientation.
-#### **Adds WorkbookSettings.CheckCustomNumberFormat property.**
+### **Adds WorkbookSettings.CheckCustomNumberFormat property.**
 Indicates whether checking custom number format when setting Style.Custom.
-#### **Adds some chart types.**
+### **Adds some chart types.**
 Adds more chart types for MS Office 2016.
-#### **Adds DisplayUnitType.Percentage enum.**
+### **Adds DisplayUnitType.Percentage enum.**
 Represents values on the chart shall be divided by 0.01.
-#### **Adds HTMLLoadOptions.AutoFitColsAndRows property.**
+### **Adds HTMLLoadOptions.AutoFitColsAndRows property.**
 Indicates whether auto-fit columns and rows. The default value is false.
-#### **Adds WorkbookSettings.WarningCallback and LoadOptions.WarningCallback property.**
+### **Adds WorkbookSettings.WarningCallback and LoadOptions.WarningCallback property.**
 Gets and sets the warning callback.
-#### **Adds Cells.TextToColumns() method.**
+### **Adds Cells.TextToColumns() method.**
 Converts Text to Columns.
-#### **Adds Workbook.GetFonts() method.**
+### **Adds Workbook.GetFonts() method.**
 Get a List of Fonts used in a Spreadsheet.
-#### **Adds TxtSaveOptions.TrimLeadingBlankRowAndColumn property.**
+### **Adds TxtSaveOptions.TrimLeadingBlankRowAndColumn property.**
 Indicates whether leading blank rows and columns should be trimmed like what MS Excel does.
-#### **Adds BuiltInDocumentPropertyCollection.Revision property and obsoletes BuiltInDocumentPropertyCollection.RevisionNumber property.**
+### **Adds BuiltInDocumentPropertyCollection.Revision property and obsoletes BuiltInDocumentPropertyCollection.RevisionNumber property.**
 Please use BuiltInDocumentPropertyCollection.Revision property instead.
-#### **Adds Shape.TextShapeType property.**
+### **Adds Shape.TextShapeType property.**
 Gets and sets the preset text shape type.
-#### **Adds ExportTableOptions.RenameStrategy property and RenameStrategy enum.**
+### **Adds ExportTableOptions.RenameStrategy property and RenameStrategy enum.**
 Renames strategy when columns contains the duplicate names.
-#### **Adds GlobalizationSettings.GetPivotTotalName() method.**
+### **Adds GlobalizationSettings.GetPivotTotalName() method.**
 Gets the name of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area.
-#### **Adds GlobalizationSettings.GetPivotGrandTotalName() method.**
+### **Adds GlobalizationSettings.GetPivotGrandTotalName() method.**
 Gets the name of "Grand Total" label in the PivotTable.
-#### **Adds GlobalizationSettings.GetMultipleItemsName() method.**
+### **Adds GlobalizationSettings.GetMultipleItemsName() method.**
 Gets the name of "(Multiple Items)" label in the PivotTable.
-#### **Adds GlobalizationSettings.GetAllName() method.**
+### **Adds GlobalizationSettings.GetAllName() method.**
 Gets the name of "(All)" label in the PivotTable.
-#### **Adds GlobalizationSettings.GetColumnLablesName() method.**
+### **Adds GlobalizationSettings.GetColumnLablesName() method.**
 Gets the name of "Column Labels" label in the PivotTable.
-#### **Adds GlobalizationSettings.GetRowLablesName() method.**
+### **Adds GlobalizationSettings.GetRowLablesName() method.**
 Gets the name of "Row Labels" label in the PivotTable.
-#### **Adds GlobalizationSettings.GetEmptyDataName() method.**
+### **Adds GlobalizationSettings.GetEmptyDataName() method.**
 Gets the name of "(blank)" label in the PivotTable.
-#### **Adds GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType) method.**
+### **Adds GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType) method.**
 Gets the name of "PivotFieldSubtotalType" type in the PivotTable.
-#### **Adds VbaProject.Protect(bool islockedForViewing,string password) method**
+### **Adds VbaProject.Protect(bool islockedForViewing,string password) method**
 Protects or unprotects the VBA project.
-#### **Adds VbaProject.IsProtected property**
+### **Adds VbaProject.IsProtected property**
 Indicates whether the vba project is protected.
-#### **Adds VbaProject.IslockedForViewing property**
+### **Adds VbaProject.IslockedForViewing property**
 Indicates whether the VBA project is locked for viewing.
-#### **Adds CopyOptions.ExtendToAdjacentRange property**
+### **Adds CopyOptions.ExtendToAdjacentRange property**
 Indicates whether extend ranges when copying the range to adjacent range.
-#### **Deletes obsoleted Workbook.ValidateFormula(string formula) method**
-#### **Adds DataSorter.SortAsNumber property**
+### **Deletes obsoleted Workbook.ValidateFormula(string formula) method**
+### **Adds DataSorter.SortAsNumber property**
 Indicates whether sorting anything that looks like a number.
-#### **Adds ExportTableOptions.ExportAsHtmlString property**
+### **Adds ExportTableOptions.ExportAsHtmlString property**
 Exports the HTML string value of the cells to the DataTable.
-#### **Adds PageSetup.Copy(PageSetup source,CopyOptions copyOptions) method**
+### **Adds PageSetup.Copy(PageSetup source,CopyOptions copyOptions) method**
 Copies the settings of the Page Setup.
-#### **Adds ImportTableOptions.ShiftFirstRowDown property**
+### **Adds ImportTableOptions.ShiftFirstRowDown property**
 Indicates whether shifting the first row down when inserting table.
-#### **Adds PageSetup.CustomPaperSize() method**
+### **Adds PageSetup.CustomPaperSize() method**
 Sets the custom paper size, in the unit of inches.
-#### **Adds PageSetup.PrinterSettings property**
+### **Adds PageSetup.PrinterSettings property**
 Gets and sets the settings of the default printer.
-#### **Adds constants PaperSizeType.CUSTOM**
+### **Adds constants PaperSizeType.CUSTOM**
 Represents the custom paper size.
-#### **Adds constants PdfCompliance.PDF_A_1_A**
+### **Adds constants PdfCompliance.PDF_A_1_A**
 Represents PDF format compatible with PDFA-1a.
 
 {{% alert color="primary" %}} 

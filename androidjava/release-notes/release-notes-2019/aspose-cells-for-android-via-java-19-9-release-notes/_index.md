@@ -54,39 +54,39 @@ This page contains release notes for Aspose.Cells for Android via Java 19.9.
 |CELLSJAVA-42991|"Column width must be between 0 and 255" exception while converting Excel to PDF in macOS|Exception|
 |CELLSJAVA-43004|Exception java.lang.NumberFormatException: For input string: "0.0" while converting Excel to HTML|Exception|
 |CELLSJAVA-43010|IllegalArgumentException while executing deleteBlankColumns()|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Ugrades the referenced BouncyCastle library to 1.60**
+### **Ugrades the referenced BouncyCastle library to 1.60**
 The used BouncyCastle library in the release archive has been upgraded to 1.60 version.
-#### **Obsoletes HTMLLoadOptions class and adds HtmlLoadOptions class**
+### **Obsoletes HTMLLoadOptions class and adds HtmlLoadOptions class**
 Use HtmlLoadOptions class instead.
-#### **Obsoletes ODSLoadOptions class and adds OdsLoadOptions class**
+### **Obsoletes ODSLoadOptions class and adds OdsLoadOptions class**
 Use OdsLoadOptions class instead.
-#### **Obsoletes JSONUtility class and adds JsonUtility class**
+### **Obsoletes JSONUtility class and adds JsonUtility class**
 Use JsonUtility class instead.
-#### **Adds interface IPageSavingCallback**
+### **Adds interface IPageSavingCallback**
 Control/Indicate progress of page saving process.
-#### **Adds class PageSavingArgs**
+### **Adds class PageSavingArgs**
 Info for a page saving process.
-#### **Adds class PageStartSavingArgs**
+### **Adds class PageStartSavingArgs**
 Info for a page starts the saving process.
-#### **Adds class PageEndSavingArgs**
+### **Adds class PageEndSavingArgs**
 Info for a page ends the saving process.
-#### **Adds class SheetPrintingPreview**
+### **Adds class SheetPrintingPreview**
 Represents the worksheet printing preview.
-#### **Adds class WorkbookPrintingPreview**
+### **Adds class WorkbookPrintingPreview**
 Represents the workbook printing preview.
-#### **Adds QueryTable.ExternalConnection property.**
+### **Adds QueryTable.ExternalConnection property.**
 Gets the connection of the querytable.
-#### **Adds Hyperlink.LinkType property and enum TargetModeType.**
+### **Adds Hyperlink.LinkType property and enum TargetModeType.**
 Represents the link type of the hyperlink.
-#### **Removes obsoleted Chart.Rotation property.**
+### **Removes obsoleted Chart.Rotation property.**
 Use Chart.RotationAngle property instead.
-#### **Removes obsoleted Chart.IsDataTableShownproperty.**
+### **Removes obsoleted Chart.IsDataTableShownproperty.**
 Use Chart.ShowDataTableproperty instead.
-#### **Removes obsoleted Chart.IsLegendShown property.**
+### **Removes obsoleted Chart.IsLegendShown property.**
 Use Chart.ShowLegend property instead.
-#### **Removes obsoleted Axis.Crosses property.**
+### **Removes obsoleted Axis.Crosses property.**
 Use Axis.Crosses property instead.
-#### **Adds enum OoxmlCompressionType and XlsbSaveOptions.CompressionType,OoxmlSaveOptions.CompressionType properties.**
+### **Adds enum OoxmlCompressionType and XlsbSaveOptions.CompressionType,OoxmlSaveOptions.CompressionType properties.**
 Represents the compression type for OOXML files.

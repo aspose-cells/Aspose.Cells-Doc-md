@@ -89,7 +89,7 @@ This page contains release notes for Aspose.Cells for Android via Java 21.9.
 |CELLSJAVA-43632|Exception "Invalid FontUnderlineType string val" when loading an XLSX file |Exception
 |CELLSJAVA-43633|Exception "Invalid MsoLineDashStyle string val" when loading an XLSX file|Exception
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 

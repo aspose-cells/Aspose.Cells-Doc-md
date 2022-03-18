@@ -71,49 +71,49 @@ This page contains release notes for Aspose.Cells for Android via Java 20.3.
 |CELLSJAVA-43120|java.lang.NumberFormatException while converting workbook to PDF|Exception|
 |CELLSJAVA-43140|IllegalArgumentException while calling calculateFormula()|Exception|
 |CELLSJAVA-43110|Conversion to PDF - java.lang.NullPointerException|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds ReplaceOptions.RegexKey property.**
+### **Adds ReplaceOptions.RegexKey property.**
 Indicates whether the searched key is regex. If true then the searched key(to be replaced part) will be taken as user-specified regex.
-#### **Deletes obsolete ValidationCollection.Add(Aspose.Cells.Validation) method.**
+### **Deletes obsolete ValidationCollection.Add(Aspose.Cells.Validation) method.**
 Use ValidationCollection.Add(CellArea) method instead.
-#### **Adds PowerQueryFormula.FormulaDefinition property.**
+### **Adds PowerQueryFormula.FormulaDefinition property.**
 Gets the definition of the power query formula.
-#### **Adds DBConnection.PowerQueryFormula property.**
+### **Adds DBConnection.PowerQueryFormula property.**
 Gets the definition of power query formula.
-#### **Adds HtmlSaveOptions.ExportHeadings property.**
+### **Adds HtmlSaveOptions.ExportHeadings property.**
 Indicates whether exporting headings when saving the file to HTML. The default value is **false**. If you want to import the HTML file to excel, please keep the default value.
-#### **Adds XAdESType class**
+### **Adds XAdESType class**
 Type of XML Advanced Electronic Signature (XAdES).
-#### **Adds DigitalSignature.XAdESType property**
+### **Adds DigitalSignature.XAdESType property**
 Gets and sets the type of XML Advanced Electronic Signature (XAdES). The default value is None(XAdES is off).
-#### **Adds FormulaParseOptions.Parse property.**
+### **Adds FormulaParseOptions.Parse property.**
 Indicates whether parse the formula while setting a formula expression to the cell. The default is **true**. If **false**, then the input formula expression will be kept as it is for the cell until the user calls other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
-#### **Adds Workbook.ParseFormulas(bool ignoreError) method.**
+### **Adds Workbook.ParseFormulas(bool ignoreError) method.**
 Parses all formulas which have not been parsed when they were loaded or set to a cell.
-#### **Adds PivotTable.ExternalConnectionDataSource property.**
+### **Adds PivotTable.ExternalConnectionDataSource property.**
 Gets the external connection data source.
-#### **Adds FileFormatType.Numbers35 enum.**
+### **Adds FileFormatType.Numbers35 enum.**
 Represents the Number 3.5 files since office 2014. Only for throwing the file format when reading.
-#### **Adds LoadOptions.CheckDataValid property.**
+### **Adds LoadOptions.CheckDataValid property.**
 Indicates whether to check the invalid data when loading the files.
-#### **Add property LoadFilter.SheetsInLoadingOrder**
+### **Add property LoadFilter.SheetsInLoadingOrder**
 Users may override this property to specify the sheets and order to be loaded while importing workbook from a template file.
-#### **Deletes obsolete TickLabels.Background property**
+### **Deletes obsolete TickLabels.Background property**
 Use TickLabels.BackgroundMode property instead.
-#### **Obsoletes TickLabels.TextDirection property and adds TickLabels.ReadingOrder property**
+### **Obsoletes TickLabels.TextDirection property and adds TickLabels.ReadingOrder property**
 Use TickLabels.ReadingOrder property instead.
-#### **Obsoletes TickLabels.DirectionTypeproperty and adds enum ChartTextDirectionType**
+### **Obsoletes TickLabels.DirectionTypeproperty and adds enum ChartTextDirectionType**
 Represents the direction of text.
-#### **Adds Shape.RemoveActiveXControl() method.**
+### **Adds Shape.RemoveActiveXControl() method.**
 Removes ActiveX data from the shape.
-#### **Adds ThreadedComment.CreatedTime property.**
+### **Adds ThreadedComment.CreatedTime property.**
 Gets and sets the created time of threaded comments.
-#### **Adds Worksheet.UniqueId property.**
+### **Adds Worksheet.UniqueId property.**
 Gets and sets the unique id of the worksheet.
-#### **Adds enum IconSetType.ColorSmilies3 and IconSetType.Smilies3.**
+### **Adds enum IconSetType.ColorSmilies3 and IconSetType.Smilies3.**
 Represents the 3smiles icon set conditional formattings. Only for .ods file.s
-#### **Adds enum TimePeriodType.LastYear,TimePeriodType.NextYear and ThisYear.**
+### **Adds enum TimePeriodType.LastYear,TimePeriodType.NextYear and ThisYear.**
 Represents the last year, next year and this year conditional formattings. Only for .ods files.
-#### **Adds WorksheetCollection.RefreshPivotTables() method.**
+### **Adds WorksheetCollection.RefreshPivotTables() method.**
 Refreshing all pivot tables in the file.

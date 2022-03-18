@@ -80,23 +80,23 @@ url: /java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 |CELLSJAVA-41768|com.aspose.cells.Name cannot be cast to java.lang.Integer while copying Worksheets|Exception |
 |CELLSJAVA-41809|Worksheet.calculateFormula throws null pointer exception when formula is set via NameCollection|Exception |
 |CELLSJAVA-41808|java.lang.NullPointerException at Workbook.save|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds HTMLLoadOptions.DeleteRedundantSpaces property**
+### **Adds HTMLLoadOptions.DeleteRedundantSpaces property**
 Indicates whether deleting redundant spaces when the text wraps lines using <br>tag.
-#### **Obsolete LoadOptions.ConvertNumericData property and add TxtLoadOptions.ConvertNumericData property.**
+### **Obsolete LoadOptions.ConvertNumericData property and add TxtLoadOptions.ConvertNumericData property.**
 Use HTMLLoadOptions.ConvertNumericData or TxtLoadOptions.ConvertNumericData property instead.
-#### **Adds Style.QuotePrefix property.**
+### **Adds Style.QuotePrefix property.**
 Indicates whether the cell's value starts with single quote mark.
-#### **Adds QueryTable.ConnectionId property.**
+### **Adds QueryTable.ConnectionId property.**
 Gets the connection id of the query table.
-#### **Adds ExternalConnection.Id property.**
+### **Adds ExternalConnection.Id property.**
 Gets the id of the connection.
-#### **Adds ListObject.QueryTable property.**
+### **Adds ListObject.QueryTable property.**
 Gets the linked QueryTable of the table.
-#### **Adds HTMLLoadOptions.KeepPrecision property.**
+### **Adds HTMLLoadOptions.KeepPrecision property.**
 Indicates whether not parsing a string value if the length is 15.
-#### **Adds LookInType.OriginalValues property.**
+### **Adds LookInType.OriginalValues property.**
 Only find object from the original values without format.
 
 {{% alert color="primary" %}} 

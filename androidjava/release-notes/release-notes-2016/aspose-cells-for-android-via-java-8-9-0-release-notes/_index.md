@@ -81,46 +81,46 @@ url: /java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41913|Exception: "IllegalArgumentException: length" on loading an Excel (XLS) file|Exception |
 |CELLSJAVA-41911|Exception: "Error in Cell: ... -Invalid formula" while loading an Excel file via Aspose.Cells APIs|Exception |
 |CELLSJAVA-41906|Workbook constructor throws Exception: "java.lang.NumberFormatException: empty String"|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds WorkbookSetting.PaperSize property.**
+### **Adds WorkbookSetting.PaperSize property.**
 It's used to set paper size of the default printer as default paper size of the workbook.
-#### **Adds LoadDataFilterOptions class and LoadOptions.LoadDataFilterOptions property**
+### **Adds LoadDataFilterOptions class and LoadOptions.LoadDataFilterOptions property**
 It's used to specify what kind of data should be loaded when building the workbook from template file. Filtering loaded data can improve the performance for user's special purpose, especially when using LightCells APIs.
-#### **Adds Worksheet.CalculateFormula(string formula, CalculationOptions opts) method**
+### **Adds Worksheet.CalculateFormula(string formula, CalculationOptions opts) method**
 It's used to calculate given formula directly with user's custom options.
-#### **Obsoleted Shape.TextFrame property.**
+### **Obsoleted Shape.TextFrame property.**
 Use Shape.TextBody.TextAlignment property instead.
-#### **Adds Shape.TextBody property.**
+### **Adds Shape.TextBody property.**
 Presents the setting of the shape's text.
-#### **Adds DeleteOptions class**
+### **Adds DeleteOptions class**
 Represents the setting of deleting rows/columns.
-#### **Adds override Cells.DeleteBlankColumns(DeleteOptions options) and Cells.DeleteBlankColumns(DeleteOptions options) method.**
+### **Adds override Cells.DeleteBlankColumns(DeleteOptions options) and Cells.DeleteBlankColumns(DeleteOptions options) method.**
 Deletes blank rows or columns with setting.
-#### **Adds Cell.GetCharacters(flag) method**
+### **Adds Cell.GetCharacters(flag) method**
 Returns all Characters objects.
-#### **Adds OleObject.AutoLoad property**
+### **Adds OleObject.AutoLoad property**
 Specifies whether the host application for the embedded object shall be called to load the object data automatically when the parent workbook is opened.
-#### **Adds HTMLLoadOptions.SupportDivTag property**
+### **Adds HTMLLoadOptions.SupportDivTag property**
 Indicates whether support the layout of <div> tag when the HTML file contains <div> tags.The default value is false.
-#### **Adds HtmlSaveOptions.ExportGridLines property**
+### **Adds HtmlSaveOptions.ExportGridLines property**
 Indicating whether export the grid lines.The default value is false.
-#### **Adds ShapeTextAlignment.TextShapeType property**
+### **Adds ShapeTextAlignment.TextShapeType property**
 Specifies the preset geometry that will be used for a shape warp on a piece of text.
-#### **Adds LoadOptions.SetPaperSize(PaperSizeType type) method**
+### **Adds LoadOptions.SetPaperSize(PaperSizeType type) method**
 Sets the default print paper size from default printer's setting.
-#### **Deletes obsoleted Workbook.Decrypt() method.**
+### **Deletes obsoleted Workbook.Decrypt() method.**
 Please set the WorkbookSettings.Password as null.
-#### **Adds ListObject.Comment property.**
+### **Adds ListObject.Comment property.**
 Gets and sets the comment of the table.
-#### **Adds ShapeCollection.AddActiveXControl() method.**
+### **Adds ShapeCollection.AddActiveXControl() method.**
 Adds ActiveX control.
-#### **Adds HTMLLoadOptions.DefaultFontName property**
+### **Adds HTMLLoadOptions.DefaultFontName property**
 Specifies the default font name for exporting HTML, the default font will be used when the font of style does not exist. If this property is null, Aspose.Cells will use universal font which has the same family with the original font, the default value is null.
-#### **Adds PivotTable.IsExcel2003Compatible property**
+### **Adds PivotTable.IsExcel2003Compatible property**
 Specifies whether the PivotTable is compatible with Excel2003 when refreshing PivotTable. If true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters,
 it will be truncated. If false, a string will not have the aforementioned restriction.The default value is true.
-#### **Adds ImageOrPrintOptions.DefaultFont property**
+### **Adds ImageOrPrintOptions.DefaultFont property**
 When characters in the Excel are unicode and not to be set with correct font in cell style, they may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, Aspose.Cells will use System default font to show these unicode characters.
 
 {{% alert color="primary" %}} 

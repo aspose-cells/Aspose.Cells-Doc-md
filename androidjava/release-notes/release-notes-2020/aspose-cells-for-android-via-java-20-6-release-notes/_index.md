@@ -59,55 +59,55 @@ This page contains release notes for Aspose.Cells for Android via Java 20.6.
 |CELLSJAVA-43189|Exception raised while loading the XLS file|Exception|
 |CELLSJAVA-43193|NullPointerException occurred when loading some XLSX files|Exception|
 |CELLSJAVA-43200|Exception "java.lang.ArrayIndexOutOfBoundsException" on loading the file|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds ChartTextFrame.DirectionType property.**
+### **Adds ChartTextFrame.DirectionType property.**
 Gets and sets the direction of text in the chart.
-#### **Adds ChartTextFrame.ReadingOrder and obsoletes ChartTextFrame.TextDirection property.**
+### **Adds ChartTextFrame.ReadingOrder and obsoletes ChartTextFrame.TextDirection property.**
 Use ChartTextFrame.ReadingOrder property instead.
-#### **Adds classes for the enhanced features of Revisions.**
+### **Adds classes for the enhanced features of Revisions.**
 Gets the information of the revision.
-#### **Changes default value of TxtSaveOptions.TrimLeadingBlankRowAndColumn property.**
+### **Changes default value of TxtSaveOptions.TrimLeadingBlankRowAndColumn property.**
 To make the default behavior of saving CSV the same with ms excel, we changed the default value and behavior of this property. For old versions, its default value was "**false**". From 20.4, its default value becomes "**true**".
-#### **Changes the behavior for detecting blank rows/columns for saving CSV.**
+### **Changes the behavior for detecting blank rows/columns for saving CSV.**
 For old versions, we took those rows/columns which have no data but have custom settings(visibility, formatting, ...etc.) as blank. From 20.4, we do not take them as blank anymore, the new behavior is the same with ms excel.
-#### **Adds TxtSaveOptions.ExportArea property.**
+### **Adds TxtSaveOptions.ExportArea property.**
 Specifies the range of cells data to be exported. Users may use this option to get the same result with old versions for the changed behavior of TxtSaveOptions.TrimLeadingBlankRowAndColumn and blank rows/columns.
-#### **Adds UnionRange class.**
+### **Adds UnionRange class.**
 Represents union range.
-#### **Deletes obsoleted DrawObject.Image property.**
+### **Deletes obsoleted DrawObject.Image property.**
 Use DrawObject.ImageBytes property instead.
-#### **Adds Bullet.FontName property**
+### **Adds Bullet.FontName property**
 Gets and sets the font name of the bullet.
-#### **Adds WorksheetCollection.CreateUnionRange() method.**
+### **Adds WorksheetCollection.CreateUnionRange() method.**
 Creates a union range.
-#### **Deletes obsoleted SaveType enum.**
+### **Deletes obsoleted SaveType enum.**
 It's unused.
-#### **Deletes obsoleted OleObject.ImageFormat and Pictuer.ImageFormat properties.**
+### **Deletes obsoleted OleObject.ImageFormat and Pictuer.ImageFormat properties.**
 Use OleObject.ImageType and Picture.ImageType properties instead.
-#### **Adds WorkbookSettings.GetThemeFont() method.**
+### **Adds WorkbookSettings.GetThemeFont() method.**
 Gets theme font.
-#### **Adds DataLabels.LinkedSource property.**
+### **Adds DataLabels.LinkedSource property.**
 Gets and sets the linked source.
-#### **Adds DefaultEditLanguage enum.**
+### **Adds DefaultEditLanguage enum.**
 Represents the default edit language.
-#### **Adds ImageOrPrintOptions.DefaultEditLanguage property.**
+### **Adds ImageOrPrintOptions.DefaultEditLanguage property.**
 Gets or sets default edit language.
 It may display/render different layouts for text paragraphs when different edit languages are set.
-#### **Adds PdfSaveOptions.DefaultEditLanguage property.**
+### **Adds PdfSaveOptions.DefaultEditLanguage property.**
 Gets or sets default edit language.
 It may display/render different layouts for text paragraphs when different edit languages are set.
-#### **Adds ReferredArea.GetValues(bool calculateFormulas)/GetValue(int rowOffset, int colOffset, bool calculateFormulas) method.**
+### **Adds ReferredArea.GetValues(bool calculateFormulas)/GetValue(int rowOffset, int colOffset, bool calculateFormulas) method.**
 It gives the user the ability to control whether formulas should be calculated recursively in the implementation of AbstractCalculationEngine.
-#### **Adds WarningType.InvalidFontName and WarningType.InvalidTextOfDefinedName enum.**
+### **Adds WarningType.InvalidFontName and WarningType.InvalidTextOfDefinedName enum.**
 Represents the warning type.
-#### **Adds WarningInfo.CorrectedObject and WarningInfo.ErrorObject properties.**
+### **Adds WarningInfo.CorrectedObject and WarningInfo.ErrorObject properties.**
 Represents the wrong data and updated data when a warning is thrown.
-#### **Adds WorkbookDesigner.RepeatFormulasWithSubtotal properties.**
+### **Adds WorkbookDesigner.RepeatFormulasWithSubtotal properties.**
 Indicates whether repeating formulas with subtotal rows.
-#### **Adds PlotArea.IsAutomaticSize property.**
+### **Adds PlotArea.IsAutomaticSize property.**
 It indicates whether the size of the plot area is automatic.
-#### **Deletes obsoleted Style.Rotation property.**
+### **Deletes obsoleted Style.Rotation property.**
 Use Style.RotationAngle property instead.
-#### **Adds Gridweb.SetFontFolder(string fontFolder, bool recursive)/SetFontFolders(string[] fontFolders, bool recursive) method.**
+### **Adds Gridweb.SetFontFolder(string fontFolder, bool recursive)/SetFontFolders(string[] fontFolders, bool recursive) method.**
 Sets the fonts folder/folders

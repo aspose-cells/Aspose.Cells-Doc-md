@@ -68,7 +68,7 @@ This page contains release notes for Aspose.Cells for Android via Java 21.6.
 |CELLSJAVA-43453|NullPointerException on Workbook.save method|Exception
 |CELLSJAVA-43486|NullPointerException when converting an HTML document to a Workbook|Exception
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Android via Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
