@@ -4,7 +4,7 @@ linktitle: Add Text Box to Worksheet
 type: docs
 weight: 10
 url: /java/add-text-box-to-worksheet-in-aspose-cells/
-aliases: /java/add-text-box-to-worksheet/
+aliases: [/java/add-text-box-to-worksheet/]
 description: How to add/insert TextBox to Worksheet in Aspose.Cells.
 keywors: add/insert Text Box TextBox Worksheet Excel Aspose
 ---
