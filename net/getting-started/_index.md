@@ -11,9 +11,9 @@ This page will show you how to install Aspose Cells, and create a Hello World ap
 
 {{% /alert %}}
 
-## **How To Install**
+## **Installation**
 
-### **Install Aspose Cells through NuGet.**
+### **Install Aspose.Cells through NuGet.**
 
 NuGet is the easiest way to download and install Aspose.Cells for .NET. 
 
@@ -28,7 +28,7 @@ You can also download it from the nuget web page for aspose.cells:
 
 [More step for details](/cells/net/installation/)
 
-### **Install Aspose Cells on windows.**
+### **Install Aspose.Cells on windows.**
 
 1. Download Aspose.Cells.msi from the following page:
 [Download Aspose.Cells.msi](https://downloads.aspose.com/cells/net/)
@@ -38,7 +38,7 @@ You can also download it from the nuget web page for aspose.cells:
 
 [More step for details](/cells/net/installing-aspose-cells-on-windows/)
 
-### **How to use Aspose Cells on linux.**
+### **Install Aspose.Cells on linux.**
 
 In this example, I use Ubuntu to show how to start using Aspose.Cells on linux.
 
@@ -58,7 +58,7 @@ Note: Aspose.Cells For .NetStandard can support your requirement on linux.
 
 Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 and advanced version.
 
-### **How to use Aspose Cells on MAC OS.**
+### **Install Aspose.Cells on MAC OS.**
 
 In this example, I use macOS High Sierra to show how to start using Aspose.Cells on MAC OS.
 
@@ -72,9 +72,9 @@ Note: Aspose.Cells For .NetStandard can support your requirement on MAC OS.
 
 Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 and advanced version.
 
-### **How to run Aspose Cells on Docker.**
+### **Run Aspose Cells in Docker.**
 
-[How to Run Aspose Cells on Docker](/cells/net/how-to-run-aspose-cells-in-docker/)
+[How to Run Aspose Cells in Docker](/cells/net/how-to-run-aspose-cells-in-docker/)
 
 ## **Creating the Hello World Application**
 
