@@ -39,9 +39,11 @@ Maven is the easiest way to download and install Aspose.Cells for Java.
 1. Enter the \JDK 1.6\aspose-cells-{version}-java\lib\ directory, install the JAR packages manually with Eclipse or Intellij.
 
 Install Aspose Cells for Java with Eclipse:
+
 **![Eclipse install Aspose Cells for Java](Eclipse_install.png)**
 
 Install Aspose Cells for Java with Intellij:
+
 **![IntelliJ install Aspose Cells for Java](IntelliJ_install.png)**
 
 ## **Creating the Hello World Application**

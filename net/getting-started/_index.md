@@ -50,6 +50,7 @@ In this example, I use Ubuntu to show how to start using Aspose.Cells on linux.
   </ItemGroup>
 {{< /highlight >}}
 3. Open the project with VSCode on Ubuntu:
+
 **![Install Aspose Cells on linux](install-on-linux.png)**
 4. run test with the following code:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnLinux.cs" >}}
