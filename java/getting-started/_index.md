@@ -21,9 +21,9 @@ Aspose.Cells for Java supports the following Java versions:
 
 [More details](/cells/java/system-requirements/)
 
-## **How To Install**
+## **Installation**
 
-### **Install Aspose Cells for Java from Maven Repository.**
+### **Install Aspose Cells for Java from Maven Repository**
 
 Maven is the easiest way to download and install Aspose.Cells for Java. 
 
@@ -32,7 +32,7 @@ Maven is the easiest way to download and install Aspose.Cells for Java.
 
 [More step for details](/cells/java/installation/)
 
-### **Install Aspose Cells for Java manually.**
+### **Install Aspose Cells for Java manually**
 
 1. [Download aspose-cells-{version}-java.zip](https://downloads.aspose.com/cells/java/)
 1. Unzip the package, enter the \JDK 1.6\ directory, unzip aspose-cells-{version}-java.zip.

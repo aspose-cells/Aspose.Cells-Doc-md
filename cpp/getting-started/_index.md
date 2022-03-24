@@ -3,17 +3,18 @@ title: Getting Started
 type: docs
 weight: 10
 url: /cpp/getting-started/
+description: How to install Aspose Cells for C++ and create a Hello World application.
 ---
 
 {{% alert color="primary" %}} 
 
-This page will show you how to install Aspose Cells, and create a Hello World application.
+This page will show you how to install Aspose Cells for C++ and create a Hello World application.
 
 {{% /alert %}}
 
-## **How To Install**
+## **Installation**
 
-### **Install Aspose Cells through NuGet.**
+### **Install Aspose Cells through NuGet**
 
 NuGet is the easiest way to download and install Aspose.Cells for C++. 
 1. Create a Microsoft Visual Studio project for C++.
@@ -29,7 +30,7 @@ You can also download it from the nuget web page for aspose.cells:
 
 [More step for details](/cells/cpp/installation/)
 
-### **A demo for using Aspose.Cells for C++ on Windows.**
+### **A demo for using Aspose.Cells for C++ on Windows**
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
@@ -38,7 +39,7 @@ You can also download it from the nuget web page for aspose.cells:
 4. main.cpp: this file shows how to code to test Aspose.Cells for C++
 5. sourceFile/resultFile: these two folders are storage directories used in main.cpp 
 
-### **How to use Aspose.Cells for C++ on Linux OS.**
+### **How to use Aspose.Cells for C++ on Linux OS**
 
 1. Download Aspose.Cells for C++ from the following page:
 [Download Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)

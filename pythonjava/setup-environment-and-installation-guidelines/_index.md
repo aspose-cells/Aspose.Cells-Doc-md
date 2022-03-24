@@ -5,7 +5,7 @@ weight: 20
 url: /pythonjava/setup-environment-and-installation-guidelines/
 aliases: [/java/aspose-cells-for-python-via-java-system-requirements/, /pythonjava/system-requirements/]
 keywords: "python, excel, install"
-description: "setup Aspose.Cells for Python via Java and installation guidelines."
+description: Setup Aspose.Cells for Python via Java and installation guidelines.
 ---
 
 ## **System Requirements**

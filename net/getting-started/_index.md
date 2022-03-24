@@ -74,8 +74,6 @@ Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 and advanced 
 
 ### **[Run Aspose Cells in Docker](/cells/net/how-to-run-aspose-cells-in-docker/)**
 
-[How to Run Aspose Cells in Docker](/cells/net/how-to-run-aspose-cells-in-docker/)
-
 ## **Creating the Hello World Application**
 
 The steps below creates the Hello World application using the Aspose.Cells API:
