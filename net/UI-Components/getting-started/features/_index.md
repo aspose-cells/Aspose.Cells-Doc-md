@@ -90,3 +90,8 @@ The following table summarizes the features available in **Aspose.Cells.GridDesk
 |Handle Grid Events |**X**|**X**| |
 |**Sessionless Mode**| | | |
 |Use Grid in Sessionless mode | |**X**| |
+
+## **Advance topics**
+- [Aspose.Cells.GridDesktop - Desktop Grid Control](/cells/net/aspose-cells-griddesktop-desktop-grid-control/)
+- [Aspose.Cells.GridJs](/cells/net/aspose-cells-gridjs-features/)
+- [Aspose.Cells.GridWeb - Web Grid Control](/cells/net/aspose-cells-gridweb-web-grid-control/)
