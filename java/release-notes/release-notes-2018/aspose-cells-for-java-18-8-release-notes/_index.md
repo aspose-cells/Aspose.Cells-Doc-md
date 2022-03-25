@@ -34,23 +34,23 @@ This page contains release notes for Aspose.Cells for Java 18.8.
 |CELLSJAVA-42689|NullPointerException exception raised while calling the CalculateFormula|Exception |
 |CELLSJAVA-42678|Exception when rendering worksheet to PNG file format|Exception |
 |CELLSJAVA-42411|Error in Cell: E22-Invalid formula - exception on opening MS Excel file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds PdfSecurityOptions.AccessibilityExtractContent property**
+### **Adds PdfSecurityOptions.AccessibilityExtractContent property**
 Permission to copy or extract content (in support of accessibility to disabled users or for other purposes).
-#### **Adds SubtotalSetting class**
+### **Adds SubtotalSetting class**
 Represents the setting of subtotal.
-#### **Adds Cells.RetrieveSubtotalSetting(CellArea) method**
+### **Adds Cells.RetrieveSubtotalSetting(CellArea) method**
 Retrieves the setting of subtotal.
-#### **Adds overload Range.ExportDataTable(Aspose.Cells.ExportTableOptions) method.**
+### **Adds overload Range.ExportDataTable(Aspose.Cells.ExportTableOptions) method.**
 Supports options of exporting range.
-#### **Adds WebQueryConnection.IsSameSetting property and deletes WebQueryConnection.IsFirstRow property**
+### **Adds WebQueryConnection.IsSameSetting property and deletes WebQueryConnection.IsFirstRow property**
 Use WebQueryConnection.IsSameSetting property instead.
-#### **Adds WebQueryConnection.IsXmlSourceData property and deletes WebQueryConnection.IsSourceData property**
+### **Adds WebQueryConnection.IsXmlSourceData property and deletes WebQueryConnection.IsSourceData property**
 Use WebQueryConnection.IsXmlSourceData property instead.
-#### **Adds Shape.IsEquation property**
+### **Adds Shape.IsEquation property**
 Indicates whether the shape contains equation.
-#### **Adds overload Cells.CopyColumns(Int32,Int32,PasteOptions) and Cels.CopyRows(Int32,Int32,PasteOptions) method**
+### **Adds overload Cells.CopyColumns(Int32,Int32,PasteOptions) and Cels.CopyRows(Int32,Int32,PasteOptions) method**
 Supports paste options when copying rows and columns.
-#### **Adds Axis.IsAutoTickLabelSpacing property**
+### **Adds Axis.IsAutoTickLabelSpacing property**
 Indicates whether tick label spacing is automatic.

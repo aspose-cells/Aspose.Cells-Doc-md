@@ -29,17 +29,17 @@ This page contains release notes for Aspose.Cells for Java 19.5.
 |CELLSJAVA-42881|Exception "java.lang.IllegalStateException: Invalid encoding: null " when loading an MS Excel 5.0/95 XLS file|Exception|
 |CELLSJAVA-42884|Exception "java.lang.ArrayIndexOutOfBoundsException" when loading an MS Excel 5.0/95 XLS file|Exception|
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds StreamProviderOptions constructor**
+### **Adds StreamProviderOptions constructor**
 New StreamProviderOptions.
-#### **Adds FileFormatType.GraphChart enum**
+### **Adds FileFormatType.GraphChart enum**
 Represents the embedded graph chart file.
-#### **Adds ImportTableOptions.CheckMergedCells properties**
+### **Adds ImportTableOptions.CheckMergedCells properties**
 Indicates whether checking merged cells when importing data.
-#### **Adds ODSCellFieldCollection, ODSCellField classes and ODSCellFieldType enum**
+### **Adds ODSCellFieldCollection, ODSCellField classes and ODSCellFieldType enum**
 Represents the cell field of ODS.
-#### **Adds Cells.ODSCellFields properties**
+### **Adds Cells.ODSCellFields properties**
 Gets the list of cell fields of ODS.
-#### **Adds ODSPageBackground class and PageSetup.ODSPageBackground property**
+### **Adds ODSPageBackground class and PageSetup.ODSPageBackground property**
 Represents the background of ODS.

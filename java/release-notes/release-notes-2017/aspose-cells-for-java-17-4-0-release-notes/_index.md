@@ -44,15 +44,15 @@ This page contains release notes for [Aspose.Cells for Java 17.4.0](https://down
 |CELLSJAVA-42217|After accessing VbaModule via Aspose API, the resulting Excel file has broken vba project|Bug |
 |CELLSJAVA-42213|Font unintentionally is changing its size in comment with a CR embedded in it|Bug |
 |CELLSJAVA-42231|Exception occurs on inserting rows|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds VbaProject.Protect(bool islockedForViewing,string password) method**
+### **Adds VbaProject.Protect(bool islockedForViewing,string password) method**
 Protects or unprotects the VBA project.
-#### **Adds VbaProject.IsProtected property**
+### **Adds VbaProject.IsProtected property**
 Indicates whether the vba project is protected.
-#### **Adds VbaProject.IslockedForViewing property**
+### **Adds VbaProject.IslockedForViewing property**
 Indicates whether the VBA project is locked for viewing.
-#### **Adds CopyOptions.ExtendToAdjacentRange property**
+### **Adds CopyOptions.ExtendToAdjacentRange property**
 Indicates whether extend ranges when copying the range to adjacent range.
 
 {{< highlight java >}}
@@ -70,10 +70,10 @@ Cells cells = ws.getCells();
 cells.copyRows(cells, 0, 1, 1, co);
 
 {{< /highlight >}}
-#### **Deletes obsoleted Workbook.ValidateFormula(string formula) method**
-#### **Adds DataSorter.SortAsNumber property**
+### **Deletes obsoleted Workbook.ValidateFormula(string formula) method**
+### **Adds DataSorter.SortAsNumber property**
 Indicates whether sorting anything that looks like a number.
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Specifying Sort Warning While Sorting Data](/cells/java/specifying-sort-warning-while-sorting-data/)

@@ -29,9 +29,9 @@ This page contains release notes for [Aspose.Cells for Java 17.3.0](https://down
 |CELLSJAVA-42195|Waterfall chart, Total series looks wrong |Bug |
 |CELLSJAVA-42181|Protected view after re-saving an XLS file|Bug |
 |CELLSJAVA-42045|Radar chart image is not generated|Bug |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Customize Globalization Settings of a Pivot Table**
+### **Customize Globalization Settings of a Pivot Table**
 Using the recent 17.3.0 or higher version, developers can customize the globalization settings of a pivot table in an Excel file. They may change the Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values text as per the requirements. Developers can incorporate this feature in their .NET applications, regardless of the Excel text language. It may be Arabic, Hindi, Polish, etc. All the new supported methods are listed below:
 
 1. **Adds GlobalizationSettings.getPivotTotalName() method** - It gets the name of "Total" label in the PivotTable. Developers can override this method when the PivotTable contains two or more PivotFields in the data area.
@@ -292,7 +292,7 @@ class CustomPivotTableGlobalizationSettings extends GlobalizationSettings
 }//End CustomPivotTableGlobalizationSettings
 
 {{< /highlight >}}
-#### **Execute the Client Side Script on Page Change Event of GridWeb Control**
+### **Execute the Client Side Script on Page Change Event of GridWeb Control**
 Using OnPageChangeClientFunction property of GridWeb control, developers can execute a client side script on the page change event because the GridWeb control can hold data in multiple pages. They may need to display the current page index in their web applications.
 
 1. **Adds an OnPageChangeClientFunction property in GridWeb Control** - it gets or sets the client side script function to be called when the page index is changing. It only takes effect when EnablePaging is true.
@@ -322,9 +322,9 @@ gridweb.setEnablePaging(true);
 gridweb.setOnPageChangeClientFunction("MyOnPageChange");
 
 {{< /highlight >}}
-#### **Validate the Entire Excel Worksheet**
+### **Validate the Entire Excel Worksheet**
 By default, GridWeb validates only the updated cells and does not validate the entire Excel worksheet. However, if developers require to validate the entire Excel worksheet on client side before GridWeb posts request to the server, then you should set the needValidateall variable inside the acwmain.js to true.
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs: 
 
 1. [Customize Globalization Settings for Pivot Table](/cells/java/customize-globalization-settings-for-pivot-table/)

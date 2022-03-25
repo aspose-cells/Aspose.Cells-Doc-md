@@ -29,23 +29,23 @@ This page contains release notes for Aspose.Cells for Java 19.7.
 |CELLSJAVA-42954|Exception raised while loading and saving the XLSX|Exception|
 |CELLSJAVA-42957|Invalid FontUnderlineType value is thrown when saving XLSX|Exception|
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Upgrades the referenced BouncyCastle library to 1.60**
+### **Upgrades the referenced BouncyCastle library to 1.60**
 The enclosed BouncyCastle library in the release archive has been upgraded to 1.60 version. However, Aspose.Cells is compatible with old versions too, so the user can still use the old versions such as 1.46.
-#### **Obsoletes HTMLLoadOptions class and adds HtmlLoadOptions class**
+### **Obsoletes HTMLLoadOptions class and adds HtmlLoadOptions class**
 Use HtmlLoadOptions class instead.
-#### **Obsoletes ODSLoadOptions class and adds OdsLoadOptions class**
+### **Obsoletes ODSLoadOptions class and adds OdsLoadOptions class**
 Use OdsLoadOptions class instead.
-#### **Obsoletes JSONUtility class and adds JsonUtilityclass**
+### **Obsoletes JSONUtility class and adds JsonUtilityclass**
 Use JsonUtilityclass class instead.
-#### **Adds interface IPageSavingCallback**
+### **Adds interface IPageSavingCallback**
 Control/Indicate progress of page saving process.
-#### **Adds class PageSavingArgs**
+### **Adds class PageSavingArgs**
 Info for a page saving process.
-#### **Adds class PageStartSavingArgs**
+### **Adds class PageStartSavingArgs**
 Info for a page starts saving process.
-#### **Adds class PageEndSavingArgs**
+### **Adds class PageEndSavingArgs**
 Info for a page ends saving process.
-#### **Adds PdfSaveOptions.PageSavingCallback property**
+### **Adds PdfSaveOptions.PageSavingCallback property**
 Control/Indicate progress of page saving process.

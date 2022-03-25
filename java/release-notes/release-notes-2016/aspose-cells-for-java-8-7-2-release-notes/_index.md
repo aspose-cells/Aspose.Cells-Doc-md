@@ -5,7 +5,7 @@ weight: 120
 url: /java/aspose-cells-for-java-8-7-2-release-notes/
 ---
 
-### **Other Improvements and Changes**
+## **Other Improvements and Changes**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -33,13 +33,13 @@ url: /java/aspose-cells-for-java-8-7-2-release-notes/
 |CELLSJAVA-41636 |Cell format problem - display value is not correct in GridWeb (JAVA) |Bug  |
 |CELLSJAVA-41746 |java.lang.OutOfMemoryError: GC overhead limit exceeded, while saving spreadsheet to PDF |Exception  |
 |CELLSJAVA-41768 |com.aspose.cells.Name cannot be casted to java.lang.Integer while copying Worksheets |Exception  |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds TextBoxCollection[string] property.**
+### **Adds TextBoxCollection[string] property.**
 Gets the text box by the name.
-#### **Adds AbstractCalculationEngine and CalculationData class.**
+### **Adds AbstractCalculationEngine and CalculationData class.**
 New API for user to implement their own calculation engine to extend the default calculation engine of Aspose.Cells.
-#### **Adds CalculationOptions.CustomEngine property.**
+### **Adds CalculationOptions.CustomEngine property.**
 Allow user to use the new custom calculation engine to calculate formulas.
 
 {{% alert color="primary" %}} 

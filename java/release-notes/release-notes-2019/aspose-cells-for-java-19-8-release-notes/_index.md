@@ -29,13 +29,13 @@ This page contains release notes for Aspose.Cells for Java 19.8.
 |CELLSJAVA-42980|Transparent image changes to opaque during picture copy|Bug|
 |CELLSJAVA-42959|Exception "Shape to image Error" when rendering an XLSX file to PDF|Exception|
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds class SheetPrintingPreview**
+### **Adds class SheetPrintingPreview**
 Represents the worksheet printing preview.
-#### **Adds class WorkbookPrintingPreview**
+### **Adds class WorkbookPrintingPreview**
 Represents the workbook printing preview.
-#### **Adds QueryTable.ExternalConnection property.**
+### **Adds QueryTable.ExternalConnection property.**
 Gets the connection of the querytable.
-#### **Adds Hyperlink.LinkType property and enum TargetModeType.**
+### **Adds Hyperlink.LinkType property and enum TargetModeType.**
 Represents the link type of the hyperlink.

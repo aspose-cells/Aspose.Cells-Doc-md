@@ -32,39 +32,39 @@ This page contains release notes for Aspose.Cells for Java 19.4.
 |CELLSJAVA-42860|java.lang.NullPointerException when loading an ODS file format|Exception|
 |CELLSJAVA-42871|java.lang.Exception: Unsupported clone for backed stream while converting XLSX to PDF|Exception|
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds APIs for saving Markdown document: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
+### **Adds APIs for saving Markdown document: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Supports to save cells content as markdown table. With Workbook.Save() method, all cell contents in the active sheet will be exported as a table in the markdown document.
-#### **Removes obsolete properties of TxtLoadOptions**
+### **Removes obsolete properties of TxtLoadOptions**
 Please use LoadStyleStrategy property instead of KeepExactFormat.
-#### **Removes obsolete class LoadDataOption**
+### **Removes obsolete class LoadDataOption**
 Please use LoadFilter class and LoadOptions.LoadFilter property instead.
-#### **Removes obsolete properties of LoadOptions**
+### **Removes obsolete properties of LoadOptions**
 LoadOptions.ConvertNumericData: please use this property with corresponding subclass of LoadOptions, such as TxtLoadOptions.
 LoadOptions.LoadDataOptions: please use LoadOptions.LoadFilter property with custom implementation of LoadFilter.
 LoadOptions.LoadDataFilterOptions: please use LoadOptions.LoadFilter.LoadDataFilterOptions instead.
 LoadOptions.OnlyLoadDocumentProperties: please use LoadOptions.LoadFilter.LoadDataFilterOptions=LoadDataFilterOptions.DocumentProperties.
 LoadOptions.LoadDataAndFormatting/LoadDataOnly: please use LoadOptions.LoadFilter.LoadDataFilterOptions=LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames.
-#### **Adds PdfSaveOptions.ExportDocumentStructure property**
+### **Adds PdfSaveOptions.ExportDocumentStructure property**
 Gets or sets a value determining whether or not to export document structure.
-#### **Adds classes of Aspose.Cells.WebExtensions namespace**
+### **Adds classes of Aspose.Cells.WebExtensions namespace**
 Represents the WebExtensions and WebExtensionTasks.
-#### **Adds WorksheetCollection.WebExtensions and WorksheetCollection.WebExtensionTaskPanes properties.**
+### **Adds WorksheetCollection.WebExtensions and WorksheetCollection.WebExtensionTaskPanes properties.**
 Represents all WebExtensions and WebExtensionTasks. 
-#### **Adds WebExtensionShape class.**
+### **Adds WebExtensionShape class.**
 Represents the shape of WebExtension. 
-#### **Adds Cells.InsertCutCells() method.**
+### **Adds Cells.InsertCutCells() method.**
 Inserts cut cells. 
-#### **Adds Cells.SetViewColumnWidthPixel method.**
+### **Adds Cells.SetViewColumnWidthPixel method.**
 Sets the view width of the column.
-#### **Adds ThreadedCommentCollection and ThreadedComment classes.**
+### **Adds ThreadedCommentCollection and ThreadedComment classes.**
 Represents the threaded comment. 
-#### **Adds WorksheetCollection.ThreadedCommentAuthors property.**
+### **Adds WorksheetCollection.ThreadedCommentAuthors property.**
 Gets and sets the authors of threaded comments.
-#### **Adds Comment.ThreadedComments property.**
+### **Adds Comment.ThreadedComments property.**
 Represents the threaded comments on the comment.
-#### **Adds CommentCollection.AddThreadedComment() and CommentCollection.GetThreadedComments() methods.**
+### **Adds CommentCollection.AddThreadedComment() and CommentCollection.GetThreadedComments() methods.**
 Adds and gets the threaded comments.
-#### **Adds Chart.SubTitle property.**
+### **Adds Chart.SubTitle property.**
 Gets the chart's sub-title. Only for ODS format file.

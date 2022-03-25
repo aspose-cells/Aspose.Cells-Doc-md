@@ -25,29 +25,29 @@ This page contains release notes for [Aspose.Cells for Java 20.4](https://downlo
 |CELLSJAVA-43158|IllegalArgumentException: Map size(0) must be >= 1|Exception|
 |CELLSJAVA-43149|Exception raised while saving XLSM after removing worksheet|Exception|
 |CELLSJAVA-43150|Exception "java.lang.NumberFormatException" on file loading|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds ChartTextFrame.DirectionType property.**
+### **Adds ChartTextFrame.DirectionType property.**
 Gets and sets the direction of text in the chart.
-#### **Adds ChartTextFrame.ReadingOrder and obsoletes ChartTextFrame.TextDirection property.**
+### **Adds ChartTextFrame.ReadingOrder and obsoletes ChartTextFrame.TextDirection property.**
 Use ChartTextFrame.ReadingOrder property instead.
-#### **Adds classes for the enhanced feature of Revisions.**
+### **Adds classes for the enhanced feature of Revisions.**
 Gets the information of the revision.
-#### **Changes default value of TxtSaveOptions.TrimLeadingBlankRowAndColumn property.**
+### **Changes default value of TxtSaveOptions.TrimLeadingBlankRowAndColumn property.**
 To make the default behavior of saving CSV the same with ms excel, we changed the default value and behavior of this property. For old versions, its default value was "false". From 20.4, its default value becomes "true".
-#### **Changes the behavior for detecting blank rows/columns for saving CSV.**
+### **Changes the behavior for detecting blank rows/columns for saving CSV.**
 For old versions, we took those rows/columns which have no data but have custom settings(visibility, formatting, ...etc.) as blank. From 20.4, we do not take them as blank anymore, the new behavior is the same with ms excel.
-#### **Adds TxtSaveOptions.ExportArea property.**
+### **Adds TxtSaveOptions.ExportArea property.**
 Specifies the range of cells data to be exported. Users may use this option to get the same result with old versions for the changed behavior of TxtSaveOptions.TrimLeadingBlankRowAndColumn and blank rows/columns.
-#### **Adds UnionRange class.**
+### **Adds UnionRange class.**
 Represents union range.
-#### **Deletes obsoleted DrawObject.Image property.**
+### **Deletes obsoleted DrawObject.Image property.**
 Use DrawObject.ImageBytes property instead.
-#### **Adds Bullet.FontName property**
+### **Adds Bullet.FontName property**
 Gets and sets the font name of the bullet.
-#### **Adds WorksheetCollection.CreateUnionRange() method.**
+### **Adds WorksheetCollection.CreateUnionRange() method.**
 It creates a union range. 
-#### **Deletes obsoleted SaveType enum.**
+### **Deletes obsoleted SaveType enum.**
 It's unused.
-#### **Deletes obsoleted OleObject.ImageFormat and Picture.ImageFormat properties.**
+### **Deletes obsoleted OleObject.ImageFormat and Picture.ImageFormat properties.**
 Use OleObject.ImageType and Picture.ImageType properties instead.

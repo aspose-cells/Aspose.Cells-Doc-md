@@ -5,7 +5,7 @@ weight: 80
 url: /java/aspose-cells-for-java-8-8-3-release-notes/
 ---
 
-### **1) Aspose.Cells**
+## **1) Aspose.Cells**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -36,25 +36,25 @@ url: /java/aspose-cells-for-java-8-8-3-release-notes/
 |CELLSJAVA-41858|CellsException: Error in calculating Cell[0BMW CAN Bus Codes V0.4!R4], at Workbook.calculateFormula|Exception |
 |CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 at Workbook.save while re-saving XLS|Exception |
 |CELLSJAVA-41864|Exception: java.lang.IllegalStateException: Invalid encoding: null on re-saving an XLS file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Cell.GetCharacters(flag) method**
+### **Adds Cell.GetCharacters(flag) method**
 Returns all Characters objects.
-#### **Adds OleObject.AutoLoad property**
+### **Adds OleObject.AutoLoad property**
 Specifies whether the host application for the embedded object shall be called to load the object data automatically when the parent workbook is opened.
-#### **Adds HTMLLoadOptions.SupportDivTag property**
+### **Adds HTMLLoadOptions.SupportDivTag property**
 Indicates whether to support the layout of <div> tag when the html file contains <div> tags.The default value is false.
-#### **Adds HtmlSaveOptions.ExportGridLines property**
+### **Adds HtmlSaveOptions.ExportGridLines property**
 Indicating whether to export the gridlines. The default value is false.
-#### **Adds ShapeTextAlignment.TextShapeType property**
+### **Adds ShapeTextAlignment.TextShapeType property**
 Specifies the preset geometry that will be used for a shape warp on a piece of text.
-#### **Adds LoadOptions.SetPaperSize(PaperSizeType type) method**
+### **Adds LoadOptions.SetPaperSize(PaperSizeType type) method**
 Sets the default print paper size from default printer's setting.
-#### **Deletes obsoleted Workbook.Decrypt() method**
+### **Deletes obsoleted Workbook.Decrypt() method**
 Please set the WorkbookSettings.Password as null.
-#### **Adds ListObject.Comment property**
+### **Adds ListObject.Comment property**
 Gets and sets the comment of the table.
-#### **Adds ShapeCollection.AddActiveXControl() method**
+### **Adds ShapeCollection.AddActiveXControl() method**
 Adds ActiveX control.
 
 {{% alert color="primary" %}} 

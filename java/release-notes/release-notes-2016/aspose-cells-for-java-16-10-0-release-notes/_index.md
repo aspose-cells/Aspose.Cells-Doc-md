@@ -27,35 +27,35 @@ url: /java/aspose-cells-for-java-16-10-0-release-notes/
 |CELLSJAVA-41987 |NullPointerException while opening a1.xlsm file |Exception  |
 |CELLSJAVA-41968 |IndexOutOfBoundsException: Index: 23, Size: 14 while refreshing PivotChart |Exception  |
 |CELLSJAVA-42014 |ClassCastException: com.aspose.cells.zadp cannot be cast to com.aspose.cells.zadq while re-saving XLSX |Exception  |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Shape.Reflection property and ReflectionEffect class**
+### **Adds Shape.Reflection property and ReflectionEffect class**
 Represents reflection effect for the chart element or shape.
-#### **Adds Shape.Glow, GlowEffect.Size and GlowEffect.Transparency properties**
+### **Adds Shape.Glow, GlowEffect.Size and GlowEffect.Transparency properties**
 Represents glow effect for the chart element or shape.
-#### **Adds LightRigType.None enum**
+### **Adds LightRigType.None enum**
 Represents no lighting setting.
-#### **Adds Shape.ShadowEffect property**
+### **Adds Shape.ShadowEffect property**
 Represents shadow effect for the chart element or shape.
-#### **Adds ExternalLink.IsVisible property**
+### **Adds ExternalLink.IsVisible property**
 Indicates whether the external link is visible.
-#### **Adds Shape.ThreeDFormat property and ThreeDFormat class**
+### **Adds Shape.ThreeDFormat property and ThreeDFormat class**
 Gets and sets 3d format of the shape.
-#### **Adds PresetCameraType enum**
+### **Adds PresetCameraType enum**
 Represents different algorithmic methods for setting all camera properties, including position.
-#### **Adds LightRigDirectionType enum**
+### **Adds LightRigDirectionType enum**
 Represents the light rig direction type.
-#### **Adds BevelType enum**
+### **Adds BevelType enum**
 Represents a preset for a type of bevel which can be applied to a shape in 3D.
-#### **Adds XmlMapCollection.Add(string url) method**
+### **Adds XmlMapCollection.Add(string url) method**
 Adds an XmlMap by the url/path of an XML file.
-#### **Adds ShapeCollection.AddWordArt() method and PresetWordArtStyle enum**
+### **Adds ShapeCollection.AddWordArt() method and PresetWordArtStyle enum**
 Adds preset WordArt since MS Excel 2007.
-#### **Adds FontSettingCollection.SetWordArtStyle() method and FontSetting.SetWordArtStyle() method**
+### **Adds FontSettingCollection.SetWordArtStyle() method and FontSetting.SetWordArtStyle() method**
 Sets preset WordArt style to the text of the shape.
-#### **Adds Cells.LinkToXmlMap(string mapName, int row, int column, string path) method**
+### **Adds Cells.LinkToXmlMap(string mapName, int row, int column, string path) method**
 Link to an xml map.
-#### **Adds ListColumn.Formula property**
+### **Adds ListColumn.Formula property**
 Gets and sets the formula of the list column.
-#### **Adds GridWeb.CustomCalculationEngine property and GridAbstractCalculationEngine class**
+### **Adds GridWeb.CustomCalculationEngine property and GridAbstractCalculationEngine class**
 Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells.GridWeb.

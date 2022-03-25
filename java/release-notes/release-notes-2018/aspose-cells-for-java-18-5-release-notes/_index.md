@@ -30,21 +30,21 @@ This page contains release notes for Aspose.Cells for Java 18.5.
 |CELLSJAVA-42596|"java.lang.ArrayIndexOutOfBoundsException" occurs on opening an Excel file|Exception |
 |CELLSJAVA-42595|"java.io.IOException: File is corrupted" occurs on opening an Excel file|Exception |
 |CELLSJAVA-42591|"com.aspose.cells.CellsException: Invalid formula" on loading an Excel file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds new properties Cell.IsTableFormula/IsArrayFormula to replace Cell.IsInTable/IsInArray**
+### **Adds new properties Cell.IsTableFormula/IsArrayFormula to replace Cell.IsInTable/IsInArray**
 Indicates whether one cell is part of the table formula or array formula. Old names make ambiguity, so we made them obsolete and provide new ones.
-#### **Adds IndividualFontConfigs class**
+### **Adds IndividualFontConfigs class**
 Represents Font configs for each workbook object.
-#### **Adds LoadOptions.FontConfigs property**
+### **Adds LoadOptions.FontConfigs property**
 Gets and sets individual font configs.
-#### **Deletes obsoleted FontSetting.ShapeFont property**
+### **Deletes obsoleted FontSetting.ShapeFont property**
 Use FontSetting.TextOptions property instead.
-#### **Adds OoxmlCompliance enum and WorkbookSettings.Compliance property**
+### **Adds OoxmlCompliance enum and WorkbookSettings.Compliance property**
 Supports Strict Open Xml Spreadsheet.
-#### **Adds GroupShape.Ungroup() method**
+### **Adds GroupShape.Ungroup() method**
 Ungroups shapes.
-#### **Adds MsoFormatPicture.Gamma property**
+### **Adds MsoFormatPicture.Gamma property**
 Gets and sets the gamma of the picture.
-#### **Adds TextOptions.FarEastName and TextOptions.LatinName properties**
+### **Adds TextOptions.FarEastName and TextOptions.LatinName properties**
 Get and sets the Far East and Latin name of the font.

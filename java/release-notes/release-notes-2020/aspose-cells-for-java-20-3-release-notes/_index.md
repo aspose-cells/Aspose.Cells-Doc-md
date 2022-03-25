@@ -31,25 +31,25 @@ This page contains release notes for [Aspose.Cells for Java 20.3](https://downlo
 |CELLSJAVA-43144|IsItalic property detected differently than MS Excel (Java)|Bug|
 |CELLSJAVA-43140|IllegalArgumentException while calling calculateFormula()|Exception|
 |CELLSJAVA-43110|Conversion to PDF - java.lang.NullPointerException|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Add property LoadFilter.SheetsInLoadingOrder**
+### **Add property LoadFilter.SheetsInLoadingOrder**
 Users may override this property to specify the sheets and order to be loaded while importing workbooks from template files.
-#### **Deletes obsolete TickLabels.Background property**
+### **Deletes obsolete TickLabels.Background property**
 Use TickLabels.BackgroundMode property instead.
-#### **Obsoletes TickLabels.TextDirection property and adds TickLabels.ReadingOrder property**
+### **Obsoletes TickLabels.TextDirection property and adds TickLabels.ReadingOrder property**
 Use TickLabels.ReadingOrder property instead.
-#### **Obsoletes TickLabels.DirectionTypeproperty and adds enum ChartTextDirectionType**
+### **Obsoletes TickLabels.DirectionTypeproperty and adds enum ChartTextDirectionType**
 Represents the direction of text.
-#### **Adds Shape.RemoveActiveXControl() method.**
+### **Adds Shape.RemoveActiveXControl() method.**
 Removes ActiveX data from the shape.
-#### **Adds ThreadedComment.CreatedTime property.**
+### **Adds ThreadedComment.CreatedTime property.**
 Gets and sets the created time of threaded comments.
-#### **Adds Worksheet.UniqueId property.**
+### **Adds Worksheet.UniqueId property.**
 Gets and sets the unique id of the worksheet.
-#### **Adds enum IconSetType.ColorSmilies3 and IconSetType.Smilies3.**
+### **Adds enum IconSetType.ColorSmilies3 and IconSetType.Smilies3.**
 Represents the 3smiles icon set conditional formattings. Only for .ods file.s
-#### **Adds enum TimePeriodType.LastYear,TimePeriodType.NextYear and ThisYear.**
+### **Adds enum TimePeriodType.LastYear,TimePeriodType.NextYear and ThisYear.**
 Represents the last year, next year and this year conditional formattings. Only for .ods files.
-#### **Adds WorksheetCollection.RefreshPivotTables() method.**
+### **Adds WorksheetCollection.RefreshPivotTables() method.**
 Refreshing all pivot tables in the file.

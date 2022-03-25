@@ -21,54 +21,54 @@ This page contains release notes for [Aspose.Cells for Java 20.8](https://downlo
 |CELLSJAVA-43253|Saving the file using OoxmlSaveOptions after replacing text in SmartArt converts XLS to XLSX|Bug|
 CELLSJAVA-43170|CellsException on calculateFormula method|Exception|
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
-#### **Marks interface ICustomFunction as obsolete.**
+### **Marks interface ICustomFunction as obsolete.**
 
 This interface sometimes causes ambiguity and misunderstanding for users. User should use **AbstractCalculationEngine** instead which provides more convenient and flexible APIs for manipulating custom functions.
 
-#### **Marks CalculationOptions.CustomFunction property as obsolete.**
+### **Marks CalculationOptions.CustomFunction property as obsolete.**
 
 Please use **AbstractCalculationEngine** instead of **ICustomFunction** by CalculationOptions.CustomEngine property.
 
-#### **Marks Workbook.CalculateFormula(bool, ICustomFunction) method as obsolete.**
+### **Marks Workbook.CalculateFormula(bool, ICustomFunction) method as obsolete.**
 
 Please use **Workbook.CalculateFormula(CalculationOptions) method** instead.
 
-#### **Marks Worksheet.CalculateFormula(bool, bool, ICustomFunction) method as obsolete.**
+### **Marks Worksheet.CalculateFormula(bool, bool, ICustomFunction) method as obsolete.**
 
 Please use **Worksheet.CalculateFormula(CalculationOptions, bool)** method instead.
 
-#### **Marks Cell.Calculate(bool, ICustomFunction) method as obsolete.**
+### **Marks Cell.Calculate(bool, ICustomFunction) method as obsolete.**
 
 Please use **Cell.Calculate(CalculationOptions)** method instead.
 
-#### **Adds DocxSaveOptions class and SaveFormat.Docx enum**
+### **Adds DocxSaveOptions class and SaveFormat.Docx enum**
 
 Represents the options and enum for saving workbook as .docx files.
 
-#### **Adds PptxSaveOptions class and SaveFormat.Pptx enum**
+### **Adds PptxSaveOptions class and SaveFormat.Pptx enum**
 
 Represents the options and enum for saving workbook as .pptx files.
 
-#### **Adds PowerQueryFormulaFunction class**
+### **Adds PowerQueryFormulaFunction class**
 
 Represents power query formula function.
 
-#### **Adds SaveOptions.UpdateSmartArt and deletes OoxmlSaveOptions.UpdateSmartArt property**
+### **Adds SaveOptions.UpdateSmartArt and deletes OoxmlSaveOptions.UpdateSmartArt property**
 
 Indicates whether updating the text of smart art shapes when saving files.
 
-#### **Adds SlicerCollection.Add(ListObject table, int index, string destCellName) method**
+### **Adds SlicerCollection.Add(ListObject table, int index, string destCellName) method**
 
 Add a new Slicer using ListObject as data source.
 
-#### **Adds SlicerCollection.Add(ListObject table, ListColumn listColumn, string destCellName) method**
+### **Adds SlicerCollection.Add(ListObject table, ListColumn listColumn, string destCellName) method**
 
 Add a new Slicer using ListObject as data source.
 
-#### **Adds SlicerCollection.Add(ListObject table, ListColumn listColumn, int row, int column) method**
+### **Adds SlicerCollection.Add(ListObject table, ListColumn listColumn, int row, int column) method**
 
 Add a new Slicer using ListObject as data source.

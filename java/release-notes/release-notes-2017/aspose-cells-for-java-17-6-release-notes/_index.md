@@ -44,17 +44,17 @@ This page contains release notes for [Aspose.Cells for Java 17.6](https://downlo
 |CELLSJAVA-42318|An exception is thrown when trying to open Workbook |Exception |
 |CELLSJAVA-42311|Exception: "java.lang.NullPointerException" when opening an ODS file via Aspose.Cells APIs|Exception |
 |CELLSJAVA-42302|NullPointerException on creating Workbook instance from source Excel file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Gridweb.OnAjaxCallFinishedClientFunction property**
+### **Adds Gridweb.OnAjaxCallFinishedClientFunction property**
 Gets or sets the client side function name to be called when ajaxcall finished.
-#### **Adds enum StyleModifyFlag.RelativeIndent**
+### **Adds enum StyleModifyFlag.RelativeIndent**
 Represents relative indent.
-#### **Adds TextureFill.IsTiling property**
+### **Adds TextureFill.IsTiling property**
 Indicates whether tile picture as texture.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Tile Picture as a Texture inside the Shape](/cells/java/tile-picture-as-a-texture-inside-the-shape/)

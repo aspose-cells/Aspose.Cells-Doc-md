@@ -30,17 +30,17 @@ This page contains release notes for Aspose.Cells for Java 18.1.
 |CELLSJAVA-42499|Margins and layout differences when comparing the output PDF (by Aspose.Cells) with the MS Excel generated PDF|Bug |
 |CELLSJAVA-42486|Feature does not work in Java - ResultSet|Bug |
 |CELLSJAVA-42500|NullPointerException occurs while loading the MS Excel file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds LoadOptions.ParsingPivotCachedRecords property**
+### **Adds LoadOptions.ParsingPivotCachedRecords property**
 Indicates whether parsing pivot cached records when loading the file.The default value is false.Only applies to Excel Xlsx, Xltx, Xltm, Xlsm and Xlsb file formats.
-#### **Adds HtmlSaveOptions.ExcludeUnusedStyles property**
+### **Adds HtmlSaveOptions.ExcludeUnusedStyles property**
 Indicates whether excluding unused styles.The default value is false. If you want to import the HTML or Mht file to Excel, please keep the default value.
-#### **Adds HtmlSaveOptions.ExportDocumentProperties property**
+### **Adds HtmlSaveOptions.ExportDocumentProperties property**
 Indicates whether exporting document properties.The default value is true. If you want to import the HTML or Mht file to Excel, please keep the default value.
-#### **Adds HtmlSaveOptions.ExportWorksheetProperties property**
+### **Adds HtmlSaveOptions.ExportWorksheetProperties property**
 Indicates whether exporting worksheet properties.The default value is true. If you want to import the HTML or Mht file to Excel, please keep the default value.
-#### **Adds HtmlSaveOptions.ExportWorkbookProperties property**
+### **Adds HtmlSaveOptions.ExportWorkbookProperties property**
 Indicates whether exporting workbook properties.The default value is true. If you want to import the HTML or Mht file to Excel, please keep the default value.
-#### **Adds PivotTable.GetChildren() method**
+### **Adds PivotTable.GetChildren() method**
 Gets the the children Pivot Tables which use this PivotTable data as data source.

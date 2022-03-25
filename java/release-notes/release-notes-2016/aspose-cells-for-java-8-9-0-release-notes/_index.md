@@ -5,7 +5,7 @@ weight: 70
 url: /java/aspose-cells-for-java-8-9-0-release-notes/
 ---
 
-### **1) Aspose.Cells**
+## **1) Aspose.Cells**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -33,16 +33,16 @@ url: /java/aspose-cells-for-java-8-9-0-release-notes/
 |CELLSJAVA-41913 |Exception: "IllegalArgumentException: length" on loading an Excel (XLS) file |Exception  |
 |CELLSJAVA-41911 |Exception: "Error in Cell: ... -Invalid formula" while loading an Excel file via Aspose.Cells APIs |Exception  |
 |CELLSJAVA-41906 |Workbook constructor throws Exception: "java.lang.NumberFormatException: empty String" |Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds HtmlSaveOptions.DefaultFontName property**
+### **Adds HtmlSaveOptions.DefaultFontName property**
 Specifies the default font name while exporting HTML, the default font will be used  when the font of style does not exist. If this property is null, Aspose.Cells will use universal font which has the same family with the original font, the default value is null.
-#### **Adds PivotTable.IsExcel2003Compatible property**
+### **Adds PivotTable.IsExcel2003Compatible property**
 Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable. If true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. If false, a string will not have the aforementioned restriction. The default value is true.
-#### **Adds ImageOrPrintOptions.DefaultFont property**
+### **Adds ImageOrPrintOptions.DefaultFont property**
 When characters in the Excel are unicode and not to be set with correct font in cell style, They may appear as block in PDF and image.
 Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, Aspose.Cells will use System's default font to show these unicode characters.
-#### **Adds GetVersion method in GridWeb.**
+### **Adds GetVersion method in GridWeb.**
 Get the release version.
 
 {{% alert color="primary" %}} 

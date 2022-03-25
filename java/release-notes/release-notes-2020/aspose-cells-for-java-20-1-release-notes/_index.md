@@ -28,19 +28,19 @@ This page contains release notes for [Aspose.Cells for Java 20.1](https://downlo
 |CELLSJAVA-43073|DataMashup information not accessible in the workbook|Bug|
 |CELLSJAVA-43092|Cannot process Excel file|Bug|
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds ReplaceOptions.RegexKey property.**
+### **Adds ReplaceOptions.RegexKey property.**
 Indicates whether the searched key is regex. If **true** then the searched key(to be replaced part) will be taken as a user-specified regex.
-#### **Deletes obsoleted ValidationCollection.Add(Aspose.Cells.Validation) method.**
+### **Deletes obsoleted ValidationCollection.Add(Aspose.Cells.Validation) method.**
 Use ValidationCollection.Add(CellArea) method instead.
-#### **Adds PowerQueryFormula.FormulaDefinition property.**
+### **Adds PowerQueryFormula.FormulaDefinition property.**
 Gets the definition of the power query formula.
-#### **Adds DBConnection.PowerQueryFormula property.**
+### **Adds DBConnection.PowerQueryFormula property.**
 Gets the definition of power query formula.
-#### **Adds HtmlSaveOptions.ExportHeadings property.**
+### **Adds HtmlSaveOptions.ExportHeadings property.**
 Indicates whether exporting headings when saving the file to HTML. The default value is false. If you want to import the HTML file to excel, please keep the default value.
-#### **Adds XAdESType class**
+### **Adds XAdESType class**
 Type of XML Advanced Electronic Signature (XAdES).
-#### **Adds DigitalSignature.XAdESType property**
+### **Adds DigitalSignature.XAdESType property**
 Gets and sets the type of XML Advanced Electronic Signature (XAdES). The default value is None(XAdES is off).

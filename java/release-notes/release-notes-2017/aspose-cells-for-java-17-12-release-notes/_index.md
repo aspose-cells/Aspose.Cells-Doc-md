@@ -28,39 +28,39 @@ This page contains release notes for Aspose.Cells for Java 17.12.
 |CELLSJAVA-42476|Microsoft Excel Macro-Enabled Worksheet (.xlsm) gets corrupted after opening and saving via Aspose.Cells APIs|Bug |
 |CELLSJAVA-42470|Setting a Checkbox linked cell causes MS Excel to prompts an error message when opening the output file into it|Bug |
 |CELLSJAVA-42462|Reading the XLSB file throws the NullPointerException|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds HtmlSaveOptions.TableCssId property**
+### **Adds HtmlSaveOptions.TableCssId property**
 Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "".
-#### **Adds Cell.FormulaLocal property**
+### **Adds Cell.FormulaLocal property**
 Gets the local formatted formula which may vary according to different locale settings for separators, built in Names, function names, ...etc. Those locales are dependent.
-#### **Adds GlobalizationSettings.GetLocalFunctionName(string standardName) method**
+### **Adds GlobalizationSettings.GetLocalFunctionName(string standardName) method**
 Gets the locale dependent function name according to given standard function name.
-#### **Adds GlobalizationSettings.GetLocalBuiltInName(string standardName) method**
+### **Adds GlobalizationSettings.GetLocalBuiltInName(string standardName) method**
 Gets the locale dependent text for built-in Name according to given standard text.
-#### **Adds GlobalizationSettings.ListSeparator property**
+### **Adds GlobalizationSettings.ListSeparator property**
 Gets the separator for list, parameters of function, ...etc.
-#### **Adds GlobalizationSettings.RowSeparatorOfFormulaArray property**
+### **Adds GlobalizationSettings.RowSeparatorOfFormulaArray property**
 Gets the separator for rows in array data in formula.
-#### **Adds GlobalizationSettings.ColumnSeparatorOfFormulaArray property**
+### **Adds GlobalizationSettings.ColumnSeparatorOfFormulaArray property**
 Gets the separator for the items in array's row data in formula.
-#### **Adds HtmlSaveOptions.ExportWorksheetCSSSeparately property**
+### **Adds HtmlSaveOptions.ExportWorksheetCSSSeparately property**
 Indicates whether exporting the worksheet css separately. The default value is false.
-#### **Adds LoadDataFilterOptions.Structure to replace LoadDataFilterOptions.None**
+### **Adds LoadDataFilterOptions.Structure to replace LoadDataFilterOptions.None**
 LoadDataFilterOptions.None gave ambiguous directions and caused confusion. It was designed to denote that load nothing for worksheet data. Now we provide new one (member), i.e., Structure to replace it.
-#### **Adds DataLabelShapeType enum**
+### **Adds DataLabelShapeType enum**
 Specifies the preset shape geometry that is to be used for a chart.
-#### **Adds DataLabels.ShapeType property**
+### **Adds DataLabels.ShapeType property**
 Gets or sets shape type of data label.
-#### **Deletes some obsoleted FileFormatType**
+### **Deletes some obsoleted FileFormatType**
 Deletes obsoleted file format types.
-#### **Added WorksheetCollection.RevisionLogs property, RevisionLogCollection class and Revisions.RevisionLog class**
+### **Added WorksheetCollection.RevisionLogs property, RevisionLogCollection class and Revisions.RevisionLog class**
 Gets setting of revision log.
-#### **Adds enum MsoDrawingType.WebExtension**
+### **Adds enum MsoDrawingType.WebExtension**
 Represents the web extension shape.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Auto Populate Smart Marker Data to Other Worksheets if Data is too Large](/cells/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)

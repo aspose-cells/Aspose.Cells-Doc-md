@@ -29,41 +29,41 @@ This page contains release notes for [Aspose.Cells for Java 17.7](https://downlo
 |CELLSJAVA-42340|Exception in thread "Thread-2" java.lang.OutOfMemoryError: GC overhead limit exceeded|Exception |
 |CELLSJAVA-42334|Exception "Error for ZipFile" is thrown when using OutputFileStream|Exception |
 |CELLSJAVA-42326|com.aspose.cells.CellsException: Invalid password on opening the Excel file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds GlobalizationSettings.GetBooleanValueString()/GetErrorValueString() methods**
+### **Adds GlobalizationSettings.GetBooleanValueString()/GetErrorValueString() methods**
 Gets custom display string value for cell's Boolean and error value when formatting/rendering.
-#### **Removes obsoleted ValidationCollection.Add() method**
+### **Removes obsoleted ValidationCollection.Add() method**
 Use ValidationCollection.Add(CellArea) method instead.
-#### **Adds PdfSaveOptions.CheckWorkbookDefaultFont property**
+### **Adds PdfSaveOptions.CheckWorkbookDefaultFont property**
 Indicates whether to try to use workbook's default font firstly to show the characters which font is not set correctly.
-#### **Adds ImageOrPrintOptions.CheckWorkbookDefaultFont property**
+### **Adds ImageOrPrintOptions.CheckWorkbookDefaultFont property**
 Indicates whether to try to use workbook's default font firstly to show the characters which font is not set correctly.
-#### **Adds FileFormatType.Numbers, LoadFormat.Numbers and SaveFormat.Numbers enum**
+### **Adds FileFormatType.Numbers, LoadFormat.Numbers and SaveFormat.Numbers enum**
 Represents the Numbers spreadsheet file format by Apple Inc/.
-#### **Adds Worksheet.AdvancedFilter() method**
+### **Adds Worksheet.AdvancedFilter() method**
 Filters data using complex criteria.
-#### **Adds WorkbookSettings.SignificantDigits property**
+### **Adds WorkbookSettings.SignificantDigits property**
 Gets and sets the number of significant digits.
-#### **Obsoletes Validation.AreaList property and adds Validation.Areas property**
+### **Obsoletes Validation.AreaList property and adds Validation.Areas property**
 Gets all area which contains the data validation settings.
-#### **Adds PageSetup.IsAutomaticPaperSize property**
+### **Adds PageSetup.IsAutomaticPaperSize property**
 Indicates whether the paper size is automatic.
-#### **Adds FontSettingCollection.Replace() method**
+### **Adds FontSettingCollection.Replace() method**
 Replaces the text of the shape.
-#### **Adds Cells.importResultSet(ResultSet rs, int rowIndex, int columnIndex, ImportTableOptions options)/Cells.importResultSet(ResultSet rs, String startCell, ImportTableOptions options)**
+### **Adds Cells.importResultSet(ResultSet rs, int rowIndex, int columnIndex, ImportTableOptions options)/Cells.importResultSet(ResultSet rs, String startCell, ImportTableOptions options)**
 Supports importing ResultSet with more options.
-#### **Adds GridWorksheet.CustomColumnCaption property**
+### **Adds GridWorksheet.CustomColumnCaption property**
 Gets or sets the custom column caption for the worksheet - Aspose.Cells.GridDesktop.
-#### **Adds GridWorksheet.CustomRowCaption property**
+### **Adds GridWorksheet.CustomRowCaption property**
 Gets or sets the custom row caption for the worksheet - Aspose.Cells.GridDesktop.
-#### **Adds GridDesktop.GetVersion() method**
+### **Adds GridDesktop.GetVersion() method**
 Get the release version.
-#### **Adds GridWebInstance.resize() function in GridWeb client js,(GridWebInstance is the GridWeb control object)**
+### **Adds GridWebInstance.resize() function in GridWeb client js,(GridWebInstance is the GridWeb control object)**
 Makes the GridWeb control to be compatible with current browser window size.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells](/cells/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)

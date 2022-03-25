@@ -5,7 +5,7 @@ weight: 100
 url: /java/aspose-cells-for-java-8-8-1-release-notes/
 ---
 
-### **1) Aspose.Cells**
+## **1) Aspose.Cells**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -29,32 +29,32 @@ url: /java/aspose-cells-for-java-8-8-1-release-notes/
 |CELLSJAVA-41838 |When applying autoSizeColumns on the sheet, the column is not widened properly |Bug  |
 |CELLSJAVA-41835 |CellsException while saving spreadsheet to PDF |Exception  |
 |CELLSJAVA-41826 |NaN Exception |Exception  |
-### **2) Aspose.Cells Grid Suite**
+## **2) Aspose.Cells Grid Suite**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |CELLSJAVA-41719 |How to create custom command buttons in GridWeb (JAVA)  |New Feature  |
 |CELLSJAVA-41718 |GridCell.createValidation() method is missing in the GridWeb |Enhancement  |
 |CELLSJAVA-41649 |Scroll does not stop sometimes - Aspose.Cells.GridWeb for JAVA |Bug  |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds WorkbookSettings.PaperSize property.**
+### **Adds WorkbookSettings.PaperSize property.**
 It's used to set paper size of the default printer as default paper size of the workbook.
-#### **Adds LoadDataFilterOptions class and LoadOptions.LoadDataFilterOptions property.**
+### **Adds LoadDataFilterOptions class and LoadOptions.LoadDataFilterOptions property.**
 It's used to specify which kind of data should be loaded when building the workbook from template file. Filtering loaded data can improve the performance for user's special purpose, especially when using LightCells APIs.
-#### **Adds Worksheet.CalculateFormula(string formula, CalculationOptions opts) method.**
+### **Adds Worksheet.CalculateFormula(string formula, CalculationOptions opts) method.**
 It's used to calculate given formula directly with user custom options.
-#### **Adds classes of namespace Aspose.Cells.Drawing.Texts.**
+### **Adds classes of namespace Aspose.Cells.Drawing.Texts.**
 It's used to set the properties of the shape's text font.
-#### **Obsoleted Shape.TextFrame property.**
+### **Obsoleted Shape.TextFrame property.**
 Use Shape.TextBody.TextAlignment property instead.
-#### **Adds Shape.TextBody property.**
+### **Adds Shape.TextBody property.**
 Presents the setting of the shape's text.
-#### **Adds GridCell.CreateValidation(GridValidationType validationType, bool isRequired) method.**
+### **Adds GridCell.CreateValidation(GridValidationType validationType, bool isRequired) method.**
 Creates a validation object for a grid cell.
-#### **Adds GridCell.RemoveValidation() method.**
+### **Adds GridCell.RemoveValidation() method.**
 Removes the validation object from a grid cell.
-#### **Adds Chart.ToPdf(System.IO.Stream stream) method.**
+### **Adds Chart.ToPdf(System.IO.Stream stream) method.**
 Adds saving chart to PDF as a stream.
 
 {{% alert color="primary" %}} 
