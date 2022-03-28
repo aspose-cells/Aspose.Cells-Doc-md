@@ -1,8 +1,9 @@
 ---
-title: Set Background Picture for a Worksheet
+title: Insert Background Image to Excel
 type: docs
 weight: 90
-url: /net/set-background-picture-for-a-worksheet/
+url: /net/insert-background-image-to-excel/
+aliases: [/net/set-background-picture-for-a-worksheet/]
 ---
 
 {{% alert color="primary" %}} 
