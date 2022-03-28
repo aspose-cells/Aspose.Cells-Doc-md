@@ -12,9 +12,9 @@ You can make a worksheet more appealing by adding a picture as a worksheet backg
 
 {{% /alert %}} 
 ## **Setting Sheet Background in Microsoft Excel**
-To set a sheet's background image in Microsoft Excel (for example Microsoft Excel 2003):
+To set a sheet's background image in Microsoft Excel (for example Microsoft Excel 2019):
 
-1. From the **Format** menu, select **Sheet**, and then select the **Background** option.
+1. From the **Page Layout** menu, find the **Page Setup** option, and then click the **Background** option.
 1. Select a picture to set the sheet's background picture.
 ## **Setting Sheet Background with Aspose.Cells**
 The code below sets a background image using an image from a stream.
