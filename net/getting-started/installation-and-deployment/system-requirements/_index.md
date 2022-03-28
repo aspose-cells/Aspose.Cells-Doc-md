@@ -43,6 +43,7 @@ Aspose.Cells for .NET supports .NET and Mono frameworks as follows:
 - .NET Framework 4.6.2
 - .NET Framework 4.7.1
 - .NET Framework 4.7.2
+### **.NET Standard**
 - .NET Standard 2.0 (.NET Core 2.1/3.1).
 - .NET 5.0
 - .NET 6.0
