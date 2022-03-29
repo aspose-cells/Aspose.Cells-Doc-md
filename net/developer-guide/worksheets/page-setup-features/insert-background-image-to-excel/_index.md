@@ -4,7 +4,7 @@ type: docs
 weight: 90
 url: /net/insert-background-image-to-excel/
 aliases: [/net/set-background-picture-for-a-worksheet/]
-description: "How to insert background image to Excel using Aspose.Cells for .net."
+description: "How to insert background image to Excel using Aspose.Cells for .NET."
 ---
 
 {{% alert color="primary" %}} 

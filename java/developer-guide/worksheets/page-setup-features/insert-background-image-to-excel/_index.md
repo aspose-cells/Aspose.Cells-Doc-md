@@ -4,14 +4,14 @@ type: docs
 weight: 90
 url: /java/insert-background-image-to-excel/
 aliases: [/java/set-background-picture-for-a-worksheet/]
-description: "How to insert background image to Excel using Aspose.Cells for java."
+description: "How to insert background image to Excel using Aspose.Cells for Java."
 ---
 
-{{% alert color="primary" %}}
+{{% alert color="primary" %}} 
 
 You can make a worksheet more appealing by adding a picture as a worksheet background. This feature can be quite effective if you have a special corporate graphic that adds a hint of the background without obscuring the data on the sheet. You can set background picture for a sheet using Aspose.Cells API.
 
-{{% /alert %}}
+{{% /alert %}} 
 
 ## **Setting Sheet Background in Microsoft Excel**
 
