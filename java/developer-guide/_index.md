@@ -213,7 +213,7 @@ url: /java/developer-guide/
          <li><a href="/cells/java/page-setup-features/#setting-page-options">Setting Page Options</a></li>
          <li><a href="/cells/java/page-setup-features/#setting-print-options">Setting Print Options</a></li>
          <li><a href="/cells/java/managing-page-breaks/">Managing Page Breaks</a></li>
-         <li><a href="/cells/java/set-background-picture-for-a-worksheet/">Set Background Picture for a Worksheet</a></li>         
+         <li><a href="/cells/java/insert-background-image-to-excel/">Insert Background Image to Excel</a></li>         
          <li><a href="/cells/java/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>
          <li><a href="/cells/java/implement-custom-paper-size-of-worksheet-for-rendering/">Implement Custom Paper Size of Worksheet for Rendering</a></li>
          <li><a href="/cells/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/">Copy Page Setup Settings</a></li>
