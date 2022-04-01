@@ -178,6 +178,7 @@ url: /java/developer-guide/
         </ul>
         <p><a href="/cells/java/managing-charts-and-shapes/">Text Box</a</p>
         <ul>
+            <li><a href="/cells/java/add-text-box-to-worksheet-in-aspose-cells/">Add Text Box to Worksheet in Aspose.Cells</a></li>
             <li><a href="/cells/java/applying-text-alignment-to-partial-text-inside-the-textbox/">Applying text alignment to partial text inside the TextBox</a></li>
         </ul>
         <p>Header&Footer</p>

@@ -1,5 +1,5 @@
 ---
-title: Add Text Box to Worksheet in Aspose.Cells
+title: How to add/insert TextBox to Worksheet
 linktitle: Add Text Box to Worksheet
 type: docs
 weight: 10

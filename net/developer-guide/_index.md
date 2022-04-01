@@ -183,6 +183,7 @@ This Developer Guide provides information on using Aspose.Cells in a variety of 
         <p><a href="/cells/net/managing-charts-and-shapes/">Text Box</a</p>
         <ul>
             <li><a href="/cells/net/add-text-box-to-worksheet-in-aspose-cells/">Add Text Box to Worksheet in Aspose.Cells</a></li>
+            <li><a href="/cells/net/applying-text-alignment-to-partial-text-inside-the-textbox/">Applying text alignment to partial text inside the TextBox</a></li>
         </ul>
         <p>Header&Footer</p>
         <ul>
