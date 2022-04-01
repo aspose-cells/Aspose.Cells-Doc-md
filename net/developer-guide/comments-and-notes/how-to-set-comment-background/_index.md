@@ -6,7 +6,7 @@ weight: 190
 url: /net/how-to-set-comment-background/
 aliases: [/net/add-a-picture-to-an-excel-comment/]
 description: How to change color in comment in Excel.How to insert picture or image in comment in Excel.
-keywors: add inset picture iamge color comment background excel
+keywords: add inset picture iamge color comment background excel
 ---
 
 {{% alert color="primary" %}}

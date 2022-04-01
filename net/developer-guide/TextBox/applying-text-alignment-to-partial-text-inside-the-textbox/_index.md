@@ -12,10 +12,8 @@ TextBoxes can improve the expressiveness of our documents and diagrams, and appl
 
 The following sample code applies text alignment to a TextBox.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyAlignmentToTextBox.java" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyAlignmentToTextBox.cs" >}}
 
 You can also change the text alignment of some text inside a TextBox shape with the appropriate HTML text.The following sample code applies the text alignment to partial text inside the TextBox.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.java" >}}
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TextBox-ApplyPartialTextAlignment-1.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyPartialTextAlignmentToTextBox.cs" >}}
