@@ -7,7 +7,6 @@ aliases: [/net/comparison-with-other-solutions/]
 description: This section compares Aspose.Cells components and some other systems.
 ---
 
-{{% /alert %}} 
 Why do users choose Aspose.Cells to work with documents? The shortest answer we could give is that Aspose.Cells has a huge set of features and covers a wide variety of tasks, applicable to documents in various supported formats.
 
 This section compares Aspose.Cells components and some other systems.
