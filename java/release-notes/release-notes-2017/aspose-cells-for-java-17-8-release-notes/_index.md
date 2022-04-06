@@ -27,29 +27,29 @@ This page contains release notes for [Aspose.Cells for Java 17.8](https://downlo
 |CELLSJAVA-42349|Excel to PDF conversion hanged for an XLSX file|Bug |
 |CELLSJAVA-42348|Unable to import XLSB file (by Aspose.Cells APIs) into MS-Access database|Bug |
 |CELLSJAVA-42357|Exception occurs when saving an Excel file into HTML format|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds HtmlSaveOptions.IsExportComments property**
+### **Adds HtmlSaveOptions.IsExportComments property**
 Indicates if exporting comments when saving file to HTML, the default value is false.
-#### **Adds HtmlSaveOptions.DisableDownlevelRevealedComments property**
+### **Adds HtmlSaveOptions.DisableDownlevelRevealedComments property**
 Indicates if disable Downlevel-revealed conditional comments when exporting file to HTML, the default value is false.
-#### **Adds CustomImplementationFactory class**
+### **Adds CustomImplementationFactory class**
 Provides API for the user to extend/improve the component's ability by some special implementations for some special situations. Currently there is no custom implementation supported for Java version.
-#### **Adds CellsHelper.CustomImplementationFactory property**
+### **Adds CellsHelper.CustomImplementationFactory property**
 Gets/sets the CustomImplementationFactory instance used by cells component.
-#### **Adds Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection) method**
+### **Adds Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection) method**
 Adds digital signature to an already signed OOXML spreadsheet file (Excel2007 and later).
-#### **Adds ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint property**
+### **Adds ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint property**
 Indicates whether to output a blank page when there is nothing to print.
-#### **Adds GridCell.CreateComment method**
+### **Adds GridCell.CreateComment method**
 Creates a comment object for a cell.
-#### **Adds GridCell.RemoveComment method**
+### **Adds GridCell.RemoveComment method**
 Removes the comment object of the cell.
-#### **Adds GridCell.GetComment method**
+### **Adds GridCell.GetComment method**
 Gets comment object on this cell.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Add Digital Signature to an already signed Excel file](/cells/java/add-digital-signature-to-an-already-signed-excel-file/)

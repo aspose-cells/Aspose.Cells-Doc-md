@@ -30,27 +30,27 @@ This page contains release notes for [Aspose.Cells for Java 17.10](https://downl
 |CELLSJAVA-42409|Chart area is not rendered correctly in the PDF and PNG outputs of MS Excel chart|Bug |
 |CELLSJAVA-41046|Chart's legend sequence has changed while rendering spreadsheet to PDF format|Bug |
 |CELLSJAVA-40416|Colors and style of the chart are lost|Bug |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds AbstractCalculationMonitor.Interrupt(string) method**
+### **Adds AbstractCalculationMonitor.Interrupt(string) method**
 Allows users to interrupt the progress of formula calculations.
-#### **Adds HtmlCrossType.MSExport enum**
+### **Adds HtmlCrossType.MSExport enum**
 Displays the string like MS Excel exporting HTML.
-#### **Adds Worksheet.TabId property**
+### **Adds Worksheet.TabId property**
 Gets the internal identifier for the sheet.
-#### **Adds enum OLEDBCommandType.None**
+### **Adds enum OLEDBCommandType.None**
 The command type is not specified.
-#### **Adds enum ConnectionDataSourceType**
+### **Adds enum ConnectionDataSourceType**
 Represents the data source type of connection.
-#### **Obsoletes ExternalConnection.Credentials and ExternalConnection.ReConnectionMethod property**
+### **Obsoletes ExternalConnection.Credentials and ExternalConnection.ReConnectionMethod property**
 Use ExternalConnection.CredentialsMethodType and ExternalConnection.ReconnectionMethodType property instead.
-#### **Obsoletes WebQueryConnection.EditPage property**
+### **Obsoletes WebQueryConnection.EditPage property**
 Use WebQueryConnection.EditWebPage property instead.
-#### **Adds Series.ValuesFormatCode property**
+### **Adds Series.ValuesFormatCode property**
 Represents number format code of series values.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Set the Values Format Code of Chart Series](/cells/java/set-the-values-format-code-of-chart-series/)

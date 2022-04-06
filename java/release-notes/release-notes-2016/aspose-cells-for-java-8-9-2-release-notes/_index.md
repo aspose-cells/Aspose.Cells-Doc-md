@@ -5,7 +5,7 @@ weight: 50
 url: /java/aspose-cells-for-java-8-9-2-release-notes/
 ---
 
-### **1) Aspose.Cells**
+## **1) Aspose.Cells**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -30,44 +30,44 @@ url: /java/aspose-cells-for-java-8-9-2-release-notes/
 |CELLSJAVA-41945|CellsException: Error in calculating Cell[0Sheet1!E5] at Workbook.CalculateFormula while calculating TREND function|Exception|
 |CELLSJAVA-41946|Opening excel file causes java.lang.NumberFormatException: For input string: "80000020"|Exception|
 |CELLSJAVA-41922|IndexOutOfBoundsException while copying cells|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds CopyOptions.ReferToDestinationSheet property and Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) method**
+### **Adds CopyOptions.ReferToDestinationSheet property and Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) method**
 Specifies whether to refer to destination worksheet (as a data source for the chart) while copying rows/range.
 When copying the range and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet.
-#### **Adds HtmlSaveOptions.FilePathProvider property**
+### **Adds HtmlSaveOptions.FilePathProvider property**
 Gets or sets the IFilePathProvider for exporting Worksheet to html separately.
-#### **Adds IFilePathProvider interface**
+### **Adds IFilePathProvider interface**
 Represents the exported file path provider.
-#### **Adds FontConfigs class**
+### **Adds FontConfigs class**
 Specifies font settings.
-#### **Adds FontSourceBase class**
+### **Adds FontSourceBase class**
 This is an abstract base class for the classes that allow the user to specify various font sources.
-#### **Adds FileFontSource class**
+### **Adds FileFontSource class**
 Represents the single TrueType font file stored in the file system.
-#### **Adds FolderFontSource class**
+### **Adds FolderFontSource class**
 Represents the folder that contains TrueType font files.
-#### **Adds MemoryFontSource class**
+### **Adds MemoryFontSource class**
 Represents the single TrueType font file stored in memory.
-#### **Adds FontSourceType enum**
+### **Adds FontSourceType enum**
 Specifies the type of a font source.
-#### **Adds CalculationOptions.Recursive property**
+### **Adds CalculationOptions.Recursive property**
 Specifies whether calculate the dependent cells recursively when calculating one cell and it depends on other cells.
-#### **Obsoletes CellsHelper.FontDir property**
+### **Obsoletes CellsHelper.FontDir property**
 Use FontConfigs.SetFontFolder(string, bool) method with folder recursive to false instead.
-#### **Obsoletes CellsHelper.FontDirs property**
+### **Obsoletes CellsHelper.FontDirs property**
 Use FontConfigs.SetFontFolders(string[], bool) method with folder recursive to false instead.
-#### **Obsoletes CellsHelper.FontFiles property**
+### **Obsoletes CellsHelper.FontFiles property**
 Use FontConfigs.SetFontSources(FontSourceBase[]) instead.
-#### **Obsoletes Shape.LineFormat property and adds Shape.Line property**
+### **Obsoletes Shape.LineFormat property and adds Shape.Line property**
 Please use Shape.Line property instead.
-#### **Obsoletes Shape.FillFormat property and adds Shape.Fill property**
+### **Obsoletes Shape.FillFormat property and adds Shape.Fill property**
 Please use Shape.Fill property instead.
-#### **Obsoletes ShapeFormat class and Shape.Format property**
+### **Obsoletes ShapeFormat class and Shape.Format property**
 Please directly use Shape.Fill and Shape.Line properties.
-#### **Obsoletes ShapeFont class and adds TextOptions class**
+### **Obsoletes ShapeFont class and adds TextOptions class**
 Please use TextOptions class instead.
-#### **Adds TextOptions.Fill property, TextOptions.Outline and TextOptions.Shadow property**
+### **Adds TextOptions.Fill property, TextOptions.Outline and TextOptions.Shadow property**
 Represents the fill, outline and shadow of the text.
-#### **Obsoletes FontSetting.ShapeFont property and adds FontSetting.TextOptions property**
+### **Obsoletes FontSetting.ShapeFont property and adds FontSetting.TextOptions property**
 Please use FontSetting.TextOptions property instead.

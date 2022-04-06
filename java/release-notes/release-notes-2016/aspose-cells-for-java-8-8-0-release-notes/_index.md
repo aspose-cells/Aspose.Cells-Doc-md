@@ -5,7 +5,7 @@ weight: 110
 url: /java/aspose-cells-for-java-8-8-0-release-notes/
 ---
 
-### **1) Aspose.Cells**
+## **1) Aspose.Cells**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -35,26 +35,26 @@ url: /java/aspose-cells-for-java-8-8-0-release-notes/
 |CELLSJAVA-41803 |Conditional formatting range is incorrect and does not match with Microsoft Excel |Bug  |
 |CELLSJAVA-41809 |Worksheet.calculateFormula throws null pointer exception when formula is set via NameCollection |Exception  |
 |CELLSJAVA-41808 |"java.lang.NullPointerException" at Workbook.save |Exception  |
-### **2) Aspose.Cells Grid Suite**
+## **2) Aspose.Cells Grid Suite**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |CELLSJAVA-41615 |Setting Header Bar and Tab Styles not working |Bug  |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds HTMLLoadOptions.DeleteRedundantSpaces property**
+### **Adds HTMLLoadOptions.DeleteRedundantSpaces property**
 Indicates whether deleting redundant spaces when the text wraps lines using <br>tag.
-#### **Obsoletes LoadOptions.ConvertNumericData property and adds TxtLoadOptions.ConvertNumericData property.**
+### **Obsoletes LoadOptions.ConvertNumericData property and adds TxtLoadOptions.ConvertNumericData property.**
 Use TxtLoadOptions.ConvertNumericData or HTMLLoadOptions.ConvertNumericData property instead.
-#### **Adds Style.QuotePrefix property.**
+### **Adds Style.QuotePrefix property.**
 Indicates whether the cell's value starts with single quote mark.
-#### **Adds QueryTable.ConnectionId property.**
+### **Adds QueryTable.ConnectionId property.**
 Gets the connection id of the query table.
-#### **Adds ExternalConnection.Id property.**
+### **Adds ExternalConnection.Id property.**
 Gets the id of the connection.
-#### **Adds ListObject.QueryTable property.**
+### **Adds ListObject.QueryTable property.**
 Gets the linked QueryTable of the table.
-#### **Adds HTMLLoadOptions.KeepPrecision property.**
+### **Adds HTMLLoadOptions.KeepPrecision property.**
 Indicates whether not parsing a string value if the length is 15.
 
 {{% alert color="primary" %}} 

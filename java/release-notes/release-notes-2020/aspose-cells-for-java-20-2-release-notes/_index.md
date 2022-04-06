@@ -40,15 +40,15 @@ This page contains release notes for [Aspose.Cells for Java 20.2](https://downlo
 |CELLSJAVA-43115|Conversion to PDF - java.lang.NegativeArraySizeException|Exception|
 |CELLSJAVA-43116|Conversion to PDF - java.lang.IllegalStateException: The structured storage seems to be corrupt.|Exception|
 |CELLSJAVA-43120|java.lang.NumberFormatException while converting workbook to PDF|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds FormulaParseOptions.Parse property.**
+### **Adds FormulaParseOptions.Parse property.**
 Indicates whether parse the formula while setting a formula expression to the cell. The default is **true**. If **false**, then the input formula expression will be kept as it is for the cell until the user calls other methods to parse them or parsed formula data is required by other operations such as calculating formulas.
-#### **Adds Workbook.ParseFormulas(bool ignoreError) method.**
+### **Adds Workbook.ParseFormulas(bool ignoreError) method.**
 Parses all formulas which have not been parsed when they were loaded or set to a cell.
-#### **Adds PivotTable.ExternalConnectionDataSource property.**
+### **Adds PivotTable.ExternalConnectionDataSource property.**
 Gets the external connection data source.
-#### **Adds FileFormatType.Numbers35 enum.**
+### **Adds FileFormatType.Numbers35 enum.**
 Represents the Number 3.5 files since office 2014. Only for throwing the file format when reading.
-#### **Adds LoadOptions.CheckDataValid property.**
+### **Adds LoadOptions.CheckDataValid property.**
 Indiciates whether to check the invalid data when loading the files.

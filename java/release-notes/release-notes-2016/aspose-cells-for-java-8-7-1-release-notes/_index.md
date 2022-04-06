@@ -5,7 +5,7 @@ weight: 130
 url: /java/aspose-cells-for-java-8-7-1-release-notes/
 ---
 
-### **Other Improvements and Changes**
+## **Other Improvements and Changes**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -33,9 +33,9 @@ url: /java/aspose-cells-for-java-8-7-1-release-notes/
 |CELLSJAVA-41731 |Shape formula does not refresh while saving XLS to XLSB |Bug |
 |CELLSJAVA-41733 |Cell.getFormula returns the formula with sheet name in square brackets and path to spreadsheet file |Bug |
 |CELLSJAVA-41732 |Exception: "[0]Sheet1!B2-Invalid formula: More than one token in stack" on Workbook.calculateFormula() method |Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds LookInType.OriginalValues property.**
+### **Adds LookInType.OriginalValues property.**
 Only find object from the original values without format.
-### **Note**
+## **Note**
 Since the code base of Aspose.Cells for Java matches the code of relevant .NET version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.7.1 are also included in this Aspose.Cells for Java v8.7.1.

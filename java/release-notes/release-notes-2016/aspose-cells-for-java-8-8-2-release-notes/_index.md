@@ -5,18 +5,18 @@ weight: 90
 url: /java/aspose-cells-for-java-8-8-2-release-notes/
 ---
 
-### **Aspose.Cells**
+## **Aspose.Cells**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |CELLSJAVA-41848 |Certain data labels are missing while rendering chart to image |Bug |
 |CELLSJAVA-41850 |CellsException: Cell has been removed: D9 with MemorySetting.MEMORY_PREFERENCE |Exception |
 |CELLSJAVA-41844 |Exception: "Shape to image Error !" when rendering a worksheet to image |Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds DeleteOptions class.**
+### **Adds DeleteOptions class.**
 Represents the setting of deleting rows/columns.
-#### **Adds override Cells.DeleteBlankRows(DeleteOptions options) and Cells.DeleteBlankColumns(DeleteOptions options) methods.**
+### **Adds override Cells.DeleteBlankRows(DeleteOptions options) and Cells.DeleteBlankColumns(DeleteOptions options) methods.**
 Deletes blank rows or columns with setting.
 
 {{% alert color="primary" %}} 

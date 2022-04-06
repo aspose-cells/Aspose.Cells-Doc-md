@@ -35,41 +35,41 @@ This page contains release notes for [Aspose.Cells for Java 17.9](https://downlo
 |CELLSJAVA-42374|Character references parsed incorrectly by Aspose Cells|Bug |
 |CELLSJAVA-42373|Copying workbook and then saving corrupts the output Excel file|Bug |
 |CELLSJAVA-42392|Exception "com.aspose.cells.CellsException: unknown excel content!" on instantiating an encrypted Excel file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds HTMLLoadOptions.LoadStyleStrategy property**
+### **Adds HTMLLoadOptions.LoadStyleStrategy property**
 Indicates the strategy to apply style for parsed values when converting string value to number or DateTime.
-#### **Adds class AbstractCalculationMonitor**
+### **Adds class AbstractCalculationMonitor**
 Provides APIs for users to monitor the progress of formula calculation.
-#### **Adds CalculationOptions.CalculationMonitor property**
+### **Adds CalculationOptions.CalculationMonitor property**
 Allows user to provide custom implementation to monitor the progress of formula calculation.
-#### **Adds enum GridlineType**
+### **Adds enum GridlineType**
 Enumerates gridline Type.
-#### **Adds ImageOrPrintOptions.GridlineType property**
+### **Adds ImageOrPrintOptions.GridlineType property**
 Gets or sets gridline type.
-#### **Adds PdfSaveOptions.GridlineType property**
+### **Adds PdfSaveOptions.GridlineType property**
 Gets or sets gridline type.
-#### **Adds Name.GetRanges(bool) and Name.GetRange(bool) methods**
+### **Adds Name.GetRanges(bool) and Name.GetRange(bool) methods**
 For simple Name objects mostly, such as, named ranges with absolute references, the name's reference needs not to be calculated repeatedly. So GetRanges(false)/GetRange(false) will not re-calculate the Name object when getting corresponding range(s) and so the the performance may be improved significantly if those methods are called repeatedly.
-#### **Adds PdfBookmarkEntry.DestinationName property**
+### **Adds PdfBookmarkEntry.DestinationName property**
 Gets or sets name of destination. If desitnation name is set, the desitnation will be defined as a named destination with this name.
-#### **Adds DataSorter.AddKey() method**
+### **Adds DataSorter.AddKey() method**
 Adds sorted column index and sort order with custom sort list.
-#### **Adds Picture.Copy() method**
+### **Adds Picture.Copy() method**
 Copies settings from other picture.
-#### **Adds Shape.ToFrontOrBack() method**
+### **Adds Shape.ToFrontOrBack() method**
 Brings the shape to front or sends it to the back.
-#### **Adds enum ConnectionDataSourceType.Table**
+### **Adds enum ConnectionDataSourceType.Table**
 Represents the table as the data source of the connection.
-#### **Adds PageSetup.SetFitToPages() method**
+### **Adds PageSetup.SetFitToPages() method**
 Sets the number of pages the worksheet will be scaled to when it's printed.
-#### **Adds PdfSaveOptions.StreamProvider property and ResourceLoadingType enum**
+### **Adds PdfSaveOptions.StreamProvider property and ResourceLoadingType enum**
 Gets and sets the type of loading external resource.
-#### **Adds VbaModuleCollection.AddDesignerStorage() and GetDesignerStorage() methods**
+### **Adds VbaModuleCollection.AddDesignerStorage() and GetDesignerStorage() methods**
 Gets and sets the designer storage of the VBA project.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Add PDF Bookmarks with Named Destinations](/cells/java/add-pdf-bookmarks-with-named-destinations/)

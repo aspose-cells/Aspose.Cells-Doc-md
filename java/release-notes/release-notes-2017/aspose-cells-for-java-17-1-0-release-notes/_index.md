@@ -50,21 +50,21 @@ url: /java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42143|Exception: java.lang.ArrayIndexOutOfBoundsException on Workbook.save() method|Exception |
 |CELLSJAVA-42137|Invalid column index exception on rendering Excel|Exception |
 |CELLSJAVA-42111|Invalid formula exception for the last cell|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds setter for LoadFilter.LoadDataFilterOptions property to replace m_LoadDataFilterOptions variable.**
+### **Adds setter for LoadFilter.LoadDataFilterOptions property to replace m_LoadDataFilterOptions variable.**
 User may change the LoadDataFilterOptions property in their implementation of LoadFilter to change the behavior of loading workbook.
-#### **Adds CellsHelper.SignificantDigits property.**
+### **Adds CellsHelper.SignificantDigits property.**
 Gets and sets the number of significant digits.
-#### **Adds GlowEffect.Color property.**
+### **Adds GlowEffect.Color property.**
 Gets the color of the glow effect.
-#### **Adds PageSetup.PaperWidth property.**
+### **Adds PageSetup.PaperWidth property.**
 Represents the width in inches of the paper, considered page orientation.
-#### **Adds PageSetup.PaperHeight property.**
+### **Adds PageSetup.PaperHeight property.**
 Represents the height in inches of the paper, considered page orientation.
-#### **Adds WorkbookSettings.CheckCustomNumberFormat property.**
+### **Adds WorkbookSettings.CheckCustomNumberFormat property.**
 Indicates whether checking custom number format when setting Style.Custom.
-#### **Adds some chart types.**
+### **Adds some chart types.**
 Adds more chart types for MS Office 2016.
-#### **Adds DisplayUnitType.Percentage enum.**
+### **Adds DisplayUnitType.Percentage enum.**
 Represents values on the chart shall be divided by 0.01.

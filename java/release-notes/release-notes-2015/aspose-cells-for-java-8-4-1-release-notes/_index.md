@@ -87,7 +87,7 @@ Moved main codebase to Java 6 (Java 7 and 8 are also supported). Dropped support
 
 (CELLSJAVA-41256) - Some conditional formatting rules cannot be used or partially used in the template file when imported to GridWeb
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 

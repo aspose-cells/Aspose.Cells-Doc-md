@@ -29,17 +29,17 @@ This page contains release notes for [Aspose.Cells for Java 20.5](https://downlo
 |CELLSJAVA-43168|Exception "IllegalStateException: This is not a structured storage file" when merging Excel files|Exception|
 |CELLSJAVA-43179|Exception NumberFormatException: For input string: "preserve"|Exception|
 |CELLSJAVA-43182|Exception 'lang.IllegalStateException: Invalid encoding: null' while loading XLS file|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds WorkbookSettings.GetThemeFont() method.**
+### **Adds WorkbookSettings.GetThemeFont() method.**
 Gets theme font. 
-#### **Adds DataLabels.LinkedSource property.**
+### **Adds DataLabels.LinkedSource property.**
 Gets and sets the linked source.
-#### **Adds DefaultEditLanguage enum.**
+### **Adds DefaultEditLanguage enum.**
 Represents the default edit language.
-#### **Adds ImageOrPrintOptions.DefaultEditLanguage property.**
+### **Adds ImageOrPrintOptions.DefaultEditLanguage property.**
 Gets or sets default edit language.
 It may display/render different layouts for text paragraphs when different edit languages are set.
-#### **Adds PdfSaveOptions.DefaultEditLanguage property.**
+### **Adds PdfSaveOptions.DefaultEditLanguage property.**
 Gets or sets default edit language.
 It may display/render different layouts for text paragraphs when different edit languages are set.

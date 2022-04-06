@@ -31,19 +31,19 @@ This page contains release notes for [Aspose.Cells for Java 20.6](https://downlo
 |CELLSJAVA-43189|Exception raised while loading the XLS file|Exception|
 |CELLSJAVA-43193|NullPointerException occurred when loading some XLSX files|Exception|
 |CELLSJAVA-43200|Exception "java.lang.ArrayIndexOutOfBoundsException" on loading the file|Exception|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds ReferredArea.GetValues(bool calculateFormulas)/GetValue(int rowOffset, int colOffset, bool calculateFormulas) method.**
+### **Adds ReferredArea.GetValues(bool calculateFormulas)/GetValue(int rowOffset, int colOffset, bool calculateFormulas) method.**
 It gives the user the ability to control whether formulas should be calculated recursively in the implementation of AbstractCalculationEngine.
-#### **Adds WarningType.InvalidFontName and WarningType.InvalidTextOfDefinedName enum.**
+### **Adds WarningType.InvalidFontName and WarningType.InvalidTextOfDefinedName enum.**
 Represents the warning type.
-#### **Adds WarningInfo.CorrectedObject and WarningInfo.ErrorObject properties.**
+### **Adds WarningInfo.CorrectedObject and WarningInfo.ErrorObject properties.**
 Represents the wrong data and updated data when a warning is thrown.
-#### **Adds WorkbookDesigner.RepeatFormulasWithSubtotal properties.**
+### **Adds WorkbookDesigner.RepeatFormulasWithSubtotal properties.**
 Indicates whether repeating formulas with subtotal rows.
-#### **Adds PlotArea.IsAutomaticSize property.**
+### **Adds PlotArea.IsAutomaticSize property.**
 It indicates whether the size of the plot area is automatic.
-#### **Deletes obsoleted Style.Rotation property.**
+### **Deletes obsoleted Style.Rotation property.**
 Use Style.RotationAngle property instead.
-#### **Adds Gridweb.SetFontFolder(string fontFolder, bool recursive)/SetFontFolders(string[] fontFolders, bool recursive) method.**
+### **Adds Gridweb.SetFontFolder(string fontFolder, bool recursive)/SetFontFolders(string[] fontFolders, bool recursive) method.**
 Sets the fonts folder/folders

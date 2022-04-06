@@ -62,9 +62,9 @@ This page contains release notes for [Aspose.Cells for Java 17.02.0](https://dow
 |CELLSJAVA-42192|CellsException: Invalid hole size: it must be between 10 and 90|Exception |
 |CELLSJAVA-42190|Exception: "java.lang.IndexOutOfBoundsException" when loading an XLSX file format|Exception |
 |CELLSJAVA-42185|Exception - ReadElementString only could be called - occurred on opening workbook|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Added HTMLLoadOptions.AutoFitColsAndRows Property**
+### **Added HTMLLoadOptions.AutoFitColsAndRows Property**
 This release of the Aspose.Cells for Java API has added the HTMLLoadOptions.AutoFitColsAndRows property which indicates if the API should auto-fit columns and rows while importing the HTML in its object mode. The Boolean type property has the default value as false which means that the cell heights & widths will be imported as they are, however, when the aforementioned property is set to true, the API tries to adjust the column widths and row heights according the contents.
 
 Here is the simple usage scenario of the HTMLLoadOptions.AutoFitColsAndRows property.
@@ -86,7 +86,7 @@ loadOptions.setAutoFitColsAndRows(true);
 Workbook book = new Workbook(dir + "sample.htm", loadOptions);
 
 {{< /highlight >}}
-#### **Added WorkbookSettings.WarningCallback & LoadOptions.WarningCallback Properties**
+### **Added WorkbookSettings.WarningCallback & LoadOptions.WarningCallback Properties**
 Aspose.Cells for Java 17.02.0 has exposed the WarningCallback property to the LoadOptions and WorkbookSettings classes in order to get or set the warning callback. Developers have to implement the IWarningCallback interface in order to get custom warnings in their applications.
 
 Here is a simple usage scenario of LoadOptions.WarningCallback property to get warnings when an input spreadsheet contains duplicate named ranges.
@@ -134,7 +134,7 @@ options.setWarningCallback(new WarningCallback());
 Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
-#### **Added Cells.textToColumns Method**
+### **Added Cells.textToColumns Method**
 Latest revision of Aspose.Cells for Java APIs have exposed the Cells.textToColumns method in order to mimic the Excel's **Text to Columns** feature. Excel provides this feature from **Data Tools** under the **Data** tab. Please note, in order to split the contents of a column to multiple columns, the data should contain a specific delimiter such as a comma (or any other character) based on which the API tries to split the contents of a cell to multiple cells.
 
 Here is a simple usage scenario to demonstrate the usage of newly exposed API.
@@ -162,7 +162,7 @@ options.setSeparator(',');
 cells.textToColumns(1, 1, 3, options);
 
 {{< /highlight >}}
-#### **Added Workbook.getFonts Method**
+### **Added Workbook.getFonts Method**
 Aspose.Cells for Java 17.02.0 has exposed the getFonts method for the Workbook class. The Workbook.getFonts method returns the list of individual fonts used to format the cells contents of a given spreadsheet. The return type of the aforementioned method is an array of typeFont class.
 
 Following code snippet demonstrates the usage of Workbook.getFonts method.
@@ -190,7 +190,7 @@ for (int i = 0; i < fonts.length; i ++)
 }
 
 {{< /highlight >}}
-#### **Added TxtSaveOptions.TrimLeadingBlankRowAndColumn Property**
+### **Added TxtSaveOptions.TrimLeadingBlankRowAndColumn Property**
 This revision of Aspose.Cells for Java has exposed Boolean type TrimLeadingBlankRowAndColumn property for the TxtSaveOptions class that indicates whether leading blank rows and columns should be trimmed like Excel does while exporting data to CSV or Tab-delimited formats.The default value of aforementioned property is false. In case the data on the worksheet does not start from the first cell, that is: A1, the Excel application removes the leading blank rows and columns while exporting the data to CSV or Tab-delimited formats, however, Aspose.Cells APIs by default, retain the blank rows & columns for the same sample in order to keep the data location retained if the exported CSV or Tab-delimited files have to be imported back using Aspose.Cells APIs.
 
 Here is a simple usage scenario of the TrimLeadingBlankRowAndColumn property.
@@ -214,11 +214,11 @@ options.setTrimLeadingBlankRowAndColumn(true);
 book.save(dir + "output.csv", options);
 
 {{< /highlight >}}
-#### **Added BuiltInDocumentPropertyCollection.Revision Property and Obsoleted BuiltInDocumentPropertyCollection.RevisionNumber Property**
+### **Added BuiltInDocumentPropertyCollection.Revision Property and Obsoleted BuiltInDocumentPropertyCollection.RevisionNumber Property**
 Please use BuiltInDocumentPropertyCollection.Revision property instead.
-#### **Added Shape.TextShapeType Property**
+### **Added Shape.TextShapeType Property**
 The Shape.TextShapeType property gets or sets the preset text shape type from a list of predefined types stored in AutoShapeType enumeration.
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs: 
 
 1. [AutoFit Columns and Rows while loading HTML in Workbook](/cells/java/autofit-columns-and-rows-while-loading-html-in-workbook/)

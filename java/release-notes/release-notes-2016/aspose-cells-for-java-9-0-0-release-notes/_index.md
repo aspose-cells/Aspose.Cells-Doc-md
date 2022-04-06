@@ -5,7 +5,7 @@ weight: 40
 url: /java/aspose-cells-for-java-9-0-0-release-notes/
 ---
 
-### **1) Aspose.Cells**
+## **1) Aspose.Cells**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -27,37 +27,37 @@ url: /java/aspose-cells-for-java-9-0-0-release-notes/
 |CELLSJAVA-41961 |Invalid string in the file exception occurs while opening the source a3.xls |Exception |
 |CELLSJAVA-41960 |NegativeArraySizeException exception occurs while opening the source a2.xls |Exception |
 |CELLSJAVA-41959 |NullPointerException exception occurs while opening the source a1.xlsx |Exception |
-### **2) Aspose.Cells Grid Suite**
+## **2) Aspose.Cells Grid Suite**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |CELLSJAVA-41965 |Get the version like CELLSNET-44565 and CELLSNET-44676 that is also needed for GridWeb (Java) |Enhancement |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Shape.TextOptions property**
+### **Adds Shape.TextOptions property**
 Represents the text options of the shape.
-#### **Obsoletes Worksheet.SetBackground method**
+### **Obsoletes Worksheet.SetBackground method**
 Please use Worksheet.BackgroundImage property instead.
-#### **Obsoletes LineShape.BeginArrowheadStyle and ArcShape.BeginArrowheadStyle**
+### **Obsoletes LineShape.BeginArrowheadStyle and ArcShape.BeginArrowheadStyle**
 Please use Shape.Line.BeginArrowheadStyle property instead.
-#### **Obsoletes LineShape.BeginArrowheadWidth and ArcShape.BeginArrowheadWidth**
+### **Obsoletes LineShape.BeginArrowheadWidth and ArcShape.BeginArrowheadWidth**
 Please use Shape.Line.BeginArrowheadWidth property instead.
-#### **Obsoletes LineShape.BeginArrowheadLength and ArcShape.BeginArrowheadLength**
+### **Obsoletes LineShape.BeginArrowheadLength and ArcShape.BeginArrowheadLength**
 Please use Shape.Line.BeginArrowheadLength property instead.
-#### **Obsoletes LineShape.EndArrowheadStyle and ArcShape.EndArrowheadStyle**
+### **Obsoletes LineShape.EndArrowheadStyle and ArcShape.EndArrowheadStyle**
 Please use Shape.Line.EndArrowheadStyle property instead.
-#### **Obsoletes LineShape.EndArrowheadWidth and ArcShape.EndArrowheadWidth**
+### **Obsoletes LineShape.EndArrowheadWidth and ArcShape.EndArrowheadWidth**
 Please use Shape.Line.EndArrowheadWidth property instead.
-#### **Obsoletes LineShape.EndArrowheadLength and ArcShape.EndArrowheadLength**
+### **Obsoletes LineShape.EndArrowheadLength and ArcShape.EndArrowheadLength**
 Please use Shape.Line.EndArrowheadLength property instead.
-#### **Deletes obsoleted Worksheet.CopyConditionalFormatting() method**
-#### **Deletes obsoleted Workbook.CheckWriteProtectedPassword() method**
+### **Deletes obsoleted Worksheet.CopyConditionalFormatting() method**
+### **Deletes obsoleted Workbook.CheckWriteProtectedPassword() method**
 Please use WorkbookSettings.WriteProtection.ValidatePassword method instead.
-#### **Renames Workbook.RemoveDigitallySign as Workbook.RemoveDigitalSignature method**
+### **Renames Workbook.RemoveDigitallySign as Workbook.RemoveDigitalSignature method**
 The Workbook.RemoveDigitallySign method has been renamed to Workbook.RemoveDigitalSignature.
-#### **Adds ChartSplitType.Auto property**
+### **Adds ChartSplitType.Auto property**
 Represents the data points shall be split using the default mechanism for this chart type.
-#### **Adds ChartPoint.IsInSecondaryPlot property**
+### **Adds ChartPoint.IsInSecondaryPlot property**
 Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart.
-#### **Adds OleObject.ClassIdentifier property**
+### **Adds OleObject.ClassIdentifier property**
 Gets or sets the class identifier of the embedded object.

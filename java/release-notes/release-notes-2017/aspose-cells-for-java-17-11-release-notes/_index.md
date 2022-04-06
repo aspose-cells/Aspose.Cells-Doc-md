@@ -37,31 +37,31 @@ This page contains release notes for Aspose.Cells for Java 17.11.
 |CELLSJAVA-42440|"java.lang.IllegalArgumentException: Invalid row index" occurred|Exception |
 |CELLSJAVA-42439|Exception: "java.lang.IllegalArgumentException: Invalid row index" on saving an XLSX file format|Exception |
 |CELLSJAVA-42437|Exception: java.lang.NumberFormatException when re-saving an XLSB file format|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds Shape.GetResultOfSmartArt() method**
+### **Adds Shape.GetResultOfSmartArt() method**
 Convert the smart art to a group shape.
-#### **Adds Shape.IsSmartArt property**
+### **Adds Shape.IsSmartArt property**
 Indicates whether the shape is smart art.
-#### **Adds Workbook.ProtectSharedWorkbook() and Workbook.UnprotectSharedWorkbook() methods**
+### **Adds Workbook.ProtectSharedWorkbook() and Workbook.UnprotectSharedWorkbook() methods**
 Protects and unprotects the shared workbook.
-#### **Adds enum StyleModifyFlag.Spacing**
+### **Adds enum StyleModifyFlag.Spacing**
 Specifies the spacing between characters within a text run.
-#### **Adds PdfSaveOptions.IgnoreError property**
+### **Adds PdfSaveOptions.IgnoreError property**
 Indicates if you need to hide the error while rendering.
-#### **Adds ImageOrPrintOptions.PageIndex property**
+### **Adds ImageOrPrintOptions.PageIndex property**
 Gets or sets the 0-based index of the first page to save.
-#### **Adds ImageOrPrintOptions.PageCount property**
+### **Adds ImageOrPrintOptions.PageCount property**
 Gets or sets the number of pages to save.
-#### **Adds XmlMap.RootElementName property**
+### **Adds XmlMap.RootElementName property**
 Gets root element name.
-#### **Adds Worksheet.XmlMapQuery(string path, XmlMap xmlMap) method**
+### **Adds Worksheet.XmlMapQuery(string path, XmlMap xmlMap) method**
 Query cell areas that mapped/linked to the specific path of xml map.
-#### **Adds LoadOptions.AutoFitterOptions property**
+### **Adds LoadOptions.AutoFitterOptions property**
 Gets and sets the auto fitter options.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Convert the Smart Art to Group Shape](/cells/java/convert-the-smart-art-to-group-shape/)

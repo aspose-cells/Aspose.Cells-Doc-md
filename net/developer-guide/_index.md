@@ -183,6 +183,7 @@ This Developer Guide provides information on using Aspose.Cells in a variety of 
         <p><a href="/cells/net/managing-charts-and-shapes/">Text Box</a</p>
         <ul>
             <li><a href="/cells/net/add-text-box-to-worksheet-in-aspose-cells/">Add Text Box to Worksheet in Aspose.Cells</a></li>
+            <li><a href="/cells/net/applying-text-alignment-to-partial-text-inside-the-textbox/">Applying text alignment to partial text inside the TextBox</a></li>
         </ul>
         <p>Header&Footer</p>
         <ul>
@@ -212,7 +213,7 @@ This Developer Guide provides information on using Aspose.Cells in a variety of 
          <li><a href="/cells/net/setting-page-options/">Setting Page Options</a></li>
          <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
          <li><a href="/cells/net/managing-page-breaks/">Managing Page Breaks</a></li>
-         <li><a href="/cells/net/set-background-picture-for-a-worksheet/">Set Background Picture for a Worksheet</a></li>
+         <li><a href="/cells/net/insert-background-image-to-excel/">Insert Background Image to Excel</a></li>
          <li><a href="/cells/net/get-paper-width-and-height-of-page-setup-of-worksheet/">Get Paper Width and Height of Page Setup of Worksheet</a></li>
          <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
          <li><a href="/cells/net/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>

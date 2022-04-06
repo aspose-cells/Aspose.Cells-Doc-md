@@ -34,25 +34,25 @@ This page contains release notes for [Aspose.Cells for Java 17.5](https://downlo
 |CELLSJAVA-42268|Exception: "java.lang.NullPointerException" when rendering a chart to image|Exception |
 |CELLSJAVA-42278|Exception: "java.lang.IndexOutOfBoundsException: Index: 12, Size: 12" when saving to HTML file format|Exception |
 |CELLSJAVA-42274|Exception: "java.lang.StringIndexOutOfBoundsException: String index out of range: 0" when loading an XLSX file|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds ExportTableOptions.ExportAsHtmlString property**
+### **Adds ExportTableOptions.ExportAsHtmlString property**
 Exports the HTML string value of the cells to the DataTable.
-#### **Adds PageSetup.Copy(PageSetup source,CopyOptions copyOptions) method**
+### **Adds PageSetup.Copy(PageSetup source,CopyOptions copyOptions) method**
 Copies the settings of the Page Setup.
-#### **Adds ImportTableOptions.ShiftFirstRowDown property**
+### **Adds ImportTableOptions.ShiftFirstRowDown property**
 Indicates whether shifting the first row down when inserting table.
-#### **Adds PageSetup.CustomPaperSize() method**
+### **Adds PageSetup.CustomPaperSize() method**
 Sets the custom paper size, in the unit of inches.
-#### **Adds PageSetup.PrinterSettings property**
+### **Adds PageSetup.PrinterSettings property**
 Gets and sets the settings of the default printer.
-#### **Adds constants PaperSizeType.CUSTOM**
+### **Adds constants PaperSizeType.CUSTOM**
 Represents the custom paper size.
-#### **Adds constants PdfCompliance.PDF_A_1_A**
+### **Adds constants PdfCompliance.PDF_A_1_A**
 Represents PDF format compatible with PDFA-1a.
 
 
-#### **Usage Examples**
+### **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Convert Excel file to PDF format compatible with PDFA-1a](/cells/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)

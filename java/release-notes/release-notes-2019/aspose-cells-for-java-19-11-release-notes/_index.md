@@ -30,19 +30,19 @@ This page contains release notes for Aspose.Cells for Java 19.11.
 |CELLSJAVA-43038|HyperLinks not getting exported using Cell.setHtmlString()|Bug|
 |CELLSJAVA-43039|Cell.setHtmlString() is not rendering certain HTML tags/scripts to Excel export|Bug|
 
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds methods: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
+### **Adds methods: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
 Adds/Removes validation settings from given area(s) with performance consideration.
-#### **Adds Workbook.ImportXml(Stream stream, string sheetName, int row, int col) method.**
+### **Adds Workbook.ImportXml(Stream stream, string sheetName, int row, int col) method.**
 Imports an XML file stream into the workbook.
-#### **Adds Workbook.ExportXml(string mapName, Stream stream) method.**
+### **Adds Workbook.ExportXml(string mapName, Stream stream) method.**
 Export XML data to a stream.
-#### **Adds HtmlSaveOptions.ExportArea property**
+### **Adds HtmlSaveOptions.ExportArea property**
 Gets or Sets the exporting CellArea of current active Worksheet. If you set this attribute, the print area of the current active Worksheet will be omitted. Only the specified area will be exported when saving the file to HTML.
-#### **Adds classes : DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem and PowerQueryFormulaItemCollection**
+### **Adds classes : DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem and PowerQueryFormulaItemCollection**
 Gets info in the DataMashup.
-#### **Adds DBConnection.SeverCommand property.**
+### **Adds DBConnection.SeverCommand property.**
 Gets and sets a second command text string that is persisted when PivotTable server-based page fields are in use. 
-#### **Adds CellsHelper.GetTextWidth() method.**
+### **Adds CellsHelper.GetTextWidth() method.**
 Gets the width of the text in the unit of points.

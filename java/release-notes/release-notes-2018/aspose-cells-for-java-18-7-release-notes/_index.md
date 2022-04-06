@@ -25,11 +25,11 @@ This page contains release notes for Aspose.Cells for Java 18.7.
 |CELLSJAVA-42669|Exception "java.lang.NullPointerException" when calculating formulas in the workbook|Exception |
 |CELLSJAVA-42663|Chart.calculate() throws IndexOutOfBoundsException|Exception |
 |CELLSJAVA-42655|Exception: "Invalid encoding: null" when loading an XLS file - II|Exception |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
-#### **Adds enum StyleFlag.Alignments**
+### **Adds enum StyleFlag.Alignments**
 Represents all the settings of alignment.
-#### **Adds WorkbookSettings.MaxRow and WorkbookSettings.MaxColumn properties**
+### **Adds WorkbookSettings.MaxRow and WorkbookSettings.MaxColumn properties**
 Gets the max row and column index of the workbook.
-#### **Adds WriteProtection.Author property**
+### **Adds WriteProtection.Author property**
 Gets and sets the author of the write protection.
