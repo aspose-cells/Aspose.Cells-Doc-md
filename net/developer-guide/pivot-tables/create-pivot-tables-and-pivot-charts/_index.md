@@ -3,6 +3,7 @@ title: Create Pivot Tables and Pivot Charts
 type: docs
 weight: 20
 url: /net/create-pivot-tables-and-pivot-charts/
+aliases: [/net/managing-pivot-tables-and-pivot-charts/]
 ---
 
 {{% alert color="primary" %}}
