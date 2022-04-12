@@ -47,7 +47,7 @@ In the following sections and articles, we will take a closer look at some of th
 
 ### Stability
 
-Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Words, but also reduce the risk of unforeseen situations to virtually zero.
+Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Cells, but also reduce the risk of unforeseen situations to virtually zero.
 
 ### Scalability and Speed
 
