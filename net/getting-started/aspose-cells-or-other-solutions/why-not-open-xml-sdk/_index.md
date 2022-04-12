@@ -49,8 +49,19 @@ The following table compares the Open XML SDK and Aspose.Cells features.
 |Calculate/ Recalculate formulas dynamically|No|Yes|
 |Supported platforms|Windows, .NET|Windows, Linux, Java, .NET, Mono|
 
+You can compare OpenXML with Aspose.Cells To do these, we suggest that you familiarize yourself with the Aspose.Cells for OpenXML project – it shows how different tasks can be done using the Aspose.Cells for .NET API versus OpenXML. The project also covers features for working with text documents that are only available in Aspose.Cells, but not in OpenXML.
+
+This project is also useful for developers looking to migrate from OpenXML to Aspose.Cells.
+
+{{% alert color="primary" %}}
+
+Explore [the plugin with source code examples of Aspose.Cells for .NET features in comparison with OpenXML](https://github.com/asposemarketplace/Aspose_for_OpenXML).
+
+This plugin uses the evaluation version of Aspose.Cells. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the ["Licensing and Subscription"](/cells/net/licensing/) article to do this.
+
 **Conclusion**: Open XML SDK and Aspose.Cells do not compete head to head because they address quite different needs and audiences.
 
+## **Why not Open XML SDK**
 Open XML SDK is a class library to provide a strong-typed way to work with OOXML documents. Aspose.Cells is a very useful spreadsheet processing library that provides great support for all Microsoft Excel and other file formats.
 
 If all you need to do is a fairly basic programming operation on an XLSX document, then Open XML SDK might be a suitable choice. With Open XML SDK, you will be fairly comfortable doing simple tasks like generating a simple XLSX document or removing comments, headers/footers, extracting images or others. 
@@ -65,3 +76,5 @@ However, if you need to perform complex operations on documents, such as some of
 - Generate a business document, such as an order with order details from a data source.
 - Convert a document to PDF or XPS so it appears exactly like Microsoft Excel would have converted it.
 - Develop a .NET or Java application.
+
+
