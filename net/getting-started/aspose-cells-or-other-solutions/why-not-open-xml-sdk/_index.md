@@ -64,7 +64,7 @@ This plugin uses the evaluation version of Aspose.Cells. When you are happy with
 
 **Conclusion**: Open XML SDK and Aspose.Cells do not compete head to head because they address quite different needs and audiences.
 
-## **Why not Open XML SDK**
+## **Why Not Open XML SDK**
 Open XML SDK is a class library to provide a strong-typed way to work with OOXML documents. Aspose.Cells is a very useful spreadsheet processing library that provides great support for all Microsoft Excel and other file formats.
 
 If all you need to do is a fairly basic programming operation on an XLSX document, then Open XML SDK might be a suitable choice. With Open XML SDK, you will be fairly comfortable doing simple tasks like generating a simple XLSX document or removing comments, headers/footers, extracting images or others. 

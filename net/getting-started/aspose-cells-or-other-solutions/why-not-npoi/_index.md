@@ -11,7 +11,7 @@ Sometimes we get the following question: why should we use Aspose products rathe
 
 NPOI (NET version of POI Java project) is an open source project that can help you read or write files in Microsoft Office formats. As part of the current comparison, consider the following NPOI components –  HSSF and XSSF:
 
-**HSSF** is the POI Project's pure Java implementation of the Excel '97(-2007) file format.
+**HSSF** is the POI Project's pure Java implementation of the Excel 97(-2007) file format.
 
 **XSSF** is the POI Project's pure Java implementation of the Excel 2007 OOXML (.xlsx) file format.
 
@@ -27,7 +27,7 @@ Aspose.Cells is a very useful document processing library that provides great su
 
 In this article, we will look at when it makes sense for you to prefer Aspose.Cells.
 
-## Why not NPOI
+## Why Not NPOI
 
 It is worth noting that some tasks can be achieved with Aspose.Cells, but cannot be accomplished with NPOI. For example, if you need to convert Excel files to Pdf , JSON and images,then you cannot use only NPOI, you also need Microsoft Excel 365 or other tools.
 
