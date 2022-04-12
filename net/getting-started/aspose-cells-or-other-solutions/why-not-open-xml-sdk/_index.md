@@ -59,6 +59,8 @@ Explore [the plugin with source code examples of Aspose.Cells for .NET features 
 
 This plugin uses the evaluation version of Aspose.Cells. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the ["Licensing and Subscription"](/cells/net/licensing/) article to do this.
 
+{{% /alert %}}
+
 **Conclusion**: Open XML SDK and Aspose.Cells do not compete head to head because they address quite different needs and audiences.
 
 ## **Why not Open XML SDK**
