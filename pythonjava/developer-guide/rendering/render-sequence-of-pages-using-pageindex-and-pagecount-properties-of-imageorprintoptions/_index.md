@@ -2,7 +2,7 @@
 title: Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions
 type: docs
 weight: 10
-url: /pythonjava/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
+url: /python-java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 ---
 
 ## **Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions**

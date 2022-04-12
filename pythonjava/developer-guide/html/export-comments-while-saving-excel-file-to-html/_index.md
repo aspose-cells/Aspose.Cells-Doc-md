@@ -2,7 +2,7 @@
 title: Export Comments while Saving Excel file to HTML
 type: docs
 weight: 60
-url: /pythonjava/export-comments-while-saving-excel-file-to/
+url: /python-java/export-comments-while-saving-excel-file-to/
 ---
 
 ## **Export Comments while Saving Excel file to HTML**

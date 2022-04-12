@@ -2,7 +2,7 @@
 title: Insert Background Image to Excel
 type: docs
 weight: 90
-url: /pythonjava/insert-background-image-to-excel/
+url: /python-java/insert-background-image-to-excel/
 description: "How to insert background image to Excel using Aspose.Cells for Python via Java."
 ---
 

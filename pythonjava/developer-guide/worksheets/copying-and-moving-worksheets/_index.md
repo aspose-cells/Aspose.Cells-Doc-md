@@ -2,7 +2,7 @@
 title: Copying and Moving Worksheets
 type: docs
 weight: 20
-url: /pythonjava/copying-and-moving-worksheets/
+url: /python-java/copying-and-moving-worksheets/
 ---
 
 {{% alert color="primary" %}} 

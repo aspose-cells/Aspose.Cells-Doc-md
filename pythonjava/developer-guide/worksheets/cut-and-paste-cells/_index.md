@@ -2,7 +2,7 @@
 title: Cut and Paste Cells
 type: docs
 weight: 30
-url: /pythonjava/cut-and-paste-cells/
+url: /python-java/cut-and-paste-cells/
 ---
 
 ## **Cut and Paste Cells**

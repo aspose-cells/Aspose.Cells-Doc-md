@@ -2,7 +2,7 @@
 title: Convert Excel to ODS
 type: docs
 weight: 40
-url: /pythonjava/convert-excel-to-ods/
+url: /python-java/convert-excel-to-ods/
 ---
 
 ## **Convert Excel to ODS**

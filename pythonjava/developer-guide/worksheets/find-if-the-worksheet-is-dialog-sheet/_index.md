@@ -2,7 +2,7 @@
 title: Find if the Worksheet is Dialog Sheet
 type: docs
 weight: 70
-url: /pythonjava/find-if-the-worksheet-is-dialog-sheet/
+url: /python-java/find-if-the-worksheet-is-dialog-sheet/
 ---
 
 ## **Possible Usage Scenarios**

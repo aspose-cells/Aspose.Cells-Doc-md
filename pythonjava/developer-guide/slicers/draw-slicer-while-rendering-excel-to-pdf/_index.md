@@ -2,7 +2,7 @@
 title: Draw Slicer while rendering Excel to PDF
 type: docs
 weight: 20
-url: /pythonjava/draw-slicer-while-rendering-excel-to-pdf/
+url: /python-java/draw-slicer-while-rendering-excel-to-pdf/
 ---
 
 ## **Draw Slicer while rendering Excel to PDF**

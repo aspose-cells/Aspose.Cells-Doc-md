@@ -2,7 +2,7 @@
 title: Developer Guide
 type: docs
 weight: 20
-url: /pythonjava/developer-guide/
+url: /python-java/developer-guide/
 ---
 
 

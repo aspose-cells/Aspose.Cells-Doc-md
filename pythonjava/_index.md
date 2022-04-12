@@ -2,7 +2,7 @@
 title: Aspose.Cells for Python via Java
 type: docs
 weight: 70
-url: /pythonjava/
+url: /python-java/
 is_root: true
 description: Aspose.Cells for Python supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) file formats your business use every day. It also allows exporting Excel® files to PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
 ---

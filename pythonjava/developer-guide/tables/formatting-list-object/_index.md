@@ -2,7 +2,7 @@
 title: Formatting List Object
 type: docs
 weight: 30
-url: /pythonjava/formatting-list-object/
+url: /python-java/formatting-list-object/
 ---
 
 ## **Formatting List Object**

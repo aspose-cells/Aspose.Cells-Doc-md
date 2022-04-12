@@ -2,7 +2,7 @@
 title: Supported File Formats
 type: docs
 weight: 10
-url: /pythonjava/supported-file-formats/
+url: /python-java/supported-file-formats/
 ---
 
 |**Format**|**Description**|**Load**|**Save**|

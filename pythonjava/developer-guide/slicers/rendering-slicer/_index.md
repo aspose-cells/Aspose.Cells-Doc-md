@@ -2,7 +2,7 @@
 title: Rendering Slicer
 type: docs
 weight: 50
-url: /pythonjava/rendering-slicer/
+url: /python-java/rendering-slicer/
 ---
 
 ## **Rendering Slicer**

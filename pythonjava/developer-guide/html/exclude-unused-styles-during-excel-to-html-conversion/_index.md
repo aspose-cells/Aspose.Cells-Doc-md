@@ -2,7 +2,7 @@
 title: Exclude Unused Styles during Excel to HTML conversion
 type: docs
 weight: 30
-url: /pythonjava/exclude-unused-styles-during-excel-to-html-conversion/
+url: /python-java/exclude-unused-styles-during-excel-to-html-conversion/
 ---
 
 ## **Exclude Unused Styles during Excel to HTML conversion**

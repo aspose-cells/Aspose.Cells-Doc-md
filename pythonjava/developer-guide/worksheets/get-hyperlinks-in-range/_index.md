@@ -2,7 +2,7 @@
 title: Get Hyperlinks in Range
 type: docs
 weight: 50
-url: /pythonjava/get-hyperlinks-in-range/
+url: /python-java/get-hyperlinks-in-range/
 ---
 
 ## **Get Hyperlinks in Range**

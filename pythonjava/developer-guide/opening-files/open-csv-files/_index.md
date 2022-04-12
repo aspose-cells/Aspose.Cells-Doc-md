@@ -2,7 +2,7 @@
 title: Open CSV Files
 type: docs
 weight: 10
-url: /pythonjava/open-csv-files/
+url: /python-java/open-csv-files/
 ---
 
 ## **Open CSV Files**

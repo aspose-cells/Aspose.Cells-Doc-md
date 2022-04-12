@@ -2,7 +2,7 @@
 title: Specify how to cross string in output PDF and image
 type: docs
 weight: 20
-url: /pythonjava/specify-how-to-cross-string-in-output-pdf-and-image/
+url: /python-java/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
 
 ## **Specify how to cross string in output PDF and image**

@@ -2,7 +2,7 @@
 title: Data
 type: docs
 weight: 110
-url: /pythonjava/data/
+url: /python-java/data/
 ---
 
 

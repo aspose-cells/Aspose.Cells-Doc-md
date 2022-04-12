@@ -2,7 +2,7 @@
 title: Formatting Slicer
 type: docs
 weight: 30
-url: /pythonjava/formatting-slicer/
+url: /python-java/formatting-slicer/
 ---
 
 ## **Formatting Slicer**

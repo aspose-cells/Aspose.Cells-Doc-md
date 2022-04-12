@@ -2,7 +2,7 @@
 title: Get Range with External Links
 type: docs
 weight: 60
-url: /pythonjava/get-range-with-external-links/
+url: /python-java/get-range-with-external-links/
 ---
 
 ## **Get Range with External Links**

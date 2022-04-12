@@ -2,7 +2,7 @@
 title: Convert Excel to SVG
 type: docs
 weight: 60
-url: /pythonjava/convert-excel-to-svg/
+url: /python-java/convert-excel-to-svg/
 ---
 
 ## **Convert Excel to SVG**

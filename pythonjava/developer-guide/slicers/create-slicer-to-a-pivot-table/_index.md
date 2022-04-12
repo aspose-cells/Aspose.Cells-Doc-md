@@ -2,7 +2,7 @@
 title: Create Slicer to a Pivot Table
 type: docs
 weight: 10
-url: /pythonjava/create-slicer-to-a-pivot-table/
+url: /python-java/create-slicer-to-a-pivot-table/
 ---
 
 ## **Possible Usage Scenarios**

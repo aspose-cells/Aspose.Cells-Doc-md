@@ -2,7 +2,7 @@
 title: Convert Excel to Markdown
 type: docs
 weight: 30
-url: /pythonjava/convert-excel-to-markdown/
+url: /python-java/convert-excel-to-markdown/
 ---
 
 ## **Convert Excel to Markdown**

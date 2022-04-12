@@ -2,7 +2,7 @@
 title: Aspose.Cells for Python via Java 22.1 Release Notes
 type: docs
 weight: 12
-url: /pythonjava/aspose-cells-for-python-via-java-22-1-release-notes/
+url: /python-java/aspose-cells-for-python-via-java-22-1-release-notes/
 ---
 
 {{% alert color="primary" %}}

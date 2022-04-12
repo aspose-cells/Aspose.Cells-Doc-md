@@ -2,7 +2,7 @@
 title: Set the Comment of Table or List Object
 type: docs
 weight: 60
-url: /pythonjava/set-the-comment-of-table-or-list-object/
+url: /python-java/set-the-comment-of-table-or-list-object/
 ---
 
 ## **Set the Comment of Table or List Object inside the Worksheet**

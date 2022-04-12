@@ -2,7 +2,7 @@
 title: Removing Slicer
 type: docs
 weight: 40
-url: /pythonjava/removing-slicer/
+url: /python-java/removing-slicer/
 ---
 
 ## **Removing Slicer**

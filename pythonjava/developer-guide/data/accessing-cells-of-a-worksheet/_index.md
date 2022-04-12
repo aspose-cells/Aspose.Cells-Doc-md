@@ -2,7 +2,7 @@
 title: Accessing Cells of a Worksheet
 type: docs
 weight: 10
-url: /pythonjava/accessing-cells-of-a-worksheet/
+url: /python-java/accessing-cells-of-a-worksheet/
 ---
 
 ## **Accessing Cells**

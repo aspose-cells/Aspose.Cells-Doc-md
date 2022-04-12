@@ -2,7 +2,7 @@
 title: Read and Write Table with Query Table Data Source
 type: docs
 weight: 50
-url: /pythonjava/read-and-write-table-with-query-table-data-source/
+url: /python-java/read-and-write-table-with-query-table-data-source/
 ---
 
 ## **Read and Write Table with Query Table Data Source**

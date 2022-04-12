@@ -2,7 +2,7 @@
 title: Updating Slicer
 type: docs
 weight: 60
-url: /pythonjava/updating-slicer/
+url: /python-java/updating-slicer/
 ---
 
 ## **Updating Slicer**

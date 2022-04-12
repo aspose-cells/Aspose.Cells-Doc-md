@@ -2,7 +2,7 @@
 title: Convert Text to Columns
 type: docs
 weight: 10
-url: /pythonjava/convert-text-to-columns/
+url: /python-java/convert-text-to-columns/
 ---
 
 ## **Convert Text to Columns**

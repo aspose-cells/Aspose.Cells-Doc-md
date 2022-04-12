@@ -2,7 +2,7 @@
 title: Get HTML5 string from Cell
 type: docs
 weight: 40
-url: /pythonjava/get-html5-string-from-cell/
+url: /python-java/get-html5-string-from-cell/
 ---
 
 ## **Get HTML5 string from Cell**

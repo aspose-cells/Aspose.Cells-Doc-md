@@ -2,7 +2,7 @@
 title: Count the number of cells in the Worksheet
 type: docs
 weight: 40
-url: /pythonjava/count-the-number-of-cells-in-the-worksheet/
+url: /python-java/count-the-number-of-cells-in-the-worksheet/
 ---
 
 ## **Count the number of cells in the Worksheet**

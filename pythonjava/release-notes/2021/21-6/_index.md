@@ -2,7 +2,7 @@
 title: Aspose.Cells for Python via Java 21.6 Release Notes
 type: docs
 weight: 7
-url: /pythonjava/aspose-cells-for-python-via-java-21-6-release-notes/
+url: /python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 aliases: [/java/aspose-cells-for-python-via-java-21.6-release-notes/]
 ---
 

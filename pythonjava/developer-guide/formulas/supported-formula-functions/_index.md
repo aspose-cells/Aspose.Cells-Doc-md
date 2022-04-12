@@ -2,7 +2,7 @@
 title: Supported Formula Functions
 type: docs
 weight: 10
-url: /pythonjava/supported-formula-functions/
+url: /python-java/supported-formula-functions/
 ---
 
 {{% alert color="primary" %}} 

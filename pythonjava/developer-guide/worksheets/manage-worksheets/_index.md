@@ -2,7 +2,7 @@
 title: Manage Worksheets
 type: docs
 weight: 10
-url: /pythonjava/manage-worksheets/
+url: /python-java/manage-worksheets/
 ---
 
 Managing worksheets using Aspose.Cells for Python via Java is very easy. In this article, we will demonstrate added, accessing, and removing worksheets using the Aspose.Cells API.

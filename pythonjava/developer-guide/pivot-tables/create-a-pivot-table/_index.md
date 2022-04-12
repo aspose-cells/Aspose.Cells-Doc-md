@@ -2,7 +2,7 @@
 title: Create a Pivot Table
 type: docs
 weight: 10
-url: /pythonjava/create-a-pivot-table/
+url: /python-java/create-a-pivot-table/
 ---
 
 ## **Create a Pivot Table**

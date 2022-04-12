@@ -2,7 +2,7 @@
 title: Convert Excel to HTML with headings
 type: docs
 weight: 10
-url: /pythonjava/convert-excel-to-html-with-headings/
+url: /python-java/convert-excel-to-html-with-headings/
 ---
 
 ## **Convert Excel to HTML with headings**

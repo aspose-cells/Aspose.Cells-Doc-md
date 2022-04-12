@@ -2,7 +2,7 @@
 title: Convert Excel to Image
 type: docs
 weight: 20
-url: /pythonjava/convert-excel-to-image/
+url: /python-java/convert-excel-to-image/
 ---
 
 ## **Convert Excel to Image**

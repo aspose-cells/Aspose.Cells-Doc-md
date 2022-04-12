@@ -2,7 +2,7 @@
 title: Features
 type: docs
 weight: 5
-url: /pythonjava/features/
+url: /python-java/features/
 aliases: [/java/aspose-cells-for-python-via-java-features-overview/]
 keywords: "python, excel, api, features"
 description: "Aspose.Cells for Python via Java features."
