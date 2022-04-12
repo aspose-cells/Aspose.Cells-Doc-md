@@ -3,6 +3,7 @@ title: Why Not Open XML SDK
 type: docs
 weight: 90
 url: /net/why-not-open-xml-sdk/
+aliases: [/net/aspose-cells-for-openxml/]
 ---
 
 {{% alert color="primary" %}}
