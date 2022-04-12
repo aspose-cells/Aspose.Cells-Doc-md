@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.4
+
+* Enhanced options to control blank cells for exporting CSV.
+* Support complicated split and update of conditional formatting for insert/delete operations
+
 ## Aspose.Cells for .NET 22.3
 
 * Support to re-calculate cells which depend on defined name when the defined name is changed and workbook's calculation chain is enabled.
