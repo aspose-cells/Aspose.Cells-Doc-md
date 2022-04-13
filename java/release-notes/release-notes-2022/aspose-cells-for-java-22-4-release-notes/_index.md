@@ -1,13 +1,13 @@
 ---
-title: Aspose.Cells for Java 22.3 Release Notes
+title: Aspose.Cells for Java 22.4 Release Notes
 type: docs
-weight: 10
-url: /java/aspose-cells-for-java-22-3-release-notes/
+weight: 9
+url: /java/aspose-cells-for-java-22-4-release-notes/
 ---
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for Java 22.3](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-22.3/).
+This page contains release notes for [Aspose.Cells for Java 22.4](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-22.4/).
 
 {{% /alert %}}
 
