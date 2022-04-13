@@ -3,6 +3,8 @@ title: Getting Started
 type: docs
 weight: 10
 url: /java/getting-started/
+aliases: [/java/downloads/]
+description: This article describes how to download and install aspose, and create and execute sample codes.
 ---
 
 {{% alert color="primary" %}} 

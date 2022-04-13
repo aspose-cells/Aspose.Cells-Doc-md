@@ -39,7 +39,7 @@ This Developer Guide provides information on using Aspose.Cells in a variety of 
         <ul>
             <li><a href="/cells/net/print-and-preview/">Print and Preview</a></li>
         </ul>
-        <p>Export</p>
+        <p>Rendering and Conversion</p>
         <ul>
             <li><a href="/cells/net/convert-workbook-to-different-formats/">Convert Workbook to Different Formats</a></li>
             <li><a href="/cells/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>

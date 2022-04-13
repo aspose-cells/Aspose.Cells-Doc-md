@@ -3,6 +3,8 @@ title: Feature Overview
 type: docs
 weight: 10
 url: /java/feature-overview/
+aliases: [/java/edition-types/]
+description: Summarize Aspose.Cells for Java features and provide links to detailed feature descriptions.
 ---
 
 {{% alert color="primary" %}} 
