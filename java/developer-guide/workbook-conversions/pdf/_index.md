@@ -2,6 +2,6 @@
 title: Pdf
 type: docs
 weight: 220
-url: /net/convert-excel-workbook-to-pdf/
-aliases: [/net/convert-excel-to-pdf/]
+url: /java/convert-excel-workbook-to-pdf/
+aliases: [/java/convert-excel-to-pdf/]
 ---
