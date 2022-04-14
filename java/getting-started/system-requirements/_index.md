@@ -1,7 +1,7 @@
 ---
 title: System Requirements
 type: docs
-weight: 30
+weight: 10
 url: /java/system-requirements/
 ---
 

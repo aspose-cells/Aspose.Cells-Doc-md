@@ -1,7 +1,7 @@
 ---
 title: Installation
 type: docs
-weight: 40
+weight: 20
 url: /java/installation/
 ---
 
