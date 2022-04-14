@@ -1,7 +1,7 @@
 ---
 title: Product Overview
 type: docs
-weight: 30
+weight: 5
 url: /java/product-overview/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells Features
 type: docs
-weight: 40
+weight: 30
 url: /java/aspose-cells-features/
 aliases: [/java/edition-types/,/java/feature-overview/,/java/product-introduction/]
 description: Summarize Aspose.Cells for Java features and provide links to detailed feature descriptions.
