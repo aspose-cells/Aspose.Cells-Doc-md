@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for C++
 type: docs
-weight: 30
+weight: 10
 url: /cpp/
 is_root: true
 description: Aspose.Cells for C++ is a native C++ library that enables C++ developers to create, manipulate and convert spreadsheets programmatically without requiring Office Automation or Microsoft Excel application. 
