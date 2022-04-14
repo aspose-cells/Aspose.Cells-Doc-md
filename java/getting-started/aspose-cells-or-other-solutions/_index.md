@@ -2,8 +2,8 @@
 title: Why Aspose.Cells
 type: docs
 weight: 40
-url: /net/aspose-cells-or-other-solutions/
-aliases: [/net/comparison-with-other-solutions/]
+url: /java/aspose-cells-or-other-solutions/
+aliases: [/java/comparison-with-other-solutions/]
 description: This section compares Aspose.Cells components and some other systems.
 ---
 
