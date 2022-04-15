@@ -14,3 +14,4 @@ This page contains release notes for Aspose.Cells for C++ 22.4.2 for Windows.
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |CELLSCPP-766|licenseUrl and iconUrl are deprecated |Bugs|
+|CELLSCPP-767|Fix charValue issue for memory leaks |Bugs|
