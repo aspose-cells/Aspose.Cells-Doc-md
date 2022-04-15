@@ -17,11 +17,13 @@ Aspose.Cells for Python via Java is platform-independent API and can be used on
 - Java 1.8 or higher
 
 ## **Windows:**
-### **Install Java and add it to PATH environment variable**
+### **Install Java and set the JAVA_HOME and PATH environment variables**
 For example:
 {{< highlight java >}}
 
-PATH=C:\Program Files\Java\jdk1.8.0_131;
+JAVA_HOME=C:\jdk1.8.0_131
+
+PATH=C:\jdk1.8.0_131\bin;
 
 {{< /highlight >}}
   
