@@ -8,7 +8,7 @@ url: /java/product-overview/
 {{% alert color="primary" %}} 
 
 ![todo:image_alt_text](product-overview_1.png)
-## **Welcome to the Aspose.Cells documentation!**
+## **Welcome to the Aspose.Cells documentation**
 **Aspose.Cells** is the most flexible component that enables Java Applications to create and manage Excel spreadsheets without requiring **Microsoft Excel** to be installed on the system. Unlike similar products from other vendors, Aspose.Cells not only supports spreadsheet generation and other basic file formatting features, but also supports a number of advanced features. These advanced features make it much more convenient for the developers to manipulate spreadsheet contents, cells formatting and files protection. Aspose.Cells also allows to import data into spreadsheets from different data sources, add common and complex Mathematical, DateTime, Financial, Text Formulas / Functions, supports manipulation of charts, pictures, comments, drawing objects and controls etc.
 
 Aspose.Cells for Java also provides a complete Grid solution for web clients; it has a GUI based control as follows:
@@ -25,8 +25,9 @@ Besides supporting common features like creating or reading native Excel files, 
 
 Moreover, there are also a number of unique features that the developers can only find in Aspose.Cells such as the support of CSV and SpreadsheetML formats, adding the copy of an existing worksheet (with full contents, images and charts etc.) to a file, setting gradient background for charts through API, creating comments, auto-filters and page breaks through API, setting complex formulae, supporting conditional formatting, supporting protection options introduced in Microsoft Excel XP or above, manipulating named ranges, locating APIs, supporting custom chart API and formula calculation engine etc.
 ## **Document Features**
-- Open Plain or Encrypted Excel files (Excel97- Excel2007/2010/2013) from different sources
-- Save Excel files (Excel97- Excel2007/2010/2013) in different formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
+- Open Plain or Encrypted Excel files (Excel 95, Excel97, Excel2007/2010/2013/2016/2019, Office365) from different sources
+- Open Plain Numbers files(created by Apple's "Numbers" application) from different sources
+- Save Excel files (Excel97- Excel2007/2010/2013/2016/2019) in different formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
 - Convert Excel file to PDF document
 - Convert Excel spreadsheet to XPS document
 - Convert to Tagged Image File Format **(TIFF)**
