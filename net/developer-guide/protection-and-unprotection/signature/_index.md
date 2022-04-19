@@ -20,3 +20,10 @@ Aspose.Cells provides the [**Aspose.Cells.DigitalSignatures**](https://apirefer
 Please see the following sample code that describes how you can perform the task using the Aspose.Cells for .NET API.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-AssignAndValidateDigitalSignatures-AssignAndValidateDigitalSignatures.cs" >}}
+
+
+
+## **Advance topics**
+- [Add Digital Signature to an already signed Excel file](/cells/net/add-digital-signature-to-an-already-signed-excel-file/)
+- [Add Signature line to the worksheet](/cells/net/add-signature-line/)
+- [Support for XAdES Signature](/cells/net/support-for-xades-signature/)

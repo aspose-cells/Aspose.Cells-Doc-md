@@ -49,3 +49,8 @@ The following code snippet demonstrates the use of the [**VerifyPassword**](http
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
+
+## **Advance topics**
+- [Encrypt And Decrypt ODS files](/cells/cells/net/encrypt-and-decrypt-ods-files/)
+- [Setting Strong Encryption Type](/cells/net/setting-strong-encryption-type/)
+- [Specify Author while Write Protecting Workbook](/cells/net/specify-author-while-write-protecting-workbook/)

@@ -31,3 +31,10 @@ Only need the following simple lines of code to implement protecting workbook st
 Unprotecting worksheet is easy with Aspose.Cells API. If worksheet is password-protected, a correct password is required.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Unprotect-Worksheet.cs" >}}
+
+## **Advance topics**
+- [Advanced Protection Settings since Excel XP](/cells/net/advanced-protection-settings-since-excel-xp/)
+- [Detect if Worksheet is Password Protected](/cells/net/detect-if-worksheet-is-password-protected/)
+- [Protecting Worksheets](/cells/net/protecting-worksheets/)
+- [Unprotect a Worksheet](/cells/net/unprotect-a-worksheet/)
+- [Verify Password Used to Protect the Worksheet](/cells/net/verify-password-used-to-protect-the-worksheet/)
