@@ -1,0 +1,52 @@
+---
+title: Encrypting Excel Files
+type: docs
+weight: 40
+url: /java/encrypt-and-decrypt-excel-files/
+aliases: [/java/encrypting-excel-files/]
+description: How to encrypt and decrypt excel files using java.
+---
+
+{{% alert color="primary" %}}
+Microsoft Excel (97 - 365 ) enables you to encrypt / password protect your spreadsheets. It utilizes algorithms provided by Crypto Service Provider. A Crypto Service Provider or CSP is a set of cryptographic algorithms with different properties. The default CSP is "Office 97/2000 Compatible" or " Week Encryption (XOR) ". It's also important to choose a proper encryption key length. Some of the Crypto Service Providers don't support more than 40 or 56 bits. That's considered to be a weak encryption type. But, for strong encryption type, a minimum key length of 128 bits is required. Microsoft Windows contains Crypto Service Providers that offer strong encryption types as well, for example, the 'Microsoft Strong Cryptographic Provider'. To give an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking Systems. Aspose.Cells allows you to encrypt / password protect your excel files with your desired encryption type.
+
+{{% /alert %}}
+
+## **Using MS Excel**
+
+In MS Excel (e.g MS Excel 2003), to implement file encryption settings, you may try:
+
+- From the **Tools** menu, select **Options**, and then select the **Security** tab.
+- Input **Password to open** and click the **Advanced** button.
+- Choose the encryption type and confirm the password.
+
+![todo:image_alt_text](encrypting-excel-files_1.png)
+
+**Figure: Options dialog**
+
+![todo:image_alt_text](encrypting-excel-files_2.png)
+
+**Figure: Encryption Type dialog**
+
+## **Encrypting Excel file**
+The following example shows how you can encrypt / password protect an excel file using the Aspose.Cells API.
+
+### **Sample Code:**
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingFiles-EncryptingFiles.java" >}}
+
+
+## **Decrypting Excel file with Aspose.Cells**
+It is very to open password-protect excel file and decrypt using the Aspose.Cells API as following codes:
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Decrypt-Excel-File.java" >}}
+
+
+## **Verify the password of the encrypted file**
+
+To verify the password of the encrypted file, Aspose.Cells for Java provides the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method. The methods accepts two parameters, the file stream and the password that needs to be verified.
+The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method to verify whether the provided password is valid or not.
+
+### **Sample Code:**
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}

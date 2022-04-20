@@ -22,6 +22,6 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 ## [**Protect and unprotect worksheet**](/cells/net/protect-and-unprotect-worksheet/)
 To prevent other users from accidentally or deliberately changing, moving, or deleting data in a worksheet, you can lock the cells on your Excel worksheet and then protect the sheet with a password. 
 
-## [**Protect and unprotect shared workbook**](/net/password-protect-or-unprotect-the-shared-workbook/)
+## [**Protect and unprotect shared workbook**](/cells/net/password-protect-or-unprotect-the-shared-workbook/)
 Protect and unprotect the shared workbook.
 

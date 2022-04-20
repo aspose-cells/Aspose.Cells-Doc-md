@@ -2,7 +2,7 @@
 title: Encrypt And Decrypt Excel files
 type: docs
 weight: 10
-url: /cells/net/encrypt-and-decrypt-excel-files/
+url: /net/encrypt-and-decrypt-excel-files/
 aliases: [/net/encrypting-excel-files/]
 description: How to encrypt and decrypt excel files using C#.
 ---
@@ -39,6 +39,7 @@ The following example shows how to set the **Password to modify** Microsoft Exce
 
 ## **Decrypting Excel file with Aspose.Cells**
 It is very to open password-protect excel file and decrypt using the Aspose.Cells API as following codes:
+
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Decrypt-Excel-File.cs" >}}
 
 

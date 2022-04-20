@@ -2,8 +2,8 @@
 title: Protect And Unprotect Workbook Structure
 type: docs
 weight: 40
-url: /net/protect-and-unprotect-workbook-structure/
-description: Protect and unprotect workbook structure of Excel files using CSharp codes.
+url: /java/protect-and-unprotect-workbook-structure/
+description: Protect and unprotect workbook structure of Excel files using java codes.Lock and unlock Excel (xlsx,xls, xsb) and Open office calc (ODS) files using Aspose.Cells for Java.
 ---
 
 
@@ -21,15 +21,15 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 1. Select **OK**, re-enter the password to confirm it, and then select **OK** again.
 
 
-## **Protect Workbook Structure Using Aspose.Cell for .Net**
+## **Protect Workbook Structure Using Aspose.Cell for Java**
 Only need the following simple lines of code to implement protecting workbook structure of Excel files.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Protect-Workbook-Structure.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Protect-Workbook-Structure.java" >}}
 
-## **Unprotect Workbook Structure Using Aspose.Cell for .Net**
+## **Unprotect Workbook Structure Using Aspose.Cell for Java**
 Unprotecting workbook structure is easy with Aspose.Cells API.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Unprotect-Workbook-Structure.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Unprotect-Workbook-Structure.java" >}}
 {{% alert color="primary" %}}
 Note: a correct password is required.
 {{% /alert %}}

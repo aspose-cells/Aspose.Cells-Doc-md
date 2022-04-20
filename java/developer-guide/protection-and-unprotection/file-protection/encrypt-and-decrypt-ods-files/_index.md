@@ -2,8 +2,8 @@
 title: Encrypt And Decrypt ODS files
 type: docs
 weight: 10
-url: /net/encrypt-and-decrypt-ods-files/
-description: password-protect and encrypt ODS files using Aspose.Cells for .Net which is a pure net library.
+url: /java/encrypt-and-decrypt-ods-files/
+description: password-protect and encrypt ODS files using Aspose.Cells for Java which is a pure Java library.
 ---
 
 {{% alert color="primary" %}}
