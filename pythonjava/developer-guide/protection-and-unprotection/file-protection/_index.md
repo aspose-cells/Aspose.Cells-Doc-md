@@ -1,5 +1,5 @@
 ---
-title: Encrypt And Decrypt Excel files
+title: Encrypt and Decrypt Excel files
 type: docs
 weight: 10
 url: /python-java/encrypt-and-decrypt-excel-files/

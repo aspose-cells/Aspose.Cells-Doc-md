@@ -1,8 +1,9 @@
 ---
-title: Protection And Unprotection
+title: Protect and Unprotect
+linktitle: Protection
 type: docs
 weight: 40
-url: /python-java/protection-and-unprotection/
+url: /python-java/protect-and-unprotect/
 description: This snippet introduces how to encrypt and decrypt excel files, protect and unprotect the data in excel files using python codes.
 ---
 

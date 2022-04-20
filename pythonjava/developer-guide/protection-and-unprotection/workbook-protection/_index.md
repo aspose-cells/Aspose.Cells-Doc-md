@@ -1,5 +1,5 @@
 ---
-title: Protect And Unprotect Workbook Structure
+title: Protect and Unprotect Workbook Structure
 type: docs
 weight: 40
 url: /python-java/protect-and-unprotect-workbook-structure/

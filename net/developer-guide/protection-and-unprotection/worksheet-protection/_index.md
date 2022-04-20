@@ -1,5 +1,5 @@
 ---
-title: Protect And Unprotect Worksheet
+title: Protect and Unprotect Worksheet
 type: docs
 weight: 40
 url: /net/protect-and-unprotect-worksheet/

@@ -1,8 +1,9 @@
 ---
-title: Protection And Unprotection
+title: Protect and Unprotect
+linktitle: Protection
 type: docs
 weight: 40
-url: /java/protection-and-unprotection/
+url: /java/protect-and-unprotect/
 description: This snippet introduces how to encrypt and decrypt excel files, protect and unprotect the data in excel files using JAVA codes.
 ---
 

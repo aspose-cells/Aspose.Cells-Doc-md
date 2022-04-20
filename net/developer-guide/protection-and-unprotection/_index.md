@@ -1,8 +1,9 @@
 ---
-title: Protection And Unprotection
+title: Protect and Unprotect
+linktitle: Protection
 type: docs
 weight: 40
-url: /net/protection-and-unprotection/
+url: /net/protect-and-unprotect/
 alias: [/net/security-features/]
 description: This snippet introduces how to encrypt and decrypt excel files, protect and unprotect the data in excel files using CSharp codes.
 ---
