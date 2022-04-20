@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /net/encrypt-and-decrypt-excel-files/
 aliases: [/net/encrypting-excel-files/]
-description: How to encrypt and decrypt excel files using C#.
+description: How to encrypt and decrypt excel files using C#. Lock and unlock Excel files.
 ---
 
 {{% alert color="primary" %}}

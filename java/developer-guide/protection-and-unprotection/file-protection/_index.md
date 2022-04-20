@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /java/encrypt-and-decrypt-excel-files/
 aliases: [/java/encrypting-excel-files/]
-description: How to encrypt and decrypt excel files using java.
+description: How to encrypt and decrypt excel files using java. Lock and unlock Excel files.
 ---
 
 {{% alert color="primary" %}}
