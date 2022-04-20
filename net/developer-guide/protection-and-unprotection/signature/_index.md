@@ -1,5 +1,6 @@
 ---
 title: Assign and Validate Digital Signatures
+linktitle: Signature
 type: docs
 weight: 140
 url: /net/assign-and-validate-digital-signatures/
