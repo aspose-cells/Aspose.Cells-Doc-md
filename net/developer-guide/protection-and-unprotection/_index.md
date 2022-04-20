@@ -25,3 +25,5 @@ To prevent other users from accidentally or deliberately changing, moving, or de
 ## [**Protect and unprotect shared workbook**](/cells/net/password-protect-or-unprotect-the-shared-workbook/)
 Protect and unprotect the shared workbook.
 
+## [**Add or remove a digital signature in Office files**](/cells/net/assign-and-validate-digital-signatures/)
+Protect the authenticity of a document's content, you can add a digital signature
