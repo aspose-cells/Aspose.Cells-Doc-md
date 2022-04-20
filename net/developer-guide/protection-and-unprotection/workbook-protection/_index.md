@@ -30,6 +30,7 @@ Only need the following simple lines of code to implement protecting workbook st
 Unprotecting workbook structure is easy with Aspose.Cells API.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Unprotect-Workbook-Structure.cs" >}}
+
 {{% alert color="primary" %}}
 Note: a correct password is required.
 {{% /alert %}}
