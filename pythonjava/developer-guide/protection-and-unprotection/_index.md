@@ -20,6 +20,3 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 
 ## [**Protect and unprotect worksheet**](/cells/python-java/protect-and-unprotect-worksheet/)
 To prevent other users from accidentally or deliberately changing, moving, or deleting data in a worksheet, you can lock the cells on your Excel worksheet and then protect the sheet with a password. 
-
-## [**Add or remove a digital signature in Office files**](/cells/python-java/assign-and-validate-digital-signatures/)
-Protect the authenticity of a document's content, you can add a digital signature.
