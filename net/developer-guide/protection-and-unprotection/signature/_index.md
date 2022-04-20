@@ -4,7 +4,7 @@ linktitle: Signature
 type: docs
 weight: 140
 url: /net/assign-and-validate-digital-signatures/
-description: To protect the authenticity of a workbook's content of Excel file, you can add a digital signature using C# codes with Aspose.Cells for .Net.
+description: Excel file digital signature, verification. To protect the authenticity of a workbook's content of Excel file, you can add a digital signature using C# codes with Aspose.Cells for .Net.
 ---
 
 {{% alert color="primary" %}}
