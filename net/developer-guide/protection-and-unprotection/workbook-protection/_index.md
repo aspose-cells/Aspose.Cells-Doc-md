@@ -24,7 +24,7 @@ To prevent other users from viewing hidden worksheets, adding, moving, deleting,
 ## **Protect Workbook Structure Using Aspose.Cell for .Net**
 Only need the following simple lines of code to implement protecting workbook structure of Excel files.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Protect-Workbook-Structure.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Workbook-Structure.cs" >}}
 
 ## **Unprotect Workbook Structure Using Aspose.Cell for .Net**
 Unprotecting workbook structure is easy with Aspose.Cells API.

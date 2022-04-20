@@ -25,12 +25,12 @@ To prevent other users from accidentally or deliberately changing, moving, or de
 ## **Protect Worksheet Using Aspose.Cell for .Net**
 Only need the following simple lines of code to implement protecting workbook structure of Excel files.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Protect-Worksheet.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Worksheet.cs" >}}
 
 ## **Unprotect Worksheet Using Aspose.Cell for .Net**
 Unprotecting worksheet is easy with Aspose.Cells API. If worksheet is password-protected, a correct password is required.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Unprotect-Worksheet.cs" >}}
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Unprotect-Worksheet.cs" >}}
 
 ## **Advance topics**
 - [Advanced Protection Settings since Excel XP](/cells/net/advanced-protection-settings-since-excel-xp/)
