@@ -1,5 +1,6 @@
 ---
 title: Password Protect or Unprotect the Shared Workbook
+linktitle: Protect or Unprotect Shared Workbook
 type: docs
 weight: 70
 url: /java/password-protect-or-unprotect-the-shared-workbook/

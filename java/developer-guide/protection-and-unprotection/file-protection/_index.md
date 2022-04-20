@@ -1,5 +1,5 @@
 ---
-title: Encrypting Excel Files
+title: Encrypt And Decrypt Excel files
 type: docs
 weight: 40
 url: /java/encrypt-and-decrypt-excel-files/

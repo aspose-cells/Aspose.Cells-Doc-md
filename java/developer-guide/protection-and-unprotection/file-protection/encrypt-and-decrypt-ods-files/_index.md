@@ -17,13 +17,10 @@ Aspose.Cells allows to encrypt and decrypt ODS file. Decrypted ODS file can be o
 1. Type your desired password into both the **Enter Password to Open** and **Confirm Password** fields in the Set Password window that opens. 
 1. Click the **OK** button to save the file.
 
-## **Encrypt ODS file with Aspose.Cells for .Net**
-For encrypting an ODS file, load the file and set the [**WorkbookSettings.Password**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.
+## **Encrypting/Decrypting ODS File:**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
+For encrypting an ODS file, load the file and pass the actual password to [**WorkbookSettings.setPassword()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) before saving it. The output encrypted ODS file can be opened in OpenOffice only. For decrypting an ODS file, load the file by providing the password in the [**LoadOptions.setPassword()**](https://apireference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). Once the file is loaded, call function [**Workbook.unprotect()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) with actual password as argument and finally pass null to [**Workbook.getWorkbookSettings().setPassword()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
 
-## **Decrypt ODS file with Aspose.Cells for .Net**
+### **Sample Code:**
 
-For decrypting an ODS file, load the file by providing a password in the [**LoadOptions.Password**](https://apireference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password). Once the file is loaded, set the [**WorkbookSettings.Password**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) string to null.
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingODSFiles-EncryptingODSFiles.java" >}}

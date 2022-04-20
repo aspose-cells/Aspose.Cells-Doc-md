@@ -1,8 +1,10 @@
 ---
 title: Assign and Validate Digital Signatures
+linktitle: Signature
 type: docs
-weight: 30
+weight: 100
 url: /java/assign-and-validate-digital-signatures/
+description: Excel file digital signature, verification. 
 ---
 
 {{% alert color="primary" %}}
