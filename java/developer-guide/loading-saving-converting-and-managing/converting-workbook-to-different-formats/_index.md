@@ -49,8 +49,6 @@ Aspose.Cells supports reading and writing MHTML files.
 
 {{% /alert %}}
 
-## **Converting to, and from, MHTML**
-
 Converting a spreadsheet to MHTML is a quick operation, as shown below.
 
 The code example below shows how to save a workbook as an MHTML file.
@@ -88,7 +86,7 @@ The code below demonstrates how to use **[HtmlSaveOptions.ImageOptions](https://
 
 |**Spreadsheet view before export**|**HTML view after export**|
 | :- | :- |
-|![todo:image_alt_text](converting-workbook-to-different-formats_1.png)|![todo:image_alt_text](converting-workbook-to-different-formats_2.png)|
+|![Spreadsheet view before export](converting-workbook-to-different-formats_1.png)|![HTML view after export](converting-workbook-to-different-formats_2.png)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SettingImagePrefrencesforHTML-SettingImagePrefrencesforHTML.java" >}}
 
@@ -98,7 +96,7 @@ PDF documents are widely used as a standard format of exchanging documents betwe
 
 ### **Converting Excel to PDF**
 
-Microsoft Excel to PDF conversion was introduced with Aspose.Cells for Java 2.3.0. From that release, Aspose.Cells can [convert spreadsheets to PDF directly](/cells/java/converting-workbook-to-different-formats/) (including [PDF/A](/cells/java/converting-workbook-to-different-formats/)), without another product. To convert spreadsheets with older versions of Aspose.Cells, [use Aspose.PDF for the conversion](/cells/java/converting-workbook-to-different-formats/).
+Microsoft Excel to PDF conversion was introduced with Aspose.Cells for Java 2.3.0. From that release, Aspose.Cells can [convert spreadsheets to PDF directly](#direct-conversion) (including [PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files)), without another product. To convert spreadsheets with older versions of Aspose.Cells, [use Aspose.PDF for the conversion](#conversion-with-asposepdf-asposecells-prior-to-230).
 
 Aspose.Cell's converts spreadsheets to PDF with a high degree of accuracy and fidelity. However, there are a few [limitations](/cells/java/converting-workbook-to-different-formats/#conversion-attributes), listed at the end of this article.
 
@@ -191,5 +189,3 @@ The table below lists all features that are fully or partially supported when ex
 |Page Setup|Scaling|Yes| |
 |Row Height/Column Width| |Yes| |
 {{% /alert %}}
-
-![todo:image_alt_text](converting-workbook-to-different-formats_1.png)
