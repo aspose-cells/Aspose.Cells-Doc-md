@@ -43,15 +43,8 @@ It is very to open password-protect excel file and decrypt using the Aspose.Cell
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Decrypt-Excel-File.cs" >}}
 
 
-## **Verify the password of the encrypted file**
-
-To verify the password of the encrypted file, Aspose.Cells for .NET provides the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method. These methods accept two parameters, the file stream and the password that needs to be verified.
-The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) method to verify whether the provided password is valid or not.
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
-
-
 ## **Advance topics**
 - [Encrypt And Decrypt ODS files](/cells/cells/net/encrypt-and-decrypt-ods-files/)
 - [Setting Strong Encryption Type](/cells/net/setting-strong-encryption-type/)
 - [Specify Author while Write Protecting Workbook](/cells/net/specify-author-while-write-protecting-workbook/)
+- [Verify Password of Encrypted Files](/cells/net/verify-password-of-encrypted-excel-and-ods-files/)
