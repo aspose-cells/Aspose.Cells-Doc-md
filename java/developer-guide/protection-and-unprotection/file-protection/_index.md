@@ -42,11 +42,3 @@ It is very to open password-protect excel file and decrypt using the Aspose.Cell
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Decrypt-Excel-File.java" >}}
 
 
-## **Verify the password of the encrypted file**
-
-To verify the password of the encrypted file, Aspose.Cells for Java provides the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method. The methods accepts two parameters, the file stream and the password that needs to be verified.
-The following code snippet demonstrates the use of the [**VerifyPassword**](https://apireference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) method to verify whether the provided password is valid or not.
-
-### **Sample Code:**
-
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-VerifyPassword-1.java" >}}
