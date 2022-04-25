@@ -47,7 +47,7 @@ The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/works
 
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Security-AdvancedProtectionSettings-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-AdvancedProtectionSettings-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -65,4 +65,4 @@ If you want to restrict users from editing cells the cells must be locked before
 
 It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) formatting that contains a Boolean property, [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Set the [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked) property to **true** or **false** to lock or unlock the cell.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

@@ -66,7 +66,7 @@ The following example demonstrates reading comments from column A1 by loading th
 
 #### **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-ReadThreadedComments-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedComments-1.cs" >}}
 
 #### **Console Output**
 
@@ -82,7 +82,7 @@ The following example demonstrates reading the created time of threaded comments
 
 #### **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-ReadThreadedCommentCreatedTime-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedCommentCreatedTime-1.cs" >}}
 
 #### **Console Output**
 
@@ -126,7 +126,7 @@ The following example demonstrates removing comments in column A1 by loading the
 
 #### **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-RemoveThreadedComments-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-RemoveThreadedComments-1.cs" >}}
 
 {{% alert color="primary" %}}
 

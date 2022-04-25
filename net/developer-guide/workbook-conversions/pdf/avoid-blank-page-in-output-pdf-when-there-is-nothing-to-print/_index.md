@@ -15,7 +15,7 @@ The following sample code creates an empty workbook and then saves it as PDF aft
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Rendering-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.cs" >}}
 
 ## **Exception**
 

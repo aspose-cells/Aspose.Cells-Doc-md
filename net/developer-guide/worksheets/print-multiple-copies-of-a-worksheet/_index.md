@@ -11,4 +11,4 @@ Aspose.Cells provides the ability to print multiple copies of a worksheet by usi
 
 ### Sample Code
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PrintSheetWithAdditionalSettings-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PrintSheetWithAdditionalSettings-1.cs" >}}

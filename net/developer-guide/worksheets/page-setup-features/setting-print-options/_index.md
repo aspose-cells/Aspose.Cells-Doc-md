@@ -32,7 +32,7 @@ By default, the print area incorporates all areas of the worksheet that contain 
 
 To select a specific print area, use the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintArea**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea) property. Assign a cell range that defines the print area to this property.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 
 ### **Set Print Titles**
 
@@ -40,7 +40,7 @@ Aspose.Cells allows you to designate row and column headers to repeat on all pag
 
 The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintTitle-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintTitle-1.cs" >}}
 
 ### **Set Other Print Options**
 
@@ -74,7 +74,7 @@ The pre-defined values of [**PrintErrorsType**](https://apireference.aspose.com/
 |PrintErrorsDisplayed|Specifies to print errors as displayed.|
 |PrintErrorsNA|Specifies to print errors as "#N/A".|
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-OtherPrintOptions-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-OtherPrintOptions-1.cs" >}}
 
 ### **Set Page Order**
 
@@ -92,4 +92,4 @@ The pre-defined values of the [**PrintOrderType**](https://apireference.aspose.c
 |DownThenOver|Represents printing order as down then over.|
 |OverThenDown|Represents printing order as over then down.|
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}

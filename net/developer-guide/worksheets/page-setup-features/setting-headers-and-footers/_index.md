@@ -41,7 +41,7 @@ The [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pages
 - **Section** – the section where the header or footer should be placed. There are three sections: left, center and right, represented by 0, 1 and 2 respectively.
 - **Script** – the script to be used for the header or footer. This script contains script commands to format headers or footers.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.cs" >}}
 
 ### **Insert an Image into a Header or Footer**
 
@@ -55,4 +55,4 @@ After executing the code below and opening the file, check the header of the wor
 1. On the **File** menu, select **Page Setup**. A dialog will be displayed.
 1. Select the **Header/Footer** tab.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}

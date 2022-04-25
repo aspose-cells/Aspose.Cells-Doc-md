@@ -16,4 +16,4 @@ The following sample code loads the [sample Excel file](input.xlsx) that contain
 <img src="out.png" width="60%">
 
 ## **Sample Code**
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Timelines-DrawTimelinetoPdf.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-DrawTimelinetoPdf.cs" >}}

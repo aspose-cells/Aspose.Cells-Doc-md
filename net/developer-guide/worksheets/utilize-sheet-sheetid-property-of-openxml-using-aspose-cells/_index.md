@@ -17,7 +17,7 @@ The following sample code loads the [sample Excel file](51740716.xlsx), reads it
 
 ## **Sample Code**
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
 
 ## **Console Output**
 

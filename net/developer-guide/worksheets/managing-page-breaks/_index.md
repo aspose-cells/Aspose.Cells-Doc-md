@@ -32,7 +32,7 @@ The [**HorizontalPageBreaks**](https://apireference.aspose.com/cells/net/aspose.
 
 To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the [**HorizontalPageBreakCollection.Add()**](https://apireference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) and [**VerticalPageBreakCollection.Add()**](https://apireference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) methods. Each **Add** method takes the name of the cell where the break should be added.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -44,13 +44,13 @@ In page break preview or print preview modes, you can see how these page breaks 
 
 To clear all page breaks in a worksheet, call the [**HorizontalPageBreakCollection**](https://apireference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) and [**VerticalPageBreakCollection**](https://apireference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) collections' [**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear) methods.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 
 ### **Removing Specific Page Break**
 
 To remove a specific page break, call the [**HorizontalPageBreakCollection.RemoveAt()**](https://apireference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) and [**VerticalPageBreakCollection.RemoveAt()**](https://apireference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) methods. Each **RemoveAt** method takes the index of the page break about to be removed.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
 
 ## **Important to know**
 

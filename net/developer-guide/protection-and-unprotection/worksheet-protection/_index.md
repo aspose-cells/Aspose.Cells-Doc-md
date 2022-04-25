@@ -30,7 +30,7 @@ Only need the following simple lines of code to implement protecting workbook st
 ## **Unprotect Worksheet Using Aspose.Cell for .Net**
 Unprotecting worksheet is easy with Aspose.Cells API. If worksheet is password-protected, a correct password is required.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Unprotect-Worksheet.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-Unprotect-Worksheet.cs" >}}
 
 ## **Advance topics**
 - [Advanced Protection Settings since Excel XP](/cells/net/advanced-protection-settings-since-excel-xp/)
