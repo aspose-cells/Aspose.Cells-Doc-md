@@ -2,7 +2,7 @@
 title: Protect and Unprotect Worksheet
 type: docs
 weight: 40
-url: /net/protect-and-unprotect-worksheet/
+url: /net/protect-and-unprotect-worksheets/
 description: Protect and unprotect worksheet of Excel files with Aspose.Cells for .Net.
 ---
 

@@ -2,7 +2,7 @@
 title: Protect and unProtect Worksheets
 type: docs
 weight: 190
-url: /net/protect-and-unprotect-worksheets/
+url: /net/protect-and-unprotect-worksheets-with-vsto/
 ---
 
 ## **VSTO**
