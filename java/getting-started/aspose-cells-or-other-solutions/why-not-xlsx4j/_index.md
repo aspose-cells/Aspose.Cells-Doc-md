@@ -2,7 +2,7 @@
 title: Aspose.Cells Java for xlsx4j
 linktile: Why not xlsx4j
 type: docs
-weight: 20
+weight: 100
 url: /java/aspose-cells-java-for-xlsx4j/
 description: The section introduces why we do not select xlsx4j to parse Excel.
 ---
