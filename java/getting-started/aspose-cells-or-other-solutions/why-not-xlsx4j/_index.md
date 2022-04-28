@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells Java for xlsx4j
-linktile: Why not xlsx4j
+linktitle: Why not xlsx4j
 type: docs
 weight: 100
 url: /java/aspose-cells-java-for-xlsx4j/
