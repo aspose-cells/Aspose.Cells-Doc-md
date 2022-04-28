@@ -2,7 +2,7 @@
 title: Aspose.Cells Java for Apache POI SS - HSSF and XSSF
 linktitle: Why not Apache POI
 type: docs
-weight: 10
+weight: 40
 url: /java/aspose-cells-java-for-apache-poi-ss-hssf-and-xssf/
 description: Why not Apache POI SS - HSSF and XSSF.
 ---

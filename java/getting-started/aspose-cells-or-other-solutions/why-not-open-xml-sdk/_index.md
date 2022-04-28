@@ -1,7 +1,7 @@
 ---
 title: Why Not Open XML SDK
 type: docs
-weight: 60
+weight: 20
 url: /java/why-not-open-xml-sdk/
 ---
 
