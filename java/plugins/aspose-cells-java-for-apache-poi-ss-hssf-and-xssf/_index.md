@@ -1,12 +1,18 @@
 ---
 title: Aspose.Cells Java for Apache POI SS - HSSF and XSSF
+linktitle: Why not Apache POI. 
 type: docs
 weight: 10
 url: /java/aspose-cells-java-for-apache-poi-ss-hssf-and-xssf/
+description: Why not Apache POI SS - HSSF and XSSF.
 ---
 
-## **Introduction**
-### **Apache POI SS - HSSF and XSSF**
+{{% alert color="primary" %}}
+Sometimes we get the following question: why should we use Aspose products rather than the Apache POI? This question is easy to answer: features and functionality.
+{{% /alert %}}
+
+
+## **Apache POI SS - HSSF and XSSF**
 **HSSF** is the POI Project's pure Java implementation of the Excel '97(-2007) file format.
 **XSSF** is the POI Project's pure Java implementation of the Excel 2007 OOXML (.xlsx) file format.
 
@@ -17,71 +23,45 @@ HSSF and XSSF provides ways to read spreadsheets create, modify, read and write 
 - a full usermodel api for creating, reading and modifying XLS files
 
 Read more at [poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
-### **Aspose.Cells for Java**
+## **Aspose.Cells for Java**
 Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
 
 Aspose.Cells for Java is a mature, scalable and feature rich component that offers many functions that are way beyond the simple data exporting capabilities of other vendors. With Aspose.Cells for Java developers can export data, format spreadsheets to the most granular level, import images, create charts, apply and calculate complex formulas, stream Excel® data, save in various formats and much more - all this without the need of Microsoft Excel® or Microsoft Office Automation.
 
 Read more at [aspose.com](https://products.aspose.com/cells/java/)
-### **Aspose.Cells Java for Apache POI SS - HSSF and XSSF**
-Project Aspose.Cells for Apache POI HSSF and XSSF shows how different tasks can be performed using Aspose.Cells Java APIs in comparison with Apache POI SS. The project also covers the features that are only available in Aspose.Cells APIs but not in Apache POI SS for dealing with spreadsheets.
 
-This project is helpful for developers who want to compare Apache POI HSSF and XSSF with Aspose.Cells OR migrate from Apache POI SS to Aspose.Cells.
-## **System Requirements and Supported Platforms**
-### **System Requirements**
-Following are the system requirements to execute Aspose.Cells Java for Apache POI SS - HSSF and XSSF:
+## **Why not Apache POI SS - HSSF and XSSF**
 
-- Java 1.4 or above installed.
-- Downloaded Aspose.Cells component.
-- Downloaded Apache POI SS libraries.
-### **Supported Platforms**
-Following are the supported platforms:
+It is worth noting that some tasks can be achieved with Aspose.Cells, but cannot be accomplished with Apache POI. For example, if you need to convert Excel files to Pdf , JSON and images,then you cannot use only NPOI, you also need Microsoft Excel 365 or other tools.
 
-- Apache POI 3.11 and above.
-- Aspose.Cells 7.7.2 and above.
-- Java IDE (Eclipse, NetBeans, IntelliJ, ...).
-## **Downloading**
-You can directly include the source code of Aspose.Cells Java for Apache POI SS in your own project, Following releases of running examples are available to download on all of the below mentioned social coding sites:
-### **GitHub**
-- [Aspose.Cells Java for Apache POI SS - v 1.0](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+You can compare POI with Aspose.Cells To do this, we suggest that you familiarize yourself with the Aspose.Cells for POI project (HSSF and XSSF) – it shows how different tasks can be done using the Aspose.Cells for .Java API versus NPOI. The project also covers features for working with text documents that are only available in Aspose.Cells, but not in Apache POI.
 
-To configure **Aspose.Cells for Java API**, include the Aspose repository URL and Aspose.Cells for Java API maven dependency in your pom.xml as following:
-### **Aspose Maven Repository**
-{{< highlight java >}}
+This project is also useful for developers looking to migrate from POI to Aspose.Cells.
 
- <repositories>
+{{% alert color="primary" %}}
 
-    <repository>
+Explore [the plugin with source code examples of Aspose.Cells for Java features in comparison with POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
 
-        <id>aspose-maven-repository</id>
+This plugin uses the evaluation version of Aspose.Cells. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the ["Licensing and Subscription"](/cells/java/licensing/) article to do this.
 
-        <name>Aspose Maven Repository</name>
+{{% /alert %}}
 
-        <url>http://repository.aspose.com/repo/</url>
+In the following sections and articles, we will take a closer look at some of the features and abilities provided by Aspose.Cells.
 
-    </repository>
+### Stability
 
-</repositories>
+Aspose components are thoroughly tested. Since Aspose components are packaged into a single DLL, there will never be a need to install any additional parts or pieces for them to function. This allows not only to provide a stable work with Aspose.Cells, but also reduce the risk of unforeseen situations to virtually zero.
 
-{{< /highlight >}}
-### **Aspose.Cells for Java Maven Dependency**
-{{< highlight java >}}
+### Scalability and Speed
 
- <dependencies>
+Aspose components are highly scalable and lightning fast. They are a true .NET solution and perform flawlessly on either a single server powering a single application or a load balanced web farm powering an enterprise application.
 
-    <dependency>
+### Features
 
-        <groupId>com.aspose</groupId>
+Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-        <artifactId>aspose-cells</artifactId>
+Aspose components provide many powerful time-saving functions. For example, [Aspose.Cells](https://products.aspose.com/cells/net/) offers a feature that allows developers to import JSON to Excel files. It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
-        <version>8.6.0</version>
-
-    </dependency>
-
-</dependencies>
-
-{{< /highlight >}}
 ## **Support, Extend and Contribute**
 ### **Support**
 From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We're here to solve problems, not create them.
@@ -178,3 +158,8 @@ This section includes the following topics
     - [Set Print Titles](/cells/java/set-print-titles/)
     - [Printing Workbooks using Aspose.Cells](/cells/java/printing-workbooks-using-aspose-cells/)
     - [Convert Spreadsheet to PDF using Aspose.Cells](/cells/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+
+
+## See Also
+
+* [More about Apache POI](https://poi.apache.org/)
