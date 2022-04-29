@@ -19,7 +19,7 @@ The following sample code explains the usage of [**InterruptMonitor**](https://
 
 Cell cell = ws.getCells().get("AB1000000");
 
-cell.PutValue("This is text.");
+cell.putValue("This is text.");
 
 {{< /highlight >}}
 
