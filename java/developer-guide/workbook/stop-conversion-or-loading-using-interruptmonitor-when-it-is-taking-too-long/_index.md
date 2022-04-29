@@ -17,7 +17,7 @@ The following sample code explains the usage of [**InterruptMonitor**](https://
 
 //Access cell AB1000000 and add some text inside it.
 
-Cell cell = ws.Cells["AB1000000"];
+Cell cell = ws.getCells().get("AB1000000");
 
 cell.PutValue("This is text.");
 
@@ -27,7 +27,7 @@ As you see **AB1000000** is quite a farther cell in XLSX file. However, the *
 
 {{< highlight java >}}
 
-new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
+new StopConversionOrLoadingUsingInterruptMonitor().testRun();
 
 {{< /highlight >}}
 
