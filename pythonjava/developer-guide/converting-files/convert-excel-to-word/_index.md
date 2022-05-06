@@ -1,5 +1,5 @@
 ---
-title: Convert-Excel-to-Word
+title: Convert Excel to Word
 type: docs
 weight: 300
 url: /python-java/convert-excel-to-word/
