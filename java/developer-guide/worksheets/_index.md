@@ -1,7 +1,7 @@
 ---
 title: Worksheets
 type: docs
-weight: 90
+weight: 22
 url: /java/worksheets/
 ---
 
