@@ -1,6 +1,6 @@
 ---
 title: Fonts
 type: docs
-weight: 30
+weight: 110
 url: /java/fonts/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Workbook
 type: docs
-weight: 25
+weight: 40
 url: /java/workbook/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Document Properties
 type: docs
-weight: 80
+weight: 45
 url: /java/document-properties/
 ---

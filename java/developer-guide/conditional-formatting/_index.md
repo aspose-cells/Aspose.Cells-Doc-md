@@ -1,7 +1,7 @@
 ---
 title: Conditional Formatting
 type: docs
-weight: 40
+weight: 120
 url: /java/conditional-formatting/
 aliases: [/java/managing-conditional-formats/]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Workbook Settings
 type: docs
-weight: 28
+weight: 50
 url: /java/workbook-settings/
 ---

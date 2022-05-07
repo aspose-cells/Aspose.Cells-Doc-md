@@ -1,7 +1,7 @@
 ---
 title: Data
 type: docs
-weight: 25
+weight: 80
 url: /java/data/
 ---
 
