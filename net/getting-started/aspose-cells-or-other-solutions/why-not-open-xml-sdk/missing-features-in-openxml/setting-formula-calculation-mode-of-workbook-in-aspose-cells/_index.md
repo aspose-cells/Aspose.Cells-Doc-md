@@ -20,7 +20,7 @@ To set the formula calculation mode in Microsoft Excel:
 1. Select **Formulas** and then **Calculation Options**.
 1. Select one of the options.
 
-Aspose.Cells also allows you to set the **Formula Calculation Mode** using Workbook.Settings.CalcMode mode property. You can assign it the CalcModeType enumeration which has one of the following values:
+Aspose.Cells also allows you to set the **Formula Calculation Mode** using FormulaSettings.CalculationMode mode property. You can assign it the CalcModeType enumeration which has one of the following values:
 
 - CalcModeType.Automatic
 - CalcModeType.AutomaticExceptTable
@@ -42,7 +42,7 @@ Workbook workbook = new Workbook();
 
 //Set the Formula Calculation Mode to Manual
 
-workbook.Settings.CalcMode = CalcModeType.Manual;
+workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
 
 //Save the workbook
 

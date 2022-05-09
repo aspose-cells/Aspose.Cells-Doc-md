@@ -62,7 +62,7 @@ However, if the user template contains lots of diverse formulas, then first time
 
 Aspose.Cells allows you to turn off creating calculating chain which is useful in scenarios when you want to calculate formulas of your file only once.
 
-If you are seeking to improve performance of formula calculations by Aspose.Cells and you do not want to create formula calculating chain, then please set **Workbook.Settings.CreateCalcChain** as **false**. By default, it is set as **true**.
+If you are seeking to improve performance of formula calculations by Aspose.Cells and you do not want to create formula calculating chain, then please set **FormulaSettings.EnableCalculationChain** as **false**. By default, it is set as **true**.
 
 {{< highlight csharp >}}
 
@@ -80,7 +80,7 @@ Console.WriteLine(DateTime.Now);
 
 //Set the CreateCalcChain as false
 
-workbook.Settings.CreateCalcChain = false;
+workbook.Settings.FormulaSettings.EnableCalculationChain = false;
 
 //Calculate the workbook formulas
 

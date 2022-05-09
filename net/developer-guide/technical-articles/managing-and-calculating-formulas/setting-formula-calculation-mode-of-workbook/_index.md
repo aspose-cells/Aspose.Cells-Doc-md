@@ -20,7 +20,7 @@ To set the formula calculation mode in Microsoft Excel:
 1. Select **Formulas** and then **Calculation Options**.
 1. Select one of the options.
 
-Aspose.Cells also allows you to set the **Formula Calculation Mode** using [**Workbook.Settings.CalcMode**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/calcmode) mode property. You can assign it the [**CalcModeType**](https://apireference.aspose.com/cells/net/aspose.cells/calcmodetype) enumeration which has one of the following values:
+Aspose.Cells also allows you to set the **Formula Calculation Mode** using [**FormulaSettings.CalculationMode**](https://apireference.aspose.com/cells/net/aspose.cells/formulasettings/properties/calculationmode) mode property. You can assign it the [**CalcModeType**](https://apireference.aspose.com/cells/net/aspose.cells/calcmodetype) enumeration which has one of the following values:
 
 - CalcModeType.Automatic
 - CalcModeType.AutomaticExceptTable

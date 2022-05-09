@@ -46,7 +46,7 @@ Result of Sum(A1:A2): 50.0
 
 ## **Calculating Formulas repeatedly**
 
-When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**WorkbookSettings.CreateCalcChain**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CreateCalcChain).
+When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the formula calculation chain: [**FormulaSettings.EnableCalculationChain**](https://apireference.aspose.com/cells/java/com.aspose.cells/formulasettings#EnableCalculationChain).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulasOnce-CalculatingFormulasOnce.java" >}}
 
