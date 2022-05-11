@@ -9,16 +9,16 @@ aliases: [/java/whats-new/]
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
-## Aspose.Cells for .NET 22.5
+## Aspose.Cells for Java 22.5
 
 * Improvement for memory performance of setting cells formula while saving workbook in LightCells mode
 
-## Aspose.Cells for .NET 22.4
+## Aspose.Cells for Java 22.4
 
 * Enhanced options to control blank cells for exporting CSV.
 * Support complicated split and update of conditional formatting for insert/delete operations
 
-## Aspose.Cells for .NET 22.3
+## Aspose.Cells for Java 22.3
 
 * Support to re-calculate cells which depend on defined name when the defined name is changed and workbook's calculation chain is enabled.
 * Support to get cell's leafs recursively according to formulas' calculation chain
