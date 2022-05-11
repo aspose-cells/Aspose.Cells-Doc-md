@@ -9,6 +9,10 @@ aliases: [/java/whats-new/]
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.5
+
+* Improvement for memory performance of setting cells formula while saving workbook in LightCells mode
+
 ## Aspose.Cells for .NET 22.4
 
 * Enhanced options to control blank cells for exporting CSV.
