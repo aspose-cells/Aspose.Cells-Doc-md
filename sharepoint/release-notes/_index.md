@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /sharepoint/release-notes/
 ---
-
+- [Release Notes - 2022](/cells/sharepoint/release-notes-2022/)
 - [Release Notes - 2017](/cells/sharepoint/release-notes-2017/)
 - [Release Notes - 2014](/cells/sharepoint/release-notes-2014/)
 - [Release Notes - 2013](/cells/sharepoint/release-notes-2013/)
