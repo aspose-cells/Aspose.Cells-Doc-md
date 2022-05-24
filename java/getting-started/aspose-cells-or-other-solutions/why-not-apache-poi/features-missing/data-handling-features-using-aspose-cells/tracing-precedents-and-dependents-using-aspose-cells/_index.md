@@ -115,6 +115,6 @@ for (int i = 0; i< dependents.length; i++)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Tracing Precedents and Dependents](/java/tracing-precedents-and-dependents).
+For more details, visit [Tracing Precedents and Dependents](/java/precedents-and-dependents).
 
 {{% /alert %}}
