@@ -5,7 +5,6 @@ weight: 60
 url: /java/tracing-precedents-and-dependents-using-aspose-cells/
 ---
 
-{{< /highlight >}}
 ## **Download Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Download Sample Code**
