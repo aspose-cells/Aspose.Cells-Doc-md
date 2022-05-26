@@ -41,7 +41,9 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 using Office = Microsoft.Office.Core;
 
-using System.Reflection;.........//Instantiate the Application object.
+using System.Reflection;
+
+//Instantiate the Application object.
 
 Excel.ApplicationClass ExcelApp = new Excel.ApplicationClass();
 
@@ -95,7 +97,9 @@ ExcelApp.Quit();
 
 {{< highlight csharp >}}
 
- // Instantiate a new Workbook.Workbook objworkbook = new Workbook();
+ // Instantiate a new Workbook.
+ 
+ Workbook objworkbook = new Workbook();
 
 // Get the First sheet.
 
