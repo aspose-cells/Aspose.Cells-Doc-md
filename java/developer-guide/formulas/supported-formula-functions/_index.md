@@ -9,16 +9,18 @@ url: /java/supported-formula-functions/
 
 Aspose.Cells APIs support most of the standard functions and Excel's built-in formula. Below, you can find all the supported functions in alphabetical order.
 
-[A](#a)    [B](#b)    [C](#c)    [D](#d)    [E](#e)    [F](#f)    [G](#g)    [H](#h)    [I](#i)    [J](#j)    [K](#k)    [L](#l)    [M](#m)
-[N](#n)    [O](#o)    [P](#p)    [Q](#q)    [R](#r)    [S](#s)    [T](#t)    [U](#u)    [V](#v)    [W](#w)    [X](#x)    [Y](#y)    [Z](#z)
+|||||||||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[A](#a)|[B](#b)|[C](#c)|[D](#d)|[E](#e)|[F](#f)|[G](#g)|[H](#h)|[I](#i)|[J](#j)|[K](#k)|[L](#l)|[M](#m)
+|[N](#n)|[O](#o)|[P](#p)|[Q](#q)|[R](#r)|[S](#s)|[T](#t)|[U](#u)|[V](#v)|[W](#w)|[X](#x)|[Y](#y)|[Z](#z)
 
 {{% /alert %}}
 
 Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate the results of the following formulas and functions.
 
+##A
 |**Function**|**Summary**|
 | :- | :- |
-|##A|
 |ABS|Math and trigonometry:    Returns the absolute value of a number
 |ACCRINT|Financial:    Returns the accrued interest for a security that pays periodic interest
 |ACCRINTM|Financial:    Returns the accrued interest for a security that pays interest at maturity
@@ -41,7 +43,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |AVERAGEA|Statistical:    Returns the average of its arguments, including numbers, text, and logical values
 |AVERAGEIF|Statistical:    Returns the average (arithmetic mean) of all the cells in a range that meet a given criteria
 |AVERAGEIFS|Statistical:    Returns the average (arithmetic mean) of all cells that meet multiple criteria.
-|##B|
+##B
+|**Function**|**Summary**|
+| :- | :- |
 |BESSELI|Engineering:    Returns the modified Bessel function In(x)
 |BESSELJ|Engineering:    Returns the Bessel function Jn(x)
 |BESSELK|Engineering:    Returns the modified Bessel function Kn(x)
@@ -60,7 +64,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |BITOR|Engineering:    Returns a bitwise OR of 2 numbers
 |BITRSHIFT|Engineering:    Returns a value number shifted right by shift_amount bits
 |BITXOR|Engineering:    Returns a bitwise 'Exclusive Or' of two numbers
-|##C|
+##C
+|**Function**|**Summary**|
+| :- | :- |
 |CEILING|Compatibility:    Rounds a number to the nearest integer or to the nearest multiple of significance
 |CEILING.MATH|Math and trigonometry:    Rounds a number up, to the nearest integer or to the nearest multiple of significance
 |CEILING.PRECISE|Math and trigonometry:    Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.
@@ -105,7 +111,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |CRITBINOM|Compatibility:    Returns the smallest value for which the cumulative binomial distribution is less than or equal to a criterion value(In Excel 2007, this is a Statistical function.)
 |CUMIPMT|Financial:    Returns the cumulative interest paid between two periods
 |CUMPRINC|Financial:    Returns the cumulative principal paid on a loan between two periods
-|##D|
+##D
+|**Function**|**Summary**|
+| :- | :- |
 |DATE|Date and time:    Returns the serial number of a particular date
 |DATEDIF|Date and time:    Calculates the number of days, months, or years between two dates. This function is useful in formulas where you need to calculate an age.
 |DATEVALUE|Date and time:    Converts a date in the form of text to a serial number
@@ -137,23 +145,22 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |DURATION|Financial:    Returns the annual duration of a security with periodic interest payments
 |DVAR|Database:    Estimates variance based on a sample from selected database entries
 |DVARP|Database:    Calculates variance based on the entire population of selected database entries
-|##E|
+##E
+|**Function**|**Summary**|
+| :- | :- |
 |EDATE|Date and time:    Returns the serial number of the date that is the indicated number of months before or after the start date
 |EFFECT|Financial:    Returns the effective annual interest rate
-|*ENCODEURL|Web:    Returns a URL-encoded string
 |EOMONTH|Date and time:    Returns the serial number of the last day of the month before or after a specified number of months
 |ERF|Engineering:    Returns the error
-|*ERF.PRECISE|Engineering:    Returns the error
 |ERFC|Engineering:    Returns the complementary error
-|*ERFC.PRECISE|Engineering:    Returns the complementary ERF function integrated between x and infinity
 |ERROR.TYPE|Information:    Returns a number corresponding to an error type
-|*EUROCONVERT|Add-in and Automation:    Converts a number to euros, converts a number from euros to a euro member currency, or converts a number from one euro member currency to another by using the euro as an intermediary (triangulation).
 |EVEN|Math and trigonometry:    Rounds a number up to the nearest even integer
 |EXACT|Text:    Checks to see if two text values are identical
 |EXP|Math and trigonometry:    Returns e raised to the power of a given number
-|*EXPON.DIST|Statistical:    Returns the exponential distribution
 |EXPONDIST|Compatibility:    Returns the exponential distribution(In Excel 2007, this is a Statistical function.)
-|##F|
+##F
+|**Function**|**Summary**|
+| :- | :- |
 |FACT|Math and trigonometry:    Returns the factorial of a number
 |FACTDOUBLE|Math and trigonometry:    Returns the double factorial of a number
 |FALSE|Logical:    Returns the logical value FALSE
@@ -161,10 +168,8 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |FDIST|Compatibility:    Returns the F probability distribution(In Excel 2007, this is a Statistical function.)
 |F.DIST.RT|Statistical:    Returns the F probability distribution
 |FILTER|Lookup and reference:    Filters a range of data based on criteria you define
-|*FILTERXML|Web:    Returns specific data from the XML content by using the specified XPath
 |FIND|Text:    Finds one text value within another (case-sensitive)
 |FINDB|Text:    Finds one text value within another (case-sensitive)
-|*F.INV|Statistical:    Returns the inverse of the F probability distribution
 |F.INV.RT|Statistical:    Returns the inverse of the F probability distribution
 |FINV|Compatibility:    Returns the inverse of the F probability distribution(In Excel 2007 this is a Statistical function.)
 |FISHER|Statistical:    Returns the Fisher transformation
@@ -172,34 +177,28 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |FIXED|Text:    Formats a number as text with a fixed number of decimals
 |FLOOR|Compatibility:    Rounds a number down, toward zero(In Excel 2007 and Excel 2010, this is a Math and trigonometry function.)
 |FLOOR.MATH|Math and trigonometry:    Rounds a number down, to the nearest integer or to the nearest multiple of significance
-|*FLOOR.PRECISE|Math and trigonometry:    Rounds a number the nearest integer or to the nearest multiple of significance. Regardless of the sign of the number, the number is rounded up.
 |FORECAST|Statistical:    Returns a value along a linear trend(In Excel 2016, this function is replaced with FORECAST.LINEAR as part of the new Forecasting functions)
-|*FORECAST.ETS|Statistical:    Returns a future value based on existing (historical) values by using the AAA version of the Exponential Smoothing (ETS) algorithm
-|*FORECAST.ETS.CONFINT|Statistical:    Returns a confidence interval for the forecast value at the specified target date
-|*FORECAST.ETS.SEASONALITY|Statistical:    Returns the length of the repetitive pattern Excel detects for the specified time series
-|*FORECAST.ETS.STAT|Statistical:    Returns a statistical value as a result of time series forecasting
 |FORECAST.LINEAR|Statistical:    Returns a future value based on existing values
 |FORMULATEXT|Lookup and reference:    Returns the formula at the given reference as text
-|*FREQUENCY|Statistical:    Returns a frequency distribution as a vertical array
-|*F.TEST|Statistical:    Returns the result of an F-test
-|*FTEST|Compatibility:    Returns the result of an F-test(In Excel 2007, this is a Statistical function.)
-|*FV|Financial:    Returns the future value of an investment
+|FREQUENCY|Statistical:    Returns a frequency distribution as a vertical array
+|FV|Financial:    Returns the future value of an investment
 |FVSCHEDULE|Financial:    Returns the future value of an initial principal after applying a series of compound interest rates
-|*GAMMA|Statistical:    Returns the Gamma function value
-|##G|
+##G
+|**Function**|**Summary**|
+| :- | :- |
 |GAMMA.DIST|Statistical:    Returns the gamma distribution
 |GAMMADIST|Compatibility:    Returns the gamma distribution(In Excel 2007, this is a Statistical function.)
 |GAMMA.INV|Statistical:    Returns the inverse of the gamma cumulative distribution
 |GAMMAINV|Compatibility:    Returns the inverse of the gamma cumulative distribution(In Excel 2007, this is a Statistical function.)
 |GAMMALN|Statistical:    Returns the natural logarithm of the gamma function, ¦£(x)
-|*GAMMALN.PRECISE|Statistical:    Returns the natural logarithm of the gamma function, ¦£(x)
-|*GAUSS|Statistical:    Returns 0.5 less than the standard normal cumulative distribution
 |GCD|Math and trigonometry:    Returns the greatest common divisor
 |GEOMEAN|Statistical:    Returns the geometric mean
 |GESTEP|Engineering:    Tests whether a number is greater than a threshold value
 |GETPIVOTDATA|Lookup and reference:    Returns data stored in a PivotTable report
 |GROWTH|Statistical:    Returns values along an exponential trend
-|##H|
+##H
+|**Function**|**Summary**|
+| :- | :- |
 |HARMEAN|Statistical:    Returns the harmonic mean
 |HEX2BIN|Engineering:    Converts a hexadecimal number to binary
 |HEX2DEC|Engineering:    Converts a hexadecimal number to decimal
@@ -209,7 +208,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |HYPERLINK|Lookup and reference:    Creates a shortcut or jump that opens a document stored on a network server, an intranet, or the Internet
 |HYPGEOM.DIST|Statistical:    Returns the hypergeometric distribution
 |HYPGEOMDIST|Compatibility:    Returns the hypergeometric distribution(In Excel 2007, this is a Statistical function.)
-|##I|
+##I
+|**Function**|**Summary**|
+| :- | :- |
 |IF|Logical:    Specifies a logical test to perform
 |IFERROR|Logical:    Returns a value you specify if a formula evaluates to an error; otherwise, returns the result of the formula
 |IFNA|Logical:    Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression
@@ -249,19 +250,21 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ISODD|Information:    Returns TRUE if the number is odd
 |ISREF|Information:    Returns TRUE if the value is a reference
 |ISTEXT|Information:    Returns TRUE if the value is text
-|*ISO.CEILING|Math and trigonometry:    Returns a number that is rounded up to the nearest integer or to the nearest multiple of significance
 |ISOWEEKNUM|Date and time:    Returns the number of the ISO week number of the year for a given date
 |ISPMT|Financial:    Calculates the interest paid during a specific period of an investment
-|##K|
+##K
+|**Function**|**Summary**|
+| :- | :- |
 |KURT|Statistical:    Returns the kurtosis of a data set
-|##L|
+##L
+|**Function**|**Summary**|
+| :- | :- |
 |LARGE|Statistical:    Returns the k-th largest value in a data set
 |LCM|Math and trigonometry:    Returns the least common multiple
 |LEFT|Text:    Returns the leftmost characters from a text value
 |LEFTB|Text:    Returns the leftmost characters from a text value
 |LEN|Text:    Returns the number of characters in a text string
 |LENB|Text:    Returns the number of characters in a text string
-|*LET|Math and trigonometry:    Assigns names to calculation results to allow storing intermediate calculations, values, or defining names inside a formula
 |LINEST|Statistical:    Returns the parameters of a linear trend
 |LN|Math and trigonometry:    Returns the natural logarithm of a number
 |LOG|Math and trigonometry:    Returns the logarithm of a number to a specified base
@@ -269,11 +272,13 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |LOGEST|Statistical:    Returns the parameters of an exponential trend
 |LOGINV|Compatibility:    Returns the inverse of the lognormal cumulative distribution
 |LOGNORM.DIST|Statistical:    Returns the cumulative lognormal distribution
+|LOGNORM.INV|Statistical:    Returns the inverse of the lognormal cumulative distribution
 |LOGNORMDIST|Compatibility:    Returns the cumulative lognormal distribution
-|*LOGNORM.INV|Statistical:    Returns the inverse of the lognormal cumulative distribution
 |LOOKUP|Lookup and reference:    Looks up values in a vector or array
 |LOWER|Text:    Converts text to lowercase
-|##M|
+##M
+|**Function**|**Summary**|
+| :- | :- |
 |MATCH|Lookup and reference:    Looks up values in a reference or array
 |MAX|Statistical:    Returns the maximum value in a list of arguments
 |MAXA|Statistical:    Returns the maximum value in a list of arguments, including numbers, text, and logical values
@@ -297,8 +302,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |MONTH|Date and time:    Converts a serial number to a month
 |MROUND|Math and trigonometry:    Returns a number rounded to the desired multiple
 |MULTINOMIAL|Math and trigonometry:    Returns the multinomial of a set of numbers
-|*MUNIT|Math and trigonometry:    Returns the unit matrix or the specified dimension
-|##N|
+##N
+|**Function**|**Summary**|
+| :- | :- |
 |N|Information:    Returns a value converted to a number
 |NA|Information:    Returns the error value #N/A
 |NEGBINOM.DIST|Statistical:    Returns the negative binomial distribution
@@ -313,13 +319,15 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |NORM.S.DIST|Statistical:    Returns the standard normal cumulative distribution
 |NORMSDIST|Compatibility:    Returns the standard normal cumulative distribution(In Excel 2007, this is a Statistical function.)
 |NORM.S.INV|Statistical:    Returns the inverse of the standard normal cumulative distribution
-|*NORMSINV|Compatibility:    Returns the inverse of the standard normal cumulative distribution(In Excel 2007, this is a Statistical function.)
+|NORMSINV|Compatibility:    Returns the inverse of the standard normal cumulative distribution(In Excel 2007, this is a Statistical function.)
 |NOT|Logical:    Reverses the logic of its argument
 |NOW|Date and time:    Returns the serial number of the current date and time
 |NPER|Financial:    Returns the number of periods for an investment
 |NPV|Financial:    Returns the net present value of an investment based on a series of periodic cash flows and a discount rate
 |NUMBERVALUE|Text:    Converts text to number in a locale-independent manner
-|##O|
+##O
+|**Function**|**Summary**|
+| :- | :- |
 |OCT2BIN|Engineering:    Converts an octal number to binary
 |OCT2DEC|Engineering:    Converts an octal number to decimal
 |OCT2HEX|Engineering:    Converts an octal number to hexadecimal
@@ -330,8 +338,9 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ODDLYIELD|Financial:    Returns the yield of a security with an odd last period
 |OFFSET|Lookup and reference:    Returns a reference offset from a given reference
 |OR|Logical:    Returns TRUE if any argument is TRUE
-|*PDURATION|Financial:    Returns the number of periods required by an investment to reach a specified value
-|##P|
+##P
+|**Function**|**Summary**|
+| :- | :- |
 |PEARSON|Statistical:    Returns the Pearson product moment correlation coefficient
 |PERCENTILE.EXC|Statistical:    Returns the k-th percentile of values in a range, where k is in the range 0..1, exclusive
 |PERCENTILE.INC|Statistical:    Returns the k-th percentile of values in a range
@@ -340,9 +349,6 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |PERCENTRANK.INC|Statistical:    Returns the percentage rank of a value in a data set
 |PERCENTRANK|Compatibility:    Returns the percentage rank of a value in a data set(In Excel 2007, this is a Statistical function.)
 |PERMUT|Statistical:    Returns the number of permutations for a given number of objects
-|*PERMUTATIONA|Statistical:    Returns the number of permutations for a given number of objects (with repetitions) that can be selected from the total objects
-|*PHI|Statistical:    Returns the value of the density function for a standard normal distribution
-|*PHONETIC|Text:    Extracts the phonetic (furigana) characters from a text string
 |PI|Math and trigonometry:    Returns the value of pi
 |PMT|Financial:    Returns the periodic payment for an annuity
 |POISSON.DIST|Statistical:    Returns the Poisson distribution
@@ -356,22 +362,25 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |PRODUCT|Math and trigonometry:    Multiplies its arguments
 |PROPER|Text:    Capitalizes the first letter in each word of a text value
 |PV|Financial:    Returns the present value of an investment
-|##Q|
+##Q
+|**Function**|**Summary**|
+| :- | :- |
 |QUARTILE|Compatibility:    Returns the quartile of a data set(In Excel 2007, this is a Statistical function.)
 |QUARTILE.EXC|Statistical:    Returns the quartile of the data set, based on percentile values from 0..1, exclusive
 |QUARTILE.INC|Statistical:    Returns the quartile of a data set
 |QUOTIENT|Math and trigonometry:    Returns the integer portion of a division
-|##R|
+##R
+|**Function**|**Summary**|
+| :- | :- |
 |RADIANS|Math and trigonometry:    Converts degrees to radians
 |RAND|Math and trigonometry:    Returns a random number between 0 and 1
-|*RANDARRAY|Math and trigonometry:    Returns an array of random numbers between 0 and 1. However, you can specify the number of rows and columns to fill, minimum and maximum values, and whether to return whole numbers or decimal values.
+|RANDARRAY|Math and trigonometry:    Returns an array of random numbers between 0 and 1. However, you can specify the number of rows and columns to fill, minimum and maximum values, and whether to return whole numbers or decimal values.
 |RANDBETWEEN|Math and trigonometry:    Returns a random number between the numbers you specify
 |RANK.AVG|Statistical:    Returns the rank of a number in a list of numbers
 |RANK.EQ|Statistical:    Returns the rank of a number in a list of numbers
 |RANK|Compatibility:    Returns the rank of a number in a list of numbers(In Excel 2007, this is a Statistical function.)
 |RATE|Financial:    Returns the interest rate per period of an annuity
 |RECEIVED|Financial:    Returns the amount received at maturity for a fully invested security
-|*REGISTER.ID|Add-in and Automation:    Returns the register ID of the specified dynamic link library (DLL) or code resource that has been previously registered
 |REPLACE|Text:    Replaces characters within text
 |REPLACEB|Text:    Replaces characters within text
 |REPT|Text:    Repeats text a given number of times
@@ -383,33 +392,29 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ROUNDUP|Math and trigonometry:    Rounds a number up, away from zero
 |ROW|Lookup and reference:    Returns the row number of a reference
 |ROWS|Lookup and reference:    Returns the number of rows in a reference
-|*RRI|Financial:    Returns an equivalent interest rate for the growth of an investment
 |RSQ|Statistical:    Returns the square of the Pearson product moment correlation coefficient
-|*RTD|Lookup and reference:    Retrieves real-time data from a program that supports COM automation
-|##S|
+##S
+|**Function**|**Summary**|
+| :- | :- |
 |SEARCH|Text:    Finds one text value within another (not case-sensitive)
 |SEARCHB|Text:    Finds one text value within another (not case-sensitive)
-|*SEC|Math and trigonometry:    Returns the secant of an angle
-|*SECH|Math and trigonometry:    Returns the hyperbolic secant of an angle
 |SECOND|Date and time:    Converts a serial number to a second
 |SEQUENCE|Math and trigonometry:    Generates a list of sequential numbers in an array, such as 1, 2, 3, 4
 |SERIESSUM|Math and trigonometry:    Returns the sum of a power series based on the formula
-|*SHEET|Information:    Returns the sheet number of the referenced sheet
-|*SHEETS|Information:    Returns the number of sheets in a reference
+|SHEET|Information:    Returns the sheet number of the referenced sheet
+|SHEETS|Information:    Returns the number of sheets in a reference
 |SIGN|Math and trigonometry:    Returns the sign of a number
 |SIN|Math and trigonometry:    Returns the sine of the given angle
 |SINH|Math and trigonometry:    Returns the hyperbolic sine of a number
 |SKEW|Statistical:    Returns the skewness of a distribution
-|*SKEW.P|Statistical:    Returns the skewness of a distribution based on a population: a characterization of the degree of asymmetry of a distribution around its mean
 |SLN|Financial:    Returns the straight-line depreciation of an asset for one period
 |SLOPE|Statistical:    Returns the slope of the linear regression line
 |SMALL|Statistical:    Returns the k-th smallest value in a data set
-|*SORT|Lookup and reference:    Sorts the contents of a range or array
+|SORT|Lookup and reference:    Sorts the contents of a range or array
 |SORTBY|Lookup and reference:    Sorts the contents of a range or array based on the values in a corresponding range or array
 |SQRT|Math and trigonometry:    Returns a positive square root
 |SQRTPI|Math and trigonometry:    Returns the square root of (number * pi)
 |STANDARDIZE|Statistical:    Returns a normalized value
-|*STOCKHISTORY|Financial:    Retrieves historical data about a financial instrument
 |STDEV|Compatibility:    Estimates standard deviation based on a sample
 |STDEV.P|Statistical:    Calculates standard deviation based on the entire population
 |STDEV.S|Statistical:    Estimates standard deviation based on a sample
@@ -429,14 +434,15 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |SUMXMY2|Math and trigonometry:    Returns the sum of squares of differences of corresponding values in two arrays
 |SWITCH|Logical:    Evaluates an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an optional default value may be returned.
 |SYD|Financial:    Returns the sum-of-years' digits depreciation of an asset for a specified period
-|##T|
+##T
+|**Function**|**Summary**|
+| :- | :- |
 |T|Text:    Converts its arguments to text
 |TAN|Math and trigonometry:    Returns the tangent of a number
 |TANH|Math and trigonometry:    Returns the hyperbolic tangent of a number
 |TBILLEQ|Financial:    Returns the bond-equivalent yield for a Treasury bill
 |TBILLPRICE|Financial:    Returns the price per $100 face value for a Treasury bill
 |TBILLYIELD|Financial:    Returns the yield for a Treasury bill
-|*T.DIST|Statistical:    Returns the Percentage Points (probability) for the Student t-distribution
 |T.DIST.2T|Statistical:    Returns the Percentage Points (probability) for the Student t-distribution
 |T.DIST.RT|Statistical:    Returns the Student's t-distribution
 |TDIST|Compatibility:    Returns the Student's t-distribution
@@ -444,7 +450,6 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |TEXTJOIN|Text:    Combines the text from multiple ranges and/or strings, and includes a delimiter you specify between each text value that will be combined. If the delimiter is an empty text string, this function will effectively concatenate the ranges.
 |TIME|Date and time:    Returns the serial number of a particular time
 |TIMEVALUE|Date and time:    Converts a time in the form of text to a serial number
-|*T.INV|Statistical:    Returns the t-value of the Student's t-distribution as a function of the probability and the degrees of freedom
 |T.INV.2T|Statistical:    Returns the inverse of the Student's t-distribution
 |TINV|Compatibility:    Returns the inverse of the Student's t-distribution
 |TODAY|Date and time:    Returns the serial number of today's date
@@ -457,14 +462,17 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |T.TEST|Statistical:    Returns the probability associated with a Student's t-test
 |TTEST|Compatibility:    Returns the probability associated with a Student's t-test(In Excel 2007, this is a Statistical function.)
 |TYPE|Information:    Returns a number indicating the data type of a value
-|##U|
+##U
+|**Function**|**Summary**|
+| :- | :- |
 |UNICHAR|Text:    Returns the Unicode character that is references by the given numeric value
 |UNICODE|Text:    Returns the number (code point) that corresponds to the first character of the text
 |UNIQUE|Lookup and reference:    Returns a list of unique values in a list or range
 |UPPER|Text:    Converts text to uppercase
-|##V|
+##V
+|**Function**|**Summary**|
+| :- | :- |
 |VALUE|Text:    Converts a text argument to a number
-|*VALUETOTEXT|Text:    Returns text from any specified value
 |VAR|Compatibility:    Estimates variance based on a sample(In Excel 2007, this is a Statistical function.)
 |VAR.P|Statistical:    Calculates variance based on the entire population
 |VAR.S|Statistical:    Estimates variance based on a sample
@@ -473,26 +481,31 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |VARPA|Statistical:    Calculates variance based on the entire population, including numbers, text, and logical values
 |VDB|Financial:    Returns the depreciation of an asset for a specified or partial period by using a declining balance method
 |VLOOKUP|Lookup and reference:    Looks in the first column of an array and moves across the row to return the value of a cell
-|##W|
-|*WEBSERVICE|Web:    Returns data from a web service.
+##W
+|**Function**|**Summary**|
+| :- | :- |
 |WEEKDAY|Date and time:    Converts a serial number to a day of the week
 |WEEKNUM|Date and time:    Converts a serial number to a number representing where the week falls numerically with a year
 |WEIBULL|Compatibility:    Calculates variance based on the entire population, including numbers, text, and logical values(In Excel 2007, this is a Statistical function.)
 |WEIBULL.DIST|Statistical:    Returns the Weibull distribution
 |WORKDAY|Date and time:    Returns the serial number of the date before or after a specified number of workdays
 |WORKDAY.INTL|Date and time:    Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days
-|##X|
+##X
+|**Function**|**Summary**|
+| :- | :- |
 |XIRR|Financial:    Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic
-|*XLOOKUP|Lookup and reference:    Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist, then XLOOKUP can return the closest (approximate) match. 
-|*XMATCH|Lookup and reference:    Returns the relative position of an item in an array or range of cells. 
+|XLOOKUP|Lookup and reference:    Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist, then XLOOKUP can return the closest (approximate) match. 
 |XNPV|Financial:    Returns the net present value for a schedule of cash flows that is not necessarily periodic
-|*XOR|Logical:    Returns a logical exclusive OR of all arguments
-|##Y|
+##Y
+|**Function**|**Summary**|
+| :- | :- |
 |YEAR|Date and time:    Converts a serial number to a year
 |YEARFRAC|Date and time:    Returns the year fraction representing the number of whole days between start_date and end_date
 |YIELD|Financial:    Returns the yield on a security that pays periodic interest
 |YIELDDISC|Financial:    Returns the annual yield for a discounted security; for example, a Treasury bill
 |YIELDMAT|Financial:    Returns the annual yield of a security that pays interest at maturity
-|##Z|
+##Z
+|**Function**|**Summary**|
+| :- | :- |
 |Z.TEST|Statistical:    Returns the one-tailed probability-value of a z-test
 |ZTEST|Compatibility:    Returns the one-tailed probability-value of a z-test(In Excel 2007, this is a Statistical function.)
