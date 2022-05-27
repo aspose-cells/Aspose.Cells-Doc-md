@@ -20,7 +20,6 @@ NuGet is the easiest way to download and install Aspose.Cells for .NET.
 1. Open Microsoft Visual Studio and NuGet package manager. 
 1. Search "aspose.cells" to find the desired Aspose.Cells for .NET. 
 1. Click on "Install", Aspose.Cells for .NET will be downloaded and referenced in your project.
-
 **![Install Aspose Cells through NuGet](install-through-nuget.png)**
 
 You can also download it from the nuget web page for aspose.cells: 
@@ -50,9 +49,7 @@ In this example, I use Ubuntu to show how to start using Aspose.Cells on linux.
   </ItemGroup>
 {{< /highlight >}}
 3. Open the project with VSCode on Ubuntu:
-
 **![Install Aspose Cells on linux](install-on-linux.png)**
-
 4. run test with the following code:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnLinux.cs" >}}
 
@@ -69,6 +66,8 @@ In this example, I use macOS High Sierra to show how to start using Aspose.Cells
 **![Install Aspose Cells on macOS](install-on-mac-os.png)**
 3. run test with the following code:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
+4. If you need to use drawing-related features, please install libgdiplus in macOS, see:
+[How to Install libgdiplus in macOS](/cells/net/how-to-install-libgdiplus-in-macOS/)
 
 Note: Aspose.Cells For .NetStandard can support your requirement on MAC OS.
 
