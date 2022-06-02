@@ -13,4 +13,5 @@ This page contains release notes for Aspose.Cells for C++ 22.6.0 for Windows.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
+|CELLSCPP-759|Support SHA512Managed class |Support|
 |CELLSCPP-812|Sync features with .Net version |Support|
