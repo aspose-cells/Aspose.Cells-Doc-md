@@ -8,7 +8,7 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
-## Aspose.Cells for .NET 22.5
+## Aspose.Cells for .NET 22.6
 
 * Improvement for calculating and tracing formulas with formula calculation chain
 
