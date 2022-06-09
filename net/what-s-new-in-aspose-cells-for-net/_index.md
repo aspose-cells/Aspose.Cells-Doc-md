@@ -10,6 +10,10 @@ This page describes the most interesting new Aspose.Cells features introduced in
 
 ## Aspose.Cells for .NET 22.5
 
+* Improvement for calculating and tracing formulas with formula calculation chain
+
+## Aspose.Cells for .NET 22.5
+
 * Improvement for memory performance of setting cells formula while saving workbook in LightCells mode
 
 ## Aspose.Cells for .NET 22.4
