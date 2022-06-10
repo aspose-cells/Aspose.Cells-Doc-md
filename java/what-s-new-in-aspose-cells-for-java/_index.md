@@ -9,6 +9,10 @@ aliases: [/java/whats-new/]
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 22.6
+
+* Improvement for calculating and tracing formulas with formula calculation chain
+
 ## Aspose.Cells for Java 22.5
 
 * Improvement for memory performance of setting cells formula while saving workbook in LightCells mode
