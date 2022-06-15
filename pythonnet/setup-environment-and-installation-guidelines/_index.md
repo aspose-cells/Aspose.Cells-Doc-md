@@ -17,7 +17,7 @@ Aspose.Cells for Python via .NET is platform-independent API and can be used on
 ## **Windows:**
 ### **Install Aspose.Cells for Python via .NET from pypi**
 You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/) with the following command.
-{{< highlight .NET >}}
+{{< highlight NET >}}
 
  $ pip install aspose-cells-python
 
