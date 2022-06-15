@@ -45,10 +45,19 @@ Aspose.Cells provides the [Cell](https://apireference.aspose.com/cells/net/aspo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingPrecedents-1.cs" >}}
 ### **Tracing Dependents**
-Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells can not only can retrieve cells that provide data regarding a simple formula but also find cells that provide data to a complex formula dependents with named ranges.
+Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells not only can retrieve cells that provide data regarding a simple formula but also find cells that provide data to a complex formula dependents with named ranges.
 
 Aspose.Cells provides the [Cell](https://apireference.aspose.com/cells/net/aspose.cells/cell) class' [GetDependents](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getdependents) method used to trace a cell's dependents. For example, in Book1.xlsx there are formulas: "=A1+20" and "=A1+30" in the B2 and C2 cells respectively. The following example demonstrates how to trace the dependents for the A1 cell using the template file Book1.xlsx.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependents-1.cs" >}}
+### **Tracing Precedent and Dependent cells according to calculation chain**
+Above apis of tracing precedents and dependents are according to the formula expression itself. They simply provide convenient way for user to trace interdependencies for a few formulas. If there are large amount of formulas in the workbook and user needs to trace precedents and dependents for every cell, they will give poor performance. For such situation, user should consider to use [GetPrecedentsInCalculation](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedentsincalculation/) and [GetDependentsInCalculation](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getdependentsincalculation/) methods. These two methods trace dependencies according to the calculation chain. So, to use them, firstly you need to enable the calculation chain by [Workbook.Settings.FormulaSettings.EnableCalculationChain](https://apireference.aspose.com/cells/net/aspose.cells/formulasettings/enablecalculationchain/). Then you should perform full calculation for the Workbook by [Workbook.CalculateFormula()](https://apireference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1). After that, you can trace precedents or dependents for all those cells you need.
+
+For some formulas, the resultant precedents may be different for GetPrecedents and GetPrecedentsInCalculation, and the resultant dependents may be different for GetDependents and GetDependentsInCalculation. For example, if cell A1's formula is "=IF(TRUE,B2,C3)", GetPrecedents will provide B2 and C3 as A1's precedent. Accordingly, B2 and C3 both have the dependent A1 when checking by GetDependents. However, for the  calculation of this formula, it is obvious that only B2 can affect the calculated result. So GetPrecedentsInCalculation will not provide C3 for A1, and GetDependentsInCalculation will not provide A1 for C3. Sometimes user may just has the requirement of tracing those interdependencies that actually affect the calculated result of formulas based on current data of the Workbook, then they also need to use GetDependentsInCalculation/GetPrecedentsInCalculation instead of GetDependents/GetPrecedents.
+
+The following example demonstrates how to trace the precedents and dependents according to calculation chain for cells:
+
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependenciesInCalculation.cs" >}}
