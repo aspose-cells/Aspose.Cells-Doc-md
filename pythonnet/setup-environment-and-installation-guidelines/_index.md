@@ -26,7 +26,7 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 ### **Test Aspose.Cells for Python via .NET**
 - Create a file named **example.py** and use the following sample code:
 
-{{< highlight .NET >}}
+{{< highlight NET >}}
 
 import aspose.cells
 from asposecells import Workbook, FileFormatType
@@ -42,7 +42,7 @@ workbook.save("output.xlsx")
 ## **Linux:**
 ### **Install Aspose.Cells for Python via .NET from pypi**
 You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/) with the following command.
-{{< highlight .NET >}}
+{{< highlight NET >}}
 
  $ pip install aspose-cells-python
 
@@ -51,7 +51,7 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 ### **Test Aspose.Cells for Python via .NET**
 - Create a file named **example.py** and use the following sample code:
 
-{{< highlight .NET >}}
+{{< highlight NET >}}
 
 import aspose.cells
 from asposecells import Workbook, FileFormatType
