@@ -9,7 +9,7 @@ description: Aspose.Cells for Python supports the popular spreadsheet (XLS, XLSX
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Python via .NET Product Logo](home_1.svg)**
+**![Aspose.Cells for Python via .NET Product Logo](home_1.png)**
 
 **Welcome to Aspose.Cells for Python via .NET**
 
