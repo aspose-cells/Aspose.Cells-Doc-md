@@ -29,7 +29,7 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 {{< highlight NET >}}
 
 import aspose.cells
-from asposecells import Workbook, FileFormatType
+from aspose.cells import Workbook, FileFormatType
 
 workbook = Workbook(FileFormatType.XLSX)
 workbook.worksheets.get(0).cells.get("A1").put_value("Hello World")
@@ -54,7 +54,7 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 {{< highlight NET >}}
 
 import aspose.cells
-from asposecells import Workbook, FileFormatType
+from aspose.cells import Workbook, FileFormatType
 
 workbook = Workbook(FileFormatType.XLSX)
 workbook.worksheets.get(0).cells.get("A1").put_value("Hello World")
