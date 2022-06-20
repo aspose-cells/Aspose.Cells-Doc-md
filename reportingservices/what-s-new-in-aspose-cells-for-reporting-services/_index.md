@@ -8,6 +8,14 @@ url: /reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 
 This page describes the most interesting new Aspose.Cells for Reporting Services features introduced in recent releases.
 
+## Aspose.Cells for Reporting Services  22.6
+
+* Improvement for rendering of html.
+
+## Aspose.Cells for Reporting Services  22.5
+
+* Improvement for rendering of XPS and Tiff.	
+
 ## Aspose.Cells for Reporting Services  22.4
 
 * Support to render sql script format.
