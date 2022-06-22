@@ -21,7 +21,7 @@ Aspose.Cells for C++ supports the following 64-bit or 32-bit operating system an
 			<td><ul><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
 		</tr>
   <tr>
-			<td>Linux x86_x64 with GLIBC >= 2.27 and GLIBCXX >= 3.4.22 (GCC >= 6.1.0) </td>
+			<td>Linux</td>
 			<td><ul><li>Ubuntu 18.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
 		</tr>
 </table>
@@ -45,7 +45,7 @@ Aspose.Cells for C++ can be used to develop applications in any development envi
 
 ### Linux
 
-Aspose.Cells for C++ can be used to develop application in the development environment which support [C++14 language standard](https://en.cppreference.com/w/cpp/compiler_support), but the following compilers are explicitly supported:
+Aspose.Cells for C++ can be used to develop application in the development environment which support C++11 or higher, but the following compilers are explicitly supported:
 
 <table>  
 	<tr>
