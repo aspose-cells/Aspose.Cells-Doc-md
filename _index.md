@@ -238,6 +238,8 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Cells for JasperReports Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for JasperReports Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
+{{% alert color="primary" %}}
+
 **![Aspose.Cells for Python via .NET Product Logo](home_8.png)**
 
 **Welcome to Aspose.Cells for Python via .NET**
@@ -256,6 +258,4 @@ The following are the links to some useful resources you may need to accomplish 
 - [Download Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
-
-{{% alert color="primary" %}}
 
