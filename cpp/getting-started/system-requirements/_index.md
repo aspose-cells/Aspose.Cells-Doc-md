@@ -45,7 +45,7 @@ Aspose.Cells for C++ can be used to develop applications in any development envi
 
 ### Linux
 
-Aspose.Cells for C++ can be used to develop application in the development environment which support C++11 or higher, but the following compilers are explicitly supported:
+Aspose.Cells for C++ can be used to develop application in the development environment which support C++11 or higher, but the following compiler and tool are explicitly supported:
 
 <table>  
 	<tr>
