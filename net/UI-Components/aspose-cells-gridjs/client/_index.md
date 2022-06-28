@@ -34,6 +34,7 @@ for example the below code init a x_spreadsheet object.
 			updateUrl:'/GridJs2/UpdateCell',
 			mode: 'edit',
 			showToolbar: true,
+                        local: 'en',
             showContextmenu: true
         }).loadData(sheets)
 ```
@@ -42,6 +43,7 @@ for example the below code init a x_spreadsheet object.
     updateUrl:  set the server side  url for update action based on json
     mode: read means readonly spread sheet/edit means we can edit the spread sheet
     showToolbar:   means whether to show toolbar
+    local:         support multiple language for menus ,the locale can be: en, cn, es, pt, de, ru, nl for english,chinese,Spanish,Portuguese,germany,Russian,Dutch
     showContextmenu:   means whether to show contextmenu on right click on a cell
 ##  
 
@@ -51,6 +53,11 @@ ___
 ```javascript
 xs.reRender()
 ```
+-  Get Selected Image/shape£¬if nothing select will return null
+```javascript
+xs.sheet.selector.getObj()
+```
+
 -  Get the cell object
 ```javascript
 xs.sheet.data.getCell(ri,ci)
