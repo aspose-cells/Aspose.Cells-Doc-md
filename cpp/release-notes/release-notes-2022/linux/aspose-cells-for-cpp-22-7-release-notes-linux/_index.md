@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for CPP 22.7 Release Notes Linux
 type: docs
-weight: 6.9
+weight: 6
 url: /cpp/aspose-cells-for-cpp-22-7-release-notes-linux/
 ---
 
