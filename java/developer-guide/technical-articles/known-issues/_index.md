@@ -1,7 +1,7 @@
 ---
 title: Known Issues
 type: docs
-weight: 30
+weight: 1091
 url: /java/known-issues/
 ---
 
