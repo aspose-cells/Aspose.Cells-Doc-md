@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Java Vs Open Source Competitors
 type: docs
-weight: 10
+weight: 1089
 url: /java/aspose-cells-for-java-vs-open-source-competitors/
 ---
 
