@@ -75,10 +75,9 @@ Applies to: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 and advanced 
 
 ### **[Run Aspose Cells in Docker](/cells/net/how-to-run-aspose-cells-in-docker/)**
 
-### **Turn on the "EnableUnixSupport" switch in non-windows platforms**
-1. For now, Aspose.Cells For .NetStandard rely on "system.drawing.common" graphics library, to implement graphics-related functions. see: [The nuget packages referenced by Aspose.Cells For .NetStandard](/cells/net/system-requirements/#the-nuget-packages-referenced-by-asposecells-for-net-standard)
-2. If you use .Net6 for development in non-windows platforms, please turn on the [runtime config switch](https://docs.microsoft.com/zh-cn/dotnet/core/runtime-config/) "EnableUnixSupport" to support the drawing feature.
-3. For more information please refer to [Microsoft's official statement](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md).
+### **How to use graphics library on non-windows platforms in Net6**
+Please turn on the [runtime config switch](https://docs.microsoft.com/dotnet/core/runtime-config/) "EnableUnixSupport" to support the drawing feature if you are using .Net6 on non-windows platforms.
+For more information please refer to [Microsoft's official statement](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md).
 
 Note: Aspose.Cells Team is working on the Graphics Library migration, and will use SkiaSharp to complete the migration in the future, as recommended in official statement of Microsoft.
 
