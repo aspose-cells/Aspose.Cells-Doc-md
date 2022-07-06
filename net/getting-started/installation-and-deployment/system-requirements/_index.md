@@ -47,6 +47,10 @@ Aspose.Cells for .NET supports .NET and Mono frameworks as follows:
 - .NET Standard 2.0 (.NET Core 2.1/3.1).
 - .NET 5.0
 - .NET 6.0
+#### **The nuget packages referenced by Aspose.Cells For .NET Standard**
+- System.Drawing.Common, 4.7.0.
+- System.Text.Encoding.CodePages, 4.7.0.
+- System.Security.Cryptography.Pkcs, 6.0.1.
 ### **Mono Framework**
 - Mono 1.2 or newer.
 ## **Development Environments**
