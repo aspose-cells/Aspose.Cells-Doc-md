@@ -16,7 +16,7 @@ Aspose.Cells for Python via .NET is platform-independent API and can be used on
 - Python 3.7 or higher
 
 ## **Installing:**
-### **Windows: **
+### **Windows:**
 You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/) with the following command.
 {{< highlight NET >}}
 
@@ -40,7 +40,7 @@ workbook.save("output.xlsx")
 
 - Now save the code above to "HelloWorld.py" and run "python HelloWorld.py" @command prompt to test it.
 
-### **Linux: **
+### **Linux:**
 You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/) with the following command.
 {{< highlight NET >}}
 
