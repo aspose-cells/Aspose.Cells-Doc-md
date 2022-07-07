@@ -1,7 +1,8 @@
 ---
 title: Setup Environment and Installation Guidelines
+linktitle: Getting Started
 type: docs
-weight: 20
+weight: 4
 url: /python-net/setup-environment-and-installation-guidelines/
 aliases: [/aspose-cells-for-python-via-net-system-requirements/, /pythonnet/system-requirements/]
 keywords: "python, excel, install"
@@ -14,8 +15,8 @@ Aspose.Cells for Python via .NET is platform-independent API and can be used on
 ## **Python Version**
 - Python 3.7 or higher
 
-## **Windows:**
-### **Install Aspose.Cells for Python via .NET from pypi**
+## **Installing:**
+### **Windows: **
 You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/) with the following command.
 {{< highlight NET >}}
 
@@ -23,8 +24,8 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 
 {{< /highlight >}}
 
-### **Test Aspose.Cells for Python via .NET**
-- Create a file named **example.py** and use the following sample code:
+### **Run Aspose.Cells for Python via .NET in Windows**
+- Create or pull a file named [HelloWorld.py](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Example) ,you can also use the following sample code:
 
 {{< highlight NET >}}
 
@@ -37,10 +38,9 @@ workbook.save("output.xlsx")
 
 {{< /highlight >}}
 
-- Now run "python example.py" @command prompt to run it.
+- Now save the code above to "HelloWorld.py" and run "python HelloWorld.py" @command prompt to test it.
 
-## **Linux:**
-### **Install Aspose.Cells for Python via .NET from pypi**
+### **Linux: **
 You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org/project/aspose-cells-python/) with the following command.
 {{< highlight NET >}}
 
@@ -48,8 +48,8 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 
 {{< /highlight >}}
 
-### **Test Aspose.Cells for Python via .NET**
-- Create a file named **example.py** and use the following sample code:
+### **Run Aspose.Cells for Python via .NET in Linux**
+- Create or pull a file named [HelloWorld.py](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Example) ,you can also use the following sample code:
 
 {{< highlight NET >}}
 
@@ -62,6 +62,6 @@ workbook.save("output.xlsx")
 
 {{< /highlight >}}
 
-- Now run "python example.py" @command prompt to run it.
+- Now save the code above to "HelloWorld.py" and run "python HelloWorld.py" @command prompt.
 
 

@@ -14,7 +14,7 @@ This page summarizes Aspose.Cells for Python via .NET features.
 
 {{% /alert %}} 
 ## **File Formats and Conversions**
-- XLS, SpreadsheetML (XLSX, XML), Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT)
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
 ## **Rendering and Printing**
 - Render spreadsheet to vector images (EMF)
 - Render worksheets to raster images (Multipage TIFF, GIF)
