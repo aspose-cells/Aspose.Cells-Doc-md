@@ -4,13 +4,13 @@ type: docs
 weight: 250
 url: /net/aspose-cells-gridjs/custommenu/
 description: This article describes how to configure context menus for GridJs.
-keywords: custom menu, context menu
+keywords: custom menu items, context menu
 ---
 
 # Custom context menus
-We have some build in context menus ,for example insert/delete row/column and so on
-However if user want to custom context menus.
-We support set context menus in load options.
+We have some build in context menu items ,for example insert/delete row/column and so on
+However if user want to custom context menu items.
+We support set context menu items in load options.
 for example:
 ```javascript
         const onMyActionClick1 = (sheet) => {
@@ -35,15 +35,15 @@ for example:
             })
 ```
 
-We support the below JS APIs for custom context menus at runtime
+We support the below JS APIs for custom context menu items at runtime
 
 
--  get custom context menus
+-  get custom context menu items
 ```javascript
 xs.sheet.getCutomContextMenuItems()
 ```
 
--  add custom context menus
+-  add custom context menu items
 ```javascript
 xs.sheet.addCutomContextMenuItems(itemsarray)
  // the parameter is:
@@ -51,7 +51,7 @@ xs.sheet.addCutomContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
 ```
 
--  delete custom context menus
+-  delete custom context menu items
 ```javascript
  xs.sheet.delCutomContextMenuItems(keysarray)()
  // the parameter is:

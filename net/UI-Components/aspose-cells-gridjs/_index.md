@@ -16,4 +16,4 @@ url: /net/aspose-cells-gridjs/
 - [Working  with custom calculation engine](/cells/net/aspose-cells-gridjs/customcalculation/)
 - [Working  with GridJs in mobile](/cells/net/aspose-cells-gridjs/mobile/)
 - [Settings for GridJs](/cells/net/aspose-cells-gridjs/settings/)
-- [Settings for GridJs](/cells/net/aspose-cells-gridjs/custommenu/)
+- [Custom context menu](/cells/net/aspose-cells-gridjs/custommenu/)
