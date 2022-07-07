@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.7
+
+* Support to export html to a single file with page header/footer
+* Support to get absolute position and size of Range(in points)
+
 ## Aspose.Cells for .NET 22.6
 
 * Improvement for calculating and tracing formulas with formula calculation chain
