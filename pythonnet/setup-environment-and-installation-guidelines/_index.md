@@ -24,7 +24,7 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 
 {{< /highlight >}}
 
-### **Run Aspose.Cells for Python via .NET in Windows**
+Run Aspose.Cells for Python via .NET in Windows
 - Create or pull a file named [HelloWorld.py](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Example) ,you can also use the following sample code:
 
 {{< highlight NET >}}
@@ -48,7 +48,7 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
 
 {{< /highlight >}}
 
-### **Run Aspose.Cells for Python via .NET in Linux**
+Run Aspose.Cells for Python via .NET in Linux
 - Create or pull a file named [HelloWorld.py](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Example) ,you can also use the following sample code:
 
 {{< highlight NET >}}
