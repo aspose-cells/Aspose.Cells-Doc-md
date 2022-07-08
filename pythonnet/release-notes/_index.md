@@ -1,7 +1,7 @@
 ---
 title: Release Notes
 type: docs
-weight: 90
+weight: 20
 url: /python-net/release-notes/
 ---
 
