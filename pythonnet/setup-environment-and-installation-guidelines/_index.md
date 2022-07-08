@@ -13,7 +13,7 @@ description: Setup Aspose.Cells for Python via .NET and installation guidelines.
 Aspose.Cells for Python via .NET is platform-independent API and can be used on any platform (Windows and Linux) where [Python](https://www.python.org/downloads/) is installed. 
 
 ## **Python Version**
-- Python 3.7 or higher
+- Python 3.6 or higher
 
 ## **Installing**
 ### **Windows:**

@@ -7,6 +7,7 @@ url: /python-net/aspose-cells-for-python-net-22-7-release-notes/
 
 {{% alert color="primary" %}} 
 
+This is the first version for Aspose.Cells for Python via .NET.
 This page contains release notes for Aspose.Cells for Python via .NET 22.7.
 
 {{% /alert %}} 
