@@ -1,8 +1,8 @@
 ---
-title: Release Notes - 2019
+title: Release Notes - 2022
 type: docs
-weight: 20
-url: /python-java/release-notes/2019/
+weight: 8
+url: /python-net/release-notes/2022/
 ---
 
 
