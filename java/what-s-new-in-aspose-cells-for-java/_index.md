@@ -9,6 +9,12 @@ aliases: [/java/whats-new/]
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 22.7
+
+* Support to read OOXML format template files which contains abnormal zip data and cannot be processed by java's ZipInputStream
+* Support to export html to a single file with page header/footer
+* Support to get absolute position and size of Range(in points)
+
 ## Aspose.Cells for Java 22.6
 
 * Improvement for calculating and tracing formulas with formula calculation chain
