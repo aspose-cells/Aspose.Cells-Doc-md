@@ -7,7 +7,7 @@ url: /phpjava/aspose-cells-for-php-via-java-22-7-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for PHP via Java 22.7](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.7/).
+This page contains release notes for [Aspose.Cells for PHP via Java 22.7](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.7/).
 
 {{% /alert %}}
 
