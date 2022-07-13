@@ -7,11 +7,11 @@ url: /java/evaluate-aspose-cells/
 
 {{% alert color="primary" %}}
 
-You can easily download Aspose.Cells for evaluation from the [download page](https://repository.aspose.com/repo/com/aspose/aspose-cells/). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
+You can easily download Aspose.Cells for evaluation from the [download page](https://repository.aspose.com/repo/com/aspose/aspose-cells/). The evaluation download is the same as the download for the full version: the evaluation becomes licensed when you apply a license.
 
 {{% /alert %}}
 
-Evaluation version of Aspose.Cells (without a license specified) provides product functionality to some extent not complete though. One limitation is that it always injects an extra worksheet with evaluation watermark on open / save any spreadsheet document.
+The evaluation version of Aspose.Cells (that is, Aspose.Cells without a license applied) provides most of the product functionality. One limitation is that it always injects an extra worksheet with evaluation watermark on open / save any spreadsheet document.
 
 ![todo:image_alt_text](evaluate-aspose-cells_1.png)
 

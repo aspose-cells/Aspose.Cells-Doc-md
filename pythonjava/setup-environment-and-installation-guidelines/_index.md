@@ -1,7 +1,8 @@
 ---
 title: Setup Environment and Installation Guidelines
+linktitle: Getting Started
 type: docs
-weight: 20
+weight: 4
 url: /python-java/setup-environment-and-installation-guidelines/
 aliases: [/java/aspose-cells-for-python-via-java-system-requirements/, /pythonjava/system-requirements/]
 keywords: "python, excel, install"
