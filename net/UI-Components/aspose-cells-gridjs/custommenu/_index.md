@@ -40,12 +40,12 @@ We support the below JS APIs for custom context menu items at runtime
 
 -  get custom context menu items
 ```javascript
-xs.sheet.getCutomContextMenuItems()
+xs.sheet.getCustomContextMenuItems()
 ```
 
 -  add custom context menu items
 ```javascript
-xs.sheet.addCutomContextMenuItems(itemsarray)
+xs.sheet.addCustomContextMenuItems(itemsarray)
  // the parameter is:
  itemsarray: the array of custom menu items,the callback function x parameter will be the js variable of xs.sheet
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
@@ -53,9 +53,27 @@ xs.sheet.addCutomContextMenuItems(itemsarray)
 
 -  delete custom context menu items
 ```javascript
- xs.sheet.delCutomContextMenuItems(keysarray)()
+ xs.sheet.delCustomContextMenuItems(keysarray)()
  // the parameter is:
  keysarray: the array of the keys of the menu items
  for example: ['key4','key3']
+```
+
+-  insert custom context menu item at specified postion
+```javascript
+xs.sheet.insertCustomContextMenuItem(item,postion)
+ // the parameter is:
+ item: the custom menu item,the callback function x parameter will be the js variable of xs.sheet
+ for example: {'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}} 
+ postion:the postion for the inserted item in the items array
+```
+
+-  update custom context menu item by the key
+```javascript
+xs.sheet.updateCustomContextMenuItem(key,item)
+ // the parameter is:
+ item: the updated properties that with text or callback
+ for example: {'text':'menu updated'}
+ key:the key of the menu item
 ```
  
