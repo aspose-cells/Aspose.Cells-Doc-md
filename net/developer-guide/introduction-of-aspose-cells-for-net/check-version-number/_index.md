@@ -7,9 +7,9 @@ url: /net/check-version-number/
 
 {{% alert color="primary" %}}
 
-Wonder which version of Aspose.Cells you are using? We publish new versions of Aspose.Cells, both to introduce new features and to fix issues, on a regular basis. The version number consists of major and minor version numbers, build and revision number. The major and minor version numbers are required; the build and revision versions are optional. Each number must be an integer from 0 up. The format is as follows (optional components are shown in square brackets ('[' and ']'):
+Wonder which version of Aspose.Cells you are using? We publish new versions of Aspose.Cells, both to introduce new features and to fix issues, on a regular basis. The version number consists of major version number, minor version number, and hotfix version number. Each number must be an integer from 0 up. The format is as follows:
 
-major.minor[.build[.revision]]
+major.minor.hotfix
 
 When we release a new build of Aspose.Cells, we update the version number.
 
