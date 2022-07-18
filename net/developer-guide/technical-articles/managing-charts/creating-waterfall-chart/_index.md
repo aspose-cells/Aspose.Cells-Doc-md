@@ -13,7 +13,7 @@ A waterfall chart is a special type of chart that is normally used to demonstrat
 
 {{% /alert %}} 
 
-Aspose.Cells APIs allows to create a waterfall chart with the help of line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.UpBars**](https://apireference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Series.DownBars**](https://apireference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars) properties.
+Aspose.Cells APIs allows to create a waterfall chart with the help of line chart. The API also allows customizing the chart appearance to give it the shape of the waterfall by setting the [**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Series.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars) properties.
 
 Below provided code snippet demonstrates the usage of Aspose.Cells for .NET API to create a waterfall chart from scratch.
 

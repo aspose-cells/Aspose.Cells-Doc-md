@@ -20,7 +20,7 @@ In Microsoft Excel (for example 2007):
 
 ## **Using Aspose.Cells for .NET**
 
-Aspose.Cells for .NET supports adding a linked image using the [**ShapeCollection.AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, string sourceFullName)**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture). The method returns a [**Picture**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picture) object.
+Aspose.Cells for .NET supports adding a linked image using the [**ShapeCollection.AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, string sourceFullName)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture). The method returns a [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) object.
 
 The following example shows how to add linked picture from web address to a worksheet.
 

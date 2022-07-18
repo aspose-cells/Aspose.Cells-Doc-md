@@ -7,7 +7,7 @@ url: /net/generate-chart-by-processing-smart-markers/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells APIs provide the [**WorkbookDesigner**](https://apireference.aspose.com/cells/net/aspose.cells/workbookdesigner) class to work with Smart Markers where the formatting & formulas are placed in the designer spreadsheets and then processed with [**WorkbookDesigner**](https://apireference.aspose.com/cells/net/aspose.cells/workbookdesigner) class to fill up the data according to specified Smart Markers. It is also possible to create Excel charts by processing Smart Markers, which will require the following steps.
+Aspose.Cells APIs provide the [**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) class to work with Smart Markers where the formatting & formulas are placed in the designer spreadsheets and then processed with [**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) class to fill up the data according to specified Smart Markers. It is also possible to create Excel charts by processing Smart Markers, which will require the following steps.
 
 - Creation of designer spreadsheet
 - Processing designer spreadsheet against the specified data source
@@ -37,12 +37,12 @@ The processing of Smart Markers is quite simple as demonstrated by the following
 
 {{% alert color="primary" %}}
 
-The above code snippet uses the existing instance of the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class created in the first step. If you already have the designer spreadsheet file on disk or memory, you can create an instance of [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class by loading the existing designer spreadsheet.
+The above code snippet uses the existing instance of the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class created in the first step. If you already have the designer spreadsheet file on disk or memory, you can create an instance of [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class by loading the existing designer spreadsheet.
 
 {{% /alert %}}
 
 ## Creation of Chart
 
-Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the [**Chart.SetChartDataRange**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) method so that we do not have to configure the chart further.
+Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) method so that we do not have to configure the chart further.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}

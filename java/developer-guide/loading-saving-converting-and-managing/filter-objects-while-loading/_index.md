@@ -6,38 +6,38 @@ url: /java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 
 ## **Possible Usage Scenarios**
-Please use [LoadOptions.LoadFilter](https://apireference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override [LoadFilter.startSheet](https://apireference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\)) method. Please provide the appropriate value from the [LoadDataFilterOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumeration while creating or working with [LoadFilter](https://apireference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+Please use [LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) property while filtering data from the workbook. But if you want to filter data from individual worksheets, then you will have to override [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\)) method. Please provide the appropriate value from the [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumeration while creating or working with [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
-The [LoadDataFilterOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumeration has the following values.
+The [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumeration has the following values.
 
-- [NONE](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
-- [ALL](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
-- [CELL_BLANK](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
-- [CELL_STRING](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
-- [CELL_NUMERIC](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
-- [CELL_ERROR](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_ERROR)
-- [CELL_BOOL](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BOOL)
-- [CELL_VALUE](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_VALUE)
-- [FORMULA](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#FORMULA)
-- [CELL_DATA](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
-- [CHART](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
-- [SHAPE](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
-- [MERGED_AREA](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
-- [CONDITIONAL_FORMATTING](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
-- [DATA_VALIDATION](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
-- [PIVOT_TABLE](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
-- [TABLE](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
-- [HYPERLINKS](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
-- [SHEET_SETTINGS](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
-- [SHEET_DATA](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
-- [BOOK_SETTINGS](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK_SETTINGS)
-- [SETTINGS](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
-- [XML_MAP](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
-- [STRUCTURE](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STRUCTURE)
-- [DOCUMENT_PROPERTIES](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
-- [DEFINED_NAMES](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)
-- [VBA](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
-- [STYLE](https://apireference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
+- [NONE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
+- [ALL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
+- [CELL_BLANK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
+- [CELL_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
+- [CELL_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
+- [CELL_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_ERROR)
+- [CELL_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BOOL)
+- [CELL_VALUE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_VALUE)
+- [FORMULA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#FORMULA)
+- [CELL_DATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
+- [CHART](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
+- [SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
+- [MERGED_AREA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
+- [CONDITIONAL_FORMATTING](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
+- [DATA_VALIDATION](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
+- [PIVOT_TABLE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
+- [TABLE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
+- [HYPERLINKS](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
+- [SHEET_SETTINGS](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
+- [SHEET_DATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
+- [BOOK_SETTINGS](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK_SETTINGS)
+- [SETTINGS](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
+- [XML_MAP](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
+- [STRUCTURE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STRUCTURE)
+- [DOCUMENT_PROPERTIES](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
+- [DEFINED_NAMES](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)
+- [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
+- [STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Filter Objects while Loading Workbook**
 The following sample code illustrates how to filter charts from the workbook. Please check the [sample excel file](5472489.xlsx) used in this code and the [output PDF](5472488.pdf) generated by it. As you can see in the output PDF, all charts have been filtered out of the workbook.
 

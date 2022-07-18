@@ -37,8 +37,8 @@ The table features are no longer available after the table has been converted to
 
 ## **Convert Table to Range with Options**
 
-Aspose.Cells provides additional options while converting Table to Range through the [**TableToRangeOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class. The [**TableToRangeOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class provides [**LastRow**](https://apireference.aspose.com/cells/java/com.aspose.cells/tabletorangeoptions#LastRow) property which allows you to set the last index of the table row. The table formatting will be retained up to the specified row index and the rest of the formatting will be removed.
+Aspose.Cells provides additional options while converting Table to Range through the [**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class. The [**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class provides [**LastRow**](https://reference.aspose.com/cells/java/com.aspose.cells/tabletorangeoptions#LastRow) property which allows you to set the last index of the table row. The table formatting will be retained up to the specified row index and the rest of the formatting will be removed.
 
-The sample code given below demonstrates the use of [**TableToRangeOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class.
+The sample code given below demonstrates the use of [**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions) class.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ConvertTableToRangeWithOptions-1.java" >}}

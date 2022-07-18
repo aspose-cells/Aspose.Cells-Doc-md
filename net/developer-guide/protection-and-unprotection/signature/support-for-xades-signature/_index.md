@@ -5,9 +5,9 @@ weight: 110
 url: /net/support-for-xades-signature/
 ---
 
-Aspose.Cells provides supports signing workbooks with XAdES Signature. For this, the API provides [**DigitalSignature**](https://apireference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature) class and [**XAdESType**](https://apireference.aspose.com/cells/net/aspose.cells.digitalsignatures/xadestype) enumeration.
+Aspose.Cells provides supports signing workbooks with XAdES Signature. For this, the API provides [**DigitalSignature**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature) class and [**XAdESType**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/xadestype) enumeration.
 
-The following code snippet demonstrates the use of the [**DigitalSignature**](https://apireference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature) class to sign the [source](101089323.xlsx) workbook.
+The following code snippet demonstrates the use of the [**DigitalSignature**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature) class to sign the [source](101089323.xlsx) workbook.
 
 ## **Sample Code**
 

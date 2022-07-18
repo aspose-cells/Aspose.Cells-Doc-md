@@ -7,11 +7,11 @@ url: /java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 
 ## **Possible Usage Scenarios**
 
-Sometimes, you need to know the width and height of paper size as it has been set in page setup of the worksheet. Please use the [**PageSetup.PaperWidth**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) and [**PageSetup.PaperHeight**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) properties for this purpose.
+Sometimes, you need to know the width and height of paper size as it has been set in page setup of the worksheet. Please use the [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) and [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) properties for this purpose.
 
 ## **Get Paper Width and Height from PageSetup of Worksheet**
 
-The following sample code explains the usage of [**PageSetup.PaperWidth**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) and [**PageSetup.PaperHeight**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) properties. It first changes the paper size to A2 and then finds the width and height of the paper, then it changes it to A3, A4, Letter and finds the width and height of paper respectively.
+The following sample code explains the usage of [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) and [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) properties. It first changes the paper size to A2 and then finds the width and height of the paper, then it changes it to A3, A4, Letter and finds the width and height of paper respectively.
 
 ## **Sample Code**
 

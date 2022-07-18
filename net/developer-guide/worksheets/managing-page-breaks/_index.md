@@ -20,17 +20,17 @@ In the rest of the discussion, we will describe how can you add horizontal or ve
 
 ## **Page Breaks**
 
-Aspose.Cells provides a [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class that represents an Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class that represents an Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods used to manage a worksheet.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a wide range of properties and methods used to manage a worksheet.
 
-To add the page breaks, use the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class' [**HorizontalPageBreaks**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) and [**VerticalPageBreaks**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks) properties.
+To add the page breaks, use the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class' [**HorizontalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) and [**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks) properties.
 
-The [**HorizontalPageBreaks**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) and [**VerticalPageBreaks**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks) properties are collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks.
+The [**HorizontalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) and [**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks) properties are collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks.
 
 ### **Adding Page Breaks**
 
-To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the [**HorizontalPageBreakCollection.Add()**](https://apireference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) and [**VerticalPageBreakCollection.Add()**](https://apireference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) methods. Each **Add** method takes the name of the cell where the break should be added.
+To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the [**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) and [**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) methods. Each **Add** method takes the name of the cell where the break should be added.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 
@@ -42,16 +42,16 @@ In page break preview or print preview modes, you can see how these page breaks 
 
 ### **Clearing All Page Breaks**
 
-To clear all page breaks in a worksheet, call the [**HorizontalPageBreakCollection**](https://apireference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) and [**VerticalPageBreakCollection**](https://apireference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) collections' [**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear) methods.
+To clear all page breaks in a worksheet, call the [**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) and [**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) collections' [**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear) methods.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 
 ### **Removing Specific Page Break**
 
-To remove a specific page break, call the [**HorizontalPageBreakCollection.RemoveAt()**](https://apireference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) and [**VerticalPageBreakCollection.RemoveAt()**](https://apireference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) methods. Each **RemoveAt** method takes the index of the page break about to be removed.
+To remove a specific page break, call the [**HorizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) and [**VerticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) methods. Each **RemoveAt** method takes the index of the page break about to be removed.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
 
 ## **Important to know**
 
-When you set **FitToPages** properties (that is [**FitToPagesTall**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) and [**FitToPagesWide**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.
+When you set **FitToPages** properties (that is [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) and [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.

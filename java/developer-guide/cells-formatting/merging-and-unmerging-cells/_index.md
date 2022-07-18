@@ -35,7 +35,7 @@ The following steps describe how to merge cells in the worksheet using Microsoft
 
 ### **Using Aspose.Cells**
 
-The [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) class has some useful methods for the task. For example, the method [**merge()**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) merges the cells into a single cell within a specified range of the cells.
+The [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class has some useful methods for the task. For example, the method [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) merges the cells into a single cell within a specified range of the cells.
 
 The following output is generated after executing the code below.
 
@@ -61,7 +61,7 @@ The following steps describe how to split merged cells using Microsoft Excel.
 
 #### **Using Aspose.Cells**
 
-The [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) class has a method named [**unMerge()**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) that splits cells into their original state. The method unmerges the cells using the cell's reference in the merged cell range.
+The [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class has a method named [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) that splits cells into their original state. The method unmerges the cells using the cell's reference in the merged cell range.
 
 #### **Code Example**
 

@@ -21,10 +21,10 @@ Please see the following sample code that describes how to perform the task usin
 
 {{% alert color="primary" %}}
 
-Using the [**PdfSaveOptions.setImageResample**](https://apireference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) option minimizes the size of the output PDF but it may affect the image quality a bit.
+Using the [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) option minimizes the size of the output PDF but it may affect the image quality a bit.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

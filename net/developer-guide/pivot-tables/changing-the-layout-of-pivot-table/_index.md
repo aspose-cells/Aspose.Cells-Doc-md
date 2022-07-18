@@ -13,7 +13,7 @@ Microsoft Excel allows you to change the Layout of Pivot Table using *PivotTable
 - Show in Outline Form
 - Show in Tabular Form
 
-Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showincompactform), [**PivotTable.ShowInOutlineForm()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showinoutlineform) and [**PivotTable.ShowInTabularForm()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showintabularform) methods to change the layout of pivot table in these three forms.
+Aspose.Cells also provides [**PivotTable.ShowInCompactForm()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showincompactform), [**PivotTable.ShowInOutlineForm()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showinoutlineform) and [**PivotTable.ShowInTabularForm()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showintabularform) methods to change the layout of pivot table in these three forms.
 
 {{% /alert %}}
 

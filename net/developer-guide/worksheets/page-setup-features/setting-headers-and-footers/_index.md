@@ -36,7 +36,7 @@ Script commands are special commands that allow you to set header and footer for
 
 ### **Set Headers and Footers**
 
-The [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class provides two methods, [**SetHeader**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheader) and [**SetFooter**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooter), used to add a header and footer to a worksheet. These methods take only two parameters:
+The [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class provides two methods, [**SetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheader) and [**SetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooter), used to add a header and footer to a worksheet. These methods take only two parameters:
 
 - **Section** – the section where the header or footer should be placed. There are three sections: left, center and right, represented by 0, 1 and 2 respectively.
 - **Script** – the script to be used for the header or footer. This script contains script commands to format headers or footers.
@@ -45,7 +45,7 @@ The [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pages
 
 ### **Insert an Image into a Header or Footer**
 
-The [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class has two additional methods, [**SetHeaderPicture**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheaderpicture) and [**SetFooterPicture**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooterpicture), used to add pictures into the header and footer. These methods take the parameters:
+The [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class has two additional methods, [**SetHeaderPicture**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheaderpicture) and [**SetFooterPicture**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooterpicture), used to add pictures into the header and footer. These methods take the parameters:
 
 - **Section** – the header or footer section where the picture will be placed. There are three sections, left, center and right, represented by the values 0, 1 and 2 respectively.
 - **Byte array** – the graphical data (the binary data should be written into the buffer of a byte array).

@@ -7,7 +7,7 @@ url: /java/link-cells-to-xml-map-elements/
 
 ## **Possible Usage Scenarios**
 
-You can link your cells to XML Map elements using Aspose.Cells. Please use the [**Cells.LinkToXmlMap()**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) method for this purpose.
+You can link your cells to XML Map elements using Aspose.Cells. Please use the [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) method for this purpose.
 
 ## **Link Cells to XML Map Elements**
 

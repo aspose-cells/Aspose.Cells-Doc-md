@@ -7,9 +7,9 @@ url: /net/format-pivot-table-cells/
 
 {{% alert color="primary" %}}
 
-Sometimes, you want to format pivot table cells. For example, you want to apply background color to pivot table cells. Aspose.Cells provides two methods [**PivotTable.FormatAll()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) and [**PivotTable.Format()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format), which you can use for this purpose.
+Sometimes, you want to format pivot table cells. For example, you want to apply background color to pivot table cells. Aspose.Cells provides two methods [**PivotTable.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) and [**PivotTable.Format()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format), which you can use for this purpose.
 
-[**PivotTable.FormatAll()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) applies the style to entire pivot table while [**PivotTable.Format()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) applies the style to a single cell of the pivot table.
+[**PivotTable.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) applies the style to entire pivot table while [**PivotTable.Format()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) applies the style to a single cell of the pivot table.
 
 {{% /alert %}}
 

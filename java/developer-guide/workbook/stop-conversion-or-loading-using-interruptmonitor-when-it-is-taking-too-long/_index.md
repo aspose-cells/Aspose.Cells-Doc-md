@@ -7,11 +7,11 @@ url: /java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-t
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells allows you to stop conversion of Workbook to various formats like PDF, HTML, etc. using the [**InterruptMonitor**](https://apireference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://apireference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) both for stopping conversion as well as to stop loading huge workbook. Please use [**Workbook.InterruptMonitor**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor) property for stopping conversion and [**LoadOptions.InterruptMonitor**](https://apireference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor) property for loading huge workbook.
+Aspose.Cells allows you to stop conversion of Workbook to various formats like PDF, HTML, etc. using the [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) both for stopping conversion as well as to stop loading huge workbook. Please use [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor) property for stopping conversion and [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor) property for loading huge workbook.
 
 ## **Stop conversion or loading using InterruptMonitor when it is taking too long**
 
-The following sample code explains the usage of [**InterruptMonitor**](https://apireference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) object. The code converts quite a large Excel file to PDF. It will take several seconds (i.e. *more than 30 seconds*) to get it converted because of these lines of code.
+The following sample code explains the usage of [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) object. The code converts quite a large Excel file to PDF. It will take several seconds (i.e. *more than 30 seconds*) to get it converted because of these lines of code.
 
 {{< highlight java >}}
 

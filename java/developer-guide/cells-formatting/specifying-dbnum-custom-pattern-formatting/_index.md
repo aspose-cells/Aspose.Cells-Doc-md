@@ -7,7 +7,7 @@ url: /java/specifying-dbnum-custom-pattern-formatting/
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells supports the *DBNum* custom pattern formatting. For example, if your cell value is 123 and you specify its custom formatting as [DBNum2][$-804]General then it will be displayed like 壹佰贰拾叁. You can specify your custom formatting of the cell using [**Cell.getStyle()**](https://apireference.aspose.com/cells/java/com.aspose.cells/cell#getStyle()) and [**Style.setCustom()**](https://apireference.aspose.com/cells/java/com.aspose.cells/style#Custom) methods.
+Aspose.Cells supports the *DBNum* custom pattern formatting. For example, if your cell value is 123 and you specify its custom formatting as [DBNum2][$-804]General then it will be displayed like 壹佰贰拾叁. You can specify your custom formatting of the cell using [**Cell.getStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle()) and [**Style.setCustom()**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) methods.
 
 ## **Sample Code**
 

@@ -16,7 +16,7 @@ Aspose.Cells provides the same functionality as Microsoft Excel for adding workb
 
 {{% /alert %}}
 
-The following code samples show how to create workbook and worksheet scoped name ranges by using the [**Range**](https://apireference.aspose.com/cells/java/com.aspose.cells/Range) class.
+The following code samples show how to create workbook and worksheet scoped name ranges by using the [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) class.
 
 ## **Adding a Named Range with Workbook Scope**
 

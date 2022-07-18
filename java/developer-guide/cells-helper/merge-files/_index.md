@@ -7,7 +7,7 @@ url: /java/merge-files/
 
 ## **Introduction**
 
-Aspose.Cells provides different ways for merging files. For simple files with data, formatting, and formulas, the [**Workbook.combine()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) method can be used to combine several workbooks, and the [**Worksheet.copy(**)](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) method can be used to copy worksheets into a new workbook. These methods are easy to use and effective, but if you have a lot of files to merge, you might find that they take a lot of system resources. To avoid this, use the CellsHelper.mergeFiles static method, a more efficient way to merge several files.
+Aspose.Cells provides different ways for merging files. For simple files with data, formatting, and formulas, the [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) method can be used to combine several workbooks, and the [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) method can be used to copy worksheets into a new workbook. These methods are easy to use and effective, but if you have a lot of files to merge, you might find that they take a lot of system resources. To avoid this, use the CellsHelper.mergeFiles static method, a more efficient way to merge several files.
 
 ## **Merge Files Using Aspose.Cells**
 

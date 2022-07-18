@@ -24,19 +24,19 @@ These print options allow users to:
 - Print cell errors.
 - Define page ordering.
 
-Aspose.Cells supports all the print options offered by Microsoft Excel and developers can easily configure these options for worksheets using the properties offered by the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class. How these properties are used is discussed below in more detail.
+Aspose.Cells supports all the print options offered by Microsoft Excel and developers can easily configure these options for worksheets using the properties offered by the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class. How these properties are used is discussed below in more detail.
 
 ### **Set Print Area**
 
 By default, the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
 
-To select a specific print area, use the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintArea**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea) property. Assign a cell range that defines the print area to this property.
+To select a specific print area, use the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintArea**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea) property. Assign a cell range that defines the print area to this property.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 
 ### **Set Print Titles**
 
-Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintTitleColumns**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) and [**PrintTitleRows**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows) properties.
+Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) and [**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows) properties.
 
 The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.
 
@@ -44,18 +44,18 @@ The rows or columns that will be repeated are defined by passing their row or co
 
 ### **Set Other Print Options**
 
-The [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class also provides several other properties to set general print options as follows:
+The [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class also provides several other properties to set general print options as follows:
 
-- [**PrintGridlines**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines): a Boolean property that defines whether to print gridlines or not print.
-- [**PrintHeadings**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): a Boolean property that defines whether to print row and column headings or not.
-- [**BlackAndWhite**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): a Boolean property that defines whether to print the worksheet in black and white mode or not.
-- [**PrintComments**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): defines whether to display the print comments on the worksheet or at the end of the worksheet.
-- [**PrintDraft**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): a boolean property that defines whether to print the sheet without graphics..
-- [**PrintErrors**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): defines whether to print cell errors as displayed, blank, dash or N/A.
+- [**PrintGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines): a Boolean property that defines whether to print gridlines or not print.
+- [**PrintHeadings**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): a Boolean property that defines whether to print row and column headings or not.
+- [**BlackAndWhite**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): a Boolean property that defines whether to print the worksheet in black and white mode or not.
+- [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): defines whether to display the print comments on the worksheet or at the end of the worksheet.
+- [**PrintDraft**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): a boolean property that defines whether to print the sheet without graphics..
+- [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): defines whether to print cell errors as displayed, blank, dash or N/A.
 
-To set the [**PrintComments**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) and [**PrintErrors**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors) properties, Aspose.Cells also provides two enumerations, [**PrintCommentsType**](https://apireference.aspose.com/cells/net/aspose.cells/printcommentstype) , and [**PrintErrorsType**](https://apireference.aspose.com/cells/net/aspose.cells/printerrorstype) that contain pre-defined values to be assigned to the [**PrintComments**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) and [**PrintErrors**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors) properties respectively.
+To set the [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) and [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors) properties, Aspose.Cells also provides two enumerations, [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) , and [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) that contain pre-defined values to be assigned to the [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) and [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors) properties respectively.
 
-The pre-defined values in the [**PrintCommentsType**](https://apireference.aspose.com/cells/net/aspose.cells/printcommentstype) enumeration are listed below with their descriptions.
+The pre-defined values in the [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) enumeration are listed below with their descriptions.
 
 |**Print Comments Types**|**Description**|
 | :- | :- |
@@ -63,7 +63,7 @@ The pre-defined values in the [**PrintCommentsType**](https://apireference.aspos
 |PrintNoComments|Specifies not to print comments.|
 |PrintSheetEnd|Specifies to print comments at the end of the worksheet.|
 
-The pre-defined values of [**PrintErrorsType**](https://apireference.aspose.com/cells/net/aspose.cells/printerrorstype) enumeration are listed below with their descriptions.
+The pre-defined values of [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) enumeration are listed below with their descriptions.
 
 
 
@@ -78,14 +78,14 @@ The pre-defined values of [**PrintErrorsType**](https://apireference.aspose.com/
 
 ### **Set Page Order**
 
-The [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class provides the [**Order**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows.
+The [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class provides the [**Order**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order) property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows.
 
 - **Down then over:** prints all the pages down before printing any pages to the right.
 - **Over then down:** prints pages left to right before printing the pages below.
 
-Aspose.Cells provides an enumeration, [**PrintOrderType**](https://apireference.aspose.com/cells/net/aspose.cells/printordertype) that contains all pre-defined order types.
+Aspose.Cells provides an enumeration, [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype) that contains all pre-defined order types.
 
-The pre-defined values of the [**PrintOrderType**](https://apireference.aspose.com/cells/net/aspose.cells/printordertype) enumeration are listed below.
+The pre-defined values of the [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype) enumeration are listed below.
 
 |**Print Order Types**|**Description**|
 | :- | :- |

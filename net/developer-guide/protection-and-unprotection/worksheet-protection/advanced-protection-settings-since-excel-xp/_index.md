@@ -41,9 +41,9 @@ Following the steps mention above will show a dialog where you can allow or r
 
 Aspose.Cells supports all of the advanced protection settings.
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class.
 
-The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides the [**Protection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property that is used to apply these advanced protection settings. The [**Protection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property is in fact an object of the [**Protection**](https://apireference.aspose.com/cells/net/aspose.cells/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
+The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides the [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property that is used to apply these advanced protection settings. The [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
 
 Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.
 
@@ -51,7 +51,7 @@ Below is a small example application. It opens an Excel file and uses most of th
 
 {{% alert color="primary" %}}
 
-Please don't call the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class' [**Protect**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) method when using the [**Protection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property. Also, save the file to Excel97To2003 or Xlsx format because the advanced protection settings are only supported by Excel XP and later versions.
+Please don't call the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class' [**Protect**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) method when using the [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) property. Also, save the file to Excel97To2003 or Xlsx format because the advanced protection settings are only supported by Excel XP and later versions.
 
 {{% /alert %}}
 
@@ -63,6 +63,6 @@ If you want to restrict users from editing cells the cells must be locked before
 | :- |
 |![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png)|
 
-It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) formatting that contains a Boolean property, [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Set the [**IsLocked**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/islocked) property to **true** or **false** to lock or unlock the cell.
+It is possible to lock cells using the Aspose.Cells API too. Each cell can get [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) formatting that contains a Boolean property, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Set the [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) property to **true** or **false** to lock or unlock the cell.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

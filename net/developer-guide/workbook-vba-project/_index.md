@@ -11,7 +11,7 @@ description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library.
 ## **Add a VBA Module in C#**
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells. Please use the [**Workbook.VbaProject.Modules.Add()**](https://apireference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) method to add the new VBA Module inside the workbook
+Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells. Please use the [**Workbook.VbaProject.Modules.Add()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) method to add the new VBA Module inside the workbook
 
 {{% /alert %}}
 

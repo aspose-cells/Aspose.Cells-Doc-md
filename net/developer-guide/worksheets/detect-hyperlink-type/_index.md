@@ -7,14 +7,14 @@ url: /net/detect-hyperlink-type/
 
 ## **Detect Hyperlink Type**
 
-An Excel file can have different types of hyperlinks like external, cell reference, file path, etc. Aspose.Cells supports the feature to detect the type of hyperlink. The types of hyperlinks are represented by the [**TargetModeType**](https://apireference.aspose.com/cells/net/aspose.cells/targetmodetype) Enumeration. The [**TargetModeType**](https://apireference.aspose.com/cells/net/aspose.cells/targetmodetype) Enumeration has the following members.
+An Excel file can have different types of hyperlinks like external, cell reference, file path, etc. Aspose.Cells supports the feature to detect the type of hyperlink. The types of hyperlinks are represented by the [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype) Enumeration. The [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype) Enumeration has the following members.
 
 - External: External link
 - FilePath: Local and full path to files\folders.
 - Email: Email
 - CellReference: Link to cell or named range.
 
-To check the type of hyperlink, the [**Hyperlink**](https://apireference.aspose.com/cells/net/aspose.cells/hyperlink) class provides a [**LinkType**](https://apireference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) property with a return type of [**TargetModeType**](https://apireference.aspose.com/cells/net/aspose.cells/targetmodetype). The following code snippet demonstrates the use of the [**LinkType**](https://apireference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) property by using this [source excel file](94896195.xlsx).
+To check the type of hyperlink, the [**Hyperlink**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) class provides a [**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) property with a return type of [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). The following code snippet demonstrates the use of the [**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) property by using this [source excel file](94896195.xlsx).
 
 ### Source Code
 

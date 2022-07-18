@@ -16,7 +16,7 @@ Microsoft Excel allows you to copy a Sparkline by specifying the Data Range and 
 
 ## Example
 
-Aspose.Cells provides the [**SparklineCollection.add(dataRange, row, column)**](https://apireference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) method to specify the Data Range and Location of Sparkline Group.
+Aspose.Cells provides the [**SparklineCollection.add(dataRange, row, column)**](https://reference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) method to specify the Data Range and Location of Sparkline Group.
 
 ### Screenshots of the source and output files
 

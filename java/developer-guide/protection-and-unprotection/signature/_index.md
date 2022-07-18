@@ -11,7 +11,7 @@ description: Excel file digital signature, verification. To protect the authenti
 
 A digital signature provides assurance that a workbook file is valid and no one has altered it. You can create a personal digital signature by using the **SELFCERT** tool shipped with Microsoft Office suite or any other tool. You can even purchase a digital signature. After you create or acquire a digital signature, you must attach it to your workbook. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.
 
-Aspose.Cells for Java API provide the [**com.aspose.cells.DigitalSignatureCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/DigitalSignatureCollection) & [**com.aspose.cells.DigitalSignature**](https://apireference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) classes to sign the spreadsheets as well as validate them.
+Aspose.Cells for Java API provide the [**com.aspose.cells.DigitalSignatureCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignatureCollection) & [**com.aspose.cells.DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) classes to sign the spreadsheets as well as validate them.
 
 {{% /alert %}}
 

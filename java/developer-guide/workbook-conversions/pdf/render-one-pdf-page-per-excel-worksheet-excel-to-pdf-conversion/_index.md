@@ -17,10 +17,10 @@ Please see the following sample code that converts an Excel file with multiple w
 
 {{% alert color="primary" %}}
 
-If the [**PdfSaveOptions.OnePagePerSheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) option is set to **true**, all the sheet content is rendered to one PDF page. The paper size set by [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/PageSetup) is invalid, but the other settings set with [**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/PageSetup) still take effect.
+If the [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) option is set to **true**, all the sheet content is rendered to one PDF page. The paper size set by [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) is invalid, but the other settings set with [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) still take effect.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call the [**Workbook.calculateFormula**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call the [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

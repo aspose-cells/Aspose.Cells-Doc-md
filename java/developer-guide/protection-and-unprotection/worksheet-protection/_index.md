@@ -17,11 +17,11 @@ Protected worksheets don't hide or protect sensitive data, so it's different fro
 
 ### **Adding or Removing Protection**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows to access each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows to access each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
-The Worksheet class provides the [**Protect**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) method that is used to apply protection to a worksheet. The Protect method accepts the following parameters:
+The Worksheet class provides the [**Protect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) method that is used to apply protection to a worksheet. The Protect method accepts the following parameters:
 
-- Protection Type, the type of protection to apply on the worksheet. Protection type is applied with the help of the [**ProtectionType**](https://apireference.aspose.com/cells/java/com.aspose.cells/ProtectionType) enumeration.
+- Protection Type, the type of protection to apply on the worksheet. Protection type is applied with the help of the [**ProtectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ProtectionType) enumeration.
 - New Password, the new password used to protect the worksheet.
 - Old Password, the old password, if the worksheet is already password protected. If the worksheet is not already protected then just pass a null.
 
@@ -29,13 +29,13 @@ The ProtectionType enumeration contains the following pre-defined protections ty
 
 |**Protection Types**|**Description**|
 | :- | :- |
-|[**ALL**](https://apireference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|User cannot modify anything on this worksheet|
-|[**CONTENTS**](https://apireference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|User cannot enter data in this worksheet|
-|[**OBJECTS**](https://apireference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|User cannot modify drawing objects|
-|[**SCENARIOS**](https://apireference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|User cannot modify saved scenarios|
-|[**STRUCTURE**](https://apireference.aspose.com/cells/java/com.aspose.cells/protectiontype#STRUCTURE)|User cannot modify saved structure|
-|[**WINDOWS**](https://apireference.aspose.com/cells/java/com.aspose.cells/protectiontype#WINDOWS)|User cannot modify saved windows|
-|[**NONE**](https://apireference.aspose.com/cells/java/com.aspose.cells/protectiontype#NONE)|No protection|
+|[**ALL**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|User cannot modify anything on this worksheet|
+|[**CONTENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|User cannot enter data in this worksheet|
+|[**OBJECTS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|User cannot modify drawing objects|
+|[**SCENARIOS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|User cannot modify saved scenarios|
+|[**STRUCTURE**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#STRUCTURE)|User cannot modify saved structure|
+|[**WINDOWS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#WINDOWS)|User cannot modify saved windows|
+|[**NONE**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#NONE)|No protection|
 
 The example below shows how to protect a worksheet with a password.
 
@@ -99,7 +99,7 @@ The following example exhibits how to protect a few cells in the worksheet. It u
 
 ### **Protect a Row in the Worksheet**
 
-Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can make use of [**applyStyle()**](https://apireference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) method of [**Row**](https://apireference.aspose.com/cells/java/com.aspose.cells/Row) class to apply Style to a particular row in the worksheet. This method takes two arguments: a [**Style**](https://apireference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://apireference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
+Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can make use of [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) method of [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) class to apply Style to a particular row in the worksheet. This method takes two arguments: a [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
 
 The following example shows how to protect a row in the worksheet. It unlocks all the cells in the worksheet first and then locks the first row in it. Finally, it protects the worksheet. A row / column has a Style API that further contains a setCellLocked method . You can lock or unlock the row / column using the StyleFlag struct.
 
@@ -107,7 +107,7 @@ The following example shows how to protect a row in the worksheet. It unlocks al
 
 ### **Protect a Column in the Worksheet**
 
-Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can make use of [**applyStyle()**](https://apireference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) method of [**Column**](https://apireference.aspose.com/cells/java/com.aspose.cells/Column) class to apply Style to a particular column in the worksheet. This method takes two arguments: a [**Style**](https://apireference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://apireference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
+Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can make use of [**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) method of [**Column**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) class to apply Style to a particular column in the worksheet. This method takes two arguments: a [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) object and [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct which has all the members related to applied formatting.
 
 The following example shows how to protect a column in the worksheet. It unlocks all the cells in the worksheet first and then locks the first column in it. Finally, it protects the worksheet. A row / column has a Style API that further contains a set Locked method . You can lock or unlock the row / column using the StyleFlag struct.
 
@@ -135,7 +135,7 @@ Protection is removed, unless the worksheet is password protected. In this case,
 
 ### **Using Aspose.Cells**
 
-A worksheet can be unprotected by calling the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**Unprotect**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) method. The [**Unprotect**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) method can be used in two ways, described below.
+A worksheet can be unprotected by calling the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) method. The [**Unprotect**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) method can be used in two ways, described below.
 
 ### **Unprotecting a Simply Protected Worksheet**
 
@@ -179,9 +179,9 @@ To view the protection settings available in Excel XP:
 
 Aspose.Cells support all of the advanced protection settings.
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
-The Worksheet class provides the Protection property that is used to apply these advanced protection settings. The Protection property is in fact an object of the [**Protection**](https://apireference.aspose.com/cells/java/com.aspose.cells/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
+The Worksheet class provides the Protection property that is used to apply these advanced protection settings. The Protection property is in fact an object of the [**Protection**](https://reference.aspose.com/cells/java/com.aspose.cells/protection) class that encapsulates several Boolean properties for disabling or enabling restrictions.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AdvancedProtectionSettingsUsingAsposeCells-AdvancedProtectionSettingsUsingAsposeCells.java" >}}
 

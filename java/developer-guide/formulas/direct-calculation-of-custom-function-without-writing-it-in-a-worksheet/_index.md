@@ -7,7 +7,7 @@ url: /java/direct-calculation-of-custom-function-without-writing-it-in-a-workshe
 
 {{% alert color="primary" %}} 
 
-This article explains how you can directly calculate your custom functions without first writing them in a worksheet. Please use the [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) method for this purpose.
+This article explains how you can directly calculate your custom functions without first writing them in a worksheet. Please use the [Worksheet.calculateFormula(string formula, CalculationOptions opts)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula\(java.lang.String,%20com.aspose.cells.CalculationOptions\)) method for this purpose.
 
 {{% /alert %}} 
 ## **Direct calculation of custom function without writing it in a worksheet**

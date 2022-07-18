@@ -7,7 +7,7 @@ url: /net/formatting-slicer/
 
 ## **Possible Usage Scenarios**
 
-You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style etc. Aspose.Cells also allows you to do this using the [**Slicer.NumberOfColumns**](https://apireference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns) and [**Slicer.StyleType**](https://apireference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype) properties.
+You can format the slicer in Microsoft Excel by setting its number of columns or by setting its style etc. Aspose.Cells also allows you to do this using the [**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns) and [**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype) properties.
 
 ## **Formatting Slicer**
 

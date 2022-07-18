@@ -5,7 +5,7 @@ weight: 70
 url: /net/show-leading-apostrophe-in-cells/
 ---
 
-In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [Workbook.Settings.QuotePrefixToStyle](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) property. This property indicates whether to set the [QuotePrefix](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) property when entering string value starting with a single quote to the cell. Setting the [Workbook.Settings.QuotePrefixToStyle](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) property to **false** will display the leading apostrophe in the output excel file.
+In Microsoft Excel, the leading apostrophe in the cell's value is hidden. Aspose.Cells provides the feature to display the apostrophe by default. For this, the API provides [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) property. This property indicates whether to set the [QuotePrefix](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) property when entering string value starting with a single quote to the cell. Setting the [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) property to **false** will display the leading apostrophe in the output excel file.
 
 The following screenshot shows the output excel file with the visible apostrophe.
 

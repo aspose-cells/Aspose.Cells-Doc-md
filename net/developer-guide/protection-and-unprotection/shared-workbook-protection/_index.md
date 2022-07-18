@@ -7,7 +7,7 @@ url: /net/password-protect-or-unprotect-the-shared-workbook/
 
 ## **Possible Usage Scenarios**
 
-You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells also supports this feature with the [**Workbook.ProtectSharedWorkbook()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) and [**Workbook.UnprotectSharedWorkbook()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook) methods.
+You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells also supports this feature with the [**Workbook.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) and [**Workbook.UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook) methods.
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 

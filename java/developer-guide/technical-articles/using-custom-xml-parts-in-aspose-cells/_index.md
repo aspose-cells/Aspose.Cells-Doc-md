@@ -11,11 +11,11 @@ Custom XML Parts are the XML data which is stored by different applications like
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
-You can add custom XML parts using Aspose.Cells via the [Workbook.getContentTypeProperties().add()](https://apireference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) method.
+You can add custom XML parts using Aspose.Cells via the [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) method.
 
 {{% /alert %}} 
 ## **Using Custom Xml Parts in Aspose.Cells**
-The following sample code makes use of [Workbook.getContentTypeProperties().add()](https://apireference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) method and adds the **Book Catalog Xml** and its name is **BookStore**. The following image shows the result of this code. As you can see Book Catalog Xml is added inside the BookStore node which is the name of this property.
+The following sample code makes use of [Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) method and adds the **Book Catalog Xml** and its name is **BookStore**. The following image shows the result of this code. As you can see Book Catalog Xml is added inside the BookStore node which is the name of this property.
 
 ![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 

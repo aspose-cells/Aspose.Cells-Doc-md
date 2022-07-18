@@ -7,7 +7,7 @@ url: /java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-ran
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells provides the [**Range**](https://apireference.aspose.com/cells/java/com.aspose.cells/Range) object which has various utility methods that facilitate the user to work with Excel Ranges easily. This article illustrates the usage of the following methods or properties of the [**Range**](https://apireference.aspose.com/cells/java/com.aspose.cells/Range) object.
+Aspose.Cells provides the [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) object which has various utility methods that facilitate the user to work with Excel Ranges easily. This article illustrates the usage of the following methods or properties of the [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) object.
 
 - **Address**
 

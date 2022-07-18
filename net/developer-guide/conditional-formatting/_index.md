@@ -29,7 +29,7 @@ Developers can create a designer spreadsheet that contains conditional formattin
 
 ### **Using the Copy Method**
 
-Aspose.Cells allows developers to copy conditional format settings from one cell to another in the worksheet by calling the [**Range.Copy()**](https://apireference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) method.
+Aspose.Cells allows developers to copy conditional format settings from one cell to another in the worksheet by calling the [**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-UsingCopyMethod-1.cs" >}}
 

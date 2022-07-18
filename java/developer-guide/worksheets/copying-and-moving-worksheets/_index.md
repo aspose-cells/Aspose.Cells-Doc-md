@@ -27,7 +27,7 @@ Following are the steps involved for copying and moving worksheets within or bet
 
 ## **Copy Worksheets within a Workbook**
 
-Aspose.Cells provides an overloaded method, [**WorksheetCollection.addCopy()**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.
+Aspose.Cells provides an overloaded method, [**WorksheetCollection.addCopy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#addCopy(int)), that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.
 
 The following example shows how to copy an existing worksheet within a workbook.
 
@@ -35,7 +35,7 @@ The following example shows how to copy an existing worksheet within a workbook.
 
 ## **Copy Worksheets between Workbooks**
 
-Aspose.Cells provides a method, [**Worksheet.copy()**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), used to copy data and formatting from a source worksheet to another worksheet within or between the workbooks. The method takes the source worksheet object as a parameter.
+Aspose.Cells provides a method, [**Worksheet.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)), used to copy data and formatting from a source worksheet to another worksheet within or between the workbooks. The method takes the source worksheet object as a parameter.
 
 The following example shows how to copy a worksheet from one workbook to another workbook.
 
@@ -47,7 +47,7 @@ The following example shows how to copy a worksheet from one workbook to another
 
 ## **Move Worksheets within Workbook**
 
-Aspose.Cells provides a method, [**Worksheet.moveTo()**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), used to move a worksheet to another location in the same spreadsheet.
+Aspose.Cells provides a method, [**Worksheet.moveTo()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#moveTo(int)), used to move a worksheet to another location in the same spreadsheet.
 
 The following example shows how to move a worksheet to another location within the workbook.
 

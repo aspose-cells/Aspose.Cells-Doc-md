@@ -11,7 +11,7 @@ It is often necessary to know the fonts being used in your workbook for renderin
 
 In order to deal with such cases, you should know what fonts are being used by your workbook, then either install those fonts on your system in case of Windows environment or place it in your fonts directory in case of windows or Linux environment.
 
-Aspose.Cells provides the **[Workbook.GetFonts](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)** method which returns the list of all the fonts used in your workbook or spreadsheet.
+Aspose.Cells provides the **[Workbook.GetFonts](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)** method which returns the list of all the fonts used in your workbook or spreadsheet.
 
 ## **Get a List of Fonts used in a Spreadsheet or Workbook**
 

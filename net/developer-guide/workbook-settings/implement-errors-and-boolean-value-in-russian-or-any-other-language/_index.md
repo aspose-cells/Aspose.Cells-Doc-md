@@ -7,10 +7,10 @@ url: /net/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 
 ## **Possible Usage Scenarios**
 
-If you are using Microsoft Excel in Russian Locale or Language or any other Locale or Language, it will display Errors and Boolean values according to that Locale or Language. You can achieve a similar behavior using Aspose.Cells by using the **[Workbook.Settings.GlobalizationSettings**](https://apireference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) property. You will have to override the following methods of [**GlobalizationSettings**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings) class.
+If you are using Microsoft Excel in Russian Locale or Language or any other Locale or Language, it will display Errors and Boolean values according to that Locale or Language. You can achieve a similar behavior using Aspose.Cells by using the **[Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) property. You will have to override the following methods of [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) class.
 
-- [**GlobalizationSettings.GetErrorValueString()**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
-- [**GlobalizationSettings.GetBooleanValueString()**](https://apireference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)
+- [**GlobalizationSettings.GetErrorValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
+- [**GlobalizationSettings.GetBooleanValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)
 
 ## **Implement Errors and Boolean Value in Russian or Any Other Language**
 

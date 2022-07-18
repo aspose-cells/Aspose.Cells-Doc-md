@@ -31,9 +31,9 @@ The image is inserted.
 
 ### **Using Aspose.Cells for Java**
 
-Aspose.Cells for Java supports adding a linked image using the method [**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://apireference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
+Aspose.Cells for Java supports adding a linked image using the method [**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
 
-The method returns a [**Picture**](https://apireference.aspose.com/cells/java/com.aspose.cells/Picture) object.
+The method returns a [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) object.
 
 The following example shows how to add linked picture from web address to a worksheet.
 

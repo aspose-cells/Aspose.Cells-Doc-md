@@ -10,7 +10,7 @@ When Excel file is converted to HTML, Aspose.Cells adds Downlevel-revealed cond
 
 [Conditional comment - Downlevel-revealed conditional comment](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-To remove Downlevel-revealed conditional comments, Aspose.Cells provides the [HtmlSaveOptions.DisableDownlevelRevealedComments](https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments) property. Setting the [HtmlSaveOptions.DisableDownlevelRevealedComments](https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments) property to **True** will remove the Downlevel-revealed conditional comments in the output HTML file.
+To remove Downlevel-revealed conditional comments, Aspose.Cells provides the [HtmlSaveOptions.DisableDownlevelRevealedComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments) property. Setting the [HtmlSaveOptions.DisableDownlevelRevealedComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments) property to **True** will remove the Downlevel-revealed conditional comments in the output HTML file.
 
 The following image shows the Downlevel-revealed conditional comments which will be removed in the output HTML file
 

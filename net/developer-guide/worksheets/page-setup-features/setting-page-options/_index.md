@@ -15,13 +15,13 @@ Sometimes, it is necessary to configure page setup settings for worksheets to co
 
 Page setup options are fully supported in Aspose.Cells. This article explains how to set page options with Aspose.Cells and shows code samples for setting:
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class.
 
-The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) property that is used to set the page setup options of the worksheet. In fact, this [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) property is an object of the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class used to set different page layout options for a printed worksheet. The [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class provides various properties used to set page setup options. Some of these properties are discussed below.
+The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) property that is used to set the page setup options of the worksheet. In fact, this [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) property is an object of the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class used to set different page layout options for a printed worksheet. The [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class provides various properties used to set page setup options. Some of these properties are discussed below.
 
 ### **Page Orientation**
 
-Page orientation can be set to portrait or landscape using the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**Orientation**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) property. The [**Orientation**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) property accepts one of the pre-defined values in the [**PageOrientationType**](https://apireference.aspose.com/cells/net/aspose.cells/pageorientationtype) enumeration, listed below.
+Page orientation can be set to portrait or landscape using the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) property. The [**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) property accepts one of the pre-defined values in the [**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype) enumeration, listed below.
 
 |**Page Orientation Types**|**Description**|
 | :- | :- |
@@ -32,17 +32,17 @@ Page orientation can be set to portrait or landscape using the [**PageSetup**](h
 
 ### **Scaling Factor**
 
-It is possible to reduce or enlarge a worksheet's size by adjusting the scaling factor with the [**PageSetup.Zoom**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) property.
+It is possible to reduce or enlarge a worksheet's size by adjusting the scaling factor with the [**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) property.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
 ### **FitToPages Options**
 
-To fit the contents of the worksheet to a specific number of pages, use the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**FitToPagesTall**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) and [**FitToPagesWide**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) properties. These properties are also used to scale worksheets.
+To fit the contents of the worksheet to a specific number of pages, use the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) and [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) properties. These properties are also used to scale worksheets.
 
 {{% alert color="primary" %}}
 
-You can either choose the [**FitToPagesTall**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**FitToPagesWide**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) or the [**Zoom**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) property but not both at the same time.
+You can either choose the [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) or the [**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) property but not both at the same time.
 
 {{% /alert %}}
 
@@ -50,7 +50,7 @@ You can either choose the [**FitToPagesTall**](https://apireference.aspose.com/c
 
 ### **Paper Size**
 
-Set the paper size that the worksheets will be printed to using the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PaperSize**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) property. The [**PaperSize**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) property accepts one of the pre-defined values in the [**PaperSizeType**](https://apireference.aspose.com/cells/net/aspose.cells/papersizetype) enumeration, listed below.
+Set the paper size that the worksheets will be printed to using the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) property. The [**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) property accepts one of the pre-defined values in the [**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype) enumeration, listed below.
 
 |**Paper Size Types**|**Description**|
 | :- | :- |
@@ -179,12 +179,12 @@ Set the paper size that the worksheets will be printed to using the [**PageSetup
 
 ### **Print Quality**
 
-Set the print quality of the worksheets to be printed with the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintQuality**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality) property. The measuring unit for print quality is Dots Per Inches (DPI).
+Set the print quality of the worksheets to be printed with the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**PrintQuality**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality) property. The measuring unit for print quality is Dots Per Inches (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
 ### **First Page Number**
 
-Start the numbering of worksheet pages using the [**PageSetup**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**FirstPageNumber**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property. The [**FirstPageNumber**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property sets the page number of the first worksheet page and the next pages are numbered in ascending order.
+Start the numbering of worksheet pages using the [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class' [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property. The [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) property sets the page number of the first worksheet page and the next pages are numbered in ascending order.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

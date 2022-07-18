@@ -7,7 +7,7 @@ url: /net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides [**PivotTable.GetCellByDisplayName()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/getcellbydisplayname) method which you can use to access the cell object by display name of pivot field. This method is useful when you want to highlight or format your pivot field header. This article explains how to retrieve the cell object by the display name of data field and then apply formatting to it.
+Aspose.Cells provides [**PivotTable.GetCellByDisplayName()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/getcellbydisplayname) method which you can use to access the cell object by display name of pivot field. This method is useful when you want to highlight or format your pivot field header. This article explains how to retrieve the cell object by the display name of data field and then apply formatting to it.
 
 {{% /alert %}}
 

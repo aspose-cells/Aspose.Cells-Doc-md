@@ -7,14 +7,14 @@ url: /java/detect-hyperlink-type/
 
 ## **Detect Hyperlink Type**
 
-An Excel file can have different types of hyperlinks like external, cell reference, file path, etc. Aspose.Cells supports the feature to detect the type of hyperlink. The types of hyperlinks are represented by the [**TargetModeType**](https://apireference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Enumeration. The [**TargetModeType**](https://apireference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Enumeration has the following members.
+An Excel file can have different types of hyperlinks like external, cell reference, file path, etc. Aspose.Cells supports the feature to detect the type of hyperlink. The types of hyperlinks are represented by the [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Enumeration. The [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Enumeration has the following members.
 
-- [**EXTERNAL**](https://apireference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): External link
-- [**FILE_PATH**](https://apireference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Local and full path to files\folders.
-- [**EMAIL**](https://apireference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Email
-- [**CELL_REFERENCE**](https://apireference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Link to cell or named range.
+- [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): External link
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Local and full path to files\folders.
+- [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Email
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Link to cell or named range.
 
-To check the type of hyperlink, the [**Hyperlink**](https://apireference.aspose.com/cells/java/com.aspose.cells/Hyperlink) class provides a [**LinkType**](https://apireference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) property with a return type of [**TargetModeType**](https://apireference.aspose.com/cells/java/com.aspose.cells/TargetModeType). The following code snippet demonstrates the use of the [**LinkType**](https://apireference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) property by using this [source excel file](LinkTypes.xlsx).
+To check the type of hyperlink, the [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) class provides a [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) property with a return type of [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). The following code snippet demonstrates the use of the [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) property by using this [source excel file](LinkTypes.xlsx).
 
 ## Source Code
 

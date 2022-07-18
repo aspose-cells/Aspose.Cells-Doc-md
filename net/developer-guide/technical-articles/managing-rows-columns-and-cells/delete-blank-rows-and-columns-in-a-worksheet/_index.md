@@ -11,8 +11,8 @@ It is possible to delete all blank rows and columns from a worksheet. This is us
 
 Use the following Aspose.Cells methods to delete empty rows and columns:
 
-1. To delete blank rows, use the [**Cells.DeleteBlankRows()**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankrows) method.
-1. To delete blank columns, use the [**Cells.DeleteBlankColumns()**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankcolumns) method.
+1. To delete blank rows, use the [**Cells.DeleteBlankRows()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankrows) method.
+1. To delete blank columns, use the [**Cells.DeleteBlankColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankcolumns) method.
 
 {{% /alert %}}
 

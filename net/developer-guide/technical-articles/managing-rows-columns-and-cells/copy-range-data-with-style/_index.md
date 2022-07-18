@@ -11,14 +11,14 @@ url: /net/copy-range-data-with-style/
 
 {{% /alert %}}
 
-Aspose.Cells provides a range of classes and methods for working with ranges, for example, [**CreateRange()**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index), [**StyleFlag**](https://apireference.aspose.com/cells/net/aspose.cells/styleflag) and [**ApplyStyle()**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/applystyle).
+Aspose.Cells provides a range of classes and methods for working with ranges, for example, [**CreateRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index), [**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) and [**ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/applystyle).
 
 This example:
 
 1. Creates a workbook.
 1. Fills a number of cells in the first worksheet with data.
-1. Creates a [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range).
-1. Creates a [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object with specified formatting attributes.
+1. Creates a [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1. Creates a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object with specified formatting attributes.
 1. Applies the style to the data range.
 1. Creates a second range of cells.
 1. Copies data with the formatting from the first range to the second range.

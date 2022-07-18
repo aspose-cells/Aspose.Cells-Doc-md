@@ -13,6 +13,6 @@ Pivot table based reports are useful but prone to error if target users do not h
 
 ## **Disable Pivot Table Ribbon using PivotTable.EnableWizard**
 
-Following code demonstrates this feature by accessing a pivot table from a sheet and then setting [**EnableWizard**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) to **false**. Sample pivot table file can be downloaded from this [link](pivot_table_test.xlsx).
+Following code demonstrates this feature by accessing a pivot table from a sheet and then setting [**EnableWizard**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) to **false**. Sample pivot table file can be downloaded from this [link](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}

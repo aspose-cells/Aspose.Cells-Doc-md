@@ -10,7 +10,7 @@ Microsoft Excel allows you to apply *Advanced Filter* on worksheet data to disp
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells also allows you to apply the Advanced Filter using the [Worksheet.advancedFilter()](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) method. Just like Microsoft Excel, it accepts the following parameters.
+Aspose.Cells also allows you to apply the Advanced Filter using the [Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) method. Just like Microsoft Excel, it accepts the following parameters.
 
 **isFilter**
 

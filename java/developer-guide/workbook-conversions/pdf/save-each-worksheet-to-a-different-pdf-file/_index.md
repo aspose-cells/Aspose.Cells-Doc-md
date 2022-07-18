@@ -17,6 +17,6 @@ If you need to save each worksheet in your template Excel file to generate diffe
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call the [**Workbook.calculateFormula**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call the [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) method just before rendering the spreadsheet to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

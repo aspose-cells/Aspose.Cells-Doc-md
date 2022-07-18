@@ -11,7 +11,7 @@ PDF/A is a unique flavor of PDF designed for the long-term preservation of docum
 
 ## **Convert Excel file to PDF Format Compatible with PDFA-1a**
 
-Developers may use the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class to set different attributes for the conversion. Setting different properties of the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class gives you control over the print, font, security and compression settings for the output PDF. The most important property is **[PdfSaveOptions.Compliance](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)** that enables you to save the Excel files to PDF/A compliant PDF files.
+Developers may use the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class to set different attributes for the conversion. Setting different properties of the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class gives you control over the print, font, security and compression settings for the output PDF. The most important property is **[PdfSaveOptions.Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)** that enables you to save the Excel files to PDF/A compliant PDF files.
 
 The following sample code explains how to convert Excel file to PDF format compatible with PDFA-1a. Please see its [output PDF](outputCompliancePdfA1a.pdf) as well as the screenshot for a reference.
 

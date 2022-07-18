@@ -13,6 +13,6 @@ You can save Excel workbooks to HTML. However, if the workbook contains hidden w
 
 {{% /alert %}}
 
-Aspose.Cells provides the [**HtmlSaveOptions.ExportHiddenWorksheet**](https://apireference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exporthiddenworksheet) property. By default, it is set to **true** and hidden worksheets are exported to HTML. If you set it **false**, Aspose.Cells will not export hidden worksheet contents.
+Aspose.Cells provides the [**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exporthiddenworksheet) property. By default, it is set to **true** and hidden worksheets are exported to HTML. If you set it **false**, Aspose.Cells will not export hidden worksheet contents.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PreventExportingHiddenContent-PreventExportingHiddenContentWhileSavingAsHTML.cs" >}}

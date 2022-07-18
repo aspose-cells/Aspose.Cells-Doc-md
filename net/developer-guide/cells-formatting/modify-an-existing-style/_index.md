@@ -31,11 +31,11 @@ To update a style in Microsoft Excel 97-2003:
 
 ## **Using Aspose.Cells**
 
-The following examples demonstrate how to use [**Style.Update**](https://apireference.aspose.com/cells/net/aspose.cells/style/methods/update) method.
+The following examples demonstrate how to use [**Style.Update**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/update) method.
 
 ### **Creating and Modifying a Style**
 
-This example creates a [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object, applies it to a range of cells and modifies the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object. The modifications are automatically applied to the cell and the range the style was applied to.
+This example creates a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object, applies it to a range of cells and modifies the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. The modifications are automatically applied to the cell and the range the style was applied to.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughStyleObject-1.cs" >}}
 

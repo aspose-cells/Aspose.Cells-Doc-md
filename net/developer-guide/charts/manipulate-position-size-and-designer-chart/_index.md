@@ -6,14 +6,14 @@ url: /net/manipulate-position-size-and-designer-chart/
 ---
 
 ## **Chart Position and Size**
-Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.ChartObject](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/chartobject) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
+Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the [Chart.ChartObject](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/chartobject) property to achieve this. You can use its sub-properties to re-size the chart with new **height** and **width** or re-position it with new **X** and **Y** coordinates.
 ### **Controlling Chart Position and Size**
 To change the chart's position (X, Y coordinates) or size (height, width), use these properties:
 
-1. [Chart.ChartObject.X](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/x)
-1. [Chart.ChartObject.Y](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/y)
-1. [Chart.ChartObject.Height](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/height)
-1. [Chart.ChartObject.Width](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/width)
+1. [Chart.ChartObject.X](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/x)
+1. [Chart.ChartObject.Y](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/y)
+1. [Chart.ChartObject.Height](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/height)
+1. [Chart.ChartObject.Width](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/width)
 
 The following example explains the usage of the above APIs, it loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart using Aspose.Cells.
 

@@ -67,7 +67,7 @@ Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, X
 				<li><a href="/cells/net/loading-saving-and-managing/">Load and Save</a></li>
 				<li><a href="/cells/net/convert-workbook-to-different-formats/">Rendering and Conversion</a></li>
 				<li><a href="/cells/net/print-and-preview/">Print and Preview</a></li>
-				<li><a href="https://apireference.aspose.com/cells/net">Aspose.Cells for .NET API Reference Guide</a></li>
+				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Reference Guide</a></li>
 			</ul>	
 			<p>Technical Support</p>
 			<ul>

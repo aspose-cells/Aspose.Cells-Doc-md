@@ -19,10 +19,10 @@ Please see the following sample code that converts an Excel file with multiple w
 
 {{% alert color="primary" %}} 
 
-If the [OnePagePerSheet](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) option is set to **true**, all the sheet content will be rendered to one PDF page.
+If the [OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) option is set to **true**, all the sheet content will be rendered to one PDF page.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-If your spreadsheet contains formulas, it is best to call [Workbook.CalculateFormula()](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

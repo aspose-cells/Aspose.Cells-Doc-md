@@ -7,7 +7,7 @@ url: /net/change-character-spacing-of-excel-textbox-or-shape/
 
 {{% alert color="primary" %}}
 
-You can change the character spacing of excel textbox or shape using the [**FontSetting.TextOptions.Spacing**](https://apireference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/spacing) property.
+You can change the character spacing of excel textbox or shape using the [**FontSetting.TextOptions.Spacing**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/spacing) property.
 
 {{% /alert %}}
 

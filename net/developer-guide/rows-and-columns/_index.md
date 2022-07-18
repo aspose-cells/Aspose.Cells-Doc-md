@@ -18,13 +18,13 @@ When working with spreadsheets and adding data to rows or columns, you might nee
 
 ### **Adjusting Row Height**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**WorksheetCollection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection that represents all cells in the worksheet.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection that represents all cells in the worksheet.
 
-The [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.
+The [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.
 
 ### **Setting the Height of a Row**
 
-It is possible to set the height of a single row by calling the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection's [**SetRowHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) method. The [**SetRowHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) method takes the following parameters as follows:
+It is possible to set the height of a single row by calling the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection's [**SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) method. The [**SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) method takes the following parameters as follows:
 
 - **Row index**, the index of the row that you're changing the height of.
 - **Row height**, the row height to apply on the row.
@@ -33,7 +33,7 @@ It is possible to set the height of a single row by calling the [**Cells**](http
 
 ### **Setting the Height of All Rows in a Worksheet**
 
-If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**StandardHeight**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) property of the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection.
+If developers need to set the same row height for all rows in the worksheet, they can do it by using the [**StandardHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) property of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection.
 
 **Example:**
 
@@ -43,7 +43,7 @@ If developers need to set the same row height for all rows in the worksheet, the
 
 ### **Setting the Width of a Column**
 
-Set the width of a column by calling the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection's [**SetColumnWidth**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) method. The [**SetColumnWidth**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) method takes the following parameters:
+Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection's [**SetColumnWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) method. The [**SetColumnWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) method takes the following parameters:
 
 - **Column index**, the index of the column that you're changing the width of.
 - **Column width**, the desired column width.
@@ -52,7 +52,7 @@ Set the width of a column by calling the [**Cells**](https://apireference.aspose
 
 ### **Setting Column Width in Pixels**
 
-Set the width of a column by calling the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection's [**SetColumnWidthPixel**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel) method. The [**SetColumnWidthPixel**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel) method takes the following parameters:
+Set the width of a column by calling the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection's [**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel) method. The [**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel) method takes the following parameters:
 
 - **Column index**, the index of the column that you're changing the width of.
 - **Column width**, the desired column width in pixels.
@@ -61,7 +61,7 @@ Set the width of a column by calling the [**Cells**](https://apireference.aspos
 
 ### **Setting the Width of All Columns in a Worksheet**
 
-To set the same column width for all columns in the worksheet, use the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection's [**StandardWidth**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth) property.
+To set the same column width for all columns in the worksheet, use the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection's [**StandardWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth) property.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.cs" >}}
 

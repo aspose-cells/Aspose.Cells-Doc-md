@@ -9,7 +9,7 @@ url: /net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below
 
 This article will explain how to apply Subtotal to data and changing the direction of Outline Summary Rows below Detail.
 
-You can apply Subtotal to data using [**Worksheet.Cells.Subtotal()**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) method. It takes the following parameters.
+You can apply Subtotal to data using [**Worksheet.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) method. It takes the following parameters.
 
 - **CellArea** - The range to apply subtotal on
 - **GroupBy** - The field to group by, as a zero-based integer offset

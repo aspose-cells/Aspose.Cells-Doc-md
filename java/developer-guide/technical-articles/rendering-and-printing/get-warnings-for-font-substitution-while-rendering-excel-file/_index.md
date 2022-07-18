@@ -28,7 +28,7 @@ You can download the source Excel file and the output PDF from the following lin
 - [source.xlsx](5472700.xlsx)
 - [output.pdf](5472699.pdf)
 
-The following code implements the [**IWarningCallback**](https://apireference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) and set the [**PdfSaveOptions.setWarningCallback()**](https://apireference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) method with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the WarningCallback.warning() method.
+The following code implements the [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) and set the [**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) method with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the WarningCallback.warning() method.
 
 {{< highlight java >}}
 

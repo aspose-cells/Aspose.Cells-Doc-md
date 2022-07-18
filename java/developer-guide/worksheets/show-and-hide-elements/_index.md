@@ -17,21 +17,21 @@ An Excel file can have one or more than one worksheets. Whenever we create an Ex
 
 **Controlling the Visibility of the Worksheets:**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) that represents an Excel file. [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows to access each worksheet in the Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) that represents an Excel file. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows to access each worksheet in the Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class. [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods to manage a worksheet. But, to control the visibility of a worksheet, developers may use [**setVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods to manage a worksheet. But, to control the visibility of a worksheet, developers may use [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
 ### **Making a Worksheet Visible**
 
-Developers can make a worksheet visible by passing **true** as a parameter to the [**setVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
+Developers can make a worksheet visible by passing **true** as a parameter to the [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
 ### **Hiding a Worksheet**
 
-Developers can hide a worksheet by passing **false** as a parameter to the [**setVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
+Developers can hide a worksheet by passing **false** as a parameter to the [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class.
 
 **Example:**
 
-A complete example is given below that demonstrates the use of [**setVisible(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class to hide the first worksheet of the Excel file.
+A complete example is given below that demonstrates the use of [**setVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) method of [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class to hide the first worksheet of the Excel file.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-HideUnhideWorksheet-1.java" >}}
 
@@ -45,7 +45,7 @@ In the screenshot below, you can see that **Book1.xls** file contains three work
 
 **Worksheet - After Executing the Example Code:**
 
-**Book1.xls** file is opened using the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class and then the first worksheet of the **Book1.xls** file is made hidden. The modified file is saved as **output.xls** file whose pictorial view is shown below:
+**Book1.xls** file is opened using the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class and then the first worksheet of the **Book1.xls** file is made hidden. The modified file is saved as **output.xls** file whose pictorial view is shown below:
 
 ![todo:image_alt_text](show-and-hide-elements_2.png)
 
@@ -53,7 +53,7 @@ In the screenshot below, you can see that **Book1.xls** file contains three work
 
 **Setting VisibilityType**
 
-You can also hide the worksheets in a special way. This feature can h ide the worksheet so that the only way for you to make it visible again is by giving [**VisibilityType.VERY_HIDDEN**](https://apireference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) as parameter value for the [**setVisibilityType**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method in the code ( it is to be noted here, the user s cannot make the object visible in MS Excel directly by using its menu options). Users can also use [**getVisibilityType**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method to check whether a worksheet is marked as VeryHidden or not.
+You can also hide the worksheets in a special way. This feature can h ide the worksheet so that the only way for you to make it visible again is by giving [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) as parameter value for the [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method in the code ( it is to be noted here, the user s cannot make the object visible in MS Excel directly by using its menu options). Users can also use [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) method to check whether a worksheet is marked as VeryHidden or not.
 
 ## **Show or Hide Tabs**
 
@@ -71,17 +71,17 @@ Sheet tabs represent the worksheets in the Excel file. Click any tab to switch t
 Using Aspose.Cells, developers can control the visibility of sheet tabs and tabs scrolling buttons in Excel files.
 
 **Controlling the Visibility of Tabs:**
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class provides a wide range of properties and methods for managing an Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class provides a wide range of properties and methods for managing an Excel file.
 
 ### **Hiding Tabs**
 
-Hide tabs in an Excel file by setting the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**getSettings().setShowTabs(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) method.
+Hide tabs in an Excel file by setting the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**getSettings().setShowTabs(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) method.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
 ### **Making Tabs Visible**
 
-Make tabs visible with the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**getSettings().setShowTabs(true)**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) method.
+Make tabs visible with the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**getSettings().setShowTabs(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) method.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayTab-1.java" >}}
 
@@ -107,19 +107,19 @@ All worksheets in an Excel file are composed of cells that are arranged in rows 
 
 **Controlling the Visibility of the Worksheets:**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in an Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in an Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The Worksheet class provides a wide range of properties and methods for managing worksheets. To control the visibility of row and column headers, use the Worksheet class' [**setRowColumnHeadersVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The Worksheet class provides a wide range of properties and methods for managing worksheets. To control the visibility of row and column headers, use the Worksheet class' [**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method.
 
 ### **Hiding Row/Column Headers**
 
-Hide row and column headers by using the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setRowColumnHeadersVisible(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method.
+Hide row and column headers by using the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method.
 
 ### **Making Row/Column Headers Visible**
 
-Make row and column headers visible by using the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setRowColumnHeadersVisible(true)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method.
+Make row and column headers visible by using the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setRowColumnHeadersVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method.
 
-A complete example is given below that demonstrates how to use the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setRowColumnHeadersVisible(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method to hide row and column headers of the first worksheet of an Excel file.
+A complete example is given below that demonstrates how to use the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) method to hide row and column headers of the first worksheet of an Excel file.
 
 The screenshot below shows that Book1.xls contains three worksheets: Sheet1, Sheet2 and Sheet3. Each worksheet is showing row and column headers.
 
@@ -127,7 +127,7 @@ The screenshot below shows that Book1.xls contains three worksheets: Sheet1, She
 
 ![todo:image_alt_text](show-and-hide-elements_6.png)
 
-Book1.xls is opened using the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class' and the row and column headers on the first worksheet are hidden. The modified file is saved as output.xls.
+Book1.xls is opened using the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' and the row and column headers on the first worksheet are hidden. The modified file is saved as output.xls.
 
 **Worksheet view after modification**
 
@@ -146,15 +146,15 @@ Microsoft Excel also provides horizontal and vertical scroll bars so that users 
 
 **Controlling the Visibility of the Scroll Bars:**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) that represents an Excel file. [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class provides a wide range of properties and methods to manage an Excel file. But, to control the visibility of the scroll bars in the Excel file, developers may use [**setVScrollBarVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) & [**setHScrollBarVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) methods of the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) that represents an Excel file. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class provides a wide range of properties and methods to manage an Excel file. But, to control the visibility of the scroll bars in the Excel file, developers may use [**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) & [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) methods of the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class.
 
 ### **Hiding Scroll Bars**
 
-Hide scroll bars by setting the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**setVScrollBarVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) or [**setHScrollBarVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) methods to **false**.
+Hide scroll bars by setting the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' [**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) or [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) methods to **false**.
 
 ### **Making Scroll Bars Visible**
 
-Make scroll bars visible by setting the Workbook class' [**setVScrollBarVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) or [**setHScrollBarVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) methods to **true**.
+Make scroll bars visible by setting the Workbook class' [**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) or [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) methods to **true**.
 
 **Complete Code Example:**
 
@@ -180,17 +180,17 @@ Aspose.Cells also allows you to control the visibility of the gridlines.
 
 ### **Controlling the Visibility of Gridlines**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the file.
 
-A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To control the visibility of gridlines, use the the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class provides a wide range of properties and methods for managing worksheets. To control the visibility of gridlines, use the the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method.
 
 #### **Making Gridlines Visible**
 
-To make gridlines visible, use the the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible(true)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method.
+To make gridlines visible, use the the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method.
 
 #### **Hiding Gridlines**
 
-Hide gridlines using the the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method.
+Hide gridlines using the the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method.
 
 {{% alert color="primary" %}}
 
@@ -200,7 +200,7 @@ Gridlines are applied to the entire sheet. To 'hide' gridlines on a section of a
 
 **Example: Hiding Gridlines on a Particular Worksheet**
 
-The example below demonstrates the use of the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible(false)**](https://apireference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method to hide gridlines of the first worksheet of an Excel file.
+The example below demonstrates the use of the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) method to hide gridlines of the first worksheet of an Excel file.
 
 The screenshot below shows that the Book1.xls file contains three worksheets: Sheet1, Sheet2 and Sheet3. All of these worksheets have gridlines.
 
@@ -208,7 +208,7 @@ The screenshot below shows that the Book1.xls file contains three worksheets: Sh
 
 ![todo:image_alt_text](show-and-hide-elements_10.png)
 
-The Book1.xls file is opened using the [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class and then the gridlines of the first worksheet are hidden. The modified file is saved as output.xls file.
+The Book1.xls file is opened using the [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class and then the gridlines of the first worksheet are hidden. The modified file is saved as output.xls file.
 
 **Worksheet view after modification**
 

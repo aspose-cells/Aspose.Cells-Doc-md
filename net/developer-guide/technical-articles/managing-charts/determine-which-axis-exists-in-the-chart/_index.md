@@ -9,11 +9,11 @@ url: /net/determine-which-axis-exists-in-the-chart/
 
 Sometimes, the user needs to know if a particular axis exists in the Chart. For example, he wants to know if a Secondary Value Axis exists inside the chart or not. Some charts like Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded, etc. do not have an axis.
 
-Aspose.Cells provides [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) method to determine if the chart has a particular axis or not.
+Aspose.Cells provides [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) method to determine if the chart has a particular axis or not.
 
 {{% /alert %}}
 
-The following sample code demonstrates the use of [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) to determine if the sample chart has Primary and Secondary Category and Value Axis.
+The following sample code demonstrates the use of [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) to determine if the sample chart has Primary and Secondary Category and Value Axis.
 
 ## C# code to determine which axis exists in the chart
 

@@ -33,6 +33,6 @@ After creating a designer spreadsheet, use Aspose.Cells to read the designer spr
 
 ### **Smart Markers**
 
-Additionally, Aspose.Cells lets you add [smart markers](/cells/java/smart-markers/) to the designer spreadsheet. Smart markers are processed at runtime using the [**WorkbookDesigner**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbookdesigner) class's Process method. This can help you write less code and still get great result.
+Additionally, Aspose.Cells lets you add [smart markers](/cells/java/smart-markers/) to the designer spreadsheet. Smart markers are processed at runtime using the [**WorkbookDesigner**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner) class's Process method. This can help you write less code and still get great result.
 
 [Find out more about smart markers](/cells/java/smart-markers/).

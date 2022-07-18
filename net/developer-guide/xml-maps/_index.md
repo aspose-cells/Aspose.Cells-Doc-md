@@ -10,7 +10,7 @@ description: Import data from an XML data files to Microsoft Excel.
 
 {{% alert color="primary" %}}
 
-Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.ImportXml()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) method. You can import XML Map using the Microsoft Excel with the following steps
+Aspose.Cells allows you to import the XML map inside the workbook using the [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) method. You can import XML Map using the Microsoft Excel with the following steps
 
 - Select **Developer** tab
 - Click **Import** in the XML section and follow the required steps.
@@ -28,7 +28,7 @@ The following screenshot shows how to import XML Map using Microsoft Excel.
 
 ## **Import XML Map using Aspose.Cells**
 
-The following sample code shows how to make use of the [**Workbook.ImportXml()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). It generates the [output excel file](5115036.xlsx) as shown in this screenshot.
+The following sample code shows how to make use of the [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). It generates the [output excel file](5115036.xlsx) as shown in this screenshot.
 
 |![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
 | :- |

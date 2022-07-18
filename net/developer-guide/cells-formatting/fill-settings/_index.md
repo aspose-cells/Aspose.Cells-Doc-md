@@ -13,9 +13,9 @@ Aspose.Cells also supports these features in a flexible manner. In this topic, w
 
 ### **Setting Colors and Background Patterns**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection. Each item in the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection represents an object of the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 
-The [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) has the [**GetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) and [**SetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) methods that are used to get and set a cell's formatting. The [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) class provides properties for setting the foreground and background colors of the cells. Aspose.Cells provides a [**BackgroundType**](https://apireference.aspose.com/cells/net/aspose.cells/backgroundtype) enumeration that contains a set of pre-defined types of background patterns which are given below.
+The [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) has the [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) and [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) methods that are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) class provides properties for setting the foreground and background colors of the cells. Aspose.Cells provides a [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) enumeration that contains a set of pre-defined types of background patterns which are given below.
 
 |**Background Patterns**|**Description**|
 | :- | :- |
@@ -47,18 +47,18 @@ In the example below, the foreground color of the A1 cell is set but A2 is confi
 
 {{% alert color="primary" %}}
 
-- To set a cell's foreground or background color, use the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**ForegroundColor**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) or [**BackgroundColor**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) properties. Both properties will take effect only if the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**Pattern**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/pattern) property is configured.
-- The [**ForegroundColor**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) property sets the cell's shade color.
-  The [**Pattern**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/pattern) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [**BackgroundType**](https://apireference.aspose.com/cells/net/aspose.cells/backgroundtype). that contains a set of pre-defined types of background patterns.
-- If you select *BackgroundType.None* value from the [**BackgroundType**](https://apireference.aspose.com/cells/net/aspose.cells/backgroundtype) enumeration, the foreground color is not applied.
+- To set a cell's foreground or background color, use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) or [**BackgroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) properties. Both properties will take effect only if the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) property is configured.
+- The [**ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) property sets the cell's shade color.
+  The [**Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) property specifies the type of background pattern used for the foreground or background color. Aspose.Cells provides an enumeration, [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype). that contains a set of pre-defined types of background patterns.
+- If you select *BackgroundType.None* value from the [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) enumeration, the foreground color is not applied.
   Likewise, the background color is not applied if you select the *BackgroundType.None* or *BackgroundType.Solid* values.
-- When retrieving cell's shading/fill color, if [**Style.Pattern**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/pattern) is *BackgroundType.None*, [**Style.ForegroundColor**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) will return *Color.Empty*.
+- When retrieving cell's shading/fill color, if [**Style.Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) is *BackgroundType.None*, [**Style.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) will return *Color.Empty*.
 
 {{% /alert %}}
 
 ### **Applying Gradient Fill Effects**
 
-To apply your desired Gradient Fill Effects to the cell, use the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**SetTwoColorGradient**](https://apireference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient) method accordingly.
+To apply your desired Gradient Fill Effects to the cell, use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient) method accordingly.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}
 
@@ -74,7 +74,7 @@ This topic discusses how to add custom colors to the palette.
 
 Aspose.Cells supports Microsoft Excel's 56 color palette. To use a custom color that is not defined in the palette, add the color to the palette.
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class provides a [**ChangePalette**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) method that takes the following parameters to add a custom color to modify the palette:
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class provides a [**ChangePalette**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) method that takes the following parameters to add a custom color to modify the palette:
 
 - Custom Color, the custom color to be added.
 - Index, the index of the color in the palette that the custom color will replace. Should be between 0-55.

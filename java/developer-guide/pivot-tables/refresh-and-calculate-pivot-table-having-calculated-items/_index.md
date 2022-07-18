@@ -7,7 +7,7 @@ url: /java/refresh-and-calculate-pivot-table-having-calculated-items/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now supports refreshing and calculating pivot table having calculated items. Please use [**PivotTable.refreshData()**](https://apireference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData()) and [**PivotTable.caclulateData()**](https://apireference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData()) as usual to perform this function.
+Aspose.Cells now supports refreshing and calculating pivot table having calculated items. Please use [**PivotTable.refreshData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData()) and [**PivotTable.caclulateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData()) as usual to perform this function.
 
 {{% /alert %}}
 

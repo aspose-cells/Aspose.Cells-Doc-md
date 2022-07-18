@@ -7,11 +7,11 @@ url: /net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-me
 
 ## **Possible Usage Scenarios**
 
-You can query cell areas mapped to the XML map path with Aspose.Cells using the [**Worksheet.XmlMapQuery()**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery) method. If the path exists, it will return the list of cell areas related to that path inside XML map. The first parameter of the [**Worksheet.XmlMapQuery()**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery) method specifies the XML element path and the second parameter specifies an XML map you want to query.
+You can query cell areas mapped to the XML map path with Aspose.Cells using the [**Worksheet.XmlMapQuery()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery) method. If the path exists, it will return the list of cell areas related to that path inside XML map. The first parameter of the [**Worksheet.XmlMapQuery()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery) method specifies the XML element path and the second parameter specifies an XML map you want to query.
 
 ## **Query Cell Areas Mapped to XML Map Path using Worksheet.XmlMapQuery method**
 
-The following screenshot shows the Microsoft Excel displaying XML Map inside the [sample Excel file](55541790.xlsx) used in the code. The code queries the XML map two times and prints the list of cell areas returned by the [**Worksheet.XmlMapQuery()**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery) method on the console as shown below.
+The following screenshot shows the Microsoft Excel displaying XML Map inside the [sample Excel file](55541790.xlsx) used in the code. The code queries the XML map two times and prints the list of cell areas returned by the [**Worksheet.XmlMapQuery()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery) method on the console as shown below.
 
 ![todo:image_alt_text](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
@@ -43,7 +43,7 @@ Aspose.Cells.CellArea(D1:D8)[0,3,7,3]
 
 ## **Get XML path from List Object/Table**
 
-XML data can be imported to worksheets. Sometimes XML path is required from the ListObjects of the worksheet. This feature is available in Excel by using an expression like Sheet1.ListObjects(1).XmlMap.DataBinding. The same feature is available in Aspose.Cells by calling [**ListObject.XmlMap.DataBinding.Url**](https://apireference.aspose.com/cells/net/aspose.cells/xmldatabinding/properties/url).  The following example demonstrates this feature. Template file and other source files can be downloaded from the following links:
+XML data can be imported to worksheets. Sometimes XML path is required from the ListObjects of the worksheet. This feature is available in Excel by using an expression like Sheet1.ListObjects(1).XmlMap.DataBinding. The same feature is available in Aspose.Cells by calling [**ListObject.XmlMap.DataBinding.Url**](https://reference.aspose.com/cells/net/aspose.cells/xmldatabinding/properties/url).  The following example demonstrates this feature. Template file and other source files can be downloaded from the following links:
 
 1. [XML Data.xlsx](72417285.xlsx)
 1. [Country List.xml](72417287.xml)

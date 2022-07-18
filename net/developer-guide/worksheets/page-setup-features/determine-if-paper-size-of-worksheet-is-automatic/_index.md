@@ -7,7 +7,7 @@ url: /net/determine-if-paper-size-of-worksheet-is-automatic/
 
 ## **Possible Usage Scenarios**
 
-Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as *Letter*. Sometimes the user sets the paper size of the worksheet as per their requirements. In this case, the paper size is not automatic. You can find if the worksheet paper size is automatic or not using the [**Worksheet.PageSetup.IsAutomaticPaperSize**](https://apireference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize) property.
+Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as *Letter*. Sometimes the user sets the paper size of the worksheet as per their requirements. In this case, the paper size is not automatic. You can find if the worksheet paper size is automatic or not using the [**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize) property.
 
 ## **Determine if Paper Size of Worksheet is Automatic**
 

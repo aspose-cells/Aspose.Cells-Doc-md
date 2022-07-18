@@ -7,7 +7,7 @@ url: /net/direct-calculation-of-custom-function-without-writing-it-in-a-workshee
 
 ## **Direct calculation of custom function without writing it in a worksheet**
 
-This topic explains how you can directly calculate your custom functions without first writing them in a worksheet. Please use the [**Worksheet.CalculateFormula(string formula, CalculationOptions opts)**](https://apireference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3) method for this purpose.
+This topic explains how you can directly calculate your custom functions without first writing them in a worksheet. Please use the [**Worksheet.CalculateFormula(string formula, CalculationOptions opts)**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3) method for this purpose.
 
 Please see the following sample code that illustrates the usage of this method. We have used a custom function named MyCompany.CustomFunction() and we calculate its value as "Aspose.Cells." by ourselves and then this value is automatically concatenated with the value of cell A1 which is "Welcome to " by the calculation engine and the final calculated value returns as "Welcome to Aspose.Cells."". As you can see in a code that we have not written our custom function anywhere in a worksheet and it is calculated directly by our own custom logic.
 

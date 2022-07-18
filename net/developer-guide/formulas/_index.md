@@ -14,9 +14,9 @@ One of the of Microsoft Excel's compelling features is its ability to process da
 
 ## **Using Formulae and Functions**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the Cells collection represents an object of the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the Cells collection represents an object of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 
-It is possible to apply formulas to cells using properties and methods offered by the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class, discussed in more detail below.
+It is possible to apply formulas to cells using properties and methods offered by the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class, discussed in more detail below.
 
 - Using built-in functions.
 - Using add-in functions.
@@ -29,7 +29,7 @@ Built-in functions or formulas are provided as ready-made functions to reduce de
 
 Aspose.Cells supports most of the formulas or functions offered by Microsoft Excel. Developers can use these formulas through the API or [designer spreadsheet](/cells/net/what-is-a-designer-spreadsheet/). Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas.
 
-Use the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class' [**Formula**](https://apireference.aspose.com/cells/net/aspose.cells/cell/properties/formula) property to add a formula to a cell. **Complex formulas**, for example
+Use the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class' [**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) property to add a formula to a cell. **Complex formulas**, for example
 
 {{< highlight java >}}
 
@@ -39,7 +39,7 @@ Use the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) 
 
 , are also supported in Aspose.Cells. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel and use a comma (,) to delimit function parameters.
 
-In the example below, a complex formula is applied to the first cell of a worksheet's [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) collection. The formula uses a built-in **IF** function provided by Aspose.Cells.
+In the example below, a complex formula is applied to the first cell of a worksheet's [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection. The formula uses a built-in **IF** function provided by Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingBuiltinfunction-1.cs" >}}
 
@@ -47,7 +47,7 @@ In the example below, a complex formula is applied to the first cell of a worksh
 
 We can have some user defined formulas that we want to include as an excel add-in. When setting the cell.Formula function built-in functions work fine however there is a need to set the custom functions or formulas using the add-in functions.
 
-Aspose.Cells provides features to register add in functions using [**Worksheets.RegisterAddInFunction()**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Afterwards when we set cell.Formula = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
+Aspose.Cells provides features to register add in functions using [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Afterwards when we set cell.Formula = anyFunctionFromAddIn, the output Excel file contains the calculated value from the AddIn function.
 
 Following XLAM file shall be downloaded for registering the add in function in the below sample code. Similarly the output file "test_udf.xlsx" can be downloaded to check the output.
 
@@ -63,7 +63,7 @@ Array formulas are formulas that take arrays, instead of individual numbers, as 
 
 Some Microsoft Excel functions return arrays of values. To calculate multiple results with an array formula, enter the array into a range of cells with the same number of rows and columns as the array arguments.
 
-It is possible to apply an array formula to a cell by calling the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class' [**SetArrayFormula**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) method. The [**SetArrayFormula**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) method takes the following parameters:
+It is possible to apply an array formula to a cell by calling the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class' [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) method. The [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) method takes the following parameters:
 
 - **Array Formula**, the array formula.
 - **Number of Rows**, the number of rows to populate result of the array formula.
@@ -73,7 +73,7 @@ It is possible to apply an array formula to a cell by calling the [**Cell**](htt
 
 ## **Using R1C1 Formula**
 
-Add an **R1C1** reference style formula to a cell with the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class' [**R1C1Formula**](https://apireference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) property.
+Add an **R1C1** reference style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class' [**R1C1Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) property.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 

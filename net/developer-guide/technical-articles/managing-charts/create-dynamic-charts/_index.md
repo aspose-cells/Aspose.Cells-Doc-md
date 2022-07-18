@@ -21,32 +21,32 @@ Excel tables are referred to as ListObjects in Aspose.Cells' perspective, theref
 
 {{% /alert %}}
 
-ListObjects provides the in-built functionality to sort & filter the data upon user interaction. Both sorting & filtering options are provided through the drop-down lists which are automatically added to the header row of the [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject). Due to these features (sorting & filtering), the [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) seems to be the perfect candidate to serve as the data source to a dynamic chart because when sorting or filtering is changed, the representation of data in the chart will be changed to reflect the current state of the [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject).
+ListObjects provides the in-built functionality to sort & filter the data upon user interaction. Both sorting & filtering options are provided through the drop-down lists which are automatically added to the header row of the [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject). Due to these features (sorting & filtering), the [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) seems to be the perfect candidate to serve as the data source to a dynamic chart because when sorting or filtering is changed, the representation of data in the chart will be changed to reflect the current state of the [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
 
-In order to keep the demonstration simple to understand, we will create the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) from scratch and move forward step by step as outlined below.
+In order to keep the demonstration simple to understand, we will create the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) from scratch and move forward step by step as outlined below.
 
-1. Create an empty [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook).
-1. Access the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) of the first [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) in the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook).
+1. Create an empty [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Access the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) of the first [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) in the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1. Insert some data to the cells.
-1. Create [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) based on the inserted data.
-1. Create [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) based on the data range of [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject).
+1. Create [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) based on the inserted data.
+1. Create [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) based on the data range of [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
 1. Save the result on the disc.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
 
 ## **Using Dynamic Formulas**
 
-In case you do not wish to use the [**ListObject**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject) as a data source to the dynamic chart, the other option is to use Excel functions (or formulas) to create a dynamic range of data, and a control (such as ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of ComboBox. When selection is changed, the VLOOKUP function will refresh the cell value. If a range of cells is using the VLOOKUP function, the whole range can be refreshed upon user interaction, therefore it can be used as a source to the dynamic chart.
+In case you do not wish to use the [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) as a data source to the dynamic chart, the other option is to use Excel functions (or formulas) to create a dynamic range of data, and a control (such as ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of ComboBox. When selection is changed, the VLOOKUP function will refresh the cell value. If a range of cells is using the VLOOKUP function, the whole range can be refreshed upon user interaction, therefore it can be used as a source to the dynamic chart.
 
 In order to keep the demonstration simple to understand, we will create the Workbook from scratch and move forward step by step as outlined below.
 
-1. Create an empty [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook).
-1. Access the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/cells) of the first [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) in the [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook).
+1. Create an empty [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Access the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) of the first [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) in the [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1. Insert some data to the cells by creating a Named Range. This data will serve as a series to the dynamic chart.
-1. Create [**ComboBox**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/combobox) based on the Named Range created in the previous step.
+1. Create [**ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) based on the Named Range created in the previous step.
 1. Insert some more data to the cells that will serve as a source to the VLOOKUP function.
 1. Insert VLOOKUP function (with appropriate parameters) to a range of cells. This will range will serve as a source to the dynamic chart.
-1. Create [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) based on the range created in the previous step.
+1. Create [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) based on the range created in the previous step.
 1. Save the result on the disc.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}

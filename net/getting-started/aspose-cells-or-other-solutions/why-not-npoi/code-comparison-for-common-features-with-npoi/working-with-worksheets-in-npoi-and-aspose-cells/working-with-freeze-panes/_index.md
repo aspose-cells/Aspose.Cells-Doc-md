@@ -27,7 +27,7 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [FreezePanes Method](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+For more details, visit [FreezePanes Method](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
 ## **NPOI - HSSF XSSF - Working with Freeze Panes**

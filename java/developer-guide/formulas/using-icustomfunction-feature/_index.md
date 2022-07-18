@@ -11,7 +11,7 @@ This article provides a detailed understanding of how to use the ICustomFunction
 
 The ICustomFunction interface allows to add custom formula calculation functions to extend the Aspose.Cells' core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
 
-Please note, this interface has been replaced by [AbstractCalculationEngine](https://apireference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) and will be removed in future. Some technical articles/examples atbout the new API: [here](/cells/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) and [here](/cells/java/returning-a-range-of-values-using-abstractcalculationengine/)
+Please note, this interface has been replaced by [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) and will be removed in future. Some technical articles/examples atbout the new API: [here](/cells/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) and [here](/cells/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 

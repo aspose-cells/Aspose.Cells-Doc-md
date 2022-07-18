@@ -19,7 +19,7 @@ Indexes used in examples start from 0.
 
 Adding pictures to a spreadsheet is very easy. It only takes a few lines of code.
 
-Simply call the [**add**](https://apireference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) method of the [**Pictures**](https://apireference.aspose.com/cells/java/com.aspose.cells/PictureCollection) collection (encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) object). The [**add**](https://apireference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) method takes the following parameters:
+Simply call the [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) method of the [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object). The [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) method takes the following parameters:
 
 - **Upper left row index**, the index of the upper left row.
 - **Upper left column index**, the index of the upper left column.
@@ -35,6 +35,6 @@ Pictures can be positioned using Aspose.Cells as follows:
 
 ### **Absolute Positioning**
 
-Developers can position the pictures absolutely by using the [**setUpperDeltaX**](https://apireference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) and [**setUpperDeltaY**](https://apireference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) methods of the [**Picture**](https://apireference.aspose.com/cells/java/com.aspose.cells/Picture) object.
+Developers can position the pictures absolutely by using the [**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) and [**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) methods of the [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) object.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
