@@ -8,9 +8,9 @@ keywords: performance
 ---
 
 ## **Possible Usage Scenarios**
-Please use [GridWeb.IgnoreStyleWithNoData](https://apireference.aspose.com/cells/net/aspose.cells.gridweb/gridweb/properties/ignorestylewithnodata) property while load less rows/columns from the workbook.
+Please use [GridWeb.IgnoreStyleWithNoData](https://apireference.aspose.com/cells/net/aspose.cells.gridweb/gridweb/properties/ignorestylewithnodata) property to load less required rows/columns from the workbook.
  
-## **Filter data while Loading Workbook**
+## **Get Better Performance While Loading Workbook**
 Please check the [sample excel file](largerowswithstyle.xlsx) 
 
 When set  IgnoreStyleWithNoData = true;
@@ -23,6 +23,10 @@ As you can see ,It shows rows (to 15) and columns (to L),It will not display the
 When set  IgnoreStyleWithNoData = false;(the default value is false)
 
 As you can see ,It shows much more rows (to 500) and columns (to CZ)
+
+From row 16 to row 500,some of the cells has set the boder style,however the cells contains no data.
+
+From column M to column CZ,some of the cells has set the boder style,however the cells contains no data.
 
 ![workbook without ignore style](ignorestylefalse.png)
  
