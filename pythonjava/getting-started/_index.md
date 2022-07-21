@@ -10,7 +10,7 @@ description: Setup Aspose.Cells for Python via Java and installation guidelines.
 ---
 
 ## **System Requirements**
-Aspose.Cells for Python via Java is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where [Python](https://www.python.org/downloads/) is installed. The machine must have Java 8 or greater versions before setting up the installation.
+Aspose.Cells for Python via Java is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where [Python](https://www.python.org/downloads/) is installed. The machine must have Java 8 or greater versions before setting up the installation.
 
 ## **Python Version**
 - Python 3.5 or higher
