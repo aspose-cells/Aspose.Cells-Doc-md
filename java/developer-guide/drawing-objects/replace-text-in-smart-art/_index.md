@@ -7,7 +7,7 @@ url: /java/replace-text-in-smart-art/
 
 ## **Possible Usage Scenarios**
 
-Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells provide this feature by setting [**Shape.Text**](https://apireference.aspose.com/cells/java/com.aspose.cells/shape#Text) property.
+Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells provide this feature by setting [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) property.
 
 The sample source file can be downloaded from the following link:
 

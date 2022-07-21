@@ -13,12 +13,12 @@ This article explains how to pass in PDF security options when saving spreadshee
 
 {{% /alert %}}
 
-Aspose.Cells provides the [**Aspose.Cells.Rendering.PdfSecurity**](https://apireference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity) namespace for working with security. The sample code below describes how to secure PDFs with Aspose.Cells.
+Aspose.Cells provides the [**Aspose.Cells.Rendering.PdfSecurity**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity) namespace for working with security. The sample code below describes how to secure PDFs with Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SecurePDFDocuments-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering it to PDF. This ensures that formula dependent values are recalculated and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering it to PDF. This ensures that formula dependent values are recalculated and the correct values are rendered in the PDF.
 
 {{% /alert %}}

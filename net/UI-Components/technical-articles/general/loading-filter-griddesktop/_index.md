@@ -7,9 +7,9 @@ description: This article describes how to use loading filter for  Aspose.Cells.
 ---
 
 ## **Possible Usage Scenarios**
-Please use [GridDesktop.LoadDataFilter](https://apireference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) property while filtering data from the workbook.
+Please use [GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) property while filtering data from the workbook.
 
-The [GridLoadDataFilterOptions](https://apireference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) enumeration has the following values.
+The [GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) enumeration has the following values.
 - All
 - BookSettings
 - CellBlank

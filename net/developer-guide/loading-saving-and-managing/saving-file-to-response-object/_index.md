@@ -13,14 +13,14 @@ Aspose.Cells makes it possible to manipulate files. This article explains the va
 
 ## **Saving File to Response Object**
 
-It is also possible to generate a file dynamically and send it directly to a client browser. In order to do so, use a special overloaded version of the **[Save](https://apireference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)** method that accepts the following parameters:
+It is also possible to generate a file dynamically and send it directly to a client browser. In order to do so, use a special overloaded version of the **[Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)** method that accepts the following parameters:
 
 - ASP.NET **[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)** object.
 - File name.
-- **[ContentDisposition](https://apireference.aspose.com/cells/net/aspose.cells/contentdisposition)**, the content-disposition type of the output file.
-- **[SaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/saveoptions)**, the file format type
+- **[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, the content-disposition type of the output file.
+- **[SaveOptions](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, the file format type
 
-The **[ContentDisposition](https://apireference.aspose.com/cells/net/aspose.cells/contentdisposition)** enumeration determines whether the file being sent to the browser provides the option to open by itself directly in the browser or in an application associated with .xls/.xlsx or another extension.
+The **[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)** enumeration determines whether the file being sent to the browser provides the option to open by itself directly in the browser or in an application associated with .xls/.xlsx or another extension.
 
 The enumeration contains the following pre-defined save types:
 

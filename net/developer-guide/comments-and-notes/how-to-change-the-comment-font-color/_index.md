@@ -11,7 +11,7 @@ Microsoft Excel allows users to add comments to cells to add additional informat
 
 {{% /alert %}}
 
-Aspose.Cells provides a [**Shape.TextBody**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) property to the font color of the comment. The following sample code demonstrates the use of [**Shape.TextBody**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) property to set text direction for a comment.
+Aspose.Cells provides a [**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) property to the font color of the comment. The following sample code demonstrates the use of [**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) property to set text direction for a comment.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 

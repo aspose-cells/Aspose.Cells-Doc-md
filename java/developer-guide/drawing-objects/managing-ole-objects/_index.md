@@ -13,10 +13,10 @@ OLE (Object Linking and Embedding) is supported by many different programs and i
 
 ## **Inserting OLE Objects into a Worksheet**
 
-Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/OleObjectCollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://apireference.aspose.com/cells/java/com.aspose.cells/OleObject), represents an OLE Object. It has some important members:
+Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/OleObjectCollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://reference.aspose.com/cells/java/com.aspose.cells/OleObject), represents an OLE Object. It has some important members:
 
-- [**ImageData**](https://apireference.aspose.com/cells/java/com.aspose.cells/oleobject#ImageData) specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.
-- [**ObjectData**](https://apireference.aspose.com/cells/java/com.aspose.cells/oleobject#ObjectData) specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.
+- [**ImageData**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ImageData) specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.
+- [**ObjectData**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ObjectData) specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.
 
 The following example shows how to add an OLE Object into a worksheet.
 

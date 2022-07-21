@@ -28,50 +28,50 @@ Please note that you cannot instruct Aspose.Cells for .NET to change or remove t
 
 ### **Direct Conversion**
 
-Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the **[Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook)** class' **[Save](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method. The **[Save](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method provides the **[SaveFormat.Pdf](https://apireference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration member that converts the native Excel files to PDF format.
+Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** class' **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method. The **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method provides the **[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration member that converts the native Excel files to PDF format.
 
 Follow the below steps to directly convert the Excel spreadsheets to PDF format:
 
-1. Instantiate an object of the **[Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook)** class by calling its empty constructor.
+1. Instantiate an object of the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** class by calling its empty constructor.
 1. You may open/load an existing template file or skip this step if you are creating the workbook from scratch.
 1. Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells' APIs.
-1. When the spreadsheet code is complete, call the **[Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook)** class' **[Save](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method to save the spreadsheet.
+1. When the spreadsheet code is complete, call the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** class' **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method to save the spreadsheet.
 
-The file format should be PDF so select *Pdf* (a pre-defined value) from the **[SaveFormat](https://apireference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration to generate the final PDF document.
+The file format should be PDF so select *Pdf* (a pre-defined value) from the **[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration to generate the final PDF document.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
 
 ### **Advanced Conversion**
 
-You may also opt to use the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class to set different attributes for the conversion. Setting different properties of the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class gives you control over the print, font, security and compression settings for the output PDF. The most important property is **[Compliance](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)** which enables you to save the Excel files to PDF/A compliant PDF files.
+You may also opt to use the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class to set different attributes for the conversion. Setting different properties of the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class gives you control over the print, font, security and compression settings for the output PDF. The most important property is **[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)** which enables you to save the Excel files to PDF/A compliant PDF files.
 
 #### **Saving Workbook to PDF/A Complied Files**
 
-The below-provided code snippet demonstrates how to use the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class to save Excel files to PDF/A compliant PDF format.
+The below-provided code snippet demonstrates how to use the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class to save Excel files to PDF/A compliant PDF format.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AdvancedConversiontoPdf-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Please note, the **[Compliance](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)** property was added with the release of Aspose.Cells for .NET 5.3.0.
+Please note, the **[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)** property was added with the release of Aspose.Cells for .NET 5.3.0.
 
 {{% /alert %}}
 
 #### **Set the PDF Creation Time**
 
-With the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF creation time. The following code demonstrates the use of **[PdfSaveOptions.CreatedTime](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)** property to set the creation time of the PDF file.
+With the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF creation time. The following code demonstrates the use of **[PdfSaveOptions.CreatedTime](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)** property to set the creation time of the PDF file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetPDFCreationTime-1.cs" >}}
 
 #### **Set ContentCopyForAccessibility option**
 
-With the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF **[AccessibilityExtractContent](https://apireference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** option to control the content access in the converted PDF.
+With the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can get or set the PDF **[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** option to control the content access in the converted PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
 #### **Export Custom properties to PDF**
 
-With the **[PdfSaveOptions](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can export the custom properties in the source workbook to the PDF. **[PdfCustomPropertiesExport](https://apireference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)** enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
+With the **[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class, you can export the custom properties in the source workbook to the PDF. **[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)** enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file "sourceWithCustProps.xlsx"  can be downloaded [here](sourceWithCustProps.xlsx) for testing and output PDF file "outSourceWithCustProps" is available [here](outSourceWithCustProps.pdf) for analysis.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
@@ -117,7 +117,7 @@ The table that follows lists all features that are fully or partially supported 
 
 {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call **[Workbook.CalculateFormula()](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)** just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call **[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)** just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 

@@ -7,7 +7,7 @@ url: /net/create-pdfbookmarkentry-for-chart-sheet/
 
 ## **Possible Usage Scenarios**
 
-Earlier, Aspose.Cells would create [**PdfBookmarkEntry**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) for a normal sheet. But now Aspose.Cells can also create [**PdfBookmarkEntry**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) for chart sheet. Since chart sheet does not have any other cell except cell A1, so it will create [**PdfBookmarkEntry**](https://apireference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) for cell A1 only.
+Earlier, Aspose.Cells would create [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) for a normal sheet. But now Aspose.Cells can also create [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) for chart sheet. Since chart sheet does not have any other cell except cell A1, so it will create [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) for cell A1 only.
 
 ## **Create PdfBookmarkEntry for Chart Sheet**
 

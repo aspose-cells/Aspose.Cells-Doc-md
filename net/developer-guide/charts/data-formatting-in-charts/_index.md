@@ -16,12 +16,12 @@ There are two types of data to deal with while working on charts using Aspose.Ce
 
 ### **Chart Data**
 
-Chart data is the data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object's [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add) method.
+Chart data is the data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object's [**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add) method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsData-1.cs" >}}
 
 ### **Category Data**
 
-Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) by using its [**CategoryData**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
+Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) by using its [**CategoryData**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}

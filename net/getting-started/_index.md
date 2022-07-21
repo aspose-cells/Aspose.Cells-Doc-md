@@ -87,7 +87,7 @@ The steps below creates the Hello World application using the Aspose.Cells API:
 
 1. If you have a license, then [apply it](/cells/net/licensing/).
    If you are using the evaluation version, skip the license related code lines.
-1. Create an instance of the [Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class to create a new Excel file, or open an existing Excel file.
+1. Create an instance of the [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook) class to create a new Excel file, or open an existing Excel file.
 1. Access any desired cell of a worksheet in the Excel file.
 1. Insert the words **Hello World!** into a cell accessed.
 1. Generate the modified Microsoft Excel file.

@@ -17,6 +17,6 @@ This option can be accessed on the Excel interface by selecting any of the data 
 
 ## **Resize Chart's Data Label Shape To Fit Text**
 
-In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the Boolean type [**DataLabels.IsResizeShapeToFitText**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) property. The following piece of code shows the simple usage scenario of [**DataLabels.IsResizeShapeToFitText**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) property.
+In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the Boolean type [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) property. The following piece of code shows the simple usage scenario of [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) property.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}

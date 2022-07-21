@@ -7,7 +7,7 @@ url: /java/save-ods-file-in-odf-1-1-and-1-2-specifications/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports saving (**OpenDocument Spreadsheet**) ODS file in (**OpenDocument Format**) ODF 1.1 and ODF 1.2 specifications. Aspose.Cells has added [**OdsSaveOptions.setStrictSchema11()**](https://apireference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) property to use ODF 1.1 specification for saving ODS files. The default value of this property is **false**, so ODS file saved without this special settings will use the 1.2 specification.
+Aspose.Cells supports saving (**OpenDocument Spreadsheet**) ODS file in (**OpenDocument Format**) ODF 1.1 and ODF 1.2 specifications. Aspose.Cells has added [**OdsSaveOptions.setStrictSchema11()**](https://reference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) property to use ODF 1.1 specification for saving ODS files. The default value of this property is **false**, so ODS file saved without this special settings will use the 1.2 specification.
 
 {{% /alert %}}
 

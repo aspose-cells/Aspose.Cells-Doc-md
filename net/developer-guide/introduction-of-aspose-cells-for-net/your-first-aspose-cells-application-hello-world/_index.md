@@ -15,7 +15,7 @@ This tutorial shows how to create a very first application (Hello World) using A
 
 The steps below creates the Hello World application using the Aspose.Cells API:
 
-1. Create an instance of the [Workbook](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class.
+1. Create an instance of the [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook) class.
 1. If you have a license, then [apply it](/cells/net/licensing/).
    If you are using the evaluation version, skip the license related code lines.
 1. Create a new Excel file, or open an existing Excel file.

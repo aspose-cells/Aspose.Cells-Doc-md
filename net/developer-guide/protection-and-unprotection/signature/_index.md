@@ -17,7 +17,7 @@ A digital signature provides assurance that a workbook file is valid and no one 
 
 Use the Digital Signature dialog to attach a digital signature. The Digital Signature dialog lists valid certificates. You can use the Digital Signature dialog to view certificates and to select the one you want to use. If a workbook has a digital signature, the name of the signature appears in the **Certificate Name** field. If you click the **Remove** button in the Digital Signature dialog, Microsoft Excel removes the digital signature as well.
 
-Aspose.Cells provides the [**Aspose.Cells.DigitalSignatures**](https://apireference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature) namespace to perform the job (assign and validate digital signatures). The namespace has some useful features for adding and validating digital signatures.
+Aspose.Cells provides the [**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature) namespace to perform the job (assign and validate digital signatures). The namespace has some useful features for adding and validating digital signatures.
 
 Please see the following sample code that describes how you can perform the task using the Aspose.Cells for .NET API.
 

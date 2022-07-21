@@ -13,6 +13,6 @@ Aspose.Cells allows you to get merged cell areas in a worksheet. You can unmerge
 
 {{% /alert %}}
 
-The component provides the [**Cells.MergedCells**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells) attribute which can get an ArrayList of merged cell areas. The following code sample shows you how to detect merged cells in a worksheet.
+The component provides the [**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells) attribute which can get an ArrayList of merged cell areas. The following code sample shows you how to detect merged cells in a worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

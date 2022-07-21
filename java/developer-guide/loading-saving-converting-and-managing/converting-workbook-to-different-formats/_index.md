@@ -57,32 +57,32 @@ The code example below shows how to save a workbook as an MHTML file.
 
 ## **Converting Excel Files to HTML**
 
-The Aspose.Cells APIs provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the **[HtmlSaveOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)** class which allows developers to control several aspects of the output HTML.
+The Aspose.Cells APIs provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the **[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)** class which allows developers to control several aspects of the output HTML.
 
-The code below demonstrates how to use the **[HtmlSaveOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)** class to export Microsoft Excel files to HTML format without specifying additional parameters.
+The code below demonstrates how to use the **[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)** class to export Microsoft Excel files to HTML format without specifying additional parameters.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToHTMLFiles-ConvertingToHTMLFiles.java" >}}
 
 {{% alert color="primary" %}}
 
-You may achieve the same results by passing the **[SaveFormat.HTML](https://apireference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)** to the **[Workbook.save](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** method.
+You may achieve the same results by passing the **[SaveFormat.HTML](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)** to the **[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** method.
 
 {{% /alert %}}
 
 ### **Setting Image Preferences for HTML**
 
-Starting from 8.0.2, Aspose.Cells has exposed **[ImageOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)** for the **[HtmlSaveOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)** class, which allows developers to specify image preferences when saving spreadsheets to HTML format.
+Starting from 8.0.2, Aspose.Cells has exposed **[ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)** for the **[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)** class, which allows developers to specify image preferences when saving spreadsheets to HTML format.
 
 The image settings that can be applied are:
 
-- **[ImageType](https://apireference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**: Gets or sets the image type. Please note, all shapes, including charts, render as images in the output HTML.
-- **[Quality](https://apireference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)**: Gets or sets the quality of images between 0 to 100, when ImageFormat is specified as Jpeg.
-- **[VerticalResolution](https://apireference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)**: Gets or sets the vertical resolution of the image in dots per inch.
-- **[HorizontalResolution](https://apireference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)**: Gets or sets the horizontal resolution of the image in dots per inch.
-- **[TiffCompression](https://apireference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**: Gets or sets the compression type for the images when ImageFormat is specified as Tiff.
-- **[Transparent](https://apireference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**: Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
+- **[ImageType](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**: Gets or sets the image type. Please note, all shapes, including charts, render as images in the output HTML.
+- **[Quality](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)**: Gets or sets the quality of images between 0 to 100, when ImageFormat is specified as Jpeg.
+- **[VerticalResolution](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)**: Gets or sets the vertical resolution of the image in dots per inch.
+- **[HorizontalResolution](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)**: Gets or sets the horizontal resolution of the image in dots per inch.
+- **[TiffCompression](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**: Gets or sets the compression type for the images when ImageFormat is specified as Tiff.
+- **[Transparent](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**: Indicates if the background of an image should be transparent when ImageFormat is specified as Png.
 
-The code below demonstrates how to use **[HtmlSaveOptions.ImageOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)** to specify different preferences.
+The code below demonstrates how to use **[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)** to specify different preferences.
 
 |**Spreadsheet view before export**|**HTML view after export**|
 | :- | :- |
@@ -110,19 +110,19 @@ Please note that you cannot instruct Aspose.Cells for Java to change or remove t
 
 #### **Direct Conversion**
 
-Save an Excel file directly to PDF using the **[Workbook.save](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** method, and provide the **[SaveFormat.PDF](https://apireference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)** interface member. Direct conversion like this is the most efficient conversion method. It does not lose data or formatting but keeps the output PDF looking like the input Excel file.
+Save an Excel file directly to PDF using the **[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** method, and provide the **[SaveFormat.PDF](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)** interface member. Direct conversion like this is the most efficient conversion method. It does not lose data or formatting but keeps the output PDF looking like the input Excel file.
 
-To specify security options when saving to PDF, use **[PdfSaveOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**.
+To specify security options when saving to PDF, use **[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-Excel2PDFConversion-Excel2PDFConversion.java" >}}
 
 #### **Advanced Conversion**
 
-You may also opt to use the **[PdfSaveOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** class to set different attributes for the conversion. Setting different properties of **[PdfSaveOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** class will give you the control over the Print, Font, Security and Compression settings for the resultant PDF file. Most notable property is the **[Compliance](https://apireference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)** that enables you to save the Excel files to PDF/A compliant PDF files.
+You may also opt to use the **[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** class to set different attributes for the conversion. Setting different properties of **[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** class will give you the control over the Print, Font, Security and Compression settings for the resultant PDF file. Most notable property is the **[Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)** that enables you to save the Excel files to PDF/A compliant PDF files.
 
 ##### **Saving Excel Spreadsheets to PDF/A Complied Files**
 
-Below provided code snippet demonstrates the usage of the **[PdfSaveOptions](https://apireference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** class to save the Excel files to PDF/A compliant PDF format.
+Below provided code snippet demonstrates the usage of the **[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** class to save the Excel files to PDF/A compliant PDF format.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AdvancedConversiontoPdf-AdvancedConversiontoPdf.java" >}}
 
@@ -132,9 +132,9 @@ For Aspose.Cells versions prior to version 2.3.0 you need to use a component lik
 
 To convert spreadsheets to PDF with Aspose.Cells and Aspose.PDF:
 
-1. Instantiate an object of the **[Workbook](https://apireference.aspose.com/cells/java/com.aspose.cells/Workbook)** class by calling its empty constructor.
+1. Instantiate an object of the **[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** class by calling its empty constructor.
 1. Do your desired work on the spreadsheet using the Aspose.Cells API.
-1. Call the **[Workbook.save](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** method to save the spreadsheet:
+1. Call the **[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** method to save the spreadsheet:
    1. Set the file format to XML.
    1. Select Aspose_Pdf (a pre-defined value) from the FileFormatType interface. This directs the save method to generate a spreadsheet in the XML form compatible with the Aspose.PDF Schema so that Aspose.PDF for Java can then generate a PDF document.
 1. When the XML file has been created, create an object of the Pdf class in the aspose.pdf package.
@@ -145,7 +145,7 @@ The above steps are implemented below in an example.
 
 {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call **[Workbook.calculateFormula](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())** method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call **[Workbook.calculateFormula](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())** method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}
 

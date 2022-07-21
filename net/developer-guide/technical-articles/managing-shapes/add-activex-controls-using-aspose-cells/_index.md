@@ -7,7 +7,7 @@ url: /net/add-activex-controls-using-aspose-cells/
 
 {{% alert color="primary" %}}
 
-You can add ActiveX controls with Aspose.Cells using the [**ShapeCollection.AddActiveXControl()**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol) method. This method takes a parameter [**ControlType**](https://apireference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) which tells what type of ActiveX control needs to be added inside a worksheet. It has the following values.
+You can add ActiveX controls with Aspose.Cells using the [**ShapeCollection.AddActiveXControl()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol) method. This method takes a parameter [**ControlType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) which tells what type of ActiveX control needs to be added inside a worksheet. It has the following values.
 
 - ControlType.CheckBox
 - ControlType.ComboBox
@@ -22,7 +22,7 @@ You can add ActiveX controls with Aspose.Cells using the [**ShapeCollection.AddA
 - ControlType.ToggleButton
 - ControlType.Unknown
 
-Once, you have added the ActiveX control inside the shape collection, you can then access the ActiveX control object via [**Shape.ActiveXControl**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) property and then set its various properties.
+Once, you have added the ActiveX control inside the shape collection, you can then access the ActiveX control object via [**Shape.ActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) property and then set its various properties.
 
 {{% /alert %}}
 

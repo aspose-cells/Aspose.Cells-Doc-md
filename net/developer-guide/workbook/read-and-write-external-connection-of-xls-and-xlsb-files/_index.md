@@ -11,7 +11,7 @@ Aspose.Cells already supports read and write external connection of XLSX file b
 
 ## **Read and Write External Connection of XLS/XLSB file**
 
-The following sample code loads the sample XLSB file (XLS can also be loaded) and reads its first External Connection which is actually a Microsoft Access DB Connection. It then modifies the [**DBConnection.Name**](https://apireference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) property and saves it as output XLS/XLSB file. The screenshot shows the effect of code on [sample XLSB file](51740722.xlsb) and [output XLSB file](51740723.xlsb) after its execution. Please also see the console output of the sample code given below for a reference.
+The following sample code loads the sample XLSB file (XLS can also be loaded) and reads its first External Connection which is actually a Microsoft Access DB Connection. It then modifies the [**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) property and saves it as output XLS/XLSB file. The screenshot shows the effect of code on [sample XLSB file](51740722.xlsb) and [output XLSB file](51740723.xlsb) after its execution. Please also see the console output of the sample code given below for a reference.
 
 ![todo:image_alt_text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 

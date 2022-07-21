@@ -13,7 +13,7 @@ Sometimes, you need to search for and replace specific data in a range, ignoring
 
 {{% /alert %}}
 
-Aspose.Cells provides the [**FindOptions.setRange()**](https://apireference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) method for specifying a range when searching for data.
+Aspose.Cells provides the [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) method for specifying a range when searching for data.
 
 Suppose you want to search for the string **"search"** and replace it with **"replace"** in the range **E3:H6**. In the screenshot below, the string "search" can be seen in several cells but we want to replace it only in a given range, here highlighted in yellow.
 

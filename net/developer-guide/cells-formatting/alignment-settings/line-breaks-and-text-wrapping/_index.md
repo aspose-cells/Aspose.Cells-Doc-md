@@ -13,7 +13,7 @@ To ensure that text in a cell can be read, explicit line breaks and text wrappin
 
 ## **To Wrap Text in a Cell**
 
-To wrap text in a cell, use the [**Aspose.Cells.Style.IsTextWrapped**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) property.
+To wrap text in a cell, use the [**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) property.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 

@@ -7,7 +7,7 @@ url: /java/add-pdf-bookmarks-with-named-destinations/
 
 ## **Possible Usage Scenarios**
 
-Named Destinations are special kinds of bookmarks or links in PDF that do not depend on PDF pages. It means, if pages are added or deleted from PDF, bookmarks may become invalid but named destinations will remain intact. To create Named Destination, please set the [**PdfBookmarkEntry.DestinationName**](https://apireference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName) property.
+Named Destinations are special kinds of bookmarks or links in PDF that do not depend on PDF pages. It means, if pages are added or deleted from PDF, bookmarks may become invalid but named destinations will remain intact. To create Named Destination, please set the [**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName) property.
 
 ## **Add PDF Bookmarks with Named Destinations**
 

@@ -11,7 +11,7 @@ keywords: settings
 There are some settings we can specified by set GridWorkbookSettings :
 
  
-- **[GridWorkbookSettings](https://apireference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
+- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
 
 
 For example, the following code set the ReCalculateOnOpen to false to stop the caculate on opening the file :

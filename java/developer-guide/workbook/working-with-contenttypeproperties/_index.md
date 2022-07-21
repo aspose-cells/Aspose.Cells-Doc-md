@@ -5,7 +5,7 @@ weight: 140
 url: /java/working-with-contenttypeproperties/
 ---
 
-Aspose.Cells provides [**Workbook.ContentTypeProperties.Add**](https://apireference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) method to add custom ContentTypeProperties to an excel file. You may also make the property optional by setting the [**ContentTypeProperty.IsNillable**](https://apireference.aspose.com/cells/java/com.aspose.cells/contenttypeproperty#IsNillable) property to **true**. The following code snippet demonstrates adding optional custom ContentTypeProperties to an excel file. The following image shows both properties that were added by the sample code.
+Aspose.Cells provides [**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) method to add custom ContentTypeProperties to an excel file. You may also make the property optional by setting the [**ContentTypeProperty.IsNillable**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypeproperty#IsNillable) property to **true**. The following code snippet demonstrates adding optional custom ContentTypeProperties to an excel file. The following image shows both properties that were added by the sample code.
 
 ![todo:image_alt_text](working-with-contenttypeproperties_1.jpg)
 

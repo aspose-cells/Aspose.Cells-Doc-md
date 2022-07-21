@@ -15,7 +15,7 @@ Excel application provides the **Resize shape to fit text** option for Chart's D
 
 ## **Resize Chart's Data Label Shape To Fit Text**
 
-In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the Boolean type [**DataLabels.ResizeShapeToFitText**](https://apireference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText) property. The following piece of code shows the simple usage scenario of [**DataLabels.ResizeShapeToFitText**](https://apireference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText) property.
+In order to mimic Excel's feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the Boolean type [**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText) property. The following piece of code shows the simple usage scenario of [**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText) property.
 
 The chart looks as follows before executing the code.
 

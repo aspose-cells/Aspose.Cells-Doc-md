@@ -15,11 +15,11 @@ Aspose.Cells provides features for customizing themes and colors.
 
 Below are a few methods and properties that implement theme colors.
 
-- [**Style.ForegroundThemeColor**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/foregroundthemecolor): Used to set the foreground color.
-- [**Style.BackgroundThemeColor**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor): Used to set the background color.
-- [**Font.ThemeColor**](https://apireference.aspose.com/cells/net/aspose.cells/font/properties/themecolor): Used to set the font color.
-- [**Workbook.GetThemeColor**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor): Used to get a theme color.
-- [**Workbook.SetThemeColor**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): Used to set a theme color.
+- [**Style.ForegroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundthemecolor): Used to set the foreground color.
+- [**Style.BackgroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor): Used to set the background color.
+- [**Font.ThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/themecolor): Used to set the font color.
+- [**Workbook.GetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor): Used to get a theme color.
+- [**Workbook.SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): Used to set a theme color.
 
 The following example shows how to get and set theme colors.
 

@@ -35,18 +35,18 @@ To create validations using Microsoft Excel:
 ### **Data Validation with Aspose.Cells**
 
 Data validation is a powerful feature for validating the information entered into worksheets. With data validation, developers can provide users with a list of choices, restrict data entries to a specific type or size, etc.
-In Aspose.Cells, each [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class has a [**Validations**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) property which represents a collection of [**Validation**](https://apireference.aspose.com/cells/net/aspose.cells/validation) objects. To set up validation, set some of the [**Validation**](https://apireference.aspose.com/cells/net/aspose.cells/validation) class' properties as follows:
+In Aspose.Cells, each [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class has a [**Validations**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) property which represents a collection of [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) objects. To set up validation, set some of the [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) class' properties as follows:
 
-- Type – represents the validation type, which may be specified by using one of the predefined values in the [**ValidationType**](https://apireference.aspose.com/cells/net/aspose.cells/validationtype) enumeration.
-- Operator – represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [**OperatorType**](https://apireference.aspose.com/cells/net/aspose.cells/operatortype) enumeration.
+- Type – represents the validation type, which may be specified by using one of the predefined values in the [**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype) enumeration.
+- Operator – represents the operator to be used in the validation, which may be specified by using one of the predefined values in the [**OperatorType**](https://reference.aspose.com/cells/net/aspose.cells/operatortype) enumeration.
 - Formula1 – represents the value or expression associated with the first part of the data validation.
 - Formula2 – represents the value or expression associated with the second part of the data validation.
 
-When the [**Validation**](https://apireference.aspose.com/cells/net/aspose.cells/validation) object's properties have been configured, developers can use the [**CellArea**](https://apireference.aspose.com/cells/net/aspose.cells/cellarea) structure to store information about the cell range that will be validated using the created validation.
+When the [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) object's properties have been configured, developers can use the [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) structure to store information about the cell range that will be validated using the created validation.
 
 #### **Types of Data Validation**
 
-The [**ValidationType**](https://apireference.aspose.com/cells/net/aspose.cells/validationtype) enumeration has the following members:
+The [**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype) enumeration has the following members:
 
 |**Member Name**|**Description**|
 | :- | :- |
@@ -69,7 +69,7 @@ With this type of validation, users can enter only whole numbers within a specif
 
 This type of validation allows the user to enter values from a drop-down list. It provides a list: a series of rows that contain data. In the example, a second worksheet is added to hold the list source. Users can only select values from the list. The validation area is the cell range A1:A5 in the first worksheet.
 
-It is important here that you set the [**Validation.InCellDropDown**](https://apireference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) property to **true**.
+It is important here that you set the [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) property to **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
 
@@ -93,7 +93,7 @@ With this type of validation, users can enter text values of a specified length 
 
 ### **Data Validation Rules**
 
-When data validations are implemented, then validation can be checked by assigning different values in the cells. [**Cell.GetValidationValue**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:
+When data validations are implemented, then validation can be checked by assigning different values in the cells. [**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) can be used to fetch the validation result. The following example demonstrates this feature with different values. The sample file can be downloaded from the following link for testing:
 
 [sampleDataValidationRules.xlsx](77496339.xlsx)
 
@@ -101,7 +101,7 @@ When data validations are implemented, then validation can be checked by assigni
 
 ## **Check if validation in cell is dropdown**
 
-As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [**Validation.InCellDropDown**](https://apireference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:
+As we have seen there are many types of validations that can be implemented within a cell. If you want to check whether validation is dropdown or not, [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) property can be used to test this. The following sample code demonstrates the usage of this property. A sample file for testing can be downloaded from the following link:
 
 [sampleValidation.xlsx](79527947.xlsx)
 
@@ -109,9 +109,9 @@ As we have seen there are many types of validations that can be implemented with
 
 ## **Add CellArea to existing Validation**
 
-There might be cases where you might want to add [**CellArea**](https://apireference.aspose.com/cells/net/aspose.cells/cellarea) to existing [**Validation**](https://apireference.aspose.com/cells/net/aspose.cells/validation). When you add [**CellArea**](https://apireference.aspose.com/cells/net/aspose.cells/cellarea) using [**Validation.AddArea(CellArea cellArea)**](https://apireference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells checks all existing areas to see if the new area already exists. If the file has a large number of validations, this takes a performance hit. To overcome this, the API provides the [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://apireference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) method. The *checkIntersection* parameter indicates whether to check the intersection of a given area with existing validation areas. Setting it to **false** will disable the checking of other areas. The *checkEdge* parameter indicates whether to check the applied areas. If the new area becomes the top-left area, internal settings are rebuilt. If you are sure that the new area is not the top-left area, you may set this parameter as **false**.
+There might be cases where you might want to add [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) to existing [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation). When you add [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) using [**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells checks all existing areas to see if the new area already exists. If the file has a large number of validations, this takes a performance hit. To overcome this, the API provides the [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) method. The *checkIntersection* parameter indicates whether to check the intersection of a given area with existing validation areas. Setting it to **false** will disable the checking of other areas. The *checkEdge* parameter indicates whether to check the applied areas. If the new area becomes the top-left area, internal settings are rebuilt. If you are sure that the new area is not the top-left area, you may set this parameter as **false**.
 
-The following code snippet demonstrates the use of the [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://apireference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) method to add new [**CellArea**](https://apireference.aspose.com/cells/net/aspose.cells/cellarea) to existing [**Validation**](https://apireference.aspose.com/cells/net/aspose.cells/validation).
+The following code snippet demonstrates the use of the [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) method to add new [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) to existing [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddValidationArea-1.cs" >}}
 

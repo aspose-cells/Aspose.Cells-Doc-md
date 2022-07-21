@@ -11,7 +11,7 @@ When the picture is small and does not cover the entire surface of the shape wit
 
 ## **Tile Picture as a Texture inside the Shape**
 
-You can fill the shape surface with some image and tile it using the [**Shape.Fill.TextureFill.IsTiling**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling) property and setting it **true**. Please see the following sample code, its [sample Excel file](46465050.xlsx) as well as the screenshot for a reference.
+You can fill the shape surface with some image and tile it using the [**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling) property and setting it **true**. Please see the following sample code, its [sample Excel file](46465050.xlsx) as well as the screenshot for a reference.
 
 ## **Screenshot**
 

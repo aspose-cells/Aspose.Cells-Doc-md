@@ -9,7 +9,7 @@ url: /net/disable-text-wrapping-for-data-labels-of-the-chart/
 
 Microsoft Excel 2013 allows users to wrap or unwrap text inside the Data Labels of the Chart. By default, the text inside the Data Labels of the Chart is in the wrapped state.
 
-Aspose.Cells provides a [**DataLabels.IsTextWrapped**](https://apireference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/istextwrapped) property which you can set True or False to Enable or Disable Text Wrapping of Data Labels respectively.
+Aspose.Cells provides a [**DataLabels.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/istextwrapped) property which you can set True or False to Enable or Disable Text Wrapping of Data Labels respectively.
 
 {{% /alert %}}
 

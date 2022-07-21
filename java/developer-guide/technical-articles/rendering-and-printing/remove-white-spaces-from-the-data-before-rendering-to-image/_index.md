@@ -11,8 +11,8 @@ Sometimes, you need to present worksheet images in applications or web pages. Fo
 
 {{% /alert %}}
 
-The [**SheetRender**](https://apireference.aspose.com/cells/java/com.aspose.cells/SheetRender) class is capable of converting a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
+The [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) class is capable of converting a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.
 
-When you use the sheet-to-image feature, the output image has white/blank space, that is, a border, around it by default. You can remove this. Set the top, left, bottom, and right page setup margins for the source worksheet to 0 and specify [**ImageOrPrintOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) attributes accordingly.
+When you use the sheet-to-image feature, the output image has white/blank space, that is, a border, around it by default. You can remove this. Set the top, left, bottom, and right page setup margins for the source worksheet to 0 and specify [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) attributes accordingly.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}

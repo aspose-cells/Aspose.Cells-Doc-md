@@ -7,13 +7,13 @@ url: /net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-co
 
 {{% alert color="primary" %}}
 
-Normally, you add values inside the Table or List Object using [**Cell.PutValue()**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method. But sometimes, you might need to add values inside the Table or List Object using the row and column offsets.
+Normally, you add values inside the Table or List Object using [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method. But sometimes, you might need to add values inside the Table or List Object using the row and column offsets.
 
-In order to access Table or List Object from a cell, use the [**Cell.GetTable()**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) method. To add values inside it using the row and column offsets, use the [**ListObject.PutCellValue**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) method.
+In order to access Table or List Object from a cell, use the [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) method. To add values inside it using the row and column offsets, use the [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) method.
 
 {{% /alert %}}
 
-The following screenshot shows the source Excel file used inside the code. It contains the empty table and highlights the cell D5 which lies inside the table. We will access this table from cell D5 using [**Cell.GetTable()**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) method and then add the values inside it using both [**Cell.PutValue()**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) and [**ListObject.PutCellValue**](https://apireference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) methods.
+The following screenshot shows the source Excel file used inside the code. It contains the empty table and highlights the cell D5 which lies inside the table. We will access this table from cell D5 using [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) method and then add the values inside it using both [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) and [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) methods.
 
 ## Example
 

@@ -26,7 +26,7 @@ These are the steps required to search cells with specific styles in MS Excel.
 
 ## Using Aspose.Cells for Java
 
-Aspose.Cells for Java provides the feature to find cells in worksheet with some specific style. For this, the API provides [**FindOptions.setStyle()**](https://apireference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) property.
+Aspose.Cells for Java provides the feature to find cells in worksheet with some specific style. For this, the API provides [**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) property.
 
 ### Sample Code
 

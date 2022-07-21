@@ -7,7 +7,7 @@ url: /net/extract-text-from-the-gear-type-smartart-shape/
 
 ## **Possible Usage Scenarios**
 
-Aspose.Cells can extract text from the Gear Type Smart Art Shape. In order to do so, you should first convert Smart Art Shape to Group Shape using the [**Shape.GetResultOfSmartArt()**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) method. Then you should get the array of all the Individual Shapes forming the Group Shape using the [**GroupShape.GetGroupedShapes()**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) method. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the [**Shape.Text**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) property.
+Aspose.Cells can extract text from the Gear Type Smart Art Shape. In order to do so, you should first convert Smart Art Shape to Group Shape using the [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) method. Then you should get the array of all the Individual Shapes forming the Group Shape using the [**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) method. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) property.
 
 ## **Extract Text from the Gear Type SmartArt Shape**
 

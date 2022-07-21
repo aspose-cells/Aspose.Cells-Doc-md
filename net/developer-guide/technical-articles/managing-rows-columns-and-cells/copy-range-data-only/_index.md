@@ -17,8 +17,8 @@ This example shows how to:
 
 1. Create a workbook.
 1. Add data to cells in the first worksheet.
-1. Create a [**Range**](https://apireference.aspose.com/cells/net/aspose.cells/range).
-1. Create a [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object with specified formatting attributes.
+1. Create a [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1. Create a [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object with specified formatting attributes.
 1. Apply the style formatting to the range.
 1. Create another range of cells.
 1. Copy data of the first range to this second range.

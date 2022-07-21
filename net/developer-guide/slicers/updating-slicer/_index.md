@@ -7,7 +7,7 @@ url: /net/updating-slicer/
 
 ## **Possible Usage Scenarios**
 
-If you want to update slicer in Microsoft Excel, select or unselect its items, it will then update the slicer table or pivot table accordingly. Please use [**Slicer.SlicerCache.SlicerCacheItems**](https://apireference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems) to select or unselect slicer items with Aspose.Cells and then call [**Slicer.Refresh()**](https://apireference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh) method to update the slicer table or pivot table.
+If you want to update slicer in Microsoft Excel, select or unselect its items, it will then update the slicer table or pivot table accordingly. Please use [**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems) to select or unselect slicer items with Aspose.Cells and then call [**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh) method to update the slicer table or pivot table.
 
 ## **Updating Slicer**
 

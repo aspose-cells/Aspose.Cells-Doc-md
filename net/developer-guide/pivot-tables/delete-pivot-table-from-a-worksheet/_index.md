@@ -9,10 +9,10 @@ keywords: c# remove pivot table from worksheet, c# remove pivot table from excel
 
 {{% alert color="primary" %}}
 
-Aspose.Cells provides a feature to delete or remove Pivot Table from a Worksheet. You can delete the pivot table using pivot table object or pivot table position. Please use the [**Worksheet.PivotTables.Remove()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) method to delete the pivot table using pivot table object and [**Worksheet.PivotTables.RemoveAt()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) method to delete pivot table object using its position inside the pivot table collection.
+Aspose.Cells provides a feature to delete or remove Pivot Table from a Worksheet. You can delete the pivot table using pivot table object or pivot table position. Please use the [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) method to delete the pivot table using pivot table object and [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) method to delete pivot table object using its position inside the pivot table collection.
 
 {{% /alert %}}
 
-The following sample code deletes two pivot tables from the worksheet. First it removes pivot table using [**Worksheet.PivotTables.Remove()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) method and then it removes pivot table using [**Worksheet.PivotTables.RemoveAt()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) method
+The following sample code deletes two pivot tables from the worksheet. First it removes pivot table using [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) method and then it removes pivot table using [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) method
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}

@@ -23,7 +23,7 @@ The following are the steps involved in copying and moving worksheets within or 
 1. In the **Before sheet** box, click the sheet before which you want to insert the moved or copied sheets.
 1. To copy the sheets instead of moving them, select the **Create a copy** checkbox.
 ### **Copy Worksheets within a Workbook**
-Aspose.Cells provides an overloaded [WorksheetCollection.addCopy()](https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection#addCopy\(int\)) method that is used to copy an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.
+Aspose.Cells provides an overloaded [WorksheetCollection.addCopy()](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#addCopy\(int\)) method that is used to copy an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.
 
 The following example shows how to copy an existing worksheet within a workbook.
 
@@ -31,7 +31,7 @@ The following example shows how to copy an existing worksheet within a workbook.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-CopyWithinWorkbook.py" >}}
 ### **Copy Worksheets between Workbooks**
-Aspose.Cells provides the [Worksheet.copy()](https://apireference.aspose.com/cells/python/asposecells.api/worksheet#copy\(com.aspose.cells.Worksheet\)) method used to copy worksheets to other workbooks. The method takes the source worksheet object as a parameter.
+Aspose.Cells provides the [Worksheet.copy()](https://reference.aspose.com/cells/python/asposecells.api/worksheet#copy\(com.aspose.cells.Worksheet\)) method used to copy worksheets to other workbooks. The method takes the source worksheet object as a parameter.
 
 The following example shows how to copy a worksheet from one workbook to another workbook.
 
@@ -39,7 +39,7 @@ The following example shows how to copy a worksheet from one workbook to another
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-CopyWorksheetsBetweenWorkbooks.py" >}}
 ### **Move Worksheets within Workbook**
-Aspose.Cells provides the [Worksheet.moveTo()](https://apireference.aspose.com/cells/python/asposecells.api/worksheet#moveTo\(int\)) method used to move a worksheet to another location in the same spreadsheet.
+Aspose.Cells provides the [Worksheet.moveTo()](https://reference.aspose.com/cells/python/asposecells.api/worksheet#moveTo\(int\)) method used to move a worksheet to another location in the same spreadsheet.
 
 The following example shows how to move a worksheet to another location within the workbook.
 

@@ -17,7 +17,7 @@ Errors that mean that the formula cannot return a result - such as dividing a nu
 
 The error can be resolved using the options, or be ignored. Ignoring an error means that that error will not appear in further error checks.
 
-Aspose.Cells provides error checking option features. The [**ErrorCheckOption**](https://apireference.aspose.com/cells/net/aspose.cells/errorcheckoption) class manages different types of error checks, for example, numbers stored as text, formula calculation errors, and validation errors. Use the [**ErrorCheckType**](https://apireference.aspose.com/cells/net/aspose.cells/errorchecktype) enumeration to set the desired error checking.
+Aspose.Cells provides error checking option features. The [**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class manages different types of error checks, for example, numbers stored as text, formula calculation errors, and validation errors. Use the [**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype) enumeration to set the desired error checking.
 
 ## **Numbers Stored as Text**
 

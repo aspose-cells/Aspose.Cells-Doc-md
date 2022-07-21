@@ -13,6 +13,6 @@ Sometimes you need to search for and replace specific data in a range ignoring a
 
 {{% /alert %}}
 
-Aspose.Cells provides the [**FindOptions.SetRange()**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) method for specifying a range when searching data. Below code sample search and replace data in a range.
+Aspose.Cells provides the [**FindOptions.SetRange()**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/methods/setrange) method for specifying a range when searching data. Below code sample search and replace data in a range.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SearchReplaceDataInRange-1.cs" >}}

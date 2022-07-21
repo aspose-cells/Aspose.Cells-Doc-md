@@ -7,7 +7,7 @@ url: /net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-sha
 
 ## **Possible Usage Scenarios**
 
-Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells provides [**TextOptions.FarEastName**](https://apireference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.LatinName**](https://apireference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname) property.
+Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells provides [**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname) property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using [**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname) property.
 
 ## **Specify the Far East and Latin Name of the Font in Text Options of Shape**
 

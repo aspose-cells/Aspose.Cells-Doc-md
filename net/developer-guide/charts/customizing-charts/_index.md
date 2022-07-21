@@ -13,7 +13,7 @@ So far, when we've discussed charts, we've looked at standard charts that have t
 
 Developers can create custom charts at run-time using Aspose.Cells.
 
-A chart is composed of a data series. Each data series in Aspose.Cells is represented by a [**Series**](https://apireference.aspose.com/cells/net/aspose.cells.charts/series) object whereas [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object serves as a collection of [**Series**](https://apireference.aspose.com/cells/net/aspose.cells.charts/series) objects. When creating a custom chart, developers have the freedom to use different types of charts for different data series (collected in the [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object).
+A chart is composed of a data series. Each data series in Aspose.Cells is represented by a [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) object whereas [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object serves as a collection of [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) objects. When creating a custom chart, developers have the freedom to use different types of charts for different data series (collected in the [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) object).
 
 The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet.
 

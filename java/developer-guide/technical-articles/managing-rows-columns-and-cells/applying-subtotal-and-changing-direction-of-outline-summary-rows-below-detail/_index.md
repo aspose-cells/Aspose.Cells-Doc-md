@@ -9,7 +9,7 @@ url: /java/applying-subtotal-and-changing-direction-of-outline-summary-rows-belo
 
 This article will explain how to apply Subtotal to data and changing the direction of Outline Summary Rows below Detail.
 
-You can apply Subtotal to data using [**Worksheet.Cells.subtotal()**](https://apireference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) method. It takes the following parameters.
+You can apply Subtotal to data using [**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) method. It takes the following parameters.
 
 - **CellArea** - The range to apply subtotal on
 - **GroupBy** - The field to group by, as a zero-based integer offset
@@ -19,7 +19,7 @@ You can apply Subtotal to data using [**Worksheet.Cells.subtotal()**](https://ap
 - **PageBreaks** - Indicates whether add a page break between groups
 - **SummaryBelowData** - Indicates whether add summary below data.
 
-Also, you can control the direction of Outline **Summary rows below detail** as shown in the following screenshot using [**Worksheet.getOutline().SummaryRowBelow**](https://apireference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) property. You can open this setting in Microsoft Excel using **Data > Outline > Settings**
+Also, you can control the direction of Outline **Summary rows below detail** as shown in the following screenshot using [**Worksheet.getOutline().SummaryRowBelow**](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) property. You can open this setting in Microsoft Excel using **Data > Outline > Settings**
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 

@@ -9,8 +9,8 @@ url: /net/render-worksheet-to-graphic-context/
 
 Aspose.Cells can now render worksheet to graphic context. Graphic context can be anything like image file, screen or printer etc. Please use one of the following two methods to render worksheet to graphic context.
 
-- [**SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)**](https://apireference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/1)
-- [**SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)**](https://apireference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/2)
+- [**SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/1)
+- [**SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/2)
 
 {{% /alert %}}
 

@@ -27,7 +27,7 @@ Before creating charts it's important to understand some basic concepts that are
 
 #### **Charting Objects**
 
-Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Charts**](https://apireference.aspose.com/cells/net/aspose.cells.charts) namespace used to create the charts supported by Aspose.Cells. These classes are used to create **charting objects**, which act as the chart building blocks. The charting objects are listed below:
+Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) namespace used to create the charts supported by Aspose.Cells. These classes are used to create **charting objects**, which act as the chart building blocks. The charting objects are listed below:
 
 - Series, a single data series in a chart.
 - Axis, a chart's axis.
@@ -54,26 +54,26 @@ Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Charts**](
 
 As mentioned above, all charting objects are instances of their respective classes and provide specific properties and methods to perform specific tasks. Use charting objects to create charts.
 
-Add any type of chart to a worksheet using the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection. Each item in the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection represents a [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object. A [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
+Add any type of chart to a worksheet using the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection. Each item in the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) collection represents a [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object. A [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object encapsulates all other charting objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
 
 ### **Create Chart Using Aspose.Cells**
 
 **Steps:**
 
-1. Add some data to worksheet cells with the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) object's [**PutValue**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method.
+1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) object's [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method.
    This will be used as the data source for the chart.
-1. Add a chart to the worksheet by calling the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection's [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) method, encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) object.
-1. Specify the type of chart with the [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) enumeration.
-   For example, the example below uses the [**ChartType.Pyramid**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) value as the chart type.
-1. Access the new [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object from the [**Charts**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection by passing its index.
-1. Use any of the charting objects encapsulated in the [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) object to manage the chart.
-   The example below uses the [**SeriesCollection**](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
+1. Add a chart to the worksheet by calling the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection's [**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object.
+1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) enumeration.
+   For example, the example below uses the [**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) value as the chart type.
+1. Access the new [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object from the [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) collection by passing its index.
+1. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) object to manage the chart.
+   The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) charting object to specify the chart's data source.
 
 When adding source data to chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
 
 These general steps allow you to create any type of chart. Use different charting objects to create different charts.
 
-It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [**Aspose.Cells.Charts.ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype).
+It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
 
 The pre-defined chart types are:
 
@@ -162,17 +162,17 @@ When the example code is executed, a pyramid chart is added to the worksheet.
 
 #### **Line Chart**
 
-In the above example, simply changing the [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
+In the above example, simply changing the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) to *Line* creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
 #### **Bubble Chart**
 
-In order to create a bubble chart, the [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to [**ChartType.Bubble**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
+In order to create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to [**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet.
 
 #### **Line with Data Marker Chart**
 
-In order to create a line with the data marker chart, [**ChartType**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
+In order to create a line with the data marker chart, [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) has to be set to *ChartType.LineWithDataMarkers* and few extra properties such as background area,Series Markers, Values & XValues need to be set accordingly. Upon executing the following code, a line with the data marker chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 

@@ -23,11 +23,11 @@ Three types of hyperlink can be added to a cell using Aspose.Cells:
 
 Aspose.Cells allows developers to add hyperlinks to Excel files either using the API or [designer spreadsheets](/cells/net/what-is-a-designer-spreadsheet/) (spreadsheets where hyperlinks are created manually and Aspose.Cells is used to import them into other spreadsheets).
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**WorksheetCollection**](https://apireference.aspose.com/cells/net/aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides different methods for adding different hyperlinks to Excel files.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides different methods for adding different hyperlinks to Excel files.
 
 ### **Adding Link to a URL**
 
-The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class contains a [**Hyperlinks**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) collection. Each item in the Hyperlinks collection represents a Hyperlink. Add hyperlinks to URLs by calling the Hyperlinks collection's Add method. The Add method takes the following parameters:
+The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class contains a [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) collection. Each item in the Hyperlinks collection represents a Hyperlink. Add hyperlinks to URLs by calling the Hyperlinks collection's Add method. The Add method takes the following parameters:
 
 - Cell name, the name of the cell the hyperlink will be added to.
 - Number of rows, the number of rows in this hyperlink range.

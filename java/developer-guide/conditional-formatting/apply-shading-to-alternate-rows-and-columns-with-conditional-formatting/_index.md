@@ -7,7 +7,7 @@ url: /java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatti
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells APIs provide the means to add & manipulate conditional formatting rules for [Worksheet](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) object. These rules can be tailored in a number of ways to get the desired formatting based on conditions or rules. This article will demonstrate the use of Aspose.Cells for Java API to apply shading to alternate rows & columns with the help of conditional formatting rules and Excel's built-in functions.
+Aspose.Cells APIs provide the means to add & manipulate conditional formatting rules for [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object. These rules can be tailored in a number of ways to get the desired formatting based on conditions or rules. This article will demonstrate the use of Aspose.Cells for Java API to apply shading to alternate rows & columns with the help of conditional formatting rules and Excel's built-in functions.
 
 {{% /alert %}} 
 ## **Apply Shading to Alternate Rows & Columns using Conditional Formatting**

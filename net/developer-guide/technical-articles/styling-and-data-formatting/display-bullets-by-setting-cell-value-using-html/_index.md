@@ -9,7 +9,7 @@ keywords: add bullets in excel, add bullets in excel c#, display bullets in exce
 
 {{% alert color="primary" %}}
 
-Aspose.Cells supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use [**Cell.HtmlString**](https://apireference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) property to set the cell value with our HTML.
+Aspose.Cells supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) property to set the cell value with our HTML.
 
 {{% /alert %}}
 

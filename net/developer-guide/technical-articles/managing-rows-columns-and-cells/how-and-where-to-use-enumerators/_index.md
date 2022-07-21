@@ -23,9 +23,9 @@ Aspose.Cells APIs provide a bunch of enumerators however, this article mainly di
 
 There are various ways to access the Cells Enumerator, and one can use any of these methods based on the application requirements. Here are the methods that return the cells enumerator.
 
-1. [**Cells.GetEnumerator**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/getenumerator)
-1. [**Row.GetEnumerator**](https://apireference.aspose.com/cells/net/aspose.cells/row/methods/getenumerator)
-1. [**Range.GetEnumerator**](https://apireference.aspose.com/cells/net/aspose.cells/range/methods/getenumerator)
+1. [**Cells.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getenumerator)
+1. [**Row.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/getenumerator)
+1. [**Range.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/getenumerator)
 
 All of the above-mentioned methods return the enumerator that allows traversing the collection of cells which have been initialized.
 
@@ -41,13 +41,13 @@ The following code example demonstrates the implementation of the IEnumerator in
 
 ### **Rows Enumerator**
 
-The Rows Enumerator can be accessed while using the [**RowCollection.GetEnumerator**](https://apireference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator) method. The following code example demonstrates the implementation of the IEnumerator interface for [**RowCollection**](https://apireference.aspose.com/cells/net/aspose.cells/rowcollection).
+The Rows Enumerator can be accessed while using the [**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator) method. The following code example demonstrates the implementation of the IEnumerator interface for [**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-RowEnumerator.cs" >}}
 
 ### **Columns Enumerator**
 
-The Columns Enumerator can be accessed while using the [**ColumnCollection.GetEnumerator**](https://apireference.aspose.com/cells/net/aspose.cells/columncollection) method. The following code example demonstrates the implementation of the IEnumerator interface for [**ColumnCollection**](https://apireference.aspose.com/cells/net/aspose.cells/columncollection).
+The Columns Enumerator can be accessed while using the [**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) method. The following code example demonstrates the implementation of the IEnumerator interface for [**ColumnCollection**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 
@@ -57,7 +57,7 @@ In order to discuss the advantages of using enumerators, let's take a real time 
 
 **Scenario**
 
-An application requirement is to traverse all cells in a given [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) to read their values. There could be several ways to implement this goal. A few are demonstrated below.
+An application requirement is to traverse all cells in a given [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) to read their values. There could be several ways to implement this goal. A few are demonstrated below.
 
 ### **Using Display Range**
 
@@ -69,7 +69,7 @@ An application requirement is to traverse all cells in a given [**Worksheet**](h
 
 As you can observe that both of the above-mentioned approaches use more or less similar logic, that is; loop over all cells in the collection to read the cell values. This could be problematic for a number of reasons as discussed below.
 
-1. APIs such as [**MaxRow**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**MaxColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**MaxDataColumn**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) require extra time to gather the corresponding statistics. In case the data matrix (rows x columns) is large, using these APIs could impose a performance penalty.
+1. APIs such as [**MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) require extra time to gather the corresponding statistics. In case the data matrix (rows x columns) is large, using these APIs could impose a performance penalty.
 1. In most of the cases, not all cells in a given range are instantiated. In such situations to check every cell in the matrix is not so efficient as compared to check only the initialized cells.
 1. Accessing a cell in a loop as Cells row, column will cause all cell objects in a range to be instantiated, which may eventually cause OutOfMemoryException.
 

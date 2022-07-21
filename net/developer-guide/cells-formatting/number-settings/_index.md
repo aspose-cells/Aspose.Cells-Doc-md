@@ -19,13 +19,13 @@ To set display formats in Microsoft Excel:
 
 In the left side of the dialog, there are many categories of values like **General**, **Number**, **Currency**, **Accounting**, **Date**, **Time**, **Percentage,** etc. Aspose.Cells supports all of these display formats.
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the [**Cells**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection represents an object of the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in the Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. Each item in the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection represents an object of the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class.
 
-Aspose.Cells provides [**GetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) and [**SetStyle**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) methods for the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) class. These methods are used to get and set a cell's formatting. The [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) class provides some useful properties for dealing with the display formats of numbers and dates.
+Aspose.Cells provides [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) and [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) methods for the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class. These methods are used to get and set a cell's formatting. The [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) class provides some useful properties for dealing with the display formats of numbers and dates.
 
 ### **Using Built-in Number Formats**
 
-Aspose.Cells offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the [**Number**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/number) property of the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the [**Number**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/number) property of the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object to apply the display format. This approach is fast. The built-in number formats supported by Aspose.Cells are listed below.
+Aspose.Cells offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) property of the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) property of the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object to apply the display format. This approach is fast. The built-in number formats supported by Aspose.Cells are listed below.
 
 |**Value**|**Type**|**Format String**|
 | :- | :- | :- |
@@ -70,14 +70,14 @@ Aspose.Cells offers some built-in number formats to configure the display format
 
 ### **Using Custom Number Formats**
 
-To define your own customized format string for setting the display format, use the [**Style**](https://apireference.aspose.com/cells/net/aspose.cells/style) object's [**Custom**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/custom) property. This approach is not as fast as using pre-set formats but it is more flexible.
+To define your own customized format string for setting the display format, use the [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) object's [**Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) property. This approach is not as fast as using pre-set formats but it is more flexible.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingCustomNumber-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-If you use the [**Custom**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/custom) property to set the number format, any previous format set using the [**Number**](https://apireference.aspose.com/cells/net/aspose.cells/style/properties/number) property is overridden and vice versa.
+If you use the [**Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) property to set the number format, any previous format set using the [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) property is overridden and vice versa.
 
 {{% /alert %}}
 

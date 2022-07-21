@@ -15,12 +15,12 @@ This article explains how to pass in PDF security options when saving spreadshee
 
 {{% /alert %}} 
 
-Aspose.Cells APIs provide the [**PdfSecurityOptions**](https://apireference.aspose.com/cells/java/com.aspose.cells/PdfSecurityOptions) class for working with the security of PDF file format. The sample code below describes how to create secured PDF files with Aspose.Cells for Java API.
+Aspose.Cells APIs provide the [**PdfSecurityOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSecurityOptions) class for working with the security of PDF file format. The sample code below describes how to create secured PDF files with Aspose.Cells for Java API.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SecurePDFDocuments-SecurePDFDocuments.java" >}}
 
 {{% alert color="primary" %}}
 
-If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) just before rendering it to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If the spreadsheet contains formulas, it is best to call [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) just before rendering it to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

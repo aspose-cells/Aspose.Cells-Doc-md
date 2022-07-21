@@ -11,7 +11,7 @@ With Aspose.Cells it is possible to open files, for example to retrieve data, or
 
 {{% /alert %}} 
 ## **Opening a File via a Path**
-Developers can open a Microsoft Excel file using its file path on the local computer by specifying it in the [IWorkbook](https://apireference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class constructor. Simply pass the path in the constructor as String. Aspose.Cells will automatically detect the file format type.
+Developers can open a Microsoft Excel file using its file path on the local computer by specifying it in the [IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) class constructor. Simply pass the path in the constructor as String. Aspose.Cells will automatically detect the file format type.
 
 
 

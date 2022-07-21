@@ -11,7 +11,7 @@ Needing to read cell values in multiple threads simultaneously is a common requi
 
 {{% /alert %}}
 
-To read cell values in more than one thread simultaneously, set [**Worksheet.Cells.MultiThreadReading**](https://apireference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) to **true**. If you do not, you might get the wrong cell values.
+To read cell values in more than one thread simultaneously, set [**Worksheet.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) to **true**. If you do not, you might get the wrong cell values.
 
 The following code:
 

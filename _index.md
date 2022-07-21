@@ -25,7 +25,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for .NET Release Notes](/cells/net/release-notes/)
 - [Aspose.Cells for .NET Product Page](https://products.aspose.com/cells/net/)
 - [Install Aspose.Cells for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Cells/)
-- [Aspose.Cells for .NET API Reference Guide](https://apireference.aspose.com/cells/net)
+- [Aspose.Cells for .NET API Reference Guide](https://reference.aspose.com/cells/net)
 - [Aspose.Cells for .NET Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -50,7 +50,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for Java Product Page](https://products.aspose.com/cells/java/)
 - [Download Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
 - [Install Aspose.Cells for Java from Maven Repository](/cells/java/installation/)
-- [Aspose.Cells for Java API Reference Guide](https://apireference.aspose.com/cells/java)
+- [Aspose.Cells for Java API Reference Guide](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -73,7 +73,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for C++ Release Notes](/cells/cpp/release-notes/)
 - [Aspose.Cells for C++ Product Page](https://products.aspose.com/cells/cpp/)
 - [Install Aspose.Cells for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Cells.CPP/)
-- [Aspose.Cells for C++ API Reference Guide](https://apireference.aspose.com/cells/cpp)
+- [Aspose.Cells for C++ API Reference Guide](https://reference.aspose.com/cells/cpp)
 - [Download Examples at GitHub Repository](https://github.com/aspose-cells/Aspose.Cells-for-C)
 - [Aspose.Cells for C++ Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
@@ -99,7 +99,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for Android via Java Product Page](https://products.aspose.com/cells/android-java/)
 - [Download Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
 - [Install Aspose.Cells for Android via Java from Maven](/cells/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
-- [Aspose.Cells for Android via Java API Reference Guide](https://apireference.aspose.com/cells/java) (Aspose.Cells for Android via Java is very similar to Aspose.Cells for Java. So, you can use the same API Reference Guide)
+- [Aspose.Cells for Android via Java API Reference Guide](https://reference.aspose.com/cells/java) (Aspose.Cells for Android via Java is very similar to Aspose.Cells for Java. So, you can use the same API Reference Guide)
 
 {{% alert color="primary" %}}
 
@@ -121,7 +121,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for Node.js via Java Release Notes](/cells/nodejsjava/release-notes/)
 - [Aspose.Cells for Node.js via Java Product Page](https://products.aspose.com/cells/nodejs-java/)
 - [Download Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
-- [Aspose.Cells for Node.js via Java API Reference Guide](https://apireference.aspose.com/cells/nodejs)
+- [Aspose.Cells for Node.js via Java API Reference Guide](https://reference.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -145,7 +145,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for PHP via Java Release Notes](/cells/phpjava/release-notes/)
 - [Aspose.Cells for PHP via Java Product Page](https://products.aspose.com/cells/php-java/)
 - [Download Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
-- [Aspose.Cells for PHP via Java API Reference Guide](https://apireference.aspose.com/cells/php)
+- [Aspose.Cells for PHP via Java API Reference Guide](https://reference.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for PHP via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -168,7 +168,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Cells for Python via Java Release Notes](/cells/pythonjava/release-notes/)
 - [Aspose.Cells for Python via Java Product Page](https://products.aspose.com/cells/python-java/)
 - [Download Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python)
-- [Aspose.Cells for Python via Java API Reference Guide](https://apireference.aspose.com/cells/python)
+- [Aspose.Cells for Python via Java API Reference Guide](https://reference.aspose.com/cells/python)
 - [Aspose.Cells for Python via Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Python via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 

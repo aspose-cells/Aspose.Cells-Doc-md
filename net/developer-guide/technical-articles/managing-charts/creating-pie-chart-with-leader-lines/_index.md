@@ -7,11 +7,11 @@ url: /net/creating-pie-chart-with-leader-lines/
 
 {{% alert color="primary" %}}
 
-This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for .NET API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.HasLeaderLines**](https://apireference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) property.
+This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for .NET API. In Excel, the 'Show leader lines' option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the [**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) property.
 
 {{% /alert %}}
 
-To demonstrate the usage of Aspose.Cells for .NET API to create a pie chart with leader lines, we will first create a new [**Workbook**](https://apireference.aspose.com/cells/net/aspose.cells/workbook) and input some data that will serve as the series data source. Once the data is in place, we will add a [**Chart**](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart) of type [**ChartType.Pie**](https://apireference.aspose.com/cells/net/aspose.cells.charts/charttype) to the collection of charts and set its different aspects to get the desired chart view.
+To demonstrate the usage of Aspose.Cells for .NET API to create a pie chart with leader lines, we will first create a new [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) and input some data that will serve as the series data source. Once the data is in place, we will add a [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) of type [**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) to the collection of charts and set its different aspects to get the desired chart view.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-CreateWorkbook.cs" >}}
 

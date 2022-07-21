@@ -14,20 +14,20 @@ It is possible to use Aspose.Cells to add pivot tables to spreadsheets programma
 
 ### **Pivot Table Object Model**
 
-Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Pivot**](https://apireference.aspose.com/cells/net/aspose.cells.pivot) namespace that are used to create and control pivot tables. These classes are used to create and set [**PivotTable**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objects, the building blocks of a pivot table. The objects are:
+Aspose.Cells provides a special set of classes in the [**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot) namespace that are used to create and control pivot tables. These classes are used to create and set [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objects, the building blocks of a pivot table. The objects are:
 
-- [**PivotField**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) represents a field in a [**PivotTable**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
-- [**PivotFieldCollection**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) represents a collection of all the [**PivotField**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) objects in the [**PivotTable**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
-- [**PivotTable**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable) represents a PivotTable on a worksheet.
-- [**PivotTableCollection**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) represents a collection of all the [**PivotTable**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objects on a worksheet.
+- [**PivotField**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) represents a field in a [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) represents a collection of all the [**PivotField**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) objects in the [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
+- [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) represents a PivotTable on a worksheet.
+- [**PivotTableCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) represents a collection of all the [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objects on a worksheet.
 
 ### **Creating a Simple Pivot Table Using Aspose.Cells**
 
-1. Add data to a worksheet using the [**Cell**](https://apireference.aspose.com/cells/net/aspose.cells/cell) object's [**PutValue**](https://apireference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method.
+1. Add data to a worksheet using the [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) object's [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method.
    This data will be used as the pivot table's data source.
-1. Add a pivot table to the worksheet by calling the [**PivotTables**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) collection's [**add**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index) method, which is encapsulated in the Worksheet object.
-1. Access the new [**PivotTable**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable) object from the [**PivotTables**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) collection by passing the PivotTable index.
-1. Use any of the [**PivotTable**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objects (explained above) to manage the pivot table.
+1. Add a pivot table to the worksheet by calling the [**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) collection's [**add**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index) method, which is encapsulated in the Worksheet object.
+1. Access the new [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) object from the [**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) collection by passing the PivotTable index.
+1. Use any of the [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objects (explained above) to manage the pivot table.
 
 After executing the example code, a pivot table is added to the worksheet.
 

@@ -33,7 +33,7 @@ This guide document will select one or two shapes from each type to make samples
 ## **Adding Pictures in Excel Worksheet in C#**
 
 Adding pictures to a spreadsheet is very easy. It only takes a few lines of code:
-Simply call the [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method of the [**Pictures**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection (encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) object). The [**Add**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method takes the following parameters:
+Simply call the [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method of the [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object). The [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) method takes the following parameters:
 
 - **Upper left row index**, the index of the upper left row.
 - **Upper left column index**, the index of the upper left column.
@@ -44,10 +44,10 @@ Simply call the [**Add**](https://apireference.aspose.com/cells/net/aspose.cells
 
 ## **Inserting OLE Objects into Excel Worksheet in C#**
 
-Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobject), represents an OLE Object. It has some important members:
+Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) class, used to add a new OLE Object to the collection list. Another class, [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), represents an OLE Object. It has some important members:
 
-- The [**ImageData**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.
-- The [**ObjectData**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.
+- The [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.
+- The [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.
 
 The following example shows how to add an OLE Object(s) into a worksheet.
 
@@ -78,9 +78,9 @@ You can use the following method to insert a line in the worksheet.
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
-The method returns a [LineShape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
+The method returns a [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
 
 {{% /alert %}}
 
@@ -119,9 +119,9 @@ You can use the following method to insert a line arrow in the worksheet.
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
-The method returns a [LineShape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
+The method returns a [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) object.
 
 {{% /alert %}}
 
@@ -160,9 +160,9 @@ You can use the following method to insert a rectangle in the worksheet.
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
-The method returns a [RectangleShape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) object.
+The method returns a [RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) object.
 
 {{% /alert %}}
 
@@ -202,9 +202,9 @@ You can use the following method to insert a cube in the worksheet.
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
 {{% /alert %}}
 
@@ -244,9 +244,9 @@ You can use the following method to insert a callout quad arrow in the worksheet
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
 {{% /alert %}}
 
@@ -286,9 +286,9 @@ You can use the following method to insert a multiplication sign in the workshee
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
 {{% /alert %}}
 
@@ -328,9 +328,9 @@ You can use the following method to insert a multidocument in the worksheet.
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
 {{% /alert %}}
 
@@ -370,9 +370,9 @@ You can use the following method to insert a Five-pointed star in the worksheet.
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
 {{% /alert %}}
 
@@ -412,9 +412,9 @@ You can use the following method to insert a thought bubble cloud in the workshe
 	int left,
 	int height,
 	int width
-)](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-The method returns a [Shape](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
+The method returns a [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) object.
 
 {{% /alert %}}
 

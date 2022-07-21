@@ -7,7 +7,7 @@ url: /net/find-cells-with-specific-style/
 
 {{% alert color="primary" %}}
 
-Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells to find all cells with a common style. Aspose.Cells provides the [**FindOptions.Style**](https://apireference.aspose.com/cells/net/aspose.cells/findoptions/properties/style) property which you can use to specify the style to search cells for.
+Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells to find all cells with a common style. Aspose.Cells provides the [**FindOptions.Style**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/style) property which you can use to specify the style to search cells for.
 
 {{% /alert %}}
 

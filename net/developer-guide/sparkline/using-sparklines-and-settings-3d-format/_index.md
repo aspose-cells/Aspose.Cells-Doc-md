@@ -18,7 +18,7 @@ To insert sparklines in Microsoft Excel 2010:
 
 Sparklines help you to see trends, for example, the win or loss record for a softball league. Sparklines can even sum up the entire season of each team in the league.
 ### **Sparklines using Aspose.Cells**
-Developers can create, delete or read sparklines (in the template file) using the API provided by Aspose.Cells. The classes that manage sparklines are contained in the [Aspose.Cells.Charts](https://apireference.aspose.com/cells/net/aspose.cells.charts) namespace so you need to import this namespace before using these features.
+Developers can create, delete or read sparklines (in the template file) using the API provided by Aspose.Cells. The classes that manage sparklines are contained in the [Aspose.Cells.Charts](https://reference.aspose.com/cells/net/aspose.cells.charts) namespace so you need to import this namespace before using these features.
 
 By adding custom graphics for a given data range, developers have the freedom to add different types of tiny charts to selected cell areas.
 

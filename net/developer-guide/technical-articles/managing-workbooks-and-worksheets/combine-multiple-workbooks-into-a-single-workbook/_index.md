@@ -13,7 +13,7 @@ Sometimes, you need to combine workbooks with various content like images, chart
 
 ## **Combining Workbooks with Images and Charts**
 
-The example code combines two workbooks into a single workbook using Aspose.Cells. The code loads the source workbooks, uses the [**Workbook.combine()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) method to combine them and saves the output workbook.
+The example code combines two workbooks into a single workbook using Aspose.Cells. The code loads the source workbooks, uses the [**Workbook.combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) method to combine them and saves the output workbook.
 
 ### **Source Workbooks**
 

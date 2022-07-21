@@ -7,7 +7,7 @@ url: /net/apply-shading-to-alternate-rows-and-columns-with-conditional-formattin
 
 {{% alert color="primary" %}}
 
-Aspose.Cells APIs provide the means to add & manipulate conditional formatting rules for the [**Worksheet**](https://apireference.aspose.com/cells/net/aspose.cells/worksheet) object. These rules can be tailored in a number of ways to get the desired formatting based on conditions or rules. This article will demonstrate the use of Aspose.Cells for .NET APIs to apply shading to alternate rows & columns with the help of conditional formatting rules and Excel's built-in functions.
+Aspose.Cells APIs provide the means to add & manipulate conditional formatting rules for the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object. These rules can be tailored in a number of ways to get the desired formatting based on conditions or rules. This article will demonstrate the use of Aspose.Cells for .NET APIs to apply shading to alternate rows & columns with the help of conditional formatting rules and Excel's built-in functions.
 
 {{% /alert %}}
 

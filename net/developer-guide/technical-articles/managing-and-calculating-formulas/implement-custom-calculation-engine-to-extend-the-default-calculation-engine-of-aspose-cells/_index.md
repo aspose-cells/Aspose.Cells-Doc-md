@@ -11,11 +11,11 @@ Aspose.Cells has a powerful calculation engine that can calculate almost all of 
 
 The following property and classes are used in implementing this feature.
 
-- **[CalculationOptions.CustomEngine](https://apireference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/customengine)**
-- **[AbstractCalculationEngine](https://apireference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**
-- **[CalculationData](https://apireference.aspose.com/cells/net/aspose.cells/calculationdata)**
+- **[CalculationOptions.CustomEngine](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/customengine)**
+- **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**
+- **[CalculationData](https://reference.aspose.com/cells/net/aspose.cells/calculationdata)**
 
-The following code implements the Custom Calculation Engine. It implements the interface **[AbstractCalculationEngine](https://apireference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)** which has a **[Calculate(CalculationData data)](https://apireference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)** method. This method is called against all of your formulas. Inside this method, we capture the **Sum** formula and increases its value by 30. So if the Aspose.Cells calculated value is 20, then our custom engine will make it 50 by adding 30.
+The following code implements the Custom Calculation Engine. It implements the interface **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)** which has a **[Calculate(CalculationData data)](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)** method. This method is called against all of your formulas. Inside this method, we capture the **Sum** formula and increases its value by 30. So if the Aspose.Cells calculated value is 20, then our custom engine will make it 50 by adding 30.
 
 ### **Programming Sample**
 

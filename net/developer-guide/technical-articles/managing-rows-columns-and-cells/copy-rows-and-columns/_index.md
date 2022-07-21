@@ -21,7 +21,7 @@ The following example shows how to copy a single row in a worksheet. The example
 
 ### **Copying Multiple Rows**
 
-You can also copy multiple rows onto a new destination while using the [**Cells.CopyRows**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) method which takes an additional parameter of type integer to specify the number of source rows to be copied.
+You can also copy multiple rows onto a new destination while using the [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) method which takes an additional parameter of type integer to specify the number of source rows to be copied.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleRows-1.cs" >}}
 
@@ -35,7 +35,7 @@ The following example shows how to copy a column in a worksheet. This example us
 
 ### **Copying Multiple Columns**
 
-Similar to [**Cells.CopyRows**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) method, the Aspose.Cells APIs also provide the [**Cells.CopyColumns**](https://apireference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index) method in order to copy multiple source columns to a new location.
+Similar to [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) method, the Aspose.Cells APIs also provide the [**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index) method in order to copy multiple source columns to a new location.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleColumns-1.cs" >}}
 

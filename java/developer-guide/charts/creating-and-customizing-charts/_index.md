@@ -24,36 +24,36 @@ Before creating charts it's important to understand some basic concepts that are
 
 Aspose.Cells provides a special set of classes used to create all kinds of charts. These classes are used to create **charting objects**, which act as the chart building blocks. The charting objects are listed below:
 
-- [**Axis**](https://apireference.aspose.com/cells/java/com.aspose.cells/Axis), a chart's axis.
-- [**Chart**](https://apireference.aspose.com/cells/java/com.aspose.cells/Chart), a single Excel chart.
-- [**ChartArea**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartArea), the chart area in the worksheet.
-- [**ChartDataTable**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartDataTable), a chart data table.
-- [**ChartFrame**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartFrame), the frame object in a chart.
-- [**ChartPoint**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartPoint), a single point in a series in a chart.
-- [**ChartPointCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), a collection that contains all the points in one series.
-- [**ChartCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartCollection), a collection of [**Chart**](https://apireference.aspose.com/cells/java/com.aspose.cells/Chart) objects.
-- DataLabels, DataLabels for the specified [**Series**](https://apireference.aspose.com/cells/java/com.aspose.cells/Series), [**ChartPoint**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**Trendline**](https://apireference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
-- [**FillFormat**](https://apireference.aspose.com/cells/java/com.aspose.cells/FillFormat), fill format for a shape.
-- [**Floor**](https://apireference.aspose.com/cells/java/com.aspose.cells/Floor), the floor of a 3D chart.
-- [**Legend**](https://apireference.aspose.com/cells/java/com.aspose.cells/Legend), the chart legend.
-- [**Line**](https://apireference.aspose.com/cells/java/com.aspose.cells/Line), the chart line.
-- [**SeriesCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/SeriesCollection), a collection of [**Series**](https://apireference.aspose.com/cells/java/com.aspose.cells/Series) objects.
-- [**Series**](https://apireference.aspose.com/cells/java/com.aspose.cells/Series), represents a single data series in a chart.
-- [**TickLabels**](https://apireference.aspose.com/cells/java/com.aspose.cells/TickLabels), the tick mark labels associated with tick marks on a chart axis.
-- [**Title**](https://apireference.aspose.com/cells/java/com.aspose.cells/Title), the title of a chart or axis.
-- [**Trendline**](https://apireference.aspose.com/cells/java/com.aspose.cells/Trendline), a trendline in a chart.
-- [**TrendlineCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection), a collection of all Trendline objects for the specified data series.
-- [**Walls**](https://apireference.aspose.com/cells/java/com.aspose.cells/Walls), the walls of a 3D chart.
+- [**Axis**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis), a chart's axis.
+- [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart), a single Excel chart.
+- [**ChartArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea), the chart area in the worksheet.
+- [**ChartDataTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable), a chart data table.
+- [**ChartFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame), the frame object in a chart.
+- [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), a single point in a series in a chart.
+- [**ChartPointCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), a collection that contains all the points in one series.
+- [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection), a collection of [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objects.
+- DataLabels, DataLabels for the specified [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**Trendline**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
+- [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), fill format for a shape.
+- [**Floor**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), the floor of a 3D chart.
+- [**Legend**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), the chart legend.
+- [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), the chart line.
+- [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection), a collection of [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objects.
+- [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), represents a single data series in a chart.
+- [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), the tick mark labels associated with tick marks on a chart axis.
+- [**Title**](https://reference.aspose.com/cells/java/com.aspose.cells/Title), the title of a chart or axis.
+- [**Trendline**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), a trendline in a chart.
+- [**TrendlineCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection), a collection of all Trendline objects for the specified data series.
+- [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls), the walls of a 3D chart.
 
 #### **Using Charting Objects**
 
 As mentioned above, all charting objects are instances of their respective classes and provide specific properties and methods to perform specific tasks. Use charting objects to create charts.
 
-Add any type of chart to a worksheet using the [**ChartCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection. Each item in the [**ChartCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection represents a [**Chart**](https://apireference.aspose.com/cells/java/com.aspose.cells/Chart) object. A [**Chart**](https://apireference.aspose.com/cells/java/com.aspose.cells/Chart) object encapsulates all Charting Objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
+Add any type of chart to a worksheet using the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection. Each item in the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection represents a [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) object. A [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) object encapsulates all Charting Objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.
 
 ### **Creating a Simple Chart**
 
-It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [**ChartType**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartType). The pre-defined chart types are:
+It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). The pre-defined chart types are:
 
 |**Chart Types**|**Description**|
 | :- | :- |
@@ -128,14 +128,14 @@ It is possible to create many different types of charts with Aspose.Cells. All s
 |PyramidColumn3D|Represents 3D Pyramid Column Chart|
 To create a chart using Aspose.Cells:
 
-1. Add some data to worksheet cells with the [**Cell**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cell) object's [**setValue**](https://apireference.aspose.com/cells/java/com.aspose.cells/cell#Value) method.
+1. Add some data to worksheet cells with the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) object's [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) method.
    This will be used as the data source for the chart.
-1. Add a chart to the worksheet by calling the [**ChartCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection's [*add*](https://apireference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) method, encapsulated in the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) object.
-1. Specify the type of chart with the [**ChartType**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartType) enumeration.
-   For example, the example uses the [**ChartType.PYRAMID**](https://apireference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) value as the chart type.
-1. Access the new [**Chart**](https://apireference.aspose.com/cells/java/com.aspose.cells/Chart) object from the [**ChartCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection by passing its index.
-1. Use any of the charting objects encapsulated in the [**Chart**](https://apireference.aspose.com/cells/java/com.aspose.cells/Chart) object to manage the chart.
-   The example below uses the [**SeriesCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) charting object to specify the chart's data source.
+1. Add a chart to the worksheet by calling the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection's [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) method, encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) object.
+1. Specify the type of chart with the [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) enumeration.
+   For example, the example uses the [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) value as the chart type.
+1. Access the new [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) object from the [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) collection by passing its index.
+1. Use any of the charting objects encapsulated in the [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) object to manage the chart.
+   The example below uses the [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) charting object to specify the chart's data source.
 
 When adding source data to chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "1,2,3").
 
@@ -155,7 +155,7 @@ When the example code is executed, a pyramid chart is added to the worksheet as 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
-To create a bubble chart, the [**ChartType**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.BUBBLE**](https://apireference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet as shown below.
+To create a bubble chart, the [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.BUBBLE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE) and few extra properties such as BubbleSizes, Values & XValues need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet as shown below.
 
 **Bubble chart with its data source**
 
@@ -165,7 +165,7 @@ To create a bubble chart, the [**ChartType**](https://apireference.aspose.com/ce
 
 #### **Line with Data Marker Chart**
 
-To create a line with a data marker chart, the [**ChartType**](https://apireference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.LINE_WITH_DATA_MARKERS**](https://apireference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) and few extra properties such as background area,Series Markers , Values & XValues need to be set accordingly. Upon executing the following code, a line with a data marker chart is added to the worksheet.
+To create a line with a data marker chart, the [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) has to be set to [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) and few extra properties such as background area,Series Markers , Values & XValues need to be set accordingly. Upon executing the following code, a line with a data marker chart is added to the worksheet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -177,7 +177,7 @@ So far, when we've discussed charts, we've looked at standard charts that have t
 
 Developers can create custom charts at runtime using Aspose.Cells simple API.
 
-A chart is composed of a data series. Each data series in Aspose.Cells is represented by a [**Series**](https://apireference.aspose.com/cells/java/com.aspose.cells/Series) object whereas the [**SeriesCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) object serves as a collection of [**Series**](https://apireference.aspose.com/cells/java/com.aspose.cells/Series) objects. When creating a custom chart, developers have the freedom to use different types of charts for different data series (collected in a [**SeriesCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) object).
+A chart is composed of a data series. Each data series in Aspose.Cells is represented by a [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) object whereas the [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) object serves as a collection of [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objects. When creating a custom chart, developers have the freedom to use different types of charts for different data series (collected in a [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) object).
 
 {{% alert color="primary" %}}
 

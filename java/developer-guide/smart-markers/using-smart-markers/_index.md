@@ -164,7 +164,7 @@ The following sample code explains the use of the HTML property of the Smart Mar
 
 ## **Getting Notifications while Merging Data with Smart Markers**
 
-Sometimes, it may be required to get the notifications about the cell reference or the particular Smart Marker being processed before the completion. This can be achieved using the [**WorkbookDesigner.CallBack**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack) property and [**ISmartMarkerCallBack**](https://apireference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)
+Sometimes, it may be required to get the notifications about the cell reference or the particular Smart Marker being processed before the completion. This can be achieved using the [**WorkbookDesigner.CallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack) property and [**ISmartMarkerCallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)
 
 For sample code and detail explanation, please see this article.
 

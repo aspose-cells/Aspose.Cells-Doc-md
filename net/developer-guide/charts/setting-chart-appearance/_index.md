@@ -29,19 +29,19 @@ The following code snippet demonstrates how to set the chart area.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartArea-1.cs" >}}
 ### **Setting Chart Lines**
-Developers can also apply different kinds of styles on the lines or data markers of the [SeriesCollection](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection). The following code snippet demonstrates how to set chart lines using Aspose.Cells API.
+Developers can also apply different kinds of styles on the lines or data markers of the [SeriesCollection](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection). The following code snippet demonstrates how to set chart lines using Aspose.Cells API.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartLines-1.cs" >}}
 ### **Applying Microsoft Excel 2007/2010 Themes to Charts**
-Developers can apply different Microsoft Excel themes/colors to [SeriesCollection](https://apireference.aspose.com/cells/net/aspose.cells.charts/seriescollection) or other chart objects as shown below in the example.
+Developers can apply different Microsoft Excel themes/colors to [SeriesCollection](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) or other chart objects as shown below in the example.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ApplyingThemes-1.cs" >}}
 ### **Setting the Titles of Charts or Axes**
-You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://apireference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title) property that can be used to set their titles as shown below in an example.
+You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment. Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a [Title](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title) property that can be used to set their titles as shown below in an example.
 
 The following code snippet demonstrates how to set titles to charts and axes.
 
@@ -51,7 +51,7 @@ The following code snippet demonstrates how to set titles to charts and axes.
 ### **Working with Major Gridlines**
 It is possible to customize the look of major gridlines. Hide or show gridlines, or define their color and other settings. Below, we show how to hide gridlines and how to change their color.
 #### **Hiding Major Gridlines**
-Developers can control the visibility of major gridlines by setting the [IsVisible](https://apireference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) property of the [Line](https://apireference.aspose.com/cells/net/aspose.cells.drawing/line) object to **true** or **false**.
+Developers can control the visibility of major gridlines by setting the [IsVisible](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) property of the [Line](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) object to **true** or **false**.
 
 The following code snippet demonstrates how to hide major gridlines. After hiding the major gridlines, a column chart will be added to the worksheet will have not gridlines.
 

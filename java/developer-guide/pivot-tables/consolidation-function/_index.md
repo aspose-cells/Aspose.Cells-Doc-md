@@ -11,7 +11,7 @@ description: Apply ConsolidationFunction to data fields of the pivot table.
 
 Aspose.Cells can be used to apply ConsolidationFunction to data fields (or value fields) of the pivot table. In Microsoft Excel, you can right-click the value field and then select **Value Field Settings...** option and then select the tab **Summarize Values By**. From there, you can select any ConsolidationFunction of your choice like Sum, Count, Average, Max, Min, Product, Distinct Count, etc.
 
-Aspose.Cells provides [**ConsolidationFunction**](https://apireference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) enumeration to support the following consolidation functions.
+Aspose.Cells provides [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) enumeration to support the following consolidation functions.
 
 - ConsolidationFunction.SUM
 - ConsolidationFunction.COUNT

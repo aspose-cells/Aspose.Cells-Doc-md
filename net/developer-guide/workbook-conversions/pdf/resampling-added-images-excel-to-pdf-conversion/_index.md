@@ -17,10 +17,10 @@ Please see the following sample code that describes how to perform the task usin
 
 {{% alert color="primary" %}}
 
-Using the the [**SetImageResample**](https://apireference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample) option minimizes the size of the output PDF but it may affect the image quality a bit.
+Using the the [**SetImageResample**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample) option minimizes the size of the output PDF but it may affect the image quality a bit.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://apireference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
+If your spreadsheet contains formulas, it is best to call [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.
 
 {{% /alert %}}

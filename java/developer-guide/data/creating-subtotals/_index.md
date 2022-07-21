@@ -30,9 +30,9 @@ To create subtotals in Microsoft Excel:
 
 ## **Using Aspose.Cells API**
 
-Aspose.Cells provides a class, [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://apireference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://apireference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file.
+Aspose.Cells provides a class, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contains a [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) that allows access to each worksheet in the Excel file.
 
-A worksheet is represented by the [**Worksheet**](https://apireference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The class provides a wide range of properties and methods for managing a worksheet and other objects. Each worksheet consists of a [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) collection. To create subtotals in a worksheet, use the [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells) class' subtotal method. Provide appropriate values for the parameters of the method to get the result you want.
+A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The class provides a wide range of properties and methods for managing a worksheet and other objects. Each worksheet consists of a [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection. To create subtotals in a worksheet, use the [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class' subtotal method. Provide appropriate values for the parameters of the method to get the result you want.
 
 The example below shows how to create subtotals in the first worksheet of the template file (Book1.xls) using Aspose.Cells API.
 

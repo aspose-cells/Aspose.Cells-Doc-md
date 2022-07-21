@@ -7,7 +7,7 @@ url: /net/export-print-area-range-to/
 
 ## **Possible Usage Scenarios**
 
-This is a common scenario where we need to export only print area i.e. selected range of cells instead of the entire sheet to HTML. This feature is already available for PDF rendering, however, now you can perform this task for HTML as well. First set the print area in the page setup object of the worksheet. Later on, use [**HtmlSaveOptions.ExportPrintAreaOnly**](https://apireference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportprintareaonly) flag to export selected range only.
+This is a common scenario where we need to export only print area i.e. selected range of cells instead of the entire sheet to HTML. This feature is already available for PDF rendering, however, now you can perform this task for HTML as well. First set the print area in the page setup object of the worksheet. Later on, use [**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportprintareaonly) flag to export selected range only.
 
 ## Sample Code
 

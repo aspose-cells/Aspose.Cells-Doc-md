@@ -29,14 +29,14 @@ Generally, sorting is performed on a list - defined as a contiguous group of dat
 
 ## **Sorting Data with Aspose.Cells**
 
-Aspose.Cells provides the [**DataSorter**](https://apireference.aspose.com/cells/java/com.aspose.cells/DataSorter) class used to sort data in ascending or descending order. The class has some important members, for example, methods like [**setKey1**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) ... [**setKey2**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2) and [**setOrder1**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) ... [**setOrder2**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#Order2). These members are used to define sorted keys and specify the key sort order.
+Aspose.Cells provides the [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) class used to sort data in ascending or descending order. The class has some important members, for example, methods like [**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) ... [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2) and [**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) ... [**setOrder2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order2). These members are used to define sorted keys and specify the key sort order.
 
-You have to define keys and set the sort order before implementing data sorting. The class provides the [**sort**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) method used to perform data sorting based on the cell data in a worksheet.
+You have to define keys and set the sort order before implementing data sorting. The class provides the [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) method used to perform data sorting based on the cell data in a worksheet.
 
-The [**sort**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) method accepts the following parameters:
+The [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) method accepts the following parameters:
 
-- [**Cells**](https://apireference.aspose.com/cells/java/com.aspose.cells/Cells), the cells of the worksheet.
-- [**CellArea**](https://apireference.aspose.com/cells/java/com.aspose.cells/CellArea), the range of cells. Define the cell area before applying data sorting.
+- [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), the cells of the worksheet.
+- [**CellArea**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea), the range of cells. Define the cell area before applying data sorting.
 
 This example shows how to sort data using Aspose.Cells API. The example uses a template file "Book1.xls" and sorts data for data range (A1:B14) in the first worksheet:
 
@@ -56,13 +56,13 @@ After executing the code below, data is sorted appropriately as you can see from
 
 {{% alert color="primary" %}}
 
-To sort *LeftToRight*, use the [**DataSorter.SortLeftToRight**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight) attribute.
+To sort *LeftToRight*, use the [**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight) attribute.
 
 {{% /alert %}}
 
 ## **Sorting data with background color**
 
-Excel provides the feature to sort data based on the background color. The same feature is provided using Aspose.Cells using [**DataSorter**](https://apireference.aspose.com/cells/java/com.aspose.cells/DataSorter) where [**SortOnType.CELL_COLOR**](https://apireference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) can be used in [**addKey()**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) to sort data based on the background color. All the cells which contain specified color in the [**addKey()**](https://apireference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
+Excel provides the feature to sort data based on the background color. The same feature is provided using Aspose.Cells using [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) where [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) can be used in [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) to sort data based on the background color. All the cells which contain specified color in the [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
 
 Following are the sample files which can be downloaded for testing this feature:
 

@@ -7,7 +7,7 @@ url: /net/refresh-and-calculate-pivot-table-having-calculated-items/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells now supports refreshing and calculating pivot table having calculated items. Please use the [**PivotTable.RefreshData()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/refreshdata) and [**PivotTable.CaclulateData()**](https://apireference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/calculatedata) as usual to perform this function.
+Aspose.Cells now supports refreshing and calculating pivot table having calculated items. Please use the [**PivotTable.RefreshData()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/refreshdata) and [**PivotTable.CaclulateData()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/calculatedata) as usual to perform this function.
 
 {{% /alert %}}
 

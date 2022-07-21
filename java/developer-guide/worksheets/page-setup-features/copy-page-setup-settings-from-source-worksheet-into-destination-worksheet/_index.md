@@ -7,11 +7,11 @@ url: /java/copy-page-setup-settings-from-source-worksheet-into-destination-works
 
 ## **Possible Usage Scenarios**
 
-When you add a new sheet to a workbook, it contains the default Page Setup settings. There may be times when you need to transfer the settings ([**PageSetup**](https://apireference.aspose.com/cells/java/com.aspose.cells/PageSetup)) from one worksheet to another worksheet. This document explains how to copy Page Setup settings from one worksheet to another using Aspose.Cells APIs.
+When you add a new sheet to a workbook, it contains the default Page Setup settings. There may be times when you need to transfer the settings ([**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) from one worksheet to another worksheet. This document explains how to copy Page Setup settings from one worksheet to another using Aspose.Cells APIs.
 
 ## **Copy Page Setup Settings from Source Worksheet into Destination Worksheet**
 
-The following sample code illustrates how to copy Page Setup settings from one worksheet to another using [**PageSetup.Copy()**](https://apireference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) method. Please see the following sample code and its console output for a reference.
+The following sample code illustrates how to copy Page Setup settings from one worksheet to another using [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) method. Please see the following sample code and its console output for a reference.
 
 ## **Sample Code**
 

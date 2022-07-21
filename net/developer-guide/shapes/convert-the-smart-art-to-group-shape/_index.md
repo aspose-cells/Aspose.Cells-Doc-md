@@ -7,7 +7,7 @@ url: /net/convert-the-smart-art-to-group-shape/
 
 ## **Possible Usage Scenarios**
 
-You can convert Smart Art Shape into Group Shape using the [**Shape.GetResultOfSmartArt()**](https://apireference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) method. It will enable you to handle smart art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
+You can convert Smart Art Shape into Group Shape using the [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) method. It will enable you to handle smart art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.
 
 ## **Convert the Smart Art to Group Shape**
 
