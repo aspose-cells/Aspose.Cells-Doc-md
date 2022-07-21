@@ -1,9 +1,9 @@
 ---
-title: Settings for GridJs
+title: Settings for workbook
 type: docs
 weight: 250
 url: /net/aspose-cells-gridweb/workbook-settings/
-aliases: /net/aspose-cells-gridweb/settings/
+aliases: /net/aspose-cells-gridweb/gridworkbooksettings/
 description: This article describes the workbook settings for GridWeb.
 keywords: settings
 ---
