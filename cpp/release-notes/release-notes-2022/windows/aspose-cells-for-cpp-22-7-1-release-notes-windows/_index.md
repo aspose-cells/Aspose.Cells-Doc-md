@@ -13,4 +13,4 @@ This page contains release notes for Aspose.Cells for C++ 22.7.1 for Windows.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|CELLSCPP-865|Optimize tags for nuget |Optimiz|
+|CELLSCPP-865|Optimize tags for nuget |Optimize|
