@@ -37,7 +37,7 @@ The **[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/filef
 
 To open a Microsoft Excel 95/5.0 file, use **[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** and set the related attribute for the **[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** class for the template file to be loaded. A sample file for testing this feature can be downloaded from the following link:
 
-[Excel95_5.0.xls](Excel95_5.0.xls)
+[Excel95 File](Excel95.xls)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel95Files-1.cs" >}}
 
@@ -56,6 +56,9 @@ To open a Microsoft Excel 2007/2010/2013/2016/2019 and Office 365 format, that i
 ### **Opening Encrypted Excel Files**
 
 It's possible to create encrypted Excel files using Microsoft Excel. To open an encrypted file, use the **[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** and set its attributes and options (for example, give a password) for the template file to be loaded.
+A sample file for testing this feature can be downloaded from the following link:
+
+[Encrypted Excel](EncryptedExcel.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningEncryptedExcelFiles-1.cs" >}}
 
