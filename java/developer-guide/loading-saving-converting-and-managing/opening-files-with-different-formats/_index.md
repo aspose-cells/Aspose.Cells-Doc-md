@@ -9,6 +9,9 @@ url: /java/opening-files-with-different-formats/
 
 Developers use of Aspose.Cells to open files for different purposes. For example, open a file to retrieve data from it, or use a pre-defined designer spreadsheet file to speed up your development process. Aspose.Cells allows developers to open different kinds of source files. These source files can be Microsoft Excel reports, SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV) files. This article discusses opening these different source files using Aspose.Cells.
 
+If you need to know all supported file formats, please refer to the following pages:
+[Supported File Formats](https://docs.aspose.com/cells/java/supported-file-formats/)
+
 {{% /alert %}}
 
 ## **Simple Ways to Open Excel Files**

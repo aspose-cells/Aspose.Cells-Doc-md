@@ -13,6 +13,9 @@ keywords: open xlsx files, open html files, read fods files, read ods files, rea
 
 Using Aspose.Cells you can open files with different formats. **Aspose.Cells** can open a range of file formats such as Microsoft Excel spreadsheets (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV) files etc.
 
+If you need to know all supported file formats, please refer to the following pages:
+[Supported File Formats](https://docs.aspose.com/cells/net/supported-file-formats/)
+
 {{% /alert %}}
 
 ## **Opening Files with Different Formats**
