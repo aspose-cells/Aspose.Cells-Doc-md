@@ -17,6 +17,12 @@ Developers can open a Microsoft Excel file using its file path on the local comp
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFileViaPath.py" >}}
 
+## **Opening a File via a Stream**
+
+It is also simple to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *BufferStream* object that contains the file.
+
+{{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFileViaStream.py" >}}
+
 ## **Opening a File with Data only**
 
 To open a file with data only, use the **[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** and **[LoadFilter](https://reference.aspose.com/cells/python-java/asposecells.api/LoadFilter)** classes to set the related attribute and options of the classes for the template file to be loaded.

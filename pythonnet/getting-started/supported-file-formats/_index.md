@@ -1,8 +1,8 @@
 ---
 title: Supported File Formats
 type: docs
-weight: 10
-url: /python-java/supported-file-formats/
+weight: 20
+url: /python-net/supported-file-formats/
 ---
 
 |**Format**|**Description**|**Load**|**Save**|
@@ -14,7 +14,7 @@ url: /python-java/supported-file-formats/
 |[XLT](https://docs.fileformat.com/spreadsheet/xlt/)|Excel 97 - Excel 2003 Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTX](https://docs.fileformat.com/spreadsheet/xltx/)|Excel Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTM](https://docs.fileformat.com/spreadsheet/xltm/)|Excel Macro-Enabled Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|XLAM|An Excel Macro-Enabled Add-In file that's used to add new functions to Excel.| |{{< emoticons/tick >}}|
+|[XLAM](https://docs.fileformat.com/spreadsheet/xlam/)|An Excel Macro-Enabled Add-In file that's used to add new functions to Excel.| |{{< emoticons/tick >}}|
 |[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV (Comma Separated Value) file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV (Tab-separated values) file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |TabDelimited|Tab-delimited text file, same with TSV file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -23,7 +23,8 @@ url: /python-java/supported-file-formats/
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML file.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Numbers|The document is created by Apple's "Numbers" application which forms part of Apple's iWork office suite, a set of applications which run on the Mac OS X and iOS operating systems.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|The document is created by Apple's "Numbers" application which forms part of Apple's iWork office suite, a set of applications which run on the Mac OS X and iOS operating systems.|{{< emoticons/tick >}}||
+|[JSON](https://docs.fileformat.com/web/json/)|JavaScript Object Notation|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Data Interchange Format.| |{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.| |{{< emoticons/tick >}}|
@@ -35,5 +36,7 @@ url: /python-java/supported-file-formats/
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG is a type of image format that is saved using the method of lossy compression.| |{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Graphical Interchange Format| |{{< emoticons/tick >}}|
 |[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Represents a markdown document.| |{{< emoticons/tick >}}|
-|SXC|An XML based format used by OpenOffice and StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|FODS|This is an Open Document format stored as flat XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|An XML based format used by OpenOffice and StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[FODS](https://docs.fileformat.com/spreadsheet/fods/)|This is an Open Document format stored as flat XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DOCX](https://docs.fileformat.com/word-processing/docx/)|A well-known format for Microsoft Word documents that is a combination of XML and binary files.||{{< emoticons/tick >}}|
+|[PPTX](https://docs.fileformat.com/presentation/pptx/)|The PPTX format is based on the Microsoft PowerPoint open XML presentation file format.||{{< emoticons/tick >}}|
