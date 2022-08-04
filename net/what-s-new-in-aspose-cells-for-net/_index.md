@@ -8,6 +8,10 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.8
+
+* Support exporting comments and notes as displayed on sheet to html
+
 ## Aspose.Cells for .NET 22.7
 
 * Support to export html to a single file with page header/footer
