@@ -11,6 +11,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 ## Aspose.Cells for .NET 22.8
 
 * Support exporting comments and notes as displayed on sheet to html
+* Support specifying worksheets to output while converting to pdf/xps
 
 ## Aspose.Cells for .NET 22.7
 

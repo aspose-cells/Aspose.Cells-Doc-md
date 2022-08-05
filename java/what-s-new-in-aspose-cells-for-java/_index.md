@@ -9,6 +9,11 @@ aliases: [/java/whats-new/]
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 22.8
+
+* Support exporting comments and notes as displayed on sheet to html
+* Support specifying worksheets to output while converting to pdf/xps
+
 ## Aspose.Cells for Java 22.7
 
 * Support to read OOXML format template files which contains abnormal zip data and cannot be processed by java's ZipInputStream
