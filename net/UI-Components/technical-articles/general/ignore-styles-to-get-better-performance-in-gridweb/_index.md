@@ -8,7 +8,7 @@ keywords: performance
 ---
 
 ## **Possible Usage Scenarios**
-Please use [GridWeb.IgnoreStyleWithNoData](https://apireference.aspose.com/cells/net/aspose.cells.gridweb/gridweb/properties/ignorestylewithnodata) property to load less required rows/columns from the workbook.
+Please use [GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata) property to load less required rows/columns from the workbook.
  
 ## **Get Better Performance While Loading Workbook**
 Please check the [sample excel file](largerowswithstyle.xlsx) 
