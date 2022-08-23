@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for CPP 22.4 Release Notes Windows
 type: docs
-weight: 9
+weight: 87
 url: /cpp/aspose-cells-for-cpp-22-4-release-notes-windows/
 ---
 
