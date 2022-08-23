@@ -139,3 +139,20 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    ishighlightall: true or false,whether to highlight all
    isrerender: true or false,whether to reRender
 ```
+
+
+-  set custom image highlight function
+```javascript
+xs.sheet.setCustomHighlightImgFunc(func)
+   // the parameters are:
+   func: the custom highlight image function, it shall take two parameters ,first is ishighlight,the second one is the fabric image object 
+   //we use fabric js to manage image object, please refer to http://fabricjs.com/image-filters to check more info
+   below is an example for the decleare function: 
+   const customHighlightImage = (ishighlight, imgobj) => {
+            imgobj.filters[0] = ishighlight ? new fabric.Image.filters.Sepia() : false;
+            imgobj.applyFilters();
+        }
+    
+```
+
+You can find more in our github demo page https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

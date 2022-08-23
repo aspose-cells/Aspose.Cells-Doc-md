@@ -76,4 +76,30 @@ xs.sheet.updateCustomContextMenuItem(key,item)
  for example: {'text':'menu updated'}
  key:the key of the menu item
 ```
+
+
+-  get custom context menu items for image/shape
+```javascript
+xs.sheet.getImageContextMenuItems()
+```
+
+-  add custom context menu items for image/shape
+```javascript
+xs.sheet.addImageContextMenuItems(itemsarray)
+ // the parameter is:
+ itemsarray: the array of custom menu items,the callback function x parameter will be the js variable of xs.sheet
+ for example: [{'key':'key4','text':'img operation1','callback':(x)=>{console.log('operation1 on image');}},{'key':'key3','text':'img operation2','callback':(x)=>{console.log('operation2 on image');}}]
+```
+
+-  delete custom context menu items for image/shape
+```javascript
+ xs.sheet.delImageContextMenuItems(keysarray)()
+ // the parameter is:
+ keysarray: the array of the keys of the menu items
+ for example: ['key4','key3']
+```
+
+You can find more in our github demo page https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+
+
  
