@@ -67,7 +67,7 @@ In this example, I use macOS High Sierra to show how to start using Aspose.Cells
 3. run test with the following code:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
 4. If you need to use drawing-related features, please install libgdiplus in macOS, see:
-[How to Install libgdiplus in macOS](/cells/net/how-to-install-libgdiplus-in-macOS/)
+[How to Install libgdiplus in macOS](/cells/net/how-to-install-libgdiplus-in-macos/)
 
 Note: Aspose.Cells For .NetStandard can support your requirement on MAC OS.
 
