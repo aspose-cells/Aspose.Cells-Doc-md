@@ -48,7 +48,7 @@ for example the below code init a x_spreadsheet object.
 ##  
 
 ___
-#### other useful apis
+## other useful apis
 -  Render the view
 ```javascript
 xs.reRender()
