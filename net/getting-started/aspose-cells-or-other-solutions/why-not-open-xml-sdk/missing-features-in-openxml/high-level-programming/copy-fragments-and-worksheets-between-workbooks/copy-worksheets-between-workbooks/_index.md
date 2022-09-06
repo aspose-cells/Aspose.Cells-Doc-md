@@ -77,7 +77,6 @@ excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](http://goo.gl/sbk9qP)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
 The following example shows how to copy a worksheet from one workbook to another workbook.

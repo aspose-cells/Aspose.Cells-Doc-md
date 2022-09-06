@@ -692,7 +692,6 @@ public class ApacheXLSX2CSV {
 ## **Download Running Code**
 Download **Convert Worksheet to CSV** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposeapachepoi.codeplex.com/downloads/get/1478552)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/download/Aspose.Cells_Java_vs_POI_SS_v1.4/Convert.Worksheet.to.CSV.Aspose.Cells.vs.Apache.POI.SS.zip)
 
 {{% alert color="primary" %}} 

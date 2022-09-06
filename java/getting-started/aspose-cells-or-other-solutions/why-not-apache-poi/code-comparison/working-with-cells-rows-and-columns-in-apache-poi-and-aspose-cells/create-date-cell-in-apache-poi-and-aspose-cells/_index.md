@@ -91,12 +91,10 @@ cell.setCellStyle(cellStyle);
 Download running examples for **Create Date Cell in Aspose.Cells and Apache POI** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/releases/view/619964)
 ## **Download Source Code**
 Download source code for **Create Date Cell in Aspose.Cells and Apache POI** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/)
 
 {{% alert color="primary" %}} 
 

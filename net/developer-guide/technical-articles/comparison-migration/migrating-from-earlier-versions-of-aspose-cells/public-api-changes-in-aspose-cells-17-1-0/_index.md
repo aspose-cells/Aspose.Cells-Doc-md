@@ -24,7 +24,7 @@ Aspose.Cells APIs have added the support for a few Excel 2016 charts by enhancin
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Reading Excel 2016 Chart Types](/cells/net/read-and-manipulate-excel-2016-charts/)[](http://docs.asposeptyltd.com/docs/display/cellsnet/Read+and+Manipulate+Excel+2016+Charts)[.](http://docs.asposeptyltd.com/docs/display/cellsnet/Read+and+Manipulate+Excel+2016+Charts#ReadandManipulateExcel2016Charts-SampleCode)
+Check the detailed article on [Reading Excel 2016 Chart Types](/cells/net/read-and-manipulate-excel-2016-charts/)
 
 {{% /alert %}} 
 ### **Added Setter for LoadFilter.LoadDataFilterOptions Property**
@@ -34,7 +34,7 @@ Here is a simple usage scenario.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Custom Template Filtering](/cells/net/filter-objects-while-loading-workbook-or-worksheet/)[.](http://docs.asposeptyltd.com/docs/display/cellsnet/Filter+Objects+while+loading+Workbook+or+Worksheet)
+Check the detailed article on [Custom Template Filtering](/cells/net/filter-objects-while-loading-workbook-or-worksheet/)
 
 {{% /alert %}} 
 
@@ -84,7 +84,7 @@ Here is a simple scenario to demonstrate the usage of CellsHelper.SignificantDig
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Setting Number of Significant Digits](/cells/net/specifying-significant-digits-to-be-stored-in-excel-file/)[](http://docs.asposeptyltd.com/docs/display/cellsnet/Specifying+Significant+Digits+to+be+stored+in+Excel+file).
+Check the detailed article on [Setting Number of Significant Digits](/cells/net/specifying-significant-digits-to-be-stored-in-excel-file/)
 
 {{% /alert %}} 
 
@@ -106,7 +106,7 @@ The following snippet make use of the GlowEffect.Color property.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Reading the Shape's Glow Color](/cells/net/read-color-of-shape-s-glow-effect/)[](http://docs.asposeptyltd.com/docs/display/cellsnet/Read+Color+of+Shape%27s+Glow+Effect)[.](http://docs.asposeptyltd.com/docs/display/cellsnet/Read+Color+of+the+Glow+Effect+of+Shape)
+Check the detailed article on [Reading the Shape's Glow Color](/cells/net/read-color-of-shape-s-glow-effect/)
 
 {{% /alert %}} 
 
@@ -140,7 +140,7 @@ Aspose.Cells 17.1.0 has exposed PaperWidth & PaperHeight properties for the Page
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Retrieving Worksheet's Paper Size](/cells/net/get-paper-width-and-height-of-page-setup-of-worksheet/)[.](http://docs.asposeptyltd.com/docs/display/cellsnet/Get+Paper+Width+and+Height+of+Page+Setup+of+Worksheet)
+Check the detailed article on [Retrieving Worksheet's Paper Size](/cells/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
 
 {{% /alert %}} 
 ### **Added WorkbookSettings.CheckCustomNumberFormat Property**
@@ -148,7 +148,7 @@ Aspose.Cells 17.1.0 has added the CheckCustomNumberFormat property to the Workbo
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Verifying Custom Format](/cells/net/check-custom-number-format-when-setting-style-custom-property/)[.](http://docs.asposeptyltd.com/docs/display/cellsnet/Check+Custom+Number+Format+when+setting+Style.Custom+property)
+Check the detailed article on [Verifying Custom Format](/cells/net/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 

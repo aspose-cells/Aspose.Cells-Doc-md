@@ -252,8 +252,8 @@ Aspose.Cells for Python via .NET enables your applications to perform a great ra
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Cells for Python via .NET Features](/cells/pythonnet/features/)
-- [Aspose.Cells for Python via .NET Release Notes](/cells/pythonnet/release-notes/)
+- [Aspose.Cells for Python via .NET Features](/cells/python-net/features/)
+- [Aspose.Cells for Python via .NET Release Notes](/cells/python-net/release-notes/)
 - [Aspose.Cells for Python via .NET Product Page](https://products.aspose.com/cells/python-net/)
 - [Download Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
 - [Aspose.Cells for Python via .NET Free Support Forum](https://forum.aspose.com/c/cells/9)
