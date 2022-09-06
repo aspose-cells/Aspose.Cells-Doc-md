@@ -27,11 +27,11 @@ This is the screenshot of the [template file](49446913.xlsx) used in the example
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-This is the output PNG image after setting the **[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/imageformat)** property to "Times New Roman".
+This is the output PNG image after setting the **[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/defaultfont/)** property to "Times New Roman".
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-See the output [TIFF](48496672.tiff) image after setting the **[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/imageformat)** property to "Times New Roman".
+See the output [TIFF](48496672.tiff) image after setting the **[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/defaultfont/)** property to "Times New Roman".
 
 See the output [PDF](48496673.pdf) file after setting the **[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** property to "Times New Roman".
 

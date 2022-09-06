@@ -46,6 +46,6 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Find or Search Data](/java/find-or-search-data).
+For more details, visit [Find or Search Data](/cells/java/find-or-search-data).
 
 {{% /alert %}}

@@ -50,6 +50,6 @@ workbook.save("AsposeTotal.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating Subtotals](/java/creating-subtotals).
+For more details, visit [Creating Subtotals](/cells/java/creating-subtotals).
 
 {{% /alert %}}

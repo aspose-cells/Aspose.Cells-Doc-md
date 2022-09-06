@@ -72,6 +72,6 @@ wb.setPrintArea(
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Setting Print Options](/java/setting-print-options).
+For more details, visit [Setting Print Options](/cells/java/page-setup-features/#setting-print-options).
 
 {{% /alert %}}

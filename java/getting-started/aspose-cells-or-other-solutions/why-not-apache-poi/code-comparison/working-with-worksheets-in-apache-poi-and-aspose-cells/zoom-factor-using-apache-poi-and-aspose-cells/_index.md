@@ -39,9 +39,3 @@ sheet1.setZoom(3,4);   // 75 percent magnification
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Download Sample Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/zoomfactor)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [Zoom Factor](http://docs.aspose.com:8082/docs/display/cellsjava/Zoom+Factor).
-
-{{% /alert %}}

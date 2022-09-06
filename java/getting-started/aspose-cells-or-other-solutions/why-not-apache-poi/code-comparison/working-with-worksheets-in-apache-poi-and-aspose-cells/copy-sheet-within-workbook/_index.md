@@ -72,6 +72,6 @@ Sheet cloneSheet = wb.cloneSheet(0);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Copying and Moving Worksheets](/java/copying-and-moving-worksheets).
+For more details, visit [Copying and Moving Worksheets](/cells/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

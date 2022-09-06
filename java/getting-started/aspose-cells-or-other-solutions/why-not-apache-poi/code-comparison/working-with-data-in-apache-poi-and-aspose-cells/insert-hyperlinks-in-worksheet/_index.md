@@ -164,8 +164,3 @@ cell.setCellStyle(hlink_style);
 ## **Download Sample Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 
-{{% alert color="primary" %}} 
-
-For more details, visit [Adding Hyperlinks to Link Data](/java/adding-hyperlinks-to-link-data).
-
-{{% /alert %}}

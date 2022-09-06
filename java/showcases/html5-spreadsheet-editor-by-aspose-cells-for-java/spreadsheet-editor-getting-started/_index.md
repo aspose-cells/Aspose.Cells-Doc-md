@@ -181,7 +181,7 @@ The project source is available at [Github](https://github.com/AsposeShowcase/Ht
 
 **Pull Requests**
 
-To contribute source code to the project just send a pull request via Github. Read more information in Github’s article on [Create a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+To contribute source code to the project just send a pull request via Github. Read more information in Github’s article on [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 ### **License**
 **MIT License**
 

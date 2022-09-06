@@ -136,6 +136,6 @@ for (Row row : sheet1) {
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Data Handling Features](/java/data-handling-features).
+For more details, visit [Data Handling Features using Aspose.Cells](/cells/java/data-handling-features-using-aspose-cells/)
 
 {{% /alert %}}
