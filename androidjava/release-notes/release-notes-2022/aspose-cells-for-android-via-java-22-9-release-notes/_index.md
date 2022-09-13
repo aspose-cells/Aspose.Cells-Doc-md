@@ -45,7 +45,6 @@ This page contains release notes for Aspose.Cells for Android via Java 22.9.
 |CELLSJAVA-44776|Table header row styling lost when copying sheet|Bug
 |CELLSJAVA-44789|Issue with character string replacement of textbox placed in Excel spreadsheet|Bug
 |CELLSJAVA-44792|Endless saving workbook to HTML format (2892) |Bug
-|CELLSJAVA-44763|Exception "java.lang.IllegalArgumentException: can't parse argument number: 1:X8" when loading the Excel file using "org.apache.commons.io.input.AutoCloseInputStream"|Exception
 |CELLSJAVA-44864|Concurrent loading of workbooks throws spurious "File is corrupted" errors|Bug
 |CELLSJAVA-44327|Borders and fewer lines shown in black and white pie slices in chart to image rendering|Bug
 |CELLSJAVA-44591|Text rotation of labels does not match with Excel in the output image of the chart|Bug
@@ -58,8 +57,9 @@ This page contains release notes for Aspose.Cells for Android via Java 22.9.
 |CELLSJAVA-44852|The border is incorrect when the static Excel file is converted to HTML |Bug
 |CELLSJAVA-44856|Excel to HTML conversion - Sparkline (mini chart) is not displayed/rendered |Bug
 |CELLSJAVA-44859|Some Html formattings are not working for worksheet cells in an existing Excel file|Bug
-|CELLSJAVA-44774|Error when saving as PDF - Investigation required|Exception
 |CELLSJAVA-44725|Exception "java.util.zip.ZipException: invalid entry size (expected 0 but got 1053 bytes)" while converting XLSX to PDF |Exception
+|CELLSJAVA-44763|Exception "java.lang.IllegalArgumentException: can't parse argument number: 1:X8" when loading the Excel file using "org.apache.commons.io.input.AutoCloseInputStream"|Exception
+|CELLSJAVA-44774|Error when saving as PDF - Investigation required|Exception
 |CELLSJAVA-44842|Exception "java.lang.OutOfMemoryError: Java heap space" when converting an XLSX file  to PDF|Exception
 
 
