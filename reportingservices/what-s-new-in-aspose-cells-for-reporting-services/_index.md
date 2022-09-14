@@ -8,6 +8,10 @@ url: /reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 
 This page describes the most interesting new Aspose.Cells for Reporting Services features introduced in recent releases.
 
+## Aspose.Cells for Reporting Services  22.9
+
+* Support to render SXC format.
+
 ## Aspose.Cells for Reporting Services  22.8
 
 * Support to render XLTX format.
@@ -33,11 +37,9 @@ This page describes the most interesting new Aspose.Cells for Reporting Services
 * Support to render docx format.
 * Improve Text renderer.
 
-
 ## Aspose.Cells for Reporting Services  22.2
 
 * Support to render pptx format.
-
 
 ## Aspose.Cells for Reporting Services  22.1
 
