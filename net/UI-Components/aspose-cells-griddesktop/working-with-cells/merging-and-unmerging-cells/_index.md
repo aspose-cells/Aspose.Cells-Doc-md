@@ -1,8 +1,9 @@
 ---
-title: Merging  and  Unmerging Cells
+title: Merging and Unmerging Cells
+linktitle: Merging and Unmerging Cells in GridDesktop
 type: docs
 weight: 90
-url: /net/merging-and-unmerging-cells/
+url: /net/merging-and-unmerging-cells-griddesktop/
 ---
 
 {{% alert color="primary" %}} 
