@@ -61,8 +61,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells .NET for DNN Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
-- [DNN Store ](https://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
+- [Aspose Forum](https://forum.aspose.com/c/cells/9)
 ### **Extend and Contribute**
 Aspose .NET Cells Import Users from Excel module for DNN is open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.
 #### **Source Code**

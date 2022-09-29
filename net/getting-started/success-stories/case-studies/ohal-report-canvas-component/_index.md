@@ -7,7 +7,7 @@ url: /net/ohal-report-canvas-component/
 
 {{% alert color="primary" %}}
 
-[Report PDF](https://blog.aspose.com/wp-content/uploads/sites/2/2019/12/Ohal_uses_Aspose.Cells_in_Report_Canvas_Component.pdf)
+[Report PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
 
 **Use of Aspose.Cells in Report Canvas Component**
 

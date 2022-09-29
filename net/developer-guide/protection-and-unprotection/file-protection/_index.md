@@ -44,7 +44,7 @@ It is very to open password-protect excel file and decrypt using the Aspose.Cell
 
 
 ## **Advance topics**
-- [Encrypt And Decrypt ODS files](/cells/cells/net/encrypt-and-decrypt-ods-files/)
+- [Encrypt And Decrypt ODS files](/cells/net/encrypt-and-decrypt-ods-files/)
 - [Setting Strong Encryption Type](/cells/net/setting-strong-encryption-type/)
 - [Specify Author while Write Protecting Workbook](/cells/net/specify-author-while-write-protecting-workbook/)
 - [Verify Password of Encrypted Files](/cells/net/verify-password-of-encrypted-excel-and-ods-files/)

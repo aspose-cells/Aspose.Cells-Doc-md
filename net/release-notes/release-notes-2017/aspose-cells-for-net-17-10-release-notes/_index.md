@@ -64,6 +64,6 @@ Please check the list of help topics added in the Aspose.Cells Wiki docs:
 
 - [Set the Values Format Code of Chart Series](/cells/net/set-the-values-format-code-of-chart-series/)
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [Read and Write External Connection of XLSB file](/cells/net/read-and-write-external-connection-of-xlsb-file/)
+- [Read and Write External Connection of XLSB file](/cells/net/read-and-write-external-connection-of-xls-and-xlsb-files/)
 - [Interrupt or Cancel the Formula Calculation of Workbook](/cells/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
 - [Specify how to cross string in output HTML using HtmlCrossType](/cells/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)

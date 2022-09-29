@@ -8,7 +8,7 @@ aliases: [/java/aspose-cells-for-python-via-java-21.6-release-notes/]
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for Python via Java 21.6](https://downloads.aspose.com/cells/python/new-releases/aspose.cells-for-python-via-java-21.6/).
+This page contains release notes for [Aspose.Cells for Python via Java 21.6](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.6/).
 
 {{% /alert %}}
 

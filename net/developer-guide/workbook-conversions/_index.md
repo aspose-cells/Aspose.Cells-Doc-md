@@ -47,7 +47,7 @@ From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
 
 ## **Convert Excel to Ods,Sxc and Fods (OpenOffice / LibreOffice Calc)**
-Aspose.Cells supports converting Excel files to Ods,Sxc and Fods files . The code example below shows how to convert the [tempalte](book1.xls) to Ods,Sxc and Fods file.
+Aspose.Cells supports converting Excel files to Ods,Sxc and Fods files . The code example below shows how to convert the [tempalte](book1.xlsx) to Ods,Sxc and Fods file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
