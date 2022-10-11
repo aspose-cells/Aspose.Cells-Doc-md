@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.10
+
+* Use SkiaSharp as the graphics library for NET6
+* Support to add and update chart with CRTX template file
+
 ## Aspose.Cells for .NET 22.9
 
 * Support to set table formula for cells

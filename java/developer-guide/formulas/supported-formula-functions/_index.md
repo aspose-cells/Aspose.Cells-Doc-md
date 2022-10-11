@@ -1,8 +1,11 @@
 ---
-title: Supported Formula Functions
+title: Supported Excel Functions
 type: docs
 weight: 10
 url: /java/supported-formula-functions/
+aliases: [/java/supported-excel-functions/]
+description: Supported excel functions for reading/setting/calculating formulas
+keywords: formula function calculate
 ---
 
 {{% alert color="primary" %}}
