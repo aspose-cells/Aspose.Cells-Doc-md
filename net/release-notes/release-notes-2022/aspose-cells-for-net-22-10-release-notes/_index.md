@@ -54,22 +54,24 @@ The following is a list of any changes made to the public API such as added, ren
 ### **Changed the graphics library to SkiaSharp for NET6**
 
 From 22.10, our component for NET6 uses SkiaSharp as the graphics library. Accordingly, we removed APIs that depend on System.Drawing library:
-    ImageOrPrintOptions.ChartImageType
-    ImageOrPrintOptions.CustomPrintPageEventHandler
-    ImageOrPrintOptions.CustomQueryPageSettingsEventHandler
-    ImageOrPrintOptions.EmfType
-    ImageOrPrintOptions.PixelFormat
-    ImageOrPrintOptions.SmoothingMode
-    ImageOrPrintOptions.TextRenderingHint
-    SheetRender.CustomPrint(System.Boolean,System.Drawing.Printing.PrintPageEventArgs)
-    SheetRender.ToPrinter(System.Drawing.Printing.PrinterSettings)
-    SheetRender.ToPrinter(System.Drawing.Printing.PrinterSettings,System.String)
-    SheetRender.ToTiff(System.IO.Stream)
-    SheetRender.ToTiff(System.String)
-    WorkbookRender.CustomPrint(System.Boolean,System.Drawing.Printing.PrintPageEventArgs)
-    WorkbookRender.ToPrinter(System.Drawing.Printing.PrinterSettings)
-    WorkbookRender.ToPrinter(System.Drawing.Printing.PrinterSettings,System.String)
-    WorkbookRender.ToPrinter(System.String,System.Int32,System.Int32)
+```
+ImageOrPrintOptions.ChartImageType
+ImageOrPrintOptions.CustomPrintPageEventHandler
+ImageOrPrintOptions.CustomQueryPageSettingsEventHandler
+ImageOrPrintOptions.EmfType
+ImageOrPrintOptions.PixelFormat
+ImageOrPrintOptions.SmoothingMode
+ImageOrPrintOptions.TextRenderingHint
+SheetRender.CustomPrint(System.Boolean,System.Drawing.Printing.PrintPageEventArgs)
+SheetRender.ToPrinter(System.Drawing.Printing.PrinterSettings)
+SheetRender.ToPrinter(System.Drawing.Printing.PrinterSettings,System.String)
+SheetRender.ToTiff(System.IO.Stream)
+SheetRender.ToTiff(System.String)
+WorkbookRender.CustomPrint(System.Boolean,System.Drawing.Printing.PrintPageEventArgs)
+WorkbookRender.ToPrinter(System.Drawing.Printing.PrinterSettings)
+WorkbookRender.ToPrinter(System.Drawing.Printing.PrinterSettings,System.String)
+WorkbookRender.ToPrinter(System.String,System.Int32,System.Int32)
+```
 
 ### **Changed the limit of moving cells out of the sheet for inserting rows**
 

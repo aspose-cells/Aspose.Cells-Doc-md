@@ -13,11 +13,14 @@ In this official [Microsoft Document](https://learn.microsoft.com/en-gb/dotnet/c
 
 For Apose.Cells product, we have conducted the evaluation and have completed the migration of the graphics library. We use SkiaSharp instead of System.Drawing.common, as suggested in Microsoft's official documentation. Please note that this critical change will take effect in Aspose.Cells 22.10 or later for .Net6.
 
-For .netcore31 or before, 
+For .netcore31 or before, for compatibility and stability, currently we still use the "System.Drawing.Common" graphics library. The dependencies for .netcore31 or before are as follows:
+- System.Drawing.Common, 4.7.0.
+- System.Security.Cryptography.Pkcs, 5.0.1.
+- System.Text.Encoding.CodePages, 4.7.0.
 
 ## Run Aspose.Cells for .Net6 on Windows
 
-First you can create a .net6 application with VS2022, then you can then choose the following installation options:
+First you can create a .net6 application with VS2022, then you can choose the following installation options:
 
 ### Install through nuget
 
@@ -45,6 +48,6 @@ Refer to the installation method on Windows, you need to do the following additi
 RUN apt-get update && apt-get install -y libfontconfig1
 {{< /highlight >}}
 
-2. Add the nuget packages "SkiaSharp.NativeAssets.Linux" to your .net6 project.
+2. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.0" to your .net6 project.
 
 3. Or you can choose to add nuget packages "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.0" to your .net6 project, instead of the two steps above.
