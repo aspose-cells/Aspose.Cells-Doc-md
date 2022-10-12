@@ -9,6 +9,10 @@ aliases: [/java/whats-new/]
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 22.10
+
+* Support to add and update chart with CRTX template file
+
 ## Aspose.Cells for Java 22.9
 
 * Support to set table formula for cells
