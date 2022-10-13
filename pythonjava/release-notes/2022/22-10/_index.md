@@ -13,77 +13,37 @@ This page contains release notes for [Aspose.Cells for Python via Java 22.10](ht
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|CELLSJAVA-44194|Drawing shape is not rendered in Excel to PDF rendering|New Feature
-|CELLSJAVA-44864|Concurrent loading of workbooks throws spurious "File is corrupted" errors|Bug
+|CELLSJAVA-44890|support import file with openpassword for GridWeb|New Feature
+|CELLSJAVA-44884|List numbers are incorrect after XLSX to HTML or PDF conversion |Bug
+|CELLSJAVA-44883|Workbook containing pivot table gets corrupted after processing pivot table in it |Bug
+|CELLSJAVA-44879|The formatted result for GridWeb was different from Cell.DisplayStringValue|Bug
 |CELLSJAVA-44327|Borders and fewer lines shown in black and white pie slices in chart to image rendering|Bug
-|CELLSJAVA-44591|Text rotation of labels does not match with Excel in the output image of the chart|Bug
-|CELLSJAVA-44775|Chart labels overlapped in chart to image rendering|Bug
-|CELLSJAVA-44860|the display of cell  text does not same as in excel in some merged areas|Bug
-|CELLSJAVA-44832|Multi pages are output instead of one page as in Excel while converting to pdf|Bug
-|CELLSJAVA-44812|Unable to decrease the plot area for the chart|Bug
-|CELLSJAVA-44831|MS Word prompts an error "Word found unreadable content in..." when opening the converted DOCX from XLSX file by Aspose.Cells for Java|Bug
-|CELLSJAVA-44833|Text color is not applied to different words or part of contents in the output Excel file when using Cell.setHtmlString() method|Bug
-|CELLSJAVA-44852|The border is incorrect when the static Excel file is converted to HTML |Bug
-|CELLSJAVA-44856|Excel to HTML conversion - Sparkline (mini chart) is not displayed/rendered |Bug
-|CELLSJAVA-44859|Some Html formattings are not working for worksheet cells in an existing Excel file|Bug
-|CELLSJAVA-44842|Exception "java.lang.OutOfMemoryError: Java heap space" when converting an XLSX file  to PDF|Exception
+|CELLSJAVA-44853|The data on the x-axis angle is not the same as Excel in chart to image rendering|Bug
+|CELLSJAVA-44854|The data on the y-axis step is not the same as Excel in chart to image rendering|Bug
+|CELLSJAVA-44904|Issues when rendering Excel charts to JPG conversion|Bug
+|CELLSJAVA-44850|Importing an XLT file, the text is not displayed completely using latest demos with latest Aspose.Cells.GridWeb version with latest resource files|Bug
+|CELLSJAVA-44857|When using the Aspose.Cells.GridWeb for Java v22.8 version with latest resource files to open an Excel document, the effect of the cells is different from the original document|Bug
+|CELLSJAVA-44903|SVG rendition not working as expected|Bug
+|CELLSJAVA-44909|When multiple lines are bolded, it seems to be overflowing to the other lines unnecessarily |Bug
+|CELLSJAVA-44898|Reading from GZIPInputStream sometimes throws bogus "File is corrupted" error in 22.7 and newer versions|Exception
+|CELLSJAVA-44881|Exception "java.lang.ArrayIndexOutOfBoundsException: 15070" on loading an XLS file|Exception
 
 ## **Public API and Backwards Incompatible Changes**
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
-### **Adds Cell.SetTableFormula(...) methods**
+### **Changed the limit of moving cells out of the sheet for inserting rows**
 
-Support to set formulas for range of cells to create two-variable data table and one-variable data table.
+In old versions, if there are cells that have formatting settings but has no value?and will be moved out of the sheet, insert operation is not allowed. From 22.10, insert operation is allowed for such kind of situation and such behavior is same with ms excel now.
 
-### **Adds Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, CalculationOptions copts) method**
+### **Adds DataModelConnection class**
 
-Support to set dynamic array formula with custom options for calculation, especially when there are functions which need user's custom engine for calculation in the formula.
+Specifies a data model connection.
 
-### **Adds Workbook.RefreshDynamicArrayFormulas(bool calculate, CalculationOptions copts) method**
+### **Adds Chart.ChangeTemplate(byte[]) methods**
 
-Support to refresh dynamic array formulas with custom options for calculation, especially when there are functions which need user's custom engine for calculation functions in the dynamic array formulas.
+Change chart type with preset template file.
 
-### **Adds ChartFrame.TextOptions property.**
+### **Adds ChartCollection.Add(byte[] data, string dataRange, bool isVertical, int topRow, int leftColumn,int rightRow, int bottomColumn) method.**
 
-Represents the font options of the chart's text.
-
-### **Adds ExportRangeToJsonOptions.ExportEmptyCells property.**
-
-Indicates whether exporting null if the cells are empty.
-
-### **Add NumbersLoadOptions constructor.**
-
-Represents the options of loading numbers.
-
-### **Adds enum LoadNumbersTableType.**
-
-Represnts the type of loading multi tables in a worksheet of the Mac .numbers.
-
-### **Adds ProtectedRange.IsProtectedWithPassword property.**
-
-Inidicates whether the range is protected with password.
-
-### **Adds ImportTableOptions.ExportCaptionAsFieldName properties**
-
-Indicates whether exporting caption as field name when importing data table.
-
-### **Adds TextOptions.LanguageCode property.**
-
-Gets and sets the language code of the font.
-
-### **Adds enum PresetThemeGradientType.**
-
-Represents the preset theme gradient type.
-
-### **Adds GradientFill.SetPresetThemeGradient() method.**
-
-Sets the preset theme gradient type.
-
-### **Adds override Style.SetBorder() methods.**
-
-Sets the borders with various kinds of color.
-
-### **Adds Range.SetOutlineBorder() and Range.SetOutlineBorders() methods**
-
-Sets the borders of the range with various kinds of color.
+Adds chart with preset template file.
