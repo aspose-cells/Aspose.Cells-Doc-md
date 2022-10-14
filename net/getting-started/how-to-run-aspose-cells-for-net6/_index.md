@@ -44,10 +44,86 @@ Search for Aspose.Cells version from NuGet. SkiaSharp will be installed as a dep
 Refer to the installation method on Windows, you need to do the following additional operations to ensure proper use of SkiaSharp under Linux:
 
 1. Run the following command in your Linux System:
-{{< highlight plain >}}
-RUN apt-get update && apt-get install -y libfontconfig1
-{{< /highlight >}}
+```
+apt-get update && apt-get install -y libfontconfig1
+```
+OR
+```
+apk update && apk add fontconfig 
+```
 
 2. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.0" to your .net6 project.
 
 3. Or you can choose to add nuget packages "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.0" to your .net6 project, instead of the two steps above.
+
+### Example Dockerfile for Ubuntu
+
+1. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.0" to your .net6 project.
+
+2. Use the following Dockerfile:
+{{< highlight plain >}}
+# Ubuntu 20.04
+FROM mcr.microsoft.com/dotnet/runtime:6.0-focal AS base
+WORKDIR /app
+
+# add "libfontconfig1" package if using "SkiaSharp.NativeAssets.Linux" in your project
+# Or you need to use "SkiaSharp.NativeAssets.Linux.NoDependencies" in your project
+RUN apt-get update && apt-get install -y libfontconfig1
+
+# Copy fonts from local to docker
+# For example, put a "fonts" folder in your project folder, and put the font files in it,
+# then, use the following line:
+COPY fonts/ /usr/share/fonts
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0-focal AS build
+WORKDIR /src
+COPY ["Ubuntu_Docker.csproj", "."]
+RUN dotnet restore "./Ubuntu_Docker.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "Ubuntu_Docker.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Ubuntu_Docker.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
+{{< /highlight >}}
+
+### Example Dockerfile for Alpine
+
+1. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.0" to your .net6 project.
+
+2. Use the following Dockerfile:
+{{< highlight plain >}}
+#Alpine 3.16
+FROM mcr.microsoft.com/dotnet/runtime:6.0-alpine3.16 AS base
+WORKDIR /app
+
+# add "fontconfig" package if using "SkiaSharp.NativeAssets.Linux" in your project
+# Or you need to use "SkiaSharp.NativeAssets.Linux.NoDependencies" in your project
+RUN apk update && apk add fontconfig 
+
+# Copy fonts from local to docker
+# For example, put a "fonts" folder in your project folder, and put the font files in it,
+# then, use the following line:
+COPY fonts/ /usr/share/fonts
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine3.16 AS build
+WORKDIR /src
+COPY ["Alpine_Docker.csproj", "."]
+RUN dotnet restore "./Alpine_Docker.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "Alpine_Docker.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Alpine_Docker.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Alpine_Docker.dll"]
+{{< /highlight >}}
