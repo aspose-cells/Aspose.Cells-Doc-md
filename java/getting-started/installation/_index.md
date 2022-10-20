@@ -7,7 +7,7 @@ url: /java/installation/
 
 ## **Installing Aspose.Cells for Java from Maven Repository**
 
-Aspose hosts all Java APIs on [Maven repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose). You can easily use [Aspose.Cells for Java API](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) directly in your Maven Projects with simple configurations.
+Aspose hosts all Java APIs on [Maven repository](https://releases.aspose.com/java/repo/). You can easily use [Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) directly in your Maven Projects with simple configurations.
 
 First, you need to specify Aspose Maven Repository configuration/location in your Maven pom.xml as below:
 
@@ -21,7 +21,7 @@ First, you need to specify Aspose Maven Repository configuration/location in you
 
           <name>Aspose Java API</name>
 
-          <url>https://repository.aspose.com/repo/</url>
+          <url>https://releases.aspose.com/java/repo/</url>
 
       </repository>
 
