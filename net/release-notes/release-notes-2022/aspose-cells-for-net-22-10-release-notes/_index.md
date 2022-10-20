@@ -51,28 +51,6 @@ This page contains release notes for [Aspose.Cells for .NET 22.10](https://www.n
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.
 
-### **Changed the graphics library to SkiaSharp for NET6**
-
-From 22.10, our component for NET6 uses SkiaSharp as the graphics library. Accordingly, we removed APIs that depend on System.Drawing library:
-```
-ImageOrPrintOptions.ChartImageType
-ImageOrPrintOptions.CustomPrintPageEventHandler
-ImageOrPrintOptions.CustomQueryPageSettingsEventHandler
-ImageOrPrintOptions.EmfType
-ImageOrPrintOptions.PixelFormat
-ImageOrPrintOptions.SmoothingMode
-ImageOrPrintOptions.TextRenderingHint
-SheetRender.CustomPrint(System.Boolean,System.Drawing.Printing.PrintPageEventArgs)
-SheetRender.ToPrinter(System.Drawing.Printing.PrinterSettings)
-SheetRender.ToPrinter(System.Drawing.Printing.PrinterSettings,System.String)
-SheetRender.ToTiff(System.IO.Stream)
-SheetRender.ToTiff(System.String)
-WorkbookRender.CustomPrint(System.Boolean,System.Drawing.Printing.PrintPageEventArgs)
-WorkbookRender.ToPrinter(System.Drawing.Printing.PrinterSettings)
-WorkbookRender.ToPrinter(System.Drawing.Printing.PrinterSettings,System.String)
-WorkbookRender.ToPrinter(System.String,System.Int32,System.Int32)
-```
-
 ### **Changed the limit of moving cells out of the sheet for inserting rows**
 
 In old versions, if there are cells that have formatting settings but has no value?and will be moved out of the sheet, insert operation is not allowed. From 22.10, insert operation is allowed for such kind of situation and such behavior is same with ms excel now.

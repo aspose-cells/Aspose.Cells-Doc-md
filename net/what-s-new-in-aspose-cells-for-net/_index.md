@@ -10,7 +10,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 
 ## Aspose.Cells for .NET 22.10
 
-* Use SkiaSharp as the graphics library for NET6
+* Support to use SkiaSharp as the graphics library for NET6
 * Support to add and update chart with CRTX template file
 
 ## Aspose.Cells for .NET 22.9
