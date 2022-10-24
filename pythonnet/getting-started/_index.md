@@ -39,14 +39,14 @@ You can easily use Aspose.Cells for Python via .NET from [pypi](https://pypi.org
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
-- Note:If your python is Python3.7,after installung the aspose-cells-python,There may be the following errors
+- Note:If your python is Python3.7,after installing the aspose-cells-python,there may be the following errors
   '/usr/local/lib/libpython3.7m.dylib' (no such file), '/usr/lib/libpython3.7m.dylib' (no such file) prompt.
-  Please add the following command to your bash_profile(Find where is libpython3.7m.dylib first,take /Library/Frameworks/Python.framework/Versions/3.7/lib
+  In such a situation,please add the following command to your bash_profile(Find where is libpython3.7m.dylib first,take /Library/Frameworks/Python.framework/Versions/3.7/lib
   for example here)
-  {{< highlight NET >}}
-    export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
-	export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
-  {{< /highlight >}}
+{{< highlight NET >}}
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
+export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
+{{< /highlight >}}
 ## **Creating the Hello World Application**
 
 - Create a file named **CreatingHelloWorldFile.py** and use the following sample code:
