@@ -37,7 +37,7 @@ Aspose.Cells tries to find the license in explicit path locations.
 
 There are two common methods to apply a license from file.
 
-### **Applying a License from Disk or Stream**
+### **Applying a License from Disk**
 
 The easiest way to set a license, is to put the license file in the explicit path.
 
