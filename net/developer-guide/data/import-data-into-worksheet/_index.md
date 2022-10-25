@@ -17,7 +17,7 @@ When you open an Excel file with Aspose.Cells, all data in the file is automatic
 
 Aspose.Cells provides a [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class that represents a Microsoft Excel file. The [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class contains a [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection that allows access to each worksheet in an Excel file. A worksheet is represented by the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class. The [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class provides a [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection provides useful methods to import data from different data sources. This article explains how these methods can be used.
 
-## **Importing data int Excel with ICellsDataTable interface **
+## **Importing data int Excel with ICellsDataTable interface**
 Implement [ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) to wrap your various data sources, then use [Cells.ImportData()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata) to import data to Excel worksheet.
 ### **Sample Code**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ImportICellsDataTableIntoWorksheet.cs" >}}
