@@ -1,7 +1,7 @@
 ---
 title: Setting Different Headers and Footers For Different Pages
 type: docs
-weight: 30
+weight: 35
 url: /net/setting-different-headers-and-footers-for-pages-to-Excel/
 ---
 
@@ -17,7 +17,7 @@ Aspose.Cells supports the same feature.
 **![Setting Different Headers and Footers](difpage.png)**
 
 1. Click **page Layout > Print Titles > Header/Footer**.
-1. Check **Different Odd and Even Pages** or **Different fir page **.
+1. Check **Different Odd and Even Pages** or **Different fir page**.
 1. Enter different headers and footers.
 
 ## **Setting Different Headers and Footers with Aspose.Cells**
