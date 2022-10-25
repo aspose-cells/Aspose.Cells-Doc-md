@@ -2,7 +2,8 @@
 title: Optimizing Memory Usage while Working with Big Files having Large Datasets
 type: docs
 weight: 110
-url: /nodejsjava/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
+url: /nodejs-java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
+aliases: [/nodejsjava/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/]
 ---
 
 {{% alert color="primary" %}}

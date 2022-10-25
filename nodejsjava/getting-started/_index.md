@@ -2,8 +2,8 @@
 title: Getting started
 type: docs
 weight: 5
-url: /nodejsjava/getting-started/
-aliases: [/java/setup-environment-and-installation-guidelines/,/nodejsjava/setup-environment-and-installation-guidelines/]
+url: /nodejs-java/getting-started/
+aliases: [/nodejsjava/getting-started/,/java/setup-environment-and-installation-guidelines/,/nodejsjava/setup-environment-and-installation-guidelines/]
 keywords: "nodejs, excel, install"
 description: "setup Aspose.Cells for Node.js via Java and installation guidelines."
 ---

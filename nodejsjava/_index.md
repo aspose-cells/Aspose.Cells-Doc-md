@@ -2,11 +2,12 @@
 title: Aspose.Cells for Node.js via Java
 type: docs
 weight: 50
-url: /nodejsjava/
+url: /nodejs-java/
 is_root: true
 aliases:
     - /nodejs/
     - /node/
+    - /nodejsjava/
 ---
 
 {{% alert color="primary" %}}
@@ -24,9 +25,9 @@ Aspose.Cells for Node.js via Java presents all the useful features of Aspose.Cel
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Cells for Java Online Documentation](/cells/java/) (Aspose.Cells for Node.js via Java is ported from Aspose.Cells for Java. So, you can use the same documentation)
-- [Aspose.Cells for Node.js via Java Features](/cells/nodejsjava/features/)
-- [Aspose.Cells for Node.js via Java Limitations and API Differences](/cells/nodejsjava/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java Release Notes](/cells/nodejsjava/release-notes/)
+- [Aspose.Cells for Node.js via Java Features](/cells/nodejs-java/features/)
+- [Aspose.Cells for Node.js via Java Limitations and API Differences](/cells/nodejs-java/limitations-and-api-differences/)
+- [Aspose.Cells for Node.js via Java Release Notes](/cells/nodejs-java/release-notes/)
 - [Aspose.Cells for Node.js via Java Product Page](https://products.aspose.com/cells/nodejs-java/)
 - [Download Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java API Reference Guide](https://reference.aspose.com/cells/nodejs)
