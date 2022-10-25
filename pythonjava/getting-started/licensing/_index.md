@@ -50,14 +50,13 @@ Use the [License.setLicense](https://reference.aspose.com/cells/python-java/aspo
 
 ### **Example**
 
-In this example **Aspose.Cells** will attempt to find the license file in the folder that contain the JARs of your application.
+In this example **Aspose.Cells** will attempt to find the license file in your working folder.
 
 {{< highlight python >}}
 
 from asposecells.api import License
 
 lic = License()
-
 lic.setLicense("Aspose.Cells.lic")
 
 {{< /highlight >}}
