@@ -1,7 +1,7 @@
 ---
 title: Licensing
 type: docs
-weight: 19
+weight: 21
 url: /python-net/licensing/
 ---
 
@@ -35,7 +35,7 @@ The license is a plain text XML file that contains details such as the product n
 
 Aspose.Cells tries to find the license in explicit path locations.
 
-There are two common methods to apply a license, from file or stream.
+There are two common methods to apply a license from file.
 
 ### **Applying a License from Disk or Stream**
 
@@ -49,7 +49,7 @@ license = License();
  //For Window 
 license.set_license("D:\Aspose.Cells.lic");
  //For Linux or MacOS
-license.set_license("home/user/Aspose.Cells.lic"); 
+license.set_license("/home/yourusername/Aspose.Cells.lic"); 
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
@@ -58,14 +58,4 @@ When you call the set_license method, the license name should be same as that of
 
 {{% /alert %}}
 
-It is also possible to load a license from a stream.
 
-{{< highlight csharp >}}
-
- //Instantiate an instance of license and set the license through a stream
-
-license = License();
-
-license.set_license(myStream);
-
-{{< /highlight >}}
