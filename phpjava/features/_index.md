@@ -2,8 +2,8 @@
 title: Features
 type: docs
 weight: 5
-url: /phpjava/features/
-aliases: [/java/aspose-cells-for-php-via-java-features/]
+url: /php-java/features/
+aliases: [/phpjava/features/,/java/aspose-cells-for-php-via-java-features/]
 keywords: "php, excel, api, features"
 description: "Aspose.Cells for PHP via Java features."
 ---

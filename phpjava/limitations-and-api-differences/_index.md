@@ -2,8 +2,8 @@
 title: Limitations and API Differences
 type: docs
 weight: 10
-url: /phpjava/limitations-and-api-differences/
-aliases: [/java/aspose-cells-for-php-via-java-limitations-and-api-differences/]
+url: /php-java/limitations-and-api-differences/
+aliases: [/phpjava/limitations-and-api-differences/,/java/aspose-cells-for-php-via-java-limitations-and-api-differences/]
 keywords: "php, excel, limitation, api, differences"
 description: "Aspose.Cells for PHP via Java limitations and api differences."
 ---
