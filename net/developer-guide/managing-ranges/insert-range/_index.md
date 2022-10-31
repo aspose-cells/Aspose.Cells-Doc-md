@@ -9,6 +9,8 @@ url: /net/insert-ranges-to-Excel/
 
 In Excel, you can select a range, then insert a range and shift other data right or down.
 
+**![Shift options](InsertRange.png)**
+
 ## **Insert Ranges Using Aspose.Cells**
 
 Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/net/aspose.cells/cells/insertrange/) method to insert a range.
