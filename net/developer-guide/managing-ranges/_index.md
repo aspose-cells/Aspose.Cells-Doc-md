@@ -2,7 +2,7 @@
 title: Managing Ranges
 linktitle: Ranges
 type: docs
-weight: 380
+weight: 105
 url: /net/managing-ranges/
 ---
 
@@ -67,3 +67,6 @@ Now please run the following example, see how it works in Aspose.Cells:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-CurrentRegion.cs" >}}
 
 
+## **Advance topics**
+- [Create Access and Copy Named Ranges](/cells/net/create-access-and-copy-named-ranges/)
+- [Create Union Range](/cells/net/create-union-range/)

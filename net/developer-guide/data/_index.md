@@ -64,8 +64,6 @@ While working on worksheets, users may add different types of data in the cells.
 
 ## **Advance topics**
 - [Accessing Cells of a Worksheet](/cells/net/accessing-cells-of-a-worksheet/)
-- [Create Access and Copy Named Ranges](/cells/net/create-access-and-copy-named-ranges/)
-- [Create Union Range](/cells/net/create-union-range/)
 - [Creating Subtotals](/cells/net/creating-subtotals/)
 - [Data Filtering](/cells/net/data-filtering/)
 - [Data Sorting](/cells/net/data-sorting/)
