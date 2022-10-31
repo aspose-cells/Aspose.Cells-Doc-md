@@ -1,5 +1,6 @@
 ---
-title: Inserting and Deleting Rows and Columns
+title: Inserting and Deleting Rows and Columns of Excel file
+linkTitle: Inserting and Deleting Rows and Columns
 type: docs
 weight: 70
 url: /net/inserting-and-deleting-rows-and-columns/
