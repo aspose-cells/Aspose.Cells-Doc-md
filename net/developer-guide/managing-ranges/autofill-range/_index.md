@@ -3,7 +3,7 @@ title: AutoFill range of Excel file
 linktitle: AutoFill Range
 type: docs
 weight: 105
-url: /net/managing-ranges/
+url: /net/autofill-ranges/
 ---
 
 ##  **Perform an autofill in the specified range in Excel **
