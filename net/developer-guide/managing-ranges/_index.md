@@ -38,14 +38,6 @@ The following example shows how to set style of the cells of the Range.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-SetStyle.cs" >}}
 
-### **Auto Fill Ranges**
-
-The following example shows how to do AutoFill operation to the Range, and here is the sample file which can be downloaded for testing this feature:
-
-[range_autofill.xlsx](range_autofill.xlsx)
-
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-AutoFill.cs" >}}
-
 ### **Get CurrentRegion of the Range**
 
 CurrentRegion is a property that returns a Range object that represents the current region. 
