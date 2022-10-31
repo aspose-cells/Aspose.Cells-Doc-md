@@ -1,5 +1,6 @@
 ---
 title: Managing Ranges
+linktitle: Ranges
 type: docs
 weight: 380
 url: /net/managing-ranges/
