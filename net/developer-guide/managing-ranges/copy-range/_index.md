@@ -25,7 +25,7 @@ See the following code:
 
 ## **Paste Range With Options**
 
-Aspose.Cells supports pasting the range with specific conditions.
+Aspose.Cells supports pasting the range with specific type.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Paste-Range.cs" >}}
 
