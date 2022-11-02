@@ -62,3 +62,4 @@ Now please run the following example, see how it works in Aspose.Cells:
 ## **Advance topics**
 - [Create Access and Copy Named Ranges](/cells/net/create-access-and-copy-named-ranges/)
 - [Create Union Range](/cells/net/create-union-range/)
+- [Get Address Cell Count Offset Entire Column and Entire Row of the Range](/cells/net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
