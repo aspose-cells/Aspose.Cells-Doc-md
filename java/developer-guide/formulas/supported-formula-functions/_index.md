@@ -6,6 +6,7 @@ url: /java/supported-formula-functions/
 aliases: [/java/supported-excel-functions/]
 description: Supported excel functions for reading/setting/calculating formulas
 keywords: formula function calculate
+toc: false
 ---
 
 {{% alert color="primary" %}}

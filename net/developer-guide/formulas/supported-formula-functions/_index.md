@@ -6,6 +6,7 @@ url: /net/supported-formula-functions/
 aliases: [/net/supported-excel-functions/]
 description: Supported excel functions for reading/setting/calculating formulas
 keywords: formula function calculate
+toc: false
 ---
 
 {{% alert color="primary" %}}
