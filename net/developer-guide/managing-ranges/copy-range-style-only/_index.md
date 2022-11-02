@@ -1,7 +1,7 @@
 ---
 title: Copy Range Style Only
 type: docs
-weight: 50
+weight: 620
 url: /net/copy-range-style-only/
 ---
 

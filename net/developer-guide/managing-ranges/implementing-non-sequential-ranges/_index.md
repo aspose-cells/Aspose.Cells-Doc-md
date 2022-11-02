@@ -1,7 +1,7 @@
 ---
 title: Implementing Non-Sequential Ranges
 type: docs
-weight: 40
+weight: 700
 url: /net/implementing-non-sequential-ranges/
 ---
 

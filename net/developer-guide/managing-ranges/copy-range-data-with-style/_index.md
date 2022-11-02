@@ -1,7 +1,7 @@
 ---
 title: Copy Range Data with Style
 type: docs
-weight: 70
+weight: 610
 url: /net/copy-range-data-with-style/
 ---
 

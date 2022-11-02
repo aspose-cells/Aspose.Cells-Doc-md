@@ -1,7 +1,7 @@
 ---
 title: Copy Range Data Only
 type: docs
-weight: 60
+weight: 600
 url: /net/copy-range-data-only/
 ---
 
