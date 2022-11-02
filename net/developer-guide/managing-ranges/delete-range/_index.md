@@ -25,5 +25,5 @@ Delete a ranage and shift cells left as the following codes with Aspose.Cells:
 
 Delete a ranage and shift cells up as the following codes with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-Up.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 
