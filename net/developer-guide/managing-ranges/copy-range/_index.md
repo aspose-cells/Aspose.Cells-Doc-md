@@ -21,17 +21,17 @@ Creating two ranges: the source range, the target range, then copying source ran
 
 See the following code:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Copy-Range.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range.cs" >}}
 
 ## **Paste Range With Options**
 
 Aspose.Cells supports pasting the range with specific type.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Paste-Range.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Paste-Range.cs" >}}
 
 ## **Only Copy Data Of The Range.**
 Also you can copy the data with Range.CopyData method as the following codes:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Copy-Range-Data.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}
 
 

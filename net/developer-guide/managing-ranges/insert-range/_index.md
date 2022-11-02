@@ -19,11 +19,11 @@ Aspose.Cells provides [Cells.InsertRange](https://reference.aspose.com/cells/net
 
 Insert a ranage and shift cells right as the following codes with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Insert-Range-Right.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Insert-Range-Right.cs" >}}
 
 ## **Insert Ranges And Shift Cells Down**
 
 Insert a ranage and shift cells down as the following codes with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Insert-Range-Down.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Insert-Range-Down.cs" >}}
 

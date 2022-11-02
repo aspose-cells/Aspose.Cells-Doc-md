@@ -19,11 +19,11 @@ Aspose.Cells provides [Cells.DeleteRange](https://reference.aspose.com/cells/net
 
 Delete a ranage and shift cells left as the following codes with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Delete-Range-Left.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-Left.cs" >}}
 
 ## **Delete Ranges And Shift Cells Up**
 
 Delete a ranage and shift cells up as the following codes with Aspose.Cells:
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Delete-Range-Up.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-Up.cs" >}}
 
