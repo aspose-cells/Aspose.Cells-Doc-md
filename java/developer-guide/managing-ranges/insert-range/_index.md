@@ -1,7 +1,7 @@
 ---
 title: Insert Ranges
 type: docs
-weight: 105
+weight: 20
 url: /java/insert-ranges-to-Excel/
 ---
 

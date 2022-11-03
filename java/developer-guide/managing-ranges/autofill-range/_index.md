@@ -2,7 +2,7 @@
 title: AutoFill range of Excel file
 linktitle: AutoFill Range
 type: docs
-weight: 105
+weight: 10
 url: /java/autofill-ranges/
 ---
 

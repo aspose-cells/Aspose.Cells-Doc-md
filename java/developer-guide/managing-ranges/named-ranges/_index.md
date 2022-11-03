@@ -1,7 +1,7 @@
 ---
 title: Named Ranges
 type: docs
-weight: 150
+weight: 40
 url: /java/named-ranges/
 ---
 

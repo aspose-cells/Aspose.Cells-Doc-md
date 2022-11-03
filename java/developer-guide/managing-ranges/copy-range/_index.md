@@ -2,7 +2,7 @@
 title: Copy Ranges of Excel
 linktitle: Copy Ranges
 type: docs
-weight: 105
+weight: 30
 url: /java/copy-ranges-of-Excel/
 ---
 
