@@ -1,7 +1,7 @@
 ---
 title: Delete Ranges
 type: docs
-weight: 105
+weight: 25
 url: /java/delete-ranges-from-Excel/
 ---
 
