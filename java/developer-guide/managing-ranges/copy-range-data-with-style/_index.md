@@ -3,6 +3,7 @@ title: Copy Range Data with Style
 type: docs
 weight: 340
 url: /java/copy-range-data-with-style/
+aliases: [/java/cut-copy-paste/]
 ---
 
 {{% alert color="primary" %}} 
