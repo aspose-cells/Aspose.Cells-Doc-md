@@ -25,11 +25,11 @@ See the following code:
 
 Aspose.Cells supports pasting the range with specific type.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Paste-Range.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Paste-Range.java" >}}
 
 ## **Only Copy Data Of The Range.**
 Also you can copy the data with Range.CopyData method as the following codes:
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range-Data.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range-Data.java" >}}
 
 
