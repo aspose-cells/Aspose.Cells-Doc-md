@@ -1,7 +1,7 @@
 ---
 title: Managing Controls
 type: docs
-weight: 700
+weight: 150
 url: /net/managing-controls/
 ---
 

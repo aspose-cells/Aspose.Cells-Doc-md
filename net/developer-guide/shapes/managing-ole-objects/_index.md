@@ -1,7 +1,7 @@
 ---
 title: Managing OLE Objects
 type: docs
-weight: 800
+weight: 50
 url: /net/managing-ole-objects/
 ---
 

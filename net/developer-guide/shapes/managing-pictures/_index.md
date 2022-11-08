@@ -1,7 +1,7 @@
 ---
 title: Managing Pictures
 type: docs
-weight: 900
+weight: 10
 url: /net/managing-pictures/
 aliases: [/net/convert-png-to-excel/,/net/convert-jpg-to-excel/,/net/convert-emf-to-excel/,/net/convert-bmp-to-excel/,/net/convert-tiff-to-excel/]
 ---
