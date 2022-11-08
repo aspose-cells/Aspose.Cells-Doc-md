@@ -1,6 +1,6 @@
 ---
-title: Manage TextBox and Text of Shapes
+title: Manage TextBox
 type: docs
-weight: 200
+weight: 50
 url: /net/managing-textbox-of-excel/
 ---
