@@ -1,7 +1,7 @@
 ---
 title: How to Detect a File Format and Check if the File is Encrypted
 type: docs
-weight: 270
+weight: 2700
 url: /net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Change Adjustment Values of the Shape
 type: docs
-weight: 200
+weight: 2000
 url: /net/change-adjustment-values-of-the-shape/
 ---
 

@@ -4,7 +4,7 @@ linktitle: Shapes
 type: docs
 weight: 140
 url: /net/insert-shapes/
-aliases: [/net/drawing-objects/,/net/insert-shapes-to-worksheet-in-aspose-cells/]
+aliases: [/net/drawing-objects/,/net/insert-shapes-to-worksheet-in-aspose-cells/,/net/managing-shapes/,/net/managing-charts-and-shapes/]
 description: Manage pictures, oleobject, shapes into Excel files.
 ---
 

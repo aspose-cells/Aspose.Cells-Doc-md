@@ -1,7 +1,7 @@
 ---
 title: Get Connection points from shape
 type: docs
-weight: 350
+weight: 3500
 url: /net/get-connection-points-from-shape/
 ---
 

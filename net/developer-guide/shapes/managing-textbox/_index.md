@@ -2,5 +2,5 @@
 title: Manage TextBox and Text of Shapes
 type: docs
 weight: 200
-url: /java/managing-textbox-of-excel/
+url: /net/managing-textbox-of-excel/
 ---

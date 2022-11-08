@@ -1,7 +1,7 @@
 ---
 title: Finding Absolute Position of Shape inside the Worksheet
 type: docs
-weight: 80
+weight: 8000
 url: /net/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Refresh Values of Linked Shapes
 type: docs
-weight: 120
+weight: 3200
 url: /net/refresh-values-of-linked-shapes/
 ---
 
