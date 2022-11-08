@@ -1,7 +1,7 @@
 ---
 title: Change Adjustment Values of the Shape
 type: docs
-weight: 320
+weight: 3200
 url: /java/change-adjustment-values-of-the-shape/
 ---
 
