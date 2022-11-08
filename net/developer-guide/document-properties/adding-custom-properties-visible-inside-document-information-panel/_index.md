@@ -1,7 +1,7 @@
 ---
 title: Adding Custom Properties visible inside Document Information Panel
 type: docs
-weight: 250
+weight: 300
 url: /net/adding-custom-properties-visible-inside-document-information-panel/
 ---
 
