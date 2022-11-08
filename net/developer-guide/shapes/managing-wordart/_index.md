@@ -1,5 +1,6 @@
 ---
 title: Add WordArt Watermark to Worksheet
+linktile: Managing WordArt
 type: docs
 weight: 40
 url: /net/add-wordart-watermark-to-worksheet/
