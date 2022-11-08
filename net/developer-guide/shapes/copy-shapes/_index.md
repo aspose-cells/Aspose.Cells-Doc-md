@@ -1,5 +1,6 @@
 ---
 title: Copy Shapes between Worksheets
+linktitle: Copy Shapes
 type: docs
 weight: 200
 url: /net/copy-shapes-between-worksheets/
