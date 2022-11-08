@@ -1,7 +1,7 @@
 ---
 title: Insert Shapes To Worksheet In Aspose.Cells
 type: docs
-weight: 10
+weight: 5
 url: /java/insert-shapes-to-worksheet-in-aspose-cells/
 ---
 

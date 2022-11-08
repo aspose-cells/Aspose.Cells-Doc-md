@@ -1,7 +1,7 @@
 ---
 title: Send Shape Front or Back inside the Worksheet
 type: docs
-weight: 60
+weight: 600
 url: /java/send-shape-front-or-back-inside-the-worksheet/
 ---
 
