@@ -2,7 +2,7 @@
 title: Add WordArt Watermark to Worksheet
 linktitle: Managing WordArt
 type: docs
-weight: 20
+weight: 180
 url: /java/add-wordart-watermark-to-worksheet/
 ---
 

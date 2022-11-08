@@ -1,7 +1,7 @@
 ---
 title: Managing Pictures
 type: docs
-weight: 40
+weight: 10
 url: /java/managing-pictures/
 ---
 

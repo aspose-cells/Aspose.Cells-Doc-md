@@ -1,7 +1,7 @@
 ---
 title: Managing Controls
 type: docs
-weight: 20
+weight: 120
 url: /java/managing-controls/
 ---
 

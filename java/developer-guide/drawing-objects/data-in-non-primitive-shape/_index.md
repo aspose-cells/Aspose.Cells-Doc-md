@@ -1,7 +1,7 @@
 ---
 title: Data in Non-Primitive Shape
 type: docs
-weight: 10
+weight: 500
 url: /java/data-in-non-primitive-shape/
 ---
 
