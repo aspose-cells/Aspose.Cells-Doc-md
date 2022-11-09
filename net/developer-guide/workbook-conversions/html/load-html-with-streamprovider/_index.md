@@ -1,5 +1,5 @@
 ---
-title: Convert html to Excel with StreamProvider
+title: Load Html to Excel with StreamProvider
 type: docs
 weight: 80
 url: /net/convert-html-to-excel-with-streamprovider/
