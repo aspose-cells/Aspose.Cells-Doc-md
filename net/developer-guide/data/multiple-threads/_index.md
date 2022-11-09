@@ -1,5 +1,6 @@
 ---
 title: Reading Cell Values in Multiple Threads Simultaneously
+linktitle: Multiple Threads
 type: docs
 weight: 180
 url: /net/reading-cell-values-in-multiple-threads-simultaneously/

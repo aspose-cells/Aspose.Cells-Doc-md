@@ -1,5 +1,6 @@
 ---
-title: Calculate the Width and Height of the Cell Value in Unit of Pixels
+title: Measure the Width and Height of the Cell Value in Unit of Pixels
+linktitle: Measure the Size
 type: docs
 weight: 260
 url: /net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/

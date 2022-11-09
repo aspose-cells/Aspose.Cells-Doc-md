@@ -4,7 +4,7 @@ linktitle: Data
 type: docs
 weight: 110
 url: /net/add-and-retrieve-data/
-aliases: [/net/data/]
+aliases: [/net/data/,/net/managing-rows-columns-and-cells/]
 description: This article describes how to manage data of Excel files with Aspose.Cells library.
 ---
 
