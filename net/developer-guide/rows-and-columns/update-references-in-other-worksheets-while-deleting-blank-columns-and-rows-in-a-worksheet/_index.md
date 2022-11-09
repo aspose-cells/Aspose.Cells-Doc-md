@@ -1,7 +1,7 @@
 ---
 title: Update references in other worksheets while deleting blank columns and rows in a worksheet
 type: docs
-weight: 280
+weight: 5000
 url: /net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/
 ---
 

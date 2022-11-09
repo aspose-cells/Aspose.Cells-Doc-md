@@ -1,5 +1,6 @@
 ---
 title: Create Workbook and Worksheet Scoped Named Ranges
+linktitle: Named Range
 type: docs
 weight: 40
 url: /net/create-workbook-and-worksheet-scoped-named-ranges/

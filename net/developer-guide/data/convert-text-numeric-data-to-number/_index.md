@@ -1,7 +1,7 @@
 ---
 title: Convert Text Numeric Data to Number
 type: docs
-weight: 90
+weight: 900
 url: /net/convert-text-numeric-data-to-number/
 description: Learn how to convert numbers stored as text in Excel to numbers by using the Aspose.Cells for .NET API.
 keywords: excel convert text to number, excel convert text to number c#, excel convert text numeric data to number, excel convert text numeric data to number c#, excel convert numeric text to number, excel convert numeric text to number c#, excel convert numeric text to number with c#, convert numeric text to number in excel with c#, convert numeric text to number in excel with c#, convert numeric string to number in excel with c#, excel convert text numeric data to number c#, excel convert numeric string to number c#

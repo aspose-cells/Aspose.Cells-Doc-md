@@ -22,7 +22,7 @@ Aspose.Cells allows developers to add data to the cells in worksheets by calling
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
-### **Improving Efficiency**
+## **Improving Efficiency**
 
 If you use [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) method to put a large amount of data to a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.
 

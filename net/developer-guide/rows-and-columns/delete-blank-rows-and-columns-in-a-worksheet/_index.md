@@ -1,7 +1,7 @@
 ---
 title: Delete Blank Rows and Columns in a Worksheet
 type: docs
-weight: 30
+weight: 300
 url: /net/delete-blank-rows-and-columns-in-a-worksheet/
 ---
 

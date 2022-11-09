@@ -1,5 +1,6 @@
 ---
 title: Access and Update the Portions of Rich Text of Cell
+linktitle: Rich Text
 type: docs
 weight: 140
 url: /net/access-and-update-the-portions-of-rich-text-of-cell/

@@ -1,7 +1,7 @@
 ---
 title: Creating Subtotals
 type: docs
-weight: 80
+weight: 800
 url: /net/creating-subtotals/
 ---
 
