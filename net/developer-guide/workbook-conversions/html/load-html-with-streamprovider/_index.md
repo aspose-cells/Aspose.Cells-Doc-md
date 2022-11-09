@@ -7,7 +7,7 @@ url: /net/convert-html-to-excel-with-streamprovider/
 
 {{% alert color="primary" %}} 
 
-When loading html which contains external resources, we offen face the following two issues:
+When loading html fiels which contain external resources, we offen face the following two issues:
 1,When the html stream is loaded, the images and external resources referenced by the html file cannot be obtained through relative paths.
 2,External resource paths referenced in html files need to be mapped
 
