@@ -8,7 +8,7 @@ aliases: [/net/implementing-istreamprovider-for-htmlsaveoptions-streamprovider/]
 
 {{% alert color="primary" %}} 
 
-When converting excel fiels which contain external resources to html files, we offen face the following two issues:
+When converting excel fiels which contain iamges and shapes to html files, we offen face the following two issues:
 1,Where should we save the images and shapes when saving excel file to html stream.
 2,Replace the default path with excepted path.
 
