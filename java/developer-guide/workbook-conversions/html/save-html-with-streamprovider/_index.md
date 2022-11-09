@@ -1,8 +1,9 @@
 ---
-title: Implementing IStreamProvider for HtmlSaveOptions.StreamProvider
+title: Save Html With StreamProvider
 type: docs
 weight: 120
-url: /java/implementing-istreamprovider-for-htmlsaveoptions-streamprovider/
+url: /java/convert-excel-to-html-with-streamprovider/
+aliases: [/java/implementing-istreamprovider-for-htmlsaveoptions-streamprovider/]
 ---
 
 {{% alert color="primary" %}}

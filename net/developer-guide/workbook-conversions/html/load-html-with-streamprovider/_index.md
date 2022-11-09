@@ -7,11 +7,11 @@ url: /net/convert-html-to-excel-with-streamprovider/
 
 {{% alert color="primary" %}} 
 
-This article explains how to implement [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interface for setting the [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) property. By implementing this interface, you will be able to load external resources during loading Html streams or these external resources are relative.
+This article explains how to implement [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interface for setting the [HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/) property. By implementing this interface, you will be able to load external resources during loading Html streams or these external resources are relative.
 
 {{% /alert %}} 
 
-This is the main code showing the usage of [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) property
+This is the main code showing the usage of [HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/) property
 
 
 
