@@ -2,7 +2,8 @@
 title: Data Sorting
 type: docs
 weight: 90
-url: /java/data-sorting/
+url: /java/sort-data-of-excel/
+aliases: [/java/sort-data/,/java/data-sorting/]
 ---
 
 {{% alert color="primary" %}}

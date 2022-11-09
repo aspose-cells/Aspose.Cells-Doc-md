@@ -3,6 +3,7 @@ title: List of Supported Functions
 type: docs
 weight: 10
 url: /net/list-of-supported-functions/
+aliases: [/net/aspose-cells-grid-controls-formula-calculation-engine/]
 ---
 
 ## **Introduction**
