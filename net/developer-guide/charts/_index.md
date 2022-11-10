@@ -4,7 +4,7 @@ linktitle: Charts
 type: docs
 weight: 130
 url: /net/creating-charts/
-aliases: [/net/charts/]
+aliases: [/net/charts/,/net/managing-charts/]
 description: Create a chart in CSharp for Excel and ODS files.
 keywords: create a chart, make a graph 
 ---

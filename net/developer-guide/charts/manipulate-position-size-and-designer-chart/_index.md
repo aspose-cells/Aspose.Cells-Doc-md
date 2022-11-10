@@ -3,6 +3,7 @@ title: Manipulate Position Size and Designer Chart
 type: docs
 weight: 60
 url: /net/manipulate-position-size-and-designer-chart/
+aliases: [/net/convert-xls-to-xlsx-with-combo-chart/]
 ---
 
 ## **Chart Position and Size**

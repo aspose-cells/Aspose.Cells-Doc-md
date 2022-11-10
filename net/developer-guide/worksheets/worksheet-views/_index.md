@@ -3,6 +3,7 @@ title: Worksheet Views
 type: docs
 weight: 40
 url: /net/worksheet-views/
+aliases: [/net/display-features/]
 ---
 
 ## **Page Break Preview**
