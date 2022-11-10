@@ -8,6 +8,11 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.11
+
+* Support to distinguish between dynamic array formula and legacy array formula
+* Support to read/save dynamic array formulas for xlsb file format
+
 ## Aspose.Cells for .NET 22.10
 
 * Support to use SkiaSharp as the graphics library for NET6
