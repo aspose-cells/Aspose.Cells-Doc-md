@@ -22,7 +22,7 @@ Aspose.Cells APIs support most of the standard functions and Excel's built-in fo
 
 Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate the results of the following formulas and functions.
 
-## **A**
+###### **A**
 |**Function**|**Summary**|
 | :- | :- |
 |ABS|**Math and trigonometry**: Returns the absolute value of a number
@@ -48,7 +48,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |AVERAGEIF|**Statistical**: Returns the average (arithmetic mean) of all the cells in a range that meet a given criteria
 |AVERAGEIFS|**Statistical**: Returns the average (arithmetic mean) of all cells that meet multiple criteria.
 
-## **B**
+###### **B**
 |**Function**|**Summary**|
 | :- | :- |
 |BESSELI|**Engineering**: Returns the modified Bessel function In(x)
@@ -70,7 +70,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |BITRSHIFT|**Engineering**: Returns a value number shifted right by shift_amount bits
 |BITXOR|**Engineering**: Returns a bitwise 'Exclusive Or' of two numbers
 
-## **C**
+###### **C**
 |**Function**|**Summary**|
 | :- | :- |
 |CEILING|**Compatibility**: Rounds a number to the nearest integer or to the nearest multiple of significance
@@ -118,7 +118,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |CUMIPMT|**Financial**: Returns the cumulative interest paid between two periods
 |CUMPRINC|**Financial**: Returns the cumulative principal paid on a loan between two periods
 
-## **D**
+###### **D**
 |**Function**|**Summary**|
 | :- | :- |
 |DATE|**Date and time**: Returns the serial number of a particular date
@@ -153,7 +153,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |DVAR|**Database**: Estimates variance based on a sample from selected database entries
 |DVARP|**Database**: Calculates variance based on the entire population of selected database entries
 
-## **E**
+###### **E**
 |**Function**|**Summary**|
 | :- | :- |
 |EDATE|**Date and time**: Returns the serial number of the date that is the indicated number of months before or after the start date
@@ -167,7 +167,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |EXP|**Math and trigonometry**: Returns e raised to the power of a given number
 |EXPONDIST|**Compatibility**: Returns the exponential distribution
 
-## **F**
+###### **F**
 |**Function**|**Summary**|
 | :- | :- |
 |FACT|**Math and trigonometry**: Returns the factorial of a number
@@ -193,7 +193,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |FV|**Financial**: Returns the future value of an investment
 |FVSCHEDULE|**Financial**: Returns the future value of an initial principal after applying a series of compound interest rates
 
-## **G**
+###### **G**
 |**Function**|**Summary**|
 | :- | :- |
 |GAMMA.DIST|**Statistical**: Returns the gamma distribution
@@ -207,7 +207,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |GETPIVOTDATA|**Lookup and reference**: Returns data stored in a PivotTable report
 |GROWTH|**Statistical**: Returns values along an exponential trend
 
-## **H**
+###### **H**
 |**Function**|**Summary**|
 | :- | :- |
 |HARMEAN|**Statistical**: Returns the harmonic mean
@@ -220,7 +220,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |HYPGEOM.DIST|**Statistical**: Returns the hypergeometric distribution
 |HYPGEOMDIST|**Compatibility**: Returns the hypergeometric distribution
 
-## **I**
+###### **I**
 |**Function**|**Summary**|
 | :- | :- |
 |IF|**Logical**: Specifies a logical test to perform
@@ -265,12 +265,12 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ISOWEEKNUM|**Date and time**: Returns the number of the ISO week number of the year for a given date
 |ISPMT|**Financial**: Calculates the interest paid during a specific period of an investment
 
-## **K**
+###### **K**
 |**Function**|**Summary**|
 | :- | :- |
 |KURT|**Statistical**: Returns the kurtosis of a data set
 
-## **L**
+###### **L**
 |**Function**|**Summary**|
 | :- | :- |
 |LARGE|**Statistical**: Returns the k-th largest value in a data set
@@ -291,7 +291,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |LOOKUP|**Lookup and reference**: Looks up values in a vector or array
 |LOWER|**Text**: Converts text to lowercase
 
-## **M**
+###### **M**
 |**Function**|**Summary**|
 | :- | :- |
 |MATCH|**Lookup and reference**: Looks up values in a reference or array
@@ -318,7 +318,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |MROUND|**Math and trigonometry**: Returns a number rounded to the desired multiple
 |MULTINOMIAL|**Math and trigonometry**: Returns the multinomial of a set of numbers
 
-## **N**
+###### **N**
 |**Function**|**Summary**|
 | :- | :- |
 |N|**Information**: Returns a value converted to a number
@@ -342,7 +342,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |NPV|**Financial**: Returns the net present value of an investment based on a series of periodic cash flows and a discount rate
 |NUMBERVALUE|**Text**: Converts text to number in a locale-independent manner
 
-## **O**
+###### **O**
 |**Function**|**Summary**|
 | :- | :- |
 |OCT2BIN|**Engineering**: Converts an octal number to binary
@@ -356,7 +356,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |OFFSET|**Lookup and reference**: Returns a reference offset from a given reference
 |OR|**Logical**: Returns TRUE if any argument is TRUE
 
-## **P**
+###### **P**
 |**Function**|**Summary**|
 | :- | :- |
 |PEARSON|**Statistical**: Returns the Pearson product moment correlation coefficient
@@ -381,7 +381,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |PROPER|**Text**: Capitalizes the first letter in each word of a text value
 |PV|**Financial**: Returns the present value of an investment
 
-## **Q**
+###### **Q**
 |**Function**|**Summary**|
 | :- | :- |
 |QUARTILE|**Compatibility**: Returns the quartile of a data set
@@ -389,7 +389,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |QUARTILE.INC|**Statistical**: Returns the quartile of a data set
 |QUOTIENT|**Math and trigonometry**: Returns the integer portion of a division
 
-## **R**
+###### **R**
 |**Function**|**Summary**|
 | :- | :- |
 |RADIANS|**Math and trigonometry**: Converts degrees to radians
@@ -414,7 +414,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |ROWS|**Lookup and reference**: Returns the number of rows in a reference
 |RSQ|**Statistical**: Returns the square of the Pearson product moment correlation coefficient
 
-## **S**
+###### **S**
 |**Function**|**Summary**|
 | :- | :- |
 |SEARCH|**Text**: Finds one text value within another (not case-sensitive)
@@ -456,7 +456,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |SWITCH|**Logical**: Evaluates an expression against a list of values and returns the result corresponding to the first matching value. If there is no match, an optional default value may be returned.
 |SYD|**Financial**: Returns the sum-of-years' digits depreciation of an asset for a specified period
 
-## **T**
+###### **T**
 |**Function**|**Summary**|
 | :- | :- |
 |T|**Text**: Converts its arguments to text
@@ -485,7 +485,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |TTEST|**Compatibility**: Returns the probability associated with a Student's t-test
 |TYPE|**Information**: Returns a number indicating the data type of a value
 
-## **U**
+###### **U**
 |**Function**|**Summary**|
 | :- | :- |
 |UNICHAR|**Text**: Returns the Unicode character that is references by the given numeric value
@@ -493,7 +493,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |UNIQUE|**Lookup and reference**: Returns a list of unique values in a list or range
 |UPPER|**Text**: Converts text to uppercase
 
-## **V**
+###### **V**
 |**Function**|**Summary**|
 | :- | :- |
 |VALUE|**Text**: Converts a text argument to a number
@@ -506,7 +506,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |VDB|**Financial**: Returns the depreciation of an asset for a specified or partial period by using a declining balance method
 |VLOOKUP|**Lookup and reference**: Looks in the first column of an array and moves across the row to return the value of a cell
 
-## **W**
+###### **W**
 |**Function**|**Summary**|
 | :- | :- |
 |WEEKDAY|**Date and time**: Converts a serial number to a day of the week
@@ -516,14 +516,14 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |WORKDAY|**Date and time**: Returns the serial number of the date before or after a specified number of workdays
 |WORKDAY.INTL|**Date and time**: Returns the serial number of the date before or after a specified number of workdays using parameters to indicate which and how many days are weekend days
 
-## **X**
+###### **X**
 |**Function**|**Summary**|
 | :- | :- |
 |XIRR|**Financial**: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic
 |XLOOKUP|**Lookup and reference**: Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn't exist, then XLOOKUP can return the closest (approximate) match. 
 |XNPV|**Financial**: Returns the net present value for a schedule of cash flows that is not necessarily periodic
 
-## **Y**
+###### **Y**
 |**Function**|**Summary**|
 | :- | :- |
 |YEAR|**Date and time**: Converts a serial number to a year
@@ -532,7 +532,7 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 |YIELDDISC|**Financial**: Returns the annual yield for a discounted security; for example, a Treasury bill
 |YIELDMAT|**Financial**: Returns the annual yield of a security that pays interest at maturity
 
-## **Z**
+###### **Z**
 |**Function**|**Summary**|
 | :- | :- |
 |Z.TEST|**Statistical**: Returns the one-tailed probability-value of a z-test
