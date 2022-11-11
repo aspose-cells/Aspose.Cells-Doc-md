@@ -2,7 +2,7 @@
 title: Creating Pie Chart with Leader Lines
 linktitle: Pie Chart
 type: docs
-weight: 180
+weight: 45
 url: /net/creating-pie-chart-with-leader-lines/
 ---
 
