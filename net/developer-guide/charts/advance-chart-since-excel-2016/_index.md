@@ -1,7 +1,7 @@
 ---
 title: Read and Manipulate Excel 2016 Charts
 type: docs
-weight: 90
+weight: 48
 url: /net/read-and-manipulate-excel-2016-charts/
 ---
 

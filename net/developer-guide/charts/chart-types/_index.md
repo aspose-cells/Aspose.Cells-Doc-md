@@ -1,7 +1,7 @@
 ---
 title: Chart Types
 type: docs
-weight: 30
+weight: 5
 url: /net/chart-types/
 ---
 

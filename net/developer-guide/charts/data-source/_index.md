@@ -2,7 +2,7 @@
 title: Set Data source for the chart
 linktitle: Data source
 type: docs
-weight: 80
+weight: 10
 url: /net/data-formatting-in-charts/
 ---
 

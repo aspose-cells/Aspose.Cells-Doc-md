@@ -38,7 +38,7 @@ The file format that the file is saved to is decided by the **[SaveFormat](https
 |XPS|Represents an XPS document|
 |TIFF|Represents Tagged Image File Format (TIFF)|
 
-## **Saving File as Different Formats*
+## **Saving File as Different Formats**
 
 To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the **[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration) when calling the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** object's **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method.
 

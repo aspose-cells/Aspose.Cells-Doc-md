@@ -1,7 +1,7 @@
 ---
 title: Chart Rendering
 type: docs
-weight: 50
+weight: 60
 url: /net/chart-rendering/
 ---
 

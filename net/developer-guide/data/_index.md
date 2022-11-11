@@ -1,6 +1,6 @@
 ---
 title: Managing data of Excel files.
-linktitle: Data
+linktitle: Cells Data
 type: docs
 weight: 110
 url: /net/add-and-retrieve-data/

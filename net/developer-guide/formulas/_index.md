@@ -1,8 +1,8 @@
 ---
-title: Manage and Calculate formulas of Excel files
+title: Manage formulas of Excel files
 linktitle: Formulas
 type: docs
-weight: 1200
+weight: 120
 url: /net/using-formulas-or-functions-to-process-data/
 aliases: [/net/formulas/]
 description: Aspose.Cells can simply get, set and calculate formulas of excel files.
