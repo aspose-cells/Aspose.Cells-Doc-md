@@ -1,5 +1,6 @@
 ---
 title: Propagate Formula in Table or List Object automatically while entering data in new rows
+linktitle: Sets Table Formula
 type: docs
 weight: 260
 url: /net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
