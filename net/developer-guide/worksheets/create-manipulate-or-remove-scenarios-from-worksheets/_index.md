@@ -1,5 +1,6 @@
 ---
 title: Create, Manipulate or Remove Scenarios from Worksheets
+linktitle: Manage Scenarios
 type: docs
 weight: 190
 url: /net/create-manipulate-or-remove-scenarios-from-worksheets/
