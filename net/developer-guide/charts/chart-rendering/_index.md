@@ -1,7 +1,8 @@
 ---
 title: Chart Rendering
+linktitle: To Image or Pdf
 type: docs
-weight: 60
+weight: 45
 url: /net/chart-rendering/
 ---
 
