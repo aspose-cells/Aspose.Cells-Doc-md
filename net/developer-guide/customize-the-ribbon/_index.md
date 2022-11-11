@@ -1,6 +1,6 @@
 ---
 title: Customizing the Ribbon XML
-linktitle: Customize Ribbon
+linktitle: Customize Excel Menu
 type: docs
 weight: 150
 url: /net/customizing-the-ribbon-xml/
@@ -8,7 +8,7 @@ url: /net/customizing-the-ribbon-xml/
 
 {{% alert color="primary" %}} 
 
-Microsoft Office 2007/2010 replaced menus and toolbars with a Ribbon at the top of the application window. The Ribbon is customizable. 
+Microsoft Office replaced menus and toolbars with a Ribbon at the top of the application window since office 2007. The Ribbon is customizable. 
 Aspose.Cells allows you to
 
 - Keep Ribbon XML without parsing it,

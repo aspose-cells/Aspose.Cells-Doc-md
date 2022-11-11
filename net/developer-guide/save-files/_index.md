@@ -38,11 +38,17 @@ The file format that the file is saved to is decided by the **[SaveFormat](https
 |XPS|Represents an XPS document|
 |TIFF|Represents Tagged Image File Format (TIFF)|
 
-## **Saving File to Some Location**
+## **Saving File as Different Formats*
 
 To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the **[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration) when calling the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** object's **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
+
+## **Saving Workbook as Pdf**
+Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. The PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+
+The following codes shows how to save workboook as pdf file With Aspose.Cells:
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Save-As-Pdf.cs" >}}
 
 ## **Saving Workbook to Text or CSV Format**
 
@@ -67,6 +73,11 @@ Text files contain spreadsheet data without formatting. The file is a kind of pl
 To save files to a stream, create a *MemoryStream* or *FileStream* object and save the file to that stream object by calling the **[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** object's **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method. Specify the desired file format using the **[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeration when calling the **[Save](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
+
+## **Saveing files as Html and Mht files**
+Aspose.Cells can simply save an Excel file ,JSON, CSV or other files which could be loaded by Aspose.Cells as .html and .mht files.
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
+ 
 
 ## **Saving as OpenOffice (ODS, SXC, FODS, OTS)**
 We can saving the files as open offce format : ODS, SXC, FODS, OTS etc.
