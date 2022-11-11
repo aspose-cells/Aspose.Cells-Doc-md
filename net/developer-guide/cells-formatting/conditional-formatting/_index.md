@@ -1,8 +1,8 @@
 ---
 title: Set Conditional Formats of Excel and ODS files.
-linktitle: Conditional Formatting
+linktitle: Conditional Formats
 type: docs
-weight: 125
+weight: 60
 url: /net/conditional-formatting/
 aliases: [/net/managing-conditional-formats/,/net/insert-conditional-formats/]
 description: How to apply conditional formats to Excel and ODS files in CSharp.
