@@ -2,7 +2,7 @@
 title: Customizing the Ribbon XML
 linktitle: Customize Excel Menu
 type: docs
-weight: 150
+weight: 1500
 url: /net/customizing-the-ribbon-xml/
 ---
 
