@@ -1,6 +1,6 @@
 ---
 title: Protect and Unprotect
-linktitle: Protection
+linktitle: Encryption and Protection
 type: docs
 weight: 68
 url: /net/protect-and-unprotect/
