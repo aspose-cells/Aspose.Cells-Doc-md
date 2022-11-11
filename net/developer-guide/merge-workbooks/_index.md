@@ -1,8 +1,8 @@
 ---
 title: Combine Multiple Workbooks into a Single Workbook
-linktitle: Merge Workbook(s)
+linktitle: Workbook Merger
 type: docs
-weight: 140
+weight: 66
 url: /net/combine-multiple-workbooks-into-a-single-workbook/
 ---
 
