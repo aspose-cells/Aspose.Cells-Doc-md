@@ -116,4 +116,4 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 |LeftToRight|Left to right reading order|
 |RightToLeft|Right to left reading order|
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChangeTextDirection-1.cs" >}}

@@ -3,7 +3,7 @@ title: Manage Titles of Excel Charts
 linktitle: Titles
 type: docs
 weight: 50
-url: /net/chart-and-axis-titles/
+url: /java/chart-and-axis-titles/
 ---
 
 {{% alert color="primary" %}}
