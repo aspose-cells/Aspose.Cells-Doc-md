@@ -1,7 +1,7 @@
 ---
 title: Worksheet Views
 type: docs
-weight: 70
+weight: 10
 url: /java/worksheet-views/
 ---
 
