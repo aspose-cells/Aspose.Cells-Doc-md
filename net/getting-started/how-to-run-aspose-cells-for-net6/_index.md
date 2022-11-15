@@ -30,7 +30,7 @@ You can also install Aspose.Cells from the Nuget package manager in VS2022.
 2. "SkiaSharp" or "System.Drawing.Common" will be installed automatically as a dependency of Aspose.Cells 22.10.1 or later for .Net6 platforms, which depends on "Target OS" configuration in your project.
 - Set the "Target OS" to "Windows" for your project, you will use "System.Drawing.Common" as a dependency on your windows system for .Net6 project. In this configuration, the result of the drawing is closer to .netcore31 or before.
 **![Config target OS](TargetOS.png)**
-- Set the "Target OS" to "None" or other options for your project, you will use "SkiaSharp" as a dependency on your windows system for .Net6 project. Please note that currently SkiaSharp does not support formats such as EMF/TIFF in windows.
+- Set the "Target OS" to "None" or other options for your project, you will use "SkiaSharp" as a dependency on your windows system for .Net6 project. Please note that currently SkiaSharp does not support formats such as EMF in windows.
 
 ### Install through msi or DLL
 
@@ -50,7 +50,7 @@ In this way, you will use "System.Drawing.Common" as a dependency on your window
 - System.Security.Cryptography.Pkcs, 6.0.1.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-In this way, you will use "SkiaSharp" as a dependency on your windows system for .Net6 project. Please note that currently SkiaSharp does not support formats such as EMF/TIFF in windows.
+In this way, you will use "SkiaSharp" as a dependency on your windows system for .Net6 project. Please note that currently SkiaSharp does not support formats such as EMF in windows.
 
 ## Run Aspose.Cells for .Net6 on Linux
 
