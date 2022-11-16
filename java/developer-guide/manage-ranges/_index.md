@@ -2,7 +2,7 @@
 title: Managing Ranges
 linktitle: Ranges
 type: docs
-weight: 105
+weight: 75
 url: /java/managing-ranges/
 ---
 

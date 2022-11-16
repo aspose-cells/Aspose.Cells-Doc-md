@@ -2,7 +2,7 @@
 title: Combine Multiple Workbooks into a Single Workbook
 linktitle: Workbook Merger
 type: docs
-weight: 5o
+weight: 50
 url: /java/combine-multiple-workbooks-into-a-single-workbook/
 description: Combine multiple workbooks into single workbooks by using Java code and Aspose.Cells for Java API.
 keywords: combine multiple workbooks into one, combine multiple workbooks into one java, combine multiple workbooks into one with java, combine multiple workbooks into single workbook with java, combine multiple workbooks into single workbook java, java code to combine multiple workbooks into single workbook, how to combine multiple workbooks into single workbook with java, how to combine multiple workbooks into one with java, merge multiple workbooks into one with java, how to merge multiple workbooks into one java, how to merge multiple workbooks into one with java
