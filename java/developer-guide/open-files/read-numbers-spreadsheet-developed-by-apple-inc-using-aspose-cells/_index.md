@@ -1,5 +1,6 @@
 ---
 title: Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells
+linktitle: Read Numbers Developed by Apple Inc.
 type: docs
 weight: 90
 url: /java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/

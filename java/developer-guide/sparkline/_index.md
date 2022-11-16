@@ -2,7 +2,7 @@
 title: Insert Sparkline
 linktitle: Sparklines
 type: docs
-weight: 160
+weight: 150
 url:  /java/creating-sparklines/
 aliases: [/java/sparkline/,/java/insert-sparklines/]
 description: Create sparkline for Excel using Aspose.Cells.

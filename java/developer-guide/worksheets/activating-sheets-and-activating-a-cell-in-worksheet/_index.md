@@ -1,7 +1,7 @@
 ---
 title: Activating Sheets and Activating a Cell in Worksheet
 type: docs
-weight: 220
+weight: 5
 url: /java/activating-sheets-and-activating-a-cell-in-worksheet/
 ---
 

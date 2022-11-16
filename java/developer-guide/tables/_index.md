@@ -1,6 +1,6 @@
 ---
 title: Tables
 type: docs
-weight: 150
+weight: 160
 url: /java/tables/
 ---

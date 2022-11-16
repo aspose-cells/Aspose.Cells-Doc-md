@@ -1,5 +1,5 @@
 ---
-title: Combine Multiple Worksheets into a Single Worksheet
+title: Merge Multiple Worksheets into a Single Worksheet
 type: docs
 weight: 70
 url: /java/combine-multiple-worksheets-into-a-single-worksheet/

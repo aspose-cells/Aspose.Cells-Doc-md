@@ -1,5 +1,5 @@
 ---
-title: Cells Formatting
+title: Cells Formats
 type: docs
 weight: 100
 url: /java/cells-formatting/
