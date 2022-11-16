@@ -1,7 +1,7 @@
 ---
 title: Calculate Formulas
 type: docs
-weight: 8
+weight: 110
 url: /java/calculate-formulas/
 aliases:
     - /java/ways-to-calculate-formulas/

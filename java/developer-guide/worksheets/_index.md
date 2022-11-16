@@ -2,7 +2,7 @@
 title: Manage Worksheets
 linktitle: Workshees
 type: docs
-weight: 20
+weight: 60
 url: /java/manage-worksheets/
 aliases: [/java/managing-workbooks-and-worksheets/,/java/worksheets/]
 ---

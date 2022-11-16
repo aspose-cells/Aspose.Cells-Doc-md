@@ -2,7 +2,7 @@
 title: Opening Files with Different Formats
 linktitle: Open Files
 type: docs
-weight: 100
+weight: 10
 url: /java/opening-files-with-different-formats/
 aliases: [java/loading-saving-converting-and-managing/]
 ---
