@@ -88,7 +88,7 @@ Like Microsoft Excel, Aspose.Cells supports merging several cells into one. Aspo
 - Number of rows: the number of rows to merge.
 - Number of columns: the number of columns to merge.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "MergingCellsInWorksheet.-1.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "MergingCellsInWorksheet.-1.java" >}}
 
 
 ### **Text Direction**
@@ -103,4 +103,4 @@ The reading order is set with the [**TextDirection**](https://reference.aspose.c
 |LeftToRight|Left to right reading order|
 |RightToLeft|Right to left reading order|
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirection-1.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirection-1.java" >}}

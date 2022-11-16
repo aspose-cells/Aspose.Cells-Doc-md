@@ -1,7 +1,8 @@
 ---
 title: Dealing with Font Settings
+linktitle: Font Settings
 type: docs
-weight: 110
+weight: 20
 url: /java/dealing-with-font-settings/
 ---
 

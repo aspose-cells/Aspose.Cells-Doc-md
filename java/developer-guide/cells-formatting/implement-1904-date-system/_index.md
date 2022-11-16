@@ -1,7 +1,7 @@
 ---
 title: Implement 1904 Date System
 type: docs
-weight: 20
+weight: 2000
 url: /java/implement-1904-date-system/
 ---
 
