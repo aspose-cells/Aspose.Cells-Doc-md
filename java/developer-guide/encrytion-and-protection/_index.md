@@ -1,7 +1,6 @@
 ---
 title: Encrypt, decrypt, protect and unprotect Excel files
 linktitle: Encryption And Protection
-linktitle: Protection
 type: docs
 weight: 53
 url: /java/protect-and-unprotect/
