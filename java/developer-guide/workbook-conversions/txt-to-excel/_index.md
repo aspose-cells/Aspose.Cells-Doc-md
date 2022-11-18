@@ -1,6 +1,5 @@
 ---
-title: Opening Files with Different Formats
-linktitle: Open Files
+title: Convert CSV, TSV and TXT to Excel
 type: docs
 weight: 50
 url: /java/convert-csv-tsv-and-txt-to-excel/
