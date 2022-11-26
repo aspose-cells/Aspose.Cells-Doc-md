@@ -52,3 +52,7 @@ You can use any source workbooks. These images are just for illustration purpose
 ![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
+
+## **Advance topics**
+- [Combine Multiple Worksheets into a Single Worksheet](/cells/net/combine-multiple-worksheets-into-a-single-worksheet/)
+- [Merge Files](/cells/net/merge-files/)
