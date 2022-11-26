@@ -4,6 +4,7 @@ linktitle: Rich Formatting Text
 type: docs
 weight: 140
 url: /net/access-and-update-the-portions-of-rich-text-of-cell/
+aliases: [/net/data-formatting-selected-characters]
 ---
 
 {{% alert color="primary" %}}

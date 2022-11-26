@@ -17,3 +17,6 @@ Alternatively, you can also [autofit rows and columns of your cell or range of c
 The following code explains the use of [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) and [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue) methods.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-CalculateWidthAndHeight-CalculateWidthAndHeightOfCellValueInUnitOfPixel.cs" >}}
+
+## **Advance topics**
+- [Get Text Width of Cell Value](/cells/net/get-text-width-of-cell-value/)

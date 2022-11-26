@@ -30,3 +30,6 @@ In the examples below, we have added subtotals to the first worksheet of the tem
 The code snippets that follow show how to add subtotals to a worksheet with Aspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-CreatingSubtotals-1.cs" >}}
+
+## **Advance topics**
+- [Applying Subtotal and Changing Direction of Outline Summary Rows below Detail](/cells/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)

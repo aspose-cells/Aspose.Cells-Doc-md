@@ -3,7 +3,8 @@ title: Get and Set Style for cells
 linktitle: Styles
 type: docs
 weight: 50
-url: /net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/
+url: /net/styling-and-data-formatting/
+aliases: [/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/]
 ---
 
 {{% alert color="primary" %}} 
@@ -45,6 +46,13 @@ When calling the Cell.SetStyle method, the Style object isn't saved for each cel
 style.Font.IsBold = true;
 
 cell.SetStyle(style);
+
+
+## **Advance topics**
+- [Create Style object using CellsFactory class](/cells/net/create-style-object-using-cellsfactory-class/)
+- [Modify an Existing Style](/cells/net/modify-an-existing-style/)
+- [Reusing Style Objects](/cells/net/reusing-style-objects/)
+- [Using Built-in Styles](/cells/net/using-built-in-styles/)
 
 
 

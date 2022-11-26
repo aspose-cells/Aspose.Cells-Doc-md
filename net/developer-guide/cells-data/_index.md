@@ -3,9 +3,9 @@ title: Managing data of Excel files.
 linktitle: Cells Data
 type: docs
 weight: 110
-url: /net/add-and-retrieve-data/
-aliases: [/net/data/,/net/managing-rows-columns-and-cells/]
-description: This article describes how to manage data of Excel files with Aspose.Cells library.
+url: /net/view-and-edit-excel-data/
+aliases: [/net/data/,/net/managing-rows-columns-and-cells/,/net/add-and-retrieve-data/]
+description: This article describes how to view and edit data of Excel files with Aspose.Cells library.
 ---
 
 {{% alert color="primary" %}}
@@ -64,16 +64,23 @@ While working on worksheets, users may add different types of data in the cells.
 
 ## **Advance topics**
 - [Accessing Cells of a Worksheet](/cells/net/accessing-cells-of-a-worksheet/)
+- [Convert Text Numeric Data to Number](/cells/net/convert-text-numeric-data-to-number/)
 - [Creating Subtotals](/cells/net/creating-subtotals/)
 - [Data Filtering](/cells/net/data-filtering/)
-- [Data Sorting](/cells/net/data-sorting/)
+- [Data Sorting](/cells/net/sort-data-of-excel/)
 - [Data Validation](/cells/net/data-validation/)
 - [Export Data from Worksheet](/cells/net/export-data-from-worksheet/)
 - [Find or Search Data](/cells/net/find-or-search-data/)
+- [Get Cell String Value with and without Formatting](/cells/net/get-cell-string-value-with-and-without-formatting/)
+- [Adding HTML Rich Text inside the Cell](/cells/net/adding-html-rich-text-inside-the-cell/)
+- [Insert Hyperlinks into Excel or OpenOffice](/cells/net/insert-hyperlinks-to-excel/)
 - [Import Data into Worksheet](/cells/net/import-data-into-worksheet/)
+- [How and Where to Use Enumerators](/cells/net/how-and-where-to-use-enumerators/)
+- [Measure the Width and Height of the Cell Value in Unit of Pixels](/cells/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
+- [Reading Cell Values in Multiple Threads Simultaneously](/cells/net/reading-cell-values-in-multiple-threads-simultaneously/)
+- [Conversion between cell name and row/column index](/cells/net/names-and-indices/)
+- [Populate Data First by Row then by Column](/cells/net/populate-data-first-by-row-then-by-column/)
 - [Preserve Single Quote Prefix of Cell Value or Range](/cells/net/preserve-single-quote-prefix-of-cell-value-or-range/)
-- [Working with Hyperlinks to Link Data](/cells/net/working-with-hyperlinks-to-link-data/)
-- [Remove duplicate rows in a Worksheet](/cells/net/remove-duplicate-rows-in-a-worksheet/)
-- [Managing Ranges](/cells/net/managing-ranges/)
+- [Access and Update the Portions of Rich Text of Cell](/cells/net/access-and-update-the-portions-of-rich-text-of-cell/)
 
 

@@ -120,3 +120,9 @@ The source and output excel files are attached for reference.
 [Source File](96928093.xlsx)
 
 [Output File](96928220.xlsx)
+
+
+## **Advance topics**
+- [Get Cell Validation in ODS Files](/cells/net/get-cell-validation-in-ods-files/)
+- [Get Validation Applied on a Cell](/cells/net/get-validation-applied-on-a-cell/)
+- [Verify that Cell Value Satisfies Data Validation Rules](/cells/net/verify-that-cell-value-satisfies-data-validation-rules/)

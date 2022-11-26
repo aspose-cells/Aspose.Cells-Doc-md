@@ -117,3 +117,7 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 |RightToLeft|Right to left reading order|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChangeTextDirection-1.cs" >}}
+
+## **Advance topics**
+- [Change Cells Alignment and Keep Existing Formatting](/cells/net/change-cells-alignment-and-keep-existing-formatting/)
+- [Line Breaks and Text Wrapping](/cells/net/line-breaks-and-text-wrapping/)

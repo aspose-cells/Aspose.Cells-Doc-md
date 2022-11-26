@@ -23,3 +23,4 @@ Below code sample shows you how to add HTML rich text inside the cell. Please se
 ## Related Articles
 
 - [Display Bullets by setting Cell Value using HTML](/cells/net/display-bullets-by-setting-cell-value-using/)
+- [Get HTML5 string from Cell](/cells/net/get-html5-string-from-cell/)

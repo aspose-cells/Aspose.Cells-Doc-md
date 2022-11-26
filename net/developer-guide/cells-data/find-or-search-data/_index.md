@@ -58,3 +58,8 @@ It is possible to find specified string values by calling the same [**Find**](ht
 Specify the [**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) and [**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) properties. The following example code illustrates how to use these properties to find cells with various number of strings at the **beginning** or at the **center** or at the **end** of the cell's string.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
+
+## **Advance topics**
+- [Find Cells with Specific Style](/cells/net/find-cells-with-specific-style/)
+- [Find if the cell value starts with single quote mark](/cells/net/find-if-the-cell-value-starts-with-single-quote-mark/)
+- [Search Data using Original Values](/cells/net/search-data-using-original-values/)

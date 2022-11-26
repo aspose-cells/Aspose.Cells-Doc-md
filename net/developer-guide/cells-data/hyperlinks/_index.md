@@ -57,3 +57,9 @@ It is possible to add hyperlinks to external Excel files by calling the [Hyperli
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToExternalFile-1.cs" >}}
+
+## **Advance topics**
+- [Add Image Hyperlinks](/cells/net/add-image-hyperlinks/)
+- [Detect Hyperlink Type](/cells/net/detect-hyperlink-type/)
+- [Editing Hyperlinks of Worksheet](/cells/net/editing-hyperlinks-of-worksheet/)
+- [Get Hyperlinks in Range](/cells/net/get-hyperlinks-in-range/)

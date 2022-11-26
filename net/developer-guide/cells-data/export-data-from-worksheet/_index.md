@@ -44,5 +44,8 @@ Data from a range can be exported to [**DataTable**](https://docs.microsoft.com/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-ExportRangeWithFlagToSkipColumnHeader-1.cs" >}}
 
 ## **Advance topics**
+- [Export Excel Data to DataTable without any Formatting](/cells/net/export-excel-data-to-datatable-without-any-formatting/)
 - [Export HTML String Value of the Cells to the DataTable](/cells/net/export-html-string-value-of-the-cells-to-the-datatable/)
+- [Export Visible Rows Data from Worksheet](/cells/net/export-visible-rows-data-from-worksheet/)
+- [Ignore Hidden Columns while Exporting Worksheet Data to Data Table](/cells/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [Rename duplicate columns automatically while exporting worksheet data](/cells/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
