@@ -60,6 +60,17 @@ Now please run the following example, see how it works in Aspose.Cells:
 
 
 ## **Advance topics**
-- [Create Access and Copy Named Ranges](/cells/net/create-access-and-copy-named-ranges/)
+- [AutoFill range of Excel file](/cells/net/autofill-ranges/)
+- [Copy Ranges of Excel](/cells/net/copy-ranges-of-Excel/)
+- [Copy Range Data Only](/cells/net/copy-range-data-only/)
+- [Copy Range Data with Style](/cells/net/copy-range-data-with-style/)
+- [Copy Range Style Only](/cells/net/copy-range-style-only/)
 - [Create Union Range](/cells/net/create-union-range/)
+- [Cut and Paste Range](/cells/net/cut-and-paste-cells/)
+- [Delete Ranges](/cells/net/delete-ranges-from-Excel/)
 - [Get Address Cell Count Offset Entire Column and Entire Row of the Range](/cells/net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
+- [Insert Ranges](/cells/net/insert-ranges-to-Excel/)
+- [Merge or Unmerge Range of Cells](/cells/net/merge-or-unmerge-range-of-cells/)
+- [Move Range of Cells in a Worksheet](/cells/net/move-range-of-cells-in-a-worksheet/)
+- [Create Workbook and Worksheet Scoped Named Ranges](/cells/net/create-workbook-and-worksheet-scoped-named-ranges/)
+- [Search and Replace Data in a Range](/cells/net/search-and-replace-data-in-a-range/)

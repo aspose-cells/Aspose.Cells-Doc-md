@@ -34,4 +34,7 @@ Also you can copy the data with Range.CopyData method as the following codes:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}
 
+## **Advance topics**
+- [Copy Row Heights of Source Range to Destination Range](/cells/net/copy-row-heights-of-source-range-to-destination-range/)
+
 
