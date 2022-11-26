@@ -76,8 +76,4 @@ Developers can apply the superscript effect on the font by setting the [**IsSupe
 
 ## **Advance topics**
 - [Apply Superscript and Subscript Effects on Fonts](/cells/net/apply-superscript-and-subscript-effects-on-fonts/)
-- [Configuring Fonts for Rendering Spreadsheets](/cells/net/configuring-fonts-for-rendering-spreadsheets/)
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
-- [Set DefaultFont property of PdfSaveOptions and ImageOrPrintOptions to have priority](/cells/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
-- [Specify Individual or Private Set of Fonts for Workbook Rendering](/cells/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
-- [Supported Font Formats](/cells/net/supported-font-formats/)

@@ -25,3 +25,11 @@ The following code snippet demonstrates how to manage DataLabels:
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart_datalabels.cs" >}}
+
+## **Advance topics**
+- [Adding Custom Labels to Data Points in the Series of the Chart](/cells/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
+- [Disable Text Wrapping for Data Labels of the Chart](/cells/net/disable-text-wrapping-for-data-labels-of-the-chart/)
+- [Resize Chart's Data Label Shape To Fit Text](/cells/net/resize-chart-s-data-label-shape-to-fit-text/)
+- [Rich Text Custom Data Label of Chart Point](/cells/net/rich-text-custom-data-label-of-chart-point/)
+- [Set the Shape Type of Data Labels of Chart](/cells/net/set-the-shape-type-of-data-labels-of-chart/)
+- [Showing Cell Range as the Data Labels](/cells/net/showing-cell-range-as-the-data-labels/)

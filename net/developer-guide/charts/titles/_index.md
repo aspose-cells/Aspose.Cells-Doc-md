@@ -28,3 +28,6 @@ The following code snippet demonstrates how to set titles to charts and axes.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
+
+## **Advance topics**
+- [Read Chart Subtitle from ODS File](/cells/net/read-chart-subtitle-from-ods-file/)

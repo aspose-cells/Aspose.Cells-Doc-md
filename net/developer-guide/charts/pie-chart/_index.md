@@ -30,9 +30,14 @@ Finally, the following code saves the chart in image format and the workbook in 
 | :- |
 |![todo:image_alt_text](creating-pie-chart-with-leader-lines_1.png)|
 
+## **Advance topics**
+- [Custom Slice or Sector Colors in Pie Chart](/cells/net/custom-slice-or-sector-colors-in-pie-chart/)
+- [Find if Data Points are in the Second Pie or Bar on a Pie of Pie or Bar of Pie Chart](/cells/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+
 ## Related Articles
 
 - [Creating Charts](/cells/net/creating-charts/)
 - [Cusomizing Charts](/cells/net/customizing-charts/)
 - [Data Formatting in Charts](/cells/net/data-formatting-in-charts/)
 - [Setting Chart Appearance](/cells/net/setting-chart-appearance/)
+

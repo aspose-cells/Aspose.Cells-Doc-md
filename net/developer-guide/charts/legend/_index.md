@@ -18,3 +18,6 @@ The following code snippet demonstrates how to manage legend:
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart_legend.cs" >}}
+
+## **Advance topics**
+- [Set text of chart legend entry fill to none using Aspose.Cells](/cells/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)

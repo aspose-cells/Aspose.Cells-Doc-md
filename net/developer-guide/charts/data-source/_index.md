@@ -26,3 +26,9 @@ Chart data is the data that we use as a data source to build our charts. We can 
 Category data is used for the labeling of chart data and can be added to [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) by using its [**CategoryData**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata) property. A complete example is given below to demonstrate the use of chart and category data. After executing the above example code, a column chart will be added to the worksheet as shown below.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}
+
+## **Advance topics**
+- [Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range](/cells/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
+- [Create Dynamic Charts](/cells/net/create-dynamic-charts/)
+- [Easy way for Chart Setup using Chart.SetChartDataRange method](/cells/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
+- [Find Type of X and Y Values of Points in Chart Series](/cells/net/find-type-of-x-and-y-values-of-points-in-chart-series/)

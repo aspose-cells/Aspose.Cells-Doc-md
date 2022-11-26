@@ -67,3 +67,7 @@ The following code snippet demonstrates how to change the major gridlines' colo
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ChangingMajorGridlines-1.cs" >}}
+
+## **Advance topics**
+- [Set the Values Format Code of Chart Series](/cells/net/set-the-values-format-code-of-chart-series/)
+- [Set Picture as Background Fill in the Chart](/cells/net/set-picture-as-background-fill-in-the-chart/)

@@ -30,3 +30,9 @@ The following code snippet demonstrates how to set the options of X and Y axes 
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Chart-XY-Axes.cs" >}}
+
+## **Advance topics**
+- [Change Tick Label Direction](/cells/net/change-tick-label-direction/)
+- [Determine which Axis exists in the Chart](/cells/net/determine-which-axis-exists-in-the-chart/)
+- [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+- [Read Axis Labels after Calculating the Chart](/cells/net/read-axis-labels-after-calculating-the-chart/)
