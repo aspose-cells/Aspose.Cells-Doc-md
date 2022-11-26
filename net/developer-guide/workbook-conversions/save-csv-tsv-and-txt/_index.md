@@ -32,3 +32,7 @@ Text files contain spreadsheet data without formatting. The file is a kind of pl
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingTextFilewithCustomSeparator-1.cs" >}}
 
 
+## **Advance topics**
+- [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+

@@ -55,3 +55,7 @@ Tab-separated values (TSV) file contains spreadsheet data but without any format
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTSVFiles-1.cs" >}}
 
+
+## **Advance topics**
+- [Load or Import CSV file with Formulas](/cells/net/load-or-import-csv-file-with-formulas/)
+- [Reading CSV File with Multiple Encodings](/cells/net/reading-csv-file-with-multiple-encodings/)
