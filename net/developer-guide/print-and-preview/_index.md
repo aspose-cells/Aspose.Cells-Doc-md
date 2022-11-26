@@ -57,6 +57,7 @@ Worksheet page count: 1
 
 
 ## **Advance topics**
+- [Configuring Fonts for Rendering Spreadsheets](/cells/net/configuring-fonts-for-rendering-spreadsheets/)
 - [Convert Worksheet to Image - Remove whitespace around data](/cells/net/convert-worksheet-to-image-remove-whitespace-around-data/)
 - [Converting Worksheet to Image and Worksheet to Image by Page](/cells/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
 - [Converting Worksheet to Image using ImageOrPrint Options](/cells/net/converting-worksheet-to-image-using-imageorprint-options/)
@@ -69,6 +70,5 @@ Worksheet page count: 1
 - [Printing Range of Pages using SheetRender and WorkbookRender](/cells/net/printing-range-of-pages-using-sheetrender-and-workbookrender/)
 - [Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions](/cells/net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
 - [Render Worksheet to Graphic Context](/cells/net/render-worksheet-to-graphic-context/)
-- [Set Default Font while rendering spreadsheet to images](/cells/net/set-default-font-while-rendering-spreadsheet-to-images/)
+- [Specify Individual or Private Set of Fonts for Workbook Rendering](/cells/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
 - [Specify Job or Document Name while printing with Aspose.Cells](/cells/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
-- [Worksheet to Image - Set Pixel Format for the Rendered Image](/cells/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/)

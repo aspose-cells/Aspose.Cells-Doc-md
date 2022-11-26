@@ -35,3 +35,11 @@ After running the code, we can save different files based on their respective OL
 Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this [sample excel file](94896196.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ExtractEmbeddedMolFile-1.cs" >}}
+
+## **Advance topics**
+- [Access and Modify the Display Label of the Linked Ole Object](/cells/net/access-and-modify-the-display-label-of-the-linked-ole-object/)
+- [Automatically refresh OLE object via Microsoft Excel using Aspose.Cells](/cells/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
+- [Extract OLE Objects from Workbook](/cells/net/extract-ole-objects-from-workbook/)
+- [Get or Set the Class Identifier of the Embedded OLE Object](/cells/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+- [Inserting a WAV file as an Ole Object](/cells/net/inserting-a-wav-file-as-an-ole-object/)
+

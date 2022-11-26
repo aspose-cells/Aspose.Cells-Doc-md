@@ -376,3 +376,8 @@ The [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.dr
 The following example shows how to add a group box and group the controls in the worksheet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingGroupBoxControl-1.cs" >}}
+
+## **Advance topics**
+- [Add ActiveX Controls using Aspose.Cells](/cells/net/add-activex-controls-using-aspose-cells/)
+- [Remove ActiveX Control](/cells/net/remove-activex-control/)
+- [Update ActiveX ComboBox Control](/cells/net/update-activex-combobox-control/)
