@@ -25,17 +25,18 @@ With Aspose.Cells, it is simple to open, save and mange Excel files.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Open-Save-Workbook-1.cs" >}}
 
 ## **Advance topics**
-- [Adjust workbook compression level](/cells/net/adjust-workbook-compression-level/)
-- [AutoFit Columns and Rows while loading HTML in Workbook](/cells/net/autofit-columns-and-rows-while-loading-html-in-workbook/)
 - [Different Ways to Open Files](/cells/net/different-ways-to-open-files/)
-- [Different Ways to Save Files](/cells/net/different-ways-to-save-files/)
-- [Encrypting Excel Files](/cells/net/encrypting-excel-files/)
+- [Filter Defined Names while loading Workbook](/cells/net/filter-defined-names-while-loading-workbook/)
+- [Filter Objects while loading Workbook or Worksheet](/cells/net/filter-objects-while-loading-workbook-or-worksheet/)
+- [Filtering the kind of data while loading the workbook from template file](/cells/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/)
 - [Get Warnings while Loading Excel File](/cells/net/get-warnings-while-loading-excel-file/)
-- [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [Load Source Excel File Without Charts](/cells/net/load-source-excel-file-without-charts/)
+- [Load Specific Worksheets in a Workbook](/cells/net/load-specific-worksheets-in-a-workbook/)
+- [Load Workbook with specified Printer Paper Size](/cells/net/load-workbook-with-specified-printer-paper-size/)
 - [Opening Different Microsoft Excel Versions Files](/cells/net/opening-different-microsoft-excel-versions-files/)
 - [Opening Files with Different Formats](/cells/net/opening-files-with-different-formats/)
+- [Optimizing Memory Usage while Working with Big Files having Large Datasets](/cells/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 - [Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells](/cells/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
-- [Save Workbook to Strict Open XML Spreadsheet Format](/cells/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
-- [Saving File to Response Object](/cells/net/saving-file-to-response-object/)
-- [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+- [Stop conversion or loading using InterruptMonitor when it is taking too long](/cells/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
+- [Using LightCells API](/cells/net/using-lightcells-api/)
 

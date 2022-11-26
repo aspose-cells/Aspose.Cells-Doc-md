@@ -56,3 +56,20 @@ When there are lots of formulas in the workbook and user needs to calculate them
 By default the calculation chain is disabled. Because creating the chain also needs extra time, the first time of calculating formulas([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1)) may consume more CPU processing time and memory when comparing with calculating formulas without chain. If user does not need to calculate formulas repeatedly, the default behavior(calculating formula directly without creating calculation chain) should be the better way.
 
 {{% /alert %}}
+
+
+## **Advance topics**
+- [Add Cells to Microsoft Excel Formula Watch Window](/cells/net/add-cells-to-microsoft-excel-formula-watch-window/)
+- [Calculating IFNA function using Aspose.Cells](/cells/net/calculating-ifna-function-using-aspose-cells/)
+- [Calculation of Array Formula of Data Tables](/cells/net/calculation-of-array-formula-of-data-tables/)
+- [Calculation of Excel 2016 MINIFS and MAXIFS functions](/cells/net/calculation-of-excel-2016-minifs-and-maxifs-functions/)
+- [Decrease the Calculation Time of Cell.Calculate method](/cells/net/decrease-the-calculation-time-of-cell-calculate-method/)
+- [Detecting Circular Reference](/cells/net/detecting-circular-reference/)
+- [Direct calculation of custom function without writing it in a worksheet](/cells/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
+- [Implement Custom Calculation Engine to extend the Default Calculation Engine of Aspose.Cells](/cells/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+- [Interrupt or Cancel the Formula Calculation of Workbook](/cells/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
+- [Returning a Range of Values using AbstractCalculationEngine](/cells/net/returning-a-range-of-values-using-abstractcalculationengine/)
+- [Returning a Range of Values using ICustomFunction](/cells/net/returning-a-range-of-values-using-icustomfunction/)
+- [Setting Formula Calculation Mode of Workbook](/cells/net/setting-formula-calculation-mode-of-workbook/)
+- [Using FormulaText function in Aspose.Cells](/cells/net/using-formulatext-function-in-aspose-cells/)
+- [Using ICustomFunction Feature](/cells/net/using-icustomfunction-feature/)

@@ -91,3 +91,9 @@ JSON (JavaScript Object Notation) is an open standard file format for sharing da
 Aspose.Cells supports saving files to JSON or XML.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
+
+
+## **Advance topics**
+- [Adjust workbook compression level](/cells/net/adjust-workbook-compression-level/)
+- [Save Workbook to Strict Open XML Spreadsheet Format](/cells/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
+- [Saving File to Response Object](/cells/net/saving-file-to-response-object/)
