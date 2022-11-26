@@ -78,13 +78,14 @@ Add an **R1C1** reference style formula to a cell with the [**Cell**](https://re
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 
 ## **Advance topics**
-- [Add Cells to Microsoft Excel Formula Watch Window](/cells/net/add-cells-to-microsoft-excel-formula-watch-window/)
-- [Detecting Circular Reference](/cells/net/detecting-circular-reference/)
-- [Interrupt or Cancel the Formula Calculation of Workbook](/cells/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
-- [Specify Maximum Rows of Shared Formula](/cells/net/specify-maximum-rows-of-shared-formula/)
-- [Supported Formula Functions](/cells/net/supported-formula-functions/)
-- [Ways to Calculate Formulas](/cells/net/ways-to-calculate-formulas/)
 - [Precedents and Dependents](/cells/net/precedents-and-dependents/)
+- [Set External Links in Formulas](/cells/net/set-external-links-in-formulas/)
+- [Propagate Formula in Table or List Object automatically while entering data in new rows](/cells/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
 - [Setting Formula for Named Range](/cells/net/setting-formula-for-named-range/)
+- [Setting Formulas - Notice for Non English Users](/cells/net/setting-formulas-notice-for-non-english-users/)
+- [Setting Shared Formula](/cells/net/setting-shared-formula/)
+- [Specify Maximum Rows of Shared Formula](/cells/net/specify-maximum-rows-of-shared-formula/)
+- [Supported Excel Functions](/cells/net/supported-formula-functions/)
+
 
 
