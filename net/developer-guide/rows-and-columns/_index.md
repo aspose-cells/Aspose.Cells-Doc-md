@@ -3,8 +3,8 @@ title: Format Rows and Columns
 linktitle: Rows and Columns
 type: docs
 weight: 100
-url: /net/rows-and-columns/
-aliases: [/net/adjusting-row-height-and-column-width/]
+url: /net/adjusting-row-height-and-column-width/
+aliases: [/net/rows-and-columns/]
 ---
 
 
@@ -64,4 +64,16 @@ Set the width of a column by calling the [**Cells**](https://reference.aspose.c
 To set the same column width for all columns in the worksheet, use the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection's [**StandardWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth) property.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.cs" >}}
+
+## **Advance topics**
+- [AutoFit Rows and Columns](/cells/net/autofit-rows-and-columns/)
+- [Convert Text to Columns using Aspose.Cells](/cells/net/convert-text-to-columns-using-aspose-cells/)
+- [Copying Rows and Columns](/cells/net/copying-rows-and-columns/)
+- [Delete Blank Rows and Columns in a Worksheet](/cells/net/delete-blank-rows-and-columns-in-a-worksheet/)
+- [Grouping and Ungrouping Rows and Columns](/cells/net/grouping-and-ungrouping-rows-and-columns/)
+- [Hiding and Showing Rows and Columns](/cells/net/hiding-and-showing-rows-and-columns/)
+- [Insert or Delete Rows in an Excel Worksheet](/cells/net/insert-or-delete-rows-in-an-excel-worksheet/)
+- [Inserting and Deleting Rows and Columns of Excel file](/cells/net/inserting-and-deleting-rows-and-columns/)
+- [Remove duplicate rows in a Worksheet](/cells/net/remove-duplicate-rows-in-a-worksheet/)
+- [Update references in other worksheets while deleting blank columns and rows in a worksheet](/cells/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
 

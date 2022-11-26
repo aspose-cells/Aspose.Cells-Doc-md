@@ -78,21 +78,14 @@ The following example shows how to activate a worksheet and make an active cell 
 ## **Advance topics**
 - [Copying and Moving Worksheets](/cells/net/copying-and-moving-worksheets/)
 - [Count number of cells in the Worksheet](/cells/net/count-number-of-cells-in-the-worksheet/)
-- [Cut and Paste Cells](/cells/net/cut-and-paste-cells/)
-- [Detect Hyperlink Type](/cells/net/detect-hyperlink-type/)
-- [Display Features](/cells/net/display-features/)
+- [Detecting Empty Worksheets](/cells/net/detecting-empty-worksheets/)
 - [Find if the Worksheet is Dialog Sheet](/cells/net/find-if-the-worksheet-is-dialog-sheet/)
-- [Get Cell Validation in ODS Files](/cells/net/get-cell-validation-in-ods-files/)
-- [Get Hyperlinks in Range](/cells/net/get-hyperlinks-in-range/)
-- [Get Range with External Links](/cells/net/get-range-with-external-links/)
 - [Get worksheet unique id](/cells/net/get-worksheet-unique-id/)
+- [Create, Manipulate or Remove Scenarios from Worksheets](/cells/net/create-manipulate-or-remove-scenarios-from-worksheets/)
 - [Managing Page Breaks](/cells/net/managing-page-breaks/)
 - [Page Setup Features](/cells/net/page-setup-features/)
 - [Print multiple copies of a worksheet](/cells/net/print-multiple-copies-of-a-worksheet/)
-- [Security Features](/cells/net/security-features/)
-- [Update Days Preserving History of Revision Logs in Shared Workbook](/cells/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/)
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Worksheet Views](/cells/net/worksheet-views/)
-- [Add Signature line to the worksheet](/cells/net/add-signature-line/)
 
 
