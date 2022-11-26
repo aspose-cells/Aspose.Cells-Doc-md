@@ -2,7 +2,7 @@
 title: Insert Hyperlinks into Excel or OpenOffice
 linktitle: Managing Hyperlinks
 type: docs
-weight: 240
+weight: 45
 url: /net/insert-hyperlinks-to-excel/
 aliases: [/net/inserting-hyperlinks/,/net/working-with-hyperlinks-to-link-data/]
 description: How to insert hyperlinks into Excel file with Aspose.Cells library without MS Excel.

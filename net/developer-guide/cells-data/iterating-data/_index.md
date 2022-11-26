@@ -2,7 +2,7 @@
 title: How and Where to Use Enumerators
 linktitle: Iterate Data
 type: docs
-weight: 290
+weight: 55
 url: /net/how-and-where-to-use-enumerators/
 ---
 

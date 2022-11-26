@@ -2,7 +2,7 @@
 title: Adding HTML Rich Text inside the Cell
 linktitle: Html String Value
 type: docs
-weight: 220
+weight: 50
 url: /net/adding-html-rich-text-inside-the-cell/
 ---
 

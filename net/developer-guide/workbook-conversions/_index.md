@@ -134,7 +134,6 @@ The following code example demonstrates exporting active worksheet to PPTX by us
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
 ## **Advance topics**
-## **Advance topics**
 - [Convert Revision of XLSB to XLSM](/cells/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/net/convert-excel-to-html/)
 - [Image](/cells/net/convert-excel-to-image/)
