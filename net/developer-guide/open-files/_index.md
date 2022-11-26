@@ -1,5 +1,5 @@
 ---
-title: Open Excel,OpenOffice,Json and csv files
+title: Loading and managing Excel,OpenOffice,Json, Csv and Html files
 linktitle: Open Files
 type: docs
 weight: 20
