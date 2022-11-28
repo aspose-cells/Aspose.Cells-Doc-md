@@ -33,3 +33,6 @@ Histogram
 BoxWhisker
 
 {{< /highlight >}}
+
+## **Advance topics**
+- [Creating Waterfall Chart](/cells/java/creating-waterfall-chart/)
