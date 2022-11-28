@@ -21,4 +21,6 @@ The following code example demonstrates exporting active worksheet to Json by us
 
 ## **Advance topics**
 - [Convert CSV to JSON](/cells/net/convert-csv-to-json/)
+- [Convert-Excel-to-JSON](/cells/net/convert-excel-to-json/)
 - [Convert JSON to CSV](/cells/net/convert-json-to-csv/)
+- [Convert-JSON-to-Excel](/cells/net/convert-json-to-excel/)
