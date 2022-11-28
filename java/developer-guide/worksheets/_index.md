@@ -56,3 +56,20 @@ The above approach of removing worksheets works well if developers already know 
 Well, in such circumstances, developers can use an overloaded version of [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)) method that takes the sheet index of the worksheet instead of its sheet name.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
+
+## **Advance topics**
+- [Activating Sheets and Activating a Cell in Worksheet](/cells/java/activating-sheets-and-activating-a-cell-in-worksheet/)
+- [Copy and Move Worksheets Within and Between Workbooks](/cells/java/copy-and-move-worksheets-within-and-between-workbooks/)
+- [Copying and Moving Worksheets](/cells/java/copying-and-moving-worksheets/)
+- [Count number of cells in the Worksheet](/cells/java/count-number-of-cells-in-the-worksheet/)
+- [Detecting Empty Worksheets](/cells/java/detecting-empty-worksheets/)
+- [Find if the Worksheet is Dialog Sheet](/cells/java/find-if-the-worksheet-is-dialog-sheet/)
+- [Get worksheet unique id](/cells/java/get-worksheet-unique-id/)
+- [Insert Background Image to Excel](/cells/java/insert-background-image-to-excel/)
+- [Create, Manipulate or Remove Scenarios from Worksheets](/cells/java/create-manipulate-or-remove-scenarios-from-worksheets/)
+- [Managing Page Breaks](/cells/java/managing-page-breaks/)
+- [Page Setup Features](/cells/java/page-setup-features/)
+- [Update references in other worksheets while deleting blank columns and rows in a worksheet](/cells/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+- [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
+- [Working with Background in ODS Files](/cells/java/working-with-background-in-ods-files/)
+- [Worksheet Views](/cells/java/worksheet-views/)

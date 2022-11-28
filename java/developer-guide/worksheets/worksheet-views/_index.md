@@ -125,3 +125,11 @@ After running the above code, the generated file has a split view.
 Developers can remove split panes using the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class' [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) method.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
+
+
+## **Advance topics**
+- [Hiding the Display of Zero Values in the Worksheet](/cells/java/hiding-the-display-of-zero-values-in-the-worksheet/)
+- [Set Worksheet Tab Color](/cells/java/set-worksheet-tab-color/)
+- [Show and Hide Elements](/cells/java/show-and-hide-elements/)
+- [Show Formulas instead of Values in a Worksheet](/cells/java/show-formulas-instead-of-values-in-a-worksheet/)
+- [Use Error Checking Options](/cells/java/use-error-checking-options/)

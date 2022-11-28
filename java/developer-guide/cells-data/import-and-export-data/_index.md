@@ -104,3 +104,7 @@ Spreadsheets stores data as a sequence of rows and columns. Use the [**exportArr
 - Number of columns, the number of columns to export.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ExportingDataFromWorksheets-1.java" >}}
+
+## **Advance topics**
+- [Import Data from Microsoft Access Database ResultSet Object to the Worksheet](/cells/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
+- [Specify Formula Fields while Importing Data to Worksheet](/cells/java/specify-formula-fields-while-importing-data-to-worksheet/)

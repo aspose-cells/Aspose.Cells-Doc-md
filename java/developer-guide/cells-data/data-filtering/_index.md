@@ -150,3 +150,8 @@ Excel provides custom filters like filter rows which end with some specific stri
 1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-EndsWith.java" >}}
+
+## **Advance topics**
+- [Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria](/cells/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Get All Hidden Rows Indices after Refreshing AutoFilter](/cells/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+

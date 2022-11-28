@@ -34,3 +34,9 @@ Category data is used for the labeling of chart data and can be added to [**Seri
 **Column chart with chart & category data** 
 
 ![todo:image_alt_text](data-formatting-in-charts_1.png)
+
+## **Advance topics**
+- [Create Dynamic Charts](/cells/java/create-dynamic-charts/)
+- [Easy way for Chart Setup using Chart.setChartDataRange method](/cells/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
+- [Find Type of X and Y Values of Points in Chart Series](/cells/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
+- [Set the Values Format Code of Chart Series](/cells/java/set-the-values-format-code-of-chart-series/)

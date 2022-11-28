@@ -74,3 +74,7 @@ Following are the sample files which can be downloaded for testing this feature:
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}
+
+## **Advance topics**
+- [Sort Data in Column with Custom Sort List](/cells/java/sort-data-in-column-with-custom-sort-list/)
+- [Specifying Sort Warning While Sorting Data](/cells/java/specifying-sort-warning-while-sorting-data/)

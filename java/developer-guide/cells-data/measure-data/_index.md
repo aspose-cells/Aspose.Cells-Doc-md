@@ -17,3 +17,6 @@ Alternatively, you can also [autofit rows and columns of your cell or range of c
 The following code explains the use of [Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\))   and [Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)) methods.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculateWidthAndHeightOfCell-CalculateWidthAndHeightOfCell.java" >}}
+
+## **Advance topics**
+- [Get Text Width of Cell Value](/cells/java/get-text-width-of-cell-value/)

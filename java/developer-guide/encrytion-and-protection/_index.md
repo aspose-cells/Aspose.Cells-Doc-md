@@ -28,4 +28,8 @@ Protect and unprotect the shared workbook.
 ## [**Digital signature in Office files**](/cells/java/assign-and-validate-digital-signatures/)
 Protect the authenticity of a document's content, you can add a digital signature.
 
+## **Advance topics**
+- [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
+- [How to Detect a File Format and Check if the File is Encrypted](/cells/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+
 

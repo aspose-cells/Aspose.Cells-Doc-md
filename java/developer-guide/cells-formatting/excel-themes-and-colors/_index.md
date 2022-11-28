@@ -58,3 +58,6 @@ The following output is generated when executing the code.
 ![todo:image_alt_text](excel-2007-themes-and-colors_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseThemeColors-UseThemeColors.java" >}}
+
+## **Advance topics**
+- [Extract Theme Data from Excel File](/cells/java/extract-theme-data-from-excel-file/)

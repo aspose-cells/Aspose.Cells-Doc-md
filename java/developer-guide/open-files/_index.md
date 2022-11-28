@@ -169,3 +169,16 @@ FODS file is spreadsheet saved in OpenDocument XML without any compression. Asp
 #### **Example**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Files-Handling-OpeningFODSFiles-1.java" >}}
+
+## **Advance topics**
+- [Filter Defined Names while loading Workbook](/cells/java/filter-defined-names-while-loading-workbook/)
+- [Filter Objects while loading Workbook or Worksheet](/cells/java/filter-objects-while-loading-workbook-or-worksheet/)
+- [Get Warnings while Loading Excel File](/cells/java/get-warnings-while-loading-excel-file/)
+- [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [Load Workbook with specified Printer Paper Size](/cells/java/load-workbook-with-specified-printer-paper-size/)
+- [Opening Different Microsoft Excel Versions Files](/cells/java/opening-different-microsoft-excel-versions-files/)
+- [Optimizing Memory Usage while Working with Big Files having Large Datasets](/cells/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+- [Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells](/cells/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Reading CSV File with Multiple Encodings](/cells/java/reading-csv-file-with-multiple-encodings/)
+- [Stop conversion or loading using InterruptMonitor when it is taking too long](/cells/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
+- [Using LightCells API](/cells/java/using-lightcells-api/)

@@ -57,3 +57,18 @@ When there are lots of formulas in the workbook and user needs to calculate them
 By default the calculation chain is disabled. Because creating the chain also needs extra time, the first time of calculating formulas([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))) may consume more CPU processing time and memory when comparing with calculating formulas without chain. If user does not need to calculate formulas repeatedly, the default behavior(calculating formula directly without creating calculation chain) should be the better way.
 
 {{% /alert %}}
+
+## **Advance topics**
+- [Add Cells to Microsoft Excel Formula Watch Window](/cells/java/add-cells-to-microsoft-excel-formula-watch-window/)
+- [Aspose.Cells Formula Calculation Engine](/cells/java/aspose-cells-formula-calculation-engine/)
+- [Calculating IFNA function using Aspose.Cells](/cells/java/calculating-ifna-function-using-aspose-cells/)
+- [Calculation of Array Formula of Data Tables](/cells/java/calculation-of-array-formula-of-data-tables/)
+- [Calculation of Excel 2016 MINIFS and MAXIFS functions](/cells/java/calculation-of-excel-2016-minifs-and-maxifs-functions/)
+- [Decrease the Calculation Time of Cell.Calculate method](/cells/java/decrease-the-calculation-time-of-cell-calculate-method/)
+- [Detecting Circular Reference](/cells/java/detecting-circular-reference/)
+- [Direct calculation of custom function without writing it in a worksheet](/cells/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
+- [Implement Custom Calculation Engine to extend the Default Calculation Engine of Aspose.Cells](/cells/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+- [Interrupt or Cancel the Formula Calculation of Workbook](/cells/java/interrupt-or-cancel-the-formula-calculation-of-workbook/)
+- [Returning a Range of Values using AbstractCalculationEngine](/cells/java/returning-a-range-of-values-using-abstractcalculationengine/)
+- [Returning a Range of Values using ICustomFunction](/cells/java/returning-a-range-of-values-using-icustomfunction/)
+- [Using ICustomFunction Feature](/cells/java/using-icustomfunction-feature/)

@@ -58,3 +58,24 @@ Now please run the following example, see how it works in Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-CSharp-Data-Range-CurrentRegion.java" >}}
 
+## **Advance topics**
+- [AutoFill range of Excel file](/cells/java/autofill-ranges/)
+- [Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range](/cells/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
+- [Copy Ranges of Excel](/cells/java/copy-ranges-of-Excel/)
+- [Copy Range Data Only](/cells/java/copy-range-data-only/)
+- [Copy Range Data with Style](/cells/java/copy-range-data-with-style/)
+- [Copy Range Style Only](/cells/java/copy-range-style-only/)
+- [Copy Row Heights of Source Range to Destination Range](/cells/java/copy-row-heights-of-source-range-to-destination-range/)
+- [Create Union Range](/cells/java/create-union-range/)
+- [Cut and Paste Ranges](/cells/java/cut-and-paste-cells/)
+- [Delete Ranges](/cells/java/delete-ranges-from-Excel/)
+- [Detect Merged Cells in a Worksheet](/cells/java/detect-merged-cells-in-a-worksheet/)
+- [Get Address Cell Count Offset Entire Column and Entire Row of the Range](/cells/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
+- [Get Range with External Links](/cells/java/get-range-with-external-links/)
+- [Implementing Non-Sequential Ranges](/cells/java/implementing-non-sequential-ranges/)
+- [Insert Ranges](/cells/java/insert-ranges-to-Excel/)
+- [Merge or Unmerge Range of Cells](/cells/java/merge-or-unmerge-range-of-cells/)
+- [Move Range of Cells in a Worksheet](/cells/java/move-range-of-cells-in-a-worksheet/)
+- [Named Ranges](/cells/java/named-ranges/)
+- [Search and Replace Data in a Range](/cells/java/search-and-replace-data-in-a-range/)
+

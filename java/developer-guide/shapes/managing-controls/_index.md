@@ -331,3 +331,7 @@ The following example shows how to add oval shapes to the worksheet. The example
 ![todo:image_alt_text](managing-controls_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddinganOvalControl-1.java" >}}
+
+## **Advance topics**
+- [Add ActiveX Controls using Aspose.Cells](/cells/java/add-activex-controls-using-aspose-cells/)
+- [Remove ActiveX Control](/cells/java/remove-activex-control/)

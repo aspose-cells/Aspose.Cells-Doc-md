@@ -38,3 +38,8 @@ Pictures can be positioned using Aspose.Cells as follows:
 Developers can position the pictures absolutely by using the [**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) and [**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) methods of the [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) object.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
+
+## **Advance topics**
+- [Insert a Linked Picture from Web Address](/cells/java/insert-a-linked-picture-from-web-address/)
+- [Insert a Picture based on Cell Reference](/cells/java/insert-a-picture-based-on-cell-reference/)
+- [Insert Web Image from a URL into an Excel Worksheet](/cells/java/insert-web-image-from-a-url-into-an-excel-worksheet/)

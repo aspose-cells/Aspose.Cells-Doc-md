@@ -125,3 +125,9 @@ There are a few chart types that are currently not supported for rendering. Such
 In case you try to render the non-supported chart types to image or PDF, you may end up with 0 sized images or blank PDF.
 
 {{% /alert %}}
+
+
+## **Advance topics**
+- [Converting Chart to Image in SVG Format](/cells/java/converting-chart-to-image-in-svg-format/)
+- [Create Chart PDF with Desired Page Size](/cells/java/create-chart-pdf-with-desired-page-size/)
+- [Export Chart to SVG with viewBox attribute](/cells/java/export-chart-to-svg-with-viewbox-attribute/)

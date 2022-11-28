@@ -52,3 +52,9 @@ Aspose.Cells supports applying conditional formatting at runtime.
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetPattern-SetPattern.java" >}}
+
+## **Advance topics**
+- [Add Conditional Icons Set with the Cell Text](/cells/java/add-conditional-icons-set-with-the-cell-text/)
+- [Adding 2-Color Scale and 3-Color Scale Conditional Formattings](/cells/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [Apply Conditional Formatting in Worksheets](/cells/java/apply-conditional-formatting-in-worksheets/)
+- [Apply Shading to Alternate Rows and Columns with Conditional Formatting](/cells/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)

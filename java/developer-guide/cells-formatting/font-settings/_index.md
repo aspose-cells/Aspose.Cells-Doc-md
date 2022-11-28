@@ -98,3 +98,7 @@ Make text superscript by using the [Font](https://reference.aspose.com/cells/jav
 Apply superscript to text with the [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) object's [setSuperscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
+
+## **Advance topics**
+- [Apply Superscript and Subscript Effects on Fonts](/cells/java/apply-superscript-and-subscript-effects-on-fonts/)
+- [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)

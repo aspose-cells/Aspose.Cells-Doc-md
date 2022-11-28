@@ -25,5 +25,6 @@ This is the sample code that generated the output Excel file as shown inside the
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}
 
 ## Related Articles
-
 - [Display Bullets by setting Cell Value using HTML](/cells/java/display-bullets-by-setting-cell-value-using/)
+- [Get HTML5 string from Cell](/cells/java/get-html5-string-from-cell/)
+

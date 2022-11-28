@@ -56,3 +56,7 @@ For example, the regular expression pattern abc-*~~xyz~~ matches the strings "ab
 Aspose.Cells allows you to search with regular expressions.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingwithRegularExpressions-FindingwithRegularExpressions.java" >}}
+
+## **Advance topics**
+- [Find cells with specific style](/cells/java/find-cells-with-specific-style/)
+- [Search Data using Original Values](/cells/java/search-data-using-original-values/)

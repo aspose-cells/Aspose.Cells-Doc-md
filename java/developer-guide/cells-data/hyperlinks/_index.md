@@ -69,3 +69,10 @@ It is possible to add hyperlinks to external Excel files by calling the [Hyperli
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingLinkToExternalFile-AddingLinkToExternalFile.java" >}}
+
+## **Advance topics**
+- [Add Image Hyperlinks](/cells/java/add-image-hyperlinks/)
+- [Detect Hyperlink Type](/cells/java/detect-hyperlink-type/)
+- [Editing Hyperlinks of Worksheet](/cells/java/editing-hyperlinks-of-worksheet/)
+- [Get Hyperlinks in Range](/cells/java/get-hyperlinks-in-range/)
+
