@@ -26,13 +26,13 @@ There are times when you need to manipulate or modify charts in designer templat
 ### **Manipulating Designer Charts in Template Files**
 To manipulate designer charts in template files, use the chart related API. For example, you may use the Worksheet.Charts property to get the existing charts collection in the template file.
 #### **Creating a Chart**
-The following example shows how to create a pie chart. We will manipulate this chart later on.
+The following example shows how to create a pyramid chart. We will manipulate this chart later on.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-HowToCreateChart-1.cs" >}}
 #### **Manipulating the Chart**
-The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the color of the chart title has changed from blue to black, and 'England 30000' has been changed to 'United Kingdom, 30K'.
+The following example shows how to manipulate the existing chart. In this example, we modify the chart created above. In the generated output, note that the date label of one data point has been set to 'United Kingdom, 30K'.
 
 
 
