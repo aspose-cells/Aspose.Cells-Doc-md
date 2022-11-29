@@ -41,9 +41,9 @@ If you want to sort *LeftToRight*, use the [**DataSorter.SortLeftToRight**](http
 
 {{% /alert %}}
 
-### **Sorting data with background colour**
+### **Sorting data with background color**
 
-Excel provides features to sort data based on the background colour. The same feature is provided using Aspose.Cells using DataSorter where [**SortOnType**](https://reference.aspose.com/cells/net/aspose.cells/sortontype).CellColor can be used in [**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey) to sort data based on the background color. All the cells which contain specified color in the [**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
+Excel provides features to sort data based on the background color. The same feature is provided using Aspose.Cells using DataSorter where [**SortOnType**](https://reference.aspose.com/cells/net/aspose.cells/sortontype).CellColor can be used in [**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey) to sort data based on the background color. All the cells which contain specified color in the [**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey), function are placed on top or bottom according to the SortOrder setting and order of the rest of the cells is not changed at all.
 
 Following are the sample files which can be downloaded for testing this feature:
 
