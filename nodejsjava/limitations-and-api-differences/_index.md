@@ -2,8 +2,8 @@
 title: Limitations and API Differences
 type: docs
 weight: 10
-url: /nodejsjava/limitations-and-api-differences/
-aliases: [/java/aspose-cells-for-node-js-via-java-limitations-and-api-differences/]
+url: /nodejs-java/limitations-and-api-differences/
+aliases: [/nodejsjava/limitations-and-api-differences/,/java/aspose-cells-for-node-js-via-java-limitations-and-api-differences/]
 keywords: "nodejs, excel, limitation, api, differences"
 description: "Aspose.Cells for Node.js via Java limitations and api differences."
 ---

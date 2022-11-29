@@ -1,7 +1,7 @@
 ---
 title: Setting Formula for Named Range
 type: docs
-weight: 220
+weight: 20
 url: /net/setting-formula-for-named-range/
 ---
 

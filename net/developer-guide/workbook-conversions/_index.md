@@ -47,7 +47,7 @@ From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
 
 ## **Convert Excel to Ods,Sxc and Fods (OpenOffice / LibreOffice Calc)**
-Aspose.Cells supports converting Excel files to Ods,Sxc and Fods files . The code example below shows how to convert the [tempalte](book1.xls) to Ods,Sxc and Fods file.
+Aspose.Cells supports converting Excel files to Ods,Sxc and Fods files . The code example below shows how to convert the [tempalte](book1.xlsx) to Ods,Sxc and Fods file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
@@ -134,8 +134,12 @@ The following code example demonstrates exporting active worksheet to PPTX by us
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
 ## **Advance topics**
-- [Convert Excel To Html](/cells/net/convert-excel-to-html/)
-- [Convert Excel To Image](/cells/net/convert-to-images/)
-- [Convert Excel To Json](/cells/net/convert-workbook-to-json/)
-- [Convert Excel To Pdf](/cells/net/convert-excel-workbook-to-pdf/)
-- [Convert Excel To ODS](/cells/net/convert-excel-to-ods/)
+- [Convert Revision of XLSB to XLSM](/cells/net/convert-revision-of-xlsb-to-xlsm/)
+- [HTML](/cells/net/convert-excel-to-html/)
+- [Image](/cells/net/convert-excel-to-image/)
+- [Json](/cells/net/convert-workbook-to-json/)
+- [Convert Excel workbook to Ods,Sxc and Fods (OpenOffice / LibreOffice calc).](/cells/net/convert-excel-to-ods/)
+- [Pdf](/cells/net/convert-excel-workbook-to-pdf/)
+- [Convert Excel to CSV,TSV and Txt](/cells/net/convert-excel-to-csv-tsv-and-txt/)
+- [Track Document Conversion Progress](/cells/net/track-document-conversion-progress/)
+- [Convert CSV, TSV and TXT to Excel](/cells/net/convert-csv-tsv-and-txt-to-excel/)

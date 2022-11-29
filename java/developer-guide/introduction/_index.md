@@ -1,6 +1,6 @@
 ---
 title: Introduction
 type: docs
-weight: 10
+weight: 5
 url: /java/introduction/
 ---

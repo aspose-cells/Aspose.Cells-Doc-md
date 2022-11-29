@@ -228,3 +228,6 @@ A complete example is given below to demonstrate how to create a chart and apply
 For a full list of which 2D and 3D charts are supported, see [Supported chart types for rendering](/cells/java/chart-rendering/#supported-chart-types-for-rendering).
 
 {{% /alert %}}
+
+## **Advance topics**
+- [Set Picture as Background Fill in the Chart](/cells/java/set-picture-as-background-fill-in-the-chart/)

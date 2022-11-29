@@ -7,7 +7,7 @@ url: /java/aspose-cells-for-java-v2-1-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Cells for Java v2.1.0 (New Release)](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-v2.1.0-\(new-release\)/)
+This page contains release notes for [Aspose.Cells for Java v2.1.0 (New Release)](https://releases.aspose.com/cells/java/new-releases/aspose.cells-for-java-v2.1.0-new-release/)
 
 {{% /alert %}} 
 

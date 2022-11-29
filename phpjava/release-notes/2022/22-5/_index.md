@@ -2,7 +2,8 @@
 title: Aspose.Cells for PHP via Java 22.5 Release Notes
 type: docs
 weight: 8
-url: /phpjava/aspose-cells-for-php-via-java-22-5-release-notes/
+url: /php-java/aspose-cells-for-php-via-java-22-5-release-notes/
+aliases: [/phpjava/aspose-cells-for-php-via-java-22-5-release-notes/]
 ---
 
 {{% alert color="primary" %}}

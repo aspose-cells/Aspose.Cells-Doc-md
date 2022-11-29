@@ -9,6 +9,22 @@ aliases: [/java/whats-new/]
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 22.11
+
+* Support to distinguish between dynamic array formula and legacy array formula
+* Support to read/save dynamic array formulas for xlsb file format
+
+## Aspose.Cells for Java 22.10
+
+* Support to add and update chart with CRTX template file
+
+## Aspose.Cells for Java 22.9
+
+* Support to set table formula for cells
+* Support to set dynamic array formula with custom function and calculation engine
+* Support to set preset gradient settings for gradient fill format
+* Support to apply outlline borders with Theme colors for Range
+
 ## Aspose.Cells for Java 22.8
 
 * Support exporting comments and notes as displayed on sheet to html

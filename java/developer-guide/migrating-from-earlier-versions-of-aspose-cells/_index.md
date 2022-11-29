@@ -1,7 +1,7 @@
 ---
 title: Migrating from Earlier Versions of Aspose.Cells
 type: docs
-weight: 220
+weight: 2200
 url: /java/migrating-from-earlier-versions-of-aspose-cells/
 ---
 

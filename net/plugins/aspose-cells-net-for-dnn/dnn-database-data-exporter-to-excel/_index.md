@@ -103,8 +103,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Cells .NET for DNN Modules using any of the following platforms
 
-- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-- [DNN Store](https://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32842)
+- [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 ### **Extend and Contribute**
 

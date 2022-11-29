@@ -73,3 +73,7 @@ Apply subscript by setting the [**Style.Font**](https://reference.aspose.com/ce
 Developers can apply the superscript effect on the font by setting the [**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) property of the [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) object to **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}
+
+## **Advance topics**
+- [Apply Superscript and Subscript Effects on Fonts](/cells/net/apply-superscript-and-subscript-effects-on-fonts/)
+- [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)

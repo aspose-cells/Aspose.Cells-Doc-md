@@ -1,7 +1,7 @@
 ---
 title: Managing Pictures
 type: docs
-weight: 900
+weight: 10
 url: /net/managing-pictures/
 aliases: [/net/convert-png-to-excel/,/net/convert-jpg-to-excel/,/net/convert-emf-to-excel/,/net/convert-bmp-to-excel/,/net/convert-tiff-to-excel/]
 ---
@@ -47,3 +47,9 @@ Aspose.Cells lets you display the contents of a worksheet cell in an image shape
 Add a picture to the worksheet by calling the [**AddPicture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) method of the [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) collection (encapsulated in the [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) object). Specify the cell range by using the [**Formula**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) attribute of the [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) object.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PictureCellReference-1.cs" >}}
+
+## **Advance topics**
+- [Add Conditional Icons Set with the Cell Text](/cells/net/add-conditional-icons-set-with-the-cell-text/)
+- [Insert a Linked Picture from Web Address](/cells/net/insert-a-linked-picture-from-web-address/)
+- [Insert a Picture Based on Cell Reference](/cells/net/insert-a-picture-based-on-cell-reference/)
+- [Load a Web Image from a URL into an Excel Worksheet](/cells/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)

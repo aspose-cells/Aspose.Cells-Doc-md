@@ -1,6 +1,6 @@
 ---
 title: Protect and Unprotect
-linktitle: Protection
+linktitle: Encryption and Protection
 type: docs
 weight: 68
 url: /net/protect-and-unprotect/
@@ -28,3 +28,9 @@ Protect and unprotect the shared workbook.
 
 ## [**Add or remove a digital signature in Office files**](/cells/net/assign-and-validate-digital-signatures/)
 Protect the authenticity of a document's content, you can add a digital signature.
+
+## **Advance topics**
+- [Check Password to modify using Aspose.Cells](/cells/net/check-password-to-modify-using-aspose-cells/)
+- [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
+- [Encrypting Excel Files](/cells/net/encrypting-excel-files/)
+- [How to Detect a File Format and Check if the File is Encrypted](/cells/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)

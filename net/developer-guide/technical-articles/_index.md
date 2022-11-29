@@ -1,8 +1,9 @@
 ---
 title: Technical Articles
 type: docs
-weight: 240
+weight: 2400
 url: /net/technical-articles/
+aliases: [/net/cells-helper/]
 ---
 
 

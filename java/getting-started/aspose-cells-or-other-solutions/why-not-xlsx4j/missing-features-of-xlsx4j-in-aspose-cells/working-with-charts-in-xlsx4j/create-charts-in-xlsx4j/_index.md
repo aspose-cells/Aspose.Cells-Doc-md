@@ -73,9 +73,3 @@ workbook.save(dataDir + "Chart_Aspose.xls");
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Download Sample Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)
-
-{{% alert color="primary" %}} 
-
-For more details, visit [How to Create a Chart](/java/how-to-create-a-chart).
-
-{{% /alert %}}

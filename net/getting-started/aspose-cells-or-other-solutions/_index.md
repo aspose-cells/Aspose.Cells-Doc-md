@@ -3,7 +3,7 @@ title: Why Aspose.Cells
 type: docs
 weight: 40
 url: /net/aspose-cells-or-other-solutions/
-aliases: [/net/comparison-with-other-solutions/]
+aliases: [/net/comparison-with-other-solutions/,/net/migration-from-microsoft-office-automation-to-aspose/]
 description: This section compares Aspose.Cells components and some other systems.
 ---
 

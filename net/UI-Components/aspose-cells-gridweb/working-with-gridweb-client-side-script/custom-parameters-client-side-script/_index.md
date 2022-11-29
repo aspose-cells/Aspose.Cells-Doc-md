@@ -2,7 +2,7 @@
 title: Customize initialization parameters
 type: docs
 weight: 10
-url: /net/aspose-cells-gridweb/customize-parameters—in-client-side-script/
+url: /net/aspose-cells-gridweb/customize-parameters-in-client-side-script/
 description: how to customize initialization parameters in  Aspose.Cells.GridWeb client side script.
 ---
 

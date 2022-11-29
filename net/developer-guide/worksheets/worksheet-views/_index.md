@@ -3,6 +3,7 @@ title: Worksheet Views
 type: docs
 weight: 40
 url: /net/worksheet-views/
+aliases: [/net/display-features/]
 ---
 
 ## **Page Break Preview**
@@ -101,3 +102,12 @@ After running the above code, the generated file will have a split view.
 Remove split panes using the [**RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit) method.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-RemovePanes-1.cs" >}}
+
+## **Advance topics**
+- [Hiding the Display of Zero Values in the Worksheet](/cells/net/hiding-the-display-of-zero-values-in-the-worksheet/)
+- [Set Worksheet Tab Color](/cells/net/set-worksheet-tab-color/)
+- [Show and Hide Gridlines and Row Column Headers](/cells/net/show-and-hide-gridlines-and-row-column-headers/)
+- [Show and Hide Rows Columns and Scroll Bars](/cells/net/show-and-hide-rows-columns-and-scroll-bars/)
+- [Show and Hide Worksheets and Tabs](/cells/net/show-and-hide-worksheets-and-tabs/)
+- [Show Formulas Instead of Values in a Worksheet](/cells/net/show-formulas-instead-of-values-in-a-worksheet/)
+- [Use Error Checking Options](/cells/net/use-error-checking-options/)

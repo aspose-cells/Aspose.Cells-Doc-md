@@ -67,6 +67,6 @@ book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Formula Calculation Engine](/java/aspose-cells-formula-calculation-engine).
+For more details, visit [Formula Calculation Engine](/cells/java/aspose-cells-formula-calculation-engine).
 
 {{% /alert %}}

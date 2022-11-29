@@ -24,7 +24,7 @@ Aspose.Cells APIs have added the support for a few Excel 2016 charts by enhancin
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Reading Excel 2016 Chart Types](/cells/java/read-and-manipulate-excel-2016-charts/)[](http://docs.asposeptyltd.com/display/cellsjava/Read+and+Manipulate+Excel+2016+Charts)[.](http://docs.asposeptyltd.com/display/cellsjava/Read+and+Manipulate+Excel+2016+Charts)
+Check the detailed article on [Reading Excel 2016 Chart Types](/cells/java/read-and-manipulate-excel-2016-charts/)
 
 {{% /alert %}} 
 ### **Added Setter for LoadFilter.LoadDataFilterOptions Property**
@@ -34,7 +34,7 @@ Here is a simple usage scenario.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Custom Template Filtering](/cells/java/filter-objects-while-loading-workbook-or-worksheet/)[](http://docs.asposeptyltd.com/display/cellsjava/Filter+Objects+while+loading+Workbook+or+Worksheet)[.](http://docs.asposeptyltd.com/display/cellsjava/Filter+Objects+while+loading+Workbook+or+Worksheet)
+Check the detailed article on [Custom Template Filtering](/cells/java/filter-objects-while-loading-workbook-or-worksheet/)
 
 {{% /alert %}} 
 

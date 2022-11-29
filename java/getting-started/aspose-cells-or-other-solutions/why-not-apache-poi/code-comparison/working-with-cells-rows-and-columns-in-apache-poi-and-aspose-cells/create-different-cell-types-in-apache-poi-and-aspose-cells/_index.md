@@ -87,12 +87,10 @@ row.createCell(5).setCellType(Cell.CELL_TYPE_ERROR);
 Download running examples for **Create Different Cell Types in Aspose.Cells and Apache POI** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/releases/view/619964)
 ## **Download Source Code**
 Download source code for **Create Different Cell Types in Aspose.Cells and Apache POI** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/)
 
 {{% alert color="primary" %}} 
 

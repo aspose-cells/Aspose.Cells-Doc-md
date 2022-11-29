@@ -1,7 +1,7 @@
 ---
 title: Copying and Moving Worksheets
 type: docs
-weight: 10
+weight: 20
 url: /java/copying-and-moving-worksheets/
 ---
 

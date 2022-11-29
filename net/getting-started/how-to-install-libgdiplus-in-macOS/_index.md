@@ -3,7 +3,7 @@ title: How to Install libgdiplus in macOS
 type: docs
 description: "This article explains how to install libgdiplus in macOS, such as Monterey 12.4."
 weight: 150
-url: /net/how-to-install-libgdiplus-in-macOS/
+url: /net/how-to-install-libgdiplus-in-macos/
 ---
 
 ## Install Homebrew in macOS

@@ -2,8 +2,8 @@
 title: Features
 type: docs
 weight: 5
-url: /nodejsjava/features/
-aliases: [/java/aspose-cells-for-node-js-via-java-features/]
+url: /nodejs-java/features/
+aliases: [/java/aspose-cells-for-node-js-via-java-features/,/nodejsjava/features/]
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via Java features."
 ---

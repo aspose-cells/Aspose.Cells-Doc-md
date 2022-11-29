@@ -3,6 +3,7 @@ title: Copying Rows and Columns
 type: docs
 weight: 40
 url: /net/copying-rows-and-columns/
+aliases: [/net/copy-rows-and-columns/]
 ---
 
 ## **Introduction**
@@ -33,7 +34,7 @@ If you click **Paste** on the **Standard** toolbar or press **CTRL**+**V** inste
 
 ## **Using Aspose.Cells**
 
-### **Copying Rows**
+## **Copying Single Rows**
 
 Aspose.Cells provides the [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.
 
@@ -60,7 +61,14 @@ When copying rows, it is important to note related images, charts or other drawi
 
 {{% /alert %}}
 
-### **Copying Columns**
+## **Copying Multiple Rows**
+
+You can also copy multiple rows onto a new destination while using the [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) method which takes an additional parameter of type integer to specify the number of source rows to be copied.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleRows-1.cs" >}}
+
+
+## **Copying Columns**
 
 Aspose.Cells provides the [**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) method of the [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.
 
@@ -76,7 +84,14 @@ This example copies a column from a worksheet and pastes it into a worksheet in 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingColumns-1.cs" >}}
 
-### **Pasting Rows/Columns with Paste Options**
+## **Copying Multiple Columns**
+
+Similar to [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) method, the Aspose.Cells APIs also provide the [**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index) method in order to copy multiple source columns to a new location.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleColumns-1.cs" >}}
+
+
+## **Pasting Rows/Columns with Paste Options**
 
 Aspose.Cells now provides [**PasteOptions**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) while using functions [**CopyRows**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) and [**CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). It allows to set appropriate paste option similar to Excel.
 

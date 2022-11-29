@@ -1,7 +1,7 @@
 ---
 title: Customizing Charts
 type: docs
-weight: 10
+weight: 40
 url: /net/customizing-charts/
 ---
 

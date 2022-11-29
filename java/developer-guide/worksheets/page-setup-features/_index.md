@@ -293,4 +293,11 @@ The pre-defined values of [**PrintOrderType**](https://reference.aspose.com/cell
 
 Please see this article related to this topic.
 
+## **Advance topics**
+- [Calculate Page Setup Scaling Factor](/cells/java/calculate-page-setup-scaling-factor/)
+- [Copy Page Setup Settings from Source Worksheet into Destination Worksheet](/cells/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
+- [Determine if Paper Size of Worksheet is Automatic](/cells/java/determine-if-paper-size-of-worksheet-is-automatic/)
+- [Get Paper Width and Height from PageSetup of Worksheet](/cells/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+- [Implement Custom Paper Size of Worksheet for Rendering](/cells/java/implement-custom-paper-size-of-worksheet-for-rendering/)
+- [Page Setup and Printing Options](/cells/java/page-setup-and-printing-options/)
 - [Remove Existing PrinterSettings of Worksheets in Excel file](/cells/java/remove-existing-printersettings-of-worksheets-in-excel-file/)

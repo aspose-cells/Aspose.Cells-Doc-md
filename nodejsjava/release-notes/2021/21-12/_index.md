@@ -2,7 +2,8 @@
 title: Aspose.Cells for Node.js via Java 21.12 Release Notes
 type: docs
 weight: 1
-url: /nodejsjava/aspose-cells-for-node-js-via-java-21-12-release-notes/
+url: /nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
+aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-21-12-release-notes/]
 ---
 
 {{% alert color="primary" %}}

@@ -9,7 +9,7 @@ url: /java/download-and-configure-aspose-cells-in-php/
 Download required libraries mentioned below. These are the required for executing Aspose.Cells Java for PHP examples.
 
 - **Aspose:** [Aspose.Cells for Java Component](https://downloads.aspose.com/cells/java/)
-- [PHP/Java Bridge](http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip)
+- [PHP/Java Bridge](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip/download/)
 ## **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:
 

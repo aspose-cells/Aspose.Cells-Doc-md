@@ -3,6 +3,7 @@ title: Inserting and Deleting Rows and Columns
 type: docs
 weight: 60
 url: /java/inserting-and-deleting-rows-and-columns/
+aliases: [/java/insert-or-delete-rows-in-an-excel-worksheet/]
 ---
 
 ## **Introduction**

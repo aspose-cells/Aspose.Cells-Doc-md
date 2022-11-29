@@ -81,3 +81,9 @@ If you use the [**Custom**](https://reference.aspose.com/cells/net/aspose.cells/
 
 {{% /alert %}}
 
+## **Advance topics**
+- [Check Custom Number Format when Setting Style.Custom Property](/cells/net/check-custom-number-format-when-setting-style-custom-property/)
+- [List of Supported Number Formats](/cells/net/list-of-supported-number-formats/)
+- [Render Custom Date Format Pattern g and ge mm dd](/cells/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
+- [Specify Custom Number Decimal and Group Separators for Workbook](/cells/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
+- [Specifying DBNum Custom Pattern Formatting](/cells/net/specifying-dbnum-custom-pattern-formatting/)

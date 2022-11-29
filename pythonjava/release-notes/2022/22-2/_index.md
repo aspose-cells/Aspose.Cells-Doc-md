@@ -7,7 +7,7 @@ url: /python-java/aspose-cells-for-python-via-java-22-2-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Cells for Python via Java 22.2](https://downloads.aspose.com/cells/python/new-releases/aspose.cells-for-python-via-java-22.2/).
+This page contains release notes for [Aspose.Cells for Python via Java 22.2](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.2/).
 
 {{% /alert %}}
 

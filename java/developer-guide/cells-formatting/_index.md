@@ -1,5 +1,5 @@
 ---
-title: Cells Formatting
+title: Cells Formats
 type: docs
 weight: 100
 url: /java/cells-formatting/
@@ -195,3 +195,16 @@ In the output file, in the A1" cell, the word 'Visit' is formatted with the defa
 If you are interested in [formatting a portion of Rich Text in a cell](/cells/java/access-and-update-the-portions-of-rich-text-of-cell/), consider using the [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) & Cell.setCharacters methods. The [Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\)) method is to be used to access the portions of the text and then amendments can be done using the Cell.setCharacters method whereas the **get** method returns an array of [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) objects which can be manipulated to set various properties such as font name, font color, boldness, etc and **set** method can be used to apply the changes.
 
 {{% /alert %}}
+
+## **Advance topics**
+- [Alignment Settings](/cells/java/cells-alignment-settings/)
+- [Conditional Formatting](/cells/java/conditional-formatting/)
+- [Data Formatting](/cells/java/data-formatting/)
+- [Excel Themes and Colors](/cells/java/excel-2007-themes-and-colors/)
+- [Dealing with Font Settings](/cells/java/dealing-with-font-settings/)
+- [Format Worksheet Cells in a Workbook](/cells/java/format-worksheet-cells-in-a-workbook/)
+- [Implement 1904 Date System](/cells/java/implement-1904-date-system/)
+- [Merging and Unmerging Cells](/cells/java/merging-and-unmerging-cells/)
+- [Number Settings](/cells/java/cells-number-settings/)
+- [Preserve Single Quote Prefix of Cell Value or Range](/cells/java/preserve-single-quote-prefix-of-cell-value-or-range/)
+- [Styling and Data Formatting](/cells/java/styling-and-data-formatting/)

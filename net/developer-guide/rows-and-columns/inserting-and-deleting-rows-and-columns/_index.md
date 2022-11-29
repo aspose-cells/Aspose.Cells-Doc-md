@@ -1,5 +1,6 @@
 ---
-title: Inserting and Deleting Rows and Columns
+title: Inserting and Deleting Rows and Columns of Excel file
+linktitle: Inserting and Deleting Rows and Columns
 type: docs
 weight: 70
 url: /net/inserting-and-deleting-rows-and-columns/
@@ -23,7 +24,7 @@ When rows or columns are added, the content in the worksheet is shifted down or 
 {{% /alert %}}
 
 
-## **Insert Rows and Columns **
+## **Insert Rows and Columns**
 
 ### **Insert a Row**
 
@@ -56,7 +57,7 @@ Developers can also insert a column into the worksheet at any location by callin
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingAColumn-1.cs" >}}
 
-## **Delete Rows and Columns **
+## **Delete Rows and Columns**
 
 ### **Delete Multiple Rows**
 

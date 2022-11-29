@@ -1,7 +1,7 @@
 ---
 title: Send Shape Front or Back inside the Worksheet
 type: docs
-weight: 1400
+weight: 3400
 url: /net/send-shape-front-or-back-inside-the-worksheet/
 ---
 

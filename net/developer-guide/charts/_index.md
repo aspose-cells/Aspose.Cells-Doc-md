@@ -4,7 +4,7 @@ linktitle: Charts
 type: docs
 weight: 130
 url: /net/creating-charts/
-aliases: [/net/charts/]
+aliases: [/net/charts/,/net/managing-charts/]
 description: Create a chart in CSharp for Excel and ODS files.
 keywords: create a chart, make a graph 
 ---
@@ -177,20 +177,20 @@ In order to create a line with the data marker chart, [**ChartType**](https://re
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 
 ## **Advance topics**
-- [Change Tick Label Direction](/cells/net/change-tick-label-direction/)
-- [Chart Rendering](/cells/net/chart-rendering/)
-- [Chart Types](/cells/net/chart-types/)
-- [Controls in Charts](/cells/net/controls-in-charts/)
-- [Create Chart PDF with Desired Page Size](/cells/net/create-chart-pdf-with-desired-page-size/)
-- [Customizing Charts](/cells/net/customizing-charts/)
-- [Data Formatting in Charts](/cells/net/data-formatting-in-charts/)
-- [Find Type of X and Y Values of Points in Chart Series](/cells/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
-- [Handle Automatic Units of Chart Axis like Microsoft Excel](/cells/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
-- [Manipulate Position Size and Designer Chart](/cells/net/manipulate-position-size-and-designer-chart/)
 - [Read and Manipulate Excel 2016 Charts](/cells/net/read-and-manipulate-excel-2016-charts/)
-- [Read Axis Labels after Calculating the Chart](/cells/net/read-axis-labels-after-calculating-the-chart/)
-- [Read Chart Subtitle from ODS File](/cells/net/read-chart-subtitle-from-ods-file/)
-- [Set the Shape Type of Data Labels of Chart](/cells/net/set-the-shape-type-of-data-labels-of-chart/)
-- [Set the Values Format Code of Chart Series](/cells/net/set-the-values-format-code-of-chart-series/)
+- [Manage Axes of Excel Charts](/cells/net/chart-axes/)
 - [Setting Chart Appearance](/cells/net/setting-chart-appearance/)
+- [Chart Types](/cells/net/chart-types/)
+- [Customizing Charts](/cells/net/customizing-charts/)
+- [Set Data source for the chart](/cells/net/data-formatting-in-charts/)
+- [Manage DataLabels of Excel Charts](/cells/net/insert-datalabels-to-chart/)
+- [Generate Chart by Processing Smart Markers](/cells/net/generate-chart-by-processing-smart-markers/)
+- [Get Worksheet of the Chart](/cells/net/get-worksheet-of-the-chart/)
+- [Manage Legend of Excel Charts](/cells/net/chart-legend/)
+- [Manipulate Position Size and Designer Chart](/cells/net/manipulate-position-size-and-designer-chart/)
+- [Creating Pie Chart with Leader Lines](/cells/net/creating-pie-chart-with-leader-lines/)
+- [Shapes in Charts](/cells/net/controls-in-charts/)
+- [Manage Titles of Excel Charts](/cells/net/chart-and-axis-titles/)
+- [Chart Rendering](/cells/net/chart-rendering/)
+- [Get Equation Text of Chart Trendline](/cells/net/get-equation-text-of-chart-trendline/)
 

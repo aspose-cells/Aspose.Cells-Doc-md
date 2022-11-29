@@ -40,3 +40,6 @@ The following example loads a template XLSX file, defines colors for different t
 The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the excel file to disk.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-UtilizeThemeColors-1.cs" >}}
+
+## **Advance topics**
+- [Extract Theme Data from Excel File](/cells/net/extract-theme-data-from-excel-file/)

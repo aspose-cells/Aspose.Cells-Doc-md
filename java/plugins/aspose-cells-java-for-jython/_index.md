@@ -56,7 +56,7 @@ Following releases of running examples are available to download on all of the b
 
 **Download Aspose.Cells for Java component**
 
-- [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
+- [Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
 ### **Installing**
 

@@ -53,6 +53,6 @@ workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Add WordArt Watermark to Chart](/java/add-wordart-watermark-to-chart).
+For more details, visit [Add WordArt Watermark to Chart](/cells/java/add-wordart-watermark-to-chart).
 
 {{% /alert %}}

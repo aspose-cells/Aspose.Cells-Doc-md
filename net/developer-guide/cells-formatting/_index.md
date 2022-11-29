@@ -2,9 +2,9 @@
 title: Format cells
 linktitle: Format cells
 type: docs
-weight: 122
+weight: 120
 url: /net/cells-formatting/
-aliases: [/net/data-formatting/,/net/format-cells-using-getstyle-and-setstyle-methods/,/net/data-formatting-selected-characters]
+aliases: [/net/data-formatting/,/net/format-cells-using-getstyle-and-setstyle-methods/]
 description: Set number format, border and background color for Excel files on .NET Framework, .NET Core, Mono or Xamarin Platforms.
 ---
 
@@ -99,16 +99,16 @@ The [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/pr
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}
 
 ## **Advance topics**
-- [Access and Update the Portions of Rich Text of Cell](/cells/net/access-and-update-the-portions-of-rich-text-of-cell/)
 - [Alignment Settings](/cells/net/cells-alignment-settings/)
 - [Border Settings](/cells/net/cells-border-settings/)
-- [Create Style object using CellsFactory class](/cells/net/create-style-object-using-cellsfactory-class/)
+- [Set Conditional Formats of Excel and ODS files.](/cells/net/conditional-formatting/)
 - [Excel Themes and Colors](/cells/net/excel-themes-and-colors/)
 - [Fill Settings](/cells/net/cells-fill-settings/)
 - [Font Settings](/cells/net/cells-font-settings/)
-- [Format and Modify Named Ranges](/cells/net/format-and-modify-named-ranges/)
-- [Modify an Existing Style](/cells/net/modify-an-existing-style/)
-- [Number Settings](/cells/net/cells-number-settings/)
-- [Using Built-in Styles](/cells/net/using-built-in-styles/)
+- [Format Worksheet Cells in a Workbook](/cells/net/format-worksheet-cells-in-a-workbook/)
+- [Implement 1904 Date System](/cells/net/implement-1904-date-system/)
 - [Merging and Unmerging Cells](/cells/net/merging-and-unmerging-cells/)
+- [Number Settings](/cells/net/cells-number-settings/)
+- [Get and Set Style for cells](/cells/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
+
 

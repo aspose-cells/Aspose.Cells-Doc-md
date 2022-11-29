@@ -2,8 +2,8 @@
 title: Setup and Installation Guidelines
 type: docs
 weight: 20
-url: /phpjava/setup-and-installation-guidelines/
-aliases: [/java/setup-and-installation-guidelines/]
+url: /php-java/setup-and-installation-guidelines/
+aliases: [/phpjava/setup-and-installation-guidelines/,/java/setup-and-installation-guidelines/]
 keywords: "php, excel, install"
 description: "setup Aspose.Cells for PHP via Java and installation guidelines."
 ---

@@ -4,7 +4,7 @@ linktitle: Getting Started
 type: docs
 weight: 4
 url: /python-java/getting-started/ 
-aliases: [/java/aspose-cells-for-python-via-java-system-requirements/, /pythonjava/system-requirements/, /python-java/setup-environment-and-installation-guidelines/]
+aliases: [/java/aspose-cells-for-python-via-java-system-requirements/, /python-java/system-requirements/, /python-java/setup-environment-and-installation-guidelines/]
 keywords: "python, excel, install"
 description: Setup Aspose.Cells for Python via Java and installation guidelines.
 ---

@@ -3,6 +3,7 @@ title: Copying Rows and Columns
 type: docs
 weight: 30
 url: /java/copying-rows-and-columns/
+aliases: [/java/copy-rows-and-columns/]
 ---
 
 ## **Introduction**
@@ -20,8 +21,9 @@ When a row (or column) is copied, the data contained in it, including formulas -
 If you click **Paste** on the **Standard** toolbar or press **CTRL**+**V** instead of clicking a command on the **Insert** menu, any contents of the destination cells are replaced.
 
 {{% /alert %}} 
-## **Copying Rows and Columns with Aspose.Cells**
-### **Copying Rows**
+
+## **Copying Single Row**
+
 Aspose.Cells provides the [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) method of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.
 
 The [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) method takes the following parameters:
@@ -52,7 +54,23 @@ When copying rows, it is important to note related images, charts or other drawi
 1. The existing images, charts, etc. in the destination row will not be removed.
 
 {{% /alert %}} 
-### **Copying Columns**
+
+## **Copying Multiple Rows**
+
+You can also copy multiple rows onto a new destination while using the [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) method which takes an additional parameter of type integer to specify the number of source rows to be copied.
+
+Below is a snapshot of the input spreadsheet containing 3 rows of data whereas the code snippet provided below copies all 3 rows to a new location starting from 7th row.
+
+![todo:image_alt_text](copy-rows-and-columns_3.png)
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleRows-CopyingMultipleRows.java" >}}
+
+Here is the resultant spreadsheet view after executing the above code snippet.
+
+![todo:image_alt_text](copy-rows-and-columns_4.png)
+
+## **Copying Single Column**
+
 Aspose.Cells provides the [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) method of the [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.
 
 The [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) method takes the following parameters:
@@ -69,10 +87,22 @@ This example copies a column from a worksheet and pastes it into a worksheet in 
 
 ![todo:image_alt_text](copying-rows-and-columns_2.png)
 
-
-
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-CopyingColumns-CopyingColumns.java" >}}
-### **Pasting Rows/Columns with Paste Options**
+
+## **Copying Multiple Columns**
+
+Similar to [**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) method, the Aspose.Cells APIs also provide the [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) method in order to copy multiple source columns to a new location.
+
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
+
+Here is how source and resultant spreadsheets look in Excel.
+
+![todo:image_alt_text](copy-rows-and-columns_7.png)
+
+![todo:image_alt_text](copy-rows-and-columns_8.png)
+
+
+## **Pasting Rows/Columns with Paste Options**
 Aspose.Cells now provides [PasteOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) while using functions [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\)) and [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)). It allows setting appropriate paste options similar to Excel.
 
 

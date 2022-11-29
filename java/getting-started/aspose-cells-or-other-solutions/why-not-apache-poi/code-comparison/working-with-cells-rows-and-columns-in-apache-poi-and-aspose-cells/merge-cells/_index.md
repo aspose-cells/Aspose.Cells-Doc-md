@@ -74,6 +74,6 @@ sheet.addMergedRegion(new CellRangeAddress(
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Merging and Unmerging (Splitting) Cells](/java/merging-and-unmerging-%28splitting%29-cells).
+For more details, visit [Merging and Unmerging (Splitting) Cells](/cells/java/merging-and-unmerging-cells).
 
 {{% /alert %}}

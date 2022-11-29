@@ -6,7 +6,7 @@ url: /java/hide-and-unhide-cells/
 ---
 
 ## **Aspose.Cells - Hide and Unhide Rows and Columns**
-Aspose.Cells provides a class, [Workbook](/java/workbook), that represents a Microsoft Excel file. The Workbook class contains aWorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the[Worksheet](/java/worksheet) class. The Worksheet class provides a Cells collection that represents all cells in the worksheet. The Cells collection provides several methods for managing rows or columns in a worksheet. 
+Aspose.Cells provides a class, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), that represents a Microsoft Excel file. The Workbook class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class. The Worksheet class provides a Cells collection that represents all cells in the worksheet. The Cells collection provides several methods for managing rows or columns in a worksheet. 
 
 **Java**
 
@@ -44,10 +44,8 @@ row.setZeroHeight(true);
 
 {{< /highlight >}}
 ## **Download Running Code**
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/releases/view/618615)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Download Sample Code**
-- [CodePlex](https://asposecellsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/hideunhidecells/)
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/hideunhidecells)
 
 {{% alert color="primary" %}} 

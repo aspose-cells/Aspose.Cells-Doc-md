@@ -7,7 +7,7 @@ url: /java/evaluate-aspose-cells/
 
 {{% alert color="primary" %}}
 
-You can easily download Aspose.Cells for evaluation from the [download page](https://repository.aspose.com/repo/com/aspose/aspose-cells/). The evaluation download is the same as the download for the full version: the evaluation becomes licensed when you apply a license.
+You can easily download Aspose.Cells for evaluation from the [download page](https://releases.aspose.com/cells/java/). The evaluation download is the same as the download for the full version: the evaluation becomes licensed when you apply a license.
 
 {{% /alert %}}
 

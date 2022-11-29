@@ -49,3 +49,7 @@ The following example shows how to split the merged cells (C6). The example uses
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-UnMergingtheMergedCells-1.cs" >}}
+
+
+## **Advance topics**
+- [Detect Merged Cells in a Worksheet](/cells/net/detect-merged-cells-in-a-worksheet/)
