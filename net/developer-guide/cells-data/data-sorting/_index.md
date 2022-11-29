@@ -3,7 +3,6 @@ title: Data Sorting
 type: docs
 weight: 130
 url: /net/sort-data-of-excel/
-aliases: [/net/sort-data/,/net/data-sorting/]
 ---
 
 {{% alert color="primary" %}}
