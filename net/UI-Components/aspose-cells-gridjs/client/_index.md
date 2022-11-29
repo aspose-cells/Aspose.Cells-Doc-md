@@ -43,6 +43,7 @@ for example the below code init a x_spreadsheet object.
     updateUrl:  set the server side  url for update action based on json
     mode: read means readonly spread sheet/edit means we can edit the spread sheet
     showToolbar:   means whether to show toolbar
+    showFileName:  whether to show the filename 
     local:         support multiple language for menus ,the locale can be: en, cn, es, pt, de, ru, nl for english,chinese,Spanish,Portuguese,germany,Russian,Dutch
     showContextmenu:   means whether to show contextmenu on right click on a cell
 ##  
