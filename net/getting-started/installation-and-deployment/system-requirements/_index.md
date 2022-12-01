@@ -23,6 +23,7 @@ The Aspose.Cells for .NET components do not require Microsoft Excel to be instal
 - Microsoft Windows 7 ( x64, x86)
 - Microsoft Windows 8 ( x64, x86)
 - Microsoft Windows 10 ( x64, x86)
+- Microsoft Windows 11
 - Windows Azure
 ### **Linux**
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine and others)
@@ -123,6 +124,7 @@ To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspos
 - Microsoft Windows 7, 
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
+- Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
 #### **.NET Framework**
 - .NET Framework 2.0
@@ -165,3 +167,4 @@ To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspos
 - Microsoft Windows 7, 
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
+- Microsoft Windows 11
