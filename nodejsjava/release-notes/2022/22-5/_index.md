@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 22.5 Release Notes
 type: docs
 weight: 8
 url: /nodejs-java/aspose-cells-for-node-js-via-java-22-5-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-22-5-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -52,4 +51,5 @@ Represents the warning type is the limitation of Excel.
 ### **Adds ShapeGuideCollection.Add(string name, double val) method.**
 
 Adds a shape guide.
+
 

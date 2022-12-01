@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 21.6 Release Notes
 type: docs
 weight: 7
 url: /nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-21-6-release-notes/,/java/aspose-cells-for-node-js-via-java-21.6-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -72,3 +71,4 @@ Gets the protection name in the PivotTable.
 ### **Adds FileFormatUtil.FileFormatToSaveFormat method.**
 
 Converts file format to save format.
+

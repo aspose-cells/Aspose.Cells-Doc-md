@@ -3,7 +3,6 @@ title: Aspose.Cells for PHP via Java 19.8 Release Notes
 type: docs
 weight: 10
 url: /php-java/aspose-cells-for-php-via-java-19-8-release-notes/
-aliases: [/phpjava/aspose-cells-for-php-via-java-19-8-release-notes/,/java/aspose-cells-for-php-via-java-19-8-release-notes/]
 ---
 
 {{% alert color="primary" %}} 
@@ -49,3 +48,4 @@ Info for a page starts the saving process.
 Info for a page ends the saving process.
 #### **Adds PdfSaveOptions.PageSavingCallback property**
 Control/Indicate progress of page saving process.
+

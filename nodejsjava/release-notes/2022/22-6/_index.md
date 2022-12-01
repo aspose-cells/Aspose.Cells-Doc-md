@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 22.6 Release Notes
 type: docs
 weight: 7
 url: /nodejs-java/aspose-cells-for-node-js-via-java-22-6-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-22-6-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -96,3 +95,4 @@ Please Use ImageOrPrintOptions.ImageType property instead.
 ### **Deletes obsolete property ImageOrPrintOptions.IsImageFitToPage property**
 
 The property is useless.
+

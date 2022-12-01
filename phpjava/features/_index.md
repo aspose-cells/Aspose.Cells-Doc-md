@@ -3,7 +3,6 @@ title: Features
 type: docs
 weight: 5
 url: /php-java/features/
-aliases: [/phpjava/features/,/java/aspose-cells-for-php-via-java-features/]
 keywords: "php, excel, api, features"
 description: "Aspose.Cells for PHP via Java features."
 ---
@@ -98,4 +97,5 @@ You can use Aspose.Cells to implement page setup options for worksheets.
 |Specify your margins and page centering.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Create or edit your header and/or footer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Set print area, print titles, or turn on gridlines etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+
 

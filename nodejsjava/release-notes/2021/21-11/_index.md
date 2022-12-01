@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 21.11 Release Notes
 type: docs
 weight: 2
 url: /nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-21-11-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -61,4 +60,5 @@ New supported save formats.
 ### **Adds FileFormatType.Emf,FileFormatType.Gif,FileFormatType.Jpg,FileFormatType.Json,FileFormatType.Png,FileFormatType.Wmf enum**
 
 New supported file format types.
+
 

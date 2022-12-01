@@ -3,7 +3,6 @@ title: Getting started
 type: docs
 weight: 5
 url: /nodejs-java/getting-started/
-aliases: [/nodejsjava/getting-started/,/java/setup-environment-and-installation-guidelines/,/nodejsjava/setup-environment-and-installation-guidelines/]
 keywords: "nodejs, excel, install"
 description: "setup Aspose.Cells for Node.js via Java and installation guidelines."
 ---
@@ -165,3 +164,4 @@ console.log("hello world");
 {{< /highlight >}}
 
 - Now run "node hello.js" @command prompt to run it.
+

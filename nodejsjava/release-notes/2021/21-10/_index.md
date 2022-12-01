@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 21.10 Release Notes
 type: docs
 weight: 3
 url: /nodejs-java/aspose-cells-for-node-js-via-java-21-10-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-21-10-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -74,3 +73,4 @@ Get page size of output image?in unit of inch.
 ### **Adds method WorkbookRender.GetPageSizeInch(int pageIndex)**
 
 Get page size output image?in unit of inch.
+

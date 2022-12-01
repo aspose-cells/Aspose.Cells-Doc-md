@@ -3,7 +3,6 @@ title: Aspose.Cells for PHP via Java 22.2 Release Notes
 type: docs
 weight: 11
 url: /php-java/aspose-cells-for-php-via-java-22-2-release-notes/
-aliases: [/phpjava/aspose-cells-for-php-via-java-22-2-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -52,3 +51,4 @@ Gets the defined names by scope.
 ### **Adds MsoDrawingType.Timeline enum.**
 
 Represents Timeline drawing objects type.
+

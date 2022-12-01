@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 21.12 Release Notes
 type: docs
 weight: 1
 url: /nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-21-12-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -94,3 +93,4 @@ Gets and sets producer of generated pdf document.
 ### **Adds ListColumn.GetCustomTotalsRowFormula() and ListColumn.SetCustomTotalsRowFormula() methods**
 
 Gets and sets the custom formula of totals row in the table. 
+

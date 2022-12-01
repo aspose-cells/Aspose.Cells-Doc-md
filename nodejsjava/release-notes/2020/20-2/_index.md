@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 20.2 Release Notes
 type: docs
 weight: 10
 url: /nodejs-java/aspose-cells-for-node-js-via-java-20-2-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-20-2-release-notes/,/java/aspose-cells-for-node-js-via-java-20-2-release-notes/]
 ---
 
 {{% alert color="primary" %}} 
@@ -53,3 +52,4 @@ Gets the external connection data source.
 Represents the Number 3.5 files since office 2014. Only for throwing the file format when reading.
 #### **Adds LoadOptions.CheckDataValid property.**
 Indiciates whether to check the invalid data when loading the files.
+

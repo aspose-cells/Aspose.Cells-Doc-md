@@ -4,10 +4,6 @@ type: docs
 weight: 50
 url: /nodejs-java/
 is_root: true
-aliases:
-    - /nodejs/
-    - /node/
-    - /nodejsjava/
 ---
 
 {{% alert color="primary" %}}
@@ -33,3 +29,4 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for Node.js via Java API Reference Guide](https://reference.aspose.com/cells/nodejs)
 - [Aspose.Cells for Node.js via Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
+

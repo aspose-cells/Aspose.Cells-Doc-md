@@ -3,7 +3,6 @@ title: Aspose.Cells for PHP via Java 19.1 Release Notes
 type: docs
 weight: 20
 url: /php-java/aspose-cells-for-php-via-java-19-1-release-notes/
-aliases: [/phpjava/aspose-cells-for-php-via-java-19-1-release-notes/,/java/aspose-cells-for-php-via-java-19-1-release-notes/]
 ---
 
 {{% alert color="primary" %}} 
@@ -59,3 +58,4 @@ Enumerates displaying text type when the text width is larger than cell width.
 Replacement of Cell.SetAddInFormula(), a more convenient and efficient way for users to add and use addin functions.
 #### **Obsoletes Cell.SetAddInFormula() method**
 Please register the addin functions firstly by WorksheetCollection.RegisterAddInFunction() and then setting the formula for Cell by Cell.Formula/Cell.SetFormula() instead.
+

@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 21.1 Release Notes
 type: docs
 weight: 12
 url: /nodejs-java/aspose-cells-for-node-js-via-java-21-1-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-21-1-release-notes/,/java/aspose-cells-for-node-js-via-java-21.1-release-notes/]
 ---
 
 {{% alert color="primary" %}} 
@@ -86,3 +85,4 @@ Uses Marker.MarkerSize instead.
 ### **Deletes obsoleted ChartPoint.MarkerStyle and Series.MarkerStyle properties.**
 
 Uses Marker.MarkerStyle instead.
+

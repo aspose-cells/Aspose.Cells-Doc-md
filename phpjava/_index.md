@@ -4,8 +4,6 @@ type: docs
 weight: 60
 url: /php-java/
 is_root: true
-aliases:
-    - /phpjava/
 ---
 
 {{% alert color="primary" %}}
@@ -31,3 +29,4 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for PHP via Java API Reference Guide](https://reference.aspose.com/cells/php)
 - [Aspose.Cells for PHP via Java Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for PHP via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
+

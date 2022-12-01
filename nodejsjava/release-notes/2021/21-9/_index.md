@@ -3,7 +3,6 @@ title: Aspose.Cells for Node.js via Java 21.9 Release Notes
 type: docs
 weight: 4
 url: /nodejs-java/aspose-cells-for-node-js-via-java-21-9-release-notes/
-aliases: [/nodejsjava/aspose-cells-for-node-js-via-java-21-9-release-notes/,/java/aspose-cells-for-node-js-via-java-21-9-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -64,3 +63,4 @@ Deletes the specified PivotTable and checks whether keeping cells' data .
 ### **Adds ImageOrPrintOptions.IsOptimized property.**
 
  Indicates whether optimize the output elements. Default value is false. Currently only the border lines are optimized when this property is set to true.
+

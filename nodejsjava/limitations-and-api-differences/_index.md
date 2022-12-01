@@ -3,7 +3,6 @@ title: Limitations and API Differences
 type: docs
 weight: 10
 url: /nodejs-java/limitations-and-api-differences/
-aliases: [/nodejsjava/limitations-and-api-differences/,/java/aspose-cells-for-node-js-via-java-limitations-and-api-differences/]
 keywords: "nodejs, excel, limitation, api, differences"
 description: "Aspose.Cells for Node.js via Java limitations and api differences."
 ---
@@ -115,3 +114,4 @@ aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, er
 ## **Other Limitations of Aspose.Cells for Node.js via Java API compared to Aspose.Cells for Java API**
 1. Importing/exporting data from an Array, ArrayList, ResultSet etc. is not supported.
 1. Printing is not supported.
+

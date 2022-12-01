@@ -3,7 +3,6 @@ title: Features
 type: docs
 weight: 5
 url: /nodejs-java/features/
-aliases: [/java/aspose-cells-for-node-js-via-java-features/,/nodejsjava/features/]
 keywords: "nodejs, excel, api, features"
 description: "Aspose.Cells for Node.js via Java features."
 ---
@@ -98,4 +97,5 @@ You can use Aspose.Cells to implement page setup options for worksheets.
 |Specify your margins and page centering.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Create or edit your header and/or footer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Set print area, print titles, or turn on gridlines etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+
 
