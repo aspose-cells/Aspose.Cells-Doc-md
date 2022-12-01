@@ -4,7 +4,6 @@ linktitle: Getting Started
 type: docs
 weight: 4
 url: /python-net/getting-started/ 
-aliases: [/aspose-cells-for-python-via-net-system-requirements/, /pythonnet/system-requirements/, /python-net/setup-environment-and-installation-guidelines/]
 keywords: "python, excel, install"
 description: Setup Aspose.Cells for Python via .NET and installation guidelines.
 ---
@@ -54,3 +53,4 @@ export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CreatingHelloWorldFile.py" >}}
 
 - Now save the code above to "CreatingHelloWorldFile.py" and run "python CreatingHelloWorldFile.py" @command prompt.
+
