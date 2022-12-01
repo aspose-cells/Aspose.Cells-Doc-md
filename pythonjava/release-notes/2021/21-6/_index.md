@@ -3,7 +3,6 @@ title: Aspose.Cells for Python via Java 21.6 Release Notes
 type: docs
 weight: 7
 url: /python-java/aspose-cells-for-python-via-java-21-6-release-notes/
-aliases: [/java/aspose-cells-for-python-via-java-21.6-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -72,3 +71,4 @@ Gets the protection name in the PivotTable.
 ### **Adds FileFormatUtil.FileFormatToSaveFormat method.**
 
 Converts file format to save format.
+

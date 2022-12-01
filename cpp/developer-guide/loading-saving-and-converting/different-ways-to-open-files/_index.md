@@ -4,7 +4,6 @@ linktitle: Different Ways to Open Files
 type: docs
 weight: 10
 url: /cpp/different-ways-to-open-files/
-aliases: [/cpp/opening-files/]
 ---
 
 {{% alert color="primary" %}} 
@@ -21,3 +20,4 @@ Developers can open a Microsoft Excel file using its file path on the local comp
 It is also possible to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream* object that contains the file.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-OpeningFiles-OpeningExcelFileUsingStream.cpp" >}}
+

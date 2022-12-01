@@ -3,7 +3,6 @@ title: Aspose.Cells for Python via Java 21.2 Release Notes
 type: docs
 weight: 12
 url: /python-java/aspose-cells-for-python-via-java-21-2-release-notes/
-aliases: [/java/aspose-cells-for-python-via-java-21-2-release-notes/]
 ---
 
 {{% alert color="primary" %}} 
@@ -44,3 +43,4 @@ Please use SeriesCollection.SecondCategoryData property instead.
 ### **Deletes StyleModifyFlag.Spacing enum.**
 
 It's not used.
+

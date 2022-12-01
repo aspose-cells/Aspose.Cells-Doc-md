@@ -3,7 +3,6 @@ title: Features
 type: docs
 weight: 5
 url: /python-java/features/
-aliases: [/java/aspose-cells-for-python-via-java-features-overview/]
 keywords: "python, excel, api, features"
 description: "Aspose.Cells for Python via Java features."
 ---
@@ -64,3 +63,4 @@ This page summarizes Aspose.Cells for Python via Java features.
 - Specify your margins and page centering
 - Create or edit your header and/or footer
 - Set print area, print titles, or turn on gridlines, etc.
+

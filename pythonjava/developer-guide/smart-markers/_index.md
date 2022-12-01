@@ -4,7 +4,6 @@ linktitle: Smart markers
 type: docs
 weight: 190
 url: /python-java/using-smart-markers/
-aliases: [/python-java/smart-markers/]
 description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells for Python via java library.
 ---
 
@@ -81,4 +80,5 @@ Cell "C1" contains the formula **= A1*B1**, cell "C2" contains **= A2*B2** and c
 It's very easy to process the smart markers. What follows is a code snippet in Python via Java, that shows how it is done.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "SmartMarker-SimpleProcess.py" >}}
+
 

@@ -3,7 +3,6 @@ title: Aspose.Cells for Python via Java 21.9 Release Notes
 type: docs
 weight: 5
 url: /python-java/aspose-cells-for-python-via-java-21-9-release-notes/
-aliases: [/java/aspose-cells-for-python-via-java-21-9-release-notes/]
 ---
 
 {{% alert color="primary" %}}
@@ -64,3 +63,4 @@ Deletes the specified PivotTable and checks whether keeping cells' data .
 ### **Adds ImageOrPrintOptions.IsOptimized property.**
 
  Indicates whether optimize the output elements. Default value is false. Currently only the border lines are optimized when this property is set to true.
+

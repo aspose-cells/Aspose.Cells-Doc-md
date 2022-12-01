@@ -4,7 +4,6 @@ linktitle: Getting Started
 type: docs
 weight: 4
 url: /python-java/getting-started/ 
-aliases: [/java/aspose-cells-for-python-via-java-system-requirements/, /python-java/system-requirements/, /python-java/setup-environment-and-installation-guidelines/]
 keywords: "python, excel, install"
 description: Setup Aspose.Cells for Python via Java and installation guidelines.
 ---
@@ -66,3 +65,4 @@ You can easily use Aspose.Cells for Python via Java from [pypi](https://pypi.org
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
 - Now save the code above to "CreatingHelloWorldFile.py" and run "python CreatingHelloWorldFile.py" @command prompt.
+
