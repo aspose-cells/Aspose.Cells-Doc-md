@@ -43,10 +43,13 @@ Aspose.Cells for .NET supports .NET and Mono frameworks as follows:
 - .NET Framework 4.6.2
 - .NET Framework 4.7.1
 - .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
 ### **.NET Standard**
 - .NET Standard 2.0 (.NET Core 2.1/3.1).
 - .NET 5.0
 - .NET 6.0
+- .NET 7.0
 #### **The nuget packages referenced by Aspose.Cells For .NET Standard**
 - System.Drawing.Common, 4.7.0.
 - System.Text.Encoding.CodePages, 4.7.0.
@@ -98,6 +101,9 @@ To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspos
 - .NET Framework 4.6.2
 - .NET Framework 4.7.1
 - .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
+
 #### **Development Tools**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
@@ -131,6 +137,8 @@ To use these two controls, the machine to run Aspose.Cells.GridDesktop and Aspos
 - .NET Framework 4.6.2
 - .NET Framework 4.7.1
 - .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
 #### **Development Tools**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
