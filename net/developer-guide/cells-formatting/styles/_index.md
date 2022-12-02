@@ -4,7 +4,6 @@ linktitle: Styles
 type: docs
 weight: 50
 url: /net/styling-and-data-formatting/
-aliases: [/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/]
 ---
 
 {{% alert color="primary" %}} 
@@ -53,7 +52,5 @@ cell.SetStyle(style);
 - [Modify an Existing Style](/cells/net/modify-an-existing-style/)
 - [Reusing Style Objects](/cells/net/reusing-style-objects/)
 - [Using Built-in Styles](/cells/net/using-built-in-styles/)
-
-
 
 

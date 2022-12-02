@@ -3,7 +3,6 @@ title: Converting Worksheet to Image and Worksheet to Image by Page
 type: docs
 weight: 80
 url: /net/converting-worksheet-to-image-and-worksheet-to-image-by-page/
-aliases: [/net/convert-excel-to-png/]
 ---
 
 {{% alert color="primary" %}}
@@ -55,3 +54,4 @@ Now, convert the template file's worksheet Sheet1 to image files (one file per p
 Following is the code used by the component to accomplish the task. It converts Sheet1 in Testbook2.xls to image files by page.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheetToImageByPage-1.cs" >}}
+

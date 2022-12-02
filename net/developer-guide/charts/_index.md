@@ -4,7 +4,6 @@ linktitle: Charts
 type: docs
 weight: 130
 url: /net/creating-charts/
-aliases: [/net/charts/,/net/managing-charts/]
 description: Create a chart in CSharp for Excel and ODS files.
 keywords: create a chart, make a graph 
 ---
@@ -193,4 +192,3 @@ In order to create a line with the data marker chart, [**ChartType**](https://re
 - [Manage Titles of Excel Charts](/cells/net/chart-and-axis-titles/)
 - [Chart Rendering](/cells/net/chart-rendering/)
 - [Get Equation Text of Chart Trendline](/cells/net/get-equation-text-of-chart-trendline/)
-

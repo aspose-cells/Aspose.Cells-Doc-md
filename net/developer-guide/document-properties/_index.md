@@ -4,7 +4,6 @@ linktitle: Document Properties
 type: docs
 weight: 80
 url: /net/managing-document-properties/
-aliases: [/net/document-properties/]
 description: Manage document properties of spreadsheet files.
 ---
 

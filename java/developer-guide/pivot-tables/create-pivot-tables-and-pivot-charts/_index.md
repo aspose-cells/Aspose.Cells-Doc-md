@@ -3,7 +3,6 @@ title: Create Pivot Tables and Pivot Charts
 type: docs
 weight: 10
 url: /java/create-pivot-tables-and-pivot-charts/
-aliases: [/java/managing-pivot-tables-and-pivot-charts/]
 description: Create Pivot Tables and Pivot Charts with Aspose.Cells for Java API.
 keywords: excel create pivot table java, excel create pivot chart java, excel create pivot table and pivot chart java, create excel pivot table java, create excel pivot chart java, create excel pivot table and pivot chart java, java create excel pivot table and pivot chart, how to create excel pivot table and pivot chart java
 ---
@@ -103,3 +102,4 @@ We welcome your queries, comments and suggestions at [Aspose.Cells Forum](https:
 - [Formatting Pivot Table](/cells/java/formatting-pivot-table/)
 - [Refresh and Calculate Pivot Table having Calculated Items](/cells/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [Disable Pivot Table Ribbons](/cells/java/disable-pivot-table-ribbons/)
+

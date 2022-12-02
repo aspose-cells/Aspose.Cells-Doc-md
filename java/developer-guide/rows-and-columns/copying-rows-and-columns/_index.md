@@ -3,7 +3,6 @@ title: Copying Rows and Columns
 type: docs
 weight: 30
 url: /java/copying-rows-and-columns/
-aliases: [/java/copy-rows-and-columns/]
 ---
 
 ## **Introduction**
@@ -108,3 +107,4 @@ Aspose.Cells now provides [PasteOptions](https://reference.aspose.com/cells/java
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-PastingDataWithPasteOptions.java" >}}
+

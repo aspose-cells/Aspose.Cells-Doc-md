@@ -3,8 +3,6 @@ title: Load Specific Worksheets in a Workbook
 type: docs
 weight: 100
 url: /net/load-specific-worksheets-in-a-workbook/
-aliases:
-    - /net/load-specific-sheets-in-a-workbook/
 ---
 
 {{% alert color="primary" %}}
@@ -18,3 +16,4 @@ By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible
 Here is the implementation of the CustomLoad class.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadSpecificSheets-2.cs" >}}
+

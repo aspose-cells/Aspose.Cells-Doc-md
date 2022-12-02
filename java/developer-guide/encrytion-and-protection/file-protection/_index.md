@@ -3,7 +3,6 @@ title: Encrypt and Decrypt Excel files
 type: docs
 weight: 40
 url: /java/encrypt-and-decrypt-excel-files/
-aliases: [/java/encrypting-excel-files/]
 description: How to encrypt and decrypt excel files using java. Lock and unlock Excel files.
 ---
 
@@ -40,5 +39,6 @@ The following example shows how you can encrypt / password protect an excel file
 It is very to open password-protect excel file and decrypt using the Aspose.Cells API as following codes:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Decrypt-Excel-File.java" >}}
+
 
 

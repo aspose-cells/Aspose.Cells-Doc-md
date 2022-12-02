@@ -3,7 +3,6 @@ title: Font Settings
 type: docs
 weight: 30
 url: /net/cells-font-settings/
-aliases: [/net/dealing-with-font-settings/,/net/fonts/]
 ---
 
 {{% alert color="primary" %}}
@@ -77,3 +76,4 @@ Developers can apply the superscript effect on the font by setting the [**IsSupe
 ## **Advance topics**
 - [Apply Superscript and Subscript Effects on Fonts](/cells/net/apply-superscript-and-subscript-effects-on-fonts/)
 - [Get a List of Fonts used in a Spreadsheet or Workbook](/cells/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+

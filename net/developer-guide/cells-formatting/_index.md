@@ -4,7 +4,6 @@ linktitle: Format cells
 type: docs
 weight: 120
 url: /net/cells-formatting/
-aliases: [/net/data-formatting/,/net/format-cells-using-getstyle-and-setstyle-methods/]
 description: Set number format, border and background color for Excel files on .NET Framework, .NET Core, Mono or Xamarin Platforms.
 ---
 
@@ -110,5 +109,4 @@ The [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/pr
 - [Merging and Unmerging Cells](/cells/net/merging-and-unmerging-cells/)
 - [Number Settings](/cells/net/cells-number-settings/)
 - [Get and Set Style for cells](/cells/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
-
 

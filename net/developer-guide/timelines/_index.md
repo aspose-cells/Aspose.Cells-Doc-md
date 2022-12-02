@@ -4,7 +4,6 @@ linktitle: Timelines
 type: docs
 weight: 170
 url: /net/create-timeline/
-aliases: [/net/timelines/,/net/create-timeline-to-a-pivot-table/]
 description: Learn how to create a timeline with Aspose.Cells.
 ---
 
@@ -21,3 +20,4 @@ Please see the following sample code. It loads the [sample Excel file](input.xls
 ### **Sample Code**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-CreateTimelineToPivotTable.cs" >}}
+

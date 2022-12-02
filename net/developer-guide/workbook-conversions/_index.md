@@ -4,7 +4,6 @@ linktitle: Workbook Conversions
 type: docs
 weight: 65
 url: /net/convert-workbook-to-different-formats/
-aliases: [/net/rendering-and-printing/,/net/rendering/,/net/convert-excel-to-xps/,/net/convert-excel-to-pptx/,/net/convert-excel-to-docx/,/net/convert-excel-to-markdown/]
 description: Convert Excel files to Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS, JSON, SQL, XML and more.
 ---
 

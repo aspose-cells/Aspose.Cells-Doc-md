@@ -4,7 +4,6 @@ toc: false
 type: docs
 weight: 10
 url: /net/supported-formula-functions/
-aliases: [/net/supported-excel-functions/]
 description: Supported excel functions for reading/setting/calculating formulas
 keywords: formula function calculate
 ---
@@ -537,3 +536,4 @@ Aspose.Cells' Formula Calculation Engine allows you to set, read and calculate t
 | :- | :- |
 |Z.TEST|**Statistical**: Returns the one-tailed probability-value of a z-test
 |ZTEST|**Compatibility**: Returns the one-tailed probability-value of a z-test
+

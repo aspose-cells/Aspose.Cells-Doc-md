@@ -3,7 +3,6 @@ title: Conditional Formatting
 type: docs
 weight: 120
 url: /java/conditional-formatting/
-aliases: [/java/managing-conditional-formats/]
 ---
 
 {{% alert color="primary" %}} 
@@ -58,3 +57,4 @@ Aspose.Cells supports applying conditional formatting at runtime.
 - [Adding 2-Color Scale and 3-Color Scale Conditional Formattings](/cells/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
 - [Apply Conditional Formatting in Worksheets](/cells/java/apply-conditional-formatting-in-worksheets/)
 - [Apply Shading to Alternate Rows and Columns with Conditional Formatting](/cells/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
+

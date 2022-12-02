@@ -3,7 +3,6 @@ title: Converting Worksheet to Image using ImageOrPrint Options
 type: docs
 weight: 90
 url: /net/converting-worksheet-to-image-using-imageorprint-options/
-aliases: [/net/convert-excel-to-jpg/]
 ---
 
 {{% alert color="primary" %}}
@@ -57,3 +56,4 @@ It is possible to save specific pages to image. The following code converts the 
 You can cycle through the workbook and render each worksheet in it to a separate image:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
+

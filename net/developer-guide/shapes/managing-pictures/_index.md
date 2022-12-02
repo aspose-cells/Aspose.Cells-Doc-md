@@ -3,7 +3,6 @@ title: Managing Pictures
 type: docs
 weight: 10
 url: /net/managing-pictures/
-aliases: [/net/convert-png-to-excel/,/net/convert-jpg-to-excel/,/net/convert-emf-to-excel/,/net/convert-bmp-to-excel/,/net/convert-tiff-to-excel/]
 ---
 
 Aspose.Cells allows developers to add pictures to spreadsheets at runtime. Moreover, the positioning of these pictures can be controlled at runtime, which is discussed in more detail in the coming sections.
@@ -53,3 +52,4 @@ Add a picture to the worksheet by calling the [**AddPicture**](https://reference
 - [Insert a Linked Picture from Web Address](/cells/net/insert-a-linked-picture-from-web-address/)
 - [Insert a Picture Based on Cell Reference](/cells/net/insert-a-picture-based-on-cell-reference/)
 - [Load a Web Image from a URL into an Excel Worksheet](/cells/net/load-a-web-image-from-a-url-into-an-excel-worksheet/)
+

@@ -3,7 +3,6 @@ title: Copying Rows and Columns
 type: docs
 weight: 40
 url: /net/copying-rows-and-columns/
-aliases: [/net/copy-rows-and-columns/]
 ---
 
 ## **Introduction**
@@ -96,3 +95,4 @@ Similar to [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.ce
 Aspose.Cells now provides [**PasteOptions**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) while using functions [**CopyRows**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) and [**CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). It allows to set appropriate paste option similar to Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
+

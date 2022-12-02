@@ -3,7 +3,6 @@ title: Encrypt and Decrypt Excel files
 type: docs
 weight: 10
 url: /net/encrypt-and-decrypt-excel-files/
-aliases: [/net/encrypting-excel-files/]
 description: How to encrypt and decrypt excel files using C#. Lock and unlock Excel files.
 ---
 
@@ -48,3 +47,4 @@ It is very to open password-protect excel file and decrypt using the Aspose.Cell
 - [Setting Strong Encryption Type](/cells/net/setting-strong-encryption-type/)
 - [Specify Author while Write Protecting Workbook](/cells/net/specify-author-while-write-protecting-workbook/)
 - [Verify Password of Encrypted Files](/cells/net/verify-password-of-encrypted-excel-and-ods-files/)
+

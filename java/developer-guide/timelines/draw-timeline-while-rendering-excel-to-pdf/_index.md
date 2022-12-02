@@ -3,7 +3,6 @@ title: Draw Timeline while rendering Excel to PDF
 type: docs
 weight: 60
 url: /java/draw-timeline-while-rendering-excel-to-pdf/
-aliases: [/java/timelines/,/java/draw-timeline-while-rendering-excel-to-pdf/]
 description: Manage timelines of Excel files with Aspose.Cells For Java.
 keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
 ---
@@ -17,3 +16,4 @@ The following sample code loads the [sample Excel file](input.xlsx) that contain
 
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-DrawTimelinetoPdf.java" >}}
+

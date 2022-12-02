@@ -3,7 +3,6 @@ title: Save Html With StreamProvider
 type: docs
 weight: 120
 url: /java/convert-excel-to-html-with-streamprovider/
-aliases: [/java/implementing-istreamprovider-for-htmlsaveoptions-streamprovider/]
 ---
 
 {{% alert color="primary" %}}
@@ -25,3 +24,4 @@ This is the main code showing the usage of [**HtmlSaveOptions.StreamProvider**](
 Here is the code for *ExportStreamProvider* class which implements [**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) interface used inside the above code.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportStreamProvider-ExportStreamProvider.java" >}}
+

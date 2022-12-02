@@ -4,7 +4,6 @@ linktitle: Worksheets
 type: docs
 weight: 90
 url: /net/manage-worksheets/
-aliases: [/net/worksheets/]
 description: Add worksheet, remove worksheet and active Sheet using Aspose.Cells.
 ---
 
@@ -87,5 +86,4 @@ The following example shows how to activate a worksheet and make an active cell 
 - [Print multiple copies of a worksheet](/cells/net/print-multiple-copies-of-a-worksheet/)
 - [Utilize Sheet.SheetId property of OpenXml using Aspose.Cells](/cells/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Worksheet Views](/cells/net/worksheet-views/)
-
 

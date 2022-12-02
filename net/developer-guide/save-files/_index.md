@@ -4,7 +4,6 @@ linktitle: Save Files
 type: docs
 weight: 40
 url: /net/different-ways-to-save-files/
-aliases: [/net/convert-excel-to-xml/,/net/convert-excel-to-sxc/,/net/convert-excel-to-fods/,/net/convert-excel-to-dif/]
 ---
 
 {{% alert color="primary" %}}

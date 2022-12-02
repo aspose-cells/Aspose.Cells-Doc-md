@@ -4,9 +4,6 @@ linktitle: Save Files
 type: docs
 weight: 20
 url: /java/saving-excel-files-to-csv-pdf-and-other-formats/
-aliases:
-    - /java/different-ways-to-save-files/
-    - /java/convert-excel-workbook-to-pdf/
 ---
 
 {{% alert color="primary" %}}

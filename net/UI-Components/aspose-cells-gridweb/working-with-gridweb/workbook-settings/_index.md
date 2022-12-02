@@ -3,7 +3,6 @@ title: Settings for workbook
 type: docs
 weight: 250
 url: /net/aspose-cells-gridweb/workbook-settings/
-aliases: /net/aspose-cells-gridweb/gridworkbooksettings/
 description: This article describes the workbook settings for GridWeb.
 keywords: settings
 ---
@@ -35,6 +34,5 @@ For example, the following code set the ReCalculateOnOpen to false to stop the c
  the following code set the author for the file :
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "GridWorkbookSettings-Author.cs" >}}
-
  
  

@@ -4,7 +4,6 @@ type: docs
 description: "Aspose.Cells for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 5
 url: /java/what-s-new-in-aspose-cells-for-java/
-aliases: [/java/whats-new/]
 ---
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
@@ -56,7 +55,7 @@ This page describes the most interesting new Aspose.Cells features introduced in
 
 ## Aspose.Cells for Java 22.2
 
-* Support to extract defined names from NameCollection by speicified scope filter.
+* Support to extract defined names from NameCollection by speicified scope filter
 
 ## Aspose.Cells for Java 22.1
 
@@ -80,4 +79,5 @@ This page describes the most interesting new Aspose.Cells features introduced in
 * Support calculating XLookup formula/function.
 * Integrate saving json and images to saving workbook.
 * Improve performance while converting Excel to HTML.
+
 

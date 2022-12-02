@@ -3,8 +3,6 @@ title: Insert Cell Comments
 type: docs
 weight: 40
 url: /java/insert-cell-comments/
-aliases:
-    - /java/insert-cell-comments-html/
 ---
 
 ## **Aspose.Cells - Insert Cell Comments**
@@ -90,3 +88,4 @@ cell.setCellComment(comment);
 ## **Download Sample Code**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/addcomments)
+

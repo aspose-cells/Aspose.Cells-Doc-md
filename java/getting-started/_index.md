@@ -3,7 +3,6 @@ title: Getting Started
 type: docs
 weight: 10
 url: /java/getting-started/
-aliases: [/java/downloads/]
 description: This article describes how to download and install aspose, and create and execute sample codes.
 ---
 
@@ -53,3 +52,4 @@ Install Aspose Cells for Java with Intellij:
 The steps below creates the Hello World application using the Aspose.Cells API:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelloWorld.java" >}}
+

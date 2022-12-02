@@ -3,9 +3,6 @@ title: Import and Export Data
 type: docs
 weight: 130
 url: /java/import-and-export-data/
-aliases:
-    - /java/import-data-into-worksheet/
-    - /java/importing-from-custom-objects/
 ---
 
 {{% alert color="primary" %}}

@@ -3,7 +3,6 @@ title: Aspose.Cells Features
 type: docs
 weight: 30
 url: /java/aspose-cells-features/
-aliases: [/java/edition-types/,/java/feature-overview/,/java/product-introduction/]
 description: Summarize Aspose.Cells for Java features and provide links to detailed feature descriptions.
 ---
 
@@ -105,4 +104,5 @@ You can use Aspose.Cells for Java to implement page setup options for worksheets
 |Specify your margins and page centering.|Yes|
 |Create or edit your header and/or footer.|Yes|
 |Set print area, print titles, or turn on gridlines etc.|Yes|
+
 

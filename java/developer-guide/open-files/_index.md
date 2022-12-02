@@ -4,7 +4,6 @@ linktitle: Open Files
 type: docs
 weight: 10
 url: /java/opening-files-with-different-formats/
-aliases: [/java/loading-saving-converting-and-managing/]
 ---
 
 {{% alert color="primary" %}}

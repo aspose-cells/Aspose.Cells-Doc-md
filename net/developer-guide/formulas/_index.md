@@ -4,7 +4,6 @@ linktitle: Formulas
 type: docs
 weight: 122
 url: /net/using-formulas-or-functions-to-process-data/
-aliases: [/net/formulas/]
 description: Aspose.Cells can simply get, set and calculate formulas of excel files.
 ---
 
@@ -86,6 +85,4 @@ Add an **R1C1** reference style formula to a cell with the [**Cell**](https://re
 - [Setting Shared Formula](/cells/net/setting-shared-formula/)
 - [Specify Maximum Rows of Shared Formula](/cells/net/specify-maximum-rows-of-shared-formula/)
 - [Supported Excel Functions](/cells/net/supported-formula-functions/)
-
-
 

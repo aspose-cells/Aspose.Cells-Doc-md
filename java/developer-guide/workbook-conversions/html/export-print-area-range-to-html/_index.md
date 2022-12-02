@@ -3,8 +3,6 @@ title: Export print area range to HTML
 type: docs
 weight: 60
 url: /java/export-print-area-range-to-html/
-aliases:
-    - /java/export-print-area-range-to/
 ---
 
 ## Possible Usage Scenarios
@@ -18,3 +16,4 @@ Following sample code loads a workbook and then exports print area to the HTML. 
 [sampleInlineCharts.xlsx](79527960.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}
+

@@ -3,7 +3,6 @@ title: Convert Chart to PDF with Desired Page Size
 type: docs
 weight: 140
 url: /net/chart-to-pdf/
-aliases: [/net/create-chart-pdf-with-desired-page-size/]
 ---
 
 ## **Possible Usage Scenarios**
@@ -14,3 +13,4 @@ Please see the following sample code that loads the [sample Excel file](64716906
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
 ## **Sample Code**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
+

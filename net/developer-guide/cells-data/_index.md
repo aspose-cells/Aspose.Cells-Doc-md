@@ -4,7 +4,6 @@ linktitle: Cells Data
 type: docs
 weight: 110
 url: /net/view-and-edit-excel-data/
-aliases: [/net/data/,/net/managing-rows-columns-and-cells/,/net/add-and-retrieve-data/]
 description: This article describes how to view and edit data of Excel files with Aspose.Cells library.
 ---
 
@@ -82,5 +81,6 @@ While working on worksheets, users may add different types of data in the cells.
 - [Populate Data First by Row then by Column](/cells/net/populate-data-first-by-row-then-by-column/)
 - [Preserve Single Quote Prefix of Cell Value or Range](/cells/net/preserve-single-quote-prefix-of-cell-value-or-range/)
 - [Access and Update the Portions of Rich Text of Cell](/cells/net/access-and-update-the-portions-of-rich-text-of-cell/)
+
 
 

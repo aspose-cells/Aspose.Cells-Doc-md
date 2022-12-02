@@ -4,7 +4,6 @@ linktitle: Tables
 type: docs
 weight: 150
 url: /net/create-and-format-table/
-aliases: [/net/tables/,/net/format-a-list-object-table/]
 description: Insert, resize, edit, delete, format table of Excel files using Aspose.Cells library.
 ---
 
@@ -63,3 +62,4 @@ The example below adds sample data to a worksheet, adds a [**ListObject**](https
 - [Read and Write Table with Query Table Data Source](/cells/net/read-and-write-table-with-query-table-data-source/)
 - [Set the Comment of Table or List Object inside the Worksheet](/cells/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tables and Ranges](/cells/net/tables-and-ranges/)
+

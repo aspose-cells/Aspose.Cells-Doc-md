@@ -4,7 +4,6 @@ linktitle: Save as CSV,TSV and Txt
 type: docs
 weight: 40
 url: /net/convert-excel-to-csv-tsv-and-txt/
-aliases: [/net/convert-excel-to-csv/,/net/convert-excel-to-tsv/]
 ---
 
 {{% alert color="primary" %}}
@@ -35,4 +34,3 @@ Text files contain spreadsheet data without formatting. The file is a kind of pl
 ## **Advance topics**
 - [Keep Separators for Blank Rows while exporting spreadsheets to CSV format](/cells/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format](/cells/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
-

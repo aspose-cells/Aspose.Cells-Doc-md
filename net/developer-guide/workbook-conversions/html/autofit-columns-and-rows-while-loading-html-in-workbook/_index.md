@@ -3,7 +3,6 @@ title: AutoFit Columns and Rows while loading HTML in Workbook
 type: docs
 weight: 120
 url: /net/autofit-columns-and-rows-while-loading-html-in-workbook/
-aliases: [/net/convert-html-to-excel/]
 ---
 
 ## **Possible Usage Scenarios**
@@ -19,3 +18,4 @@ The following sample code first loads the sample HTML into Workbook without any 
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.cs" >}}
+

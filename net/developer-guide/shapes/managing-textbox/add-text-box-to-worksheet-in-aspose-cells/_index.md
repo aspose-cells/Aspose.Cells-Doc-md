@@ -4,7 +4,6 @@ linktitle: Add Text Box to Worksheet
 type: docs
 weight: 10
 url: /net/add-text-box-to-worksheet-in-aspose-cells/
-aliases: [/net/add-text-box-to-worksheet/]
 description: How to add/insert TextBox to Worksheet in Aspose.Cells.
 keywords: add/insert Text Box TextBox Worksheet Excel Aspose
 ---
@@ -43,3 +42,4 @@ The following sample code creates a text box.
 You will get a file similar to [result file](result.xlsx).In the file, you will see the following:
 
 ![](52449.png)
+

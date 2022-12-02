@@ -4,7 +4,6 @@ linktitle: Workshees
 type: docs
 weight: 60
 url: /java/manage-worksheets/
-aliases: [/java/managing-workbooks-and-worksheets/,/java/worksheets/]
 ---
 
 {{% alert color="primary" %}}

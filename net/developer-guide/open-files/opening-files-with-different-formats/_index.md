@@ -3,8 +3,6 @@ title: Opening Files with Different Formats
 type: docs
 weight: 30
 url: /net/opening-files-with-different-formats/
-aliases: [/net/convert-xml-to-excel/,/net/convert-sxc-to-excel/,/net/convert-fods-to-excel/,/net/convert-mhtml-to-excel/]
-
 description: Aspose.Cells for .NET API allows you to open/read different formats like XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
 ---
@@ -87,3 +85,4 @@ StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, fun
 FODS file is spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFODSFiles-1.cs" >}}
+

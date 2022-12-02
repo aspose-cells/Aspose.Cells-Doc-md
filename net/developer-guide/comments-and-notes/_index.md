@@ -4,7 +4,6 @@ linktitle: Comments and Notes
 type: docs
 weight: 128
 url: /net/comments-and-notes/
-aliases: [/net/managing-comments/]
 description: Insert and manage comments or notes with Aspose.Cells for .Net.
 keywords: insert comments, insert notes
 ---
@@ -48,3 +47,4 @@ Aspose.Cells also provides this feature. Below is a code sample that creates an 
 - [How to change the Comment Font Color](/cells/net/how-to-change-the-comment-font-color/)
 - [How to set comment background](/cells/net/how-to-set-comment-background/)
 - [Threaded Comments](/cells/net/threaded-comments/)
+

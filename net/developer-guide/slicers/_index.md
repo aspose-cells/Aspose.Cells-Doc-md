@@ -4,7 +4,6 @@ linktitle: Slicers
 type: docs
 weight: 170
 url: /net/create-slicer/
-aliases: [/net/slicers/,/net/create-slicer-to-a-pivot-table/,/net/create-slicer-to-excel-table/]
 description: Manage slicers of Excel files with Aspose.Cells.
 ---
 

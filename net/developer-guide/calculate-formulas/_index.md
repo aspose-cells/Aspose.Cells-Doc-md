@@ -3,7 +3,6 @@ title: Calculate Formulas
 type: docs
 weight: 125
 url: /net/calculate-formulas/
-aliases: [/net/ways-to-calculate-formulas/,/net/aspose-cells-formula-calculation-engine/,/net/formula-calculation-engine/,/net/managing-and-calculating-formulas/,/net/working-with-calculation-engine/]
 ---
 
 ## **Adding Formulas & Calculating Results**

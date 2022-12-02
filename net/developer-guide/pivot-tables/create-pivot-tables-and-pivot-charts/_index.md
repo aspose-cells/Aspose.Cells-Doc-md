@@ -3,7 +3,6 @@ title: Create Pivot Tables and Pivot Charts
 type: docs
 weight: 20
 url: /net/create-pivot-tables-and-pivot-charts/
-aliases: [/net/managing-pivot-tables-and-pivot-charts/]
 ---
 
 {{% alert color="primary" %}}
@@ -58,3 +57,4 @@ To create a PivotChart using Aspose.Cells:
 1. Set other attributes.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
+

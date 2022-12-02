@@ -3,8 +3,6 @@ title: Pivot Table and Source Data
 type: docs
 weight: 30
 url: /net/pivot-table-and-source-data/
-aliases:
-   - /.net/pivot-table-and-source-data/
 ---
 
 ## **Pivot Table's Source Data**
@@ -53,3 +51,4 @@ Now, you can save this file as your designer template file.
 Executing the example code below changes the source data of the pivot table.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ChangeSourceData-1.cs" >}}
+

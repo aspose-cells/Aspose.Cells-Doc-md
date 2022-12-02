@@ -4,8 +4,6 @@ type: docs
 weight: 10
 url: /net/
 is_root: true
-aliases: 
-    - /.net/
 description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text and popular image formats including TIFF, JPG, PNG, BMP and SVG.
 ---
 
@@ -76,3 +74,4 @@ Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, X
 			</ul>
 	</div>
 </div>
+

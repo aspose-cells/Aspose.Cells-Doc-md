@@ -4,7 +4,6 @@ linktitle: Sparklines
 type: docs
 weight: 160
 url:  /net/creating-sparklines/
-aliases: [/net/sparkline/,/net/insert-sparklines/]
 description: Create sparkline for Excel using Aspose.Cells.
 ---
 
@@ -23,4 +22,3 @@ It’s simple to create a sparkline with Aspose.Cells with the following example
 
 ## **Advance topics**
 - [Using Sparklines and Settings 3D Format](/cells/net/using-sparklines-and-settings-3d-format/)
-

@@ -3,7 +3,6 @@ title: FAQ
 type: docs
 weight: 400
 url: /net/grid-faq/
-aliases: [/net/aspose-cells-grid-controls-faqs/]
 ---
 
 ## **Is there any limitation in the evaluation version of Aspose.Cells Grid Controls?**
@@ -46,3 +45,4 @@ Currently Aspose.Cells.GridWeb does not work very well on Internet Explorer 10 o
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-FAQ-RunGridWebInIE-RunGridWebIE.aspx" >}}
+

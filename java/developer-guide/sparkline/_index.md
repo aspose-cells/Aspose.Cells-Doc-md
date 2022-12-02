@@ -4,7 +4,6 @@ linktitle: Sparklines
 type: docs
 weight: 150
 url:  /java/creating-sparklines/
-aliases: [/java/sparkline/,/java/insert-sparklines/]
 description: Create sparkline for Excel using Aspose.Cells.
 ---
 
@@ -23,4 +22,5 @@ It’s simple to create a sparkline with Aspose.Cells with the following example
 
 ## **Advance topics**
 - [Using Sparklines and Settings 3D Format](/cells/net/using-sparklines-and-settings-3d-format/)
+
 

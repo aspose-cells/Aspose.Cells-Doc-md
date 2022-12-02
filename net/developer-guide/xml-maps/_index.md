@@ -4,7 +4,6 @@ linktitle: XML Maps
 type: docs
 weight: 210
 url: /net/import-xml-map-inside-a-workbook-using-aspose-cells/
-aliases: [/net/xml-maps/]
 description: Import data from an XML data files to Microsoft Excel.
 ---
 
@@ -41,3 +40,4 @@ The following sample code shows how to make use of the [**Workbook.ImportXml()*
 - [Find the Root Element Name of XML Map](/cells/net/find-the-root-element-name-of-xml-map/)
 - [Link Cells to XML Map Elements](/cells/net/link-cells-to-xml-map-elements/)
 - [Query Cell Areas Mapped to XML Map Path using Worksheet.XmlMapQuery method](/cells/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
+

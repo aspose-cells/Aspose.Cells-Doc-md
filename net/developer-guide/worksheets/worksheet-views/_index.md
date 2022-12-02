@@ -3,7 +3,6 @@ title: Worksheet Views
 type: docs
 weight: 40
 url: /net/worksheet-views/
-aliases: [/net/display-features/]
 ---
 
 ## **Page Break Preview**
@@ -111,3 +110,4 @@ Remove split panes using the [**RemoveSplit**](https://reference.aspose.com/cell
 - [Show and Hide Worksheets and Tabs](/cells/net/show-and-hide-worksheets-and-tabs/)
 - [Show Formulas Instead of Values in a Worksheet](/cells/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Use Error Checking Options](/cells/net/use-error-checking-options/)
+

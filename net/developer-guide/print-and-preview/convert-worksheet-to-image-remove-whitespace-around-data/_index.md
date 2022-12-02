@@ -3,7 +3,6 @@ title: Convert Worksheet to Image - Remove whitespace around data
 type: docs
 weight: 40
 url: /net/convert-worksheet-to-image-remove-whitespace-around-data/
-aliases: [/net/convert-excel-to-emf/]
 ---
 
 {{% alert color="primary" %}}
@@ -21,3 +20,4 @@ When you use the sheet-to-image feature, the output image has whitespace, that i
 The following code snippet removes the whitespace around the data in the output image.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveWhitespaceAroundData-1.cs" >}}
+

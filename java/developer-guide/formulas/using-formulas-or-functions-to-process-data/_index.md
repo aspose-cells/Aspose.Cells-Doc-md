@@ -3,8 +3,6 @@ title: Using Formulas or Functions to Process Data
 type: docs
 weight: 5
 url: /java/get-and-set-formula/
-aliases:
-    - /java/using-formulas-or-functions-to-process-data/
 ---
 
 {{% alert color="primary" %}}
@@ -81,3 +79,4 @@ It is possible to apply an array formula to a cell by calling the [**Cell**](htt
 Apply an **R1C1** reference style formula to a cell with the [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class' [**setR1C1Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula) property.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
+

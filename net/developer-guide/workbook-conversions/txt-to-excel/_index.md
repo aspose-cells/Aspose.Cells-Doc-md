@@ -3,7 +3,6 @@ title: Convert CSV, TSV and TXT to Excel
 type: docs
 weight: 30
 url: /net/convert-csv-tsv-and-txt-to-excel/
-aliases: [/net/convert-csv-to-excel/,/net/convert-tsv-to-excel/]
 ---
 
 {{% alert color="primary" %}}
@@ -59,3 +58,4 @@ Tab-separated values (TSV) file contains spreadsheet data but without any format
 ## **Advance topics**
 - [Load or Import CSV file with Formulas](/cells/net/load-or-import-csv-file-with-formulas/)
 - [Reading CSV File with Multiple Encodings](/cells/net/reading-csv-file-with-multiple-encodings/)
+

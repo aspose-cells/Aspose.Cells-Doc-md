@@ -4,7 +4,6 @@ linktitle: Timelines
 type: docs
 weight: 170
 url: /java/create-timeline/
-aliases: [/java/timelines/,/java/create-timeline-to-a-pivot-table/]
 description: Learn how to create a timeline with Aspose.Cells For java.
 ---
 
@@ -21,3 +20,4 @@ Please see the following sample code. It loads the [sample Excel file](input.xls
 ### **Sample Code**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-CreateTimelineToPivotTable.java" >}}
+

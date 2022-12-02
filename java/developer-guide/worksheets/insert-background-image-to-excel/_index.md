@@ -3,7 +3,6 @@ title: Insert Background Image to Excel
 type: docs
 weight: 90
 url: /java/insert-background-image-to-excel/
-aliases: [/java/set-background-picture-for-a-worksheet/]
 description: "How to insert background image to Excel using Aspose.Cells for Java."
 ---
 
@@ -33,3 +32,4 @@ The code below sets a background image using an image from a stream.
 ## Related Articles
 
 - [Working with Background in ODS Files](/cells/java/working-with-background-in-ods-files/)
+

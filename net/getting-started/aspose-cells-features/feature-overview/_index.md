@@ -3,7 +3,6 @@ title: Feature Overview
 type: docs
 weight: 10
 url: /net/feature-overview/
-aliases: [/net/save-in-the-ods-opendocument-spreadsheet-format/,/net/what-document-features-are-supported/,/net/edition-types/]
 ---
 
 {{% alert color="primary" %}} 
@@ -114,4 +113,3 @@ You can use Aspose.Cells for .NET to implement PageSetup options for your worksh
 |Specify your margins and page centering.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Create or edit your header and/or footer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Set print area, print titles, or turn on gridlines, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-

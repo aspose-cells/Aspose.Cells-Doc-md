@@ -4,7 +4,6 @@ linktitle: Macro Project
 type: docs
 weight: 200
 url: /net/manage-vba-project/
-aliases: [/net/workbook-vba-project/,/net/managing-vba-modules/,/net/adding-vba-module-and-code-using-aspose-cells/,/net/modifying-vba-or-macro-code-using-aspose-cells/]
 description: Add VBA Module and Modify VBA or Macro with Aspose.Cells library.
 ---
 
@@ -89,3 +88,4 @@ You can download the [source Excel file](5112508.xlsm) and the [output Excel fil
 - [Filter VBA Project while loading a workbook](/cells/net/filter-vba-project-while-loading-a-workbook/)
 - [Find out if VBA Project is Protected](/cells/net/find-out-if-vba-project-is-protected/)
 - [Password Protect the VBA Project of Excel Workbook](/cells/net/password-protect-the-vba-project-of-excel-workbook/)
+

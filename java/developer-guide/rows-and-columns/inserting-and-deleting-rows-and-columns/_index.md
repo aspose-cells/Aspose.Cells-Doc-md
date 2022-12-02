@@ -3,7 +3,6 @@ title: Inserting and Deleting Rows and Columns
 type: docs
 weight: 60
 url: /java/inserting-and-deleting-rows-and-columns/
-aliases: [/java/insert-or-delete-rows-in-an-excel-worksheet/]
 ---
 
 ## **Introduction**
@@ -68,3 +67,4 @@ To delete a column from the worksheet at any location, call the [deleteColumns](
 - Update Reference: Boolean parameter to indicate whether to update references in other worksheets.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteAColumn-DeleteAColumn.java" >}}
+

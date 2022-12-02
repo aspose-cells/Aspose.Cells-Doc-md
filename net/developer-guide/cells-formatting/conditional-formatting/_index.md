@@ -4,7 +4,6 @@ linktitle: Conditional Formats
 type: docs
 weight: 60
 url: /net/conditional-formatting/
-aliases: [/net/managing-conditional-formats/,/net/insert-conditional-formats/]
 description: How to apply conditional formats to Excel and ODS files in CSharp.
 keywords: apply conditional formats 
 ---
@@ -80,3 +79,4 @@ You can only use thin line styles to the outline border. Diagonal lines are not 
 - [Apply Shading to Alternate Rows and Columns with Conditional Formatting](/cells/net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
 - [Generate Conditional Formatting DataBars Images](/cells/net/generate-conditional-formatting-databars-images/)
 - [Get Icon Sets, Data Bars or Color Scales Objects used in Conditional Formatting](/cells/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+

@@ -3,7 +3,6 @@ title: Customizing Charts
 type: docs
 weight: 15
 url: /java/creating-and-customizing-charts/
-aliases: [/java/convert-xls-to-xlsx-with-combo-chart/]
 ---
 
 ## **Creating Charts**
@@ -201,3 +200,4 @@ The example code below demonstrates how to create custom charts. In this example
 To see a list of supported chart types, read the [Chart Types](/cells/java/chart-types/) article.
 
 {{% /alert %}}
+

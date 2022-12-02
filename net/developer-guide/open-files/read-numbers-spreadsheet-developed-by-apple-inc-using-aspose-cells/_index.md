@@ -3,7 +3,6 @@ title: Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells
 type: docs
 weight: 140
 url: /net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
-aliases: [/net/convert-numbers-to-excel/]
 ---
 
 ## **Possible Usage Scenarios**
@@ -17,3 +16,4 @@ The following sample code loads the [Sample Numbers Spreadsheet](sampleNumbersBy
 ## **Sample Code**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.cs" >}}
+

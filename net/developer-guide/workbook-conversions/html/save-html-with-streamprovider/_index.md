@@ -3,7 +3,6 @@ title: Save Html With StreamProvider
 type: docs
 weight: 80
 url: /net/convert-excel-to-html-with-streamprovider/
-aliases: [/net/implementing-istreamprovider-for-htmlsaveoptions-streamprovider/]
 ---
 
 {{% alert color="primary" %}} 
@@ -29,3 +28,4 @@ Here is the code for *ExportStreamProvider* class which implements [IStreamProv
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-ImplementIStreamProvider-ExportStreamProviderClass.cs" >}}
+

@@ -4,7 +4,6 @@ linktitle: Managing Hyperlinks
 type: docs
 weight: 45
 url: /net/insert-hyperlinks-to-excel/
-aliases: [/net/inserting-hyperlinks/,/net/working-with-hyperlinks-to-link-data/]
 description: How to insert hyperlinks into Excel file with Aspose.Cells library without MS Excel.
 ---
 
@@ -63,3 +62,4 @@ It is possible to add hyperlinks to external Excel files by calling the [Hyperli
 - [Detect Hyperlink Type](/cells/net/detect-hyperlink-type/)
 - [Editing Hyperlinks of Worksheet](/cells/net/editing-hyperlinks-of-worksheet/)
 - [Get Hyperlinks in Range](/cells/net/get-hyperlinks-in-range/)
+

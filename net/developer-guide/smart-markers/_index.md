@@ -4,7 +4,6 @@ linktitle: Smart markers
 type: docs
 weight: 190
 url: /net/using-smart-markers/
-aliases: [/net/smart-markers/]
 description: Smartly importing and placing data accoding to the template Excel files with Aspose.Cells library.
 ---
 
@@ -221,6 +220,5 @@ Sometimes, it may be required to get the notifications about the cell reference 
 - [Show leading apostrophe in cells](/cells/net/show-leading-apostrophe-in-cells/)
 - [Using Formula parameter in Smart Marker field](/cells/net/using-formula-parameter-in-smart-marker-field/)
 - [Using Image Markers while Grouping Data in Smart Markers](/cells/net/using-image-markers-while-grouping-data-in-smart-markers/)
-
 
 

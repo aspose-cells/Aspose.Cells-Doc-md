@@ -3,8 +3,6 @@ title: Export XML Data linked to XML Map inside the Workbook
 type: docs
 weight: 20
 url: /java/export-xml-data-linked-to-xml-map-inside-the-workbook/
-aliases:
-    - /java/export-xml-data-linked-to-xml-map-insde-the-workbook/
 ---
 
 ## Export XML Data linked to XML Map inside the Workbook
@@ -14,3 +12,4 @@ Please use the Workbook.exportXml() method to export XML data linked to your XML
 ## Java code to export XML data linked to XML Map inside the workbook
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportXmlDataOfXmlMap-ExportXmlDataOfXmlMap.java" >}}
+

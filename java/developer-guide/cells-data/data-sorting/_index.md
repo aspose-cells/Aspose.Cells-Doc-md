@@ -3,7 +3,6 @@ title: Data Sorting
 type: docs
 weight: 90
 url: /java/sort-data-of-excel/
-aliases: [/java/sort-data/,/java/data-sorting/]
 ---
 
 {{% alert color="primary" %}}
@@ -78,3 +77,4 @@ Following are the sample files which can be downloaded for testing this feature:
 ## **Advance topics**
 - [Sort Data in Column with Custom Sort List](/cells/java/sort-data-in-column-with-custom-sort-list/)
 - [Specifying Sort Warning While Sorting Data](/cells/java/specifying-sort-warning-while-sorting-data/)
+

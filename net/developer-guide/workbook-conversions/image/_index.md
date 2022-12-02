@@ -3,7 +3,6 @@ title: Image
 type: docs
 weight: 300
 url: /net/convert-excel-to-image/
-aliases: [/net/convert-to-images/,/net/convert-excel-to-svg/,/net/convert-excel-to-bmp/,/net/convert-excel-to-tiff/,/net/converting-worksheet-to-different-image-formats/]
 ---
 
 

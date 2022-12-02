@@ -5,7 +5,6 @@ description: "Perform a large number of tasks with Excel files faster and more c
 type: docs
 weight: 40
 url: /net/why-not-npoi
-aliases: [/net/aspose-cells-net-for-npoi/]
 ---
 
 Sometimes we get the following question: why should we use Aspose products rather than the NPOI? This question is easy to answer: features and functionality.
@@ -63,3 +62,4 @@ Aspose components provide many powerful time-saving functions. For example, [Asp
 ## See Also
 
 * [More about Apache POI](https://poi.apache.org/)
+

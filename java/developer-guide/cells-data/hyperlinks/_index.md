@@ -4,7 +4,6 @@ linktitle: Managing Hyperlinks
 type: docs
 weight: 160
 url: /java/insert-hyperlinks-to-excel/
-aliases: [/java/working-with-hyperlinks-to-link-data/]
 ---
 
 ## **Adding Hyperlinks to Link Data**
@@ -75,4 +74,5 @@ It is possible to add hyperlinks to external Excel files by calling the [Hyperli
 - [Detect Hyperlink Type](/cells/java/detect-hyperlink-type/)
 - [Editing Hyperlinks of Worksheet](/cells/java/editing-hyperlinks-of-worksheet/)
 - [Get Hyperlinks in Range](/cells/java/get-hyperlinks-in-range/)
+
 

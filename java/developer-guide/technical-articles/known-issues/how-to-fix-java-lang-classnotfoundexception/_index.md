@@ -3,7 +3,6 @@ title: How to fix java.lang.ClassNotFoundException
 type: docs
 weight: 30
 url: /java/how-to-fix-java-lang-classnotfoundexception/ 
-aliases: [/java/java-lang-classnotfoundexception-org-bouncycastle-jce-provider-bouncycastleprovider/]
 ---
 
 Aspose.Cells for Java API depends on some additional libraries, if they are missing, an exception may be thrown as "java.lang.ClassNotFoundException".
@@ -42,3 +41,4 @@ Alternatively, you can add the dependency in the pom.xml and let the project res
 </dependencies>
 
 {{< /highlight >}}
+

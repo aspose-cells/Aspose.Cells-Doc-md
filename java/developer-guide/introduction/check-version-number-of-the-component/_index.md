@@ -3,7 +3,6 @@ title: Check Version Number of the Component
 type: docs
 weight: 70
 url: /java/check-version-number-of-the-component/
-aliases: [/java/check-version-number/]
 ---
 
 {{% alert color="primary" %}} 
@@ -29,3 +28,4 @@ You may also use the following APIs to get the version number of the product.
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-CheckVersionNumberOfComponent-CheckVersionNumberOfComponent.java" >}}
+

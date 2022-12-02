@@ -4,7 +4,6 @@ linktitle: Managing Icons
 type: docs
 weight: 15
 url: /java/insert-svg-to-excel/
-aliases: [/java/insert-svg-to-excel-in-aspose-java/,/java/add-icons-to-worksheet-in-aspose-cells/]
 ---
 
 ## Add Icons to Worksheet in Aspose.Cells

@@ -3,7 +3,6 @@ title: Copy Range Data with Style
 type: docs
 weight: 340
 url: /java/copy-range-data-with-style/
-aliases: [/java/cut-copy-paste/]
 ---
 
 {{% alert color="primary" %}} 
@@ -25,3 +24,4 @@ This example:
 1. Copies data with the formatting from the first range to the second range.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRangeDataWithStyle-CopyRangeDataWithStyle.java" >}}
+

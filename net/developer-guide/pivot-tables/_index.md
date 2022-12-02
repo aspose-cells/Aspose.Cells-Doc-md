@@ -4,7 +4,6 @@ linktitle: Pivot Tables
 type: docs
 weight: 160
 url: /net/create-pivot-table/
-aliases: [/net/pivot-tables/]
 description: Create and format pivot tables of Excel spreadsheet files.
 ---
 
@@ -56,4 +55,3 @@ When assigning a range of cells as the data source, the range must go from top l
 - [Save Pivot Table in ODS file](/cells/net/save-pivot-table-in-ods-file/)
 - [Show report filter pages option](/cells/net/show-report-filter-pages-option/)
 - [Working with data display formats of DataField in Pivot Table](/cells/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
-

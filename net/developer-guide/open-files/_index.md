@@ -4,7 +4,6 @@ linktitle: Open Files
 type: docs
 weight: 20
 url: /net/loading-saving-and-managing/
-aliases: [/net/loading-saving-converting-and-managing/]
 description: With Aspose.Cells, it is simple to create,open and manage Excel,CSV,TSV,ODS,HTML,Numbers,Json,XML,Pdf,Jpg,Tiff,Image,Mht and XPS files.
 ---
 
@@ -39,4 +38,3 @@ With Aspose.Cells, it is simple to open, save and mange Excel files.
 - [Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells](/cells/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Stop conversion or loading using InterruptMonitor when it is taking too long](/cells/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Using LightCells API](/cells/net/using-lightcells-api/)
-

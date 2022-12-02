@@ -3,7 +3,6 @@ title: Why Not Open XML SDK
 type: docs
 weight: 90
 url: /net/why-not-open-xml-sdk/
-aliases: [/net/aspose-cells-for-openxml/]
 ---
 
 {{% alert color="primary" %}}
@@ -79,5 +78,4 @@ However, if you need to perform complex operations on documents, such as some of
 - Generate a business document, such as an order with order details from a data source.
 - Convert a document to PDF or XPS so it appears exactly like Microsoft Excel would have converted it.
 - Develop a .NET or Java application.
-
 

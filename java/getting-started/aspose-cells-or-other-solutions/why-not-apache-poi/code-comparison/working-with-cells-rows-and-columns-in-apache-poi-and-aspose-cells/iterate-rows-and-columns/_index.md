@@ -3,8 +3,6 @@ title: Iterate Rows and Columns
 type: docs
 weight: 50
 url: /java/iterate-rows-and-columns/
-aliases:
-    - /java/iterate-rows-and-columns-html/
 ---
 
 ## **Aspose.Cells - Iterate Rows and Columns**
@@ -82,3 +80,4 @@ for (Row row : sheet)
 ## **Download Sample Code**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
+

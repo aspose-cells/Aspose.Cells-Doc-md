@@ -3,7 +3,6 @@ title: Consolidation Function
 type: docs
 weight: 20
 url: /java/consolidation-function/
-aliases: [/java/consolidation-function/]
 description: Apply ConsolidationFunction to data fields of the pivot table.
 ---
 
@@ -43,3 +42,4 @@ Sample source file and output files can be downloaded from here for testing the 
 DistinctCount consolidation function is supported by Microsoft Excel 2013 only.
 
 {{% /alert %}}
+

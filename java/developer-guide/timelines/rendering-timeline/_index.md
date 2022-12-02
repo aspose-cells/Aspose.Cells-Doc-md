@@ -3,7 +3,6 @@ title: Rendering Timeline
 type: docs
 weight: 40
 url: /java/rendering-timeline/
-aliases: [/java/timelines/,/java/rendering-timeline-to-png/]
 description: Manage timelines of Excel files with Aspose.Cells For java.
 keywords: Rendering timeline without office 2013, office 2016, office 2019 and office 365
 ---
@@ -17,3 +16,4 @@ The following sample code loads the [sample Excel file](input.xlsx) that conta
 ![todo:image_alt_text](out.png)
 ### **Sample Code**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-RenderingTimeline.java" >}}
+

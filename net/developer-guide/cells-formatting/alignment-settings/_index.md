@@ -3,7 +3,6 @@ title: Alignment Settings
 type: docs
 weight: 20
 url: /net/cells-alignment-settings/
-aliases: [/net/configuring-alignment-settings/]
 ---
 
 ## **Configuring Alignment Settings**
@@ -121,3 +120,4 @@ The reading order is set with the [**Style**](https://reference.aspose.com/cells
 ## **Advance topics**
 - [Change Cells Alignment and Keep Existing Formatting](/cells/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Line Breaks and Text Wrapping](/cells/net/line-breaks-and-text-wrapping/)
+

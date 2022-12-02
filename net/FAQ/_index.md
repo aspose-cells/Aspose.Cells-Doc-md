@@ -3,7 +3,6 @@ title: FAQ
 type: docs
 weight: 100
 url: /net/faq/
-aliases: [/net/aspose-cells-faqs/]
 ---
 
 ## **How to Fix the System.StackOverFlowException on Workbook.CalculateFormula?**
@@ -58,3 +57,4 @@ Users may trace the stack size by themselves using the APIs. Please note, checki
 There is no better way to get the stack size used at runtime. The above code we provided is just for example. The performance will be degraded significantly for sure. So, we think the code can be optimized by users (who really want to use it) according to their different scenarios and requirements. Such as, checking the stack when the recursive cells count reaches to certain number, gathering the average increase rate of stack for one recursive cell and determine the frequency to check the stack, etc.
 
 {{% /alert %}}
+
