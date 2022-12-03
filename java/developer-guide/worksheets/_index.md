@@ -1,6 +1,6 @@
 ---
 title: Manage Worksheets
-linktitle: Workshees
+linktitle: Worksheets
 type: docs
 weight: 60
 url: /java/manage-worksheets/
