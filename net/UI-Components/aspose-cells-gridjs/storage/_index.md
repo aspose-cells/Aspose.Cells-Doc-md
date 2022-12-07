@@ -35,7 +35,7 @@ In this action a save back to the cache file from memory will occur during the  
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-###    where is the cache directory
+###  where is the cache directory
 A. If we Implement GridCacheForStream and set GridJsWorkbook.CacheImp.
 for example in the below code we can just put and get the cache file from  **"D:\temp"**
 ```C#
@@ -77,7 +77,7 @@ B.If we do not set GridJsWorkbook.CacheImp,
 
 GridJs will create and do save file within the **Config.FileCacheDirectory** , which is the default cache directory which we can set.
 
-###    if you want to get the updated result file, how to?
+###  how to get the updated result file
 #### 1. a specified uid for file 
 Make sure a specified map correspondence  between the file and the uid, 
 
@@ -160,7 +160,7 @@ we need to do a merge operation before save action to sync those ui operation.
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3. get the updated file
+#### 3. get the file from cache
 for example :in the download action,you can just get it from the cache directory by uid.
 ```C#
 //in controller  
