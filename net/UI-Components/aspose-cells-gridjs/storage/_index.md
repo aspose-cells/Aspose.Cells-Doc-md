@@ -78,8 +78,12 @@ B.If we do not set GridJsWorkbook.CacheImp,
 GridJs will create and do save file within the **Config.FileCacheDirectory** , which is the default cache directory which we can set.
 
 ###    if you want to get the updated result file, how to?
-#### 1. Make sure a specified map correspondence  between the file and the uid,  you can always get the same uid for a specifed file name,not from random generation.
-For example just use the filename is ok
+#### 1. a specified uid for file 
+Make sure a specified map correspondence  between the file and the uid, 
+
+you can always get the same uid for a specifed file name,not from random generation.
+
+For example just use the filename is ok.
 ```C#
 //in controller  
 ...
@@ -106,7 +110,7 @@ For example just use the filename is ok
         }
 ```
 
-#### 2. sync with ui operation,
+#### 2. sync with ui operation
 Actually for some ui operation,
 
 for example:
@@ -156,7 +160,8 @@ we need to do a merge operation before save action to sync those ui operation.
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-#### 3. When user want to get the updated file, for example :in the download action,you can just get it from the cache directory by uid.
+#### 3. get the updated file
+for example :in the download action,you can just get it from the cache directory by uid.
 ```C#
 //in controller  
 
