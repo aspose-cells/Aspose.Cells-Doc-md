@@ -11,12 +11,18 @@ keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
 # Working With GridJs Storage
 ##  the general file process 
 After import a spread sheet file in memory and show the ui,
+
 GridJs will create a cache file with the specified uid ,
+
 with the format of [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+
 and then after every update operation in the ui,
+
 for example set cell value,set cell style,etc. ,
+
 GridJs  client side js will trigger  controller action to do a UpdateCell operation.
-in this action a save back to the cache file from memory will occur during the  UpdateCell method
+
+In this action a save back to the cache file from memory will occur during the  UpdateCell method.
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -29,8 +35,8 @@ in this action a save back to the cache file from memory will occur during the  
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-###  So where is the cache directory.
-A. If we Implement GridCacheForStream and set GridJsWorkbook.CacheImp
+###    where is the cache directory
+A. If we Implement GridCacheForStream and set GridJsWorkbook.CacheImp.
 for example in the below code we can just put and get the cache file from  **"D:\temp"**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
@@ -67,11 +73,12 @@ public class LocalFileCache  : GridCacheForStream
         }
 		...
 ```
-B.If we do not set GridJsWorkbook.CacheImp, GridJs will create and do save file within the **Config.FileCacheDirectory**
-which is the default cache directory which we can set.
+B.If we do not set GridJsWorkbook.CacheImp,
 
-###  So if you want to get the updated result file, how to?
-######1. Make sure a specified map correspondence  between the file and the uid,  you can always get the same uid for a specifed file name,not from random generation.
+GridJs will create and do save file within the **Config.FileCacheDirectory** , which is the default cache directory which we can set.
+
+###    if you want to get the updated result file, how to?
+#### 1. Make sure a specified map correspondence  between the file and the uid,  you can always get the same uid for a specifed file name,not from random generation.
 For example just use the filename is ok
 ```C#
 //in controller  
@@ -99,14 +106,21 @@ For example just use the filename is ok
         }
 ```
 
-######2. sync with ui operation,
+#### 2. sync with ui operation,
 Actually for some ui operation,
+
 for example:
+
 switch the acitve sheet to another,
+
 change the image postion,
+
 rotate/resize image,etc.
+
 the UpdateCell action will not triggered.
+
 Thus if we want to get the updated file just same as the ui shows,
+
 we need to do a merge operation before save action to sync those ui operation.
 ```javascript
 //in the js
@@ -142,7 +156,7 @@ we need to do a merge operation before save action to sync those ui operation.
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-######3. When user want to get the updated file, for example :in the download action,you can just get it from the cache directory by uid.
+#### 3. When user want to get the updated file, for example :in the download action,you can just get it from the cache directory by uid.
 ```C#
 //in controller  
 
