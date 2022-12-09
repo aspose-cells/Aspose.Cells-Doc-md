@@ -8,6 +8,10 @@ url: /net/what-s-new-in-aspose-cells-for-net/
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 22.12
+
+* Support to export excel to JSON with multi-layered hierarchy structure
+
 ## Aspose.Cells for .NET 22.11
 
 * Support to distinguish between dynamic array formula and legacy array formula
