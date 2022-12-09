@@ -46,7 +46,7 @@ You can also install Aspose.Cells from the Nuget package manager in VS2022.
 In this way, you will use "System.Drawing.Common" as a dependency on your windows system for .Net6 project. In this configuration, the result of the drawing is closer to .netcore31 or before.
 
 4. locate the "net6.0" subdirectory, add the Aspose.Cells.dll in it to your .net6 application. Manually add the following nuget packages to your .net6 project:
-- SkiaSharp, 2.88.0.
+- SkiaSharp, 2.88.3.
 - System.Security.Cryptography.Pkcs, 6.0.1.
 - System.Text.Encoding.CodePages, 4.7.0.
 
@@ -67,13 +67,13 @@ OR
 apk update && apk add fontconfig 
 ```
 
-2. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.0" to your .net6 project.
+2. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.3" to your .net6 project.
 
-3. Or you can choose to add nuget packages "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.0" to your .net6 project, instead of the two steps above.
+3. Or you can choose to add nuget packages "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.3" to your .net6 project, instead of the two steps above.
 
 ### Example Dockerfile for Ubuntu
 
-1. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.0" to your .net6 project.
+1. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.3" to your .net6 project.
 
 2. Use the following Dockerfile:
 {{< highlight plain >}}
@@ -109,7 +109,7 @@ ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 
 ### Example Dockerfile for Alpine
 
-1. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.0" to your .net6 project.
+1. Add the nuget packages "SkiaSharp.NativeAssets.Linux 2.88.3" to your .net6 project.
 
 2. Use the following Dockerfile:
 {{< highlight plain >}}

@@ -62,6 +62,30 @@ Gets the local name of the value area field header in the PivotTable.
 
 Use Chart.PlotVisibleCellsOnly property instead.
 
+### **Adds JsonSaveOptions.ExportEmptyCells property.**
+
+Indicates whether exporting empty cells as null.
+
+### **Adds JsonSaveOptions.ExportHyperlinkType property.**
+
+Represents the type of exporting hyperlink to json.
+
+### **Adds JsonSaveOptions.ExportNestedStructure property.**
+
+Exported as parent-child hierarchy Json structure.
+
+### **Adds JsonSaveOptions.SkipEmptyRows property.**
+
+Indicates whether skipping emtpy rows.
+
+### **Deletes obsoleted SheetRender.GetPageSize(System.Int32) method**
+
+Use SheetRender.GetPageSizeInch(System.Int32) instead.
+
+### **Deletes obsoleted WorkbookRender.GetPageSize(System.Int32) method**
+
+Use WorkbookRender.GetPageSizeInch(System.Int32) instead.
+
 ### **Deletes obsoleted AutoShapeType.TextWave3 and AutoShapeType.TextWave4 enum**
 
 Use UseAutoShape.TextDoubleWave1 and UseAutoShape.TextDoubleWave2 instead.
