@@ -169,7 +169,7 @@ Aspose.Cells for .NET 8.8.3 has exposed the HTMLLoadOptions.SupportDivTag proper
 
 {{% alert color="primary" %}} 
 
-For more details on this feature, please review the detailed article on [Support Inner DIV Tags while Loading HTML](/cells/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
+For more details on this feature, please review the detailed article on [Support Inner DIV Tags while Loading HTML](/cells/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 

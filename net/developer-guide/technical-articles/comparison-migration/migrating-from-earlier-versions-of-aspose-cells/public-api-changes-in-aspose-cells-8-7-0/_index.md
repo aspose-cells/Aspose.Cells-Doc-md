@@ -102,7 +102,7 @@ var cert = vbaProject.CertRawData;
 
 
 ###### **Validate the Digital Signature of VBA Project**
-Another addition to the public API is the VbaProject.IsValidSigned property which could be useful in [validating the digital signature of the VBA project](/cells/net/check-if-digital-signature-of-vba-code-is-valid/ The said property returns true if the digital signature is valid and false if the signature is invalid.
+Another addition to the public API is the VbaProject.IsValidSigned property which could be useful in [validating the digital signature of the VBA project](/cells/net/check-if-digital-signature-of-vba-code-is-valid/). The said property returns true if the digital signature is valid and false if the signature is invalid.
 
 Following is the simple usage scenario.
 

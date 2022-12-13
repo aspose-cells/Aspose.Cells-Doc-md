@@ -54,7 +54,7 @@ Set the DefaultFont property to MingLiu or MS Gothic to show Unicode characters.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-For more details on this feature, please review the article on [Setting Default Font for Rendering Spreadsheets in Image Formats](/cells/net/set-default-font-while-rendering-spreadsheet-to-images/
+For more details on this feature, please review the article on [Setting Default Font for Rendering Spreadsheets in Image Formats](/cells/net/set-default-font-while-rendering-spreadsheet-to-images/).
 
 {{% /alert %}} 
 

@@ -255,7 +255,7 @@ The following example shows how to add an arrowhead to a line. The following out
 
 Aspose.Cells allows you to draw rectangle shapes in your worksheets. You may create a rectangle, square etc. You are also allowed to format the filling color and border line color of the control. For example, you can change the color of the rectangle, set the shading color, specify the weight and style of the rectangle for your need.
 
-### **Using Microsoft Excel***
+### **Using Microsoft Excel**
 
 1. On the **Drawing** toolbar, click **Rectangle**.
 1. Drag to draw the rectangle.

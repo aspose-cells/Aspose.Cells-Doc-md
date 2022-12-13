@@ -53,7 +53,7 @@ Use HtmlLoadOptions class, instead.
 Use OdsLoadOptions class, instead.
 #### **Obsoletes JSONUtility class and adds JsonUtility class**
 Use JsonUtility class, instead.
-#### **Update namespace Aspose.Cells.ODS as Aspose.Cells.Ods and update ODS* classes/enums/properties as Ods***
+#### **Update namespace Aspose.Cells.ODS as Aspose.Cells.Ods and update ODS* classes/enums/properties as Ods**
 Use updated classes/enums/properties, instead.
 #### **Adds interface IPageSavingCallback**
 Control/Indicate progress of page saving process.
