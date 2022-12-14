@@ -1,0 +1,94 @@
+﻿---
+title: Aspose.Cells for .NET 7.1.1 Sürüm Notları
+type: docs
+weight: 100
+url: /tr/net/aspose-cells-for-net-7-1-1-release-notes/
+---
+{{% alert color="primary" %}} 
+
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for .NET 7.1.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.1.1/)
+
+{{% /alert %}} 
+
+ Aspose.Cells for .NET v7.1.1'i duyurmaktan mutluluk duyuyoruz!
+
+\1) Aspose.Cells 
+
+ Yeni özellikler
+
+- Emsallerin ve Bağımlıların İzlenmesi
+
+ Geliştirmeler
+
+- Çalışma kitabını XLSX'te kaydetme hatası veriyor
+- Otomatik SığdırSütun seçenekleri
+- .NET sürümünde GetDependents() yöntemi var mı?
+
+ -HTML Tablosunda TH öğelerini destekleyin
+
+- Excel'den PDF'e (Arapça) - Dönüştürmede yanlış kelime/tarih biçimlendirmesi
+- Antivirüs yazılımı Excel dosyalarını e-postalardan çıkarır
+
+ İstisnalar
+
+- Şunu içeren bir çalışma sayfasına sahip bir dosyayı açarken hata oluştu: “!” karakter
+- Geçerli Excel dosyasının yüklenmesiyle ilgili istisnalar - her seferinde
+- Otomatik Filtreleme aralığı geçerli değil
+- Harici başvurulara sahip çalışma kitapları için Combine() ve Save() yöntemleri kullanıldıktan sonra özel durum
+
+ Hatalar
+
+- v4.8.1 sürümünden itibaren Koşullu Biçimlendirme sorunu
+
+ -Düğme özellikleri
+
+- Cells, Fit ve İnç ile PDF'ye dönüştürüldüğünde yanlış
+- PDF çıktısında em tire karakterlerini oluşturma sorunu
+- Birleştirilmiş çalışma kitabında Sayfa Düzeni değişti
+- XLSX olarak kaydet bazen geçersiz bir dosya üretir
+
+ -XLS dosyası, Aspose.Cells kullanıldıktan sonra Korumalı modda açılır
+
+- Cell.GetDependents(), NamedRange ile çalışmıyor
+- AutoFitRow ve IndentLevel sorunu
+- Birleştirme işlemi kullanılırken adlandırılmış aralıkta sorun
+- Hayır olduğunda TickLabels görünmez. Ticklabels'ın sayısı daha büyük
+- MS Excel grafiklerini PDF'ye çevirme sorunları, Y Ekseni eksik
+- Grafiklerdeki Çizgi genişliği ve boş metin alanlarındaki sorunlar
+- ADDRESS, COUNTBLANK ve IF İşlevlerinde Sorun
+- DÜŞEYARA VE KAYDIRMA İŞLEVLERİ Sorunları
+- MS Excel Formül Doğrulaması Yok
+- XLS çıktısında TAMİŞGÜNÜ işleviyle ilgili sorunlar
+- HTML'den Excel'e Dönüştürme Sorunları
+
+ ` `- HTML'nin satır aralığı ve sınıf özellikleri sorunları
+
+ -Cells datauri'yi destekliyor mu?
+
+- PDF'ye dönüştürülürken kaybolan özel biçimlendirilmiş kenarlıklar
+- PDF Dışa Aktarmada Kılavuz Çizgiler
+
+ -Excel Okunamayan İçerik Bulundu hatası
+
+- Özel pivot stilini şablon dosyasından çıkarın
+- MS Excel'de bulunan sorun: "Excel Okunamayan İçerik Bulundu..."
+- SheetRender API kullanılırken görüntüdeki sütun hizalaması
+- Excel oluşturma sorunu
+
+\2)
+ Aspose.Cells.GridWeb
+
+ Hatalar
+
+- GridWeb için Metin Kaydırma Sorunu
+
+ GridWeb.SaveToExcelFile yeni eklenen verileri içermez
+
+- Metin dikey hizalama ayarı çalışmıyor
+
+\3)
+ Aspose.Cells.GridDesktop
+
+ Hatalar
+
+- Dize geçerli bir Boole değeri olarak tanınmadı

@@ -1,0 +1,322 @@
+﻿---
+title: Общедоступный API Изменения в Aspose.Cells 8.3.1
+type: docs
+weight: 110
+url: /ru/net/public-api-changes-in-aspose-cells-8-3-1/
+---
+{{% alert color="primary" %}} 
+
+В этом документе описаны изменения в Aspose.Cells API с версии 8.3.0 до 8.3.1, которые могут представлять интерес для разработчиков модулей/приложений.
+
+{{% /alert %}} 
+## **Добавлены API**
+### **Добавлено свойство DataLabels.ShowCellRange.**
+ Свойство ShowCellRange было добавлено в класс DataLabels, чтобы имитировать функциональность Excel по форматированию меток данных диаграммы во время выполнения. Обратите внимание, что Excel предоставляет эту функцию с помощью следующих шагов.
+
+1. Выберите Метки данных серии и щелкните правой кнопкой мыши, чтобы открыть всплывающее меню.
+1.  Нажмите на**Форматировать метки данных...** и это покажет**Параметры метки**.
+1.  Установите или снимите флажок**Этикетка содержит — значение от Cells**.
+
+ Приведенный ниже пример кода обращается к меткам данных серии диаграмм, а затем задает для метода DataLabels.ShowCellRange значение true, чтобы имитировать функцию Excel**Этикетка содержит — значение от Cells**.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Create workbook from the source Excel file
+
+Workbook workbook = new Workbook("sample.xlsx");
+
+//Access the first worksheet
+
+Worksheet worksheet = workbook.Worksheets[0];
+
+//Access the chart inside the worksheet
+
+Chart chart = worksheet.Charts[0];
+
+//Check the "Label Contains - Value From Cells"
+
+DataLabels dataLabels = chart.NSeries[0].DataLabels;
+
+dataLabels.ShowCellRange = true;
+
+//Save the workbook
+
+workbook.Save("output.xlsx");
+
+{{< /highlight >}}
+
+**VB.NET**
+
+{{< highlight "csharp" >}}
+
+
+
+'Create workbook from the source Excel file
+
+Dim m_workbook As Workbook = New Workbook("sample.xlsx")
+
+'Access the first worksheet
+
+Dim m_worksheet As Worksheet = m_workbook.Worksheets(0)
+
+'Access the chart inside the worksheet
+
+Dim m_chart As Chart = m_worksheet.Charts(0)
+
+'Check the "Label Contains - Value From Cells"
+
+Dim m_dataLabels As DataLabels = m_chart.NSeries(0).DataLabels
+
+m_dataLabels.ShowCellRange = True
+
+'Save the workbook
+
+m_workbook.Save("output.xlsx")
+
+
+{{< /highlight >}}
+
+{{% alert color="primary" %}} 
+
+ Пожалуйста, проверьте статью[Отображение диапазона Cell в виде меток данных](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) Чтобы получить больше информации.
+
+{{% /alert %}} 
+
+### **Методы Cell.GetTable и ListObject.PutCellValue добавлены**
+Методы Cell.GetTable и ListObject.PutCellValue были добавлены с Aspose.Cells for .NET 8.3.1, чтобы облегчить пользователям доступ к ListObject из ячейки и добавление значений внутри него, используя смещения строк и столбцов. Следующий пример кода загружает исходную электронную таблицу и добавляет значения в таблицу.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Create workbook from source Excel file
+
+Workbook workbook = new Workbook("source.xlsx");
+
+//Access first worksheet
+
+Worksheet worksheet = workbook.Worksheets[0];
+
+//Access cell D5 which lies inside the table
+
+Cell cell = worksheet.Cells["D5"];
+
+//Put value inside the cell D5
+
+cell.PutValue("D5 Data");
+
+//Access the Table from this cell
+
+ListObject table = cell.GetTable();
+
+//Add some value using Row and Column Offset
+
+table.PutCellValue(2, 2, "Offset [2,2]");
+
+//Save the workbook
+
+workbook.Save("output.xlsx");
+
+
+{{< /highlight >}}
+
+**VB.NET**
+
+{{< highlight "csharp" >}}
+
+ 'Create workbook from source Excel file
+
+Dim m_workbook As Workbook = New Workbook("source.xlsx")
+
+'Access first worksheet
+
+Dim m_worksheet As Worksheet = m_workbook.Worksheets(0)
+
+'Access cell D5 which lies inside the table
+
+Dim m_cell As Cell = m_worksheet.Cells("D5")
+
+'Put value inside the cell D5
+
+m_cell.PutValue("D5 Data")
+
+'Access the Table from this cell
+
+Dim table As ListObject = m_cell.GetTable()
+
+'Add some value using Row and Column Offset
+
+table.PutCellValue(2, 2, "Offset [2,2]")
+
+'Save the workbook
+
+m_workbook.Save("output.xlsx")
+
+
+{{< /highlight >}}
+
+{{% alert color="primary" %}} 
+
+ Пожалуйста, проверьте статью[Доступ к таблице из Cell и добавление значений внутри нее с использованием смещений строк и столбцов](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) Чтобы получить больше информации.
+
+{{% /alert %}} 
+
+### **Добавлено свойство OdsSaveOptions.IsStrictSchema11.**
+Свойство IsStrictSchema11 было добавлено в класс OdsSaveOptions, чтобы позволить разработчикам сохранять электронную таблицу в формате, соответствующем спецификации ODF v1.2. Значение по умолчанию свойства IsStrictSchema11 равно false, что означает, что начиная с версии 8.3.1 API Aspose.Cells файлы ODS будут по умолчанию сохраняться в формате ODF версии 1.2.
+
+Приведенный ниже фрагмент кода сохраняет файл ODS в формате ODF 1.2.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Create workbook
+
+Workbook workbook = new Workbook();
+
+//Access first worksheet
+
+Worksheet worksheet = workbook.Worksheets[0];
+
+//Put some value in cell A1
+
+Cell cell = worksheet.Cells["A1"];
+
+cell.PutValue("Welcome to Aspose!");
+
+//Save ODS in ODF 1.2 version which is default
+
+OdsSaveOptions options = new OdsSaveOptions();
+
+workbook.Save("ODF1.2.ods", options);
+
+//Save ODS in ODF 1.1 version
+
+options.IsStrictSchema11 = true;
+
+workbook.Save("ODF1.1.ods", options);
+
+
+{{< /highlight >}}
+
+**VB.NET**
+
+{{< highlight "csharp" >}}
+
+ 'Create workbook 
+
+Dim m_workbook As Workbook = New Workbook()
+
+'Access first worksheet
+
+Dim m_worksheet As Worksheet = m_workbook.Worksheets(0)
+
+'Put some value in cell A1
+
+Dim m_cell As Cell = m_worksheet.Cells("A1")
+
+m_cell.PutValue("Welcome to Aspose!")
+
+'Save ODS in ODF 1.2 version which is default
+
+Dim options As OdsSaveOptions = New OdsSaveOptions()
+
+m_workbook.Save("ODF1.2.ods", options)
+
+'Save ODS in ODF 1.1 version
+
+options.IsStrictSchema11 = True
+
+m_workbook.Save("ODF1.1.ods", options)
+
+{{< /highlight >}}
+
+{{% alert color="primary" %}} 
+
+ Пожалуйста, проверьте статью[Сохраните файл ODS в спецификациях ODF 1.1 и 1.2.](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) Чтобы получить больше информации.
+
+{{% /alert %}} 
+
+### **Добавлен метод SparklineCollection.Add**
+ Aspose.Cells API-интерфейсы предоставили метод SparklineCollection.Add(string dataRange, int row, int column) для указания диапазона данных и расположения группы Sparkline. Обратите внимание, что Excel предоставляет ту же функцию, выполнив следующие действия.
+
+1. Выберите ячейку, содержащую вашу спарклайн.
+1.  Выбирать**Редактировать данные из спарклайна** раздел внутри**Дизайн** вкладка
+1.  Выбирать**Изменить местоположение и данные группы**.
+1. Указать**Диапазон данных** & **Расположение**.
+
+ Следующий пример кода загружает исходную электронную таблицу, обращается к первой группе спарклайнов и добавляет новые диапазоны данных и местоположения для группы спарклайнов.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Create workbook from source Excel file
+
+Workbook workbook = new Workbook("source.xlsx");
+
+//Access first worksheet
+
+Worksheet worksheet = workbook.Worksheets[0];
+
+//Access the first sparkline group
+
+SparklineGroup group = worksheet.SparklineGroupCollection[0];
+
+//Add Data Ranges and Locations inside this sparkline group
+
+group.SparklineCollection.Add("D5:O5", 4, 15);
+
+group.SparklineCollection.Add("D6:O6", 5, 15);
+
+group.SparklineCollection.Add("D7:O7", 6, 15);
+
+group.SparklineCollection.Add("D8:O8", 7, 15);
+
+//Save the workbook
+
+workbook.Save("output.xlsx");
+
+
+{{< /highlight >}}
+
+**VB.NET**
+
+{{< highlight "csharp" >}}
+
+ 'Create workbook from source Excel file
+
+Dim m_workbook As Workbook = New Workbook("source.xlsx")
+
+'Access first worksheet
+
+Dim m_worksheet As Worksheet = m_workbook.Worksheets(0)
+
+'Access the first sparkline group
+
+Dim group As SparklineGroup = m_worksheet.SparklineGroupCollection(0)
+
+'Add Data Ranges and Locations inside this sparkline group
+
+group.SparklineCollection.Add("D5:O5", 4, 15)
+
+group.SparklineCollection.Add("D6:O6", 5, 15)
+
+group.SparklineCollection.Add("D7:O7", 6, 15)
+
+group.SparklineCollection.Add("D8:O8", 7, 15)
+
+'Save the workbook
+
+m_workbook.Save("output.xlsx")
+
+
+{{< /highlight >}}
+
+{{% alert color="primary" %}} 
+
+ Пожалуйста, проверьте статью[Скопируйте спарклайн, указав диапазон данных и расположение группы спарклайнов](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) Чтобы получить больше информации.
+
+{{% /alert %}}

@@ -1,0 +1,14 @@
+﻿---
+title: Информация о товаре
+type: docs
+weight: 10
+url: /ru/sharepoint/product-information/
+---
+###### **Этот раздел включает следующие темы:**
+- [Обзор продукта](/cells/ru/sharepoint/product-overview/)
+- [Поддерживаемые форматы файлов](/cells/ru/sharepoint/supported-file-formats/)
+- [Функции](/cells/ru/sharepoint/features/)
+- [Системные Требования](/cells/ru/sharepoint/system-requirements/)
+- [Установите Aspose.Cells для SharePoint](/cells/ru/sharepoint/install-aspose-cells-for-sharepoint/)
+- [Оценить Aspose.Cells](/cells/ru/sharepoint/evaluate-aspose-cells/)
+- [Лицензия Aspose.Cells для SharePoint](/cells/ru/sharepoint/license-aspose-cells-for-sharepoint/)

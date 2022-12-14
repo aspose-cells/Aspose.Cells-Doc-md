@@ -1,0 +1,154 @@
+﻿---
+title: Aspose.Cells 中的追溯先例和家属
+type: docs
+weight: 130
+url: /zh/net/tracing-precedents-and-dependents-in-aspose-cells/
+---
+{{% alert color="primary" %}} 
+
+复杂的财务工作表，尤其是合作开发的财务工作表，可能会隐藏最令人尴尬的错误。当公式使用引用单元格和依赖单元格时，检查公式的准确性和查找错误来源可能很困难。
+
+- **判例单元格**是由另一个 Cell 中的公式引用的单元格。例如，如果单元格 D10 包含公式 =B5，则单元格 B5 是单元格 D10 的先例。
+- **依赖细胞**包含引用其他单元格的公式。例如，如果单元格 D10 包含公式 =B5，则单元格 D10 是单元格 B5 的从属单元格。
+
+为了使电子表格易于阅读，您可能希望清楚地显示电子表格中的哪些单元格用于公式。同样，您可能想要提取其他单元格的依赖单元格。
+
+Aspose.Cells 允许您跟踪单元格并找出链接的单元格。
+
+{{% /alert %}} 
+## **追踪先例和从属 Cells: Microsoft Excel**
+配方可能会根据客户所做的修改而改变。例如，如果单元格 C1 依赖于包含公式的 C3 和 C4，并且更改了 C1（因此公式被覆盖），则需要更改 C3 和 C4 或其他单元格以根据业务规则平衡电子表格。
+
+同样，假设 C1 包含公式“=(B1*22)/(平方米*N32)”。我想找到 C1 所依赖的单元格，即前面的单元格 B1、M2 和 N32。
+
+您可能需要跟踪特定单元格对其他单元格的依赖性。如果业务规则嵌入到公式中，我们想找出依赖关系并根据它执行一些规则。同样，如果修改了特定单元格的值，工作表中的哪些单元格会受到该更改的影响？
+
+Microsoft Excel 允许用户追踪先例和相关信息。
+
+1. 在**查看工具栏**， 选择**配方审核**.
+显示公式审核对话框。
+   **公式审核对话框** 
+
+![待办事项：图片_替代_文本](tracing-precedents-and-dependents-in-aspose-cells_1.png)
+
+1. 追溯先例：
+ 1. 选择包含要为其查找引用单元格的公式的单元格。
+ 1. 要向直接向活动单元格提供数据的每个单元格显示示踪箭头，请单击**追溯先例**在**配方审核**工具栏。
+1. 引用特定单元格（依赖项）的跟踪公式
+1. 选择要为其标识依赖单元格的单元格。
+1. 要向依赖于活动单元格的每个单元格显示示踪箭头，请单击公式审核工具栏上的跟踪依赖项。
+## **追溯先例和从属 Cells: Aspose.Cells**
+### **追溯先例**
+Aspose.Cells 可以轻松获得先例单元格。它不仅可以检索为简单公式引用提供数据的单元格，还可以找到为具有命名范围的复杂公式引用提供数据的单元格。
+
+在下面的示例中，使用了模板 excel 文件 Book1.xls。电子表格在第一个工作表上有数据和公式。
+
+**输入电子表格** 
+
+![待办事项：图片_替代_文本](tracing-precedents-and-dependents-in-aspose-cells_2.png)
+
+Aspose.Cells 提供了 Cell 类的 GetPrecedents 方法，用于跟踪单元格的先例。它返回一个 ReferredAreaCollection。正如您在上面看到的，在 Book1.xls 中，单元格 B7 包含一个公式“=SUM(A1:A3)”。因此，单元格 A1:A3 是单元格 B7 的先行单元格。以下示例使用模板文件 Book1.xls 演示了跟踪先例功能。
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Instantiating a Workbook object
+
+Workbook workbook = new Workbook("book1.xls");
+
+Cells cells = workbook.Worksheets[0].Cells;
+
+Aspose.Cells.Cell cell = cells["B7"];
+
+//Tracing precedents of the cell B7.
+
+//The return array contains ranges and cells.
+
+ReferredAreaCollection ret = cell.GetPrecedents();
+
+//Printing all the precedent cells' name.
+
+if(ret != null)
+
+{
+
+  for(int m = 0 ; m < ret.Count; m++)
+
+  {
+
+    ReferredArea area = ret[m];
+
+    StringBuilder stringBuilder = new StringBuilder();
+
+    if (area.IsExternalLink)
+
+    {
+
+        stringBuilder.Append("[");
+
+        stringBuilder.Append(area.ExternalFileName);
+
+        stringBuilder.Append("]");
+
+     }
+
+     stringBuilder.Append(area.SheetName);
+
+     stringBuilder.Append("!");
+
+     stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+
+     if (area.IsArea)
+
+      {
+
+          stringBuilder.Append(":");
+
+          stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+
+      }
+
+
+      Console.WriteLine(stringBuilder.ToString());
+
+   }
+
+}
+
+
+
+{{< /highlight >}}
+### **追踪家属**
+Aspose.Cells 可让您获取电子表格中的相关单元格。 Aspose.Cells 不仅可以检索提供有关简单公式的数据的单元格，还可以找到为具有命名范围的复杂公式依赖项提供数据的单元格。
+
+Aspose.Cells 提供了 Cell 类的 GetDependents 方法，用于跟踪单元格的依赖项。例如，Book1.xlsx中B2和C2单元格分别有公式：“=A1+20”和“=A1+30”。以下示例演示如何使用模板文件 Book1.xlsx 跟踪 A1 单元格的依赖项。
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ string path = "Book1.xlsx";
+
+Workbook workbook = new Workbook(path);
+
+Worksheet worksheet = workbook.Worksheets[0];
+
+var c = worksheet.Cells["A1"];
+
+var dependents = c.GetDependents(true);
+
+foreach (var dependent in dependents)
+
+{
+
+     Debug.WriteLine(string.Format("{0} ---- {1} : {2}", dependent.Worksheet.Name, dependent.Name, dependent.Value));
+
+}
+
+{{< /highlight >}}
+## **下载运行代码**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Tracing%20Precedents%20and%20Dependents)
+## **下载示例代码**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+

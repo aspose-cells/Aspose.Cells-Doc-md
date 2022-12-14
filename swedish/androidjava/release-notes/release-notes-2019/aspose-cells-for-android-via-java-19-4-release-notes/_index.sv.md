@@ -1,0 +1,69 @@
+﻿---
+title: Aspose.Cells för Android via Java 19.4 Release Notes
+type: docs
+weight: 40
+url: /sv/java/aspose-cells-for-android-via-java-19-4-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.4.
+
+{{% /alert %}} 
+
+|**Nyckel**|**Sammanfattning**|**Kategori**|
+|:- |:- |:- |
+|CELLSJAVA-42838|Inaktiverar egenskapen för automatisk visa aktivitetsfönstret.|Ny funktion|
+|CELLSJAVA-42853|Prestandaproblem vid konvertering av XLSX till HTML|Förbättring|
+|CELLSANDROID-88|Bild förlorad under konvertering av arbetsbok till PDF|Insekt|
+|CELLSJAVA-42852|Etiketten på båda axlarna visas inte|Insekt|
+|CELLSJAVA-42856|Excel till HTML problem|Insekt|
+|CELLSJAVA-42872|Bild på arket, den högra och nedersta raden saknas|Insekt|
+|CELLSJAVA-42873|Det förkonditionerade arket har flera cellbakgrunder och text saknas och är dold.|Insekt|
+|CELLSJAVA-42874|Kolumnförlust vid export av en fil till HTML|Insekt|
+|CELLSJAVA-42875|Bredden är fel och displayen är ur form|Insekt|
+|CELLSJAVA-42878|Resultatet av att beräkna formler är inte korrekt|Insekt|
+|CELLSJAVA-40419|Det går inte att skapa taggade PDF-filer vid export från Excel till PDF|Insekt|
+|CELLSJAVA-40570|Fel konvertering till PDF och JPG för sidor av olika storlekar|Insekt|
+|CELLSJAVA-42833|Problem när du bäddar in samma PDF-fil i flera ark i en arbetsbok|Insekt|
+|CELLSJAVA-42858|Problem när du lägger till en bild i sammanslagna celler med smarta markörer med alternativet Picture:FitToCell|Insekt|
+|CELLSJAVA-42862|Arknamnet byts om i formler efter CSV-import|Insekt|
+|CELLSJAVA-42865|Fel tid läst från en cell i ODS-fil|Insekt|
+|CELLSJAVA-42879|Excel-filen blir skadad efter att ha sparats med Aspose.Cells|Insekt|
+|CELLSJAVA-42860|java.lang.NullPointerException när ett ODS-filformat laddas|Undantag|
+|CELLSJAVA-42871|java.lang.Undantag: Ostödd klon för säkerhetskopierad ström vid konvertering av XLSX till PDF|Undantag|
+## **Public API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Lägger till API:er för att spara Markdown-dokument: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
+Stöder för att spara cellinnehåll som markdown-tabell. Med metoden Workbook.Save() kommer allt cellinnehåll i det aktiva bladet att exporteras som en tabell i markdown-dokument.
+### **Tar bort föråldrade egenskaper för TxtLoadOptions**
+Använd egenskapen LoadStyleStrategy istället för KeepExactFormat.
+### **Tar bort föråldrad klass LoadDataOption**
+Vänligen använd LoadFilter-klassen och LoadOptions.LoadFilter-egenskapen istället.
+### **Tar bort föråldrade egenskaper för LoadOptions**
+LoadOptions.ConvertNumericData: använd den här egenskapen med motsvarande underklass av LoadOptions, såsom TxtLoadOptions.
+LoadOptions.LoadDataOptions: använd LoadOptions.LoadFilter-egenskapen med anpassad implementering av LoadFilter.
+LoadOptions.LoadDataFilterOptions: använd LoadOptions.LoadFilter.LoadDataFilterOptions istället.
+LoadOptions.OnlyLoadDocumentProperties: använd LoadOptions.LoadFilter.LoadDataFilterOptions=LoadDataFilterOptions.DocumentProperties.
+LoadOptions.LoadDataAndFormatting/LoadDataOnly: använd LoadOptions.LoadFilter.LoadDataFilterOptions=LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames.
+### **Lägger till egenskapen PdfSaveOptions.ExportDocumentStructure**
+Hämtar eller ställer in ett värde som avgör om dokumentstrukturen ska exporteras eller inte.
+### **Lägger till klasser av Aspose.Cells.WebExtensions namnutrymme**
+Representerar WebExtensions och WebExtension Tasks
+### **Lägger till egenskaperna WorksheetCollection.WebExtensions och WorksheetCollection.WebExtensionTaskPanes.**
+Representerar alla WebExtensions och WebExtensionTasks.
+### **Lägger till klassen WebExtensionShape**
+Representerar formen på WebExtension.
+### **Lägger till metoden Cells.InsertCutCells().**
+Infogar skurna celler.
+### **Lägger till metoden Cells.SetViewColumnWidthPixel.**
+Ställer in vybredden för kolumnen.
+### **Lägger till klasserna ThreadedCommentCollection och ThreadedComment.**
+Representerar den trådade kommentaren.
+### **Lägger till egenskapen WorksheetCollection.ThreadedCommentAuthors.**
+Får och ställer in författarna till trådade kommentarer.
+### **Lägger till egenskapen Comment.ThreadedComments.**
+Representerar de trådade kommentarerna till kommentaren.
+### **Lägg till metoderna CommentCollection.AddThreadedComment() och CommentCollection.GetThreadedComments().**
+Lägger till och får de trådade kommentarerna.
+### **Lägg till egenskapen Chart.SubTitle.**
+Hämtar diagrammets underrubrik. Endast för fil i ODS-format.

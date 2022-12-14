@@ -1,0 +1,44 @@
+﻿---
+title: Aspose.Cells for Java 20.5 Versionshinweise
+type: docs
+weight: 20
+url: /de/java/aspose-cells-for-java-20-5-release-notes/
+---
+{{% alert color="primary" %}}
+
+ Diese Seite enthält Versionshinweise für[Aspose.Cells for Java 20.5](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.5/).
+
+{{% /alert %}}
+
+|**Taste**|**Zusammenfassung**|**Kategorie**|
+|:- |:- |:- |
+|CELLSJAVA-43173|Wenn das Gruppenfeld einen Nullwert hat, verliert das Ergebnis von subtotalN die Zwischensumme für die Nullgruppe|Erweiterung|
+|CELLSJAVA-43162|Excel-zu-HTML-Rendering - der Konvertierungsprozess dauert lange|Insekt|
+|CELLSJAVA-43164|HTML-zu-Excel-Konvertierung behält die Rich-Text-Formate in der Ausgabe nicht bei|Insekt|
+|CELLSJAVA-43166|Gedrehter Text wird bei der XLSX-zu-HTML-Konvertierung nicht korrekt wiedergegeben|Insekt|
+|CELLSJAVA-43178|RichText-Formatierungen gehen beim Exportieren der Datei in HTML verloren|Insekt|
+|CELLSJAVA-43165|Zeichenfolge „20TT1“ wird während der Konvertierung von CSV in XLSB durch die Nummer 43850 ersetzt|Insekt|
+|CELLSJAVA-43026|Nach dem Rendern des Diagramms in ein Bild ändern sich die Datenbeschriftungen und die Werte sind nicht gleich|Insekt|
+|CELLSJAVA-43154|Einige Diagrammpunkte überschneiden sich je nach Label|Insekt|
+|CELLSJAVA-43089|Das Netzdiagramm ist gespiegelt und die Achsenwerte sind bei der XLS-in-PDF-Konvertierung nicht mit dem ursprünglichen Diagramm identisch|Insekt|
+|CELLSJAVA-43171|Das Dokument ist nach dem Kopieren der Blätter beschädigt|Insekt|
+|CELLSJAVA-43172|Ein Problem mit intelligenten Markierungen in verbundenen Zellen|Insekt|
+|CELLSJAVA-43183|Ausnahme "ClassCastException: ...." beim Berechnen von PivotTable|Ausnahme|
+|CELLSJAVA-43177|Neue Arbeitsmappe mit CSV-Datei führt zu „java.lang.IndexOutOfBoundsException: millisecond“|Ausnahme|
+|CELLSJAVA-43168|Ausnahme "IllegalStateException: Dies ist keine strukturierte Speicherdatei" beim Zusammenführen von Excel-Dateien|Ausnahme|
+|CELLSJAVA-43179|Ausnahme NumberFormatException: Für Eingabestring: "preserve"|Ausnahme|
+|CELLSJAVA-43182|Ausnahme „lang.IllegalStateException: Ungültige Kodierung: null“ beim Laden der XLS-Datei|Ausnahme|
+## **Öffentliche API und rückwärts inkompatible Änderungen**
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.
+### **Fügt die Methode WorkbookSettings.GetThemeFont() hinzu.**
+Ruft Designschriftart ab.
+### **Fügt die DataLabels.LinkedSource-Eigenschaft hinzu.**
+Ruft die verknüpfte Quelle ab und legt sie fest.
+### **Fügt DefaultEditLanguage-Aufzählung hinzu.**
+Stellt die Standardbearbeitungssprache dar.
+### **Fügt die ImageOrPrintOptions.DefaultEditLanguage-Eigenschaft hinzu.**
+Ruft die Standardbearbeitungssprache ab oder legt sie fest.
+Es kann unterschiedliche Layouts für Textabsätze anzeigen/darstellen, wenn unterschiedliche Bearbeitungssprachen eingestellt sind.
+### **Fügt die PdfSaveOptions.DefaultEditLanguage-Eigenschaft hinzu.**
+Ruft die Standardbearbeitungssprache ab oder legt sie fest.
+Es kann unterschiedliche Layouts für Textabsätze anzeigen/darstellen, wenn unterschiedliche Bearbeitungssprachen eingestellt sind.

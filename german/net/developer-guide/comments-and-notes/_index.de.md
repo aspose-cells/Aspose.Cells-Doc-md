@@ -1,0 +1,49 @@
+﻿---
+title: Kommentare und Notizen verwalten
+linktitle: Kommentare und Notizen
+type: docs
+weight: 128
+url: /de/net/comments-and-notes/
+description: Fügen Sie Kommentare oder Notizen ein und verwalten Sie sie mit Aspose.Cells für .Net.
+keywords: insert comments, insert notes
+---
+## **Einführung**
+
+Kommentare werden verwendet, um zusätzliche Informationen zu Zellen hinzuzufügen. Aspose.Cells bietet zwei Methoden zum Hinzufügen von Kommentaren zu Zellen. Die erste besteht darin, Kommentare manuell in einer Designerdatei zu erstellen. Diese Kommentare werden dann mit Aspose.Cells importiert. Die zweite besteht darin, Kommentare mit Aspose.Cells API zur Laufzeit hinzuzufügen. In diesem Thema wird das Hinzufügen von Kommentaren zu Zellen mit Aspose.Cells API behandelt. Das Formatieren von Kommentaren wird ebenfalls erläutert.
+
+## **Hinzufügen eines Kommentars**
+
+ Fügen Sie einer Zelle einen Kommentar hinzu, indem Sie die aufrufen[**Kommentare**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) Sammlung[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/add/index) Methode (eingekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Objekt). Das neue[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) Auf das Objekt kann über die zugegriffen werden[**Kommentare**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) Sammlung durch Übergabe des Kommentarindex. Nach dem Zugriff auf die[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) Objekt, passen Sie die Kommentarnotiz an, indem Sie das verwenden[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) Objekt[**Notiz**](https://reference.aspose.com/cells/net/aspose.cells/comment/properties/note)Eigentum.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-AddingComment-1.cs" >}}
+
+## **Kommentarformatierung**
+
+Es ist auch möglich, das Erscheinungsbild von Kommentaren zu formatieren, indem Sie ihre Höhe, Breite und Schriftarteinstellungen konfigurieren.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-CommentFormatting-1.cs" >}}
+
+## **Fügen Sie ein Bild zum Kommentar hinzu**
+
+Mit Microsoft Excel 2007 ist es auch möglich, ein Bild als Hintergrund für einen Zellkommentar zu haben. In Excel 2007 wird dies durch Ausführen der folgenden Schritte erreicht. (Sie gehen davon aus, dass Sie bereits einen Zellenkommentar hinzugefügt haben.)
+
+1. Klicken Sie mit der rechten Maustaste auf die Zelle, die den Kommentar enthält.
+1.  Auswählen**Kommentare ein-/ausblenden**, und löschen Sie jeglichen Text aus dem Kommentar.
+1. Klicken Sie auf den Rand des Kommentars, um ihn auszuwählen.
+1.  Auswählen**Format** , dann**Kommentar**.
+1.  Auf der**Farben und Linien** Erweitern Sie die Registerkarte**Farbe** aufführen.
+1.  Klicken**Fülleffekte**.
+1.  Auf der**Bild** Registerkarte, klicken Sie auf**Wählen Sie Bild**.
+1. Suchen Sie das Bild und wählen Sie es aus.
+1.  Klicken**OK** bis alle Dialoge geschlossen sind.
+
+Aspose.Cells bietet diese Funktion ebenfalls. Unten sehen Sie ein Codebeispiel, das eine XLSX-Datei von Grund auf neu erstellt und der Zelle „A1“ einen Kommentar mit einem Bild als Hintergrund hinzufügt.
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-AddImageToComment-1.cs" >}}
+
+## **Themen vorantreiben**
+- [Textrichtung des Kommentars ändern](/cells/de/net/change-text-direction-of-the-comment/)
+- [So ändern Sie die Schriftfarbe für Kommentare](/cells/de/net/how-to-change-the-comment-font-color/)
+- [So legen Sie den Kommentarhintergrund fest](/cells/de/net/how-to-set-comment-background/)
+- [Verkettete Kommentare](/cells/de/net/threaded-comments/)
+

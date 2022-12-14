@@ -1,0 +1,28 @@
+﻿---
+title: Aspose.Cells für Reporting Services 18.11 Versionshinweise
+type: docs
+weight: 10
+url: /de/reportingservices/aspose-cells-for-reporting-services-18-11-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Diese Seite enthält Versionshinweise für Aspose.Cells für Reporting Services 18.11.
+
+{{% /alert %}} 
+
+|**Taste**|**Zusammenfassung**|**Kategorie**|
+|:- |:- |:- |
+|CELLSRS-521|Verwenden Sie die SSRS-Suchfunktion mit Aspose.Cells für Reporting Services|Neue Funktion|
+|CELLSRS-528|Reduzieren oder erweitern Sie Pivot-Tabellenfelder in Aspose.Cells für Reporting Services|Neue Funktion|
+|CELLSRS-528|Unterstützung bei der Durchführung von Minusberechnungen unter Aspose.Cells für Reporting Services|Neue Funktion|
+|CELLSRS-534|Machen Sie Aspose.Cells für Reporting Services mit SSRS 2017 kompatibel|Neue Funktion|
+|CELLSRS-520|Die Veröffentlichung ist fehlgeschlagen, wenn die Vorlage Excel-Formeln enthält|Insekt|
+|CELLSRS-522|SUMME im SQL-Code ergibt leere Zellen|Insekt|
+|CELLSRS-523|Mögliche Kombinationen der Formelberechnung funktionieren nicht richtig|Insekt|
+|CELLSRS-525|Verwenden von Smart Marker zum Überspringen von Zeilen in Aspose.Cells für Reporting Services|Insekt|
+|CELLSRS-526|Zeigen Sie die reduzierte Summe an und erweitern Sie sie, um Details mit dem ##group-Tag anzuzeigen|Insekt|
+|CELLSRS-527|Die Gesamtzeile erscheint nicht mehr im MS Excel-Export|Insekt|
+|CELLSRS-533|Tablix kann nicht erstellt werden|Insekt|
+|CELLSRS-535|Passen Sie das MS Excel-Format an die XML-Ausgabe an|Insekt|
+|CELLSRS-537|Die Installation ist mit Aspose.Cells für Reporting Services auf SQL Server 2016 fehlgeschlagen|Insekt|
+

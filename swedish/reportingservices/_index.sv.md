@@ -1,0 +1,23 @@
+﻿---
+title: Aspose.Cells för Rapporteringstjänster
+type: docs
+weight: 80
+url: /sv/reportingservices/
+is_root: true
+---
+![todo:image_alt_text](home_1)
+
+**Välkommen till Aspose.Cells för rapporteringstjänster**
+
+Aspose.Cells för Reporting Services är en lösning för utvecklare som behöver leverera Microsoft Excel-rapporter i Reporting Services. Den lägger till flexibla och användarvänliga funktioner i Reporting Services genom verktyget Aspose.Cells.Report.Designer. API:et kan utföra alla uppgifter relaterade till att utveckla rapporter i Reporting Services som att ställa in datakällor, skapa frågor, designa rapporter och publicera rapporter till Report Server. Eftersom Aspose.Cells.Report.Designer använder Microsoft Excel som rapportmall kan användare dra nytta av de kraftfulla funktionerna som finns i Microsoft Excel.
+
+## **Aspose.Cells för Reporting Services Resources**
+Följande är länkarna till några användbara resurser som du kan behöva för att utföra dina uppgifter.
+
+- [Aspose.Cells för onlinedokumentation för rapporteringstjänster](/cells/sv/reportingservices/)
+- [Aspose.Cells för funktioner för rapporteringstjänster](/cells/sv/reportingservices/features/)
+- [Aspose.Cells för Reporting Services Release Notes](/cells/sv/reportingservices/release-notes/)
+- [Aspose.Cells för produktsidan för Reporting Services](https://products.aspose.com/cells/reporting-services/)
+- [Ladda ner Aspose.Cells för rapporteringstjänster](https://downloads.aspose.com/cells/reportingservices)
+- [Aspose.Cells för Reporting Services Free Support Forum](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells för Reporting Services Betald Support Helpdesk](https://helpdesk.aspose.com/)

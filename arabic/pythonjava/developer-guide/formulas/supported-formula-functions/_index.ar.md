@@ -1,0 +1,450 @@
+﻿---
+title: وظائف الصيغ المدعومة
+type: docs
+weight: 10
+url: /ar/python-java/supported-formula-functions/
+---
+{{% alert color="primary" %}} 
+
+تدعم واجهات برمجة التطبيقات Aspose.Cells معظم الوظائف القياسية والصيغة المضمنة في Excel. أدناه ، يمكنك العثور على جميع الوظائف المدعومة بترتيب أبجدي.
+
+{{% /alert %}} 
+### **تعيين وقراءة وحساب في وقت التشغيل**
+يتيح لك محرك حساب الصيغة Aspose.Cells 'ضبط نتائج الصيغ والوظائف التالية وقراءتها وحسابها.
+#### **أ**
+- عضلات المعدة
+- قبول
+- ACCRINTM
+- ACOS
+- ACOSH
+- تبوك
+- مجموع
+- AMORDEGRC
+- امورلينك
+- و
+- المناطق
+- ASC
+- ASIN
+- ASINH
+- ATAN
+- ATAN2
+- أتانه
+- افيديف
+- معدل
+- متوسط
+- متوسط
+- المتوسطات
+#### **ب**
+- بيسلي
+- بسيلج
+- بيسلك
+- بصلي
+- بيتا ديست
+- بيتا
+- أفضل
+- بيتينف
+- BIN2DEC
+- BIN2HEX
+- بين 2 أوكت
+- قائمة BINOM.DIST
+- بينومديست
+- البت
+- BITLSHIFT
+- بيتور
+- BITRSHIFT
+- بيتكسور
+#### ** ج **
+- السقف
+- السقف
+- السقف
+- زنزانة
+- شار
+- CHIDIST
+- شينف
+- CHISQ.DIST
+- CHISQ.DIST.RT
+- CHISQ.INV.RT
+- CHISQ.TEST
+- شيتست
+- يختار
+- ينظف
+- الشفرة
+- عمودي
+- الأعمدة
+- الجمع
+- مركب
+- CONCAT
+- سلسل
+- الثقة
+- الثقة
+- يتحول
+- كوريل
+- COS
+- ضرب بالعصا
+- عدد
+- كونتا
+- كونتبلانك
+- كونتيف
+- COUNTIFS
+- قسائم
+- قروض
+- قسائم
+- COUPNCD
+- كوبنوم
+- COUPPCD
+- كوفار
+- تغطية
+- التباين
+- الحرج
+- كوميبمت
+- كومبرينك
+#### **د**
+- تاريخ
+- DATEDIF
+- التاريخ
+- الجفاف
+- يوم
+- أيام
+- الأيام 360
+- DB
+- DCOUNT
+- دكونتا
+- DDB
+- DEC2BIN
+- DEC2HEX
+- DEC2OCT
+- درجات
+- دلتا
+- DEVSQ
+- DGET
+- قرص
+- DMAX
+- DMIN
+- دولار
+- دولارد
+- دولار
+- الإنتاج
+- DSTDEV
+- DSTDEVP
+- DSUM
+- المدة الزمنية
+- DVAR
+- DVARP
+#### ** ه **
+- EDATE
+- تأثير
+- EOMONTH
+- ERF
+- ERFC
+- نوع الخطأ
+- حتى
+- بالضبط
+- EXP
+- EXPONDIST
+#### **F**
+- F.DIST
+- F.DIST.RT
+- F.INV.RT
+- حقيقة
+- حقيقة
+- FDIST
+- منقي
+- تجد
+- FINDB
+- FINV
+- فيشر
+- فيشيرينف
+- مُثَبَّت
+- أرضية
+- FLOOR.MATH
+- تنبؤ بالمناخ
+- FORECAST.LINEAR
+- الصيغة
+- تردد ، FV
+- FVSCHEDULE
+- خاطئة
+#### ** ز **
+- جاما
+- GAMMA.INV
+- GAMMADIST
+- جاماينف
+- GAMMALN
+- GCD
+- GEOMEAN
+- الحصول على البيانات
+- GESTEP
+- نمو
+#### ** ح **
+- حرمان
+- HEX2BIN
+- HEX2DEC
+- HEX2OCT
+- هلوكوب
+- ساعة
+- رابط تشعبي
+- HYPGEOM.DIST
+- طبيب مختص
+#### **أنا**
+- إذا
+- IFERROR
+- IFNA
+- IFS
+- IMABS
+- خيال
+- هام
+- تحرر
+- IMCOS
+- IMDIV
+- IMEXP
+- IMLN
+- IMLOG10
+- IMLOG2
+- المستورد
+- تحسين
+- IMREAL
+- IMSIN
+- IMSQRT
+- IMSUB
+- IMSUM
+- فهرس
+- غير مباشر
+- ذكاء
+- تقاطع
+- INTRATE
+- IPMT
+- IRR
+- ISBLANK
+- ISERR
+- ISERROR
+- ISEVEN
+- إسلامي
+- ISNA
+- ISNONTEXT
+- هو رقم
+- أمر غريب
+- ISOWEEKNUM
+- ISPMT
+- ISREF
+- ISTEXT
+#### **ك**
+- كورت
+#### ** لام **
+- كبير
+- LCM
+- اليسار
+- اليسار
+- لين
+- LENB
+- LINEST
+- LN
+- سجل
+- السجل 10
+- سجل
+- تسجيل الدخول
+- قائمة LOGNORM.DIST
+- LOGNORMDIST
+- ابحث عن
+- أدنى
+#### ** م **
+- مباراة
+- الأعلى
+- ماكسا
+- ماكسيفس
+- MDETERM
+- MDURATION
+- الوسيط
+- منتصف
+- MIDB
+- دقيقة
+- مينا
+- MINIFS
+- اللحظة
+- MINVERSE
+- MIRR
+- MMULT
+- عصري
+- الوضع
+- الوضع
+- الوضع
+- شهر
+- MROUND
+- متعددة
+#### **ن**
+- ن
+- غير متوفر
+- NEGBINOM.DIST
+- NEGBINOMDIST
+- NETWORKDAYS
+- NETWORKDAYS.INTL
+- اسمى، صورى شكلى، بالاسم فقط
+- NORM.DIST
+- قائمة نورم
+- NORM.SINV
+- نورمديست
+- نورمينف
+- NORM.INV
+- نورمينف
+- NORMSDIST
+- ليس
+- حاليا
+- NPER
+- صافي القيمة الحالية
+- NUMBERVALUE
+#### ** يا **
+- OCT2BIN
+- OCT2DEC
+- OCT2HEX
+- الفردية
+- ODDFPRICE
+- ODDFYIELD
+- سعر ODDL
+- أودلييلد
+- عوض
+- أو
+#### ** ف **
+- بيرسون
+- النسبة المئوية
+- PERCENTILE.EXC
+- PERCENTILE.INC
+- بيرسينترانك
+- PERCENTRANK.EXC
+- PERCENTRANK.INC
+- بيرموت
+- PI
+- PMT
+- بويسون
+- POISSON.DIST
+- قوة
+- PPMT
+- سعر
+- PRICEDISC
+- PRICEMAT
+- اختبار
+- منتج
+- مناسب
+- PV
+#### ** س **
+- الربع
+- QUARTILE.EXC
+- QUARTILE.INC
+- حاصل القسمة
+#### ** ص **
+- راديان
+- راند
+- راندبيتوين
+- رانداري
+- مرتبة
+- الترتيب. AVG
+- الترتيب
+- معدل
+- تلقى
+- يحل محل
+- استبدال
+- REPT
+- حقا
+- الحق ب
+- رومان
+- دائري
+- المستدير لأسفل
+- جمع الشمل
+- صف
+- الصفوف
+- RSQ
+#### **س**
+- بحث
+- بحث
+- ثانيا
+- تسلسل
+- سيروم
+- إشارة
+- خطيئة
+- SINH
+- SKEW
+- SLN
+- ميل
+- صغير
+- SQRT
+- صنف حسب
+- SQRTPI
+- التوحيد
+- STDEV
+- STDEV.P
+- STDEV.S
+- STDEVA
+- STDEVP
+- STDEVPA
+- ستايكس
+- بديل
+- المجموع الفرعي
+- مجموع
+- سوميف
+- موجزات
+- إنتاج
+- SUMSQ
+- SUMX2MY2
+- SUMX2PY2
+- SUMXMY2
+- تحول
+- SYD
+#### ** تي **
+- تي
+- T.DIST.2T
+- T.DIST.RT
+- T.INV.2T
+- TEST
+- تان
+- تان
+- TBILLEQ
+- TBILLPRICE
+- TBILLYIELD
+- TDIST
+- نص
+- TEXTJOIN
+- زمن
+- الوقت ثمين
+- TINV
+- اليوم
+- تبديل موضع
+- اتجاه
+- تقليم
+- TRIMMEAN
+- TRUNC
+- TTEST
+- يكتب
+- صحيح
+#### ** يو **
+- يونيكار
+- يونيكود
+- فريدة من نوعها
+- أعلى
+- الدولار الأمريكي
+#### **الخامس**
+- القيمة
+- VAR
+- VAR.P
+- VAR.S
+- فارا
+- VARP
+- فاربا
+- VDB
+- VLOOKUP
+#### ** W **
+- WEEKDAY
+- WEEKNUM
+- WEIBULL
+- WEIBULL.DIST
+- WIDECHAR
+- يوم عمل
+- WORKDAY.INTL
+#### ** X **
+- XIRR
+- XNPV
+#### ** نعم **
+- عام
+- YEARFRAC
+- أَثْمَر
+- YIELDISC
+- YIELDMAT
+#### ** Z **
+- Z.TEST
+- ZTEST

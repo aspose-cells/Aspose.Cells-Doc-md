@@ -1,0 +1,12 @@
+﻿---
+title: Установите Aspose.Cells для SharePoint
+type: docs
+weight: 50
+url: /ru/sharepoint/install-aspose-cells-for-sharepoint/
+---
+###### **Этот раздел включает следующие темы:**
+- [Установка Aspose.Cells для SharePoint](/cells/ru/sharepoint/installing-aspose-cells-for-sharepoint/)
+- [Развертывание и активация](/cells/ru/sharepoint/deployment-and-activation/)
+- [Активация и деактивация после установки](/cells/ru/sharepoint/activation-and-deactivation-after-installation/)
+- [Известная проблема: разрешения для личных коллекций веб-сайтов](/cells/ru/sharepoint/known-issue-permissions-to-personal-site-collections/)
+- [Удаление Aspose.Cells для SharePoint](/cells/ru/sharepoint/uninstalling-aspose-cells-for-sharepoint/)

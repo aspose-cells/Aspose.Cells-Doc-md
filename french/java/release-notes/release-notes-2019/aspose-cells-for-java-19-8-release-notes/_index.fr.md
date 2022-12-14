@@ -1,0 +1,41 @@
+﻿---
+title: Aspose.Cells for Java 19.8 Notes de mise à jour
+type: docs
+weight: 50
+url: /fr/java/aspose-cells-for-java-19-8-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Cette page contient les notes de version pour Aspose.Cells for Java 19.8.
+
+{{% /alert %}} 
+
+|**Clé**|**Sommaire**|**Catégorie**|
+|:- |:- |:- |
+|CELLSJAVA-42949|Prise en charge des algorithmes ECDSA et RSA|Nouvelle fonctionnalité|
+|CELLSJAVA-42979|Obtenez le nombre total de pages avant de convertir en PDF/image|Nouvelle fonctionnalité|
+|CELLSJAVA-42967|Insérer le fichier SVG dans la feuille de calcul|Nouvelle fonctionnalité|
+|CELLSJAVA-42969|Prise en charge Java 12 en Aspose.Cells for Java|Renforcement|
+|CELLSJAVA-42977|Consommation élevée de CPU et de mémoire lors de la conversion d'Excel en PDF|Renforcement|
+|CELLSJAVA-42902|Le style de graphique en cascade n'est pas copié correctement lors de la copie du classeur|Punaise|
+|CELLSJAVA-42944|Erreur lors de la conversion de XLSX en HTML|Punaise|
+|CELLSJAVA-42966|L'actualisation du tableau croisé dynamique et des graphiques croisés dynamiques corrompt le fichier Excel|Punaise|
+|CELLSJAVA-42975|Différences dans la conversion HTML|Punaise|
+|CELLSJAVA-42971|# N/A est affiché dans le PDF rendu
+|Punaise|
+|CELLSJAVA-42970|Bordure étendue indésirable dans le rendu Excel vers PDF|Punaise|
+|CELLSJAVA-42976|Inadéquation de la position de l'image lors du rendu du fichier Excel au format PDF|Punaise|
+|CELLSJAVA-42961|Les propriétés de la table ne sont pas copiées correctement lors de la copie des données à l'aide de copyColumns|Punaise|
+|CELLSJAVA-42980|L'image transparente devient opaque pendant la copie de l'image|Punaise|
+|CELLSJAVA-42959|Exception "Erreur de forme à l'image" lors du rendu d'un fichier XLSX au format PDF|Exception|
+
+## **Public API et modifications incompatibles avec les versions antérieures**
+Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
+### **Ajoute la classe SheetPrintingPreview**
+Représente l'aperçu d'impression de la feuille de calcul.
+### **Ajoute la classe WorkbookPrintingPreview**
+Représente l'aperçu d'impression du classeur.
+### **Ajoute la propriété QueryTable.ExternalConnection.**
+Obtient la connexion de la table de requête.
+### **Ajoute la propriété Hyperlink.LinkType et l'énumération TargetModeType.**
+Représente le type de lien du lien hypertexte.

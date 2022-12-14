@@ -1,0 +1,129 @@
+﻿---
+title: Vorbereitung zum Erstellen eines Tabellenberichts
+type: docs
+weight: 10
+url: /de/reportingservices/preparing-for-creating-table-report/
+---
+ Vor dem Erstellen eines tabellarischen Berichts muss der Benutzer zunächst Datenquellen, Datensätze und Berichtsparameter (optional) wie in beschrieben erstellen[Datenquellen und Abfragen](/cells/de/reportingservices/data-sources-and-queries/).
+
+Unten verwenden wir die AdventureWorks-Beispieldatenbank, die im Lieferumfang von SQL Server Reporting Services 2005 enthalten ist.
+
+1. Erstellen Sie ein Dataset namens EmpSalesDetail. Wir verwenden dies als Datenquelle der Tabelle. Der Datensatz hat drei Parameter: ReportYear, ReportMonth und EmpID.
+ Die SQL, die EmpSalesDetail definiert, lautet wie folgt:
+
+**SQL**
+
+{{< highlight "csharp" >}}
+
+ SELECT C.FirstName+' '+C.LastName 'Employee',
+
+DATEPART(Month,SOH.OrderDate) 'OrderMonthNum',
+
+PS.Name 'SubCat',
+
+Sum(SOD.LineTotal) 'Sales',
+
+SOH.SalesOrderNumber,
+
+P.Name 'Product',
+
+Sum(SOD.OrderQty) 'OrderQty',
+
+SOD.UnitPrice,
+
+PC.Name 'ProdCat'
+
+FROM AdventureWorks.Person.Contact C,
+
+AdventureWorks.HumanResources.Employee E,
+
+AdventureWorks.Production.Product P,
+
+AdventureWorks.Production.ProductCategory PC,
+
+AdventureWorks.Production.ProductSubcategory PS,
+
+AdventureWorks.Sales.SalesOrderDetail SOD,
+
+AdventureWorks.Sales.SalesOrderHeader SOH,
+
+AdventureWorks.Sales.SalesPerson SP
+
+WHERE SOH.SalesOrderID = SOD.SalesOrderID
+
+AND SOH.SalesPersonID = SP.SalesPersonID
+
+AND SP.SalesPersonID = E.EmployeeID
+
+AND E.ContactID = C.ContactID
+
+AND SOD.ProductID = P.ProductID
+
+AND P.ProductSubcategoryID = PS.ProductSubcategoryID
+
+ AND PS.ProductCategoryID = PC.ProductCategoryID
+
+AND ((DATEPART(Year,SOH.OrderDate)=?)
+
+AND (DATEPART(Month,SOH.OrderDate)=?) AND (SOH.SalesPersonID=?))
+
+GROUP BY C.FirstName+' '+C.LastName, DATEPART(Month,SOH.OrderDate),
+
+ PS.Name,
+
+SOH.SalesOrderNumber,
+
+P.Name,
+
+SOD.UnitPrice,
+
+PC.Name
+
+
+
+{{< /highlight >}}
+
+1. Erstellen Sie ein Dataset namens SalesEmps. Wir verwenden dies als gültige Werte für den EmpID-Parameter.
+ Die SQL, die SalesEmps definiert, lautet:
+
+**SQL**
+
+{{< highlight "csharp" >}}
+
+ SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
+
+FROM  HumanResources.Employee E INNER JOIN  Sales.SalesPerson SP
+
+ON E.EmployeeID = SP.SalesPersonID INNER JOIN   Person.Contact C
+
+ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
+
+
+
+{{< /highlight >}}
+
+1.  Erstellen Sie drei Berichtsparameter: ReportYear, ReportMonth und EmpID.
+ 1. Die gültigen Werte für den Parameter ReportYear sind:
+
+![todo: Bild_alt_Text](preparing-for-creating-table-report_1.png)
+
+
+
+
+1. Die gültigen Werte für den Parameter ReportMonth sind:
+
+![todo: Bild_alt_Text](preparing-for-creating-table-report_2.png)
+
+
+
+
+1.  Die gültigen Werte für den Parameter EmpID sind:
+
+![todo: Bild_alt_Text](preparing-for-creating-table-report_3.png)
+
+
+
+
+1.  Ordnen Sie die Datensatzparameter den Berichtsparametern wie folgt zu:
+
+![todo: Bild_alt_Text](preparing-for-creating-table-report_4.png)

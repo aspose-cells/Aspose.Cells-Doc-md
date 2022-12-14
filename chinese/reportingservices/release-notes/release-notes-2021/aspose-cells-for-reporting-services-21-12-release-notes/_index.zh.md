@@ -1,0 +1,15 @@
+﻿---
+title: Reporting Services 21.12 发行说明 Aspose.Cells
+second_title: Aspose.Cells for Reporting Services Documen
+type: docs
+url: /zh/reportingservices/aspose-cells-for-reporting-services-21-12-release-notes/
+weight: 10
+---
+{{% alert color="primary" %}} 
+此页面包含 Reporting Services 21.12 的 Aspose.Cells 发行说明
+{{% /alert %}} 
+## **此版本中涵盖的问题和增强功能的完整列表**
+|**ID**|**概括**|**类别**|
+|:- |:- |:- |
+|CELLSRS-619 |改进了报告服务 Aspose.Cells 的 PDF 渲染。|改进|
+|CELLSRS-614 |使用密码生成 Excel 文件时出现问题。|漏洞|

@@ -1,0 +1,152 @@
+﻿---
+title: Assembler des feuilles de calcul
+type: docs
+weight: 10
+url: /fr/net/assemble-spreadsheets/
+---
+Cette section décrit comment :
+
+Créez un nouveau fichier Excel à partir de zéro et ajoutez-y une feuille de calcul.
+
+- Ajoutez des feuilles de calcul aux feuilles de calcul du concepteur.
+- Accéder aux feuilles de calcul en utilisant le nom de la feuille.
+- Supprimer une feuille de calcul d'un fichier Excel en utilisant son nom de feuille.
+- Supprimer une feuille de calcul d'un fichier Excel à l'aide de son index de feuille.
+- Aspose.Cells fournit une classe Workbook qui représente un fichier Excel. La classe Workbook contient une collection Worksheets qui permet d'accéder à chaque feuille de calcul du fichier Excel.
+
+Une feuille de calcul est représentée par la classe Worksheet. La classe Worksheet fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul.
+## **Ajout de feuilles de calcul à un nouveau fichier Excel**
+Pour créer un nouveau fichier Excel par programmation :
+
+- Créez un objet de la classe Workbook.
+- Appelez la méthode Add de la collection Worksheets. Une feuille de calcul vide est automatiquement ajoutée au fichier Excel *. Il peut être référencé en transmettant l'index de feuille de la nouvelle feuille de calcul à la collection Worksheets.
+- Obtenir une référence de feuille de travail.
+- Effectuer des travaux sur les feuilles de travail.
+- Enregistrez le nouveau fichier Excel avec de nouvelles feuilles de calcul en appelant la méthode Save de la classe Workbook.
+
+{{< highlight "csharp" >}}
+
+ //Instantiating a Workbook object
+
+Workbook workbook = new Workbook();
+
+//Adding a new worksheet to the Workbook object
+
+int i = workbook.Worksheets.Add();
+
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+
+Worksheet worksheet = workbook.Worksheets[i];
+
+//Setting the name of the newly added worksheet
+
+worksheet.Name = "My Worksheet";
+
+//Saving the Excel file
+
+workbook.Save("Adding Worksheet.xls");
+
+{{< /highlight >}}
+## **Ajout de feuilles de calcul à une feuille de calcul Designer**
+Le processus d'ajout de feuilles de calcul à une feuille de calcul de concepteur est le même que celui d'ajout d'une nouvelle feuille de calcul, sauf que le fichier Excel existe déjà et doit donc être ouvert avant l'ajout des feuilles de calcul. Une feuille de calcul de concepteur peut être ouverte par la classe Workbook.
+
+{{< highlight "csharp" >}}
+
+ //Creating a file stream containing the Excel file to be opened
+
+FileStream fstream = new FileStream("book1.xls", FileMode.Open);
+
+//Instantiating a Workbook object
+
+//Opening the Excel file through the file stream
+
+Workbook workbook = new Workbook(fstream);
+
+//Adding a new worksheet to the Workbook object
+
+int i = workbook.Worksheets.Add();
+
+//Obtaining the reference of the newly added worksheet by passing its sheet index
+
+Worksheet worksheet = workbook.Worksheets[i];
+
+//Setting the name of the newly added worksheet
+
+worksheet.Name = "My Worksheet";
+
+//Saving the Excel file
+
+workbook.Save("Designer Spreadsheet.xls");
+
+//Closing the file stream to free all resources
+
+fstream.Close();
+
+{{< /highlight >}}
+## **Accéder aux feuilles de calcul à l'aide du nom de la feuille**
+Accédez ou obtenez n'importe quelle feuille de calcul en spécifiant son nom ou son index.
+
+{{< highlight "csharp" >}}
+
+ //Creating a file stream containing the Excel file to be opened
+
+FileStream fstream = new FileStream("WorksHeet Operations.xls", FileMode.Open);
+
+//Instantiating a Workbook object
+
+//Opening the Excel file through the file stream
+
+Workbook workbook = new Workbook(fstream);
+
+//Accessing a worksheet using its sheet name
+
+Worksheet worksheet = workbook.Worksheets["Sheet1"];
+
+{{< /highlight >}}
+## **Suppression de feuilles de calcul à l'aide du nom de la feuille**
+Pour supprimer des feuilles de calcul d'un fichier, appelez la méthode RemoveAt de la collection Worksheets. Transmettez le nom de la feuille à la méthode RemoveAt pour supprimer une feuille de calcul spécifique.
+
+{{< highlight "csharp" >}}
+
+ //Creating a file stream containing the Excel file to be opened
+
+FileStream fstream = new FileStream("WorksHeet Operations.xls", FileMode.Open);
+
+//Instantiating a Workbook object
+
+//Opening the Excel file through the file stream
+
+Workbook workbook = new Workbook(fstream);
+
+//Removing a worksheet using its sheet name
+
+workbook.Worksheets.RemoveAt("Sheet3");
+
+workbook.Save("WorksHeet Operations.xls");
+
+{{< /highlight >}}
+## **Suppression de feuilles de calcul à l'aide de l'index des feuilles**
+La suppression de feuilles de calcul par nom fonctionne bien lorsque le nom de la feuille de calcul est connu. Si vous ne connaissez pas le nom de la feuille de calcul, utilisez une version surchargée de la méthode RemoveAt qui prend l'index de feuille de la feuille de calcul au lieu de son nom de feuille.
+
+{{< highlight "csharp" >}}
+
+ //creating a file stream containing the Excel file to be opened
+
+FileStream fstream = new FileStream("WorksHeet Operations.xls", FileMode.Open);
+
+//Instantiating a Workbook object
+
+//Opening the Excel file through the file stream
+
+Workbook workbook = new Workbook(fstream);
+
+//Removing a worksheet using its sheet index
+
+workbook.Worksheets.RemoveAt(1);
+
+workbook.Save("WorksHeet Operations.xls");
+
+{{< /highlight >}}
+## **Télécharger l'exemple de code**
+- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Assemble%20Worksheet%20%28Aspose.Cells%29.zip)

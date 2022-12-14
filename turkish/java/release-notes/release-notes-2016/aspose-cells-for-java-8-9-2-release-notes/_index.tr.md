@@ -1,0 +1,72 @@
+﻿---
+title: Aspose.Cells for Java 8.9.2 Sürüm Notları
+type: docs
+weight: 50
+url: /tr/java/aspose-cells-for-java-8-9-2-release-notes/
+---
+## **1) Aspose.Cells**
+
+|**Anahtar**|**Özet**|**Kategori**|
+|:- |:- |:- |
+|CELLSJAVA-41925|Hesaplama süresi son API revizyonları ile artmıştır.|Yeni özellik|
+|CELLSJAVA-40958|Kullanıcı tarafından yapılandırılabilen yazı tipi değiştirme mekanizması gereklidir|Yeni özellik|
+|CELLSJAVA-41936|Workbook.calculateFormula() yöntemi, kaynak Excel dosyası için hiçbir zaman sonlandırılmaz|Artırma|
+|CELLSJAVA-41928|IStreamProvider ile elektronik tablo HTML'ye dönüştürülürken görüntü kaynağı yakalanamıyor|Böcek|
+|CELLSJAVA-41841|CheckBox'ları HTML'ye dönüştürmeyle ilgili sorun|Böcek|
+|CELLSJAVA-41932|Tarih biçimlendirilmiş değerler için getDisplayStringValue() ile ilgili sorun|Böcek|
+|CELLSJAVA-41930|Bir XLS dosyasını işlemek için Light Cells API'leri kullanıldığında, her zaman ilk sayfanın ilk hücresi işlenir|Böcek|
+|CELLSJAVA-41931|Elektronik tabloyu PDF'ye dönüştürürken dikey metin için karakter aralığı ve kesme doğru değil|Böcek|
+|CELLSJAVA-41709|Sütun genişlikleri, CentOS'ta Windows'dekinden farklıdır|Böcek|
+|CELLSJAVA-41933|Elektronik tablo PDF'ye dönüştürülürken grafik ölçeği değişti|Böcek|
+|CELLSJAVA-41934|Bir Excel dosyasını PDF'ye dönüştürürken hizalama sorunu|Böcek|
+|CELLSJAVA-41935|Elektronik tabloyu PDF'ye dönüştürürken gösterge girişlerinin biçimlendirmesi bozuluyor|Böcek|
+|CELLSJAVA-41943|Yatay eksen etiketleri tam olarak işlenmemiştir, yani; işlenen görüntüdeki tüm etiketlerde bazı içerikler eksik.|Böcek|
+|CELLSJAVA-41940|Dosya, formül hesaplamasından sonra bozuldu ve kaydedildi|Böcek|
+|CELLSJAVA-41952|Hesaplama sonucu doğru değil|Böcek|
+|CELLSJAVA-41941|Dizi Formülü düzgün hesaplanmıyor|Böcek|
+|CELLSJAVA-41937|Excel dosyasındaki bazı değerler çıktı HTML'sinde eksik - XLS'den HTML'ye dönüştürme|Böcek|
+|CELLSJAVA-41927|İstisna: HTML dosya biçimine kaydederken "java.lang.OutOfMemoryError"|İstisna|
+|CELLSJAVA-41945|CellsException: TREND işlevi hesaplanırken Workbook.CalculateFormula'da Cell[0Sheet1!E5] hesaplanırken hata oluştu|İstisna|
+|CELLSJAVA-41946|Excel dosyasının açılması java.lang.NumberFormatException'a neden olur: Giriş dizesi için: "80000020"|İstisna|
+|CELLSJAVA-41922|Hücreleri kopyalarken IndexOutOfBoundsException|İstisna|
+## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
+### **CopyOptions.ReferToDestinationSheet özelliğini ve Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int targetRowIndex, int rowNumber, CopyOptions copyOptions) yöntemini ekler**
+Satırları/aralığı kopyalarken hedef çalışma sayfasına (grafik için bir veri kaynağı olarak) başvurup başvurmamayı belirtir.
+Aralık kopyalanırken ve grafik kaynak sayfaya başvuruyorsa, Yanlış, kopyalanan grafiğin veri kaynağının değişmeyeceği anlamına gelir. Doğru, kopyalanan grafiğin veri kaynağının hedef sayfaya başvurduğu anlamına gelir.
+### **HtmlSaveOptions.FilePathProvider özelliğini ekler**
+Çalışma Sayfasını html'ye ayrı olarak dışa aktarmak için IFilePathProvider'ı alır veya ayarlar.
+### **IFilePathProvider arabirimini ekler**
+Dışa aktarılan dosya yolu sağlayıcısını temsil eder.
+### **FontConfigs sınıfını ekler**
+Yazı tipi ayarlarını belirtir.
+### **FontSourceBase sınıfını ekler**
+Bu, kullanıcının çeşitli yazı tipi kaynakları belirtmesine izin veren sınıflar için soyut bir temel sınıftır.
+### **FileFontSource sınıfını ekler**
+Dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder.
+### **FolderFontSource sınıfını ekler**
+TrueType yazı tipi dosyalarını içeren klasörü temsil eder.
+### **MemoryFontSource sınıfını ekler**
+Bellekte depolanan tek TrueType yazı tipi dosyasını temsil eder.
+### **FontSourceType enumunu ekler**
+Yazı tipi kaynağının türünü belirtir.
+### **CalculationOptions.Recursive özelliği ekler**
+Bir hücre hesaplanırken bağımlı hücrelerin özyinelemeli olarak hesaplanıp hesaplanmayacağını belirtir ve diğer hücrelere bağlıdır.
+### **Eski CellsHelper.FontDir özelliği**
+Bunun yerine klasör özyinelemeli ile FontConfigs.SetFontFolder(string, bool) yöntemini kullanın.
+### **Eski CellsHelper.FontDirs özelliği**
+FontConfigs.SetFontFolders(string[], bool) yöntemini, bunun yerine yinelemeli klasör ile false olarak kullanın.
+### **Eski CellsHelper.FontFiles özelliği**
+Bunun yerine FontConfigs.SetFontSources(FontSourceBase[]) kullanın.
+### **Shape.LineFormat özelliğini geçersiz kılar ve Shape.Line özelliğini ekler**
+Lütfen bunun yerine Shape.Line özelliğini kullanın.
+### **Shape.FillFormat özelliğini geçersiz kılar ve Shape.Fill özelliğini ekler**
+Lütfen bunun yerine Shape.Fill özelliğini kullanın.
+### **Eski ShapeFormat sınıfı ve Shape.Format özelliği**
+Lütfen doğrudan Shape.Fill ve Shape.Line özelliklerini kullanın.
+### **ShapeFont sınıfını geçersiz kılar ve TextOptions sınıfını ekler**
+Lütfen bunun yerine TextOptions sınıfını kullanın.
+### **TextOptions.Fill özelliği, TextOptions.Outline ve TextOptions.Shadow özelliği ekler**
+Metnin dolgusunu, dış hatlarını ve gölgesini temsil eder.
+### **FontSetting.ShapeFont özelliğini geçersiz kılar ve FontSetting.TextOptions özelliğini ekler**
+Lütfen bunun yerine FontSetting.TextOptions özelliğini kullanın.

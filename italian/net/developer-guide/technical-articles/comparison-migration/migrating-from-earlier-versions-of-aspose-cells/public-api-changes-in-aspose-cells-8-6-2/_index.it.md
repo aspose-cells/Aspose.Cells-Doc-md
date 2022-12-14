@@ -1,0 +1,151 @@
+﻿---
+title: Pubblico API Modifiche Aspose.Cells 8.6.2
+type: docs
+weight: 210
+url: /it/net/public-api-changes-in-aspose-cells-8-6-2/
+---
+{{% alert color="primary" %}} 
+
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.1 alla 8.6.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+
+{{% /alert %}} 
+## **API aggiunte**
+### **Supporto per la richiamata con marcatori intelligenti**
+ Questa versione di Aspose.Cells for .NET API ha esposto la proprietà WorkbookDesigner.CallBack e l'interfaccia ISmartMarkerCallBack che insieme consentono di[ricevere le notifiche relative al riferimento di cella e/o al marcatore intelligente in fase di elaborazione](/cells/it/net/getting-notifications-while-merging-data-with-smart-markers/). La parte di codice seguente illustra l'utilizzo dell'interfaccia ISmartMarkerCallBack per definire una nuova classe che gestisce la richiamata per il metodo WorkbookDesigner.Process.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ class SmartMarkerCallBack : ISmartMarkerCallBack
+
+{
+
+    Workbook workbook;
+
+    internal SmartMarkerCallBack(Workbook workbook)
+
+    {
+
+        this.workbook = workbook;
+
+    }
+
+    public void Process(int sheetIndex, int rowIndex, int colIndex, string tableName, string columnName)
+
+    {
+
+        Console.WriteLine("Processing Cell : " + workbook.Worksheets[sheetIndex].Name + "!" + CellsHelper.CellIndexToName(rowIndex, colIndex));
+
+        Console.WriteLine("Processing Marker : " + tableName + "." + columnName);
+
+    }
+
+}
+
+{{< /highlight >}}
+
+
+
+Il resto del processo include il caricamento del foglio di calcolo del designer contenente gli Smart Marker con WorkbookDesigner e l'elaborazione impostando l'origine dati. Tuttavia, per abilitare le notifiche, è necessario impostare la proprietà WorkbookDesigner.CallBack prima di chiamare il metodo WorkbookDesigner.Process come illustrato di seguito.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Loading the designer spreadsheet in an instance of Workbook
+
+Workbook workbook = new Workbook(inputFilePath);
+
+//Loading the instance of Workbook in an instance of WorkbookDesigner
+
+WorkbookDesigner designer = new WorkbookDesigner(workbook);
+
+//Set the WorkbookDesigner.CallBack property to an instance of newly created class
+
+designer.CallBack = new SmartMarkerCallBack(workbook);
+
+//Set the data source 
+
+designer.SetDataSource(table);
+
+//Process the Smart Markers in the designer spreadsheet
+
+designer.Process(false);
+
+{{< /highlight >}}
+
+
+### **Metodo Chart.ToPdf Aggiunto**
+ Aspose.Cells for .NET 8.6.2 ha esposto il metodo Chart.ToPdf che può essere utilizzato per[rendere direttamente la forma del grafico in formato PDF](/cells/it/net/convert-an-excel-chart-to-image/). Il suddetto metodo attualmente accetta un parametro di tipo stringa come posizione del percorso del file per archiviare il file risultante su disco.
+
+Di seguito è riportato il semplice scenario di utilizzo.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Load spreadsheet containing charts
+
+Workbook workbook = new Workbook(inputFilePath);
+
+//Access first worksheet
+
+Worksheet worksheet = workbook.Worksheets[0];
+
+//Access first chart inside the worksheet
+
+Chart chart = worksheet.Charts[0];
+
+//Save the chart in PDF format
+
+chart.ToPdf(outputFilePath);
+
+{{< /highlight >}}
+
+
+### **Metodo Workbook.RemoveUnusedStyles aggiunto**
+ Aspose.Cells for .NET 8.6.2 ha esposto il metodo Workbook.RemoveUnusedStyles che può essere utilizzato per[rimuovere tutti gli oggetti Style inutilizzati dal pool di stili](/cells/it/net/remove-unused-styles-inside-the-workbook/).
+
+Di seguito è riportato il semplice scenario di utilizzo.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Load spreadsheet
+
+Workbook workbook = new Workbook(inputFilePath);
+
+//Remove all unused styles from the template
+
+workbook.RemoveUnusedStyles();
+
+{{< /highlight >}}
+
+
+### **Proprietà Cells.Stile aggiunto**
+La proprietà Cells.Style può essere utilizzata per accedere allo stile per il foglio di lavoro che rappresenta lo stile predefinito.
+
+Di seguito è riportato il semplice scenario di utilizzo.
+
+**C#**
+
+{{< highlight "csharp" >}}
+
+ //Load a spreadsheet
+
+Workbook book = new Workbook(inputFilePath);
+
+//Access the default style of worksheet
+
+Style style = book.Worksheets[0].Cells.Style;
+
+{{< /highlight >}}
+
+
+### **Eventi aggiunti per GridWeb**
+Aspose.Cells.GridWeb for .NET 8.6.2 ha esposto i seguenti due nuovi eventi.
+
+1. AjaxCallFinished: si attiva al termine dell'aggiornamento AJAX del controllo. (EnableAJAX deve essere impostato su true).
+1. CellModifiedOnAjax: si attiva quando la cella viene modificata nella chiamata AJAX.

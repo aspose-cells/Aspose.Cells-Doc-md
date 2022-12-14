@@ -1,0 +1,20 @@
+﻿---
+title: Présentation des fonctionnalités
+type: docs
+weight: 10
+url: /fr/jasperreports/feature-overview/
+---
+{{% alert color="primary" %}}
+
+Aspose.Cells pour JasperReports est un produit permettant d'exporter des rapports de JasperReports et JasperServer au format Excel Microsoft. Aspose.Cells pour JasperReports hérite de toutes les fonctionnalités de l'exportateur intégré et compense certaines des faiblesses du moteur de rendu XLS d'origine de JasperReports. Cette section fournit une description détaillée de Aspose.Cells pour les fonctionnalités de JasperReports. Cliquez sur les liens respectifs dans le tableau pour en savoir plus sur les fonctionnalités.
+
+{{% /alert %}}
+
+|**Caractéristique** |**La description** |
+|:- |:- |
+|[Export XLS ou XLSX](/cells/fr/jasperreports/xls-or-xlsx-export/)| Exportez les rapports au format Microsoft Excel XLS à partir de votre application sans utiliser Microsoft Excel.|
+|[Haute fidélité à la conception du rapport](/cells/fr/jasperreports/high-fidelity-to-the-report-design/)| La mise en page et l'apparence d'un rapport XLS/XLSX correspondent à l'original, similaire au format PDF ou à d'autres formats.|
+|[Déploiement facile et léger](/cells/fr/jasperreports/easy-and-lightweight-deployment/)| Aspose.Cells pour[JasperReports](https://community.jaspersoft.com/project/jasperreports-library) est un[JasperReports](https://community.jaspersoft.com/project/jasperreports-library) et exportateur JasperServer au format Excel Microsoft.|
+|[Licence simple et abordable](/cells/fr/jasperreports/simple-and-affordable-licensing/)| Nous fournissons des licences abordables facilement utilisables dans le code source|
+|[Support technique gratuit de classe mondiale](/cells/fr/jasperreports/world-class-free-technical-support/)| Un support technique illimité est fourni directement par les développeurs du produit.|
+|[Divers](/cells/fr/jasperreports/miscellaneous/)| Des fonctionnalités plus efficaces sont fournies aux utilisateurs.|
