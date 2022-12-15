@@ -9,7 +9,7 @@ url: /tr/cpp/managing-document-properties/
 
 ![yapılacaklar:resim_alternatif_Metin](managing-document-properties_1.png)
 ## **Belge Özelliklerini Yönetme**
- Aşağıdaki örnek kod yükleri[örnek excel dosyası](23166989.xlsx) ve yerleşik belge özelliklerini okur, örneğin*Başlık, Konu* ve sonra onları değiştirir. Ardından özel belge özelliğini de okur, yani*Benim Özelim1* ve ardından yeni bir özel belge özelliği ekler, yani*Özelim5* ve yazar[çıktı excel dosyası](23166986.xlsx)Aşağıdaki ekran görüntüsü, örnek kodun örnek excel dosyası üzerindeki etkisini gösterir.
+ Aşağıdaki örnek kod yükleri[örnek excel dosyası](23166989.xlsx) ve yerleşik belge özelliklerini okur, örneğin*Başlık, Konu* ve sonra onları değiştirir. Ardından özel belge özelliğini de okur, yani*Benim Özelim1* ve ardından yeni bir özel belge özelliği ekler, yani*Özelim5* ve yazar[çıktı excel dosyası](23166986.xlsx). Aşağıdaki ekran görüntüsü, örnek kodun örnek excel dosyası üzerindeki etkisini gösterir.
 
 ![yapılacaklar:resim_alternatif_Metin](managing-document-properties_2.png)
 ## **Basit kod**

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 22.9 Release Notes
+title: Aspose.Cells for Java 22.9 Release Notes
 type: docs
 weight: 4
 url: /sv/java/aspose-cells-for-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 22.9](https://releases.aspose.com/cells/java/new-releases/aspose.cells-for-java-22.9/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 22.9](https://releases.aspose.com/cells/java/new-releases/aspose.cells-for-java-22.9/).
 
 {{% /alert %}}
 
@@ -20,16 +20,16 @@ url: /sv/java/aspose-cells-for-java-22-9-release-notes/
 |CELLSJAVA-44860|visningen av celltext är inte samma som i excel i vissa sammanslagna områden|
 |CELLSJAVA-44832|Flera sidor matas ut istället för en sida som i Excel vid konvertering till pdf|
 |CELLSJAVA-44812|Det går inte att minska plotytan för diagrammet|
-|CELLSJAVA-44831|MS Word visar ett felmeddelande "Word hittade oläsbart innehåll i..." när den konverterade DOCX-filen från XLSX-filen öppnas av Aspose.Cells för Java|
+|CELLSJAVA-44831|MS Word visar ett felmeddelande "Word hittade oläsbart innehåll i..." när den konverterade DOCX från XLSX-filen öppnas med Aspose.Cells for Java|
 |CELLSJAVA-44833|Textfärg tillämpas inte på olika ord eller delar av innehållet i den utgående Excel-filen när du använder metoden Cell.setHtmlString()|
 |CELLSJAVA-44852| Ramen är felaktig när den statiska Excel-filen konverteras till HTML|
 |CELLSJAVA-44856| Excel till HTML-konvertering - Sparkline (minidiagram) visas/renderas inte|
 |CELLSJAVA-44859|Vissa HTML-formateringar fungerar inte för kalkylbladsceller i en befintlig Excel-fil|
 |CELLSJAVA-44842|Undantag "java.lang.OutOfMemoryError: Java heap space" vid konvertering av en XLSX-fil till PDF|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till metoderna Cell.SetTableFormula(...).**
 

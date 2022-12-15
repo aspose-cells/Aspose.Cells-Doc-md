@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 8.7.0 Release Notes
+title: Aspose.Cells for .NET 8.7.0 Release Notes
 type: docs
 weight: 140
 url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 8.7.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.7.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 8.7.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.7.0/)
 
 {{% /alert %}} 
 
@@ -24,13 +24,13 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-43938) - Stöd för export av VBA-certifikat till fil eller stream
 
- (CELLSNET-43920) - Stöd ett API för att kontrollera om VBAcode är signerad
+ (CELLSNET-43920) - Stöd en API för att kontrollera om VBA-koden är signerad
 
  (CELLSNET-43867) - Signera VBA-projekt/makron digitalt
 
  (CELLSNET-44150) - Möjlighet att arbeta med XML-kartor
 
-(CELLSNET-43992) - Stöd för XML-mappningsimportfunktion som det görs från fliken Excel-utvecklare
+ (CELLSNET-43992) - Stöd för XML-mappningsimportfunktion som det görs från fliken Excel-utvecklare
 
 
 ## **Förbättringar**
@@ -42,7 +42,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44169) - Validation.Value1-arrayordningen skiljer sig från vad som visas i Excel
 
- (CELLSNET-44168) - Det går inte att skapa villkorlig formatering med 2-färgsskala
+(CELLSNET-44168) - Det går inte att skapa villkorlig formatering med 2-färgsskala
 
  (CELLSNET-44167) - Stöd ISOWEEKNUM MS Excel 2013-funktion
 
@@ -64,7 +64,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44164) - Ofullständig HTML-struktur när du sparar till en stream
 
-(CELLSNET-44147) - Uppdatering av pivottabellen genererar korrupt Excel-fil
+ (CELLSNET-44147) - Uppdatering av pivottabellen genererar korrupt Excel-fil
 
  (CELLSNET-44022) - Workbook.Copy bevarar inte formatering för pivottabeller
 
@@ -72,7 +72,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44135) - Excel-filen är inte korrekt (fullständigt) beräknad (avseende diagram) innan PDF-generering
 
- (CELLSNET-44138) - Cell skuggning överlappar gränsen vilket gör att gränsen förtunnas
+(CELLSNET-44138) - Cell skuggning överlappar gränsen vilket gör att gränsen förtunnas
 
  (CELLSNET-44136) - Excel visar en sida i förhandsgranskning där Aspose.Cells renderas till PDF-sidor
 
@@ -84,7 +84,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44153) - XLSB till XLSM fungerar inte korrekt och producerar skadad fil
 
-(CELLSNET-44149) - OleObjects tas bort efter konvertering från XLSB till XLSM
+ (CELLSNET-44149) - OleObjects tas bort efter konvertering från XLSB till XLSM
 
  (CELLSNET-44146) - Resultaten av villkorlig formatering återges inte korrekt i PDF
 
@@ -92,7 +92,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44141) - Diagrammets primära kategoriaxel blir fel när du sparar om källexcelfilen
 
- (CELLSNET-44160) - Horisontell axel ändrades till andra etiketter än den ursprungliga filen
+(CELLSNET-44160) - Horisontell axel ändrades till andra etiketter än den ursprungliga filen
 
  (CELLSNET-44157) - Anpassat diagrams primära x-axel har ändrats efter att ha öppnat och sparat mallen XLSX-fil
 
@@ -108,7 +108,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44064) - CalculateFormula kastar undantag på källan xlsm
 
-(CELLSNET-44055) - Aspose.Cell. Undantag orsakat av pdf-konvertering på grund av minnesinställningar
+ (CELLSNET-44055) - Aspose.Cell. Undantag orsakat av pdf-konvertering på grund av minnesinställningar
 
  (CELLSNET-44179) - Undantag vid inläsning av en HTML-fil (skapad från XSLT)
 
@@ -128,15 +128,15 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Buggar**
 
 
- (CELLSNET-44151) - JavaScript utlöses inte när innehåll tas bort från GridWeb-cellen
+(CELLSNET-44151) - JavaScript utlöses inte när innehåll tas bort från GridWeb-cellen
 
  (CELLSNET-44113) - Rubrikradstext visas också i filtervärdena
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 

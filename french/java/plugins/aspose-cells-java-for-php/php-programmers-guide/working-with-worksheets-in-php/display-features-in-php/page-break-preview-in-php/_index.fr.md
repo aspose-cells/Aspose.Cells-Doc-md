@@ -5,7 +5,7 @@ weight: 60
 url: /fr/java/page-break-preview-in-php/
 ---
 ## **Aspose.Cells - Aperçu des sauts de page**
- Pour définir la feuille de calcul sur l'aperçu des sauts de page à l'aide de**Aspose.Cells Java pour PHP** , invoquez simplement**Aperçu du saut de page** module.
+ Pour définir la feuille de calcul sur l'aperçu des sauts de page à l'aide de**Aspose.Cells Java for PHP** , invoquez simplement**Aperçu du saut de page** module.
 
 **Code PHP**
 

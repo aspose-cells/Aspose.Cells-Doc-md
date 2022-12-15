@@ -18,7 +18,7 @@ Belgelerle herhangi bir işlem yapmadan önce bir lisans ayarlamanız gerekir. B
 
 ## **Lisans dosyasının yüklenmesi**
 
- Java aracılığıyla Android için Aspose.Cells'de, lisans[kaynak olarak gömülü](/cells/tr/java/applying-a-license/#applying-a-license-from-an-embedded-resource)veya bir akıştan yüklendi:
+ Aspose.Cells for Android via Java numaralı telefondan ruhsat alınabilir.[kaynak olarak gömülü](/cells/tr/java/applying-a-license/#applying-a-license-from-an-embedded-resource)veya bir akıştan yüklendi:
 
 1.  Lisans dosyasını herhangi bir yere koyun**/mnt/sdkart/**.
 1. Dosyaya başvuran bir akış oluşturun.

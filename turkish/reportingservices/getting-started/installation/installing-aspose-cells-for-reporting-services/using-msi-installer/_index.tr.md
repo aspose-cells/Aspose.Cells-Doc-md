@@ -6,8 +6,8 @@ url: /tr/reportingservices/using-msi-installer/
 ---
 {{% alert color="primary" %}} 
 
--  Raporlama Hizmetleri için Aspose.Cells'in önceki bir sürümü yüklüyse, lütfen önce onu kaldırın. Görmek[Raporlama Hizmetleri için Aspose.Cells'i Kaldırma](/cells/tr/reportingservices/uninstalling-aspose-cells-for-reporting-services/) bileşenin nasıl kaldırılacağıyla ilgili konu.
-- [Raporlama Hizmetleri indirme sayfası için Aspose.Cells'i ziyaret edin](https://downloads.aspose.com/cells/reportingservices) ve bileşenin en son sürümünü içeren Aspose.Cells for Reporting Services MSI yükleyicisini indirin.
+- Aspose.Cells for Reporting Services'in önceki bir sürümü yüklüyse, lütfen önce onu kaldırın. Görmek[Kaldırma Aspose.Cells for Reporting Services](/cells/tr/reportingservices/uninstalling-aspose-cells-for-reporting-services/) bileşenin nasıl kaldırılacağıyla ilgili konu.
+- [Aspose.Cells for Reporting Services indirme sayfasını ziyaret edin](https://downloads.aspose.com/cells/reportingservices) ve bileşenin en son sürümünü içeren Aspose.Cells for Reporting Services MSI yükleyicisini indirin.
  - ReportingServices için Aspose.Cells Msi yalnızca Microsoft SQL Server 2008 Reporting Services ve sonraki ürünleri destekler.
 - İndirilen dosyayı çalıştırın ve yükleyici talimatlarını izleyin.
 
@@ -22,7 +22,7 @@ MSI yükleyiciyi kullanarak Aspose.Cells'i yüklemek için:
 
 
 
-1. Lisans sözleşmesini okuyup kabul edin ve tıklayın**Sonraki**.
+1.  Lisans sözleşmesini okuyup kabul edin ve tıklayın**Sonraki**.
 
 ![yapılacaklar:resim_alternatif_Metin](using-msi-installer_2.png)
 
@@ -36,7 +36,7 @@ MSI yükleyiciyi kullanarak Aspose.Cells'i yüklemek için:
 
 
 
-1.  Tıklayarak Raporlama Hizmetleri için Aspose.Cells'i yüklemek istediğinizi onaylayın.**Düzenlemek**. 
+1.  Aspose.Cells for Reporting Services'i tıklayarak yüklemek istediğinizi onaylayın**Düzenlemek**. 
 
 ![yapılacaklar:resim_alternatif_Metin](using-msi-installer_4.png)
 

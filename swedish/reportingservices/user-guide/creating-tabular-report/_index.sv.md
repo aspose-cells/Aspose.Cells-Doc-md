@@ -20,7 +20,7 @@ Radgruppen följer tätt efter tabelldataraden och består av två delar: gruppt
 
 Grupptaggen ska placeras till vänster om den första tabelldatakolumnen för att indikera att raden är radgruppens datarad. Formatet för grupptaggen är ##group{GroupColumn}, till exempel ##group{SalesOrderNumber} där SalesOrderNumber är ett av datamängden kolumnnamn. En tabell kan bara innehålla en radgrupp, men en radgrupp kan innehålla mer än en gruppdatarad. Grupptaggen får endast placeras i den första dataraden, som visas i exemplet ovan.
 
-Grupptaggen tas bort från Microsoft Excel-filen vid rendering. Radgrupper är valfria.
+Grupptaggen tas bort från utdatafilen Microsoft Excel vid renderingstidpunkten. Radgrupper är valfria.
 #### **Sidfötter**
  Sidfötter kommer efter radgruppen och innehåller tre delar: sidfotstagg, sidfotsdatarad och sidfotstextområde.
 
@@ -28,7 +28,7 @@ Footer-taggen ska placeras till vänster om den första kolumnen i tabelldatakol
 
 Sidfotstextområdet kan innehålla statisk text, rapportparametrar och globala rapportvariabler, som visas i exemplet ovan.
 
-Footer-taggen tas bort från Microsoft Excel-filen vid rendering. Sidfötter är valfria.
+Footer-taggen tas bort från utdata Microsoft Excel-fil vid rendering. Sidfötter är valfria.
 
 Utdata från exempelmallen visas nedan.
 

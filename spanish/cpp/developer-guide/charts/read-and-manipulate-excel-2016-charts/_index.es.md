@@ -7,11 +7,11 @@ url: /es/cpp/read-and-manipulate-excel-2016-charts/
 ## **Posibles escenarios de uso**
 Aspose.Cells admite la lectura y manipulación de gráficos de Microsoft Excel 2016 que no están presentes en Microsoft Excel 2013 o versiones anteriores.
 ## **Leer y manipular gráficos de Excel 2016**
- El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](66519072.xlsx) que contiene gráficos de Excel 2016 en la primera hoja de trabajo. Lee todos los gráficos uno por uno y cambia su título según su tipo de gráfico. La siguiente captura de pantalla muestra el archivo de Excel de muestra antes de la ejecución del código. Como puede ver, el título del gráfico es el mismo para todos los gráficos.
+ El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](66519072.xlsx) que contiene gráficos de Excel 2016 en la primera hoja de cálculo. Lee todos los gráficos uno por uno y cambia su título según su tipo de gráfico. La siguiente captura de pantalla muestra el archivo de Excel de muestra antes de la ejecución del código. Como puede ver, el título del gráfico es el mismo para todos los gráficos.
 
 ![todo:imagen_alternativa_texto](read-and-manipulate-excel-2016-charts_1.png)
 
- La siguiente captura de pantalla muestra la[archivo de salida de Excel](66519073.xlsx) después de la ejecución del código. Como puede ver, el título del gráfico cambia según su tipo de gráfico.
+La siguiente captura de pantalla muestra la[archivo de salida de Excel](66519073.xlsx) después de la ejecución del código. Como puede ver, el título del gráfico cambia según su tipo de gráfico.
 
 ![todo:imagen_alternativa_texto](read-and-manipulate-excel-2016-charts_2.png)
 ## **Código de muestra**

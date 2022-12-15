@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells för .NET 18.1 Release Notes
+title: Aspose.Cells for .NET 18.1 Release Notes
 type: docs
 weight: 120
 url: /sv/net/aspose-cells-for-net-18-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 18.1](https://www.nuget.org/packages/Aspose.Cells/18.1.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 18.1](https://www.nuget.org/packages/Aspose.Cells/18.1.0).
 
 {{% /alert %}} 
 ## **Stora nyheter**
 **Xamarin**
 
-Aspose.Cells för för .NET inkluderar nu även Aspose.Cells för iOS via Xamarin och Aspose.Cells för Android via Xamarin-sammansättningar med sina vanliga .NET Dlls.
+Aspose.Cells för for .NET inkluderar nu även Aspose.Cells för iOS via Xamarin och Aspose.Cells för Android via Xamarin-enheter med sina vanliga .NET Dlls.
 
 
 
@@ -68,8 +68,8 @@ Aspose.Cells för för .NET inkluderar nu även Aspose.Cells för iOS via Xamari
 |CELLSNET-45817|Undantag när du ställer in HTMLString på en cell till ett specifikt värde|Undantag|
 |CELLSNET-45832|Undantag vid laddning av en XLSM-fil i GridWeb|Undantag|
 |CELLSNET-45806|Undantag för indexering utanför intervall med subtraktionsformel för tidsfält i Aspose.Cells.GridDesktop|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen LoadOptions.ParsingPivotCachedRecords**
 Indikerar om tolkning av pivotcachade poster när filen laddas. Standardvärdet är falskt. Gäller endast filformaten Excel Xlsx, Xltx, Xltm, Xlsm och Xlsb.
 #### **Lägger till egenskapen HtmlSaveOptions.ExcludeUnusedStyles**

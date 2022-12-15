@@ -175,7 +175,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 
 **كيف تعمل؟**
 
- ال**احذف صف** يتم التعامل مع الزر من خلال وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteRow**:
+ ال**احذف صف** يتم التعامل مع الزر بواسطة وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteRow**:
 #### **WorksheetView.deleteRow**
 {{< highlight "java" >}}
 
@@ -215,7 +215,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 
 **كيف تعمل؟**
 
- ال**حذف العمود** يتم التعامل مع الزر من خلال وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteColumn**:
+ ال**حذف العمود** يتم التعامل مع الزر بواسطة وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
 {{< highlight "java" >}}
 

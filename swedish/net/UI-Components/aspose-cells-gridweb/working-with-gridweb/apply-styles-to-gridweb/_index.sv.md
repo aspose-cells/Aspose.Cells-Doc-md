@@ -23,7 +23,7 @@ För att spara på utvecklarnas ansträngningar erbjuder Aspose.Cells.GridWeb n�
 |Traditionell 1|Mörk|
 |Traditionell 2|grå|
 |Beställnings|Anpassat|
-När en viss stil väljs ändrar den hela utseendet på GridWeb-kontrollen. Utvecklare kan välja en förinställd stil som ska tillämpas på Grid under designtiden, men denna uppgift kan också utföras under körning med det flexibla API:et Aspose.Cells.GridWeb.
+När en viss stil väljs ändrar den hela utseendet på GridWeb-kontrollen. Utvecklare kan välja en förinställd stil som ska tillämpas på Grid under designtiden, men denna uppgift kan också utföras under körning med den flexibla API eller Aspose.Cells.GridWeb.
 
 {{% alert color="primary" %}} 
 

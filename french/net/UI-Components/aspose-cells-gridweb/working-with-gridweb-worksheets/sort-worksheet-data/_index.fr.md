@@ -12,7 +12,7 @@ Le tri est une fonctionnalité très précieuse lorsqu'il s'agit de traitement d
 ## **Tri des données**
 Aspose.Cells.GridWeb permet aux développeurs de trier les données horizontalement et verticalement afin que les développeurs puissent trier les données de haut en bas ou de gauche à droite.
 ### **Du haut jusqu'en bas**
-Pour trier les données de haut en bas :
+Pour trier les données de haut en bas :
 
 1. Ajoutez le contrôle Aspose.Cells.GridWeb à votre formulaire Web.
 1. Accédez à la feuille de calcul que vous souhaitez trier.

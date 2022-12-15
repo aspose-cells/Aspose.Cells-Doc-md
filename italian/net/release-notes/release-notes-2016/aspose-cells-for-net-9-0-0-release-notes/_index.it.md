@@ -19,9 +19,9 @@ url: /it/net/aspose-cells-for-net-9-0-0-release-notes/
 |CELLSNET-44581 | Problema con la conversione da foglio di calcolo a HTML: tag STYLE tra i tag BODY e HTML| Insetto|
 |CELLSNET-44718 |ICustomFunction non funziona con [@columnName]| Insetto|
 |CELLSNET-44705 | SUM errato visualizzato durante il calcolo delle formule| Insetto|
-|CELLSNET-44692 |API calcola in modo errato il valore della formula rispetto a MS Excel| Insetto|
+|CELLSNET-44692 | L'API calcola in modo errato il valore della formula rispetto a MS Excel| Insetto|
 |CELLSNET-44688 | Calcolo errato del valore della cella| Insetto|
-|CELLSNET-44684 | Valore errato dalla cella durante il calcolo delle formule| Insetto|
+|CELLSNET-44684 |Valore errato dalla cella durante il calcolo delle formule| Insetto|
 |CELLSNET-44716 | Il risultato PDF non corrisponde a Excel per la stampa delle righe del titolo| Insetto|
 |CELLSNET-44713 | I dati sono nascosti nel risultato della conversione del PDF| Insetto|
 |CELLSNET-44675 | Il rendering nel file immagine non riesce per un foglio di lavoro| Insetto|
@@ -31,11 +31,11 @@ url: /it/net/aspose-cells-for-net-9-0-0-release-notes/
 |CELLSNET-44714 | Salvando in memorystream (SpreadsheetML), il processo viene bloccato e richiede molto tempo| Insetto|
 |CELLSNET-44711 | Scoprire la riga nascosta da Aspose.Cells non funziona correttamente in Microsoft Excel| Insetto|
 |CELLSNET-44709 | La formula dell'immagine è sparita dopo aver rimosso e reinserito l'immagine| Insetto|
-|CELLSNET-44708 |Reincorporando la diapositiva della presentazione in XLS si ottiene la visualizzazione della presentazione con un doppio clic| Insetto|
+|CELLSNET-44708 | Reincorporando la diapositiva della presentazione in XLS si ottiene la visualizzazione della presentazione con un doppio clic| Insetto|
 |CELLSNET-44696 | La linea con la punta della freccia non viene visualizzata completamente nei formati XLSX e PDF| Insetto|
 |CELLSNET-44689 | Le impostazioni della stampante vengono modificate all'apertura e al nuovo salvataggio del file XLS di origine| Insetto|
-|CELLSNET-44683 |"pane" xml all'interno di "customSheetView" xml non replicato dal foglio di calcolo del progettista| Insetto|
-|CELLSNET-44660 | Gli assi Y e X del grafico diventano in grassetto dopo aver caricato e salvato un file XLS| Insetto|
+|CELLSNET-44683 | "pane" xml all'interno di "customSheetView" xml non replicato dal foglio di calcolo del progettista| Insetto|
+|CELLSNET-44660 |Gli assi Y e X del grafico diventano in grassetto dopo aver caricato e salvato un file XLS| Insetto|
 |CELLSNET-44658 | La dimensione del testo delle etichette dell'asse verticale del grafico viene modificata dopo il caricamento e il salvataggio del file XLS| Insetto|
 |CELLSNET-44691 | NullReferenceException in Workbook ctor a causa di display:none nell'HTML di origine| Eccezione|
 |CELLSNET-44685 | Il metodo Workbook.CalculateFormula() genera un'eccezione nel file Excel di origine| Eccezione|
@@ -45,8 +45,8 @@ url: /it/net/aspose-cells-for-net-9-0-0-release-notes/
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 |CELLSNET-44667 | L'ombreggiatura Cell dovuta alla formattazione condizionale non viene visualizzata sull'interfaccia GridWeb| Insetto|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà Shape.TextOptions**
 Rappresenta le opzioni di testo della forma.
 #### **Metodo Worksheet.SetBackground obsoleto**

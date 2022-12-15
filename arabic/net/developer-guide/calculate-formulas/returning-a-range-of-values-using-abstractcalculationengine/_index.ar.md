@@ -14,7 +14,7 @@ url: /ar/net/returning-a-range-of-values-using-abstractcalculationengine/
 
  يوضح الكود التالي استخدام امتداد[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) class وإرجاع نطاق القيم عبر طريقتها.
 
-إنشاء فئة مع وظيفة*احسبدالة مخصصة*. هذه الفئة تنفذ[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+ إنشاء فئة مع وظيفة*احسبدالة مخصصة*. هذه الفئة تنفذ[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

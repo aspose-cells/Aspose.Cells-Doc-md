@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /zh/python-java/limitations-and-api-differences/
 keywords: python, excel, limitation, api, difference
-description: Aspose.Cells 为 Python 通过 Java 限制和 api 差异
+description: Aspose.Cells for Python via Java 限制和api差异
 ---
 ## **公共 API 差异**
 ### **例子**
@@ -32,7 +32,7 @@ public class Test1 {
 
 
 
-**Aspose.Cells 为 Python 通过 Java**
+**Aspose.Cells for Python via Java**
 
 {{< highlight "python" >}}
 

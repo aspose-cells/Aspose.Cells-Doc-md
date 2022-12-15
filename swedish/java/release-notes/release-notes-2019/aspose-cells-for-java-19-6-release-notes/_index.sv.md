@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 19.6 Release Notes
+title: Aspose.Cells for Java 19.6 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-19-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.6.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.6.
 
 {{% /alert %}} 
 
@@ -27,8 +27,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.6.
 |CELLSJAVA-42908|Undantag vid anrop av Name.getRefersTo()|Undantag|
 |CELLSJAVA-42926|IllegalStateException vid inläsning av arbetsbok|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till enum FileFormatType.FODS,FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS och SaveFormat.SXC**
 Representerar filformatstyperna .FODS och .SXC.
 ### **Lägger till enum WarningType.UnsupportedFileFormat**

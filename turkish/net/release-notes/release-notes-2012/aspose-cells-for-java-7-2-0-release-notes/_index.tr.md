@@ -43,7 +43,7 @@ Aspose.Cells
 
 
 
-- .NET C++ Yapı Hatası C2686
+- .NET C++ Derleme Hatası C2686
 - XLS dosyasını XLSX'e dönüştürme metin biçimlendirmesini at
 - Grafikleri bir çalışma kitabından diğerine kopyalama
 - Çalışma sayfası kopyalandıktan sonra bozuk hücre renklendirmesi

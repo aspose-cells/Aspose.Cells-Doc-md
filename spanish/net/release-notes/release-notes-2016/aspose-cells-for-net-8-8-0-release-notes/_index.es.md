@@ -8,10 +8,10 @@ url: /es/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSNET-44376 | Proporcione la capacidad de prohibir la conversión de valores numéricos largos a notación exponencial al importar desde HTML| Nueva caracteristica|
-|CELLSNET-44360 | Detección de comillas simples iniciales en la celda| Nueva caracteristica|
-|CELLSNET-44356 | Obtenga la dirección de la celda de destino o de salida para una conexión externa| Nueva caracteristica|
-|CELLSNET-44340 | Soporte para la localización (alemán) de la validación del lado del cliente| Nueva caracteristica|
+|CELLSNET-44376 | Proporcione la capacidad de prohibir la conversión de valores numéricos largos a notación exponencial al importar desde HTML|Nueva caracteristica|
+|CELLSNET-44360 | Detección de comillas simples iniciales en la celda|Nueva caracteristica|
+|CELLSNET-44356 | Obtenga la dirección de la celda de destino o de salida para una conexión externa|Nueva caracteristica|
+|CELLSNET-44340 | Soporte para la localización (alemán) de la validación del lado del cliente|Nueva caracteristica|
 |CELLSNET-44345 | La fórmula para WordArt no reacciona al cambio de argumento al convertir XLS a XLSB| Mejora|
 |CELLSNET-44342 | El proceso parece bloquearse con un uso de CPU del 100 % para convertir una hoja de cálculo de una sola página a PDF| Actuación|
 |CELLSNET-44324 | XLSM se corrompe después de volver a llenar los datos y actualizar la tabla dinámica| Insecto|
@@ -42,7 +42,7 @@ url: /es/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSNET-44350 | Agregar alerta de tiempo de espera de sesión para GridWeb| Nueva caracteristica|
+|CELLSNET-44350 | Agregar alerta de tiempo de espera de sesión para GridWeb|Nueva caracteristica|
 |CELLSNET-44339 | 500 Error interno: "Error en Cell: fórmula no válida" al insertar una fórmula no válida en la interfaz de usuario de GridWeb| Excepción|
 |CELLSNET-44326 | Al hacer clic en una celda, el texto formateado cambia a su fuente HTML| Insecto|
 |CELLSNET-44325 | GridWeb cambia el contenido de la lista/desplegable de validación de datos| Insecto|

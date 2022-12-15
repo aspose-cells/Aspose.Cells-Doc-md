@@ -6,7 +6,7 @@ url: /de/cpp/chart-rendering/
 ---
 ## **Erstellen von Diagrammen**
 
-Aspose.Cells API-Unterstützung zum Erstellen einer Vielzahl von Excel-Diagrammen, wie unter dem Thema beschrieben[Erstellen und Anpassen von Excel-Diagrammen](/cells/de/cpp/creating-and-customizing-charts/)Um die Verwendung von Aspose.Cells-APIs zum Rendern der Diagramme im Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ Column gemäß dem folgenden Snippet.
+Aspose.Cells API-Unterstützung zum Erstellen einer Vielzahl von Excel-Diagrammen, wie unter dem Thema beschrieben[Erstellen und Anpassen von Excel-Diagrammen](/cells/de/cpp/creating-and-customizing-charts/). Um die Verwendung von Aspose.Cells-APIs zum Rendern der Diagramme im Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ Column gemäß dem folgenden Snippet.
 
 {{< highlight "cpp" >}}
 

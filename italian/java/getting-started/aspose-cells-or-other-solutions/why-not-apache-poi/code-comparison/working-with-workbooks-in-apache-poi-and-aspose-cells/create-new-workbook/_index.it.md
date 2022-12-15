@@ -7,7 +7,7 @@ url: /it/java/create-new-workbook/
 ## **Aspose.Cells - Crea nuova cartella di lavoro**
 La classe della cartella di lavoro è disponibile per un uso semplice
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -19,7 +19,7 @@ workbook.save("newWorkBook.xlsx", SaveFormat.XLSX); //Workbooks can be saved in 
 ## **Apache POI SS - HSSF XSSF - Crea nuova cartella di lavoro**
 Crea una nuova cartella di lavoro utilizzando la classe Workbook e salva utilizzando FileOutputStream.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

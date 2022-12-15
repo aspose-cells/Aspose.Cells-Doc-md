@@ -6,7 +6,7 @@ url: /es/java/detect-merged-cells-in-xlsx4j/
 ---
 ## **Aspose.Cells - Detectar combinado Cells**
 En Microsoft Excel, se pueden combinar varias celdas en una sola. Esto se usa a menudo para crear tablas complejas o para crear una celda que contiene un encabezado que abarca varias columnas.
-Aspose.Cells le permite identificar áreas de celdas combinadas en una hoja de cálculo. También puedes separarlos.
+Aspose.Cells le permite identificar áreas de celdas combinadas en una hoja de trabajo. También puedes separarlos.
 
 **Java**
 

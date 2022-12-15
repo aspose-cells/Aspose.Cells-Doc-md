@@ -5,7 +5,7 @@ weight: 60
 url: /fr/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
- Pour définir la feuille de calcul sur l'aperçu des sauts de page à l'aide de**Aspose.Cells Java pour Python** , invoquez simplement**Aperçu du saut de page** module.
+ Pour définir la feuille de calcul sur l'aperçu des sauts de page à l'aide de**Aspose.Cells Java for Python** , invoquez simplement**Aperçu du saut de page** module.
 
 **Code Python**
 

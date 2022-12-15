@@ -60,7 +60,7 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 
 如果您在此阶段保存生成的电子表格，工作表中的数据将如下所示。
 
-![待办事项：图片_替代_文本](generate-chart-by-processing-smart-markers_1.png)
+![待办事项：图像_替代_文本](generate-chart-by-processing-smart-markers_1.png)
 ## **Processing Designer 电子表格**
 为了处理设计器电子表格，我们必须有一个与设计器电子表格中使用的智能标记相对应的数据源。例如，我们创建了一个智能标记条目作为**&=$标题（水平）** 表示变量的名称 Headers 而键**（水平的）**建议数据应水平填充。
 
@@ -118,7 +118,7 @@ designer.process();
 
 如果您在此阶段保存电子表格，数据将如下所示。
 
-![待办事项：图片_替代_文本](generate-chart-by-processing-smart-markers_2.png)
+![待办事项：图像_替代_文本](generate-chart-by-processing-smart-markers_2.png)
 
 {{% alert color="primary" %}} 
 
@@ -142,4 +142,4 @@ designer.process();
 
 最终图表如下所示。
 
-![待办事项：图片_替代_文本](generate-chart-by-processing-smart-markers_3.png)
+![待办事项：图像_替代_文本](generate-chart-by-processing-smart-markers_3.png)

@@ -42,7 +42,7 @@ cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[]{ 1 });
 workbook.Save("AsposeTotal.xls"); 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**احسب المجاميع الفرعية** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)

@@ -5,7 +5,7 @@ weight: 10
 url: /es/java/protecting-worksheets-in-python/
 ---
 ## **Aspose.Cells - Hojas de trabajo de protección**
- Para proteger la hoja de trabajo usando**Aspose.Cells Java para Python** , llamar**proteger_hoja de trabajo** método de**proteccion** módulo.
+ Para proteger la hoja de trabajo usando**Aspose.Cells Java for Python** , llamar**proteger_hoja de trabajo** método de**proteccion** módulo.
 
 **Código Python**
 

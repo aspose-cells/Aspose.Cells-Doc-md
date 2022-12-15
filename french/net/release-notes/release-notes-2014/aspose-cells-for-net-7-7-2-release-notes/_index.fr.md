@@ -25,7 +25,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
  Prise en charge de l'ouverture de fichiers MS Excel 2013 protégés par mot de passe
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Nouvelles fonctionnalités**
 
@@ -90,7 +90,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42297) - Graphique manquant dans le HTML
 
- (CELLSNET-42296) - Tableau manquant dans le PDF
+ (CELLSNET-42296) - Graphique manquant dans le PDF
 
  (CELLSNET-41743) - Problème de forme dans la conversion XLSX en image
 

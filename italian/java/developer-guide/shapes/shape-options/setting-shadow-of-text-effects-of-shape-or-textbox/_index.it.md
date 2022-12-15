@@ -18,7 +18,7 @@ url: /it/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
 {{% /alert %}} 
 ## **Impostazione dell'ombreggiatura degli effetti di testo di Shape o TextBox**
- Lo screenshot seguente mostra il[file excel di output](5473446.xlsx) generato con il seguente codice di esempio. Lo screenshot mostra anche il valore di**Ombra** che è stato impostato come**Scostamento inferiore**.
+Lo screenshot seguente mostra il[file excel di output](5473446.xlsx) generato con il seguente codice di esempio. Lo screenshot mostra anche il valore di**Ombra** che è stato impostato come**Scostamento inferiore**.
 
 ![cose da fare:immagine_alt_testo](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 

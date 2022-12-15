@@ -5,11 +5,11 @@ weight: 170
 url: /sv/net/disable-compatibility-checker-in-excel/
 keywords: c# excel disable compatibility checke
 ---
-## Inaktivera kompatibilitetskontroll i Excel-kalkylblad i C#
+## Inaktivera kompatibilitetskontrollen i Excel-kalkylblad i C#
 
 {{% alert color="primary" %}}
 
-Microsoft Excels flaggor för kompatibilitetskontroll när du sparar en fil i ett tidigare filformat kan orsaka funktionsproblem eller förlust av trovärdighet. Kompatibilitetskontrollen är en funktion i Microsoft Office Excel 2007 och Microsoft Excel 2010.
+Microsoft Excels kompatibilitetskontroll-flaggor när du sparar en fil i ett tidigare filformat kan orsaka funktionsproblem eller förlust av tillförlitlighet. Kompatibilitetskontrollen är en funktion i Microsoft Office Excel 2007 och Microsoft Excel 2010.
 
 När du sparar en arbetsbok i en tidigare version, Excel 97 till Excel 2003, från Excel 2007 eller Excel 2010, genomsöker kompatibilitetskontrollen arbetsboken för att se om den innehåller funktioner som inte stöds av den tidigare versionen. För att hjälpa dig fatta beslut om hur du ska hantera kompatibilitetsproblem visar kompatibilitetskontrollen dialogrutor med alternativ. Den kan också användas för att skapa en rapport om eventuella problem i arbetsboken, eller inaktivera funktionen.
 
@@ -30,6 +30,6 @@ Så här inaktiverar du kompatibilitetskontrollen i Microsoft Excel (till exempe
 
 ### **Kodexempel**
 
-Kodexemplen som följer visar hur du inaktiverar kompatibilitetskontrollen med Aspose.Cells för .NET.
+Kodexemplen som följer visar hur du inaktiverar kompatibilitetskontrollen med Aspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}

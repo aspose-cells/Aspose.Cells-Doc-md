@@ -8,7 +8,7 @@ url: /it/java/copy-shapes-between-worksheets/
 
 volte, è necessario copiare immagini, grafici e altri oggetti di disegno diversi in fogli di lavoro diversi secondo le proprie esigenze. Aspose.Cells supporta la copia di forme tra fogli di lavoro. I grafici, le immagini e altri oggetti vengono copiati con il massimo grado di precisione.
 
-Potresti provare Office Automation, ma questo ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio sicurezza, stabilità, scalabilità, velocità, prezzo e funzionalità. In breve, ci sono molte ragioni, la prima delle quali è che gli stessi Microsoft sconsigliano vivamente l'automazione dell'ufficio dalle soluzioni software.
+Potresti provare Office Automation, ma questo ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio sicurezza, stabilità, scalabilità, velocità, prezzo e funzionalità. In breve, ci sono molte ragioni, la prima delle quali è che la stessa Microsoft sconsiglia vivamente l'automazione dell'ufficio dalle soluzioni software.
 
 In questo articolo, creiamo un'applicazione console, eseguiamo la copia di immagini, grafici e altri oggetti di disegno tra fogli di lavoro di una cartella di lavoro con poche e semplici righe di codice utilizzando Aspose.Cells.
 
@@ -64,7 +64,7 @@ Per impostare un Class Path utilizzando Eclipse, eseguire i seguenti passaggi:
 1. Selezionare "Java Build Path" nella parte sinistra della finestra popup, quindi selezionare la scheda "Librerie", fare clic su "Aggiungi JAR" o "Aggiungi JAR esterni" per selezionare Aspose.Cells.jar e dom4j_1.6.1.jar e aggiungerli alla build percorsi.
 1. Scrivere un'applicazione per richiamare le API dei componenti di Aspose.
 
-Oppure puoi impostarlo in fase di esecuzione al prompt di DOS in Windows. Ad esempio:
+Oppure puoi impostarlo in fase di esecuzione al prompt di DOS in Windows. Per esempio:
 
 javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar; Nome della classe
 

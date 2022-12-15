@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Tüm Sayfa Sonlarını Temizleme**
- kullanarak tüm sayfa sonlarını temizlemek için**Aspose.Cells Java için Python** , aramak**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ kullanarak tüm sayfa sonlarını temizlemek için**Aspose.Cells Java for Python** , aramak**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **Python Kod**
 
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Belirli Sayfa Sonunu Kaldırma**
- Kullanarak belirli sayfa sonunu kaldırmak için**Aspose.Cells Java için Python** , aramak**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ Kullanarak belirli sayfa sonunu kaldırmak için**Aspose.Cells Java for Python** , aramak**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **Python Kod**
 

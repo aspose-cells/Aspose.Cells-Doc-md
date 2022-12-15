@@ -12,7 +12,7 @@ url: /it/java/rich-text-custom-data-label-of-chart-point/
 
 ## **Etichetta dati personalizzata Rich Text del punto del grafico**
 
-Il codice seguente accede al primo punto del grafico della prima serie, ne imposta il testo e quindi imposta il carattere dei primi 10 caratteri impostando color su red e boldness su true.
+Il codice seguente accede al primo punto del grafico della prima serie, ne imposta il testo e quindi imposta il carattere dei primi 10 caratteri impostando color su rosso e grassetto su true.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RichTextCustomData-RichTextCustomData.java" >}}
 

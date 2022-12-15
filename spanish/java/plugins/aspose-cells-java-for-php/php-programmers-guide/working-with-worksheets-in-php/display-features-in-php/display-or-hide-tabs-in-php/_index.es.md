@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells - Mostrar u ocultar pestañas**
 ### **Ocultar pestañas**
- Para ocultar pestañas usando**Aspose.Cells Java para PHP** , llamar**Mostrar ocultar pestañas** módulo.
+ Para ocultar pestañas usando**Aspose.Cells Java for PHP** , llamar**Mostrar ocultar pestañas** módulo.
 
 **Código PHP**
 

@@ -12,12 +12,12 @@ url: /zh/net/implementing-griddesktops-data-binding-feature-in-worksheets/
 ## **创建示例数据库**
 1. 创建一个示例数据库以用于示例。我们使用 Microsoft Access 创建了一个带有 Products 表（架构如下）的示例数据库。
 
-![待办事项：图片_替代_文本](implementing-griddesktops-data-binding-feature-in-worksheets_1.png)
+![待办事项：图像_替代_文本](implementing-griddesktops-data-binding-feature-in-worksheets_1.png)
 
 1. Products 表中添加了三个虚拟记录。
    **产品表中的记录** 
 
-![待办事项：图片_替代_文本](implementing-griddesktops-data-binding-feature-in-worksheets_2.png)
+![待办事项：图像_替代_文本](implementing-griddesktops-data-binding-feature-in-worksheets_2.png)
 ## **创建示例应用程序**
 现在在 Visual Studio 中创建一个简单的桌面应用程序并执行以下操作。
 

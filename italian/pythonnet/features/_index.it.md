@@ -4,11 +4,11 @@ type: docs
 weight: 5
 url: /it/python-net/features/
 keywords: python, excel, api, feature
-description: Aspose.Cells per Python tramite .NET caratteristiche
+description: Aspose.Cells for Python via .NET caratteristiche
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina riassume le caratteristiche di Aspose.Cells per Python tramite .NET.
+Questa pagina riassume le caratteristiche di Aspose.Cells for Python via .NET.
 
 {{% /alert %}} 
 ## **Formati di file e conversioni**
@@ -20,9 +20,9 @@ Questa pagina riassume le caratteristiche di Aspose.Cells per Python tramite .NE
 - Trasforma il foglio di calcolo in PDF con alta fedeltà
 ## **Caratteristiche del contenuto del foglio di calcolo**
 - Copia o sposta i fogli di lavoro all'interno o tra le cartelle di lavoro
-- Inserisci immagini, crea grafici convenzionali e personalizzati e imposta lo sfondo sfumato per i grafici utilizzando API
+- Inserisci immagini, crea grafici convenzionali e personalizzati e imposta lo sfondo sfumato per i grafici utilizzando l'API
 - Aggiungi commenti alle celle
-- Microsoft Excel 2007 e versioni successive temi e colori
+- Temi e colori di Microsoft Excel 2007 e versioni successive
 - Crea filtri automatici
 - Implementare le convalide dei dati
 - Implementare l'ordinamento dei dati
@@ -38,14 +38,14 @@ Questa pagina riassume le caratteristiche di Aspose.Cells per Python tramite .NE
 - Specificare le impostazioni delle proprietà del documento
 - Proteggere/rimuovere la protezione dei fogli di lavoro
 - Specificare le opzioni di protezione avanzate introdotte in Excel XP e versioni successive
-- Crea oggetto elenco/Microsoft Tabelle Excel
+- Crea oggetti elenco/tabelle di Microsoft Excel
 - Crea subtotali
 - Inserisci i controlli del modulo e altre forme/oggetti di disegno
 - Crea tabelle pivot e grafici pivot
 - Conserva o rimuovi componenti aggiuntivi, VBA, macro
 - Manipolare intervalli denominati
 - Aggiungi, conserva o estrai oggetti OLE dai fogli di calcolo.
-- Implementa gli sparkline di Excel Microsoft
+- Implementa gli sparkline di Microsoft Excel
 - Crittografare i file
 ## **Funzionalità di formattazione del foglio di calcolo**
 - Applica la formattazione di tutti i caratteri nelle celle inclusi caratteri, colori, effetti, bordi e ombreggiatura

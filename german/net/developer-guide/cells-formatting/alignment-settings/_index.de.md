@@ -15,7 +15,7 @@ Wie Sie der obigen Abbildung entnehmen können, gibt es verschiedene Ausrichtung
 - Textausrichtung (horizontal & vertikal)
 - Vertiefung.
 - Orientierung.
-- Textkontrolle.
+- Textsteuerung.
 - Textrichtung.
 
 Alle diese Ausrichtungseinstellungen werden von Aspose.Cells vollständig unterstützt und unten ausführlicher erläutert.
@@ -73,7 +73,7 @@ Alle diese Ausrichtungseinstellungen werden von Aspose.Cells vollständig unters
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
 
-#### **Textkontrolle**
+#### **Textsteuerung**
 
 Im folgenden Abschnitt wird erläutert, wie Sie Text steuern, indem Sie Textumbruch, Anpassen verkleinern und andere Formatierungsoptionen festlegen.
 

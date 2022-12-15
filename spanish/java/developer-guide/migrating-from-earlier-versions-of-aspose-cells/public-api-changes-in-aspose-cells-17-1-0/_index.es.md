@@ -132,7 +132,7 @@ Aspose.Cells 17.1.0 ha expuesto las propiedades PaperWidth y PaperHeight para la
 
 {{% alert color="primary" %}} 
 
- Consulte el artículo detallado sobre[Recuperación del tamaño de papel de la hoja de cálculo](/cells/es/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+ Consulte el artículo detallado sobre[Recuperación del tamaño de papel de la hoja de trabajo](/cells/es/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
 
 {{% /alert %}} 
 ### **Se agregó la propiedad WorkbookSettings.CheckCustomNumberFormat**

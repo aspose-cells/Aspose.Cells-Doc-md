@@ -6,7 +6,7 @@ url: /tr/net/managing-griddesktops-context-menu/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop, yaygın olarak kullanılan tüm komutları içeren bir bağlam menüsüne sahiptir. Kontrol, menü öğelerini gizlemenizi/göstermenizi sağlar. Ayrıca, olay işleyicileri ile menüye yeni menü öğeleri eklemek mümkündür.
+Aspose.Cells.GridDesktop, yaygın olarak kullanılan tüm komutları içeren bir içerik menüsüne sahiptir. Kontrol, menü öğelerini gizlemenizi/göstermenizi sağlar. Ayrıca, olay işleyicileri ile menüye yeni menü öğeleri eklemek mümkündür.
 
 {{% /alert %}} 
 ## **giriiş**

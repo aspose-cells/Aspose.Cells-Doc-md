@@ -28,7 +28,7 @@ etc.
 
 以下示例代码将图表数据标签的形状类型更改为[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT).请参阅[示例 Excel 文件](60489794.xlsx)用于此代码和[输出Excel文件](60489793.xlsx)由它产生。屏幕截图显示了代码对示例 Excel 文件的影响。
 
-![待办事项：图片_替代_文本](set-the-shape-type-of-data-labels-of-chart_1.png)
+![待办事项：图像_替代_文本](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **示例代码**
 

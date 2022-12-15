@@ -10,7 +10,7 @@ url: /zh/java/setting-shared-formula/
 
 **包含一列或数据的输入文件** 
 
-![待办事项：图片_替代_文本](setting-shared-formula_1.png)
+![待办事项：图像_替代_文本](setting-shared-formula_1.png)
 
 您想要在 B2 中添加一个函数来计算第一行数据的销售税。税收是**9%**.计算销售税的公式是：**“=A2*0.09”**.本文介绍如何将此公式应用于 Aspose.Cells。
 
@@ -28,6 +28,6 @@ url: /zh/java/setting-shared-formula/
 
 **输出文件：应用共享公式** 
 
-![待办事项：图片_替代_文本](setting-shared-formula_2.png)
+![待办事项：图像_替代_文本](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}

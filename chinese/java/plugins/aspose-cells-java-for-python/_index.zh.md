@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 为 Python
+title: Aspose.Cells Java for Python
 type: docs
 weight: 60
 url: /zh/java/aspose-cells-java-for-python/
@@ -22,7 +22,7 @@ Aspose.Cells Java for Python是一个演示/提供Python中Aspose.Cells for Java
 
 ## **系统要求**
 
-**以下是将 Aspose.Cells Java 用于 Python 的系统要求：**
+**以下是使用 Aspose.Cells Java for Python 的系统要求：**
 
 - jpype
 - 下载 Aspose.Cells 组件。

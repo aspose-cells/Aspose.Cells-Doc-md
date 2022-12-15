@@ -11,7 +11,7 @@ url: /zh/cpp/public-api-changes-in-aspose-cells-17-1-0/
 {{% /alert %}} 
 ## **添加的 API**
 ### **支持命名范围**
-Aspose.Cells for C++ 现在支持命名范围的创建和操作。下面的代码片段演示了使用 Aspose.Cells 为 C++ API 是多么简单[创建命名范围](/cells/zh/cpp/create-named-range-in-a-workbook/).
+Aspose.Cells for C++ 现在支持命名范围的创建和操作。以下代码片段演示了使用 Aspose.Cells for C++ API 是多么简单[创建命名范围](/cells/zh/cpp/create-named-range-in-a-workbook/).
 
 **C++**
 
@@ -57,7 +57,7 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
-除了创建新的命名范围外，Aspose.Cells 的 C++ API 还支持操作现有的命名范围。以下代码片段使用 Aspose.Cells 为 C++ API 来[操纵现有的命名范围](/cells/zh/cpp/manipulate-named-range-in-a-workbook/).
+除了创建新的命名范围外，Aspose.Cells for C++ API 还支持操作现有的命名范围。以下代码片段使用 Aspose.Cells for C++ API 来[操纵现有的命名范围](/cells/zh/cpp/manipulate-named-range-in-a-workbook/).
 
 **C++**
 
@@ -121,9 +121,9 @@ Aspose.Cells for C++ 17.1.0 已将 GetLinksUpToDate 和 SetLinksUpToDate 方法�
 ### **添加了 GetAbsolutePath 和 SetAbsolutePath 方法**
 Aspose.Cells for C++ 17.1.0 已将 GetAbsolutePath 和 SetAbsolutePath 方法公开给 IWorkbook 类。这些方法对于获取或设置只能用于外部链接的文件的绝对路径很有用。
 ### **添加了 GetFormula 和 SetFormula 方法**
-C++ 的 Aspose.Cells 版本公开了 IListColumn 类的 GetFormula 和 SetFormula 方法。这些方法对于获取或设置列表列的公式很有用。
+此版本 Aspose.Cells for C++ 公开了 IListColumn 类的 GetFormula 和 SetFormula 方法。这些方法对于获取或设置列表列的公式很有用。
 ### **添加了 GetCheckCompatibility 和 SetCheckCompatibility 方法**
-C++ 的 Aspose.Cells 版本公开了 IWorkbookSettings 类的 GetCheckCompatibility 和 GetCheckCompatibility 方法。这些方法可用于获取或设置兼容性检查属性，指示 API 是否应在保存工作簿时检查兼容性。默认值为true，如果应用要求不需要检查兼容性，可以设置为false。
+此版本 Aspose.Cells for C++ 公开了 IWorkbookSettings 类的 GetCheckCompatibility 和 GetCheckCompatibility 方法。这些方法可用于获取或设置兼容性检查属性，指示 API 是否应在保存工作簿时检查兼容性。默认值为true，如果应用要求不需要检查兼容性，可以设置为false。
 ### **添加了 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法**
 Aspose.Cells for C++ 现在公开了 ILoadOptions 类的 GetILightCellsDataHandler 和 SetILightCellsDataHandler 方法。这些方法表示在读取模板文件时处理单元格数据的数据处理程序。
 ### **添加了 GetCultureInfo 和 SetCultureInfo 方法**
@@ -138,7 +138,7 @@ Aspose.Cells for C++ 公开了 ILoadOptions 类的 GetCultureInfo 和 SetCulture
 
 {{% alert color="primary" %}} 
 
-随着 C++ 17.1.0 的 Aspose.Cells 的发布，我们删除了一些未使用的方法，因此被认为是不必要的。这是所有此类方法的列表。
+随着 Aspose.Cells for C++ 17.1.0 的发布，我们删除了一些未使用的方法，因此被认为是不必要的。这是所有此类方法的列表。
 
 - IPaneCollection::GetAcitvePaneType 和 SetAcitvePaneType 方法
 - IRange::ToString 方法

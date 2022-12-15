@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 19.9 Release Notes
+title: Aspose.Cells for .NET 19.9 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 19.9](https://www.nuget.org/packages/Aspose.Cells/19.9.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 19.9](https://www.nuget.org/packages/Aspose.Cells/19.9.0).
 
 {{% /alert %}} 
 
@@ -35,8 +35,8 @@ url: /sv/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46909|OLE Objects formatering ändrades efter att Excel-filen öppnades och sparades|Insekt|
 |CELLSNET-46857|Filteranslutningar på pivotdiagram förlorar inställningar vid spara efter att ha uppdaterat pivottabeller|Insekt|
 |CELLSNET-46862|Inställningen "Dölj objekt utan data" i slicer går förlorad efter uppdatering av pivottabeller|Insekt|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Tar bort föråldrad Chart.Rotation-egenskap**
 Använd egenskapen Chart.RotationAngle istället.
 #### **Tar bort föråldrad Chart.IsDataTableShownproperty**

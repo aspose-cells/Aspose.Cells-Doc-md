@@ -36,7 +36,7 @@ WorkbookService è un bean backend JSF con ambito di visualizzazione. Funziona c
 
 **dentro**
 
- Il**dentro** è**PostConstruct** metodo che viene eseguito subito dopo che la creazione dell'oggetto è stata completata dall'Application Server Java. Controlla**URL** parametro nella mappa dei parametri della richiesta e carica il foglio di calcolo corrispondente da una determinata posizione, se possibile.
+ Il**dentro** è**PostConstruct** metodo che viene eseguito subito dopo che la creazione dell'oggetto è stata completata da Java Application Server. Controlla**URL**parametro nella mappa dei parametri della richiesta e carica il foglio di calcolo corrispondente da una determinata posizione, se possibile.
 
 **distruggere**
 

@@ -12,7 +12,7 @@ url: /zh/net/sort-data-in-column-with-custom-sort-list/
 
 以下示例代码解释了如何使用 [**DataSorter.AddKey 方法 (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey /methods/3) 使用自定义排序列表对数据进行排序的方法。请参阅此代码中使用的[示例 Excel 文件](50528327.xlsx) 及其生成的[输出 Excel 文件](50528328.xlsx)。下面的屏幕截图显示了示例 Excel 文件中的代码在执行时的效果。
 
-![待办事项：图片_替代_文本](sort-data-in-column-with-custom-sort-list_1.png)
+![待办事项：图像_替代_文本](sort-data-in-column-with-custom-sort-list_1.png)
 
 ## **示例代码**
 

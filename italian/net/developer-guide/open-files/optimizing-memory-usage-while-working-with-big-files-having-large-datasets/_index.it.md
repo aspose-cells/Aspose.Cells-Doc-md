@@ -6,7 +6,7 @@ url: /it/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 ---
 {{% alert color="primary" %}}
 
-Quando si crea una cartella di lavoro con set di dati di grandi dimensioni o si legge un file Excel di grandi dimensioni Microsoft, la quantità totale di RAM occupata dal processo è sempre un problema. Ci sono misure che possono essere adattate per far fronte alla sfida. Aspose.Cells fornisce alcune opzioni rilevanti e API chiama per ridurre, ridurre e ottimizzare l'utilizzo della memoria. Inoltre, può aiutare il processo a funzionare in modo più efficiente e a funzionare più velocemente.
+Quando si crea una cartella di lavoro con set di dati di grandi dimensioni o si legge un file di Microsoft Excel di grandi dimensioni, la quantità totale di RAM occupata dal processo è sempre un problema. Ci sono misure che possono essere adattate per far fronte alla sfida. Aspose.Cells fornisce alcune opzioni rilevanti e chiamate API per abbassare, ridurre e ottimizzare l'utilizzo della memoria. Inoltre, può aiutare il processo a funzionare in modo più efficiente e a funzionare più velocemente.
 
  Utilizzare il[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) opzione per ottimizzare l'uso della memoria per i dati delle celle e ridurre il costo complessivo della memoria. Quando si crea un set di dati di grandi dimensioni per le celle, è possibile risparmiare una certa quantità di memoria rispetto all'utilizzo dell'impostazione predefinita ([**MemorySetting.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
 
@@ -16,7 +16,7 @@ Quando si crea una cartella di lavoro con set di dati di grandi dimensioni o si 
 
 ### **Lettura di file Excel di grandi dimensioni**
 
-L'esempio seguente mostra come leggere un file Excel di grandi dimensioni Microsoft in modalità ottimizzata.
+L'esempio seguente mostra come leggere un file Microsoft Excel di grandi dimensioni in modalità ottimizzata.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-OptimizingMemoryUsage-ReadingLargeExcelFiles-1.cs" >}}
 

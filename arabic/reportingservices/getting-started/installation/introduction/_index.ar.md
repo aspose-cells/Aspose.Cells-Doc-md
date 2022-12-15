@@ -6,14 +6,14 @@ url: /ar/reportingservices/introduction/
 ---
 {{% alert color="primary" %}}
 
-يصف هذا القسم كيفية تثبيت وإلغاء تثبيت Aspose.Cells لخدمات التقارير.
+يصف هذا القسم كيفية تثبيت وإلغاء تثبيت Aspose.Cells for Reporting Services.
 
-يمكن نشر Aspose.Cells لخدمات التقارير بطريقتين:
+يمكن نشر Aspose.Cells for Reporting Services بطريقتين:
 
 - باستخدام مثبّت MSI كامل أو
 - باستخدام ملف DLL واحد.
 
-يتوفر كل من المثبت وملف DLL للتنزيل المجاني على Aspose.Cells لخدمات التقارير[صفحة التحميل](https://downloads.aspose.com/cells/reportingservices).
+ يتوفر كل من برنامج التثبيت وملف DLL للتنزيل المجاني على Aspose.Cells for Reporting Services[صفحة التحميل](https://downloads.aspose.com/cells/reportingservices).
 
 استخدام المثبت له ميزتان:
 

@@ -7,7 +7,7 @@ url: /it/java/manage-worksheets/
 ---
 {{% alert color="primary" %}}
 
-Gli sviluppatori possono facilmente creare e gestire i fogli di lavoro nei propri file Excel a livello di codice usando il flessibile API di Aspose.Cells. In questo argomento verranno illustrati alcuni approcci per aggiungere e rimuovere fogli di lavoro nei file Excel.
+Gli sviluppatori possono facilmente creare e gestire i fogli di lavoro nei propri file Excel a livello di codice utilizzando l'API flessibile di Aspose.Cells. In questo argomento verranno illustrati alcuni approcci per aggiungere e rimuovere fogli di lavoro nei file Excel.
 
 {{% /alert %}}
 

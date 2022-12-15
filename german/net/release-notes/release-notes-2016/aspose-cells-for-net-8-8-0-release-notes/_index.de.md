@@ -8,10 +8,10 @@ url: /de/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSNET-44376 | Bieten Sie die Möglichkeit, die Konvertierung von langen numerischen Werten in Exponentialschreibweise beim Importieren aus HTML zu verhindern| Neue Funktion|
-|CELLSNET-44360 | Erkennung des führenden einfachen Anführungszeichens in der Zelle| Neue Funktion|
-|CELLSNET-44356 | Holen Sie sich die Ziel- oder Ausgabezellenadresse für eine ExternalConnection| Neue Funktion|
-|CELLSNET-44340 | Unterstützung für die Lokalisierung (Deutsch) der clientseitigen Validierung| Neue Funktion|
+|CELLSNET-44376 | Bieten Sie die Möglichkeit, die Konvertierung von langen numerischen Werten in Exponentialschreibweise beim Importieren aus HTML zu verhindern|Neue Funktion|
+|CELLSNET-44360 | Erkennung des führenden einfachen Anführungszeichens in der Zelle|Neue Funktion|
+|CELLSNET-44356 | Holen Sie sich die Ziel- oder Ausgabezellenadresse für eine ExternalConnection|Neue Funktion|
+|CELLSNET-44340 | Unterstützung für die Lokalisierung (Deutsch) der clientseitigen Validierung|Neue Funktion|
 |CELLSNET-44345 | Die Formel für WordArt reagiert beim Konvertieren von XLS in XLSB nicht auf Argumentänderungen| Erweiterung|
 |CELLSNET-44342 | Der Prozess scheint bei 100 % CPU-Auslastung zum Konvertieren einer einseitigen Tabelle in PDF hängen zu bleiben| Leistung|
 |CELLSNET-44324 | XLSM wird nach dem erneuten Auffüllen der Daten und dem Aktualisieren der Pivot-Tabelle beschädigt| Insekt|
@@ -42,7 +42,7 @@ url: /de/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSNET-44350 | Session-Timeout-Warnung für GridWeb hinzugefügt| Neue Funktion|
+|CELLSNET-44350 | Session-Timeout-Warnung für GridWeb hinzugefügt|Neue Funktion|
 |CELLSNET-44339 | 500 Interner Fehler: „Fehler in Cell: Ungültige Formel“ durch Einfügen einer ungültigen Formel in die GridWeb-Benutzeroberfläche| Ausnahme|
 |CELLSNET-44326 | Durch Klicken auf eine Zelle ändert sich der formatierte Text in seine HTML-Quelle| Insekt|
 |CELLSNET-44325 | GridWeb ändert den Inhalt der Datenvalidierungsliste/Dropdown| Insekt|

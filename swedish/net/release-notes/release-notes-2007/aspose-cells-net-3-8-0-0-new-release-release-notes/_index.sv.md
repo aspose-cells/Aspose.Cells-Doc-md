@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-3-8-0-0-new-release-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v3.8!
+ Vi har släppt Aspose.Cells for .NET v3.8!
 
 - Stöder för att skapa kryssruta vid körning
 - Stöder för att skapa OLE-objekt under körning

@@ -51,7 +51,7 @@ L'esempio seguente mostra come aggiungere uno o più oggetti OLE in un foglio di
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **Inserimento di una riga nel foglio di lavoro Excel in C#**
+## **Inserimento di una riga in un foglio di lavoro Excel in C#**
 
  La forma della linea appartiene al**linee** categoria.
 
@@ -92,7 +92,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di una freccia di linea nel foglio di lavoro Excel in C#**
+## **Inserimento di una freccia di linea nel foglio di lavoro di Excel in C#**
 
  La forma della freccia della linea appartiene al**Linee**categoria. È un caso speciale di linea.
 
@@ -133,7 +133,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di un rettangolo in un foglio di lavoro Excel in C#**
+## **Inserimento di un rettangolo in un foglio di lavoro di Excel in C#**
 
  La forma del rettangolo appartiene al**Rettangoli** categoria.
 
@@ -216,7 +216,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di una freccia quadrupla callout nel foglio di lavoro Excel in C#**
+## **Inserimento di una freccia quadrupla callout nel foglio di lavoro di Excel in C#**
 
  La forma della freccia quadrupla di callout appartiene al**Frecce di blocco** categoria.
 
@@ -258,7 +258,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di un segno di moltiplicazione nel foglio di lavoro Excel in C#**
+## **Inserimento di un segno di moltiplicazione nel foglio di lavoro di Excel in C#**
 
  La forma del segno di moltiplicazione appartiene al**Forme di equazione** categoria.
 
@@ -342,7 +342,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di una stella a cinque punte nel foglio di lavoro Excel in C#**
+## **Inserimento di una stella a cinque punte nel foglio di lavoro di Excel in C#**
 
  La forma della stella a cinque punte appartiene al**Stelle e striscioni** categoria.
 

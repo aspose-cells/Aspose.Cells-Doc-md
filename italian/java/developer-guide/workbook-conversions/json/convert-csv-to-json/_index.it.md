@@ -6,7 +6,7 @@ url: /it/java/convert-csv-to-json/
 ---
 ## **Converti CSV in JSON**
 
-Aspose.Cells supporta la conversione di CSV in JSON. Per questo, lo API fornisce[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)e[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)classi. Il[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)class fornisce le opzioni per l'esportazione dell'intervallo in JSON. Il[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)class ha le seguenti proprietà.
+Aspose.Cells supporta la conversione di CSV in JSON. Per questo, l'API fornisce[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)e[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)classi. Il[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)class fornisce le opzioni per l'esportazione dell'intervallo in JSON. Il[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)class ha le seguenti proprietà.
 
 - [**Esporta come stringa**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString)esporta il valore della stringa delle celle in JSON.
 - [**HasHeaderRow**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow): indica se l'intervallo contiene una riga di intestazione.

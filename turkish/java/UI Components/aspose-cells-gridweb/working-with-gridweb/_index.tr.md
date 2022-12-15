@@ -114,7 +114,7 @@ Aspose.Cells.GridWeb kontrolü, kontrolde belirli olaylar tetiklendiğinde işle
 |SheetSekmeClick|Bir sayfa sekmesi tıklandığında gerçekleşir.|
 |Komut Gönder| Ne zaman oluşur**Göndermek** butonu tıklanır.|
 |Komutu Geri Al| Ne zaman oluşur**Geri alma** butonu tıklanır.|
-|AjaxCallBitti|Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanacaktır).|
+|AjaxCallBitti|Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanmalıdır).|
 |CellModifiedOnAjax|AJAX çağrısında hücre değiştirildiğinde tetiklenir.|
 |Sütun Filtresinden Sonra|Filtre bir sütuna uygulandığında tetiklenir.|
 
@@ -511,7 +511,7 @@ Geliştiriciler ayrıca GridWeb denetiminin EditMode özelliğini true olarak ay
 
 ### **Görünüm Modu**
 
-GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kaydetmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**Kopyala** ve**Bulmak** seçenek.
+GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kaydetmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**kopyala** ve**Bulmak** seçenek.
 
 **Görüntüleme Modunda GridWeb kontrolü** 
 

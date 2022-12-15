@@ -6,7 +6,7 @@ url: /it/net/adding-or-inserting-a-column-into-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-In questo argomento verrà descritta la funzionalità di base dell'aggiunta e dell'inserimento di colonne nei fogli di lavoro in fase di esecuzione utilizzando API di Aspose.Cells.GridDesktop. La differenza fondamentale tra addizione e inserimento è che inoltre, la colonna viene aggiunta alla fine della raccolta di colonne del foglio di lavoro dove, come nell'inserimento, la colonna può essere aggiunta a qualsiasi posizione specificata nel foglio di lavoro.
+In questo argomento, descriveremo la funzionalità di base dell'aggiunta e dell'inserimento di colonne nei fogli di lavoro in fase di esecuzione utilizzando l'API di Aspose.Cells.GridDesktop. La differenza fondamentale tra addizione e inserimento è che inoltre, la colonna viene aggiunta alla fine della raccolta di colonne del foglio di lavoro dove, come nell'inserimento, la colonna può essere aggiunta a qualsiasi posizione specificata nel foglio di lavoro.
 
 {{% /alert %}} 
 ## **Aggiunta di una colonna al foglio di lavoro**

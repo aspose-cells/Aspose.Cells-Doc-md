@@ -6,7 +6,7 @@ url: /it/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells - Visualizza o nascondi le intestazioni delle colonne delle righe**
 ### **Nascondere le intestazioni di riga/colonna**
- Per nascondere le intestazioni di riga/colonna utilizzando**Aspose.Cells Java per Rubino** , chiamata**DisplayHideRowColumnHeaders** modulo.
+ Per nascondere le intestazioni di riga/colonna utilizzando**Aspose.Cells Java per Ruby** , chiamata**DisplayHideRowColumnHeaders** modulo.
 
 **Codice Rubino**
 

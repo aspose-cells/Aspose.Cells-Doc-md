@@ -30,7 +30,7 @@ $wb = new Workbook($filePath);
 $wb->save($filePath . ".out.mht", $sv);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**التحويل إلى ملفات MHTML (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingToMhtmlFiles.php)

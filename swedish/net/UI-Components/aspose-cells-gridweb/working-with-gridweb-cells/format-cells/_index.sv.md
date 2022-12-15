@@ -77,7 +77,7 @@ Följande kantalternativ kan väljas från dialogrutan Stil:
 ![todo:image_alt_text](format-cells_6.png)
 
 
-## **Formatering Cells Använder API**
+## **Formatera Cells med API**
 Cells kan också formateras programmatiskt med Aspose.Cells.GridWeb API. Varje cell har en Style-egenskap, som representerar ett GridTableItemStyle-objekt. Använd egenskapen Style för att anpassa teckensnitts- och raminställningar.
 ### **Ställa in teckensnitt**
 Så här anpassar du teckensnittsinställningar programmatiskt:

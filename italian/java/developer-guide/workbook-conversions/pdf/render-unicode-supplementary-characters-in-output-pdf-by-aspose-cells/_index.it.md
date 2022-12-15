@@ -15,7 +15,7 @@ Nello standard dei caratteri Unicode, i caratteri supplementari sono i caratteri
 
 {{% /alert %}} 
 ## **Renderizza i caratteri supplementari Unicode nel PDF di output di Aspose.Cells**
- Lo screenshot seguente mostra come Aspose.Cells ha reso il file[file excel di origine](5473390.xlsx) dentro[uscita PDF](5473391.pdf)Come puoi vedere, tutti e tre i caratteri supplementari Unicode sono stati resi esattamente come da Microsoft Excel.
+ Lo screenshot seguente mostra come Aspose.Cells ha reso il file[file excel di origine](5473390.xlsx) dentro[uscita PDF](5473391.pdf)Come puoi vedere, tutti e tre i caratteri supplementari Unicode sono stati resi esattamente come quelli di Microsoft Excel.
 
 ![cose da fare:immagine_alt_testo](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 

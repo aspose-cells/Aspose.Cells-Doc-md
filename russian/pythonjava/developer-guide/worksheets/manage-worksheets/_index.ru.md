@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ru/python-java/manage-worksheets/
 ---
-Управлять рабочими листами с Aspose.Cells по Python через Java очень просто. В этой статье мы продемонстрируем добавление, доступ и удаление рабочих листов с помощью файла Aspose.Cells API.
+Управлять рабочими листами с помощью Aspose.Cells for Python via Java очень просто. В этой статье мы продемонстрируем добавление, доступ и удаление рабочих листов с помощью файла Aspose.Cells API.
 ## **Добавление рабочих листов в новый файл Excel**
  Чтобы создать новую рабочую книгу, создайте объект[Рабочая тетрадь](https://reference.aspose.com/cells/python/asposecells.api/Workbook) учебный класс.[Рабочая тетрадь](https://reference.aspose.com/cells/python/asposecells.api/Workbook) класс представляет файл Excel. Затем с помощью[добавлять](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) ) метод[Рабочий листКоллекция](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) , в файл Excel добавляются новые рабочие листы. Наконец, чтобы сохранить только что созданный файл Excel, вызовите метод[спасти](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) ) метод[Рабочая тетрадь](https://reference.aspose.com/cells/python/asposecells.api/Workbook)учебный класс.
 

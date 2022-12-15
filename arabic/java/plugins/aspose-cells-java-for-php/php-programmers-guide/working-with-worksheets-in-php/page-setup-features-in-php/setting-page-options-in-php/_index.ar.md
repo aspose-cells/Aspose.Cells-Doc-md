@@ -6,7 +6,7 @@ url: /ar/java/setting-page-options-in-php/
 ---
 ## **Aspose.Cells - ضبط خيارات الصفحة**
 ### **اتجاه الصفحة**
- لتطبيق إعدادات اتجاه الصفحة باستخدام**Aspose.Cells Java لـ PHP** ، مكالمة**اتجاه الصفحة** طريقة**اعداد الصفحة** وحدة.
+ لتطبيق إعدادات اتجاه الصفحة باستخدام**Aspose.Cells Java for PHP** ، مكالمة**اتجاه الصفحة** طريقة**اعداد الصفحة** وحدة.
 
 **كود PHP**
 
@@ -46,7 +46,7 @@ url: /ar/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **عامل التحجيم**
- لتطبيق التحجيم باستخدام**Aspose.Cells Java لـ PHP** ، مكالمة**التحجيم** طريقة**اعداد الصفحة** وحدة.
+ لتطبيق التحجيم باستخدام**Aspose.Cells Java for PHP** ، مكالمة**التحجيم** طريقة**اعداد الصفحة** وحدة.
 
 **كود PHP**
 
@@ -84,7 +84,7 @@ url: /ar/java/setting-page-options-in-php/
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**ضبط خيارات الصفحة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

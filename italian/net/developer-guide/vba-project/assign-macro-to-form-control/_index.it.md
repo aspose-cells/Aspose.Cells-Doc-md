@@ -10,7 +10,7 @@ url: /it/net/assign-macro-to-form-control/
 
 {{% /alert %}}
 
-Il seguente codice di esempio crea una nuova cartella di lavoro, assegna un codice macro a un pulsante modulo e salva l'output nel formato XLSM. Una volta, aprirai il file XLSM di output in Microsoft Excel vedrai il seguente codice macro.
+Il seguente codice di esempio crea una nuova cartella di lavoro, assegna un codice macro a un pulsante modulo e salva l'output nel formato XLSM. Una volta, aprirai il file XLSM di output in Microsoft Excel, vedrai il seguente codice macro.
 
 {{< highlight "java" >}}
 

@@ -16,6 +16,6 @@ Aspose.Cells, resim ve çizelgeler içeren XLS dosyalarının PDF belgelerine d�
 
 {{% alert color="primary" %}} 
 
- Elektronik tablo formüller içeriyorsa, en iyisi[Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) yöntemi PDF'ye dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de oluşturulmasını sağlar.
+ Elektronik tablo formüller içeriyorsa, en iyisi[Workbook.CalculateFormula](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) yöntemi PDF'ye dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de işlenmesini sağlar.
 
 {{% /alert %}}

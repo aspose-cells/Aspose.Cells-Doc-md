@@ -37,7 +37,7 @@ classe ConvertingWorksheetToSVG :
 
  classeur = classeur(dataDir + "Book1.xls")
 
-#Convertir chaque feuille de calcul au format svg en une seule page.
+ #Convertir chaque feuille de calcul au format svg en une seule page.
 
  imgOptions = ImageOrPrintOptions()
 

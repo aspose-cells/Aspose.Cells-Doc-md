@@ -6,7 +6,7 @@ url: /ru/reportingservices/creating-matrix-report/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells для служб Reporting Services позволяет разработать матрицу в Microsoft Excel.
+ Aspose.Cells for Reporting Services позволяет создать матрицу в Microsoft Excel.
 
 {{% /alert %}} 
 ### **Шаблон матрицы**

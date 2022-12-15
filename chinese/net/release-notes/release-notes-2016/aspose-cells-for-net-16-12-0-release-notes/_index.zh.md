@@ -66,7 +66,7 @@ url: /zh/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44858|滚动条回发永无止境（GridWeb）|漏洞|
 |CELLSNET-44734|当通过 TAB 或 Enter 键离开单元格时，GridWeb 的可见区域会发生变化|漏洞|
 |CELLSNET-44907|由于跨越多行的单元格内的换行符导致的 CellsException|例外|
-|CELLSNET-44893|Aspose.Cell 通过兼容 C++ DLL 的 CLR 调用 Chart.ToImage 时出现 ArithmeticException|例外|
+|CELLSNET-44893|Aspose.Cell 通过 CLR 兼容的 C++ DLL 调用 Chart.ToImage 时出现 ArithmeticException|例外|
 |CELLSNET-44876|CellsException：形状到图像错误，同时将电子表格转换为 PDF|例外|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。

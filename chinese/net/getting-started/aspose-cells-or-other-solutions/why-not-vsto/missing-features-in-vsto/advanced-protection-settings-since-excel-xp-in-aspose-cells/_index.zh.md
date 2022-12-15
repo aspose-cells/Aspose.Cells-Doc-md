@@ -26,7 +26,7 @@ Aspose.Cells 支持 Excel XP 或更高版本提供的所有高级保护设置。
 
    **在 Excel XP 中显示保护选项的对话框**
 
-![待办事项：图片_替代_文本](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
+![待办事项：图像_替代_文本](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
 1. 允许或限制工作表功能或应用密码。
 

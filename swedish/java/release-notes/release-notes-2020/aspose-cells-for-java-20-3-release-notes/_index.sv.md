@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 20.3 Release Notes
+title: Aspose.Cells for Java 20.3 Release Notes
 type: docs
 weight: 40
 url: /sv/java/aspose-cells-for-java-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 20.3](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.3/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 20.3](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.3/).
 
 {{% /alert %}} 
 
@@ -27,11 +27,11 @@ url: /sv/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43098|Att ersätta inbäddat objekt med en bild fungerar inte för XLS-filformat|Insekt|
 |CELLSJAVA-43122|Ett problem med ordning av trådade kommentarer efter import till Office365 XLSX-filformat|Insekt|
 |CELLSJAVA-43134|Strängvärdet för en cell är tomt i Apple Numbers'09|Insekt|
-|CELLSJAVA-43144|IsItalic-egenskapen upptäcktes annorlunda än MS Excel (Java)|Insekt|
+|CELLSJAVA-43144|IsItalic-egenskapen har upptäckts på ett annat sätt än MS Excel (Java)|Insekt|
 |CELLSJAVA-43140|IllegalArgumentException vid anrop av calculateFormula()|Undantag|
 |CELLSJAVA-43110|Konvertering till PDF - java.lang.NullPointerException|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägg till egenskapen LoadFilter.SheetsInLoadingOrder**
 Användare kan åsidosätta den här egenskapen för att ange arken och ordningen som ska laddas när de importerar arbetsböcker från mallfiler.
 ### **Tar bort föråldrad TickLabels.Background-egenskap**

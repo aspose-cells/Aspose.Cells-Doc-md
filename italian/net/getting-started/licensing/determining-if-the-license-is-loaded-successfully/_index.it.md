@@ -10,7 +10,7 @@ url: /it/net/determining-if-the-license-is-loaded-successfully/
 
 {{% /alert %}}
 
-## C# per determinare se la licenza è stata caricata correttamente
+## Codice C# per determinare se la licenza è stata caricata correttamente
 
  Il codice seguente accede a[**Workbook.Is Licensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) proprietà prima di impostare una licenza e restituisce**falso** . Quindi carica la licenza e accede nuovamente alla proprietà che ora ritorna**VERO**.
 

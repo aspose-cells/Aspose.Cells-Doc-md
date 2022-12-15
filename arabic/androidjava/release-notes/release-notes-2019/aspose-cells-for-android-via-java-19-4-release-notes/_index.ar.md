@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 19.4 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 19.4 ملاحظات الإصدار
 type: docs
 weight: 40
 url: /ar/java/aspose-cells-for-android-via-java-19-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 19.4.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 19.4.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ url: /ar/java/aspose-cells-for-android-via-java-19-4-release-notes/
 |CELLSJAVA-42860|java.lang.NullPointerException عند تحميل تنسيق ملف ODS|استثناء|
 |CELLSJAVA-42871|java.lang.Exception: استنساخ غير مدعوم للدفق المدعوم أثناء تحويل XLSX إلى PDF|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 ### **يضيف واجهات برمجة التطبيقات لحفظ مستند Markdown: SaveFormat.Markdown ، FileFormatType.Markdown ، MarkdownSaveOptions**
 يدعم حفظ محتوى الخلايا كجدول تخفيض السعر. باستخدام طريقة Workbook.Save () ، سيتم تصدير جميع محتويات الخلية في الورقة النشطة كجدول في مستند العلامات.
 ### **يزيل الخصائص القديمة لـ TxtLoadOptions**

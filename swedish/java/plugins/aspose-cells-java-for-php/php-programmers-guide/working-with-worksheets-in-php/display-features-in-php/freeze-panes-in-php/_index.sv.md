@@ -5,7 +5,7 @@ weight: 40
 url: /sv/java/freeze-panes-in-php/
 ---
 ## **Aspose.Cells - Frys rutor**
- För att frysa rutor i kalkylarksdokumentet med**Aspose.Cells Java för PHP** , helt enkelt åberopa**FreezePanes** modul.
+ För att frysa rutor i kalkylarksdokumentet med**Aspose.Cells Java for PHP** , helt enkelt åberopa**FreezePanes** modul.
 
 **PHP-kod**
 

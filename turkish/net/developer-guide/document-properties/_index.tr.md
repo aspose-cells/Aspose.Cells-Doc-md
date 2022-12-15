@@ -54,7 +54,7 @@ Lütfen Aspose.Cells for .NET'e bu bilgileri çıktı Belgelerinden değiştirme
 
 ### **Belge Özelliklerine Erişme**
 
-Aspose.Cells API'ler, yerleşik ve özel olmak üzere her iki belge özelliği türünü de destekler. Aspose.Cells'[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class bir Excel dosyasını temsil eder ve bir Excel dosyası gibi[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf, her biri tarafından temsil edilen birden çok çalışma sayfası içerebilir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf, oysa çalışma sayfalarının koleksiyonu şu şekilde temsil edilir:[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)sınıf.
+ Aspose.Cells API'ler, yerleşik ve özel olmak üzere her iki belge özelliği türünü de destekler. Aspose.Cells'[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class bir Excel dosyasını temsil eder ve bir Excel dosyası gibi[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf, her biri tarafından temsil edilen birden çok çalışma sayfası içerebilir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf, oysa çalışma sayfalarının koleksiyonu şu şekilde temsil edilir:[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)sınıf.
 
  Kullan[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Dosyanın belge özelliklerine aşağıda açıklandığı gibi erişmek için.
 

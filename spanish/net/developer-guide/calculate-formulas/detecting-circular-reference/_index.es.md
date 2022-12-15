@@ -16,7 +16,7 @@ Las referencias circulares solo se pueden detectar cuando se calcula la fórmula
 
 [**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): será invocado por el motor de cálculo de fórmulas cuando encuentre referencias circulares, el elemento en el enumerador es[**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) objetos que representan todas las celdas en un círculo. El valor devuelto indica si el motor de fórmulas necesita calcular esas celdas en circular después de esta llamada.
 
-El usuario podrá recoger dichas referencias circulares en la ejecución de[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) método.
+ El usuario podrá recoger dichas referencias circulares en la ejecución de[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) método.
 
 El archivo de muestra de origen se puede descargar desde el siguiente enlace:
 
@@ -24,6 +24,6 @@ El archivo de muestra de origen se puede descargar desde el siguiente enlace:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-1.cs" >}}
 
- Definicion de*Monitor circular* clase que se deriva de[**ResumenCálculoMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) clase es la siguiente:
+Definicion de*Monitor circular* clase que se deriva de[**ResumenCálculoMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) clase es la siguiente:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}

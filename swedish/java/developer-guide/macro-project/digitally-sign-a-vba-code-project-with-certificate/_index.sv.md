@@ -15,7 +15,7 @@ url: /sv/java/digitally-sign-a-vba-code-project-with-certificate/
 
 {{% /alert %}} 
 
-## **Signera digitalt ett VBA-kodprojekt med certifikat i C#**
+## **Signera digitalt ett VBA-kodprojekt med certifikat på C#**
 
  Följande exempelkod illustrerar hur du använder[**Workbook.VbaProject.Sign()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)) metod. Här är in- och utdatafilerna för exempelkoden. Du kan använda valfri excel-fil och vilket certifikat som helst för att testa den här koden.
 

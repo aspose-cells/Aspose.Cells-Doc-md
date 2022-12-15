@@ -298,7 +298,7 @@ fstream.Close();
 
 ### **Kolumner som innehåller icke-starkt typade data**
 
-Om alla värden i kolumnerna i ett kalkylblad inte är starkt skrivna (det betyder att värdena i en kolumn kan ha olika datatyper) så kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTableAsString** metod av klassen Cells.**ExportDataTableAsString** metoden tar samma uppsättning parametrar som den för**ExportDataTable** metod för att exportera kalkylbladsdata som**Datatabell** objekt.
+ Om alla värden i kolumnerna i ett kalkylblad inte är starkt skrivna (det betyder att värdena i en kolumn kan ha olika datatyper) så kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTableAsString** metod av klassen Cells.**ExportDataTableAsString** metoden tar samma uppsättning parametrar som den för**ExportDataTable** metod för att exportera kalkylbladsdata som**Datatabell** objekt.
 
 {{< highlight "csharp" >}}
 

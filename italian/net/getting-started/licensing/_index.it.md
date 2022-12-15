@@ -6,7 +6,7 @@ url: /it/net/licensing/
 ---
 {{% alert color="primary" %}}
 
- Puoi facilmente scaricare una versione di valutazione di Aspose.Cells dal suo[pagina di download](https://www.nuget.org/packages/Aspose.Cells) @ NuGet repos. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del componente. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
+ Puoi facilmente scaricare una versione di valutazione di Aspose.Cells dal suo[pagina di download](https://www.nuget.org/packages/Aspose.Cells) @ repository NuGet. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del componente. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
 
 {{% /alert %}}
 
@@ -97,7 +97,7 @@ license.SetLicense(myStream);
 
 ### **Applicazione della licenza misurata**
 
-Aspose.Cells consente agli sviluppatori di applicare la chiave misurata. È un nuovo meccanismo di licenza. Il nuovo meccanismo di licenza verrà utilizzato insieme al metodo di licenza esistente. I clienti che desiderano essere fatturati in base all'utilizzo delle funzionalità API possono utilizzare le licenze a consumo. Per maggiori dettagli, fare riferimento a[Domande frequenti sulle licenze misurate](https://purchase.aspose.com/faqs/licensing/metered)sezione.
+Aspose.Cells consente agli sviluppatori di applicare la chiave misurata. È un nuovo meccanismo di licenza. Il nuovo meccanismo di licenza verrà utilizzato insieme al metodo di licenza esistente. I clienti che desiderano essere fatturati in base all'utilizzo delle funzionalità API possono utilizzare la licenza misurata. Per maggiori dettagli, fare riferimento a[Domande frequenti sulle licenze misurate](https://purchase.aspose.com/faqs/licensing/metered)sezione.
 
 Una nuova classe[Misurato](https://reference.aspose.com/cells/net/aspose.cells/metered)è stato introdotto per applicare la chiave misurata. Di seguito è riportato il codice di esempio che illustra come impostare la chiave pubblica e privata misurata.
 
@@ -145,10 +145,10 @@ Console.WriteLine(amountAfter);
 
 Un altro modo accurato per impacchettare la licenza con la tua applicazione e assicurarti che non vada persa, è includerla come risorsa incorporata in uno degli assembly che chiama Aspose.Cells. Per includere il file di licenza come risorsa incorporata, procedi come segue :
 
-1.  In Visual Studio .NET includere il file di licenza (.lic) nel progetto mediante selezione**Aggiungi elemento esistente** dal**File** menù.
+1.  In Visual Studio .NET, includere il file di licenza (.lic) nel progetto mediante selezione**Aggiungi elemento esistente** dal**File** menù.
 1. Seleziona il file in Esplora soluzioni e imposta**Costruisci Azione** a**Risorsa incorporata** nella finestra Proprietà
 
- Per accedere alla licenza incorporata nell'assembly (come risorsa incorporata), non è necessario chiamare i metodi GetExecutingAssembly e GetManifestResourceStream della classe System.Reflection.Assembly del Framework Microsoft .NET. Tutto quello che devi fare è semplicemente aggiungere il file di licenza come risorsa incorporata al tuo progetto e passare il nome del file di licenza nel metodo SetLicense. Il**Aspose.Cells.License** class troverà automaticamente il file di licenza nelle risorse incorporate. Si prega di rivedere l'esempio fornito di seguito per comprendere questo metodo di impostazione della licenza (incorporata) nelle applicazioni.
+ Per accedere alla licenza incorporata nell'assembly (come risorsa incorporata), non è necessario chiamare i metodi GetExecutingAssembly e GetManifestResourceStream della classe System.Reflection.Assembly di Microsoft .NET Framework. Tutto quello che devi fare è semplicemente aggiungere il file di licenza come risorsa incorporata al tuo progetto e passare il nome del file di licenza nel metodo SetLicense. Il**Aspose.Cells.License** class troverà automaticamente il file di licenza nelle risorse incorporate. Si prega di rivedere l'esempio fornito di seguito per comprendere questo metodo di impostazione della licenza (incorporata) nelle applicazioni.
 
 {{< highlight "csharp" >}}
 
@@ -214,9 +214,9 @@ license.SetLicense(myStream);
 
 Un altro modo accurato per impacchettare la licenza con la tua applicazione e assicurarti che non vada persa, è includerla come risorsa incorporata in uno degli assembly che chiama la dll del componente (inclusa in Aspose.Cells.GridDesktop). Per includere il file di licenza come risorsa incorporata, attenersi alla seguente procedura:
 
-1.  In Visual Studio .NET includere il file di licenza (.lic) nel progetto utilizzando l'estensione**Aggiungi elemento esistente** opzione sul**File** menù.
+1.  In Visual Studio .NET, includere il file di licenza (.lic) nel progetto utilizzando l'estensione**Aggiungi elemento esistente** opzione sul**File** menù.
 1. Selezionare il file in Solution Explorer e impostare Build Action su Embedded Resource nella finestra Properties.
-1. Per accedere alla licenza incorporata nell'assembly (come risorsa incorporata), non è necessario chiamare i metodi GetExecutingAssembly e GetManifestResourceStream della classe System.Reflection.Assembly del Framework Microsoft .NET. Aggiungere invece il file della licenza come risorsa incorporata nel proprio project e passare il nome del file di licenza nel metodo SetLicense. La classe License trova automaticamente il file di licenza nelle risorse incorporate.
+1. Per accedere alla licenza incorporata nell'assembly (come risorsa incorporata), non è necessario chiamare i metodi GetExecutingAssembly e GetManifestResourceStream della classe System.Reflection.Assembly di Microsoft .NET Framework. Aggiungere invece il file di licenza come risorsa incorporata in il progetto e passare il nome del file di licenza nel metodo SetLicense. La classe License trova automaticamente il file di licenza nelle risorse incorporate.
 
 Si prega di rivedere l'esempio fornito di seguito per comprendere questo metodo di applicazione di una licenza come risorsa incorporata alle applicazioni.
 

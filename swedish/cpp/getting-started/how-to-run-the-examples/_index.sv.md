@@ -9,7 +9,7 @@ Se till att du uppfyller följande krav innan du laddar ner och kör exemplen.
 
 - Visual Studio 2015 eller senare
 ## **Ladda ner från GitHub**
- Alla exempel på Aspose.Cells för C++ finns på[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
+ Alla exempel på Aspose.Cells for C++ finns på[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
 
 -  Du kan antingen klona förvaret med din favorit GitHub-klient eller ladda ner ZIP-filen från[här](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
 -  Extrahera innehållet i ZIP-filen till valfri mapp på din dator. Alla exempel finns i**Exempel** mapp.

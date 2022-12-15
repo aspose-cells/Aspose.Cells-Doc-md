@@ -1,50 +1,50 @@
 ﻿---
-title: ما الجديد في Aspose.Cells لخدمات التقارير
+title: ما الجديد في Aspose.Cells for Reporting Services
 type: docs
-description: تتوسع شركة Aspose.Cells لخدمات التقارير وتتحسن بشكل يومي. في هذه الصفحة ، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج
+description: Aspose.Cells for Reporting Services يتوسع ويعزز يوميا. في هذه الصفحة ، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج
 weight: 5
 url: /ar/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 ---
-تصف هذه الصفحة Aspose.Cells الجديد الأكثر إثارة للاهتمام لميزات Reporting Services التي تم تقديمها في الإصدارات الأخيرة.
+تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Cells for Reporting Services التي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Cells لخدمات التقارير 22.10.2020
+## Aspose.Cells for Reporting Services  22.10
 
 * إصلاح بعض الخلل.
-تقديم الدعم لتنسيق الأرقام.
+* تقديم الدعم لتنسيق الأرقام.
 
-## Aspose.Cells لخدمات التقارير 22.9
+## Aspose.Cells for Reporting Services  22.9
 
 * تقديم الدعم لتقديم تنسيق SXC.
 
-## Aspose.Cells لخدمات التقارير 22.8
+## Aspose.Cells for Reporting Services  22.8
 
 * دعم تقديم تنسيق XLTX.
 
-## Aspose.Cells لخدمات التقارير 22.7
+## Aspose.Cells for Reporting Services  22.7
 
 * دعم تقديم تنسيق XML.
 
-## Aspose.Cells لخدمات التقارير 22.6
+## Aspose.Cells for Reporting Services  22.6
 
 * تحسين تقديم أتش تي أم أل.
 
-## Aspose.Cells لخدمات التقارير 22.5
+## Aspose.Cells for Reporting Services  22.5
 
  * تحسين عرض XPS و Tiff.
 
-## Aspose.Cells لخدمات التقارير 22.4
+## Aspose.Cells for Reporting Services  22.4
 
 * تقديم الدعم لتقديم تنسيق البرنامج النصي SQL.
 
-## Aspose.Cells لخدمات التقارير 22.3
+## Aspose.Cells for Reporting Services  22.3
 
 * دعم تقديم تنسيق docx.
 * تحسين عارض النص.
 
-## Aspose.Cells لخدمات التقارير 22.2
+## Aspose.Cells for Reporting Services  22.2
 
 * تقديم الدعم لتنسيق pptx.
 
-## Aspose.Cells لخدمات التقارير 22.1
+## Aspose.Cells for Reporting Services  22.1
 
 * تقديم الدعم لتقديم تنسيق json.

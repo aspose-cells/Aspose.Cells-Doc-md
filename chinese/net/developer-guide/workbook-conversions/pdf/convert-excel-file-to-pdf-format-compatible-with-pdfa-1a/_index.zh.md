@@ -16,7 +16,7 @@ PDF/A 是 PDF 的一种独特风格，专为长期保存文档而设计。 PDF/A
 
 ## **截屏**
 
-![待办事项：图片_替代_文本](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+![待办事项：图像_替代_文本](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
 
 ## **示例代码**
 

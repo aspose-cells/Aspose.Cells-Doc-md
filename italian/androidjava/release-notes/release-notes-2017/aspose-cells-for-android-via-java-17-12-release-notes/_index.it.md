@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 17.12 Note di rilascio
+title: Aspose.Cells for Android via Java Note sulla versione 17.12
 type: docs
 weight: 10
 url: /it/java/aspose-cells-for-android-via-java-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 17.12.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 17.12.
 
 {{% /alert %}} 
 
@@ -52,10 +52,10 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42466|L'equazione non viene visualizzata correttamente nel PDF di output|Insetto|
 |CELLSJAVA-42475|Il grafico non è presente nel PDF di output|Insetto|
 |CELLSJAVA-42459|Le etichette dati per il grafico non sono presenti nel PDF/immagine di output|Insetto|
-|CELLSJAVA-42453|L'immagine del grafico non è uguale a Microsoft Excel|Insetto|
+|CELLSJAVA-42453|L'immagine del grafico non è simile a Microsoft Excel|Insetto|
 |CELLSJAVA-42447|Le etichette dati vengono visualizzate in modo errato nel formato del file HTML di output|Insetto|
 |CELLSJAVA-42481|L'impostazione del nome della casella combinata non funziona per il file Excel di origine, ma se salvato nuovamente da Microsoft Excel funziona correttamente|Insetto|
-|CELLSJAVA-42476|Microsoft Il foglio di lavoro con attivazione macro di Excel (.xlsm) viene danneggiato dopo l'apertura e il salvataggio tramite le API Aspose.Cells|Insetto|
+|CELLSJAVA-42476|Il foglio di lavoro con attivazione macro di Microsoft Excel (.xlsm) viene danneggiato dopo l'apertura e il salvataggio tramite API Aspose.Cells|Insetto|
 |CELLSJAVA-42470|L'impostazione di una cella collegata alla casella di controllo fa sì che MS Excel richieda un messaggio di errore quando si apre il file di output in essa|Insetto|
 |CELLSJAVA-42462|La lettura del file XLSB genera l'eccezione NullPointerException|Eccezione|
 |CELLSJAVA-42434|Eccezione: "java.lang.NumberFormatException" durante il caricamento di un formato di file HTML|Eccezione|
@@ -64,12 +64,12 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42425|Eccezione nel thread "main" java.lang.OutOfMemoryError: limite di overhead GC superato - File II|Eccezione|
 |CELLSJAVA-42424|Eccezione nel thread "main" java.lang.OutOfMemoryError: limite di overhead GC superato - File I|Eccezione|
 |CELLSJAVA-42428|Chart.toImage risulta in java.lang.ArrayIndexOutOfBoundsException|Eccezione|
-|CELLSJAVA-42452|Il salvataggio di una cartella di lavoro come PDF dopo RemoveUnusedStyles API produce un'eccezione CellsException|Eccezione|
+|CELLSJAVA-42452|Il salvataggio di una cartella di lavoro come PDF dopo che l'API RemoveUnusedStyles produce un'eccezione CellsException|Eccezione|
 |CELLSJAVA-42440|Si è verificato "java.lang.IllegalArgumentException: indice di riga non valido".|Eccezione|
 |CELLSJAVA-42439|Eccezione: "java.lang.IllegalArgumentException: indice di riga non valido"|Eccezione|
 |CELLSJAVA-42437|Eccezione: java.lang.NumberFormatException quando si salva nuovamente un formato di file XLSB|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo AbstractCalculationMonitor.Interrupt(string).**
 Consente agli utenti di interrompere l'avanzamento dei calcoli delle formule.
 ### **Aggiunge l'enumerazione HtmlCrossType.MSExport**
@@ -137,6 +137,6 @@ Rappresenta la forma dell'estensione Web.
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.10, Aspose.Cells for .NET v17.11, Aspose.Cells for .NET v17. 12, Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 e Aspose.Cells for Java v17.12 sono inclusi anche in questo Aspose.Cells per Android tramite Java v17.12.
+Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni sono incluse in Aspose.Cells for .NET v17.10, Aspose.Cells for .NET v17.11, 07607161817 , Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 e Aspose.Cells for Java v17.12 sono inclusi anche in questo Aspose.Cells for Android 0761173482 v17.12.
 
 {{% /alert %}}

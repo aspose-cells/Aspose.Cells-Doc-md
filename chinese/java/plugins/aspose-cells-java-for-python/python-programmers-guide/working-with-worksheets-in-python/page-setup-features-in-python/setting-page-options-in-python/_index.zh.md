@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **比例因子**
-应用缩放使用**Aspose.Cells Java 为 Python**， 称呼**缩放**的方法**页面设置**模块。
+应用缩放使用**Aspose.Cells Java for Python**， 称呼**缩放**的方法**页面设置**模块。
 
 **Python 代码**
 

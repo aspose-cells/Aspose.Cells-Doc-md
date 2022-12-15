@@ -19,7 +19,7 @@ För att lägga till kanter till celler i ett kalkylblad, gör följande:
  1. Anpassa kolumnen som cellerna är i automatiskt för att passa texten snyggt
  1. Spara dokumentet
 
-Dessa steg visas i koden nedan. De första kodexemplen visar hur man implementerar dem med VSTO med antingen C# eller Visual Basic. Efter VSTO-exemplen finns exempel som visar hur man utför samma steg med Aspose.Cells för .NET, igen med antingen C# eller Visual Basic. Aspose.Cells-kodexemplen är mycket kortare eftersom Aspose.Cells är optimerad för effektiv kodning.
+Dessa steg visas i koden nedan. De första kodexemplen visar hur man implementerar dem med VSTO med antingen C# eller Visual Basic. Efter VSTO-exemplen finns exempel som visar hur man utför samma steg med Aspose.Cells for .NET, återigen med antingen C# eller Visual Basic. Aspose.Cells-kodexemplen är mycket kortare eftersom Aspose.Cells är optimerad för effektiv kodning.
 
 Koden genererar en Excel-fil med ett antal celler på det första arket, var och en med olika ramar:
 

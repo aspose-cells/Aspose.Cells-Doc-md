@@ -14,6 +14,6 @@ url: /zh/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 下面的截图突出显示了这段代码对[示例 excel 文件](5115219.xlsx).
 
-![待办事项：图片_替代_文本](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
+![待办事项：图像_替代_文本](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChartLegendEntry-1.cs" >}}

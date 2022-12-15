@@ -47,8 +47,8 @@ Detta visar dialogrutan Skapa lista.
 
  Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. Att skapa en[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) i ett kalkylblad, använd[**Listobjekt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects) samlingsegenskapen för klassen Worksheet. Varje[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) är i själva verket ett föremål för[**ListObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection)klass, som vidare tillhandahåller add-metoden för att lägga till ett List-objekt och ange ett cellintervall för listan.
 
- Enligt det specificerade cellintervallet skapas List-objektet i kalkylbladet av Aspose.Cells. Använd attribut (till exempel ShowTotals, ListColumns etc.) för[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)klass för att kontrollera listan.
+Enligt det specificerade cellintervallet skapas List-objektet i kalkylbladet av Aspose.Cells. Använd attribut (till exempel ShowTotals, ListColumns etc.) för[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)klass för att kontrollera listan.
 
- I exemplet nedan har vi skapat detsamma[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)använder Aspose.Cells API som vi skapade med Microsoft Excel i avsnittet ovan.
+ I exemplet nedan har vi skapat detsamma[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)med Aspose.Cells API som vi skapade med Microsoft Excel i avsnittet ovan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}

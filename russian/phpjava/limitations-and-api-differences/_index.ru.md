@@ -4,12 +4,12 @@ type: docs
 weight: 10
 url: /ru/php-java/limitations-and-api-differences/
 keywords: php, excel, limitation, api, difference
-description: Aspose.Cells для PHP через ограничения Java и различия API
+description: Aspose.Cells for PHP via Java ограничения и различия API
 ---
 ## **Общественный API Различия**
 
 
-В следующем списке (с примерами сегментов кода) показаны некоторые различия между Aspose.Cells for Java и Aspose.Cells для PHP через API Java.
+В следующем списке (с примерами сегментов кода) показаны некоторые различия между API Aspose.Cells for Java и Aspose.Cells for PHP via Java.
 ### **Импорт библиотеки (сравнение пакетов)**
 
 **Aspose.Cells for Java**
@@ -20,7 +20,7 @@ description: Aspose.Cells для PHP через ограничения Java и �
 
 {{< /highlight >}}
 
-**Aspose.Cells для PHP через Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -46,7 +46,7 @@ use aspose\cells\Workbook;
 {{< /highlight >}}
 
 
-**Aspose.Cells для PHP через Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -67,7 +67,7 @@ use aspose\cells\Workbook;
 
 
 
-**Aspose.Cells для PHP через Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -118,7 +118,7 @@ public class Test1 {
 
 
 
-**Aspose.Cells для PHP через Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -159,7 +159,7 @@ $workbook->save("out1.xlsx");
 {{< /highlight >}}
 
 
-## **Другие ограничения Aspose.Cells для PHP через Java API по сравнению с Aspose.Cells for Java API**
+## **Другие ограничения Aspose.Cells for PHP via Java API по сравнению с Aspose.Cells for Java API**
 1. Импорт/экспорт данных из Array, ArrayList, ResultSet и т. д. не поддерживается.
 1. Печать не поддерживается.
 

@@ -14,7 +14,7 @@ Aspose.Cells ermöglicht es Ihnen, ein Arbeitsblatt aus der Arbeitsmappe zu expo
 
 Manchmal ist es nützlich, ein Bild eines Arbeitsblatts zu speichern. Bilder können online geteilt und in andere Dokumente eingefügt werden (z. B. in Microsoft Word verfasste Berichte oder PowerPoint Präsentationen).
 
-Aspose.Cells bietet Bildexport über die**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** Klasse. Diese Klasse stellt das Arbeitsblatt dar, das in ein Bild gerendert wird. Das**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**Klasse bietet die**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**Methode zum Konvertieren eines Arbeitsblatts in eine Bilddatei. BMP-, PNG-, JPEG-, TIFF- und EMF-Formate werden unterstützt.
+Aspose.Cells bietet Bildexport über die**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** Klasse. Diese Klasse stellt das Arbeitsblatt dar, das in ein Bild gerendert wird. Das**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** Klasse bietet die**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**Methode zum Konvertieren eines Arbeitsblatts in eine Bilddatei. BMP-, PNG-, JPEG-, TIFF- und EMF-Formate werden unterstützt.
 
 {{% alert color="primary" %}}
 

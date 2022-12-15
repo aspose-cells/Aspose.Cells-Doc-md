@@ -5,7 +5,7 @@ weight: 60
 url: /fr/python-java/set-the-comment-of-table-or-list-object/
 ---
 ## **Définir le commentaire de la table ou de l'objet de liste dans la feuille de calcul**
-Aspose.Cells pour Python via Java prend en charge l'ajout du commentaire de l'objet de liste. Pour cela, le API fournit le[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)propriété. Le commentaire ajouté par le[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)propriété sera visible à l'intérieur du*xl/tables/tableName.xml* dossier.
+Aspose.Cells for Python via Java prend en charge l'ajout du commentaire de l'objet de liste. Pour cela, le API fournit le[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)propriété. Le commentaire ajouté par le[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)propriété sera visible à l'intérieur du*xl/tables/tableName.xml* dossier.
 
 La capture d'écran suivante montre le commentaire créé par l'exemple de code dans le rectangle rouge.
 

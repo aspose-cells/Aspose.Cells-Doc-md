@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 5.2.2 Release Notes
+title: Aspose.Cells for .NET 5.2.2 Release Notes
 type: docs
 weight: 110
 url: /sv/net/aspose-cells-for-net-5-2-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 5.2.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.2.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 5.2.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.2.2/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v5.2.2!
+ Vi är glada att meddela Aspose.Cells for .NET v5.2.2!
 
  Vad har ändrats i Aspose.Cells:
 
@@ -27,6 +27,6 @@ url: /sv/net/aspose-cells-for-net-5-2-2-release-notes/
 
 
 
- Problem lösta i Aspose.Cells för .NET v5.2.2.
+ Problem lösta i Aspose.Cells for .NET v5.2.2.
 
 

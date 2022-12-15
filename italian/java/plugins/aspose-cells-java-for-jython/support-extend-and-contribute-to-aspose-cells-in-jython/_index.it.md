@@ -9,7 +9,7 @@ Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni p
 
 Per questo offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
 
-Puoi registrare eventuali problemi o suggerimenti relativi a Aspose.Cells Java per Jython utilizzando una delle seguenti piattaforme:
+È possibile registrare eventuali problemi o suggerimenti relativi a Aspose.Cells Java per Jython utilizzando una delle seguenti piattaforme:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ### **Estendi e contribuisci**

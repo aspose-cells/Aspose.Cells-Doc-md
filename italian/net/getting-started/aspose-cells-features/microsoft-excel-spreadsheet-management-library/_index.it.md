@@ -1,10 +1,10 @@
 ﻿---
-title: Microsoft Libreria gestione fogli di calcolo Excel
+title: Libreria per la gestione dei fogli di calcolo di Microsoft Excel
 type: docs
 weight: 20
 url: /it/net/microsoft-excel-spreadsheet-management-library/
 ---
-## **Aspose.Cells – Microsoft Libreria Gestione Fogli Excel**
+## **Aspose.Cells – Libreria gestione fogli di calcolo Microsoft Excel**
 ### **Caratteristiche del documento**
 - Apri file Microsft Excel semplici o crittografati (Excel97 - Excel2007/2010/2013) da fonti diverse.
 - Salva i file Excel (Excel 97 - Excel2007/2010/2013) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, TSV, HTML ecc.)
@@ -66,7 +66,7 @@ url: /it/net/microsoft-excel-spreadsheet-management-library/
 - Crea facilmente diversi tipi di grafici.
 - Personalizza i grafici impostando le loro diverse proprietà.
 - Imposta dinamicamente i dati per i grafici.
-- Aggiungi grafici personalizzati ai fogli di lavoro utilizzando API.
+- Aggiungi grafici personalizzati ai fogli di lavoro utilizzando l'API.
 - Aggiungi immagini ai fogli di lavoro in fase di esecuzione.
 - Crea e aggiungi commenti alle celle.
 - Converti grafico in file immagine.
@@ -80,5 +80,5 @@ url: /it/net/microsoft-excel-spreadsheet-management-library/
 - Crea e manipola tabelle pivot.
 - Manipola il codice VBA o le macro.
 ### **Piattaforme supportate**
-- Desktop Windows Applicazione
+- Applicazione Windows desktop
 - Applicazione Web aziendale

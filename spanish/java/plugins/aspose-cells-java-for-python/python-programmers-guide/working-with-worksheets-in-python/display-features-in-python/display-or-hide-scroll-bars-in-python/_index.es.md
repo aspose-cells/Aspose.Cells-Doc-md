@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells - Mostrar u ocultar barras de desplazamiento**
 ### **Ocultar encabezados de fila/columna**
- Para ocultar encabezados de fila/columna usando**Aspose.Cells Java para Python** , llamar**MostrarOcultarFilaColumnaEncabezados** módulo.
+Para ocultar encabezados de fila/columna usando**Aspose.Cells Java for Python** , llamar**MostrarOcultarFilaColumnaEncabezados** módulo.
 
 **Código Python**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Python tramite Java 21.9 Note di rilascio
+title: Aspose.Cells for Python via Java 21.9 Note di rilascio
 type: docs
 weight: 5
 url: /it/python-java/aspose-cells-for-python-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Python tramite Java 21,9](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.9/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Python via Java 21.9](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.9/).
 
 {{% /alert %}}
 
@@ -43,9 +43,9 @@ url: /it/python-java/aspose-cells-for-python-via-java-21-9-release-notes/
 |CELLSJAVA-43632| Eccezione "Valore stringa FontUnderlineType non valido" durante il caricamento di un file XLSX|
 |CELLSJAVA-43633|Eccezione "Valore stringa MsoLineDashStyle non valido" durante il caricamento di un file XLSX|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà AutoFitterOptions.FormatStrategy.**
 
@@ -61,5 +61,5 @@ Elimina la tabella pivot specificata e controlla se conservare i dati delle cell
 
 ### **Aggiunge la proprietà ImageOrPrintOptions.IsOptimized.**
 
- Indica se ottimizzare gli elementi di output. Il valore predefinito è falso. Attualmente solo le linee di confine vengono ottimizzate quando questa proprietà è impostata su true.
+ Indica se ottimizzare gli elementi di output. Il valore predefinito è false. Attualmente solo le linee di confine vengono ottimizzate quando questa proprietà è impostata su true.
 

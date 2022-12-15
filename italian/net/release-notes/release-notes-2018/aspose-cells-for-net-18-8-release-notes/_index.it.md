@@ -22,7 +22,7 @@ url: /it/net/aspose-cells-for-net-18-8-release-notes/
 |CELLSNET-43326|Aggiungi overload a CopyRows e CopyColumns con le opzioni Incolla speciale|Nuova caratteristica|
 |CELLSNET-41637|Recupera le impostazioni dei totali parziali|Nuova caratteristica|
 |CELLSNET-46252|Argomento per saltare riga/righe come intestazioni di dati nell'esportazione dell'intervallo in datatable|Aumento|
-|CELLSNET-46226|Le annotazioni a penna diventano immagini normali dopo la conversione|Aumento|
+|CELLSNET-46226|Le annotazioni a penna diventano immagini regolari dopo la conversione|Aumento|
 |CELLSNET-41693|È incluso il miglioramento delle colonne di adattamento automatico|Aumento|
 |CELLSNET-46263|L'applicazione si blocca durante la conversione di XLS in PDF|Prestazione|
 |CELLSNET-46262|Cell lo sfondo è errato quando l'orientamento del testo della cella è inclinato nel PDF di output|Insetto|
@@ -59,8 +59,8 @@ url: /it/net/aspose-cells-for-net-18-8-release-notes/
 |CELLSNET-46249|L'eccezione viene generata durante la lettura del file HTML|Eccezione|
 |CELLSNET-46246|L'eccezione viene generata durante l'aggiunta della firma digitale sul server della piattaforma cloud di GroupDocs|Eccezione|
 |CELLSNET-46232|Eccezione nome cella non valido durante il caricamento del file XLSX|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà PdfSecurityOptions.AccessibilityExtractContent**
 Autorizzazione a copiare o estrarre contenuti (a supporto dell'accessibilità agli utenti disabili o per altri scopi).
 #### **Aggiunge il costruttore DigitalSignature(System.Byte[],System.String,System.String,System.DateTime)**

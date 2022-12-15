@@ -14,7 +14,7 @@ Come creare una tabella pivot spiega come creare una semplice tabella pivot. Que
 
 ### **Impostazione delle opzioni di formato della tabella pivot**
 
- Il[**Tabella pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)class controlla la tabella pivot complessiva e può essere formattata in diversi modi.
+ Il[**Tabella pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)class controlla la tabella pivot complessiva e può essere formattata in vari modi.
 
 #### **Impostazione del tipo di formattazione automatica**
 

@@ -54,7 +54,7 @@ Veuillez noter que vous ne pouvez pas demander au Aspose.Cells for .NET de modif
 
 ### **Accéder aux propriétés du document**
 
-Aspose.Cells Les API prennent en charge les deux types de propriétés de document, intégrées et personnalisées. Aspose.Cells'[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe représente un fichier Excel et, comme un fichier Excel, la[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe peut contenir plusieurs feuilles de calcul, chacune représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe alors que la collection de feuilles de calcul est représentée par la[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)classer.
+ Aspose.Cells Les API prennent en charge les deux types de propriétés de document, intégrées et personnalisées. Aspose.Cells'[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe représente un fichier Excel et, comme un fichier Excel, la[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe peut contenir plusieurs feuilles de calcul, chacune représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe alors que la collection de feuilles de calcul est représentée par la[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)classer.
 
  Utilisez le[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)pour accéder aux propriétés du document du fichier comme décrit ci-dessous.
 

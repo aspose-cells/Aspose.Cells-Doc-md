@@ -6,11 +6,11 @@ url: /it/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells fornisce il[OleObject.AutoLoad](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#AutoLoad) property per aggiornare l'oggetto OLE quando il file excel viene aperto in Microsoft Excel. A causa di questa proprietà, l'oggetto OLE visualizzerà l'immagine OLE corretta generata da Microsoft Excel.
+ Aspose.Cells fornisce il[OleObject.AutoLoad](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#AutoLoad) proprietà per aggiornare l'oggetto OLE quando il file excel viene aperto in Microsoft Excel. A causa di questa proprietà, l'oggetto OLE visualizzerà l'immagine OLE corretta generata da Microsoft Excel.
 
 {{% /alert %}} 
 ## **Aggiorna automaticamente l'oggetto OLE tramite Microsoft Excel utilizzando Aspose.Cells**
- Il codice di esempio seguente carica il file[file excel di esempio](5473423.xlsx) che ha un'immagine OLE non reale. L'oggetto OLE è in realtà un documento Word Microsoft, ma il file Excel di esempio mostra l'immagine dell'animale anziché l'immagine Word Microsoft. Ma se apri il file[file excel di output](5473429.xlsx), vedrai Microsoft Excel visualizza l'immagine OLE corretta.
+ Il codice di esempio seguente carica il file[file excel di esempio](5473423.xlsx) che ha un'immagine OLE non reale. L'oggetto OLE è in realtà un documento di Microsoft Word, ma il file Excel di esempio mostra l'immagine dell'animale anziché l'immagine di Microsoft Word. Ma se apri il file[file excel di output](5473429.xlsx), vedrai che Microsoft Excel visualizza l'immagine OLE corretta.
 
  Lo screenshot seguente mostra come il file[file excel di esempio](5473423.xlsx) appare quando viene aperto in Microsoft Excel.
 

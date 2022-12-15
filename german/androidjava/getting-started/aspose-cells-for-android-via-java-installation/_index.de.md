@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells für Android über Java Installation
+title: Aspose.Cells for Android via Java Installation
 type: docs
 weight: 30
 url: /de/java/aspose-cells-for-android-via-java-installation/
 ---
 ## **System Anforderungen**
-Aspose.Cells für Android über Java ist plattformunabhängig und kann auf jeder Plattform verwendet werden, auf der die Android-Laufzeitumgebung installiert ist, und läuft auf Android-Systemen mit Android OS 2.0 oder höher. Derzeit wurde das Bauteil getestet mit:
+Aspose.Cells for Android via Java ist plattformunabhängig und kann auf jeder Plattform verwendet werden, auf der die Android-Laufzeitumgebung installiert ist, und läuft auf Android-Systemen mit Android OS 2.0 oder höher. Derzeit wurde das Bauteil getestet mit:
 
 - Android 5.1 Version 22
-## **Installieren Sie Aspose.Cells für Android über Java aus dem Maven-Repository**
+## **Installieren Sie Aspose.Cells for Android via Java aus dem Maven-Repository**
 1. Fügen Sie das Repository maven zu Ihrem Build hinzu.gradle
-1. Fügen Sie „Aspose.Cells für Android über Java“ JAR als Abhängigkeit hinzu
+1. Fügen Sie 'Aspose.Cells for Android via Java' JAR als Abhängigkeit hinzu
 
 {{< highlight "java" >}}
 
@@ -37,8 +37,8 @@ dependencies {
 }
 
 {{< /highlight >}}
-## **So verwenden Sie Aspose.Cells für Android über Java**
-Dieses Thema führt Sie durch die notwendigen Schritte zum Einrichten von Aspose.Cells für Android über Java in Android Studio IDE, vorausgesetzt, Sie haben bereits die neueste Version von Android Studio auf Ihrem Computer installiert und Sie haben auch die neueste Version von Aspose.Cells für Android über Java erworben Paket.
+## **So verwenden Sie Aspose.Cells for Android via Java**
+Dieses Thema führt Sie durch die erforderlichen Schritte zum Einrichten von Aspose.Cells for Android via Java in Android Studio IDE, vorausgesetzt, Sie haben bereits die neueste Version von Android Studio auf Ihrem Computer installiert und Sie haben auch die neueste Version des Pakets Aspose.Cells for Android via Java erworben.
 
 {{% alert color="primary" %}} 
 
@@ -46,13 +46,13 @@ Wenn Sie Android Studio noch nicht installiert haben, müssen Sie zuerst das Set
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells für Android kann über das Paket Java heruntergeladen werden[hier](https://downloads.aspose.com/cells/androidjava). Bitte beachten Sie, dass jedes Release-Paket von Aspose.Cells für Android über Java hauptsächlich aus 2 Dateien besteht, wie unten beschrieben.
+ Aspose.Cells for Android via Java Paket kann heruntergeladen werden[hier](https://downloads.aspose.com/cells/androidjava). Bitte beachten Sie, dass jedes Release-Paket von Aspose.Cells for Android via Java hauptsächlich aus 2 Dateien besteht, wie unten beschrieben.
 
-- **aspose-cells-xxxjar** ist die Hauptbibliotheksdatei, die alle Namespaces von Aspose.Cells für Android über Java API enthält.
-- **aspose-cells-xxx-libs.apk** ist das APK, das die Drittanbieterdatei bcprov-jdk15-146.jar enthält, die für Verschlüsselungs- und Entschlüsselungsfunktionen verwendet wird, die von Aspose.Cells für Android über Java API angeboten werden.
+- **aspose-cells-xxxjar** ist die Hauptbibliotheksdatei, die alle Namespaces von Aspose.Cells for Android via Java API enthält.
+- **aspose-cells-xxx-libs.apk** ist das APK, das die Drittanbieterdatei bcprov-jdk15-146.jar enthält, die für Verschlüsselungs- und Entschlüsselungsfunktionen verwendet wird, die von Aspose.Cells for Android via Java API angeboten werden.
 
 {{% /alert %}} 
-### **Erste Schritte mit Aspose.Cells für Android über Java in Android Studio**
+### **Erste Schritte mit Aspose.Cells for Android via Java in Android Studio**
 Sobald die Android Studio IDE geladen ist, klicken Sie wie unten gezeigt auf Datei > Neu > Neues Projekt.
 
 ![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_1.png)
@@ -99,10 +99,10 @@ Jetzt wurde das Projekt in die IDE geladen, aber vielleicht möchten Sie die Ans
 
 ![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_9.png)
 
-Als Nächstes fügen wir die Aspose.Cells für Android über Java Jar zum Projekt hinzu. Es gibt 2 wichtige Schritte, wie unten beschrieben.
+Als Nächstes fügen wir dem Projekt das Glas Aspose.Cells for Android via Java hinzu. Es gibt 2 wichtige Schritte, wie unten beschrieben.
 
--  Kopieren Sie die Aspose.Cells für Android manuell über Java Jar in die**\app\libs** Mappe.
-- Fügen Sie Aspose.Cells für Android über Java Jar als Bibliothek zum Modul hinzu, wie unten gezeigt.
+-  Kopieren Sie das Glas Aspose.Cells for Android via Java manuell in die**\app\libs** Mappe.
+- Fügen Sie Aspose.Cells for Android via Java Jar als Bibliothek zum Modul hinzu, wie unten gezeigt.
 
 ![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_10.png)
 

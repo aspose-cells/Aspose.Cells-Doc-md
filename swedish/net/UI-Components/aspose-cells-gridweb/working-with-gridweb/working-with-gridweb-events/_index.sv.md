@@ -25,7 +25,7 @@ Den här listan inkluderar inte händelser som ärvts av Aspose.Cells.GridWeb fr
 |:- |:- |
 | CellCommand| Uppstår när kommandohyperlänken för en cell klickas. När den här händelsen avfyras ger dess parameter e.Argument kommandots namn.|
 | CellDoubleClick| Uppstår när cellen dubbelklickas.|
-| CellError| Uppstår när en cells inmatningsvärde har något fel.|
+| CellError| Uppstår när en cells indatavärde har något fel.|
 | Kolumn Raderad|Uppstår när en användare tar bort en kolumn från ett kalkylblad med hjälp av klientsidans meny.|
 | Kolumn Raderar| Uppstår när en användare försöker ta bort en kolumn från ett kalkylblad med hjälp av klientsidans meny.|
 | KolumnDubbelklicka| Uppstår när kolumnrubriken dubbelklickas.|
@@ -81,7 +81,7 @@ För att få mer information, flytta markören ovan för att se lite kod så kom
 1. Bygg och kör applikationen.
 1.  Klick**Spara**.
 
- Rutnätets innehåll sparas i en Excel-fil.
+ Rutnätsinnehållet sparas i en Excel-fil.
 
 **Applikation i körläge** 
 

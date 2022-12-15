@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Python a través de Java 22.4 Notas de la versión
+title: Aspose.Cells for Python via Java 22.4 Notas de la versión
 type: docs
 weight: 9
 url: /es/python-java/aspose-cells-for-python-via-java-22-4-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Esta página contiene notas de la versión para[Aspose.Cells para Python vía Java 22.4](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.4/).
+ Esta página contiene notas de la versión para[Aspose.Cells for Python via Java 22.4](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.4/).
 
 {{% /alert %}}
 

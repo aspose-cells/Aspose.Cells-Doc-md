@@ -14,7 +14,7 @@ Des commentaires sont ajoutés aux cellules pour enregistrer des commentaires, q
 
 ## Ajouter une image à Excel Commenter avec Microsoft Excel
 
-Avec Microsoft Excel 2007, il est possible d'avoir une image en arrière-plan d'un commentaire de cellule. Dans Excel 2007, cela se fait (en supposant que le commentaire a déjà été ajouté) de cette façon :
+Avec Microsoft Excel 2007, il est possible d'avoir une image en arrière-plan d'un commentaire de cellule. Dans Excel 2007, cela se fait (en supposant que le commentaire a déjà été ajouté) de cette façon :
 
 1. Cliquez avec le bouton droit sur la cellule qui contient le commentaire.
 1.  Choisir**Afficher/Masquer les commentaires** et effacer tout texte du commentaire.

@@ -26,6 +26,6 @@ Följande exempel visar hur du lägger till en WordArt-form som en vattenstämpe
 
 ![todo:image_alt_text](add-wordart-watermark-to-chart_2.png)
 
-### Java-kod för att lägga till WordArt Watermark till diagram
+### Java kod för att lägga till WordArt Watermark till diagram
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}

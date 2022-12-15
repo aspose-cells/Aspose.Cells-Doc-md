@@ -9,7 +9,7 @@ url: /sv/cpp/managing-document-properties/
 
 ![todo:image_alt_text](managing-document-properties_1.png)
 ## **Hantera dokumentegenskaper**
- Följande exempelkod laddas[exempel på excel-fil](23166989.xlsx) och läser de inbyggda dokumentegenskaperna t.ex*Titel, ämne* och sedan ändra dem. Sedan läser den även egendomen för anpassade dokument dvs*MyCustom1* och lägger sedan till en ny anpassad dokumentegenskap, dvs*MyCustom5* och skriver[output excel-fil](23166986.xlsx)Följande skärmdump visar effekten av exempelkoden på exemplet i Excel-filen.
+ Följande exempelkod laddas[exempel på excel-fil](23166989.xlsx) och läser de inbyggda dokumentegenskaperna t.ex*Titel, ämne* och sedan ändra dem. Sedan läser den även egendomen för anpassade dokument dvs*MyCustom1* och lägger sedan till en ny anpassad dokumentegenskap, dvs*MyCustom5* och skriver[output excel-fil](23166986.xlsx). Följande skärmdump visar effekten av exempelkoden på exemplet i Excel-filen.
 
 ![todo:image_alt_text](managing-document-properties_2.png)
 ## **Exempelkod**

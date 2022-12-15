@@ -5,7 +5,7 @@ weight: 40
 url: /fr/java/freeze-panes-in-php/
 ---
 ## **Aspose.Cells - Figer les volets**
- Pour figer des volets dans le document de feuille de calcul à l'aide de**Aspose.Cells Java pour PHP** , invoquez simplement**FreezePanes** module.
+ Pour figer des volets dans le document de feuille de calcul à l'aide de**Aspose.Cells Java for PHP** , invoquez simplement**FreezePanes** module.
 
 **Code PHP**
 

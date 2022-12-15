@@ -1,26 +1,26 @@
 ﻿---
-title: Aspose.Cells pour Reporting Services V2.0.0 Notes de mise à jour
+title: Aspose.Cells for Reporting Services V2.0.0 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Cette page contient des notes de version pour[Aspose.Cells pour les services de rapport V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ Cette page contient des notes de version pour[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- Veuillez accueillir une nouvelle version de Aspose.Cells pour Reporting Services V2.0.0.
+ Veuillez accueillir une nouvelle version de Aspose.Cells for Reporting Services V2.0.0.
 ## **Principales caractéristiques**
-Aspose.Cells pour l'optimisation du concepteur de rapports Reporting Services.
-## **Autres améliorations et changements**
+Aspose.Cells for Reporting Services Optimisation du concepteur de rapports.
+## **Autres améliorations et modifications**
  ` `Nouvelles fonctionnalités
 
 - ` `(SSRS-40147) Formule dynamique pour additionner la colonne du tableau
 - ` `(SSRS-40144) Configuration des serveurs de rapports pour stocker/mettre en cache les données du serveur de rapports
 - ` `(SSRS-40142) Prise en charge des ensembles de données partagés
 - ` `(SSRS-40113) Valeurs négatives entre paranthèses
-- ` `(SSRS-40103) Aspose.Cells pour le rapport d'importation du concepteur de rapports Reporting Services fichier de définition de rapport pour SQL Server 2008
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services Fichier de définition de rapport d'importation du Concepteur de rapports pour SQL Server 2008
 
  Insectes
 
@@ -66,7 +66,7 @@ Aspose.Cells pour l'optimisation du concepteur de rapports Reporting Services.
 - ` ` (SSRS-40095) Erreur sur Aspose.Cells SSRS
 - ` `(SSRS-40094) Dyn hide avec paramètres
 - ` `(SSRS-40093) Problème avec le logiciel d'essai - Récupération d'une seule ligne
-- ` `(SSRS-40092) Problèmes de format avec Aspose.Cells pour Reporting Services
+- ` `(SSRS-40092) Problèmes de format avec Aspose.Cells for Reporting Services
 - ` `(SSRS-40091) Échec de l'enregistrement du fichier de rapport - Rendu Excel à l'aide d'une image
 - ` `(SSRS-40089) problème de visibilité avec le tableau matriciel dans SSRS
 - ` `(SSRS-40087) Pas de "Carte de documents" Excel disponible dans Aspose Cells pour SSRS 2005 ?

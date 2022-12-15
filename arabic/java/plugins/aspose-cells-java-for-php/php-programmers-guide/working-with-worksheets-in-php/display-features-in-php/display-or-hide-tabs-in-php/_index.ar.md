@@ -6,7 +6,7 @@ url: /ar/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells - عرض أو إخفاء علامات التبويب**
 ### **علامات التبويب الاختباء**
- لإخفاء علامات التبويب باستخدام ملفات**Aspose.Cells Java لـ PHP** ، مكالمة**عرض** وحدة.
+ لإخفاء علامات التبويب باستخدام ملفات**Aspose.Cells Java for PHP** ، مكالمة**عرض** وحدة.
 
 **كود PHP**
 
@@ -25,7 +25,7 @@ $workbook->getSettings()->setShowTabs(false);
 $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**إخفاء أو عرض أو إخفاء علامات التبويب (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

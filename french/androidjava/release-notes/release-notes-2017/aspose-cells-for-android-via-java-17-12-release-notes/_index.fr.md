@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 17.12 Notes de version
+title: Aspose.Cells for Android via Java 17.12 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/java/aspose-cells-for-android-via-java-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 17.12.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 17.12.
 
 {{% /alert %}} 
 
@@ -69,7 +69,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-42439|Exception : "java.lang.IllegalArgumentException : index de ligne non valide"|Exception|
 |CELLSJAVA-42437|Exception : java.lang.NumberFormatException lors de la ré-enregistrement d'un format de fichier XLSB|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 ### **Ajoute la méthode AbstractCalculationMonitor.Interrupt(string)**
 Permet aux utilisateurs d'interrompre la progression des calculs de formules.
 ### **Ajoute l'énumération HtmlCrossType.MSExport**
@@ -137,6 +137,6 @@ Représente la forme de l'extension Web.
 
 {{% alert color="primary" %}} 
 
-Étant donné que la base de code de Aspose.Cells pour Android via Java correspond au code des versions .NET et Java pertinentes, la plupart des modifications, améliorations et correctifs inclus dans les versions Aspose.Cells for .NET v17.10, Aspose.Cells for .NET v17.11, for .NET v17.11, for .NET 12, Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 et Aspose.Cells for Java v17.12 sont également inclus dans ce Aspose.Cells pour Android via Java v17.12.
+Depuis la base du code du Aspose.Cells for Android via Java correspond au code de la version pertinente .NET et Java, la plupart des modifications, améliorations et correctifs inclus dans le Aspose.Cells for .NET V17.10, Aspose.Cellsfor .NET Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 et Aspose.Cells for Java v17.12 sont également inclus dans ce Aspose.Cells for Android via Java v17.
 
 {{% /alert %}}

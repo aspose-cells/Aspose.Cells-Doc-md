@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 2.4.1 Release Notes
+title: Aspose.Cells for Java 2.4.1 Release Notes
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-for-java-2-4-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.4.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.4.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.4.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.4.1/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java v2.4.1!
+ Vi är glada att meddela Aspose.Cells for Java v2.4.1!
 
  Vad har ändrats:
 
@@ -28,7 +28,7 @@ url: /sv/java/aspose-cells-for-java-2-4-1-release-notes/
 - Formelberäkningsmotorn är förbättrad.
 - 21 korrigeringar och förbättringar.
 
- Problem lösta i Aspose.Cells för Java 2.4.1
+ Problem lösta i Aspose.Cells for Java 2.4.1
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |

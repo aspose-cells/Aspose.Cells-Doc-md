@@ -4,9 +4,9 @@ type: docs
 weight: 20
 url: /it/java/working-with-gridweb/
 ---
-## **Apertura di un file Excel Microsoft**
+## **Apertura di un file Microsoft Excel**
 
-Il controllo Aspose.Cells.GridWeb può aprire e caricare Microsoft file Excel, completi di dati, formattazione, grafici, immagini e così via. Questo argomento spiega come.
+Il controllo Aspose.Cells.GridWeb può aprire e caricare file di Microsoft Excel, completi di dati, formattazione, grafici, immagini, ecc. Questo argomento spiega come.
 
 Per aprire un file Excel utilizzando il controllo GridWeb:
 
@@ -24,9 +24,9 @@ Lo snippet di codice sopra può essere utilizzato come preferisci. Ad esempio, p
 
 ![cose da fare:immagine_alt_testo](working-with-gridweb_1.png)
 
-## **Salvataggio di un file Excel Microsoft**
+## **Salvataggio di un file Microsoft Excel**
 
-È possibile creare nuovi o manipolare file Excel Microsoft esistenti, su siti Web in modalità GUI utilizzando il controllo Aspose.Cells.GridWeb. I file possono quindi essere salvati in file Excel. Aspose.Cells.GridWeb funge efficacemente da editor di fogli di calcolo online. Questo argomento descrive come salvare il contenuto della griglia in file Excel.
+È possibile creare nuovi o manipolare file Microsoft Excel esistenti, su siti Web in modalità GUI utilizzando il controllo Aspose.Cells.GridWeb. I file possono quindi essere salvati in file Excel. Aspose.Cells.GridWeb funge efficacemente da editor di fogli di calcolo online. Questo argomento descrive come salvare il contenuto della griglia in file Excel.
 
 ### **Salvataggio come file**
 
@@ -44,11 +44,11 @@ L'esempio di codice seguente illustra come salvare il contenuto della griglia in
 
 ## **Ridimensionamento di Aspose.Cells.GridWeb e della relativa barra dell'intestazione**
 
-Questo articolo spiega come ridimensionare GridWeb in fase di esecuzione utilizzando Aspose.Cells.GridWeb API. Spiega inoltre come ridimensionare le barre di intestazione del controllo Aspose.Cells.GridWeb per semplificarne la lettura dei dati.
+Questo articolo spiega come ridimensionare GridWeb in fase di esecuzione usando l'API Aspose.Cells.GridWeb. Spiega inoltre come ridimensionare le barre di intestazione del controllo Aspose.Cells.GridWeb per semplificarne la lettura dei dati.
 
 ### **Modifica della larghezza e dell'altezza di Aspose.Cells.GridWeb**
 
-Modificare la larghezza e l'altezza del controllo Aspose.Cells.GridWeb è una caratteristica semplice ma importante. Il controllo Aspose.Cells.GridWeb è rappresentato dalla classe GridWeb in API. Per ridimensionare la larghezza e l'altezza del controllo GridWeb, utilizzare semplicemente le sue proprietà width e height.
+Modificare la larghezza e l'altezza del controllo Aspose.Cells.GridWeb è una caratteristica semplice ma importante. Il controllo Aspose.Cells.GridWeb è rappresentato dalla classe GridWeb nell'API. Per ridimensionare la larghezza e l'altezza del controllo GridWeb, usa semplicemente le sue proprietà di larghezza e altezza.
 
 {{% alert color="primary" %}}
 
@@ -188,7 +188,7 @@ Per salvare gli sforzi degli sviluppatori, Aspose.Cells.GridWeb offre alcuni sti
 |Tradizionale1|Scuro|
 |Tradizionale2|Grigio|
 |Costume|Personalizzato|
-Quando viene selezionato uno stile particolare, cambia l'intero aspetto del controllo GridWeb. Gli sviluppatori possono selezionare uno stile preimpostato da applicare in fase di esecuzione utilizzando il flessibile API di Aspose.Cells.GridWeb.
+Quando viene selezionato uno stile particolare, cambia l'intero aspetto del controllo GridWeb. Gli sviluppatori possono selezionare uno stile preimpostato da applicare in fase di esecuzione utilizzando l'API flessibile di Aspose.Cells.GridWeb.
 
 Il controllo GridWeb fornisce la proprietà PresetStyle a cui gli sviluppatori possono assegnare qualsiasi stile preimpostato desiderato.
 
@@ -456,7 +456,7 @@ Vedrai qualcosa di simile al seguente screenshot. Congratulazioni, hai utilizzat
 
 ## **Stampa GridWeb**
 
-Ci sono momenti in cui gli sviluppatori devono stampare il contenuto GridWeb incluso da una pagina web senza salvare un file Excel Microsoft. Il controllo Aspose.Cells.GridWeb supporta questa funzionalità.
+volte gli sviluppatori devono stampare il contenuto GridWeb incluso da una pagina Web senza salvare un file Microsoft Excel. Il controllo Aspose.Cells.GridWeb supporta questa funzionalità.
 
 ### **Stampa GridWeb**
 
@@ -491,7 +491,7 @@ Tutte queste modalità hanno le loro caratteristiche. Gli sviluppatori possono l
 
 Per impostazione predefinita, il controllo Aspose.Cells.GridWeb è in modalità di modifica. In modalità Modifica è possibile modificare completamente o modificare il contenuto della griglia utilizzando tutte le funzionalità offerte dal controllo Aspose.Cells.GridWeb. Queste funzionalità includono:
 
-- Salvataggio del contenuto della griglia nei file Excel Microsoft.
+- Salvataggio del contenuto della griglia in file di Microsoft Excel.
 - Invio di dati a un server.
 - Formule di calcolo.
 - Annullamento o eliminazione di azioni precedenti.

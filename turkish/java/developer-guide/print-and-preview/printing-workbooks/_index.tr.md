@@ -28,7 +28,7 @@ Elektronik tablonuzu oluşturmayı bitirdikten sonra, ihtiyaçlarınız için b�
 
 ### Seçilen Çalışma Sayfasını Yazdır
 
-Aşağıdaki kod parçacığı,[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) yöntemi, seçtiğiniz çalışma sayfasını yazdırmak için.
+ Aşağıdaki kod parçacığı,[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) yöntemi, seçtiğiniz çalışma sayfasını yazdırmak için.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 

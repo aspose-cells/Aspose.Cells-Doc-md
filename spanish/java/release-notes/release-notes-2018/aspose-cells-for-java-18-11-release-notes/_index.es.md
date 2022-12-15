@@ -25,7 +25,7 @@ Obtiene el nombre del usuario que actualizó la tabla dinámica por última vez.
 ### **Agrega la propiedad PivotTable.RefreshDate**
 Obtiene la fecha en la que se actualizó la tabla dinámica por última vez.
 ### **Agrega propiedades CalculationData.CellRow/CellColumn**
-Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de obtener el objeto Cell.
+Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de buscar el objeto Cell.
 ### **Agrega la clase CalculationCell**
 Representa los datos de cálculo sobre una celda que se está calculando.
 ### **Agrega el método AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**

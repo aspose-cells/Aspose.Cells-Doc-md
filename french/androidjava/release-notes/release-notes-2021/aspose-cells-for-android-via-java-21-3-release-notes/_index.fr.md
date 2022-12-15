@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 21.3 Notes de version
+title: Aspose.Cells for Android via Java 21.3 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/java/aspose-cells-for-android-via-java-21-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 21.3.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 21.3.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-43382|La copie produit un classeur corrompu|
 |CELLSJAVA-43364|Problème lors de l'enregistrement d'un graphique ayant une image dans le marqueur à l'image|
 |CELLSJAVA-43389|Paramètres de protection par mot de passe du classeur/feuille de calcul perdus lors de l'enregistrement au format de fichier XLSB|
-|CELLSJAVA-43392| La copie de la feuille produit un classeur corrompu|
+|CELLSJAVA-43392|La copie de la feuille produit un classeur corrompu|
 |CELLSJAVA-43388|Le fichier de sortie est corrompu après la copie du classeur|
 |CELLSJAVA-43406|Problèmes lors de la conversion de HTML en Excel|
 |CELLSJAVA-43399|CalculateFormula() crée beaucoup de valeurs de type d'erreur #VALUE|
@@ -44,7 +44,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 
 ### **Constructeur PdfSaveOptions(SaveFormat) obsolète.**
 
@@ -104,7 +104,7 @@ Utilise Marker.MarkerStyle à la place.
 
 ### **Modifie le comportement de Cells.DeleteBlankRows()/Cells.DeleteBlankRows(DeleteOptions)**
 
-Dans les anciennes versions, nous supprimons tous les paramètres de colonne tout en supprimant les lignes vides si la feuille de calcul est vide (pas de données de cellules). Cela rend impossible pour l'utilisateur de supprimer uniquement les lignes vides et de conserver tous les paramètres de colonne. À partir de 21.2, nous n'effaçons plus les paramètres de colonne. Si l'utilisateur doit supprimer les paramètres de colonne pour une feuille de calcul vide, il doit vérifier qu'il n'y a pas de données dans la feuille, puis effacer manuellement ColumnCollection.
+Dans les anciennes versions, nous supprimons tous les paramètres de colonne tout en supprimant les lignes vides si la feuille de calcul est vide (pas de données de cellules). Cela rend impossible pour l'utilisateur de supprimer uniquement les lignes vides et de conserver tous les paramètres de colonne. À partir de 21.2, nous n'effaçons plus les paramètres de colonne. Si l'utilisateur doit supprimer les paramètres de colonne pour une feuille de calcul vide, il doit vérifier qu'il n'y a pas de données dans la feuille, puis effacer manuellement la ColumnCollection.
 Dans les anciennes versions, nous ne supprimons pas les lignes vides sous forme. Cela rend impossible pour l'utilisateur de supprimer toutes les lignes vides comme prévu. À partir de 12.2, nous supprimons ces lignes vides sous forme avec d'autres lignes vides communes.
 
 ### **Propriété Range.CellCount obsolète.**

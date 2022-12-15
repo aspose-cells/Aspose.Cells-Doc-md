@@ -6,7 +6,7 @@ url: /fr/python-net/licensing/
 ---
 {{% alert color="primary" %}}
 
- Vous pouvez facilement télécharger une version d'évaluation de Aspose.Cells Python via .Net à partir de son[page de téléchargement](https://pypi.org/project/aspose-cells-python/) @ Pypi repos. La version d'évaluation fournit absolument les mêmes fonctionnalités que la version sous licence du composant. De plus, la version d'évaluation devient simplement sous licence lorsque vous achetez une licence et ajoutez quelques lignes de code pour appliquer la licence.
+ Vous pouvez facilement télécharger une version d'évaluation de Aspose.Cells Python via .Net à partir de son[page de téléchargement](https://pypi.org/project/aspose-cells-python/) Pypi repos. La version d'évaluation fournit absolument les mêmes fonctionnalités que la version sous licence du composant. De plus, la version d'évaluation devient simplement sous licence lorsque vous achetez une licence et ajoutez quelques lignes de code pour appliquer la licence.
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ La version d'évaluation de Aspose.Cells Python via le produit .Net (sans licenc
 Les limites sont indiquées ci-dessous :
 
 - **Nombre de fichiers ouverts** (Aspose.Cells Python via .Net)
-Lors de l'exécution de votre programme, vous ne pouvez ouvrir que 100 fichiers Excel en utilisant Aspose.Cells Python via la bibliothèque .Net. Si votre application dépasse ce nombre, une exception sera levée.
+ Lors de l'exécution de votre programme, vous ne pouvez ouvrir que 100 fichiers Excel en utilisant Aspose.Cells Python via la bibliothèque .Net. Si votre application dépasse ce nombre, une exception sera levée.
 
 
 De plus, une feuille de calcul avec un filigrane d'évaluation s'affichera toujours comme feuille de calcul active dans le fichier Excel généré en utilisant Aspose.Cells Python via la bibliothèque. Uniquement dans la version sous licence, vous pouvez définir la feuille de calcul active sur d'autres feuilles de calcul. Dans le fichier PDF ou image de sortie par Aspose.Cells Python via, un filigrane d'évaluation serait collé en haut du document/image.

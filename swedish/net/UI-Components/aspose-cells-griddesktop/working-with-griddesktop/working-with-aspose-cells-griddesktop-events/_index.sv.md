@@ -46,13 +46,13 @@ För att utföra en specifik operation när en specifik händelse utlöses, skap
 
 **Steg 1: Välj en händelse av Aspose.Cells.GridDesktop Control**
 
-1.  Visual Studio, välj Aspose.Cells.GridDesktop-kontrollen och öppna dess**Egenskaper** dialog.
+1.  Visual Studio, välj Aspose.Cells.GridDesktop-kontrollen och öppna dess**Egenskaper**dialog.
 1.  Klicka på**evenemang** flik.
 1.  Välj en händelse. (för det här exemplet**CellClick** händelse är vald).
 
 **Steg 2: Skapa en händelsehanterare**
 
-1.  Dubbelklicka på en vald händelse i**Egenskaper** dialog.
+1.  Dubbelklicka på en vald händelse i**Egenskaper**dialog.
 1. När händelsen dubbelklickas skapas en händelsehanterare av Visual Studio.NET. Följande är designergenererad kod som visar att en händelse skapas för GridControl Control.
 
 

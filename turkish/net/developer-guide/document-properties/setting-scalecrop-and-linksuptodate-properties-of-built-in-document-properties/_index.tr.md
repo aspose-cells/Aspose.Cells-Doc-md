@@ -7,7 +7,7 @@ url: /tr/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document
 ## **Olası Kullanım Senaryoları**
 [Ölçekli Kırpma](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) ve[BağlantılarGüncel](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)OpenXml biçiminde tanımlanan iki genişletilmiş yerleşik belge özelliğidir. Bu özelliklerin amacı aşağıdaki gibidir:
 ## **1) Ölçek Kırpma**
- Bu öğe, belge küçük resminin görüntüleme modunu belirtir. Bu öğeyi şuna ayarla:**DOĞRU** belge küçük resminin ekrana ölçeklenmesini etkinleştirmek için. Bu öğeyi şuna ayarla:**YANLIŞ** yalnızca ekrana sığan bölümleri göstermek için belge küçük resminin kırpılmasını etkinleştirmek için.
+ Bu öğe, belge küçük resminin görüntüleme modunu belirtir. Bu öğeyi şuna ayarla:**DOĞRU**belge küçük resminin ekrana ölçeklenmesini etkinleştirmek için. Bu öğeyi şuna ayarla:**YANLIŞ** yalnızca ekrana sığan bölümleri göstermek için belge küçük resminin kırpılmasını etkinleştirmek için.
 
 Bu öğe için olası değerler, W3C XML Schema boolean veri türü tarafından tanımlanır.
 ## **2) LinklerGüncel**

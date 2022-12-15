@@ -13,7 +13,7 @@ La configuration comprend 5 types de propriétés. Ceux-ci incluent le nom du ra
 
 Exemple de configuration TableSorted :
 
-*<TableTrié>
+*<TableTriée>
 <Report name=”report name” >
 <Table name="table name">
 <RowOffset value="1"/>

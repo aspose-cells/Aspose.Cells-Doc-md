@@ -47,7 +47,7 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
 
 ### **Fügt die AbstractCalculationEngine.ProcessBuiltInFunctions-Eigenschaft hinzu**
 
- Aus Gründen der Leistung und des Benutzerkomforts fügen wir diese Eigenschaft hinzu und machen ihren Standardwert zu „false“, damit sich der Benutzer auf die Funktionen konzentrieren kann, die nicht von der integrierten Engine unterstützt werden. Wenn die vorhandene Implementierung von AbstractCalculationEngine durch den Benutzer die Berechnung einiger integrierter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**Stimmt** aus**20.9**.
+Aus Gründen der Leistung und des Benutzerkomforts fügen wir diese Eigenschaft hinzu und machen ihren Standardwert zu „false“, damit sich der Benutzer auf die Funktionen konzentrieren kann, die nicht von der integrierten Engine unterstützt werden. Wenn die vorhandene Implementierung von AbstractCalculationEngine durch den Benutzer die Berechnung einiger integrierter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**Stimmt** aus**20.9**.
 
 ### **Fügt die TxtLoadOptions.HasTextQualifier-Eigenschaft hinzu**
 

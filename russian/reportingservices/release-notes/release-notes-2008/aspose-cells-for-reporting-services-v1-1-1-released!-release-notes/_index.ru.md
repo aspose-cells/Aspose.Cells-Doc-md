@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Reporting Services V1.1.1 выпущен! Примечания к выпуску
+title: Aspose.Cells for Reporting Services Версия 1.1.1 выпущена! Примечания к выпуску
 type: docs
 weight: 20
 url: /ru/reportingservices/aspose-cells-for-reporting-services-v1-1-1-released-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для Reporting Services V1.1.1 выпущен!](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Reporting Services Версия 1.1.1 выпущена!](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
 
 {{% /alert %}} 
 

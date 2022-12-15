@@ -338,7 +338,7 @@ Sayfaya diğer satırların sonuna yeni bir satır eklenir.
    ***Kaydet'e tıklayarak verilerdeki değişiklikleri kaydetme** buton*
 
 ![yapılacaklar:resim_alternatif_Metin](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
-### **Ayar Numarası Biçimi**
+### **Ayar Numarası Formatı**
  Şu anda fiyatlarda**Ürün fiyatı** sütun sayısal değerler olarak gösterilir. Para birimi gibi görünmelerini sağlamak mümkündür.
 
 1. Visual Studio.NET'e dönün.

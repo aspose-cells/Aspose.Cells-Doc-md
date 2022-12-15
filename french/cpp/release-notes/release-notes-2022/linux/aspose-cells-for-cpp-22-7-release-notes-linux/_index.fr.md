@@ -6,11 +6,11 @@ url: /fr/cpp/aspose-cells-for-cpp-22-7-release-notes-linux/
 ---
 {{% alert color="primary" %}}
 
-Cette page contient les notes de version pour Aspose.Cells pour C++ 22.7 pour Linux.
+Cette page contient les notes de version pour Aspose.Cells for C++ 22.7 pour Linux.
 
 {{% /alert %}}
 
-Nous sommes heureux d'annoncer la sortie de Aspose.Cells pour C++ 22.7 pour Linux.
+Nous sommes heureux d'annoncer la sortie de Aspose.Cells for C++ 22.7 pour Linux.
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-829| Ajouter l'interface IWarningCallback|Soutien|

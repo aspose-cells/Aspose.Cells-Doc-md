@@ -31,7 +31,7 @@ url: /it/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42189|Grafico a cascata, quando viene chiamato calcola (), i colori delle serie del grafico vengono ripristinati.|Insetto|
 |CELLSJAVA-42160|Il bug della scala logaritmica in Excel causa il blocco di Aspose Cells|Insetto|
 |CELLSJAVA-42158|I valori associati all'asse verticale sono stati modificati durante il rendering del foglio di calcolo in PDF|Insetto|
-|CELLSJAVA-42157|valori del limite dell'asse orizzontale e verticale sono stati modificati durante il rendering del grafico in EMF|Insetto|
+|CELLSJAVA-42157|I valori del limite dell'asse orizzontale e verticale sono stati modificati durante il rendering del grafico in EMF|Insetto|
 |CELLSJAVA-42133|Ebraico - Manca il carattere spazio nel PDF|Insetto|
 |CELLSJAVA-42107|Il grafico viene soppresso verticalmente durante il rendering dell'immagine|Insetto|
 |CELLSJAVA-42105|Mancano le serie DataTable durante l'esportazione del grafico nell'immagine|Insetto|
@@ -61,10 +61,10 @@ url: /it/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42192|CellsException: dimensione del foro non valida: deve essere compresa tra 10 e 90|Eccezione|
 |CELLSJAVA-42190|Eccezione: "java.lang.IndexOutOfBoundsException" durante il caricamento di un formato di file XLSX|Eccezione|
 |CELLSJAVA-42185|Eccezione - È stato possibile chiamare solo ReadElementString - si è verificata all'apertura della cartella di lavoro|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunta proprietà HTMLLoadOptions.AutoFitColsAndRows**
-Questa versione di Aspose.Cells for Java API ha aggiunto la proprietà HTMLLoadOptions.AutoFitColsAndRows che indica se API deve adattare automaticamente colonne e righe durante l'importazione dell'HTML nella sua modalità oggetto. La proprietà di tipo booleano ha il valore predefinito come false, il che significa che le altezze e le larghezze delle celle verranno importate così come sono, tuttavia, quando la suddetta proprietà è impostata su true, API tenta di regolare le larghezze delle colonne e le altezze delle righe in base al contenuto .
+Questa versione dell'API Aspose.Cells for Java ha aggiunto la proprietà HTMLLoadOptions.AutoFitColsAndRows che indica se l'API deve adattare automaticamente colonne e righe durante l'importazione dell'HTML nella sua modalità oggetto. La proprietà di tipo booleano ha il valore predefinito come false, il che significa che le altezze e le larghezze delle celle verranno importate così come sono, tuttavia, quando la suddetta proprietà è impostata su true, l'API tenta di regolare le larghezze delle colonne e le altezze delle righe in base al contenuto .
 
 Di seguito è riportato il semplice scenario di utilizzo della proprietà HTMLLoadOptions.AutoFitColsAndRows.
 
@@ -134,9 +134,9 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 ### **Aggiunto il metodo Cells.textToColumns**
-L'ultima revisione delle API Aspose.Cells for Java ha esposto il metodo Cells.textToColumns per imitare il metodo Excel**Testo in colonne**caratteristica. Excel fornisce questa funzionalità da**Strumenti dati**sotto il**Dati**scheda. Si prega di notare che per dividere il contenuto di una colonna in più colonne, i dati devono contenere un delimitatore specifico come una virgola (o qualsiasi altro carattere) in base al quale API tenta di dividere il contenuto di una cella in più celle.
+L'ultima revisione delle API Aspose.Cells for Java ha esposto il metodo Cells.textToColumns per imitare il metodo Excel**Testo in colonne**caratteristica. Excel fornisce questa funzionalità da**Strumenti dati**sotto il**Dati**scheda. Tieni presente che, per suddividere il contenuto di una colonna in più colonne, i dati devono contenere un delimitatore specifico come una virgola (o qualsiasi altro carattere) in base al quale l'API tenta di suddividere il contenuto di una cella in più celle.
 
-Ecco un semplice scenario di utilizzo per dimostrare l'utilizzo di API appena esposto.
+Ecco un semplice scenario di utilizzo per dimostrare l'utilizzo dell'API appena esposta.
 
 {{< highlight "java" >}}
 

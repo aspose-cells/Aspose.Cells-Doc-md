@@ -10,16 +10,16 @@ url: /tr/reportingservices/support-for-digital-signatures/
 
  Microsoft Selfcert.exe veya başka bir aracı kullanarak kişisel bir dijital imza oluşturabilir veya bir dijital imza satın alabilirsiniz. Bir elektronik tabloyu imzalamak için, dijital bir imza oluşturduktan sonra çalışma kitaplarınıza bir imza ekleyin.
 
- Raporlama Hizmetleri için Aspose.Cells, dijital imzaları destekler.
+ Aspose.Cells for Reporting Services dijital imzaları destekler.
 
 {{% /alert %}} 
 ### **Dijital İmzalarla Çalışma**
 #### **Dijital İmzalar için Desteklenen Excel Formatları**
-Raporlama Hizmetleri için Aspose.Cells, Excel 2007 ve ODS dosya biçimlerine dışa aktarırken dijital imzaları destekler.
+Aspose.Cells for Reporting Services, Excel 2007 ve ODS dosya biçimlerine dışa aktarırken dijital imzaları destekler.
 #### **Dijital İmzaları Yapılandırma**
  bu**Aspose.Cells.ReportingServices.xml** dosyası, bir dijital imzanın yapılandırma bilgilerini ve metnini tutar.<DigitalSignature> etiket:
 
-- DigitalSignature kapalı olarak ayarlandığında, Reporting Services için Aspose.Cells, dijital imza işlevini kapatır.
+- DigitalSignature kapalı olarak ayarlandığında, Aspose.Cells for Reporting Services, dijital imza işlevini kapatır.
  Örneğin:
 
 {{< highlight "java" >}}

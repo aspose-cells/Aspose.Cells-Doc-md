@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 用于 PHP 通过 Java 22.4 发行说明
+title: Aspose.Cells for PHP via Java 22.4 发行说明
 type: docs
 weight: 9
 url: /zh/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含发行说明[Aspose.Cells 用于 PHP 通过 Java 22.4](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.4/).
+此页面包含发行说明[Aspose.Cells for PHP via Java 22.4](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.4/).
 
 {{% /alert %}}
 
@@ -86,23 +86,23 @@ url: /zh/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, PivotField baseField) 方法。**
 
-使用数据透视表作为数据源添加新的时间轴。
+使用数据透视表作为数据源添加新的时间线。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, int row, int column, PivotField baseField) 方法。**
 
-使用数据透视表作为数据源添加新的时间轴。
+使用数据透视表作为数据源添加新的时间线。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, int baseFieldIndex) 方法。**
 
-使用数据透视表作为数据源添加新的时间轴。
+使用数据透视表作为数据源添加新的时间线。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, int row, int column, int baseFieldIndex) 方法。**
 
-使用数据透视表作为数据源添加新的时间轴。
+使用数据透视表作为数据源添加新的时间线。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, string baseFieldName) 方法。**
 
-使用数据透视表作为数据源添加新的时间轴。
+使用数据透视表作为数据源添加新的时间线。
 
 ### **添加 DataLabelShapeType.Line 枚举。**
 

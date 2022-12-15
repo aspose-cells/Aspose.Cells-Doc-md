@@ -25,7 +25,7 @@ Aspose.Cells tillhandahåller också funktionen för att hantera trådade kommen
 För att lägga till trådade kommentarer i Excel 365, följ följande steg.
 
 - Metod 1
- Klicka på**Recension** Flik
+ - Klicka på**Recension** Flik
  - Klicka på**Ny kommentar** knapp
  - Detta öppnar en dialog för att skriva kommentarer i den aktiva cellen.
   - ![todo:image_alt_text](threaded-comments_4.jpg)
@@ -129,6 +129,6 @@ Följande exempel visar hur du tar bort kommentarer i kolumn A1 genom att ladda[
 
 {{% alert color="primary" %}}
 
-Observera att genom att ta bort kommentar med Aspose.Cells tas författaren inte bort automatiskt. Om du också behöver ta bort författaren, använd metoden RemoveAt för[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) klass som visas i exemplet ovan.
+ Observera att genom att ta bort kommentar med Aspose.Cells tas författaren inte bort automatiskt. Om du också behöver ta bort författaren, använd metoden RemoveAt för[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) klass som visas i exemplet ovan.
 
 {{% /alert %}}

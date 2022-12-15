@@ -10,6 +10,6 @@ Aspose.Cells admite ahorro (**Hoja de cálculo de OpenDocument**) archivo ODS en
 
 {{% /alert %}}
 
-El código de muestra a continuación crea el objeto del libro de trabajo, agrega algún valor en la celda A1 de la primera hoja de trabajo y luego guarda el archivo ODS en las especificaciones ODF 1.1 y 1.2. De forma predeterminada, el archivo ODS se guarda en la especificación ODF 1.2.
+El código de ejemplo a continuación crea el objeto del libro de trabajo, agrega algún valor en la celda A1 de la primera hoja de trabajo y luego guarda el archivo ODS en las especificaciones ODF 1.1 y 1.2. De forma predeterminada, el archivo ODS se guarda en la especificación ODF 1.2.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveODSfile-SaveODSfile.java" >}}

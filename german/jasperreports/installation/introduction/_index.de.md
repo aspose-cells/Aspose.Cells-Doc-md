@@ -6,6 +6,6 @@ url: /de/jasperreports/introduction/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells für JasperReports kann auf Ihrem Computer bereitgestellt werden, indem Sie einfach die freigegebene JAR-Datei zu Ihrem Klassenpfad hinzufügen.
+ Aspose.Cells for JasperReports kann auf Ihrem Computer bereitgestellt werden, indem Sie einfach die freigegebene JAR-Datei zu Ihrem Klassenpfad hinzufügen.
 
 {{% /alert %}}

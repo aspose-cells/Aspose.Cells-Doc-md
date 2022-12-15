@@ -5,7 +5,7 @@ weight: 60
 url: /ar/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
- لتعيين ورقة العمل لمعاينة فاصل الصفحة باستخدام**Aspose.Cells Java لـ Python** ، ببساطة استدعاء**معاينة PageBreak** وحدة.
+ لتعيين ورقة العمل لمعاينة فاصل الصفحة باستخدام**Aspose.Cells Java for Python** ، ببساطة استدعاء**معاينة PageBreak** وحدة.
 
 **Python كود**
 
@@ -32,7 +32,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Page break preview is enabled for sheet 1, please check the output document." 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**معاينة فاصل الصفحة (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

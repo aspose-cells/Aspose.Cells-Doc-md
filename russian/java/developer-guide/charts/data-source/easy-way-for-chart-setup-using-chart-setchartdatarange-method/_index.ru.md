@@ -6,7 +6,7 @@ url: /ru/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells теперь предоставляет[Диаграмма.setChartDataRange()](https://reference.aspose.com/cells/java/com.aspose.cells/chart#setChartDataRange\(java.lang.String,%20boolean\)) способ легко настроить диаграмму. Используя этот метод, вам больше не нужно будет отдельно добавлять данные оси серий и категорий.
+ Aspose.Cells теперь обеспечивает[Диаграмма.setChartDataRange()](https://reference.aspose.com/cells/java/com.aspose.cells/chart#setChartDataRange\(java.lang.String,%20boolean\)) способ легко настроить диаграмму. Используя этот метод, вам больше не нужно будет отдельно добавлять данные оси серий и категорий.
 
 {{% /alert %}} 
 ## **Простой способ настройки диаграммы с использованием метода Chart.setChartDataRange**

@@ -86,7 +86,7 @@ cell.setCellValue(Calendar.getInstance());
 cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تنزيل أمثلة تشغيل لـ**تاريخ الإنشاء Cell في Aspose.Cells و Apache POI** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)

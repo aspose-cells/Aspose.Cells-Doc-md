@@ -38,7 +38,7 @@ Följande exempel visar hur man ställer in gränser runt varje cell i intervall
 
 ## **Union of Ranges**
 
- Aspose.Cells tillhandahåller[**Range.Union**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union) metod för att ta unionen för intervall, returnerar metoden en[*ArrayList*](https://docs.microsoft.com/en-gb/dotnet/api/system.collections.arraylist?view=netframework-4.8)objekt. Följande exempel visar hur man tar union för intervall.
+ Aspose.Cells tillhandahåller[**Range.Union**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union)metod för att ta unionen för intervall, returnerar metoden en[*ArrayList*](https://docs.microsoft.com/en-gb/dotnet/api/system.collections.arraylist?view=netframework-4.8)objekt. Följande exempel visar hur man tar union för intervall.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-UnionOfRanges-1.cs" >}}
 

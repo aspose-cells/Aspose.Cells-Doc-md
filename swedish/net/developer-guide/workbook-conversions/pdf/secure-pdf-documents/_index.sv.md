@@ -18,6 +18,6 @@ Den här artikeln förklarar hur du skickar in PDF-säkerhetsalternativ när du 
 
 {{% alert color="primary" %}}
 
- Om kalkylbladet innehåller formler är det bäst att ringa[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) precis innan du renderar den till PDF. Detta säkerställer att formelberoende värden beräknas om och att de korrekta värdena återges i PDF-filen.
+ Om kalkylbladet innehåller formler är det bäst att ringa[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)precis innan du renderar den till PDF. Detta säkerställer att formelberoende värden beräknas om och att de korrekta värdena återges i PDF-filen.
 
 {{% /alert %}}

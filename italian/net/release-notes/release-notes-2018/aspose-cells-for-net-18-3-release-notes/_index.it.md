@@ -24,7 +24,7 @@ url: /it/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45920|La sottolineatura del testo "KEY DRIVERS:" è interrotta nell'immagine di output|Insetto|
 |CELLSNET-45939|Oltre alla sottolineatura interrotta, anche il testo è disallineato, come mostrato nello screenshot fornito|Insetto|
 |CELLSNET-45890|Alcune forme non vengono renderizzate completamente in quanto mancano alcune parti|Insetto|
-|CELLSNET-45878|Il file Excel di output della nuova versione blocca Excel 2016 Microsoft|Insetto|
+|CELLSNET-45878|Il file Excel di output della nuova versione arresta in modo anomalo Microsoft Excel 2016|Insetto|
 |CELLSNET-43360|Problema di stile con il rendering da HTML a Excel|Insetto|
 |CELLSNET-45979|Il calcolo della formula CERCA.VERT non funziona correttamente|Insetto|
 |CELLSNET-45949|Cell l'allineamento del testo (con caratteri misti) viene modificato nell'immagine convertita|Insetto|
@@ -57,8 +57,8 @@ url: /it/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45938|System.IndexOutOfRangeException all'apertura di file XLSB|Eccezione|
 |CELLSNET-45937|System.FormatException si verifica durante l'apertura del file XLSX|Eccezione|
 |CELLSNET-45903|Il caricamento di XLSX causa StackOverflowException|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HtmlSaveOptions.ExportSimilarBorderStyle**
 Indica se esportare lo stile del bordo simile quando lo stile del bordo non è supportato dai browser. Se desideri importare il file HTML o MHT in Excel, mantieni il valore predefinito. Il valore predefinito è falso.
 #### **Aggiunge la proprietà Axis.AxisLabels**

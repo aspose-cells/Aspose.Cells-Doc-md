@@ -13,7 +13,7 @@ url: /fr/java/aspose-cells-for-java-8-3-0-release-notes/
 \1) Aspose.Cells 
 
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Améliorations
 
@@ -62,7 +62,7 @@ Exceptions
 
 \2) Suite de grille Aspose.Cells
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 

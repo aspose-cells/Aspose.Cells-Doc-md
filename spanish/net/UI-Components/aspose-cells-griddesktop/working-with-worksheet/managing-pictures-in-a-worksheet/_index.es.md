@@ -1,5 +1,5 @@
 ﻿---
-title: Administrar imágenes en una hoja de cálculo
+title: Administrar imágenes en una hoja de trabajo
 type: docs
 weight: 100
 url: /es/net/managing-pictures-in-a-worksheet/

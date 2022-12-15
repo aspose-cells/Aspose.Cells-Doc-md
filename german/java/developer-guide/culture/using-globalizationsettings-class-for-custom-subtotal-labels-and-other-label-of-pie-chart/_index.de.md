@@ -28,7 +28,7 @@ url: /de/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 
 {{% alert color="primary" %}} 
 
- Das[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)Klasse funktioniert nur zum Hinzufügen neuer Zwischensummen. Wenn eine Tabelle bereits Zwischensummen enthält, können ihre Bezeichnungen nicht geändert werden.
+ Das[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)Klasse funktioniert nur zum Hinzufügen neuer Zwischensummen. Wenn eine Tabelle bereits Zwischensummen enthält, können ihre Beschriftungen nicht geändert werden.
 
 {{% /alert %}} 
 ### **Benutzerdefinierter Text für andere Beschriftungen des Kreisdiagramms**

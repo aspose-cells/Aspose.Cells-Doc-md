@@ -9,7 +9,7 @@ Per garantire che il testo in una cella possa essere letto, è possibile applica
 
 Per disporre il testo in una cella, utilizzare il metodo Style.setTextWrapped.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -33,7 +33,7 @@ cell.get(0, 0).setStyle(style);
 ## **Apache POI SS - HSSF XSSF - Nuova linea in Cells**
 CellStyle.setWrapText dovrebbe essere vero per il testo a capo.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

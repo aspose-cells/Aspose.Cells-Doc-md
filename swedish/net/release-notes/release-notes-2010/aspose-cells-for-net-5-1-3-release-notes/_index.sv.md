@@ -1,25 +1,25 @@
 ﻿---
-title: Aspose.Cells för .NET 5.1.3 Release Notes
+title: Aspose.Cells for .NET 5.1.3 Release Notes
 type: docs
 weight: 30
 url: /sv/net/aspose-cells-for-net-5-1-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 5.1.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.3/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 5.1.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.3/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v5.1.3!
+ Vi är glada att meddela Aspose.Cells for .NET v5.1.3!
 
  Vad har ändrats i Aspose.Cells:
 
 -  Förbättrar prestandan för att spara PDF-filer.
-- 39 förbättringar och korrigeringar.
+-  39 förbättringar och korrigeringar.
 
  Vad har ändrats i Aspose.Cells.GridWeb:
 
--  Stöder att klicka på kolumnrubriken för att markera hela kolumnen, klicka på det övre vänstra hörnet för att markera hela arkets celler som liknar MS Excels beteende.
+- Stöder att klicka på kolumnrubriken för att markera hela kolumnen, klicka på det övre vänstra hörnet för att markera hela arkets celler som liknar MS Excels beteende.
 -  Ger stöd för iterativa beräkningar.
 -  Stöder namngivna intervall.
 -  Tillåter erhållande av datafältnamn på klientsidan.
@@ -39,7 +39,7 @@ url: /sv/net/aspose-cells-for-net-5-1-3-release-notes/
 - Lägger till värdefulla funktioner till formlerlistan som stöds: ERROR.TYPE, ISBLANK, ISERROR, ISLOGICAL, ISNA, ISNONTEXT, ISTEXT, ISREF, N, NA, TYPE, COUNTBLANK, LARGE, MAXA, MINA, AVERAGEA, MODE, PERCENTIL, PERCENTRANK , VÄLJ, SÖKUP, OFFSET, INDIREKTA.
 -  3 fixar.
 
- Problem lösta i Aspose.Cells för .NET v5.1.3.
+ Problem lösta i Aspose.Cells for .NET v5.1.3.
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |

@@ -1,12 +1,12 @@
 ﻿---
-title: Java 22.9 Sürüm Notları aracılığıyla PHP için Aspose.Cells
+title: Aspose.Cells for PHP via Java 22.9 Sürüm Notları
 type: docs
 weight: 4
 url: /tr/php-java/aspose-cells-for-php-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Bu sayfa için sürüm notları içerir[Aspose.Cells PHP için Java 22.9 üzerinden](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.9/).
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for PHP via Java 22.9](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.9/).
 
 {{% /alert %}}
 

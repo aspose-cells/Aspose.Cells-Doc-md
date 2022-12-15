@@ -1,12 +1,12 @@
 ﻿---
-title: Java 21.11 Sürüm Notları aracılığıyla PHP için Aspose.Cells
+title: Aspose.Cells for PHP via Java 21.11 Sürüm Notları
 type: docs
 weight: 2
 url: /tr/php-java/aspose-cells-for-php-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Bu sayfa için sürüm notları içerir[Java 21.11 üzerinden PHP için Aspose.Cells](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.11/).
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for PHP via Java 21.11](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.11/).
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
 
 ### **Enum CellValueFormatStrategy.DisplayString ekler.**
 
-Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücre değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
+Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücrenin değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
 
 ### **WorksheetCollection.ActiveSheetName özelliğini ekler.**
 

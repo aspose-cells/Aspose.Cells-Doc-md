@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java için Python
+title: Aspose.Cells Java for Python
 type: docs
 weight: 60
 url: /tr/java/aspose-cells-java-for-python/
@@ -18,11 +18,11 @@ Aspose.Cells for Java, Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Virg
 
 ## **Jython için Aspose.Cells Java**
 
-Aspose.Cells Java for Python, Python'deki Aspose.Cells for Java API kullanım örneklerini gösteren/sağlayan bir projedir.
+Aspose.Cells Java for Python Aspose.Cells for Java API kullanım örneklerini Python'de gösteren/sağlayan bir projedir.
 
 ## **sistem gereksinimleri**
 
-**Python için Aspose.Cells Java'i kullanmak için sistem gereksinimleri şunlardır:**
+**Aspose.Cells Java for Python'i kullanmak için sistem gereksinimleri aşağıdadır:**
 
 - Jpype
 - Aspose.Cells bileşeni indirildi.

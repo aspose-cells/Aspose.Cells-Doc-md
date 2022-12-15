@@ -86,7 +86,7 @@ El archivo se abrirá en el editor.
 
 **Carga y descarga**
 
- El método***LoaderService.fromInputStream*** lee el***Flujo de entrada*** proporcionado por fileUpload***componente*** crear instancia de***com.aspose.cells.Workbook***clase. Esta instancia se mantiene en la memoria siempre que el usuario siga viendo o editando la hoja de cálculo en el navegador web. Cuando el usuario sale del editor o cierra el navegador, las instancias no utilizadas se descargan automáticamente de la memoria para mantener limpio el servidor.
+ El método***LoaderService.fromInputStream*** lee el***Flujo de entrada*** proporcionado por fileUpload***componente*** crear instancia de***com.aspose.cells.Workbook*** clase. Esta instancia se mantiene en la memoria siempre que el usuario siga viendo o editando la hoja de cálculo en el navegador web. Cuando el usuario sale del editor o cierra el navegador, las instancias no utilizadas se descargan automáticamente de la memoria para mantener limpio el servidor.
 
 
 
@@ -278,7 +278,7 @@ Su archivo seleccionado se abrirá desde Dropbox.
 
 **¿Cómo funciona?**
 
- los**Abrir desde Dropbox** usos del botón**Selector de JavaScript de Dropbox API** para abrir el cuadro de diálogo Selector de Dropbox. El Selector proporciona la URL del archivo seleccionado, que es capturado por la función de devolución de llamada y enviado de vuelta al servidor. El servidor crea una instancia de hoja de cálculo a partir de la URL, inicializa algunas cosas de limpieza y envía actualizaciones de DOM al navegador. El navegador procesa y actualiza el HTML y el usuario está listo para editar el documento cargado.
+ los**Abrir desde Dropbox** usos del botón**Selector de JavaScript de Dropbox API**para abrir el cuadro de diálogo Selector de Dropbox. El Selector proporciona la URL del archivo seleccionado, que es capturado por la función de devolución de llamada y enviado de vuelta al servidor. El servidor crea una instancia de hoja de cálculo a partir de la URL, inicializa algunas cosas de limpieza y envía actualizaciones de DOM al navegador. El navegador procesa y actualiza el HTML y el usuario está listo para editar el documento cargado.
 ### **Abrir desde URL**
  Los archivos se pueden abrir directamente desde las URL. Esto permite al usuario editar cualquier archivo disponible públicamente en Internet. Para abrir el archivo anexar**?url=ubicación** parámetro con el valor de su deseado**ubicación** mientras se carga el editor. Por ejemplo:
 
@@ -298,7 +298,7 @@ Su archivo seleccionado se abrirá desde Dropbox.
 
 **almacenamiento en caché**
 
- El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. los**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
+ El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. los**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache**uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
 
 **actualizaciones de DOM**
 
@@ -517,7 +517,7 @@ El editor cerrará la hoja de cálculo abierta, si la hay, y abrirá una nueva.
 
 **almacenamiento en caché**
 
- El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. los**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
+ El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. los**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache**uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
 
 **actualizaciones de DOM**
 

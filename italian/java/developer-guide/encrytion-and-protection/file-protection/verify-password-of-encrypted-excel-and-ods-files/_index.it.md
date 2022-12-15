@@ -12,7 +12,7 @@ Se i file Excel (xlsx, xlsb, xls, xlsm) e Open Office (ODS) sono bloccati con pa
 ## **Verificare la password del file crittografato**
 
  Per verificare la password del file cifrato, Aspose.Cells for Java fornisce il[**Verifica la password**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) metodo. I metodi accettano due parametri, il flusso di file e la password che deve essere verificata.
-Il seguente frammento di codice illustra l'uso di[**Verifica la password**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) metodo per verificare se la password fornita è valida o meno.
+ Il seguente frammento di codice illustra l'uso di[**Verifica la password**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) metodo per verificare se la password fornita è valida o meno.
 
 ### **Codice di esempio:**
 

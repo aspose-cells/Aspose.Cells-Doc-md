@@ -1,5 +1,5 @@
 ﻿---
-title: Installera och använda Aspose.Cells Java for Eclipse - Maven
+title: Installera och använda Aspose.Cells Java för Eclipse - Maven
 type: docs
 weight: 10
 url: /sv/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
@@ -12,18 +12,18 @@ url: /sv/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 ![todo:image_alt_text](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
 
--  Detta lägger till**Aspose.Cells Maven Project** i New Project Wizard och**Aspose.Cells Kodexempel** i New Other wizard of Eclipse IDE.
+-  Detta lägger till**Aspose.Cells Maven Projekt** i New Project Wizard och**Aspose.Cells Kodexempel** i New Other wizard of Eclipse IDE.
 
 ![todo:image_alt_text](project_1.png)
 
 ## **Använder sig av**
 
-### **Aspose.Cells Maven Project (trollkarl)**
+### **Aspose.Cells Maven Projekt (guide)**
 
- Att skapa**Maven-projektet** av guiden för användning[Aspose.Cells för Java API](https://products.aspose.com/cells/java/):
+ Att skapa**Maven Projekt** av guiden för användning[Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
 
 1. Välj**Nytt -> Projekt**.
-1. Välj**Aspose.Cells Maven Project**i**Maven**kategori.
+1. Välj**Aspose.Cells Maven Projekt**i**Maven**kategori.
 1. Klick**Nästa**.
 
 ![todo:image_alt_text](project_2.png)
@@ -32,21 +32,21 @@ url: /sv/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 ![todo:image_alt_text](project_3.png)
 
-1. Detta kommer att hämta[Aspose.Cells för Java](https://products.aspose.com/cells/java/) senast[Maven beroende](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) referens från[Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) och konfigurera den i**pom.xml**. Om du har valt**Ladda också ner kodexempel,** nedladdning av**Kodexempel** kommer också att börja från[Aspose.Cells för Java API Exempel Repository.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+1. Detta kommer att hämta[Aspose.Cells for Java](https://products.aspose.com/cells/java/) senast[Maven Beroende](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) referens från[Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) och konfigurera den i**pom.xml**. Om du har valt**Ladda också ner kodexempel,** nedladdning av**Kodexempel** kommer också att börja från[Aspose.Cells for Java API Exempelförråd.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 1. Följande**Maven** Projekt kommer att skapas på din**Eclipse IDE** när guiden är klar:
 
 ![todo:image_alt_text](project_4.png)
 
-1.  Det skapade**Maven-projektet** är konfigurerad att använda**Aspose.Cells för Java API** och redo att förbättras enligt dina projektkrav.
- Om du har valt att ladda ner[Kodexempel](https://github.com/aspose-cells/Aspose.Cells-for-Java) , du kan använda**Aspose.Cells Kodexempel (guide)**för import behövs**Kodexempel** av Aspose.Cells för Java API i ditt projekt.
+1.  Det skapade**Maven Projekt** är konfigurerad att använda**Aspose.Cells for Java API** och redo att förbättras enligt dina projektkrav.
+ Om du har valt att ladda ner[Kodexempel](https://github.com/aspose-cells/Aspose.Cells-for-Java) , du kan använda**Aspose.Cells Kodexempel (guide)**för import behövs**Kodexempel** av Aspose.Cells for Java API till ditt projekt.
 
 ### **Aspose.Cells Kodexempel (guide)**
 
-**Aspose.Cells Kodexempelguide**låter dig prova många exempel som tillhandahålls för Aspose.Cells för Java API.
+**Aspose.Cells Kodexempelguide** låter dig prova många prover som tillhandahålls för Aspose.Cells for Java API.
 
 {{% alert color="primary" %}}
 
- För att kunna använda**Aspose.Cells Kodexempelguide**bekvämt: det rekommenderas att alltid välja**Ladda också ner kodexempel** medan du skapar**Maven-projektet**på**Aspose.Cells Maven Project** **trollkarl**,
+ För att kunna använda**Aspose.Cells Kodexempelguide**bekvämt: det rekommenderas att alltid välja**Ladda också ner kodexempel** medan du skapar**Maven Projekt**på**Aspose.Cells Maven Projekt** **trollkarl**,
 
 {{% /alert %}}
 
@@ -62,9 +62,9 @@ För att använda exempel, bara:
 
 ![todo:image_alt_text](example_2.png)
 
-1.  Detta kommer att kopiera den valda kategorin**Kodexempel**Java-filer till projektet under**com.aspose.cells.examples**paket. Alla nödvändiga resurser som behövs av Kodexemplen kommer också att kopieras in**src/main/resources**mapp, som visas nedan:
+1.  Detta kommer att kopiera den valda kategorin**Kodexempel**Java filer till projektet under**com.aspose.cells.examples**paket. Alla nödvändiga resurser som behövs av Kodexemplen kommer också att kopieras in**src/main/resources**mapp, som visas nedan:
 
 ![todo:image_alt_text](example_3.png)
 
 1. Granska exempelkoden, kompilera och kör.
-1. Du kan nu testa andra exempel och börja bygga din egen applikation med Aspose.Cells för Java API.
+1. Du kan nu testa andra exempel och börja bygga din egen applikation med Aspose.Cells for Java API.

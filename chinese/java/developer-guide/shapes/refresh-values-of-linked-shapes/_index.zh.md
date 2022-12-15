@@ -14,7 +14,7 @@ url: /zh/java/refresh-values-of-linked-shapes/
 
 以下屏幕截图显示了以下示例代码中使用的源 Excel 文件。它有一个链接**图片1**链接到单元格 A1。我们将使用 Aspose.Cells 更改单元格 A1 的值，然后调用[**工作表.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue() 方法刷新值**图片1**并将其保存为 PDF 格式。
 
-![待办事项：图片_替代_文本](refresh-values-of-linked-shapes_1.png)
+![待办事项：图像_替代_文本](refresh-values-of-linked-shapes_1.png)
 
 您可以下载[源Excel文件](5472956.xlsx)和[输出PDF](5472955.pdf)从给定的链接。
 

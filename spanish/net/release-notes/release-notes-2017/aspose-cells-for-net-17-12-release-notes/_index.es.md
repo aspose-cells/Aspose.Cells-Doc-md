@@ -50,7 +50,7 @@ Obtiene y establece el prefijo del nombre del tipo css, como tr, col, td, etc. E
 #### **Agrega la propiedad Cell.FormulaLocal**
 Obtiene la fórmula formateada local que puede variar de acuerdo con las diferentes configuraciones regionales para separadores, nombres integrados, nombres de funciones, etc. Esas configuraciones regionales son dependientes.
 #### **Agrega el método GlobalizationSettings.GetLocalFunctionName(string standardName)**
-Obtiene el nombre de la función dependiente de la configuración regional de acuerdo con el nombre de la función estándar dado.
+Obtiene el nombre de la función dependiente de la configuración regional de acuerdo con el nombre de la función estándar dada.
 #### **Agrega el método GlobalizationSettings.GetLocalBuiltInName(string standardName)**
 Obtiene el texto dependiente de la configuración regional para el nombre integrado de acuerdo con el texto estándar proporcionado.
 #### **Agrega la propiedad GlobalizationSettings.ListSeparator**

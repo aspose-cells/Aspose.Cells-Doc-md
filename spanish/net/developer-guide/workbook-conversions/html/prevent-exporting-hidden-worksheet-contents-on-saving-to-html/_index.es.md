@@ -10,7 +10,7 @@ Puede guardar libros de Excel en HTML. Sin embargo, si el libro de trabajo conti
 
 {{% /alert %}}
 
- Aspose.Cells proporciona el[**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exporthiddenworksheet) propiedad. De forma predeterminada, está configurado para**verdadero** y las hojas de trabajo ocultas se exportan a HTML. si lo configuras**falso**, Aspose.Cells no exportará el contenido oculto de la hoja de trabajo.
+ Aspose.Cells proporciona el[**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exporthiddenworksheet) propiedad. De forma predeterminada, está configurado para**verdadero** y las hojas de trabajo ocultas se exportan a HTML. si lo configuras**falso**, Aspose.Cells no exportará el contenido oculto de la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PreventExportingHiddenContent-PreventExportingHiddenContentWhileSavingAsHTML.cs" >}}
 

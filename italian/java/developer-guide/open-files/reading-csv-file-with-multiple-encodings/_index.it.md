@@ -32,7 +32,7 @@ Lo screenshot seguente mostra il file XSLX convertito dal precedente file CSV do
 
 Di seguito è riportato il codice di esempio che converte correttamente il file CSV sopra nel formato XLSX.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

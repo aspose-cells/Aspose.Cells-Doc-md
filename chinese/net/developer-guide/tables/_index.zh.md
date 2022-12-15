@@ -51,7 +51,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。创建一个[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)在工作表中，使用[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects)的集合属性[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。每个[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)实际上是[**列表对象集合**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection)类，它进一步提供了[**添加**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index)添加 List 对象并指定它应包含的单元格范围的方法。根据指定的单元格范围，一个[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)由 Aspose.Cells 在工作表中创建。使用属性（例如，[**表格样式类型**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/tablestyletype)） 的[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)类来根据您的要求格式化表格。
 
-下面的示例将样本数据添加到工作表，添加[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)并对其应用默认样式。[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Microsoft Excel 2007/2010 支持样式。
+下面的示例将样本数据添加到工作表，添加[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)并为其应用默认样式。[**列表对象**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Microsoft Excel 2007/2010 支持样式。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
 

@@ -1,17 +1,17 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.7.1
+title: Modifiche all'API pubblica in Aspose.Cells 8.7.1
 type: docs
 weight: 240
 url: /it/net/public-api-changes-in-aspose-cells-8-7-1/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.7.0 alla 8.7.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.7.0 alla 8.7.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Aggiunta la proprietà LookInType.OriginalValues**
- Aspose.Cells le API supportano già il[Trova o cerca dati](/cells/it/net/find-or-search-data/)funzione per fogli di calcolo per trovare un particolare contenuto nel valore e nella formula della cella. Tuttavia, a questa funzionalità mancava l'aspetto della formattazione applicata alla cella che potrebbe modificare l'aspetto e il valore dei contenuti, rendendo di conseguenza il testo non ricercabile utilizzando il valore originale. Con questa versione delle API Aspose.Cells, è stata esposta al pubblico un'altra costante dal nome LookInType.OriginalValues API che consente di superare la situazione discussa sopra.
+ Aspose.Cells le API supportano già il[Trova o cerca dati](/cells/it/net/find-or-search-data/)funzione per fogli di calcolo per trovare un particolare contenuto nel valore e nella formula della cella. Tuttavia, a questa funzionalità mancava l'aspetto della formattazione applicata alla cella che potrebbe modificare l'aspetto e il valore dei contenuti, rendendo di conseguenza il testo non ricercabile utilizzando il valore originale. Con questa versione delle API Aspose.Cells, un'altra costante dal nome LookInType.OriginalValues è stata esposta all'API pubblica che consente di superare la situazione discussa sopra.
 
 {{% alert color="primary" %}} 
 

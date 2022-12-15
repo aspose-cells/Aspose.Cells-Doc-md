@@ -1,5 +1,5 @@
 ﻿---
-title: Visa funktioner i Python
+title: Displayfunktioner i Python
 type: docs
 weight: 10
 url: /sv/java/display-features-in-python/
@@ -12,4 +12,4 @@ url: /sv/java/display-features-in-python/
 - [Dölj eller visa ett kalkylblad i Python](/cells/sv/java/hide-or-unhide-a-worksheet-in-python/)
 - [Förhandsvisning av sidbrytning i Python](/cells/sv/java/page-break-preview-in-python/)
 - [Delade rutor i Python](/cells/sv/java/split-panes-in-python/)
-- [Zoomfaktor i Python](/cells/sv/java/zoom-factor-in-python/)
+- [Zoomfaktor på Python](/cells/sv/java/zoom-factor-in-python/)

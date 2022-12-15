@@ -4,12 +4,12 @@ type: docs
 weight: 5
 url: /es/nodejs-java/getting-started/
 keywords: nodejs, excel, instal
-description: configure Aspose.Cells para Node.js a través de Java y las pautas de instalación
+description: configuración Aspose.Cells for Node.js via Java y pautas de instalación
 ---
 ## **Requisitos del sistema**
- Aspose.Cells para Node.js a través de Java es independiente de la plataforma API y se puede usar en cualquier plataforma (Windows, Linux y MacOS) donde[Nodo.js](https://nodejs.org/en/download/) y[nodo-java](https://github.com/joeferner/node-java)puente están instalados. La máquina debe tener Oracle JDK 7 o versiones superiores antes de configurar la instalación.
+ Aspose.Cells for Node.js via Java es independiente de la plataforma API y se puede usar en cualquier plataforma (Windows, Linux y MacOS) donde[Nodo.js](https://nodejs.org/en/download/) y[nodo-java](https://github.com/joeferner/node-java) puente están instalados. La máquina debe tener Oracle JDK 7 o versiones superiores antes de configurar la instalación.
 ## **Instalar desde NPM**
- Puede usar fácilmente Aspose.Cells para Node.js a través de Java desde[MNP](https://www.npmjs.com/package/aspose.cells) con el siguiente comando.
+ Puede usar fácilmente Aspose.Cells for Node.js via Java desde[MNP](https://www.npmjs.com/package/aspose.cells) con el siguiente comando.
 {{< highlight "java" >}}
 
  $ npm install aspose.cells
@@ -19,7 +19,7 @@ description: configure Aspose.Cells para Node.js a través de Java y las pautas 
 Si encuentra algún problema durante el proceso de instalación, consulte https://www.npmjs.com/package/java.
 
 ## **Instalar desde archivo ZIP**
-Para instalar y usar Aspose.Cells para Node.js a través de Java desde un archivo ZIP, siga las siguientes instrucciones:
+Para instalar y usar Aspose.Cells for Node.js via Java desde un archivo ZIP, siga las siguientes instrucciones:
 ### **Linux:**
 -  Descargar e instalar[Nodo.js](https://nodejs.org/en/download/).
 - Instale Oracle JDK (1.7 o 1.8) para Linux, configure la variable de entorno JAVA_HOME.
@@ -40,7 +40,7 @@ $ npm install java
 
 
 
-- Descargue "Aspose.Cells para Node.js a través de Java" y extráigalo en "aspose.cells.js.java/node_modules".
+- Descargue "Aspose.Cells for Node.js via Java" y extráigalo en "aspose.cells.js.java/node_modules".
 - Cree un archivo de prueba llamado**hola.js**usando el siguiente código de muestra en la carpeta "aspose.cells.js.java":
 
 {{< highlight "java" >}}
@@ -83,7 +83,7 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- Descargue "Aspose.Cells para Node.js a través de Java" y extráigalo en "aspose.cells.js.java/node_modules".
+- Descargue "Aspose.Cells for Node.js via Java" y extráigalo en "aspose.cells.js.java/node_modules".
 -  Crear un archivo llamado**hola.js**en la carpeta "aspose.cells.js.java" usando el siguiente código de muestra:
 
 {{< highlight "java" >}}
@@ -141,7 +141,7 @@ console.log("hello world");
 
 `         `$ npm instalar java
 
-- Descargue "Aspose.Cells para Node.js a través de Java" y extráigalo en "aspose.cells.js.java/node_modules".
+- Descargue "Aspose.Cells for Node.js via Java" y extráigalo en "aspose.cells.js.java/node_modules".
 -  Cree un archivo de prueba llamado**hola.js** usando el siguiente código de muestra en la carpeta "aspose.cells.js.java":
 
 

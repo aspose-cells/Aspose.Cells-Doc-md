@@ -33,7 +33,7 @@ Excel elektronik tablolarını doğrudan PDF formatına dönüştürmek için a�
 1.  nesnesinin örneğini oluşturun**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)**boş kurucusunu çağırarak sınıf.
 1. Mevcut bir şablon dosyasını açabilir/yükleyebilir veya çalışma kitabını sıfırdan oluşturuyorsanız bu adımı atlayabilirsiniz.
 1. Aspose.Cells' API'lerini kullanarak elektronik tablo üzerinde herhangi bir iş yapın (verileri girin, biçimlendirmeyi uygulayın, formülleri ayarlayın, resimler veya başka çizim nesneleri ekleyin, vb.).
-1. Elektronik tablo kodu tamamlandığında,**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** sınıf'**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**elektronik tabloyu kaydetme yöntemi.
+1.  Elektronik tablo kodu tamamlandığında,**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** sınıf'**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**elektronik tabloyu kaydetme yöntemi.
 
  Dosya biçimi PDF olmalıdır, bu nedenle seçin*Pdf* (önceden tanımlanmış bir değer)**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**son PDF belgesini oluşturmak için numaralandırma.
 

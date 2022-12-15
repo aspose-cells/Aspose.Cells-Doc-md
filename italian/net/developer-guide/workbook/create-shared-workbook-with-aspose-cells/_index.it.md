@@ -6,7 +6,7 @@ url: /it/net/create-shared-workbook-with-aspose-cells/
 ---
 ## **Possibili scenari di utilizzo**
 
-Microsoft Excel consente di condividere la cartella di lavoro come mostrato nello screenshot seguente. Quando condividi la cartella di lavoro, più di un utente può modificare la cartella di lavoro sulla rete. Aspose.Cells consente di creare una cartella di lavoro condivisa con[**Cartella.Impostazioni.Condivisa**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared)proprietà.
+Microsoft Excel ti consente di condividere la cartella di lavoro come mostrato nello screenshot seguente. Quando condividi la cartella di lavoro, più di un utente può modificare la cartella di lavoro sulla rete. Aspose.Cells consente di creare una cartella di lavoro condivisa con[**Cartella.Impostazioni.Condivisa**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared)proprietà.
 
 ![cose da fare:immagine_alt_testo](create-shared-workbook-with-aspose-cells_1.png)
 

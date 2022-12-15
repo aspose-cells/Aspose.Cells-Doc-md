@@ -90,7 +90,7 @@ Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en m
 		 <p>Filtrera</p>
         <ul>
 		 <li><a href="/cells/sv/net/data-filtering/">Datafiltrering</a></li>
-         <li><a href="/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier</a></li>
+         <li><a href="/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier</a></li>
 		 <li><a href="/cells/sv/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Få alla dolda rader efter att ha uppdaterat autofiltret</a></li>
         </ul>
         <p>Hitta&Välj</p>

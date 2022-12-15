@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /es/sharepoint/search-in-a-document/
 ---
-Aspose.Cells para SharePoint admite búsquedas en documentos almacenados en sitios de SharePoint. Aspose.Cells para Share Point admite los siguientes formatos de entrada para obtener una vista previa de los documentos:
+Aspose.Cells for SharePoint admite búsquedas en documentos almacenados en sitios de SharePoint. Aspose.Cells para Share Point admite los siguientes formatos de entrada para obtener una vista previa de los documentos:
 
 - XLS-Microsoft Excel 97-2003
 - XLSX: Oficina XML abierta

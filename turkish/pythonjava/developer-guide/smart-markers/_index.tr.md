@@ -4,7 +4,7 @@ linktitle: akıllı işaretçiler
 type: docs
 weight: 190
 url: /tr/python-java/using-smart-markers/
-description: Java kitaplığı aracılığıyla Python için Aspose.Cells ile şablon Excel dosyalarına göre verileri akıllıca içe aktarın ve yerleştirin.
+description: Java kitaplığı aracılığıyla Aspose.Cells for Python ile şablon Excel dosyalarına göre verileri akıllı bir şekilde içe aktarın ve yerleştirin.
 ---
 ## **giriiş**
 **akıllı işaretçiler**Aspose.Cells'in bir Microsoft Excel tasarımcı elektronik tablosuna hangi bilgilerin yerleştirileceğini bilmesini sağlamak için kullanılır. Akıllı işaretçiler, yalnızca belirli bilgileri ve biçimlendirmeyi içeren şablonlar oluşturmanıza olanak tanır.
@@ -75,7 +75,7 @@ Aşağıdaki ekran görüntüleri, yinelenen bir dinamik formülü ve sonuçta o
 |![yapılacaklar:resim_alternatif_Metin](using-smart-markers_3.jpg)|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_4.jpg)|
  Cell "C1" formülü içerir**= A1*B1** , "C2" hücresi şunları içerir:**= A2*B2** ve "C3" hücresi şunları içerir:**= A3*B3**.
 
-Akıllı işaretleyicileri işlemek çok kolaydır. Aşağıda, Python aracılığıyla Java'de bunun nasıl yapıldığını gösteren bir kod parçacığı bulunmaktadır.
+Akıllı işaretleyicileri işlemek çok kolaydır. Aşağıda, Python via Java'de bunun nasıl yapıldığını gösteren bir kod parçacığı bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "SmartMarker-SimpleProcess.py" >}}
 

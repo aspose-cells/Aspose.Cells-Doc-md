@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 8.6.0 Release Notes
+title: Aspose.Cells for .NET 8.6.0 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-8-6-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 8.6.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.6.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 8.6.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.6.0/)
 
 {{% /alert %}} 
 
@@ -42,13 +42,13 @@ url: /sv/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Buggar**
 
 
-(CELLSNET-43884) - Wingdings-symboler återges inte korrekt när vissa kalkylblad konverteras till HTML
+ (CELLSNET-43884) - Wingdings-symboler återges inte korrekt när vissa kalkylblad konverteras till HTML
 
  (CELLSNET-43877) - Excel reparerar alltid det resulterande kalkylarket efter att ha lagt till pivottabellen
 
  (CELLSNET-43831) - HTML till Excel - CSS-styling ignoreras
 
- (CELLSNET-43750) - Diagramändringar i det resulterande kalkylbladet efter att ha uppdaterat diagrammet
+(CELLSNET-43750) - Diagramändringar i det resulterande kalkylbladet efter att ha uppdaterat diagrammet
 
  (CELLSNET-43843) - Arbetsbok.CalculateFormula återkommer aldrig
 
@@ -66,13 +66,13 @@ url: /sv/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-42377) - SmartArt-layoutrubrik överlappar med understrykning under bildrubrik.
 
-(CELLSNET-41493) - Texten trunkeras/lindas in i den genererade PDF-filen
+ (CELLSNET-41493) - Texten trunkeras/lindas in i den genererade PDF-filen
 
  (CELLSNET-41398) - Kalkylarksdokument producerar flera dokument när de konverteras
 
  (CELLSNET-43894) - OLE-länk ObjectSourceFullName kunde inte uppdateras
 
- (CELLSNET-43882) - PageSetup.Zoom har ändrats efter att ha öppnat och sparat arbetsboken
+(CELLSNET-43882) - PageSetup.Zoom har ändrats efter att ha öppnat och sparat arbetsboken
 
  (CELLSNET-43881) - Vissa cellformler går förlorade när raden kopieras
 
@@ -94,13 +94,13 @@ url: /sv/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Undantag**
 
 
-(CELLSNET-43866) - CellsException vid rendering av ett kalkylblad till PDF
+ (CELLSNET-43866) - CellsException vid rendering av ett kalkylblad till PDF
 
  (CELLSNET-43847) - Undantag uppstår när man försöker anropa RefreshPivotTables
 
  (CELLSNET-43852) - CellsException at Workbook.CalculateFormula
 
- (CELLSNET-43893) - CellsException när ett kalkylblad renderas till PDF-format
+(CELLSNET-43893) - CellsException när ett kalkylblad renderas till PDF-format
 
  (CELLSNET-42108) - CellsException: Parametern är inte giltig: vid konvertering av XLS till PDF
 
@@ -123,10 +123,10 @@ url: /sv/net/aspose-cells-for-net-8-6-0-release-notes/
  (CELLSNET-43875) - Gridweb Print på Chrome fungerar inte korrekt
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 
@@ -138,7 +138,7 @@ Följande är en lista över eventuella ändringar som gjorts i det offentliga A
 
  Lägger till HtmlSaveOptions. Egenskapen ExportFrameScriptsAndProperties
 
-Anger om ramskript och dokumentegenskaper exporteras. Standardvärdet är sant.
+ Anger om ramskript och dokumentegenskaper exporteras. Standardvärdet är sant.
 
 
 
@@ -150,6 +150,6 @@ Anger om ramskript och dokumentegenskaper exporteras. Standardvärdet är sant.
 
  Lägger till egenskapen OoxmlSaveOptions.UpdateZoom
 
- Den används för att uppdatera PageSetup.Zoom om egenskaperna PageSetup.FitToPagesWide och PageSetup.FitToPagesTall styr hur kalkylbladet skalas.
+Den används för att uppdatera PageSetup.Zoom om egenskaperna PageSetup.FitToPagesWide och PageSetup.FitToPagesTall styr hur kalkylbladet skalas.
 
 

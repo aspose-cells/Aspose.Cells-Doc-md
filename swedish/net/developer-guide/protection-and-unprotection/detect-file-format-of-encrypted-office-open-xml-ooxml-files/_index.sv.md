@@ -6,13 +6,13 @@ url: /sv/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 ---
 {{% alert color="primary" %}} 
 
-**Office Open XML**(också känd som**OOXML**eller**Microsoft Open XML**(MOX)) är ett XML-baserat filformat utvecklat av Microsoft för att representera kontorsdokument som kalkylblad, diagram, presentationer och ordbehandlingsdokument.
+**Office Open XML**(också känd som**OOXML**eller**Microsoft Öppen XML**(MOX)) är ett XML-baserat filformat utvecklat av Microsoft för att representera kontorsdokument som kalkylblad, diagram, presentationer och ordbehandlingsdokument.
 
 {{% /alert %}} 
 
 
 
-Aspose.Cells ger ett sätt att upptäcka filformatet för krypterade**Microsoft Open XML** filer. För att identifiera filtypen, använd[FileFormatUtil.DetectFileFormat](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/detectfileformat/index) metod som visas nedan i kodexemplet.
+Aspose.Cells ger ett sätt att upptäcka filformatet för krypterade**Microsoft Öppen XML** filer. För att identifiera filtypen, använd[FileFormatUtil.DetectFileFormat](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/detectfileformat/index) metod som visas nedan i kodexemplet.
 
 
 

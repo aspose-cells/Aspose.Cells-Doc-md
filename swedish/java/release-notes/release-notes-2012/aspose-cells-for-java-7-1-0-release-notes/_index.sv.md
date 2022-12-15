@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 7.1.0 Release Notes
+title: Aspose.Cells for Java 7.1.0 Release Notes
 type: docs
 weight: 100
 url: /sv/java/aspose-cells-for-java-7-1-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.1.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.1.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.1.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.1.0/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java v7.1.0!
+ Vi är glada att meddela Aspose.Cells for Java v7.1.0!
 
  Förbättringar
 
@@ -24,7 +24,7 @@ url: /sv/java/aspose-cells-for-java-7-1-0-release-notes/
 
  -Cell innehåll försvann från den genererade PDF-filen
 
- -Felmeddelande: "Pivottabellen skapades i en senare version av Excel..." när filen öppnades i MS Excel
+-Felmeddelande: "Pivottabellen skapades i en senare version av Excel..." när filen öppnades i MS Excel
 
  ` `- Arkets zoom ändras när en XLS-mallfil öppnas
 

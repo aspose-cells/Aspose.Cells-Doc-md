@@ -36,11 +36,11 @@ Kodexemplet nedan visar hur man sparar en arbetsbok som bilder.
 
 XPS-dokumentformatet består av strukturerad XML-uppmärkning som definierar layouten för ett dokument och det visuella utseendet på varje sida, tillsammans med renderingsregler för distribution, arkivering, rendering, bearbetning och utskrift av dokument.
 
-Markup-språket för XPS är en delmängd av XAML som gör att det kan inkorporera vektorgrafikelement i dokument, med XAML för att markera Windows Presentation Foundation (WPF) primitiver. Elementen som används beskrivs i termer av banor och andra geometriska primitiver.
+Markeringsspråket för XPS är en delmängd av XAML som gör att det kan inkorporera vektorgrafikelement i dokument, med XAML för att markera Windows Presentation Foundation (WPF) primitiver. Elementen som används beskrivs i termer av banor och andra geometriska primitiver.
 
 En XPS-fil är i själva verket ett unicode ZIP-arkiv som använder Open Packaging Conventions, som innehåller filerna som utgör dokumentet. Dessa inkluderar en XML-uppmärkningsfil för varje sida, text, inbäddade typsnitt, rasterbilder, 2D-vektorgrafik samt information om hantering av digitala rättigheter. Innehållet i en XPS-fil kan granskas helt enkelt genom att öppna den i ett program som stöder ZIP-filer.
 
-Från Aspose.Cells 6.0.0 stöds konvertering från Microsoft Excel till XPS.
+Från Aspose.Cells 6.0.0, Microsoft Excel till XPS-konvertering stöds.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
 
@@ -60,7 +60,7 @@ Kodexemplet nedan visar hur man sparar en arbetsbok som en MHTML-fil.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToMHTMLFiles-1.cs" >}}
 
-## **Konvertera Excel Workbook till HTML**
+## **Konvertera Excel-arbetsbok till HTML**
 
  Aspose.Cells API ger stöd för export av kalkylblad till HTML-format. För detta ändamål använder Aspose.Cells**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**klass för att ge flexibiliteten att kontrollera flera aspekter av utdata-HTML.
 

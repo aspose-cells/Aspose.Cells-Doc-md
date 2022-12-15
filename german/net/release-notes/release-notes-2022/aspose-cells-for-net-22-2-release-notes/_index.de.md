@@ -35,8 +35,8 @@ url: /de/net/aspose-cells-for-net-22-2-release-notes/
 |CELLSNET-50294|ActiveX-Steuerungsschaltflächen werden in Shapes konvertiert und die Datei ist für XLS zu XLSM und dann zurück zu XLS beschädigt|
 |CELLSNET-50340|Beim Konvertieren bestimmter Dateien in HTML fehlen Zeilen in Tabellenspalten|
 |CELLSNET-50286|Cells.RemoveDuplicates wirft „System.IndexOutOfRangeException: Index lag außerhalb der Grenzen des Arrays“|
-|CELLSNET-50270|Die Eingabezeichenfolge hatte nicht das richtige Format. Ausnahme beim Öffnen der XLS-Datei|
-|CELLSNET-50271|Das Format dieser Datei wird nicht unterstützt oder Sie geben kein korrektes Format an. Ausnahme beim Öffnen der XLS-Datei|
+|CELLSNET-50270|Die Eingabezeichenfolge hatte nicht das richtige Format. Ausnahme beim Öffnen einer XLS-Datei|
+|CELLSNET-50271|Das Format dieser Datei wird nicht unterstützt oder Sie geben kein korrektes Format an. Ausnahme beim Öffnen einer XLS-Datei|
 |CELLSNET-50293|ExportXml mit XML-Zuordnung löst „NullReferenceException“ für eine andere komplexe Datei aus|
 |CELLSNET-50352|NullReferenceException beim Konvertieren der XLSM-Datei in XLS|
 

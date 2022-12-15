@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 18.12 Notas de la versión
+title: Aspose.Cells for Android via Java 18.12 Notas de la versión
 type: docs
 weight: 10
 url: /es/java/aspose-cells-for-android-via-java-18-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 18.12.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 18.12.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
 **Agrega la propiedad HtmlSaveOptions.WidthScalable**
 
@@ -80,7 +80,7 @@ Obtiene la fecha en la que se actualizó la tabla dinámica por última vez.
 
 **Agrega propiedades CalculationData.CellRow/CellColumn**
 
-Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de obtener el objeto Cell.
+Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de buscar el objeto Cell.
 
 **Agrega la clase CalculationCell**
 
@@ -201,6 +201,6 @@ Utilice el método ExportDataTable(firstRow,firstColumn, totalRows, totalColumns
 
 {{% alert color="primary" %}}
 
-Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.10, Aspose.Cells for .NET v18.11, Aspose.Cells for .NET v18. 12, Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 y Aspose.Cells for Java v18.12 también se incluyen en este Aspose.Cells para Android a través de Java v18.12.
+Dado que la base de código de Aspose.Cells for Android via Java coincide con el código de .NET y 076143441 Versiones (s), la mayoría de los cambios, mejoras y correcciones incluidos en el Aspose.Cells for .NET v18.10, 0761734410 Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 y Aspose.Cells for Java v18.12 también se incluyen en este Aspose.Cells for Android via Java v18.481.
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.7.0
+title: Offentlig API Ändringar i Aspose.Cells 8.7.0
 type: docs
 weight: 240
 url: /sv/java/public-api-changes-in-aspose-cells-8-7-0/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för PDF-optimering**
- Aspose.Cells API:er tillhandahåller redan funktionen att konvertera kalkylblad till PDF. Med denna version av API:t kan användare nu[optimera den resulterande PDF-storleken](/cells/sv/java/save-excel-into-pdf-with-standard-or-minimum-size/)också. Aspose.Cells för Java 8.7.0 har exponerat egenskapen PdfSaveOptions.OptimizationType tillsammans med PdfOptimizationType-uppräkningen för att underlätta för användarna att välja önskad optimeringsalgoritm medan de exporterar kalkylblad till PDF-format. Det finns två möjliga värden för egenskapen PdfSaveOptions.OptimizationType enligt beskrivningen nedan.
+ Aspose.Cells API:er tillhandahåller redan funktionen att konvertera kalkylblad till PDF. Med den här versionen av API kan användare nu[optimera den resulterande PDF-storleken](/cells/sv/java/save-excel-into-pdf-with-standard-or-minimum-size/)också. Aspose.Cells for Java 8.7.0 har exponerat egenskapen PdfSaveOptions.OptimizationType tillsammans med PdfOptimizationType-uppräkningen för att underlätta för användarna att välja önskad optimeringsalgoritm när de exporterar kalkylblad till PDF-format. Det finns två möjliga värden för egenskapen PdfSaveOptions.OptimizationType enligt beskrivningen nedan.
 
 1. PdfOptimizationType.MINIMUM_SIZE: Kvaliteten äventyras för den resulterande filstorleken.
 1. PdfOptimizationType.STANDARD: Kvaliteten äventyras inte så den resulterande filstorleken blir stor.
@@ -122,7 +122,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 
 {{< /highlight >}}
 ### **Property Protection.isProtectedWithPassword har lagts till**
- Den här versionen av Aspose.Cells för Java har också avslöjat fältet Protection.isProtectedWithPassword som kan vara användbart i[upptäcka om ett arbetsblad är lösenordsskyddat eller inte](/cells/sv/java/detect-if-worksheet-is-password-protected/).
+ Denna utgåva av Aspose.Cells for Java har också exponerat fältet Protection.isProtectedWithPassword som kan vara användbart i[upptäcka om ett arbetsblad är lösenordsskyddat eller inte](/cells/sv/java/detect-if-worksheet-is-password-protected/).
 
 Följande är det enkla användningsscenariot.
 
@@ -162,7 +162,7 @@ else
 
 {{< /highlight >}}
 ### **Egenskapen ColorScale.Is3ColorScale tillagd**
- Aspose.Cells för Java 8.7.0 har exponerat egenskapen ColorScale.Is3ColorScale som kan användas för att[skapa villkorligt format i 2-färgskala](/cells/sv/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). Den nämnda egenskapen är av typen Boolean med standardvärdet true vilket betyder att det villkorliga formatet kommer att vara i 3-färgsskala som standard. Men om du ändrar egenskapen ColorScale.Is3ColorScale till false genereras ett villkorligt format med 2-färgsskala.
+ Aspose.Cells for Java 8.7.0 har exponerat egenskapen ColorScale.Is3ColorScale som kan användas för att[skapa villkorligt format i 2-färgskala](/cells/sv/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). Den nämnda egenskapen är av typen Boolean med standardvärdet true vilket betyder att det villkorliga formatet kommer att vara i 3-färgsskala som standard. Men om du ändrar egenskapen ColorScale.Is3ColorScale till false genereras ett villkorligt format med 2-färgsskala.
 
 Följande är det enkla användningsscenariot.
 
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Property TxtLoadOptions.HasFormula Added**
- Aspose.Cells för Java 8.7.0 har gett stöd till[identifiera och analysera formlerna medan du laddar CSV/TXT-filer med avgränsade vanliga data](/cells/sv/java/load-or-import-csv-file-with-formulas/). Nyligen exponerade egenskapen TxtLoadOptions.HasFormula när den är satt till true dirigerar API:et att tolka formlerna från den indataavgränsade filen och ställa in dem på relevanta celler utan att kräva ytterligare bearbetning.
+ Aspose.Cells for Java 8.7.0 har tillhandahållit support till[identifiera och analysera formlerna medan du laddar CSV/TXT-filer med avgränsade vanliga data](/cells/sv/java/load-or-import-csv-file-with-formulas/). Den nyligen exponerade egenskapen TxtLoadOptions.HasFormula när den är satt till true dirigerar API att tolka formlerna från den indataavgränsade filen och ställa in dem på relevanta celler utan att kräva ytterligare bearbetning.
 
 Följande är det enkla användningsscenariot.
 
@@ -246,7 +246,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Egenskap DataLabels.ResizeShapeToFitText tillagd**
- En annan användbar funktion som Aspose.Cells för Java 8.7.0 har exponerat är egenskapen DataLabels.ResizeShapeToFitText som kan aktivera[ändra storlek på formen så att den passar text](/cells/sv/java/resize-chart-s-data-label-shape-to-fit-text/) funktion i Excel-applikationen för diagrammets dataetiketter.
+ En annan användbar funktion som Aspose.Cells for Java 8.7.0 har exponerat är egenskapen DataLabels.ResizeShapeToFitText som kan aktivera[ändra storlek på formen så att den passar text](/cells/sv/java/resize-chart-s-data-label-shape-to-fit-text/) funktion i Excel-applikationen för diagrammets dataetiketter.
 
 Följande är det enkla användningsscenariot.
 
@@ -281,4 +281,4 @@ chart.calculate();
 {{< /highlight >}}
 ## **Borttagna API:er**
 ### **Egenskapsarbetsbok.Sparaalternativ har tagits bort**
-Egenskapen Workbook.SaveOptions markerades som föråldrad för en tid sedan. Med den här versionen har den tagits bort helt från det offentliga API:t, därför rekommenderas att använda metoden Workbook.save(Stream, SaveOptions) eller Workbook.save(string, SaveOptions) som alternativ.
+Egenskapen Workbook.SaveOptions markerades som föråldrad för en tid sedan. Med den här utgåvan har den tagits bort helt från den offentliga API, därför rekommenderas att använda metoden Workbook.save(Stream, SaveOptions) eller Workbook.save(string, SaveOptions) som alternativ.

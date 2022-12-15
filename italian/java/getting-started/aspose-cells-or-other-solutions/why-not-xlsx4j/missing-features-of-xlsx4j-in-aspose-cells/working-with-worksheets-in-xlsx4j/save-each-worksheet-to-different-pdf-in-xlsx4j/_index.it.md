@@ -7,7 +7,7 @@ url: /it/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ## **Aspose.Cells - Salva ogni foglio di lavoro in un PDF diverso**
 Aspose.Cells supporta la conversione di file XLS (che contengono immagini, grafici ecc.) in documenti PDF. Aspose.Cells for Java può funzionare in modo indipendente per convertire un foglio di calcolo in un documento Pdf e non è più necessario utilizzare Aspose.Pdf for Java per la conversione. La conversione non richiede di creare/utilizzare alcun file temporaneo, poiché l'intero processo può essere eseguito nella memoria.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

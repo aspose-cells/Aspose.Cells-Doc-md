@@ -9,8 +9,8 @@ url: /ru/python-java/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - [TextCrossType.DEFAULT](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#DEFAULT): Отображение как в MS Excel, зависит от следующей ячейки. Если следующая ячейка пуста, строка будет пересекаться или будет усечена.
 - [ТекстКроссТип. CROSS_KEEP](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_KEEP): Отобразить строку, аналогичную экспорту PDF/изображения в MS Excel.
-- [TextCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE): отображать весь текст, пересекая другие ячейки, и переопределять текст пересеченных ячеек.
-- [TextCrossType.STRICT_В_КЛЕТКА](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL)Отображает только строку в пределах ширины ячейки.
+- [TextCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE)отображать весь текст, пересекая другие ячейки, и переопределять текст пересеченных ячеек.
+- [TextCrossType.STRICT_В_КЛЕТКА](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL): Отображает только строку в пределах ширины ячейки.
 
 Следующий пример кода загружает образец файла Excel и сохраняет его в формате PDF/Image, указав другой TextCrossType. Образец файла Excel и выходные файлы можно загрузить по следующим ссылкам:
 

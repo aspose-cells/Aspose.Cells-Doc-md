@@ -1,5 +1,5 @@
 ﻿---
-title: Java 16.12.0 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 16.12.0 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
@@ -22,7 +22,7 @@ url: /tr/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-42050|İbranice kontrol karakterleri PDF'de doğru şekilde oluşturulmuyor|Böcek|
 |CELLSJAVA-42020|XLS'den PDF'e dönüştürme çok fazla zaman alıyor|Böcek|
 |CELLSJAVA-42017|Elektronik tabloyu PDF'ye dönüştürürken yerleşim sorunu|Böcek|
-|CELLSJAVA-42023|ekseni etiketleri, PDF'ye dönüştürüldüğünde Açıklama ile örtüşüyor|Böcek|
+|CELLSJAVA-42023|X ekseni etiketleri, PDF'ye dönüştürüldüğünde Açıklama ile örtüşüyor|Böcek|
 |CELLSJAVA-42022|Resim iyi ölçeklenmiyor ve SVG dosyası doğru değil|Böcek|
 |CELLSJAVA-42003|E-tabloyu HTML'ye dönüştürürken Grafiğin yanlış oluşturulması|Böcek|
 |CELLSJAVA-41986|Grafiğin PNG çıktısında metinden boşluklar çıkarıldı|Böcek|
@@ -78,7 +78,7 @@ url: /tr/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-42014|XLSX'i yeniden kaydederken ClassCastException|İstisna|
 |CELLSJAVA-42004|java.lang.NullPointerException, Workbook ctor'da XLSX dosyası yüklenirken|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin yanı sıra Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu Aspose.Cells destek forumunda dile getirin.
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Android numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **Shape.Reflection özelliğini ve ReflectionEffect sınıfını ekler.**
 Grafik öğesi veya şekli için yansıma efektini temsil eder.
 ### **Shape.Glow,GlowEffect.Size ve GlowEffect.Transparency özelliklerini ekler.**
@@ -160,6 +160,6 @@ Bir yazı tipi sunulmadığında ve bu yazı tipinin ikamesi ayarlanmadığında
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v16.10.0, Aspose.Cells for .NET v16.11.0, Aspose.Cells for .NET v16.12.0, Aspose.Cells for Java v16 .10.0, Aspose.Cells for Java v16.11.0 ve Aspose.Cells for Java v16.12.0 da Android v16.12.0 için bu Aspose.Cells'e dahildir.
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v16.10.0, Aspose.Cells for .NET v16.11.0, Aspose.Cells for .NET v16.12.0, Aspose.Cells for Java v16. 10.0, Aspose.Cells for Java v16.11.0 ve Aspose.Cells for Java v16.12.0 da bu Aspose.Cells for Android v16.12.0'a dahildir.
 
 {{% /alert %}}

@@ -6,7 +6,7 @@ url: /it/java/set-external-links-in-formulas/
 ---
 {{% alert color="primary" %}} 
 
-volte, è necessario includere collegamenti a file esterni nelle formule, ad esempio, per valutare un valore di cella o intervallo in base a essi. Aspose.Cells fornisce questa funzione e questo documento spiega come utilizzarla
+A volte, è necessario includere collegamenti a file esterni nelle formule, ad esempio, per valutare un valore di cella o intervallo in base a essi. Aspose.Cells fornisce questa funzione e questo documento spiega come utilizzarla
 
 {{% /alert %}} 
 

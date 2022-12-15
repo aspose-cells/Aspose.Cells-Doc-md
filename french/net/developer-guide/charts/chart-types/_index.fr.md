@@ -128,7 +128,7 @@ Les cartes radar suivantes sont prises en charge dans Aspose.Cells :
 - Carte radar remplie
 
 #### **Graphique en entonnoir**
-Un graphique en entonnoir affiche des valeurs à travers plusieurs étapes d'un processus. Par exemple, vous pouvez utiliser un graphique en entonnoir pour afficher le nombre de prospects à chaque étape d'un pipeline de ventes. En règle générale, les valeurs diminuent progressivement, permettant aux barres de ressembler à un entonnoir.
+Un graphique en entonnoir affiche des valeurs à travers plusieurs étapes d'un processus. Par exemple, vous pouvez utiliser un graphique en entonnoir pour afficher le nombre de prospects à chaque étape d'un pipeline de vente. En règle générale, les valeurs diminuent progressivement, permettant aux barres de ressembler à un entonnoir.
 
 Le graphique en entonnoir est pris en charge dans Aspose.Cells.
 

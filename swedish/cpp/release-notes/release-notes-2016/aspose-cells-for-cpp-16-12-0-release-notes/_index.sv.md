@@ -14,10 +14,10 @@ url: /sv/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-437|Lägg till och manipulera pivottabeller i kalkylarket|Ny funktion|
 |CELLSPORTINGC-438|Gruppera rader och kolumner i kalkylbladet|Ny funktion|
 |CELLSPORTINGC-439|Lägg till tabell/listobjekt till kalkylbladet|Ny funktion|
-|CELLSPORTINGC-426|Licensproblem med Aspose.Cells för C++ API:er|Insekt|
+|CELLSPORTINGC-426|Licensproblem med Aspose.Cells for C++ API:er|Insekt|
 |CELLSPORTINGC-425|Optimera prestandan för att spara XLS-filer|Förbättring|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, omdöpta, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för C++. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for C++. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Byter namn på ICell::SetStyle-metoden till ICell::SetIStyle**
 #### **Byter namn på ICell::SetCharacters-metoden till ICell::SetIFontSettings**
 #### **Byter namn på ICellsColor::SetThemeColor-metoden till ICellsColor::SetIThemeColor**

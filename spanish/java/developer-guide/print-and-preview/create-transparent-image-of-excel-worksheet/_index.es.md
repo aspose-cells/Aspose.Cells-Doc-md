@@ -12,7 +12,7 @@ url: /es/java/create-transparent-image-of-excel-worksheet/
 
 En la siguiente imagen de hoja de cálculo, no se ha aplicado transparencia. Las celdas sin colores de relleno se dibujan en blanco.
 
-**Imagen de la hoja de cálculo sin aplicar transparencia**
+**Imagen de la hoja de trabajo sin aplicar transparencia**
 
 ![todo:imagen_alternativa_texto](create-transparent-image-of-excel-worksheet_1.png)
 

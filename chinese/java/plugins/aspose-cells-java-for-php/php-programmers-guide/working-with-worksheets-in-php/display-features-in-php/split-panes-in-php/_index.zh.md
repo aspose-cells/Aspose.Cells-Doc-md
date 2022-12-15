@@ -5,7 +5,7 @@ weight: 70
 url: /zh/java/split-panes-in-php/
 ---
 ## **Aspose.Cells - 拆分窗格**
-拆分窗格使用**Aspose.Cells Java 用于 PHP** 只需调用**分割面板**模块。
+拆分窗格使用**Aspose.Cells Java for PHP** 只需调用**分割面板**模块。
 
 **PHP代码**
 

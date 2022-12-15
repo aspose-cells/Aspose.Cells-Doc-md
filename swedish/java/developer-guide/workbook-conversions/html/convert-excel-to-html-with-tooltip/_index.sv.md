@@ -12,7 +12,7 @@ Följande bild visar verktygstipset i den genererade HTML-filen.
 
 ![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-Följande kodexempel laddar[source excel-fil](AddTooltipToHtmlSample.xlsx)och genererar[utdata HTML-fil](AddTooltipToHtmlSample_out.zip)med verktygstipset.
+Följande kodexempel laddar[källkod excel-fil](AddTooltipToHtmlSample.xlsx)och genererar[utdata HTML-fil](AddTooltipToHtmlSample_out.zip)med verktygstipset.
 
 ## Exempelkod
 

@@ -70,21 +70,21 @@ url: /ar/net/setting-print-options/
 |:- |:- |
 |أخطاء الطباعة|يحدد عدم طباعة الأخطاء.|
 |PrintErrorsDash (شرطة)|يُحدد طباعة الأخطاء كـ "-".|
-|تم عرض أخطاء الطباعة|يحدد لطباعة الأخطاء كما هو معروض.|
+|تم عرض أخطاء الطباعة|يُحدد لطباعة الأخطاء كما هو معروض.|
 |PrintErrorsNA|يُحدد طباعة الأخطاء كـ "# N / A".|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-OtherPrintOptions-1.cs" >}}
 
 ### **تعيين ترتيب الصفحة**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)فئة توفر[**ترتيب**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)الخاصية المستخدمة لطلب طباعة صفحات متعددة من ورقة العمل الخاصة بك. هناك احتمالان لترتيب الصفحات على النحو التالي.
+ ال[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فئة توفر[**ترتيب**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)الخاصية المستخدمة لطلب طباعة صفحات متعددة من ورقة العمل الخاصة بك. هناك احتمالان لترتيب الصفحات على النحو التالي.
 
 - **لأسفل ثم فوق:** يطبع كل الصفحات لأسفل قبل طباعة أي صفحات على اليمين.
 - **فوق ثم لأسفل:** يطبع الصفحات من اليسار إلى اليمين قبل طباعة الصفحات أدناه.
 
  يوفر Aspose.Cells تعداد ،[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)يحتوي على جميع أنواع الطلبات المحددة مسبقًا.
 
- القيم المحددة مسبقًا لـ[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)التعداد مذكورة أدناه.
+ القيم المحددة مسبقًا لـ[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)التعداد مذكور أدناه.
 
 |**أنواع أوامر الطباعة**|**وصف**|
 |:- |:- |

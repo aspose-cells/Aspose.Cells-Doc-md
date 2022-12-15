@@ -15,7 +15,7 @@ Wie Sie der obigen Abbildung entnehmen können, gibt es verschiedene Ausrichtung
 - Textausrichtung (horizontal & vertikal)
 - Vertiefung.
 - Orientierung.
-- Textkontrolle.
+- Textsteuerung.
 - Textrichtung.
 
 Alle diese Ausrichtungseinstellungen werden von Aspose.Cells vollständig unterstützt und unten ausführlicher erläutert.
@@ -62,7 +62,7 @@ und tt wirken sich nur aus, wenn die horizontale Ausrichtung links oder rechts i
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-Orientation-1.java" >}}
 
-## **Textkontrolle**
+## **Textsteuerung**
 
 Im folgenden Abschnitt wird erläutert, wie Sie Text steuern, indem Sie Textumbruch, Anpassen verkleinern und andere Formatierungsoptionen festlegen.
 

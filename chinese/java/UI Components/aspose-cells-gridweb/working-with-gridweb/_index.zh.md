@@ -22,7 +22,7 @@ Aspose.Cells.GridWeb 控件可以打开和加载 Microsoft Excel 文件 - 包含
 
 **一个 Excel 文件被加载到 GridWeb**
 
-![待办事项：图片_替代_文本](working-with-gridweb_1.png)
+![待办事项：图像_替代_文本](working-with-gridweb_1.png)
 
 ## **保存 Microsoft Excel 文件**
 
@@ -60,7 +60,7 @@ Aspose.Cells.GridWeb 控件可以打开和加载 Microsoft Excel 文件 - 包含
 
 **更改了 GridWeb 控件的宽度和高度**
 
-![待办事项：图片_替代_文本](working-with-gridweb_2.png)
+![待办事项：图像_替代_文本](working-with-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
@@ -75,13 +75,13 @@ Aspose.Cells.GridWeb 控件包含两个标题栏，如下所示：
 
 **标题栏**
 
-![待办事项：图片_替代_文本](working-with-gridweb_3.png)
+![待办事项：图像_替代_文本](working-with-gridweb_3.png)
 
 分别使用 GridWeb 控件的 HeaderBarHeight 和 HeaderBarWidth 属性更改顶部标题栏的高度和左侧标题栏的宽度。下图显示了后面的代码示例的输出。
 
 **更改了标题栏的宽度和高度**
 
-![待办事项：图片_替代_文本](working-with-gridweb_4.png)
+![待办事项：图像_替代_文本](working-with-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
@@ -196,7 +196,7 @@ GridWeb 控件提供 PresetStyle 属性，开发人员可以将任何所需的�
 
 **应用了 Colorful1 样式的 GridWeb 控件**
 
-![待办事项：图片_替代_文本](working-with-gridweb_5.png)
+![待办事项：图像_替代_文本](working-with-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
@@ -224,7 +224,7 @@ GridWeb 控件提供了 HeaderBarStyle 属性，该属性在控件的两个标�
 
 请参阅下图，其中显示了应用了自定义样式的 GridWeb。
 
-![待办事项：图片_替代_文本](working-with-gridweb_6.png)
+![待办事项：图像_替代_文本](working-with-gridweb_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-CustomStyleSheet-CustomStyleSheet.jsp" >}}
 
@@ -252,7 +252,7 @@ GridWeb 控件提供了 HeaderBarStyle 属性，该属性在控件的两个标�
 
 您需要在其中创建以下目录结构**网络应用程序**Tomcat 服务器目录
 
-![待办事项：图片_替代_文本](working-with-gridweb_7.png)
+![待办事项：图像_替代_文本](working-with-gridweb_7.png)
 
 这些是您需要创建的目录和文件。请阅读评论并关注他们。您可以从中获取最新的 Aspose.Cells.GridWeb for Java 发布档案[这个链接](https://downloads.aspose.com/cells/java).
 
@@ -452,7 +452,7 @@ span.wrap {
 
 您将看到类似以下屏幕截图的内容。恭喜，您已经成功地在 JSP 页面上使用了 GridWeb 控件。
 
-![待办事项：图片_替代_文本](working-with-gridweb_8.png)
+![待办事项：图像_替代_文本](working-with-gridweb_8.png)
 
 ## **印刷网格网**
 
@@ -501,7 +501,7 @@ span.wrap {
 
 **编辑模式下的 GridWeb 控件**
 
-![待办事项：图片_替代_文本](working-with-gridweb_9.png)
+![待办事项：图像_替代_文本](working-with-gridweb_9.png)
 
 开发人员还可以通过将 GridWeb 控件的 EditMode 属性设置为 true，以编程方式切换到编辑模式。
 
@@ -515,7 +515,7 @@ span.wrap {
 
 **视图模式下的 GridWeb 控件** 
 
-![待办事项：图片_替代_文本](working-with-gridweb_10.png)
+![待办事项：图像_替代_文本](working-with-gridweb_10.png)
 
 如果开发人员希望他们的用户只查看数据，那么他们可以通过将 GridWeb 控件的 EditMode 属性设置为以编程方式切换到查看模式**错误的**.
 

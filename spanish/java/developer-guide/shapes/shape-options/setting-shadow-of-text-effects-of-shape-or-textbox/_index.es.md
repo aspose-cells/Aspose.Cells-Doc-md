@@ -18,7 +18,7 @@ url: /es/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
 {{% /alert %}} 
 ## **Configuración de efectos de sombra de texto de forma o cuadro de texto**
- La siguiente captura de pantalla muestra la[archivo de salida de Excel](5473446.xlsx) generado con el siguiente código de ejemplo. La captura de pantalla también muestra el valor de la**Sombra** que se ha fijado como**Fondo compensado**.
+La siguiente captura de pantalla muestra la[archivo de salida de Excel](5473446.xlsx) generado con el siguiente código de ejemplo. La captura de pantalla también muestra el valor de la**Sombra** que se ha fijado como**Fondo compensado**.
 
 ![todo:imagen_alternativa_texto](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 

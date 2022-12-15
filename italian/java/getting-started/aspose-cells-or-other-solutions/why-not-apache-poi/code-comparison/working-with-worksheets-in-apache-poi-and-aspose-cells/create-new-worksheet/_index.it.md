@@ -7,7 +7,7 @@ url: /it/java/create-new-worksheet/
 ## **Aspose.Cells - Crea nuovo foglio di lavoro**
 Aggiunta di un foglio di lavoro alla cartella di lavoro
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -29,7 +29,7 @@ workbook.save("newWorksheet.xls");
 ## **Apache POI SS - HSSF XSSF - Crea nuovo foglio di lavoro**
 Aggiunta di un foglio di lavoro alla cartella di lavoro
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

@@ -8,7 +8,7 @@ url: /de/sharepoint/convert-multiple-files/
 
 1.  Auswählen**Konvertieren Sie mit Aspose.Cells** aus der ECB Ihres gewünschten Ordners, während Sie im übergeordneten Ordner bleiben.
 
-So konvertieren Sie mehrere Dateien:
+ So konvertieren Sie mehrere Dateien:
 
 1.  Mehrere Dateien in der Bibliothek auswählen und auswählen**Konvertieren Sie mit Aspose.Cells**. 
 
@@ -27,6 +27,6 @@ So konvertieren Sie mehrere Dateien:
 ### **Verwenden der Server-Ribbon-Schaltfläche unter SharePoint 2010**
  Unter SharePoint 2010 ist anstelle des benutzerdefinierten Aktionsmenüs, das mit SharePoint 2007 / WSS 3 verwendet wird, die Server-Ribbon-Schaltfläche verfügbar.
 
-**Konvertieren von Dokumenten mit Aspose.Cells für SharePoint auf SharePoint 2010** 
+**Konvertieren von Dokumenten mit Aspose.Cells for SharePoint auf SharePoint 2010** 
 
 ![todo: Bild_alt_Text](convert-multiple-files_3.png)

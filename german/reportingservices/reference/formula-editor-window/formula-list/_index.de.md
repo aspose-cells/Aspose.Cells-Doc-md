@@ -8,7 +8,7 @@ url: /de/reportingservices/formula-list/
 
 |**Name einsetzen** |**Formelname**|**Beschreibung**|
 |:- |:- |:- |
-| Globale Felder| Ausführungszeit| Datum und Uhrzeit des Beginns der Berichtsausführung.|
+| Globale Felder| Ausführungszeit|Datum und Uhrzeit des Beginns der Berichtsausführung.|
 || ReportServerUrl| Die URL des Berichtsservers, auf dem der Bericht ausgeführt wird.|
 || Berichtsname| Der Name des Berichts, wie er in der Berichtsserver-Datenbank gespeichert ist.|
 || Berichtsordner| Der vollständige Pfad zu dem Ordner, der den Bericht enthält. Dies beinhaltet nicht die Berichtsserver-URL.|

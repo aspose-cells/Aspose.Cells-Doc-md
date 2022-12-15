@@ -38,7 +38,7 @@ url: /fr/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 ![tâche : image_autre_texte](project_4.png)
 
 1.  Le créé**Maven Projet** est configuré pour utiliser**Aspose.Cells for Java API** et prêt à être amélioré selon les exigences de votre projet.
-Si vous avez choisi de télécharger[Exemples de codes](https://github.com/aspose-cells/Aspose.Cells-for-Java) , vous pouvez utiliser**Aspose.Cells Exemple de code (assistant)**pour l'importation nécessaire**Exemples de codes** de Aspose.Cells for Java API dans votre projet.
+ Si vous avez choisi de télécharger[Exemples de codes](https://github.com/aspose-cells/Aspose.Cells-for-Java) , vous pouvez utiliser**Aspose.Cells Exemple de code (assistant)**pour l'importation nécessaire**Exemples de codes** de Aspose.Cells for Java API dans votre projet.
 
 ### **Aspose.Cells Exemple de code (assistant)**
 

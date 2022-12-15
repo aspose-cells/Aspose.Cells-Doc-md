@@ -44,19 +44,19 @@ ProtectionType 枚举包含以下预定义的保护类型：
 
 **警告用户无法修改工作表的对话框** 
 
-![待办事项：图片_替代_文本](protect-and-unprotect-worksheet_1.png)
+![待办事项：图像_替代_文本](protect-and-unprotect-worksheet_1.png)
 
 要处理工作表，请通过选择取消保护工作表**保护**， 然后**取消保护工作表**来自**工具**菜单项如下图所示。
 
 **选择取消保护工作表菜单项** 
 
-![待办事项：图片_替代_文本](protect-and-unprotect-worksheet_2.png)
+![待办事项：图像_替代_文本](protect-and-unprotect-worksheet_2.png)
 
 将打开一个对话框，提示输入密码。
 
 **输入密码以取消保护工作表** 
 
-![待办事项：图片_替代_文本](protect-and-unprotect-worksheet_3.png)
+![待办事项：图像_替代_文本](protect-and-unprotect-worksheet_3.png)
 
 ### **保护少数 Cells**
 
@@ -124,13 +124,13 @@ Aspose.Cells 允许您轻松锁定工作表中的任何列。在这里，我们�
 
 **选择取消保护工作表** 
 
-![待办事项：图片_替代_文本](protect-and-unprotect-worksheet_4.png)
+![待办事项：图像_替代_文本](protect-and-unprotect-worksheet_4.png)
 
 保护被移除，除非工作表受密码保护。在这种情况下，会出现一个对话框提示输入密码。
 
 **输入密码以取消保护工作表** 
 
-![待办事项：图片_替代_文本](protect-and-unprotect-worksheet_5.png)
+![待办事项：图像_替代_文本](protect-and-unprotect-worksheet_5.png)
 
 ### **使用 Aspose.Cells**
 
@@ -170,7 +170,7 @@ Aspose.Cells 支持 Excel XP 及更高版本提供的所有高级保护设置。
 
    **在 Excel XP 中显示保护选项的对话框**
 
-![待办事项：图片_替代_文本](protect-and-unprotect-worksheet_6.png)
+![待办事项：图像_替代_文本](protect-and-unprotect-worksheet_6.png)
 
 1. 允许或限制工作表功能或应用密码。
 
@@ -200,7 +200,7 @@ Worksheet 类提供了用于应用这些高级保护设置的 Protection 属性�
 
 **在 Excel XP 中锁定单元格的对话框** 
 
-![待办事项：图片_替代_文本](protect-and-unprotect-worksheet_7.png)
+![待办事项：图像_替代_文本](protect-and-unprotect-worksheet_7.png)
 
 也可以使用 Aspose.Cells API 锁定单元格。每个单元格都有一个 Style API，它还包含一个 setLocked 方法。使用它锁定或解锁单元格。
 

@@ -28,7 +28,7 @@ url: /zh/net/add-or-remove-context-menu-items-in-gridweb/
 
 这是使用上述 ASP.NET 标记添加上下文菜单项后的样子。
 
-![待办事项：图片_替代_文本](add-or-remove-context-menu-items-in-gridweb_1.png)
+![待办事项：图像_替代_文本](add-or-remove-context-menu-items-in-gridweb_1.png)
 
 这是单击上下文菜单项时执行的事件处理程序代码。代码首先检查命令名称，如果它与我们的命令匹配，它会在活动 GridWeb 工作表的单元格 A1 中添加一个文本，并将第一列宽度设置为 40 个单位以使文本可见。
 
@@ -39,7 +39,7 @@ url: /zh/net/add-or-remove-context-menu-items-in-gridweb/
 
 这是单击上下文菜单项时 GridWeb 的外观。
 
-![待办事项：图片_替代_文本](add-or-remove-context-menu-items-in-gridweb_2.png)
+![待办事项：图像_替代_文本](add-or-remove-context-menu-items-in-gridweb_2.png)
 ## **使用代码在 Aspose.Cells.GridWeb 中添加上下文菜单项**
 此代码显示如何使用代码在 GridWeb 中添加上下文菜单项。
 

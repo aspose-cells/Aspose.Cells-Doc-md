@@ -14,7 +14,7 @@ url: /it/net/aspose-cells-for-net-21-4-release-notes/
 |:- |:- |:- |
 |CELLSNET-47891|Supporto per ottenere lo stile di visualizzazione con l'abilitazione della cache|Nuova caratteristica|
 |CELLSNET-47922|Renderizza i dati con le coordinate della cella nella conversione da Excel a HTML|Aumento|
-|CELLSNET-47924|Implementa Crypto con lo API di BouncyCastle|Aumento|
+|CELLSNET-47924|Implementa Crypto con l'API di BouncyCastle|Aumento|
 |CELLSNET-47951|Supporta mappe XML tramite XSD|Aumento|
 |CELLSNET-47206|Raggruppamento di dati con indicatori intelligenti orizzontali e origine dati nidificata|Aumento|
 |CELLSNET-47888|SmartMarker appropriati necessari per ottenere l'output desiderato|Aumento|
@@ -53,9 +53,9 @@ url: /it/net/aspose-cells-for-net-21-4-release-notes/
 |
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi StartAccessCache()/CloseAccessCache() per la cartella di lavoro e il foglio di lavoro.**
 

@@ -9,6 +9,6 @@ url: /es/sharepoint/product-information/
 - [Formatos de archivo admitidos](/cells/es/sharepoint/supported-file-formats/)
 - [Características](/cells/es/sharepoint/features/)
 - [Requisitos del sistema](/cells/es/sharepoint/system-requirements/)
-- [Instalar Aspose.Cells para SharePoint](/cells/es/sharepoint/install-aspose-cells-for-sharepoint/)
+- [Instalar Aspose.Cells for SharePoint](/cells/es/sharepoint/install-aspose-cells-for-sharepoint/)
 - [Evaluar Aspose.Cells](/cells/es/sharepoint/evaluate-aspose-cells/)
-- [Licencia Aspose.Cells para SharePoint](/cells/es/sharepoint/license-aspose-cells-for-sharepoint/)
+- [Licencia Aspose.Cells for SharePoint](/cells/es/sharepoint/license-aspose-cells-for-sharepoint/)

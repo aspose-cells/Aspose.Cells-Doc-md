@@ -17,7 +17,7 @@ Det finns en hel del fördelar när du konverterar en lista med data till ett fa
 - Diagram baserade på rader och kolumner utökas automatiskt.
 - Namngivna intervall som tilldelats rader och kolumner kommer att utökas automatiskt.
 - Listan är skyddad från oavsiktlig radering och radering.
-### **Skapa ett listobjekt med hjälp av Microsoft Excel**
+### **Skapa ett listobjekt med Microsoft Excel**
 
 |**Väljer dataintervall för att skapa listobjekt**|
 |:- |
@@ -51,7 +51,7 @@ För att hantera och analysera en grupp relaterade data är det möjligt att fö
 
  Ett arbetsblad representeras av[IArbetsblad](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) klass. De[IArbetsblad](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) klass tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. Att skapa en*ListObject*i ett kalkylblad, använd `IListObjectCollection`. Varje `[IListObject]` är i själva verket ett objekt i klassen `IListObjectCollection`, vilket ytterligare tillhandahåller[Lägg till](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object_collection#ae4afda31b69b75a78558a65bef65ee42)metod för att lägga till ett `[IListObject]`-objekt och ange det cellintervall som det ska omfatta. Enligt det specificerade cellområdet, a*ListObject* skapas i kalkylbladet av Aspose.Cells. Använd attribut (t.ex.[TableStyleType](https://reference.aspose.com/cells/cpp/class/aspose.cells.tables.i_list_object#a5de8b5321b0ccb30dfb09cefe6536462)) av klassen `[IListObject]` för att formatera tabellen för dina krav.
 
-Exemplet nedan lägger till exempeldata i ett kalkylblad, lägger till ett `[IListObject]` och tillämpar standardstilar på det. `[IListObject]` stilar stöds av Microsoft Excel 2007/2010.
+Exemplet nedan lägger till exempeldata i ett kalkylblad, lägger till ett `[IListObject]` och tillämpar standardstilar på det. `[IListObject]`-stilar stöds av Microsoft Excel 2007/2010.
 
 
 

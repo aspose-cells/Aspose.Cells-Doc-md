@@ -5,7 +5,7 @@ type: docs
 weight: 4
 url: /zh/python-net/getting-started/ 
 keywords: python, excel, instal
-description: 通过 .NET 和安装指南为 Python 设置 Aspose.Cells。
+description: 安装程序 Aspose.Cells for Python via .NET 和安装指南。
 ---
 ## **系统要求**
  Aspose.Cells for Python via .NET 与平台无关 API 可以在任何平台（Windows 和 Linux）上使用，其中[Python](https://www.python.org/downloads/)已安装。
@@ -15,7 +15,7 @@ description: 通过 .NET 和安装指南为 Python 设置 Aspose.Cells。
 
 ## **安装**
 ### **Windows:**
-您可以通过 .NET 轻松地将 Aspose.Cells 用于 Python 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
+您可以轻松地使用 Aspose.Cells for Python via .NET 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -23,7 +23,7 @@ description: 通过 .NET 和安装指南为 Python 设置 Aspose.Cells。
 {{< /highlight >}}
 
 ### **Linux：**
-您可以通过 .NET 轻松地将 Aspose.Cells 用于 Python 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
+您可以轻松地使用 Aspose.Cells for Python via .NET 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -31,7 +31,7 @@ description: 通过 .NET 和安装指南为 Python 设置 Aspose.Cells。
 {{< /highlight >}}
 
 ### **苹果系统：**
-您可以通过 .NET 轻松地将 Aspose.Cells 用于 Python 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
+您可以轻松地使用 Aspose.Cells for Python via .NET 来自[皮皮](https://pypi.org/project/aspose-cells-python/)使用以下命令。
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python

@@ -47,7 +47,7 @@ Följande kodexempel visar implementeringen av IEnumerator-gränssnittet för en
 
 ### **Kolumnuppräkning**
 
-Kolumnuppräkningen kan nås när du använder[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) metod. Följande kodexempel visar implementeringen av IEnumerator-gränssnittet för[**Kolumnsamling**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
+ Kolumnuppräkningen kan nås när du använder[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) metod. Följande kodexempel visar implementeringen av IEnumerator-gränssnittet för[**Kolumnsamling**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 

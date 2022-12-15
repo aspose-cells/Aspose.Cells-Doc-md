@@ -5,7 +5,7 @@ weight: 30
 url: /es/python-java/cut-and-paste-cells/
 ---
 ## **Cortar y Pegar Cells**
-Aspose.Cells para Python a través de Java brinda la capacidad de cortar y pegar celdas. Para esto, el API proporciona el[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) método de la[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)recopilación. los[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) El método acepta los siguientes parámetros.
+Aspose.Cells for Python via Java proporciona la capacidad de cortar y pegar celdas. Para esto, el API proporciona el[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) método de la[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)recopilación. los[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) El método acepta los siguientes parámetros.
 
 - [Rango](https://reference.aspose.com/cells/python/asposecells.api/Range)El rango de celdas a cortar.
 - Índice de fila: el índice de la fila para insertar celdas.

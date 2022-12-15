@@ -18,13 +18,13 @@ Aspose.Cells stöder kopiering eller flyttning av kalkylblad i eller mellan arbe
 
 De första stegen är desamma för alla exempel.
 
-1. Skapa två arbetsböcker med lite data i Microsoft Excel. För detta exempel skapade vi två nya arbetsböcker i Microsoft Excel och matade in en del data i kalkylbladen.
+1. Skapa två arbetsböcker med lite data i Microsoft Excel. För detta exempel skapade vi två nya arbetsböcker i Microsoft Excel och matade in lite data i kalkylbladen.
 
 - FirstWorkbook.xlsx (3 kalkylblad).
 - SecondWorkbook.xlsx (1 kalkylblad).
 
 1. Ladda ner och installera Aspose.Cells:
-   1. [Ladda ner Aspose.Cells för .NET](https://downloads.aspose.com/cells/net).
+   1. [Ladda ner Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
  1. Installera det på din utvecklingsdator.
  Allt[Aspose](http://www.aspose.com/) komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
 1. Skapa ett projekt:

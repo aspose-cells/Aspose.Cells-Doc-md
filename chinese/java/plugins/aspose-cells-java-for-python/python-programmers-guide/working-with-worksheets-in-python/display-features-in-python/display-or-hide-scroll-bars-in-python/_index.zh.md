@@ -6,7 +6,7 @@ url: /zh/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells - 显示或隐藏滚动条**
 ### **隐藏行/列标题**
-使用隐藏行/列标题**Aspose.Cells Java 为 Python**， 称呼**显示隐藏行列标题**模块。
+使用隐藏行/列标题**Aspose.Cells Java for Python**， 称呼**显示隐藏行列标题**模块。
 
 **Python 代码**
 

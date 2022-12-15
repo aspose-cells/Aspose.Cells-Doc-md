@@ -1,5 +1,5 @@
 ﻿---
-title: Zeitachse einfügen
+title: Zeitleiste einfügen
 linktitle: Zeitleisten
 type: docs
 weight: 170
@@ -8,7 +8,7 @@ description: Erfahren Sie, wie Sie mit Aspose.Cells eine Zeitleiste erstellen.
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Anstatt Filter anzupassen, um Datumsangaben anzuzeigen, können Sie eine PivotTable-Zeitachse verwenden – eine dynamische Filteroption, mit der Sie einfach nach Datum/Uhrzeit filtern und mit einem Schieberegler den gewünschten Zeitraum vergrößern können. Microsoft Mit Excel können Sie eine Zeitleiste erstellen, indem Sie eine Pivot-Tabelle auswählen und dann auf klicken*Einfügen > Zeitleiste*. Aspose.Cells ermöglicht es Ihnen auch, eine Zeitleiste mit dem zu erstellen[**Worksheet.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)Methode.
+ Anstatt Filter anzupassen, um Datumsangaben anzuzeigen, können Sie eine PivotTable-Zeitachse verwenden – eine dynamische Filteroption, mit der Sie einfach nach Datum/Uhrzeit filtern und mit einem Schieberegler den gewünschten Zeitraum vergrößern können. Microsoft Mit Excel können Sie eine Zeitleiste erstellen, indem Sie eine Pivot-Tabelle auswählen und dann auf klicken*Einfügen > Zeitachse*. Aspose.Cells ermöglicht es Ihnen auch, eine Zeitleiste mit dem zu erstellen[**Worksheet.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)Methode.
 
 ## **Erstellen Sie eine Zeitachse zu einer Pivot-Tabelle**
 

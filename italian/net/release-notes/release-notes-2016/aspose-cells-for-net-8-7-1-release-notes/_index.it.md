@@ -15,10 +15,10 @@ url: /it/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44187 | I valori Cell vengono erroneamente sostituiti con # quando vengono convertiti in HTML| Insetto|
 |CELLSNET-44161 | Aspose.Cells XLSX generato fa sì che Excel 2007 ripari il foglio di calcolo| Insetto|
 |CELLSNET-44063 | La tabella pivot perde l'ordine dell'intestazione dopo aver lavorato con il file di input| Insetto|
-|CELLSNET-44215 |Salva in pdf che mostra i dati estranei a destra della tabella| Insetto|
+|CELLSNET-44215 | Salva in pdf che mostra i dati estranei a destra della tabella| Insetto|
 |CELLSNET-44201 | Problema relativo agli indici di caratteri non supportati nella formula CHAR| Insetto|
 |CELLSNET-44193 | L'ombreggiatura delle celle inclinate non viene visualizzata correttamente in PDF| Insetto|
-|CELLSNET-44213 | Il salvataggio dell'immagine dal foglio di lavoro produce un'immagine leggermente diversa| Insetto|
+|CELLSNET-44213 |Il salvataggio dell'immagine dal foglio di lavoro produce un'immagine leggermente diversa| Insetto|
 |CELLSNET-44192 | Le etichette delle categorie nella parte superiore del grafico sono allineate a destra invece che a sinistra| Insetto|
 |CELLSNET-44240 | Problema con la ridenominazione di un intervallo denominato| Insetto|
 |CELLSNET-44239 | Cell.ContainsExternalLink restituisce true se la formula è =WEEKNUM| Insetto|
@@ -29,14 +29,14 @@ url: /it/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44214 | Copia intervallo non mantiene le impostazioni di ListObject| Insetto|
 |CELLSNET-44203 | Il riferimento alle formule è diverso tra 8.6.2 e 8.7.0 per l'operazione Worksheet.Copy| Insetto|
 |CELLSNET-44241 | System.IndexOutOfRangeException in Cells.ImportData| Eccezione|
-|CELLSNET-44226 |System.ArgumentException in Workbook.Save durante il salvataggio in formato ODS| Eccezione|
+|CELLSNET-44226 | System.ArgumentException in Workbook.Save durante il salvataggio in formato ODS| Eccezione|
 |CELLSNET-44225 | Eccezione: "Testo non valido del nome definito." verificato durante la copia del foglio di lavoro| Eccezione|
 |CELLSNET-44223 | NullReferenceException durante il caricamento di un file XLSX specifico| Eccezione|
-|CELLSNET-44212 | Eccezione NullReference all'apertura del file excel di origine| Eccezione|
+|CELLSNET-44212 |Eccezione NullReference all'apertura del file excel di origine| Eccezione|
 |CELLSNET-44204 | CellsException: la dimensione del carattere non è compresa nell'intervallo, in Cartella di lavoro ctor| Eccezione|
 |CELLSNET-44196 | Fornire la possibilità di rilevare quale colonna viene filtrata e quale valore filtrare sull'interfaccia GridWeb| Nuova caratteristica|
 |CELLSNET-44232 | Problema GridDesktop con RemoveRow(index) dove index è "0"| Insetto|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà LookInType.OriginalValues.**
 Trova solo l'oggetto dai valori originali senza formato.

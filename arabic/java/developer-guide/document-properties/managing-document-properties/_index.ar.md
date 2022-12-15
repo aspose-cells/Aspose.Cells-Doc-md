@@ -28,7 +28,7 @@ url: /ar/java/managing-document-properties/
 |![ما يجب القيام به: image_بديل_نص](managing-document-properties_1.png)|
 1.  انقر فوق**الخصائص** العنوان وحدد "خصائص متقدمة".
 
-|**النقر فوق اختيار الخصائص المتقدمة**|
+|**النقر فوق تحديد الخصائص المتقدمة**|
 |:- |
 |![ما يجب القيام به: image_بديل_نص](managing-document-properties_2.png)|
 1. إدارة خصائص وثيقة الملف.
@@ -40,7 +40,7 @@ url: /ar/java/managing-document-properties/
 
 ## **التعامل مع خصائص الوثيقة باستخدام Aspose.Cells**
 
-يمكن للمطورين إدارة خصائص الوثيقة ديناميكيًا باستخدام Aspose.Cells APIs. تساعد هذه الميزة المطورين على تخزين المعلومات المفيدة مع الملف ، مثل وقت استلام الملف ومعالجته وختمه الزمني وما إلى ذلك.
+يمكن للمطورين إدارة خصائص الوثيقة ديناميكيًا باستخدام Aspose.Cells APIs. تساعد هذه الميزة المطورين على تخزين المعلومات المفيدة مع الملف ، مثل وقت استلام الملف ومعالجته وختمه بالوقت وما إلى ذلك.
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ url: /ar/java/managing-document-properties/
 
 ### **الوصول إلى خصائص المستند**
 
-تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)صف دراسي.
+ تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)صف دراسي.
 
  استخدم ال[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)للوصول إلى خصائص مستند الملف كما هو موضح أدناه.
 
@@ -85,7 +85,7 @@ url: /ar/java/managing-document-properties/
 
 ### **تكوين خاصية مخصصة "ارتباط بالمحتوى"**
 
- لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق معين ، قم باستدعاء[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) طريقة واسم خاصية المرور والمصدر. يمكنك التحقق مما إذا كانت الخاصية قد تم تكوينها على أنها مرتبطة بالمحتوى باستخدام[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) منشأه. علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام[**مصدر**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) ممتلكات[**وثيقة الملكية**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)صف دراسي.
+ لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق معين ، قم باستدعاء[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) طريقة واسم خاصية المرور والمصدر. يمكنك التحقق مما إذا كانت الخاصية قد تم تكوينها على أنها مرتبطة بالمحتوى باستخدام[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) منشأه. علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام[**مصدر**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) ممتلكات[**وثيقة الملكية**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)صف دراسي.
 
  نستخدم ملف إكسل Microsoft قالب بسيط في المثال. يحتوي المصنف على نطاق مسمى محدد يسمى**MyRange** الذي يشير إلى قيمة الخلية.
 

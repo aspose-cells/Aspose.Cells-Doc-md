@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Ölçekleme faktörü**
- kullanarak ölçekleme uygulamak için**Aspose.Cells Java için Python** , aramak**ölçekleme** yöntemi**sayfa ayarı** modül.
+ kullanarak ölçekleme uygulamak için**Aspose.Cells Java for Python** , aramak**ölçekleme** yöntemi**sayfa ayarı** modül.
 
 **Python Kod**
 

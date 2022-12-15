@@ -5,7 +5,7 @@ weight: 50
 url: /zh/java/display-hide-tabs-in-jython/
 ---
 ## **Aspose.Cells - 显示隐藏标签**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+使用附加文件**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
 
 **Jython代码**
 

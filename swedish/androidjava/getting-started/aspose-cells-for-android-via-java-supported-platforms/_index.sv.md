@@ -1,11 +1,11 @@
 ﻿---
-title: Aspose.Cells för Android via Java-stödda plattformar
+title: Aspose.Cells for Android via Java Plattformar som stöds
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-android-via-java-supported-platforms/
 ---
-Aspose.Cells för Android via Java är skriven helt i Java, beror endast på standard Java-bibliotek och kan användas i alla Java-applikationer på alla plattformar som stöds av Java. Aspose.Cells för Android via Java tillhandahålls som en ZIP-nedladdning och innehåller följande:
+Aspose.Cells for Android via Java är helt skriven i Java, beror endast på standardbiblioteken Java och kan användas i alla Java-applikationer på vilken plattform som helst som stöds av 0761603410 och 76161603410 som följer 7616143481 och 761603481:
 
-- Aspose.Cells för Android via Java jar-bibliotek.
+- Aspose.Cells for Android via Java burkbibliotek.
 - Exempel på projekt.
 - Aspose.Cells Dokumentation i HTML-format.

@@ -9,7 +9,7 @@ keywords: add inset picture iamge color comment background excel
 ---
 {{% alert color="primary" %}}
 
- commenti vengono aggiunti alle celle per registrare commenti, qualsiasi cosa, dai dettagli su come funziona una formula, da dove proviene un valore o domande dei revisori. I commenti svolgono un ruolo estremamente importante quando più persone discutono o rivedono lo stesso documento in momenti diversi. Come distinguere i commenti di persone diverse? Sì, possiamo impostare un colore di sfondo diverso per ogni commento. Ma quando dobbiamo elaborare molti documenti e molti commenti, farlo manualmente è un disastro. per fortuna[**Aspose.Cells**](https://products.aspose.com/cells/net/) fornisce uno API che ti consente di farlo nel codice.
+ commenti vengono aggiunti alle celle per registrare commenti, qualsiasi cosa, dai dettagli su come funziona una formula, da dove proviene un valore o domande dei revisori. I commenti svolgono un ruolo estremamente importante quando più persone discutono o rivedono lo stesso documento in momenti diversi. Come distinguere i commenti di persone diverse? Sì, possiamo impostare un colore di sfondo diverso per ogni commento. Ma quando dobbiamo elaborare molti documenti e molti commenti, farlo manualmente è un disastro. per fortuna[**Aspose.Cells**](https://products.aspose.com/cells/net/) fornisce un'API che consente di eseguire questa operazione nel codice.
 
 {{% /alert %}}
 

@@ -11,7 +11,7 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 {{% /alert %}} 
 
 \1) Aspose.Cells 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Nouvelles fonctionnalités**
 
@@ -185,7 +185,7 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 \2) Suite de grille Aspose.Cells
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Insectes**
 

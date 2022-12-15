@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells Reporting Services v1.4.2 ملاحظات الإصدار
+title: Aspose.Cells for Reporting Services v1.4.2 ملاحظات الإصدار
 type: docs
 weight: 20
 url: /ar/reportingservices/aspose-cells-for-reporting-services-v1-4-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لخدمات التقارير الإصدار 1.4.2](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.2/)
+ تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for Reporting Services v1.4.2](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.2/)
 
 {{% /alert %}} 
 

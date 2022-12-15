@@ -6,7 +6,7 @@ url: /sv/net/how-to-use-aspose-cells-gridweb-with-net-core/
 ---
 {{% alert color="primary" %}} 
 
-Det här avsnittet förklarar hur du använder Aspose.Cells.GridWeb med .NET Core-applikationer med Visual Studio.NET 2019. Det här ämnet är användbart för utvecklare på nybörjarnivå som arbetar med Aspose.Cells.GridWeb.
+Det här avsnittet förklarar hur du använder Aspose.Cells.GridWeb med .NET Kärnapplikationer som använder Visual Studio.NET 2019. Det här ämnet är användbart för utvecklare på nybörjarnivå som arbetar med Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
 ## **Använd Aspose.Cells.GridWeb med .NET Core**

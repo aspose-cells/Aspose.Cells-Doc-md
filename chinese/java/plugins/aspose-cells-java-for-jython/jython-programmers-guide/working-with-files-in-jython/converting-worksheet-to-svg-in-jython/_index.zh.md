@@ -5,7 +5,7 @@ weight: 40
 url: /zh/java/converting-worksheet-to-svg-in-jython/
 ---
 ## **Aspose.Cells - 将工作表转换为 SVG**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+使用附加文件**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
 
 **Jython代码**
 
@@ -37,7 +37,7 @@ url: /zh/java/converting-worksheet-to-svg-in-jython/
 
 工作簿 = 工作簿 (dataDir + "Book1.xls")
 
-#在单个页面中将每个工作表转换为 svg 格式。
+ #在单个页面中将每个工作表转换为 svg 格式。
 
  imgOptions = 图像或打印选项()
 

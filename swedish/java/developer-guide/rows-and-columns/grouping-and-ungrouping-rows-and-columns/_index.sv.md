@@ -27,7 +27,7 @@ en Microsoft Excel-fil kan du skapa en disposition för data så att du kan visa
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-GroupingRowsandColumns-1.java" >}}
 ## **Gruppinställningar**
-Microsoft Excel tillåter också att konfigurera gruppinställningar för att visa:
+Microsoft Excel tillåter också att konfigurera gruppinställningar för visning:
 
 - Sammanfattningsrader nedan detalj.
 - Sammanfattningskolumner till höger om detaljer.

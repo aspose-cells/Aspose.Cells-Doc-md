@@ -8,7 +8,7 @@ url: /sv/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 
 Så här återger du diagramobjekt till Microsoft Excel-diagram:
 
-1.  Öppna**Aspose.Cells.ReportingServices.xml** fil.
+1. Öppna**Aspose.Cells.ReportingServices.xml** fil.
 1.  Ändra konfigurationsparametrarna i**Aspose.Cells.ReportingServices.xml** fil.
 1. Lägg till önskad rapports konfigurationsinformation.
 

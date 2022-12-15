@@ -31,7 +31,7 @@ Algunas de las opciones de autofiltro son:
 |:- |:- |
 |Todos|Muestra todos los elementos de la lista una vez.|
 |Disfraz|Personalice los criterios de filtro como contiene/no contiene|
-|Filtrar por color|Filtros basados en color relleno|
+|Filtrar por Color|Filtros basados en color relleno|
 |Filtros de fecha|Filtra filas según diferentes criterios en la fecha|
 |Filtros numéricos|Diferentes tipos de filtro en números como comparación, promedios y Top 10, etc.|
 |Filtros de texto|Diferentes filtros como comienza con, termina con, contiene, etc.|

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour PHP via Java 20.2 Notes de version
+title: Aspose.Cells for PHP via Java 20.2 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/php-java/aspose-cells-for-php-via-java-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour PHP via Java 20.2.
+Cette page contient les notes de version pour Aspose.Cells for PHP via Java 20.2.
 
 {{% /alert %}} 
 
@@ -40,7 +40,7 @@ Cette page contient les notes de version pour Aspose.Cells pour PHP via Java 20.
 |CELLSJAVA-43116|Conversion en PDF - java.lang.IllegalStateException : Le stockage structuré semble être corrompu.|Exception|
 |CELLSJAVA-43120|java.lang.NumberFormatException lors de la conversion du classeur en PDF|Exception|
 ### **Public API et modifications incompatibles avec les versions antérieures**
-Ce qui suit est une liste de toutes les modifications apportées au public API telles que les membres ajoutés, renommés, supprimés ou obsolètes ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour PHP via Java. soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for PHP via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 #### **Ajoute la propriété FormulaParseOptions.Parse.**
 Indique si la formule doit être analysée lors de la définition d'une expression de formule sur cellule. La valeur par défaut est true. Si false, l'expression de formule d'entrée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les analyser ou que des données de formule analysées soient requises par d'autres opérations telles que le calcul de formules.
 #### **Ajoute la méthode Workbook.ParseFormulas(bool ignoreError).**

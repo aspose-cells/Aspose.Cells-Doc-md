@@ -16,7 +16,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 ## **تحديد فواصل مخصصة باستخدام Microsoft Excel**
 
- تُظهر لقطة الشاشة التالية ملف**خيارات Excel المتقدمة** ويسلط الضوء على القسم لتحديد**فواصل مخصصة**.
+تُظهر لقطة الشاشة التالية ملف**خيارات Excel المتقدمة** ويسلط الضوء على القسم لتحديد**فواصل مخصصة**.
 
 ![ما يجب القيام به: image_بديل_نص](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 

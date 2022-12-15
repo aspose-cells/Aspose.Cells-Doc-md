@@ -16,7 +16,7 @@ keywords: apply cell validation in excel with java, apply validation on a cell i
 
 **具有验证功能的单元格**
 
-![待办事项：图片_替代_文本](get-validation-applied-on-a-cell_1.png)
+![待办事项：图像_替代_文本](get-validation-applied-on-a-cell_1.png)
 
 下面的示例代码获取应用于 C1 的验证并读取其各种属性。
 

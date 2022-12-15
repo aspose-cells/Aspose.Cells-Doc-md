@@ -6,17 +6,17 @@ url: /de/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-
 ---
 {{% alert color="primary" %}} 
 
- Bitte führen Sie die folgenden Schritte der Reihe nach aus, wenn Sie Aspose.Cells für Reporting Services manuell für Microsoft Visual Studio Report Designer ohne das MSI-Installationsprogramm installieren möchten. Wir empfehlen Ihnen, das MSI-Installationsprogramm zu verwenden, da es alle erforderlichen Installationen und Konfigurationen automatisch durchführt. Wenn die Installation mit dem MSI-Installationsprogramm jedoch fehlschlägt, befolgen Sie bitte die folgenden Richtlinien.
-In diesem Abschnitt wird beschrieben, wie Sie Aspose.Cells für Reporting Services auf einem Computer mit Business Intelligence Development Studio installieren. Dadurch können Sie Berichte zur Entwurfszeit aus dem Microsoft Visual Studio 2005 oder 2008 Report Designer in Microsoft Excel-Formate exportieren.
+Bitte führen Sie die folgenden Schritte der Reihe nach aus, wenn Sie Aspose.Cells for Reporting Services manuell für Microsoft Visual Studio Report Designer ohne das MSI-Installationsprogramm installieren möchten. Wir empfehlen Ihnen, das MSI-Installationsprogramm zu verwenden, da es alle erforderlichen Installationen und Konfigurationen automatisch durchführt. Wenn die Installation mit dem MSI-Installationsprogramm jedoch fehlschlägt, befolgen Sie bitte die folgenden Richtlinien.
+ In diesem Abschnitt wird beschrieben, wie Sie Aspose.Cells for Reporting Services auf einem Computer mit Business Intelligence Development Studio installieren. Dadurch können Sie Berichte zur Entwurfszeit aus dem Microsoft Visual Studio 2005 oder 2008 Report Designer in Microsoft Excel-Formate exportieren.
 
 {{% /alert %}} 
 - **Integrationsprozess**
 1.  Kopieren**Aspose.Cells.ReportingServices.dll** in das Visual Studio-Verzeichnis.
  1. Zur Integration mit Visual Studio 2005 Report Designer: kopieren**Aspose.Cells.ReportingServices.dll** in das Verzeichnis C:\Programme\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies.
- 1. Zur Integration mit Visual Studio 2008 Report Designer: kopieren**Aspose.Cells.ReportingServices.dll** in das Verzeichnis C:\Programme\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies.
-1.  Registrieren Sie Aspose.Cells für Reporting Services als Rendering-Erweiterung:
+ 1. Zur Integration mit Visual Studio 2008 Report Designer: kopieren**Aspose.Cells.ReportingServices.dll**in das Verzeichnis C:\Programme\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies.
+1.  Registrieren Sie Aspose.Cells for Reporting Services als Rendering-Erweiterung:
  1. Öffnen**C:\Programme\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
- (wo<Version>ist „8“ für Visual Studio 2005 oder „9.0“ für Visual Studio 2008) und fügen Sie die folgenden Zeilen in die hinzu<Render> Element:
+ (wo<Version> ist „8“ für Visual Studio 2005 oder „9.0“ für Visual Studio 2008) und fügen Sie die folgenden Zeilen in die hinzu<Render> Element:
 
 **XML**
 
@@ -44,7 +44,7 @@ In diesem Abschnitt wird beschrieben, wie Sie Aspose.Cells für Reporting Servic
 
 {{< /highlight >}}
 
-1.  Geben Sie Aspose.Cells für Reporting Services-Berechtigungen zur Ausführung:
+1.  Geben Sie Aspose.Cells for Reporting Services Berechtigungen zum Ausführen:
  1. Öffnen Sie C:\Programme\Microsoft Visual Studio<Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
  (wo<Version> ist „8“ für Visual Studio 2005 oder „9.0“ für Visual Studio 2008) und fügen Sie Folgendes als letztes Element in der zweiten nach außen hinzu<CodeGroup> Element (das sein sollte<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
 
@@ -78,7 +78,7 @@ In diesem Abschnitt wird beschrieben, wie Sie Aspose.Cells für Reporting Servic
 
 {{< /highlight >}}
 
-1.  Überprüfen Sie, ob Aspose.Cells für Reporting Services erfolgreich installiert wurde:
+1.  Überprüfen Sie, ob Aspose.Cells for Reporting Services erfolgreich installiert wurde:
  1. Führen Sie Microsoft Visual Studio 2005 oder 2008 Report Designer aus oder starten Sie ihn neu.
  In der Liste der Exportformate sollten Sie neue verfügbare Formate bemerken.
 

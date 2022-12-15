@@ -5,17 +5,17 @@ type: docs
 weight: 4
 url: /de/python-net/getting-started/ 
 keywords: python, excel, instal
-description: Setup Aspose.Cells für Python über .NET und Installationsrichtlinien.
+description: Setup Aspose.Cells for Python via .NET und Installationsrichtlinien.
 ---
 ## **System Anforderungen**
- Aspose.Cells für Python über .NET ist plattformunabhängig API und kann auf jeder Plattform (Windows und Linux) eingesetzt werden[Python](https://www.python.org/downloads/) ist installiert.
+ Aspose.Cells for Python via .NET ist plattformunabhängig API und kann auf jeder Plattform (Windows und Linux) eingesetzt werden[Python](https://www.python.org/downloads/) ist installiert.
 
 ## **Python-Version**
 - Python 3,6 oder höher
 
 ## **Installation**
 ### **Windows:**
- Du kannst ganz einfach von Aspose.Cells zur Python über .NET aus[pypi](https://pypi.org/project/aspose-cells-python/) mit folgendem Befehl.
+ Sie können ganz einfach unter Aspose.Cells for Python via .NET aus[pypi](https://pypi.org/project/aspose-cells-python/) mit folgendem Befehl.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -23,7 +23,7 @@ description: Setup Aspose.Cells für Python über .NET und Installationsrichtlin
 {{< /highlight >}}
 
 ### **Linux:**
- Du kannst ganz einfach von Aspose.Cells zur Python über .NET aus[pypi](https://pypi.org/project/aspose-cells-python/) mit folgendem Befehl.
+ Sie können ganz einfach unter Aspose.Cells for Python via .NET aus[pypi](https://pypi.org/project/aspose-cells-python/) mit folgendem Befehl.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -31,7 +31,7 @@ description: Setup Aspose.Cells für Python über .NET und Installationsrichtlin
 {{< /highlight >}}
 
 ### **Mac OS:**
- Du kannst ganz einfach von Aspose.Cells zur Python über .NET aus[pypi](https://pypi.org/project/aspose-cells-python/) mit folgendem Befehl.
+ Sie können ganz einfach unter Aspose.Cells for Python via .NET aus[pypi](https://pypi.org/project/aspose-cells-python/) mit folgendem Befehl.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python

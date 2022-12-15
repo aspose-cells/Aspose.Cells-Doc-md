@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 20.4 Release Notes
+title: Aspose.Cells for Java 20.4 Release Notes
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-for-java-20-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 20.4](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.4/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 20.4](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.4/).
 
 {{% /alert %}} 
 
@@ -24,8 +24,8 @@ url: /sv/java/aspose-cells-for-java-20-4-release-notes/
 |CELLSJAVA-43158|IllegalArgumentException: Kartstorlek(0) måste vara >= 1|Undantag|
 |CELLSJAVA-43149|Undantag uppstod när XLSM sparades efter att kalkylbladet tagits bort|Undantag|
 |CELLSJAVA-43150|Undantag "java.lang.NumberFormatException" vid filladdning|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen ChartTextFrame.DirectionType.**
 Hämtar och ställer in textens riktning i diagrammet.
 ### **Lägger till ChartTextFrame.ReadingOrder och föråldrar egenskapen ChartTextFrame.TextDirection.**

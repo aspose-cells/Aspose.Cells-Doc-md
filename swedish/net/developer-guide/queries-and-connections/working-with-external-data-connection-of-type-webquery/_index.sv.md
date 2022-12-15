@@ -6,7 +6,7 @@ url: /sv/net/working-with-external-data-connection-of-type-webquery/
 ---
 {{% alert color="primary" %}}
 
-Du kan komma åt extern dataanslutning av vilken typ som helst med hjälp av Workbook.DataConnections-samlingen. En typ av sådan dataanslutning är WebQuery. Den här artikeln visar hur du arbetar med WebQuery-dataanslutning. Du kan skapa WebQuery-dataanslutning i Microsoft Excel med hjälp av**Data** > **Från webben** meny.
+ Du kan komma åt extern dataanslutning av vilken typ som helst med hjälp av Workbook.DataConnections-samlingen. En typ av sådan dataanslutning är WebQuery. Den här artikeln visar hur du arbetar med WebQuery-dataanslutning. Du kan skapa WebQuery-dataanslutning i Microsoft Excel med hjälp av**Data** > **Från webben** meny.
 
 {{% /alert %}}
 

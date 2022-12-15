@@ -14,7 +14,7 @@ url: /zh/net/delete-redundant-spaces-after-line-break-while-importing/
 
 下面的截图展示了将这个属性设置为的效果**错误的**和**真的**.
 
-![待办事项：图片_替代_文本](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
+![待办事项：图像_替代_文本](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
 
 ## 导入 HTML 时删除换行后的多余空格
 

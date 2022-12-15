@@ -6,10 +6,10 @@ url: /tr/cpp/aspose-cells-for-cpp-21-12-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa Aspose.Cells için C++ için sürüm notları içerir 21.12 için Windows.
+Bu sayfa Aspose.Cells for C++ 21.12 için Windows için sürüm notları içerir.
 
 {{% /alert %}}
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-570| Boş işaretçi istisnasını düzeltmek için throw ifadesi ekleyin|Hatalar|
+|CELLSCPP-570|Boş işaretçi istisnasını düzeltmek için throw ifadesi ekleyin|Hatalar|

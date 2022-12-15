@@ -6,12 +6,12 @@ url: /ar/cpp/aspose-cells-for-cpp-21-1-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ C++ 21.1 لـ Windows.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for C++ 21.1 لـ Windows.
 
 {{% /alert %}}
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSCPP-269| إصلاح مشكلة ترخيص التحميل|حشرة|
-|CELLSCPP-270| إصلاح مشكلة التحويل إلى PDF|حشرة|
+|CELLSCPP-270|إصلاح مشكلة التحويل إلى PDF|حشرة|
 |CELLSCPP-271|دعم ميزة SetDPI|ميزة جديدة|

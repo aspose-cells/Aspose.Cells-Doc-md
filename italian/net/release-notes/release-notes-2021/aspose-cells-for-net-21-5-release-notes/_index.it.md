@@ -32,7 +32,7 @@ url: /it/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47985|Meno numero di righe durante la conversione in html|Insetto|
 |CELLSNET-47987|Sposta il campo pivot nella sezione Pagina o nei filtri pivot|Insetto|
 |CELLSNET-47997|Colonne aggiuntive vengono create dopo aver salvato il file in html|Insetto|
-|CELLSNET-48009|Il file è danneggiato dopo aver salvato la cartella di lavoro con Slicers|Insetto|
+|CELLSNET-48009|Il file è danneggiato dopo aver salvato la cartella di lavoro con Slicer|Insetto|
 |CELLSNET-48036|Il controllo Slicer non viene aggiunto in base al campo Filtro pagina della tabella pivot|Insetto|
 |CELLSNET-48044| Eccezione solleva durante la lettura di un file mhtml specifico|Insetto|
 |CELLSNET-47118|Valore errato 'TRUE' recuperato da Cell invece del valore 'FALSE'|Insetto|
@@ -60,9 +60,9 @@ url: /it/net/aspose-cells-for-net-21-5-release-notes/
 |
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Slicer.AddPivotConnection(PivotTable pivot).**
 

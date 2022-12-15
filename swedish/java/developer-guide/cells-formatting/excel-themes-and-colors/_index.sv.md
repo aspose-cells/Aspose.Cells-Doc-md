@@ -8,7 +8,7 @@ url: /sv/java/excel-2007-themes-and-colors/
 
 Teman ger ett enhetligt utseende med namngivna stilar, grafiska effekter och andra objekt som används i en arbetsbok. Till exempel ser Accent1-stilen annorlunda ut i Office- och Apex-teman. Ofta tillämpar du ett dokumenttema och ändrar det sedan enligt dina behov.
 
-**Använda teman i Microsoft Excel**
+**Tillämpa teman i Microsoft Excel**
 
 ![todo:image_alt_text](excel-2007-themes-and-colors_1.png)
 

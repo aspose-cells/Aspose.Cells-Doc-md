@@ -58,6 +58,6 @@ Por favor use[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/asp
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-1.cs" >}}
 
 
-Así es como se usa la clase CustomLoadFilter según los nombres de las hojas de trabajo.
+Así es como se usa la clase CustomLoadFilter según los nombres de las hojas de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}

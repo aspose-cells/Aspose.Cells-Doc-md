@@ -6,7 +6,7 @@ url: /es/java/managing-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Gestión de hojas de trabajo**
 ### **Agregar hojas de trabajo a un nuevo archivo de Excel**
-Para agregar una hoja de trabajo a un nuevo archivo de Excel usando**Aspose.Cells Java para rubí** , simplemente llama**añadir_hoja de trabajo** método de**Gestión de hojas de trabajo** módulo.
+ Para agregar una hoja de trabajo a un nuevo archivo de Excel usando**Aspose.Cells Java para rubí** , simplemente llama**añadir_hoja de trabajo** método de**Gestión de hojas de trabajo** módulo.
 
 **código rubí**
 
@@ -40,7 +40,7 @@ end 
 
 {{< /highlight >}}
 ### **Adición de hojas de trabajo a una hoja de cálculo de Designer**
-El proceso de agregar hojas de trabajo a una hoja de cálculo de diseñador es completamente igual al del enfoque anterior, excepto que el archivo de Excel ya está creado y debemos abrir ese archivo de Excel primero antes de agregarle la hoja de trabajo.
+El proceso de agregar hojas de trabajo a una hoja de cálculo de diseñador es completamente igual al del enfoque anterior, excepto que el archivo de Excel ya está creado y necesitamos abrir ese archivo de Excel primero antes de agregarle la hoja de trabajo.
 
 **código rubí**
 

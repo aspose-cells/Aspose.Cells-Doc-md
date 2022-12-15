@@ -5,7 +5,7 @@ weight: 10
 url: /tr/java/download-and-configure-aspose-cells-in-php/
 ---
 ## **Gerekli Kitaplıkları İndirin**
-Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar, PHP örnekleri için Aspose.Cells Java'i çalıştırmak için gereklidir.
+Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar Aspose.Cells Java for PHP örneklerini çalıştırmak için gereklidir.
 
 - **Aspose:** [Aspose.Cells for Java Bileşen](https://downloads.aspose.com/cells/java/)
 - [PHP/Java Köprü](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip/download/)
@@ -14,8 +14,8 @@ Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar, PHP örnekleri i�
 
 -----
 ### **GitHub**
-- **PHP Örnekleri için Aspose.Cells Java** 
-  - [PHP için Aspose.Cells Java](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
+- **Aspose.Cells Java for PHP Örnekler** 
+  - [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
 ## **Linux Platformunda kaynak kodu nasıl yapılandırılır**
 Kullanırken kaynak kodunu açmak ve genişletmek için lütfen şu basit adımları izleyin:
 ## **1. Tomcat Sunucusunu Kurun**
@@ -36,7 +36,7 @@ Kullanırken kaynak kodunu açmak ve genişletmek için lütfen şu basit adıml
 {{< /highlight >}}
 
 
- Linux konsolunda aşağıdaki komutu vererek PHP/JavaBridge ikili dosyalarını açın.
+Linux konsolunda aşağıdaki komutu vererek PHP/JavaBridge ikili dosyalarını açın.
 
 {{< highlight "actionscript3" >}}
 
@@ -54,7 +54,7 @@ Bu ayıklayacak**JavaBridge.savaş**dosya. Tomcat88'e kopyalayın**ağ uygulamal
 {{< /highlight >}}
 
 
-Tomcat8 kopyalayarak otomatik olarak yeni bir klasör oluşturacaktır "**Java Köprüsü**" içinde**ağ uygulamaları**. Klasör oluşturulduktan sonra, Tomcat8'inizin çalıştığından emin olun ve ardından kontrol edin.<http://localhost:8080/JavaBridge>tarayıcıda, varsayılan bir JavaBridge sayfası açmalıdır.
+Tomcat8 kopyalayarak otomatik olarak yeni bir klasör oluşturacaktır "**Java Köprüsü**" içinde**ağ uygulamaları**. Klasör oluşturulduktan sonra, Tomcat8'inizin çalıştığından emin olun ve ardından kontrol edin.<http://localhost:8080/JavaBridge> tarayıcıda, varsayılan bir JavaBridge sayfası açmalıdır.
 
  Herhangi bir hata mesajı görünürse, yükleyin**HızlıCGI**Linux konsolunda aşağıdaki komutu vererek.
 
@@ -67,7 +67,7 @@ Tomcat8 kopyalayarak otomatik olarak yeni bir klasör oluşturacaktır "**Java K
 php5.5 cgi'yi kurduktan sonra Tomcat8 sunucusunu yeniden başlatın ve kontrol edin<http://localhost:8080/JavaBridge>tekrar tarayıcıda.
 
 Eğer**Java_HOME**hatası görüntüleniyorsa, /etc/default/tomcat8 dosyasını açın ve Java_HOME'u ayarlayan satırın açıklamasını kaldırın. Tarayıcıda <http://localhost:8080/JavaBridge> öğesini tekrar kontrol edin, PHP/JavaBridge Örnekleri sayfasıyla gelmelidir.
-## **3. PHP Örnekleri için Aspose.Cells Java'i yapılandırın**
+## **3. Yapılandırma Aspose.Cells Java for PHP Örnekler**
  Webapps/JavaBridge klasörü içinde aşağıdaki komutları vererek PHP örneklerini klonlayın.
 
 {{< highlight "actionscript3" >}}
@@ -93,8 +93,8 @@ Windows Platformunda PHP/Java Bridge'i yapılandırmak için lütfen aşağıdak
 
 7. Aspose.Cells Java jar dosyanızı C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib konumuna kopyalayın
 
- \8. Klon[PHP için Aspose.Cells Java](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ klasörü içindeki örnekler.
+ \8. Klon[Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ klasörü içindeki örnekler.
 
-\8. C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java klasörünü PHP örnekler için Aspose.Cells Java klasörünüze kopyalayın.
+\8. C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java klasörünü Aspose.Cells Java for PHP örnekler klasörünüze kopyalayın.
 
  \10. Apache Tomcat hizmetini yeniden başlatın ve örnekleri kullanmaya başlayın.

@@ -15,7 +15,7 @@ url: /it/java/working-with-the-shadow-effect-of-shape-or-chart/
 - [ShadowEffect.Size](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Size)
 - [ShadowEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Transparency)
 
- Lo screenshot seguente mostra l'interfaccia di Excel Microsoft per impostare il file*Effetto ombra*di Forma.
+ Lo screenshot seguente mostra l'interfaccia di Microsoft Excel per impostare il file*Effetto ombra*di Forma.
 
 ![cose da fare:immagine_alt_testo](working-with-the-shadow-effect-of-shape-or-chart_1.png)
 ## **Lavorare con l'effetto ombra di forma o grafico**

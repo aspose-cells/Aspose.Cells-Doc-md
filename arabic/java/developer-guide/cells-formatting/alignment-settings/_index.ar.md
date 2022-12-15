@@ -74,7 +74,7 @@ url: /ar/java/cells-alignment-settings/
 
 ### **تقلص لتناسب**
 
- يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد ملف[**يتقلص ليساوي الحجم**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) منشأه. إلى**حقيقي**.
+ يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد[**يتقلص ليساوي الحجم**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) منشأه. إلى**حقيقي**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ShrinkingToFit-1.java" >}}
 

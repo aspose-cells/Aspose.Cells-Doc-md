@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells för Android via Java 21.9 Release Notes
+title: Aspose.Cells for Android via Java 21.9 Release Notes
 type: docs
 weight: 4
 url: /sv/java/aspose-cells-for-android-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 21.9.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 21.9.
 
 {{% /alert %}} 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-43477|Signera digitalt ett VBA-kodprojekt med certifikat med Aspose.Cells för Java|
+|CELLSJAVA-43477|Signera digitalt ett VBA-kodprojekt med certifikat med Aspose.Cells for Java|
 |CELLSJAVA-40452|Få externa dataintervall och detaljer|
 |CELLSJAVA-42494|En stor mängd oanvända stilar genereras i CSS-sektionen|
 |CELLSJAVA-43639|Skapandedatum och tid och ändringsdatum kan inte extraheras|
@@ -33,7 +33,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 21.9
 |CELLSJAVA-43015|Problem med SheetRender.toImage() när du använder metoden setPrintArea().|
 |CELLSJAVA-43258|Diagram visar teckensnittets fethet ändras efter arbetsbokkopiering|
 |CELLSJAVA-43436|Aspose Cells ignorerar inverterad y-axel i diagram|
-|CELLSJAVA-43510|Diagrammet är förstört när Excel-filen sparas på nytt med Aspose.Cells för Java|
+|CELLSJAVA-43510|Diagrammet är trassligt när du sparar Excel-filen igen med Aspose.Cells for Java|
 |CELLSJAVA-43532|Problem med att extrahera diagramserienamn|
 |CELLSJAVA-43474|Formobjekt ändrades när XLS-fil laddades och sparades|
 |CELLSJAVA-43493|Felaktig kommentars författare har hämtats|
@@ -77,7 +77,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 21.9
 |CELLSJAVA-43422|HTML till Excel-konvertering - "mso-ignore: padding" i CSS har ingen effekt|
 |CELLSJAVA-43606|Bakgrundstextformateringen ändrades när filer slogs samman|
 |CELLSJAVA-43769|MSO Excel (XLS) dokument kan inte laddas|
-|CELLSJAVA-43527|Aspose.Cells för Java NullPointerException|
+|CELLSJAVA-43527|Aspose.Cells for Java NullPointerException|
 |CELLSJAVA-43506|Undantag för ogiltigt lösenord|
 |CELLSJAVA-43523|CellsException för att läsa formens makronamn: Ogiltig formel|
 |CELLSJAVA-43565|"java.lang.ClassCastException" vid läsning av XLSB-fil med LightCells|
@@ -88,9 +88,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 21.9
 |CELLSJAVA-43632| Undantag "Invalid FontUnderlineType string val" när en XLSX-fil laddas|
 |CELLSJAVA-43633|Undantag "Invalid MsoLineDashStyle string val" när en XLSX-fil laddas|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Lägger till egenskapen PasteOptions.OperationType och PasteOperationType enum .**
 

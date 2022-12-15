@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 5.1.0 Release Notes
+title: Aspose.Cells for .NET 5.1.0 Release Notes
 type: docs
 weight: 60
 url: /sv/net/aspose-cells-for-net-5-1-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 5.1.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 5.1.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.0/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v!
+ Vi är glada att meddela Aspose.Cells for .NET v!
 
  Vad har ändrats i Aspose.Cells:
 
@@ -39,7 +39,7 @@ Tillhandahåller en överbelastad version för metoden SumSelectedRanges för at
 
  1 fix.
 
- Problem lösta i Aspose.Cells för .NET v
+ Problem lösta i Aspose.Cells for .NET v
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
@@ -47,8 +47,8 @@ Tillhandahåller en överbelastad version för metoden SumSelectedRanges för at
 |15467 | GridDesktop| Ändrar dubblettkalkylbladets namn i metoden ImportExcelFile|
 |17581 | Chart2Image| Konverterar diagram till bild|
 |17762 | Chart2Image| Datatabeller, värden och kategori går förlorade för XY-spridningsgrafer|
-|17900 | Chart2Image|Excel diagram till bild problem|
-|18023 | Chart2Image| Bubbeldiagram|
+|17900 | Chart2Image| Excel diagram till bild problem|
+|18023 | Chart2Image|Bubbeldiagram|
 |18190 | Chart2Image| Aspose.Cells kastar ut minnesundantag i Azure|
 |18012 | CSV| Exportera annorlunda till Excel|
 |16207 | Pdf| Hitta fel när PDF-filen sparades|
@@ -74,8 +74,8 @@ Tillhandahåller en överbelastad version för metoden SumSelectedRanges för at
 |17761 | Xls| Beräkna externa formler|
 |17789 | Xls| Formel för villkorlig formatering|
 |17810 | Xls| Räckvidden fungerar felaktigt|
-|17820 | Xls|Den här filen skapades med en senare version|
-|17907 | Xls| Att sortera inom grupper fungerar inte|
+|17820 | Xls| Den här filen skapades med en senare version|
+|17907 | Xls|Att sortera inom grupper fungerar inte|
 |17954 | Xls| Shape.AlternativeText|
 |17999 | Xls| Stöder tillägg av Tif-bild med metoden Pictures.Add().|
 |18054 | Xls| Worsheet.Copy kopplar CPU till 100 %|
@@ -86,7 +86,7 @@ Tillhandahåller en överbelastad version för metoden SumSelectedRanges för at
 |16656 | Xlsx| Förlorade makron vid lagring i XLSM-format|
 |17041 | Xlsx| Hur man ställer in transparent färg på en bild|
 |17652 | Xlsx| Hur man flyttar kommandoknappen|
-|17664 | Xlsx| Befintliga ändringar av villkorlig formatering|
+|17664 | Xlsx| Befintliga villkorliga formateringsändringar|
 |17719 | Xlsx| Värdet var antingen för stort eller för litet för en Int16|
 |17982 | Xlsx| Pivottabellsidfält fungerar inte i Excel 2007|
 |18004 | Xlsx| Delsummor ärende|
@@ -95,4 +95,4 @@ Tillhandahåller en överbelastad version för metoden SumSelectedRanges för at
 |18356 | Xlsx| Diagramtitel med formelproblem|
  Anmärkningsvärda förändringar för befintliga användare
 
- den här versionen (Aspose.Cells för .NET v5.1.0) har vi bytt namn på vissa klasser av Aspose.Cells-komponenten för att rensa API-strukturen. Vi har några insamlingsklasser men deras namn motiverar dem inte enligt .NET-standarder. Så efter djupgående analyser och granskningar har vi beslutat att byta namn på några klasser. Denna förändring har några viktiga aspekter som vi måste följa. Följande är listan över klasser som har bytt namn nu.
+ den här versionen (Aspose.Cells for .NET v5.1.0) har vi bytt namn på vissa klasser av Aspose.Cells-komponenten för att rengöra API-strukturen. Vi har några insamlingsklasser men deras namn motiverar dem inte enligt .NET standarder. Så efter djupgående analyser och granskningar har vi beslutat att byta namn på några klasser. Denna förändring har några viktiga aspekter som vi måste följa. Följande är listan över klasser som har bytt namn nu.

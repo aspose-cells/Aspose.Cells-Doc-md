@@ -6,9 +6,9 @@ url: /sv/java/how-to-install-truetype-fonts-on-linux/
 ---
 {{% alert color="primary" %}}
 
-Det mest troliga scenariot är att du använder Aspose.Cells för att konvertera kalkylblad till PDF. Om du gör detta på ett icke-Windows-baserat operativsystem som Linux så förklarar det här avsnittet hur du säkerställer att Aspose.Cells renderar dina kalkylblad med bästa noggrannhet.
+Det mest troliga scenariot är att du använder Aspose.Cells för att konvertera kalkylblad till PDF. Om du gör detta på ett icke-Windows-baserat operativsystem som Linux så förklarar det här avsnittet hur du säkerställer att Aspose.Cells återger dina kalkylblad med bästa noggrannhet.
 
-För att se till att kalkylblad som konverterats av Aspose.Cells visas så nära originalet som möjligt kan du behöva installera "Windows-teckensnitt" eller "TrueType-teckensnitt" på ditt Linux-system eftersom de vanligaste TrueType-teckensnitten inte kommer förinstallerade med Linux-distributioner som standard.
+För att se till att kalkylblad som konverterats av Aspose.Cells visas så nära originalet som möjligt kan du behöva installera "Windows fonts" eller "TrueType fonts" på ditt Linux-system eftersom de vanligaste TrueType-teckensnitten inte kommer förinstallerade med Linux-distributioner som standard.
 
 Det finns två huvudsakliga sätt att få TrueType-teckensnitt på ett Linux-system:
 
@@ -29,7 +29,7 @@ Så vitt vi kan säga licensierar Microsoft typsnitten så att vem som helst kan
 
 ## **Installera ett TrueType-teckensnittspaket**
 
-Nedan tillhandahållen information guidar dig steg för steg för att installera Microsofts mest kända TrueType-teckensnitt på Linux-distributioner som Fedora och Red Hat Enterprise Linux (RHEL).
+Nedan tillhandahållen information guidar dig steg för steg för att installera Microsoft:s mest kända TrueType-teckensnitt på Linux-distributioner som Fedora och Red Hat Enterprise Linux (RHEL).
 
 {{% alert color="primary" %}}
 

@@ -67,7 +67,7 @@ Vous ne pouvez utiliser que des styles de lignes fines pour la bordure du contou
 
 {{% /alert %}}
 
-### **Définir le motif**
+### **Définir le modèle**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SetPattern-1.cs" >}}
 

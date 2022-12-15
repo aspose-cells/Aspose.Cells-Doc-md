@@ -6,7 +6,7 @@ url: /sv/net/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Ibland behöver du veta den absoluta positionen för en form i ett kalkylblad. Aspose.Cells tillhandahåller[**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) och[**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner)fastigheter för detta ändamål. Dessa egenskaper returnerar den absoluta positionen för formen inuti kalkylbladet i pixlar.
+ Ibland behöver du veta den absoluta positionen för en form i ett kalkylblad. Aspose.Cells tillhandahåller[**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) och[**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) fastigheter för detta ändamål. Dessa egenskaper returnerar den absoluta positionen för formen inuti kalkylbladet i pixlar.
 
 {{% /alert %}}
 

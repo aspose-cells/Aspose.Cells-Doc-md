@@ -1,17 +1,17 @@
 ﻿---
-title: Aspose.Cells för Java 7.3.1 Release Notes
+title: Aspose.Cells for Java 7.3.1 Release Notes
 type: docs
 weight: 40
 url: /sv/java/aspose-cells-for-java-7-3-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.3.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.3.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.3.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.3.1/)
 
 {{% /alert %}} 
 
 Vi är
- glad att kunna meddela Aspose.Cells för Java v7.3.1 för användarna!
+glad att meddela Aspose.Cells for Java v7.3.1 för användarna!
 
  Nya egenskaper
 
@@ -29,15 +29,15 @@ Vi är
  (Notera:
 
 Alla ovanstående biljetter
-läggs ursprungligen till på uppdrag av .NET-användare. Sedan vår Java-version av
+läggs ursprungligen till på uppdrag av .NET användare. Sedan vår Java version av
 produkten är lika matchad (avseende funktioner och förbättringar) med .NET
-nu, så vi har införlivat dessa nya funktioner/förbättringar i Java-versionen
+nu, så vi har införlivat dessa nya funktioner/förbättringar i versionen Java
  av produkten också.
 ) 
 
  Förbättringar
 
- -Tillfälliga teckensnittsfiler skapas mer än en gång när du sparar till PDF
+-Tillfälliga teckensnittsfiler skapas mer än en gång när du sparar till PDF
 
  -Datum i sidhuvud/sidfot har inte formaterats i enlighet med arbetsbokens lokalinställningar
 
@@ -63,7 +63,7 @@ nu, så vi har införlivat dessa nya funktioner/förbättringar i Java-versionen
 
  -Extra ramar visades när du sparade om
 
-mallfil som XLS-fil
+ mallfil som XLS-fil
 
  -Läsning av namn med referens "!$A$1" orsakade ett undantag
 
@@ -73,4 +73,4 @@ mallfil som XLS-fil
 
  -Den genererade PDF-filen från Excel-arbetsboken hade fler sidor
 
- - Diagrametiketter blev feljusterade och överlappade när kalkylbladet hanterades
+ Diagrametiketter blev feljusterade och överlappade när kalkylbladet hanterades

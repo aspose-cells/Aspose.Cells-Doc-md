@@ -1,17 +1,17 @@
 ﻿---
-title: Aspose.Cells för .NET 7.2.2 Release Notes
+title: Aspose.Cells for .NET 7.2.2 Release Notes
 type: docs
 weight: 60
 url: /sv/net/aspose-cells-for-net-7-2-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.2.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.2.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.2.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.2.2/)
 
 {{% /alert %}} 
 
 Vi är
- glad att kunna meddela Aspose.Cells för .NET v7.2.2!
+ glad att meddela Aspose.Cells for .NET v7.2.2!
 
 \1) Aspose.Cells 
 
@@ -48,7 +48,7 @@ Vi är
 
 - Export till PDF-diagram skiljer sig från Excel-version -2
 
- -Extra linjer är inbäddade i diagrammen
+-Extra linjer är inbäddade i diagrammen
 
 - Text omgiven av citattecken alternativ i CSV-fil
 - Anpassade egenskaper skadade med radbrytning

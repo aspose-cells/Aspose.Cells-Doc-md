@@ -44,7 +44,7 @@ url: /de/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47122|Ausnahme "Index außerhalb des Bereichs" beim Aktualisieren von Pivot-Tabellen|Ausnahme|
 |CELLSNET-47156|IndexOutOfRangeException beim Zugriff auf ExternalLink.IsReferred oder IsVisible|Ausnahme|
 |CELLSNET-47140|Ausnahme beim Laden von ODS in GridDesktop|Ausnahme|
-|CELLSNET-47105|Ausnahme beim Importieren von XML-Daten, bei der eine Spalte in der Tabelle nicht zugeordnet ist|Ausnahme|
+|CELLSNET-47105|Ausnahme beim Importieren von XML-Daten, bei der eine Spalte in der Tabelle nicht zugeordnet wurde|Ausnahme|
 |CELLSNET-47170|Ausnahme "Ungültige Umwandlung von 'DateTime' in 'Double'" beim Speichern einer Excel-Datei als PDF|Ausnahme|
 |CELLSNET-47152|Worksheet.Cells.EndCellInRow mit Fehler für die Datei|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**

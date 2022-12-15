@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.3.0
+title: Offentlig API Ändringar i Aspose.Cells 8.3.0
 type: docs
 weight: 110
 url: /sv/java/public-api-changes-in-aspose-cells-8-3-0/
@@ -91,7 +91,7 @@ Workbook book = new Workbook("sample.csv", options);
 
 {{< /highlight >}}
 
-### **Property Shape.Id tillagd**
+### **Egenskap Shape.Id tillagd**
 V8.3.0 har lagt till getter/setter för egenskapen Shape.Id för att unikt identifiera varje formobjekt i ett givet kalkylblad. Den här nya egenskapen hjälper också till att unikt identifiera diagramobjekt i ett kalkylblad som visas nedan.
 
 **Java**

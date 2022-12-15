@@ -146,7 +146,7 @@ xlsb读写数据透视表返工
 
 (CELLSNET-42275) - MS Excel 2007 中的自动调整行高问题
 
-(CELLSNET-42273) - 组合工作表重置表名
+(CELLSNET-42273) - 组合工作表重置表名称
 
 (CELLSNET-42242) - 使用 Worksheet.Copy 方法时，换行文本格式未正确复制
 

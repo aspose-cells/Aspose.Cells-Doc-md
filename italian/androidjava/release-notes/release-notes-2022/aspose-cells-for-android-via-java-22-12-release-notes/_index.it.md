@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 22.12 Note di rilascio
+title: Aspose.Cells for Android via Java 22.12 Note di rilascio
 type: docs
 weight: 1
 url: /it/java/aspose-cells-for-android-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 22.12.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 22.12.
 
 {{% /alert %}} 
 
@@ -39,7 +39,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-44970|Ottimizza l'effetto ombra|
 |CELLSJAVA-44967|Grafico getDataLabels().getText() che restituisce un valore diverso nella versione 22.6.0 e successive|
 |CELLSJAVA-44969|Converti Excel in HTML, le etichette dati visualizzano errori|
-|CELLSJAVA-44949|Trasparenza modificata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva PowerPoint|
+|CELLSJAVA-44949|La trasparenza è cambiata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva di PowerPoint|
 |CELLSJAVA-44985|Conversione da Excel a HTML: la legenda del grafico non viene visualizzata e l'area del tracciato viene troncata|
 |CELLSJAVA-44952|Problema con il metodo DataBar.toImage relativo alla larghezza|
 |CELLSJAVA-44986|Le immagini importate non sono allineate in linea quando le immagini sono in formato Div|
@@ -50,15 +50,15 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-44999| Aspose.Cells Le impostazioni di globalizzazione personalizzate non funzionano per la maggior parte della tabella pivot|
 |CELLSJAVA-44898|La lettura da GZIPInputStream a volte genera un falso errore "File danneggiato" nelle versioni 22.7 e successive|
 |CELLSJAVA-44881|Eccezione "java.lang.ArrayIndexOutOfBoundsException: 15070" durante il caricamento di un file XLS|
-|CELLSJAVA-44908|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il caricamento di file XLSB di grandi dimensioni|
+|CELLSJAVA-44908|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il caricamento di file XLSB di grandi dimensioni|
 |CELLSJAVA-44929|Regressione: "java.lang.NullPointerException" su Workbook.calculateFormula()|
 |CELLSJAVA-44927|Eccezione "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" durante la conversione di file Excel in HTML|
 |CELLSJAVA-44939|Errore "java.lang.StringIndexOutOfBoundsException: Indice stringa fuori intervallo: 0" durante il tentativo di leggere un file Excel|
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Modificato il limite di spostamento delle celle fuori dal foglio per l'inserimento di righe**
 
@@ -138,7 +138,7 @@ Usare invece SheetRender.GetPageSizeInch(System.Int32).
 
 ### **Elimina il metodo WorkbookRender.GetPageSize(System.Int32) obsoleto**
 
-Usare invece WorkbookRender.GetPageSizeInch(System.Int32).
+Utilizzare invece WorkbookRender.GetPageSizeInch(System.Int32).
 
 ### **Elimina l'enumerazione AutoShapeType.TextWave3 e AutoShapeType.TextWave4 obsoleta**
 

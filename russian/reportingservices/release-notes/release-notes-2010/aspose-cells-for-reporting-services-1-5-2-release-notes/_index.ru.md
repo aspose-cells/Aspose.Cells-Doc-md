@@ -1,36 +1,36 @@
 ﻿---
-title: Aspose.Cells для Reporting Services 1.5.2 Примечания к выпуску
+title: Aspose.Cells for Reporting Services 1.5.2 Примечания к выпуску
 type: docs
 weight: 20
 url: /ru/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для служб Reporting Services 1.5.2](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.5.2/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Reporting Services 1.5.2](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.5.2/)
 
 {{% /alert %}} 
 
- Мы рады объявить Aspose.Cells для Reporting Services 1.5.2!
+ Мы рады сообщить Aspose.Cells for Reporting Services 1.5.2!
 
  Что изменилось?
 
 
 
 -  Оптимизирует рендеринг для отчета с большими данными.
--  Устраняет проблему установки для Windows 7.
+- Устраняет проблему установки для Windows 7.
 -  Разрешает разбиение по страницам для элемента отчета Tablix.
 -  Управляет отрисовкой большего количества групп для Табликса.
 -  Снижает скорость использования памяти.
 
- Проблемы, решенные в Aspose.Cells для Reporting Services 1.5.2.
+ Вопросы, решаемые в Aspose.Cells for Reporting Services 1.5.2.
 
 |**Идентификатор проблемы** |**Составная часть** |**Резюме** |
 |:- |:- |:- |
 |16478 | Серверный компонент| Проблема в строке заголовка матричного отчета после экспорта в файл XLSX|
-|16170 | Серверный компонент| Aspose.Cells для Reporting Services — различные проблемы|
+|16170 | Серверный компонент| Aspose.Cells for Reporting Services - Различные вопросы|
 |16248 | Серверный компонент| Экспорт XLSX не работает должным образом|
 |16239 | Серверный компонент| Переименование параметров раскрывающегося списка в средстве просмотра отчетов|
 |16202 | Серверный компонент| Не работает корректно при экспорте в excel 2007|
-|16169 | Серверный компонент|Поддержка расширений рендеринга SSRS в интегрированном режиме SharePoint?|
+|16169 | Серверный компонент| Поддержка расширений рендеринга SSRS в интегрированном режиме SharePoint?|
 |15972 | Серверный компонент| Заголовки таблицы матриц не появляются после экспорта в файл XLSX|
 

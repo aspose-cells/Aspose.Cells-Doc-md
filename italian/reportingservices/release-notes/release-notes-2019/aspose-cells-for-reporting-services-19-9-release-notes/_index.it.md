@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Reporting Services 19.9 Note sulla versione
+title: Aspose.Cells for Reporting Services 19.9 Note di rilascio
 type: docs
 weight: 10
 url: /it/reportingservices/aspose-cells-for-reporting-services-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note sulla versione per Aspose.Cells per Reporting Services 19.9.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Services 19.9.
 
 {{% /alert %}} 
 
@@ -16,5 +16,5 @@ Questa pagina contiene le note sulla versione per Aspose.Cells per Reporting Ser
 |CELLSRS-562|Lo stile del bordo è impostato da una formula nei report esportati.|Insetto|
 |CELLSRS-559|Il report creato con la versione precedente non si aprirà.|Insetto|
 |CELLSRS-550|Errore di runtime 429 durante l'apertura del report dallo strumento client RS Aspose.Cells.|Insetto|
-|CELLSRS-543|Nessuna opzione di rendering dopo l'installazione di Aspose.Cells per Reporting Services.|Insetto|
+|CELLSRS-543|Nessuna opzione di rendering dopo l'installazione di Aspose.Cells for Reporting Services.|Insetto|
 

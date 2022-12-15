@@ -10,7 +10,7 @@ Questo argomento illustra l'aggiunta e la rimozione di collegamenti ipertestuali
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client. Per questo, lo API mette a disposizione le funzioni "addCelllink" e "delCelllink". I seguenti frammenti di codice illustrano l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client in GridWeb.
+Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client. Per questo, l'API fornisce le funzioni "addCelllink" e "delCelllink". I seguenti frammenti di codice illustrano l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client in GridWeb.
 
 ## Codice di esempio
 

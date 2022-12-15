@@ -9,7 +9,7 @@ Det finns olika typer av X-axlar. Medan Y-axeln är en värdetypsaxel, kan X-axe
  Våra exempeldata visas i[exempel på tabellfil](sample.png) Nedan. Den första kolumnen innehåller våra X-axeldata, som kan behandlas som kategorier eller som värden. Observera att siffrorna inte är jämnt fördelade, och de visas inte ens i numerisk ordning.
 
 ![todo:image_alt_text](sample.png)
-## **Hantera X- och kategoriaxeln som Microsoft Excel**
+## **Hantera X och kategoriaxel som Microsoft Excel**
 Vi kommer att visa dessa data på två typer av diagram, det första diagrammet är XY (Scatter) diagram X som värdeaxel, det andra diagrammet är linjediagram X som Kategoriaxel.
 
 ![todo:image_alt_text](compare.png)

@@ -16,7 +16,7 @@ url: /it/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45347|Rimuovi le impostazioni della stampante esistenti nel file Excel|Nuova caratteristica|
 |CELLSNET-45340|Implementa le opzioni Dimensione pagina personalizzata per il foglio di lavoro|Nuova caratteristica|
 |CELLSNET-45327|Supporta l'esportazione dei dati delle celle HTML in DataTable|Nuova caratteristica|
-|CELLSNET-45316|Supporta il funzionamento di GridWeb quando la modalità stato sessione ASP.NET è SQL Server|Nuova caratteristica|
+|CELLSNET-45316|Supporta il funzionamento di GridWeb quando la modalità di stato della sessione ASP.NET è SQL Server|Nuova caratteristica|
 |CELLSNET-45350|Errore OutOfMemory durante il rendering dell'immagine|Prestazione|
 |CELLSNET-45341|La conversione di XLS in SpreadsheetML con filtri corrompe il file di output|Prestazione|
 |CELLSNET-45217|Il salvataggio di Excel in PDF ruota l'immagine|Insetto|
@@ -44,8 +44,8 @@ url: /it/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45298|Le voci della legenda non sono nascoste correttamente nel grafico combinato|Insetto|
 |CELLSNET-45313|Eccezione durante l'aggiunta di un campo calcolato alla tabella pivot|Eccezione|
 |CELLSNET-45307|Errore da forma a immagine durante il rendering del foglio di lavoro in immagine|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà ExportTableOptions.ExportAsHtmlString**
 Esporta il valore della stringa HTML delle celle in DataTable.
 #### **Aggiunge il metodo PageSetup.Copy(PageSetup source,CopyOptions copyOptions).**
@@ -71,7 +71,7 @@ Si prega di controllare l'elenco degli argomenti della guida aggiunti nei docume
 - [Rimuovi le impostazioni della stampante esistente dei fogli di lavoro nel file Excel](/cells/it/net/remove-existing-printersettings-of-worksheets-in-excel-file/)
 - [Sposta la prima riga verso il basso quando inserisci le righe della tabella dati Cells](/cells/it/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
 - [Esporta il valore stringa HTML di Cells nel DataTable](/cells/it/net/export-html-string-value-of-the-cells-to-the-datatable/)
-- [Funzionamento di GridWeb quando la modalità stato sessione ASP.NET è SQL Server](/cells/it/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
+- [Funzionamento di GridWeb quando la modalità dello stato della sessione ASP.NET è SQL Server](/cells/it/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
 - [Abilita diverse modalità GridWeb](/cells/it/net/enable-different-gridweb-modes/)
 
 

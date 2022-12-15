@@ -20,7 +20,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 1. Öffne das**Fortschrittlich** Tab.
 1.  Ändern Sie die Einstellungen in der**Bearbeitungsoptionen** Sektion.
 
- Der folgende Screenshot zeigt die**Erweiterte Excel-Optionen** und hebt den Abschnitt hervor, um die anzugeben**Benutzerdefinierte Trennzeichen**.
+Der folgende Screenshot zeigt die**Erweiterte Excel-Optionen** und hebt den Abschnitt hervor, um die anzugeben**Benutzerdefinierte Trennzeichen**.
 
 ![todo: Bild_alt_Text](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 

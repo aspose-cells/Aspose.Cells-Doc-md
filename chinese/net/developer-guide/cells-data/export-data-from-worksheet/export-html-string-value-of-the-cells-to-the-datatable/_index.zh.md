@@ -9,7 +9,7 @@ url: /zh/net/export-html-string-value-of-the-cells-to-the-datatable/
 ## **将 Cells 的 HTML 字符串值导出到 DataTable**
 下面的示例代码说明了如何在将工作表中的数据导出到 DataTable 的同时将单元格的 HTML 字符串值导出到 DataTable。请参阅[示例 Excel 文件](45056025.xlsx)，它的屏幕截图和控制台输出以供参考。
 ## **截屏**
-![待办事项：图片_替代_文本](export-html-string-value-of-the-cells-to-the-datatable_1.png)
+![待办事项：图像_替代_文本](export-html-string-value-of-the-cells-to-the-datatable_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ExportHTMLStringValueOfCellsToDataTable.cs" >}}
 ## **控制台输出**

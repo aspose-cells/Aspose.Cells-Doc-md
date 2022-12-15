@@ -110,7 +110,7 @@ Aspose.Cells提供了一个功能[**添加填充颜色过滤器**](https://refer
 
 ##### **非空白**
 
-当要过滤包含任何文本的单元格时，使用[**匹配非空白**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int)过滤函数如下所示。示例文件可以从以下链接下载。
+当要过滤包含任何文本的单元格时，使用[**匹配非空白**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int)过滤功能如下所示。示例文件可以从以下链接下载。
 
 1. [空白.xlsx](72417324.xlsx)
 1. [FilteredNonBlank.xlsx](72417326.xlsx)

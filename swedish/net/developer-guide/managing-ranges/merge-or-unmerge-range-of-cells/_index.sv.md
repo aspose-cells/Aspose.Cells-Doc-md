@@ -3,7 +3,7 @@ title: Sammanfoga eller ta bort sammanslagningsintervall för Cells
 type: docs
 weight: 190
 url: /sv/net/merge-or-unmerge-range-of-cells/
-description: Merge och Unmerge Cells i ett intervall i Excel med C#-kod.
+description: Sammanfoga och ta bort Cells i ett intervall i Excel med C#-kod.
 keywords: c# merge and unmerge cells in a range, c# merge and unmerge cells in range, merge and unmerge cells in range with c#, merge and unmerge cells in range using c#, merge and unmerge cells in excel using c#, merge and unmerge cells in excel with c#, c# merge and unmerge cells in excel, c# merge cells in excel, c# unmerge cells in excel, merge cells in range with c#
 ---
 {{% alert color="primary" %}}

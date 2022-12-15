@@ -54,15 +54,15 @@ url: /it/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-41708|Problema con l'aggiunta di effetti 3D alle forme (TextBox) create utilizzando Aspose.Cells|Insetto|
 |CELLSNET-41164|Supporto SmartArt nel rendering da Excel a PDF|Insetto|
 |CELLSNET-40903|Problema con GlowEffect|Insetto|
-|CELLSNET-45006|Le celle unite sembrano essere separate durante il caricamento del foglio di calcolo esistente in GridWeb|Insetto|
+|CELLSNET-45006|Le celle unite sembrano essere separate durante il caricamento del foglio di calcolo esistente su GridWeb|Insetto|
 |CELLSNET-44802|Problema con la cella unita Copia/Incolla - Aspose.Cells.GridDesktop|Insetto|
 |CELLSNET-43962|WebWorksheet.GroupRows o GridWorkSheet.GroupRows non funziona come previsto|Insetto|
 |CELLSNET-40897|Foglio di calcolo con controlli del modulo|Insetto|
 |CELLSNET-45031|NullReferenceException in PivotTable.RefreshData con Slicer|Eccezione|
 |CELLSNET-45041|Eccezione durante il salvataggio di un file Excel|Eccezione|
 |CELLSNET-45016|Eccezione all'apertura di un file XLSX modello|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il setter per la proprietà LoadFilter.LoadDataFilterOptions per sostituire la variabile m_LoadDataFilterOptions**
 L'utente può modificare la proprietà LoadDataFilterOptions nell'implementazione di LoadFilter per modificare il comportamento del caricamento della cartella di lavoro.
 #### **Aggiunge la proprietà CellsHelper.SignificantDigits**

@@ -24,7 +24,7 @@ Muchos clientes de todo el mundo confían en las funciones completas de importac
 |Conversiones de alta calidad|Convierta de forma rápida y confiable entre varios formatos de documentos populares.|Sí|
 |Microsoft Libro de Excel (XLS)|La implementación de formato XLS más rápida y completa que puedas encontrar.|Sí|
 |Hoja de cálculo ML (XLSX, XML)| Aspose.Cells admite OOXML, Flat OPC y también Excel 2003 XML. Es más,<br>el componente admite todos los principales formatos de archivo de Excel 2007 y versiones posteriores, por ejemplo, XLSX, XLTX, XLSM, XLTM, XLSB, etc.|Sí|
-|Valor separado por comas (CSV)|Soporte completo del formato CSV para interactuar con una variedad de aplicaciones.|Sí|
+|Valor separado por comas (CSV)|Soporte integral del formato CSV para interactuar con una variedad de aplicaciones.|Sí|
 |HTML|Guardar como HTML está disponible.|Sí|
 |Documento abierto (ODS)|Aspose.Cells puede cargar y guardar documentos en formato de hoja de cálculo OpenDocument (.ods).|Sí|
 |Formato de documento portátil de Adobe (PDF)|Convierta cualquier hoja de cálculo a PDF con alta fidelidad.|Sí|

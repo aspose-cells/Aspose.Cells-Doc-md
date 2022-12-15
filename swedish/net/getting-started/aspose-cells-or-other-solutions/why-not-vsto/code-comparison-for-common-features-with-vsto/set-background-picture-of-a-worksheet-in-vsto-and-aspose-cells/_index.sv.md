@@ -10,7 +10,7 @@ Så här använder du en bakgrundsbild på ett kalkylblad:
 1. Använd bakgrundsbilden.
 1. Spara arbetsboken.
 
-Kodexemplen som följer visar hur man gör detta först med VSTO, med antingen C# eller Visual Basic, och sedan med Aspose.Cells för .NET, igen med antingen C# eller Visual Basic.
+Kodexemplen som följer visar hur man gör detta först med VSTO, med antingen C# eller Visual Basic, och sedan med Aspose.Cells for .NET, återigen med antingen C# eller Visual Basic.
 
 Kodexemplen i den här artikeln skapar ett kalkylblad med en återkommande bakgrundsbild, som den i skärmdumpen nedan.
 

@@ -32,6 +32,6 @@ Une feuille de calcul de concepteur est un fichier Excel créé à l'aide d'Exce
 
 ### **Marqueurs intelligents**
 
- De plus, Aspose.Cells vous permet d'ajouter[marqueurs intelligents](/cells/fr/python-net/smart-markers/) à la feuille de calcul du concepteur. Les marqueurs intelligents sont traités au moment de l'exécution à l'aide de la méthode Process de la classe WorkbookDesigner. Cela peut vous aider à écrire moins de code tout en obtenant d'excellents résultats.
+ De plus, Aspose.Cells vous permet d'ajouter[marqueurs intelligents](/cells/fr/python-net/smart-markers/)à la feuille de calcul du concepteur. Les marqueurs intelligents sont traités au moment de l'exécution à l'aide de la méthode Process de la classe WorkbookDesigner. Cela peut vous aider à écrire moins de code tout en obtenant d'excellents résultats.
 
 [En savoir plus sur les marqueurs intelligents](/cells/fr/python-net/smart-markers/).

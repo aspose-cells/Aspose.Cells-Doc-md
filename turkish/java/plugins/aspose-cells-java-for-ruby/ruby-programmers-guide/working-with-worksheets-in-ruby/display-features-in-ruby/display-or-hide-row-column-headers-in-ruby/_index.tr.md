@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells - Satır Sütun Başlıklarını Görüntüle veya Gizle**
 ### **Satır/Sütun Başlıklarını Gizleme**
- kullanarak satır/sütun başlıklarını gizlemek için**Yakut için Aspose.Cells Java** , aramak**DisplayHideRowColumnHeaders** modül.
+kullanarak satır/sütun başlıklarını gizlemek için**Yakut için Aspose.Cells Java** , aramak**DisplayHideRowColumnHeaders** modül.
 
 **Yakut Kodu**
 

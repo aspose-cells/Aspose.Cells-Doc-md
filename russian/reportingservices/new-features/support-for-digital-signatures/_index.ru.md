@@ -10,16 +10,16 @@ url: /ru/reportingservices/support-for-digital-signatures/
 
  Вы можете создать личную цифровую подпись с помощью Microsoft Selfcert.exe или любого другого инструмента, либо вы можете приобрести цифровую подпись. Чтобы подписать электронную таблицу, добавьте подпись к своим книгам после создания цифровой подписи.
 
- Aspose.Cells для служб Reporting Services поддерживает цифровые подписи.
+ Aspose.Cells for Reporting Services поддерживает цифровые подписи.
 
 {{% /alert %}} 
 ### **Работа с цифровыми подписями**
 #### **Поддерживаемые форматы Excel для цифровых подписей**
-Aspose.Cells для служб Reporting Services поддерживает цифровые подписи при экспорте в форматы файлов Excel 2007 и ODS.
+Aspose.Cells for Reporting Services поддерживает цифровые подписи при экспорте в форматы файлов Excel 2007 и ODS.
 #### **Настройка цифровых подписей**
 **Aspose.Cells.ReportingServices.xml** файл содержит информацию о конфигурации и текст цифровой подписи в<DigitalSignature> ярлык:
 
-- Если цифровая подпись выключена, Aspose.Cells для служб Reporting Services отключает функцию цифровой подписи.
+- Когда цифровая подпись выключена, Aspose.Cells for Reporting Services отключает функцию цифровой подписи.
  Например:
 
 {{< highlight "java" >}}

@@ -6,7 +6,7 @@ url: /sv/net/hypertext-markup-language-format/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells kan användas för att spara dina Excel-arbetsböcker i HTML-format. De exporterade HTML-arbetsböckerna är Microsoft Excel-orienterade, dvs de liknar dem som exporteras av Microsoft Excel. Du kan också skapa arbetsböcker från HTML men denna HTML bör vara Excel-orienterad.
+Aspose.Cells kan användas för att spara dina Excel-arbetsböcker i HTML-format. De exporterade HTML-arbetsböckerna är Microsoft Excel-orienterade, dvs de liknar dem som exporterades av Microsoft Excel. Du kan också skapa arbetsböcker från HTML men denna HTML bör vara Excel-orienterad.
 
 {{% /alert %}} 
 ## **HTML i Aspose.Cells**
@@ -19,7 +19,7 @@ Aspose-lösningen stöder grundligt följande dokumentfunktioner vid konverterin
 - Bilder, textrutor och ritningsformer
 - Hyperlänkar
 ### **Laddar HTML inuti Workbook-objektet**
- Se underavsnittet**Öppna HTML-filer** i den här artikeln som förklarar hur man laddar HTML inuti Workbook-objektet.
+ Se underavsnittet**Öppna HTML-filer** den här artikeln som förklarar hur man laddar HTML inuti Workbook-objektet.
 
 - [Öppna filer](/cells/sv/net/opening-files-with-different-formats/#openingfileswithdifferentformats-openinghtmlfiles)
 ### **Spara Excel-fil i HTML**

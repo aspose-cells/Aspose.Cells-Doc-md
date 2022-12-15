@@ -26,7 +26,7 @@ Le API Aspose.Cells forniscono funzionalità per la personalizzazione di temi e 
 
 L'esempio seguente mostra come ottenere e impostare i colori del tema.
 
-L'esempio seguente utilizza un file XLSX modello, ottiene i colori per i diversi tipi di colore del tema, modifica i colori e salva il file Excel Microsoft.
+L'esempio seguente utilizza un file XLSX modello, ottiene i colori per i diversi tipi di colore del tema, modifica i colori e salva il file Microsoft Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSetThemeColors-GetSetThemeColors.java" >}}
 

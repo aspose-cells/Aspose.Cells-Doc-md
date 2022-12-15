@@ -15,7 +15,7 @@ url: /es/cpp/cells-formatting/
 
  Si desea establecer el estilo de una sola celda, utilice[ICell->Establecer EstiloI()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#afa3d5b2aa5e90b286effc9e92de59dd5) método y si desea establecer el estilo de un rango de celdas, utilice[IRange->AplicarIEstilo()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_range#aaad6703b803565b674999bbaf5eed3a0)método.
 ## **Código de muestra**
- El siguiente código de ejemplo da formato a la celda C4 de la hoja de trabajo de varias maneras y la captura de pantalla muestra el[archivo de salida de Excel](21266438.xlsx)generado por él para su referencia.
+ El siguiente código de ejemplo da formato a la celda C4 de la hoja de trabajo de varias maneras y la captura de pantalla muestra el[archivo de salida de Excel](21266438.xlsx) generado por él para su referencia.
 
 ![todo:imagen_alternativa_texto](cells-formatting_1.png)
 

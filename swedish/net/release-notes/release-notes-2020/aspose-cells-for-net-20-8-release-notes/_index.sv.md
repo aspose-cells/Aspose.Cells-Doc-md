@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells för .NET 20.8 Release Notes
+title: Aspose.Cells for .NET 20.8 Release Notes
 type: docs
 weight: 9
 url: /sv/net/aspose-cells-for-net-20-8-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 20.8](https://www.nuget.org/packages/Aspose.Cells/20.8.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 20.8](https://www.nuget.org/packages/Aspose.Cells/20.8.0).
 
 {{% /alert %}}
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47524|Stöd slicers i Excel-tabeller|Ny funktion|
-|CELLSNET-47512|Klient-API för direkt teckensnittsinställning för GridWeb|Ny funktion|
-|CELLSNET-47513|Client API för att lägga till/ta bort hyperlänkar för GridWeb|Ny funktion|
+|CELLSNET-47512|Klient API för direkt teckensnittsinställning för GridWeb|Ny funktion|
+|CELLSNET-47513|Klient API för att lägga till/ta bort hyperlänkar för GridWeb|Ny funktion|
 |CELLSNET-47514|Lägg till egenskapen ShowAddButton för att stödja lägg till/ta bort kalkylblad för GridWeb|Ny funktion|
 |CELLSNET-43975|Stöd för OTF-teckensnittstyper med Aspose.Cells API:er för renderingsändamål|Ny funktion|
 |CELLSNET-47445|Pivottabellen visas inte när den sparas som ODS-fil|Ny funktion|
@@ -64,9 +64,9 @@ url: /sv/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-47530|Undantag "Indragsnivån måste vara mellan 0 och 250" när en Excel-fil renderas till PDF|Undantag|
 |CELLSNET-47541|Undantag "Ogiltigt cellnamn" när en XLSX-fil laddas|Undantag|
 
-### **Public API och bakåtinkompatibla ändringar**
+### **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 #### **Markerar gränssnittet ICustomFunction som föråldrat.**
 
@@ -74,19 +74,19 @@ Följande är en lista över eventuella ändringar som gjorts i det offentliga A
 
 #### **Markerar egenskapen CalculationOptions.CustomFunction som föråldrad.**
 
-Snälla använd**AbstractCalculation Engine** istället för**ICustomFunction** av egenskapen CalculationOptions.CustomEngine.
+ Snälla använd**AbstractCalculation Engine** istället för**ICustomFunction** av egenskapen CalculationOptions.CustomEngine.
 
 #### **Markerar Workbook.CalculateFormula(bool, ICustomFunction)-metoden som föråldrad.**
 
-Snälla använd**Workbook.CalculateFormula(CalculationOptions)** metod istället.
+ Snälla använd**Workbook.CalculateFormula(CalculationOptions)** metod istället.
 
 #### **Markerar Worksheet.CalculateFormula(bool, bool, ICustomFunction)-metoden som föråldrad.**
 
-Snälla använd**Worksheet.CalculateFormula(CalculationOptions, bool)** metod istället.
+ Snälla använd**Worksheet.CalculateFormula(CalculationOptions, bool)** metod istället.
 
 #### **Markerar Cell. Beräkna (bool, ICustomFunction)-metoden som föråldrad.**
 
-Snälla använd**Cell. Beräkna (Beräkningsalternativ)** metod istället.
+ Snälla använd**Cell. Beräkna (Beräkningsalternativ)** metod istället.
 
 #### **Lägger till DocxSaveOptions-klassen och SaveFormat.Docx enum**
 

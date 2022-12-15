@@ -35,7 +35,7 @@ Följande kodavsnitt visar hur man ställer in diagramområdet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartLines-1.cs" >}}
 ### **Tillämpa Microsoft Excel 2007/2010-teman på diagram**
- Utvecklare kan använda olika Microsoft Excel-teman/färger på[Seriekollektion](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)eller andra diagramobjekt som visas nedan i exemplet.
+ Utvecklare kan tillämpa olika Microsoft Excel-teman/färger på[Seriekollektion](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)eller andra diagramobjekt som visas nedan i exemplet.
 
 
 

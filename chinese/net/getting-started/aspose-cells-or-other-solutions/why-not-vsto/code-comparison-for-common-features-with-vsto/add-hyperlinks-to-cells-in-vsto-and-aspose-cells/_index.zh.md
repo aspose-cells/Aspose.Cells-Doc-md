@@ -18,7 +18,7 @@ url: /zh/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 
 代码示例生成一个 Excel 文件，该文件在第一个工作表的单元格 A1 中有一个超链接。
 
-![待办事项：图片_替代_文本](picture1.png)
+![待办事项：图像_替代_文本](picture1.png)
 
 一个超链接被添加到单元格 A1。
 
@@ -91,5 +91,5 @@ workbook.Save("Hyperlink_test.xls");
 ## **下载示例代码**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/下载)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/下载）
 - [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\)。压缩）

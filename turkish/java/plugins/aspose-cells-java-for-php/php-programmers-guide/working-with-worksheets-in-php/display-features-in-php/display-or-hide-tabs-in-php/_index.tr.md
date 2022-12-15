@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells - Sekmeleri Görüntüle veya Gizle**
 ### **Sekmeleri Gizleme**
- kullanarak sekmeleri gizlemek için**PHP için Aspose.Cells Java** , aramak**sekmeleri göster** modül.
+ kullanarak sekmeleri gizlemek için**Aspose.Cells Java for PHP** , aramak**sekmeleri göster** modül.
 
 **PHP Kodu**
 

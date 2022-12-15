@@ -20,7 +20,7 @@ url: /zh/net/developer-guide/
         </ul>
         <p>打开</p>
         <ul>
-            <li><a href="/cells/zh/net/different-ways-to-open-files/">打开文件的不同方法</a></li>
+            <li><a href="/cells/zh/net/different-ways-to-open-files/">打开文件的不同方式</a></li>
             <li><a href="/cells/zh/net/opening-different-microsoft-excel-versions-files/">打开不同的 Microsoft Excel 版本文件</a></li>
             <li><a href="/cells/zh/net/opening-files-with-different-formats/">打开不同格式的文件</a></li>
             <li><a href="/cells/zh/net/get-warnings-while-loading-excel-file/">加载 Excel 文件时收到警告</a></li>

@@ -43,7 +43,7 @@ Klasse RowsAndColumns:
 
  Arbeitsmappe = Arbeitsmappe (dataDir + 'Book1.xls')
 
- # Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+ Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 
  Arbeitsblatt = Arbeitsmappe.getWorksheets().get(0)
 
@@ -55,7 +55,7 @@ Klasse RowsAndColumns:
 
  # Speichern der geänderten Excel-Datei im Standardformat (dh Excel 2003).
 
-workbook.save(dataDir + "Zeilen kopieren.xls")
+ workbook.save(dataDir + "Zeilen kopieren.xls")
 
  print "Zeilen erfolgreich kopieren."
 
@@ -69,7 +69,7 @@ workbook.save(dataDir + "Zeilen kopieren.xls")
 
  Arbeitsmappe = Arbeitsmappe()
 
- # Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+ Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 
  Arbeitsblatt = Arbeitsmappe.getWorksheets().get(0)
 

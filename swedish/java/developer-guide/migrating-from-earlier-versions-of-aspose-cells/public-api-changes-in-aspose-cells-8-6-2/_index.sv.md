@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.6.2
+title: Offentlig API Ändringar i Aspose.Cells 8.6.2
 type: docs
 weight: 220
 url: /sv/java/public-api-changes-in-aspose-cells-8-6-2/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för återuppringning med smarta markörer**
-Den här versionen av Aspose.Cells för Java API har exponerat WorkbookDesigner.CallBack-fältet och ISmartMarkerCallBack-gränssnittet som tillsammans gör det möjligt att[få meddelanden om cellreferens och/eller smartmarkör som bearbetas](/cells/sv/java/getting-notifications-while-merging-data-with-smart-markers/) . Följande kodbit demonstrerar användningen av ISmartMarkerCallBack-gränssnittet för att definiera en ny klass som hanterar call back for WorkbookDesigner.process-metoden.
+Den här versionen av Aspose.Cells for Java API har exponerat WorkbookDesigner.CallBack-fältet och ISmartMarkerCallBack-gränssnittet som tillsammans gör det möjligt att[få meddelanden om cellreferens och/eller smartmarkör som bearbetas](/cells/sv/java/getting-notifications-while-merging-data-with-smart-markers/) . Följande kodbit demonstrerar användningen av ISmartMarkerCallBack-gränssnittet för att definiera en ny klass som hanterar call back for WorkbookDesigner.process-metoden.
 
 **Java**
 
@@ -83,7 +83,7 @@ report.process(false);
 
 {{< /highlight >}}
 ### **Method Chart.toPdf tillagd**
-Aspose.Cells för Java 8.6.2 har exponerat metoden Chart.toPdf som kan användas för att direkt rendera diagramformen till PDF-format. Nämnda metod accepterar för närvarande en parameter av typen String som filsökvägsplats för att lagra den resulterande filen på disken.
+Aspose.Cells for Java 8.6.2 har exponerat metoden Chart.toPdf som kan användas för att direkt återge diagramformen till PDF-format. Nämnda metod accepterar för närvarande en parameter av typen String som filsökvägsplats för att lagra den resulterande filen på disken.
 
 Följande är det enkla användningsscenariot.
 
@@ -109,7 +109,7 @@ chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
 ### **Method Workbook.removeUnusedStyles tillagd**
- Aspose.Cells för Java 8.6.2 har avslöjat metoden Workbook.removeUnusedStyles som kan användas för att[ta bort alla oanvända Style-objekt från poolen av stilar](/cells/sv/java/remove-unused-styles-inside-the-workbook/). 
+ Aspose.Cells for Java 8.6.2 har exponerat metoden Workbook.removeUnusedStyles som kan användas för att[ta bort alla oanvända Style-objekt från poolen av stilar](/cells/sv/java/remove-unused-styles-inside-the-workbook/). 
 
 Följande är det enkla användningsscenariot.
 
@@ -145,7 +145,7 @@ Style style = book.getWorksheets().get(0).getCells().getStyle();
 
 {{< /highlight >}}
 ### **Händelser tillagda för GridWeb**
-Aspose.Cells.GridWeb för Java 8.6.2 har avslöjat följande två nya händelser.
+Aspose.Cells.GridWeb for Java 8.6.2 har avslöjat följande två nya händelser.
 
 1. AjaxCallFinished: Avfyras när AJAX-uppdateringen av kontrollen är klar. (EnableAJAX ska vara satt till true).
 1. CellModifiedOnAjax: Avfyras när cellen modifieras i AJAX-anrop.

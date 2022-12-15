@@ -5,7 +5,7 @@ weight: 40
 url: /sv/python-java/count-the-number-of-cells-in-the-worksheet/
 ---
 ## **Räkna antalet celler i arbetsbladet**
-Aspose.Cells för Python via Java ger möjlighet att räkna antalet celler i kalkylbladet. För detta tillhandahåller API:et[Cells.getCount](https://reference.aspose.com/cells/python/asposecells.api/cells#Count)() eller[Cells.getCountLarge](https://reference.aspose.com/cells/python/asposecells.api/cells#CountLarge)() egenskaper.
+Aspose.Cells for Python via Java ger möjlighet att räkna antalet celler i kalkylbladet. För detta tillhandahåller API[Cells.getCount](https://reference.aspose.com/cells/python/asposecells.api/cells#Count)() eller[Cells.getCountLarge](https://reference.aspose.com/cells/python/asposecells.api/cells#CountLarge)() egenskaper.
 
 Följande kodavsnitt visar hur du använder[Cells.getCount](https://reference.aspose.com/cells/python/asposecells.api/cells#Count)() eller[Cells.getCountLarge](https://reference.aspose.com/cells/python/asposecells.api/cells#CountLarge)() egenskaper för att få antalet celler i ett kalkylblad.
 

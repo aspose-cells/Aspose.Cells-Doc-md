@@ -8,7 +8,7 @@ url: /zh/net/convert-excel-to-html-with-headings/
 
 Aspose.Cells 提供了在将 Excel 转换为 HTML 时导出标题的选项。为此，您可以设置[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportheadings)财产给**真的**.默认值[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportheadings)财产是**错误的**.下图显示了以下代码生成的输出文件。
 
-![待办事项：图片_替代_文本](convert-excel-to-html-with-headings_1.jpg)
+![待办事项：图像_替代_文本](convert-excel-to-html-with-headings_1.jpg)
 
 ## **示例代码**
 

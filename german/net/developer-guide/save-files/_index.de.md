@@ -13,7 +13,7 @@ Aspose.Cells ermöglicht das Erstellen und Speichern von Dateien. In diesem Arti
 
 ## **Verschiedene Möglichkeiten zum Speichern von Dateien**
 
- Aspose.Cells bietet die**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** die eine Microsoft Excel-Datei darstellt und die Eigenschaften und Methoden bereitstellt, die zum Arbeiten mit Excel-Dateien erforderlich sind. Das**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)**Klasse bietet die**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Methode zum Speichern von Excel-Dateien. Das**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**-Methode verfügt über viele Überladungen, die zum Speichern von Dateien auf unterschiedliche Weise verwendet werden.
+ Aspose.Cells bietet die**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** die eine Microsoft Excel-Datei darstellt und die Eigenschaften und Methoden bereitstellt, die zum Arbeiten mit Excel-Dateien erforderlich sind. Das**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Klasse bietet die**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Methode zum Speichern von Excel-Dateien. Das**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**-Methode verfügt über viele Überladungen, die zum Speichern von Dateien auf unterschiedliche Weise verwendet werden.
 
  Das Dateiformat, in dem die Datei gespeichert wird, wird von festgelegt**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**Aufzählung
 
@@ -38,7 +38,7 @@ Aspose.Cells ermöglicht das Erstellen und Speichern von Dateien. In diesem Arti
 
 ## **Speichern von Dateien in verschiedenen Formaten**
 
- Um Dateien an einem Speicherort zu speichern, geben Sie den Dateinamen (komplett mit Speicherpfad) und das gewünschte Dateiformat (aus der**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** Aufzählung) beim Aufrufen der**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Objekt**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode.
+ Um Dateien an einem Speicherort zu speichern, geben Sie den Dateinamen (komplett mit Speicherpfad) und das gewünschte Dateiformat (aus der**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**Aufzählung) beim Aufrufen der**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Objekt**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
@@ -84,7 +84,7 @@ Wir können die Dateien im offenen Office-Format speichern: ODS, SXC, FODS, OTS 
 
 ## **Excel-Datei als JSON oder XML speichern**
 
-JSON (JavaScript Object Notation) ist ein offenes Standarddateiformat zum Teilen von Daten, das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. JSON-Dateien werden mit der Erweiterung .json gespeichert. JSON erfordert weniger Formatierung und ist eine gute Alternative zu XML. JSON ist von JavaScript abgeleitet, aber ein sprachunabhängiges Datenformat. Das Generieren und Parsen von JSON wird von vielen modernen Programmiersprachen unterstützt. application/json ist der Medientyp, der für JSON verwendet wird.
+JSON (JavaScript Object Notation) ist ein offenes Standarddateiformat zum Teilen von Daten, das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. JSON-Dateien werden mit der Erweiterung .json gespeichert. JSON erfordert weniger Formatierung und ist eine gute Alternative für XML. JSON ist von JavaScript abgeleitet, aber ein sprachunabhängiges Datenformat. Das Generieren und Parsen von JSON wird von vielen modernen Programmiersprachen unterstützt. application/json ist der Medientyp, der für JSON verwendet wird.
 
 Aspose.Cells unterstützt das Speichern von Dateien in JSON oder XML.
 

@@ -6,7 +6,7 @@ url: /zh/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- JasperReports 的 Aspose.Cells 可作为免费、无时间限制的评估从[下载页面](https://downloads.aspose.com/cells/jasperreports).该产品的评估版和许可版是同一个下载。
+ Aspose.Cells for JasperReports 可作为免费、无时间限制的评估从[下载页面](https://downloads.aspose.com/cells/jasperreports).该产品的评估版和许可版是同一个下载。
 
 当您对评估版感到满意时，您可以[购买许可证](https://purchase.aspose.com/).确保您理解并同意许可条款。
 
@@ -79,8 +79,8 @@ license.setLicense(fstream);
 
 **Aspose.Cells for JasperReports 在评估模式下注入评估工作表** 
 
-![待办事项：图片_替代_文本](licensing_1.png)
+![待办事项：图像_替代_文本](licensing_1.png)
 
 **如果许可证有效，则没有评估工作表** 
 
-![待办事项：图片_替代_文本](licensing_2.png)
+![待办事项：图像_替代_文本](licensing_2.png)

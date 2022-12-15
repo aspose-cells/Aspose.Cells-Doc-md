@@ -39,11 +39,11 @@ Un bordo è composto da una linea. Modificando il tipo di linea, cambia l'aspett
 
 - **Nessuno** , non rappresenta alcun confine
 - **Sottile** , rappresenta il bordo a linea continua
-- **medio** , rappresenta il bordo della linea continua con larghezza della linea uguale a 2f
+- **medio** , rappresenta il bordo della linea continua con larghezza della linea pari a 2f
 - **Tratteggiato** , rappresenta il bordo della linea tratteggiata
 - **Punteggiato** , rappresenta il bordo della linea tratteggiata
 - **Spesso** , rappresenta il bordo della linea continua con larghezza della linea uguale a 3f
-- **MedioTratteggiato** , rappresenta il bordo della linea tratteggiata con larghezza della linea uguale a 2f
+- **MedioTratteggiato** , rappresenta il bordo della linea tratteggiata con larghezza della linea pari a 2f
 - **ThinDashDotted** , rappresenta il bordo della linea tratteggiata
 - **MediumDashDotted** , rappresenta il bordo della linea tratteggiata tratteggiata con larghezza della linea pari a 2f
 - **ThinDashDotDotted** , rappresenta il bordo della linea tratteggiata punto punto

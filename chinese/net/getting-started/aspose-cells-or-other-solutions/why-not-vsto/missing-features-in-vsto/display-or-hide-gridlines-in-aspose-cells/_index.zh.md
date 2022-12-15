@@ -22,13 +22,13 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls：修改前的工作表视图** 
 
-![待办事项：图片_替代_文本](display-or-hide-gridlines-in-aspose-cells_1.png)
+![待办事项：图像_替代_文本](display-or-hide-gridlines-in-aspose-cells_1.png)
 
 Book1.xls 文件是使用 Workbook 类打开的，第一个工作表上的网格线是隐藏的。修改后的文件保存为 output.xls。
 
 **Output.xls：修改后的工作表** 
 
-![待办事项：图片_替代_文本](display-or-hide-gridlines-in-aspose-cells_2.png)
+![待办事项：图像_替代_文本](display-or-hide-gridlines-in-aspose-cells_2.png)
 
 **C#**
 

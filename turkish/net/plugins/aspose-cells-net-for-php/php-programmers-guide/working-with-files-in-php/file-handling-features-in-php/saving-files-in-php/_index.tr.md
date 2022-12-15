@@ -1,5 +1,5 @@
 ﻿---
-title: PHP'de Dosyaları Kaydetme
+title: PHP'de Dosyaları Kaydetmek
 type: docs
 weight: 20
 url: /tr/net/saving-files-in-php/

@@ -18,5 +18,5 @@ url: /it/java/aspose-cells-java-1-7-0-0-new-release-release-notes/
  Supporta l'aggiunta di una tabella pivot
  Migliora le prestazioni dell'elaborazione del marcatore intelligente
  Risolve il bug di copiare il foglio di lavoro
-Corregge il bug delle DataLabel del grafico
+ Corregge il bug delle DataLabel del grafico
  Altri miglioramenti e correzioni dalla v1.6

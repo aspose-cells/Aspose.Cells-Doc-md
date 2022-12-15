@@ -79,7 +79,7 @@ Le fichier book1.xls est ouvert en appelant le[**Cahier**](https://reference.asp
 
 ## **Volets divisés**
 
-Si vous devez diviser l'écran pour obtenir deux vues différentes dans la même feuille de calcul, divisez les volets. Microsoft Excel offre une fonctionnalité très pratique qui vous permet d'afficher plus d'une copie de votre feuille de calcul et de pouvoir faire défiler chaque volet de votre feuille de calcul indépendamment : les volets fractionnés.
+Si vous devez diviser l'écran pour obtenir deux vues différentes dans la même feuille de calcul, divisez les volets. Microsoft Excel offre une fonctionnalité très pratique qui vous permet de visualiser plus d'une copie de votre feuille de calcul et de pouvoir faire défiler chaque volet de votre feuille de calcul indépendamment : les volets fractionnés.
 
 Les vitres fonctionnent simultanément. Si vous faites un changement dans l'un, le changement apparaît simultanément dans l'autre. Aspose.Cells fournit la fonctionnalité de volets divisés pour les utilisateurs.
 

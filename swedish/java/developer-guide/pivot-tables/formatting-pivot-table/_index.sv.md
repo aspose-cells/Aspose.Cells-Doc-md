@@ -26,7 +26,7 @@ Kodexemplet som följer illustrerar hur du ställer in ett antal formateringsalt
 
 ### **Ställa in PivotFields-formatalternativ**
 
-Förutom att styra formateringen av den övergripande pivottabellen, tillåter Aspose.Cells för Java finjusterad kontroll av formateringen för radfält, kolumnfält och sidfält.
+Förutom att styra formateringen av den övergripande pivottabellen tillåter Aspose.Cells for Java finjusterad kontroll av formateringen för radfält, kolumnfält och sidfält.
 
 #### **Ställa in format för rad-, kolumn- och sidfält**
 

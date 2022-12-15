@@ -14,7 +14,7 @@ url: /tr/net/aspose-cells-net-for-sitefinity/
 ## **Başlarken**
 ### **giriiş**
 #### **Sitefinity nedir?**
-Sitefinity, işletme profesyonelleri için sezgisel web içeriği yönetimi ve güçlü geliştirme ortamı sunan modern bir ASP.NET tabanlı web İçerik Yönetim Sistemidir (CMS). İşte bu popüler CMS için oluşturduğumuz projeler.
+Sitefinity, işletme profesyonelleri için sezgisel web içeriği yönetimi ve güçlü geliştirme ortamı sağlayan modern bir ASP.NET tabanlı web İçerik Yönetim Sistemidir (CMS). İşte bu popüler CMS için oluşturduğumuz projeler.
 #### **Aspose.Cells for .NET**
 Aspose.Cells for .NET, doğrudan .NET uygulamalarınız içinde çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmenizi sağlayan gelişmiş bir sınıf kitaplığıdır for .NET.
 

@@ -52,8 +52,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.11.
 |CELLSNET-45751|La proprietà ExportTableOptions.Indexes utilizzata nel metodo ExportDataTable() causa un'eccezione|Eccezione|
 |CELLSNET-45726|Eccezione durante il caricamento del file XLS di output (con oggetti OLE, immagini, ecc. esclusi)|Eccezione|
 |CELLSNET-45723|R1C1Formula genera un'eccezione se la formula contiene il carattere "[" ]|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo Shape.GetResultOfSmartArt()**
 Converti la smart art in una forma di gruppo.
 #### **Aggiunge la proprietà Shape.IsSmartArt**

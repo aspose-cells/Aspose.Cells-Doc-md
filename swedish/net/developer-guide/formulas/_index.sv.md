@@ -8,7 +8,7 @@ description: Aspose.Cells kan helt enkelt hämta, ställa in och beräkna formle
 ---
 ## **Introduktion**
 
-En av Microsoft Excels övertygande funktioner är dess förmåga att bearbeta data med formler och funktioner. Microsoft Excel tillhandahåller en uppsättning inbyggda funktioner och formler som hjälper användare att snabbt utföra komplexa beräkningar. Aspose.Cells tillhandahåller också en enorm uppsättning inbyggda funktioner och formler som hjälper utvecklare att enkelt beräkna värden. Aspose.Cells stöder även tilläggsfunktioner. Dessutom stöder Aspose.Cells array och R1C1-formler i Aspose.Cells.
+En av Microsoft Excels övertygande egenskaper är dess förmåga att bearbeta data med formler och funktioner. Microsoft Excel tillhandahåller en uppsättning inbyggda funktioner och formler som hjälper användare att snabbt utföra komplexa beräkningar. Aspose.Cells tillhandahåller också en enorm uppsättning inbyggda funktioner och formler som hjälper utvecklare att enkelt beräkna värden. Aspose.Cells stöder även tilläggsfunktioner. Dessutom stöder Aspose.Cells array och R1C1-formler i Aspose.Cells.
 
 ## **Använda formler och funktioner**
 
@@ -23,11 +23,11 @@ En av Microsoft Excels övertygande funktioner är dess förmåga att bearbeta d
 
 ## **Använda inbyggda funktioner**
 
- Inbyggda funktioner eller formler tillhandahålls som färdiga funktioner för att minska utvecklarnas ansträngningar och tid. Ser[en lista över inbyggda funktioner](/cells/sv/net/supported-formula-functions/)stöds av Aspose.Cells. Funktionerna är listade i alfabetisk ordning. Fler funktioner kommer att stödjas i framtiden.
+ Inbyggda funktioner eller formler tillhandahålls som färdiga funktioner för att minska utvecklarnas ansträngningar och tid. Ser[en lista över inbyggda funktioner](/cells/sv/net/supported-formula-functions/) stöds av Aspose.Cells. Funktionerna är listade i alfabetisk ordning. Fler funktioner kommer att stödjas i framtiden.
 
  Aspose.Cells stöder de flesta formler eller funktioner som erbjuds av Microsoft Excel. Utvecklare kan använda dessa formler genom API eller[designerkalkylblad](/cells/sv/net/what-is-a-designer-spreadsheet/). Aspose.Cells stöder en stor uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistik, databas, uppslagsformler och referensformler.
 
- Använd[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Formel**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) egenskap för att lägga till en formel i en cell.**Komplexa formler**, till exempel
+ Använd[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Formel**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)egenskap för att lägga till en formel i en cell.**Komplexa formler**, till exempel
 
 {{< highlight "java" >}}
 
@@ -65,7 +65,7 @@ Vissa Microsoft Excel-funktioner returnerar matriser med värden. För att berä
 
 - **Matrisformel**, matrisformeln.
 - **Antal rader**antalet rader som ska fyllas i resultatet av matrisformeln.
-- **Antal kolumner**, antalet kolumner som ska fyllas i resultatet av matrisformeln.
+- **Antal kolumner**antalet kolumner som ska fyllas i resultatet av matrisformeln.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 

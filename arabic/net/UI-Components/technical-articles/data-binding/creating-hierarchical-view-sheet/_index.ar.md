@@ -47,7 +47,7 @@ url: /ar/net/creating-hierarchical-view-sheet/
 
 
 
- يبدو الآن مصمم DataSet بالشكل التالي:
+ يبدو مصمم DataSet الآن كما يلي:
 
 ![ما يجب القيام به: image_بديل_نص](creating-hierarchical-view-sheet_4.png)
 ### **ربط ورقة العمل**

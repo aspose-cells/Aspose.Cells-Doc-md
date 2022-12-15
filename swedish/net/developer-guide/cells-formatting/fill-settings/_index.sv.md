@@ -6,7 +6,7 @@ url: /sv/net/cells-fill-settings/
 ---
 ## **Färger och bakgrundsmönster**
 
-Microsoft Excel kan ställa in förgrunds- (kontur) och bakgrunds- (fyllnads) färger för celler och bakgrundsmönster.
+Microsoft Excel kan ställa in förgrunds- (kontur) och bakgrunds- (fyll)färger för celler och bakgrundsmönster.
 
 Aspose.Cells stöder även dessa funktioner på ett flexibelt sätt. I det här ämnet lär vi oss att använda dessa funktioner med Aspose.Cells.
 
@@ -29,7 +29,7 @@ Aspose.Cells stöder även dessa funktioner på ett flexibelt sätt. I det här 
 |Ingen|Representerar ingen bakgrund|
 |ReverseDiagonalStripe|Representerar omvänt diagonalt randmönster|
 |Fast|Representerar ett fast mönster|
-|ThickDiagonal Crosshatch|Representerar ett tjockt diagonalt rutmönster|
+|ThickDiagonal Crosshatch|Representerar ett tjockt diagonalt kryssmönster|
 |ThinDiagonal Crosshatch|Representerar ett tunt diagonalt streckmönster|
 |ThinDiagonalStripe|Representerar ett tunt diagonalt randmönster|
 |ThinHorizontal Crosshatch|Representerar ett tunt horisontellt streckmönster|
@@ -55,7 +55,7 @@ I exemplet nedan är förgrundsfärgen för A1-cellen inställd men A2 är konfi
 
 {{% /alert %}}
 
-### **Tillämpa övertoningsfyllningseffekter**
+### **Använda Gradient Fill Effects**
 
  För att applicera önskade gradientfyllningseffekter på cellen, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)metod i enlighet därmed.
 
@@ -63,7 +63,7 @@ I exemplet nedan är förgrundsfärgen för A1-cellen inställd men A2 är konfi
 
 ## **Färger och palett**
 
-En palett är antalet tillgängliga färger för att skapa en bild. Användningen av en standardiserad palett i en presentation gör att användaren kan skapa ett konsekvent utseende. Varje Microsoft Excel (97-2003)-fil har en palett med 56 färger som kan appliceras på celler, teckensnitt, rutnät, grafiska objekt, fyllningar och linjer i ett diagram.
+En palett är antalet tillgängliga färger för att skapa en bild. Användningen av en standardiserad palett i en presentation gör att användaren kan skapa ett konsekvent utseende. Varje Microsoft Excel-fil (97-2003) har en palett med 56 färger som kan appliceras på celler, teckensnitt, rutnät, grafiska objekt, fyllningar och linjer i ett diagram.
 
 Med Aspose.Cells är det möjligt att inte bara använda palettens befintliga färger utan även anpassade färger. Innan du använder en anpassad färg, lägg till den i paletten först.
 

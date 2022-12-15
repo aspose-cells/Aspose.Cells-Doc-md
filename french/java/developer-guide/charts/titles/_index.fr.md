@@ -7,7 +7,7 @@ url: /fr/java/chart-and-axis-titles/
 ---
 {{% alert color="primary" %}}
 
-Dans les graphiques Excel, il existe 2 types de titre :
+Dans les graphiques Excel, il existe 2 types de titre :
 1.  Titre du graphique
 1. Titres d'axe
 

@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /ar/sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/
 ---
-يوفر Aspose.Cells لـ SharePoint شريط أدوات يتضمن بعض الخيارات والأوامر القيمة:
+يوفر Aspose.Cells for SharePoint شريط أدوات يتضمن بعض الخيارات والأوامر القيمة:
 
 - قم بالتحويل باستخدام Aspose.Cells
 - معاينة الوثيقة مع Aspose.Cells

@@ -17,7 +17,7 @@ Früher würde Aspose.Cells anlegen[**PdfLesezeichenEintrag**](https://reference
 - Lesezeichen-III
 - Lesezeichen-IV-Chart2
 
- Der folgende Screenshot zeigt die[PDF ausgeben](61767757.pdf) generiert durch den Beispielcode für eine Referenz.
+Der folgende Screenshot zeigt die[PDF ausgeben](61767757.pdf) generiert durch den Beispielcode für eine Referenz.
 
 ![todo: Bild_alt_Text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

@@ -6,7 +6,7 @@ url: /sv/net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 ---
 ## **Möjliga användningsscenarier**
 
-När du sparar din Excel-fil i HTML kan du ange olika korstyper för cellsträngar. Som standard genererar Aspose.Cells HTML enligt Microsoft Excel men när du ändrar korstypen till[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)då döljer den alla strängar på höger sida av cellen som är överlagrade eller överlappar med cellsträngen.
+När du sparar din Excel-fil i HTML kan du ange olika korstyper för cellsträngar. Som standard genererar Aspose.Cells HTML enligt Microsoft Excel men när du ändrar korstypen till[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype), då döljer den alla strängar på höger sida av cellen som är överlagrade eller överlappar med cellsträngen.
 
 ## **Döljer överlagrat innehåll med CrossHideRight medan du sparar till HTML**
 

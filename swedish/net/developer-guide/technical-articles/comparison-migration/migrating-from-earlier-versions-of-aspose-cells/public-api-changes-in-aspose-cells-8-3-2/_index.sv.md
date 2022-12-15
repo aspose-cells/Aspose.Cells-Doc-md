@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.3.2
+title: Offentlig API Ändringar i Aspose.Cells 8.3.2
 type: docs
 weight: 120
 url: /sv/net/public-api-changes-in-aspose-cells-8-3-2/
@@ -11,7 +11,7 @@ url: /sv/net/public-api-changes-in-aspose-cells-8-3-2/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Mekanism för att ställa in absolut position för PivotItem**
- För att tillhandahålla funktionen[PivotItems absoluta positionering](/cells/sv/net/specifying-the-absolute-position-of-the-pivot-item/)Aspose.Cells för .NET 8.3.2 har avslöjat en rad egenskaper och hjälpmetoder enligt listan nedan.
+ För att tillhandahålla funktionen[PivotItems absoluta positionering](/cells/sv/net/specifying-the-absolute-position-of-the-pivot-item/)Aspose.Cells for .NET 8.3.2 har avslöjat en rad egenskaper och hjälpmetoder enligt listan nedan.
 
 - Egenskapen PivotItem.Position kan användas för att ange positionsindex i alla PivotItems oavsett överordnad nod.
 - PivotItem.PositionInSameParentNode-egenskapen kan användas för att ange positionsindex i PivotItems under samma överordnade nod.
@@ -23,7 +23,7 @@ Observera att det är nödvändigt att anropa metoderna PivotTable.RefreshData o
 
 {{% /alert %}} 
 ### **Class SignatureLine tillagd**
-Aspose.Cells för .NET 8.3.2 ger stöd för signaturlinjen för att efterlikna MS Excels motsvarande funktion. Den här versionen av Aspose.Cells för .NET har exponerat klassen SignatureLine och egenskapen Picture.SignatureLine för detta ändamål.
+Aspose.Cells for .NET 8.3.2 ger stöd för signaturlinjen för att efterlikna MS Excels motsvarande funktion. Den här versionen av Aspose.Cells for .NET har exponerat klassen SignatureLine och egenskapen Picture.SignatureLine för detta ändamål.
 
 Följande exempelkod lägger till en signaturrad med egenskapen Picture.SignatureLine till arbetsboken.
 
@@ -61,7 +61,7 @@ pic.SignatureLine = s;
 
 
 ### **Metoddiagram.HasAxis tillagd**
-Med lanseringen av v8.3.2 har API:et Aspose.Cells tillhandahållit metoden Chart.HasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en viss axel eller inte.
+Med lanseringen av v8.3.2 har Aspose.Cells API tillhandahållit metoden Chart.HasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en viss axel eller inte.
 
 Följande exempelkod visar användningen av metoden Chart.HasAxis för att avgöra om exempeldiagrammet har primär-, sekundär- och värdeaxel.
 
@@ -129,7 +129,7 @@ Console.WriteLine("Is 567 correct Password to modify: " + ret);
 
 
 ### **Överbelastningsmetoder WorkbookRender.ToPrinter & SheetRender.ToPrinter har lagts till**
-Aspose.Cells för .NET 8.3.2 har tillhandahållit metoderna WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) och SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) för att skriva ut intervallet av sidor och arbetsblad i respektive arbetsbok.
+Aspose.Cells for .NET 8.3.2 har tillhandahållit arbetsboken WorkbookRender.ToPrinter(sträng PrinterName, int PrintPageIndex, int PrintPageCount) och SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageIndex, int PrintPageCount) arbetsblad för att skriva ut arbetsboken respektive.
 
 Följande exempelkod illustrerar användningen av ovannämnda metoder för att skriva ut sidorna 2-5 i arbetsboken och arbetsbladet.
 
@@ -177,15 +177,15 @@ Den nya metoden Worksheet.RefreshPivotTables gör det möjligt att uppdatera all
 
 
 ### **Metod Workbook.GetNamedStyle tillagd**
-Aspose.Cells för .NET API har avslöjat metoden Workbook.GetNamedStyle som accepterar strängen som parameter och hämtar Style-objektet baserat på parametern som skickas.
+Aspose.Cells for .NET API har avslöjat metoden Workbook.GetNamedStyle som accepterar strängen som parameter och hämtar Style-objektet baserat på parametern som skickas.
 ### **Metod Cells.ImportTwoDimensionArray har lagts till**
-Aspose.Cells för .NET API har gjort det möjligt att importera tvådimensionella arrayer till kalkylbladsceller genom att exponera metoden Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Den nämnda metoden importerar en tvådimensionell array av data till ett kalkylblad med mer flexibla alternativ definierade i TxtLoadOptions.
+Aspose.Cells for .NET API har gjort det möjligt att importera tvådimensionella arrayer till kalkylbladsceller genom att exponera metoden Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions)-metoden Den nämnda metoden importerar en tvådimensionell array av data till ett kalkylblad med mer flexibla alternativ definierade i TxtLoadOptions.
 ### **Egenskaper OnePagePerSheet, PageIndex & PageCount har lagts till**
-Aspose.Cells för .NET 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida i XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
+Aspose.Cells for .NET 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida i XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
 ### **Egenskaper NumberDecimalSeparator & NumberGroupSeparator tillagd**
-Aspose.Cells för .NET 8.3.2 har introducerat NumberDecimalSeparator & NumberGroupSeparator-egenskaper som kan hämta/ställa in anpassade separatorer som används för att formatera och analysera de numeriska värdena i kalkylblad.
+Aspose.Cells for .NET 8.3.2 har introducerat NumberDecimalSeparator & NumberGroupSeparator-egenskaper som kan hämta/ställa in de anpassade separatorer som används för att formatera och analysera de numeriska värdena i kalkylblad.
 
-Följande exempelkod illustrerar hur man anger anpassade separatorer med Aspose.Cells API. Följande kod specificerar de anpassade decimal- och gruppseparatorerna som punkt respektive mellanslag.
+Följande exempelkod illustrerar hur du anger anpassade avgränsare med Aspose.Cells API. Följande kod anger anpassade decimal- och gruppavgränsare som punkt respektive mellanslag.
 
 **C#**
 
@@ -203,7 +203,7 @@ workbook.Settings.NumberGroupSeparator = ' ';
 
 
 ### **Egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity har lagts till**
-Aspose.Cells för .NET 8.3.2 har avslöjat egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity för att lösa problemet där vissa Unicode-tecken inte kan visas med en specifik teckensnittsfamilj. När egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity är inställd på true ändras endast teckensnittet med ett specifikt tecken som inte är visningsbart till visningsbart teckensnitt och resten av ordet eller meningen ska förbli i det ursprungliga teckensnittet.
+Aspose.Cells for .NET 8.3.2 har avslöjat egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity för att lösa problemet där vissa Unicode-tecken inte kan visas med en specifik teckensnittsfamilj. När egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity är inställd på true ändras endast teckensnittet med ett specifikt tecken som inte är visningsbart till visningsbart teckensnitt och resten av ordet eller meningen ska förbli i det ursprungliga teckensnittet.
 
 **C#**
 
@@ -220,7 +220,7 @@ opts.IsFontSubstitutionCharGranularity = true;
 
 ## **Borttagna API:er**
 ### **Tog bort föråldrade metoder**
-Följande metoder har tagits bort från Public API.
+Följande metoder har tagits bort från allmänheten API.
 
 - Arbetsbok.Öppna & Arbetsbok.Spara metoder.
 - Workbook.SetOleSize-metoden.
@@ -228,7 +228,7 @@ Följande metoder har tagits bort från Public API.
 - WorkbookDesigner.Open & WorkbookDesigner.Spara metoder.
 - Metoden WorksheetCollection.DeleteName.
 ### **Borttagen föråldrade egenskaper**
-Följande egenskaper har tagits bort från Public API.
+Följande fastigheter har tagits bort från allmänheten API.
 
 - Workbook.IsProtected-egenskap.
 - Arbetsbok.Språkegenskap.
@@ -270,4 +270,4 @@ Ett objekt med SaveOptions måste skickas till Workbook.Save-metoden efter att h
 ### **Fastighetsarbetsbok. Stilar & Klassstilsamling Föråldrad**
 Det rekommenderas att använda metoden Workbook.CreateStyle för att skapa och manipulera stil för Workbook-instanser istället för att skapa en Style med metoden StyleCollection.Add. Dessutom kan metoden Workbook.GetNamedStyle(sträng) användas för att få namngiven stil istället för StyleCollection[sträng].
 ### **Metod PivotItem.Move(int count) Föråldrad**
-Med utgivningen av Aspose.Cells 8.3.2 har API:et infört ytterligare en överbelastning av metoden PivotItem.Move som accepterar heltalsparametern för count och boolesk parameter för att flytta en PivotItem inom den överordnade noden.
+Med lanseringen av Aspose.Cells 8.3.2 har API introducerat ytterligare en överbelastning av metoden PivotItem.Move som accepterar heltalsparametern för count och boolean parameter för att flytta en PivotItem inom den överordnade noden.

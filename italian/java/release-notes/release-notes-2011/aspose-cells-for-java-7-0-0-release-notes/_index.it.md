@@ -16,10 +16,10 @@ Siamo lieti di annunciare Aspose.Cells for Java v7.0.0 per gli utenti. Questa è
 
  Panoramica delle modifiche
 
- Non è pratica comune per noi apportare modifiche sostanziali allo API e cerchiamo sempre di evitarlo quando possibile, ma a volte è necessario. In questo caso le modifiche nella nuova versione si verificano perché:
+ Non è pratica comune per noi apportare modifiche sostanziali all'API e cerchiamo sempre di evitarlo quando possibile, ma a volte è necessario. In questo caso le modifiche nella nuova versione si verificano perché:
 
-- Un passaggio verso l'utilizzo del framework unificato Aspose che impone un API migliorato per il caricamento e il salvataggio. Ciò consente di utilizzare uno API più organizzato e coerente in tutti i prodotti Aspose.
-- Il codice sorgente dalla piattaforma .NET verrà ora portato automaticamente sulla piattaforma Java. Ciò consentirà a Aspose.Cells for Java di corrispondere a Aspose.Cells for .NET funzione per funzione.
+- Un passaggio all'utilizzo del framework unificato Aspose che impone un'API migliorata per il caricamento e il salvataggio. Ciò consente di utilizzare un'API più organizzata e coerente in tutti i prodotti Aspose.
+- Il codice sorgente dalla piattaforma .NET verrà ora trasferito automaticamente alla piattaforma Java. Ciò consentirà a Aspose.Cells for Java di corrispondere a Aspose.Cells for .NET funzione per funzione.
 
  Nuove funzionalità/miglioramenti
 
@@ -37,11 +37,11 @@ Siamo lieti di annunciare Aspose.Cells for Java v7.0.0 per gli utenti. Questa è
  Sono stati apportati miglioramenti per la funzionalità da Excel a PDF
  Sono stati apportati miglioramenti alla funzione Adatta righe/colonne
 
-Problemi noti/limitazioni
+ Problemi noti/limitazioni
 
 
 
- Ci sono una serie di limitazioni note in questa versione. Ci sono alcune funzionalità che potrebbero non essere supportate nella v7.0.0 che erano effettivamente supportate nelle versioni precedenti:
+Ci sono una serie di limitazioni note in questa versione. Ci sono alcune funzionalità che potrebbero non essere supportate nella v7.0.0 che erano effettivamente supportate nelle versioni precedenti:
 
 - Utilizzo delle API LightCells
  Lettura di file HTML
@@ -54,6 +54,6 @@ Problemi noti/limitazioni
 
 
 
-In questa versione (Aspose.Cells for Java v7.0.0), abbiamo rinominato alcune API impostate per pulire la struttura API per abbinarla a Aspose.Cells for .NET. Abbiamo alcune classi di raccolta ma i loro nomi non le giustificano secondo gli standard .NET. Quindi, abbiamo deciso di cambiare di conseguenza i nomi di alcune classi e di altri membri. A causa di queste modifiche, potrebbe essere necessario correggere alcune parti dei segmenti di codice esistenti durante l'aggiornamento dalla versione precedente di Aspose.Cells for Java. Se non si utilizza nessuno dei membri elencati di seguito, molto probabilmente non sarà necessario apportare modifiche poiché il tuo codice verrà già compilato correttamente con la nuova versione. Tutte le stesse funzionalità rimangono intatte, solo l'accesso ad alcuni membri è stato spostato, rinominato o unito ad altri metodi.
+In questa versione (Aspose.Cells for Java v7.0.0), abbiamo rinominato alcune API impostate per pulire la struttura dell'API per abbinarla a Aspose.Cells for .NET. Abbiamo alcune classi di raccolta ma i loro nomi non le giustificano secondo gli standard .NET. Quindi, abbiamo deciso di cambiare di conseguenza i nomi di alcune classi e di altri membri. A causa di queste modifiche, potrebbe essere necessario correggere alcune parti dei segmenti di codice esistenti durante l'aggiornamento dalla versione precedente di Aspose.Cells for Java. Se non si utilizza nessuno dei membri elencati di seguito, molto probabilmente non sarà necessario apportare modifiche poiché il tuo codice verrà già compilato correttamente con la nuova versione. Tutte le stesse funzionalità rimangono intatte, solo l'accesso ad alcuni membri è stato spostato, rinominato o unito ad altri metodi.
 
-Nota: abbiamo fatto del nostro meglio per non perdere alcuna funzionalità rispetto alle versioni/correzioni precedenti attraverso il refactoring di API, ma, temo, potresti riscontrare alcuni problemi e questa versione potrebbe non superare tutti i casi di test. Lavoriamo continuamente per migliorarlo per assicurarci che la nuova versione funzioni al 100% con tutti i problemi precedenti (risolti nelle versioni/correzioni precedenti del prodotto). Abbiamo bisogno di più tempo per valutarli tutti e rendere il prodotto più robusto. Incoraggiamo inoltre tutti voi a valutare i vostri precedenti problemi con questa nuova versione nei vostri diversi ambienti. Non esitate a segnalarci qualsiasi problema utilizzando il forum Aspose.Cells. La vostra collaborazione in questo senso è molto apprezzata.
+Nota: abbiamo fatto del nostro meglio per non perdere alcuna funzionalità rispetto alle versioni/correzioni precedenti attraverso il refactoring dell'API, ma, temo, potresti riscontrare alcuni problemi e questa versione potrebbe non superare tutti i casi di test. Lavoriamo continuamente per migliorarlo per assicurarci che la nuova versione funzioni al 100% con tutti i problemi precedenti (risolti nelle versioni/correzioni precedenti del prodotto). Abbiamo bisogno di più tempo per valutarli tutti e rendere il prodotto più robusto. Incoraggiamo inoltre tutti voi a valutare i vostri precedenti problemi con questa nuova versione nei vostri diversi ambienti. Non esitate a segnalarci qualsiasi problema utilizzando il forum Aspose.Cells. La vostra collaborazione in questo senso è molto apprezzata.

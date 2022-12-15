@@ -7,7 +7,7 @@ description: Protégez et déprotégez la structure du classeur des fichiers Exc
 ---
 {{% alert color="primary" %}}
 Pour empêcher d'autres utilisateurs d'afficher des feuilles de calcul masquées, d'ajouter, de déplacer, de supprimer ou de masquer des feuilles de calcul et de renommer des feuilles de calcul, vous pouvez protéger la structure de votre classeur Excel avec un mot de passe.
-Aspose.Cells pour Python prend en charge la protection et la suppression de la structure du classeur des fichiers Excel.
+Aspose.Cells for Python prend en charge la protection et la suppression de la structure du classeur des fichiers Excel.
 {{% /alert %}}
 
 
@@ -20,12 +20,12 @@ Aspose.Cells pour Python prend en charge la protection et la suppression de la s
 1.  Sélectionner**D'ACCORD** , saisissez à nouveau le mot de passe pour le confirmer, puis sélectionnez**D'ACCORD** encore.
 
 
-## **Protéger la structure du classeur à l'aide de Aspose.Cell pour Python**
+## **Protéger la structure du classeur à l'aide de Aspose.Cell for Python**
 Vous n'avez besoin que des lignes de code simples suivantes pour implémenter la protection de la structure du classeur des fichiers Excel.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Workbook-Structure.py" >}}
 
-## **Déprotéger la structure du classeur à l'aide de Aspose.Cell pour Python**
+## **Déprotéger la structure du classeur à l'aide de Aspose.Cell for Python**
 Déprotéger la structure du classeur est facile avec Aspose.Cells API.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Workbook-Structure.py" >}}

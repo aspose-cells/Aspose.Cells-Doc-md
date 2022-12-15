@@ -6,7 +6,7 @@ url: /de/jasperreports/integration-with-jasperserver/
 ---
 {{% alert color="primary" %}} 
 
-Führen Sie die folgenden Schritte aus, um Aspose.Cells für JasperReports mit JasperServer zu integrieren.
+Führen Sie die folgenden Schritte aus, um Aspose.Cells for JasperReports in JasperServer zu integrieren.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ Führen Sie die folgenden Schritte aus, um Aspose.Cells für JasperReports mit J
 
 {{% /alert %}} 
 
-1.  Fügen Sie die folgenden neuen Exporter-Eigenschaften zu der hinzu**<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** Datei.
+1. Fügen Sie die folgenden neuen Exporter-Eigenschaften zu der hinzu**<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** Datei.
 
 **XML**
 
@@ -84,7 +84,7 @@ Führen Sie die folgenden Schritte aus, um Aspose.Cells für JasperReports mit J
 1.  Kopieren Sie alle GIF-Bilder aus der**\lib** Ordner im**aspose.cells.jasperreports.zip** zum*<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\images* Mappe.
 1.  Kopiere das**aspose.cells.jasperreports.jar** Datei aus der**\lib** Ordner im**aspose.cells.jasperreports.zip** zum**<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** Mappe.
 1.  Fügen Sie die folgenden Zeilen hinzu**<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** Datei.
- (Diese Bean kann verschiedene Konfigurationseinstellungen zum Konfigurieren des Exports enthalten. Beispielsweise können Sie die JasperReports-Schriftzuordnungsfunktion verwenden oder den Speicherort der Lizenzdatei Aspose.Cells für JasperReports angeben.)
+ (Diese Bean kann verschiedene Konfigurationseinstellungen enthalten, die zum Konfigurieren des Exports bestimmt sind. Sie können beispielsweise die JasperReports-Funktion zur Schriftartzuordnung verwenden oder den Speicherort der Lizenzdatei Aspose.Cells for JasperReports angeben.)
 
 **XML**
 
@@ -105,9 +105,9 @@ Führen Sie die folgenden Schritte aus, um Aspose.Cells für JasperReports mit J
 
 
 
-1.  Führen Sie JasperServer aus und öffnen Sie einen beliebigen Bericht, um ihn anzuzeigen. Wenn die vorherigen Schritte ordnungsgemäß ausgeführt wurden, sind zusätzliche Formatsymbole verfügbar.
+1. Führen Sie JasperServer aus und öffnen Sie einen beliebigen Bericht, um ihn anzuzeigen. Wenn die vorherigen Schritte ordnungsgemäß ausgeführt wurden, sind zusätzliche Formatsymbole verfügbar.
 
-**Neue Exportformate verfügbar (rechts) nach der Installation von Aspose.Cells für JasperReports auf JasperServer** 
+**Neue Exportformate verfügbar (rechts) nach der Installation von Aspose.Cells for JasperReports auf JasperServer** 
 
 ![todo: Bild_alt_Text](integration-with-jasperserver_1.png)
 

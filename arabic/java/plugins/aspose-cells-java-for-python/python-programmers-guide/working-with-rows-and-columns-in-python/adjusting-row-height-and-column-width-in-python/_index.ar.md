@@ -73,7 +73,7 @@ workbook.save(self.dataDir + "Set Column Width.xls")
 print "Set Column Width Successfully." 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**ضبط ارتفاع الصف وعرض العمود (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

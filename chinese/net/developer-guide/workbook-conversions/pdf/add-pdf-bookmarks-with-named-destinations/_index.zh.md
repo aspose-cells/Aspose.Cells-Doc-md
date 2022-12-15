@@ -12,7 +12,7 @@ url: /zh/net/add-pdf-bookmarks-with-named-destinations/
 
 请看下面的示例代码，其[源Excel文件](50528348.xlsx) , 及其[输出PDF文件](50528349.pdf).屏幕截图显示了输出 PDF 中的书签和命名目的地。屏幕截图还描述了如何查看命名目标以及您需要专业版的 Acrobat Reader。
 
-![待办事项：图片_替代_文本](add-pdf-bookmarks-with-named-destinations_1.png)
+![待办事项：图像_替代_文本](add-pdf-bookmarks-with-named-destinations_1.png)
 
 ## **示例代码**
 

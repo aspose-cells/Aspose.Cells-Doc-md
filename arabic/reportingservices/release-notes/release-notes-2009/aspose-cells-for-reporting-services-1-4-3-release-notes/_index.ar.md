@@ -1,24 +1,24 @@
 ﻿---
-title: Aspose.Cells لخدمات التقارير 1.4.3 ملاحظات الإصدار
+title: Aspose.Cells for Reporting Services 1.4.3 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار [Aspose.Cells لخدمات التقارير 1.4.3 | https: //downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
+تحتوي هذه الصفحة على ملاحظات إصدار [Aspose.Cells for Reporting Services 1.4.3 | https: //downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
 
- يسعدنا أن نعلن عن Aspose.Cells لـ Reporting Services v1.4.3!
+ يسعدنا أن نعلن Aspose.Cells for Reporting Services v1.4.3!
 
  ما الذي تغير
 
 ? 
 
-· Aspose.Cells.ReportingServices Client يدعم تنسيق تقرير Reporting Services 2008.
+ · Aspose.Cells.ReportingServices Client يدعم تنسيق تقرير Reporting Services 2008.
 
  · تم تحسين أداء العرض.
 
- · يتضمن نمط عناصر التقرير في التقرير الذي تم إنشاؤه بواسطة مصمم التقرير.
+· يتضمن نمط عناصر التقرير في التقرير الذي تم إنشاؤه بواسطة مصمم التقرير.
 
  · Aspose.Cells.ReportingServices Client تم تحسينه فيما يتعلق باتصال خادم التقارير.
 
@@ -26,7 +26,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-not
 
 
 
- تم حل المشكلات في Aspose.Cells لخدمات التقارير 1.4.
+ تم حل المشكلات في Aspose.Cells for Reporting Services 1.4.
 
 \3. 
 

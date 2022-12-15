@@ -13,7 +13,7 @@ Aspose.Cells permet de créer et de sauvegarder des fichiers. Cet article expliq
 
 ## **Différentes façons d'enregistrer des fichiers**
 
- Aspose.Cells fournit le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** qui représente un fichier Excel Microsoft et fournit les propriétés et les méthodes nécessaires pour travailler avec des fichiers Excel. La**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)**la classe fournit la**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** méthode utilisée pour enregistrer les fichiers Excel. La**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**La méthode a de nombreuses surcharges qui sont utilisées pour enregistrer des fichiers de différentes manières.
+ Aspose.Cells fournit le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** qui représente un fichier Excel Microsoft et fournit les propriétés et les méthodes nécessaires pour travailler avec des fichiers Excel. La**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** la classe fournit la**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** méthode utilisée pour enregistrer les fichiers Excel. La**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**La méthode a de nombreuses surcharges qui sont utilisées pour enregistrer des fichiers de différentes manières.
 
  Le format de fichier dans lequel le fichier est enregistré est déterminé par le**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**énumération
 
@@ -38,7 +38,7 @@ Aspose.Cells permet de créer et de sauvegarder des fichiers. Cet article expliq
 
 ## **Enregistrement du fichier sous différents formats**
 
- Pour enregistrer des fichiers dans un emplacement de stockage, spécifiez le nom du fichier (complet avec le chemin de stockage) et le format de fichier souhaité (à partir du**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** énumération) lors de l'appel du**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objets**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode.
+ Pour enregistrer des fichiers dans un emplacement de stockage, spécifiez le nom du fichier (complet avec le chemin de stockage) et le format de fichier souhaité (à partir du**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**énumération) lors de l'appel du**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objets**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 

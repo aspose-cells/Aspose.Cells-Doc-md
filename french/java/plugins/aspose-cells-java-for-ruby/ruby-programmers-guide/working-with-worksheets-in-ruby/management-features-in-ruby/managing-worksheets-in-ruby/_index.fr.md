@@ -6,7 +6,7 @@ url: /fr/java/managing-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Gestion des feuilles de travail**
 ### **Ajout de feuilles de calcul à un nouveau fichier Excel**
-Pour ajouter une feuille de calcul à un nouveau fichier Excel à l'aide**Aspose.Cells Java pour rubis** , il suffit d'appeler**add_worksheet** méthode de**Gestion des feuilles de calcul** module.
+ Pour ajouter une feuille de calcul à un nouveau fichier Excel à l'aide**Aspose.Cells Java pour rubis** , il suffit d'appeler**add_worksheet** méthode de**Gestion des feuilles de travail** module.
 
 **Code rubis**
 
@@ -76,7 +76,7 @@ end  
 
 {{< /highlight >}}
 ### **Accéder aux feuilles de calcul à l'aide du nom de la feuille**
- Pour accéder à la feuille de calcul par nom de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**get_worksheet** méthode de**Gestion des feuilles de calcul** module.
+ Pour accéder à la feuille de calcul par nom de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**get_worksheet** méthode de**Gestion des feuilles de travail** module.
 
 **Code rubis**
 
@@ -102,7 +102,7 @@ end
 
 {{< /highlight >}}
 ### **Suppression de feuilles de calcul à l'aide du nom de la feuille**
- Pour supprimer une feuille de calcul par nom de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**remove_worksheet_by_name** méthode de**Gestion des feuilles de calcul** module.
+ Pour supprimer une feuille de calcul par nom de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**remove_worksheet_by_name** méthode de**Gestion des feuilles de travail** module.
 
 **Code rubis**
 
@@ -139,7 +139,7 @@ end
 
 {{< /highlight >}}
 ### **Suppression de feuilles de calcul à l'aide de l'index des feuilles**
- Pour supprimer une feuille de calcul par index de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**remove_worksheet_by_index** méthode de**Gestion des feuilles de calcul** module.
+ Pour supprimer une feuille de calcul par index de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**remove_worksheet_by_index** méthode de**Gestion des feuilles de travail** module.
 
 **Code rubis**
 

@@ -6,7 +6,7 @@ url: /sv/net/managing-cell-controls-in-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-Det här ämnet diskuterar några viktiga begrepp om att hantera cellkontroller med API:et för Aspose.Cells.GridDesktop. Vi kommer att förklara hur utvecklare kan komma åt, ändra och ta bort cellkontroller från sina kalkylblad. Låt oss ta en titt på det.
+Det här ämnet diskuterar några viktiga koncept för att hantera cellkontroller med hjälp av API eller Aspose.Cells.GridDesktop. Vi kommer att förklara hur utvecklare kan komma åt, ändra och ta bort cellkontroller från sina kalkylblad. Låt oss ta en titt på det.
 
 {{% /alert %}} 
 ## **Åtkomst till Cell kontroller**

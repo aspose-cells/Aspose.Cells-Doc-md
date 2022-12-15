@@ -10,7 +10,7 @@ url: /it/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}}
 
- Il codice di esempio seguente imposta su none il testo della seconda voce della legenda del grafico. Si prega di scaricare il[file excel di esempio](5115219.xlsx) utilizzato in questo codice e il[file excel di output](5115217.xlsx)generato da esso per il vostro riferimento.
+ Il codice di esempio seguente imposta su none il testo della seconda voce della legenda del grafico. Si prega di scaricare il[file excel di esempio](5115219.xlsx) utilizzato in questo codice e il[file excel di output](5115217.xlsx) generato da esso per il vostro riferimento.
 
 Lo screenshot seguente evidenzia l'effetto di questo codice su[file excel di esempio](5115219.xlsx).
 

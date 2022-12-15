@@ -30,7 +30,7 @@ Il metodo CopyRow accetta i seguenti parametri:
 
 Utilizzare questo metodo per copiare una riga all'interno di un foglio o in un altro foglio. Il metodo CopyRow funziona in modo simile a Microsoft Excel. Quindi, ad esempio, non è necessario impostare esplicitamente l'altezza della riga di destinazione, anche quel valore viene copiato.
 
-L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza un file Excel modello Microsoft e copia la seconda riga (completa di dati, formattazione, commenti, immagini e così via) e la incolla nella dodicesima riga nello stesso foglio di lavoro.
+L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza un modello di file Microsoft Excel e copia la seconda riga (completa di dati, formattazione, commenti, immagini e così via) e la incolla nella dodicesima riga nello stesso foglio di lavoro.
 
  Puoi saltare il passaggio che ottiene l'altezza della riga di origine utilizzando il**GetRowHeigh** metodo e quindi imposta l'altezza della riga di destinazione utilizzando il**Imposta altezza riga** metodo come il**CopiaRiga** Il metodo si occupa automaticamente dell'altezza della riga.
 
@@ -40,7 +40,7 @@ L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza
 
 {{% alert color="primary" %}} 
 
-Quando si copiano le righe, è importante notare le immagini, i grafici o altri oggetti di disegno correlati poiché è lo stesso con Microsoft Excel:
+Quando si copiano le righe, è importante annotare le immagini, i grafici o altri oggetti di disegno correlati poiché questo è lo stesso con Microsoft Excel:
 
 1. Se l'indice della riga di origine è 5, l'immagine, il grafico ecc. viene copiato se è contenuto nelle tre righe (l'indice della riga iniziale è 4 e l'indice della riga finale è 6).
 1. Le immagini, i grafici ecc. esistenti nella riga di destinazione non verranno rimossi.

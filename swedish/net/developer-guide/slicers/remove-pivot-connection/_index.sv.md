@@ -8,7 +8,7 @@ keywords: Remove pivot connection without office 2013, office 2016, office 2019 
 ---
 ## **Möjliga användningsscenarier**
 
-Om du vill ta bort slicer- och pivottabellen i Excel måste du högerklicka på slicer och välja "Rapportera anslutningar...". I alternativlistan kan du använda kryssrutan. På liknande sätt, om du vill ta bort slicer- och pivottabellen med hjälp av Aspose.Cells API programmatiskt, använd[**Slicer.RemovePivotConnection(pivottabellspivot)**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/removepivotconnection/)metod. Det kommer att ta isär slicer och pivottabell.
+Om du vill ta bort slicer- och pivottabellen i Excel måste du högerklicka på slicer och välja "Rapportera anslutningar...". I alternativlistan kan du använda kryssrutan. På samma sätt, om du vill ta bort slicer- och pivottabellen med Aspose.Cells API programmatiskt, använd[**Slicer.RemovePivotConnection(pivottabellspivot)**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/removepivotconnection/)metod. Det kommer att ta isär slicer och pivottabell.
 
 ## **Ta isär slicer- och pivottabellen**
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.6.1
+title: Offentlig API Ändringar i Aspose.Cells 8.6.1
 type: docs
 weight: 200
 url: /sv/net/public-api-changes-in-aspose-cells-8-6-1/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för HTML-länkmåltyp**
- Den här utgåvan av Aspose.Cells för .NET API har avslöjat en uppräkning, nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans tillåter att[ställ in måltypen för länkarna i kalkylbladet vid konvertering till HTML-format](/cells/sv/net/change-the-html-link-target-type/). De möjliga värdena för HtmlLinkTargetType-uppräkningen följer där standardvärdet är Self.
+Den här utgåvan av Aspose.Cells for .NET API har avslöjat en uppräkning nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans tillåter att[ställ in måltypen för länkarna i kalkylbladet vid konvertering till HTML-format](/cells/sv/net/change-the-html-link-target-type/). De möjliga värdena för HtmlLinkTargetType-uppräkningen följer där standardvärdet är Self.
 
 1. HtmlLinkTargetType.Blank: Öppnar det länkade dokumentet/sidan i ett nytt fönster eller flik.
 1. HtmlLinkTargetType.Parent: Öppnar det länkade dokumentet/sidan i den överordnade ramen.
@@ -44,7 +44,7 @@ workbook.Save(outputFilePath, options);
 
 
 ### **Metod VbaModuleCollection.Remove tillagd**
-Aspose.Cells för .NET 8.6.1 har avslöjat ytterligare en överbelastning av metoden VbaModuleCollection.Remove som nu kan acceptera en instans av Worksheet för att ta bort alla VBA-moduler som är associerade med det angivna arbetsbladet.
+Aspose.Cells for .NET 8.6.1 har avslöjat ytterligare en överbelastning av metoden VbaModuleCollection.Remove som nu kan acceptera en instans av Worksheet för att ta bort alla VBA-moduler som är associerade med det angivna arbetsbladet.
 
 Följande är det enkla användningsscenariot.
 
@@ -68,7 +68,7 @@ modules.Remove(workbook.Worksheets[0]);
 
 
 ### **Metod RangeCollection.Add tillagd**
-Aspose.Cells för .NET 8.6.1 har avslöjat metoden RangeCollection.Add som kan användas för att lägga till Range-objekt till samlingen av intervall för ett visst kalkylblad.
+Aspose.Cells for .NET 8.6.1 har exponerat metoden RangeCollection.Add som kan användas för att lägga till Range-objekt till samlingen av intervall för ett visst kalkylblad.
 
 Följande är det enkla användningsscenariot.
 
@@ -132,7 +132,7 @@ cell.SetCharacters(settings);
 
 
 ### **Egenskapen VbaProject.IsSigned tillagd**
- Aspose.Cells för .NET 8.6.1 har exponerat egenskapen VbaProject.IsSigned som kan användas för att[testa om ett VbaProject i en arbetsbok är signerat eller inte](/cells/sv/net/check-if-vba-project-in-a-workbook-is-signed/). Boolesk typ egenskap returnerar true om projektet är signerat.
+ Aspose.Cells for .NET 8.6.1 har exponerat egenskapen VbaProject.IsSigned som kan användas för att[testa om ett VbaProject i en arbetsbok är signerat eller inte](/cells/sv/net/check-if-vba-project-in-a-workbook-is-signed/). Boolesk typ egenskap returnerar true om projektet är signerat.
 
 Följande är det enkla användningsscenariot.
 
@@ -169,7 +169,7 @@ else
 {{< /highlight >}}
 ## **Ändrade API:er**
 ### **Metod Cell.GetFormatConditions Modified**
-Med lanseringen av v8.6.1 har Aspose.Cells för .NET API ändrat returtypen för metoden Cell.GetFormatConditions som nu returnerar en array av typen FormatConditionCollection.
+Med lanseringen av v8.6.1 har Aspose.Cells for .NET API ändrat returtypen för metoden Cell.GetFormatConditions som nu returnerar en array av typen FormatConditionCollection.
 ## **Föråldrade API:er**
 ### **Metod Workbook.CheckWriteProtectedPassword föråldrat**
 Med lanseringen av v8.6.1 har metoden Workbook.CheckWriteProtectedPassword markerats som avskriven. Det rekommenderas att använda metoden WorkbookSettings.WriteProtection.ValidatePassword som kan acceptera ett strängvärde som parameter och returnerar booleskt om lösenordet matchar det förinställda lösenordet för kalkylarket.

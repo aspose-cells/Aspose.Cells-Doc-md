@@ -1,5 +1,5 @@
 ﻿---
-title: Lägg till Matrix i Aspose.Cells för Reporting Services Client
+title: Lägg till Matrix i Aspose.Cells for Reporting Services klient
 type: docs
 weight: 80
 url: /sv/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/

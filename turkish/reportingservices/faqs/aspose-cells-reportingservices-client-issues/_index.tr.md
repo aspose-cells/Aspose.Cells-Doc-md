@@ -12,4 +12,4 @@ url: /tr/reportingservices/aspose-cells-reportingservices-client-issues/
 - [Aspose.Cells.ReportingServices Sürümünü Kontrol Etme](/cells/tr/reportingservices/checking-the-aspose-cells-reportingservices-version/)
 - [Çalışma Zamanı Hatası 429](/cells/tr/reportingservices/runtime-error-429/)
 - [rsreportserver.config içindeki DeviceInfo](/cells/tr/reportingservices/deviceinfo-in-rsreportserver-config/)
-- [Excel x64 için Raporlama Hizmetleri Eklentileri için Aspose.Cells Nasıl Yüklenir](/cells/tr/reportingservices/how-to-load-aspose-cells-for-reporting-services-add-ins-for-excel-x64/)
+- [Excel x64 için Aspose.Cells for Reporting Services Eklentileri Nasıl Yüklenir](/cells/tr/reportingservices/how-to-load-aspose-cells-for-reporting-services-add-ins-for-excel-x64/)

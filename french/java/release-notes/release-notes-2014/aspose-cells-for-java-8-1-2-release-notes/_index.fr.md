@@ -18,7 +18,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
 \1) Aspose.Cells
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 
@@ -67,7 +67,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
  Public WarningInfo, classes WarningType, interface IWarningCallback et propriété SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback.
 Prend en charge les avertissements lorsque la police a été remplacée.
 
-Supprimez la propriété obsolète PdfSaveOptions.ChartImageType.
+Supprimez la propriété PdfSaveOptions.ChartImageType obsolète.
 
 
 Noter

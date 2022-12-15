@@ -46,7 +46,7 @@ url: /ar/java/creating-and-customizing-charts/
 
 #### **استخدام كائنات الرسوم البيانية**
 
-كما هو مذكور أعلاه ، فإن جميع كائنات الرسوم البيانية هي أمثلة لفئاتها وتوفر خصائص وطرق محددة لأداء مهام محددة. استخدم كائنات المخططات لإنشاء مخططات.
+كما هو مذكور أعلاه ، فإن جميع كائنات الرسوم البيانية هي أمثلة لفئاتها وتوفر خصائص وطرق محددة لأداء مهام محددة. استخدم كائنات المخططات لإنشاء المخططات.
 
 أضف أي نوع من المخططات إلى ورقة عمل باستخدام امتداد[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) مجموعة. كل عنصر في[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) تمثل المجموعة أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) هدف. أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)يقوم الكائن بتغليف جميع كائنات الرسوم البيانية المطلوبة لتخصيص مظهر المخطط. يوضح القسم التالي كيفية استخدام بعض كائنات التخطيط الأساسية لإنشاء مخطط بسيط.
 
@@ -94,7 +94,7 @@ url: /ar/java/creating-and-customizing-charts/
 |Area3D مكدس|يمثل مخطط مساحي مكدس ثلاثي الأبعاد|
 |Area3D100Percent مكدس|يمثل مخطط مساحي مكدس بنسبة 100٪ ثلاثي الأبعاد|
 |الدونات|يمثل الشكل الدائري المجوف|
-|انفجرت العجين|يمثل مخطط دائري مجوف مجزأ|
+|انفجرت العجين|يمثل مخطط دائري مجوف|
 |رادار|يمثل المخطط النسيجي|
 |RadarWithDataMarkers|يمثل المخطط النسيجي بعلامات بيانات|
 |الرادار|يمثل الرسم البياني النسيجي المملوء|
@@ -116,7 +116,7 @@ url: /ar/java/creating-and-customizing-charts/
 |مخروط 100٪ مكدسة|يمثل 100٪ مخطط مخروطي مكدس|
 |مخروطي الشكل|يمثل مخطط شريطي مخروطي الشكل|
 |مخروطي الشكل مكدس|يمثل مخطط شريطي مخروطي مكدس|
-|مخروطي الشكل 100٪ مكدس|يمثل مخطط شريطي مخروطي مكدس بنسبة 100٪|
+|ConicalBar 100Percent مكدسة|يمثل مخطط شريطي مخروطي مكدس بنسبة 100٪|
 |عمود مخروطي ثلاثي الأبعاد|يمثل مخطط عمودي مخروطي ثلاثي الأبعاد|
 |هرم|يمثل مخطط هرم|
 |الهرم مكدسة|يمثل مخطط هرم مكدس|
@@ -154,7 +154,7 @@ url: /ar/java/creating-and-customizing-charts/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
- لإنشاء مخطط فقاعي ، يتم إنشاء ملف[**نوع التخطيط**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)يجب ضبطه على[**نوع المخطط**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE)وبعض الخصائص الإضافية مثل BubbleSizes و Values & XValues يجب تعيينها وفقًا لذلك. عند تنفيذ الكود التالي ، تتم إضافة مخطط فقاعي إلى ورقة العمل كما هو موضح أدناه.
+ لإنشاء مخطط فقاعي ، فإن ملف[**نوع التخطيط**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)يجب ضبطه على[**نوع المخطط**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE)وبعض الخصائص الإضافية مثل BubbleSizes و Values & XValues يجب تعيينها وفقًا لذلك. عند تنفيذ الكود التالي ، تتم إضافة مخطط فقاعي إلى ورقة العمل كما هو موضح أدناه.
 
 **مخطط فقاعي مع مصدر البيانات الخاص به**
 

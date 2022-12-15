@@ -12,7 +12,7 @@ url: /it/java/save-excel-into-pdf-with-standard-or-minimum-size/
 - [PdfOptimizationType.MINIMUM_SIZE](https://reference.aspose.com/cells/java/com.aspose.cells/pdfoptimizationtype#MINIMUM_SIZE)
 
 {{% /alert %}} 
-## **Salva Excel in PDF con dimensione standard o minima utilizzando Microsoft Excel**
+## **Salva Excel in PDF con dimensioni standard o minime utilizzando Microsoft Excel**
 Lo screenshot seguente mostra come salvare Excel in PDF con dimensioni standard o minime utilizzando Microsoft Excel.
 
 ![cose da fare:immagine_alt_testo](save-excel-into-pdf-with-standard-or-minimum-size_1.png)

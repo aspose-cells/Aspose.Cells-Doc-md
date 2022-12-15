@@ -146,7 +146,7 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43997) - الخلية النشطة في الورقة ليست في الموضع الصحيح عند تحميل / حفظ ملف XLSX - GridWeb
 
- (CELLSNET-43993) - خطأ C2686 في تجميع VS2008 C++ مع griddesktop.dll
+ (CELLSNET-43993) - خطأ C2686 في تجميع VS2008 C ++ مع griddesktop.dll
 
  (CELLSNET-43986) - WebWorksheet أو GridWorkSheet لا تحتوي على الأسلوب SetReadonlyRange
 

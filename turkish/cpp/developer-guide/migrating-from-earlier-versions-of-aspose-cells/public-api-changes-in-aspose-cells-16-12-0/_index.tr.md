@@ -11,9 +11,9 @@ Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 16.11.0 sür
 {{% /alert %}} 
 ## **Eklenen API'ler**
 ### **Pivot Tablolar için Destek**
-Aspose.Cells'in C++ için ikinci sürümü, Pivot Tabloların oluşturulmasını ve değiştirilmesini destekler. C++ için Aspose.Cells, bir Özet Tablo nesnesini temsil eden IPivotTable sınıfını sağlarken, IPivotTableCollection bir Pivot Tablolar koleksiyonunu temsil eder. IPivotTableCollection'a IWorksheet nesnesi aracılığıyla erişilebilir ve IPivotTableCollection.Add yöntemi kullanılırken koleksiyona yeni bir Pivot Tablo eklenebilir.
+Aspose.Cells for C++'in ikinci sürümü, Pivot Tabloların oluşturulmasını ve değiştirilmesini destekler. Aspose.Cells for C++, bir Pivot Tablo nesnesini temsil eden IPivotTable sınıfını sağlarken IPivotTableCollection, bir Pivot Tablo koleksiyonunu temsil eder. IPivotTableCollection'a IWorksheet nesnesi aracılığıyla erişilebilir ve IPivotTableCollection.Add yöntemi kullanılırken koleksiyona yeni bir Pivot Tablo eklenebilir.
 
- Aşağıdaki kod parçacığı, C++ API için Aspose.Cells'i kullanmanın ne kadar basit olduğunu gösterir.[sıfırdan Pivot Tablolar oluşturun](/cells/tr/cpp/create-pivot-table/).
+ Aşağıdaki kod parçacığı, Aspose.Cells for C++ API'i kullanmanın ne kadar basit olduğunu gösterir.[sıfırdan Pivot Tablolar oluşturun](/cells/tr/cpp/create-pivot-table/).
 
 **C++**
 
@@ -85,9 +85,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-C++ API'leri için Aspose.Cells, yeni Pivot Tablolar oluşturmanın yanı sıra mevcut Pivot Tabloları değiştirmeyi de destekler. API şu anda Pivot Tablonun kaynak aralığındaki verileri değiştirmeyi ve ardından yenilemeyi desteklemektedir. Pivot Tablo istendiği gibi değiştirildikten sonra, Pivot Tabloyu güncellenmiş veri kaynağına göre yenilemek için IPivotTable.RefreshData ve IPivotTable.CalculateData yöntemlerini kullanmak en iyisidir.
+Aspose.Cells for C++ API'leri, yeni Pivot Tablolar oluşturmanın yanı sıra mevcut Pivot Tabloları değiştirmeyi de destekler. API şu anda Pivot Tablonun kaynak aralığındaki verileri değiştirmeyi ve ardından yenilemeyi desteklemektedir. Pivot Tablo istendiği gibi değiştirildikten sonra, Pivot Tabloyu güncellenmiş veri kaynağına göre yenilemek için IPivotTable.RefreshData ve IPivotTable.CalculateData yöntemlerini kullanmak en iyisidir.
 
- Aşağıdaki kod parçacığı, C++ API için Aspose.Cells'i kullanır.[mevcut bir Pivot Tabloyu manipüle etme](/cells/tr/cpp/manipulate-pivot-table/).
+Aşağıdaki kod parçacığı, Aspose.Cells for C++ API'i kullanır.[mevcut bir Pivot Tabloyu manipüle etme](/cells/tr/cpp/manipulate-pivot-table/).
 
 **C++**
 
@@ -133,7 +133,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Koşullu Biçimlendirme Kuralları Desteği**
- C++ için Aspose.Cells, artık IFormatCondition sınıfını göstererek çalışma sayfasına koşullu biçimlendirme kuralları ekleme yeteneği sağlıyor. Yukarıda belirtilen sınıf ayrıca aşağıdaki yöntemleri sağlar:[koşullu biçimlendirme kurallarını uygula](/cells/tr/cpp/apply-conditional-formatting-in-worksheet/) uygulama gereksinimlerine göre.
+ Aspose.Cells for C++ artık IFormatCondition sınıfını göstererek çalışma sayfasına koşullu biçimlendirme kuralları ekleme yeteneği sağlıyor. Yukarıda belirtilen sınıf ayrıca aşağıdaki yöntemleri sağlar:[koşullu biçimlendirme kurallarını uygula](/cells/tr/cpp/apply-conditional-formatting-in-worksheet/) uygulama gereksinimlerine göre.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -191,7 +191,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Köprüler için Destek**
- C++ için Aspose.Cells artık destekliyor[çalışma sayfası hücrelerine köprüler ekleme](/cells/tr/cpp/add-hyperlinks-to-the-cells/). Bu özelliği sağlamak için, C++ 16.12.0 için Aspose.Cells, IWorksheet nesnesi aracılığıyla erişilebilen IHyperlinkCollection sınıfını kullanıma sunarken, aşağıda gösterildiği gibi IHyperlinkCollection.Add yöntemi kullanılırken koleksiyona bir köprü eklenebilir.
+ Aspose.Cells for C++ şimdi destekliyor[çalışma sayfası hücrelerine köprüler ekleme](/cells/tr/cpp/add-hyperlinks-to-the-cells/)Bu özelliği sağlamak için, Aspose.Cells for C++ 16.12.0, IWorksheet nesnesi aracılığıyla erişilebilen IHyperlinkCollection sınıfını kullanıma sunmuştur, ancak aşağıda gösterildiği gibi IHyperlinkCollection.Add yöntemi kullanılırken koleksiyona bir hiper bağlantı eklenebilir.
 
 **C++**
 
@@ -230,7 +230,7 @@ Excel uygulaması, aşağıda listelenen 2 tür belge özelliğini destekler.
 - Sistem tanımlı (yerleşik) özellikler: Yerleşik özellikler, belge hakkında belge başlığı, yazar adı, belge istatistikleri vb. gibi genel bilgileri içerir.
 - Kullanıcı tanımlı (özel) özellikler: Son kullanıcı tarafından ad değer çifti şeklinde tanımlanan özel özellikler.
 
-C++ desteği için Aspose.Cells[Yerleşik ve özel olmak üzere her iki belge özelliğini yönetme](/cells/tr/cpp/managing-document-properties/). Aspose.Cells' IWorkbook sınıfı bir Excel dosyasını temsil eder. Yerleşik belge özelliklerine erişmek için IWorkbook.GetBuiltInDocumentProperties kullanın, özel belge özelliklerine ise IWorkbook.GetCustomDocumentProperties yöntemi kullanılırken erişilebilir.
+ Aspose.Cells for C++ destekler[Yerleşik ve özel olmak üzere her iki belge özelliğini yönetme](/cells/tr/cpp/managing-document-properties/)Aspose.Cells' IWorkbook sınıfı bir Excel dosyasını temsil eder. Yerleşik belge özelliklerine erişmek için IWorkbook.GetBuiltInDocumentProperties kullanın, özel belge özelliklerine ise IWorkbook.GetCustomDocumentProperties yöntemi kullanılırken erişilebilir.
 
 Aşağıdaki örnek kod, varolan bir örnek elektronik tabloyu yükler ve MyCustom1 adıyla Başlık, Konu ve özel özellik gibi yerleşik belge özelliklerini okur.
 
@@ -286,7 +286,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **ListObjects için destek**
- Bir Excel tablosu, herhangi bir sayıda satır ve sütun içeren bir hücre matrisidir, oysa aynı tablo, Aspose.Cells API'leri için Aspose.Cells'de Liste Nesnesi olarak anılır. Aspose::Cells::Tables ad alanı, Liste Nesneleriyle ilgili işlemlerle ilgilenen tüm gerekli sınıfları içerir. En çok bahsetmeye değer sınıflar, izin veren IListObject ve IListObjectCollection'dır.[Liste Nesneleri oluşturma ve biçimlendirme](/cells/tr/cpp/create-and-format-table/) ve benzeri.
+ Bir Excel tablosu, herhangi bir sayıda satır ve sütun içeren bir hücre matrisidir, oysa aynı tablo, Aspose.Cells for C++ API'lerinde Liste Nesnesi olarak anılır. Aspose::Cells::Tables ad alanı, Liste Nesneleriyle ilgili işlemlerle ilgilenen tüm gerekli sınıfları içerir. En çok bahsetmeye değer sınıflar, izin veren IListObject ve IListObjectCollection'dır.[Liste Nesneleri oluşturma ve biçimlendirme](/cells/tr/cpp/create-and-format-table/) ve benzeri.
 
 Aşağıdaki örnek kod, örnek elektronik tablo dosyasını yükler ve ardından A1:H10 aralığında bir Liste Nesnesi (tablo) oluşturur, ardından alt toplamı göstermek için bunun çeşitli yöntemlerinden yararlanır.
 
@@ -336,7 +336,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Satır ve Sütun Gruplandırma Desteği**
- C++ API için Aspose.Cells, temel olarak belirli bir çalışma sayfasındaki tüm hücrelerin toplanması olan ICells sınıfını kullanırken satırları ve sütunları gruplandırmak için kullanılabilir. ICells sınıfı, GroupRows ve GroupColumns yöntemlerini sunar.[grup satırları ve sütunları](/cells/tr/cpp/group-rows-and-columns-of-worksheet/) sırasıyla.
+ Aspose.Cells for C++ API, temel olarak belirli bir çalışma sayfasındaki tüm hücrelerin toplanması olan ICells sınıfını kullanırken satırları ve sütunları gruplandırmak için kullanılabilir. ICells sınıfı, GroupRows ve GroupColumns yöntemlerini sunar.[grup satırları ve sütunları](/cells/tr/cpp/group-rows-and-columns-of-worksheet/) sırasıyla.
 
 Aşağıdaki kod parçacığı, yukarıda belirtilen her iki yöntemin de basit kullanım senaryosunu göstermektedir.
 
@@ -422,7 +422,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Tema Desteği**
-C++ API'leri için Aspose.Cells artık Excel uygulaması tarafından sunulan temaları kullanmayı ve değiştirmeyi destekliyor.
+Aspose.Cells for C++ API'ler artık Excel uygulamasının sunduğu temaları kullanmayı ve değiştirmeyi destekliyor.
 #### **Özel Tema Renklerini Uygulama Yeteneği**
  Aşağıdaki parçacığı çalışır[özel renklerle yeni bir tema oluşturun](/cells/tr/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) çalışma kitabı için.
 
@@ -496,7 +496,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Tema Renklerinin Manipülasyonu İçin Destek**
-Aşağıdaki örnek kod, nasıl yapılacağını gösterir[çalışma kitabının tema renklerini okuma ve değiştirme](/cells/tr/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). Örnek kod, mevcut bir elektronik tabloyu yükler, tema renklerini okur, yani Accent1-Accent6 ve elektronik tabloyu kaydetmeden önce renkleri değiştirir.
+ Aşağıdaki örnek kod, nasıl yapılacağını gösterir[çalışma kitabının tema renklerini okuma ve değiştirme](/cells/tr/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). Örnek kod, mevcut bir elektronik tabloyu yükler, tema renklerini okur, yani Accent1-Accent6 ve elektronik tabloyu kaydetmeden önce renkleri değiştirir.
 
 **C++**
 
@@ -562,7 +562,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Çalışma Kitapları Arasında Tema Kopyalama Yeteneği**
-Aşağıdaki örnek kod, nasıl yapılacağını gösterir[temayı bir çalışma kitabından diğerine kopyala](/cells/tr/cpp/copy-theme-from-one-workbook-to-another/)Bu, birden çok e-tabloya yerleşik veya özel temalar uygularken faydalı olabilir.
+ Aşağıdaki örnek kod, nasıl yapılacağını gösterir[temayı bir çalışma kitabından diğerine kopyala](/cells/tr/cpp/copy-theme-from-one-workbook-to-another/)Bu, birden çok e-tabloya yerleşik veya özel temalar uygularken yararlı olabilir.
 
 **C++**
 
@@ -586,7 +586,7 @@ wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ## **Yeniden adlandırılan API'ler**
-C++ 16.12.0 için Aspose.Cells sürümüyle, arayüzleri birleşik tutmak için birkaç yöntemi yeniden adlandırdık. Yeniden adlandırılan tüm API'lerin listesi aşağıdaki gibidir.
+Aspose.Cells for C++ 16.12.0 sürümüyle, arayüzleri bir arada tutmak için birkaç yöntemi yeniden adlandırdık. Yeniden adlandırılan tüm API'lerin listesi aşağıdaki gibidir.
 #### **ICell::SetStyle yöntemi ICell::SetIStyle olarak yeniden adlandırıldı**
 #### **ICell::SetCharacters yöntemi ICell::SetIFontSettings olarak yeniden adlandırıldı**
 #### **ICellsColor::SetThemeColor yöntemi ICellsColor::SetIThemeColor olarak yeniden adlandırıldı**

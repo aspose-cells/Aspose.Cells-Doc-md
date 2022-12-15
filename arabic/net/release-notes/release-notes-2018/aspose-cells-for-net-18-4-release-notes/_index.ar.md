@@ -79,7 +79,7 @@ url: /ar/net/aspose-cells-for-net-18-4-release-notes/
 #### **يضيف Style.SetPatternColor (Aspose.Cells.BackgroundType ، System.Drawing.Color ، System.Drawing.Color)**
 يضبط نمط الخلية ولونها
 #### **إضافة خاصية ChartPoint.XValueType**
-الحصول على نوع القيمة X لنقطة المخطط.
+يحصل على نوع القيمة X لنقطة المخطط.
 #### **إضافة خاصية ChartPoint.YValueType**
 الحصول على نوع القيمة Y لنقطة المخطط.
 #### **إضافة تعداد PageLayoutAlignmentType**

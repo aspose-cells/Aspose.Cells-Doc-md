@@ -22,7 +22,7 @@ Per modificare gli attributi di un report:
 
 
 
-1.  Modificare gli attributi del report.
+1.  Modificare gli attributi del rapporto.
 
    **Modifica degli attributi** 
 

@@ -6,7 +6,7 @@ url: /sv/java/returning-a-range-of-values-using-icustomfunction/
 ---
 {{% alert color="primary" %}}
 
- De[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) är utfasad sedan lanseringen av Aspose.Cells för Java 20.8. Vänligen använd[**AbstractCalculation Engine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) klass. Användningen av[**AbstractCalculation Engine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) klass beskrivs i följande artikel.
+ De[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) är utfasad sedan lanseringen av Aspose.Cells for Java 20.8. Vänligen använd[**AbstractCalculation Engine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) klass. Användningen av[**AbstractCalculation Engine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) klass beskrivs i följande artikel.
 
 [Returnera ett värdeintervall med AbstractCalculationEngine](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/).
 

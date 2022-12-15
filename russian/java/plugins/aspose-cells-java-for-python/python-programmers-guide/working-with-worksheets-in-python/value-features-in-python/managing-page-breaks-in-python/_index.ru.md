@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Удаление всех разрывов страниц**
- Чтобы очистить все разрывы страниц с помощью**Aspose.Cells Java для Python** , вызов**clear_all_page_breaks** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+ Чтобы очистить все разрывы страниц с помощью**Aspose.Cells Java for Python** , вызов**clear_all_page_breaks** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
 
 **Python Код**
 
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Удаление определенного разрыва страницы**
- Чтобы удалить определенный разрыв страницы, используя**Aspose.Cells Java для Python** , вызов**remove_page_break** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+ Чтобы удалить определенный разрыв страницы, используя**Aspose.Cells Java for Python** , вызов**remove_page_break** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
 
 **Python Код**
 

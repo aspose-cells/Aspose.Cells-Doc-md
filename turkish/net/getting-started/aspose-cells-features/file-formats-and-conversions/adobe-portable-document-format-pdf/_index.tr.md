@@ -1,5 +1,5 @@
 ﻿---
-title: Adobe Taşınabilir Belge Formatı - PDF
+title: Adobe Taşınabilir Belge Biçimi - PDF
 type: docs
 weight: 40
 url: /tr/net/adobe-portable-document-format-pdf/

@@ -7,7 +7,7 @@ url: /it/java/spreadsheetml-xlsx-xml/
 ## **Informazioni su SpreadsheetML**
 SpreadsheetML è il nome di una famiglia di formati basati su XML per i fogli di calcolo. Esistono diverse versioni di SpreadsheetML:
 
-1. SpreadsheetML versione 2003 è stata introdotta in Microsoft Word 2003. SpreadsheetML è stato un passo significativo entro Microsoft verso l'apertura del formato del documento.
+1. SpreadsheetML versione 2003 è stata introdotta in Microsoft Word 2003. SpreadsheetML è stato un passo significativo da parte di Microsoft verso l'apertura del formato del documento.
 1. [Office OpenXML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) è il nuovo formato basato su XML introdotto nelle applicazioni Microsoft Office 2007. Office Open XML è un formato contenitore per diversi linguaggi di markup specializzati basati su XML. SpreadsheetML versione 2007 è il linguaggio di markup utilizzato da Microsoft Office Excel 2007 per archiviare i propri documenti.
 1. Microsoft Excel 2010 e versioni successive memorizzano i documenti nella versione SpreadsheetML 2010 come definito nello standard OOXML aggiornato.
 ## **SpreadsheetML in Aspose.Cells**
@@ -18,7 +18,7 @@ Sono disponibili tre "versioni" di SpreadsheetML:
 |Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|sì|
 |Microsoft Excel 2007|[OOXMLECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|sì|
 |Microsoft Excel 2010 e versioni successive|OOXML ISO/IEC DIS 29500|sì|
-I documenti OOXML SpreadsheetML vengono spesso come file XLSX, che sono pacchetti ZIP. Oltre a XLSX. Aspose.Cells fornisce un ampio supporto per il caricamento, il salvataggio e la conversione di documenti SpreadsheetML. Un'implementazione così onnicomprensiva è possibile perché Aspose.Cells è stato progettato tenendo presente la struttura dei documenti Excel Microsoft (e SpreadsheetML è noto per imitare la rappresentazione interna dei documenti Excel Microsoft).
+I documenti OOXML SpreadsheetML vengono spesso come file XLSX, che sono pacchetti ZIP. Oltre a XLSX. Aspose.Cells fornisce un ampio supporto per il caricamento, il salvataggio e la conversione di documenti SpreadsheetML. Un'implementazione così onnicomprensiva è possibile perché Aspose.Cells è stato progettato tenendo presente la struttura dei documenti di Microsoft Excel (e SpreadsheetML è noto per imitare la rappresentazione interna dei documenti di Microsoft Excel).
 
 **Un documento XLSX generato da Aspose.Cells e aperto in Microsoft Excel** 
 
@@ -37,7 +37,7 @@ Oltre a semplificare l'elaborazione corretta e la generazione di documenti valid
 - Conversioni di qualità tra molti formati Excel popolari, inclusa la conversione in PDF, HTML, TIFF e la stampa.
 - Capacità di creare documenti da frammenti, da uno o più documenti, unendo automaticamente i dati mediante formattazione stilistica, grafici e grafici.
 - Funzioni di alto livello, come l'importazione di dati da diverse origini dati tra cui Array, ArrayList, DataTable, DataColumn, DataGrid, DataView e DataReader o l'esportazione di dati per riempire un DataTable o un Array con una sola riga di codice.
-- Robusto motore di calcolo delle formule che supporta quasi tutte le funzioni Excel standard e avanzate Microsoft.
+- Robusto motore di calcolo delle formule che supporta quasi tutte le funzioni standard e avanzate di Microsoft Excel.
 
 Considera il seguente esempio. Alcune celle contengono il testo "Hello World" in grassetto. Ora immagina di dover scrivere un programma che cerchi tutte le frasi "Hello World" nel foglio di lavoro e le sostituisca con "Goodbye Earth".
 ## **Un frammento di un documento Office Open XML**

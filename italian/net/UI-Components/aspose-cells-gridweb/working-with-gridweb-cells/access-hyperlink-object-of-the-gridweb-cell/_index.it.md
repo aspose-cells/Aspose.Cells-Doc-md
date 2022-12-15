@@ -10,7 +10,7 @@ Puoi verificare se la cella contiene un collegamento ipertestuale o meno utilizz
 - GridHyperlinkCollection.GetHyperlink(cella GridCell)
 - GridHyperlinkCollection.GetHyperlink(int riga,int colonna)
 ## **Apri collegamento ipertestuale in una finestra nuova o esistente**
- Se il tuo file excel contiene un collegamento ipertestuale che si collega ad alcuni URL come<http://wwww.aspose.com/> e lo carichi in GridWeb, i collegamenti ipertestuali verranno visualizzati con l'attributo target impostato su_ vuoto. Significa che quando fai clic sul collegamento ipertestuale in una cella di GridWeb, si aprirà in una nuova finestra anziché in una finestra esistente. Controlla la proprietà GridHyperlink.Target nella seguente finestra di debug. Inoltre, se desideri aprire il collegamento ipertestuale nella finestra esistente, imposta GridHyperlink.Target su_se stesso.
+Se il tuo file excel contiene un collegamento ipertestuale che si collega ad alcuni URL come<http://wwww.aspose.com/> e lo carichi in GridWeb, i collegamenti ipertestuali verranno visualizzati con l'attributo target impostato su_ vuoto. Significa che quando fai clic sul collegamento ipertestuale in una cella di GridWeb, si aprirà in una nuova finestra anziché in una finestra esistente. Controlla la proprietà GridHyperlink.Target nella seguente finestra di debug. Inoltre, se desideri aprire il collegamento ipertestuale nella finestra esistente, imposta GridHyperlink.Target su_se stesso.
 
 ![cose da fare:immagine_alt_testo](access-hyperlink-object-of-the-gridweb-cell_1.png)
 ## **Accesso all'oggetto Hyperlink del GridWeb Cell**

@@ -17,7 +17,7 @@ keywords: java merge and unmerge cells in a range, java merge and unmerge cells 
 
 下图显示了使用示例代码生成的输出 Excel 文件。如您所见，A1:D4 区域已合并到一个单元格中。
 
-![待办事项：图片_替代_文本](merge-or-unmerge-range-of-cells_1.png)
+![待办事项：图像_替代_文本](merge-or-unmerge-range-of-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-MergeUnmergeRangeofCells-MergeUnmergeRangeofCells.java" >}}
 

@@ -68,7 +68,7 @@ Se movió la base de código principal a Java 6 (también se admiten Java 7 y 8)
 
 (CELLSJAVA-41246) - Excepción: fórmula dinámica no válida... que involucra la función de índice al usar fórmulas dinámicas de marcadores inteligentes
 
-## Aspose.Cells Suite de rejilla
+## Aspose.Cells Suite de cuadrícula
 
 ### **Otras mejoras y cambios**
 

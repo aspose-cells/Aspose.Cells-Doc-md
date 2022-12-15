@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لـ Python عبر Java 21.2 ملاحظات الإصدار
+title: Aspose.Cells for Python via Java 21.2 ملاحظات الإصدار
 type: docs
 weight: 12
 url: /ar/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ Python عبر Java 21.2.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Python via Java 21.2.
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ url: /ar/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 |CELLSJAVA-43382|ينتج عن النسخ مصنف تالف|
 |CELLSJAVA-43364|مشكلة عند حفظ الرسم البياني الذي يحتوي على صورة في العلامة على الصورة|
 |CELLSJAVA-43389|تفقد إعدادات حماية كلمة مرور المصنف / ورقة العمل عند الحفظ بتنسيق ملف XLSB|
-|CELLSJAVA-43392| ينتج عن نسخ الورقة مصنف تالف|
+|CELLSJAVA-43392|ينتج عن نسخ الورقة مصنف تالف|
 |CELLSJAVA-43387|يؤدي تصدير ورقة واحدة إلى HTML إلى زيادة الاستثناء|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**

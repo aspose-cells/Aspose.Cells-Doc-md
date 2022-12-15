@@ -7,7 +7,7 @@ url: /it/java/merge-cells/
 ## **Aspose.Cells - Unisci Cells**
 La classe Cells ha alcuni metodi utili per l'attività. Ad esempio, il metodo di unione unisce le celle in una singola cella all'interno di un intervallo specificato delle celle.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ wbk.save(dataDir + "merge_Aspose.xls");
 ## **Apache POI SS - HSSF XSSF - Unisci Cells**
 Sheet.addMergedRegion può essere utilizzato per unire Cells.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

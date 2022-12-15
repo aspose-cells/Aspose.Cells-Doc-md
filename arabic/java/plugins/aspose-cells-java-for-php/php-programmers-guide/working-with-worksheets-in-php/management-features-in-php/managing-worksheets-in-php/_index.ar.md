@@ -6,7 +6,7 @@ url: /ar/java/managing-worksheets-in-php/
 ---
 ## **Aspose.Cells - إدارة أوراق العمل**
 ### **إضافة أوراق عمل إلى ملف Excel جديد**
-لإضافة ورقة عمل إلى ملف Excel جديد باستخدام**Aspose.Cells Java لـ PHP** ، ببساطة اتصل**add_worksheet** طريقة**أوراق العمل** وحدة.
+ لإضافة ورقة عمل إلى ملف Excel جديد باستخدام**Aspose.Cells Java for PHP** ، ببساطة اتصل**add_worksheet** طريقة**أوراق العمل** وحدة.
 
 **كود PHP**
 
@@ -34,7 +34,7 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ### **إزالة أوراق العمل باستخدام اسم الورقة**
- لإزالة ورقة العمل حسب اسم الورقة باستخدام**Aspose.Cells Java لـ PHP** ، ببساطة اتصل**remove_worksheet_by_name** طريقة**أوراق العمل** وحدة.
+ لإزالة ورقة العمل حسب اسم الورقة باستخدام**Aspose.Cells Java for PHP** ، ببساطة اتصل**remove_worksheet_by_name** طريقة**أوراق العمل** وحدة.
 
 **كود PHP**
 
@@ -62,7 +62,7 @@ $fstream->close();
 
 {{< /highlight >}}
 ### **إزالة أوراق العمل باستخدام فهرس الورقة**
- لإزالة ورقة العمل عن طريق فهرس الورقة باستخدام**Aspose.Cells Java لـ PHP** ، ببساطة اتصل**remove_worksheet_by_index** طريقة**أوراق العمل** وحدة.
+ لإزالة ورقة العمل عن طريق فهرس الورقة باستخدام**Aspose.Cells Java for PHP** ، ببساطة اتصل**remove_worksheet_by_index** طريقة**أوراق العمل** وحدة.
 
 **كود PHP**
 
@@ -89,7 +89,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**إدارة أوراق العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

@@ -10,7 +10,7 @@ Detta dokument är utformat för att ge utvecklarna en detaljerad förståelse f
 
 Ibland kan du behöva presentera kalkylblad som bilder, till exempel för att använda dem i applikationer eller webbsidor. Du kan behöva infoga bilderna i ett Word-dokument, en PDF-fil, en PowerPoint-presentation eller använda dem i något annat scenario. Du vill helt enkelt rendera kalkylbladet som en bild. Aspose.Cells stöder konvertering av kalkylblad i Microsoft Excel-filer till bilder. Dessutom stöder Aspose.Cells konvertering av en arbetsbok till flera bildfiler, en per sida.
 
-Du kanske använder Office Automation för att uppnå detta, men Office Automation har sina egna nackdelar. Det finns flera orsaker och problem inblandade: till exempel säkerhet, stabilitet, skalbarhet/hastighet, pris och funktioner. Kort sagt finns det många anledningar, men den främsta är att Microsoft själva starkt rekommenderar Office-automatisering.
+Du kanske använder Office Automation för att uppnå detta, men Office Automation har sina egna nackdelar. Det finns flera orsaker och problem inblandade: till exempel säkerhet, stabilitet, skalbarhet/hastighet, pris och funktioner. Kort sagt, det finns många anledningar, men den främsta är att Microsoft själva starkt rekommenderar Office-automatisering.
 
 {{% /alert %}}
 
@@ -29,14 +29,14 @@ Den här uppgiften visar hur du använder Aspose.Cells för att konvertera ett k
 
 ### **Konfigurera projekt**
 
-1.  Först,[ladda ner Aspose.Cells för .NET](https://downloads.aspose.com/cells/net).
-1.  Installera det på din utvecklingsdator. Allt[Aspose](http://www.aspose.com/)komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument. Starta nu Visual Studio.Net och skapa en ny konsolapplikation. Det här exemplet använder en C#-konsolapplikation, men du kan också använda VB.NET. Lägg till referens till Aspose.Cells i skapat projekt.
+1.  Först,[ladda ner Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
+1.  Installera det på din utvecklingsdator. Allt[Aspose](http://www.aspose.com/)komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument. Starta nu Visual Studio.Net och skapa en ny konsolapplikation. Det här exemplet använder en konsolapplikation C#, men du kan också använda VB.NET. Lägg till referens till Aspose.Cells i skapat projekt.
 
 ### **Konvertera arbetsblad till bildfil**
 
  Jag skapade en ny arbetsbok i Microsoft Excel och la till några data i det första kalkylbladet:**Testbook.xlsx** (1 arbetsblad). Konvertera sedan mallfilens kalkylblad Sheet1 till en bildfil som heter SheetImage.jpg.
 
- Följande är koden som används av komponenten för att utföra uppgiften. Den konverterar Sheet1 in**Testbook.xlsx** till en bildfil för att förklara hur lätt denna konvertering är.
+ Följande är koden som används av komponenten för att utföra uppgiften. Det konverterar Sheet1 in**Testbook.xlsx** till en bildfil för att förklara hur lätt denna konvertering är.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheettoImageFile-1.cs" >}}
 

@@ -18,12 +18,12 @@ url: /zh/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and
 
 ### 比较源文件和输出文件的屏幕截图
 
-|![待办事项：图片_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
+|![待办事项：图像_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
 |:- |
 
 以下屏幕截图显示了代码生成的输出 Excel 文件。如您所见，单元格 D5 有一个值，而位于表格偏移量 2,2 处的单元格 F6 有一个值。
 
-|![待办事项：图片_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
+|![待办事项：图像_替代_文本](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
 |:- |
 
 ### C# 从单元格访问表格并使用行和列偏移量在其中添加值的代码

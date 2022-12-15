@@ -5,7 +5,7 @@ weight: 10
 url: /ru/python-java/create-a-pivot-table/
 ---
 ## **Создайте сводную таблицу**
-Aspose.Cells для Python через Java предоставляет возможность создавать сводные таблицы. Чтобы создать сводную таблицу с использованием Aspose.Cells, выполните следующие действия:
+Aspose.Cells for Python via Java предоставляет возможность создавать сводные таблицы. Чтобы создать сводную таблицу с использованием Aspose.Cells, выполните следующие действия:
 
 1. Добавьте некоторые данные в ячейки рабочего листа с помощью[Cell](https://reference.aspose.com/cells/python/asposecells.api/Cell)объекты[установить значение](https://reference.aspose.com/cells/python/asposecells.api/cell#Value)имущество. Эти данные будут использоваться в качестве источника данных для сводной таблицы.
 1. Добавьте сводную таблицу на рабочий лист, вызвав метод[сводная таблицаколлекция](https://reference.aspose.com/cells/python/asposecells.api/PivotTableCollection)[добавлять](https://reference.aspose.com/cells/python/asposecells.api/pivottablecollection#add\(java.lang.Object\)), инкапсулированный в[Рабочий лист](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)объект.

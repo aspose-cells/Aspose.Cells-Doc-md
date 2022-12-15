@@ -38,10 +38,10 @@ Den här sidan innehåller utgåvor för Aspose.Cells för CPP 18.4.
 |CELLSCPP-105|Översätt och felsök testfall i XlsxTest-katalogen|Ny funktion|
 |CELLSCPP-108|Öppna filer och kontrollera diagramrelaterade problem|Ny funktion|
 |CELLSCPP-106|Problem med minnesläckage|Insekt|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, omdöpta, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för C++. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for C++. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Byter namn på alla metoder som 'SetIs*' till 'Set*'-metoder**
-Byter namn på metoder, såsom SetIsOutlineShown till SetIsOutlineShown, SetIsSelected till SetSelected i IWorksheet och så vidare. För mer information, se API-referensguide.
+Byter namn på metoder, såsom SetIsOutlineShown till SetIsOutlineShown, SetIsSelected till SetSelected i IWorksheet och så vidare. För mer information, se API Referensguide.
 #### **Ändrar färg till System::Drawing::Color**
 Till exempel ändrar den Color::GetBlue() till System::Drawing::Color::GetBlue(). Eftersom färg är en tvetydig symbol här kan det vara Aspose::Cells::System::Drawing::Color eller Gdiplus::Color. För att använda Färg i Aspose Cells måste du lägga till namnutrymme System::Drawing.
 #### **Byter namn på ICells::AddRange till AddIRange**
@@ -75,9 +75,9 @@ Tillämpar formatering för ett helt intervall.
 #### **Byter namn på IRow::ApplyStyle till ApplyIStyle**
 Tillämpar formatering för en hel rad.
 #### **Byter namn på IPivotField::GetNumberFormat till Get_NumberFormat**
-Representerar det anpassade visningsformatet för siffror och datum. Eftersom metodnamnet GetNumberFormat är i konflikt med Windows systemfunktion, så måste vi byta namn på det.
+Representerar det anpassade visningsformatet för siffror och datum. Eftersom metodnamnet GetNumberFormat är i konflikt med Windows systemfunktionen, så måste vi byta namn på det.
 #### **Byter namn på IStyleFlag::GetNumberFormat till Get_NumberFormat**
-Eftersom metodnamnet GetNumberFormat är i konflikt med Windows systemfunktion, så måste vi byta namn på det som representerar för att få inställningen Number format.
+Eftersom metodnamnet GetNumberFormat är i konflikt med systemfunktionen Windows, så måste vi byta namn på det som representerar för att få inställningen Number format.
 #### **Byter namn på IWorkbook::CopyTheme till CopyITheme**
 Kopierar temat från en annan arbetsbok.
 #### **Byter namn på IWorksheet::SetBackground till SetBackgroundImage**

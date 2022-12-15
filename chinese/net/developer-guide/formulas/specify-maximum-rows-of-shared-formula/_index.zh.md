@@ -8,7 +8,7 @@ url: /zh/net/specify-maximum-rows-of-shared-formula/
 
 共享公式的默认最大行数是 64。它可以是任何数字，例如它可以是 1000。共享公式的性能随着行数的不同而变化。因此，Aspose.Cells 提供了[**工作簿.设置.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula)可用于指定共享公式的最大行数的属性。如果共享公式的总行数大于它，共享公式将被拆分为多个共享公式，如下面的屏幕截图所示。
 
-![待办事项：图片_替代_文本](specify-maximum-rows-of-shared-formula_1.png)
+![待办事项：图像_替代_文本](specify-maximum-rows-of-shared-formula_1.png)
 
 ## **指定共享公式的最大行数**
 

@@ -1,13 +1,13 @@
 ﻿---
-title: Aspose.Cells pour Python via .NET 22.11 Notes de mise à jour
+title: Aspose.Cells for Python via .NET 22.11 Notes de mise à jour
 type: docs
 weight: 6
 url: /fr/python-net/aspose-cells-for-python-net-22-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Il s'agit de la première version pour Aspose.Cells pour Python via .NET.
-Cette page contient les notes de version pour Aspose.Cells pour Python via .NET 22.11.
+Il s'agit de la première version pour Aspose.Cells for Python via .NET.
+Cette page contient les notes de version pour Aspose.Cells for Python via .NET 22.11.
 
 {{% /alert %}} 
 

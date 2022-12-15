@@ -12,7 +12,7 @@ url: /de/java/spreadsheet-editor-working-with-cells/
  - WorksheetView.removeCellShiftUp
  - WorksheetView.removeCellShiftLeft
 - [Löschen Sie eine Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
+ - WorksheetView.clearCurrentCellFormatting
  - WorksheetView.clearCurrentCellContents
  - WorksheetView.clearCurrentCell
 ### **Auswahl einer Cell**

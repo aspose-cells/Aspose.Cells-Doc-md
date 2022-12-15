@@ -45,7 +45,7 @@ url: /ru/net/aspose-cells-for-net-22-12-release-notes/
 
 ### **Добавляет перечисление JsonExportHyperlinkType**
 
-Представляет тип экспорта гиперссылки в файлы JSON.
+Представляет тип экспорта гиперссылки в файлы json.
 
 ### **Добавляет JsonUtility.ExportRangeToJson(Range, JsonSaveOptions) и устаревает метод ExportRangeToJson(Range, ExportRangeToJsonOptions)**
 

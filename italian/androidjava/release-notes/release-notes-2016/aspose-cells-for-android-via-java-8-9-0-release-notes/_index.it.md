@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 8.9.0 Note di rilascio
+title: Aspose.Cells for Android via Java 8.9.0 Note di rilascio
 type: docs
 weight: 30
 url: /it/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
@@ -80,8 +80,8 @@ url: /it/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41913|Eccezione: "IllegalArgumentException: length" durante il caricamento di un file Excel (XLS).|Eccezione|
 |CELLSJAVA-41911|Eccezione: "Errore in Cell: ... -Formula non valida" durante il caricamento di un file Excel tramite API Aspose.Cells|Eccezione|
 |CELLSJAVA-41906|Il costruttore della cartella di lavoro genera l'eccezione: "java.lang.NumberFormatException: stringa vuota"|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate allo API pubblico, ad esempio membri aggiunti, rinominati, rimossi o deprecati, nonché eventuali modifiche non compatibili con le versioni precedenti apportate a Aspose.Cells per Android. In caso di dubbi su qualsiasi modifica elencata, segnalarla al forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà WorkbookSetting.PaperSize.**
 Viene utilizzato per impostare il formato carta della stampante predefinita come formato carta predefinito della cartella di lavoro.
 ### **Aggiunge la classe LoadDataFilterOptions e la proprietà LoadOptions.LoadDataFilterOptions**
@@ -99,7 +99,7 @@ Elimina righe o colonne vuote con l'impostazione.
 ### **Aggiunge il metodo Cell.GetCharacters(flag).**
 Restituisce tutti gli oggetti Characters.
 ### **Aggiunge la proprietà OleObject.AutoLoad**
-Specifica se l'applicazione host per l'oggetto incorporato deve essere richiamata per caricare automaticamente i dati dell'oggetto all'apertura della cartella di lavoro padre.
+Specifica se l'applicazione host per l'oggetto incorporato deve essere chiamata per caricare automaticamente i dati dell'oggetto all'apertura della cartella di lavoro padre.
 ### **Aggiunge la proprietà HTMLLoadOptions.SupportDivTag**
  Indica se supporta il layout di<div> tag quando il file HTML contiene<div> tags.Il valore predefinito è false.
 ### **Aggiunge la proprietà HtmlSaveOptions.ExportGridLines**
@@ -120,10 +120,10 @@ Specifica il nome del carattere predefinito per l'esportazione HTML, il caratter
 Specifica se la tabella pivot è compatibile con Excel2003 durante l'aggiornamento della tabella pivot. Se vero, una stringa deve essere inferiore o uguale a 255 caratteri, quindi se la stringa è maggiore di 255 caratteri,
 verrà troncato. Se false, una stringa non avrà la suddetta restrizione. Il valore predefinito è true.
 ### **Aggiunge la proprietà ImageOrPrintOptions.DefaultFont**
-Quando i caratteri in Excel sono unicode e non devono essere impostati con il carattere corretto nello stile della cella, possono apparire come blocco in pdf, immagine. Imposta il DefaultFont come MingLiu o MS Gothic per mostrare questi caratteri. Se questa proprietà non è impostata, Aspose.Cells utilizzerà il carattere predefinito del sistema per mostrare questi caratteri Unicode.
+Quando i caratteri in Excel sono unicode e non devono essere impostati con il carattere corretto nello stile della cella, possono apparire come blocco in pdf, immagine. Imposta il DefaultFont come MingLiu o MS Gothic per mostrare questi caratteri. Se questa proprietà non è impostata, Aspose.Cells utilizzerà il carattere predefinito del sistema per mostrare questi caratteri unicode.
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.8.1, Aspose.Cells for .NET v8.8.2, Aspose.Cells for .NET v8.8.3, Aspose.Cells for .NET v8 .9.0, Aspose.Cells for Java v8.8.1, Aspose.Cells for Java v8.8.2, Aspose.Cells for Java v8.8.3 e Aspose.Cells for Java v8.9.0 sono inclusi anche in questo Android 19.3481
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.8.1, Aspose.Cells for .NET v8.8.2, Aspose.Cells for .NET v8.8.3, Aspose.Cells for .NET v8 .9.0, Aspose.Cells for Java V8.8.1, Aspose.Cells for Java V8.8.2, Aspose.Cells for Java V8.8.3 e Aspose.Cells for Java V8.9.0 sono anche inclusi in questo 0761181.9481 07681 07681 07681..
 
 {{% /alert %}}

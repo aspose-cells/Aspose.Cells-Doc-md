@@ -26,13 +26,13 @@ Aspose.Cells for .NET 允许您通过您的应用程序执行用户可以在 Mic
 对您要设置的每个范围和每个边框样式重复此操作。此示例应用细线、细线、中线和粗线。
 1. 结束：
  1.自动调整单元格所在的列以整齐地调整文本。
- 1. 保存文档。
+ 1. 保存文件。
 
 这些步骤显示在下面的代码中。第一个代码示例展示了如何使用[VSTO](/cells/zh/net/add-borders-to-cells-in-a-worksheet/)使用 C# 或 Visual Basic。在 VSTO 示例之后是显示如何使用执行相同步骤的示例[Aspose.Cells for .NET](/cells/zh/net/add-borders-to-cells-in-a-worksheet/)再次使用 C# 或 Visual Basic。 Aspose.Cells 代码示例要短得多，因为 Aspose.Cells 针对高效编码进行了优化。
 
 该代码生成一个 Excel 文件，其中第一个工作表上有许多单元格，每个单元格具有不同的边框：
 
-![待办事项：图片_替代_文本](add-borders-to-cells-in-a-worksheet_1.png)
+![待办事项：图像_替代_文本](add-borders-to-cells-in-a-worksheet_1.png)
 
 **Cells 应用了边框。**
 

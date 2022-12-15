@@ -1,5 +1,5 @@
 ﻿---
-title: Table de requête de lecture et d'écriture de la feuille de calcul
+title: Table de requête de lecture et d'écriture de la feuille de travail
 type: docs
 weight: 560
 url: /fr/java/reading-and-writing-query-table-of-worksheet/
@@ -14,14 +14,14 @@ url: /fr/java/reading-and-writing-query-table-of-worksheet/
 Ce sont deux valeurs booléennes. Vous pouvez les visualiser dans Microsoft Excel via Données > Connexions > Propriétés.
 
 {{% /alert %}} 
-## **Table de requête de lecture et d'écriture de la feuille de calcul**
+## **Table de requête de lecture et d'écriture de la feuille de travail**
  L'exemple de code suivant lit le premier[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)de la première feuille de calcul, puis imprime les deux[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) Propriétés. Ensuite, il définit le[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) à**vrai**.
 
- La capture d'écran suivante montre le[fichier excel source](5472578.xlsx) utilisé dans le code et ses propriétés montrant à la fois les[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valeurs.
+La capture d'écran suivante montre le[fichier excel source](5472578.xlsx) utilisé dans le code et ses propriétés montrant à la fois les[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valeurs.
 
 ![tâche : image_autre_texte](reading-and-writing-query-table-of-worksheet_1.png)
 
- La capture d'écran suivante montre le[fichier excel de sortie](5472574.xlsx) généré par le code et ses propriétés montrant à la fois les[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valeurs. Comme vous pouvez le voir, la case à cocher Mise en forme conservée est cochée maintenant.
+La capture d'écran suivante montre le[fichier excel de sortie](5472574.xlsx) généré par le code et ses propriétés montrant à la fois les[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valeurs. Comme vous pouvez le voir, la case à cocher Mise en forme conservée est cochée maintenant.
 
 ![tâche : image_autre_texte](reading-and-writing-query-table-of-worksheet_2.png)
 

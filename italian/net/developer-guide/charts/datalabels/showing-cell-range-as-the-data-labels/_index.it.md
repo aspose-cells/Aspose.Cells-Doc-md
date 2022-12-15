@@ -6,7 +6,7 @@ url: /it/net/showing-cell-range-as-the-data-labels/
 ---
 {{% alert color="primary" %}}
 
-In Microsoft Excel 2013 è possibile visualizzare un intervallo di celle per le etichette dei dati. Aspose.Cells supporta questa funzione.
+In Microsoft Excel 2013 è possibile visualizzare un intervallo di celle per le etichette dati. Aspose.Cells supporta questa funzione.
 
 {{% /alert %}}
 

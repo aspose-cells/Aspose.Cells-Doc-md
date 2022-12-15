@@ -39,7 +39,7 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **IsAutoRowFit** : Cuando el valor de Rendimiento es**apagado** , el valor de IsAutoRowFit es**falso**por defecto. Cuando el valor del parámetro de rendimiento es**en** , el valor es**verdadero** por defecto. Cuando el valor de Rendimiento es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **IsAutoRowFit** : Cuando el valor de Rendimiento es**apagado** , el valor de IsAutoRowFit es**falso**por defecto. Cuando el valor del parámetro de rendimiento es**en** , el valor es**verdadero** por defecto. Cuando el valor de Performance es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **Está fusionado** : Cuando el valor de Rendimiento es**apagado** , el valor predeterminado de IsMerged es**falso** . Cuando el valor de Rendimiento es**en** , El valor predeterminado es**verdadero** . Cuando el valor del parámetro Performance es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **Está fusionado** : Cuando el valor de Rendimiento es**apagado** , el valor predeterminado de IsMerged es**falso** . Cuando el valor de Performance es**en** , El valor predeterminado es**verdadero** . Cuando el valor del parámetro Performance es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
 
 {{< highlight "java" >}}
 

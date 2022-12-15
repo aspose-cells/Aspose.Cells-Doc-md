@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 16.12.0
+title: Offentlig API Ändringar i Aspose.Cells 16.12.0
 type: docs
 weight: 370
 url: /sv/java/public-api-changes-in-aspose-cells-16-12-0/

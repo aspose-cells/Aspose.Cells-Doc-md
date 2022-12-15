@@ -8,7 +8,7 @@ url: /sv/java/managing-pictures/
 
 Aspose.Cells tillåter utvecklare att lägga till bilder i kalkylblad under körning. Dessutom kan placeringen av dessa bilder styras under körning, vilket diskuteras mer i detalj i de kommande avsnitten.
 
-Aspose.Cells för Java stöder endast bildformat: BMP, JPEG, PNG, GIF.
+Aspose.Cells for Java stöder endast bildformat: BMP, JPEG, PNG, GIF.
 
 Index som används i exempel börjar från 0.
 

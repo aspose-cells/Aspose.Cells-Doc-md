@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Python через Java 22.9 Примечания к выпуску
+title: Aspose.Cells for Python via Java 22.9 Примечания к выпуску
 type: docs
 weight: 4
 url: /ru/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для Python через Java 22,9](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.9/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Python via Java 22.9](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.9/).
 
 {{% /alert %}}
 
@@ -35,7 +35,7 @@ url: /ru/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 
 Поддержка установки формул для диапазона ячеек для создания таблицы данных с двумя переменными и таблицы данных с одной переменной.
 
-### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, CalculationOptions copys)**
+### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, копты CalculationOptions)**
 
 Поддержка установки формулы динамического массива с настраиваемыми параметрами для расчета, особенно когда есть функции, которым требуется пользовательский движок для расчета в формуле.
 

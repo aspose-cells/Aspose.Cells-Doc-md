@@ -6,7 +6,7 @@ url: /it/cpp/manage-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-Gli sviluppatori possono facilmente creare e gestire fogli di lavoro nei file Excel Microsoft a livello di codice usando Aspose.Cells flexible API. Questo argomento descrive gli approcci per l'aggiunta e la rimozione di fogli di lavoro nei file Excel Microsoft.
+Gli sviluppatori possono facilmente creare e gestire fogli di lavoro nei file di Microsoft Excel in modo programmatico utilizzando l'API flessibile Aspose.Cells. Questo argomento descrive gli approcci per l'aggiunta e la rimozione di fogli di lavoro nei file di Microsoft Excel.
 
 {{% /alert %}} 
 

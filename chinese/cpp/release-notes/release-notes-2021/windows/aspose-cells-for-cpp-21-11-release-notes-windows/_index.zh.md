@@ -6,7 +6,7 @@ url: /zh/cpp/aspose-cells-for-cpp-21-11-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-此页面包含 Aspose.Cells C++ 21.11 Windows 的发行说明。
+此页面包含 Aspose.Cells for C++ 21.11 Windows 的发行说明。
 
 {{% /alert %}}
 

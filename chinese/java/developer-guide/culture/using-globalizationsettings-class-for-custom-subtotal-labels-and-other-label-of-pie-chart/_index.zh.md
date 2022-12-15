@@ -48,4 +48,4 @@ url: /zh/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 
 以下是机器的区域设置为法国时的结果图像。如您所见，标签“Other”已被翻译为“Autre”，如中所定义*自定义设置*班级。
 
-![待办事项：图片_替代_文本](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+![待办事项：图像_替代_文本](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)

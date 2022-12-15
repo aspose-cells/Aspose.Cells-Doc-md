@@ -13,7 +13,7 @@ Aspose.Cells permite crear y guardar archivos. Este artículo explica las divers
 
 ## **Diferentes formas de guardar archivos**
 
- Aspose.Cells proporciona el**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)** que representa un archivo de Excel Microsoft y proporciona las propiedades y los métodos necesarios para trabajar con archivos de Excel. los**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)**la clase proporciona la**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** método utilizado para guardar archivos de Excel. los**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**El método tiene muchas sobrecargas que se utilizan para guardar archivos de diferentes maneras.
+ Aspose.Cells proporciona el**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)** que representa un archivo de Excel Microsoft y proporciona las propiedades y los métodos necesarios para trabajar con archivos de Excel. los**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)** la clase proporciona la**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** método utilizado para guardar archivos de Excel. los**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**El método tiene muchas sobrecargas que se utilizan para guardar archivos de diferentes maneras.
 
  El formato de archivo en el que se guarda el archivo lo decide el**[Guardar formato] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**enumeración
 
@@ -38,7 +38,7 @@ Aspose.Cells permite crear y guardar archivos. Este artículo explica las divers
 
 ## **Guardar archivo en diferentes formatos**
 
- Para guardar archivos en una ubicación de almacenamiento, especifique el nombre del archivo (completo con la ruta de almacenamiento) y el formato de archivo deseado (del**[Guardar formato] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumeración) al llamar al**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objetos**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**método.
+ Para guardar archivos en una ubicación de almacenamiento, especifique el nombre del archivo (completo con la ruta de almacenamiento) y el formato de archivo deseado (del**[Guardar formato] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**enumeración) al llamar al**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objetos**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**método.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 

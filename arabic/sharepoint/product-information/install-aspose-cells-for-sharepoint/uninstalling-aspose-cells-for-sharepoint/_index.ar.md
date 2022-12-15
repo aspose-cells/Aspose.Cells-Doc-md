@@ -1,16 +1,16 @@
 ﻿---
-title: يتم الآن إزالة تثبيت Aspose.Cells لـ SharePoint
+title: يتم إلغاء تثبيت Aspose.Cells for SharePoint
 type: docs
 weight: 50
 url: /ar/sharepoint/uninstalling-aspose-cells-for-sharepoint/
 ---
 {{% alert color="primary" %}} 
 
-لإلغاء تثبيت Aspose.Cells لـ SharePoint ، قم بتشغيل برنامج الإعداد. إذا كان Aspose.Cells لـ SharePoint مثبتًا بالفعل ، يقترح برنامج الإعداد إزالته أو إصلاحه.
+لإلغاء تثبيت Aspose.Cells for SharePoint ، قم بتشغيل برنامج الإعداد. إذا كان Aspose.Cells for SharePoint مثبتًا بالفعل ، يقترح برنامج الإعداد إزالته أو إصلاحه.
 
 {{% /alert %}} 
 ### **إلغاء التثبيت**
- أثناء الإزالة ، يقوم برنامج الإعداد بإلغاء تنشيط Aspose.Cells لـ SharePoint لكافة مجموعات المواقع وسحب الحل من مزرعة الخوادم.
+ أثناء الإزالة ، يقوم برنامج الإعداد بإلغاء تنشيط Aspose.Cells for SharePoint لجميع مجموعات المواقع ويسحب الحل من مزرعة الخوادم.
 
 **يتم إزالة Aspose.Cells** 
 
@@ -21,7 +21,7 @@ url: /ar/sharepoint/uninstalling-aspose-cells-for-sharepoint/
 
 {{% alert color="primary" %}} 
 
- يرجى ملاحظة أن تشغيل ملف**بصلح** الخيار لا يعيد تنشيط Aspose.Cells لـ SharePoint في مجموعات الموقع. بدلاً من ذلك ، يجب تنشيط الميزة يدويًا بعد إعادة النشر باستخدام**بصلح** اختيار.
+ يرجى ملاحظة أن تشغيل ملف**بصلح**الخيار لا يعيد تنشيط Aspose.Cells for SharePoint على مجموعات الموقع. بدلاً من ذلك ، يجب تنشيط الميزة يدويًا بعد إعادة النشر باستخدام**بصلح** اختيار.
 
  إلغاء التثبيت باستخدام**إزالة** الخيار ثم إعادة التثبيت قد يكون أكثر ملاءمة لأنه يسمح لك بتحديد تطبيقات الويب المستهدفة ومجموعات المواقع أثناء التثبيت.
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour les notes de publication de Reporting Services 1.7.0
+title: Aspose.Cells for Reporting Services 1.7.0 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Cette page contient des notes de version pour[Aspose.Cells pour les services de rapports 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
+ Cette page contient des notes de version pour[Aspose.Cells for Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /fr/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
  Quoi de neuf?
 
-- Aspose.Cells pour que le concepteur Reporting Services prenne en charge la création d'un modèle de matrice dans Excel.
+- Le concepteur Aspose.Cells for Reporting Services prend en charge la création d'un modèle de matrice dans Excel.
 - Prend en charge le formatage conditionnel pour les éléments de rapport de tableau et de matrice.
 - Ajoute un élément de rapport de tableau matriciel de rendu uniquement pour les formats CSV et TXT dans SQL Server 2008 Reporting Services.
 
@@ -26,11 +26,11 @@ url: /fr/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-- Correction de Aspose.Cells pour le concepteur de rapports Reporting Services et le bogue de format de rapport.
+- Correction du bogue du concepteur de rapport Aspose.Cells for Reporting Services et du format de rapport.
 - Correction d'un bug de masquage de ligne.
 - Correction de l'algorithme de fusion de lignes.
 
- Problèmes résolus dans Aspose.Cells pour Reporting Services 1.7.0.
+ Problèmes résolus dans Aspose.Cells for Reporting Services 1.7.0.
 
 
 

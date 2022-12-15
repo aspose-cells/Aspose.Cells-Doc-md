@@ -5,7 +5,7 @@ weight: 40
 url: /de/java/freeze-panes-in-php/
 ---
 ## **Aspose.Cells - Fenster einfrieren**
- So frieren Sie Fenster im Tabellenkalkulationsdokument ein**Aspose.Cells Java für PHP** , einfach aufrufen**FreezePanes** Modul.
+ So frieren Sie Fenster im Tabellenkalkulationsdokument ein**Aspose.Cells Java for PHP** , einfach aufrufen**FreezePanes** Modul.
 
 **PHP-Code**
 

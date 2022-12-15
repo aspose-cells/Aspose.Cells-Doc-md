@@ -18,7 +18,7 @@ Microsoft Excel 支持两种日期系统：1900 日期系统（Windows 在 Excel
 
    **在 Microsoft Excel 中选择 1904 日期系统** 
 
-![待办事项：图片_替代_文本](implement-1904-date-system_1.png)
+![待办事项：图像_替代_文本](implement-1904-date-system_1.png)
 
 请参阅以下示例代码，了解如何使用 Aspose.Cells API 实现此目的。
 

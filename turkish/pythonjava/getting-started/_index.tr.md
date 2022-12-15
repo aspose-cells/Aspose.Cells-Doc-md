@@ -5,10 +5,10 @@ type: docs
 weight: 4
 url: /tr/python-java/getting-started/ 
 keywords: python, excel, instal
-description: Java aracılığıyla Python için Aspose.Cells kurulumu ve kurulum yönergeleri.
+description: Kurulum Aspose.Cells for Python via Java ve kurulum yönergeleri.
 ---
 ## **sistem gereksinimleri**
- Java üzerinden Python için Aspose.Cells, platformdan bağımsız API'dir ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Python](https://www.python.org/downloads/) kurulur. Kurulum yapılmadan önce makinenin Java 8 veya üzeri sürümleri olmalıdır.
+Aspose.Cells for Python via Java, platformdan bağımsızdır API ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Python](https://www.python.org/downloads/) kurulur. Kurulum yapılmadan önce makinenin Java 8 veya üzeri sürümleri olmalıdır.
 
 ## **Python Versiyon**
 - Python 3.5 veya üstü
@@ -27,8 +27,8 @@ PATH=C:\jdk1.8.0_131\bin;
 
 {{< /highlight >}}
   
-- **Pypi'den Java aracılığıyla Python için Aspose.Cells'i kurun**
- Java üzerinden Python için Aspose.Cells'i rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells/) aşağıdaki komutla.
+- **Pypi'den Aspose.Cells for Python via Java'i kurun**
+ Aspose.Cells for Python via Java den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells/) aşağıdaki komutla.
 {{< highlight "java" >}}
 
  $ pip install aspose-cells
@@ -38,8 +38,8 @@ PATH=C:\jdk1.8.0_131\bin;
 ### **Linux:**
 - **Java'i yükleyin**
   
-- **Pypi'den Java aracılığıyla Python için Aspose.Cells'i kurun**
- Java üzerinden Python için Aspose.Cells'i rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells/) aşağıdaki komutla.
+- **Pypi'den Aspose.Cells for Python via Java'i kurun**
+ Aspose.Cells for Python via Java den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells/) aşağıdaki komutla.
 {{< highlight "java" >}}
 
  $ pip install aspose-cells
@@ -49,8 +49,8 @@ PATH=C:\jdk1.8.0_131\bin;
 ### **Mac os işletim sistemi:**
 - **Java'i yükleyin**
   
-- **Pypi'den Java aracılığıyla Python için Aspose.Cells'i kurun**
- Java üzerinden Python için Aspose.Cells'i rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells/) aşağıdaki komutla.
+- **Pypi'den Aspose.Cells for Python via Java'i kurun**
+ Aspose.Cells for Python via Java den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells/) aşağıdaki komutla.
 {{< highlight "java" >}}
 
  $ pip install aspose-cells

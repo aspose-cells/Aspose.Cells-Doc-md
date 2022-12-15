@@ -4,18 +4,18 @@ type: docs
 weight: 20
 url: /sv/php-java/setup-and-installation-guidelines/
 keywords: php, excel, instal
-description: setup Aspose.Cells för PHP via Java och installationsriktlinjer
+description: installation Aspose.Cells for PHP via Java och installationsriktlinjer
 ---
 ## **Systemkrav**
-Aspose.Cells för PHP via Java är plattformsoberoende API och kan användas på vilken plattform som helst (Windows, Linux, MacOS etc.) där[PHP](https://www.php.net/downloads.php)7 eller fler versioner är installerade. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
+Aspose.Cells for PHP via Java är plattformsoberoende API och kan användas på vilken plattform som helst (Windows, Linux, MacOS etc.) där[PHP](https://www.php.net/downloads.php)7 eller fler versioner är installerade. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
 ## **Installation och användning**
-Aspose.Cells för PHP via Java distribueras som ett ZIP-arkiv.
+Aspose.Cells for PHP via Java distribueras som ett ZIP-arkiv.
 
-För att installera miljön, installera och använda Aspose.Cells för PHP via Java, följ instruktionerna:
+För att installera miljön, installera och använda Aspose.Cells for PHP via Java, följ instruktionerna:
 ### **Linux:**
 - Ladda ner[PHP](https://www.php.net/downloads.php)källa och installera den. Eller använd kommandot "sudo apt install php-xxx" för att installera php binär.
 - Installera Oracle JDK (1.7 eller 1.8) för Linux, konfigurera miljövariabeln JAVA_HOME.
-- Ladda ner/hämta "Aspose.Cells för PHP via Java" API och extrahera det. Det kommer att finnas en mapp som heter "aspose.cells".
+- Ladda ner/hämta "Aspose.Cells for PHP via Java" API och extrahera den. Det kommer att finnas en mapp som heter "aspose.cells".
 - Ladda ner PHP/Java Bridge binär (JavaBridge.jar) från http://php-java-bridge.sourceforge.net/pjb/download.php och spara den i mappen "aspose.cells".
 - Ladda ner java/Java.inc PHP-bibliotek (Java.inc) från http://php-java-bridge.sourceforge.net/pjb/download.php och spara det i mappen "aspose.cells".
 - Kör "PHP/Java Bridge" i mappen ovan med kommandot nedan.
@@ -29,7 +29,7 @@ För att installera miljön, installera och använda Aspose.Cells för PHP via J
 ### **Windows:**
 - Ladda ner[PHP](https://www.php.net/downloads.php)windows binär och lägg till "php.exe" till PATH.
 - Installera Oracle JDK (1.7 eller 1.8) för Windows och konfigurera miljövariabeln JAVA_HOME.
-- Ladda ner "Aspose.Cells för PHP via Java" API och extrahera det. Det kommer att finnas en mapp som heter "aspose.cells".
+- Ladda ner "Aspose.Cells for PHP via Java" API och extrahera den. Det kommer att finnas en mapp som heter "aspose.cells".
 - Ladda ner PHP/Java Bridge binär (JavaBridge.jar) från http://php-java-bridge.sourceforge.net/pjb/download.php och spara den i mappen "aspose.cells".
 - Ladda ner java/Java.inc PHP-bibliotek (Java.inc) från http://php-java-bridge.sourceforge.net/pjb/download.php och spara det i mappen "aspose.cells".
 - Kör "PHP/Java Bridge" i mappen ovan med kommandot nedan. Välj 8080 http-lyssnarport när bryggan startade och klicka på OK-knappen.
@@ -43,7 +43,7 @@ För att installera miljön, installera och använda Aspose.Cells för PHP via J
 ### **Mac:**
 - Installera[PHP](https://www.php.net/downloads.php).
 - Installera Oracle JDK (1.7 eller 1.8) för Mac, konfigurera miljövariabeln JAVA_HOME.
-- Ladda ner "Aspose.Cells för PHP via Java" API och extrahera det. Det kommer att finnas en mapp som heter "aspose.cells".
+- Ladda ner "Aspose.Cells for PHP via Java" API och extrahera den. Det kommer att finnas en mapp som heter "aspose.cells".
 - Ladda ner PHP/Java Bridge binär (JavaBridge.jar) från http://php-java-bridge.sourceforge.net/pjb/download.php och spara den i mappen "aspose.cells".
 - Ladda ner java/Java.inc PHP-bibliotek (Java.inc) från http://php-java-bridge.sourceforge.net/pjb/download.php och spara det i mappen "aspose.cells".
 - Kör "PHP/Java Bridge" i mappen ovan med kommandot nedan. Välj 8080 http-lyssnarport när bryggan startade och klicka på OK-knappen.

@@ -8,11 +8,11 @@ description: Aspose.Cells può semplicemente ottenere, impostare e calcolare for
 ---
 ## **introduzione**
 
-Una delle caratteristiche interessanti di Microsoft Excel è la sua capacità di elaborare dati con formule e funzioni. Microsoft Excel fornisce una serie di funzioni e formule integrate che consentono agli utenti di eseguire rapidamente calcoli complessi. Aspose.Cells fornisce anche un vasto set di funzioni e formule integrate che aiutano gli sviluppatori a calcolare facilmente i valori. Aspose.Cells supporta anche funzioni aggiuntive. Inoltre, Aspose.Cells supporta l'array e le formule R1C1 in Aspose.Cells.
+Una delle caratteristiche interessanti di Microsoft Excel è la sua capacità di elaborare dati con formule e funzioni. Microsoft Excel fornisce una serie di funzioni e formule integrate che aiutano gli utenti a eseguire rapidamente calcoli complessi. Aspose.Cells fornisce anche un vasto set di funzioni e formule integrate che aiutano gli sviluppatori a calcolare facilmente i valori. Aspose.Cells supporta anche funzioni aggiuntive. Inoltre, Aspose.Cells supporta l'array e le formule R1C1 in Aspose.Cells.
 
 ## **Uso di formule e funzioni**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione. Ogni articolo della collezione Cells rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione. Ogni articolo della collezione Cells rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe.
 
  È possibile applicare formule alle celle utilizzando proprietà e metodi offerti dal[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe, discussa più dettagliatamente di seguito.
 
@@ -25,7 +25,7 @@ Una delle caratteristiche interessanti di Microsoft Excel è la sua capacità di
 
  Le funzioni o le formule integrate vengono fornite come funzioni già pronte per ridurre gli sforzi e il tempo degli sviluppatori. Vedere[un elenco di funzioni integrate](/cells/it/net/supported-formula-functions/) supportato da Aspose.Cells. Le funzioni sono elencate in ordine alfabetico. Altre funzioni saranno supportate in futuro.
 
- Aspose.Cells supporta la maggior parte delle formule o delle funzioni offerte da Microsoft Excel. Gli sviluppatori possono utilizzare queste formule tramite API o[foglio di calcolo del progettista](/cells/it/net/what-is-a-designer-spreadsheet/). Aspose.Cells supporta un vasto set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
+ Aspose.Cells supporta la maggior parte delle formule o delle funzioni offerte da Microsoft Excel. Gli sviluppatori possono utilizzare queste formule tramite l'API o[foglio di calcolo del progettista](/cells/it/net/what-is-a-designer-spreadsheet/). Aspose.Cells supporta un vasto set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
 
  Utilizzare il[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe'[**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)proprietà per aggiungere una formula a una cella.**Formule complesse**, Per esempio
 
@@ -59,7 +59,7 @@ Il seguente file XLAM deve essere scaricato per registrare la funzione di aggiun
 
 Le formule di matrice sono formule che accettano matrici, invece di singoli numeri, come argomenti delle funzioni che compongono la formula. Quando viene visualizzata una formula di matrice, è racchiusa tra parentesi graffe ({}).
 
-Alcune funzioni di Excel Microsoft restituiscono matrici di valori. Per calcolare più risultati con una formula di matrice, inserisci la matrice in un intervallo di celle con lo stesso numero di righe e colonne degli argomenti della matrice.
+Alcune funzioni di Microsoft Excel restituiscono matrici di valori. Per calcolare più risultati con una formula di matrice, inserisci la matrice in un intervallo di celle con lo stesso numero di righe e colonne degli argomenti della matrice.
 
  È possibile applicare una formula di matrice a una cella chiamando il metodo[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) metodo. Il[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) metodo accetta i seguenti parametri:
 

@@ -35,6 +35,6 @@ Noi siamo
 - ChartType errato del grafico a dispersione
 - Il valore doppio perde precisione durante la lettura dal file modello CSV
 - La serie di grafici è capovolta durante la conversione in un'immagine
-- Il file XLSX risalvato provoca l'errore "Excelfound contenuto illeggibile…".
+- Il file XLSX risalvato causa l'errore "Excelfound contenuto illeggibile…".
 - La tabella pivot salvata ha causato "ProtectionView" quando è stata aperta in MS Excel
 - Utilizzo della convalida dell'elenco tramite Aspose.Cellscreates un file XLS che non funziona dopo aver modificato il separatore di elenco del sistema

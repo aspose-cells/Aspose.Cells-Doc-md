@@ -12,6 +12,6 @@ Aspose.Cells API:er gör det möjligt att lägga till WordArt-vattenstämplar p�
 
 ## **Låsning av WordArt vattenstämpel**
 
-Aspose.Cells API:er tillåter låsning av vissa aspekter av vattenstämpeln så att användarinteraktionen kan begränsas eller helt blockeras. Följande kodavsnitt visar användningen av Aspose.Cells för Java API för att skapa ett vattenmärke för varje kalkylblad i det laddade kalkylarket och låsa val, förflyttning, redigering och ändra storlek på vattenstämpeln.
+Aspose.Cells API:er tillåter låsning av vissa aspekter av vattenstämpeln så att användarinteraktionen kan begränsas eller helt blockeras. Följande kodavsnitt visar användningen av Aspose.Cells for Java API för att skapa en vattenstämpel för varje kalkylblad i det laddade kalkylarket och låsa val, förflyttning, redigering och ändra storlek på vattenstämpeln.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LockWordArtWatermark-LockWordArtWatermark.java" >}}

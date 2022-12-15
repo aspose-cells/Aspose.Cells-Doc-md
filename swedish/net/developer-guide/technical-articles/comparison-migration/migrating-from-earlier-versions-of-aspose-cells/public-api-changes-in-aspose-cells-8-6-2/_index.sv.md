@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.6.2
+title: Offentlig API Ändringar i Aspose.Cells 8.6.2
 type: docs
 weight: 210
 url: /sv/net/public-api-changes-in-aspose-cells-8-6-2/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för återuppringning med smarta markörer**
- Den här utgåvan av Aspose.Cells för .NET API har avslöjat egenskapen WorkbookDesigner.CallBack och ISmartMarkerCallBack-gränssnittet som tillsammans tillåter[få meddelanden om cellreferens och/eller smartmarkör som bearbetas](/cells/sv/net/getting-notifications-while-merging-data-with-smart-markers/). Följande kodbit demonstrerar användningen av ISmartMarkerCallBack-gränssnittet för att definiera en ny klass som hanterar call back för WorkbookDesigner.Process-metoden.
+ Den här versionen av Aspose.Cells for .NET API har avslöjat egenskapen WorkbookDesigner.CallBack och ISmartMarkerCallBack-gränssnittet som tillsammans tillåter[få meddelanden om cellreferens och/eller smartmarkör som bearbetas](/cells/sv/net/getting-notifications-while-merging-data-with-smart-markers/). Följande kodbit demonstrerar användningen av ISmartMarkerCallBack-gränssnittet för att definiera en ny klass som hanterar call back för WorkbookDesigner.Process-metoden.
 
 **C#**
 
@@ -77,7 +77,7 @@ designer.Process(false);
 
 
 ### **Metoddiagram.ToPdf tillagd**
- Aspose.Cells för .NET 8.6.2 har exponerat metoden Chart.ToPdf som kan användas för att[rendera diagramformen direkt till PDF-format](/cells/sv/net/convert-an-excel-chart-to-image/). Nämnda metod accepterar för närvarande en parameter av typen sträng som filsökvägsplats för att lagra den resulterande filen på disken.
+ Aspose.Cells for .NET 8.6.2 har exponerat metoden Chart.ToPdf som kan användas för att[rendera diagramformen direkt till PDF-format](/cells/sv/net/convert-an-excel-chart-to-image/). Nämnda metod accepterar för närvarande en parameter av typen sträng som filsökvägsplats för att lagra den resulterande filen på disken.
 
 Följande är det enkla användningsscenariot.
 
@@ -105,7 +105,7 @@ chart.ToPdf(outputFilePath);
 
 
 ### **Metod Workbook.RemoveUnusedStyles tillagd**
- Aspose.Cells för .NET 8.6.2 har avslöjat metoden Workbook.RemoveUnusedStyles som kan användas för att[ta bort alla oanvända Style-objekt från poolen av stilar](/cells/sv/net/remove-unused-styles-inside-the-workbook/).
+ Aspose.Cells for .NET 8.6.2 har exponerat metoden Workbook.RemoveUnusedStyles som kan användas för att[ta bort alla oanvända Style-objekt från poolen av stilar](/cells/sv/net/remove-unused-styles-inside-the-workbook/).
 
 Följande är det enkla användningsscenariot.
 
@@ -145,7 +145,7 @@ Style style = book.Worksheets[0].Cells.Style;
 
 
 ### **Händelser tillagda för GridWeb**
-Aspose.Cells.GridWeb för .NET 8.6.2 har avslöjat följande två nya händelser.
+Aspose.Cells.GridWeb for .NET 8.6.2 har avslöjat följande två nya händelser.
 
 1. AjaxCallFinished: Avfyras när AJAX-uppdateringen av kontrollen är klar. (EnableAJAX ska ställas in på sant).
 1. CellModifiedOnAjax: Avfyras när cellen modifieras i AJAX-anrop.

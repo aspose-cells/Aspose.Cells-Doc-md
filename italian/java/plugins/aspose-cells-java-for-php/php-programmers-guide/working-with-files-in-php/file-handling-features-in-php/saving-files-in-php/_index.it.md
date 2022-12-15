@@ -6,7 +6,7 @@ url: /it/java/saving-files-in-php/
 ---
 ## **Aspose.Cells - Salvataggio File**
 ### **Salvataggio del file in una posizione**
- Se gli sviluppatori devono salvare i propri file utilizzando**Aspose.Cells Java per PHP** in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando l'estensione**FileFormatType**enumerazione) mentre si chiama il**Salva**metodo di**Cartella di lavoro**oggetto.
+ Se gli sviluppatori devono salvare i propri file utilizzando**Aspose.Cells Giava for PHP** in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando l'estensione**FileFormatType**enumerazione) mentre si chiama il**Salva**metodo di**Cartella di lavoro**oggetto.
 
 **Codice PHP**
 

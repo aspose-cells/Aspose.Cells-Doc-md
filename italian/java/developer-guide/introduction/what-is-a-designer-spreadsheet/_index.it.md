@@ -8,7 +8,7 @@ url: /it/java/what-is-a-designer-spreadsheet/
 
 {{% alert color="primary" %}}
 
-Puoi utilizzare Aspose.Cells per creare file Excel da zero con l'aiuto del suo flessibile API. Uno degli usi più comuni per Aspose.Cells è creare e popolare file Excel con dati, che possono provenire da un database esistente, un utente o altre fonti, dinamicamente. Oltre ad aggiungere dati ai file Excel, dovrai anche scrivere per applicare la formattazione (look and feel).
+Puoi utilizzare Aspose.Cells per creare file Excel da zero con l'aiuto della sua API flessibile. Uno degli usi più comuni per Aspose.Cells è creare e popolare file Excel con dati, che possono provenire da un database esistente, un utente o altre fonti, in modo dinamico. Oltre ad aggiungere dati ai file Excel, dovrai anche scrivere per applicare la formattazione (look and feel).
 
 La formattazione richiede tempo. Cosa potrebbe accelerare lo sviluppo?
 

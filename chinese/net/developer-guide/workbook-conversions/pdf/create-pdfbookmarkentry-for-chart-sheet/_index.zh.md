@@ -19,7 +19,7 @@ url: /zh/net/create-pdfbookmarkentry-for-chart-sheet/
 
 以下屏幕截图显示了[输出PDF](61767757.pdf)生成的示例代码供参考。
 
-![待办事项：图片_替代_文本](create-pdfbookmarkentry-for-chart-sheet_1.png)
+![待办事项：图像_替代_文本](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
 ## **示例代码**
 

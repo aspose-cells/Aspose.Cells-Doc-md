@@ -8,7 +8,7 @@ url: /sv/net/wrapping-cell-text/
 
 Radbrytning gör det lättare att läsa: en cell med raderad text expanderas för att passa texten så att texten inte visas över andra celler.
 
-Med Aspose.Cells för .NET kan utvecklare utföra de flesta uppgifter i sina applikationer som användare kan utföra med Microsoft Excel, inklusive radbrytning av text i celler. Den här artikeln förklarar hur och jämför uppgiften med VSTO och Aspose.Cells. Aspose.Cells är optimerad för effektiv kodning och fungerar utan Microsoft Automation.
+Med Aspose.Cells for .NET kan utvecklare utföra de flesta uppgifterna i sina applikationer som användare kan utföra med Microsoft Excel, inklusive radbrytning av text i celler. Den här artikeln förklarar hur och jämför uppgiften med VSTO och Aspose.Cells. Aspose.Cells är optimerad för effektiv kodning och fungerar utan Microsoft Automation.
 
 {{% /alert %}}
 
@@ -24,11 +24,11 @@ Så här skapar du ett kalkylblad med två celler, en med radbruten text och en 
  1. Lägg till radbruten text i cell A5.
 1. Spara kalkylarket.
 
- Kodexemplen nedan visar hur du utför dessa steg med hjälp av[VSTO](/cells/sv/net/wrapping-cell-text/) med antingen C# eller Visual Basic. Kodexempel som visar hur man gör samma sak med hjälp av[Aspose.Cells för .NET](/cells/sv/net/wrapping-cell-text/), återigen med antingen C# eller Visual Basic följ omedelbart efter.
+ Kodexemplen nedan visar hur du utför dessa steg med hjälp av[VSTO](/cells/sv/net/wrapping-cell-text/) med antingen C# eller Visual Basic. Kodexempel som visar hur man gör samma sak med hjälp av[Aspose.Cells for .NET](/cells/sv/net/wrapping-cell-text/), återigen med antingen C# eller Visual Basic följ omedelbart efter.
 
 Att köra koden resulterar i ett kalkylblad med två celler, en som har text som inte har raderats och en som har:
 
-|<p>**Skriv ut radbrytande celltext med VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Skriv ut radbrytande celltext med Aspose.Cells för .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+|<p>**Skriv ut radbrytande celltext med VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Skriv ut radbrytande celltext med Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
 |:- |:- |
 
 ### **Radbrytning Cell Text med VSTO**
@@ -85,7 +85,7 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **Radbrytning Cell Text med Aspose.Cells för .NET**
+### **Radbrytning Cell Text med Aspose.Cells for .NET**
 
 **C#**
 

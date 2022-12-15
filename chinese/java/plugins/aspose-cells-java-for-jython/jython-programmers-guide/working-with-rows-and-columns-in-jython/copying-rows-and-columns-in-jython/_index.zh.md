@@ -5,7 +5,7 @@ weight: 30
 url: /zh/java/copying-rows-and-columns-in-jython/
 ---
 ## **Aspose.Cells - 复制行和列**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+使用附加文件**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
 
 **Jython代码**
 
@@ -43,7 +43,7 @@ self.copy_columns()
 
 工作簿 = 工作簿（dataDir + 'Book1.xls'）
 
- # 访问 Excel 文件中的第一个工作表
+ 访问 Excel 文件中的第一个工作表
 
 工作表 = workbook.getWorksheets().get(0)
 
@@ -69,7 +69,7 @@ workbook.save(dataDir + "复制行.xls")
 
 工作簿 = 工作簿（）
 
- # 访问 Excel 文件中的第一个工作表
+ 访问 Excel 文件中的第一个工作表
 
 工作表 = workbook.getWorksheets().get(0)
 

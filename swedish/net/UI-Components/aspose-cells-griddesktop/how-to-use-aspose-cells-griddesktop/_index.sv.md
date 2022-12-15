@@ -16,12 +16,12 @@ Utvecklare som arbetade med Aspose.Grid.Desktop kan stöta på problem när de a
 
 1. **Aspose.Grid.Desktop namespace har bytt namn till Aspose.Cells.GridDesktop namespace.**
 ## **Skapa och använda Aspose.Cells.GridDesktop Control**
-### **Skapa ett Windows-applikationsprojekt**
+### **Skapa ett Windows applikationsprojekt**
 Först av allt, skapa ett Windows-programprojekt där du kan använda Aspose.Cells.GridDesktop-kontrollen. Följ följande steg;
 
 1. **Öppna Visual Studio.NET IDE.**
 1. **Från Arkiv-menyn, välj Ny, projektet.**
-1. **Välj Windows-program i dialogrutan Nytt projekt.**
+1. **Välj Windows Application från dialogrutan Nytt projekt.**
 
 Efter att ha utfört ovanstående steg kommer ett fönsterprogram att skapas med tomt formulär.
 ### **Lägger till GridDesktop Control till formuläret**
@@ -35,6 +35,6 @@ Det är inte bara möjligt att lägga till värden till kontrollen, utan också 
 
 {{% alert color="primary" %}} 
 
-Aspose.Grid.Desktop har bytt namn och blivit en del av Aspose.Cells så det är inte längre möjligt att använda äldre version av Aspose.Grid.Desktop längre. Bara för att betona, det är inte mycket arbete involverat i att uppgradera till den senaste versionen av Aspose.Cells.GridDesktop-komponenten. Det finns ingen förändring i API eftersom klasserna med medlemmarna, strukturerna, uppräkningarna etc. förblir desamma. Den enda ändring som har gjorts gäller kontrollens namnutrymme.
+Aspose.Grid.Desktop har bytt namn och blivit en del av Aspose.Cells så det är inte längre möjligt att använda äldre version av Aspose.Grid.Desktop längre. Bara för att betona, det är inte mycket arbete involverat i att uppgradera till den senaste versionen av Aspose.Cells.GridDesktop-komponenten. Det finns ingen förändring i API eftersom klasserna med medlemmarna, strukturer, uppräkningar etc. förblir desamma. Den enda ändring som har gjorts gäller kontrollens namnutrymme.
 
 {{% /alert %}}

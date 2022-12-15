@@ -12,7 +12,7 @@ url: /es/net/aspose-cells-griddesktop-desktop-grid-control/
 ### **Características de la hoja de trabajo**
 - Agregar, insertar o eliminar hojas de trabajo.
 - Cambiar el nombre de las hojas de trabajo.
-- Ordenar datos de la hoja de trabajo.
+- Ordenar datos de la hoja de cálculo.
 ### **Funciones de fila y columna**
 - Agregar, insertar o eliminar filas y columnas.
 - Ocultar o mostrar filas y columnas.

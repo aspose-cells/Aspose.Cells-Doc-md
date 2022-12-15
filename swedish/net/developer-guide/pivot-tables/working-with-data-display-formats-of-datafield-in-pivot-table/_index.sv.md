@@ -12,7 +12,7 @@ Aspose.Cells stöder alla datavisningsformat i DataField.
 
 ## **"Rank minst till störst" och "Rank störst till minsta" visningsformatalternativ**
 
-ASpose.Cells ger möjlighet att ställa in visningsformatalternativet för pivotfält. För detta tillhandahåller API:et[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) fast egendom. För att rangordna störst till minst kan du ställa in[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)egendom till[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Följande kodavsnitt visar hur du ställer in alternativen för visningsformat.
+ASpose.Cells ger möjlighet att ställa in visningsformatalternativet för pivotfält. För detta tillhandahåller API[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) fast egendom. För att rangordna störst till minst kan du ställa in[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)egendom till[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Följande kodavsnitt visar hur du ställer in alternativen för visningsformat.
 
 Exempel på käll- och utdatafiler kan laddas ner härifrån för att testa exempelkoden:
 

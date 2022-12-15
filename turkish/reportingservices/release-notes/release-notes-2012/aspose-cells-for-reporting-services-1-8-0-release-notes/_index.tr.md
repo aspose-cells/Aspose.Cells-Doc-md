@@ -1,16 +1,16 @@
 ﻿---
-title: Raporlama Hizmetleri 1.8.0 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 1.8.0 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[Raporlama Hizmetleri 1.8.0 için Aspose.Cells](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
 
 {{% /alert %}} 
 
- Raporlama Hizmetleri v1.8.0 için Aspose.Cells'i duyurmaktan mutluluk duyuyoruz. Birkaç iyileştirme içerir ve bir dizi düzeltmeyi çözer.
+ Aspose.Cells for Reporting Services v1.8.0'ı duyurmaktan mutluluk duyuyoruz. Birkaç iyileştirme içerir ve bir dizi düzeltmeyi çözer.
 
  Genel Özellikler
 
@@ -19,13 +19,13 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 - Çalışma Kitabını Koruma Desteği
 - Çalışma Sayfasını Koruma Desteği
 - Şuraya Filtre işlevi ekle:
- Raporlama Hizmetleri istemci bileşeni için Aspose.Cells
+ Aspose.Cells for Reporting Services istemci bileşeni
 - Office 2010 x64'ü Dahil Et
- Reporting Services istemci bileşeni için Aspose.Cells desteği
+ Aspose.Cells for Reporting Services istemci bileşeni desteği
 
 
 
-Optimizasyon / Performans
+ Optimizasyon / Performans
 
 - Raporlama için Aspose.Cells
  Hizmetler, performans açısından genel olarak optimize edilmiştir
@@ -61,13 +61,13 @@ Optimizasyon / Performans
 
 
 - Sunucu Bileşeni - Alanlar, XLSX olarak oluşturulduğunda birleştirilir
-- Sunucu Bileşeni - Raporlama Hizmetleri için dışa aktarma sorunları Aspose.Cells itibarıyla
+- Sunucu Bileşeni - Aspose.Cells for Reporting Services tarihine kadar dışa aktarma sorunları
 - Sunucu Bileşeni - Oluşturulduktan sonra gizli sütun görünür
 - Sunucu Bileşeni - Sütun grubu başlıkları eksik
 - Sunucu Bileşeni - Sayfa Sonu Uygulama sorunu (XL#38567)
 - Sunucu Bileşeni - Bir rapor formüller içinde '*' içeriyorsa, Rapor yayınlanamıyor
 
-30962 - ServerComponent - İki tablix arasında büyük boşluk veya boşluk
+ 30962 - ServerComponent - İki tablix arasında büyük boşluk veya boşluk
 
 - Sunucu Bileşeni – Cell'in ReportingServices'teki Arka Plan Rengi Sorunu (XL#CCS)
 - Sunucu Bileşeni - Dinamik Formül ve Tablo Altbilgileri sorunu

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells для Android через Java 8.9.0 Примечания к выпуску
+title: Aspose.Cells for Android via Java 8.9.0 Примечания к выпуску
 type: docs
 weight: 30
 url: /ru/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
@@ -56,7 +56,7 @@ url: /ru/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41858|CellsException: ошибка при расчете Cell [0BMW CAN Bus Codes V0.4! R4], в Workbook.calculateFormula|Исключение|
 |CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 в Workbook.save при повторном сохранении XLS|Исключение|
 |CELLSJAVA-41864|Исключение: java.lang.IllegalStateException: неверная кодировка: null при повторном сохранении файла XLS|Исключение|
-|CELLSJAVA-41901|Полосы перемещаются вверх в выходном PDF-файле|Улучшение|
+|CELLSJAVA-41901|Полосы в выходном PDF-файле движутся вверх|Улучшение|
 |CELLSJAVA-41909|Указание пользовательских десятичных и групповых разделителей для книги не работает|Ошибка|
 |CELLSJAVA-41895|Результат расчета формулы отличается от собственного расчета Excel|Ошибка|
 |CELLSJAVA-41917|Флажки отображаются неправильно при использовании метода SheetRender.toImage()|Ошибка|
@@ -81,7 +81,7 @@ url: /ru/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41911|Исключение: «Ошибка в Cell: ... -Недопустимая формула» при загрузке файла Excel через API Aspose.Cells.|Исключение|
 |CELLSJAVA-41906|Конструктор рабочей книги выдает исключение: «java.lang.NumberFormatException: пустая строка»|Исключение|
 ## **Public API и обратно несовместимые изменения**
-Ниже приведен список любых изменений, внесенных в общедоступный API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в Aspose.Cells для Android. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Android. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форум поддержки Aspose.Cells.
 ### **Добавляет свойство WorkbookSetting.PaperSize.**
 Он используется для установки размера бумаги принтера по умолчанию в качестве размера бумаги по умолчанию для книги.
 ### **Добавляет класс LoadDataFilterOptions и свойство LoadOptions.LoadDataFilterOptions.**
@@ -124,6 +124,6 @@ url: /ru/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.8.1, Aspose.Cells for .NET v8.8.2, Aspose.Cells for .NET v8.8.3, Aspose.Cells for .NET v8 .9.0, Aspose.Cells for Java v8.8.1, Aspose.Cells for Java v8.8.2, Aspose.Cells for Java v8.8.3 и Aspose.Cells for Java v8.0481 v8.0471 для Android 1.0.9.8.0 также включены в этот
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.8.1, Aspose.Cells for .NET v8.8.2, Aspose.Cells for .NET v8.8.3, Aspose.Cells for .NET v8. 9.0, Aspose.Cells for Java V8.8.1, Aspose.Cells for Java V8.8.2, Aspose.Cells for Java V8.8.3 и Aspose.Cells for Java V8.9.0.3 и Aspose.Cells for Java V8.9.0.0.3 и Aspose.Cells for Java V8.9.0.0.0.3.
 
 {{% /alert %}}

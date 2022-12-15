@@ -6,7 +6,7 @@ url: /sv/java/display-or-hide-scroll-bars-in-php/
 ---
 ## **Aspose.Cells - Visa eller dölj rullningslister**
 ### **Döljer rullningslister**
- För att dölja rullningslister med**Aspose.Cells Java för PHP** , ringa upp**visa gömmer rullningslister** modul.
+ För att dölja rullningslister med**Aspose.Cells Java for PHP** , ringa upp**visa gömmer rullningslister** modul.
 
 **PHP-kod**
 

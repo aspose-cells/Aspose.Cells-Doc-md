@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.1.1
+title: Offentlig API Ändringar i Aspose.Cells 8.1.1
 type: docs
 weight: 50
 url: /sv/net/public-api-changes-in-aspose-cells-8-1-1/

@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 7.0.0 Release Notes
+title: Aspose.Cells for .NET 7.0.0 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-7-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.0.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.0.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.0.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.0.0/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v7.0.0!
+ Vi är glada att meddela Aspose.Cells for .NET v7.0.0!
 
 \1) Aspose.Cells 
 

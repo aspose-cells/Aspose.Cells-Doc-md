@@ -3,46 +3,46 @@ title: Komma igång
 type: docs
 weight: 10
 url: /sv/cpp/getting-started/
-description: Hur man installerar Aspose Cells för C++ och skapar en Hello World-applikation.
+description: Så här installerar du Aspose Cells for C++ och skapar en Hello World-applikation.
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan visar hur du installerar Aspose Cells för C++ och skapar en Hello World-applikation.
+Den här sidan visar hur du installerar Aspose Cells for C++ och skapar en Hello World-applikation.
 
 {{% /alert %}}
 
 ## **Installation**
 
-### **Installera Aspose Cells genom NuGet**
+### **Installera Aspose Cells till NuGet**
 
- NuGet är det enklaste sättet att ladda ner och installera Aspose.Cells för C++.
-1. Skapa ett Microsoft Visual Studio-projekt för C++.
+NuGet är det enklaste sättet att ladda ner och installera Aspose.Cells for C++.
+1. Skapa ett Microsoft Visual Studio-projekt for C++.
 2. Inkludera rubrikfilen "Aspose.Cells.h".
-3. Öppna Microsoft Visual Studio och NuGet-pakethanteraren.
- 4. Sök "aspose.cells.cpp" för att hitta önskad Aspose.Cells för C++.
-5. Klicka på "Installera", Aspose.Cells för C++ kommer att laddas ner och refereras till i ditt projekt.
+3. Öppna Microsoft Visual Studio och NuGet pakethanterare.
+ 4. Sök "aspose.cells.cpp" för att hitta önskad Aspose.Cells for C++.
+5. Klicka på "Installera", Aspose.Cells for C++ kommer att laddas ner och refereras till i ditt projekt.
 
-**![Installera Aspose Cells genom NuGet](InstallThroughNuget.png)**
+**![Installera Aspose Cells till NuGet](InstallThroughNuget.png)**
 
- Du kan också ladda ner den från nuget-webbsidan för aspose.cells:
-[Aspose.Cells för C++ NuGet-paket](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
+ Du kan också ladda ner den från webbsidan nuget för aspose.cells:
+[Aspose.Cells for C++ NuGet Paket](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
 
 [Fler steg för detaljer](/cells/sv/cpp/installation/)
 
-### **En demo för att använda Aspose.Cells för C++ på Windows**
+### **En demo för att använda Aspose.Cells for C++ på Windows**
 
-1. Ladda ner Aspose.Cells för C++ från följande sida:
-[Ladda ner Aspose.Cells för C++ (Windows)](https://downloads.aspose.com/cells/cpp/)
-2. Packa upp paketet så hittar du en demo som handlar om hur du använder Aspose.Cells för C++.
+1. Ladda ner Aspose.Cells for C++ från följande sida:
+[Ladda ner Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
+2. Packa upp paketet så hittar du en demo som handlar om hur du använder Aspose.Cells for C++.
 3. Öppna Demo.sln med Visual Studio 2017 eller högre version
-4. main.cpp: den här filen visar hur man kodar för att testa Aspose.Cells för C++
+4. main.cpp: den här filen visar hur man kodar för att testa Aspose.Cells for C++
  5. sourceFile/resultFile: dessa två mappar är lagringskataloger som används i main.cpp
 
-### **Hur man använder Aspose.Cells för C++ på Linux OS**
+### **Hur man använder Aspose.Cells for C++ på Linux OS**
 
-1. Ladda ner Aspose.Cells för C++ från följande sida:
-[Ladda ner Aspose.Cells för C++ (Linux)](https://downloads.aspose.com/cells/cpp/)
-2. Packa upp paketet så hittar du en demo som handlar om hur du använder Aspose.Cells för C++ för Linux.
+1. Ladda ner Aspose.Cells for C++ från följande sida:
+[Ladda ner Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp/)
+2. Packa upp paketet så hittar du en demo som handlar om hur du använder Aspose.Cells for C++ för Linux.
 3. Kör "cd Demo" i din Linux-kommandorad
 4. Kör "rm -rf build;mkdir build;cd build"
 5. Kör "cmake .." kommer att skapa en Makefile av CMakeLists.txt i Demo-mappen
@@ -51,7 +51,7 @@ Den här sidan visar hur du installerar Aspose Cells för C++ och skapar en Hell
 
 ## **Skapar Hello World-applikationen**
 
-Stegen nedan skapar applikationen Hello World med Aspose.Cells API:
+Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
 
 1.  Skapa en instans av[Arbetsbok](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) klass.
 1.  Om du har en licens, då[tillämpa den](/cells/sv/cpp/licensing/).

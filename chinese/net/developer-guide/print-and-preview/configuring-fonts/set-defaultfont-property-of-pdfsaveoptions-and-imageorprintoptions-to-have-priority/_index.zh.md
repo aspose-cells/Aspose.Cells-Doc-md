@@ -24,11 +24,11 @@ url: /zh/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-
 
 这是截图[模板文件](49446913.xlsx)在示例代码中使用。
 
-![待办事项：图片_替代_文本](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![待办事项：图像_替代_文本](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
 这是设置后的输出PNG图像**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/defaultfont/)**属性为“Times New Roman”。
 
-![待办事项：图片_替代_文本](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![待办事项：图像_替代_文本](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
 查看输出[国际电影节](48496672.tiff)设置后的图像**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/defaultfont/)**属性为“Times New Roman”。
 

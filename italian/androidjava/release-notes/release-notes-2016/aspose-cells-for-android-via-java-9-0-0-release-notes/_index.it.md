@@ -1,14 +1,14 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 9.0.0 Note di rilascio
+title: Aspose.Cells for Android via Java 9.0.0 Note di rilascio
 type: docs
 weight: 20
 url: /it/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 ---
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-41925|Il tempo di calcolo è aumentato con le recenti revisioni API|Nuova caratteristica|
+|CELLSJAVA-41925|Il tempo di calcolo è aumentato con le recenti revisioni dell'API|Nuova caratteristica|
 |CELLSJAVA-40958|È necessario un meccanismo di sostituzione dei caratteri configurabile dall'utente|Nuova caratteristica|
-|CELLSJAVA-41925|Il tempo di calcolo è aumentato con le recenti revisioni API|Nuova caratteristica|
+|CELLSJAVA-41925|Il tempo di calcolo è aumentato con le recenti revisioni dell'API|Nuova caratteristica|
 |CELLSJAVA-41947|Capacità di rilevare se un DataPoint è in torta o barra|Nuova caratteristica|
 |CELLSJAVA-41936|Il metodo Workbook.calculateFormula() non termina mai per il file Excel di origine|Aumento|
 |CELLSJAVA-41827|Il foglio di calcolo impiega più di 3 minuti per calcolare le formule con il metodo Workbook.calculateFormula()|Aumento|
@@ -37,7 +37,7 @@ url: /it/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41964|L'adattamento automatico non considera il livello di rientro|Insetto|
 |CELLSJAVA-40260|Modifica del testo di una WordArt esistente in un file Excel|Insetto|
 |CELLSJAVA-41927|Eccezione: "java.lang.OutOfMemoryError" durante il salvataggio nel formato di file HTML|Eccezione|
-|CELLSJAVA-41945|CellsException: errore nel calcolo di Cell[0Sheet1!E5]in Workbook.calculateFormula durante il calcolo della funzione TREND|Eccezione|
+|CELLSJAVA-41945|CellsException: errore nel calcolo di Cell[0Sheet1!E5] in Workbook.calculateFormula durante il calcolo della funzione TREND|Eccezione|
 |CELLSJAVA-41946|L'apertura del file Excel causa java.lang.NumberFormatException: per la stringa di input: "80000020"|Eccezione|
 |CELLSJAVA-41922|IndexOutOfBoundsException durante la copia delle celle|Eccezione|
 |CELLSJAVA-41971|Cell.getValidationValue() genera NullPointerException per il tipo di convalida personalizzato|Eccezione|
@@ -46,8 +46,8 @@ url: /it/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41961|Stringa non valida nell'eccezione del file si verifica durante l'apertura del sorgente a3.xls|Eccezione|
 |CELLSJAVA-41960|L'eccezione NegativeArraySizeException si verifica durante l'apertura dell'origine a2.xls|Eccezione|
 |CELLSJAVA-41959|L'eccezione NullPointerException si verifica durante l'apertura dell'origine a1.xlsx|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate allo API pubblico, ad esempio membri aggiunti, rinominati, rimossi o deprecati, nonché eventuali modifiche non compatibili con le versioni precedenti apportate a Aspose.Cells per Android. In caso di dubbi su qualsiasi modifica elencata, segnalarla al forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà CopyOptions.ReferToDestinationSheet e il metodo Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)**
 Quando si copia l'intervallo e il grafico fa riferimento al foglio di origine, False significa che l'origine dati del grafico copiato non verrà modificata. True significa che l'origine dati del grafico copiato fa riferimento al foglio di destinazione.
 ### **Aggiunge la proprietà HtmlSaveOptions.FilePathProvider**
@@ -117,6 +117,6 @@ Ottiene o imposta l'identificatore di classe dell'oggetto incorporato.
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.9.1, Aspose.Cells for .NET v8.9.2, Aspose.Cells for .NET v9.0.0, Aspose.Cells for Java v8 .9.1, Aspose.Cells for Java v8.9.2 e Aspose.Cells for Java v9.0.0 sono inclusi anche in questo Aspose.Cells per Android v9.0.0.
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.9.1, Aspose.Cells for .NET v8.9.2, Aspose.Cells for .NET v9.0.0, Aspose.Cells for Java v8 .9.1, Aspose.Cells for Java v8.9.2 e Aspose.Cells for Java v9.0.0 sono inclusi anche in questo Aspose.Cells for Android v9.0.0.
 
 {{% /alert %}}

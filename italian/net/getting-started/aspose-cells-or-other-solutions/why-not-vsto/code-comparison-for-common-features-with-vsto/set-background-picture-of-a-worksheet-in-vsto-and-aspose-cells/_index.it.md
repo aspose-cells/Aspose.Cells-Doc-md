@@ -10,7 +10,7 @@ Per applicare un'immagine di sfondo a un foglio di calcolo:
 1. Applicare l'immagine di sfondo.
 1. Salva la cartella di lavoro.
 
-Gli esempi di codice che seguono mostrano come eseguire questa operazione prima con VSTO, utilizzando C# o Visual Basic, quindi con Aspose.Cells for .NET, utilizzando nuovamente C# o Visual Basic.
+Gli esempi di codice che seguono mostrano come eseguire questa operazione prima con VSTO, usando C# o Visual Basic, quindi con Aspose.Cells for .NET, sempre usando C# o Visual Basic.
 
 Gli esempi di codice in questo articolo creano un foglio di lavoro con un'immagine di sfondo ripetuta, come quella nello screenshot qui sotto.
 

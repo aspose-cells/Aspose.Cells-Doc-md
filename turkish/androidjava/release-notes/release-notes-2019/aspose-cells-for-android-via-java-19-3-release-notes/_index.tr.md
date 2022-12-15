@@ -28,7 +28,7 @@ Bu sayfa, Java 19.3 üzerinden Android için Aspose.Cells için sürüm notları
 |CELLSJAVA-42807|Formül/işlev "ISOWEEKNUM" hesaplaması MS Excel ile aynı değil|Böcek|
 |CELLSJAVA-42794|ODS'den XLSX'e - Metin rengi değişti|Böcek|
 |CELLSJAVA-42795|ODS'den XLSX'e - Üstü çizili yazı tipi düzgün korunmadı|Böcek|
-|CELLSJAVA-42796|ODS'den XLSX'e - Metin kutusu boyutları değiştirildi|Böcek|
+|CELLSJAVA-42796|ODS'den XLSX'e - Metin kutusu boyutları değişti|Böcek|
 |CELLSJAVA-42798|ODS -> XLSX - Köprü işlevseldir ancak düz metin olarak gösterilir|Böcek|
 |CELLSJAVA-42802|ODS'den XLSX'e, Yüzdeler çubuk grafik grafiğinde kayboluyor|Böcek|
 |CELLSJAVA-42803|Anahat "SummaryRowBelow", XLSB dosya biçimi olarak kaydedilirken etkilenmez|Böcek|
@@ -89,7 +89,7 @@ Kullanıcıların eklenti işlevleri eklemesi ve kullanması için daha uygun ve
 ### **Eski Cell.SetAddInFormula() yöntemi**
 Lütfen önce WorksheetCollection.RegisterAddInFunction() ile eklenti fonksiyonlarını kaydedin ve bunun yerine Cell için formülü Cell.Formula/Cell.SetFormula() ile ayarlayın.
 ### **Cells.CountLarge özelliğini ekler**
-İşlevsel olarak, Count özelliğiyle aynıdır, ancak Count özelliği, çok fazla örneklenmiş Cell nesnesi olduğunda bir taşma hatası oluşturabilir.
+İşlevsel olarak, Count özelliğiyle aynıdır, tek fark, Count özelliği, çok fazla örneği oluşturulmuş Cell nesnesi olduğunda bir taşma hatası oluşturabilir.
 ### **Hyperlink.Delete() yöntemini ekler**
 Bu köprüyü siler.
 ### **Range.Hyperlinks özelliğini ekler**
@@ -99,7 +99,7 @@ Satır eklerken kopyalama biçiminin türünü temsil eder.
 ### **InsertOptions sınıfını ve Cells.InsertRows(int, int , InsertOptions) yöntemini ekler**
 Bazı seçeneklerle satır ekleme.
 ### **FileFormatUtil.DetectFileFormat(Stream,String) ve FileFormatUtil.DetectFileFormat(String,String) yöntemlerini ekler**
-Şifrelenmiş OOXML dosyasının dosya biçimini algılar.
+Şifreli OOXML dosyasının dosya biçimini algılar.
 ### **ListObject.AlternativeDescription ve ListObject.AlternativeText özelliklerini ekler**
 Tablonun alternatif metnini ve açıklamasını alır ve ayarlar.
 ### **Line.ThemeColor özelliğini ekler**

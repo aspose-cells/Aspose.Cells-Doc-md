@@ -15,7 +15,7 @@ Para integrar los controles de cuadrícula Aspose.Cells con Visual Studio.NET:
 1. Abra la Caja de herramientas.
 1. Seleccione la pestaña General (o cualquier otra pestaña a la que desee agregar controles).
 1. Haga clic derecho en la pestaña General.
-1.  En Visual Studio.NET 2003: Seleccione**Agregar/eliminar artículos** del menú.
+1.  En Visual Studio.NET 2003: Seleccione**Agregar/eliminar elementos** del menú.
 1. En Visual Studio.NET 2005, seleccione**Elija elementos** del menú. Aparecerá el cuadro de diálogo Personalizar caja de herramientas (este proceso es más o menos el mismo para los IDE VS.NET más nuevos (por ejemplo, VS.NET 2013/2015 o posterior)).
 1.  Hacer clic**Navegar** y busque los archivos Aspose.Cells.GridDesktop.dll y Aspose.Cells.GridWeb.dll.
 1.  Seleccione las DLL y luego haga clic en**Abierto**. El cuadro de diálogo Personalizar caja de herramientas ahora contendrá controles de Aspose.Cells Grid Suite. Los controles recién agregados se resaltarán en el cuadro de diálogo.

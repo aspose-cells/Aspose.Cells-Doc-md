@@ -19,8 +19,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.2.
 |CELLSJAVA-42507|I fogli macro e di dialogo vengono rilevati come normali fogli di lavoro|Insetto|
 |CELLSJAVA-42503|MS Excel non consente di salvare nuovamente il file XLS|Insetto|
 |CELLSJAVA-42502|Aspose.Cells non filtra correttamente i dati invece nasconde tutte le righe|Insetto|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge l'enumerazione LoadDataFilterOptions.DefinedNames**
 Indica se caricare gli oggetti Name definiti durante il caricamento del file modello.
 ### **Modifica il comportamento di LoadDataFilterOptions.Formula enum**

@@ -5,4 +5,4 @@ weight: 40
 url: /es/sharepoint/technical-articles/
 ---
 ###### **Esta sección incluye los siguientes temas:**
-- [Aspose.Cells para SharePoint - Uso y Beneficios](/cells/es/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/)
+- [Aspose.Cells for SharePoint - Uso y Beneficios](/cells/es/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/)

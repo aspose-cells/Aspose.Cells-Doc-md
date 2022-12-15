@@ -6,11 +6,11 @@ url: /zh/cpp/aspose-cells-for-cpp-22-4-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含适用于 C++ 22.4 for Linux 的 Aspose.Cells 的发行说明。
+此页面包含适用于 Linux 的 Aspose.Cells for C++ 22.4 的发行说明。
 
 {{% /alert %}} 
 
-我们很高兴地宣布发布 Aspose.Cells for C++ 22.4 for Linux。
+我们很高兴地宣布发布适用于 Linux 的 Aspose.Cells for C++ 22.4。
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |

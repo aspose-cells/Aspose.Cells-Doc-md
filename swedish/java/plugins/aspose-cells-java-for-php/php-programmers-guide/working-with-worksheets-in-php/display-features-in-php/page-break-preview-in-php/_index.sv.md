@@ -5,7 +5,7 @@ weight: 60
 url: /sv/java/page-break-preview-in-php/
 ---
 ## **Aspose.Cells - Förhandsgranskning av sidbrytning**
- För att ställa in kalkylblad till förhandsgranskning av sidbrytning med**Aspose.Cells Java för PHP** , helt enkelt åberopa**PageBreakPreview** modul.
+ För att ställa in kalkylblad till förhandsgranskning av sidbrytning med**Aspose.Cells Java for PHP** , helt enkelt åberopa**PageBreakPreview** modul.
 
 **PHP-kod**
 

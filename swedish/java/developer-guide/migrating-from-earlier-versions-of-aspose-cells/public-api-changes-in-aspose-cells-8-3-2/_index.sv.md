@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.3.2
+title: Offentlig API Ändringar i Aspose.Cells 8.3.2
 type: docs
 weight: 130
 url: /sv/java/public-api-changes-in-aspose-cells-8-3-2/
@@ -11,7 +11,7 @@ url: /sv/java/public-api-changes-in-aspose-cells-8-3-2/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Mekanism för att ställa in absolut position för PivotItem**
- För att tillhandahålla funktionen[PivotItems absoluta positionering](/cells/sv/java/specifying-the-absolute-position-of-the-pivot-item/), Aspose.Cells för Java 8.3.2 har avslöjat en serie egenskaper och en metod enligt listan nedan.
+ För att tillhandahålla funktionen[PivotItems absoluta positionering](/cells/sv/java/specifying-the-absolute-position-of-the-pivot-item/), Aspose.Cells for Java 8.3.2 har avslöjat en serie egenskaper och en metod som anges nedan.
 
 - PivotItem.setPosition kan användas för att ställa in positionsindex i alla PivotItems oavsett föräldernod.
 - PivotItem.setPositionInSameParentNode kan användas för att ställa in positionsindex i PivotItems under samma överordnade nod.
@@ -59,7 +59,7 @@ pic.setSignatureLine(s);
 
 {{< /highlight >}}
 ### **Metoddiagram.hasAxis tillagd**
-Med lanseringen av v8.3.2 har API:et Aspose.Cells tillhandahållit metoden Chart.hasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en viss axel eller inte.
+Med lanseringen av v8.3.2 har Aspose.Cells API tillhandahållit metoden Chart.hasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en viss axel eller inte.
 
 Följande exempelkod visar användningen av metoden Chart.hasAxis för att avgöra om exempeldiagrammet har primär-, sekundär- och värdeaxel.
 
@@ -171,11 +171,11 @@ Aspose.Cells 8.3.2 har exponerat metoden Workbook.getNamedStyle som accepterar s
 ### **Metod Cells.importTwoDimensionArray har lagts till**
 Aspose.Cells API har gjort det möjligt att importera tvådimensionella arrayer till kalkylbladsceller genom att exponera metoden Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Den nämnda metoden importerar en tvådimensionell array av data till ett kalkylblad med mer flexibla alternativ definierade i TxtLoadOptions.
 ### **Egenskaper OnePagePerSheet, PageIndex & PageCount har lagts till**
-Aspose.Cells för Java 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida i XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
+Aspose.Cells for Java 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida i XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
 ### **Egenskaper NumberDecimalSeparator & NumberGroupSeparator tillagd**
-Aspose.Cells för Java 8.3.2 har introducerat NumberDecimalSeparator & NumberGroupSeparator-egenskaper som kan hämta/ställa in anpassade separatorer som används för att formatera och analysera de numeriska värdena i kalkylblad.
+Aspose.Cells for Java 8.3.2 har introducerat NumberDecimalSeparator & NumberGroupSeparator-egenskaper som kan hämta/ställa in de anpassade separatorer som används för att formatera och analysera de numeriska värdena i kalkylblad.
 
-Följande exempelkod illustrerar hur du anger anpassade separatorer med Aspose.Cells API. Följande kod specificerar de anpassade decimal- och gruppseparatorerna som punkt respektive mellanslag.
+Följande exempelkod illustrerar hur man anger anpassade avgränsare med Aspose.Cells API. Följande kod anger anpassade decimal- och gruppavgränsare som punkt respektive mellanslag.
 
 **Java**
 
@@ -191,7 +191,7 @@ workbook.getSettings().setNumberGroupSeparator(' ');
 
 {{< /highlight >}}
 ### **Egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity har lagts till**
-Aspose.Cells för Java 8.3.2 har avslöjat egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity för att lösa problemet där vissa Unicode-tecken inte kan visas med en specifik teckensnittsfamilj. När egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity är inställd på true ändras endast teckensnittet med ett specifikt tecken som inte är visningsbart till visningsbart teckensnitt och resten av ordet eller meningen ska förbli i det ursprungliga teckensnittet.
+Aspose.Cells for Java 8.3.2 har avslöjat egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity för att lösa problemet där vissa Unicode-tecken inte kan visas med en specifik teckensnittsfamilj. När egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity är inställd på true ändras endast teckensnittet med ett specifikt tecken som inte är visningsbart till visningsbart teckensnitt och resten av ordet eller meningen ska förbli i det ursprungliga teckensnittet.
 
 **Java**
 
@@ -206,7 +206,7 @@ opts.setFontSubstitutionCharGranularity(true);
 {{< /highlight >}}
 ## **Borttagna API:er**
 ### **Tog bort föråldrade metoder**
-Följande metoder har tagits bort från Public API.
+Följande metoder har tagits bort från allmänheten API.
 
 - Workbook.open & Workbook.save metoder.
 - Workbook.setOleSize-metoden.
@@ -214,7 +214,7 @@ Följande metoder har tagits bort från Public API.
 - WorkbookDesigner.open & WorkbookDesigner.save metoder.
 - Metoden WorksheetCollection.deleteName.
 ### **Borttagen föråldrade egenskaper**
-Följande egenskaper har tagits bort från Public API.
+Följande fastigheter har tagits bort från allmänheten API.
 
 - Workbook.isProtected egenskap.
 - Arbetsbok.Språkegenskap.
@@ -256,4 +256,4 @@ Följande egenskaper har tagits bort från Public API.
 ### **Fastighetsarbetsbok. Stilar & Klassstilsamling Föråldrad**
 Det rekommenderas att använda metoden Workbook.createStyle för att skapa och manipulera stil för Workbook-instansen istället för att skapa en Style med metoden StyleCollection.add. Dessutom kan Workbook.getNamedStyle(string)-metoden användas för att få namngiven stil istället för StyleCollection.get(string).
 ### **Metod PivotItem.move(int count) Föråldrad**
- Med lanseringen av Aspose.Cells 8.3.2 har API:et infört ytterligare en överbelastning av metoden PivotItem.move som accepterar heltalsparametern för count och boolesk parameter för att flytta en PivotItem inom den överordnade noden.
+ Med lanseringen av Aspose.Cells 8.3.2, har API introducerat en annan överbelastning av metoden PivotItem.move som accepterar heltalsparametern för count och boolesk parameter för att flytta en PivotItem inom den överordnade noden.

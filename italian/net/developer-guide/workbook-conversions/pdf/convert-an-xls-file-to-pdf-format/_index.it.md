@@ -8,13 +8,13 @@ url: /it/net/convert-an-xls-file-to-pdf-format/
 
 PDF (Portable Document Format) rappresenta i documenti indipendentemente dal software, dall'hardware e dal sistema operativo utilizzato per crearli. Un file PDF può essere costituito da documenti con qualsiasi combinazione di testo, grafica e immagini in modo indipendente dal dispositivo e dalla risoluzione. I file PDF sono spesso compressi, quindi occupano meno spazio del file originale.
 
- volte, è necessario convertire un file Excel Microsoft in PDF. Per questo, hai bisogno di una soluzione veloce, sicura, accurata e affidabile che ti consenta di distribuire documenti PDF in tutto il mondo. Esistono numerosi strumenti di conversione che possono eseguire questa operazione. Ma devi assicurarti che il layout del documento Excel originale sia mantenuto nel file PDF di output. Le immagini, la formattazione dei dati, i caratteri, gli attributi, i colori, le impostazioni di configurazione della pagina, l'orientamento del testo, i bordi, i grafici ecc. devono essere resi in modo accurato e preciso.[Aspose.Cells](https://products.aspose.com/cells/net/) garantisce una conversione ad alta fedeltà.
+ volte, è necessario convertire un file Microsoft Excel in PDF. Per questo, hai bisogno di una soluzione veloce, sicura, accurata e affidabile che ti consenta di distribuire documenti PDF in tutto il mondo. Esistono numerosi strumenti di conversione che possono eseguire questa operazione. Ma devi assicurarti che il layout del documento Excel originale sia mantenuto nel file PDF di output. Le immagini, la formattazione dei dati, i caratteri, gli attributi, i colori, le impostazioni di configurazione della pagina, l'orientamento del testo, i bordi, i grafici ecc. devono essere resi in modo accurato e preciso.[Aspose.Cells](https://products.aspose.com/cells/net/) garantisce una conversione ad alta fedeltà.
 
-Questo documento è progettato per fornire una comprensione completa di come un documento Excel Microsoft (contenente immagini, grafici, formattazione ecc.) può essere convertito in PDF. A tal fine, viene mostrato come creare una semplice applicazione console in Visual Studio.Net che converte un file Excel in PDF utilizzando Aspose.Cells API. La conversione viene eseguita con un elevato grado di precisione e accuratezza.
+Questo documento è progettato per fornire una comprensione completa di come un documento Microsoft Excel (contenente immagini, grafici, formattazione ecc.) può essere convertito in PDF. A tal fine, viene mostrato come creare una semplice applicazione console in Visual Studio.Net che converte un file Excel in PDF utilizzando l'API Aspose.Cells. La conversione viene eseguita con un alto grado di precisione e accuratezza.
 
 {{% /alert %}}
 
-## **Conversione di Excel in PDF**
+## **Conversione da Excel a PDF**
 
 Questo esempio utilizza un file Excel (SampleInput.xlsx) come modello. La cartella di lavoro contiene fogli di lavoro con grafici e immagini. Ogni foglio di lavoro contiene diversi tipi di formati utilizzando caratteri, attributi, colori, effetti di ombreggiatura e bordi. C'è un istogramma sul primo foglio di lavoro e un'immagine sull'ultimo.
 

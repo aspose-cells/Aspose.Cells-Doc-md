@@ -12,7 +12,7 @@ Med Aspose.Cells kan utvecklare lägga till ramar och anpassa hur de ser ut på 
 
 ### **Lägger till gränser till Cells**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass ger[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
+ Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
 
  Aspose.Cells tillhandahåller[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)metod i[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass. De[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)metod används för att ställa in en cells formateringsstil. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)klass tillhandahåller egenskaper för att lägga till kanter till celler.
 
@@ -84,7 +84,7 @@ Det är också möjligt att lägga till gränser till ett cellintervall snarare 
 
 ## **Färger och palett**
 
-En palett är antalet tillgängliga färger för att skapa en bild. Användningen av en standardiserad palett i en presentation gör att användaren kan skapa ett konsekvent utseende. Varje Microsoft Excel (97-2003)-fil har en palett med 56 färger som kan appliceras på celler, teckensnitt, rutnät, grafiska objekt, fyllningar och linjer i ett diagram.
+En palett är antalet tillgängliga färger för att skapa en bild. Användningen av en standardiserad palett i en presentation gör att användaren kan skapa ett konsekvent utseende. Varje Microsoft Excel-fil (97-2003) har en palett med 56 färger som kan appliceras på celler, teckensnitt, rutnät, grafiska objekt, fyllningar och linjer i ett diagram.
 
 Med Aspose.Cells är det möjligt att inte bara använda palettens befintliga färger utan även anpassade färger. Innan du använder en anpassad färg, lägg till den i paletten först.
 

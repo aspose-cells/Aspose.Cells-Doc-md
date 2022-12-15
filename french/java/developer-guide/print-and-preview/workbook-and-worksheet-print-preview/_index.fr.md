@@ -23,4 +23,4 @@ Voici la sortie générée en exécutant le code ci-dessus.
 ### **Sortie console**
 
 Nombre de pages du classeur : 1</br>
-Nombre de pages de la feuille de calcul : 1
+Nombre de pages de la feuille de calcul : 1

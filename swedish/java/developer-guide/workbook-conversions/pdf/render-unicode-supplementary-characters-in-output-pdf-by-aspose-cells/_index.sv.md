@@ -15,10 +15,10 @@ I Unicode Character Standard är tilläggstecken de tecken som tilldelas kodpunk
 
 {{% /alert %}} 
 ## **Återge Unicode-tilläggstecken i utdata-PDF med Aspose.Cells**
- Följande skärmdump visar hur Aspose.Cells renderade[source excel-fil](5473390.xlsx) in i[mata ut PDF](5473391.pdf)Som du kan se har alla tre tilläggstecken i Unicode renderats på exakt samma sätt som i Microsoft Excel.
+ Följande skärmdump visar hur Aspose.Cells renderade[källkod excel-fil](5473390.xlsx) in i[mata ut PDF](5473391.pdf)Som du kan se har alla tre tilläggstecken i Unicode renderats på exakt samma sätt som Microsoft Excel.
 
 ![todo:image_alt_text](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 
-Du kan använda den här exempelkoden för att konvertera[source excel-fil](5473390.xlsx) in i[mata ut PDF](5473391.pdf).
+Du kan använda den här exempelkoden för att konvertera[källkod excel-fil](5473390.xlsx) in i[mata ut PDF](5473391.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}

@@ -21,11 +21,11 @@ url: /zh/java/creating-subtotals/
 
    **选择数据范围以添加小计**
 
-![待办事项：图片_替代_文本](creating-subtotals_1.png)
+![待办事项：图像_替代_文本](creating-subtotals_1.png)
 
 **小计对话框** 
 
-![待办事项：图片_替代_文本](creating-subtotals_2.png)
+![待办事项：图像_替代_文本](creating-subtotals_2.png)
 
 ## **使用 Aspose.Cells API**
 
@@ -39,6 +39,6 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **应用小计** 
 
-![待办事项：图片_替代_文本](creating-subtotals_3.png)
+![待办事项：图像_替代_文本](creating-subtotals_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreatingSubtotals-CreatingSubtotals.java" >}}

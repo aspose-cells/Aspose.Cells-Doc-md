@@ -6,7 +6,7 @@ url: /sv/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells för Reporting Services är tillgänglig som en gratis, obegränsad tidsbegränsad utvärdering från[Ladda ner sida](https://downloads.aspose.com/cells/reportingservices). Utvärderingen och licensierade versioner av produkten är desamma.
+ Aspose.Cells for Reporting Services är tillgänglig som en gratis, obegränsad tidsbegränsad utvärdering från[Ladda ner sida](https://downloads.aspose.com/cells/reportingservices). Utvärderingen och licensierade versioner av produkten är desamma.
 
 När du är nöjd med utvärderingsversionen, köp en licens. Se till att du förstår och godkänner prenumerationsvillkoren.
 
@@ -32,9 +32,9 @@ Namnet på licensfilen kan vara något av följande baserat på din prenumeratio
 - Aspose.Cells.Reporting.Services - Multiple Deployment Subscription.lic
 - Aspose.Cells.Reporting.Services - Single Server Deployment Subscription.lic
 
-För att testa att licensfilen var korrekt installerad, exportera en rapport som en Microsoft Excel-arbetsbok. Om arbetsboken inte innehåller något kalkylblad för vattenstämpel i slutet, har licensfilen aktiverats.
+För att testa att licensfilen installerades korrekt, exportera valfri rapport som en Microsoft Excel-arbetsbok. Om arbetsboken inte innehåller något kalkylblad för vattenstämpel i slutet, har licensfilen aktiverats.
 
- Aspose.Cells för Reporting Services injicerar ett kalkylblad för utvärderingsvattenstämpel när du arbetar i utvärderingsläget. När en giltig licensfil, till exempel när**Aspose.Cells.ReportingServices.lic** finns i mappen $[Installationsmapp]\License\, det finns inget kalkylblad för utvärdering av vattenstämpel.
+ Aspose.Cells for Reporting Services injicerar ett kalkylblad för utvärderingsvattenstämpel när du arbetar i utvärderingsläget. När en giltig licensfil, till exempel när**Aspose.Cells.ReportingServices.lic** finns i mappen $[Installationsmapp]\License\, det finns inget kalkylblad för utvärdering av vattenstämpel.
 
 **En fil skapad i utvärderingsläge. Notera det andra arbetsbladet.** 
 

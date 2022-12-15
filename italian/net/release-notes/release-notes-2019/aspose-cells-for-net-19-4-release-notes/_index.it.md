@@ -55,8 +55,8 @@ url: /it/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46646|Eccezione sollevata aprendo il file Excel dopo aver aggiornato il grafico|Eccezione|
 |CELLSNET-46660|La proprietà Style.ForegroundColor genera un'eccezione per determinati scenari|Eccezione|
 |CELLSNET-46688|Eccezioni sollevate durante l'applicazione dinamica degli stili|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge le API per il salvataggio del documento Markdown: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Supporta il salvataggio del contenuto delle celle come tabella markdown. Con il metodo Workbook.Save(), tutto il contenuto delle celle nel foglio attivo verrà esportato come tabella nel documento markdown.
 #### **Rimuove le proprietà obsolete di TxtLoadOptions**

@@ -49,7 +49,7 @@ Gehen Sie folgendermaßen vor, um ein Kontrollkästchen-Steuerelement in Ihr Arb
 
 ### **Mit Aspose.Cells**
 
- Aspose.Cells bietet die[**CheckBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection) Klasse, die verwendet wird, um der Sammlung ein neues Kontrollkästchen hinzuzufügen. Es gibt eine andere Klasse,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox), das ein Kontrollkästchen darstellt. Es hat einige wichtige Mitglieder:
+ Aspose.Cells bietet die[**CheckBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection) Klasse, die verwendet wird, um der Auflistung ein neues Kontrollkästchen hinzuzufügen. Es gibt eine andere Klasse,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox), das ein Kontrollkästchen darstellt. Es hat einige wichtige Mitglieder:
 
 -  Das[**Verknüpfte Zelle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) -Eigenschaft gibt eine Zelle an, die mit dem Kontrollkästchen verknüpft ist.
 -  Das[**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) -Eigenschaft gibt die dem Kontrollkästchen zugeordnete Textzeichenfolge an. Es ist die Bezeichnung des Kontrollkästchens.

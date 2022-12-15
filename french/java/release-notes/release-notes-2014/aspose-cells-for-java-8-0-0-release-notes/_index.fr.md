@@ -21,7 +21,7 @@ Principales caractéristiques
 L'option d'utilisation de la mémoire peut être utilisée pour des raisons de performances.
 Lors de la création d'un classeur avec un ensemble de données de cellules volumineuses, l'option MemorySetting.MEMORY_PREFERENCE peut optimiser l'utilisation de la mémoire pour les données des cellules afin de réduire le coût de la mémoire.
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 

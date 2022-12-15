@@ -1,13 +1,13 @@
 ﻿---
-title: .NET üzerinden Python için Aspose.Cells 22.8 Sürüm Notları
+title: Aspose.Cells for Python via .NET 22.8 Sürüm Notları
 type: docs
 weight: 9
 url: /tr/python-net/aspose-cells-for-python-net-22-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu, .NET üzerinden Python için Aspose.Cells için ilk versiyondur.
-Bu sayfa, .NET 22.8 üzerinden Python için Aspose.Cells için sürüm notları içerir.
+Bu, Aspose.Cells for Python via .NET için ilk versiyondur.
+Bu sayfa Aspose.Cells for Python via .NET 22.8 için sürüm notları içerir.
 
 {{% /alert %}} 
 

@@ -12,7 +12,7 @@ url: /it/java/aspose-cells-for-java-17-6-release-notes/
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-42315|Aggiunta del client JS API per l'evento AjaxCallFinished - GridWeb (JAVA)|Nuova caratteristica|
+|CELLSJAVA-42315|Aggiunta dell'API client JS per l'evento AjaxCallFinished - GridWeb (JAVA)|Nuova caratteristica|
 |CELLSJAVA-42194|Righe di gruppo nel foglio di lavoro - GridWeb (JAVA)|Nuova caratteristica|
 |CELLSJAVA-42308|La tabella pivot è errata (righe mancanti, intestazioni dei campi pivot stampate due volte, data convertita in valori numerici e così via) nel rendering da Excel a HTML|Insetto|
 |CELLSJAVA-42298|Caratteri aggiuntivi presenti nell'output HTML del file Excel|Insetto|
@@ -43,8 +43,8 @@ url: /it/java/aspose-cells-for-java-17-6-release-notes/
 |CELLSJAVA-42318|Viene generata un'eccezione quando si tenta di aprire la cartella di lavoro|Eccezione|
 |CELLSJAVA-42311|Eccezione: "java.lang.NullPointerException" all'apertura di un file ODS tramite API Aspose.Cells|Eccezione|
 |CELLSJAVA-42302|NullPointerException sulla creazione dell'istanza della cartella di lavoro dal file Excel di origine|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà Gridweb.OnAjaxCallFinishedClientFunction**
 Ottiene o imposta il nome della funzione lato client da chiamare al termine di ajaxcall.
 ### **Aggiunge enum StyleModifyFlag.RelativeIndent**

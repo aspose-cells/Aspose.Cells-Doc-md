@@ -21,14 +21,14 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 17.12.
 |CELLSJAVA-42466|L'equazione non viene visualizzata correttamente nel PDF di output|Insetto|
 |CELLSJAVA-42475|Il grafico non è presente nel PDF di output|Insetto|
 |CELLSJAVA-42459|Le etichette dati per il grafico non sono presenti nel PDF/immagine di output|Insetto|
-|CELLSJAVA-42453|L'immagine del grafico non è uguale a Microsoft Excel|Insetto|
+|CELLSJAVA-42453|L'immagine del grafico non è simile a Microsoft Excel|Insetto|
 |CELLSJAVA-42447|Le etichette dati vengono visualizzate in modo errato nel formato del file HTML di output|Insetto|
 |CELLSJAVA-42481|L'impostazione del nome della casella combinata non funziona per il file Excel di origine, ma se salvato nuovamente da Microsoft Excel funziona correttamente|Insetto|
-|CELLSJAVA-42476|Microsoft Il foglio di lavoro con attivazione macro di Excel (.xlsm) viene danneggiato dopo l'apertura e il salvataggio tramite le API Aspose.Cells|Insetto|
+|CELLSJAVA-42476|Il foglio di lavoro con attivazione macro di Microsoft Excel (.xlsm) viene danneggiato dopo l'apertura e il salvataggio tramite API Aspose.Cells|Insetto|
 |CELLSJAVA-42470|L'impostazione di una cella collegata alla casella di controllo fa sì che MS Excel richieda un messaggio di errore quando si apre il file di output in essa|Insetto|
 |CELLSJAVA-42462|La lettura del file XLSB genera l'eccezione NullPointerException|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HtmlSaveOptions.TableCssId**
 Ottiene e imposta il prefisso del nome di tipo css come tr,col,td e così via, sono contenuti nell'elemento table che ha l'attributo specifico TableCssId. Il valore predefinito è "".
 ### **Aggiunge la proprietà Cell.FormulaLocal**

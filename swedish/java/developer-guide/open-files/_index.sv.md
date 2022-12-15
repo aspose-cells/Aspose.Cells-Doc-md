@@ -7,7 +7,7 @@ url: /sv/java/opening-files-with-different-formats/
 ---
 {{% alert color="primary" %}}
 
-Utvecklare använder Aspose.Cells för att öppna filer för olika ändamål. Öppna till exempel en fil för att hämta data från den, eller använd en fördefinierad designarkfil för att påskynda utvecklingsprocessen. Aspose.Cells tillåter utvecklare att öppna olika typer av källfiler. Dessa källfiler kan vara Microsoft Excel-rapporter, SpreadsheetML, kommaseparerade värden (CSV), tabbavgränsade eller tabbavgränsade värden (TSV). Den här artikeln diskuterar att öppna dessa olika källfiler med Aspose.Cells.
+Utvecklare använder Aspose.Cells för att öppna filer för olika ändamål. Öppna till exempel en fil för att hämta data från den, eller använd en fördefinierad designarkfil för att påskynda utvecklingsprocessen. Aspose.Cells tillåter utvecklare att öppna olika typer av källfiler. Dessa källfiler kan vara Microsoft Excel-rapporter, SpreadsheetML, kommaseparerade värden (CSV), tabbavgränsade eller tabbavgränsade värden (TSV) filer. Den här artikeln diskuterar att öppna dessa olika källfiler med Aspose.Cells.
 
 Om du behöver veta alla filformat som stöds, se följande sidor:
 [Filformat som stöds](https://docs.aspose.com/cells/java/supported-file-formats/)
@@ -54,7 +54,7 @@ Ibland lagras Excel-filen som du vill öppna som en ström. I så fall, på samm
 |Html|Representerar en HTML-fil|
 |Mhtml|Representerar en MHTML-fil|
 
-### **Öppna Microsoft Excel 95/5.0-filer**
+### **Öppnar Microsoft Excel 95/5.0-filer**
 
  För att öppna Microsoft Excel 95-filer, instansiera**[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/Arbetsbok)**instans med sökvägen eller strömmen till mallfilen. Exempelfil för att testa koden kan laddas ner från följande länk:
 
@@ -86,7 +86,7 @@ Aspose.Cells tillåter utvecklare att öppna kalkylarksfiler med olika format so
 
 ### **Öppna SpreadsheetML-filer**
 
-SpreadsheetML-filer är XML-representationer av dina kalkylblad inklusive all information om kalkylarket som formatering, formler etc. Sedan Microsoft Excel XP läggs ett XML-exportalternativ till i Microsoft Excel som exporterar dina kalkylblad till SpreadsheetML-filer.
+SpreadsheetML-filer är XML-representationer av dina kalkylblad inklusive all information om kalkylarket som formatering, formler etc. Sedan Microsoft Excel XP har ett XML-exportalternativ lagts till i Microsoft Excel som exporterar dina kalkylblad till SpreadsheetML-filer.
 
 För att öppna SpreadsheetML-filer, använd**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** klass och välj**[SPREADSHEET_ML](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)** värde i**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**uppräkning.
 
@@ -106,7 +106,7 @@ För att öppna CSV-filer, använd**[LoadOptions](https://reference.aspose.com/c
 
 ### **Öppnar CSV-filer och ersätter ogiltiga tecken**
 
-I Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API som visas i kodexemplet nedan.
+I Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API vilket visas i kodexemplet nedan.
 
 #### **Exempel**
 

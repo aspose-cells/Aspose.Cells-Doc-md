@@ -25,7 +25,7 @@ book.getWorksheets().get(0).split();
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF & XSSF - Delade rutor**
-Funktionalitet för delade fönster kan uppnås genom createSplitPane-metoden när du använder Apache POI SS (HSSF & XSSF) API
+Funktionalitet för delade fönster kan uppnås genom att skapa SplitPane-metoden när du använder Apache POI SS (HSSF & XSSF) API
 
 **Java**
 

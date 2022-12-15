@@ -11,8 +11,8 @@ url: /sv/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 |CELLSCPP-37|Läs/skriv XLSB-filformat|Ny funktion|
 |CELLSCPP-38|Skapa och manipulera namngivna intervall|Ny funktion|
 |CELLSCPP-39|Läs/skriv tabbavgränsat filformat|Ny funktion|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, omdöpta, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för C++. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for C++. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Tar bort metoden IPageSetup::GetDraft()/SetDraft().**
 Använd metoden IPageSetup::GetPrintDraft()/SetPrintDraft() istället.
 #### **Tar bort ICell::GetConditionalIStyle()-metoden**

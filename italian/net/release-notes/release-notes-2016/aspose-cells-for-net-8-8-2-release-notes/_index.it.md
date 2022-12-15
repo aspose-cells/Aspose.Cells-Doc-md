@@ -18,13 +18,13 @@ url: /it/net/aspose-cells-for-net-8-8-2-release-notes/
 |CELLSNET-44443 | Grafico pivot in PDF - Asse y secondario incasinato| Insetto|
 |CELLSNET-44450 | La rotazione dell'immagine non è corretta nel PDF risultante| Insetto|
 |CELLSNET-44303 | SheetRender.ToImage non esegue correttamente il rendering delle etichette dei dati del grafico| Insetto|
-|CELLSNET-44478 |Il livello di zoom cambia dopo l'apertura e la riscrittura del file Excel| Insetto|
+|CELLSNET-44478 | Il livello di zoom cambia dopo l'apertura e la riscrittura del file Excel| Insetto|
 |CELLSNET-44477 | Elenca i nomi degli oggetti in conflitto nella copia del foglio di lavoro| Insetto|
 |CELLSNET-44472 | CustomXmlParts non funziona correttamente per i file XLS| Insetto|
 |CELLSNET-44466 | Impossibile visualizzare correttamente le immagini dopo aver esportato l'HTML in Excel| Insetto|
 |CELLSNET-44465 | I grafici vengono rimossi quando si eliminano righe/colonne vuote| Insetto|
 |CELLSNET-44463 | Il testo nero in TextBox viene reso bianco nel PDF| Insetto|
-|CELLSNET-44456 | Lo stile in grassetto nel file di destinazione è andato perso dopo la chiamata Range.CopyData()| Insetto|
+|CELLSNET-44456 |Lo stile in grassetto nel file di destinazione è andato perso dopo la chiamata Range.CopyData()| Insetto|
 |CELLSNET-44453 | La proprietà ExternalLink.IsReferred non funziona come previsto| Insetto|
 |CELLSNET-44445 | CopyStyle (marcatori intelligenti) non funziona su tutte le celle unite| Insetto|
 |CELLSNET-44263 | La formattazione viene persa durante l'importazione di HTML come XLSX| Insetto|
@@ -35,8 +35,8 @@ url: /it/net/aspose-cells-for-net-8-8-2-release-notes/
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 |CELLSNET-44441 | Quando la riga è selezionata nella versione più recente, seleziona anche la prima cella della riga successiva| Insetto|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la classe DeleteOptions.**
 Rappresenta l'impostazione di eliminazione di righe/colonne.
 #### **Aggiunge i metodi override Cells.DeleteBlankRows (Opzioni DeleteOptions) e Cells.DeleteBlankColumns (Opzioni DeleteOptions).**

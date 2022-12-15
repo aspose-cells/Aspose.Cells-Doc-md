@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 7.0.2 Release Notes
+title: Aspose.Cells for .NET 7.0.2 Release Notes
 type: docs
 weight: 20
 url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.0.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.0.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.0.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.0.2/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v7.0.2! I den här versionen gjorde vi flera förbättringar och fixade antalet användarproblem/buggar. Dessutom har vi tagit bort några onödiga äldre föråldrade metoder för ark-till-bild-funktionen nu.
+ Vi är glada att meddela Aspose.Cells for .NET v7.0.2! I den här versionen gjorde vi flera förbättringar och fixade antalet användarproblem/buggar. Dessutom har vi tagit bort några onödiga äldre föråldrade metoder för ark-till-bild-funktionen nu.
 
 \1) Aspose.Cells 
 
@@ -28,7 +28,7 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  Undantag
 
-30548 StackOverflowException inträffade när vissa filer öppnades
+ 30548 StackOverflowException inträffade när vissa filer öppnades
 
  30609 Arbetsbokskonstruktorn kastar NullReferenceException
 
@@ -38,7 +38,7 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  29663 Konvertera Excel till PDF (problem med saknade element)
 
- 29692 Problem i Excel-till-PDF-konvertering
+29692 Problem i Excel-till-PDF-konvertering
 
  29840 Problem med version 6.0.1.3 (avseende diagram)
 
@@ -64,7 +64,7 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30918 Bildproblem vid lagring i XLS-format
 
-30949 Cell innehåll delas halvvägs genom ett ord när XLS-till-PDF konverteras
+ 30949 Cell innehåll delas halvvägs genom ett ord när XLS-till-PDF konverteras
 
  30980 Laddar och uppdaterar XLSM och sedan sparar orsakar FEL
 
@@ -74,7 +74,7 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31005 Negativa värden inom parentes
 
- 31068 Spara fil kraschar efter att ha använt DeleteRange-metoden i vissa fall
+31068 Spara fil kraschar efter att ha använt DeleteRange-metoden i vissa fall
 
  31078 Uppdatera pivottabell - Den sorterar inte korrekt
 
@@ -100,4 +100,4 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31053 Parametern är inte giltig undantag inträffade i GridDesktop
 
-31071 Felaktig rendering av dokument via metoden GridDesktop.ImportExcelFile
+ 31071 Felaktig rendering av dokument via metoden GridDesktop.ImportExcelFile

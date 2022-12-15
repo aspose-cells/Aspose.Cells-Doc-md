@@ -12,7 +12,7 @@ url: /fr/java/aspose-cells-for-java-8-4-0-release-notes/
 
 \1) Aspose.Cells
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 
@@ -53,7 +53,7 @@ Exceptions
 
 \2) Suite de grille Aspose.Cells
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 (CELLSJAVA-41202) - Afficher les commentaires Cell dans le composant GridWeb
 

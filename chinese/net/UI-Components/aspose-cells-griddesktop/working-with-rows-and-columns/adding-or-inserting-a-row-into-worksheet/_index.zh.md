@@ -1,5 +1,5 @@
 ﻿---
-title: 在工作表中添加或插入一行
+title: 在工作表中添加或插入行
 type: docs
 weight: 30
 url: /zh/net/adding-or-inserting-a-row-into-worksheet/

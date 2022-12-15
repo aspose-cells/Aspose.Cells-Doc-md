@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 21.6 Note di rilascio
+title: Aspose.Cells for Android via Java 21.6 Note di rilascio
 type: docs
 weight: 7
 url: /it/java/aspose-cells-for-android-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 21.6.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 21.6.
 
 {{% /alert %}} 
 
@@ -67,9 +67,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43453|NullPointerException sul metodo Workbook.save|
 |CELLSJAVA-43486|NullPointerException durante la conversione di un documento HTML in una cartella di lavoro|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi StartAccessCache()/CloseAccessCache() per la cartella di lavoro e il foglio di lavoro.**
 

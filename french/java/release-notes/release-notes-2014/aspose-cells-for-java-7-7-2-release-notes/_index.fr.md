@@ -19,7 +19,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells fo
 Principales caractéristiques
 Prise en charge de l'ouverture de fichiers MS Excel 2013 protégés par mot de passe
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 

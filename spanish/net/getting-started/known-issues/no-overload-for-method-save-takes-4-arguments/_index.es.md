@@ -18,7 +18,7 @@ url: /es/net/no-overload-for-method-save-takes-4-arguments/
 
  Aspose.Cells for .NET es compatible y funciona bien con todas las versiones de marco .NET, es decir, 2.x, 3.x, 4.x, etc. para cualquier tipo de proyecto, por ejemplo, Asp.NET/Winforms, proyecto web, Windows/Servicio web, aplicación de consola u otros proyectos etc. Proporcionamos diferentes dlls para diferentes versiones del marco .NET. Para obtener más información, lea el**Léame.txt** archivo en la carpeta "\Bin" en su directorio de instalación. Pero esto**Léame.txt** el archivo está presente.
 
- Cuando utilice nuestro producto en una aplicación web, utilice Aspose.Cells.dll de la**NET 2.0**carpeta en el directorio "/ bin". Para su información, el dll en**.NET 3.5 Perfil del cliente** El directorio se usa solo para la aplicación de consola con el perfil de cliente Netframe como marco de destino de VS.NET. Verifique su proyecto, es posible que su proyecto haga referencia a este dll.
+ Cuando utilice nuestro producto en una aplicación web, utilice Aspose.Cells.dll de la**NET 2.0**carpeta en el directorio "/bin". Para su información, el dll en**.NET 3.5 Perfil del cliente** El directorio se usa solo para la aplicación de consola con el perfil de cliente Netframe como marco de destino de VS.NET. Verifique su proyecto, es posible que su proyecto haga referencia a este dll.
 
 ### **Referencias**
 

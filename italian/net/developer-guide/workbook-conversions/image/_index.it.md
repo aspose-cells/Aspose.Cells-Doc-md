@@ -22,7 +22,7 @@ Aspose.Cells consente di esportare un foglio di lavoro dalla cartella di lavoro 
 
 I fogli di lavoro contengono i dati che si desidera analizzare. Ad esempio, un foglio di lavoro può contenere parametri, totali, percentuali, eccezioni e calcoli.
 
-In qualità di sviluppatore, potresti dover presentare i fogli di lavoro come immagini. Ad esempio, potrebbe essere necessario utilizzare un'immagine di un foglio di lavoro in un'applicazione o in una pagina Web. Potresti voler inserire un'immagine in un documento Word Microsoft, un file PDF, una presentazione PowerPoint o qualche altro tipo di documento. In poche parole, vuoi un foglio di lavoro reso come immagine in modo da poterlo usare da qualche altra parte.
+In qualità di sviluppatore, potresti dover presentare i fogli di lavoro come immagini. Ad esempio, potrebbe essere necessario utilizzare un'immagine di un foglio di lavoro in un'applicazione o in una pagina Web. Potresti voler inserire un'immagine in un documento Microsoft Word, un file PDF, una presentazione PowerPoint o qualche altro tipo di documento. In poche parole, vuoi un foglio di lavoro reso come immagine in modo da poterlo usare da qualche altra parte.
 
 Aspose.Cells supporta la conversione di fogli di lavoro Excel in immagini. Per utilizzare questa funzione, è necessario importare il file**[Aspose.Cells.Rendering](https://reference.aspose.com/cells/net/aspose.cells.rendering)** spazio dei nomi al tuo programma o progetto. Ha diverse classi preziose per il rendering e la stampa, ad esempio**[SheetRender](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)**, **[ImageOrPrintOptions](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)**, **[WorkbookRendering](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)**, e altri.
 
@@ -34,7 +34,7 @@ Il seguente frammento di codice mostra come convertire un foglio di lavoro in un
 
 {{% alert color="primary" %}}
 
-Al momento, lo API per la conversione dei fogli di lavoro in immagini non supporta i grafici a bolle 3D.
+Al momento, l'API per la conversione dei fogli di lavoro in immagini non supporta i grafici a bolle 3D.
 
 {{% /alert %}}
 

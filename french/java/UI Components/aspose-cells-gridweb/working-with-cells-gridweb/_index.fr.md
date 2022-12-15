@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /fr/java/working-with-cells-gridweb/
 ---
-## **Accéder à Cells dans la feuille de calcul**
+## **Accéder à Cells dans la feuille de travail**
 Cette rubrique traite des cellules, en examinant la fonctionnalité la plus élémentaire de GridWeb : l'accès aux cellules.
 
 Chaque feuille de calcul contient un objet GridCells, une collection d'objets GridCell. Un objet GridCell représente une cellule dans Aspose.Cells.GridWeb. Il est possible d'accéder à n'importe quelle cellule en utilisant GridWeb. Il existe deux méthodes préférées :
@@ -28,10 +28,10 @@ Une cellule peut également être reconnue par son emplacement en termes d'indic
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyrowandcolumnindices-Accessingcellbyrowandcolumnindices.jsp" >}}
 ## **Accéder et modifier la valeur d'un Cell**
-[Accéder à Cells dans la feuille de calcul](/cells/fr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) discuté de l'accès aux cellules. Cette rubrique étend cette discussion pour montrer comment accéder aux valeurs de cellule et les modifier à l'aide de GridWeb API.
+[Accéder à Cells dans la feuille de travail](/cells/fr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) discuté de l'accès aux cellules. Cette rubrique étend cette discussion pour montrer comment accéder aux valeurs de cellule et les modifier à l'aide de GridWeb API.
 ### **Accéder et modifier la valeur d'un Cell**
 #### **Valeurs de chaîne**
- Avant d'accéder et de modifier la valeur d'une cellule, vous devez savoir comment accéder aux cellules. Pour plus de détails sur les différentes approches d'accès aux cellules, reportez-vous à[Accéder à Cells dans la feuille de calcul](/cells/fr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet).
+ Avant d'accéder et de modifier la valeur d'une cellule, vous devez savoir comment accéder aux cellules. Pour plus de détails sur les différentes approches d'accès aux cellules, reportez-vous à[Accéder à Cells dans la feuille de travail](/cells/fr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet).
 
 Chaque cellule a une propriété nommée getStringValue(). Une fois qu'une cellule est accédée, les développeurs peuvent accéder à la méthode getStringValue() pour accéder à la valeur de chaîne des cellules.
 
@@ -111,7 +111,7 @@ La syntaxe pour référencer une valeur de cellule à partir d'une autre feuille
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreateDataValidationinGridCellofGridWeb-CreateDataValidationinGridCellofGridWeb.jsp" >}}
 ## **Création de boutons de commande personnalisés**
-Aspose.Cells.GridWeb contient des boutons spéciaux tels que Soumettre, Enregistrer et Annuler. Tous ces boutons effectuent des tâches spécifiques pour Aspose.Cells.GridWeb. Il est également possible d'ajouter des boutons personnalisés qui effectuent des tâches personnalisées. Cette rubrique explique comment utiliser cette fonction.
+Aspose.Cells.GridWeb contient des boutons spéciaux tels que Soumettre, Enregistrer et Annuler. Tous ces boutons effectuent des tâches spécifiques pour Aspose.Cells.GridWeb. Il est également possible d'ajouter des boutons personnalisés qui effectuent des tâches personnalisées. Cette rubrique explique comment utiliser cette fonctionnalité.
 
 L'exemple de code suivant explique comment créer un bouton de commande personnalisé et comment gérer son événement de clic. Vous pouvez utiliser n'importe quelle icône pour votre bouton de commande personnalisé. À des fins d'illustration, nous avons utilisé cette icône d'image.
 

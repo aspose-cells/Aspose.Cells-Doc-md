@@ -6,7 +6,7 @@ url: /it/net/get-the-version-number-of-the-application-that-created-the-excel-do
 ---
 {{% alert color="primary" %}}
 
- Spesso è necessario conoscere il numero di versione dell'applicazione che ha creato un documento Excel Microsoft. Aspose.Cells fornisce il[**Workbook.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/version) proprietà a tale scopo.
+ Spesso è necessario conoscere il numero di versione dell'applicazione che ha creato un documento Microsoft Excel. Aspose.Cells fornisce il[**Workbook.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/version) proprietà a tale scopo.
 
 {{% /alert %}}
 

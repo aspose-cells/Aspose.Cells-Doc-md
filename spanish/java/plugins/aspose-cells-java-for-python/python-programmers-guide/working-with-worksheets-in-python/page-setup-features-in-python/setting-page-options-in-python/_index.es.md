@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Factor de escala**
- Para aplicar la escala usando**Aspose.Cells Java para Python** , llamar**escalada** método de**configuración de página** módulo.
+ Para aplicar la escala usando**Aspose.Cells Java for Python** , llamar**escalada** método de**configuración de página** módulo.
 
 **Código Python**
 

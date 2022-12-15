@@ -28,10 +28,10 @@ url: /it/java/aspose-cells-for-java-17-3-0-release-notes/
 |CELLSJAVA-42195|Grafico a cascata, la serie Total sembra sbagliata|Insetto|
 |CELLSJAVA-42181|Vista protetta dopo aver salvato nuovamente un file XLS|Insetto|
 |CELLSJAVA-42045|L'immagine del grafico radar non viene generata|Insetto|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Personalizza le impostazioni di globalizzazione di una tabella pivot**
-Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle loro applicazioni .NET, indipendentemente dalla lingua del testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
+Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle proprie applicazioni .NET, indipendentemente dal linguaggio di testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
 
 1. **Aggiunge il metodo GlobalizationSettings.getPivotTotalName()** - Ottiene il nome dell'etichetta "Totale" nella tabella pivot. Gli sviluppatori possono eseguire l'override di questo metodo quando la tabella pivot contiene due o più campi pivot nell'area dati.
 1. **Aggiunge il metodo GlobalizationSettings.getPivotGrandTotalName()** - Ottiene il nome dell'etichetta "Totale complessivo" nella tabella pivot.
@@ -44,7 +44,7 @@ Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono pe
 
 Questo esempio di codice illustra come personalizzare le impostazioni di globalizzazione di una tabella pivot. Crea una classe CustomPivotTableGlobalizationSettings derivata da una classe base GlobalizationSettings ed esegue l'override di tutti i relativi metodi necessari. Questi metodi restituiscono il testo personalizzato per Totale pivot, Totale parziale, Totale complessivo, Tutti gli elementi, Elementi multipli, Etichette colonna, Etichette riga, Valori vuoti. Quindi assegna l'oggetto di questa classe alla proprietà Workbook.GlobalizationSettings. Il codice carica il file excel di origine che contiene la tabella pivot, aggiorna e calcola i suoi dati e lo salva come file PDF di output. Gli sviluppatori possono anche salvare la cartella di lavoro in qualsiasi formato supportato.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -298,7 +298,7 @@ Utilizzando la proprietà OnPageChangeClientFunction del controllo GridWeb, gli 
 
 Questo esempio di codice mostra l'utilizzo della proprietà OnPageChangeClientFunction. Imposta la proprietà con la funzione lato client denominata MyOnPageChange. Ora, ogni volta che l'utente cambierà la pagina GridWeb, chiamerà la funzione lato client MyOnPageChange che stampa il**indice della pagina corrente**sul**consolare**:
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

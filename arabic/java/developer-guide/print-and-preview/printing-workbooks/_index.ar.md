@@ -28,7 +28,7 @@ keywords: printing workbooks, printing worksheets, printing workbook sheets, pri
 
 ### طباعة ورقة العمل المحددة
 
-يوضح مقتطف الشفرة التالي استخدام ملف[**عرض الورقة للطابعة**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) طريقة لطباعة ورقة العمل التي اخترتها.
+ يوضح مقتطف الشفرة التالي استخدام ملف[**عرض الورقة للطابعة**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) طريقة لطباعة ورقة العمل التي اخترتها.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 

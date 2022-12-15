@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells per Reporting Services 1.8.0 Note sulla versione
+title: Aspose.Cells for Reporting Services 1.8.0 Note di rilascio
 type: docs
 weight: 10
 url: /it/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
 
 {{% /alert %}} 
 
- Siamo lieti di annunciare Aspose.Cells per Reporting Services v1.8.0. Include diversi miglioramenti e risolve una serie di correzioni.
+ Siamo lieti di annunciare Aspose.Cells for Reporting Services v1.8.0. Include diversi miglioramenti e risolve una serie di correzioni.
 
  Caratteristiche generali
 
@@ -19,13 +19,13 @@ url: /it/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 - Supporto per proteggere la cartella di lavoro
 - Supporto per proteggere il foglio di lavoro
 - Aggiungi funzione filtro a
- Aspose.Cells per il componente client di Reporting Services
+ Aspose.Cells for Reporting Services componente client
 - Includi Office 2010 x64
- supporto per Aspose.Cells per il componente client di Reporting Services
+ supporto per il componente client Aspose.Cells for Reporting Services
 
 
 
-Ottimizzazione / Prestazioni
+ Ottimizzazione / Prestazioni
 
 - Aspose.Cells per Segnalazioni
  I servizi sono complessivamente ottimizzati per quanto riguarda le prestazioni
@@ -61,13 +61,13 @@ Ottimizzazione / Prestazioni
 
 
 - Componente server: i campi vengono uniti quando vengono visualizzati come XLSX
-- Componente server - Problemi di esportazione di Aspose.Cells per Reporting Services
+- Componente server - Problemi di esportazione di Aspose.Cells for Reporting Services
 - Componente server: la colonna nascosta è visibile dopo il rendering
 - Componente server: mancano le intestazioni del gruppo di colonne
 - Componente server - Problema di implementazione dell'interruzione di pagina (XL#38567)
 - Componente server: impossibile pubblicare il report se un report contiene "*" all'interno delle formule
 
-30962 - ServerComponent - Enorme spazio o spazio tra due tablix
+ 30962 - ServerComponent - Enorme spazio o spazio tra due tablix
 
 - Componente server: problema relativo al colore di sfondo di Cell (XL#CCS) in ReportingServices
 - Componente server: problema relativo ai piè di pagina e alle formule dinamiche

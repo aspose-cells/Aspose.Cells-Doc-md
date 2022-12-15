@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Node.js via Java 21.6 Release Notes
+title: Aspose.Cells for Node.js via Java 21.6 Release Notes
 type: docs
 weight: 7
 url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Node.js via Java 21.6](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Node.js via Java 21.6](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -31,9 +31,9 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 |CELLSJAVA-43492| Konvertering av en XML-fil (SpreadsheetML) tar bort Hidden-inställningen i "Namndefinition" i utdata XLS och XLSX|
 |CELLSJAVA-43486|NullPointerException vid konvertering av ett HTML-dokument till en arbetsbok|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Node.js via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Node.js via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Ändrar beteendet för egenskapen Cell.IsErrorValue.**
 

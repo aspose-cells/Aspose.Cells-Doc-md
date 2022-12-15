@@ -5,7 +5,7 @@ weight: 10
 url: /sv/net/save-each-worksheet-to-different-pdf/
 ---
 ## **Aspose.Cells - Spara varje kalkylblad till en annan PDF**
-Aspose.Cells stöder konvertering av XLS-filer (som innehåller bilder, diagram etc.) till PDF-dokument. Aspose.Cells för .NET kan arbeta oberoende för att konvertera ett kalkylblad till Pdf-dokument och du behöver inte längre använda Aspose.Pdf för .NET för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
+Aspose.Cells stöder konvertering av XLS-filer (som innehåller bilder, diagram etc.) till PDF-dokument. Aspose.Cells for .NET kan arbeta självständigt för att konvertera ett kalkylblad till Pdf-dokument och du behöver inte längre använda Aspose.Pdf for .NET för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
 
 **C#**
 

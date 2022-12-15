@@ -7,7 +7,7 @@ url: /ru/net/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-gridd
 ## **Возможные сценарии использования**
 GridDesktop предоставляет различные типы параметров копирования и вставки со свойством Aspose.Cells.GridDesktop.GridDesktop.PasteType. Эти параметры указаны в перечислении Aspose.Cells.GridDesktop.Data.GridPasteType. Некоторые из них следующие
 
-- GridPasteType.Все
+- GridPasteType.All
 
 Он копирует и вставляет все из исходных ячеек в целевые.
 

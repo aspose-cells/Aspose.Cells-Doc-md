@@ -5,7 +5,7 @@ weight: 100
 url: /zh/java/how-to-run-the-examples/
 ---
 ## **从 GitHub 下载**
- Aspose.Cells for Java 的所有示例都托管在[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java).您可以使用您最喜欢的 GitHub 客户端克隆存储库或从以下位置下载 ZIP 文件[这里](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
+Aspose.Cells for Java 的所有示例都托管在[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) .您可以使用您最喜欢的 GitHub 客户端克隆存储库或从以下位置下载 ZIP 文件[这里](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
 
 将 ZIP 文件的内容解压缩到计算机上的任何文件夹。所有示例都位于**例子**文件夹。
 
@@ -39,7 +39,7 @@ AsposeCellsExamples.DrawingObjects
 ## **截屏**
 请查看以下屏幕截图及其突出显示的区域以获得更多帮助。
 
-![待办事项：图片_替代_文本](how-to-run-the-examples_1.png)
+![待办事项：图像_替代_文本](how-to-run-the-examples_1.png)
 
 ## **贡献**
 如果您想添加或改进示例，我们鼓励您为该项目做出贡献。此存储库中的所有示例和展示项目都是开源的，可以在您自己的应用程序中自由使用。

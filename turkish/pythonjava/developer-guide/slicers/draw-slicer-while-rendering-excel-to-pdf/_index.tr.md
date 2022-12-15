@@ -5,7 +5,7 @@ weight: 20
 url: /tr/python-java/draw-slicer-while-rendering-excel-to-pdf/
 ---
 ## **Excel'i PDF'ye dönüştürürken Dilimleyici çizin**
-Java aracılığıyla Python için Aspose.Cells, Excel'in dilimleyici ayarlarıyla PDF'ye aktarılmasını destekler. API bunu varsayılan olarak destekler, dilimleyicili Excel dosyasını PDF'e dışa aktarmanız yeterlidir, oluşturulan PDF dilimleyicinin uygulandığını gösterecektir. Aşağıdaki kod parçacığı,[örnek excel dosyası](106365058.xlsx)bir dilimleyici içerir ve çalışma kitabını[çıktı PDF dosyası](106365052.xlsx). Aşağıdaki ekran görüntüsü, kaynak Excel dosyasını ve oluşturulan PDF dosyasını karşılaştırır.
+Aspose.Cells for Python via Java, dilimleyici ayarlarıyla Excel'in PDF'ye aktarılmasını destekler. API bunu varsayılan olarak destekler, dilimleyicili Excel dosyasını PDF'e dışa aktarmanız yeterlidir, oluşturulan PDF dilimleyicinin uygulandığını gösterecektir. Aşağıdaki kod parçacığı,[örnek excel dosyası](106365058.xlsx)bir dilimleyici içerir ve çalışma kitabını[çıktı PDF dosyası](106365052.xlsx). Aşağıdaki ekran görüntüsü, kaynak Excel dosyasını ve oluşturulan PDF dosyasını karşılaştırır.
 
 ![yapılacaklar:resim_alternatif_Metin](SlicerExcelToPDF.jpg)
 ## **Basit kod**

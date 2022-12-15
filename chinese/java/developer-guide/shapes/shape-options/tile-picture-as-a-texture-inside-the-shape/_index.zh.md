@@ -14,7 +14,7 @@ url: /zh/java/tile-picture-as-a-texture-inside-the-shape/
 
 ## **截屏**
 
-![待办事项：图片_替代_文本](tile-picture-as-a-texture-inside-the-shape_1.png)
+![待办事项：图像_替代_文本](tile-picture-as-a-texture-inside-the-shape_1.png)
 
 ## **示例代码**
 

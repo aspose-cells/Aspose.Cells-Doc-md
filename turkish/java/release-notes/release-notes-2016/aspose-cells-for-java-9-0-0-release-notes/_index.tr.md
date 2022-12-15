@@ -8,7 +8,7 @@ url: /tr/java/aspose-cells-for-java-9-0-0-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSJAVA-41947 | Bir DataPoint'in Pie'de mi yoksa Bar'da mı olduğunu algılama yeteneği| Yeni özellik|
+|CELLSJAVA-41947 | Bir DataPoint'in Pie'de mi yoksa Bar'da mı olduğunu algılama yeteneği|Yeni özellik|
 |CELLSJAVA-41827 | Workbook.calculateFormula() yöntemi kullanılırken elektronik tablonun formülleri hesaplaması 3 dakikadan uzun sürüyor| Artırma|
 |CELLSJAVA-41969 | Cell HTML'yi XLSX dosya biçimine dönüştürürken gölgelendirme eksik| Böcek|
 |CELLSJAVA-41955 | Çalışma kitabından HTML'ye hücrelerde '#' gösteriliyor| Böcek|

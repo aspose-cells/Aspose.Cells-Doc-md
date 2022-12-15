@@ -25,7 +25,7 @@ img_options.setOnePagePerSheet(true)
 
 
 
-Convertir chaque feuille de calcul au format svg
+# Convertir chaque feuille de calcul au format svg
 
 sheet_count = classeur.getWorksheets().getCount()
 

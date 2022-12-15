@@ -6,7 +6,7 @@ url: /it/net/remove-duplicate-rows-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Rimuovere le righe duplicate è una delle tante funzioni utili di Microsoft Excel. Consente agli utenti di rimuovere le righe duplicate in un foglio di lavoro, è possibile scegliere quali colonne devono essere controllate per informazioni duplicate.
+Rimuovi le righe duplicate è una delle tante funzioni utili di Microsoft Excel. Consente agli utenti di rimuovere le righe duplicate in un foglio di lavoro, è possibile scegliere quali colonne devono essere controllate per informazioni duplicate.
 
 Aspose.Cells fornisce il metodo Cells.RemoveDuplicates() per questo scopo. Puoi anche impostare startRow, startColumn, endRow, endColumn per raccogliere le colonne.
 

@@ -71,8 +71,8 @@ url: /it/net/aspose-cells-for-net-16-11-0-release-notes/
 |CELLSNET-44781 | IndexOutOfRangeException, durante l'eliminazione di righe su GridDesktop| Eccezione|
 |CELLSNET-44770 | Errore: riferimento all'oggetto non impostato su un'istanza di un oggetto, dopo l'inserimento di un'eliminazione di un valore| Eccezione|
 |CELLSNET-44725 |Errore di runtime JavaScript: l'oggetto non supporta la proprietà o il metodo "fireEvent"| Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà Workbook.AbsolutePath**
 Ottiene e imposta il percorso assoluto del file. Utilizzato solo per collegamenti esterni.
 #### **Aggiunge la classe GlobalizationSettings e la proprietà WorkbookSettings.GlobalizationSettings**

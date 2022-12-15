@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لخدمات التقارير 1.7.0 ملاحظات الإصدار
+title: Aspose.Cells for Reporting Services 1.7.0 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لخدمات التقارير 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
+ تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
  ما هو الجديد؟
 
-- Aspose.Cells مصمم خدمات التقارير يدعم إنشاء قالب مصفوفة في Excel.
+- Aspose.Cells for Reporting Services يدعم المصمم إنشاء قالب مصفوفة في Excel.
 - يدعم التنسيق الشرطي لعناصر تقرير المصفوفة والجدول.
 - يضيف عنصر تقرير tablix التقديم فقط لتنسيقات CSV و TXT في SQL Server 2008 Reporting Services.
 
@@ -26,11 +26,11 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-- تم إصلاح Aspose.Cells لمصمم تقارير خدمات التقارير وخطأ تنسيق التقرير.
+- تم إصلاح Aspose.Cells for Reporting Services مصمم التقارير وخطأ تنسيق التقرير.
 - إصلاح الخلل في الصف.
 - إصلاح خوارزمية دمج الصف.
 
- تم حل المشكلات في Aspose.Cells لخدمات التقارير 1.7.0.
+ تم حل المشكلات في Aspose.Cells for Reporting Services 1.7.0.
 
 
 

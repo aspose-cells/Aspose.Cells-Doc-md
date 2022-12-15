@@ -6,7 +6,7 @@ url: /sv/net/reading-data-validations-in-excel-file-using-aspose-cells-griddeskt
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridDesktop kan läsa och tillämpa**Datavalideringar** din Excel-fil. Vänligen ladda din Excel-fil i GridDesktop och alla datavalideringar i den kommer att börja fungera som de gör i Microsoft Excel.
+ Aspose.Cells.GridDesktop kan läsa och tillämpa**Datavalideringar** din Excel-fil. Ladda din Excel-fil i GridDesktop och alla datavalideringar i den kommer att börja fungera som de gör i Microsoft Excel.
 
 {{% /alert %}} 
 ## **Läsa datavalideringar i Excel-fil med Aspose.Cells.GridDesktop**

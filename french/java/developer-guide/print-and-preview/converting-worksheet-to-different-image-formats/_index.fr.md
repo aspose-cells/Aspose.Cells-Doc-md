@@ -14,7 +14,7 @@ Aspose.Cells vous permet d'exporter une feuille de calcul à partir du classeur 
 
 Parfois, il est utile d'enregistrer une image d'une feuille de calcul. Les images peuvent être partagées en ligne, insérées dans d'autres documents (rapports rédigés en Microsoft Word, par exemple, ou PowerPoint présentations).
 
-Aspose.Cells fournit l'exportation d'images via le**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** classer. Cette classe représente la feuille de calcul qui sera rendue à une image. La**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**la classe fournit la**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**méthode pour convertir une feuille de calcul en un fichier image. Les formats BMP, PNG, JPEG, TIFF et EMF sont pris en charge.
+Aspose.Cells fournit l'exportation d'images via le**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** classer. Cette classe représente la feuille de calcul qui sera rendue à une image. La**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** la classe fournit la**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**méthode pour convertir une feuille de calcul en un fichier image. Les formats BMP, PNG, JPEG, TIFF et EMF sont pris en charge.
 
 {{% alert color="primary" %}}
 

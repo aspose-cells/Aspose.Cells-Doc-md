@@ -70,11 +70,11 @@ url: /it/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43477) - Gli spazi tra le parole ebraiche sono scomparsi schiacciando la frase in una sola parola
 
- (CELLSNET-43469) - Supporto RenderToSize API per l'immagine del foglio di lavoro
+ (CELLSNET-43469) - Supporta l'API RenderToSize per l'immagine del foglio di lavoro
 
  (CELLSNET-43526) - FillFormat.GradientColorType restituisce PresetColors
 
- (CELLSNET-43521) - API restituisce null per DataLabel.NumberFormat
+ (CELLSNET-43521) - L'API restituisce null per DataLabel.NumberFormat
 
  (CELLSNET-43519) - L'asse x del grafico ha valori negativi ma solo il segno meno{{< emoticons/cross >}} è mostrato
 
@@ -157,10 +157,10 @@ url: /it/net/aspose-cells-for-net-8-4-1-release-notes/
  (CELLSNET-43455) - Alcuni metodi mancano in GridWeb
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 
 

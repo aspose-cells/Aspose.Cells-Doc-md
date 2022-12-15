@@ -14,7 +14,7 @@ När du bygger en arbetsbok med stora datamängder, eller läser en stor Microso
 
 ## **Optimera minnet**
 
-Följande exempel visar hur man optimerar minnesanvändningen när man arbetar med stora data i Aspose.Cells för Node.js via Java.
+Följande exempel visar hur du optimerar minnesanvändningen när du arbetar med stora data i Aspose.Cells for Node.js via Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 

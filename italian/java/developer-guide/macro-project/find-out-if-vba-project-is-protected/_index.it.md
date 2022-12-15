@@ -5,7 +5,7 @@ weight: 80
 url: /it/java/find-out-if-vba-project-is-protected/
 ---
 ## **Possibili scenari di utilizzo**
- Puoi scoprire se il progetto VBA (Visual Basic Applications) del tuo file Excel è protetto o meno con Aspose.Cells utilizzando[VbaProject.isProtected()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected)metodo
+ Puoi scoprire se il progetto VBA (Visual Basic Applications) del tuo file Excel è protetto o meno con Aspose.Cells usando[VbaProject.isProtected()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected)metodo
 ## **Codice di esempio**
  Il seguente codice di esempio crea una cartella di lavoro e quindi controlla se il relativo progetto VBA è protetto o meno. Quindi protegge il progetto VBA e controlla nuovamente se il suo progetto VBA è protetto o meno. Si prega di vedere l'output della sua console per un riferimento. Prima della protezione,[VbaProject.isProtected()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected) ritorna**falso** ma dopo la protezione, ritorna**VERO**.
 

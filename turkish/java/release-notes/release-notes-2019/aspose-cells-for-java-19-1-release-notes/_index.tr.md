@@ -22,7 +22,7 @@ Bu sayfa Aspose.Cells for Java 19.1 için sürüm notları içerir.
 |CELLSJAVA-42807|Formül/işlev "ISOWEEKNUM" hesaplaması MS Excel ile aynı değil|Böcek|
 |CELLSJAVA-42794|ODS'den XLSX'e - Metin rengi değişti|Böcek|
 |CELLSJAVA-42795|ODS'den XLSX'e - Üstü çizili yazı tipi düzgün korunmadı|Böcek|
-|CELLSJAVA-42796|ODS'den XLSX'e - Metin kutusu boyutları değiştirildi|Böcek|
+|CELLSJAVA-42796|ODS'den XLSX'e - Metin kutusu boyutları değişti|Böcek|
 |CELLSJAVA-42798|ODS -> XLSX - Köprü işlevseldir ancak düz metin olarak gösterilir|Böcek|
 |CELLSJAVA-42802|ODS'den XLSX'e, Yüzdeler çubuk grafik grafiğinde kayboluyor|Böcek|
 |CELLSJAVA-42803|Anahat "SummaryRowBelow", XLSB dosya biçimi olarak kaydedilirken etkilenmez|Böcek|

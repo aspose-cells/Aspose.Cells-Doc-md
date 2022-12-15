@@ -1,5 +1,5 @@
 ﻿---
-title: 在 PHP 中处理文件
+title: 在 PHP 中使用文件
 type: docs
 weight: 20
 url: /zh/java/working-with-files-in-php/

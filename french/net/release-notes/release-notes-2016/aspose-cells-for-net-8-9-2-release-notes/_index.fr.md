@@ -49,7 +49,7 @@ url: /fr/net/aspose-cells-for-net-8-9-2-release-notes/
 |CELLSNET-44657 | Conversion de HTML en XLSX dans la feuille de calcul résultante| Punaise|
 |CELLSNET-44648 | Le contenu est manquant lors de la conversion de HTML en XLSX| Punaise|
 |CELLSNET-44647 | Le style est manquant lors de la conversion de HTML en XLSX| Punaise|
-|CELLSNET-44671 | Impossible de rendre une TextBox entièrement transparente| Punaise|
+|CELLSNET-44671 | Impossible de rendre une TextBox totalement transparente| Punaise|
 |CELLSNET-44662 | La méthode Chart.Calculate() gâche le graphique| Punaise|
 |CELLSNET-44665 | La série est manquante lors du rendu du graphique en image| Punaise|
 |CELLSNET-44674 | Commentaires ambigus pour les propriétés dépréciées Shape.LineFormat & FillFormat| Punaise|

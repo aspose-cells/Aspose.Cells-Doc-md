@@ -6,7 +6,7 @@ url: /sv/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
 {{% alert color="primary" %}}
 
-Den här artikeln förklarar hur du lägger till anpassade färger till cirkeldiagramsegment/sektorer. Som standard använder cirkeldiagram standardmallen för Microsoft Excel. Om du vill använda andra färger, definiera om färgerna i diagrammet.
+Den här artikeln förklarar hur du lägger till anpassade färger till cirkeldiagramsegment/sektorer. Som standard använder cirkeldiagram standardmallen Microsoft Excel. Om du vill använda andra färger, definiera om färgerna i diagrammet.
 
 {{% /alert %}}
 

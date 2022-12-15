@@ -23,6 +23,6 @@ url: /es/java/choose-the-platform-and-other-interoperability-technology/
 
 |**Guión** |**Cuándo usar** |
 |:- |:- |
-| Aspose.Cells for Java vía Java Puente o Inline::Java|<p>**ventajas**:</p><p>- Disponible en cualquier plataforma donde esté disponible el Java.</p><p>- Métodos estáticos fáciles de llamar, constructores con parámetros, métodos sobrecargados y usar valores enumerados.</p>|
+| Aspose.Cells for Java via Java Puente o en línea::Java|<p>**ventajas**:</p><p>- Disponible en cualquier plataforma donde esté disponible el Java.</p><p>- Métodos estáticos fáciles de llamar, constructores con parámetros, métodos sobrecargados y usar valores enumerados.</p>|
 ||<p>**Contras**: </p><p>- Tiene lanzamientos menos frecuentes y menos funciones que Aspose.Cells for .NET.</p>|
  Tenga en cuenta que Aspose.Cells for Java está diseñado para aplicaciones for Java y su uso en otros lenguajes de programación está sujeto a algunas limitaciones técnicas o soluciones alternativas.

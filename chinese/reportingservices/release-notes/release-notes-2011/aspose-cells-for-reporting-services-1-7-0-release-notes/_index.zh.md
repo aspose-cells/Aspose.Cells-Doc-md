@@ -1,12 +1,12 @@
 ﻿---
-title: Reporting Services 1.7.0 发行说明的 Aspose.Cells
+title: Aspose.Cells for Reporting Services 1.7.0 发行说明
 type: docs
 weight: 10
 url: /zh/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含发行说明[Aspose.Cells 报告服务 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
+此页面包含发行说明[Aspose.Cells for Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 什么是新的？
 
-- Aspose.Cells Reporting Services 设计器支持在 Excel 中创建矩阵模板。
+- Aspose.Cells for Reporting Services 设计师支持在Excel中创建矩阵模板。
 - 支持表格和矩阵报告项的条件格式。
 - 在 SQL Server 2008 Reporting Services 中添加仅为 CSV 和 TXT 格式呈现的 Tablix 报表项。
 
@@ -26,11 +26,11 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-- 修复了 Reporting Services 报表设计器和报表格式错误的 Aspose.Cells。
+- 修复了 Aspose.Cells for Reporting Services 报表设计器和报表格式错误。
 - 修复了隐藏行错误。
 - 固定合并行算法。
 
- Reporting Services 1.7.0 的 Aspose.Cells 中已解决的问题。
+ Aspose.Cells for Reporting Services 1.7.0 中已解决的问题。
 
 
 

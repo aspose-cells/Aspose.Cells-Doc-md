@@ -22,7 +22,7 @@ Para establecer formatos de visualización en Microsoft Excel:
 
  Aspose.Cells proporciona[**ObtenerEstilo**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) y[**EstablecerEstilo**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) métodos para el[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clase. Estos métodos se utilizan para obtener y establecer el formato de una celda. los[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)La clase proporciona algunas propiedades útiles para manejar los formatos de visualización de números y fechas.
 
-### **Uso de formatos numéricos incorporados**
+### **Uso de formatos numéricos integrados**
 
  Aspose.Cells ofrece algunos formatos de números incorporados para configurar los formatos de visualización de los números y las fechas. Estos formatos numéricos integrados se pueden aplicar utilizando el[**Número**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) propiedad de la[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto. Todos los formatos de números incorporados reciben valores numéricos únicos. Los desarrolladores pueden asignar cualquier valor numérico deseado al[**Número**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) propiedad de la[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)objeto para aplicar el formato de visualización. Este enfoque es rápido. Los formatos de números incorporados admitidos por Aspose.Cells se enumeran a continuación.
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для примечаний к выпуску SharePoint 17.6
+title: Aspose.Cells for SharePoint 17.6 Примечания к выпуску
 type: docs
 weight: 40
 url: /ru/sharepoint/aspose-cells-for-sharepoint-17-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-На этой странице содержатся примечания к выпуску Aspose.Cells для SharePoint 17.6.
+Эта страница содержит примечания к выпуску для Aspose.Cells for SharePoint 17.6.
 
 {{% /alert %}} 
 

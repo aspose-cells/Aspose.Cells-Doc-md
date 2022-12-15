@@ -44,7 +44,7 @@ Aspose.Cells permite a los desarrolladores ajustar automáticamente filas y colu
 
 ### **Características unicas**
 
-También hay una serie de características únicas que los desarrolladores solo encontrarán en Aspose.Cells for Java, por ejemplo, soporte para una amplia gama de formatos, incluidos XLS, XLT, XLSX, CSV, SpreadsheetML, delimitado por tabulaciones, TXT, XML y HTML.
+También hay una serie de características únicas que los desarrolladores solo encontrarán en Aspose.Cells for Java, por ejemplo, soporte para una amplia gama de formatos, incluidos XLS, XLT, XLSX, CSV, SpreadsheetML, delimitado por tabuladores, TXT, XML y HTML.
 
 El API también permite a los desarrolladores agregar una copia de una hoja de trabajo existente (con contenido completo, imágenes y gráficos) a un archivo, establecer un fondo degradado para los gráficos a través del API, crear comentarios, establecer la configuración regional y regional, filtros automáticos y saltos de página. , establezca fórmulas complejas, formato condicional, todo tipo de opciones de protección introducidas en Microsoft Excel XP o superior, y manipule rangos con nombre.
 

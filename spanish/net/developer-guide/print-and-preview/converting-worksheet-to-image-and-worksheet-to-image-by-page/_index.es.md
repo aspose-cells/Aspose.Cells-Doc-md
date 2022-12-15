@@ -27,7 +27,7 @@ Este artículo explica cómo:
 
 Esta tarea muestra cómo usar Aspose.Cells para convertir una hoja de trabajo de un libro de plantilla a un archivo de imagen.
 
-### **Proyecto de configuración**
+### **Proyecto de instalación**
 
 1.  Primero,[descargar Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
 1.  Instálalo en tu computadora de desarrollo. Todos[Aspose](http://www.aspose.com/)Los componentes, cuando están instalados, funcionan en modo de evaluación. El modo de evaluación no tiene límite de tiempo y solo inyecta marcas de agua en los documentos producidos. Ahora inicie Visual Studio.Net y cree una nueva aplicación de consola. Este ejemplo usa una aplicación de consola C#, pero también puede usar VB.NET. Agregue la referencia a Aspose.Cells en el proyecto creado.

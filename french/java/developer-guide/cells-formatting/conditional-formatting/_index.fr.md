@@ -42,7 +42,7 @@ Aspose.Cells prend en charge l'application de la mise en forme conditionnelle lo
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetBorder-SetBorder.java" >}}
-### **Définir le motif**
+### **Définir le modèle**
 **Définition d'un modèle de cellule dans Microsoft Excel** 
 
 ![tâche : image_autre_texte](conditional-formatting_4.png)

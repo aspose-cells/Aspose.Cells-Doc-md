@@ -1,5 +1,5 @@
 ﻿---
-title: 在形状或文本框中设置段落的行间距
+title: 在形状或文本框中设置段落的行距
 type: docs
 weight: 810
 url: /zh/java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
@@ -9,7 +9,7 @@ url: /zh/java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 您可以分别使用 TextParagraph.LineSpace、TextParagraph.SpaceBefore 和 TextParagraph.SpaceAfter 设置段落的行距、段前间距和段后间距。
 
 {{% /alert %}} 
-## **在形状或文本框中设置段落的行间距**
+## **在形状或文本框中设置段落的行距**
 以下示例代码解释了上述属性的用法。请下载[输出excel文件](5473432.xlsx)生成的代码供大家参考。
 
 

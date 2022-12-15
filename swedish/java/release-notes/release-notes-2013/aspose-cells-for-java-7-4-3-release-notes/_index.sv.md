@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 7.4.3 Release Notes
+title: Aspose.Cells for Java 7.4.3 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-7-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för [ Aspose.Cells för Java 7.4.3|https://downloads.aspose.com/cells/java/new-releases/-aspose.cells-for-java-7.4.3/]{{% /alert %}} 
+Den här sidan innehåller releasenotes för [ Aspose.Cells for Java 7.4.3|https://downloads.aspose.com/cells/java/new-releases/-aspose.cells-for-java-7.4.3/]{{% /alert %}} 
 
  Undantag
 
@@ -14,7 +14,7 @@ Den här sidan innehåller utgåvor för [ Aspose.Cells för Java 7.4.3|https://
 
  Buggar
 
-40367 - Utskrift av Excel med bildproblem
+ 40367 - Utskrift av Excel med bildproblem
 
  40474 - Kan inte kopiera cellformatering
 

@@ -16,7 +16,7 @@ Skyddade kalkylblad döljer eller skyddar inte känslig data, så det skiljer si
 
 ### **Lägga till eller ta bort skydd**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. Klassen Workbook innehåller en WorksheetCollection som gör det möjligt att komma åt varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
+ Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , som representerar en Microsoft Excel-fil. Klassen Workbook innehåller en WorksheetCollection som gör det möjligt att komma åt varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
 
  Worksheet-klassen tillhandahåller[**Skydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) metod som används för att tillämpa skydd på ett kalkylblad. Protect-metoden accepterar följande parametrar:
 
@@ -46,7 +46,7 @@ Efter att ovanstående kod har använts för att skydda kalkylbladet, kontroller
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_1.png)
 
- För att arbeta med kalkylbladet, avskydda kalkylbladet genom att välja**Skydd** , då**Avskydda arket** från**Verktyg** menyalternativ som visas nedan.
+För att arbeta med kalkylbladet, avskydda kalkylbladet genom att välja**Skydd** , då**Avskydda arket** från**Verktyg** menyalternativ som visas nedan.
 
 **Välja Unprotect Sheet menyalternativ** 
 
@@ -60,7 +60,7 @@ En dialogruta öppnas som frågar efter ett lösenord.
 
 ### **Skydda några Cells**
 
-Det kan finnas vissa scenarier där du bara behöver låsa några få celler i kalkylbladet. Om du vill låsa vissa specifika celler i kalkylbladet måste du låsa upp alla andra celler i kalkylbladet. Alla celler i ett kalkylblad är redan initierade för låsning, du kan kontrollera detta genom att öppna valfri Excel-fil i MS Excel och klicka på**Format | Cells...** att visa**Format Cells** dialogrutan och klicka sedan på fliken Skydd och se en kryssruta märkt "Låst" är markerad som standard.
+ Det kan finnas vissa scenarier där du bara behöver låsa några få celler i kalkylbladet. Om du vill låsa vissa specifika celler i kalkylbladet måste du låsa upp alla andra celler i kalkylbladet. Alla celler i ett kalkylblad är redan initierade för låsning, du kan kontrollera detta genom att öppna valfri Excel-fil i MS Excel och klicka på**Format | Cells...** att visa**Format Cells** dialogrutan och klicka sedan på fliken Skydd och se en kryssruta märkt "Låst" är markerad som standard.
 
 Följande är de två metoderna för att genomföra uppgiften.
 
@@ -71,7 +71,7 @@ Följande punkter beskriver hur du låser några celler med MS Excel. Denna meto
 1. Markera hela kalkylbladet genom att klicka på knappen Välj alla (den grå rektangeln direkt ovanför radnumret för rad 1 och till vänster om kolumn bokstaven A).
 1. Klicka på Cells på Format-menyn, klicka på fliken Skydd och avmarkera sedan kryssrutan Låst.
 
-Detta låser upp alla celler i kalkylbladet
+ Detta låser upp alla celler i kalkylbladet
 
 {{% alert color="primary" %}}
 
@@ -90,17 +90,17 @@ I dialogrutan Skydda ark har du möjlighet att ange ett lösenord och välja de 
 
 **Metod 2:**
 
-I den här metoden använder vi bara Aspose.Cells API för att utföra uppgiften.
+den här metoden använder vi Aspose.Cells API endast för att utföra uppgiften.
 
-Följande exempel visar hur du skyddar några få celler i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan 3 celler (A1, B1, C1) i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har ett Style API som dessutom innehåller en uppsättning låst metod. Du kan använda den här metoden för att låsa eller låsa upp raden/kolumnen.
+Följande exempel visar hur du skyddar några få celler i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan 3 celler (A1, B1, C1) i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har en stil API som dessutom innehåller en uppsättning låst metod. Du kan använda den här metoden för att låsa eller låsa upp raden/kolumnen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ProtectingSpecificCellsinaWorksheet-ProtectingSpecificCellsinaWorksheet.java" >}}
 
 ### **Skydda en rad i arbetsbladet**
 
-Aspose.Cells låter dig enkelt låsa valfri rad i kalkylbladet. Här kan vi använda oss av[**appliceraStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) metod av[**Rad**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) klass för att tillämpa stil på en viss rad i kalkylbladet. Denna metod tar två argument: a[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och[**StilFlagga**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
+ Aspose.Cells låter dig enkelt låsa valfri rad i kalkylbladet. Här kan vi använda oss av[**appliceraStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) metod av[**Rad**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) klass för att tillämpa stil på en viss rad i kalkylbladet. Denna metod tar två argument: a[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och[**StilFlagga**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
 
-Följande exempel visar hur man skyddar en rad i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan den första raden i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har ett Style API som dessutom innehåller en setCellLocked-metod. Du kan låsa eller låsa upp raden/kolumnen med StyleFlag-strukturen.
+Följande exempel visar hur man skyddar en rad i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan den första raden i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har stilen API som dessutom innehåller en setCellLocked-metod. Du kan låsa eller låsa upp raden/kolumnen med StyleFlag-strukturen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ProtectRowWorksheet-ProtectRowWorksheet.java" >}}
 
@@ -108,7 +108,7 @@ Följande exempel visar hur man skyddar en rad i kalkylbladet. Den låser upp al
 
  Aspose.Cells låter dig enkelt låsa valfri kolumn i kalkylbladet. Här kan vi använda oss av[**appliceraStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) metod av[**Kolumn**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) klass för att tillämpa stil på en viss kolumn i kalkylbladet. Denna metod tar två argument: a[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt och[**StilFlagga**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct som har alla medlemmar relaterade till tillämpad formatering.
 
-Följande exempel visar hur man skyddar en kolumn i kalkylbladet. Det låser upp alla celler i kalkylbladet först och låser sedan den första kolumnen i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har ett Style API som dessutom innehåller en uppsättning låst metod. Du kan låsa eller låsa upp raden/kolumnen med StyleFlag-strukturen.
+Följande exempel visar hur man skyddar en kolumn i kalkylbladet. Det låser upp alla celler i kalkylbladet först och låser sedan den första kolumnen i det. Slutligen skyddar det kalkylbladet. En rad/kolumn har en stil API som dessutom innehåller en uppsättning låst metod. Du kan låsa eller låsa upp raden/kolumnen med StyleFlag-strukturen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ProtectColumnWorksheet-ProtectColumnWorksheet.java" >}}
 
@@ -134,7 +134,7 @@ Skyddet tas bort om inte kalkylbladet är lösenordsskyddat. I det här fallet u
 
 ### **Använder Aspose.Cells**
 
- Ett kalkylblad kan oskyddas genom att anropa[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[**Avskydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect() ) metod. De[**Avskydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()metod kan användas på två sätt, som beskrivs nedan.
+ Ett kalkylblad kan oskyddas genom att anropa[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[**Avskydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect() ) metod. De[**Avskydda**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) metod kan användas på två sätt, som beskrivs nedan.
 
 ### **Avskydda ett enkelt skyddat arbetsblad**
 
@@ -202,6 +202,6 @@ Om du vill hindra användare från att redigera celler måste cellerna låsas in
 
 ![todo:image_alt_text](protect-and-unprotect-worksheet_7.png)
 
-Det är möjligt att låsa celler med Aspose.Cells API också. Varje cell har ett Style API som dessutom innehåller en setLocked-metod. Använd den för att låsa eller låsa upp celler.
+Det är möjligt att låsa celler med Aspose.Cells API också. Varje cell har en stil API som dessutom innehåller en setLocked-metod. Använd den för att låsa eller låsa upp celler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-LockCell-LockCell.java" >}}

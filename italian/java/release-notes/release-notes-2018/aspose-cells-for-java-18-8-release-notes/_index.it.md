@@ -17,7 +17,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.8.
 |CELLSJAVA-42677|Problema di interruzione durante il salvataggio del processo di file XLSX|Aumento|
 |CELLSJAVA-42687|Il collegamento ipertestuale non funziona quando viene fatto riferimento da un altro foglio|Aumento|
 |CELLSJAVA-41176|Allineamento errato durante il rendering del foglio di calcolo in formato PDF|Insetto|
-|CELLSJAVA-42676|I dati della tabella sono stati spostati in righe e colonne errate durante la conversione dal formato di file HTML a MS Excel|Insetto|
+|CELLSJAVA-42676|I dati della tabella sono stati spostati nella riga e nella colonna sbagliate durante la conversione dal formato di file HTML a MS Excel|Insetto|
 |CELLSJAVA-41670|La posizione dell'immagine del grafico è errata in Chrome e FireFox durante la conversione in HTML|Insetto|
 |CELLSJAVA-41245|Il controllo Slicer non viene visualizzato durante la conversione di file Excel in formato file HTML|Insetto|
 |CELLSJAVA-42684|La linea verticale al centro del grafico non è disegnata correttamente nell'immagine renderizzata|Insetto|
@@ -33,8 +33,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.8.
 |CELLSJAVA-42689|Eccezione NullPointerException sollevata durante la chiamata a CalculateFormula|Eccezione|
 |CELLSJAVA-42678|Eccezione durante il rendering del foglio di lavoro nel formato di file PNG|Eccezione|
 |CELLSJAVA-42411|Errore in Cell: E22-Formula non valida - eccezione all'apertura del file MS Excel|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà PdfSecurityOptions.AccessibilityExtractContent**
 Autorizzazione a copiare o estrarre contenuti (a supporto dell'accessibilità agli utenti disabili o per altri scopi).
 ### **Aggiunge la classe SubtotalSetting**

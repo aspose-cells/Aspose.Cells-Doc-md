@@ -1,12 +1,12 @@
 ﻿---
-title: Java 21.12 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 21.12 Sürüm Notları
 type: docs
 weight: 1
 url: /tr/java/aspose-cells-for-android-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 21.12 aracılığıyla Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 21.12 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ Bu sayfa, Java 21.12 aracılığıyla Android için Aspose.Cells için sürüm n
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 
 ### **Name.GetRefersTo() aşırı yüklenmiş yöntemi ekler.**
 
@@ -100,7 +100,7 @@ Boş satırların ve boş sütunların herhangi bir birleşimiyle sınırlanan b
 
 ### **Enum CellValueFormatStrategy.DisplayString ekler.**
 
-Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücre değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
+Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücrenin değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
 
 ### **WorksheetCollection.ActiveSheetName özelliğini ekler.**
 

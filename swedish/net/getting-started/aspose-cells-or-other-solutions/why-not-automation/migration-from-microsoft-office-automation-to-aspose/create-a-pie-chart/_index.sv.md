@@ -6,13 +6,13 @@ url: /sv/net/create-a-pie-chart/
 ---
 {{% alert color="primary" %}}
 
-Diagram presenterar data på ett lättförståeligt sätt. Användare som arbetar med Microsoft Excel kan skapa ett antal olika diagram och anpassa dem. Samma funktioner är tillgängliga för utvecklare som arbetar med Aspose.Cells för .NET.
+Diagram presenterar data på ett lättförståeligt sätt. Användare som arbetar med Microsoft Excel kan skapa ett antal olika diagram och anpassa dem. Samma funktioner är tillgängliga för utvecklare som arbetar med Aspose.Cells for .NET.
 
 {{% /alert %}}
 
 ## **Skapa ett cirkeldiagram**
 
-Den här artikeln jämför hur man skapar ett cirkeldiagram med Office Automation och VSTO med att använda Aspose.Cells för .NET. Stegen för att skapa ett cirkeldiagram är:
+Den här artikeln jämför hur man skapar ett cirkeldiagram med Office Automation och VSTO med att använda Aspose.Cells for .NET. Stegen för att skapa ett cirkeldiagram är:
 
 1. Skapa en arbetsbok och ett arbetsblad.
 1. Lägger till exempeldata.
@@ -20,7 +20,7 @@ Den här artikeln jämför hur man skapar ett cirkeldiagram med Office Automatio
 1. Lägga till ett cirkeldiagram, definiera dataintervallet och diagrammets titel.
 1. Sparar kalkylark.
 
- Kodexemplen i den här artikeln visar hur man lägger till ett cirkeldiagram med[VSTO](/cells/sv/net/create-a-pie-chart/) , med antingen C# eller Visual Basic, jämfört med att skapa en med[Aspose.Cells](/cells/sv/net/create-a-pie-chart/)återigen med antingen C# eller Visual Basic.
+ Kodexemplen i den här artikeln visar hur man lägger till ett cirkeldiagram med[VSTO](/cells/sv/net/create-a-pie-chart/) , med antingen C# eller Visual Basic, jämfört med att skapa en med[Aspose.Cells](/cells/sv/net/create-a-pie-chart/), återigen med antingen C# eller Visual Basic.
 
 ### **Skapa ett cirkeldiagram med VSTO**
 
@@ -102,7 +102,7 @@ Kodexemplen som följer visar hur man lägger till ett cirkeldiagram i ett kalky
 
 ![todo:image_alt_text](create-a-pie-chart_1.png)
 
-### **Skapa ett cirkeldiagram med Aspose.Cells för .NET**
+### **Skapa ett cirkeldiagram med Aspose.Cells for .NET**
 
 Kodexemplen som följer visar hur man lägger till ett cirkeldiagram i ett kalkylblad med Aspose.Cells.
 
@@ -178,6 +178,6 @@ Kodexemplen som följer visar hur man lägger till ett cirkeldiagram i ett kalky
 
 {{< /highlight >}}
 
-**Cirkeldiagram skapat med Aspose.Cells för .NET** 
+**Cirkeldiagram skapat med Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](create-a-pie-chart_2.png)

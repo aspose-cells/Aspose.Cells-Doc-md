@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 20.3 Notes de version
+title: Aspose.Cells for Android via Java 20.3 Notes de mise à jour
 type: docs
 weight: 20
 url: /fr/java/aspose-cells-for-android-via-java-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 20.3.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 20.3.
 
 {{% /alert %}} 
 
@@ -71,7 +71,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-43140|IllegalArgumentException lors de l'appel de calculateFormula()|Exception|
 |CELLSJAVA-43110|Conversion en PDF - java.lang.NullPointerException|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 ### **Ajoute la propriété ReplaceOptions.RegexKey.**
 Indique si la clé recherchée est une expression régulière. Si vrai, la clé recherchée (partie à remplacer) sera considérée comme une expression régulière spécifiée par l'utilisateur.
 ### **Supprime la méthode obsolète ValidationCollection.Add(Aspose.Cells.Validation).**
@@ -87,7 +87,7 @@ Type de signature électronique avancée XML (XAdES).
 ### **Ajoute la propriété DigitalSignature.XAdESType**
 Obtient et définit le type de signature électronique avancée XML (XAdES). La valeur par défaut est Aucune (XAdES est désactivé).
 ### **Ajoute la propriété FormulaParseOptions.Parse.**
- Indique si la formule doit être analysée lors de la définition d'une expression de formule dans la cellule. La valeur par défaut est**vrai** . Si**faux**, l'expression de formule d'entrée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les analyser ou que des données de formule analysées soient requises par d'autres opérations telles que le calcul de formules.
+ Indique si la formule doit être analysée lors de la définition d'une expression de formule dans la cellule. La valeur par défaut est**vrai** . Si**faux**l'expression de formule d'entrée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les analyser ou que des données de formule analysées soient requises par d'autres opérations telles que le calcul de formules.
 ### **Ajoute la méthode Workbook.ParseFormulas(bool ignoreError).**
 Analyse toutes les formules qui n'ont pas été analysées lorsqu'elles ont été chargées ou définies dans une cellule.
 ### **Ajoute la propriété PivotTable.ExternalConnectionDataSource.**

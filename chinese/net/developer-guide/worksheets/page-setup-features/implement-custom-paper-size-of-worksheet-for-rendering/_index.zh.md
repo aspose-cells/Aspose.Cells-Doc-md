@@ -14,7 +14,7 @@ url: /zh/net/implement-custom-paper-size-of-worksheet-for-rendering/
 
 ## **截屏**
 
-![待办事项：图片_替代_文本](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+![待办事项：图像_替代_文本](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
 ## **示例代码**
 

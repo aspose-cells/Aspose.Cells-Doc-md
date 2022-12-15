@@ -4,8 +4,8 @@ type: docs
 weight: 100
 url: /it/cpp/faq/
 ---
-## **La crittografia e la decrittografia non sono supportate per Aspose.Cells per C++ ora**
-Ora, la crittografia e la decrittografia non sono supportate per Aspose.Cells per C++, quindi se si desidera aprire un file con password il codice genererà un'eccezione.
+## **La crittografia e la decrittografia non sono supportate per Aspose.Cells for C++ ora**
+Ora, la crittografia e la decrittografia non sono supportate per Aspose.Cells for C++, quindi se si desidera aprire un file con password il codice genererà un'eccezione.
 
 
 

@@ -21,7 +21,7 @@ Viele Kunden weltweit verlassen sich auf die umfassenden Funktionen zum Importie
 |Tabulatorgetrennt|Laden und speichern Sie Dokumente im tabulatorgetrennten Dateiformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Klartext (TXT)|Extrahieren Sie Text ganz einfach, indem Sie ihn im Nur-Text-Format speichern.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Inhaltsfunktionen für Tabellenkalkulationen**
-Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlichen Klassen/Schnittstellen besteht, mit denen Sie geladene Tabellenkalkulationen programmgesteuert generieren, kombinieren, ändern, analysieren oder anderweitig untersuchen können. Einige Hauptmerkmale sind in der folgenden Tabelle aufgeführt.
+Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlichen Klassen/Schnittstellen besteht, mit denen Sie geladene Tabellen programmgesteuert generieren, kombinieren, ändern, analysieren oder anderweitig untersuchen können. Einige Hauptmerkmale sind in der folgenden Tabelle aufgeführt.
 
 |**Feature**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |

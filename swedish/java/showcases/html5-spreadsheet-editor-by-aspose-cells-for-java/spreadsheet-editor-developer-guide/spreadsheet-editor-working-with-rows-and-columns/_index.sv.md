@@ -36,7 +36,7 @@ Redaktören lägger till en ny rad på den valda platsen.
 
 **Hur det fungerar?**
 
- De**Lägg till rad ovan** och**Lägg till rad nedan** hanteras av JSF backend bean**Arbetsbladsvy**Källkoden för respektive metoder är följande:
+ De**Lägg till rad ovan** och**Lägg till rad nedan** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
 #### **WorksheetView.addRowAbove**
 {{< highlight "java" >}}
 
@@ -101,7 +101,7 @@ Så här lägger du till en ny kolumn:
 
 1. Klicka på en cell där du vill lägga till en kolumn.
 1.  Byta till**Fliken Format**.
-1.  Klick**Lägg till kolumn före** för att lägga till en kolumn före den markerade cellen.
+1.  Klick**Lägg till kolumn före**för att lägga till en kolumn före den markerade cellen.
 1.  Klick**Lägg till kolumn efter** för att lägga till en kolumn efter den markerade cellen.
 
 Redaktören lägger till en ny kolumn på den valda platsen.
@@ -110,7 +110,7 @@ Redaktören lägger till en ny kolumn på den valda platsen.
 
 **Hur det fungerar?**
 
- De**Lägg till kolumn före** och**Lägg till kolumn efter** hanteras av JSF backend bean**Arbetsbladsvy**Källkoden för respektive metoder är följande:
+ De**Lägg till kolumn före** och**Lägg till kolumn efter** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
 #### **WorksheetView.addColumnBefore**
 {{< highlight "java" >}}
 
@@ -247,7 +247,7 @@ Så här ändrar du bredden på en kolumn:
 
 1. Klicka på valfri cell i kolumnen.
 1.  Byta till**Fliken Format**.
-1.  Klick**Kolumnbredd** knappen för att öppna**Kolumnbredd** dialog.
+1.  Klick**Kolumnbredd** knappen för att öppna**Kolumnbredd**dialog.
 1. Ange ett nytt värde i dialogrutan.
 1.  Klick**Stänga**.
 
@@ -259,7 +259,7 @@ Så här ändrar du höjden på en rad:
 
 1. Klicka på valfri cell inuti raden.
 1.  Byta till**Fliken Format**.
-1.  Klick**Radhöjd** knappen för att öppna**Radhöjd** dialog.
+1.  Klick**Radhöjd** knappen för att öppna**Radhöjd**dialog.
 1. Ange ett nytt värde i dialogrutan.
 1.  Klick**Stänga**.
 
@@ -321,7 +321,7 @@ Redaktören lägger till en ny cell på den valda platsen. De intilliggande cell
 
 **Hur det fungerar?**
 
- De**Skift Cells Höger** och**Skift Cells Ner** hanteras av JSF backend bean**Arbetsbladsvy**Källkoden för respektive metoder är följande:
+ De**Skift Cells Höger** och**Skift Cells Ner** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
 #### **WorksheetView.addCellShiftRight**
 {{< highlight "java" >}}
 

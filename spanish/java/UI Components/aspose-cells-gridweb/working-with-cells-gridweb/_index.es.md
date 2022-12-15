@@ -7,7 +7,7 @@ url: /es/java/working-with-cells-gridweb/
 ## **Accediendo a Cells en la hoja de trabajo**
 Este tema analiza las celdas y analiza la característica más básica de GridWeb: acceder a las celdas.
 
-Cada hoja de trabajo contiene un objeto GridCells, una colección de objetos GridCell. Un objeto GridCell representa una celda en Aspose.Cells.GridWeb. Es posible acceder a cualquier celda usando GridWeb. Hay dos métodos preferidos:
+Cada hoja de trabajo contiene un objeto GridCells, una colección de objetos GridCell. Un objeto GridCell representa una celda en Aspose.Cells.GridWeb. Es posible acceder a cualquier celda utilizando GridWeb. Hay dos métodos preferidos:
 
 - [Acceso a la celda por nombre](/cells/es/java/working-with-cells-gridweb/).
 - [Acceso a la celda por índices de fila y columna](/cells/es/java/working-with-cells-gridweb/).
@@ -101,7 +101,7 @@ La sintaxis para hacer referencia a un valor de celda de una hoja de trabajo dif
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-ReferencingCellsfromOtherWorksheets-ReferencingCellsfromOtherWorksheets.jsp" >}}
 ## **Crear validación de datos en un GridCell de GridWeb**
- Aspose.Cells. GridWeb le permite agregar**Validación de datos** utilizando el método GridWorksheet.getValidations().add(). Usando este método, usted tiene que especificar el**Cell Gama** . Pero si desea crear una Validación de datos en un único GridCell, puede hacerlo directamente utilizando el método GridCell.createValidation(). Del mismo modo, puede eliminar**Validación de datos** desde un GridCell utilizando el método GridCell.removeValidation().
+ Aspose.Cells. GridWeb le permite agregar**Validación de datos** utilizando el método GridWorksheet.getValidations().add(). Usando este método, usted tiene que especificar el**Cell gama** . Pero si desea crear una Validación de datos en un único GridCell, puede hacerlo directamente utilizando el método GridCell.createValidation(). Del mismo modo, puede eliminar**Validación de datos** desde un GridCell utilizando el método GridCell.removeValidation().
 
  El siguiente código de ejemplo crea un**Validación de datos** en una celda B3. Si ingresa cualquier valor que no esté entre 20 y 40, la celda B3 mostrará**Error de validacion** en forma de**Rojo XXXX** como se muestra en esta captura de pantalla.
 
@@ -111,7 +111,7 @@ La sintaxis para hacer referencia a un valor de celda de una hoja de trabajo dif
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreateDataValidationinGridCellofGridWeb-CreateDataValidationinGridCellofGridWeb.jsp" >}}
 ## **Creación de botones de comando personalizados**
-Aspose.Cells.GridWeb contiene botones especiales como Enviar, Guardar y Deshacer. Todos estos botones realizan tareas específicas para Aspose.Cells.GridWeb. También es posible agregar botones personalizados que realizan tareas personalizadas. Este tema explica cómo utilizar esta característica.
+Aspose.Cells.GridWeb contiene botones especiales como Enviar, Guardar y Deshacer. Todos estos botones realizan tareas específicas para Aspose.Cells.GridWeb. También es posible agregar botones personalizados que realizan tareas personalizadas. Este tema explica cómo utilizar esta función.
 
 El siguiente código de ejemplo explica cómo crear un botón de comando personalizado y cómo controlar su evento de clic. Puede usar cualquier icono para su botón de comando personalizado. Con fines ilustrativos, utilizamos este icono de imagen.
 

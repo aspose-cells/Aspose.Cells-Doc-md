@@ -1,24 +1,24 @@
 ﻿---
-title: Aspose.Cells для Reporting Services 1.4.3 Примечания к выпуску
+title: Aspose.Cells for Reporting Services 1.4.3 Примечания к выпуску
 type: docs
 weight: 10
 url: /ru/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-На этой странице содержатся примечания к выпуску [Aspose.Cells для Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
+Эта страница содержит примечания к выпуску для [Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
 
- Мы рады объявить Aspose.Cells для Reporting Services v1.4.3!
+ Мы рады сообщить Aspose.Cells for Reporting Services v1.4.3!
 
  Что изменилось
 
 ? 
 
-· Aspose.Cells.ReportingServices Client поддерживает формат отчетов Reporting Services 2008.
+ · Aspose.Cells.ReportingServices Client поддерживает формат отчетов Reporting Services 2008.
 
  · Улучшена производительность рендеринга.
 
- · Включает стиль элементов отчета в отчет, созданный дизайнером отчетов.
+· Включает стиль элементов отчета в отчет, созданный дизайнером отчетов.
 
  · Aspose.Cells.ReportingServices Client улучшен с точки зрения подключения к серверу отчетов.
 
@@ -26,7 +26,7 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-not
 
 
 
- Проблемы, решенные в Aspose.Cells для Reporting Services 1.4.
+ Вопросы, решаемые в Aspose.Cells for Reporting Services 1.4.
 
 \3. 
 

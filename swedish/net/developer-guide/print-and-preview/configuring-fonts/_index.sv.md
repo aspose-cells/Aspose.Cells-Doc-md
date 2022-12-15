@@ -12,12 +12,12 @@ Aspose.Cells API:er ger möjlighet att rendera kalkylbladen i bildformat samt ko
 
 Nedan är processen som Aspose.Cells API:er följer bakom scenen.
 
-1. API:n försöker hitta typsnitten i filsystemet som matchar det exakta teckensnittsnamnet som används i kalkylarket.
-1.  Om API inte kan hitta typsnitten med exakt samma namn, försöker det använda standardteckensnittet som anges under arbetsbokens**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** fast egendom.
-1.  Om API inte kan hitta typsnittet som definierats under arbetsbokens**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** egenskapen försöker den använda typsnittet som anges under**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** eller**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** fast egendom.
-1. Om API inte kan hitta teckensnittet som definieras under**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** eller**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** egenskapen försöker den använda typsnittet som anges under**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** fast egendom.
-1. Om API inte kan hitta teckensnittet som definieras under**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** egenskapen försöker den välja de mest lämpliga typsnitten från alla tillgängliga typsnitt.
-1. Slutligen, om API inte kan hitta några teckensnitt i filsystemet, renderar det kalkylarket med Arial.
+1. API försöker hitta teckensnitten i filsystemet som matchar det exakta teckensnittsnamnet som används i kalkylarket.
+1.  Om API inte kan hitta typsnitten med exakt samma namn, försöker den använda standardteckensnittet som anges under arbetsbokens**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** fast egendom.
+1.  Om API inte kan hitta teckensnittet som definierats under arbetsbokens**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** egenskapen försöker den använda typsnittet som anges under**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** eller**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** fast egendom.
+1.  Om API inte kan hitta teckensnittet som definieras under**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** eller**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** egenskapen försöker den använda typsnittet som anges under**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** fast egendom.
+1.  Om API inte kan hitta teckensnittet som definieras under**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** egenskapen försöker den välja de mest lämpliga typsnitten från alla tillgängliga typsnitt.
+1. Slutligen, om API inte kan hitta några teckensnitt i filsystemet, renderar den kalkylarket med Arial.
 
 ## **Ställ in anpassade teckensnittsmappar**
 
@@ -57,7 +57,7 @@ Här är ett enkelt användningsscenario.
 
 Utöver de ovan nämnda metoderna har API:erna Aspose.Cells också tillhandahållit sätt att samla information om vilka källor och ersättningar som har ställts in.
 
-1. **[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)** metod returnerar en array av typ**[FontSourceBase](https://reference.aspose.com/cells/net/aspose.cells/fontsourcebase)** som innehåller listan över angivna teckensnittskällor. Om inga källor har angetts,**[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)**metod returnerar en tom array.
+1. **[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)** metod returnerar en array av typ**[FontSourceBase](https://reference.aspose.com/cells/net/aspose.cells/fontsourcebase)**som innehåller listan över specificerade teckensnittskällor. Om inga källor har angetts,**[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)**metod returnerar en tom array.
 1. **[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)** metod accepterar en parameter av typen**sträng** gör det möjligt att ange teckensnittsnamnet för vilket ersättning har ställts in. Om det inte har ställts in någon ersättning för det angivna teckensnittsnamnet sedan**[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)**metod returnerar null.
 
 ## **Förhandsämnen**

@@ -14,7 +14,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 ## 1) Aspose.Cells
 
-### **Autres améliorations et changements**
+### **Autres améliorations et modifications**
 
 ### **Nouvelles fonctionnalités**
 
@@ -108,7 +108,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 ## 2) Suite de grille Aspose.Cells
 
-### **Autres améliorations et changements**
+### **Autres améliorations et modifications**
 
 ### **Insectes**
 

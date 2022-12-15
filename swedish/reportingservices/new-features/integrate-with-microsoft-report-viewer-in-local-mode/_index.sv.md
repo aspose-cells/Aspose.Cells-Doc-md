@@ -8,12 +8,12 @@ url: /sv/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 
 Microsoft Report Viewer är en kraftfull .NET-kontroll som gör att RDL- och RDLC-rapporter kan användas i WinForms och ASP.NET-applikationer. Det gör det möjligt för användare att visa och exportera rapporter till olika format. Kontrollen ingår i Microsoft Visual Studio 2005 och 2008, och finns även tillgänglig som gratis nedladdning från Microsoft.
 
-Report Viewer kan generera rapporter oberoende med hjälp av en inbyggd motor (känd som 'lokalt läge'), eller så kan den visa rapporter som genereras på en rapportserver för Microsoft SQL Server Reporting Services ('fjärrläge'):
+Report Viewer kan generera rapporter oberoende med hjälp av en inbyggd motor (känd som 'lokalt läge'), eller så kan det visa rapporter som genereras på en Microsoft SQL Server Reporting Services Report Server ('fjärrläge'):
 
-- fjärrläge kan Report Viewer exportera rapporter till alla format installerade på den rapportserver som den är ansluten till. För att exportera rapporter till fler Microsoft Excel-format behöver du därför bara installera Aspose.Cells för Reporting Services på servern.
+- fjärrläge kan Report Viewer exportera rapporter till alla format installerade på den rapportserver som den är ansluten till. För att exportera rapporter till fler Microsoft Excel-format behöver du därför bara installera Aspose.Cells for Reporting Services på servern.
 - I lokalt läge ansluter dock inte Report Viewer till en rapportserver och listan över exportformat är begränsad till endast ett fåtal inbyggda format.
 
- Genom att installera Aspose.Cells för Reporting Services på en utvecklingsmaskin och följa stegen nedan kan du exportera till fler Microsoft Excel-format från Report Viewer som arbetar i lokalt läge.
+ Genom att installera Aspose.Cells for Reporting Services på en utvecklingsmaskin och följa stegen nedan kan du exportera till fler Microsoft Excel-format från Report Viewer som arbetar i lokalt läge.
 
 {{% /alert %}} 
 ### **Arbetar med Aspose.Cells i lokalt läge**
@@ -22,7 +22,7 @@ Report Viewer kan generera rapporter oberoende med hjälp av en inbyggd motor (k
  1. Högerklicka på**Referenser** mapp och välj**Lägg till referens**.
  1. Välj**Bläddra** fliken och bläddra till följande sammansättning:
       <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
- (var<InstallDir> är katalogen där du installerade eller packade upp Aspose.Cells för Reporting Services.
+ (var<InstallDir> är katalogen där du installerade eller packade upp Aspose.Cells for Reporting Services.
 
       **Lägga till en referens till Aspose.Cells.ReportingServices.dll till ett projekt** 
 
@@ -246,9 +246,9 @@ End Sub
 {{< /highlight >}}
 
 1.  Anropa AddExtension-metoden från koden.
- - Du kan anropa AddExtension (visas i föregående steg) när du behöver lägga till Aspose.Cells för Reporting Services-exportformat till en Report Viewer-kontrollinstans. Överväg att ringa från formuläret_Ladda eller sida_Ladda händelsehanterare för en WinForms- eller ASP .NET-applikation.
- - Du kan lägga till all eller bara en del export Aspose.Cells för Reporting Services exportformat. Du kan ange vilket visningsnamn som helst för formaten som ska visas i rapportvisaren.
- För att lägga till Aspose.Cells för Reporting Services-exportformat till Microsoft Report Viewer i lokalt läge, använd följande kod:
+ - Du kan anropa AddExtension (visas i föregående steg) när du behöver lägga till Aspose.Cells for Reporting Services exportformat till en Report Viewer-kontrollinstans. Överväg att ringa från formuläret_Ladda eller sida_Ladda händelsehanterare för en WinForms- eller ASP .NET-applikation.
+ - Du kan lägga till alla eller bara vissa exportformat Aspose.Cells for Reporting Services. Du kan ange vilket visningsnamn som helst för formaten som ska visas i rapportvisaren.
+ För att lägga till Aspose.Cells for Reporting Services exportformat till Microsoft Report Viewer i lokalt läge, använd följande kod:
 
 **C#**
 

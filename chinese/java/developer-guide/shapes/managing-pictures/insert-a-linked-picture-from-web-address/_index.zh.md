@@ -18,15 +18,15 @@ url: /zh/java/insert-a-linked-picture-from-web-address/
 
 1. 点击**插入**菜单并选择**图片**.
 
-![待办事项：图片_替代_文本](insert-a-linked-picture-from-web-address_1.png)
+![待办事项：图像_替代_文本](insert-a-linked-picture-from-web-address_1.png)
 
 1. 在“插入图片”对话框中指定图片的网址。
 
-![待办事项：图片_替代_文本](insert-a-linked-picture-from-web-address_2.png)
+![待办事项：图像_替代_文本](insert-a-linked-picture-from-web-address_2.png)
 
 图像被插入。
 
-![待办事项：图片_替代_文本](insert-a-linked-picture-from-web-address_3.png)
+![待办事项：图像_替代_文本](insert-a-linked-picture-from-web-address_3.png)
 
 ### **使用 Aspose.Cells for Java**
 
@@ -40,6 +40,6 @@ url: /zh/java/insert-a-linked-picture-from-web-address/
 
 **输出文件** 
 
-![待办事项：图片_替代_文本](insert-a-linked-picture-from-web-address_4.png)
+![待办事项：图像_替代_文本](insert-a-linked-picture-from-web-address_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-InsertLinkedPicturefromWebAddress-InsertLinkedPicturefromWebAddress.java" >}}

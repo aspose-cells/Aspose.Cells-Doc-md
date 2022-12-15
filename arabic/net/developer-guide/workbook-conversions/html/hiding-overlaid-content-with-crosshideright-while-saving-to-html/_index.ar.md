@@ -10,7 +10,7 @@ url: /ar/net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 
 ## **إخفاء المحتوى المتراكب باستخدام CrossHideRight أثناء الحفظ في Html**
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](64716894.xlsx) ويحفظها في[إخراج HTML](64716893.zip) بعد ضبط[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype)كما[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). توضح لقطة الشاشة كيف[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)يؤثر على الناتج HTML من الإخراج الافتراضي.
+ يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](64716894.xlsx) ويحفظها في[إخراج HTML](64716893.zip) بعد ضبط[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype)كما[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). توضح لقطة الشاشة كيف[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)يؤثر على ناتج HTML من الإخراج الافتراضي.
 
 ![ما يجب القيام به: image_بديل_نص](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
 

@@ -18,7 +18,7 @@ url: /zh/sharepoint/conversion-options/
 
 **合并文件** 
 
-![待办事项：图片_替代_文本](conversion-options_1.png)
+![待办事项：图像_替代_文本](conversion-options_1.png)
 
 
 

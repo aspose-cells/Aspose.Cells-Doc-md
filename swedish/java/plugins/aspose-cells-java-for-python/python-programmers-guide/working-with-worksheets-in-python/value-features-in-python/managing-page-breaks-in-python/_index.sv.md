@@ -6,9 +6,9 @@ url: /sv/java/managing-page-breaks-in-python/
 ---
 ## **Aspose.Cells - Hantera sidbrytningar**
 ### **Lägga till sidbrytningar**
- För att lägga till sidbrytningar med**Aspose.Cells Java för Ruby** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+ För att lägga till sidbrytningar med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -39,9 +39,9 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Rensa alla sidbrytningar**
- För att rensa alla sidbrytningar med**Aspose.Cells Java för Python** , ringa upp**rensa_alla_sidebrytningar** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+ För att rensa alla sidbrytningar med**Aspose.Cells Java for Python** , ringa upp**rensa_alla_sidebrytningar** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -67,9 +67,9 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Ta bort specifik sidbrytning**
- För att ta bort specifik sidbrytning med**Aspose.Cells Java för Python** , ringa upp**remove_page_break** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+ För att ta bort specifik sidbrytning med**Aspose.Cells Java for Python** , ringa upp**remove_page_break** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

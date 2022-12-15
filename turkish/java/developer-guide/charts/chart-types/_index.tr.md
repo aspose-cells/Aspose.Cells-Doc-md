@@ -86,7 +86,7 @@ Aşağıdaki pasta grafikler Aspose.Cells'de desteklenir:
 - 3B pasta grafiği
 - Pasta grafiği pastası
 - Patlatılmış pasta grafik
-- 3B patlatılmış pasta grafik
+- 3B patlatılmış pasta grafiği
 - Pasta grafiği çubuğu
 #### **Dağılım Grafikleri**
 Dağılım çizelgeleri çoğunlukla istatistiklerde, her biri yatay ("X") ve dikey ("Y") eksende bir koordinata sahip olan yalnızca sonlu sayıda noktayı görüntüleyerek ilgili iki niceliksel veya sayısal veri kümesini görsel olarak görüntülemek ve karşılaştırmak için kullanılır.

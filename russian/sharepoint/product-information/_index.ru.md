@@ -9,6 +9,6 @@ url: /ru/sharepoint/product-information/
 - [Поддерживаемые форматы файлов](/cells/ru/sharepoint/supported-file-formats/)
 - [Функции](/cells/ru/sharepoint/features/)
 - [Системные Требования](/cells/ru/sharepoint/system-requirements/)
-- [Установите Aspose.Cells для SharePoint](/cells/ru/sharepoint/install-aspose-cells-for-sharepoint/)
+- [Установить Aspose.Cells for SharePoint](/cells/ru/sharepoint/install-aspose-cells-for-sharepoint/)
 - [Оценить Aspose.Cells](/cells/ru/sharepoint/evaluate-aspose-cells/)
-- [Лицензия Aspose.Cells для SharePoint](/cells/ru/sharepoint/license-aspose-cells-for-sharepoint/)
+- [Лицензия Aspose.Cells for SharePoint](/cells/ru/sharepoint/license-aspose-cells-for-sharepoint/)

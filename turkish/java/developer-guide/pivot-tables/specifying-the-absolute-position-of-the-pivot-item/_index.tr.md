@@ -1,5 +1,5 @@
 ﻿---
-title: Pivot Öğesinin mutlak konumunu belirleme
+title: Pivot Öğesinin mutlak konumunu belirtme
 type: docs
 weight: 40
 url: /tr/java/specifying-the-absolute-position-of-the-pivot-item/

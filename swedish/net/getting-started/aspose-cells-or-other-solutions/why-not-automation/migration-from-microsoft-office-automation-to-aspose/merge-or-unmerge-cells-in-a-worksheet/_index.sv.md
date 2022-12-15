@@ -6,7 +6,7 @@ url: /sv/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-När du arbetar med kalkylblad behöver du ofta skapa en titel/rubrik i en enda cell som sträcker sig över toppen av ditt kalkylblad. Du kanske skapar en faktura och vill ha färre kolumner för total- eller sammanfattningsvärden. När du vill göra en cell av två eller flera celler slår du ihop cellerna. Vi utför uppgiften med VSTO och Aspose.Cells för .NET oberoende.
+När du arbetar med kalkylblad behöver du ofta skapa en titel/rubrik i en enda cell som sträcker sig över toppen av ditt kalkylblad. Du kanske skapar en faktura och vill ha färre kolumner för total- eller sammanfattningsvärden. När du vill göra en cell av två eller flera celler slår du ihop cellerna. Vi utför uppgiften med VSTO och Aspose.Cells for .NET oberoende.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ När du arbetar med kalkylblad behöver du ofta skapa en titel/rubrik i en enda 
 
 ## **Slår ihop Cells**
 
-Följande är de parallella kodavsnitten för VSTO (C#, VB) och Aspose.Cells för .NET (C#, VB).
+Följande är de parallella kodavsnitten för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
@@ -82,7 +82,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 
-### **2) Aspose.Cells för .NET**
+### **2) Aspose.Cells for .NET**
 
 **C#**
 
@@ -124,7 +124,7 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 ## **Ta bort sammanslagningen av Cells**
 
-Använd följande kodrader för VSTO (C#, VB) och Aspose.Cells för .NET (C#, VB) för att ta bort sammanslagningen av cellerna.
+Använd följande kodrader för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB) för att ta bort cellen/cellerna.
 
 ### **1) VSTO**
 
@@ -144,7 +144,7 @@ rng1.UnMerge();     
 
 {{< /highlight >}}
 
-### **2) Aspose.Cells för .NET**
+### **2) Aspose.Cells for .NET**
 
 **C#**
 

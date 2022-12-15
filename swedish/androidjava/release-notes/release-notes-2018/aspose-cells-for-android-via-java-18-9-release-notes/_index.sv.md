@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 18.9 Release Notes
+title: Aspose.Cells for Android via Java 18.9 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-android-via-java-18-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 18.9.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.9.
 
 {{% /alert %}}
 
@@ -60,9 +60,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 18.9
 |CELLSJAVA-42411|Fel i Cell: E22-Ogiltig formel - undantag vid öppning av MS Excel-fil|Undantag|
 |CELLSJAVA-42691|NegativeArraySizeException vid konvertering av XLSX till HTML|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Lägger till enum StyleFlag.Alignments**
 
@@ -182,6 +182,6 @@ Får en XmlDataBinding av denna karta.
 
 {{% alert color="primary" %}}
 
-Eftersom kodbasen för Aspose.Cells för Android via Java matchar koden för relevanta .NET- och Java-versioner, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v18.7, Aspose.Cells för .NET v18.8 , Aspose.Cells för .NET v18.9, Aspose.Cells för Java v18.7, Aspose.Cells för Java v18.8 och Aspose.Cells för Java v18.9 ingår också i denna Aspose.Cells för Android via Java v18.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.7, Aspose.Cells for .NET v18.8, Aspose.Cells for .NET v18.9, Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 och Aspose.Cells for Java v18.9 ingår också i denna 07611073411 08.1173411 08.19.
 
 {{% /alert %}}

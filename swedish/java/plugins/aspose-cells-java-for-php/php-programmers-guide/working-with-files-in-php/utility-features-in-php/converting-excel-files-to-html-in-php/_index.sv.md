@@ -5,7 +5,7 @@ weight: 20
 url: /sv/java/converting-excel-files-to-html-in-php/
 ---
 ## **Aspose.Cells - Konvertera Excel-filer till HTML**
-För att konvertera Excel till HTML med Aspose.Cells för Java i PHP, anropar du helt enkelt kalkylbladet_till_html()-metoden för konverteringsmodulen.
+För att konvertera Excel till HTML med Aspose.Cells for Java i PHP, anropa helt enkelt kalkylblad_till_html()-metoden för konverteringsmodulen.
 
 **PHP-kod**
 

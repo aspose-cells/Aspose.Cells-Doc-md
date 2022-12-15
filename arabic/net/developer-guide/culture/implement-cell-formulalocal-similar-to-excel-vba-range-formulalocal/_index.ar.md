@@ -6,7 +6,7 @@ url: /ar/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- Microsoft قد تحتوي صيغ Excel على أسماء مختلفة في مناطق أو مناطق أو لغات مختلفة. فمثلا،**مجموع**الوظيفة تسمى**سوم** في المانيا. Aspose.Cells لا يمكنه العمل مع أسماء الوظائف غير الإنجليزية. في Microsoft Excel VBA ، يوجد**النطاق. الصيغة المحلية**الخاصية التي تُرجع اسم الوظيفة حسب لغتها أو منطقتها. يوفر Aspose.Cells أيضًا[**Cell.FormulaLocal**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formulalocal)خاصية لهذا الغرض. ومع ذلك ، لن تعمل هذه الخاصية إلا عندما يتم تنفيذها[**GlobalizationSettings.GetLocalFunctionName (سلسلة معايير اسم)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)طريقة.
+ Microsoft قد تحتوي صيغ Excel على أسماء مختلفة في مناطق أو مناطق أو لغات مختلفة. فمثلا،**مجموع**الوظيفة تسمى**سوم** في المانيا. Aspose.Cells لا يمكنه العمل مع أسماء الوظائف غير الإنجليزية. في Microsoft Excel VBA ، هناك**النطاق. الصيغة المحلية**الخاصية التي تُرجع اسم الوظيفة حسب لغتها أو منطقتها. يوفر Aspose.Cells أيضًا[**Cell.FormulaLocal**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formulalocal)خاصية لهذا الغرض. ومع ذلك ، لن تعمل هذه الخاصية إلا عندما يتم تنفيذها[**GlobalizationSettings.GetLocalFunctionName (سلسلة معايير اسم)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)طريقة.
 
 ## **نفذ Cell.FormulaLocal مماثل لنطاق Excel VBA**
 

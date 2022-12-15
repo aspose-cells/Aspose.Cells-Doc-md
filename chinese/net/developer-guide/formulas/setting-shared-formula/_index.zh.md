@@ -16,7 +16,7 @@ url: /zh/net/setting-shared-formula/
 
 |**包含一列或数据的输入文件**|
 |:- |
-|![待办事项：图片_替代_文本](setting-shared-formula_1.png)|
+|![待办事项：图像_替代_文本](setting-shared-formula_1.png)|
 
 您想要在 B2 中添加一个函数来计算第一行数据的销售税。税收是**9%**.计算销售税的公式是：**“=A2*0.09”**.本文介绍如何将此公式应用于 Aspose.Cells。
 

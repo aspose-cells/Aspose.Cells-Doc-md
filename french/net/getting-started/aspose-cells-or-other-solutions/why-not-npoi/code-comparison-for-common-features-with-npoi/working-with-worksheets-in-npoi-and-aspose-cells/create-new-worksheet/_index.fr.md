@@ -25,7 +25,7 @@ workbook.Save("newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Créer une nouvelle feuille de travail**
+## **NPOI - HSSF XSSF - Créer une nouvelle feuille de calcul**
 **C#**
 
 {{< highlight "cs" >}}

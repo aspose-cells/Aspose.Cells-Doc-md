@@ -3,16 +3,16 @@ title: Convertir Excel en PDF
 type: docs
 weight: 50
 url: /fr/python-java/convert-excel-to-pdf/
-description: Comment convertir Excel en PDF avec Python. Cet article montre comment convertir des fichiers Excel en PDF en utilisant Python et facile à utiliser Aspose.Cells pour Python via Java API.
+description: Comment convertir Excel en PDF avec Python. Cet article montre comment convertir des fichiers Excel en PDF en utilisant Python et facile à utiliser Aspose.Cells for Python via Java API.
 keywords: excel to pdf python, python convert excel to pdf, python excel to pdf, convert excel to pdf python, convert excel to pdf in python, convert excel to pdf using python, excel to pdf in python, excel to pdf using python, aspose excel to pdf, aspose convert excel to pdf
 ---
 ## **Convertir Excel en PDF**
 
-Les documents PDF sont largement utilisés comme format standard d'échange de documents entre les organisations, les secteurs gouvernementaux et les particuliers. Les développeurs de logiciels sont souvent invités à concevoir un moyen de convertir facilement des fichiers Excel Microsoft en documents PDF. Aspose.Cells pour Python via Java API offre la possibilité de convertir des fichiers Excel en documents PDF (y compris PDF/A). Aspose.Cell convertit les feuilles de calcul en PDF avec un degré élevé de précision et de fidélité.
+Les documents PDF sont largement utilisés comme format standard d'échange de documents entre les organisations, les secteurs gouvernementaux et les particuliers. Les développeurs de logiciels sont souvent invités à concevoir un moyen de convertir facilement des fichiers Excel Microsoft en documents PDF. Aspose.Cells for Python via Java API permet de convertir des fichiers Excel en documents PDF (y compris PDF/A). Aspose.Cell convertit les feuilles de calcul en PDF avec un degré élevé de précision et de fidélité.
 
 ### **Conversion directe**
 
-Pour enregistrer un fichier Excel directement au format PDF, vous pouvez utiliser le[**Classeur.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)méthode et passe[**EnregistrerFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) comme deuxième paramètre.
+Pour enregistrer un fichier Excel directement au format PDF, vous pouvez utiliser le[**Classeur.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) méthode et passe[**EnregistrerFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) comme deuxième paramètre.
 
 L'extrait de code suivant illustre l'utilisation de[**EnregistrerFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)et le[**Classeur.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) méthode pour convertir Excel au format PDF.
 

@@ -5,7 +5,7 @@ weight: 10
 url: /de/python-java/create-a-pivot-table/
 ---
 ## **Erstellen Sie eine Pivot-Tabelle**
-Aspose.Cells für Python über Java bietet die Funktion zum Erstellen von Pivot-Tabellen. Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen, gehen Sie bitte wie folgt vor:
+Aspose.Cells for Python via Java bietet die Funktion zum Erstellen von Pivot-Tabellen. Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen, gehen Sie bitte wie folgt vor:
 
 1. Fügen Sie einige Daten zu Arbeitsblattzellen hinzu, indem Sie die verwenden[Cell](https://reference.aspose.com/cells/python/asposecells.api/Cell)Objekt[setValue](https://reference.aspose.com/cells/python/asposecells.api/cell#Value)Eigentum. Diese Daten werden als Datenquelle für die Pivot-Tabelle verwendet.
 1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die aufrufen[PivotTableCollection](https://reference.aspose.com/cells/python/asposecells.api/PivotTableCollection)[hinzufügen](https://reference.aspose.com/cells/python/asposecells.api/pivottablecollection#add\(java.lang.Object\))-Methode, gekapselt in der[Arbeitsblatt](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Objekt.

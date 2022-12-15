@@ -3,7 +3,7 @@ title: Skriva ut arbetsböcker
 type: docs
 weight: 20
 url: /sv/java/printing-workbooks/
-description: Hur du skriver ut kalkylblad och arbetsbok med Java. Den här artikeln innehåller Java-koden för att skriva ut kalkylblad och arbetsbok med Aspose.Cells för Java API.
+description: Så här skriver du ut kalkylblad och arbetsbok med Java. Den här artikeln tillhandahåller koden Java för att skriva ut kalkylblad och arbetsbok med Aspose.Cells for Java API.
 keywords: printing workbooks, printing worksheets, printing workbook sheets, printing a workbook, printing workbook java, printing worksheets java, printing excel workbook java, print excel worksheet java, print workbook, print worksheet
 ---
 {{% alert color="primary" %}}
@@ -22,19 +22,19 @@ När du har skapat ditt kalkylblad vill du antagligen skriva ut en papperskopia 
 
 ## Skriva ut arbetsböcker med Aspose.Cells
 
- Aspose.Cells för Java tillhandahåller en[**till skrivaren**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String) ) metod för[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) klass. Genom att använda[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))-metoden kan du ange skrivarnamnet och utskriftsjobbets namn.
+ Aspose.Cells for Java tillhandahåller en[**till skrivaren**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String) ) metod för[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) klass. Genom att använda[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))-metoden kan du ange skrivarnamnet och utskriftsjobbets namn.
 
 ## Exempelkod
 
 ### Skriv ut valt arbetsblad
 
-Följande kodavsnitt visar användningen av[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) metod för att skriva ut ditt valda kalkylblad.
+ Följande kodavsnitt visar användningen av[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) metod för att skriva ut ditt valda kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
 ### Skriv ut hela arbetsboken
 
- Du kan också använda[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String) ) metod för att skriva ut hela arbetsboken. Följande kodavsnitt visar användningen av[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)metod för att skriva ut hela arbetsboken.
+ Du kan också använda[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String) ) metod för att skriva ut hela arbetsboken. Följande kodavsnitt visar användningen av[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) metod för att skriva ut hela arbetsboken.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 

@@ -10,18 +10,18 @@ När du arbetar med en mallfil finns det ibland ett behov av att lägga till ext
 
 På samma sätt kan du behöva ett specifikt kalkylblad för att vara aktivt och visas först när filen öppnas i Microsoft Excel. Ett "aktivt ark" är det ark som du arbetar med i en arbetsbok. Namnet på fliken på det aktiva bladet är som standard fetstilt.
 
- Att lägga till kalkylblad och ställa in vilket blad som är aktivt är vanliga och enkla uppgifter som utvecklare behöver veta hur de ska utföra. I den här artikeln utför vi dessa uppgifter med hjälp av[VSTO](/cells/sv/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) och[Aspose.Cells för .NET](/cells/sv/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+ Att lägga till kalkylblad och ställa in vilket blad som är aktivt är vanliga och enkla uppgifter som utvecklare behöver veta hur de ska utföra. I den här artikeln utför vi dessa uppgifter med hjälp av[VSTO](/cells/sv/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) och[Aspose.Cells for .NET](/cells/sv/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
 ## **Lägga till arbetsblad och aktivera ett arbetsblad**
 För detta migreringstips:
 
-1. Lägg till nya kalkylblad till en befintlig Microsoft Excel-fil.
+1. Lägg till nya kalkylblad i en befintlig Microsoft Excel-fil.
 1. Fyll i data i cellerna i varje nytt kalkylblad.
 1. Aktivera ett ark i arbetsboken.
 1. Spara som Microsoft Excel-fil.
 
-Nedan finns parallella kodavsnitt för VSTO (C#, VB) och Aspose.Cells för .NET (C#, VB), som visar hur man utför dessa uppgifter.
+Nedan finns parallella kodavsnitt för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB), som visar hur man utför dessa uppgifter.
 ### **VSTO**
 **C#**
 
@@ -182,7 +182,7 @@ excelApp.Quit()
 
 
 {{< /highlight >}}
-### **Aspose.Cells för .NET**
+### **Aspose.Cells for .NET**
 **C#**
 
 {{< highlight "csharp" >}}

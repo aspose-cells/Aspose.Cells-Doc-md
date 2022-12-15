@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 2.4.2 Release Notes
+title: Aspose.Cells for Java 2.4.2 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-java-2-4-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.4.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.4.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.4.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.4.2/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java 2.4.2!
+ Vi är glada att meddela Aspose.Cells for Java 2.4.2!
 
  Vad har ändrats:
 
@@ -30,7 +30,7 @@ Okänt makro: {...}
 - Att läsa/spara Excel 97-2003-filer förbättras.
 - 21 korrigeringar och förbättringar.
 
- Problem lösta i Aspose.Cells för Java 2.4.2
+ Problem lösta i Aspose.Cells for Java 2.4.2
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |

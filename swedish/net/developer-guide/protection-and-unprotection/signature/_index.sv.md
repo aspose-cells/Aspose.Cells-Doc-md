@@ -14,11 +14,11 @@ description: Excel-fil digital signatur, verifiering. För att skydda äktheten 
 
 ## **Introduktion**
 
- Använd dialogrutan Digital signatur för att bifoga en digital signatur. Dialogrutan Digital signatur listar giltiga certifikat. Du kan använda dialogrutan Digital signatur för att visa certifikat och välja det du vill använda. Om en arbetsbok har en digital signatur visas namnet på signaturen i**Certifikatnamn** fält. Om du klickar på**Ta bort** i dialogrutan Digital signatur tar Microsoft Excel också bort den digitala signaturen.
+ Använd dialogrutan Digital signatur för att bifoga en digital signatur. Dialogrutan Digital signatur listar giltiga certifikat. Du kan använda dialogrutan Digital signatur för att visa certifikat och välja det du vill använda. Om en arbetsbok har en digital signatur visas namnet på signaturen i**Certifikatnamn** fält. Om du klickar på**Ta bort** knappen i dialogrutan Digital signatur, Microsoft Excel tar också bort den digitala signaturen.
 
 Aspose.Cells tillhandahåller[**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)namnområde för att utföra jobbet (tilldela och validera digitala signaturer). Namnutrymmet har några användbara funktioner för att lägga till och validera digitala signaturer.
 
-Se följande exempelkod som beskriver hur du kan utföra uppgiften med Aspose.Cells för .NET API.
+Se följande exempelkod som beskriver hur du kan utföra uppgiften med hjälp av Aspose.Cells for .NET API.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-AssignAndValidateDigitalSignatures-AssignAndValidateDigitalSignatures.cs" >}}
 

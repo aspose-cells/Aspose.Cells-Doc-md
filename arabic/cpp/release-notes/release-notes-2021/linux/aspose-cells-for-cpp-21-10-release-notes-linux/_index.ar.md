@@ -6,11 +6,11 @@ url: /ar/cpp/aspose-cells-for-cpp-21-10-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ C++ 21.10 لنظام التشغيل Linux.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for C++ 21.10 لنظام التشغيل Linux.
 
 {{% /alert %}} 
 
-يسرنا أن نعلن عن إصدار Aspose.Cells لـ C++ 21.10 لنظام التشغيل Linux.
+يسرنا أن نعلن عن إصدار Aspose.Cells for C++ 21.10 لنظام التشغيل Linux.
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |

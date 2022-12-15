@@ -43,7 +43,7 @@ Aspose.Cells
 
 
 
-- .NET C++ Erreur de construction C2686
+- .NET Erreur de génération C++ C2686
 - Conversion d'un fichier XLS en format XLSX pour supprimer le formatage du texte
 - Copier des graphiques d'un classeur à un autre
 - Coloration des cellules corrompue après la copie de la feuille de calcul

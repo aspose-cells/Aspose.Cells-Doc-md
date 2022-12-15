@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells .NET 用于 PHP
+title: Aspose.Cells .NET for PHP
 type: docs
 weight: 40
 url: /zh/net/aspose-cells-net-for-php/
@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-net-for-php/
 
 #### **系统要求**
 
-**以下是对 PHP 使用 Aspose.Cells .NET 的系统要求：**
+**以下是使用 Aspose.Cells .NET for PHP 的系统要求：**
 
 - 安装了 PHP 和 PHP 管理器的 IIS。
 - Aspose.Total API。
@@ -29,7 +29,7 @@ url: /zh/net/aspose-cells-net-for-php/
 
 #### **下载所需的库**
 
-下载下面提到的所需库。这些是执行 Aspose.Cells Java PHP 示例所必需的。
+下载下面提到的所需库。这些是执行 Aspose.Cells Java for PHP 示例所必需的。
 
 - [从下载部分下载 Aspose.Cells for .NET（DLL 或 MSI）文件](https://downloads.aspose.com/cells/net)
 - [下载 Aspose.Cells for .NET 互操作 dll](https://downloads.aspose.com/cells/net)
@@ -46,9 +46,9 @@ url: /zh/net/aspose-cells-net-for-php/
 
 ##### **GitHub**
 
-- **Aspose.Cells .NET 用于 PHP 示例**
+- **Aspose.Cells .NET for PHP 例子**
 
-  - [Aspose.Cells .NET 用于 PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+  - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
 #### **Windows平台源码配置方法**
 
@@ -76,7 +76,7 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 在 IIS 中打开 PHP 管理器，然后单击“启用禁用和扩展”。查找 php_com_dotnet.dll 并确保它已启用。
 
-##### **3.为PHP示例配置Aspose.Cells .NET**
+##### **3.配置Aspose.Cells .NET for PHP实例**
 
 ###### **方法一**
 
@@ -131,7 +131,7 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 #### **扩展和贡献**
 
-Aspose.Cells .NET for PHP 是开源的，其源代码可在下面列出的主要社交编码网站上获得。鼓励开发人员下载源代码并通过建议或添加新功能或改进现有功能来做出贡献，以便其他人也可以从中受益。
+Aspose.Cells .NET for PHP 是开源的，其源代码可以在下面列出的主要社交编码网站上找到。鼓励开发人员下载源代码并通过建议或添加新功能或改进现有功能来做出贡献，以便其他人也可以从中受益。
 
 #### **源代码**
 
@@ -144,7 +144,7 @@ Aspose.Cells .NET for PHP 是开源的，其源代码可在下面列出的主要
 本节包括以下主题
 
 - [PHP 程序员指南](/cells/zh/net/php-programmers-guide/)
-  - [在 PHP 中处理文件](/cells/zh/net/working-with-files-in-php/)
+  - [在 PHP 中使用文件](/cells/zh/net/working-with-files-in-php/)
     - [PHP 中的文件处理功能](/cells/zh/net/file-handling-features-in-php/)
       - [在 PHP 中打开文件](/cells/zh/net/opening-files-in-php/)
       - [在 PHP 中保存文件](/cells/zh/net/saving-files-in-php/)

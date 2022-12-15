@@ -12,11 +12,11 @@ url: /ru/java/filtering-the-kind-of-data-while-loading-the-workbook-from-templat
 ## **Фильтрация данных при загрузке книги из файла шаблона**
 Следующий пример кода загружает только объекты формы при загрузке книги из[файл шаблона](5472556.xlsx)который вы можете скачать по указанной ссылке.
 
- На следующем снимке экрана показано[файл шаблона](5472556.xlsx) содержимое, а также объясняет, что данные красного цвета и желтого фона не будут загружены, поскольку[LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#LoadDataFilterOptions)свойство установлено на[LoadDataFilterOptions.SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE).
+На следующем снимке экрана показано[файл шаблона](5472556.xlsx) содержимое, а также объясняет, что данные красного цвета и желтого фона не будут загружены, поскольку[LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#LoadDataFilterOptions)свойство установлено на[LoadDataFilterOptions.SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE).
 
 ![дело:изображение_альтернативный_текст](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- На следующем снимке экрана показано[вывод PDF](5472554.pdf) который вы можете скачать по указанной ссылке. Здесь вы можете видеть, что данных красного цвета и желтого фона нет, но все фигуры есть.
+На следующем снимке экрана показано[вывод PDF](5472554.pdf) который вы можете скачать по указанной ссылке. Здесь вы можете видеть, что данных красного цвета и желтого фона нет, но все фигуры есть.
 
 ![дело:изображение_альтернативный_текст](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

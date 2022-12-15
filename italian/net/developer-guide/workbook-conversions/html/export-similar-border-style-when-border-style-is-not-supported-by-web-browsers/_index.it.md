@@ -10,7 +10,7 @@ Microsoft Excel supporta alcuni tipi di bordi tratteggiati che non sono supporta
 
 ## **Esporta uno stile del bordo simile quando lo stile del bordo non è supportato dai browser web**
 
-Il codice di esempio seguente carica il file[esempio di file Excel](64716806.xlsx) che contiene alcuni bordi non supportati come mostrato nello screenshot seguente. Lo screenshot illustra ulteriormente l'effetto di[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)proprietà all'interno del[output HTML](64716804.zip).
+Il codice di esempio seguente carica il file[esempio di file Excel](64716806.xlsx)che contiene alcuni bordi non supportati come mostrato nello screenshot seguente. Lo screenshot illustra ulteriormente l'effetto di[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)proprietà all'interno del[output HTML](64716804.zip).
 
 ![cose da fare:immagine_alt_testo](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 

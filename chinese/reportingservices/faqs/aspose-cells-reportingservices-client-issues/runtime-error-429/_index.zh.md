@@ -15,7 +15,7 @@ url: /zh/reportingservices/runtime-error-429/
 重新注册**Aspose.Cells.ReportingServices.Client.dll**使用**重温控制程序**效用：
 
 1. 以管理员身份运行 cmd.exe。
-1. cd $（Reporting Services 安装文件夹为 Aspose.Cells）。
+1. cd $(Aspose.Cells for Reporting Services 安装文件夹)。
 1. 执行**重性高潮**注册**Aspose.Cells.ReportingServices.Client.dll**手动。
 
 {{< highlight "java" >}}

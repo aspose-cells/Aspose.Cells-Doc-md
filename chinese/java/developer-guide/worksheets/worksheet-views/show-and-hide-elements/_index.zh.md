@@ -38,7 +38,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 在下面的屏幕截图中，您可以看到**Book1.xls**文件包含三个工作表：**工作表1** , **工作表2**和**工作表3** .
 
-![待办事项：图片_替代_文本](show-and-hide-elements_1.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_1.png)
 
 **数字：**任何修改前的工作表视图
 
@@ -46,7 +46,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls**使用打开文件[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类，然后是第一个工作表**Book1.xls**文件被隐藏。修改后的文件另存为**输出.xls**其图形视图如下所示的文件：
 
-![待办事项：图片_替代_文本](show-and-hide-elements_2.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_2.png)
 
 **数字：**修改后的工作表视图
 
@@ -65,7 +65,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **工作表标签和标签滚动按钮**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_3.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_3.png)
 
 使用 Aspose.Cells，开发人员可以控制 Excel 文件中工作表选项卡和选项卡滚动按钮的可见性。
 
@@ -92,11 +92,11 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **book1.xls：修改前的Excel文件**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_4.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_4.png)
 
 **output.xls：修改后的Excel文件**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_5.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
@@ -124,13 +124,13 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls：修改前的工作表**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_6.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_6.png)
 
 Book1.xls 是使用[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class' 以及第一个工作表上的行标题和列标题被隐藏。修改后的文件保存为 output.xls。
 
 **修改后的工作表视图**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_7.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideUnhideWorksheet-1.java" >}}
 
@@ -163,11 +163,11 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls：修改前的Excel文件**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_8.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_8.png)
 
 **output.xls：修改后的Excel文件**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_9.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-DisplayHideScrollBars-1.java" >}}
 
@@ -205,13 +205,13 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **修改前的工作表视图**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_10.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_10.png)
 
 Book1.xls 文件使用[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类，然后隐藏第一个工作表的网格线。修改后的文件保存为 output.xls 文件。
 
 **修改后的工作表视图**
 
-![待办事项：图片_替代_文本](show-and-hide-elements_11.png)
+![待办事项：图像_替代_文本](show-and-hide-elements_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayHideGridlines-DisplayHideGridlines.java" >}}
 

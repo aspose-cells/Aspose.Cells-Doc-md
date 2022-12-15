@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.2.0
+title: Offentlig API Ändringar i Aspose.Cells 8.2.0
 type: docs
 weight: 70
 url: /sv/net/public-api-changes-in-aspose-cells-8-2-0/
@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.2
 
 {{% /alert %}} 
 ## **Lade till MultiThreadReading-egenskap för Cells Class**
-Med Aspose.Cells för .NET 8.2.0 har egenskapen MultiThreadReading lagts till i klassen Cells för att ge en mer robust mekanism för att läsa cellvärden med flera trådar samtidigt. Om du ställer in egenskapen Boolean type till true i det flertrådade programmet säkerställer du att varje tråd får rätt cellvärde.
+Med Aspose.Cells for .NET 8.2.0 har egenskapen MultiThreadReading lagts till i klassen Cells för att ge en mer robust mekanism för att läsa cellvärden med flera trådar samtidigt. Om du ställer in egenskapen Boolean type till true i det flertrådade programmet säkerställer du att varje tråd får rätt cellvärde.
 
 {{% alert color="primary" %}} 
 
@@ -18,7 +18,7 @@ Med Aspose.Cells för .NET 8.2.0 har egenskapen MultiThreadReading lagts till i 
 
 {{% /alert %}}
 ## **Lade till överbelastningar för metoder för AutoFitRows och AutoFitColumns**
-Nya överbelastningar för AutoFitRows & AutoFitColumns har lagts till i Worksheet-klassen, vilket gör att utvecklarna kan anpassa raderna och kolumnerna automatiskt baserat på deras respektive intervall samtidigt som de skickar en instans av AutoFitterOptions-klassen.
+ Nya överbelastningar för AutoFitRows & AutoFitColumns har lagts till i Worksheet-klassen, vilket gör att utvecklarna kan anpassa raderna och kolumnerna automatiskt baserat på deras respektive intervall samtidigt som de skickar en instans av AutoFitterOptions-klassen.
 
 Signaturerna för ovannämnda metoder är följande:
 

@@ -36,7 +36,7 @@ Följande skärmdump visar den utgående Excel-filen som genereras av exempelkod
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-### Java-kod för att tillämpa delsumma och ändra riktning för kontursammanfattningsraderna nedan detalj
+### Java-kod för att tillämpa delsumma och ändra riktning för kontursammanfattningsraderna nedanför detalj
 
 Här är exempelkoden för att uppnå utdata som visas ovan.
 

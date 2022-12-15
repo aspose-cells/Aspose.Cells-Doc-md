@@ -12,7 +12,7 @@ url: /zh/net/autofit-columns-and-rows-while-loading-html-in-workbook/
 
 下面的示例代码首先在没有任何加载选项的情况下将示例 HTML 加载到 Workbook 中，并将其保存为 XLSX 格式。然后它再次将示例 HTML 加载到工作簿中，但这一次，它在设置**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)**财产给**真的**并将其保存为 XLSX 格式。请同时下载输出的 excel 文件，即[输出没有 AutoFitColsAndRows 的 Excel 文件](outputWithout_AutoFitColsAndRows.xlsx)和[使用 AutoFitColsAndRows 输出 Excel 文件](outputWith_AutoFitColsAndRows.xlsx).下面的截图显示了效果**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)**两个输出 excel 文件的属性。
 
-![待办事项：图片_替代_文本](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+![待办事项：图像_替代_文本](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
 ## **示例代码**
 

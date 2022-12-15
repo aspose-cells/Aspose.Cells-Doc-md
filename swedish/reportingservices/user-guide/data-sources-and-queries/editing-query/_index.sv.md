@@ -23,9 +23,9 @@ Så här redigerar du en fråga i Aspose.Cells.Report.Designer:
 
 
 
-1.  Aspose.Cell.Report.Designer startar Microsoft Query och öppnar frågan för redigering.
+1.  Aspose.Cell.Report.Designer startar Microsoft Fråga och öppnar frågan för redigering.
 
-   **Redigera en fråga i Microsoft Query** 
+   **Redigera en fråga i Microsoft Fråga** 
 
 ![todo:image_alt_text](editing-query_3.png)
 

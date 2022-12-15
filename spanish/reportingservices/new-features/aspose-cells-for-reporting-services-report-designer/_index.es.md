@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells para el Diseñador de informes de Reporting Services
+title: Aspose.Cells for Reporting Services Diseñador de informes
 type: docs
 weight: 100
 url: /es/reportingservices/aspose-cells-for-reporting-services-report-designer/

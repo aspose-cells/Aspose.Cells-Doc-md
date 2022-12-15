@@ -39,7 +39,7 @@ url: /ru/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50987|Настройка формы трапеции приводит к «System.ArgumentOutOfRangeException».|
 |CELLSNET-50930| Процесс не может получить доступ к исключению файла с Aspose.Cells 22.1|
 |CELLSNET-50946|Преобразование одного листа Excel завершается с ошибкой «Невозможно преобразовать ..»|
-|CELLSNET-51009|TextToColumns вызывает «System.NullReferenceException» при сохранении|
+|CELLSNET-51009|TextToColumns вызывает "System.NullReferenceException" при сохранении|
 
 ## **Public API и обратно несовместимые изменения**
 

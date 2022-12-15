@@ -77,8 +77,8 @@ Le seguenti opzioni di bordo possono essere selezionate dalla finestra di dialog
 ![cose da fare:immagine_alt_testo](format-cells_6.png)
 
 
-## **Formattazione Cells Utilizzo di API**
-Cells può anche essere formattato a livello di codice con Aspose.Cells.GridWeb API. Ogni cella ha una proprietà Style, che rappresenta un oggetto GridTableItemStyle. Utilizzare la proprietà Style per personalizzare le impostazioni del carattere e del bordo.
+## **Formattazione Cells Utilizzo dell'API**
+Cells può anche essere formattato a livello di codice con l'API Aspose.Cells.GridWeb. Ogni cella ha una proprietà Style, che rappresenta un oggetto GridTableItemStyle. Utilizzare la proprietà Style per personalizzare le impostazioni del carattere e del bordo.
 ### **Impostazione carattere**
 Per personalizzare le impostazioni dei caratteri a livello di programmazione:
 

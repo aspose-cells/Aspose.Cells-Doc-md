@@ -12,9 +12,9 @@ Aspose.Cells consente di esportare un foglio di lavoro dalla cartella di lavoro 
 
 ## **Conversione del foglio di lavoro in immagine**
 
-A volte, è utile salvare un'immagine di un foglio di lavoro. Le immagini possono essere condivise online, inserite in altri documenti (report scritti in Word Microsoft, ad esempio, o presentazioni PowerPoint).
+A volte, è utile salvare un'immagine di un foglio di lavoro. Le immagini possono essere condivise online, inserite in altri documenti (report scritti in Microsoft Word, ad esempio, o presentazioni PowerPoint).
 
-Aspose.Cells fornisce l'esportazione di immagini tramite il file**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** classe. Questa classe rappresenta il foglio di lavoro di cui verrà eseguito il rendering in un'immagine. Il**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**la classe fornisce il**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**metodo per convertire un foglio di lavoro in un file immagine. Sono supportati i formati BMP, PNG, JPEG, TIFF e EMF.
+Aspose.Cells fornisce l'esportazione di immagini tramite il file**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** classe. Questa classe rappresenta il foglio di lavoro di cui verrà eseguito il rendering in un'immagine. Il**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** la classe fornisce il**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**metodo per convertire un foglio di lavoro in un file immagine. Sono supportati i formati BMP, PNG, JPEG, TIFF e EMF.
 
 {{% alert color="primary" %}}
 
@@ -22,11 +22,11 @@ Aspose.Cells for Java supporta anche la conversione in formato TIFF. Per convert
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Al momento, il foglio di lavoro di conversione nell'immagine API non supporta i grafici a bolle 3D.
+Al momento, il foglio di lavoro di conversione in API immagine non supporta i grafici a bolle 3D.
 
 {{% /alert %}}
 
-Il codice seguente mostra come convertire un foglio di lavoro in un file Excel Microsoft in un file PNG.
+Il codice seguente mostra come convertire un foglio di lavoro in un file Microsoft Excel in un file PNG.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-WorksheetToImage-1.java" >}}
 

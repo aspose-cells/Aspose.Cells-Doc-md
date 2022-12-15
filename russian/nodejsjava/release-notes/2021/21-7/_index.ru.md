@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Node.js через Java 21.7 Примечания к выпуску
+title: Aspose.Cells for Node.js via Java 21.7 Примечания к выпуску
 type: docs
 weight: 6
 url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-21-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для Node.js через Java 21.7](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.7/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Node.js via Java 21.7](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.7/).
 
 {{% /alert %}}
 

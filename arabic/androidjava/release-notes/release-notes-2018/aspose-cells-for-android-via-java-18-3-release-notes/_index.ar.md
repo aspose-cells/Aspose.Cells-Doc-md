@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 18.3 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 18.3 ملاحظات الإصدار
 type: docs
 weight: 40
 url: /ar/java/aspose-cells-for-android-via-java-18-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 18.3.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 18.3.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-3-release-notes/
 |CELLSJAVA-42495|Excel إلى Html - يتم تجاهل التفاف النص|حشرة|
 |CELLSJAVA-42489|XLSB يتلف بعد فتحه وحفظه|حشرة|
 |CELLSJAVA-42487|تناقض في إخراج HTML - مشكلة في المسافات|حشرة|
-|CELLSJAVA-42471|تم تضمين البيانات غير ذات الصلة عند الحفظ بتنسيق HTML|حشرة|
+|CELLSJAVA-42471|تم تضمين بيانات غير ذات صلة عند الحفظ بتنسيق HTML|حشرة|
 |CELLSJAVA-42467|XLSB تالف بعد إعادة الحفظ|حشرة|
 |CELLSJAVA-42488|لا تتطابق الأرقام المكونة من 15 رقمًا مع ما هو موجود في MS Excel|حشرة|
 |CELLSJAVA-42499|الهوامش والاختلافات في التخطيط عند مقارنة ملف PDF الناتج (بواسطة Aspose.Cells) مع ملف PDF الذي تم إنشاؤه بواسطة MS Excel|حشرة|
@@ -64,7 +64,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-3-release-notes/
 |CELLSJAVA-42522|ArrayIndexOutOfBoundsException عند فتح الملف عبر Aspose.Cells|استثناء|
 |CELLSJAVA-42517|استثناء "com.aspose.cells.CellsException: صيغة غير صالحة:" عند تحميل ملف ODS|استثناء|
 # **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 #### **إضافة خاصية LoadOptions.ParsingPivotCachedRecords**
 يحدد ما إذا كان تحليل السجلات المحورية المخزنة مؤقتًا عند تحميل الملف ، فالقيمة الافتراضية هي false ، ولا تنطبق إلا على تنسيقات ملفات Excel Xlsx و Xltx و Xltm و Xlsm و Xlsb.
 #### **يضيف الخاصية HtmlSaveOptions.ExcludeUnusedStyles**
@@ -112,6 +112,6 @@ url: /ar/java/aspose-cells-for-android-via-java-18-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-نظرًا لأن قاعدة رمز Aspose.Cells لنظام Android عبر Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v18.1 ، Aspose.Cells for .NET v18.2 ، for .NET for .NET v18.2 ، for .NET for .NET v18.2. تم تضمين 3 و Aspose.Cells for Java v18.1 و Aspose.Cells for Java v18.2 و Aspose.Cells for Java v18.3 أيضًا في Aspose.Cells لنظام Android عبر Java v18.3.
+نظرًا لأن قاعدة الكود الخاصة بـ Aspose.Cells for Android via Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v18.1 ، Aspose.Cells for .NET v181481 ، 0718103193 Aspose.Cells for Java v18.1 و Aspose.Cells for Java v18.2 و Aspose.Cells for Java v18.3 تم تضمينها أيضًا في Aspose.Cells for Android via Java v18.3.
 
 {{% /alert %}}

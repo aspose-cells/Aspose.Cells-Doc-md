@@ -67,7 +67,7 @@ url: /fr/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45537|L'icône d'image est perdue après la modification de la cellule B3|Punaise|
 |CELLSNET-45448|Les colonnes de groupe ne fonctionnent pas dans GridWeb|Punaise|
 |CELLSNET-45627|La méthode PivotTable.CalculateData() lève System.IndexOutOfRangeException|Exception|
-|CELLSNET-45610|NullReferenceException lors de la lecture de XLSX à l'aide de LoadFilter contenant le tableau croisé dynamique|Exception|
+|CELLSNET-45610|NullReferenceException lors de la lecture de XLSX à l'aide de LoadFilter contenant un tableau croisé dynamique|Exception|
 |CELLSNET-42702|Erreur "Contenu illisible" lors de la création du tableau croisé dynamique|Exception|
 |CELLSNET-45635|La chaîne d'entrée n'était pas dans un format correct - Exception lors de l'ouverture du fichier MS Excel|Exception|
 |CELLSNET-45589|L'article a déjà été ajouté. Clé dans le dictionnaire : 'Sheet1' Clé ajoutée : 'Sheet1'|Exception|

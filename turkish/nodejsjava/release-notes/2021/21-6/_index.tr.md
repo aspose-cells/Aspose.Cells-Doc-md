@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Node.js için Aspose.Cells 21.6 Sürüm Notları
+title: Aspose.Cells for Node.js via Java 21.6 Sürüm Notları
 type: docs
 weight: 7
 url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Bu sayfa için sürüm notları içerir[Java 21.6 üzerinden Node.js için Aspose.Cells](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Node.js via Java 21.6](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -33,7 +33,7 @@ url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
-Aşağıda, Java aracılığıyla Node.js için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin yanı sıra eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa , lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Node.js Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 
 ### **Cell.IsErrorValue özelliğinin davranışını değiştirir.**
 

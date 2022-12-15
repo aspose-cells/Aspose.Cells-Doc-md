@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 7.3.1 Release Notes
+title: Aspose.Cells for .NET 7.3.1 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-7-3-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.3.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.3.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.1/)
 
 {{% /alert %}} 
 
@@ -73,7 +73,7 @@ url: /sv/net/aspose-cells-for-net-7-3-1-release-notes/
 
  -StringValue returnerar ett felaktigt värde
 
-- små problem med implementeringen av CELL-funktionen
+- 2 små problem med implementeringen av CELL-funktionen
 - Problem med CELL-funktionen
 - GETPIVOTDATA-formelberäkningsproblem
 - PPMT-formeln orsakar filåterställning efter anrop av Workook.CalculateFormula()-metoden

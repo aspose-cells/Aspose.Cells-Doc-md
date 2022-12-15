@@ -10,7 +10,7 @@ url: /es/java/specify-formula-fields-while-importing-data-to-worksheet/
 
 ## **Especificar campos de fórmula al importar datos a la hoja de trabajo**
 
- Consulte el siguiente código de ejemplo que explica cómo especificar el campo de fórmula al importar datos a una hoja de cálculo. Por favor vea el[archivo de salida de Excel](61767850.xlsx) generado por el código y la captura de pantalla que muestra el efecto del código en el archivo de salida de Excel.
+ Consulte el siguiente código de ejemplo que explica cómo especificar el campo de fórmula al importar datos a una hoja de trabajo. Por favor vea el[archivo de salida de Excel](61767850.xlsx) generado por el código y la captura de pantalla que muestra el efecto del código en el archivo de salida de Excel.
 
 ![todo:imagen_alternativa_texto](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 

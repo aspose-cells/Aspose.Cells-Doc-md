@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /es/python-java/manage-worksheets/
 ---
-Administrar hojas de trabajo usando Aspose.Cells para Python a través de Java es muy fácil. En este artículo, demostraremos cómo agregar, acceder y eliminar hojas de trabajo utilizando el Aspose.Cells API.
+Administrar hojas de trabajo usando Aspose.Cells for Python via Java es muy fácil. En este artículo, demostraremos cómo agregar, acceder y eliminar hojas de trabajo utilizando el Aspose.Cells API.
 ## **Agregar hojas de trabajo a un nuevo archivo de Excel**
  Para crear un nuevo libro de trabajo, cree un objeto de la[Libro de trabajo](https://reference.aspose.com/cells/python/asposecells.api/Workbook) clase. los[Libro de trabajo](https://reference.aspose.com/cells/python/asposecells.api/Workbook) clase representa un archivo de Excel. Entonces usando el[agregar](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) ) método de la[Colección de hojas de trabajo](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) , se agregan nuevas hojas de cálculo al archivo de Excel. Finalmente, para guardar el archivo de Excel recién creado, llame al[ahorrar](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) ) método de la[Libro de trabajo](https://reference.aspose.com/cells/python/asposecells.api/Workbook)clase.
 

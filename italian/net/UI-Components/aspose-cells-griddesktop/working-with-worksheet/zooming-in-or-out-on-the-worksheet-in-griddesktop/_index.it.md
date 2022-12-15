@@ -8,7 +8,7 @@ url: /it/net/zooming-in-or-out-on-the-worksheet-in-griddesktop/
 
 A volte, quando lavori con i tuoi dati, potresti voler ingrandire i contenuti sullo schermo senza modificare effettivamente la dimensione del carattere. Ad esempio, potresti aver formattato il tuo testo in modo che utilizzi un carattere piccolo. (Questo è spesso necessario per ottenere tutte le informazioni su una stampa.) Quando si lavora nel foglio di lavoro, tuttavia, il carattere è difficile da leggere perché è così piccolo.
 
-In Microsoft Excel, è disponibile un dispositivo di scorrimento dello zoom per ingrandire e ridurre i documenti in modo rapido e semplice. Il dispositivo di scorrimento dello zoom si trova solitamente nell'angolo in basso a destra della finestra del software.
+In Microsoft Excel, è disponibile un dispositivo di scorrimento dello zoom per eseguire lo zoom avanti e indietro dei documenti in modo rapido e semplice. Il dispositivo di scorrimento dello zoom si trova solitamente nell'angolo in basso a destra della finestra del software.
 
 Aspose.Cells consente inoltre agli sviluppatori di impostare il fattore di zoom del foglio di lavoro, quindi i contenuti dovrebbero apparire secondo il valore percentuale desiderato.
 

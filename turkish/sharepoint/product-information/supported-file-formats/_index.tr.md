@@ -20,12 +20,12 @@ url: /tr/sharepoint/supported-file-formats/
 |[HTML](https://docs.fileformat.com/web/html/)|HTML biçimi.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML dosyası.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument Elektronik Tablosu).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[PDF](https://docs.fileformat.com/pdf/)|Adobe Taşınabilir Belge Formatı.||{{< emoticons/tick >}}|
+|[PDF](https://docs.fileformat.com/pdf/)|Adobe Taşınabilir Belge Biçimi.||{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Kağıt Spesifikasyon Formatı.||{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Ölçeklenebilir Vektör Grafik Formatı.||{{< emoticons/tick >}}|
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Etiketli Resim Dosyası Formatı||{{< emoticons/tick >}}|
 |[png](https://docs.fileformat.com/image/png/)|Taşınabilir Ağ Grafik Formatı||{{< emoticons/tick >}}|
-|[BMP](https://docs.fileformat.com/image/bmp/)|Bitmap Görüntü Formatı||{{< emoticons/tick >}}|
+|[BMP](https://docs.fileformat.com/image/bmp/)|Bitmap Görüntü Biçimi||{{< emoticons/tick >}}|
 |[EMF](https://docs.fileformat.com/image/emf/)|Gelişmiş meta dosyası Biçimi||{{< emoticons/tick >}}|
 |[jpeg](https://docs.fileformat.com/image/jpeg/)|JPEG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür.||{{< emoticons/tick >}}|
 |[GIF](https://docs.fileformat.com/image/gif/)|Grafik Değişim Formatı||{{< emoticons/tick >}}|

@@ -14,11 +14,11 @@ url: /tr/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/) for Java, Java uygulamalarının Microsoft Excel® kullanmadan Excel® elektronik tabloları oluşturmasını ve yönetmesini sağlayan bir Excel® elektronik tablo raporlama bileşenidir. Aspose.Cells for Java, temel veri dışa aktarma işlevlerinden çok daha fazlasını sunan, inanılmaz derecede zengin özelliklere sahip bir bileşendir.
+[Aspose.Cells](https://products.aspose.com/cells/java/)for Java, Java uygulamalarının Microsoft Excel® kullanmadan Excel® elektronik tabloları oluşturmasını ve yönetmesini sağlayan bir Excel® elektronik tablo raporlama bileşenidir. Aspose.Cells for Java, temel veri dışa aktarma işlevlerinden çok daha fazlasını sunan, inanılmaz derecede zengin özelliklere sahip bir bileşendir.
 
 ### **IntelliJ IDEA için Aspose.Cells Java - Maven**
 
-- IntelliJ IDEA için Aspose.Cells Java (Maven) bir**IntelliJ IDEA Eklentisi** maven proje oluşturmanıza (ör. oluşturulan proje Aspose.Cells for Java API maven bağımlılığı içerir) ve kullanmak için API kaynak kodu örneklerini indirmenize izin verir**Aspose.Cells for Java API**.
+-  IntelliJ IDEA için Aspose.Cells Java (Maven) bir**IntelliJ IDEA Eklentisi** maven proje oluşturmanıza (ör. oluşturulan proje Aspose.Cells for Java API maven bağımlılığı içerir) ve kullanmak için API kaynak kodu örneklerini indirmenize izin verir**Aspose.Cells for Java API**.
 
 -  Bu eklenti ile çalışmanıza yardımcı olur**Aspose.Cells for Java API** favori IntelliJ IDEA'nızın içinde.
 
@@ -64,7 +64,7 @@ Eklenti aşağıdaki IntelliJ IDEA Sürümlerini destekler:
 
 ### **IntelliJ IDEA'yı İndirme**
 
-İndirmeden önce IntelliJ IDEA CE / UE'yi yüklemeniz gerekir.**IntelliJ IDEA için Aspose.Cells Java (Maven)** Eklenti.
+ İndirmeden önce IntelliJ IDEA CE / UE'yi yüklemeniz gerekir.**IntelliJ IDEA için Aspose.Cells Java (Maven)** Eklenti.
 
 IntellliJ IDEA'yı indirmek için
 
@@ -94,7 +94,7 @@ IntellliJ IDEA'yı indirmek için
 
 ## **Video Demosu**
 
- lütfen kontrol edin[video](https://www.youtube.com/watch?v=8sHoB5Isq-A)Aspose.Cells Maven Proje Sihirbazını ve Aspose.Cells Örnek Sihirbazı çalışırken görmek için aşağıda.
+ lütfen kontrol edin[video](https://www.youtube.com/watch?v=8sHoB5Isq-A) Aspose.Cells Maven Proje Sihirbazını ve Aspose.Cells Örnek Sihirbazı çalışırken görmek için aşağıda.
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
 

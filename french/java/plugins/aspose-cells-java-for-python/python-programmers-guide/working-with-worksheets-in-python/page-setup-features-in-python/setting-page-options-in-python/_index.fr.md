@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Facteur d'échelle**
- Pour appliquer une mise à l'échelle à l'aide de**Aspose.Cells Java pour Python** , appel**mise à l'échelle** méthode de**mise en page** module.
+ Pour appliquer une mise à l'échelle à l'aide de**Aspose.Cells Java for Python** , appel**mise à l'échelle** méthode de**mise en page** module.
 
 **Code Python**
 

@@ -28,7 +28,7 @@ Después de que termine de crear su hoja de cálculo, probablemente querrá impr
 
 ### Imprimir hoja de trabajo seleccionada
 
-El siguiente fragmento de código demuestra el uso de la[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) para imprimir la hoja de trabajo seleccionada.
+ El siguiente fragmento de código demuestra el uso de la[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) para imprimir la hoja de trabajo seleccionada.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 

@@ -5,7 +5,7 @@ weight: 160
 url: /fr/reportingservices/working-with-table-hide-attributes/
 ---
 1.  Dans Microsoft Excel, cliquez sur**Modifier l'attribut** sur la barre de commande Aspose.Cells.
- La boîte de dialogue Modifier le rapport s'affiche.
+La boîte de dialogue Modifier le rapport s'affiche.
 1. Sélectionnez un élément de rapport de tableau.
 1.  Clique le**Cacher** languette.
 

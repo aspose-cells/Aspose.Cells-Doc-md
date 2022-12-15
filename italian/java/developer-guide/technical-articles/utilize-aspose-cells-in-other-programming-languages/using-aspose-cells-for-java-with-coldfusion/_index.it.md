@@ -14,7 +14,7 @@ Questo articolo mostra come creare una semplice pagina Web utilizzando ColdFusio
 
 ## **Aspose.Cells: Il prodotto reale**
 
-Con Aspose.Cells gli sviluppatori possono esportare dati, formattare fogli di calcolo in ogni dettaglio e ad ogni livello, importare immagini, importare grafici, creare grafici, manipolare grafici, trasmettere dati Excel Microsoft, salvare in vari formati tra cui XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integrato) e molti altri.
+Con Aspose.Cells gli sviluppatori possono esportare dati, formattare fogli di calcolo in ogni dettaglio e ad ogni livello, importare immagini, importare grafici, creare grafici, manipolare grafici, eseguire lo streaming di dati Microsoft Excel, salvare in vari formati tra cui XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integrato) e molti altri.
 
  Per saperne di più sulle informazioni sul prodotto, sulle funzionalità e per una guida del programmatore, fare riferimento alla documentazione Aspose.Cells e alle funzionalità in linea[demo](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Puoi[Scarica](https://downloads.aspose.com/cells/java) e valutalo gratuitamente.
 
@@ -26,7 +26,7 @@ Non dimenticare di riavviare il server delle applicazioni ColdFusion dopo aver i
 
 ### **Utilizzo di Aspose.Cells for Java e ColdFusion per creare un file Excel**
 
-Di seguito, creiamo una semplice applicazione che genera un file Excel Microsoft vuoto, inserisce del contenuto e lo salva come file XLS.
+Di seguito, creiamo una semplice applicazione che genera un file Microsoft Excel vuoto, inserisce del contenuto e lo salva come file XLS.
 
 Di seguito è riportato il codice effettivo (ColdFusion & Aspose.Cells for Java). Dopo aver eseguito il codice, viene generato un file Excel, output.xls.
 
@@ -34,7 +34,7 @@ Di seguito è riportato il codice effettivo (ColdFusion & Aspose.Cells for Java)
 
 ![cose da fare:immagine_alt_testo](using-aspose-cells-for-java-with-coldfusion_1.png)
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

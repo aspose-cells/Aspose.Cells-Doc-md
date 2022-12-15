@@ -14,10 +14,10 @@ url: /de/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-437|Hinzufügen und Bearbeiten von PivotTables in der Tabelle|Neue Funktion|
 |CELLSPORTINGC-438|Gruppieren Sie Zeilen und Spalten im Arbeitsblatt|Neue Funktion|
 |CELLSPORTINGC-439|Tabellen-/Listenobjekt zum Arbeitsblatt hinzufügen|Neue Funktion|
-|CELLSPORTINGC-426|Lizenzproblem mit Aspose.Cells für C++ APIs|Insekt|
+|CELLSPORTINGC-426|Lizenzproblem mit Aspose.Cells for C++ APIs|Insekt|
 |CELLSPORTINGC-425|Optimieren Sie die Leistung beim Speichern von XLS-Dateien|Verbesserung|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
-Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells für C++ vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for C++ vorgenommen wurden das Aspose.Cells Support-Forum.
 #### **Benennt die ICell::SetStyle-Methode in ICell::SetIStyle um**
 #### **Benennt die ICell::SetCharacters-Methode in ICell::SetIFontSettings um**
 #### **Benennt die ICellsColor::SetThemeColor-Methode in ICellsColor::SetITemeColor um**

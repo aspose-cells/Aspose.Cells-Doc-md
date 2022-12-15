@@ -14,7 +14,7 @@ url: /zh/reportingservices/sub-reports/
 ### **例子**
 **表格中的子报表** 
 
-![待办事项：图片_替代_文本](sub-reports_1.png)
+![待办事项：图像_替代_文本](sub-reports_1.png)
 
 在示例中，子报表的名称为“销售订单明细”。它有一个参数，*销售订单号*.参数的值为*EmpSalesDetail.SalesOrderNumber。*
 #### **使用子报告的限制**

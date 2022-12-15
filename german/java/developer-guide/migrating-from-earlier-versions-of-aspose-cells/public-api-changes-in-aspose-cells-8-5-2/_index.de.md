@@ -114,7 +114,7 @@ Aspose.Cells for Java 8.5.2 hat die Eigenschaft SaveOptions.MergeAreas verfügba
 Wenn eine Tabelle zu viele einzelne Zellen mit angewendeter Validierung enthält, besteht die Möglichkeit, dass die resultierende Tabelle beschädigt wird. Eine mögliche Lösung besteht darin, die Zellen mit identischen Validierungsregeln zusammenzuführen, oder Sie können jetzt die Eigenschaft SaveOptions.MergeAreas verwenden, um API anzuweisen, die CellAreas vor dem Speichervorgang automatisch zusammenzuführen.
 
 {{% /alert %}} 
-### **Eigenschaft Geometry.ShapeAdjustValues Hinzugefügt**
+### **Eigenschaft Geometry.ShapeAdjustValues hinzugefügt**
  Mit der Veröffentlichung von v8.5.2 hat Aspose.Cells API die Geometry.getShapeAdjustValues-Methode verfügbar gemacht, die verwendet werden kann[auf die Anpassungspunkte verschiedener Formen zugreifen und Änderungen daran vornehmen](/cells/de/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 

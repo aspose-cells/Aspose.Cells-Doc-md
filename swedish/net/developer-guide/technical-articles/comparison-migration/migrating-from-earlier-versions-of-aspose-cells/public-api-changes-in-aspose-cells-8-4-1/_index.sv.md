@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.4.1
+title: Offentlig API Ändringar i Aspose.Cells 8.4.1
 type: docs
 weight: 140
 url: /sv/net/public-api-changes-in-aspose-cells-8-4-1/
@@ -11,7 +11,7 @@ url: /sv/net/public-api-changes-in-aspose-cells-8-4-1/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Mekanism för att ändra databasanslutningen**
-Klassen Aspose.Cells.ExternalConnections.ExternalConnection innehöll redan metoden och egenskaperna som kunde användas för att inspektera databasanslutningsdetaljerna lagrade i ett kalkylblad. De flesta egenskaper som är associerade med klassen Aspose.Cells.ExternalConnections.ExternalConnection var skrivskyddade fram till utgivningen av Aspose.Cells för .NET 8.4.1. Med den här utgåvan har API:et gett stöd för att manipulera databasanslutningsinställningarna också.
+Klassen Aspose.Cells.ExternalConnections.ExternalConnection innehöll redan metoden och egenskaperna som kunde användas för att inspektera databasanslutningsdetaljerna lagrade i ett kalkylblad. De flesta egenskaper som är associerade med klassen Aspose.Cells.ExternalConnections.ExternalConnection var skrivskyddade fram till utgivningen av Aspose.Cells for .NET 8.4.1. Med den här utgåvan har API gett stöd för att manipulera databasanslutningsinställningarna också.
 
 Följande kodavsnitt visar hur du dynamiskt ändrar databasanslutningsinställningar.
 
@@ -70,7 +70,7 @@ Här är några av de viktigaste egenskaperna som exponeras av klassen {Aspose.C
 |Typ|Anger datakällans typ.|
 
 ### **Möjlighet att formatera understräng av DataLabels text**
-Aspose.Cells för .NET 8.4.1 har avslöjat metoden DataLabels.Characters för att hämta en instans av FontSetting-klassen som motsvarar understrängen i en ChartPoints.DataLabels. I sin tur kan instansen av FontSetting-klassen användas för att formatera understrängen för DataLabels med olika teckensnittsinställningar och färg.
+Aspose.Cells for .NET 8.4.1 har exponerat metoden DataLabels.Characters för att hämta en instans av FontSetting-klassen som motsvarar understrängen i en ChartPoints.DataLabels. I sin tur kan instansen av FontSetting-klassen användas för att formatera understrängen för DataLabels med olika teckensnittsinställningar och färg.
 
 Följande kodavsnitt visar hur du använder metoden DataLabels.Characters.
 
@@ -114,7 +114,7 @@ workbook.Save(output);
 
 
 ### **Möjlighet att ställa in önskade bildmått för kalkylblad och diagramexport**
-Aspose.Cells för .NET 8.4.1 har exponerat metoden ImageOrPrintOptions.SetDesiredSize för att ställa in dimensionerna för den resulterande bilden samtidigt som kalkylblad och diagram exporteras till bilder. Metoden ImageOrPrintOptions.SetDesiredSize accepterar två parametrar av heltalstyp, där den första är den önskade bredden och den andra är den önskade höjden.
+Aspose.Cells for .NET 8.4.1 har exponerat metoden ImageOrPrintOptions.SetDesiredSize för att ställa in dimensionerna för den resulterande bilden samtidigt som kalkylblad och diagram exporteras till bilder. Metoden ImageOrPrintOptions.SetDesiredSize accepterar två parametrar av heltalstyp, där den första är den önskade bredden och den andra är den önskade höjden.
 
 Följande kodavsnitt visar hur du ställer in önskade dimensioner när du exporterar kalkylblad till PNG.
 
@@ -158,7 +158,7 @@ Samma egenskap kan också användas för att konvertera diagram till bilder.
 
 
 ### **Återge kommentarer till PDF**
-Med utgåvan av v8.4.1 har API:et Aspose.Cells tillhandahållit egenskapen PageSetup.PrintComments & PrintCommentsType för att underlätta renderingen av kommentarer samtidigt som kalkylblad konverteras till PDF-format. PrintCommentsType-uppräkningen har följande konstanter.
+Med lanseringen av v8.4.1 har Aspose.Cells API tillhandahållit egenskapen PageSetup.PrintComments & PrintCommentsType för att underlätta renderingen av kommentarer samtidigt som kalkylblad konverteras till PDF-format. PrintCommentsType-uppräkningen har följande konstanter.
 
 - PrintCommentsType.PrintNoComments: Kommentarer ska inte återges.
 - PrintCommentsType.PrintInPlace: Kommentarer ska återges där de är placerade.
@@ -222,7 +222,7 @@ GridDesktop1.Worksheets.MoveTo(1, 3);
 
 
 ### **Lade till Workbook.IsLicensed Property**
-Aspose.Cells för .NET 8.4.1 har avslöjat Workbook.IsLicensed som kan vara till stor hjälp för att avgöra om licensen har lästs in eller inte. Om du kommer åt den här egenskapen innan du ställer in licensen kommer den att returnera falskt och vice versa, dock bör licensen vara giltig.
+Aspose.Cells for .NET 8.4.1 har avslöjat Workbook.IsLicensed vilket kan vara till stor hjälp för att avgöra om licensen har laddats eller inte. Om du kommer åt den här egenskapen innan du ställer in licensen kommer den att returnera falskt och vice versa, dock bör licensen vara giltig.
 
 Följande exempelkod visar användningen av Workbook.IsLicensed-egenskapen.
 
@@ -260,7 +260,7 @@ else
 
 
 ### **Lagt till egenskapen ImageOrPrintOptions.SVGFitToViewPort**
-Aspose.Cells för .NET 8.4.1 har exponerat egenskapen SVGFitToViewPort för klassen ImageOrPrintOptions som kan användas för att aktivera viewBox-attributet för SVG-filformatet medan kalkylblad eller diagram exporteras till SVG-format. Standardvärdet för den här egenskapen är falskt, därför kommer bas-XML för SVG-filen som genereras utan att ställa in ovannämnda egenskap inte att inkludera viewBox-attributet.
+Aspose.Cells for .NET 8.4.1 har exponerat egenskapen SVGFitToViewPort för klassen ImageOrPrintOptions som kan användas för att aktivera viewBox-attributet för SVG-filformatet medan kalkylblad eller diagram exporteras till SVG-format. Standardvärdet för den här egenskapen är falskt, därför kommer bas-XML för SVG-filen som genereras utan att ställa in ovannämnda egenskap inte att inkludera viewBox-attributet.
 
 Följande exempelkod visar användningen av egenskapen ImageOrPrintOptions.SVGFitToViewPort.
 

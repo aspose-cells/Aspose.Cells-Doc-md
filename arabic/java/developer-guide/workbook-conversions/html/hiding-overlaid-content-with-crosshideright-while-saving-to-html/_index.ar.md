@@ -10,7 +10,7 @@ url: /ar/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/
 
 ## **إخفاء المحتوى المتراكب باستخدام CrossHideRight أثناء الحفظ بتنسيق HTML**
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](64716916.xlsx)ويحفظها في[إخراج HTML](64716915.zip)بعد ضبط[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)كما[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT). توضح لقطة الشاشة كيف[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)يؤثر على الناتج HTML من الإخراج الافتراضي.
+يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](64716916.xlsx)ويحفظها في[إخراج HTML](64716915.zip)بعد ضبط[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)كما[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT). توضح لقطة الشاشة كيف[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)يؤثر على ناتج HTML من الإخراج الافتراضي.
 
 ![ما يجب القيام به: image_بديل_نص](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
 

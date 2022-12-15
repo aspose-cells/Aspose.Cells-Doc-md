@@ -17,11 +17,11 @@ Dies sind beides boolesche Werte. Sie können sie in Microsoft Excel über Daten
 ## **Lesen und Schreiben der Abfragetabelle des Arbeitsblatts**
  Der folgende Beispielcode liest die erste[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)des ersten Arbeitsblatts und druckt dann beide[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) Eigenschaften. Dann setzt es die[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) zu**Stimmt**.
 
- Der folgende Screenshot zeigt die[Excel-Quelldatei](5472578.xlsx) im Code und seinen Eigenschaften verwendet, die beide zeigen[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)Werte.
+Der folgende Screenshot zeigt die[Excel-Quelldatei](5472578.xlsx) im Code und seinen Eigenschaften verwendet, die beide zeigen[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)Werte.
 
 ![todo: Bild_alt_Text](reading-and-writing-query-table-of-worksheet_1.png)
 
- Der folgende Screenshot zeigt die[Excel-Datei ausgeben](5472574.xlsx) generiert durch den Code und seine Eigenschaften, die beide zeigen[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)Werte. Wie Sie sehen können, ist das Kontrollkästchen Beibehaltene Formatierung jetzt aktiviert.
+Der folgende Screenshot zeigt die[Excel-Datei ausgeben](5472574.xlsx) generiert durch den Code und seine Eigenschaften, die beide zeigen[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)Werte. Wie Sie sehen können, ist das Kontrollkästchen Beibehaltene Formatierung jetzt aktiviert.
 
 ![todo: Bild_alt_Text](reading-and-writing-query-table-of-worksheet_2.png)
 

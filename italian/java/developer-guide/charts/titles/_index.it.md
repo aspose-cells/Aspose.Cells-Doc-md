@@ -21,7 +21,7 @@ Nei grafici di Excel, ci sono 2 tipi di titolo:
 |![cose da fare:immagine_alt_testo](chart_title.png)|
 
 ## **Impostazione dei titoli dei grafici o degli assi**
-È possibile utilizzare Microsoft Excel per impostare i titoli di un grafico e i relativi assi in un ambiente WYSIWYG. Aspose.Cells consente inoltre agli sviluppatori di impostare i titoli di un grafico e i suoi assi in fase di esecuzione. Tutti i grafici e i relativi assi contengono a[Titolo](https://reference.aspose.com/cells/java/com.aspose.cells/Title) oggetto che può essere utilizzato per impostare i loro titoli come mostrato di seguito in un esempio.
+È possibile utilizzare Microsoft Excel per impostare i titoli di un grafico ei relativi assi in un ambiente WYSIWYG. Aspose.Cells consente inoltre agli sviluppatori di impostare i titoli di un grafico e i suoi assi in fase di esecuzione. Tutti i grafici e i relativi assi contengono a[Titolo](https://reference.aspose.com/cells/java/com.aspose.cells/Title) oggetto che può essere utilizzato per impostare i loro titoli come mostrato di seguito in un esempio.
 
 Il seguente frammento di codice mostra come impostare titoli su grafici e assi.
 

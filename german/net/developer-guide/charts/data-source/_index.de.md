@@ -22,7 +22,7 @@ Diagrammdaten sind die Daten, die wir als Datenquelle zum Erstellen unserer Diag
 
 ### **Kategoriedaten**
 
- Kategoriedaten dienen der Beschriftung von Diagrammdaten und können ergänzt werden[**SerieSammlung**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) durch die Verwendung seiner[**Kategoriedaten**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)Eigentum. Ein vollständiges Beispiel ist unten angegeben, um die Verwendung von Diagramm- und Kategoriedaten zu demonstrieren. Nach dem Ausführen des obigen Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt.
+ Kategoriedaten dienen der Beschriftung von Diagrammdaten und können ergänzt werden[**SerieSammlung**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) durch die Verwendung seiner[**KategorieDaten**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)Eigentum. Ein vollständiges Beispiel ist unten angegeben, um die Verwendung von Diagramm- und Kategoriedaten zu demonstrieren. Nach dem Ausführen des obigen Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}
 

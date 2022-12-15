@@ -10,16 +10,16 @@ url: /ar/reportingservices/support-for-digital-signatures/
 
  يمكنك إنشاء توقيع رقمي شخصي باستخدام Microsoft Selfcert.exe أو أي أداة أخرى ، أو يمكنك شراء توقيع رقمي. لتوقيع جدول بيانات ، قم بإرفاق توقيع بمصنفاتك بمجرد إنشاء توقيع رقمي.
 
- يدعم Aspose.Cells Reporting Services التواقيع الرقمية.
+ Aspose.Cells for Reporting Services يدعم التوقيعات الرقمية.
 
 {{% /alert %}} 
 ### **العمل مع التوقيعات الرقمية**
 #### **تنسيقات Excel المدعومة للتوقيعات الرقمية**
-Aspose.Cells لخدمات التقارير يدعم التواقيع الرقمية عند التصدير إلى تنسيقات ملفات Excel 2007 و ODS.
+Aspose.Cells for Reporting Services يدعم التواقيع الرقمية عند التصدير إلى تنسيقات ملفات Excel 2007 و ODS.
 #### **تكوين التوقيعات الرقمية**
  ال**Aspose.Cells.ReportingServices.xml** يحتوي الملف على معلومات التكوين ونص التوقيع الرقمي في ملف<DigitalSignature> بطاقة شعار:
 
-- عند ضبط DigitalSignature على إيقاف التشغيل ، يقوم Aspose.Cells لـ Reporting Services بإيقاف تشغيل وظيفة التوقيع الرقمي.
+- عند ضبط DigitalSignature على إيقاف التشغيل ، يقوم Aspose.Cells for Reporting Services بإيقاف تشغيل وظيفة التوقيع الرقمي.
  فمثلا:
 
 {{< highlight "java" >}}

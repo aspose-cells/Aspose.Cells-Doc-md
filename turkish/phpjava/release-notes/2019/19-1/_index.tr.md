@@ -1,12 +1,12 @@
 ﻿---
-title: Java 19.1 Sürüm Notları aracılığıyla PHP için Aspose.Cells
+title: Aspose.Cells for PHP via Java 19.1 Sürüm Notları
 type: docs
 weight: 20
 url: /tr/php-java/aspose-cells-for-php-via-java-19-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 19.1 üzerinden PHP için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for PHP via Java 19.1 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -22,7 +22,7 @@ Bu sayfa, Java 19.1 üzerinden PHP için Aspose.Cells sürüm notlarını içeri
 |CELLSJAVA-42807|Formül/işlev "ISOWEEKNUM" hesaplaması MS Excel ile aynı değil|Böcek|
 |CELLSJAVA-42794|ODS'den XLSX'e - Metin rengi değişti|Böcek|
 |CELLSJAVA-42795|ODS'den XLSX'e - Üstü çizili yazı tipi düzgün korunmadı|Böcek|
-|CELLSJAVA-42796|ODS'den XLSX'e - Metin kutusu boyutları değiştirildi|Böcek|
+|CELLSJAVA-42796|ODS'den XLSX'e - Metin kutusu boyutları değişti|Böcek|
 |CELLSJAVA-42798|ODS -> XLSX - Köprü işlevseldir ancak düz metin olarak gösterilir|Böcek|
 |CELLSJAVA-42802|ODS'den XLSX'e, Yüzdeler çubuk grafik grafiğinde kayboluyor|Böcek|
 |CELLSJAVA-42803|Anahat "SummaryRowBelow", XLSB dosya biçimi olarak kaydedilirken etkilenmez|Böcek|
@@ -30,7 +30,7 @@ Bu sayfa, Java 19.1 üzerinden PHP için Aspose.Cells sürüm notlarını içeri
 |CELLSJAVA-42799|Bir XLSX dosya formatı yüklenirken "java.lang.ArrayIndexOutOfBoundsException: -32768" istisnası|İstisna|
 |CELLSJAVA-42800|Çalışma kitabı yüklenirken ArrayIndexOutOfBoundsException|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin yanı sıra Java aracılığıyla PHP için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for PHP Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 #### **PivotTable.ShowReportFilterPageByName(string fieldName) yöntemini ekler**
 Tüm rapor filtre sayfalarını PivotField'ın adına göre gösterir, PivotField, PageFields içinde bulunmalıdır.
 #### **PivotTable.ShowReportFilterPageByIndex(int posIndex) yöntemini ekler**

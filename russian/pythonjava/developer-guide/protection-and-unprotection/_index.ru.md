@@ -7,7 +7,7 @@ url: /ru/python-java/protect-and-unprotect/
 description: В этом фрагменте рассказывается, как шифровать и расшифровывать файлы Excel, защищать и снимать защиту данных в файлах Excel с помощью кодов Python.
 ---
 {{% alert color="primary" %}}
-Aspose.Cells для Python предлагает широкий спектр защиты и снятия защиты от файлов до уровня данных, таких как MS Excel:
+Aspose.Cells for Python предлагает широкий спектр защиты и снятия защиты от файлов до уровня данных, таких как MS Excel:
 {{% /alert %}}
 
 

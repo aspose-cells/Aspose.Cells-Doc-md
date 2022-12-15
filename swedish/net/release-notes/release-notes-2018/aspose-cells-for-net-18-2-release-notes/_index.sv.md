@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 18.2 Release Notes
+title: Aspose.Cells for .NET 18.2 Release Notes
 type: docs
 weight: 110
 url: /sv/net/aspose-cells-for-net-18-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 18.2](https://www.nuget.org/packages/Aspose.Cells/18.2.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 18.2](https://www.nuget.org/packages/Aspose.Cells/18.2.0).
 
 {{% /alert %}} 
 
@@ -17,7 +17,7 @@ url: /sv/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45855|Tillhandahåll WorkbookSetting.StreamProvider för att kontrollera externa resurser|Ny funktion|
 |CELLSNET-45845|Extern stilmall som inte stöds under konvertering tur och retur|Förbättring|
 |CELLSNET-45888|DDE-länk finns inte i Worksheets.ExternalLinks|Förbättring|
-|CELLSNET-45893|Aspose.Cells.GridWeb skriver inte in text som Microsoft Excel när radbrytning är aktiverat|Förbättring|
+|CELLSNET-45893|Aspose.Cells.GridWeb skriver inte in text som Microsoft Excel när radbrytning är aktiverad|Förbättring|
 |CELLSNET-45833|Bildegenskaper (Titel och Ämne) går förlorade i form till bildkonvertering|Insekt|
 |CELLSNET-45822|Inverterade tecken i etiketter vid konvertering av Excel till PDF|Insekt|
 |CELLSNET-45776|Vissa kolumndata expanderas/visas inte helt när en MHtml-fil sparas i Excel-filformat|Insekt|
@@ -41,12 +41,12 @@ url: /sv/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45849|Bilden blir utanför kalkylbladets storlek|Insekt|
 |CELLSNET-45824|Bilder i Excel-fil visas inte i normal storlek vid import av filen till Aspose.Cells.GridDesktop|Insekt|
 |CELLSNET-45874|Undantag "Inmatningssträngen var inte i korrekt format" vid import av Excel-filen till Aspose.Cells.GridWeb|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till LoadDataFilterOptions.DefinedNames enum**
 Anger om definierade namnobjekt laddas när mallfilen laddas.
 #### **Ändrar beteendet för LoadDataFilterOptions.Formula enum**
-äldre versioner laddar vi alltid definierade namnobjekt när vi laddar formler. Nu tillhandahåller vi separat enum för definierade Name-objekt explicit, så Formel Enum kommer bara att beteckna att formler ska laddas nu, oavsett vilka definierade Name-objekt kommer att laddas eller inte. En sak bör dock noteras, vanligen definierade namnobjekt används av formler, om användaren bara laddar formler och inte laddar de definierade namnobjekten, kommer cellformeln som refererar till dessa namn att bli skadad och kan orsaka undantag. Så, i allmänhet, om användaren vill ladda formler, bör de definierade namnobjekten också laddas. Men användaren kan bara ladda definierade namnobjekt utan att ladda formler.
+I äldre versioner laddar vi alltid definierade namnobjekt när vi laddar formler. Nu tillhandahåller vi separat enum för definierade Name-objekt explicit, så Formel Enum kommer bara att beteckna att formler ska laddas nu, oavsett vilka definierade Name-objekt kommer att laddas eller inte. En sak bör dock noteras, vanligen definierade namnobjekt används av formler, om användaren bara laddar formler och inte laddar de definierade namnobjekten, kommer cellformeln som refererar till dessa namn att bli skadad och kan orsaka undantag. Så, i allmänhet, om användaren vill ladda formler, bör de definierade namnobjekten också laddas. Men användaren kan bara ladda definierade namnobjekt utan att ladda formler.
 #### **Lägg till SheetType.Dialog enum**
 Representerar dialogblad.
 #### **Lägger till egenskapen WorkbookSettings.MaxRowsOfSharedFormula**

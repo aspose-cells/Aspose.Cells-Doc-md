@@ -18,11 +18,11 @@ Aspose.Cells 不支持表和列表对象的 Microsoft Excel 的此功能。
 
 1. 单击表格中的任意位置以确保活动单元格位于表格列中。
 
-![待办事项：图片_替代_文本](convert-an-excel-table-to-a-range-of-data_1.gif)
+![待办事项：图像_替代_文本](convert-an-excel-table-to-a-range-of-data_1.gif)
 
 1. 在**设计**选项卡，在**工具**分组，点击**转换为范围**.
 
-![待办事项：图片_替代_文本](convert-an-excel-table-to-a-range-of-data_2.gif)
+![待办事项：图像_替代_文本](convert-an-excel-table-to-a-range-of-data_2.gif)
 
 {{% alert color="primary" %}}
 

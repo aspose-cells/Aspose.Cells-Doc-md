@@ -7,7 +7,7 @@ url: /ar/python-java/protect-and-unprotect/
 description: يقدم هذا المقتطف كيفية تشفير وفك تشفير ملفات Excel ، وحماية وإلغاء حماية البيانات في ملفات Excel باستخدام أكواد Python.
 ---
 {{% alert color="primary" %}}
-يقدم Aspose.Cells لـ Python نطاقًا واسعًا من الحماية وإلغاء الحماية من ملف إلى مستوى بيانات مثل MS Excel:
+Aspose.Cells for Python يقدم مجموعة واسعة من الحماية وإلغاء الحماية من ملف إلى مستوى البيانات مثل MS Excel:
 {{% /alert %}}
 
 

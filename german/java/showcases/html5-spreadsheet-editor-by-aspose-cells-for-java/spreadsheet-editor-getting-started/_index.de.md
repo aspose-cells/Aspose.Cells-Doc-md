@@ -33,7 +33,7 @@ Html5 Spreadsheet Editor ist eine Webanwendung, die Tabellenkalkulationsdokument
  - Blätter umbenennen
  - Wechseln Sie zwischen den Blättern
 -  Arbeiten mit Zeilen und Spalten
- - Fügen Sie eine Reihe hinzu
+ - Fügen Sie eine Zeile hinzu
  - Fügen Sie eine Spalte hinzu
  - Entfernen Sie eine Zeile
  - Entfernen Sie eine Spalte
@@ -180,7 +180,7 @@ Der HTML5-Tabellen-Editor ist ein Open-Source-Projekt, das jedem maximale Mögli
 
 **Pull-Requests**
 
- Um Quellcode zum Projekt beizutragen, senden Sie einfach eine Pull-Anfrage über Github. Weitere Informationen finden Sie in Githubs Artikel auf[Erstellen Sie eine Pull-Anfrage](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+ Um Quellcode zum Projekt beizutragen, senden Sie einfach eine Pull-Anfrage über Github. Weitere Informationen finden Sie in Githubs Artikel auf[Erstellen Sie eine Pull-Anforderung](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 ### **Lizenz**
 **MIT-Lizenz**
 

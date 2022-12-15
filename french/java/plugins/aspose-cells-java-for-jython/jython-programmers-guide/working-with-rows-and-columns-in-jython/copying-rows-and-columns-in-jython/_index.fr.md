@@ -43,7 +43,7 @@ classe LignesEtColonnes :
 
  classeur = classeur(dataDir + 'Book1.xls')
 
- # Accéder à la première feuille de calcul du fichier Excel
+ Accéder à la première feuille de calcul du fichier Excel
 
  feuille de calcul = classeur.getWorksheets().get(0)
 
@@ -55,7 +55,7 @@ classe LignesEtColonnes :
 
  # Enregistrement du fichier Excel modifié au format par défaut (c'est-à-dire Excel 2003)
 
-workbook.save(dataDir + "Copy Rows.xls")
+ workbook.save(dataDir + "Copy Rows.xls")
 
  print "Copier les lignes avec succès."
 
@@ -69,7 +69,7 @@ workbook.save(dataDir + "Copy Rows.xls")
 
  classeur = classeur()
 
- # Accéder à la première feuille de calcul du fichier Excel
+ Accéder à la première feuille de calcul du fichier Excel
 
  feuille de calcul = classeur.getWorksheets().get(0)
 

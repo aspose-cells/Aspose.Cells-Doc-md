@@ -18,7 +18,7 @@ Bu ürünler için Service Pack 2 veya sonraki bir sürümünü yüklemenizi ön
 
 {{% /alert %}}
 ### **Müşteri Gereksinimleri**
-SharePoint sitelerine erişmek için bir tarayıcıya ihtiyacınız var. SharePoint için Aspose.Cells şu şekilde test edilir:
+SharePoint sitelerine erişmek için bir tarayıcıya ihtiyacınız var. Aspose.Cells for SharePoint ile test edilir:
 
 - Microsoft Internet Explorer
 - Mozilla Firefox

@@ -1,12 +1,12 @@
 ﻿---
-title: Raporlama Hizmetleri 21.3 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 21.3 Sürüm Notları
 type: docs
 weight: 18
 url: /tr/reportingservices/aspose-cells-for-reporting-services-21-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Raporlama Hizmetleri 21.3 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for Reporting Services 21.3 için sürüm notları içerir.
 
 {{% /alert %}} 
 

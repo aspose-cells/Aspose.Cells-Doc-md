@@ -6,7 +6,7 @@ url: /it/net/extract-images-from-worksheets-using-imageorprintoptions/
 ---
 {{% alert color="primary" %}} 
 
-Microsoft Gli utenti di Excel possono aggiungere immagini ai fogli di calcolo. Con Aspose.Cells, è possibile leggere immagini da file Excel Microsoft e salvarle su un'unità locale. Questo articolo mostra come.
+Gli utenti di Microsoft Excel possono aggiungere immagini ai fogli di calcolo. Con Aspose.Cells è possibile leggere immagini da file Microsoft Excel e salvarle su un'unità locale. Questo articolo mostra come.
 
 {{% /alert %}} 
 

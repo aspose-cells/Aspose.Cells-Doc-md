@@ -6,12 +6,12 @@ url: /tr/cpp/aspose-cells-for-cpp-21-12-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Linux için C++ 21.12 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa, Linux için Aspose.Cells for C++ 21.12 sürüm notlarını içerir.
 
 {{% /alert %}} 
 
-Linux için C++ 21.12 için Aspose.Cells sürümünü duyurmaktan mutluluk duyuyoruz.
+Linux için Aspose.Cells for C++ 21.12 sürümünü duyurmaktan mutluluk duyuyoruz.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-570| Boş işaretçi istisnasını düzeltmek için throw ifadesi ekleyin|Hatalar|
+|CELLSCPP-570|Boş işaretçi istisnasını düzeltmek için throw ifadesi ekleyin|Hatalar|

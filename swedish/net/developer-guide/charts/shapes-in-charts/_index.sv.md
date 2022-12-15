@@ -33,7 +33,7 @@ Följande exempel visar hur du lägger till en etikett i diagrammet. Exemplet an
 
 ## **Lägga till TextBox Control till diagrammet**
 
- Ett sätt att lyfta fram viktig information i en rapport är att använda en textruta. Ange till exempel text för att markera företagsnamnet eller för att ange den geografiska region med högst försäljning. De[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), som används för att lägga till en textrutekontroll till ett diagram. Följande är parameterlistan som används för metoden:
+ Ett sätt att lyfta fram viktig information i en rapport är att använda en textruta. Ange till exempel text för att markera företagsnamnet eller för att ange den geografiska region med högst försäljning. De[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart)som används för att lägga till en textrutekontroll till ett diagram. Följande är parameterlistan som används för metoden:
 
 - **topp** – den vertikala förskjutningen av textrutan från det övre vänstra hörnet i enheter på 1/4000 av sjökortsytan.
 - **vänster** – den vertikala förskjutningen av textrutan från det övre vänstra hörnet i enheter på 1/4000 av kartytan.
@@ -72,7 +72,7 @@ Följande bild visar diagrambladet med kryssrutan i utdatafilen.
 
 ![todo:image_alt_text](controls-in-charts_1.jpg)
 
- De[utdatafil](101089316.xlsx) som genereras av följande kodavsnitt bifogas för din referens.
+ De[utdatafil](101089316.xlsx)som genereras av följande kodavsnitt bifogas för din referens.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-InsertCheckboxInChartSheet-1.cs" >}}
 

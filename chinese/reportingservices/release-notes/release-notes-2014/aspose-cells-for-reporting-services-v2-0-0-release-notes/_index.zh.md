@@ -1,18 +1,18 @@
 ﻿---
-title: Reporting Services V2.0.0 发行说明的 Aspose.Cells
+title: Aspose.Cells for Reporting Services V2.0.0 发行说明
 type: docs
 weight: 10
 url: /zh/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含发行说明[Aspose.Cells 报告服务 V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+此页面包含发行说明[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
-欢迎使用 Reporting Services V2.0.0 的新版本 Aspose.Cells。
+请欢迎新版本 Aspose.Cells for Reporting Services V2.0.0。
 ## **主要特点**
-Aspose.Cells 用于 Reporting Services 报表设计器优化。
+Aspose.Cells for Reporting Services 报表设计器优化。
 ## **其他改进和变化**
  ` `新功能
 
@@ -20,7 +20,7 @@ Aspose.Cells 用于 Reporting Services 报表设计器优化。
 - ` `(SSRS-40144) 配置报表服务器以存储/缓存报表服务器数据
 - ` `(SSRS-40142) 支持共享数据集
 - ` `(SSRS-40113) 括号中的负值
-- ` `(SSRS-40103) Aspose.Cells 用于 SQL Server 2008 的 Reporting Services 报表设计器导入报表定义文件
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services SQL Server 2008 的报表设计器导入报表定义文件
 
 虫子
 
@@ -66,7 +66,7 @@ Aspose.Cells 用于 Reporting Services 报表设计器优化。
 - ` `(SSRS-40095) Aspose.Cells SSRS 错误
 - ` `(SSRS-40094) Dyn 隐藏参数
 - ` `(SSRS-40093) 试用软件有问题 - 只能返回一行
-- ` `(SSRS-40092) Reporting Services Aspose.Cells 的格式问题
+- ` `(SSRS-40092) Aspose.Cells 的格式问题 for Reporting Services
 - ` `(SSRS-40091) 保存报告文件失败 - 使用图像的 Excel 渲染
 - ` `(SSRS-40089) SSRS 中 tablix 的可见性问题
 - ` `(SSRS-40087) Aspose Cells 中没有适用于 SSRS 2005 的 Excel“文档映射”？

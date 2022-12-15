@@ -13,7 +13,7 @@ url: /es/net/aspose-cells-gridjs-features/
 
 
 ### **Funciones de fila y columna**
-- Agregue, inserte y elimine filas y columnas en una hoja de trabajo.
+- Agregue, inserte y elimine filas y columnas en una hoja de cálculo.
 - Ocultar y mostrar filas y columnas.
 - Congelar y descongelar filas y columnas.
  

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 用于 PHP 通过 Java 19.8 发行说明
+title: Aspose.Cells for PHP via Java 19.8 发行说明
 type: docs
 weight: 10
 url: /zh/php-java/aspose-cells-for-php-via-java-19-8-release-notes/
@@ -28,7 +28,7 @@ url: /zh/php-java/aspose-cells-for-php-via-java-19-8-release-notes/
 |CELLSJAVA-42954|加载和保存 XLSX 时出现异常|例外|
 |CELLSJAVA-42957|保存 XLSX 时抛出无效的 FontUnderlineType 值|例外|
 ### **公共 API 和向后不兼容的更改**
-以下是对公共 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Aspose.Cells for PHP 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for PHP via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 #### **将引用的 BouncyCastle 库升级到 1.60**
 发布存档中随附的 BouncyCastle 库已升级到 1.60 版本。不过Aspose.Cells也兼容旧版本，所以用户仍然可以使用1.46等旧版本。
 #### **废弃 HTMLLoadOptions 类并添加 HtmlLoadOptions 类**

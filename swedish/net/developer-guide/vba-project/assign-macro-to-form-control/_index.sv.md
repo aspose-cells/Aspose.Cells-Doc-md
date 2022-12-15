@@ -10,7 +10,7 @@ url: /sv/net/assign-macro-to-form-control/
 
 {{% /alert %}}
 
-Följande exempelkod skapar en ny arbetsbok, tilldelar en makrokod till en formulärknapp och sparar utdata i XLSM-format. När du kommer att öppna utdata XLSM-filen i Microsoft Excel kommer du att se följande makrokod.
+Följande exempelkod skapar en ny arbetsbok, tilldelar en makrokod till en formulärknapp och sparar utdata i XLSM-format. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel du kommer att se följande makrokod.
 
 {{< highlight "java" >}}
 

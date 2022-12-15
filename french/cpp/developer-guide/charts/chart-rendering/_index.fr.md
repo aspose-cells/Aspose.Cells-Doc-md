@@ -6,7 +6,7 @@ url: /fr/cpp/chart-rendering/
 ---
 ## **Création de graphiques**
 
-Aspose.Cells Prise en charge des API pour créer une vérité de graphiques Excel comme détaillé sous le sujet[Création et personnalisation de graphiques Excel](/cells/fr/cpp/creating-and-customizing-charts/)Afin de démontrer l'utilisation des API Aspose.Cells pour afficher les graphiques au format image et PDF, nous allons créer un graphique de type Colonne selon l'extrait suivant.
+Aspose.Cells Prise en charge des API pour créer une vérité de graphiques Excel comme détaillé sous le sujet[Création et personnalisation de graphiques Excel](/cells/fr/cpp/creating-and-customizing-charts/). Afin de démontrer l'utilisation des API Aspose.Cells pour afficher les graphiques au format image et PDF, nous allons créer un graphique de type Colonne selon l'extrait suivant.
 
 {{< highlight "cpp" >}}
 

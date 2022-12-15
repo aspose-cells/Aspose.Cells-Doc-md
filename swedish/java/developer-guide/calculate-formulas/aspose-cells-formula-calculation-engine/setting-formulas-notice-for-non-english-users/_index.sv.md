@@ -6,7 +6,7 @@ url: /sv/java/setting-formulas-notice-for-non-english-users/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells stöder de flesta formlerna/funktionerna som ingår i Microsoft Excel. Utvecklare kan använda dessa formler med antingen API eller[designerkalkylblad](/cells/sv/java/what-is-a-designer-spreadsheet/). Aspose.Cells stöder en stor uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistik, databas, uppslagsformler och referensformler. Formlerna ska specificeras med engelsk (US) stil.
+ Aspose.Cells stöder de flesta formlerna/funktionerna som ingår i Microsoft Excel. Utvecklare kan använda dessa formler med antingen API eller[designerkalkylblad](/cells/sv/java/what-is-a-designer-spreadsheet/)Aspose.Cells stöder en stor uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistik, databas, uppslagsformler och referensformler. Formlerna ska specificeras med engelsk (US) stil.
 
 Det finns två tips som icke-engelska användare måste följa när de skapar formler med Aspose.Cells:
 

@@ -22,8 +22,8 @@ Lo screenshot seguente evidenzia questa opzione come riferimento.
 
  Aspose.Cells fornisce il[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) metodo per selezionare o deselezionare la casella di controllo**L'etichetta contiene - Valore da Cells** come mostrato nello screenshot qui sopra.
 
-## Java codice per mostrare l'intervallo di celle come etichette dati
+## Codice Java per mostrare l'intervallo di celle come etichette di dati
 
- Il codice di esempio riportato di seguito accede alle etichette dei dati della serie di grafici e quindi imposta[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) metodo su true per controllare**L'etichetta contiene - Valore da Cells** opzione.
+ Il codice di esempio riportato di seguito accede alle etichette dei dati della serie di grafici e quindi imposta[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) metodo su true per verificare**L'etichetta contiene - Valore da Cells** opzione.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}

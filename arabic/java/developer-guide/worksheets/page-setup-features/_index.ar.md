@@ -20,7 +20,7 @@ url: /ar/java/page-setup-features/
 
 ### **اتجاه الصفحة**
 
- يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة. ال[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة يأخذ[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) التعداد كمعامل. أعضاء[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)التعداد مذكورة أدناه.
+ يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة. ال[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة يأخذ[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) التعداد كمعامل. أعضاء[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)التعداد مذكور أدناه.
 
 |**أنواع اتجاه الصفحة**|**وصف**|
 |:- |:- |
@@ -265,7 +265,7 @@ Aspose.Cells يدعم Microsoft خيارات إعداد صفحة Excel بشكل 
 |:- |:- |
 |[*PRINT_ERRORS_BLANK*](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|يحدد عدم طباعة الأخطاء.|
 |[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|يُحدد طباعة الأخطاء كـ "-".|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|يحدد لطباعة الأخطاء كما هو معروض.|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|يُحدد لطباعة الأخطاء كما هو معروض.|
 |[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|يُحدد طباعة الأخطاء كـ "# N / A".|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}

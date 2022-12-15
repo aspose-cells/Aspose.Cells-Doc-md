@@ -5,9 +5,9 @@ weight: 50
 url: /ar/cpp/licensing/
 ---
 ## **قيود إصدار التقييم**
- يمكن تنزيل نسخة تقييم مجانية من Aspose.Cells لـ C++ من قسم التنزيلات في موقع الويب Aspose على:<https://downloads.aspose.com/cells/cpp>.
+ يمكن تنزيل نسخة تقييم مجانية من Aspose.Cells for C++ من قسم التنزيلات في موقع الويب Aspose على:<https://downloads.aspose.com/cells/cpp>.
 ## **تطبيق الترخيص باستخدام ملف أو كائن دفق**
-يمكن تحميل الترخيص من ملف أو كائن دفق. Aspose.Cells لـ C++ سيحاول العثور على الترخيص في المواقع التالية:
+يمكن تحميل الترخيص من ملف أو كائن دفق. Aspose.Cells for C++ سيحاول العثور على الترخيص في المواقع التالية:
 
 1. مسار صريح.
 1. المجلد الذي يحتوي على Aspose.Cells.dll.
@@ -25,7 +25,7 @@ url: /ar/cpp/licensing/
 
 {{% /alert %}} 
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -37,7 +37,7 @@ license->SetLicense(new String("Aspose.Cells.lic"));
 ### **تحميل ترخيص من كائن تيار**
 يوضح المثال التالي كيفية تحميل ترخيص من دفق.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 

@@ -5,7 +5,7 @@ weight: 30
 url: /it/java/custom-sorting-in-pivot-table/
 ---
 ## **Ordinamento personalizzato nella tabella pivot**
-Utilizzando Aspose.Cells API, è possibile ordinare le tabelle pivot in base ai valori dei campi. Il seguente frammento di codice carica il file Excel di esempio e aggiunge tre tabelle pivot. La prima tabella pivot è senza ordinamento personalizzato, la seconda tabella pivot è ordinata in base ai valori del campo riga "SeaFood" e la terza tabella pivot è ordinata in base ai valori del campo colonna "28/07/2000".
+Utilizzando l'API Aspose.Cells, puoi ordinare le tabelle pivot in base ai valori dei campi. Il seguente frammento di codice carica il file Excel di esempio e aggiunge tre tabelle pivot. La prima tabella pivot è senza ordinamento personalizzato, la seconda tabella pivot è ordinata in base ai valori del campo riga "SeaFood" e la terza tabella pivot è ordinata in base ai valori del campo colonna "28/07/2000".
 
 Il file sorgente di esempio e i file di output possono essere scaricati da qui per testare il codice di esempio:
 

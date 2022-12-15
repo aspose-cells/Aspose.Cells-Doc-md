@@ -18,7 +18,7 @@ url: /zh/net/customize-row-and-column-headers/
 
 **第 1 行和第 2 行的标题已自定义** 
 
-![待办事项：图片_替代_文本](customize-row-and-column-headers_1.png)
+![待办事项：图像_替代_文本](customize-row-and-column-headers_1.png)
 
 
 
@@ -32,7 +32,7 @@ url: /zh/net/customize-row-and-column-headers/
 
 **第 1、2 和 3 列的标题已自定义** 
 
-![待办事项：图片_替代_文本](customize-row-and-column-headers_2.png)
+![待办事项：图像_替代_文本](customize-row-and-column-headers_2.png)
 
 
 

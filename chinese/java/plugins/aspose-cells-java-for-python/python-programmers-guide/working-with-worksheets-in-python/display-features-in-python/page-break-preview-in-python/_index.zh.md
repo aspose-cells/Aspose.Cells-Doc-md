@@ -5,7 +5,7 @@ weight: 60
 url: /zh/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
-将工作表设置为分页预览使用**Aspose.Cells Java 为 Python** 只需调用**分页预览**模块。
+将工作表设置为分页预览使用**Aspose.Cells Java for Python** 只需调用**分页预览**模块。
 
 **Python 代码**
 

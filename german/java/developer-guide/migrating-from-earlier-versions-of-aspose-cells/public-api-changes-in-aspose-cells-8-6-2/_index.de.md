@@ -82,7 +82,7 @@ report.setCallBack(new SmartMarkerCallBack(report.getWorkbook()));
 report.process(false);
 
 {{< /highlight >}}
-### **Method Chart.toPdf hinzugefügt**
+### **Method Chart.toPdf Hinzugefügt**
 Aspose.Cells for Java 8.6.2 hat die Chart.toPdf-Methode verfügbar gemacht, die verwendet werden kann, um die Diagrammform direkt in das PDF-Format zu rendern. Die genannte Methode akzeptiert derzeit einen Parameter vom Typ String als Dateipfad, um die resultierende Datei auf der Festplatte zu speichern.
 
 Es folgt das einfache Nutzungsszenario.

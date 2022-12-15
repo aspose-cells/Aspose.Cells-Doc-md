@@ -11,7 +11,7 @@ url: /ru/net/creating-pie-chart-with-leader-lines/
 
 {{% /alert %}}
 
-Чтобы продемонстрировать использование Aspose.Cells for .NET API для создания круговой диаграммы с линиями выноски, мы сначала создадим новый[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) и введите некоторые данные, которые будут служить источником данных ряда. Как только данные будут на месте, мы добавим[**Диаграмма**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) типа[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)к набору графиков и установите его различные аспекты, чтобы получить желаемый вид графика.
+Чтобы продемонстрировать использование Aspose.Cells for .NET API для создания круговой диаграммы с линиями выноски, мы сначала создадим новый[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) и введите некоторые данные, которые будут служить источником данных серии. Как только данные будут на месте, мы добавим[**Диаграмма**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) типа[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)к набору графиков и установите его различные аспекты, чтобы получить желаемый вид графика.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-CreateWorkbook.cs" >}}
 

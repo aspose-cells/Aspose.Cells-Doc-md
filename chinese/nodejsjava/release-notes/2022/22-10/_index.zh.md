@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 用于 Node.js 通过 Java 22.10 发行说明
+title: Aspose.Cells for Node.js via Java 22.10 发行说明
 type: docs
 weight: 3
 url: /zh/nodejs-java/aspose-cells-for-node-js-via-java-22-10-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含发行说明[Aspose.Cells 用于 Node.js 通过 Java 22.10](https://releases.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.10/).
+此页面包含发行说明[Aspose.Cells for Node.js via Java 22.10](https://releases.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.10/).
 
 {{% /alert %}}
 

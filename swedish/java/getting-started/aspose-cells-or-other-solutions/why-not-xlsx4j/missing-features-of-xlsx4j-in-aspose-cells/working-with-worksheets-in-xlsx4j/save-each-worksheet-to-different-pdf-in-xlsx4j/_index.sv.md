@@ -5,13 +5,13 @@ weight: 50
 url: /sv/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ---
 ## **Aspose.Cells - Spara varje kalkylblad till en annan PDF**
-Aspose.Cells stöder konvertering av XLS-filer (som innehåller bilder, diagram etc.) till PDF-dokument. Aspose.Cells för Java kan arbeta självständigt för att konvertera ett kalkylblad till Pdf-dokument och du behöver inte längre använda Aspose.Pdf för Java för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
+Aspose.Cells stöder konvertering av XLS-filer (som innehåller bilder, diagram etc.) till PDF-dokument. Aspose.Cells for Java kan arbeta självständigt för att konvertera ett kalkylblad till Pdf-dokument och du behöver inte längre använda Aspose.Pdf for Java för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
 
 **Java**
 
 {{< highlight "java" >}}
 
- //Hämta sökvägen till Excel-filen
+//Hämta sökvägen till Excel-filen
 
 String filePath = dataDir + "workbook.xlsx";
 

@@ -17,7 +17,7 @@ Innan du skapar en anpassad samling, skapa en klass för att hålla de anpassade
 Exemplet nedan använder klassen MyCustomRecord som innehåller fem privata fält och fem publika egenskaper som styr åtkomsten till de privata fälten. Här är strukturen för fastigheter:
 
 -  Egenskapen StringField1 för att läsa och skriva**strängfält1** (sträng).
--  Egenskapen ReadonlyField2 för att endast läsa**stringfield2** (sträng).
+-  Egenskapen ReadonlyField2 för att endast läsa**strängfält2** (sträng).
 -  Egenskapen DateField1 för att läsa och skriva**datumfält1** (Datum Tid).
 -  Egenskapen IntField1 för att läsa och skriva**intfield1** (heltal).
 -  DoubleField1-egenskapen för att läsa och skriva**dubbelfält1** (dubbel).
@@ -261,7 +261,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 {{< /highlight >}}
 ### **Steg 5: Kör applikationen**
- Kör programmet genom att antingen trycka på**Ctrl+F5** eller klicka på**Start** knappen i VS.NET. Webbformuläret öppnas i ett nytt webbläsarfönster.
+ Kör programmet genom att antingen trycka på**Ctrl+F5** eller klicka på**Start** knapp i VS.NET. Webbformuläret öppnas i ett nytt webbläsarfönster.
 
 **Arbetsblad inbundet med en anpassad samling** 
 

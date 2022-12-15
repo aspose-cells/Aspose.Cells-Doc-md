@@ -1,5 +1,5 @@
 ﻿---
-title: "Descripción general del producto: Aspose.Cells para Android a través de Java"
+title: Descripción general del producto - Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /es/java/product-overview-aspose-cells-for-android-via-java/
@@ -8,7 +8,7 @@ url: /es/java/product-overview-aspose-cells-for-android-via-java/
 
 ![logo-celulas](50528297.png)
 
-¡Bienvenido al Aspose.Cells para Android a través de la documentación Java!
+¡Bienvenido a la documentación Aspose.Cells for Android via Java!
 
 Aspose.Cells es un componente flexible que permite que las aplicaciones de Android creen y administren hojas de cálculo de Excel sin necesidad de Microsoft Excel instalado en el sistema. A diferencia de productos similares de otros proveedores, Aspose.Cells no solo admite la generación de hojas de cálculo y otras funciones básicas de formateo de archivos, sino también una serie de funciones avanzadas. Estas funciones avanzadas facilitan a los desarrolladores la manipulación del contenido de las hojas de cálculo, el formateo de celdas y la protección de archivos. Aspose.Cells también le permite importar datos en hojas de cálculo desde diferentes fuentes de datos, agregar fórmulas y funciones matemáticas, de fecha y hora, financieras o de texto comunes y complejas. Además, admite la manipulación de gráficos, imágenes, comentarios, objetos de dibujo y controles.
 
@@ -58,7 +58,7 @@ Aspose.Cells es un componente flexible que permite que las aplicaciones de Andro
 - Formato Cell como fecha
 -  Establecer**Alineación del texto**
 - Combinar múltiples Cells en uno solo
-- Aplicar diferentes tipos de**Configuración de fuente** para el Cells
+- Aplicar diferentes tipos de**Configuración de fuentes** para el Cells
 - Aplique diferentes colores a Cells, fuentes, líneas de cuadrícula, objetos gráficos, etc.
 -  Establecer**Texto rico** en un solo Cell
 -  Aplicar diferentes**Configuración de borde** el Cells

@@ -30,7 +30,7 @@ Aspose.Cells 支持将Excel工作表转换为图片。要使用此功能，您�
 ## **将工作表转换为 SVG**
 SVG 代表可缩放矢量图形。 SVG 是一种基于 XML 标准的二维矢量图形规范。它是一个开放标准，自 1999 年以来一直由万维网联盟 (W3C) 开发。
 
-Aspose.Cells for C++ 自版本 18.5.0 以来已经能够将工作表转换为 SVG 图像。
+Aspose.Cells for C++ 从版本 18.5.0 开始可以将工作表转换为 SVG 图像。
 
 要使用此功能，请将 `Aspose.Cells.Rendering` 命名空间导入您的程序或项目。它有几个用于渲染和打印的有价值的类，例如 `ISheetRender`、`IImageOrPrintOptions` 等。
 

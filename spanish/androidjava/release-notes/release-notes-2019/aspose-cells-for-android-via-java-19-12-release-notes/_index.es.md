@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 19.12 Notas de la versión
+title: Aspose.Cells for Android via Java 19.12 Notas de la versión
 type: docs
 weight: 10
 url: /es/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 19.12.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 19.12.
 
 {{% /alert %}} 
 
@@ -54,7 +54,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-43060|Excepción "java.lang.NullPointerException" en Workbook.save después de configurar la fuente de datos externa como vacía|Excepción|
 |CELLSJAVA-42923|Excepciones al cargar documentos XLS|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 ### **Agrega el método Cells.RemoveDuplicates()**
 Elimina los datos duplicados del rango.
 ### **Agrega la propiedad OleObject.FullObjectBin**

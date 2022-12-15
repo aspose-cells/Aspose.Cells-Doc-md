@@ -1,10 +1,10 @@
 ﻿---
-title: PHP için Aspose.Cells Java
+title: Aspose.Cells Java for PHP
 type: docs
 weight: 80
 url: /tr/java/aspose-cells-java-for-php/
 ---
-## **PHP için Aspose.Cells Java'e giriş**
+## **Giriş Aspose.Cells Java for PHP**
 ### **PHP / Java Köprü**
 PHP/Java Köprüsü, XML tabanlı bir akış uygulamasıdır.[ağ protokolü](http://php-java-bridge.sourceforge.net/pjb/PROTOCOL.TXT)PHP, Scheme veya Python gibi yerel bir betik motorunu Java sanal makinesine bağlamak için kullanılabilir. SOAP aracılığıyla yerel RPC'den 50 kata kadar daha hızlıdır ve web sunucusu tarafında daha az kaynak gerektirir. Bu[Daha hızlı](http://php-java-bridge.sourceforge.net/pjb/FAQ.html#performance)ve Java Yerel Arayüz aracılığıyla doğrudan iletişimden daha güvenilirdir ve PHP'den Java prosedürlerini veya Java'den PHP prosedürlerini çağırmak için ek bileşen gerektirmez.
 
@@ -13,8 +13,8 @@ PHP/Java Köprüsü, XML tabanlı bir akış uygulamasıdır.[ağ protokolü](ht
 Aspose.Cells for Java, Java geliştiricilerinin Excel® elektronik tablolarını (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF okuma, yazma ve değiştirme becerisini yerleştirmesine izin veren ödüllü bir Excel Elektronik Tablo bileşenidir. ve resim dosyası formatlarını Microsoft Excel®'e güvenmek zorunda kalmadan kendi Java uygulamalarına dönüştürün.
 
 Aspose.Cells for Java, diğer satıcıların basit veri dışa aktarma yeteneklerinin çok ötesinde birçok işlev sunan olgun, ölçeklenebilir ve zengin özelliklere sahip bir bileşendir. Aspose.Cells for Java ile geliştiriciler verileri dışa aktarabilir, elektronik tabloları en ayrıntılı düzeyde biçimlendirebilir, görüntüleri içe aktarabilir, grafikler oluşturabilir, karmaşık formüller uygulayabilir ve hesaplayabilir, Excel® verilerini aktarabilir, çeşitli biçimlerde kaydedebilir ve çok daha fazlasını yapabilir - tüm bunları Microsoft Excel®'e ihtiyaç duymadan yapabilirsiniz veya Microsoft Ofis Otomasyonu.
-### **PHP için Aspose.Cells Java**
-PHP için Proje Aspose.Cells, PHP'de Aspose.Cells Java API'leri kullanılarak farklı görevlerin nasıl gerçekleştirilebileceğini gösterir. Bu proje, PHP Projelerinde Aspose.Cells for Java kullanmak isteyen PHP Geliştiricileri için faydalı örnekler sunmayı amaçlamaktadır.[PHP/Java Köprü](http://php-java-bridge.sourceforge.net/pjb/).
+### **Aspose.Cells Java for PHP**
+ Proje Aspose.Cells for PHP, PHP'de Aspose.Cells Java API'leri kullanılarak farklı görevlerin nasıl gerçekleştirilebileceğini gösterir. Bu projede faydalı örnekler vermek amaçlanmıştır for PHP Aspose.Cells for Java kullanarak PHP Projelerinde kullanmak isteyen geliştiriciler[PHP/Java Köprü](http://php-java-bridge.sourceforge.net/pjb/).
 
 **Bu bölüm aşağıdaki konuları içerir:**
 
@@ -25,7 +25,7 @@ PHP için Proje Aspose.Cells, PHP'de Aspose.Cells Java API'leri kullanılarak fa
   - [PHP'de Dosyalarla Çalışmak](/cells/tr/java/working-with-files-in-php/)
     - [PHP'de Dosya İşleme Özellikleri](/cells/tr/java/file-handling-features-in-php/)
       - [Dosyaları PHP'de Açmak](/cells/tr/java/opening-files-in-php/)
-      - [PHP'de Dosyaları Kaydetme](/cells/tr/java/saving-files-in-php/)
+      - [PHP'de Dosyaları Kaydetmek](/cells/tr/java/saving-files-in-php/)
     - [PHP'deki Yardımcı Program Özellikleri](/cells/tr/java/utility-features-in-php/)
       - [PHP'de Grafiği Görüntüye Dönüştürme](/cells/tr/java/converting-chart-to-image-in-php/)
       - [PHP'de Excel Dosyalarını HTML'ye Dönüştürme](/cells/tr/java/converting-excel-files-to-html-in-php/)
@@ -63,7 +63,7 @@ PHP için Proje Aspose.Cells, PHP'de Aspose.Cells Java API'leri kullanılarak fa
 - [PHP'de Aspose.Cells'i Destekleyin, Genişletin ve Katkıda Bulunun](/cells/tr/java/support-extend-and-contribute-to-aspose-cells-in-php/)
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 ### **sistem gereksinimleri**
-**PHP için Aspose.Cells Java'i kullanmak için sistem gereksinimleri şunlardır:**
+**Aspose.Cells Java for PHP'i kullanmak için sistem gereksinimleri aşağıdadır:**
 
 - Tomcat Server 8.0 veya üstü yüklü.
 - PHP/JavaBridge yapılandırıldı.
@@ -76,7 +76,7 @@ PHP için Proje Aspose.Cells, PHP'de Aspose.Cells Java API'leri kullanılarak fa
 - Java 1.8 veya üstü
 ## **İndirmeler ve Yapılandırma**
 ### **Gerekli Kitaplıkları İndirin**
-Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar, PHP örnekleri için Aspose.Cells Java'i çalıştırmak için gereklidir.
+Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar Aspose.Cells Java for PHP örneklerini çalıştırmak için gereklidir.
 
 - **Aspose:** [Aspose.Cells for Java Bileşen](https://downloads.aspose.com/cells/java)
 - [PHP/Java Köprü](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_7.2.1/php-java-bridge_7.2.1_documentation.zip/download)
@@ -85,8 +85,8 @@ Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar, PHP örnekleri i�
 
 -----
 #### **GitHub**
-- **PHP Örnekleri için Aspose.Cells Java** 
-  - [PHP için Aspose.Cells Java](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
+- **Aspose.Cells Java for PHP Örnekler** 
+  - [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
 ### **Linux Platformunda kaynak kodu nasıl yapılandırılır**
 Kullanırken kaynak kodunu açmak ve genişletmek için lütfen şu basit adımları izleyin:
 #### **1. Tomcat Sunucusunu Kurun**
@@ -107,7 +107,7 @@ Kullanırken kaynak kodunu açmak ve genişletmek için lütfen şu basit adıml
 {{< /highlight >}}
 
 
- Linux konsolunda aşağıdaki komutu vererek PHP/JavaBridge ikili dosyalarını açın.
+Linux konsolunda aşağıdaki komutu vererek PHP/JavaBridge ikili dosyalarını açın.
 
 {{< highlight "actionscript3" >}}
 
@@ -125,7 +125,7 @@ Bu ayıklayacak**JavaBridge.savaş**dosya. Tomcat88'e kopyalayın**ağ uygulamal
 {{< /highlight >}}
 
 
-Tomcat8 kopyalayarak otomatik olarak yeni bir klasör oluşturacaktır "**Java Köprüsü**" içinde**ağ uygulamaları**. Klasör oluşturulduktan sonra, Tomcat8'inizin çalıştığından emin olun ve ardından kontrol edin.**yerel ana bilgisayar:8080/JavaBridge**tarayıcıda, varsayılan bir JavaBridge sayfası açmalıdır.
+Tomcat8 kopyalayarak otomatik olarak yeni bir klasör oluşturacaktır "**Java Köprüsü**" içinde**ağ uygulamaları**. Klasör oluşturulduktan sonra, Tomcat8'inizin çalıştığından emin olun ve ardından kontrol edin.**yerel ana bilgisayar:8080/JavaBridge** tarayıcıda, varsayılan bir JavaBridge sayfası açmalıdır.
 
  Herhangi bir hata mesajı görünürse, yükleyin**HızlıCGI**Linux konsolunda aşağıdaki komutu vererek.
 
@@ -138,7 +138,7 @@ Tomcat8 kopyalayarak otomatik olarak yeni bir klasör oluşturacaktır "**Java K
 php5.5 cgi'yi kurduktan sonra Tomcat8 sunucusunu yeniden başlatın ve kontrol edin**yerel ana bilgisayar:8080/JavaBridge**tekrar tarayıcıda.
 
 Eğer**Java_HOME**hatası görüntüleniyorsa, /etc/default/tomcat8 dosyasını açın ve Java_HOME'u ayarlayan satırın açıklamasını kaldırın. Tarayıcıda **localhost:8080/JavaBridge**'i tekrar kontrol edin, PHP/JavaBridge Örnekleri sayfasıyla gelmelidir.
-#### **3. PHP Örnekleri için Aspose.Cells Java'i yapılandırın**
+#### **3. Yapılandırma Aspose.Cells Java for PHP Örnekler**
  Webapps/JavaBridge klasörü içinde aşağıdaki komutları vererek PHP örneklerini klonlayın.
 
 {{< highlight "actionscript3" >}}
@@ -164,9 +164,9 @@ Windows Platformunda PHP/Java Bridge'i yapılandırmak için lütfen aşağıdak
 
  7. Kopyalayın[Aspose.Cells Java](https://downloads.aspose.com/cells/java) jar dosyasını C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib konumuna yerleştirin.
 
- \8. Klon[PHP için Aspose.Cells Java](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ klasörü içindeki örnekler.
+ \8. Klon[Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ klasörü içindeki örnekler.
 
-\8. C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java klasörünü PHP örnekler için Aspose.Cells Java klasörünüze kopyalayın.
+\8. C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java klasörünü Aspose.Cells Java for PHP örnekler klasörünüze kopyalayın.
 
  \10. Apache Tomcat hizmetini yeniden başlatın ve örnekleri kullanmaya başlayın.
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
@@ -175,11 +175,11 @@ Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler verme
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
 
-Aşağıdaki platformlardan herhangi birini kullanarak PHP için Aspose.Cells Java ile ilgili sorunları veya önerileri günlüğe kaydedebilirsiniz:
+Aspose.Cells Java for PHP ile ilgili sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ### **Genişletin ve Katkıda Bulunun**
-PHP için Aspose.Cells Java açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
+Aspose.Cells Java for PHP açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
 ### **Kaynak kodu**
 En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
 

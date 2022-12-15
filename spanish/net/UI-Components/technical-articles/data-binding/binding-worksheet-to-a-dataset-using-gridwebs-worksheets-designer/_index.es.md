@@ -167,7 +167,7 @@ El cuadro de diálogo contiene varias propiedades que se pueden configurar para 
 
 
 
- En BindColumn Collection Editor, todas las columnas del**productos** se agregan automáticamente a la colección BindColumns.
+ En BindColumn Collection Editor, todas las columnas del**Productos** se agregan automáticamente a la colección BindColumns.
 
 1. Seleccione cualquier columna y personalice sus propiedades.
  Por ejemplo, puede modificar el título de cada columna.

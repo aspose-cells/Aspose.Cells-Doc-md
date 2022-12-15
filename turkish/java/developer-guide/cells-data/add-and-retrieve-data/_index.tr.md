@@ -6,7 +6,7 @@ url: /tr/java/add-and-retrieve-data/
 ---
 {{% alert color="primary" %}} 
 
- İçinde[Bir Çalışma Sayfasının Cells'ine Erişme](/cells/tr/java/accessing-cells-of-a-worksheet/)bir çalışma sayfasındaki hücrelere erişim için temel yaklaşımları tartıştık. Bu makale, hücrelere farklı veri türleri eklemek için bu yaklaşımlardan birini kullanır.
+ İçinde[Bir Çalışma Sayfasının Cells'ine Erişme](/cells/tr/java/accessing-cells-of-a-worksheet/), bir çalışma sayfasındaki hücrelere erişim için temel yaklaşımları tartıştık. Bu makale, hücrelere farklı veri türleri eklemek için bu yaklaşımlardan birini kullanır.
 
 {{% /alert %}} 
 ## **Cells'e Veri Ekleme**

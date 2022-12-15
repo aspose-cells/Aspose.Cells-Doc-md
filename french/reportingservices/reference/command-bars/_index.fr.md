@@ -8,8 +8,8 @@ Le tableau suivant présente les icônes et les outils des barres de commandes d
 
 |**Commande** |**Image** |**La description** |
 |:- |:- |:- |
-| Ouvrir le rapport local|![tâche : image_autre_texte](command-bars_1.png)|Ouvre un fichier RDL à partir d'un PC local et charge le contexte du fichier.|
-| Ouvrir le rapport à distance|![tâche : image_autre_texte](command-bars_2.png)| Ouvre un fichier RDL à partir de Report Server et charge le contexte du fichier.|
+| Ouvrir le rapport local|![tâche : image_autre_texte](command-bars_1.png)| Ouvre un fichier RDL à partir d'un PC local et charge le contexte du fichier.|
+| Ouvrir le rapport à distance|![tâche : image_autre_texte](command-bars_2.png)|Ouvre un fichier RDL à partir de Report Server et charge le contexte du fichier.|
 | Enregistrer le rapport|![tâche : image_autre_texte](command-bars_3.png)| Enregistre la conception du rapport localement ou sur le serveur.|
 | Publier le rapport|![tâche : image_autre_texte](command-bars_4.png)| Télécharge le fichier RDL sur le serveur.|
 | Voir le rapport|![tâche : image_autre_texte](command-bars_5.png)| Affiche un aperçu du rapport à partir du serveur.|

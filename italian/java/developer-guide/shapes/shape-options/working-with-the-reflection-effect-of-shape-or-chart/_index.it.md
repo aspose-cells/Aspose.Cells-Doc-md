@@ -16,7 +16,7 @@ url: /it/java/working-with-the-reflection-effect-of-shape-or-chart/
 - [ReflectionEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Transparency)
 - [ReflectionEffect.Type](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Type)
 
- Lo screenshot seguente mostra l'interfaccia di Excel Microsoft per impostare il file*Effetto riflesso*di Forma.
+ Lo screenshot seguente mostra l'interfaccia di Microsoft Excel per impostare il file*Effetto riflesso*di Forma.
 
 ![cose da fare:immagine_alt_testo](working-with-the-reflection-effect-of-shape-or-chart_1.png)
 ## **Utilizzo dell'effetto riflesso di forma o grafico**

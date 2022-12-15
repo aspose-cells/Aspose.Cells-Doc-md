@@ -6,7 +6,7 @@ url: /sv/cpp/aspose-cells-for-cpp-22-7-1-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller utgåvor för Aspose.Cells för C++ 22.7.1 för Windows.
+Den här sidan innehåller utgåvor för Aspose.Cells for C++ 22.7.1 för Windows.
 
 {{% /alert %}}
 

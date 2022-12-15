@@ -8,13 +8,13 @@ url: /it/java/page-setup-and-printing-options/
 
 A volte, gli sviluppatori devono configurare l'impostazione della pagina e le impostazioni di stampa per controllare il processo di stampa. L'impostazione della pagina e le impostazioni di stampa offrono varie opzioni e sono completamente supportate in Aspose.Cells.
 
-Questo articolo mostra come creare un'applicazione console e applicare le opzioni di impostazione della pagina e di stampa a un foglio di lavoro con poche semplici righe di codice utilizzando Aspose.Cells API.
+Questo articolo illustra come creare un'applicazione console e applicare le opzioni di impostazione della pagina e di stampa a un foglio di lavoro con poche semplici righe di codice usando l'API Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Utilizzo delle impostazioni di pagina e stampa**
 
-Per questo esempio, abbiamo creato una cartella di lavoro in Microsoft Excel e usiamo Aspose.Cells per impostare l'impostazione della pagina e le opzioni di stampa.
+Per questo esempio, abbiamo creato una cartella di lavoro in Microsoft Excel e utilizzato Aspose.Cells per impostare l'impostazione della pagina e le opzioni di stampa.
 
 ### **Impostazione delle opzioni di impostazione della pagina**
 
@@ -50,7 +50,7 @@ Per prima cosa crea un semplice foglio di lavoro in Microsoft Excel. Quindi appl
 1. Estrarre Aspose.Cells.jar e dom4j_1.6.1.jar da Aspose.Cells.zip.
  1. Imposta il classpath del progetto in Eclipse:
  1. Seleziona il tuo progetto in Eclipse e poi clicca**Progetto** seguito da**Proprietà**.
- 1. Selezionare**Java Costruisci Percorso** sinistra della finestra di dialogo.
+ 1. Selezionare**Percorso di compilazione Java** sinistra della finestra di dialogo.
  1. Selezionare la scheda Librerie, fare clic su**Aggiungi JAR** o**Aggiungi JAR esterni** per selezionare Aspose.Cells.jar e dom4j_1.6.1.jar e aggiungerli ai percorsi di build.
  Oppure puoi impostarlo in fase di esecuzione al prompt di DOS in Windows:
 

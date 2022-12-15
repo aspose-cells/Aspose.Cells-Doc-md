@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 19.5 Release Notes
+title: Aspose.Cells for Java 19.5 Release Notes
 type: docs
 weight: 80
 url: /sv/java/aspose-cells-for-java-19-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.5.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.5.
 
 {{% /alert %}} 
 
@@ -23,13 +23,13 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.5.
 |CELLSJAVA-42909|Problem med funktionen DATUMVÄRDE|Insekt|
 |CELLSJAVA-42910|Problem med VLOOKUP-funktionen när ett tecken finns i strängen|Insekt|
 |CELLSJAVA-42911|Problem när du använder TEXT-funktionen för datum|Insekt|
-|CELLSJAVA-42896|Konvertering till PDF vänder telefonnummer|Insekt|
+|CELLSJAVA-42896|Konvertering till PDF vänder över telefonnummer|Insekt|
 |CELLSJAVA-42900|Konvertering till PDF ändrar textordning|Insekt|
 |CELLSJAVA-42881|Undantag "java.lang.IllegalStateException: Ogiltig kodning: null " när en MS Excel 5.0/95 XLS-fil laddas|Undantag|
 |CELLSJAVA-42884|Undantag "java.lang.ArrayIndexOutOfBoundsException" när en MS Excel 5.0/95 XLS-fil laddas|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till StreamProviderOptions konstruktor**
 Nya StreamProviderOptions.
 ### **Lägger till FileFormatType.GraphChart enum**

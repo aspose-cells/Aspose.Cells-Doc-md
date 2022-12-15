@@ -10,7 +10,7 @@ Un grafico pivot è una rappresentazione grafica interattiva dei dati in una tab
 
 Aspose.Cells supporta tabelle pivot e grafici pivot.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

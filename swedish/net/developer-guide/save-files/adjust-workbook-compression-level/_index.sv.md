@@ -18,6 +18,6 @@ Utvecklare kan justera komprimeringsnivån för arbetsboken när de arbetar med 
 - Level8: Bättre komprimering än Level7!
 - Nivå9: Den "bästa" komprimeringen, där bäst betyder största minskningen av storleken på indataströmmen. Detta är också den långsammaste kompressionen.
 
- Följande kodavsnitt visar användningen av**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** uppräkning och jämför omvandlingstiden för Level1, Level6 och Level9. Du kan också jämföra storleken på de genererade filerna.
+ Följande kodavsnitt visar användningen av**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)**uppräkning och jämför omvandlingstiden för Level1, Level6 och Level9. Du kan också jämföra storleken på de genererade filerna.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AdjustCompressionLevel-1.cs" >}}

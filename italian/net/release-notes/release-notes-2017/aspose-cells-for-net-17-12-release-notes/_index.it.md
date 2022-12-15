@@ -13,7 +13,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.12.
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-45358|Ottieni CSS separatamente dal markup HTML durante l'esportazione in HTML utilizzando i flussi|Nuova caratteristica|
-|CELLSNET-45697|Implementa Cell.FormulaLocal simile a Microsoft Interop FormulaLocal|Nuova caratteristica|
+|CELLSNET-45697|Implementare Cell.FormulaLocal simile a Microsoft Interop FormulaLocal|Nuova caratteristica|
 |CELLSNET-45801|Supporto per i componenti aggiuntivi di Office nel rendering da Excel a PDF|Nuova caratteristica|
 |CELLSNET-45796|Indicatori intelligenti: come popolare automaticamente i dati nel secondo foglio di lavoro se i dati sono troppo grandi e non possono essere inseriti in un singolo foglio|Nuova caratteristica|
 |CELLSNET-45791|Aggiorna "Mantieni cronologia modifiche" durante la condivisione della cartella di lavoro|Nuova caratteristica|
@@ -43,8 +43,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.12.
 |CELLSNET-45798|L'indice era al di fuori dei limiti dell'array - Eccezione durante il rendering del file Excel|Eccezione|
 |CELLSNET-45795|È necessario immettere i dati per i criteri di convalida: si verifica un'eccezione durante il salvataggio della cartella di lavoro|Eccezione|
 |CELLSNET-45781|ArgumentOutOfRangeException si verifica quando il foglio di lavoro viene copiato in un'altra cartella di lavoro|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HtmlSaveOptions.TableCssId**
 Ottiene e imposta il prefisso del nome di tipo css come tr,col,td e così via, sono contenuti nell'elemento table che ha l'attributo specifico TableCssId. Il valore predefinito è "".
 #### **Aggiunge la proprietà Cell.FormulaLocal**

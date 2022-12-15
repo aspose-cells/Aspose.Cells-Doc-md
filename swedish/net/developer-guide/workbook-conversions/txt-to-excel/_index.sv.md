@@ -19,7 +19,7 @@ CSV-filer (Comma Separated Values) innehåller poster där värdena separeras me
 
 ## **Öppnar CSV-filer och ersätter ogiltiga tecken**
 
-I Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API som visas i kodexemplet nedan.
+Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API vilket visas i kodexemplet nedan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 

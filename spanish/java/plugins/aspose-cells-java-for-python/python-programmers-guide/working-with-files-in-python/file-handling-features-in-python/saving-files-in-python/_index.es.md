@@ -6,7 +6,7 @@ url: /es/java/saving-files-in-python/
 ---
 ## **Aspose.Cells - Guardar archivos**
 ### **Guardar archivo en alguna ubicación**
- Si los desarrolladores necesitan guardar sus archivos usando**Aspose.Cells Java para Python** a alguna ubicación de almacenamiento, simplemente pueden especificar el nombre del archivo (con su ruta de almacenamiento completa) y el formato de archivo deseado (usando el**Tipo de formato de archivo**enumeración) mientras llama al**ahorrar**método de**Libro de trabajo**objeto.
+ Si los desarrolladores necesitan guardar sus archivos usando**Aspose.Cells Java for Python** a alguna ubicación de almacenamiento, simplemente pueden especificar el nombre del archivo (con su ruta de almacenamiento completa) y el formato de archivo deseado (usando el**Tipo de formato de archivo**enumeración) mientras llama al**ahorrar**método de**Libro de trabajo**objeto.
 
 **Código Python**
 

@@ -7,7 +7,7 @@ url: /sv/java/manage-worksheets/
 ---
 {{% alert color="primary" %}}
 
-Utvecklare kan enkelt skapa och hantera kalkylblad i sina Excel-filer programmatiskt med det flexibla API:et Aspose.Cells. I det här ämnet kommer vi att diskutera några metoder för att lägga till och ta bort kalkylblad i Excel-filer.
+Utvecklare kan enkelt skapa och hantera kalkylblad i sina Excel-filer programmatiskt med hjälp av den flexibla API eller Aspose.Cells. I det här ämnet kommer vi att diskutera några metoder för att lägga till och ta bort kalkylblad i Excel-filer.
 
 {{% /alert %}}
 
@@ -23,7 +23,7 @@ Att hantera kalkylblad med Aspose.Cells är lika enkelt som ABC. I det här avsn
 
  Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)klass tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. Låt oss se hur vi kan använda dessa grundläggande API:er.
 
-## **Lägga till arbetsblad i en ny Excel-fil**
+## **Lägga till kalkylblad till en ny Excel-fil**
 
  För att skapa en ny Excel-fil programmatiskt skulle utvecklare behöva skapa ett objekt av[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Excel-fil. Då kan utvecklare ringa[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() ) metod för[**Arbetsbladssamling**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . När vi ringer[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() )-metoden läggs ett tomt kalkylblad till i Excel-filen automatiskt, som kan refereras till genom att skicka arkindexet för det nyligen tillagda kalkylbladet till[**Arbetsbladssamling**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . Efter att kalkylbladsreferensen har erhållits kan utvecklare arbeta med sina kalkylblad enligt deras krav. När arbetet är klart med kalkylbladen kan utvecklare spara sin nyskapade Excel-fil med nya kalkylblad genom att anropa[**spara**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) metod för[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)klass.
 

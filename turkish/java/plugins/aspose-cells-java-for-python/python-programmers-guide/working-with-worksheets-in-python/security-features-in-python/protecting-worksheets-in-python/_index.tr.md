@@ -5,7 +5,7 @@ weight: 10
 url: /tr/java/protecting-worksheets-in-python/
 ---
 ## **Aspose.Cells - Çalışma Sayfalarını Koruma**
- Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java için Python** , aramak**koruma_çalışma sayfası** yöntemi**koruma** modül.
+ Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for Python** , aramak**koruma_çalışma sayfası** yöntemi**koruma** modül.
 
 **Python Kod**
 

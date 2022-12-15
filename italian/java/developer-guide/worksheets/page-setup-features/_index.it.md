@@ -14,7 +14,7 @@ Le opzioni di impostazione della pagina sono completamente supportate in Aspose.
 
 ## **Impostazione delle opzioni della pagina**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. La classe Workbook contiene una raccolta di fogli di lavoro che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. La classe Workbook contiene una raccolta di fogli di lavoro che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
 La classe Worksheet fornisce la proprietà PageSetup, utilizzata per impostare le opzioni di impostazione della pagina. Infatti, la proprietà PageSetup è un oggetto della classe PageSetup che rende possibile impostare le opzioni di layout di pagina per un foglio di lavoro stampato. La classe PageSetup fornisce varie proprietà utilizzate per impostare le opzioni di impostazione della pagina. Alcune di queste proprietà sono discusse di seguito.
 
@@ -55,7 +55,7 @@ La classe Worksheet fornisce la proprietà PageSetup, utilizzata per impostare l
 |Carta A5|A5 (148 mm x 210 mm)|
 |CartaB3|B3 (13,9 x 19,7 pollici)|
 |CartaB4|B4 (250 x 354 mm)|
-|CartaB5|B5 (182 x 257 mm)|
+|Carta B5|B5 (182 x 257 mm)|
 |CartaBusinessCard|Biglietto da visita (90 mm x 55 mm)|
 |CartaCFoglio|Foglio formato C|
 |CartaDFoglio|Foglio di dimensione D|
@@ -113,7 +113,7 @@ Aspose.Cells supporta completamente le opzioni di impostazione della pagina di M
 
 ![cose da fare:immagine_alt_testo](page-setup-features_2.png)
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)che rappresenta un file Excel Microsoft. La classe Workbook contiene la raccolta Worksheets che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)che rappresenta un file Microsoft Excel. La classe Workbook contiene la raccolta Worksheets che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
  La classe Worksheet fornisce la proprietà PageSetup, utilizzata per impostare le opzioni di impostazione della pagina. L'attributo PageSetup è un oggetto di[**Impostazione della pagina**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class che rende possibile impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. La classe PageSetup fornisce varie proprietà e metodi utilizzati per impostare le opzioni di impostazione della pagina.
 
@@ -201,7 +201,7 @@ Dopo aver eseguito il codice e aperto il file, controlla l'intestazione del fogl
 
 ## **Impostazione delle opzioni di stampa**
 
-Microsoft Le impostazioni di impostazione della pagina di Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro. Queste opzioni di stampa consentono agli utenti di:
+Le impostazioni di impostazione della pagina di Microsoft Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro. Queste opzioni di stampa consentono agli utenti di:
 
 - Selezionare un'area di stampa specifica su un foglio di lavoro.
 - Stampa titoli.

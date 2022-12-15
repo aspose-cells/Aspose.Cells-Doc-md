@@ -12,7 +12,7 @@ Se uno sviluppatore deve rimuovere la protezione da un foglio di lavoro protetto
 
 ## **Rimuovere la protezione di un foglio di lavoro**
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 Per rimuovere la protezione da un foglio di lavoro:
 

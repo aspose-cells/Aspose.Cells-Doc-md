@@ -24,7 +24,7 @@ Wenn Sie eine Excel-Datei mit Aspose.Cells öffnen, werden alle Daten in der Dat
 
 - [Array](/cells/de/java/import-and-export-data/).
 - [Anordnungsliste](/cells/de/java/import-and-export-data/).
-- [Ergebnismenge](/cells/de/java/import-and-export-data/).
+- [Ergebnissatz](/cells/de/java/import-and-export-data/).
 - [JSON](/cells/de/java/import-and-export-data/)
 
  Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält die Sammlung[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) Sammlung.[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)Collection bietet sehr nützliche Methoden zum Importieren von Daten aus anderen Datenquellen. In diesem Artikel wird erläutert, wie diese Methoden verwendet werden können.

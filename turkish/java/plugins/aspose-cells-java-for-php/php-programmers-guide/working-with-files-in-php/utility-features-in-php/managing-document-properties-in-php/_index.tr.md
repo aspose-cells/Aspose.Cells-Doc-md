@@ -5,7 +5,7 @@ weight: 70
 url: /tr/java/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells - Özel Özellikler Ekleme**
-PHP için Aspose.Cells Java kullanarak özel belge özellikleri eklemek için arayın**add_custom_property** yöntemi**belge** modül.
+Aspose.Cells Java for PHP'i kullanarak özel belge özellikleri eklemek için arayın**add_custom_property** yöntemi**belge** modül.
 
 **PHP Kodu**
 

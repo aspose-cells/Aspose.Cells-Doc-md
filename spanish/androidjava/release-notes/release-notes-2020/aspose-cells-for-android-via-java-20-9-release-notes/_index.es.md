@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 20.9 Notas de la versión
+title: Aspose.Cells for Android via Java 20.9 Notas de la versión
 type: docs
 weight: 9
 url: /es/java/aspose-cells-for-android-via-java-20-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 20.9.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 20.9.
 
 {{% /alert %}}
 
@@ -73,7 +73,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
 ### **Marca la interfaz ICustomFunction como obsoleta.**
 
@@ -157,7 +157,7 @@ Representa los parámetros de la fórmula de consulta de potencia.
 
 ### **Agrega la propiedad AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Para tener en cuenta el rendimiento y la conveniencia del usuario, agregamos esta propiedad y hacemos que su valor predeterminado sea falso para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor incorporado. Si la implementación existente del usuario de**ResumenCálculoMotor** cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** de**20.9**.
+Para tener en cuenta el rendimiento y la conveniencia del usuario, agregamos esta propiedad y hacemos que su valor predeterminado sea falso para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor integrado. Si la implementación existente del usuario de**ResumenCálculoMotor** cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** de**20.9**.
 
 ### **Agrega la propiedad TxtLoadOptions.HasTextQualifier**
 

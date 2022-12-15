@@ -11,9 +11,9 @@ url: /ar/cpp/public-api-changes-in-aspose-cells-17-1-0/
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
 ### **دعم النطاقات المسماة**
- Aspose.Cells لـ C++ يدعم الآن الإنشاء بالإضافة إلى معالجة النطاقات المحددة. يوضح مقتطف الشفرة التالي مدى سهولة استخدام Aspose.Cells لـ C++ API[إنشاء نطاقات مسماة](/cells/ar/cpp/create-named-range-in-a-workbook/).
+ Aspose.Cells for C++ يدعم الآن الإنشاء بالإضافة إلى معالجة النطاقات المسماة. يوضح مقتطف الكود التالي مدى سهولة استخدام Aspose.Cells for C++ API[إنشاء نطاقات مسماة](/cells/ar/cpp/create-named-range-in-a-workbook/).
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -57,9 +57,9 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
- إلى جانب إنشاء نطاقات مسماة جديدة ، تدعم Aspose.Cells لواجهات برمجة التطبيقات C++ أيضًا معالجة النطاقات المسماة الحالية. يستخدم مقتطف الكود التالي Aspose.Cells لـ C++ API إلى[معالجة نطاق مسمى موجود](/cells/ar/cpp/manipulate-named-range-in-a-workbook/).
+ إلى جانب إنشاء نطاقات مسماة جديدة ، تدعم واجهات برمجة التطبيقات Aspose.Cells for C++ أيضًا معالجة النطاقات المسماة الحالية. يستخدم مقتطف التعليمات البرمجية التالي Aspose.Cells for C++ API إلى[معالجة نطاق مسمى موجود](/cells/ar/cpp/manipulate-named-range-in-a-workbook/).
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -115,19 +115,19 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **تمت إضافة طريقة IExternalLink :: IsVisible**
 تحصل طريقة IsVisible على حالة رؤية الارتباط الخارجي في تطبيق Excel.
 ### **تمت إضافة أساليب GetScaleCrop و SetScaleCrop**
-قام Aspose.Cells لـ C++ 17.1.0 بعرض طرق GetScaleCrop & SetScaleCrop لفئة IBuiltInDocumentPropertyCollection. هذه الطرق مفيدة للحصول على أو تعيين خاصية ScaleCrop التي تشير إلى وضع عرض الصورة المصغرة للوثيقة.
+كشف Aspose.Cells for C++ 17.1.0 طرق GetScaleCrop & SetScaleCrop لفئة IBuiltInDocumentPropertyCollection. هذه الطرق مفيدة للحصول على أو تعيين خاصية ScaleCrop التي تشير إلى وضع عرض الصورة المصغرة للوثيقة.
 ### **تمت إضافة أساليب GetLinksUpToDate & SetLinksUpToDate**
-قام Aspose.Cells لـ C++ 17.1.0 بعرض طرق GetLinksUpToDate & SetLinksUpToDate إلى فئة IBuiltInDocumentPropertyCollection. هذه الطرق مفيدة للحصول على أو تعيين خاصية LinkUpToDate التي تشير إلى ما إذا كانت الارتباطات التشعبية في مستند محدثة.
+كشف Aspose.Cells for C++ 17.1.0 طرق GetLinksUpToDate & SetLinksUpToDate لفئة IBuiltInDocumentPropertyCollection. هذه الطرق مفيدة للحصول على أو تعيين خاصية LinkUpToDate التي تشير إلى ما إذا كانت الارتباطات التشعبية في مستند محدثة.
 ### **تمت إضافة أساليب GetAbsolutePath & SetAbsolutePath**
-كشف Aspose.Cells لـ C++ 17.1.0 طرق GetAbsolutePath & SetAbsolutePath لفئة IWorkbook. هذه الطرق مفيدة للحصول على المسار المطلق للملف أو تعيينه والذي لا يمكن استخدامه إلا للارتباطات الخارجية.
+كشف Aspose.Cells for C++ 17.1.0 طرق GetAbsolutePath & SetAbsolutePath لفئة IWorkbook. هذه الطرق مفيدة للحصول على المسار المطلق للملف أو تعيينه والذي لا يمكن استخدامه إلا للارتباطات الخارجية.
 ### **تمت إضافة طرق GetFormula و SetFormula**
-كشف هذا الإصدار من Aspose.Cells لـ C++ أساليب GetFormula & SetFormula لفئة IListColumn. هذه الطرق مفيدة للحصول على صيغة عمود القائمة أو تعيينها.
+كشف هذا الإصدار من Aspose.Cells for C++ عن أساليب GetFormula & SetFormula لفئة IListColumn. هذه الطرق مفيدة للحصول على صيغة عمود القائمة أو تعيينها.
 ### **تمت إضافة GetCheckCompatibility وطرق SetCheckCompatibility**
-كشف هذا الإصدار من Aspose.Cells لـ C++ عن أساليب GetCheckCompatibility & GetCheckCompatibility لفئة IWorkbookSettings. هذه الطرق مفيدة للحصول على أو تعيين خاصية التحقق من التوافق التي تشير إلى ما إذا كان يجب أن يتحقق API من التوافق عند حفظ المصنف. القيمة الافتراضية هي true ، ويمكن تعيينها على false إذا لم تكن متطلبات التطبيق هي التحقق من التوافق.
+كشف هذا الإصدار من Aspose.Cells for C++ عن أساليب GetCheckCompatibility & GetCheckCompatibility لفئة IWorkbookSettings. هذه الطرق مفيدة للحصول على أو تعيين خاصية التحقق من التوافق التي تشير إلى ما إذا كان يجب أن يتحقق API من التوافق عند حفظ المصنف. القيمة الافتراضية هي true ، ويمكن تعيينها على false إذا لم تكن متطلبات التطبيق هي التحقق من التوافق.
 ### **تمت إضافة أساليب GetILightCellsDataHandler & SetILightCellsDataHandler**
-كشف Aspose.Cells لـ C++ الآن أساليب GetILightCellsDataHandler & SetILightCellsDataHandler لفئة ILoadOptions. تشير هذه الطرق إلى معالج البيانات لمعالجة بيانات الخلايا أثناء قراءة ملف القالب.
+كشف Aspose.Cells for C++ الآن أساليب GetILightCellsDataHandler & SetILightCellsDataHandler لفئة ILoadOptions. تشير هذه الطرق إلى معالج البيانات لمعالجة بيانات الخلايا أثناء قراءة ملف القالب.
 ### **تمت إضافة أساليب GetCultureInfo & SetCultureInfo**
-كشف Aspose.Cells لـ C++ أساليب GetCultureInfo & SetCultureInfo لفئة ILoadOptions. يمكن لهذه الطرق الحصول على معلومات ثقافة النظام أو تعيينها في وقت تحميل الملف.
+كشف Aspose.Cells for C++ طرق GetCultureInfo & SetCultureInfo لفئة ILoadOptions. يمكن لهذه الطرق الحصول على معلومات ثقافة النظام أو تعيينها في وقت تحميل الملف.
 ## **إزالة واجهات برمجة التطبيقات**
 ### **تمت إزالة طريقة ICells :: MaxDataRowInColumn**
 يُنصح باستخدام طريقة ICells :: GetLastDataRow بدلاً من ذلك.
@@ -138,7 +138,7 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 
 {{% alert color="primary" %}} 
 
-مع إصدار Aspose.Cells لـ C++ 17.1.0 ، قمنا بإزالة بعض الطرق التي لم تكن قيد الاستخدام وبالتالي اعتبرناها غير ضرورية. فيما يلي قائمة بجميع هذه الأساليب.
+مع إصدار Aspose.Cells for C++ 17.1.0 ، قمنا بإزالة بعض الطرق التي لم تكن قيد الاستخدام وبالتالي اعتبرناها غير ضرورية. فيما يلي قائمة بجميع هذه الأساليب.
 
 - IPaneCollection :: GetAcitvePaneType وأساليب SetAcitvePaneType
 - طريقة IRange :: ToString

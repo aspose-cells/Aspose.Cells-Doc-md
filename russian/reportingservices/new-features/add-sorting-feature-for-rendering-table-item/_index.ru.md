@@ -4,4 +4,4 @@ type: docs
 weight: 130
 url: /ru/reportingservices/add-sorting-feature-for-rendering-table-item/
 ---
-Aspose.Cells для служб Reporting Services сортирует данные элементов таблицы для экспортированного файла Excel посредством добавления конфигурации сортировки таблиц в файл конфигурации Aspose.Cells служб Reporting Services.
+Aspose.Cells for Reporting Services сортирует данные элемента таблицы для экспортированного файла Excel с помощью добавления конфигурации сортировки таблицы в Aspose.Cells файл конфигурации служб Reporting Services.

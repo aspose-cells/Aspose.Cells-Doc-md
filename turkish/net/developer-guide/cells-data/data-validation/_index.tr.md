@@ -72,7 +72,7 @@ Bu doğrulama türü, kullanıcının bir açılır listeden değerler girmesine
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
 
-##### **Tarih Veri Doğrulama**
+##### **Tarih Veri Doğrulaması**
 
 Bu tür bir doğrulama ile kullanıcılar, doğrulanmış hücrelere belirli bir aralıktaki veya belirli ölçütleri karşılayan tarih değerlerini girer. Örnekte, kullanıcı 1970 ile 1999 yılları arasında tarih girmekle sınırlandırılmıştır. Burada doğrulama alanı B1 hücresidir.
 

@@ -17,7 +17,7 @@ url: /sv/java/get-equation-text-of-chart-trendline/
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
-### Java-kod för att få ekvationstexten för diagramtrendlinjen
+### Java kod för att få ekvationstexten för diagramtrendlinjen
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetEquationText-GetEquationText.java" >}}
 

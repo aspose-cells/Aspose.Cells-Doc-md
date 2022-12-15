@@ -12,20 +12,20 @@ Ibland får vi följande fråga: varför ska vi använda Aspose-produkter istäl
 
 
 ## **xlsx4j**
-xlsx4j är ett Java-bibliotek med öppen källkod (ASLv2) för att skapa och manipulera Microsoft Open XML Excel xlsx-filer som liknar docx4j för att manipulera Microsoft Open XML Word docx-filer.
-Det liknar Microsofts OpenXML SDK, men för Java. docx4j använder JAXB för att skapa objektrepresentationen i minnet.
+xlsx4j är ett bibliotek med öppen källkod (ASLv2) Java för att skapa och manipulera Microsoft Open XML Excel xlsx-filer som liknar docx4j för att manipulera Microsoft Open XML Word docx-filer.
+Det liknar Microsoft:s OpenXML SDK, men for Java. docx4j använder JAXB för att skapa objektrepresentationen i minnet.
 Du måste ta dig tid att förstå JAXB och Open XML-filstrukturen.
 
  Läs mer på[docx4java.org](https://www.docx4java.org/trac/docx4j)
-## **Aspose.Cells för Java**
-Aspose.Cells för Java är en prisbelönt Excel-kalkylbladskomponent som låter Java-utvecklare bädda in möjligheten att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF- och bildfilformat till sina egna Java-applikationer utan att behöva lita på Microsoft Excel®.
+## **Aspose.Cells for Java**
+Aspose.Cells for Java är en prisbelönt Excel-kalkylbladskomponent som gör det möjligt för Java-utvecklare att bädda in förmågan att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML), HTML, ODS, PDF, ODS, PDF och bildfilformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
 
-Aspose.Cells för Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver de enkla dataexporteringsmöjligheterna hos andra leverantörer. Med Aspose.Cells för Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel ® eller Microsoft Office Automation.
+Aspose.Cells for Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver andra leverantörers enkla dataexporteringsmöjligheter. Med Aspose.Cells for Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel® eller Microsoft Office Automation.
 
  Läs mer på[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **Varför inte xlsx4j**
-xlsx4j kan bara tolka och spara Microsoft Open XML Excel xlsx-filer, Aspose.Cells för Java kan bearbeta alla Excel-filformat (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) och stöder olika filformatkonverteringar.
+xlsx4j kan bara analysera och spara Microsoft Open XML Excel xlsx-filer, Aspose.Cells for Java kan bearbeta alla Excel-filformat (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) och stöder olika filformat.
 
 ## **Aspose.Cells Java för xlsx4j**
 Projekt Aspose.Cells för xlsx4j visar hur olika uppgifter kan utföras med Aspose.Cells Java API:er i jämförelse med xlsx4j. Projektet täcker också de funktioner som bara är tillgängliga i Aspose.Cells API:er men inte i xlsx4j för att hantera kalkylblad.
@@ -35,7 +35,7 @@ Det här projektet är användbart för utvecklare som vill jämföra xlsx4j med
 ### **Systemkrav**
 Följande är systemkraven för att köra Aspose.Cells Java för xlsx4j:
 
-- Java 1.4 eller senare installerat.
+- Java 1.4 eller högre installerad.
 - Laddade ned Aspose.Cells komponent.
 - Nedladdade docx4j-bibliotek.
 ### **Plattformar som stöds**
@@ -50,8 +50,8 @@ Följande versioner av löpande exempel finns att ladda ner på alla nedan nämn
 ### **GitHub**
 - [Aspose.Cells Java för Xlsx4j - v 1.0](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 
- Att konfigurera**Aspose.Cells för Java API** , inkludera Aspose repository URL och Aspose.Cells för Java API maven beroende i ditt**pom.xml** enligt följande:
-### **Aspose Maven Repository**
+ Att konfigurera**Aspose.Cells for Java API** , inkludera Aspose lagringswebbadress och Aspose.Cells for Java API maven beroende i ditt**pom.xml** enligt följande:
+### **Aspose Maven Förvar**
 {{< highlight "java" >}}
 
  <repositories>
@@ -69,7 +69,7 @@ Följande versioner av löpande exempel finns att ladda ner på alla nedan nämn
 </repositories>
 
 {{< /highlight >}}
-### **Aspose.Cells för Java Maven Dependency**
+### **Aspose.Cells for Java Maven Beroende**
 {{< highlight "java" >}}
 
  <dependencies>

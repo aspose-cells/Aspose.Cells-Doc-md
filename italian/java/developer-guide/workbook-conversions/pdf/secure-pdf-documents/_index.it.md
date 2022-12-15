@@ -3,7 +3,7 @@ title: Proteggi i documenti PDF
 type: docs
 weight: 260
 url: /it/java/secure-pdf-documents/
-description: Proteggi i file PDF durante la conversione da file Excel. Questo articolo illustra la generazione di file PDF protetti da Excel con Aspose.Cells for Java API.
+description: Proteggi i file PDF durante la conversione da file Excel. Questo articolo illustra la generazione di file PDF protetti da Excel con l'API Aspose.Cells for Java.
 keywords: secure pdf documents java, secure pdf documents, excel to secure pdf, excel to secure pdf java, convert excel to secure pdf, convert excel to secure pdf java, convert excel to password protected pdf, convert excel to password protected pdf java, excel to password protected pdf java, excel to password protected pdf
 ---
 {{% alert color="primary" %}}
@@ -14,7 +14,7 @@ Questo articolo spiega come trasferire le opzioni di sicurezza PDF durante il sa
 
 {{% /alert %}} 
 
- Aspose.Cells Le API forniscono il[**PdfSecurityOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSecurityOptions)classe per lavorare con la sicurezza del formato di file PDF. Il codice di esempio seguente descrive come creare file PDF protetti con Aspose.Cells for Java API.
+ Aspose.Cells Le API forniscono il[**PdfSecurityOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSecurityOptions)classe per lavorare con la sicurezza del formato di file PDF. Il codice di esempio riportato di seguito descrive come creare file PDF protetti con l'API Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SecurePDFDocuments-SecurePDFDocuments.java" >}}
 

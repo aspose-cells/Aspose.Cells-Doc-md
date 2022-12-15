@@ -9,11 +9,11 @@ Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler verme
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
 
-Aşağıdaki platformlardan herhangi birini kullanarak PHP için Aspose.Cells Java ile ilgili sorunları veya önerileri günlüğe kaydedebilirsiniz:
+Aspose.Cells Java for PHP ile ilgili sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ## **Genişletin ve Katkıda Bulunun**
-PHP için Aspose.Cells Java açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
+Aspose.Cells Java for PHP açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
 ## **Kaynak kodu**
 En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
 

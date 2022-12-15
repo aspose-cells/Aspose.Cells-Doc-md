@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Reporting Services 19.5 Release Notes
+title: Aspose.Cells for Reporting Services 19.5 Release Notes
 type: docs
 weight: 20
 url: /sv/reportingservices/aspose-cells-for-reporting-services-19-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Reporting Services 19.5.
+Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 19.5.
 
 {{% /alert %}} 
 

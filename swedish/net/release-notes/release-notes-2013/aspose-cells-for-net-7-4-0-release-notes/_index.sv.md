@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 7.4.0 Release Notes
+title: Aspose.Cells for .NET 7.4.0 Release Notes
 type: docs
 weight: 100
 url: /sv/net/aspose-cells-for-net-7-4-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.4.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.4.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.4.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.4.0/)
 
 {{% /alert %}} 
 
@@ -84,7 +84,7 @@ url: /sv/net/aspose-cells-for-net-7-4-0-release-notes/
 
  41294 - GridWeb kommer inte att fungera på FireFox för filerna som innehåller celler med valideringslista
 
- 41308 - När du redigerar ett cellvärde, tryck på Enter-tangenten kommer att förlora den ursprungliga radbrytningen i IE
+41308 - När du redigerar ett cellvärde, tryck på Enter-tangenten kommer att förlora den ursprungliga radbrytningen i IE
 
 - Kopiera-klistra problem i webbrutnät som inte fungerar för Chrome, FireFox etc.
 

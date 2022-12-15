@@ -22,12 +22,12 @@ Aspose.Cells 提供了[**WorkbookSettings.setNumberDecimalSeparator()**](https:/
 
 以下屏幕截图显示了**高级 Excel 选项**并突出显示指定的部分**自定义分隔符**.
 
-![待办事项：图片_替代_文本](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![待办事项：图像_替代_文本](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
 ## **使用 Aspose.Cells 指定自定义分隔符**
 
 以下示例代码说明了如何使用 Aspose.Cells API 指定自定义分隔符。它将自定义数字小数和组分隔符分别指定为点和空格。所以数**123,456.789**将显示为**123 456.789**如显示代码生成的输出 PDF 的屏幕截图所示。
 
-![待办事项：图片_替代_文本](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
+![待办事项：图像_替代_文本](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyingCustomSeparators-SpecifyingCustomSeparators.java" >}}

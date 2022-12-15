@@ -33,7 +33,7 @@ Aspose.Cells поддерживает преобразование файлов 
 1.  Создать экземпляр объекта**[Рабочая тетрадь] (https://reference.aspose.com/cells/net/aspose.cells/workbook)**class, вызвав его пустой конструктор.
 1. Вы можете открыть/загрузить существующий файл шаблона или пропустить этот шаг, если создаете книгу с нуля.
 1. Выполняйте любую работу (ввод данных, применение форматирования, установка формул, вставка рисунков или других объектов рисования и т. д.) в электронной таблице с помощью API-интерфейсов Aspose.Cells'.
-1. Когда код электронной таблицы будет готов, вызовите**[Рабочая тетрадь] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** учебный класс'**[Сохранить] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**метод сохранения таблицы.
+1.  Когда код электронной таблицы будет готов, вызовите**[Рабочая тетрадь] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** учебный класс'**[Сохранить] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**метод сохранения таблицы.
 
  Формат файла должен быть PDF, поэтому выберите*PDF* (заранее определенное значение) из**[Сохранить формат] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**перечисление для создания окончательного PDF-документа.
 

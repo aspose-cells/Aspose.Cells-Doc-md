@@ -4,14 +4,14 @@ type: docs
 weight: 20
 url: /it/net/convert-between-excel-formats/
 ---
-## **Conversione di Excel in PDF**
+## **Conversione da Excel a PDF**
 
-**PDF** i file sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato di documento standard e agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire i file Excel Microsoft in**PDF** documenti.
+**PDF** i file sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato di documento standard e agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire i file di Microsoft Excel in**PDF** documenti.
 **Aspose.Cells** supporta la conversione di file Excel in PDF e mantiene un'elevata fedeltà visiva nella conversione.
 
 Aspose.Cells for .NET supporta la conversione da fogli di calcolo a PDF indipendentemente da altri software. Salva un file Excel in PDF utilizzando il metodo Save della classe Workbook. Il metodo Save fornisce il membro enum SaveFormat.Pdf che converte i file Excel nativi in formato PDF.
 
-**Conversione** direttamente dal foglio di calcolo al PDF, invece di utilizzare uno strumento di terze parti o esterno API, ha diversi**vantaggi**:
+**Conversione** direttamente dal foglio di calcolo al PDF, invece di utilizzare uno strumento di terze parti o un'API esterna, ne ha diversi**vantaggi**:
 
 1. La conversione diretta non richiede file temporanei perché l'intero processo può essere eseguito in memoria.
 1. Non è necessario alcun file XML, quindi i file di grandi dimensioni possono essere facilmente convertiti.
@@ -22,7 +22,7 @@ Aspose.Cells for .NET supporta la conversione da fogli di calcolo a PDF indipend
 1.  Istanziare un oggetto di**Cartella di lavoro** class chiamando il suo costruttore vuoto.
 1.  Potresti**apri/carica** un file modello esistente o saltare questo passaggio se si crea la cartella di lavoro da zero.
 1. Esegui il lavoro desiderato (inserisci dati, applica formattazione, imposta formule, inserisci immagini o altri oggetti di disegno e così via) sul foglio di calcolo utilizzando le API Aspose.Cells.
-1. Quando il codice del foglio di calcolo è completo, chiama il**Metodo di salvataggio della classe della cartella di lavoro** per salvare il foglio di calcolo. Il formato del file deve essere PDF, quindi selezionare Pdf (un valore predefinito) dall'enumerazione SaveFormat per generare il documento PDF finale.
+1.  Quando il codice del foglio di calcolo è completo, chiama il**Metodo di salvataggio della classe della cartella di lavoro** per salvare il foglio di calcolo. Il formato del file deve essere PDF, quindi selezionare Pdf (un valore predefinito) dall'enumerazione SaveFormat per generare il documento PDF finale.
 
 {{< highlight "csharp" >}}
 

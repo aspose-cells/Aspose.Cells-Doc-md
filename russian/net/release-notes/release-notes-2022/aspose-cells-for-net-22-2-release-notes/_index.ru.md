@@ -35,7 +35,7 @@ url: /ru/net/aspose-cells-for-net-22-2-release-notes/
 |CELLSNET-50294|Кнопки управления ActiveX преобразуются в формы, а файл повреждается для XLS в XLSM, а затем обратно в XLS.|
 |CELLSNET-50340|Строки столбца таблицы отсутствуют при преобразовании определенных файлов в HTML|
 |CELLSNET-50286|Cells.RemoveDuplicates выдает «System.IndexOutOfRangeException: индекс находился за пределами массива»|
-|CELLSNET-50270|Входная строка имела неверный формат. исключение при открытии файла XLS|
+|CELLSNET-50270|Входная строка имела неправильный формат. исключение при открытии файла XLS|
 |CELLSNET-50271|Формат этого файла не поддерживается, или вы указали неверный формат. исключение при открытии файла XLS|
 |CELLSNET-50293|ExportXml с картой XML выдает «NullReferenceException» для другого сложного файла.|
 |CELLSNET-50352|NullReferenceException при преобразовании файла XLSM в XLS|

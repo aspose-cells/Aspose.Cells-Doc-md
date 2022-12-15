@@ -6,7 +6,7 @@ url: /it/jasperreports/integration-with-jasperserver/
 ---
 {{% alert color="primary" %}} 
 
-Per integrare Aspose.Cells per JasperReports con JasperServer, eseguire i passaggi seguenti.
+Per integrare Aspose.Cells for JasperReports con JasperServer, eseguire i passaggi seguenti.
 
 {{% /alert %}} 
 
@@ -84,7 +84,7 @@ Per integrare Aspose.Cells per JasperReports con JasperServer, eseguire i passag
 1.  Copia tutte le immagini GIF dal file**\lib** cartella in**aspose.cells.jasperreports.zip** al*<DirInstall>\apache-tomcat\webapps\jasperserver\images* cartella.
 1.  Copia il**aspose.cells.jasperreports.jar** file dal**\lib** cartella in**aspose.cells.jasperreports.zip** al**<DirInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** cartella.
 1.  Aggiungere le seguenti righe al file**<DirInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
- (Questo bean può contenere varie impostazioni di configurazione destinate a configurare l'esportazione. Ad esempio, è possibile utilizzare la funzione di mappatura dei caratteri JasperReports o specificare la posizione del file di licenza Aspose.Cells per JasperReports.)
+ (Questo bean può contenere varie impostazioni di configurazione destinate a configurare l'esportazione. Ad esempio, è possibile utilizzare la funzione di mappatura dei caratteri JasperReports o specificare la posizione del file di licenza Aspose.Cells for JasperReports.)
 
 **XML**
 
@@ -107,7 +107,7 @@ Per integrare Aspose.Cells per JasperReports con JasperServer, eseguire i passag
 
 1.  Eseguire JasperServer e aprire qualsiasi report da visualizzare. Se i passaggi precedenti sono stati eseguiti correttamente, sono disponibili icone di formato aggiuntive.
 
-**Nuovi formati di esportazione disponibili (a destra) dopo l'installazione di Aspose.Cells per JasperReports su JasperServer** 
+**Nuovi formati di esportazione disponibili (a destra) dopo aver installato Aspose.Cells for JasperReports su JasperServer** 
 
 ![cose da fare:immagine_alt_testo](integration-with-jasperserver_1.png)
 

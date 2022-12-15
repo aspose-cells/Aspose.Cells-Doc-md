@@ -20,7 +20,7 @@ Aspose.Cells API:er tillhandahåller ett gäng iteratorer, men den här artikeln
 1. Kolumner Iterator
 
 {{% /alert %}} 
-## **Hur man använder Iterators**
+## **Hur man använder Iteratorer**
 ### **Cells Iterator**
 Det finns olika sätt att komma åt cellernas iterator, och man kan använda vilken som helst av dessa metoder baserat på applikationskraven. Här är metoderna som returnerar cellernas iterator.
 

@@ -15,7 +15,7 @@ volte, è necessario estrarre oggetti OLE da una cartella di lavoro. Aspose.Cell
 ### **Creazione di una cartella di lavoro modello**
 
 1. Creato un foglio di calcolo in Microsoft Excel.
-1. Aggiungi un documento Word Microsoft, una cartella di lavoro Excel e un documento PDF come oggetti OLE nel primo foglio di lavoro.
+1. Aggiungi un documento Microsoft Word, una cartella di lavoro Excel e un documento PDF come oggetti OLE nel primo foglio di lavoro.
 
 ### **Estrai oggetti OLE**
 

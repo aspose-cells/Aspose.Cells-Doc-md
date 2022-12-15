@@ -36,7 +36,7 @@ El siguiente ejemplo muestra cómo cifrar y proteger con contraseña un archivo 
 ## **Verificar la contraseña del archivo encriptado**
 
  Para verificar la contraseña del archivo cifrado, Aspose.Cells for .NET proporciona la[**Verificar contraseña**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) método. Estos métodos aceptan dos parámetros, el flujo de archivos y la contraseña que debe verificarse.
-El siguiente fragmento de código demuestra el uso de la[**Verificar contraseña**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) método para verificar si la contraseña proporcionada es válida o no.
+ El siguiente fragmento de código demuestra el uso de la[**Verificar contraseña**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) método para verificar si la contraseña proporcionada es válida o no.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 

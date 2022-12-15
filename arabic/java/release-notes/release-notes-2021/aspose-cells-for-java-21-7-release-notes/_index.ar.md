@@ -21,7 +21,7 @@ url: /ar/java/aspose-cells-for-java-21-7-release-notes/
 |CELLSJAVA-41887|لا تظهر بيانات النسبة المئوية من Pivot Table بشكل صحيح في HTML|
 |CELLSJAVA-43482|لم يتم تنسيق النصوص المرتفعة والمنخفضة بشكل صحيح عند تحويل مستند HTML إلى مصنف|
 |CELLSJAVA-43501|تمت قراءة قيمة غير صحيحة باستخدام دالة getStringValue ()|
-|CELLSJAVA-43515|مشكلة صيغة MDURATION|
+|CELLSJAVA-43515|قضية صيغة MDURATION|
 |CELLSJAVA-43528|لا يمكن استخراج تاريخ ووقت الإنشاء وتاريخ التحديث|
 |CELLSJAVA-43529|تعذر استخراج خصائص BuiltInDocumentProperties|
 |CELLSJAVA-43530|نتائج خصائص التاريخ والوقت مختلفة|

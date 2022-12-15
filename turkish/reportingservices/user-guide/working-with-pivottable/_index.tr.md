@@ -6,15 +6,15 @@ url: /tr/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- A*Pivot tablo* verileri özetleyen ve anlamlı bir şekilde sunan etkileşimli bir tablodur. SQL Server Reporting Services, bir pivot tabloyu korurken bir raporu Microsft Excel biçiminde dışa aktaramaz. Rapor kullanıcılarının, Raporlama Servislerinden Microsoft Excel'e bir pivot tablo raporu verdikleri her seferde, pivot tabloları manuel olarak oluşturmaları gerekir. Raporlama Hizmetleri için Aspose.Cells ile rapor tasarım zamanında bir pivot tablo tasarlayabilirsiniz. Rapor her çalıştırıldığında, Reporting Services için Aspose.Cells, raporu Microsoft Excel'e aktarır ve verileri pivot tabloya yeniler.
+ A*Pivot tablo* verileri özetleyen ve anlamlı bir şekilde sunan etkileşimli bir tablodur. SQL Server Reporting Services, bir pivot tabloyu korurken bir raporu Microsft Excel biçiminde dışa aktaramaz. Rapor kullanıcılarının, Raporlama Servislerinden Microsoft Excel'e bir pivot tablo raporu verdikleri her seferde, pivot tabloları manuel olarak oluşturmaları gerekir. Aspose.Cells for Reporting Services ile rapor tasarım zamanında bir kez pivot tablo tasarlayabilirsiniz. Rapor her çalıştırıldığında, Aspose.Cells for Reporting Services, raporu Microsoft Excel'e aktarır ve verileri pivot tabloya yeniler.
 
 {{% /alert %}} 
 
 Pivot tablo raporu oluşturmak için:
 
 1. Pivot tablo için veri kaynağı olarak bir veri kümesi oluşturun.
-Aşağıda, SQL Server Reporting Services 2005 ile birlikte gelen AdventureWorks örnek veritabanını kullanıyoruz ve "satış" adında bir veri kümesi oluşturuyoruz.
- Veri kümesi için SQL aşağıdaki gibidir:
+ Aşağıda, SQL Server Reporting Services 2005 ile birlikte gelen AdventureWorks örnek veritabanını kullanıyoruz ve "satış" adında bir veri kümesi oluşturuyoruz.
+Veri kümesi için SQL aşağıdaki gibidir:
 
 **SQL**
 
@@ -106,7 +106,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-Tasarlanan pivot tablo aşağıda gösterilmiştir.
+ Tasarlanan pivot tablo aşağıda gösterilmiştir.
 
 ![yapılacaklar:resim_alternatif_Metin](working-with-pivottable_7.png)
 

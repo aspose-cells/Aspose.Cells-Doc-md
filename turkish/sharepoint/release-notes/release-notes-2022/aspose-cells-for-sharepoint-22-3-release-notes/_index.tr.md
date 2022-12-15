@@ -1,12 +1,12 @@
 ﻿---
-title: SharePoint 22.3 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for SharePoint 22.3 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/sharepoint/aspose-cells-for-sharepoint-22-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[SharePoint 22.3 için Aspose.Cells](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-22.3/).
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for SharePoint 22.3](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-22.3/).
 
 {{% /alert %}} 
 

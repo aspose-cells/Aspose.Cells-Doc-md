@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Cells för Java 19.2 Release Notes
+title: Aspose.Cells for Java 19.2 Release Notes
 type: docs
 weight: 110
 url: /sv/java/aspose-cells-for-java-19-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.2.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.2.
 
 {{% /alert %}} 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42827|Infoga rad med InsertOptions liknande MS Excel|Ny funktion|
-|CELLSJAVA-42712|Förbättra JavaDocs för Aspose.Cells för Java|Förbättring|
+|CELLSJAVA-42712|Förbättra JavaDocs för Aspose.Cells for Java|Förbättring|
 |CELLSJAVA-42823|Användning av FontUnderlineType.WORDS skapar undantag|Förbättring|
 |CELLSJAVA-42826|Data med villkorlig formatering utelämnades vid konvertering av XLSX till HTML|Insekt|
 |CELLSJAVA-42815|Att lägga till komplexa referenser till definierade namn resulterar i korrupt MS Excel-arbetsbok|Insekt|
@@ -28,9 +28,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.2.
 |CELLSJAVA-42821|När den första raden i ett intervall tas bort uppdateras intervallet felaktigt|Insekt|
 |CELLSJAVA-42828|När du använder Cell.setHtmlString läggs en ny rad till i slutet av texten|Insekt|
 |CELLSJAVA-42820|Undantag "Invalid IMEModeType string val" när ett XLSX-filformat laddas|Undantag|
-Public API och bakåtinkompatibla ändringar
+Offentlig API och bakåtinkompatibla ändringar
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till Cells.CountLarge fastighet**
 Funktionellt sett är den samma som Count-egenskapen, förutom att Count-egenskapen kan generera ett spillfel när det finns för många instansierade Cell-objekt.
 #### **Lägger till metoden Hyperlink.Delete().**

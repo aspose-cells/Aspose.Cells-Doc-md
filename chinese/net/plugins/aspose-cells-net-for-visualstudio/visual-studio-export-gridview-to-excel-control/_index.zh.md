@@ -19,7 +19,7 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 - 将每个导出的文档保存在服务器上的可配置磁盘路径的选项
 - 启用分页时导出当前页面或所有页面的选项
 
-![待办事项：图片_替代_文本](visual-studio-export-gridview-to-excel-control_1.png)
+![待办事项：图像_替代_文本](visual-studio-export-gridview-to-excel-control_1.png)
 
 此控件允许您以以下不同的文件格式导出 GridView。
 
@@ -72,14 +72,14 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 
 当您在左侧工具箱中打开 aspx 或 ascx 控件时，您将在常规选项卡下看到 ExportGridViewToWord
 
-![待办事项：图片_替代_文本](visual-studio-export-gridview-to-excel-control_2.png)
+![待办事项：图像_替代_文本](visual-studio-export-gridview-to-excel-control_2.png)
 ## **使用**
 安装后，很容易在您的 ASP.NET 应用程序中开始使用此控件
 
 |**对于.NET framework 4.0及以上** |**对于 .NET 框架 2.0 及以上** |** |
 |:- |:- |:- |
 |对于在 Visual Studio 2010 及以上版本中运行在 .NET framework 4.0 及以上版本的应用程序，你应该看到**ExportGridViewToExcel**控制在**Aspose**工具栏中的选项卡，如下所示。您可以简单地将此控件拖放到您的 ASP.NET 页面、控件或母版页上，就像任何其他 .NET 控件一样，然后开始使用。|为了在任何 visual studio 版本的 .NET 2.0 中运行的应用程序中使用此控件，请确保已按照 上的说明将 ExportGridViewToExcel 添加到工具箱[8.1.2.1 下载安装]()在标题下**对于 Visual Studio 2005、2008 和 Express 版本** <br>你应该看到**ExportGridViewToExcel**控制在**一般的**工具栏中的选项卡，如下所示。您可以简单地将此控件拖放到您的 ASP.NET 页面、控件或母版页上，就像任何其他 .NET 控件一样，然后开始使用。||
-|<p>![待办事项：图片_替代_文本](picture2.png)</p><p></p>|<p>![待办事项：图片_替代_文本](picture3.png)</p><p></p>||
+|<p>![待办事项：图像_替代_文本](picture2.png)</p><p></p>|<p>![待办事项：图像_替代_文本](picture3.png)</p><p></p>||
 ### **手动添加ExportGridViewToExcel控件**
 如果您在使用上述使用 Visual Studio 工具箱的方法时遇到任何问题，您可以手动将此控件添加到运行在任何大于 2.0 的 .NET 框架上的 ASP.NET 应用程序
 
@@ -114,7 +114,7 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 |:- |:- |:- |:- |
 |导出按钮文本|细绳|导出到 Excel|您可以使用此属性覆盖现有的默认文本|
 |ExportButtonCss类|细绳|btn btn-主要|应用于导出按钮的外部 div 的 Css 类。要在按钮上应用 css，您可以使用 .yourClass 输入|
-|导出文件标题|细绳|<h4>GridView 导出示例报告</h4> |您可以使用 html 标签为您的标题添加样式|
+|导出文件标题|细绳|<h4>GridView 导出示例报表</h4> |您可以使用 html 标签为您的标题添加样式|
 |导出输出格式|枚举|Xlsx、Xlsb、Xls、Txt、Csv、Ods|导出文档的输出格式。支持的格式有 Xlsx、Xlsb、Xls、Txt、Csv、Ods|
 | ExportOutputPathOnServer|细绳| C：<br>温度|本地输出 自动保存导出副本的服务器上的磁盘路径。应用程序必须具有对此路径的写入权限。|
 |导出数据源|目的|allRowsDataTable|设置此数据绑定控件从中检索其数据项列表的对象。该对象必须具有需要导出的所有数据。除了正常的 DataSource 属性之外，还使用此属性，并且在启用自定义分页并且当前页面仅获取要在屏幕上显示的行时很有用。|

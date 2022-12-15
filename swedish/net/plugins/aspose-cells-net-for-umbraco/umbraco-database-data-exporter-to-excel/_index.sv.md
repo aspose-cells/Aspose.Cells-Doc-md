@@ -5,7 +5,7 @@ weight: 20
 url: /sv/net/umbraco-database-data-exporter-to-excel/
 ---
 ## **Introduktion**
-Aspose .NET Database Data Exporter to Excel for Umbraco Module tillåter användare att exportera data direkt från lokala eller fjärranslutna databastabeller, vyer och genom anpassad fråga till Microsoft Excel eller OpenOffice Spreadsheet. Denna modul demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av Aspose.Cells. Denna första version av modulen är berikad med följande coola funktioner för att göra exportprocessen enkel och lätt att använda
+Aspose .NET Databasdataexporterare till Excel för Umbraco-modulen låter användare exportera data direkt från lokala eller fjärrbaserade databastabeller, vyer och genom anpassad fråga till Microsoft Excel eller OpenOffice Spreadsheet. Den här modulen demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av Aspose.Cells. Denna första version av modulen är berikad med följande coola funktioner för att göra exportprocessen enkel och lätt att använda
 ### **Modulfunktioner**
 Denna första version av tillägget har följande funktioner:
 
@@ -30,7 +30,7 @@ Denna första version av tillägget har följande funktioner:
 ![todo:image_alt_text](umbraco-database-data-exporter-to-excel_1)
 ## **Systemkrav och plattformar som stöds**
 ### **Systemkrav**
-För att ställa in Aspose .NET Database Data Exporter till Excel för Umbraco-modulen måste du ha följande krav uppfyllda:
+För att ställa in Aspose .NET Databas Data Exporter till Excel för Umbraco-modulen måste du ha följande krav uppfyllda:
 
 - Umbraco 6.2.5 & Umbraco 6 versioner
 - Umbraco med MS SQL Server
@@ -52,26 +52,26 @@ När du har laddat ner, följ dessa steg för att installera det här paketet p�
 1.  Logga in på Umbraco**Utvecklaren** sektion, till exempel `http://www.myblog.com/umbraco`
 1.  Från trädet, expandera**Paket** mapp.
 1.  Härifrån finns det två sätt att installera ett paket: välj**Installera det lokala paketet** eller bläddra i**Umbraco Package Repository.**
-1.  Om du installerar**lokalt paket**, packa inte upp paketet utan ladda blixtlåset i Umbraco.
+1. Om du installerar**lokalt paket**, packa inte upp paketet utan ladda blixtlåset i Umbraco.
 1. Följ instruktionerna på skärmen.
 
 **Notera:** Du kan få felet 'Maximal begäranslängd överskriden' när du installerar. Du kan enkelt åtgärda det här problemet genom att uppdatera värdet 'maxRequestLength' i din Umbraco web.config-fil.
 <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" />
 ## **Använder sig av**
-Efter att du har installerat Aspose .NET Database Data Exporter till Excel för Umbraco-modulen är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång
+Efter att du har installerat Aspose .NET Databas Data Exporter till Excel för Umbraco-modulen är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång
 
 1.  Se till att du är inloggad på Umbraco**Utvecklaren** sektion, till exempel `http://www.myblog.com/umbraco/`
 1.  Klick**inställningar** i listan med avsnitt längst ner till vänster på skärmen.
 1.  Expandera**Mallar** nod och välj mallen som du vill lägga till, till exempel Textpage.
 1. Välj positionen i den valda mallen där du vill exportera knappen som ska läggas till. Vanligtvis kanske du vill lägga till den längst upp till höger på sidan, eller längst ner på sidan.
 1.  Klick**Infoga makro** på det översta bandet.
-1.  Från**Välj ett makro** (Aspose .NET Database Data Exporter to Excel for Umbraco), välj det nyligen installerade Aspose .NET Database Data Exporter to Excel for Umbraco makrot och klicka på**OK**.
+1.  Från**Välj ett makro** (Aspose .NET Database Data Exporter to Excel for Umbraco), välj det nyligen installerade Aspose .NET Databas Data Exporter to Excel for Umbraco makro och klicka på**OK**.
 
  Kontrollera skärmdumpen nedan för detaljer.
 
 ![todo:image_alt_text](umbraco-database-data-exporter-to-excel_2)
 
-Du har framgångsrikt lagt till modulen Aspose .NET Database Data Exporter till Excel på din sida.
+Du har framgångsrikt lagt till Aspose .NET Databas Data Exporter till Excel-modulen på din sida.
 
 ![todo:image_alt_text](umbraco-database-data-exporter-to-excel_1)
 
@@ -89,7 +89,7 @@ Från de allra första dagarna av Aspose visste vi att det inte skulle räcka at
 
 Det är därför vi erbjuder gratis support. Alla som använder vår produkt, oavsett om de har köpt dem eller använder en utvärdering, förtjänar vår fulla uppmärksamhet och respekt.
 
-Du kan logga alla problem eller förslag relaterade till Aspose.Words .NET för Umbraco-moduler med någon av följande plattformar
+Du kan logga eventuella problem eller förslag relaterade till Aspose.Words .NET för Umbraco-moduler med någon av följande plattformar
 
 - [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ### **Utöka och bidra**

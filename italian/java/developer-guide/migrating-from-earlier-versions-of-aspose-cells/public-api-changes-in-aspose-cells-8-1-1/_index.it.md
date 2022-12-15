@@ -1,17 +1,17 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.1.1
+title: Modifiche all'API pubblica in Aspose.Cells 8.1.1
 type: docs
 weight: 60
 url: /it/java/public-api-changes-in-aspose-cells-8-1-1/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche al Aspose.Cells API dalla versione 8.1.0 alla 8.1.1, che potrebbero interessare gli sviluppatori di moduli e applicazioni. Include non solo[metodi pubblici nuovi e aggiornati](/cells/it/java/public-api-changes-in-aspose-cells-8-1-1/) , ma anche una descrizione di qualsiasi[cambiamenti nel comportamento](/cells/it/java/public-api-changes-in-aspose-cells-8-1-1/) dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.1.0 alla 8.1.1, che potrebbero interessare gli sviluppatori di moduli e applicazioni. Include non solo[metodi pubblici nuovi e aggiornati](/cells/it/java/public-api-changes-in-aspose-cells-8-1-1/) , ma anche una descrizione di qualsiasi[cambiamenti nel comportamento](/cells/it/java/public-api-changes-in-aspose-cells-8-1-1/) dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Proprietà e caratteristiche aggiunte**
 ### **Aggiunta la proprietà HtmlSaveOptions.PresentationPreference**
-La classe HtmlSaveOptions ha esposto la proprietà getter/setter per PresentationPreference che può essere utilizzata per eseguire il rendering dei risultati con un layout migliore durante l'esportazione di fogli di calcolo in HTML o MHTML. Il valore predefinito è falso. mentre se impostato su true, Aspose.Cells API esporta il contenuto del foglio di lavoro con una migliore presentazione.
+La classe HtmlSaveOptions ha esposto la proprietà getter/setter per PresentationPreference che può essere utilizzata per eseguire il rendering dei risultati con un layout migliore durante l'esportazione di fogli di calcolo in HTML o MHTML. Il valore predefinito è falso. mentre se impostato su true, l'API Aspose.Cells esporta i contenuti del foglio di lavoro con una migliore presentazione.
 
 {{% alert color="primary" %}} 
 
@@ -32,4 +32,4 @@ Uno scenario è un modello what-if che include celle di input variabili collegat
 
 {{% /alert %}}
 ## **Modifica del comportamento per CellsException**
-Con le versioni precedenti di Aspose.Cells for Java API, quando un foglio di calcolo eventualmente danneggiato veniva caricato in un'istanza di Workbook, API tendeva a lanciare un messaggio generico senza menzionare dove potesse essere il problema. Abbiamo modificato questo comportamento per 8.1.1 in modo che API generi un'eccezione con un messaggio significativo che indica dove (quale cella) e cosa (espressione della formula) provoca l'eccezione durante la lettura del file modello.
+Con le versioni precedenti dell'API Aspose.Cells for Java, quando un foglio di calcolo eventualmente danneggiato veniva caricato in un'istanza di Workbook, l'API tendeva a lanciare un messaggio generico senza menzionare dove potesse essere il problema. Abbiamo modificato questo comportamento per 8.1.1 in modo che l'API generi un'eccezione con un messaggio significativo che indichi dove (quale cella) e cosa (espressione della formula) provoca l'eccezione durante la lettura del file modello.

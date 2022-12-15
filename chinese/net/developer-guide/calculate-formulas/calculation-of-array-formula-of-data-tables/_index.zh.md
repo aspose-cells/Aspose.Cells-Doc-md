@@ -12,9 +12,9 @@ url: /zh/net/calculation-of-array-formula-of-data-tables/
 
 在下面的示例代码中，我们使用了[源文件](5115535.xlsx).如果将单元格 B1 的值更改为 100，则用黄色填充的数据表的值将变为 120，如下图所示。示例代码生成[输出PDF](5115538.pdf).
 
-![待办事项：图片_替代_文本](calculation-of-array-formula-of-data-tables_1.png)
+![待办事项：图像_替代_文本](calculation-of-array-formula-of-data-tables_1.png)
 
-![待办事项：图片_替代_文本](calculation-of-array-formula-of-data-tables_2.png)
+![待办事项：图像_替代_文本](calculation-of-array-formula-of-data-tables_2.png)
 
 这是用于生成的示例代码[输出PDF](5115538.pdf)来自[源文件](5115535.xlsx).请阅读评论以获取更多信息。
 

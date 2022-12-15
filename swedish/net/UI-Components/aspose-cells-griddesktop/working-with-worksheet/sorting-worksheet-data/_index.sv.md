@@ -10,7 +10,7 @@ Sortering är en viktig rutinuppgift som vi mest använder vid bearbetning av da
 
 {{% /alert %}} 
 ## **Sortera arbetsbladsdata**
-För att sortera data i ett kalkylblad med API:et Aspose.Cells.GridDesktop, följ stegen nedan:
+För att sortera data i ett kalkylblad med API av Aspose.Cells.GridDesktop, följ stegen nedan:
 
 -  Först och främst skapa ett globalt objekt av**CellRange** så att den kan nås var som helst inom din klass
 -  Skapa en händelsehanterare för**SelectedCellRangeChanged** händelse av**GridDesktop**. **SelectedCellRangeChanged** händelsen utlöses varje gång när ett cellintervall som valts av en användare ändras. Till exempel, om en användare väljer celler (som innehåller data som ska sorteras) kommer denna händelse att triggas varje gång hans urvalsintervall ändras.

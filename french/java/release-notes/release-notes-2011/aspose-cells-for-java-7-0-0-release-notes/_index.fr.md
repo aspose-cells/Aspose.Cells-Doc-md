@@ -41,7 +41,7 @@ Problèmes connus/Limites
 
 
 
- Il existe un certain nombre de limitations connues dans cette version. Il y a quelques fonctionnalités qui pourraient ne pas être prises en charge dans la v7.0.0 qui étaient en fait prises en charge dans les anciennes versions :
+ Il existe un certain nombre de limitations connues dans cette version. Il y a quelques fonctionnalités qui pourraient ne pas être prises en charge dans la v7.0.0 qui étaient en fait prises en charge dans les anciennes versions :
 
 - Utilisation des API LightCells
  Lecture de fichiers HTML

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Reporting Services 1.7.0 Versionshinweise
+title: Aspose.Cells for Reporting Services 1.7.0 Versionshinweise
 type: docs
 weight: 10
 url: /de/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Diese Seite enthält Versionshinweise für[Aspose.Cells für Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
+ Diese Seite enthält Versionshinweise für[Aspose.Cells for Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
  Was gibt's Neues?
 
-- Aspose.Cells für Reporting Services Designer unterstützt das Erstellen von Matrixvorlagen in Excel.
+- Aspose.Cells for Reporting Services Designer unterstützt die Erstellung von Matrixvorlagen in Excel.
 - Unterstützt die bedingte Formatierung für Tabellen- und Matrixberichtselemente.
 - Fügt das Rendern von Tablix-Berichtselementen nur für CSV- und TXT-Formate in SQL Server 2008 Reporting Services hinzu.
 
@@ -26,11 +26,11 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-- Aspose.Cells für Reporting Services-Berichtsdesigner und Berichtsformatfehler behoben.
+- Aspose.Cells for Reporting Services Berichtsdesigner und Fehler im Berichtsformat behoben.
 - Fehler beim Ausblenden von Zeilen behoben.
 - Algorithmus zum Zusammenführen von Zeilen behoben.
 
- Behobene Probleme in Aspose.Cells für Reporting Services 1.7.0.
+ In Aspose.Cells for Reporting Services 1.7.0 behobene Probleme.
 
 
 

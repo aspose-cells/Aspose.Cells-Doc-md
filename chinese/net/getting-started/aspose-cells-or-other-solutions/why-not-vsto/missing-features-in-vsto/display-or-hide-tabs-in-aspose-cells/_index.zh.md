@@ -15,7 +15,7 @@ url: /zh/net/display-or-hide-tabs-in-aspose-cells/
 
 **工作表标签和标签滚动按钮** 
 
-![待办事项：图片_替代_文本](display-or-hide-tabs-in-aspose-cells_1.png)
+![待办事项：图像_替代_文本](display-or-hide-tabs-in-aspose-cells_1.png)
 
 使用 Aspose.Cells，开发人员可以控制 Excel 文件中工作表选项卡和选项卡滚动按钮的可见性。
 
@@ -27,11 +27,11 @@ url: /zh/net/display-or-hide-tabs-in-aspose-cells/
 
 **book1.xls：修改前的Excel文件** 
 
-![待办事项：图片_替代_文本](display-or-hide-tabs-in-aspose-cells_2.png)
+![待办事项：图像_替代_文本](display-or-hide-tabs-in-aspose-cells_2.png)
 
 **output.xls：修改后的Excel文件** 
 
-![待办事项：图片_替代_文本](display-or-hide-tabs-in-aspose-cells_3.png)
+![待办事项：图像_替代_文本](display-or-hide-tabs-in-aspose-cells_3.png)
 
 **C#**
 

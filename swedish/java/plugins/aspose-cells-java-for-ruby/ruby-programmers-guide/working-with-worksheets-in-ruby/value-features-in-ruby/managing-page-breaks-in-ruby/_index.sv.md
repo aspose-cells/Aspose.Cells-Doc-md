@@ -6,7 +6,7 @@ url: /sv/java/managing-page-breaks-in-ruby/
 ---
 ## **Aspose.Cells - Hantera sidbrytningar**
 ### **Lägga till sidbrytningar**
- För att lägga till sidbrytningar med**Aspose.Cells Java för Ruby** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+ För att lägga till sidbrytningar med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
 
 **Ruby kod**
 

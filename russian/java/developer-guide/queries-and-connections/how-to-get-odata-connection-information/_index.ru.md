@@ -6,7 +6,7 @@ url: /ru/java/how-to-get-odata-connection-information/
 ---
 ## **Получить информацию о соединении OData**
 
-Могут быть случаи, когда разработчикам необходимо извлечь информацию OData из файла Excel. Aspose.Cells обеспечивает[**Workbook. DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)свойство, которое возвращает информацию DataMashup, представленную в файле Excel. Эта информация представлена классом DataMashup. Класс DataMashup предоставляет свойство PowerQueryFormulas, которое возвращает коллекцию PowerQueryFormulaCollction. Из PowerQueryFormulaCollction вы можете получить доступ к PowerQueryFormula и PowerQueryFormulaItem.
+Могут быть случаи, когда разработчикам необходимо извлечь информацию OData из файла Excel. Aspose.Cells обеспечивает[**Workbook. DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)свойство, которое возвращает информацию DataMashup, присутствующую в файле Excel. Эта информация представлена классом DataMashup. Класс DataMashup предоставляет свойство PowerQueryFormulas, которое возвращает коллекцию PowerQueryFormulaCollction. Из PowerQueryFormulaCollction вы можете получить доступ к PowerQueryFormula и PowerQueryFormulaItem.
 
 В следующем фрагменте кода показано использование этих классов для получения информации OData.
 

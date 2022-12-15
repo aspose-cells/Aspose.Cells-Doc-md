@@ -22,7 +22,7 @@ Base di codice principale spostata in Java 6 (sono supportati anche Java 7 e 8).
 
 ### **Nuove caratteristiche**
 
-(CELLSJAVA-41235) - Supporto RenderToSize API per l'immagine del foglio di lavoro
+(CELLSJAVA-41235) - Supporta l'API RenderToSize per l'immagine del foglio di lavoro
 
 (CELLSJAVA-41234) - Supporta i punti elenco durante l'utilizzo di SmartMarkers o il metodo Cell.setHtmlString
 
@@ -86,9 +86,9 @@ Base di codice principale spostata in Java 6 (sono supportati anche Java 7 e 8).
 
 (CELLSJAVA-41256) - Alcune regole di formattazione condizionale non possono essere utilizzate o parzialmente utilizzate nel file modello quando vengono importate in GridWeb
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 Aggiunge la proprietà Workbook.IsLicensed.
 

@@ -1,17 +1,17 @@
 ﻿---
-title: Aspose.Cells för Java 7.1.1 Release Notes
+title: Aspose.Cells for Java 7.1.1 Release Notes
 type: docs
 weight: 90
 url: /sv/java/aspose-cells-for-java-7-1-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.1.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.1.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.1.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.1.1/)
 
 {{% /alert %}} 
 
 Vi är
- glad att kunna meddela Aspose.Cells för Java v7.1.1!
+ glad att meddela Aspose.Cells for Java v7.1.1!
 
  Nya egenskaper
 
@@ -19,7 +19,7 @@ Vi är
 
  Förbättringar
 
-- Spara till XLSX med LightCells API genom direktrendering till OutputStream
+- Spara till XLSX med LightCells API genom att direktrendera till OutputStream
 
  Undantag
 

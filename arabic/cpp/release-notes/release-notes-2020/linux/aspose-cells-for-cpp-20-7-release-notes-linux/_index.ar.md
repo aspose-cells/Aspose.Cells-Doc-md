@@ -6,11 +6,11 @@ url: /ar/cpp/aspose-cells-for-cpp-20-7-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ C++ 20.7 لنظام Linux.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for C++ 20.7 لنظام التشغيل Linux.
 
 {{% /alert %}} 
 
-يسرنا أن نعلن عن إصدار Aspose.Cells لـ C++ 20.7 لنظام التشغيل Linux.
+يسرنا أن نعلن عن إصدار Aspose.Cells for C++ 20.7 لنظام التشغيل Linux.
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |

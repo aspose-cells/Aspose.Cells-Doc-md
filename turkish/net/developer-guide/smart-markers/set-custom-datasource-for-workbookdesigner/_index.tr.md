@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /tr/net/set-custom-datasource-for-workbookdesigner/
 ---
-Aspose.Cells, WorkbookDesigner için özel DataSource ayarlama seçeneği sunar. API, aşırı yüklenmiş bir yöntem sağlar[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)ilk parametre olarak kaynağın adını ve uygulayan sınıfın örneğini alır.[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)ikinci parametre olarak
+Aspose.Cells, WorkbookDesigner için özel DataSource ayarlama seçeneği sağlar. API, aşırı yüklenmiş bir yöntem sağlar[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)ilk parametre olarak kaynağın adını ve uygulayan sınıfın örneğini alır.[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)ikinci parametre olarak
 
 Aşağıdaki kod parçacığı, kullanımını gösterir[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)özel DataSource'u ayarlama yöntemi.
 ## **Basit kod**

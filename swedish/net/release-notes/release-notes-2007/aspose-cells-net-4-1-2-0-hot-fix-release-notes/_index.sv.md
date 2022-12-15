@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-4-1-2-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v4.1.2!
+ Vi har släppt Aspose.Cells for .NET v4.1.2!
 
 - F0008: Förbättrad formelberäkningsmotor
 - F0014: Lade till egenskapen CheckBox.Value

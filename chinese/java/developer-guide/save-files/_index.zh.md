@@ -37,7 +37,7 @@ Aspose.Cells API 提供了一个名为[**工作簿**](https://reference.aspose.c
 |[**电子表格_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|表示一个 SpreadSheetML 文件|
 |[**超低频**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|表示 Excel 2007 二进制 XLSB 文件|
 |[**未知**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|表示无法识别的格式，无法保存。|
-|[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|代表一个PDF文档|
+|[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|代表一个PDF文件|
 |[**聚苯乙烯**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XPS)|表示 XML 纸张规范 (XPS) 文件|
 |[**国际电影节**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TIFF)|表示标记图像文件格式 (TIFF) 文件|
 |[**SVG**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SVG)|表示基于 XML 的可缩放矢量图形 (SVG) 文件|
@@ -109,7 +109,7 @@ Aspose.Cells API 提供了一个名为[**工作簿**](https://reference.aspose.c
 
 随着[**Pdf保存选项**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)类，您可以将源工作簿中的自定义属性导出到 PDF。[**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfCustomPropertiesExport)枚举器用于指定导出属性的方式。可以在 Adobe Acrobat Reader 中通过单击“文件”然后单击“属性”选项来观察这些属性，如下图所示。可以下载模板文件“sourceWithCustProps.xlsx”[这里](sourceWithCustProps.xlsx)用于测试和输出 PDF 文件“outSourceWithCustProps”可用[这里](outSourceWithCustProps.pdf)进行分析。
 
-![待办事项：图片_替代_文本](saving-excel-files-to-csv-pdf-and-other-formats_1.png)
+![待办事项：图像_替代_文本](saving-excel-files-to-csv-pdf-and-other-formats_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportCustomPropertiesToPdf.java" >}}
 

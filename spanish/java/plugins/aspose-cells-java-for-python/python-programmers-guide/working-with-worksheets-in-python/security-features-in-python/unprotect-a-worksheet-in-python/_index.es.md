@@ -5,7 +5,7 @@ weight: 20
 url: /es/java/unprotect-a-worksheet-in-python/
 ---
 ## **Aspose.Cells - Desproteger una hoja de trabajo**
- Para proteger la hoja de trabajo usando**Aspose.Cells Java para Python** , llamar**desproteger_hoja de trabajo** método de**proteccion** módulo.
+ Para proteger la hoja de trabajo usando**Aspose.Cells Java for Python** , llamar**desproteger_hoja de trabajo** método de**proteccion** módulo.
 
 **Código Python**
 

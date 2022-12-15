@@ -14,7 +14,7 @@ url: /it/net/merge-files/
 
 {{% alert color="primary" %}}
 
- Il[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) Il metodo supporta solo l'unione di dati, stili, formattazione e formule. Oggetti come grafici, immagini, commenti o altri oggetti potrebbero non essere uniti utilizzando questo metodo. Inoltre, un file memorizzato nella cache viene utilizzato per archiviare dati temporanei per il processo.
+ Il[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)Il metodo supporta solo l'unione di dati, stili, formattazione e formule. Oggetti come grafici, immagini, commenti o altri oggetti potrebbero non essere uniti utilizzando questo metodo. Inoltre, un file memorizzato nella cache viene utilizzato per archiviare dati temporanei per il processo.
 
 {{% /alert %}}
 

@@ -5,7 +5,7 @@ weight: 10
 url: /sv/java/download-and-configure-aspose-cells-in-struts/
 ---
 - 
-## **Bygga Aspose.Cells Java för Struts 1.3 från källkoder**
+## **Byggnad Aspose.Cells Java för Struts 1.3 från källkoder**
 Efter att ha checkat ut källkoder från något av ovanstående arkiv, använd följande mvn-kommandon:
 
 {{< highlight "java" >}}

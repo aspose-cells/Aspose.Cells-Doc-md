@@ -14,7 +14,7 @@ Så här lägger du till underrapportobjekt:
 ).
  Delrapportformuläret visas.
 
-**Delrapportformuläret** 
+**Underrapportformuläret** 
 
 ![todo:image_alt_text](add-sub-report-item_2.png)
 

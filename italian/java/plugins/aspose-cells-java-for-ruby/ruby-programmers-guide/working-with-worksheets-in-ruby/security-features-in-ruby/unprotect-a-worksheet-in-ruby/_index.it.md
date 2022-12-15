@@ -5,7 +5,7 @@ weight: 20
 url: /it/java/unprotect-a-worksheet-in-ruby/
 ---
 ## **Aspose.Cells - Rimuovere la protezione di un foglio di lavoro**
- Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java per Rubino** , chiamata**unprotect_worksheet** metodo di**protezione** modulo.
+ Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java per Ruby** , chiamata**unprotect_worksheet** metodo di**protezione** modulo.
 
 **Codice Rubino**
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.7.2
+title: Offentlig API Ändringar i Aspose.Cells 8.7.2
 type: docs
 weight: 250
 url: /sv/net/public-api-changes-in-aspose-cells-8-7-2/
@@ -11,9 +11,9 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.7
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Utökade standardberäkningsmotorn**
-Aspose.Cells API:er har en kraftfull beräkningsmotor som kan beräkna nästan alla Microsoft Excel-funktioner. Dessutom tillåter Aspose.Cells API:erna nu att utöka standardberäkningsmotorn för att möta anpassade beräkningskrav för alla applikationer.
+Aspose.Cells API:er har en kraftfull beräkningsmotor som kan beräkna nästan alla Microsoft Excel-funktioner. Dessutom tillåter API:erna Aspose.Cells nu att utöka standardberäkningsmotorn för att möta anpassade beräkningskrav för alla applikationer.
 
-Följande API:er har lagts till med utgåvan av Aspose.Cells för .NET 8.7.2.
+Följande API:er har lagts till med utgåvan av Aspose.Cells for .NET 8.7.2.
 
 1. AbstractCalculationEngine Class
 1. CalculationData Class
@@ -89,7 +89,7 @@ Följande är det enkla användningsscenariot.
 
 
 ### **Lade till Overloaded Indexer för TextBoxCollection**
-Aspose.Cells för .NET 8.7.2 har avslöjat den överbelastade indexeringen för TextBoxCollection-klassen för att komma åt instansen av TextBox med dess namn som sträng.
+Aspose.Cells for .NET 8.7.2 har exponerat den överbelastade indexerade för klassen TextBoxCollection för att komma åt instansen av TextBox med dess namn som sträng.
 
 {{% alert color="primary" %}} 
 
@@ -131,7 +131,7 @@ box = sheet.TextBoxes["MyTextBox"];
 
 
 ### **Lade till OnAfterColumnFilter Event för GridWeb**
-Aspose.Cells.GridWeb för .NET 8.7.2 har avslöjat händelsen OnAfterColumnFilter som fungerar som återuppringning till filtreringsmekanismen som görs via Aspose.Cells.GridWeb UI. Som namnet antyder utlöses händelsen efter att kolumnfiltreringen har tillämpats och kan användas för att få filtreringsinformation som kolumnindex på vilket filter som användes och valt filtervärde.
+Aspose.Cells.GridWeb for .NET 8.7.2 har avslöjat händelsen OnAfterColumnFilter som fungerar som återuppringning till filtreringsmekanismen som görs genom Aspose.Cells.GridWeb UI. Som namnet antyder utlöses händelsen efter att kolumnfiltreringen har tillämpats och kan användas för att få filtreringsinformation som kolumnindex på vilket filter som användes och valt filtervärde.
 
 Enkelt användningsscenario ser ut som följer.
 

@@ -30,7 +30,7 @@ Aşağıdaki kod parçacığı, bir Excel dosyasındaki bir çalışma sayfasın
 ## **Çalışma Sayfasını SVG'ye Dönüştürme**
 SVG, Ölçeklenebilir Vektör Grafikleri anlamına gelir. SVG, iki boyutlu vektör grafikleri için XML standartlarına dayalı bir belirtimdir. World Wide Web Consortium (W3C) tarafından 1999'dan beri geliştirilmekte olan açık bir standarttır.
 
-C++ için Aspose.Cells, 18.5.0 sürümünden beri çalışma sayfalarını SVG görüntüsüne dönüştürebilir.
+Aspose.Cells for C++, 18.5.0 sürümünden beri çalışma sayfalarını SVG görüntüsüne dönüştürebiliyor.
 
 Bu özelliği kullanmak için `Aspose.Cells.Rendering` ad alanını programınıza veya projenize aktarın. Oluşturma ve yazdırma için birkaç değerli sınıfı vardır, örneğin `ISheetRender`, `IImageOrPrintOptions` ve diğerleri.
 

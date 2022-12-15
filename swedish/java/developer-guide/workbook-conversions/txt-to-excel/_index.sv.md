@@ -16,7 +16,7 @@ För att öppna CSV-filer, använd**[LoadOptions](https://reference.aspose.com/c
 
 ### **Öppnar CSV-filer och ersätter ogiltiga tecken**
 
-I Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API som visas i kodexemplet nedan.
+I Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API vilket visas i kodexemplet nedan.
 
 #### **Exempel**
 

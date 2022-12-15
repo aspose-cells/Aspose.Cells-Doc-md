@@ -1,5 +1,5 @@
 ﻿---
-title: Agregar hipervínculos de imagen
+title: Agregar hipervínculos de imágenes
 type: docs
 weight: 20
 url: /es/java/add-image-hyperlinks/
@@ -12,7 +12,7 @@ Los hipervínculos son útiles para acceder a la información en otras hojas de 
 
 Aspose.Cells le permite agregar hipervínculos a imágenes en hojas de cálculo en tiempo de ejecución. Es posible configurar y modificar la sugerencia de pantalla y la dirección del enlace.
 
-El siguiente código de ejemplo ilustra cómo agregar un hipervínculo de imagen en una hoja de cálculo.
+El siguiente código de ejemplo ilustra cómo agregar un hipervínculo de imagen en una hoja de trabajo.
 
  Cuando se ejecuta el código, guarda un archivo de salida con un hipervínculo de imagen.
 

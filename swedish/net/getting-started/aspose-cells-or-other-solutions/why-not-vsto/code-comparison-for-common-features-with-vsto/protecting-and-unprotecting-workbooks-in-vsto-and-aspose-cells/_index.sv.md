@@ -6,7 +6,7 @@ url: /sv/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/
 ---
 För att öppna en befintlig Microsoft Excel-fil, skydda arbetsboken med struktur och Windows-attribut och spara filen.
 
-Nedan finns parallella kodavsnitt för VSTO (C#) och Aspose.Cells för .NET (C#) som visar hur man skyddar en arbetsbok.
+Nedan finns parallella kodavsnitt för VSTO (C#) och Aspose.Cells for .NET (C#) som visar hur man skyddar en arbetsbok.
 ## **VSTO**
 **Skyddande arbetsbok**
 

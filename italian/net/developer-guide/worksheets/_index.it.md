@@ -1,5 +1,5 @@
 ﻿---
-title: Gestisci fogli di lavoro di Microsoft file Excel.
+title: Gestisci fogli di lavoro di file Microsoft Excel.
 linktitle: Fogli di lavoro
 type: docs
 weight: 90
@@ -8,7 +8,7 @@ description: Aggiungi foglio di lavoro, rimuovi foglio di lavoro e foglio attivo
 ---
 {{% alert color="primary" %}}
 
-Gli sviluppatori possono facilmente creare e gestire i fogli di lavoro nei file Excel Microsoft a livello di codice usando Aspose.Cells' flexible API. Questo argomento descrive gli approcci per l'aggiunta e la rimozione di fogli di lavoro nei file Excel Microsoft.
+Gli sviluppatori possono facilmente creare e gestire fogli di lavoro nei file di Microsoft Excel in modo programmatico utilizzando l'API flessibile Aspose.Cells. Questo argomento descrive gli approcci per l'aggiunta e la rimozione di fogli di lavoro nei file di Microsoft Excel.
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Per rimuovere i fogli di lavoro da un file, chiama il file[**RimuoviAt**](https:
 
 ## **Attivazione di fogli e creazione di un Cell attivo nel foglio di lavoro**
 
-A volte, è necessario che un foglio di lavoro specifico sia attivo e visualizzato quando un utente apre un file Excel Microsoft in Excel. Allo stesso modo, potresti voler attivare una cella specifica e impostare le barre di scorrimento per mostrare la cella attiva.
+A volte, è necessario che un foglio di lavoro specifico sia attivo e visualizzato quando un utente apre un file Microsoft Excel in Excel. Allo stesso modo, potresti voler attivare una cella specifica e impostare le barre di scorrimento per mostrare la cella attiva.
 Aspose.Cells è in grado di svolgere tutte queste attività.
 
  Un**foglio attivo** è un foglio su cui stai lavorando: il nome del foglio attivo sulla scheda è in grassetto per impostazione predefinita.
@@ -63,7 +63,7 @@ Aspose.Cells è in grado di svolgere tutte queste attività.
 
 ### **Attivare Fogli e rendere attivo uno Cell**
 
-Aspose.Cells prevede chiamate specifiche API per l'attivazione di un foglio e di una cella. Ad esempio, il[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)è utile per impostare il foglio attivo in una cartella di lavoro.
+Aspose.Cells fornisce chiamate API specifiche per l'attivazione di un foglio e di una cella. Ad esempio, il[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)è utile per impostare il foglio attivo in una cartella di lavoro.
 Allo stesso modo,[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)La proprietà viene utilizzata per impostare e ottenere una cella attiva nel foglio di lavoro.
 
 Per assicurarti che le barre di scorrimento orizzontali o verticali si trovino nella posizione dell'indice di riga e colonna in cui desideri mostrare dati specifici, utilizza il[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) e[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)proprietà.

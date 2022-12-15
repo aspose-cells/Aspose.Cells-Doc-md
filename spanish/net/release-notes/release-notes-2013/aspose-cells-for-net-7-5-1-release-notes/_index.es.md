@@ -18,7 +18,7 @@ url: /es/net/aspose-cells-for-net-7-5-1-release-notes/
 
  Actuación
 
- 41526 - La conversión de XLSX a PDF se bloquea
+ 41526 - La conversión de XLSX a PDF se cuelga
 
  Excepciones
 

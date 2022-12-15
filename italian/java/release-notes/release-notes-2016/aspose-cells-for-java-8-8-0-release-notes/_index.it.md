@@ -39,8 +39,8 @@ url: /it/java/aspose-cells-for-java-8-8-0-release-notes/
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 |CELLSJAVA-41615 | L'impostazione degli stili della barra dell'intestazione e della scheda non funziona| Insetto|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HTMLLoadOptions.DeleteRedundantSpaces**
  Indica se eliminare gli spazi ridondanti quando il testo va a capo utilizzando le righe<br>etichetta.
 ### **Rende obsoleta la proprietà LoadOptions.ConvertNumericData e aggiunge la proprietà TxtLoadOptions.ConvertNumericData.**
@@ -50,7 +50,7 @@ Indica se il valore della cella inizia con virgolette singole.
 ### **Aggiunge la proprietà QueryTable.ConnectionId.**
 Ottiene l'ID connessione della tabella di query.
 ### **Aggiunge la proprietà ExternalConnection.Id.**
-Ottiene l'ID della connessione.
+Ottiene l'id della connessione.
 ### **Aggiunge la proprietà ListObject.QueryTable.**
 Ottiene la QueryTable collegata della tabella.
 ### **Aggiunge la proprietà HTMLLoadOptions.KeepPrecision.**

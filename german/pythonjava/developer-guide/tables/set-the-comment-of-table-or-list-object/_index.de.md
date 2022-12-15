@@ -5,7 +5,7 @@ weight: 60
 url: /de/python-java/set-the-comment-of-table-or-list-object/
 ---
 ## **Legen Sie den Kommentar des Tabellen- oder Listenobjekts im Arbeitsblatt fest**
-Aspose.Cells für Python über Java unterstützt das Hinzufügen des Kommentars des Listenobjekts. Dafür sorgt die API[ListObject.Kommentar](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)Eigentum. Der Kommentar hinzugefügt von der[ListObject.Kommentar](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)-Eigenschaft wird innerhalb der sichtbar sein*xl/tables/tableName.xml* Datei.
+Aspose.Cells for Python via Java unterstützt das Hinzufügen des Kommentars des Listenobjekts. Dafür sorgt die API[ListObject.Kommentar](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)Eigentum. Der Kommentar hinzugefügt von der[ListObject.Kommentar](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)-Eigenschaft wird innerhalb der sichtbar sein*xl/tables/tableName.xml* Datei.
 
 Der folgende Screenshot zeigt den vom Beispielcode erstellten Kommentar im roten Rechteck.
 

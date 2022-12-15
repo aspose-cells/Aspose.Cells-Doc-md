@@ -10,7 +10,7 @@ url: /de/net/aspose-cells-for-net-8-2-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET wurde auf Version 8.2.2 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 60 neue nützliche Verbesserungen enthält.
+Aspose.Cells for .NET wurde auf Version 8.2.2 aktualisiert und wir freuen uns, Ihnen mitteilen zu können, dass diese Version über 60 neue nützliche Verbesserungen enthält.
 Unter Aspose.Cells for .NET können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for .NET beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.

@@ -6,7 +6,7 @@ url: /ru/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells — Показать или скрыть заголовки столбцов строк**
 ### **Скрытие заголовков строк/столбцов**
- Чтобы скрыть заголовки строк/столбцов с помощью**Aspose.Cells Java для рубина** , вызов**DisplayHideRowColumnHeaders** модуль.
+Чтобы скрыть заголовки строк/столбцов с помощью**Aspose.Cells Java для рубина** , вызов**DisplayHideRowColumnHeaders** модуль.
 
 **Рубиновый код**
 

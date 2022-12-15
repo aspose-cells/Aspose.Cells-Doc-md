@@ -110,7 +110,7 @@ url: /de/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9709 | XLs| Benutzerdefinierte Formatierung funktioniert nicht|
 |9954 | XLs| Problem beim Lesen des Zellenformats aus einer Vorlagendatei|
 |9955 | XLs| CalcMode gibt niemals AutomaticExceptTable zurück|
-|9956 | XLs| Zugriff auf Kontrollkästchen und Kombinationsfelder nach Name|
+|9956 | XLs| Zugriff auf Kontrollkästchen und Kombinationsfelder nach Namen|
 |9957 | XLs| NamedRange in Summenformel|
 |10001 | XLs| Excel-Indexfunktion funktioniert nicht|
 |10002 | XLs| Benannten Bereich entfernen.|

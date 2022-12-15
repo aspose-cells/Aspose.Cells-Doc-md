@@ -16,7 +16,7 @@ Aspose.Cells предоставляет абстрактный класс[**Draw
 
 - ширина: Ширина[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-- высота: высота[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- высота: Высота[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
 Если вы конвертируете файл Excel в PDF, вы можете использовать[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)класс с[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler). Точно так же, если вы визуализируете файл Excel в изображение, вы можете использовать[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)класс с[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
 

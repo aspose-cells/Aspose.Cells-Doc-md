@@ -10,7 +10,7 @@ Tidigare nås textrutor via index från[**Arbetsblad. Textrutor**](https://refer
 
 Följande exempelkod skapar först en textruta och tilldelar den lite text och namn. Sedan på nästa rader kommer vi åt samma textruta med dess namn och skriver ut dess text.
 
-### C#-kod för att komma åt textrutan efter namn
+### C# kod för att komma åt textrutan med namn
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AccessTextBoxName-AccessTextBoxName.cs" >}}
 

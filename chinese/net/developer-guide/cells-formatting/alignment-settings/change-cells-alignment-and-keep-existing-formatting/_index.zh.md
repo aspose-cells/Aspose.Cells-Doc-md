@@ -12,7 +12,7 @@ url: /zh/net/change-cells-alignment-and-keep-existing-formatting/
 
 下面的示例代码加载[示例 Excel 文件](67338585.xlsx) , 创建范围并居中水平和垂直对齐并保持现有格式不变。以下屏幕截图比较了示例 Excel 文件和[输出Excel文件](67338586.xlsx)并显示单元格的所有现有格式都是相同的，除了单元格现在水平和垂直居中对齐。
 
-![待办事项：图片_替代_文本](change-cells-alignment-and-keep-existing-formatting_1.png)
+![待办事项：图像_替代_文本](change-cells-alignment-and-keep-existing-formatting_1.png)
 
 ## **示例代码**
 

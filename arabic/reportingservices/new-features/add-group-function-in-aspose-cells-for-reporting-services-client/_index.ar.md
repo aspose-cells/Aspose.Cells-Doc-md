@@ -1,5 +1,5 @@
 ﻿---
-title: إضافة دالة المجموعة في Aspose.Cells لعميل خدمات التقارير
+title: إضافة وظيفة المجموعة في Aspose.Cells for Reporting Services عميل
 type: docs
 weight: 120
 url: /ar/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/

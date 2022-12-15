@@ -17,15 +17,15 @@ url: /zh/net/how-to-use-aspose-cells-gridweb-with-net-core/
 创建一个新项目对话框打开。
 1. 选择**ASP.NET 核心网络应用程序**从 Visual Studio 安装的项目模板并单击**下一个**.
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
 
 1. 指定项目的位置和名称，然后单击**创造**.
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
 
 1. 选择**Web 应用程序（模型-视图-控制器）**模板并确保**ASP .NET 核心 2.1**被选中。
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
 
 1. 点击**创造**.
 ### **第 2 步：检查初始视图**
@@ -33,7 +33,7 @@ url: /zh/net/how-to-use-aspose-cells-gridweb-with-net-core/
 
 
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
 ### **第 3 步：添加 Aspose.Cells.GridWeb**
 1. 将以下 Nuget 包添加到项目中
 
@@ -45,14 +45,14 @@ url: /zh/net/how-to-use-aspose-cells-gridweb-with-net-core/
 
 1. 添加 Aspose.Cells.GridWeb 包
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
 
 1. 将以下内容添加到 Views 文件夹中的 **_ViewImports.cshtml** 文件。
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-ViewImports.cs" >}}
 
 修改后的文件看起来像这样
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
 
 1. 将以下代码放在 HomeController 的 Index 方法中。
 
@@ -64,7 +64,7 @@ url: /zh/net/how-to-use-aspose-cells-gridweb-with-net-core/
 
 {{% /alert %}} 
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
 
 1. 在中添加以下代码**索引.cshtml** View > Home 目录中的文件。
 
@@ -72,28 +72,28 @@ url: /zh/net/how-to-use-aspose-cells-gridweb-with-net-core/
 
 更改后的文件将如下所示。
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
 
 1. 在 Startup.cs 文件中添加 Session 支持和 GridScheduedService
  1. 在 ConfigureServices 方法中添加以下代码片段。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup1.cs" >}}
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
 
 1. 在 Configure 方法中添加以下代码片段。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup2.cs" >}}
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
 
 1. 把最新的acw_client放在目录：**wwwroot/js** {{% alert color="primary" %}} {{% /alert %}}
 1. 添加**控制器**在 Controllers 中处理 acw route map 可以提供一般编辑动作的所有默认操作。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-AcwController.cs" >}}
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
 ### **第 4 步：测试应用程序**
 运行应用程序将输出类似于下图所示的输出。
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)

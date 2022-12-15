@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells für Reporting Services V2.0.0 Versionshinweise
+title: Aspose.Cells for Reporting Services V2.0.0 Versionshinweise
 type: docs
 weight: 10
 url: /de/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Diese Seite enthält Versionshinweise für[Aspose.Cells für Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ Diese Seite enthält Versionshinweise für[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- Bitte begrüßen Sie eine neue Version von Aspose.Cells für Reporting Services V2.0.0.
+ Bitte begrüßen Sie eine neue Version von Aspose.Cells for Reporting Services V2.0.0.
 ## **Hauptmerkmale**
-Aspose.Cells für Reporting Services Report Designer-Optimierung.
+Aspose.Cells for Reporting Services Report Designer-Optimierung.
 ## **Andere Verbesserungen und Änderungen**
  ` `Neue Funktionen
 
@@ -20,7 +20,7 @@ Aspose.Cells für Reporting Services Report Designer-Optimierung.
 - ` `(SSRS-40144) Konfigurieren von Berichtsservern zum Speichern/Zwischenspeichern der Berichtsserverdaten
 - ` `(SSRS-40142) Unterstützt gemeinsam genutzte Datensätze
 - ` `(SSRS-40113) Negative Werte in Klammern
-- ` `(SSRS-40103) Aspose.Cells für Reporting Services Report Designer-Importberichtsdefinitionsdatei für SQL Server 2008
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services Report Designer-Importberichtsdefinitionsdatei für SQL Server 2008
 
  Fehler
 
@@ -66,7 +66,7 @@ Aspose.Cells für Reporting Services Report Designer-Optimierung.
 - ` `(SSRS-40095) Fehler bei Aspose.Cells SSRS
 - ` ` (SSRS-40094) Dyn verbergen mit Parametern
 - ` `(SSRS-40093) Problem mit Testsoftware – Es wird nur eine Zeile zurückgemeldet
-- ` `(SSRS-40092) Formatprobleme mit Aspose.Cells für Reporting Services
+- ` `(SSRS-40092) Formatprobleme mit Aspose.Cells for Reporting Services
 - ` `(SSRS-40091) Speichern der Berichtsdatei fehlgeschlagen – Excel-Rendering mit Bild
 - ` ` (SSRS-40089) Sichtbarkeitsproblem mit Tablix in SSRS
 - ` `(SSRS-40087) Keine Excel „Dokument Map“ verfügbar in Aspose Cells für SSRS 2005?

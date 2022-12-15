@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Reporting Services V1.1.1 Sortie ! Notes de version
+title: Aspose.Cells for Reporting Services V1.1.1 Sortie ! Notes de version
 type: docs
 weight: 20
 url: /fr/reportingservices/aspose-cells-for-reporting-services-v1-1-1-released-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Cette page contient des notes de version pour[Aspose.Cells pour Reporting Services V1.1.1 Sortie !](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
+ Cette page contient des notes de version pour[Aspose.Cells for Reporting Services V1.1.1 Sortie !](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
 
 {{% /alert %}} 
 

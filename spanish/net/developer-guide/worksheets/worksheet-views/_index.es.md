@@ -56,7 +56,7 @@ El archivo book1.xls se abre creando una instancia del[**Libro de trabajo**](htt
 
 ### **Usando Microsoft Excel**
 
-Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de trabajo.
+Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de cálculo.
 
 ### **Aspose.Cells y congelar paneles**
 
@@ -71,7 +71,7 @@ Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://refe
 - **filas congeladas**, el número de filas visibles en el panel superior.
 - **Columnas congeladas**, el número de columnas visibles en el panel izquierdo
 
-El archivo book1.xls se abre llamando al[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)constructor de clase mientras se crea una instancia y algunas filas y columnas se congelan en la primera hoja de trabajo. El archivo modificado se guarda como salida.xls.
+El archivo book1.xls se abre llamando al[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)constructor de clase mientras se crea una instancia y algunas filas y columnas se congelan en la primera hoja de cálculo. El archivo modificado se guarda como salida.xls.
 
  A continuación se muestra un ejemplo completo que muestra cómo utilizar el[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)método para congelar filas y columnas (a partir de C4, representada por la cuarta fila y la tercera columna, donde las filas y columnas comienzan desde el índice 0) de la primera hoja de cálculo del archivo de Excel.
 
@@ -89,7 +89,7 @@ Los paneles funcionan simultáneamente. Si realiza un cambio en uno, el cambio a
 
  Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) La clase proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel. Para implementar vistas divididas, use el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase'[**Separar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Para quitar los paneles divididos, use el[**EliminarDividir**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)método.
 
-En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de trabajo. El archivo actualizado se guarda.
+En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de cálculo. El archivo actualizado se guarda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-SplitPanes-1.cs" >}}
 
@@ -107,6 +107,6 @@ Después de ejecutar el código anterior, el archivo generado tendrá una vista 
 - [Mostrar y ocultar líneas de cuadrícula y encabezados de columna de fila](/cells/es/net/show-and-hide-gridlines-and-row-column-headers/)
 - [Mostrar y ocultar filas, columnas y barras de desplazamiento](/cells/es/net/show-and-hide-rows-columns-and-scroll-bars/)
 - [Mostrar y ocultar hojas de trabajo y pestañas](/cells/es/net/show-and-hide-worksheets-and-tabs/)
-- [Mostrar fórmulas en lugar de valores en una hoja de cálculo](/cells/es/net/show-formulas-instead-of-values-in-a-worksheet/)
+- [Mostrar fórmulas en lugar de valores en una hoja de trabajo](/cells/es/net/show-formulas-instead-of-values-in-a-worksheet/)
 - [Usar opciones de comprobación de errores](/cells/es/net/use-error-checking-options/)
 

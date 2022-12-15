@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 21.6 Release Notes
+title: Aspose.Cells for .NET 21.6 Release Notes
 type: docs
 weight: 7
 url: /sv/net/aspose-cells-for-net-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 21.6](https://www.nuget.org/packages/Aspose.Cells/21.6.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 21.6](https://www.nuget.org/packages/Aspose.Cells/21.6.0).
 
 {{% /alert %}}
 
@@ -37,7 +37,7 @@ url: /sv/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48081|Bilden visas inte i GridWeb|Insekt|
 |CELLSNET-48117|Lägg till GridCell.GetValidation() för GridDesktop|Insekt|
 |CELLSNET-47627|Problem vid åtkomst/ändring av X-axeln i ett Excel-diagram med Aspose.Cells|Insekt|
-|CELLSNET-48041|Det extraherade diagrammet är förvrängt i diagram till bild/PDF-rendering|Insekt|
+|CELLSNET-48041| Det extraherade diagrammet är förvrängt i diagram till bild/PDF-rendering|Insekt|
 |CELLSNET-48049|Olika axelavstånd vid konvertering från xlsx-arbetsbok till emf|Insekt|
 |CELLSNET-48101|Chinse-tecken visas som Rectangle Linux Docker|Insekt|
 |CELLSNET-48061|PowerQueries försvinner efter frågebyte|Insekt|
@@ -51,9 +51,9 @@ url: /sv/net/aspose-cells-for-net-21-6-release-notes/
 |
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Ändrar beteendet för egenskapen Cell.IsErrorValue.**
 

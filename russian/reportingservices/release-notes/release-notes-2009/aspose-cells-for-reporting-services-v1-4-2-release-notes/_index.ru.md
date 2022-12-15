@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Reporting Services v1.4.2 Примечания к выпуску
+title: Aspose.Cells for Reporting Services v1.4.2 Примечания к выпуску
 type: docs
 weight: 20
 url: /ru/reportingservices/aspose-cells-for-reporting-services-v1-4-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для служб Reporting Services v1.4.2](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.2/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Reporting Services v1.4.2](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.2/)
 
 {{% /alert %}} 
 

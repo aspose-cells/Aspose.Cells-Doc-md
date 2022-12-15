@@ -277,7 +277,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 
 
- Cuando se agrega una nueva fila a la hoja de cálculo, las celdas contienen datos predeterminados, incluida la fecha actual del sistema.
+ Cuando se agrega una nueva fila a la hoja de trabajo, las celdas contienen datos predeterminados, incluida la fecha actual del sistema.
 
 **Nueva fila agregada a la hoja de trabajo con datos predeterminados** 
 

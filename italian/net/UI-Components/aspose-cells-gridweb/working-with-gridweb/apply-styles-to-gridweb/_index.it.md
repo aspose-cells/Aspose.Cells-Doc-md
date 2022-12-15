@@ -23,7 +23,7 @@ Per salvare gli sforzi degli sviluppatori, Aspose.Cells.GridWeb offre alcuni sti
 |Tradizionale1|Scuro|
 |Tradizionale2|Grigio|
 |Costume|Personalizzato|
-Quando viene selezionato uno stile particolare, cambia l'intero aspetto del controllo GridWeb. Gli sviluppatori possono selezionare uno stile preimpostato da applicare su Grid durante la fase di progettazione, ma questa attività può anche essere eseguita in fase di esecuzione utilizzando il flessibile API di Aspose.Cells.GridWeb.
+Quando viene selezionato uno stile particolare, cambia l'intero aspetto del controllo GridWeb. Gli sviluppatori possono selezionare uno stile preimpostato da applicare su Grid durante la fase di progettazione, ma questa attività può anche essere eseguita in fase di esecuzione utilizzando l'API flessibile di Aspose.Cells.GridWeb.
 
 {{% alert color="primary" %}} 
 

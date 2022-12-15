@@ -5,7 +5,7 @@ weight: 100
 url: /it/java/create-different-cell-types-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Crea diversi tipi Cell**
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -59,7 +59,7 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS (HSSF + XSSF) - Crea diversi tipi Cell**
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

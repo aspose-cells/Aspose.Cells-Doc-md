@@ -6,7 +6,7 @@ url: /sv/net/aspose-cells-forms-for-sitefinity/
 ---
 ## **Introduktion**
 
-Aspose.Cells Dynamic Forms for Sitefinity Module låter användare skapa dynamiska frågeformulär och enkäter, spara användarinmatning i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av 0487612. NETTO.
+Aspose.Cells Dynamic Forms for Sitefinity Module låter användare skapa dynamiska frågeformulär och enkäter, spara användarinmatning i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av 076103473.
 
 |<p>![todo:image_alt_text](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
 |:- |
@@ -31,7 +31,7 @@ Denna initiala version av modulen är berikad med följande funktioner för att 
 
 ## **Systemkrav och plattformar som stöds**
 
-För att konfigurera Aspose.Cells .NET för Sitefinity-tillägg måste du ha följande krav uppfyllda:
+För att ställa in Aspose.Cells .NET för Sitefinity-tillägg måste du ha följande krav uppfyllda:
 
 - Sitefinity CMS körs på ASP.NET 4.0
 
@@ -45,7 +45,7 @@ Tillägget stöds på alla versioner av
 
 ### **Laddar ner**
 
-Du kan ladda ner modulen Aspose .NET Content Exporter for Sitefinity från en av följande platser
+Du kan ladda ner Aspose .NET Content Exporter for Sitefinity-modulen från en av följande platser
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity/Aspose.SiteFinity.FormBuilder.ToExcel)
 
@@ -64,7 +64,7 @@ Extrahera den nedladdade ZIP-filen. Du behöver FTP eller direktåtkomst till Si
 
 1. Logga in på ditt Sitefinity CMS med en '**Administratör** ' konto. Inloggningssidan nås av<http://www.mywebsite.com/sitefinity>
 1.  Klick**Administrering** och då**inställningar**.
- Sidan Grundinställningar visas.
+Sidan Grundinställningar visas.
 1.  Klicka på**Avancerad** länk.
  Inställningar-sidan visas.
 1.  Klicka på i den vänstra rutan**Verktygslådor** följd av**Verktygslådor** , då**Sidkontroller**, **Avsnitt** och**ContentToolboxSection** , då**Verktyg.**
@@ -73,7 +73,7 @@ Extrahera den nedladdade ZIP-filen. Du behöver FTP eller direktåtkomst till Si
 1.  Fyll i formulärfälten enligt följande:
  1. Se till**Aktiverad** är vald.
  1. I**Styr CLR-typ eller virtuell sökväg** fält.
-1. Lägg till**~/Addons/Aspose.SiteFinity.FormBuilder.ToExcel/Edit.ascx**
+ 1. Lägg till**~/Addons/Aspose.SiteFinity.FormBuilder.ToExcel/Edit.ascx**
  1. Lägg till**namn**, **Titel** och**Beskrivning** som följer:
          1. Aspose  **Sidnamn**(som Redigera, Visa, Exportera) formulär till SiteFinity-användare
          1. Aspose **Sidnamn** Formulär (som Aspose Redigera formulär , Aspose Visa formulär , Aspose Exportformulär)
@@ -93,7 +93,7 @@ Efter att du har installerat och konfigurerat tillägget Aspose.Cells Dynamic Fo
 
 1. Se till att du är inloggad på Sitefinity med ett konto på administratörsnivå.
 1. Navigera till sidan där du vill lägga till plugin-programmet. Se till att sidan är öppen i redigeringsläge.
-1.  Från**Dra widgets**menyn till höger, välj Aspose Redigera/Visa/Exportera formulär och dra det på plats. (**Ser** **under bilden** )
+1.  Från**Dra widgets** menyn till höger, välj Aspose Redigera/Visa/Exportera formulär och dra det på plats. (**Ser** **under bilden** )
 
 |<p>![todo:image_alt_text](aspose-cells-forms-for-sitefinity_2)</p><p></p>|
 |:- |
@@ -113,7 +113,7 @@ För att ta bort utvärderingsmeddelanden och funktionsbegränsningar bör produ
 1.  Se till att du är inloggad klicka på Sidmenyn klicka på första raden**Se** alternativknapp nära**Åtgärdskolumn.**  
 1.  Klick**Redigera** knapp tillgänglig nära alternativetikett.
 1.  Det finns få fördefinierade fält, du kan redigera/dölja bara genom att klicka**Redigera** i rutnät.
-1.  Du kan skapa/ta bort/uppdatera nya fält av vilken typ som helst**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Titel, Framgångsmeddelande)**
+1. Du kan skapa/ta bort/uppdatera nya fält av vilken typ som helst**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Titel, Framgångsmeddelande)**
 
 #### **Dynamisk formulärsändning**
 

@@ -19,7 +19,7 @@ url: /zh/java/chart-axes/
 ## **轴选项**
 Aspose.Cells 还允许在运行时管理图表的轴，使用[轴](https://reference.aspose.com/cells/java/com.aspose.cells/Axis)对象，您可以像在 Excel 中一样更改 Axis 的所有选项。
 
-|![待办事项：图片_替代_文本](chart_axes.png)|
+|![待办事项：图像_替代_文本](chart_axes.png)|
 
 ## **管理 X 和 Y 轴**
 

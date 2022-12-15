@@ -6,9 +6,9 @@ url: /de/python-java/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Sie können eine Evaluierungsversion von installieren**Aspose.Cells** für Python über Java mit `pip install aspose-cells`. Die Evaluierungsversion bietet absolut dieselben Funktionen wie die lizenzierte Version des Produkts. Darüber hinaus wird die Evaluierungsversion einfach lizenziert, wenn Sie eine Lizenz erwerben und ein paar Codezeilen hinzufügen, um die Lizenz anzuwenden.
+ Sie können eine Evaluierungsversion von installieren**Aspose.Cells** for Python via Java mit `pip install aspose-cells`. Die Evaluierungsversion bietet absolut dieselben Funktionen wie die lizenzierte Version des Produkts. Darüber hinaus wird die Evaluierungsversion einfach lizenziert, wenn Sie eine Lizenz erwerben und ein paar Codezeilen hinzufügen, um die Lizenz anzuwenden.
 
- Sobald Sie mit Ihrer Bewertung zufrieden sind**Aspose.Cells** , du kannst[eine Lizenz kaufen](https://purchase.aspose.com)auf der Website Aspose. Machen Sie sich mit den verschiedenen angebotenen Abonnementarten vertraut. Bei Fragen steht Ihnen das Verkaufsteam unter Aspose gerne zur Verfügung.
+ Sobald Sie mit Ihrer Bewertung zufrieden sind**Aspose.Cells** , du kannst[eine Lizenz erwerben](https://purchase.aspose.com)auf der Website Aspose. Machen Sie sich mit den verschiedenen angebotenen Abonnementarten vertraut. Bei Fragen steht Ihnen das Verkaufsteam unter Aspose gerne zur Verfügung.
 
 Jede Aspose-Lizenz enthält ein einjähriges Abonnement für kostenlose Upgrades auf alle neuen Versionen oder Fixes, die während dieser Zeit herauskommen. Der technische Support ist kostenlos und unbegrenzt und wird sowohl lizenzierten als auch Testbenutzern zur Verfügung gestellt.
 
@@ -49,7 +49,7 @@ Die Lizenz kann aus einer Datei an den folgenden Orten geladen werden:
 
 ### **Beispiel**
 
- In diesem Beispiel**Aspose.Cells**wird versuchen, die Lizenzdatei in Ihrem Arbeitsordner zu finden.
+ In diesem Beispiel**Aspose.Cells** wird versuchen, die Lizenzdatei in Ihrem Arbeitsordner zu finden.
 
 {{< highlight "python" >}}
 

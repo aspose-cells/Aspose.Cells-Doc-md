@@ -36,7 +36,7 @@ L'exemple suivant montre comment chiffrer et protéger par mot de passe un fichi
 ## **Vérifier le mot de passe du fichier crypté**
 
  Pour vérifier le mot de passe du fichier crypté, Aspose.Cells for .NET fournit le[**Vérifier le mot de passe**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) méthode. Ces méthodes acceptent deux paramètres, le flux du fichier et le mot de passe qui doit être vérifié.
-L'extrait de code suivant illustre l'utilisation de[**Vérifier le mot de passe**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) méthode pour vérifier si le mot de passe fourni est valide ou non.
+ L'extrait de code suivant illustre l'utilisation de[**Vérifier le mot de passe**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) méthode pour vérifier si le mot de passe fourni est valide ou non.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 

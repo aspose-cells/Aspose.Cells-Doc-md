@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ar/python-java/manage-worksheets/
 ---
-إدارة أوراق العمل باستخدام Aspose.Cells لـ Python عبر Java أمر سهل للغاية. في هذه المقالة ، سنشرح أوراق العمل المضافة والوصول إليها وإزالتها باستخدام Aspose.Cells API.
+إدارة أوراق العمل باستخدام Aspose.Cells for Python via Java سهلة للغاية. في هذه المقالة ، سنشرح أوراق العمل المضافة والوصول إليها وإزالتها باستخدام Aspose.Cells API.
 ## **إضافة أوراق عمل إلى ملف Excel جديد**
  لإنشاء مصنف جديد ، قم بإنشاء كائن من[دفتر العمل](https://reference.aspose.com/cells/python/asposecells.api/Workbook) صف دراسي. ال[دفتر العمل](https://reference.aspose.com/cells/python/asposecells.api/Workbook) فئة تمثل ملف Excel. ثم باستخدام ملف[يضيف](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) ) طريقة ال[ورقة العمل](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) ، يتم إضافة أوراق عمل جديدة إلى ملف Excel. أخيرًا ، لحفظ ملف Excel الذي تم إنشاؤه حديثًا ، اتصل بامتداد[حفظ](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) ) طريقة ال[دفتر العمل](https://reference.aspose.com/cells/python/asposecells.api/Workbook)صف دراسي.
 

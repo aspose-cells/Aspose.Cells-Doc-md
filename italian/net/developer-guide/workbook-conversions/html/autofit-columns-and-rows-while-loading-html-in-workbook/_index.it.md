@@ -6,7 +6,7 @@ url: /it/net/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
 ## **Possibili scenari di utilizzo**
 
-Puoi adattare automaticamente colonne e righe durante il caricamento del file HTML all'interno dell'oggetto Cartella di lavoro. Si prega di impostare il**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** proprietà a**VERO**per questo scopo.
+ Puoi adattare automaticamente colonne e righe durante il caricamento del file HTML all'interno dell'oggetto Cartella di lavoro. Si prega di impostare il**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** proprietà a**VERO**per questo scopo.
 
 ## **Adatta colonne e righe durante il caricamento dell'HTML nella cartella di lavoro**
 

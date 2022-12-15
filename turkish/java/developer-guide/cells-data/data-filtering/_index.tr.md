@@ -85,7 +85,7 @@ Bazen, yıldan bağımsız olarak Ocak ayındaki tüm hücreler gibi bir tarihe 
 
 Belirli bir aralık arasında sayıya sahip hücrelerin seçilmesi gibi Aspose.Cells kullanılarak özel filtreler uygulanabilir. Aşağıdaki örnek, kullanımını göstermektedir[**gelenek()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) sayıları filtreleme işlevi. Örnek dosyalar aşağıdaki linklerden indirilebilir.
 
-1. [Numara.xlsx](72417320.xlsx)
+1. [Sayı.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterNumber.java" >}}

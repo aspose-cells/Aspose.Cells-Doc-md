@@ -10,7 +10,7 @@ url: /es/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}}
 
- El siguiente código de ejemplo establece el texto del segundo relleno de entrada de leyenda del gráfico en ninguno. Por favor descarga el[ejemplo de archivo de Excel](5115219.xlsx) utilizado en este código y el[archivo de salida de Excel](5115217.xlsx)generado por él para su referencia.
+ El siguiente código de ejemplo establece el texto del segundo relleno de entrada de leyenda del gráfico en ninguno. Por favor descarga el[ejemplo de archivo de Excel](5115219.xlsx) utilizado en este código y el[archivo de salida de Excel](5115217.xlsx) generado por él para su referencia.
 
 La siguiente captura de pantalla destaca el efecto de este código en[ejemplo de archivo de Excel](5115219.xlsx).
 

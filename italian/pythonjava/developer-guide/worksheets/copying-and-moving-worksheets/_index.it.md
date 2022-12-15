@@ -30,7 +30,7 @@ L'esempio seguente mostra come copiare un foglio di lavoro esistente all'interno
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-CopyWithinWorkbook.py" >}}
 ### **Copia fogli di lavoro tra cartelle di lavoro**
-Aspose.Cells fornisce il[Foglio di lavoro.copia()](https://reference.aspose.com/cells/python/asposecells.api/worksheet#copy\(com.aspose.cells.Worksheet\)) metodo utilizzato per copiare i fogli di lavoro in altre cartelle di lavoro. Il metodo accetta l'oggetto del foglio di lavoro di origine come parametro.
+Aspose.Cells fornisce il[Foglio di lavoro.copia()](https://reference.aspose.com/cells/python/asposecells.api/worksheet#copy\(com.aspose.cells.Worksheet\)metodo utilizzato per copiare i fogli di lavoro in altre cartelle di lavoro. Il metodo accetta l'oggetto del foglio di lavoro di origine come parametro.
 
 L'esempio seguente mostra come copiare un foglio di lavoro da una cartella di lavoro a un'altra cartella di lavoro.
 

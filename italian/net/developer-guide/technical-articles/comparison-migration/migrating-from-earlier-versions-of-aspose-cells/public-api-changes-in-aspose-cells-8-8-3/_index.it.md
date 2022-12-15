@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.8.3
+title: Modifiche all'API pubblica in Aspose.Cells 8.8.3
 type: docs
 weight: 290
 url: /it/net/public-api-changes-in-aspose-cells-8-8-3/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.8.2 alla 8.8.3 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.8.2 alla 8.8.3 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -94,7 +94,7 @@ var book = new Workbook(dir + "input.xlsx", loadOptions);
 
 
 ### **Aggiunto il metodo Cell.GetCharacters(flag).**
-Le API Aspose.Cells consentono di ottenere gli oggetti caratteri sotto forma di array FontSetting utilizzando il metodo Cell.GetCharacters. Con questa versione, Aspose.Cells for .NET API ha esposto una versione sovraccaricata di Cell.GetCharacters che potrebbe accettare Boolean come parametro, indicando se lo stile tabella deve essere applicato alla cella se la cella fa parte di un ListObject.
+Le API Aspose.Cells consentono di ottenere gli oggetti caratteri sotto forma di array FontSetting utilizzando il metodo Cell.GetCharacters. Con questa versione, l'API Aspose.Cells for .NET ha esposto una versione di overload di Cell.GetCharacters che potrebbe accettare Boolean come parametro, indicando se lo stile tabella deve essere applicato alla cella se la cella fa parte di un ListObject.
 
 **C#**
 
@@ -276,7 +276,7 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **Aggiunta proprietà HtmlSaveOptions.ExportGridLines**
-Aspose.Cells for .NET 8.8.3 ha esposto la proprietà HtmlSaveOptions.ExportGridLines che consente di eseguire il rendering delle linee della griglia durante l'esportazione del foglio di calcolo in formato HTML. La proprietà di tipo booleano ha il valore predefinito false, tuttavia, se impostata su true, API esegue il rendering delle linee della griglia per l'intervallo di dati disponibile in formato HTML.
+Aspose.Cells for .NET 8.8.3 ha esposto la proprietà HtmlSaveOptions.ExportGridLines che consente di eseguire il rendering delle linee della griglia durante l'esportazione del foglio di calcolo in formato HTML. La proprietà di tipo booleano ha il valore predefinito false, tuttavia, se impostata su true, l'API esegue il rendering delle linee della griglia per l'intervallo di dati disponibile in formato HTML.
 
 {{% alert color="primary" %}} 
 
@@ -359,4 +359,4 @@ Aspose.Cells.GridWeb for .NET 8.8.3 ha esposto la proprietà SessionStorePath ch
 Di seguito è riportato il semplice scenario di utilizzo.
 ## **API rimosse**
 ### **Metodo Workbook.Decrypt rimosso**
-La suddetta proprietà è stata contrassegnata come obsoleta qualche tempo fa. Questa versione lo ha completamente rimosso dal pubblico API. Si consiglia di impostare la proprietà WorkbookSettings.Password su null per raggiungere lo stesso obiettivo.
+La suddetta proprietà è stata contrassegnata come obsoleta qualche tempo fa. Questa versione lo ha completamente rimosso dall'API pubblica. Si consiglia di impostare la proprietà WorkbookSettings.Password su null per raggiungere lo stesso obiettivo.

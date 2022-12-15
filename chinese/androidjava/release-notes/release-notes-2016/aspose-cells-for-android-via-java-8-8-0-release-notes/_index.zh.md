@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 8.8.0 发行说明
+title: Aspose.Cells for Android via Java 8.8.0 发行说明
 type: docs
 weight: 40
 url: /zh/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
@@ -80,7 +80,7 @@ url: /zh/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 |CELLSJAVA-41809|通过 NameCollection 设置公式时，Worksheet.calculateFormula 抛出空指针异常|例外|
 |CELLSJAVA-41808|java.lang.NullPointerException 在 Workbook.save|例外|
 ## **公共 API 和向后不兼容的更改**
-以下是对公共 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 ### **添加 HTMLLoadOptions.DeleteRedundantSpaces 属性**
 指示文本换行时是否删除多余空格<br>标签。
 ### **废弃 LoadOptions.ConvertNumericData 属性并添加 TxtLoadOptions.ConvertNumericData 属性。**
@@ -100,6 +100,6 @@ url: /zh/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.7.1, Aspose.Cells for .NET v8.7.2, Aspose.Cells for .NET v8.8.0, Aspose.Cells for Java v8 .7.1、Aspose.Cells for Java v8.7.2 和 Aspose.Cells for Java v8.8.0 也包含在这个 Aspose.Cells for Android v8.8.0 中。
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.7.1, Aspose.Cells for .NET v8.7.2, Aspose.Cells for .NET v8.8.0, Aspose.Cells for Java v8. 7.1、Aspose.Cells for Java v8.7.2和Aspose.Cells for Java v8.8.0也包含在这个Aspose.Cells for Android v8.8.0中。
 
 {{% /alert %}}

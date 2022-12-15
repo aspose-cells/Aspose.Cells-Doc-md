@@ -4,22 +4,22 @@ type: docs
 weight: 10
 url: /ar/reportingservices/getting-started/
 ---
- يتكون Aspose.Cells لخدمات التقارير من**جزئين** كالتالي:
+ Aspose.Cells for Reporting Services يتكون من**جزئين** كالتالي:
 
 - ***Aspose.Cells.Report.Designer***
 
 على & nbsp؛ & nbsp؛ & nbsp؛ & nbsp؛ هذه أداة لتصميم التقارير تتكامل مع MS Excel في شكل الوظائف الإضافية…. باستخدام Aspose.Cells.Report.Designer يمكن للمستخدمين تصميم قالب تقرير في MS Excel بدلاً من Visual Studio. ثم يتم تضمين قالب التقرير في ملف Reporting Services RDL ويمكن نشره على خادم التقارير. يمكن للمستخدمين أيضًا معاينة التقرير وتصديره في Aspose.Cells.Report.Designer.
 
-- ***Aspose.Cells. العارض لخدمات التقارير***
+- ***Aspose.Cells. العارض for Reporting Services***
 
-& nbsp؛ & nbsp؛ & nbsp؛ & nbsp؛ Aspose.Cells.Renderer for Reporting Services هو في الواقع تطبيق لـ Microsoft Reporting Services Rendering Extension. يمكنه تقديم تقارير RDL المصممة بواسطة كل من Visual Studio و Aspose.Cells.Report.Designer.
+على & nbsp؛ & nbsp؛ & nbsp؛ & nbsp؛ Aspose.Cells.Renderer for Reporting Services هو في الواقع تطبيق لـ Microsoft Reporting Services Rendering Extension. يمكنه تقديم تقارير RDL المصممة بواسطة كل من Visual Studio و Aspose.Cells.Report.Designer.
 
 
-**كيفية الحصول على Aspose.Cells لخدمات التقارير.** 
+**كيفية الحصول على Aspose.Cells for Reporting Services.** 
 
 - [تحميل]( https://downloads.aspose.com/cells/reportingservices/ )
 
-**كيفية تثبيت Aspose.Cells لخدمات التقارير.**
+**كيفية تثبيت Aspose.Cells for Reporting Services.**
 
 - [تثبيت MSI](/cells/ar/reportingservices/using-msi-installer/)
 - [تركيب مانول](/cells/ar/reportingservices/using-dll-only/)
@@ -32,7 +32,7 @@ url: /ar/reportingservices/getting-started/
 - [دعم التوقيعات الرقمية](/cells/ar/reportingservices/support-for-digital-signatures/)
 - [المزيد من الميزات](/cells/ar/reportingservices/features/).
 
-**يتضمن هذا القسم المواضيع الأخرى التالية:**
+**يتضمن هذا القسم الموضوعات الأخرى التالية:**
 
 - [نظرة عامة على المنتج](/cells/ar/reportingservices/product-overview/)
 - [أنواع الإصدارات](/cells/ar/reportingservices/edition-types/)

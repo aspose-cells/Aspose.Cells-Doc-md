@@ -16,9 +16,9 @@ Bir istemci Rapor Sunucusu URL'si yapılandırmak için:
 
 1. Rapor sunucusu yapılandırma bilgilerini girin (URL, kullanıcı adı ve parola).
  1. Rapor Sunucusu URL'si http://host/ReportServer biçiminde olmalıdır. Örneğin http://172.16.204.11/ReportServer.
-1. Kullanıcı adı, Windows Sunucusu kullanıcı adıdır. Örneğin, Yönetici.
+ 1. Kullanıcı adı, Windows Sunucusu kullanıcı adıdır. Örneğin, Yönetici.
  1. Parola, Windows Server kullanıcı parolasıdır. Örneğin, 123456.
- 1. Etki Alanının varsayılan değeri null'dur.
+1. Etki Alanının varsayılan değeri null'dur.
 1.  Tıkla**Ölçek** Yapılandırma bilgilerini kontrol etmek için düğme.
 1.  Tıklamak**Kaydetmek** ve rapor sunucusu yapılandırma bilgilerini kaydedin.
 

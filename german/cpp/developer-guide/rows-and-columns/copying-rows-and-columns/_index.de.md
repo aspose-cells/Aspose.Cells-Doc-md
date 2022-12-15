@@ -6,7 +6,7 @@ url: /de/cpp/copying-rows-and-columns/
 ---
 ## **Einführung**
 Manchmal müssen Sie Zeilen und Spalten in einem Arbeitsblatt kopieren, ohne das gesamte Arbeitsblatt zu kopieren. Mit Aspose.Cells ist es möglich, Zeilen und Spalten innerhalb oder zwischen Arbeitsmappen zu kopieren.
-Wenn eine Zeile (oder Spalte) kopiert wird, werden die darin enthaltenen Daten einschließlich Formeln - mit aktualisierten Referenzen - und Werte, Kommentare, Formatierungen, ausgeblendete Zellen, Bilder und andere Zeichenobjekte ebenfalls kopiert.
+Wenn eine Zeile (oder Spalte) kopiert wird, werden die darin enthaltenen Daten, einschließlich Formeln – mit aktualisierten Referenzen – und Werte, Kommentare, Formatierungen, ausgeblendete Zellen, Bilder und andere Zeichnungsobjekte ebenfalls kopiert.
 ## **Kopieren von Zeilen und Spalten mit Microsoft Excel**
 1. Wählen Sie die Zeile oder Spalte aus, die Sie kopieren möchten.
 1.  Um Zeilen oder Spalten zu kopieren, klicken Sie auf**Kopieren** auf der**Standard** Symbolleiste oder drücken Sie**STRG**+**C**.

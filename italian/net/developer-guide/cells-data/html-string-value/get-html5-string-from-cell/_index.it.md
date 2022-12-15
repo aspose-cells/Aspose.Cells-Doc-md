@@ -6,7 +6,7 @@ url: /it/net/get-html5-string-from-cell/
 ---
 ## **Possibili scenari di utilizzo**
 
-Aspose.Cells restituisce la stringa HTML della cella utilizzando il[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) metodo che accetta un parametro booleano. Se passi**falso**come parametro, restituirà HTML normale ma se passi**VERO** come parametro, restituirà la stringa HTML5.
+Aspose.Cells restituisce la stringa HTML della cella utilizzando il[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) metodo che accetta un parametro booleano. Se passi**falso** come parametro, restituirà HTML normale ma se passi**VERO** come parametro, restituirà la stringa HTML5.
 
 ## **Ottieni la stringa HTML5 da Cell**
 

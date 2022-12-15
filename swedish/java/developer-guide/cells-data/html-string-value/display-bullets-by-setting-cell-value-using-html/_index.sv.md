@@ -3,7 +3,7 @@ title: Visa punktpunkter genom att ställa in Cell Värde med HTML
 type: docs
 weight: 120
 url: /sv/java/display-bullets-by-setting-cell-value-using/
-description: Lär dig hur du lägger till punkter i Excel Cells med HTML och Aspose.Cells för Java API.
+description: Lär dig hur du lägger till punkter i Excel Cells med HTML och Aspose.Cells for Java API.
 keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
 ---
 {{% alert color="primary" %}}

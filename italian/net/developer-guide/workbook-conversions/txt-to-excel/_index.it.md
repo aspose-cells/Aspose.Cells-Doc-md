@@ -13,13 +13,13 @@ Usando Aspose.Cells, puoi convertire il file CSV in Excel, OpenOffice, Pdf, Json
 
 ## **Apertura di file CSV**
 
-file CSV (Comma Separated Values) contengono record in cui i valori sono separati da virgole. I dati vengono archiviati come una tabella in cui ogni colonna è separata dal carattere virgola e quotata dal carattere virgoletta doppia. Se un valore di campo contiene un carattere di doppia virgoletta, viene preceduto da una coppia di caratteri di doppia virgoletta. Puoi anche utilizzare Microsoft Excel per esportare i dati del foglio di calcolo in CSV.
+I file CSV (Comma Separated Values) contengono record in cui i valori sono separati da virgole. I dati vengono archiviati come una tabella in cui ogni colonna è separata dal carattere virgola e quotata dal carattere virgoletta doppia. Se un valore di campo contiene un carattere di doppia virgoletta, viene preceduto da una coppia di caratteri di doppia virgoletta. Puoi anche utilizzare Microsoft Excel per esportare i dati del foglio di calcolo in formato CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
 
 ## **Apertura di file CSV e sostituzione di caratteri non validi**
 
-In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto da Aspose.Cells API che è dimostrato nell'esempio di codice riportato di seguito.
+In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto dall'API Aspose.Cells che è dimostrato nell'esempio di codice fornito di seguito.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 

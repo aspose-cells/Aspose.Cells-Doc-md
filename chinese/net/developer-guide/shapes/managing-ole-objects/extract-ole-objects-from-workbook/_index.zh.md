@@ -21,7 +21,7 @@ url: /zh/net/extract-ole-objects-from-workbook/
 
 |**带有 OLE 对象的模板文档 (OleFile.xls)**|
 |:- |
-|![待办事项：图片_替代_文本](extract-ole-objects-from-workbook_1.png)|
+|![待办事项：图像_替代_文本](extract-ole-objects-from-workbook_1.png)|
 
 接下来提取 OLE 对象并将它们以各自的文件类型保存到硬盘。
 

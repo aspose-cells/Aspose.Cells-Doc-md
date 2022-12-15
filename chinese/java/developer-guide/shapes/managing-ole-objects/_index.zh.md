@@ -29,17 +29,17 @@ Aspose.Cells 支持在工作表中添加、提取和操作 OLE 对象。因此�
 
 **模板文件包含四个 OLE 对象** 
 
-![待办事项：图片_替代_文本](managing-ole-objects_1.png)
+![待办事项：图像_替代_文本](managing-ole-objects_1.png)
 
 运行代码后，我们可以根据各自的 OLE Objects 格式类型保存不同的文件。以下是一些已创建文件的屏幕截图。
 
 **提取的 XLS 文件** 
 
-![待办事项：图片_替代_文本](managing-ole-objects_2.png)
+![待办事项：图像_替代_文本](managing-ole-objects_2.png)
 
 **提取的PPT文件** 
 
-![待办事项：图片_替代_文本](managing-ole-objects_3.png)
+![待办事项：图像_替代_文本](managing-ole-objects_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-ole-ExtractingOLEObjects-1.java" >}}
 

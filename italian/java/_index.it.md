@@ -32,7 +32,7 @@ Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti
 - [Aspose.Cells for Java Pagina prodotto](https://products.aspose.com/cells/java/)
 - [Scarica Aspose.Cells for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
 - [Installa Aspose.Cells for Java dal repository Maven](/cells/it/java/installation/)
-- [Aspose.Cells for Java API Guida di riferimento](https://reference.aspose.com/cells/java)
+- [Aspose.Cells for Java Guida di riferimento API](https://reference.aspose.com/cells/java)
 - [Aspose.Cells for Java Forum di supporto gratuito](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Java Helpdesk di supporto a pagamento](https://helpdesk.aspose.com/)
 

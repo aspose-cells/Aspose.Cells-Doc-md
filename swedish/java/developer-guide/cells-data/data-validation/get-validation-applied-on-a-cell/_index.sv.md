@@ -12,7 +12,7 @@ keywords: apply cell validation in excel with java, apply validation on a cell i
 
 {{% /alert %}}
 
- Följande ögonblicksbild visar exempel på Microsoft Excel-filen som används i exempelkoden nedan. Cell**C1** har**decimal validering** tillämpas och kan bara ta värden**mellan 10 och 20**.
+ Följande ögonblicksbild visar exemplet Microsoft Excel-fil som används i exempelkoden nedan. Cell**C1** har**decimal validering** tillämpas och kan bara ta värden**mellan 10 och 20**.
 
 **En cell med validering**
 

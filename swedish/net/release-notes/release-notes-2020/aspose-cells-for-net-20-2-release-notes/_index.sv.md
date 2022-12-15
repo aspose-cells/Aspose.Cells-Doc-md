@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 20.2 Release Notes
+title: Aspose.Cells for .NET 20.2 Release Notes
 type: docs
 weight: 60
 url: /sv/net/aspose-cells-for-net-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 20.2](https://www.nuget.org/packages/Aspose.Cells/20.2.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 20.2](https://www.nuget.org/packages/Aspose.Cells/20.2.0).
 
 {{% /alert %}} 
 
@@ -20,7 +20,7 @@ url: /sv/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-42065|Tidigare beräknade Pivot Procent bryter efter pivot.CalculateData()|Insekt|
 |CELLSNET-47102|"#" visas efter konvertering av Excel till PDF i anpassat format för negativ tid (h:mm)|Insekt|
 |CELLSNET-47118|Felaktigt värde 'TRUE' hämtat från Cell istället för värdet 'FALSE'|Insekt|
-|CELLSNET-47125|Mellanslag går förlorade från formeln när de hämtas med Aspose.Cells för .NET|Insekt|
+|CELLSNET-47125|Mellanslag går förlorade från formeln när de hämtas med Aspose.Cells for .NET|Insekt|
 |CELLSNET-47149|Formelberäkning är annorlunda i Aspose.Cells och MS Excel|Insekt|
 |CELLSNET-47108|Villkorlig formatering visas inte i GridDesktop|Insekt|
 |CELLSNET-47134|Att infoga kolumn tar för lång tid i Aspose.Cells.GridDesktop|Insekt|
@@ -47,8 +47,8 @@ url: /sv/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47105|Undantag vid import av XML-data där en kolumn i tabellen inte är mappad|Undantag|
 |CELLSNET-47170|Undantag "Ogiltig cast från 'DateTime' to 'Double'" när du sparar en Excel-fil till PDF|Undantag|
 |CELLSNET-47152|Arbetsblad.Cells.EndCellInRow ger fel för filen|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoden Workbook.ParseFormulas(bool ignoreError).**
 Analyserar alla formler som inte har analyserats när de laddades eller sattes till en cell.
 #### **Lägger till egenskapen PivotTable.ExternalConnectionDataSource.**

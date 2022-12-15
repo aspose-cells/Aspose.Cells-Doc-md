@@ -5,7 +5,7 @@ weight: 70
 url: /ar/java/split-panes-in-php/
 ---
 ## **Aspose.Cells - تقسيم الأجزاء**
- لتقسيم الأجزاء باستخدام**Aspose.Cells Java لـ PHP** ، ببساطة استدعاء**SplitPanes** وحدة.
+ لتقسيم الأجزاء باستخدام**Aspose.Cells Java for PHP** ، ببساطة استدعاء**SplitPanes** وحدة.
 
 **كود PHP**
 
@@ -32,7 +32,7 @@ $book->getWorksheets()->get(0)->split();
 $book->save($dataDir . "book.out.xls", $saveFormat->EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**تقسيم الأجزاء (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)

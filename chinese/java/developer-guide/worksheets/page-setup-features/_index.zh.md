@@ -8,7 +8,7 @@ url: /zh/java/page-setup-features/
 
 **页面选项** 
 
-![待办事项：图片_替代_文本](page-setup-features_1.png)
+![待办事项：图像_替代_文本](page-setup-features_1.png)
 
 Aspose.Cells 完全支持页面设置选项。本文介绍如何使用 Aspose.Cells 设置页面选项。
 
@@ -111,7 +111,7 @@ Aspose.Cells 完全支持 Microsoft Excel 的页面设置选项。开发人员�
 
 **Microsoft Excel 中的页边距**
 
-![待办事项：图片_替代_文本](page-setup-features_2.png)
+![待办事项：图像_替代_文本](page-setup-features_2.png)
 
 Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)表示 Microsoft Excel 文件。 Workbook 类包含允许访问 Excel 文件中的每个工作表的 Worksheets 集合。工作表由[**工作表**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)班级。
 
@@ -146,7 +146,7 @@ Worksheet 类提供了 PageSetup 属性，用于设置页面设置选项。 Page
 
 **页面设置对话框** 
 
-![待办事项：图片_替代_文本](page-setup-features_3.png)
+![待办事项：图像_替代_文本](page-setup-features_3.png)
 
 Aspose.Cells 允许在运行时将页眉和页脚添加到工作表，但建议在预先设计的文件中手动设置页眉和页脚以进行打印。您可以使用 Microsoft Excel 作为 GUI 工具轻松设置页眉和页脚以减少开发时间。 Aspose.Cells 可以导入文件并保留这些设置。
 
@@ -189,7 +189,7 @@ Aspose.Cells 允许在运行时将页眉和页脚添加到工作表，但建议�
 
 **在页眉/页脚中插入图形** 
 
-![待办事项：图片_替代_文本](page-setup-features_4.png)
+![待办事项：图像_替代_文本](page-setup-features_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertImageInHeaderFooter-InsertImageInHeaderFooter.java" >}}
 
@@ -216,7 +216,7 @@ Microsoft Excel 的页面设置设置提供了多个打印选项（也称为工�
 
 **打印（纸张）选项** 
 
-![待办事项：图片_替代_文本](page-setup-features_5.png)
+![待办事项：图像_替代_文本](page-setup-features_5.png)
 
 ### **设置打印和工作表选项**
 

@@ -22,11 +22,11 @@ OOXML SpreadsheetML 文档通常以 XLSX 文件的形式出现，它们是 ZIP �
 
 **由 Aspose.Cells 生成并在 Microsoft Excel 中打开的 XLSX 文档** 
 
-![待办事项：图片_替代_文本](spreadsheetml-xlsx-xml_1.png)
+![待办事项：图像_替代_文本](spreadsheetml-xlsx-xml_1.png)
 
 **Aspose.Cells生成的XLSX文档遵循Open Packaging Convention，可以在支持ZIP的应用程序中打开** 
 
-![待办事项：图片_替代_文本](spreadsheetml-xlsx-xml_2.png)
+![待办事项：图像_替代_文本](spreadsheetml-xlsx-xml_2.png)
 ## **OOXML 是开放的，为什么要使用 Aspose.Cells？**
 的确，Office Open XML 技术可以仅使用 XML 类来构建文档处理和生成应用程序，而无需依赖第三方库（例如 Aspose.Cells）。但是，我们坚信，当您拥有处理 OOXML 文档，而不是通过 XML 或其他库工作。
 

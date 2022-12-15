@@ -36,19 +36,19 @@ url: /zh/net/combine-multiple-workbooks-into-a-single-workbook/
 
 **图表工作簿的第一个工作表 - 堆叠** 
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
 **图表工作簿的第二个工作表 - 线** 
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
 **图片工作簿的第一个工作表——图片** 
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
 **组合工作簿中的所有三个工作表 - 堆叠、线条、图片** 
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
 

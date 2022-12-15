@@ -8,7 +8,7 @@ url: /it/reportingservices/formula-list/
 
 |**Imposta nome** |**Nome formula**|**Descrizione**|
 |:- |:- |:- |
-| Campi globali| Tempo di esecuzione| La data e l'ora in cui è iniziata l'esecuzione del rapporto.|
+| Campi globali| Tempo di esecuzione|La data e l'ora in cui è iniziata l'esecuzione del rapporto.|
 || ReportServerUrl| L'URL del server di report in cui viene eseguito il report.|
 || ReportName| Il nome del report archiviato nel database del server di report.|
 || Segnalacartella| Il percorso completo della cartella contenente il rapporto. Questo non include l'URL del server di report.|
@@ -35,7 +35,7 @@ Gli operatori aritmetici vengono utilizzati per combinare numeri, variabili nume
 ||- | Sottrazione, ad esempio 4 – 3.|
 | Confronto|< | Meno di, ad esempio 4< 3 false. |
 ||<= | Minore o uguale, ad esempio 4<= 3 false. |
-||> | Maggiore di, ad esempio 4 > 3 vero.|
+||> | Maggiore di, ad esempio 4 > 3 true.|
 ||>= | Maggiore o uguale, ad esempio 4 >= 3 true.|
 ||= | Uguale, ad esempio 4 = 3 falso.|
 ||<> | Non uguale, ad esempio 4<> 3 vero.|

@@ -20,6 +20,6 @@ Aspose.Cells API 提供[工作簿设计器](https://reference.aspose.com/cells/n
 
 其余过程包括加载包含智能标记的设计器电子表格[工作簿设计器](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)并通过设置数据源进行处理。为了使示例保持简单，我们使用了一个仅包含两个智能标记的预定义设计器电子表格，如下面的快照所示，其中动态创建数据源以根据指定的智能标记合并数据。
 
-|![待办事项：图片_替代_文本](getting-notifications-while-merging-data-with-smart-markers_1.png)|
+|![待办事项：图像_替代_文本](getting-notifications-while-merging-data-with-smart-markers_1.png)|
 |:- |
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetSmartMarkerNotifications-1.cs" >}}

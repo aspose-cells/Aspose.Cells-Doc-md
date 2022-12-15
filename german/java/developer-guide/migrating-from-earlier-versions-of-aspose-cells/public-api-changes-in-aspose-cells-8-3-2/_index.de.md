@@ -98,7 +98,7 @@ ret = chart.hasAxis(AxisType.VALUE, false);
 System.out.println("Has Seconary Value Axis: " + ret);
 
 {{< /highlight >}}
-### **Methode WorkbookSettings.checkWriteProtectedPassword hinzugefügt**
+### **Methode WorkbookSettings.checkWriteProtectedPassword Hinzugefügt**
 Die Methode WorkbookSettings.checkWriteProtectedPassword ermöglicht es den Entwicklern zu überprüfen, ob ein gegebenes Passwort zum Ändern der Tabelle korrekt ist oder nicht.
 
 **Java**
@@ -172,7 +172,7 @@ Aspose.Cells 8.3.2 hat die Workbook.getNamedStyle-Methode verfügbar gemacht, di
 Aspose.Cells API hat es ermöglicht, zweidimensionale Arrays in Tabellenkalkulationszellen zu importieren, indem die Methode Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) bereitgestellt wird. Die genannte Methode importiert ein zweidimensionales Array von Daten in ein Arbeitsblatt mit flexibleren Optionen, die in TxtLoadOptions definiert sind.
 ### **Eigenschaften OnePagePerSheet, PageIndex & PageCount hinzugefügt**
 Aspose.Cells for Java 8.3.2 hat die OnePagePerSheet-, PageIndex- und PageCount-Eigenschaften für die XpsSaveOptions-Klasse verfügbar gemacht. Der Benutzer kann den gesamten Inhalt einer Tabelle mithilfe der OnePagePerSheet-Eigenschaft auf eine einzelne XPS-Seite packen und/oder die Anzahl der zu druckenden Seiten mithilfe der PageCount-Eigenschaft abrufen. Die PageIndex-Eigenschaft ruft/legt den 0-basierten Index der ersten zu speichernden Seite fest.
-### **Eigenschaften NumberDecimalSeparator & NumberGroupSeparator hinzugefügt**
+### **Eigenschaften NumberDecimalSeparator & NumberGroupSeparator Hinzugefügt**
 Aspose.Cells for Java 8.3.2 hat NumberDecimalSeparator- und NumberGroupSeparator-Eigenschaften eingeführt, mit denen die benutzerdefinierten Trennzeichen abgerufen/festgelegt werden können, die zum Formatieren und Analysieren der numerischen Werte in Tabellenkalkulationen verwendet werden.
 
 Der folgende Beispielcode veranschaulicht, wie die benutzerdefinierten Trennzeichen mithilfe von Aspose.Cells API angegeben werden. Der folgende Code gibt die benutzerdefinierten Dezimal- und Gruppentrennzeichen als Punkt bzw. Leerzeichen an.
@@ -190,7 +190,7 @@ workbook.getSettings().setNumberDecimalSeparator('.');
 workbook.getSettings().setNumberGroupSeparator(' ');
 
 {{< /highlight >}}
-### **Eigenschaft PdfSaveOptions.setFontSubstitutionCharGranularity Hinzugefügt**
+### **Eigenschaft PdfSaveOptions.setFontSubstitutionCharGranularity hinzugefügt**
 Aspose.Cells for Java 8.3.2 hat die PdfSaveOptions.setFontSubstitutionCharGranularity-Eigenschaft verfügbar gemacht, um das Problem zu lösen, bei dem einige Unicode-Zeichen nicht mit einer bestimmten Schriftartfamilie angezeigt werden können. Wenn die Eigenschaft PdfSaveOptions.setFontSubstitutionCharGranularity auf „true“ gesetzt ist, wird nur die Schriftart bestimmter Zeichen, die nicht angezeigt werden können, in eine anzeigbare Schriftart geändert, und der Rest des Wortes oder Satzes sollte in der ursprünglichen Schriftart bleiben.
 
 **Java**

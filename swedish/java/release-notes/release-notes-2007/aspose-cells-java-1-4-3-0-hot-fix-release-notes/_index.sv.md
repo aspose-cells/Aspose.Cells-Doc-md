@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 1.4.3.0 Hot Fix Release Notes
+title: Aspose.Cells Java 1.4.3.0 Versionsinformation om hotfix
 type: docs
 weight: 140
 url: /sv/java/aspose-cells-java-1-4-3-0-hot-fix-release-notes/
@@ -12,7 +12,7 @@ url: /sv/java/aspose-cells-java-1-4-3-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.4.3.0!Följande förbättringar och korrigeringar ingår:
+ Vi har släppt Aspose.Cells for Java V1.4.3.0!Följande förbättringar och korrigeringar ingår:
 
 - Stöder för att lägga till textrutor, kommentarer vid körning
 - Stöd för dokumentegenskaper

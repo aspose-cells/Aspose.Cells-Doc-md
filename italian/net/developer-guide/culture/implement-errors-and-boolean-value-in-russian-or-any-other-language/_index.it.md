@@ -6,7 +6,7 @@ url: /it/net/implement-errors-and-boolean-value-in-russian-or-any-other-language
 ---
 ## **Possibili scenari di utilizzo**
 
-Se si utilizza Microsoft Excel nella lingua o lingua russa o in qualsiasi altra lingua o lingua, visualizzerà errori e valori booleani in base a quella lingua o lingua. È possibile ottenere un comportamento simile utilizzando Aspose.Cells utilizzando il file**[Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings). Dovrai sovrascrivere i seguenti metodi di[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe.
+Se si utilizza Microsoft Excel nella lingua o lingua russa o in qualsiasi altra lingua o lingua, verranno visualizzati errori e valori booleani in base a quella lingua o lingua. È possibile ottenere un comportamento simile utilizzando Aspose.Cells utilizzando il file**[Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings). Dovrai sovrascrivere i seguenti metodi di[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe.
 
 - [**GlobalizationSettings.GetErrorValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
 - [**GlobalizationSettings.GetBooleanValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)

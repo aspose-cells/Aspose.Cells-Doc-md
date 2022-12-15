@@ -8,7 +8,7 @@ url: /zh/reportingservices/modifying-report-attributes/
 
 1. 点击**修改属性**在 Aspose.Cells.Report.Designer 工具栏上（
 
-![待办事项：图片_替代_文本](modifying-report-attributes_1.png)
+![待办事项：图像_替代_文本](modifying-report-attributes_1.png)
 
 ).
 可用报告列在左侧面板中。
@@ -17,7 +17,7 @@ url: /zh/reportingservices/modifying-report-attributes/
 
    **选择报告** 
 
-![待办事项：图片_替代_文本](modifying-report-attributes_2.png)
+![待办事项：图像_替代_文本](modifying-report-attributes_2.png)
 
 
 
@@ -26,7 +26,7 @@ url: /zh/reportingservices/modifying-report-attributes/
 
    **修改属性** 
 
-![待办事项：图片_替代_文本](modifying-report-attributes_3.png)
+![待办事项：图像_替代_文本](modifying-report-attributes_3.png)
 
 
 

@@ -16,7 +16,7 @@ Este artículo incluye el código fuente y el proyecto de demostración con toda
 
 Permite a los usuarios con una percepción detallada sobre cómo crear un informe comercial para ingresar datos en una hoja de trabajo de la cuadrícula y aplicar algún formato a las celdas en las filas y columnas, incrustar un gráfico basado en el rango de fuente de datos antes de guardar el informe excel al disco.
 ## **Los componentes Aspose**
- Yo uso tres de[Aspose](http://www.aspose.com/) Los componentes para realizar la tarea con facilidad.[Aspose](http://www.aspose.com/) , El editor de componentes .NET y Java proporciona una variedad de componentes ricos en funciones.[Aspose](http://www.aspose.com/) proporciona una gran línea de componentes .NET y Java. Con la confianza de miles de clientes en todo el mundo, los productos incluyen componentes de formato de archivo, productos de informes, componentes visuales y componentes de utilidad que permiten abrir, modificar, generar, guardar, fusionar, convertir, etc., mediante programación, documentos en varios formatos, incluidos DOC, RTF, WordML, HTML, PDF, XLS, SpreadsheetML, delimitado por tabuladores, CSV, PPT, SWF, EMF, WMF, MPX, MPD y otros formatos.
+ Yo uso tres de[Aspose](http://www.aspose.com/) Los componentes para realizar la tarea con facilidad.[Aspose](http://www.aspose.com/) , El editor de componentes .NET y Java proporciona una variedad de componentes ricos en características.[Aspose](http://www.aspose.com/) proporciona una gran línea de componentes .NET y Java. Con la confianza de miles de clientes en todo el mundo, los productos incluyen componentes de formato de archivo, productos de informes, componentes visuales y componentes de utilidad que permiten abrir, modificar, generar, guardar, fusionar, convertir, etc., mediante programación, documentos en varios formatos, incluidos DOC, RTF, WordML, HTML, PDF, XLS, SpreadsheetML, delimitado por tabuladores, CSV, PPT, SWF, EMF, WMF, MPX, MPD y otros formatos.
 
 Aprovecharía esta oportunidad para presentarles tres de estos componentes que se han utilizado en esta búsqueda.
 ## **Aspose.Cells Controles de rejilla**
@@ -364,7 +364,7 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 {{< /highlight >}}
 ## **Producir el informe formateado (archivo .XLS) con gráfico utilizando el componente Aspose.Cells**
-Ahora, escribiré un código para guardar el informe formateado con el gráfico en el disco. yo utilizo**GridWeb** 's**Ahorrar**botón, El**GridWeb** 's**GuardarComando**El evento se activa cuando hace clic en el botón Guardar, así que lo manejaré. Aquí, uso**Aspose.Cells**componente para exportar el informe formateado a MS Excel, generar un gráfico e incrustarlo en el archivo de salida de Excel. No he insertado la imagen del gráfico (creada por**Aspose.Chart**componente) en lugar de crear el gráfico similar utilizando el API de**Aspose.Cells**para que pueda editar el gráfico en MS Excel según sus necesidades.
+Ahora, escribiré un código para guardar el informe formateado con el gráfico en el disco. yo utilizo**GridWeb** 's**Ahorrar**botón, El**GridWeb** 's**GuardarComando**El evento se activa cuando hace clic en el botón Guardar, así que lo manejaré. Aquí, uso**Aspose.Cells**componente para exportar el informe formateado a MS Excel, generar un gráfico e incrustarlo en el archivo de salida de Excel. No he insertado la imagen del gráfico (creado por**Aspose.Chart**componente) en lugar de crear el gráfico similar utilizando el API de**Aspose.Cells**para que pueda editar el gráfico en MS Excel según sus necesidades.
 
 
 

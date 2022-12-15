@@ -1,5 +1,5 @@
 ﻿---
-title: إضافة علامة مائية Word Art إلى التخطيط
+title: إضافة علامة مائية Word Art إلى مخطط
 type: docs
 weight: 10
 url: /ar/java/add-word-art-watermark-to-chart/
@@ -44,7 +44,7 @@ wordart.setHasLine(false);
 workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**

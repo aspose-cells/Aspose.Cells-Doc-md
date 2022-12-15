@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 19.12 发行说明
+title: Aspose.Cells for Android via Java 19.12 发行说明
 type: docs
 weight: 10
 url: /zh/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Aspose.Cells for Android 的发行说明，通过 Java 19.12。
+此页面包含 Aspose.Cells for Android via Java 19.12 的发行说明。
 
 {{% /alert %}} 
 
@@ -54,7 +54,7 @@ url: /zh/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-43060|将外部数据源设置为空后，Workbook.save 出现异常“java.lang.NullPointerException”|例外|
 |CELLSJAVA-42923|加载 XLS 文档时出现异常|例外|
 ## **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 ### **添加 Cells.RemoveDuplicates() 方法**
 删除范围的重复数据。
 ### **添加 OleObject.FullObjectBin 属性**

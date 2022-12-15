@@ -68,7 +68,7 @@ End Sub
 
 {{< /highlight >}}
 
- Du kan ladda ner[källfil för Excel](5112508.xlsm) och den[utdata Excel-fil](5112511.xlsm) från de angivna länkarna.
+ Du kan ladda ner[käll Excel-fil](5112508.xlsm) och den[utdata Excel-fil](5112511.xlsm) från de angivna länkarna.
 
 
 

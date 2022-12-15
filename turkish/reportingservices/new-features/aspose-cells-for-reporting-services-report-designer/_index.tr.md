@@ -1,5 +1,5 @@
 ﻿---
-title: Raporlama Hizmetleri Rapor Tasarımcısı için Aspose.Cells
+title: Aspose.Cells for Reporting Services Rapor Tasarımcısı
 type: docs
 weight: 100
 url: /tr/reportingservices/aspose-cells-for-reporting-services-report-designer/

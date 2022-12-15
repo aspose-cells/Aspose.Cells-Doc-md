@@ -6,7 +6,7 @@ url: /sv/net/export-microsoft-excel-file/
 ---
 {{% alert color="primary" %}} 
 
-Det är möjligt att skapa nya, eller manipulera befintliga Microsoft Excel-filer, på webbplatser i GUI-läge med hjälp av Aspose.Cells.GridWeb-kontroll. Filerna kan sedan sparas i Excel-filer. Aspose.Cells.GridWeb fungerar effektivt som kalkylarksredigerare online. Det här avsnittet beskriver hur du sparar rutnätsinnehåll i Excel-filer.
+Det är möjligt att skapa nya, eller manipulera befintliga Microsoft Excel-filer, på webbplatser i GUI-läge med Aspose.Cells.GridWeb-kontroll. Filerna kan sedan sparas i Excel-filer. Aspose.Cells.GridWeb fungerar effektivt som kalkylarksredigerare online. Det här avsnittet beskriver hur du sparar rutnätsinnehåll i Excel-filer.
 
 {{% /alert %}} 
 ## **Exportera Excel-filer**

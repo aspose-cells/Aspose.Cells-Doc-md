@@ -8,7 +8,7 @@ url: /tr/net/setting-shared-formula-in-aspose-cells/
 
 Verilerle dolu bir çalışma sayfanız olduğunu varsayalım.
 
- B2'de ilk veri satırı için satış vergisini hesaplayacak bir işlev eklemek istiyorsunuz. vergi**9%** . Satış vergisini hesaplayan formül şu şekildedir:**"=A2*0,09"**. Bu makalede, bu formülün Aspose.Cells ile nasıl uygulanacağı açıklanmaktadır.
+ B2'de ilk veri satırı için satış vergisini hesaplayacak bir işlev eklemek istiyorsunuz. vergi**9%** Satış vergisini hesaplayan formül şu şekildedir:**"=A2*0,09"**. Bu makalede, bu formülün Aspose.Cells ile nasıl uygulanacağı açıklanmaktadır.
 
 {{% /alert %}} 
 

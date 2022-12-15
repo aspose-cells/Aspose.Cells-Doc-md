@@ -1,10 +1,10 @@
 ﻿---
-title: Raporlama Hizmetleri 2.4.0 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 2.4.0 Sürüm Notları
 type: docs
 weight: 30
 url: /tr/reportingservices/aspose-cells-for-reporting-services-2-4-0-release-notes/
 ---
-Lütfen Reporting Services V2.4.0 için yeni bir Aspose.Cells sürümüne hoş geldiniz.
+Lütfen Aspose.Cells for Reporting Services V2.4.0'ın yeni sürümünü karşılayın.
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |

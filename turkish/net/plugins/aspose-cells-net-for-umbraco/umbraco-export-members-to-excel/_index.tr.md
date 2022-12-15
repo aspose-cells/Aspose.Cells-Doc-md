@@ -103,7 +103,7 @@ En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
 
 Kaynak kodunu açıp genişletmek için aşağıdakilerin kurulu olması gerekir.
 
-- Visual Studio 2010 veya üstü
+- Visual Studio 2010 veya üzeri
 
 Başlamak için lütfen bu basit adımları izleyin
 

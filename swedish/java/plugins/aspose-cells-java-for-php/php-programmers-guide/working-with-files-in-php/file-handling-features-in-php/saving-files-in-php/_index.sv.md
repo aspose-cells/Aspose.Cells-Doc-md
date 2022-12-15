@@ -6,7 +6,7 @@ url: /sv/java/saving-files-in-php/
 ---
 ## **Aspose.Cells - Spara filer**
 ### **Sparar filen på någon plats**
- Om utvecklare behöver spara sina filer med**Aspose.Cells Java för PHP** till någon lagringsplats kan de helt enkelt ange filnamnet (med dess fullständiga lagringssökväg) och önskat filformat (med hjälp av**FileFormatType**uppräkning) medan du anropar**spara**metod av**Arbetsbok**objekt.
+ Om utvecklare behöver spara sina filer med**Aspose.Cells Java for PHP** till någon lagringsplats kan de helt enkelt ange filnamnet (med dess fullständiga lagringssökväg) och önskat filformat (med hjälp av**FileFormatType**uppräkning) medan du anropar**spara**metod av**Arbetsbok**objekt.
 
 **PHP-kod**
 

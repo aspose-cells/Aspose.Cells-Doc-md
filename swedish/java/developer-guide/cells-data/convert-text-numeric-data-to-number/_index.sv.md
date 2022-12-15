@@ -3,16 +3,16 @@ title: Konvertera numeriska textdata till nummer
 type: docs
 weight: 150
 url: /sv/java/convert-text-numeric-data-to-number/
-description: Lär dig hur du konverterar siffror lagrade som text till siffror genom att använda Aspose.Cells för Java API.
+description: Lär dig hur du konverterar siffror som lagrats som text till siffror genom att använda Aspose.Cells for Java API.
 keywords: excel convert text to number, excel convert text to number java, excel convert text numeric data to number, excel convert text numeric data to number java, excel convert numeric text to number, excel convert numeric text to number java, excel convert numeric text to number with java, convert numeric text to number in excel with java, convert numeric text to number in excel with java, convert numeric string to number in excel with java, excel convert text numeric data to number java, excel convert numeric string to number java
 ---
 {{% alert color="primary" %}}
 
- Ibland vill du konvertera numerisk data som skrivits in som text till siffror. Du kan skriva in siffror som text i Microsoft Excel genom att till exempel sätta en apostrof före en siffra**'12345**. Excel behandlar sedan numret som en sträng. Aspose.Cells låter dig konvertera strängar till tal.
+ Ibland vill du konvertera numerisk data som skrivits in som text till siffror. Du kan ange siffror som text i Microsoft Excel genom att sätta en apostrof före en siffra, till exempel**'12345**. Excel behandlar sedan numret som en sträng. Aspose.Cells låter dig konvertera strängar till tal.
 
 {{% /alert %}}
 
-Aspose.Cells för Java API tillhandahåller[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()) metod som kan användas för att konvertera alla numeriska sträng- eller textdata till siffror.
+Aspose.Cells for Java API tillhandahåller[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()) metod som kan användas för att konvertera alla numeriska sträng- eller textdata till siffror.
 
  Följande skärmdump visar strängnummer i celler**A1:A17**. Strängnummer är justerade till vänster.
 
@@ -20,7 +20,7 @@ Aspose.Cells för Java API tillhandahåller[**Cells.convertStringToNumericValue(
 
 ![todo:image_alt_text](convert-text-numeric-data-to-number_1.png)
 
- Dessa strängnummer har konverterats till tal med hjälp av[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()i följande skärmdump. Som du kan se är de nu högerjusterade.
+Dessa strängnummer har konverterats till tal med hjälp av[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()) i följande skärmdump. Som du kan se är de nu högerjusterade.
 
 **Utdatafil: strängarna har konverterats till tal** 
 

@@ -6,7 +6,7 @@ url: /sv/net/how-to-change-the-comment-font-color/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel tillåter användare att lägga till kommentarer till celler för att lägga till ytterligare information och markera data. Utvecklare kan behöva anpassa kommentaren för att ange justeringsinställningar, textriktning Font Color, etc. Aspose.Cells tillhandahåller API:er för att utföra uppgiften.
+Microsoft Excel tillåter användare att lägga till kommentarer i celler för att lägga till ytterligare information och markera data. Utvecklare kan behöva anpassa kommentaren för att ange justeringsinställningar, textriktning Font Color, etc. Aspose.Cells tillhandahåller API:er för att utföra uppgiften.
 
 {{% /alert %}}
 

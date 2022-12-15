@@ -6,7 +6,7 @@ url: /sv/net/accessing-and-modifying-the-value-of-a-cell/
 ---
 {{% alert color="primary" %}} 
 
-vårt tidigare ämne har vi diskuterat om åtkomst till celler i ett kalkylblad. I det här ämnet kommer vi helt enkelt att utöka det ämnet för att visa utvecklare att hur de kan komma åt och ändra värdena på celler med hjälp av API:et för Aspose.Cells.GridDesktop.
+vårt tidigare ämne har vi diskuterat om åtkomst till celler i ett kalkylblad. I det här ämnet kommer vi helt enkelt att utöka det ämnet för att visa utvecklare att hur de kan komma åt och ändra värdena på celler med hjälp av API av Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
 ## **Få åtkomst till och ändra Cell Värde med Aspose.Cells.GridDesktop**

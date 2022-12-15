@@ -29,7 +29,7 @@ url: /zh/net/enable-different-gridweb-modes/
 
 **编辑模式下的 GridWeb 控件** 
 
-![待办事项：图片_替代_文本](enable-different-gridweb-modes_1.png)
+![待办事项：图像_替代_文本](enable-different-gridweb-modes_1.png)
 
 开发人员还可以通过将 GridWeb 控件的 EditMode 属性设置为 true，以编程方式切换到编辑模式。
 
@@ -49,7 +49,7 @@ url: /zh/net/enable-different-gridweb-modes/
 
 **视图模式下的 GridWeb 控件** 
 
-![待办事项：图片_替代_文本](enable-different-gridweb-modes_1.png)
+![待办事项：图像_替代_文本](enable-different-gridweb-modes_1.png)
 
 如果开发人员希望他们的用户只查看数据，那么他们可以通过将 GridWeb 控件的 EditMode 属性设置为 false 以编程方式切换到查看模式。
 

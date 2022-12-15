@@ -6,7 +6,7 @@ url: /it/java/use-error-checking-options/
 ---
 {{% alert color="primary" %}} 
 
-Microsoft Excel consente agli utenti di definire opzioni e regole di controllo degli errori. Gli utenti vedono spesso i controlli degli errori durante la creazione di formule, un piccolo triangolo nell'angolo in alto a destra di una cella evidenzia quando c'è un problema con una cella. Excel fornisce informazioni che aiutano gli utenti a correggere problemi comuni.
+Microsoft Excel consente agli utenti di definire opzioni e regole per il controllo degli errori. Gli utenti vedono spesso i controlli degli errori durante la creazione di formule, un piccolo triangolo nell'angolo in alto a destra di una cella evidenzia quando c'è un problema con una cella. Excel fornisce informazioni che aiutano gli utenti a correggere problemi comuni.
 
 {{% /alert %}} 
 ## **Tipi di errori**
@@ -30,7 +30,7 @@ Occasionalmente, i numeri potrebbero essere formattati e archiviati nelle celle 
 
  Il codice di esempio seguente mostra come disabilitare i numeri archiviati come opzione di controllo degli errori di testo per un foglio di lavoro nel file XLS modello utilizzando le API Aspose.Cells.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

@@ -20,6 +20,6 @@ url: /zh/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 ## **设置 Shape 或 TextBox 的文字效果的阴影**
 以下屏幕截图显示了[输出excel文件](5473446.xlsx)使用以下示例代码生成。屏幕截图还显示了**阴影**已设置为**偏移底部**.
 
-![待办事项：图片_替代_文本](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
+![待办事项：图像_替代_文本](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingTextEffectsShadowOfShapeOrTextbox-SettingTextEffectsShadowOfShapeOrTextbox.java" >}}

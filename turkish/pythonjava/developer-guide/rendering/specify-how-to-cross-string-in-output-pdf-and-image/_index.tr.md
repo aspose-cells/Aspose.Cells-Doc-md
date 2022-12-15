@@ -9,8 +9,8 @@ url: /tr/python-java/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - [TextCrossType.DEFAULT](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#DEFAULT): MS Excel gibi görüntüleme, bir sonraki hücreye bağlıdır. Bir sonraki hücre boşsa, dize kesişir veya kesilir.
 - [TextCrossType. CROSS_KEEP](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_KEEP): PDF/Görüntü dışa aktaran MS Excel'e benzer dizeyi görüntüleyin
-- [TextCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE): Diğer hücreleri geçerek tüm metni görüntüleyin ve çapraz hücrelerin metnini geçersiz kılın
-- [TextCrossType.STRICT_İÇİNDE_HÜCRE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL)Yalnızca hücrenin genişliği içindeki dize görüntüleniyor.
+- [TextCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE)Diğer hücreleri geçerek tüm metni görüntüleyin ve çapraz hücrelerin metnini geçersiz kılın
+- [TextCrossType.STRICT_İÇİNDE_HÜCRE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL): Yalnızca hücrenin genişliği içindeki dize görüntüleniyor.
 
 Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve farklı TextCrossType belirterek PDF/Görüntü biçiminde kaydeder. Örnek Excel dosyası ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir:
 

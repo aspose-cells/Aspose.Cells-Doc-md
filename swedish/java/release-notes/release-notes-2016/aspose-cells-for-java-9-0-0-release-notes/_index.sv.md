@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Java 9.0.0 Release Notes
+title: Aspose.Cells for Java 9.0.0 Release Notes
 type: docs
 weight: 40
 url: /sv/java/aspose-cells-for-java-9-0-0-release-notes/
@@ -8,7 +8,7 @@ url: /sv/java/aspose-cells-for-java-9-0-0-release-notes/
 
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
-|CELLSJAVA-41947 | Möjlighet att upptäcka om en DataPoint är i Pie eller Bar| Ny funktion|
+|CELLSJAVA-41947 | Möjlighet att upptäcka om en DataPoint är i Pie eller Bar|Ny funktion|
 |CELLSJAVA-41827 | Kalkylark tar mer än 3 minuter att beräkna formler när du använder metoden Workbook.calculateFormula()| Förbättring|
 |CELLSJAVA-41969 | Cell skuggning saknas vid konvertering av HTML till XLSX-filformat| Insekt|
 |CELLSJAVA-41955 | Arbetsbok till HTML visar '#' i cellerna| Insekt|
@@ -31,8 +31,8 @@ url: /sv/java/aspose-cells-for-java-9-0-0-release-notes/
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
 |CELLSJAVA-41965 |Skaffa versionen som CELLSNET-44565 och CELLSNET-44676 som också behövs för GridWeb (Java)| Förbättring|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen Shape.TextOptions**
 Representerar formens textalternativ.
 ### **Obsoletes Worksheet.SetBackground-metod**

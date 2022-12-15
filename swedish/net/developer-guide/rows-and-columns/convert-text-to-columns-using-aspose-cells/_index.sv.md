@@ -6,7 +6,7 @@ url: /sv/net/convert-text-to-columns-using-aspose-cells/
 ---
 ## **Möjliga användningsscenarier**
 
-Du kan konvertera din text till kolumner med Microsoft Excel. Denna funktion är tillgänglig från*Dataverktyg* under*Data* flik. För att dela upp innehållet i en kolumn i flera kolumner bör data innehålla en specifik avgränsare som ett kommatecken (eller något annat tecken) baserat på vilket Microsoft Excel delar upp innehållet i en cell till flera celler. Aspose.Cells tillhandahåller också denna funktion via[**Arbetsblad.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)metod.
+Du kan konvertera din text till kolumner med Microsoft Excel. Denna funktion är tillgänglig från*Dataverktyg* under*Data* flik. För att dela upp innehållet i en kolumn till flera kolumner bör data innehålla en specifik avgränsare som ett kommatecken (eller något annat tecken) baserat på vilket Microsoft Excel delar upp innehållet i en cell till flera celler. Aspose.Cells tillhandahåller också denna funktion via[**Arbetsblad.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)metod.
 
 ## **Konvertera text till kolumner med Aspose.Cells**
 

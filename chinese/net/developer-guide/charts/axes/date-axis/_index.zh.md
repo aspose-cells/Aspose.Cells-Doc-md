@@ -13,6 +13,6 @@ url: /zh/net/date-axis/
 然后我们添加一个图表并设置图表的类型[**轴**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis) 
 至[**时标**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/categorytype/)然后将基本单位设置为天。
 
-![待办事项：图片_替代_文本](excel.png)
+![待办事项：图像_替代_文本](excel.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DateAxis.cs" >}}

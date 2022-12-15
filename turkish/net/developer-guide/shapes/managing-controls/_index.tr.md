@@ -61,7 +61,7 @@ Aşağıdaki örnek, çalışma sayfasına bir onay kutusunun nasıl ekleneceği
 
 ## **Çalışma Sayfasına Radyo Düğmesi Denetimi Ekleme**
 
-Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir kontroldür. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
+Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir denetimdir. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
 
 ### **Microsoft Excel'i kullanma**
 

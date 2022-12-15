@@ -1,16 +1,16 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.0.0
+title: Offentlig API Ändringar i Aspose.Cells 8.0.0
 type: docs
 weight: 10
 url: /sv/net/public-api-changes-in-aspose-cells-8-0-0/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan listar offentliga API-ändringar som introducerades i Aspose.Cells 8.0.0. Den innehåller inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka den befintliga koden.
+Den här sidan listar offentliga API ändringar som infördes i Aspose.Cells 8.0.0. Den innehåller inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka den befintliga koden.
 
 {{% /alert %}} 
 ## **Lade till MemorySetting till LoadOptions & WorkbookSettings**
-Från och med v8.0.0 av Aspose.Cells för .NET har vi tillhandahållit alternativen för minnesanvändning för prestanda. MemorySetting-egenskapen är nu tillgänglig i klasserna LoadOptions & WorkbookSettings.
+Från och med v8.0.0 av Aspose.Cells for .NET har vi tillhandahållit minnesanvändningsalternativen för prestandaöverväganden. MemorySetting-egenskapen är nu tillgänglig i klasserna LoadOptions & WorkbookSettings.
 ##### **Exempel**
 Demonstrerar hur man läser en Excel-fil (som har stor storlek) i optimerat läge.
 
@@ -131,6 +131,6 @@ Från och med nu kan användare använda den booleska egenskapen ShowFormulas so
 ## **Lade till Ooxml till FileFormatType**
 En ny konstant Ooxml har lagts till i klassen FileFormatType för att representera den krypterade Office open XML-filen som XLSX, DOCX, PPTX och mer.
 ## **Föråldrad FilterColumnCollection av AutoFilter**
-Med Aspose.Cells för Java har egenskapen FilterColumnCollection markerats som föråldrad. Det rekommenderas att använda egenskapen AuotFilter.FilterColumns istället.
+Med Aspose.Cells for Java har egenskapen FilterColumnCollection markerats som föråldrad. Det rekommenderas att använda egenskapen AuotFilter.FilterColumns istället.
 ## **Ersatte SeriesCollection.SecondCatergoryData med SeriesCollection.SecondCategoryData**
 Vi har i princip korrigerat stavfelet i egenskapsnamnet för SeriesCollection.SecondCatergoryData. Du kan använda egenskapen SeriesCollection.SecondCategoryData nu och framåt, medan den ursprungliga egenskapen SeriesCollection.SecondCatergoryData har markerats som föråldrad.

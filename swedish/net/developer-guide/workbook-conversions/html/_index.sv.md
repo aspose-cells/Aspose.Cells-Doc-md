@@ -4,7 +4,7 @@ type: docs
 weight: 230
 url: /sv/net/convert-excel-to-html/
 ---
-## **Konvertera Excel Workbook till HTML**
+## **Konvertera Excel-arbetsbok till HTML**
  Aspose.Cells API ger stöd för export av kalkylblad till HTML och format. För detta ändamål använder Aspose.Cells**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**klass för att ge flexibiliteten att kontrollera flera aspekter av utdata-HTML.
 
 Kodexemplet nedan visar hur man sparar en arbetsbok som en HTML-fil med C#:

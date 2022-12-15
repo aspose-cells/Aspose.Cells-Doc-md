@@ -6,13 +6,13 @@ url: /it/jasperreports/demos-setup/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells per JasperReports include una serie di progetti demo per aiutarti a iniziare a esportare report in formati di documenti Excel Microsoft dalla tua applicazione.
+Aspose.Cells for JasperReports include una serie di progetti demo per aiutarti a iniziare a esportare report in formati di documenti Microsoft Excel dalla tua applicazione.
 
-Le demo fornite con Aspose.Cells per JasperReports sono demo standard di JasperReports modificate per dimostrare l'utilizzo dei nuovi esportatori.
+Le demo fornite con Aspose.Cells for JasperReports sono demo standard di JasperReports modificate per dimostrare l'utilizzo dei nuovi esportatori.
 
 {{% /alert %}}
 
-Per eseguire Aspose.Cells per le demo di JasperReports, procedere come segue:
+Per eseguire le demo Aspose.Cells for JasperReports, procedere come segue:
 
 1.  Scarica JasperReports (es<https://sourceforge.net/projects/jasperreports/files/archive/>). Assicurati di scaricare l'intero progetto archiviato con il codice sorgente e le demo, non solo un singolo JAR.
 1. Scompattare il progetto archiviato in una posizione sul disco rigido, ad esempio C:\.
@@ -23,6 +23,6 @@ Per eseguire Aspose.Cells per le demo di JasperReports, procedere come segue:
    **\<path id="project-classpath"> ... \<pathelement location="../../lib/aspose.cells.jasperreports.jar"/> </path>**.
 1. Cambia la directory corrente in**\<DirInstall>\demo\hsqldb** ed eseguire la seguente riga di comando:
    **ant runServer**
-1.  Cambia la directory corrente in una delle Aspose.Cells per le demo di JasperReports, ad esempio**\<DirInstall>\demo\samples\ac.charts** ed eseguire i seguenti comandi nella riga di comando:
+1.  Cambia la directory corrente in una delle demo Aspose.Cells for JasperReports, ad esempio**\<DirInstall>\demo\samples\ac.charts** ed eseguire i seguenti comandi nella riga di comando:
    **prova della formica** - produrre file di report utilizzando l'esportatore XLS Aspose.
 1.  Apri uno dei documenti risultanti da visualizzare, ad esempio**\<DirInstall>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** in Microsoft Excel o un'altra applicazione.

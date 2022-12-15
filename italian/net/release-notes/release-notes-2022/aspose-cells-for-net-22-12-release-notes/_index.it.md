@@ -39,9 +39,9 @@ url: /it/net/aspose-cells-for-net-22-12-release-notes/
 |CELLSNET-52338| L'HTML di output è non deterministico|
 |CELLSNET-52344|Mancano collegamenti ipertestuali nella conversione da HTML a JSON|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge enum JsonExportHyperlinkType**
 
@@ -93,7 +93,7 @@ Usare invece SheetRender.GetPageSizeInch(System.Int32).
 
 ### **Elimina il metodo WorkbookRender.GetPageSize(System.Int32) obsoleto**
 
-Usare invece WorkbookRender.GetPageSizeInch(System.Int32).
+Utilizzare invece WorkbookRender.GetPageSizeInch(System.Int32).
 
 ### **Elimina l'enumerazione AutoShapeType.TextWave3 e AutoShapeType.TextWave4 obsoleta**
 

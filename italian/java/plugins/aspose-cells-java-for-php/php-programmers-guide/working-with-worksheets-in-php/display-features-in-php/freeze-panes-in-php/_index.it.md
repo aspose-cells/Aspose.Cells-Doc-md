@@ -5,7 +5,7 @@ weight: 40
 url: /it/java/freeze-panes-in-php/
 ---
 ## **Aspose.Cells - Congelamento Riquadri**
- Per bloccare i riquadri nel documento del foglio di calcolo utilizzando**Aspose.Cells Java per PHP** , semplicemente invocare**FreezePanes** modulo.
+ Per bloccare i riquadri nel documento del foglio di calcolo utilizzando**Aspose.Cells Giava for PHP** , semplicemente invocare**FreezePanes** modulo.
 
 **Codice PHP**
 

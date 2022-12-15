@@ -3,7 +3,7 @@ title: Konvertera CSV till JSON
 type: docs
 weight: 220
 url: /sv/net/convert-csv-to-json/
-description: Konvertera CSF-fil till JSON genom att använda den enkla att använda Aspose.Cells för .NET API.
+description: Konvertera CSF-fil till JSON genom att använda den enkla att använda Aspose.Cells for .NET API.
 keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
 ---
 ## **Konvertera CSV till JSON**
@@ -16,7 +16,7 @@ Aspose.Cells stöder konvertering av CSV till JSON. För detta tillhandahåller 
 
 De**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**class exporterar JSON med hjälp av exportalternativen som ställts in med**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**klass.
 
-Följande kodexempel visar användningen av**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**och**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** klasser för att ladda[käll-CSV-fil](104398879.csv)och skriver ut JSON-utdata i konsolen.
+Följande kodexempel visar användningen av**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**och**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**klasser för att ladda[käll-CSV-fil](104398879.csv)och skriver ut JSON-utdata i konsolen.
 
 ### **Exempelkod**
 

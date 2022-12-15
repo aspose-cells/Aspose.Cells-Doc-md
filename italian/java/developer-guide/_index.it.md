@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /it/java/developer-guide/
 ---
-## Utilizzo delle API Aspose.Cells Java.
+## Utilizzo delle API Java Aspose.Cells.
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
@@ -91,7 +91,7 @@ url: /it/java/developer-guide/
 		 <p>Filtro</p>
         <ul>
 		 <li><a href="/cells/it/java/data-filtering/">Filtraggio dei dati</a></li>
-         <li><a href="/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi</a></li>
+         <li><a href="/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi</a></li>
 		 <li><a href="/cells/it/java/get-all-hidden-rows-indices-after-refreshing-autofilter/">Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico</a></li>
         </ul>
         <p>Trova e seleziona</p>

@@ -5,11 +5,11 @@ weight: 80
 url: /sv/java/data-formatting/
 ---
 ## **Metoder för att formatera data i Cells**
-Det är ett vanligt faktum att om kalkylbladscellerna är korrekt formaterade så blir det lättare för användarna att läsa innehållet (data) i cellen. Det finns många sätt att formatera celler och deras innehåll. Det enklaste sättet är att formatera celler med Microsoft Excel i en WYSIWYG-miljö samtidigt som du skapar ett designerkalkylblad. Efter att designerkalkylarket har skapats kan du öppna kalkylarket med Aspose.Cells och behålla alla formatinställningar sparade med kalkylarket. Ett annat sätt att formatera celler och deras innehåll är att använda Aspose.Cells API. I det här ämnet kommer vi att beskriva två metoder för att formatera celler och deras innehåll med hjälp av Aspose.Cells API.
+Det är ett vanligt faktum att om kalkylbladscellerna är korrekt formaterade så blir det lättare för användarna att läsa innehållet (data) i cellen. Det finns många sätt att formatera celler och deras innehåll. Det enklaste sättet är att formatera celler med Microsoft Excel i en WYSIWYG-miljö samtidigt som du skapar ett designerkalkylblad. Efter att designerkalkylarket har skapats kan du öppna kalkylarket med Aspose.Cells och behålla alla formatinställningar sparade med kalkylarket. Ett annat sätt att formatera celler och deras innehåll är att använda Aspose.Cells API. I det här avsnittet kommer vi att beskriva två metoder för att formatera celler och deras innehåll med hjälp av Aspose.Cells API.
 ### **Formatering Cells**
- Utvecklare kan formatera celler och deras innehåll med det flexibla API:et Aspose.Cells. Aspose.Cells tillhandahåller en klass,[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[Arbetsbladssamling](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som ger åtkomst till varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass tillhandahåller en Cells-samling. Varje objekt i[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) samling representerar ett föremål för**Cell** klass.
+ Utvecklare kan formatera celler och deras innehåll med den flexibla API eller Aspose.Cells. Aspose.Cells tillhandahåller en klass,[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[Arbetsbladssamling](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som ger åtkomst till varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass tillhandahåller en Cells-samling. Varje objekt i[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)samling representerar ett föremål för**Cell** klass.
 
- Aspose.Cells tillhandahåller[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style)egendom i[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) klass, används för att ställa in formateringsstilen för en cell. Dessutom tillhandahåller Aspose.Cells också en[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) klass som används för att tjäna samma syfte. Använd olika typer av formateringsstilar på cellerna för att ställa in deras bakgrunds- eller förgrundsfärger, ramar, teckensnitt, horisontella och vertikala justeringar, indragsnivå, textriktning, rotationsvinkel och mycket mer.
+ Aspose.Cells tillhandahåller[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) egendom i[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) klass, används för att ställa in formateringsstilen för en cell. Dessutom tillhandahåller Aspose.Cells också en[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) klass som används för att tjäna samma syfte. Använd olika typer av formateringsstilar på cellerna för att ställa in deras bakgrunds- eller förgrundsfärger, ramar, teckensnitt, horisontella och vertikala justeringar, indragsnivå, textriktning, rotationsvinkel och mycket mer.
 #### **Använda setStyle-metoden**
  När du använder olika formateringsstilar på olika celler är det bättre att använda setStyle-metoden för[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) klass. Ett exempel ges nedan för att demonstrera användningen av setStyle-metoden för att tillämpa olika formateringsinställningar på en cell.
 
@@ -41,12 +41,12 @@ Detta tillvägagångssätt kan avsevärt förbättra effektiviteten för dina ap
 
 
 
-#### **Tillämpa övertoningsfyllningseffekter**
+#### **Använda Gradient Fill Effects**
 För att tillämpa önskade gradientfyllningseffekter på cellen, använd Style-objektets setTwoColorGradient-metod i enlighet med detta.
 #### **Kodexempel**
  Följande utdata uppnås genom att exekvera koden nedan.
 
-**Tillämpa övertoningsfyllningseffekter** 
+**Använda Gradient Fill Effects** 
 
 ![todo:image_alt_text](data-formatting_1.png)
 
@@ -80,7 +80,7 @@ Alla dessa justeringsinställningar stöds fullt ut av Aspose.Cells och diskuter
 
  Klassen Worksheet tillhandahåller en Cells-samling. Varje föremål i Cells-samlingen representerar ett objekt av[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) klass.
 
- Aspose.Cells tillhandahåller setStyle-metoden i[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)klass som används för en cells formatering. De[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) klass ger användbara egenskaper för att konfigurera teckensnittsinställningar.
+Aspose.Cells tillhandahåller setStyle-metoden i[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) klass som används för en cells formatering. De[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) klass ger användbara egenskaper för att konfigurera teckensnittsinställningar.
 
 Välj valfri textjusteringstyp med hjälp av uppräkningen TextAlignmentType. De fördefinierade textjusteringstyperna i TextAlignmentType-uppräkningen är:
 
@@ -222,7 +222,7 @@ Följande utdata uppnås om de tre cellerna i den första raden slås samman fö
 
 ![todo:image_alt_text](data-formatting_9.png)
 
- Använd[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)samlingens Merge-metod för att slå samman celler. Sammanfogningsmetoden tar följande parametrar:
+ Använd[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) samlingens Merge-metod för att slå samman celler. Sammanfogningsmetoden tar följande parametrar:
 
 - Första raden, första raden varifrån man ska börja sammanfoga.
 - Första kolumnen, den första kolumnen varifrån man ska börja slå samman.
@@ -307,7 +307,7 @@ Ett aktivt ark är det ark som du arbetar med i en arbetsbok. Namnet på fliken 
 ### **Aktivera ett ark och göra en Cell aktiv**
 Aspose.Cells tillhandahåller ett specifikt API för dessa uppgifter. Till exempel är metoden WorksheetCollection.setActiveSheetIndex användbar för att ställa in ett aktivt ark. På liknande sätt används metoden Worksheet.setActiveCell för att ställa in och få en aktiv cell i ett kalkylblad.
 
-Om du vill att de horisontella och vertikala rullningslisterna ska rullas till rad- och kolumnindexpositionen för att ge en bra bild av den valda data när filen öppnas i Microsoft Excel, använd egenskaperna Worksheet.setFirstVisibleRow och Worksheet.setFirstVisibleColumn.
+Om du vill att de horisontella och vertikala rullningslisterna ska rullas till rad- och kolumnindexpositionen för att ge en bra överblick över vald data när filen öppnas i Microsoft Excel, använd egenskaperna Worksheet.setFirstVisibleRow och Worksheet.setFirstVisibleColumn.
 
 Följande exempel visar hur man aktiverar ett kalkylblad och gör en cell i det aktiv. Rullningslisterna rullas för att göra den andra raden och den andra kolumnen som deras första synliga rad och kolumn.
 
@@ -349,7 +349,7 @@ Alla ovanstående klasser och metoder är tillgängliga med den licensierade ver
 ## **Formatera rader och kolumner**
 Formatering av rader och kolumner i ett kalkylblad för att ge rapporten ett utseende är möjligen den mest använda funktionen i Excel-applikationen. Aspose.Cells API:er tillhandahåller också denna funktionalitet genom sin datamodell genom att exponera Style-klassen som huvudsakligen hanterar alla stilrelaterade funktioner som typsnitt och dess attribut, justering av text, bakgrunds-/förgrundsfärger, ramar, visningsformat för siffror och datum bokstaver och så vidare . En annan användbar klass som Aspose.Cells API:er tillhandahåller är StyleFlag som tillåter återanvändning av Style-objektet.
 
-I den här artikeln kommer vi att försöka förklara hur man använder Aspose.Cells för Java API för att tillämpa formatering på rader och kolumner.
+I den här artikeln kommer vi att försöka förklara hur man använder Aspose.Cells for Java API för att tillämpa formatering på rader och kolumner.
 ### **Formatera rader och kolumner**
  Aspose.Cells tillhandahåller en klass,[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en WorksheetCollection som ger åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen Worksheet. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass tillhandahåller samlingen Cells. Cells-kollektionen tillhandahåller en rad-samling.
 #### **Formatera en rad**

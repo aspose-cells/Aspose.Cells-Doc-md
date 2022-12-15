@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.8.3
+title: Offentlig API Ändringar i Aspose.Cells 8.8.3
 type: docs
 weight: 290
 url: /sv/net/public-api-changes-in-aspose-cells-8-8-3/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för ActiveX-kontroller**
-Aspose.Cells för .NET 8.8.3 har avslöjat metoden AddActiveXControl som gör det möjligt att lägga till en ActiveX-kontroll till ShapeCollection. Den ovannämnda metoden kräver 7 parametrar för att specificera kontrolltyp, plats för att placera kontroll och storlek på kontroll. Typen kan specificeras med hjälp av ControlType-uppräkningen med följande möjliga värden.
+Aspose.Cells for .NET 8.8.3 har avslöjat metoden AddActiveXControl som gör det möjligt att lägga till en ActiveX-kontroll till ShapeCollection. Den ovannämnda metoden kräver 7 parametrar för att specificera kontrolltyp, plats för att placera kontroll och storlek på kontroll. Typen kan specificeras med hjälp av ControlType-uppräkningen med följande möjliga värden.
 
 1. ControlType.CheckBox
 1. ControlType.ComboBox
@@ -64,7 +64,7 @@ book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
 
 
 ### **Lade till LoadOptions.SetPaperSize Method**
-Aspose.Cells för .NET 8.8.3 gör det möjligt att ställa in standardstorleken för utskriftspapper från standardskrivarens inställning medan du använder den nyligen exponerade metoden LoadOptions.SetPaperSize som visas nedan. Observera att indataparametern för ovannämnda metod är värdet från uppräkningen PaperSizeType som innehåller de fördefinierade pappersstorlekarna.
+Aspose.Cells for .NET 8.8.3 gör det möjligt att ställa in standardstorleken för utskriftspapper från standardskrivarens inställning medan du använder den nyligen exponerade metoden LoadOptions.SetPaperSize som visas nedan. Observera att indataparametern för ovannämnda metod är värdet från uppräkningen PaperSizeType som innehåller de fördefinierade pappersstorlekarna.
 
 {{% alert color="primary" %}} 
 
@@ -94,7 +94,7 @@ var book = new Workbook(dir + "input.xlsx", loadOptions);
 
 
 ### **Lade till Cell.GetCharacters(flagga) Method**
-Aspose.Cells API:er gör det möjligt att hämta teckenobjekten i form av FontSetting-arrayen genom att använda metoden Cell.GetCharacters. Med den här versionen har Aspose.Cells för .NET API avslöjat en överbelastad version av Cell.GetCharacters som kan acceptera Boolean som parameter, vilket indikerar om tabellstilen måste tillämpas på cellen om cellen är en del av ett ListObject.
+Aspose.Cells API:er gör det möjligt att hämta teckenobjekten i form av FontSetting-arrayen genom att använda metoden Cell.GetCharacters. Med den här versionen har Aspose.Cells for .NET API avslöjat en överbelastad version av Cell.GetCharacters som kan acceptera Boolean som parameter, vilket indikerar om tabellstilen måste tillämpas på cellen om cellen är en del av ett ListObject.
 
 **C#**
 
@@ -126,7 +126,7 @@ var characters = cell.GetCharacters(true);
 
 
 ### **Lade till egenskapen OleObject.AutoLoad**
-Aspose.Cells för .NET 8.8.3 har exponerat egenskapen OleObject.AutoLoad som gör det möjligt att uppdatera OleObjects bild om innehållet/data för det underliggande objektet har ändrats. Den tidigare nämnda egenskapen när den är satt till true tvingar Excel-applikationen att uppdatera OleObjects bild när det resulterande kalkylbladet laddas.
+Aspose.Cells for .NET 8.8.3 har exponerat egenskapen OleObject.AutoLoad som gör det möjligt att uppdatera OleObjects bild om innehållet/data för det underliggande objektet har ändrats. Den tidigare nämnda egenskapen när den är satt till true tvingar Excel-applikationen att uppdatera OleObjects bild när det resulterande kalkylbladet laddas.
 
 {{% alert color="primary" %}} 
 
@@ -164,7 +164,7 @@ oleObject.AutoLoad = true;
 
 
 ### **Tillagd HTMLLoadOptions.SupportDivTag-egenskap**
-Aspose.Cells för .NET 8.8.3 har avslöjat egenskapen HTMLLoadOptions.SupportDivTag som gör det möjligt att analysera DIV-taggar inbäddade i TD-taggar medan HTML-filer/snippet laddas i objektmodellen Aspose.Cells. Boolesk typegenskap har standardvärdet false.
+Aspose.Cells for .NET 8.8.3 har exponerat HTMLLoadOptions.SupportDivTag-egenskapen som gör det möjligt att analysera DIV-taggar inbäddade i TD-taggar medan HTML-filer/snippet laddas i objektmodellen Aspose.Cells. Boolesk typegenskap har standardvärdet false.
 
 {{% alert color="primary" %}} 
 
@@ -276,7 +276,7 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **Tillagd HtmlSaveOptions.ExportGridLines Property**
-Aspose.Cells för .NET 8.8.3 har exponerat egenskapen HtmlSaveOptions.ExportGridLines som gör det möjligt att rendera rutnätslinjerna samtidigt som kalkylblad exporteras till HTML-format. Egenskapen boolesk typ har standardvärdet false, men när den är satt till true, återger API:et rutnätslinjerna för det tillgängliga dataintervallet i HTML-format.
+Aspose.Cells for .NET 8.8.3 har avslöjat egenskapen HtmlSaveOptions.ExportGridLines som gör det möjligt att rendera rutnätslinjerna samtidigt som kalkylblad exporteras till HTML-format. Egenskapen boolesk typ har standardvärdet false, men när den är inställd på true, återger API rutnätslinjerna för det tillgängliga dataintervallet i HTML-format.
 
 {{% alert color="primary" %}} 
 
@@ -348,7 +348,7 @@ book.Save(dir + "output.xlsx");
 
 
 ### **Lade till GridWeb.SessionStorePath-egenskap**
-Aspose.Cells.GridWeb för .NET 8.8.3 har exponerat SessionStorePath-egenskapen som gör det möjligt att hämta eller ställa in sessionslagringssökvägen när Session Mode är ViewState. Den ovannämnda egenskapen hämtar eller ställer in den relativa sökvägen till den aktuella webbapplikationens Baskatalog.
+Aspose.Cells.GridWeb for .NET 8.8.3 har exponerat SessionStorePath-egenskapen som gör det möjligt att hämta eller ställa in sessionslagringssökvägen när Session Mode är ViewState. Den ovannämnda egenskapen hämtar eller ställer in den relativa sökvägen till den aktuella webbapplikationens Baskatalog.
 
 {{% alert color="primary" %}} 
 
@@ -359,4 +359,4 @@ Aspose.Cells.GridWeb för .NET 8.8.3 har exponerat SessionStorePath-egenskapen s
 Följande är det enkla användningsscenariot.
 ## **Borttagna API:er**
 ### **Borttagen Workbook.Decrypt Method**
-Nämnda egendom märktes föråldrad för en tid sedan. Den här versionen har helt tagit bort den från det offentliga API:et. Det rekommenderas att ställa in WorkbookSettings.Password-egenskapen till null för att uppnå samma mål.
+Nämnda egendom märktes föråldrad för en tid sedan. Den här versionen har helt tagit bort den från den offentliga API. Det rekommenderas att ställa in WorkbookSettings.Password-egenskapen på null för att uppnå samma mål.

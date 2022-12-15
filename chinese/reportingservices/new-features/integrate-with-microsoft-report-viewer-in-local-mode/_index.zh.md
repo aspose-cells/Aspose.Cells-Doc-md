@@ -10,10 +10,10 @@ Microsoft Report Viewer 是一个功能强大的 .NET 控件，允许在 WinForm
 
 Report Viewer 可以使用内置引擎（称为“本地模式”）独立生成报告，也可以显示在 Microsoft SQL Server Reporting Services Report Server 上生成的报告（“远程模式”）：
 
-- 在远程模式下，报表查看器可以将报表导出为安装在它所连接的报表服务器上的所有格式。因此，要将报表导出为更多 Microsoft Excel 格式，只需在服务器上安装 Aspose.Cells for Reporting Services 即可。
+- 在远程模式下，报表查看器可以将报表导出为安装在它所连接的报表服务器上的所有格式。因此，要将报表导出为更多Microsoft Excel格式，只需在服务器上安装Aspose.Cells for Reporting Services即可。
 - 然而，在本地模式下，报表查看器不连接到报表服务器，并且导出格式列表仅限于几种内置格式。
 
-通过在开发计算机上安装 Aspose.Cells for Reporting Services 并按照以下步骤操作，您可以从以本地模式工作的报表查看器导出更多 Microsoft Excel 格式。
+通过在开发机器上安装 Aspose.Cells for Reporting Services 并按照以下步骤操作，您可以从在本地模式下工作的 Report Viewer 导出更多 Microsoft Excel 格式。
 
 {{% /alert %}} 
 ### **在本地模式下使用 Aspose.Cells**
@@ -22,11 +22,11 @@ Report Viewer 可以使用内置引擎（称为“本地模式”）独立生成
  1. 右击**参考**文件夹并选择**添加参考**.
 1. 选择**浏览**选项卡并浏览到以下程序集：
       <InstallDir>/ReportView/Aspose.Cells.ReportingServices.dll
- （在哪里<InstallDir>是您为 Reporting Services 安装或解压 Aspose.Cells 的目录。
+ （在哪里<InstallDir>是你安装或解压的目录 Aspose.Cells for Reporting Services.
 
       **将对 Aspose.Cells.ReportingServices.dll 的引用添加到项目** 
 
-![待办事项：图片_替代_文本](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
+![待办事项：图像_替代_文本](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
 
 
@@ -246,9 +246,9 @@ End Sub
 {{< /highlight >}}
 
 1. 从代码中调用 AddExtension 方法。
- - 只要您需要将 Reporting Services 导出格式的 Aspose.Cells 添加到 Report Viewer 控件实例，您就可以调用 AddExtension（如上一步所示）。考虑从表单调用_加载或页面_加载 WinForms 或 ASP .NET 应用程序的事件处理程序。
- - 您可以为 Reporting Services 导出格式添加全部或部分导出 Aspose.Cells。您可以为要在报表查看器中显示的格式指定任何显示名称。
-要在本地模式下将 Reporting Services 导出格式的 Aspose.Cells 添加到 Microsoft Report Viewer，请使用以下代码：
+ - 只要您需要将 Aspose.Cells for Reporting Services 导出格式添加到 Report Viewer 控件实例，您就可以调用 AddExtension（如上一步所示）。考虑从表单调用_加载或页面_加载 WinForms 或 ASP .NET 应用程序的事件处理程序。
+ - 您可以添加全部或仅部分导出 Aspose.Cells for Reporting Services 导出格式。您可以为要在报表查看器中显示的格式指定任何显示名称。
+要在本地模式下将 Aspose.Cells for Reporting Services 导出格式添加到 Microsoft Report Viewer，请使用以下代码：
 
 **C#**
 
@@ -289,11 +289,11 @@ End Sub
 {{< /highlight >}}
 
 1. 测试新的导出格式。
-1. 运行您的应用程序。
+ 1. 运行您的应用程序。
 您应该注意到在**出口**报告查看器中的菜单。
  1. 选择其中一种格式并运行导出。
  1. 确认文档是按照您预期的方式创建的。
 
 **新的导出格式出现在以本地模式运行的报表查看器中** 
 
-![待办事项：图片_替代_文本](integrate-with-microsoft-report-viewer-in-local-mode_2.png)
+![待办事项：图像_替代_文本](integrate-with-microsoft-report-viewer-in-local-mode_2.png)

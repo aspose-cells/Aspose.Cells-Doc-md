@@ -11,13 +11,13 @@ Aspose.Cells admite la mayoría de las fórmulas o funciones que forman parte de
 
 Use el método Cell.Formula para agregar una fórmula a una celda. Al aplicar una fórmula a una celda, siempre comience la cadena con un signo igual (=) como lo hace al crear una fórmula en Microsoft Excel. Use una coma (,) para delimitar los parámetros de la función.
 
- Para calcular los resultados de las fórmulas, llame al método Workbook.CalculateFormula() que procesa todas las fórmulas incrustadas en un archivo de Excel. Consulte el siguiente código de ejemplo que agrega la fórmula y calcula sus resultados. Por favor, checa el[archivo de salida de Excel](38109185.xlsx) generado con este código.
+Para calcular los resultados de las fórmulas, llame al método Workbook.CalculateFormula() que procesa todas las fórmulas incrustadas en un archivo de Excel. Consulte el siguiente código de ejemplo que agrega la fórmula y calcula sus resultados. Por favor, checa el[archivo de salida de Excel](38109185.xlsx) generado con este código.
 
 **Código de muestra**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-AddingFormulasAndCalculatingResults.cpp" >}}
 ## **Cálculo directo de fórmula**
-veces, necesita calcular los resultados de la fórmula directamente sin agregarlos a una hoja de cálculo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de cálculo y todo lo que necesita es encontrar el resultado de esos valores en función de alguna fórmula de Excel Microsoft sin agregar la fórmula en una hoja de cálculo.
+A veces, necesita calcular los resultados de la fórmula directamente sin agregarlos a una hoja de cálculo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de cálculo y todo lo que necesita es encontrar el resultado de esos valores en función de alguna fórmula de Excel Microsoft sin agregar la fórmula en una hoja de cálculo.
 
 Puede usar el método Worksheet.CalculateFormula(String formula) para calcular los resultados de dichas fórmulas sin agregarlas a la hoja de trabajo.
 

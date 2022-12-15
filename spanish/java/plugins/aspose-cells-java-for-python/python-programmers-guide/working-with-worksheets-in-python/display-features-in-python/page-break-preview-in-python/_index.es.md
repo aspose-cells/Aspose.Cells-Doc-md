@@ -5,7 +5,7 @@ weight: 60
 url: /es/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
- Para configurar la hoja de trabajo para la vista previa de salto de página usando**Aspose.Cells Java para Python** , simplemente invocar**La previsualización del salto de página** módulo.
+ Para configurar la hoja de trabajo para la vista previa de salto de página usando**Aspose.Cells Java for Python** , simplemente invocar**La previsualización del salto de página** módulo.
 
 **Código Python**
 

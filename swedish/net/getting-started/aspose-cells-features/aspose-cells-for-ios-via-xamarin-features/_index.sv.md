@@ -5,14 +5,14 @@ weight: 70
 url: /sv/net/aspose-cells-for-ios-via-xamarin-features/
 ---
 ## **Aspose.Cells för iOS via Xamarin Funktionsöversikt**
-Det här avsnittet ger en jämförelse av tillgängligheten för funktioner mellan Aspose.Cells för .NET och Aspose.Cells för iOS via Xamarin.
+Det här avsnittet ger en jämförelse av tillgängligheten för funktioner mellan Aspose.Cells for .NET och Aspose.Cells för iOS via Xamarin.
 ### **Filformat och konverteringar**
 Många kunder över hela världen litar på de grundliga dokumentimport- och exportfunktionerna som tillhandahålls av Aspose.Cells.
 
-|**Funktion**|**Beskrivning**|**.NETTO**|**Xamarin.iOS**|
+|**Funktion**|**Beskrivning**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |:- |
 |Högkvalitativa omvandlingar|Snabbt och tillförlitligt, konvertera mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel Workbook (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom,<br>komponenten stöder alla större Excel 2007, 2010 och 2013 filformat t.ex. XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Kommaseparerat värde (CSV)|Omfattande stöd för CSV-formatet för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|Spara som HTML är tillgängligt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -23,7 +23,7 @@ Många kunder över hela världen litar på de grundliga dokumentimport- och exp
 ### **Kalkylbladsinnehållsfunktioner**
 Aspose.Cells tillhandahåller en rik objektmodell som består av över 100 publika klasser/gränssnitt, som gör att du kan generera, kombinera, modifiera, analysera eller på annat sätt undersöka laddade kalkylblad. Några nyckelfunktioner ges i tabellen nedan.
 
-|**Funktion**|**.NETTO**|**Xamarin.iOS**|
+|**Funktion**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |
 |Importera/exportera data från en Array, ArrayList, ResultSet etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Lägg till en kopia av befintligt kalkylblad (allt innehåll inklusive bilder, diagram, andra objekt etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}} (Bilder och diagram stöds inte)|
@@ -62,7 +62,7 @@ Aspose.Cells tillhandahåller en rik objektmodell som består av över 100 publi
 ### **Kalkylbladsformateringsfunktioner**
 Aspose.Cells ger detaljerad programmatisk åtkomst till formateringsegenskaper för alla kalkylbladselement.
 
-|**Funktion**|**.NETTO**|**Xamarin.iOS**|
+|**Funktion**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |
 |Använd alla teckenformatering i cellerna inklusive teckensnitt, färger, effekter, ramar och skuggningar.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tillämpa alla inställningar för talformat (stöds i Microsoft Excel) för cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -76,7 +76,7 @@ Aspose.Cells ger detaljerad programmatisk åtkomst till formateringsegenskaper f
 ### **PageSetup-funktioner**
 Du kan använda Aspose.Cells för att implementera sidinställningar för kalkylblad.
 
-|**Funktion**|**.NETTO**|**Xamarin.iOS**|
+|**Funktion**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |
 |Justera sidans orientering, skalning, pappersstorlek.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange dina marginaler och sidcentrering.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|

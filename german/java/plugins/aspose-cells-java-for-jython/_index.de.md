@@ -10,9 +10,9 @@ url: /de/java/aspose-cells-java-for-jython/
 
 Jython ist eine Java-Implementierung von Python, die Ausdruckskraft mit Klarheit verbindet. Jython ist sowohl für die kommerzielle als auch für die nicht-kommerzielle Nutzung frei verfügbar und wird mit Quellcode verteilt. Jython ist komplementär zu Java und eignet sich besonders für folgende Aufgaben:
 
-- **Eingebettete Skripterstellung** Java Programmierer können die Jython-Bibliotheken zu ihrem System hinzufügen, damit Endbenutzer einfache oder komplizierte Skripte schreiben können, die der Anwendung Funktionalität hinzufügen.
+- **Eingebettete Skripterstellung** - Java Programmierer können die Jython-Bibliotheken zu ihrem System hinzufügen, damit Endbenutzer einfache oder komplizierte Skripte schreiben können, die der Anwendung Funktionalität hinzufügen.
 - **Interaktives Experimentieren** - Jython bietet einen interaktiven Interpreter, der zur Interaktion mit Java-Paketen oder mit laufenden Java-Anwendungen verwendet werden kann. Dies ermöglicht Programmierern, jedes Java-System mit Jython zu experimentieren und zu debuggen.
-- **Schnelle Anwendungsentwicklung** - Python-Programme sind in der Regel 2-10 Mal kürzer als das entsprechende Java-Programm. Dies führt direkt zu einer erhöhten Programmiererproduktivität. Die nahtlose Interaktion zwischen Python und Java ermöglicht es Entwicklern, die beiden Sprachen sowohl während der Entwicklung als auch beim Versand von Produkten frei zu mischen.
+- **Schnelle Anwendungsentwicklung** Python-Programme sind in der Regel 2-10 Mal kürzer als das entsprechende Java-Programm. Dies führt direkt zu einer erhöhten Programmiererproduktivität. Die nahtlose Interaktion zwischen Python und Java ermöglicht es Entwicklern, die beiden Sprachen sowohl während der Entwicklung als auch beim Versand von Produkten frei zu mischen.
 
 ### **Aspose.Cells for Java**
 

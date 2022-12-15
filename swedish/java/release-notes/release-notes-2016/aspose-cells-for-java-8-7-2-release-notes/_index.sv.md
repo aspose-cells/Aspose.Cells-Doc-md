@@ -1,48 +1,48 @@
 ﻿---
-title: Aspose.Cells för Java 8.7.2 Release Notes
+title: Aspose.Cells for Java 8.7.2 Notas de la versión
 type: docs
 weight: 120
 url: /sv/java/aspose-cells-for-java-8-7-2-release-notes/
 ---
-## **Andra förbättringar och förändringar**
+## **Otras mejoras y cambios**
 
-|**Nyckel** |**Sammanfattning** |**Kategori** |
+|**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSJAVA-41334 | HYPERLINK formel/funktion - Utöka kalkylbladets hyperlänksamling för att hämta objektet| Ny funktion|
-|CELLSJAVA-41788 | Start-egenskapen för en ordnad lista fungerar inte korrekt| Insekt|
-|CELLSJAVA-41763 | Aspose Cells API kan inte konvertera varje innehåll i HTML-filen till Excel-fil| Insekt|
-|CELLSJAVA-41759 |Layouten är annorlunda när du sparar kalkylark till HTML| Insekt|
-|CELLSJAVA-41677 | Hyperlänk som pekar på ett definierat namn resulterar i bruten länk när kalkylblad konverteras till HTML| Insekt|
-|CELLSJAVA-41774 | Fel beräkning på vad-om-analys| Insekt|
-|CELLSJAVA-41748 | Ryska månadens namn återges annorlunda i PDF jämfört med Excel| Insekt|
-|CELLSJAVA-41735 | Cell med valutaformat i BMD detekteras som DateTime| Insekt|
-|CELLSJAVA-41648 | Språkberoende datumformat ändras till fast anpassat format samtidigt som SpreadsheetML konverteras till XLSX| Insekt|
-|CELLSJAVA-41777 | Problem med den utgående XLSB-filen - XLS to XLSB Conversion| Insekt|
-|CELLSJAVA-41749 | Om du ställer in bild i sidhuvud (för att skapa vattenstämpel) återställs formatera bildinställningar| Insekt|
-|CELLSJAVA-41787 | Excel-konvertering till PDF tar evigheter| Insekt|
-|CELLSJAVA-41762 | Axis Label överlappar vid konvertering av kalkylblad till PDF| Insekt|
-|CELLSJAVA-41752 | Dataetiketter överlappar cirkeldiagrammet när de renderas till PDF| Insekt|
-|CELLSJAVA-41751 | Horisontell/vertikal versaler Axis titeltext visas i meningsskifte i diagrammets PDF-format| Insekt|
-|CELLSJAVA-41736 | Diagramjusteringsproblem vid rendering av arbetsblad till bild| Insekt|
-|CELLSJAVA-41755 | Vertikal regel saknas i diagrammets PDF-format| Insekt|
-|CELLSJAVA-41756 |Tjockleken på horisontella regler är mer än tjockleken i det faktiska diagrammet vid rendering till PDF| Insekt|
-|CELLSJAVA-41754 | SmartArt kopieras inte när arbetsbok kopieras| Insekt|
-|CELLSJAVA-41717 | Vertikal justering av diagrammets förklaring har ändrats när ODS konverterades till XLSX| Insekt|
-|CELLSJAVA-41716 | Diagram saknas vid konvertering av ODS till XLSX| Insekt|
-|CELLSJAVA-41636 | Cell formatproblem - visningsvärdet är inte korrekt i GridWeb (JAVA)| Insekt|
-|CELLSJAVA-41746 | java.lang.OutOfMemoryError: GC-overheadgränsen har överskridits, medan kalkylbladet sparades till PDF| Undantag|
-|CELLSJAVA-41768 | com.aspose.cells.Name kan inte castas till java.lang.Integer när du kopierar arbetsblad| Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
-### **Lägger till egenskapen TextBoxCollection[string].**
-Hämtar textrutan med namnet.
-### **Lägger till klassen AbstractCalculationEngine och CalculationData.**
-Nytt API för användare att implementera sin egen beräkningsmotor för att utöka standardberäkningsmotorn Aspose.Cells.
-### **Lägger till egenskapen CalculationOptions.CustomEngine.**
-Tillåt användaren att använda den nya anpassade beräkningsmotorn för att beräkna formler.
+|CELLSJAVA-41334 | Fórmula/función de HIPERVÍNCULO: extienda la colección de hipervínculos de la hoja de trabajo para obtener el objeto| Nueva caracteristica|
+|CELLSJAVA-41788 | La propiedad de inicio de una lista ordenada no funciona correctamente| Insecto|
+|CELLSJAVA-41763 | Aspose Cells API no se puede convertir cada contenido de un archivo HTML a un archivo de Excel| Insecto|
+|CELLSJAVA-41759 |El diseño es diferente al guardar la hoja de cálculo en HTML| Insecto|
+|CELLSJAVA-41677 | El hipervínculo que apunta a un nombre definido da como resultado un enlace roto cuando la hoja de cálculo se convierte a HTML| Insecto|
+|CELLSJAVA-41774 | Cálculo incorrecto en el análisis hipotético| Insecto|
+|CELLSJAVA-41748 | El nombre del mes ruso se representa de manera diferente en PDF en comparación con Excel| Insecto|
+|CELLSJAVA-41735 | Cell con formato de moneda en BMD se detecta como DateTime| Insecto|
+|CELLSJAVA-41648 | El formato de fecha dependiente de la configuración regional cambia a un formato personalizado fijo al convertir SpreadsheetML a XLSX| Insecto|
+|CELLSJAVA-41777 | Problema con el archivo XLSB de salida: conversión de XLS a XLSB| Insecto|
+|CELLSJAVA-41749 | La configuración de la imagen en el encabezado (para crear una marca de agua) restablece la configuración de formato de imagen| Insecto|
+|CELLSJAVA-41787 | La conversión de Excel a PDF está tardando una eternidad| Insecto|
+|CELLSJAVA-41762 | Superposición de etiquetas de eje al convertir una hoja de cálculo a PDF| Insecto|
+|CELLSJAVA-41752 | Las etiquetas de datos se superponen con el gráfico circular mientras se procesan en PDF| Insecto|
+|CELLSJAVA-41751 | El texto del título del eje horizontal/vertical en mayúsculas aparece en mayúsculas en el formato PDF del gráfico| Insecto|
+|CELLSJAVA-41736 | Problema de alineación del gráfico al representar la hoja de trabajo en la imagen| Insecto|
+|CELLSJAVA-41755 | Falta la regla vertical en el formato PDF de Chart| Insecto|
+|CELLSJAVA-41756 |El grosor de las reglas horizontales es mayor que el grosor del gráfico real mientras se procesa en PDF| Insecto|
+|CELLSJAVA-41754 | SmartArt no se copia al copiar Workbook| Insecto|
+|CELLSJAVA-41717 | La alineación vertical de la leyenda del gráfico ha cambiado al convertir ODS a XLSX| Insecto|
+|CELLSJAVA-41716 | Falta el gráfico al convertir ODS a XLSX| Insecto|
+|CELLSJAVA-41636 | Cell problema de formato: el valor de visualización no es correcto en GridWeb (JAVA)| Insecto|
+|CELLSJAVA-41746 | java.lang.OutOfMemoryError: se superó el límite de gastos generales de GC al guardar la hoja de cálculo en PDF| Excepción|
+|CELLSJAVA-41768 | com.aspose.cells.Name no se puede convertir a java.lang.Integer al copiar hojas de trabajo| Excepción|
+## **Public API y cambios incompatibles con versiones anteriores**
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+### **Agrega la propiedad TextBoxCollection[string].**
+Obtiene el cuadro de texto por el nombre.
+### **Agrega la clase AbstractCalculationEngine y CalculationData.**
+Nuevo API para que el usuario implemente su propio motor de cálculo para ampliar el motor de cálculo predeterminado de Aspose.Cells.
+### **Agrega la propiedad CalculationOptions.CustomEngine.**
+Permita que el usuario use el nuevo motor de cálculo personalizado para calcular fórmulas.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.7.2 också inkluderade i denna Aspose.Cells för Java v8.7.2.
+Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v8.7.2 también se incluyen en este Aspose.Cells for Java v8.7.2.
 
 {{% /alert %}}

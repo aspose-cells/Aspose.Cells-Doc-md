@@ -5,7 +5,7 @@ weight: 80
 url: /tr/java/zoom-factor-in-python/
 ---
 ## **Aspose.Cells - Yakınlaştırma Faktörü**
- kullanarak Yakınlaştırma Faktörünü ayarlamak için**Aspose.Cells Java için Python** , sadece çağırmak**Yakınlaştırma Faktörü** modül.
+ kullanarak Yakınlaştırma Faktörünü ayarlamak için**Aspose.Cells Java for Python** , sadece çağırmak**Yakınlaştırma Faktörü** modül.
 
 **Python Kod**
 

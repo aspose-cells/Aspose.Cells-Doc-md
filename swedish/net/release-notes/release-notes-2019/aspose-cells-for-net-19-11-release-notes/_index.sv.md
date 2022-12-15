@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 19.11 Release Notes
+title: Aspose.Cells for .NET 19.11 Release Notes
 type: docs
 weight: 20
 url: /sv/net/aspose-cells-for-net-19-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 19.11](https://www.nuget.org/packages/Aspose.Cells/19.11.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 19.11](https://www.nuget.org/packages/Aspose.Cells/19.11.0).
 
 {{% /alert %}} 
 
@@ -37,8 +37,8 @@ url: /sv/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46971|Det nyligen kopierade arket döljer alla dolda kolumner och återställer även kolumnbredden|Insekt|
 |CELLSNET-46972|Komma tas bort från diagramtitlar när Excel-filen är dekrypterad|Insekt|
 |CELLSNET-46912|StackOverflowException kastades när XLSX konverterades till HTML|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoder: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
 Lägger till/tar bort valideringsinställningar från givna områden med hänsyn till prestanda.
 #### **Lägger till metoden Workbook.ImportXml (Stream stream, string sheetName, int row, int col).**

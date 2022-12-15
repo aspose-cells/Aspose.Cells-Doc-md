@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 7.0.3 Release Notes
+title: Aspose.Cells for .NET 7.0.3 Release Notes
 type: docs
 weight: 10
 url: /sv/net/aspose-cells-for-net-7-0-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.0.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.0.3/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.0.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.0.3/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v7.0.3!
+ Vi är glada att meddela Aspose.Cells for .NET v7.0.3!
 
 Aspose.Cells 
 
@@ -20,7 +20,7 @@ Aspose.Cells
 
  30020 Support Cell Gradientfärg som inte är korrekt inställd vid konvertering till PDF-dokument
 
- 40010 Avmarkera Kategorietiketter på flera nivåer medan du formaterar diagrammets axel
+40010 Avmarkera Kategorietiketter på flera nivåer medan du formaterar diagrammets axel
 
  Förbättringar
 
@@ -42,7 +42,7 @@ Aspose.Cells
 
  40045 NullReferenceException hittades vid inställning av sidhuvud/sidfot i sidinställningar
 
-40047 Det går inte att kopiera ett visst kalkylblad till en annan arbetsbok med ett kalkylblad
+ 40047 Det går inte att kopiera ett visst kalkylblad till en annan arbetsbok med ett kalkylblad
 
  40060 Ogiltig borsttyp vid konvertering av Excel-arbetsbok till XPS
 
@@ -60,7 +60,7 @@ Aspose.Cells
 
  30224 Diagrambilder matchar inte Excels diagram
 
- 30651 Cell.SetStyle(Style style, bool explicitFlag) fungerar inte som förväntat
+30651 Cell.SetStyle(Style style, bool explicitFlag) fungerar inte som förväntat
 
  31334 BuiltInDocumentProperties.HyperlinkBase kan inte läsas eller ställas in
 
@@ -76,7 +76,7 @@ Aspose.Cells
 
  40024 Diagram renderar inte bra vid rendering/kopiering av arbetsböcker
 
-40046 Pivottabellen uppdateras inte korrekt
+ 40046 Pivottabellen uppdateras inte korrekt
 
  40057 Matrisformelreferenser uppdateras inte när en rad eller kolumn tas bort
 
@@ -96,7 +96,7 @@ Aspose.Cells
 
  Nya egenskaper
 
- 29869 Support Villkorlig formatering (endast Excel 2003-stilar stöds (för närvarande))
+29869 Support Villkorlig formatering (endast Excel 2003-stilar stöds (för närvarande))
 
  Buggar
 

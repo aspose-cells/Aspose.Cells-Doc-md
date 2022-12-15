@@ -1,13 +1,13 @@
 ﻿---
-title: Hello World nel Python
+title: Hello World in Python
 type: docs
 weight: 10
 url: /it/java/hello-world-in-python/
 ---
 ## **Aspose.Cells - Hello World**
-Hello World utilizzando Aspose.Cells Java in Python, richiamare semplicemente il metodo HelloWorld() della classe Document e specificare il secondo documento da aggiungere alla fine.
+Hello World utilizzando Aspose.Cells Java in Python, è sufficiente richiamare il metodo HelloWorld() della classe Document e specificare il secondo documento da aggiungere alla fine.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 

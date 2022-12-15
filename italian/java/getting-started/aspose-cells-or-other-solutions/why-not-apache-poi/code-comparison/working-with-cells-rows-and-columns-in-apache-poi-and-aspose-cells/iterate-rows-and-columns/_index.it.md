@@ -8,7 +8,7 @@ url: /it/java/iterate-rows-and-columns/
 
 Righe e colonne possono essere ripetute utilizzando la raccolta di righe e colonne.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -48,7 +48,7 @@ RowCollection righe = cells.getRows();
 
 Le righe e Cells possono essere ripetute su Sheet. Il codice di esempio è menzionato di seguito:
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

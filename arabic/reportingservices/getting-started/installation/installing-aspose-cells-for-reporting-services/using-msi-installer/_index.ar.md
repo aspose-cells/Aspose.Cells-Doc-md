@@ -6,8 +6,8 @@ url: /ar/reportingservices/using-msi-installer/
 ---
 {{% alert color="primary" %}} 
 
--  إذا كان لديك إصدار سابق من Aspose.Cells لـ Reporting Services مثبتًا ، فالرجاء إلغاء تثبيته أولاً. نرى[يتم الآن إزالة تثبيت Aspose.Cells لخدمات التقارير](/cells/ar/reportingservices/uninstalling-aspose-cells-for-reporting-services/) موضوع حول كيفية إزالة المكون.
-- [قم بزيارة Aspose.Cells لصفحة تنزيل Reporting Services](https://downloads.aspose.com/cells/reportingservices) وتنزيل Aspose.Cells for Reporting Services MSI installer بأحدث إصدار من المكون.
+- إذا كان لديك إصدار سابق من Aspose.Cells for Reporting Services مثبتًا ، فالرجاء إلغاء تثبيته أولاً. نرى[يتم إلغاء تثبيت Aspose.Cells for Reporting Services](/cells/ar/reportingservices/uninstalling-aspose-cells-for-reporting-services/) موضوع حول كيفية إزالة المكون.
+- [قم بزيارة Aspose.Cells for Reporting Services صفحة التحميل](https://downloads.aspose.com/cells/reportingservices) وتحميل برنامج التثبيت Aspose.Cells for Reporting Services MSI بأحدث إصدار من المكون.
  - Aspose.Cells الخاص بـ ReportingServices Msi يدعم فقط Microsoft SQL Server 2008 Reporting Services والمنتجات الأحدث.
 - قم بتشغيل الملف الذي تم تنزيله واتبع تعليمات المثبت.
 
@@ -22,7 +22,7 @@ url: /ar/reportingservices/using-msi-installer/
 
 
 
-1. اقرأ ووافق على اتفاقية الترخيص وانقر**التالي**.
+1.  اقرأ ووافق على اتفاقية الترخيص وانقر**التالي**.
 
 ![ما يجب القيام به: image_بديل_نص](using-msi-installer_2.png)
 
@@ -36,7 +36,7 @@ url: /ar/reportingservices/using-msi-installer/
 
 
 
-1.  قم بتأكيد رغبتك في تثبيت Aspose.Cells لـ Reporting Services بالنقر فوق**تثبيت**. 
+1.  قم بتأكيد رغبتك في تثبيت Aspose.Cells for Reporting Services بالنقر فوق**تثبيت**. 
 
 ![ما يجب القيام به: image_بديل_نص](using-msi-installer_4.png)
 

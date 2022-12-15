@@ -10,7 +10,7 @@ Este tema muestra cómo eliminar filas y columnas de una hoja de cálculo median
 
 {{% /alert %}} 
 ## **Eliminación de filas**
-Para eliminar una fila de su hoja de trabajo:
+Para eliminar una fila de su hoja de cálculo:
 
 1. Agregue el control Aspose.Cells.GridWeb a un formulario web.
 1. Acceda a la hoja de trabajo de la que está eliminando filas.

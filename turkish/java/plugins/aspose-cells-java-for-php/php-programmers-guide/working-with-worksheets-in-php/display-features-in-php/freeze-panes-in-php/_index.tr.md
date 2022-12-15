@@ -5,7 +5,7 @@ weight: 40
 url: /tr/java/freeze-panes-in-php/
 ---
 ## **Aspose.Cells - Bölmeleri Dondur**
- Kullanarak Elektronik Tablo Belgesindeki Bölmeleri Dondurmak için**PHP için Aspose.Cells Java** , sadece çağırmak**Donma bölmeleri** modül.
+ Kullanarak Elektronik Tablo Belgesindeki Bölmeleri Dondurmak için**Aspose.Cells Java for PHP** , sadece çağırmak**Donma bölmeleri** modül.
 
 **PHP Kodu**
 

@@ -6,7 +6,7 @@ url: /zh/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells - 显示或隐藏选项卡**
 ### **隐藏标签**
-隐藏选项卡使用**Aspose.Cells Java 用于 PHP**， 称呼**显示隐藏选项卡**模块。
+隐藏选项卡使用**Aspose.Cells Java for PHP**， 称呼**显示隐藏选项卡**模块。
 
 **PHP代码**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 20.3 Notas de la versión
+title: Aspose.Cells for Android via Java 20.3 Notas de la versión
 type: docs
 weight: 20
 url: /es/java/aspose-cells-for-android-via-java-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 20.3.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 20.3.
 
 {{% /alert %}} 
 
@@ -71,13 +71,13 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-43140|IllegalArgumentException al llamar a computeFormula()|Excepción|
 |CELLSJAVA-43110|Conversión a PDF - java.lang.NullPointerException|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 ### **Agrega la propiedad ReplaceOptions.RegexKey.**
 Indica si la clave buscada es expresión regular. Si es verdadero, la clave buscada (la parte que se reemplazará) se tomará como una expresión regular especificada por el usuario.
 ### **Elimina el método obsoleto ValidationCollection.Add(Aspose.Cells.Validation).**
 Utilice el método ValidationCollection.Add(CellArea) en su lugar.
 ### **Agrega la propiedad PowerQueryFormula.FormulaDefinition.**
-Obtiene la definición de la fórmula de consulta de potencia.
+Obtiene la definición de la fórmula de consulta de energía.
 ### **Agrega la propiedad DBConnection.PowerQueryFormula.**
 Obtiene la definición de la fórmula de consulta de potencia.
 ### **Agrega la propiedad HtmlSaveOptions.ExportHeadings.**
@@ -87,7 +87,7 @@ Tipo de Firma Electrónica Avanzada XML (XAdES).
 ### **Agrega la propiedad DigitalSignature.XAdESType**
 Obtiene y establece el tipo de Firma Electrónica Avanzada XML (XAdES). El valor predeterminado es Ninguno (XAdES está desactivado).
 ### **Agrega la propiedad FormulaParseOptions.Parse.**
- Indica si se analiza la fórmula al establecer una expresión de fórmula en la celda. El valor predeterminado es**verdadero** . Si**falso**, la expresión de la fórmula de entrada se mantendrá tal como está para la celda hasta que el usuario llame a otros métodos para analizarlos o hasta que otras operaciones, como el cálculo de fórmulas, requieran los datos de la fórmula analizada.
+ Indica si se analiza la fórmula al establecer una expresión de fórmula en la celda. El valor predeterminado es**verdadero** . Si**falso**la expresión de la fórmula de entrada se mantendrá tal como está para la celda hasta que el usuario llame a otros métodos para analizarlos o hasta que otras operaciones, como el cálculo de fórmulas, requieran los datos de la fórmula analizada.
 ### **Agrega el método Workbook.ParseFormulas(bool ignoreError).**
 Analiza todas las fórmulas que no se analizaron cuando se cargaron o se establecieron en una celda.
 ### **Agrega la propiedad PivotTable.ExternalConnectionDataSource.**
@@ -109,7 +109,7 @@ Elimina datos ActiveX de la forma.
 ### **Agrega la propiedad ThreadedComment.CreatedTime.**
 Obtiene y establece la hora de creación de los comentarios encadenados.
 ### **Agrega la propiedad Worksheet.UniqueId.**
-Obtiene y establece la identificación única de la hoja de cálculo.
+Obtiene y establece la identificación única de la hoja de trabajo.
 ### **Agrega la enumeración IconSetType.ColorSmilies3 e IconSetType.Smilies3.**
 Representa los formatos condicionales del conjunto de iconos de 3smiles. Solo para archivos .ods.s
 ### **Agrega la enumeración TimePeriodType.LastYear,TimePeriodType.NextYear y ThisYear.**

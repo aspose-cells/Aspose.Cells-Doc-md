@@ -6,11 +6,11 @@ url: /it/java/add-and-retrieve-data/
 ---
 {{% alert color="primary" %}} 
 
- In[Accesso a Cells di un foglio di lavoro](/cells/it/java/accessing-cells-of-a-worksheet/)abbiamo discusso gli approcci di base per l'accesso alle celle in un foglio di lavoro. Questo articolo utilizza uno di questi approcci per aggiungere diversi tipi di dati alle celle.
+ In[Accesso a Cells di un foglio di lavoro](/cells/it/java/accessing-cells-of-a-worksheet/), abbiamo discusso gli approcci di base per l'accesso alle celle in un foglio di lavoro. Questo articolo utilizza uno di questi approcci per aggiungere diversi tipi di dati alle celle.
 
 {{% /alert %}} 
 ## **Aggiunta di dati a Cells**
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
 
  Aspose.Cells consente agli sviluppatori di aggiungere dati alle celle nei fogli di lavoro chiamando il metodo[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe'[valore impostato](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)proprietà. Utilizzando il[valore impostato](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)proprietà, è possibile aggiungere valori booleani, stringa, double, interi o data/ora, ecc. alla cella.
 
@@ -46,7 +46,7 @@ Mentre lavorano sui fogli di lavoro, gli utenti possono aggiungere diversi tipi 
 |[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|Specifica che il valore della cella è numerico.|
 |[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)|Specifica che il valore della cella è una stringa.|
 |[È SCONOSCIUTO](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|Specifica che il valore della cella è sconosciuto.|
-È inoltre possibile utilizzare i tipi di valori di cella predefiniti sopra per confrontare con il tipo di dati presenti in ciascuna cella.
+È inoltre possibile utilizzare i tipi di valori di cella predefiniti sopra per confrontare con il tipo di dati presenti in ogni cella.
 
 
 

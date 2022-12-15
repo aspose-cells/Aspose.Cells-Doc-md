@@ -6,7 +6,7 @@ url: /sv/net/check-if-vba-project-is-protected-and-locked-for-viewing/
 ---
 ## Kontrollera om VBA-projektet är skyddat och låst för visning i C#
 
-Aspose.Cells låter dig kontrollera om VBA-projektet (Visual Basic for Applications) Excel-filen är skyddad och låst för visning. För detta tillhandahåller API:et[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) fast egendom. Om den är låst för visning, då[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) egendom returnerar**Sann**.
+Aspose.Cells låter dig kontrollera om VBA-projektet (Visual Basic for Applications) Excel-filen är skyddad och låst för visning. För detta tillhandahåller API[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) fast egendom. Om den är låst för visning, då[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) egendom returnerar**Sann**.
 
 ## **Exempelkod**
 

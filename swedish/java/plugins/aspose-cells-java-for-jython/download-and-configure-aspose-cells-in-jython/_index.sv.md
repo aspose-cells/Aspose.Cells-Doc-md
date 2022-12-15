@@ -12,13 +12,13 @@ Följande versioner av löpande exempel finns att ladda ner på alla nedan nämn
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
 
-**Ladda ner Aspose.Cells för Java-komponent**
+**Ladda ner komponenten Aspose.Cells for Java**
 
-- [Aspose.Cells för Java](https://downloads.aspose.com/cells/java)
+- [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
 
 ## **Installerar**
 
-- Placera nedladdade Aspose.Cells för Java jar-filen i "lib"-katalogen.
+- Placera den nedladdade Aspose.Cells for Java jar-filen i "lib"-katalogen.
 - Ersätt "your-lib" med det nedladdade jar-filnamnet i filen _*init*_.py.
 
 ## **Använder sig av**

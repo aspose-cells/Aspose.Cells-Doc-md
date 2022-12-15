@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 5.1.2 Release Notes
+title: Aspose.Cells for .NET 5.1.2 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-5-1-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 5.1.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 5.1.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.2/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v5.1.2!
+ Vi är glada att meddela Aspose.Cells for .NET v5.1.2!
 
  Vad har ändrats i Aspose.Cells:
 
@@ -30,15 +30,15 @@ url: /sv/net/aspose-cells-for-net-5-1-2-release-notes/
 
 
 
- Problem lösta i Aspose.Cells för .NET v5.1.2.
+ Problem lösta i Aspose.Cells for .NET v5.1.2.
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
 |18841 | Chart2Image| Skriv ut område/diagram|
 |19065 | Pdf| Konvertering till PDF genom Aspose.Cells Krymper text|
-|19024 | Pdf|Utseendet och känslan av genererad PDF är inte samma sak som Excel|
+|19024 | Pdf| Utseendet och känslan av genererad PDF är inte samma sak som Excel|
 |19170 | Pdf| SaveAs PDF Issue - Skadad PDF|
-|19048 | SpreadML| Fel vid konvertering av Excel2003XML till XLSX|
+|19048 | SpreadML|Fel vid konvertering av Excel2003XML till XLSX|
 |18848 | Xls| Kombinera med diagram som orsakar att plottarean inte matchar|
 |18791 | Xls| Problem med villkorlig formatering från och med version 4.8.1|
 |19052 | Xls| Kopiera Excel med kommandoknapphändelsehanterare|

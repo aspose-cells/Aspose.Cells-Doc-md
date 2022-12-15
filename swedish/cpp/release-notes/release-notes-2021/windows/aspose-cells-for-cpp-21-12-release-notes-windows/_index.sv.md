@@ -6,10 +6,10 @@ url: /sv/cpp/aspose-cells-for-cpp-21-12-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller utgåvor för Aspose.Cells för C++ 21.12 för Windows.
+Den här sidan innehåller utgåvor för Aspose.Cells for C++ 21.12 för Windows.
 
 {{% /alert %}}
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-570| Lägg till throw-sats för att fixa undantag för noll-pekare|Buggar|
+|CELLSCPP-570|Lägg till throw-sats för att fixa undantag för noll-pekare|Buggar|

@@ -4,7 +4,7 @@ linktitle: Intelligente Markierungen
 type: docs
 weight: 190
 url: /de/python-java/using-smart-markers/
-description: Intelligentes Importieren und Platzieren von Daten gemäß den Excel-Vorlagendateien mit Aspose.Cells für Python über die Java-Bibliothek.
+description: Intelligentes Importieren und Platzieren von Daten gemäß den Excel-Vorlagendateien mit Aspose.Cells for Python über die Java-Bibliothek.
 ---
 ## **Einführung**
 **Intelligente Markierungen**werden verwendet, um Aspose.Cells mitzuteilen, welche Informationen in einer Microsoft Excel-Designertabelle platziert werden sollen. Mit intelligenten Markierungen können Sie Vorlagen erstellen, die nur bestimmte Informationen und Formatierungen enthalten.
@@ -75,7 +75,7 @@ Die folgenden Screenshots veranschaulichen eine sich wiederholende dynamische Fo
 |![todo: Bild_alt_Text](using-smart-markers_3.jpg)|![todo: Bild_alt_Text](using-smart-markers_4.jpg)|
  Cell "C1" enthält die Formel**= A1*B1** , Zelle "C2" enthält**= A2*B2** und Zelle "C3" enthält**= A3*B3**.
 
-Die Verarbeitung der Smartmarker ist sehr einfach. Was folgt, ist ein Codeschnipsel in Python über Java, der zeigt, wie es gemacht wird.
+Die Verarbeitung der Smartmarker ist sehr einfach. Was folgt, ist ein Code-Schnipsel in Python via Java, das zeigt, wie es gemacht wird.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "SmartMarker-SimpleProcess.py" >}}
 

@@ -16,6 +16,6 @@ Il grafico seguente viene creato con il codice di esempio.
 
 ![cose da fare:immagine_alt_testo](set-picture-as-background-fill-in-the-chart_1.png)
 
-## Java codice per impostare l'immagine come sfondo compilare il grafico
+## Codice Java per impostare l'immagine come sfondo riempire il grafico
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPictureAsBackgroundFillInChart-SetPictureAsBackgroundFillInChart.java" >}}

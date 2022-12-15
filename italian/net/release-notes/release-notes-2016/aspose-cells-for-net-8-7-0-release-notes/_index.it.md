@@ -24,7 +24,7 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-43938) - Supporta l'esportazione del certificato VBA su file o stream
 
- (CELLSNET-43920) - Supporta un API per verificare se VBAcode è firmato
+ (CELLSNET-43920) - Supporta un'API per verificare se VBAcode è firmato
 
  (CELLSNET-43867) - Firma digitalmente progetti/macro VBA
 
@@ -42,11 +42,11 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44169) - L'ordine dell'array Validation.Value1 è diverso da quanto mostrato in Excel
 
-(CELLSNET-44168) - Impossibile creare la formattazione condizionale della scala a 2 colori
+ (CELLSNET-44168) - Impossibile creare la formattazione condizionale della scala a 2 colori
 
  (CELLSNET-44167) - Supporta la funzione ISOWEEKNUM MS Excel 2013
 
- (CELLSNET-44166) - Il segno digitale VBA viene perso durante la conversione (da XLSB a XLSM)
+(CELLSNET-44166) - Il segno digitale VBA viene perso durante la conversione (da XLSB a XLSM)
 
 
 ## **Prestazione**
@@ -72,11 +72,11 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44135) - Il file Excel non viene calcolato correttamente (completamente) (per quanto riguarda i grafici) prima della generazione del PDF
 
-(CELLSNET-44138) - Cell l'ombreggiatura si sovrappone al bordo causandone l'assottigliamento
+ (CELLSNET-44138) - Cell l'ombreggiatura si sovrappone al bordo causandone l'assottigliamento
 
  (CELLSNET-44136) - Excel mostra una pagina nell'anteprima di stampa in cui Aspose.Cells esegue il rendering delle pagine PDF
 
- (CELLSNET-44122) - Il rendering delle immagini nei fogli non è uguale a quello del file Excel modello originale
+(CELLSNET-44122) - Il rendering delle immagini nei fogli non è uguale a quello del file Excel modello originale
 
  (CELLSNET-43587) - Cell L'area si sovrappone al bordo Cell durante la conversione del foglio di calcolo in PDF
 
@@ -92,11 +92,11 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44141) - L'asse delle categorie primarie del grafico si sbaglia quando si salva nuovamente il file excel di origine
 
-(CELLSNET-44160) - L'asse orizzontale è stato modificato con etichette diverse rispetto al file iniziale
+ (CELLSNET-44160) - L'asse orizzontale è stato modificato con etichette diverse rispetto al file iniziale
 
  (CELLSNET-44157) - L'asse x principale del grafico personalizzato è stato modificato dopo l'apertura e il nuovo salvataggio del file XLSX del modello
 
- (CELLSNET-43910) - L'estrazione dell'immagine dal foglio di lavoro e l'inserimento nel file del documento la rende incompleta
+(CELLSNET-43910) - L'estrazione dell'immagine dal foglio di lavoro e l'inserimento nel file del documento la rende incompleta
 
 
 ## **Eccezioni**
@@ -128,15 +128,15 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Insetti**
 
 
-(CELLSNET-44151) - JavaScript non viene attivato durante l'eliminazione dei contenuti dalla cella GridWeb
+ (CELLSNET-44151) - JavaScript non viene attivato durante l'eliminazione dei contenuti dalla cella GridWeb
 
  (CELLSNET-44113) - Il testo della riga di intestazione viene visualizzato anche all'interno dei valori del filtro
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 
 
@@ -172,7 +172,7 @@ Elimina la proprietà Workbook.SaveOptions obsoleta.
 
  Aggiunge il metodo VbaProject.Sign.
 
- Firma il progetto VBA con una firma digitale.
+Firma il progetto VBA con una firma digitale.
 
 
 

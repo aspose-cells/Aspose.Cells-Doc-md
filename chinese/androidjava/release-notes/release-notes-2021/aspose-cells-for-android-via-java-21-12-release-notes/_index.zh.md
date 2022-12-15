@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 21.12 发行说明
+title: Aspose.Cells for Android via Java 21.12 发行说明
 type: docs
 weight: 1
 url: /zh/java/aspose-cells-for-android-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含适用于 Java 21.12 的 Android 版 Aspose.Cells 的发行说明。
+此页面包含 Aspose.Cells for Android via Java 21.12 的发行说明。
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ url: /zh/java/aspose-cells-for-android-via-java-21-12-release-notes/
 
 ## **公共 API 和向后不兼容的更改**
 
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 
 ### **添加重载方法 Name.GetRefersTo()。**
 

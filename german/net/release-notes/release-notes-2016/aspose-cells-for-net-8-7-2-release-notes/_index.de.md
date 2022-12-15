@@ -8,8 +8,8 @@ url: /de/net/aspose-cells-for-net-8-7-2-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSNET-44242 | Unterstützung und Verwendung von CustomXmlParts| Neue Funktion|
-|CELLSNET-44313 | Rufen Sie die Anzahl der Zeilen ab, nachdem Sie den Filter auf GridWeb angewendet haben| Neue Funktion|
+|CELLSNET-44242 | Unterstützung und Verwendung von CustomXmlParts|Neue Funktion|
+|CELLSNET-44313 | Rufen Sie die Anzahl der Zeilen ab, nachdem Sie den Filter auf GridWeb angewendet haben|Neue Funktion|
 |CELLSNET-44307 | Das Erkennen der Verschlüsselung einer ODS-Datei funktioniert nicht| Erweiterung|
 |CELLSNET-44301 | Wählen Sie TextBox in Bezug auf den Namen anstelle des Index| Erweiterung|
 |CELLSNET-44260 | Festlegen von OleObject.ImageData für vorhandene OleObjects in der Arbeitsmappe| Erweiterung|

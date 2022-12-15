@@ -7,12 +7,12 @@ url: /sv/java/introduction-of-gridweb/
 ## **Hur man kör Aspose.Cells för GridWeb Java Demos**
 {{% alert color="primary" %}} 
 
- Aspose.Cells för GridWeb Java-demos är lätta att köra. Du behöver bara distribuera**gridwebdemo.war** i din webbserver. Ladda ner demos från denna[länk](https://forum.aspose.com/uploads/discourse_instance3/22292).
+ Aspose.Cells för GridWeb Java demos är lätta att köra. Du behöver bara distribuera**gridwebdemo.war** i din webbserver. Ladda ner demos från denna[länk](https://forum.aspose.com/uploads/discourse_instance3/22292).
 
 Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i Apache Tomcat Server.
 
 {{% /alert %}} 
-### **Steg för steg guide för att köra GridWeb Java Demos**
+### **Steg-för-steg-guide för att köra GridWeb Java Demos**
 1.  Extrahera**apache-tomcat-7.0.52.zip** i vilken katalog som helst, t.ex. C:\Tomcat
 
 ![todo:image_alt_text](introduction-of-gridweb_1.png)
@@ -29,7 +29,7 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 
 ![todo:image_alt_text](introduction-of-gridweb_3.png)
 
-1.  Öppna**tomcat-users.xml** fil.
+1. Öppna**tomcat-users.xml** fil.
 
 ![todo:image_alt_text](introduction-of-gridweb_4.png)
 
@@ -67,7 +67,7 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 
 ![todo:image_alt_text](introduction-of-gridweb_8.png)
 
-1.  Klick**Manager-app**och skriv användarnamn och lösenord. (Som ovan: Tomcat, hemlig)
+1.  Klick**Manager-app** och skriv användarnamn och lösenord. (Som ovan: Tomcat, hemlig)
 
 ![todo:image_alt_text](introduction-of-gridweb_9.png)
 
@@ -124,7 +124,7 @@ Ladda ner demos från länken nedan:
 ## **Webbläsarfunktioner och Aspose.Cells.GridWeb**
 Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor som andra webbkontroller. Det viktigaste med webbkontroll är att tillhandahålla stöd över webbläsare. Aspose.Cells.GridWeb tillhandahåller stöd för flera webbläsare.
 ### **Jämförelse**
-Aspose.Cells.GridWeb stöds fullt ut på Microsofts Internet Explorer (IE). På andra webbläsare har den dock mindre begränsningar. Det här avsnittet ger en detaljerad jämförelse av vilka funktioner som stöds av olika webbläsare.
+Aspose.Cells.GridWeb stöds fullt ut på Microsoft:s Internet Explorer (IE). På andra webbläsare har den dock mindre begränsningar. Det här avsnittet ger en detaljerad jämförelse av vilka funktioner som stöds av olika webbläsare.
 
 |**Funktioner på klientsidan**|**Microsoft Internet Explorer**|**Google Chrome**|**Mozilla Firefox**|**Opera**|
 |:- |:- |:- |:- |:- |

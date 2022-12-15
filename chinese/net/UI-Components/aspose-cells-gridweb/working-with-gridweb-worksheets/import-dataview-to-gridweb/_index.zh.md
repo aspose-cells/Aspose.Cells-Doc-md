@@ -20,7 +20,7 @@ url: /zh/net/import-dataview-to-gridweb/
 
 **输出：从 DataView 导入到新工作表中的数据** 
 
-![待办事项：图片_替代_文本](import-dataview-to-gridweb_1.png)
+![待办事项：图像_替代_文本](import-dataview-to-gridweb_1.png)
 
 调整列的宽度以显示它们包含的所有数据。从 DataView 导入数据时，不会自动调整列宽。用户需要自行调整。要以编程方式调整列宽，请参阅[调整行和列的大小](/cells/zh/net/resize-rows-and-columns/).
 

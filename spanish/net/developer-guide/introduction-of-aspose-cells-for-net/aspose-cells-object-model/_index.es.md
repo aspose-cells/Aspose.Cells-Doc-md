@@ -48,14 +48,14 @@ Cada objeto Worksheet contiene una HorizontalPageBreakCollection que representa 
 |**Objetos HPageBreaks y HPageBreak**|
 |:- |
 |![todo:imagen_alternativa_texto](aspose-cells-object-model_6.png)|
-Se utiliza un objeto HorizontalPageBreak para crear un salto de página horizontal en la hoja de cálculo.
+Se utiliza un objeto HorizontalPageBreak para crear un salto de página horizontal en la hoja de trabajo.
 ## **Colección de hipervínculos/Hipervínculo**
 Un objeto de hoja de trabajo también contiene una HyperlinkCollection que representa una colección de todos los objetos de hipervínculo en la hoja de trabajo, como se muestra a continuación:
 
 |**Hipervínculos y objetos de hipervínculo**|
 |:- |
 |![todo:imagen_alternativa_texto](aspose-cells-object-model_7.png)|
-Un objeto Hipervínculo representa un hipervínculo en la hoja de cálculo. Los desarrolladores pueden establecer la dirección del hipervínculo y otras propiedades relacionadas mediante el objeto Hipervínculo.
+Un objeto Hipervínculo representa un hipervínculo en la hoja de trabajo. Los desarrolladores pueden establecer la dirección del hipervínculo y otras propiedades relacionadas mediante el objeto Hipervínculo.
 ## **Colección de imágenes/Imagen**
 Cada objeto Worksheet contiene un objeto PictureCollection que representa una colección de todos los objetos Picture en una hoja de trabajo, como se muestra a continuación:
 

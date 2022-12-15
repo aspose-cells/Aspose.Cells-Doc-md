@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-4-1-0-0-new-release-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v4.1!
+ Vi har släppt Aspose.Cells for .NET v4.1!
 
 - Tillhandahållit API:er för att skapa villkorliga formateringar från början
 - Tillhandahöll API:er för att skapa pivottabeller från början

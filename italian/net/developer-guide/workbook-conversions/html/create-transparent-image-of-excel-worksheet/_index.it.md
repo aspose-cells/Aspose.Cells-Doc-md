@@ -6,7 +6,7 @@ url: /it/net/create-transparent-image-of-excel-worksheet/
 ---
 {{% alert color="primary" %}}
 
- A volte, devi generare l'immagine del tuo foglio di lavoro come immagine trasparente. Vuoi applicare la trasparenza a tutte le celle che non hanno colori di riempimento. Aspose.Cells fornisce il[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)proprietà per applicare la trasparenza all'immagine del foglio di lavoro. Quando questa proprietà è**falso** , quindi le celle senza colori di riempimento vengono disegnate con il colore bianco e quando lo è**VERO**, le celle senza colori di riempimento vengono disegnate in modo trasparente.
+ A volte, devi generare l'immagine del tuo foglio di lavoro come immagine trasparente. Vuoi applicare la trasparenza a tutte le celle che non hanno colori di riempimento. Aspose.Cells fornisce il[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) proprietà per applicare la trasparenza all'immagine del foglio di lavoro. Quando questa proprietà è**falso** , quindi le celle senza colori di riempimento vengono disegnate con il colore bianco e quando lo è**VERO**, le celle senza colori di riempimento vengono disegnate in modo trasparente.
 
 {{% /alert %}} 
 

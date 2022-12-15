@@ -10,7 +10,7 @@ Vous pouvez exporter la mise en forme conditionnelle DataBar, ColorScale et Icon
 
 {{% /alert %}} 
 ## **Exporter la mise en forme conditionnelle DataBar, ColorScale et IconSet lors de la conversion d'Excel en HTML**
- La capture d'écran suivante montre le[exemple de fichier excel](5473447.xlsx) avec la mise en forme conditionnelle DataBar, ColorScale et IconSet. Vous pouvez télécharger le[exemple de fichier excel](5473447.xlsx) à partir du lien donné.
+La capture d'écran suivante montre le[exemple de fichier excel](5473447.xlsx) avec la mise en forme conditionnelle DataBar, ColorScale et IconSet. Vous pouvez télécharger le[exemple de fichier excel](5473447.xlsx) à partir du lien donné.
 
 ![tâche : image_autre_texte](conversion_1.png)
 

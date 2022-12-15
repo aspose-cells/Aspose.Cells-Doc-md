@@ -20,12 +20,12 @@ Aspose.Cells可以将图表保存为BMP、JPEG、PNG、GIF、SVG等多种格式�
 
 **输出图像** 
 
-![待办事项：图片_替代_文本](converting-chart-to-image-in-svg-format_1.png)
+![待办事项：图像_替代_文本](converting-chart-to-image-in-svg-format_1.png)
 
 由于 SVG 是一种基于 XML 的格式，您还可以在记事本等文本编辑器中打开输出图表图像，如该屏幕截图所示。
 
 **在文本编辑器中输出 SCG** 
 
-![待办事项：图片_替代_文本](converting-chart-to-image-in-svg-format_2.png)
+![待办事项：图像_替代_文本](converting-chart-to-image-in-svg-format_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertCharttoImageinSVGFormat-ConvertCharttoImageinSVGFormat.java" >}}

@@ -36,7 +36,7 @@ Det här exemplet använder mallfilen "Book1.xls" skapad i Microsoft Excel. Efte
 
 {{% alert color="primary" %}}
 
- Om du vill sortera*Vänster till höger* , Använd[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright)attribut.
+ Om du vill sortera*Vänster till höger* , Använd[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright) attribut.
 
 {{% /alert %}}
 

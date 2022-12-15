@@ -10,7 +10,7 @@ Aspose.Cells låter dig spara arbetsboken i*Strikt öppet XML-kalkylblad*formate
 
 ## **Spara arbetsboken i strikt öppet XML-kalkylbladsformat**
 
-Följande exempelkod skapar en arbetsbok och anger värdet för**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** egendom som**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** och sparar den som[utdata Excel-fil](67338272.xlsx) Om du öppnar den utgående Excel-filen i Microsoft Excel och öppnar dialogrutan Spara som... ser du dess format som*Strikt öppet XML-kalkylblad*som visas i denna skärmdump.
+Följande exempelkod skapar en arbetsbok och anger värdet för**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** egendom som**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** och sparar den som[utdata Excel-fil](67338272.xlsx) . Om du öppnar den utgående Excel-filen i Microsoft Excel och öppnar dialogrutan Spara som... ser du dess format som*Strikt öppet XML-kalkylblad*som visas i denna skärmdump.
 
 ![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 

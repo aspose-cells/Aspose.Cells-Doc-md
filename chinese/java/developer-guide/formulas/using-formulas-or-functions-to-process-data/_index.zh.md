@@ -61,7 +61,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **在单元格 G2 上设置数组公式** 
 
-![待办事项：图片_替代_文本](using-formulas-or-functions-to-process-data_1.png)
+![待办事项：图像_替代_文本](using-formulas-or-functions-to-process-data_1.png)
 
 一些 Microsoft Excel 函数返回值数组。要使用数组公式计算多个结果，请将数组输入到一系列单元格中，这些单元格的行数和列数与数组参数相同。
 

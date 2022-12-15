@@ -72,7 +72,7 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 

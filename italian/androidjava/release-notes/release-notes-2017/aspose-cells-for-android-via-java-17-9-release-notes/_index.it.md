@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 17.9 Note di rilascio
+title: Aspose.Cells for Android via Java 17.9 Note di rilascio
 type: docs
 weight: 20
 url: /it/java/aspose-cells-for-android-via-java-17-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
+Questa pagina contiene le note di rilascio per[Aspose.Cells for Android via Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
 
 {{% /alert %}} 
 
@@ -85,11 +85,11 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite 
 |CELLSJAVA-42311|Eccezione: "java.lang.NullPointerException" all'apertura di un file ODS tramite API Aspose.Cells|Eccezione|
 |CELLSJAVA-42302|NullPointerException sulla creazione dell'istanza della cartella di lavoro dal file Excel di origine|Eccezione|
 |CELLSJAVA-42340|Eccezione nel thread "Thread-2" java.lang.OutOfMemoryError: limite di overhead GC superato|Eccezione|
-|CELLSJAVA-42334|L'eccezione "Errore per ZipFile" viene generata quando si usa OutputFileStream|Eccezione|
+|CELLSJAVA-42334|L'eccezione "Errore per ZipFile" viene generata quando si utilizza OutputFileStream|Eccezione|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: password non valida all'apertura del file Excel|Eccezione|
 |CELLSJAVA-42357|L'eccezione si verifica quando si salva un file Excel in formato HTML|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge enum StyleModifyFlag.RelativeIndent**
 Rappresenta il rientro relativo.
 ### **Aggiunge la proprietà TextureFill.IsTiling**
@@ -161,6 +161,6 @@ Ottiene e imposta l'archiviazione della finestra di progettazione del progetto V
 
 {{% alert color="primary" %}} 
 
-Poiché la base di codice di Aspose.Cells per Android tramite Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, miglioramenti e correzioni inclusi in Aspose.Cells for .NET v17.6, Aspose.Cells 0761734481 v17.781 for .NET v17.6, Aspose.Cells 0761734481 v17.781 08116 v17.71 8, Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
+Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni incluse in Aspose.Cells for .NET v17.6, Aspose.Cells for .NET v17.7, 07617634181 v17.6, Aspose.Cells for .NET v17.7, 07617634181 v17.6, Aspose.Cells for .NET v17.7, 07617634181 v17. , Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
 
 {{% /alert %}}

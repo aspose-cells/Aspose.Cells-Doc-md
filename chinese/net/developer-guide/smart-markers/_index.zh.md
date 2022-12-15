@@ -41,7 +41,7 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 |**模板文件**|**输出文件**|
 |:- |:- |
-|![待办事项：图片_替代_文本](using-smart-markers_1.jpg)|![待办事项：图片_替代_文本](using-smart-markers_2.jpg)|
+|![待办事项：图像_替代_文本](using-smart-markers_1.jpg)|![待办事项：图像_替代_文本](using-smart-markers_2.jpg)|
 ### **动态公式**
 动态公式允许您将 Excel 公式插入到单元格中，即使公式引用了将在导出过程中插入的行。动态公式可以为每个插入的行重复或仅使用放置数据标记的单元格。
 
@@ -72,7 +72,7 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 |**模板文件**|**输出文件**|
 |:- |:- |
-|![待办事项：图片_替代_文本](using-smart-markers_3.jpg)|![待办事项：图片_替代_文本](using-smart-markers_4.jpg)|
+|![待办事项：图像_替代_文本](using-smart-markers_3.jpg)|![待办事项：图像_替代_文本](using-smart-markers_4.jpg)|
 Cell “C1”包含公式**A1*B1** ，单元格“C2”包含**A2*B2**单元格“C3”包含**A3*B3**.
 
 处理智能标记非常容易。下面是两个代码片段，一个在 C# 中，一个在 VB 中，展示了它是如何完成的。
@@ -125,7 +125,7 @@ subtotalN:Ref 其中 Ref 指的是按列分组。
 
 |**SmartMarker_Designer.xls 文件中的第一个工作表，包含智能标记**|
 |:- |
-|![待办事项：图片_替代_文本](using-smart-markers_5.png)|
+|![待办事项：图像_替代_文本](using-smart-markers_5.png)|
 在设计器文件的第二个工作表中，我们放置了一些更智能的标记，如下图所示。我们放置以下智能标记：
 &=[订单详情].OrderID(group:normal),
 &=[订单详情].数量,
@@ -135,7 +135,7 @@ subtotalN:Ref 其中 Ref 指的是按列分组。
 
 |**SmartMarker_Designer.xls 文件的第二个工作表，显示混合的智能标记。**|
 |:- |
-|![待办事项：图片_替代_文本](using-smart-markers_6.png)|
+|![待办事项：图像_替代_文本](using-smart-markers_6.png)|
 这是示例中使用的源代码。
 
 
@@ -174,7 +174,7 @@ Aspose.Cells 智能标记支持嵌套对象，嵌套对象要简单。我们使�
 
 |**SM_NestedObjects.xlsx 文件的第一个工作表显示了嵌套的智能标记。**|
 |:- |
-|![待办事项：图片_替代_文本](using-smart-markers_7.png)|
+|![待办事项：图像_替代_文本](using-smart-markers_7.png)|
 下面的例子展示了它是如何工作的。
 
 
@@ -183,7 +183,7 @@ Aspose.Cells 智能标记支持嵌套对象，嵌套对象要简单。我们使�
 ## **使用通用列表作为嵌套对象**
 Aspose.Cells 现在也支持使用通用列表作为嵌套对象。请检查使用以下代码生成的输出 excel 文件的屏幕截图。正如您在屏幕截图中看到的，一个 Teacher 对象包含多个嵌套的 Student 对象。
 
-|![待办事项：图片_替代_文本](using-smart-markers_8.png)|
+|![待办事项：图像_替代_文本](using-smart-markers_8.png)|
 |:- |
 
 
@@ -201,7 +201,7 @@ Aspose.Cells 现在也支持使用通用列表作为嵌套对象。请检查使�
 目前默认的处理方式是逐行处理smartmaker。但是有时候同一个数据表的智能标记需要一起处理，不管
 如果它们是否在同一行中，则必须在调用处理之前指定命名范围“_CellsSmartMarkers”并将 WorkbookDesigner.LineByLine 指定为 false。
 
-|![待办事项：图片_替代_文本](using-smart-markers_11.png)|
+|![待办事项：图像_替代_文本](using-smart-markers_11.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-LayerByLayer.cs" >}}
 

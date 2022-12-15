@@ -6,7 +6,7 @@ url: /de/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells für Reporting Services ist als kostenlose, zeitlich unbegrenzte Evaluierung von der erhältlich[Seite herunterladen](https://downloads.aspose.com/cells/reportingservices). Die Testversion und die lizenzierte Version des Produkts sind identisch.
+ Aspose.Cells for Reporting Services ist als kostenlose, zeitlich unbegrenzte Auswertung bei der erhältlich[Seite herunterladen](https://downloads.aspose.com/cells/reportingservices). Die Testversion und die lizenzierte Version des Produkts sind identisch.
 
 Wenn Sie mit der Evaluierungsversion zufrieden sind, kaufen Sie eine Lizenz. Stellen Sie sicher, dass Sie die Abonnementbedingungen verstanden haben und ihnen zustimmen.
 
@@ -34,7 +34,7 @@ Der Name der Lizenzdatei kann je nach Abonnementtyp einer der folgenden sein:
 
 Um zu testen, ob die Lizenzdatei korrekt installiert wurde, exportieren Sie einen beliebigen Bericht als Microsoft Excel-Arbeitsmappe. Wenn die Arbeitsmappe am Ende kein Wasserzeichen-Arbeitsblatt enthält, wurde die Lizenzdatei erfolgreich aktiviert.
 
- Aspose.Cells für Reporting Services fügt ein Auswertungswasserzeichen-Arbeitsblatt ein, wenn im Auswertungsmodus gearbeitet wird. Wenn eine gültige Lizenzdatei, z. B. when**Aspose.Cells.ReportingServices.lic** sich im Ordner $[Installation Folder]\License\ befindet, gibt es kein Auswertungs-Wasserzeichen-Arbeitsblatt.
+ Aspose.Cells for Reporting Services fügt ein Bewertungswasserzeichen-Arbeitsblatt ein, wenn im Bewertungsmodus gearbeitet wird. Wenn eine gültige Lizenzdatei, z. B. when**Aspose.Cells.ReportingServices.lic** sich im Ordner $[Installation Folder]\License\ befindet, gibt es kein Auswertungs-Wasserzeichen-Arbeitsblatt.
 
 **Eine im Evaluierungsmodus erstellte Datei. Beachten Sie das zweite Arbeitsblatt.** 
 

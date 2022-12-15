@@ -12,7 +12,7 @@ Per modificare la posizione del grafico (coordinate X, Y) e le dimensioni (altez
 1. Grafico.getChartObject().get/setX()
 1. Grafico.getChartObject().get/setY()
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

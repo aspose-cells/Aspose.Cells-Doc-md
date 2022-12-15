@@ -15,7 +15,7 @@ url: /zh/net/insert-datalabels-to-chart/
 ## **数据标签选项**
 Aspose.Cells 还允许在运行时管理图表的数据标签，使用[数据标签](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/)对象，移动、更新和格式化图表的数据标签很简单。
 
-|![待办事项：图片_替代_文本](chart_datalabels.png)|
+|![待办事项：图像_替代_文本](chart_datalabels.png)|
 
 ## **管理图表的数据标签**
 使用 Aspose.Cells 管理图表的数据标签很简单[数据标签](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/).

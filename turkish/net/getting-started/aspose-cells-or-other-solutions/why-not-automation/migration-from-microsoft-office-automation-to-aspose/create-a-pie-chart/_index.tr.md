@@ -98,7 +98,7 @@ Aşağıdaki kod örnekleri, VSTO kullanarak bir elektronik tabloya pasta grafi�
 
 {{< /highlight >}}
 
-**VSTO ile oluşturulmuş bir pasta grafik** 
+**VSTO ile oluşturulmuş bir pasta grafiği** 
 
 ![yapılacaklar:resim_alternatif_Metin](create-a-pie-chart_1.png)
 

@@ -82,7 +82,7 @@ Kimliğe göre Özel xml bölümünü alır.
 
 İşleme aralığı için geliştirme.
 
-### **ColorDepth sıralaması ve ImageOrPrintOptions.TiffColorDepth özelliğini ekler**
+### **ColorDepth sıralaması ve ImageOrPrintOptions.TiffColorDepth özelliği ekler**
 
 Yalnızca sayfaları Tiff biçiminde kaydederken uygulanacak bit derinliğini alır veya ayarlar.
 

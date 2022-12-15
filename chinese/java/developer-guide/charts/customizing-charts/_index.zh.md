@@ -150,7 +150,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 
 **金字塔图及其数据源**
 
-![待办事项：图片_替代_文本](creating-and-customizing-charts_1.png)
+![待办事项：图像_替代_文本](creating-and-customizing-charts_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
@@ -158,7 +158,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 
 **气泡图及其数据源**
 
-![待办事项：图片_替代_文本](creating-and-customizing-charts_2.jpg)
+![待办事项：图像_替代_文本](creating-and-customizing-charts_2.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
 
@@ -188,7 +188,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 
 **组合柱形图和折线图的自定义图表**
 
-![待办事项：图片_替代_文本](creating-and-customizing-charts_3.png)
+![待办事项：图像_替代_文本](creating-and-customizing-charts_3.png)
 
 **编程实例**
 

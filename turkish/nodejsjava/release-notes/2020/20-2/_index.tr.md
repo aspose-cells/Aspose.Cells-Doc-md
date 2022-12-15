@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Node.js için Aspose.Cells 20.2 Sürüm Notları
+title: Aspose.Cells for Node.js via Java 20.2 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 20.2 üzerinden Node.js için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for Node.js via Java 20.2 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -40,7 +40,7 @@ Bu sayfa, Java 20.2 üzerinden Node.js için Aspose.Cells sürüm notlarını i�
 |CELLSJAVA-43116|PDF'ye dönüştürme - java.lang.IllegalStateException: Yapılandırılmış depolama bozuk görünüyor.|İstisna|
 |CELLSJAVA-43120|çalışma kitabını PDF'ye dönüştürürken java.lang.NumberFormatException|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, Java aracılığıyla Node.js için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin yanı sıra eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa , lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Node.js Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 #### **FormulaParseOptions.Parse özelliğini ekler.**
 Bir formül ifadesini hücreye ayarlarken formülün ayrıştırılıp ayrıştırılmayacağını gösterir. Varsayılan değer doğrudur. false ise, kullanıcı bunları ayrıştırmak için diğer yöntemleri çağırana veya formül hesaplama gibi diğer işlemler için ayrıştırılmış formül verileri gerekli olana kadar, giriş formülü ifadesi hücre için olduğu gibi tutulur.
 #### **Workbook.ParseFormulas(bool ignoreError) yöntemini ekler.**

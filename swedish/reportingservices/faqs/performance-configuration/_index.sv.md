@@ -6,7 +6,7 @@ url: /sv/reportingservices/performance-configuration/
 ---
 {{% alert color="primary" %}} 
 
- Användare kan optimera prestanda till viss del. Du kan konfigurera vissa attribut och parametrar i**Aspose.Cells.ReportingServices.xml** fil enligt beskrivningen nedan.
+Användare kan optimera prestanda till viss del. Du kan konfigurera vissa attribut och parametrar i**Aspose.Cells.ReportingServices.xml** fil enligt beskrivningen nedan.
 
 {{% /alert %}} 
 ### **Prestanda avsnitt**
@@ -52,7 +52,7 @@ Detta visar avsnittet Prestanda som det är som standard.
  - När parametern Performance är inställd på 'av' är standardvärdet falskt.
  - När parametern Performance är inställd på 'on' är standardvärdet sant.
  - När parametern Prestanda är inställd på "på", kan en delelementsrapport återställa rapportens AutoRowFile-parameter.
-Se följande konfiguration.
+ Se följande konfiguration.
 
 **XML**
 
@@ -82,7 +82,7 @@ Se följande konfiguration.
  - När parametern Performance är inställd på 'av' är standardvärdet falskt.
  - När parametern Performance är inställd på 'on' är standardvärdet sant.
  - När parametern Prestanda är inställd på "på", kan en delelementsrapport återställa rapportens AutoRowFile-parameter.
-Se följande konfiguration.
+ Se följande konfiguration.
 
 **XML**
 
@@ -112,7 +112,7 @@ Se följande konfiguration.
  - När parametern Performance är inställd på 'av' är standardvärdet falskt.
  - När parametern Performance är inställd på 'on' är standardvärdet sant.
  - När parametern Prestanda är inställd på "på", kan en delelementsrapport återställa rapportens AutoRowFile-parameter.
-Se följande konfiguration.
+ Se följande konfiguration.
 
 **XML**
 
@@ -138,12 +138,12 @@ Se följande konfiguration.
 
 {{< /highlight >}}
 
--  IsConditionalFormatting – Kan vara antingen sant eller falskt:
+- IsConditionalFormatting – Kan vara antingen sant eller falskt:
  - När parametern Performance är inställd på 'av' är standardvärdet falskt.
  - När parametern Performance är inställd på 'on' är standardvärdet sant.
  - När parametern Prestanda är inställd på "på", kan underelementrapporten återställa punktrapportens AutoRowFile-parameter.
  - När parametern IsSetStyle är inställd på false är värdet på parametern Performance ogiltigt.
-Se följande konfiguration.
+ Se följande konfiguration.
 
 **XML**
 

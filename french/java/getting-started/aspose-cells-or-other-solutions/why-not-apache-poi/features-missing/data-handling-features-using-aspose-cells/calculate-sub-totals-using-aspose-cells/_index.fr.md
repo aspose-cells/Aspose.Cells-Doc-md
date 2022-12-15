@@ -5,7 +5,7 @@ weight: 20
 url: /fr/java/calculate-sub-totals-using-aspose-cells/
 ---
 ## **Aspose.Cells - Calculer les sous-totaux**
-Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs récurrentes dans une feuille de calcul. Aspose.Cells fournit des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul par programmation.
+Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs récurrentes dans une feuille de calcul. Aspose.Cells fournit des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul par programme.
 
 **Java**
 

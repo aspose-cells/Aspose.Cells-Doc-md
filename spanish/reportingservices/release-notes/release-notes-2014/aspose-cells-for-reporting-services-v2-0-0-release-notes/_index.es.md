@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells para Reporting Services V2.0.0 Notas de la versión
+title: Aspose.Cells for Reporting Services V2.0.0 Notas de la versión
 type: docs
 weight: 10
 url: /es/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Esta página contiene notas de la versión para[Aspose.Cells para servicios de informes V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ Esta página contiene notas de la versión para[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- Dé la bienvenida a una nueva versión de Aspose.Cells para Reporting Services V2.0.0.
+ Dé la bienvenida a una nueva versión de Aspose.Cells for Reporting Services V2.0.0.
 ## **Características principales**
-Aspose.Cells para la optimización del Diseñador de informes de Reporting Services.
+Aspose.Cells for Reporting Services Optimización del Diseñador de informes.
 ## **Otras mejoras y cambios**
  ` `Nuevas funciones
 
@@ -20,7 +20,7 @@ Aspose.Cells para la optimización del Diseñador de informes de Reporting Servi
 - ` `(SSRS-40144) Configuración de servidores de informes para almacenar o almacenar en caché los datos del servidor de informes
 - ` `(SSRS-40142) Admite conjuntos de datos compartidos
 - ` `(SSRS-40113) Valores negativos en paréntesis
-- ` `(SSRS-40103) Aspose.Cells para Reporting Services Report Designer importar archivo de definición de informe para SQL Server 2008
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services Archivo de definición de informe de importación del Diseñador de informes para SQL Server 2008
 
  Insectos
 
@@ -66,7 +66,7 @@ Aspose.Cells para la optimización del Diseñador de informes de Reporting Servi
 - ` ` (SSRS-40095) Error en Aspose.Cells SSRS
 - ` `(SSRS-40094) Dyn ocultar con parámetros
 - ` `(SSRS-40093) Problema con el software de prueba: solo se recupera una fila
-- ` `(SSRS-40092) Problemas de formato con Aspose.Cells para Reporting Services
+- ` ` (SSRS-40092) Problemas de formato con Aspose.Cells for Reporting Services
 - ` `(SSRS-40091) Error al guardar el archivo de informe: representación de Excel con imagen
 - ` `(SSRS-40089) problema de visibilidad con Tablix en SSRS
 - ` ` (SSRS-40087) ¿No hay un "mapa del documento" de Excel disponible en Aspose Cells para SSRS 2005?

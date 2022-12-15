@@ -6,7 +6,7 @@ url: /sv/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells för JasperReports är tillgänglig som en gratis, obegränsad tidsbegränsad utvärdering från[nedladdningssida](https://downloads.aspose.com/cells/jasperreports). Utvärderingen och licensierade versioner av produkten är samma nedladdning.
+ Aspose.Cells for JasperReports är tillgänglig som en gratis, obegränsad tidsbegränsad utvärdering från[nedladdningssida](https://downloads.aspose.com/cells/jasperreports). Utvärderingen och licensierade versioner av produkten är samma nedladdning.
 
  När du är nöjd med utvärderingsversionen kan du[köpa en licens](https://purchase.aspose.com/). Se till att du förstår och godkänner licensvillkoren.
 
@@ -77,7 +77,7 @@ Denna metod är tillämplig för användning med JasperServer.
 
 Exportera valfri rapport till XLS-format och kontrollera om rapporten innehåller ett utvärderingsmeddelande. Om det inte finns något utvärderingsmeddelande, fungerar licensen korrekt.
 
-**Aspose.Cells för JasperReports injicerar ett utvärderingsark i utvärderingsläge** 
+**Aspose.Cells for JasperReports injicerar ett utvärderingsark i utvärderingsläge** 
 
 ![todo:image_alt_text](licensing_1.png)
 

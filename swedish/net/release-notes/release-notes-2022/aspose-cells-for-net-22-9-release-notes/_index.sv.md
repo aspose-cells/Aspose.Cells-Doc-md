@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 22.9 Release Notes
+title: Aspose.Cells for .NET 22.9 Release Notes
 type: docs
 weight: 4
 url: /sv/net/aspose-cells-for-net-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 22.9](https://www.nuget.org/packages/Aspose.Cells/22.9.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 22.9](https://www.nuget.org/packages/Aspose.Cells/22.9.0).
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ url: /sv/net/aspose-cells-for-net-22-9-release-notes/
 |CELLSNET-51736| Cell gränser försvann i den resulterande PDF-filen|
 |CELLSNET-51738|Ogiltig post för en cell orsakade att genererad fil är skadad|
 |CELLSNET-51760|Worksheet.AutoFitColumns fungerar inte korrekt|
-|CELLSNET-51770|Merged Cells fungerar inte bra när du sparar som PowerPoint-fil|
+|CELLSNET-51770|Merged Cells fungerar inte bra när du sparar som PowerPoint fil|
 |CELLSNET-51771|Efter att celler har slagits samman går vissa data förlorade i den genererade PowerPoint-filen|
 |CELLSNET-51772|Anslutningsinformationen ändras när XLS-fil konverteras till XLSM|
 |CELLSNET-51778|Att konvertera en XLS-fil till XLSM tar bort några tecken i slutet av länken i namngivna intervall|
@@ -67,9 +67,9 @@ url: /sv/net/aspose-cells-for-net-22-9-release-notes/
 |CELLSNET-51961|Undantag "Index var utanför intervallet" vid rendering av en ODS till PDF|
 |CELLSNET-51863|System.StackOverflowException i CollectionBase.Exists|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till metoderna Cell.SetTableFormula(...).**
 

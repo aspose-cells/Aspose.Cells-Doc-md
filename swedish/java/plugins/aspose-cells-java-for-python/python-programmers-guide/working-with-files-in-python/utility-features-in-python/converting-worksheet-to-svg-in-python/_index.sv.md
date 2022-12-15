@@ -5,9 +5,9 @@ weight: 50
 url: /sv/java/converting-worksheet-to-svg-in-python/
 ---
 ## **Aspose.Cells - Konvertera arbetsblad till SVG**
-För att konvertera kalkylblad till SVG med Aspose.Cells för Java i Python, anropa kalkylblad_till_svg()-metoden för omvandlarmodulen.
+För att konvertera kalkylblad till SVG med Aspose.Cells for Java i Python, anropa kalkylblad_till_svg()-metoden för omvandlarmodulen.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

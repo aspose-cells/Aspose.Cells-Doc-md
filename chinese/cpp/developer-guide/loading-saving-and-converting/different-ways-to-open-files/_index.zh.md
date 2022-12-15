@@ -1,6 +1,6 @@
 ﻿---
-title: 打开文件的不同方法
-linktitle: 打开文件的不同方法
+title: 打开文件的不同方式
+linktitle: 打开文件的不同方式
 type: docs
 weight: 10
 url: /zh/cpp/different-ways-to-open-files/

@@ -19,7 +19,7 @@ url: /zh/net/format-grid-cells/
 
 **选择格式 Cell** 
 
-![待办事项：图片_替代_文本](format-cells_1.png)
+![待办事项：图像_替代_文本](format-cells_1.png)
 
 
 
@@ -27,7 +27,7 @@ url: /zh/net/format-grid-cells/
 
 **样式对话框用于格式化单元格** 
 
-![待办事项：图片_替代_文本](format-cells_2.png)
+![待办事项：图像_替代_文本](format-cells_2.png)
 
 “样式”对话框允许用户通过自定义字体和边框设置来格式化单元格。
 ### **自定义字体设置**
@@ -47,7 +47,7 @@ url: /zh/net/format-grid-cells/
 
 **自定义字体设置** 
 
-![待办事项：图片_替代_文本](format-cells_3.png)
+![待办事项：图像_替代_文本](format-cells_3.png)
 ### **自定义边框设置**
 该控件还允许用户通过在“样式”对话框中自定义边框设置来在单元格周围绘制边框。
 
@@ -57,7 +57,7 @@ url: /zh/net/format-grid-cells/
 
 **样式对话框中的边框选项** 
 
-![待办事项：图片_替代_文本](format-cells_4.png)
+![待办事项：图像_替代_文本](format-cells_4.png)
 
 可以从“样式”对话框中选择以下边框选项：
 
@@ -68,13 +68,13 @@ url: /zh/net/format-grid-cells/
 
 **自定义边框设置** 
 
-![待办事项：图片_替代_文本](format-cells_5.png)
+![待办事项：图像_替代_文本](format-cells_5.png)
 ### **应用设置**
 点击**好的**在“样式”对话框中应用更改。
 
 **已应用字体和边框设置** 
 
-![待办事项：图片_替代_文本](format-cells_6.png)
+![待办事项：图像_替代_文本](format-cells_6.png)
 
 
 ## **格式化 Cells 使用 API**
@@ -94,7 +94,7 @@ Cells 也可以使用 Aspose.Cells.GridWeb API 以编程方式进行格式化。
 
 **输出：A1 中显示的自定义字体设置** 
 
-![待办事项：图片_替代_文本](format-cells_7.png)
+![待办事项：图像_替代_文本](format-cells_7.png)
 
 
 
@@ -115,7 +115,7 @@ Cells 也可以使用 Aspose.Cells.GridWeb API 以编程方式进行格式化。
 
 **单个单元格上的自定义边框设置** 
 
-![待办事项：图片_替代_文本](format-cells_8.png)
+![待办事项：图像_替代_文本](format-cells_8.png)
 
 {{% alert color="primary" %}} 
 
@@ -137,7 +137,7 @@ Cells 也可以使用 Aspose.Cells.GridWeb API 以编程方式进行格式化。
 
 **具有自定义边框设置的一系列单元格** 
 
-![待办事项：图片_替代_文本](format-cells_9.png)
+![待办事项：图像_替代_文本](format-cells_9.png)
 
 
 
@@ -151,7 +151,7 @@ Aspose.Cells.GridWeb支持设置数字格式。有 59 种内置数字格式。�
 
 **应用于 B1 和 B2 的数字格式设置** 
 
-![待办事项：图片_替代_文本](format-cells_10.png)
+![待办事项：图像_替代_文本](format-cells_10.png)
 
 
 

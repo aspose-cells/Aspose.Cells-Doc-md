@@ -9,7 +9,7 @@ Hoja de diálogo es un formato antiguo de la hoja que contiene un cuadro de diá
 
 ![todo:imagen_alternativa_texto](DialogSheet.png)
 ## **Averigüe si la hoja de trabajo es una hoja de diálogo**
-Aspose.Cells para Python a través de Java le brinda la posibilidad de verificar si la hoja de trabajo es una hoja de diálogo. Para ello, proporciona la[Hoja de trabajo.Tipo](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)propiedad. Si[Hoja de trabajo.Tipo](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)devuelve el valor de enumeración[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), entonces significa que está tratando con una hoja de diálogo.
+Aspose.Cells for Python via Java le brinda la posibilidad de verificar si la hoja de trabajo es una hoja de diálogo. Para ello, proporciona la[Hoja de trabajo.Tipo](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)propiedad. Si[Hoja de trabajo.Tipo](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)devuelve el valor de enumeración[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), entonces significa que está tratando con una hoja de diálogo.
 
 El siguiente fragmento de código muestra cómo buscar una hoja de diálogo. La salida de la consola generada por el código se proporciona a continuación como referencia.
 

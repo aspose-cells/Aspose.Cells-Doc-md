@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.4.2
+title: Offentlig API Ändringar i Aspose.Cells 8.4.2
 type: docs
 weight: 160
 url: /sv/java/public-api-changes-in-aspose-cells-8-4-2/
@@ -34,7 +34,7 @@ chart.setChartDataRange("A1:D4", true);
 {{< /highlight >}}
 
 ### **Metod VbaModuleCollection.add Tillagd**
-Aspose.Cells för Java 8.4.2 har avslöjat metoden VbaModuleCollection.add för att lägga till en ny VBA-modul till instansen av Workbook. Metoden VbaModuleCollection.add accepterar en parameter av typ av kalkylblad för att lägga till en kalkylbladsspecifik modul.
+Aspose.Cells for Java 8.4.2 har avslöjat metoden VbaModuleCollection.add för att lägga till en ny VBA-modul till instansen av Workbook. Metoden VbaModuleCollection.add accepterar en parameter av typ av kalkylblad för att lägga till en kalkylbladsspecifik modul.
 
 Följande kodavsnitt visar hur man använder metoden VbaModuleCollection.add.
 
@@ -73,7 +73,7 @@ workbook.save(output, SaveFormat.XLSM);
 {{< /highlight >}}
 
 ### **Överbelastad metod Cells.copyColumns tillagd**
-Aspose.Cells för Java 8.4.2 har avslöjat en överbelastad version av metoden Cells.copyColumns för att upprepa källkolumnerna till destinationen. Den nyligen exponerade metoden accepterar 5 parametrar totalt, där de första 4 parametrarna är desamma som för den vanliga metoden Cells.copyColumns. Den sista parametern av typen int anger dock antalet destinationskolumner som källkolumnerna måste upprepas på.
+Aspose.Cells for Java 8.4.2 har avslöjat en överbelastad version av metoden Cells.copyColumns för att upprepa källkolumnerna till destinationen. Den nyligen exponerade metoden accepterar 5 parametrar totalt, där de första 4 parametrarna är desamma som för den vanliga metoden Cells.copyColumns. Den sista parametern av typen int anger dock antalet destinationskolumner som källkolumnerna måste upprepas på.
 
 Följande kodavsnitt visar hur man använder den nyligen exponerade metoden Cells.copyColumns.
 
@@ -110,7 +110,7 @@ workbook.save(output);
 {{< /highlight >}}
 
 ### **Uppräkningsfält PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS har lagts till**
-Med lanseringen av v8.4.2 har API:et Aspose.Cells lagt till 2 nya uppräkningsfält för PasteType som beskrivs nedan.
+Med lanseringen av v8.4.2 har Aspose.Cells API lagt till 2 nya uppräkningsfält för PasteType som beskrivs nedan.
 
 - PasteType.DEFAULT: Fungerar på samma sätt som Excels "Alla"-funktion för att klistra in cellintervall.
 - PasteType.ALL_BORTSETT FRÅN_BORDERS: Fungerar liknande Excels "Alla utom ramar"-funktionalitet för att klistra in cellintervall.
@@ -157,6 +157,6 @@ workbook.save(output);
 
 {{% alert color="primary" %}} 
 
-Från och med utgåvan av Aspose.Cells för Java 8.4.2, beter sig den arkiverade uppräkningen PasteType.ALL annorlunda jämfört med Excels "Alla"-funktion för att klistra in cellintervall. Nu kopierar PasteType.ALL också kolumnbredderna till destinationsintervallet i motsats till Excels "Alla"-funktionalitet. För att efterlikna Excels "Alla" beteende, använd PasteType.DEFAULT.
+Från och med släppet av Aspose.Cells for Java 8.4.2, beter sig den registrerade uppräkningen PasteType.ALL annorlunda jämfört med Excels "Alla"-funktion för att klistra in cellintervall. Nu kopierar PasteType.ALL också kolumnbredderna till destinationsintervallet i motsats till Excels "Alla"-funktionalitet. För att efterlikna Excels "Alla" beteende, använd PasteType.DEFAULT.
 
 {{% /alert %}}

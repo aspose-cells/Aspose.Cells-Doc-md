@@ -3,7 +3,7 @@ title: Вставить фоновое изображение в Excel
 type: docs
 weight: 90
 url: /ru/python-java/insert-background-image-to-excel/
-description: Как вставить фоновое изображение в Excel, используя Aspose.Cells для Python через Java
+description: Как вставить фоновое изображение в Excel, используя Aspose.Cells for Python via Java
 ---
 {{% alert color="primary" %}} 
 

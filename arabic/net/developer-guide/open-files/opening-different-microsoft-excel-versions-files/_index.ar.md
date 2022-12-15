@@ -12,7 +12,7 @@ url: /ar/net/opening-different-microsoft-excel-versions-files/
 
 ## **فتح ملفات مختلفة من إصدارات إكسل Microsoft**
 
- غالبًا ما يجب أن يكون التطبيق قادرًا على فتح ملفات Excel Microsoft التي تم إنشاؤها في إصدارات مختلفة ، على سبيل المثال ، Microsoft Excel 95،97 أو Microsoft Excel 2007/2010/2013/2016/2019 و Office 365. قد تحتاج إلى تحميل ملف بأي تنسيق من عدة تنسيقات ، بما في ذلك XLS و XLSX و XLSM و XLSB و SpreadsheetML و TabDelimited أو TSV و CSV و ODS وما إلى ذلك. استخدم المنشئ أو حدد**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** صف دراسي'**[تنسيق الملف] (https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** نوع السمة التي تحدد التنسيق باستخدام**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**تعداد.
+غالبًا ما يجب أن يكون التطبيق قادرًا على فتح ملفات Excel Microsoft التي تم إنشاؤها في إصدارات مختلفة ، على سبيل المثال ، Microsoft Excel 95،97 أو Microsoft Excel 2007/2010/2013/2016/2019 و Office 365. قد تحتاج إلى تحميل ملف بأي تنسيق من عدة تنسيقات ، بما في ذلك XLS و XLSX و XLSM و XLSB و SpreadsheetML و TabDelimited أو TSV و CSV و ODS وما إلى ذلك. استخدم المنشئ أو حدد**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** صف دراسي'**[تنسيق الملف] (https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** نوع السمة التي تحدد التنسيق باستخدام**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**تعداد.
 
  ال**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**يحتوي التعداد على العديد من تنسيقات الملفات المحددة مسبقًا والتي يرد بعضها أدناه.
 

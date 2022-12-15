@@ -6,7 +6,7 @@ url: /zh/cpp/aspose-cells-for-cpp-22-8-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-此页面包含 Aspose.Cells C++ 22.8 Windows 的发行说明。
+此页面包含 Aspose.Cells for C++ 22.8 for Windows 的发行说明。
 
 {{% /alert %}}
 

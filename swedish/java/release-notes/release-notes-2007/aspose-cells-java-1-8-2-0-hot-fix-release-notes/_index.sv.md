@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 1.8.2.0 Hot Fix Release Notes
+title: Aspose.Cells Java 1.8.2.0 Utgivningsinformation om hotfix
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-java-1-8-2-0-hot-fix-release-notes/
@@ -12,7 +12,7 @@ url: /sv/java/aspose-cells-java-1-8-2-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.8.2!
+ Vi har släppt Aspose.Cells for Java V1.8.2!
 
  Följande förbättringar och korrigeringar ingår:
 

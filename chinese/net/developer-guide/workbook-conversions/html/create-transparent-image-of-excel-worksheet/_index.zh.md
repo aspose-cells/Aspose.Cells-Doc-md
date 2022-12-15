@@ -14,13 +14,13 @@ url: /zh/net/create-transparent-image-of-excel-worksheet/
 
 |**不透明的输出：单元格背景为白色**|
 |:- |
-|![待办事项：图片_替代_文本](create-transparent-image-of-excel-worksheet_1.png)|
+|![待办事项：图像_替代_文本](create-transparent-image-of-excel-worksheet_1.png)|
 
 同时，在下面的工作表图像中，应用了透明度。没有填充颜色的单元格是透明的。
 
 |**启用透明度的输出**|
 |:- |
-|![待办事项：图片_替代_文本](create-transparent-image-of-excel-worksheet_2.png)|
+|![待办事项：图像_替代_文本](create-transparent-image-of-excel-worksheet_2.png)|
 
 以下示例代码从 Excel 工作表生成透明图像。
 

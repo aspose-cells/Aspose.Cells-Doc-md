@@ -5,7 +5,7 @@ weight: 70
 url: /sv/java/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells - Lägga till anpassade egenskaper**
-För att lägga till anpassade dokumentegenskaper med Aspose.Cells Java för PHP, ring**add_custom_property** metod för**Dokumentera** modul.
+För att lägga till anpassade dokumentegenskaper med Aspose.Cells Java for PHP, ring**add_custom_property** metod för**Dokumentera** modul.
 
 **PHP-kod**
 

@@ -28,9 +28,9 @@ Aspose.Cells tiene un motor de cálculo de fórmula integrado. No solo puede vol
 
 Aspose.Cells tiene un motor de cálculo de fórmula integrado. Además de calcular fórmulas importadas de un archivo de diseñador, Aspose.Cells puede calcular resultados de fórmulas directamente.
 
-veces, necesita calcular los resultados de la fórmula directamente sin agregarlos a una hoja de cálculo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de cálculo y todo lo que necesita es encontrar el resultado de esos valores en función de alguna fórmula de Excel Microsoft sin agregar la fórmula en una hoja de cálculo.
+A veces, necesita calcular los resultados de la fórmula directamente sin agregarlos a una hoja de cálculo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de cálculo y todo lo que necesita es encontrar el resultado de esos valores en función de alguna fórmula de Excel Microsoft sin agregar la fórmula en una hoja de cálculo.
 
- Puede utilizar las API del motor de cálculo de fórmulas Aspose.Cells para[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) a[**calcular**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)) los resultados de dichas fórmulas sin agregarlas a la hoja de cálculo:
+ Puede utilizar las API del motor de cálculo de fórmulas Aspose.Cells para[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) a[**calcular**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)) los resultados de dichas fórmulas sin agregarlas a la hoja de trabajo:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 

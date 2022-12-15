@@ -84,7 +84,7 @@ url: /zh/jasperreports/integration-with-jasperserver/
 1. 复制所有 GIF 图像**\库**中的文件夹**aspose.cells.jasperreports.zip**到*<安装目录>\apache-tomcat\webapps\jasperserver\images*文件夹。
 1. 复制**aspose.cells.jasperreports.jar**文件来自**\库**中的文件夹**aspose.cells.jasperreports.zip**到**<安装目录>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\。**文件夹。
 1. 将以下行添加到**<安装目录>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml**文件。
- （此 bean 可能包含旨在配置导出的各种配置设置。例如，您可以使用 JasperReports 字体映射功能或为 JasperReports 许可证文件指定 Aspose.Cells 的位置。）
+ （此 bean 可能包含旨在配置导出的各种配置设置。例如，您可以使用 JasperReports 字体映射功能或指定 Aspose.Cells for JasperReports 许可证文件的位置。）
 
 **XML**
 
@@ -107,9 +107,9 @@ url: /zh/jasperreports/integration-with-jasperserver/
 
 1. 运行 JasperServer 并打开任何报告进行查看。如果正确执行了前面的步骤，则可以使用其他格式图标。
 
-**在 JasperServer 上为 JasperReports 安装 Aspose.Cells 后可用的新导出格式（右侧）** 
+**在 JasperServer 上安装 Aspose.Cells for JasperReports 后可用的新导出格式（右侧）** 
 
-![待办事项：图片_替代_文本](integration-with-jasperserver_1.png)
+![待办事项：图像_替代_文本](integration-with-jasperserver_1.png)
 
 
 

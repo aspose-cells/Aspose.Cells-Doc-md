@@ -6,7 +6,7 @@ url: /de/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells – Registerkarten anzeigen oder ausblenden**
 ### **Registerkarten ausblenden**
- Tabs ausblenden mit**Aspose.Cells Java für PHP** , Anruf**Tabs ausblenden** Modul.
+ Tabs ausblenden mit**Aspose.Cells Java for PHP** , Anruf**Tabs ausblenden** Modul.
 
 **PHP-Code**
 

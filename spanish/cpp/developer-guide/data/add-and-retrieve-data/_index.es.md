@@ -6,13 +6,13 @@ url: /es/cpp/add-and-retrieve-data/
 ---
 {{% alert color="primary" %}} 
 
- En[Acceso a Cells de una hoja de trabajo](/cells/es/cpp/accessing-cells-of-a-worksheet/)discutimos enfoques básicos para acceder a las celdas en una hoja de cálculo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a las celdas.
+ En[Acceso a Cells de una hoja de trabajo](/cells/es/cpp/accessing-cells-of-a-worksheet/), discutimos enfoques básicos para acceder a las celdas en una hoja de cálculo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a las celdas.
 
 {{% /alert %}} 
 ## **Agregando datos al Cells**
  Aspose.Cells proporciona una clase[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) que representa un archivo de Excel Microsoft. los[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) la clase contiene un[IHojas de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) clase. los[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) la clase proporciona un[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) recopilación. Cada artículo en el[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) colección representa un objeto de la[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)clase.
 
- Aspose.Cells permite a los desarrolladores agregar datos a las celdas de las hojas de trabajo llamando al[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) clase[poner valor](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9) método. Aspose.Cells proporciona versiones sobrecargadas del[poner valor](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9) método que permite a los desarrolladores agregar diferentes tipos de datos a las celdas. Usando estas versiones sobrecargadas del[poner valor](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9)método, es posible agregar valores booleanos, de cadena, dobles, enteros o de fecha/hora, etc. a la celda.
+Aspose.Cells permite a los desarrolladores agregar datos a las celdas de las hojas de trabajo llamando al[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) clase[poner valor](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9) método. Aspose.Cells proporciona versiones sobrecargadas del[poner valor](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9) método que permite a los desarrolladores agregar diferentes tipos de datos a las celdas. Usando estas versiones sobrecargadas del[poner valor](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9)método, es posible agregar valores booleanos, de cadena, dobles, enteros o de fecha/hora, etc. a la celda.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-AddingDataToCells.cpp" >}}
 ### **Mejora de la eficiencia**
@@ -31,9 +31,9 @@ url: /es/cpp/add-and-retrieve-data/
 
  Cuando un campo no está lleno, las celdas con[ObtenerValorDoble](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a5f21cd4c755da84135176c74425f230a) o[Obtener valor flotante](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4e36c4be4c76447f54f8032b17cecf44)lanza una excepción.
 
-El tipo de datos contenidos en una celda también se puede verificar usando el[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) clase[ObtenerTipo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a36708b1bad0bbf45cbf9577ccab101ba) método. De hecho, el[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) clase[ObtenerTipo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a36708b1bad0bbf45cbf9577ccab101ba) método se basa en la[Tipo de valor de celda](https://reference.aspose.com/cells/cpp/namespace/aspose.cells#a745bf00b4815ec8dcf1bd11922fa4b62)enumeración cuyos valores predefinidos se enumeran a continuación:
+ El tipo de datos contenidos en una celda también se puede verificar usando el[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) clase[ObtenerTipo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a36708b1bad0bbf45cbf9577ccab101ba) método. De hecho, el[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) clase[ObtenerTipo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a36708b1bad0bbf45cbf9577ccab101ba) método se basa en la[Tipo de valor de celda](https://reference.aspose.com/cells/cpp/namespace/aspose.cells#a745bf00b4815ec8dcf1bd11922fa4b62)enumeración cuyos valores predefinidos se enumeran a continuación:
 
-|**Cell Tipos de valores**|**Descripción**|
+|**Cell Tipos de valor**|**Descripción**|
 |:- |:- |
 |CellValueType_IsBool|Especifica que el valor de la celda es booleano.|
 |CellValueType_IsDateTime|Especifica que el valor de la celda es fecha/hora.|

@@ -55,7 +55,7 @@ url: /fr/net/list-of-supported-number-formats/
 |
 |49 | Texte|@ |
 ## **Aspose.Cells Grille Suite**
-Comme nous savons qu'il existe deux contrôles Grid Aspose.Cells : Aspose.Cells.GridDesktop & Aspose.Cells.GridWeb. Les deux contrôles prennent en charge un grand nombre de formats numériques, qui sont divisés en deux sections par rapport à chaque contrôle comme suit :
+Comme nous savons qu'il existe deux contrôles Grid Aspose.Cells : Aspose.Cells.GridDesktop & Aspose.Cells.GridWeb. Les deux contrôles prennent en charge un grand nombre de formats numériques, qui sont divisés en deux sections par rapport à chaque contrôle comme suit :
 
 - Formats de nombre pris en charge dans Aspose.Cells.GridDesktop
 - Formats de nombre pris en charge dans Aspose.Cells.GridWeb

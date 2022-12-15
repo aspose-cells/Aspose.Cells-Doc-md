@@ -39,7 +39,7 @@ class ConvertingWorksheetToSVG:
 
  #Konvertera varje kalkylblad till svg-format på en enda sida.
 
-imgOptions = ImageOrPrintOptions()
+ imgOptions = ImageOrPrintOptions()
 
  imgOptions.setSaveFormat(saveFormat.SVG)
 

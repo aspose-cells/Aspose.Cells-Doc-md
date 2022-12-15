@@ -312,5 +312,5 @@ private static void MergeTwoCells(string docName, string sheetName, string cell1
 {{< /highlight >}}
 ## **下载示例代码**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip/下载)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\).zip/下载）
 - [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Merge%20two%20adjacent%20cells%20\(Aspose.Cells\)。压缩）

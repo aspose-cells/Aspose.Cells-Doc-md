@@ -82,7 +82,7 @@ url: /zh/net/aspose-cells-for-net-8-0-2-release-notes/
 
 (CELLSNET-42581) - ArgumentOutOfRangeException - 打开 Excel XLSX 文件时
 
-(CELLSNET-42570) - Cell 智能标记中的公式未展开
+(CELLSNET-42570) - Cell 智能标记中的公式未扩展
 
 (CELLSNET-42568) - 即 Sieve Size 列显示#N/A
 

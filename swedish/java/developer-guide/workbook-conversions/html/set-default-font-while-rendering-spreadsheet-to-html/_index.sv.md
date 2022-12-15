@@ -16,6 +16,6 @@ Följande exempelkod skapar en arbetsbok och lägger till lite text i cell B4 i 
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
- Koden genererar[mata ut HTML-fil med Courier New](5472568) , den[mata ut HTML med Arial](5472567) och den[ut HTML-fil med Times New Roman](5472565).
+ Koden genererar[ut HTML-fil med Courier New](5472568) , den[mata ut HTML med Arial](5472567) och den[ut HTML-fil med Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}

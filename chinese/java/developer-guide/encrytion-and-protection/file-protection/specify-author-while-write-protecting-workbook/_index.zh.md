@@ -12,7 +12,7 @@ url: /zh/java/specify-author-while-write-protecting-workbook/
 
 下面的示例代码解释了[**工作簿.设置.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)财产。该代码创建一个空工作簿，用密码对其进行写保护，指定作者姓名并将其另存为[输出Excel文件](67338593.xlsx).下面的截图展示了示例代码对输出Excel文件的效果，供大家参考。
 
-![待办事项：图片_替代_文本](specify-author-while-write-protecting-workbook_1.png)
+![待办事项：图像_替代_文本](specify-author-while-write-protecting-workbook_1.png)
 
 ## **示例代码**
 

@@ -15,7 +15,7 @@ Det här dokumentet beskriver några sätt att kontrollera vilken version av kom
 {{% /alert %}} 
 ## **Kontrollerar versionsnumret**
 ### **1) Manuellt sätt**
-Om du har Java-version/fix (Aspose.Cells för Java), kan du packa upp Aspose.Cells-bibliotekets jar-fil, öppna MANIFEST-filen med anteckningsblock och sök i strängen, dvs. "Specification-Version: " för att kontrollera dess värde.
+Om du har Java version/fix (Aspose.Cells for Java), kan du packa upp Aspose.Cells biblioteksjar-filen, öppna MANIFEST-filen med anteckningsblock och söka i strängen, dvs. "Specifikation-Version: " för att kontrollera dess värde.
 
 ![todo:image_alt_text](check-version-number-of-the-component_1.png)
 

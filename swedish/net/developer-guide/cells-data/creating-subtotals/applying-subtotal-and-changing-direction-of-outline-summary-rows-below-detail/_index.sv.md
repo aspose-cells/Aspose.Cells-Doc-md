@@ -34,7 +34,7 @@ Följande skärmdump visar den utgående Excel-filen som genereras av exempelkod
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-## C#-kod för att tillämpa delsumma och ändra riktningen för kontursammanfattningsrader
+## C# kod för att tillämpa delsumma och ändra riktningen för kontursammanfattningsrader
 
 Här är exempelkoden för att uppnå utdata som visas ovan.
 

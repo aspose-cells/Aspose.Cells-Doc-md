@@ -18,7 +18,7 @@ Vous devez définir une licence avant d'effectuer toute opération avec des docu
 
 ## **Chargement du fichier de licence**
 
- En Aspose.Cells pour Android via Java, la licence peut être[intégré en tant que ressource](/cells/fr/java/applying-a-license/#applying-a-license-from-an-embedded-resource), ou chargé à partir d'un flux :
+ Dans Aspose.Cells for Android via Java, la licence peut être[intégré en tant que ressource](/cells/fr/java/applying-a-license/#applying-a-license-from-an-embedded-resource), ou chargé à partir d'un flux :
 
 1.  Placez le fichier de licence à n'importe quel endroit sur**/mnt/sdcard/**.
 1. Créez un flux qui référence le fichier.

@@ -58,7 +58,7 @@ url: /it/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41283) - Errore di calcolo con la funzione OR
 
- (CELLSJAVA-41281) - L'operazione di adattamento automatico delle colonne non ha effetto con alcune celle con l'opzione ShrinkToFit attivata
+ (CELLSJAVA-41281) - L'operazione di adattamento automatico delle colonne non ha effetto con poche celle con l'opzione ShrinkToFit attivata
 
  (CELLSJAVA-41313) - Le linee continue vengono visualizzate come linee tratteggiate
 
@@ -99,10 +99,10 @@ url: /it/java/aspose-cells-for-java-8-4-2-release-notes/
  (CELLSJAVA-41274) - java.lang.NullPointerException in Workbook.save dopo ripetute operazioni di caricamento e salvataggio
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 
 

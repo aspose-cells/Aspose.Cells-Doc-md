@@ -15,7 +15,7 @@ Aspose.Cells for Python via Java 支持工作 ODS 文件。以下示例演示将
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToODSFiles.py" >}}
 ### **将 ODS 文档保存为 ODF 1.1 或 1.2 规范**
-Aspose.Cells for Python via Java支持以ODF 1.1和ODF 1.2规范保存ODS文件。为此，API 提供[OdsSaveOptions.setStrictSchema11()](https://reference.aspose.com/cells/python/asposecells.api/odssaveoptions#IsStrictSchema11)财产。将此属性设置为**真的**将使用 ODF 1.1 规范保存文件。默认值[OdsSaveOptions.setStrictSchema11()](https://reference.aspose.com/cells/python/asposecells.api/odssaveoptions#IsStrictSchema11)是**错误的**所以没有特殊设置保存的ODS文件是用ODF 1.2规范保存的。
+Aspose.Cells for Python via Java 支持保存ODF 1.1和ODF 1.2规范的ODS文件。为此，API 提供[OdsSaveOptions.setStrictSchema11()](https://reference.aspose.com/cells/python/asposecells.api/odssaveoptions#IsStrictSchema11)财产。将此属性设置为**真的**将使用 ODF 1.1 规范保存文件。默认值[OdsSaveOptions.setStrictSchema11()](https://reference.aspose.com/cells/python/asposecells.api/odssaveoptions#IsStrictSchema11)是**错误的**所以没有特殊设置保存的ODS文件是用ODF 1.2规范保存的。
 
 以下代码片段演示了如何使用 ODF 1.1 和 1.2 规范保存 ODS 文件。
 

@@ -5,7 +5,7 @@ weight: 70
 url: /fr/java/split-panes-in-php/
 ---
 ## **Aspose.Cells - Vitres fractionnées**
- Pour diviser les volets à l'aide de**Aspose.Cells Java pour PHP** , invoquez simplement**SplitPanes** module.
+ Pour diviser les volets à l'aide de**Aspose.Cells Java for PHP** , invoquez simplement**SplitPanes** module.
 
 **Code PHP**
 

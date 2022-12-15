@@ -10,7 +10,7 @@ Aspose.Cells supporta già la lettura e la scrittura della connessione esterna d
 
 ## **Leggere e scrivere la connessione esterna del file XLSB/XLS**
 
-Il seguente codice di esempio carica il file XLSB di esempio (anche XLS può essere caricato) e legge la sua prima connessione esterna che in realtà è una connessione DB di accesso Microsoft. Quindi modifica il file[**DBConnection.Nome**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)proprietà e lo salva come file XLSB di output. Lo screenshot mostra l'effetto del codice su[file XLSB di esempio](51740743.xlsb)e[file XLSB di output](51740742.xlsb)dopo la sua esecuzione. Si prega di consultare anche l'output della console del codice di esempio fornito di seguito per un riferimento.
+Il seguente codice di esempio carica il file di esempio XLSB (XLS può essere caricato anche) e legge la sua prima connessione esterna che è effettivamente una connessione DB di Microsoft Access. Quindi modifica il file[**DBConnection.Nome**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)proprietà e lo salva come file XLSB di output. Lo screenshot mostra l'effetto del codice su[file XLSB di esempio](51740743.xlsb)e[file XLSB di output](51740742.xlsb)dopo la sua esecuzione. Si prega di consultare anche l'output della console del codice di esempio fornito di seguito per un riferimento.
 
 ![cose da fare:immagine_alt_testo](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 

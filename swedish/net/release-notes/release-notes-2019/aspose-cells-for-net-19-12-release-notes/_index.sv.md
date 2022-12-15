@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 19.12 Release Notes
+title: Aspose.Cells for .NET 19.12 Release Notes
 type: docs
 weight: 10
 url: /sv/net/aspose-cells-for-net-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 19.12](https://www.nuget.org/packages/Aspose.Cells/19.12.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 19.12](https://www.nuget.org/packages/Aspose.Cells/19.12.0).
 
 {{% /alert %}} 
 
@@ -45,8 +45,8 @@ url: /sv/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-46999|Ett undantag skapas när .ods-filen "Parametern är inte giltig."|Undantag|
 |CELLSNET-47017|OpenXML SDK skapar ett undantag när den konverterade filen öppnas|Undantag|
 |CELLSNET-47022|Undantag vid laddning av ett XLSX-filformat|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Tar bort föråldrad DataLabels.BaseField-egenskap**
 Använd PivotField.BaseFieldIndex istället.
 #### **Tar bort föråldrad DataLabels.BaseItem-egenskap**

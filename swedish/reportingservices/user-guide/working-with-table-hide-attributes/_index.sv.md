@@ -4,8 +4,8 @@ type: docs
 weight: 160
 url: /sv/reportingservices/working-with-table-hide-attributes/
 ---
-1.  Klicka på i Microsoft Excel**Ändra attribut** på kommandofältet Aspose.Cells.
- Dialogrutan Ändra rapport visas.
+1.  I Microsoft Excel klickar du**Ändra attribut** på kommandofältet Aspose.Cells.
+Dialogrutan Ändra rapport visas.
 1. Välj ett tabellrapportobjekt.
 1.  Klicka på**Dölj** flik.
 
@@ -39,7 +39,7 @@ url: /sv/reportingservices/working-with-table-hide-attributes/
 
 
 
-1. Redigera annan dölj information.
+1. Redigera all annan göm information.
 1.  Klick**Lägg till** för att lägga till dölj informationen.
 
 ![todo:image_alt_text](working-with-table-hide-attributes_5.png)

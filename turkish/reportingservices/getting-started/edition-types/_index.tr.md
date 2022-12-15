@@ -6,15 +6,15 @@ url: /tr/reportingservices/edition-types/
 ---
 {{% alert color="primary" %}} 
 
-Raporlama Hizmetleri için Aspose.Cells yalnızca bir sürüm türü sunar. Özellikler aşağıda özetlenmiştir.
+Aspose.Cells for Reporting Services yalnızca bir sürüm türü sunar. Özellikler aşağıda özetlenmiştir.
 
-|**Özellikler** |**Raporlama Hizmetleri için Aspose.Cells** |
+|**Özellikler** |**Aspose.Cells for Reporting Services** |
 |:- |:- |
 | Aspose.Cells.Rapor Tasarımcısı| Evet|
-| Aspose.Cells.Raporlama Hizmetleri için Oluşturucu.| Evet|
+| Aspose.Cells. Oluşturucu for Reporting Services.| Evet|
 | Veri kaynaklarının ve sorguların oluşturulması.| Evet|
 | Rapor veri kaynağı olarak Raporlama Hizmetleri parametreleri.| Evet|
-|Rapor veri kaynağı olarak Raporlama Hizmetleri genel değişkenleri.| Evet|
+| Rapor veri kaynağı olarak Raporlama Hizmetleri genel değişkenleri.| Evet|
 | Rapor veri kaynağı olarak Raporlama Hizmetleri formülleri.| Evet|
 | Microsoft Excel dinamik formülü.| Evet|
 | Yayınlama zamanında rapor veri kaynağı olarak paylaşılan veri kaynağı belirtilmesi.| Evet|

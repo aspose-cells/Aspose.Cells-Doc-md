@@ -6,7 +6,7 @@ url: /sv/java/managing-page-breaks-in-php/
 ---
 ## **Aspose.Cells - Hantera sidbrytningar**
 ### **Lägga till sidbrytningar**
- För att lägga till sidbrytningar med**Aspose.Cells Java för PHP** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+ För att lägga till sidbrytningar med hjälp av**Aspose.Cells Java for PHP** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
 
 **PHP-kod**
 
@@ -30,7 +30,7 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **Rensa alla sidbrytningar**
- För att rensa alla sidbrytningar med**Aspose.Cells Java för PHP** , ringa upp**rensa_alla_sidebrytningar** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+ För att rensa alla sidbrytningar med**Aspose.Cells Java for PHP** , ringa upp**rensa_alla_sidebrytningar** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
 
 **PHP-kod**
 
@@ -46,7 +46,7 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
 ### **Ta bort specifik sidbrytning**
- För att ta bort specifik sidbrytning med**Aspose.Cells Java för PHP** , ringa upp**remove_page_break** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+ För att ta bort specifik sidbrytning med**Aspose.Cells Java for PHP** , ringa upp**remove_page_break** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
 
 **PHP-kod**
 

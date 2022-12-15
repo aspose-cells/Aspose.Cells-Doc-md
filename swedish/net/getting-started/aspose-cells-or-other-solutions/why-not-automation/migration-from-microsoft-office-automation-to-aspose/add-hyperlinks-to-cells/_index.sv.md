@@ -6,7 +6,7 @@ url: /sv/net/add-hyperlinks-to-cells/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells för .NET låter dig utföra nästan alla uppgifter via din applikation som en användare kan utföra i Microsoft Excel. Den här artikeln jämför hur man lägger till en hyperlänk till en cell i ett kalkylblad med VSTO och Aspose.Cells för .NET.
+Aspose.Cells for .NET låter dig utföra nästan alla uppgifter via din applikation som en användare kan utföra i Microsoft Excel. Den här artikeln jämför hur man lägger till en hyperlänk till en cell i ett kalkylblad med VSTO och Aspose.Cells for .NET.
 
 {{% /alert %}}
 
@@ -19,11 +19,11 @@ För att lägga till hyperlänkar till celler i ett kalkylblad, gör följande:
  (Endast VSTO.)
  1. Lägg till en arbetsbok.
  1. Skaffa det första arket.
-1. Lägg till text i cellerna som du ska lägga till en hyperlänk till.
+ 1. Lägg till text i cellerna som du ska lägga till en hyperlänk till.
 1. Lägg till hyperlänk.
 1. Spara dokumentet.
 
- Dessa steg visas i kodexemplen nedan. De första exemplen visar hur man använder[VSTO](/cells/sv/net/add-hyperlinks-to-cells/) med antingen C# eller Visual Basic för att lägga till en hyperlänk till en cell. Exemplen som följer visar hur man gör samma sak med hjälp av[Aspose.Cells för .NET](/cells/sv/net/add-hyperlinks-to-cells/), återigen med C# eller Visual Basic.
+ Dessa steg visas i kodexemplen nedan. De första exemplen visar hur man använder[VSTO](/cells/sv/net/add-hyperlinks-to-cells/) med antingen C# eller Visual Basic för att lägga till en hyperlänk till en cell. Exemplen som följer visar hur man gör samma sak med hjälp av[Aspose.Cells for .NET](/cells/sv/net/add-hyperlinks-to-cells/), återigen med C# eller Visual Basic.
 
 Kodexemplen genererar en Excel-fil som har en hyperlänk i cell A1 på det första kalkylbladet.
 
@@ -87,7 +87,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Lägga till hyperlänkar till Cells med Aspose.Cells för .NET**
+### **Lägger till hyperlänkar till Cells med Aspose.Cells for .NET**
 
 **C#**
 

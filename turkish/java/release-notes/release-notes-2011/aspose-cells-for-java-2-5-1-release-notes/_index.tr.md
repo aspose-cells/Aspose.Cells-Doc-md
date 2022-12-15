@@ -24,7 +24,7 @@ url: /tr/java/aspose-cells-for-java-2-5-1-release-notes/
 
  · ODS dosyalarını okuma/kaydetme hatalarını düzeltir.
 
- · Excel 97-2003 dosyalarını okuma/kaydetme hatalarını düzeltir.
+ · Excel 97-2003 dosyalarını okuma/kaydetme hatalarını giderir.
 
  · Grafikten Görüntüye, Sayfadan Görüntüye ve Excel'den PDF'e özellikleri için geliştirme yapıldı.
 

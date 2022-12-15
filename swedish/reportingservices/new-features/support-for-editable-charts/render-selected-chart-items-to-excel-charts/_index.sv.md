@@ -8,7 +8,7 @@ url: /sv/reportingservices/render-selected-chart-items-to-excel-charts/
 
 Så här återger du endast vissa diagram i en rapport till Excel-diagram:
 
-1.  Öppna**Aspose.Cells.ReportingServices.xml** fil.
+1. Öppna**Aspose.Cells.ReportingServices.xml** fil.
 1.  Ändra konfigurationsparametrarna för**Aspose.Cells.ReportingServices.xml** fil.
 1. Lägg till önskad rapportkonfigurationsinformation.
 1. Lägg till informationen för de diagramobjekt du inte vill exportera som redigerbara diagram. Dessa objekt exporteras som statiska bilder.

@@ -10,7 +10,7 @@ När du skapar en arbetsbok med stora datamängder, eller läser en stor Microso
 
 {{% /alert %}} 
 
-Använd alternativet GridWeb.EnableAsync för att optimera minne och prestanda för celldata. När du bygger en stor datamängd för celler. När du ställer in alternativet på sant kommer dataladdningen att baseras på det aktuella synliga Windows-området endast. Kort sagt, när du rullar i kalkylbladets celldata i GridWeb, kommer det att ladda ny Windows-data endast baserat på den aktuella rullningspositionen.
+Använd alternativet GridWeb.EnableAsync för att optimera minne och prestanda för celldata. När du bygger en stor datamängd för celler. När du ställer in alternativet på sant kommer dataladdningen att baseras på det aktuella synliga området Windows endast. Kort sagt, när du rullar i kalkylbladets cellers data i GridWeb, kommer det att ladda ny Windows-data endast baserat på den aktuella rullningspositionen.
 
 Följande exempel visar hur du aktiverar GridWebs asynkroniseringsläge.
 

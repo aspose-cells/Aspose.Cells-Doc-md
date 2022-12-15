@@ -10,10 +10,10 @@ Microsoft Report Viewer est un puissant contrôle .NET qui permet d'utiliser les
 
 Report Viewer peut générer des rapports indépendamment à l'aide d'un moteur intégré (appelé « mode local »), ou il peut afficher des rapports générés sur un serveur de rapports Microsoft SQL Server Reporting Services (« mode distant ») :
 
-- En mode distant, Report Viewer peut exporter des rapports vers tous les formats installés sur le Report Server auquel il est connecté. Par conséquent, pour exporter des rapports vers d'autres formats Excel Microsoft, il vous suffit d'installer Aspose.Cells pour Reporting Services sur le serveur.
+- En mode distant, Report Viewer peut exporter des rapports vers tous les formats installés sur le Report Server auquel il est connecté. Par conséquent, pour exporter des rapports vers d'autres formats Excel Microsoft, il vous suffit d'installer Aspose.Cells for Reporting Services sur le serveur.
 - Cependant, en mode local, Report Viewer ne se connecte pas à un serveur de rapports et la liste des formats d'exportation est limitée à quelques formats intégrés.
 
- En installant Aspose.Cells pour Reporting Services sur une machine de développement et en suivant les étapes ci-dessous, vous pouvez exporter vers d'autres formats Excel Microsoft à partir de Report Viewer en mode local.
+ En installant Aspose.Cells for Reporting Services sur une machine de développement et en suivant les étapes ci-dessous, vous pouvez exporter vers plus de formats Excel Microsoft à partir de Report Viewer en mode local.
 
 {{% /alert %}} 
 ### **Travailler avec Aspose.Cells en mode local**
@@ -22,7 +22,7 @@ Report Viewer peut générer des rapports indépendamment à l'aide d'un moteur 
  1. Cliquez avec le bouton droit sur**Références** dossier et sélectionnez**Ajouter une référence**.
  1. Sélectionnez le**Parcourir** et accédez à l'assembly suivant :
       <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
- (où<InstallDir> est le répertoire dans lequel vous avez installé ou décompressé Aspose.Cells pour Reporting Services.
+ (où<InstallDir> est le répertoire où vous avez installé ou décompressé Aspose.Cells for Reporting Services.
 
       **Ajout d'une référence à Aspose.Cells.ReportingServices.dll à un projet** 
 
@@ -246,9 +246,9 @@ End Sub
 {{< /highlight >}}
 
 1.  Appelez la méthode AddExtension à partir du code.
- - Vous pouvez appeler AddExtension (indiqué à l'étape précédente) chaque fois que vous devez ajouter Aspose.Cells pour les formats d'exportation Reporting Services à une instance de contrôle Report Viewer. Pensez à appeler depuis le formulaire_Charger ou Page_Charger le gestionnaire d'événements d'une application WinForms ou ASP .NET.
- - Vous pouvez ajouter tout ou partie de l'export Aspose.Cells pour les formats d'export Reporting Services. Vous pouvez spécifier n'importe quel nom d'affichage pour les formats à afficher dans Report Viewer.
- Pour ajouter Aspose.Cells pour les formats d'exportation Reporting Services à Microsoft Report Viewer en mode local, utilisez le code suivant :
+ - Vous pouvez appeler AddExtension (indiqué à l'étape précédente) chaque fois que vous devez ajouter des formats d'exportation Aspose.Cells for Reporting Services à une instance de contrôle Report Viewer. Pensez à appeler depuis le formulaire_Charger ou Page_Charger le gestionnaire d'événements d'une application WinForms ou ASP .NET.
+ - Vous pouvez ajouter tous ou seulement certains formats d'exportation Aspose.Cells for Reporting Services. Vous pouvez spécifier n'importe quel nom d'affichage pour les formats à afficher dans Report Viewer.
+ Pour ajouter les formats d'exportation Aspose.Cells for Reporting Services à Microsoft Report Viewer en mode local, utilisez le code suivant :
 
 **C#**
 
@@ -289,8 +289,8 @@ End Sub
 {{< /highlight >}}
 
 1.  Testez les nouveaux formats d'exportation.
-1. Exécutez votre application.
- Vous devriez remarquer un certain nombre de nouveaux formats d'exportation disponibles dans le**Exporter** dans le visualiseur de rapports.
+ 1. Exécutez votre application.
+Vous devriez remarquer un certain nombre de nouveaux formats d'exportation disponibles dans le**Exporter** dans le visualiseur de rapports.
  1. Sélectionnez l'un des formats et exécutez l'exportation.
  1. Vérifiez que le document est créé comme prévu.
 

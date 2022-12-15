@@ -6,7 +6,7 @@ url: /tr/net/add-cells-to-microsoft-excel-formula-watch-window/
 ---
 ## **Olası Kullanım Senaryoları**
 
-Microsoft Excel İzleme Penceresi, hücre değerlerini ve formüllerini bir pencerede rahatça izlemek için yararlı bir araçtır. açabilirsiniz*İzleme Penceresi* Microsoft Excel'i kullanarak*Formüller > İzle* *Pencere*. sahip*İzleme Ekle*İnceleme için hücreleri eklemek için kullanılabilecek düğme. Benzer şekilde, kullanabilirsiniz[**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index) içine hücre ekleme yöntemi*İzleme Penceresi*Aspose.Cells API'i kullanarak.
+Microsoft Excel İzleme Penceresi, hücre değerlerini ve formüllerini bir pencerede rahatça izlemek için yararlı bir araçtır. açabilirsiniz*İzleme Penceresi* Microsoft Excel'i kullanarak*Formüller > İzle* *pencere*. sahip*İzleme Ekle*İnceleme için hücreleri eklemek için kullanılabilecek düğme. Benzer şekilde, kullanabilirsiniz[**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index) içine hücre ekleme yöntemi*İzleme Penceresi*Aspose.Cells API'i kullanarak.
 
 ## **Cells'i Microsoft'e ekleyin Excel Formül İzleme Penceresi**
 

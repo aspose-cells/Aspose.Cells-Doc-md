@@ -5,7 +5,7 @@ weight: 170
 url: /it/net/render-interactive-scrollbar-in-gridweb/
 ---
 ## **Possibili scenari di utilizzo**
- Aspose.Cells per GridWeb può eseguire il rendering del controllo interattivo della barra di scorrimento all'interno del foglio di lavoro GridWeb. L'utente può interagire con la barra di scorrimento come fa in Microsoft Excel. Per creare una barra di scorrimento interattiva, è necessario aggiungere i collegamenti per**jQuery** e**interfaccia utente jQuery** librerie come mostrato di seguito.
+ Aspose.Cells per GridWeb può eseguire il rendering del controllo interattivo della barra di scorrimento all'interno del foglio di lavoro GridWeb. L'utente può interagire con la barra di scorrimento come in Microsoft Excel. Per creare una barra di scorrimento interattiva, è necessario aggiungere i collegamenti per**jQuery** e**interfaccia utente jQuery** librerie come mostrato di seguito.
 
 {{< highlight "java" >}}
 

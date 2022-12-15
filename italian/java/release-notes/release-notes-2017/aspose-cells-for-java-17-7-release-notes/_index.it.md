@@ -26,10 +26,10 @@ url: /it/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42328|Restituito IconSet errato|Insetto|
 |CELLSJAVA-42324|Lo sfondo del grafico non è presente dopo aver impostato i dati di un'immagine|Insetto|
 |CELLSJAVA-42340|Eccezione nel thread "Thread-2" java.lang.OutOfMemoryError: limite di overhead GC superato|Eccezione|
-|CELLSJAVA-42334|L'eccezione "Errore per ZipFile" viene generata quando si usa OutputFileStream|Eccezione|
+|CELLSJAVA-42334|L'eccezione "Errore per ZipFile" viene generata quando si utilizza OutputFileStream|Eccezione|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: password non valida all'apertura del file Excel|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge i metodi GlobalizationSettings.GetBooleanValueString()/GetErrorValueString()**
 Ottiene il valore della stringa di visualizzazione personalizzata per il valore booleano e di errore della cella durante la formattazione/il rendering.
 ### **Rimuove il metodo ValidationCollection.Add() obsoleto**
@@ -67,8 +67,8 @@ Si prega di controllare l'elenco degli argomenti della guida aggiunti nei docume
 
 - [Leggi il foglio di calcolo dei numeri sviluppato da Apple Inc. utilizzando Aspose.Cells](/cells/it/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Impostare la proprietà DefaultFont di PdfSaveOptions e ImageOrPrintOptions in modo che abbia la priorità](/cells/it/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
-- [Importa dati dall'oggetto ResultSet del database di accesso Microsoft al foglio di lavoro](/cells/it/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
-- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi](/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Importa i dati dall'oggetto ResultSet del database di Microsoft Access nel foglio di lavoro](/cells/it/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
+- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementa errori e valore booleano in russo o in qualsiasi altra lingua](/cells/it/java/implement-errors-and-boolean-value-in-russian-or-any-other-language/)
 - [Determinare se il formato carta del foglio di lavoro è automatico](/cells/it/java/determine-if-paper-size-of-worksheet-is-automatic/)
 

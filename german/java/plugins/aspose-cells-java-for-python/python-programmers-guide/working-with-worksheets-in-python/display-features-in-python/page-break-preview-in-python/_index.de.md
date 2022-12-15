@@ -5,7 +5,7 @@ weight: 60
 url: /de/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
- So stellen Sie das Arbeitsblatt auf Seitenumbruchvorschau ein**Aspose.Cells Java für Python** , einfach aufrufen**Seitenumbruchvorschau** Modul.
+ So stellen Sie das Arbeitsblatt auf Seitenumbruchvorschau ein**Aspose.Cells Java for Python** , einfach aufrufen**Seitenumbruchvorschau** Modul.
 
 **Python Code**
 

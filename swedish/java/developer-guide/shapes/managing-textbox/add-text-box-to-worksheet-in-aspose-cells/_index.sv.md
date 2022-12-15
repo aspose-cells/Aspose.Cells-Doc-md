@@ -32,7 +32,7 @@ Nu får du en textruta.
 
 ## Lägg till textruta i arbetsbladet på Aspose.Cells
 
- När du behöver infoga TextBox massvis i kalkylbladet är den manuella infogningsmetoden uppenbarligen en katastrof. Om detta stör dig tror jag att det här dokumentet kommer att hjälpa dig.[Aspose.Cells](https://products.aspose.com/cells/) ger dig ett API för att enkelt göra bulkinfogningar i din kod.
+ När du behöver infoga TextBox massvis i kalkylbladet är den manuella infogningsmetoden uppenbarligen en katastrof. Om detta stör dig tror jag att det här dokumentet kommer att hjälpa dig.[Aspose.Cells](https://products.aspose.com/cells/) ger dig en API för att enkelt göra massinsättningar i din kod.
 
 Följande exempelkod skapar en textruta.
 

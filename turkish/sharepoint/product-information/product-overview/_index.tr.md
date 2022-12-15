@@ -7,7 +7,7 @@ url: /tr/sharepoint/product-overview/
 {{% alert color="primary" %}} 
 
 ![yapılacaklar:resim_alternatif_Metin](product-overview_1)
-### **Aspose.Cells numaralı SharePoint Belgelerine hoş geldiniz!**
+### **Aspose.Cells for SharePoint Dokümantasyona hoş geldiniz!**
 Aspose.Cells for SharePoint, MS Excel belgelerini Microsoft SharePoint uygulamalarında dönüştürmeyi mümkün kılan elektronik tablo dönüştürmeyi destekleyen esnek bir çözümdür.
 
 {{% /alert %}} 
@@ -27,9 +27,9 @@ Aşağıdakiler gibi birden çok belge biçimini dönüştürebilirsiniz:
 - XPS - XML Kağıt Özelliği
 - TIFF - Etiketli Görüntü Dosyası Biçimi
 - SVG - Ölçeklenebilir Vektör Grafikleri
-- DIF - Çizim Değişim Formatı
+- DIF - Çizim Değişim Biçimi
 
-Aspose.Cells for SharePoint, aşağıdaki ürünlerle kullanılmak üzere tasarlanmıştır:
+Aspose.Cells for SharePoint aşağıdaki ürünlerle kullanılmak üzere tasarlanmıştır:
 
 - Windows SharePoint Hizmetleri 3.0 (WSS)
 - Microsoft Office SharePoint Server 2007 (MOSS) Standardı
@@ -43,9 +43,9 @@ Aspose.Cells for SharePoint, aşağıdaki ürünlerle kullanılmak üzere tasarl
 
 Yukarıdaki ürünlerin dışında herhangi bir ek sistem gereksinimi yoktur.
 
- Bu belgeler,[özellikleri](/cells/tr/sharepoint/features/), [Kurulum](/cells/tr/sharepoint/install-aspose-cells-for-sharepoint/), [değerlendirme](/cells/tr/sharepoint/evaluate-aspose-cells/), [lisanslama](/cells/tr/sharepoint/license-aspose-cells-for-sharepoint/), SharePoint için Aspose.Cells'in yaygın kullanım durumları ve ayarları.
+ Bu belgeler,[özellikleri](/cells/tr/sharepoint/features/), [Kurulum](/cells/tr/sharepoint/install-aspose-cells-for-sharepoint/), [değerlendirme](/cells/tr/sharepoint/evaluate-aspose-cells/), [lisanslama](/cells/tr/sharepoint/license-aspose-cells-for-sharepoint/), yaygın kullanım durumları ve Aspose.Cells for SharePoint ayarları.
 
-**Belgeleri dönüştürmek için SharePoint'in belge kitaplığından SharePoint için Aspose.Cells'i kullanın**
+**Belgeleri dönüştürmek için SharePoint'in belge kitaplığından Aspose.Cells for SharePoint'i kullanın**
 
 **![todo:image_alt_text](product-overview_2.png)**
 

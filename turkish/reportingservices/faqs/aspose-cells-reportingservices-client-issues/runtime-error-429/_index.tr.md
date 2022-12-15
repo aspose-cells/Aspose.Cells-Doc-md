@@ -15,7 +15,7 @@ url: /tr/reportingservices/runtime-error-429/
  yeniden kaydol**Aspose.Cells.ReportingServices.Client.dll** kullanmak**regasm.exe** Yarar:
 
 1. Cmd.exe'yi yönetici olarak çalıştırın.
-1. cd $(Raporlama Hizmetleri yükleme klasörü için Aspose.Cells).
+1. cd $(Aspose.Cells for Reporting Services yükleme klasörü).
 1.  Uygulamak**regasm.exe** Kayıt olmak**Aspose.Cells.ReportingServices.Client.dll** manuel olarak.
 
 {{< highlight "java" >}}

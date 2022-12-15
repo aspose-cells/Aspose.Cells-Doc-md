@@ -4,9 +4,9 @@ type: docs
 weight: 50
 url: /it/reportingservices/digital-signatures/
 ---
- Aspose.Cells per Reporting Services supporta le firme digitali durante l'esportazione di file Microsoft Excel 2007 o file ODS. Abbiamo alcune informazioni di configurazione per le firme digitali che possono essere impostate nel file**Aspose.Cells.ReportingServices.xml** file.
+ Aspose.Cells for Reporting Services supporta le firme digitali durante l'esportazione di file Microsoft Excel 2007 o file ODS. Abbiamo alcune informazioni di configurazione per le firme digitali che possono essere impostate nel file**Aspose.Cells.ReportingServices.xml** file.
 
- Quando il valore di DigitalSignature è**spento**, Aspose.Cells per Reporting Services disattiva le firme digitali.
+ Quando il valore di DigitalSignature è**spento**, Aspose.Cells for Reporting Services disattiva le firme digitali.
 
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ url: /it/reportingservices/digital-signatures/
 
 {{< /highlight >}}
 
- Quando il valore di DigitalSignature è**Su**, Aspose.Cells per Reporting Services attiva le firme digitali.
+ Quando il valore di DigitalSignature è**Su**, Aspose.Cells for Reporting Services attiva la firma digitale.
 
 {{< highlight "java" >}}
 

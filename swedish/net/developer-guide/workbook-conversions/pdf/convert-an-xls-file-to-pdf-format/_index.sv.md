@@ -8,7 +8,7 @@ url: /sv/net/convert-an-xls-file-to-pdf-format/
 
 PDF (Portable Document Format) representerar dokument oberoende av programvara, hårdvara och operativsystem som används för att skapa dessa dokument. En PDF-fil kan vara dokument med valfri kombination av text, grafik och bilder på ett enhetsoberoende och upplösningsoberoende sätt. PDF-filer är ofta komprimerade, så de tar mindre plats än originalfilen.
 
-Ibland behöver du konvertera en Microsoft Excel-fil till PDF. För detta behöver du en snabb, säker, korrekt och pålitlig lösning som låter dig distribuera PDF-dokument över hela världen. Det finns många konverteringsverktyg som kan utföra denna uppgift. Men du måste se till att layouten för det ursprungliga Excel-dokumentet behålls i utdata-PDF-filen. Bilder, dataformatering, typsnitt, attribut, färger, sidinställningar, textorientering, ramar, diagram etc. ska återges exakt och exakt.[Aspose.Cells](https://products.aspose.com/cells/net/) säkerställer högfientlig konvertering.
+Ibland måste du konvertera en Microsoft Excel-fil till PDF. För detta behöver du en snabb, säker, korrekt och pålitlig lösning som låter dig distribuera PDF-dokument över hela världen. Det finns många konverteringsverktyg som kan utföra denna uppgift. Men du måste se till att layouten för det ursprungliga Excel-dokumentet behålls i utdata-PDF-filen. Bilder, dataformatering, typsnitt, attribut, färger, sidinställningar, textorientering, ramar, diagram etc. ska återges exakt och exakt.[Aspose.Cells](https://products.aspose.com/cells/net/) säkerställer högfientlig konvertering.
 
 Detta dokument är utformat för att ge en omfattande förståelse för hur ett Microsoft Excel-dokument (som innehåller bilder, diagram, formatering etc.) kan konverteras till PDF. För detta ändamål visar den hur man skapar en enkel konsolapplikation i Visual Studio.Net som konverterar en Excel-fil till PDF med Aspose.Cells API. Konverteringen utförs med hög grad av precision och noggrannhet.
 
@@ -31,7 +31,7 @@ Mallfilen har tre kalkylblad, inklusive diagram och bild som media. Det första 
 ### **Konverteringsprocess**
 
 1. Ladda ner och installera Aspose.Cells:
- 1. Ladda ner Aspose.Cells för .NET.
+ 1. Ladda ner Aspose.Cells for .NET.
  1. Installera det på din utvecklingsdator.
 1. Skapa ett projekt och lägg till referenser:
  1. Starta Visual Studio.Net.

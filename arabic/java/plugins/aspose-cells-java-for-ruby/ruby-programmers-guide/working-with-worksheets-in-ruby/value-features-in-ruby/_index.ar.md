@@ -6,5 +6,5 @@ url: /ar/java/value-features-in-ruby/
 ---
 **يتضمن هذا القسم المواضيع التالية:**
 
-- [نسخ وتحريك أوراق العمل في روبي](/cells/ar/java/copying-and-moving-worksheets-in-ruby/)
+- [نسخ ونقل أوراق العمل في روبي](/cells/ar/java/copying-and-moving-worksheets-in-ruby/)
 - [إدارة فواصل الصفحات في روبي](/cells/ar/java/managing-page-breaks-in-ruby/)

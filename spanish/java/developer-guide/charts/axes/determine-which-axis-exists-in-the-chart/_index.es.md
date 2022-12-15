@@ -6,7 +6,7 @@ url: /es/java/determine-which-axis-exists-in-the-chart/
 ---
 {{% alert color="primary" %}}
 
-A veces, el usuario necesita saber si existe un eje en particular en el Gráfico. Por ejemplo, quiere saber si existe un eje de valor secundario dentro del gráfico o no. Algunos gráficos como Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded, etc. no tienen un eje.
+A veces, el usuario necesita saber si existe un eje en particular en el gráfico. Por ejemplo, quiere saber si existe un eje de valor secundario dentro del gráfico o no. Algunos gráficos como Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded, etc. no tienen un eje.
 
  Aspose.Cells proporciona[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) para determinar si el gráfico tiene un eje en particular o no.
 
@@ -18,7 +18,7 @@ La siguiente captura de pantalla muestra un gráfico que solo tiene la categorí
 
 ![todo:imagen_alternativa_texto](determine-which-axis-exists-in-the-chart_1.png)
 
- El siguiente código de ejemplo demuestra el uso de[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)para determinar si el gráfico de muestra tiene categoría primaria y secundaria y eje de valores. La salida de la consola del código se muestra a continuación, que muestra verdadero para la categoría principal y el eje de valor y falso para la categoría secundaria y el eje de valor.
+ El siguiente código de ejemplo demuestra el uso de[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)para determinar si el gráfico de muestra tiene categoría primaria y secundaria y eje de valor. La salida de la consola del código se muestra a continuación, que muestra verdadero para la categoría principal y el eje de valor y falso para la categoría secundaria y el eje de valor.
 
 ### Java código para determinar qué eje existe en el gráfico
 

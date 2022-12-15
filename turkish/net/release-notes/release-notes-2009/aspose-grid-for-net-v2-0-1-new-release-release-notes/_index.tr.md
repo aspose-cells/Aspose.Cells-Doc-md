@@ -30,7 +30,7 @@ Aspose.Grid v sürümünü yayınladık.
 
  l Açıklamaya Genişlik ve Yükseklik özelliklerini ekler.
 
- l Yorumlar yazı tipini ayarlamak için GridDesktop'a CommentFont özelliğini ekler.
+ l Yorumlar yazı tipini ayarlamak için GridDesktop'a CommentFont özelliği ekler.
 
  l Yorumların Genişliğini ve Yüksekliğini belirtmek için CommentCollection sınıfına yönelik Add yönteminin aşırı yüklenmiş listesi için yeni sürümler sağlar.
 

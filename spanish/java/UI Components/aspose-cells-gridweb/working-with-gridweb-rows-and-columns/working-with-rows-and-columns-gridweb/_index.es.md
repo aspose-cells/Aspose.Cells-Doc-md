@@ -7,7 +7,7 @@ url: /es/java/working-with-rows-and-columns-gridweb/
 ## **Insertar filas y columnas**
 Este tema explica cómo insertar nuevas filas y columnas en una hoja de cálculo mediante Aspose.Cells.GridWeb API. Las filas o columnas se pueden insertar en cualquier posición de la hoja de cálculo.
 ### **Insertar filas**
-Para insertar una fila en cualquier posición de una hoja de trabajo:
+Para insertar una fila en cualquier posición de una hoja de cálculo:
 
 1. Agregue el control Aspose.Cells.GridWeb al formulario o página web.
 1. Acceda a la hoja de trabajo a la que está agregando filas.
@@ -35,7 +35,7 @@ También puede usar los métodos insertRows()/insertColumns() para insertar vari
 ## **Eliminación de filas y columnas**
 Este tema demuestra cómo eliminar filas y columnas de una hoja de cálculo mediante Aspose.Cells.GridWeb API. Con la ayuda de esta característica, los desarrolladores pueden eliminar filas o columnas en tiempo de ejecución.
 ### **Eliminación de filas**
-Para eliminar una fila de su hoja de trabajo:
+Para eliminar una fila de su hoja de cálculo:
 
 1. Agregue el control Aspose.Cells.GridWeb a un formulario o página web.
 1. Acceda a la hoja de trabajo de la que desea eliminar filas.

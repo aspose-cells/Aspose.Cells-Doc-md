@@ -29,8 +29,8 @@ url: /it/java/aspose-cells-for-java-17-10-release-notes/
 |CELLSJAVA-42409|L'area del grafico non viene visualizzata correttamente negli output PDF e PNG del grafico MS Excel|Insetto|
 |CELLSJAVA-41046|La sequenza della legenda del grafico è cambiata durante il rendering del foglio di calcolo in formato PDF|Insetto|
 |CELLSJAVA-40416|I colori e lo stile del grafico si perdono|Insetto|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo AbstractCalculationMonitor.Interrupt(string).**
 Consente agli utenti di interrompere l'avanzamento dei calcoli delle formule.
 ### **Aggiunge l'enumerazione HtmlCrossType.MSExport**

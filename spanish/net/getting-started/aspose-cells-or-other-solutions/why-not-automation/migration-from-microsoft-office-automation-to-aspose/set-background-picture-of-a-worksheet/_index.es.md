@@ -12,7 +12,7 @@ Los desarrolladores también pueden agregar imágenes de fondo a través de sus 
 
 {{% /alert %}}
 
-## **Establecer una imagen de fondo en una hoja de cálculo**
+## **Establecer una imagen de fondo en una hoja de trabajo**
 
 Para aplicar una imagen de fondo a una hoja de cálculo:
 

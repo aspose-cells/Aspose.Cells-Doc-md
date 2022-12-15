@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /ru/reportingservices/delimiters/
 ---
-Aspose.Cells для служб Reporting Services поддерживает указанный разделитель при отображении формата TXT или CSV. Два параметра управляют разделителем полей в Aspose.Cells для служб Reporting Services.
+Aspose.Cells for Reporting Services поддерживает указанный разделитель при отображении формата TXT или CSV. Две настройки управляют разделителем полей в Aspose.Cells for Reporting Services.
 
 1.  Параметр разделителя полей в**rsreportserver.config** может управлять только указанным расширением рендеринга.
 

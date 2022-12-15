@@ -5,7 +5,7 @@ weight: 10
 url: /fr/net/calculate-sub-totals/
 ---
 ## **Aspose.Cells - Calculer les sous-totaux**
-Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs récurrentes dans une feuille de calcul. Aspose.Cells fournit des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul par programmation.
+Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs récurrentes dans une feuille de calcul. Aspose.Cells fournit des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul par programme.
 
 **C#**
 

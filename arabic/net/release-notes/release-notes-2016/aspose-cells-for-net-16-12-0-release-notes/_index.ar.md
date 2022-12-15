@@ -66,7 +66,7 @@ url: /ar/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44858|لا تنتهي إعادة النشر في شريط التمرير أبدًا (GridWeb)|حشرة|
 |CELLSNET-44734|تتغير منطقة GridWeb المرئية عند ترك الخلية عبر مفتاح TAB أو Enter|حشرة|
 |CELLSNET-44907|CellsException بسبب فاصل الأسطر داخل الخلية الذي يمتد لعدة صفوف|استثناء|
-|CELLSNET-44893|Aspose.Cell ArithmeticException عند استدعاء Chart.ToImage من خلال CLR متوافق C++ DLL|استثناء|
+|CELLSNET-44893|Aspose.Cell ArithmeticException عند استدعاء Chart.ToImage من خلال DLL C ++ متوافق مع CLR|استثناء|
 |CELLSNET-44876|CellsException: خطأ من شكل إلى صورة ، أثناء تحويل جدول البيانات إلى PDF|استثناء|
 ### **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for .NET. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.

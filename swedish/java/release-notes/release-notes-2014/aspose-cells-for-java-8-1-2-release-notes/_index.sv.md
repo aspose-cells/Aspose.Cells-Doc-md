@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells för Java 8.1.2 Release Notes
+title: Aspose.Cells for Java 8.1.2 Release Notes
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-for-java-8-1-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 8.1.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.1.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 8.1.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.1.2/)
 
 {{% /alert %}} 
 
- Aspose.Cells för Java har uppdaterats till version 8.1.2 och vi är glada att kunna meddela att denna utgåva innehåller över 20 nya användbara förbättringar.
-Med Aspose.Cells för Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
-Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells för Java.
+Aspose.Cells for Java har uppdaterats till version 8.1.2 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
+Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
- Följande är en lista över ändringar i denna version av Aspose.Cells för Java.
+ Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
 
 \1) Aspose.Cells
 
@@ -26,7 +26,7 @@ Nya egenskaper
 
 Förbättringar
 
-(CELLSJAVA-40900) - Obfuskering av offentliga API-metoder
+(CELLSJAVA-40900) - Förvirring av offentliga API-metoder
 (CELLSJAVA-40891) - Processen hänger sig när ett fullständigt skadat kalkylblad laddas
 (CELLSJAVA-40883) - Problem med datumformat vid import av CSV
 (CELLSJAVA-40872) - arbetsblad.getCells().importResultSet, tid från datumkolumnen är alltid 00:00
@@ -60,15 +60,15 @@ Undantag
 (CELLSJAVA-40901) - Undantag: "Fel i form till bild! " vid rendering till PDF-filformat
 
 
-Public API och bakåtinkompatibla ändringar
+Offentlig API och bakåtinkompatibla ändringar
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
-Public WarningInfo, WarningType-klasser, IWarningCallback-gränssnitt och SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback-egenskapen.
+ Public WarningInfo, WarningType-klasser, IWarningCallback-gränssnitt och SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback-egenskapen.
 Stöder varningar när teckensnitt har ersatts.
 
 Ta bort föråldrad PdfSaveOptions.ChartImageType-egenskap.
 
 
 Notera
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.1.2 också i denna Aspose.Cells för Java v8.1.2.
+Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells for .NET v8.1.2 också inkluderade i denna 076157316. 08481.

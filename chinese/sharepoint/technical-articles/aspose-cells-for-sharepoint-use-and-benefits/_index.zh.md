@@ -1,15 +1,15 @@
 ﻿---
-title: Aspose.Cells for SharePoint - 使用和优势
+title: Aspose.Cells for SharePoint - 使用和好处
 type: docs
 weight: 10
 url: /zh/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 ---
 {{% alert color="primary" %}} 
 
-SharePoint 站点用于协作、通信和内容存储，以满足特定的业务需求。引入了 Aspose.Cells for SharePoint 以对 SharePoint 文档库中可用的 Microsoft Excel 文档执行某些操作。本文涵盖以下内容：
+SharePoint 站点用于协作、通信和内容存储，以满足特定的业务需求。 Aspose.Cells for SharePoint 已引入以对 SharePoint 文档库中可用的 Microsoft Excel 文档执行某些操作。本文涵盖以下内容：
 
 - [关于 SharePoint 文档库的简要说明](/cells/zh/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
-- [SharePoint 的好处 Aspose.Cells](/cells/zh/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
+- [福利 Aspose.Cells for SharePoint](/cells/zh/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 - [Microsoft Excel文档如何转换成其他格式](/cells/zh/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 
 {{% /alert %}} 
@@ -24,10 +24,10 @@ SharePoint 站点上的内容以文档的形式在称为 SharePoint 文档库（
 
 - SharePoint 站点服务器没有直接在服务器上转换 Microsoft Excel 文件的内置功能。 Aspose.Cells for SharePoint 将此功能添加到 SharePoint 站点服务器。
 - Aspose.Cells for SharePoint 不需要 Microsoft Excel 即可工作。它安装在服务器上，因此 SharePoint 用户不需要在其本地系统上安装 Microsoft Excel 即可将 Microsoft Excel 文档从一种格式转换为另一种格式。
-- Aspose.Cells for SharePoint 不需要任何先决条件，但创建 SharePoint 站点所需的条件除外。
--  SharePoint 的 Aspose.Cells 是[易于在 SharePoint 站点服务器上部署](/cells/zh/sharepoint/installing-aspose-cells-for-sharepoint/).
-- Aspose.Cells 用于 SharePoint 支持[多种输入和输出格式](/cells/zh/sharepoint/multiple-format-support/).
-- Aspose.Cells for SharePoint 为需要开发自己的 SharePoint 解决方案的开发人员公开了一个公共 API。
+- Aspose.Cells for SharePoint 除了创建 SharePoint 站点所需的那些之外，不需要任何先决条件。
+-  Aspose.Cells for SharePoint 是[易于在 SharePoint 站点服务器上部署](/cells/zh/sharepoint/installing-aspose-cells-for-sharepoint/).
+-  Aspose.Cells for SharePoint 支持[多种输入和输出格式](/cells/zh/sharepoint/multiple-format-support/).
+- Aspose.Cells for SharePoint 为需要开发自己的 SharePoint 解决方案的开发人员公开一个公共 API。
 ### **将 Microsoft Excel 文档转换为 Aspose.Cells for SharePoint**
 在 SharePoint 服务器上安装 Aspose.Cells for SharePoint 后，选项**使用 Aspose.Cells.SharePoint 进行转换**在上下文菜单中可用：
 
@@ -64,8 +64,8 @@ SharePoint 站点上的内容以文档的形式在称为 SharePoint 文档库（
 ### **概括**
 {{% alert color="primary" %}} 
 
-安装和使用 Aspose.Cells for SharePoint 很容易。它不仅增加了直接在 SharePoint 服务器上转换 Microsoft Excel 文件的功能，而且还消除了在客户端计算机上安装 Microsoft Excel 的需要。而且，开发者可以使用Aspose.Cells for SharePoint的公开API来开发自己的SharePoint解决方案。
+安装和使用 Aspose.Cells for SharePoint 很容易。它不仅增加了直接在 SharePoint 服务器上转换 Microsoft Excel 文件的功能，而且无需在客户端计算机上安装 Microsoft Excel。而且，开发者可以使用Aspose.Cells for SharePoint的公众号API来开发自己的SharePoint解决方案。
 
-换句话说，它有利于 SharePoint 网站管理员、开发人员和最终用户。
+换句话说，它有利于 for SharePoint 站点管理员、开发人员和最终用户。
 
 {{% /alert %}}

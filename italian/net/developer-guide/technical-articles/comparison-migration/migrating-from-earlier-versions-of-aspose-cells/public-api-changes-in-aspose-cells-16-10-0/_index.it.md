@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 16.10.0
+title: Modifiche all'API pubblica in Aspose.Cells 16.10.0
 type: docs
 weight: 340
 url: /it/net/public-api-changes-in-aspose-cells-16-10-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 9.0.0 alla 16.10.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 9.0.0 alla 16.10.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -14,7 +14,7 @@ Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 9.0.
 Aspose.Cells 16.10.0 ha esposto la classe ReflectionEffect insieme alla proprietà Shape.Reflection per controllare gli effetti di riflessione di un oggetto Shape. La classe ReflectionEffect ha le seguenti proprietà.
 
 - ReflectionEffect.Blur: ottiene/imposta il raggio di sfocatura in unità di punti.
-- ReflectionEffect.Direction: Ottiene/imposta la direzione della rampa del gradiente alfa relativa alla forma stessa.
+- ReflectionEffect.Direction: Ottiene/imposta la direzione della rampa del gradiente alfa rispetto alla forma stessa.
 - ReflectionEffect.Distance: ottiene/imposta la distanza del riflesso in unità di punti.
 - ReflectionEffect.FadeDirection: Ottiene/imposta la direzione per l'offset del riflesso.
 - ReflectionEffect.RotWithShape: Ottiene/imposta se il riflesso deve ruotare con la forma.

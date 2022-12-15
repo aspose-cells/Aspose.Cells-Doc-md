@@ -1,24 +1,24 @@
 ﻿---
-title: Aspose.Cells pour Reporting Services 1.4.3 Notes de mise à jour
+title: Aspose.Cells for Reporting Services 1.4.3 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient des notes de version pour [ Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
+Cette page contient les notes de version pour [ Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
 
- Nous sommes heureux d'annoncer Aspose.Cells pour Reporting Services v1.4.3 !
+ Nous sommes heureux d'annoncer Aspose.Cells for Reporting Services v1.4.3 !
 
  Qu'est-ce qui a changé
 
 ? 
 
-· Aspose.Cells.ReportingServices Client prend en charge le format de rapport Reporting Services 2008.
+ · Aspose.Cells.ReportingServices Client prend en charge le format de rapport Reporting Services 2008.
 
  · Les performances de rendu sont améliorées.
 
- · Inclut le style des éléments de rapport dans le rapport créé par le concepteur du rapport.
+· Inclut le style des éléments de rapport dans le rapport créé par le concepteur du rapport.
 
  · Aspose.Cells.ReportingServices Client est amélioré en ce qui concerne la connectivité du Reporting Server.
 
@@ -26,7 +26,7 @@ Cette page contient des notes de version pour [ Aspose.Cells for Reporting Servi
 
 
 
- Problèmes résolus dans Aspose.Cells pour Reporting Services 1.4.
+ Problèmes résolus au Aspose.Cells for Reporting Services 1.4.
 
 \3. 
 

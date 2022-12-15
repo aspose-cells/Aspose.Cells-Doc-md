@@ -12,7 +12,7 @@ Aspose.Cells puede abrir un rango de diferentes Microsoft archivos de versiones 
 
 ## **Abrir archivos de diferentes versiones de Excel Microsoft**
 
- Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Utilice el constructor o especifique el**[Libro de trabajo](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** clase'**[setFileFormat](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)** método para especificar el formato usando el**[Tipo de formato de archivo] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**enumeración.
+Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Utilice el constructor o especifique el**[Libro de trabajo](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** clase'**[setFileFormat](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)** método para especificar el formato usando el**[Tipo de formato de archivo] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**enumeración.
 	
  los**[Tipo de formato de archivo] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**La enumeración contiene muchos formatos de archivo predefinidos, algunos de los cuales se indican a continuación.
 
@@ -42,7 +42,7 @@ Para abrir un archivo Microsoft Excel 95/5.0, utilice**[Opciones de carga](https
 
 ### **Apertura Microsoft Excel 97 - 2003 Archivos**
 
- Para abrir un archivo Microsoft Excel 97 - 2003, utilice**[Opciones de carga](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** y establecer el atributo relacionado para el**Opciones de carga**class para que se cargue el archivo de plantilla.
+ Para abrir un archivo Microsoft Excel 97 - 2003, use**[Opciones de carga](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** y establecer el atributo relacionado para el**Opciones de carga**class para que se cargue el archivo de plantilla.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenExcel97-2003Files.py" >}}
 

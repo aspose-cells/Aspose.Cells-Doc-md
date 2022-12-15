@@ -10,7 +10,7 @@ url: /ar/java/change-tick-label-direction/
 
 - [**عرضي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**عمودي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**روتات_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
 - [**استدارة_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
 - [**مرصوصة**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
@@ -24,7 +24,7 @@ url: /ar/java/change-tick-label-direction/
 
 ![ما يجب القيام به: image_بديل_نص](change-tick-label-direction_2.jpg)
 
- يغير مقتطف الشفرة التالي اتجاه تسمية التجزئة من[**روتات_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) إلى[**عرضي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+ يغير مقتطف الشفرة التالي اتجاه تسمية التجزئة من[**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) إلى[**عرضي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **عينة من الرموز**
 

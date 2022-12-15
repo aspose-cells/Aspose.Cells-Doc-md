@@ -6,6 +6,6 @@ url: /zh/reportingservices/extended-rendering-extensions-support/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services 支持导出为 XLSM 和 HTML 格式，以及 Microsoft Excel 电子表格格式（XLS、XLSX、XLSB）和其他格式，例如 ODS、SpreadsheetML、CSV 和 TXT。
+Aspose.Cells for Reporting Services 支持导出为XLSM和HTML格式，以及Microsoft Excel电子表格格式（XLS、XLSX、XLSB），以及ODS、SpreadsheetML、CSV和TXT等其他格式。
 
 {{% /alert %}}

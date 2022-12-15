@@ -1,21 +1,21 @@
 ﻿---
-title: Installazione di Aspose.Cells per SharePoint
+title: Installazione Aspose.Cells for SharePoint
 type: docs
 weight: 10
 url: /it/sharepoint/installing-aspose-cells-for-sharepoint/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells per SharePoint è scaricabile come archivio Aspose.Cells.SharePoint.zip.
+Aspose.Cells for SharePoint è scaricabile come archivio Aspose.Cells.SharePoint.zip.
 
 {{% /alert %}} 
 ### **Archivio contenuti**
 L'archivio Aspose.Cells.SharePoint.zip contiene:
 
-- Aspose.Cells.SharePoint.wsp: file della soluzione SharePoint. Aspose.Cells per SharePoint è confezionato come soluzione SharePoint per facilitare la distribuzione/ritiro e l'attivazione/disattivazione delle funzionalità nella server farm.
+- Aspose.Cells.SharePoint.wsp: file della soluzione SharePoint. Aspose.Cells for SharePoint è confezionato come soluzione SharePoint per facilitare la distribuzione/ritiro e l'attivazione/disattivazione delle funzionalità nella server farm.
 - Aspose_LicenseAgreement.rtf – Contratto di licenza con l'utente finale
-- Aspose.Cells per SharePoint.pdf – Documentazione utente
-- Aspose.Cells per SharePoint Documentation.chm – Documentazione utente con riferimento API pubblico
+- Aspose.Cells for SharePoint.pdf – Documentazione utente
+- Aspose.Cells for SharePoint Documentation.chm – Documentazione per l'utente con riferimento all'API pubblica
 - setup.exe – Programma di installazione
 - setup.exe.config: file di configurazione dell'installazione
 
@@ -27,8 +27,8 @@ Il programma di installazione controlla le seguenti condizioni prima di proceder
 - Il servizio di amministrazione WSS viene avviato.
 - Il servizio WSS Timer è stato avviato.
 
- Il servizio Amministrazione WSS e il servizio Timer sono necessari perché alcune azioni di configurazione si basano su un processo timer per la propagazione a tutti i server della server farm.
-#### **Per installare Aspose.Cells per SharePoint**
+Il servizio Amministrazione WSS e il servizio Timer sono necessari perché alcune azioni di configurazione si basano su un processo timer per la propagazione a tutti i server nella server farm.
+#### **Per installare Aspose.Cells for SharePoint**
 1. Decomprimere Aspose.Cells.SharePoint zip nell'unità locale del server MOSS 7.0 o WSS 3.0.
 1. Eseguire setup.exe e seguire le istruzioni sullo schermo.
 
@@ -52,7 +52,7 @@ Il programma di installazione esegue le seguenti azioni:
 
 
 
-1. Visualizza la finestra di dialogo per la selezione della destinazione della distribuzione. L'utente seleziona le applicazioni Web e le raccolte siti in cui deve essere attivata la funzionalità. Vedere la figura sottostante.
+1.  Visualizza la finestra di dialogo per la selezione della destinazione della distribuzione. L'utente seleziona le applicazioni Web e le raccolte siti in cui deve essere attivata la funzionalità. Vedere la figura sottostante.
 
    **Obiettivi di distribuzione** 
 
@@ -71,7 +71,7 @@ Il programma di installazione esegue le seguenti azioni:
 
 
 1. Attivare la funzionalità per le raccolte siti selezionate e configurare le relative applicazioni Web padre.
-1.  Visualizza un elenco di applicazioni Web e raccolte siti in cui la funzionalità è stata distribuita e attivata.
+1. Visualizza un elenco di applicazioni Web e raccolte siti in cui la funzionalità è stata distribuita e attivata.
 
    **Installazione completata** 
 

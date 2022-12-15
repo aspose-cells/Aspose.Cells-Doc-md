@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Node.js через Java 22.8 Примечания к выпуску
+title: Aspose.Cells for Node.js via Java 22.8 Примечания к выпуску
 type: docs
 weight: 5
 url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-22-8-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для Node.js через Java 22.8](https://releases.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.8/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Node.js via Java 22.8](https://releases.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.8/).
 
 {{% /alert %}}
 
@@ -49,7 +49,7 @@ url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-22-8-release-notes/
 
 ### **Добавьте базовый класс PaginatedSaveOptions для PdfSaveOptions и XpsSaveOptions.**
 
-Представляет параметры разбиения на страницы.
+Представляет параметры разбивки на страницы.
 
 ### **Добавьте класс SheetSet.**
 

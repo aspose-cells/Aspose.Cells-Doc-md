@@ -1,12 +1,12 @@
 ﻿---
-title: Java 17.9 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 17.9 Sürüm Notları
 type: docs
 weight: 20
 url: /tr/java/aspose-cells-for-android-via-java-17-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa için sürüm notları içerir[Android için Java 17.9 üzerinden Aspose.Cells](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
+Bu sayfa için sürüm notları içerir[Aspose.Cells for Android via Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
 
 {{% /alert %}} 
 
@@ -161,6 +161,6 @@ VBA projesinin tasarımcı depolamasını alır ve ayarlar.
 
 {{% alert color="primary" %}} 
 
-Java üzerinden Android için Aspose.Cells kod tabanı, ilgili .NET ve Java sürümlerinin koduyla eşleştiğinden, değişikliklerin, geliştirmelerin ve düzeltmelerin çoğu Aspose.Cells for .NET v17.6, Aspose.Cells 076173488 18067 17.7, 076183, 076183, 076183 ve 07617'de yer almaktadır. 8, Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
+Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761,16341. 0761. 0761631. 0761631. 0761631. 0711631. 0711631. 0731,16341,1631,1631. 0731. Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
 
 {{% /alert %}}

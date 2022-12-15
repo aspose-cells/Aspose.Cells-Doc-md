@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för .NET 8.8.3 Release Notes
+title: Aspose.Cells for .NET 8.8.3 Release Notes
 type: docs
 weight: 80
 url: /sv/net/aspose-cells-for-net-8-8-3-release-notes/
@@ -11,9 +11,9 @@ url: /sv/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44175 | Stöd för att uppdatera och beräkna pivottabeller med beräknade objekt| Ny funktion|
 |CELLSNET-44535 | Publicera relevanta API:er för att lägga till/manipulera ActiveX-kontroller inklusive växlingsknapp| Ny funktion|
 |CELLSNET-44482 | Ge ett alternativ för att spara kalkylarket med skyddad vy| Ny funktion|
-|CELLSNET-44385 | Ändra teckenavstånd i Excel Textbox| Ny funktion|
+|CELLSNET-44385 |Ändra teckenavstånd i Excel Textbox| Ny funktion|
 |CELLSNET-41013 | Stöd för "WithoutChart" laddningsalternativ| Ny funktion|
-|CELLSNET-44502 |Stöd rutnät för konvertering av Excel till HTML| Förbättring|
+|CELLSNET-44502 | Stöd rutnät för konvertering av Excel till HTML| Förbättring|
 |CELLSNET-44525 | Stöd decimalvärde som returneras genom implementering av ICustomFunction och CalculationData.CalculatedValue| Förbättring|
 |CELLSNET-44492 | Utskriftskvaliteten för det simulerade fetstilta teckensnittet är inte bra| Förbättring|
 |CELLSNET-44530 | Lägg till kommentaregenskap till ListObject/Table| Förbättring|
@@ -26,9 +26,9 @@ url: /sv/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44500 | Filen blir skadad efter att pivottabellen har uppdaterat och kopierat arbetsboken| Insekt|
 |CELLSNET-44470 | Cell skuggning tillämpas inte enhetligt vid konvertering av kalkylark till HTML| Insekt|
 |CELLSNET-44467 | Det går inte att exportera allt HTML-innehåll till Excel när HTML-koden har kapslade "div"-element| Insekt|
-|CELLSNET-44490 | Problem med anpassat tidsformat| Insekt|
+|CELLSNET-44490 |Problem med anpassat tidsformat| Insekt|
 |CELLSNET-44201 | Problem gällande teckenindex som inte stöds i CHAR-formeln| Insekt|
-|CELLSNET-44521 |Konvertering till PDF resulterar i 2 PDF-sidor i motsats till Excels förhandsgranskning| Insekt|
+|CELLSNET-44521 | Konvertering till PDF resulterar i 2 PDF-sidor i motsats till Excels förhandsgranskning| Insekt|
 |CELLSNET-44489 | Excel till PDF-konvertering - Berättigat tecken förlorat med sin formatering| Insekt|
 |CELLSNET-44481 | Excel till PDF-rendering - Sidbrytningsposition har ändrats| Insekt|
 |CELLSNET-44531 | Aspose.Cells återger samma kalkylblad till bilder i olika storlek i session 1 vs session 0| Insekt|
@@ -42,8 +42,8 @@ url: /sv/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44519 | Referenser i tabellen blir brutna efter import av tvådimensionell array till tabellen| Insekt|
 |CELLSNET-44511 | Referenser i tabellen blir trasiga efter viss manipulation med filen| Insekt|
 |CELLSNET-44508 | Olika sidstorlekar i utdata PDF-filer än Excel| Insekt|
-|CELLSNET-44507 | Problem med metoden Shape.GetCharacters().| Insekt|
-|CELLSNET-44505 |Cell validering fungerar inte korrekt med INDIREKTA funktionen| Insekt|
+|CELLSNET-44507 |Problem med metoden Shape.GetCharacters().| Insekt|
+|CELLSNET-44505 | Cell validering fungerar inte korrekt med INDIREKTA funktionen| Insekt|
 |CELLSNET-44498 | Rubrikrader upprepas inte när kalkylblad konverteras till PDF med turkiska språk| Insekt|
 |CELLSNET-44496 | OTT detekteras som ODS| Insekt|
 |CELLSNET-44494 | TextBox.IsFilled är inställd på false men fyllningen visas som ljusblå när ODS visas i OpenOffice| Insekt|
@@ -67,8 +67,8 @@ url: /sv/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44524 | Hantera stora Excel-filer med Gridweb| Insekt|
 |CELLSNET-44440 | Dropdown i GridWeb visar 4 poster men det finns 2 poster under tysk språk| Insekt|
 |CELLSNET-44506 | InvalidFormula undantag på GridWeb.ImportExcelFile| Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoden Cell.GetCharacters(flagga).**
 Returnerar alla teckenobjekt.
 #### **Lägger till egenskapen OleObject.AutoLoad**

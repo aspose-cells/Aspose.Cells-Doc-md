@@ -3,7 +3,7 @@ title: Insertar imagen de fondo en Excel
 type: docs
 weight: 90
 url: /es/python-java/insert-background-image-to-excel/
-description: Cómo insertar una imagen de fondo en Excel usando Aspose.Cells para Python a través de Java
+description: Cómo insertar una imagen de fondo en Excel usando Aspose.Cells for Python via Java
 ---
 {{% alert color="primary" %}} 
 
@@ -20,6 +20,6 @@ Para configurar la imagen de fondo de una hoja en Microsoft Excel (por ejemplo, 
 
 ## **Configuración de fondo de hoja con Aspose.Cells**
 
-El siguiente código establece una imagen de fondo utilizando una imagen de una transmisión.
+El siguiente código establece una imagen de fondo utilizando una imagen de una secuencia.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Add-sheet-background.py" >}}

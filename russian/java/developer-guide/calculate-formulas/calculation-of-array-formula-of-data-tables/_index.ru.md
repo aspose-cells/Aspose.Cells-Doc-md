@@ -6,7 +6,7 @@ url: /ru/java/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}} 
 
- Вы можете создать таблицу данных в Microsoft Excel, используя Данные > Анализ «что, если» > Таблица данных.... Aspose.Cells теперь позволяет вычислить формулу массива таблицы данных. Пожалуйста, используйте[Рабочая книга.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) как обычно для вычисления любых типов формул.
+Вы можете создать таблицу данных в Microsoft Excel, используя Данные > Анализ «что, если» > Таблица данных.... Aspose.Cells теперь позволяет вычислить формулу массива таблицы данных. Пожалуйста, используйте[Рабочая книга.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) как обычно для вычисления любых типов формул.
 
 {{% /alert %}} 
 ## **Вычисление формулы массива таблиц данных**
@@ -18,6 +18,6 @@ url: /ru/java/calculation-of-array-formula-of-data-tables/
 
 ![дело:изображение_альтернативный_текст](calculation-of-array-formula-of-data-tables_2.png)
 
-Вот пример кода, используемый для создания[вывод PDF](5472577.pdf) от[исходный файл excel](5472579.xlsx). Пожалуйста, прочитайте комментарии для получения дополнительной информации.
+ Вот пример кода, используемый для создания[вывод PDF](5472577.pdf) от[исходный файл excel](5472579.xlsx). Пожалуйста, прочитайте комментарии для получения дополнительной информации.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

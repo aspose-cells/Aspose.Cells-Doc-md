@@ -6,7 +6,7 @@ url: /sv/net/specify-author-while-write-protecting-workbook/
 ---
 ## **Möjliga användningsscenarier**
 
-Du kan ange författarens namn samtidigt som du skrivskyddar din arbetsbok med Aspose.Cells API. Snälla använd[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)egendom för detta ändamål.
+Du kan ange författarens namn samtidigt som du skrivskyddar din arbetsbok med Aspose.Cells API. Vänligen använd[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)egendom för detta ändamål.
 
 ## **Ange författare medan skrivskyddande arbetsbok**
 

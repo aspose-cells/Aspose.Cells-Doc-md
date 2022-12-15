@@ -6,13 +6,13 @@ url: /sv/net/opening-different-microsoft-excel-versions-files/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells kan öppna en rad olika Microsoft Excel-versionsfiler, såsom Microsoft Excel 95/97 - 2003, SpreadsheetML, Öppna Microsoft Excel 2007/2010/2013/2016/2019 och Office 365 XLSX eller krypterade Excel-filer.
+Aspose.Cells kan öppna en rad olika Microsoft Excel-versionsfiler, till exempel Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010/2013/2010/2013/20196 Office 2015LS.
 
 {{% /alert %}}
 
 ## **Öppna filer av olika Microsoft Excel-versioner**
 
- En applikation måste ofta kunna öppna Microsoft Excel-filer skapade i olika versioner, till exempel Microsoft Excel 95,97, eller Microsoft Excel 2007/2010/2013/2016/2019 och Office 365 . Du kan behöva ladda en fil i något av flera format, inklusive XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited eller TSV, CSV, ODS och så vidare. Använd konstruktorn eller ange**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** klass'**[Filformat](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** typattribut som anger formatet med hjälp av**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**uppräkning.
+En applikation måste ofta kunna öppna Microsoft Excel-filer skapade i olika versioner, till exempel Microsoft Excel 95,97, eller Microsoft Excel 2007/2010/2013/2016/2019 och Office 365 . Du kan behöva ladda en fil i något av flera format, inklusive XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited eller TSV, CSV, ODS och så vidare. Använd konstruktorn eller ange**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** klass'**[Filformat](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** typattribut som anger formatet med hjälp av**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**uppräkning.
 
  De**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**uppräkningen innehåller många fördefinierade filformat av vilka några ges nedan.
 
@@ -32,7 +32,7 @@ Aspose.Cells kan öppna en rad olika Microsoft Excel-versionsfiler, såsom Micro
 |Html|Representerar en HTML-fil|
 |Mhtml|Representerar en MHTML-fil|
 
-### **Öppna Microsoft Excel 95/5.0-filer**
+### **Öppnar Microsoft Excel 95/5.0-filer**
 
 För att öppna en Microsoft Excel 95/5.0-fil, använd**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**och ställ in det relaterade attributet för**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**klass för mallfilen som ska laddas. En exempelfil för att testa den här funktionen kan laddas ner från följande länk:
 
@@ -40,7 +40,7 @@ För att öppna en Microsoft Excel 95/5.0-fil, använd**[LoadOptions](https://re
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel95Files-1.cs" >}}
 
-### **Öppna Microsoft Excel 97 - 2003-filer**
+### **Öppnar Microsoft Excel 97 - 2003-filer**
 
  För att öppna en Microsoft Excel 97 - 2003-fil, använd**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** och ställ in det relaterade attributet för**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**klass för mallfilen som ska laddas.
 
@@ -48,7 +48,7 @@ För att öppna en Microsoft Excel 95/5.0-fil, använd**[LoadOptions](https://re
 
 ### **Öppna Microsoft Excel 2007/2010/2013/2016/2019 och Office 365 XLSX-filer**
 
- För att öppna ett Microsoft Excel 2007/2010/2013/2016/2019 och Office 365-format, det vill säga XLSX eller XLSB, anger du filsökvägen. Du kan också använda**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** och ställ in relaterade attribut/alternativ för**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**klass för mallfilen som ska laddas.
+ För att öppna ett Microsoft Excel 2007/2010/2013/2016/2019 och Office 365-format, det vill säga XLSX eller XLSB, ange filsökvägen. Du kan också använda**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** och ställ in relaterade attribut/alternativ för**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**klass för mallfilen som ska laddas.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 
@@ -61,6 +61,6 @@ En exempelfil för att testa den här funktionen kan laddas ner från följande 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningEncryptedExcelFiles-1.cs" >}}
 
-Aspose.Cells stöder också öppning av lösenordsskyddade Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-filer.
+Aspose.Cells stöder även öppning av lösenordsskyddade Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-filer.
 
 

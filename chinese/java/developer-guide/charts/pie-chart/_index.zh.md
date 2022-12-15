@@ -19,7 +19,7 @@ url: /zh/java/creating-pie-chart-with-leader-lines/
 
 **结果饼图**
 
-![待办事项：图片_替代_文本](creating-pie-chart-with-leader-lines_1.png)
+![待办事项：图像_替代_文本](creating-pie-chart-with-leader-lines_1.png)
 
 ## 相关文章
 

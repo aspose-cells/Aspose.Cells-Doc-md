@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för PHP via Java 22.12 Release Notes
+title: Aspose.Cells for PHP via Java 22.12 Release Notes
 type: docs
 weight: 1
 url: /sv/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för PHP via Java 22.12](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.12/).
+ Den här sidan innehåller release notes för[Aspose.Cells for PHP via Java 22.12](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.12/).
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ url: /sv/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 |CELLSJAVA-44970|Optimera skuggeffekten|
 |CELLSJAVA-44967|Diagram getDataLabels().getText() som returnerar ett annat värde i v22.6.0 och senare versioner|
 |CELLSJAVA-44969|Konvertera Excel till HTML, dataetiketterna visar fel|
-|CELLSJAVA-44949|Transparensen ändrades när Excel-intervall infogades som bild med annat format i PowerPoint-bilden|
+|CELLSJAVA-44949|Transparens ändrades när Excel-intervall infogades som bild med annat format i PowerPoint slide|
 |CELLSJAVA-44985|Excel till HTML-konvertering - grafförklaringen visas inte och plotområdet är trunkerat|
 |CELLSJAVA-44952|Problem med DataBar.toImage-metoden angående bredd|
 |CELLSJAVA-44986|De importerade bilderna är inte justerade i en linje när bilderna är i Div|
@@ -29,9 +29,9 @@ url: /sv/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 |CELLSJAVA-44997|Data och formatering förlorade i HTML till Excel-konvertering|
 |CELLSJAVA-44999| Aspose.Cells Anpassade globaliseringsinställningar fungerar inte för större delen av pivottabellen|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till enum JsonExportHyperlinkType**
 

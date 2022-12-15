@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.9.2
+title: Offentlig API Ändringar i Aspose.Cells 8.9.2
 type: docs
 weight: 330
 url: /sv/java/public-api-changes-in-aspose-cells-8-9-2/
@@ -10,12 +10,12 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Kontrollera också[Public API-ändringar introducerade i Aspose.Cells för Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
+ Kontrollera också[Offentlig API Ändringar införda i Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Lagt till TextOptions Class & FontSettings.TextOptions Property**
-Aspose.Cells för Java har exponerat TextOptions-klassen tillsammans med FontSettings.TextOptions-egenskapen för att kontrollera utseendet på textdelar av en Shape.
+Aspose.Cells for Java har exponerat TextOptions-klassen tillsammans med FontSettings.TextOptions-egenskapen för att kontrollera utseendet på textdelar av en Shape.
 
 Här är ett enkelt användningsscenario för FontSettings.TextOptions-egenskapen.
 
@@ -45,7 +45,7 @@ TextOptions textOptions =  ((FontSetting)shape.getCharacters().get(0)).getTextOp
 
 {{< /highlight >}}
 ### **Lade till TextOptions.Fill, Outline & Shadow Properties**
- Aspose.Cells för Java 8.9.2 har exponerat egenskaperna TextOptions.Fill, TextOptions.Outline och TextOptions.Shadow som gör det möjligt att kontrollera aspekterna av textinnehållet i formen, såsom fyllning, skugga och kontur respektive.
+ Aspose.Cells for Java 8.9.2 har exponerat egenskaperna TextOptions.Fill, TextOptions.Outline och TextOptions.Shadow som gör det möjligt att kontrollera aspekterna av textinnehållet i formen, såsom fyllning, skugga och kontur respektive.
 
 Här är ett enkelt användningsscenario för ovannämnda egenskaper.
 
@@ -89,7 +89,7 @@ textOptions.getOutline().setOneColorGradient(Color.getBlue(), 0.3, GradientStyle
 
 {{< /highlight >}}
 ### **Lade till Shape.Line-egenskap**
-Aspose.Cells för Java har avslöjat egenskapen Shape.Line som returnerar en instans av LineFormat för att kontrollera utseendet på konturerna av en Shape.
+Aspose.Cells for Java har exponerat egenskapen Shape.Line som returnerar en instans av LineFormat för att kontrollera utseendet på konturerna av en Shape.
 
 Här är ett enkelt användningsscenario för Shape.Line-egenskapen.
 
@@ -119,7 +119,7 @@ line.setWeight(4);
 
 {{< /highlight >}}
 ### **Lade till egenskapen Shape.Fill**
-Aspose.Cells för Java 8.9.2 har exponerat egenskapen Shape.Fill som returnerar en instans av FillFormat för att kontrollera de olika aspekterna av formområdet.
+Aspose.Cells for Java 8.9.2 har exponerat egenskapen Shape.Fill som returnerar en instans av FillFormat för att kontrollera de olika aspekterna av formområdet.
 
 Följande är det enkla användningsscenariot för Shape.Fill-egenskapen.
 

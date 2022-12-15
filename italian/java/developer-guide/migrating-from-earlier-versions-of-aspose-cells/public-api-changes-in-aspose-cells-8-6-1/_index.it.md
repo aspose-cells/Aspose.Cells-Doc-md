@@ -1,17 +1,17 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.6.1
+title: Modifiche all'API pubblica in Aspose.Cells 8.6.1
 type: docs
 weight: 210
 url: /it/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.0 alla 8.6.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.6.0 alla 8.6.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per il tipo di destinazione del collegamento HTML**
-Questa versione di Aspose.Cells for Java API ha esposto un'enumerazione HtmlLinkTargetType insieme a una nuova proprietà HtmlSaveOptions.LinkTargetType che insieme consente di[impostare il tipo di destinazione per i collegamenti nel foglio di calcolo durante la conversione in formato HTML](/cells/it/java/change-the-html-link-target-type/). Di seguito sono riportati i possibili valori dell'enumerazione HtmlLinkTargetType, dove il valore predefinito è SELF.
+Questa versione dell'API Aspose.Cells for Java ha esposto un'enumerazione denominata HtmlLinkTargetType insieme a una nuova proprietà HtmlSaveOptions.LinkTargetType che insieme consente di[impostare il tipo di destinazione per i collegamenti nel foglio di calcolo durante la conversione in formato HTML](/cells/it/java/change-the-html-link-target-type/). Di seguito sono riportati i possibili valori dell'enumerazione HtmlLinkTargetType, dove il valore predefinito è SELF.
 
 1. HtmlLinkTargetType.BLANK: apre il documento/la pagina collegata in una nuova finestra o scheda.
 1. HtmlLinkTargetType.PARENT: apre il documento/la pagina collegata nel frame principale.
@@ -20,7 +20,7 @@ Questa versione di Aspose.Cells for Java API ha esposto un'enumerazione HtmlLink
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -47,7 +47,7 @@ Aspose.Cells for Java 8.6.1 ha esposto un altro overload del metodo VbaModuleCol
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -69,7 +69,7 @@ Aspose.Cells for Java 8.6.1 ha esposto il metodo RangeCollection.Add che può es
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -95,7 +95,7 @@ ranges.add(cells.createRange("A1:B4"));
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -129,7 +129,7 @@ cell.setCharacters(settings);
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -162,7 +162,7 @@ else
 {{< /highlight >}}
 ## **API modificate**
 ### **Metodo Cell.getFormatConditions modificato**
-Con il rilascio della v8.6.1, il Aspose.Cells for Java API ha modificato il tipo restituito del metodo Cell.getFormatConditions che ora restituisce un array di tipo FormatConditionCollection.
+Con il rilascio della v8.6.1, l'API Aspose.Cells for Java ha modificato il tipo restituito del metodo Cell.getFormatConditions che ora restituisce un array di tipo FormatConditionCollection.
 ## **API obsolete**
 ### **Metodo Workbook.checkWriteProtectedPassword Obsoleto**
 Con la versione v8.6.1, il metodo Workbook.checkWriteProtectedPassword è stato contrassegnato come deprecato. Si consiglia di utilizzare il metodo WorkbookSettings.WriteProtection.validatePassword che può accettare un valore String come parametro e restituire Boolean se la password corrisponde alla password preimpostata del foglio di calcolo.

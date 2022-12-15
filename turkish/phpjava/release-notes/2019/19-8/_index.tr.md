@@ -1,12 +1,12 @@
 ﻿---
-title: Java 19.8 Sürüm Notları aracılığıyla PHP için Aspose.Cells
+title: Aspose.Cells for PHP via Java 19.8 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/php-java/aspose-cells-for-php-via-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 19.8 üzerinden PHP için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for PHP via Java 19.8 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -28,7 +28,7 @@ Bu sayfa, Java 19.8 üzerinden PHP için Aspose.Cells sürüm notlarını içeri
 |CELLSJAVA-42954|XLSX yüklenirken ve kaydedilirken istisna oluştu|İstisna|
 |CELLSJAVA-42957|XLSX kaydedilirken geçersiz FontUnderlineType değeri atılıyor|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin yanı sıra Java aracılığıyla PHP için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for PHP Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 #### **Başvurulan BouncyCastle kitaplığını 1.60'a yükseltir**
 Sürüm arşivindeki ekteki BouncyCastle kitaplığı 1.60 sürümüne yükseltildi. Ancak Aspose.Cells eski sürümlerle de uyumludur, bu nedenle kullanıcı 1.46 gibi eski sürümleri kullanmaya devam edebilir.
 #### **HTMLLoadOptions sınıfını geçersiz kılar ve HtmlLoadOptions sınıfını ekler**

@@ -12,7 +12,7 @@ url: /zh/net/rename-duplicate-columns-automatically-while-exporting-worksheet-da
 
 以下示例代码在工作表的前三列中添加了一些数据，但所有列都具有相同的名称，即*人们*.然后通过指定将工作表中的数据导出到数据表中[**重命名策略**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).信策略。然后它打印由 Aspose.Cells 生成的数据表的列名称。下面的屏幕截图显示了可视化工具中导出数据的数据表。如您所见，重复的列已重命名为 PeopleA、PeopleB 等。
 
-![待办事项：图片_替代_文本](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
+![待办事项：图像_替代_文本](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
 
 ## **示例代码**
 

@@ -62,7 +62,7 @@ Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
 ### **Convertir directamente el gráfico a PDF**
-Aspose.Cells Las API ya han brindado la posibilidad de representar gráficos en PDF mientras se usa el método Chart.toPdf. Con este lanzamiento, el API ha expuesto otra versión sobrecargada de dicho método que podría aceptar una instancia de OutputStream, lo que permite a los usuarios guardar el PDF del gráfico en una instancia de ByteArrayOutputStream.
+Aspose.Cells Las API ya han brindado la posibilidad de representar gráficos en PDF mientras se utiliza el método Chart.toPdf. Con este lanzamiento, el API ha expuesto otra versión sobrecargada de dicho método que podría aceptar una instancia de OutputStream, lo que permite a los usuarios guardar el PDF del gráfico en una instancia de ByteArrayOutputStream.
 
 El siguiente es el escenario de uso simple.
 

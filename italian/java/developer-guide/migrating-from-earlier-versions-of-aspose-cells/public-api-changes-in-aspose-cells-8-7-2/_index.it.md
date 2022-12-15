@@ -1,17 +1,17 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.7.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.7.2
 type: docs
 weight: 260
 url: /it/java/public-api-changes-in-aspose-cells-8-7-2/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.7.1 alla 8.7.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.7.1 alla 8.7.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Esteso il motore di calcolo predefinito**
-Aspose.Cells Le API hanno un potente motore di calcolo in grado di calcolare quasi tutte le Microsoft funzioni di Excel. Inoltre, le API Aspose.Cells ora consentono di estendere il motore di calcolo predefinito per soddisfare i requisiti di calcolo personalizzati di qualsiasi applicazione.
+Aspose.Cells Le API hanno un potente motore di calcolo in grado di calcolare quasi tutte le funzioni di Microsoft Excel. Inoltre, le API Aspose.Cells ora consentono di estendere il motore di calcolo predefinito per soddisfare i requisiti di calcolo personalizzati di qualsiasi applicazione.
 
 Le seguenti API sono state aggiunte con il rilascio di Aspose.Cells for Java 8.7.2.
 
@@ -31,7 +31,7 @@ Le API sopra menzionate consentono di implementare un motore di calcolo personal
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -61,7 +61,7 @@ Di seguito è riportato il semplice scenario di utilizzo.
 
 {{< /highlight >}}
 ### **Aggiunto indicizzatore sovraccarico per TextBoxCollection**
-Aspose.Cells for Java 8.7.2 ha esposto l'indicizzatore in overload per la classe TextBoxCollection per accedere all'istanza di TextBox utilizzando il suo nome come String.
+Aspose.Cells for Java 8.7.2 ha esposto l'indicizzatore di overload per la classe TextBoxCollection per accedere all'istanza di TextBox utilizzando il suo nome come String.
 
 {{% alert color="primary" %}} 
 
@@ -71,7 +71,7 @@ Aspose.Cells for Java 8.7.2 ha esposto l'indicizzatore in overload per la classe
 
  Lo scenario di utilizzo semplice è il seguente.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

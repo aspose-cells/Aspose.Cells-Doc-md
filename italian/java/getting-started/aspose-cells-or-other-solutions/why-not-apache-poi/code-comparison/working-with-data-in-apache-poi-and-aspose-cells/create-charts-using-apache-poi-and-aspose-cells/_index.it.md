@@ -7,7 +7,7 @@ url: /it/java/create-charts-using-apache-poi-and-aspose-cells/
 ## **Aspose.Cells - Crea Grafici**
 È possibile aggiungere una varietà di grafici ai fogli di calcolo con Aspose.Cells. Aspose.Cells fornisce molti oggetti grafici flessibili.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -75,7 +75,7 @@ series.setType(ChartType.LINE);
 
 {{< /highlight >}}
 ## **Apache POI SS (HSSF + XSSF) - Crea grafici**
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

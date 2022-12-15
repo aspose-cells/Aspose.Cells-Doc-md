@@ -6,7 +6,7 @@ url: /sv/net/setting-column-width-or-row-height/
 ---
 {{% alert color="primary" %}} 
 
-Det här ämnet diskuterar inställning av kolumnbredd och radhöjd med Aspose.Cells.GridDesktop API. Ibland innehåller kalkylbladsceller värden som är bredare än den ursprungliga cellen. Det gör det svårt för användare att läsa cellinnehållet. Vissa användare gillar inte att använda högerpilen för att se hela värdet i en cell. För att lösa sådana problem kan utvecklare ändra kolumnbredden. Att ändra radhöjden löser liknande problem.
+Det här ämnet diskuterar inställning av kolumnbredd och radhöjd med hjälp av Aspose.Cells.GridDesktop API. Ibland innehåller kalkylbladsceller värden som är bredare än den ursprungliga cellen. Det gör det svårt för användare att läsa cellinnehållet. Vissa användare gillar inte att använda högerpilen för att se hela värdet i en cell. För att lösa sådana problem kan utvecklare ändra kolumnbredden. Att ändra radhöjden löser liknande problem.
 
 {{% /alert %}} 
 ## **Ställa in kolumnbredd**

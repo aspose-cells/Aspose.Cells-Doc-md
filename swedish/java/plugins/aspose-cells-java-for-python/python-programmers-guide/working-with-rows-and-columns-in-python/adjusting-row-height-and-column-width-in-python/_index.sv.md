@@ -1,19 +1,19 @@
 ﻿---
-title: Justera radhöjd och kolumnbredd i Python
+title: Justering av radhöjd och kolumnbredd i Python
 type: docs
 weight: 10
 url: /sv/java/adjusting-row-height-and-column-width-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Använd Python Excel API för att skapa Excel-filer i Python. Justera radhöjd och kolumnbredd i XLSX eller XLS i dina Python-applikationer utan MS Office.
+description: Använd Python Excel API för att skapa Excel-filer i Python. Justera radhöjd och kolumnbredd i XLSX eller XLS i dina Python-program utan MS Office.
 ---
-## **Excel-kalkylblad i Python - Justera radhöjd och kolumnbredd**
+## **Excel-kalkylblad i Python - Justering av radhöjd och kolumnbredd**
 ### **Ställa in radhöjden**
 Med Aspose.Cells är det möjligt att ställa in höjden på en enstaka rad i Python genom att anropa Cells-samlingens setRowHeight-metod. Metoden setRowHeight tar följande parametrar:
 
 - **Radindex**, indexet för raden som du ändrar höjden på.
 - **Radhöjd**, radhöjden som ska tillämpas på raden.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -46,7 +46,7 @@ Ställ in bredden på en kolumn genom att anropa Cells-samlingens setColumnWidth
 - **Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
 - **Kolumnbredd**, önskad kolumnbredd.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

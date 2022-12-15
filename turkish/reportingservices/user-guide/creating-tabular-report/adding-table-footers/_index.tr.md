@@ -29,9 +29,9 @@ Tablo alt bilgileri eklemek için:
 
 
 1. Alt bilgi veri satırını ekleyin.
- Alt bilgi veri satırları, statik metin, veri işaretçileri, Raporlama Servisleri formülleri vb. içerebilir. Burada, birleştirilmiş bir statik metin hücresi ve bir Raporlama Servisleri formül hücresi içeren bir altbilgi satırı ekledik.
+ Alt bilgi veri satırları, statik metin, veri işaretçileri, Raporlama Servisleri formülleri vb. içerebilir. Burada, birleştirilmiş bir statik metin hücresi ve bir Raporlama Servisleri formül hücresi içeren bir alt bilgi satırı ekledik.
 
-   **tamamlanmış altbilgi** 
+   **tamamlanmış alt bilgi** 
 
 ![yapılacaklar:resim_alternatif_Metin](adding-table-footers_4.png)
 

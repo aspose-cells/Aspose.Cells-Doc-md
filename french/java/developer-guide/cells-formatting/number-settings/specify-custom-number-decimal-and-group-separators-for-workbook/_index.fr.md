@@ -20,7 +20,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 1. Ouvrez le**Avancé** languette.
 1.  Modifiez les paramètres dans le**Options d'édition** section.
 
- La capture d'écran suivante montre le**Options Excel avancées** et met en surbrillance la section pour spécifier le**Séparateurs personnalisés**.
+La capture d'écran suivante montre le**Options Excel avancées** et met en surbrillance la section pour spécifier le**Séparateurs personnalisés**.
 
 ![tâche : image_autre_texte](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 

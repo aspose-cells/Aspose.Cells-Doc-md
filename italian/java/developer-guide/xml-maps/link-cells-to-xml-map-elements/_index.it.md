@@ -12,7 +12,7 @@ Puoi collegare le tue celle agli elementi della mappa XML utilizzando Aspose.Cel
 
  Il codice di esempio seguente carica il file[file excel di origine](5472518.xlsx) che contiene XML Map e quindi collega le celle A1, B2, C3, D4, E5 e F6 rispettivamente agli elementi XML Map FIELD1, FIELD2, FIELD4, FIELD5, FIELD7 e FIELD8 e quindi salva la cartella di lavoro in[file excel di output](5472517.xlsx).
 
- Se apri il file[file excel di output](5472517.xlsx) e fare clic su*Sviluppatore > Sorgente*pulsante, vedrai che le celle sono collegate con elementi XML Map e saranno anche evidenziate da Microsoft Excel come mostrato in questa immagine.
+ Se apri il file[file excel di output](5472517.xlsx) e fare clic su*Sviluppatore > Sorgente*pulsante, vedrai che le celle sono collegate con gli elementi XML Map e saranno anche evidenziate da Microsoft Excel come mostrato in questa immagine.
 
 ![cose da fare:immagine_alt_testo](link-cells-to-xml-map-elements_1.png)
 

@@ -6,7 +6,7 @@ url: /zh/java/replace-text-in-smart-art/
 ---
 ## **可能的使用场景**
 
-智能艺术是工作簿中的主要对象之一。很多时候需要更新smart art中的文字。 Aspose.Cells 通过设置提供此功能[**形状.文本**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text)财产。
+智能艺术是工作簿中的主要对象之一。很多时候需要更新smart art中的文字。 Aspose.Cells 通过设置提供此功能[**形状.文字**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text)财产。
 
 示例源文件可以从以下链接下载：
 

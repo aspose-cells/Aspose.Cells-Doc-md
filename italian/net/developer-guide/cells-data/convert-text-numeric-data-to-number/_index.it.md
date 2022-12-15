@@ -3,12 +3,12 @@ title: Converti dati numerici di testo in numeri
 type: docs
 weight: 900
 url: /it/net/convert-text-numeric-data-to-number/
-description: Scopri come convertire i numeri memorizzati come testo in Excel in numeri utilizzando Aspose.Cells for .NET API.
+description: Scopri come convertire i numeri archiviati come testo in Excel in numeri utilizzando l'API Aspose.Cells for .NET.
 keywords: excel convert text to number, excel convert text to number c#, excel convert text numeric data to number, excel convert text numeric data to number c#, excel convert numeric text to number, excel convert numeric text to number c#, excel convert numeric text to number with c#, convert numeric text to number in excel with c#, convert numeric text to number in excel with c#, convert numeric string to number in excel with c#, excel convert text numeric data to number c#, excel convert numeric string to number c#
 ---
 {{% alert color="primary" %}}
 
- A volte, vuoi convertire i dati numerici inseriti come testo in numeri. È possibile inserire numeri come testo in Microsoft Excel inserendo un apostrofo prima di un numero, ad esempio**'12345**. Excel quindi tratta il numero come una stringa. Aspose.Cells consente di convertire le stringhe in numeri.
+ A volte, vuoi convertire i dati numerici inseriti come testo in numeri. È possibile inserire numeri come testo in Microsoft Excel, ad esempio inserendo un apostrofo prima di un numero**'12345**. Excel quindi tratta il numero come una stringa. Aspose.Cells consente di convertire le stringhe in numeri.
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ Questi numeri di stringa sono stati convertiti in numeri utilizzando[**Cells.Con
 |:- |
 |![cose da fare:immagine_alt_testo](convert-text-numeric-data-to-number_2.png)|
 
-## C# codice per convertire i dati numerici stringa in numeri effettivi
+## Codice C# per convertire dati numerici stringa in numeri effettivi
 
 Il seguente codice di esempio illustra come convertire tutti i dati numerici stringa in numeri effettivi in tutti i fogli di lavoro.
 

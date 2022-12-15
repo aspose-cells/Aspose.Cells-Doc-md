@@ -1,5 +1,5 @@
 ﻿---
-title: Java 8.9.0 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 8.9.0 Sürüm Notları
 type: docs
 weight: 30
 url: /tr/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
@@ -81,7 +81,7 @@ url: /tr/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41911|İstisna: Aspose.Cells API'leri aracılığıyla bir Excel dosyası yüklenirken "Cell'de hata: ... -Geçersiz formül"|İstisna|
 |CELLSJAVA-41906|Çalışma kitabı oluşturucu İstisna atar: "java.lang.NumberFormatException: boş Dize"|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin yanı sıra Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu Aspose.Cells destek forumunda dile getirin.
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Android numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **WorkbookSetting.PaperSize özelliğini ekler.**
 Varsayılan yazıcının kağıt boyutunu çalışma kitabının varsayılan kağıt boyutu olarak ayarlamak için kullanılır.
 ### **LoadDataFilterOptions sınıfını ve LoadOptions.LoadDataFilterOptions özelliğini ekler**
@@ -124,6 +124,6 @@ Excel'deki karakterler unicode olduğunda ve hücre stilinde doğru yazı tipiyl
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.8.1, Aspose.Cells for .NET v8.8.2, Aspose.Cells for .NET v8.8.3, Aspose.Cells for .NET v8 .9.0, Aspose.Cells for Java v8.81, Aspose.Cells for Java v8.8.2, Aspose.Cells for Java v8.8.3 ve Aspose.Cells for Java v8.9.0 da bu Android 39 v3.0 sürümüne dahildir
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.8.1, Aspose.Cells for .NET v8.8.2, Aspose.Cells for .NET v8.8.3, Aspose.Cells for .NET v8. 9.0, Aspose.Cells for Java v8.8.1, Aspose.Cells for Java v8.8.2, Aspose.Cells 07611734481 V8.8.3 ve Aspose.Cells 076131 V8.9.07031 071 071 071 071 071 071 071 071 071.
 
 {{% /alert %}}

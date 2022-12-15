@@ -44,7 +44,7 @@ Este ejemplo utiliza el archivo de plantilla "Book1.xls" creado en Microsoft Exc
 
  Excel proporciona funciones para ordenar los datos según el color de fondo. La misma característica se proporciona usando Aspose.Cells usando DataSorter donde[**ordenar por tipo**](https://reference.aspose.com/cells/net/aspose.cells/sortontype) .CellColor se puede utilizar en[**Agregar clave ()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey) para ordenar los datos según el color de fondo. Todas las celdas que contienen el color especificado en el[**Agregar clave ()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey), la función se coloca en la parte superior o inferior de acuerdo con la configuración de SortOrder y el orden del resto de las celdas no cambia en absoluto.
 
-Los siguientes son los archivos de muestra que se pueden descargar para probar esta función:
+Los siguientes son los archivos de muestra que se pueden descargar para probar esta característica:
 
 [muestraBackGroundFile.xlsx](81920906.xlsx)
 

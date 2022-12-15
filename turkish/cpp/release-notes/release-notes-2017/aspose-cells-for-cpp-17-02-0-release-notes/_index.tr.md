@@ -15,7 +15,7 @@ url: /tr/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 |CELLSCPP-41|Excel elektronik tablolarındaki formülleri hesaplayın|Yeni özellik|
 |CELLSCPP-42|XLSX dosyalarını okumada geliştirilmiş performans|Gelişme|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi halka açık API'de yapılan tüm değişikliklerin ve C++ için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen dile getirin Aspose.Cells destek forumunda.
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for C++ numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **IWorkbook::CalculateFormula() yöntemini ekler**
 CPP API için Aspose.Cells'in son sürümü 17.02.0, IWorkbook::CalculateFormula() yöntemini ekledi. Geliştiricilerin formüllerin sonucunu hesaplamasına ve bir çalışma sayfasının uygun hücresinde saklamasına yardımcı olur. Geliştiriciler ayrıca özel formülleri de hesaplayabilir.
 
@@ -109,7 +109,7 @@ Bu kod örneği, bir Excel'de formüllerin nasıl hesaplanacağını ve hatalar�
 #### **IWorkbook::CalculateFormula(intrusive_ptr<Aspose::Cells::ICalculationOptions> options) yöntemini ekler**
 Çalışma kitabındaki formülleri hesaplar.
 #### **IWorkbook::CalculateFormula(bool ignoreError,intrusive_ptr<Aspose::Cells::ICustomFunction> customFunction) yöntemini ekler**
- CPP için Aspose.Cells API, ICustomFunction arayüzü sunar. Geliştiriciler, ICustomFunction.CalculateCustomFunction() yönteminin uygulanmasını başlatmak için IWorkbook.CalculateFormula(false, ICustomFunction) yöntemini çağırabilir. ICustomFunction.CalculateCustomFunction() yöntemi, özel işlevlerin dönüş değerlerinin değiştirilmesine izin verir. Aşağıdaki kod örneğinde, ICustomFunction arabiriminin uygulanması, MySampleFunc() ve YourSampleFunc() gibi iki özel işlevin değerlerini değerlendirir ve döndürür. Bu özel işlevler, sırasıyla A1 ve A2 hücrelerinin içindedir. Aslında ICustomFunction.CalculateCustomFunction() tarafından döndürülen değerler olan A1 ve A2 değerlerini bir konsola yazdırır.
+CPP için Aspose.Cells API, ICustomFunction arayüzü sunar. Geliştiriciler, ICustomFunction.CalculateCustomFunction() yönteminin uygulanmasını başlatmak için IWorkbook.CalculateFormula(false, ICustomFunction) yöntemini çağırabilir. ICustomFunction.CalculateCustomFunction() yöntemi, özel işlevlerin dönüş değerlerinin değiştirilmesine izin verir. Aşağıdaki kod örneğinde, ICustomFunction arabiriminin uygulanması, MySampleFunc() ve YourSampleFunc() gibi iki özel işlevin değerlerini değerlendirir ve döndürür. Bu özel işlevler, sırasıyla A1 ve A2 hücrelerinin içindedir. Aslında ICustomFunction.CalculateCustomFunction() tarafından döndürülen değerler olan A1 ve A2 değerlerini bir konsola yazdırır.
 
 
 Bu kod örneği, bir Excel'de formüllerin nasıl hesaplanacağını, hataların yoksayılacağını ve özel işlevlerin dönüş değerlerinin nasıl değiştirileceğini gösterir:

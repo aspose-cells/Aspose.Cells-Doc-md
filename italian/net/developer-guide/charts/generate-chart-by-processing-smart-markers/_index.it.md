@@ -16,9 +16,9 @@ url: /it/net/generate-chart-by-processing-smart-markers/
 
 ## Creazione del foglio di calcolo del progettista
 
-Un foglio di calcolo per designer è un semplice file Excel creato con l'applicazione Excel Microsoft o le API Aspose.Cells contenente la formattazione visiva, le formule e gli indicatori intelligenti, in cui i contenuti possono essere popolati in fase di esecuzione.
+Un foglio di calcolo per designer è un semplice file Excel creato con l'applicazione Microsoft Excel o le API Aspose.Cells contenente la formattazione visiva, le formule e gli indicatori intelligenti, in cui i contenuti possono essere popolati in fase di esecuzione.
 
-Per semplicità, creeremo il foglio di calcolo del progettista utilizzando Aspose.Cells for .NET API e successivamente lo elaboreremo rispetto a un'origine dati creata dinamicamente a scopo dimostrativo.
+Per semplicità, creeremo il foglio di calcolo del progettista utilizzando l'API Aspose.Cells for .NET e successivamente lo elaboreremo rispetto a un'origine dati creata dinamicamente a scopo dimostrativo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfDesignerSpreadsheet.cs" >}}
 

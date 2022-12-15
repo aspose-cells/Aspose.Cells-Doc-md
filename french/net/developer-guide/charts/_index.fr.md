@@ -16,7 +16,7 @@ Il est possible d'ajouter une variété de graphiques aux feuilles de calcul ave
 ## **Création de graphiques**
 
 ### **Créer simplement un graphique**
-Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
+Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
 ### **Ce qu'il faut savoir pour créer un graphique**

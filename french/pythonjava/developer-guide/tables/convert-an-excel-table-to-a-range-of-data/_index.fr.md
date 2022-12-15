@@ -5,7 +5,7 @@ weight: 10
 url: /fr/python-java/convert-an-excel-table-to-a-range-of-data/
 ---
 ## **Convertir un tableau Excel en une plage de données**
- Aspose.Cells pour Python via Java offre la possibilité de convertir le tableau Excel en une plage de données. Pour cela, le API fournit le[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\) ) méthode. L'extrait de code suivant illustre l'utilisation de[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\)pour convertir un tableau Excel en une plage de données.
+ Aspose.Cells for Python via Java offre la possibilité de convertir le tableau Excel en une plage de données. Pour cela, le API fournit le[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\) ) méthode. L'extrait de code suivant illustre l'utilisation de[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\)pour convertir un tableau Excel en une plage de données.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-ConvertTableToRange.py" >}}
 ## **Convertir un tableau Excel en une plage avec des options**

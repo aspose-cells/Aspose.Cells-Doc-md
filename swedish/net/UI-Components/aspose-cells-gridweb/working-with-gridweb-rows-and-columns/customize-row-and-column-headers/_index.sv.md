@@ -6,7 +6,7 @@ url: /sv/net/customize-row-and-column-headers/
 ---
 {{% alert color="primary" %}} 
 
-Liksom Microsoft Excel, Aspose.Cells.GridWeb använder också standardrubriker eller bildtexter för rader (siffror som 1, 2, 3 och så vidare) och kolumner (alfabetiska som A, B, C och så vidare). Aspose.Cells.GridWeb gör det också möjligt att anpassa bildtexter. Det här ämnet diskuterar anpassning av rad- och kolumnrubriker vid körning med Aspose.Cells.GridWeb API.
+Som Microsoft Excel, Aspose.Cells.GridWeb använder också standardrubriker eller bildtexter för rader (siffror som 1, 2, 3 och så vidare) och kolumner (alfabetiska som A, B, C och så vidare). Aspose.Cells.GridWeb gör det också möjligt att anpassa bildtexter. Det här ämnet diskuterar anpassning av rad- och kolumnrubriker vid körning med Aspose.Cells.GridWeb API.
 
 {{% /alert %}} 
 ## **Anpassa radhuvud**

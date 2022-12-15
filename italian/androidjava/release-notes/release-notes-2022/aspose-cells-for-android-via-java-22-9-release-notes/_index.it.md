@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 22.9 Note di rilascio
+title: Aspose.Cells for Android via Java 22.9 Note di rilascio
 type: docs
 weight: 4
 url: /it/java/aspose-cells-for-android-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 22.9.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 22.9.
 
 {{% /alert %}} 
 
@@ -59,12 +59,12 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-44725| Eccezione "java.util.zip.ZipException: dimensione voce non valida (previsto 0 ma ottenuto 1053 byte)" durante la conversione di XLSX in PDF|
 |CELLSJAVA-44763|Eccezione "java.lang.IllegalArgumentException: impossibile analizzare il numero dell'argomento: 1:X8" durante il caricamento del file Excel utilizzando "org.apache.commons.io.input.AutoCloseInputStream"|
 |CELLSJAVA-44774|Errore durante il salvataggio in formato PDF: è richiesta un'indagine|
-|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante la conversione di un file XLSX in PDF|
+|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante la conversione di un file XLSX in PDF|
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cells.GetDependentsInCalculation(int,int,bool)**
 

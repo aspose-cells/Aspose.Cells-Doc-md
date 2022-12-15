@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Android через Java 19.3 Примечания к выпуску
+title: Aspose.Cells for Android via Java 19.3 Примечания к выпуску
 type: docs
 weight: 50
 url: /ru/java/aspose-cells-for-android-via-java-19-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску Aspose.Cells для Android через Java 19.3.
+Эта страница содержит примечания к выпуску для Aspose.Cells for Android via Java 19.3.
 
 {{% /alert %}} 
 
@@ -59,7 +59,7 @@ url: /ru/java/aspose-cells-for-android-via-java-19-3-release-notes/
 |CELLSJAVA-42849|Исключение IndexOutOfBoundsException при преобразовании XLSX в HTML|Исключение|
 |CELLSJAVA-42831|Исключение, вызванное Excel после применения стиля к диапазону ячеек заголовка|Исключение|
 ## **Public API и обратно несовместимые изменения**
-Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие элементы, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells для Android через номер Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, пожалуйста, поднимите его на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Android via Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом. на форуме поддержки Aspose.Cells.
 
 **Добавляет метод PivotTable.ShowReportFilterPageByName(string fieldName)**
 
@@ -125,6 +125,6 @@ url: /ru/java/aspose-cells-for-android-via-java-19-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-Поскольку кодовая база Aspose.Cells для Android через Java совпадает с кодом соответствующих версий .NET и Java, большинство изменений, улучшений и исправлений включены в Aspose.Cells for .NET v19.1, Aspose.Cells for .NET v1916 48.18, 07016 07073481 1916, 4018, Java 3, Aspose.Cells for Java v19.1, Aspose.Cells for Java v19.2 и Aspose.Cells for Java v19.3 также включены в этот Aspose.Cells для Android через Java v19.3.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v19.1, Aspose.Cells for .NET v19.2, Aspose.Cells for .NET v19.3, Aspose.Cells for Java v19.1, Aspose.Cells for Java v19.2 и Aspose.Cells for Java v19.3 также включены в этот Aspose.Cells for Android via Java v19.3.
 
 {{% /alert %}}

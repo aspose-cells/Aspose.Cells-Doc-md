@@ -14,7 +14,7 @@ url: /ar/net/getting-started/
 
 ### **قم بتثبيت Aspose.Cells حتى NuGet**
 
- NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for .NET.
+NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for .NET.
 
 1.  افتح Microsoft Visual Studio و NuGet مدير الحزم.
 1.  ابحث عن "aspose.cells" للعثور على Aspose.Cells for .NET المطلوب.

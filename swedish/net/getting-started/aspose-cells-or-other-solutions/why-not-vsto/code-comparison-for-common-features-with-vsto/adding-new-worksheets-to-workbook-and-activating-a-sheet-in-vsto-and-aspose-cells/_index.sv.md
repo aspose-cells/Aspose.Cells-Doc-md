@@ -5,18 +5,18 @@ weight: 30
 url: /sv/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
 ## **Migreringstips:**
-1. Lägg till nya kalkylblad till en befintlig Microsoft Excel-fil.
+1. Lägg till nya kalkylblad i en befintlig Microsoft Excel-fil.
 1. Fyll i data i cellerna i varje nytt kalkylblad.
 1. Aktivera ett ark i arbetsboken.
 1. Spara som Microsoft Excel-fil.
 
-Nedan finns parallella kodavsnitt för VSTO (C#) och Aspose.Cells för .NET (C#), som visar hur man utför dessa uppgifter.
+Nedan finns parallella kodavsnitt för VSTO (C#) och Aspose.Cells for .NET (C#), som visar hur man utför dessa uppgifter.
 
 **VSTO**
 
 {{< highlight "csharp" >}}
 
- //initiera applikationsobjekt
+//initiera applikationsobjekt
 
 Excel.Application excelApp = Application;
 

@@ -20,7 +20,7 @@ description: 如何使用 Aspose.Cells 将背景图像插入 Excel for .NET
 
    **设置工作表背景**
 
-![待办事项：图片_替代_文本](insert-background-to-excel.jpg)
+![待办事项：图像_替代_文本](insert-background-to-excel.jpg)
 
 ## **使用 Aspose.Cells 设置工作表背景**
 

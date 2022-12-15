@@ -11,7 +11,7 @@ url: /es/java/public-api-changes-in-aspose-cells-8-3-2/
 {{% /alert %}} 
 ## **API añadidas**
 ### **Mecanismo para establecer la posición absoluta de PivotItem**
- Para proporcionar la característica[Posicionamiento absoluto de PivotItem](/cells/es/java/specifying-the-absolute-position-of-the-pivot-item/), el Aspose.Cells for Java 8.3.2 ha expuesto una serie de propiedades y un método como se indica a continuación.
+ Para proporcionar la función[Posicionamiento absoluto de PivotItem](/cells/es/java/specifying-the-absolute-position-of-the-pivot-item/), el Aspose.Cells for Java 8.3.2 ha expuesto una serie de propiedades y un método como se indica a continuación.
 
 - PivotItem.setPosition se puede usar para establecer el índice de posición en todos los PivotItems independientemente del nodo principal.
 - PivotItem.setPositionInSameParentNode se puede usar para establecer el índice de posición en PivotItems en el mismo nodo principal.

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.6.0
+title: Offentlig API Ändringar i Aspose.Cells 8.6.0
 type: docs
 weight: 190
 url: /sv/net/public-api-changes-in-aspose-cells-8-6-0/
@@ -11,7 +11,7 @@ url: /sv/net/public-api-changes-in-aspose-cells-8-6-0/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för metadatamanipulation utan att skapa ett objekt i arbetsboken**
- Den här utgåvan av Aspose.Cells för .NET API har exponerat två nya klasser, nämligen WorkbookMetadata & MetadataOptions tillsammans med en ny uppräkning MetadataType som nu tillåter manipulering av dokumentegenskaperna (metadata) utan att skapa en instans av Workbook. WorkbookMetadata-klassen är lätt och ger en mycket lättanvänd, effektiv mekanism till[läs, skriv och uppdatera dokumentegenskaper utan att påverka den övergripande prestandan](/cells/sv/net/using-workbookmetadata/).
+Den här utgåvan av Aspose.Cells for .NET API har exponerat två nya klasser, nämligen WorkbookMetadata & MetadataOptions tillsammans med en ny uppräkning MetadataType som nu tillåter manipulering av dokumentegenskaperna (metadata) utan att skapa en instans av Workbook. WorkbookMetadata-klassen är lätt och ger en mycket lättanvänd, effektiv mekanism till[läs, skriv och uppdatera dokumentegenskaper utan att påverka den övergripande prestandan](/cells/sv/net/using-workbookmetadata/).
 
 Följande är det enkla användningsscenariot.
 
@@ -37,7 +37,7 @@ metadata.Save(filePath);
 
 
 ### **Egenskapen HtmlSaveOptions.ExportFrameScriptsAndProperties har lagts till**
-Aspose.Cells för .NET 8.6.0 har avslöjat egenskapen HtmlSaveOptions.ExportFrameScriptsAndProperties som kan användas för att påverka skapandet av ytterligare skript samtidigt som kalkylbladen konverteras till HTML-format. Med standardinställningar exporterar API:erna Aspose.Cells kalkylarket i HTML-format eftersom Excel-programmet gör exporten, det vill säga; den resulterande HTML-koden innehåller ramar och villkorliga kommentarer, som upptäcker webbläsartypen och anpassar layouten därefter. Standardvärdet för egenskapen HtmlSaveOptions.ExportFrameScriptsAndProperties är sant, det betyder; Exporten sker enligt Excel-standarder. Men om egenskapen är inställd på false kommer inte API:et att göra det[generera skript relaterade till ramar och villkorliga kommentarer](/cells/sv/net/disable-exporting-frame-scripts-and-document-properties/). I det här fallet kan den resulterande HTML-koden ses korrekt i vilken webbläsare som helst, men den kan inte importeras tillbaka med Aspose.Cells API:er.
+Aspose.Cells for .NET 8.6.0 har exponerat egenskapen HtmlSaveOptions.ExportFrameScriptsAndProperties som kan användas för att påverka skapandet av ytterligare skript samtidigt som kalkylbladen konverteras till HTML-format. Med standardinställningar exporterar API:erna Aspose.Cells kalkylarket i HTML-format som Excel-applikationen gör exporten, det vill säga; den resulterande HTML-koden innehåller ramar och villkorliga kommentarer, som upptäcker webbläsartypen och anpassar layouten därefter. Standardvärdet för egenskapen HtmlSaveOptions.ExportFrameScriptsAndProperties är sant, det betyder; Exporten sker enligt Excel-standarder. Men om egenskapen är inställd på false kommer API inte att göra det[generera skript relaterade till ramar och villkorliga kommentarer](/cells/sv/net/disable-exporting-frame-scripts-and-document-properties/). I det här fallet kan den resulterande HTML-koden ses korrekt i vilken webbläsare som helst, men den kan inte importeras tillbaka med Aspose.Cells API:er.
 
 Följande är det enkla användningsscenariot.
 
@@ -63,7 +63,7 @@ book.Save("output.html", options);
 
 
 ### **Egenskap Shape.MarcoName tillagd**
- Aspose.Cells för .NET 8.6.0 har exponerat egenskapen Shape.MarcoName som kan användas för att[tilldela valfri VBA-modul till en formulärkontroll](/cells/sv/net/assign-macro-to-form-control/) en sådan knapp för att tillhandahålla interaktionen. Egenskapen är av typen string, därför kan den acceptera modulnamnet och tilldelar det till kontrollen.
+ Aspose.Cells for .NET 8.6.0 har exponerat egenskapen Shape.MarcoName som kan användas för att[tilldela valfri VBA-modul till en formulärkontroll](/cells/sv/net/assign-macro-to-form-control/) en sådan knapp för att tillhandahålla interaktionen. Egenskapen är av typen string, därför kan den acceptera modulnamnet och tilldelar det till kontrollen.
 
 Följande är det enkla användningsscenariot.
 
@@ -123,4 +123,4 @@ workbook.Save("output.xlsm");
 
 
 ### **Egenskapen OoxmlSaveOptions.UpdateZoom har lagts till**
-Med lanseringen av v8.6.0 har Aspose.Cells för .NET API avslöjat egenskapen OoxmlSaveOptions.UpdateZoom som kan användas för att uppdatera PageSetup.Zoom om egenskaperna PageSetup.FitToPagesWide och/eller PageSetup.FitToPagesTall har använts för att styra kalkylbladet .
+Med utgåvan av v8.6.0 har Aspose.Cells for .NET API avslöjat egenskapen OoxmlSaveOptions.UpdateZoom som kan användas för att uppdatera PageSetup.Zoom om PageSetup.FitToPagesWide och/eller PageSetupTalling har använts för att kontrollera Worksheets.Fit.

@@ -3,7 +3,7 @@ title: Sök och ersätt data i ett intervall
 type: docs
 weight: 60
 url: /sv/java/search-and-replace-data-in-a-range/
-description: Den här artikeln visar hur du söker och ersätter data i ett intervall i Excel med Java-kod.
+description: Den här artikeln visar hur du söker och ersätter data i ett intervall i Excel med Java-koden.
 keywords: java search and replace data in excel, java search data in excel, java search and replace data in a range, java search data in a range, java searching data in a range, java searching data in range, java searching data in excel, java search data in range, search and replace data in excel with java, search and replace data in a range with java, search and replace data in range with java
 ---
 {{% alert color="primary" %}}

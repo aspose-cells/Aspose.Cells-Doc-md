@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 18.12 Release Notes
+title: Aspose.Cells for Android via Java 18.12 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-android-via-java-18-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 18.12.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.12.
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 18.1
 |CELLSJAVA-42746|Datafält saknas när XLSX konverteras till HTML|Ny funktion|
 |CELLSJAVA-42747|Värdet finns fortfarande när XLSX konverteras till HTML|Ny funktion|
 |CELLSJAVA-42634|Konvertera vänster höger bandform till bild|Förbättring|
-|CELLSJAVA-42713|Aspose.Cells för Java JavaDocs - paketlistfil saknas|Förbättring|
+|CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - paketlistfil saknas|Förbättring|
 |CELLSJAVA-42528|Teckensnitt är inte en giltig HTML5 och självstängande tagg och webbläsare ger en felaktig bild av dess innehåll|Förbättring|
 |CELLSJAVA-42738|Fel räkning av valideringsvärden läses från XLSX|Förbättring|
 |CELLSJAVA-42734|Problem samtidigt som på varandra följande avgränsare behandlas som distinkta|Förbättring|
@@ -50,9 +50,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 18.1
 |CELLSJAVA-42765|Undantag "com.aspose.cells.CellsException" när en Excel-fil renderas till PDF-filformat|Undantag|
 |CELLSJAVA-42754|Undantag "IllegalStateException: Ogiltig kodning: null" vid instansiering av ett XLS-filformat|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 **Lägger till egenskapen HtmlSaveOptions.WidthScalable**
 
@@ -201,6 +201,6 @@ Använd metoden ExportDataTable(firstRow,firstColumn, totalRows, totalColumns,Ex
 
 {{% alert color="primary" %}}
 
-Eftersom kodbasen för Aspose.Cells för Android via Java matchar koden för relevanta .NET- och Java-versioner, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v18.10, Aspose.Cells för .NET v18.11 , Aspose.Cells för .NET v18.12, Aspose.Cells för Java v18.10, Aspose.Cells för Java v18.11 och Aspose.Cells för Java v18.12 ingår också i denna Aspose.Cells för Android via Java.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.10, Aspose.Cells for .NET v18.11, Aspose.Cells for .NET v18.12, Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 och Aspose.Cells for Java v18.12 är också inkluderade i denna for Java v18.19.19.18.18.19.19.19.
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java Per puntoni
+title: Aspose.Cells Java per puntoni
 type: docs
 weight: 30
 url: /it/java/aspose-cells-java-for-struts/
@@ -19,7 +19,7 @@ applicazioni.
 Aspose.Cells for Java supporta l'elaborazione Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF e tutti i formati immagine. Con Aspose.Cells puoi
 generare, modificare e convertire documenti senza utilizzare Microsoft Cells.
 ## **Requisiti di sistema**
-**Di seguito sono riportati i requisiti di sistema per Aspose.Cells Java per l'applicazione web Struts 1.3:**
+**Di seguito sono riportati i requisiti di sistema per l'applicazione web Aspose.Cells Java for Struts 1.3:**
 
 - Java 1.6 o superiore installato.
 - Apache Tomcat Server 7 o superiore
@@ -30,4 +30,4 @@ generare, modificare e convertire documenti senza utilizzare Microsoft Cells.
 **Di seguito le piattaforme supportate:**
 
 - Aspose.Cells 8.5.0 o superiore.
-- Java IDE (Eclipse, NetBeans, IntelliJ, ...).
+- IDE Java (Eclipse, NetBeans, IntelliJ, ...).

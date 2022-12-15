@@ -5,7 +5,7 @@ weight: 40
 url: /sv/java/converting-to-mhtml-files-in-php/
 ---
 ## **Aspose.Cells - Konvertering till MHTML-filer**
-För att konvertera kalkylblad till MHTML-fil med Aspose.Cells för Java i PHP, anropa kalkylblad_till_mhtml()-metoden för konverteringsmodulen.
+För att konvertera kalkylblad till MHTML-fil med Aspose.Cells for Java i PHP, anropa kalkylblad_till_mhtml()-metoden för konverteringsmodulen.
 
 **PHP-kod**
 

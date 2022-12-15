@@ -48,7 +48,7 @@ Aspose.Cells 提供了[风格](https://reference.aspose.com/cells/java/com.aspos
 
 **应用渐变填充效果** 
 
-![待办事项：图片_替代_文本](data-formatting_1.png)
+![待办事项：图像_替代_文本](data-formatting_1.png)
 
 
 
@@ -64,7 +64,7 @@ Aspose.Cells 提供了[风格](https://reference.aspose.com/cells/java/com.aspos
 
 **Microsoft Excel 中的对齐设置** 
 
-![待办事项：图片_替代_文本](data-formatting_2.png)
+![待办事项：图像_替代_文本](data-formatting_2.png)
 
 从上图可以看出，有不同种类的对齐选项：
 
@@ -108,7 +108,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **水平对齐文本** 
 
-![待办事项：图片_替代_文本](data-formatting_3.png)
+![待办事项：图像_替代_文本](data-formatting_3.png)
 
 
 
@@ -126,7 +126,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **垂直对齐文本** 
 
-![待办事项：图片_替代_文本](data-formatting_4.png)
+![待办事项：图像_替代_文本](data-formatting_4.png)
 
 
 
@@ -144,7 +144,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **缩进级别调整为 2** 
 
-![待办事项：图片_替代_文本](data-formatting_5.png)
+![待办事项：图像_替代_文本](data-formatting_5.png)
 
 
 
@@ -162,7 +162,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **旋转角度设置为 25** 
 
-![待办事项：图片_替代_文本](data-formatting_6.png)
+![待办事项：图像_替代_文本](data-formatting_6.png)
 
 
 
@@ -184,7 +184,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **文本包裹在单元格内** 
 
-![待办事项：图片_替代_文本](data-formatting_7.png)
+![待办事项：图像_替代_文本](data-formatting_7.png)
 
 
 
@@ -202,7 +202,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **文本缩小以适合单元格的边界** 
 
-![待办事项：图片_替代_文本](data-formatting_8.png)
+![待办事项：图像_替代_文本](data-formatting_8.png)
 
 
 
@@ -220,7 +220,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **三个单元格合并成一个大单元格** 
 
-![待办事项：图片_替代_文本](data-formatting_9.png)
+![待办事项：图像_替代_文本](data-formatting_9.png)
 
 使用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)collection 的 Merge 方法来合并单元格。 Merge 方法采用以下参数：
 
@@ -264,7 +264,7 @@ Aspose.Cells 中提供了setStyle方法[Cell](https://reference.aspose.com/cells
 
 **将文本阅读顺序设置为从右到左** 
 
-![待办事项：图片_替代_文本](data-formatting_10.png)
+![待办事项：图像_替代_文本](data-formatting_10.png)
 ## **格式化 Cell 中的选定字符**
 [处理字体设置](/cells/zh/java/dealing-with-font-settings/)解释了如何格式化单元格，但仅解释了如何格式化整个单元格的内容。如果您只想格式化选定的字符怎么办？
 
@@ -281,7 +281,7 @@ Cell 类提供了字符方法，该方法采用以下参数来选择单元格中
 
 **格式化所选字符** 
 
-![待办事项：图片_替代_文本](data-formatting_11.png)
+![待办事项：图像_替代_文本](data-formatting_11.png)
 
 
 
@@ -313,7 +313,7 @@ Aspose.Cells 为这些任务提供了特定的 API。例如，WorksheetCollectio
 
 **将 B2 单元格设置为活动单元格** 
 
-![待办事项：图片_替代_文本](data-formatting_12.png)
+![待办事项：图像_替代_文本](data-formatting_12.png)
 
 
 

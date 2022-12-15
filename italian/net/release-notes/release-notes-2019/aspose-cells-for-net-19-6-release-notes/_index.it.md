@@ -23,7 +23,7 @@ url: /it/net/aspose-cells-for-net-19-6-release-notes/
 |CELLSNET-46731|Worksheet.Copy() blocca l'applicazione|Prestazione|
 |CELLSNET-46770|Memoria insufficiente durante l'aggiornamento della tabella pivot con un'origine dati di grandi dimensioni|Prestazione|
 |CELLSNET-46730|Chart.ToImage() blocca l'applicazione|Prestazione|
-|CELLSNET-46670|contenuti dei file Excel vengono sovrapposti dopo l'aggiunta di proprietà personalizzate|Insetto|
+|CELLSNET-46670|I contenuti dei file Excel vengono sovrapposti dopo l'aggiunta di proprietà personalizzate|Insetto|
 |CELLSNET-46747|Le linee della griglia vengono stampate sull'oggetto incorporato durante il rendering in PDF|Insetto|
 |CELLSNET-41479|Impostazioni Slicer nel PDF generato|Insetto|
 |CELLSNET-41783|I file generati da un file modello che contiene un'affettatrice devono essere riparati|Insetto|
@@ -47,8 +47,8 @@ url: /it/net/aspose-cells-for-net-19-6-release-notes/
 |CELLSNET-46043|System.InvalidCastException|Eccezione|
 |CELLSNET-46510|Errore da forma a immagine! durante la conversione di XLSX in PDF|Eccezione|
 |CELLSNET-46765|Eccezione "System.StackOverflowException" durante il rendering di un file Excel in formato file PDF|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge enum FileFormatType.FODS,FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS e SaveFormat.SXC**
 Rappresenta i tipi di formato file .FODS e .SXC.
 #### **Aggiunge enum WarningType.UnsupportedFileFormat**

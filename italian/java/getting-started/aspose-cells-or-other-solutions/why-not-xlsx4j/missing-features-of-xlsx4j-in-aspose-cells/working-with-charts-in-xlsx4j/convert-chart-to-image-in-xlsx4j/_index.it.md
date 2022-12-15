@@ -8,7 +8,7 @@ url: /it/java/convert-chart-to-image-in-xlsx4j/
 I grafici sono visivamente accattivanti e consentono agli utenti di vedere facilmente confronti, modelli e tendenze nei dati.
 Il metodo toImage della classe Chart converte il grafico in un file immagine, che può essere salvato su disco o in streaming.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

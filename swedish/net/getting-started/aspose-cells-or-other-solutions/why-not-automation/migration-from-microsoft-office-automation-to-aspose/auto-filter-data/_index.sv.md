@@ -8,7 +8,7 @@ url: /sv/net/auto-filter-data/
 
 För att få en förståelse för vilken data som finns i ett intervall är det ofta lättare att sortera och filtrera data än att titta på kolumner med oordnad data. Sortering organiserar data i antingen stigande eller fallande ordning, vilket gör det lättare att hitta specifika värden. Genom att filtrera data kan du bara visa vissa värden. Det hjälper till att fokusera på särskilda artiklar i försäljningsregister, till exempel.
 
-Användare av Microsoft Excel kan tillämpa automatisk filtrering på kolumner. Automatisk filtrering lägger till en meny högst upp i kolumnen, från vilken du kan sortera kolumndata. Den här funktionen är också tillgänglig för utvecklare som arbetar med Excel-kalkylblad, antingen via VSTO eller Aspose.Cells för .NET.
+Användare av Microsoft Excel kan tillämpa automatisk filtrering på kolumner. Automatisk filtrering lägger till en meny högst upp i kolumnen, från vilken du kan sortera kolumndata. Den här funktionen är också tillgänglig för utvecklare som arbetar med Excel-kalkylblad, antingen via VSTO eller Aspose.Cells for .NET.
 
 {{% /alert %}}
 
@@ -113,7 +113,7 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 ![todo:image_alt_text](auto-filter-data_1.png)
 
-### **Automatisk filtrering av data med Aspose.Cells för .NET**
+### **Automatisk filtrering av data med Aspose.Cells for .NET**
 
 **C#**
 
@@ -169,6 +169,6 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**Autofilter tillämpat med Aspose.Cells för .NET** 
+**Autofilter applicerat med Aspose.Cells for .NET** 
 
 ![todo:image_alt_text](auto-filter-data_2.png)

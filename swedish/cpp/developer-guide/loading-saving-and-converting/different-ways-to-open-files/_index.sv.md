@@ -7,11 +7,11 @@ url: /sv/cpp/different-ways-to-open-files/
 ---
 {{% alert color="primary" %}} 
 
-Med Aspose.Cells är det möjligt att öppna filer, till exempel för att hämta data, eller att använda en designermall för att påskynda utvecklingsprocessen. Aspose.Cells kan öppna en rad olika filer, såsom Microsoft Excel-kalkylblad (XLS, XLSX, XLSM, XLSB), CSV- eller TabDelimited-filer.
+Med Aspose.Cells är det möjligt att öppna filer, till exempel för att hämta data, eller att använda en designermall för att påskynda utvecklingsprocessen. Aspose.Cells kan öppna en rad olika filer, till exempel Microsoft Excel-kalkylblad (XLS, XLSX, XLSM, XLSB), CSV eller TabDelimited-filer.
 
 {{% /alert %}} 
 ## **Öppna en fil via en sökväg**
- Utvecklare kan öppna en Microsoft Excel-fil med hjälp av dess sökväg på den lokala datorn genom att ange den i[IArbetsbok](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)klass konstruktör. Skicka bara sökvägen i konstruktorn som sträng. Aspose.Cells kommer automatiskt att upptäcka filformatstypen.
+ Utvecklare kan öppna en Microsoft Excel-fil med dess sökväg på den lokala datorn genom att ange den i[IArbetsbok](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)klass konstruktör. Skicka bara sökvägen i konstruktorn som sträng. Aspose.Cells kommer automatiskt att upptäcka filformatstypen.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-OpeningFiles-OpeningExcelFileUsingPath.cpp" >}}
 

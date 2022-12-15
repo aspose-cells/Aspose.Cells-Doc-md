@@ -6,15 +6,15 @@ url: /sv/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- A*pivottabell* är en interaktiv tabell som sammanfattar data och presenterar den på ett meningsfullt sätt. SQL Server Reporting Services kan inte exportera en rapport till Microsft Excel-format samtidigt som en pivottabell bibehålls. Rapportanvändare måste manuellt skapa pivottabeller varje gång de exporterar en pivottabellsrapport från Reporting Services till Microsoft Excel. Med Aspose.Cells för Reporting Services kan du designa en pivottabell en gång vid rapportdesign. Varje gång rapporten körs exporterar Aspose.Cells för Reporting Services rapporten till Microsoft Excel och uppdaterar data till pivottabellen.
+ A*pivottabell* är en interaktiv tabell som sammanfattar data och presenterar den på ett meningsfullt sätt. SQL Server Reporting Services kan inte exportera en rapport till Microsft Excel-format samtidigt som en pivottabell bibehålls. Rapportanvändare måste manuellt skapa pivottabeller varje gång de exporterar en pivottabellsrapport från Reporting Services till Microsoft Excel. Med Aspose.Cells for Reporting Services kan du designa en pivottabell en gång vid rapportdesign. Varje gång rapporten körs exporterar Aspose.Cells for Reporting Services rapporten till Microsoft Excel och uppdaterar data till pivottabellen.
 
 {{% /alert %}} 
 
 Så här skapar du en pivottabellsrapport:
 
 1. Skapa en datauppsättning som datakälla för pivottabellen.
-Nedan använder vi exempeldatabasen AdventureWorks som levereras med SQL Server Reporting Services 2005 och skapar en datauppsättning med namnet "försäljning".
- SQL för datasetet är som följer:
+ Nedan använder vi exempeldatabasen AdventureWorks som levereras med SQL Server Reporting Services 2005 och skapar en datauppsättning med namnet "försäljning".
+SQL för datasetet är som följer:
 
 **SQL**
 
@@ -106,7 +106,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-Den designade pivottabellen visas nedan.
+ Den designade pivottabellen visas nedan.
 
 ![todo:image_alt_text](working-with-pivottable_7.png)
 

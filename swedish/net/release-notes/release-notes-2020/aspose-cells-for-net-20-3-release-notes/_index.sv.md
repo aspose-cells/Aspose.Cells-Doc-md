@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 20.3 Release Notes
+title: Aspose.Cells for .NET 20.3 Release Notes
 type: docs
 weight: 50
 url: /sv/net/aspose-cells-for-net-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 20.3](https://www.nuget.org/packages/Aspose.Cells/20.3.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 20.3](https://www.nuget.org/packages/Aspose.Cells/20.3.0).
 
 {{% /alert %}} 
 
@@ -36,10 +36,10 @@ url: /sv/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47212|NullReferenceException när du sparar viss XLSM till XLS|Undantag|
 |CELLSNET-47222|Aspose.Cells 20.2: Undantag vid konvertering av viss XLSB-fil till Excel97To2003|Undantag|
 |CELLSNET-47226|Aspose.Cells 20.2: Undantag vid försök att ta bort tomma kolumner|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Ändra beteende för formateringsfunktioner för vissa användarspecificerade CultureInfos.(ENDAST .NET)**
- gamla versioner kan vår formateringsmotor ändra vissa egenskaper hos vissa speciella kulturer för att få det generella formaterade resultatet. Till exempel, för de flesta situationer bör JapaneseCalendar användas för att formatera datum-tid-värden, så i gamla versioner får vi alltid CultureInfo av "ja-JP" att använda JapaneseCalendar för formatering. Det är dock inte alltid avsett för användare när de anger sin anpassade CultureInfo av API:er, som WorkbookSettings.CultureInfo eller CustomImplementationFactory.CreateCultureInfo(). Så från 20.3 använder vi egenskapen CultureInfo.UseUserOverride för att bestämma om egenskaperna ska ändras automatiskt för formatering. För den angivna CultureInfo, om den här egenskapen är**Sann** , då tar vi det som att användaren har åsidosatt alla nödvändiga egenskaper, så vi kommer inte att ändra det längre för formatering. Om denna egenskap är**falsk**, då kan vi ändra andra egenskaper för den automatiskt om det behövs.
+ I gamla versioner kan vår formateringsmotor ändra vissa egenskaper hos vissa speciella kulturer för att få det generella formaterade resultatet. Till exempel, för de flesta situationer bör JapaneseCalendar användas för att formatera datum-tid-värden, så i gamla versioner får vi alltid CultureInfo av "ja-JP" att använda JapaneseCalendar för formatering. Det är dock inte alltid avsett för användare när de anger sin anpassade CultureInfo av API:er, som WorkbookSettings.CultureInfo eller CustomImplementationFactory.CreateCultureInfo(). Så från 20.3 använder vi egenskapen CultureInfo.UseUserOverride för att bestämma om egenskaperna ska ändras automatiskt för formatering. För den angivna CultureInfo, om den här egenskapen är**Sann** , då tar vi det som att användaren har åsidosatt alla nödvändiga egenskaper, så vi kommer inte att ändra det längre för formatering. Om denna egenskap är**falsk**, då kan vi ändra andra egenskaper för den automatiskt om det behövs.
 #### **Lägg till egenskapen LoadFilter.SheetsInLoadingOrder.**
 Användare kan åsidosätta den här egenskapen för att ange arken och ordningen som ska laddas när de importerar arbetsböcker från mallfilen.
 #### **Tar bort föråldrad TickLabels.Background-egenskap**

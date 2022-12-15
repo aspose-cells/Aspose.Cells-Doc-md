@@ -1,23 +1,23 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.5.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.5.2
 type: docs
 weight: 190
 url: /it/java/public-api-changes-in-aspose-cells-8-5-2/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.5.1 alla 8.5.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-5-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.5.1 alla 8.5.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-5-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Renderizza il foglio di lavoro nel contesto grafico**
-Questa versione di Aspose.Cells for Java API ha esposto un altro overload del metodo SheetRender.toImage che ora consente di accettare un'istanza della classe Graphics2D per[eseguire il rendering del foglio di lavoro nel contesto grafico](/cells/it/java/render-worksheet-to-graphic-context/). Le firme del metodo appena aggiunto sono le seguenti.
+Questa versione dell'API Aspose.Cells for Java ha esposto un altro overload del metodo SheetRender.toImage che ora consente di accettare un'istanza della classe Graphics2D per[eseguire il rendering del foglio di lavoro nel contesto grafico](/cells/it/java/render-worksheet-to-graphic-context/). Le firme del metodo appena aggiunto sono le seguenti.
 
 - SheetRender.toImage(int pageIndex, grafica Graphics2D)
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -67,7 +67,7 @@ ImageIO.write(image, "png", outputfile);
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -107,19 +107,19 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Proprietà SaveOptions.MergeAreas aggiunta**
-Aspose.Cells for Java 8.5.2 ha esposto la proprietà SaveOptions.MergeAreas che può accettare un valore di tipo booleano. Il valore predefinito è false tuttavia, se impostato su true, Aspose.Cells for Java API tenta di unire la singola CellArea prima di salvare il file.
+Aspose.Cells for Java 8.5.2 ha esposto la proprietà SaveOptions.MergeAreas che può accettare un valore di tipo booleano. Il valore predefinito è false tuttavia, se impostato su true, l'API Aspose.Cells for Java tenta di unire la singola CellArea prima di salvare il file.
 
 {{% alert color="primary" %}} 
 
-Se un foglio di calcolo ha troppe singole celle con convalida applicata, è possibile che il foglio di calcolo risultante venga danneggiato. Una possibile soluzione consiste nell'unire le celle con regole di convalida identiche oppure è ora possibile utilizzare la proprietà SaveOptions.MergeAreas per indicare a API di unire automaticamente CellAreas prima dell'operazione di salvataggio.
+Se un foglio di calcolo ha troppe singole celle con convalida applicata, è possibile che il foglio di calcolo risultante venga danneggiato. Una possibile soluzione consiste nell'unire le celle con regole di convalida identiche oppure è ora possibile utilizzare la proprietà SaveOptions.MergeAreas per indirizzare l'API in modo da unire automaticamente CellAreas prima dell'operazione di salvataggio.
 
 {{% /alert %}} 
 ### **Proprietà Geometry.ShapeAdjustValues aggiunta**
- Con il rilascio della v8.5.2, Aspose.Cells API ha esposto il metodo Geometry.getShapeAdjustValues che può essere utilizzato per[accedere e apportare modifiche ai punti di regolazione di diverse forme](/cells/it/java/change-adjustment-values-of-the-shape/).
+ Con il rilascio della v8.5.2, l'API Aspose.Cells ha esposto il metodo Geometry.getShapeAdjustValues che può essere utilizzato per[accedere e apportare modifiche ai punti di regolazione di diverse forme](/cells/it/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-Nell'interfaccia Excel Microsoft, i punti di regolazione vengono visualizzati come nodi romboidali gialli.
+Nell'interfaccia di Microsoft Excel, i punti di regolazione vengono visualizzati come nodi romboidali gialli.
 
 {{% /alert %}} 
 
@@ -132,7 +132,7 @@ Nell'interfaccia Excel Microsoft, i punti di regolazione vengono visualizzati co
 
 Ecco lo scenario di utilizzo più semplice.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

@@ -6,7 +6,7 @@ url: /ar/reportingservices/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-يجب تثبيت Aspose.Cells لخدمات التقارير (بما في ذلك عميل Aspose.Cells.ReportingServices والوظائف الإضافية لـ Microsoft Excel و Aspose.Cells.ReportingServices Server) بشكل صحيح. علاوة على ذلك ، يجب تثبيت Microsoft SQL Server قبل تثبيت Aspose.Cells لخدمات التقارير.
+Aspose.Cells for Reporting Services (بما في ذلك Aspose.Cells.ReportingServices client ، الوظائف الإضافية لـ Microsoft Excel و Aspose.Cells.ReportingServices Server) يجب أن يتم تثبيتها بشكل صحيح. علاوة على ذلك ، يجب تثبيت Microsoft SQL Server قبل تثبيت Aspose.Cells for Reporting Services.
 
 {{% /alert %}} 
 ### **نظام المكتب**

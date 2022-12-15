@@ -344,7 +344,7 @@ Une nouvelle ligne est ajoutée à la feuille à la fin des autres lignes.
 1. Revenez à Visual Studio.NET.
 1. Ouvrez l'éditeur de collections BindColumn.
  La**NuméroType** propriété de la**Prix du produit** la colonne est définie sur**Général**.
-   **La propriété NumberType définie sur General** 
+   **La propriété NumberType définie sur Général** 
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_30.png)
 

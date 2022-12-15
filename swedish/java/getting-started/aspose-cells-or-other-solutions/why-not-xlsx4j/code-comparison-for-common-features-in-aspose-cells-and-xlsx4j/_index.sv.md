@@ -10,7 +10,7 @@ Utvecklare som letar efter bibliotek för kalkylblad kan behöva gå igenom funk
 - Ansträngningar som krävs för att använda biblioteket
 - Prestanda
 
-Om du är en Java-utvecklare som vill välja ett bearbetningsbibliotek för kalkylblad för att bearbeta kalkylblad, kanske du vill jämföra xlsx4j med Aspose.Cells. I det här fallet kommer just detta projekt att hjälpa dig att jämföra funktioner och kod med hjälp av båda biblioteken.
+Om du är en Java-utvecklare som vill välja ett kalkylbladsbearbetningsbibliotek för att bearbeta kalkylblad, kanske du vill jämföra xlsx4j med Aspose.Cells. I det här fallet kommer just detta projekt att hjälpa dig att jämföra funktioner och kod med hjälp av båda biblioteken.
 
 Det här avsnittet innehåller följande exempel på kodjämförelse:
 

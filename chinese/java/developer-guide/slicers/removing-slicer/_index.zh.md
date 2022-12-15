@@ -9,6 +9,6 @@ url: /zh/java/removing-slicer/
 ## **删除切片器**
 下面的示例代码加载[示例 Excel 文件](67338504.xlsx)包含一个现有的切片器。它访问切片器然后将其删除。最后，它将工作簿另存为[输出Excel文件](67338502.xlsx).以下屏幕截图显示了在执行示例代码后将被删除的切片器。
 
-![待办事项：图片_替代_文本](removing-slicer_1.png)
+![待办事项：图像_替代_文本](removing-slicer_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-RemovingSlicer.java" >}}

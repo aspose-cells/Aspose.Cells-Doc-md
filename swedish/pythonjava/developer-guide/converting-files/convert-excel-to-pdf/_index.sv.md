@@ -3,12 +3,12 @@ title: Konvertera Excel till PDF
 type: docs
 weight: 50
 url: /sv/python-java/convert-excel-to-pdf/
-description: Hur man konverterar Excel till PDF med Python. Den här artikeln visar att konvertera Excel-filer till PDF med Python och lättanvänd Aspose.Cells för Python via Java API.
+description: Hur man konverterar Excel till PDF med Python. Den här artikeln visar hur man konverterar Excel-filer till PDF med Python och lättanvänd Aspose.Cells for Python via Java API.
 keywords: excel to pdf python, python convert excel to pdf, python excel to pdf, convert excel to pdf python, convert excel to pdf in python, convert excel to pdf using python, excel to pdf in python, excel to pdf using python, aspose excel to pdf, aspose convert excel to pdf
 ---
 ## **Konvertera Excel till PDF**
 
-PDF-dokument används ofta som ett standardformat för utbyte av dokument mellan organisationer, statliga sektorer och individer. Mjukvaruutvecklare uppmanas ofta att hitta ett sätt att enkelt konvertera Microsoft Excel-filer till PDF-dokument. Aspose.Cells för Python via Java API ger möjlighet att konvertera Excel-filer till PDF-dokument (inklusive PDF/A). Aspose.Cell konverterar kalkylblad till PDF med en hög grad av noggrannhet och trohet.
+PDF-dokument används ofta som ett standardformat för utbyte av dokument mellan organisationer, statliga sektorer och individer. Mjukvaruutvecklare uppmanas ofta att hitta ett sätt att enkelt konvertera Microsoft Excel-filer till PDF-dokument. Aspose.Cells for Python via Java API ger möjlighet att konvertera Excel-filer till PDF-dokument (inklusive PDF/A). Aspose.Cell konverterar kalkylblad till PDF med en hög grad av noggrannhet och trohet.
 
 ### **Direkt konvertering**
 
@@ -20,7 +20,7 @@ Följande kodavsnitt visar användningen av[**SaveFormat.PDF**](https://referenc
 
 ### **Avancerad konvertering**
 
-För att ha mer kontroll över konverteringen till PDF tillhandahåller API:et[**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)klass. De[**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)klass kan användas för att ställa in olika attribut för konverteringen. Ställa in olika egenskaper för[**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)klass ger dig kontroll över inställningarna för utskrift, typsnitt, säkerhet och komprimering för den resulterande PDF-filen. Den mest anmärkningsvärda egenskapen är[**Efterlevnad**](https://reference.aspose.com/cells/python/asposecells.api/pdfsaveoptions#Compliance)som gör att du kan spara Excel-filerna till PDF/A-kompatibla PDF-filer.
+För att ha mer kontroll över konverteringen till PDF tillhandahåller API[**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)klass. De[**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)klass kan användas för att ställa in olika attribut för konverteringen. Ställa in olika egenskaper för[**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)klass ger dig kontroll över inställningarna för utskrift, typsnitt, säkerhet och komprimering för den resulterande PDF-filen. Den mest anmärkningsvärda egenskapen är[**Efterlevnad**](https://reference.aspose.com/cells/python/asposecells.api/pdfsaveoptions#Compliance)som gör att du kan spara Excel-filerna till PDF/A-kompatibla PDF-filer.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-AdvancedConversiontoPdf.py" >}}
 

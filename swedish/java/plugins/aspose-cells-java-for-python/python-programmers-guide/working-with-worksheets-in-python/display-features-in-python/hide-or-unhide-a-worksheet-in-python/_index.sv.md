@@ -8,7 +8,7 @@ url: /sv/java/hide-or-unhide-a-worksheet-in-python/
 ### **Dölja ett arbetsblad**
  För att dölja kalkylblad med Aspose.Cells Java för Ruby, ring**hideunhideworksheet** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 
@@ -36,7 +36,7 @@ print "Worksheet 1 is now hidden, please check the output document."
 ### **Visar ett arbetsblad**
 Utvecklare kan göra ett kalkylblad synligt genom att ställa in*setVisible(* *Sann* *)*metod för**Arbetsblad**klass.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

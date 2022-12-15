@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 7.4.1 Release Notes
+title: Aspose.Cells for Java 7.4.1 Release Notes
 type: docs
 weight: 90
 url: /sv/java/aspose-cells-for-java-7-4-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.4.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.4.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.4.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.4.1/)
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ url: /sv/java/aspose-cells-for-java-7-4-1-release-notes/
 
  Förbättringar
 
- 40407 - Stöd roterad text i cellerna
+40407 - Stöd roterad text i cellerna
 
  Undantag
 

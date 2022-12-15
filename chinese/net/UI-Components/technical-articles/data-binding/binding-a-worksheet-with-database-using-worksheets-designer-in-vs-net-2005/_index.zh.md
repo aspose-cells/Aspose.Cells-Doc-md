@@ -18,13 +18,13 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 首先，我们将创建一个将在本文中使用的示例数据库。我们使用 MS Access 创建了一个示例数据库，其中包含**产品**其架构如下所示的表：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_1.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_1.png)
 
 **数字：**的设计资料**产品**桌子
 
 很少有虚拟记录被添加到**产品**表格如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_2.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_2.png)
 
 **数字：**记录在**产品**桌子
 
@@ -34,38 +34,38 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 首先启动 VS.Net 2005。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_3.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_3.png)
 
 **数字：**启动 VS.Net 2005
 
 从文件|新建|网站...菜单创建一个新网站。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_4.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_4.png)
 
 **数字：**创建一个新网站
 
 单击文件|新建|网站...菜单选项后，**新网站**显示对话框。点击**浏览**按钮在里面。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_5.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_5.png)
 
 **数字：**新网站对话框
 
 点击后**浏览**按钮，选择本地 IIS 中的位置文件夹。您可以创建一个新文件夹并将其设为虚拟文件夹，如图所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_6.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_6.png)
 
 **数字：**创建新文件夹
 
 
 点击后**打开**中的按钮**选择地点**对话，**新网站**对话框看起来像。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_7.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_7.png)
 
 **数字：**设置项目位置
 
 现在项目已创建
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_8.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_8.png)
 
 **数字：**创建项目
 
@@ -87,7 +87,7 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 找到该标签后，请在源代码中选择该完整标签，如下所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_9.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_9.png)
 
 **数字：**选择**<!DOCTYPE> 标签**
 
@@ -101,7 +101,7 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 {{< /highlight >}}
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_10.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_10.png)
 
 **数字：**修改**<!DOCTYPE> 标签**
 
@@ -111,7 +111,7 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 右击**工具箱**并选择**选择项目...**从菜单中。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_11.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_11.png)
 
 **数字：**选择项目
 
@@ -119,19 +119,19 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 {{% alert color="primary" %}}
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_12.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_12.png)
 
 **数字：**选择**网格网**组件对话框中的组件
 
 现在**网格网**添加如下图所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_13.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_13.png)
 
 **数字：** **网格网**添加到工具箱中
 
 放置**网格网**在 Web 表单上，如下所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_14.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_14.png)
 
 **数字：**配售**网格网**在网页上
 
@@ -145,62 +145,62 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 首先我们将 MS Access 数据库添加到我们之前创建的项目中**步骤1** .你可能会看到**数据库文件**文件被添加到项目中。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_15.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_15.png)
 
 **数字：**将数据库添加到项目文件夹
 
 现在，我们去**组件设计器**使用网页的右键单击菜单选项打开 Web 表单的窗口。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_16.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_16.png)
 
 **数字：**选择**查看组件设计器**选项
 
 组件设计器窗口如下所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_17.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_17.png)
 
 **数字：**组件设计器窗口
 
 双击**OleDb连接**数据面板中的组件将 oleDbConnection1 对象放置到窗口中。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_18.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_18.png)
 
 **数字：** oleDbConnection1 对象
 
 现在，是时候连接数据库了。我们可以通过使用轻松地做到这一点**服务器资源管理器**在 Visual Studio.NET 2005 中。只需选择**数据连接**在**服务器资源管理器**并右键单击。您会看到一个上下文菜单出现在您的面前。选择**添加连接...**菜单中的选项如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_19.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_19.png)
 
 **数字：**选择**添加连接...**菜单选项
 
 
 选择后**添加连接...**菜单选项，**添加连接**对话框将打开并且**浏览**选择数据库文件，如下所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_20.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_20.png)
 
 **数字：**选择数据库文件
 
 您可以测试连接。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_21.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_21.png)
 
 **数字：**测试连接
 
 您可以浏览连接以检查表及其字段。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_22.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_22.png)
 
 **数字：**检查连接的表及其字段
 
 现在如果你选择**oleDbConnection1**中的对象**组件设计器**窗口，您可以选择与刚刚创建的现有连接相关的连接字符串，它位于**oleDbConnection1**属性窗口中的对象。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_23.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_23.png)
 
 **数字：**选择对象的连接字符串
 
 最后将对象的修饰符更改为**受保护**以获得更好的可访问性。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_24.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_24.png)
 
 **数字：**设置对象的修饰符
 
@@ -208,29 +208,29 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 现在，添加一个**OleDb数据适配器**从工具箱的数据面板中选择组件来配置它。双击**OleDb数据适配器**在工具箱的数据面板中，它将启动其配置向导并选择现有连接，如图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_25.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_25.png)
 
 **数字：**数据适配器配置向导
 
 点击后**下一个**按钮，单击**查询生成器**添加**产品**表，选择所有列并单击**好的**按钮。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_26.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_26.png)
 
 **数字：**添加产品表
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_27.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_27.png)
 
 **数字：**查询生成器
 
 现在点击**结束**按钮完成向导。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_28.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_28.png)
 
 **数字：**完成向导
 
 配置向导后，oleDbDataAdapter1 会自动添加到窗口中，如下所示。此外，您可以将其修饰符设置为**受保护**.
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_29.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_29.png)
 
 **数字：**在设计器窗口中检索 OleDbDataAdapter 对象
 
@@ -238,25 +238,25 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 因为我们已经创建了数据库连接和数据适配器对象，但我们仍然需要一些东西，我们可以在连接数据库后存储数据。一个**数据集**对象可以精确存储数据，我们也可以使用 VS.NET 2005 IDE 轻松生成它。为此，请选择**oleDbDataAdaper1**并右键单击。将弹出一个上下文菜单，其中包含一些选项。选择**产生** **数据集...**菜单中的选项，如下图所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_30.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_30.png)
 
 **数字：**选择**产生** **数据集...**菜单选项
 
 选择后**产生** **数据集...**菜单中的选项，一个**生成数据集**对话框将打开。使用此对话框，我们可以选择新的名称**数据集**要创建的对象以及应添加到哪些表**数据集**.查看**将此数据集添加到设计器**选项并单击**好的**按钮如下图所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_31.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_31.png)
 
 **数字：**点击**好的**生成按钮**数据集**
 
 现在，你可以看到一个**数据集11**添加到设计器的对象如下图所示。将对象修改器设置为**受保护**.
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_32.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_32.png)
 
 **数字：** **数据集**生成并添加到设计器窗口
 
 在 .cs 文件中自动生成与连接、数据适配器、数据集对象相关的某些代码。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_33.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_33.png)
 
 **数字：**生成代码
 
@@ -264,23 +264,23 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 现在，是时候揭开秘密了。选择控件并单击鼠标右键。将打开一个上下文菜单。从菜单中选择 Worksheets Designer... 选项，如下图所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_34.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_34.png)
 
 **数字：**选择**工作表设计器...**菜单选项
 
 在那之后**工作表集合编辑器**对话框（也称为**工作表设计器** 将被打开，你可以看到几个可以配置绑定的属性**工作表1**与数据库中的任何表。让我们选择**数据源**财产。写**数据集11**在其中（我们在上一步中生成并添加到设计器窗口）。然后点击**数据成员**财产。写**产品**这里作为表名如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_35.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_35.png)
 
 **数字：**环境**数据源**和**数据成员**特性
 
 现在，您可以配置**绑定列**财产。点击后，现在可以添加绑定列并设置**标题** , **数据字段**（它应该与**产品**表字段）和其他属性。您可以设置**自动创建**至**真的**并申请**验证**并设置**数字类型**不同的领域为您的要求。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_36.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_36.png)
 
 **数字：**点击**绑定列**财产
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_37.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_37.png)
 
 **数字：** **BindColumn 集合编辑器**对话
 
@@ -290,11 +290,11 @@ url: /zh/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 首先我们将添加**启动时**要初始化的事件相关代码**初始化组件**初始化和创建连接、命令、数据适配器和数据集对象的方法。这几行代码不是自动生成的代码，所以我们必须手动添加它们。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_38.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_38.png)
 
 **数字：**添加一些代码1
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_39.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_39.png)
 
 **数字：**添加一些代码2
 
@@ -388,7 +388,7 @@ End Sub
 
 您还可以检查添加到的代码**页面加载**事件处理程序如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_40.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_40.png)
 
 **数字：**代码添加到**页面加载**事件处理器
 
@@ -470,7 +470,7 @@ End Sub
 
 您还可以检查添加到的代码**GridWeb1_SaveCommand**事件处理程序如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_41.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_41.png)
 
 **数字：**代码添加到**GridWeb1_SaveCommand**事件处理器
 
@@ -480,13 +480,13 @@ End Sub
 
 最后，我们可以通过按**Ctrl+F5**或点击**开始**按钮。在调试对话框中，您可以指定适当的调试选项并单击**好的**按钮如下图所示。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_42.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_42.png)
 
 **数字：**运行应用
 
 编译后，**默认.aspx**我们的 Web 应用程序的页面将在一个新的浏览器窗口中打开，我们可以在其中看到从数据库加载的所有数据，如下所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_43.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_43.png)
 
 **数字：**数据载入**网格网**从数据库控制
 
@@ -496,7 +496,7 @@ End Sub
 
 Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑定列创建适当的验证规则。您可以通过将鼠标指针悬停在单元格上来查看单元格的验证类型，如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_44.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_44.png)
 
 **数字：**检查单元格的验证类型
 
@@ -506,13 +506,13 @@ Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑�
 
 要删除一行，您应该首先选择一行（或该行的任何单元格）并选择**删除行**右键菜单中的选项如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_45.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_45.png)
 
 **数字：**选择**删除行**菜单选项
 
 选择后**删除行**从菜单中删除该行**网格网**.现在点击**节省**的按钮**网格网**删除原始数据库表中的该记录。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_46.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_46.png)
 
 **数字：**网格数据（删除一行后）
 
@@ -520,11 +520,11 @@ Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑�
 
 您还可以编辑单元格或行中的数据，然后单击**节省**按钮以保存您的更改。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_47.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_47.png)
 
 **数字：**网格数据（编辑记录1）
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_48.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_48.png)
 
 **数字：**网格数据（编辑记录2）
 
@@ -532,19 +532,19 @@ Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑�
 
 要添加一行，请选择**添加行**右键菜单中的选项如下图所示：
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_49.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_49.png)
 
 **数字：**选择**添加行**菜单选项
 
 选择后，新行将添加到行末尾的工作表中**添加行**菜单中的选项。在新添加的行的左侧，您会注意到一个**星号**标记，表示该行是新添加的。
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_50.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_50.png)
 
 **数字：**新行添加到网格
 
 在新行中输入值后，单击**节省**按钮确认原始数据库表的更改如下所示
 
-![待办事项：图片_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_51.png)
+![待办事项：图像_替代_文本](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_51.png)
 
 **数字：**通过单击保存对数据库表的更改**节省**按钮
 

@@ -11,7 +11,7 @@ url: /sv/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/
 
 ![todo:image_alt_text](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
 ### **Exempelkod**
- Se följande exempelkod som körs med[exempel på excel-fil](5115190.xls) och dess konsolutgång som skriver ut klassidentifieraren för Ole Object dvs GUID. Den utskrivna GUID är exakt densamma som visas på skärmdumpen.
+ Se följande exempelkod som körs med[exempel på excel-fil](5115190.xls)och dess konsolutgång som skriver ut klassidentifieraren för Ole Object dvs GUID. Den utskrivna GUID är exakt densamma som visas på skärmdumpen.
 
 
 

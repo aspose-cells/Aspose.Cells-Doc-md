@@ -5,7 +5,7 @@ weight: 230
 url: /it/net/convert-excel-to-html/
 ---
 ## **Conversione della cartella di lavoro di Excel in HTML**
- Il Aspose.Cells API fornisce supporto per l'esportazione di fogli di calcolo in HTML e formato. A tale scopo Aspose.Cells utilizza il**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**class per fornire la flessibilità necessaria per controllare diversi aspetti dell'output HTML.
+ L'API Aspose.Cells fornisce supporto per l'esportazione di fogli di calcolo in HTML e formato. A tale scopo Aspose.Cells utilizza il**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**class per fornire la flessibilità necessaria per controllare diversi aspetti dell'output HTML.
 
 L'esempio di codice seguente mostra come salvare una cartella di lavoro come file HTML utilizzando C#:
 

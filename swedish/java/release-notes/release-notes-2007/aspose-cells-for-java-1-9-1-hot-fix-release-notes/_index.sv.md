@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells för Java 1.9.1 Hot Fix Release Notes
+title: Aspose.Cells for Java 1.9.1 Versionsinformation om heta korrigeringar
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-java-1-9-1-hot-fix-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 1.9.1 Hot Fix](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-1.9.1-hot-fix/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 1.9.1 Hot Fix](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-1.9.1-hot-fix/)
 
 {{% /alert %}} 
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.9.1!
+ Vi har släppt Aspose.Cells for Java V1.9.1!
 
  Vad är nytt?
 

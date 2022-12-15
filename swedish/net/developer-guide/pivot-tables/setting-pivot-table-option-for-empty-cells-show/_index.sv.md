@@ -12,7 +12,7 @@ Du kan ställa in olika pivottabellalternativ med Aspose.Cells. Ett sådant alte
 
 ## **Ställa in pivottabellalternativ i Microsoft Excel**
 
-Så här hittar och ställer du in det här alternativet i Microsoft Excel:
+För att hitta och ställa in det här alternativet i Microsoft Excel:
 
 1. Välj en pivottabell och högerklicka.
 1.  Välj**Pivottabellalternativ**.

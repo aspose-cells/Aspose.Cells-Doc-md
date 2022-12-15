@@ -6,7 +6,7 @@ url: /sv/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-
 ---
 Kopiera Sparkline genom att ange dataintervall och plats för Sparkline Group i MS Excel
 
-Med Microsoft Excel kan du kopiera en Sparkline genom att ange dataintervall och plats för Sparkline Group. Följ dessa steg för att kopiera din Sparkline till andra celler.
+Microsoft Excel låter dig kopiera en Sparkline genom att ange dataintervall och plats för Sparkline Group. Följ dessa steg för att kopiera din Sparkline till andra celler.
 
 - Välj cellen som innehåller din Sparkline.
 -  Välj**Redigera data** från**Sparkline** avsnitt inuti**Design** flik

@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-scroll-bars-in-php/
 ---
 ## **Aspose.Cells - Mostrar u ocultar barras de desplazamiento**
 ### **Ocultar barras de desplazamiento**
- Para ocultar las barras de desplazamiento usando**Aspose.Cells Java para PHP** , llamar**mostrar ocultar barras de desplazamiento** módulo.
+ Para ocultar las barras de desplazamiento usando**Aspose.Cells Java for PHP** , llamar**mostrar ocultar barras de desplazamiento** módulo.
 
 **Código PHP**
 

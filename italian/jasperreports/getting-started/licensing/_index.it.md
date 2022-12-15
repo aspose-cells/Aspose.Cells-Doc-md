@@ -6,7 +6,7 @@ url: /it/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells per JasperReports è disponibile come valutazione gratuita a tempo illimitato dal[pagina di download](https://downloads.aspose.com/cells/jasperreports). Le versioni di valutazione e con licenza del prodotto sono lo stesso download.
+ Aspose.Cells for JasperReports è disponibile come valutazione gratuita a tempo illimitato dal[pagina di download](https://downloads.aspose.com/cells/jasperreports). Le versioni di valutazione e con licenza del prodotto sono lo stesso download.
 
  Quando sei soddisfatto della versione di valutazione, puoi farlo[acquistare una licenza](https://purchase.aspose.com/). Assicurati di comprendere e accettare i termini della licenza.
 
@@ -77,7 +77,7 @@ Questo metodo è applicabile per l'utilizzo con JasperServer.
 
 Esporta qualsiasi rapporto in formato XLS e controlla se il rapporto contiene un messaggio di valutazione. Se non viene visualizzato alcun messaggio di valutazione, la licenza funziona correttamente.
 
-**Aspose.Cells per JasperReports inserisce un foglio di lavoro di valutazione in modalità di valutazione** 
+**Aspose.Cells for JasperReports inserisce un foglio di lavoro di valutazione in modalità valutazione** 
 
 ![cose da fare:immagine_alt_testo](licensing_1.png)
 

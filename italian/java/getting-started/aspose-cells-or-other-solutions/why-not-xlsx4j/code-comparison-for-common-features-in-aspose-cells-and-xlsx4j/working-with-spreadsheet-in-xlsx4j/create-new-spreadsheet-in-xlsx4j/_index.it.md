@@ -7,7 +7,7 @@ url: /it/java/create-new-spreadsheet-in-xlsx4j/
 ## **Aspose.Cells - Crea nuovo foglio di calcolo**
 La classe della cartella di lavoro è disponibile per un uso semplice.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -37,7 +37,7 @@ workbook.save(dataDir + "newWorksheet_Aspose.xls");
 ## **xlsx4j - Crea un nuovo foglio di calcolo**
 L'esempio seguente mostra come creare un nuovo foglio di calcolo durante l'utilizzo di xlsx4j.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

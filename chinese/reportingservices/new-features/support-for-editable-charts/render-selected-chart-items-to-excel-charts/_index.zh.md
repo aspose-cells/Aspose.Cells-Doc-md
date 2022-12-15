@@ -31,10 +31,10 @@ url: /zh/reportingservices/render-selected-chart-items-to-excel-charts/
 
 **导出为图像的图表** 
 
-![待办事项：图片_替代_文本](render-selected-chart-items-to-excel-charts_1.png)
+![待办事项：图像_替代_文本](render-selected-chart-items-to-excel-charts_1.png)
 
 **导出为可编辑 Excel 图表的图表** 
 
-![待办事项：图片_替代_文本](render-selected-chart-items-to-excel-charts_2.png)
+![待办事项：图像_替代_文本](render-selected-chart-items-to-excel-charts_2.png)
 
 {{% /alert %}}

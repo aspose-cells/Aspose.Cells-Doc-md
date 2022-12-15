@@ -12,13 +12,13 @@ url: /sv/net/aspose-cells-net-4-0-2-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v4.0.2!
+ Vi har släppt Aspose.Cells for .NET v4.0.2!
 
 - Stöder för att automatiskt anpassa roterad text
  Lade till ny InsertRows/DeleteRows-metod
  Stöder för att skapa krypterad fil baserat på krypterad mallfil
  Shaped InsertRange-metod
- Lade till nya C#-diagramdemos
+ Lade till nya C# diagramdemos
  Fixat bugg vid laddning av fil med UNC-hyperlänkar
  Fixat bugg i formatering av celler med en Aspose skapad Excel-fil i vissa fall
- Formad formelberäkningsmotor
+Formad formelberäkningsmotor

@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/python-java/manage-worksheets/
 ---
-Java aracılığıyla Python için Aspose.Cells kullanarak çalışma sayfalarını yönetmek çok kolaydır. Bu makalede, Aspose.Cells API'i kullanarak çalışma sayfalarına ekleme, çalışma sayfalarına erişim ve kaldırmayı göstereceğiz.
+Aspose.Cells for Python via Java'i kullanarak çalışma sayfalarını yönetmek çok kolaydır. Bu makalede, Aspose.Cells API'i kullanarak çalışma sayfalarına ekleme, çalışma sayfalarına erişim ve kaldırmayı göstereceğiz.
 ## **Çalışma Sayfalarını Yeni Bir Excel Dosyasına Ekleme**
  Yeni bir Çalışma Kitabı oluşturmak için, bir nesne oluşturun.[Çalışma kitabı](https://reference.aspose.com/cells/python/asposecells.api/Workbook) sınıf. bu[Çalışma kitabı](https://reference.aspose.com/cells/python/asposecells.api/Workbook) class bir Excel dosyasını temsil eder. Daha sonra kullanarak[Ekle](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) ) yöntemi[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) , Excel dosyasına yeni çalışma sayfaları eklenir. Son olarak, yeni oluşturulan Excel dosyasını kaydetmek için[kaydetmek](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) ) yöntemi[Çalışma kitabı](https://reference.aspose.com/cells/python/asposecells.api/Workbook)sınıf.
 

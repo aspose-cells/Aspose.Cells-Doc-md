@@ -6,7 +6,7 @@ url: /it/net/managing-cell-controls-in-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-In questo argomento vengono illustrati alcuni concetti importanti sulla gestione dei controlli cella tramite API di Aspose.Cells.GridDesktop. Spiegheremo come gli sviluppatori possono accedere, modificare e rimuovere i controlli delle celle dai loro fogli di lavoro. Diamo un'occhiata.
+In questo argomento vengono illustrati alcuni concetti importanti sulla gestione dei controlli cella tramite l'API di Aspose.Cells.GridDesktop. Spiegheremo come gli sviluppatori possono accedere, modificare e rimuovere i controlli delle celle dai loro fogli di lavoro. Diamo un'occhiata.
 
 {{% /alert %}} 
 ## **Accesso ai controlli Cell**

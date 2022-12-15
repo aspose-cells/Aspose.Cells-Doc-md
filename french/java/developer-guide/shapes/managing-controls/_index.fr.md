@@ -40,7 +40,7 @@ L'exemple suivant utilise le fichier Excel Microsoft - tsttextboxes.xls - que no
 
 ## **Ajout du contrôle CheckBox à la feuille de calcul**
 
-Les cases à cocher sont pratiques si vous souhaitez permettre à un utilisateur de choisir entre deux options, telles que vrai ou faux ; Oui ou non. Aspose.Cells vous permet d'utiliser des cases à cocher dans les feuilles de calcul. Par exemple, vous avez peut-être développé une feuille de calcul de projection financière dans laquelle vous pouvez comptabiliser ou non une acquisition particulière. Dans ce cas, vous pouvez placer une case à cocher en haut de la feuille de calcul. Vous pouvez ensuite lier l'état de cette case à cocher à une autre cellule, de sorte que si la case est cochée, la valeur de la cellule est True ; si elle n'est pas sélectionnée, la valeur de la cellule est False.
+Les cases à cocher sont pratiques si vous souhaitez permettre à un utilisateur de choisir entre deux options, telles que vrai ou faux ; Oui ou non. Aspose.Cells vous permet d'utiliser des cases à cocher dans les feuilles de calcul. Par exemple, vous avez peut-être développé une feuille de calcul de projection financière dans laquelle vous pouvez comptabiliser ou non une acquisition particulière. Dans ce cas, vous pouvez placer une case à cocher en haut de la feuille de calcul. Vous pouvez ensuite lier l'état de cette case à cocher à une autre cellule, de sorte que si la case est cochée, la valeur de la cellule est True ; si elle n'est pas sélectionnée, la valeur de la cellule est Faux.
 
 ### **Utilisation d'Excel Microsoft**
 

@@ -4,10 +4,10 @@ linktitle: Marcatori intelligenti
 type: docs
 weight: 190
 url: /it/python-java/using-smart-markers/
-description: Importazione e posizionamento intelligente dei dati in base ai file Excel del modello con Aspose.Cells per Python tramite la libreria Java.
+description: Importazione e posizionamento intelligente dei dati in base ai file Excel del modello con Aspose.Cells for Python tramite la libreria Java.
 ---
 ## **introduzione**
-**Marcatori intelligenti**vengono utilizzati per consentire a Aspose.Cells di sapere quali informazioni inserire in un foglio di calcolo Excel Designer Microsoft. I marcatori intelligenti consentono di creare modelli che contengono solo informazioni e formattazioni specifiche.
+**Marcatori intelligenti**vengono utilizzati per consentire a Aspose.Cells di sapere quali informazioni inserire in un foglio di calcolo di Microsoft Excel designer. I marcatori intelligenti consentono di creare modelli che contengono solo informazioni e formattazioni specifiche.
 ## **Foglio di calcolo per designer e marcatori intelligenti**
 I fogli di calcolo per designer sono file Excel standard che contengono formattazione visiva, formule e marcatori intelligenti. Possono contenere marcatori intelligenti che fanno riferimento a una o più origini dati, ad esempio informazioni da un progetto e informazioni per i contatti correlati. I marcatori intelligenti vengono scritti nelle celle in cui desideri le informazioni.
 
@@ -30,7 +30,7 @@ Sono ammessi i seguenti parametri:
 - **ascendente: n** o**discendente: n** - Ordina i dati in marcatori intelligenti. Se n è 1, la colonna è la prima chiave dell'ordinatore. I dati vengono ordinati dopo l'elaborazione dell'origine dati. Ad esempio: &=Tabella1.Campo3(crescente:1).
 - **orizzontale** - Scrivi i dati da sinistra a destra, invece che dall'alto verso il basso.
 - **numerico** - Converti testo in numero, se possibile.
-- **spostare** - Sposta in basso oa destra, creando righe o colonne extra per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare?**spostare le celle verso il basso**, **sposta le celle a destra** e altre opzioni. Insomma, il**spostare** Il parametro svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
+- **spostare** - Sposta in basso oa destra, creando righe o colonne extra per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio, in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare?**spostare le celle verso il basso**, **sposta le celle a destra** e altre opzioni. Insomma, il**spostare** Il parametro svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
 - **copystyle** - Copia lo stile della cella di base in tutte le celle di quella colonna.
 
 parametri noadd e skip possono essere combinati per inserire dati su righe alternate. Poiché il modello viene elaborato dal basso verso l'alto, è necessario aggiungere noadd sulla prima riga per evitare l'inserimento di righe aggiuntive prima della riga alternativa.
@@ -75,7 +75,7 @@ Gli screenshot seguenti illustrano una formula dinamica ripetuta e il foglio di 
 |![cose da fare:immagine_alt_testo](using-smart-markers_3.jpg)|![cose da fare:immagine_alt_testo](using-smart-markers_4.jpg)|
  Cell "C1" contiene la formula**= A1*B1** , la cella "C2" contiene**= A2*B2** e la cella "C3" contiene**= LA3*SI3**.
 
-È molto facile elaborare i marcatori intelligenti. Quello che segue è uno snippet di codice in Python tramite Java, che mostra come è fatto.
+È molto facile elaborare i marcatori intelligenti. Quello che segue è uno snippet di codice in Python via Java, che mostra come è fatto.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "SmartMarker-SimpleProcess.py" >}}
 

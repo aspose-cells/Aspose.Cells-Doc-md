@@ -5,7 +5,7 @@ weight: 70
 url: /es/java/split-panes-in-php/
 ---
 ## **Aspose.Cells - Paneles divididos**
- Para dividir paneles usando**Aspose.Cells Java para PHP** , simplemente invocar**paneles divididos** módulo.
+ Para dividir paneles usando**Aspose.Cells Java for PHP** , simplemente invocar**paneles divididos** módulo.
 
 **Código PHP**
 

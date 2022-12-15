@@ -8,13 +8,13 @@ url: /it/net/page-setup-and-printing-options/
 
 A volte, gli sviluppatori devono configurare l'impostazione della pagina e le impostazioni di stampa per controllare il processo di stampa. L'impostazione della pagina e le impostazioni di stampa offrono varie opzioni e sono completamente supportate in Aspose.Cells.
 
-Questo articolo mostra come creare un'applicazione console in Visual Studio.Net e applicare le opzioni di impostazione della pagina e di stampa a un foglio di lavoro con poche semplici righe di codice utilizzando Aspose.Cells API.
+Questo articolo illustra come creare un'applicazione console in Visual Studio.Net e applicare le opzioni di configurazione e stampa della pagina a un foglio di lavoro con poche semplici righe di codice usando l'API Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Utilizzo delle impostazioni di pagina e stampa**
 
-Per questo esempio, abbiamo creato una cartella di lavoro in Microsoft Excel e usiamo Aspose.Cells per impostare l'impostazione della pagina e le opzioni di stampa.
+Per questo esempio, abbiamo creato una cartella di lavoro in Microsoft Excel e utilizzato Aspose.Cells per impostare l'impostazione della pagina e le opzioni di stampa.
 
 ### **Utilizzo di Aspose.Cells per impostare le opzioni di impostazione della pagina**
 
@@ -37,7 +37,7 @@ Per prima cosa crea un semplice foglio di lavoro in Microsoft Excel. Quindi appl
 1. Scarica e installa Aspose.Cells:
    1. [Scarica](https://downloads.aspose.com/cells/net) Aspose.Cells per .Net.
  1. Installalo sul tuo computer di sviluppo.
- Tutti i componenti Aspose, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
+Tutti i componenti Aspose, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
 1. Crea un progetto:
  1. Avviare Visual Studio. Rete.
  1. Creare una nuova applicazione console.
@@ -45,7 +45,7 @@ Per prima cosa crea un semplice foglio di lavoro in Microsoft Excel. Quindi appl
 1. Aggiungi riferimenti:
  1. Questo esempio usa Aspose.Cells quindi aggiungi un riferimento a quel componente al progetto. Per esempio:
  …\Programmi\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
-1. Scrivi l'applicazione che richiama lo API:
+1. Scrivi l'applicazione che richiama l'API:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPageSetup-1.cs" >}}
 

@@ -5,7 +5,7 @@ weight: 40
 url: /zh/python-java/count-the-number-of-cells-in-the-worksheet/
 ---
 ## **计算工作表中的单元格数**
-Aspose.Cells for Python via Java 提供了计算工作表中单元格数量的功能。为此，API 提供了[Cells.getCount](https://reference.aspose.com/cells/python/asposecells.api/cells#Count)（） 或者[Cells.getCountLarge](https://reference.aspose.com/cells/python/asposecells.api/cells#CountLarge)（） 特性。
+Aspose.Cells for Python via Java 提供计算工作表中单元格数量的功能。为此，API 提供了[Cells.getCount](https://reference.aspose.com/cells/python/asposecells.api/cells#Count)（） 或者[Cells.getCountLarge](https://reference.aspose.com/cells/python/asposecells.api/cells#CountLarge)（） 特性。
 
 下面的代码片段展示了如何使用[Cells.getCount](https://reference.aspose.com/cells/python/asposecells.api/cells#Count)（） 或者[Cells.getCountLarge](https://reference.aspose.com/cells/python/asposecells.api/cells#CountLarge)() 属性获取工作表中的单元格数。
 

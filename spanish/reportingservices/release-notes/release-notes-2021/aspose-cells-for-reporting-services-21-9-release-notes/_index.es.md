@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells para Reporting Services 21.9 Notas de la versión
+title: Aspose.Cells for Reporting Services 21.9 Notas de la versión
 type: docs
 url: /es/reportingservices/aspose-cells-for-reporting-services-21-9-release-notes/
 weight: 13

@@ -34,7 +34,7 @@ L'esempio seguente mostra come unire le celle (C6:E7) in un foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 ## **Unmerging (Splitting) Unificato Cells**
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 I seguenti passaggi descrivono come dividere le celle unite utilizzando Microsoft Excel.
 
 1. Seleziona la cella unita.

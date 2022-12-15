@@ -22,13 +22,13 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls：修改前的工作表**
 
-![待办事项：图片_替代_文本](display-or-hide-row-column-headers-in-aspose-cells_1.png)
+![待办事项：图像_替代_文本](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
 Book1.xls 通过调用 Workbook 类的 Open 方法打开，第一个工作表上的行标题和列标题被隐藏。修改后的文件保存为 output.xls。
 
 **Output.xls：修改后的工作表** 
 
-![待办事项：图片_替代_文本](display-or-hide-row-column-headers-in-aspose-cells_2.png)
+![待办事项：图像_替代_文本](display-or-hide-row-column-headers-in-aspose-cells_2.png)
 
 **C#**
 

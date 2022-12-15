@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um die Excel-Tabellen direkt in das PDF-
 1.  Instanziieren Sie ein Objekt der**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)**Klasse, indem Sie ihren leeren Konstruktor aufrufen.
 1. Sie können eine vorhandene Vorlagendatei öffnen/laden oder diesen Schritt überspringen, wenn Sie die Arbeitsmappe von Grund auf neu erstellen.
 1. Führen Sie alle Arbeiten (Daten eingeben, Formatierung anwenden, Formeln festlegen, Bilder oder andere Zeichnungsobjekte einfügen usw.) in der Tabelle mithilfe von Aspose.Cells-APIs durch.
-1. Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie die auf**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Klasse'**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode zum Speichern der Tabelle.
+1.  Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie die auf**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Klasse'**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode zum Speichern der Tabelle.
 
  Das Dateiformat sollte PDF sein, also wählen Sie es aus*Pdf* (ein vordefinierter Wert) aus der**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**Enumeration, um das endgültige PDF-Dokument zu generieren.
 

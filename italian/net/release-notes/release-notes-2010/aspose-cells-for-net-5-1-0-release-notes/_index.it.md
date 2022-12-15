@@ -95,4 +95,4 @@ Fornisce una versione di overload per il metodo SumSelectedRanges per escludere 
 |18356 | Xlsx| Titolo del grafico con problema di formula|
  Notevoli modifiche per gli utenti esistenti
 
-In questa versione (Aspose.Cells for .NET v5.1.0), abbiamo rinominato alcune classi del componente Aspose.Cells per pulire la struttura API. Abbiamo alcune classi di raccolta ma i loro nomi non le giustificano secondo gli standard .NET. Quindi, dopo approfondite analisi e revisioni, abbiamo deciso di cambiare i nomi di alcune classi. Questo cambiamento ha alcuni aspetti importanti che dobbiamo seguire. Di seguito è riportato l'elenco delle classi ora rinominate.
+In questa versione (Aspose.Cells for .NET v5.1.0), abbiamo rinominato alcune classi del componente Aspose.Cells per pulire la struttura dell'API. Abbiamo alcune classi di raccolta ma i loro nomi non le giustificano secondo gli standard .NET. Quindi, dopo approfondite analisi e revisioni, abbiamo deciso di cambiare i nomi di alcune classi. Questo cambiamento ha alcuni aspetti importanti che dobbiamo seguire. Di seguito è riportato l'elenco delle classi ora rinominate.

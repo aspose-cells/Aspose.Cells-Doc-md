@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für PHP über Java 21.9 Versionshinweise
+title: Aspose.Cells for PHP via Java 21.9 Versionshinweise
 type: docs
 weight: 5
 url: /de/php-java/aspose-cells-for-php-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Diese Seite enthält Versionshinweise für[Aspose.Cells für PHP über Java 21.9](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.9/).
+ Diese Seite enthält Versionshinweise für[Aspose.Cells for PHP via Java 21.9](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.9/).
 
 {{% /alert %}}
 

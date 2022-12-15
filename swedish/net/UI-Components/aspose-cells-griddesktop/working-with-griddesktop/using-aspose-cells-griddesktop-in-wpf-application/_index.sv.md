@@ -6,7 +6,7 @@ url: /sv/net/using-aspose-cells-griddesktop-in-wpf-application/
 ---
 {{% alert color="primary" %}} 
 
- Den här artikeln visar hur du använder WPF-designern (Windows Presentation Foundation) för Visual Studio för att vara värd för en Windows Forms-kontroll som Aspose.Cells.GridDesktop i en WPF-applikation.
+ Den här artikeln visar hur du använder Windows Presentation Foundation (WPF) Designer för Visual Studio för att vara värd för en Windows Forms-kontroll som Aspose.Cells.GridDesktop i en WPF-applikation.
 Vi kommer att använda Visual Studio 2015 för att demonstrera processen, men du kan använda vilken version som helst inklusive Visual Studio 2008 eller senare.
 
 {{% /alert %}} 
@@ -18,7 +18,7 @@ Denna handledning kommer att leda dig genom processen att lägga till Aspose.Cel
 Lägg till referenserna till följande sammansättningar genom att högerklicka på fönstret References from Solution Explorer och välj Add Reference-menyn.
 
 - WindowsFormsIntegration assembly (WindowsFormsIntegration.dll).
-- Windows Forms assembly (System.Windows.Forms.dll).
+- Windows Formulärsammansättning (System.Windows.Forms.dll).
 - Aspose.Cells.GridDesktop assembly (Aspose.Cells.GridDesktop.dll).
 
 Denna åtgärd lägger till de nödvändiga sammansättningarna till applikationen, det vill säga; kopierar sammansättningarna till mappen Bin i programmet.
@@ -33,11 +33,11 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 {{< /highlight >}}
 
-**Den slutliga Windows-taggen kommer att se ut som visas nedan.**
+**Den sista Windows-taggen kommer att se ut som visas nedan.**
 
 ![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_1.png)
 ## **Lägg till Aspose.Cells.GridDesktop-kontroll till XAML**
- Lägg bara till koden nedan i Grid-taggen i XAML. De**WindowsFormsHost** taggen används för att vara värd för Windows Forms-kontroll och**gridDesktop:GridDesktop** taggen representerar kontrollen Aspose.Cells.GridDesktop. Du kan också namnge kontrollen så att den lätt kan refereras i koden.
+ Lägg bara till koden nedan i Grid-taggen i XAML. De**WindowsFormsHost** taggen används för att vara värd för Windows Formulärkontroll och**gridDesktop:GridDesktop** taggen representerar kontrollen Aspose.Cells.GridDesktop. Du kan också namnge kontrollen så att den lätt kan refereras i koden.
 
 {{< highlight "java" >}}
 
@@ -57,7 +57,7 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 ![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_2.png)
 ## **Använd Aspose.Cells.GridDesktop**
-Vi kan nu komma åt och använda Aspose.Cells.GridDesktop-kontroll i .cs-filen som alla andra Windows Forms-program. För att hålla demonstrationen enkel laddar vi bara ett exempelark i kontrollen Aspose.Cells.GridDesktop och sparar tillbaka det. Dessutom har vi använt händelsen FrameworkElement_OnLoaded för att utlösa följande påståenden.
+Vi kan nu komma åt och använda Aspose.Cells.GridDesktop-kontroll i .cs-filen som alla andra Windows Forms-applikationer. För att hålla demonstrationen enkel laddar vi bara in ett exempelkalkylblad i Aspose.Cells.GridDesktop-kontrollen och sparar tillbaka det. Dessutom har vi använt händelsen FrameworkElement_OnLoaded för att utlösa följande påståenden.
 
 
 

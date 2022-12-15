@@ -6,7 +6,7 @@ url: /es/python-net/licensing/
 ---
 {{% alert color="primary" %}}
 
- Puede descargar fácilmente una versión de evaluación de Aspose.Cells Python a través de .Net desde su[página de descarga](https://pypi.org/project/aspose-cells-python/) @Repos Pypi. La versión de evaluación proporciona absolutamente las mismas capacidades que la versión con licencia del componente. Además, la versión de evaluación simplemente obtiene la licencia cuando compra una licencia y agrega un par de líneas de código para aplicar la licencia.
+ Puede descargar fácilmente una versión de evaluación de Aspose.Cells Python a través de .Net desde su[página de descarga](https://pypi.org/project/aspose-cells-python/)@Repos Pypi. La versión de evaluación proporciona absolutamente las mismas capacidades que la versión con licencia del componente. Además, la versión de evaluación simplemente obtiene la licencia cuando compra una licencia y agrega un par de líneas de código para aplicar la licencia.
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ La versión de evaluación de Aspose.Cells Python a través del producto .Net (s
 Las limitaciones se muestran a continuación:
 
 - **Número de archivos abiertos** (Aspose.Cells Python vía .Net)
-Al ejecutar su programa, solo puede abrir 100 archivos de Excel usando Aspose.Cells Python a través de la biblioteca .Net. Si su aplicación excede este número, se lanzará una excepción.
+ Al ejecutar su programa, solo puede abrir 100 archivos de Excel usando Aspose.Cells Python a través de la biblioteca .Net. Si su aplicación excede este número, se lanzará una excepción.
 
 
 Además, una hoja de trabajo con marca de agua de evaluación siempre se mostrará como la hoja de trabajo activa en el archivo de Excel generado usando Aspose.Cells Python a través de la biblioteca. Solo en la versión con licencia, puede configurar la hoja de trabajo activa en otras hojas de trabajo. En el PDF de salida o el archivo de imagen por Aspose.Cells Python vía, se pegaría una marca de agua de evaluación en la parte superior del documento/imagen.

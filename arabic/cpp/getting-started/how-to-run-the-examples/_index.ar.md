@@ -9,7 +9,7 @@ url: /ar/cpp/how-to-run-the-examples/
 
 - Visual Studio 2015 أو أعلى
 ## **تنزيل من جيثب**
- يتم استضافة جميع أمثلة Aspose.Cells لـ C++ على[جيثب](https://github.com/aspose-cells/Aspose.Cells-for-C/).
+ يتم استضافة جميع أمثلة Aspose.Cells for C++ على[جيثب](https://github.com/aspose-cells/Aspose.Cells-for-C/).
 
 -  يمكنك إما استنساخ المستودع باستخدام عميل GitHub المفضل لديك أو تنزيل ملف ZIP من[هنا](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
 -  قم باستخراج محتويات ملف ZIP إلى أي مجلد على جهاز الكمبيوتر الخاص بك. جميع الأمثلة موجودة في**أمثلة** مجلد.

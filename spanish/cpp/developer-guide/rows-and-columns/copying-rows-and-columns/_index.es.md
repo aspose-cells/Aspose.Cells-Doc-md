@@ -30,7 +30,7 @@ El método CopyRow toma los siguientes parámetros:
 
 Utilice este método para copiar una fila dentro de una hoja o en otra hoja. El método CopyRow funciona de manera similar a Microsoft Excel. Entonces, por ejemplo, no necesita establecer la altura de la fila de destino explícitamente, ese valor también se copia.
 
-El siguiente ejemplo muestra cómo copiar una fila en una hoja de cálculo. Utiliza un archivo de Excel de plantilla Microsoft y copia la segunda fila (completa con datos, formato, comentarios, imágenes, etc.) y la pega en la fila 12 en la misma hoja de trabajo.
+El siguiente ejemplo muestra cómo copiar una fila en una hoja de trabajo. Utiliza un archivo de Excel de plantilla Microsoft y copia la segunda fila (completa con datos, formato, comentarios, imágenes, etc.) y la pega en la fila 12 en la misma hoja de trabajo.
 
  Puede omitir el paso que obtiene la altura de la fila de origen utilizando el**ObtenerAlturaDeFila** y luego establece la altura de la fila de destino usando el**EstablecerRowHeight** método como el**Copiar fila** El método se ocupa automáticamente de la altura de la fila.
 

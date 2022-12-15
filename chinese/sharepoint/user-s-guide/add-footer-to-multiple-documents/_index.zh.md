@@ -6,7 +6,7 @@ url: /zh/sharepoint/add-footer-to-multiple-documents/
 ---
 如果要在多个 Excel 文件中添加页脚，请在功能区栏中选择“使用 Aspose.Cells 添加页脚”选项。
 
-![待办事项：图片_替代_文本](add-footer-to-multiple-documents_1.png)
+![待办事项：图像_替代_文本](add-footer-to-multiple-documents_1.png)
 
 
 
@@ -14,7 +14,7 @@ url: /zh/sharepoint/add-footer-to-multiple-documents/
 
 选择需要添加页脚的文件，点击**添加页脚**按钮为所选文件添加页脚。
 
-![待办事项：图片_替代_文本](add-footer-to-multiple-documents_2.png)
+![待办事项：图像_替代_文本](add-footer-to-multiple-documents_2.png)
 
 
 

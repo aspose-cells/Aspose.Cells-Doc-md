@@ -14,11 +14,11 @@ url: /zh/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 
 下面的屏幕截图显示了以下代码中使用的源 Excel 文件。它在单元格 A6 和 A7 中有一些文本的字体不能被 Microsoft Excel 很好地呈现。
 
-![待办事项：图片_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
+![待办事项：图像_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
 
 Aspose.Cells 会将单元格 A6 和 A7 中的字体替换为合适的字体，如下所示。
 
-![待办事项：图片_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
+![待办事项：图像_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
 ## **下载源文件并输出 PDF**
 

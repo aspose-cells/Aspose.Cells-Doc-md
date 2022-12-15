@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 17.1.0
+title: Offentlig API Ändringar i Aspose.Cells 17.1.0
 type: docs
 weight: 370
 url: /sv/net/public-api-changes-in-aspose-cells-17-1-0/

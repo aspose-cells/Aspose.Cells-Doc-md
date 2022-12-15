@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells para Reporting Services v1.4.0 Notas de la versión
+title: Aspose.Cells for Reporting Services v1.4.0 Notas de la versión
 type: docs
 weight: 40
 url: /es/reportingservices/aspose-cells-for-reporting-services-v1-4-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Esta página contiene notas de la versión para[Aspose.Cells para servicios de informes v1.4.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.0/)
+ Esta página contiene notas de la versión para[Aspose.Cells for Reporting Services v1.4.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.0/)
 
 {{% /alert %}} 
 
- ¡Nos complace anunciar Aspose.Cells para Reporting Services 1.4.0!
+ ¡Nos complace anunciar Aspose.Cells for Reporting Services 1.4.0!
 
  ¿Qué ha cambiado?
 
- l Admite Microsoft SQL Server 2008 Reporting Services.
+ Admite Microsoft SQL Server 2008 Reporting Services.
 
  l Admite Microsoft SQL Server 2000 Reporting Services.
 
@@ -22,7 +22,7 @@ url: /es/reportingservices/aspose-cells-for-reporting-services-v1-4-0-release-no
 
  l 9 correcciones y mejoras.
 
- Correcciones y mejoras en Aspose.Cells para Reporting Services 1.4.0
+ Correcciones y mejoras en Aspose.Cells for Reporting Services 1.4.0
 
 |**Número de identificación** |**Componente** |**Resumen** |
 |:- |:- |:- |

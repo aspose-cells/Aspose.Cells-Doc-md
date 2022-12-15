@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Node.js über Java 22.1 Versionshinweise
+title: Aspose.Cells for Node.js via Java 22.1 Versionshinweise
 type: docs
 weight: 12
 url: /de/nodejsjava/aspose-cells-for-node-js-via-java-22-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Diese Seite enthält Versionshinweise für[Aspose.Cells für Node.js über Java 22.1](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.1/).
+ Diese Seite enthält Versionshinweise für[Aspose.Cells for Node.js via Java 22.1](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.1/).
 
 {{% /alert %}}
 
@@ -43,7 +43,7 @@ Wenn in alten Versionen eine Zelle als Datumszeit formatiert werden soll, gibt C
 
 ### **Ändert das Verhalten von Cells.MaxDisplayRange.**
 
-In alten Versionen deckt der Bereichswert dieser Eigenschaft alle Zellen ab, die in der Cells-Sammlung instanziiert wurden. Ab dieser Version werden die unsichtbaren Zeilen/Spalten von den Rändern des Anzeigebereichs ausgeschlossen, wenn in diesen Zeilen/Spalten nur instanziierte Zellen vorhanden sind.
+In alten Versionen deckt der Bereichswert dieser Eigenschaft alle Zellen ab, die in der Cells-Sammlung instanziiert wurden. Ab dieser Version werden die unsichtbaren Zeilen/Spalten von den Rändern des Anzeigebereichs ausgeschlossen, wenn es nur instanziierte Zellen in diesen Zeilen/Spalten gibt.
 
 ### **Ändert DataSorter.Sort()-Methoden, um die ursprünglichen Indizes sortierter Zeilen/Spalten zurückzugeben.**
 

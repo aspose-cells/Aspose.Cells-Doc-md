@@ -1,6 +1,6 @@
 ﻿---
 title: Tratar con la configuración de fuentes
-linktitle: Configuración de fuente
+linktitle: Configuración de fuentes
 type: docs
 weight: 20
 url: /es/java/dealing-with-font-settings/

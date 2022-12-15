@@ -51,7 +51,7 @@ Excepciones
 (CELLSJAVA-40717) - CellsException: nombre de celda no válido en el constructor del libro de trabajo
 (CELLSJAVA-40723) - Representación provocada por com.aspose.cells.CellsException: java.lang.String no se puede convertir a java.lang.Double
 (CELLSJAVA-40724) - com.aspose.cells.CellsException en SheetRender
-(CELLSJAVA-40727) - Excepción: java.lang.NullPointerException en la representación de gráficos en una hoja de trabajo
+(CELLSJAVA-40727) - Excepción: java.lang.NullPointerException en la representación de gráficos en una hoja de cálculo
 
 Nota
 Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v7.7.2 también se incluyen en este Aspose.Cells for Java v7.7.2.

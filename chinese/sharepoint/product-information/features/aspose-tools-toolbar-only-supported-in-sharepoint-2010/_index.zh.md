@@ -14,4 +14,4 @@ Aspose.Cells for SharePoint 提供了一个工具栏，其中包括一些有价�
 
 **Aspose.Cells工具栏**
 
-![待办事项：图片_替代_文本](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)
+![待办事项：图像_替代_文本](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)

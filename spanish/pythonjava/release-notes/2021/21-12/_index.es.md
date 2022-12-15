@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Python a través de Java 21.12 Notas de la versión
+title: Aspose.Cells for Python via Java 21.12 Notas de la versión
 type: docs
 weight: 1
 url: /es/python-java/aspose-cells-for-python-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Esta página contiene notas de la versión para[Aspose.Cells para Python vía Java 21.12](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.12/).
+ Esta página contiene notas de la versión para[Aspose.Cells for Python via Java 21.12](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.12/).
 
 {{% /alert %}}
 
@@ -91,4 +91,4 @@ Representa las opciones de archivos R/W xml.
 
 ### **Agrega los métodos ListColumn.GetCustomTotalsRowFormula() y ListColumn.SetCustomTotalsRowFormula()**
 
- Obtiene y establece la fórmula personalizada de la fila de totales en la tabla.
+ Obtiene y establece la fórmula personalizada de la fila de totales de la tabla.

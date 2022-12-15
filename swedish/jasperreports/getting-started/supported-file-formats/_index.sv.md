@@ -6,7 +6,7 @@ url: /sv/jasperreports/supported-file-formats/
 ---
 |**Formatera**|**Beskrivning**|**Ladda**|**Spara**|
 |:- |:- |:- |:- |
-|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Sparar dokumentet i Microsoft Excel 97-2003-arbetsboken.||{{< emoticons/tick >}}|
+|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Sparar dokumentet i arbetsboken Microsoft Excel 97-2003.||{{< emoticons/tick >}}|
 |[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Sparar dokumentet i Office Open XML SpreadsheetML-arbetsbok eller mallfil, med eller utan makron.||{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|Sparar dokumentet i ODS (OpenDocument Spreadsheet).||{{< emoticons/tick >}}|
 |[XML](https://docs.fileformat.com/web/xml/)|Extensible Markup Language||{{< emoticons/tick >}}|

@@ -38,4 +38,4 @@ url: /sv/python-java/supported-file-formats/
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Ett XML-baserat format som används av OpenOffice och StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Detta är ett Open Document-format som lagras som platt XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Ett välkänt format för Microsoft Word-dokument som är en kombination av XML och binära filer.||{{< emoticons/tick >}}|
-|[PPTX](https://docs.fileformat.com/presentation/pptx/)|PPTX-formatet är baserat på Microsoft PowerPoints öppna XML-presentationsfilformat.||{{< emoticons/tick >}}|
+|[PPTX](https://docs.fileformat.com/presentation/pptx/)|PPTX-formatet är baserat på Microsoft PowerPoint öppet XML-presentationsfilformat.||{{< emoticons/tick >}}|

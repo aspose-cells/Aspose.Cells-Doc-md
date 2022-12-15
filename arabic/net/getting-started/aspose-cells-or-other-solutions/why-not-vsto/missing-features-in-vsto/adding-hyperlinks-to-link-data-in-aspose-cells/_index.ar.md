@@ -22,7 +22,7 @@ url: /ar/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 
  Aspose.Cells يسمح للمطورين بإضافة ارتباطات تشعبية إلى ملفات Excel إما باستخدام API أو[جداول بيانات المصمم](/cells/ar/net/what-is-a-designer-spreadsheet/)(جداول البيانات حيث يتم إنشاء الارتباطات التشعبية يدويًا ويتم استخدام Aspose.Cells لاستيرادها إلى جداول بيانات أخرى).
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف إكسل Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class طرقًا مختلفة لإضافة ارتباطات تشعبية مختلفة إلى ملفات Excel.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class طرقًا مختلفة لإضافة ارتباطات تشعبية مختلفة إلى ملفات Excel.
 
 ### **إضافة ارتباط إلى URL**
 
@@ -129,7 +129,7 @@ workbook.Save("C:\\book2.xls");
 
 {{< /highlight >}}
 
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 

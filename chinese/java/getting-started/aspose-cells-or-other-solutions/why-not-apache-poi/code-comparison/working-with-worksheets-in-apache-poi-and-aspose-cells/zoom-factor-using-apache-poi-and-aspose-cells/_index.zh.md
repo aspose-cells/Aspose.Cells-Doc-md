@@ -1,5 +1,5 @@
 ﻿---
-title: 使用 Apache POI 和 Aspose.Cells 的缩放系数
+title: 使用 Apache POI 和 Aspose.Cells 的缩放因子
 type: docs
 weight: 70
 url: /zh/java/zoom-factor-using-apache-poi-and-aspose-cells/

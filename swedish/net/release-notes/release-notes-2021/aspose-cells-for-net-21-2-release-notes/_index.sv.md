@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 21.2 Release Notes
+title: Aspose.Cells for .NET 21.2 Release Notes
 type: docs
 weight: 29
 url: /sv/net/aspose-cells-for-net-21-2-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 21.2](https://www.nuget.org/packages/Aspose.Cells/21.2.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 21.2](https://www.nuget.org/packages/Aspose.Cells/21.2.0).
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ url: /sv/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNET-47813| Konstigt beteende (och skillnader) med Treemap-diagram (och andra avancerade diagram)|Insekt|
 |CELLSNET-47815|Trådade kommentarer överförs inte med den omslutande formen|Insekt|
 |CELLSNET-47816|Filstorlek och MaxColumn för arbetsboken ökas efter att ha ställt in konturgränsen|Insekt|
-|CELLSNET-47828|Ytterligare Ctls-ström i XLS-fil efter uppgradering till Aspose.Cells för .NET 21.1|Insekt|
+|CELLSNET-47828|Ytterligare Ctls-ström i XLS-fil efter uppgradering till Aspose.Cells for .NET 21.1|Insekt|
 |CELLSNET-47838|Inbyggd diagramfärgpalett bevaras inte|Insekt|
 |CELLSNET-47845| Kanter togs oväntat bort efter inklistring med DefaultExceptBorders inklistringstyp|Insekt|
 |CELLSNET-47848|Problem med AutoFilter-borttagning av ListObject eller Add Filter Button-flaggan för det|Insekt|
@@ -46,9 +46,9 @@ url: /sv/net/aspose-cells-for-net-21-2-release-notes/
 |
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Ändrar beteendet för Cells.DeleteBlankRows()/Cells.DeleteBlankRows(DeleteOptions)**
 

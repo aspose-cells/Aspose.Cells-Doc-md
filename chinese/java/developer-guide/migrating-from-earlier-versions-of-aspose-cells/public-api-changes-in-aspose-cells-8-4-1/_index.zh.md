@@ -152,7 +152,7 @@ renderer.toImage(0, "output.png");
 {{% /alert %}} 
 
 ### **将注释呈现为 PDF**
-随着 v8.4.1 的发布，Aspose.Cells API 提供了 PageSetup.PrintComments 属性和 PrintCommentsType 枚举，以便在将电子表格转换为 PDF 格式时方便地呈现注释。 PrintCommentsType 枚举具有以下常量。
+随着 v8.4.1 的发布，Aspose.Cells API 提供了 PageSetup.PrintComments 属性和 PrintCommentsType 枚举，以便在将电子表格转换为 PDF 格式时方便地呈现评论。 PrintCommentsType 枚举具有以下常量。
 
 - 打印注释类型.PRINT_不_评论：不要发表评论。
 - 打印注释类型.PRINT_在_PLACE：评论将在放置它们的地方呈现。

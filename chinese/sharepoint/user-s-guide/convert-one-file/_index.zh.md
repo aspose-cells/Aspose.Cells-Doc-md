@@ -16,7 +16,7 @@ url: /zh/sharepoint/convert-one-file/
 
    **在文档的 ECB 中选择“通过 Aspose.Cells 转换”项** 
 
-![待办事项：图片_替代_文本](convert-one-file_1.png)
+![待办事项：图像_替代_文本](convert-one-file_1.png)
 
 
 
@@ -24,11 +24,11 @@ url: /zh/sharepoint/convert-one-file/
 
 1. 从中选择目标文件格式**转换成**列表。
 1. 将输出文件的名称输入到**目标文件**场地。
-默认情况下，SharePoint 的 Aspose.Cells 使用源文件的名称预填充此字段。
+默认情况下，Aspose.Cells for SharePoint 使用源文件的名称预填充此字段。
 扩展名会根据所选格式自动添加。
 1. 单击开始转换**兑换**.
 （或返回图书馆，关闭您的设置，点击**取消**.)
 
 **一个文件转换的转换设置屏幕** 
 
-![待办事项：图片_替代_文本](convert-one-file_2.png)
+![待办事项：图像_替代_文本](convert-one-file_2.png)

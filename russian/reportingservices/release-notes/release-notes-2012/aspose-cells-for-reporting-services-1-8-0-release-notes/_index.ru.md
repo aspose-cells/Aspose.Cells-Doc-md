@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells для Reporting Services 1.8.0 Примечания к выпуску
+title: Aspose.Cells for Reporting Services 1.8.0 Примечания к выпуску
 type: docs
 weight: 10
 url: /ru/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для служб Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
 
 {{% /alert %}} 
 
- Мы рады объявить Aspose.Cells для Reporting Services v1.8.0. Он включает в себя несколько улучшений и устраняет ряд исправлений.
+ Рады сообщить Aspose.Cells for Reporting Services v1.8.0. Он включает в себя несколько улучшений и устраняет ряд исправлений.
 
  Общие характеристики
 
@@ -19,13 +19,13 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 - Поддержка защиты рабочей книги
 - Поддержка защиты рабочего листа
 - Добавьте функцию фильтра в
- Aspose.Cells для клиентского компонента служб Reporting Services
+ Aspose.Cells for Reporting Services клиентский компонент
 - Включить Office 2010 x64
- поддержка Aspose.Cells для клиентского компонента служб Reporting Services
+ поддержка клиентского компонента Aspose.Cells for Reporting Services
 
 
 
-Оптимизация/производительность
+ Оптимизация/производительность
 
 - Aspose.Cells для отчетности
  Службы в целом оптимизированы с точки зрения производительности
@@ -61,13 +61,13 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 
 - Серверный компонент — поля объединяются при отображении в формате XLSX
-- Серверный компонент — экспорт задач по номеру Aspose.Cells для служб Reporting Services
+- Серверный компонент - проблемы с экспортом по номеру Aspose.Cells for Reporting Services
 - Серверный компонент — скрытый столбец отображается после рендеринга
 - Серверный компонент — отсутствуют заголовки групп столбцов
 - Серверный компонент — проблема реализации разрыва страницы (XL#38567)
 - Серверный компонент — невозможно опубликовать отчет, если отчет содержит «*» в формулах
 
-30962 — ServerComponent — огромный интервал или разрыв между двумя табликсами
+ 30962 — ServerComponent — огромный интервал или разрыв между двумя табликсами
 
 - Серверный компонент — проблема цвета фона Cell (XL#CCS) в ReportingServices
 - Серверный компонент — проблема с динамическими формулами и нижними колонтитулами таблиц

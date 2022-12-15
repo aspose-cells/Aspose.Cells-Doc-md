@@ -6,11 +6,11 @@ url: /sv/cpp/aspose-cells-for-cpp-21-11-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för C++ 21.11 för Linux.
+Den här sidan innehåller utgåvor för Aspose.Cells for C++ 21.11 för Linux.
 
 {{% /alert %}} 
 
-Vi är glada att kunna meddela lanseringen av Aspose.Cells för C++ 21.11 för Linux.
+Vi är glada att kunna meddela lanseringen av Aspose.Cells for C++ 21.11 för Linux.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |

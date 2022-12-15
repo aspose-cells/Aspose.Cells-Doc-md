@@ -1,21 +1,21 @@
 ﻿---
-title: Aspose.Cells för Java och PHP
+title: Aspose.Cells for Java och PHP
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-java-and-php/
 ---
 {{% alert color="primary" %}} 
 
- PHP-utvecklare kan använda Aspose.Cells för Java i PHP-applikationer. För att arbeta med Aspose.Cells för Java och PHP, använd PHP version 5 (känd som PHP5). PHP4 kan också användas för att komma åt Aspose.Cells för Java men det är mer komplext än att använda PHP5.
+ PHP-utvecklare kan använda Aspose.Cells for Java i PHP-applikationer. För att arbeta med Aspose.Cells for Java och PHP, använd PHP version 5 (känd som PHP5). PHP4 kan också användas för att komma åt Aspose.Cells for Java men det är mer komplext än att använda PHP5.
 
 {{% /alert %}} 
 ## **Arbetar med PHP**
 ### **Använder PHP5**
-Aspose.Cells för Java tillhandahåller PHP5-omslagsklasser som gör det lättare för utvecklare att använda Aspose.Cells-biblioteket utan att arbeta med Java-klasser direkt.
+ Aspose.Cells for Java tillhandahåller PHP5-omslagsklasser som gör det lättare för utvecklare att använda Aspose.Cells-biblioteket utan att arbeta med Java-klasser direkt.
 
  Dessa omslagsklasser kan hittas i PHP-katalogen i aspose.cells.zip-arkivet i form av en PHP-fil.
 ## **Använder PHP4**
- PHP4 fungerar också med Aspose.Cells för Java, men i det här fallet skulle utvecklare behöva arbeta med Java-klasser direkt.
+ PHP4 fungerar också med Aspose.Cells for Java men i det här fallet skulle utvecklare behöva arbeta med Java klasser direkt.
 
 {{% alert color="primary" %}} 
 

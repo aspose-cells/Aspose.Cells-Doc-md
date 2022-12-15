@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 1.7.4.0 Hot Fix Release Notes
+title: Aspose.Cells Java 1.7.4.0 Versionsinformation om heta korrigeringar
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-java-1-7-4-0-hot-fix-release-notes/
@@ -12,7 +12,7 @@ url: /sv/java/aspose-cells-java-1-7-4-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.7.4!Följande förbättringar och korrigeringar ingår:
+ Vi har släppt Aspose.Cells for Java V1.7.4!Följande förbättringar och korrigeringar ingår:
 
 - Lägger till metoderna Column.applyStyle och Row.applyStyle.
  Fixar några buggar med inställning och beräkning av formler.

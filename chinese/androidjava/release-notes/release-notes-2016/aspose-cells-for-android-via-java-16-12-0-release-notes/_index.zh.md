@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 16.12.0 发行说明
+title: Aspose.Cells for Android via Java 16.12.0 发行说明
 type: docs
 weight: 10
 url: /zh/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
@@ -78,7 +78,7 @@ url: /zh/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-42014|重新保存 XLSX 时出现 ClassCastException|例外|
 |CELLSJAVA-42004|java.lang.NullPointerException，在加载 XLSX 文件时在 Workbook ctor|例外|
 ## **公共 API 和向后不兼容的更改**
-以下是对公共 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 ### **添加 Shape.Reflection 属性和 ReflectionEffect 类。**
 表示图表元素或形状的反射效果。
 ### **添加 Shape.Glow、GlowEffect.Size 和 GlowEffect.Transparency 属性。**
@@ -160,6 +160,6 @@ url: /zh/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v16.10.0, Aspose.Cells for .NET v16.11.0, Aspose.Cells for .NET v16.12.0, Aspose.Cells for Java v16 .10.0、Aspose.Cells for Java v16.11.0 和 Aspose.Cells for Java v16.12.0 也包含在这个 Aspose.Cells for Android v16.12.0 中。
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v16.10.0, Aspose.Cells for .NET v16.11.0, Aspose.Cells for .NET v16.12.0, Aspose.Cells for Java v16. 10.0、Aspose.Cells for Java v16.11.0和Aspose.Cells for Java v16.12.0也包含在这个Aspose.Cells for Android v16.12.0中。
 
 {{% /alert %}}

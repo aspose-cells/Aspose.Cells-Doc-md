@@ -5,7 +5,7 @@ weight: 10
 url: /fr/python-java/create-a-pivot-table/
 ---
 ## **Créer un tableau croisé dynamique**
-Aspose.Cells pour Python via Java fournit la fonctionnalité pour créer des tableaux croisés dynamiques. Pour créer un tableau croisé dynamique à l'aide du Aspose.Cells, veuillez suivre les étapes ci-dessous :
+Aspose.Cells for Python via Java fournit la fonctionnalité pour créer des tableaux croisés dynamiques. Pour créer un tableau croisé dynamique à l'aide du Aspose.Cells, veuillez suivre les étapes ci-dessous :
 
 1. Ajoutez des données aux cellules de la feuille de calcul à l'aide de la[Cell](https://reference.aspose.com/cells/python/asposecells.api/Cell)objets[setValue](https://reference.aspose.com/cells/python/asposecells.api/cell#Value)propriété. Ces données seront utilisées comme source de données pour le tableau croisé dynamique.
 1. Ajoutez un tableau croisé dynamique à la feuille de calcul en appelant le[Collection de tableaux croisés dynamiques](https://reference.aspose.com/cells/python/asposecells.api/PivotTableCollection)[ajouter](https://reference.aspose.com/cells/python/asposecells.api/pivottablecollection#add\(java.lang.Object\)), encapsulée dans la méthode[Feuille de travail](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)objet.

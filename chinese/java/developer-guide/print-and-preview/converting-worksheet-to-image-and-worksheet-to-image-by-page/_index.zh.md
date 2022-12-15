@@ -24,7 +24,7 @@ url: /zh/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 **输出 JPG**
 
-![待办事项：图片_替代_文本](converting-worksheet-to-image-and-worksheet-to-image-by-page_1.png)
+![待办事项：图像_替代_文本](converting-worksheet-to-image-and-worksheet-to-image-by-page_1.png)
 
 ## **使用 Aspose.Cells 将工作表按页转换为图像文件**
 
@@ -38,11 +38,11 @@ url: /zh/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 
 **生成的图像文件（Sheet 1 Page 1.Tiff）**
 
-![待办事项：图片_替代_文本](converting-worksheet-to-image-and-worksheet-to-image-by-page_2.png)
+![待办事项：图像_替代_文本](converting-worksheet-to-image-and-worksheet-to-image-by-page_2.png)
 
 **生成的图片文件（Sheet 1 Page 2.Tiff）**
 
-![待办事项：图片_替代_文本](converting-worksheet-to-image-and-worksheet-to-image-by-page_3.png)
+![待办事项：图像_替代_文本](converting-worksheet-to-image-and-worksheet-to-image-by-page_3.png)
 
 {{% alert color="primary" %}}
 

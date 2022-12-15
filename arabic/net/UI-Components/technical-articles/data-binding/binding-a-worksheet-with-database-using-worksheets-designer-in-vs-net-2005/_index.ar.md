@@ -121,7 +121,7 @@ url: /ar/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 ![ما يجب القيام به: image_بديل_نص](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_12.png)
 
-**شكل:** التحديد**شبكة** المكون في مربع الحوار المكون
+**شكل:** التحديد**شبكة** المكون في مربع حوار المكون
 
  الآن**شبكة** تمت إضافته كما هو موضح في الشكل أدناه.
 

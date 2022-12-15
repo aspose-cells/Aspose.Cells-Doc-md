@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.4.0 Release Notes
+title: Aspose.Cells for .NET 17.4.0 Release Notes
 type: docs
 weight: 90
 url: /sv/net/aspose-cells-for-net-17-4-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 17.4.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.4.0/).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 17.4.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.4.0/).
 
 {{% /alert %}} 
 
@@ -39,7 +39,7 @@ url: /sv/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45265|Teckensnittet har ändrats i utdatabilden/PDF|Insekt|
 |CELLSNET-45235|Liten vertikal inriktningsskillnad mellan Excel och Aspose.Cells Pdf-filer|Insekt|
 |CELLSNET-45272|Teckensnittet är annorlunda och ett procenttecken saknas i PDF-filen|Insekt|
-|CELLSNET-45233|Diagram har "Axis Title"|Insekt|
+|CELLSNET-45233|Diagrammen har "Axis Title"|Insekt|
 |CELLSNET-45232|3D-kolumndiagram renderas inte bra i den utgående PDF-filen|Insekt|
 |CELLSNET-45188|Kategoriaxeletiketter visas inte i diagrammet i den utgående PDF-filen|Insekt|
 |CELLSNET-45292|Ta bort kalkylblad i XLSM lämnar efter sig ett restark i vba-projektet|Insekt|
@@ -70,8 +70,8 @@ url: /sv/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-44975|Formateringsfel inuti formar texter när Excel konverteras till PDF|Undantag|
 |CELLSNET-45266|VbaProject.Sign orsakar ett undantag|Undantag|
 |CELLSNET-45239|Om du lägger till en bild igen i samma XLS får du ett nollreferensfel|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoden VbaProject.Protect (bool islockedForViewing, stränglösenord).**
 Skyddar eller avskyddar VBA-projektet.
 #### **Lägger till egenskapen VbaProject.IsProtected**

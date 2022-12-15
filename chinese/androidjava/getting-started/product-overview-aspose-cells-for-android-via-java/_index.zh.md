@@ -1,5 +1,5 @@
 ﻿---
-title: 产品概述 - Aspose.Cells 适用于 Android，通过 Java
+title: 产品概览 - Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /zh/java/product-overview-aspose-cells-for-android-via-java/
@@ -8,7 +8,7 @@ url: /zh/java/product-overview-aspose-cells-for-android-via-java/
 
 ![细胞标志](50528297.png)
 
-欢迎通过 Java 文档使用 Android 版 Aspose.Cells！
+欢迎使用 Aspose.Cells for Android via Java 文档！
 
 Aspose.Cells 是一个灵活的组件，它使 Android 应用程序能够创建和管理 Excel 电子表格，而无需在系统上安装 Microsoft Excel。与其他供应商的同类产品不同，Aspose.Cells 不仅支持电子表格生成和其他基本的文件格式设置功能，还支持许多高级功能。这些高级功能使开发人员可以轻松处理电子表格内容、单元格格式和文件保护。 Aspose.Cells 还允许您将来自不同数据源的数据导入电子表格，添加常见和复杂的数学、日期和时间、财务或文本公式和函数。它还支持操作图表、图片、评论、绘图对象和控件。
 

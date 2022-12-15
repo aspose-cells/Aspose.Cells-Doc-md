@@ -56,12 +56,12 @@ Aspose.Cells consente all'utente di mostrare e nascondere elementi di una cartel
 
 ## **Mostra o nascondi le schede**
 
-Se osservi attentamente la parte inferiore di un file Excel Microsoft, vedrai una serie di controlli. Questi includono:
+Se osservi attentamente la parte inferiore di un file Microsoft Excel, vedrai una serie di controlli. Questi includono:
 
 - Schede dei fogli.
 - Pulsanti di scorrimento delle schede.
 
-Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Quindi, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
+Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Pertanto, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
 
 **Schede dei fogli e pulsanti di scorrimento delle schede**
 
@@ -70,7 +70,7 @@ Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su
 Utilizzando Aspose.Cells, gli sviluppatori possono controllare la visibilità delle schede dei fogli e dei pulsanti di scorrimento delle schede nei file Excel.
 
 **Controllo della visibilità delle schede:**
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel.
 
 ### **Nascondere le schede**
 
@@ -106,7 +106,7 @@ Tutti i fogli di lavoro in un file Excel sono composti da celle disposte in righ
 
 **Controllo della visibilità dei fogli di lavoro:**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. La classe Worksheet fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per controllare la visibilità delle intestazioni di righe e colonne, utilizzare la classe Foglio di lavoro'[**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) metodo.
 
@@ -173,13 +173,13 @@ Lo screenshot seguente mostra il file Book1.xls contenente entrambe le barre di 
 
 ## **Mostra e nascondi le linee della griglia**
 
-Tutti i fogli di lavoro Excel Microsoft hanno una griglia per impostazione predefinita. Aiutano a delineare le celle, in modo che sia facile inserire dati in celle particolari. Le linee della griglia ci consentono di visualizzare un foglio di lavoro come una raccolta di celle, in cui ogni cella è facilmente identificabile.
+Tutti i fogli di lavoro di Microsoft Excel hanno una griglia per impostazione predefinita. Aiutano a delineare le celle, in modo che sia facile inserire dati in celle particolari. Le linee della griglia ci consentono di visualizzare un foglio di lavoro come una raccolta di celle, in cui ogni cella è facilmente identificabile.
 
 Aspose.Cells consente inoltre di controllare la visibilità delle linee della griglia.
 
 ### **Controllo della visibilità delle linee della griglia**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) che consente l'accesso a ciascun foglio di lavoro nel file.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) che consente l'accesso a ciascun foglio di lavoro nel file.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per controllare la visibilità delle linee della griglia, utilizzare il file[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) metodo.
 

@@ -6,11 +6,11 @@ url: /de/reportingservices/evaluate-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
-Sie können ganz einfach Aspose.Cells für Reporting Services zur Evaluierung von herunterladen[Download-Seite](https://downloads.aspose.com/cells/reportingservices) . Der Evaluierungs-Download ist derselbe wie der gekaufte Download. Die Evaluierungsversion wird einfach danach lizenziert[Beantragung einer Lizenz](/cells/de/reportingservices/licensing/).
+ Sie können ganz einfach die Aspose.Cells for Reporting Services zur Auswertung aus dem herunterladen[Download-Seite](https://downloads.aspose.com/cells/reportingservices) . Der Evaluierungs-Download ist derselbe wie der gekaufte Download. Die Evaluierungsversion wird einfach danach lizenziert[Beantragung einer Lizenz](/cells/de/reportingservices/licensing/).
 
 {{% /alert %}}
 
-Die Evaluierungsversion von Aspose.Cells für Reporting Services (ohne Angabe einer Lizenz) stellt die Produktfunktionalität jedoch teilweise nicht vollständig bereit. Eine Einschränkung besteht darin, dass beim Öffnen / Speichern eines beliebigen Tabellenkalkulationsdokuments immer ein zusätzliches Arbeitsblatt mit Bewertungswasserzeichen eingefügt wird.
+Die Evaluierungsversion von Aspose.Cells for Reporting Services (ohne Angabe einer Lizenz) bietet jedoch teilweise nicht vollständige Produktfunktionalität. Eine Einschränkung besteht darin, dass beim Öffnen / Speichern eines beliebigen Tabellenkalkulationsdokuments immer ein zusätzliches Arbeitsblatt mit Bewertungswasserzeichen eingefügt wird.
 
 ![todo: Bild_alt_Text](evaluate-aspose-cells_1.png)
 
@@ -22,4 +22,4 @@ Es wird ein zusätzliches Bewertungs-Wasserzeichen-Arbeitsblatt in die Arbeitsma
 
 **Figur:** Bewertungswarnung – Ein zusätzliches Arbeitsblatt
 
- Wenn Sie Aspose.Cells für Reporting Services ohne Einschränkungen der Testversion testen möchten, können Sie dies tun[Fordern Sie eine 30-tägige temporäre Lizenz an](https://purchase.aspose.com/temporary-license).
+ Wenn Sie Aspose.Cells for Reporting Services ohne Einschränkungen der Evaluierungsversion testen möchten, können Sie dies tun[Fordern Sie eine 30-tägige temporäre Lizenz an](https://purchase.aspose.com/temporary-license).

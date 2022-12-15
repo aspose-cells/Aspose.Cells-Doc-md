@@ -45,7 +45,7 @@ Algunas culturas pueden no ser compatibles con el entorno del usuario. Para evit
 #### **Elimina el método obsoleto ValidationCollection.Add(Aspose.Cells.Validation).**
 Utilice el método ValidationCollection.Add(CellArea) en su lugar.
 #### **Agrega la propiedad PowerQueryFormula.FormulaDefinition.**
-Obtiene la definición de la fórmula de consulta de potencia.
+Obtiene la definición de la fórmula de consulta de energía.
 #### **Agrega la propiedad DBConnection.PowerQueryFormula.**
 Obtiene la definición de la fórmula de consulta de potencia.
 #### **Agrega la propiedad HtmlSaveOptions.ExportHeadings.**

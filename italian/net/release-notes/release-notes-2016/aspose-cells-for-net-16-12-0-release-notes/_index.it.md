@@ -12,7 +12,7 @@ url: /it/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44965|I valori di data precedenti al 2000 vengono analizzati in modo errato|Aumento|
 |CELLSNET-44954|La formattazione della frazione ha dato un risultato formattato errato|Aumento|
 |CELLSNET-44944|Crea il meccanismo di sostituzione dei caratteri secondo il comportamento predefinito di .NET|Aumento|
-|CELLSNET-44935|API non è in grado di individuare i caratteri predefiniti in Linux sotto Mono|Aumento|
+|CELLSNET-44935|L'API non è in grado di individuare i caratteri predefiniti in Linux in Mono|Aumento|
 |CELLSNET-44899|Scarse prestazioni durante il calcolo delle formule per la seconda volta|Prestazione|
 |CELLSNET-44967|Considerazioni sulle prestazioni per il metodo NameCollection.Remove|Prestazione|
 |CELLSNET-44964|Aspose.Cells è sospeso quando CalculateFormula() viene utilizzato su Workbook.|Prestazione|
@@ -28,7 +28,7 @@ url: /it/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44184|L'aggiornamento di tabelle e grafici pivot genera file XLSX corrotti|Insetto|
 |CELLSNET-44974|Cell l'ombreggiatura è incasinata durante l'aggiornamento della tabella pivot e il rendering in PDF|Insetto|
 |CELLSNET-44972|Cell Ombreggiatura applicata alla cella errata durante l'aggiornamento della tabella pivot e il rendering in PDF|Insetto|
-|CELLSNET-44963|Salva in PDF crea bordi extra per le righe|Insetto|
+|CELLSNET-44963|Salva in PDF crea bordi aggiuntivi per le righe|Insetto|
 |CELLSNET-44927|Tipo di dati considerato come DateTime se il formato personalizzato contiene Magenta|Insetto|
 |CELLSNET-44921|L'altezza della riga è stata modificata dopo una semplice operazione di nuovo salvataggio|Insetto|
 |CELLSNET-44916|Il metodo Workbook.CalculateFormula() calcola il valore della cella B8 in modo errato|Insetto|
@@ -46,7 +46,7 @@ url: /it/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44890|Serie DataLabel valore e percentuale che mostrano VALORE e PERCENTUALE dopo un semplice nuovo salvataggio|Insetto|
 |CELLSNET-44883|L'asse X (tabella dati) non è lo stesso nel file PDF di rendering|Insetto|
 |CELLSNET-44833|Rendering errato delle linee durante la conversione del foglio di calcolo in PDF|Insetto|
-|CELLSNET-44831|API esegue il rendering della legenda aggiuntiva con SheetRender quando ImageOrPrintOptions.OnlyArea è impostato su false|Insetto|
+|CELLSNET-44831|L'API esegue il rendering della legenda aggiuntiva con SheetRender quando ImageOrPrintOptions.OnlyArea è impostato su false|Insetto|
 |CELLSNET-44803|Parte in pila dei dati del grafico mancante nel grafico di output dopo l'utilizzo del metodo Chart.Calculate()|Insetto|
 |CELLSNET-44979|Aspose abilita l'opzione divisa sui riquadri di blocco durante il salvataggio in formato XLSB|Insetto|
 |CELLSNET-44953|Cell.Copy non copia il formato da una cartella di lavoro a un'altra|Insetto|
@@ -56,10 +56,10 @@ url: /it/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44918|La funzionalità di sostituzione dell'immagine della forma non funziona correttamente sul sistema operativo x86|Insetto|
 |CELLSNET-44915|Stile non applicato correttamente alla riga di Excel durante l'impostazione dello stile predefinito|Insetto|
 |CELLSNET-44913|Problema con i nomi dei grafici: impossibile generare un nome univoco|Insetto|
-|CELLSNET-44911|Risultati della chiamata incoerenti in stile cella API relativi ai bordi|Insetto|
+|CELLSNET-44911|Risultati della chiamata API in stile cella incoerenti per quanto riguarda i bordi|Insetto|
 |CELLSNET-44904|L'apertura e il nuovo salvataggio del file Excel non modificato riceve una richiesta|Insetto|
-|CELLSNET-44959|contenuti scompaiono dopo lo scorrimento verso il basso e poi nuovamente verso l'alto mentre si cambia un altro foglio di lavoro (GridWeb)|Insetto|
-|CELLSNET-44925|I contenuti scompariranno dopo lo scorrimento verso il basso e poi di nuovo verso l'alto in un foglio di lavoro (GridWeb)|Insetto|
+|CELLSNET-44959|I contenuti scompaiono dopo lo scorrimento verso il basso e poi nuovamente verso l'alto mentre si cambia un altro foglio di lavoro (GridWeb)|Insetto|
+|CELLSNET-44925|contenuti scompariranno dopo lo scorrimento verso il basso e poi di nuovo verso l'alto in un foglio di lavoro (GridWeb)|Insetto|
 |CELLSNET-44906|Gridweb - Messaggio di errore quando le celle vengono modificate|Insetto|
 |CELLSNET-44860|Le righe fisse vengono duplicate quando si scorre verso il basso e verso l'alto (GridWeb)|Insetto|
 |CELLSNET-44859|GridWeb carica il foglio di lavoro incompleto|Insetto|
@@ -68,8 +68,8 @@ url: /it/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44907|CellsException a causa di un'interruzione di riga all'interno della cella che si estende su più righe|Eccezione|
 |CELLSNET-44893|Aspose.Cell ArithmeticException quando si chiama Chart.ToImage tramite una DLL C++ compatibile con CLR|Eccezione|
 |CELLSNET-44876|CellsException: errore da forma a immagine durante la conversione del foglio di calcolo in PDF|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge le proprietà BuiltInDocumentPropertyCollection.ScaleCrop e BuiltInDocumentPropertyCollection.LinksUpToDate.**
 Ottiene e imposta alcune proprietà predefinite del documento.
 #### **Elimina la proprietà DataLabels.Rotation obsoleta.**

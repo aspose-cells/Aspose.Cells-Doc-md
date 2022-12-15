@@ -4,14 +4,14 @@ type: docs
 weight: 5
 url: /ar/nodejs-java/features/
 keywords: nodejs, excel, api, feature
-description: Aspose.Cells لـ Node.js عبر ميزات Java
+description: Aspose.Cells for Node.js via Java ميزات
 ---
-## **Aspose.Cells لـ Node.js عبر Java نظرة عامة على الميزات**
-يقدم هذا القسم مقارنة لتوافر الميزات بين Aspose.Cells for Java و Aspose.Cells لـ Node.js عبر Java.
+## **Aspose.Cells for Node.js via Java نظرة عامة على الميزات**
+يقدم هذا القسم مقارنة لتوافر الميزات بين Aspose.Cells for Java و Aspose.Cells for Node.js via Java.
 ### **تنسيقات الملفات والتحويلات**
 يعتمد العديد من العملاء في جميع أنحاء العالم على ميزات استيراد وتصدير المستندات الشاملة التي يوفرها Aspose.Cells.
 
-|**ميزة**|**وصف**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js عبر Java**|
+|**ميزة**|**وصف**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |:- |
 |تحويلات عالية الجودة|تحويل سريع وموثوق بين العديد من تنسيقات المستندات الشائعة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft مصنف Excel (XLS)|أسرع وأشمل تنفيذ لتنسيق XLS يمكنك أن تجده.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -25,7 +25,7 @@ description: Aspose.Cells لـ Node.js عبر ميزات Java
 ### **التقديم والطباعة**
 يوفر Aspose.Cells الآن تصيير عالي الدقة لصفحات جداول البيانات.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js عبر Java**|
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |تخطيط المستند إلى صفحات بدقة عالية إلى Microsoft Excel® (تمامًا مثل Microsoft Excel® سيفعل ذلك).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |عرض صفحات ورقة العمل على الصور النقطية (PNG ، JPEG ، إلخ).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -37,7 +37,7 @@ description: Aspose.Cells لـ Node.js عبر ميزات Java
 ### **ميزات محتوى جدول البيانات**
 يوفر Aspose.Cells نموذجًا غنيًا للعناصر يتكون من أكثر من 100 فئة / واجهة عامة ، والتي تتيح لك إنشاء جداول البيانات المحملة أو دمجها أو تعديلها أو تحليلها أو فحصها بطريقة برمجية. يتم إعطاء بعض الميزات الرئيسية في الجدول أدناه.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js عبر Java**|
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |استيراد / تصدير البيانات من Array و ArrayList و ResultSet وما إلى ذلك.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |أضف نسخة من ورقة العمل الموجودة (جميع المحتويات بما في ذلك الصور والمخططات والكائنات الأخرى وما إلى ذلك)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -76,7 +76,7 @@ description: Aspose.Cells لـ Node.js عبر ميزات Java
 ### **ميزات تنسيق جدول البيانات**
 يوفر Aspose.Cells وصول برمجي مفصل لخصائص التنسيق لكل عناصر جدول البيانات.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js عبر Java**|
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |قم بتطبيق جميع تنسيق الأحرف في الخلايا بما في ذلك الخطوط والألوان والتأثيرات والحدود والتظليل.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |قم بتطبيق كافة إعدادات تنسيق الأرقام (المدعومة في Microsoft Excel) للخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -90,7 +90,7 @@ description: Aspose.Cells لـ Node.js عبر ميزات Java
 ### **ميزات PageSetup**
 يمكنك استخدام Aspose.Cells لتنفيذ خيارات إعداد الصفحة لأوراق العمل.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js عبر Java**|
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |اضبط اتجاه صفحتك ، والقياس ، وحجم الورق.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |حدد الهوامش وتوسيط الصفحة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

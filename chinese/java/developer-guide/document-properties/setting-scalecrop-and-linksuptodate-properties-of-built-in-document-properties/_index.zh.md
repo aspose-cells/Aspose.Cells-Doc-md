@@ -15,7 +15,7 @@ url: /zh/java/setting-scalecrop-and-linksuptodate-properties-of-built-in-documen
 
 该元素的可能值由 W3C XML Schema 布尔数据类型定义。
 ## **显示 app.xml 文件中这些属性的屏幕截图**
-![待办事项：图片_替代_文本](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
+![待办事项：图像_替代_文本](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
 ## **设置内置文档属性的 ScaleCrop 和 LinksUpToDate 属性**
 下面的示例代码设置[鳞片作物](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#ScaleCrop)和[最新链接](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#LinksUpToDate)扩展了工作簿的内置文档属性。请检查[输出excel文件](5472494.xlsx)使用此代码生成，将其扩展名更改为 .zip 并提取其内容并查看 aap.xml，如上面的屏幕截图所示。
 

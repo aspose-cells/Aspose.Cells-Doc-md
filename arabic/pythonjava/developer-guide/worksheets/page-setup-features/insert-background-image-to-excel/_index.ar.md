@@ -3,7 +3,7 @@ title: إدراج صورة الخلفية في Excel
 type: docs
 weight: 90
 url: /ar/python-java/insert-background-image-to-excel/
-description: كيفية إدراج صورة الخلفية لبرنامج Excel باستخدام Aspose.Cells لـ Python عبر Java
+description: كيفية إدراج صورة الخلفية لبرنامج Excel باستخدام Aspose.Cells for Python via Java
 ---
 {{% alert color="primary" %}} 
 

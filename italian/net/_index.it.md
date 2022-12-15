@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /it/net/
 is_root: true
-description: Una potente e veloce libreria di programmazione Speadsheet scritta in C#. Supporta i popolari formati di file Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML e JSON e consente di esportare file Excel in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, testo normale e formati immagine popolari tra cui TIFF, JPG, PNG, BMP e SVG.
+description: Una potente e veloce libreria di programmazione per fogli di calcolo scritta in C#. Supporta i popolari formati di file Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, SpreadsheetML, CSV), OpenOffice (ODS), HTML e JSON e consente di esportare file Excel in PDF, DOCX, PPTX, JSON, XPS, HTML , MHTML, testo normale e formati di immagini popolari tra cui TIFF, JPG, PNG, BMP e SVG.
 ---
 {{% alert color="primary" %}}
 
@@ -34,7 +34,7 @@ Aspose.Cells for .NET supporta i popolari fogli di calcolo (XLS, XLSX, XLSM, XLS
 			</ul>            
 	        <p>Risorse utili</p>
 			<ul>
-				<li><a href="https://www.nuget.org/packages/Aspose.Cells/">Scarica Aspose.Cells for .NET al NuGet</a></li>
+				<li><a href="https://www.nuget.org/packages/Aspose.Cells/">Scarica Aspose.Cells for .NET su NuGet</a></li>
 				<li><a href="https://downloads.aspose.com/cells/net">Scarica Aspose.Cells for .NET</a></li>
 			</ul>
 	</div>
@@ -46,7 +46,7 @@ Aspose.Cells for .NET supporta i popolari fogli di calcolo (XLS, XLSX, XLSM, XLS
 				<li><a href="/cells/it/net/aspose-cells-features/">Caratteristiche</a></li>
 				<li><a href="/cells/it/net/system-requirements/">Requisiti di sistema</a></li>
 				<li><a href="/cells/it/net/getting-started/#how-to-install">Installazione</a></li>
-				<li><a href="/cells/it/net/installation/">Installa Aspose Cells tramite NuGet</a></li>
+				<li><a href="/cells/it/net/installation/">Installare Aspose Cells tramite NuGet</a></li>
 			</ul>
 			<p>Imparare</p>
 			<ul>
@@ -64,7 +64,7 @@ Aspose.Cells for .NET supporta i popolari fogli di calcolo (XLS, XLSX, XLSM, XLS
 				<li><a href="/cells/it/net/loading-saving-and-managing/">Carica e salva</a></li>
 				<li><a href="/cells/it/net/convert-workbook-to-different-formats/">Rendering e Conversione</a></li>
 				<li><a href="/cells/it/net/print-and-preview/">Stampa e Anteprima</a></li>
-				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Guida di riferimento</a></li>
+				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET Guida di riferimento API</a></li>
 			</ul>	
 			<p>Supporto tecnico</p>
 			<ul>

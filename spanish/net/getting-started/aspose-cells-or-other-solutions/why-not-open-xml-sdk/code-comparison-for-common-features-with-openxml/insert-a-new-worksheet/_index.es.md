@@ -1,5 +1,5 @@
 ﻿---
-title: Insertar una nueva hoja de cálculo
+title: Insertar una nueva hoja de trabajo
 type: docs
 weight: 70
 url: /es/net/insert-a-new-worksheet/

@@ -32,7 +32,7 @@ El siguiente ejemplo usa el archivo de Excel Microsoft que creamos en el ejemplo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-ManipulatingTextBoxControls-1.cs" >}}
 
-## **Adición de un control de casilla de verificación a una hoja de trabajo**
+## **Adición de un control de casilla de verificación a una hoja de cálculo**
 
 Las casillas de verificación son útiles si desea proporcionar una forma para que un usuario elija entre dos opciones, como verdadero o falso; si o no. Aspose.Cells le permite usar casillas de verificación en las hojas de trabajo. Por ejemplo, es posible que haya desarrollado una hoja de trabajo de proyección financiera en la que puede dar cuenta de una adquisición en particular o no. En este caso, es posible que desee colocar una casilla de verificación en la parte superior de la hoja de trabajo. Luego puede vincular el estado de esta casilla de verificación a otra celda, de modo que si la casilla de verificación está seleccionada, el valor de la celda es Verdadero; si no se selecciona, el valor de la celda es Falso.
 
@@ -65,7 +65,7 @@ Un botón de radio, o un botón de opción, es un control hecho de una caja redo
 
 ### **Usando Microsoft Excel**
 
-Para colocar un control Botón de radio en su hoja de cálculo, siga estos pasos:
+Para colocar un control Botón de radio en su hoja de trabajo, siga estos pasos:
 
 1.  Asegúrate que**formularios** se muestra la barra de herramientas.
 1.  Haga clic en el**Botón de opción** herramienta.
@@ -76,10 +76,10 @@ Para colocar un control Botón de radio en su hoja de cálculo, siga estos pasos
 
 ### **Usando Aspose.Cells**
 
-[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**Agregar botón de radio**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton) , que se utiliza para agregar un control de botón de radio a una hoja de trabajo. El método devuelve un[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) objeto. La clase[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) representa un botón de opción. Tiene algunos miembros importantes:
+[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**Agregar botón de radio**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton) , que se utiliza para agregar un control de botón de opción a una hoja de cálculo. El método devuelve un[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) objeto. La clase[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) representa un botón de opción. Tiene algunos miembros importantes:
 
--  los[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) La propiedad especifica una celda que está vinculada al botón de radio.
--  los[**Texto**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)La propiedad especifica la cadena de texto asociada con el botón de radio. Es la etiqueta del botón de opción.
+-  los[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) La propiedad especifica una celda que está vinculada al botón de opción.
+-  los[**Texto**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)La propiedad especifica la cadena de texto asociada con el botón de opción. Es la etiqueta del botón de opción.
 -  los[**Está chequeado**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked) La propiedad especifica si el botón de radio está marcado o no.
 -  los[**Formato de relleno**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) La propiedad especifica el formato de relleno del botón de opción.
 -  los[**formato de línea**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) La propiedad especifica los estilos de formato de línea del botón de opción.
@@ -118,12 +118,12 @@ El siguiente ejemplo muestra cómo agregar un cuadro combinado a la hoja de cál
 
 ## **Adición de control de etiquetas a una hoja de trabajo**
 
- Las etiquetas son un medio para dar a los usuarios información sobre el contenido de una hoja de cálculo. Aspose.Cells permite agregar y manipular etiquetas en una hoja de trabajo. los[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**Agregar etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) , utilizado para agregar un control de etiqueta a la hoja de trabajo. El método devuelve un[**Etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) objeto. La clase[**Etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) representa una etiqueta en la hoja de cálculo. Tiene algunos miembros importantes:
+ Las etiquetas son un medio para dar a los usuarios información sobre el contenido de una hoja de cálculo. Aspose.Cells permite agregar y manipular etiquetas en una hoja de trabajo. los[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**Agregar etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) , utilizado para agregar un control de etiqueta a la hoja de cálculo. El método devuelve un[**Etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) objeto. La clase[**Etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) representa una etiqueta en la hoja de cálculo. Tiene algunos miembros importantes:
 
 -  los[**Texto**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) El método especifica la cadena de título de una etiqueta.
 -  los[**Colocación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) método especifica el[**Tipo de ubicación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), la forma en que la etiqueta se adjunta a las celdas de la hoja de cálculo.
 
-El siguiente ejemplo muestra cómo agregar una etiqueta a la hoja de cálculo.
+El siguiente ejemplo muestra cómo agregar una etiqueta a la hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLabelControl-1.cs" >}}
 
@@ -151,7 +151,7 @@ Para colocar un control de cuadro de lista en una hoja de cálculo:
 -  los[**SelectionType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype)El método especifica el modo de selección del cuadro de lista.
 -  los[**Sombra**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow) El método indica si el cuadro de lista tiene sombreado 3D.
 
-El siguiente ejemplo muestra cómo agregar un cuadro de lista a la hoja de cálculo.
+El siguiente ejemplo muestra cómo agregar un cuadro de lista a la hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingListBoxControl-1.cs" >}}
 
@@ -161,7 +161,7 @@ Los botones son útiles para realizar algunas acciones. A veces, es útil asigna
 
 ### **Usando Microsoft Excel**
 
-Para colocar un control de botón en su hoja de trabajo:
+Para colocar un control de botón en su hoja de cálculo:
 
 1.  Asegúrate que**formularios** se muestra la barra de herramientas.
 1.  Haga clic en el**Botón** herramienta.
@@ -171,14 +171,14 @@ Para colocar un control de botón en su hoja de trabajo:
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**AñadirBotón**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton) , utilizado para agregar un control de botón a la hoja de cálculo. El método devuelve un[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) objeto. La clase[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) representa un botón. Tiene algunos miembros importantes:
+ los[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**AñadirBotón**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton) , utilizado para agregar un control de botón a la hoja de trabajo. El método devuelve un[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) objeto. La clase[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) representa un botón. Tiene algunos miembros importantes:
 
 -  los[**Texto**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) propiedad especifica el título del botón.
 -  los[**Fuente**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) La propiedad especifica los atributos de fuente para la etiqueta del control de botón.
 -  los[**Colocación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) propiedad especifica el[**Tipo de ubicación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), la forma en que el botón se adjunta a las celdas de la hoja de cálculo.
 -  los[**Agregar hipervínculo**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) La propiedad agrega un hipervínculo para el control de botón. Al hacer clic en el botón se navegará a la URL relacionada.
 
-El siguiente ejemplo muestra cómo agregar un botón a la hoja de cálculo.
+El siguiente ejemplo muestra cómo agregar un botón a la hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingButtonControl-1.cs" >}}
 
@@ -228,7 +228,7 @@ Aspose.Cells le permite dibujar formas rectangulares en sus hojas de trabajo. Pu
  los[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**AñadirRectángulo**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle) , que se utiliza para agregar una forma de rectángulo a una hoja de cálculo. El método vuelve[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) objeto. La clase[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) representa un rectángulo. Tiene algunos miembros importantes:
 
 -  los[**formato de línea**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) La propiedad especifica los atributos de formato de línea de un rectángulo.
--  los[**Colocación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) propiedad especifica el[**Tipo de ubicación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), la forma en que el rectángulo se une a las celdas de la hoja de trabajo.
+-  los[**Colocación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) propiedad especifica el[**Tipo de ubicación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), la forma en que el rectángulo se une a las celdas de la hoja de cálculo.
 -  los[**Formato de relleno**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) La propiedad especifica los estilos de formato de relleno de un rectángulo.
 
 El siguiente ejemplo muestra cómo agregar un rectángulo a la hoja de trabajo.
@@ -249,7 +249,7 @@ Aspose.Cells le permite dibujar formas de arco en sus hojas de trabajo. Puede cr
  los[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) clase proporciona un método llamado[**AgregarArco**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc) , que se utiliza para agregar una forma de arco a una hoja de trabajo. El método devuelve un[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) objeto. La clase[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) representa un arco. Tiene algunos miembros importantes:
 
 -  los[**formato de línea**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) La propiedad especifica los atributos de formato de línea de una forma de arco.
--  los[**Colocación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) propiedad especifica el[**Tipo de ubicación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), la forma en que el arco se une a las celdas de la hoja de cálculo.
+-  los[**Colocación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) propiedad especifica el[**Tipo de ubicación**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), la forma en que el arco se une a las celdas de la hoja de trabajo.
 -  los[**Formato de relleno**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)La propiedad especifica los estilos de formato de relleno de la forma.
 -  los[**FilaInferiorDerecha**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) La propiedad especifica el índice de fila de la esquina inferior derecha.
 -  los[**Columna inferior derecha**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) La propiedad especifica el índice de la columna de la esquina inferior derecha.
@@ -280,7 +280,7 @@ Aspose.Cells le permite dibujar formas ovaladas en hojas de trabajo. Cree formas
 -  los[**FilaInferiorDerecha**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) La propiedad especifica el índice de fila de la esquina inferior derecha.
 -  los[**Columna inferior derecha**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) La propiedad especifica el índice de la columna de la esquina inferior derecha.
 
-El siguiente ejemplo muestra cómo agregar formas ovaladas a la hoja de trabajo. El ejemplo crea dos formas ovaladas: una es un óvalo relleno y la otra es un círculo simple.
+El siguiente ejemplo muestra cómo agregar formas ovaladas a la hoja de cálculo. El ejemplo crea dos formas ovaladas: una es un óvalo relleno y la otra es un círculo simple.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingOvalControl-1.cs" >}}
 
@@ -310,7 +310,7 @@ Para colocar un control de cuadro de número en su hoja de cálculo:
 -  los[**Sombra**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/shadow) La propiedad indica si el cuadro de número tiene sombreado 3D.
 -  los[**Valor actual**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/currentvalue) La propiedad especifica el valor actual del cuadro de número.
 
-El siguiente ejemplo muestra cómo agregar un cuadro de número a la hoja de trabajo.
+El siguiente ejemplo muestra cómo agregar un cuadro de número a la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingSpinnerControl-1.cs" >}}
 
@@ -372,7 +372,7 @@ Para colocar un control de cuadro de grupo en su hoja de trabajo y colocar contr
 -  los[**Texto**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) La propiedad especifica la cadena de título del cuadro de grupo.
 -  los[**Sombra**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox/properties/shadow) La propiedad indica si el cuadro de grupo tiene sombreado 3D.
 
-El siguiente ejemplo muestra cómo agregar un cuadro de grupo y agrupar los controles en la hoja de trabajo.
+El siguiente ejemplo muestra cómo agregar un cuadro de grupo y agrupar los controles en la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingGroupBoxControl-1.cs" >}}
 

@@ -50,7 +50,7 @@ url: /it/net/aspose-cells-for-net-7-3-2-release-notes/
 
 - L'intervallo di fogli nella formula è stato modificato dopo che i fogli sono stati riordinati
 - Altezza della riga errata utilizzando AutoFitRows con l'opzione IsTextWrapped attivata
-- Proteggi cartella di lavoro con ProtectionType.Windows
+- Proteggi la cartella di lavoro con ProtectionType.Windows
 - Problema con l'impostazione dello zoom nell'anteprima dell'interruzione di pagina
 - Tabella: funzione Converti in intervallo
 - File danneggiato con la nuova versione Aspose.Cells

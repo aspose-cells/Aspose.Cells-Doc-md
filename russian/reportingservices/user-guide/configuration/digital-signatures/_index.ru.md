@@ -4,9 +4,9 @@ type: docs
 weight: 50
 url: /ru/reportingservices/digital-signatures/
 ---
- Aspose.Cells для служб Reporting Services поддерживает цифровые подписи при экспорте Microsoft файлов Excel 2007 или файлов ODS. У нас есть некоторая информация о конфигурации цифровых подписей, которую можно установить в**Aspose.Cells.ReportingServices.xml** файл.
+ Aspose.Cells for Reporting Services поддерживает цифровые подписи при экспорте Microsoft файлов Excel 2007 или файлов ODS. У нас есть некоторая информация о конфигурации цифровых подписей, которую можно установить в**Aspose.Cells.ReportingServices.xml** файл.
 
- Когда значение DigitalSignature равно**выключенный**, Aspose.Cells для Reporting Services отключает цифровые подписи.
+ Когда значение DigitalSignature равно**выключенный**, Aspose.Cells for Reporting Services отключает цифровые подписи.
 
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ url: /ru/reportingservices/digital-signatures/
 
 {{< /highlight >}}
 
- Когда значение DigitalSignature равно**на**, Aspose.Cells для Reporting Services включает цифровые подписи.
+ Когда значение DigitalSignature равно**на**, Aspose.Cells for Reporting Services включает цифровые подписи.
 
 {{< highlight "java" >}}
 

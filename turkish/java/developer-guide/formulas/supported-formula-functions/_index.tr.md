@@ -343,7 +343,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 ###### **Ö**
 |**İşlev**|**Özet**|
 |:- |:- |
-|Ekim2BİN|
+|Ekim2BIN|
 |EKİM2DEC|
 |Ekim2HEX|
 |GARİP|

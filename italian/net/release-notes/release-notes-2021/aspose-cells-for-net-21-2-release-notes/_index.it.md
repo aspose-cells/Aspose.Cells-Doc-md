@@ -13,7 +13,7 @@ url: /it/net/aspose-cells-for-net-21-2-release-notes/
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-42427|Supporta la percentuale del formato di visualizzazione della colonna per la tabella pivot|Nuova caratteristica|
-|CELLSNET-44288|Utilizzo di LightCells API con file XLSB|Nuova caratteristica|
+|CELLSNET-44288|Utilizzo dell'API LightCells con file XLSB|Nuova caratteristica|
 |CELLSNET-47817|Aggiorna l'origine dati quando modifichi il grafico a cascata in Istogramma.|Aumento|
 |CELLSNETCORE-99|Supporta l'aggiornamento dell'icona di visualizzazione per oggetti jpg, zip, msg incorporati.|Aumento|
 |CELLSNET-47827|Aspetta CalcolaFormula|Prestazione|
@@ -46,9 +46,9 @@ url: /it/net/aspose-cells-for-net-21-2-release-notes/
 |
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento di Cells.DeleteBlankRows()/Cells.DeleteBlankRows(DeleteOptions)**
 

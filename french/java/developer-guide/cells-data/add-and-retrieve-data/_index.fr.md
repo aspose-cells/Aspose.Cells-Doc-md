@@ -6,7 +6,7 @@ url: /fr/java/add-and-retrieve-data/
 ---
 {{% alert color="primary" %}} 
 
- Dans[Accéder au Cells d'une feuille de travail](/cells/fr/java/accessing-cells-of-a-worksheet/)nous avons discuté des approches de base pour accéder aux cellules d'une feuille de calcul. Cet article utilise l'une de ces approches pour ajouter différents types de données aux cellules.
+ Dans[Accéder au Cells d'une feuille de calcul](/cells/fr/java/accessing-cells-of-a-worksheet/), nous avons discuté des approches de base pour accéder aux cellules d'une feuille de calcul. Cet article utilise l'une de ces approches pour ajouter différents types de données aux cellules.
 
 {{% /alert %}} 
 ## **Ajout de données au Cells**

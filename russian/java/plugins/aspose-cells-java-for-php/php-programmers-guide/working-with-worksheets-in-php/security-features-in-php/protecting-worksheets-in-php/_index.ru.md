@@ -5,7 +5,7 @@ weight: 10
 url: /ru/java/protecting-worksheets-in-php/
 ---
 ## **Aspose.Cells - Защита рабочих листов**
- Чтобы защитить рабочий лист с помощью**Aspose.Cells Java для PHP** , вызов**Protect_worksheet** метод**защита** модуль.
+ Чтобы защитить рабочий лист с помощью**Aspose.Cells Java for PHP** , вызов**Protect_worksheet** метод**защита** модуль.
 
 **PHP-код**
 

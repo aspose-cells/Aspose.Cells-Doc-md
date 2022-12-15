@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /sv/java/inserting-and-deleting-rows-and-columns-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Använd Python Excel API för att skapa Excel-kalkylblad i Python. Infoga eller ta bort rader från XLSX eller XLS i dina Python-applikationer utan MS Office.
+description: Använd Python Excel API för att skapa Excel-kalkylblad i Python. Infoga eller ta bort rader från XLSX eller XLS i dina Python-program utan MS Office.
 ---
 ## **Skapa Excel-kalkylblad i Python - Hantera rader/kolumner**
 ### **Infoga en rad**
@@ -15,7 +15,7 @@ Infoga en rad på valfri plats genom att anropa metoden insertRows i samlingen C
 - Sätt in raden
 - Spara som XLS- eller XLSX-arbetsbok
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -46,7 +46,7 @@ Om du vill infoga flera rader i kalkylbladet anropar du metoden insertRows i sam
 - Radindex, indexet för raden varifrån de nya raderna kommer att infogas.
 - Antal rader, totalt antal rader som behöver infogas.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -78,7 +78,7 @@ För att ta bort en rad på valfri plats, anropa metoden deleteRows för samling
 - Radindex, indexet för raden där raderna kommer att tas bort.
 - Antal rader, totalt antal rader som behöver raderas.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -109,7 +109,7 @@ Om du vill ta bort flera rader från ett kalkylblad anropar du metoden deleteRow
 - Radindex, indexet för raden där raderna kommer att tas bort.
 - Antal rader, totalt antal rader som behöver raderas.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -141,7 +141,7 @@ Utvecklare kan också infoga en kolumn i kalkylbladet var som helst genom att an
 - Kolumnindex, indexet för den kolumn varifrån kolumnen kommer att infogas
 - Antal kolumner, totalt antal kolumner som behöver infogas
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -174,7 +174,7 @@ För att ta bort en kolumn från kalkylbladet på valfri plats, anropa metoden d
 - Antal kolumner, totalt antal kolumner som behöver raderas.
 - Skift celler, boolesk parameter för att indikera om cellerna ska flyttas åt vänster efter radering.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 17.7 Release Notes
+title: Aspose.Cells for Java 17.7 Release Notes
 type: docs
 weight: 60
 url: /sv/java/aspose-cells-for-java-17-7-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 17.7](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.7/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 17.7](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.7/).
 
 {{% /alert %}} 
 
@@ -28,8 +28,8 @@ url: /sv/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42340|Undantag i tråden "Thread-2" java.lang.OutOfMemoryError: GC-overheadgränsen har överskridits|Undantag|
 |CELLSJAVA-42334|Undantaget "Error for ZipFile" visas när du använder OutputFileStream|Undantag|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: Ogiltigt lösenord när Excel-filen öppnas|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till metoderna GlobalizationSettings.GetBooleanValueString()/GetErrorValueString()**
 Hämtar anpassat visningssträngvärde för cellens booleska värde och felvärde vid formatering/rendering.
 ### **Tar bort föråldrad ValidationCollection.Add() metod**
@@ -68,7 +68,7 @@ Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 - [Läs Numbers-kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Ställ in egenskapen DefaultFont för PdfSaveOptions och ImageOrPrintOptions att ha prioritet](/cells/sv/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Importera data från Microsoft Access Database ResultSet Object till arbetsbladet](/cells/sv/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
-- [Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementera fel och booleskt värde på ryska eller något annat språk](/cells/sv/java/implement-errors-and-boolean-value-in-russian-or-any-other-language/)
 - [Bestäm om arbetsbladets pappersstorlek är Automatisk](/cells/sv/java/determine-if-paper-size-of-worksheet-is-automatic/)
 

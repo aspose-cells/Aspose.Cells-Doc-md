@@ -5,7 +5,7 @@ weight: 10
 url: /ar/java/opening-files-in-ruby/
 ---
 ## **Aspose.Cells - طرق بسيطة لفتح ملفات Excel**
-### **فتح طريق**
+### **فتح من خلال المسار**
 ما عليك سوى فتح ملف Microsoft Excel بالرجوع إلى مسار الملف
 
 **كود روبي**

@@ -12,7 +12,7 @@ description: تحقق من كلمة مرور ملفات Excel المشفرة (xl
 ## **تحقق من كلمة مرور الملف المشفر**
 
  للتحقق من كلمة المرور الخاصة بالملف المشفر ، يوفر Aspose.Cells for .NET الامتداد[**اكد كلمة المرور**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) طريقة. تقبل هذه الطرق معلمتين ، دفق الملف وكلمة المرور التي يجب التحقق منها.
-يوضح مقتطف الشفرة التالي استخدام ملف[**اكد كلمة المرور**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) طريقة للتحقق مما إذا كانت كلمة المرور المقدمة صالحة أم لا.
+ يوضح مقتطف الشفرة التالي استخدام ملف[**اكد كلمة المرور**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) طريقة للتحقق مما إذا كانت كلمة المرور المقدمة صالحة أم لا.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 

@@ -6,7 +6,7 @@ url: /it/net/hypertext-markup-language-format/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells può essere utilizzato per salvare le cartelle di lavoro di Excel in formato HTML. Le cartelle di lavoro HTML esportate sono Microsoft orientate a Excel, ovvero sono simili a quelle esportate da Microsoft Excel. Puoi anche creare cartelle di lavoro da HTML, ma questo HTML dovrebbe essere orientato a Excel.
+Aspose.Cells può essere utilizzato per salvare le cartelle di lavoro di Excel in formato HTML. Le cartelle di lavoro HTML esportate sono orientate a Microsoft Excel, ovvero sono simili a quelle esportate da Microsoft Excel. Puoi anche creare cartelle di lavoro da HTML, ma questo HTML dovrebbe essere orientato a Excel.
 
 {{% /alert %}} 
 ## **HTML in Aspose.Cells**

@@ -5,7 +5,7 @@ weight: 20
 url: /fr/net/image-markers/
 ---
 Les marqueurs intelligents Aspose.Cells prennent également en charge les marqueurs d'image. Cette section vous montre comment insérer des images à l'aide de marqueurs intelligents.
-## **Paramètres d'image**
+## **Paramètres d'images**
 Paramètres de marqueurs intelligents pour la gestion des images.
 
 - **Image : Ajuster à la cellule** - Ajustez automatiquement l'image à la hauteur de ligne et à la largeur de colonne de la cellule.

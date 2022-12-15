@@ -4,7 +4,7 @@ linktitle: Formatta le celle
 type: docs
 weight: 120
 url: /it/net/cells-formatting/
-description: Impostare il formato numerico, il bordo e il colore di sfondo per i file Excel su .NET Framework, .NET Core, Mono o Xamarin Platforms.
+description: Imposta il formato numerico, il bordo e il colore di sfondo per i file Excel su piattaforme .NET Framework, .NET Core, Mono o Xamarin.
 ---
 ## **introduzione**
 
@@ -37,9 +37,9 @@ Questo approccio può migliorare notevolmente l'efficienza delle tue applicazion
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingStyleObject-1.cs" >}}
 
-### **Utilizzando Microsoft Excel 2007 Stili predefiniti**
+### **Utilizzo degli stili predefiniti di Microsoft Excel 2007**
 
-Se è necessario applicare stili di formattazione diversi per Microsoft Excel 2007, applicare gli stili utilizzando Aspose.Cells API. Di seguito viene fornito un esempio per dimostrare questo approccio per applicare uno stile predefinito su una cella.
+Se devi applicare stili di formattazione diversi per Microsoft Excel 2007, applica gli stili utilizzando l'API Aspose.Cells. Di seguito viene fornito un esempio per dimostrare questo approccio per applicare uno stile predefinito su una cella.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingExcelPredefinedStyles-1.cs" >}}
 
@@ -53,9 +53,9 @@ Aspose.Cells supporta anche questa funzione. Questo argomento spiega come utiliz
 
 ### **Formattazione dei caratteri selezionati**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contiene il[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione. Ogni elemento del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contiene il[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione. Ogni elemento del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
 
- Il[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)la classe fornisce il[**Personaggi**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)metodo che accetta i seguenti parametri per selezionare un intervallo di caratteri all'interno di una cella:
+ Il[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) la classe fornisce il[**Personaggi**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)metodo che accetta i seguenti parametri per selezionare un intervallo di caratteri all'interno di una cella:
 
 - **Inizio indice**, l'indice del carattere da cui inizia la selezione.
 - **Numero di caratteri**, il numero di caratteri da selezionare.
@@ -77,7 +77,7 @@ Per risolvere questo problema, Aspose.Cells fornisce un modo semplice e veloce d
 
 ### **Formattazione di righe e colonne**
 
- Aspose.Cells mette a disposizione un corso, il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione. Il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)la raccolta fornisce a[**Righe**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows)collezione.
+ Aspose.Cells mette a disposizione un corso, il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collezione. Il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)la raccolta fornisce a[**Righe**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows)collezione.
 
 ### **Formattazione di una riga**
 

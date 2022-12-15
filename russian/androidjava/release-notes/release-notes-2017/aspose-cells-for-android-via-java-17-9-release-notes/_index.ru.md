@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Android через Java 17.9 Примечания к выпуску
+title: Aspose.Cells for Android via Java 17.9 Примечания к выпуску
 type: docs
 weight: 20
 url: /ru/java/aspose-cells-for-android-via-java-17-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску для[Aspose.Cells для Android через Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
+Эта страница содержит примечания к выпуску для[Aspose.Cells for Android via Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
 
 {{% /alert %}} 
 
@@ -141,7 +141,7 @@ url: /ru/java/aspose-cells-for-android-via-java-17-9-release-notes/
 ### **Добавляет свойство PdfSaveOptions.GridlineType.**
 Получает или задает тип линии сетки.
 ### **Добавляет методы Name.GetRange(bool) и Name.GetRange(bool).**
-В основном для простых объектов Name, таких как именованные диапазоны с абсолютными ссылками, ссылку имени не нужно вычислять повторно. Таким образом, GetRange(false)/GetRange(false) не будет пересчитывать объект Name при получении соответствующего диапазона (диапазонов), и поэтому производительность может быть значительно улучшена, если эти методы вызываются повторно.
+В основном для простых объектов Name, таких как именованные диапазоны с абсолютными ссылками, ссылку имени не нужно вычислять повторно. Таким образом, GetRange(false)/GetRange(false) не будет пересчитывать объект Name при получении соответствующего диапазона (диапазонов), поэтому производительность может быть значительно улучшена, если эти методы вызываются повторно.
 ### **Добавляет свойство PdfBookmarkEntry.DestinationName.**
 Получает или задает имя места назначения. Если установлено имя пункта назначения, пункт назначения будет определен как именованный пункт назначения с этим именем.
 ### **Добавляет метод DataSorter.AddKey()**
@@ -161,6 +161,6 @@ url: /ru/java/aspose-cells-for-android-via-java-17-9-release-notes/
 
 {{% alert color="primary" %}} 
 
-Поскольку кодовая база Aspose.Cells для Android через Java совпадает с кодом соответствующих версий .NET и Java, большинство изменений, улучшений и исправлений включены в Aspose.Cells for .NET v17.6, Aspose.Cells for .NET v173.8, 0716 07173481 173.8, 807.8 8, Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.6, Aspose.Cells for .NET v17.7, Aspose.Cells for .NET v17.8, Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
 
 {{% /alert %}}

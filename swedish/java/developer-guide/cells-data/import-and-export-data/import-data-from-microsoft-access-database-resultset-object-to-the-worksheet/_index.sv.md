@@ -18,8 +18,8 @@ Aspose.Cells kan importera data till kalkylblad från ResultSet-objekt som kan s
 För mer hjälp, besök denna Stack Overflow-länk.
 
 - [Lägga till JAR manuellt i ditt projekt](https://stackoverflow.com/questions/21955256/manipulating-an-access-database-from-java-without-odbc/21955257#21955257)
-## **Exempel på Microsoft Access 2016-databasfil som används i exempelkod**
-Följande exempel på Microsoft Access 2016-databasfil användes i exempelkoden. Du kan använda vilken databasfil som helst eller skapa din egen.
+## **Exempel Microsoft Åtkomst till 2016 databasfil som används i exempelkoden**
+Följande exempel Microsoft Access 2016 Database File användes i exempelkoden. Du kan använda vilken databasfil som helst eller skapa din egen.
 
 - [Students.acdb](48496712.accdb)
 

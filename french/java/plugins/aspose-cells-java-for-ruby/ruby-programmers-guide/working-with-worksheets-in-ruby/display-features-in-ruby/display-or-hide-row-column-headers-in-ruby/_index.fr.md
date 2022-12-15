@@ -6,7 +6,7 @@ url: /fr/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells - Afficher ou masquer les en-têtes de colonne de ligne**
 ### **Masquer les en-têtes de ligne/colonne**
- Pour masquer les en-têtes de ligne/colonne à l'aide**Aspose.Cells Java pour rubis** , appel**AfficherMasquerRowColumnHeaders** module.
+Pour masquer les en-têtes de ligne/colonne à l'aide**Aspose.Cells Java pour rubis** , appel**AfficherMasquerRowColumnHeaders** module.
 
 **Code rubis**
 

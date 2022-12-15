@@ -24,7 +24,7 @@ url: /it/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28405 SheetRender.ToImage() si blocca senza eccezioni o errori
 ### **Eccezioni**
- 28780 SheetRender API restituisce "L'identificatore di formato non è valido." eccezione
+ 28780 L'API SheetRender genera "L'identificatore di formato non è valido." eccezione
 
  28961 Riferimento oggetto Errore durante la conversione in PDF
 
@@ -72,7 +72,7 @@ url: /it/net/aspose-cells-for-net-6-0-1-release-notes/
 
 29058 Problema di rendering
 
- 28929 Ottenere bitmap o formato carta da SheetRender API bug
+ 28929 Bug relativo all'ottenimento di bitmap o formato carta da SheetRender API
 
  24912 Il salvataggio di XLSB con i filtri di dati aggiunge un intervallo denominato non valido
 

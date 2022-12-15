@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 17.5 Note di rilascio
+title: Aspose.Cells for Android via Java 17.5 Note di rilascio
 type: docs
 weight: 30
 url: /it/java/aspose-cells-for-android-via-java-17-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
+Questa pagina contiene le note di rilascio per[Aspose.Cells for Android via Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
 
 {{% /alert %}} 
 
@@ -34,7 +34,7 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite 
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines non sembra funzionare per un particolare foglio di calcolo|Insetto|
 |CELLSJAVA-42131|Il ricalcolo di un numero di formule utilizzando le API Aspose Cells restituisce "#NUM!" errore|Insetto|
 |CELLSJAVA-42124|Problema di formato della data durante l'importazione di CSV con ICustomParser|Insetto|
-|CELLSJAVA-42118|Name.getRanges() API produce risultati imprevisti|Insetto|
+|CELLSJAVA-42118|L'API Name.getRanges() produce risultati imprevisti|Insetto|
 |CELLSJAVA-42117|Impossibile accedere alla variabile di istanza m_LoadDataFilterOptions durante l'override del metodo startSheet della classe LoadFilter|Insetto|
 |CELLSJAVA-41882|Cell valore stringa e problema di arrotondamento basato su diverse versioni JDK|Insetto|
 |CELLSJAVA-42142|I caratteri di controllo da destra a sinistra e da sinistra a destra non vengono visualizzati correttamente in PDF quando la conversione viene eseguita su Linux|Insetto|
@@ -49,14 +49,14 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite 
 |CELLSJAVA-42078|Le etichette dei grafici non vengono visualizzate/renderizzate allo stesso modo (come per il file Excel originale) nel file PDF di output|Insetto|
 |CELLSJAVA-42076|L'angolo delle etichette dell'asse x non è corretto nel PDF del grafico|Insetto|
 |CELLSJAVA-42065|Rendering errato dei grafici a barre durante il rendering del foglio di calcolo in HTML|Insetto|
-|CELLSJAVA-42152|L'impostazione della formula che fa riferimento alla cartella di lavoro esterna crea una formula 3d|Insetto|
+|CELLSJAVA-42152|L'impostazione della formula che fa riferimento alla cartella di lavoro esterna crea una formula 3D|Insetto|
 |CELLSJAVA-42146|Errore di contenuto illeggibile in Excel 2007 dopo aver salvato nuovamente un foglio di calcolo|Insetto|
 |CELLSJAVA-42121|L'espressione di formato condizionale cambia all'eliminazione delle righe|Insetto|
 |CELLSJAVA-42114|Cell.getFormula() restituisce una formula scomposta per una cella|Insetto|
 |CELLSJAVA-42112|Il file di output viene danneggiato dopo l'esecuzione del metodo DataLabels.setPosition()|Insetto|
 |CELLSJAVA-42108|L'ordine di priorità del formato condizionale cambia nel metodo Cells.deleteRows()|Insetto|
 |CELLSJAVA-42069|Il modulo Vba viene perso durante il salvataggio di un file XLSM su Linux|Insetto|
-|CELLSJAVA-42025|API aggiunge ulteriori apostrofi alla formula modificata|Insetto|
+|CELLSJAVA-42025|L'API aggiunge ulteriori apostrofi alla formula modificata|Insetto|
 |CELLSJAVA-41984|Formula dinamica nel foglio di lavoro del designer utilizzando {-1} {-2} restituisce Errore di formula non valida|Insetto|
 |CELLSJAVA-41739|La trasparenza delle forme viene reimpostata su 0 durante la conversione da XLS a XLSB|Insetto|
 |CELLSJAVA-42165|Perdita di dati durante la copia di un intervallo con righe e colonne nascoste in una nuova cartella di lavoro e la conversione in HTML|Insetto|
@@ -72,7 +72,7 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite 
 |CELLSJAVA-42189|Grafico a cascata, quando viene chiamato calcola (), i colori delle serie del grafico vengono ripristinati|Insetto|
 |CELLSJAVA-42160|Il bug della scala logaritmica in Excel causa il blocco di Aspose.Cells|Insetto|
 |CELLSJAVA-42158|I valori associati all'asse verticale sono stati modificati durante il rendering del foglio di calcolo in PDF|Insetto|
-|CELLSJAVA-42157|valori del limite dell'asse orizzontale e verticale sono stati modificati durante il rendering del grafico in EMF|Insetto|
+|CELLSJAVA-42157|I valori del limite dell'asse orizzontale e verticale sono stati modificati durante il rendering del grafico in EMF|Insetto|
 |CELLSJAVA-42133|Ebraico - Manca il carattere spazio nel PDF|Insetto|
 |CELLSJAVA-42107|Il grafico viene soppresso verticalmente durante il rendering dell'immagine|Insetto|
 |CELLSJAVA-42105|Mancano le serie DataTable durante l'esportazione del grafico nell'immagine|Insetto|
@@ -134,11 +134,11 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite 
 |CELLSJAVA-42224|Problema con l'ordinamento dei commenti|Insetto|
 |CELLSJAVA-42221|Regressione critica con controlli personalizzati|Insetto|
 |CELLSJAVA-42220|Problema con l'impostazione della visualizzazione layout di pagina per i file XLSB|Insetto|
-|CELLSJAVA-42217|Dopo aver effettuato l'accesso a VbaModule tramite Aspose API, il file Excel risultante ha interrotto il progetto vba|Insetto|
+|CELLSJAVA-42217|Dopo aver effettuato l'accesso a VbaModule tramite l'API Aspose, il file Excel risultante ha un progetto vba interrotto|Insetto|
 |CELLSJAVA-42213|Il carattere sta cambiando involontariamente le sue dimensioni nel commento con un CR incorporato in esso|Insetto|
 |CELLSJAVA-42283|NullPointerException si verifica quando il filtro esiste al di fuori dell'intervallo denominato|Insetto|
 |CELLSJAVA-42282|La copia di un foglio di lavoro mostra le righe filtrate nel file HTML di output|Insetto|
-|CELLSJAVA-42276|I contenuti sono mostrati in modo diverso (manca del testo) nei browser diversi da IE (ad es. Google chrome) - Rendering da Excel a HTML|Insetto|
+|CELLSJAVA-42276|I contenuti sono mostrati in modo diverso (manca del testo) nei browser diversi da IE (ad es. Google Chrome) - Rendering da Excel a HTML|Insetto|
 |CELLSJAVA-42247|La formattazione condizionale viene persa quando si aggiorna la tabella pivot nel foglio di calcolo|Insetto|
 |CELLSJAVA-42257|Lo stile di formattazione condizionale non funziona|Insetto|
 |CELLSJAVA-42202|La formula di Excel non funziona correttamente: viene visualizzata come 6 anziché 0|Insetto|
@@ -167,8 +167,8 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells per Android tramite 
 |CELLSJAVA-42268|Eccezione: "java.lang.NullPointerException" durante il rendering di un grafico in un'immagine|Eccezione|
 |CELLSJAVA-42278|Eccezione: "java.lang.IndexOutOfBoundsException: Index: 12, Size: 12" durante il salvataggio nel formato di file HTML|Eccezione|
 |CELLSJAVA-42274|Eccezione: "java.lang.StringIndexOutOfBoundsException: Indice stringa fuori intervallo: 0" durante il caricamento di un file XLSX|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 ### **Aggiunge il setter per la proprietà LoadFilter.LoadDataFilterOptions per sostituire la variabile m_LoadDataFilterOptions**
 L'utente può modificare la proprietà LoadDataFilterOptions nell'implementazione di LoadFilter per modificare il comportamento del caricamento della cartella di lavoro.
 ### **Aggiunge la proprietà CellsHelper.SignificantDigits.**
@@ -245,6 +245,6 @@ Rappresenta il formato PDF compatibile con PDFA-1a.
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.1.0, Aspose.Cells for .NET v17.2.0, Aspose.Cells for .NET v17. 3.0, Aspose.Cells for .NET v17.4.0, Aspose.Cells for .NET v17.5, Aspose.Cells for Java v17.1.0, Aspose.Cells for Java v17.2.0, Aspose.Cells for Java v17.3.0, Aspose.Cells for Java v17.4.0 and Aspose.Cells for Java v17.5 are also included in this Aspose.Cells for Android tramite Java v17.5.
+Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni sono incluse in Aspose.Cells for .NET v17.1.0, Aspose.Cells for .NET v17.2.0, 0713 3713616188 , Aspose.Cells for .NET v17.4.0, Aspose.Cells for .NET v17.5, Aspose.Cells for Java v17.1.0, Aspose.Cells for Java v17.2.0, Aspose.Cells for Java v17.3.0, Aspose.Cells for Java v17.4.0 and Aspose.Cells for Java v17.5 are also included in this Aspose.Cells for Android via Java versione 17.5.
 
 {{% /alert %}}

@@ -8,7 +8,7 @@ url: /sv/net/using-icustomfunction-feature/
 
 Den här artikeln ger en detaljerad förståelse för hur du använder ICustomFunction-funktionen för att implementera anpassade funktioner med Aspose.Cells API:er.
 
-ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som alla andra standardfunktioner i Microsoft Excel.
+ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standard Microsoft Excel-funktion som helst.
 
 {{% /alert %}} 
 ## **Skapa och utvärdera en användardefinierad funktion**

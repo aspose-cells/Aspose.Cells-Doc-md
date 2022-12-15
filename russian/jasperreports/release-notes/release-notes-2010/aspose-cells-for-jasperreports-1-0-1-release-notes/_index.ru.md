@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells для примечаний к выпуску JasperReports 1.0.1
+title: Aspose.Cells for JasperReports 1.0.1 Примечания к выпуску
 type: docs
 weight: 10
 url: /ru/jasperreports/aspose-cells-for-jasperreports-1-0-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для JasperReports 1.0.1](https://downloads.aspose.com/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-1.0.1/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for JasperReports 1.0.1](https://downloads.aspose.com/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-1.0.1/)
 
 {{% /alert %}}
 
-Мы рады объявить Aspose.Cells для JasperReports 1.0.1!
+Мы рады объявить Aspose.Cells for JasperReports 1.0.1!
 
 Какие новости:
 

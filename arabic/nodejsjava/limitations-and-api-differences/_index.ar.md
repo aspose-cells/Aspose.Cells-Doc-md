@@ -4,10 +4,10 @@ type: docs
 weight: 10
 url: /ar/nodejs-java/limitations-and-api-differences/
 keywords: nodejs, excel, limitation, api, difference
-description: Aspose.Cells لـ Node.js عبر قيود Java واختلافات API
+description: Aspose.Cells for Node.js via Java القيود والاختلافات API
 ---
 ## **عام API الاختلافات**
-توضح القائمة التالية (مع نماذج مقاطع الكود) بعض الاختلافات بين Aspose.Cells for Java و Aspose.Cells لـ Node.js عبر واجهات برمجة التطبيقات Java.
+توضح القائمة التالية (مع نماذج مقاطع الكود) بعض الاختلافات بين واجهات برمجة التطبيقات (APIs) Aspose.Cells for Java و Aspose.Cells for Node.js via Java واجهات برمجة التطبيقات.
 ### **مكتبة الاستيراد (مقارنات الحزم)**
 
 **Aspose.Cells for Java**
@@ -19,7 +19,7 @@ description: Aspose.Cells لـ Node.js عبر قيود Java واختلافات A
 {{< /highlight >}}
 
 
-**Aspose.Cells لـ Node.js عبر Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ aspose.cells = require("aspose.cells");
 {{< /highlight >}}
 
 
-**Aspose.Cells لـ Node.js عبر Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -58,7 +58,7 @@ aspose.cells = require("aspose.cells");
 
 
 
-**Aspose.Cells لـ Node.js عبر Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -81,7 +81,7 @@ workbook.save(“result.xlsx”);
 
 
 
-**Aspose.Cells لـ Node.js عبر Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -110,7 +110,7 @@ aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, er
 });
 
 {{< /highlight >}}
-## **قيود أخرى لـ Aspose.Cells لـ Node.js عبر Java API مقارنة بـ Aspose.Cells for Java API**
+## **قيود أخرى من Aspose.Cells for Node.js via Java API مقارنة بـ Aspose.Cells for Java API**
 1. لا يتم دعم استيراد / تصدير البيانات من Array و ArrayList و ResultSet وما إلى ذلك.
 1. الطباعة غير مدعومة.
 

@@ -7,7 +7,7 @@ url: /ar/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document
 ## **سيناريوهات الاستخدام الممكنة**
 [ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) و[الروابط](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)نوعان من خصائص المستند المضمنة الممتدة المحددة داخل تنسيق OpenXml. الغرض من هذه الخصائص هو التالي
 ## **1) ScaleCrop**
- يشير هذا العنصر إلى وضع عرض مصغر المستند. اضبط هذا العنصر على**صحيح** لتمكين تغيير حجم مصغر المستند إلى العرض. اضبط هذا العنصر على**خاطئة** لتمكين اقتصاص مصغر المستند لإظهار الأقسام التي تناسب العرض فقط.
+ يشير هذا العنصر إلى وضع عرض مصغر المستند. اضبط هذا العنصر على**صحيح**لتمكين تغيير حجم مصغر المستند إلى العرض. اضبط هذا العنصر على**خاطئة** لتمكين اقتصاص مصغر المستند لإظهار الأقسام التي تناسب العرض فقط.
 
 يتم تحديد القيم المحتملة لهذا العنصر بواسطة نوع البيانات المنطقي W3C XML Schema.
 ## **2) LinksUpToDate**

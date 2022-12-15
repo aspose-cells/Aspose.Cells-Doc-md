@@ -8,7 +8,7 @@ description: Gestisci affettatrici di file Excel con Aspose.Cells.
 ---
 ## **Possibili scenari di utilizzo**
 
- Un'affettatrice viene utilizzata per filtrare rapidamente i dati. Può essere utilizzato per filtrare i dati sia in una tabella che in una tabella pivot. Microsoft Excel consente di creare un'affettatrice selezionando una tabella o una tabella pivot e quindi facendo clic sull'icona*Inserisci > Affettatrice*. Aspose.Cells permette anche di creare affettatrici utilizzando il[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)metodo.
+ Un'affettatrice viene utilizzata per filtrare rapidamente i dati. Può essere utilizzato per filtrare i dati sia in una tabella che in una tabella pivot. Microsoft Excel consente di creare un'affettatrice selezionando una tabella o una tabella pivot e quindi facendo clic su*Inserisci > Affettatrice*. Aspose.Cells permette anche di creare affettatrici utilizzando il[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)metodo.
 
 ## **Crea Slicer in una tabella pivot**
 

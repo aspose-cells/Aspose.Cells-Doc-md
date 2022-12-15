@@ -6,7 +6,7 @@ url: /sv/net/load-source-excel-file-without-charts/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells låter dig ladda din excel-fil utan diagram. Snälla använd[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) egendom för detta ändamål.
+ Aspose.Cells låter dig ladda din excel-fil utan diagram. Snälla använd[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) egendom för detta ändamål.
 
 {{% /alert %}}
 

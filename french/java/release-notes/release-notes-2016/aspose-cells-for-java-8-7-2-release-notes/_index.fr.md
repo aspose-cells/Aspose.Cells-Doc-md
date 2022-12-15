@@ -4,7 +4,7 @@ type: docs
 weight: 120
 url: /fr/java/aspose-cells-for-java-8-7-2-release-notes/
 ---
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |

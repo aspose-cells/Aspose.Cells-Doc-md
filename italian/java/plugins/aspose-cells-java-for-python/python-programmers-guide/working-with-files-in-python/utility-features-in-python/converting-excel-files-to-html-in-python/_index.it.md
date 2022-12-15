@@ -7,7 +7,7 @@ url: /it/java/converting-excel-files-to-html-in-python/
 ## **Aspose.Cells - Conversione file Excel in HTML**
 Per convertire Excel in HTML utilizzando Aspose.Cells for Java in Python, è sufficiente richiamare il foglio di lavoro_a_html() del modulo Converter.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

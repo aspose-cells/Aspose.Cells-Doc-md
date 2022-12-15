@@ -15,7 +15,7 @@ GridWeb 现在支持用户以百分比格式输入单元格数据，如 3%，单
 ## **以百分比格式输入 Cell GridWeb 工作表数据**
 以下示例代码将单元格 A1 GridTableItemStyle.NumberType 设置为 10，因此输入数据 3% 会自动格式化为 3.00%，如屏幕截图所示。
 
-![待办事项：图片_替代_文本](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
+![待办事项：图像_替代_文本](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
 ### **示例代码**
 
 

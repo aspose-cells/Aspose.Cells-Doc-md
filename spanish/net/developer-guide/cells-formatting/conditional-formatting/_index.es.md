@@ -15,7 +15,7 @@ Aspose.Cells admite la aplicación de formato condicional a las celdas en tiempo
 
 ## **Aplicar formato condicional**
 
-Aspose.Cells admite el formato condicional de varias formas:
+Aspose.Cells admite el formato condicional de varias maneras:
 
 - Usando la hoja de cálculo del diseñador
 - Utilizando el método de copia.

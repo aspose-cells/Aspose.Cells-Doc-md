@@ -5,7 +5,7 @@ weight: 60
 url: /ar/java/page-break-preview-in-php/
 ---
 ## **Aspose.Cells - معاينة فاصل الصفحة**
- لتعيين ورقة العمل لمعاينة فاصل الصفحة باستخدام**Aspose.Cells Java لـ PHP** ، ببساطة استدعاء**معاينة PageBreak** وحدة.
+ لتعيين ورقة العمل لمعاينة فاصل الصفحة باستخدام**Aspose.Cells Java for PHP** ، ببساطة استدعاء**معاينة PageBreak** وحدة.
 
 **كود PHP**
 
@@ -30,7 +30,7 @@ $worksheet->setPageBreakPreview(true);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**معاينة فاصل الصفحة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

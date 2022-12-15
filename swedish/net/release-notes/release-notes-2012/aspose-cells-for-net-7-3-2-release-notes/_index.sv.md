@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 7.3.2 Release Notes
+title: Aspose.Cells for .NET 7.3.2 Release Notes
 type: docs
 weight: 30
 url: /sv/net/aspose-cells-for-net-7-3-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.3.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.3.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.2/)
 
 {{% /alert %}} 
 
@@ -50,7 +50,7 @@ url: /sv/net/aspose-cells-for-net-7-3-2-release-notes/
 
 - Utbudet av ark i formeln har ändrats efter att arken har beställts om
 - Fel radhöjd med AutoFitRows med alternativet IsTextWrapped på
-- Skydda arbetsboken med ProtectionType.Windows
+- Skydda arbetsbok med ProtectionType.Windows
 - Problem med zoominställningen i förhandsgranskning av sidbrytning
 - Tabell: Funktionen Konvertera till intervall
 - Skadad fil med ny version Aspose.Cells
@@ -63,7 +63,7 @@ url: /sv/net/aspose-cells-for-net-7-3-2-release-notes/
 
  -Spara XLSX-fil med Scatter-plot möjliggör extra alternativ
 
- -DataLabels.ShowBubbleSize-problem med XLSX-filformat
+-DataLabels.ShowBubbleSize-problem med XLSX-filformat
 
  -Excel cirkeldiagrams titel renderas inte korrekt till bildfilen
 

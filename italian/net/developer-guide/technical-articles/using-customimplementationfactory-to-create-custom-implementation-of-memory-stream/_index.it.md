@@ -6,7 +6,7 @@ url: /it/net/using-customimplementationfactory-to-create-custom-implementation-o
 ---
 ## **Possibili scenari di utilizzo**
 
- Aspose.Cells ha fornito un nome API[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)che consente all'utente di fornire un'implementazione personalizzata come l'utilizzo dell'implementazione della memoria riciclabile invece del MemoryStream predefinito.
+ Aspose.Cells ha fornito un'API denominata[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)che consente all'utente di fornire un'implementazione personalizzata come l'utilizzo dell'implementazione della memoria riciclabile invece del MemoryStream predefinito.
 
 ## **Utilizzo di CustomImplementationFactory per creare un'implementazione personalizzata di Memory Stream**
 

@@ -6,7 +6,7 @@ url: /fr/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells - Afficher ou masquer les onglets**
 ### **Masquer les onglets**
- Pour masquer les onglets à l'aide de**Aspose.Cells Java pour PHP** , appel**afficher les onglets masqués** module.
+ Pour masquer les onglets à l'aide de**Aspose.Cells Java for PHP** , appel**afficher les onglets masqués** module.
 
 **Code PHP**
 

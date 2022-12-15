@@ -21,17 +21,17 @@ Aspose.Cells 支持创建和管理列表。
 
 |**选择用于创建 List 对象的数据范围**|
 |:- |
-|![待办事项：图片_替代_文本](jHcNq4o.png)|
+|![待办事项：图像_替代_文本](jHcNq4o.png)|
 这将显示“创建列表”对话框。
 
 |**创建列表对话框**|
 |:- |
-|![待办事项：图片_替代_文本](kJmukRF.png)|
+|![待办事项：图像_替代_文本](kJmukRF.png)|
 为数据实现List对象并指定合计行（选择**数据**， 然后**列表**， 其次是**总行数**).
 
 |**创建列表对象**|
 |:- |
-|![待办事项：图片_替代_文本](ECSGVdR.png)|
+|![待办事项：图像_替代_文本](ECSGVdR.png)|
 ### **使用 Aspose.Cells API**
  Aspose.Cells提供类[工作簿](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)表示 Microsoft Excel 文件。这[工作簿](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)类包含一个[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)允许访问 Excel 文件中每个工作表的集合。
 

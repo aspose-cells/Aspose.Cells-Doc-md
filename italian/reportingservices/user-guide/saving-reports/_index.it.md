@@ -11,6 +11,6 @@ url: /it/reportingservices/saving-reports/
 ![cose da fare:immagine_alt_testo](saving-reports_1.png)
 
 ). 
-Il report (modello Excel Microsoft) viene salvato come file RDL.
+Il report (modello Microsoft Excel) viene salvato come file RDL.
 
 {{% /alert %}}

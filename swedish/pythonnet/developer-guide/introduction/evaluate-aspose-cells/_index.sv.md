@@ -15,4 +15,4 @@ Utvärderingsversionen av Aspose.Cells (det vill säga Aspose.Cells utan tilläm
 |**Utvärderingsvarning – ett extra arbetsblad**|
 |:- |
 |![todo:image_alt_text](evaluate-aspose-cells_1.png)|
-Om du vill testa Aspose.Cells utan begränsningar i utvärderingsversionen,[begära en 30-dagars tillfällig licens](https://purchase.aspose.com/temporary-license).
+ Om du vill testa Aspose.Cells utan begränsningar i utvärderingsversionen,[begära en 30-dagars tillfällig licens](https://purchase.aspose.com/temporary-license).

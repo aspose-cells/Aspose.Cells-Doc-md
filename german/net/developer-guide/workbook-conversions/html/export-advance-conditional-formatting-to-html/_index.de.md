@@ -10,7 +10,7 @@ Sie können die bedingte Formatierung von DataBar, ColorScale und IconSet export
 
 {{% /alert %}} 
 ## **Exportieren Sie bedingte DataBar-, ColorScale- und IconSet-Formatierung während der Excel-zu-HTML-Konvertierung**
- Der folgende Screenshot zeigt die[Excel-Beispieldatei](5115558.xlsx) mit bedingter DataBar-, ColorScale- und IconSet-Formatierung. Sie können die herunterladen[Excel-Beispieldatei](5115558.xlsx) aus dem angegebenen Link.
+Der folgende Screenshot zeigt die[Excel-Beispieldatei](5115558.xlsx) mit bedingter DataBar-, ColorScale- und IconSet-Formatierung. Sie können die herunterladen[Excel-Beispieldatei](5115558.xlsx) aus dem angegebenen Link.
 
 ![todo: Bild_alt_Text](conversion_1.png)
 

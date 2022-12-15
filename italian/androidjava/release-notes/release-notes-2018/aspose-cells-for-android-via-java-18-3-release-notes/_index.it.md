@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 18.3 Note di rilascio
+title: Aspose.Cells for Android via Java 18.3 Note di rilascio
 type: docs
 weight: 40
 url: /it/java/aspose-cells-for-android-via-java-18-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 18.3.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 18.3.
 
 {{% /alert %}} 
 
@@ -63,8 +63,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42526|Errore in Cell B4-Formula non valida: si verifica un'eccezione durante l'impostazione della formula|Eccezione|
 |CELLSJAVA-42522|ArrayIndexOutOfBoundsException all'apertura del file tramite Aspose.Cells|Eccezione|
 |CELLSJAVA-42517|Eccezione "com.aspose.cells.CellsException: formula non valida:" durante il caricamento di un file ODS|Eccezione|
-# **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+# **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà LoadOptions.ParsingPivotCachedRecords**
 Indica se l'analisi dei record memorizzati nella cache pivot durante il caricamento del file. Il valore predefinito è false. Si applica solo ai formati di file Excel Xlsx, Xltx, Xltm, Xlsm e Xlsb.
 #### **Aggiunge la proprietà HtmlSaveOptions.ExcludeUnusedStyles**
@@ -112,6 +112,6 @@ Ottiene la Shape correlata durante il rendering.
 
 {{% alert color="primary" %}} 
 
-Poiché la base di codice di Aspose.Cells per Android tramite Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, miglioramenti e correzioni inclusi in Aspose.Cells for .NET v18.1, Aspose.Cells 0761734481 v18.281 for .NET v18.1, Aspose.Cells 0761734481 v18.283 08186 v18. 3, Aspose.Cells for Java v18.1, Aspose.Cells for Java v18.2 e Aspose.Cells for Java v18.3 sono inclusi anche in questo Aspose.Cells per Android tramite Java v18.3.
+Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni sono incluse in Aspose.Cells for .NET v18.1, Aspose.Cells for .NET v18.2, 07617634181 v18.1, Aspose.Cells for .NET v18.2, 07617634181 v183. , Aspose.Cells for Java v18.1, Aspose.Cells for Java v18.2 e Aspose.Cells for Java v18.3 sono inclusi anche in questo Aspose.Cells for Android via Java v18.3
 
 {{% /alert %}}

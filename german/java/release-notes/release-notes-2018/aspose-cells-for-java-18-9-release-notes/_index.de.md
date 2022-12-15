@@ -17,7 +17,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.9.
 |CELLSJAVA-42710|Doppelter Legendenelementtext im Diagramm bei der Excel-in-PDF-Konvertierung|Insekt|
 |CELLSJAVA-42706|Die PDF-Ausgabe zeigt keine Diagrammbeschriftung an|Insekt|
 |CELLSJAVA-42700|Das Wasserfalldiagramm wird nach dem Ändern der Diagrammdaten nicht richtig gerendert|Insekt|
-|CELLSJAVA-42717|Cells.deleteRow funktioniert nicht richtig|Insekt|
+|CELLSJAVA-42717|Cells.deleteRow funktioniert nicht korrekt|Insekt|
 |CELLSJAVA-42716|Falscher Wert für Rahmenstil abgerufen|Insekt|
 |CELLSJAVA-42709|Falscher unterer Rahmenstil für verbundene Zelle zurückgegeben|Insekt|
 |CELLSJAVA-42705|MS Excel löst Fehler beim Laden der Datei nach dem Setzen des Autofilters aus|Insekt|

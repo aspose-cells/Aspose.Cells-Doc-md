@@ -8,8 +8,8 @@ Die folgende Tabelle zeigt die Symbole und Werkzeuge der Befehlsleisten in der S
 
 |**Befehl** |**Bild** |**Beschreibung** |
 |:- |:- |:- |
-| Lokalen Bericht öffnen|![todo: Bild_alt_Text](command-bars_1.png)|Öffnet eine RDL-Datei vom lokalen PC und lädt den Dateikontext.|
-| Remote-Bericht öffnen|![todo: Bild_alt_Text](command-bars_2.png)| Öffnet eine RDL-Datei vom Berichtsserver und lädt den Dateikontext.|
+| Lokalen Bericht öffnen|![todo: Bild_alt_Text](command-bars_1.png)| Öffnet eine RDL-Datei vom lokalen PC und lädt den Dateikontext.|
+| Remote-Bericht öffnen|![todo: Bild_alt_Text](command-bars_2.png)|Öffnet eine RDL-Datei vom Berichtsserver und lädt den Dateikontext.|
 | Bericht speichern|![todo: Bild_alt_Text](command-bars_3.png)| Speichert den Gestaltungsbericht lokal oder auf dem Server.|
 | Bericht veröffentlichen|![todo: Bild_alt_Text](command-bars_4.png)| Lädt die RDL-Datei auf den Server hoch.|
 | Zeige Bericht|![todo: Bild_alt_Text](command-bars_5.png)| Zeigt eine Vorschau des Berichts vom Server an.|

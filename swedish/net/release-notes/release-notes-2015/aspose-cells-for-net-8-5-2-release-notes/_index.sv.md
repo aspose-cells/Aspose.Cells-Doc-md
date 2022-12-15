@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 8.5.2 Release Notes
+title: Aspose.Cells for .NET 8.5.2 Release Notes
 type: docs
 weight: 50
 url: /sv/net/aspose-cells-for-net-8-5-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 8.5.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.5.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 8.5.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.5.2/)
 
 {{% /alert %}} 
 
@@ -30,13 +30,13 @@ url: /sv/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43786) - Filen är skadad efter att ha uppdaterat pivottabellen i mallfilen
 
-(CELLSNET-43594) - PivotField.IsRepeatItemLabels fungerar inte i pivottabellen
+ (CELLSNET-43594) - PivotField.IsRepeatItemLabels fungerar inte i pivottabellen
 
  (CELLSNET-43367) - Problem med PivotTable.Format() för att formatera PivotField-huvudet
 
  (CELLSNET-41618) - Visar inte vissa bilder och former efter konvertering av Xls till HTML
 
- (CELLSNET-43817) - CalculateFormula() slutar aldrig för vissa SUMIF Excel-formler
+(CELLSNET-43817) - CalculateFormula() slutar aldrig för vissa SUMIF Excel-formler
 
  (CELLSNET-43675) - Problem med att beräkna NORM.S.DIST-funktionen
 
@@ -52,13 +52,13 @@ url: /sv/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43806) - Plotten/kurvan är inte densamma för XY Scatter-diagram.
 
-(CELLSNET-43805) - Konvertering av kalkylark till PDF: fet stil är förlorad
+ (CELLSNET-43805) - Konvertering av kalkylark till PDF: fet stil är förlorad
 
  (CELLSNET-43804) - Konvertering av kalkylark till PDF: Innehåll i textruta-renderingar med indrag
 
  (CELLSNET-43779) - Diagram till bild inkonsekvens för EMF-filformat
 
- (CELLSNET-43772) - Texten i ritningsformen slås inte in korrekt
+(CELLSNET-43772) - Texten i ritningsformen slås inte in korrekt
 
  (CELLSNET-43771) - Bilden har förskjutits efter att kalkylarket har renderats till PDF
 
@@ -74,7 +74,7 @@ url: /sv/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43802) - Excel-fil korrumperar vid öppning och omspara och öppnas inte i Excel 2013
 
-(CELLSNET-43799) - Om du sparar om kalkylarket blir resultaten korrupta och skivorna tas bort
+ (CELLSNET-43799) - Om du sparar om kalkylarket blir resultaten korrupta och skivorna tas bort
 
  (CELLSNET-43792) - Arbetsboksdataanslutningen tas bort efter att kalkylarket har sparats på nytt
 
@@ -84,7 +84,7 @@ url: /sv/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43629) - PivotTable.RefreshData() - Det går inte att casta objekt av typen
 
- (CELLSNET-43778) - System.FormatException vid Chart.ToImage när systemspråket är Ryssland
+(CELLSNET-43778) - System.FormatException vid Chart.ToImage när systemspråket är Ryssland
 
  (CELLSNET-43822) - Arbetsbok som innehåller diagram kan inte sparas och ger undantag
 
@@ -108,7 +108,7 @@ url: /sv/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43809) - Lägger till asynkron återuppringningshändelse för gridesktop
 
-(CELLSNET-42316) - Kortkommandon Ctrl + Shift + piltangenter fungerar inte.
+ (CELLSNET-42316) - Kortkommandon Ctrl + Shift + piltangenter fungerar inte.
 
  (CELLSNET-42174) - Kontroll + piltangenter hoppar inte till cell med data
 
@@ -123,10 +123,10 @@ url: /sv/net/aspose-cells-for-net-8-5-2-release-notes/
  (CELLSNET-43688) - Radhöjden för vissa sammanslagna celler är inte korrekt.
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 
@@ -160,7 +160,7 @@ Lägger till metoden SheetRender.ToImage(int pageIndex, Graphics g, float x, flo
 
 
 
- Lägger till GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate-händelser.
+Lägger till GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate-händelser.
 
  Uppstår i det andra tillståndet för att ladda arbetsboksfilen i GridDesktop.
 

@@ -45,7 +45,7 @@ url: /tr/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50749|Yalnızca yorumların bulunduğu sütunları silmek için DeleteBlankColumns(options) yöntemi|
 |CELLSNET-50759|Çalışma kitabının kaydedilmemiş bir çalışma kitabına harici bağlantıları olduğunda formüller doğru kaydedilmiyor|
 |CELLSNET-50776|İç içe geçmiş nesneler için veri kaynağı olarak System.Dynamic.ExpandoObject türünde genel bir liste kullanıldığında akıllı işaretçiler işlenmez|
-|CELLSNET-50779| XLS -> XLSX -> XLS dönüştürülürken gömülü nesnelerle ilgili potansiyel veri kaybı|
+|CELLSNET-50779| XLS -> XLSX -> XLS dönüştürülürken gömülü nesnelerle ilgili olası veri kaybı|
 |CELLSNET-50821|Range.AutoFill ile ilgili sorun - aralık alanı kesişirse veriler otomatik olarak doldurulmaz|
 |CELLSNET-50777|PutValue yöntemi, System.StackOverflowException'ı Avustralya bölgesel biçiminde atar|
 |CELLSNET-50275|ODS'yi HTML'ye dönüştürürken "Nesne başvurusu bir nesnenin örneğine ayarlanmadı" istisnası|

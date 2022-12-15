@@ -6,7 +6,7 @@ url: /ru/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells для JasperReports доступен как бесплатная, неограниченная по времени пробная версия от[страница загрузки](https://downloads.aspose.com/cells/jasperreports). Ознакомительная и лицензионная версии продукта загружаются одинаково.
+ Aspose.Cells for JasperReports доступен в качестве бесплатной, неограниченной по времени пробной версии от[страница загрузки](https://downloads.aspose.com/cells/jasperreports). Ознакомительная и лицензионная версии продукта загружаются одинаково.
 
  Если вас устраивает ознакомительная версия, вы можете[купить лицензию](https://purchase.aspose.com/). Убедитесь, что вы понимаете и согласны с условиями лицензии.
 
@@ -31,7 +31,7 @@ url: /ru/jasperreports/licensing/
 
 {{% /alert %}}
 
-Загрузите лицензию на свой компьютер и скопируйте ее в соответствующую папку (например, папку вашего приложения или**JasperReports\lib**).
+ Загрузите лицензию на свой компьютер и скопируйте ее в соответствующую папку (например, папку вашего приложения или**JasperReports\lib**).
 Добавьте в свой проект следующий код:
 
 {{< highlight "csharp" >}}
@@ -58,7 +58,7 @@ license.setLicense(fstream);
 
 {{% /alert %}}
 
-1.  Загрузите лицензию на свой компьютер и скопируйте ее на**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** папка, где**\<Каталог_установки>** обозначает каталог установки JasperServer.
+1.  Загрузите лицензию на свой компьютер и скопируйте ее на**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**папка, где**\<Каталог_установки>** обозначает каталог установки JasperServer.
 1.  Найдите**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** файл и добавьте следующие строки:
 
 **XML**
@@ -77,7 +77,7 @@ license.setLicense(fstream);
 
 Экспортируйте любой отчет в формат XLS и проверьте, содержит ли отчет оценочное сообщение. Если оценочного сообщения нет, значит, лицензия работает правильно.
 
-**Aspose.Cells для JasperReports вводит лист оценки в режиме оценки** 
+**Aspose.Cells for JasperReports вводит лист оценки в режиме оценки** 
 
 ![дело:изображение_альтернативный_текст](licensing_1.png)
 

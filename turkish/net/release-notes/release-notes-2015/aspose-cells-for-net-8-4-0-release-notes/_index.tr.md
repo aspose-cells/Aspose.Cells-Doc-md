@@ -262,7 +262,7 @@ PivotTable.ShowInTabularForm() yöntemini ekler
 
  TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini ekler.
 
-Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini gösterir.
+Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini belirtir.
 
 
 

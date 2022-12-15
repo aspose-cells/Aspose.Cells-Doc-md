@@ -6,6 +6,6 @@ url: /es/jasperreports/edition-types/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells para JasperReports ofrece solo un tipo de edición: edición Enterprise.
+Aspose.Cells for JasperReports ofrece solo un tipo de edición: edición Enterprise.
 
 {{% /alert %}}

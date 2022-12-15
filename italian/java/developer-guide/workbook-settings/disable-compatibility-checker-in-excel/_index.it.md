@@ -6,7 +6,7 @@ url: /it/java/disable-compatibility-checker-in-excel/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Verifica compatibilità di Excel segnala quando si salva un file in un formato di file precedente che il salvataggio del file potrebbe causare problemi di funzionalità o perdita di fedeltà. Verifica compatibilità è una funzionalità di Microsoft Office Excel 2007, 2010 e 2013.
+Verifica compatibilità di Microsoft Excel contrassegna quando si salva un file in un formato di file precedente che il salvataggio del file potrebbe causare problemi di funzionalità o perdita di fedeltà. Verifica compatibilità è una funzionalità di Microsoft Office Excel 2007, 2010 e 2013.
 
 Quando si salva una cartella di lavoro in una versione precedente, da Excel 97 a Excel 2003, da Excel 2007 o Excel 2010, Verifica compatibilità analizza la cartella di lavoro per verificare se contiene funzionalità non supportate dalla versione precedente. Per aiutarti a prendere decisioni su come gestire i problemi di compatibilità, Verifica compatibilità visualizza finestre di dialogo con opzioni. Può anche essere utilizzato per creare un rapporto su eventuali problemi nella cartella di lavoro o disabilitare la funzione.
 
@@ -14,7 +14,7 @@ A volte, è necessario disabilitare Verifica compatibilità per un particolare f
 
 {{% /alert %}}
 
-## **Utilizzando Microsoft Excel**
+## **Utilizzo di Microsoft Excel**
 
 Per disabilitare Verifica compatibilità in Microsoft Excel (ad esempio Microsoft Excel 2007/2010):
 
@@ -23,7 +23,7 @@ Per disabilitare Verifica compatibilità in Microsoft Excel (ad esempio Microsof
 
 ## **Utilizzo delle API Aspose.Cells**
 
- Impostare il[**WorkbookSettings.CheckComptiliblity**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity) proprietà a**Falso** per disabilitare Microsoft Verifica compatibilità di Excel.
+ Impostare il[**WorkbookSettings.CheckComptiliblity**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity) proprietà a**Falso** per disabilitare Verifica compatibilità di Microsoft Excel.
 
 Supponiamo di avere un file XLS modello. Quando un utente lo salva o lo salva nuovamente in MS Excel 2007/2010/2013, viene visualizzata la finestra di dialogo Verifica compatibilità, come mostrato nello screenshot seguente.
 

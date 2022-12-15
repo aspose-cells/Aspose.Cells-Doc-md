@@ -1,13 +1,13 @@
 ﻿---
-title: Zoomfaktor i Python
+title: Zoomfaktor på Python
 type: docs
 weight: 80
 url: /sv/java/zoom-factor-in-python/
 ---
 ## **Aspose.Cells - Zoomfaktor**
- För att ställa in zoomfaktor med**Aspose.Cells Java för Python** , helt enkelt åberopa**ZoomFactor** modul.
+ För att ställa in zoomfaktor med**Aspose.Cells Java for Python** , helt enkelt åberopa**ZoomFactor** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

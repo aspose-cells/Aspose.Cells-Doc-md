@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 19.4 Release Notes
+title: Aspose.Cells for Java 19.4 Release Notes
 type: docs
 weight: 90
 url: /sv/java/aspose-cells-for-java-19-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.4.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.4.
 
 {{% /alert %}} 
 
@@ -31,8 +31,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.4.
 |CELLSJAVA-42860|java.lang.NullPointerException när ett ODS-filformat laddas|Undantag|
 |CELLSJAVA-42871|java.lang.Undantag: Ostödd klon för säkerhetskopierad ström vid konvertering av XLSX till PDF|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till API:er för att spara Markdown-dokument: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Stöder för att spara cellinnehåll som markdown-tabell. Med metoden Workbook.Save() kommer allt cellinnehåll i det aktiva bladet att exporteras som en tabell i nedmärkningsdokumentet.
 ### **Tar bort föråldrade egenskaper för TxtLoadOptions**

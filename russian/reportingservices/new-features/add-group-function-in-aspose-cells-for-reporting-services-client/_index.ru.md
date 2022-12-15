@@ -1,5 +1,5 @@
 ﻿---
-title: Добавить групповую функцию в Aspose.Cells для клиента служб Reporting Services.
+title: Добавить групповую функцию в клиенте Aspose.Cells for Reporting Services
 type: docs
 weight: 120
 url: /ru/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/

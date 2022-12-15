@@ -7,7 +7,7 @@ description: Proteja y desproteja la estructura del libro de trabajo de los arch
 ---
 {{% alert color="primary" %}}
 Para evitar que otros usuarios vean hojas de cálculo ocultas, agreguen, muevan, eliminen u oculten hojas de cálculo y cambien el nombre de las hojas de cálculo, puede proteger la estructura de su libro de Excel con una contraseña.
-Aspose.Cells para Python admite la protección y desprotección de la estructura del libro de trabajo de los archivos de Excel.
+Aspose.Cells for Python admite la protección y desprotección de la estructura del libro de trabajo de los archivos de Excel.
 {{% /alert %}}
 
 
@@ -20,12 +20,12 @@ Aspose.Cells para Python admite la protección y desprotección de la estructura
 1.  Seleccione**OK** , vuelva a ingresar la contraseña para confirmarla y luego seleccione**OK** otra vez.
 
 
-## **Proteger la estructura del libro de trabajo usando Aspose.Cell para Python**
+## **Proteger la estructura del libro de trabajo con Aspose.Cell for Python**
 Solo necesita las siguientes líneas simples de código para implementar la protección de la estructura del libro de trabajo de los archivos de Excel.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Workbook-Structure.py" >}}
 
-## **Desproteger la estructura del libro de trabajo usando Aspose.Cell para Python**
+## **Desproteger la estructura del libro de trabajo usando Aspose.Cell for Python**
 Desproteger la estructura del libro de trabajo es fácil con Aspose.Cells API.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Workbook-Structure.py" >}}

@@ -6,7 +6,7 @@ url: /ru/cpp/aspose-cells-for-cpp-21-6-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Эта страница содержит примечания к выпуску для Aspose.Cells для C++ 21.6 для Windows.
+На этой странице содержатся примечания к выпуску для Aspose.Cells for C++ 21.6 для Windows.
 
 {{% /alert %}}
 
@@ -14,4 +14,4 @@ url: /ru/cpp/aspose-cells-for-cpp-21-6-release-notes-windows/
 |:- |:- |:- |
 |CELLSCPP-292| Оптимизируйте результаты поиска в nuget|Улучшение|
 |CELLSCPP-283| Исправить ошибку конструктора ArrayList|Ошибка|
-|CELLSCPP-284| Проблема инициализации PathHelper|Ошибка|
+|CELLSCPP-284|Проблема инициализации PathHelper|Ошибка|

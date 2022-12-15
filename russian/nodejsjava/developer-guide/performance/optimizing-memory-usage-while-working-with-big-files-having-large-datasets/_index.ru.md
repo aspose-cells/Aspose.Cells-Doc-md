@@ -14,7 +14,7 @@ url: /ru/nodejs-java/optimizing-memory-usage-while-working-with-big-files-having
 
 ## **Оптимизация памяти**
 
-В следующем примере показано, как оптимизировать использование памяти при работе с большими данными в Aspose.Cells для Node.js через Java.
+В следующем примере показано, как оптимизировать использование памяти при работе с большими данными в Aspose.Cells for Node.js via Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 

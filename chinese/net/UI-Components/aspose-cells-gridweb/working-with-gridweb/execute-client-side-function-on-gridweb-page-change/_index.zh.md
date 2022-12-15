@@ -9,7 +9,7 @@ url: /zh/net/execute-client-side-function-on-gridweb-page-change/
 ## **在 GridWeb 页面更改时执行客户端功能**
 以下 aspx 标记解释了如何使用 OnPageChangeClientFunction 属性。它使用名为 MyOnPageChange 的客户端函数设置属性。请注意，此属性仅在启用分页时有效，即 EnablePaging="true"。现在，无论何时更改 GridWeb 页面，它都会调用客户端函数 MyOnPageChange 打印**当前页面索引**在**安慰**如这个屏幕截图所示。
 
-![待办事项：图片_替代_文本](execute-client-side-function-on-gridweb-page-change_1.png)
+![待办事项：图像_替代_文本](execute-client-side-function-on-gridweb-page-change_1.png)
 ## **示例代码**
 这是由于在 GridWeb 中设置 OnPageChangeClientFunction ="MyOnPageChange" 属性而执行的客户端函数 MyOnPageChange 的代码。这是完整的 aspx 页面标记。
 

@@ -6,7 +6,7 @@ url: /fr/sharepoint/conversion-options/
 ---
 {{% alert color="primary" %}} 
 
-Pour rendre le processus de conversion aussi flexible que possible, Aspose.Cells for SharePoints vous permet de définir des options définissant la manière dont le fichier converti sera traité.
+Pour rendre le processus de conversion aussi flexible que possible, Aspose.Cells pour SharePoints vous permet de définir des options qui définissent la manière dont le fichier converti sera traité.
 
 {{% /alert %}} 
 ### **Choix**

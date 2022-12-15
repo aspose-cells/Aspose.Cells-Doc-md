@@ -12,7 +12,7 @@ url: /sv/java/find-or-search-data/
 
 ![todo:image_alt_text](find-or-search-data_1.png)
 
-I det här exemplet är sökvärdet "Apelsiner".
+det här exemplet är sökvärdet "Apelsiner".
 
 Aspose.Cells tillåter utvecklare att söka igenom cellerna i ett kalkylblad för att hitta de som innehåller ett givet värde.
 
@@ -24,9 +24,9 @@ Aspose.Cells tillåter utvecklare att söka igenom cellerna i ett kalkylblad fö
 
 Alla sökmetoder returnerar cellreferenserna för alla celler som innehåller det angivna sökvärdet.
 ## **Hitta som innehåller en formel**
- Utvecklare kan hitta en specificerad formel i kalkylbladet genom att anropa[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens[hitta](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\) ) metoden, ställa in[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) till[LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) och skicka det som en parameter till[hitta](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metod.
+ Utvecklare kan hitta en specificerad formel i kalkylbladet genom att anropa[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens[hitta](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\) ) metoden, ställa in[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) till[LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS)och skicka det som en parameter till[hitta](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metod.
 
- Vanligtvis är[hitta](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)metod accepterar två eller flera parametrar:
+ Vanligtvis är[hitta](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metod accepterar två eller flera parametrar:
 
 - Objekt att söka: representerar ett objekt som behövs för att hitta i kalkylbladet.
 - Den föregående Cell: representerar föregående cell med samma formel. Denna parameter kan ställas in på null när du söker från början.

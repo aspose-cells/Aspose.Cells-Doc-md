@@ -3,7 +3,7 @@ title: Lägg till filter i pivottabellen
 type: docs
 weight: 130
 url: /sv/java/add-filter-in-pivot-table/
-description: Lär dig hur du lägger till ett filter i pivottabellen med Aspose.Cells Java-bibliotek.
+description: Lär dig hur du lägger till ett filter i pivottabellen med Aspose.Cells Java bibliotek.
 keywords: Adding a filter in pivot table without office 2013, office 2016, office 2019 and office 365.
 ---
 ## **Möjliga användningsscenarier**

@@ -9,6 +9,6 @@ url: /sv/sharepoint/product-information/
 - [Filformat som stöds](/cells/sv/sharepoint/supported-file-formats/)
 - [Funktioner](/cells/sv/sharepoint/features/)
 - [Systemkrav](/cells/sv/sharepoint/system-requirements/)
-- [Installera Aspose.Cells för SharePoint](/cells/sv/sharepoint/install-aspose-cells-for-sharepoint/)
+- [Installera Aspose.Cells for SharePoint](/cells/sv/sharepoint/install-aspose-cells-for-sharepoint/)
 - [Värdera Aspose.Cells](/cells/sv/sharepoint/evaluate-aspose-cells/)
-- [Licens Aspose.Cells för SharePoint](/cells/sv/sharepoint/license-aspose-cells-for-sharepoint/)
+- [Licens Aspose.Cells for SharePoint](/cells/sv/sharepoint/license-aspose-cells-for-sharepoint/)

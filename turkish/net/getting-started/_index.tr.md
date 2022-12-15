@@ -14,7 +14,7 @@ Bu sayfa size Aspose Cells'i nasıl kuracağınızı ve Hello World uygulamasın
 
 ### **Aspose.Cells'den NuGet'e yükleyin**
 
- NuGet Aspose.Cells for .NET indirip kurmanın en kolay yolu.
+NuGet Aspose.Cells for .NET indirip kurmanın en kolay yolu.
 
 1.  Microsoft Visual Studio ve NuGet paket yöneticisini açın.
 1.  İstediğiniz Aspose.Cells for .NET'i bulmak için "aspose.cells" araması yapın.
@@ -65,10 +65,10 @@ Bu örnekte, MAC OS'de Aspose.Cells'i kullanmaya nasıl başlayacağımı göste
 **![macOS'ta Aspose Cells'i yükleyin](install-on-mac-os.png)**
 3. testi aşağıdaki kodla çalıştırın:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
-4. Çizimle ilgili özellikleri kullanmanız gerekiyorsa, lütfen macOS'ta libgdiplus'ı kurun, bkz.:
+4. Çizimle ilgili özellikleri kullanmanız gerekiyorsa, lütfen macOS'ta libgdiplus'ı yükleyin, bkz.:
 [macOS'ta libgdiplus nasıl kurulur](/cells/tr/net/how-to-install-libgdiplus-in-macos/)
 
-Not: Aspose.Cells .NetStandard için MAC OS'deki gereksinimlerinizi destekleyebilir.
+Not: Aspose.Cells .NetStandard, MAC OS gereksinimlerinizi destekleyebilir.
 
 Şunlar için geçerlidir: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 ve gelişmiş sürüm.
 

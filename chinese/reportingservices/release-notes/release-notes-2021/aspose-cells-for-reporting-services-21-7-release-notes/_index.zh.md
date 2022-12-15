@@ -1,12 +1,12 @@
 ﻿---
-title: Reporting Services 21.7 发行说明 Aspose.Cells
+title: Aspose.Cells for Reporting Services 21.7 发行说明
 type: docs
 weight: 15
 url: /zh/reportingservices/aspose-cells-for-reporting-services-21-7-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Reporting Services 21.7 的 Aspose.Cells 发行说明。
+此页面包含 Aspose.Cells for Reporting Services 21.7 的发行说明。
 
 {{% /alert %}} 
 

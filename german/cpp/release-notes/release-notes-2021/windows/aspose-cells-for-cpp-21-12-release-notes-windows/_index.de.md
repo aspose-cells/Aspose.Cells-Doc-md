@@ -6,10 +6,10 @@ url: /de/cpp/aspose-cells-for-cpp-21-12-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für C++ 21.12 für Windows.
+Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 21.12 für Windows.
 
 {{% /alert %}}
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSCPP-570| Throw-Anweisung hinzufügen, um Nullzeiger-Ausnahme zu beheben|Fehler|
+|CELLSCPP-570|Throw-Anweisung hinzufügen, um Nullzeiger-Ausnahme zu beheben|Fehler|

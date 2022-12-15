@@ -95,7 +95,7 @@ ranges.Add(cells.CreateRange("A1:B4"));
 {{< /highlight >}}
 
 
-### **Methode Cell.SetCharacters Hinzugefügt**
+### **Methode Cell.SetCharacters hinzugefügt**
  Dazu kann die Methode Cell.SetCharacters verwendet werden[Aktualisieren Sie die Teile des Rich-Texts](/cells/de/net/access-and-update-the-portions-of-rich-text-of-cell/) eines bestimmten Cell-Objekts. Die Methode Cell.GetCharacters muss verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.SetCharacters vorgenommen werden, während die**Erhalten** -Methode gibt ein Array von FontSetting-Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen**Satz** -Methode verwendet werden, um die Änderungen anzuwenden.
 
 Es folgt das einfache Nutzungsszenario.

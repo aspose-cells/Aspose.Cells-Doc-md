@@ -6,11 +6,11 @@ url: /it/net/resampling-added-images-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-Mentre si lavora con grandi file Excel Microsoft con molte immagini, potrebbe essere necessario comprimere le immagini che sono state aggiunte per ridurre le dimensioni del file PDF di output e migliorare le prestazioni complessive della conversione. Aspose.Cells supporta il ricampionamento delle immagini aggiunte per ridurre le dimensioni del file PDF di output e migliorare in qualche modo le prestazioni.
+Mentre si lavora con file Microsoft Excel di grandi dimensioni con molte immagini, potrebbe essere necessario comprimere le immagini che sono state aggiunte per ridurre le dimensioni del file PDF di output e migliorare le prestazioni complessive della conversione. Aspose.Cells supporta il ricampionamento delle immagini aggiunte per ridurre le dimensioni del file PDF di output e migliorare in qualche modo le prestazioni.
 
 {{% /alert %}}
 
-Vedere il seguente codice di esempio che descrive come eseguire l'attività utilizzando Aspose.Cells API. L'esempio converte un file Excel Microsoft in un file PDF durante la compressione delle immagini nel file.
+Vedere il seguente codice di esempio che descrive come eseguire l'attività utilizzando l'API Aspose.Cells. L'esempio converte un file Microsoft Excel in un file PDF durante la compressione delle immagini nel file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ResamplingAddedImages-1.cs" >}}
 

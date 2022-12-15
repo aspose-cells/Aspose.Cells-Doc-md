@@ -14,7 +14,7 @@ url: /ar/net/convert-workbook-to-json/
 
 يوفر Aspose.Cells API دعمًا لتحويل جداول البيانات إلى تنسيق JSON. لتصدير المصنف إلى JSON ، قم بتمرير[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كمعامل ثاني لـ[**المصنف**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) طريقة. يمكنك أيضًا استخدام ملفات[**خيارات JsonSave**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى JSON.
 
- يوضح مثال التعليمات البرمجية التالي تصدير ورقة العمل النشطة إلى Json باستخدام[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. يرجى الاطلاع على الكود للتحويل[مصدر الملف](book1.xlsx) الى[إخراج ملف Json](book1.Json)تم إنشاؤها بواسطة رمز كمرجع.
+ يوضح مثال التعليمات البرمجية التالي تصدير ورقة العمل النشطة إلى Json باستخدام[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. يرجى الاطلاع على الكود للتحويل[مصدر الملف](book1.xlsx) الى[إخراج ملف Json](book1.Json)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 

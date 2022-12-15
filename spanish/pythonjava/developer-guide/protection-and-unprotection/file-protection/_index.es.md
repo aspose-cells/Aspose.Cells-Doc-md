@@ -9,7 +9,7 @@ description: Cómo cifrar y descifrar archivos de Excel usando Python. Bloquear 
 
 Microsoft Excel (97 - 365) le permite cifrar y proteger con contraseña sus hojas de cálculo. Utiliza algoritmos proporcionados por un proveedor de servicios criptográficos, o CSP, un conjunto de algoritmos criptográficos con diferentes propiedades. El CSP predeterminado es 'Compatible con Office 97/2000' o 'Cifrado débil (XOR)'. Es importante elegir la longitud adecuada de la clave de cifrado. Algunos CSP no admiten más de 40 o 56 bits. Eso se considera un cifrado débil. Para un cifrado fuerte, se requiere una longitud de clave mínima de 128 bits. Microsoft Windows contiene CSP que también ofrecen tipos de cifrado fuertes, por ejemplo, el 'Microsoft Proveedor criptográfico fuerte'. Para que te hagas una idea, el cifrado de 128 bits es el que utilizan los bancos para cifrar la conexión con sus sistemas de Banca por Internet.
 
-Aspose.Cells para Python le permite encriptar y proteger con contraseña Microsoft archivos de Excel con el tipo de encriptación que desee.
+Aspose.Cells for Python le permite encriptar y proteger con contraseña Microsoft archivos de Excel con el tipo de encriptación que desee.
 
 {{% /alert %}}
 

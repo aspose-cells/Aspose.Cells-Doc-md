@@ -3,7 +3,7 @@ title: Skapa tabell genom att använda kantlinjer för ett område
 type: docs
 weight: 50
 url: /sv/java/create-table-by-using-border-lines-for-a-range/
-description: Hur man skapar en tabell med intervall genom att använda kantlinjer. Aspose.Cells för Java tillhandahåller ett lättanvänt API som kan användas för att lägga till gränser till ett intervall.
+description: Hur man skapar en tabell med intervall genom att använda kantlinjer. Aspose.Cells for Java tillhandahåller en enkel att använda API som kan användas för att lägga till kanter till ett intervall.
 keywords: create table, range to table, range to table excel, excel range to table, range to table with borders, how to create table from range, convert range to table, excel convert range to table, excel create table, range to table java 
 ---
 {{% alert color="primary" %}}

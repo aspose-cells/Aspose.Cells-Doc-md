@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Node.js через Java 22.2 Примечания к выпуску
+title: Aspose.Cells for Node.js via Java 22.2 Примечания к выпуску
 type: docs
 weight: 11
 url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-22-2-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для Node.js через Java 22.2](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.2/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Node.js via Java 22.2](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.2/).
 
 {{% /alert %}}
 

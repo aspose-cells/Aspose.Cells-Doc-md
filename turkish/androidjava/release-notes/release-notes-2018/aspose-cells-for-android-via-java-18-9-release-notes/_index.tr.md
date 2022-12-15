@@ -1,12 +1,12 @@
 ﻿---
-title: Java 18.9 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 18.9 Sürüm Notları
 type: docs
 weight: 20
 url: /tr/java/aspose-cells-for-android-via-java-18-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 18.9 üzerinden Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 18.9 için sürüm notları içerir.
 
 {{% /alert %}}
 
@@ -62,7 +62,7 @@ Bu sayfa, Java 18.9 üzerinden Android için Aspose.Cells için sürüm notları
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 
 ### **Enum StyleFlag.Alignments ekler**
 
@@ -182,6 +182,6 @@ Bu eşlemenin bir XmlDataBinding'ini alır.
 
 {{% alert color="primary" %}}
 
-Java üzerinden Android için Aspose.Cells kod tabanı, ilgili .NET ve Java sürümlerinin koduyla eşleştiğinden, değişikliklerin, geliştirmelerin ve düzeltmelerin çoğu Aspose.Cells for .NET v18.7, Aspose.Cells 076173488 18.84 v18.8, 07617 v18.8, 07617'de yer almaktadır. 9, Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 ve Aspose.Cells for Java v18.9 da Java v18.9 aracılığıyla Android için bu Aspose.Cells'e dahildir.
+Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761,16341. 0711616341. 07116341. 07116341. 07116341. 07161616341. 0761,16341,16341,16341,16341. 0761. Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 ve Aspose.Cells for Java v18.9 da bu Aspose.Cells for Android via Java v18.9'a dahildir.
 
 {{% /alert %}}

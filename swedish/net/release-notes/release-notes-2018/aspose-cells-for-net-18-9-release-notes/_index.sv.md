@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 18.9 Release Notes
+title: Aspose.Cells for .NET 18.9 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-18-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 18.9](https://www.nuget.org/packages/Aspose.Cells/18.9.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 18.9](https://www.nuget.org/packages/Aspose.Cells/18.9.0).
 
 {{% /alert %}} 
 
@@ -40,7 +40,7 @@ url: /sv/net/aspose-cells-for-net-18-9-release-notes/
 |CELLSNET-46332|Lagringar och strömmar saknas i OLE-paketet efter att en krypterad XLSX-fil har sparats på nytt|Insekt|
 |CELLSNET-46325|Grafer som går förlorade vid kopiering av kalkylblad från en arbetsbok till en annan|Insekt|
 |CELLSNET-46316|Villkorlig formatering tillämpas utan teckensnitt och skuggfärger när arbetsböcker slås samman|Insekt|
-|CELLSNET-46305|Text ur tryckt område renderad i PDF|Insekt|
+|CELLSNET-46305|Text ur utskriftsområdet renderas i PDF|Insekt|
 |CELLSNET-46296|Autopassa kolumner eller rader som stör de grupperade formerna|Insekt|
 |CELLSNET-46292|Skillnad i XML-filer|Insekt|
 |CELLSNET-46283|Kant saknas i ODS Excel-utdata|Insekt|
@@ -49,9 +49,9 @@ url: /sv/net/aspose-cells-for-net-18-9-release-notes/
 |CELLSNET-46323|Datavalideringsproblem när man försöker ändra cellvärde med något av rullgardinsmenyn|Undantag|
 |CELLSNET-46307|Undantag vid hämtning av webbadressen till listobjektets xml-databindningskarta|Undantag|
 |CELLSNET-46336|System.OverflowException höjdes när Chart.Calculate anropades|Undantag|
-|CELLSNET-46293|Undantag när du sparar dokumentet|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+|CELLSNET-46293|Undantag när dokumentet sparas|Undantag|
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoderna CellsHelper.CreateSafeSheetName(strängnamnProposal)/CreateSafeSheetName(strängnamnProposal, char replaceChar)**
 Metoder för användarens bekvämlighet för att skapa ett giltigt arknamn.
 #### **Lägger till Row.FirstDataCell**

@@ -6,7 +6,7 @@ url: /sv/net/aspose-cells-griddesktop/loading-filter
 description: Den här artikeln beskriver hur du använder laddningsfiltret för Aspose.Cells.GridDesktop-biblioteket.
 ---
 ## **Möjliga användningsscenarier**
-Snälla använd[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)egenskap medan du filtrerar data från arbetsboken.
+ Snälla använd[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)egenskap medan du filtrerar data från arbetsboken.
 
  De[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)uppräkning har följande värden.
 - Allt

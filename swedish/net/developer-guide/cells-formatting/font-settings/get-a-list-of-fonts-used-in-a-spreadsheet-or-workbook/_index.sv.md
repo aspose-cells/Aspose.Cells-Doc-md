@@ -8,7 +8,7 @@ url: /sv/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 
 Det är ofta nödvändigt att känna till de typsnitt som används i din arbetsbok för renderingsändamål. När du konverterar din arbetsbok till PDF eller bild, kräver Aspose.Cells att alla nödvändiga teckensnitt är installerade på ditt system eller finns i din**teckensnittskatalog**Om Aspose.Cells inte kan hitta det önskade teckensnittet, försöker den ersätta det med något annat lämpligt teckensnitt som finns på ditt system eller i din teckensnittskatalog och kan ersätta ditt faktiska teckensnitt. Detta resulterar inte bara i oönskad rendering av PDF eller bilder utan tar också bearbetningstid för att hitta lämpliga typsnitt.
 
-För att hantera sådana fall bör du veta vilka typsnitt som används av din arbetsbok och sedan antingen installera dessa typsnitt på ditt system i Windows-miljön eller placera dem i din typsnittskatalog i Windows- eller Linux-miljön.
+För att hantera sådana fall bör du veta vilka typsnitt som används av din arbetsbok och sedan antingen installera dessa typsnitt på ditt system i fallet med Windows-miljön eller placera det i din typsnittskatalog i fall av Windows- eller Linux-miljö.
 
  Aspose.Cells tillhandahåller**[Workbook.GetFonts](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)**metod som returnerar listan över alla teckensnitt som används i din arbetsbok eller kalkylblad.
 

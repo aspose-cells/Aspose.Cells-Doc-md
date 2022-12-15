@@ -10,7 +10,7 @@ Det kan vara användbart att generera miniatyrer från kalkylblad. En miniatyr �
 
 {{% /alert %}} 
 
-Aspose.Cells för Java låter dig mata ut kalkylblad till bildfiler så att det är enkelt att skapa en miniatyr.
+Aspose.Cells for Java låter dig mata ut kalkylblad till bildfiler så att det är enkelt att skapa en miniatyr.
 
 Exempelkoden nedan visar dig hur, steg för steg.
 

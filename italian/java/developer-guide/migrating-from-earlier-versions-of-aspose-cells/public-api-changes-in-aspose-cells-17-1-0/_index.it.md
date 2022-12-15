@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 17.1.0
+title: Modifiche all'API pubblica in Aspose.Cells 17.1.0
 type: docs
 weight: 380
 url: /it/java/public-api-changes-in-aspose-cells-17-1-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 16.12.0 alla 17.1.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 16.12.0 alla 17.1.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -37,7 +37,7 @@ Ecco un semplice scenario di utilizzo.
 
 {{% /alert %}} 
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -85,7 +85,7 @@ Ecco un semplice scenario per dimostrare l'utilizzo della proprietà CellsHelper
 
 {{% /alert %}} 
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -104,7 +104,7 @@ Il frammento di codice seguente utilizza la proprietà GlowEffect.Color.
  Controlla l'articolo dettagliato su[Lettura del colore del bagliore della forma](/cells/it/java/read-color-of-the-shape-s-glow-effect/)
 {{% /alert %}} 
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -144,7 +144,7 @@ Aspose.Cells 17.1.0 ha aggiunto la proprietà CheckCustomNumberFormat alla class
 
 {{% /alert %}} 
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

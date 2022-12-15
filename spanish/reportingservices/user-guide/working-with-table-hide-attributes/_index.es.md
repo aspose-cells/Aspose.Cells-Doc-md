@@ -1,11 +1,11 @@
 ﻿---
-title: Trabajar con atributos de ocultación de tablas
+title: Trabajar con atributos de ocultación de tabla
 type: docs
 weight: 160
 url: /es/reportingservices/working-with-table-hide-attributes/
 ---
 1.  En Microsoft Excel, haga clic en**Modificar atributo** en la barra de comandos Aspose.Cells.
- Aparece el cuadro de diálogo Modificar informe.
+Aparece el cuadro de diálogo Modificar informe.
 1. Seleccione un elemento de informe de tabla.
 1.  Haga clic en el**Ocultar** pestaña.
 

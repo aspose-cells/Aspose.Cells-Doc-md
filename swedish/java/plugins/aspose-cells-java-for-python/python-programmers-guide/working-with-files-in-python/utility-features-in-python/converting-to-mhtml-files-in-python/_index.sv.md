@@ -5,9 +5,9 @@ weight: 30
 url: /sv/java/converting-to-mhtml-files-in-python/
 ---
 ## **Aspose.Cells - Konvertering till MHTML**
-För att konvertera kalkylblad till MHTML-fil med Aspose.Cells för Java i Python, anropa kalkylblad_till_mhtml()-metoden för konverteringsmodulen.
+För att konvertera kalkylblad till MHTML-fil med Aspose.Cells for Java i Python, anropa kalkylblad_till_mhtml()-metoden för konverteringsmodulen.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

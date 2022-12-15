@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 22.3 Note di rilascio
+title: Aspose.Cells for Android via Java 22.3 Note di rilascio
 type: docs
 weight: 10
 url: /it/java/aspose-cells-for-android-via-java-22-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 22.3.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 22.3.
 
 {{% /alert %}} 
 
@@ -62,14 +62,14 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-44234|Problema di memoria insufficiente per il file data.xls|
 |CELLSJAVA-44246|Eccezione "Indice endrow non valido" per file vuoto|
 |CELLSJAVA-44258| Eccezione puntatore nullo per file|
-|CELLSJAVA-44311|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il rendering nel formato di file HTML|
+|CELLSJAVA-44311|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il rendering nel formato di file HTML|
 |CELLSJAVA-44285|Eccezione "java.lang.ClassCastException: impossibile eseguire il cast di com.aspose.cells.n2f su com.aspose.cells.o90" quando si chiama Workbook.calculateFormula()|
 |CELLSJAVA-44323|Eccezione durante l'aggiunta della riga della firma|
 |CELLSJAVA-44361|CellsException sollevata durante la conversione di xlsx in html|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della rimozione dei collegamenti esterni dalla cartella di lavoro.**
 
@@ -77,7 +77,7 @@ Nelle vecchie versioni, non rimuoviamo il collegamento esterno il cui URL contie
 
 ### **Modifica il comportamento di Cell. Digitare per un valore data/ora non valido.**
 
-Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato a ottenere il valore della cella tramite API corretto.
+Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato per ottenere il valore della cella dall'API appropriata.
 
 ### **Modifica il comportamento di Cells.MaxDisplayRange.**
 

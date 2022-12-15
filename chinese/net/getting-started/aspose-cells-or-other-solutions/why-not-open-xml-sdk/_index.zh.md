@@ -63,7 +63,7 @@ Aspose.Cells 是一个类库，它允许应用程序执行以下电子表格处�
 **结论**：Open XML SDK 和 Aspose.Cells 并没有直接竞争，因为它们针对的是完全不同的需求和受众。
 
 ## **为什么不打开 XML SDK**
-Open XML SDK 是一个类库，提供了一种处理 OOXML 文档的强类型方式。 Aspose.Cells是一个非常好用的电子表格处理库，对所有Microsoft Excel和其他文件格式提供了很好的支持。
+Open XML SDK 是一个类库，提供了一种处理 OOXML 文档的强类型方法。 Aspose.Cells是一个非常好用的电子表格处理库，对所有Microsoft Excel和其他文件格式提供了很好的支持。
 
 如果您需要做的只是对 XLSX 文档进行相当基本的编程操作，那么 Open XML SDK 可能是一个合适的选择。使用 Open XML SDK，您可以轻松地执行简单的任务，例如生成简单的 XLSX 文档或删除注释、页眉/页脚、提取图像或其他。
 有些任务可以用Open XML SDK实现，但不能用Aspose.Cells实现。例如，如果你需要直接访问一个OOXML文档的XML元素和属性，那么你应该使用Open XML SDK。

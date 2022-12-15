@@ -6,7 +6,7 @@ url: /de/java/change-the-font-on-just-the-specific-unicode-characters-while-savi
 ---
 {{% alert color="primary" %}}
 
- Einige Unicode-Zeichen können von der benutzerdefinierten Schriftart nicht angezeigt werden. Ein solches Unicode-Zeichen ist**Nicht brechender Bindestrich** (U+2011) und seine Unicode-Nummer ist 8209. Dieses Zeichen kann nicht mit dargestellt werden**Times New Roman** , aber es kann mit anderen Schriftarten wie angezeigt werden**Arial Unicode-MS**.
+ Einige Unicode-Zeichen können von der benutzerdefinierten Schriftart nicht angezeigt werden. Ein solches Unicode-Zeichen ist**Nicht brechender Bindestrich** (U+2011) und seine Unicode-Nummer ist 8209. Dieses Zeichen kann nicht mit angezeigt werden**Times New Roman** , aber es kann mit anderen Schriftarten wie angezeigt werden**Arial Unicode-MS**.
 
 Wenn ein solches Zeichen in einem Wort oder Satz in einer bestimmten Schriftart wie Times New Roman vorkommt, ändert Aspose.Cells die Schriftart des gesamten Worts oder Satzes in eine Schriftart, die dieses Zeichen wie Arial Unicode für MS anzeigen könnte.
 

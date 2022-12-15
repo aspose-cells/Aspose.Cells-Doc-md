@@ -9,9 +9,9 @@ OnAjaxCallFinishedClientFunction 是一个客户端函数，当用户将一些�
 ## **使用 GridWeb 的 OnAjaxCallFinishedClientFunction**
 以下示例代码解释了如何使用 OnAjaxCallFinishedClientFunction 客户端函数。屏幕截图显示了执行代码时 Google Chrome 和 FireFox 中的控制台输出。执行代码后，请在 GridWeb 工作表中复制/粘贴一些跨越多个单元格的数据，然后检查 Web 浏览器控制台，如屏幕截图所示。
 ## **Google Chrome 控制台输出**
-![待办事项：图片_替代_文本](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+![待办事项：图像_替代_文本](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
 ## **FireFox 控制台输出**
-![待办事项：图片_替代_文本](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+![待办事项：图像_替代_文本](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
 ## **示例代码**
 {{< highlight "java" >}}
 

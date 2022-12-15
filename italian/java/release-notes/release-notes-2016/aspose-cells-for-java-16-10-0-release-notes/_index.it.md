@@ -26,8 +26,8 @@ url: /it/java/aspose-cells-for-java-16-10-0-release-notes/
 |CELLSJAVA-41987 | NullPointerException durante l'apertura di un file a1.xlsm| Eccezione|
 |CELLSJAVA-41968 | IndexOutOfBoundsException: Index: 23, Size: 14 durante l'aggiornamento del grafico pivot| Eccezione|
 |CELLSJAVA-42014 | ClassCastException: com.aspose.cells.zadp non può essere trasmesso a com.aspose.cells.zadq durante il nuovo salvataggio di XLSX| Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà Shape.Reflection e la classe ReflectionEffect**
 Rappresenta l'effetto riflesso per l'elemento o la forma del grafico.
 ### **Aggiunge le proprietà Shape.Glow, GlowEffect.Size e GlowEffect.Transparency**

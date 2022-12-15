@@ -28,7 +28,7 @@ url: /it/net/aspose-cells-for-net-7-3-0-release-notes/
 
  Miglioramenti
 
-- Mono problema di versione supportato
+- Problema di versione mono supportata
 - Impossibile utilizzare la formula come parametro di
 - Le funzioni personalizzate possono restituire intervalli che possono essere utilizzati su SUM
 - Applicazione di temi ai grafici

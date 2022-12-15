@@ -27,7 +27,7 @@ Microsoft 以较早的文件格式保存文件时，Excel 的兼容性检查器�
 
 假设我们有一个模板 XLS 文件。当用户在 MS Excel 2007/2010/2013 中保存或重新保存它时，将显示兼容性检查器对话框，如下面的屏幕截图所示。
 
-![待办事项：图片_替代_文本](disable-compatibility-checker-in-excel_1.png)
+![待办事项：图像_替代_文本](disable-compatibility-checker-in-excel_1.png)
 
 以下代码显示了如何使用 Aspose.Cells for Java 禁用兼容性检查器。
 

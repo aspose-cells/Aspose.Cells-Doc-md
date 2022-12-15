@@ -15,7 +15,7 @@ Den mest värdefulla funktionen som erbjuds av Aspose.Cells.GridWeb är stöd f�
 
 {{% alert color="primary" %}} 
 
-Formelsyntaxen bör vara kompatibel med Microsoft Excel-syntaxen. Till exempel måste alla formler börja med ett likhetstecken (=).
+Formelsyntaxen bör vara kompatibel med Microsoft Excel-syntax. Till exempel måste alla formler börja med ett likhetstecken (=).
 
 För att lägga till en formel dynamiskt kommer Aspose.Cells.GridWeb att känna igen den som en formel även om du inte använder ett **=**-tecken, men om slutanvändare som arbetar i GUI måste han använda "="-tecknet.
 

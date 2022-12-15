@@ -6,25 +6,25 @@ url: /sv/net/aspose-cells-visual-studio-plugin/
 ---
 ## **Introduktion**
 
-Microsoft Visual Studio är en integrerad utvecklingsmiljö (IDE) från Microsoft. Det används för att utveckla datorprogram för Microsoft Windows, såväl som webbplatser, webbapplikationer och webbtjänster. Visual Studio använder Microsofts mjukvaruutvecklingsplattformar som Windows API, Windows Forms, Windows Presentation Foundation, Windows Store och Microsoft Silverlight. Den kan producera både inbyggd kod och hanterad kod.
+Microsoft Visual Studio är en integrerad utvecklingsmiljö (IDE) från Microsoft. Den används för att utveckla datorprogram för Microsoft Windows, samt webbplatser, webbapplikationer och webbtjänster. Visual Studio använder Microsoft mjukvaruutvecklingsplattformar som Windows API, Windows Forms, Windows Presentation Foundation, Windows Store och Microsoft Silverlight. Den kan producera både inbyggd kod och hanterad kod.
 
-### **Aspose.Cells för .NET**
+### **Aspose.Cells for .NET**
 
-Aspose.Cells för .NET tillhandahåller den mest flexibla gruppen av komponenter som gör det möjligt för .NET-applikationer att skapa, modifiera, konvertera, rendera och skriva ut Excel®-kalkylblad utan att Microsoft Excel® behöver installeras på servern.
+Aspose.Cells for .NET tillhandahåller den mest flexibla gruppen av komponenter som gör det möjligt för .NET-applikationer att skapa, ändra, konvertera, rendera och skriva ut Excel®-kalkylblad utan att behöva installera Microsoft Excel® på servern.
 
-Aspose.Cells för .NET stöder alla stora Microsoft Excel och andra filformat inklusive XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML och PDF, etc.
- För mer information om[Aspose.Cells för .NET API](https://products.aspose.com/cells/net/)
+Aspose.Cells for .NET stöder alla stora Microsoft Excel och andra filformat inklusive XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML och PDF, etc.
+ För mer information om[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
-### **Utforska Aspose.Cells för .NET-exempel med Visual Studio**
+### **Utforska Aspose.Cells for .NET Exempel med Visual Studio**
 
- Aspose Visual Studio Plugin -**Utforska Aspose.Cells för .NET-exempel** är ett utmärkt verktyg för att snabbt ladda ner och utforska Aspose.Cells för .NET API-exempel. Det sparar mycket tid och ansträngningar genom att tillhandahålla ett mycket enkelt alternativ för att sömlöst välja, ladda ner och öppna de senaste exempelprojekten utan att behöva lämna din Visual Studio.
+ Aspose Visual Studio Plugin -**Utforska Aspose.Cells for .NET Exempel** är ett utmärkt verktyg för att snabbt ladda ner och utforska Aspose.Cells for .NET API exempel. Det sparar mycket tid och ansträngningar genom att tillhandahålla ett mycket enkelt alternativ för att sömlöst välja, ladda ner och öppna de senaste exempelprojekten utan att behöva lämna din Visual Studio.
 
 Denna version har följande funktioner:
 
 - Stöder Visual Studio 2010 och Visual Studio 2012 och Visual Studio 2013.
 -  Lätt att starta från**Fil > Aspose** menyn i Visual Studio
 - Sparar tid och minskar inlärningskurvan.
-- Gör att du kan välja och öppna den senaste Aspose.Cells för .NET API-exempel som finns på Github.com.
+- Gör att du kan välja och öppna de senaste Aspose.Cells for .NET API exemplen som finns på Github.com.
 -  Tillåt dig att öppna**C#** eller**VB.NET** exempel projekt
 - Ett valt projekt öppnas automatiskt i Visual Studio med alla nödvändiga referenser inställda för att ge dig en redo att köra och utforska miljön.
 -  Laddar automatiskt ned de senaste API-biblioteken från**NuGet** och exempel från**GitHub**.
@@ -65,7 +65,7 @@ När det väl är installerat kan du enkelt starta och använda det interaktiva 
 
 ![todo:image_alt_text](aspose-cells-visual-studio-plugin_3)
 
-**2.**Första gången du öppnar insticksprogrammet ser du dialogrutan för val av API som visas nedan. Det tar några minuter att ladda ner det senaste API och deras bibliotek från**NuGet** och senaste exemplen på källkod från**GitHub**.
+**2.**Första gången du öppnar plugin-programmet ser du API-valsdialogrutan som visas nedan. Det tar några minuter att ladda ner den senaste API och deras bibliotek från**NuGet** och senaste exemplen på källkod från**GitHub**.
 
 ![todo:image_alt_text](aspose-cells-visual-studio-plugin_4)
 
@@ -75,7 +75,7 @@ När det väl är installerat kan du enkelt starta och använda det interaktiva 
 
 **4.** Nya exempel projekt enligt projekttyp val av**C#** eller**VB.NET** i Visual Studio.
 
-|**C# exempel** |**VB.NET exempel** |
+|**C# Exempel** |**VB.NET Exempel** |
 |:- |:- |
 |![todo:image_alt_text](aspose-cells-visual-studio-plugin_6)|![todo:image_alt_text](aspose-cells-visual-studio-plugin_7)|
 
@@ -97,7 +97,7 @@ Du kan logga alla problem eller förslag relaterade till Aspose Visual Studio Pl
 
 ### **Utöka och bidra**
 
-**Utforska Aspose.Cells för .NET-exempel** for Visual Studio är öppen källkod och dess källkod är tillgänglig på de stora sociala kodningswebbplatserna nedan. Utvecklare uppmanas att ladda ner källkoden och utöka funktionaliteten enligt sina egna krav.
+**Utforska Aspose.Cells for .NET Exempel** for Visual Studio är öppen källkod och dess källkod är tillgänglig på de stora sociala kodningswebbplatserna nedan. Utvecklare uppmanas att ladda ner källkoden och utöka funktionaliteten enligt sina egna krav.
 
 #### **Källkod**
 

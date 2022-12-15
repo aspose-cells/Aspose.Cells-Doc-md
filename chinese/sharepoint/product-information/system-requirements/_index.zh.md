@@ -5,7 +5,7 @@ weight: 40
 url: /zh/sharepoint/system-requirements/
 ---
 ### **服务器要求**
-要为 SharePoint 安装 Aspose.Cells，您需要一台运行以下其中一项的计算机：
+要安装 Aspose.Cells for SharePoint，您需要一台运行以下其中一项的计算机：
 
 - Windows 共享服务 3.0
 - Microsoft 办公室 SharePoint 服务器 2007
@@ -18,7 +18,7 @@ url: /zh/sharepoint/system-requirements/
 
 {{% /alert %}}
 ### **客户要求**
-您需要浏览器才能访问 SharePoint 网站。 SharePoint 的 Aspose.Cells 经过以下测试：
+您需要浏览器才能访问 SharePoint 网站。 Aspose.Cells for SharePoint 经过以下测试：
 
 - Microsoft Internet Explorer
 - 火狐浏览器

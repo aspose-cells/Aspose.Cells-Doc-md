@@ -35,7 +35,7 @@ url: /it/java/aspose-cells-for-java-2-2-1-release-notes/
 |16180 | Grafico| Crea un grafico con NamedRange come origine dati|
 |16003 | Grafico2Immagine| Voce della legenda mancante nell'immagine del grafico|
 |16659 | Grafico2Immagine| Problemi con le etichette delle percentuali|
-|16150 | Grafico2Immagine| Modello di colore sbagliato nell'immagine|
+|16150 | Grafico2Immagine| Modello di colore errato nell'immagine|
 |16261 | formula| Leggi le formule dal file modello|
 |16386 | xls| Leggi i file modello|
 |15585 | xls| Salva nuovamente i file modello|

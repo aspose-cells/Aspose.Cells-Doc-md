@@ -24,7 +24,7 @@ Unterstützt die Verfolgung von Vorfahren und Angehörigen einer Zelle
  Was wurde verbessert?
 
 - Unterstützt, nur alle Formeln in einem Arbeitsblatt zu berechnen
- Unterstützt POJO und POJOs mit intelligenten Markierungen
+ Unterstützt POJO und POJOs mit intelligenten Markern
 
  Was ist behoben?
 

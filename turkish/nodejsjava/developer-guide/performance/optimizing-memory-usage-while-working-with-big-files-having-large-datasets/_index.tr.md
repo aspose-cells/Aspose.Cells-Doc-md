@@ -14,7 +14,7 @@ Büyük veri kümeleri içeren bir çalışma kitabı oluştururken veya büyük
 
 ## **Belleği Optimize Etme**
 
-Aşağıdaki örnek, Java aracılığıyla Node.js için Aspose.Cells'de büyük verilerle çalışırken bellek kullanımının nasıl optimize edileceğini gösterir.
+Aşağıdaki örnek, Aspose.Cells for Node.js via Java'de büyük verilerle çalışırken bellek kullanımının nasıl optimize edileceğini gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 

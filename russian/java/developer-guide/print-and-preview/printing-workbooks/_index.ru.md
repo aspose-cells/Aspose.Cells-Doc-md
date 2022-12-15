@@ -28,7 +28,7 @@ keywords: printing workbooks, printing worksheets, printing workbook sheets, pri
 
 ### Распечатать выбранный рабочий лист
 
-Следующий фрагмент кода демонстрирует использование[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) для печати выбранного рабочего листа.
+ Следующий фрагмент кода демонстрирует использование[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) для печати выбранного рабочего листа.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 

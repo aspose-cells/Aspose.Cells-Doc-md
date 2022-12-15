@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Python via Java 22.11 Notes de mise à jour
+title: Aspose.Cells for Python via Java 22.11 Notes de mise à jour
 type: docs
 weight: 2
 url: /fr/python-java/aspose-cells-for-python-via-java-22-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Cette page contient des notes de version pour[Aspose.Cells pour Python via Java 22.11](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.11/).
+ Cette page contient des notes de version pour[Aspose.Cells for Python via Java 22.11](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.11/).
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ url: /fr/python-java/aspose-cells-for-python-via-java-22-11-release-notes/
 |CELLSJAVA-44775|Étiquettes de graphique superposées dans le rendu graphique à image|
 |CELLSJAVA-44882|Graphique en rendu d'image - L'une des étiquettes se trouve à l'intérieur du graphique en anneau|
 |CELLSJAVA-44943|XLSX en PDF : les étiquettes de graphique ne sont pas rendues correctement|
-|CELLSJAVA-44928|XLS vers PDF : Données insuffisantes pour une image|
+|CELLSJAVA-44928|XLS vers PDF : données insuffisantes pour une image|
 |CELLSJAVA-44910|Convertir Excel en résultats HTML en milliers de petites images similaires|
 |CELLSJAVA-44944|Le redimensionnement des tableaux modifie la mise en forme des cellules|
 |CELLSJAVA-44948| Les images ne peuvent pas s'afficher dans la feuille lors de la conversion de HTML en Excel|

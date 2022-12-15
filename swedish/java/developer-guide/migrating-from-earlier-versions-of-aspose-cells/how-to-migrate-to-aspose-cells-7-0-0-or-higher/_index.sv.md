@@ -6,13 +6,13 @@ url: /sv/java/how-to-migrate-to-aspose-cells-7-0-0-or-higher/
 ---
 {{% alert color="primary" %}}
 
-den här artikeln har vi delat de anmärkningsvärda ändringarna i API:et som har genomförts i Aspose.Cells för Java 7.0.0 och senare versioner jämfört med föregångarna av Aspose.Cells för Java. Den här artikeln hjälper användarna att snabbt migrera från Gamla API till nya API genom att förstå de ändringar som gjorts och genomföra dem i deras applikationer.
+den här artikeln har vi delat de anmärkningsvärda ändringarna i API som har tagits med i Aspose.Cells for Java 7.0.0 och framåt versioner jämfört med föregångarna av Aspose.Cells for Java. Den här artikeln kommer snabbt att hjälpa 715 de gamla till 0 att migrera från 715 nya användare. API genom att förstå de ändringar som gjorts och genomföra dem i sina ansökningar.
 
 {{% /alert %}}
 
 ## **Anmärkningsvärda förändringar för de befintliga användarna**
 
-Sedan lanseringen av Aspose.Cells för Java v7.0.0 har vi gjort några större ändringar i API:t och lagt till alla de funktioner som finns i Aspose.Cells för .NET hittills. Så både Aspose.Cells för Java och .NET kommer att vara jämförbara nu när det gäller funktioner och till och med när det gäller metoder och egenskapsnamn.
+Sedan lanseringen av Aspose.Cells for Java v7.0.0 har vi gjort några större ändringar i API och har lagt till alla de funktioner som finns i Aspose.Cells for .NET hittills. Så både Aspose.Cells for Java och .NET kommer att vara jämförbara nu när det gäller funktioner och till och med när det gäller metoder och egenskapsnamn.
 
 I likhet med det äldre tillvägagångssättet kan du bara importera en importsats i din applikation för att hämta alla klasser, gränssnitt etc.
 
@@ -22,9 +22,9 @@ I likhet med det äldre tillvägagångssättet kan du bara importera en importsa
 
 {{< /highlight >}}
 
-Vi har bytt namn på vissa API-inställningar för att rensa API-strukturen för att matcha den med Aspose.Cells för .NET. Vi har lagt till några insamlingsklasser nu och har ersatt dem med befintliga insamlingsklasser. Like Worksheets-klassen har ersatts med**Arbetsbladssamling** . På samma sätt har Shapes-klassen ersatts med**ShapeCollection**. Funktionaliteten hos klasserna har dock inte påverkats snarare förbättrats.
+Vi har bytt namn på vissa API-uppsättningar för att rengöra API-strukturen för att matcha den med Aspose.Cells for .NET. Vi har lagt till några insamlingsklasser nu och har ersatt dem med befintliga insamlingsklasser. Like Worksheets-klassen har ersatts med**Arbetsbladssamling** . På samma sätt har Shapes-klassen ersatts med**ShapeCollection**. Funktionaliteten hos klasserna har dock inte påverkats snarare förbättrats.
 
-Om du vill migrera till ett nytt API kan du behöva utföra följande ändringar i din applikation för att få saker att fungera på din sida. Följande lista innehåller de ändringar som gjorts i klasser och deras respektive metoder också.
+Om du vill migrera till nya API kan du behöva utföra följande ändringar i din applikation för att få saker att fungera på din sida. Följande lista innehåller de ändringar som gjorts i klasser och deras respektive metoder också.
 
 ## **Sammanfattning av ändringarna i API**
 

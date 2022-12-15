@@ -1,63 +1,63 @@
 ﻿---
-title: Aspose.Cells för Java 8.8.0 Release Notes
+title: Aspose.Cells for Java 8.8.0 Notas de la versión
 type: docs
 weight: 110
 url: /sv/java/aspose-cells-for-java-8-8-0-release-notes/
 ---
 ## **1) Aspose.Cells**
 
-|**Nyckel** |**Sammanfattning** |**Kategori** |
+|**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSJAVA-41812 | Bildmarkörer stöds inte när data grupperas i smarta markörer| Förbättring|
-|CELLSJAVA-41772 | Konvertering till HTML resulterar i tom sida| Insekt|
-|CELLSJAVA-41738 | Vertikal justering av texten i en textruta ändras från mitten till toppen medan kalkylbladet renderas till bild och PDF| Insekt|
-|CELLSJAVA-41503 | Teckensnittsersättningsvarningar fungerar inte vid konvertering av kalkylark till HTML-format| Insekt|
-|CELLSJAVA-41797 | Aspose.Cells beräknar inte värdet på cellen korrekt| Insekt|
-|CELLSJAVA-41779 | Metoden Cell.calculate() beräknar inte värdena korrekt| Insekt|
-|CELLSJAVA-41813 | Mellanslagsförvrängning i slutet av andra sidan markerad som röd i exemplet i Excel-fil| Insekt|
-|CELLSJAVA-41744 | Texten är feljusterad i den utgående PDF-filen| Insekt|
-|CELLSJAVA-41723 | Aspose.Cells genererade PDF-fel överensstämmer med Excel-genererade PDF-filer av samma kalkylblad| Insekt|
-|CELLSJAVA-41802 |Kategoriaxelns ticketiketter matchar inte i utdata från PDF i Excel till PDF-rendering| Insekt|
-|CELLSJAVA-41800 | Vinkeln för diagrametiketter har ändrats i diagrammets PDF| Insekt|
-|CELLSJAVA-41798 | Förklaringsposten trimmas när diagrammet konverteras till PDF| Insekt|
-|CELLSJAVA-41792 | Rödfärgad stapel saknas i Excel men visas i PDF| Insekt|
-|CELLSJAVA-41785 | Kalkylarket blir skadat efter att ha kopierat arbetsboken och ställt in dataetikettens position| Insekt|
-|CELLSJAVA-41784 | Felfältet saknas vid kopiering av arbetsbok| Insekt|
-|CELLSJAVA-41780 | Text i TextBox renderas ofullständig när kalkylblad konverteras till bild| Insekt|
-|CELLSJAVA-41773 | DataLabels saknas för ett diagram i utdatabilden/PDF för kalkylarket| Insekt|
-|CELLSJAVA-41757 | Positivt värderade staplar visas under 0-värdets x-axelregel i diagrammets PDF| Insekt|
-|CELLSJAVA-41734 | Diagrammets teckenordning är omvänd när kalkylblad renderas till bild| Insekt|
-|CELLSJAVA-41811 | Aspose.Cells bryter Power Pivot-tabellerna när du öppnar och sparar XLSM-filformatet| Insekt|
-|CELLSJAVA-41807 | Problem med grupperade rader vid kopiering av intervall i XLSX-fil| Insekt|
-|CELLSJAVA-41806 | Problem med grupperade rader vid kopiering av intervall i XLS-fil| Insekt|
-|CELLSJAVA-41804 |Formel för WordArt reagerar inte på argumentändringar efter konvertering av XLS till XLSB| Insekt|
-|CELLSJAVA-41803 | Det villkorliga formateringsintervallet är felaktigt och matchar inte med Microsoft Excel| Insekt|
-|CELLSJAVA-41809 | Worksheet.calculateFormula kastar noll-pekareundantag när formel ställs in via NameCollection| Undantag|
-|CELLSJAVA-41808 | "java.lang.NullPointerException" på Workbook.save| Undantag|
-## **2) Aspose.Cells Grid Suite**
+|CELLSJAVA-41812 | Los marcadores de imagen no son compatibles al agrupar datos en marcadores inteligentes| Mejora|
+|CELLSJAVA-41772 | La conversión a HTML da como resultado una página vacía| Insecto|
+|CELLSJAVA-41738 | La alineación vertical del texto en un cuadro de texto cambia de la mitad a la parte superior al representar la hoja de cálculo en imagen y PDF| Insecto|
+|CELLSJAVA-41503 | Las advertencias de sustitución de fuentes no funcionan al convertir una hoja de cálculo a formato HTML| Insecto|
+|CELLSJAVA-41797 | Aspose.Cells no calcula correctamente el valor de la celda| Insecto|
+|CELLSJAVA-41779 | El método Cell.calculate() no está calculando los valores correctamente| Insecto|
+|CELLSJAVA-41813 | Distorsión del espacio al final de la segunda página resaltada en rojo en el archivo de muestra de Excel| Insecto|
+|CELLSJAVA-41744 | Texto desalineado en el PDF de salida| Insecto|
+|CELLSJAVA-41723 | Aspose.Cells PDF generado no coincide con PDF generado por Excel de la misma hoja de cálculo| Insecto|
+|CELLSJAVA-41802 |Las etiquetas de marca del eje de categoría no coinciden en el PDF de salida en la representación de Excel a PDF| Insecto|
+|CELLSJAVA-41800 | El ángulo de las etiquetas de los gráficos ha cambiado en el PDF del gráfico| Insecto|
+|CELLSJAVA-41798 | La entrada de la leyenda se recorta al convertir el gráfico a PDF| Insecto|
+|CELLSJAVA-41792 | Falta la barra de color rojo en Excel, pero se muestra en PDF| Insecto|
+|CELLSJAVA-41785 | La hoja de cálculo se corrompe después de copiar el libro de trabajo y establecer la posición de la etiqueta de datos| Insecto|
+|CELLSJAVA-41784 | Falta la barra de error al copiar el libro de trabajo| Insecto|
+|CELLSJAVA-41780 | El texto en el cuadro de texto se muestra incompleto al convertir la hoja de trabajo en imagen| Insecto|
+|CELLSJAVA-41773 | Faltan etiquetas de datos para un gráfico en la imagen de salida/PDF para la hoja de cálculo| Insecto|
+|CELLSJAVA-41757 | Las barras con valores positivos aparecen debajo de la regla del eje x de valor 0 en el PDF del gráfico| Insecto|
+|CELLSJAVA-41734 | El orden de la leyenda del gráfico se invierte al representar la hoja de trabajo en la imagen| Insecto|
+|CELLSJAVA-41811 | Aspose.Cells está rompiendo las tablas de Power Pivot al abrir y volver a guardar el formato de archivo XLSM| Insecto|
+|CELLSJAVA-41807 | Problema con filas agrupadas al copiar rangos en un archivo XLSX| Insecto|
+|CELLSJAVA-41806 | Problema con filas agrupadas al copiar rangos en un archivo XLS| Insecto|
+|CELLSJAVA-41804 |La fórmula para WordArt no reacciona al cambio de argumento después de convertir XLS a XLSB| Insecto|
+|CELLSJAVA-41803 | El rango de formato condicional es incorrecto y no coincide con Microsoft Excel| Insecto|
+|CELLSJAVA-41809 | Worksheet.calculateFormula arroja una excepción de puntero nulo cuando la fórmula se establece a través de NameCollection| Excepción|
+|CELLSJAVA-41808 | "java.lang.NullPointerException" en Workbook.save| Excepción|
+## **2) Aspose.Cells Suite de cuadrícula**
 
-|**Nyckel** |**Sammanfattning** |**Kategori** |
+|**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSJAVA-41615 | Inställning av rubrikfält och flikstilar fungerar inte| Insekt|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
-### **Lägger till egenskapen HTMLLoadOptions.DeleteRedundantSpaces**
- Indikerar om överflödiga mellanslag tas bort när texten radbryts med hjälp av<br>märka.
-### **Föråldrar egenskapen LoadOptions.ConvertNumericData och lägger till egenskapen TxtLoadOptions.ConvertNumericData.**
-Använd egenskapen TxtLoadOptions.ConvertNumericData eller HTMLLoadOptions.ConvertNumericData istället.
-### **Lägger till egenskapen Style.QuotePrefix.**
-Anger om cellens värde börjar med enkla citattecken.
-### **Lägger till egenskapen QueryTable.ConnectionId.**
-Hämtar anslutnings-id för frågetabellen.
-### **Lägger till egenskapen ExternalConnection.Id.**
-Får anslutningens ID.
-### **Lägger till egenskapen ListObject.QueryTable.**
-Hämtar den länkade frågetabellen för tabellen.
-### **Lägger till egenskapen HTMLLoadOptions.KeepPrecision.**
-Anger om ett strängvärde inte analyseras om längden är 15.
+|CELLSJAVA-41615 | La configuración de la barra de encabezado y los estilos de pestañas no funciona| Insecto|
+## **Public API y cambios incompatibles con versiones anteriores**
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+### **Agrega la propiedad HTMLLoadOptions.DeleteRedundantSpaces**
+ Indica si eliminar espacios redundantes cuando el texto se ajusta a las líneas usando<br>etiqueta.
+### **Obsoleta la propiedad LoadOptions.ConvertNumericData y agrega la propiedad TxtLoadOptions.ConvertNumericData.**
+Utilice la propiedad TxtLoadOptions.ConvertNumericData o HTMLLoadOptions.ConvertNumericData en su lugar.
+### **Agrega la propiedad Style.QuotePrefix.**
+Indica si el valor de la celda comienza con comillas simples.
+### **Agrega la propiedad QueryTable.ConnectionId.**
+Obtiene el identificador de conexión de la tabla de consulta.
+### **Agrega la propiedad ExternalConnection.Id.**
+Obtiene el id de la conexión.
+### **Agrega la propiedad ListObject.QueryTable.**
+Obtiene el QueryTable vinculado de la tabla.
+### **Agrega la propiedad HTMLLoadOptions.KeepPrecision.**
+Indica si no se analiza un valor de cadena si la longitud es 15.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.8.0 också i denna Aspose.Cells för Java v8.8.0.
+Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v8.8.0 también se incluyen en este Aspose.Cells for Java v8.8.0.
 
 {{% /alert %}}

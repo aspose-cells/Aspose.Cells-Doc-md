@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.4.2
+title: Offentlig API Ändringar i Aspose.Cells 8.4.2
 type: docs
 weight: 150
 url: /sv/net/public-api-changes-in-aspose-cells-8-4-2/
@@ -35,7 +35,7 @@ chart.SetChartDataRange("A1:D4", true);
 
 
 ### **Metod VbaModuleCollection.Add tillagd**
-Aspose.Cells för .NET 8.4.2 har avslöjat metoden VbaModuleCollection.Add för att lägga till en ny VBA-modul till instansen av Workbook. Metoden VbaModuleCollection.Add accepterar en parameter av typ av arbetsblad för att lägga till en kalkylbladsspecifik modul.
+Aspose.Cells for .NET 8.4.2 har avslöjat metoden VbaModuleCollection.Add för att lägga till en ny VBA-modul till instansen av Workbook. Metoden VbaModuleCollection.Add accepterar en parameter av typ av arbetsblad för att lägga till en kalkylbladsspecifik modul.
 
 Följande kodavsnitt visar hur man använder metoden VbaModuleCollection.Add.
 
@@ -75,7 +75,7 @@ workbook.Save(output, SaveFormat.Xlsm);
 
 
 ### **Överbelastad metod Cells.CopyColumns har lagts till**
-Aspose.Cells för .NET 8.4.2 har avslöjat en överbelastad version av metoden Cells.CopyColumns för att upprepa källkolumnerna till destinationen. Den nyligen exponerade metoden accepterar 5 parametrar totalt, där de första 4 parametrarna är desamma som för den vanliga Cells.CopyColumns-metoden. Den sista parametern av typen int anger dock antalet destinationskolumner som källkolumnerna måste upprepas på.
+Aspose.Cells for .NET 8.4.2 har avslöjat en överbelastad version av metoden Cells.CopyColumns för att upprepa källkolumnerna till destinationen. Den nyligen exponerade metoden accepterar 5 parametrar totalt, där de första 4 parametrarna är desamma som för den vanliga Cells.CopyColumns-metoden. Den sista parametern av typen int anger dock antalet destinationskolumner som källkolumnerna måste upprepas på.
 
 Följande kodavsnitt visar hur man använder den nyligen exponerade metoden Cells.CopyColumns.
 
@@ -113,7 +113,7 @@ workbook.Save(output);
 
 
 ### **Uppräkningsfält PasteType.Default & PasteType.DefaultExceptBorders har lagts till**
-Med lanseringen av v8.4.2 har API:et Aspose.Cells lagt till 2 nya uppräkningsfält för PasteType som beskrivs nedan.
+Med lanseringen av v8.4.2 har Aspose.Cells API lagt till 2 nya uppräkningsfält för PasteType som beskrivs nedan.
 
 - PasteType.Default: Fungerar liknande Excels "Alla"-funktion för att klistra in cellintervall.
 - PasteType.DefaultExceptBorders: Fungerar liknande Excels "Alla utom gränser"-funktionalitet för att klistra in cellintervall.
@@ -154,6 +154,6 @@ workbook.Save(output);
 
 {{% alert color="primary" %}} 
 
-Från och med lanseringen av Aspose.Cells för .NET 8.4.2, beter sig uppräkningen PasteType.All annorlunda jämfört med Excels "Alla"-funktion för att klistra in cellintervall. Nu kopierar PasteType.All också kolumnbredderna till destinationsintervallet i motsats till Excels "Alla"-funktionalitet. För att efterlikna Excels "Alla" beteende, använd PasteType.Default.
+Från och med lanseringen av Aspose.Cells for .NET 8.4.2, uppförde uppräkningen PasteType.All sig annorlunda jämfört med Excels "Alla"-funktion för att klistra in cellintervall. Nu kopierar PasteType.All också kolumnbredderna till destinationsintervallet i motsats till Excels "Alla"-funktionalitet. För att efterlikna Excels "Alla" beteende, använd PasteType.Default.
 
 {{% /alert %}}

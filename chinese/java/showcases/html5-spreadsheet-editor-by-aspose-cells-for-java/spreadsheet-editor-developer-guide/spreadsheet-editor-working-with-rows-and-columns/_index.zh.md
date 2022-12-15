@@ -32,7 +32,7 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 编辑器将在所选位置添加一个新行。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![待办事项：图像_替代_文本](jjsornm.png)
 
 **这个怎么运作？**
 
@@ -106,7 +106,7 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 编辑器将在所选位置添加一个新列。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![待办事项：图像_替代_文本](jjsornm.png)
 
 **这个怎么运作？**
 
@@ -171,7 +171,7 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 编辑器将删除包含所选单元格的行。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![待办事项：图像_替代_文本](jjsornm.png)
 
 **这个怎么运作？**
 
@@ -211,7 +211,7 @@ url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/
 
 编辑器将删除包含所选单元格的列。
 
-![待办事项：图片_替代_文本](jjsornm.png)
+![待办事项：图像_替代_文本](jjsornm.png)
 
 **这个怎么运作？**
 

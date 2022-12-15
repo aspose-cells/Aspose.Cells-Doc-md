@@ -12,7 +12,7 @@ veces, al renderizar un archivo de Excel Microsoft a PDF, Aspose.Cells sustituye
 
 Para recibir advertencias sobre la sustitución de fuentes al representar archivos de Excel en PDF, implemente la interfaz IWarningCallback y configure la propiedad PdfSaveOptions.WarningCallback con su interfaz implementada.
 
-La siguiente captura de pantalla muestra un archivo fuente de Excel que usaremos en el siguiente código. Tiene algo de texto en las celdas A6 y A7 en fuentes que Microsoft Excel no reproduce bien.
+La siguiente captura de pantalla muestra un archivo fuente de Excel que usaremos en el siguiente código. Tiene algo de texto en las celdas A6 y A7 en fuentes que Microsoft Excel no reproduce correctamente.
 
 |**No todas las fuentes se representan correctamente**|
 |:- |

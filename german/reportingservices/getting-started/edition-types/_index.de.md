@@ -6,15 +6,15 @@ url: /de/reportingservices/edition-types/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells für Reporting Services bietet nur einen Editionstyp. Die Funktionen sind unten zusammengefasst.
+Aspose.Cells for Reporting Services bietet nur einen Editionstyp an. Die Funktionen sind unten zusammengefasst.
 
-|**Merkmale** |**Aspose.Cells für Meldedienste** |
+|**Merkmale** |**Aspose.Cells for Reporting Services** |
 |:- |:- |
 | Aspose.Cells.Report.Designer| Ja|
-| Aspose.Cells.Renderer für Reporting Services.| Ja|
+| Aspose.Cells.Renderer for Reporting Services.| Ja|
 | Erstellung von Datenquellen und Abfragen.| Ja|
 | Reporting Services-Parameter als Berichtsdatenquelle.| Ja|
-|Globale Reporting Services-Variablen als Berichtsdatenquelle.| Ja|
+| Globale Reporting Services-Variablen als Berichtsdatenquelle.| Ja|
 | Reporting Services-Formeln als Berichtsdatenquelle.| Ja|
 | Microsoft Dynamische Excel-Formel.| Ja|
 | Festlegen der freigegebenen Datenquelle als Berichtsdatenquelle zum Zeitpunkt der Veröffentlichung.| Ja|

@@ -4,14 +4,14 @@ type: docs
 weight: 5
 url: /tr/php-java/features/
 keywords: php, excel, api, feature
-description: Java özellikleri aracılığıyla PHP için Aspose.Cells
+description: Aspose.Cells for PHP via Java özellikler
 ---
-## **Java aracılığıyla PHP için Aspose.Cells Özelliklere Genel Bakış**
-Bu bölüm, Java üzerinden PHP için Aspose.Cells for Java ve Aspose.Cells arasındaki özelliklerin kullanılabilirliğinin bir karşılaştırmasını sağlar.
+## **Aspose.Cells for PHP via Java Özelliklere Genel Bakış**
+Bu bölüm, Aspose.Cells for Java ve Aspose.Cells for PHP via Java arasındaki özelliklerin kullanılabilirlik karşılaştırmasını sağlar.
 ### **Dosya Biçimleri ve Dönüşümler**
 Dünya çapında birçok müşteri, Aspose.Cells tarafından sağlanan kapsamlı belge içe ve dışa aktarma özelliklerine güveniyor.
 
-|**Özellik**|**Tanım**|**Aspose.Cells for Java**|**Java aracılığıyla PHP için Aspose.Cells**|
+|**Özellik**|**Tanım**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |:- |
 |Yüksek Kaliteli Dönüşümler|Birkaç popüler belge formatı arasında hızlı ve güvenilir bir şekilde dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS biçimi uygulaması.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -25,7 +25,7 @@ Dünya çapında birçok müşteri, Aspose.Cells tarafından sağlanan kapsamlı
 ### **Oluşturma ve Yazdırma**
 Aspose.Cells artık elektronik tablo sayfalarının aslına uygun olarak işlenmesini sağlıyor.
 
-|**Özellik**|**Aspose.Cells for Java**|**Java aracılığıyla PHP için Aspose.Cells**|
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Belgeyi Microsoft Excel®'e yüksek doğrulukla sayfalara yerleştirin (aynı Microsoft Excel®'in yapacağı gibi).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Çalışma sayfası sayfalarını raster görüntülere (PNG, JPEG, vb.) dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -37,7 +37,7 @@ Aspose.Cells artık elektronik tablo sayfalarının aslına uygun olarak işlenm
 ### **Elektronik Tablo İçeriği Özellikleri**
 Aspose.Cells, yüklü elektronik tabloları programlı olarak oluşturmanıza, birleştirmenize, değiştirmenize, ayrıştırmanıza veya başka bir şekilde incelemenize izin veren 100'ün üzerinde genel sınıftan/arayüzden oluşan zengin bir nesne modeli sağlar. Bazı temel özellikler aşağıdaki tabloda verilmiştir.
 
-|**Özellik**|**Aspose.Cells for Java**|**Java aracılığıyla PHP için Aspose.Cells**|
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Array, ArrayList, ResultSet vb.'den verileri içe/dışa aktarın.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Mevcut çalışma sayfasının bir kopyasını ekleyin (resimler, grafikler, diğer nesneler vb. dahil tüm içerikler)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -76,7 +76,7 @@ Aspose.Cells, yüklü elektronik tabloları programlı olarak oluşturmanıza, b
 ### **Elektronik Tablo Biçimlendirme Özellikleri**
 Aspose.Cells, tüm elektronik tablo öğelerinin biçimlendirme özelliklerine ayrıntılı programlı erişim sağlar.
 
-|**Özellik**|**Aspose.Cells for Java**|**Java aracılığıyla PHP için Aspose.Cells**|
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Yazı tipleri, renkler, efektler, kenarlıklar ve gölgeleme dahil olmak üzere hücrelerdeki tüm karakter biçimlendirmesini uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Hücreler için tüm sayı biçimi ayarlarını (Microsoft Excel'de desteklenir) uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -90,7 +90,7 @@ Aspose.Cells, tüm elektronik tablo öğelerinin biçimlendirme özelliklerine a
 ### **Sayfa Kurulumu Özellikleri**
 Çalışma sayfaları için sayfa yapısı seçeneklerini uygulamak için Aspose.Cells'i kullanabilirsiniz.
 
-|**Özellik**|**Aspose.Cells for Java**|**Java aracılığıyla PHP için Aspose.Cells**|
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Sayfa yönünü, ölçeklemeyi, kağıt boyutunu ayarlayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Kenar boşluklarınızı ve sayfa merkezlemenizi belirtin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

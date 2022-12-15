@@ -1,55 +1,55 @@
 ﻿---
-title: Aspose.Cells för Java 8.1.0 Release Notes
+title: Aspose.Cells for Java 8.1.0 Notas de la versión
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-java-8-1-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 8.1.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.1.0/)
+ Esta página contiene notas de la versión para[Aspose.Cells for Java 8.1.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.1.0/)
 
 {{% /alert %}} 
 
- Aspose.Cells för Java har uppdaterats till version 8.1.0 och vi är glada att kunna meddela att denna utgåva innehåller 10 nya användbara förbättringar.
-Med Aspose.Cells för Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
-Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells för Java.
-Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
- Följande är en lista över ändringar i denna version av Aspose.Cells för Java.
+ Aspose.Cells for Java se actualizó a la versión 8.1.0 y nos complace anunciar que esta versión trae la adición de 10 nuevas mejoras útiles.
+Usando Aspose.Cells for Java puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
+Visite la documentación para saber cómo comenzar con Aspose.Cells for Java.
+Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
+ La siguiente es una lista de cambios en esta versión de Aspose.Cells for Java.
 
-Andra förbättringar och förändringar
+Otras mejoras y cambios
 
-Förbättringar
+Mejoras
 
-(CELLSJAVA-40823) - Begränsa API:et att använda den typsnittskatalog som anges med metoden CellsHelper.setFontDir
-(CELLSJAVA-40716) - diagramlinjerna är inte skarpa/skarpa
-(CELLSJAVA-40827) - Få skärmfärg definierad i anpassat nummerformat
+(CELLSJAVA-40823): restrinja el API para usar el directorio de fuentes especificado mediante el método CellsHelper.setFontDir
+(CELLSJAVA-40716): las líneas del diagrama no son nítidas/nítidas
+(CELLSJAVA-40827): obtenga el color de la pantalla definido en un formato de número personalizado
 
-Buggar
+Insectos
 
-(CELLSJAVA-40809) - Vissa färger visas precis före kolumnen i en tabell
-(CELLSJAVA-40814) - Bilder saknas i resulterande PDF när kalkylblad konverteras på Ubuntu
-(CELLSJAVA-40826) - Gridlines och Font-inställningar saknas i utdata-HTML
-(CELLSJAVA-40829) - Det går inte att ställa in utskriftskvalitet för kalkylblad
-(CELLSJAVA-40838) - PrintCopies bevaras för XLS-format men inte för XLSX-format
+(CELLSJAVA-40809): algunos colores se muestran justo antes de la columna en una tabla
+(CELLSJAVA-40814): faltan imágenes en el PDF resultante cuando la hoja de cálculo se convierte en Ubuntu
+(CELLSJAVA-40826): faltan las configuraciones de cuadrícula y fuente en el HTML de salida
+(CELLSJAVA-40829): no se puede establecer la calidad de impresión de las hojas de trabajo.
+(CELLSJAVA-40838): las copias impresas se conservan para el formato XLS, pero no para el formato XLSX.
 
-Undantag
+Excepciones
 
-(CELLSJAVA-40739) - Sparar pivotbar som mht
-(CELLSJAVA-40531) - Celler Undantag: Kartstorlek (0) måste vara >= 1
+(CELLSJAVA-40739): guardar tabla dinámica como mht
+(CELLSJAVA-40531) - CellsException: el tamaño del mapa (0) debe ser >= 1
 
 
-Public API och bakåtinkompatibla ändringar
+Public API y cambios incompatibles con versiones anteriores
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
-Obsoletes BuiltInDocumentPropertyCollection.Bytes/Characters/CharactersWithSpaces/Lines/Paragraphs-egenskaper
-Dessa egenskaper är skrivna för Word och PowerPoint, Excel kommer att utelämna dem.
+Obsoleta las propiedades de BuiltInDocumentPropertyCollection.Bytes/Characters/CharactersWithSpaces/Lines/Paragraphs
+Esas propiedades están escritas para Word y PowerPoint, Excel las omitirá.
 
-Lägger till egenskapen Cell.StringValueWithoutFormat
-Hämtar cellens värde som sträng utan något format.
+Agrega la propiedad Cell.StringValueWithoutFormat
+Obtiene el valor de la celda como cadena sin ningún formato.
 
-Lägger till egenskapen HtmlSaveOptions.ExportHiddenWorksheet
-Anger om det dolda kalkylbladets innehåll exporteras när html-filen sparas. Standardvärdet är sant.
+Agrega la propiedad HtmlSaveOptions.ExportHiddenWorksheet
+Indicar si exportar el contenido oculto de la hoja de trabajo al guardar el archivo html. El valor por defecto es verdadero.
 
-Notera
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.1.0 också i denna Aspose.Cells för Java v8.1.0.
+Nota
+Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v8.1.0 también se incluyen en este Aspose.Cells for Java v8.1.0.

@@ -1,12 +1,12 @@
 ﻿---
-title: Raporlama Hizmetleri 1.1.0.0 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 1.1.0.0 Sürüm Notları
 type: docs
 weight: 30
 url: /tr/reportingservices/aspose-cells-for-reporting-services-1-1-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[Raporlama Hizmetleri 1.1.0.0 için Aspose.Cells](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.1.0.0/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Reporting Services 1.1.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.1.0.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-1-1-0-0-release-n
 
 
 
-Aspose.Cells.ReportingServices V1.1.0.0 sürümünü yayınladık.
+ Aspose.Cells.ReportingServices V1.1.0.0 sürümünü yayınladık.
 
 
 
@@ -22,5 +22,5 @@ Aspose.Cells.ReportingServices V1.1.0.0 sürümünü yayınladık.
 
 
 
--  ` `Bir istemci eklenti aracı sağlıyoruz - Aspose Cells Rapor Tasarımcısı, kullanıcıların MS Excel'i bir rapor tasarım aracı olarak kullanmalarına olanak tanır. Aspose Cells Rapor Tasarımcısı ile kullanıcılar, Visual Studio veya başka bir rapor oluşturucu aracı yerine Excel'de bir rapor şablonu tasarlayabilir. Rapor şablonu, Reporting Services RDL dosyasına yerleştirilmiştir ve Rapor Sunucusunda yayınlanabilir. Rapor tasarımını kolay ve hızlı bir görev haline getirir.
--  Aspose.Cells Reporting Services için sunucu oluşturma büyük ölçüde geliştirildi. Rapor şablonuyla çalışan kullanıcılar, yerel Excel grafikleri, gelişmiş formüller, özet tablolar ve daha fazlası dahil olmak üzere Raporlama Hizmetlerindeki tüm gelişmiş Excel özelliklerini kullanabilir.
+- ` `Bir istemci eklenti aracı sağlıyoruz - Aspose Cells Rapor Tasarımcısı, kullanıcıların MS Excel'i bir rapor tasarım aracı olarak kullanmalarına olanak tanır. Aspose Cells Rapor Tasarımcısı ile kullanıcılar, Visual Studio veya başka bir rapor oluşturucu aracı yerine Excel'de bir rapor şablonu tasarlayabilir. Rapor şablonu, Reporting Services RDL dosyasına yerleştirilmiştir ve Rapor Sunucusunda yayınlanabilir. Rapor tasarımını kolay ve hızlı bir görev haline getirir.
+-  Aspose.Cells for Reporting Services sunucu sunumu büyük ölçüde geliştirildi. Rapor şablonuyla çalışan kullanıcılar, yerel Excel grafikleri, gelişmiş formüller, özet tablolar ve daha fazlası dahil olmak üzere Raporlama Hizmetlerindeki tüm gelişmiş Excel özelliklerini kullanabilir.

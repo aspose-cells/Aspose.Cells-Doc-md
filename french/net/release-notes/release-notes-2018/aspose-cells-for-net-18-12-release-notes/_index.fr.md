@@ -75,7 +75,7 @@ Utilisez la méthode Cells.GetEnumerator() pour itérer toutes les cellules de c
 Utilisez plutôt la méthode Cells.ImportData (DataTable,int,int,ImportTableOptions).
 #### **Supprime les méthodes Cells.ImportDataReader() obsolètes**
 Utilisez plutôt la méthode Cells.ImportData (IDataReader, int, int,ImportTableOptions).
-#### **Supprime la propriété obsolète Shape.Rotation**
+#### **Supprime la propriété Shape.Rotation obsolète**
 Utilisez plutôt la propriété Shape.RotationAngle.
 #### **Supprime la propriété Validation.AreaList obsolète**
 Utilisez plutôt la propriété Validation.Areas.

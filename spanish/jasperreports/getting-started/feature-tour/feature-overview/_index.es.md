@@ -1,12 +1,12 @@
 ﻿---
-title: Resumen de funciones
+title: Resumen de características
 type: docs
 weight: 10
 url: /es/jasperreports/feature-overview/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells para JasperReports es un producto para exportar informes de JasperReports y JasperServer al formato Microsoft Excel. Aspose.Cells para JasperReports hereda todas las características del exportador integrado y compensa algunas de las debilidades del renderizador XLS original de JasperReports. Esta sección proporciona una descripción detallada de Aspose.Cells para las características de JasperReports. Haga clic en los enlaces respectivos de la tabla para obtener más información sobre las características.
+Aspose.Cells for JasperReports es un producto para exportar informes de JasperReports y JasperServer al formato Microsoft Excel. Aspose.Cells for JasperReports hereda todas las características del exportador integrado y compensa algunas de las debilidades del renderizador XLS original de JasperReports. Esta sección proporciona una descripción detallada de las funciones Aspose.Cells for JasperReports. Haga clic en los enlaces respectivos de la tabla para obtener más información sobre las características.
 
 {{% /alert %}}
 

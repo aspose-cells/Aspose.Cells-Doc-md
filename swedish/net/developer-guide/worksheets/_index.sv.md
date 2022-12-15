@@ -8,7 +8,7 @@ description: Lägg till kalkylblad, ta bort kalkylblad och aktivt arbetsblad med
 ---
 {{% alert color="primary" %}}
 
-Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer programmatiskt med hjälp av Aspose.Cells' flexibla API. Det här avsnittet beskriver metoder för att lägga till och ta bort kalkylblad i Microsoft Excel-filer.
+Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer programmatiskt med hjälp av Aspose.Cells' flexibel API. Det här avsnittet beskriver metoder för att lägga till och ta bort kalkylblad i Microsoft Excel-filer.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer progr
 
  Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad.
 
-## **Lägga till arbetsblad i en ny Excel-fil**
+## **Lägga till kalkylblad till en ny Excel-fil**
 
 Så här skapar du en ny Excel-fil programmatiskt:
 

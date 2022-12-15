@@ -28,7 +28,7 @@ url: /sv/net/how-to-run-aspose-cells-in-aws-lambda/
 1. Skapa en ASP.NET Core Web Application i Visual Studio, skriv testkod, hämta Aspose.Cells från nuget.
 
 1. Se till att testprojektet fungerar bra på din lokala dator och distribuera det sedan till AWS Elastic Beanstalk:
- Högerklicka på projektnamnet, välj "Publicera till AWS Elastic Beanstalk". (Det här alternativet finns bara efter att du har installerat AWS Toolkit för Visual Studio).
-1. Du kommer att behöva lägga till en ny användare med ditt AWS-konto och IAM-användare, du kan importera filen "credentials.csv" som du får i föregående steg.
+Högerklicka på projektnamnet, välj "Publicera till AWS Elastic Beanstalk". (Det här alternativet finns bara efter att du har installerat AWS Toolkit för Visual Studio).
+1.  Du kommer att behöva lägga till en ny användare med ditt AWS-konto och IAM-användare, du kan importera filen "credentials.csv" som du får i föregående steg.
 1. Publiceringsframgång får du en länkadress som: `http://testprojectaspose-test.us-west-2.elasticbeanstalk.com/`
  Vänta 10 minuter tills länken träder i kraft, sedan kan du besöka den!

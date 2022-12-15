@@ -16,8 +16,8 @@ Ibland har du en länkad form i din Excel-fil som är länkad till någon cell. 
 
 ![todo:image_alt_text](refresh-values-of-linked-shapes_1.png)
 
-Du kan ladda ner[källfil för Excel](5472956.xlsx) och den[mata ut PDF](5472955.pdf) från de angivna länkarna.
+Du kan ladda ner[käll Excel-fil](5472956.xlsx) och den[mata ut PDF](5472955.pdf) från de angivna länkarna.
 
-### Java-kod för att uppdatera värdena för länkade former
+### Java kod för att uppdatera värdena för länkade former
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}

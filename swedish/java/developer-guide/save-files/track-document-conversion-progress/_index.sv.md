@@ -10,7 +10,7 @@ Ibland kan det ta lite tid att konvertera stora Excel-filer. Under denna tid kan
 
 ## **Spåra dokumentkonverteringsförlopp**
 
-Följande kodexempel laddar[source excel-fil](PagesBook1.xlsx)och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestPageSavingCallback*anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt.
+Följande kodexempel laddar[källkod excel-fil](PagesBook1.xlsx)och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestPageSavingCallback*anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt.
 
 ## **Exempelkod**
 

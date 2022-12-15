@@ -54,7 +54,7 @@ Rullningslister används för att navigera i innehållet i alla filer. Normalt f
 - Vertikala rullningslister
 - Horisontella rullningslister
 
-Microsoft Excel har även horisontella och vertikala rullningslister så att användare kan rulla igenom kalkylbladets innehåll. Med hjälp av Aspose.Cells kan utvecklare kontrollera synligheten för båda typerna av rullningslister i Excel-filer.
+Microsoft Excel tillhandahåller även horisontella och vertikala rullningslister så att användare kan rulla igenom kalkylbladets innehåll. Med hjälp av Aspose.Cells kan utvecklare kontrollera synligheten för båda typerna av rullningslister i Excel-filer.
 
 ### **Kontrollera synligheten för rullningslister**
 

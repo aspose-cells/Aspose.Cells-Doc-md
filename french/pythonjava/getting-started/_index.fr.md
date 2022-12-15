@@ -5,10 +5,10 @@ type: docs
 weight: 4
 url: /fr/python-java/getting-started/ 
 keywords: python, excel, instal
-description: Configurez Aspose.Cells pour Python via Java et les directives d'installation.
+description: Configuration Aspose.Cells for Python via Java et directives d'installation.
 ---
 ## **Configuration requise**
- Aspose.Cells pour Python via Java est indépendant de la plate-forme API et peut être utilisé sur n'importe quelle plate-forme (Windows, Linux et MacOS) où[Python](https://www.python.org/downloads/) est installé. La machine doit disposer des versions Java 8 ou supérieures avant de configurer l'installation.
+Aspose.Cells for Python via Java est indépendant de la plate-forme API et peut être utilisé sur n'importe quelle plate-forme (Windows, Linux et MacOS) où[Python](https://www.python.org/downloads/) est installé. La machine doit disposer des versions Java 8 ou supérieures avant de configurer l'installation.
 
 ## **Version Python**
 - Python 3.5 ou supérieur
@@ -27,8 +27,8 @@ PATH=C:\jdk1.8.0_131\bin;
 
 {{< /highlight >}}
   
-- **Installez Aspose.Cells pour Python via Java de pypi**
- Vous pouvez facilement utiliser Aspose.Cells pour Python via Java à partir de[pypi](https://pypi.org/project/aspose-cells/) avec la commande suivante.
+- **Installez Aspose.Cells for Python via Java à partir de pypi**
+ Vous pouvez facilement utiliser Aspose.Cells for Python via Java à partir de[pypi](https://pypi.org/project/aspose-cells/) avec la commande suivante.
 {{< highlight "java" >}}
 
  $ pip install aspose-cells
@@ -38,8 +38,8 @@ PATH=C:\jdk1.8.0_131\bin;
 ### **Linux :**
 - **Installer Java**
   
-- **Installez Aspose.Cells pour Python via Java de pypi**
- Vous pouvez facilement utiliser Aspose.Cells pour Python via Java à partir de[pypi](https://pypi.org/project/aspose-cells/) avec la commande suivante.
+- **Installez Aspose.Cells for Python via Java à partir de pypi**
+ Vous pouvez facilement utiliser Aspose.Cells for Python via Java à partir de[pypi](https://pypi.org/project/aspose-cells/) avec la commande suivante.
 {{< highlight "java" >}}
 
  $ pip install aspose-cells
@@ -49,8 +49,8 @@ PATH=C:\jdk1.8.0_131\bin;
 ### **Mac OS :**
 - **Installer Java**
   
-- **Installez Aspose.Cells pour Python via Java de pypi**
- Vous pouvez facilement utiliser Aspose.Cells pour Python via Java à partir de[pypi](https://pypi.org/project/aspose-cells/) avec la commande suivante.
+- **Installez Aspose.Cells for Python via Java à partir de pypi**
+ Vous pouvez facilement utiliser Aspose.Cells for Python via Java à partir de[pypi](https://pypi.org/project/aspose-cells/) avec la commande suivante.
 {{< highlight "java" >}}
 
  $ pip install aspose-cells

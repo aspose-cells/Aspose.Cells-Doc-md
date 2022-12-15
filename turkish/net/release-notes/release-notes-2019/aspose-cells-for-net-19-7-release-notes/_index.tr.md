@@ -15,8 +15,8 @@ url: /tr/net/aspose-cells-for-net-19-7-release-notes/
 |CELLSNET-42029|Dönüşümün ilerleyişini size bildiren bir tür Geri Arama olayı/mekanizması ekleme desteği|Yeni özellik|
 |CELLSNET-46791|Daha fazla görünümü destekler, ancak özel görünümü desteklemez|Yeni özellik|
 |CELLSNET-46808|XLS dosyasının tablo tek hücrelerini okuma desteği.|Yeni özellik|
-|CELLSNET-46775|Gruplanmış şeklin genişliği ayarlanamaz|Artırma|
-|CELLSNET-46785|Aynı kelimeler için kısaltma durumu farklıdır: HtmlSaveOptions ve HTMLLoadOptions, JsonLayoutOptions ve JSONUtility, ODSLoadOptions ve OdsSaveOptions.|Artırma|
+|CELLSNET-46775|Gruplandırılmış şeklin genişliği ayarlanamaz|Artırma|
+|CELLSNET-46785|Aynı sözcükler için kısaltma durumu farklıdır: HtmlSaveOptions ve HTMLLoadOptions, JsonLayoutOptions ve JSONUtility, ODSLoadOptions ve OdsSaveOptions.|Artırma|
 |CELLSNET-46811|XLS dosyasının HeadingPairs ve TitlesOfParts etiketlerini destekler.|Artırma|
 |CELLSNET-46783|CalculateFormula çok yavaş|Verim|
 |CELLSNET-46746|CalculateFormula - formüller çizelgeleri etkilemez|Böcek|

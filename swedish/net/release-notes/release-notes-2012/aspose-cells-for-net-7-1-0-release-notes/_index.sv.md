@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 7.1.0 Release Notes
+title: Aspose.Cells for .NET 7.1.0 Release Notes
 type: docs
 weight: 110
 url: /sv/net/aspose-cells-for-net-7-1-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.1.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.1.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.1.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.1.0/)
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ url: /sv/net/aspose-cells-for-net-7-1-0-release-notes/
 Aspose.Cells 
 
 Ny
- Funktioner
+Funktioner
 
 - Stöd för att tillämpa villkorlig formatering på pivottabeller
 - Läs konfigurationen av gruppfält i pivottabeller
@@ -30,7 +30,7 @@ Ny
 - Smart Marker Tags konvertering
 - Saknade egenskaper (pivottabell)
 
- Saknade egenskaper (pivotfält)
+ - Saknade egenskaper (pivotfält)
 
  -PivotField.ShowCompact - Felaktigt egenskapsvärde i XLS-format
 
@@ -55,7 +55,7 @@ Ny
 
  Buggar
 
- - Det gick inte att uppdatera pivottabellen i en Excel-arbetsbok
+ Det gick inte att uppdatera pivottabellen i en Excel-arbetsbok
 
 - Problem med standardpappersstorleken
 - Smutsig höger kant på bilden vid konvertering av XLS till PDF
@@ -78,7 +78,7 @@ Ny
 - Det gick inte att öppna filen med MS Excel
 - Problem med HTML-utdata i den nya Aspose.Cells DLL (version)
 
- -Uppdatering av XLSX-fil med pivottabell gör att Excel visar fel
+-Uppdatering av XLSX-fil med pivottabell gör att Excel visar fel
 
  -ToImage-funktion som genererar extra kolumn i den genererade bilden (Sheet-to-Imageissue)
 

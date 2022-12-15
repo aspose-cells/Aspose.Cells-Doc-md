@@ -13,5 +13,5 @@ Den här sidan innehåller utgåvor för Aspose.Cells Reporting Services 22.10
 |**ID**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |35094 | Exportera till CSV (ACCSV) - kodningsproblem|
-|35344 |Fixa anpassat format för textrutarapportobjekt.|
+|35344 | Fixa anpassat format för textrutarapportobjekt.|
 |35345 | Stöd för att rendera nummerformat.|

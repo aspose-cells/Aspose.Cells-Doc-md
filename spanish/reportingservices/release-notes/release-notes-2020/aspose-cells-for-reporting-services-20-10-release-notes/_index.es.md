@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Reporting Services 20.10 Notas de la versión
+title: Aspose.Cells for Reporting Services 20.10 Notas de la versión
 type: docs
 weight: 9
 url: /es/reportingservices/aspose-cells-for-reporting-services-20-10-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Esta página contiene notas de la versión Aspose.Cells para Reporting Services 20.10.
+Esta página contiene notas de la versión para Aspose.Cells for Reporting Services 20.10.
 
 {{% /alert %}}
 

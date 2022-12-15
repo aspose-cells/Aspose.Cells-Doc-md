@@ -4,7 +4,7 @@ type: docs
 weight: 90
 url: /fr/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - Diviser Cells dans la feuille de calcul**
+## **Aspose.Cells - Diviser Cells dans la feuille de travail**
 **C#**
 
 {{< highlight "cs" >}}

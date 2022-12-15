@@ -33,7 +33,7 @@ Während der Arbeit an Arbeitsblättern können Benutzer verschiedene Arten von 
 - [BoolWert](https://reference.aspose.com/cells/java/com.aspose.cells/cell#BoolValue), der boolesche Wert der Zelle.
 - [DateTimeValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#DateTimeValue), der Datums-/Uhrzeitwert der Zelle.
 - [Gleitkommawert](https://reference.aspose.com/cells/java/com.aspose.cells/cell#FloatValue), der Gleitkommawert der Zelle.
-- [IntValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#IntValue), der ganzzahlige Wert der Zelle.
+- [IntWert](https://reference.aspose.com/cells/java/com.aspose.cells/cell#IntValue), der ganzzahlige Wert der Zelle.
 
  Darüber hinaus kann die Art der in einer Zelle enthaltenen Daten auch mit überprüft werden[Typ](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) Eigentum der[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Klasse. Tatsächlich ist die[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Klasse'[Typ](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) Eigentum basiert auf[CellValueType](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueType)Enumeration, deren vordefinierte Werte unten aufgeführt sind:
 

@@ -47,7 +47,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 
 ### **Ajoute la propriété AbstractCalculationEngine.ProcessBuiltInFunctions**
 
- Pour des raisons de performances et de commodité pour l'utilisateur, nous ajoutons cette propriété et définissons sa valeur par défaut sur false afin que l'utilisateur puisse se concentrer sur les fonctions qui n'ont pas été prises en charge par le moteur intégré. Si l'implémentation existante de l'utilisateur de AbstractCalculationEngine a modifié le calcul de certaines fonctions intégrées, l'utilisateur doit remplacer cette propriété pour la rendre aussi**vrai** de**20.9**.
+Pour des raisons de performances et de commodité pour l'utilisateur, nous ajoutons cette propriété et définissons sa valeur par défaut sur false afin que l'utilisateur puisse se concentrer sur les fonctions qui n'ont pas été prises en charge par le moteur intégré. Si l'implémentation existante de l'utilisateur de AbstractCalculationEngine a modifié le calcul de certaines fonctions intégrées, l'utilisateur doit remplacer cette propriété pour la rendre aussi**vrai** de**20.9**.
 
 ### **Ajoute la propriété TxtLoadOptions.HasTextQualifier**
 

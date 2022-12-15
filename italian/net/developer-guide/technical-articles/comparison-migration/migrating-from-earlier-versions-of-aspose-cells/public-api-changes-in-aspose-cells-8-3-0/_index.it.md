@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.3.0
+title: Modifiche all'API pubblica in Aspose.Cells 8.3.0
 type: docs
 weight: 100
 url: /it/net/public-api-changes-in-aspose-cells-8-3-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.2.2 alla 8.3.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.2.2 alla 8.3.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
 
 {{% /alert %}} 
 ## **API aggiunte**

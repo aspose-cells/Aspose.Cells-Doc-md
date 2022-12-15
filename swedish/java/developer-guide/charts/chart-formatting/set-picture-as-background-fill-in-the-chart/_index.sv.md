@@ -16,6 +16,6 @@ Följande diagram skapas med exempelkoden.
 
 ![todo:image_alt_text](set-picture-as-background-fill-in-the-chart_1.png)
 
-## Java-kod för att ställa in bild som bakgrundsfyllning i diagrammet
+## Java kod för att ställa in bild som bakgrundsfyllning i diagrammet
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPictureAsBackgroundFillInChart-SetPictureAsBackgroundFillInChart.java" >}}

@@ -11,7 +11,7 @@ Aspose.Cells låter dig komma åt och uppdatera delarna av cellens rich text. F�
 
 {{% /alert %}} 
 ## **Få åtkomst till och uppdatera delarna av Rich Text på Cell**
- Följande kod visar användningen av metoderna Cell.getCharacters() och Cell.setCharacters() med hjälp av[source excel-fil](5472937.xlsx) som du kan ladda ner från den medföljande länken. Excel-källfilen har en rik text i cellen A1. Den har 3 delar och varje del har olika typsnitt. Vi kommer åt dessa delar och uppdaterar den första delen med ett nytt teckensnittsnamn. Slutligen sparar den arbetsboken som[output excel-fil](5472930.xlsx) . När du öppnar den kommer du att se att teckensnittet för den första delen av texten har ändrats till**"Arial"**.
+ Följande kod visar användningen av metoderna Cell.getCharacters() och Cell.setCharacters() med hjälp av[källkod excel-fil](5472937.xlsx) som du kan ladda ner från den medföljande länken. Excel-källfilen har en rik text i cellen A1. Den har 3 delar och varje del har olika typsnitt. Vi kommer åt dessa delar och uppdaterar den första delen med ett nytt teckensnittsnamn. Slutligen sparar den arbetsboken som[output excel-fil](5472930.xlsx) . När du öppnar den kommer du att se att teckensnittet för den första delen av texten har ändrats till**"Arial"**.
 
 
 
@@ -25,7 +25,7 @@ Aspose.Cells låter dig komma åt och uppdatera delarna av cellens rich text. F�
 
 
 ## **Konsolutgång**
- Här är konsolutgången för ovanstående exempelkod med hjälp av[source excel-fil](5472937.xlsx).
+ Här är konsolutgången för ovanstående exempelkod med hjälp av[källkod excel-fil](5472937.xlsx).
 
 {{< highlight "java" >}}
 

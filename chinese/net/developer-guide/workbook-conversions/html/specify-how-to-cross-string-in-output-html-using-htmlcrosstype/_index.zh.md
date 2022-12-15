@@ -20,7 +20,7 @@ url: /zh/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 
 下面的示例代码加载[示例 Excel 文件](51740732.xlsx)并通过指定不同的方式将其保存为 HTML 格式[**Html 交叉类型**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype).请下载[输出 HTML](51740734.zip)使用此代码生成。示例 Excel 文件包含带有红色边框的图像，如显示效果的屏幕截图所示[**Html 交叉类型**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)输出 HTML 上的值。
 
-![待办事项：图片_替代_文本](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+![待办事项：图像_替代_文本](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
 ## **示例代码**
 

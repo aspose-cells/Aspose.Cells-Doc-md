@@ -5,7 +5,7 @@ weight: 80
 url: /zh/java/zoom-factor-in-python/
 ---
 ## **Aspose.Cells - 缩放系数**
-设置缩放系数使用**Aspose.Cells Java 为 Python** 只需调用**缩放因子**模块。
+设置缩放系数使用**Aspose.Cells Java for Python** 只需调用**缩放因子**模块。
 
 **Python 代码**
 

@@ -6,7 +6,7 @@ url: /ar/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells - عرض أو إخفاء أشرطة التمرير**
 ### **إخفاء رؤوس الصفوف / الأعمدة**
- لإخفاء رؤوس الصفوف / الأعمدة باستخدام**Aspose.Cells Java لـ Python** ، مكالمة**DisplayHideRowColumnHeaders** وحدة.
+لإخفاء رؤوس الصفوف / الأعمدة باستخدام**Aspose.Cells Java for Python** ، مكالمة**DisplayHideRowColumnHeaders** وحدة.
 
 **Python كود**
 
@@ -43,7 +43,7 @@ print "Scroll bars are now hidden, please check the output document."
 worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**Hello World (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

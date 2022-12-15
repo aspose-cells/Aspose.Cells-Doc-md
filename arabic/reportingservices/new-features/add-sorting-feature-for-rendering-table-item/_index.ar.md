@@ -4,4 +4,4 @@ type: docs
 weight: 130
 url: /ar/reportingservices/add-sorting-feature-for-rendering-table-item/
 ---
-يقوم Aspose.Cells لـ Reporting Services بفرز بيانات عنصر الجدول لملف Excel المُصدَّر من خلال إضافة تكوين فرز الجدول في ملف تكوين Reporting Services Aspose.Cells.
+Aspose.Cells for Reporting Services يقوم بفرز بيانات عنصر الجدول لملف Excel الذي تم تصديره من خلال إضافة تكوين فرز الجدول في ملف تكوين خدمات التقارير Aspose.Cells.

@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /sv/java/copy-sheet-within-workbook/
 ---
-## **Microsoft Excel - Flytta eller kopiera ark i arbetsboken**
+## **Microsoft Excel - Flytta eller kopiera ark i arbetsbok**
 Nedan följer stegen för att kopiera och flytta kalkylblad i eller mellan arbetsböcker.
 
 1. För att flytta eller kopiera ark inom eller mellan arbetsböcker, öppna arbetsboken som ska ta emot arken.

@@ -10,7 +10,7 @@ url: /sv/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-
 
 {{% /alert %}} 
 ## **Uppdatera OLE-objekt automatiskt via Microsoft Excel med Aspose.Cells**
- Följande exempelkod laddar[exempel på excel-fil](5473423.xlsx) som har en icke-äkta OLE-bild. OLE-objektet är egentligen ett Microsoft Word-dokument men exemplet i Excel-filen visar djurbilden istället för Microsoft Word-bilden. Men om du öppnar[output excel-fil](5473429.xlsx), kommer du att se att Microsoft Excel visar rätt OLE-bild.
+ Följande exempelkod laddar[exempel på excel-fil](5473423.xlsx) som har en icke-äkta OLE-bild. OLE-objektet är egentligen ett Microsoft Word-dokument men exemplet i Excel-filen visar djurbilden istället för Microsoft Word-bilden. Men om du öppnar[output excel-fil](5473429.xlsx), kommer du att se Microsoft Excel visar rätt OLE-bild.
 
  Följande skärmdump visar hur[exempel på excel-fil](5473423.xlsx) ser ut när den öppnas i Microsoft Excel.
 

@@ -27,7 +27,7 @@ url: /de/net/aspose-cells-for-net-19-7-release-notes/
 |CELLSNET-43921|Das Rendern von XLSX zu XLSB erzeugt eine beschädigte Datei|Insekt|
 |CELLSNET-44593|Die Excel-Ausgabedatei ist beim Konvertieren von HTML in Excel nicht gut|Insekt|
 |CELLSNET-46794|Cells Verschiebung, wenn HTML in XLSX konvertiert wurde|Insekt|
-|CELLSNET-46809|Die bedingten Formate haben alle Zellen in der Spalte ausgeblendet (Spalten B, C und D).|Insekt|
+|CELLSNET-46809|Die bedingten Formate haben alle Zellen in der Spalte ausgeblendet (Spalten B, C und D)|Insekt|
 |CELLSNET-46778|CalculateFormula() unterbricht die Darstellung von UNICHAR()|Insekt|
 |CELLSNET-46781|System.Globalization.CultureInfo.CurrentCulture wird geändert|Insekt|
 |CELLSNET-46244|GridDesktop Kopieren und Einfügen mit Kommentarfehlern aus|Insekt|

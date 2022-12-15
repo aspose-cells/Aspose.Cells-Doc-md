@@ -41,8 +41,8 @@ url: /it/java/aspose-cells-for-java-16-12-0-release-notes/
 |CELLSJAVA-42066 | CellsException su Workbook.save durante la conversione di un XLS in PDF| Eccezione|
 |CELLSJAVA-42101 | Eccezione formula non valida all'apertura del file Excel| Eccezione|
 |CELLSJAVA-42080 | Eccezione al salvataggio della cartella di lavoro| Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge le proprietà BuiltInDocumentPropertyCollection.ScaleCrop e BuiltInDocumentPropertyCollection.LinksUpToDate**
 Ottiene e imposta alcune proprietà predefinite del documento.
 ### **Elimina la proprietà DataLabels.Rotation obsoleta**

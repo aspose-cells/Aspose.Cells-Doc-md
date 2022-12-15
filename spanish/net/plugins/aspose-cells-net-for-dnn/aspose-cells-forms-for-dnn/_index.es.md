@@ -54,7 +54,7 @@ Una vez descargado, siga estos pasos para instalar el módulo en su sitio web de
 ## **Usando**
 Después de haber instalado el módulo Aspose .NET Dynamic Forms Builder para DNN, es muy sencillo comenzar a usarlo en su sitio web. Siga estos sencillos pasos para comenzar:
 
-1. Asegúrese de haber iniciado sesión en DNN con una cuenta de nivel de administrador o anfitrión.
+1. Asegúrese de haber iniciado sesión en DNN con una cuenta de nivel de anfitrión o administrador.
 1. Navegue a la página donde desea agregar el módulo.
 1.  Seleccione**Módulos** seguido por**Agregar nuevo módulo** de la cinta superior.
 1. De la lista, seleccione 'Aspose.NET Dynamic Forms Builder' y arrástrelo a su posición.

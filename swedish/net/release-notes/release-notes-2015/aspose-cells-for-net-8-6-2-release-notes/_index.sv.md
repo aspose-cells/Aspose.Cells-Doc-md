@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 8.6.2 Release Notes
+title: Aspose.Cells for .NET 8.6.2 Release Notes
 type: docs
 weight: 20
 url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 8.6.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.6.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 8.6.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.6.2/)
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44043) - Att öppna och spara en stor Excel-fil förstör dokumentet
 
- (CELLSNET-44031) - XLSB skadad i Excel 2010 efter att ha sparats i v8.6.1
+(CELLSNET-44031) - XLSB skadad i Excel 2010 efter att ha sparats i v8.6.1
 
  (CELLSNET-43990) - Felplacerad AutoShape när kalkylblad renderades till PDF
 
@@ -46,7 +46,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43421) - Pilen återges inte korrekt när kalkylark konverteras till PDF
 
-(CELLSNET-43391) - Problem med HTML-rendering för en tabell med en dold kolumn
+ (CELLSNET-43391) - Problem med HTML-rendering för en tabell med en dold kolumn
 
  (CELLSNET-44045) - Arbetsbok.CalculateFormula-metoder fastnar på obestämd tid
 
@@ -58,7 +58,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44002) - Bilden skalas på grund av något problem i koden
 
- (CELLSNET-43960) - Kan inte läsa någon lösenordsskyddad fil
+(CELLSNET-43960) - Kan inte läsa någon lösenordsskyddad fil
 
  (CELLSNET-44062) - Diagrammets förklaringspost tas inte bort när datakällans kolumn är dold
 
@@ -70,7 +70,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44000) - DataLabel saknas när diagrammet återges till bild
 
-(CELLSNET-43978) - Diagram till bild genereras med extra värden
+ (CELLSNET-43978) - Diagram till bild genereras med extra värden
 
  (CELLSNET-43874) - Chart.NSeries.DataLabels nummerformat bibehålls inte vid omslagning
 
@@ -82,7 +82,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44056) - Spara till PDF tappar vertikala ramar
 
- (CELLSNET-44049) - Dolda kolumner tappar sin bredd
+(CELLSNET-44049) - Dolda kolumner tappar sin bredd
 
  (CELLSNET-44039) - Kunde inte beräkna formeln baserat på filtrerade värden i kalkylbladet
 
@@ -94,7 +94,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44007) - Duplicering av kameraobjekt i resulterande kalkylblad samtidigt som XLSB sparas på nytt
 
-(CELLSNET-44006) - Skyddat visningsfel vid öppning av återsparad XLS
+ (CELLSNET-44006) - Skyddat visningsfel vid öppning av återsparad XLS
 
  (CELLSNET-44001) - NOW()-formeln visas inte korrekt i SpreadsheetML(XML) till PDF-konvertering
 
@@ -108,7 +108,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44008) - CellsException på SheetRender.ToImage
 
-(CELLSNET-43926) - CellsException at Workbook.CalculateFormula
+ (CELLSNET-43926) - CellsException at Workbook.CalculateFormula
 
  (CELLSNET-44052) - Undantag inträffade på Workbook.Save() i Excel till PDF-konvertering
 
@@ -124,7 +124,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 ## **Nya egenskaper**
 
 
- (CELLSNET-44036) - Teckensnittsfärgen är densamma för hela texten även om cellen har texter med olika färger
+(CELLSNET-44036) - Teckensnittsfärgen är densamma för hela texten även om cellen har texter med olika färger
 
  (CELLSNET-44033) - Få modifierade celler i Ajax-läge på serversidan
 
@@ -142,13 +142,13 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 ## **Undantag**
 
 
-(CELLSNET-43185) - SerializationException när Session-State Mode växlas till StateServer
+ (CELLSNET-43185) - SerializationException när Session-State Mode växlas till StateServer
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 

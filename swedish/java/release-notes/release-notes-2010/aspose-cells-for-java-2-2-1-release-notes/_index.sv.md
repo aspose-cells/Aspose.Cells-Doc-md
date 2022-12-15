@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 2.2.1 Release Notes
+title: Aspose.Cells for Java 2.2.1 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-2-2-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.2.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.2.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.2.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.2.1/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java 2.2.1!
+ Vi är glada att meddela Aspose.Cells for Java 2.2.1!
 
  Vad har ändrats:
 
@@ -21,7 +21,7 @@ url: /sv/java/aspose-cells-for-java-2-2-1-release-notes/
 -  Förbättringar görs för att läsa mallfiler
 -  17 korrigeringar och andra förbättringar.
 
- Problem lösta i Aspose.Cells för Java 2.2.1
+ Problem lösta i Aspose.Cells for Java 2.2.1
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |

@@ -34,7 +34,7 @@ L'exemple suivant utilise le fichier Excel Microsoft que nous avons créé dans 
 
 ## **Ajout d'un contrôle de case à cocher à une feuille de calcul**
 
-Les cases à cocher sont pratiques si vous souhaitez permettre à un utilisateur de choisir entre deux options, telles que vrai ou faux ; Oui ou non. Aspose.Cells vous permet d'utiliser des cases à cocher dans les feuilles de calcul. Par exemple, vous avez peut-être développé une feuille de calcul de projection financière dans laquelle vous pouvez comptabiliser ou non une acquisition particulière. Dans ce cas, vous pouvez placer une case à cocher en haut de la feuille de calcul. Vous pouvez ensuite lier l'état de cette case à cocher à une autre cellule, de sorte que si la case est cochée, la valeur de la cellule est True ; si elle n'est pas sélectionnée, la valeur de la cellule est False.
+Les cases à cocher sont pratiques si vous souhaitez permettre à un utilisateur de choisir entre deux options, telles que vrai ou faux ; Oui ou non. Aspose.Cells vous permet d'utiliser des cases à cocher dans les feuilles de calcul. Par exemple, vous avez peut-être développé une feuille de calcul de projection financière dans laquelle vous pouvez comptabiliser ou non une acquisition particulière. Dans ce cas, vous pouvez placer une case à cocher en haut de la feuille de calcul. Vous pouvez ensuite lier l'état de cette case à cocher à une autre cellule, de sorte que si la case est cochée, la valeur de la cellule est True ; si elle n'est pas sélectionnée, la valeur de la cellule est Faux.
 
 ### **Utilisation d'Excel Microsoft**
 
@@ -324,7 +324,7 @@ Un contrôle de barre de défilement est utilisé pour aider à sélectionner de
 -  Pour ajouter une barre de défilement dans Excel 2007, cliquez sur le*Développeur* onglet, cliquez*Insérer* , puis cliquez sur*Barre de défilement* dans la section Contrôles de formulaire.
 -  Cliquez avec le bouton droit sur la barre de défilement, puis cliquez sur*Contrôle des formats*.
 -  Saisissez les informations suivantes, puis cliquez sur*D'ACCORD*:
- - Dans le*Valeur actuelle* boîte, type 1.
+ - Dans le*Valeur actuelle* boîte, tapez 1.
  - Dans le*Valeur minimum* zone, tapez 1. Cette valeur limite le haut de la barre de défilement au premier élément de la liste.
  - Dans le*Valeur maximum* zone, tapez 20. Ce nombre spécifie le nombre maximum d'entrées dans la liste.
  - Dans le*Changement progressif* zone, tapez 1. Cette valeur contrôle de combien de nombres le contrôle de la barre de défilement incrémente la valeur actuelle.

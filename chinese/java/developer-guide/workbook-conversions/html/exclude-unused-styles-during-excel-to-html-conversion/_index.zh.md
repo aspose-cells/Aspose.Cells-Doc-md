@@ -8,7 +8,7 @@ url: /zh/java/exclude-unused-styles-during-excel-to-html-conversion/
 
 Microsoft Excel 文件可能包含许多未使用的样式。当您将 Excel 文件导出为 HTML 格式时，这些未使用的样式也会被导出。这会增加 HTML 的大小。您可以在将 Excel 文件转换为 HTML 期间排除未使用的样式，使用[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExcludeUnusedStyles)财产。当你设置它**真的**，所有未使用的样式都从输出 HTML 中排除。以下屏幕截图显示了输出 HTML 中未使用的示例样式。
 
-![待办事项：图片_替代_文本](exclude-unused-styles-during-excel-to-html-conversion_1.png)
+![待办事项：图像_替代_文本](exclude-unused-styles-during-excel-to-html-conversion_1.png)
 
 ## **在 Excel 到 HTML 的转换过程中排除未使用的样式**
 

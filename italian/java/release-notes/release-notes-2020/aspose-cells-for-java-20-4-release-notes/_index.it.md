@@ -24,8 +24,8 @@ url: /it/java/aspose-cells-for-java-20-4-release-notes/
 |CELLSJAVA-43158|IllegalArgumentException: Map size(0) deve essere >= 1|Eccezione|
 |CELLSJAVA-43149|Eccezione sollevata durante il salvataggio di XLSM dopo la rimozione del foglio di lavoro|Eccezione|
 |CELLSJAVA-43150|Eccezione "java.lang.NumberFormatException" al caricamento del file|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà ChartTextFrame.DirectionType.**
 Ottiene e imposta la direzione del testo nel grafico.
 ### **Aggiunge ChartTextFrame.ReadingOrder e rende obsoleta la proprietà ChartTextFrame.TextDirection.**

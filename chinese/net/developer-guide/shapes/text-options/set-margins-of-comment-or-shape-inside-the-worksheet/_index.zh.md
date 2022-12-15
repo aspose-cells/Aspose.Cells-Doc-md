@@ -12,7 +12,7 @@ Aspose.Cells 允许您使用[**形状.TextBody.TextAlignment**](https://referenc
 
 请参阅以下示例代码。它加载了[示例 Excel 文件](61767851.xlsx)包含两个形状。代码一个一个地访问形状并设置它们的上、左、下和右边距。请参阅[输出Excel文件](61767852.xlsx)由代码和屏幕截图生成，显示代码对输出 Excel 文件的影响。
 
-![待办事项：图片_替代_文本](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
+![待办事项：图像_替代_文本](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
 
 ## **示例代码**
 

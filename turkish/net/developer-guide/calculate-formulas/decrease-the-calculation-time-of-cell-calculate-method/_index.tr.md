@@ -18,7 +18,7 @@ Normalde, kullanıcıların aramasını öneririz.[**Workbook.CalculateFormula()
 
 ## **Konsol Çıkışı**
 
- Bu, verilen ile çalıştırıldığında yukarıdaki örnek kodun konsol çıktısıdır.[örnek excel dosyası](5113710.xlsx)makinemizde. Lütfen unutmayın, çıktınız farklı olabilir, ancak özyinelemeli özelliği şu şekilde ayarladıktan sonra geçen süre:**yanlış** ayarlamaktan her zaman daha az olacaktır.**doğru**.
+ Bu, verilen ile çalıştırıldığında yukarıdaki örnek kodun konsol çıktısıdır.[örnek excel dosyası](5113710.xlsx) makinemizde. Lütfen unutmayın, çıktınız farklı olabilir, ancak özyinelemeli özelliği şu şekilde ayarladıktan sonra geçen süre:**yanlış** ayarlamaktan her zaman daha az olacaktır.**doğru**.
 
 {{< highlight "java" >}}
 

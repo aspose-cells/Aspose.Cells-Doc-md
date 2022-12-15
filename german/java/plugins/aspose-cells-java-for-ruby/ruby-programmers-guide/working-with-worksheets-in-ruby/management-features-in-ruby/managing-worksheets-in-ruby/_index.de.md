@@ -6,7 +6,7 @@ url: /de/java/managing-worksheets-in-ruby/
 ---
 ## **Aspose.Cells – Verwalten von Arbeitsblättern**
 ### **Hinzufügen von Arbeitsblättern zu einer neuen Excel-Datei**
-Um ein Arbeitsblatt zu einer neuen Excel-Datei hinzuzufügen, verwenden Sie**Aspose.Cells Java für Rubin** , einfach anrufen**add_worksheet** Methode von**Arbeitsblätter verwalten** Modul.
+ Um ein Arbeitsblatt zu einer neuen Excel-Datei hinzuzufügen, verwenden Sie**Aspose.Cells Java für Rubin** , einfach anrufen**add_worksheet** Methode von**Arbeitsblätter verwalten** Modul.
 
 **Ruby-Code**
 

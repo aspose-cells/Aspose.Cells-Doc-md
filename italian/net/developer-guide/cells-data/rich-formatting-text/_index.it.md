@@ -15,7 +15,7 @@ url: /it/net/access-and-update-the-portions-of-rich-text-of-cell/
 
  Il codice seguente illustra l'utilizzo di[**Cell.GetCaratteri()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) e[**Cell.ImpostaCaratteri()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) metodo utilizzando il[file excel di origine](5112369.xlsx)che puoi scaricare dal link fornito. Il file excel di origine ha un rich text nella cella A1. Ha 3 porzioni e ogni porzione ha un carattere diverso. Il seguente frammento di codice accede a queste parti e aggiorna la prima parte con un nuovo nome di carattere. Infine, salva la cartella di lavoro come[file excel di output](5112366.xlsx) . Quando lo aprirai, scoprirai che il carattere della prima parte del testo è cambiato in**"Arial"**.
 
-### C# codice per accedere e aggiornare le porzioni di Rich Text di Cell
+### Codice C# per accedere e aggiornare le porzioni di Rich Text di Cell
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UpdateRichTextCells-1.cs" >}}
 

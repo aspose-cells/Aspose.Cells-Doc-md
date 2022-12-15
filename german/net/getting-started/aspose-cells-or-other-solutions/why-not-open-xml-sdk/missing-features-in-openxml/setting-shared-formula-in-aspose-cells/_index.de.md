@@ -8,7 +8,7 @@ url: /de/net/setting-shared-formula-in-aspose-cells/
 
 Angenommen, Sie haben ein Arbeitsblatt, das mit Daten gefüllt ist.
 
- Sie möchten eine Funktion in B2 hinzufügen, die die Mehrwertsteuer für die erste Datenzeile berechnet. Die Steuer ist**9%** . Die Formel zur Berechnung der Umsatzsteuer lautet:**"=A2*0,09"**. Dieser Artikel erklärt, wie man diese Formel mit Aspose.Cells anwendet.
+ Sie möchten eine Funktion in B2 hinzufügen, die die Mehrwertsteuer für die erste Datenzeile berechnet. Die Steuer ist**9%** Die Formel zur Berechnung der Umsatzsteuer lautet:**"=A2*0,09"**. Dieser Artikel erklärt, wie man diese Formel mit Aspose.Cells anwendet.
 
 {{% /alert %}} 
 

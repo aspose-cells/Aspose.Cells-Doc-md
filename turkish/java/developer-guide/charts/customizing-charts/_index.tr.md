@@ -144,7 +144,7 @@ Veri kaynağı olarak bir hücre aralığı atadığınızda, aralığı yalnız
 
 {{% /alert %}}
 
-Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak sağlar. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
+Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak tanır. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
 
 Örnek kod yürütüldüğünde, çalışma sayfasına aşağıda gösterildiği gibi bir piramit grafiği eklenir.
 

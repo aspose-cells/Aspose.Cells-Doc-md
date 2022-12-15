@@ -1,5 +1,5 @@
 ﻿---
-title: 卸载 SharePoint 许可证 Aspose.Cells
+title: 卸载 Aspose.Cells for SharePoint 许可证
 type: docs
 weight: 30
 url: /zh/sharepoint/uninstalling-aspose-cells-for-sharepoint-license/
@@ -11,7 +11,7 @@ url: /zh/sharepoint/uninstalling-aspose-cells-for-sharepoint-license/
 {{% /alert %}} 
 
 1. 从场中收回许可证解决方案：
-stsadm.exe -o retractsolution -name Aspose.Cells.SharePoint.License.wsp -immediate
+ stsadm.exe -o retractsolution -name Aspose.Cells.SharePoint.License.wsp -immediate
 1. 执行管理计时器作业以立即完成撤回：
  stsadm.exe -o execadmsvcjobs
 1. 等待撤回完成。

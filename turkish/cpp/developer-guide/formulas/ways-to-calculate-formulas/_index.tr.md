@@ -11,7 +11,7 @@ Aspose.Cells, Microsoft Excel'in parçası olan formüllerin veya işlevlerin ç
 
 Bir hücreye formül eklemek için Cell.Formula yöntemini kullanın. Bir hücreye formül uygularken, Microsoft Excel'de formül oluştururken yaptığınız gibi dizeye her zaman eşittir işaretiyle (=) başlayın. İşlev parametrelerini ayırmak için virgül (,) kullanın.
 
- Formüllerin sonuçlarını hesaplamak için, bir Excel dosyasına katıştırılmış tüm formülleri işleyen Workbook.CalculateFormula() yöntemini çağırın. Lütfen formülü ekleyen ve sonuçlarını hesaplayan aşağıdaki örnek koda bakın. lütfen kontrol ediniz[çıktı excel dosyası](38109185.xlsx) bu kod ile oluşturulmuştur.
+Formüllerin sonuçlarını hesaplamak için, bir Excel dosyasına katıştırılmış tüm formülleri işleyen Workbook.CalculateFormula() yöntemini çağırın. Lütfen formülü ekleyen ve sonuçlarını hesaplayan aşağıdaki örnek koda bakın. lütfen kontrol ediniz[çıktı excel dosyası](38109185.xlsx) bu kod ile oluşturulmuştur.
 
 **Basit kod**
 

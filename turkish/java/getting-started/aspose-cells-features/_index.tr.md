@@ -23,7 +23,7 @@ Dünya çapındaki birçok müşteri, Aspose.Cells for Java tarafından sağlana
 |:- |:- |:- |
 |Yüksek Kaliteli Dönüşümler|Birkaç popüler belge formatı arasında hızlı ve güvenilir bir şekilde dönüştürün.|Evet|
 |Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS biçimi uygulaması.|Evet|
-|Elektronik TabloML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen, XLSX, XLTX, XLSM, XLTM, XLSB vb. gibi tüm önemli Excel 2007 ve sonraki sürümlerin dosya formatlarını destekler.|Evet|
+|Elektronik TabloML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen, XLSX, XLTX, XLSM, XLTM, XLSB vb. gibi tüm önemli Excel 2007 ve sonraki sürümlerin dosya biçimlerini destekler.|Evet|
 |Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşime geçmek için kapsamlı CSV biçimi desteği.|Evet|
 |HTML|HTML olarak kaydet kullanılabilir.|Evet|
 |Açık Belge (ODS)|Aspose.Cells, belgeleri OpenDocument Elektronik Tablo (.ods) biçiminde yükleyebilir ve kaydedebilir.|Evet|

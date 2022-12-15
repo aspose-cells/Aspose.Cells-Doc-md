@@ -38,7 +38,7 @@ Den här artikeln visar hur du skapar en konsolapplikation i Visual Studio.Net s
 Nedan följer stegen för hur man skapar ett kalkylblad och formaterar olika celler i olika rader och kolumner i ett kalkylblad.
 
 1. Ladda ner och installera Aspose.Cells:
-   1. [Ladda ner](https://downloads.aspose.com/cells/net) Aspose.Cells för .NET.
+   1. [Ladda ner](https://downloads.aspose.com/cells/net) Aspose.Cells for .NET.
  1. Installera det på din utvecklingsdator.
 1. Skapa ett projekt och lägg till referenser:
  1. Starta Visual Studio.Net.

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 17.12 Release Notes
+title: Aspose.Cells for Java 17.12 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-java-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 17.12.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 17.12.
 
 {{% /alert %}} 
 
@@ -21,14 +21,14 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 17.12.
 |CELLSJAVA-42466|Ekvationen återges inte bra i den utgående PDF-filen|Insekt|
 |CELLSJAVA-42475|Diagram saknas i utdata-PDF-filen|Insekt|
 |CELLSJAVA-42459|Dataetiketter för diagrammet saknas i utdata PDF/bild|Insekt|
-|CELLSJAVA-42453|Diagrambilden är inte lik Microsoft Excel|Insekt|
+|CELLSJAVA-42453|Diagrambilden är inte likadan Microsoft Excel|Insekt|
 |CELLSJAVA-42447|Dataetiketter visas felaktigt i HTML-utdatafilformatet|Insekt|
 |CELLSJAVA-42481|Ange kombinationsrutanamn fungerar inte för Excel-källfilen men om den sparas på nytt av Microsoft Excel fungerar det ok|Insekt|
 |CELLSJAVA-42476|Microsoft Excel Macro-Enabled Worksheet (.xlsm) blir skadad efter att ha öppnats och sparats via Aspose.Cells API:er|Insekt|
 |CELLSJAVA-42470|Om du ställer in en kryssruta länkad cell får MS Excel att få ett felmeddelande när utdatafilen öppnas i den|Insekt|
 |CELLSJAVA-42462|Att läsa XLSB-filen kastar NullPointerException|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen HtmlSaveOptions.TableCssId**
 Hämtar och ställer in prefixet för typen css-namn som tr,col,td och så vidare, de finns i tabellelementet som har det specifika TableCssId-attributet. Standardvärdet är "".
 ### **Lägger till Cell.FormulaLocal egendom**

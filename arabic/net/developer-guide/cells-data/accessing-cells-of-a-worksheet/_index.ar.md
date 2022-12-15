@@ -26,7 +26,7 @@ url: /ar/net/accessing-cells-of-a-worksheet/
 
  يمكن للمطورين الوصول إلى أي خلية محددة عن طريق تمرير اسم الخلية الخاص بها إلى[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) جمع[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)فئة كمؤشر.
 
- إذا قمت بإنشاء ورقة عمل فارغة في البداية ، فسيتم حساب عدد[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) المجموعة صفر. عند استخدام هذا الأسلوب للوصول إلى خلية ، فإنه سيتحقق مما إذا كانت هذه الخلية موجودة في المجموعة أم لا. إذا كانت الإجابة بنعم ، فإنه يعيد كائن الخلية في المجموعة وإلا فإنه ينشئ كائنًا جديدًا[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) كائن ، يضيف الكائن إلى[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)جمع ثم إرجاع الكائن. هذا النهج هو أسهل طريقة للوصول إلى الخلية إذا كنت معتادًا على Microsoft Excel ولكنه أبطأ مقارنة بالطرق الأخرى.
+ إذا قمت بإنشاء ورقة عمل فارغة في البداية ، فسيتم حساب عدد[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)المجموعة صفر. عند استخدام هذا الأسلوب للوصول إلى خلية ، فإنه سيتحقق مما إذا كانت هذه الخلية موجودة في المجموعة أم لا. إذا كانت الإجابة بنعم ، فإنه يعيد كائن الخلية في المجموعة وإلا فإنه ينشئ كائنًا جديدًا[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) كائن ، يضيف الكائن إلى[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)جمع ثم إرجاع الكائن. هذا النهج هو أسهل طريقة للوصول إلى الخلية إذا كنت معتادًا على Microsoft Excel ولكنه أبطأ مقارنة بالطرق الأخرى.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 

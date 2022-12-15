@@ -10,7 +10,7 @@ Questo argomento raccoglie alcune revisioni tecniche di Aspose.Cells condotte da
 
 {{% /alert %}} 
 ## **Steve C.Orr**
-Steve C. Orr è un Certified Solution Developer (MCSD) Microsoft e un MVP Microsoft in ASP.NET. Sviluppa soluzioni software per aziende leader nell'area di Seattle da più di un decennio. Quando non è impegnato a progettare sistemi software oa scriverne, può essere trovato nei gruppi di utenti locali e assistere nel newsgroup ASP.NET sia come collaboratore che come consulente. Steve è anche un frequente autore e collaboratore della rivista asp.netPRO.
+Steve C. Orr è un Microsoft Certified Solution Developer (MCSD) e un Microsoft MVP in ASP.NET. Sviluppa soluzioni software per aziende leader nell'area di Seattle da più di un decennio. Quando non è impegnato a progettare sistemi software o a scriverne, può essere trovato nei gruppi di utenti locali e assistere nel newsgroup ASP.NET sia come collaboratore che come consulente. Steve è anche un frequente autore e collaboratore della rivista asp.netPRO.
 
 **Recensione pubblicata**: [Aspose.Excel](https://www.itprotoday.com/development-techniques-and-management/asposeexcel)
 ## **David McAmis**

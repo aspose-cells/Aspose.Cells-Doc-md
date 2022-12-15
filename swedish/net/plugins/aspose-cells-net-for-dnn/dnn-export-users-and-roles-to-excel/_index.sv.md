@@ -5,7 +5,7 @@ weight: 20
 url: /sv/net/dnn-export-users-and-roles-to-excel/
 ---
 ## **Introduktion**
-Aspose .NET Exportera användare och roller till Excel-modulen tillåter utvecklare att exportera DNN-användare tillsammans med deras roller till Microsoft Excel eller OpenOffice Spreadsheet. Den här modulen visar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av Aspose.Cells.
+Aspose .NET Exportera användare och roller till Excel-modulen låter utvecklare exportera DNN-användare tillsammans med deras roller till Microsoft Excel eller OpenOffice Spreadsheet. Den här modulen visar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av Aspose.Cells.
 ### **Modulfunktioner**
 Denna första version av modulen är berikad med följande coola funktioner för att göra exportprocessen enkel och lätt att använda.
 
@@ -44,7 +44,7 @@ När du har laddat ned, följ dessa steg för att installera modulen på din DNN
 
  Vänligen kontrollera[denna modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) från DNN för mer information.
 ## **Använder sig av**
-Efter att du har installerat modulen Aspose .NET Cells Export Users and Rolls for DNN, är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
+Efter att du har installerat modulen Aspose .NET Cells Exportera användare och roller för DNN-modulen är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
 
 1. Se till att du är inloggad på DNN med ett konto på värd- eller administratörsnivå.
 1. Navigera till sidan där du vill lägga till exportmodulen.
@@ -52,7 +52,7 @@ Efter att du har installerat modulen Aspose .NET Cells Export Users and Rolls fo
 
 1. I listan väljer du 'Aspose Exportera användare och roller till Excel' och drar den på plats.
 
-Du har framgångsrikt lagt till Aspose .NET Export Users and Rolls till Excel för DNN-modulen på din sida. Alla dnn-användare kommer att vara synliga i rutnätet och du kan välja användare att exportera och klicka på "Exportera"-knappen efter att ha valt önskat utdataformat från rullgardinsmenyn. Önskad fil kommer att laddas ner automatiskt.
+Du har framgångsrikt lagt till Aspose .NET Exportera användare och roller till Excel för DNN-modulen på din sida. Alla dnn-användare kommer att vara synliga i rutnätet och du kan välja användare att exportera och klicka på "Exportera"-knappen efter att ha valt önskat utdataformat från rullgardinsmenyn. Önskad fil kommer att laddas ner automatiskt.
 ## **Videodemo**
  Vänligen kontrollera[videon](https://www.youtube.com/watch?v=fq8xh2uE2gc) nedan för att se modulen i aktion.
 ## **Stödja, utöka och bidra**

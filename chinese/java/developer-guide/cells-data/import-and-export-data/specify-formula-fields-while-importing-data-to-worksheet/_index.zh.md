@@ -12,7 +12,7 @@ url: /zh/java/specify-formula-fields-while-importing-data-to-worksheet/
 
 请参阅以下示例代码，该代码解释了如何在将数据导入工作表时指定公式字段。请参阅[输出Excel文件](61767850.xlsx)由代码生成，屏幕截图显示代码对输出 Excel 文件的影响。
 
-![待办事项：图片_替代_文本](specify-formula-fields-while-importing-data-to-worksheet_1.png)
+![待办事项：图像_替代_文本](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 
 ## **示例代码**
 

@@ -10,7 +10,7 @@ url: /ar/net/export-worksheet-css-separately-in-output/
 
 ## **تصدير ورقة العمل CSS بشكل منفصل في إخراج HTML**
 
-ينشئ نموذج التعليمات البرمجية التالي ملف Excel ، ويضيف بعض النص في الخلية**ب 5** في**أحمر** color ثم يحفظها بتنسيق HTML باستخدام[**HtmlSaveOptions.ExportWorksheetCSS بشكل منفصل**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately)منشأه. الرجاء مراجعة[إخراج HTML](60489766.zip) تم إنشاؤها بواسطة رمز كمرجع. سوف تجد**styleheet.css**بداخله كنتيجة لعينة التعليمات البرمجية.
+ينشئ نموذج التعليمات البرمجية التالي ملف Excel ، ويضيف بعض النص في الخلية**ب 5** في**أحمر** color ثم يحفظها بتنسيق HTML باستخدام[**HtmlSaveOptions.ExportWorksheetCSS بشكل منفصل**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately)منشأه. الرجاء مراجعة[إخراج HTML](60489766.zip) التي تم إنشاؤها بواسطة رمز كمرجع. سوف تجد**styleheet.css**بداخله كنتيجة لعينة التعليمات البرمجية.
 
 ## **عينة من الرموز**
 

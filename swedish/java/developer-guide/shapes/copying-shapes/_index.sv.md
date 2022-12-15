@@ -31,7 +31,7 @@ Den här artikeln förklarar hur du:
 1. Skapat en ny arbetsbok i Microsoft Excel.
 1. Lägg till en bild på det första kalkylbladet och ett diagram på det andra kalkylbladet.
 
- Följande skärmdumpar visar de två mallar som skapats i Microsoft Excel.
+ Följande skärmbilder visar de två mallar som skapats i Microsoft Excel.
 
    **Arbetsblad "Diagram" med diagram**
 
@@ -45,14 +45,14 @@ Kopiera nu bilden i kalkylbladet med namnet "Bild" till det sista kalkylbladet "
 
 #### **Steg 2: Ladda ner Aspose.Cells.Zip**
 
-1. [Ladda ner Aspose.Cells för Java](https://downloads.aspose.com/cells/java).
+1. [Ladda ner Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
 1. Packa upp det på din utvecklingsdator.
 
  Allt[Aspose](http://www.aspose.com/) komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
 
 #### **Steg 3: Skapa ett projekt**
 
-Du kan antingen skapa ett projekt med hjälp av någon Java-redigerare, till exempel Eclipse eller skapa ett enkelt program med hjälp av en NotePad.
+Du kan antingen skapa ett projekt med hjälp av någon Java-redigerare, till exempel Eclipse eller skapa ett enkelt program med en anteckningsblock.
 
 #### **Steg 4: Lägg till klasssökväg**
 

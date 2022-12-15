@@ -19,7 +19,7 @@ Noi siamo
 
  Miglioramenti
 
-- Salvataggio in XLSX con LightCells API eseguendo il rendering diretto in OutputStream
+- Salvataggio in XLSX con l'API LightCells eseguendo il rendering diretto in OutputStream
 
  Eccezioni
 

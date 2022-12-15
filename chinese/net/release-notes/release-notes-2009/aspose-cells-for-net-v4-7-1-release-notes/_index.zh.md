@@ -80,7 +80,7 @@ Aspose.Cells 4.7.1 中已解决的问题
 |7937 | Xlsx|Aspose 中保存的 .xlsm 文件出现不可读内容错误|
 |8143 | Xlsx|PrintTitleRows 功能的问题|
 |8254 | Xlsx|缺少模板的背景图像。|
-|8255 | Xlsx| Outline.SummaryRowBelow 不保存在 xlsx 文件中？|
+|8255 | Xlsx| Outline.SummaryRowBelow 没有保存在 xlsx 文件中？|
 |8257 | Xlsx| SetFirstPageHeader 有什么方法|
 |8288 | Xlsx|无法让 WorkSheet.CustomProperties 工作|
 |8419 | Xlsx|无法读取 xlsx 文件|

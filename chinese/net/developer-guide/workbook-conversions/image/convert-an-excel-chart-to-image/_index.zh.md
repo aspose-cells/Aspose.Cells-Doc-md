@@ -22,7 +22,7 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 |**输出：饼图图像**|
 |:- |
-|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_1.png)|
+|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_1.png)|
 
 1. 在 Microsoft Excel 中创建饼图：
  1.在Microsoft Excel中打开一个新的工作簿。
@@ -32,7 +32,7 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 |**输入文件。**|
 |:- |
-|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_2.png)|
+|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_2.png)|
 
 1. 下载并安装 Aspose.Cells：
    1. [下载 Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
@@ -54,7 +54,7 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 |**输出文件：柱形图图像。**|
 |:- |
-|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_3.png)|
+|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_3.png)|
 
 1. 在Microsoft Excel中创建柱形图：
  1.在Microsoft Excel中打开一个新的工作簿。
@@ -64,7 +64,7 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 |**输入文件。**|
 |:- |
-|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_4.png)|
+|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_4.png)|
 
 1. 如上所述，使用参考设置项目。
 1. 将图表动态转换为图像。以下是组件用于完成任务的代码。代码与上一个类似：

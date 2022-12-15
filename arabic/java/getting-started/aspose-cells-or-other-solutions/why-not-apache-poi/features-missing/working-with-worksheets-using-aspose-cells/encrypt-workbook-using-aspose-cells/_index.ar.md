@@ -32,7 +32,7 @@ workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128)
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**

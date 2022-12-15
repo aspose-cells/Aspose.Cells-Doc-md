@@ -9,9 +9,9 @@ url: /tr/java/how-to-run-the-examples/
 
  ZIP dosyasının içeriğini bilgisayarınızdaki herhangi bir klasöre çıkarın. Tüm örnekler şu adreste yer almaktadır:**örnekler** dosya.
 
- bu**Kaynaklar**klasör, örneklerde kullanılan girdi belgelerini veya dosyaları içerir.
+ bu**Kaynaklar** klasör, örneklerde kullanılan girdi belgelerini veya dosyaları içerir.
 
- Bu örnekleri istediğiniz herhangi bir IDE ile çalıştırabilir/yürütebilirsiniz, ancak tanıtım amacıyla biz**tutulma** . Kullan**Dosya -> İçe Aktar** Seçtiğiniz örneği içe aktarma ve yolu belirtme seçeneği.
+Bu örnekleri istediğiniz herhangi bir IDE ile çalıştırabilir/yürütebilirsiniz, ancak tanıtım amacıyla biz**tutulma** . Kullan**Dosya -> İçe Aktar** Seçtiğiniz örneği içe aktarma ve yolu belirtme seçeneği.
 
 Gerekli jar dosyalarını (Kütüphaneler) projeye ekleyin.
 

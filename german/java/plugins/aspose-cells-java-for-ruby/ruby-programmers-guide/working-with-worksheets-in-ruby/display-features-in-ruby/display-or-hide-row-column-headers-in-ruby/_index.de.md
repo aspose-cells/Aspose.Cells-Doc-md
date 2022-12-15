@@ -6,7 +6,7 @@ url: /de/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells – Zeilen-Spalten-Überschriften anzeigen oder ausblenden**
 ### **Zeilen-/Spaltenüberschriften ausblenden**
- Zeilen-/Spaltenüberschriften ausblenden mit**Aspose.Cells Java für Rubin** , Anruf**DisplayHideRowColumnHeader** Modul.
+Zeilen-/Spaltenüberschriften ausblenden mit**Aspose.Cells Java für Rubin** , Anruf**DisplayHideRowColumnHeader** Modul.
 
 **Ruby-Code**
 

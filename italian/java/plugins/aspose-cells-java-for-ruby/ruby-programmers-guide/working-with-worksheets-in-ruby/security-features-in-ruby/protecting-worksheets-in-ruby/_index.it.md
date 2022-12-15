@@ -5,7 +5,7 @@ weight: 10
 url: /it/java/protecting-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Fogli protettivi**
- Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java per Rubino** , chiamata**proteggi_foglio di lavoro** metodo di**protezione** modulo.
+ Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java per Ruby** , chiamata**proteggi_foglio di lavoro** metodo di**protezione** modulo.
 
 **Codice Rubino**
 

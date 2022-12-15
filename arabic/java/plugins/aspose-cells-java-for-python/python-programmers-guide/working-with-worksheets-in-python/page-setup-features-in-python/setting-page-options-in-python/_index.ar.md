@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **عامل التحجيم**
- لتطبيق التحجيم باستخدام**Aspose.Cells Java لـ Python** ، مكالمة**التحجيم** طريقة**اعداد الصفحة** وحدة.
+ لتطبيق التحجيم باستخدام**Aspose.Cells Java for Python** ، مكالمة**التحجيم** طريقة**اعداد الصفحة** وحدة.
 
 **Python كود**
 
@@ -76,7 +76,7 @@ workbook.save(self.dataDir + "Scaling.xls")
 print "Set scaling, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**ضبط خيارات الصفحة (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

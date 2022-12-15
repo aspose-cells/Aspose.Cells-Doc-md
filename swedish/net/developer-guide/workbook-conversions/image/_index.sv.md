@@ -14,7 +14,7 @@ Aspose.Cells låter dig exportera ett kalkylblad från arbetsboken och konverter
 
  En Excel-fil kan innehålla flera ark med flera sidor.[WorkbookRender](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) låter dig konvertera Excel till TIFF med flera sidor. Du kan också styra flera alternativ för TIFF, som[Kompression](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression), [Färgdjup](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcolordepth), Upplösning([Horisontell upplösning](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution), [Vertikal upplösning](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution)).
 
- Följande kodavsnitt visar hur du konverterar Excel till TIFF med flera sidor. De[källfil för Excel](workbook-to-tiff-with-mulitiple-pages.xlsx) och[genererad TIFF-bild](workbook-to-tiff-with-mulitiple-pages.tiff) bifogas för din referens.
+ Följande kodavsnitt visar hur du konverterar Excel till TIFF med flera sidor. De[käll Excel-fil](workbook-to-tiff-with-mulitiple-pages.xlsx) och[genererad TIFF-bild](workbook-to-tiff-with-mulitiple-pages.tiff) bifogas för din referens.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Workbook-To-Tiff-With-Mulitiple-Pages.cs" >}}
 
@@ -34,7 +34,7 @@ Följande kodavsnitt visar hur man konverterar ett kalkylblad i en Excel-fil til
 
 {{% alert color="primary" %}}
 
-För närvarande stöder API:et för att konvertera kalkylblad till bilder inte 3D-bubbeldiagram.
+För närvarande stöder API för konvertering av kalkylblad till bilder inte 3D-bubbeldiagram.
 
 {{% /alert %}}
 
@@ -42,7 +42,7 @@ För närvarande stöder API:et för att konvertera kalkylblad till bilder inte 
 
 SVG står för Scalable Vector Graphics. SVG är en specifikation baserad på XML-standarder för tvådimensionell vektorgrafik. Det är en öppen standard som har varit under utveckling av World Wide Web Consortium (W3C) sedan 1999.
 
-Aspose.Cells för .NET har kunnat konvertera kalkylblad till SVG-bild sedan version 7.1.0. Följande kodavsnitt visar hur man konverterar ett kalkylblad i en Excel-fil till en SVG-bildfil.
+Aspose.Cells for .NET har kunnat konvertera kalkylblad till SVG-bild sedan version 7.1.0. Följande kodavsnitt visar hur man konverterar ett kalkylblad i en Excel-fil till en SVG-bildfil.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheetToSVG-1.cs" >}}
 

@@ -18,7 +18,7 @@ Följande exempelkod skapar en arbetsbok och lägger till lite text i cell B4 i 
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
- Koden genererar[mata ut HTML-fil med Courier New](5115516) , den[mata ut HTML med Arial](5115518) , och den[ut HTML-fil med Times New Roman](5115517).
+ Koden genererar[ut HTML-fil med Courier New](5115516) , den[mata ut HTML med Arial](5115518) , och den[ut HTML-fil med Times New Roman](5115517).
 
 ## Exempelkod
 

@@ -6,13 +6,13 @@ url: /it/net/create-access-and-copy-named-ranges/
 ---
 ## **introduzione**
 
-Normalmente, le etichette di colonna e riga vengono utilizzate per riferirsi a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola**nome** può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quell'intervallo di celle può essere indicato con il suo nome. Utilizzare nomi di facile comprensione, ad esempio Prodotti, per fare riferimento a intervalli di difficile comprensione, ad esempio Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli denominati sono tra le funzionalità più potenti di Microsoft Excel, soprattutto se utilizzati come intervallo di origine per controlli elenco, tabelle pivot, grafici e così via.
+ Normalmente, le etichette di colonna e riga vengono utilizzate per riferirsi a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola**nome**può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quell'intervallo di celle può essere indicato con il suo nome. Utilizzare nomi di facile comprensione, ad esempio Prodotti, per fare riferimento a intervalli di difficile comprensione, ad esempio Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli denominati sono tra le funzionalità più potenti di Microsoft Excel, in particolare se utilizzati come intervallo di origine per controlli elenco, tabelle pivot, grafici e così via.
 
-## **Lavorare con l'intervallo denominato utilizzando Microsoft Excel**
+## **Lavorare con un intervallo denominato utilizzando Microsoft Excel**
 
 ### **Crea intervalli denominati**
 
- I seguenti passaggi descrivono come denominare una cella o un intervallo di celle utilizzando**Microsoft Excel** . Questo metodo si applica a**Microsoft Ufficio Excel 2003**, **Microsoft Excel 97**, **2000** e**2002**.
+ I seguenti passaggi descrivono come denominare una cella o un intervallo di celle utilizzando**Microsoft Excel** . Questo metodo si applica a**Microsoft Office Excel 2003**, **Microsoft Excel 97**, **2000** e**2002**.
 
 1. Selezionare la cella, l'intervallo di celle a cui si desidera assegnare un nome.
 1.  Clicca il**Casella del nome** all'estremità sinistra della barra della formula.
@@ -27,12 +27,12 @@ Non puoi nominare una cella mentre stai modificando il contenuto della cella.
 
 ## **Lavorare con l'intervallo denominato utilizzando Aspose.Cells**
 
-Qui, usiamo lo Aspose.Cells API per svolgere l'attività.
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione.
+Qui, utilizziamo l'API Aspose.Cells per eseguire l'attività.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione.
 
 ### **Crea intervallo denominato**
 
- È possibile creare un intervallo denominato chiamando l'overloaded[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) metodo del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione. Una tipica versione di[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) metodo accetta i seguenti parametri:
+ È possibile creare un intervallo denominato chiamando l'overloaded[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) metodo del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collezione. Una tipica versione di[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) metodo accetta i seguenti parametri:
 
 - Nome della cella in alto a sinistra, il nome della cella in alto a sinistra nell'intervallo.
 - Nome della cella in basso a destra, il nome della cella in basso a destra nell'intervallo.

@@ -22,7 +22,7 @@ Följande skärmdump belyser detta alternativ för din referens.
 
  Aspose.Cells tillhandahåller[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) metod för att markera eller avmarkera kryssrutan**Etikett innehåller - Värde från Cells** som visas i skärmdumpen ovan.
 
-## Java-kod för att visa cellintervall som dataetiketter
+## Java kod för att visa cellintervall som dataetiketter
 
  Exempelkoden nedan ger åtkomst till dataetiketterna i diagramserien och ställer sedan in[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) metod för att sanna att kontrollera**Etikett innehåller - Värde från Cells** alternativ.
 

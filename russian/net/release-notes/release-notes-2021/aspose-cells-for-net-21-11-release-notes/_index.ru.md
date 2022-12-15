@@ -47,7 +47,7 @@ url: /ru/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49727|Изображения файлов Mht не отображаются в IE.|Ошибка|
 |CELLSNET-49609|«Ошибка преобразования формы в изображение» при преобразовании файла Excel в PDF|Исключение|
 |CELLSNET-49608|Aspose.Cells выдает ошибки при попытке добавить определенные имена диапазонов|Исключение|
-|CELLSNET-49697|XLSX в PDF: входная строка имеет неверный формат.|Исключение|
+|CELLSNET-49697|XLSX в PDF: входная строка имеет неправильный формат.|Исключение|
 |CELLSNETCORE-287|NullPointerException при вычислении формулы|Исключение|
 |CELLSNET-49497|ExportXml с картой XML выдает «NullReferenceException»|Исключение|
 |CELLSNET-49595|ЭкспортXml с XML-картой выдает «NullReferenceException» для сложных файлов Excel.|Исключение|

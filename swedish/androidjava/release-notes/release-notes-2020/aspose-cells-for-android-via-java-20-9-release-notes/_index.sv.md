@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 20.9 Release Notes
+title: Aspose.Cells for Android via Java 20.9 Release Notes
 type: docs
 weight: 9
 url: /sv/java/aspose-cells-for-android-via-java-20-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.9.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.9.
 
 {{% /alert %}}
 
@@ -52,9 +52,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.9
 |CELLSJAVA-43037|Teckensnittsproblem vid PDF-konvertering|Insekt|
 |CELLSJAVA-43249|Utskriftsproblem när du använder fysiska skrivare, XPS- och PDF-skrivare|Insekt|
 |CELLSJAVA-43254|Teckensnittsskillnad vid konvertering av kalkylblad till bild|Insekt|
-|CELLSJAVA-43266|Java-versionen stöder inte inläsning av teckensnitt från aktuell användartypsnittsmapp som standard|Insekt|
+|CELLSJAVA-43266|Java-versionen stöder inte inläsning av teckensnitt från den aktuella användarens teckensnittsmapp som standard|Insekt|
 |CELLSJAVA-43268|Excel till TIFF-rendering - några av värdena ersätts med " #" tecken|Insekt|
-|CELLSJAVA-43275|Aspose.Cell för Java 20.8 com.aspose.cells.CellsException: Fel för ZipFile|Insekt|
+|CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Fel för ZipFile|Insekt|
 |CELLSJAVA-43277|Problem med höjd breddförhållande|Insekt|
 |CELLSJAVA-43245|Kombinationsdiagrammet visas inte korrekt efter konvertering av Excel-fil till PDF|Insekt|
 |CELLSJAVA-43276|Radbrytningsproblem vid konvertering av XLSX till PDF|Insekt|
@@ -71,9 +71,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.9
 |CELLSJAVA-43170|CellsException på calculateFormula-metoden|Undantag|
 |CELLSJAVA-43267|Undantag "java.lang.NullPointerException" vid beräkning av pivottabell i arket|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Markerar gränssnittet ICustomFunction som föråldrat.**
 
@@ -81,19 +81,19 @@ Detta gränssnitt orsakar ibland oklarheter och missförstånd för användarna.
 
 ### **Markerar egenskapen CalculationOptions.CustomFunction som föråldrad.**
 
-Snälla använd**AbstractCalculation Engine** istället för**ICustomFunction** förbi**CalculationOptions.CustomEngine** fast egendom.
+ Snälla använd**AbstractCalculation Engine** istället för**ICustomFunction** förbi**CalculationOptions.CustomEngine** fast egendom.
 
 ### **Markerar Workbook.CalculateFormula(bool, ICustomFunction)-metoden som föråldrad.**
 
-Snälla använd**Workbook.CalculateFormula(CalculationOptions)** metod istället.
+ Snälla använd**Workbook.CalculateFormula(CalculationOptions)** metod istället.
 
 ### **Markerar Worksheet.CalculateFormula(bool, bool, ICustomFunction)-metoden som föråldrad.**
 
-Snälla använd**Worksheet.CalculateFormula(CalculationOptions, bool)** metod istället.
+ Snälla använd**Worksheet.CalculateFormula(CalculationOptions, bool)** metod istället.
 
 ### **Markerar Cell. Beräkna (bool, ICustomFunction)-metoden som föråldrad.**
 
-Snälla använd**Cell. Beräkna (Beräkningsalternativ)** metod istället.
+ Snälla använd**Cell. Beräkna (Beräkningsalternativ)** metod istället.
 
 ### **Lägger till DocxSaveOptions-klassen och SaveFormat.Docx enum**
 
@@ -157,7 +157,7 @@ Representerar parametrarna för powerfrågeformeln.
 
 ### **Lägger till egenskapen AbstractCalculationEngine.ProcessBuiltInFunctions**
 
- För prestanda och användarens bekvämlighetsskäl lägger vi till den här egenskapen och gör dess standardvärde som falskt så att användaren kan koncentrera sig på de funktioner som inte har stöds av den inbyggda motorn. Om användarens befintliga implementering av**AbstractCalculation Engine** ändrat vissa inbyggda funktioners beräkning, bör användaren åsidosätta denna egenskap för att göra den som**Sann** från**20.9**.
+För prestanda och användarens bekvämlighetsskäl lägger vi till den här egenskapen och gör dess standardvärde som falskt så att användaren kan koncentrera sig på de funktioner som inte har stöds av den inbyggda motorn. Om användarens befintliga implementering av**AbstractCalculation Engine** ändrat vissa inbyggda funktioners beräkning, bör användaren åsidosätta denna egenskap för att göra den som**Sann** från**20.9**.
 
 ### **Lägger till egenskapen TxtLoadOptions.HasTextQualifier**
 

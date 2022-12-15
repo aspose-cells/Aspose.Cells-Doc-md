@@ -6,7 +6,7 @@ url: /fr/net/setting-formulas-notice-for-non-english-users/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells prend en charge la plupart des formules/fonctions qui font partie de Microsoft Excel. Les développeurs peuvent utiliser ces formules avec le API ou[feuilles de calcul de concepteur](/cells/fr/net/what-is-a-designer-spreadsheet/). Aspose.Cells prend en charge un vaste ensemble de formules mathématiques, de chaîne, booléennes, de date/heure, statistiques, de base de données, de recherche et de référence. Les formules doivent être spécifiées en utilisant le style anglais (US).
+ Aspose.Cells prend en charge la plupart des formules/fonctions qui font partie de Microsoft Excel. Les développeurs peuvent utiliser ces formules avec le API ou[feuilles de calcul de concepteur](/cells/fr/net/what-is-a-designer-spreadsheet/)Aspose.Cells prend en charge un vaste ensemble de formules mathématiques, de chaîne, booléennes, de date/heure, statistiques, de base de données, de recherche et de référence. Les formules doivent être spécifiées en utilisant le style anglais (US).
 
 {{% /alert %}} 
 ## **Avis pour les utilisateurs non anglophones**

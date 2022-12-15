@@ -15,7 +15,7 @@ url: /zh/java/get-equation-text-of-chart-trendline/
 
 以下屏幕截图显示了带有趋势线的图表，其公式文本显示为红色。我们将使用[**趋势线.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)以下示例代码中的属性。
 
-![待办事项：图片_替代_文本](get-equation-text-of-chart-trendline_1.png)
+![待办事项：图像_替代_文本](get-equation-text-of-chart-trendline_1.png)
 
 ### Java 获取图表趋势线等式文本的代码
 

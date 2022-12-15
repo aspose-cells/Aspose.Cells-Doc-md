@@ -3,7 +3,7 @@ title: Skapa vattenfallsdiagram
 type: docs
 weight: 140
 url: /sv/java/creating-waterfall-chart/
-description: Skapa vattenfallsdiagram i Excel med Java och Aspose.Cells för Java API.
+description: Skapa vattenfallsdiagram i Excel med Java och Aspose.Cells for Java API.
 keywords: java create waterfall chart in excel, java creating waterfall chart in excel, creating waterfall chart in excel with java, create waterfall chart in excel with java, create waterfall chart in excel java, create waterfall chart excel java, create waterfall chart in excel programmatically, how to create waterfall chart in excel with java
 ---
 {{% alert color="primary" %}}
@@ -14,11 +14,11 @@ Ett vattenfallsdiagram är en speciell typ av sjökort som normalt används för
 
 ## Skapa ett vattenfallsdiagram
 
- Aspose.Cells API: er gör det möjligt att skapa ett vattenfallsdiagram med hjälp av linjediagram. API:et tillåter också att anpassa diagrammets utseende för att ge det formen av vattenfallet genom att ställa in de viktigaste egenskaperna för att forma diagrammet, det vill säga;[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)egenskaper.
+ Aspose.Cells API: er gör det möjligt att skapa ett vattenfallsdiagram med hjälp av linjediagram. API gör det också möjligt att anpassa diagrammets utseende för att ge det formen av vattenfallet genom att ställa in de viktigaste egenskaperna för att forma sjökortet, det vill säga;[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)egenskaper.
 
-Nedan medföljande kodavsnitt visar användningen av Aspose.Cells för Java API för att skapa ett vattenfallsdiagram från grunden.
+Nedan medföljande kodavsnitt visar användningen av Aspose.Cells for Java API för att skapa ett vattenfallsdiagram från grunden.
 
-### Java-kod för att skapa vattenfallsdiagram
+### Java kod för att skapa vattenfallsdiagram
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateWaterfallChart-CreateWaterfallChart.java" >}}
 

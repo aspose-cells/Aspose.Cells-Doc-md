@@ -33,7 +33,7 @@ Insetti
 (CELLSJAVA-41232) - Bug - La formula contiene un nome definito che termina con numero+e
 (CELLSJAVA-41215) - I campi elettromagnetici generati con Aspose.Cells vengono visualizzati in modo diverso nei diversi visualizzatori
 (CELLSJAVA-41196) - XLSB viene danneggiato dopo aver aggiunto un foglio di lavoro e un valore di cella
-(CELLSJAVA-41227) - API non può sostituire il carattere Arial con Liberation Fonts
+(CELLSJAVA-41227) - L'API non può sostituire il carattere Arial con i caratteri Liberation
 (CELLSJAVA-41224) - Errore nella conversione dell'immagine durante il rendering di Excel in PDF
 (CELLSJAVA-41223) - La firma dei file PDF esportati non riesce
 (CELLSJAVA-41208) - Suggerimenti per il rendering (Anti Aliasing) non funziona con SheetRender
@@ -66,12 +66,12 @@ Insetti
 (CELLSJAVA-41203) - Le larghezze delle celle e dell'intestazione non corrispondono in GridWeb
 (CELLSJAVA-41073) - Le larghezze delle intestazioni per le colonne sono diverse dalle larghezze delle celle in Chrome/Opera
 
-Pubblico API e modifiche incompatibili con le versioni precedenti
+API pubblica e modifiche non compatibili con le versioni precedenti
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
  Aggiunge l'attributo HtmlSaveOptions.ExportBogusRowData
-Indica se esportare i dati della riga inferiore fasulli. il valore predefinito è true.
+Indica se esportare i dati della riga inferiore fasulli. il valore predefinito è vero.
 
  Aggiunge l'attributo HtmlSaveOptions.CellCssPrefix
 Ottiene e imposta il prefisso del nome css, il valore predefinito è "".
@@ -82,10 +82,10 @@ Dispone la tabella pivot in formato compatto.
  Aggiunge il metodo PivotTable.ShowInOutlineForm()
 Dispone la tabella pivot sotto forma di struttura.
 
-Aggiunge il metodo PivotTable.ShowInTabularForm()
+ Aggiunge il metodo PivotTable.ShowInTabularForm()
 Dispone la tabella pivot in formato tabulare.
 
- Aggiunge il metodo PivotTableCollection.Remove(PivotTable pivotTable).
+Aggiunge il metodo PivotTableCollection.Remove(PivotTable pivotTable).
 Elimina la tabella pivot specificata
 
  Aggiunge il metodo PivotTableCollection.RemoveAt(int index).

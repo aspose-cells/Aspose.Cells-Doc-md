@@ -6,7 +6,7 @@ url: /tr/java/add-cells-to-microsoft-excel-formula-watch-window/
 ---
 ## **Olası Kullanım Senaryoları**
 
-Microsoft Excel İzleme Penceresi, hücre değerlerini ve formüllerini bir pencerede rahatça izlemek için yararlı bir araçtır. açabilirsiniz*İzleme Penceresi*Microsoft Excel'i kullanarak*Formüller > İzle* *Pencere*. sahip*İzleme Ekle*İnceleme için hücreleri eklemek için kullanılabilecek düğme. Benzer şekilde, kullanabilirsiniz[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) içine hücre ekleme yöntemi*İzleme Penceresi*Aspose.Cells API'i kullanarak.
+Microsoft Excel İzleme Penceresi, hücre değerlerini ve formüllerini bir pencerede rahatça izlemek için yararlı bir araçtır. açabilirsiniz*İzleme Penceresi*Microsoft Excel'i kullanarak*Formüller > İzle* *pencere*. sahip*İzleme Ekle*İnceleme için hücreleri eklemek için kullanılabilecek düğme. Benzer şekilde, kullanabilirsiniz[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) içine hücre ekleme yöntemi*İzleme Penceresi*Aspose.Cells API'i kullanarak.
 
 ## **Cells'i Microsoft'e ekleyin Excel Formül İzleme Penceresi**
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Raporlama Hizmetleri için Aspose.Cells
+title: Aspose.Cells for Reporting Services
 type: docs
 weight: 80
 url: /tr/reportingservices/
@@ -7,17 +7,17 @@ is_root: true
 ---
 ![yapılacaklar:resim_alternatif_Metin](home_1)
 
-**Raporlama Hizmetleri için Aspose.Cells'e hoş geldiniz**
+**Hoşgeldiniz Aspose.Cells for Reporting Services**
 
-Raporlama Servisleri için Aspose.Cells, Raporlama Servislerinde Microsoft Excel raporlarını teslim etmesi gereken geliştiriciler için bir çözümdür. Aspose.Cells.Report.Designer aracı aracılığıyla Raporlama Servislerine esnek ve kullanıcı dostu özellikler ekler. API, veri kaynaklarının ayarlanması, sorguların oluşturulması, raporların tasarlanması ve Rapor Sunucusunda raporların yayınlanması gibi Raporlama Servislerinde raporların geliştirilmesi ile ilgili tüm görevleri gerçekleştirebilir. Aspose.Cells.Report.Designer, rapor şablonu olarak Microsoft Excel'i kullandığından, kullanıcılar Microsoft Excel'de bulunan güçlü özelliklerden yararlanabilir.
+Aspose.Cells for Reporting Services, Raporlama Servislerinde Microsoft Excel raporlarını teslim etmesi gereken geliştiriciler için bir çözümdür. Aspose.Cells.Report.Designer aracı aracılığıyla Raporlama Servislerine esnek ve kullanıcı dostu özellikler ekler. API, veri kaynaklarının ayarlanması, sorguların oluşturulması, raporların tasarlanması ve Rapor Sunucusunda raporların yayınlanması gibi Raporlama Servislerinde raporların geliştirilmesi ile ilgili tüm görevleri gerçekleştirebilir. Aspose.Cells.Report.Designer, rapor şablonu olarak Microsoft Excel'i kullandığından, kullanıcılar Microsoft Excel'de bulunan güçlü özelliklerden yararlanabilir.
 
-## **Raporlama Hizmetleri Kaynakları için Aspose.Cells**
+## **Aspose.Cells for Reporting Services Kaynaklar**
 Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz bazı yararlı kaynakların bağlantıları bulunmaktadır.
 
-- [Raporlama Hizmetleri Çevrimiçi Belgeleri için Aspose.Cells](/cells/tr/reportingservices/)
-- [Raporlama Hizmetleri Özellikleri için Aspose.Cells](/cells/tr/reportingservices/features/)
-- [Raporlama Hizmetleri Sürüm Notları için Aspose.Cells](/cells/tr/reportingservices/release-notes/)
-- [Raporlama Hizmetleri Ürün Sayfası için Aspose.Cells](https://products.aspose.com/cells/reporting-services/)
-- [Raporlama Hizmetleri için Aspose.Cells'i indirin](https://downloads.aspose.com/cells/reportingservices)
-- [Raporlama Hizmetleri için Aspose.Cells Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
-- [Raporlama Hizmetleri için Aspose.Cells Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Reporting Services Çevrimiçi Dokümantasyon](/cells/tr/reportingservices/)
+- [Aspose.Cells for Reporting Services Özellikler](/cells/tr/reportingservices/features/)
+- [Aspose.Cells for Reporting Services Sürüm Notları](/cells/tr/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Ürün Sayfası](https://products.aspose.com/cells/reporting-services/)
+- [İndir Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
+- [Aspose.Cells for Reporting Services Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Reporting Services Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)

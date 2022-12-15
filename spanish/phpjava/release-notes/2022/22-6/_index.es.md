@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para PHP a través de Java 22.6 Notas de la versión
+title: Aspose.Cells for PHP via Java 22.6 Notas de la versión
 type: docs
 weight: 7
 url: /es/php-java/aspose-cells-for-php-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Esta página contiene notas de la versión para[Aspose.Cells para PHP vía Java 22.6](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.6/).
+ Esta página contiene notas de la versión para[Aspose.Cells for PHP via Java 22.6](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.6/).
 
 {{% /alert %}}
 
@@ -28,7 +28,7 @@ url: /es/php-java/aspose-cells-for-php-via-java-22-6-release-notes/
 |CELLSJAVA-44661|Problema al cargar el archivo et en Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|El título del eje en el gráfico se rota en la imagen de salida - Conversión de gráfico a imagen|
 |CELLSJAVA-44615|Línea gris dibujada en la imagen de salida del archivo XLS|
-|CELLSJAVA-44665|La carga del archivo ODS se cuelga|
+|CELLSJAVA-44665|La carga del archivo ODS se bloquea|
 |CELLSJAVA-44651|Error "No es un valor numérico" al convertir una hoja de Excel a HTML/PDF|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

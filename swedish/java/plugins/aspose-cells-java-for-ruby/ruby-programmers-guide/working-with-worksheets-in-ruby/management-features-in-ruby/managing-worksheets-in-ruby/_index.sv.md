@@ -5,8 +5,8 @@ weight: 10
 url: /sv/java/managing-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Hantera arbetsblad**
-### **Lägga till arbetsblad i en ny Excel-fil**
-För att lägga till kalkylblad i en ny Excel-fil med**Aspose.Cells Java för Ruby** , ring helt enkelt**add_worksheet** metod av**Hantera arbetsblad** modul.
+### **Lägga till kalkylblad till en ny Excel-fil**
+ För att lägga till kalkylblad i en ny Excel-fil med**Aspose.Cells Java för Ruby** , ring helt enkelt**add_worksheet** metod av**Hantera arbetsblad** modul.
 
 **Ruby kod**
 

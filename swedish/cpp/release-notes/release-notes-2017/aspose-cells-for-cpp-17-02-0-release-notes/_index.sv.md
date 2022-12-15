@@ -14,8 +14,8 @@ url: /sv/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 |:- |:- |:- |
 |CELLSCPP-41|Beräkna formler i Excel-kalkylblad|Ny funktion|
 |CELLSCPP-42|Förbättrad prestanda vid läsning av XLSX-filer|Förbättring|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, omdöpta, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för C++. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for C++. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoden IWorkbook::CalculateFormula().**
 Den senaste versionen 17.02.0 av Aspose.Cells för CPP API har lagt till metoden IWorkbook::CalculateFormula(). Det hjälper utvecklare att beräkna resultatet av formler och lagra i lämplig cell i ett kalkylblad. Utvecklare kan också beräkna de anpassade formlerna.
 
@@ -109,7 +109,7 @@ Detta kodexempel visar hur man beräknar formlerna och ignorerar fel i en Excel:
 #### **Lägger till metoden IWorkbook::CalculateFormula(intrusive_ptr<Aspose::Cells::ICalculationOptions> options)**
 Den beräknar formler i arbetsboken.
 #### **Lägger till metoden IWorkbook::CalculateFormula(bool ignoreError,intrusive_ptr<Aspose::Cells::ICustomFunction> customFunction)**
- Aspose.Cells för CPP API erbjuder ICustomFunction-gränssnitt. Utvecklare kan anropa metoden IWorkbook.CalculateFormula(false, ICustomFunction) för att anropa implementeringen av metoden ICustomFunction.CalculateCustomFunction(). Metoden ICustomFunction.CalculateCustomFunction() gör det möjligt att manipulera returvärdena för anpassade funktioner. I kodexemplet nedan utvärderar och returnerar implementeringen av ICustomFunction-gränssnittet värdena för två anpassade funktioner, dvs MySampleFunc() och YourSampleFunc(). Dessa anpassade funktioner finns inuti cellerna A1 respektive A2. Den skriver ut värdena för A1 och A2 på en konsol, som faktiskt är de värden som returneras av ICustomFunction.CalculateCustomFunction().
+Aspose.Cells för CPP API erbjuder ICustomFunction-gränssnitt. Utvecklare kan anropa metoden IWorkbook.CalculateFormula(false, ICustomFunction) för att anropa implementeringen av metoden ICustomFunction.CalculateCustomFunction(). Metoden ICustomFunction.CalculateCustomFunction() gör det möjligt att manipulera returvärdena för anpassade funktioner. I kodexemplet nedan utvärderar och returnerar implementeringen av ICustomFunction-gränssnittet värdena för två anpassade funktioner, dvs MySampleFunc() och YourSampleFunc(). Dessa anpassade funktioner finns inuti cellerna A1 respektive A2. Den skriver ut värdena för A1 och A2 på en konsol, som faktiskt är de värden som returneras av ICustomFunction.CalculateCustomFunction().
 
 
 Detta kodexempel visar hur man beräknar formlerna, ignorerar fel och manipulerar returvärdena för anpassade funktioner i en Excel:

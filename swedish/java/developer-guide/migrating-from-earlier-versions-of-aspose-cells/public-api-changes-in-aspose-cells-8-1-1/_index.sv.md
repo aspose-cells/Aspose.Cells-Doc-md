@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.1.1
+title: Offentlig API Ändringar i Aspose.Cells 8.1.1
 type: docs
 weight: 60
 url: /sv/java/public-api-changes-in-aspose-cells-8-1-1/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.0
 {{% /alert %}} 
 ## **Tillagda egenskaper och funktioner**
 ### **Lade till egenskapen HtmlSaveOptions.PresentationPreference**
-Klassen HtmlSaveOptions har exponerat getter/setter för PresentationPreference-egenskapen som kan användas för att rendera resultaten med bättre layout vid export av kalkylblad till HTML eller MHTML. Standardvärdet är falskt. medan om satt till sant, exporterar API:et Aspose.Cells kalkylbladets innehåll med bättre presentation.
+Klassen HtmlSaveOptions har exponerat getter/setter för PresentationPreference-egenskapen som kan användas för att rendera resultaten med bättre layout vid export av kalkylblad till HTML eller MHTML. Standardvärdet är falskt. medan om satt till sant, exporterar Aspose.Cells API kalkylbladets innehåll med bättre presentation.
 
 {{% alert color="primary" %}} 
 
@@ -32,4 +32,4 @@ Ett scenario är en vad-om-modell som inkluderar variabla indataceller länkade 
 
 {{% /alert %}}
 ## **Ändring i beteende för CellsException**
-Med tidigare versioner av Aspose.Cells för Java API, när ett eventuellt skadat kalkylblad laddades i en instans av Workbook, tenderade API:et att skicka ett allmänt meddelande utan att nämna var problemet kunde vara. Vi har ändrat detta beteende för 8.1.1 så att API:et kastar ett undantag med ett meningsfullt meddelande som pekar ut var (vilken cell) och vad (formeluttryck) som orsakar undantaget vid läsning av mallfilen.
+Med tidigare utgåvor av Aspose.Cells for Java API, när ett eventuellt skadat kalkylblad laddades i en instans av Workbook, tenderade API att skicka ett allmänt meddelande utan att nämna var problemet kunde vara. Vi har ändrat detta beteende för 8.1.1 så att API ger ett undantag med ett meningsfullt meddelande som pekar ut var (vilken cell) och vad (formeluttryck) som orsakar undantaget vid läsning av mallfilen.

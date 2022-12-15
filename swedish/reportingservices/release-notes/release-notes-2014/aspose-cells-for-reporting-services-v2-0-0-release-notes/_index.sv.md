@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells för Reporting Services V2.0.0 Release Notes
+title: Aspose.Cells for Reporting Services V2.0.0 Release Notes
 type: docs
 weight: 10
 url: /sv/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- Vänligen välkomna en ny version av Aspose.Cells för Reporting Services V2.0.0.
+ Vänligen välkomna en ny version av Aspose.Cells for Reporting Services V2.0.0.
 ## **Huvudfunktioner**
-Aspose.Cells för Reporting Services Report Designer optimering.
+Aspose.Cells for Reporting Services Rapportdesigneroptimering.
 ## **Andra förbättringar och förändringar**
  ` `Nya funktioner
 
@@ -20,7 +20,7 @@ Aspose.Cells för Reporting Services Report Designer optimering.
 - ` `(SSRS-40144) Konfigurera rapportservrar för att lagra/cacha rapportserverdata
 - ` `(SSRS-40142) Stöder delade datauppsättningar
 - ` `(SSRS-40113) Negativa värden i peranteser
-- ` `(SSRS-40103) Aspose.Cells för Reporting Services Rapportdesigner import rapport definiera fil för SQL Server 2008
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services Rapportdesigner importrapport definiera fil för SQL Server 2008
 
  Buggar
 
@@ -66,7 +66,7 @@ Aspose.Cells för Reporting Services Report Designer optimering.
 - ` `(SSRS-40095) Fel på Aspose.Cells SSRS
 - ` `(SSRS-40094) Dyn gömma med parametrar
 - ` `(SSRS-40093) Problem med testprogramvara - Går bara tillbaka en rad
-- ` `(SSRS-40092) Formatproblem med Aspose.Cells för Reporting Services
+- ` `(SSRS-40092) Formatproblem med Aspose.Cells for Reporting Services
 - ` `(SSRS-40091) Det gick inte att spara rapportfilen - Excel-rendering med bild
 - ` `(SSRS-40089) synlighetsproblem med tablix i SSRS
 - ` `(SSRS-40087) Ingen Excel "Document Map" tillgänglig i Aspose Cells för SSRS 2005?

@@ -3,7 +3,7 @@ title: Modifica uno stile esistente
 type: docs
 weight: 50
 url: /it/java/modify-an-existing-style/
-description: Scopri come cambiare gli stili in Excel con Microsoft Excel e con Aspose.Cells for Java API.
+description: Scopri come modificare gli stili in Excel con Microsoft Excel e con l'API Aspose.Cells for Java.
 keywords: modify an existing style excel, modify an existing style excel java, modify existing style excel, modify existing style excel java, change existing style in excel, change existing style in excel java, how to change style in excel, how to change style in excel with java, how to change style in excel with java, how to change style in excel using java, changing existing style in excel java, changing existing style in excel
 ---
 {{% alert color="primary" %}}
@@ -12,13 +12,13 @@ Per applicare le stesse opzioni di formattazione alle celle, crea un nuovo ogget
 
 Puoi anche utilizzare uno stile esistente, salvarlo con la cartella di lavoro e utilizzarlo per formattare le informazioni con gli stessi attributi.
 
- Quando le celle non sono formattate in modo esplicito, il**Normale** style (lo stile predefinito della cartella di lavoro). Microsoft Excel predefinisce diversi stili oltre allo stile Normale, tra cui Virgola, Valuta e Percentuale.
+ Quando le celle non sono formattate in modo esplicito, il**Normale** style (lo stile predefinito della cartella di lavoro). Microsoft Excel predefinisce diversi stili oltre allo stile Normale, inclusi Virgola, Valuta e Percentuale.
 
 Aspose.Cells consente di modificare uno qualsiasi di questi stili o qualsiasi altro stile definito con gli attributi desiderati.
 
 {{% /alert %}}
 
-## **Utilizzando Microsoft Excel**
+## **Utilizzo di Microsoft Excel**
 
 Per aggiornare uno stile in Microsoft Excel 97-2003:
 

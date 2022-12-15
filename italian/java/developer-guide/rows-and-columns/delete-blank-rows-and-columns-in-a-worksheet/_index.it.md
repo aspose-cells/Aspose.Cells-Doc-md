@@ -6,7 +6,7 @@ url: /it/java/delete-blank-rows-and-columns-in-a-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-È possibile eliminare tutte le righe e le colonne vuote da un foglio di lavoro. Ciò è utile ad esempio quando si genera un file PDF da un file Excel Microsoft e si desidera convertire solo righe e colonne che contengono dati.
+È possibile eliminare tutte le righe e le colonne vuote da un foglio di lavoro. Ciò è utile, ad esempio, quando si genera un file PDF da un file Microsoft Excel e si desidera convertire solo righe e colonne che contengono dati.
 
 Utilizzare i seguenti metodi Aspose.Cells per eliminare righe e colonne vuote:
 

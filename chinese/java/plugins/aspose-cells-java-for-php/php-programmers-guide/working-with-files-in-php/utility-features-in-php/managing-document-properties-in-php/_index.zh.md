@@ -5,7 +5,7 @@ weight: 70
 url: /zh/java/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells - 添加自定义属性**
-要使用 Aspose.Cells Java 为 PHP 添加自定义文档属性，请调用**添加自定义属性**的方法**文档**模块。
+要使用 Aspose.Cells Java for PHP 添加自定义文档属性，请调用**添加自定义属性**的方法**文档**模块。
 
 **PHP代码**
 

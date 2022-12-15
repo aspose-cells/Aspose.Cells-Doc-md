@@ -41,8 +41,8 @@ url: /it/net/aspose-cells-for-net-18-12-release-notes/
 |CELLSNET-46452|Eccezione "NullReferenceException" durante il caricamento di un formato di file XLSB|Eccezione|
 |CELLSNET-46456|ArgumentException al caricamento della cartella di lavoro|Eccezione|
 |CELLSNET-46460|Eccezione durante l'accesso a TextBox.HtmlText da XLS|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HtmlSaveOptions.ExportSingleTab**
 Indica se esportare la singola scheda quando il file contiene un solo foglio di lavoro. Il valore predefinito è false.
 #### **Aggiunge la proprietà HtmlSaveOptions.ExportPrintAreaOnly**
@@ -56,7 +56,7 @@ Usare invece il metodo WorkbookSettings.WriteProtection.ValidatePassword.
 #### **Aggiunge l'enumerazione LoadDataFilterOptions.VBA**
 L'opzione da utilizzare per ignorare i progetti VBA durante il caricamento del file modello.
 #### **Aggiunge la proprietà Style.InvariantCustom**
-Ottiene la stringa del modello indipendente dalle impostazioni cultura per il formato numerico (inclusa la stringa del modello per il numero predefinito).
+Ottiene la stringa del modello indipendente dalle impostazioni cultura per il formato numerico (inclusa la stringa del modello per il numero incorporato).
 #### **Aggiunge la proprietà FindOptions.ValueTypeSensitive**
 Indica se il tipo di valore della cella cercata deve essere uguale alla chiave cercata.
 #### **Proprietà FindOptions.SearchNext obsoleta**

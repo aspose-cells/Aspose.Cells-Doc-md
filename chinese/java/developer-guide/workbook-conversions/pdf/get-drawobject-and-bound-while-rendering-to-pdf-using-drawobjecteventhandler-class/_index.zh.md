@@ -18,7 +18,7 @@ Aspose.Cells 提供抽象类[**绘图对象事件处理器**](https://reference.
 
 - 高度：高度[**绘图对象**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-如果您将 Excel 文件渲染为 PDF，那么您可以利用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler).同样，如果您将 Excel 文件渲染为图像，您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
+如果您将 Excel 文件渲染为 PDF，那么您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler).同样，如果您将 Excel 文件渲染为图像，您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
 
 ## **使用 DrawObjectEventHandler 类在渲染到 Pdf 时获取 DrawObject 和 Bound**
 

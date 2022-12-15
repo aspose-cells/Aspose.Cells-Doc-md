@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 20.6 Notes de version
+title: Aspose.Cells for Android via Java 20.6 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/java/aspose-cells-for-android-via-java-20-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 20.6.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 20.6.
 
 {{% /alert %}} 
 
@@ -59,7 +59,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-43193|NullPointerException s'est produite lors du chargement de certains fichiers XLSX|Exception|
 |CELLSJAVA-43200|Exception "java.lang.ArrayIndexOutOfBoundsException" lors du chargement du fichier|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 ### **Ajoute la propriété ChartTextFrame.DirectionType.**
 Obtient et définit la direction du texte dans le graphique.
 ### **Ajoute ChartTextFrame.ReadingOrder et rend obsolète la propriété ChartTextFrame.TextDirection.**

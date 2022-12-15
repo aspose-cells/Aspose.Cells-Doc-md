@@ -10,7 +10,7 @@ Microsoft Excel fornisce una funzionalità che consente di ridimensionare automa
 
 {{% /alert %}}
 
- Aspose.Cells supporta questa funzione tramite il[**AutoFitterOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)API. Usando questo API, è possibile adattare automaticamente le righe in un foglio di lavoro includendo celle unite.
+ Aspose.Cells supporta questa funzione tramite il[**AutoFitterOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)API. Utilizzando questa API, è possibile adattare automaticamente le righe in un foglio di lavoro, comprese le celle unite.
 
 Dopo aver eseguito il codice, Aspose.Cells adatta automaticamente le righe per le celle unite.
 

@@ -5,7 +5,7 @@ weight: 60
 url: /ru/python-java/set-the-comment-of-table-or-list-object/
 ---
 ## **Установите комментарий к таблице или объекту списка внутри рабочего листа**
-Aspose.Cells для Python через Java поддерживает добавление комментария объекта списка. Для этого API предоставляет[СписокОбъект.Комментарий](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)имущество. Комментарий, добавленный[СписокОбъект.Комментарий](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)свойство будет видно внутри*XL/таблицы/имя_таблицы.xml* файл.
+Aspose.Cells for Python via Java поддерживает добавление комментария к объекту списка. Для этого API предоставляет[СписокОбъект.Комментарий](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)имущество. Комментарий, добавленный[СписокОбъект.Комментарий](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)свойство будет видно внутри*XL/таблицы/имя_таблицы.xml* файл.
 
 На следующем снимке экрана показан комментарий, созданный кодом примера, в красном прямоугольнике.
 

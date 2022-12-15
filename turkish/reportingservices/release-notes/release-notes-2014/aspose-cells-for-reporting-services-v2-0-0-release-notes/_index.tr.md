@@ -1,18 +1,18 @@
 ﻿---
-title: Raporlama Hizmetleri V2.0.0 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services V2.0.0 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[Raporlama Hizmetleri V2.0.0 için Aspose.Cells](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- Lütfen Reporting Services V2.0.0 için yeni bir Aspose.Cells sürümüne hoş geldiniz.
+ Lütfen Aspose.Cells for Reporting Services V2.0.0'ın yeni sürümünü karşılayın.
 ## **Başlıca Özellikler**
-Raporlama Hizmetleri Rapor Tasarımcısı optimizasyonu için Aspose.Cells.
+Aspose.Cells for Reporting Services Rapor Tasarımcısı optimizasyonu.
 ## **Diğer İyileştirmeler ve Değişiklikler**
  ` `Yeni Özellikler
 
@@ -20,7 +20,7 @@ Raporlama Hizmetleri Rapor Tasarımcısı optimizasyonu için Aspose.Cells.
 - ` `(SSRS-40144) Rapor Sunucularını, rapor sunucusu verilerini depolamak/önbelleğe almak için yapılandırma
 - ` `(SSRS-40142) Paylaşılan Veri Kümelerini Destekler
 - ` `(SSRS-40113) Perantezlerdeki Negatif Değerler
-- ` `(SSRS-40103) Raporlama Hizmetleri Rapor Tasarımcısı için Aspose.Cells içe aktarma raporu SQL Server 2008 için dosya tanımla
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services Rapor Tasarımcısı içe aktarma raporu SQL Server 2008 için dosya tanımla
 
  Hatalar
 
@@ -66,7 +66,7 @@ Raporlama Hizmetleri Rapor Tasarımcısı optimizasyonu için Aspose.Cells.
 - ` `(SSRS-40095) Aspose.Cells SSRS'de Hata
 - ` `(SSRS-40094) Parametrelerle Dyn gizleme
 - ` `(SSRS-40093) Deneme yazılımıyla ilgili sorun - Yalnızca bir satır geri alınıyor
-- ` `(SSRS-40092) Raporlama Servisleri için Aspose.Cells ile format sorunları
+- ` `(SSRS-40092) Aspose.Cells for Reporting Services ile biçimlendirme sorunları
 - ` `(SSRS-40091) Rapor Dosyası Kaydedilemedi - Görüntü kullanılarak Excel oluşturma
 - ` `(SSRS-40089) SSRS'de tablix ile görünürlük sorunu
 - ` `(SSRS-40087) SSRS 2005 için Aspose Cells'de Excel "Belge Haritası" yok mu?

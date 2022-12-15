@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /de/sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/
 ---
-Aspose.Cells für SharePoint bietet eine Symbolleiste mit einigen wertvollen Optionen und Befehlen:
+Aspose.Cells for SharePoint bietet eine Symbolleiste mit einigen wertvollen Optionen und Befehlen:
 
 - Konvertieren Sie mit Aspose.Cells
 - Vorschaudokument mit Aspose.Cells

@@ -23,7 +23,7 @@ url: /ar/net/working-with-aspose-cells-griddesktop-events/
 |قبل الحساب|يحدث قبل حساب الصيغة في المصنف.|
 |BeforeLoadFile|يحدث قبل تحميل المصنف من ملف.|
 |ColumnHeaderClick|يحدث عند النقر فوق رأس العمود.|
-|ColumnHeaderDoubleClick|يحدث عند النقر المزدوج فوق رأس العمود.|
+|ColumnHeaderDoubleClick|يحدث عندما يتم النقر نقرًا مزدوجًا فوق رأس العمود.|
 |CellDataChanged|يحدث عند تغيير البيانات أو القيمة داخل خلية الشبكة. يمكن أيضًا تشغيل هذا الحدث إذا تم تغيير قيمة الخلية برمجيًا باستخدام خاصية القيمة أو طريقة SetCellValue لشبكة GridCell.|
 |CellButtonClick|يحدث عند النقر فوق زر الخلية.|
 |CellCheckedChanged|يحدث عندما يتم تغيير خانة اختيار الخاصية المحددة للخلية.|

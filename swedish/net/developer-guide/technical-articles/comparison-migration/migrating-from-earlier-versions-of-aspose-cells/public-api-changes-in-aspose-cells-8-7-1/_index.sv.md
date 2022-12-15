@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.7.1
+title: Offentlig API Ändringar i Aspose.Cells 8.7.1
 type: docs
 weight: 240
 url: /sv/net/public-api-changes-in-aspose-cells-8-7-1/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.7
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Lade till LookInType.OriginalValues-egenskap**
- Aspose.Cells API:er stöder redan[Hitta eller sök data](/cells/sv/net/find-or-search-data/)funktion för kalkylblad för att hitta ett visst innehåll i cellvärde och formel. Den här funktionen saknade dock aspekten av formatering som applicerades på cellen som kan ändra utseendet såväl som värdet på innehållet, vilket gör texten osökbar med det ursprungliga värdet. Med den här utgåvan av Aspose.Cells API:er har en annan konstant vid namn LookInType.OriginalValues exponerats för det offentliga API:et som gör det möjligt att övervinna situationen som diskuterats ovan.
+ Aspose.Cells API:er stöder redan[Hitta eller sök data](/cells/sv/net/find-or-search-data/)funktion för kalkylblad för att hitta ett visst innehåll i cellvärde och formel. Den här funktionen saknade dock aspekten av formatering som applicerades på cellen som kan ändra utseendet såväl som värdet på innehållet, vilket gör texten osökbar med det ursprungliga värdet. Med denna utgåva av Aspose.Cells API:er har en annan konstant vid namn LookInType.OriginalValues exponerats för allmänheten API vilket gör det möjligt att övervinna situationen som diskuterats ovan.
 
 {{% alert color="primary" %}} 
 
@@ -85,7 +85,7 @@ Console.WriteLine(foundCell);
 
 
 ### **Lade till OnBeforeColumnFilter Event för GridWeb**
-Aspose.Cells.GridWeb för .NET 8.7.1 har avslöjat händelsen OnBeforeColumnFilter som fungerar som återuppringning till filtreringsmekanismen som görs genom GridWeb UI. Som namnet antyder utlöses händelsen innan kolumnfiltreringen tillämpas och kan användas för att få filtreringsinformation som kolumnindex och värde på vilket filter måste tillämpas.
+Aspose.Cells.GridWeb for .NET 8.7.1 har avslöjat händelsen OnBeforeColumnFilter som fungerar som återuppringning till filtreringsmekanismen som görs via GridWeb UI. Som namnet antyder utlöses händelsen innan kolumnfiltreringen tillämpas och kan användas för att få filtreringsinformation som kolumnindex och värde på vilket filter måste tillämpas.
 
 Enkelt användningsscenario ser ut som följer.
 

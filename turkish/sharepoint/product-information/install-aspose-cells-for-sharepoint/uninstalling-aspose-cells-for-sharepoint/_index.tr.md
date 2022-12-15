@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells for SharePoint'i kaldırma
+title: Kaldırma Aspose.Cells for SharePoint
 type: docs
 weight: 50
 url: /tr/sharepoint/uninstalling-aspose-cells-for-sharepoint/
@@ -10,7 +10,7 @@ Aspose.Cells for SharePoint'i kaldırmak için kurulum programını çalıştır
 
 {{% /alert %}} 
 ### **Kaldırma**
- Kaldırma sırasında, kurulum programı tüm site koleksiyonları için SharePoint için Aspose.Cells'i devre dışı bırakır ve çözümü sunucu grubundan geri çeker.
+ Kaldırma sırasında, kurulum programı tüm site koleksiyonları için Aspose.Cells for SharePoint'i devre dışı bırakır ve çözümü sunucu çiftliğinden geri çeker.
 
 **Aspose.Cells kaldırılıyor** 
 
@@ -21,8 +21,8 @@ Aspose.Cells for SharePoint'i kaldırmak için kurulum programını çalıştır
 
 {{% alert color="primary" %}} 
 
- çalıştırdığını lütfen unutmayın.**Onarım** seçeneği, site koleksiyonlarında SharePoint için Aspose.Cells'i yeniden etkinleştirmez. Bunun yerine, özelliğin yeniden dağıtımdan sonra manuel olarak etkinleştirilmesi gerekir.**Onarım** seçenek.
+ çalıştırdığını lütfen unutmayın.**Onarım**site tahsilatlarında Aspose.Cells for SharePoint seçeneği tekrar aktif olmuyor. Bunun yerine, özelliğin yeniden dağıtımdan sonra manuel olarak etkinleştirilmesi gerekir.**Onarım** seçenek.
 
- kullanarak kaldırma**Kaldırmak** kurulum sırasında hedef web uygulamalarını ve site koleksiyonlarını seçmenize izin verdiği için yeniden kurulum daha uygun olabilir.
+ kullanarak kaldırma**Kaldırmak** kurulum sırasında hedef web uygulamalarını ve site koleksiyonlarını seçmenize olanak tanıdığından, yeniden kurulum daha uygun olabilir.
 
 {{% /alert %}}

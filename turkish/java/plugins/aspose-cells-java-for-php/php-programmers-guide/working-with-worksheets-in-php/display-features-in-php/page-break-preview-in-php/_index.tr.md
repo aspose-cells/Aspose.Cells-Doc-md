@@ -5,7 +5,7 @@ weight: 60
 url: /tr/java/page-break-preview-in-php/
 ---
 ## **Aspose.Cells - Sayfa Sonu Önizlemesi**
- Çalışma sayfasını kullanarak sayfa sonu önizlemesini ayarlamak için**PHP için Aspose.Cells Java** , sadece çağırmak**PageBreakÖnizleme** modül.
+ Çalışma sayfasını kullanarak sayfa sonu önizlemesini ayarlamak için**Aspose.Cells Java for PHP** , sadece çağırmak**PageBreakÖnizleme** modül.
 
 **PHP Kodu**
 

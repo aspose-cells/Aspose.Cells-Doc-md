@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Node.js tramite Java 21.6 Note di rilascio
+title: Aspose.Cells for Node.js via Java 21.6 Note di rilascio
 type: docs
 weight: 7
 url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Node.js tramite Java 21.6](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Node.js via Java 21.6](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -31,9 +31,9 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 |CELLSJAVA-43492| La conversione di un file XML (SpreadsheetML) rimuove l'impostazione nascosta in "Definizione del nome" nell'output XLS e XLSX|
 |CELLSJAVA-43486|NullPointerException durante la conversione di un documento HTML in una cartella di lavoro|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate allo API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Node.js tramite Java. In caso di dubbi su qualsiasi modifica elencata , sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Node.js via Java. sul forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della proprietà Cell.IsErrorValue.**
 

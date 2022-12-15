@@ -6,7 +6,7 @@ url: /sv/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells tillhandahåller nu[Style.CitatPrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) egenskap för att hitta om cellvärdet börjar med ett enda citattecken. Innan den här egenskapen fanns det inget sätt att skilja mellan strängar som sample och 'sample etc.
+ Aspose.Cells tillhandahåller nu[Style.CitatPrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) egenskap för att hitta om cellvärdet börjar med ett enda citattecken. Innan den här egenskapen fanns det inget sätt att skilja mellan strängar som sample och 'sample etc.
 
 {{% /alert %}} 
 ## **Ta reda på om cellvärdet börjar med ett citattecken**

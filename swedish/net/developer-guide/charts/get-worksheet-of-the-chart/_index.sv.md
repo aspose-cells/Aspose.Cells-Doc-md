@@ -6,7 +6,7 @@ url: /sv/net/get-worksheet-of-the-chart/
 ---
 {{% alert color="primary" %}}
 
- Ibland vill du komma åt ett kalkylblad från ett diagrams referens. Aspose.Cells tillhandahåller[**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) egenskap som returnerar referensen till kalkylbladet som innehåller diagrammet.
+Ibland vill du komma åt ett kalkylblad från ett diagrams referens. Aspose.Cells tillhandahåller[**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) egenskap som returnerar referensen till kalkylbladet som innehåller diagrammet.
 
 {{% /alert %}}
 

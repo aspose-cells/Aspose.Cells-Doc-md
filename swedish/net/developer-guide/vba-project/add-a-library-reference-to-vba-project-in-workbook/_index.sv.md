@@ -10,9 +10,9 @@ url: /sv/net/add-a-library-reference-to-vba-project-in-workbook/
 
 {{% /alert %}}
 
-## **Lägg till en biblioteksreferens till VBA-projekt i Microsoft Excel**
+## **Lägg till en biblioteksreferens till VBA-projektet i Microsoft Excel**
 
- Microsoft Excel kan du lägga till en biblioteksreferens till VBA-projektet genom att klicka på**Verktyg > Referenser...** manuellt.
+ I Microsoft Excel kan du lägga till en biblioteksreferens till VBA-projektet genom att klicka på**Verktyg > Referenser...** manuellt.
 
 ## **Lägg till en biblioteksreferens till VBA-projektet i en arbetsbok med Aspose.Cells**
 

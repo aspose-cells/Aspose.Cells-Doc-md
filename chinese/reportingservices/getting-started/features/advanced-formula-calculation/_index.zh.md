@@ -17,6 +17,6 @@ Microsoft Excel 动态公式未计算，而是转换为真实的 Microsoft Excel
 
 {{% /alert %}} 
 - **公式输出**
-**使用 Aspose.Cells 为 Reporting Services 导出包含公式（已计算）的示例报表** 
+**使用 Aspose.Cells for Reporting Services 导出包含公式（已计算）的示例报告** 
 
-![待办事项：图片_替代_文本](advanced-formula-calculation_1.png)
+![待办事项：图像_替代_文本](advanced-formula-calculation_1.png)

@@ -14,7 +14,7 @@ Quando questo problema si verifica durante l'installazione, nel log di traccia d
 
 Per evitare questo problema, concedere agli amministratori del portale l'autorizzazione a gestire l'applicazione Web MySite:
 
-1.  Vai a**Amministrazione centrale SharePoint** e selezionare il**Gestione delle candidature** scheda.
+1.  Vai a**Amministrazione centrale SharePoint** selezionare il**Gestione delle candidature** scheda.
 1.  Scegliere**Politica per l'applicazione Web** sotto il**Sicurezza delle applicazioni** gruppo.
 1.  Assicurati di selezionare l'applicazione Web corretta per "Il mio sito" nel file**Applicazione web** elenco a destra.
 1.  Selezionare**Aggiungi utenti** in alto a sinistra.

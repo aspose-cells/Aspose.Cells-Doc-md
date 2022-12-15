@@ -33,7 +33,7 @@ Aspose.Cells.GridDesktop tarafından aşağıdaki gibi desteklenen altı tür ke
 - **Tepe** , Üst sınırı temsil eder
 - **Alt** , alt sınırı temsil eder
 - **Çapraz Aşağı** , diyagonal aşağı sınırı temsil eder
-- **çapraz Yukarı** , çapraz yukarı sınırı temsil eder
+- **çapraz yukarı** , çapraz yukarı sınırı temsil eder
 ### **Sınır Çizgisi Türleri**
 Kenarlık bir çizgiden oluşur. Çizgi türünün değiştirilmesi, kenarlığın görünümünü değiştirir. Aspose.Cells.GridDesktop tarafından desteklenen ve aşağıda listelenen birçok sınır çizgisi türü vardır:
 
@@ -53,7 +53,7 @@ Kenarlık bir çizgiden oluşur. Çizgi türünün değiştirilmesi, kenarlığ�
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-SummingUp.cs" >}}
 ## **Sayı Biçimlerini Ayarlama**
-Aspose.Cells.GridDesktop ayrıca hücrelere girilen değerler için sayı formatlarını belirleme konusunda güçlü bir özellik sağlar. Aspose.Cells.GridDesktop tarafından sunulan 58 yerleşik sayı biçimi vardır. Desteklenen tüm sayı biçimlerinin tam listesini görmek için lütfen bkz.[Desteklenen Sayı Biçimleri.](/cells/tr/net/list-of-supported-number-formats/)
+Aspose.Cells.GridDesktop ayrıca hücrelere girilen değerler için sayı formatlarını belirleme konusunda güçlü bir özellik sunar. Aspose.Cells.GridDesktop tarafından sunulan 58 yerleşik sayı biçimi vardır. Desteklenen tüm sayı biçimlerinin tam listesini görmek için lütfen bkz.[Desteklenen Sayı Biçimleri.](/cells/tr/net/list-of-supported-number-formats/)
 
  Tüm yerleşik sayı biçimlerine bir**dizin** sayı.**Örneğin** the**dizin** sayısı**0.00E+00** sayı biçimi**11** . Geliştiriciler, herhangi bir hücrede yerleşik bir sayı biçimi kullanmak için NumberFormat özelliğini ayarlayabilir.**stil** itiraz etmek**dizin** belirli bir sayı biçiminin numarası. Bununla birlikte, geliştiricilerin kendi özel sayı biçimine sahip olmaları gerekiyorsa, Özel özelliğini de kullanabilirler.**stil** nesne.
 

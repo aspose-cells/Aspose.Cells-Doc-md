@@ -85,7 +85,7 @@ Yazı tipinin şema türünü alır ve ayarlar.
 Kimliğe göre Özel xml bölümünü alır.
 #### **Range.Address, Range.CellCount, EntireColumn, Range.EntireRow ve Range.GetOffset(System.Int32,System.Int32) ekler.**
 İşleme aralığı için geliştirme.
-#### **ColorDepth sıralaması ve ImageOrPrintOptions.TiffColorDepth özelliğini ekler**
+#### **ColorDepth sıralaması ve ImageOrPrintOptions.TiffColorDepth özelliği ekler**
 Yalnızca sayfaları Tiff biçiminde kaydederken uygulanacak bit derinliğini alır veya ayarlar.
 #### **WorkbookRender.ToImage() yöntemini aşırı yükler**
 Çalışma kitabını sayfa dizinine göre resme dönüştürür.

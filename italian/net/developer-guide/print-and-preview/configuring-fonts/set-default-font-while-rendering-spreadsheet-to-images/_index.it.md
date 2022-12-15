@@ -6,7 +6,7 @@ url: /it/net/set-default-font-while-rendering-spreadsheet-to-images/
 ---
 {{% alert color="primary" %}}
 
- Si prega di utilizzare il[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) proprietà per impostare il carattere predefinito durante il rendering dei fogli di calcolo nelle immagini. Questa proprietà sarà efficace solo quando il carattere predefinito della cartella di lavoro non è in grado di eseguire il rendering dei caratteri. Il carattere predefinito specificato con[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property viene utilizzata per tutte quelle celle che hanno font non validi o inesistenti.
+ Si prega di utilizzare il[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) proprietà per impostare il carattere predefinito durante il rendering dei fogli di calcolo nelle immagini. Questa proprietà sarà efficace solo quando il carattere predefinito della cartella di lavoro non è in grado di eseguire il rendering dei caratteri. Il carattere predefinito specificato con[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)property viene utilizzata per tutte quelle celle che hanno font non validi o inesistenti.
 
 {{% /alert %}}
 

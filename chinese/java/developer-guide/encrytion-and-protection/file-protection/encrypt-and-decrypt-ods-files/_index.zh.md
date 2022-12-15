@@ -6,7 +6,7 @@ url: /zh/java/encrypt-and-decrypt-ods-files/
 description: 使用 Aspose.Cells for Java 密码保护和加密 ODS 文件，这是一个纯 Java 库。
 ---
 {{% alert color="primary" %}}
-OpenOffice.org 是一个功能齐全的办公套件，支持密码保护和加密文件。但是，加密的 ODS 文件只有在提供密码后才能由 OpenOffice 打开。 Excel 无法打开加密的 ODS 文件，并可能引发警告消息。与其他文件类型不同，加密选项不适用于 ODS 文件。
+ OpenOffice.org 是一个功能齐全的办公套件，支持密码保护和加密文件。但是，加密的 ODS 文件只有在提供密码后才能由 OpenOffice 打开。 Excel 无法打开加密的 ODS 文件，并可能引发警告消息。与其他文件类型不同，加密选项不适用于 ODS 文件。
  Aspose.Cells 允许加密和解密 ODS 文件。解密的 ODS 文件可以在 Excel 和 OpenOffice 中打开，
 {{% /alert %}}
 

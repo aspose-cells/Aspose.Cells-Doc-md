@@ -6,7 +6,7 @@ url: /it/python-java/licensing/
 ---
 {{% alert color="primary" %}} 
 
- È possibile installare una versione di valutazione di**Aspose.Cells** per Python tramite Java con `pip install aspose-cells`. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del prodotto. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
+ È possibile installare una versione di valutazione di**Aspose.Cells** for Python via Java con `pip install aspose-cells`. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del prodotto. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
 
  Una volta che sei soddisfatto della tua valutazione di**Aspose.Cells** , puoi[acquistare una licenza](https://purchase.aspose.com)sul sito Aspose. Acquisisci familiarità con i diversi tipi di abbonamento offerti. In caso di domande, non esitare a contattare il team di vendita Aspose.
 
@@ -45,11 +45,11 @@ La licenza può essere caricata da un file nelle seguenti posizioni:
 1. Percorso esplicito.
 1. Cartella di lavoro.
 
- Utilizzare il[Licenza.setLicenza](https://reference.aspose.com/cells/python-java/asposecells.api/License) metodo per concedere in licenza il componente. Spesso il modo più semplice per impostare una licenza consiste nell'inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
+ Utilizzare il[Licenza.setLicenza](https://reference.aspose.com/cells/python-java/asposecells.api/License)metodo per concedere in licenza il componente. Spesso il modo più semplice per impostare una licenza consiste nell'inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
 
 ### **Esempio**
 
- In questo esempio**Aspose.Cells**tenterà di trovare il file di licenza nella cartella di lavoro.
+ In questo esempio**Aspose.Cells** tenterà di trovare il file di licenza nella cartella di lavoro.
 
 {{< highlight "python" >}}
 

@@ -10,7 +10,7 @@ Microsoft Excel permite a los usuarios agregar comentarios a las celdas para agr
 
 {{% /alert %}}
 
-Aspose.Cells proporciona un[**Forma.TextBody**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)propiedad al color de fuente del comentario. El siguiente código de ejemplo demuestra el uso de[**Forma.TextBody**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)propiedad para establecer la dirección del texto de un comentario.
+Aspose.Cells proporciona un[**Forma.TextBody**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)propiedad al color de fuente del comentario. El siguiente código de ejemplo demuestra el uso de[**Forma.TextBody**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)propiedad para establecer la dirección del texto para un comentario.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 

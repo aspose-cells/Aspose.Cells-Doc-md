@@ -1,13 +1,13 @@
 ﻿---
-title: Limitazioni e API Differenze
+title: Limitazioni e differenze API
 type: docs
 weight: 10
 url: /it/nodejs-java/limitations-and-api-differences/
 keywords: nodejs, excel, limitation, api, difference
-description: Aspose.Cells per Node.js tramite limitazioni Java e differenze API
+description: Aspose.Cells for Node.js via Java limitazioni e differenze API
 ---
-## **Pubblico API Differenze**
-L'elenco seguente (con segmenti di codice di esempio) mostra alcune differenze tra Aspose.Cells for Java e Aspose.Cells per Node.js tramite le API Java.
+## **Differenze API pubbliche**
+L'elenco seguente (con segmenti di codice di esempio) mostra alcune differenze tra le API Aspose.Cells for Java e Aspose.Cells for Node.js via Java.
 ### **Libreria di importazione (confronto tra pacchetti)**
 
 **Aspose.Cells for Java**
@@ -19,7 +19,7 @@ L'elenco seguente (con segmenti di codice di esempio) mostra alcune differenze t
 {{< /highlight >}}
 
 
-**Aspose.Cells per Node.js tramite Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ aspose.cells = require("aspose.cells");
 {{< /highlight >}}
 
 
-**Aspose.Cells per Node.js tramite Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -58,7 +58,7 @@ aspose.cells = require("aspose.cells");
 
 
 
-**Aspose.Cells per Node.js tramite Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -81,7 +81,7 @@ workbook.save(“result.xlsx”);
 
 
 
-**Aspose.Cells per Node.js tramite Java**
+**Aspose.Cells for Node.js via Java**
 
 {{< highlight "java" >}}
 
@@ -110,7 +110,7 @@ aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, er
 });
 
 {{< /highlight >}}
-## **Altre limitazioni di Aspose.Cells per Node.js tramite Java API rispetto a Aspose.Cells for Java API**
+## **Altre limitazioni dell'API Aspose.Cells for Node.js via Java rispetto all'API Aspose.Cells for Java**
 1. L'importazione/esportazione di dati da Array, ArrayList, ResultSet ecc. non è supportata.
 1. La stampa non è supportata.
 

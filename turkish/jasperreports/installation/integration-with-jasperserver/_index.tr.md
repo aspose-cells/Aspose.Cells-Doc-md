@@ -6,7 +6,7 @@ url: /tr/jasperreports/integration-with-jasperserver/
 ---
 {{% alert color="primary" %}} 
 
-JasperReports için Aspose.Cells'i JasperServer ile entegre etmek için aşağıdaki adımları uygulayın.
+Aspose.Cells for JasperReports'i JasperServer ile entegre etmek için aşağıdaki adımları uygulayın.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ JasperReports için Aspose.Cells'i JasperServer ile entegre etmek için aşağı
 
 {{% /alert %}} 
 
-1.  Aşağıdaki yeni dışa aktarıcı özelliklerini şuraya ekleyin:**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** dosya.
+1. Aşağıdaki yeni dışa aktarıcı özelliklerini şuraya ekleyin:**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** dosya.
 
 **xml**
 
@@ -84,7 +84,7 @@ JasperReports için Aspose.Cells'i JasperServer ile entegre etmek için aşağı
 1.  Tüm GIF resimlerini kopyalayın.**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için*<InstallDir>\apache-tomcat\webapps\jasperserver\images* dosya.
 1.  Kopyala**aspose.cells.jasperreports.jar** gelen dosya**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** dosya.
 1.  aşağıdaki satırları ekleyin**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** dosya.
- (Bu fasulye, dışa aktarmayı yapılandırmayı amaçlayan çeşitli yapılandırma ayarları içerebilir. Örneğin, JasperReports yazı tipi eşleme özelliğini kullanabilir veya Aspose.Cells for JasperReports lisans dosyasının konumunu belirtebilirsiniz.)
+ (Bu fasulye, dışa aktarmayı yapılandırmaya yönelik çeşitli yapılandırma ayarları içerebilir. Örneğin, JasperReports yazı tipi eşleme özelliğini kullanabilir veya Aspose.Cells for JasperReports lisans dosyasının konumunu belirtebilirsiniz.)
 
 **xml**
 
@@ -105,9 +105,9 @@ JasperReports için Aspose.Cells'i JasperServer ile entegre etmek için aşağı
 
 
 
-1.  JasperServer'ı çalıştırın ve görüntülemek için herhangi bir raporu açın. Önceki adımlar düzgün bir şekilde gerçekleştirildiyse, ek biçim simgeleri kullanılabilir.
+1. JasperServer'ı çalıştırın ve görüntülemek için herhangi bir raporu açın. Önceki adımlar düzgün bir şekilde gerçekleştirildiyse, ek biçim simgeleri kullanılabilir.
 
-**JasperServer'da JasperReports için Aspose.Cells yüklendikten sonra yeni dışa aktarma formatları (sağda) kullanılabilir** 
+**JasperServer'a Aspose.Cells for JasperReports yüklendikten sonra yeni dışa aktarma biçimleri kullanılabilir (sağda)** 
 
 ![yapılacaklar:resim_alternatif_Metin](integration-with-jasperserver_1.png)
 

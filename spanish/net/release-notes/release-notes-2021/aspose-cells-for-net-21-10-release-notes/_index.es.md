@@ -34,7 +34,7 @@ url: /es/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49393|No se puede importar correctamente el archivo XML en el archivo de plantilla|Insecto|
 |CELLSNETCORE-226|Espacios en blanco innecesarios representados durante la conversión de Excel a EMF|Insecto|
 |CELLSNET-49091|Falta el nodo "strCache" en un XML|Insecto|
-|CELLSNET-49161|Ya no se pueden copiar los nombres de fuente correctos de la etiqueta de marca del eje de valor|Insecto|
+|CELLSNET-49161|Ya no se pueden copiar los nombres de fuente correctos de la etiqueta de marca del eje de valores|Insecto|
 |CELLSNET-49191|No se pueden mostrar valores porcentuales en la etiqueta de datos|Insecto|
 |CELLSNET-49305|Faltan algunas etiquetas de datos en el gráfico|Insecto|
 |CELLSNET-49374|La línea del gráfico es diferente con la función Chart.ToImage que en Excel|Insecto|

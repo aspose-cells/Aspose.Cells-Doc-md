@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 4.9.0 Release Notes
+title: Aspose.Cells for .NET 4.9.0 Release Notes
 type: docs
 weight: 90
 url: /sv/net/aspose-cells-for-net-4-9-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 4.9.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-4.9.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 4.9.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-4.9.0/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v!
+ Vi är glada att meddela Aspose.Cells for .NET v!
 
  Vad har ändrats i Aspose.Cells:
 
@@ -46,4 +46,4 @@ url: /sv/net/aspose-cells-for-net-4-9-0-release-notes/
 - Stöder formler: LOOKUP, MATCH
 - 3 korrigeringar och andra förbättringar.
 
- Problem lösta i Aspose.Cells för .NET v4.9.0
+Problem lösta i Aspose.Cells for .NET v4.9.0

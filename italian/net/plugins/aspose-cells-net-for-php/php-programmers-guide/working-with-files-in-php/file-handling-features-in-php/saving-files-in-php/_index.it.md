@@ -6,7 +6,7 @@ url: /it/net/saving-files-in-php/
 ---
 ## **Aspose.Cells - Salva File Excel**
 ### **Apertura attraverso il percorso**
-Salvataggio di un file Excel Microsoft facendo riferimento al percorso del file
+Salvataggio di un file Microsoft Excel facendo riferimento al percorso del file
 
 **Codice PHP**
 

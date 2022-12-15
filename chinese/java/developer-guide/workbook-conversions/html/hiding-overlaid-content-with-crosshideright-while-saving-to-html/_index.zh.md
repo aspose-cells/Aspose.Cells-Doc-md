@@ -12,7 +12,7 @@ url: /zh/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/
 
 下面的示例代码加载[示例 Excel 文件](64716916.xlsx)并将其保存到[输出 HTML](64716915.zip)设置后[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)作为[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT).截图解释了如何[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)影响默认输出的输出 HTML。
 
-![待办事项：图片_替代_文本](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
+![待办事项：图像_替代_文本](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
 
 ## **示例代码**
 

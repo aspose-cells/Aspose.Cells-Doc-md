@@ -4,9 +4,9 @@ type: docs
 weight: 50
 url: /ar/reportingservices/digital-signatures/
 ---
- Aspose.Cells لخدمات التقارير يدعم التواقيع الرقمية عند تصدير Microsoft ملفات Excel 2007 أو ملفات ODS. لدينا بعض معلومات التكوين للتوقيعات الرقمية التي يمكن تعيينها في ملف**Aspose.Cells.ReportingServices.xml** ملف.
+ Aspose.Cells for Reporting Services يدعم التواقيع الرقمية عند تصدير Microsoft ملفات Excel 2007 أو ملفات ODS. لدينا بعض معلومات التكوين للتوقيعات الرقمية التي يمكن تعيينها في ملف**Aspose.Cells.ReportingServices.xml** ملف.
 
- عندما تكون قيمة التوقيع الرقمي**إيقاف**، Aspose.Cells لخدمات التقارير يقوم بإيقاف تشغيل التواقيع الرقمية.
+ عندما تكون قيمة التوقيع الرقمي**إيقاف**، Aspose.Cells for Reporting Services يقوم بإيقاف تشغيل التواقيع الرقمية.
 
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ url: /ar/reportingservices/digital-signatures/
 
 {{< /highlight >}}
 
- عندما تكون قيمة التوقيع الرقمي**على**، Aspose.Cells لخدمات التقارير يقوم بتشغيل التواقيع الرقمية.
+ عندما تكون قيمة التوقيع الرقمي**على**، Aspose.Cells for Reporting Services يقوم بتشغيل التواقيع الرقمية.
 
 {{< highlight "java" >}}
 

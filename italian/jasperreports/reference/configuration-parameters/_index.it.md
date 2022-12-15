@@ -24,5 +24,5 @@ url: /it/jasperreports/configuration-parameters/
 |È_IGNORARE_ GRAFICA| Contrassegno per ignorare elementi grafici ed esportare solo elementi di testo.|
 |È_CROLLO_ ROW_SPAN| Contrassegna per la compressione dell'intervallo di righe ed evita di unire le celle tra le righe.|
 |È_IGNORARE_ CELL_BORDER| Flag per ignorare il bordo della cella.|
-|È_USO_ GRAFICO_EXCEL| Flag per l'utilizzo di grafici modificabili in formato Excel Microsoft anziché immagini statiche. Il valore predefinito è vero.|
+|È_USO_ GRAFICO_EXCEL| Flag per l'utilizzo di grafici modificabili in formato Microsoft Excel anziché immagini statiche. Il valore predefinito è vero.|
 

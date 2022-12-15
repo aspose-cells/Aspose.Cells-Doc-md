@@ -32,7 +32,7 @@ url: /it/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45655|Fornire un'opzione per controllare se mantenere il formato di precisione del numero|Insetto|
 |CELLSNET-45630|L'output HTML di "222.xlsx" non è corretto|Insetto|
 |CELLSNET-45621|Due risorse immagine create invece di una durante il salvataggio come formato di file HTML|Insetto|
-|CELLSNET-45597|"Numero archiviato come testo" per le colonne numeriche|Insetto|
+|CELLSNET-45597|"Numero memorizzato come testo" per le colonne numeriche|Insetto|
 |CELLSNET-45558|Quando il file MHtml viene salvato con estensione XLS, MS Excel mostra errori durante l'apertura del file XLS|Insetto|
 |CELLSNET-45557|Formattazione persa dopo aver salvato il file come XLS|Insetto|
 |CELLSNET-45556|Immagini perse dopo aver salvato il file come XLS|Insetto|
@@ -73,8 +73,8 @@ url: /it/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45589|L'articolo è già stato aggiunto. Digitare nel dizionario: 'Foglio1' Chiave da aggiungere: 'Foglio1'|Eccezione|
 |CELLSNET-45647|L'eccezione si verifica all'apertura di "BUDGET RH 3_1.xlsm" in GridWeb|Eccezione|
 |CELLSNET-45646|Eccezione durante l'importazione di file XLSM in GridWeb|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HTMLLoadOptions.LoadStyleStrategy**
 Indica la strategia per applicare lo stile ai valori analizzati durante la conversione del valore stringa in numero o DateTime.
 #### **Aggiunge la classe AbstractCalculationMonitor**

@@ -5,7 +5,7 @@ weight: 80
 url: /sv/java/encrypting-excel-files-in-ruby/
 ---
 ## **Aspose.Cells - Kryptera Excel-filer**
-För att tillämpa kryptering på Excel-filer med Aspose.Cells för Java i Ruby, anropa helt enkelt Encrypt-modulen.
+För att tillämpa kryptering på Excel-filer med Aspose.Cells for Java i Ruby, anropar du helt enkelt Encrypt-modulen.
 
 **Ruby kod**
 

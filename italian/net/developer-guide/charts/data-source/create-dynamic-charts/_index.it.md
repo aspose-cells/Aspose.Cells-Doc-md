@@ -16,7 +16,7 @@ Questo articolo illustra l'utilizzo delle API Aspose.Cells for .NET per creare g
 
 {{% alert color="primary" %}}
 
- Le tabelle di Excel sono indicate come ListObjects nella prospettiva Aspose.Cells', pertanto, per maggiore chiarezza, utilizzeremo il termine "ListObject" invece di "Table". Si prega di leggere in dettaglio su come[creare ListObject](/cells/it/net/create-and-format-table/) con Aspose.Cells for .NET API.
+ Le tabelle di Excel sono indicate come ListObjects nella prospettiva Aspose.Cells', pertanto, per maggiore chiarezza, utilizzeremo il termine "ListObject" invece di "Table". Si prega di leggere in dettaglio su come[creare ListObject](/cells/it/net/create-and-format-table/) con API Aspose.Cells for .NET.
 
 {{% /alert %}}
 

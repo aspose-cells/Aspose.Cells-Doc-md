@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.0.2
+title: Offentlig API Ändringar i Aspose.Cells 8.0.2
 type: docs
 weight: 30
 url: /sv/net/public-api-changes-in-aspose-cells-8-0-2/
@@ -86,4 +86,4 @@ Standardvärdet för egenskapen ConvertFormulasData är falskt.
 ## **Lade till ImageOptions-egenskapen i HtmlSaveOptions-klassen**
 ImageOptions-egenskapen har lagts till i klassen HtmlSaveOptions. Att exponera egenskapen ImageOptions har gjort det möjligt för utvecklarna att ställa in inställningarna för bilderna som är inbäddade i HTML-koden medan de exporterar kalkylblad.
 ## **Föråldrad HtmlSaveOptions.ExportChartImageFormat Property**
-HtmlSaveOptions.ExportChartImageFormat har markerats som föråldrat från Aspose.Cells för .NET 8.0.2. Det rekommenderas att använda HtmlSaveOptions.ImageOptions istället för bildformatinställningar när du exporterar kalkylblad till HTML-format.
+HtmlSaveOptions.ExportChartImageFormat har markerats som föråldrat från Aspose.Cells for .NET 8.0.2. Det rekommenderas att använda HtmlSaveOptions.ImageOptions istället för bildformatinställningar när du exporterar kalkylblad till HTML-format.

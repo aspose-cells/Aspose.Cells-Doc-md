@@ -20,7 +20,7 @@ Aspose.Cells.GridWeb 具有一项方便的实用程序功能，可让您将单�
 
 **四个单元格合并为一个** 
 
-![待办事项：图片_替代_文本](merge-and-unmerge-cells_1.png)
+![待办事项：图像_替代_文本](merge-and-unmerge-cells_1.png)
 
 
 

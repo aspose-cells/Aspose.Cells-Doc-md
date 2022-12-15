@@ -9,7 +9,7 @@ url: /tr/python-java/find-if-the-worksheet-is-dialog-sheet/
 
 ![yapılacaklar:resim_alternatif_Metin](DialogSheet.png)
 ## **Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun**
-Python için Java aracılığıyla Aspose.Cells, çalışma sayfasının bir iletişim sayfası olup olmadığını kontrol etme olanağı sağlar. Bunun için sağladığı[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)Emlak. Eğer[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)numaralandırma değeri döndürür[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), o zaman bir diyalog sayfasıyla uğraşıyorsunuz demektir.
+Aspose.Cells for Python via Java, çalışma sayfasının bir iletişim sayfası olup olmadığını kontrol etmenizi sağlar. Bunun için sağladığı[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)Emlak. Eğer[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)numaralandırma değeri döndürür[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), o zaman bir diyalog sayfasıyla uğraşıyorsunuz demektir.
 
 Aşağıdaki kod parçacığı, bir iletişim sayfasının nasıl kontrol edileceğini gösterir. Kod tarafından oluşturulan konsol çıktısı aşağıda referans olarak verilmiştir.
 

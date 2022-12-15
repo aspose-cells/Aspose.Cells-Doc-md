@@ -22,7 +22,7 @@ Questa prima versione del modulo è arricchita con le seguenti funzionalità per
 - Consenti di aggiungere/aggiornare etichette per ogni campo
 - Consenti di mostrare/nascondere i campi del modulo
 - Adatta automaticamente le colonne alla lunghezza del contenuto e applica la formattazione della colonna di intestazione come testo in grassetto
-- Esporta dati in documenti Excel Microsoft (.xls, .xlsx e .xlsb)
+- Esporta dati in documenti Microsoft Excel (.xls, .xlsx e .xlsb)
 - Esporta dati in un documento di testo delimitato da tabulazioni (*.txt)
 - Esporta dati in CSV (delimitato da virgola) (*.csv)
 - Esporta dati in un foglio di calcolo OpenDocument (*.ods)
@@ -64,7 +64,7 @@ Estrai il file ZIP scaricato. Avrai bisogno dell'FTP o dell'accesso diretto alla
 
 1. Accedi al tuo Sitefinity CMS con un '**Amministratore** ' account. La pagina di login può essere raggiunta da<http://www.mywebsite.com/sitefinity>
 1.  Clic**Amministrazione** poi**Impostazioni**.
-Viene visualizzata la pagina Impostazioni di base.
+ Viene visualizzata la pagina Impostazioni di base.
 1.  Clicca il**Avanzate** collegamento.
  Viene visualizzata la pagina Impostazioni.
 1.  Nel riquadro di sinistra, fare clic su**Cassette degli attrezzi** seguito da**Cassette degli attrezzi** , poi**PageControls**, **Sezioni** e**ContentToolboxSection** , poi**Strumenti.**
@@ -102,7 +102,7 @@ Hai aggiunto con successo il modulo Aspose.Cells Dynamic Form Builder per Sitefi
 
 #### **Come richiedere la licenza Aspose?**
 
-Questo plugin utilizza una versione di valutazione di Aspose.Cells. Una volta che sei soddisfatto della tua valutazione, puoi acquistare una licenza al[Aspose Sito di acquisto](https://purchase.aspose.com/buy).
+ Questo plugin utilizza una versione di valutazione di Aspose.Cells. Una volta che sei soddisfatto della tua valutazione, puoi acquistare una licenza al[Aspose Sito di acquisto](https://purchase.aspose.com/buy).
 Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, è necessario applicare la licenza del prodotto. Riceverai un file di licenza dopo aver acquistato il prodotto. Si prega di seguire i passaggi seguenti per applicare la licenza
 
 -  Assicurati che il file di licenza sia denominato come**Aspose.Total.lic**
@@ -113,7 +113,7 @@ Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, 
 1.  Assicurati di aver effettuato l'accesso fai clic sul menu Pagina fai clic sulla prima riga**Visualizzazione** pulsante di opzione vicino**Colonna Azione.**  
 1.  Clic**Modificare** pulsante disponibile vicino all'etichetta dell'opzione.
 1.  Ci sono pochi campi predefiniti, puoi modificare/nascondere semplicemente facendo clic**Modificare** in griglia.
-1. Puoi creare/eliminare/aggiornare nuovi campi di qualsiasi tipo**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Title, Success Message)**
+1.  Puoi creare/eliminare/aggiornare nuovi campi di qualsiasi tipo**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Title, Success Message)**
 
 #### **Invio modulo dinamico**
 

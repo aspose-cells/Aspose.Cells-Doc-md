@@ -14,7 +14,7 @@ url: /zh/java/link-cells-to-xml-map-elements/
 
 如果你打开[输出excel文件](5472517.xlsx)然后点击*开发人员 > 来源*按钮，您将看到单元格与 XML 映射元素链接，它们也将由 Microsoft Excel 突出显示，如此图所示。
 
-![待办事项：图片_替代_文本](link-cells-to-xml-map-elements_1.png)
+![待办事项：图像_替代_文本](link-cells-to-xml-map-elements_1.png)
 
 ## **示例代码**
 

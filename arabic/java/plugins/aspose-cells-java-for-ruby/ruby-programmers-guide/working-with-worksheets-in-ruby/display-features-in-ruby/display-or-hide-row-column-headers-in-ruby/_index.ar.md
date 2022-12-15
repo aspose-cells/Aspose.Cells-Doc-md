@@ -6,7 +6,7 @@ url: /ar/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells - عرض أو إخفاء رؤوس أعمدة الصف**
 ### **إخفاء رؤوس الصفوف / الأعمدة**
- لإخفاء رؤوس الصفوف / الأعمدة باستخدام**Aspose.Cells Java لروبي** ، مكالمة**DisplayHideRowColumnHeaders** وحدة.
+لإخفاء رؤوس الصفوف / الأعمدة باستخدام**Aspose.Cells Java لروبي** ، مكالمة**DisplayHideRowColumnHeaders** وحدة.
 
 **كود روبي**
 
@@ -49,7 +49,7 @@ puts "Headers of rows and columns are now hidden, please check the output file."
 worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**عرض رؤوس أعمدة الصفوف أو إخفاؤها (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)

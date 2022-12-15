@@ -7,7 +7,7 @@ url: /it/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document
 ## **Possibili scenari di utilizzo**
 [ScalaRitaglia](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) e[LinkUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)sono due proprietà integrate del documento estese definite all'interno del formato OpenXml. Lo scopo di queste proprietà sta seguendo
 ## **1) Ritaglia scala**
- Questo elemento indica la modalità di visualizzazione della miniatura del documento. Imposta questo elemento su**VERO** per abilitare il ridimensionamento della miniatura del documento sul display. Imposta questo elemento su**FALSO** per abilitare il ritaglio della miniatura del documento per mostrare solo le sezioni che si adattano alla visualizzazione.
+ Questo elemento indica la modalità di visualizzazione della miniatura del documento. Imposta questo elemento su**VERO**per abilitare il ridimensionamento della miniatura del documento sul display. Imposta questo elemento su**FALSO** per abilitare il ritaglio della miniatura del documento per mostrare solo le sezioni che si adattano alla visualizzazione.
 
 I valori possibili per questo elemento sono definiti dal tipo di dati booleano W3C XML Schema.
 ## **2) LinkUpToDate**

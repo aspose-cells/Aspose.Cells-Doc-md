@@ -13,8 +13,8 @@ url: /it/net/aspose-cells-for-net-21-3-release-notes/
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47857|Cancella tutte le aree di unione sul foglio|Nuova caratteristica|
-|CELLSNET-47892| Firma digitalmente Microsoft Riga della firma nel foglio di calcolo Excel|Aumento|
-|CELLSNET-47905|Implementa l'algoritmo Digest di BouncyCastel's API|Aumento|
+|CELLSNET-47892| Firma digitalmente Microsoft Signature Line nel foglio di calcolo Excel|Aumento|
+|CELLSNET-47905|Implementa l'algoritmo Digest tramite l'API di BouncyCastel|Aumento|
 |CELLSNET-47838|La tavolozza dei colori del grafico nativo non viene conservata|Aumento|
 |CELLSNET-47877|Workbook.Settings.RemovePersonalInformation non è efficace|Aumento|
 |CELLSNET-47879|Il file generato è danneggiato durante il salvataggio del file xls con il file doc word6.0 incorporato come xlsx.|Aumento|
@@ -29,7 +29,7 @@ url: /it/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47829| Il calcolo della formula risulta diverso quando si implementano riferimenti circolari e iterazioni|Insetto|
 |CELLSNET-47865|Aspose.Cells presenta in modo errato la data in formato giapponese|Insetto|
 |CELLSNET-47872|MS Excel richiede un messaggio di errore quando si apre un file XLTM risalvato da Aspose.Cells|Insetto|
-|CELLSNET-47897|La selezione degli elementi dell'elenco non funziona quando viene caricata nell'applicazione ASP.NET|Insetto|
+|CELLSNET-47897|La selezione dell'elemento dell'elenco non funziona quando viene caricata nell'applicazione ASP.NET|Insetto|
 |CELLSNET-47862|Excel Accounting La sottolineatura viene tagliata durante l'esportazione in PDF|Insetto|
 |CELLSNET-47881|La larghezza della colonna è inferiore al previsto durante l'importazione/mappatura del file XML nella cartella di lavoro|Insetto|
 |CELLSNET-47804|Il testo della legenda del grafico non viene visualizzato correttamente|Insetto|
@@ -40,7 +40,7 @@ url: /it/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47861|Differenza nel calcolo dell'altezza della riga|Insetto|
 |CELLSNET-47876|Le righe di adattamento automatico e l'altezza standard non funzionano correttamente per le celle unite|Insetto|
 |CELLSNET-47903|L'inserimento di una colonna in una tabella provoca il danneggiamento della cartella di lavoro|Insetto|
-|CELLSNET-47906|Problema con InsertCutCells API che interessa i riferimenti alle formule tra fogli di lavoro|Insetto|
+|CELLSNET-47906|Problema con l'API InsertCutCells che interessa i riferimenti alle formule tra fogli di lavoro|Insetto|
 |CELLSNET-47908|ForceFullCalculation ritorna a false dopo il nuovo salvataggio|Insetto|
 |CELLSNET-47909|La rimozione delle righe vuote non aggiorna di conseguenza le forme dei commenti|Insetto|
 |CELLSNET-47913|Shape.UpdateSelectedValue() causa un aggiornamento della forma improprio|Insetto|
@@ -53,9 +53,9 @@ url: /it/net/aspose-cells-for-net-21-3-release-notes/
 |
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà SignatureLine.Id.**
 

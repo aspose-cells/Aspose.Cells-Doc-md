@@ -5,7 +5,7 @@ weight: 90
 url: /it/java/zoom-factor-in-ruby/
 ---
 ## **Aspose.Cells - Fattore di ingrandimento**
- Per impostare il fattore di zoom utilizzando**Aspose.Cells Java per Rubino** , semplicemente invocare**Fattore di zoom** modulo.
+ Per impostare il fattore di zoom utilizzando**Aspose.Cells Java per Ruby** , semplicemente invocare**Fattore di zoom** modulo.
 
 **Codice Rubino**
 

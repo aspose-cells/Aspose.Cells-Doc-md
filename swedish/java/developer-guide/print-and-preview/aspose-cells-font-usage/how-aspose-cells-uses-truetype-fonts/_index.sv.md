@@ -41,7 +41,7 @@ Den här tabellen listar några av de problem som du kan stöta på när du rend
 
 |**Problem** |**Anledning** |**Lösning** |
 |:- |:- |:- |
-| Layouten och teckensnitten i det renderade dokumentet skiljer sig från originalet.| Du använder Aspose.Cells på Linux eller Mac OS där TureType-teckensnitt inte finns som standard så Aspose.Cells kan inte hitta teckensnitt på din dator.|Kopiera TrueType-teckensnittsfiler från en Windows-dator eller installera ett TrueType-teckensnittspaket. Använd FontConfigs.setFontFolder fabriksmetoden för att ange platsen för teckensnittsfilerna.|
+| Layouten och teckensnitten i det renderade dokumentet skiljer sig från originalet.| Du använder Aspose.Cells på Linux eller Mac OS där TureType-teckensnitt inte finns som standard så Aspose.Cells kan inte hitta teckensnitt på din dator.|Kopiera TrueType-teckensnittsfiler från en Windows-maskin eller installera ett TrueType-teckensnittspaket. Använd FontConfigs.setFontFolder fabriksmetoden för att ange platsen för teckensnittsfilerna.|
 
 {{% alert color="primary" %}}
 

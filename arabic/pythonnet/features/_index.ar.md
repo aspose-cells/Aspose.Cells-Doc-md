@@ -4,11 +4,11 @@ type: docs
 weight: 5
 url: /ar/python-net/features/
 keywords: python, excel, api, feature
-description: Aspose.Cells لـ Python عبر ميزات .NET
+description: Aspose.Cells for Python via .NET ميزات
 ---
 {{% alert color="primary" %}} 
 
-تلخص هذه الصفحة Aspose.Cells لـ Python عبر ميزات .NET.
+تلخص هذه الصفحة ميزات Aspose.Cells for Python via .NET.
 
 {{% /alert %}} 
 ## **تنسيقات الملفات والتحويلات**

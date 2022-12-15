@@ -6,11 +6,11 @@ url: /it/net/resize-gridweb-and-its-header-bar/
 ---
 {{% alert color="primary" %}} 
 
-[Aggiungere GridWeb al modulo Web](/cells/it/net/add-gridweb-to-web-form/), ha illustrato il ridimensionamento del controllo Aspose.Cells.GridWeb tramite WYSIWYG. Questo articolo spiega come eseguire la stessa operazione ma in fase di esecuzione utilizzando Aspose.Cells.GridWeb API. Spiega inoltre come ridimensionare le barre di intestazione del controllo Aspose.Cells.GridWeb per semplificarne la lettura dei dati.
+[Aggiungere GridWeb al modulo Web](/cells/it/net/add-gridweb-to-web-form/), ha illustrato il ridimensionamento del controllo Aspose.Cells.GridWeb tramite WYSIWYG. Questo articolo spiega come eseguire la stessa operazione ma in fase di esecuzione usando l'API Aspose.Cells.GridWeb. Spiega inoltre come ridimensionare le barre di intestazione del controllo Aspose.Cells.GridWeb per semplificarne la lettura dei dati.
 
 {{% /alert %}} 
 ## **Modifica della larghezza e dell'altezza di Aspose.Cells.GridWeb**
-Modificare la larghezza e l'altezza del controllo Aspose.Cells.GridWeb è una caratteristica semplice ma importante. Il controllo Aspose.Cells.GridWeb è rappresentato dalla classe GridWeb in API. Per ridimensionare la larghezza e l'altezza del controllo GridWeb, utilizzare semplicemente le sue proprietà width e height.
+Modificare la larghezza e l'altezza del controllo Aspose.Cells.GridWeb è una caratteristica semplice ma importante. Il controllo Aspose.Cells.GridWeb è rappresentato dalla classe GridWeb nell'API. Per ridimensionare la larghezza e l'altezza del controllo GridWeb, usa semplicemente le sue proprietà di larghezza e altezza.
 
 {{% alert color="primary" %}} 
 

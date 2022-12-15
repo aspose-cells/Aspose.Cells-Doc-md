@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 18.5 Release Notes
+title: Aspose.Cells for Java 18.5 Release Notes
 type: docs
 weight: 80
 url: /sv/java/aspose-cells-for-java-18-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.5.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.5.
 
 {{% /alert %}} 
 
@@ -29,8 +29,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.5.
 |CELLSJAVA-42596|"java.lang.ArrayIndexOutOfBoundsException" inträffar när en Excel-fil öppnas|Undantag|
 |CELLSJAVA-42595|"java.io.IOException: Filen är skadad" inträffar när en Excel-fil öppnas|Undantag|
 |CELLSJAVA-42591|"com.aspose.cells.CellsException: Ogiltig formel" när en Excel-fil laddas|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till nya egenskaper Cell.IsTableFormula/IsArrayFormula för att ersätta Cell.IsInTable/IsInArray**
 Anger om en cell är en del av tabellformeln eller matrisformeln. Gamla namn gör otydlighet, så vi gjorde dem föråldrade och tillhandahåller nya.
 ### **Lägger till klass IndividualFontConfigs**

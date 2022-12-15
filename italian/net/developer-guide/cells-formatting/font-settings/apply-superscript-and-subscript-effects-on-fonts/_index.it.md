@@ -3,7 +3,7 @@ title: Applicare effetti di apice e pedice sui caratteri
 type: docs
 weight: 80
 url: /it/net/apply-superscript-and-subscript-effects-on-fonts/
-description: Il codice C# per applicare l'effetto apice e pedice al testo in Excel con l'uso di Aspose.Cells for .NET API.
+description: Il codice C# per applicare l'effetto apice e pedice al testo in Excel con l'uso dell'API Aspose.Cells for .NET.
 keywords: excel superscript c#, excel subscript c#, excel superscript and subscript c#, insert subscript and superscript in excel c#, add subscript and superscript in excel c#, add superscript and subscript excel c#, add superscript excel c#, add subscript excel c#
 ---
 {{% alert color="primary" %}}
@@ -18,10 +18,10 @@ Aspose.Cells fornisce la funzionalità per applicare effetti apice (testo sopra 
 
 I seguenti esempi di codice mostrano come applicare super e pedice al testo.
 
-### C# codice per applicare l'effetto apice sul testo
+### Codice C# per applicare l'effetto Apice al testo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSuperscripteffect-1.cs" >}}
 
-### C# codice per applicare l'effetto Pedice al testo
+### Codice C# per applicare l'effetto Pedice al testo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}

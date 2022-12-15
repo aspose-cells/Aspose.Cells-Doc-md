@@ -1,13 +1,13 @@
 ﻿---
-title: Aspose.Cells 为 Python 通过 .NET 22.8 发行说明
+title: Aspose.Cells for Python via .NET 22.8 发行说明
 type: docs
 weight: 9
 url: /zh/python-net/aspose-cells-for-python-net-22-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-这是 Aspose.Cells 的第一个版本，用于 Python 通过 .NET。
-此页面包含 Aspose.Cells 的发行说明，适用于 Python via .NET 22.8。
+这是 Aspose.Cells for Python via .NET 的第一个版本。
+此页面包含 Aspose.Cells for Python via .NET 22.8 的发行说明。
 
 {{% /alert %}} 
 

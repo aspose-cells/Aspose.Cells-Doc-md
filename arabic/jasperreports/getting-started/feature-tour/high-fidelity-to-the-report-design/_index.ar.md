@@ -6,9 +6,9 @@ url: /ar/jasperreports/high-fidelity-to-the-report-design/
 ---
 {{% alert color="primary" %}}
 
- يقوم Aspose.Cells الخاص بـ JasperReports بتصدير التقارير مثل جداول بيانات Excel Microsoft التي تبدو مطابقة للتقارير التي تم تصديرها من قبل المصدرين المدمجين لـ[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library).
+ تصدير Aspose.Cells for JasperReports تقارير مثل Microsoft جداول بيانات Excel التي تبدو مطابقة للتقارير التي تم تصديرها من قبل المصدرين المدمجين لـ[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library).
 
-**تم تصدير نموذج تقرير XLS باستخدام Aspose.Cells لـ JasperReports** 
+**تم تصدير نموذج تقرير XLS باستخدام Aspose.Cells for JasperReports** 
 
 ![ما يجب القيام به: image_بديل_نص](high-fidelity-to-the-report-design_1.png)
 

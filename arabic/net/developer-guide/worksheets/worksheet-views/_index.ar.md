@@ -29,7 +29,7 @@ url: /ar/net/worksheet-views/
 
  ويرد أدناه مثال كامل يوضح كيفية استخدام[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)الخاصية لتمكين وضع معاينة فاصل الصفحة لورقة العمل الأولى لملف Excel.
 
-يتم فتح ملف book1.xls عن طريق إنشاء مثيل لملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي. يتم تبديل طريقة العرض إلى معاينة فاصل الصفحة لورقة العمل الأولى عن طريق تعيين ملف[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)الملكية ل**حقيقي**. يتم حفظ الملف المعدل باسم output.xls.
+يتم فتح ملف book1.xls عن طريق إنشاء مثيل لملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي. يتم تبديل طريقة العرض إلى معاينة فاصل الصفحة لورقة العمل الأولى عن طريق تعيين ملف[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)الملكية ل**حقيقي**. يتم حفظ الملف المعدل كملف output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
 
@@ -71,7 +71,7 @@ Aspose.Cells يسمح للمطورين بتطبيق ألواح التجميد ع
 - **صفوف مجمدة**، عدد الصفوف المرئية في الجزء العلوي.
 - **أعمدة مجمدة**، عدد الأعمدة المرئية في الجزء الأيمن
 
-يتم فتح ملف book1.xls عن طريق استدعاء ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)منشئ class أثناء إنشائه وتم تجميد عدد قليل من الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل باسم output.xls.
+يتم فتح ملف book1.xls عن طريق استدعاء ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)منشئ class أثناء إنشائه وتم تجميد عدد قليل من الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل كملف output.xls.
 
  ويرد أدناه مثال كامل يوضح كيفية استخدام ملف[**أجزاء التجميد**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)طريقة لتجميد الصفوف والأعمدة (بدءًا من C4 ، ممثلة بالصف الرابع والعمود الثالث ، حيث تبدأ الصفوف والأعمدة من فهرس 0) من ورقة العمل الأولى من ملف Excel.
 
@@ -87,7 +87,7 @@ Aspose.Cells يسمح للمطورين بتطبيق ألواح التجميد ع
 
 #### **تقسيم الأجزاء**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف إكسل Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. لتنفيذ طرق العرض المقسمة ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**انشق، مزق**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . لإزالة الأجزاء المنقسمة ، استخدم ملف[**RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)طريقة.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. لتنفيذ طرق العرض المقسمة ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**انشق، مزق**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . لإزالة الأجزاء المنقسمة ، استخدم ملف[**RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)طريقة.
 
 في المثال ، نستخدم ملف قالب بسيط يتم تحميله ، ثم يتم تطبيق ميزة تقسيم الأجزاء المحددة على خلية في ورقة العمل الأولى. يتم حفظ الملف المحدث.
 

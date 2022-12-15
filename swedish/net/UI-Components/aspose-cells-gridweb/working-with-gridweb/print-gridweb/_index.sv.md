@@ -10,7 +10,7 @@ Det finns tillfällen då utvecklare behöver skriva ut GridWeb-innehållet frå
 
 {{% /alert %}} 
 ## **Utskrift GridWeb**
-För att skriva ut innehållet har Aspose.Cells.GridWeb för .NET exponerat GridWeb.Print-klientsidans funktion som kan användas i ett JavaScript-anrop som visas nedan.
+För att skriva ut innehållet har Aspose.Cells.GridWeb for .NET avslöjat funktionen GridWeb.Print på klientsidan som kan användas i ett JavaScript-anrop som visas nedan.
 
 
 

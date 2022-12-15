@@ -5,7 +5,7 @@ weight: 30
 url: /ar/python-java/cut-and-paste-cells/
 ---
 ## **قص ولصق Cells**
-يوفر Aspose.Cells لـ Python عبر Java إمكانية قص الخلايا ولصقها. لهذا ، يوفر API امتداد[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) طريقة ال[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)مجموعة. ال[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) طريقة يقبل المعلمات التالية.
+يوفر Aspose.Cells for Python via Java إمكانية قص الخلايا ولصقها. لهذا ، يوفر API امتداد[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) طريقة ال[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)مجموعة. ال[insertCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) طريقة يقبل المعلمات التالية.
 
 - [نطاق](https://reference.aspose.com/cells/python/asposecells.api/Range)نطاق الخلايا المطلوب قطعها.
 - فهرس الصف: فهرس الصف لإدراج الخلايا.

@@ -13,7 +13,7 @@ Med hjälp av Aspose.Cells kan utvecklare skapa olika typer av hyperlänkar i Mi
 
 {{% /alert %}} 
 ## **Lägga till hyperlänkar**
-Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer antingen med hjälp av API eller designerkalkylblad (kalkylblad där hyperlänkar skapas manuellt och Aspose.Cells används för att importera dem till andra kalkylblad).
+Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer antingen med API eller designerkalkylblad (kalkylblad där hyperlänkar skapas manuellt och Aspose.Cells används för att importera dem till andra kalkylblad).
 
  Aspose.Cells tillhandahåller en klass,[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[Arbetsbladssamling](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class tillhandahåller olika metoder för att lägga till olika hyperlänkar till Excel-filer.
 ## **Lägger till länk till en URL**
@@ -30,7 +30,7 @@ Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer 
 
 {{% alert color="primary" %}} 
 
- I exemplet ovan läggs en hyperlänk till en URL i en tom cell,**A1**I sådana fall, om en cell är tom, läggs URL-adressen också till den tomma cellen som dess värde. Om cellen inte är tom och en hyperlänk läggs till ser cellens värde ut som vanlig text. För att få det att se ut som en hyperlänk, tillämpa lämpliga formateringsinställningar på den cellen.
+ I exemplet ovan läggs en hyperlänk till en URL i en tom cell,**A1**. I sådana fall, om en cell är tom, läggs URL-adressen också till den tomma cellen som dess värde. Om cellen inte är tom och en hyperlänk läggs till ser cellens värde ut som vanlig text. För att få det att se ut som en hyperlänk, tillämpa lämpliga formateringsinställningar på den cellen.
 
 {{% /alert %}} 
 ## **Lägga till en länk till en Cell i samma fil**

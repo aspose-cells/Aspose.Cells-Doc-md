@@ -6,7 +6,7 @@ url: /de/jasperreports/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Um Aspose.Cells für JasperReports auf Ihrem System zu installieren, muss Ihr System die folgenden Anforderungen erfüllen:
+Um Aspose.Cells for JasperReports auf Ihrem System zu installieren, muss Ihr System die folgenden Anforderungen erfüllen:
 
 - Java 2 Plattform Standard Edition 1.6 oder höher.
 - JasperReports 6.3.0 oder höher.

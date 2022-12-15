@@ -6,7 +6,7 @@ url: /es/java/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}} 
 
- Puede crear una tabla de datos en Microsoft Excel usando Datos > Análisis hipotético > Tabla de datos.... Aspose.Cells ahora le permite calcular la fórmula de matriz de la tabla de datos. Por favor use[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) como normal para el cálculo de cualquier tipo de fórmulas.
+Puede crear una tabla de datos en Microsoft Excel usando Datos > Análisis hipotético > Tabla de datos.... Aspose.Cells ahora le permite calcular la fórmula de matriz de la tabla de datos. Por favor use[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) como normal para el cálculo de cualquier tipo de fórmulas.
 
 {{% /alert %}} 
 ## **Cálculo de fórmula de matriz de tablas de datos**
@@ -18,6 +18,6 @@ url: /es/java/calculation-of-array-formula-of-data-tables/
 
 ![todo:imagen_alternativa_texto](calculation-of-array-formula-of-data-tables_2.png)
 
-Aquí está el código de muestra utilizado para generar el[PDF de salida](5472577.pdf) desde el[archivo fuente excel](5472579.xlsx). Por favor, lea los comentarios para obtener más información.
+ Aquí está el código de muestra utilizado para generar el[PDF de salida](5472577.pdf) desde el[archivo fuente excel](5472579.xlsx). Por favor, lea los comentarios para obtener más información.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

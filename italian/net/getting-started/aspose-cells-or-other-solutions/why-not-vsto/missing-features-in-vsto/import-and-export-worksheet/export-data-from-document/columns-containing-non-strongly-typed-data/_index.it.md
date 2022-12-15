@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /it/net/columns-containing-non-strongly-typed-data/
 ---
- Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere i diversi tipi di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo**ExportDataTableAsString** metodo della classe Cells.**ExportDataTableAsString** Il metodo accetta lo stesso set di parametri di quello di**ExportDataTable** metodo per esportare i dati del foglio di lavoro come**Tabella dati** oggetto.
+Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere i diversi tipi di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo**ExportDataTableAsString** metodo della classe Cells.**ExportDataTableAsString** Il metodo accetta lo stesso set di parametri di quello di**ExportDataTable** metodo per esportare i dati del foglio di lavoro come**Tabella dati** oggetto.
 
 {{< highlight "csharp" >}}
 

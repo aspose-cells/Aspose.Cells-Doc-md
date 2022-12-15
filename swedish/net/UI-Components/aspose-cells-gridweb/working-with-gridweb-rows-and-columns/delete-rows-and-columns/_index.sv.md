@@ -6,7 +6,7 @@ url: /sv/net/delete-rows-and-columns/
 ---
 {{% alert color="primary" %}} 
 
-Det här avsnittet visar hur man tar bort rader och kolumner från ett kalkylblad med Aspose.Cells.GridWeb API. Med hjälp av den här funktionen kan utvecklare ta bort rader eller kolumner under körning.
+Det här avsnittet visar hur man tar bort rader och kolumner från ett kalkylblad med hjälp av Aspose.Cells.GridWeb API. Med hjälp av den här funktionen kan utvecklare ta bort rader eller kolumner under körning.
 
 {{% /alert %}} 
 ## **Ta bort rader**

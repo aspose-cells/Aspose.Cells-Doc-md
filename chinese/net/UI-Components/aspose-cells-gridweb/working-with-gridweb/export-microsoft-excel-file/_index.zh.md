@@ -41,11 +41,11 @@ url: /zh/net/export-microsoft-excel-file/
 
 **GridWeb 的 SaveCommand 事件** 
 
-![待办事项：图片_替代_文本](export-microsoft-excel-file_1.jpg)
+![待办事项：图像_替代_文本](export-microsoft-excel-file_1.jpg)
 
 **通过单击 GridWeb 的内置保存按钮将网格内容保存到 Excel** 
 
-![待办事项：图片_替代_文本](export-microsoft-excel-file_2.png)
+![待办事项：图像_替代_文本](export-microsoft-excel-file_2.png)
 
 {{% alert color="primary" %}} 
 

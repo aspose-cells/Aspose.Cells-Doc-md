@@ -3,7 +3,7 @@ title: Insérer une image d'arrière-plan dans Excel
 type: docs
 weight: 90
 url: /fr/python-java/insert-background-image-to-excel/
-description: Comment insérer une image d'arrière-plan dans Excel en utilisant Aspose.Cells pour Python via Java
+description: Comment insérer une image d'arrière-plan dans Excel en utilisant Aspose.Cells for Python via Java
 ---
 {{% alert color="primary" %}} 
 

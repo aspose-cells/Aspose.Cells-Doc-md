@@ -7,7 +7,7 @@ url: /fr/python-java/protect-and-unprotect/
 description: Cet extrait présente comment chiffrer et déchiffrer des fichiers Excel, protéger et déprotéger les données dans des fichiers Excel à l'aide de codes Python.
 ---
 {{% alert color="primary" %}}
-Aspose.Cells pour Python offre une large gamme de protection et de déprotection du fichier au niveau des données comme MS Excel :
+Aspose.Cells for Python offre une large gamme de protection et de déprotection du fichier au niveau des données comme MS Excel :
 {{% /alert %}}
 
 

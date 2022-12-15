@@ -17,7 +17,7 @@ Daha önce, Aspose.Cells oluşturacaktı[**PdfYer İşaretiGirişi**](https://re
 - Yer İşareti-III
 - Bookmark-IV-Chart2
 
- Aşağıdaki ekran görüntüsü[çıktı PDF](61767757.pdf) referans için örnek kod tarafından oluşturulur.
+Aşağıdaki ekran görüntüsü[çıktı PDF](61767757.pdf) referans için örnek kod tarafından oluşturulur.
 
 ![yapılacaklar:resim_alternatif_Metin](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

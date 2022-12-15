@@ -30,7 +30,7 @@ Följande kodavsnitt visar hur man konverterar ett kalkylblad i en Excel-fil til
 ## **Konvertera arbetsblad till SVG**
 SVG står för Scalable Vector Graphics. SVG är en specifikation baserad på XML-standarder för tvådimensionell vektorgrafik. Det är en öppen standard som har varit under utveckling av World Wide Web Consortium (W3C) sedan 1999.
 
-Aspose.Cells för C++ har kunnat konvertera kalkylblad till SVG-bild sedan version 18.5.0.
+Aspose.Cells for C++ har kunnat konvertera kalkylblad till SVG-bild sedan version 18.5.0.
 
 För att använda den här funktionen, importera namnområdet `Aspose.Cells.Rendering` till ditt program eller projekt. Den har flera värdefulla klasser för rendering och utskrift, till exempel `ISheetRender`, `IImageOrPrintOptions` och andra.
 

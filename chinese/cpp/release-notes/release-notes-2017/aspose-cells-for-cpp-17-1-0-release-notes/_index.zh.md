@@ -12,7 +12,7 @@ url: /zh/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 |CELLSCPP-38|创建和操作命名范围|新功能|
 |CELLSCPP-39|读/写制表符分隔的文件格式|新功能|
 ### **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells 为 C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **移除 IPageSetup::GetDraft()/SetDraft() 方法**
 请改用 IPageSetup::GetPrintDraft()/SetPrintDraft() 方法。
 #### **移除 ICell::GetConditionalIStyle() 方法**

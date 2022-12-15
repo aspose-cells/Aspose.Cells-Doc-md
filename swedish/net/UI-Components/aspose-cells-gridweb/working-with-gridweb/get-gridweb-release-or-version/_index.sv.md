@@ -10,7 +10,7 @@ Använd metoden Aspose.Cells.GridWeb.GridWeb.GetVersion() för att hämta versio
 
 {{% /alert %}} 
 ## **Hämta den släppta eller körande versionen av Aspose.Cells.GridWeb**
-Följande exempelkod hittar körversionen av Aspose.Cells.GridWeb och skriver ut den på ASP.NET Label Control.
+Följande exempelkod hittar den körande versionen av Aspose.Cells.GridWeb och skriver ut den på ASP.NET Label Control.
 
 
 

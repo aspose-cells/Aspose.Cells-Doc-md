@@ -6,10 +6,10 @@ url: /it/cpp/aspose-cells-for-cpp-22-4-1-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per C++ 22.4.1 per Windows.
+Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.4.1 per Windows.
 
 {{% /alert %}}
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|CELLSCPP-758|Risolto un problema di prefisso per l'immagine|Insetti|
+|CELLSCPP-758| Risolto un problema di prefisso per l'immagine|Insetti|

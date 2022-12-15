@@ -12,4 +12,4 @@ url: /fr/reportingservices/aspose-cells-reportingservices-client-issues/
 - [Vérification de la version Aspose.Cells.ReportingServices](/cells/fr/reportingservices/checking-the-aspose-cells-reportingservices-version/)
 - [Erreur d'exécution 429](/cells/fr/reportingservices/runtime-error-429/)
 - [DeviceInfo dans rsreportserver.config](/cells/fr/reportingservices/deviceinfo-in-rsreportserver-config/)
-- [Comment charger Aspose.Cells pour les compléments Reporting Services pour Excel x64](/cells/fr/reportingservices/how-to-load-aspose-cells-for-reporting-services-add-ins-for-excel-x64/)
+- [Comment charger les compléments Aspose.Cells for Reporting Services pour Excel x64](/cells/fr/reportingservices/how-to-load-aspose-cells-for-reporting-services-add-ins-for-excel-x64/)

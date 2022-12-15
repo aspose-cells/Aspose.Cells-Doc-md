@@ -12,13 +12,13 @@ Aspose.Cells supporta la conversione della cartella di lavoro di Excel in PDF. I
 
 ## **Conversione della cartella di lavoro di Excel in PDF**
 
-I file PDF sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato di documento standard e agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire i file Excel Microsoft in documenti PDF.
+I file PDF sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato di documento standard e agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire i file Microsoft Excel in documenti PDF.
 
 Aspose.Cells supporta la conversione di file Excel in PDF e mantiene un'elevata fedeltà visiva nella conversione.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET scrive direttamente le informazioni su API e il numero di versione nei documenti di output. Ad esempio, al momento del rendering del documento in PDF, Aspose.Cells for .NET viene popolato**Applicazione** campo con valore 'Aspose.Cells' e**Produttore PDF**campo con valore, ad esempio 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET scrive direttamente le informazioni sull'API e il numero di versione nei documenti di output. Ad esempio, dopo il rendering del documento in PDF, Aspose.Cells for .NET viene popolato**Applicazione** campo con valore 'Aspose.Cells' e**Produttore PDF**campo con valore, ad esempio 'Aspose.Cells v17.9'.
 
 Si prega di notare che non è possibile incaricare Aspose.Cells for .NET di modificare o rimuovere queste informazioni dai documenti di output.
 
@@ -33,7 +33,7 @@ Segui i passaggi seguenti per convertire direttamente i fogli di calcolo Excel i
 1.  Istanziare un oggetto di**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**class chiamando il suo costruttore vuoto.
 1. Puoi aprire/caricare un file modello esistente o saltare questo passaggio se stai creando la cartella di lavoro da zero.
 1. Eseguire qualsiasi lavoro (dati di input, applicare formattazione, impostare formule, inserire immagini o altri oggetti di disegno e così via) sul foglio di calcolo utilizzando le API Aspose.Cells.
-1. Quando il codice del foglio di calcolo è completo, chiama il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** classe'**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metodo per salvare il foglio di calcolo.
+1.  Quando il codice del foglio di calcolo è completo, chiama il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** classe'**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metodo per salvare il foglio di calcolo.
 
  Il formato del file deve essere PDF, quindi selezionalo*PDF* (un valore predefinito) da**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**enumerazione per generare il documento PDF finale.
 

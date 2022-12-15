@@ -27,11 +27,11 @@ Microsoft Excel permite a los usuarios rastrear precedentes y dependientes.
 
 1.  Sobre el**Ver barra de herramientas** , Seleccione**Auditoría de fórmulas**. Se mostrará el cuadro de diálogo Auditoría de fórmulas.
 1. Rastrear precedentes:
- 1. Seleccione la celda que contiene la fórmula para la que desea buscar celdas precedentes.
+1. Seleccione la celda que contiene la fórmula para la que desea buscar celdas precedentes.
  1. Para mostrar una flecha de seguimiento a cada celda que proporciona datos directamente a la celda activa, haga clic en**Rastrear precedentes** sobre el**Auditoría de fórmulas** barra de herramientas.
 1. Seguimiento de fórmulas que hacen referencia a una celda en particular (dependientes)
  1. Seleccione la celda para la que desea identificar las celdas dependientes.
-1. Para mostrar una flecha de rastreo para cada celda que depende de la celda activa, haga clic en Rastrear dependientes en la barra de herramientas Auditoría de fórmulas.
+ 1. Para mostrar una flecha de rastreo para cada celda que depende de la celda activa, haga clic en Rastrear dependientes en la barra de herramientas Auditoría de fórmulas.
 ## **Seguimiento de precedentes y dependientes Cells: Aspose.Cells**
 ### **Rastreando precedentes**
 Aspose.Cells facilita la obtención de celdas precedentes. No solo puede recuperar celdas que brindan datos a fórmulas precedentes simples, sino que también puede encontrar celdas que brindan datos a fórmulas precedentes complejas con rangos con nombre.

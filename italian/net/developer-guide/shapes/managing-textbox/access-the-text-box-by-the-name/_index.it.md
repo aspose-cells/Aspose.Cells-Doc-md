@@ -10,7 +10,7 @@ In precedenza, si accedeva alle caselle di testo tramite l'indice dal file[**Fog
 
 Il codice di esempio seguente crea innanzitutto una casella di testo e le assegna testo e nome. Quindi, nelle righe successive, accediamo alla stessa casella di testo con il suo nome e stampiamo il suo testo.
 
-### C# codice per accedere alla casella di testo per nome
+### Codice C# per accedere alla casella di testo per nome
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AccessTextBoxName-AccessTextBoxName.cs" >}}
 

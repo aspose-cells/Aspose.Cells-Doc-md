@@ -18,7 +18,7 @@ url: /ru/java/applying-a-license/
 
 ## **Загрузка файла лицензии**
 
- В Aspose.Cells для Android через Java лицензию можно[встроенный как ресурс](/cells/ru/java/applying-a-license/#applying-a-license-from-an-embedded-resource)или загружается из потока:
+ В Aspose.Cells for Android via Java лицензию можно[встроенный как ресурс](/cells/ru/java/applying-a-license/#applying-a-license-from-an-embedded-resource)или загружается из потока:
 
 1.  Поместите файл лицензии в любое место на**/мнт/sdcard/**.
 1. Создайте поток, который ссылается на файл.

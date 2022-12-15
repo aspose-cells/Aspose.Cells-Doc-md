@@ -42,7 +42,7 @@ GridWeb 控件提供 PresetStyle 属性，开发人员可以将任何所需的�
 
 **应用了 Colorful1 样式的 GridWeb 控件** 
 
-![待办事项：图片_替代_文本](apply-styles-to-gridweb_1.png)
+![待办事项：图像_替代_文本](apply-styles-to-gridweb_1.png)
 
 
 
@@ -60,7 +60,7 @@ GridWeb 控件提供了 HeaderBarStyle 属性，该属性在控件的两个标�
 
 **Header Bar 修改样式** 
 
-![待办事项：图片_替代_文本](apply-styles-to-gridweb_2.png)
+![待办事项：图像_替代_文本](apply-styles-to-gridweb_2.png)
 
 
 
@@ -70,7 +70,7 @@ GridWeb 控件提供了 HeaderBarStyle 属性，该属性在控件的两个标�
 
 **活动和非活动标签栏的修改样式** 
 
-![待办事项：图片_替代_文本](apply-styles-to-gridweb_3.png)
+![待办事项：图像_替代_文本](apply-styles-to-gridweb_3.png)
 
 在上图中，Sheet4 是活动选项卡，因此它的外观与其他选项卡不同，如下面的示例代码所定义。
 

@@ -11,7 +11,7 @@ url: /zh/net/detect-hyperlink-type/
 - 外部：外部链接
 - 文件路径：文件\文件夹的本地和完整路径。
 - 电子邮件： 电子邮件
-- CellReference：链接到单元格或命名范围。
+- CellReference：链接到单元格或命名区域。
 
 要检查超链接的类型，[**超级链接**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink)类提供了[**链接类型**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)返回类型为[**目标模式类型**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype).下面的代码片段演示了使用[**链接类型**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)通过使用这个属性[源文件](94896195.xlsx).
 

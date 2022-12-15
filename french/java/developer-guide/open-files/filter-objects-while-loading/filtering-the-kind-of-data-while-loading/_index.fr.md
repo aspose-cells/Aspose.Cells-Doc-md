@@ -12,11 +12,11 @@ url: /fr/java/filtering-the-kind-of-data-while-loading-the-workbook-from-templat
 ## **Filtrage du type de données lors du chargement du classeur à partir d'un fichier de modèle**
 L'exemple de code suivant charge uniquement les objets de forme lors du chargement du classeur à partir du[fichier modèle](5472556.xlsx)que vous pouvez télécharger à partir du lien indiqué.
 
- La capture d'écran suivante montre le[fichier modèle](5472556.xlsx) contenu et explique également que les données en couleur rouge et fond jaune ne seront pas chargées car le[LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#LoadDataFilterOptions)la propriété a été définie sur[LoadDataFilterOptions.SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE).
+La capture d'écran suivante montre le[fichier modèle](5472556.xlsx) contenu et explique également que les données en couleur rouge et fond jaune ne seront pas chargées car le[LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#LoadDataFilterOptions)la propriété a été définie sur[LoadDataFilterOptions.SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE).
 
 ![tâche : image_autre_texte](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- La capture d'écran suivante montre le[PDF de sortie](5472554.pdf) que vous pouvez télécharger à partir du lien indiqué. Ici vous pouvez voir, les données en couleur rouge et fond jaune ne sont pas présentes mais toutes les formes sont là.
+La capture d'écran suivante montre le[PDF de sortie](5472554.pdf) que vous pouvez télécharger à partir du lien indiqué. Ici vous pouvez voir, les données en couleur rouge et fond jaune ne sont pas présentes mais toutes les formes sont là.
 
 ![tâche : image_autre_texte](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

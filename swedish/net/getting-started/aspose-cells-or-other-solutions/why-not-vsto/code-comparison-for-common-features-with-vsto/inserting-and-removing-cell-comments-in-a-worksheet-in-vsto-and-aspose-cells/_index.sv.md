@@ -12,9 +12,9 @@ Så här lägger du till kommentarer till celler:
 
 För att ta bort kommentarerna är processen liknande, med undantag för att kommentaren tas bort.
 
-Kodexemplen nedan illustrerar först hur man lägger till en kommentar och sedan hur man tar bort en kommentar med antingen VSTO eller Aspose.Cells för .NET.
+Kodexemplen nedan illustrerar först hur man lägger till en kommentar och sedan hur man tar bort en kommentar med antingen VSTO eller Aspose.Cells for .NET.
 ## **Lägger in kommentarer**
-Dessa kodavsnitt visar hur man lägger till en kommentar till en cell först med VSTO (C#) och sedan med Aspose.Cells för .NET (C#).
+Dessa kodavsnitt visar hur man lägger till en kommentar till en cell först med VSTO (C#) och sedan med Aspose.Cells for .NET (C#).
 ### **VSTO**
 {{< highlight "csharp" >}}
 
@@ -90,7 +90,7 @@ string myPath = "Book1.xls";
 
 {{< /highlight >}}
 ## **Ta bort kommentarer**
-För att ta bort en kommentar från en cell, använd följande kodrader för VSTO (C#) och Aspose.Cells för .NET (C#).
+För att ta bort en kommentar från en cell, använd följande kodrader för VSTO (C#) och Aspose.Cells for .NET (C#).
 ### **VSTO**
 {{< highlight "csharp" >}}
 

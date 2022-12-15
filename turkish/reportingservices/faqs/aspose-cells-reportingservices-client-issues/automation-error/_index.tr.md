@@ -5,7 +5,7 @@ weight: 10
 url: /tr/reportingservices/automation-error/
 ---
 ##### **Tanım**
-Microsoft Excel 2003, Aspose.Cells.ReportingServices.Client eklentilerini yüklediğinde, Microsoft Excel bir otomasyon hatası üretir:
+ Microsoft Excel 2003, Aspose.Cells.ReportingServices.Client eklentilerini yüklediğinde, Microsoft Excel bir otomasyon hatası üretir:
 
 ![yapılacaklar:resim_alternatif_Metin](automation-error_1.png)
 ##### **Çözüm**

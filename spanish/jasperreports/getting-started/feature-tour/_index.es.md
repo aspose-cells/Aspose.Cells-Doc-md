@@ -5,7 +5,7 @@ weight: 20
 url: /es/jasperreports/feature-tour/
 ---
 ###### **Esta sección incluye los siguientes temas:**
-- [Resumen de funciones](/cells/es/jasperreports/feature-overview/)
+- [Resumen de características](/cells/es/jasperreports/feature-overview/)
 - [Exportación XLS o XLSX](/cells/es/jasperreports/xls-or-xlsx-export/)
 - [Alta fidelidad al diseño del informe](/cells/es/jasperreports/high-fidelity-to-the-report-design/)
 - [Implementación fácil y ligera](/cells/es/jasperreports/easy-and-lightweight-deployment/)

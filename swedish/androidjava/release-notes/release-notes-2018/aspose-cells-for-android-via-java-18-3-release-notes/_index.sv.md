@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 18.3 Release Notes
+title: Aspose.Cells for Android via Java 18.3 Release Notes
 type: docs
 weight: 40
 url: /sv/java/aspose-cells-for-android-via-java-18-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 18.3.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.3.
 
 {{% /alert %}} 
 
@@ -55,16 +55,16 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 18.3
 |CELLSJAVA-42538|Egenskaper extraheras inte från XLS- och XLSX-filer|Insekt|
 |CELLSJAVA-42534|Att spara XLS till XLSB tar bort allowEditRanges|Insekt|
 |CELLSJAVA-42533|Undantag "NullPointerException" inträffade vid extrahering av SmartArt-formtext|Insekt|
-|CELLSJAVA-42532|Artikelkod - Styr externa resurser med WorkbookSetting.StreamProvider - fungerar inte för Java|Insekt|
-|CELLSJAVA-42525|Artikelkod - Ange formelfält när du importerar data till arbetsblad - fungerar inte för Java|Insekt|
+|CELLSJAVA-42532|Artikelkod - Styr externa resurser med WorkbookSetting.StreamProvider - fungerar inte for Java|Insekt|
+|CELLSJAVA-42525|Artikelkod - Ange formelfält när du importerar data till kalkylblad - fungerar inte for Java|Insekt|
 |CELLSJAVA-42521|Kinesiska tecken i det inbäddade filnamnet (titel) visas inte väl i anteckningsblocket|Insekt|
 |CELLSJAVA-42545|Undantag "ReadElementString kan endast anropas när innehållet är enkelt eller tomt" när en ODS-fil laddas|Undantag|
 |CELLSJAVA-42500|NullPointerException inträffar när MS Excel-filen laddas|Undantag|
 |CELLSJAVA-42526|Fel i Cell B4-Ogiltig formel - undantag inträffar vid inställningsformel|Undantag|
 |CELLSJAVA-42522|ArrayIndexOutOfBoundsException vid öppning av fil via Aspose.Cells|Undantag|
 |CELLSJAVA-42517|Undantag "com.aspose.cells.CellsException: Ogiltig formel:" när en ODS-fil laddas|Undantag|
-# **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+# **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen LoadOptions.ParsingPivotCachedRecords**
 Anger om tolkning av pivotcachade poster när filen laddas. Standardvärdet är falskt. Gäller endast för filformaten Excel Xlsx, Xltx, Xltm, Xlsm och Xlsb.
 #### **Lägger till egenskapen HtmlSaveOptions.ExcludeUnusedStyles**
@@ -80,7 +80,7 @@ Får barnens pivottabeller som använder denna pivottabelldata som datakälla.
 #### **Lägger till LoadDataFilterOptions.DefinedNames enum**
 Anger om definierade namnobjekt laddas när mallfilen laddas.
 #### **Ändrar beteendet för LoadDataFilterOptions.Formula enum**
-äldre versioner laddar vi alltid definierade namnobjekt när vi laddar formler. Nu tillhandahåller vi separat enum för definierade Name-objekt explicit, så Formel Enum kommer bara att beteckna att formler ska laddas nu, oavsett vilka definierade Name-objekt kommer att laddas eller inte. En sak bör dock noteras, vanligen definierade namnobjekt används av formler, om användaren bara laddar formler och inte laddar de definierade namnobjekten, kommer cellformeln som refererar till dessa namn att bli skadad och kan orsaka undantag. Så, i allmänhet, om användaren vill ladda formler, bör de definierade namnobjekten också laddas. Men användaren kan bara ladda definierade namnobjekt utan att ladda formler.
+I äldre versioner laddar vi alltid definierade namnobjekt när vi laddar formler. Nu tillhandahåller vi separat enum för definierade Name-objekt explicit, så Formel Enum kommer bara att beteckna att formler ska laddas nu, oavsett vilka definierade Name-objekt kommer att laddas eller inte. En sak bör dock noteras, vanligen definierade namnobjekt används av formler, om användaren bara laddar formler och inte laddar de definierade namnobjekten, kommer cellformeln som refererar till dessa namn att bli skadad och kan orsaka undantag. Så, i allmänhet, om användaren vill ladda formler, bör de definierade namnobjekten också laddas. Men användaren kan bara ladda definierade namnobjekt utan att ladda formler.
 #### **Lägg till SheetType.Dialog enum**
 Representerar dialogblad.
 #### **Lägger till egenskapen WorkbookSettings.MaxRowsOfSharedFormula**
@@ -112,6 +112,6 @@ Får den relaterade formen under rendering.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Android via Java matchar koden för relevanta .NET- och Java-versioner, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v18.1, Aspose.Cells för .NET v18.2 , Aspose.Cells för .NET v18.3, Aspose.Cells för Java v18.1, Aspose.Cells för Java v18.2 och Aspose.Cells för Java v18.3 ingår också i denna Aspose.Cells för Android 3 Java v18.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.1, Aspose.Cells for .NET v18.2, Aspose.Cells for .NET v18.3, Aspose.Cells for Java v18.1, Aspose.Cells for Java v18.2 och Aspose.Cells for Java v18.3 ingår också i denna 07611073411 08.11073411
 
 {{% /alert %}}

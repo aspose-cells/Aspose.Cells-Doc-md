@@ -222,7 +222,7 @@ else
 {{< /highlight >}}
 
 
-### **Propiedad ColorScale.Is3ColorScale añadido**
+### **Propiedad ColorScale.Is3ColorScale agregado**
  Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad ColorScale.Is3ColorScale que se puede usar para crear un formato condicional de escala de 2 colores. Dicha propiedad es de tipo booleano con valor predeterminado de verdadero, lo que significa que el formato condicional será de escala de 3 colores de forma predeterminada. Sin embargo, cambiar la propiedad ColorScale.Is3ColorScale a false[generar un formato condicional de escala de 2 colores](/cells/es/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
 
 El siguiente es el escenario de uso simple.

@@ -5,7 +5,7 @@ weight: 90
 url: /it/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Crea Data Cell**
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -35,7 +35,7 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS (HSSF + XSSF) - Data di creazione Cell**
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

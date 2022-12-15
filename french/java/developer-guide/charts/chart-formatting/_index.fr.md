@@ -197,7 +197,7 @@ Les Sparklines vous aident à voir les tendances, par exemple, ou le record de v
 
 ### **Sparklines utilisant Aspose.Cells**
 
-Les développeurs peuvent créer, supprimer ou lire des sparklines (dans le fichier de modèle) à l'aide du API fourni par Aspose.Cells. En ajoutant des graphiques personnalisés pour une plage de données donnée, les développeurs ont la liberté d'ajouter différents types de petits graphiques aux zones de cellules sélectionnées.
+Les développeurs peuvent créer, supprimer ou lire des sparklines (dans le fichier de modèle) à l'aide du API fourni par Aspose.Cells. En ajoutant des graphiques personnalisés pour une plage de données donnée, les développeurs ont la liberté d'ajouter différents types de petits graphiques aux zones de cellule sélectionnées.
 
 L'exemple ci-dessous illustre la fonctionnalité Sparklines. L'exemple montre comment :
 

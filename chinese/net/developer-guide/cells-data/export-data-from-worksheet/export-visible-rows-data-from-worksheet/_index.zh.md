@@ -14,12 +14,12 @@ url: /zh/net/export-visible-rows-data-from-worksheet/
 
 |**工作表中的样本数据，第 5、6 和 7 行被隐藏**|
 |:- |
-|![待办事项：图片_替代_文本](export-visible-rows-data-from-worksheet_1.png)|
+|![待办事项：图像_替代_文本](export-visible-rows-data-from-worksheet_1.png)|
 
 使用数据导出到数据表后[**工作表.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index)方法与[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)选项，它看起来像这样。隐藏行被绘制为空行
 
 |**隐藏行作为空白行导出到数据表**|
 |:- |
-|![待办事项：图片_替代_文本](export-visible-rows-data-from-worksheet_2.png)|
+|![待办事项：图像_替代_文本](export-visible-rows-data-from-worksheet_2.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportVisibleRowsData-1.cs" >}}

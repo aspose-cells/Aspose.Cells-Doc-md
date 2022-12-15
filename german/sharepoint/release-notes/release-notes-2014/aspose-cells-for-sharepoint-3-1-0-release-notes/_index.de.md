@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells für SharePoint 3.1.0 Versionshinweise
+title: Aspose.Cells for SharePoint 3.1.0 Versionshinweise
 type: docs
 weight: 10
 url: /de/sharepoint/aspose-cells-for-sharepoint-3-1-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Diese Seite enthält Versionshinweise für[Aspose.Cells für SharePoint 3.1.0](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-3.1.0/)
+ Diese Seite enthält Versionshinweise für[Aspose.Cells for SharePoint 3.1.0](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-3.1.0/)
 
 {{% /alert %}} 
 
-Bitte begrüßen Sie eine neue Version von Aspose.Cells für SharePoint 3.1.0.
+Bitte begrüßen Sie eine neue Version von Aspose.Cells for SharePoint 3.1.0.
 
  Hauptmerkmale
 

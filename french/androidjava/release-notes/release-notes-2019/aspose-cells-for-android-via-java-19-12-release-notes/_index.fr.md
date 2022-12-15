@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 19.12 Notes de version
+title: Aspose.Cells for Android via Java 19.12 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 19.12.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 19.12.
 
 {{% /alert %}} 
 
@@ -54,7 +54,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-43060|Exception "java.lang.NullPointerException" sur Workbook.save après avoir défini la source de données externe comme vide|Exception|
 |CELLSJAVA-42923|Exceptions lors du chargement du document XLS|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 ### **Ajoute la méthode Cells.RemoveDuplicates()**
 Supprime les données en double de la plage.
 ### **Ajoute la propriété OleObject.FullObjectBin**
@@ -104,7 +104,7 @@ Utilisez plutôt la propriété DataLabels.ShowSeriesName.
 ### **Supprime la propriété obsolète DataLabels.IsLegendKeyShown**
 Utilisez plutôt la propriété DataLabels.ShowLegendKey.
 ### **Ajoute l'option LoadOptions.KeepUnparsedData**
-L'option indique s'il faut conserver les données non analysées en mémoire pour le classeur lorsqu'il est chargé à partir d'un fichier de modèle. Si les utilisateurs n'ont pas besoin d'enregistrer complètement le classeur, en particulier lorsqu'ils n'ont besoin que de lire un contenu spécial du classeur (comme par un type de LoadFilter), les données non analysées ne sont plus nécessaires et ils peuvent définir cette propriété comme fausse pour obtenir de meilleures performances. Pour les anciennes versions, lors du chargement de Workbook à partir d'un fichier de modèle avec LoadFilter spécifié par l'utilisateur, pour des raisons de performances, les données non analysées n'étaient pas conservées. Maintenant, nous fournissons cette option et rendons sa valeur par défaut vraie, cela peut influencer les performances des cas d'utilisation de LoadFilter par les utilisateurs. Si tel est le cas, les utilisateurs doivent définir explicitement cette propriété sur false dans leur application.
+L'option indique s'il faut conserver les données non analysées en mémoire pour le classeur lorsqu'il est chargé à partir d'un fichier de modèle. Si les utilisateurs n'ont pas besoin d'enregistrer complètement le classeur, en particulier lorsqu'ils n'ont besoin que de lire un contenu spécial du classeur (comme par un type de LoadFilter), les données non analysées ne sont plus nécessaires et ils peuvent définir cette propriété sur false pour obtenir de meilleures performances. Pour les anciennes versions, lors du chargement de Workbook à partir d'un fichier de modèle avec LoadFilter spécifié par l'utilisateur, pour des raisons de performances, les données non analysées n'étaient pas conservées. Maintenant, nous fournissons cette option et rendons sa valeur par défaut vraie, cela peut influencer les performances des cas d'utilisation de LoadFilter par les utilisateurs. Si tel est le cas, les utilisateurs doivent définir explicitement cette propriété sur false dans leur application.
 ### **Ajoute l'option LoadDataFilterOptions.Picture**
 L'option indiquant si l'image doit être chargée.
 ### **Ajoute l'option LoadDataFilterOptions.OleObject**

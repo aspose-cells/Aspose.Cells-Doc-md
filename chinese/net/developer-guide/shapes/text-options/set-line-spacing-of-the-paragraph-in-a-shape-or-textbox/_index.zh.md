@@ -1,5 +1,5 @@
 ﻿---
-title: 在形状或文本框中设置段落的行间距
+title: 在形状或文本框中设置段落的行距
 type: docs
 weight: 290
 url: /zh/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/

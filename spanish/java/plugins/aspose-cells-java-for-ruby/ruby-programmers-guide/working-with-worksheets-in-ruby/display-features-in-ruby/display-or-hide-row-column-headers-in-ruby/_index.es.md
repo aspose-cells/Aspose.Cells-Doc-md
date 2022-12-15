@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells - Mostrar u ocultar encabezados de columna de fila**
 ### **Ocultar encabezados de fila/columna**
- Para ocultar encabezados de fila/columna usando**Aspose.Cells Java para rubí** , llamar**MostrarOcultarFilaColumnaEncabezados** módulo.
+Para ocultar encabezados de fila/columna usando**Aspose.Cells Java para rubí** , llamar**MostrarOcultarFilaColumnaEncabezados** módulo.
 
 **código rubí**
 

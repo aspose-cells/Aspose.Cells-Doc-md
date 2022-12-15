@@ -18,7 +18,7 @@ url: /ar/net/excel-themes-and-colors/
 - [**النمط ، الخلفية ، الموضوع ، اللون**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor): يستخدم لضبط لون الخلفية.
 - [**الخط**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/themecolor): يستخدم لضبط لون الخط.
 - [**المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor): يُستخدم للحصول على لون نسق.
-- [**المصنف. SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): يُستخدم لتعيين لون النسق.
+- [**المصنف. SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): يستخدم لتعيين لون النسق.
 
 يوضح المثال التالي كيفية الحصول على ألوان النسق وتعيينها.
 

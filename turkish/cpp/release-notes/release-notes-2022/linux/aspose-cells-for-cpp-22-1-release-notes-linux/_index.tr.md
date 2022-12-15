@@ -6,13 +6,13 @@ url: /tr/cpp/aspose-cells-for-cpp-22-1-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Linux için C++ 22.1 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa, Linux için Aspose.Cells for C++ 22.1 sürüm notlarını içerir.
 
 {{% /alert %}} 
 
-Linux için C++ 22.1 için Aspose.Cells sürümünü duyurmaktan mutluluk duyuyoruz.
+Linux için Aspose.Cells for C++ 22.1 sürümünü duyurmaktan mutluluk duyuyoruz.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSCPP-637| Windows için performansı artırmak üzere Dosya G/Ç'yi optimize edin|Gelişme|
-|CELLSCPP-645| C++ kitaplığı için dijital olarak imzalanmış Aspose.Cells sağlayın|Gelişme|
+|CELLSCPP-645| Dijital olarak imzalanmış Aspose.Cells for C++ kitaplığı sağlayın|Gelişme|

@@ -7,7 +7,7 @@ url: /it/java/converting-to-mhtml-files-in-python/
 ## **Aspose.Cells - Conversione in MHTML**
 Per convertire il foglio di lavoro in un file MHTML utilizzando Aspose.Cells for Java in Python, è sufficiente richiamare il foglio di lavoro_a_mhtml() del modulo Converter.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 

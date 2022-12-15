@@ -1,14 +1,14 @@
 ﻿---
-title: Aspose.Cells för Android via Java 9.0.0 Release Notes
+title: Aspose.Cells for Android via Java 9.0.0 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 ---
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-41925|Beräkningstiden har ökat med de senaste API-revisionerna|Ny funktion|
+|CELLSJAVA-41925|Beräkningstiden har ökat med de senaste API revisionerna|Ny funktion|
 |CELLSJAVA-40958|Användarkonfigurerbar teckensnittsersättningsmekanism krävs|Ny funktion|
-|CELLSJAVA-41925|Beräkningstiden har ökat med de senaste API-revisionerna|Ny funktion|
+|CELLSJAVA-41925|Beräkningstiden har ökat med de senaste API revisionerna|Ny funktion|
 |CELLSJAVA-41947|Möjlighet att upptäcka om en DataPoint är i Pie eller Bar|Ny funktion|
 |CELLSJAVA-41936|Workbook.calculateFormula()-metoden avslutas aldrig för Excel-källfilen|Förbättring|
 |CELLSJAVA-41827|Kalkylark tar mer än 3 minuter att beräkna formler med Workbook.calculateFormula()-metoden|Förbättring|
@@ -17,7 +17,7 @@ url: /sv/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41932|Problem med getDisplayStringValue() för datumformaterade värden|Insekt|
 |CELLSJAVA-41930|Genom att använda Light Cells API:er för att bearbeta en XLS-fil, bearbetas alltid den första cellen i det första arket|Insekt|
 |CELLSJAVA-41931|Teckenavstånd och brytning är inte korrekta för vertikal text vid rendering av kalkylark till PDF|Insekt|
-|CELLSJAVA-41709|Kolumnbredden är annorlunda på CentOS än på Windows|Insekt|
+|CELLSJAVA-41709|Kolumnbredderna är annorlunda på CentOS än på Windows|Insekt|
 |CELLSJAVA-41933|Diagramskalan har ändrats vid rendering av kalkylark till PDF|Insekt|
 |CELLSJAVA-41934|Justeringsproblem vid rendering av en Excel-fil till PDF|Insekt|
 |CELLSJAVA-41935|Formatering av förklaringsposter störs när kalkylbladet renderas till PDF|Insekt|
@@ -46,8 +46,8 @@ url: /sv/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41961|Ogiltig sträng i filen undantag inträffar när källan a3.xls öppnas|Undantag|
 |CELLSJAVA-41960|NegativeArraySizeException-undantaget inträffar när källan a2.xls öppnas|Undantag|
 |CELLSJAVA-41959|NullPointerException-undantag uppstår när källan a1.xlsx öppnas|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över alla ändringar som har gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Android. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen CopyOptions.ReferToDestinationSheet och metoden Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)**
 När du kopierar intervallet och diagrammet hänvisar till källarket betyder False att det kopierade diagrammets datakälla inte kommer att ändras. Sant betyder att det kopierade diagrammets datakälla refererar till målarket.
 ### **Lägger till egenskapen HtmlSaveOptions.FilePathProvider**
@@ -117,6 +117,6 @@ Hämtar eller ställer in klassidentifieraren för det inbäddade objektet.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Android matchar koden för relevant .NET- och Java-version, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v8.9.1, Aspose.Cells för .NET v8.9.2, Aspose.Cells för .NET v9.0.0, Aspose.Cells för Java v8.9.1, Aspose.Cells för Java v8.9.2 och Aspose.Cells för Java v9.0.0 ingår också i denna Aspose.Cells för Android v9.0.0.
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.9.1, Aspose.Cells for .NET v8.9.2, Aspose.Cells for .NET v9.0.0, Aspose.Cells for Java v8. 9.1, Aspose.Cells for Java v8.9.2 och Aspose.Cells for Java v9.0.0 ingår också i denna Aspose.Cells for Android v9.0.0.
 
 {{% /alert %}}

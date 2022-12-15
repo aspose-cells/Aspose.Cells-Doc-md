@@ -39,7 +39,7 @@ url: /es/java/aspose-cells-for-java-2-4-3-release-notes/
 |20635 | Cuadro| Comprobar fuente de datos no válida|
 |21580 | xls| Autofiltro|
 |21679 | SAO| Leer archivo de plantilla|
-|21703 | xls| Formato de número|
+|21703 | xls| Formato de números|
 |21686 | xls| Leer propiedades del documento|
 |21622 | html| Exportar gráfico/formas como imagen|
 

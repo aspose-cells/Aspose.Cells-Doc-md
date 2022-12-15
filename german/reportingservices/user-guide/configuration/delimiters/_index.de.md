@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /de/reportingservices/delimiters/
 ---
-Aspose.Cells für Reporting Services unterstützt ein bestimmtes Trennzeichen beim Rendern des TXT- oder CSV-Formats. Zwei Einstellungen steuern das Feldtrennzeichen in Aspose.Cells für Reporting Services.
+Aspose.Cells for Reporting Services unterstützt ein bestimmtes Trennzeichen beim Rendern des TXT- oder CSV-Formats. Zwei Einstellungen steuern den Feldbegrenzer in Aspose.Cells for Reporting Services.
 
 1.  Der Feldbegrenzerparameter in**rsreportserver.config** kann nur eine bestimmte Rendering-Erweiterung steuern.
 

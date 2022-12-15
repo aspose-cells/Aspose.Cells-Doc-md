@@ -13,7 +13,7 @@ url: /ar/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-o
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **إخراج وحدة التحكم**
- يرجى الاطلاع على إخراج وحدة التحكم التالية الذي تم إنشاؤه بعد تنفيذ نموذج التعليمات البرمجية أعلاه باستخدام[نموذج ملف اكسل](5473373.xlsx) . إذا[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) هو**خاطئة** ، تكون نقطة البيانات داخل الدائرة أو إذا كانت كذلك**حقيقي**، فحينئذٍ تكون نقطة البيانات داخل الشريط.
+ يرجى الاطلاع على إخراج وحدة التحكم التالية الذي تم إنشاؤه بعد تنفيذ نموذج التعليمات البرمجية أعلاه باستخدام[نموذج ملف اكسل](5473373.xlsx) . إذا[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) هو**خاطئة** ، تكون نقطة البيانات داخل الدائرة أو إذا كانت كذلك**حقيقي**، ثم تكون نقطة البيانات داخل الشريط.
 
 {{< highlight "java" >}}
 

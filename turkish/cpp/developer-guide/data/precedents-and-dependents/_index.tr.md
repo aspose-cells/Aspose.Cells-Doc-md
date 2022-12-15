@@ -27,11 +27,11 @@ Microsoft Excel, kullanıcıların emsalleri ve bağımlıları izlemesine olana
 
 1.  Üzerinde**Araç Çubuğunu Görüntüle** , seçme**Formül Denetimi**
 1. Emsalleri İzleyin:
- 1. Emsal hücreleri bulmak istediğiniz formülü içeren hücreyi seçin.
+1. Emsal hücreleri bulmak istediğiniz formülü içeren hücreyi seçin.
  1. Etkin hücreye doğrudan veri sağlayan her hücreye bir izleme oku görüntülemek için,**Emsalleri İzleyin** üzerinde**Formül Denetimi** araç çubuğu.
 1. Belirli bir hücreye başvuran formülleri izleme (bağımlı olanlar)
  1. Bağımlı hücreleri belirlemek istediğiniz hücreyi seçin.
-1. Etkin hücreye bağımlı olan her hücreye bir izleme oku görüntülemek için Formül Denetimi araç çubuğunda Bağımlıları İzle'ye tıklayın.
+ 1. Etkin hücreye bağımlı olan her hücreye bir izleme oku görüntülemek için Formül Denetimi araç çubuğunda Bağımlıları İzle'ye tıklayın.
 ## **Emsal ve Bağımlı İzleme Cells: Aspose.Cells**
 ### **Emsallerin İzini Sürmek**
 Aspose.Cells, emsal hücreleri almayı kolaylaştırır. Yalnızca basit formül emsallerine veri sağlayan hücreleri almakla kalmaz, aynı zamanda adlandırılmış aralıklara sahip karmaşık formül emsallerine veri sağlayan hücreleri de bulabilir.

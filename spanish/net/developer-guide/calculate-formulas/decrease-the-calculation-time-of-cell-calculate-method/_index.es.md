@@ -18,7 +18,7 @@ Normalmente, recomendamos a los usuarios que llamen[**Libro de trabajo. Calcular
 
 ## **Salida de consola**
 
- Esta es la salida de la consola del código de muestra anterior cuando se ejecuta con el dado[ejemplo de archivo de Excel](5113710.xlsx)en nuestra máquina. Tenga en cuenta que su salida puede diferir, pero el tiempo transcurrido después de establecer la propiedad recursiva en**falso** siempre será menor que establecerlo en**verdadero**.
+ Esta es la salida de la consola del código de muestra anterior cuando se ejecuta con el dado[ejemplo de archivo de Excel](5113710.xlsx) en nuestra máquina. Tenga en cuenta que su salida puede diferir, pero el tiempo transcurrido después de establecer la propiedad recursiva en**falso** siempre será menor que establecerlo en**verdadero**.
 
 {{< highlight "java" >}}
 

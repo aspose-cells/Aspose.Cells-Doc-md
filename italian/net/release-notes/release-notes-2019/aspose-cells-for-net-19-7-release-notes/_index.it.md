@@ -44,8 +44,8 @@ url: /it/net/aspose-cells-for-net-19-7-release-notes/
 |CELLSNET-46792|Eccezione quando si tenta di eliminare colonne vuote in una cartella di lavoro specifica|Eccezione|
 |CELLSNET-46799|Eccezione sollevata durante la conversione del file XLSX in PDF|Eccezione|
 |CELLSNET-46803|Eccezione "Riferimento oggetto non impostato su un'istanza di un oggetto" durante il caricamento di un file XLSX|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Obsoleta la classe HTMLLoadOptions e aggiunta la classe HtmlLoadOptions**
 Utilizzare invece la classe HtmlLoadOptions.
 #### **Obsoleta la classe ODSLoadOptions e aggiunta la classe OdsLoadOptions**

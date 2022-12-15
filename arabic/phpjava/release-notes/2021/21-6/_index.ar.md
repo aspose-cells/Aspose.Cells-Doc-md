@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لـ PHP عبر Java 21.6 ملاحظات الإصدار
+title: Aspose.Cells for PHP via Java 21.6 ملاحظات الإصدار
 type: docs
 weight: 7
 url: /ar/php-java/aspose-cells-for-php-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لـ PHP عبر Java 21.6](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.6/).
+ تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for PHP via Java 21.6](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -33,7 +33,7 @@ url: /ar/php-java/aspose-cells-for-php-via-java-21-6-release-notes/
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
-فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لـ PHP عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for PHP Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 
 ### **يغير سلوك Cell. الخاصيةsErrorValue.**
 

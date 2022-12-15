@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 20.6 Note di rilascio
+title: Aspose.Cells for Android via Java 20.6 Note di rilascio
 type: docs
 weight: 10
 url: /it/java/aspose-cells-for-android-via-java-20-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 20.6.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 20.6.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43173|Quando il campo gruppo ha un valore nullo, il risultato di subtotalN perde il subtotale per il gruppo nullo|Aumento|
 |CELLSJAVA-43186|Calcola il totale complessivo per ogni riga con colonna espansa|Aumento|
 |CELLSJAVA-43191|Fornire un mezzo per gestire gli scenari quando si specificano tipi di carattere errati|Aumento|
-|CELLSJAVA-43187|Eccezione durante il caricamento di file XLS "Microsoft Excel 5.0 / 95 Workbook"|Aumento|
+|CELLSJAVA-43187|Eccezione durante il caricamento di file XLS "Microsoft Excel 5.0/95 Workbook".|Aumento|
 |CELLSJAVA-43142|Rendering da Excel a HTML: alcune celle non sono allineate dopo la conversione|Insetto|
 |CELLSJAVA-43155|Il testo ruotato viene impostato fuori dalla cella quando viene visualizzato come HTML|Insetto|
 |CELLSJAVA-43161|Rappresentazione errata dell'equazione|Insetto|
@@ -58,8 +58,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43189|Eccezione sollevata durante il caricamento del file XLS|Eccezione|
 |CELLSJAVA-43193|NullPointerException si è verificata durante il caricamento di alcuni file XLSX|Eccezione|
 |CELLSJAVA-43200|Eccezione "java.lang.ArrayIndexOutOfBoundsException" al caricamento del file|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà ChartTextFrame.DirectionType.**
 Ottiene e imposta la direzione del testo nel grafico.
 ### **Aggiunge ChartTextFrame.ReadingOrder e rende obsoleta la proprietà ChartTextFrame.TextDirection.**

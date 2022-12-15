@@ -6,7 +6,7 @@ url: /it/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells - Mostra o nascondi schede**
 ### **Nascondere le schede**
- Per nascondere le schede utilizzando**Aspose.Cells Java per PHP** , chiamata**displayhidetabs** modulo.
+ Per nascondere le schede utilizzando**Aspose.Cells Giava for PHP** , chiamata**displayhidetabs** modulo.
 
 **Codice PHP**
 

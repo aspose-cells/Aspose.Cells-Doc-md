@@ -42,7 +42,7 @@ Aspose.Cells 提供了[复制行](https://reference.aspose.com/cells/java/com.as
 
 **该行以最高的精度和准确度复制** 
 
-![待办事项：图片_替代_文本](copying-rows-and-columns_1.png)
+![待办事项：图像_替代_文本](copying-rows-and-columns_1.png)
 
 {{% alert color="primary" %}} 
 
@@ -59,13 +59,13 @@ Aspose.Cells 提供了[复制行](https://reference.aspose.com/cells/java/com.as
 
 下面是包含 3 行数据的输入电子表格的快照，而下面提供的代码片段将所有 3 行复制到从第 7 行开始的新位置。
 
-![待办事项：图片_替代_文本](copy-rows-and-columns_3.png)
+![待办事项：图像_替代_文本](copy-rows-and-columns_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleRows-CopyingMultipleRows.java" >}}
 
 这是执行上述代码片段后生成的电子表格视图。
 
-![待办事项：图片_替代_文本](copy-rows-and-columns_4.png)
+![待办事项：图像_替代_文本](copy-rows-and-columns_4.png)
 
 ## **复制单列**
 
@@ -83,7 +83,7 @@ Aspose.Cells 提供了[复制列](https://reference.aspose.com/cells/java/com.as
 
 **列从一个工作簿复制到另一个工作簿** 
 
-![待办事项：图片_替代_文本](copying-rows-and-columns_2.png)
+![待办事项：图像_替代_文本](copying-rows-and-columns_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-CopyingColumns-CopyingColumns.java" >}}
 
@@ -95,9 +95,9 @@ Aspose.Cells 提供了[复制列](https://reference.aspose.com/cells/java/com.as
 
 以下是源电子表格和生成的电子表格在 Excel 中的外观。
 
-![待办事项：图片_替代_文本](copy-rows-and-columns_7.png)
+![待办事项：图像_替代_文本](copy-rows-and-columns_7.png)
 
-![待办事项：图片_替代_文本](copy-rows-and-columns_8.png)
+![待办事项：图像_替代_文本](copy-rows-and-columns_8.png)
 
 
 ## **使用粘贴选项粘贴行/列**

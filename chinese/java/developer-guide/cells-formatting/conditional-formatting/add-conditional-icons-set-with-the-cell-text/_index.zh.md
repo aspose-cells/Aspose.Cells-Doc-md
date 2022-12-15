@@ -16,6 +16,6 @@ url: /zh/java/add-conditional-icons-set-with-the-cell-text/
 
 **输出文件** 
 
-![待办事项：图片_替代_文本](add-conditional-icons-set-with-the-cell-text_1.png)
+![待办事项：图像_替代_文本](add-conditional-icons-set-with-the-cell-text_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddConditionalIconsSet-AddConditionalIconsSet.java" >}}

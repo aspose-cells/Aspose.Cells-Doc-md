@@ -6,7 +6,7 @@ url: /fr/net/creating-a-named-range/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET permet aux développeurs d'effectuer la plupart des tâches que les utilisateurs peuvent effectuer dans Microsoft Excel via leurs applications. Cet article explique comment appliquer une plage nommée par programmation.
+Aspose.Cells for .NET permet aux développeurs d'effectuer la plupart des tâches que les utilisateurs peuvent effectuer dans Microsoft Excel via leurs applications. Cet article explique comment appliquer une plage nommée par programme.
 
 Une plage nommée est une fonctionnalité Excel qui vous permet d'attribuer un nom à une cellule ou à une plage de cellules dans une feuille de calcul Excel. Vous pouvez ensuite utiliser le nom dans les formules pour faire référence à la cellule (ou à la plage). Des gammes bien nommées facilitent la compréhension des formules.
 

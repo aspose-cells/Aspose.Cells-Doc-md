@@ -5,7 +5,7 @@ weight: 20
 url: /ru/java/unprotect-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Снять защиту с рабочего листа**
- Чтобы защитить рабочий лист с помощью**Aspose.Cells Java для PHP** , вызов**unprotect_worksheet** метод**защита** модуль.
+ Чтобы защитить рабочий лист с помощью**Aspose.Cells Java for PHP** , вызов**unprotect_worksheet** метод**защита** модуль.
 
 **PHP-код**
 

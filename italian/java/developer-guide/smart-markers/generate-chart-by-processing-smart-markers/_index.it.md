@@ -14,7 +14,7 @@ Aspose.Cells Le API forniscono la classe WorkbookDesigner per lavorare con i mar
 
 {{% /alert %}} 
 ## **Creazione del foglio di calcolo del progettista**
-Un foglio di calcolo per designer è un semplice file Excel creato con l'applicazione Excel Microsoft o le API Aspose.Cells contenente la formattazione visiva, le formule e gli indicatori intelligenti, in cui i contenuti devono essere popolati in fase di esecuzione.
+Un foglio di calcolo per designer è un semplice file Excel creato con l'applicazione Microsoft Excel o le API Aspose.Cells contenente la formattazione visiva, le formule e gli indicatori intelligenti, in cui i contenuti devono essere popolati in fase di esecuzione.
 
 {{% alert color="primary" %}} 
 
@@ -22,9 +22,9 @@ Un foglio di calcolo per designer è un semplice file Excel creato con l'applica
 
 {{% /alert %}} 
 
-Per semplicità, creeremo il foglio di calcolo del progettista utilizzando Aspose.Cells for Java API e successivamente lo elaboreremo rispetto a un'origine dati creata dinamicamente a scopo dimostrativo.
+Per semplicità, creeremo il foglio di calcolo del progettista utilizzando l'API Aspose.Cells for Java e successivamente lo elaboreremo rispetto a un'origine dati creata dinamicamente a scopo dimostrativo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -66,7 +66,7 @@ Se si salva il foglio di lavoro risultante in questa fase, i dati nel foglio di 
 
 Per dimostrare questo caso d'uso, creeremo l'origine dati da zero e la elaboreremo rispetto al foglio di calcolo del designer creato nel passaggio precedente. Tuttavia, nello scenario in tempo reale, i dati potrebbero essere già disponibili per un'ulteriore elaborazione, pertanto è possibile ignorare la creazione dell'origine dati se i dati sono già disponibili.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -86,7 +86,7 @@ String[]year2015 = new String[]{"2015", "2818", "320", "340", "260", "210", "310
 
 L'elaborazione degli Smart Marker è abbastanza semplice come segue.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

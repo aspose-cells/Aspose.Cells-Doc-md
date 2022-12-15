@@ -15,7 +15,7 @@ url: /es/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 |CELLSCPP-41|Calcular fórmulas en hojas de cálculo de Excel|Nueva caracteristica|
 |CELLSCPP-42|Rendimiento mejorado en la lectura de archivos XLSX|Mejora|
 ### **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega el método IWorkbook::CalculateFormula()**
 La versión reciente 17.02.0 de Aspose.Cells para CPP API agregó el método IWorkbook::CalculateFormula(). Ayuda a los desarrolladores a calcular el resultado de las fórmulas y almacenarlo en la celda correspondiente de una hoja de cálculo. Los desarrolladores también pueden calcular las fórmulas personalizadas.
 
@@ -109,7 +109,7 @@ Este ejemplo de código demuestra cómo calcular las fórmulas e ignorar los err
 #### **Agrega el método IWorkbook::CalculateFormula(intrusive_ptr<Aspose::Cells::ICalculationOptions>)**
 Calcula fórmulas en el libro de trabajo.
 #### **Agrega el método IWorkbook::CalculateFormula(bool ignoreError,intrusive_ptr<Aspose::Cells::ICustomFunction> customFunction)**
- Aspose.Cells para CPP API ofrece la interfaz ICustomFunction. Los desarrolladores pueden llamar al método IWorkbook.CalculateFormula(false, ICustomFunction) para invocar la implementación del método ICustomFunction.CalculateCustomFunction(). El método ICustomFunction.CalculateCustomFunction() permite manipular los valores de retorno de las funciones personalizadas. En el siguiente ejemplo de código, la implementación de la interfaz ICustomFunction evalúa y devuelve los valores de dos funciones personalizadas, es decir, MySampleFunc() y YourSampleFunc(). Estas funciones personalizadas están dentro de las celdas A1 y A2 respectivamente. Imprime los valores de A1 y A2 en una consola, que en realidad son los valores devueltos por ICustomFunction.CalculateCustomFunction().
+Aspose.Cells para CPP API ofrece la interfaz ICustomFunction. Los desarrolladores pueden llamar al método IWorkbook.CalculateFormula(false, ICustomFunction) para invocar la implementación del método ICustomFunction.CalculateCustomFunction(). El método ICustomFunction.CalculateCustomFunction() permite manipular los valores de retorno de las funciones personalizadas. En el siguiente ejemplo de código, la implementación de la interfaz ICustomFunction evalúa y devuelve los valores de dos funciones personalizadas, es decir, MySampleFunc() y YourSampleFunc(). Estas funciones personalizadas están dentro de las celdas A1 y A2 respectivamente. Imprime los valores de A1 y A2 en una consola, que en realidad son los valores devueltos por ICustomFunction.CalculateCustomFunction().
 
 
 Este ejemplo de código demuestra cómo calcular fórmulas, ignorar errores y manipular los valores devueltos de funciones personalizadas en un Excel:

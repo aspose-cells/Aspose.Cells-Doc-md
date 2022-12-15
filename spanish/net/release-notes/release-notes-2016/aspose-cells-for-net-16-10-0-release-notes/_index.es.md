@@ -35,7 +35,7 @@ url: /es/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44759 | El hipervínculo no se puede agregar a un nuevo comentario| Insecto|
 |CELLSNET-44758 | No se puede agregar un hipervínculo a un comentario existente| Insecto|
 |CELLSNET-44756 | Cuadro de texto eliminado después de guardar el libro de trabajo| Insecto|
-|CELLSNET-44755 | Excel se bloquea después de copiar un rango/columna a otra hoja de cálculo| Insecto|
+|CELLSNET-44755 | Excel se bloquea después de copiar un rango/columna a otra hoja de trabajo| Insecto|
 |CELLSNET-44754 | Aspose.Cells no obtiene comillas simples al recuperar fórmulas de las celdas| Insecto|
 |CELLSNET-44751 | La hoja de cálculo se corrompe después de abrirla y guardarla| Insecto|
 |CELLSNET-44743 | Agregar un hipervínculo dentro del comentario de la celda no funciona| Insecto|

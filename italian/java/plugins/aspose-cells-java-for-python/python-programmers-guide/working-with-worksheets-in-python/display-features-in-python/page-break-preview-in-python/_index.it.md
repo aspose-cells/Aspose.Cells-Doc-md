@@ -1,13 +1,13 @@
 ﻿---
-title: Anteprima interruzione di pagina in Python
+title: Anteprima dell'interruzione di pagina in Python
 type: docs
 weight: 60
 url: /it/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
- Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Java per Python** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
+ Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Giava for Python** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 

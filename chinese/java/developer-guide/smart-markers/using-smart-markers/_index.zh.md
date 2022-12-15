@@ -48,11 +48,11 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 以下屏幕截图显示了如何每隔一行插入数据。
 
-![待办事项：图片_替代_文本](using-smart-markers_1.png)
+![待办事项：图像_替代_文本](using-smart-markers_1.png)
 
 **变成...**
 
-![待办事项：图片_替代_文本](using-smart-markers_2.png)
+![待办事项：图像_替代_文本](using-smart-markers_2.png)
 
 ### **动态公式**
 
@@ -65,11 +65,11 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 下面说明了一个重复的动态公式和生成的 Excel 工作表。
 
-![待办事项：图片_替代_文本](using-smart-markers_3.png)
+![待办事项：图像_替代_文本](using-smart-markers_3.png)
 
 **变成……**
 
-![待办事项：图片_替代_文本](using-smart-markers_4.png)
+![待办事项：图像_替代_文本](using-smart-markers_4.png)
 
 Cell C1包含公式=A1*B1，C2包含= A2*B2 和 C3 = A3*B3。
 
@@ -130,13 +130,13 @@ Aspose.Cells 智能标记支持嵌套对象，嵌套对象要简单。
 
 **显示嵌套智能标记的设计器文件的第一个工作表。**
 
-![待办事项：图片_替代_文本](using-smart-markers_5.png)
+![待办事项：图像_替代_文本](using-smart-markers_5.png)
 
 下面的例子展示了它是如何工作的。运行下面的代码会产生下面的输出。
 
 **显示结果数据的输出文件的第一个工作表。**
 
-![待办事项：图片_替代_文本](using-smart-markers_6.png)
+![待办事项：图像_替代_文本](using-smart-markers_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingNestedObjects-UsingNestedObjects.java" >}}
 
@@ -146,7 +146,7 @@ Aspose.Cells 智能标记支持嵌套对象，嵌套对象要简单。
 
 Aspose.Cells 现在也支持使用通用列表作为嵌套对象。请检查使用以下代码生成的输出 excel 文件的屏幕截图。正如您在屏幕截图中看到的，一个教师对象包含多个嵌套的学生对象。
 
-![待办事项：图片_替代_文本](using-smart-markers_7.png)
+![待办事项：图像_替代_文本](using-smart-markers_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingGenericList-UsingGenericList.java" >}}
 

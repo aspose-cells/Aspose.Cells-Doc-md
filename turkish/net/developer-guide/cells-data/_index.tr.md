@@ -8,7 +8,7 @@ description: Bu makale, Aspose.Cells kitaplığıyla Excel dosyalarının verile
 ---
 {{% alert color="primary" %}}
 
- İçinde[Bir Çalışma Sayfasının Cells'ine Erişme](/cells/tr/net/accessing-cells-of-a-worksheet/)bir çalışma sayfasındaki hücrelere erişim için temel yaklaşımları tartıştık. Bu makale, hücrelere farklı veri türleri eklemek için bu yaklaşımlardan birini kullanır.
+ İçinde[Bir Çalışma Sayfasının Cells'ine Erişme](/cells/tr/net/accessing-cells-of-a-worksheet/), bir çalışma sayfasındaki hücrelere erişim için temel yaklaşımları tartıştık. Bu makale, hücrelere farklı veri türleri eklemek için bu yaklaşımlardan birini kullanır.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ description: Bu makale, Aspose.Cells kitaplığıyla Excel dosyalarının verile
 
  Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf bir sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
 
- Aspose.Cells, geliştiricilerin çalışma sayfalarındaki hücrelere şunu çağırarak veri eklemesine olanak tanır:[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yöntem. Aspose.Cells, aşırı yüklenmiş sürümler sağlar.[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) geliştiricilerin hücrelere farklı türde veriler eklemesine olanak tanıyan bir yöntem. Bu aşırı yüklenmiş sürümlerini kullanarak[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)yöntemi ile hücreye Boolean, string, double, integer veya tarih/saat vb. değerler eklemek mümkündür.
+Aspose.Cells, geliştiricilerin çalışma sayfalarındaki hücrelere şunu çağırarak veri eklemesine olanak tanır:[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yöntem. Aspose.Cells, aşırı yüklenmiş sürümler sağlar.[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) geliştiricilerin hücrelere farklı türde veriler eklemesine olanak tanıyan bir yöntem. Bu aşırı yüklenmiş sürümlerini kullanarak[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)yöntemi ile hücreye Boolean, string, double, integer veya tarih/saat vb. değerler eklemek mümkündür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
@@ -39,7 +39,7 @@ description: Bu makale, Aspose.Cells kitaplığıyla Excel dosyalarının verile
 
  Bir alan doldurulmadığında,[**Çift Değer**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) veya[**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)bir istisna atar.
 
-Bir hücrede bulunan veri türü kullanılarak da kontrol edilebilir.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) Emlak. Aslında,[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) mülkiyet esas alınır[**Hücre Değeri Türü**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)önceden tanımlanmış değerleri aşağıda listelenen numaralandırma:
+ Bir hücrede bulunan veri türü kullanılarak da kontrol edilebilir.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) Emlak. Aslında,[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) mülkiyet esas alınır[**Hücre Değeri Türü**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)önceden tanımlanmış değerleri aşağıda listelenen numaralandırma:
 
 |**Cell Değer Türleri**|**Tanım**|
 |:- |:- |

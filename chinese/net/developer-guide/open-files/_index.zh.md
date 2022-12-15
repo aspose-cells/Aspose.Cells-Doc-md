@@ -23,7 +23,7 @@ description: 使用 Aspose.Cells，可以轻松创建、打开和管理 Excel、
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Open-Save-Workbook-1.cs" >}}
 
 ## **推进主题**
-- [打开文件的不同方法](/cells/zh/net/different-ways-to-open-files/)
+- [打开文件的不同方式](/cells/zh/net/different-ways-to-open-files/)
 - [加载工作簿时过滤定义的名称](/cells/zh/net/filter-defined-names-while-loading-workbook/)
 - [加载工作簿或工作表时过滤对象](/cells/zh/net/filter-objects-while-loading-workbook-or-worksheet/)
 - [从模板文件加载工作簿时过滤数据类型](/cells/zh/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/)

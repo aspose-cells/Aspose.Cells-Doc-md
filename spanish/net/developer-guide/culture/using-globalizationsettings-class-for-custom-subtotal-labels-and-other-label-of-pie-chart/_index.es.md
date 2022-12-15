@@ -22,7 +22,7 @@ url: /es/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 
- Para poder inyectar etiquetas personalizadas, se requiere asignar el[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) propiedad a una instancia de la**Ajustes personalizados**definida anteriormente antes de agregar los subtotales a la hoja de trabajo.
+ Para poder inyectar etiquetas personalizadas, se requiere asignar el[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) propiedad a una instancia de la**Ajustes personalizados**definida anteriormente antes de agregar los subtotales a la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-UsingGlobalizationSettings.cs" >}}
 

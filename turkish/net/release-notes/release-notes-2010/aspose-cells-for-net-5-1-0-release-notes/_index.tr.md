@@ -18,7 +18,7 @@ url: /tr/net/aspose-cells-for-net-5-1-0-release-notes/
  Mini Grafikleri görüntülere dönüştürür.
  Görüntü Akıllı İşaretleyiciler için destek sağlar.
  Cell'in gradyan dolgularını ve XLS dosyasının temasını destekler.
- Oluşturulan PDF dosyasında Cell'in desen dolgularını oluşturur.
+ Oluşturulan PDF dosyasında Cell'in desen dolgularını işler.
  Pdf/A-1b uyumluluğu için destek ekler.
  Oluşturulan PDF dosyalarının performansını ve kalitesini artırır.
  46 geliştirme ve düzeltme.

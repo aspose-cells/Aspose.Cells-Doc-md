@@ -5,7 +5,7 @@ weight: 60
 url: /ar/python-java/export-comments-while-saving-excel-file-to/
 ---
 ## **تصدير التعليقات أثناء حفظ ملف Excel إلى HTML**
-عند تحويل Excel إلى HTML ، لا يتم تصدير التعليقات. يوفر Aspose.Cells لـ Python عبر Java ميزة لتصدير التعليقات أثناء تحويل Excel إلى HTML. لتحقيق ذلك ، يوفر API الامتداد[HtmlSaveOptions.SExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments)منشأه. تحديد قيمة[HtmlSaveOptions.SExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments) الملكية ل**حقيقي** سيتم تصدير التعليقات في HTML الناتج.
+عند تحويل Excel إلى HTML ، لا يتم تصدير التعليقات. Aspose.Cells for Python via Java يوفر ميزة لتصدير التعليقات أثناء تحويل Excel إلى HTML. لتحقيق ذلك ، يوفر API الامتداد[HtmlSaveOptions.SExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments)منشأه. تحديد قيمة[HtmlSaveOptions.SExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments) الملكية ل**حقيقي** سيتم تصدير التعليقات في HTML الناتج.
 
 تُظهر لقطة الشاشة التالية ملف HTML الناتج الذي تم إنشاؤه بواسطة مقتطف الشفرة النموذجي.
 

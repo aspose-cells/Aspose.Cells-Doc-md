@@ -72,19 +72,19 @@ Aspose.Cells.GridWeb 还公开了专门用于客户端脚本的功能。这些�
 
 **添加到 C1 单元格的验证** 
 
-![待办事项：图片_替代_文本](write-gridweb-client-side-script_1.png)
+![待办事项：图像_替代_文本](write-gridweb-client-side-script_1.png)
 
 添加无效值并单击**节省**.发生验证错误并执行 ValidationErrorFunction。
 
 **验证错误时调用的 ValidationErrorFunction** 
 
-![待办事项：图片_替代_文本](write-gridweb-client-side-script_2.png)
+![待办事项：图像_替代_文本](write-gridweb-client-side-script_2.png)
 
 在您输入有效值之前，不会向服务器提交任何数据。输入有效值并单击**节省**ConfirmFunction 被执行。
 
 **在将 GridWeb 数据提交到服务器之前调用 ConfirmFunction** 
 
-![待办事项：图片_替代_文本](write-gridweb-client-side-script_3.png)
+![待办事项：图像_替代_文本](write-gridweb-client-side-script_3.png)
 
 
 

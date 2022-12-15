@@ -1,14 +1,14 @@
 ﻿---
-title: Java aracılığıyla Android için Aspose.Cells Kurulum
+title: Aspose.Cells for Android via Java Kurulum
 type: docs
 weight: 30
 url: /tr/java/aspose-cells-for-android-via-java-installation/
 ---
 ## **sistem gereksinimleri**
-Java aracılığıyla Android için Aspose.Cells, platformdan bağımsızdır ve Android Runtime ortamının kurulu olduğu herhangi bir platformda kullanılabilir ve Android OS 2.0 veya daha üstünü çalıştıran Android sistemlerinde çalışır. Şu anda, bileşen aşağıdakilerle test edilmiştir:
+Aspose.Cells for Android via Java, platformdan bağımsızdır ve Android Runtime ortamının kurulu olduğu herhangi bir platformda kullanılabilir ve Android OS 2.0 veya üstünü çalıştıran Android sistemlerinde çalışır. Şu anda, bileşen aşağıdakilerle test edilmiştir:
 
 - Android 5.1 v 22
-## **Maven Deposundan Java aracılığıyla Android için Aspose.Cells'i yükleyin**
+## **Aspose.Cells for Android via Java'i Maven Deposundan yükleyin**
 1. Derlemenize maven deposunu ekleyin.gradle
 1. Bağımlılık olarak 'Aspose.Cells for Android via Java' JAR'ı ekleyin
 
@@ -37,8 +37,8 @@ dependencies {
 }
 
 {{< /highlight >}}
-## **Java üzerinden Android için Aspose.Cells nasıl kullanılır**
-Bu konu, Android Studio IDE'de Java aracılığıyla Android için Aspose.Cells'i kurmak için gerekli adımlar konusunda size yol gösterecektir; makinenizde zaten Android Studio'nun en son sürümünün yüklü olduğunu ve ayrıca Android için Aspose.Cells'in en son sürümünü Java aracılığıyla edindiğinizi varsayarsak paket.
+## **Nasıl kullanılır Aspose.Cells for Android via Java**
+Bu konu, Android Studio IDE'de Aspose.Cells for Android via Java'i kurmak için gerekli adımlar konusunda size yol gösterecektir, makinenizde zaten Android Studio'nun en son sürümünün yüklü olduğunu ve ayrıca Aspose.Cells for Android via Java paketinin en son sürümünü edindiğinizi varsayarsak.
 
 {{% alert color="primary" %}} 
 
@@ -46,13 +46,13 @@ Android Studio'yu henüz yüklemediyseniz, önce Android Studio'nun kurulumunu e
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells Android için Java paketi üzerinden indirilebilir[burada](https://downloads.aspose.com/cells/androidjava). Lütfen unutmayın, Aspose.Cells'in Android için Java üzerinden her sürüm paketi, aşağıda ayrıntılı olarak açıklandığı gibi temel olarak 2 dosyadan oluşur.
+ Aspose.Cells for Android via Java paket adresinden indirilebilir.[burada](https://downloads.aspose.com/cells/androidjava). Lütfen unutmayın, Aspose.Cells for Android via Java'in her bir sürüm paketi, aşağıda ayrıntıları verildiği gibi temel olarak 2 dosyadan oluşur.
 
-- **aspose-hücreleri-xxxjar** Android için Aspose.Cells ile Java API arasındaki tüm ad alanlarını içeren ana kitaplık dosyasıdır.
-- **aspose-cells-xxx-libs.apk** Android için Java API aracılığıyla Aspose.Cells tarafından sunulan şifreleme ve şifre çözme olanakları için kullanılan 3. taraf bcprov-jdk15-146.jar'ı içeren APK'dır.
+- **aspose-hücreleri-xxxjar** Aspose.Cells for Android via Java API'den tüm ad alanlarını içeren ana kitaplık dosyasıdır.
+- **aspose-cells-xxx-libs.apk** Aspose.Cells for Android via Java API tarafından sunulan şifreleme ve şifre çözme olanakları için kullanılan 3. taraf bcprov-jdk15-146.jar'ı içeren APK'dır.
 
 {{% /alert %}} 
-### **Android Studio'da Java üzerinden Android için Aspose.Cells ile Başlarken**
+### **Android Studio'da Aspose.Cells for Android via Java ile Başlarken**
 Android Studio IDE yüklendikten sonra, aşağıda gösterildiği gibi Dosya > Yeni > Yeni Proje'ye tıklayın.
 
 ![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_1.png)
@@ -99,10 +99,10 @@ Artık proje IDE'ye yüklenmiştir, ancak, proje dosyalarının tüm hiyerarşis
 
 ![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_9.png)
 
-Daha sonra projeye Java Jar aracılığıyla Android için Aspose.Cells ekleyeceğiz. Aşağıda ayrıntıları verilen 2 önemli adım vardır.
+Ardından Aspose.Cells for Android via Java Jar'ı projeye ekleyeceğiz. Aşağıda ayrıntıları verilen 2 önemli adım vardır.
 
--  Android için Aspose.Cells'i Java Jar aracılığıyla manuel olarak kopyalayın.**\app\libs** dosya.
-- Android için Aspose.Cells'i Java Jar as Library aracılığıyla aşağıda gösterildiği gibi modüle ekleyin.
+-  Aspose.Cells for Android via Java Jar'ı manuel olarak şuraya kopyalayın:**\app\libs** dosya.
+- Aspose.Cells for Android via Java Jar as Library'yi aşağıda gösterildiği gibi modüle ekleyin.
 
 ![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_10.png)
 
@@ -132,7 +132,7 @@ APK projeye eklendikten sonra proje tarafından yüklenmesi gerekir. APK'yı aş
 
 {{< /highlight >}}
 
-Artık kodu yazmaya hazırız. Gösterimi kolay anlaşılır kılmak için mizanpaja bir Button parçacığı ekledik ve tıklama olayını aşağıdaki gibi işleyeceğiz.
+Artık kodu yazmaya hazırız. Gösterimin anlaşılmasını kolaylaştırmak için, düzene bir Düğme parçacığı ekledik ve tıklama olayını aşağıdaki gibi işleyeceğiz.
 
 {{< highlight "java" >}}
 

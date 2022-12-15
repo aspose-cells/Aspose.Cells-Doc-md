@@ -70,7 +70,7 @@ dati_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/dati/'
 
 cartella di lavoro = Rjb::import('com.aspose.cells.Workbook').new
 
-# Accesso al primo foglio di lavoro nel file Excel
+Accesso al primo foglio di lavoro nel file Excel
 
 foglio di lavoro = workbook.getWorksheets().get(0)
 

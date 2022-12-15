@@ -37,8 +37,8 @@ url: /it/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46971|Il foglio appena copiato nasconde tutte le colonne nascoste e reimposta anche la larghezza delle colonne|Insetto|
 |CELLSNET-46972|Virgola rimossa dai titoli dei grafici una volta decifrato il file Excel|Insetto|
 |CELLSNET-46912|StackOverflowException generata durante la conversione di XLSX in HTML|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge metodi: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
 Aggiunge/rimuove le impostazioni di convalida da determinate aree tenendo conto delle prestazioni.
 #### **Aggiunge il metodo Workbook.ImportXml(Stream stream, string sheetName, int row, int col).**

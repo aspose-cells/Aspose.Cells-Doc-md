@@ -1,5 +1,5 @@
 ﻿---
-title: Panoramica del prodotto - Aspose.Cells per Android tramite Java
+title: Panoramica del prodotto - Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /it/java/product-overview-aspose-cells-for-android-via-java/
@@ -8,9 +8,9 @@ url: /it/java/product-overview-aspose-cells-for-android-via-java/
 
 ![cell-logo](50528297.png)
 
-Benvenuti allo Aspose.Cells per Android tramite la documentazione Java!
+Benvenuti nella documentazione Aspose.Cells for Android via Java!
 
-Aspose.Cells è un componente flessibile che consente alle applicazioni Android di creare e gestire fogli di calcolo Excel senza richiedere l'installazione di Microsoft Excel nel sistema. A differenza di prodotti simili di altri fornitori, Aspose.Cells supporta non solo la generazione di fogli di calcolo e altre funzionalità di base per la formattazione dei file, ma anche una serie di funzionalità avanzate. Queste funzionalità avanzate consentono agli sviluppatori di manipolare facilmente i contenuti dei fogli di calcolo, la formattazione delle celle e la protezione dei file. Aspose.Cells consente inoltre di importare dati in fogli di calcolo da diverse fonti di dati, aggiungere formule e funzioni matematiche, di data e ora, finanziarie o di testo comuni e complesse. Supporta inoltre la manipolazione di grafici, immagini, commenti, oggetti di disegno e controlli.
+Aspose.Cells è un componente flessibile che consente alle applicazioni Android di creare e gestire fogli di calcolo Excel senza richiedere l'installazione di Microsoft Excel nel sistema. A differenza di prodotti simili di altri fornitori, Aspose.Cells non solo supporta la generazione di fogli di calcolo e altre funzionalità di base per la formattazione dei file, ma anche una serie di funzionalità avanzate. Queste funzionalità avanzate consentono agli sviluppatori di manipolare facilmente i contenuti dei fogli di calcolo, la formattazione delle celle e la protezione dei file. Aspose.Cells consente inoltre di importare dati in fogli di calcolo da diverse fonti di dati, aggiungere formule e funzioni matematiche, di data e ora, finanziarie o di testo comuni e complesse. Supporta inoltre la manipolazione di grafici, immagini, commenti, oggetti di disegno e controlli.
 
 {{% /alert %}} 
 ## **Caratteristiche del documento**
@@ -69,7 +69,7 @@ Aspose.Cells è un componente flessibile che consente alle applicazioni Android 
 - Crea facilmente diversi tipi di grafici
 -  personalizzare**Grafici** impostando le loro diverse proprietà
 -  Impostare**Dati per i grafici** dinamicamente
--  Aggiungere**Grafici personalizzati** ai fogli di lavoro utilizzando API
+-  Aggiungere**Grafici personalizzati** ai fogli di lavoro utilizzando l'API
 -  Aggiungere**Immagini** ai fogli di lavoro in fase di esecuzione
 -  Crea e aggiungi**Commenti** alle cellule
 - Converti grafico in file immagine

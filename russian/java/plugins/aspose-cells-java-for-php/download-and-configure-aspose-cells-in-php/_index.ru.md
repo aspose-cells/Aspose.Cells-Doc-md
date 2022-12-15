@@ -5,7 +5,7 @@ weight: 10
 url: /ru/java/download-and-configure-aspose-cells-in-php/
 ---
 ## **Скачать необходимые библиотеки**
-Загрузите необходимые библиотеки, указанные ниже. Они необходимы для выполнения Aspose.Cells Java для примеров PHP.
+Загрузите необходимые библиотеки, указанные ниже. Они необходимы для выполнения примеров Aspose.Cells Java for PHP.
 
 - **Aspose:** [Aspose.Cells for Java Компонент](https://downloads.aspose.com/cells/java/)
 - [PHP/Java Мост](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip/download/)
@@ -14,8 +14,8 @@ url: /ru/java/download-and-configure-aspose-cells-in-php/
 
 -----
 ### **Гитхаб**
-- **Aspose.Cells Java для примеров PHP** 
-  - [Aspose.Cells Java для PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
+- **Aspose.Cells Java for PHP Примеры** 
+  - [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
 ## **Как настроить исходный код на платформе Linux**
 Пожалуйста, следуйте этим простым шагам, чтобы открыть и расширить исходный код при использовании:
 ## **1. Установите сервер Tomcat**
@@ -36,7 +36,7 @@ url: /ru/java/download-and-configure-aspose-cells-in-php/
 {{< /highlight >}}
 
 
- Разархивируйте двоичные файлы PHP/JavaBridge, выполнив следующую команду в консоли Linux.
+Разархивируйте двоичные файлы PHP/JavaBridge, выполнив следующую команду в консоли Linux.
 
 {{< highlight "actionscript3" >}}
 
@@ -54,7 +54,7 @@ url: /ru/java/download-and-configure-aspose-cells-in-php/
 {{< /highlight >}}
 
 
-При копировании tomcat8 автоматически создаст новую папку "**JavaBridge**" в**веб-приложения**. После создания папки убедитесь, что ваш tomcat8 запущен, а затем проверьте<http://localhost:8080/JavaBridge>в браузере должна открыться страница JavaBridge по умолчанию.
+При копировании tomcat8 автоматически создаст новую папку "**JavaBridge**" в**веб-приложения**. После создания папки убедитесь, что ваш tomcat8 запущен, а затем проверьте<http://localhost:8080/JavaBridge> в браузере должна открыться страница JavaBridge по умолчанию.
 
  Если появится какое-либо сообщение об ошибке, установите**FastCGI**введя следующую команду в консоли Linux.
 
@@ -67,7 +67,7 @@ url: /ru/java/download-and-configure-aspose-cells-in-php/
 После установки php5.5 cgi перезапустите сервер tomcat8 и проверьте<http://localhost:8080/JavaBridge>снова в браузере.
 
 Если**JAVA_HOME**отображается ошибка, затем откройте файл /etc/default/tomcat8 и раскомментируйте строку, которая устанавливает JAVA_HOME. Снова проверьте <http://localhost:8080/JavaBridge> в браузере, он должен появиться на странице примеров PHP/JavaBridge.
-## **3. Настройте Aspose.Cells Java для примеров PHP**
+## **3. Настройте Aspose.Cells Java for PHP Примеры**
  Клонируйте примеры PHP, выполнив следующие команды в папке webapps/JavaBridge.
 
 {{< highlight "actionscript3" >}}
@@ -93,8 +93,8 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
 
 7. Скопируйте файл jar Aspose.Cells Java в папку C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib.
 
- \8. Клон[Aspose.Cells Java для PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) примеры внутри папки C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\.
+ \8. Клон[Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) примеры внутри папки C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\.
 
-\8. Скопируйте папку C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java в папку Aspose.Cells Java для примеров PHP.
+\8. Скопируйте папку C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java в папку с примерами Aspose.Cells Java for PHP.
 
  \10. Перезапустите службу Apache Tomcat и начните использовать примеры.

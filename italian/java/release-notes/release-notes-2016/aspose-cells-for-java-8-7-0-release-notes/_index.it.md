@@ -22,7 +22,7 @@ url: /it/java/aspose-cells-for-java-8-7-0-release-notes/
 ## **Nuove caratteristiche**
 
 
- (CELLSJAVA-41672) - Esponi API per la proprietà "Ridimensiona forma per adattare il testo" per le etichette dati del grafico
+ (CELLSJAVA-41672) - Esponi l'API per la proprietà "Ridimensiona forma per adattare il testo" per le etichette dati del grafico
 
  (CELLSJAVA-41655) - Il metodo Cells.importCSV() non riconosce le formule
 
@@ -30,7 +30,7 @@ url: /it/java/aspose-cells-for-java-8-7-0-release-notes/
 ## **Miglioramenti**
 
 
- (CELLSJAVA-41680) - API esegue il rendering del nome del mese russo in modo diverso prima e dopo aver chiamato il metodocalcFormula
+ (CELLSJAVA-41680) - L'API esegue il rendering del nome del mese russo in modo diverso prima e dopo aver chiamato il metodocalcFormula
 
  (CELLSJAVA-41673) - Aspose.Cells non sta leggendo nulla dal foglio Excel nel file modello
 
@@ -141,10 +141,10 @@ url: /it/java/aspose-cells-for-java-8-7-0-release-notes/
  (CELLSJAVA-41598) - Dopo aver caricato il file modello in GridWeb e aver fatto clic più volte sul pulsante Ricarica, la memoria aumenta
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 
 

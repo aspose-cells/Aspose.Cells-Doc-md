@@ -8,7 +8,7 @@ url: /sv/net/specify-how-to-cross-string-in-output-pdf-and-image/
 
 När en cell innehåller text eller sträng men den är större än cellens bredd, svämmar strängen över om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil i PDF/Bild kan du kontrollera detta överflöde genom att ange korstypen med hjälp av[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype)uppräkning. Den har följande värden
 
-- **TextCrossType.Default**Visa text som MS Excel som beror på nästa cell. Om nästa cell är null kommer strängen att korsas eller trunkeras.
+- **TextCrossType.Default**: Visa text som MS Excel som beror på nästa cell. Om nästa cell är null kommer strängen att korsas eller trunkeras.
 
 - **TextCrossType.CrossKeep**: Visa strängen som MS Excel exporterar PDF/bild
 

@@ -5,7 +5,7 @@ weight: 20
 url: /sv/java/unprotect-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Ta bort skyddet av ett arbetsblad**
- För att skydda kalkylblad med hjälp av**Aspose.Cells Java för PHP** , ringa upp**unprotect_worksheet** metod av**skydd** modul.
+ För att skydda kalkylblad med hjälp av**Aspose.Cells Java for PHP** , ringa upp**unprotect_worksheet** metod av**skydd** modul.
 
 **PHP-kod**
 

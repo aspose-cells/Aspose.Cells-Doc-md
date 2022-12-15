@@ -10,7 +10,7 @@ Normalt är namngivna intervall rektangulära med celler kontinuerliga och intil
 
 {{% /alert %}} 
 
-Kodexemplet nedan visar hur man skapar ett namngivet icke-sekventiellt intervall med Aspose.Cells för .NET.
+Kodexemplet nedan visar hur man skapar ett namngivet icke-sekventiellt intervall med Aspose.Cells for .NET.
 
 
 

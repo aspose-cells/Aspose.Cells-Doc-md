@@ -13,7 +13,7 @@ Aspose.Cells consente di creare e salvare file. Questo articolo spiega i vari mo
 
 ## **Diversi modi per salvare i file**
 
- Aspose.Cells fornisce il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** che rappresenta un file Excel Microsoft e fornisce le proprietà e i metodi necessari per lavorare con i file Excel. Il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)**la classe fornisce il**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metodo utilizzato per salvare i file Excel. Il**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Il metodo ha molti overload che vengono utilizzati per salvare i file in modi diversi.
+ Aspose.Cells fornisce il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** che rappresenta un file Microsoft Excel e fornisce le proprietà e i metodi necessari per lavorare con i file Excel. Il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** la classe fornisce il**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metodo utilizzato per salvare i file Excel. Il**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Il metodo ha molti overload che vengono utilizzati per salvare i file in modi diversi.
 
  Il formato di file in cui viene salvato il file è deciso dal file**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**enumerazione
 
@@ -38,21 +38,21 @@ Aspose.Cells consente di creare e salvare file. Questo articolo spiega i vari mo
 
 ## **Salvataggio di file in diversi formati**
 
- Per salvare i file in una posizione di archiviazione, specificare il nome del file (completo di percorso di archiviazione) e il formato file desiderato (da**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** enumerazione) quando si chiama il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** dell'oggetto**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metodo.
+ Per salvare i file in una posizione di archiviazione, specificare il nome del file (completo di percorso di archiviazione) e il formato file desiderato (da**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**enumerazione) quando si chiama il**[Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)** dell'oggetto**[Salva](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metodo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
 ## **Salvataggio cartella di lavoro in pdf**
 Portable Document Format (PDF) è un tipo di documento creato da Adobe negli anni '90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altro materiale di riferimento in un formato indipendente dal software applicativo, dall'hardware e dal sistema operativo. Il formato di file PDF ha la piena capacità di contenere informazioni come testo, immagini, collegamenti ipertestuali, campi modulo, rich media, firme digitali, allegati, metadati, caratteristiche geospaziali e oggetti 3D che possono diventare parte del documento di origine.
 
-seguenti codici mostrano come salvare la cartella di lavoro come file pdf con Aspose.Cells:
+I seguenti codici mostrano come salvare la cartella di lavoro come file pdf con Aspose.Cells:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Save-As-Pdf.cs" >}}
 
 ## **Salvataggio della cartella di lavoro in formato testo o CSV**
 
-A volte, vuoi convertire o salvare una cartella di lavoro con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV, ecc.), per impostazione predefinita sia Microsoft Excel che Aspose.Cells salvano solo il contenuto del foglio di lavoro attivo.
+volte, vuoi convertire o salvare una cartella di lavoro con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV, ecc.), per impostazione predefinita sia Microsoft Excel che Aspose.Cells salvano solo il contenuto del foglio di lavoro attivo.
 
-L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo Excel o OpenOffice Microsoft (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
+L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo di Microsoft Excel o OpenOffice (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
 
 Quando il codice viene eseguito, converte i dati di tutti i fogli nella cartella di lavoro nel formato TXT.
 

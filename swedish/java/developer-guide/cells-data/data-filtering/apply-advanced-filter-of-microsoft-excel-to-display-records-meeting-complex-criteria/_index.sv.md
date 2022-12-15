@@ -1,5 +1,5 @@
 ﻿---
-title: Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier
+title: Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier
 type: docs
 weight: 190
 url: /sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
@@ -9,7 +9,7 @@ url: /sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meetin
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells låter dig också tillämpa det avancerade filtret med hjälp av[Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)metod. Precis som Microsoft Excel accepterar den följande parametrar.
+Aspose.Cells låter dig också tillämpa det avancerade filtret med hjälp av[Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) metod. Precis som Microsoft Excel accepterar den följande parametrar.
 
 **isFilter**
 
@@ -25,12 +25,12 @@ Kriterierna varierar.
 
 **kopia till**
 
-Området dit kopiering av data till.
+Området dit data kopieras till.
 
 **Endast unikaRecord**
 
 Visar eller kopierar endast unika rader.
-## **Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier**
+## **Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier**
 Följande exempelkod tillämpar det avancerade filtret på[Exempel på Excel-fil](48496702.xlsx) och genererar[Utdata Excel-fil](48496705.xlsx). Skärmdumpen visar båda filerna för jämförelse. Som du kan se inuti skärmdumpen har data filtrerats in i Excel-utdatafilen enligt komplexa kriterier.
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)

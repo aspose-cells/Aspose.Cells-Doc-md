@@ -6,7 +6,7 @@ url: /ar/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells لخدمات التقارير متاح كتقييم مجاني لوقت غير محدود من[صفحة التحميل](https://downloads.aspose.com/cells/reportingservices). التقييم والإصدارات المرخصة للمنتج هي نفسها.
+ Aspose.Cells for Reporting Services متاح كتقييم مجاني غير محدود للوقت من[صفحة التحميل](https://downloads.aspose.com/cells/reportingservices). التقييم والإصدارات المرخصة للمنتج هي نفسها.
 
 عندما تكون سعيدًا بإصدار التقييم ، قم بشراء ترخيص. تأكد من أنك تفهم وتوافق على شروط وأحكام الاشتراك.
 
@@ -34,7 +34,7 @@ url: /ar/reportingservices/licensing/
 
 لاختبار تثبيت ملف الترخيص بشكل صحيح ، قم بتصدير أي تقرير كمصنف Excel Microsoft. إذا كان المصنف لا يحتوي على ورقة عمل علامة مائية في النهاية ، فقد تم تنشيط ملف الترخيص بنجاح.
 
- يقوم Aspose.Cells الخاص بخدمات التقارير بضخ ورقة عمل علامة مائية للتقييم عند العمل في وضع التقييم. عندما يكون ملف الترخيص صالحًا ، على سبيل المثال متى**Aspose.Cells.ReportingServices.lic** موجود في المجلد $ [Installation Folder] \ License \ ، ولا توجد ورقة عمل للعلامة المائية للتقييم.
+ Aspose.Cells for Reporting Services يقوم بضخ ورقة عمل علامة مائية للتقييم عند العمل في وضع التقييم. عندما يكون ملف الترخيص صالحًا ، على سبيل المثال متى**Aspose.Cells.ReportingServices.lic** موجود في المجلد $ [Installation Folder] \ License \ ، ولا توجد ورقة عمل للعلامة المائية للتقييم.
 
 **ملف تم إنشاؤه في وضع التقييم. لاحظ ورقة العمل الثانية.** 
 

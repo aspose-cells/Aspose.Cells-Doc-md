@@ -14,7 +14,7 @@ Följande exempelkod läser bara in formobjekt när arbetsboken läses in från[
 
 ![todo:image_alt_text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- Följande skärmdump visar[mata ut PDF](5115555.pdf) som du kan ladda ner från den angivna länken. Här kan du se, data i röd färg och gul bakgrund är inte närvarande men alla former finns där.
+Följande skärmdump visar[mata ut PDF](5115555.pdf) som du kan ladda ner från den angivna länken. Här kan du se, data i röd färg och gul bakgrund är inte närvarande men alla former finns där.
 
 ![todo:image_alt_text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

@@ -140,7 +140,7 @@ Aspose.Cells ve Aspose.PDF ile elektronik tabloları PDF'ye dönüştürmek içi
 1. Pdf sınıfının bindXML yöntemini çağırın ve çıktı XML dosyasının adını iletin.
 1. PDF belgesini oluşturmak için Pdf sınıfının kaydetme yöntemini çağırın.
 
-Yukarıdaki adımlar aşağıda bir örnekte uygulanmaktadır.
+Yukarıdaki adımlar aşağıda bir örnekte uygulanmıştır.
 
 {{% alert color="primary" %}}
 

@@ -68,7 +68,7 @@ url: /it/net/aspose-cells-for-net-5-3-3-release-notes/
 
  26544 Problema con la copia di righe e la formattazione condizionale
 
-26711 La cella calcolata ha "#VALORE!" dopo aver utilizzato il metodo Workbook.CalculateFormula()
+26711 La cella calcolata ha "#VALUE!" dopo aver utilizzato il metodo Workbook.CalculateFormula()
 
  26728 Ottieni "#Valore!" nelle celle calcolate
 

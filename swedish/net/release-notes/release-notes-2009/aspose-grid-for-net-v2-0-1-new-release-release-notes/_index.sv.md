@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Grid för .NET V2.0.1 Releaseinformation för nya versioner
+title: Aspose.Grid for .NET V2.0.1 Releaseinformation för nya utgåvor
 type: docs
 weight: 30
 url: /sv/net/aspose-grid-for-net-v2-0-1-new-release-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Grid för .NET V2.0.1 Ny version](https://downloads.aspose.com/cells/net/new-releases/aspose.grid-for-.net-v2.0.1-new-release/)
+ Den här sidan innehåller release notes för[Aspose.Grid for .NET V2.0.1 Ny version](https://downloads.aspose.com/cells/net/new-releases/aspose.grid-for-.net-v2.0.1-new-release/)
 
 {{% /alert %}} 
 

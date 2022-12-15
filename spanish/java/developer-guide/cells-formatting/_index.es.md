@@ -172,7 +172,7 @@ El siguiente resultado se genera al ejecutar el código.
 ## **Formateo de caracteres seleccionados en un Cell**
 [Tratar con la configuración de fuentes](/cells/es/java/dealing-with-font-settings/) explicó cómo formatear celdas, pero solo cómo formatear el contenido de las celdas completas. ¿Qué sucede si desea formatear solo los caracteres seleccionados?
 
-Aspose.Cells admite esta función. Este tema explica cómo utilizar esta característica.
+Aspose.Cells admite esta función. Este tema explica cómo utilizar esta función.
 ### **Dar formato a los caracteres seleccionados**
 Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase. los[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)la clase proporciona un[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)recopilación. Cada artículo en el[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)colección representa un objeto de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)clase.
 

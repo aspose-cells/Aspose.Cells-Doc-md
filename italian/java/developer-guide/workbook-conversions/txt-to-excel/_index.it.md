@@ -16,7 +16,7 @@ Per aprire i file CSV, utilizzare il file**[LoadOptions](https://reference.aspos
 
 ### **Apertura di file CSV e sostituzione di caratteri non validi**
 
-In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto da Aspose.Cells API che è dimostrato nell'esempio di codice riportato di seguito.
+In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto dall'API Aspose.Cells che è dimostrato nell'esempio di codice fornito di seguito.
 
 #### **Esempio**
 

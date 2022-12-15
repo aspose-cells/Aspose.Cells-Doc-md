@@ -8,7 +8,7 @@ url: /ar/java/aspose-cells-for-java-9-0-0-release-notes/
 
 |**مفتاح** |**ملخص** |**فئة** |
 |:- |:- |:- |
-|CELLSJAVA-41947 | القدرة على اكتشاف ما إذا كانت DataPoint موجودة في Pie أو Bar| ميزة جديدة|
+|CELLSJAVA-41947 | القدرة على اكتشاف ما إذا كانت DataPoint موجودة في Pie أو Bar|ميزة جديدة|
 |CELLSJAVA-41827 | يستغرق جدول البيانات أكثر من 3 دقائق لحساب الصيغ عند استخدام طريقة Workbook.calculateFormula ()| التعزيز|
 |CELLSJAVA-41969 | التظليل Cell مفقود أثناء تحويل تنسيق ملف HTML إلى تنسيق ملف XLSX| حشرة|
 |CELLSJAVA-41955 | يظهر المصنف إلى HTML "#" في الخلايا| حشرة|

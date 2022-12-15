@@ -10,11 +10,11 @@ Aspose.Cells tillhandahåller egenskapen Shape.Glow för att arbeta med glödeff
 - GlowEffect.Size
 - GlowEffect.Transparency
 
-Följande skärmdump visar Microsoft Excel-gränssnittet för att ställa in formens glödeffekt.
+Följande skärmdump visar Microsoft Excel-gränssnitt för att ställa in formens glödeffekt.
 
 ![todo:image_alt_text](working-with-the-glow-effect-of-shape-or-chart_1.png)
 ## **Arbeta med glödeffekten av form eller diagram**
- Följande exempelkod laddar[source excel-fil](5472520.xlsx)och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för Shape.Glow-egenskapen och sparar sedan arbetsboken i[output excel-fil](5472527.xlsx).
+ Följande exempelkod laddar[källkod excel-fil](5472520.xlsx)och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för Shape.Glow-egenskapen och sparar sedan arbetsboken i[output excel-fil](5472527.xlsx).
 ## **Exempelkod**
 
 

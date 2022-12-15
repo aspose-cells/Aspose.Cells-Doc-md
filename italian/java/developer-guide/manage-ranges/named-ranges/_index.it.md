@@ -6,11 +6,11 @@ url: /it/java/named-ranges/
 ---
 {{% alert color="primary" %}} 
 
-Normalmente, le etichette di colonna e riga vengono utilizzate per fare riferimento a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola**nome** può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quell'intervallo di celle può essere indicato con il suo nome. Utilizzare nomi di facile comprensione, ad esempio Prodotti, per fare riferimento a intervalli di difficile comprensione, ad esempio Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli denominati sono tra le funzionalità più potenti di Microsoft Excel, soprattutto se utilizzati come intervallo di origine per controlli elenco, tabelle pivot, grafici e così via.
+Normalmente, le etichette di colonna e riga vengono utilizzate per fare riferimento a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola**nome** può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quell'intervallo di celle può essere indicato con il suo nome. Utilizzare nomi di facile comprensione, ad esempio Prodotti, per fare riferimento a intervalli di difficile comprensione, ad esempio Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli denominati sono tra le funzionalità più potenti di Microsoft Excel, in particolare se utilizzati come intervallo di origine per controlli elenco, tabelle pivot, grafici e così via.
 
 {{% /alert %}} 
 ## **Creazione di un intervallo denominato**
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 passaggi seguenti descrivono come denominare una cella o un intervallo di celle utilizzando Microsoft Excel. Questo metodo si applica a Microsoft Office Excel 2003, Microsoft Excel 97, 2000 e 2002.
 
 1. Selezionare la cella, l'intervallo di celle a cui si desidera assegnare un nome.
@@ -24,9 +24,9 @@ Non puoi nominare una cella mentre stai modificando il contenuto della cella.
 
 {{% /alert %}} 
 ### **Utilizzando Aspose.Cells**
-Qui, usiamo lo Aspose.Cells API per svolgere l'attività.
+Qui, utilizziamo l'API Aspose.Cells per eseguire l'attività.
 
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione.
 
  È possibile creare un intervallo denominato chiamando l'overloaded[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) ) metodo del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione. Una versione tipica del[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) accetta i seguenti parametri:
 

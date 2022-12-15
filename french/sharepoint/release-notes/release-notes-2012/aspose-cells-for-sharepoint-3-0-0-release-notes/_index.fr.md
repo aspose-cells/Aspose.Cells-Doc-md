@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells pour les notes de publication de SharePoint 3.0.0
+title: Aspose.Cells for SharePoint 3.0.0 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Cette page contient des notes de version pour[Aspose.Cells pour SharePoint 3.0.0](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-3.0.0/)
+ Cette page contient des notes de version pour[Aspose.Cells for SharePoint 3.0.0](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-3.0.0/)
 
 {{% /alert %}} 
 
- Nous sommes heureux d'annoncer Aspose.Cells pour SharePoint v3.0.0 !
+ Nous sommes heureux d'annoncer Aspose.Cells for SharePoint v3.0.0 !
 
  Nouvelles fonctionnalités
 
@@ -24,4 +24,4 @@ url: /fr/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
 - Ajouter une prise en charge
  pour les nouveaux formats (XLSB, MHtml, XPS, TIFF, SVG, DIF) pour la conversion
 - Optimiser Aspose.Cells
- pour le composant SharePoint
+ Composant for SharePoint

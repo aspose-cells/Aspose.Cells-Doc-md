@@ -6,7 +6,7 @@ url: /it/net/setting-column-width-or-row-height/
 ---
 {{% alert color="primary" %}} 
 
-Questo argomento illustra l'impostazione della larghezza della colonna e dell'altezza della riga utilizzando Aspose.Cells.GridDesktop API. A volte, le celle del foglio di lavoro contengono valori più larghi della cella originale. Rende difficile per gli utenti leggere il contenuto della cella. Ad alcuni utenti non piace usare il tasto freccia destra per visualizzare il valore completo in una cella. Per risolvere tali problemi, gli sviluppatori possono modificare la larghezza della colonna. La modifica dell'altezza della riga risolve problemi simili.
+Questo argomento illustra l'impostazione della larghezza della colonna e dell'altezza della riga utilizzando l'API Aspose.Cells.GridDesktop. A volte, le celle del foglio di lavoro contengono valori più larghi della cella originale. Rende difficile per gli utenti leggere il contenuto della cella. Ad alcuni utenti non piace usare il tasto freccia destra per visualizzare il valore completo in una cella. Per risolvere tali problemi, gli sviluppatori possono modificare la larghezza della colonna. La modifica dell'altezza della riga risolve problemi simili.
 
 {{% /alert %}} 
 ## **Impostazione della larghezza della colonna**

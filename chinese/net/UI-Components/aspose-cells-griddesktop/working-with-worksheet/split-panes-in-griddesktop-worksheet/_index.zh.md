@@ -9,6 +9,6 @@ Microsoft Excel 允许您使用视图 > 拆分菜单命令拆分窗格。 Aspose
 ## **GridDesktop 工作表中的拆分窗格**
 以下屏幕截图显示了拆分平面之前和拆分平面之后的 GridDesktop。
 ### **拆分窗格前的 GridDesktop**
-![待办事项：图片_替代_文本](split-panes-in-griddesktop-worksheet_1.png)
+![待办事项：图像_替代_文本](split-panes-in-griddesktop-worksheet_1.png)
 ### **拆分窗格后的 GridDesktop**
-![待办事项：图片_替代_文本](split-panes-in-griddesktop-worksheet_2.png)
+![待办事项：图像_替代_文本](split-panes-in-griddesktop-worksheet_2.png)

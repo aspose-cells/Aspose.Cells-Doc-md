@@ -12,13 +12,13 @@ url: /it/net/umbraco-export-members-to-excel/
 
 Questa versione iniziale del componente aggiuntivo ha le seguenti caratteristiche:
 
-- Esporta membri in documenti Excel Microsoft (.xls, .xlsx e .xlsb)
+- Esporta membri in documenti Microsoft Excel (.xls, .xlsx e .xlsb)
 - Esporta membri in un documento di testo delimitato da tabulazioni (.txt)
 - Esporta membri in CSV (delimitato da virgole) (*.csv)
 - Esporta membri in OpenDocument Spreadsheet (*.ods)
 - Opzione per selezionare il formato di output desiderato prima dell'esportazione
 - Opzione per esportare tutti o membri selezionati nel formato del documento di output selezionato.
-- Funziona con tutte le versioni .NET a partire dalla .NET 2.0.
+- Funziona con tutte le versioni di .NET a partire da .NET 2.0.
 - Il documento esportato viene inviato automaticamente al browser per il download
 - Se selezionato, una copia del documento esportato viene salvata nella cartella App_Data/AsposeMemberExport sul server per un uso successivo.
 -  Compatibile con un'ampia gamma di versioni Umbraco**4.5**+ **comprese le versioni 6 e 7.**

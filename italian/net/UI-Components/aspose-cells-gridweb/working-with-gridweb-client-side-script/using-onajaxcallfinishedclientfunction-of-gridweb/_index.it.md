@@ -8,7 +8,7 @@ url: /it/net/using-onajaxcallfinishedclientfunction-of-gridweb/
 OnAjaxCallFinishedClientFunction è una funzione lato client che viene chiamata quando l'utente copia alcuni dati nel foglio di lavoro GridWeb. Questa funzione è utile quando la maggior parte delle celle viene aggiornata e si desidera tenere traccia di tali celle aggiornate sul lato client (ad esempio nei browser Web come FireFox, Google Chrome ecc.).
 ## **Utilizzando OnAjaxCallFinishedClientFunction di GridWeb**
 Il seguente codice di esempio spiega come utilizzare la funzione client OnAjaxCallFinishedClientFunction. Gli screenshot mostrano l'output della console in Google Chrome e FireFox quando il codice viene eseguito. Una volta eseguito il codice, copiare/incollare alcuni dati che si estendono su più celle all'interno del foglio di lavoro GridWeb e quindi controllare la console del browser Web come mostrato negli screenshot.
-## **Google Uscita console cromata**
+## **Uscita della console di Google Chrome**
 ![cose da fare:immagine_alt_testo](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
 ## **Uscita console FireFox**
 ![cose da fare:immagine_alt_testo](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)

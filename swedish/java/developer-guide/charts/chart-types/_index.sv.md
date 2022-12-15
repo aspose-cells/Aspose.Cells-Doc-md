@@ -6,7 +6,7 @@ url: /sv/java/chart-types/
 ---
 {{% alert color="primary" %}} 
 
-Ett diagram är en visuell visning av information. Aspose.Cells tillåter utvecklare att visualisera information i diagram precis som Microsoft Excel gör. Att presentera information i diagram är alltid till hjälp för beslutsfattare för att fatta snabba och snabba beslut. Det är lättare att snabbt se jämförelser, mönster och trender i data med diagram än råa siffror. Att skapa diagram under körning, baserat på data i ett kalkylblad, är en av Aspose.Cells' mest kraftfulla funktioner.
+Ett diagram är en visuell visning av information. Aspose.Cells tillåter utvecklare att visualisera information i diagram precis som Microsoft Excel gör. Att presentera information i diagram är alltid till hjälp för beslutsfattare för att fatta snabba och snabba beslut. Det är lättare att snabbt se jämförelser, mönster och trender i data med diagram än råa siffror. Att skapa diagram vid körning, baserat på data i ett kalkylblad, är en av Aspose.Cells' mest kraftfulla funktioner.
 
 {{% /alert %}} 
 ## **Diagramtyper**

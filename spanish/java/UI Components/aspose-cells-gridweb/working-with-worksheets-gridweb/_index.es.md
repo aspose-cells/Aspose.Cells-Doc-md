@@ -185,7 +185,7 @@ Los siguientes hipervínculos son compatibles con Aspose.Cells.GridWeb:
 
 #### **Hipervínculos de URL de imagen**
 
-El siguiente ejemplo agrega un hipervínculo de URL de imagen a una hoja de trabajo.
+El siguiente ejemplo agrega un hipervínculo de URL de imagen a una hoja de cálculo.
 
 ![todo:imagen_alternativa_texto](working-with-worksheets-gridweb_7.png)
 

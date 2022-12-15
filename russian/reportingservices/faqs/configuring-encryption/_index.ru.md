@@ -6,11 +6,11 @@ url: /ru/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells для служб Reporting Services поддерживает шифрование, и вы можете отображать зашифрованные Microsoft файлы Excel.
+ Aspose.Cells for Reporting Services поддерживает шифрование, и вы можете отображать зашифрованные Microsoft файлы Excel.
 
 {{% /alert %}} 
 ### **Типы шифрования**
-Aspose.Cells для служб Reporting Services поддерживает шифрование при экспорте файлов Excel. Он поддерживает три типа шифрования:
+Aspose.Cells for Reporting Services поддерживает шифрование при экспорте файлов Excel. Он поддерживает три типа шифрования:
 
 - исключающее ИЛИ
 - СЛАБОЕ ШИФРОВАНИЕ

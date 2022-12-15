@@ -15,7 +15,7 @@ url: /sv/net/get-equation-text-of-chart-trendline/
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
-## C#-kod för att få ekvationstext för diagramtrendlinjen
+## C# kod för att få ekvationstext av diagramtrendlinjen
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetEquationTextOfChartTrendLine-1.cs" >}}
 

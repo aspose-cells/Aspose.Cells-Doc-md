@@ -43,7 +43,7 @@ Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https:
 
 Liste nesnesi, belirtilen hücre aralığına göre çalışma sayfasında Aspose.Cells tarafından oluşturulur.[**Nesne Listesi**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Listeyi kontrol etmek için sınıf.
 
-Aşağıda verilen örnekte, aynısını oluşturduk[**Nesne Listesi**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)yukarıdaki bölümde Microsoft Excel kullanarak oluşturduğumuz gibi Java API üzerinden Python için Aspose.Cells kullanarak.
+Aşağıda verilen örnekte, aynısını oluşturduk[**Nesne Listesi**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Yukarıdaki bölümde Aspose.Cells Excel kullanarak oluşturduğumuz gibi Aspose.Cells for Python via Java API kullanarak.
 
 ## Kaynak kodu
 

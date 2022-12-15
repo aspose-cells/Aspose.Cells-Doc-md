@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Reporting Services 1.8.0 Release Notes
+title: Aspose.Cells for Reporting Services 1.8.0 Release Notes
 type: docs
 weight: 10
 url: /sv/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
 
 {{% /alert %}} 
 
- Vi är glada att meddela Aspose.Cells för Reporting Services v1.8.0. Den innehåller flera förbättringar och löser ett antal korrigeringar.
+ Vi är glada att meddela Aspose.Cells for Reporting Services v1.8.0. Den innehåller flera förbättringar och löser ett antal korrigeringar.
 
  Allmänna funktioner
 
@@ -19,13 +19,13 @@ url: /sv/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 - Stöd för att skydda arbetsbok
 - Stöd för att skydda arbetsblad
 - Lägg till filterfunktion till
- Aspose.Cells för Reporting Services-klientkomponent
+ Aspose.Cells for Reporting Services klientkomponent
 - Inkludera Office 2010 x64
- stöd för Aspose.Cells för Reporting Services-klientkomponent
+ stöd för Aspose.Cells for Reporting Services klientkomponent
 
 
 
-Optimering / Prestanda
+ Optimering / Prestanda
 
 - Aspose.Cells för Rapportering
  Tjänsterna är överlag optimerade vad gäller prestanda
@@ -61,13 +61,13 @@ Optimering / Prestanda
 
 
 - Serverkomponent - Fält slås samman när de renderas som XLSX
-- Serverkomponent - Exportproblem av Aspose.Cells för Reporting Services
+- Serverkomponent - Exportproblem av Aspose.Cells for Reporting Services
 - Serverkomponent - Dold kolumn är synlig efter rendering
 - Serverkomponent - Kolumngrupprubriker saknas
 - Serverkomponent – Problem med implementering av sidbrytning (XL#38567)
 - Serverkomponent - Det går inte att publicera rapporten om en rapport innehåller '*' inom formler
 
-30962 - ServerComponent - Stort avstånd eller gap mellan två tablixar
+ 30962 - ServerComponent - Stort avstånd eller gap mellan två tablixar
 
 - Serverkomponent – Cell:s bakgrundsfärgproblem (XL#CCS) i ReportingServices
 - Serverkomponent - Problem med dynamisk formel och tabellsidfot

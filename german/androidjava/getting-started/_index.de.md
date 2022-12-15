@@ -4,12 +4,12 @@ type: docs
 weight: 10
 url: /de/java/aspose-cells-for-android-via-java-features/
 ---
-## **Aspose.Cells Android über Java Funktionsübersicht**
-Dieser Abschnitt bietet einen Vergleich der Verfügbarkeit von Funktionen zwischen Aspose.Cells for Java und Aspose.Cells für Android über Java.
+## **Aspose.Cells Android via Java Funktionsübersicht**
+Dieser Abschnitt bietet einen Vergleich der Verfügbarkeit von Funktionen zwischen Aspose.Cells for Java und Aspose.Cells for Android via Java.
 ### **Dateiformate und Konvertierungen**
 Viele Kunden weltweit verlassen sich auf die umfassenden Funktionen zum Importieren und Exportieren von Dokumenten, die von Aspose.Cells bereitgestellt werden.
 
-|**Feature**|**Beschreibung**|**Aspose.Cells for Java**|**Aspose.Cells für Android über Java**|
+|**Feature**|**Beschreibung**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |:- |
 |Hochwertige Konvertierungen|Konvertieren Sie schnell und zuverlässig zwischen mehreren gängigen Dokumentformaten.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel-Arbeitsmappe (XLS/XLSB)|Die schnellste und vollständigste XLS/XLSB-Formatimplementierung, die Sie finden können.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -23,7 +23,7 @@ Viele Kunden weltweit verlassen sich auf die umfassenden Funktionen zum Importie
 ### **Rendern und Drucken**
 Aspose.Cells bietet jetzt High-Fidelity-Rendering von Tabellenkalkulationsseiten.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für Android über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Gestalten Sie das Dokument in Seiten mit hoher Wiedergabetreue zu Microsoft Excel® (genau wie Microsoft Excel® das tun würde).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendern Sie Arbeitsblattseiten in Rasterbilder (PNG, JPEG usw.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -33,9 +33,9 @@ Aspose.Cells bietet jetzt High-Fidelity-Rendering von Tabellenkalkulationsseiten
 |Drucken Sie Tabellenkalkulationsseiten mit der Druckinfrastruktur Java.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Aktualisieren Sie Seitenzahlen und andere Felder vor dem Rendern oder Drucken.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Inhaltsfunktionen für Tabellenkalkulationen**
-Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlichen Klassen/Schnittstellen besteht, mit denen Sie geladene Tabellenkalkulationen programmgesteuert generieren, kombinieren, ändern, analysieren oder anderweitig untersuchen können. Einige Hauptmerkmale sind in der folgenden Tabelle aufgeführt.
+Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlichen Klassen/Schnittstellen besteht, mit denen Sie geladene Tabellen programmgesteuert generieren, kombinieren, ändern, analysieren oder anderweitig untersuchen können. Einige Hauptmerkmale sind in der folgenden Tabelle aufgeführt.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für Android über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Import/Export von Daten aus einem Array, ArrayList, ResultSet usw.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Fügen Sie eine Kopie des vorhandenen Arbeitsblatts hinzu (alle Inhalte einschließlich Bilder, Diagramme, andere Objekte usw.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -74,7 +74,7 @@ Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlic
 ### **Formatierungsfunktionen für Tabellenkalkulationen**
 Aspose.Cells bietet detaillierten programmgesteuerten Zugriff auf die Formatierungseigenschaften aller Tabellenkalkulationselemente.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für Android über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Wenden Sie alle Zeichenformatierungen in den Zellen an, einschließlich Schriftarten, Farben, Effekte, Rahmen und Schattierungen.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Wenden Sie alle Zahlenformateinstellungen (unterstützt in Microsoft Excel) für die Zellen an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -88,7 +88,7 @@ Aspose.Cells bietet detaillierten programmgesteuerten Zugriff auf die Formatieru
 ### **PageSetup-Funktionen**
 Sie können Aspose.Cells verwenden, um Seiteneinrichtungsoptionen für Arbeitsblätter zu implementieren.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für Android über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Passen Sie Ihre Seitenausrichtung, Skalierung und Papiergröße an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Geben Sie Ihre Ränder und Seitenzentrierung an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

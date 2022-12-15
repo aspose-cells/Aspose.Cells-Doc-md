@@ -10,7 +10,7 @@ url: /sv/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}}
 
- Följande exempelkod ställer in texten i diagrammets andra förklaringspostfyllning till ingen. Vänligen ladda ner[exempel på excel-fil](5115219.xlsx) används i den här koden och[output excel-fil](5115217.xlsx)genereras av den för din referens.
+ Följande exempelkod ställer in texten i diagrammets andra förklaringspostfyllning till ingen. Vänligen ladda ner[exempel på excel-fil](5115219.xlsx) används i den här koden och[output excel-fil](5115217.xlsx) genereras av den för din referens.
 
 Följande skärmdump belyser effekten av denna kod på[exempel på excel-fil](5115219.xlsx).
 

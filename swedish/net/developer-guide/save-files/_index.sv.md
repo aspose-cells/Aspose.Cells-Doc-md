@@ -13,7 +13,7 @@ Aspose.Cells gör det möjligt att skapa och spara filer. Den här artikeln för
 
 ## **Olika sätt att spara filer**
 
- Aspose.Cells tillhandahåller**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**som representerar en Microsoft Excel-fil och tillhandahåller de egenskaper och metoder som krävs för att arbeta med Excel-filer. De**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**klass ger**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod som används för att spara Excel-filer. De**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Metoden har många överbelastningar som används för att spara filer på olika sätt.
+ Aspose.Cells tillhandahåller**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** som representerar en Microsoft Excel-fil och tillhandahåller de egenskaper och metoder som krävs för att arbeta med Excel-filer. De**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** klass ger**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod som används för att spara Excel-filer. De**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Metoden har många överbelastningar som används för att spara filer på olika sätt.
 
  Filformatet som filen sparas i bestäms av**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkning
 
@@ -38,7 +38,7 @@ Aspose.Cells gör det möjligt att skapa och spara filer. Den här artikeln för
 
 ## **Spara fil i olika format**
 
- För att spara filer till en lagringsplats, ange filnamnet (komplett med lagringssökväg) och önskat filformat (från**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** uppräkning) när du anropar**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objekt**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod.
+ För att spara filer till en lagringsplats, ange filnamnet (komplett med lagringssökväg) och önskat filformat (från**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkning) när du anropar**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objekt**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
@@ -50,7 +50,7 @@ Följande koder visar hur man sparar arbetsbok som pdf-fil med Aspose.Cells:
 
 ## **Spara arbetsbok i text- eller CSV-format**
 
-Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till textformat. För textformat (till exempel TXT, TabDelim, CSV, etc.) sparar både Microsoft Excel och Aspose.Cells endast innehållet i det aktiva kalkylbladet som standard.
+Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till textformat. För textformat (till exempel TXT, TabDelim, CSV, etc.), sparar både Microsoft Excel och Aspose.Cells endast innehållet i det aktiva kalkylbladet som standard.
 
 Följande kodexempel förklarar hur man sparar en hel arbetsbok i textformat. Ladda källarbetsboken som kan vara valfri Microsoft Excel- eller OpenOffice-kalkylarksfil (såsom XLS, XLSX, XLSM, XLSB, ODS och så vidare) med valfritt antal kalkylblad.
 

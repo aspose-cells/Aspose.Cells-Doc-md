@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells för .NET 21.3 Release Notes
+title: Aspose.Cells for .NET 21.3 Release Notes
 type: docs
 weight: 28
 url: /sv/net/aspose-cells-for-net-21-3-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 21.3](https://www.nuget.org/packages/Aspose.Cells/21.3.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 21.3](https://www.nuget.org/packages/Aspose.Cells/21.3.0).
 
 {{% /alert %}}
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47857|Rensar alla sammanslagningsområden på arket|Ny funktion|
-|CELLSNET-47892| Signera Microsoft Signature Line digitalt i Excel-kalkylblad|Förbättring|
-|CELLSNET-47905|Implementera Digest Algorithm av BouncyCastels API|Förbättring|
+|CELLSNET-47892| Signera digitalt Microsoft Signaturrad i Excel-kalkylblad|Förbättring|
+|CELLSNET-47905|Implementera sammanfattningsalgoritm av BouncyCastel's API|Förbättring|
 |CELLSNET-47838|Inbyggd diagramfärgpalett bevaras inte|Förbättring|
 |CELLSNET-47877|Workbook.Settings.RemovePersonalInformation är inte effektiv|Förbättring|
 |CELLSNET-47879|Den genererade filen är skadad när du sparar xls-fil med inbäddad word6.0 doc-fil som xlsx.|Förbättring|
@@ -25,7 +25,7 @@ url: /sv/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47794|Storleken och placeringen av pilformen är felaktig|Insekt|
 |CELLSNET-46469|Chart.RefreshPivotData() tar bort axelnummerformat|Insekt|
 |CELLSNET-47871|Fel rubriker vid rendering av utskriftsområde|Insekt|
-|CELLSNET-47875|MS Excel måste reparera filen efter återspara via Aspose.Cells|Insekt|
+|CELLSNET-47875| MS Excel måste reparera filen efter återspara via Aspose.Cells|Insekt|
 |CELLSNET-47829| Formelberäkningsresultaten skiljer sig när man implementerar cirkulära referenser och iterationer|Insekt|
 |CELLSNET-47865|Aspose.Cells visar felaktigt datum i japanskt format|Insekt|
 |CELLSNET-47872|MS Excel visar ett felmeddelande när en återsparad XLTM-fil öppnas med Aspose.Cells|Insekt|
@@ -53,9 +53,9 @@ url: /sv/net/aspose-cells-for-net-21-3-release-notes/
 |
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till egenskapen SignatureLine.Id.**
 

@@ -14,7 +14,7 @@ Wenn dieses Problem während der Installation auftritt, wird eine UnauthorizedAc
 
 Um dieses Problem zu vermeiden, erteilen Sie Portaladministratoren die Berechtigung zum Verwalten der MySite-Webanwendung:
 
-1.  Gehe zu**SharePoint-Zentraladministration** und wählen Sie die aus**Bewerbungsmanagement** Tab.
+1.  Gehe zu**SharePoint-Zentraladministration**und wählen Sie die aus**Bewerbungsmanagement** Tab.
 1.  Wählen**Richtlinie für Webanwendung** unter dem**Anwendungssicherheit** Gruppe.
 1.  Stellen Sie sicher, dass Sie die richtige Webanwendung für Ihre „Meine Website“ im auswählen**Internetanwendung** Liste rechts.
 1.  Auswählen**Benutzer hinzufügen** oben links.

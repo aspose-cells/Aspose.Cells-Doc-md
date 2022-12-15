@@ -17,7 +17,7 @@ Detta exempel:
 1. Skapar en arbetsbok.
 1. Fyller ett antal celler i det första kalkylbladet med data.
 1.  Skapar en[**Räckvidd**](https://reference.aspose.com/cells/net/aspose.cells/range).
-1.  Skapar en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)objekt med specificerade formateringsattribut.
+1.  Skapar en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt med specificerade formateringsattribut.
 1. Tillämpar stilen på dataintervallet.
 1. Skapar ett andra cellområde.
 1. Kopierar data med formateringen från det första intervallet till det andra intervallet.

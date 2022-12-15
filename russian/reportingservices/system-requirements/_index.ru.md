@@ -6,7 +6,7 @@ url: /ru/reportingservices/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells для Reporting Services (включая клиент Aspose.Cells.ReportingServices, надстройки для Microsoft Excel и Aspose.Cells.ReportingServices Server) необходимо установить правильно. Кроме того, Microsoft SQL Server должен быть установлен до установки Aspose.Cells для служб Reporting Services.
+Aspose.Cells for Reporting Services (включая клиент Aspose.Cells.ReportingServices, надстройки для Microsoft Excel и Aspose.Cells.ReportingServices Server) необходимо установить правильно. Кроме того, Microsoft SQL Server должен быть установлен до установки Aspose.Cells for Reporting Services.
 
 {{% /alert %}} 
 ### **Офисная система**

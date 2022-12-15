@@ -6,7 +6,7 @@ url: /it/python-java/where-to-use-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells è stato creato per aiutare gli sviluppatori a creare e gestire i fogli di calcolo Excel Microsoft a livello di programmazione. Aspose.Cells non comprende solo fogli di calcolo in Microsoft Excel Sheet Format (XLS/XLSX) ma anche molti altri formati di file come Comma Separated Values (CSV), Tab Delimited/TSV (Text), SpreadsheetML ecc.
+Aspose.Cells è stato creato per aiutare gli sviluppatori a creare e gestire fogli di calcolo Microsoft Excel a livello di codice. Aspose.Cells non comprende solo i fogli di calcolo in Microsoft Excel Sheet Format (XLS/XLSX) ma anche molti altri formati di file come Comma Separated Values (CSV), Tab Delimited/TSV (Text), SpreadsheetML ecc.
 
 Aspose.Cells fornisce la maggior parte delle funzionalità disponibili in Microsoft Excel, ma la cosa interessante è che Aspose.Cells può elaborare i file Excel in modo dinamico, il che consente agli sviluppatori di elaborare migliaia o milioni di fogli di calcolo molto rapidamente.
 
@@ -21,7 +21,7 @@ Spetta agli sviluppatori come utilizzare Aspose.Cells, ma ci sono pochi scenari 
  Dopo che i dati sono stati recuperati:
  1. I dati vengono salvati in un database.
  1. Alcuni dati sono presentati nelle pagine web.
- 1. Alcuni aspetti dei fogli di calcolo vengono modificati e salvati nuovamente in file Excel Microsoft.
+ 1. Alcuni aspetti dei fogli di calcolo vengono modificati e salvati nuovamente in file di Microsoft Excel.
 ## **Applicazione web**
 1. Gli utenti inseriscono i dati nelle pagine web.
 1. I dati vengono raccolti dal server web.

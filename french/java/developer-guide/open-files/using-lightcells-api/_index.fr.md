@@ -46,7 +46,7 @@ Aspose.Cells fournissent une interface, LightCellsDataHandler, qui doit être im
 
 Lors de la lecture d'un classeur dans ce mode, startSheet() est vérifié lors de la lecture de chaque feuille de calcul dans le classeur. Pour une feuille, si startSheet() renvoie true, toutes les données et propriétés des cellules des lignes et des colonnes de la feuille sont vérifiées et traitées. Pour chaque ligne, startRow() est appelée pour vérifier si elle doit être traitée. Si une ligne doit être traitée, les propriétés de la ligne sont lues en premier et les développeurs peuvent accéder à ses propriétés avec processRow().
 
-Si les cellules de la ligne doivent également être traitées, alors processRow() renvoie true et startCell() est appelée pour chaque cellule existante de la ligne pour vérifier si elle doit être traitée. Si c'est le cas, processCell() est appelé.
+Si les cellules de la ligne doivent également être traitées, alors processRow() renvoie true et startCell() est appelée pour chaque cellule existante de la ligne pour vérifier si elle doit être traitée. Si c'est le cas, processCell() est appelée.
 
 L'exemple de code suivant illustre ce processus. Le programme lit un gros fichier avec des millions d'enregistrements. Il faut un peu de temps pour lire chaque feuille du cahier. L'exemple de code lit le fichier et récupère le nombre total de cellules, le nombre de chaînes et le nombre de formules pour chaque feuille de calcul.
 

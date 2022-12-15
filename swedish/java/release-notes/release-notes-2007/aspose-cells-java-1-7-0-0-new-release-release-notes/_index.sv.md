@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 1.7.0.0 Releaseinformation för nya versioner
+title: Aspose.Cells Java 1.7.0.0 Releaseinformation för nya utgåvor
 type: docs
 weight: 110
 url: /sv/java/aspose-cells-java-1-7-0-0-new-release-release-notes/
@@ -12,11 +12,11 @@ url: /sv/java/aspose-cells-java-1-7-0-0-new-release-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.7.0!Följande förbättringar och korrigeringar ingår:
+ Vi har släppt Aspose.Cells for Java V1.7.0!Följande förbättringar och korrigeringar ingår:
 
 - Stöder för att öppna/spara csv-formatfil
  Stöder för att lägga till pivottabell
  Förbättrar prestandan för bearbetning av smart markör
  Åtgärdar buggen med att hantera kalkylbladet
- Fixar buggen i diagrammets DataLabels
+Fixar buggen i diagrammets DataLabels
  Andra förbättringar och korrigeringar sedan v1.6

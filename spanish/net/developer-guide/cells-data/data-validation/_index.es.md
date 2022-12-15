@@ -12,7 +12,7 @@ Microsoft Excel proporciona algunas buenas características para filtrar automá
 
 ## **Tipos de validación de datos y ejecución**
 
-La validación de datos es la capacidad de establecer reglas relacionadas con los datos ingresados en una hoja de trabajo. Por ejemplo, utilice la validación para asegurarse de que una columna etiquetada como FECHA contenga solo fechas o que otra columna contenga solo números. Incluso podría asegurarse de que una columna etiquetada como FECHA contenga solo fechas dentro de un cierto rango. Con la validación de datos, puede controlar lo que se ingresa en las celdas de la hoja de trabajo.
+La validación de datos es la capacidad de establecer reglas relacionadas con los datos ingresados en una hoja de cálculo. Por ejemplo, utilice la validación para asegurarse de que una columna etiquetada como FECHA contenga solo fechas o que otra columna contenga solo números. Incluso podría asegurarse de que una columna etiquetada como FECHA contenga solo fechas dentro de un cierto rango. Con la validación de datos, puede controlar lo que se ingresa en las celdas de la hoja de trabajo.
 
 Microsoft Excel admite varios tipos diferentes de validación de datos. Cada tipo se usa para controlar qué tipo de datos se ingresan en una celda o rango de celdas. A continuación, los fragmentos de código ilustran cómo validar eso:
 
@@ -21,7 +21,7 @@ Microsoft Excel admite varios tipos diferentes de validación de datos. Cada tip
 - Los valores están restringidos a una lista de valores. La validación de lista define una lista separada de valores que se pueden aplicar a una celda o rango de celdas.
 - Las fechas caen dentro de un rango específico.
 - Un tiempo está dentro de un rango específico.
-- Un texto está dentro de una longitud de caracteres dada.
+- Un texto está dentro de una longitud de caracteres determinada.
 
 ### **Validación de datos con Microsoft Excel**
 

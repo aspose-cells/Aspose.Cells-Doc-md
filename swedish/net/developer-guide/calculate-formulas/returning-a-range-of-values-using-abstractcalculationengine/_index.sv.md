@@ -14,7 +14,7 @@ url: /sv/net/returning-a-range-of-values-using-abstractcalculationengine/
 
  Följande kod visar användningen av[**AbstractCalculation Engine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) klass och returnerar värdeintervallet via sin metod.
 
-Skapa en klass med en funktion*CalculateCustomFunction*. Denna klass implementerar[**AbstractCalculation Engine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+ Skapa en klass med en funktion*CalculateCustomFunction*. Denna klass implementerar[**AbstractCalculation Engine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

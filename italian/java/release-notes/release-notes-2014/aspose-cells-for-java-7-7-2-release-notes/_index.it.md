@@ -11,7 +11,7 @@ url: /it/java/aspose-cells-for-java-7-7-2-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for Java è stato aggiornato alla versione 7.7.2 e siamo lieti di annunciare che questa versione apporta l'aggiunta di circa 20 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, visualizzare e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Utilizzando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for Java.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells for Java.

@@ -14,7 +14,7 @@ Aspose.Cells API:er tillhandahåller WorkbookDesigner-klassen för att arbeta me
 
 {{% /alert %}} 
 ## **Skapande av designerkalkylblad**
-Ett designerkalkylblad är en enkel Excel-fil skapad med Microsoft Excel-applikationen eller Aspose.Cells API:er som innehåller visuell formatering, formler och smarta markörer, där innehållet ska fyllas i vid körning.
+Ett designerkalkylblad är en enkel Excel-fil skapad med Microsoft Excel-applikation eller Aspose.Cells API:er som innehåller visuell formatering, formler och smarta markörer, där innehållet ska fyllas i under körning.
 
 {{% alert color="primary" %}} 
 
@@ -22,7 +22,7 @@ Ett designerkalkylblad är en enkel Excel-fil skapad med Microsoft Excel-applika
 
 {{% /alert %}} 
 
-För enkelhetens skull kommer vi att skapa designerkalkylarket med hjälp av Aspose.Cells för Java API, och senare bearbeta det mot en dynamiskt skapad datakälla för demonstrationsändamål.
+För enkelhetens skull kommer vi att skapa designerkalkylarket med hjälp av Aspose.Cells for Java API, och senare bearbeta det mot en dynamiskt skapad datakälla för demonstrationsändamål.
 
 **Java**
 

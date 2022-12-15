@@ -8,7 +8,7 @@ description: Este artículo describe cómo ver y editar datos de archivos de Exc
 ---
 {{% alert color="primary" %}}
 
- En[Acceso a Cells de una hoja de trabajo](/cells/es/net/accessing-cells-of-a-worksheet/)discutimos enfoques básicos para acceder a las celdas en una hoja de cálculo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a las celdas.
+ En[Acceso a Cells de una hoja de trabajo](/cells/es/net/accessing-cells-of-a-worksheet/), discutimos enfoques básicos para acceder a las celdas en una hoja de cálculo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a las celdas.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ description: Este artículo describe cómo ver y editar datos de archivos de Exc
 
  Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. Cada artículo en el[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) colección representa un objeto de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)clase.
 
- Aspose.Cells permite a los desarrolladores agregar datos a las celdas de las hojas de trabajo llamando al[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clase'[**poner valor**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) método. Aspose.Cells proporciona versiones sobrecargadas del[**poner valor**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) método que permite a los desarrolladores agregar diferentes tipos de datos a las celdas. Usando estas versiones sobrecargadas del[**poner valor**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)método, es posible agregar valores booleanos, de cadena, dobles, enteros o de fecha/hora, etc. a la celda.
+Aspose.Cells permite a los desarrolladores agregar datos a las celdas de las hojas de trabajo llamando al[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clase'[**poner valor**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) método. Aspose.Cells proporciona versiones sobrecargadas del[**poner valor**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) método que permite a los desarrolladores agregar diferentes tipos de datos a las celdas. Usando estas versiones sobrecargadas del[**poner valor**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)método, es posible agregar valores booleanos, de cadena, dobles, enteros o de fecha/hora, etc. a la celda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
@@ -39,9 +39,9 @@ description: Este artículo describe cómo ver y editar datos de archivos de Exc
 
  Cuando un campo no está lleno, las celdas con[**valor doble**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) o[**valor flotante**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)lanza una excepción.
 
-El tipo de datos contenidos en una celda también se puede verificar usando el[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clase'[**Escribe**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) propiedad. De hecho, el[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clase'[**Escribe**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) propiedad se basa en la[**Tipo de valor de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)enumeración cuyos valores predefinidos se enumeran a continuación:
+ El tipo de datos contenidos en una celda también se puede verificar usando el[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clase'[**Escribe**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) propiedad. De hecho, el[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clase'[**Escribe**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) propiedad se basa en la[**Tipo de valor de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)enumeración cuyos valores predefinidos se enumeran a continuación:
 
-|**Cell Tipos de valores**|**Descripción**|
+|**Cell Tipos de valor**|**Descripción**|
 |:- |:- |
 |esBool|Especifica que el valor de la celda es booleano.|
 |esfechahora|Especifica que el valor de la celda es fecha/hora.|

@@ -12,7 +12,7 @@ Aspose.Cells ile geliştiriciler, Microsoft Excel'de olduğu gibi aynı esnek ş
 
 ### **Cells'e Kenarlık Ekleme**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
+ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
 
  Aspose.Cells şunları sağlar:[**Stil Al**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)yöntemi[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf. bu[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)Yöntem, bir hücrenin biçimlendirme stilini ayarlamak için kullanılır. bu[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style)class, hücrelere kenarlık eklemek için özellikler sağlar.
 
@@ -26,7 +26,7 @@ Geliştiriciler, kullanarak bir hücreye kenarlıklar ekleyebilir[**stil**](http
 |:- |:- |
 |Alt sınır|Bir alt sınır çizgisi|
 |Çapraz Aşağı|Sol üstten sağ alta çapraz bir çizgi|
-|çapraz Yukarı|Sol alttan sağ üste çapraz bir çizgi|
+|çapraz yukarı|Sol alttan sağ üste çapraz bir çizgi|
 |Sol Sınır|Bir sol sınır çizgisi|
 |Sağ Sınır|Sağ sınır çizgisi|
 |Üst Sınır|Bir üst sınır çizgisi|

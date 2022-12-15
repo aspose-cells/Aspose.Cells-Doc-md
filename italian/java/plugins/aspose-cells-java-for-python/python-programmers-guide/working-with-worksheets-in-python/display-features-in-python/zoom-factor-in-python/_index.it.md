@@ -5,9 +5,9 @@ weight: 80
 url: /it/java/zoom-factor-in-python/
 ---
 ## **Aspose.Cells - Fattore di ingrandimento**
- Per impostare il fattore di zoom utilizzando**Aspose.Cells Java per Python** , semplicemente invocare**Fattore di zoom** modulo.
+ Per impostare il fattore di zoom utilizzando**Aspose.Cells Giava for Python** , semplicemente invocare**Fattore di zoom** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 

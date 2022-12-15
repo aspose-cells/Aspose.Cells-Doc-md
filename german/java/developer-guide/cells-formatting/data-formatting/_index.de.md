@@ -173,7 +173,7 @@ Die folgende Ausgabe wird erreicht, wenn der Drehwinkel auf 25 eingestellt ist.
 
 
 
-### **Textkontrolle**
+### **Textsteuerung**
 Im folgenden Abschnitt wird erläutert, wie Sie Text steuern, indem Sie Textumbruch, Anpassen verkleinern und andere Formatierungsoptionen festlegen.
 #### **Textumbruch**
 Das Umbrechen von Text in einer Zelle erleichtert das Lesen: Die Höhe der Zelle passt sich an den gesamten Text an, anstatt ihn abzuschneiden oder in benachbarte Zellen zu überlaufen.

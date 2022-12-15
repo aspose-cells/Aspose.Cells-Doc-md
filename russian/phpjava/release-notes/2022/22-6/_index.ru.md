@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для PHP через Java 22.6 Примечания к выпуску
+title: Aspose.Cells for PHP via Java 22.6 Примечания к выпуску
 type: docs
 weight: 7
 url: /ru/php-java/aspose-cells-for-php-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для PHP через Java 22.6](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.6/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for PHP via Java 22.6](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.6/).
 
 {{% /alert %}}
 

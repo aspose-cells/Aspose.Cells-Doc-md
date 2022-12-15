@@ -6,15 +6,15 @@ url: /de/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- EIN*Pivot-Tabelle* ist eine interaktive Tabelle, die Daten zusammenfasst und sinnvoll darstellt. SQL Server Reporting Services kann einen Bericht nicht in das Microsoft Excel-Format exportieren, während eine Pivot-Tabelle beibehalten wird. Berichtsbenutzer müssen Pivot-Tabellen jedes Mal manuell erstellen, wenn sie einen Pivot-Tabellenbericht von Reporting Services nach Microsoft Excel exportieren. Mit Aspose.Cells für Reporting Services können Sie einmalig zur Entwurfszeit des Berichts eine Pivot-Tabelle entwerfen. Jedes Mal, wenn der Bericht ausgeführt wird, exportiert Aspose.Cells für Reporting Services den Bericht nach Microsoft Excel und aktualisiert die Daten in der Pivot-Tabelle.
+ EIN*Pivot-Tabelle* ist eine interaktive Tabelle, die Daten zusammenfasst und sinnvoll darstellt. SQL Server Reporting Services kann einen Bericht nicht in das Microsoft Excel-Format exportieren, während eine Pivot-Tabelle beibehalten wird. Berichtsbenutzer müssen Pivot-Tabellen jedes Mal manuell erstellen, wenn sie einen Pivot-Tabellenbericht von Reporting Services nach Microsoft Excel exportieren. Mit Aspose.Cells for Reporting Services können Sie einmalig zur Entwurfszeit des Berichts eine Pivot-Tabelle entwerfen. Jedes Mal, wenn der Bericht ausgeführt wird, exportiert Aspose.Cells for Reporting Services den Bericht nach Microsoft Excel und aktualisiert die Daten in der Pivot-Tabelle.
 
 {{% /alert %}} 
 
 So erstellen Sie einen Pivot-Tabellenbericht:
 
 1. Erstellen Sie ein Dataset als Datenquelle für die Pivot-Tabelle.
-Unten verwenden wir die AdventureWorks-Beispieldatenbank, die im Lieferumfang von SQL Server Reporting Services 2005 enthalten ist, und erstellen ein Dataset mit dem Namen „Sales“.
- Die SQL für das Dataset lautet wie folgt:
+ Unten verwenden wir die AdventureWorks-Beispieldatenbank, die im Lieferumfang von SQL Server Reporting Services 2005 enthalten ist, und erstellen ein Dataset mit dem Namen „Sales“.
+Die SQL für das Dataset lautet wie folgt:
 
 **SQL**
 
@@ -106,7 +106,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-Die entworfene Pivot-Tabelle ist unten dargestellt.
+ Die entworfene Pivot-Tabelle ist unten dargestellt.
 
 ![todo: Bild_alt_Text](working-with-pivottable_7.png)
 

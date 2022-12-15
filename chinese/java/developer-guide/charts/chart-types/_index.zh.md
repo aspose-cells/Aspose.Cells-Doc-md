@@ -25,7 +25,7 @@ Aspose.Cells 几乎支持 Microsoft Excel 支持的所有图表类型。图表�
 
 **Microsoft Excel 中支持的柱形图** 
 
-![待办事项：图片_替代_文本](chart-types_1.png)
+![待办事项：图像_替代_文本](chart-types_1.png)
 
 Aspose.Cells 支持以下柱形图：
 
@@ -41,7 +41,7 @@ Aspose.Cells 支持以下柱形图：
 
 **Microsoft Excel 中支持的条形图** 
 
-![待办事项：图片_替代_文本](chart-types_2.png)
+![待办事项：图像_替代_文本](chart-types_2.png)
 
 Aspose.Cells 支持以下条形图：
 
@@ -56,7 +56,7 @@ Aspose.Cells 支持以下条形图：
 
 **Microsoft Excel 中支持的折线图** 
 
-![待办事项：图片_替代_文本](chart-types_3.png)
+![待办事项：图像_替代_文本](chart-types_3.png)
 
 Aspose.Cells 支持以下折线图：
 
@@ -78,7 +78,7 @@ Aspose.Cells 支持以下折线图：
 
 **Microsoft Excel 支持饼图** 
 
-![待办事项：图片_替代_文本](chart-types_4.png)
+![待办事项：图像_替代_文本](chart-types_4.png)
 
 Aspose.Cells 支持以下饼图：
 
@@ -93,7 +93,7 @@ Aspose.Cells 支持以下饼图：
 
 **Microsoft Excel 中支持的散点图** 
 
-![待办事项：图片_替代_文本](chart-types_5.png)
+![待办事项：图像_替代_文本](chart-types_5.png)
 
 Aspose.Cells支持以下散点图：
 
@@ -107,7 +107,7 @@ Aspose.Cells支持以下散点图：
 
 **Microsoft Excel 支持的面积图** 
 
-![待办事项：图片_替代_文本](chart-types_6.png)
+![待办事项：图像_替代_文本](chart-types_6.png)
 
 Aspose.Cells 支持以下面积图：
 
@@ -122,7 +122,7 @@ Aspose.Cells 支持以下面积图：
 
 **Microsoft Excel 支持圆环图** 
 
-![待办事项：图片_替代_文本](chart-types_7.png)
+![待办事项：图像_替代_文本](chart-types_7.png)
 
 Aspose.Cells 支持以下圆环图：
 
@@ -133,7 +133,7 @@ Aspose.Cells 支持以下圆环图：
 
 **Microsoft Excel 中支持的雷达图** 
 
-![待办事项：图片_替代_文本](chart-types_8.png)
+![待办事项：图像_替代_文本](chart-types_8.png)
 
 Aspose.Cells 支持以下雷达图：
 
@@ -145,7 +145,7 @@ Aspose.Cells 支持以下雷达图：
 
 **Microsoft Excel 支持的表面 3D 图表** 
 
-![待办事项：图片_替代_文本](chart-types_9.png)
+![待办事项：图像_替代_文本](chart-types_9.png)
 
 Aspose.Cells 支持以下表面 3D 图表：
 
@@ -158,7 +158,7 @@ Aspose.Cells 支持以下表面 3D 图表：
 
 **Microsoft Excel 中支持的气泡图** 
 
-![待办事项：图片_替代_文本](chart-types_10.png)
+![待办事项：图像_替代_文本](chart-types_10.png)
 
 Aspose.Cells 支持以下气泡图：
 
@@ -169,7 +169,7 @@ Aspose.Cells 支持以下气泡图：
 
 **Microsoft Excel 支持的股票图表** 
 
-![待办事项：图片_替代_文本](chart-types_11.png)
+![待办事项：图像_替代_文本](chart-types_11.png)
 
 Aspose.Cells 支持以下股票图表：
 
@@ -182,7 +182,7 @@ Aspose.Cells 支持以下股票图表：
 
 **Microsoft Excel 中支持的柱面图** 
 
-![待办事项：图片_替代_文本](chart-types_12.png)
+![待办事项：图像_替代_文本](chart-types_12.png)
 
 Aspose.Cells 支持以下柱面图：
 
@@ -196,7 +196,7 @@ Aspose.Cells 支持以下柱面图：
 #### **圆锥图**
 这些图表类型使用锥形数据标记为柱形图、条形图和 3D 柱形图提供戏剧性的效果。
 
-![待办事项：图片_替代_文本](chart-types_13.png)
+![待办事项：图像_替代_文本](chart-types_13.png)
 
 
 **Microsoft Excel 中支持的圆锥图**
@@ -215,7 +215,7 @@ Aspose.Cells 支持以下圆锥图：
 
 **Microsoft Excel 中支持的金字塔图表** 
 
-![待办事项：图片_替代_文本](chart-types_14.png)
+![待办事项：图像_替代_文本](chart-types_14.png)
 
 Aspose.Cells 支持以下金字塔图：
 

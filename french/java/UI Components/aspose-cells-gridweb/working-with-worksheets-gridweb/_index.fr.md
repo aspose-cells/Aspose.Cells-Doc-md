@@ -164,7 +164,7 @@ Pour supprimer un commentaire :
 
 ## **Gestion des hyperliens dans la feuille de calcul**
 
-Cette rubrique explique quels types de liens hypertexte sont pris en charge dans Aspose.Cells.GridWeb et comment les gérer par programmation. Les hyperliens peuvent être utilisés pour créer des liens vers des URL Web ou pour effectuer une publication sur un serveur.
+Cette rubrique explique quels types de liens hypertexte sont pris en charge dans Aspose.Cells.GridWeb et comment les gérer par programme. Les hyperliens peuvent être utilisés pour créer des liens vers des URL Web ou pour effectuer une publication sur un serveur.
 
 ### **Types d'hyperliens**
 
@@ -201,7 +201,7 @@ Aspose.Cells.GridWeb permet aux développeurs de trier les données horizontalem
 
 ### **Du haut jusqu'en bas**
 
-Pour trier les données de haut en bas :
+Pour trier les données de haut en bas :
 
 1. Ajoutez le contrôle Aspose.Cells.GridWeb à votre formulaire Web.
 1. Accédez à la feuille de calcul que vous souhaitez trier.

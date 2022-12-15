@@ -23,7 +23,7 @@ url: /it/net/aspose-cells-for-net-19-1-release-notes/
 |CELLSNET-46535|"#NOME?" per formule salvate in formato XLSB|Insetto|
 |CELLSNET-46539|Formula con distinzione tra maiuscole e minuscole|Insetto|
 |CELLSNET-46531|La ridenominazione di ListColumns corrompe la cartella di lavoro (quando è presente una tabella pivot)|Insetto|
-|CELLSNET-46511|TIFF creato con pagine bianche extra|Insetto|
+|CELLSNET-46511|TIFF creato con pagine bianche aggiuntive|Insetto|
 |CELLSNET-46522|Applicazione delle impostazioni internazionali per stampare le intestazioni di configurazione|Insetto|
 |CELLSNET-46529|Immagine mancante dopo la conversione da XLSX a PDF|Insetto|
 |CELLSNET-46451|Problema durante il rendering del file modello in formato file PDF|Insetto|
@@ -36,8 +36,8 @@ url: /it/net/aspose-cells-for-net-19-1-release-notes/
 |CELLSNET-46459|Viene sollevata un'eccezione durante la conversione nel formato Open Strict XML|Eccezione|
 |CELLSNET-46485|Eccezione durante il caricamento di un formato di file XLSB|Eccezione|
 |CELLSNET-46508|Eccezione durante il caricamento di un formato di file XLSM|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo PivotTable.ShowReportFilterPageByName(string fieldName).**
 Mostra tutte le pagine del filtro del report in base al nome del PivotField, il PivotField deve trovarsi nei PageField.
 #### **Aggiunge il metodo PivotTable.ShowReportFilterPageByIndex(int posIndex).**

@@ -6,11 +6,11 @@ url: /sv/cpp/aspose-cells-for-cpp-22-2-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för C++ 22.2 för Linux.
+Den här sidan innehåller utgåvor för Aspose.Cells for C++ 22.2 för Linux.
 
 {{% /alert %}} 
 
-Vi är glada att kunna meddela lanseringen av Aspose.Cells för C++ 22.2 för Linux.
+Vi är glada att kunna meddela lanseringen av Aspose.Cells for C++ 22.2 för Linux.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |

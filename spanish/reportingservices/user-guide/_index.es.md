@@ -20,4 +20,4 @@ url: /es/reportingservices/user-guide/
 - [Informe de vista previa](/cells/es/reportingservices/previewing-report/)
 - [Configuración](/cells/es/reportingservices/configuration/)
 - [Trabajar con formulario Dyn-Hide](/cells/es/reportingservices/working-with-dyn-hide-form/)
-- [Trabajar con atributos de ocultación de tablas](/cells/es/reportingservices/working-with-table-hide-attributes/)
+- [Trabajar con atributos de ocultación de tabla](/cells/es/reportingservices/working-with-table-hide-attributes/)

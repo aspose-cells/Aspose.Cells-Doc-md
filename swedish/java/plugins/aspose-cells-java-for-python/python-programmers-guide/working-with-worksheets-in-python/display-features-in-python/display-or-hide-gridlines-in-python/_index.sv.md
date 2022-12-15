@@ -8,7 +8,7 @@ url: /sv/java/display-or-hide-gridlines-in-python/
 ### **Dölja rutnät**
  För att dölja kalkylblad med**Aspose.Cells Java för Ruby** , ringa upp**visahidegridlines** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 
@@ -36,7 +36,7 @@ print "Grid lines are now hidden on sheet 1, please check the output document."
 ### **Gör rutnät synliga**
 För att göra rutnätslinjer synliga, använd arbetsbladsklassens setGridlinesVisible(true) metod.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

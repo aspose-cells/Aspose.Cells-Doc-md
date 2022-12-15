@@ -42,7 +42,7 @@ url: /de/net/aspose-cells-for-net-5-0-0-release-notes/
 
  Bemerkenswerte Änderungen für die Benutzer:
 
- Während wir versuchen, die API so einfach und klar wie möglich zu halten, haben wir uns entschieden, die gemeinsamen Entwicklungspraktiken der Plattform anzuerkennen und zu würdigen; wir haben API Struktur/ Namensräume neu geordnet.
+ Während wir versuchen, die API so unkompliziert und klar wie möglich zu halten, haben wir uns entschieden, die gemeinsamen Entwicklungspraktiken der Plattform anzuerkennen und zu würdigen; wir haben API Struktur/ Namensräume neu geordnet.
 
 Mit dieser Version, dh Aspose.Cells for .NET v5.0.0, haben wir die API-Klassen für die Aspose.Cells-Komponente neu organisiert. Diese Änderung hat einige wichtige Aspekte, die wir verfolgen. Wir haben neue Namespaces hinzugefügt. Die gesamten API (Klassen, Interfaces, Enumerationen, Strukturen etc.) befanden sich bisher im Namensraum Aspose.Cells. Jetzt wurden bestimmte Sätze von API in ihre relativen Namensräume verschoben, wodurch die Beziehung zwischen Klassen (mit ihren Mitgliedern) und Namensräumen klarer und einfacher wird.
 

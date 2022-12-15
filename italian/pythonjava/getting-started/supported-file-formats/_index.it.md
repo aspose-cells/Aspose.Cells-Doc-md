@@ -37,5 +37,5 @@ url: /it/python-java/supported-file-formats/
 |[RITARDO](https://docs.fileformat.com/word-processing/md/)|Rappresenta un documento markdown.||{{< emoticons/tick >}}|
 |[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Un formato basato su XML utilizzato da OpenOffice e StarOffice|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Questo è un formato Open Document memorizzato come flat XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DOCX](https://docs.fileformat.com/word-processing/docx/)|Un formato ben noto per i documenti Word Microsoft che è una combinazione di file XML e binari.||{{< emoticons/tick >}}|
-|[PPTX](https://docs.fileformat.com/presentation/pptx/)|Il formato PPTX si basa sul formato di file di presentazione XML aperto Microsoft PowerPoint.||{{< emoticons/tick >}}|
+|[DOCX](https://docs.fileformat.com/word-processing/docx/)|Un formato ben noto per i documenti di Microsoft Word che è una combinazione di file XML e binari.||{{< emoticons/tick >}}|
+|[PPTX](https://docs.fileformat.com/presentation/pptx/)|Il formato PPTX si basa sul formato di file di presentazione XML aperto di Microsoft PowerPoint.||{{< emoticons/tick >}}|

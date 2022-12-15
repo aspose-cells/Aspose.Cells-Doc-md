@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 为 Python 通过 Java 21.6 发行说明
+title: Aspose.Cells for Python via Java 21.6 发行说明
 type: docs
 weight: 7
 url: /zh/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含发行说明[Aspose.Cells 为 Python 通过 Java 21.6](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.6/).
+此页面包含发行说明[Aspose.Cells for Python via Java 21.6](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -33,7 +33,7 @@ url: /zh/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 
 ## **公共 API 和向后不兼容的更改**
 
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及通过 Java 对 Aspose.Cells 为 Python 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Python via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 
 ### **更改 Cell.IsErrorValue 属性的行为。**
 

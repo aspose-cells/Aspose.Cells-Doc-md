@@ -7,8 +7,8 @@ url: /ar/sharepoint/product-overview/
 {{% alert color="primary" %}} 
 
 ![ما يجب القيام به: image_بديل_نص](product-overview_1)
-### **مرحبًا بك في Aspose.Cells لوثائق SharePoint!**
-Aspose.Cells لـ SharePoint هو حل مرن يدعم تحويل جداول البيانات مما يجعل من الممكن تحويل مستندات MS Excel ضمن تطبيقات SharePoint Microsoft.
+### **مرحبًا بكم في التوثيق Aspose.Cells for SharePoint!**
+Aspose.Cells for SharePoint هو حل مرن يدعم تحويل جداول البيانات الذي يجعل من الممكن تحويل مستندات MS Excel ضمن تطبيقات SharePoint Microsoft.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Aspose.Cells لـ SharePoint هو حل مرن يدعم تحويل جداول ا�
 - SVG - رسومات موجهة قابلة للتحجيم
 - DIF - تنسيق تبادل الرسم
 
-تم تصميم Aspose.Cells لـ SharePoint ليتم استخدامه مع المنتجات التالية:
+تم تصميم Aspose.Cells for SharePoint ليتم استخدامه مع المنتجات التالية:
 
 - Windows SharePoint Services 3.0 (WSS)
 - Microsoft Office SharePoint Server 2007 (MOSS) Standard
@@ -43,9 +43,9 @@ Aspose.Cells لـ SharePoint هو حل مرن يدعم تحويل جداول ا�
 
 لا توجد متطلبات نظام إضافية بخلاف المنتجات المذكورة أعلاه.
 
- تصف هذه الوثائق[الميزات](/cells/ar/sharepoint/features/), [تثبيت](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/), [تقييم](/cells/ar/sharepoint/evaluate-aspose-cells/), [الترخيص](/cells/ar/sharepoint/license-aspose-cells-for-sharepoint/)وحالات الاستخدام الشائعة وإعدادات Aspose.Cells لـ SharePoint.
+ تصف هذه الوثائق[الميزات](/cells/ar/sharepoint/features/), [تثبيت](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/), [تقييم](/cells/ar/sharepoint/evaluate-aspose-cells/), [الترخيص](/cells/ar/sharepoint/license-aspose-cells-for-sharepoint/)وحالات الاستخدام الشائعة وإعدادات Aspose.Cells for SharePoint.
 
-**استخدم Aspose.Cells لـ SharePoint من مكتبة مستندات SharePoint لتحويل المستندات**
+**استخدم Aspose.Cells for SharePoint من مكتبة مستندات SharePoint لتحويل المستندات**
 
 **! [todo: image_alt_text] (product-Overview_2.png)**
 

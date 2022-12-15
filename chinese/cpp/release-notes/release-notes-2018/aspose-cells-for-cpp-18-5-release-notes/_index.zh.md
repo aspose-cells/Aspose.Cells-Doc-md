@@ -16,7 +16,7 @@ url: /zh/cpp/aspose-cells-for-cpp-18-5-release-notes/
 |CELLSCPP-123 |字形哈希表问题|漏洞|
 |CELLSCPP-124 |将图表转换为 PDF 时轴网格线颜色问题|漏洞|
 ### **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells 为 C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 
 {{% alert color="primary" %}} 
 

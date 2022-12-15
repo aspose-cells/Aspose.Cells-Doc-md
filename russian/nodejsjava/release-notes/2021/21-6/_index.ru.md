@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Node.js через Java 21.6 Примечания к выпуску
+title: Aspose.Cells for Node.js via Java 21.6 Примечания к выпуску
 type: docs
 weight: 7
 url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для Node.js через Java 21.6](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Node.js via Java 21.6](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -33,7 +33,7 @@ url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-21-6-release-notes/
 
 ## **Public API и обратно несовместимые изменения**
 
-Ниже приведен список любых изменений, внесенных в общедоступный API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с обратной совместимостью изменения, внесенные в Aspose.Cells для Node.js через Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений , пожалуйста, поднимите его на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Node.js via Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом. на форуме поддержки Aspose.Cells.
 
 ### **Изменяет поведение свойства Cell.IsErrorValue.**
 

@@ -8,7 +8,7 @@ description: Lär dig hur du skapar en tidslinje med Aspose.Cells för java.
 ---
 ## **Möjliga användningsscenarier**
 
-Istället för att justera filter för att visa datum kan du använda en PivotTable Timeline——ett dynamiskt filteralternativ som låter dig enkelt filtrera efter datum/tid och zooma in på den period du vill med en skjutreglage. Microsoft Excel låter dig skapa tidslinje genom att välja en pivottabell och sedan klicka på*Infoga > Tidslinje*. Aspose.Cells för java låter dig också skapa tidslinje med metoden [**Worksheet.getTimelines.add()**].
+ Istället för att justera filter för att visa datum kan du använda en PivotTable Timeline——ett dynamiskt filteralternativ som låter dig enkelt filtrera efter datum/tid och zooma in på den period du vill med en skjutreglage. Microsoft Excel låter dig skapa en tidslinje genom att välja en pivottabell och sedan klicka på*Infoga > Tidslinje*. Aspose.Cells för java låter dig också skapa tidslinje med metoden [**Worksheet.getTimelines.add()**].
 
 ## **Skapa tidslinje till en pivottabell**
 

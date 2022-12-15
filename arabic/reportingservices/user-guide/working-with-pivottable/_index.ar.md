@@ -6,15 +6,15 @@ url: /ar/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- أ*جدول محوري* هو جدول تفاعلي يلخص البيانات ويعرضها بطريقة هادفة. لا يمكن لـ SQL Server Reporting Services تصدير تقرير إلى تنسيق Microsft Excel مع الاحتفاظ بالجدول المحوري. يتعين على المستخدمين إنشاء جداول محورية يدويًا في كل مرة يقومون فيها بتصدير تقرير جدول محوري من Reporting Services إلى Microsoft Excel. باستخدام Aspose.Cells لخدمات التقارير ، يمكنك تصميم جدول محوري مرة واحدة في وقت تصميم التقرير. في كل مرة يتم تشغيل التقرير ، يقوم Aspose.Cells الخاص بـ Reporting Services بتصدير التقرير إلى Microsoft Excel وتحديث البيانات في الجدول المحوري.
+ أ*جدول محوري* هو جدول تفاعلي يلخص البيانات ويعرضها بطريقة هادفة. لا يمكن لـ SQL Server Reporting Services تصدير تقرير إلى تنسيق Microsft Excel مع الاحتفاظ بالجدول المحوري. يتعين على المستخدمين إنشاء جداول محورية يدويًا في كل مرة يقومون فيها بتصدير تقرير جدول محوري من Reporting Services إلى Microsoft Excel. باستخدام Aspose.Cells for Reporting Services ، يمكنك تصميم جدول محوري مرة واحدة في وقت تصميم التقرير. في كل مرة يتم تشغيل التقرير ، يقوم Aspose.Cells for Reporting Services بتصدير التقرير إلى Microsoft Excel وتحديث البيانات في الجدول المحوري.
 
 {{% /alert %}} 
 
 لإنشاء تقرير جدول محوري:
 
 1. أنشئ مجموعة بيانات كمصدر بيانات للجدول المحوري.
-أدناه ، نستخدم نموذج قاعدة بيانات AdventureWorks التي تأتي مع SQL Server Reporting Services 2005 وإنشاء مجموعة بيانات باسم "المبيعات".
- يكون SQL لمجموعة البيانات كما يلي:
+ أدناه ، نستخدم نموذج قاعدة بيانات AdventureWorks التي تأتي مع SQL Server Reporting Services 2005 وإنشاء مجموعة بيانات باسم "المبيعات".
+يكون SQL لمجموعة البيانات كما يلي:
 
 **SQL**
 
@@ -106,7 +106,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-يتم عرض الجدول المحوري المصمم أدناه.
+ يتم عرض الجدول المحوري المصمم أدناه.
 
 ![ما يجب القيام به: image_بديل_نص](working-with-pivottable_7.png)
 

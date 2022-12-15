@@ -3,12 +3,12 @@ title: Rimuovi connessione pivot
 type: docs
 weight: 30
 url: /it/java/remove-pivot-connection/
-description: Scopri come rimuovere la connessione pivot con la libreria Aspose.Cells Java.
+description: Scopri come rimuovere la connessione pivot con la libreria Java Aspose.Cells.
 keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
 ---
 ## **Possibili scenari di utilizzo**
 
-Se si desidera disassociare l'affettatrice e la tabella pivot in Excel, è necessario fare clic con il pulsante destro del mouse sull'affettatrice e selezionare l'elemento "Segnala connessioni...". Nell'elenco delle opzioni è possibile operare sulla casella di controllo. Allo stesso modo, se si desidera disassociare affettatrice e tabella pivot utilizzando Aspose.Cells API a livello di codice, utilizzare il[**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) metodo. Disassocerà l'affettatrice e la tabella pivot.
+Se si desidera disassociare l'affettatrice e la tabella pivot in Excel, è necessario fare clic con il pulsante destro del mouse sull'affettatrice e selezionare l'elemento "Segnala connessioni...". Nell'elenco delle opzioni è possibile operare sulla casella di controllo. Allo stesso modo, se desideri disassociare l'affettatrice e la tabella pivot utilizzando l'API Aspose.Cells a livello di codice, utilizza il[**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) metodo. Disassocerà l'affettatrice e la tabella pivot.
 
 ## **Rimozione dell'affettatrice**
 

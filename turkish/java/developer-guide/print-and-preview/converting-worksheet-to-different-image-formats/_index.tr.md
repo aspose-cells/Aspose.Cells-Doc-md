@@ -14,7 +14,7 @@ Aspose.Cells, çalışma kitabından bir çalışma sayfasını dışa aktarman�
 
 Bazen, bir çalışma sayfasının resmini kaydetmek yararlıdır. Görüntüler çevrimiçi olarak paylaşılabilir, diğer belgelere eklenebilir (örneğin, Microsoft Word'de yazılan raporlar veya PowerPoint sunumları).
 
-Aspose.Cells üzerinden görüntü aktarımı sağlar**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** sınıf. Bu sınıf, bir görüntüye dönüştürülecek çalışma sayfasını temsil eder. bu**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**sınıf sağlar**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**çalışma sayfasını görüntü dosyasına dönüştürme yöntemi. BMP, PNG, JPEG, TIFF ve EMF biçimleri desteklenir.
+Aspose.Cells üzerinden görüntü aktarımı sağlar**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** sınıf. Bu sınıf, bir görüntüye dönüştürülecek çalışma sayfasını temsil eder. bu**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** sınıf sağlar**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**çalışma sayfasını görüntü dosyasına dönüştürme yöntemi. BMP, PNG, JPEG, TIFF ve EMF biçimleri desteklenir.
 
 {{% alert color="primary" %}}
 

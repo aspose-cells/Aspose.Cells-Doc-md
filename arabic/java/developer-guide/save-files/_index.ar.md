@@ -117,7 +117,7 @@ url: /ar/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 يوفر Aspose.Cells API دعمًا لتصدير جداول البيانات إلى تنسيق Markdown. لتصدير ورقة العمل النشطة إلى Markdown ، قم بتمرير[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)كمعامل ثاني لـ[**المصنف**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) طريقة. يمكنك أيضًا استخدام ملفات[**Markdown حفظ الخيارات**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى Markdown.
 
-يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى Markdown باستخدام[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)عضو التعداد. الرجاء مراجعة[إخراج ملف Markdown](Book1.txt)تم إنشاؤها بواسطة رمز كمرجع.
+يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى Markdown باستخدام[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)عضو التعداد. الرجاء مراجعة[إخراج ملف Markdown](Book1.txt)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.java" >}}
 

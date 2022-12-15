@@ -1,12 +1,12 @@
 ﻿---
-title: Java 18.3 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 18.3 Sürüm Notları
 type: docs
 weight: 40
 url: /tr/java/aspose-cells-for-android-via-java-18-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 18.3 aracılığıyla Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 18.3 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ Bu sayfa, Java 18.3 aracılığıyla Android için Aspose.Cells için sürüm no
 |CELLSJAVA-42522|Aspose.Cells aracılığıyla dosyayı açarken ArrayIndexOutOfBoundsException|İstisna|
 |CELLSJAVA-42517|Bir ODS dosyası yüklenirken "com.aspose.cells.CellsException: Geçersiz formül:" istisnası|İstisna|
 # **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 #### **LoadOptions.ParsingPivotCachedRecords özelliğini ekler**
 Dosya yüklenirken pivot önbelleğe alınan kayıtların ayrıştırılıp ayrıştırılmayacağını belirtir.Varsayılan değer false'tur.Yalnızca Excel Xlsx, Xltx, Xltm, Xlsm ve Xlsb dosya biçimleri için geçerlidir.
 #### **HtmlSaveOptions.ExcludeUnusedStyles özelliğini ekler**
@@ -112,6 +112,6 @@ Oluştururken ilgili Şekli alır.
 
 {{% alert color="primary" %}} 
 
-Java üzerinden Android için Aspose.Cells kod tabanı, ilgili .NET ve Java sürümlerinin koduyla eşleştiğinden, değişikliklerin, geliştirmelerin ve düzeltmelerin çoğu Aspose.Cells for .NET v18.1, Aspose.Cells for .NET. 3, Aspose.Cells for Java v18.1, Aspose.Cells for Java v18.2 ve Aspose.Cells for Java v18.3 de Java v18.3 üzerinden Android için bu Aspose.Cells'e dahildir.
+Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761,16341. 0761,16341. 0761. 0711616341. 0761,16341. 0761,16341,1631,16341,16341,16341,16341,16341. Aspose.Cells for Java v18.1, Aspose.Cells for Java v18.2 ve Aspose.Cells for Java v18.3 de bu Aspose.Cells for Android via Java v18.3'e dahildir.
 
 {{% /alert %}}

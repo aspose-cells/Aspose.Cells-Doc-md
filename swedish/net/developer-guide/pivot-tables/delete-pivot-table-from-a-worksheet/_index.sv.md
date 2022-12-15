@@ -3,7 +3,7 @@ title: Ta bort pivottabell från ett kalkylblad
 type: docs
 weight: 60
 url: /sv/net/delete-pivot-table-from-a-worksheet/
-description: C#-kod för att ta bort PivotTable för Excel-kalkylblad
+description: C#-kod för att ta bort pivottabell för Excel-kalkylblad
 keywords: c# remove pivot table from worksheet, c# remove pivot table from excel, how to delete pivot table with c#, delete pivot table with c#, delete pivot table from excel with c#, c# delete pivot table, c# remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
 ---
 {{% alert color="primary" %}}

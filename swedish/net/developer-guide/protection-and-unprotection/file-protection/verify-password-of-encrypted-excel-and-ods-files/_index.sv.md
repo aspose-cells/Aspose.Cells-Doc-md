@@ -11,8 +11,8 @@ Om Excel (xlsx, xlsb, xls, xlsm) och Open office (ODS)-filer är låsta med lös
 
 ## **Verifiera lösenordet för den krypterade filen**
 
- För att verifiera lösenordet för den krypterade filen tillhandahåller Aspose.Cells för .NET[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod. Dessa metoder accepterar två parametrar, filströmmen och lösenordet som måste verifieras.
-Följande kodavsnitt visar användningen av[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod för att verifiera om det angivna lösenordet är giltigt eller inte.
+ För att verifiera lösenordet för den krypterade filen tillhandahåller Aspose.Cells for .NET[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod. Dessa metoder accepterar två parametrar, filströmmen och lösenordet som måste verifieras.
+ Följande kodavsnitt visar användningen av[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod för att verifiera om det angivna lösenordet är giltigt eller inte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 

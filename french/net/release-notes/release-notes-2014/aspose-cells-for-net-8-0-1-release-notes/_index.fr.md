@@ -19,7 +19,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 \1) Aspose.Cells 
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Nouvelles fonctionnalités**
 
@@ -117,7 +117,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 \2) Suite de grille Aspose.Cells
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Insectes**
 

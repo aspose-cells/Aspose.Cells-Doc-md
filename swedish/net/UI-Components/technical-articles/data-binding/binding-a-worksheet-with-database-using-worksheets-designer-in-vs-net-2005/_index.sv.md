@@ -12,7 +12,7 @@ url: /sv/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 ## **Bindning av ett kalkylblad med databas med hjälp av kalkylbladsdesigner i VS.Net 2005**
 
- Syftet med den här artikeln är att låta alla utvecklare lära sig hur du kan skapa en databindande applikation i**VS.Net 2005** och förstå användningen och rollen av**Arbetsbladsdesigner** redaktör. Det bästa sättet att lära sig och förstå allt är genom exempel. Så i den här artikeln skulle det också vara bäst för oss att skapa en exempelapplikation för att demonstrera användningen av**Arbetsbladsdesigner** i bindande arbetsblad med databas. Låt oss skapa en ansökan steg för steg.
+ Syftet med den här artikeln är att låta alla utvecklare lära sig hur du kan skapa en databindande applikation i**VS.Net 2005** och förstå användningen och rollen av**Arbetsbladsdesigner** redaktör. Det bästa sättet att lära sig och förstå allt är genom exempel. Så i den här artikeln skulle det också vara bäst för oss att skapa en exempelapplikation för att demonstrera användningen av**Arbetsbladsdesigner** bindande arbetsblad med databas. Låt oss skapa en ansökan steg för steg.
 
 ### **Steg 1: Skapa en exempeldatabas**
 
@@ -30,7 +30,7 @@ url: /sv/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 ### **Steg 2: Designa exempelapplikation**
 
- En**ASP.NET webbapplikation** skapas och designas i Visual Studio.NET 2005 som visas i figurerna nedan. Dessa skärmbilder är användbara för de utvecklare som inte är så bekanta med att använda Aspose.Cells.GridWeb i Visual Studio.Net 2005.
+ En**ASP.NET Webbapplikation** är skapad och designad i Visual Studio.NET 2005 som visas i figurerna nedan. Dessa skärmdumpar är användbara för de utvecklare som inte är så bekanta med att använda Aspose.Cells.GridWeb i Visual Studio.Net 2005.
 
 Första start VS.Net 2005.
 
@@ -48,9 +48,9 @@ Skapa en ny webbplats från Arkiv|Ny|Webbplats...-menyn.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_5.png)
 
-**Figur:** Ny webbplatsdialog
+**Figur:**Ny webbplatsdialog
 
- Efter att ha klickat på**Bläddra**knappen väljer du platsmappen i den lokala IIS. Du kan skapa en ny mapp och göra den till en virtuell mapp enligt bilden.
+ Efter att ha klickat på**Bläddra** knappen väljer du platsmappen i den lokala IIS. Du kan skapa en ny mapp och göra den till en virtuell mapp enligt bilden.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_6.png)
 
@@ -143,7 +143,7 @@ När du har hittat den taggen, välj den fullständiga taggen i källkoden som v
 
 ##### **Steg 3: Ansluta till databasen med Server Explorer och ställa in anslutningsobjekt**
 
-Först lägger vi till MS Access-databasen till projektet som vi tidigare skapat i**Steg 1** . Du kanske ser det**db.mdb** filen läggs till i projektet.
+ Först lägger vi till MS Access-databasen till projektet som vi tidigare skapat i**Steg 1** . Du kanske ser det**db.mdb** filen läggs till i projektet.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_15.png)
 
@@ -155,7 +155,7 @@ Först lägger vi till MS Access-databasen till projektet som vi tidigare skapat
 
 **Figur:** Väljer**Visa komponentdesigner** alternativ
 
-Fönstret Component Designer visas enligt nedan.
+Komponentdesignerfönstret visas enligt nedan.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_17.png)
 
@@ -167,14 +167,14 @@ Fönstret Component Designer visas enligt nedan.
 
 **Figur:** oleDbConnection1-objekt
 
- Nu är det dags att ansluta till databasen. Vi kan göra det enkelt genom att använda**Server Explorer** i Visual Studio.NET 2005. Välj bara**Uppkoppling** i**Server Explorer** och högerklicka. Du kommer att se en snabbmeny som visas framför dig. Välj**Lägg till anslutning...** alternativ från menyn som visas nedan i figuren:
+ Nu är det dags att ansluta till databasen. Vi kan göra det enkelt genom att använda**Server Explorer** i Visual Studio.NET 2005. Välj bara**Uppkoppling** i**Server Explorer** och högerklicka. Du kommer att se en snabbmeny som visas framför dig. Välj**Lägg till anslutning...**alternativ från menyn som visas nedan i figuren:
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_19.png)
 
 **Figur:** Väljer**Lägg till anslutning...** alternativ från menyn
 
 
- Efter att ha valt**Lägg till anslutning...**alternativ från menyn,**Lägg till anslutning** dialogrutan öppnas och**Bläddra** för att välja databasfil som visas nedan.
+ Efter att ha valt**Lägg till anslutning...** alternativ från menyn,**Lägg till anslutning** dialogrutan kommer att öppnas och**Bläddra** för att välja databasfil som visas nedan.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_20.png)
 
@@ -206,7 +206,7 @@ Du kan bläddra i anslutningen för att kontrollera tabellen och dess fält.
 
 ##### **Steg 4: Konfigurera dataadapterobjekt**
 
- Lägg nu till en**OleDbDataAdapter** komponent från panelen Data i verktygslådan för att konfigurera den. Dubbelklicka på**OleDbDataAdapter** verktygslådans datapanel kommer den att starta sin konfigurationsguide och välja den befintliga anslutningen som visas i bilden:
+ Lägg nu till en**OleDbDataAdapter** komponent från panelen Data i verktygslådan för att konfigurera den. Dubbelklicka på**OleDbDataAdapter** i verktygslådans datapanel kommer den att starta sin konfigurationsguide och välja den befintliga anslutningen som visas i bilden:
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_25.png)
 
@@ -236,7 +236,7 @@ Du kan bläddra i anslutningen för att kontrollera tabellen och dess fält.
 
 ##### **Steg 5: Generera datauppsättning**
 
- Eftersom vi har skapat databasanslutning och dataadapterobjekt men ändå behöver vi något där vi kan lagra data efter att ha kopplat till databasen. A**Dataset** objekt kan lagra data exakt och vi kan också generera det enkelt med VS.NET 2005 IDE. För att göra det, välj**oleDbDataAdaper1**och högerklicka. En snabbmeny skulle dyka upp med några alternativ. Välj**Generera** **Datauppsättning...** alternativ från menyn som visas nedan i figuren.
+ Eftersom vi har skapat databasanslutning och dataadapterobjekt men ändå behöver vi något där vi kan lagra data efter att ha kopplat till databasen. A**Dataset**objekt kan lagra data exakt och vi kan också generera det enkelt med VS.NET 2005 IDE. För att göra det, välj**oleDbDataAdaper1** och högerklicka. En snabbmeny skulle dyka upp med några alternativ. Välj**Generera** **Datauppsättning...** alternativ från menyn som visas nedan i figuren.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_30.png)
 
@@ -260,9 +260,9 @@ Viss kod genereras automatiskt i den .cs-filrelaterade anslutningen, dataadapter
 
 **Figur:** Genererad kod
 
-##### **Steg 6: Använda kalkylbladsdesignern**
+##### **Steg 6: Använda Worksheets Designer**
 
-Nu är det dags att öppna hemligheten. Välj kontrollen och högerklicka. En snabbmeny skulle öppnas. Välj alternativet Arbetsbladsdesigner... från menyn som visas nedan i figuren.
+ Nu är det dags att öppna hemligheten. Välj kontrollen och högerklicka. En snabbmeny skulle öppnas. Välj alternativet Arbetsbladsdesigner... från menyn som visas nedan i figuren.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_34.png)
 
@@ -394,7 +394,7 @@ End Sub
 
 Vi har överlägset byggt en mycket användbar databasapplikation. Men den här applikationen låter dig bara se tabellens data. Även om du kan redigera data i**GridWeb** kontroll men när du stänger ditt webbläsarfönster och öppnar din databas. Du skulle upptäcka att ingenting har förändrats. Det betyder att ändringarna du gjorde inte sparas i databasen. Så det är något du måste göra.
 
- Nu kommer vi att lägga till lite kod till vår applikation så att**GridWeb** kan spara sina ändringar i den faktiska databasen. Låt oss öppna**Egenskaper** ruta och välj**SaveCommand** händelse av**GridWeb** kontroll från listan över dess händelser. Om du dubbelklickar på**SaveCommand** händelse då VS.NET 2005 IDE skapas**GridWeb1_SaveCommand** händelsehanterare för dig. Lägg till lite kod till den här händelsehanteraren för att uppdatera databasen med modifierade data i**Dataset** (bunden med kalkylbladet) med hjälp av**oleDbDataAdapter1**.
+ Nu kommer vi att lägga till lite kod till vår applikation så att**GridWeb** kan spara sina ändringar i den faktiska databasen. Låt oss öppna**Egenskaper** ruta och välj**SaveCommand** händelse av**GridWeb** kontrollera från listan över dess händelser. Om du dubbelklickar på**SaveCommand** händelse kommer VS.NET 2005 IDE att skapa**GridWeb1_SaveCommand** händelsehanterare för dig. Lägg till lite kod till den här händelsehanteraren för att uppdatera databasen med modifierade data i**Dataset** (bunden med kalkylbladet) med hjälp av**oleDbDataAdapter1**.
 
 ##### **Exempel:**
 

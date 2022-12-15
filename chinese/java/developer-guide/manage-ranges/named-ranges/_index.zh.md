@@ -87,7 +87,7 @@ Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/
 
 执行上述代码后会产生如下输出：
 
-![待办事项：图片_替代_文本](named-ranges_1.png)
+![待办事项：图像_替代_文本](named-ranges_1.png)
 #### **将样式应用于范围内的单元格**
 有时，您想要创建将样式应用于[范围](https://reference.aspose.com/cells/java/com.aspose.cells/range).为此，您可以遍历范围内的单元格并使用[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)方法将样式应用于单元格。
 

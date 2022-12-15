@@ -11,7 +11,7 @@ Aspose.Cells prend en charge la plupart des formules ou fonctions qui font parti
 
 Utilisez la méthode Cell.Formula pour ajouter une formule à une cellule. Lorsque vous appliquez une formule à une cellule, commencez toujours la chaîne par un signe égal (=) comme vous le faites lors de la création d'une formule dans Microsoft Excel. Utilisez une virgule (,) pour délimiter les paramètres de la fonction.
 
- Pour calculer les résultats des formules, appelez la méthode Workbook.CalculateFormula() qui traite toutes les formules incorporées dans un fichier Excel. Veuillez consulter l'exemple de code suivant qui ajoute la formule et calcule ses résultats. S'il vous plaît, vérifiez le[fichier excel de sortie](38109185.xlsx) généré avec ce code.
+Pour calculer les résultats des formules, appelez la méthode Workbook.CalculateFormula() qui traite toutes les formules incorporées dans un fichier Excel. Veuillez consulter l'exemple de code suivant qui ajoute la formule et calcule ses résultats. S'il vous plaît, vérifiez le[fichier excel de sortie](38109185.xlsx) généré avec ce code.
 
 **Exemple de code**
 

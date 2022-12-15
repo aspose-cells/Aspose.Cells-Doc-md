@@ -30,7 +30,7 @@ description: إدارة خصائص المستندات لملفات جداول ا
 |![ما يجب القيام به: image_بديل_نص](managing-document-properties_1.png)|
 1.  انقر فوق**الخصائص** العنوان وحدد "خصائص متقدمة".
 
-|**النقر فوق اختيار الخصائص المتقدمة**|
+|**النقر فوق تحديد الخصائص المتقدمة**|
 |:- |
 |![ما يجب القيام به: image_بديل_نص](managing-document-properties_2.png)|
 1. إدارة خصائص وثيقة الملف.
@@ -42,7 +42,7 @@ description: إدارة خصائص المستندات لملفات جداول ا
 
 ## **التعامل مع خصائص الوثيقة باستخدام Aspose.Cells**
 
-يمكن للمطورين إدارة خصائص الوثيقة ديناميكيًا باستخدام Aspose.Cells APIs. تساعد هذه الميزة المطورين على تخزين المعلومات المفيدة مع الملف ، مثل وقت استلام الملف ومعالجته وختمه الزمني وما إلى ذلك.
+يمكن للمطورين إدارة خصائص الوثيقة ديناميكيًا باستخدام Aspose.Cells APIs. تساعد هذه الميزة المطورين على تخزين المعلومات المفيدة مع الملف ، مثل وقت استلام الملف ومعالجته وختمه بالوقت وما إلى ذلك.
 
 {{% alert color="primary" %}}
 
@@ -54,7 +54,7 @@ description: إدارة خصائص المستندات لملفات جداول ا
 
 ### **الوصول إلى خصائص المستند**
 
-تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)صف دراسي.
+ تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)صف دراسي.
 
  استخدم ال[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)للوصول إلى خصائص مستند الملف كما هو موضح أدناه.
 

@@ -72,7 +72,7 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44135) - Excel 文件在生成 PDF 之前未正确（完全）计算（关于图表）
 
-(CELLSNET-44138) - Cell 阴影与边界重叠导致边界变薄
+(CELLSNET-44138) - Cell 阴影与边界重叠导致边界变细
 
 (CELLSNET-44136) - Excel 在打印预览中显示一页，其中 Aspose.Cells 呈现为 PDF 页面
 

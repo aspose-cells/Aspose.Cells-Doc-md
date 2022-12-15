@@ -32,7 +32,7 @@ Il est vrai que la technologie Office Open XML permet de créer des applications
 
 La spécification OOXML compte plusieurs milliers de pages. Être ouvert et standard ne veut pas dire être simple. Pour traiter ou générer correctement des documents OOXML, il faut investir dans un bon apprentissage du format.
 
-En plus de simplifier le traitement et la génération corrects de documents valides, Aspose.Cells fournit les fonctionnalités importantes suivantes que vous n'auriez pas lorsque vous travaillez avec des fichiers OOXML directement via XML ou d'autres bibliothèques tierces :
+En plus de simplifier le traitement et la génération corrects de documents valides, Aspose.Cells fournit les fonctionnalités importantes suivantes que vous n'auriez pas lorsque vous travaillez avec des fichiers OOXML directement via XML ou d'autres bibliothèques tierces :
 
 - Conversions de qualité entre de nombreux formats Excel populaires, y compris la conversion au format PDF, HTML, TIFF et l'impression.
 - Possibilité de créer des documents à partir de fragments, à partir d'un ou plusieurs documents, tout en fusionnant automatiquement les données par formatage stylistique, tableaux et graphiques.

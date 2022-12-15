@@ -6,7 +6,7 @@ url: /zh/java/setting-page-options-in-php/
 ---
 ## **Aspose.Cells - 设置页面选项**
 ### **页面方向**
-应用页面方向设置使用**Aspose.Cells Java 用于 PHP**， 称呼**页面方向**的方法**页面设置**模块。
+应用页面方向设置使用**Aspose.Cells Java for PHP**， 称呼**页面方向**的方法**页面设置**模块。
 
 **PHP代码**
 
@@ -46,7 +46,7 @@ url: /zh/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **比例因子**
-应用缩放使用**Aspose.Cells Java 用于 PHP**， 称呼**缩放**的方法**页面设置**模块。
+应用缩放使用**Aspose.Cells Java for PHP**， 称呼**缩放**的方法**页面设置**模块。
 
 **PHP代码**
 

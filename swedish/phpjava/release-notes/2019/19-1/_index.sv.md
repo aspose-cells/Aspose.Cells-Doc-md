@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för PHP via Java 19.1 Release Notes
+title: Aspose.Cells for PHP via Java 19.1 Release Notes
 type: docs
 weight: 20
 url: /sv/php-java/aspose-cells-for-php-via-java-19-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för PHP via Java 19.1.
+Den här sidan innehåller utgåvor för Aspose.Cells for PHP via Java 19.1.
 
 {{% /alert %}} 
 
@@ -29,8 +29,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för PHP via Java 19.1.
 |CELLSJAVA-42757|CellsException vid konvertering av filer|Undantag|
 |CELLSJAVA-42799|Undantag "java.lang.ArrayIndexOutOfBoundsException: -32768" när ett XLSX-filformat laddas|Undantag|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException när en arbetsbok laddas|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för PHP via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for PHP via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 #### **Lägger till metoden PivotTable.ShowReportFilterPageByName(strängfältnamn).**
 Visar alla rapportfiltersidor enligt PivotFields namn, PivotField måste finnas i PageFields.
 #### **Lägger till metoden PivotTable.ShowReportFilterPageByIndex(int posIndex)**

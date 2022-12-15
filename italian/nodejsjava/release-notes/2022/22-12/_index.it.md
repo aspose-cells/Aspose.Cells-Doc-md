@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Node.js tramite Java 22.12 Note di rilascio
+title: Aspose.Cells for Node.js via Java 22.12 Note di rilascio
 type: docs
 weight: 1
 url: /it/nodejs-java/aspose-cells-for-node-js-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Node.js tramite Java 22.12](https://releases.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.12/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Node.js via Java 22.12](https://releases.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.12/).
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-22-12-release-notes/
 |CELLSJAVA-44970|Ottimizza l'effetto ombra|
 |CELLSJAVA-44967|Grafico getDataLabels().getText() che restituisce un valore diverso nella versione 22.6.0 e successive|
 |CELLSJAVA-44969|Converti Excel in HTML, le etichette dati visualizzano errori|
-|CELLSJAVA-44949|Trasparenza modificata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva PowerPoint|
+|CELLSJAVA-44949|La trasparenza è cambiata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva di PowerPoint|
 |CELLSJAVA-44985|Conversione da Excel a HTML: la legenda del grafico non viene visualizzata e l'area del tracciato viene troncata|
 |CELLSJAVA-44952|Problema con il metodo DataBar.toImage relativo alla larghezza|
 |CELLSJAVA-44986|Le immagini importate non sono allineate in linea quando le immagini sono in formato Div|
@@ -29,9 +29,9 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-22-12-release-notes/
 |CELLSJAVA-44997|Dati e formattazioni persi nella conversione da HTML a Excel|
 |CELLSJAVA-44999| Aspose.Cells Le impostazioni di globalizzazione personalizzate non funzionano per la maggior parte della tabella pivot|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge enum JsonExportHyperlinkType**
 
@@ -83,7 +83,7 @@ Usare invece SheetRender.GetPageSizeInch(System.Int32).
 
 ### **Elimina il metodo WorkbookRender.GetPageSize(System.Int32) obsoleto**
 
-Usare invece WorkbookRender.GetPageSizeInch(System.Int32).
+Utilizzare invece WorkbookRender.GetPageSizeInch(System.Int32).
 
 ### **Elimina l'enumerazione AutoShapeType.TextWave3 e AutoShapeType.TextWave4 obsoleta**
 

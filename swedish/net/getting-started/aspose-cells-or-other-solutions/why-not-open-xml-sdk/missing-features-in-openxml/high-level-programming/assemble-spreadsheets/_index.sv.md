@@ -15,7 +15,7 @@ Skapa en ny Excel-fil från början och lägg till ett kalkylblad till den.
 - Aspose.Cells tillhandahåller en klass, arbetsbok som representerar en Excel-fil. Klassen Workbook innehåller en kalkylbladssamling som gör det möjligt att komma åt varje kalkylblad i Excel-filen.
 
 Ett kalkylblad representeras av klassen Worksheet. Klassen Worksheet tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad.
-## **Lägga till arbetsblad i en ny Excel-fil**
+## **Lägga till kalkylblad till en ny Excel-fil**
 Så här skapar du en ny Excel-fil programmatiskt:
 
 - Skapa ett objekt av klassen Workbook.

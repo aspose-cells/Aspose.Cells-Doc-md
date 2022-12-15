@@ -6,7 +6,7 @@ url: /sv/net/add-or-remove-context-menu-items-in-gridweb/
 ---
 {{% alert color="primary" %}} 
 
-Du kan lägga till snabbmenyalternativ med ASP.NET-markering eller med .NET-koden. Du kan också ta bort snabbmenyalternativ med .NET-koden. Använd metoderna GridWeb.CustomCommandButtons.Add() och GridWeb.CustomCommandButtons.Remove() eller RemoveAt() för dessa ändamål.
+Du kan lägga till snabbmenyobjekt med ASP.NET-uppmärkning eller med .NET-koden. Du kan också ta bort snabbmenyalternativ med koden .NET. Använd metoderna GridWeb.CustomCommandButtons.Add() och GridWeb.CustomCommandButtons.Remove() eller RemoveAt() för dessa ändamål.
 
 {{% /alert %}} 
 ## **Lägg till kontextmenyobjekt med ASP.NET Markup**
@@ -26,7 +26,7 @@ Här är den fullständiga ASP.NET-markeringen som skapar en GridWeb med ovanst�
 
 
 
-Så här ser snabbmenyalternativet ut efter att ha lagts till med ovanstående ASP.NET-markering.
+Så här ser snabbmenyobjektet ut efter att ha lagts till med ovanstående ASP.NET-markering.
 
 ![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_1.png)
 

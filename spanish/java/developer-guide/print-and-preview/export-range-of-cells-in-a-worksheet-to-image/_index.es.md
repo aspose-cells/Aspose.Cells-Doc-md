@@ -18,7 +18,7 @@ El siguiente código toma una imagen del rango E8:H10. A continuación se muestr
 
 ![todo:imagen_alternativa_texto](export-range-of-cells-in-a-worksheet-to-image_1.png)
 
-Ejecutar el código crea una imagen del rango E8: H10 solamente.
+Ejecutar el código crea una imagen del rango E8: H10 únicamente.
 
 **Imagen de salida**
 

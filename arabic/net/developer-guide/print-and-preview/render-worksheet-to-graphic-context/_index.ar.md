@@ -9,7 +9,7 @@ url: /ar/net/render-worksheet-to-graphic-context/
 Aspose.Cells يمكنه الآن عرض ورقة العمل لسياق بياني. يمكن أن يكون سياق الرسوم أي شيء مثل ملف الصورة أو الشاشة أو الطابعة وما إلى ذلك. يُرجى استخدام إحدى الطريقتين التاليتين لعرض ورقة العمل في سياق رسومي.
 
 - [**SheetRender.ToImage (int pageIndex ، Graphics g ، float x ، float y)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/1)
-- [**SheetRender.ToImage (int pageIndex، Graphics g، float x، float y، float width، float width، float height)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/2)
+- [**SheetRender.ToImage (int pageIndex، Graphics g، float x، float y، float width، float height)**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toimage/methods/2)
 
 {{% /alert %}}
 

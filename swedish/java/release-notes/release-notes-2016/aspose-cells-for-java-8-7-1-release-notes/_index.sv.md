@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Java 8.7.1 Release Notes
+title: Aspose.Cells for Java 8.7.1 Release Notes
 type: docs
 weight: 130
 url: /sv/java/aspose-cells-for-java-8-7-1-release-notes/
@@ -8,7 +8,7 @@ url: /sv/java/aspose-cells-for-java-8-7-1-release-notes/
 
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
-|CELLSJAVA-41747 | Stöd för att beräkna FORMULATEXT-funktionen| Ny funktion|
+|CELLSJAVA-41747 | Stöd för att beräkna FORMULATEXT-funktionen|Ny funktion|
 |CELLSJAVA-41702 | Extra kolumner läggs till i HTML-utdatafilen| Insekt|
 |CELLSJAVA-41708 | Kolumner saknas i HTML-utdata| Insekt|
 |CELLSJAVA-41720 | Att spara en bild i SVG medan du konverterar kalkylblad till HTML resulterar i felaktig bildfiltillägg| Insekt|
@@ -32,9 +32,9 @@ url: /sv/java/aspose-cells-for-java-8-7-1-release-notes/
 |CELLSJAVA-41731 | Formformeln uppdateras inte när XLS sparas till XLSB| Insekt|
 |CELLSJAVA-41733 | Cell.getFormula returnerar formeln med arknamn inom hakparenteser och sökväg till kalkylarksfil| Insekt|
 |CELLSJAVA-41732 | Undantag: "[0]Sheet1!B2-Ogiltig formel: Fler än en token i stack" på metoden Workbook.calculateFormula()| Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen LookInType.OriginalValues.**
 Hitta bara objekt från de ursprungliga värdena utan format.
 ## **Notera**
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.7.1 också inkluderade i denna Aspose.Cells för Java v8.7.1.
+Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta av ändringarna, förbättringarna och korrigeringarna som ingår i Aspose.Cells for .NET v8.7.1 också inkluderade i denna 076157316.4816.4816.

@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-4-0-1-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v4.0.1!
+ Vi har släppt Aspose.Cells for .NET v4.0.1!
 
 - Lade till nya diagramdemos
 - Fixade buggar i metoden InsertRows/DeleteRows

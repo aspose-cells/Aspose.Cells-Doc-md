@@ -11,7 +11,7 @@ url: /it/net/aspose-cells-for-net-7-7-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET è stato aggiornato alla versione 7.7.1 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 80 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. È inoltre possibile visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for .NET.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
  Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells.
@@ -34,7 +34,7 @@ Nota che questo download contiene una versione completamente funzionante del pro
 
  (CELLSNET-42116) - Calcola i valori minimo e massimo per la formattazione condizionale di DataBars
 
-(CELLSNET-40910) - Legge file MS Excel di grandi dimensioni in modalità celle luminose - (LightCells API)
+(CELLSNET-40910) - Legge file MS Excel di grandi dimensioni in modalità celle luminose - (API LightCells)
 
  (CELLSNET-42230) - Rendering delle barre dei dati di formattazione condizionale con valori negativi nella funzione Foglio su immagine
 
@@ -223,16 +223,16 @@ Nota che questo download contiene una versione completamente funzionante del pro
 
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 
 
  Supporto abbandonato for .NET Framework 1.1
 
- A partire da questa versione Aspose.Cells non è più distribuito con una DLL per l'utilizzo nel .NET Framework 1.1. Il supporto per questa versione del framework è stato abbandonato per facilitare meglio funzionalità e correzioni in quanto è difficile aggiungere alcune funzionalità a questa versione precedente del framework.
+ A partire da questa versione Aspose.Cells non è più distribuito con una DLL per l'utilizzo in .NET Framework 1.1. Il supporto per questa versione del framework è stato abbandonato per facilitare meglio funzionalità e correzioni in quanto è difficile aggiungere alcune funzionalità a questa versione precedente del framework.
 
 
 

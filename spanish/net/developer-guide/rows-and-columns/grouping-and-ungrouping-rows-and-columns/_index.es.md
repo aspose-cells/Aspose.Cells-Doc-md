@@ -8,7 +8,7 @@ url: /es/net/grouping-and-ungrouping-rows-and-columns/
 
 En un archivo de Excel Microsoft, puede crear un esquema para los datos que le permita mostrar y ocultar niveles de detalle con un solo clic del mouse.
 
- Haga clic en el**Símbolos de contorno**, 1, 2, 3, + y - para mostrar rápidamente solo las filas o columnas que proporcionan resúmenes o encabezados para las secciones de una hoja de trabajo, o puede usar los símbolos para ver los detalles bajo un resumen o encabezado individual como se muestra a continuación en la figura :
+ Haga clic en el**Símbolos de esquema**, 1, 2, 3, + y - para mostrar rápidamente solo las filas o columnas que proporcionan resúmenes o encabezados para las secciones de una hoja de trabajo, o puede usar los símbolos para ver los detalles bajo un resumen o encabezado individual como se muestra a continuación en la figura :
 
 |**Agrupación de Filas y Columnas.**|
 |:- |
@@ -16,7 +16,7 @@ En un archivo de Excel Microsoft, puede crear un esquema para los datos que le p
 
 ## **Gestión de grupos de filas y columnas**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de trabajo.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de cálculo.
 
  los[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection proporciona varios métodos para administrar filas o columnas en una hoja de trabajo, algunos de estos se analizan a continuación con más detalle.
 

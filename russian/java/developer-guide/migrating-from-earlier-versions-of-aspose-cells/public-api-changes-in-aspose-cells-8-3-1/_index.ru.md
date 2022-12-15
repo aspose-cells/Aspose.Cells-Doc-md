@@ -140,7 +140,7 @@ workbook.save("ODF1.1.ods", options);
 {{% /alert %}} 
 
 ### **Добавлен метод SparklineCollection.add**
- Aspose.Cells API-интерфейсы предоставили метод SparklineCollection.add(String dataRange, int row, int column) для указания диапазона данных и расположения группы Sparkline. Обратите внимание, что Excel предоставляет ту же функцию, выполнив следующие действия.
+ Aspose.Cells API-интерфейсы предоставили метод SparklineCollection.add(String dataRange, int row, int column) для указания диапазона данных и расположения группы Sparkline. Обратите внимание, что Excel предоставляет ту же функцию, выполнив следующие шаги.
 
 1. Выберите ячейку, содержащую вашу спарклайн.
 1.  Выбирать**Редактировать данные из спарклайна** раздел внутри**Дизайн** вкладка

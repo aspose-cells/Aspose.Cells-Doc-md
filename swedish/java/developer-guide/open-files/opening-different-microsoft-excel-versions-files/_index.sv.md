@@ -6,7 +6,7 @@ url: /sv/java/opening-different-microsoft-excel-versions-files/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells kan öppna en rad olika Microsoft Excel-versionsfiler, såsom Microsoft Excel 95/97 - 2003, SpreadsheetML, Öppna Microsoft Excel 2007/2010/2013/2016/2019 och Office 365 XLSX eller krypterade Excel-filer.
+Aspose.Cells kan öppna en rad olika Microsoft Excel-versionsfiler, till exempel Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010/2013/2010/2013/20196 Office 2015LS.
 
 {{% /alert %}}
 
@@ -32,7 +32,7 @@ Aspose.Cells kan öppna en rad olika Microsoft Excel-versionsfiler, såsom Micro
 |HTML|Representerar en HTML-fil|
 |M_HTML|Representerar en MHTML-fil|
 
-### **Öppna Microsoft Excel 95/5.0-filer**
+### **Öppnar Microsoft Excel 95/5.0-filer**
 
 För att öppna en Microsoft Excel 95/5.0-fil, använd**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**och ställ in det relaterade attributet för**LoadOptions**klass för mallfilen som ska laddas. En exempelfil för att testa den här funktionen kan laddas ner från följande länk:
 
@@ -40,7 +40,7 @@ För att öppna en Microsoft Excel 95/5.0-fil, använd**[LoadOptions](https://re
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel95Files.java" >}}
 
-### **Öppna Microsoft Excel 97 - 2003-filer**
+### **Öppnar Microsoft Excel 97 - 2003-filer**
 
  För att öppna en Microsoft Excel 97 - 2003-fil, använd**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** och ställ in det relaterade attributet för**LoadOptions**klass för mallfilen som ska laddas.
 
@@ -48,7 +48,7 @@ För att öppna en Microsoft Excel 95/5.0-fil, använd**[LoadOptions](https://re
 
 ### **Öppna Microsoft Excel 2007/2010/2013/2016/2019 och Office 365 XLSX-filer**
 
- För att öppna ett Microsoft Excel 2007/2010/2013/2016/2019 och Office 365-format, det vill säga XLSX eller XLSB, anger du filsökvägen. Du kan också använda**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** och ställ in relaterade attribut/alternativ för**LoadOptions**klass för mallfilen som ska laddas.
+ För att öppna ett Microsoft Excel 2007/2010/2013/2016/2019 och Office 365-format, det vill säga XLSX eller XLSB, ange filsökvägen. Du kan också använda**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** och ställ in relaterade attribut/alternativ för**LoadOptions**klass för mallfilen som ska laddas.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel2007Files.java" >}}
 
@@ -61,4 +61,4 @@ En exempelfil för att testa den här funktionen kan laddas ner från följande 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenEncryptedExcelFiles.java" >}}
 
-Aspose.Cells stöder också öppning av lösenordsskyddade Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-filer.
+Aspose.Cells stöder även öppning av lösenordsskyddade Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-filer.

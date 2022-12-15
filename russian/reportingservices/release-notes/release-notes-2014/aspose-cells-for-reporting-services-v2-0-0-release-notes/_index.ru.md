@@ -1,26 +1,26 @@
 ﻿---
-title: Aspose.Cells для примечаний к выпуску служб Reporting Services V2.0.0
+title: Aspose.Cells for Reporting Services Примечания к выпуску версии 2.0.0
 type: docs
 weight: 10
 url: /ru/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для служб Reporting Services версии 2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- Встречайте новый выпуск Aspose.Cells для Reporting Services V2.0.0.
+ Встречайте новую версию Aspose.Cells for Reporting Services V2.0.0.
 ## **Основные характеристики**
-Aspose.Cells для оптимизации конструктора отчетов служб Reporting Services.
+Aspose.Cells for Reporting Services Оптимизация конструктора отчетов.
 ## **Другие улучшения и изменения**
- ` `Новые функции
+ ` `Новые возможности
 
 - ` ` (SSRS-40147) Динамическая формула для суммирования столбца таблицы
 - ` `(SSRS-40144) Настройка серверов отчетов для хранения/кеширования данных сервера отчетов
 - ` ` (SSRS-40142) Поддержка общих наборов данных
 - ` `(SSRS-40113) Отрицательные значения в околоцветниках
-- ` ` (SSRS-40103) Aspose.Cells для файла определения импорта отчета конструктора отчетов служб Reporting Services для SQL Server 2008
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services Файл определения отчета об импорте конструктора отчетов для SQL Server 2008
 
  Ошибки
 
@@ -66,7 +66,7 @@ Aspose.Cells для оптимизации конструктора отчето
 - ` ` (SSRS-40095) Ошибка Aspose.Cells SSRS
 - ` `(SSRS-40094) Динамическое скрытие с параметрами
 - ` ` (SSRS-40093) Проблема с пробной версией программного обеспечения — возвращается только одна строка
-- ` ` (SSRS-40092) Проблемы с форматированием Aspose.Cells для служб Reporting Services
+- ` ` (SSRS-40092) Проблемы с форматированием Aspose.Cells for Reporting Services
 - ` ` (SSRS-40091) Не удалось сохранить файл отчета — визуализация Excel с использованием изображения
 - ` ` (SSRS-40089) проблема с видимостью табликса в службах SSRS
 - ` ` (SSRS-40087) В Aspose Cells для SSRS 2005 отсутствует «карта документа» Excel?

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 21.3 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 21.3 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/java/aspose-cells-for-android-via-java-21-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 21.3.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 21.3.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ url: /ar/java/aspose-cells-for-android-via-java-21-3-release-notes/
 |CELLSJAVA-43382|ينتج عن النسخ مصنف تالف|
 |CELLSJAVA-43364|مشكلة عند حفظ الرسم البياني الذي يحتوي على صورة في العلامة على الصورة|
 |CELLSJAVA-43389|تفقد إعدادات حماية كلمة مرور المصنف / ورقة العمل عند الحفظ بتنسيق ملف XLSB|
-|CELLSJAVA-43392| ينتج عن نسخ الورقة مصنف تالف|
+|CELLSJAVA-43392|ينتج عن نسخ الورقة مصنف تالف|
 |CELLSJAVA-43388|ملف الإخراج تالف بعد نسخ المصنف|
 |CELLSJAVA-43406|مشاكل أثناء تحويل HTML إلى Excel|
 |CELLSJAVA-43399|تنشئ CalculateFormula () الكثير من قيم نوع الخطأ #VALUE|
@@ -44,7 +44,7 @@ url: /ar/java/aspose-cells-for-android-via-java-21-3-release-notes/
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 
 ### **مُنشئ PdfSaveOptions (SaveFormat) قديم.**
 

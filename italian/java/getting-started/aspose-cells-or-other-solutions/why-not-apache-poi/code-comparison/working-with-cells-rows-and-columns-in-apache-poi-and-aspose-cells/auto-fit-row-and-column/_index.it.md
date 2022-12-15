@@ -9,7 +9,7 @@ L'approccio più diretto al ridimensionamento automatico della larghezza e dell'
 
 **Notare che:** Se desideri adattare automaticamente righe e colonne nei fogli di calcolo Excel utilizzando Java, visita[Adatta automaticamente righe e colonne](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -32,7 +32,7 @@ workbook.save("AutoFit_Aspose.xls");
 ## **Apache POI SS - HSSF XSSF - Adatta riga e colonna automaticamente**
 Apache POI SS - HSSF e XSSF fornisce Sheet.autoSizeColumn per adattare automaticamente le colonne
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

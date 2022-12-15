@@ -46,7 +46,7 @@ url: /es/net/aspose-cells-for-net-7-0-1-release-notes/
 
  29632 Solicitud de función relacionada con el manejo de excepciones al agregar hojas de trabajo
 
- 30303 Problema al copiar Hojas de Trabajo
+ 30303 Problema al copiar Hojas de trabajo
 
  30035 MS Excel (Formato->Autoajustar altura de fila) VS Aspose.Cells' función Autoajustar fila
 

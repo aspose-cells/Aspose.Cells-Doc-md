@@ -6,13 +6,13 @@ url: /sv/sharepoint/multiple-format-support/
 ---
 {{% alert color="primary" %}}
 
-Med Aspose.Cells för SharePoint kan du konvertera dokument mellan många populära kontorsdokumentformat från ett SharePoint-dokumentbibliotek. De flesta av konverteringarna görs med hög trohet och precision.
+Med Aspose.Cells for SharePoint kan du konvertera dokument mellan många populära kontorsdokumentformat från ett SharePoint-dokumentbibliotek. De flesta av konverteringarna görs med hög trohet och precision.
 
 {{% /alert %}}
 
 ## **Inmatningsformat som stöds**
 
-Aspose.Cells för SharePoint stöder följande inmatningsformat:
+Aspose.Cells for SharePoint stöder följande inmatningsformat:
 
 - XLS – Microsoft Excel 97~2003
 - XLSX – Office Open XML
@@ -21,11 +21,11 @@ Aspose.Cells för SharePoint stöder följande inmatningsformat:
 - ODS – OpenDocument
 - XML – Microsoft Excel SpreadsheetML
 
- För att generera dokument förlitar sig Aspose.Cells för SharePoint på en inbyggd version av[Aspose.Cells för .NET](https://products.aspose.com/cells/net/), den marknadsledande kalkylbladsbearbetningskomponenten från Aspose. Microsoft Excel används inte för att generera dokument.
+ För att generera dokument förlitar sig Aspose.Cells for SharePoint på en inbyggd version av[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)den marknadsledande kalkylbladsbearbetningskomponenten från Aspose. Microsoft Excel används inte för att generera dokument.
 
 ## **Utdataformat som stöds**
 
-Den fullständiga listan över utdataformat som stöds av Aspose.Cells för SharePoint är:
+Den fullständiga listan över utdataformat som stöds av Aspose.Cells for SharePoint är:
 
 - PDF – Adobe Portable Document
 - XLS – Microsoft Excel 97 - 2003

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 7.6.0 Release Notes
+title: Aspose.Cells for .NET 7.6.0 Release Notes
 type: docs
 weight: 20
 url: /sv/net/aspose-cells-for-net-7-6-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.6.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.6.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.6.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.6.0/)
 
 {{% /alert %}} 
 
@@ -30,7 +30,7 @@ url: /sv/net/aspose-cells-for-net-7-6-0-release-notes/
 
  Buggar
 
-41570 - Problem med konvertering av arabiska Excel till PDF
+ 41570 - Problem med konvertering av arabiska Excel till PDF
 
  41983 - Pivottabeller i XLS-filer orsakar korruption
 
@@ -40,7 +40,7 @@ url: /sv/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42012 - Formelberäkningsfråga
 
- 41997 - Japanska teckensnitts skärmproblem
+41997 - Japanska teckensnitts skärmproblem
 
  \2) Aspose.Cells.GridWeb
 

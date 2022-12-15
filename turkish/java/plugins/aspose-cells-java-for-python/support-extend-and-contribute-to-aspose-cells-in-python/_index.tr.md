@@ -9,7 +9,7 @@ Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler verme
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
 
-Aspose.Cells Java ile ilgili sorun ve önerilerinizi Python için aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz:
+Aspose.Cells Java for Python ile ilgili sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ## **Genişletin ve Katkıda Bulunun**

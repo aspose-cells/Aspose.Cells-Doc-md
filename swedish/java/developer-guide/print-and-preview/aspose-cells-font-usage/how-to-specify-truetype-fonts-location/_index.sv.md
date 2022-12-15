@@ -10,7 +10,7 @@ Den här artikeln beskriver:
 
 1. [Där Aspose.Cells API letar efter TrueType-teckensnitt](/cells/sv/java/how-to-specify-truetype-fonts-location/#where-asposecells-looks-for-truetype-fonts-on-windows).
 1. [Hur man uttryckligen anger en TrueType-teckensnittsmapp för Aspose.Cells API](/cells/sv/java/how-to-specify-truetype-fonts-location/#how-to-explicitly-specify-a-font-folder).
-1. [Så här begränsar du Aspose.Cells API till att endast använda en TrueType-teckensnittsplats](/cells/sv/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder).
+1. [Så här begränsar du Aspose.Cells API till att endast använda en plats för TrueType-teckensnitt](/cells/sv/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder).
 
 {{% /alert %}}
 
@@ -18,11 +18,11 @@ Den här artikeln beskriver:
 
 ### **Där Aspose.Cells letar efter TrueType-teckensnitt på Windows**
 
- Aspose.Cells söker efter teckensnitt i**Windows\Fonts** mapp. Den här standardinställningen fungerar för det mesta så ange bara dina egna teckensnittsmappar om du verkligen behöver det.
+ Aspose.Cells söker efter teckensnitt i**Windows\Teckensnitt** mapp. Den här standardinställningen fungerar för det mesta så ange bara dina egna teckensnittsmappar om du verkligen behöver det.
 
 ### **Där Aspose.Cells letar efter TrueType-teckensnitt på Linux**
 
-Som standard letar Aspose.Cells API efter typsnitten på alla följande platser, även om olika Linux-distributioner lagrar typsnitt i olika mappar.
+Som standard letar Aspose.Cells API efter teckensnitten på alla följande platser, även om olika Linux-distributioner lagrar teckensnitt i olika mappar.
 
 1. /usr/share/fonts
 1. /usr/local/share/fonts
@@ -53,7 +53,7 @@ Att ställa in teckensnittsmappen med någon av ovanstående metoder säkerstäl
 
 ### **Hur man begränsar Aspose.Cells till att endast använda en typsnittsmapp**
 
- Med start från Aspose.Cells för Java 8.1.0, ställ in JVM-argumenten som**-DAspose.Cells.FontDirExc="Din teckensnittskatalog**kommer att säkerställa att Aspose.Cells API endast kommer att använda teckensnittsplatsen som specificerats.
+ Med start från Aspose.Cells for Java 8.1.0, ställ in JVM-argumenten som**-DAspose.Cells.FontDirExc="Din teckensnittskatalog**kommer att se till att Aspose.Cells API endast kommer att använda teckensnittsplatsen som specificerats.
 
 Ställ in de angivna argumenten med metoden System.setProperty som visas nedan.
 

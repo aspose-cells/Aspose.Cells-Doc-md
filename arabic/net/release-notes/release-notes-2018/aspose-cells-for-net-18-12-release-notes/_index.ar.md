@@ -59,7 +59,7 @@ url: /ar/net/aspose-cells-for-net-18-12-release-notes/
 الحصول على سلسلة نمط الثقافة المستقلة لتنسيق الأرقام (بما في ذلك سلسلة النمط للرقم المضمن).
 #### **يضيف خاصية FindOptions.ValueTypeSensitive**
 يشير إلى ما إذا كان يجب أن يكون نوع قيمة الخلية التي تم البحث عنها هو نفسه مع المفتاح الذي تم البحث عنه.
-#### **تقادم FindOptions.SearchNext خاصية**
+#### **تقادم FindOptions.SearchNext الخاصية**
 استخدم خاصية FindOptions.SearchBackward بدلاً من ذلك ، القيمة الحقيقية لهذه الخاصية الجديدة تقابل خطأ SearchNext.
 #### **حذف طرق البحث Cells.FindString و FindStringStartsWith و FindStringEndsWith و FindStringContains و FindNumber القديمة**
 استخدم Cells. أوجد طريقة (كائن ، Cell ، FindOptions) بدلاً من ذلك. للحصول على نفس النتائج باستخدام الطرق FindNumber و FindString ، يرجى تعيين FindOptions.ValueTypeSensitive على أنه صحيح.

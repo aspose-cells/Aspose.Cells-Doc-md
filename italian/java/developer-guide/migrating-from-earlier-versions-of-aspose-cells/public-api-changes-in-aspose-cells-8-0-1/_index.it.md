@@ -1,5 +1,5 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.0.1
+title: Modifiche all'API pubblica in Aspose.Cells 8.0.1
 type: docs
 weight: 30
 url: /it/java/public-api-changes-in-aspose-cells-8-0-1/
@@ -12,7 +12,7 @@ Queste pagine elencano le modifiche API pubbliche introdotte in Aspose.Cells 8.0
 ## **Proprietà MemorySetting Aggiunta alla classe Cells**
 Cells ha esposto i metodi setMemorySetting e getMemorySetting che possono essere utilizzati per ottimizzare l'utilizzo della memoria per i dati delle celle e quindi ridurre il costo complessivo della memoria. L'esempio seguente mostra come scrivere dati di grandi dimensioni in un foglio di lavoro in modalità ottimizzata.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

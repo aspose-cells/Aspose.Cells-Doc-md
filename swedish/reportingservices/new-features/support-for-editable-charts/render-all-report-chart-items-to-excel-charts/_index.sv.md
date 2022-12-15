@@ -8,7 +8,7 @@ url: /sv/reportingservices/render-all-report-chart-items-to-excel-charts/
 
 Så här återger du alla diagramobjekt i en rapport som redigerbara Excel-diagram:
 
-1.  Öppna**Aspose.Cells.ReportingServices.xml** fil.
+1. Öppna**Aspose.Cells.ReportingServices.xml** fil.
 1.  Ändra konfigurationsparametrarna enligt följande:
 
 {{< highlight "java" >}}

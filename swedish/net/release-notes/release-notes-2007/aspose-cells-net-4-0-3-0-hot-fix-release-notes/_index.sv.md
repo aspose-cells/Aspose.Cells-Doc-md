@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-4-0-3-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v4.0.3!
+ Vi har släppt Aspose.Cells for .NET v4.0.3!
 
 - Bildsidhuvud/sidfot stöds nu!
  Lade till ny metod Cells.ImportDataRow.
@@ -21,4 +21,4 @@ url: /sv/net/aspose-cells-net-4-0-3-0-hot-fix-release-notes/
  Stöds TEXT-funktion i formelberäkningsmotorn.
  Lade till ApplyStyle-metoder för rader och kolumner
  Fixade buggar i kopiering av arbetsblad.
-Fixade buggar i att kombinera arbetsböcker
+ Fixade buggar i att kombinera arbetsböcker

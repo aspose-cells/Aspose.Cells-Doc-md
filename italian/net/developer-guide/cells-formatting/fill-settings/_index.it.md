@@ -12,7 +12,7 @@ Aspose.Cells supporta anche queste funzionalità in modo flessibile. In questo a
 
 ### **Impostazione di colori e motivi di sfondo**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione. Ogni elemento del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione. Ogni elemento del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
 
  Il[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) ha il[**Ottieni stile**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) e[**Imposta stile**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) metodi utilizzati per ottenere e impostare la formattazione di una cella. Il[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style)class fornisce le proprietà per impostare i colori di primo piano e di sfondo delle celle. Aspose.Cells fornisce a[**Tipo di sfondo**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)enumerazione che contiene una serie di tipi predefiniti di motivi di sfondo che sono riportati di seguito.
 
@@ -63,7 +63,7 @@ Nell'esempio seguente, il colore di primo piano della cella A1 è impostato ma A
 
 ## **Colori e tavolozza**
 
-Una tavolozza è il numero di colori disponibili per l'uso nella creazione di un'immagine. L'uso di una tavolozza standardizzata in una presentazione consente all'utente di creare un aspetto coerente. Ogni file Excel Microsoft (97-2003) ha una tavolozza di 56 colori che possono essere applicati a celle, caratteri, griglie, oggetti grafici, riempimenti e linee in un grafico.
+Una tavolozza è il numero di colori disponibili per l'uso nella creazione di un'immagine. L'uso di una tavolozza standardizzata in una presentazione consente all'utente di creare un aspetto coerente. Ogni file di Microsoft Excel (97-2003) dispone di una tavolozza di 56 colori che possono essere applicati a celle, caratteri, griglie, oggetti grafici, riempimenti e linee in un grafico.
 
 Con Aspose.Cells è possibile non solo utilizzare i colori esistenti della tavolozza ma anche colori personalizzati. Prima di utilizzare un colore personalizzato, aggiungilo prima alla tavolozza.
 
@@ -71,9 +71,9 @@ Questo argomento illustra come aggiungere colori personalizzati alla tavolozza.
 
 ### **Aggiunta di colori personalizzati alla tavolozza**
 
-Aspose.Cells supporta la tavolozza dei 56 colori di Microsoft di Excel. Per utilizzare un colore personalizzato non definito nella tavolozza, aggiungi il colore alla tavolozza.
+Aspose.Cells supporta la tavolozza dei 56 colori di Microsoft Excel. Per utilizzare un colore personalizzato non definito nella tavolozza, aggiungi il colore alla tavolozza.
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe fornisce a[**Cambia tavolozza**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) metodo che accetta i seguenti parametri per aggiungere un colore personalizzato per modificare la tavolozza:
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe fornisce a[**Cambia tavolozza**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) metodo che accetta i seguenti parametri per aggiungere un colore personalizzato per modificare la tavolozza:
 
 - Colore personalizzato, il colore personalizzato da aggiungere.
 - Indice, l'indice del colore nella tavolozza che verrà sostituito dal colore personalizzato. Dovrebbe essere compreso tra 0 e 55.

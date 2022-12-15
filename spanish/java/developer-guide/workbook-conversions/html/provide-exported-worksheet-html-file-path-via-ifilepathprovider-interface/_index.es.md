@@ -25,7 +25,7 @@ La siguiente captura de pantalla muestra cómo el*C:\Temp\Hoja1.html*y sus enlac
 
 ![todo:imagen_alternativa_texto](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Código de muestra**
- tenga en cuenta*C:\Temp* El directorio es solo para fines ilustrativos. Puede utilizar cualquier directorio de su elección y lugar[ejemplo de archivo de Excel](5473414.xlsx) dentro de allí y ejecute el código de muestra provisto. Entonces creará*Otras hojas* subdirectorio dentro de su directorio y exporte la segunda y tercera hojas de trabajo HTML dentro de él. Por favor cambie el*dirPath*variable dentro del código provisto y remítalo al directorio de su elección antes de la ejecución.
+ tenga en cuenta*C:\Temp* El directorio es solo para fines ilustrativos. Puede utilizar cualquier directorio de su elección y lugar[ejemplo de archivo de Excel](5473414.xlsx) dentro de allí y ejecute el código de muestra proporcionado. Entonces creará*Otras hojas* subdirectorio dentro de su directorio y exporte la segunda y tercera hojas de trabajo HTML dentro de él. Por favor cambie el*dirPath*variable dentro del código provisto y remítalo al directorio de su elección antes de la ejecución.
 
 {{% alert color="primary" %}} 
 

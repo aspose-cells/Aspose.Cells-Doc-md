@@ -15,13 +15,13 @@ Un objeto de una interfaz de iterador se puede utilizar para recorrer todos los 
 
 Las API Aspose.Cells proporcionan un montón de iteradores, sin embargo, este artículo analiza principalmente los tres tipos que se enumeran a continuación.
 
-1. Cells iterador
+1. Cells Iterador
 1. Iterador de filas
 1. Iterador de columnas
 
 {{% /alert %}} 
 ## **Cómo usar iteradores**
-### **Cells iterador**
+### **Cells Iterador**
 Hay varias formas de acceder al iterador de celdas, y uno puede usar cualquiera de estos métodos según los requisitos de la aplicación. Estos son los métodos que devuelven el iterador de las celdas.
 
 1. Cells.iterator
@@ -101,7 +101,7 @@ Un requisito de la aplicación es recorrer todas las celdas de una hoja de traba
 Como puede observar, los dos enfoques mencionados anteriormente utilizan una lógica más o menos similar, es decir; recorra todas las celdas de la colección para leer los valores de las celdas. Esto podría ser problemático por varias razones, como se analiza a continuación.
 
 1. Las API como MaxRow, MaxDataRow, MaxColumn, MaxDataColumn y MaxDisplayRange requieren más tiempo para recopilar las estadísticas correspondientes. En caso de que la matriz de datos (filas x columnas) sea grande, el uso de estas API podría penalizar el rendimiento.
-1. En la mayoría de los casos, no se instancian todas las celdas en un rango determinado. En tales situaciones, verificar cada celda de la matriz no es tan eficiente en comparación con verificar solo las celdas inicializadas.
+1. En la mayoría de los casos, no se instancian todas las celdas en un rango dado. En tales situaciones, verificar cada celda de la matriz no es tan eficiente en comparación con verificar solo las celdas inicializadas.
 1. Acceder a una celda en un bucle como Cells.get(rowIndex, columnIndex) hará que se creen instancias de todos los objetos de celda en un rango, lo que eventualmente puede causar OutOfMemoryError.
 ##### **Conclusión**
 Con base en los hechos mencionados anteriormente, a continuación se muestran los posibles escenarios en los que se deben usar los iteradores.

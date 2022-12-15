@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 18.7 Release Notes
+title: Aspose.Cells for .NET 18.7 Release Notes
 type: docs
 weight: 60
 url: /sv/net/aspose-cells-for-net-18-7-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 18.7](https://www.nuget.org/packages/Aspose.Cells/18.7.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 18.7](https://www.nuget.org/packages/Aspose.Cells/18.7.0).
 
 {{% /alert %}} 
 
@@ -27,7 +27,7 @@ url: /sv/net/aspose-cells-for-net-18-7-release-notes/
 |CELLSNET-46193|Validering fungerar inte i XLS-format men det fungerar bra i XLSX-format|Insekt|
 |CELLSNET-46189|Utdata-PDF-dokumentet är inte detsamma som MS Excel-utdata|Insekt|
 |CELLSNET-46187|Dubbel understruken längd är inte korrekt - Excel till PDF-konvertering|Insekt|
-|CELLSNET-46213|OLE-objekt trasiga under lagring till XLSB|Insekt|
+|CELLSNET-46213|OLE-objekt trasigt under lagring till XLSB|Insekt|
 |CELLSNET-46210|Det fungerar inte att skapa kommentarer med HtmlNote-egenskapen|Insekt|
 |CELLSNET-46198|Tom PDF skapad vid konvertering av XLSX till PDF|Insekt|
 |CELLSNET-46196|Diagramhöjden ändras i utdatafilen när arbetsböcker kombineras|Insekt|
@@ -38,8 +38,8 @@ url: /sv/net/aspose-cells-for-net-18-7-release-notes/
 |CELLSNET-46207|Undantag för index utanför intervallet i metoden SheetRender.ToImage|Undantag|
 |CELLSNET-46206|Undantag "Ogiltiga parametrar för funktion om fel..." när en Excel-fil laddas|Undantag|
 |CELLSNET-46199|Ogiltigt undantag för PatternType-strängvärde när en fil laddas|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till enum StyleFlag.Alignments**
 Representerar alla inställningar för justering.
 #### **Lägger till egenskaperna WorkbookSettings.MaxRow och WorkbookSettings.MaxColumn**

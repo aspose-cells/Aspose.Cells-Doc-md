@@ -7,7 +7,7 @@ url: /tr/java/adding-html-rich-text-inside-the-cell/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells, Microsoft Excel odaklı HTML'yi XLS/XLSX formatına dönüştürmeyi destekler. Bunun anlamı, Microsoft Excel tarafından oluşturulan HTML, Aspose.Cells kullanılarak tekrar XLS/XLSX biçimine dönüştürülebilir.
+Aspose.Cells, Microsoft Excel odaklı HTML'yi XLS/XLSX biçimine dönüştürmeyi destekler. Bunun anlamı, Microsoft Excel tarafından oluşturulan HTML, Aspose.Cells kullanılarak tekrar XLS/XLSX biçimine dönüştürülebilir.
 
  Benzer şekilde, bazı basit HTML varsa, Aspose.Cells bunu HTML Zengin Metnine dönüştürebilir. Aspose.Cells sağlar[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) Bu kadar basit bir HTML'yi alıp biçimlendirilmiş hücre metnine dönüştürebilen özellik.
 

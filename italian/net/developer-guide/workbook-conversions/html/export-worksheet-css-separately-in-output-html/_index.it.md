@@ -10,7 +10,7 @@ url: /it/net/export-worksheet-css-separately-in-output/
 
 ## **Esporta foglio di lavoro CSS separatamente nell'output HTML**
 
-Il seguente codice di esempio crea un file Excel, aggiunge del testo nella cella**B5** in**Rosso** color e poi lo salva in formato HTML usando[**HtmlSaveOptions.ExportWorksheetCSSSeparately**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately)proprietà. Si prega di consultare il[output HTML](60489766.zip) generato dal codice per riferimento. Troverai**foglio di stile.css**al suo interno come risultato del codice di esempio.
+Il seguente codice di esempio crea un file Excel, aggiunge del testo nella cella**B5** in**Rosso** color e poi lo salva in formato HTML usando[**HtmlSaveOptions.ExportWorksheetCSSSeparately**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately) proprietà. Si prega di consultare il[output HTML](60489766.zip) generato dal codice per riferimento. Troverai**foglio di stile.css**al suo interno come risultato del codice di esempio.
 
 ## **Codice di esempio**
 

@@ -6,7 +6,7 @@ url: /ru/cpp/aspose-cells-for-cpp-22-11-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Эта страница содержит примечания к выпуску для Aspose.Cells для C++ 22.11 для Windows.
+Эта страница содержит примечания к выпуску для Aspose.Cells for C++ 22.11 для Windows.
 
 {{% /alert %}}
 

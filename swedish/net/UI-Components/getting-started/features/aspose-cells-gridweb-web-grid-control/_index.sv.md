@@ -58,4 +58,4 @@ url: /sv/net/aspose-cells-gridweb-web-grid-control/
 - Microsoft Excel 2010
 - Microsoft Excel 2013
 ### **Plattformar som stöds**
-- ASP.NET webbformulär
+- ASP.NET Webbformulär

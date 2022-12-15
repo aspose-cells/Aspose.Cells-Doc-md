@@ -6,9 +6,9 @@ url: /sv/java/managing-ole-objects/
 ---
 ## **Introduktion**
 
-OLE (Object Linking and Embedding) är Microsofts ramverk för en sammansatt dokumentteknologi. Kortfattat är ett sammansatt dokument något som ett skärmskrivbord som kan innehålla visuella objekt och informationsobjekt av alla slag: text, kalendrar, animationer, ljud, rörlig video, 3D, ständigt uppdaterade nyheter, kontroller och så vidare. Varje skrivbordsobjekt är en oberoende programenhet som kan interagera med en användare och även kommunicera med andra objekt på skrivbordet.
+OLE (Object Linking and Embedding) är Microsoft:s ramverk för en sammansatt dokumentteknologi. Kortfattat är ett sammansatt dokument något som ett skärmskrivbord som kan innehålla visuella objekt och informationsobjekt av alla slag: text, kalendrar, animationer, ljud, rörlig video, 3D, ständigt uppdaterade nyheter, kontroller och så vidare. Varje skrivbordsobjekt är en oberoende programenhet som kan interagera med en användare och även kommunicera med andra objekt på skrivbordet.
 
- OLE (Object Linking and Embedding) stöds av många olika program och används för att göra innehåll skapat i ett program tillgängligt i ett annat. Du kan till exempel infoga ett Microsoft Word-dokument i Microsoft Excel. Klicka på för att se vilka typer av innehåll du kan infoga**Objekt** på**Föra in** meny. Endast program som är installerade på datorn och som stöder OLE-objekt visas i**Objekttyp** låda.
+ OLE (Object Linking and Embedding) stöds av många olika program och används för att göra innehåll skapat i ett program tillgängligt i ett annat. Till exempel kan du infoga ett Microsoft Word-dokument i Microsoft Excel. Klicka på för att se vilka typer av innehåll du kan infoga**Objekt** på**Föra in** meny. Endast program som är installerade på datorn och som stöder OLE-objekt visas i**Objekttyp** låda.
 
 ## **Infoga OLE-objekt i ett kalkylblad**
 

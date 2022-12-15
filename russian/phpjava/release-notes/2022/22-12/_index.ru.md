@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для PHP через Java 22.12 Примечания к выпуску
+title: Aspose.Cells for PHP via Java 22.12 Примечания к выпуску
 type: docs
 weight: 1
 url: /ru/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для PHP через Java 22.12](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.12/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for PHP via Java 22.12](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.12/).
 
 {{% /alert %}}
 
@@ -35,7 +35,7 @@ url: /ru/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 
 ### **Добавляет перечисление JsonExportHyperlinkType**
 
-Представляет тип экспорта гиперссылки в файлы JSON.
+Представляет тип экспорта гиперссылки в файлы json.
 
 ### **Добавляет JsonUtility.ExportRangeToJson(Range, JsonSaveOptions) и устаревает метод ExportRangeToJson(Range, ExportRangeToJsonOptions)**
 

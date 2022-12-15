@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 5.3.2 Release Notes
+title: Aspose.Cells for .NET 5.3.2 Release Notes
 type: docs
 weight: 80
 url: /sv/net/aspose-cells-for-net-5-3-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 5.3.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.3.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 5.3.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.3.2/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v5.3.2!
+ Vi är glada att meddela Aspose.Cells for .NET v5.3.2!
 
  Vad har ändrats i Aspose.Cells:
 
@@ -31,7 +31,7 @@ url: /sv/net/aspose-cells-for-net-5-3-2-release-notes/
 
 - 1 fix.
 
- Problem lösta i Aspose.Cells för .NET v5.3.2.
+ Problem lösta i Aspose.Cells for .NET v5.3.2.
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
@@ -51,10 +51,10 @@ url: /sv/net/aspose-cells-for-net-5-3-2-release-notes/
 |25365 | Pdf| Formatering av enskilda tecken till fetstil|
 |25490 | Pdf| Får fel vid sammanslagning av tomma Excel-dokument|
 |25615 | Pdf| PDF-konverteringsproblem|
-|24199 | Pivottabell|PivotTable RefreshData ger undantag|
+|24199 | Pivottabell| PivotTable RefreshData ger undantag|
 |25267 | Pivottabell| Problem med pivottabell|
 |24577 | Xls| AutoFitColumn ställer inte in bredd korrekt|
-|25329 | Xls| OutOfMemoryException när du öppnar Excel med två former|
+|25329 | Xls|OutOfMemoryException när du öppnar Excel med två former|
 |25404 | Xls| Kontrollera om sjökortet är ett 3D-diagram|
 |25412 | Xls| Snabbare sätt att ersätta alla formler med värde|
 |25422 | Xls| Bugg med bildformat|
@@ -75,9 +75,9 @@ url: /sv/net/aspose-cells-for-net-5-3-2-release-notes/
 |25391 | Xlsx| Knappen glider åt vänster efter varje Spara|
 |25421 | Xlsx| Diagram: Typ av axeländringar|
 |25430 | Xlsx| Radioknapparna fungerar inte som förväntat|
-|25508 | Xlsx|Excel 2007-diagram med VBA-kodproblem|
+|25508 | Xlsx| Excel 2007-diagram med VBA-kodproblem|
 |25510 | Xlsx| Inbäddade objekt stannar inte på samma plats|
 |25555 | Xlsx| Diagrammen kopieras inte korrekt|
-|25677 | Xlsx| Aspose.Cells lägger till ram till bitmappar när du sparar i Excel 2007-format|
+|25677 | Xlsx|Aspose.Cells lägger till ram till bitmappar när du sparar i Excel 2007-format|
 |25906 | Xlsx| Ogiltig rotation av bocketiketter|
 

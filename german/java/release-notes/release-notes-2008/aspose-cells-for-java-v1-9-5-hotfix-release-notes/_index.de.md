@@ -12,7 +12,7 @@ url: /de/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  Sehr geehrte Kunden,
 
- Wir haben Aspose.Cells for Java V1.9.5 freigegeben!
+ Wir haben Aspose.Cells for Java V1.9.5 veröffentlicht!
 
  *Was gibt's Neues?
 

@@ -5,7 +5,7 @@ weight: 160
 url: /tr/reportingservices/working-with-table-hide-attributes/
 ---
 1.  Microsoft Excel'de, tıklayın**Niteliği Değiştir** Aspose.Cells komut çubuğunda.
- Raporu Değiştir iletişim kutusu görünür.
+Raporu Değiştir iletişim kutusu görünür.
 1. Bir tablo raporu öğesi seçin.
 1.  Tıkla**Saklamak** sekme.
 

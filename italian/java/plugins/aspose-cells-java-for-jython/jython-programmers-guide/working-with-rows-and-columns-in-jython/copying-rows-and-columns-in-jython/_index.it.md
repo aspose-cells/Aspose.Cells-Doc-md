@@ -21,7 +21,7 @@ classe RowsAndColumns:
 
 
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
+dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
@@ -55,13 +55,13 @@ classe RowsAndColumns:
 
  # Salvataggio del file Excel modificato nel formato predefinito (ovvero Excel 2003).
 
-workbook.save(dataDir + "Copy Rows.xls")
+ workbook.save(dataDir + "Copy Rows.xls")
 
  print "Copia le righe con successo."
 
 
 
- def copia_colonne(dataDir):
+def copia_colonne(dataDir):
 
  dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
 

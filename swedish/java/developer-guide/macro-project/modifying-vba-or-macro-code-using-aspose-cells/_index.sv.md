@@ -40,7 +40,7 @@ End Sub
 
 {{< /highlight >}}
 
- Du kan ladda ner[källfil för Excel](5472596.xlsm) och den[utdata Excel-fil](5472597.xlsm) från de angivna länkarna.
+ Du kan ladda ner[käll Excel-fil](5472596.xlsm) och den[utdata Excel-fil](5472597.xlsm) från de angivna länkarna.
 
 
 

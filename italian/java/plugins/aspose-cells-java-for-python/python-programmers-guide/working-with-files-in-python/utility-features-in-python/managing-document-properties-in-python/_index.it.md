@@ -7,7 +7,7 @@ url: /it/java/managing-document-properties-in-python/
 ## **Aspose.Cells - Gestione Proprietà Documento**
 Gli sviluppatori possono utilizzare il**Indice**o**Nome** della proprietà per ottenere una proprietà specifica da a**proprietà_personalizzate**raccolta come mostrato di seguito nell'esempio.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

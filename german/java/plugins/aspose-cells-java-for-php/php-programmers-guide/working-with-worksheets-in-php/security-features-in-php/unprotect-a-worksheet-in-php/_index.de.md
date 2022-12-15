@@ -5,7 +5,7 @@ weight: 20
 url: /de/java/unprotect-a-worksheet-in-php/
 ---
 ## **Aspose.Cells – Schutz eines Arbeitsblatts aufheben**
- Arbeitsblatt mit schützen**Aspose.Cells Java für PHP** , Anruf**unprotect_worksheet** Methode von**Schutz** Modul.
+ Arbeitsblatt mit schützen**Aspose.Cells Java for PHP** , Anruf**unprotect_worksheet** Methode von**Schutz** Modul.
 
 **PHP-Code**
 

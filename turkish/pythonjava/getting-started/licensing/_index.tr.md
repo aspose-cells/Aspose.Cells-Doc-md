@@ -6,7 +6,7 @@ url: /tr/python-java/licensing/
 ---
 {{% alert color="primary" %}} 
 
- değerlendirme sürümünü yükleyebilirsiniz.**Aspose.Cells** Python için Java ile `pip install aspose-cells` aracılığıyla. Değerlendirme sürümü, ürünün lisanslı sürümüyle kesinlikle aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde, değerlendirme sürümü kolayca lisanslanır.
+ değerlendirme sürümünü yükleyebilirsiniz.**Aspose.Cells** for Python via Java ile `pip install aspose-cells`. Değerlendirme sürümü, ürünün lisanslı sürümü ile tamamen aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde, değerlendirme sürümü kolayca lisanslanır.
 
  Değerlendirmenizden memnun olduğunuzda**Aspose.Cells** , yapabilirsiniz[lisans satın al](https://purchase.aspose.com)Aspose web sitesinde. Sunulan farklı abonelik türleri hakkında bilgi sahibi olun. Herhangi bir sorunuz varsa, Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
 
@@ -49,7 +49,7 @@ Lisans, aşağıdaki konumlardaki bir dosyadan yüklenebilir:
 
 ### **Örnek**
 
- Bu örnekte**Aspose.Cells**çalışma klasörünüzdeki lisans dosyasını bulmaya çalışacaktır.
+ Bu örnekte**Aspose.Cells** çalışma klasörünüzdeki lisans dosyasını bulmaya çalışacaktır.
 
 {{< highlight "python" >}}
 

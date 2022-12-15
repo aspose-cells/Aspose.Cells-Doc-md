@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells .NET لـ PHP
+title: Aspose.Cells .NET for PHP
 type: docs
 weight: 40
 url: /ar/net/aspose-cells-net-for-php/
@@ -12,7 +12,7 @@ url: /ar/net/aspose-cells-net-for-php/
 
 #### **متطلبات النظام**
 
-**فيما يلي متطلبات النظام لاستخدام Aspose.Cells .NET لـ PHP:**
+**فيما يلي متطلبات النظام لاستخدام Aspose.Cells .NET for PHP:**
 
 - IIS مع PHP و PHP Manager مثبتين.
 - Aspose.Total واجهات برمجة التطبيقات.
@@ -29,7 +29,7 @@ url: /ar/net/aspose-cells-net-for-php/
 
 #### **تحميل المكتبات المطلوبة**
 
-تحميل المكتبات المطلوبة المذكورة أدناه. هذه هي المطلوبة لتنفيذ Aspose.Cells Java لأمثلة PHP.
+تحميل المكتبات المطلوبة المذكورة أدناه. هذه هي المطلوبة لتنفيذ Aspose.Cells Java for PHP أمثلة.
 
 - [قم بتنزيل ملفات Aspose.Cells for .NET (DLL أو MSI) من قسم التنزيل](https://downloads.aspose.com/cells/net)
 - [تحميل Aspose.Cells for .NET interop dll](https://downloads.aspose.com/cells/net)
@@ -46,9 +46,9 @@ url: /ar/net/aspose-cells-net-for-php/
 
 ##### **جيثب**
 
-- **Aspose.Cells .NET لأمثلة PHP**
+- **Aspose.Cells .NET for PHP أمثلة**
 
-  - [Aspose.Cells .NET لـ PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+  - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
 #### **كيفية تكوين كود المصدر على النظام الأساسي Windows**
 
@@ -76,7 +76,7 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 في IIS ، افتح PHP Manager ، ثم انقر فوق "Enable to Disable and Extension". ابحث عن ملف php_كوم_dotnet.dll وتأكد من تمكينه.
 
-##### **3. قم بتكوين Aspose.Cells .NET لأمثلة PHP**
+##### **3. قم بتكوين Aspose.Cells .NET for PHP أمثلة**
 
 ###### **طريقة 1**
 
@@ -125,13 +125,13 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 هذا هو السبب في أننا نقدم الدعم المجاني. أي شخص يستخدم منتجاتنا ، سواء اشتراها أو استخدم تقييمًا ، يستحق كامل اهتمامنا واحترامنا.
 
-يمكنك تسجيل أي مشكلات أو اقتراحات تتعلق بـ Aspose.Cells .NET لـ PHP باستخدام أي من الأنظمة الأساسية التالية:
+يمكنك تسجيل أي مشكلات أو اقتراحات تتعلق بـ Aspose.Cells .NET for PHP باستخدام أي من الأنظمة الأساسية التالية:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 #### **تمديد والمساهمة**
 
-Aspose.Cells .NET لـ PHP مفتوح المصدر وكود المصدر الخاص به متاح على مواقع الترميز الاجتماعي الرئيسية المدرجة أدناه. يتم تشجيع المطورين على تنزيل الكود المصدري والمساهمة من خلال اقتراح أو إضافة ميزة جديدة أو تحسين الميزات الموجودة ، بحيث يمكن للآخرين الاستفادة منها أيضًا.
+Aspose.Cells .NET for PHP مفتوح المصدر وكود المصدر الخاص به متاح على مواقع الترميز الاجتماعي الرئيسية المدرجة أدناه. يتم تشجيع المطورين على تنزيل الكود المصدري والمساهمة من خلال اقتراح أو إضافة ميزة جديدة أو تحسين الميزات الموجودة ، بحيث يمكن للآخرين الاستفادة منها أيضًا.
 
 #### **مصدر الرمز**
 
@@ -152,7 +152,7 @@ Aspose.Cells .NET لـ PHP مفتوح المصدر وكود المصدر الخ�
       - [تشفير الملفات في PHP](/cells/ar/net/encrypting-files-in-php/)
       - [Excel لتحويل PDF في PHP](/cells/ar/net/excel-to-pdf-conversion-in-php/)
       - [إدارة خصائص الوثيقة في PHP](/cells/ar/net/managing-document-properties-in-php/)
-      - [ورقة عمل لتحويل الصورة في PHP](/cells/ar/net/worksheet-to-image-conversion-in-php/)
+      - [ورقة العمل لتحويل الصورة في PHP](/cells/ar/net/worksheet-to-image-conversion-in-php/)
   - [العمل مع الصيغ في PHP](/cells/ar/net/working-with-formulas-in-php/)
     - [حساب الصيغ في PHP](/cells/ar/net/calculating-formulas-in-php/)
   - [العمل مع أوراق العمل في PHP](/cells/ar/net/working-with-worksheets-in-php/)

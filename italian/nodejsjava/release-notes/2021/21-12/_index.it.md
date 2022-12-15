@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Node.js tramite Java 21.12 Note di rilascio
+title: Aspose.Cells for Node.js via Java 21.12 Note di rilascio
 type: docs
 weight: 1
 url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Node.js tramite Java 21.12](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.12/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Node.js via Java 21.12](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.12/).
 
 {{% /alert %}}
 
@@ -29,9 +29,9 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 |CELLSJAVA-44071|com.aspose.cells.CellsException: hai inserito troppi pochi parametri per la funzione IF quando chiami Workbook.calculateFormula()|
 |CELLSJAVA-44104|NullPointerException durante l'importazione di SpreadSheetML|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Ulteriori vincoli per l'aggiunta di aree per la convalida.**
 
@@ -39,7 +39,7 @@ Abbiamo modificato il modello di area per la convalida e la formattazione condiz
 
 ### **Comportamento modificato per la modifica delle aree di convalida/formattazione condizionale.**
 
-Per Validation e ConditionalFormatting, nelle vecchie versioni le loro aree possono essere supportate dall'oggetto CellArea ottenuto o impostato su di esse. Quindi, se l'utente modifica il valore del campo dell'oggetto CellArea, anche le aree possono essere modificate e viceversa. In realtà questo è un risultato inaspettato dal punto di vista del design API. Da questa versione, questo effetto collaterale è stato rimosso e l'utente non può più modificare le aree modificando l'oggetto CellArea.
+Per Validation e ConditionalFormatting, nelle vecchie versioni le loro aree possono essere supportate dall'oggetto CellArea ottenuto o impostato su di esse. Quindi, se l'utente modifica il valore del campo dell'oggetto CellArea, anche le aree possono essere modificate e viceversa. In realtà questo è un risultato inaspettato dal punto di vista del design dell'API. Da questa versione, questo effetto collaterale è stato rimosso e l'utente non può più modificare le aree modificando l'oggetto CellArea.
 
 ### **Comportamento modificato per l'aggiunta della condizione di formato in FormatConditionCollection.**
 

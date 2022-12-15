@@ -20,7 +20,7 @@ Det här avsnittet visar hur du använder Aspose.Cells.GridWeb genom att skapa e
 
  Dialogrutan Ny webbplats öppnas.
 
-1.  Välj**ASP.NET Web Forms Site** från Visual Studio installerade mallar.
+1.  Välj**ASP.NET Webbformulär** från Visual Studio installerade mallar.
 1.  Välj HTTP-läge för platsen för webbplatsen.
 
 ![todo:image_alt_text](working-with-visual-studio_2.png)
@@ -38,7 +38,7 @@ Det här avsnittet visar hur du använder Aspose.Cells.GridWeb genom att skapa e
  Dialogrutan Välj plats visas.
 
 1.  Klicka på**Lokal IIS** flik.
- Alla mappar och webbapplikationer som är lagrade i din IIS-rotmapp visas (till exempel: C:\Inetpub\wwwroot).
+Alla mappar och webbapplikationer som är lagrade i din IIS-rotmapp visas (till exempel: C:\Inetpub\wwwroot).
 
 ![todo:image_alt_text](working-with-visual-studio_4.png)
 

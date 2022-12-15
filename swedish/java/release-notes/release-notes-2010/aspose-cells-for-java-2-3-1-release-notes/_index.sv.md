@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 2.3.1 Release Notes
+title: Aspose.Cells for Java 2.3.1 Release Notes
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-java-2-3-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.3.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.3.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.3.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.3.1/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java 2.3.1!
+ Vi är glada att meddela Aspose.Cells for Java 2.3.1!
 
  Vad har ändrats:
 
@@ -27,7 +27,7 @@ url: /sv/java/aspose-cells-for-java-2-3-1-release-notes/
 - En förbättring har gjorts för att läsa XLS-mallfiler.
 - 25 korrigeringar och andra förbättringar.
 
- Problem lösta i Aspose.Cells för Java 2.3.1
+ Problem lösta i Aspose.Cells for Java 2.3.1
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |

@@ -1,16 +1,16 @@
 ﻿---
-title: Raporlama Hizmetleri 2.2.0 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 2.2.0 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/reportingservices/aspose-cells-for-reporting-services-2-2-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[Raporlama Hizmetleri 2.2.0 için Aspose.Cells](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-2.2.0/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Reporting Services 2.2.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-2.2.0/)
 
 {{% /alert %}} 
 
-Lütfen Reporting Services V2.2.0 için yeni bir Aspose.Cells sürümüne hoş geldiniz.
+Lütfen Aspose.Cells for Reporting Services V2.2.0'ın yeni sürümünü karşılayın.
 
  Başlıca Özellikler
 
@@ -66,7 +66,7 @@ Lütfen Reporting Services V2.2.0 için yeni bir Aspose.Cells sürümüne hoş g
 
 (SSRS-40181) Aspose.Cells 2.1.0'da Belge Haritası Yok
 
-(SSRS-40180) Otomatik olarak "tanımlı adlar" oluşturmak mümkün mü?
+(SSRS-40180) Otomatik olarak "tanımlı adlar" oluşturmak mümkün müdür?
 
 (SSRS-40179) Dışa aktarmada istisna oluşuyor - Ayrıştırılamayan ek karakterler dizenin sonunda.
 

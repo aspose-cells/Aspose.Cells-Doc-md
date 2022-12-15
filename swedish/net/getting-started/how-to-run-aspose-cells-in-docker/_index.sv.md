@@ -7,7 +7,7 @@ url: /sv/net/how-to-run-aspose-cells-in-docker/
 ---
 Mikrotjänster i samband med containerisering gör det möjligt att enkelt kombinera teknologier. Docker låter dig enkelt integrera Aspose.Cells-funktionalitet i din applikation, oavsett vilken teknik som finns i din utvecklingsstack.
 
-Om du riktar in dig på mikrotjänster, eller om huvudtekniken i din stack inte är .NET, C++ eller Java, men du behöver Aspose.Cells-funktionalitet, eller om du redan använder Docker i din stack, kan du vara intresserad av att använda Aspose.Cells i en Dockercontainer.
+Om du riktar in dig på mikrotjänster, eller om huvudtekniken i din stack inte är .NET, C++ eller Java, men du behöver Aspose.Cells-funktionalitet, eller om du redan använder Docker i din stack, kan du vara intresserad av att använda Aspose.Cells i en Docker behållare.
 
 ## Förutsättningar
 
@@ -30,7 +30,7 @@ För att skapa programmet Hello World, följ stegen nedan:
 ![todo:image_alt_text](nuget-aspose-cells.png)<br>
 1. Eftersom programmet kommer att köras på Linux måste lämpliga inbyggda Linux-tillgångar installeras. Börja med dotnet core sdk 3.1 basavbildningen och installera libgdiplus libc6-dev.
 1. När alla nödvändiga beroenden har lagts till, skriv ett enkelt program som skapar ett "Hello World!" arbetsbok och sparar den i alla sparade format som stöds:<br>
-**.NETTO**<br>
+**.NET**<br>
 {{< highlight "csharp" >}}
 using System;
 namespace Aspose.Cells.Docker
@@ -113,12 +113,12 @@ Var uppmärksam på mount-argumentet, eftersom, som nämnts tidigare, en mapp p�
 
 ## Bilder som stöder Aspose.Cells
 
-- Aspose.Cells för .NET Standard stöder inte EMF och TIFF på Linux.
+- Aspose.Cells for .NET Standard stöder inte EMF och TIFF på Linux.
 
 
 ## Fler exempel
 
-***1. För att köra programmet i Windows Server 2019***
+***1. För att köra applikationen i Windows Server 2019***
 
 - Dockerfil
 

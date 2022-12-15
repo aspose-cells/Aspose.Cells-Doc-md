@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells per .Net V4.5.1 Note sulla versione dell'aggiornamento rapido
+title: Aspose.Cells per .Net V4.5.1 Note sulla versione dell'hotfix
 type: docs
 weight: 10
 url: /it/net/aspose-cells-for-net-v4-5-1-hotfix-release-notes/

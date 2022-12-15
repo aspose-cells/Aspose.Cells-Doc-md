@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 18.9 Note di rilascio
+title: Aspose.Cells for Android via Java 18.9 Note di rilascio
 type: docs
 weight: 20
 url: /it/java/aspose-cells-for-android-via-java-18-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 18.9.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 18.9.
 
 {{% /alert %}}
 
@@ -25,7 +25,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42656|AlternativeText restituisce il valore del commento Text|Insetto|
 |CELLSJAVA-42635|Da HTML a XLS - Stile CSS ignorato|Insetto|
 |CELLSJAVA-41176|Allineamento errato durante il rendering del foglio di calcolo in formato PDF|Insetto|
-|CELLSJAVA-42676|I dati della tabella sono stati spostati in righe e colonne errate durante la conversione dal formato di file HTML a MS Excel|Insetto|
+|CELLSJAVA-42676|I dati della tabella sono stati spostati nella riga e nella colonna sbagliate durante la conversione dal formato di file HTML a MS Excel|Insetto|
 |CELLSJAVA-41670|La posizione dell'immagine del grafico è errata in Chrome e FireFox durante la conversione in HTML|Insetto|
 |CELLSJAVA-41245|Il controllo Slicer non viene visualizzato durante la conversione di file Excel in formato file HTML|Insetto|
 |CELLSJAVA-42684|La linea verticale al centro del grafico non è disegnata correttamente nell'immagine renderizzata|Insetto|
@@ -60,9 +60,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42411|Errore in Cell: E22-Formula non valida - eccezione all'apertura del file MS Excel|Eccezione|
 |CELLSJAVA-42691|NegativeArraySizeException durante la conversione di XLSX in HTML|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge enum StyleFlag.Alignments**
 
@@ -182,6 +182,6 @@ Ottiene un XmlDataBinding di questa mappa.
 
 {{% alert color="primary" %}}
 
-Poiché la base di codice di Aspose.Cells per Android tramite Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, miglioramenti e correzioni inclusi in Aspose.Cells for .NET v18.7, Aspose.Cells 0761734481 v18.81 for .NET v18.7, Aspose.Cells 0761734481 v18.81 for .NET 08186 v18.7, Aspose.Cells 0761734481 v18.81 08186 v18.81 9, Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 e Aspose.Cells for Java v18.9 sono inclusi anche in questo Aspose.Cells per Android tramite Java v18.9.
+Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni sono incluse in Aspose.Cells for .NET v18.7, Aspose.Cells for .NET v18.8, 07617634181 v18.7, Aspose.Cells for .NET v18.8, 07617634181 v18. , Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 e Aspose.Cells for Java v18.9 sono inclusi anche in questo Aspose.Cells for Android via Java v18.9
 
 {{% /alert %}}

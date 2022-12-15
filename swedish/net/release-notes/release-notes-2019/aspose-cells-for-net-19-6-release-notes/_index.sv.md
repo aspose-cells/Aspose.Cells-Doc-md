@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 19.6 Release Notes
+title: Aspose.Cells for .NET 19.6 Release Notes
 type: docs
 weight: 70
 url: /sv/net/aspose-cells-for-net-19-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 19.6](https://www.nuget.org/packages/Aspose.Cells/19.6.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 19.6](https://www.nuget.org/packages/Aspose.Cells/19.6.0).
 
 {{% /alert %}} 
 
@@ -47,8 +47,8 @@ url: /sv/net/aspose-cells-for-net-19-6-release-notes/
 |CELLSNET-46043|System.InvalidCastException|Undantag|
 |CELLSNET-46510|Form till bild-fel! när du konverterar XLSX till PDF|Undantag|
 |CELLSNET-46765|Undantag "System.StackOverflowException" vid rendering av en Excel-fil till PDF-filformat|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till enum FileFormatType.FODS,FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS och SaveFormat.SXC**
 Representerar filformatstyperna .FODS och .SXC.
 #### **Lägger till enum WarningType.UnsupportedFileFormat**

@@ -12,7 +12,7 @@ Aspose.Cells supporta questa funzionalità di Microsoft Excel per tabelle e ogge
 
 {{% /alert %}}
 
-## **Utilizzando Microsoft Excel**
+## **Utilizzo di Microsoft Excel**
 
  Utilizzare il**Converti in intervallo** funzionalità per convertire rapidamente una tabella in un intervallo senza perdere la formattazione. In Microsoft Excel 2007/2010:
 

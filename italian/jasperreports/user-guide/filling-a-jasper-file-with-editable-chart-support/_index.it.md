@@ -6,7 +6,7 @@ url: /it/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells per JasperReports richiede che un file .jasper venga inserito in un oggetto .jrprint o JasperPrint prima che possa essere esportato in un file XLS. Non è necessaria alcuna modifica per il file .jrxml. La procedura di riempimento memorizza le rappresentazioni interne dei grafici nell'oggetto JasperPrint che viene quindi utilizzato per generare grafici modificabili.
+ Aspose.Cells for JasperReports richiede che un file .jasper venga inserito in un oggetto .jrprint o JasperPrint prima che possa essere esportato in un file XLS. Non è necessaria alcuna modifica per il file .jrxml. La procedura di riempimento memorizza le rappresentazioni interne dei grafici nell'oggetto JasperPrint che viene quindi utilizzato per generare grafici modificabili.
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ Si prega di leggere la documentazione di JasperReports per una descrizione detta
 
 Ecco un esempio:
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

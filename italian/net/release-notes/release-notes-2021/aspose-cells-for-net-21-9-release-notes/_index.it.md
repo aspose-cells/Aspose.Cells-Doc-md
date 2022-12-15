@@ -30,7 +30,7 @@ url: /it/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNETCORE-137|Freccia mancante durante la conversione di Excel in SVG|Insetto|
 |CELLSNET-49045|Altezza celle errata osservata in GridWeb durante il caricamento del file allegato|Insetto|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode non funzionante|Insetto|
-|CELLSNET-40974| Conversione da Excel a Xps: il link non è cliccabile dopo la conversione effettuata .NET|Insetto|
+|CELLSNET-40974| Conversione da Excel a Xps: il collegamento non è cliccabile dopo la conversione effettuata .NET|Insetto|
 |CELLSNET-48540| Le linee sono diventate tratteggiate sulle barre dei dati in Emf/OfficeCompatibleEmf|Insetto|
 |CELLSNET-48609|Problema di differenza dei caratteri durante il confronto con l'immagine ExcelInterop|Insetto|
 |CELLSNET-48983| Sheet to Emf lascia i bordi del bordo disegnati in modo errato|Insetto|
@@ -62,9 +62,9 @@ url: /it/net/aspose-cells-for-net-21-9-release-notes/
 |
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà AutoFitterOptions.FormatStrategy.**
 
@@ -80,5 +80,5 @@ Elimina la tabella pivot specificata e controlla se conservare i dati delle cell
 
 ### **Aggiunge la proprietà ImageOrPrintOptions.IsOptimized.**
 
- Indica se ottimizzare gli elementi di output. Il valore predefinito è falso. Attualmente solo le linee di confine sono ottimizzate quando questa proprietà è impostata su true.
+ Indica se ottimizzare gli elementi di output. Il valore predefinito è false. Attualmente solo le linee di confine sono ottimizzate quando questa proprietà è impostata su true.
 

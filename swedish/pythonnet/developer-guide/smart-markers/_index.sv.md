@@ -4,7 +4,7 @@ linktitle: Smarta markörer
 type: docs
 weight: 190
 url: /sv/python-net/using-smart-markers/
-description: Smart import och placering av data som följer Excel-mallen med Aspose.Cells för Python via .Net-biblioteket.
+description: Smart importera och placera data som följer mallen Excel-filer med Aspose.Cells for Python via .Net-biblioteket.
 ---
 ## **Introduktion**
 **Smarta markörer**används för att låta Aspose.Cells veta vilken information som ska placeras i ett Microsoft Excel-designark. Smarta markörer låter dig skapa mallar som bara innehåller specifik information och formatering.
@@ -30,7 +30,7 @@ Följande parametrar är tillåtna:
 - **stigande:n** eller**fallande:n** - Sortera data i smarta markörer. Om n är 1, är kolumnen den första nyckeln i sorteraren. Data sorteras efter bearbetning av datakällan. Till exempel: &=Tabell1.Fält3(stigande:1).
 - **horisontell** - Skriv data från vänster till höger, istället för från topp till botten.
 - **numerisk** - Konvertera text till nummer om möjligt.
-- **flytta** - Växla nedåt eller höger, skapa extra rader eller kolumner för att passa data. Skiftparametern fungerar på samma sätt som i Microsoft Excel. Till exempel i Microsoft Excel, när du markerar ett cellintervall högerklickar du och väljer**Föra in** och specificera?**flytta ner cellerna**, **flytta celler åt höger** och andra alternativ. Kort sagt**flytta** parametern fyller samma funktion för vertikala/normala (uppifrån och ned) eller horisontella (vänster till höger) smarta markörer.
+- **flytta** - Växla nedåt eller höger, skapa extra rader eller kolumner för att passa data. Skiftparametern fungerar på samma sätt som i Microsoft Excel. Till exempel i Microsoft Excel, när du markerar ett cellintervall, högerklickar du och väljer**Föra in** och specificera?**flytta ner cellerna**, **flytta celler åt höger** och andra alternativ. Kort sagt**flytta** parametern fyller samma funktion för vertikala/normala (uppifrån och ned) eller horisontella (vänster till höger) smarta markörer.
 - **copystyle** - Kopiera bascellens stil till alla celler i den kolumnen.
 
 Parametrarna noadd och skip kan kombineras för att infoga data på alternerande rader. Eftersom mallen bearbetas från botten till toppen bör du lägga till noadd på första raden för att undvika att extra rader infogas före den alternativa raden.
@@ -75,7 +75,7 @@ Följande skärmdumpar illustrerar en återkommande dynamisk formel och det resu
 |![todo:image_alt_text](using-smart-markers_3.jpg)|![todo:image_alt_text](using-smart-markers_4.jpg)|
  Cell "C1" innehåller formeln**= A1*B1** , cell "C2" innehåller**= A2*B2** och cell "C3" innehåller**= A3*B3**.
 
-Det är väldigt enkelt att bearbeta de smarta markörerna. Det som följer är ett kodavsnitt i Python via .Net, som visar hur det går till.
+Det är väldigt enkelt att bearbeta de smarta markörerna. Vad som följer är ett kodavsnitt i Python via .Net, som visar hur det går till.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "SmartMarker-SimpleProcess.py" >}}
 

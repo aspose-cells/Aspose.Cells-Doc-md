@@ -8,20 +8,20 @@ url: /it/jasperreports/product-overview/
 
 ![cose da fare:immagine_alt_testo](product-overview_1.png)
 
-### **Benvenuto allo Aspose.Cells per la documentazione di JasperReports!**
+### **Benvenuti nella documentazione Aspose.Cells for JasperReports!**
 
- Aspose.Cells per JasperReports è una libreria che funziona in sostituzione di[JasperReports](https://community.jaspersoft.com/project/jasperreports-library)s originale Microsoft Excel Exporter, in bundle con alcuni grandi miglioramenti. Elimina la dipendenza dalla libreria POI e utilizza Aspose.Cells for Java sul back-end per esportare report nei formati Excel Microsoft (XLS, XLSX).
+ Aspose.Cells for JasperReports è una libreria che funziona in sostituzione di[JasperReports](https://community.jaspersoft.com/project/jasperreports-library)s originale esportatore di Microsoft Excel, in bundle con alcuni grandi miglioramenti. Elimina la dipendenza dalla libreria POI e utilizza Aspose.Cells for Java sul back-end per esportare i report nei formati Microsoft Excel (XLS, XLSX).
 
 {{% /alert %}}
 
 ### **Descrizione del prodotto**
 
-Aspose.Cells per JasperReports è una soluzione flessibile che semplifica l'esportazione di report da JasperReports e JasperServer nei formati di file Excel Microsoft. Tutte le funzionalità del report vengono convertite in fogli di calcolo Excel Microsoft con il massimo grado di precisione.
+Aspose.Cells for JasperReports è una soluzione flessibile che semplifica l'esportazione di report da JasperReports e JasperServer nei formati di file Microsoft Excel. Tutte le funzionalità dei report vengono convertite in fogli di calcolo Microsoft Excel con il massimo grado di precisione.
 
 Oltre alle funzionalità fornite dall'esportatore originale Micrsofot Excel basato su POI, questo componente fornisce alcune funzionalità preziose. Le principali innovazioni relative all'esportazione in XLS includono:
 
-- Fornisci grafici modificabili in formato Excel Microsoft anziché immagini statiche.
+- Fornisci grafici modificabili in formato Microsoft Excel anziché immagini statiche.
 
-**Un report di esempio viene generato utilizzando Aspose.Cells per JasperReports** 
+**Viene generato un report di esempio utilizzando Aspose.Cells for JasperReports** 
 
 ![cose da fare:immagine_alt_testo](product-overview_2.png)

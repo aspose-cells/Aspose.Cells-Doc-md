@@ -9,6 +9,6 @@ Microsoft Excel 2002 veya Microsoft Excel 2000, Aspose.Cells.ReportingServices.C
 ##### **Çözüm**
 {{% alert color="primary" %}} 
 
- Düzenlemek**LockbackRegKey.msi**. Bu, Office 2003'ten daha eski Office makinelerinde CLR sorununu giderir.
+ Düzenlemek**LockbackRegKey.msi**Bu, Office 2003'ten daha eski Office makinelerinde CLR sorununu giderir.
 
 {{% /alert %}}

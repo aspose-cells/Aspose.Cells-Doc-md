@@ -4,4 +4,4 @@ type: docs
 weight: 30
 url: /it/reportingservices/configuring-report-servers-to-store-or-cache-the-report-server-data/
 ---
-Il codice Aspose.Cells per Reporting Services Report Designer salva l'URL del server di report a cui si accede correntemente. Quando si apre nuovamente la finestra di dialogo Report Server Manager in Report Designer Aspose.Cells, il modulo di dialogo carica automaticamente le informazioni salvate sul server di report.
+Aspose.Cells for Reporting Services Progettazione report salva l'URL del server di report a cui si accede correntemente. Quando si apre nuovamente la finestra di dialogo Report Server Manager in Report Designer Aspose.Cells, il modulo di dialogo carica automaticamente le informazioni salvate sul server di report.

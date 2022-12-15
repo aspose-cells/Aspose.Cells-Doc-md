@@ -12,7 +12,7 @@ Aspose.Cells已经支持XLSX文件的读写外部连接，现在，它也支持X
 
 下面的示例代码加载示例XLSB（也可以加载XLS）文件并读取它的第一个External Connection，它实际上是一个Microsoft Access DB Connection。然后它修改了[**数据库连接名称**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)属性并将其保存为输出 XLSB 文件。截图展示了代码的效果[示例 XLSB 文件](51740743.xlsb)和[输出 XLSB 文件](51740742.xlsb)执行后。另请参阅下面给出的示例代码的控制台输出以供参考。
 
-![待办事项：图片_替代_文本](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
+![待办事项：图像_替代_文本](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
 ## **示例代码**
 

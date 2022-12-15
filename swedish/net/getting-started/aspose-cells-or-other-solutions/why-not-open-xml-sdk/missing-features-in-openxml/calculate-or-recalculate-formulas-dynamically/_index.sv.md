@@ -6,7 +6,7 @@ url: /sv/net/calculate-or-recalculate-formulas-dynamically/
 ---
 **Formelberäkning** motorn är inbäddad**Aspose.Cells**. Det kan inte bara räkna om formeln som importerats från designerfilen utan stöder också för att beräkna resultaten av formler som lagts till vid körning.
 ## **Lägga till formler och beräkna resultat**
-Aspose.Cells stöder de flesta formler eller funktioner som ingår i Microsoft Excel. Utvecklare kan använda dessa formler med API eller Designer-kalkylblad. Aspose.Excel stöder en enorm uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistik, databas, uppslagsformler och referensformler.
+Aspose.Cells stöder de flesta formler eller funktioner som ingår i Microsoft Excel. Utvecklare kan använda dessa formler med API eller Designer Spreadsheets. Aspose.Excel stöder en stor uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistisk, databas, uppslagsformler och referensformler.
 
 Använd Cell-klassens Formula-egenskap för att lägga till en formel i en cell. När du tillämpar en formel på en cell, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel. Använd ett kommatecken (,) för att avgränsa funktionsparametrar.
 
@@ -96,7 +96,7 @@ workbook.Save(FileName);
 Formelberäkningsmotorn är inbäddad i Aspose.Cells. Dessutom, omräkning av formeln som importerats från designerfilen, stöder Aspose.Cells också att beräkna resultaten av formler direkt.
 Ibland måste du beräkna resultaten av formler direkt utan att lägga till dem i ett kalkylblad. Värdena för cellerna som används i formeln finns redan i ett kalkylblad och allt du behöver är att hitta resultatet av dessa värden baserat på någon Ms-Excel-formel utan att lägga till formeln i ett kalkylblad.
 
- Du kan använda Aspose.Cells Formula Calculation Engine API, dvs**kalkylblad. Beräkna (strängformel)**att beräkna resultaten av sådana formler utan att faktiskt lägga till dem i kalkylbladet.
+ Du kan använda Aspose.Cells Formula Calculation Engine API dvs.**kalkylblad. Beräkna (strängformel)**att beräkna resultaten av sådana formler utan att faktiskt lägga till dem i kalkylbladet.
 
 {{< highlight "csharp" >}}
 

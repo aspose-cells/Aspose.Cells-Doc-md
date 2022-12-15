@@ -15,7 +15,7 @@ url: /ar/java/managing-ranges/
 
 ## **إدارة النطاقات باستخدام Aspose.Cells**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) الذي يمثل ملف إكسل Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة.
 
 ### **إنشاء المدى**
 

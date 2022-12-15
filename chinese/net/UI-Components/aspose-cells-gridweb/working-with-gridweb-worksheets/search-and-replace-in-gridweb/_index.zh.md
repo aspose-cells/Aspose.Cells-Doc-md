@@ -18,7 +18,7 @@ url: /zh/net/search-and-replace-in-gridweb/
 
    **选择查找** 
 
-![待办事项：图片_替代_文本](search-and-replace-in-gridweb_1.png)
+![待办事项：图像_替代_文本](search-and-replace-in-gridweb_1.png)
 
 
 
@@ -27,7 +27,7 @@ url: /zh/net/search-and-replace-in-gridweb/
 
 **查找/替换对话框** 
 
-![待办事项：图片_替代_文本](search-and-replace-in-gridweb_2.png)
+![待办事项：图像_替代_文本](search-and-replace-in-gridweb_2.png)
 ### **使用查找**
 寻找：
 

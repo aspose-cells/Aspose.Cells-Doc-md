@@ -4,7 +4,7 @@ linktitle: Marcadores inteligentes
 type: docs
 weight: 190
 url: /es/python-net/using-smart-markers/
-description: Importación y colocación inteligente de datos según la plantilla de archivos de Excel con Aspose.Cells para Python a través de la biblioteca .Net.
+description: Importación y colocación inteligente de datos según la plantilla de archivos de Excel con Aspose.Cells for Python a través de la biblioteca .Net.
 ---
 ## **Introducción**
 **Marcadores inteligentes**se utilizan para que Aspose.Cells sepa qué información colocar en una hoja de cálculo de Microsoft diseñador de Excel. Los marcadores inteligentes le permiten crear plantillas que contienen solo información y formato específicos.

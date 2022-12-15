@@ -1,5 +1,5 @@
 ﻿---
-title: Nascondi o mostra un foglio di lavoro in Python
+title: Nascondere o mostrare un foglio di lavoro in Python
 type: docs
 weight: 50
 url: /it/java/hide-or-unhide-a-worksheet-in-python/
@@ -8,7 +8,7 @@ url: /it/java/hide-or-unhide-a-worksheet-in-python/
 ### **Nascondere un foglio di lavoro**
  Per nascondere il foglio di lavoro utilizzando Aspose.Cells Java per Ruby, chiama**hideunhideworksheet** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 
@@ -36,7 +36,7 @@ print "Worksheet 1 is now hidden, please check the output document."
 ### **Mostrando un foglio di lavoro**
 Gli sviluppatori possono rendere visibile un foglio di lavoro impostando l'estensione*setVisibile(* *VERO* *)*metodo del**Foglio di lavoro**classe.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

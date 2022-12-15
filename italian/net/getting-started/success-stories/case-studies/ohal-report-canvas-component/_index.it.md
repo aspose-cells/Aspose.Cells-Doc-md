@@ -20,7 +20,7 @@ Il componente Report Canvas consente all'utente di creare report visivi basati s
 
 ## **Scenario dei requisiti**
 
-Abbiamo selezionato Aspose.Cells per le sue capacità di esportazione di Excel Microsoft quasi complete. La cosa più importante per noi è la possibilità di esportare grafici e tabelle, specialmente in Microsoft Excel 2007, che mancavano in altri componenti di terze parti.
+Abbiamo selezionato Aspose.Cells per le sue capacità di esportazione Microsoft Excel quasi complete. La cosa più importante per noi è la possibilità di esportare grafici e tabelle, specialmente in Microsoft Excel 2007, che mancavano in altri componenti di terze parti.
 
 ## **Implementazione della soluzione**
 

@@ -17,7 +17,7 @@ major.minor.hotfix ，我们可能会增加一个部分并制作一个新版本�
 ### **1) 手动方式**
 如果您有 Java 版本/修复 (Aspose.Cells for Java)，则可以解压缩 Aspose.Cells 库 jar 文件，用记事本打开 MANIFEST 文件并搜索字符串，即“Specification-Version:”以检查其值。
 
-![待办事项：图片_替代_文本](check-version-number-of-the-component_1.png)
+![待办事项：图像_替代_文本](check-version-number-of-the-component_1.png)
 
 
 **数字：**检查 Java 修复的版本号

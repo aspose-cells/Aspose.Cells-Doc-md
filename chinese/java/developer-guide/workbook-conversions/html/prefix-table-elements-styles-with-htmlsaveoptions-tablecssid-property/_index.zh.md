@@ -24,7 +24,7 @@ etc.
 
 下面的截图展示了使用的效果[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)输出 HTML 的属性。
 
-![待办事项：图片_替代_文本](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![待办事项：图像_替代_文本](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
 ## **使用 HtmlSaveOptions.TableCssId 属性为表元素样式添加前缀**
 

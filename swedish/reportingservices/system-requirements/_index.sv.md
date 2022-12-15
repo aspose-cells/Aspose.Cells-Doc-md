@@ -6,7 +6,7 @@ url: /sv/reportingservices/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells för Reporting Services (inklusive Aspose.Cells.ReportingServices-klienten, tillägg till Microsoft Excel och Aspose.Cells.ReportingServices Server) måste installeras korrekt. Dessutom bör Microsoft SQL Server installeras innan du installerar Aspose.Cells för Reporting Services.
+Aspose.Cells for Reporting Services (inklusive Aspose.Cells.ReportingServices-klienten, tillägg till Microsoft Excel och Aspose.Cells.ReportingServices Server) måste installeras korrekt. Dessutom bör Microsoft SQL Server installeras innan Aspose.Cells for Reporting Services installeras.
 
 {{% /alert %}} 
 ### **Office System**
@@ -41,10 +41,10 @@ Följande Microsoft Excel-versioner stöds. Dessutom måste du installera ytterl
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
 ### **Operativ system**
-Följande Microsoft Windows-operativsystem stöds:
+Följande Microsoft Windows operativsystem stöds:
 
 - Microsoft Windows 2000 Server
-- Microsoft Windows 2000 Professional
+- Microsoft Windows 2000 Professionell
 - Microsoft Windows XP Home Edition
 - Microsoft Windows XP Professional Edition
 - Microsoft Windows XP Professional x64 Edition
@@ -58,9 +58,9 @@ Följande Microsoft Windows-operativsystem stöds:
 - Microsoft Windows 2016 Server
 - Microsoft Windows 2019 Server
 
-### **.NET Framework-versioner som stöds**
+### **Stöds .NET ramversioner**
 Följande .NET Framework-versioner stöds:
 
 - NET Framework 2.0
-- .NET Framework 3.5
-- .NET Framework 4.x
+- .NET Ramverk 3.5
+- .NET Ramverk 4.x

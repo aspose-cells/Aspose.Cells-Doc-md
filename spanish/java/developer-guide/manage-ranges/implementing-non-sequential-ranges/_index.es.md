@@ -4,7 +4,7 @@ type: docs
 weight: 1200
 url: /es/java/implementing-non-sequential-ranges/
 ---
- Normalmente,[rangos con nombre](/cells/es/java/named-ranges/) son rectangulares con celdas continuas y adyacentes entre sí. Pero a veces, es posible que deba usar un rango de celdas no secuencial en el que las celdas no sean adyacentes. Aspose.Cells admite la creación de un rango con nombre con celdas no adyacentes. Para esto, el API proporciona el[**Nombre.Se refiere a**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo) propiedad.
+ Normalmente,[rangos con nombre](/cells/es/java/named-ranges/) son rectangulares con celdas continuas y adyacentes entre sí. Pero a veces, es posible que deba usar un rango de celdas no secuencial en el que las celdas no son adyacentes. Aspose.Cells admite la creación de un rango con nombre con celdas no adyacentes. Para esto, el API proporciona el[**Nombre.Se refiere a**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo) propiedad.
 
 ## Java código para implementar rangos no secuenciales
 

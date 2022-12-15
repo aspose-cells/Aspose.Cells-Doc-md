@@ -26,7 +26,7 @@ Aspose.Cells 提供错误检查选项功能。 ErrorCheckOptions 类管理不同
 1. 禁用它。
 请参阅下图，了解如何在 MS Excel 中显示数据的绿色三角形。
 
-![待办事项：图片_替代_文本](use-error-checking-options_1.png)
+![待办事项：图像_替代_文本](use-error-checking-options_1.png)
 
 以下示例代码显示如何使用 Aspose.Cells API 禁用模板 XLS 文件中作为工作表文本错误检查选项存储的数字。
 

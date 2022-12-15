@@ -174,7 +174,7 @@ En Aspose.Cells Grid Suite, la licencia se puede cargar desde un archivo, flujo 
 
 {{% alert color="primary" %}}
 
-Si utiliza el control Aspose.Cells.GridDesktop, la clase de licencia se utilizará como Aspose.Cells.GridDesktop.License, pero si utiliza el control Aspose.Cells.GridWeb, se utilizará la clase Aspose.Cells.GridWeb.License para establecer la licencia.
+Si utiliza el control Aspose.Cells.GridDesktop, la clase de licencia se utilizará como Aspose.Cells.GridDesktop.License, pero si utiliza el control Aspose.Cells.GridWeb, se utilizará la clase Aspose.Cells.GridWeb.License para configurar la licencia.
 
 {{% /alert %}}
 

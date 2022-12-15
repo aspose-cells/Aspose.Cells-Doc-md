@@ -12,7 +12,7 @@ url: /it/java/aspose-cells-for-java-20-3-release-notes/
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-43137|Light Cells API: elaborazione fogli in un ordine specifico|Nuova caratteristica|
+|CELLSJAVA-43137|Light Cells API: elaborazione di fogli in un ordine specifico|Nuova caratteristica|
 |CELLSJAVA-43135|Rimuovi ActiveXControl dalla forma dell'immagine|Nuova caratteristica|
 |CELLSJAVA-43141|Aggiungere la proprietà ThreadedComment.CreatedTime|Nuova caratteristica|
 |CELLSJAVA-42068|La GIF nel foglio di lavoro è errata quando la cartella di lavoro viene convertita in HTML|Insetto|
@@ -30,8 +30,8 @@ url: /it/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43144|Proprietà IsItalic rilevata in modo diverso rispetto a MS Excel (Java)|Insetto|
 |CELLSJAVA-43140|IllegalArgumentException durante la chiamata acalcFormula()|Eccezione|
 |CELLSJAVA-43110|Conversione in PDF - java.lang.NullPointerException|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiungere la proprietà LoadFilter.SheetsInLoadingOrder**
 Gli utenti possono sovrascrivere questa proprietà per specificare i fogli e l'ordine da caricare durante l'importazione delle cartelle di lavoro dai file modello.
 ### **Elimina la proprietà TickLabels.Background obsoleta**

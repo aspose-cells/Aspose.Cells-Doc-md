@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells pour le concepteur de rapports Reporting Services
+title: Aspose.Cells for Reporting Services Concepteur de rapports
 type: docs
 weight: 100
 url: /fr/reportingservices/aspose-cells-for-reporting-services-report-designer/

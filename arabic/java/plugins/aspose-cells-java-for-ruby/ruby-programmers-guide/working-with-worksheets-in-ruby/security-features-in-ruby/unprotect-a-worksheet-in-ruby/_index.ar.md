@@ -1,5 +1,5 @@
 ﻿---
-title: قم بإلغاء حماية ورقة العمل في روبي
+title: قم بإلغاء حماية ورقة العمل في Ruby
 type: docs
 weight: 20
 url: /ar/java/unprotect-a-worksheet-in-ruby/
@@ -54,7 +54,7 @@ url: /ar/java/unprotect-a-worksheet-in-ruby/
 end   
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**إلغاء حماية ورقة العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

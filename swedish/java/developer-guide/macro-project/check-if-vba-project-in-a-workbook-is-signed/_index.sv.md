@@ -6,7 +6,7 @@ url: /sv/java/check-if-vba-project-in-a-workbook-is-signed/
 ---
 {{% alert color="primary" %}}
 
- Du kan kontrollera om ditt VBA-projekt är signerat eller inte med hjälp av Microsoft Excel via**Verktyg > Digitala signaturer...** menykommando. På samma sätt kan du kontrollera det programmatiskt med Aspose.Cells[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) metod.
+ Du kan kontrollera om ditt VBA-projekt är signerat eller inte med Microsoft Excel via**Verktyg > Digitala signaturer...** menykommando. På samma sätt kan du kontrollera det programmatiskt med Aspose.Cells[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) metod.
 
 {{% /alert %}}
 

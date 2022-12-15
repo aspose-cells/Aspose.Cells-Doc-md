@@ -8,11 +8,11 @@ url: /it/net/group-rows-and-create-subtotal/
 
 Aspose.Cells.GridWeb può creare uno schema per i tuoi dati. Ciò consente di mostrare e nascondere i livelli di dettaglio facendo clic sui simboli di contorno "+" e "-" per visualizzare solo le righe che forniscono riepiloghi o intestazioni per le sezioni in un foglio di lavoro. È possibile utilizzare i simboli per visualizzare i dettagli sotto un singolo riepilogo o titolo.
 
-Quando si raggruppano le righe, è importante selezionare solo le righe di dettaglio che compongono il gruppo. Non includere la riga di riepilogo correlata. Ad esempio, se la riga 6 contiene i totali per i dati nelle righe da 3 a 5, selezionare solo le righe da 3 a 5 per definire il gruppo. Il controllo Aspose.Cells.GridWeb visualizza il**mostra i dettagli** (+) e**nascondere dettaglio** (-) simboli accanto alle intestazioni di riga che specificano i gruppi nel foglio di lavoro.
+ Quando si raggruppano le righe, è importante selezionare solo le righe di dettaglio che compongono il gruppo. Non includere la riga di riepilogo correlata. Ad esempio, se la riga 6 contiene i totali per i dati nelle righe da 3 a 5, selezionare solo le righe da 3 a 5 per definire il gruppo. Il controllo Aspose.Cells.GridWeb visualizza il**mostra i dettagli** (+) e**nascondere dettaglio** (-) simboli accanto alle intestazioni di riga che specificano i gruppi nel foglio di lavoro.
 
 Aspose.Cells.GridWeb consente inoltre di creare subtotali basati su qualsiasi campo di dati. Un subtotale non è necessariamente una somma: può essere una media, un conteggio, un minimo, un massimo o un altro calcolo statistico.
 
-Questo argomento illustra il raggruppamento di righe e la creazione di totali parziali utilizzando Aspose.Cells.GridWeb API. Gli sviluppatori possono raggruppare le righe con qualsiasi livello di nidificazione e creare facilmente totali parziali.
+Questo argomento illustra il raggruppamento di righe e la creazione di subtotali tramite l'API Aspose.Cells.GridWeb. Gli sviluppatori possono raggruppare righe con qualsiasi livello di nidificazione e creare facilmente subtotali.
 
 {{% /alert %}} 
 ## **Raggruppamento di righe**

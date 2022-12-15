@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.1.0
+title: Offentlig API Ändringar i Aspose.Cells 8.1.0
 type: docs
 weight: 50
 url: /sv/java/public-api-changes-in-aspose-cells-8-1-0/
@@ -87,4 +87,4 @@ Oformaterat strängvärde: 123456
 
 {{% /alert %}}
 ## **Föråldrade byte, tecken, tecken med mellanslag, rader, styckeegenskaper**
- Många egenskaper från klassen BuiltInDocumentPropertyCollection har markerats som föråldrade från Aspose.Cells för .NET 8.1.0. Dessa egenskaper inkluderar Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Anledningen är att ovannämnda egenskaper inte är till någon nytta för att konservera Excel-kalkylblad eftersom Excel utelämnar dem. Där dessa egenskaper ursprungligen skrevs för Word-dokument och PowerPoint-presentationer.
+ Många fastigheter från klassen BuiltInDocumentPropertyCollection har märkts föråldrade från Aspose.Cells for .NET 8.1.0. Dessa egenskaper inkluderar Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Anledningen är att ovannämnda egenskaper inte är till någon nytta för att konservera Excel-kalkylblad eftersom Excel utelämnar dem. Där dessa egenskaper ursprungligen skrevs för Word-dokument och PowerPoint presentationer.

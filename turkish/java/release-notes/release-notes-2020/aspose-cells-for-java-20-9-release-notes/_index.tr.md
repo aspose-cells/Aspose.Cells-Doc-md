@@ -47,7 +47,7 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
 
 ### **AbstractCalculationEngine.ProcessBuiltInFunctions özelliğini ekler**
 
- Performans ve kullanıcının kolaylık değerlendirmesi için, bu özelliği ekledik ve varsayılan değerini false olarak belirledik, böylece kullanıcı yerleşik motor tarafından desteklenmeyen işlevlere konsantre olabilir. Kullanıcının mevcut AbstractCalculationEngine uygulaması bazı yerleşik işlevlerin hesaplamasını değiştirmişse, kullanıcının bu özelliği geçersiz kılarak şu şekilde yapması gerekir:**doğru** itibaren**20.9**.
+Performans ve kullanıcının kolaylık değerlendirmesi için, bu özelliği ekledik ve varsayılan değerini false olarak belirledik, böylece kullanıcı yerleşik motor tarafından desteklenmeyen işlevlere konsantre olabilir. Kullanıcının mevcut AbstractCalculationEngine uygulaması bazı yerleşik işlevlerin hesaplamasını değiştirmişse, kullanıcının bu özelliği geçersiz kılarak şu şekilde yapması gerekir:**doğru** itibaren**20.9**.
 
 ### **TxtLoadOptions.HasTextQualifier özelliğini ekler**
 

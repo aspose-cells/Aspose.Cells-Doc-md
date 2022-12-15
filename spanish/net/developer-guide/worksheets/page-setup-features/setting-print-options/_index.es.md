@@ -77,7 +77,7 @@ Las filas o columnas que se repetirán se definen pasando sus números de fila o
 
 ### **Establecer orden de página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)la clase proporciona la[**Ordenar**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propiedad que se utiliza para ordenar que se impriman varias páginas de la hoja de trabajo. Hay dos posibilidades para ordenar las páginas de la siguiente manera.
+ los[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la clase proporciona la[**Ordenar**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propiedad que se utiliza para ordenar que se impriman varias páginas de la hoja de trabajo. Hay dos posibilidades para ordenar las páginas de la siguiente manera.
 
 - **Abajo y luego encima:** imprime todas las páginas hacia abajo antes de imprimir cualquier página hacia la derecha.
 - **Arriba y luego abajo:** imprime páginas de izquierda a derecha antes de imprimir las siguientes páginas.

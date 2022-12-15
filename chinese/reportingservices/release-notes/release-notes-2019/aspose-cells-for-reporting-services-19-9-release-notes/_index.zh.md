@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 用于 Reporting Services 19.9 发行说明
+title: Aspose.Cells for Reporting Services 19.9 发行说明
 type: docs
 weight: 10
 url: /zh/reportingservices/aspose-cells-for-reporting-services-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Reporting Services 19.9 的 Aspose.Cells 发行说明。
+此页面包含 Aspose.Cells for Reporting Services 19.9 的发行说明。
 
 {{% /alert %}} 
 
@@ -16,5 +16,5 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-19-9-release-note
 |CELLSRS-562|边框样式是根据导出报告中的公式设置的。|漏洞|
 |CELLSRS-559|使用早期版本创建的报告将无法打开。|漏洞|
 |CELLSRS-550|从 Aspose.Cells RS 客户端工具打开报告时出现运行时错误 429。|漏洞|
-|CELLSRS-543|安装 Reporting Services 的 Aspose.Cells 后没有呈现选项。|漏洞|
+|CELLSRS-543|安装Aspose.Cells for Reporting Services后没有渲染选项。|漏洞|
 

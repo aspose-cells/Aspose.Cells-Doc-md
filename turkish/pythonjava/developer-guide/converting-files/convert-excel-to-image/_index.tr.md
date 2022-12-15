@@ -5,7 +5,7 @@ weight: 20
 url: /tr/python-java/convert-excel-to-image/
 ---
 ## **Excel'i Görüntüye Dönüştür**
-Java aracılığıyla Python için Aspose.Cells, Excel dosyalarının farklı görüntü formları görüntülerine dönüştürülmesini destekler. Bunun için API,[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)ve[ResimVeyaBaskıSeçenekleri](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions) sınıflar. Bu sınıf, bir görüntüye dönüştürülecek çalışma sayfasını temsil eder. bu[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)sınıf sağlar[Hayal etmek()](https://reference.aspose.com/cells/python/asposecells.api/sheetrender#toImage\(int,%20java.lang.String\)) bir çalışma sayfasını bir görüntü dosyasına dönüştürme yöntemi. BMP, PNG, JPEG, TIFF ve EMF biçimleri desteklenir.
+Aspose.Cells for Python via Java, Excel dosyalarının farklı görüntü formlarına dönüştürülmesini destekler. Bunun için API,[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)ve[ResimVeyaBaskıSeçenekleri](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions) sınıflar. Bu sınıf, bir görüntüye dönüştürülecek çalışma sayfasını temsil eder. bu[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)sınıf sağlar[Hayal etmek()](https://reference.aspose.com/cells/python/asposecells.api/sheetrender#toImage\(int,%20java.lang.String\)) bir çalışma sayfasını bir görüntü dosyasına dönüştürme yöntemi. BMP, PNG, JPEG, TIFF ve EMF biçimleri desteklenir.
 
 Aşağıdaki kod parçacığı, bir Excel çalışma sayfasını PNG görüntüsüne dönüştürmeyi gösterir.
 

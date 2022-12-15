@@ -39,7 +39,7 @@ Följande parametrar är tillåtna:
 - *stigande:n eller fallande:n - Sortera data i smarta markörer. Om n är 1, är kolumnen den första nyckeln i sorteraren. Data sorteras efter bearbetning av datakällan. Till exempel: &=Tabell1.Fält3(stigande:1).
 - **horisontell** - Skriv data från vänster till höger, istället för från topp till botten.
 - **numerisk** - Konvertera text till nummer om möjligt.
-- **flytta** - Växla nedåt eller höger, skapa extra rader eller kolumner för att passa data. Skiftparametern fungerar på samma sätt som i Microsoft Excel. Till exempel i Microsoft Excel, när du markerar ett cellintervall högerklickar du och väljer**Föra in** och specificera**flytta ner cellerna**, **flytta celler åt höger** och andra alternativ. Kort sagt, skiftparametern fyller samma funktion för vertikala/normala (uppifrån och ned) eller horisontella (vänster till höger) smarta markörer.
+- **flytta** - Växla nedåt eller höger, skapa extra rader eller kolumner för att passa data. Skiftparametern fungerar på samma sätt som i Microsoft Excel. Till exempel i Microsoft Excel, när du markerar ett cellintervall, högerklickar du och väljer**Föra in** och specificera**flytta ner cellerna**, **flytta celler åt höger** och andra alternativ. Kort sagt, skiftparametern fyller samma funktion för vertikala/normala (uppifrån och ned) eller horisontella (vänster till höger) smarta markörer.
 - **böna** - Indikerar att datakällan är en enkel POJO. Stöds endast i Java API.
 
 Parametrarna noadd och skip kan kombineras för att infoga data på alternerande rader. Eftersom mallen bearbetas från botten till toppen bör du lägga till noadd på den första raden för att undvika att extra rader infogas före den alternativa raden.
@@ -111,7 +111,7 @@ Till exempel &=Anställda.Anställd-ID(grupp:normal,hoppa över:1)
 
 #### **delsummaN**
 
-Utför en sammanfattningsåtgärd för en specificerad fältdata relaterad till en grupp för fält. N representerar siffror mellan 1 och 11 som anger funktionen som används vid beräkning av delsummor i en lista med data. (1=MEDEL, 2=ANTAL, 3=ANTAL, 4=MAX, 5=MIN,...9=SUMMA etc.) Se delsummansreferens i Microsoft Excels hjälp för ytterligare detaljer.
+Utför en sammanfattningsåtgärd för en specificerad fältdata relaterad till en grupp för fält. N representerar siffror mellan 1 och 11 som anger funktionen som används vid beräkning av delsummor i en lista med data. (1=GENOMsnitt, 2=ANTAL, 3=ANTAL, 4=MAX, 5=MIN,...9=SUMMA etc.) Se Deltotalreferensen i Microsoft Excels hjälp för ytterligare detaljer.
 
 Formatet säger faktiskt som:
 subtotalN:Ref där Ref refererar till gruppen för kolumn.

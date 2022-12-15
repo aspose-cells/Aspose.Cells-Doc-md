@@ -10,7 +10,7 @@ Aspose .NET El módulo Exportar usuarios y roles a Excel permite a los desarroll
 Esta versión inicial del módulo está enriquecida con las siguientes características geniales para que el proceso de exportación sea simple y fácil de usar.
 
 - Exportar usuarios a Microsoft Documentos de Excel (.xls, .xlsx y .xlsb)
-- Exportar usuarios a un documento de texto delimitado por tabulaciones (*.txt)
+- Exportar usuarios a un documento de texto delimitado por tabuladores (*.txt)
 - Exportar usuarios a CSV (delimitado por comas) (*.csv)
 - Exportar usuarios a la hoja de cálculo de OpenDocument (*.ods)
 - Opción para seleccionar el formato de salida deseado antes de exportar.
@@ -46,7 +46,7 @@ Una vez descargado, siga estos pasos para instalar el módulo en su sitio web de
 ## **Usando**
 Después de haber instalado el módulo Aspose .NET Cells Export Users and Roles for DNN, es realmente sencillo comenzar a usarlo en su sitio web. Siga estos sencillos pasos para comenzar:
 
-1. Asegúrese de haber iniciado sesión en DNN con una cuenta de nivel de administrador o anfitrión.
+1. Asegúrese de haber iniciado sesión en DNN con una cuenta de nivel de anfitrión o administrador.
 1. Navegue a la página donde desea agregar el módulo Exportar.
 1.  Seleccione**Módulos** seguido por**Agregar nuevo módulo** de la cinta superior.
 

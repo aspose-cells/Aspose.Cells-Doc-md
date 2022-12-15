@@ -16,7 +16,7 @@ url: /fr/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  l Fusionner la suite Aspose.Grid dans Aspose.Cells
 
- l Optimiser les performances des recalculs de formule
+ l Optimiser les performances des recalculs de formules
 
  l Améliorer les performances d'insertion/suppression de Lignes/Colonnes
 

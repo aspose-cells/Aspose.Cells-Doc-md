@@ -64,7 +64,7 @@ JExcelAPI est un Java API utilisé pour lire, écrire et modifier des feuilles d
 
 Au moment de la rédaction, il a un ensemble limité de fonctionnalités. Il prend en charge : la lecture et l'écriture du fichier Excel natif Microsoft (Excel97-2003) au format de fichier XLS uniquement. Il a un support de calcul de formule limité. Il peut manipuler les polices, prendre en charge le formatage des nombres et des dates, modifier les feuilles de calcul existantes, les paramètres régionaux, préserver les graphiques (mais ne permet pas aux développeurs de créer ou de manipuler des graphiques), insérer des images, etc.
 
-#### **Prise en charge limitée des graphiques**
+#### **Prise en charge limitée des cartes**
 
 JExcelApi a un support limité pour les graphiques : il ne prend pas en charge la création et la manipulation de graphiques. Lors de la copie d'une feuille de calcul contenant un graphique, le graphique est écrit dans la feuille de calcul générée (tant que la feuille contenant le graphique contient d'autres données en plus du graphique). Toutes les informations d'image sont conservées lors de la copie de fichiers Excel, cependant, lors de l'ajout d'une image à une feuille de calcul, seules les images au format PNG sont prises en charge.
 
@@ -86,7 +86,7 @@ Il y a aussi quelques obstacles supplémentaires : le API ne prend pas en charg
 
 HSSF est le composant de POI qui lit et écrit des feuilles de calcul Excel. Il dispose d'un ensemble étendu de fonctionnalités par rapport à JExcelAPI, notamment la lecture et l'écriture d'un fichier Excel natif Microsoft (Excel97-2003 - le format de fichier XLSX OOXML n'est pas encore pris en charge), le formatage des cellules (formats de nombres, polices, couleurs, bordures, alignements, etc.) , fusionner des cellules, options de mise en page, importer des images, des formes, des plages nommées, créer des commentaires, des en-têtes et des pieds de page, des hyperliens, ajuster automatiquement les lignes et les colonnes, etc.
 
-#### **Prise en charge limitée des graphiques**
+#### **Prise en charge limitée des cartes**
 
 Il existe quelques limitations connues pour le POI-HSSF API. Par exemple, vous ne pouvez actuellement pas créer de graphiques. Vous pouvez cependant créer un graphique dans Excel, modifier les valeurs des données du graphique à l'aide de HSSF et écrire une nouvelle feuille de calcul. Un autre est le support des tableaux croisés dynamiques, la génération de tableaux croisés dynamiques n'est pas possible.
 

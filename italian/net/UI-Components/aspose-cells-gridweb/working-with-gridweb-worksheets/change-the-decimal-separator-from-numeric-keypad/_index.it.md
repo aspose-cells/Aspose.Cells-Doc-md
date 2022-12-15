@@ -5,7 +5,7 @@ weight: 150
 url: /it/net/change-the-decimal-separator-from-numeric-keypad/
 ---
 ## **Possibili scenari di utilizzo**
-Per impostazione predefinita, Aspose.Cells.GridWeb visualizza i dati numerici in base alle impostazioni locali/regionali sulla macchina. È possibile modificare il separatore decimale dal tastierino numerico a livello di codice utilizzando Aspose.Cells.GridWeb API. Pertanto, quando un file viene importato nella matrice GridWeb o si immettono alcuni dati numerici (dal tastierino numerico) in una nuova cella del foglio di lavoro, dovrebbe avere il decimale desiderato separatore impostato visivamente.
+Per impostazione predefinita, Aspose.Cells.GridWeb visualizza i dati numerici in base alle impostazioni locali/regionali sulla macchina. È possibile modificare il separatore decimale dal tastierino numerico a livello di codice utilizzando l'API Aspose.Cells.GridWeb. Quindi, quando un file viene importato nella matrice GridWeb o si immettono alcuni dati numerici (dal tastierino numerico) in una nuova cella del foglio di lavoro, dovrebbe avere il separatore decimale desiderato impostato visivamente.
 ## **Modificare il separatore decimale dal tastierino numerico**
 Usando il**GridWorksheetCollection.NumberDecimalSeparator**proprietà, è possibile modificare il separatore decimale dal tastierino numerico a livello di codice. Si prega di vedere gli screenshot che mostrano come funziona
 

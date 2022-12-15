@@ -101,7 +101,7 @@ Aspose.Cell 将电子表格转换为 PDF，具有很高的准确性和保真度�
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for Java 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作器**具有值的字段，例如“Aspose.Cells for Java v17.9”。
+ Aspose.Cells for Java 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for Java 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作人**具有值的字段，例如“Aspose.Cells for Java v17.9”。
 
 请注意，您不能指示 Aspose.Cells for Java 更改或从输出文档中删除此信息。
 

@@ -4,6 +4,6 @@ type: docs
 weight: 80
 url: /ru/sharepoint/add-footer-to-excel-document/
 ---
-Aspose.Cells для SharePoint поддерживает добавление нижнего колонтитула в электронную таблицу Excel.
+Aspose.Cells for SharePoint поддерживает добавление нижнего колонтитула в электронную таблицу Excel.
 
 ![дело:изображение_альтернативный_текст](add-footer-to-excel-document_1.png)

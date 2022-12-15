@@ -1,12 +1,12 @@
 ﻿---
-title: Java 19.12 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 19.12 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 19.12 aracılığıyla Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 19.12 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -54,7 +54,7 @@ Bu sayfa, Java 19.12 aracılığıyla Android için Aspose.Cells için sürüm n
 |CELLSJAVA-43060|Harici veri kaynağı boş olarak ayarlandıktan sonra Workbook.save'de "java.lang.NullPointerException" istisnası|İstisna|
 |CELLSJAVA-42923|XLS Belgesi yüklenirken istisnalar|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 ### **Cells.RemoveDuplicates() yöntemini ekler**
 Aralığın yinelenen verilerini kaldırır.
 ### **OleObject.FullObjectBin özelliğini ekler**
@@ -104,7 +104,7 @@ Bunun yerine DataLabels.ShowSeriesName özelliğini kullanın.
 ### **Eskimiş DataLabels.IsLegendKeyShown özelliğini siler**
 Bunun yerine DataLabels.ShowLegendKey özelliğini kullanın.
 ### **LoadOptions.KeepUnparsedData seçeneğini ekler**
-Seçenek, bir şablon dosyasından yüklendiğinde Çalışma Kitabı için çözümlenmemiş verilerin bellekte tutulup tutulmayacağını belirtir. Kullanıcıların çalışma kitabını tam olarak geri kaydetmeleri gerekmiyorsa, özellikle çalışma kitabının yalnızca bazı özel içeriğini okumaları gerektiğinde (bir tür LoadFilter gibi), ayrıştırılmamış verilere artık gerek yoktur ve bu özelliği yanlış olarak ayarlayabilirler. daha iyi performans elde etmek için. Eski sürümler için, Çalışma Kitabını kullanıcı tanımlı LoadFilter ile bir şablon dosyasından yüklerken, performans değerlendirmesi için ayrıştırılmamış veriler tutulmadı. Şimdi bu seçeneği sunuyoruz ve varsayılan değerini doğru yapıyoruz, bu, kullanıcıların LoadFilter kullanma durumlarının performansını etkileyebilir. Öyleyse, kullanıcılar uygulamalarında bu özelliği açıkça yanlış olarak ayarlamalıdır.
+Seçenek, bir şablon dosyasından yüklendiğinde Çalışma Kitabı için çözümlenmemiş verilerin bellekte tutulup tutulmayacağını belirtir. Kullanıcıların çalışma kitabını tam olarak geri kaydetmeleri gerekmiyorsa, özellikle çalışma kitabının yalnızca bazı özel içeriğini (bir tür LoadFilter aracılığıyla) okumaları gerektiğinde, ayrıştırılmamış verilere artık gerek yoktur ve bu özelliği yanlış olarak ayarlayabilirler. daha iyi performans elde etmek için. Eski sürümler için, Çalışma Kitabını kullanıcı tanımlı LoadFilter ile bir şablon dosyasından yüklerken, performans değerlendirmesi için ayrıştırılmamış veriler tutulmadı. Şimdi bu seçeneği sunuyoruz ve varsayılan değerini doğru yapıyoruz, bu, kullanıcıların LoadFilter kullanma durumlarının performansını etkileyebilir. Öyleyse, kullanıcılar uygulamalarında bu özelliği açıkça yanlış olarak ayarlamalıdır.
 ### **LoadDataFilterOptions.Picture seçeneğini ekler**
 Resmin yüklenip yüklenmeyeceğini belirten seçenek.
 ### **LoadDataFilterOptions.OleObject seçeneğini ekler**

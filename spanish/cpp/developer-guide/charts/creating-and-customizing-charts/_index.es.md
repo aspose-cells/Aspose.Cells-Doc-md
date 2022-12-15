@@ -10,13 +10,13 @@ Un gráfico es una presentación visual de información. Aspose.Cells permite a 
 
 ## **Gráfico piramidal**
 
- Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de trabajo. Por favor vea el[archivo de salida de Excel](66519068.xlsx) del siguiente código de ejemplo.
+ Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de cálculo. Por favor vea el[archivo de salida de Excel](66519068.xlsx) del siguiente código de ejemplo.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_PyramidChart.cpp" >}}
 
 ## **Gráfico de linea**
 
-En el ejemplo anterior, simplemente cambiando el[**Tipo de gráfico**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)a[**ChartType_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25) crea un gráfico de líneas. La fuente completa se proporciona a continuación. cuando se ejecuta el código, se agrega un gráfico de líneas a la hoja de cálculo. Por favor vea el[archivo de salida de Excel](66519069.xlsx) del siguiente código de ejemplo.
+En el ejemplo anterior, simplemente cambiando el[**Tipo de gráfico**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)a[**ChartType_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25)crea un gráfico de líneas. La fuente completa se proporciona a continuación. cuando se ejecuta el código, se agrega un gráfico de líneas a la hoja de cálculo. Por favor vea el[archivo de salida de Excel](66519069.xlsx) del siguiente código de ejemplo.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart.cpp" >}}
 

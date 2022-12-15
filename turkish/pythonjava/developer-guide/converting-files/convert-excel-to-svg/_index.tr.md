@@ -7,7 +7,7 @@ url: /tr/python-java/convert-excel-to-svg/
 ## **Excel'i SVG'ye Dönüştür**
 SVG(**Ölçeklendirilebilir Vektör Grafiği)**iki boyutlu vektör grafikleri için XML standartlarına dayalı bir belirtimdir. World Wide Web Consortium (W3C) tarafından 1999'dan beri geliştirilmekte olan açık bir standarttır.
 
-Java aracılığıyla Python için Aspose.Cells, Excel dosyalarının SVG resimlerine dönüştürülmesini destekler. Bunun için API,[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender), [ResimVeyaBaskıSeçenekleri](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions), ve[Çalışma KitabıRender](https://reference.aspose.com/cells/python/asposecells.api/WorkbookRender)sınıflar.
+Aspose.Cells for Python via Java, Excel dosyalarının SVG resimlerine dönüştürülmesini destekler. Bunun için API,[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender), [ResimVeyaBaskıSeçenekleri](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions), ve[Çalışma KitabıRender](https://reference.aspose.com/cells/python/asposecells.api/WorkbookRender)sınıflar.
 
 Aşağıdaki kod parçacığı, bir Excel çalışma sayfasının bir SVG görüntüsüne dönüştürülmesini gösterir.
 

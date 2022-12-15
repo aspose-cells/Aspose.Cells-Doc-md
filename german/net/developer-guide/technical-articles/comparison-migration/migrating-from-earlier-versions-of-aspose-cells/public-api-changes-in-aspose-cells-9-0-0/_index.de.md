@@ -93,7 +93,7 @@ Hier ist ein einfaches Verwendungsszenario der Shape.Line-Eigenschaft.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Das Finden eines Datenpunkts befindet sich auf dem zweiten Plot](/cells/de/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+ Überprüfen Sie den ausführlichen Artikel auf[Das Finden eines Datenpunkts befindet sich auf dem zweiten Diagramm](/cells/de/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
 
 {{% /alert %}} 
 

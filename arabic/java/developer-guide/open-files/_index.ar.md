@@ -16,7 +16,7 @@ url: /ar/java/opening-files-with-different-formats/
 
 ## **طرق بسيطة لفتح ملفات Excel**
 
-### **فتح طريق**
+### **فتح من خلال المسار**
 
 لفتح ملف Excel Microsoft باستخدام مسار الملف ، قم بتمرير مسار الملف كمعامل أثناء إنشاء مثيل لـ**[مصنف] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**صف دراسي. يوضح نموذج التعليمات البرمجية التالي فتح ملف Excel باستخدام مسار الملف.
 

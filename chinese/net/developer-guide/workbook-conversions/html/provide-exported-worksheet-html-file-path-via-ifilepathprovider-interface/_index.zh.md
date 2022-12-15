@@ -19,11 +19,11 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 以下屏幕截图显示了 C:\Temp\Sheet1.html 及其链接的外观
 
-![待办事项：图片_替代_文本](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
+![待办事项：图像_替代_文本](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
 以下屏幕截图显示了 HTML 源代码。如您所见，链接现在指向 C:\Temp\OtherSheets 目录。这是通过使用[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)界面。
 
-![待办事项：图片_替代_文本](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
+![待办事项：图像_替代_文本](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **示例代码**
 请注意 C:\Temp 目录仅用于说明目的。您可以使用您选择和放置的任何目录[示例 excel 文件](5115211.xlsx)在那里并执行提供的示例代码。然后它将在您的目录中创建 OtherSheets 子目录，并在其中导出第二个和第三个工作表 HTML。请在提供的代码中更改 dirPath 变量，并在执行前将其引用到您选择的目录。
 

@@ -42,7 +42,7 @@ L'enumerazione contiene i seguenti tipi di salvataggio predefiniti:
 
 ### **Nota**
 
-A causa dell'oggetto "System.Web.HttpResponse" non contenuto in .NET5 e .Netstandard,
+causa dell'oggetto "System.Web.HttpResponse" non contenuto in .NET5 e .Netstandard,
 Quindi questa funzione non esiste nella versione Aspose.Cells .NET5 e .Netstandard, puoi fare riferimento al seguente codice per salvare il file nello stream, quindi eseguire l'operazione sullo stream.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}

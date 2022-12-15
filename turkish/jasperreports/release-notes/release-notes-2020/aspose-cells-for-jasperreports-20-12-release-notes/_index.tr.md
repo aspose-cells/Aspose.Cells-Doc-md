@@ -1,12 +1,12 @@
 ﻿---
-title: JasperReports 20.12 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for JasperReports 20.12 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/jasperreports/aspose-cells-for-jasperreports-20-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, JasperReports 20.12 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for JasperReports 20.12 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -15,4 +15,4 @@ Bu sayfa, JasperReports 20.12 için Aspose.Cells sürüm notlarını içerir.
 |CELLSJR-4| "Aspose.Total for JasperReports" ürünü için destek lisansı|
 
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, JasperReports için API'de yapılan geriye dönük uyumlu olmayan değişikliklerin yanı sıra eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu Aspose.Cells destek forumunda dile getirin.
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for JasperReports numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

@@ -27,13 +27,13 @@ url: /zh/net/rename-worksheets/
 
 **输入文件：默认名称为 Sheet1 的工作表** 
 
-![待办事项：图片_替代_文本](rename-worksheets_1.png)
+![待办事项：图像_替代_文本](rename-worksheets_1.png)
 
 运行代码后，工作表被重命名为 Students。
 
 **输出：工作表重命名为 Students** 
 
-![待办事项：图片_替代_文本](rename-worksheets_2.png)
+![待办事项：图像_替代_文本](rename-worksheets_2.png)
 
 
 

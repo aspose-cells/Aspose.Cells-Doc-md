@@ -19,7 +19,7 @@ Consola.ReadKey();
 
 vacío estático público GetSheetInfo (nombre de archivo de cadena)
 
-{  // Abrir archivo como solo lectura.  usando (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))  {  S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets; _/  hoja, muestra la información de la hoja.  foreach (Hoja E en hojas)  {  foreach (A attr en hoja.GetAttributes())  {  Console.WriteLine("{0}: {1}" , attr.localName, attr.value); _ x000d_ }  }  }   {{< /highlight >}} ## ** Aspose.Cells ** _ XX Archivos\";  string FileName = FilePath + "Obtener información de la hoja de trabajo.xlsx";  GetSheetInfo(FileName);  Console.ReadKey();  }
+{  // Abrir archivo como solo lectura.  usando (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))  {  S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets; _/  hoja, muestra la información de la hoja.  foreach (Hoja E en hojas)  {  foreach (A attr en hoja.GetAttributes())  {  Console.WriteLine("{0}: {1}" , attr.localName, attr.value); _ x000d_ }  }}  }   {{< /highlight >}} ## ** Aspose.Cells ** _ x2sd_ 0761123 Archivos\";  string FileName = FilePath + "Obtener información de la hoja de trabajo.xlsx";  GetSheetInfo(FileName);  Console.ReadKey();  }
 
 vacío estático privado GetSheetInfo (nombre de archivo de cadena)
 

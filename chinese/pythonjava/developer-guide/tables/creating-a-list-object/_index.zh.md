@@ -21,19 +21,19 @@ url: /zh/python-java/creating-a-list-object/
 
 **选择用于创建列表对象的数据范围** 
 
-![待办事项：图片_替代_文本](picture1.png)
+![待办事项：图像_替代_文本](picture1.png)
 
 这将显示“创建列表”对话框。
 
 **创建列表对话框** 
 
-![待办事项：图片_替代_文本](picture2.png)
+![待办事项：图像_替代_文本](picture2.png)
 
 实施列表对象并指定总行（选择**数据**， 然后**列表**， 其次是**总行数**).
 
 **创建列表对象** 
 
-![待办事项：图片_替代_文本](picture3.png)
+![待办事项：图像_替代_文本](picture3.png)
 
 ## **使用 Aspose.Cells API 创建列表对象**
 
@@ -43,7 +43,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 Aspose.Cells根据指定范围的单元格在工作表中创建List对象。使用属性（例如ShowTotals、ListColumns等）[**列表对象**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)控制列表的类。
 
-在下面给出的示例中，我们创建了相同的[**列表对象**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)将 Aspose.Cells 通过 Java API 用于 Python，正如我们在上一节中使用 Microsoft Excel 创建的那样。
+在下面给出的示例中，我们创建了相同的[**列表对象**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)使用我们在上一节中使用 Microsoft Excel 创建的 Aspose.Cells for Python via Java API。
 
 ## 源代码
 

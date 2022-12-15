@@ -9,13 +9,13 @@ url: /ru/java/adding-html-rich-text-inside-the-cell/
 
 Aspose.Cells поддерживает преобразование Microsoft HTML, ориентированного на Excel, в формат XLS/XLSX. Это означает, что HTML, сгенерированный Microsoft Excel, можно преобразовать обратно в формат XLS/XLSX, используя Aspose.Cells.
 
- Точно так же, если есть какой-то простой HTML, Aspose.Cells может преобразовать его в HTML Rich Text. Aspose.Cells обеспечивает[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) свойство, которое может взять такой простой HTML и преобразовать его в отформатированный текст ячейки.
+ Точно так же, если есть какой-то простой HTML, Aspose.Cells может преобразовать его в HTML Rich Text. Aspose.Cells предоставляет[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) свойство, которое может взять такой простой HTML и преобразовать его в отформатированный текст ячейки.
 
 {{% /alert %}}
 
 ## **Пример**
 
- На следующем снимке экрана показан выходной файл Excel, созданный с помощью Aspose.Cells. Как вы можете видеть, он показывает форматированный текст в формате HTML, добавленный в ячейку A1 с помощью[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)имущество.
+ На следующем снимке экрана показан выходной файл Excel, сгенерированный с помощью Aspose.Cells. Как вы можете видеть, он показывает форматированный текст в формате HTML, добавленный в ячейку A1 с помощью[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)имущество.
 
 ![дело:изображение_альтернативный_текст](adding-html-rich-text-inside-the-cell_1.png)
 

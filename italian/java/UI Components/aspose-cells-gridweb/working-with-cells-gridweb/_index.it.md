@@ -28,7 +28,7 @@ Una cella può anche essere riconosciuta dalla sua posizione in termini di indic
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyrowandcolumnindices-Accessingcellbyrowandcolumnindices.jsp" >}}
 ## **Accesso e modifica del valore di un numero Cell**
-[Accesso a Cells nel foglio di lavoro](/cells/it/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) discusso l'accesso alle celle. Questo argomento estende tale discussione per mostrare come accedere e modificare i valori delle celle utilizzando GridWeb API.
+[Accesso a Cells nel foglio di lavoro](/cells/it/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) discusso l'accesso alle celle. Questo argomento estende tale discussione per mostrare come accedere e modificare i valori delle celle utilizzando l'API GridWeb.
 ### **Accesso e modifica del valore di un Cell**
 #### **Valori stringa**
  Prima di accedere e modificare il valore di una cella, è necessario sapere come accedere alle celle. Per dettagli sui diversi approcci per l'accesso alle celle, fare riferimento a[Accesso a Cells nel foglio di lavoro](/cells/it/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet).
@@ -57,13 +57,13 @@ Esiste anche una versione sovraccaricata del metodo putValue che può accettare 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCellAllTypeValue-AccessingModifyingCellAllTypeValue.jsp" >}}
 ## **Aggiunta di formule allo Cells**
-La caratteristica più preziosa offerta da Aspose.Cells.GridWeb è il supporto per formule o funzioni. Aspose.Cells.GridWeb ha il proprio Formula Engine che calcola le formule nei fogli di lavoro. Aspose.Cells.GridWeb supporta funzioni o formule sia integrate che definite dall'utente. Questo argomento illustra in dettaglio l'aggiunta di formule alle celle utilizzando Aspose.Cells.GridWeb API.
+La caratteristica più preziosa offerta da Aspose.Cells.GridWeb è il supporto per formule o funzioni. Aspose.Cells.GridWeb ha il proprio Formula Engine che calcola le formule nei fogli di lavoro. Aspose.Cells.GridWeb supporta funzioni o formule sia integrate che definite dall'utente. Questo argomento illustra in dettaglio l'aggiunta di formule alle celle utilizzando l'API Aspose.Cells.GridWeb.
 ### **Come aggiungere e calcolare una formula?**
  È possibile aggiungere, accedere e modificare le formule nelle celle utilizzando la proprietà Formula di una cella. Aspose.Cells.GridWeb supporta formule definite dall'utente che vanno dal semplice al complesso. Tuttavia, con Aspose.Cells.GridWeb viene fornito anche un gran numero di funzioni o formule incorporate (simili a Microsoft Excel). Per vedere l'elenco completo delle funzioni integrate, fare riferimento a questo[elenco delle funzioni supportate.](/cells/it/net/list-of-supported-functions/)
 
 {{% alert color="primary" %}} 
 
-La sintassi della formula deve essere compatibile con la sintassi di Excel Microsoft. Ad esempio, tutte le formule devono iniziare con un segno di uguale (=).
+La sintassi della formula deve essere compatibile con la sintassi di Microsoft Excel. Ad esempio, tutte le formule devono iniziare con un segno di uguale (=).
 
 Per aggiungere una formula a livello di codice, Aspose.Cells.GridWeb la riconoscerà come formula anche se non si utilizza un segno **=**, ma se gli utenti finali che lavorano nella GUI devono utilizzarla.
 

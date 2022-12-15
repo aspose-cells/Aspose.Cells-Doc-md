@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Python tramite Java 21.6 Note di rilascio
+title: Aspose.Cells for Python via Java 21.6 Note di rilascio
 type: docs
 weight: 7
 url: /it/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Python tramite Java 21,6](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.6/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Python via Java 21.6](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -31,9 +31,9 @@ url: /it/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 |CELLSJAVA-43492| La conversione di un file XML (SpreadsheetML) rimuove l'impostazione nascosta in "Definizione del nome" nell'output XLS e XLSX|
 |CELLSJAVA-43486|NullPointerException durante la conversione di un documento HTML in una cartella di lavoro|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Python tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Python via Java. sul forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della proprietà Cell.IsErrorValue.**
 

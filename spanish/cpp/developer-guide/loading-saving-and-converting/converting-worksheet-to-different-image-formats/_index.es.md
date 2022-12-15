@@ -30,7 +30,7 @@ El siguiente fragmento de código muestra cómo convertir una hoja de cálculo d
 ## **Convertir hoja de trabajo a SVG**
 SVG significa Gráficos vectoriales escalables. SVG es una especificación basada en estándares XML para gráficos vectoriales bidimensionales. Es un estándar abierto que ha sido desarrollado por el World Wide Web Consortium (W3C) desde 1999.
 
-Aspose.Cells para C++ ha podido convertir hojas de trabajo a imágenes SVG desde la versión 18.5.0.
+Aspose.Cells for C++ ha podido convertir hojas de trabajo a imágenes SVG desde la versión 18.5.0.
 
 Para usar esta función, importe el espacio de nombres `Aspose.Cells.Rendering` a su programa o proyecto. Tiene varias clases valiosas para renderizar e imprimir, por ejemplo, `ISheetRender`, `IImageOrPrintOptions` y otras.
 

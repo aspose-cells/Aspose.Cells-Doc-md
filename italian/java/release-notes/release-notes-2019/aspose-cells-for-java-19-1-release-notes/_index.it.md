@@ -29,8 +29,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.1.
 |CELLSJAVA-42757|CellsException durante la conversione dei file|Eccezione|
 |CELLSJAVA-42799|Eccezione "java.lang.ArrayIndexOutOfBoundsException: -32768" durante il caricamento di un formato di file XLSX|Eccezione|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException durante il caricamento di una cartella di lavoro|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo PivotTable.ShowReportFilterPageByName(string fieldName).**
 Mostra tutte le pagine del filtro del report in base al nome del PivotField, il PivotField deve trovarsi nei PageField.
 ### **Aggiunge il metodo PivotTable.ShowReportFilterPageByIndex(int posIndex).**

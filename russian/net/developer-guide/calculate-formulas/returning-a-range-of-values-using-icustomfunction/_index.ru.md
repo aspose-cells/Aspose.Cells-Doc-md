@@ -22,7 +22,7 @@ url: /ru/net/returning-a-range-of-values-using-icustomfunction/
 
  Следующий код реализует[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)и возвращает диапазон значений через свой метод.
 
-Создайте класс с функцией*ВычислитьПользовательскуюФункция*. Этот класс реализует[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+ Создайте класс с функцией*ВычислитьПользовательскуюФункция*. Этот класс реализует[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 

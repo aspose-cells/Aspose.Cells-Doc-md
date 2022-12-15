@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Löschen aller Seitenumbrüche**
- Um alle Seitenumbrüche zu löschen, verwenden Sie**Aspose.Cells Java für Python** , Anruf**clear_all_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+ Um alle Seitenumbrüche zu löschen, verwenden Sie**Aspose.Cells Java for Python** , Anruf**clear_all_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
 
 **Python Code**
 
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Entfernen eines bestimmten Seitenumbruchs**
- So entfernen Sie einen bestimmten Seitenumbruch mit**Aspose.Cells Java für Python** , Anruf**remove_page_break** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+ So entfernen Sie einen bestimmten Seitenumbruch mit**Aspose.Cells Java for Python** , Anruf**remove_page_break** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
 
 **Python Code**
 

@@ -37,7 +37,7 @@ end
 
 {{< /highlight >}}
 ## **Aspose.Cells - Aggiunta di proprietà personalizzate**
-Per aggiungere proprietà documento personalizzate utilizzando Aspose.Cells Java per Ruby, chiama**add_custom_property** metodo del**Documento** modulo.
+Per aggiungere proprietà del documento personalizzate utilizzando Aspose.Cells Java per Ruby, chiama**add_custom_property** metodo del**Documento** modulo.
 
 **Codice Rubino**
 
@@ -71,7 +71,7 @@ end   
 
 {{< /highlight >}}
 ## **Aspose.Cells - Rimozione delle proprietà personalizzate**
- Per rimuovere le proprietà personalizzate del documento utilizzando Aspose.Cells Java per Ruby, chiama**remove_custom_property** metodo del**Documento** modulo.
+ Per rimuovere le proprietà del documento personalizzate utilizzando Aspose.Cells Java per Ruby, chiama**remove_custom_property** metodo del**Documento** modulo.
 
 **Codice Rubino**
 

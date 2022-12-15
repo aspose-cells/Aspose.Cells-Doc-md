@@ -6,7 +6,7 @@ url: /zh/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Reporting Services 的 Aspose.Cells 可作为免费、无时间限制的评估从[下载页面](https://downloads.aspose.com/cells/reportingservices).产品的评估版和许可版是相同的。
+ Aspose.Cells for Reporting Services 可作为免费、无时间限制的评估从[下载页面](https://downloads.aspose.com/cells/reportingservices).产品的评估版和许可版是相同的。
 
 如果您对评估版感到满意，请购买许可证。确保您理解并同意订阅条款和条件。
 
@@ -34,15 +34,15 @@ url: /zh/reportingservices/licensing/
 
 要测试许可证文件是否已正确安装，请将任何报告导出为 Microsoft Excel 工作簿。如果工作簿末尾没有水印工作表，则License文件激活成功。
 
- Aspose.Cells for Reporting Services 在评估模式下工作时插入评估水印工作表。当一个有效的许可证文件时，例如当**Aspose.Cells.ReportingServices.lic**在$[Installation Folder]\License\文件夹下，没有评估水印工作表。
+ Aspose.Cells for Reporting Services 在评估模式下工作时注入评估水印工作表。当一个有效的许可证文件时，例如当**Aspose.Cells.ReportingServices.lic**在$[Installation Folder]\License\文件夹下，没有评估水印工作表。
 
 **在评估模式下创建的文件。注意第二个工作表。** 
 
-![待办事项：图片_替代_文本](licensing_1.png)
+![待办事项：图像_替代_文本](licensing_1.png)
 
 **使用完整许可证创建的文件** 
 
-![待办事项：图片_替代_文本](licensing_2.png)
+![待办事项：图像_替代_文本](licensing_2.png)
 
 {{% alert color="primary" %}} 
 
@@ -52,4 +52,4 @@ url: /zh/reportingservices/licensing/
 
 **指示许可问题的错误消息** 
 
-![待办事项：图片_替代_文本](licensing_3.png)
+![待办事项：图像_替代_文本](licensing_3.png)

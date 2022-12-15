@@ -8,8 +8,8 @@ url: /tr/net/aspose-cells-for-net-8-7-1-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-44154 | Sorgu tablosunu okuma/yazma desteği.| Yeni özellik|
-|CELLSNET-43616 | "TABLO" işlevini içeren Destek Dizisi formülü.| Yeni özellik|
+|CELLSNET-44154 | Sorgu tablosunu okuma/yazma desteği.|Yeni özellik|
+|CELLSNET-43616 | "TABLO" işlevini içeren Destek Dizisi formülü.|Yeni özellik|
 |CELLSNET-44195 | Dosya, XLS dosya biçimine dönüştürüldükten sonra Korumalı Görünümde açılır| Artırma|
 |CELLSNET-44182 | Cells find with custom formatting eski sürümde çalışır ancak yeni sürümde çalışmaz| Artırma|
 |CELLSNET-44187 | Cell değerleri, HTML'ye dönüştürüldüğünde yanlışlıkla # ile değiştiriliyor| Böcek|
@@ -34,7 +34,7 @@ url: /tr/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44223 | Belirli bir XLSX dosyasını yüklerken NullReferenceException| İstisna|
 |CELLSNET-44212 | Kaynak excel dosyasını açarken NullReference istisnası| İstisna|
 |CELLSNET-44204 | CellsException: Çalışma Kitabı ctor'da yazı tipi boyutu aralığın dışında| İstisna|
-|CELLSNET-44196 | GridWeb arayüzünde hangi sütunun filtrelendiğini ve hangi değere göre filtreleneceğini tespit etme yeteneği sağlayın| Yeni özellik|
+|CELLSNET-44196 | GridWeb arayüzünde hangi sütunun filtrelendiğini ve hangi değere göre filtreleneceğini tespit etme yeteneği sağlayın|Yeni özellik|
 |CELLSNET-44232 | Dizinin "0" olduğu RemoveRow(index) ile GridDesktop sorunu| Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

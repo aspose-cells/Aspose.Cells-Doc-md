@@ -6,7 +6,7 @@ url: /ru/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells теперь предоставляет[**Диаграмма.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) способ легко настроить график. Используя этот метод, вам больше не нужно будет отдельно добавлять данные оси серий и категорий.
+ Aspose.Cells теперь обеспечивает[**Диаграмма.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) способ легко настроить график. Используя этот метод, вам больше не нужно будет отдельно добавлять данные оси серий и категорий.
 
 {{% /alert %}}
 

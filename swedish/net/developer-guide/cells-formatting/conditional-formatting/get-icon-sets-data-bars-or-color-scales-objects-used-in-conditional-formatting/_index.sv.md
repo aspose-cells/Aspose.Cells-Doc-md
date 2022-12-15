@@ -10,7 +10,7 @@ Ibland måste du hämta ikonuppsättningar som används i den villkorliga format
 
 {{% /alert %}} 
 
-Följande kodexempel visar hur man läser ikonuppsättningar som används för villkorlig formatering. Med Aspose.Cell:s enkla API sparas ikonuppsättningens bilddata som en bild.
+Följande kodexempel visar hur man läser ikonuppsättningar som används för villkorlig formatering. Med Aspose.Cells enkla API sparas ikonuppsättningens bilddata som en bild.
 
 
 

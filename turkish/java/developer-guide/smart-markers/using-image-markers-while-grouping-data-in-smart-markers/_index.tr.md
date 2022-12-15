@@ -6,7 +6,7 @@ url: /tr/java/using-image-markers-while-grouping-data-in-smart-markers/
 ---
 {{% alert color="primary" %}} 
 
-Bu makale, verileri akıllı işaretleyicilerde gruplandırırken görüntü işaretçilerinin kullanımını gösteren bir örnek sunmaktadır.
+Bu makale, verileri akıllı işaretleyicilerde gruplandırırken görüntü işaretçilerinin kullanımını gösteren bir örnek sunar.
 
 {{% /alert %}} 
 ## **Akıllı İşaretleyicilerde Verileri Gruplandırırken Görüntü İşaretleyicileri Kullanma**

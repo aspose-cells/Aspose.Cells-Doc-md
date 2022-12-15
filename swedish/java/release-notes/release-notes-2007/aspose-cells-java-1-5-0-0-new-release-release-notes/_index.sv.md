@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 1.5.0.0 Releaseinformation för nya versioner
+title: Aspose.Cells Java 1.5.0.0 Releaseinformation för nya utgåvor
 type: docs
 weight: 130
 url: /sv/java/aspose-cells-java-1-5-0-0-new-release-release-notes/
@@ -12,7 +12,7 @@ url: /sv/java/aspose-cells-java-1-5-0-0-new-release-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.5.0!Följande förbättringar och korrigeringar ingår:
+ Vi har släppt Aspose.Cells for Java V1.5.0!Följande förbättringar och korrigeringar ingår:
 
 - Stöder för att skapa anpassade diagram
  Stöder för att ställa in diagramsidor och alternativ

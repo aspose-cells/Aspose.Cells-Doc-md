@@ -3,7 +3,7 @@ title: Visa punktpunkter genom att ställa in Cell Värde med HTML
 type: docs
 weight: 130
 url: /sv/net/display-bullets-by-setting-cell-value-using/
-description: Lägg till punkter i Excel Cells med HTML och det lättanvända Aspose.Cells för .NET API.
+description: Lägg till punkter i Excel Cells med HTML och den lättanvända Aspose.Cells for .NET API.
 keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
 ---
 {{% alert color="primary" %}}
@@ -12,7 +12,7 @@ keywords: add bullets in excel, add bullets in excel c#, display bullets in exce
 
 {{% /alert %}}
 
-## C#-kod för att visa punkter genom att ställa in värdet Cell med HTML
+## C# kod för att visa punkter genom att ställa in Cell värde med HTML
 
 Följande kod använder HTML-koden för att ställa in cellvärdet. När du kör den här koden kommer du att få utdata som visas i bilden nedan.
 

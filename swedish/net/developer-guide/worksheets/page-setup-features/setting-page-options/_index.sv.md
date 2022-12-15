@@ -16,7 +16,7 @@ Alternativ för sidinställningar stöds fullt ut i Aspose.Cells. Den här artik
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass.
 
- De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass ger[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) egenskap som används för att ställa in sidinställningarna för kalkylbladet. Faktum är att detta[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) egendom är ett föremål för[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass används för att ställa in olika sidlayoutalternativ för ett utskrivet kalkylblad. De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class tillhandahåller olika egenskaper som används för att ställa in sidinställningar. Några av dessa egenskaper diskuteras nedan.
+ De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) egenskap som används för att ställa in sidinställningarna för kalkylbladet. Faktum är att detta[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) egendom är ett föremål för[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass används för att ställa in olika sidlayoutalternativ för ett utskrivet kalkylblad. De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class tillhandahåller olika egenskaper som används för att ställa in sidinställningar. Några av dessa egenskaper diskuteras nedan.
 
 ### **Sidorientering**
 
@@ -127,7 +127,7 @@ Alternativ för sidinställningar stöds fullt ut i Aspose.Cells. Den här artik
 |PaperJapaneseEnvelopeChou4|Japanskt kuvert Chou #4|
 |PaperLetterRotated|11 tum x 8,5 tum|
 |PaperA3Roterat|420 mm x 297 mm|
-|PaperA4Roterad|297mm x 210mm|
+|PaperA4Roterad|297 mm x 210 mm|
 |PaperA5 Roterat|210 mm x 148 mm|
 |PaperJISB4Roterad|B4 (JIS) Roterad 364 x 257 mm|
 |PaperJISB5Roterad|B5 (JIS) Roterad 257 x 182 mm|

@@ -9,7 +9,7 @@ Bitte stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen, bevor 
 
 - Visual Studio 2015 oder höher
 ## **Von GitHub herunterladen**
- Alle Beispiele von Aspose.Cells für C++ werden gehostet[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
+ Alle Beispiele von Aspose.Cells for C++ werden gehostet[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
 
 -  Sie können das Repository entweder mit Ihrem bevorzugten GitHub-Client klonen oder die ZIP-Datei von herunterladen[hier](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
 -  Extrahieren Sie den Inhalt der ZIP-Datei in einen beliebigen Ordner auf Ihrem Computer. Alle Beispiele befinden sich in der**Beispiele** Mappe.

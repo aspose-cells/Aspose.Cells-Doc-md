@@ -6,7 +6,7 @@ url: /tr/python-net/licensing/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells Python değerlendirme sürümünü .Net üzerinden kolayca indirebilirsiniz.[indirme sayfası](https://pypi.org/project/aspose-cells-python/) @ Pypi depoları. Değerlendirme sürümü, bileşenin lisanslı sürümüyle kesinlikle aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde, değerlendirme sürümü kolayca lisanslanır.
+ Aspose.Cells Python değerlendirme sürümünü .Net üzerinden kolayca indirebilirsiniz.[indirme sayfası](https://pypi.org/project/aspose-cells-python/) Pypi depoları. Değerlendirme sürümü, bileşenin lisanslı sürümüyle kesinlikle aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde, değerlendirme sürümü kolayca lisanslanır.
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ url: /tr/python-net/licensing/
 Sınırlamalar aşağıda gösterilmiştir:
 
 - **Açılan Dosya Sayısı** (Aspose.Cells Python .Net üzerinden)
-Programınızı çalıştırırken .Net kütüphanesi üzerinden Aspose.Cells Python kullanarak sadece 100 Excel dosyasını açabilirsiniz. Uygulamanız bu sayıyı aşarsa bir istisna atılır.
+ Programınızı çalıştırırken .Net kütüphanesi üzerinden Aspose.Cells Python kullanarak sadece 100 Excel dosyasını açabilirsiniz. Uygulamanız bu sayıyı aşarsa bir istisna atılır.
 
 
 Ayrıca kütüphane aracılığıyla Aspose.Cells Python kullanılarak oluşturulan excel dosyasında değerlendirme filigranlı bir çalışma sayfası her zaman aktif çalışma sayfası olarak görünecektir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz. Aspose.Cells Python üzerinden alınan PDF veya resim dosyası çıktısında, belgenin/resmin üst kısmına bir değerlendirme filigranı yapıştırılır.

@@ -10,6 +10,6 @@ url: /it/net/locking-wordart-watermark/
 
 {{% /alert %}}
 
-Aspose.Cells Le API consentono di bloccare alcuni aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente frammento di codice illustra l'utilizzo di Aspose.Cells for .NET API per bloccare la selezione, il movimento, la modifica e il ridimensionamento della filigrana creando un foglio di calcolo da zero.
+Aspose.Cells Le API consentono di bloccare alcuni aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente frammento di codice illustra l'utilizzo dell'API Aspose.Cells for .NET per bloccare la selezione, lo spostamento, la modifica e il ridimensionamento della filigrana creando un foglio di calcolo da zero.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}

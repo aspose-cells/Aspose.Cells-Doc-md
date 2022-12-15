@@ -3,12 +3,12 @@ title: Lägg till Pivot Connection
 type: docs
 weight: 30
 url: /sv/java/add-pivot-connection/
-description: Lär dig hur du lägger till pivotkoppling med Aspose.Cells Java-bibliotek.
+description: Lär dig hur du lägger till pivotkoppling med Aspose.Cells Java bibliotek.
 keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
 ---
 ## **Möjliga användningsscenarier**
 
- Om du vill associera slicer och pivottabell i Excel måste du högerklicka på slicer och välja "Rapportera anslutningar...". I alternativlistan kan du använda kryssrutan. På samma sätt, om du vill associera slicer och pivottabell med Aspose.Cells Java API programmatiskt, använd[**Slicer.addPivotConnection(pivottabell)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) metod. Det kommer att associera slicer och pivottabell.
+ Om du vill associera slicer och pivottabell i Excel måste du högerklicka på slicer och välja "Rapportera anslutningar...". I alternativlistan kan du använda kryssrutan. På samma sätt, om du vill koppla slicer och pivottabell med Aspose.Cells Java API programmatiskt, använd[**Slicer.addPivotConnection(pivottabell)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) metod. Det kommer att associera slicer och pivottabell.
 
 ## **Associera Slicer och PivotTable**
 

@@ -18,6 +18,6 @@ url: /it/net/refresh-values-of-linked-shapes/
 
 Puoi scaricare il[file Excel di origine](95584291.xlsx) e il[uscita PDF](95584292.pdf) dai link indicati.
 
-### C# codice per aggiornare i valori delle forme collegate
+### Codice C# per aggiornare i valori delle forme collegate
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}

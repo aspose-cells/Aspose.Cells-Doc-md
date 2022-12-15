@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells para Reporting Services 2.2.0 Notas de la versión
+title: Aspose.Cells for Reporting Services 2.2.0 Notas de la versión
 type: docs
 weight: 10
 url: /es/reportingservices/aspose-cells-for-reporting-services-2-2-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Esta página contiene notas de la versión para[Aspose.Cells para servicios de informes 2.2.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-2.2.0/)
+ Esta página contiene notas de la versión para[Aspose.Cells for Reporting Services 2.2.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-2.2.0/)
 
 {{% /alert %}} 
 
-Dé la bienvenida a una nueva versión de Aspose.Cells para Reporting Services V2.2.0.
+Dé la bienvenida a una nueva versión de Aspose.Cells for Reporting Services V2.2.0.
 
  Características principales
 

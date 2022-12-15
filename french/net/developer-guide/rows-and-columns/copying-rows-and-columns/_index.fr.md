@@ -28,7 +28,7 @@ Lorsqu'une ligne (ou une colonne) est copiée, les données qu'elle contient, y 
 1.  Dans l'onglet Accueil, cliquez sur**Copie**.
 1.  Cliquez sur la première cellule de la zone où vous souhaitez**pâte** ce que vous avez copié.
 1.  Dans l'onglet Accueil, cliquez sur la flèche à côté de**Pâte** , puis sélectionnez**Pâte** Spécial.
-1.  Sélectionnez le**choix** tu veux.
+1.  Sélectionnez le**options** tu veux.
 
 ## **En utilisant Aspose.Cells**
 

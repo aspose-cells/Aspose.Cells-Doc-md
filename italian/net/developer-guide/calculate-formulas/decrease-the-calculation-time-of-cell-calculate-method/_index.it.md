@@ -18,7 +18,7 @@ Normalmente, consigliamo agli utenti di chiamare[**Workbook.CalculateFormula()**
 
 ## **Uscita console**
 
- Questo è l'output della console del codice di esempio precedente quando eseguito con il file given[file excel di esempio](5113710.xlsx)sulla nostra macchina. Tieni presente che l'output potrebbe differire ma il tempo trascorso dopo aver impostato la proprietà ricorsiva su**falso** sarà sempre inferiore all'impostazione su**VERO**.
+ Questo è l'output della console del codice di esempio precedente quando eseguito con il file given[file excel di esempio](5113710.xlsx) sulla nostra macchina. Tieni presente che l'output potrebbe differire ma il tempo trascorso dopo aver impostato la proprietà ricorsiva su**falso** sarà sempre inferiore all'impostazione su**VERO**.
 
 {{< highlight "java" >}}
 

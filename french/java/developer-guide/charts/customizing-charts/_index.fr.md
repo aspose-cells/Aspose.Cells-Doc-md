@@ -10,7 +10,7 @@ Il est possible d'ajouter une variété de graphiques aux feuilles de calcul ave
 
 ### **Créer simplement un graphique**
 
-Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
+Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
 

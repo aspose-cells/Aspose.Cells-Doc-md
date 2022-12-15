@@ -7,7 +7,7 @@ url: /it/java/converting-worksheet-to-image-in-python/
 ## **Aspose.Cells - Conversione del foglio di lavoro in immagine**
 Per convertire il foglio di lavoro in immagine utilizzando Aspose.Cells for Java in Ruby, è sufficiente richiamare il modulo Convertitore.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

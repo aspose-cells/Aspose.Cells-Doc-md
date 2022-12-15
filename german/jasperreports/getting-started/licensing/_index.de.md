@@ -6,9 +6,9 @@ url: /de/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells für JasperReports ist als kostenlose, zeitlich unbegrenzte Evaluierung von der erhältlich[Download-Seite](https://downloads.aspose.com/cells/jasperreports). Die Testversion und die lizenzierte Version des Produkts sind derselbe Download.
+ Aspose.Cells for JasperReports ist als kostenlose, zeitlich unbegrenzte Auswertung bei der erhältlich[Download-Seite](https://downloads.aspose.com/cells/jasperreports). Die Testversion und die lizenzierte Version des Produkts sind derselbe Download.
 
- Wenn Sie mit der Evaluierungsversion zufrieden sind, können Sie dies tun[eine Lizenz kaufen](https://purchase.aspose.com/). Stellen Sie sicher, dass Sie die Lizenzbedingungen verstanden haben und ihnen zustimmen.
+ Wenn Sie mit der Evaluierungsversion zufrieden sind, können Sie dies tun[eine Lizenz erwerben](https://purchase.aspose.com/). Stellen Sie sicher, dass Sie die Lizenzbedingungen verstanden haben und ihnen zustimmen.
 
 Die Lizenz steht nach Bezahlung der Bestellung auf der Bestellseite zum Download bereit. Die Lizenz ist eine digital signierte XML-Datei im Klartext. Die Lizenz enthält Informationen wie den Kundennamen, das erworbene Produkt und den Lizenztyp. Ändern Sie nicht den Inhalt der Lizenzdatei: Dadurch wird die Lizenz ungültig.
 
@@ -31,7 +31,7 @@ Diese Methode ist für die Verwendung mit JasperReports anwendbar.
 
 {{% /alert %}}
 
-Laden Sie die Lizenz auf Ihren Computer herunter und kopieren Sie sie in den entsprechenden Ordner (zum Beispiel den Ordner Ihrer Anwendung oder**JasperReports\lib**).
+ Laden Sie die Lizenz auf Ihren Computer herunter und kopieren Sie sie in den entsprechenden Ordner (zum Beispiel den Ordner Ihrer Anwendung oder**JasperReports\lib**).
 Fügen Sie Ihrem Projekt den folgenden Code hinzu:
 
 {{< highlight "csharp" >}}
@@ -58,7 +58,7 @@ Diese Methode gilt für die Verwendung mit JasperServer.
 
 {{% /alert %}}
 
-1.  Laden Sie die Lizenz auf Ihren Computer herunter und kopieren Sie sie in die**\<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\WEB-INF** Ordner, wo**\<Installationsverzeichnis>** steht für das JasperServer-Installationsverzeichnis.
+1.  Laden Sie die Lizenz auf Ihren Computer herunter und kopieren Sie sie in die**\<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\WEB-INF**Ordner, wo**\<Installationsverzeichnis>** steht für das JasperServer-Installationsverzeichnis.
 1.  Suchen Sie die**\<Installationsverzeichnis>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** Datei und fügen Sie die folgenden Zeilen hinzu:
 
 **XML**
@@ -77,7 +77,7 @@ Diese Methode gilt für die Verwendung mit JasperServer.
 
 Exportieren Sie einen beliebigen Bericht in das XLS-Format und prüfen Sie, ob der Bericht eine Bewertungsmeldung enthält. Wenn keine Evaluierungsmeldung angezeigt wird, funktioniert die Lizenz ordnungsgemäß.
 
-**Aspose.Cells für JasperReports fügt ein Bewertungsarbeitsblatt im Bewertungsmodus ein** 
+**Aspose.Cells for JasperReports fügt ein Bewertungsarbeitsblatt im Bewertungsmodus ein** 
 
 ![todo: Bild_alt_Text](licensing_1.png)
 

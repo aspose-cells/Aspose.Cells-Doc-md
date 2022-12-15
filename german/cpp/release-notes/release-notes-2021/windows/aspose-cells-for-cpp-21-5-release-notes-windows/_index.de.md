@@ -6,7 +6,7 @@ url: /de/cpp/aspose-cells-for-cpp-21-5-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für C++ 21.5 für Windows.
+Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 21.5 für Windows.
 
 {{% /alert %}}
 

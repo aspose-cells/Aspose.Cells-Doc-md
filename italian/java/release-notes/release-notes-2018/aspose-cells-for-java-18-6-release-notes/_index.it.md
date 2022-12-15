@@ -42,9 +42,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.6.
 |CELLSJAVA-42649|Eccezione: "Il conteggio di HPageBreaks non può essere maggiore di 1024" durante il caricamento di un file XLS|Eccezione|
 |CELLSJAVA-42648|Eccezione: "Impossibile leggere i dati dell'immagine" su Picture.getData()|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge le classi Slicer, SlicerCollection, SlicerCache, SlicerCacheItem e SlicerCacheItemCollection**
 

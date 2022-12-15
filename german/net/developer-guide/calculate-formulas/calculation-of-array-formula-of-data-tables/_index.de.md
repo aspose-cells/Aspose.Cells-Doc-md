@@ -16,6 +16,6 @@ Im folgenden Beispielcode haben wir die[Excel-Quelldatei](5115535.xlsx) . Wenn S
 
 ![todo: Bild_alt_Text](calculation-of-array-formula-of-data-tables_2.png)
 
-Hier ist der Beispielcode, der zum Generieren der[PDF ausgeben](5115538.pdf) von dem[Excel-Quelldatei](5115535.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
+ Hier ist der Beispielcode, der zum Generieren der[PDF ausgeben](5115538.pdf) von dem[Excel-Quelldatei](5115535.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

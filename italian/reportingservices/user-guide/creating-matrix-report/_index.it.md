@@ -6,7 +6,7 @@ url: /it/reportingservices/creating-matrix-report/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells per Reporting Services consente di progettare una matrice in Microsoft Excel.
+ Aspose.Cells for Reporting Services consente di progettare una matrice in Microsoft Excel.
 
 {{% /alert %}} 
 ### **Modello di matrice**
@@ -28,7 +28,7 @@ Per creare una nuova matrice:
 1. Apri Microsoft Excel.
 1.  Clic**Apri rapporto** per aprire un file RDL Report che contiene le origini dati, i set di dati e i parametri del report creati in precedenza.
 Una volta che il file è stato aperto correttamente, tutte le sue informazioni sono disponibili per l'uso, ad esempio, i suoi set di dati sono elencati nel file**Set di dati** elenco.
-1.  Aprire un foglio di lavoro Excel Microsoft e selezionare un set di dati.
+1.  Apri un foglio di lavoro di Microsoft Excel e seleziona un set di dati.
 
 ![cose da fare:immagine_alt_testo](creating-matrix-report_2.png)
 

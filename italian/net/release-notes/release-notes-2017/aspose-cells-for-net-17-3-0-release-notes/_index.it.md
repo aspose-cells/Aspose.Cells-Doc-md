@@ -45,7 +45,7 @@ url: /it/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45187|I tag devono essere in ordine crescente secondo la specifica TrueType|Insetto|
 |CELLSNET-45169|Avviso: la dimensione massima per la regione è 262144 byte, in SheetRender.ToImage su Mono|Insetto|
 |CELLSNET-45167|SheetRender.ToImage esegue il rendering dei contenuti confusi e incompleti su Mono|Insetto|
-|CELLSNET-45166|SheetRender.ToImage esegue il rendering solo dell'intestazione e del piè di pagina della pagina in Mono|Insetto|
+|CELLSNET-45166|SheetRender.ToImage esegue il rendering solo dell'intestazione e del piè di pagina su Mono|Insetto|
 |CELLSNET-43732|Il rendering in EMF e l'incollaggio in Word provoca la sovrapposizione del testo nel PDF risultante|Insetto|
 |CELLSNET-45186|Grafico ad area non visualizzato nell'esportazione PDF|Insetto|
 |CELLSNET-45178|Le etichette degli assi vengono ritagliate durante il rendering del grafico nell'immagine|Insetto|
@@ -70,10 +70,10 @@ url: /it/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-43722|Errore file: i dati potrebbero essere stati persi, generati da Excel durante l'apertura di XLS|Insetto|
 |CELLSNET-45190|Si è verificata un'eccezione durante il calcolo della formula GIORNO LAVORATIVO|Eccezione|
 |CELLSNET-45199|Da Excel a PDF - Eccezione indice fuori dall'array|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Personalizza le impostazioni di globalizzazione di una tabella pivot**
-Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle loro applicazioni .NET, indipendentemente dalla lingua del testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
+Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle proprie applicazioni .NET, indipendentemente dal linguaggio di testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
 
 1. **Aggiunge il metodo GlobalizationSettings.GetPivotTotalName()** - Ottiene il nome dell'etichetta "Totale" nella tabella pivot. Gli sviluppatori possono eseguire l'override di questo metodo quando la tabella pivot contiene due o più campi pivot nell'area dati.
 1. **Aggiunge il metodo GlobalizationSettings.GetPivotGrandTotalName()** - Ottiene il nome dell'etichetta "Totale complessivo" nella tabella pivot.

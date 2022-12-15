@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 18.5 Release Notes
+title: Aspose.Cells for .NET 18.5 Release Notes
 type: docs
 weight: 80
 url: /sv/net/aspose-cells-for-net-18-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 18.5](https://www.nuget.org/packages/Aspose.Cells/18.5.1).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 18.5](https://www.nuget.org/packages/Aspose.Cells/18.5.1).
 
 {{% /alert %}} 
 
@@ -44,8 +44,8 @@ url: /sv/net/aspose-cells-for-net-18-5-release-notes/
 |CELLSNET-46075|Undantag vid rendering av en Excel-fil till PDF|Undantag|
 |CELLSNET-46101|NullReferenceExceptions för att öppna MS Excel-filer på Mono Ubuntu Linux|Undantag|
 |CELLSNET-46085|Undantag vid användning av metoden ListObject.ConvertToRange|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till nya egenskaper Cell.IsTableFormula/IsArrayFormula för att ersätta Cell.IsInTable/IsInArray**
 Anger om en cell är en del av tabellformeln eller matrisformeln. Gamla namn gör otydlighet, så vi gjorde dem föråldrade och tillhandahåller nya.
 #### **Lägger till klass IndividualFontConfigs**

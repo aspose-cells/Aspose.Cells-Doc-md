@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Java 8.9.2 Release Notes
+title: Aspose.Cells for Java 8.9.2 Release Notes
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-java-8-9-2-release-notes/
@@ -8,7 +8,7 @@ url: /sv/java/aspose-cells-for-java-8-9-2-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-41925|Beräkningstiden har ökat med de senaste API-revisionerna|Ny funktion|
+|CELLSJAVA-41925|Beräkningstiden har ökat med de senaste API revisionerna|Ny funktion|
 |CELLSJAVA-40958|Användarkonfigurerbar teckensnittsersättningsmekanism krävs|Ny funktion|
 |CELLSJAVA-41936|Workbook.calculateFormula()-metoden avslutas aldrig för Excel-källfilen|Förbättring|
 |CELLSJAVA-41928|Det gick inte att fånga bildresursen när kalkylbladet renderades till HTML med IStreamProvider|Insekt|
@@ -16,7 +16,7 @@ url: /sv/java/aspose-cells-for-java-8-9-2-release-notes/
 |CELLSJAVA-41932|Problem med getDisplayStringValue() för datumformaterade värden|Insekt|
 |CELLSJAVA-41930|Genom att använda Light Cells API:er för att bearbeta en XLS-fil, bearbetas alltid den första cellen i det första arket|Insekt|
 |CELLSJAVA-41931|Teckenavstånd och brytning är inte korrekta för vertikal text vid rendering av kalkylark till PDF|Insekt|
-|CELLSJAVA-41709|Kolumnbredden är annorlunda på CentOS än på Windows|Insekt|
+|CELLSJAVA-41709|Kolumnbredderna är annorlunda på CentOS än på Windows|Insekt|
 |CELLSJAVA-41933|Diagramskalan har ändrats vid rendering av kalkylark till PDF|Insekt|
 |CELLSJAVA-41934|Justeringsproblem vid rendering av en Excel-fil till PDF|Insekt|
 |CELLSJAVA-41935|Formatering av förklaringsposter störs när kalkylbladet renderas till PDF|Insekt|
@@ -29,8 +29,8 @@ url: /sv/java/aspose-cells-for-java-8-9-2-release-notes/
 |CELLSJAVA-41945|CellsException: Fel vid beräkning av Cell[0Sheet1!E5]at Workbook.CalculateFormula vid beräkning av TREND-funktionen|Undantag|
 |CELLSJAVA-41946|Att öppna Excel-fil orsakar java.lang.NumberFormatException: För inmatningssträng: "80000020"|Undantag|
 |CELLSJAVA-41922|IndexOutOfBoundsException vid kopiering av celler|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen CopyOptions.ReferToDestinationSheet och metoden Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)**
 Anger om det ska refereras till målarbetsbladet (som en datakälla för diagrammet) när rader/intervall kopieras.
 När du kopierar intervallet och diagrammet hänvisar till källarket betyder False att det kopierade diagrammets datakälla inte kommer att ändras. Sant betyder att det kopierade diagrammets datakälla refererar till målarket.

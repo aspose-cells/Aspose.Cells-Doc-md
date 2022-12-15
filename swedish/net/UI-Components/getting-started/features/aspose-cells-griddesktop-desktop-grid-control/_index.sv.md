@@ -39,7 +39,7 @@ url: /sv/net/aspose-cells-griddesktop-desktop-grid-control/
 ### **Avancerade funktioner**
 - Stöder skapa och beräkna formler.
 - Utför dina önskade åtgärder under olika rutnätshändelser.
-### **Microsoft Excel-versioner som stöds**
+### **Stöds Microsoft Excel-versioner**
 - Microsoft Excel 97
 - Microsoft Excel 2000
 - Microsoft Excel XP
@@ -48,4 +48,4 @@ url: /sv/net/aspose-cells-griddesktop-desktop-grid-control/
 - Microsoft Excel 2010
 - Microsoft Excel 2013
 ### **Plattformar som stöds**
-- Windows-formulär
+- Windows Blanketter

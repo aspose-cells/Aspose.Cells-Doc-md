@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 22.12 Notes de version
+title: Aspose.Cells for Android via Java 22.12 Notes de mise à jour
 type: docs
 weight: 1
 url: /fr/java/aspose-cells-for-android-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 22.12.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 22.12.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-44775|Étiquettes de graphique superposées dans le rendu graphique à image|
 |CELLSJAVA-44882|Graphique en rendu d'image - L'une des étiquettes se trouve à l'intérieur du graphique en anneau|
 |CELLSJAVA-44943|XLSX en PDF : les étiquettes de graphique ne sont pas rendues correctement|
-|CELLSJAVA-44928|XLS vers PDF : Données insuffisantes pour une image|
+|CELLSJAVA-44928|XLS vers PDF : données insuffisantes pour une image|
 |CELLSJAVA-44910|Convertir Excel en résultats HTML en milliers de petites images similaires|
 |CELLSJAVA-44944|Le redimensionnement des tableaux modifie la mise en forme des cellules|
 |CELLSJAVA-44948| Les images ne peuvent pas s'afficher dans la feuille lors de la conversion de HTML en Excel|
@@ -58,7 +58,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 
 ### **Modification de la limite de déplacement des cellules hors de la feuille pour l'insertion de lignes**
 

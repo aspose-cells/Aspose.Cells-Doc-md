@@ -6,7 +6,7 @@ url: /it/net/use-error-checking-options/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel consente agli utenti di definire opzioni e regole di controllo degli errori. Gli utenti vedono spesso i controlli degli errori durante la creazione di formule, un piccolo triangolo nell'angolo in alto a destra di una cella evidenzia quando c'è un problema con una cella. Excel fornisce informazioni che aiutano gli utenti a correggere problemi comuni.
+Microsoft Excel consente agli utenti di definire opzioni e regole per il controllo degli errori. Gli utenti vedono spesso i controlli degli errori durante la creazione di formule, un piccolo triangolo nell'angolo in alto a destra di una cella evidenzia quando c'è un problema con una cella. Excel fornisce informazioni che aiutano gli utenti a correggere problemi comuni.
 
 {{% /alert %}}
 

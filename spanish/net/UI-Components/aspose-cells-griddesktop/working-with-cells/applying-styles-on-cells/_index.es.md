@@ -38,7 +38,7 @@ Hay seis tipos de bordes admitidos por Aspose.Cells.GridDesktop de la siguiente 
 Un borde se compone de una línea. Al cambiar el tipo de línea, cambia la apariencia de un borde. Hay muchos tipos de líneas de borde compatibles con Aspose.Cells.GridDesktop, que también se enumeran a continuación:
 
 - **Ninguna** , no representa ninguna frontera
-- **Delgada** , representa un borde de línea sólida
+- **Delgada** , representa un borde de línea continua
 - **Medio** , representa un borde de línea sólida con un ancho de línea igual a 2f
 - **punteado** , representa el borde de la línea discontinua
 - **Punteado** , representa el borde de la línea de puntos

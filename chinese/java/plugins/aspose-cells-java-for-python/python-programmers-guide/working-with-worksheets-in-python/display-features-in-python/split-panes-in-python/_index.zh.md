@@ -5,7 +5,7 @@ weight: 70
 url: /zh/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - 拆分窗格**
-拆分窗格使用**Aspose.Cells Java 为 Python** 只需调用**分割面板**模块。
+拆分窗格使用**Aspose.Cells Java for Python** 只需调用**分割面板**模块。
 
 **Python 代码**
 

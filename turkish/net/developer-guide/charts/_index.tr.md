@@ -69,7 +69,7 @@ kullanarak bir çalışma sayfasına herhangi bir grafik türü ekleyin.[**Grafi
 
 Grafiğe kaynak verileri eklerken, veri kaynağı bir hücre aralığı ("A1:C3" gibi) veya bitişik olmayan bir hücre dizisi ("A1, A3, A5" gibi) veya bir dizi olabilir. değerler ("1,2,3" gibi).
 
-Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak sağlar. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
+Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak tanır. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
 
  Aspose.Cells ile birçok farklı türde grafik oluşturmak mümkündür. Aspose.Cells tarafından desteklenen tüm standart grafikler, adlı bir numaralandırmada önceden tanımlanmıştır.[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
 

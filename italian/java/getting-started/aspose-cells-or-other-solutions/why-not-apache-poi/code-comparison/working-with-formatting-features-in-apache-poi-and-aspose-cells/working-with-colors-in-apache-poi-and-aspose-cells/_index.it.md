@@ -5,11 +5,11 @@ weight: 20
 url: /it/java/working-with-colors-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Lavorare con i colori**
-Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook), che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
+Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook), che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
 
 Aspose.Cells fornisce il metodo setStyle nella classe Cell utilizzata per impostare la formattazione di una cella. Inoltre, l'oggetto Style della classe Style può essere utilizzato per configurare le impostazioni dei caratteri.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -62,7 +62,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF XSSF - Lavorare con i colori**
 La classe CellStyle è disponibile per impostare le impostazioni di background e fillpattern.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

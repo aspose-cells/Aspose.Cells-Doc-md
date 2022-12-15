@@ -10,11 +10,11 @@ SharePoint ger som standard inte fullständiga behörigheter att hantera personl
 
 {{% /alert %}} 
 ### **Bevilja tillstånd till personliga webbplatser**
-När det här problemet uppstår under installationen loggas ett UnauthorizedAccessException på Microsoft.SharePoint.SPFeature.Activate() till SharePoint-spårningsloggen. När avaktiveringen misslyckas som en del av avinstallationen, visas ett UnauthorizedAccessException på den senaste inställningsskärmen för den eller de misslyckade inaktiveringen.
+När det här problemet uppstår under installationen loggas ett UnauthorizedAccessException på Microsoft.SharePoint.SPFeature.Activate() i SharePoint-spårningsloggen. När avaktiveringen misslyckas som en del av avinstallationen, visas ett UnauthorizedAccessException på den senaste inställningsskärmen för den eller de misslyckade inaktiveringen.
 
 För att förhindra detta problem, ge portaladministratörer behörighet att hantera MySite-webbapplikationen:
 
-1.  Gå till**SharePoint central administration** och välj**Applikationshantering** flik.
+1.  Gå till**SharePoint central administration**och välj**Applikationshantering** flik.
 1.  Välja**Policy för webbapplikation** under**Applikationssäkerhet** grupp.
 1.  Se till att du väljer rätt webbapplikation för din "Min webbplats" i**Webbapplikation** lista till höger.
 1.  Välj**Lägg till användare** uppe till vänster.

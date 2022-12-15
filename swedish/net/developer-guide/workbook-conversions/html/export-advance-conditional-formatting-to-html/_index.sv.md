@@ -10,11 +10,11 @@ Du kan exportera DataBar, ColorScale och IconSet Conditional Formatting samtidig
 
 {{% /alert %}} 
 ## **Exportera DataBar, ColorScale och IconSet villkorlig formatering medan Excel till HTML-konvertering**
- Följande skärmdump visar[exempel på excel-fil](5115558.xlsx) med DataBar, ColorScale och IconSet Conditional Formatting. Du kan ladda ner[exempel på excel-fil](5115558.xlsx) från den angivna länken.
+Följande skärmdump visar[exempel på excel-fil](5115558.xlsx) med DataBar, ColorScale och IconSet Conditional Formatting. Du kan ladda ner[exempel på excel-fil](5115558.xlsx) från den angivna länken.
 
 ![todo:image_alt_text](conversion_1.png)
 
- Följande skärmdump visar HTML-utdatafilen Aspose.Cells som visar DataBar, ColorScale och IconSet Conditional Formatting. Som du kan se ser det precis ut som[exempel på excel-fil](5115558.xlsx).
+Följande skärmdump visar HTML-utdatafilen Aspose.Cells som visar DataBar, ColorScale och IconSet Conditional Formatting. Som du kan se ser det precis ut som[exempel på excel-fil](5115558.xlsx).
 
 ![todo:image_alt_text](conversion_2.png)
 ### **Exempelkod**

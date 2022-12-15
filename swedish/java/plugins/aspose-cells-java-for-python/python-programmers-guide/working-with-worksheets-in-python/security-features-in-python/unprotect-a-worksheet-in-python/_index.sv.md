@@ -1,13 +1,13 @@
 ﻿---
-title: Ta bort skyddet av ett arbetsblad i Python
+title: Ta bort skyddet av ett arbetsblad på Python
 type: docs
 weight: 20
 url: /sv/java/unprotect-a-worksheet-in-python/
 ---
 ## **Aspose.Cells - Ta bort skyddet av ett arbetsblad**
- För att skydda kalkylblad med hjälp av**Aspose.Cells Java för Python** , ringa upp**unprotect_worksheet** metod av**skydd** modul.
+ För att skydda kalkylblad med hjälp av**Aspose.Cells Java for Python** , ringa upp**unprotect_worksheet** metod av**skydd** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

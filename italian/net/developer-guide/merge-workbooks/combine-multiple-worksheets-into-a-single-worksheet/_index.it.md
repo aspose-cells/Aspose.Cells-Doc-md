@@ -6,7 +6,7 @@ url: /it/net/combine-multiple-worksheets-into-a-single-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-A volte, è necessario combinare più fogli di lavoro in un unico foglio di lavoro. Ciò può essere facilmente ottenuto utilizzando Aspose.Cells API. Questo articolo ti mostrerà un esempio di codice che legge una cartella di lavoro di origine e combina i dati di tutti i fogli di lavoro di origine in un singolo foglio di lavoro all'interno di una cartella di lavoro di destinazione.
+A volte, è necessario combinare più fogli di lavoro in un unico foglio di lavoro. Ciò può essere facilmente ottenuto utilizzando l'API Aspose.Cells. Questo articolo ti mostrerà un esempio di codice che legge una cartella di lavoro di origine e combina i dati di tutti i fogli di lavoro di origine in un singolo foglio di lavoro all'interno di una cartella di lavoro di destinazione.
 
 {{% /alert %}} 
 

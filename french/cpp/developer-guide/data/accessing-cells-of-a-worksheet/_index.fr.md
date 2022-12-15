@@ -1,5 +1,5 @@
 ﻿---
-title: Accéder au Cells d'une feuille de travail
+title: Accéder au Cells d'une feuille de calcul
 type: docs
 weight: 10
 url: /fr/cpp/accessing-cells-of-a-worksheet/
@@ -10,7 +10,7 @@ Nous savons que toutes les feuilles de calcul peuvent contenir des données qui 
 
 {{% /alert %}} 
 ## **Accéder au Cells**
- Aspose.Cells fournit une classe[IClasseur](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) qui représente un fichier Excel. La[IClasseur](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) classe contient un[Des feuilles de calcul](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) classer. La[Feuille de travail](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)collection qui représente toutes les cellules de la feuille de calcul.
+ Aspose.Cells fournit une classe[IClasseur](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) qui représente un fichier Excel. La[IClasseur](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) classe contient un[Des feuilles de calcul](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[Feuille de calcul](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) classer. La[Feuille de calcul](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)collection qui représente toutes les cellules de la feuille de calcul.
 
  On peut utiliser[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)collection pour accéder aux cellules d'une feuille de calcul. Aspose.Cells propose trois approches de base pour accéder aux cellules d'une feuille de calcul :
 
@@ -24,13 +24,13 @@ Nous avons mentionné que la 3ème approche est la plus rapide et la 1ère appro
 
 {{% /alert %}} 
 ### **Utilisation du nom Cell**
- Les développeurs peuvent accéder à n'importe quelle cellule spécifique en transmettant son nom de cellule au[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collecte de la[Feuille de travail](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)classe comme index.
+ Les développeurs peuvent accéder à n'importe quelle cellule spécifique en transmettant son nom de cellule au[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collecte de la[Feuille de calcul](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)classe comme index.
 
- Si vous créez une feuille de calcul vierge au début, le nombre de[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) la collecte est nulle. Lorsque vous utilisez cette approche pour accéder à une cellule, il vérifie si cette cellule existe dans la collection ou non. Si oui, il renvoie l'objet cellule dans la collection sinon, il crée un nouveau[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) objet, ajoute l'objet au[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)collection, puis renvoie cet objet. Cette approche est le moyen le plus simple d'accéder à la cellule si vous connaissez Excel Microsoft, mais c'est la plus lente par rapport aux autres approches.
+ Si vous créez une feuille de calcul vierge au début, le nombre de[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)la collecte est nulle. Lorsque vous utilisez cette approche pour accéder à une cellule, il vérifie si cette cellule existe dans la collection ou non. Si oui, il renvoie l'objet cellule dans la collection sinon, il crée un nouveau[ICell](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) objet, ajoute l'objet au[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)collection, puis renvoie cet objet. Cette approche est le moyen le plus simple d'accéder à la cellule si vous connaissez Excel Microsoft, mais c'est la plus lente par rapport aux autres approches.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingCellName.cpp" >}}
 ### **Utilisation de l'index des lignes et des colonnes du Cell**
- Les développeurs peuvent accéder à n'importe quelle cellule spécifique en transmettant les indices de sa ligne et de sa colonne au[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collecte de la[Feuille de travail](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)classer. Cette approche fonctionne de la même manière que celle de la première approche.
+ Les développeurs peuvent accéder à n'importe quelle cellule spécifique en transmettant les indices de sa ligne et de sa colonne au[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) collecte de la[Feuille de calcul](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)classer. Cette approche fonctionne de la même manière que celle de la première approche.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingRowAndColumnIndexOfTheCell.cpp" >}}
 ## **Accès à la plage d'affichage maximale de la feuille de calcul**

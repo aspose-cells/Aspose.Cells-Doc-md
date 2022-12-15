@@ -6,7 +6,7 @@ url: /ar/reportingservices/creating-matrix-report/
 ---
 {{% alert color="primary" %}} 
 
- يتيح لك Aspose.Cells لخدمات التقارير تصميم مصفوفة في Microsoft Excel.
+ Aspose.Cells for Reporting Services يتيح لك تصميم مصفوفة في Microsoft Excel.
 
 {{% /alert %}} 
 ### **قالب المصفوفة**

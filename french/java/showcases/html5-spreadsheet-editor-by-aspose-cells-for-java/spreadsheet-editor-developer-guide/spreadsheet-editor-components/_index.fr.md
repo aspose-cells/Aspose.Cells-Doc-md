@@ -36,7 +36,7 @@ Le WorkbookService est un bean backend JSF à portée de vue. Il fonctionne comm
 
 **initialiser**
 
- La**initialiser** est**Post-construction** méthode qui est exécutée juste après la création de l'objet par le serveur d'applications Java. Il vérifie**URL** paramètre dans la carte des paramètres de demande et charge la feuille de calcul correspondante à partir d'un emplacement donné, si possible.
+ La**initialiser** est**Post-construction** méthode qui est exécutée juste après la création de l'objet par le serveur d'applications Java. Il vérifie**URL**paramètre dans la carte des paramètres de demande et charge la feuille de calcul correspondante à partir d'un emplacement donné, si possible.
 
 **détruire**
 

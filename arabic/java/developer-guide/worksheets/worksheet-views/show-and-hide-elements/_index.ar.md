@@ -179,7 +179,7 @@ Aspose.Cells يسمح للمستخدم بإظهار وإخفاء عناصر مص
 
 ### **التحكم في رؤية خطوط الشبكة**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) الذي يمثل ملف إكسل Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) يسمح بالوصول إلى كل ورقة عمل في الملف.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) يسمح بالوصول إلى كل ورقة عمل في الملف.
 
  يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. للتحكم في رؤية خطوط الشبكة ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) طريقة.
 
@@ -199,7 +199,7 @@ Aspose.Cells يسمح للمستخدم بإظهار وإخفاء عناصر مص
 
 **مثال: إخفاء خطوط الشبكة في ورقة عمل معينة**
 
- يوضح المثال أدناه استخدام امتداد[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[**setGridlinesVisible (خطأ)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) طريقة لإخفاء خطوط الشبكة في ورقة العمل الأولى من ملف Excel.
+ يوضح المثال أدناه استخدام[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[**setGridlinesVisible (خطأ)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) طريقة لإخفاء خطوط الشبكة في ورقة العمل الأولى من ملف Excel.
 
 توضح لقطة الشاشة أدناه أن ملف Book1.xls يحتوي على ثلاث أوراق عمل: Sheet1 و Sheet2 و Sheet3. تحتوي كل أوراق العمل هذه على خطوط شبكية.
 

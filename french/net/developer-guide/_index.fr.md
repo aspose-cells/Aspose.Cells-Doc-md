@@ -61,7 +61,7 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
     <div class="col-md-6">
         <p><li><a href="/cells/fr/net/add-and-retrieve-data/">Données</a></p>
         <ul>
-		 <li><a href="/cells/fr/net/accessing-cells-of-a-worksheet/">Accéder au Cells d'une feuille de travail</a></li>
+		 <li><a href="/cells/fr/net/accessing-cells-of-a-worksheet/">Accéder au Cells d'une feuille de calcul</a></li>
 		 <li><a href="/cells/fr/net/add-and-retrieve-data/">Ajouter et récupérer des données</a></li>
 		 <li><a href="/cells/fr/net/manage-worksheets/">Des feuilles de calcul</a></li>
 		 <li><a href="/cells/fr/net/rows-and-columns/">Lignes et colonnes</a></li>
@@ -132,7 +132,7 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
             <li><a href="/cells/fr/net/insert-shapes/#inserting-a-rectangle-to-worksheet">Insertion d'un rectangle dans la feuille de calcul</a></li>
             <li><a href="/cells/fr/net/insert-shapes/#inserting-a-cube-to-worksheet">Insertion d'un cube dans une feuille de calcul</a></li>
 			<li><a href="/cells/fr/net/insert-shapes/#inserting-a-callout-quad-arrow-to-worksheet">Insertion d'une flèche quadruple de légende dans la feuille de calcul</a></li>
-			<li><a href="/cells/fr/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">Insertion d'un signe de multiplication dans la feuille de calcul</a></li>
+			<li><a href="/cells/fr/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">Insertion d'un signe de multiplication dans la feuille de travail</a></li>
 			<li><a href="/cells/fr/net/insert-shapes/#inserting-a-multidocument-to-worksheet">Insertion d'un multidocument dans Worksheet</a></li>
 			<li><a href="/cells/fr/net/insert-shapes/#inserting-a-five-pointed-star-to-worksheet">Insertion d'une étoile à cinq branches dans la feuille de calcul</a></li>
 			<li><a href="/cells/fr/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">Insertion d'un nuage de bulles de pensée dans la feuille de calcul</a></li>
@@ -273,7 +273,7 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         </ul>
         <p><a href="/cells/fr/net/managing-database-connections/">Requêtes et connexions</a></p>
         <ul>
-		 <li><a href="/cells/fr/net/reading-and-writing-query-table-of-worksheet/">Table de requête de lecture et d'écriture de la feuille de calcul</a></li>
+		 <li><a href="/cells/fr/net/reading-and-writing-query-table-of-worksheet/">Table de requête de lecture et d'écriture de la feuille de travail</a></li>
         </ul>
         <p>Trier</p>
         <ul>

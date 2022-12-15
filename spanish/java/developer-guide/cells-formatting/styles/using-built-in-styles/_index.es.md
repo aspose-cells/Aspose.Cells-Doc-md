@@ -1,5 +1,5 @@
 ﻿---
-title: Uso de estilos incorporados
+title: Uso de estilos integrados
 type: docs
 weight: 480
 url: /es/java/using-built-in-styles/

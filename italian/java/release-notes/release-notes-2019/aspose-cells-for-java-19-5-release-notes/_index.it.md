@@ -28,8 +28,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.5.
 |CELLSJAVA-42881|Eccezione "java.lang.IllegalStateException: codifica non valida: null " durante il caricamento di un file XLS di MS Excel 5.0/95|Eccezione|
 |CELLSJAVA-42884|Eccezione "java.lang.ArrayIndexOutOfBoundsException" durante il caricamento di un file XLS MS Excel 5.0/95|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge il costruttore StreamProviderOptions**
 Nuove opzioni StreamProvider.
 ### **Aggiunge l'enumerazione FileFormatType.GraphChart**

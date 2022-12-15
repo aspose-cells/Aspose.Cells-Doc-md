@@ -58,7 +58,7 @@ Aspose.Cells.GridWeb 控件支持多个事件，这些事件在控件中触发�
 
    **双击选定的事件** 
 
-![待办事项：图片_替代_文本](working-with-gridweb-events_1.png)
+![待办事项：图像_替代_文本](working-with-gridweb-events_1.png)
 
 
 
@@ -67,7 +67,7 @@ Aspose.Cells.GridWeb 控件支持多个事件，这些事件在控件中触发�
 
 **由 Visual Studio 创建的事件处理程序** 
 
-![待办事项：图片_替代_文本](working-with-gridweb-events_2.png)
+![待办事项：图像_替代_文本](working-with-gridweb-events_2.png)
 
 
 
@@ -85,4 +85,4 @@ Aspose.Cells.GridWeb 控件支持多个事件，这些事件在控件中触发�
 
 **运行模式下的应用** 
 
-![待办事项：图片_替代_文本](working-with-gridweb-events_3.png)
+![待办事项：图像_替代_文本](working-with-gridweb-events_3.png)

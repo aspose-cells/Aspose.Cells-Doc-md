@@ -1,17 +1,17 @@
 ﻿---
-title: Aspose.Cells för Java 7.2.1 Release Notes
+title: Aspose.Cells for Java 7.2.1 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-7-2-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.2.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.2.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.2.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.2.1/)
 
 {{% /alert %}} 
 
 Vi är
- glad att kunna meddela Aspose.Cells för Java v7.2.1!
+ glad att meddela Aspose.Cells for Java v7.2.1!
 
  Nya egenskaper
 

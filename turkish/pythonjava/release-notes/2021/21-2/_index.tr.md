@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Python için Aspose.Cells 21.2 Sürüm Notları
+title: Aspose.Cells for Python via Java 21.2 Sürüm Notları
 type: docs
 weight: 12
 url: /tr/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 21.2 aracılığıyla Python için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Python via Java 21.2 için sürüm notları içerir.
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ Bu sayfa, Java 21.2 aracılığıyla Python için Aspose.Cells için sürüm not
 |CELLSJAVA-43382|Kopya bozuk çalışma kitabı üretir|
 |CELLSJAVA-43364|İşaretçide resim bulunan grafiği resme kaydederken sorun|
 |CELLSJAVA-43389|XLSB dosya biçimi olarak kaydederken Çalışma Kitabı/Çalışma Sayfası Parola Koruması ayarları kayboldu|
-|CELLSJAVA-43392| Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
+|CELLSJAVA-43392|Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
 |CELLSJAVA-43387|Tek sayfayı HTML'ye dışa aktarmak İstisna'yı yükseltir|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

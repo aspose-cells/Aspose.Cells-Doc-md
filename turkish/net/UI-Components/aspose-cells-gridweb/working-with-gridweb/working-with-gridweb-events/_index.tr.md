@@ -42,7 +42,7 @@ Bu liste, Control sınıfından Aspose.Cells.GridWeb tarafından devralınan ola
 | SheetSekmeClick| Bir sayfa sekmesi tıklandığında gerçekleşir.|
 | Komut Gönder| Ne zaman oluşur**Göndermek** butonu tıklanır.|
 | Komutu Geri Al| Ne zaman oluşur**Geri alma** butonu tıklanır.|
-| AjaxCallBitti| Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanacaktır).|
+| AjaxCallBitti| Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanmalıdır).|
 | CellModifiedOnAjax| AJAX çağrısında hücre değiştirildiğinde tetiklenir.|
 | OnAfterColumnFilter| Filtre bir sütuna uygulandıktan sonra tetiklenir.|
 | OnBeforeColumnFilter| Filtre bir sütuna uygulanmadan önce tetiklenir.|

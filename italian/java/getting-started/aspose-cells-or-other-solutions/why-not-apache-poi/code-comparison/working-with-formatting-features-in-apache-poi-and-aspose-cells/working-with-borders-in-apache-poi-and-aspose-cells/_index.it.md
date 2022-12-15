@@ -5,11 +5,11 @@ weight: 10
 url: /it/java/working-with-borders-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Lavorare con i confini**
-Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
+Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
 
 Aspose.Cells fornisce il metodo setStyle nel file[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe utilizzata per impostare lo stile di formattazione di una cella. Inoltre, l'oggetto Style di[Stile](http://docs.aspose.com:8082/docs/display/cellsjava/Style)viene utilizzata la classe e fornisce le proprietà per la configurazione delle impostazioni dei caratteri.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -33,7 +33,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF XSSF - Lavorare con i bordi**
 La classe CellStyle fornisce funzionalità per impostare le impostazioni dei bordi utilizzando Apache POI SS - HSSF e XSSF.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

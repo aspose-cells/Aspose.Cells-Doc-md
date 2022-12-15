@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لـ PHP عبر Java 22.5 ملاحظات الإصدار
+title: Aspose.Cells for PHP via Java 22.5 ملاحظات الإصدار
 type: docs
 weight: 8
 url: /ar/php-java/aspose-cells-for-php-via-java-22-5-release-notes/
 ---
 {{% alert color="primary" %}}
 
- تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لـ PHP عبر Java 22.5](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.5/).
+ تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for PHP via Java 22.5](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.5/).
 
 {{% /alert %}}
 

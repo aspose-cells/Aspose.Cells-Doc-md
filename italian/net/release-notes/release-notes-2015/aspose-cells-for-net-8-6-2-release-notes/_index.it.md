@@ -32,9 +32,9 @@ url: /it/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44043) - L'apertura e il nuovo salvataggio di file Excel di grandi dimensioni danneggiano il documento
 
-(CELLSNET-44031) - XLSB danneggiato in Excel 2010 dopo il salvataggio in v8.6.1
+ (CELLSNET-44031) - XLSB danneggiato in Excel 2010 dopo il salvataggio in v8.6.1
 
- (CELLSNET-43990) - AutoShape fuori posto durante il rendering del foglio di calcolo in PDF
+(CELLSNET-43990) - AutoShape fuori posto durante il rendering del foglio di calcolo in PDF
 
  (CELLSNET-43989) - Lo spazio tra le righe all'interno di una casella di testo è stato ridotto
 
@@ -58,9 +58,9 @@ url: /it/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44002) - L'immagine viene ridimensionata a causa di qualche problema nel codice
 
-(CELLSNET-43960) - Impossibile leggere alcuni file protetti da password
+ (CELLSNET-43960) - Impossibile leggere alcuni file protetti da password
 
- (CELLSNET-44062) - La voce della legenda del grafico non viene rimossa quando la colonna dell'origine dati è nascosta
+(CELLSNET-44062) - La voce della legenda del grafico non viene rimossa quando la colonna dell'origine dati è nascosta
 
  (CELLSNET-44026) - Tutte le linee guida vengono mostrate nell'immagine di output per un grafico personalizzato
 
@@ -82,9 +82,9 @@ url: /it/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44056) - Salva in PDF perde i bordi verticali
 
-(CELLSNET-44049) - Le colonne nascoste perdono la loro larghezza
+ (CELLSNET-44049) - Le colonne nascoste perdono la loro larghezza
 
- (CELLSNET-44039) - Impossibile calcolare la formula in base ai valori filtrati nel foglio di lavoro
+(CELLSNET-44039) - Impossibile calcolare la formula in base ai valori filtrati nel foglio di lavoro
 
  (CELLSNET-44037) - La funzione di aggregazione genera un errore #NAME fino a quando l'utente non accede alla barra della formula
 
@@ -145,10 +145,10 @@ url: /it/net/aspose-cells-for-net-8-6-2-release-notes/
  (CELLSNET-43185) - SerializationException quando la modalità Session-State passa a StateServer
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 
 

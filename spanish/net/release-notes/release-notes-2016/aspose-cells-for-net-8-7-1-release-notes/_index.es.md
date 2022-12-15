@@ -8,8 +8,8 @@ url: /es/net/aspose-cells-for-net-8-7-1-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSNET-44154 | Admite tabla de consulta de lectura/escritura.| Nueva caracteristica|
-|CELLSNET-43616 | Admite fórmula de matriz que involucra la función "TABLA".| Nueva caracteristica|
+|CELLSNET-44154 | Admite tabla de consulta de lectura/escritura.|Nueva caracteristica|
+|CELLSNET-43616 | Admite fórmula de matriz que involucra la función "TABLA".|Nueva caracteristica|
 |CELLSNET-44195 | El archivo se abre en Vista protegida después de la conversión al formato de archivo XLS| Mejora|
 |CELLSNET-44182 | Cells buscar con formato personalizado funciona en la versión anterior pero no en la versión más nueva| Mejora|
 |CELLSNET-44187 | Los valores Cell se reemplazan incorrectamente con # cuando se convierten a HTML| Insecto|
@@ -34,7 +34,7 @@ url: /es/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44223 | NullReferenceException al cargar un archivo XLSX específico| Excepción|
 |CELLSNET-44212 | Excepción NullReference al abrir el archivo fuente de Excel| Excepción|
 |CELLSNET-44204 | CellsException: el tamaño de fuente está fuera de rango, en Workbook ctor| Excepción|
-|CELLSNET-44196 | Proporcione la capacidad de detectar qué columna se filtra y qué valor filtrar en la interfaz GridWeb| Nueva caracteristica|
+|CELLSNET-44196 | Proporcione la capacidad de detectar qué columna se filtra y qué valor filtrar en la interfaz GridWeb|Nueva caracteristica|
 |CELLSNET-44232 | Problema de GridDesktop con RemoveRow (índice) donde el índice es "0"| Insecto|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.

@@ -1,5 +1,5 @@
 ﻿---
-title: اكتشف ما إذا كانت ورقة العمل محمية بكلمة مرور
+title: اكتشاف ما إذا كانت ورقة العمل محمية بكلمة مرور
 type: docs
 weight: 360
 url: /ar/net/detect-if-worksheet-is-password-protected/

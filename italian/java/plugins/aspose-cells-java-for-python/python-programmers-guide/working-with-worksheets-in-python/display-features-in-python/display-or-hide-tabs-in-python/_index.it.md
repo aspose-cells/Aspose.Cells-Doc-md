@@ -1,14 +1,14 @@
 ﻿---
-title: Mostra o nascondi schede in Python
+title: Mostra o nascondi le schede in Python
 type: docs
 weight: 30
 url: /it/java/display-or-hide-tabs-in-python/
 ---
 ## **Aspose.Cells - Mostra Nascondi schede**
 ### **Nascondere le schede**
- Per nascondere le schede utilizzando**Aspose.Cells Java per Rubino** , chiamata**displayhidetabs** modulo.
+ Per nascondere le schede utilizzando**Aspose.Cells Java per Ruby** , chiamata**displayhidetabs** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 
@@ -30,7 +30,7 @@ print "Tabs are now hidden, please check the output file."
 ### **Rendere visibili le schede**
 Rendi visibili le schede con il metodo setSheetTabBarHidden(false) della classe Workbook.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

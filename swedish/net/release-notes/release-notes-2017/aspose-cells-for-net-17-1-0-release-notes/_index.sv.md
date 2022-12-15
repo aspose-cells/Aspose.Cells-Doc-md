@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för .NET 17.1.0 Release Notes
+title: Aspose.Cells for .NET 17.1.0 Release Notes
 type: docs
 weight: 120
 url: /sv/net/aspose-cells-for-net-17-1-0-release-notes/
@@ -61,8 +61,8 @@ url: /sv/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-45031|NullReferenceException i PivotTable.RefreshData med Slicer|Undantag|
 |CELLSNET-45041|Undantag när du sparar en Excel-fil|Undantag|
 |CELLSNET-45016|Undantag för att öppna en mall XLSX-fil|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till setter för LoadFilter.LoadDataFilterOptions-egenskapen för att ersätta variabeln m_LoadDataFilterOptions**
 Användaren kan ändra egenskapen LoadDataFilterOptions i sin implementering av LoadFilter för att ändra beteendet för att ladda arbetsboken.
 #### **Lägger till egenskapen CellsHelper.SignificantDigits**

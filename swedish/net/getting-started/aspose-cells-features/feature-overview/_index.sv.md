@@ -6,25 +6,25 @@ url: /sv/net/feature-overview/
 ---
 {{% alert color="primary" %}} 
 
-Tabellerna nedan sammanfattar Aspose.Cells för .NET-funktioner och ger länkar till detaljerade funktionsbeskrivningar.
+Tabellerna nedan sammanfattar Aspose.Cells for .NET funktioner och ger länkar till detaljerade funktionsbeskrivningar.
 
 {{% /alert %}} 
 ## **Plattformar som stöds**
-Aspose.Cells för .NET-produkten täcker de flesta populära utvecklingsmiljöer och distributionsplattformar.
+Aspose.Cells for .NET produkten täcker de flesta populära utvecklingsmiljöer och distributionsplattformar.
 
 |**Funktion**|**Beskrivning**|
 |:- |:- |
-|[.NET Framework](/cells/sv/net/system-requirements/#net-frameworks)|Använd Aspose.Cells för .NET för att bygga ASP.NET, webbtjänster, WinForms eller någon annan typ av applikation för alla .NET Framework-versioner 2.0 eller senare inklusive klientprofilversioner. Fullt stöd för 32-bitars och 64-bitars.|
-|[.NET Standard 2.0](/cells/sv/net/system-requirements/#net-standard)|Mappen 'netStandard' innehåller assembly som ska användas med ramverk som implementerar .NET Standard 2.0 som .NET Core 2.1/3.1. Den senaste versionen av Aspose.Cells API stöder också .NET 5.0 och .NET 6.0.|
-|Xamarin.Android|Använd Aspose.Cells för .NET i dina inhemska Android-applikationer.|
-|Xamarin.iOS|Använd Aspose.Cells för .NET i dina ursprungliga iOS-applikationer.|
-|[COM](/cells/sv/net/system-requirements/)|Kan vara en livräddare om du måste utveckla med pre-.NET-tekniker.|
-|[Mono](/cells/sv/net/system-requirements/)|Du kan använda Aspose.Cells för .NET för att bygga applikationer med Mono.|
-|[Windows Azure](/cells/sv/net/system-requirements/)|Aspose.Cells för .NET körs också på Windows Azure.|
+|[.NET Ramverk](/cells/sv/net/system-requirements/#net-frameworks)|Använd Aspose.Cells for .NET för att bygga ASP.NET, webbtjänster, WinForms eller någon annan typ av applikation för valfri .NET Framework version 2.0 eller senare inklusive klientprofilversioner. Fullt stöd för 32-bitars och 64-bitars.|
+|[.NET Standard 2.0](/cells/sv/net/system-requirements/#net-standard)|Mappen 'netStandard' innehåller assembly att använda med ramverk som implementerar .NET Standard 2.0, såsom .NET Core 2.1/3.1. Den senaste versionen av Aspose.Cells API stöder också .NET 5.0 och .NET 6.0.|
+|Xamarin.Android|Använd Aspose.Cells for .NET i dina inhemska Android-applikationer.|
+|Xamarin.iOS|Använd Aspose.Cells for .NET i dina ursprungliga iOS-applikationer.|
+|[COM](/cells/sv/net/system-requirements/)|Kan vara en livräddare om du måste utveckla med pre-.NET teknologier.|
+|[Mono](/cells/sv/net/system-requirements/)|Du kan använda Aspose.Cells for .NET för att bygga applikationer med Mono.|
+|[Windows Azure](/cells/sv/net/system-requirements/)|Aspose.Cells for .NET körs också på Windows Azure.|
 ## **Filformat och konverteringar**
-Många kunder över hela världen litar på de grundliga dokumentimport- och exportfunktionerna som tillhandahålls av Aspose.Cells för .NET.
+Många kunder över hela världen litar på de grundliga dokumentimport- och exportfunktionerna som tillhandahålls av Aspose.Cells for .NET.
 
-|**Funktion**|**Beskrivning**|**.NETTO**|**.NET Standard 2.0** |
+|**Funktion**|**Beskrivning**|**.NET**|**.NET Standard 2.0** |
 |:- |:- |:- |:- |
 |Högkvalitativa konverteringar|Konvertera snabbt och tillförlitligt mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -39,20 +39,20 @@ Många kunder över hela världen litar på de grundliga dokumentimport- och exp
 |[XPS-dokument](/cells/sv/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Konvertera Excel-kalkylblad till XPS-dokument|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Konvertera kalkylblad till bild & kalkylblad till bild för sida](/cells/sv/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Kalkylarken kan också exporteras till Tagged Image File Format (TIFF) med valfri komprimeringstyp.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Rendering och tryckning**
-Aspose.Cells för .NET ger nu högtrogen återgivning av kalkylbladssidor.
+Aspose.Cells for .NET ger nu högtrogen återgivning av kalkylbladssidor.
 
-|**Funktion**|**.NETTO**|**.NET Standard 2.0** |
+|**Funktion**|**.NET**|**.NET Standard 2.0** |
 |:- |:- |:- |
-|Lägg upp dokument till sidor med hög trohet mot Microsoft Excel® (precis som Microsoft Excel® skulle göra det).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Lägg upp dokument till sidor med hög trohet till Microsoft Excel® (exakt som Microsoft Excel® skulle göra det).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendera kalkylbladssidor till rasterbilder (TIFF, flersidig TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Gör kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange bildupplösning, kvalitet, komprimering och andra alternativ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skriv ut kalkylblad med .NET-utskriftsinfrastrukturen. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Microsoft Excels förhandsgranskning.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skriv ut kalkylblad med .NET utskriftsinfrastruktur. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Microsoft Excels förhandsgranskning.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Uppdatera sidnummer och andra fält innan du renderar eller skriver ut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Kalkylbladsinnehållsfunktioner**
-Aspose.Cells för .NET tillhandahåller en rik objektmodell som består av över 100 publika klasser, som låter dig generera, kombinera, modifiera, analysera eller på annat sätt undersöka laddade kalkylblad. Några nyckelfunktioner ges i tabellen nedan.
+Aspose.Cells for .NET tillhandahåller en rik objektmodell som består av över 100 publika klasser, som låter dig generera, kombinera, modifiera, analysera eller på annat sätt undersöka laddade kalkylblad. Några nyckelfunktioner ges i tabellen nedan.
 
-|**Funktion**|**.NETTO**|**.NET Standard 2.0** |
+|**Funktion**|**.NET**|**.NET Standard 2.0** |
 |:- |:- |:- |
 |Importera/exportera data från en DataTable, DataView, Array, DataGrid etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Lägg till en kopia av befintligt kalkylblad (allt innehåll inklusive bilder, diagram, andra objekt, etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -66,7 +66,7 @@ Aspose.Cells för .NET tillhandahåller en rik objektmodell som består av över
 |Implementera datavalideringar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implementera datasortering|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Hitta och ersätt text|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Slå samman/dela celler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Sammanfoga/dela celler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Gruppera/dela upp rader och kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skapa anpassade sidbrytningar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Infoga/ta bort eller dölj rader, kolumner och ark|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -90,9 +90,9 @@ Aspose.Cells för .NET tillhandahåller en rik objektmodell som består av över
 |Implementera Microsoft Excel 2010 sparklines|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Kryptera filer|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Kalkylbladsformateringsfunktioner**
-Aspose.Cells för .NET ger detaljerad programmatisk åtkomst till formateringsegenskaper för alla kalkylbladselement.
+Aspose.Cells for .NET ger detaljerad programmatisk åtkomst till formateringsegenskaper för alla kalkylbladselement.
 
-|**Funktion**|**.NETTO**|**.NET Standard 2.0** |
+|**Funktion**|**.NET**|**.NET Standard 2.0** |
 |:- |:- |:- |
 |Använd alla teckenformatering i cellerna inklusive teckensnitt, färger, effekter, ramar och skuggning.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tillämpa alla talformatinställningar som stöds av Microsoft Excel på celler.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -104,9 +104,9 @@ Aspose.Cells för .NET ger detaljerad programmatisk åtkomst till formateringseg
 |Applicera olika bakgrundsmönster på celler.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tillämpa formatinställningar på ett kalkylblad, rad, kolumn eller ett cellintervall, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **PageSetup-funktioner**
-Du kan använda Aspose.Cells för .NET för att implementera PageSetup-alternativ för dina kalkylblad.
+Du kan använda Aspose.Cells for .NET för att implementera PageSetup-alternativ för dina kalkylblad.
 
-|**Funktion**|**.NETTO**|**.NET Standard 2.0** |
+|**Funktion**|**.NET**|**.NET Standard 2.0** |
 |:- |:- |:- |
 |Justera sidans orientering, skalning, pappersstorlek.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange dina marginaler och sidcentrering.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

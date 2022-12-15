@@ -10,10 +10,10 @@ url: /zh/sharepoint/preview-document/
 
    **从菜单中选择预览文档** 
 
-![待办事项：图片_替代_文本](preview-document_1.png)
+![待办事项：图像_替代_文本](preview-document_1.png)
 
 
 
 **文档预览** 
 
-![待办事项：图片_替代_文本](preview-document_2.png)
+![待办事项：图像_替代_文本](preview-document_2.png)

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 8.4.1 Release Notes
+title: Aspose.Cells for Java 8.4.1 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-8-4-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 8.4.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.4.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 8.4.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.4.1/)
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Följande är en lista över förbättringar och ändringar i denna version av A
 
 ### **Huvudfunktioner**
 
-Flyttade huvudkodbasen till Java 6 (Java 7 och 8 stöds också). Släppt stöd för Java 5 och 1.4.
+Flyttade huvudkodbasen till Java 6 (Java 7 och 8 stöds också). Tappat support for Java 5 och 1.4.
 
 ### **Andra förbättringar och förändringar**
 
@@ -86,9 +86,9 @@ Flyttade huvudkodbasen till Java 6 (Java 7 och 8 stöds också). Släppt stöd f
 
 (CELLSJAVA-41256) - Vissa regler för villkorlig formatering kan inte användas eller delvis användas i mallfilen när de importeras till GridWeb
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 Lägger till egendomen Workbook.IsLicensed.
 
@@ -112,4 +112,4 @@ Flyttar kalkylbladet vid angivet index till anther index.
 
 **Notera**
 
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.4.1 också i denna Aspose.Cells för Java v8.4.1.
+Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells for .NET v8.4.1 också i denna 076157316.

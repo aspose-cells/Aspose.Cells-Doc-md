@@ -4,11 +4,11 @@ type: docs
 weight: 20
 url: /sv/java/installation/
 ---
-## **Installerar Aspose.Cells för Java från Maven Repository**
+## **Installerar Aspose.Cells for Java från Maven Repository**
 
-Aspose är värd för alla Java API:er[Maven-förvaret](https://releases.aspose.com/java/repo/) . Du kan enkelt använda[Aspose.Cells för Java API](https://releases.aspose.com/cells/java/) direkt i dina Maven-projekt med enkla konfigurationer.
+Aspose är värd för alla Java API:er[Maven förråd](https://releases.aspose.com/java/repo/) . Du kan enkelt använda[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) direkt i dina Maven-projekt med enkla konfigurationer.
 
-Först måste du ange Aspose Maven Repository konfiguration/plats i din Maven pom.xml enligt nedan:
+Först måste du ange Aspose Maven Lagringskonfiguration/plats i din Maven pom.xml enligt nedan:
 
 {{< highlight "java" >}}
 
@@ -28,7 +28,7 @@ Först måste du ange Aspose Maven Repository konfiguration/plats i din Maven po
 
 {{< /highlight >}}
 
-Definiera sedan Aspose.Cells för Java API-beroende i din pom.xml enligt följande (Detta kommer att inkludera allt, t.ex. main jar-fil, Java Docs och andra bibliotek i enlighet därmed):
+Definiera sedan Aspose.Cells for Java API beroende i din pom.xml enligt följande (Detta kommer att inkludera allt, t.ex. main jar-fil, Java Docs och andra bibliotek i enlighet därmed):
 
 {{< highlight "java" >}}
 
@@ -80,7 +80,7 @@ Definiera sedan Aspose.Cells för Java API-beroende i din pom.xml enligt följan
 
 {{< /highlight >}}
 
-Grattis! Du har framgångsrikt definierat Aspose.Cells för Java Maven-beroende i ditt Maven-projekt.
+Grattis! Du har framgångsrikt definierat beroendet Aspose.Cells for Java Maven i ditt Maven-projekt.
 
 ## **Stöd**
 

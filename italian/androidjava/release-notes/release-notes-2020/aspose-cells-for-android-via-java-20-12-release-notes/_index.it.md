@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 20.12 Note di rilascio
+title: Aspose.Cells for Android via Java 20.12 Note di rilascio
 type: docs
 weight: 8
 url: /it/java/aspose-cells-for-android-via-java-20-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 20.12.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 20.12.
 
 {{% /alert %}}
 
@@ -61,11 +61,11 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43296|ArrayIndexOutOfBoundsException durante l'aggiornamento della tabella pivot|Eccezione|
 |CELLSJAVA-43298|Aspose.Cells 20.8: Eccezione quando si salva in PDF.|Eccezione|
 |CELLSJAVA-43348|Conversione da XLSB a PDF: CellsException: -2147483648|
-|CELLSJAVA-43343| Eccezione durante l'esportazione di un file in PDF che non ha un elemento selezionato per una forma|
+|CELLSJAVA-43343|Eccezione durante l'esportazione di un file in PDF che non ha un elemento selezionato per una forma|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge ExceptionType.Permission enum**
 
@@ -137,7 +137,7 @@ Rappresenta il salvataggio come file .docx.
 
 ### **Aggiunge ImageType.OfficeCompatibleEmf enum.**
 
-Windows Enhanced Metafile che è più compatibile con Office.
+Metafile avanzato di Windows che è più compatibile con Office.
 
 ### **Aggiunge il metodo Cell.SetDynamicArrayFormula(string arrayFormula, Opzioni FormulaParseOptions, bool calcola).**
 

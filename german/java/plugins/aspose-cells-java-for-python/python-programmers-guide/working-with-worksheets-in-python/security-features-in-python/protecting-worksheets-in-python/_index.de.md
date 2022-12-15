@@ -5,7 +5,7 @@ weight: 10
 url: /de/java/protecting-worksheets-in-python/
 ---
 ## **Aspose.Cells – Arbeitsblätter schützen**
- Arbeitsblatt mit schützen**Aspose.Cells Java für Python** , Anruf**protect_worksheet** Methode von**Schutz** Modul.
+ Arbeitsblatt mit schützen**Aspose.Cells Java for Python** , Anruf**protect_worksheet** Methode von**Schutz** Modul.
 
 **Python Code**
 

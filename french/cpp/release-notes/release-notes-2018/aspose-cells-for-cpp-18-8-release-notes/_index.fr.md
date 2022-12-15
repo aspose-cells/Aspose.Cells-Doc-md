@@ -46,7 +46,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 18.8.
 |CELLSCPP-171 |Problème de fuite de mémoire|Punaise|
 |CELLSCPP-173 |Le pointeur nul s'est écrasé lors de l'enregistrement sur l'image|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
-Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
+Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 
 {{% alert color="primary" %}} 
 

@@ -17,7 +17,7 @@ url: /fr/net/aspose-cells-for-net-8-5-2-release-notes/
 \1) Aspose.Cells 
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Nouvelles fonctionnalités**
 
@@ -113,7 +113,7 @@ url: /fr/net/aspose-cells-for-net-8-5-2-release-notes/
  (CELLSNET-42174) - Contrôle + touches fléchées ne saute pas à la cellule avec des données
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Insectes**
 

@@ -14,7 +14,7 @@ Para lidiar con tales casos, debe saber qué fuentes está utilizando su libro d
 
 ## **Obtenga una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo**
 
- El siguiente código de ejemplo carga el archivo fuente de Excel y recupera la lista de fuentes utilizadas en su interior. Tiene una hoja de trabajo ficticia que tiene algunas fuentes ficticias agregadas con fines ilustrativos. Cuando el código imprime todas las fuentes dentro del libro de trabajo, también imprime esas fuentes ficticias. La siguiente captura de pantalla muestra la[ejemplo de archivo de Excel](sampleGetFonts.xlsx) cómo se enumeran las fuentes ficticias.
+ El siguiente código de muestra carga el archivo fuente de Excel y recupera la lista de fuentes utilizadas en su interior. Tiene una hoja de trabajo ficticia que tiene algunas fuentes ficticias agregadas con fines ilustrativos. Cuando el código imprime todas las fuentes dentro del libro de trabajo, también imprime esas fuentes ficticias. La siguiente captura de pantalla muestra la[ejemplo de archivo de Excel](sampleGetFonts.xlsx) cómo se enumeran las fuentes ficticias.
 
 ![todo:imagen_alternativa_texto](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 

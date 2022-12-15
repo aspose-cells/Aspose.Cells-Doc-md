@@ -12,7 +12,7 @@ url: /es/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 |CELLSCPP-38|Crear y manipular rangos con nombre|Nueva caracteristica|
 |CELLSCPP-39|Formato de archivo delimitado por tabuladores de lectura/escritura|Nueva caracteristica|
 ### **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Elimina el método IPageSetup::GetDraft()/SetDraft()**
 Utilice el método IPageSetup::GetPrintDraft()/SetPrintDraft() en su lugar.
 #### **Elimina el método ICell::GetConditionalIStyle()**
@@ -60,7 +60,7 @@ Obtiene la colección de intervalos de edición permitida en la hoja de trabajo.
 #### **Agrega el método IWorksheet::Dispose()**
 Elimina la hoja de trabajo.
 #### **Agrega el método ICells::ImportTwoDimensionArray()**
-Importa una matriz de datos de dos dimensiones en una hoja de trabajo
+Importa una matriz de datos de dos dimensiones en una hoja de cálculo
 #### **Agrega el método ICells::ImportCSV()**
 Importa un archivo CSV a las celdas.
 #### **Agrega el método ICells::LinkToXmlMap()**

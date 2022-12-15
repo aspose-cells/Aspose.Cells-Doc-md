@@ -1,5 +1,5 @@
 ﻿---
-title: Copia di righe e colonne in Python
+title: Copiare righe e colonne in Python
 type: docs
 weight: 30
 url: /it/java/copying-rows-and-columns-in-python/
@@ -14,7 +14,7 @@ Il metodo copyRow accetta i seguenti parametri:
 - l'indice della riga di origine e
 - l'indice della riga di destinazione.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 
@@ -50,7 +50,7 @@ Il metodo copyColumn accetta i seguenti parametri:
 - indice della colonna di origine e
 - l'indice della colonna di destinazione.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "ruby" >}}
 

@@ -11,7 +11,7 @@ Microsoft Excel tillåter användare att definiera namngivna intervall med två 
 - Namngivna intervall med ett arbetsboksomfång kan nås från vilket kalkylblad som helst i den arbetsboken genom att helt enkelt använda dess namn.
 - Namngivna intervall med kalkylbladsomfattningar nås med referensen till det särskilda kalkylblad där det skapades.
 
-Aspose.Cells tillhandahåller samma funktionalitet som Microsoft Excel för att lägga till arbetsbok och kalkylblad med omfattning av namngivna intervall. När du skapar ett kalkylblad med scoped named range, bör kalkylbladsreferensen användas i det namngivna intervallet för att specificera det som ett kalkylblad scoped namngivet intervall.
+Aspose.Cells ger samma funktionalitet som Microsoft Excel för att lägga till arbetsbok och kalkylblad med omfattning av namngivna intervall. När du skapar ett kalkylblad med scoped named range, bör kalkylbladsreferensen användas i det namngivna intervallet för att specificera det som ett kalkylblad scoped namngivet intervall.
 
 {{% /alert %}}
 

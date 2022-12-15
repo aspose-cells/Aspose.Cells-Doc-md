@@ -51,7 +51,7 @@ Aspose.Cells ile geliştiriciler, Microsoft Excel'de yapabildikleri aynı esnek 
 |[İNCE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)|İnce çizgiyi temsil eder|
  Yukarıdaki çizgi stillerinden birini seçin ve ardından bunu[stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style)nesnenin[sınır ayarla](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) yöntem.
 
-Aşağıdaki kod yürütülürken aşağıdaki çıktı üretilir.
+Aşağıdaki kod yürütülürken aşağıdaki çıktı oluşturulur.
 
 **Bir hücrenin her tarafına uygulanan kenarlıklar** 
 
@@ -71,7 +71,7 @@ Aşağıdaki kod yürütülürken aşağıdaki çıktı üretilir.
 - **Hücre Sınır Türü**, sınır çizgisi stili,[Hücre Sınır Türü](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)numaralandırma.
 - **Renk**, sınır çizgisi rengi,[Renk](https://reference.aspose.com/cells/java/com.aspose.cells/Color)numaralandırma.
 
-Aşağıdaki kod yürütülürken aşağıdaki çıktı üretilir.
+Aşağıdaki kod yürütülürken aşağıdaki çıktı oluşturulur.
 
 **Bir hücre aralığına uygulanan kenarlıklar** 
 
@@ -135,7 +135,7 @@ bu[setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pa
 |[GRAY_6](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_6)|%6,25 gri deseni temsil eder|
 |[GRAY_12](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_12)|%12,5 gri deseni temsil eder|
 |[GRAY_25](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_25)|%25 gri deseni temsil eder|
-|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_50)|%50 gri modeli temsil eder|
+|[GRAY_50](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_50)|%50 gri deseni temsil eder|
 |[GRAY_75](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#GRAY_75)|%75 gri deseni temsil eder|
 |[YATAY_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL_STRIPE)|Yatay şerit desenini temsil eder|
 |[YOK](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)|arka planı temsil etmez|

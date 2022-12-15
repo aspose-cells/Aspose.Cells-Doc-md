@@ -6,13 +6,13 @@ url: /it/net/browsers-capabilities/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb è un controllo Web basato su GUI che può essere incorporato nei moduli Web ASP.NET come altri controlli Web forniti dal Framework Microsoft .NET. La cosa più importante di un controllo web è fornire supporto cross-browser. Aspose.Cells.GridWeb fornisce supporto cross-browser.
+Aspose.Cells.GridWeb è un controllo Web basato su GUI che può essere incorporato nei moduli Web ASP.NET come altri controlli Web forniti da Microsoft .NET Framework. La cosa più importante di un controllo web è fornire supporto cross-browser. Aspose.Cells.GridWeb fornisce supporto cross-browser.
 
 {{% /alert %}} 
 ## **Confronto**
 Aspose.Cells.GridWeb è costruito utilizzando Microsoft .NET Framework, quindi è completamente supportato su Internet Explorer (IE) di Microsoft. Tuttavia, su altri browser presenta limitazioni minori. Questo argomento fornisce un confronto dettagliato delle funzionalità supportate su diversi browser.
 
-|**Funzionalità lato client** |**Microsoft Internet Explorer** |**Google Cromo** |**Mozilla Firefox** |**musica lirica** |
+|**Funzionalità lato client** |**Microsoft Internet Explorer** |**Google Chrome** |**Mozilla Firefox** |**musica lirica** |
 |:- |:- |:- |:- |:- |
 | Menu contestuale di Cell|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 | Convalida lato client|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -31,8 +31,8 @@ Aspose.Cells.GridWeb è costruito utilizzando Microsoft .NET Framework, quindi �
 | Sola lettura Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 | Righe/colonne di sola lettura|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 | Convalida dei dati mediante espressioni regolari|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ridimensiona la larghezza della colonna|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Ridimensiona l'altezza della riga|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+| Ridimensiona la larghezza della colonna|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ridimensiona l'altezza della riga|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 | Inserisci/Elimina righe e colonne|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 | Scorri il contenuto|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 | Scorri le schede dei fogli|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

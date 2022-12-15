@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 18.12 Release Notes
+title: Aspose.Cells for Java 18.12 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-java-18-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.12.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.12.
 
 {{% /alert %}} 
 
@@ -31,8 +31,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.12.
 |CELLSJAVA-42774|NullPointerException när en CSV laddas|Undantag|
 |CELLSJAVA-42765|Undantag "com.aspose.cells.CellsException" när en Excel-fil renderas till PDF-filformat|Undantag|
 |CELLSJAVA-42754|"IllegalStateException: Ogiltig kodning: null" när ett XLS-filformat instansieras|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen HtmlSaveOptions.ExportSingleTab**
 Anger om den enskilda fliken exporteras när filen bara har ett kalkylblad i sig. Standardvärdet är falskt.
 ### **Lägger till egenskapen HtmlSaveOptions.ExportPrintAreaOnly**
@@ -84,7 +84,7 @@ Använd metoden ExportDataTable(firstRow,firstColumn, totalRows, totalColumns,Ex
 ### **Tar bort metoden ExtPage.getBean(HttpServletRequest req).**
  Använd ExtPage.getBean() istället.
 ### **Lägger till egenskapen ExtPage.Maxholders**
- Indikerar maximala GridWeb-instanser för servern som ska behållas (att skapa varje ny sida eller uppdatera betraktas som en ny kontrollinstans), standardvärdet är 1000.
+Indikerar maximala GridWeb-instanser för servern som ska behållas (att skapa varje ny sida eller uppdatera betraktas som en ny kontrollinstans), standardvärdet är 1000.
 ### **Lägger till egenskapen ExtPage.Memoryinstanceexpires**
  Indikerar utgångstiden i sekunder av kontrollinstansen på servern, om tiden går ut kommer den att tas bort från servern, standardvärdet är 3600, cirka en timme.
 ### **Lägger till egenskapen ExtPage.MemoryCleanRateTime**

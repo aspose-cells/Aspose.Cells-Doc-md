@@ -6,7 +6,7 @@ url: /tr/net/filter-data/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb, otomatik filtreleme ve özel veri filtreleme özellikleri sağlar. Bu özellikler, bir çalışma sayfasında yalnızca bir listede görüntülemek istediğiniz öğeleri seçmeniz için bir yol sağlar. Ayrıca, bir listedeki öğeleri belirlenen kriterlere göre filtreleyebilirsiniz. Filtreleme özellikleriyle metni, sayıları veya tarihleri filtreleyin.
+Aspose.Cells.GridWeb, otomatik filtreleme ve özel veri filtreleme özellikleri sağlar. Bu özellikler, bir çalışma sayfasında yalnızca bir listede görüntülemek istediğiniz öğeleri seçmeniz için bir yol sunar. Ayrıca, bir listedeki öğeleri belirlenen kriterlere göre filtreleyebilirsiniz. Filtreleme özellikleriyle metni, sayıları veya tarihleri filtreleyin.
 
 {{% /alert %}} 
 ## **Filtrelerle Çalışmak**

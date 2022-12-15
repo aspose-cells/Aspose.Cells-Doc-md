@@ -130,7 +130,7 @@ xs.sheet.data.insert(type, n)
     type: row | column
 	n:the row or column number
 ```
--  احذف صفًا أو أعمدة في الخلية المحددة
+-  احذف الصف أو الأعمدة في الخلية المحددة
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:

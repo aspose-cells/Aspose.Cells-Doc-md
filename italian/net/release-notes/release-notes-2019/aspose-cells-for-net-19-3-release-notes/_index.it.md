@@ -38,8 +38,8 @@ url: /it/net/aspose-cells-for-net-19-3-release-notes/
 |CELLSNET-46618|Eccezione "L'istanza è di sola lettura"|Eccezione|
 |CELLSNET-46617|Eccezione durante il caricamento di una cartella di lavoro|Eccezione|
 |CELLSNET-46636|Eccezione durante il caricamento di un file XLSX|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Modifiche per il carattere predefinito del file modello XLS caricato**
 Nelle versioni precedenti, non supportavamo l'applicazione del carattere definito nel tema (funzionalità avanzata in MS Excel 2007 e versioni successive) in base alla regione durante il caricamento dei file modello XLS. Su richiesta di alcuni utenti, lo abbiamo supportato dalla v19.3. Se la regione è stata specificata nel file modello XLS, applicheremo il carattere definito nel tema in base al valore della regione specificato salvato. Altrimenti applicheremo il carattere definito nel tema in base alle impostazioni regionali dell'ambiente dell'applicazione. Ciò causerà la modifica del carattere predefinito della cartella di lavoro (caricato dal file modello XLS che ha specificato i dati del tema) e quindi influenzerà altre funzionalità, come la larghezza della colonna, la dimensione della forma, l'effetto di rendering, ... ecc.
 #### **Aggiunge il metodo Name.GetReferredAreas(bool recalculate).**

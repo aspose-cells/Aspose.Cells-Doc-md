@@ -6,7 +6,7 @@ url: /sv/net/umbraco-export-members-to-excel/
 ---
 ## **Introduktion**
 
- Exportera medlemmar till Excel är ett tillägg för Umbraco som låter dig exportera medlemmar från ditt Umbraco CMS till ett Excel- och OpenDocument-kalkylblad med[Aspose.Cells](https://products.aspose.com/cells/net/) . En ny nod med titeln**Exportera medlemmar till Excel** visas under Medlemsträdet i Umbracos backend efter installationen där du helt enkelt kan välja medlemmar att exportera och mata ut format för att få medlemmar i valt utdatadokumentformat.
+ Exportera medlemmar till Excel är ett tillägg för Umbraco som låter dig exportera medlemmar från ditt Umbraco CMS till ett Excel- och OpenDocument-kalkylblad med[Aspose.Cells](https://products.aspose.com/cells/net/) . En ny nod med titeln**Exportera medlemmar till Excel**visas under Medlemsträdet i Umbracos backend efter installationen där du helt enkelt kan välja medlemmar att exportera och mata ut format för att få medlemmar i valt utdatadokumentformat.
 
 ### **Modulfunktioner**
 
@@ -18,7 +18,7 @@ Denna första version av tillägget har följande funktioner:
 - Exportera medlemmar till OpenDocument Spreadsheet (*.ods)
 - Möjlighet att välja önskat utdataformat innan export
 - Möjlighet att exportera alla eller valda medlemmar till valt utdatadokumentformat.
-- Fungerar med alla .NET-versioner från och med .NET 2.0.
+- Fungerar med alla .NET-versioner från .NET 2.0.
 - Exporterat dokument skickas automatiskt till webbläsaren för nedladdning
 - Om det väljs sparas en kopia av det exporterade dokumentet i mappen App_Data/AsposeMemberExport på servern för senare användning.
 -  Kompatibel med ett brett utbud av Umbraco-versioner**4.5**+ **inklusive version 6 och 7.**
@@ -52,7 +52,7 @@ När du har laddat ner, följ dessa steg för att installera det här paketet p�
 1.  Logga in på Umbraco**Utvecklaren** sektion, till exempel `http://www.myblog.com/umbraco/`
 1.  Från trädet, expandera**Paket** mapp.
 1.  Härifrån finns det två sätt att installera ett paket: välj**Installera det lokala paketet** eller bläddra i**Umbraco Package Repository.**
-1.  Om du installerar**lokalt paket**, packa inte upp paketet utan ladda blixtlåset i Umbraco.
+1. Om du installerar**lokalt paket**, packa inte upp paketet utan ladda blixtlåset i Umbraco.
 1. Följ instruktionerna på skärmen.
 
 **Notera:** Du kan få felet 'Maximal begäranslängd överskriden' när du installerar. Du kan enkelt åtgärda det här problemet genom att uppdatera värdet 'maxRequestLength' i din Umbraco web.config-fil.
@@ -85,7 +85,7 @@ Från de allra första dagarna av Aspose visste vi att det inte skulle räcka at
 
 Det är därför vi erbjuder gratis support. Alla som använder vår produkt, oavsett om de har köpt dem eller använder en utvärdering, förtjänar vår fulla uppmärksamhet och respekt.
 
-Du kan logga alla problem eller förslag relaterade till Aspose.Words .NET för Umbraco-moduler med någon av följande plattformar
+Du kan logga eventuella problem eller förslag relaterade till Aspose.Words .NET för Umbraco-moduler med någon av följande plattformar
 
 - [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 

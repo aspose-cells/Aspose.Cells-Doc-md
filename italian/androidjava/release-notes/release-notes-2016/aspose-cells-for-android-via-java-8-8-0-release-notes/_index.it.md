@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 8.8.0 Note di rilascio
+title: Aspose.Cells for Android via Java 8.8.0 Note di rilascio
 type: docs
 weight: 40
 url: /it/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
@@ -18,7 +18,7 @@ url: /it/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 |CELLSJAVA-41681|L'intestazione del grafico si estende oltre il bordo del grafico durante l'utilizzo di Chart.toImage|Insetto|
 |CELLSJAVA-41691|Le etichette dei dati si sovrappongono all'area del grafico nel formato immagine del grafico|Insetto|
 |CELLSJAVA-41692|Le etichette dei dati si sovrappongono all'area del grafico nel formato di file PDF del grafico|Insetto|
-|CELLSJAVA-41696|bordi inferiore e destro non sono presenti nel formato di file PDF di Chart|Insetto|
+|CELLSJAVA-41696|I bordi inferiore e destro non sono presenti nel formato di file PDF di Chart|Insetto|
 |CELLSJAVA-41712|Nel PDF del grafico a barre vengono visualizzati colori errati|Insetto|
 |CELLSJAVA-41722|Acrobat Reader mostra un errore durante il caricamento del PDF generato da Aspose.Cells|Insetto|
 |CELLSJAVA-41724|La serie è completamente opaca in SVG rispetto al grafico originale nel foglio di calcolo|Insetto|
@@ -32,7 +32,7 @@ url: /it/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 |CELLSJAVA-41731|La formula della forma non si aggiorna durante il salvataggio di XLS in XLSB|Insetto|
 |CELLSJAVA-41733|cell.getFormula restituisce la formula con il nome del foglio tra parentesi quadre e il percorso del file del foglio di calcolo|Insetto|
 |CELLSJAVA-41788|La proprietà Start' di un elenco ordinato non funziona correttamente|Insetto|
-|CELLSJAVA-41763|Aspose Cells API non è in grado di convertire ogni contenuto del file HTML in file Excel|Insetto|
+|CELLSJAVA-41763|Aspose Cells API non in grado di convertire ogni contenuto del file HTML in file Excel|Insetto|
 |CELLSJAVA-41759|Il layout è diverso durante il salvataggio del foglio di calcolo in HTML|Insetto|
 |CELLSJAVA-41677|Il collegamento ipertestuale che punta a nomi definiti risulta in un collegamento interrotto quando il foglio di calcolo viene convertito in HTML|Insetto|
 |CELLSJAVA-41774|Calcolo errato sull'analisi what-if|Insetto|
@@ -79,8 +79,8 @@ url: /it/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 |CELLSJAVA-41768|com.aspose.cells.Name non può essere trasmesso a java.lang.Integer durante la copia dei fogli di lavoro|Eccezione|
 |CELLSJAVA-41809|Worksheet.calculateFormula genera un'eccezione di puntatore nullo quando la formula viene impostata tramite NameCollection|Eccezione|
 |CELLSJAVA-41808|java.lang.NullPointerException su Workbook.save|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate allo API pubblico, ad esempio membri aggiunti, rinominati, rimossi o deprecati, nonché eventuali modifiche non compatibili con le versioni precedenti apportate a Aspose.Cells per Android. In caso di dubbi su qualsiasi modifica elencata, segnalarla al forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HTMLLoadOptions.DeleteRedundantSpaces**
  Indica se eliminare gli spazi ridondanti quando il testo va a capo utilizzando le righe<br>etichetta.
 ### **Proprietà LoadOptions.ConvertNumericData obsoleta e aggiunta della proprietà TxtLoadOptions.ConvertNumericData.**
@@ -90,7 +90,7 @@ Indica se il valore della cella inizia con virgolette singole.
 ### **Aggiunge la proprietà QueryTable.ConnectionId.**
 Ottiene l'ID connessione della tabella di query.
 ### **Aggiunge la proprietà ExternalConnection.Id.**
-Ottiene l'ID della connessione.
+Ottiene l'id della connessione.
 ### **Aggiunge la proprietà ListObject.QueryTable.**
 Ottiene la QueryTable collegata della tabella.
 ### **Aggiunge la proprietà HTMLLoadOptions.KeepPrecision.**
@@ -100,6 +100,6 @@ Trova solo l'oggetto dai valori originali senza formato.
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.7.1, Aspose.Cells for .NET v8.7.2, Aspose.Cells for .NET v8.8.0, Aspose.Cells for Java v8 .7.1, Aspose.Cells for Java v8.7.2 e Aspose.Cells for Java v8.8.0 sono inclusi anche in questo Aspose.Cells per Android v8.8.0.
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.7.1, Aspose.Cells for .NET v8.7.2, Aspose.Cells for .NET v8.8.0, Aspose.Cells for Java v8 .7.1, Aspose.Cells for Java v8.7.2 e Aspose.Cells for Java v8.8.0 sono inclusi anche in questo Aspose.Cells for Android v8.8.0.
 
 {{% /alert %}}

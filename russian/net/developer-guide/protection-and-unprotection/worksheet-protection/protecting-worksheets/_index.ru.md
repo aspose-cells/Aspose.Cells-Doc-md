@@ -26,7 +26,7 @@ url: /ru/net/protecting-worksheets/
 
  Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) который представляет собой файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)учебный класс.
 
-[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)класс обеспечивает[**Защищать**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) метод, который используется для применения защиты на рабочем листе.[**Защищать**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) метод принимает следующие параметры:
+[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Защищать**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) метод, который используется для применения защиты на рабочем листе.[**Защищать**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) метод принимает следующие параметры:
 
 -  Тип защиты — тип защиты, применяемый к рабочему листу. Тип защиты применяется с помощью[**Тип защиты**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)перечисление.
 - Новый пароль, новый пароль, используемый для защиты рабочего листа.

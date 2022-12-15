@@ -6,7 +6,7 @@ url: /sv/net/convert-xls-file-with-images-or-charts-to-pdf/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells stöder konvertering av XLS-filer som innehåller bilder och diagram till PDF-dokument. Aspose.Cells för .NET kan arbeta oberoende för att konvertera ett kalkylblad till PDF: Aspose.PDF för .NET krävs inte för konverteringen. Processen kan göras i minnet eftersom processen inte är beroende av temporära eller mellanliggande XML-filer. Detta innebär att stora Excel-filer, till exempel sådana som innehåller bilder, diagram och andra ritobjekt, kan konverteras snabbt och effektivt.
+Aspose.Cells stöder konvertering av XLS-filer som innehåller bilder och diagram till PDF-dokument. Aspose.Cells for .NET kan arbeta självständigt för att konvertera ett kalkylblad till PDF: Aspose.PDF for .NET krävs inte för konverteringen. Processen kan göras i minnet eftersom processen inte är beroende av temporära eller mellanliggande XML-filer. Detta innebär att stora Excel-filer, till exempel sådana som innehåller bilder, diagram och andra ritobjekt, kan konverteras snabbt och effektivt.
 
 {{% /alert %}} 
 ## **Exempelkod**

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Node.js über Java 20.2 Versionshinweise
+title: Aspose.Cells for Node.js via Java 20.2 Versionshinweise
 type: docs
 weight: 10
 url: /de/nodejs-java/aspose-cells-for-node-js-via-java-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für Node.js über Java 20.2.
+Diese Seite enthält Versionshinweise für Aspose.Cells for Node.js via Java 20.2.
 
 {{% /alert %}} 
 
@@ -40,7 +40,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für Node.js über Java 
 |CELLSJAVA-43116|Konvertierung in PDF - java.lang.IllegalStateException: Der strukturierte Speicher scheint beschädigt zu sein.|Ausnahme|
 |CELLSJAVA-43120|java.lang.NumberFormatException beim Konvertieren der Arbeitsmappe in PDF|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
-Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells für Node.js über Java vorgenommen wurden , wenden Sie sich bitte an das Support-Forum Aspose.Cells.
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Node.js via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
 #### **Fügt die FormulaParseOptions.Parse-Eigenschaft hinzu.**
 Gibt an, ob die Formel analysiert wird, während ein Formelausdruck auf die Zelle festgelegt wird. Der Standardwert ist wahr. Bei „false“ wird der Eingabeformelausdruck für die Zelle beibehalten, bis der Benutzer andere Methoden aufruft, um sie zu parsen, oder geparste Formeldaten für andere Vorgänge wie das Berechnen von Formeln erforderlich sind.
 #### **Fügt die Methode Workbook.ParseFormulas(boolignoreError) hinzu.**

@@ -6,7 +6,7 @@ url: /zh/sharepoint/deployment-and-activation/
 ---
 {{% alert color="primary" %}} 
 
-[为 SharePoint 安装 Aspose.Cells](/cells/zh/sharepoint/installing-aspose-cells-for-sharepoint/)引导您完成安装过程。本文介绍了部署和激活的安装过程。
+[安装 Aspose.Cells for SharePoint](/cells/zh/sharepoint/installing-aspose-cells-for-sharepoint/)引导您完成安装过程。本文介绍了部署和激活的安装过程。
 
 {{% /alert %}} 
 ### **部署**
@@ -16,7 +16,7 @@ Aspose.Cells for SharePoint 在部署期间执行以下操作：
 1. 将功能清单和其他必要文件安装到适当的目录。
 1. 在 SharePoint 数据库中注册功能并使其可用于在功能范围内激活。
 ### **激活**
-Aspose.Cells for SharePoint 打包为网站（网站集）级别的功能，可以在网站集上激活和停用。
+Aspose.Cells for SharePoint 被打包为网站（网站集）级别的功能，可以在网站集上激活和停用。
 
 在激活期间，该功能会对网站集的父 Web 应用程序的虚拟目录进行一些更改：
 

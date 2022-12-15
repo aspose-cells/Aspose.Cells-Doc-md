@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 19.4 Notas de la versión
+title: Aspose.Cells for Android via Java 19.4 Notas de la versión
 type: docs
 weight: 40
 url: /es/java/aspose-cells-for-android-via-java-19-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 19.4.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 19.4.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-42860|java.lang.NullPointerException al cargar un formato de archivo ODS|Excepción|
 |CELLSJAVA-42871|java.lang.Exception: Clon no compatible para transmisión respaldada al convertir XLSX a PDF|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 ### **Agrega API para guardar el documento Markdown: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Admite guardar el contenido de las celdas como tabla de rebajas. Con el método Workbook.Save(), todo el contenido de las celdas en la hoja activa se exportará como una tabla en el documento de rebajas.
 ### **Elimina propiedades obsoletas de TxtLoadOptions**

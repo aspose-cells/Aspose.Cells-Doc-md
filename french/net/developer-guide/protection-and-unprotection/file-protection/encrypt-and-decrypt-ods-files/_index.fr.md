@@ -6,7 +6,7 @@ url: /fr/net/encrypt-and-decrypt-ods-files/
 description: protégez par mot de passe et cryptez les fichiers ODS en utilisant Aspose.Cells pour .Net qui est une pure bibliothèque net.
 ---
 {{% alert color="primary" %}}
-OpenOffice.org est une suite bureautique complète qui prend en charge la protection par mot de passe et le cryptage des fichiers. Cependant, le fichier ODS crypté ne peut être ouvert par OpenOffice qu'après avoir fourni le mot de passe. Excel ne peut pas ouvrir le fichier ODS crypté et peut générer un message d'avertissement. Les options de cryptage ne s'appliquent pas au fichier ODS contrairement aux autres types de fichiers.
+ OpenOffice.org est une suite bureautique complète qui prend en charge la protection par mot de passe et le cryptage des fichiers. Cependant, le fichier ODS crypté ne peut être ouvert par OpenOffice qu'après avoir fourni le mot de passe. Excel ne peut pas ouvrir le fichier ODS crypté et peut générer un message d'avertissement. Les options de cryptage ne s'appliquent pas au fichier ODS contrairement aux autres types de fichiers.
  Aspose.Cells permet de chiffrer et de déchiffrer le fichier ODS. Le fichier ODS décrypté peut être ouvert à la fois dans Excel et OpenOffice,
 {{% /alert %}}
 

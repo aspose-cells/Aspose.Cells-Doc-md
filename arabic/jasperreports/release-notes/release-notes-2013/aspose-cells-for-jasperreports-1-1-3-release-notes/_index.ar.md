@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells لـ JasperReports 1.1.3 ملاحظات الإصدار
+title: Aspose.Cells for JasperReports 1.1.3 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/jasperreports/aspose-cells-for-jasperreports-1-1-3-release-notes/

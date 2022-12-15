@@ -11,7 +11,7 @@ url: /it/net/aspose-cells-for-net-8-2-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET è stato aggiornato alla versione 8.2.1 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 30 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. È inoltre possibile visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for .NET.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
  Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells.
@@ -107,10 +107,10 @@ Nota che questo download contiene una versione completamente funzionante del pro
  (CELLSNET-42977) - Eccezione dell'immagine del disegno
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 
 

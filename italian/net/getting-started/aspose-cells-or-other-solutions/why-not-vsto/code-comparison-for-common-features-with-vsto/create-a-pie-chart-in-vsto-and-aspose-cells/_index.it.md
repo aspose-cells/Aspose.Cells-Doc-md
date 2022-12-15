@@ -11,7 +11,7 @@ In questo articolo viene confrontato il modo in cui creare un grafico a torta ut
 1. Prodotti di riferimentoGrafico.
 1. Aggiunta di un grafico a torta, definizione dell'intervallo di dati e titolo del grafico.
 1. Salvataggio foglio di calcolo.
-Gli esempi di codice in questo articolo mostrano come aggiungere un grafico a torta con VSTO, utilizzando C#, rispetto alla creazione di uno con Aspose.Cells, sempre utilizzando C#.
+ Gli esempi di codice in questo articolo mostrano come aggiungere un grafico a torta con VSTO, usando C#, rispetto alla creazione di un grafico con Aspose.Cells, sempre usando C#.
 ## **VSTO**
 {{< highlight "csharp" >}}
 

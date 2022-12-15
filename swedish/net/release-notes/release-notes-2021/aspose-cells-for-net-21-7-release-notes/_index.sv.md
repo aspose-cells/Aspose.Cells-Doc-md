@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 21.7 Release Notes
+title: Aspose.Cells for .NET 21.7 Release Notes
 type: docs
 weight: 6
 url: /sv/net/aspose-cells-for-net-21-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 21.7](https://www.nuget.org/packages/Aspose.Cells/21.7.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 21.7](https://www.nuget.org/packages/Aspose.Cells/21.7.0).
 
 {{% /alert %}}
 
@@ -31,10 +31,10 @@ url: /sv/net/aspose-cells-for-net-21-7-release-notes/
 |CELLSNET-43749|Bildtextens position ändras medan kalkylarket renderas till PDF|Insekt|
 |CELLSNET-43766|Tecken i cirkelformerna flyttas lite åt vänster i den utgående PDF-filen|Insekt|
 |CELLSNET-47952|Excel-fil med vattenstämpel renderas inte korrekt till HTML|Insekt|
-|CELLSNET-48090|Många texter är borta från objektet.|Insekt|
+|CELLSNET-48090|Många texter är utanför objektet.|Insekt|
 |CELLSNET-48120|Enorm konverteringstid och utdatafilstorlek samtidigt som du konverterar specifikt kalkylblad av XLSX till HTML|Insekt|
 |CELLSNET-48131|Bild och cirkeldiagram är felaktigt placerade vid konvertering av XLSX till HTML|Insekt|
-|CELLSNET-48191|Excel till HTML-konvertering - en del fel "<span>" Lagt till|Insekt|
+|CELLSNET-48191|Excel till HTML-konvertering - några fel "<span>" Lagt till|Insekt|
 |CELLSNET-48263|håll ut medan du sparar till html|Insekt|
 |CELLSNET-48145|Fel formelberäkning under excel till pdf|Insekt|
 |CELLSNET-48149|Cells.ImportTwoDimensionArray slutade fungera korrekt|Insekt|
@@ -66,9 +66,9 @@ url: /sv/net/aspose-cells-for-net-21-7-release-notes/
 |
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till egenskapen PasteOptions.OperationType och PasteOperationType enum .**
 

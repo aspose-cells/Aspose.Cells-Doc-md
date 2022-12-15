@@ -6,7 +6,7 @@ url: /zh/java/export-range-of-cells-in-a-worksheet-to-image/
 ---
 {{% alert color="primary" %}}
 
-您可以使用 Aspose.Cells 制作工作表的图像。但是，有时您只需要将工作表中的一系列单元格导出到图像。本文解释了如何实现这一目标。
+您可以使用 Aspose.Cells 制作工作表的图像。但是，有时您只需要将工作表中的一系列单元格导出到图像。本文解释了如何实现这一点。
 
 {{% /alert %}}
 
@@ -16,13 +16,13 @@ url: /zh/java/export-range-of-cells-in-a-worksheet-to-image/
 
 **输入文件**
 
-![待办事项：图片_替代_文本](export-range-of-cells-in-a-worksheet-to-image_1.png)
+![待办事项：图像_替代_文本](export-range-of-cells-in-a-worksheet-to-image_1.png)
 
 执行代码仅创建 E8:H10 范围的图像。
 
 **输出图像**
 
-![待办事项：图片_替代_文本](export-range-of-cells-in-a-worksheet-to-image_2.jpg)
+![待办事项：图像_替代_文本](export-range-of-cells-in-a-worksheet-to-image_2.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 

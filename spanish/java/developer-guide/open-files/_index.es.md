@@ -154,7 +154,7 @@ Hay buenas posibilidades de que el constructor del libro de trabajo arroje Syste
 
 ### **Apertura de archivos SXC**
 
-StarOffice Calc es similar a Microsoft Excel y admite fórmulas, gráficos, funciones y macros. Las hojas de cálculo creadas con este software se guardan con la extensión SXC. El archivo SXC también se utiliza para los archivos de hoja de cálculo de OpenOffice.org Calc. Aspose.Cells puede leer archivos SXC como se demuestra en el siguiente ejemplo de código.
+StarOffice Calc es similar a Microsoft Excel y admite fórmulas, gráficos, funciones y macros. Las hojas de cálculo creadas con este software se guardan con la extensión SXC. El archivo SXC también se usa para los archivos de hoja de cálculo de OpenOffice.org Calc. Aspose.Cells puede leer archivos SXC como se demuestra en el siguiente ejemplo de código.
 
 #### **Ejemplo**
 

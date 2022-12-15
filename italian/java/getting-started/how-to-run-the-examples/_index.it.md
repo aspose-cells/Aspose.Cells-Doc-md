@@ -9,9 +9,9 @@ url: /it/java/how-to-run-the-examples/
 
  Estrai il contenuto del file ZIP in qualsiasi cartella sul tuo computer. Tutti gli esempi si trovano in**Esempi** cartella.
 
- Il**Risorse**La cartella contiene documenti di input o file utilizzati negli esempi.
+ Il**Risorse** La cartella contiene documenti di input o file utilizzati negli esempi.
 
- Puoi eseguire/eseguire questi esempi con qualsiasi IDE di tua scelta, tuttavia, a scopo dimostrativo, stiamo usando**Eclisse** . Utilizzare il**File -> Importa** opzione per importare l'esempio di tua scelta e specificare il percorso.
+Puoi eseguire/eseguire questi esempi con qualsiasi IDE di tua scelta, tuttavia, a scopo dimostrativo, stiamo usando**Eclisse** . Utilizzare il**File -> Importa** opzione per importare l'esempio di tua scelta e specificare il percorso.
 
 Aggiungere i file jar richiesti (librerie) nel progetto.
 
@@ -31,7 +31,7 @@ trovato all'interno del
 
 Esempi>src>AsposeCellsExamples>DrawingObjects directory
 
-all'interno della confezione
+o all'interno della confezione
 
 AsposeCellsExamples.DrawingObjects
 

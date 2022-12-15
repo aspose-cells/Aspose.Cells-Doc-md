@@ -17,6 +17,6 @@ Microsoft Les formules dynamiques Excel ne sont pas calculées mais converties e
 
 {{% /alert %}} 
 - **Sortie de formule**
-**Un exemple de rapport contenant des formules (calculées) est exporté à l'aide de Aspose.Cells pour Reporting Services** 
+**Un exemple de rapport contenant des formules (calculées) est exporté en utilisant Aspose.Cells for Reporting Services** 
 
 ![tâche : image_autre_texte](advanced-formula-calculation_1.png)

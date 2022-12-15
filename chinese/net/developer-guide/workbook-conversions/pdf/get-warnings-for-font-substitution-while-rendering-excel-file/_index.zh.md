@@ -16,12 +16,12 @@ url: /zh/net/get-warnings-for-font-substitution-while-rendering-excel-file/
 
 |**并非所有字体都能正确呈现**|
 |:- |
-|![待办事项：图片_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)|
+|![待办事项：图像_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)|
 Aspose.Cells 会将单元格 A6 和 A7 中的字体替换为合适的字体，如下所示。
 
 |**替换字体**|
 |:- |
-|![待办事项：图片_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)|
+|![待办事项：图像_替代_文本](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)|
 ## **下载源文件并输出 PDF**
 您可以从以下链接下载源 Excel 文件和输出 PDF
 

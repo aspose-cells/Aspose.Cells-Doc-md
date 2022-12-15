@@ -3,7 +3,7 @@ title: Crea tabella utilizzando le linee di confine per un intervallo
 type: docs
 weight: 50
 url: /it/java/create-table-by-using-border-lines-for-a-range/
-description: Come creare una tabella con intervallo utilizzando le linee di confine. Aspose.Cells for Java fornisce un API semplice da usare che può essere utilizzato per aggiungere bordi a un intervallo.
+description: Come creare una tabella con intervallo utilizzando le linee di confine. Aspose.Cells for Java fornisce un'API semplice da usare che può essere utilizzata per aggiungere bordi a un intervallo.
 keywords: create table, range to table, range to table excel, excel range to table, range to table with borders, how to create table from range, convert range to table, excel convert range to table, excel create table, range to table java 
 ---
 {{% alert color="primary" %}}

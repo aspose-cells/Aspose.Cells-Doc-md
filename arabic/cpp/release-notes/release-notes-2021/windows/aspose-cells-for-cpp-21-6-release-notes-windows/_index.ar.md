@@ -6,7 +6,7 @@ url: /ar/cpp/aspose-cells-for-cpp-21-6-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ C++ 21.6 لـ Windows.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for C++ 21.6 لـ Windows.
 
 {{% /alert %}}
 
@@ -14,4 +14,4 @@ url: /ar/cpp/aspose-cells-for-cpp-21-6-release-notes-windows/
 |:- |:- |:- |
 |CELLSCPP-292| تحسين نتائج البحث في nuget|تحسين|
 |CELLSCPP-283| إصلاح خطأ منشئ ArrayList|حشرة|
-|CELLSCPP-284| مشكلة في تهيئة PathHelper|حشرة|
+|CELLSCPP-284|مشكلة في تهيئة PathHelper|حشرة|

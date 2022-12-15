@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 用于 PHP 通过 Java 19.1 发行说明
+title: Aspose.Cells for PHP via Java 19.1 发行说明
 type: docs
 weight: 20
 url: /zh/php-java/aspose-cells-for-php-via-java-19-1-release-notes/
@@ -30,7 +30,7 @@ url: /zh/php-java/aspose-cells-for-php-via-java-19-1-release-notes/
 |CELLSJAVA-42799|加载 XLSX 文件格式时出现异常“java.lang.ArrayIndexOutOfBoundsException: -32768”|例外|
 |CELLSJAVA-42800|加载工作簿时出现 ArrayIndexOutOfBoundsException|例外|
 ### **公共 API 和向后不兼容的更改**
-以下是对公共 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Aspose.Cells for PHP 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for PHP via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 #### **添加 PivotTable.ShowReportFilterPageByName(string fieldName) 方法**
 根据 PivotField 的名称显示所有报表筛选页面，PivotField 必须位于 PageFields 中。
 #### **添加 PivotTable.ShowReportFilterPageByIndex(int posIndex) 方法**

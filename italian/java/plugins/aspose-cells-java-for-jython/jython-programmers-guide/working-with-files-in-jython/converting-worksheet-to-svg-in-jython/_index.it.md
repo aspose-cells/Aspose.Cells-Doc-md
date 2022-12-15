@@ -37,9 +37,9 @@ classe ConvertingWorksheetToSVG:
 
  cartella di lavoro = Cartella di lavoro(dataDir + "Libro1.xls")
 
- Converti ogni foglio di lavoro in formato svg in una singola pagina.
+ # Converti ogni foglio di lavoro in formato svg in una singola pagina.
 
- imgOptions = ImageOrPrintOptions()
+imgOptions = ImageOrPrintOptions()
 
  imgOptions.setSaveFormat(saveFormat.SVG)
 

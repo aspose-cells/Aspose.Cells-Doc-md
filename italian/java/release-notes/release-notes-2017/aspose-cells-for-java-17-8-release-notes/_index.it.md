@@ -26,8 +26,8 @@ url: /it/java/aspose-cells-for-java-17-8-release-notes/
 |CELLSJAVA-42349|Conversione da Excel a PDF impiccata per un file XLSX|Insetto|
 |CELLSJAVA-42348|Impossibile importare il file XLSB (tramite API Aspose.Cells) nel database MS-Access|Insetto|
 |CELLSJAVA-42357|L'eccezione si verifica quando si salva un file Excel in formato HTML|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HtmlSaveOptions.IsExportComments**
 Indica se durante l'esportazione dei commenti durante il salvataggio del file in HTML, il valore predefinito è false.
 ### **Aggiunge la proprietà HtmlSaveOptions.DisableDownlevelRevealedComments**

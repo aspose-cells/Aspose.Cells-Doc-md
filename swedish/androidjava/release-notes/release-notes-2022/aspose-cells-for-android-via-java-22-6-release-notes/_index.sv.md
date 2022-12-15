@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 22.6 Release Notes
+title: Aspose.Cells for Android via Java 22.6 Release Notes
 type: docs
 weight: 7
 url: /sv/java/aspose-cells-for-android-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.6.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.6.
 
 {{% /alert %}} 
 
@@ -61,9 +61,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.6
 |CELLSJAVA-44651|Felet "Inte ett numeriskt värde" vid konvertering av Excel-ark till HTML/PDF|
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Lägger till klassen DefaultStyleSettings.**
 

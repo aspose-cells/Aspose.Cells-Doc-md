@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 19.3 Notas de la versión
+title: Aspose.Cells for Android via Java 19.3 Notas de la versión
 type: docs
 weight: 50
 url: /es/java/aspose-cells-for-android-via-java-19-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 19.3.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 19.3.
 
 {{% /alert %}} 
 
@@ -59,7 +59,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-42849|Excepción IndexOutOfBoundsException al convertir XLSX a HTML|Excepción|
 |CELLSJAVA-42831|Excepción planteada por Excel después de aplicar estilo al rango de celdas de encabezado|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
 **Agrega el método PivotTable.ShowReportFilterPageByName(string fieldName)**
 
@@ -93,7 +93,7 @@ Funcionalmente es lo mismo que la propiedad Count, excepto que la propiedad Coun
 ### **Añade el método Hyperlink.Delete()**
 Elimina este hipervínculo.
 ### **Agrega la propiedad Range.Hyperlinks**
-Obtiene todos los hipervínculos del intervalo.
+Obtiene todos los hipervínculos del rango.
 ### **Agrega enumeración CopyFormatType**
 Representa el tipo de formato de copia al insertar filas.
 ### **Agrega la clase InsertOptions y el método Cells.InsertRows(int, int, InsertOptions)**
@@ -125,6 +125,6 @@ Convierte la tabla en rango con opciones.
 
 {{% alert color="primary" %}} 
 
-Dado que el código base de Aspose.Cells para Android a través de Java coincide con el código de las versiones relevantes .NET y Java, la mayoría de los cambios, mejoras y correcciones se incluyen en Aspose.Cells for .NET v19.1, Aspose.Cells for .NET v19.182, 1893 497 3, Aspose.Cells for Java v19.1, Aspose.Cells for Java v19.2 y Aspose.Cells for Java v19.3 también se incluyen en este Aspose.Cells para Android a través de Java v19.3.
+Dado que la base de código de Aspose.Cells for Android via Java coincide con el código de .NET y 076143441 versión (s), la mayoría de los cambios, mejoras y correcciones incluidos en el Aspose.Cells for .NET v19.1, 0761734481 0761818118110101010190 Aspose.Cells for Java v19.1, Aspose.Cells for Java v19.2 y Aspose.Cells for Java v19.3 también se incluyen en este Aspose.Cells for Android via Java v19.3.
 
 {{% /alert %}}

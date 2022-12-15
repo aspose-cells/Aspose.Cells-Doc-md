@@ -18,7 +18,7 @@ Aspose.Cells 提供了[**WorkbookSettings.NumberDecimalSeparator**](https://refe
 
 以下屏幕截图显示了**高级 Excel 选项**并突出显示指定的部分**自定义分隔符**.
 
-![待办事项：图片_替代_文本](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![待办事项：图像_替代_文本](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
 ## **使用 Aspose.Cells 指定自定义分隔符**
 

@@ -92,7 +92,7 @@ Utvecklare kan inte bara kontrollera synligheten för större rutnätslinjer uta
 
 ### **Ställa in kanter för bak- och sidoväggar**
 
- Sedan Microsoft Excel 2007 släpptes har väggarna i ett 3D-diagram delats upp i två delar: sidovägg och bakvägg, så vi måste använda två[**Väggar**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) objekt för att representera dem separat och du kan komma åt dem genom att använda[**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) och[**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
+ Sedan släppet av Microsoft Excel 2007 har väggarna i ett 3D-diagram delats upp i två delar: sidovägg och bakvägg, så vi måste använda två[**Väggar**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) objekt för att representera dem separat och du kan komma åt dem genom att använda[**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) och[**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
 
 Exemplet nedan visar hur man ställer in sidoväggens kant genom att använda olika attribut.
 
@@ -177,7 +177,7 @@ Ta först en titt på designerns linjediagram.
 
 Microsoft Excel 2010 kan analysera information på fler sätt än någonsin tidigare. Det låter användare spåra och lyfta fram viktiga datatrender med nya verktyg för dataanalys och visualisering. Sparklines är minidiagram som du kan placera inuti celler så att du kan se data och diagram på samma tabell. När sparklines används på rätt sätt går dataanalysen snabbare och mer rakt på sak. De ger också en enkel bild av information, och undviker överfulla kalkylblad med många upptagna diagram.
 
-Aspose.Cells tillhandahåller ett API för att manipulera sparklines i kalkylblad.
+Aspose.Cells tillhandahåller en API för att manipulera sparklines i kalkylblad.
 
 ### **Sparklines i Microsoft Excel**
 
@@ -197,7 +197,7 @@ Sparklines hjälper dig att se trender, till exempel, eller vinst- eller förlus
 
 ### **Sparklines med Aspose.Cells**
 
-Utvecklare kan skapa, ta bort eller läsa sparklines (i mallfilen) med API:et som tillhandahålls av Aspose.Cells. Genom att lägga till anpassad grafik för ett givet dataintervall har utvecklarna friheten att lägga till olika typer av små diagram till utvalda cellområden.
+Utvecklare kan skapa, ta bort eller läsa sparklines (i mallfilen) med hjälp av API som tillhandahålls av Aspose.Cells. Genom att lägga till anpassad grafik för ett givet dataintervall har utvecklarna friheten att lägga till olika typer av små diagram till utvalda cellområden.
 
 Exemplet nedan visar Sparklines-funktionen. Exemplet visar hur man:
 
@@ -214,7 +214,7 @@ Du kanske behöver 3D-diagramstilar så att du kan få precis resultaten för di
 
 ### **Ställa in 3D-format till diagram**
 
-Ett komplett exempel ges nedan för att visa hur man skapar ett diagram och använder Microsoft Excel 2007 3D-formatering. Efter exekvering av ovanstående exempelkod kommer ett kolumndiagram (med 3D-effekter) att läggas till i kalkylbladet enligt nedan.
+Ett komplett exempel ges nedan för att visa hur man skapar ett diagram och tillämpar Microsoft Excel 2007 3D-formatering. Efter exekvering av ovanstående exempelkod kommer ett kolumndiagram (med 3D-effekter) att läggas till i kalkylbladet enligt nedan.
 
 **Ett kolumndiagram med 3D-formatering**
 

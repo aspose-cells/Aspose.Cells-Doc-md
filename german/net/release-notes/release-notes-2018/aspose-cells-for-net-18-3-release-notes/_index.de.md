@@ -34,7 +34,7 @@ url: /de/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45923|Die letzte Achsenbeschriftung, dh der 17. Juni, fehlt im Diagrammbild|Insekt|
 |CELLSNET-45911|Schlechte Position und Linie in der Darstellung des Marktrisikodiagramms|Insekt|
 |CELLSNET-45908|Schlechte Position beim Rendern von Diagrammen|Insekt|
-|CELLSNET-45906|Fehlende Beschriftung in der Diagrammwiedergabe|Insekt|
+|CELLSNET-45906|Fehlende Beschriftung in der Diagrammdarstellung|Insekt|
 |CELLSNET-45884|Smart Art-Diagramm auf Registerkarte – Kegelkanten sind im Ausgabe-PDF-Dateiformat gezackt|Insekt|
 |CELLSNET-45989|Dialoge werden in XLSM-Dateien nicht korrekt gespeichert|Insekt|
 |CELLSNET-45977|Worksheet.Protect(ProtectionType.Objects) funktioniert nicht für XLS-Dateien|Insekt|

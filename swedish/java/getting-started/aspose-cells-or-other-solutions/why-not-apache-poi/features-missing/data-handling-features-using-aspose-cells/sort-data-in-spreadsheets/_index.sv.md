@@ -9,7 +9,7 @@ url: /sv/java/sort-data-in-spreadsheets/
 
 För att sortera data i kalkylblad med Aspose.Cells, anropa helt enkelt metoden DataSorter.sorter() efter att ha angett några enkla egenskaper för cellområdet.
 
-Java-kod nämns nedan.
+Java-koden nämns nedan.
 
 {{% /alert %}} 
 

@@ -5,7 +5,7 @@ weight: 70
 url: /tr/java/split-panes-in-php/
 ---
 ## **Aspose.Cells - Bölmeli Bölmeler**
- Kullanarak Bölmeleri Bölmek için**PHP için Aspose.Cells Java** , sadece çağırmak**Bölünmüş Paneller** modül.
+ Kullanarak Bölmeleri Bölmek için**Aspose.Cells Java for PHP** , sadece çağırmak**Bölünmüş Paneller** modül.
 
 **PHP Kodu**
 

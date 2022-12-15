@@ -7,9 +7,9 @@ description: Python kullanarak excel dosyaları nasıl şifrelenir ve şifreleri
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel (97 - 365), elektronik tablolarınızı şifrelemenizi ve parolayla korumanızı sağlar. Bir şifreleme hizmeti sağlayıcısı tarafından sağlanan algoritmaları veya farklı özelliklere sahip bir dizi şifreleme algoritması olan CSP'yi kullanır. Varsayılan CSP, "Office 97/2000 Uyumlu" veya "Zayıf Şifreleme (XOR)" şeklindedir. Uygun şifreleme anahtarı uzunluğunu seçmek önemlidir. Bazı CSP'ler 40 veya 56 bitten fazlasını desteklemez. Bu, zayıf şifreleme olarak kabul edilir. Güçlü şifreleme için minimum 128 bit anahtar uzunluğu gereklidir. Microsoft Windows, güçlü şifreleme türleri de sunan CSP'ler içerir, örneğin 'Microsoft Güçlü Şifreleme Sağlayıcı'. Size bir fikir vermesi için, bankaların İnternet Bankacılığı sistemleriyle bağlantıyı şifrelemek için kullandıkları 128 bit şifrelemedir.
+Microsoft Excel (97 - 365), elektronik tablolarınızı şifrelemenizi ve parolayla korumanızı sağlar. Bir şifreleme hizmeti sağlayıcısı tarafından sağlanan algoritmaları veya farklı özelliklere sahip bir dizi şifreleme algoritması olan CSP'yi kullanır. Varsayılan CSP, "Office 97/2000 Uyumlu" veya "Zayıf Şifreleme (XOR)" şeklindedir. Uygun şifreleme anahtarı uzunluğunu seçmek önemlidir. Bazı CSP'ler 40 veya 56 bitten fazlasını desteklemez. Bu, zayıf şifreleme olarak kabul edilir. Güçlü şifreleme için minimum 128 bit anahtar uzunluğu gerekir. Microsoft Windows, güçlü şifreleme türleri de sunan CSP'ler içerir, örneğin 'Microsoft Güçlü Şifreleme Sağlayıcı'. Size bir fikir vermesi için, bankaların İnternet Bankacılığı sistemleriyle bağlantıyı şifrelemek için kullandıkları 128 bit şifrelemedir.
 
-Python için Aspose.Cells, Microsoft Excel dosyalarını istediğiniz şifreleme türüyle şifrelemenizi ve parola korumanızı sağlar.
+Aspose.Cells for Python, Microsoft Excel dosyalarını istediğiniz şifreleme türü ile şifrelemenizi ve parola korumanızı sağlar.
 
 {{% /alert %}}
 

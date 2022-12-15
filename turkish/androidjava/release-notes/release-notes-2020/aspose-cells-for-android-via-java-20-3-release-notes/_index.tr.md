@@ -1,12 +1,12 @@
 ﻿---
-title: Java 20.3 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 20.3 Sürüm Notları
 type: docs
 weight: 20
 url: /tr/java/aspose-cells-for-android-via-java-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 20.3 üzerinden Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 20.3 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -71,7 +71,7 @@ Bu sayfa, Java 20.3 üzerinden Android için Aspose.Cells için sürüm notları
 |CELLSJAVA-43140|HesaplamaFormula() çağrılırken IllegalArgumentException|İstisna|
 |CELLSJAVA-43110|PDF'ye dönüştürme - java.lang.NullPointerException|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 ### **replaceOptions.RegexKey özelliğini ekler.**
 Aranan anahtarın normal ifade olup olmadığını gösterir. Doğru ise, aranan anahtar (değiştirilecek kısım) kullanıcı tanımlı regex olarak alınacaktır.
 ### **Eski ValidationCollection.Add(Aspose.Cells.Validation) yöntemini siler.**
@@ -87,7 +87,7 @@ XML Gelişmiş Elektronik İmza (XAdES) türü.
 ### **DigitalSignature.XAdESType özelliğini ekler**
 XML Gelişmiş Elektronik İmza (XAdES) türünü alır ve ayarlar. Varsayılan değer Yok'tur (XAdES kapalıdır).
 ### **FormulaParseOptions.Parse özelliğini ekler.**
- Hücreye bir formül ifadesi ayarlarken formülün ayrıştırılıp ayrıştırılmayacağını gösterir. varsayılan**doğru** . Eğer**yanlış**, ardından giriş formülü ifadesi, kullanıcı bunları ayrıştırmak için diğer yöntemleri çağırana veya formül hesaplama gibi diğer işlemler için ayrıştırılmış formül verileri gerekinceye kadar hücre için olduğu gibi tutulur.
+ Hücreye bir formül ifadesi ayarlarken formülün ayrıştırılıp ayrıştırılmayacağını gösterir. varsayılan**doğru** . Eğer**yanlış**ardından giriş formülü ifadesi, kullanıcı bunları ayrıştırmak için diğer yöntemleri çağırana veya formül hesaplama gibi diğer işlemler için ayrıştırılmış formül verileri gerekinceye kadar hücre için olduğu gibi tutulur.
 ### **Workbook.ParseFormulas(bool ignoreError) yöntemini ekler.**
 Yüklendiklerinde veya bir hücreye ayarlandıklarında ayrıştırılmamış tüm formülleri ayrıştırır.
 ### **PivotTable.ExternalConnectionDataSource özelliğini ekler.**

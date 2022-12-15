@@ -4,22 +4,22 @@ type: docs
 weight: 10
 url: /ru/reportingservices/getting-started/
 ---
- Aspose.Cells для Reporting Services состоит из**две части** следующим образом:
+ Aspose.Cells for Reporting Services состоит из**две части** следующим образом:
 
 - ***Aspose.Cells.Report.Designer***
 
 &nbsp;&nbsp;&nbsp;&nbsp;Это инструмент дизайнера отчетов, интегрированный с MS Excel в форме надстроек…. С помощью Aspose.Cells.Report.Designer пользователи могут создавать шаблоны отчетов в MS Excel вместо Visual Studio. Затем шаблон отчета встраивается в RDL-файл служб Reporting Services и может быть опубликован на сервере отчетов. Пользователи также могут предварительно просмотреть и экспортировать отчет в Aspose.Cells.Report.Designer.
 
-- ***Aspose.Cells.Renderer для Reporting Services***
+- ***Aspose.Cells.Визуализатор for Reporting Services***
 
 &nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services фактически является реализацией Microsoft Reporting Services Rendering Extension. Он может отображать отчеты RDL, разработанные как Visual Studio, так и Aspose.Cells.Report.Designer.
 
 
-**Как получить Aspose.Cells для Reporting Services.** 
+**Как дозвониться Aspose.Cells for Reporting Services.** 
 
 - [Скачать]( https://downloads.aspose.com/cells/reportingservices/ )
 
-**Как установить Aspose.Cells для Reporting Services.**
+**Как установить Aspose.Cells for Reporting Services.**
 
 - [Установка MSI](/cells/ru/reportingservices/using-msi-installer/)
 - [Установка манула](/cells/ru/reportingservices/using-dll-only/)

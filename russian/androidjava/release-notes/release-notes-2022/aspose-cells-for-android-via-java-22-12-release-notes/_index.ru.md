@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Android через Java 22.12 Примечания к выпуску
+title: Aspose.Cells for Android via Java 22.12 Примечания к выпуску
 type: docs
 weight: 1
 url: /ru/java/aspose-cells-for-android-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску Aspose.Cells для Android через Java 22.12.
+Эта страница содержит примечания к выпуску для Aspose.Cells for Android via Java 22.12.
 
 {{% /alert %}} 
 
@@ -58,7 +58,7 @@ url: /ru/java/aspose-cells-for-android-via-java-22-12-release-notes/
 
 ## **Public API и обратно несовместимые изменения**
 
-Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие элементы, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells для Android через номер Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, пожалуйста, поднимите его на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Android via Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом. на форуме поддержки Aspose.Cells.
 
 ### **Изменен лимит перемещения ячеек за пределы листа для вставки строк**
 
@@ -90,7 +90,7 @@ url: /ru/java/aspose-cells-for-android-via-java-22-12-release-notes/
 
 ### **Добавляет перечисление JsonExportHyperlinkType**
 
-Представляет тип экспорта гиперссылки в файлы JSON.
+Представляет тип экспорта гиперссылки в файлы json.
 
 ### **Добавляет JsonUtility.ExportRangeToJson(Range, JsonSaveOptions) и устаревает метод ExportRangeToJson(Range, ExportRangeToJsonOptions)**
 

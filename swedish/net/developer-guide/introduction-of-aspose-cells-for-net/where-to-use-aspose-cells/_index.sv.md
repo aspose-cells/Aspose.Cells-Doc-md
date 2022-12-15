@@ -8,7 +8,7 @@ url: /sv/net/where-to-use-aspose-cells/
 
 Aspose.Cells är skapad för att hjälpa utvecklare att skapa och hantera Microsoft Excel-kalkylblad programmatiskt. Aspose.Cells förstår inte bara kalkylblad i Microsoft Excel Sheet Format (XLS/XLSX) utan också många andra filformat som kommaseparerade värden (CSV), Tab Delimited/TSV (Text), SpreadsheetML etc.
 
-Aspose.Cells tillhandahåller de flesta funktioner som är tillgängliga i Microsoft Excel men det spännande är att Aspose.Cells kan bearbeta Excel-filer dynamiskt, vilket gör det möjligt för utvecklare att bearbeta tusentals eller miljontals kalkylblad mycket snabbt.
+Aspose.Cells tillhandahåller de flesta funktioner som finns tillgängliga i Microsoft Excel men det spännande är att Aspose.Cells kan bearbeta Excel-filer dynamiskt, vilket gör det möjligt för utvecklare att bearbeta tusentals eller miljontals kalkylblad mycket snabbt.
 
 Den här artikeln diskuterar vanliga scenarier för att använda Aspose.Cells.
 

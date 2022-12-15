@@ -146,7 +146,7 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43997) - La celda activa en la hoja no está en la posición correcta al cargar/guardar un archivo XLSX - GridWeb
 
- (CELLSNET-43993): error C2686 al compilar VS2008 C++ con griddesktop.dll
+ (CELLSNET-43993) - Error C2686 al compilar VS2008 C++ con griddesktop.dll
 
  (CELLSNET-43986): WebWorksheet o GridWorkSheet no tiene el método SetReadonlyRange
 

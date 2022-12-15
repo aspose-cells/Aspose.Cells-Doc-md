@@ -10,7 +10,7 @@ url: /fr/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}}
 
- L'exemple de code suivant définit le texte de remplissage de la deuxième entrée de légende du graphique sur aucun. Veuillez télécharger le[exemple de fichier excel](5115219.xlsx) utilisé dans ce code et le[fichier excel de sortie](5115217.xlsx)généré par celui-ci pour votre référence.
+ L'exemple de code suivant définit le texte de remplissage de la deuxième entrée de légende du graphique sur aucun. Veuillez télécharger le[exemple de fichier excel](5115219.xlsx) utilisé dans ce code et le[fichier excel de sortie](5115217.xlsx) généré par celui-ci pour votre référence.
 
 La capture d'écran suivante met en évidence l'effet de ce code sur[exemple de fichier excel](5115219.xlsx).
 

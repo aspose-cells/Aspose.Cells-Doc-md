@@ -14,6 +14,6 @@ url: /zh/java/export-excel-to-html-with-gridlines/
 
 以下屏幕截图显示了使用此示例代码生成的输出 HTML。如您所见，它还在输出 HTML 中显示网格线。
 
-![待办事项：图片_替代_文本](export-excel-to-html-with-gridlines_1.png)
+![待办事项：图像_替代_文本](export-excel-to-html-with-gridlines_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportExceltoHTML-ExportExceltoHTML.java" >}}

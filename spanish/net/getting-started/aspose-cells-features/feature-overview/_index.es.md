@@ -1,5 +1,5 @@
 ﻿---
-title: Resumen de funciones
+title: Resumen de características
 type: docs
 weight: 10
 url: /es/net/feature-overview/
@@ -29,7 +29,7 @@ Muchos clientes de todo el mundo confían en las funciones completas de importac
 |Conversiones de alta calidad|Convierta de forma rápida y confiable entre varios formatos de documentos populares.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Libro de Excel (XLS)|La implementación de formato XLS más rápida y completa que puedas encontrar.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Hoja de cálculo ML (XLSX, XML)| Aspose.Cells admite OOXML, Flat OPC y también Excel 2003 XML. Además, el componente soporta<br>todos los principales formatos de archivo de Excel 2007, 2010 y 2013, por ejemplo, XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Valor separado por comas (CSV)|Soporte completo del formato CSV para interactuar con una variedad de aplicaciones.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Valor separado por comas (CSV)|Soporte integral del formato CSV para interactuar con una variedad de aplicaciones.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |TSV|Cargue y guarde documentos en formato de archivo TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|Guardar como HTML está disponible.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[OpenDocument-ODS](/cells/es/net/opendocument-ods/)|Aspose.Cells puede cargar y guardar documentos en formato de hoja de cálculo OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

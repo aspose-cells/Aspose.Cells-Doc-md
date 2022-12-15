@@ -8,7 +8,7 @@ url: /zh/java/access-and-modify-the-display-label-of-the-linked-ole-object/
 
 Microsoft Excel 允许您更改 Ole 对象的显示标签，如以下屏幕截图所示。您还可以使用 Aspose.Cells API 访问或修改 Ole 对象的显示标签[**OleObject.标签**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#Label)财产。
 
-![待办事项：图片_替代_文本](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
+![待办事项：图像_替代_文本](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 
 ## **访问和修改链接 Ole 对象的显示标签**
 

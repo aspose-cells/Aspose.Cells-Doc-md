@@ -30,7 +30,7 @@ Das folgende Code-Snippet zeigt, wie Sie ein Arbeitsblatt in einer Excel-Datei i
 ## **Arbeitsblatt in SVG konvertieren**
 SVG steht für Scalable Vector Graphics. SVG ist eine auf XML-Standards basierende Spezifikation für zweidimensionale Vektorgrafiken. Es ist ein offener Standard, der seit 1999 vom World Wide Web Consortium (W3C) entwickelt wird.
 
-Aspose.Cells für C++ kann seit Version 18.5.0 Arbeitsblätter in SVG-Bilder konvertieren.
+Aspose.Cells for C++ kann seit Version 18.5.0 Arbeitsblätter in SVG-Bilder konvertieren.
 
 Um diese Funktion zu verwenden, importieren Sie den Namespace `Aspose.Cells.Rendering` in Ihr Programm oder Projekt. Es hat mehrere wertvolle Klassen zum Rendern und Drucken, zum Beispiel `ISheetRender`, `IImageOrPrintOptions` und andere.
 

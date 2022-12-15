@@ -41,7 +41,7 @@ Macro desconocida: {...}
 |20377 | xls| Agregar imagen vinculada|
 |20404 | Gráfico2Imagen| Formato de número de tabla de datos|
 |20439 | xls| Borrar comentarios|
-|20227 | xls| Verificar licencia|
+|20227 | xls| Verificar Licencia|
 |20581 | xls| Formatos condicionales|
 |20584 | xls| Guardar archivos xls|
 |20653 | Gráfico2Imagen| NullPointerException para awt.Fuente|

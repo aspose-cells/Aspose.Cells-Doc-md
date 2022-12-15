@@ -11,7 +11,7 @@ Normalt används kolumn- och radetiketter för att referera till enskilda celler
 {{% /alert %}} 
 ## **Skapa ett namngivet intervall**
 ### **Använder Microsoft Excel**
-Följande steg beskriver hur du namnger en cell eller ett cellområde med hjälp av Microsoft Excel. Denna metod gäller för Microsoft Office Excel 2003, Microsoft Excel 97, 2000 och 2002.
+Följande steg beskriver hur du namnger en cell eller ett cellområde med Microsoft Excel. Denna metod gäller för Microsoft Office Excel 2003, Microsoft Excel 97, 2000 och 2002.
 
 1. Markera cellen, cellintervallet som du vill namnge.
 1. Klicka på namnrutan till vänster i formelfältet.

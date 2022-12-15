@@ -1,5 +1,5 @@
 ﻿---
-title: Snabbstart i Python
+title: Snabbstart på Python
 type: docs
 weight: 10
 url: /sv/java/quick-start-in-python/

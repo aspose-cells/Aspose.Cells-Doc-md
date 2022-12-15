@@ -77,7 +77,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
 ### **Définir l'ordre des pages**
 
- La[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)la classe fournit la[**Ordre**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propriété utilisée pour ordonner l'impression de plusieurs pages de votre feuille de calcul. Il existe deux possibilités pour ordonner les pages comme suit.
+ La[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la classe fournit la[**Ordre**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propriété utilisée pour ordonner l'impression de plusieurs pages de votre feuille de calcul. Il existe deux possibilités pour ordonner les pages comme suit.
 
 - **En bas puis dessus :** imprime toutes les pages vers le bas avant d'imprimer les pages vers la droite.
 - **Dessus puis vers le bas :** imprime les pages de gauche à droite avant d'imprimer les pages ci-dessous.

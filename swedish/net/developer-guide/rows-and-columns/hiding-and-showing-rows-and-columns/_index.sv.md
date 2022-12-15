@@ -6,7 +6,7 @@ url: /sv/net/hiding-and-showing-rows-and-columns/
 ---
 {{% alert color="primary" %}}
 
-Ibland är det vettigt att dölja vissa rader eller kolumner i ett kalkylblad och visa dem senare. Microsoft Excel tillhandahåller den här funktionen och det gör Aspose.Cells också.
+Ibland är det vettigt att dölja vissa rader eller kolumner i ett kalkylblad och visa dem senare. Microsoft Excel tillhandahåller den här funktionen och det gör även Aspose.Cells.
 
 {{% /alert %}}
 

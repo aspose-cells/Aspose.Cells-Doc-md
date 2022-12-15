@@ -18,7 +18,7 @@ Aspose.Cells 提供了[**Workbook.AddDigitalSignature（DigitalSignatureCollecti
 
 下面的示例代码演示了如何使用[**Workbook.AddDigitalSignature（DigitalSignatureCollection digitalSignatureCollection）**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature)向已签名的 Excel 文件添加数字签名的方法。请检查[示例 Excel 文件](50528280.xlsx)在这段代码中使用。此文件已经过数字签名。请检查[输出Excel文件](50528281.xlsx)由代码生成。我们使用了名为[AsposeDemo.pfx](50528279.pfx)在这个有密码的代码中**提出**.截图显示了示例代码在示例Excel文件上执行后的效果。
 
-![待办事项：图片_替代_文本](add-digital-signature-to-an-already-signed-excel-file_1.png)
+![待办事项：图像_替代_文本](add-digital-signature-to-an-already-signed-excel-file_1.png)
 
 ## **示例代码**
 

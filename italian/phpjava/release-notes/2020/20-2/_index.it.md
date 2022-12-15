@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per PHP tramite Java 20.2 Note di rilascio
+title: Aspose.Cells for PHP via Java 20.2 Note di rilascio
 type: docs
 weight: 10
 url: /it/php-java/aspose-cells-for-php-via-java-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per PHP tramite Java 20.2.
+Questa pagina contiene le note di rilascio per Aspose.Cells for PHP via Java 20.2.
 
 {{% /alert %}} 
 
@@ -39,8 +39,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per PHP tramite Java
 |CELLSJAVA-43115|Conversione in PDF - java.lang.NegativeArraySizeException|Eccezione|
 |CELLSJAVA-43116|Conversione in PDF - java.lang.IllegalStateException: l'archiviazione strutturata sembra essere danneggiata.|Eccezione|
 |CELLSJAVA-43120|java.lang.NumberFormatException durante la conversione della cartella di lavoro in PDF|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per PHP tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for PHP via Java. sul forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà FormulaParseOptions.Parse.**
 Indica se analizzare la formula durante l'impostazione di un'espressione di formula su cella. Il valore predefinito è vero. Se false, l'espressione della formula di input verrà mantenuta così com'è per la cella finché l'utente non chiama altri metodi per analizzarli o i dati della formula analizzati sono richiesti da altre operazioni come il calcolo delle formule.
 #### **Aggiunge il metodo Workbook.ParseFormulas(bool ignoreError).**

@@ -7,7 +7,7 @@ url: /it/java/add-word-art-watermark-to-chart/
 ## **Aspose.Cells - Aggiungi filigrana Word Art al grafico**
 Puoi utilizzare WordArt per aggiungere effetti di testo speciali ai fogli di calcolo. Ad esempio, allungare un titolo, decorare il testo, adattare il testo a una forma preimpostata o applicare il testo interessato all'area del tracciato di un grafico come filigrana. La WordArt diventa un oggetto che puoi spostare o posizionare nei tuoi fogli di calcolo per aggiungere decorazioni.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

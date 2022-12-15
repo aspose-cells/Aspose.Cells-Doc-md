@@ -10,7 +10,7 @@ Bazen, tüm çalışma sayfasını kopyalamadan çalışma sayfasındaki satırl
 Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslara sahip formüller ve değerler, yorumlar, biçimlendirme, gizli hücreler, resimler ve diğer çizim nesneleri de dahil olmak üzere içerdiği veriler de kopyalanır.
 ## **Microsoft Excel ile Satırları ve Sütunları Kopyalama**
 1. Kopyalamak istediğiniz satırı veya sütunu seçin.
-1.  Satırları veya sütunları kopyalamak için tıklayın**Kopyala** üzerinde**Standart** araç çubuğu veya tuşuna basın**CTRL**+**C**.
+1.  Satırları veya sütunları kopyalamak için tıklayın**kopyala** üzerinde**Standart** araç çubuğu veya tuşuna basın**CTRL**+**C**.
 1. Seçiminizi kopyalamak istediğiniz yerin altından veya sağından bir satır veya sütun seçin.
 1.  Satırları veya sütunları kopyalarken,**Cells kopyalandı** üzerinde**Sokmak** Menü.
 

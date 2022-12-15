@@ -82,7 +82,7 @@ Aspose.Cells, geliştiricilerin çalışma zamanında bir grafiğin başlıklar�
 
 #### **Ana Kılavuz Çizgileri Ayarlarını Değiştirme**
 
-Geliştiriciler yalnızca ana kılavuz çizgilerinin görünürlüğünü değil, rengi gibi diğer özellikleri de kontrol edebilir. Ana kılavuz çizgilerinin rengini ayarladıktan sonra, çalışma sayfasına eklenen bir sütun grafiği aşağıdaki görünüme sahip olacaktır:
+Geliştiriciler yalnızca ana kılavuz çizgilerinin görünürlüğünü değil, aynı zamanda rengi gibi diğer özellikleri de kontrol edebilir. Ana kılavuz çizgilerinin rengini ayarladıktan sonra, çalışma sayfasına eklenen bir sütun grafiği aşağıdaki görünüme sahip olacaktır:
 
 **Renkli ana kılavuz çizgileri olan sütun grafiği** 
 

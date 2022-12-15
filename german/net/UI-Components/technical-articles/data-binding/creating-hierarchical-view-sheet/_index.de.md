@@ -30,7 +30,7 @@ Sie verwenden beispielsweise ADO.Net API und extrahieren Daten aus den Datenbank
 
  erweitert der Benutzer einen Kunden, zeigt das Raster alle Bestellungen, die der Kunde aufgegeben hat. Wenn der Benutzer eine Bestellung erweitert, zeigt das Raster die Details an
 
-dieser Reihenfolge. Die Daten sind hierarchisch: Bestelldetails werden unter Bestellungen und Bestellungen unter Kunden aufgelistet.
+dieser Reihenfolge. Die Daten sind hierarchisch: Bestelldetails werden unter Bestellungen und Bestellungen unter Kunden aufgeführt.
 
 Damit dies funktioniert, müssen folgende Beziehungen zwischen den Datentabellen hergestellt werden:
 

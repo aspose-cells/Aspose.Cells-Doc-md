@@ -10,7 +10,7 @@ Quando salvi il tuo file Excel in HTML, i commenti non vengono esportati. Tuttav
 
 ## **Esporta commenti durante il salvataggio del file Excel in HTML**
 
-Il seguente codice di esempio spiega l'utilizzo di[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)proprietà. Lo screenshot mostra l'effetto del codice sull'HTML quando è impostato su**VERO** . Si prega di scaricare il[esempio di file Excel](50528260.xlsx) e il[HTML generato](5052826.txt) per un riferimento.
+Il seguente codice di esempio spiega l'utilizzo di[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)proprietà. Lo screenshot mostra l'effetto del codice sull'HTML quando è impostato su**VERO** Si prega di scaricare il[esempio di file Excel](50528260.xlsx) e il[HTML generato](5052826.txt) per un riferimento.
 
 ![cose da fare:immagine_alt_testo](export-comments-while-saving-excel-file-to-html_1.png)
 

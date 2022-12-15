@@ -1,12 +1,12 @@
 ﻿---
-title: Mostrar fórmulas en lugar de valores en una hoja de cálculo
+title: Mostrar fórmulas en lugar de valores en una hoja de trabajo
 type: docs
 weight: 20
 url: /es/net/show-formulas-instead-of-values-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Es posible mostrar fórmulas en lugar de valores calculados en Microsoft Excel usando el**Mostrar fórmulas** opción de la**Fórmulas**cinta. Cuando se muestran fórmulas, Microsoft Excel muestra fórmulas en la hoja de trabajo. Puede lograr lo mismo usando Aspose.Cells.
+ Es posible mostrar fórmulas en lugar de valores calculados en Microsoft Excel usando el**Mostrar fórmulas** opción de la**Fórmulas**cinta. Cuando se muestran fórmulas, Microsoft Excel muestra fórmulas en la hoja de cálculo. Puede lograr lo mismo usando Aspose.Cells.
 
 {{% /alert %}}
 

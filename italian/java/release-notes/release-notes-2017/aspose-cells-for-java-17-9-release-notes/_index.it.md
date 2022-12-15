@@ -34,8 +34,8 @@ url: /it/java/aspose-cells-for-java-17-9-release-notes/
 |CELLSJAVA-42374|Riferimenti di caratteri analizzati in modo errato da Aspose Cells|Insetto|
 |CELLSJAVA-42373|La copia della cartella di lavoro e il successivo salvataggio danneggiano il file Excel di output|Insetto|
 |CELLSJAVA-42392|Eccezione "com.aspose.cells.CellsException: contenuto excel sconosciuto!" sulla creazione di un'istanza di un file Excel crittografato|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HTMLLoadOptions.LoadStyleStrategy**
 Indica la strategia per applicare lo stile ai valori analizzati durante la conversione del valore stringa in numero o DateTime.
 ### **Aggiunge la classe AbstractCalculationMonitor**

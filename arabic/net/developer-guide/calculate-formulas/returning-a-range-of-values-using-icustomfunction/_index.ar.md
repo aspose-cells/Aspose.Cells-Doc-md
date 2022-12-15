@@ -22,7 +22,7 @@ url: /ar/net/returning-a-range-of-values-using-icustomfunction/
 
  يتم تنفيذ التعليمات البرمجية التالية[**وظيفة ICustom**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)وإرجاع نطاق القيم عبر طريقته.
 
-إنشاء فئة مع وظيفة*احسبدالة مخصصة*. هذه الفئة تنفذ[**وظيفة ICustom**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+ إنشاء فئة مع وظيفة*احسبدالة مخصصة*. هذه الفئة تنفذ[**وظيفة ICustom**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 

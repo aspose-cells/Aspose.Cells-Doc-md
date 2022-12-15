@@ -152,5 +152,5 @@ Excel tillhandahåller anpassade filter som filterrader som slutar med någon sp
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}
 
 ## **Förhandsämnen**
-- [Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Få alla dolda rader efter att ha uppdaterat autofiltret](/cells/sv/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)

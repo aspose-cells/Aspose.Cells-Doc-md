@@ -1,5 +1,5 @@
 ﻿---
-title: إعداد خيار الجدول المحوري - لعرض Cells فارغ
+title: تعيين خيار الجدول المحوري - لعرض Cells فارغ
 type: docs
 weight: 40
 url: /ar/net/setting-pivot-table-option-for-empty-cells-show/

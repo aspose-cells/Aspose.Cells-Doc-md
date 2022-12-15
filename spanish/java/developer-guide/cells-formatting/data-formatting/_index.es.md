@@ -268,7 +268,7 @@ El siguiente resultado se logra si el orden de lectura del texto se establece de
 ## **Formateo de caracteres seleccionados en un Cell**
 [Tratar con la configuración de fuentes](/cells/es/java/dealing-with-font-settings/)explicó cómo formatear celdas, pero solo cómo formatear el contenido de todas las celdas. ¿Qué sucede si desea formatear solo los caracteres seleccionados?
 
-Aspose.Cells admite esta función. Este tema explica cómo utilizar esta característica.
+Aspose.Cells admite esta función. Este tema explica cómo utilizar esta función.
 ### **Dar formato a los caracteres seleccionados**
  Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. La clase Libro de trabajo contiene una colección de Hojas de trabajo que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. La clase Worksheet proporciona una colección Cells. Cada elemento de la colección Cells representa un objeto de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase.
 
@@ -305,7 +305,7 @@ veces, es posible que deba activar una hoja de trabajo específica para que sea 
 
 Una hoja activa es la hoja en la que está trabajando en un libro de trabajo. El nombre en la pestaña de la hoja activa está en negrita por defecto. Mientras tanto, una celda activa es la celda que está seleccionada y en la que se ingresan los datos cuando comienza a escribir. Solo una celda está activa a la vez. La celda activa está rodeada por un borde grueso para que se vea contra las otras celdas. Aspose.Cells también le permite seleccionar un rango de celdas en la hoja de cálculo.
 ### **Activar una hoja y hacer un Cell activo**
-Aspose.Cells proporciona un API específico para estas tareas. Por ejemplo, el método WorksheetCollection.setActiveSheetIndex es útil para configurar una hoja activa. De manera similar, el método Worksheet.setActiveCell se usa para establecer y obtener una celda activa en una hoja de cálculo.
+Aspose.Cells proporciona un API específico para estas tareas. Por ejemplo, el método WorksheetCollection.setActiveSheetIndex es útil para configurar una hoja activa. De manera similar, el método Worksheet.setActiveCell se usa para establecer y obtener una celda activa en una hoja de trabajo.
 
 Si desea que las barras de desplazamiento horizontal y vertical se desplacen a la posición del índice de fila y columna para brindar una buena vista de los datos seleccionados cuando se abre el archivo en Microsoft Excel, use las propiedades Worksheet.setFirstVisibleRow y Worksheet.setFirstVisibleColumn.
 
@@ -327,7 +327,7 @@ El siguiente ejemplo muestra cómo activar una hoja de cálculo y activar una ce
 #### **Seleccionar un rango de Cells en la hoja de trabajo**
 Aspose.Cells proporciona el método Worksheet.selectRange(int startRow, int startColumn, int totalRows, int totalColumns, bool removeOthers). Usando el último parámetro - removeOthers - a verdadero, se eliminan otras selecciones de celdas o rangos de celdas en la hoja.
 
-El siguiente ejemplo muestra cómo seleccionar un rango de celdas en la hoja de cálculo activa.
+El siguiente ejemplo muestra cómo seleccionar un rango de celdas en la hoja de trabajo activa.
 
 
 
@@ -351,7 +351,7 @@ Dar formato a las filas y columnas de una hoja de cálculo para darle un aspecto
 
 En este artículo, intentaremos explicar cómo usar Aspose.Cells for Java API para aplicar formato a filas y columnas.
 ### **Formateo de filas y columnas**
- Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contiene una WorksheetCollection que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por la clase Worksheet. los[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class proporciona la colección Cells. La colección Cells proporciona una colección de filas.
+ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contiene una WorksheetCollection que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por la clase Worksheet. los[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class proporciona la colección Cells. La colección Cells proporciona una colección de Filas.
 #### **Dar formato a una fila**
 Cada elemento de la colección Rows representa un objeto Row. El objeto Row ofrece el método applyStyle que se usa para aplicar formato a una fila.
 

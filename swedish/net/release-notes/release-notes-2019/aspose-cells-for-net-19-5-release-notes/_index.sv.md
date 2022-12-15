@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 19.5 Release Notes
+title: Aspose.Cells for .NET 19.5 Release Notes
 type: docs
 weight: 80
 url: /sv/net/aspose-cells-for-net-19-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 19.5](https://www.nuget.org/packages/Aspose.Cells/19.5.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 19.5](https://www.nuget.org/packages/Aspose.Cells/19.5.0).
 
 {{% /alert %}} 
 
@@ -28,16 +28,16 @@ url: /sv/net/aspose-cells-for-net-19-5-release-notes/
 |CELLSNET-46720|Sidstrukturen är skadad på sista sidan i Excel till PDF-konvertering|Insekt|
 |CELLSNET-46727|Fel sidnumrering när du sparar arbetsboken som PDF|Insekt|
 |CELLSNET-46700|Etiketter för cirkeldiagramsdata överlappar varandra|Insekt|
-|CELLSNET-46696|Konvertering av XLS med Microsofts grafdiagram till XLSX och XLSM orsakar ett oläsbart innehållsfel|Insekt|
+|CELLSNET-46696|Konvertering av XLS med Microsoft grafdiagram till XLSX och XLSM orsakar ett oläsbart innehållsfel|Insekt|
 |CELLSNET-46697|Konvertering av XLSM med OLE-objekt till XLS orsakar ett fel|Insekt|
-|CELLSNET-46712|Konvertering av XLS med Microsofts grafdiagram till XLSX och XLSM orsakar ett oläsbart innehållsfel|Insekt|
+|CELLSNET-46712|Konvertering av XLS med Microsoft grafdiagram till XLSX och XLSM orsakar ett oläsbart innehållsfel|Insekt|
 |CELLSNET-46715|Cells.InsertCutCells() Issue|Insekt|
 |CELLSNET-46725|"_x000a_" sträng läggs till i flerradsdiagram alt textbeskrivning|Insekt|
 |CELLSNET-46683|Undantag vid rendering av en Excel-fil till PDF|Undantag|
 |CELLSNET-46690|Ett undantag uppstår när Excel-arbetsbok laddas från Shape.ForeignData (Diagram)|Undantag|
 |CELLSNET-46728|Undantag när strömmen sparas som arbetsbok|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till StreamProviderOptions konstruktor**
 Nya StreamProviderOptions.
 #### **Lägger till FileFormatType.GraphChart enum**

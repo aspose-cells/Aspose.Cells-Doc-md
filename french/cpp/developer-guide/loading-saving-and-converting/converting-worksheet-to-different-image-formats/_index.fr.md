@@ -30,7 +30,7 @@ L'extrait de code suivant montre comment convertir une feuille de calcul dans un
 ## **Conversion d'une feuille de calcul en SVG**
 SVG signifie Scalable Vector Graphics. SVG est une spécification basée sur les normes XML pour les graphiques vectoriels bidimensionnels. Il s'agit d'un standard ouvert développé par le World Wide Web Consortium (W3C) depuis 1999.
 
-Aspose.Cells pour C++ est capable de convertir des feuilles de calcul en image SVG depuis la version 18.5.0.
+Aspose.Cells for C++ est capable de convertir des feuilles de calcul en image SVG depuis la version 18.5.0.
 
 Pour utiliser cette fonctionnalité, importez l'espace de noms `Aspose.Cells.Rendering` dans votre programme ou projet. Il a plusieurs classes utiles pour le rendu et l'impression, par exemple, `ISheetRender`, `IImageOrPrintOptions` et autres.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: PHP için Aspose.Cells .NET
+title: Aspose.Cells .NET for PHP
 type: docs
 weight: 40
 url: /tr/net/aspose-cells-net-for-php/
@@ -12,7 +12,7 @@ url: /tr/net/aspose-cells-net-for-php/
 
 #### **sistem gereksinimleri**
 
-**PHP için Aspose.Cells .NET'i kullanmak için sistem gereksinimleri şunlardır:**
+**Aspose.Cells .NET for PHP'i kullanmak için sistem gereksinimleri aşağıdadır:**
 
 - PHP ve PHP Manager yüklü IIS.
 - Aspose.Total API'ler.
@@ -29,7 +29,7 @@ url: /tr/net/aspose-cells-net-for-php/
 
 #### **Gerekli Kitaplıkları İndirin**
 
-Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar, PHP örnekleri için Aspose.Cells Java'i çalıştırmak için gereklidir.
+Aşağıda belirtilen gerekli kütüphaneleri indirin. Bunlar Aspose.Cells Java for PHP örneklerini çalıştırmak için gereklidir.
 
 - [İndirme bölümünden Aspose.Cells for .NET (DLL veya MSI) dosyalarını indirin](https://downloads.aspose.com/cells/net)
 - [Aspose.Cells for .NET birlikte çalışma dll dosyasını indirin](https://downloads.aspose.com/cells/net)
@@ -46,9 +46,9 @@ Benzer şekilde birlikte çalışma zip dosyasını çıkarın ve Aspose.Inteop.
 
 ##### **GitHub**
 
-- **PHP Örnekleri için Aspose.Cells .NET**
+- **Aspose.Cells .NET for PHP Örnekler**
 
-  - [PHP için Aspose.Cells .NET](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+  - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
 #### **Windows Platformunda kaynak kodu nasıl yapılandırılır**
 
@@ -76,7 +76,7 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 IIS'de PHP Yöneticisi'ni açın ve ardından 'Devre Dışı Bırakma ve Uzantıyı Etkinleştir' seçeneğini tıklayın. php'yi bul_iletişim_dotnet.dll ve etkinleştirildiğinden emin olun.
 
-##### **3. PHP Örnekleri için Aspose.Cells .NET'i yapılandırın**
+##### **3. Yapılandırma Aspose.Cells .NET for PHP Örnekler**
 
 ###### **Yöntem 1**
 
@@ -125,13 +125,13 @@ Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler verme
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
 
-Aşağıdaki platformlardan herhangi birini kullanarak PHP için Aspose.Cells .NET ile ilgili sorunları veya önerileri günlüğe kaydedebilirsiniz:
+Aspose.Cells .NET for PHP ile ilgili sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 #### **Genişletin ve Katkıda Bulunun**
 
-PHP için Aspose.Cells .NET açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
+Aspose.Cells .NET for PHP açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
 
 #### **Kaynak kodu**
 
@@ -147,7 +147,7 @@ Bu bölüm aşağıdaki konuları içerir
   - [PHP'de Dosyalarla Çalışmak](/cells/tr/net/working-with-files-in-php/)
     - [PHP'de Dosya İşleme Özellikleri](/cells/tr/net/file-handling-features-in-php/)
       - [Dosyaları PHP'de Açmak](/cells/tr/net/opening-files-in-php/)
-      - [PHP'de Dosyaları Kaydetme](/cells/tr/net/saving-files-in-php/)
+      - [PHP'de Dosyaları Kaydetmek](/cells/tr/net/saving-files-in-php/)
     - [PHP'deki Yardımcı Program Özellikleri](/cells/tr/net/utility-features-in-php/)
       - [PHP'de Dosyaları Şifrelemek](/cells/tr/net/encrypting-files-in-php/)
       - [PHP'de Excel'den PDF'e Dönüştürme](/cells/tr/net/excel-to-pdf-conversion-in-php/)

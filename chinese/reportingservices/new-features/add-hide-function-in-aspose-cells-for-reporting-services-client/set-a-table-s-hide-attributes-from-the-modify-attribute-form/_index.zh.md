@@ -12,4 +12,4 @@ url: /zh/reportingservices/set-a-table-s-hide-attributes-from-the-modify-attribu
 
 **设置表格报告的隐藏属性** 
 
-![待办事项：图片_替代_文本](set-a-table-s-hide-attributes-from-the-modify-attribute-form_1.png)
+![待办事项：图像_替代_文本](set-a-table-s-hide-attributes-from-the-modify-attribute-form_1.png)

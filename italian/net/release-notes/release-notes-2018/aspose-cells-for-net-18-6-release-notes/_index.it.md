@@ -16,12 +16,12 @@ url: /it/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46179|Aggiorna Slicer nei formati di file XLSB e XLSX|Nuova caratteristica|
 |CELLSNET-46167|Crea Slicer nei formati di file XLSB e XLSX|Nuova caratteristica|
 |CELLSNET-44455|Crea o aggiorna Slicer in Excel 2013 utilizzando Aspose.Cells|Nuova caratteristica|
-|CELLSNET-46130|Aggiungere API per ottenere e impostare CustomXmlPart ID|Nuova caratteristica|
+|CELLSNET-46130|Aggiungi API per ottenere e impostare CustomXmlPart ID|Nuova caratteristica|
 |CELLSNET-46145|Migliora la conversione della linea Callout in immagine|Aumento|
 |CELLSNET-46174|Metodi WorkbookRender.ToImage(pageIndex, fileName/stream) e Bitmap WorkbookRender.ToImage(int pageIndex) inclusi|Aumento|
 |CELLSNET-46178|Supporta il formato DateTimeOffset durante l'importazione di oggetti personalizzati|Aumento|
 |CELLSNET-46171|La definizione di GroupShape è fuorviante|Aumento|
-|CELLSNET-46152|metodi rilevanti in Aspose.Cells API vengono aggiunti per GetRangeAddess(), GetCellCount(), GetEntireAddress() e GetOffset()|Aumento|
+|CELLSNET-46152|Vengono aggiunti metodi rilevanti nell'API Aspose.Cells per GetRangeAddess(), GetCellCount(), GetEntireAddress() e GetOffset()|Aumento|
 |CELLSNET-46122|Converti smart art dal formato file XLSX al formato XLS|Aumento|
 |CELLSNET-46121|Converti smart art dal formato file XLS al formato XLSX|Aumento|
 |CELLSNET-45961|Gli strumenti inchiostro sono scomparsi durante la conversione in PDF|Aumento|
@@ -51,7 +51,7 @@ url: /it/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46155|L'etichetta dell'asse orizzontale del grafico è danneggiata|Insetto|
 |CELLSNET-46150|Il salvataggio del file XLT come XLS dopo aver cancellato le serie di dati del grafico genera un avviso rosso "Visualizzazione protetta".|Insetto|
 |CELLSNET-46140|La filigrana funziona bene con i fogli di calcolo ma non viene visualizzato nulla sui grafici|Insetto|
-|CELLSNET-46129|I tick dell'asse Y nell'immagine del grafico non corrispondono a MS-Excel|Insetto|
+|CELLSNET-46129|tick dell'asse Y nell'immagine del grafico non corrispondono a MS-Excel|Insetto|
 |CELLSNET-46100|CellsException - System.OutOfMemoryException durante la conversione di file Excel in PDF|Insetto|
 |CELLSNET-46082|I colori della legenda del grafico a torta cambiano dopo il salvataggio in PDF e non corrispondono alle sezioni del grafico a torta|Insetto|
 |CELLSNET-46072|Il salvataggio di un file XLT/XLTX come XLS/XLSX genera un avviso rosso "Visualizzazione protetta".|Insetto|
@@ -65,8 +65,8 @@ url: /it/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46138|EndOfStreamException quando Aspose.Cells.Dll (assembly più recente) viene unito|Eccezione|
 |CELLSNET-46173|Eccezione: "File danneggiato" durante il caricamento di un file XLS|Eccezione|
 |CELLSNET-46137|ArgumentOutOfRangeException quando Aspose.Cells (assembly più recente) viene unito|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge le classi Slicer, SlicerCollection, SlicerCache, SlicerCacheItem e SlicerCacheItemCollection**
 Queste API vengono utilizzate per creare e modificare lo Slicer nel file.
 #### **Aggiunge le enumerazioni SlicerCacheItemSortType e SlicerStyleType**

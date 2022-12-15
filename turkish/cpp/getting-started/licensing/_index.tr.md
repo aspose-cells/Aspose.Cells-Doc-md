@@ -5,9 +5,9 @@ weight: 50
 url: /tr/cpp/licensing/
 ---
 ## **Değerlendirme Sürümü Sınırlamaları**
- C++ için Aspose.Cells'in ücretsiz değerlendirme sürümü, Aspose'in şu adresteki web sitesindeki indirmeler bölümünden indirilebilir:<https://downloads.aspose.com/cells/cpp>.
+ Aspose.Cells for C++'in ücretsiz değerlendirme sürümü, Aspose'in şu adresteki web sitesindeki indirmeler bölümünden indirilebilir:<https://downloads.aspose.com/cells/cpp>.
 ## **Dosya veya Akış Nesnesi Kullanarak Lisansı Uygulayın**
-Lisans bir dosyadan veya akış nesnesinden yüklenebilir. C++ için Aspose.Cells, aşağıdaki konumlarda lisansı bulmaya çalışacak:
+Lisans bir dosyadan veya akış nesnesinden yüklenebilir. Aspose.Cells for C++ aşağıdaki konumlarda lisansı bulmaya çalışacak:
 
 1. Açık yol.
 1. Aspose.Cells.dll dosyasını içeren klasör.

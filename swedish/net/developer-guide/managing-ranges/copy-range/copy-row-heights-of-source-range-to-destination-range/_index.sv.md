@@ -10,6 +10,6 @@ url: /sv/net/copy-row-heights-of-source-range-to-destination-range/
 
 {{% /alert %}}
 
- Följande exempelkod förklarar hur du använder[**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype)enum för att kopiera radhöjder för källintervall till destinationsintervall. När du väl har öppnat excel-filen som genereras av den här koden i Microsoft Excel, kommer du att se att destinationsintervallets radhöjder är exakt samma som källintervallets radhöjder.
+ Följande exempelkod förklarar hur du använder[**PasteType.RowHeights**](https://reference.aspose.com/cells/net/aspose.cells/pastetype)enum för att kopiera radhöjder för källintervall till destinationsintervall. När du öppnar excel-filen som genereras av den här koden i Microsoft Excel, kommer du att se att destinationsintervallets radhöjder är exakt samma som källintervallets radhöjder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetRowHeights-GetRowHeightsOfSourceRangeToDestinationRange.cs" >}}

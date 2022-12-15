@@ -8,7 +8,7 @@ url: /sv/java/set-the-comment-of-table-or-list-object/
 
  Ange kommentaren för tabellen eller listobjektet i kalkylbladet med hjälp av[**ListObject.Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#Comment)fast egendom. Kommentaren kommer att vara synlig i filen xl/tables/tableName.xml.
 
- Följande exempelkod laddar[source excel-fil](5472561.xlsx), ställer in kommentaren för det första tabell- eller listobjektet i kalkylbladet och skärmdumpen visar kommentaren som skapats av denna kod i den röda rektangeln.
+ Följande exempelkod laddar[källkod excel-fil](5472561.xlsx), ställer in kommentaren för det första tabell- eller listobjektet i kalkylbladet och skärmdumpen visar kommentaren som skapats av denna kod i den röda rektangeln.
 
 ![todo:image_alt_text](set-the-comment-of-table-or-list-object_1.png)
 

@@ -5,17 +5,17 @@ type: docs
 weight: 4
 url: /es/python-net/getting-started/ 
 keywords: python, excel, instal
-description: Configure Aspose.Cells para Python a través de .NET y pautas de instalación.
+description: Configuración Aspose.Cells for Python via .NET y pautas de instalación.
 ---
 ## **Requisitos del sistema**
- Aspose.Cells para Python a través de .NET es independiente de la plataforma API y se puede usar en cualquier plataforma (Windows y Linux) donde[Python](https://www.python.org/downloads/) esta instalado.
+ Aspose.Cells for Python via .NET es independiente de la plataforma API y se puede usar en cualquier plataforma (Windows y Linux) donde[Python](https://www.python.org/downloads/) esta instalado.
 
 ## **Python Versión**
 - Python 3.6 o superior
 
 ## **Instalación**
 ### **Windows:**
- Puede usar fácilmente Aspose.Cells para Python a través de .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
+ Puede usar fácilmente Aspose.Cells for Python via .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -23,7 +23,7 @@ description: Configure Aspose.Cells para Python a través de .NET y pautas de in
 {{< /highlight >}}
 
 ### **Linux:**
- Puede usar fácilmente Aspose.Cells para Python a través de .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
+ Puede usar fácilmente Aspose.Cells for Python via .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -31,7 +31,7 @@ description: Configure Aspose.Cells para Python a través de .NET y pautas de in
 {{< /highlight >}}
 
 ### **Mac OS:**
- Puede usar fácilmente Aspose.Cells para Python a través de .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
+ Puede usar fácilmente Aspose.Cells for Python via .NET desde[pypi](https://pypi.org/project/aspose-cells-python/) con el siguiente comando.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python

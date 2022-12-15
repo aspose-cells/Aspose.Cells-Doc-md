@@ -8,8 +8,8 @@ url: /de/net/aspose-cells-for-net-8-7-1-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSNET-44154 | Unterstützt das Lesen/Schreiben von Abfragetabellen.| Neue Funktion|
-|CELLSNET-43616 | Unterstützt die Array-Formel mit der Funktion "TABELLE".| Neue Funktion|
+|CELLSNET-44154 | Unterstützt das Lesen/Schreiben von Abfragetabellen.|Neue Funktion|
+|CELLSNET-43616 | Unterstützt die Array-Formel mit der Funktion "TABELLE".|Neue Funktion|
 |CELLSNET-44195 | Die Datei wird nach der Konvertierung in das XLS-Dateiformat in der geschützten Ansicht geöffnet| Erweiterung|
 |CELLSNET-44182 | Cells Find mit benutzerdefinierter Formatierung funktioniert in älterer Version, aber nicht in neuerer Version| Erweiterung|
 |CELLSNET-44187 | Cell-Werte werden bei der Konvertierung in HTML fälschlicherweise durch # ersetzt| Insekt|
@@ -34,7 +34,7 @@ url: /de/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44223 | NullReferenceException beim Laden einer bestimmten XLSX-Datei| Ausnahme|
 |CELLSNET-44212 | NullReference-Ausnahme beim Öffnen der Excel-Quelldatei| Ausnahme|
 |CELLSNET-44204 | CellsException: Die Schriftgröße liegt außerhalb des zulässigen Bereichs bei Workbook ctor| Ausnahme|
-|CELLSNET-44196 | Bieten Sie die Möglichkeit zu erkennen, welche Spalte gefiltert wird und welcher Wert auf der GridWeb-Oberfläche gefiltert werden soll| Neue Funktion|
+|CELLSNET-44196 | Bieten Sie die Möglichkeit zu erkennen, welche Spalte gefiltert wird und welcher Wert auf der GridWeb-Oberfläche gefiltert werden soll|Neue Funktion|
 |CELLSNET-44232 | GridDesktop-Problem mit RemoveRow (Index), wobei der Index "0" ist| Insekt|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.

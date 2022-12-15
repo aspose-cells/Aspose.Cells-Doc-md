@@ -21,11 +21,11 @@ Aspose.Cells for SharePoint 支持以下输入格式：
 - ODS——OpenDocument
 - XML – Microsoft Excel SpreadsheetML
 
-要生成文档，Aspose.Cells for SharePoint 依赖于内置版本[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)，来自 Aspose 的市场领先的电子表格处理组件。 Microsoft 不使用 Excel 生成文档。
+生成文档，Aspose.Cells for SharePoint依赖内置版本[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)，来自 Aspose 的市场领先的电子表格处理组件。 Microsoft 不使用 Excel 生成文档。
 
 ## **支持的输出格式**
 
-SharePoint Aspose.Cells 支持的完整输出格式列表是：
+Aspose.Cells for SharePoint 支持的输出格式的完整列表是：
 
 - PDF – Adobe 便携式文档
 - XLS – Microsoft Excel 97 - 2003
@@ -44,4 +44,4 @@ SharePoint Aspose.Cells 支持的完整输出格式列表是：
 
 **列出了文件可用的受支持转换格式** 
 
-![待办事项：图片_替代_文本](multiple-format-support_1.png)
+![待办事项：图像_替代_文本](multiple-format-support_1.png)

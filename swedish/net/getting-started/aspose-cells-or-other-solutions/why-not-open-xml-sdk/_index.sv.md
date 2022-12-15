@@ -44,26 +44,26 @@ Följande tabell jämför funktionerna Open XML SDK och Aspose.Cells.
 |Detaljerad programmering med en dokumentobjektmodell, tillgång till enskilda element och formateringsegenskaper för alla kalkylbladselement.|Ja|Ja|
 |Direkt och fullständig tillgång på låg nivå till de underliggande XML-elementen och attributen såsom relationsidentifierare, listidentifierare för ett OOXML-dokument.|Ja|Nej|
 |<p>Generera rapporter, fyll i dokument med data:</p><p>- Importera/exportera data till/från en datatabell / _ResultSet.</p><p>- Funktionen Smart Markers.</p><p>- Infoga/ta bort rader/kolumner/intervall.</p><p>- Anpassade datakällor.</p>|Nej|Ja|
-|<p>Rendering och utskrift:* Rendera kalkylbladssidor till rasterbilder (TIFF, flersidig TIFF, PNG, JPEG, BMP).* Gör kalkylbladssidor till vektorbilder (EMF).</p><p>- Konvertera diagram till bilder (TIFF, flersidig TIFF, PNG, JPEG, BMP, EMF, etc.)</p><p>- Ange bildupplösning, kvalitet, komprimering och andra alternativ.</p><p>- Skriv ut kalkylblad med .NET-utskriftsinfrastrukturen. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Förhandsgranskning av Microsoft Excel.</p>|Nej|Ja|
+|<p>Rendering och utskrift:* Rendera kalkylbladssidor till rasterbilder (TIFF, flersidig TIFF, PNG, JPEG, BMP).* Gör kalkylbladssidor till vektorbilder (EMF).</p><p>- Konvertera diagram till bilder (TIFF, flersidig TIFF, PNG, JPEG, BMP, EMF, etc.)</p><p>- Ange bildupplösning, kvalitet, komprimering och andra alternativ.</p><p>- Skriv ut kalkylblad med .NET utskriftsinfrastruktur. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Förhandsgranskning av Microsoft Excel.</p>|Nej|Ja|
 |Beräkna/beräkna om formler dynamiskt|Nej|Ja|
 |Plattformar som stöds|Windows, .NET|Windows, Linux, Java, .NET, Mono|
 
-Du kan jämföra OpenXML med Aspose.Cells För att göra dessa föreslår vi att du bekantar dig med Aspose.Cells för OpenXML-projektet – det visar hur olika uppgifter kan utföras med Aspose.Cells för .NET API kontra OpenXML. Projektet omfattar även funktioner för att arbeta med textdokument som endast är tillgängliga i Aspose.Cells, men inte i OpenXML.
+Du kan jämföra OpenXML med Aspose.Cells För att göra dessa föreslår vi att du bekantar dig med Aspose.Cells för OpenXML-projektet – det visar hur olika uppgifter kan utföras med Aspose.Cells for .NET API kontra OpenXML. Projektet omfattar även funktioner för att arbeta med textdokument som endast är tillgängliga i Aspose.Cells, men inte i OpenXML.
 
 Det här projektet är också användbart för utvecklare som vill migrera från OpenXML till Aspose.Cells.
 
 {{% alert color="primary" %}}
 
- Utforska[plugin-programmet med källkodsexempel på Aspose.Cells för .NET-funktioner i jämförelse med OpenXML](https://github.com/asposemarketplace/Aspose_for_OpenXML).
+ Utforska[pluginet med källkodsexempel på Aspose.Cells for .NET funktioner i jämförelse med OpenXML](https://github.com/asposemarketplace/Aspose_for_OpenXML).
 
- Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/net/licensing/) artikel för att göra detta.
+Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) . För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/net/licensing/) artikel för att göra detta.
 
 {{% /alert %}}
 
 **Slutsats**: Open XML SDK och Aspose.Cells konkurrerar inte head to head eftersom de adresserar ganska olika behov och målgrupper.
 
 ## **Varför inte öppna XML SDK**
-Open XML SDK är ett klassbibliotek för att tillhandahålla ett välskrivet sätt att arbeta med OOXML-dokument. Aspose.Cells är ett mycket användbart kalkylbladsbibliotek som ger bra stöd för alla Microsoft Excel och andra filformat.
+Open XML SDK är ett klassbibliotek för att tillhandahålla ett välskrivet sätt att arbeta med OOXML-dokument. Aspose.Cells är ett mycket användbart bibliotek för bearbetning av kalkylblad som ger bra stöd för alla Microsoft Excel och andra filformat.
 
 Om allt du behöver göra är en ganska grundläggande programmeringsoperation på ett XLSX-dokument, kan Open XML SDK vara ett lämpligt val. Med Open XML SDK kommer du att vara ganska bekväm med att göra enkla uppgifter som att skapa ett enkelt XLSX-dokument eller ta bort kommentarer, sidhuvuden/sidfötter, extrahera bilder eller annat.
 Vissa uppgifter kan uppnås med Open XML SDK, men kan inte uppnås med Aspose.Cells. Till exempel, om du behöver direkt tillgång till XML-elementen och attributen för ett OOXML-dokument, bör du använda Open XML SDK.

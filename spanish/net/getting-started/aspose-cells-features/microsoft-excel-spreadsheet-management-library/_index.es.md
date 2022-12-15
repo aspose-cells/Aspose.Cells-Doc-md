@@ -37,7 +37,7 @@ url: /es/net/microsoft-excel-spreadsheet-management-library/
 - Ocultar o mostrar filas y columnas.
 - Agrupar o desagrupar filas y columnas.
 ### **Funciones de gestión de datos**
-- Acceda a cualquier celda de la hoja de cálculo.
+- Acceda a cualquier celda de la hoja de trabajo.
 - Agregue datos a las celdas deseadas en tiempo de ejecución.
 - Importe datos en hojas de trabajo desde diferentes fuentes de datos.
 - Recupere datos de celdas según sus tipos de datos.

@@ -12,4 +12,4 @@ url: /zh/reportingservices/aspose-cells-reportingservices-client-issues/
 - [检查 Aspose.Cells.ReportingServices 版本](/cells/zh/reportingservices/checking-the-aspose-cells-reportingservices-version/)
 - [运行时错误 429](/cells/zh/reportingservices/runtime-error-429/)
 - [rsreportserver.config 中的 DeviceInfo](/cells/zh/reportingservices/deviceinfo-in-rsreportserver-config/)
-- [如何为 Excel x64 的 Reporting Services 加载项加载 Aspose.Cells](/cells/zh/reportingservices/how-to-load-aspose-cells-for-reporting-services-add-ins-for-excel-x64/)
+- [如何加载 Aspose.Cells for Reporting Services Excel x64 加载项](/cells/zh/reportingservices/how-to-load-aspose-cells-for-reporting-services-add-ins-for-excel-x64/)

@@ -6,7 +6,7 @@ url: /fr/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells - Afficher ou masquer les barres de défilement**
 ### **Masquer les en-têtes de ligne/colonne**
- Pour masquer les en-têtes de ligne/colonne à l'aide**Aspose.Cells Java pour Python** , appel**AfficherMasquerRowColumnHeaders** module.
+Pour masquer les en-têtes de ligne/colonne à l'aide**Aspose.Cells Java for Python** , appel**AfficherMasquerRowColumnHeaders** module.
 
 **Code Python**
 

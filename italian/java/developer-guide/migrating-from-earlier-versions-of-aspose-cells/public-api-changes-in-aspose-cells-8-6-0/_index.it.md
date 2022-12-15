@@ -1,21 +1,21 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.6.0
+title: Modifiche all'API pubblica in Aspose.Cells 8.6.0
 type: docs
 weight: 200
 url: /it/java/public-api-changes-in-aspose-cells-8-6-0/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.5.2 alla 8.6.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-6-0/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.5.2 alla 8.6.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-6-0/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per la manipolazione dei metadati senza creare un oggetto della cartella di lavoro**
-Questa versione di Aspose.Cells for Java API ha esposto due nuove classi, WorkbookMetadata e MetadataOptions, insieme a una nuova enumerazione MetadataType che ora consente di manipolare le proprietà del documento (metadati) senza creare un'istanza di Workbook. La classe WorkbookMetadata è leggera e fornisce un meccanismo molto facile da usare ed efficiente per[leggere, scrivere e aggiornare le proprietà del documento senza influire sulle prestazioni complessive](/cells/it/java/using-workbookmetadata/). 
+Questa versione dell'API Aspose.Cells for Java ha esposto due nuove classi, WorkbookMetadata e MetadataOptions, insieme a una nuova enumerazione MetadataType che ora consente di manipolare le proprietà del documento (metadati) senza creare un'istanza di Workbook. La classe WorkbookMetadata è leggera e fornisce un meccanismo molto facile da usare ed efficiente per[leggere, scrivere e aggiornare le proprietà del documento senza influire sulle prestazioni complessive](/cells/it/java/using-workbookmetadata/). 
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -35,11 +35,11 @@ metaWorkbook.save(filePath);
 
 {{< /highlight >}}
 ### **Proprietà HtmlSaveOptions.ExportFrameScriptsAndProperties aggiunta**
-Aspose.Cells for Java 8.6.0 ha esposto la proprietà HtmlSaveOptions.ExportFrameScriptsAndProperties che può essere utilizzata per influenzare la creazione di script aggiuntivi durante la conversione dei fogli di calcolo in formato HTML. Con le impostazioni predefinite, le API Aspose.Cells esportano il foglio di calcolo in formato HTML mentre l'applicazione Excel esegue l'esportazione, ovvero; l'HTML risultante contiene i frame ei commenti condizionali, che rilevano il tipo di browser e regolano il layout di conseguenza. Il valore predefinito della proprietà HtmlSaveOptions.ExportFrameScriptsAndProperties è true, ovvero; l'esportazione avviene secondo gli standard di Excel. Se la proprietà è impostata su false, API non lo farà[generare gli script relativi ai frame e ai commenti condizionali](/cells/it/java/disable-exporting-frame-scripts-and-document-properties/). In questo caso, l'HTML risultante può essere visualizzato correttamente in qualsiasi browser, tuttavia non può essere reimportato utilizzando le API Aspose.Cells.
+Aspose.Cells for Java 8.6.0 ha esposto la proprietà HtmlSaveOptions.ExportFrameScriptsAndProperties che può essere utilizzata per influenzare la creazione di script aggiuntivi durante la conversione dei fogli di calcolo in formato HTML. Con le impostazioni predefinite, le API Aspose.Cells esportano il foglio di calcolo in formato HTML mentre l'applicazione Excel esegue l'esportazione, ovvero; l'HTML risultante contiene i frame ei commenti condizionali, che rilevano il tipo di browser e regolano il layout di conseguenza. Il valore predefinito della proprietà HtmlSaveOptions.ExportFrameScriptsAndProperties è true, ovvero; l'esportazione avviene secondo gli standard di Excel. Se la proprietà è impostata su false, l'API non lo farà[generare gli script relativi ai frame e ai commenti condizionali](/cells/it/java/disable-exporting-frame-scripts-and-document-properties/). In questo caso, l'HTML risultante può essere visualizzato correttamente in qualsiasi browser, tuttavia non può essere reimportato utilizzando le API Aspose.Cells.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -63,7 +63,7 @@ book.save("output.html", options)
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -115,4 +115,4 @@ workbook.save("output.xlsm");
 
 {{< /highlight >}}
 ### **Proprietà OoxmlSaveOptions.UpdateZoom aggiunta**
-Con il rilascio di v8.6.0, Aspose.Cells for Java API ha esposto la proprietà OoxmlSaveOptions.UpdateZoom che può essere utilizzata per aggiornare PageSetup.Zoom se le proprietà PageSetup.FitToPagesWide e/o PageSetup.FitToPagesTall sono state utilizzate per controllare il ridimensionamento del foglio di lavoro.
+Con il rilascio della versione v8.6.0, l'API Aspose.Cells for Java ha esposto la proprietà OoxmlSaveOptions.UpdateZoom che può essere utilizzata per aggiornare PageSetup.Zoom se le proprietà PageSetup.FitToPagesWide e/o PageSetup.FitToPagesTall sono state utilizzate per controllare il ridimensionamento del foglio di lavoro.

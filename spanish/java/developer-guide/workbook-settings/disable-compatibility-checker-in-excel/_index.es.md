@@ -19,7 +19,7 @@ A veces, debe deshabilitar el Comprobador de compatibilidad para una hoja de cá
 Para deshabilitar el Comprobador de compatibilidad en Microsoft Excel (por ejemplo, Microsoft Excel 2007/2010):
 
 -  (Excel 2007) En el botón de Office, haga clic en**Preparar** , después**Ejecutar Comprobador de compatibilidad** y luego borre el**Verifique la compatibilidad cuando guarde este libro de trabajo** opción.
--  (Excel 2010 y 2013) En la pestaña Archivo, haga clic en**Información** , después**Comprobar si hay problemas** , haga clic**Comprobar compatibilidad** y, finalmente, borre el**Verifique la compatibilidad cuando guarde este libro de trabajo** opción.
+-  (Excel 2010 y 2013) En la pestaña Archivo, haga clic en**Información** , después**Comprobar si hay problemas** , haga clic**Comprobar compatibilidad** y, finalmente, borre la**Verifique la compatibilidad cuando guarde este libro de trabajo** opción.
 
 ## **Uso de las API Aspose.Cells**
 

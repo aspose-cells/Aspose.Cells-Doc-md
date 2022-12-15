@@ -9,6 +9,6 @@ url: /tr/sharepoint/product-information/
 - [Desteklenen Dosya Biçimleri](/cells/tr/sharepoint/supported-file-formats/)
 - [Özellikler](/cells/tr/sharepoint/features/)
 - [sistem gereksinimleri](/cells/tr/sharepoint/system-requirements/)
-- [SharePoint için Aspose.Cells'i yükleyin](/cells/tr/sharepoint/install-aspose-cells-for-sharepoint/)
+- [Aspose.Cells for SharePoint yükleyin](/cells/tr/sharepoint/install-aspose-cells-for-sharepoint/)
 - [Değerlendir Aspose.Cells](/cells/tr/sharepoint/evaluate-aspose-cells/)
-- [SharePoint için Lisans Aspose.Cells](/cells/tr/sharepoint/license-aspose-cells-for-sharepoint/)
+- [Ruhsat Aspose.Cells for SharePoint](/cells/tr/sharepoint/license-aspose-cells-for-sharepoint/)

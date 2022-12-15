@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per PHP tramite Java 21.11 Note di rilascio
+title: Aspose.Cells for PHP via Java Note sulla versione 21.11
 type: docs
 weight: 2
 url: /it/php-java/aspose-cells-for-php-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per PHP tramite Java 21.11](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.11/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for PHP via Java 21.11](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.11/).
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ url: /it/php-java/aspose-cells-for-php-via-java-21-11-release-notes/
 |CELLSJAVA-43953|Renderizza testo/parte specifici "Cell" e "Commento" da tradurre in giapponese nella conversione da Excel a PDF|
 |CELLSJAVA-43935|Problema relativo alla dimensione del carattere del testo durante il salvataggio e il caricamento del file XLS|
 |CELLSJAVA-43952|Problema di scadenza della licenza temporanea|
-|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java spazio heap"|
+|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java heap space"|
 |CELLSJAVA-43902|Alcuni bordi di Excel convertiti in HTML sono ridondanti|
 |CELLSJAVA-43933|Quando si esporta in HTML con un solo dato, il formato condizionale è diverso da Excel|
 |CELLSJAVA-43878| Posizione errata delle etichette dei dati del grafico a barre del cluster di Excel|
@@ -28,9 +28,9 @@ url: /it/php-java/aspose-cells-for-php-via-java-21-11-release-notes/
 |CELLSJAVA-43969|Un nome con funzione CONTA.SE e riferimento esterno produce un'eccezione NullPointerException|
 |CELLSJAVA-43903|java.lang.NumberFormatException: per la stringa di input durante il rendering del file Excel in HTML|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge enum CellValueFormatStrategy.DisplayString.**
 

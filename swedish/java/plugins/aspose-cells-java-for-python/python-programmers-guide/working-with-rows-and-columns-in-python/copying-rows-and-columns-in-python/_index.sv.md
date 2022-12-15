@@ -14,7 +14,7 @@ Metoden copyRow tar följande parametrar:
 - källradens index, och
 - destinationsradindex.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 
@@ -50,13 +50,13 @@ Metoden copyColumn använder följande parametrar:
 - källkolumnindex och
 - målkolumnindex.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "ruby" >}}
 
 
 
-def copy_columns(self):
+def copy_columns(själv):
 
 \# Instantiera ett arbetsboksobjekt med excel-filsökväg
 

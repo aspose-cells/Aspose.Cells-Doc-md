@@ -7,7 +7,7 @@ url: /de/java/aspose-cells-java-for-struts/
 ## **Apache Struts-Webframework**
 Das Apache Struts-Webframework ist eine kostenlose Open-Source-Lösung zum Erstellen von Java-Webanwendungen.
 
-Webanwendungen unterscheiden sich von herkömmlichen Websites darin, dass Webanwendungen eine dynamische Reaktion erzeugen können. Viele Websites liefern nur statische Seiten. Eine Webanwendung kann mit Datenbanken und Geschäftslogik-Engines interagieren, um eine Antwort anzupassen.
+Webanwendungen unterscheiden sich von herkömmlichen Websites dadurch, dass Webanwendungen eine dynamische Reaktion erzeugen können. Viele Websites liefern nur statische Seiten. Eine Webanwendung kann mit Datenbanken und Geschäftslogik-Engines interagieren, um eine Antwort anzupassen.
 
 Eine Möglichkeit, Bedenken in einer Softwareanwendung zu trennen, ist die Verwendung einer Model-View-Controller (MVC)-Architektur. Das Modell stellt den Geschäfts- oder Datenbankcode dar, die Ansicht stellt den Seitendesigncode dar und der Controller stellt den Navigationscode dar. Das Struts-Framework soll Entwicklern helfen, Webanwendungen zu erstellen, die eine MVC-Architektur verwenden.
 

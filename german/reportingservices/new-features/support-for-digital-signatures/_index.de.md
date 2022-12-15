@@ -10,16 +10,16 @@ url: /de/reportingservices/support-for-digital-signatures/
 
  Sie können eine persönliche digitale Signatur mit Microsoft Selfcert.exe oder einem anderen Tool erstellen oder eine digitale Signatur erwerben. Um eine Tabelle zu signieren, hängen Sie eine Signatur an Ihre Arbeitsmappen an, nachdem Sie eine digitale Signatur erstellt haben.
 
- Aspose.Cells für Reporting Services unterstützt digitale Signaturen.
+ Aspose.Cells for Reporting Services unterstützt digitale Signaturen.
 
 {{% /alert %}} 
 ### **Arbeiten mit digitalen Signaturen**
 #### **Unterstützte Excel-Formate für digitale Signaturen**
-Aspose.Cells für Reporting Services unterstützt digitale Signaturen beim Exportieren in Excel 2007- und ODS-Dateiformate.
+Aspose.Cells for Reporting Services unterstützt digitale Signaturen beim Export in Excel 2007- und ODS-Dateiformate.
 #### **Konfigurieren digitaler Signaturen**
  Das**Aspose.Cells.ReportingServices.xml** enthält die Konfigurationsinformationen und den Text einer digitalen Signatur in der<DigitalSignature> Schild:
 
-- Wenn DigitalSignature deaktiviert ist, deaktiviert Aspose.Cells für Reporting Services die digitale Signaturfunktion.
+- Wenn DigitalSignature deaktiviert ist, schaltet Aspose.Cells for Reporting Services die digitale Signaturfunktion aus.
  Zum Beispiel:
 
 {{< highlight "java" >}}

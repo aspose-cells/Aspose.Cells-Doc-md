@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 17.3.0 Release Notes
+title: Aspose.Cells for Java 17.3.0 Release Notes
 type: docs
 weight: 100
 url: /sv/java/aspose-cells-for-java-17-3-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 17.3.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.3.0/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 17.3.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.3.0/).
 
 {{% /alert %}} 
 
@@ -28,12 +28,12 @@ url: /sv/java/aspose-cells-for-java-17-3-0-release-notes/
 |CELLSJAVA-42195|Vattenfallsdiagram, Totalserie ser fel ut|Insekt|
 |CELLSJAVA-42181|Skyddad vy efter att ha sparat en XLS-fil igen|Insekt|
 |CELLSJAVA-42045|Radardiagrambild genereras inte|Insekt|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Anpassa globaliseringsinställningarna för en pivottabell**
 Med den senaste versionen 17.3.0 eller senare kan utvecklare anpassa globaliseringsinställningarna för en pivottabell i en Excel-fil. De kan ändra pivotsumman, delsumman, totalsumman, alla artiklar, flera artiklar, kolumnetiketter, radetiketter, tomma värden enligt kraven. Utvecklare kan införliva den här funktionen i sina .NET-applikationer, oavsett Excel-textspråk. Det kan vara arabiska, hindi, polska, etc. Alla nya metoder som stöds listas nedan:
 
-1. **Lägger till metoden GlobalizationSettings.getPivotTotalName().** Den får namnet "Total"-etiketten i pivottabellen. Utvecklare kan åsidosätta denna metod när pivottabellen innehåller två eller flera pivotfält i dataområdet.
+1. **Lägger till metoden GlobalizationSettings.getPivotTotalName().** - Den får namnet "Total"-etiketten i pivottabellen. Utvecklare kan åsidosätta denna metod när pivottabellen innehåller två eller flera pivotfält i dataområdet.
 1. **Lägger till metoden GlobalizationSettings.getPivotGrandTotalName().** - Den får namnet "Grand Total"-etiketten i pivottabellen.
 1. **Lägger till metoden GlobalizationSettings.getMultipleItemsName().** - Den får namnet "(Flera artiklar)"-etiketten i pivottabellen.
 1. **Lägger till metoden GlobalizationSettings.getAllName().** - Den får namnet "(Alla)"-etiketten i pivottabellen.

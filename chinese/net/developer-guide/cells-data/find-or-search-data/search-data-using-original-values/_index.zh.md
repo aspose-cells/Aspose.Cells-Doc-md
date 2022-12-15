@@ -6,7 +6,7 @@ url: /zh/net/search-data-using-original-values/
 ---
 {{% alert color="primary" %}}
 
-有时数据的价值是隐藏的，因为它是以某种方式格式化的。例如，假设单元格 D4 具有公式 =Sum(A1:A2) 且其值为 20 但其格式为 ---，则值 20 被隐藏并且无法使用 Microsoft Excel 查找选项找到。但是，您可以使用 Aspose.Cells 找到它[**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype)
+有时数据的价值是隐藏的，因为它是以某种方式格式化的。例如，假设单元格 D4 具有公式 =Sum(A1:A2) 并且其值为 20 但其格式为 ---，则值 20 被隐藏并且无法使用 Microsoft Excel 查找选项找到。但是，您可以使用 Aspose.Cells 找到它[**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype)
 
 {{% /alert %}}
 

@@ -16,7 +16,7 @@ Ibland kan du behöva presentera dina kalkylblad som en bildrepresentation. Du m
 
 Du kan prova Office Automation men Office Automation har sina egna nackdelar. Det finns flera orsaker och problem inblandade: till exempel säkerhet, stabilitet, skalbarhet och hastighet, pris och funktioner. Kort sagt, det finns många anledningar, med den främsta är att Microsoft själva starkt rekommenderar Office-automation från mjukvarulösningar.
 
-Den här artikeln visar hur du skapar en konsolapplikation i Visual Studio .NET, utför konverteringen av ett kalkylblad till bild med hjälp av olika bild- och utskriftsalternativ med några få och enklaste rader kod med Aspose.Cells API.
+Den här artikeln visar hur du skapar en konsolapplikation i Visual Studio .NET, utför konverteringen av ett kalkylblad till bild med olika bild- och utskriftsalternativ med några få och enklaste rader kod med Aspose.Cells API.
 
  Du måste importera[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)namnutrymme till ditt program/projekt. Den har flera värdefulla klasser, t.ex.[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)etc.
 
@@ -34,11 +34,11 @@ Jag skapade en ny arbetsbok i MS Excel och lade till lite data i det första kal
 
 ### **Skapa ett projekt**
 
-Starta Visual Studio. Nät och skapa en ny konsolapplikation. Det här exemplet visar en C#-konsolapplikation, men du kan också använda VB.NET.
+Starta Visual Studio. Nät och skapa en ny konsolapplikation. Det här exemplet visar en C# konsolapplikation, men du kan också använda VB.NET.
 
 ### **Lägg till referenser**
 
-Detta projekt kommer att använda Aspose.Cells. Så du måste lägga till referens till komponenten Aspose.Cells i ditt projekt. Lägg till exempel till en referens till ….\Program Files\Aspose\Aspose.Cells för .NET\Bin\Net1.0\Aspose.Cells.dll
+Detta projekt kommer att använda Aspose.Cells. Så du måste lägga till referens till komponenten Aspose.Cells i ditt projekt. Lägg till exempel till en referens till ….\Program Files\Aspose\Aspose.Cells for .NET\Bin\Net1.0\Aspose.Cells.dll
 
 ### **Konvertera arbetsblad till en bildfil**
 

@@ -55,7 +55,7 @@ url: /zh/java/aspose-cells-for-java-8-4-0-release-notes/
 
 其他改进和变化
 
-(CELLSJAVA-41202) - 在 GridWeb 组件中显示 Cell 注释
+(CELLSJAVA-41202) - 在 GridWeb 组件中显示 Cell 评论
 
 虫子
 

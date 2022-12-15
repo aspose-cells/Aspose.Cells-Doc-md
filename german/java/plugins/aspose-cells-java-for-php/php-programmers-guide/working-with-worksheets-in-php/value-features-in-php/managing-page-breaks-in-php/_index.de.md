@@ -6,7 +6,7 @@ url: /de/java/managing-page-breaks-in-php/
 ---
 ## **Aspose.Cells – Verwalten von Seitenumbrüchen**
 ### **Seitenumbrüche hinzufügen**
- So fügen Sie Seitenumbrüche hinzu mit**Aspose.Cells Java für PHP** , Anruf**add_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+ So fügen Sie Seitenumbrüche hinzu mit**Aspose.Cells Java for PHP** , Anruf**add_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
 
 **PHP-Code**
 
@@ -30,7 +30,7 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **Löschen aller Seitenumbrüche**
- Um alle Seitenumbrüche zu löschen, verwenden Sie**Aspose.Cells Java für PHP** , Anruf**clear_all_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+ Um alle Seitenumbrüche zu löschen, verwenden Sie**Aspose.Cells Java for PHP** , Anruf**clear_all_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
 
 **PHP-Code**
 
@@ -46,7 +46,7 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
 ### **Entfernen eines bestimmten Seitenumbruchs**
- So entfernen Sie einen bestimmten Seitenumbruch mit**Aspose.Cells Java für PHP** , Anruf**remove_page_break** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+ So entfernen Sie einen bestimmten Seitenumbruch mit**Aspose.Cells Java for PHP** , Anruf**remove_page_break** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
 
 **PHP-Code**
 

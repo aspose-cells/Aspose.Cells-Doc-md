@@ -27,7 +27,7 @@ A continuación se muestra el proceso que Aspose.Cells sigue detrás de escena.
 
 ### **Donde Aspose.Cells busca fuentes**
 
-Aspose.Cells intenta encontrar fuentes TrueType en el sistema de archivos automáticamente. La mayoría de las veces puede confiar en el comportamiento predeterminado de Aspose.Cell para encontrar fuentes TrueType, pero a veces puede necesitar especificar carpetas que contengan las fuentes TrueType usando el método de fábrica FontConfigs.setFontFolder.
+Aspose.Cells intenta encontrar fuentes TrueType en el sistema de archivos automáticamente. La mayoría de las veces puede confiar en el comportamiento predeterminado de Aspose.Cell para encontrar fuentes TrueType, pero a veces puede necesitar especificar carpetas que contengan las fuentes TrueType utilizando el método de fábrica FontConfigs.setFontFolder.
 
 ### **Problemas típicos relacionados con fuentes y soluciones**
 

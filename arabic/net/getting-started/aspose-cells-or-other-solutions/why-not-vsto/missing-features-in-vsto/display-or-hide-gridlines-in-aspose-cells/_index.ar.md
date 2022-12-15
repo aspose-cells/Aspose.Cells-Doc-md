@@ -24,7 +24,7 @@ url: /ar/net/display-or-hide-gridlines-in-aspose-cells/
 
 ![ما يجب القيام به: image_بديل_نص](display-or-hide-gridlines-in-aspose-cells_1.png)
 
-يتم فتح الملف Book1.xls باستخدام فئة المصنف وتكون خطوط الشبكة في ورقة العمل الأولى مخفية. يتم حفظ الملف المعدل باسم output.xls.
+يتم فتح الملف Book1.xls باستخدام فئة المصنف وتكون خطوط الشبكة في ورقة العمل الأولى مخفية. يتم حفظ الملف المعدل كملف output.xls.
 
 **Output.xls: ورقة عمل بعد التعديل** 
 
@@ -62,7 +62,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Gridlines)
 

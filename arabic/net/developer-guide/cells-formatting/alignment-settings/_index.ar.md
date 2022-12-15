@@ -85,7 +85,7 @@ url: /ar/net/cells-alignment-settings/
 
 ##### **تقلص لتناسب**
 
- يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) الملكية ل**حقيقي**.
+ يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) الملكية ل**حقيقي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 

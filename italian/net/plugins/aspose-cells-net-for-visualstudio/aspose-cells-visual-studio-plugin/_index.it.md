@@ -6,25 +6,25 @@ url: /it/net/aspose-cells-visual-studio-plugin/
 ---
 ## **introduzione**
 
-Microsoft Visual Studio è un ambiente di sviluppo integrato (IDE) di Microsoft. Viene utilizzato per sviluppare programmi per computer per Microsoft Windows, nonché siti web, applicazioni web e servizi web. Visual Studio utilizza piattaforme di sviluppo software Microsoft come Windows API, Windows Forms, Windows Presentation Foundation, Windows Store e Microsoft Silverlight. Può produrre sia codice nativo che codice gestito.
+Microsoft Visual Studio è un ambiente di sviluppo integrato (IDE) di Microsoft. Viene utilizzato per sviluppare programmi per computer per Microsoft Windows, nonché siti Web, applicazioni Web e servizi Web. Visual Studio utilizza piattaforme di sviluppo software Microsoft come Windows API, Windows Forms, Windows Presentation Foundation, Windows Store e Microsoft Silverlight. Può produrre sia codice nativo che codice gestito.
 
 ### **Aspose.Cells for .NET**
 
-Aspose.Cells for .NET fornisce il gruppo più flessibile di componenti che consentono alle applicazioni .NET di creare, modificare, convertire, visualizzare e stampare fogli di calcolo Excel® senza richiedere l'installazione di Microsoft Excel® sul server.
+Aspose.Cells for .NET fornisce il gruppo di componenti più flessibile che consente alle applicazioni .NET di creare, modificare, convertire, visualizzare e stampare fogli di calcolo Excel® senza richiedere l'installazione di Microsoft Excel® sul server.
 
 Aspose.Cells for .NET supporta tutti i principali Microsoft Excel e altri formati di file inclusi XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, delimitato da tabulazioni, SpreadsheetML e PDF, ecc.
  Per maggiori dettagli su[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **Esplora Aspose.Cells for .NET Esempi utilizzando Visual Studio**
 
- Aspose Plug-in di Visual Studio -**Esplora Aspose.Cells for .NET Esempi** è un ottimo strumento per scaricare ed esplorare rapidamente Aspose.Cells for .NET API esempi. Risparmia molto tempo e sforzi fornendo un'opzione molto semplice per selezionare, scaricare e aprire senza problemi gli ultimi progetti di esempio senza dover uscire da Visual Studio.
+ Aspose Plug-in di Visual Studio -**Esplora Aspose.Cells for .NET Esempi**è un ottimo strumento per scaricare ed esplorare rapidamente esempi di API Aspose.Cells for .NET. Risparmia molto tempo e sforzi fornendo un'opzione molto semplice per selezionare, scaricare e aprire senza problemi gli ultimi progetti di esempio senza dover uscire da Visual Studio.
 
 Questa versione offre le seguenti funzionalità:
 
 - Supporta Visual Studio 2010 e Visual Studio 2012 e Visual Studio 2013.
 -  Facile da avviare**File > Aspose** menu in Visual Studio
 - Risparmia tempo e riduce la curva di apprendimento.
-- Consente di selezionare e aprire gli ultimi esempi Aspose.Cells for .NET API ospitati su Github.com.
+- Consente di selezionare e aprire gli ultimi esempi di API Aspose.Cells for .NET ospitati su Github.com.
 -  Permettiti di aprire**C#** o**VB.NET** esempi di progetto
 - Un progetto selezionato viene aperto automaticamente in Visual Studio con tutti i riferimenti richiesti impostati per offrirti un ambiente pronto per l'esecuzione e l'esplorazione.
 -  Scarica automaticamente le ultime librerie API da**NuGet** ed esempi da**Git Hub**.
@@ -65,17 +65,17 @@ Una volta installato, puoi facilmente avviare e utilizzare il plug-in interattiv
 
 ![cose da fare:immagine_alt_testo](aspose-cells-visual-studio-plugin_3)
 
-**2.**La prima volta che si apre il plug-in viene visualizzata la finestra di dialogo di selezione API come mostrato di seguito. Ci vorranno pochi minuti per scaricare l'ultimo API e le loro librerie da**NuGet** e gli ultimi esempi di codice sorgente da**Git Hub**.
+**2.**La prima volta che si apre il plug-in viene visualizzata la finestra di dialogo di selezione dell'API come mostrato di seguito. Ci vorranno pochi minuti per scaricare l'API più recente e le relative librerie**NuGet** e gli ultimi esempi di codice sorgente da**Git Hub**.
 
 ![cose da fare:immagine_alt_testo](aspose-cells-visual-studio-plugin_4)
 
-**3.** Nella finestra di dialogo Seleziona un API per visualizzare gli esempi, seleziona o modifica la posizione in cui verranno creati i progetti di esempio e seleziona o modifica anche il tipo di progetto di esempio come**C#** o**VB.NET** e clicca**Continua** per aprire il progetto di esempio in Visual Studio.
+**3.** Nella finestra di dialogo Seleziona un'API per visualizzare gli esempi, seleziona o modifica la posizione in cui verranno creati i progetti di esempio e seleziona o modifica anche il tipo di progetto di esempio come**C#** o**VB.NET** e clicca**Continua** per aprire il progetto di esempio in Visual Studio.
 
 ![cose da fare:immagine_alt_testo](aspose-cells-visual-studio-plugin_1)
 
 **4.** Nuovi esempi di progetti in base alla selezione del tipo di progetto di**C#** o**VB.NET** in Visual Studio.
 
-|**C# Esempi** |**VB.NET Esempi** |
+|**Esempi C#** |**Esempi di VB.NET** |
 |:- |:- |
 |![cose da fare:immagine_alt_testo](aspose-cells-visual-studio-plugin_6)|![cose da fare:immagine_alt_testo](aspose-cells-visual-studio-plugin_7)|
 

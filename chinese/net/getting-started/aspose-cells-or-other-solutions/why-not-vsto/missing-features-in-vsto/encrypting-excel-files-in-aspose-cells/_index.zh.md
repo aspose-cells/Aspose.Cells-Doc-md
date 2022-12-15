@@ -20,7 +20,7 @@ Aspose.Cells 允许您使用所需的加密类型加密和密码保护 Microsoft
 1. 输入密码并点击**先进的** 
    **选项对话框** 
 
-![待办事项：图片_替代_文本](encrypting-excel-files-in-aspose-cells_1.png)
+![待办事项：图像_替代_文本](encrypting-excel-files-in-aspose-cells_1.png)
 
 
 
@@ -29,7 +29,7 @@ Aspose.Cells 允许您使用所需的加密类型加密和密码保护 Microsoft
 
    **加密类型对话框** 
 
-![待办事项：图片_替代_文本](encrypting-excel-files-in-aspose-cells_2.png)
+![待办事项：图像_替代_文本](encrypting-excel-files-in-aspose-cells_2.png)
 
 
 

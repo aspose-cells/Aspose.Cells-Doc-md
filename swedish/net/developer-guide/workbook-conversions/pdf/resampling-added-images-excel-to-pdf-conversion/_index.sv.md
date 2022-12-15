@@ -10,7 +10,7 @@ När du arbetar med stora Microsoft Excel-filer med många bilder kan du behöva
 
 {{% /alert %}}
 
-Se följande exempelkod som beskriver hur du utför uppgiften med Aspose.Cells API. Exemplet konverterar en Microsoft Excel-fil till en PDF-fil samtidigt som bilderna i filen komprimeras.
+Se följande exempelkod som beskriver hur du utför uppgiften med hjälp av Aspose.Cells API. Exemplet konverterar en Microsoft Excel-fil till en PDF-fil samtidigt som bilderna i filen komprimeras.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ResamplingAddedImages-1.cs" >}}
 

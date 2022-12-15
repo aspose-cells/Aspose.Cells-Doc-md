@@ -23,7 +23,7 @@ Microsoft Excel'in ilgi çekici özelliklerinden biri, verileri formüller ve i�
 
 ## **Yerleşik İşlevleri Kullanma**
 
- Yerleşik işlevler veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sağlanır. Görmek[yerleşik işlevlerin bir listesi](/cells/tr/net/supported-formula-functions/) Aspose.Cells tarafından desteklenmektedir. Fonksiyonlar alfabetik sırayla listelenmiştir. Gelecekte daha fazla işlev desteklenecektir.
+ Yerleşik işlevler veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sunulur. Görmek[yerleşik işlevlerin bir listesi](/cells/tr/net/supported-formula-functions/) Aspose.Cells tarafından desteklenmektedir. Fonksiyonlar alfabetik sırayla listelenmiştir. Gelecekte daha fazla işlev desteklenecektir.
 
  Aspose.Cells, Microsoft Excel tarafından sunulan formüllerin veya işlevlerin çoğunu destekler. Geliştiriciler bu formülleri API veya[tasarımcı elektronik tablosu](/cells/tr/net/what-is-a-designer-spreadsheet/). Aspose.Cells, çok sayıda matematiksel, dizi, Boolean, tarih/saat, istatistik, veritabanı, arama ve referans formüllerini destekler.
 

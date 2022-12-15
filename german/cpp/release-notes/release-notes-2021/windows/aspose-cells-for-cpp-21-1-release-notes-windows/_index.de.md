@@ -6,12 +6,12 @@ url: /de/cpp/aspose-cells-for-cpp-21-1-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für C++ 21.1 für Windows.
+Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 21.1 für Windows.
 
 {{% /alert %}}
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSCPP-269| Problem beim Laden der Lizenz behoben|Insekt|
-|CELLSCPP-270| Problem beim Konvertieren in PDF behoben|Insekt|
+|CELLSCPP-270|Problem beim Konvertieren in PDF behoben|Insekt|
 |CELLSCPP-271|Unterstützt die SetDPI-Funktion|Neue Funktion|

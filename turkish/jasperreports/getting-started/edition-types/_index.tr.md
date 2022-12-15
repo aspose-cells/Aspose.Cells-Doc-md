@@ -6,6 +6,6 @@ url: /tr/jasperreports/edition-types/
 ---
 {{% alert color="primary" %}} 
 
-JasperReports için Aspose.Cells yalnızca bir sürüm türü sunar: Enterprise sürümü.
+Aspose.Cells for JasperReports yalnızca bir sürüm türü sunar: Enterprise sürümü.
 
 {{% /alert %}}

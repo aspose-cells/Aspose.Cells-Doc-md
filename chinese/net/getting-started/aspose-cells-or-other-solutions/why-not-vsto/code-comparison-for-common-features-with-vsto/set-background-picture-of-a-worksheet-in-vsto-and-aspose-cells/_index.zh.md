@@ -14,7 +14,7 @@ url: /zh/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
 
 本文中的代码示例创建了一个具有重复背景图像的工作表，如下面的屏幕截图所示。
 
-![待办事项：图片_替代_文本](picture1.png)
+![待办事项：图像_替代_文本](picture1.png)
 
 已为工作表设置背景。
 
@@ -93,5 +93,5 @@ workbook.Save("BackgroundPicBook.xls");
 ## **下载示例代码**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/下载)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/下载）
 - [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\)。压缩）

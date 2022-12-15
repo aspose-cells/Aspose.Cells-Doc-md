@@ -13,7 +13,7 @@ En Excel-fil kan ha olika typer av hyperlänkar som externa, cellreferens, fils�
 - [**E-POST**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-post
 - [**CELL_REFERENS**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Länk till cell eller namngivet område.
 
-För att kontrollera typen av hyperlänk,[**Hyperlänk**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) klass ger en[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) fastighet med en returtyp av[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Följande kodavsnitt visar användningen av[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)egendom genom att använda denna[source excel-fil](LinkTypes.xlsx).
+För att kontrollera typen av hyperlänk,[**Hyperlänk**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) klass ger en[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) fastighet med en returtyp av[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Följande kodavsnitt visar användningen av[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)egendom genom att använda denna[källkod excel-fil](LinkTypes.xlsx).
 
 ## Källkod
 

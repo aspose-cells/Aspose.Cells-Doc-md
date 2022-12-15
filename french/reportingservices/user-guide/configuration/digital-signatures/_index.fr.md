@@ -4,9 +4,9 @@ type: docs
 weight: 50
 url: /fr/reportingservices/digital-signatures/
 ---
- Aspose.Cells pour Reporting Services prend en charge les signatures numériques lors de l'exportation de fichiers Microsoft Excel 2007 ou de fichiers ODS. Nous avons des informations de configuration pour les signatures numériques qui peuvent être définies dans le**Aspose.Cells.ReportingServices.xml** dossier.
+ Aspose.Cells for Reporting Services prend en charge les signatures numériques lors de l'exportation de fichiers Microsoft Excel 2007 ou de fichiers ODS. Nous avons des informations de configuration pour les signatures numériques qui peuvent être définies dans le**Aspose.Cells.ReportingServices.xml** dossier.
 
- Lorsque la valeur de DigitalSignature est**à l'arrêt**, Aspose.Cells pour Reporting Services désactive les signatures numériques.
+ Lorsque la valeur de DigitalSignature est**à l'arrêt**, Aspose.Cells for Reporting Services désactive les signatures numériques.
 
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ url: /fr/reportingservices/digital-signatures/
 
 {{< /highlight >}}
 
- Lorsque la valeur de DigitalSignature est**sur**, Aspose.Cells pour Reporting Services active les signatures numériques.
+ Lorsque la valeur de DigitalSignature est**sur**, Aspose.Cells for Reporting Services active les signatures numériques.
 
 {{< highlight "java" >}}
 

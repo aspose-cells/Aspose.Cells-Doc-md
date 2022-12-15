@@ -19,7 +19,7 @@ url: /sv/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
 ### **Steg 2: Lägg till kontroller i verktygslådan**
 1.  Klicka på**Verktygslåda**
 1.  Välja**Gemensamma kontroller**, högerklicka och välj "**Välj objekt...**" från snabbmenyn.
-1.  I den**.NET Framework-komponenter** fliken i**Välj Verktygslåda** fönster, bläddra och välj**GridDesktop** och**FormulaBar** komponenter.
+1.  I den**.NET Ramkomponenter** fliken i**Välj Verktygslåda** fönster, bläddra och välj**GridDesktop** och**FormulaBar** komponenter.
 
 ![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
 ### **Steg 3: Lägg till kontroller i formuläret**

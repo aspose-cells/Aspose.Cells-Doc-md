@@ -35,7 +35,7 @@ Este artículo muestra cómo crear una aplicación de consola en Visual Studio.N
 
 ### **Proceso**
 
-A continuación se muestran los pasos necesarios para crear una hoja de cálculo y formatear diferentes celdas en diferentes filas y columnas de una hoja de trabajo.
+A continuación se muestran los pasos necesarios para crear una hoja de cálculo y formatear diferentes celdas en diferentes filas y columnas de una hoja de cálculo.
 
 1. Descargar e instalar Aspose.Cells:
    1. [Descargar](https://downloads.aspose.com/cells/net) Aspose.Cells for .NET.

@@ -30,12 +30,12 @@ Aspose.Cells consente all'utente di mostrare e nascondere elementi di una cartel
 
 ## **Mostra e nascondi le schede**
 
-Se osservi attentamente la parte inferiore di un file Excel Microsoft, vedrai una serie di controlli. Questi includono:
+Se osservi attentamente la parte inferiore di un file Microsoft Excel, vedrai una serie di controlli. Questi includono:
 
 - Schede dei fogli.
 - Pulsanti di scorrimento delle schede.
 
-Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Quindi, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
+Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Pertanto, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
 
 Utilizzando Aspose.Cells, gli sviluppatori possono controllare la visibilità delle schede dei fogli e dei pulsanti di scorrimento delle schede nei file Excel.
 

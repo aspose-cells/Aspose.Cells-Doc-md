@@ -6,7 +6,7 @@ url: /sv/net/managing-cell-controls-in-columns/
 ---
 {{% alert color="primary" %}} 
 
-Det här ämnet diskuterar några viktiga begrepp om att hantera cellkontroller i kolumner med Aspose.Cells.GridDesktop API. Vi kommer att förklara hur utvecklare kan komma åt, ändra och ta bort cellkontroller från kolumnerna i deras kalkylblad. Låt oss ta en titt på det.
+Det här ämnet diskuterar några viktiga koncept för att hantera cellkontroller i kolumner med Aspose.Cells.GridDesktop API. Vi kommer att förklara hur utvecklare kan komma åt, ändra och ta bort cellkontroller från kolumnerna i deras kalkylblad. Låt oss ta en titt på det.
 
 {{% /alert %}} 
 ## **Åtkomst till Cell kontroller**

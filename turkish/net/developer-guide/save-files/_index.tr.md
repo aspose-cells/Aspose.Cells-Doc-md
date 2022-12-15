@@ -13,7 +13,7 @@ Aspose.Cells, dosya oluşturmayı ve kaydetmeyi mümkün kılar. Bu makalede, do
 
 ## **Dosyaları Kaydetmenin Farklı Yolları**
 
- Aspose.Cells şunları sağlar:**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Microsoft Excel dosyasını temsil eder ve Excel dosyalarıyla çalışmak için gerekli özellikleri ve yöntemleri sağlar. bu**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)**sınıf sağlar**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Excel dosyalarını kaydetmek için kullanılan yöntem. bu**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**yöntem, dosyaları farklı şekillerde kaydetmek için kullanılan birçok aşırı yüklemeye sahiptir.
+ Aspose.Cells şunları sağlar:**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Microsoft Excel dosyasını temsil eder ve Excel dosyalarıyla çalışmak için gerekli özellikleri ve yöntemleri sağlar. bu**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** sınıf sağlar**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** Excel dosyalarını kaydetmek için kullanılan yöntem. bu**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**yöntem, dosyaları farklı şekillerde kaydetmek için kullanılan birçok aşırı yüklemeye sahiptir.
 
  Dosyanın kaydedileceği dosya biçimi, kullanıcı tarafından belirlenir.**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**numaralandırma
 
@@ -38,7 +38,7 @@ Aspose.Cells, dosya oluşturmayı ve kaydetmeyi mümkün kılar. Bu makalede, do
 
 ## **Dosyayı Farklı Biçimlerde Kaydetme**
 
- Dosyaları bir depolama konumuna kaydetmek için, dosya adını (depolama yolu ile birlikte) ve istenen dosya biçimini (ilk dosyadan) belirtin.**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** numaralandırma) çağrılırken**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** nesnenin**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**yöntem.
+ Dosyaları bir depolama konumuna kaydetmek için, dosya adını (depolama yolu ile birlikte) ve istenen dosya biçimini (ilk dosyadan) belirtin.**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**numaralandırma) çağrılırken**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** nesnenin**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**yöntem.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 

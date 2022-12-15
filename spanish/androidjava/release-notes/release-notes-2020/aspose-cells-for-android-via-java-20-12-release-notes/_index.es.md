@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 20.12 Notas de la versión
+title: Aspose.Cells for Android via Java 20.12 Notas de la versión
 type: docs
 weight: 8
 url: /es/java/aspose-cells-for-android-via-java-20-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 20.12.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 20.12.
 
 {{% /alert %}}
 
@@ -61,11 +61,11 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-43296|ArrayIndexOutOfBoundsException al actualizar la tabla dinámica|Excepción|
 |CELLSJAVA-43298|Aspose.Cells 20.8: Excepción al guardar en PDF.|Excepción|
 |CELLSJAVA-43348|Conversión de XLSB a PDF: CellsException: -2147483648|
-|CELLSJAVA-43343| Excepción al exportar un archivo a PDF que no tiene un elemento seleccionado para una forma|
+|CELLSJAVA-43343|Excepción al exportar un archivo a PDF que no tiene un elemento seleccionado para una forma|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
 ### **Agrega ExceptionType.Permission enumeración**
 

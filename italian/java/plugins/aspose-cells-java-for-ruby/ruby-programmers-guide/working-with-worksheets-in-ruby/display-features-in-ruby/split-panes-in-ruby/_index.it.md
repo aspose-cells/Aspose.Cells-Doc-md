@@ -5,7 +5,7 @@ weight: 80
 url: /it/java/split-panes-in-ruby/
 ---
 ## **Aspose.Cells - Riquadri divisi**
- Per dividere i riquadri utilizzando**Aspose.Cells Java per Rubino** , semplicemente invocare**SplitPanes** modulo.
+ Per dividere i riquadri utilizzando**Aspose.Cells Java per Ruby** , semplicemente invocare**SplitPanes** modulo.
 
 **Codice Rubino**
 

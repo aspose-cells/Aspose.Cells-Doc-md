@@ -42,9 +42,9 @@ url: /it/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50390| System.ArgumentException: il numero di riga o il numero di colonna non può essere zero durante l'importazione di dati JSON come tabella|
 |CELLSNET-50555| ArgumentOutOfRangeException durante il tentativo di ottenere la formula di una cella|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Modifica il valore predefinito di HtmlSaveOptions.ExcludeUnusedStyles.**
 

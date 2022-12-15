@@ -53,7 +53,7 @@ url: /ru/net/aspose-cells-for-net-22-8-release-notes/
 
 ### **Добавьте базовый класс PaginatedSaveOptions для PdfSaveOptions и XpsSaveOptions.**
 
-Представляет параметры разбиения на страницы.
+Представляет параметры разбивки на страницы.
 
 ### **Добавьте класс SheetSet.**
 

@@ -34,7 +34,7 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
 
 ### **Enum CellValueFormatStrategy.DisplayString ekler.**
 
-Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücre değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
+Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücrenin değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
 
 ### **WorksheetCollection.ActiveSheetName özelliğini ekler.**
 

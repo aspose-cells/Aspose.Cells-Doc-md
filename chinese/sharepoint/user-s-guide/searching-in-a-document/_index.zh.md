@@ -15,7 +15,7 @@ url: /zh/sharepoint/searching-in-a-document/
 
 **搜索文件** 
 
-![待办事项：图片_替代_文本](searching-in-a-document_1.png)
+![待办事项：图像_替代_文本](searching-in-a-document_1.png)
 
 以下选项可用：
 

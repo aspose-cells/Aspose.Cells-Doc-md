@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 20.7 Release Notes
+title: Aspose.Cells for Java 20.7 Release Notes
 type: docs
 weight: 9
 url: /sv/java/aspose-cells-for-java-20-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 20.7](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.7/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 20.7](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.7/).
 
 {{% /alert %}}
 
@@ -36,9 +36,9 @@ url: /sv/java/aspose-cells-for-java-20-7-release-notes/
 |CELLSJAVA-43238|Beräkningen misslyckas med NPE (java.lang.NullPointerException)|Undantag|
 |CELLSJAVA-43199|Undantag "java.lang.NegativeArraySizeException" för att spara till HTML|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till metoden Cells.RemoveDuplicates().**
 

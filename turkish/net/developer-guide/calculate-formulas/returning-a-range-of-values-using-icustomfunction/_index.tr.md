@@ -22,7 +22,7 @@ url: /tr/net/returning-a-range-of-values-using-icustomfunction/
 
  Aşağıdaki kod uygular[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)ve yöntemi aracılığıyla değer aralığını döndürür.
 
-Bir işleve sahip bir sınıf oluşturun*CalculateCustomFunction*. Bu sınıf uygular[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+ Bir işleve sahip bir sınıf oluşturun*CalculateCustomFunction*. Bu sınıf uygular[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 

@@ -5,7 +5,7 @@ weight: 70
 url: /tr/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - Bölmeli Bölmeler**
- Kullanarak Bölmeleri Bölmek için**Aspose.Cells Java için Python** , sadece çağırmak**Bölünmüş Paneller** modül.
+ Kullanarak Bölmeleri Bölmek için**Aspose.Cells Java for Python** , sadece çağırmak**Bölünmüş Paneller** modül.
 
 **Python Kod**
 

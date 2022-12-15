@@ -1,5 +1,5 @@
 ﻿---
-title: Installation de Aspose.Cells pour la licence SharePoint
+title: Installation de la licence Aspose.Cells for SharePoint
 type: docs
 weight: 10
 url: /fr/sharepoint/installing-aspose-cells-for-sharepoint-license/
@@ -16,8 +16,8 @@ La licence vous est envoyée par e-mail lorsque la commande a été payée. La l
 
 La licence ZIP contient :
 
-- **Aspose.Cells.SharePoint.License.wsp** – Fichier de package de solution SharePoint. La licence Aspose.Cells pour SharePoint est conditionnée en tant que solution SharePoint pour faciliter le déploiement et la rétraction dans la batterie de serveurs.
-- **lisezmoi.txt** – Instructions d'installation de la licence. L'installation de la licence s'effectue depuis la console du serveur via le**stsadm.exe**. Les étapes requises pour installer la licence sont indiquées ci-dessous.
+- **Aspose.Cells.SharePoint.License.wsp** – Fichier de package de solution SharePoint. La licence Aspose.Cells for SharePoint est conditionnée en tant que solution SharePoint pour faciliter le déploiement et la rétraction dans la batterie de serveurs.
+- **lisezmoi.txt**– Instructions d'installation de la licence. L'installation de la licence s'effectue depuis la console du serveur via le**stsadm.exe**. Les étapes requises pour installer la licence sont indiquées ci-dessous.
 
 #### **Installation de la licence**
 
@@ -30,12 +30,12 @@ La licence ZIP contient :
 1. Exécutez stsadm pour ajouter la solution au magasin de solutions SharePoint :
  stsadm.exe -o addsolution -filename Aspose.Cells.SharePoint.License.wsp
 1. Déployez la solution sur tous les serveurs de la ferme :
-stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force
+ stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force
 1. Exécutez les travaux du minuteur d'administration pour terminer le déploiement immédiatement :
  stsadm.exe -o execadmsvcjobs
 
 {{% alert color="primary" %}}
 
- Vous recevrez un avertissement lors de l'exécution de l'étape de déploiement si le service d'administration des services SharePoint Windows n'a pas été démarré.**Stsadm.exe** s'appuie sur ce service et sur le service du minuteur SharePoint Windows pour répliquer les données de la solution dans la batterie de serveurs. Si ces services ne s'exécutent pas sur votre batterie de serveurs, vous devrez peut-être déployer la licence séparément sur chaque serveur.
+ Vous recevrez un avertissement lors de l'exécution de l'étape de déploiement si le service d'administration des services SharePoint Windows n'a pas été démarré.**Stsadm.exe**s'appuie sur ce service et sur le service du minuteur SharePoint Windows pour répliquer les données de la solution dans la batterie de serveurs. Si ces services ne s'exécutent pas sur votre batterie de serveurs, vous devrez peut-être déployer la licence séparément sur chaque serveur.
 
 {{% /alert %}}

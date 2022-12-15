@@ -21,7 +21,7 @@ Aspose.Cells API 提供了以图像格式呈现电子表格以及将其转换为
 
 {{% alert color="primary" %}}
 
- Aspose.Cells API 始终扫描操作系统的默认字体目录，但有一个例外，即；当 JVM 参数**-DAspose.Cells.FontDirExc="你的字体目录"**被设置。在这种情况下，Aspose.Cells API 将跳过扫描操作系统的默认字体目录，只搜索上述 JVM 参数中指定的路径。
+ Aspose.Cells API 始终扫描操作系统的默认字体目录，但有一个例外，即：当 JVM 参数**-DAspose.Cells.FontDirExc="你的字体目录"**被设置。在这种情况下，Aspose.Cells API 将跳过扫描操作系统的默认字体目录，只搜索上述 JVM 参数中指定的路径。
 
 {{% /alert %}}
 

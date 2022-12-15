@@ -6,7 +6,7 @@ url: /sv/net/create-access-and-copy-named-ranges/
 ---
 ## **Introduktion**
 
- Normalt används kolumn- och radetiketter som refererar till enskilda celler. Det är möjligt att skapa beskrivande namn för att representera celler, cellintervall, formler eller konstanta värden. Ordet**namn**kan hänvisa till en teckensträng som representerar en cell, cellintervall, formel eller konstant värde. Att tilldela ett namn till ett område innebär att det cellområdet kan refereras till med dess namn. Använd lättförståeliga namn, som Produkter, för att referera till svårförståeliga intervall, som Sales!C20:C30. Etiketter kan användas i formler som refererar till data på samma kalkylblad; om du vill representera ett intervall på ett annat kalkylblad kan du använda ett namn. *Namngivna intervall är bland de mest kraftfulla funktionerna i Microsoft Excel, särskilt när de används som källintervall för listkontroller, pivottabeller, diagram och så vidare.
+Normalt används kolumn- och radetiketter som refererar till enskilda celler. Det är möjligt att skapa beskrivande namn för att representera celler, cellintervall, formler eller konstanta värden. Ordet**namn** kan hänvisa till en teckensträng som representerar en cell, cellintervall, formel eller konstant värde. Att tilldela ett namn till ett område innebär att det cellområdet kan refereras till med dess namn. Använd lättförståeliga namn, som Produkter, för att referera till svårförståeliga intervall, som Sales!C20:C30. Etiketter kan användas i formler som refererar till data på samma kalkylblad; om du vill representera ett intervall på ett annat kalkylblad kan du använda ett namn. *Namngivna intervall är bland de mest kraftfulla funktionerna i Microsoft Excel, särskilt när de används som källintervall för listkontroller, pivottabeller, diagram och så vidare.
 
 ## **Arbeta med namngivna intervall med Microsoft Excel**
 
@@ -32,7 +32,7 @@ Här använder vi Aspose.Cells API för att göra uppgiften.
 
 ### **Skapa namngivna intervall**
 
- Det är möjligt att skapa ett namngivet intervall genom att anropa den överbelastade[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) metod för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling. En typisk version av[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) metoden tar följande parametrar:
+ Det är möjligt att skapa ett namngivet intervall genom att anropa den överbelastade[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) metod för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. En typisk version av[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) metoden tar följande parametrar:
 
 - Namn på den övre vänstra cellen, namnet på den övre vänstra cellen i intervallet.
 - Namnet på den nedre högra cellen, namnet på den nedre högra cellen i intervallet.

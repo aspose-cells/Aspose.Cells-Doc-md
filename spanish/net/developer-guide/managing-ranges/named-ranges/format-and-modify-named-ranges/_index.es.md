@@ -56,6 +56,6 @@ El siguiente ejemplo muestra cómo establecer bordes alrededor de cada celda en 
 
 ## **Eliminar un rango con nombre**
 
- Aspose.Cells proporciona el[**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) método para borrar el nombre del rango. Para borrar el contenido del rango, utilice[**Cells.ClearRango()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)método. El siguiente ejemplo muestra cómo eliminar un rango con nombre con su contenido.
+ Aspose.Cells proporciona el[**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) método para borrar el nombre del rango. Para borrar el contenido del rango, use[**Cells.ClearRango()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)método. El siguiente ejemplo muestra cómo eliminar un rango con nombre con su contenido.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}

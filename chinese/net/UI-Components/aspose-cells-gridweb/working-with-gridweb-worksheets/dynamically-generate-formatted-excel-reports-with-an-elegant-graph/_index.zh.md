@@ -36,13 +36,13 @@ Aspose.Cells 网格控件是一个完整的网格解决方案。 Aspose.Cells �
 
 因此，自定义命令按钮已添加，您可能会在以下屏幕截图中看到它（用红色圈出）。
 
-|![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
+|![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
 |:- |
 
 
 最后，我为标签和命令按钮设置了一些字体属性（粗体）。我还调整控件的大小以获得最终外观。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
 ## **从 XML 文件中检索数据**
 以下是项目中使用的 XML 文件结构。
 ### **XML文件结构**
@@ -534,52 +534,52 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 ## **运行应用程序**
 现在，我运行该应用程序。下拉列表中充满了不同的类别。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
 我选择要显示销售报告的类别，然后单击“显示报告”按钮。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
 因此，报告显示在**网格网**基于所选类别。该报告默认根据代码（较早编写）进行格式化。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
 如果你想以所见即所得的方式将数据格式化到某些单元格中，你可以很容易地做到这一点。**Aspose.Cells.GridWeb**提供**格式 Cells**编辑器，选择您想要的单元格并右键单击它，单击“格式 Cell ...”选项。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
 显示格式 Cell 对话框。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
 我指定了一些字体属性并单击确定。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
 并得到结果。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
 除了单元格格式之外，您还可以编辑单元格值。双击所需的单元格并编辑值。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
 为了提交编辑结果并重新计算所有公式，我单击相关按钮（红色圈出）更新报告。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
 现在我将创建图表并将其粘贴到控件中。我单击自定义命令按钮（用红色圈出）以根据数据范围创建饼图。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
 最后，我会将这个带有图表的数据报告导出到 MS Excel。我点击**节省**按钮（用红色包围）。点击**节省**按钮将显示**文件下载**对话，你可以**打开**将生成的报告（输出带图表的 excel 文件）导入 MS Excel 或将其保存到磁盘。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
 当我单击“打开”按钮（“文件下载”对话框）时，带有图表的 Excel 报告将导出到 MS Excel。显示报告的上半部分。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
 显示 excel 报告的下半部分。
 
-![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)
+![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

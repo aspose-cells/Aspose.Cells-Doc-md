@@ -16,6 +16,6 @@ url: /zh/net/data-in-non-primitive-shape/
 
 |**显示非原始形状的示例**|
 |:- |
-|![待办事项：图片_替代_文本](data-in-non-primitive-shape_1.jpg)|
+|![待办事项：图像_替代_文本](data-in-non-primitive-shape_1.jpg)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-AccessNonPrimitiveShape-1.cs" >}}

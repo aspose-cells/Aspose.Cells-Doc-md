@@ -1,5 +1,5 @@
 ﻿---
-title: SharePoint Lisansı için Aspose.Cells Kurulumu
+title: Aspose.Cells for SharePoint Lisans Kurulumu
 type: docs
 weight: 10
 url: /tr/sharepoint/installing-aspose-cells-for-sharepoint-license/
@@ -17,7 +17,7 @@ Siparişin ödemesi yapıldığında lisans size e-posta ile gönderilir. Lisans
 ZIP lisansı şunları içerir:
 
 - **Aspose.Cells.SharePoint.License.wsp** – SharePoint çözüm paketi dosyası. Aspose.Cells for SharePoint lisansı, sunucu grubu genelinde dağıtımı ve geri çekmeyi kolaylaştırmak için bir SharePoint çözümü olarak paketlenmiştir.
-- **beni oku.txt** – Lisans kurulum talimatları. Lisans kurulumu, sunucu konsolu üzerinden gerçekleştirilir.**stsadm.exe**. Lisans kurulumu için gerekli adımlar aşağıda verilmiştir.
+- **beni oku.txt**– Lisans kurulum talimatları. Lisans kurulumu, sunucu konsolu üzerinden gerçekleştirilir.**stsadm.exe**. Lisans kurulumu için gerekli adımlar aşağıda verilmiştir.
 
 #### **Lisansı Yükleme**
 
@@ -30,12 +30,12 @@ ZIP lisansı şunları içerir:
 1. Çözümü SharePoint çözüm deposuna eklemek için stsadm'yi çalıştırın:
  stsadm.exe -o addsolution -dosya adı Aspose.Cells.SharePoint.License.wsp
 1. Çözümü gruptaki tüm sunuculara dağıtın:
-stsadm.exe -o dağıtma çözümü -adı Aspose.Cells.SharePoint.License.wsp -immediate -force
+ stsadm.exe -o dağıtma çözümü -adı Aspose.Cells.SharePoint.License.wsp -immediate -force
 1. Dağıtımı hemen tamamlamak için idari zamanlayıcı işlerini yürütün:
  stsadm.exe -o execadmsvcjobs
 
 {{% alert color="primary" %}}
 
- Windows SharePoint Services Yönetim hizmeti başlatılmamışsa, dağıtım adımını çalıştırırken bir uyarı alırsınız.**stsadm.exe** çözüm verilerini grup genelinde çoğaltmak için bu hizmete ve Windows SharePoint Zamanlayıcı Hizmeti'ne güvenir. Bu hizmetler sunucu grubunuzda çalışmıyorsa, lisansı her sunucuya ayrı ayrı dağıtmanız gerekebilir.
+ Windows SharePoint Services Yönetim hizmeti başlatılmamışsa, dağıtım adımını çalıştırırken bir uyarı alırsınız.**stsadm.exe**çözüm verilerini grup genelinde çoğaltmak için bu hizmete ve Windows SharePoint Zamanlayıcı Hizmeti'ne güvenir. Bu hizmetler sunucu grubunuzda çalışmıyorsa, lisansı her sunucuya ayrı ayrı dağıtmanız gerekebilir.
 
 {{% /alert %}}

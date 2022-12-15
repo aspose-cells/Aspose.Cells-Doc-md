@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells för Java 7.7.1 Release Notes
+title: Aspose.Cells for Java 7.7.1 Release Notes
 type: docs
 weight: 90
 url: /sv/java/aspose-cells-for-java-7-7-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.7.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.7.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.7.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.7.1/)
 
 {{% /alert %}} 
 
- Aspose.Cells för Java har uppdaterats till version 7.7.1 och vi är glada att kunna meddela att denna utgåva innehåller över 20 nya användbara förbättringar.
-Med Aspose.Cells för Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
-Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells för Java.
+ Aspose.Cells for Java har uppdaterats till version 7.7.1 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
+Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
-Följande är en lista över ändringar i denna version av Aspose.Cells för Java.
+Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
 
 
 Huvudfunktioner
@@ -66,4 +66,4 @@ Undantag
 
 
 Notera
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v7.7.1 också inkluderade i denna Aspose.Cells för Java v7.7.1.
+Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells for .NET v7.7.1 också inkluderade i denna 076157317.4 v.4171.

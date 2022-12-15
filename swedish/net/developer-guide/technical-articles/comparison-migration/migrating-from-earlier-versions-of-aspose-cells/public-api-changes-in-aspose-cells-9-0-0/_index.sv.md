@@ -1,17 +1,17 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 9.0.0
+title: Offentlig API Ändringar i Aspose.Cells 9.0.0
 type: docs
 weight: 330
 url: /sv/net/public-api-changes-in-aspose-cells-9-0-0/
 ---
 {{% alert color="primary" %}} 
 
-Detta dokument beskriver ändringarna av Aspose.Cells API från version 8.9.2 till 9.0.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9.2 till 9.0.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Lade till Shape.TextOptions-egenskap**
-Aspose.Cells för .NET har exponerat egenskapen TextOptions för Shape-klassen för att kontrollera utseendet på textdelar av en Shape.
+Aspose.Cells for .NET har exponerat egenskapen TextOptions för Shape-klassen för att kontrollera utseendet på textdelar av en Shape.
 
 Här är ett enkelt användningsscenario för Shape.TextOptions-egenskapen.
 
@@ -49,7 +49,7 @@ textbox.TextOptions.IsItalic = true;
 
 
 ### **Lade till egenskapen LoadOptions.CultureInfo**
-Aspose.Cells för .NET 9.0.0 har avslöjat egenskapen LoadOptions.CultureInfo som tillåter injicera en instans av CultureInfo vid tidpunkten för inläsning av ett dokument i en instans av Workbook.
+Aspose.Cells for .NET 9.0.0 har exponerat egenskapen LoadOptions.CultureInfo som tillåter injicera en instans av CultureInfo vid tidpunkten för inläsning av ett dokument i en instans av Workbook.
 
 Här är ett enkelt användningsscenario för ovannämnda egenskaper.
 
@@ -87,7 +87,7 @@ var book = new Workbook(dir + "input.html", options);
 
 
 ### **Lade till egenskapen ChartPoint.IsInSecondaryPlot**
-Aspose.Cells för .NET har exponerat egenskapen ChartPoint.IsInSecondaryPlot som kan användas för att upptäcka om en ChartPoint finns på en sekundär plot av ett cirkel- eller stapeldiagram.
+Aspose.Cells for .NET har exponerat egenskapen ChartPoint.IsInSecondaryPlot som kan användas för att upptäcka om en ChartPoint finns på en sekundär plot av ett cirkel- eller stapeldiagram.
 
 Här är ett enkelt användningsscenario för Shape.Line-egenskapen.
 
@@ -137,7 +137,7 @@ foreach (ChartPoint point in series.Points)
 
 
 ### **Lade till egenskapen OleObject.ClassIdentifier**
-Aspose.Cells för .NET 9.0.0 har avslöjat egenskapen OleObject.ClassIdentifier som kan användas för att specificera programmets beteende för att ladda ett OleObject. Till exempel kan en PPT-fil bäddas in i ett kalkylblad med 2 olika vyer, det vill säga; presentationsvy eller bildvy, medan båda vyerna har olika klassidentifieringsvärden.
+Aspose.Cells for .NET 9.0.0 har avslöjat egenskapen OleObject.ClassIdentifier som kan användas för att specificera programmets beteende för att ladda ett OleObject. Till exempel kan en PPT-fil bäddas in i ett kalkylblad med 2 olika vyer, det vill säga; presentationsvy eller bildvy, medan båda vyerna har olika klassidentifieringsvärden.
 
 Följande är det enkla användningsscenariot för egenskapen OleObject.ClassIdentifier.
 

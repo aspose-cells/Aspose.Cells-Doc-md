@@ -1,15 +1,15 @@
 ﻿---
-title: Aspose.Cells для SharePoint — использование и преимущества
+title: Aspose.Cells for SharePoint - Использование и преимущества
 type: docs
 weight: 10
 url: /ru/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 ---
 {{% alert color="primary" %}} 
 
-Сайты SharePoint предназначены для совместной работы, общения и хранения контента для удовлетворения конкретных потребностей бизнеса. Aspose.Cells для SharePoint был введен для выполнения определенных операций с Microsoft документами Excel, доступными в библиотеках документов SharePoint. В этой статье рассматриваются следующие вопросы:
+Сайты SharePoint предназначены для совместной работы, общения и хранения контента для удовлетворения конкретных потребностей бизнеса. Aspose.Cells for SharePoint был введен для выполнения определенных операций с Microsoft документами Excel, доступными в библиотеках документов SharePoint. В этой статье рассматриваются следующие вопросы:
 
 - [Краткое примечание о библиотеках документов SharePoint](/cells/ru/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
-- [Преимущества Aspose.Cells для SharePoint](/cells/ru/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
+- [Преимущества Aspose.Cells for SharePoint](/cells/ru/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 - [Как преобразовать документы Excel Microsoft в другие форматы](/cells/ru/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 
 {{% /alert %}} 
@@ -20,29 +20,29 @@ url: /ru/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 
 
 ### **Преимущества**
-В следующем списке выделены некоторые преимущества использования Aspose.Cells для SharePoint:
+В следующем списке выделены некоторые преимущества использования Aspose.Cells for SharePoint:
 
-- Сервер сайта SharePoint не имеет встроенной возможности для преобразования Microsoft файлов Excel непосредственно на сервере. Aspose.Cells для SharePoint добавляет эту функцию на сервер сайта SharePoint.
-- Aspose.Cells для SharePoint не требует Microsoft Excel для работы. Он установлен на сервере, поэтому пользователям SharePoint не требуется Microsoft Excel в своих локальных системах для преобразования Microsoft документов Excel из одного формата в другой.
-- Aspose.Cells для SharePoint не требует никаких предварительных условий, кроме тех, которые необходимы для создания сайта SharePoint.
--  Aspose.Cells для SharePoint[легко развернуть на сервере сайта SharePoint](/cells/ru/sharepoint/installing-aspose-cells-for-sharepoint/).
--  Aspose.Cells для поддержки SharePoint[несколько входных и выходных форматов](/cells/ru/sharepoint/multiple-format-support/).
-- Aspose.Cells для SharePoint предоставляет общедоступный номер API для разработчиков, которым необходимо разработать собственные решения для SharePoint.
-### **Преобразование Microsoft документов Excel с Aspose.Cells для SharePoint**
- После установки Aspose.Cells для SharePoint на сервере SharePoint параметр**Преобразование с помощью Aspose.Cells.SharePoint** доступен в контекстном меню:
+- Сервер сайта SharePoint не имеет встроенной возможности для преобразования Microsoft файлов Excel непосредственно на сервере. Aspose.Cells for SharePoint добавляет эту функцию на сервер сайта SharePoint.
+- Aspose.Cells for SharePoint не требует Microsoft Excel для работы. Он установлен на сервере, поэтому пользователям SharePoint не требуется Microsoft Excel в своих локальных системах для преобразования Microsoft документов Excel из одного формата в другой.
+- Aspose.Cells for SharePoint не требует каких-либо предварительных условий, кроме тех, которые необходимы для создания сайта SharePoint.
+-  Aspose.Cells for SharePoint есть[легко развернуть на сервере сайта SharePoint](/cells/ru/sharepoint/installing-aspose-cells-for-sharepoint/).
+-  Aspose.Cells for SharePoint опоры[несколько входных и выходных форматов](/cells/ru/sharepoint/multiple-format-support/).
+- Aspose.Cells for SharePoint предоставляет общедоступный номер API для разработчиков, которым необходимо разработать собственные решения SharePoint.
+### **Преобразование Microsoft документов Excel с помощью Aspose.Cells for SharePoint**
+ После установки Aspose.Cells for SharePoint на сервере SharePoint параметр**Преобразование с помощью Aspose.Cells.SharePoint** доступен в контекстном меню:
 
 **Поиск опции «Преобразовать с...»** 
 
 Чтобы преобразовать документ Excel Microsoft из библиотеки документов SharePoint в другие форматы, выполните следующие действия:
 
-1. Щелкните нужный документ Excel Microsoft, а затем щелкните Преобразовать с помощью Aspose.Cells для SharePoint.
+1. Щелкните нужный документ Excel Microsoft, а затем нажмите Преобразовать с помощью Aspose.Cells for SharePoint.
  Отображается экран настроек преобразования.
 
    **Решив преобразовать** 
 
 
 1. Выберите выходной формат.
- Здесь вы также можете изменить имя выходного файла и папку назначения.
+Здесь вы также можете изменить имя выходного файла и папку назначения.
 1.  Нажмите**Конвертировать**. 
 
    **Выбор выходного формата** 
@@ -64,8 +64,8 @@ url: /ru/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 ### **Резюме**
 {{% alert color="primary" %}} 
 
-Установить и использовать Aspose.Cells для SharePoint очень просто. Он не только добавляет возможность преобразования Microsoft файлов Excel непосредственно на сервере SharePoint, но и устраняет необходимость установки Microsoft Excel на клиентских компьютерах. Кроме того, разработчики могут использовать общедоступный номер API SharePoint Aspose.Cells для разработки собственных решений SharePoint.
+Установить и использовать Aspose.Cells for SharePoint очень просто. Он не только добавляет возможность преобразования Microsoft файлов Excel непосредственно на сервере SharePoint, но и устраняет необходимость установки Microsoft Excel на клиентских компьютерах. Кроме того, разработчики могут использовать общедоступный номер Aspose.Cells for SharePoint API для разработки собственных решений SharePoint.
 
- Другими словами, это выгодно для администраторов сайтов SharePoint, разработчиков и конечных пользователей.
+ Другими словами, это выгодно администраторам сайта for SharePoint, разработчикам и конечным пользователям.
 
 {{% /alert %}}

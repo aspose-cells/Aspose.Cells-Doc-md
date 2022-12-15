@@ -6,7 +6,7 @@ url: /it/reportingservices/working-with-charts/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells Il modello di rapporto supporta i grafici Microsoft Excel. Ogni volta che si esegue un report, il grafico viene popolato con i dati più recenti.
+ Aspose.Cells Il modello di rapporto supporta i grafici di Microsoft Excel. Ogni volta che si esegue un report, il grafico viene popolato con i dati più recenti.
 
 {{% /alert %}} 
 
@@ -84,7 +84,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 1.  Clic**Aggiungere** per aggiungere un'altra serie.
  Nell'esempio abbiamo aggiunto la serie di vendite.
 1. Impostare il valore di Series2 (Sales series) nel secondo campo dati della tabella.
-Nell'esempio è "CompanySales!$D$3:$D$3". Il primo $D$3 è l'indice della prima riga di "Sales" e il secondo $D$3 è un segnaposto per l'indice dell'ultima riga di "Sales" e verrà sostituito con l'indice di riga reale dei dati della tabella al momento del rendering.
+Nell'esempio è "CompanySales!$D$3:$D$3". Il primo $D$3 è l'indice della prima riga di "Sales" e il secondo $D$3 è un segnaposto per l'ultimo indice della riga di "Sales" e verrà sostituito con l'indice di riga reale dei dati della tabella al momento del rendering.
 1.  Clic**Prossimo** continuare.
 
 ![cose da fare:immagine_alt_testo](working-with-charts_6.png)

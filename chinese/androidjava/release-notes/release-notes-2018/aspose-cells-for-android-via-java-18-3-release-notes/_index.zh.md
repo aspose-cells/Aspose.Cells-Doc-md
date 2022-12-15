@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 18.3 发行说明
+title: Aspose.Cells for Android via Java 18.3 发行说明
 type: docs
 weight: 40
 url: /zh/java/aspose-cells-for-android-via-java-18-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含适用于 Java 18.3 的 Android 版 Aspose.Cells 的发行说明。
+此页面包含 Aspose.Cells for Android via Java 18.3 的发行说明。
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ url: /zh/java/aspose-cells-for-android-via-java-18-3-release-notes/
 |CELLSJAVA-42522|通过 Aspose.Cells 打开文件时出现 ArrayIndexOutOfBoundsException|例外|
 |CELLSJAVA-42517|加载 ODS 文件时出现异常“com.aspose.cells.CellsException：无效公式：”|例外|
 # **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 #### **添加 LoadOptions.ParsingPivotCachedRecords 属性**
 指示加载文件时是否解析透视缓存记录。默认值为false。仅适用于Excel Xlsx、Xltx、Xltm、Xlsm和Xlsb文件格式。
 #### **添加 HtmlSaveOptions.ExcludeUnusedStyles 属性**
@@ -112,6 +112,6 @@ url: /zh/java/aspose-cells-for-android-via-java-18-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-由于 Aspose.Cells for Android 的代码库通过 Java 与相关 .NET 和 Java 版本的代码相匹配，因此大部分更改、增强和修复包含在 Aspose.Cells for .NET v18.1、Aspose.Cells for .NET v18.28、461834 中3、Aspose.Cells for Java v18.1、Aspose.Cells for Java v18.2 和 Aspose.Cells for Java v18.3 也包含在这个 Aspose.Cells for Android via Java v18.3 中。
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.1, Aspose.Cells for .NET v18.2, Aspose.Cells for .NET v18.3, Aspose.Cells for Java v18.1、Aspose.Cells for Java v18.2和Aspose.Cells for Java v18.3也包含在这个Aspose.Cells for Android via Java v18.3.
 
 {{% /alert %}}

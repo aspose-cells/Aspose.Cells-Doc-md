@@ -38,8 +38,8 @@ url: /it/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47365|Eccezione durante il caricamento di un file XLSX|Eccezione|
 |CELLSNET-47381|La proprietà Picture.Data genera un'eccezione ArgumentOutOfRange|Eccezione|
 |CELLSNET-47374|Interruzione della modifica in RemoveACell durante l'aggiornamento da 19.10 a 20.5|Regressione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo ReferredArea.GetValues(boolcalculateFormulas)/GetValue(introwOffset, int colOffset, boolcalculateFormulas).**
 Offre all'utente la possibilità di controllare se le formule devono essere calcolate in modo ricorsivo nell'implementazione di AbstractCalculationEngine.
 #### **Aggiunge l'enumerazione WarningType.InvalidFontName e WarningType.InvalidTextOfDefinedName.**

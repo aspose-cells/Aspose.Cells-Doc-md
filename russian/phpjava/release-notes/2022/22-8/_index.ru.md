@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для PHP через Java 22.8 Примечания к выпуску
+title: Aspose.Cells for PHP via Java 22.8 Примечания к выпуску
 type: docs
 weight: 5
 url: /ru/php-java/aspose-cells-for-php-via-java-22-8-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для PHP через Java 22.8](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.8/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for PHP via Java 22.8](https://releases.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.8/).
 
 {{% /alert %}}
 
@@ -49,7 +49,7 @@ url: /ru/php-java/aspose-cells-for-php-via-java-22-8-release-notes/
 
 ### **Добавьте базовый класс PaginatedSaveOptions для PdfSaveOptions и XpsSaveOptions.**
 
-Представляет параметры разбиения на страницы.
+Представляет параметры разбивки на страницы.
 
 ### **Добавьте класс SheetSet.**
 

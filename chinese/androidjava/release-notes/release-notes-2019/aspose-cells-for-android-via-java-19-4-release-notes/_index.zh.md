@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 19.4 发行说明
+title: Aspose.Cells for Android via Java 19.4 发行说明
 type: docs
 weight: 40
 url: /zh/java/aspose-cells-for-android-via-java-19-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Aspose.Cells 适用于 Android 的发行说明，通过 Java 19.4。
+此页面包含 Aspose.Cells for Android via Java 19.4 的发行说明。
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ url: /zh/java/aspose-cells-for-android-via-java-19-4-release-notes/
 |CELLSJAVA-42860|加载 ODS 文件格式时出现 java.lang.NullPointerException|例外|
 |CELLSJAVA-42871|java.lang.Exception：将 XLSX 转换为 PDF 时支持流的克隆不受支持|例外|
 ## **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 ### **添加用于保存 Markdown 文档的 API：SaveFormat.Markdown、FileFormatType.Markdown、MarkdownSaveOptions**
 支持将单元格内容保存为降价表。使用 Workbook.Save() 方法，活动工作表中的所有单元格内容将导出为降价文档中的表格。
 ### **删除 TxtLoadOptions 的过时属性**

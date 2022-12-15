@@ -5,17 +5,17 @@ type: docs
 weight: 4
 url: /ar/python-net/getting-started/ 
 keywords: python, excel, instal
-description: قم بإعداد Aspose.Cells لـ Python عبر .NET وإرشادات التثبيت.
+description: إعداد Aspose.Cells for Python via .NET وإرشادات التثبيت.
 ---
 ## **متطلبات النظام**
- Aspose.Cells لـ Python عبر .NET هو API مستقل عن النظام الأساسي ويمكن استخدامه على أي منصة (Windows و Linux) حيث[Python](https://www.python.org/downloads/) تم تنصيبه.
+ Aspose.Cells for Python via .NET مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux) حيث[Python](https://www.python.org/downloads/) تم تنصيبه.
 
 ## **إصدار Python**
 - Python 3.6 أو أعلى
 
 ## **تثبيت**
 ### **Windows:**
- يمكنك بسهولة استخدام Aspose.Cells لـ Python عبر .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
+ يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -23,7 +23,7 @@ description: قم بإعداد Aspose.Cells لـ Python عبر .NET وإرشاد
 {{< /highlight >}}
 
 ### **لينكس:**
- يمكنك بسهولة استخدام Aspose.Cells لـ Python عبر .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
+ يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -31,7 +31,7 @@ description: قم بإعداد Aspose.Cells لـ Python عبر .NET وإرشاد
 {{< /highlight >}}
 
 ### **نظام التشغيل MacOS:**
- يمكنك بسهولة استخدام Aspose.Cells لـ Python عبر .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
+ يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python

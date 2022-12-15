@@ -29,8 +29,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.1.
 |CELLSJAVA-42499|Margini e differenze di layout quando si confronta il PDF di output (di Aspose.Cells) con il PDF generato da MS Excel|Insetto|
 |CELLSJAVA-42486|La funzione non funziona in Java - ResultSet|Insetto|
 |CELLSJAVA-42500|NullPointerException si verifica durante il caricamento del file MS Excel|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà LoadOptions.ParsingPivotCachedRecords**
 Indica se l'analisi dei record memorizzati nella cache pivot durante il caricamento del file. Il valore predefinito è false. Si applica solo ai formati di file Excel Xlsx, Xltx, Xltm, Xlsm e Xlsb.
 ### **Aggiunge la proprietà HtmlSaveOptions.ExcludeUnusedStyles**

@@ -10,10 +10,10 @@ Microsoft Report Viewer ist ein leistungsstarkes .NET Steuerelement, mit dem RDL
 
 Report Viewer kann Berichte mithilfe einer integrierten Engine (bekannt als „lokaler Modus“) unabhängig generieren oder Berichte anzeigen, die auf einem Microsoft SQL Server Reporting Services-Berichtsserver generiert werden („Remotemodus“):
 
-- Im Remote-Modus kann Report Viewer Berichte in alle Formate exportieren, die auf dem Berichtsserver installiert sind, mit dem er verbunden ist. Um Berichte in weitere Microsoft Excel-Formate zu exportieren, müssen Sie daher nur Aspose.Cells für Reporting Services auf dem Server installieren.
+- Im Remote-Modus kann Report Viewer Berichte in alle Formate exportieren, die auf dem Berichtsserver installiert sind, mit dem er verbunden ist. Um Berichte in weitere Microsoft Excel-Formate zu exportieren, müssen Sie daher nur Aspose.Cells for Reporting Services auf dem Server installieren.
 - Im lokalen Modus stellt Report Viewer jedoch keine Verbindung zu einem Berichtsserver her, und die Liste der Exportformate ist auf einige wenige integrierte Formate beschränkt.
 
- Indem Sie Aspose.Cells für Reporting Services auf einem Entwicklungscomputer installieren und die folgenden Schritte ausführen, können Sie aus Report Viewer, der im lokalen Modus arbeitet, in weitere Microsoft Excel-Formate exportieren.
+ Indem Sie Aspose.Cells for Reporting Services auf einem Entwicklungscomputer installieren und die folgenden Schritte ausführen, können Sie aus Report Viewer, der im lokalen Modus arbeitet, in weitere Microsoft Excel-Formate exportieren.
 
 {{% /alert %}} 
 ### **Arbeiten mit Aspose.Cells im lokalen Modus**
@@ -22,7 +22,7 @@ Report Viewer kann Berichte mithilfe einer integrierten Engine (bekannt als „l
  1. Klicken Sie mit der rechten Maustaste auf die**Verweise** Ordner und wählen Sie aus**Füge Referenz hinzu**.
  1. Wählen Sie die aus**Durchsuche** Registerkarte und navigieren Sie zu der folgenden Assembly:
       <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
- (wo<InstallDir> ist das Verzeichnis, in dem Sie Aspose.Cells für Reporting Services installiert oder entpackt haben.
+ (wo<InstallDir> ist das Verzeichnis, in dem Sie Aspose.Cells for Reporting Services installiert oder entpackt haben.
 
       **Hinzufügen eines Verweises auf Aspose.Cells.ReportingServices.dll zu einem Projekt** 
 
@@ -246,9 +246,9 @@ End Sub
 {{< /highlight >}}
 
 1.  Rufen Sie die AddExtension-Methode aus dem Code auf.
- – Sie können AddExtension (im vorherigen Schritt gezeigt) aufrufen, wann immer Sie Aspose.Cells für Reporting Services-Exportformate zu einer Report Viewer-Steuerelementinstanz hinzufügen müssen. Erwägen Sie, über das Formular anzurufen_Laden oder Seite_Ereignishandler einer WinForms- oder ASP .NET-Anwendung laden.
- - Sie können alle oder nur einige Exportformate Aspose.Cells für Reporting Services-Exportformate hinzufügen. Sie können einen beliebigen Anzeigenamen für die Formate angeben, die in Report Viewer angezeigt werden sollen.
- Um Aspose.Cells für Reporting Services-Exportformate zu Microsoft Report Viewer im lokalen Modus hinzuzufügen, verwenden Sie den folgenden Code:
+ - Sie können AddExtension (im vorherigen Schritt gezeigt) aufrufen, wann immer Sie Aspose.Cells for Reporting Services-Exportformate zu einer Report Viewer-Steuerelementinstanz hinzufügen müssen. Erwägen Sie, über das Formular anzurufen_Laden oder Seite_Ereignishandler einer WinForms- oder ASP .NET-Anwendung laden.
+ - Sie können alle oder nur einige Exportformate Aspose.Cells for Reporting Services hinzufügen. Sie können einen beliebigen Anzeigenamen für die Formate angeben, die in Report Viewer angezeigt werden sollen.
+ Um Aspose.Cells for Reporting Services Exportformate zu Microsoft Report Viewer im lokalen Modus hinzuzufügen, verwenden Sie den folgenden Code:
 
 **C#**
 
@@ -289,8 +289,8 @@ End Sub
 {{< /highlight >}}
 
 1.  Testen Sie die neuen Exportformate.
-1. Führen Sie Ihre Anwendung aus.
- Sie sollten eine Reihe neuer Exportformate bemerken, die in der verfügbar sind**Export** Menü im Report Viewer.
+ 1. Führen Sie Ihre Anwendung aus.
+Sie sollten eine Reihe neuer Exportformate bemerken, die in der verfügbar sind**Export** Menü im Report Viewer.
  1. Wählen Sie eines der Formate aus und führen Sie den Export aus.
  1. Vergewissern Sie sich, dass das Dokument wie erwartet erstellt wurde.
 

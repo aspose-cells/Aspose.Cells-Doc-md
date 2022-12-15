@@ -9,9 +9,9 @@ url: /it/net/aspose-cells-for-net-16-10-0-release-notes/
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 |CELLSNET-44374 | Importa la mappa xml definendo un array di sole alcune colonne correlate alla mappa xml| Nuova caratteristica|
-|CELLSNET-44701 | API nasconde la riga contenente il tag DIV con stile display:none| Aumento|
-|CELLSNET-44700 | API non importa il contenuto tra i tag DIV con stile display:block| Aumento|
-|CELLSNET-44699 | API non importa i contenuti tra i tag DIV di HTML| Aumento|
+|CELLSNET-44701 | L'API nasconde la riga contenente il tag DIV con lo stile display:none| Aumento|
+|CELLSNET-44700 | L'API non importa il contenuto tra i tag DIV con stile display:block| Aumento|
+|CELLSNET-44699 | L'API non importa i contenuti tra i tag DIV dell'HTML| Aumento|
 |CELLSNET-44304 |PivotTable.GetCellByDisplayName restituisce null per qualsiasi cosa oltre il 256° campo| Aumento|
 |CELLSNET-44808 | La formula in Table o ListObject non si propaga con nuove righe| Aumento|
 |CELLSNET-44719 | Workbook.Worksheets.ExternalLinks non restituisce lo stesso elenco| Aumento|
@@ -26,7 +26,7 @@ url: /it/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44730 | L'elenco giustificato non viene visualizzato correttamente nel PDF di output| Insetto|
 |CELLSNET-44729 | Gli elenchi numerati in Excel non vengono visualizzati correttamente durante l'esportazione in PDF| Insetto|
 |CELLSNET-44720 | Le estremità dell'arco sono quadrate e non rotonde nel PDF di output| Insetto|
-|CELLSNET-44715 | API restituisce il colore della sezione del grafico a torta come Nessuno| Insetto|
+|CELLSNET-44715 | L'API restituisce il colore della sezione del grafico a torta come Nessuno| Insetto|
 |CELLSNET-44804 |La cartella di lavoro con un collegamento ipertestuale a un altro foglio di lavoro il cui nome contiene il carattere "#" viene danneggiata| Insetto|
 |CELLSNET-44791 | Il posizionamento dell'oggetto cambia dopo una semplice operazione di caricamento e salvataggio| Insetto|
 |CELLSNET-44772 | Problema con i collegamenti ipertestuali aggiungendo "file:///" o simili| Insetto|
@@ -65,8 +65,8 @@ url: /it/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44753 | GridDesktop si blocca durante il caricamento di un foglio di calcolo malformatoML| Insetto|
 |CELLSNET-44773 | Eccezione quando si utilizza la voce del menu contestuale "Inserisci commento".| Eccezione|
 |CELLSNET-44782 | IndexOutOfRangeException, durante l'inserimento di righe su GridDesktop| Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà Shape.Reflection e la classe ReflectionEffect**
 Rappresenta l'effetto riflesso per l'elemento o la forma del grafico.
 #### **Aggiunge le proprietà Shape.Glow, GlowEffect.Size e GlowEffect.Transparency**

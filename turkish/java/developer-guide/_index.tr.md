@@ -347,7 +347,7 @@ url: /tr/java/developer-guide/
         <ul>
          <li><a href="/cells/tr/java/worksheet-views/#zoom-factor">yakınlaştır</a></li>
         </ul>
-        <p>Pencere</p>
+        <p>pencere</p>
         <ul>
         <li><a href="/cells/tr/java/worksheet-views/#freeze-panes">Donma bölmeleri</a></li>
         <li><a href="/cells/tr/java/worksheet-views/#applying-and-removing-split-panes">Bölünmüş Bölmeleri Uygulama ve Kaldırma</a></li>

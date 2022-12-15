@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.4.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.4.2
 type: docs
 weight: 160
 url: /it/java/public-api-changes-in-aspose-cells-8-4-2/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.4.1 alla 8.4.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.4.1 alla 8.4.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -15,7 +15,7 @@ La classe com.aspose.cells.charts.Chart ha esposto il metodo setChartDataRange p
 
 Il seguente frammento di codice mostra come creare un istogramma con poche righe di codice presupponendo che i dati della serie di grafici del grafico siano presenti nello stesso foglio di lavoro dalla cella A1 alla cella D4.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -38,7 +38,7 @@ Aspose.Cells for Java 8.4.2 ha esposto il metodo VbaModuleCollection.add per agg
 
 Il seguente frammento di codice mostra come usare il metodo VbaModuleCollection.add.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -77,7 +77,7 @@ Aspose.Cells for Java 8.4.2 ha esposto una versione sovraccaricata del metodo Ce
 
 Il frammento di codice seguente mostra come utilizzare il metodo Cells.copyColumns appena esposto.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -110,14 +110,14 @@ workbook.save(output);
 {{< /highlight >}}
 
 ### **Campi di enumerazione PasteType.DEFAULT e PasteType.ALL_EXCEPT_BORDERS aggiunti**
-Con il rilascio di v8.4.2, Aspose.Cells API ha aggiunto 2 nuovi campi di enumerazione per PasteType come descritto di seguito.
+Con il rilascio di v8.4.2, l'API Aspose.Cells ha aggiunto 2 nuovi campi di enumerazione per PasteType come descritto di seguito.
 
 - PasteType.DEFAULT: funziona in modo simile alla funzionalità "Tutto" di Excel per incollare un intervallo di celle.
 - IncollaTipo.ALL_TRANNE_BORDI: funziona in modo simile alla funzionalità "Tutti tranne i bordi" di Excel per incollare un intervallo di celle.
 
 Il codice di esempio seguente illustra l'utilizzo del campo PasteType.DEFAULT.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

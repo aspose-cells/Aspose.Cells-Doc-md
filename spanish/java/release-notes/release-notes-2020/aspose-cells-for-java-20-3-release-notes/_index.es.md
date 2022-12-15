@@ -45,7 +45,7 @@ Elimina datos ActiveX de la forma.
 ### **Agrega la propiedad ThreadedComment.CreatedTime.**
 Obtiene y establece la hora de creación de los comentarios encadenados.
 ### **Agrega la propiedad Worksheet.UniqueId.**
-Obtiene y establece la identificación única de la hoja de cálculo.
+Obtiene y establece la identificación única de la hoja de trabajo.
 ### **Agrega la enumeración IconSetType.ColorSmilies3 e IconSetType.Smilies3.**
 Representa los formatos condicionales del conjunto de iconos de 3smiles. Solo para archivos .ods.s
 ### **Agrega la enumeración TimePeriodType.LastYear,TimePeriodType.NextYear y ThisYear.**

@@ -53,8 +53,8 @@ url: /it/net/aspose-cells-for-net-20-4-release-notes/
 |CELLSNET-47086|Viene generata un'eccezione durante il rendering di un grafico|Eccezione|
 |CELLSNET-47242|FormatException sul caricamento del file|Eccezione|
 |CELLSNET-47266|Eccezione "L'indice dell'argomento è fuori dall'intervallo dell'array" durante il caricamento di tutti i file allegati|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà ChartTextFrame.DirectionType.**
 Ottiene e imposta la direzione del testo nel grafico.
 #### **Aggiunge ChartTextFrame.ReadingOrder e rende obsoleta la proprietà ChartTextFrame.TextDirection.**

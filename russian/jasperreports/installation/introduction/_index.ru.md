@@ -6,6 +6,6 @@ url: /ru/jasperreports/introduction/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells для JasperReports можно развернуть на вашем компьютере, просто добавив выпущенный файл JAR в путь к классам.
+ Aspose.Cells for JasperReports можно развернуть на вашем компьютере, просто добавив выпущенный файл JAR в путь к классам.
 
 {{% /alert %}}

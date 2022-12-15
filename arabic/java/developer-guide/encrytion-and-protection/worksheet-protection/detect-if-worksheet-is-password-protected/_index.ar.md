@@ -1,5 +1,5 @@
 ﻿---
-title: اكتشف ما إذا كانت ورقة العمل محمية بكلمة مرور
+title: اكتشاف ما إذا كانت ورقة العمل محمية بكلمة مرور
 type: docs
 weight: 280
 url: /ar/java/detect-if-worksheet-is-password-protected/
@@ -10,7 +10,7 @@ url: /ar/java/detect-if-worksheet-is-password-protected/
 
 {{% /alert %}}
 
-## **اكتشف ما إذا كانت ورقة العمل محمية بكلمة مرور**
+## **اكتشاف ما إذا كانت ورقة العمل محمية بكلمة مرور**
 
 كشف Aspose.Cells for Java 8.7.0 عن ملف[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) خاصية اكتشاف ما إذا كانت ورقة العمل محمية بكلمة مرور أم لا. النوع المنطقي[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) إرجاع الحقل**حقيقي** إذا[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) محمي بكلمة مرور و**خاطئة** ان لم.
 

@@ -48,7 +48,7 @@ Aspose.Cells 允许开发人员访问工作表的最大显示范围。最大显�
 
 **显示此工作表的最大显示范围** 
 
-![待办事项：图片_替代_文本](accessing-cells-of-a-worksheet_1.png)
+![待办事项：图像_替代_文本](accessing-cells-of-a-worksheet_1.png)
 
 下面的示例代码说明了如何访问[最大显示范围](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)财产。该代码生成以下输出。
 

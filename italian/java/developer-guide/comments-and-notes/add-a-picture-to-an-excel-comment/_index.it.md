@@ -8,11 +8,11 @@ url: /it/java/add-a-picture-to-an-excel-comment/
 
 Microsoft Excel consente agli utenti di personalizzare in larga misura l'aspetto dei fogli di calcolo. È anche possibile aggiungere immagini di sfondo ai commenti.
 
-I commenti vengono aggiunti alle celle per registrare commenti, qualsiasi cosa, dai dettagli su come viene elaborata una formula, da dove proviene un valore o domande dei revisori. L'aggiunta di un'immagine di sfondo può essere una scelta estetica o essere utilizzata per rafforzare il marchio.
+I commenti vengono aggiunti alle celle per registrare commenti, qualsiasi cosa, dai dettagli su come funziona una formula, da dove proviene un valore o domande dei revisori. L'aggiunta di un'immagine di sfondo può essere una scelta estetica o essere utilizzata per rafforzare il marchio.
 
 {{% /alert %}}
 
-## Aggiungi immagine a Excel Comment con Microsoft Excel
+## Aggiungi un'immagine a Excel Commenta con Microsoft Excel
 
 Con Microsoft Excel 2007, è possibile avere un'immagine come sfondo di un commento di cella. In Excel 2007, ciò viene eseguito (supponendo che il commento sia già stato aggiunto) in questo modo:
 

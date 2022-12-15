@@ -1,13 +1,13 @@
 ﻿---
-title: Aspose.Cells för Python via .NET 22.9 Release Notes
+title: Aspose.Cells for Python via .NET 22.9 Release Notes
 type: docs
 weight: 8
 url: /sv/python-net/aspose-cells-for-python-net-22-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Detta är den första versionen för Aspose.Cells för Python via .NET.
-Den här sidan innehåller utgåvor för Aspose.Cells för Python via .NET 22.9.
+Detta är den första versionen för Aspose.Cells for Python via .NET.
+Den här sidan innehåller utgåvor för Aspose.Cells for Python via .NET 22.9.
 
 {{% /alert %}} 
 
@@ -47,7 +47,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Python via .NET 22.9.
 |CELLSNET-51736| Cell gränser försvann i den resulterande PDF-filen|
 |CELLSNET-51738|Ogiltig post för en cell orsakade att genererad fil är skadad|
 |CELLSNET-51760|Worksheet.AutoFitColumns fungerar inte korrekt|
-|CELLSNET-51770|Merged Cells fungerar inte bra när du sparar som PowerPoint-fil|
+|CELLSNET-51770|Merged Cells fungerar inte bra när du sparar som PowerPoint fil|
 |CELLSNET-51771|Efter att celler har slagits samman går vissa data förlorade i den genererade PowerPoint-filen|
 |CELLSNET-51772|Anslutningsinformationen ändras när XLS-fil konverteras till XLSM|
 |CELLSNET-51778|Att konvertera en XLS-fil till XLSM tar bort några tecken i slutet av länken i namngivna intervall|

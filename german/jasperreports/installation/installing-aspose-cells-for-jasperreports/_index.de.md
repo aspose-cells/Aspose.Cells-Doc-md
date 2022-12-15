@@ -1,12 +1,12 @@
 ﻿---
-title: Installieren von Aspose.Cells für JasperReports
+title: Installieren von Aspose.Cells for JasperReports
 type: docs
 weight: 20
 url: /de/jasperreports/installing-aspose-cells-for-jasperreports/
 ---
- Benutzen**Aspose.Cells für JasperReports** aus Ihrer Bewerbung kopieren**aspose.cells.jasperreports.jar** aus dem Ordner \lib von Aspose.Cells.JasperReports.zip in das Verzeichnis JasperReports\lib oder in einen Bibliotheksordner Ihrer Anwendung. Danach können Sie programmgesteuert auf die Exporter zugreifen.
+ Benutzen**Aspose.Cells for JasperReports** aus Ihrer Bewerbung kopieren**aspose.cells.jasperreports.jar** aus dem Ordner \lib von Aspose.Cells.JasperReports.zip in das Verzeichnis JasperReports\lib oder in einen Bibliotheksordner Ihrer Anwendung. Danach können Sie programmgesteuert auf die Exporter zugreifen.
 
-Das folgende Beispiel zeigt den typischen Code, der zum Exportieren eines Berichts in eine XLS-Datei mit Aspose.Cells für JasperReports erforderlich ist. Weitere Beispiele finden Sie in den im Produktarchiv enthaltenen Demoberichten.
+Das folgende Beispiel zeigt den typischen Code, der zum Exportieren eines Berichts in eine XLS-Datei mit Aspose.Cells for JasperReports erforderlich ist. Weitere Beispiele finden Sie in den Demoberichten im Produktarchiv.
 
 **Java**
 

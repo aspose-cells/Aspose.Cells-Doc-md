@@ -1,15 +1,15 @@
 ﻿---
-title: Aspose.Cells för .NET 5.3.3 Release Notes
+title: Aspose.Cells for .NET 5.3.3 Release Notes
 type: docs
 weight: 70
 url: /sv/net/aspose-cells-for-net-5-3-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 5.3.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.3.3/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 5.3.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.3.3/)
 
 {{% /alert %}} 
-### **Vi är glada att kunna meddela Aspose.Cells för .NET v5.3.3!**
+### **Vi är glada att meddela Aspose.Cells for .NET v5.3.3!**
 ### **1) Aspose.Cells**
 ### **Förbättringar**
  25032 Ställ in Hyperlinks Target-attribut när du konverterar Excel-fil till HTML-format
@@ -32,11 +32,11 @@ url: /sv/net/aspose-cells-for-net-5-3-3-release-notes/
 
  27063 Ogiltigt kolumnindex - Aspose.Cells.CellsException från metoden SheetRender.ToImage()
 
-26571 Aspose.Cells kan inte öppna XLS-filen
+ 26571 Aspose.Cells kan inte öppna XLS-filen
 
  26309 Källmatrisen var inte tillräckligt lång – undantag för att öppna Excel-fil
 
- 25972 Metoden SheetRender.ToImage() kunde inte rendera vissa kalkylblad
+25972 Metoden SheetRender.ToImage() kunde inte rendera vissa kalkylblad
 ### **Buggar**
  26141 Återge nästan tom bild (från metoden Chart.ToImage() , streckade linjerna återges inte fint
 
@@ -64,11 +64,11 @@ url: /sv/net/aspose-cells-for-net-5-3-3-release-notes/
 
  26198 Få maximalt värde för ValueAxis i ett Excel-diagram
 
-26198 Ett problem med metoderna PutValue och ClearContents
+ 26198 Ett problem med metoderna PutValue och ClearContents
 
  26544 Problem med att kopiera rader och villkorlig formatering
 
- 26711 Beräknad cell har "#VALUE!" efter att ha använt Workbook.CalculateFormula()-metoden
+26711 Beräknad cell har "#VALUE!" efter att ha använt Workbook.CalculateFormula()-metoden
 
  26728 Få "#Value!" i de beräknade cellerna
 

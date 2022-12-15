@@ -13,5 +13,5 @@ url: /it/java/support-extend-and-contribute-to-aspose-cells-in-struts/
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ## **Estendi e contribuisci**
-Aspose.cells Java per Struts 1.3 è open source e il suo codice sorgente è disponibile sui principali siti Web di social coding elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ea contribuire suggerendo o aggiungendo nuove funzionalità o migliorando quelle esistenti, in modo che anche altri possano trarne vantaggio.
+Aspose.cells Java for Struts 1.3 è open source e il suo codice sorgente è disponibile sui principali siti Web di social coding elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ea contribuire suggerendo o aggiungendo nuove funzionalità o migliorando quelle esistenti, in modo che anche altri possano trarne vantaggio.
 

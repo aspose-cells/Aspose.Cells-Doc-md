@@ -69,7 +69,7 @@ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.c
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingLinkToExternalFile-AddingLinkToExternalFile.java" >}}
 
 ## **Temas avanzados**
-- [Agregar hipervínculos de imagen](/cells/es/java/add-image-hyperlinks/)
+- [Agregar hipervínculos de imágenes](/cells/es/java/add-image-hyperlinks/)
 - [Detectar tipo de hipervínculo](/cells/es/java/detect-hyperlink-type/)
 - [Edición de hipervínculos de la hoja de trabajo](/cells/es/java/editing-hyperlinks-of-worksheet/)
 - [Obtener hipervínculos en rango](/cells/es/java/get-hyperlinks-in-range/)

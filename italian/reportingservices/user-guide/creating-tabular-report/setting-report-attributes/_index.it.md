@@ -18,7 +18,7 @@ Per impostare gli attributi di un rapporto tabella:
 
 ).
 
-1.  Immettere il nome del rapporto nella finestra di dialogo.
+1.  Immettere il nome del report nella finestra di dialogo.
 
    **Impostazione del nome del rapporto** 
 
@@ -62,7 +62,7 @@ Tutti i campi del set di dati sono elencati nel pannello di sinistra nella fines
 
 1.  Clic**Prossimo**.
 
- Viene visualizzato un riepilogo del report.
+ Viene visualizzato un riepilogo del rapporto.
    **Riepilogo rapporto** 
 
 ![cose da fare:immagine_alt_testo](setting-report-attributes_6.png)

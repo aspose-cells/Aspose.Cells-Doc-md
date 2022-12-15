@@ -11,7 +11,7 @@ Aspose.Cells unterstützt jetzt das Lesen und Bearbeiten von Microsoft Excel 201
 
 ![todo: Bild_alt_Text](read-and-manipulate-excel-2016-charts_1.png)
 
- Der folgende Screenshot zeigt die[Excel-Datei ausgeben](22774104.xlsx) nach der Ausführung des Codes. Wie Sie sehen können, wird der Diagrammtitel je nach Diagrammtyp geändert.
+Der folgende Screenshot zeigt die[Excel-Datei ausgeben](22774104.xlsx) nach der Ausführung des Codes. Wie Sie sehen können, wird der Diagrammtitel je nach Diagrammtyp geändert.
 
 ![todo: Bild_alt_Text](read-and-manipulate-excel-2016-charts_2.png)
 ## **Beispielcode**

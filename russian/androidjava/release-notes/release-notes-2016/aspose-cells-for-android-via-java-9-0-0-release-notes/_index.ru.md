@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells для Android через Java 9.0.0 Примечания к выпуску
+title: Aspose.Cells for Android via Java 9.0.0 Примечания к выпуску
 type: docs
 weight: 20
 url: /ru/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
@@ -47,7 +47,7 @@ url: /ru/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41960|Исключение NegativeArraySizeException возникает при открытии исходного файла a2.xls|Исключение|
 |CELLSJAVA-41959|Исключение NullPointerException возникает при открытии источника a1.xlsx|Исключение|
 ## **Public API и обратно несовместимые изменения**
-Ниже приведен список любых изменений, внесенных в общедоступный API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в Aspose.Cells для Android. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Android. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форум поддержки Aspose.Cells.
 ### **Добавляет свойство CopyOptions.ReferToDestinationSheet и метод Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)**
 При копировании диапазона и диаграммы ссылается на исходный лист, False означает, что источник данных скопированной диаграммы не будет изменен. True означает, что источник данных скопированной диаграммы относится к целевому листу.
 ### **Добавляет свойство HtmlSaveOptions.FilePathProvider.**
@@ -117,6 +117,6 @@ url: /ru/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.9.1, Aspose.Cells for .NET v8.9.2, Aspose.Cells for .NET v9.0.0, Aspose.Cells for Java v8 .9.1, Aspose.Cells for Java v8.9.2 и Aspose.Cells for Java v9.0.0 также включены в этот Aspose.Cells для Android v9.0.0.
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.9.1, Aspose.Cells for .NET v8.9.2, Aspose.Cells for .NET v9.0.0, Aspose.Cells for Java v8. 9.1, Aspose.Cells for Java v8.9.2 и Aspose.Cells for Java v9.0.0 также включены в этот Aspose.Cells for Android v9.0.0.
 
 {{% /alert %}}

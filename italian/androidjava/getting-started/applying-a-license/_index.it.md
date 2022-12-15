@@ -18,13 +18,13 @@ La licenza è un file XML di testo semplice che contiene dettagli come il nome d
 
 ## **Caricamento del file di licenza**
 
- In Aspose.Cells per Android tramite Java, la licenza può essere[incorporata come risorsa](/cells/it/java/applying-a-license/#applying-a-license-from-an-embedded-resource)o caricato da un flusso:
+ In Aspose.Cells for Android via Java, la licenza può essere[incorporata come risorsa](/cells/it/java/applying-a-license/#applying-a-license-from-an-embedded-resource)o caricato da un flusso:
 
 1.  Metti il file di licenza in qualsiasi posizione su**/mnt/sdcard/**.
 1. Crea un flusso che faccia riferimento a file.
 1. Passa il flusso (contenente il file di licenza) nel metodo SetLicense.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -52,7 +52,7 @@ Per accedere alla licenza come risorsa per nome da un file di pacchetto Android:
  Il file di licenza dovrebbe essere visibile nel file**res/grezzo** cartella.
 1. Accedi/carica la licenza dalla risorsa con il seguente esempio di codice.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

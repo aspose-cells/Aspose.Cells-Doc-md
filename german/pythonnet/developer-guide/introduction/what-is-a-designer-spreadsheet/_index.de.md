@@ -32,6 +32,6 @@ Ein Designer-Arbeitsblatt ist eine Excel-Datei, die mit Microsoft Excel erstellt
 
 ### **Intelligente Markierungen**
 
- Zusätzlich können Sie mit Aspose.Cells hinzufügen[intelligente Markierungen](/cells/de/python-net/smart-markers/) zur Designer-Tabelle. Intelligente Markierungen werden zur Laufzeit mithilfe der Process-Methode der WorkbookDesigner-Klasse verarbeitet. Dies kann Ihnen helfen, weniger Code zu schreiben und trotzdem ein großartiges Ergebnis zu erzielen.
+ Zusätzlich können Sie mit Aspose.Cells hinzufügen[intelligente Markierungen](/cells/de/python-net/smart-markers/)zur Designer-Tabelle. Intelligente Markierungen werden zur Laufzeit mithilfe der Process-Methode der WorkbookDesigner-Klasse verarbeitet. Dies kann Ihnen helfen, weniger Code zu schreiben und trotzdem ein großartiges Ergebnis zu erzielen.
 
 [Erfahren Sie mehr über intelligente Marker](/cells/de/python-net/smart-markers/).

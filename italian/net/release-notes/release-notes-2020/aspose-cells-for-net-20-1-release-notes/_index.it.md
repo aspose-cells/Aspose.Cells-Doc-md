@@ -36,8 +36,8 @@ url: /it/net/aspose-cells-for-net-20-1-release-notes/
 |CELLSNET-47072|La differenza nel percorso del collegamento recuperato da Aspose.Cells rispetto a Excel|Insetto|
 |CELLSNET-47087|Si è verificato un problema durante la stampa del file excel salvato da Aspose.Cells for .NET|Insetto|
 |CELLSNET-47082|Il calcolo della formula si blocca|Insetto|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà ReplaceOptions.RegexKey.**
  Indica se la chiave cercata è regex. Se**VERO**quindi la chiave cercata (da sostituire parte) verrà presa come regex specificata dall'utente.
 #### **Aggiunge il metodo CustomImplementationFactory.CreateCultureInfo.**

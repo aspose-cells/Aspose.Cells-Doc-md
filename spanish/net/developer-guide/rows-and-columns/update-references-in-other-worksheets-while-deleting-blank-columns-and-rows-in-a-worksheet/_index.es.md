@@ -12,7 +12,7 @@ Cuando elimina columnas y filas en blanco en una hoja de trabajo, sus referencia
 
 ## **Actualice referencias en otras hojas de trabajo mientras elimina columnas y filas en blanco en una hoja de trabajo**
 
- Consulte el siguiente código de ejemplo y su salida de consola. La celda E3 de la segunda hoja de trabajo tiene una fórmula =Hoja1!C3 que hace referencia a la celda C3 de la primera hoja de trabajo. si vas a establecer[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) propiedad como**verdadero** , esta fórmula se actualizará y se convertirá en =Sheet1!A1 al eliminar columnas y filas en blanco en la primera hoja de trabajo. Sin embargo, si establece[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) propiedad como**falso**, la fórmula en la celda E3 de la segunda hoja de cálculo seguirá siendo =Hoja1!C3 y dejará de ser válida.
+ Consulte el siguiente código de ejemplo y su salida de consola. La celda E3 de la segunda hoja de trabajo tiene una fórmula =Hoja1!C3 que hace referencia a la celda C3 de la primera hoja de trabajo. si vas a establecer[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) propiedad como**verdadero** , esta fórmula se actualizará y se convertirá en =Sheet1!A1 al eliminar columnas y filas en blanco en la primera hoja de cálculo. Sin embargo, si establece[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) propiedad como**falso**, la fórmula en la celda E3 de la segunda hoja de cálculo seguirá siendo =Hoja1!C3 y dejará de ser válida.
 
 ### **Ejemplo de programación**
 
@@ -20,7 +20,7 @@ Cuando elimina columnas y filas en blanco en una hoja de trabajo, sus referencia
 
 ### **Salida de consola**
 
- Esta es la salida de la consola del código de muestra anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**verdadero**.
+ Esta es la salida de la consola del código de ejemplo anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**verdadero**.
 
 {{< highlight "java" >}}
 
@@ -43,7 +43,7 @@ Cell Value: 4
 
 {{< /highlight >}}
 
- Esta es la salida de la consola del código de muestra anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**falso**. Como puede ver, la fórmula en la celda E3 de la segunda hoja de trabajo no se actualiza y su valor de celda ahora es 0 en lugar de 4, lo cual no es válido.
+ Esta es la salida de la consola del código de ejemplo anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**falso**. Como puede ver, la fórmula en la celda E3 de la segunda hoja de trabajo no se actualiza y su valor de celda ahora es 0 en lugar de 4, lo cual no es válido.
 
 {{< highlight "java" >}}
 

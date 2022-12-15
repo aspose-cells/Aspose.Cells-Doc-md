@@ -1,5 +1,5 @@
 ﻿---
-title: Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirleyin
+title: Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirtin
 type: docs
 weight: 30
 url: /tr/net/specify-image-resolution-quality-compression-and-other-options/

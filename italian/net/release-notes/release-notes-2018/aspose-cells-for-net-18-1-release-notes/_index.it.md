@@ -19,16 +19,16 @@ Aspose.Cells per for .NET ora include anche Aspose.Cells per iOS tramite Xamarin
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-45740|Trova le tabelle pivot figli della tabella pivot genitore|Nuova caratteristica|
-|CELLSNET-45771|Gestire unità assi automatiche come Microsoft Excel|Nuova caratteristica|
+|CELLSNET-45771|Gestisci le unità assi automatiche come Microsoft Excel|Nuova caratteristica|
 |CELLSNET-45668|Leggere e scrivere tableSingleCells del file XLSB|Nuova caratteristica|
 |CELLSNET-45830|Aggiungi eventi dopo aver eliminato righe e colonne in Aspose.Cells.GridDesktop|Nuova caratteristica|
 |CELLSNET-45805|GridWeb non esegue correttamente il rendering delle barre di scorrimento|Nuova caratteristica|
 |CELLSNET-45845|Foglio di stile esterno non supportato durante la conversione di andata e ritorno|Aumento|
 |CELLSNET-45803|Il formato XLS deve corrispondere a MS Excel 2016|Aumento|
 |CELLSNET-45842|FontSettings si sovrascrive a vicenda mentre MS Excel li mantiene entrambi|Aumento|
-|CELLSNET-45653|Il filtro in GridDesktop non funziona correttamente o come Microsoft Excel|Aumento|
+|CELLSNET-45653|Il filtraggio in GridDesktop non funziona correttamente o come Microsoft Excel|Aumento|
 |CELLSNET-45763|Il testo della forma viene ruotato nella conversione da Excel a PDF|Insetto|
-|CELLSNET-45669|I caratteri si sovrappongono durante la conversione in immagine|Insetto|
+|CELLSNET-45669|I caratteri si sovrappongono durante la conversione in Immagine|Insetto|
 |CELLSNET-45841|Il file XLSB che si occupa di Power Pivot si corrompe all'apertura e al nuovo salvataggio|Insetto|
 |CELLSNET-45819|I bordi non vengono visualizzati durante l'esportazione da HTML a Excel|Insetto|
 |CELLSNET-45807|Le griglie non vengono visualizzate quando la proprietà HtmlSaveOptions.ExportActiveWorksheetOnly è impostata su true|Insetto|
@@ -68,8 +68,8 @@ Aspose.Cells per for .NET ora include anche Aspose.Cells per iOS tramite Xamarin
 |CELLSNET-45817|Eccezione quando si imposta HtmlString su una cella su un valore specifico|Eccezione|
 |CELLSNET-45832|Eccezione durante il caricamento di un file XLSM in GridWeb|Eccezione|
 |CELLSNET-45806|Eccezione indice fuori intervallo con formula di sottrazione del campo Ora in Aspose.Cells.GridDesktop|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà LoadOptions.ParsingPivotCachedRecords**
 Indica se l'analisi dei record memorizzati nella cache pivot durante il caricamento del file. Il valore predefinito è false. Si applica solo ai formati di file Excel Xlsx, Xltx, Xltm, Xlsm e Xlsb.
 #### **Aggiunge la proprietà HtmlSaveOptions.ExcludeUnusedStyles**

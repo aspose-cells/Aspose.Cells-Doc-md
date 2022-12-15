@@ -13,7 +13,7 @@ url: /de/net/aspose-cells-for-net-17-4-0-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSNET-45216|Unterstützung der Schutzoption „Projekt zum Anzeigen sperren“ in den VbaProject-Eigenschaften|Neue Funktion|
-|CELLSNET-44219|Schützen Sie das VBA-Projekt mit einem Passwort|Neue Funktion|
+|CELLSNET-44219|Schützen Sie das VBA-Projekt mit einem Kennwort|Neue Funktion|
 |CELLSNET-45246|Implementieren Sie die Sortierwarnfunktion - Sortieren Sie alles, was wie eine Zahl aussieht|Neue Funktion|
 |CELLSNET-45278|Funktion SetColumnHeaderToolTip(int colIndex, string toolTip) fehlt im neueren API-Set – Aspose.Cells.GridWeb|Neue Funktion|
 |CELLSNET-45201|Ändern Sie die Filterliste in eine Auswahlliste mit mehreren Kontrollkästchen für GridWeb|Neue Funktion|

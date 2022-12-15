@@ -37,7 +37,7 @@ sınıf ConvertingWorksheetToSVG:
 
  çalışma kitabı = Çalışma Kitabı(dataDir + "Kitap1.xls")
 
-#Her çalışma sayfasını tek bir sayfada svg formatına dönüştür.
+ #Her çalışma sayfasını tek bir sayfada svg formatına dönüştür.
 
  imgOptions = ImageOrPrintOptions()
 

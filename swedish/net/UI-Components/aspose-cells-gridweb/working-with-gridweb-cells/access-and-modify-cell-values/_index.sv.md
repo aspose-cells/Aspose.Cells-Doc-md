@@ -6,7 +6,7 @@ url: /sv/net/access-and-modify-cell-values/
 ---
 {{% alert color="primary" %}} 
 
-[Åtkomst till arbetsblad Cells](/cells/sv/net/access-worksheet-cells/) diskuterade tillgång till celler. Det här ämnet utökar diskussionen till att visa hur man kommer åt och ändrar cellvärden med Aspose.Cells.GridWeb API.
+[Åtkomst till arbetsblad Cells](/cells/sv/net/access-worksheet-cells/) diskuterade tillgång till celler. Det här ämnet utökar den diskussionen till att visa hur man kommer åt och ändrar cellvärden med hjälp av Aspose.Cells.GridWeb API.
 
 {{% /alert %}} 
 ## **Få åtkomst till och ändra en Cells värde**

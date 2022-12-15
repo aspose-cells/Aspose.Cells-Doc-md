@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 19.4 Notes de version
+title: Aspose.Cells for Android via Java 19.4 Notes de mise à jour
 type: docs
 weight: 40
 url: /fr/java/aspose-cells-for-android-via-java-19-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 19.4.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 19.4.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-42860|java.lang.NullPointerException lors du chargement d'un format de fichier ODS|Exception|
 |CELLSJAVA-42871|java.lang.Exception : clone non pris en charge pour le flux sauvegardé lors de la conversion de XLSX en PDF|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 ### **Ajoute des API pour enregistrer le document Markdown : SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Prend en charge l'enregistrement du contenu des cellules en tant que tableau de démarquage. Avec la méthode Workbook.Save(), tout le contenu des cellules de la feuille active sera exporté sous forme de tableau dans le document Markdown.
 ### **Supprime les propriétés obsolètes de TxtLoadOptions**

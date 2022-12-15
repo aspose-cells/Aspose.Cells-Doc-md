@@ -42,7 +42,7 @@ url: /es/java/aspose-cells-for-java-20-2-release-notes/
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 ### **Agrega la propiedad FormulaParseOptions.Parse.**
- Indica si se analiza la fórmula al establecer una expresión de fórmula en la celda. El valor predeterminado es**verdadero** . Si**falso**, la expresión de la fórmula de entrada se mantendrá tal como está para la celda hasta que el usuario llame a otros métodos para analizarlos o hasta que otras operaciones, como el cálculo de fórmulas, requieran los datos de la fórmula analizada.
+ Indica si se analiza la fórmula al establecer una expresión de fórmula en la celda. El valor predeterminado es**verdadero** . Si**falso**la expresión de la fórmula de entrada se mantendrá tal como está para la celda hasta que el usuario llame a otros métodos para analizarlos o hasta que otras operaciones, como el cálculo de fórmulas, requieran los datos de la fórmula analizada.
 ### **Agrega el método Workbook.ParseFormulas(bool ignoreError).**
 Analiza todas las fórmulas que no se analizaron cuando se cargaron o se establecieron en una celda.
 ### **Agrega la propiedad PivotTable.ExternalConnectionDataSource.**

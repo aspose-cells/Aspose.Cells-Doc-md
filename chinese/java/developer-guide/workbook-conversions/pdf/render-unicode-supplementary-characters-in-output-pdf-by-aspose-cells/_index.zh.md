@@ -17,7 +17,7 @@ url: /zh/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-ce
 ## **通过 Aspose.Cells 在输出 PDF 中渲染 Unicode 增补字符**
 以下屏幕截图显示了 Aspose.Cells 如何呈现[源文件](5473390.xlsx)进入[输出PDF](5473391.pdf).如您所见，所有三个 Unicode 增补字符的呈现方式与 Microsoft Excel 完全相同。
 
-![待办事项：图片_替代_文本](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
+![待办事项：图像_替代_文本](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 
 您可以使用此示例代码将[源文件](5473390.xlsx)进入[输出PDF](5473391.pdf).
 

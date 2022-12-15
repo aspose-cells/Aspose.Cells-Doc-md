@@ -8,11 +8,11 @@ url: /sv/java/apply-conditional-formatting-in-worksheets/
 
 Den här artikeln är utformad för att ge en detaljerad förståelse för hur man lägger till villkorlig formatering till ett antal celler i ett kalkylblad.
 
-Villkorlig formatering är en avancerad funktion i Microsoft Excel som låter dig tillämpa format på en rad celler och ändra formateringen beroende på cellens värde eller värdet på en formel. Till exempel kan bakgrunden i en cell vara röd för att markera ett negativt värde, eller så kan textfärgen vara grön för ett positivt värde. När cellens värde uppfyller formatvillkoret tillämpas formatet. Om cellens värde inte uppfyller formatvillkoret används cellens standardformatering.
+Villkorlig formatering är en avancerad funktion i Microsoft Excel som låter dig tillämpa format på en rad celler och få den formateringen att ändras beroende på cellens värde eller värdet på en formel. Till exempel kan bakgrunden i en cell vara röd för att markera ett negativt värde, eller så kan textfärgen vara grön för ett positivt värde. När cellens värde uppfyller formatvillkoret tillämpas formatet. Om cellens värde inte uppfyller formatvillkoret används cellens standardformatering.
 
-Det är möjligt att tillämpa villkorlig formatering med Microsoft Office Automation men det har sina nackdelar. Det finns flera orsaker och frågor inblandade: till exempel säkerhet, stabilitet, skalbarhet och hastighet. Den främsta anledningen till att hitta en annan lösning är att Microsoft själva starkt avråder från Office Automation för mjukvarulösningar.
+Det är möjligt att tillämpa villkorlig formatering med Microsoft Office Automation men det har sina nackdelar. Det finns flera orsaker och frågor inblandade: till exempel säkerhet, stabilitet, skalbarhet och hastighet. Den främsta anledningen till att hitta en annan lösning är att Microsoft själva starkt rekommenderar Office Automation för mjukvarulösningar.
 
-Den här artikeln visar hur man skapar en konsolapplikation, lägger till villkorlig formatering på celler med några enklaste rader kod med hjälp av Aspose.Cells API.
+Den här artikeln visar hur du skapar en konsolapplikation, lägger till villkorlig formatering på celler med några enklaste rader kod med hjälp av Aspose.Cells API.
 
 {{% /alert %}}
 
@@ -26,17 +26,17 @@ Den här artikeln fungerar genom följande uppgifter:
 ### **Uppgift 1: Använd Aspose.Cells för att tillämpa villkorlig formatering baserat på Cell-värde**
 
 1. **Ladda ner och installera Aspose.Cells.zip**:
-   1. [Ladda ner](https://downloads.aspose.com/cells/java) Aspose.Cells för Java.
+   1. [Ladda ner](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
  1. Packa upp det på din utvecklingsdator.
  Alla Aspose-komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och injicerar endast vattenstämplar i producerade dokument.
 1. **Skapa ett projekt**.
  Skapa antingen ett projekt med en Java Editor som Eclipse eller skapa ett enkelt program med en textredigerare.
 1. **Lägg till klasssökväg**.
-För att ställa in en klassväg med Eclipse, utför följande steg:
- 1. Extrahera Aspose.Cells.jar och dom4j_1.6.1.jar från Aspose.Cells.zip.
+ För att ställa in en klassväg med Eclipse, utför följande steg:
+1. Extrahera Aspose.Cells.jar och dom4j_1.6.1.jar från Aspose.Cells.zip.
  1. Ställ in klassvägen för projektet i Eclipse:
  1. Välj ditt projekt i Eclipse och välj sedan**Egenskaper** från**Projekt** meny.
- 1. Välj "Java Build Path" till vänster om dialogrutan.
+ 1. Välj "Java Byggsökväg" till vänster om dialogrutan.
  1. På**Bibliotek** fliken, välj**Lägg till JAR** eller**Lägg till externa JAR** för att välja Aspose.Cells.jar och dom4j_1.6.1.jar och lägga till dem i byggvägar.
  1. Skriv applikation för att anropa API:er för Aspose:s komponenter.
  Eller så kan du ställa in sökvägen vid körning på en DOS-prompt i Windows.
@@ -83,7 +83,7 @@ När ovanstående kod exekveras, tillämpas villkorlig formatering på cell "B3"
 
 {{% alert color="primary" %}}
 
-Den här artikeln visar hur du tillämpar villkorlig formatering på celler i ett kalkylblad med Aspose.Cells API. Förhoppningsvis kommer det att ge dig lite insikt så att du kan använda dessa alternativ i dina egna scenarier.
+Den här artikeln visar hur du tillämpar villkorlig formatering på celler i ett kalkylblad med Aspose.Cells API. Förhoppningsvis ger det dig lite insikt så att du kan använda dessa alternativ i dina egna scenarier.
 
 Aspose.Cells erbjuder stor flexibilitet för lösningar och ger enastående hastighet, effektivitet och tillförlitlighet för att möta specifika affärsapplikationskrav. Aspose.Cells drar nytta av år av forskning, design och noggrann inställning.
 

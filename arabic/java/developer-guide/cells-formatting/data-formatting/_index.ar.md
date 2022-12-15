@@ -196,7 +196,7 @@ url: /ar/java/data-formatting/
 
 
 #### **تقلص لتناسب**
- يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد ملف[أسلوب](https://reference.aspose.com/cells/java/com.aspose.cells/style) كائن IsTextWrapped إلى**حقيقي**.
+ يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد[أسلوب](https://reference.aspose.com/cells/java/com.aspose.cells/style) كائن IsTextWrapped إلى**حقيقي**.
 
 يتم تحقيق الإخراج التالي عندما يتم تقليص النص ليلائم الخلية.
 
@@ -351,7 +351,7 @@ Aspose.Cells يدعم هذه الميزة. يشرح هذا الموضوع كيف
 
 سنحاول في هذه المقالة شرح كيفية استخدام Aspose.Cells for Java API لتطبيق التنسيق على الصفوف والأعمدة.
 ### **تنسيق الصفوف والأعمدة**
- Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) الذي يمثل ملف إكسل Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) توفر فئة المجموعة Cells. توفر مجموعة Cells مجموعة صفوف.
+ Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) توفر فئة المجموعة Cells. توفر مجموعة Cells مجموعة صفوف.
 #### **تنسيق صف**
 يمثل كل عنصر في مجموعة الصفوف كائن صف. يقدم الكائن Row طريقة applyStyle المستخدمة لتطبيق التنسيق على صف.
 

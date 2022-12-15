@@ -29,9 +29,9 @@ url: /it/java/aspose-cells-for-java-22-3-release-notes/
 |CELLSJAVA-44323|Eccezione durante l'aggiunta della riga della firma|
 |CELLSJAVA-44361|CellsException sollevata durante la conversione di xlsx in html|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Modifica il valore predefinito di HtmlSaveOptions.ExcludeUnusedStyles.**
 

@@ -15,7 +15,7 @@ url: /ar/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 |CELLSCPP-41|حساب الصيغ في جداول بيانات Excel|ميزة جديدة|
 |CELLSCPP-42|تحسين الأداء في قراءة ملفات XLSX|تحسين|
 ### **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لـ C++. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for C++. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
 #### **يضيف طريقة IWorkbook :: CalculateFormula ()**
 أضاف الإصدار الأخير 17.02.0 من Aspose.Cells لـ CPP API طريقة IWorkbook :: CalculateFormula (). يساعد المطورين على حساب نتيجة الصيغ وتخزينها في الخلية المناسبة من ورقة العمل. يمكن للمطورين أيضًا حساب الصيغ المخصصة.
 
@@ -109,7 +109,7 @@ url: /ar/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 #### **يضيف طريقة IWorkbook :: CalculateFormula (intrusive_ptr <Aspose :: Cells :: ICalculationOptions> options)**
 يقوم بحساب الصيغ في المصنف.
 #### **يضيف طريقة IWorkbook :: CalculateFormula (bool ignoreError، intrusive_ptr <Aspose :: Cells :: ICustomFunction> customFunction)**
- Aspose.Cells لـ CPP API يوفر واجهة ICustomFunction. يمكن للمطورين استدعاء أسلوب IWorkbook.CalculateFormula (false، ICustomFunction) لاستدعاء تنفيذ طريقة ICustomFunction.CalculateCustomFunction (). يسمح أسلوب ICustomFunction.CalculateCustomFunction () بمعالجة قيم الإرجاع للوظائف المخصصة. في مثال الكود أدناه ، يقوم تنفيذ واجهة ICustomFunction بتقييم وإرجاع قيم وظيفتين مخصصتين ، مثل MySampleFunc () و YourSampleFunc (). توجد هذه الوظائف المخصصة داخل الخلايا A1 و A2 على التوالي. يقوم بطباعة قيم A1 و A2 على وحدة تحكم ، والتي هي في الواقع القيم التي تم إرجاعها بواسطة ICustomFunction.CalculateCustomFunction ().
+Aspose.Cells لـ CPP API يوفر واجهة ICustomFunction. يمكن للمطورين استدعاء أسلوب IWorkbook.CalculateFormula (false، ICustomFunction) لاستدعاء تنفيذ طريقة ICustomFunction.CalculateCustomFunction (). يسمح أسلوب ICustomFunction.CalculateCustomFunction () بمعالجة قيم الإرجاع للوظائف المخصصة. في مثال الكود أدناه ، يقوم تنفيذ واجهة ICustomFunction بتقييم وإرجاع قيم وظيفتين مخصصتين ، مثل MySampleFunc () و YourSampleFunc (). توجد هذه الوظائف المخصصة داخل الخلايا A1 و A2 على التوالي. يقوم بطباعة قيم A1 و A2 على وحدة تحكم ، والتي هي في الواقع القيم التي تم إرجاعها بواسطة ICustomFunction.CalculateCustomFunction ().
 
 
 يوضح مثال التعليمات البرمجية هذا كيفية حساب الصيغ وتجاهل الأخطاء ومعالجة قيم الإرجاع للوظائف المخصصة في Excel:

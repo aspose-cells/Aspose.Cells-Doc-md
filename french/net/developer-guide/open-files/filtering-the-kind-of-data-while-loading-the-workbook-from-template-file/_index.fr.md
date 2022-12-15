@@ -14,7 +14,7 @@ L'exemple de code suivant charge uniquement les objets de forme lors du chargeme
 
 ![tâche : image_autre_texte](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- La capture d'écran suivante montre le[PDF de sortie](5115555.pdf) que vous pouvez télécharger à partir du lien indiqué. Ici vous pouvez voir, les données en couleur rouge et fond jaune ne sont pas présentes mais toutes les formes sont là.
+La capture d'écran suivante montre le[PDF de sortie](5115555.pdf) que vous pouvez télécharger à partir du lien indiqué. Ici vous pouvez voir, les données en couleur rouge et fond jaune ne sont pas présentes mais toutes les formes sont là.
 
 ![tâche : image_autre_texte](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

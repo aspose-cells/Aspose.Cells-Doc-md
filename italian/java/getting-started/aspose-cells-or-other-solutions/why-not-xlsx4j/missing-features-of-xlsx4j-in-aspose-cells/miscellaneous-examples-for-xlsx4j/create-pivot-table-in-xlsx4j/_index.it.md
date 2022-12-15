@@ -11,7 +11,7 @@ Per creare una tabella pivot utilizzando Aspose.Cells:
 1. Aggiungi una tabella pivot al foglio di lavoro chiamando il metodo add della raccolta di tabelle pivot (incapsulato nell'oggetto Worksheet).
 1. Accedi al nuovo oggetto PivotTable dalla raccolta PivotTables passandone l'indice. # Utilizzare uno qualsiasi degli oggetti tabella pivot incapsulati nell'oggetto PivotTable per gestire la tabella.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

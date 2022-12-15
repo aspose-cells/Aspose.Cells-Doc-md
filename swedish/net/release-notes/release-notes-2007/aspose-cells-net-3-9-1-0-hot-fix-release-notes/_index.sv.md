@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-3-9-1-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v3.9.1!
+ Vi har släppt Aspose.Cells for .NET v3.9.1!
 
 - Anpassat felfält stöds nu.
 - Nya demos läggs till.

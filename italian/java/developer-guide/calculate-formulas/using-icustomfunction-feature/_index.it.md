@@ -8,9 +8,9 @@ url: /it/java/using-icustomfunction-feature/
 
 Questo articolo fornisce informazioni dettagliate su come utilizzare la funzionalità ICustomFunction per implementare funzioni personalizzate con le API Aspose.Cells.
 
-L'interfaccia ICustomFunction consente di aggiungere funzioni di calcolo delle formule personalizzate per estendere il motore di calcolo principale Aspose.Cells al fine di soddisfare determinati requisiti. Questa funzionalità è utile per definire funzioni personalizzate (definite dall'utente) in un file modello o nel codice in cui la funzione personalizzata può essere implementata e valutata utilizzando le API Aspose.Cells come qualsiasi altra funzione Excel Microsoft predefinita.
+L'interfaccia ICustomFunction consente di aggiungere funzioni di calcolo delle formule personalizzate per estendere il motore di calcolo principale Aspose.Cells al fine di soddisfare determinati requisiti. Questa funzionalità è utile per definire funzioni personalizzate (definite dall'utente) in un file modello o nel codice in cui la funzione personalizzata può essere implementata e valutata utilizzando le API Aspose.Cells come qualsiasi altra funzione predefinita di Microsoft Excel.
 
- Si prega di notare che questa interfaccia è stata sostituita da[Motore di calcolo astratto](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) e verrà rimosso in futuro. Alcuni articoli/esempi tecnici sul nuovo API:[qui](/cells/it/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) e[qui](/cells/it/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ Si prega di notare che questa interfaccia è stata sostituita da[Motore di calcolo astratto](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) e verrà rimosso in futuro. Alcuni articoli/esempi tecnici sulla nuova API:[qui](/cells/it/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) e[qui](/cells/it/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
@@ -27,7 +27,7 @@ La funzione personalizzata aggiungerà tutti i valori dall'intervallo di celle s
 
 Ecco come abbiamo implementato il metodo translateCustomFunction.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -95,7 +95,7 @@ Ecco come abbiamo implementato il metodo translateCustomFunction.
 
 Ecco come utilizzare la funzione appena definita in un foglio di calcolo
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

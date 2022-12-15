@@ -15,7 +15,7 @@ url: /it/net/get-equation-text-of-chart-trendline/
 
 ![cose da fare:immagine_alt_testo](get-equation-text-of-chart-trendline_1.png)
 
-## C# codice per ottenere il testo dell'equazione della linea di tendenza del grafico
+## Codice C# per ottenere il testo dell'equazione della linea di tendenza del grafico
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetEquationTextOfChartTrendLine-1.cs" >}}
 

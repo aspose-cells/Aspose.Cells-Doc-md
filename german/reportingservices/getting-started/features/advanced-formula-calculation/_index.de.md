@@ -17,6 +17,6 @@ Microsoft Dynamische Excel-Formeln werden nicht berechnet, sondern nach bestimmt
 
 {{% /alert %}} 
 - **Formelausgabe**
-**Ein Beispielbericht mit Formeln (berechnet) wird mit Aspose.Cells für Reporting Services exportiert** 
+**Ein Beispielbericht mit Formeln (berechnet) wird mit Aspose.Cells for Reporting Services exportiert** 
 
 ![todo: Bild_alt_Text](advanced-formula-calculation_1.png)

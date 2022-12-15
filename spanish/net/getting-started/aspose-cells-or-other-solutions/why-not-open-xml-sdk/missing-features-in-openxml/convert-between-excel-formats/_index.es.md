@@ -22,7 +22,7 @@ Aspose.Cells for .NET admite la conversión de hojas de cálculo a PDF independi
 1.  Instanciar un objeto de la**Libro de trabajo** clase llamando a su constructor vacío.
 1.  Puedes**abrir/cargar** un archivo de plantilla existente u omita este paso si está creando el libro de trabajo desde cero.
 1. Realice el trabajo deseado (ingresar datos, aplicar formato, establecer fórmulas, insertar imágenes u otros objetos de dibujo, etc.) en la hoja de cálculo utilizando las API Aspose.Cells'.
-1. Cuando el código de la hoja de cálculo esté completo, llame al**Método de guardado de la clase del libro de trabajo** para guardar la hoja de cálculo. El formato de archivo debe ser PDF, así que seleccione Pdf (un valor predefinido) de la enumeración SaveFormat para generar el documento PDF final.
+1.  Cuando el código de la hoja de cálculo esté completo, llame al**Método de guardado de la clase del libro de trabajo** para guardar la hoja de cálculo. El formato de archivo debe ser PDF, así que seleccione Pdf (un valor predefinido) de la enumeración SaveFormat para generar el documento PDF final.
 
 {{< highlight "csharp" >}}
 

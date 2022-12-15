@@ -18,7 +18,7 @@ Quando la cella contiene testo o stringa ma è più grande della larghezza della
 
 ## **Specificare come incrociare la stringa nell'HTML di output utilizzando HtmlCrossType**
 
- Il codice di esempio seguente carica il file[esempio di file Excel](51740732.xlsx) e lo salva in formato HTML specificando diverso[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) . Si prega di scaricare il[HTML di output](51740734.zip) generato con questo codice. Il file Excel di esempio contiene l'immagine bordata di colore rosso come mostrato in questo screenshot che mostra l'effetto del[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) valori sull'output HTML.
+ Il codice di esempio seguente carica il file[esempio di file Excel](51740732.xlsx) e lo salva in formato HTML specificando diverso[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) Si prega di scaricare il[HTML di output](51740734.zip) generato con questo codice. Il file Excel di esempio contiene l'immagine bordata di colore rosso come mostrato in questo screenshot che mostra l'effetto del[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) valori sull'output HTML.
 
 ![cose da fare:immagine_alt_testo](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 

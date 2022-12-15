@@ -10,7 +10,7 @@ url: /ar/cpp/accessing-cells-of-a-worksheet/
 
 {{% /alert %}} 
 ## **الوصول إلى Cells**
- Aspose.Cells يوفر فئة[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) يمثل ملف Excel. ال[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) فئة تحتوي على[أوراق عمل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) صف دراسي. ال[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)مجموعة تمثل جميع الخلايا في ورقة العمل.
+ Aspose.Cells يوفر فئة[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) يمثل ملف Excel. ال[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) فئة تحتوي على[أوراق عمل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) صف دراسي. ال[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)مجموعة تمثل جميع الخلايا في ورقة العمل.
 
  يمكننا ان نستخدم[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)جمع للوصول إلى الخلايا في ورقة عمل. يوفر Aspose.Cells ثلاث طرق أساسية للوصول إلى الخلايا في ورقة العمل:
 
@@ -26,7 +26,7 @@ url: /ar/cpp/accessing-cells-of-a-worksheet/
 ### **باستخدام Cell الاسم**
  يمكن للمطورين الوصول إلى أي خلية محددة عن طريق تمرير اسم الخلية الخاص بها إلى[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) جمع[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)فئة كمؤشر.
 
- إذا قمت بإنشاء ورقة عمل فارغة في البداية ، فسيتم حساب عدد[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) المجموعة صفر. عند استخدام هذا الأسلوب للوصول إلى خلية ، فإنه سيتحقق مما إذا كانت هذه الخلية موجودة في المجموعة أم لا. إذا كانت الإجابة بنعم ، فإنه يعيد كائن الخلية في المجموعة وإلا فإنه ينشئ كائنًا جديدًا[آيسيل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) كائن ، يضيف الكائن إلى[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)جمع ثم إرجاع هذا الكائن. هذا النهج هو أسهل طريقة للوصول إلى الخلية إذا كنت معتادًا على Microsoft Excel ولكنه أبطأ مقارنة بالطرق الأخرى.
+ إذا قمت بإنشاء ورقة عمل فارغة في البداية ، فسيتم حساب عدد[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)المجموعة صفر. عند استخدام هذا الأسلوب للوصول إلى خلية ، فإنه سيتحقق مما إذا كانت هذه الخلية موجودة في المجموعة أم لا. إذا كانت الإجابة بنعم ، فإنه يعيد كائن الخلية في المجموعة وإلا فإنه ينشئ كائنًا جديدًا[آيسيل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) كائن ، يضيف الكائن إلى[Cells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)جمع ثم إرجاع هذا الكائن. هذا النهج هو أسهل طريقة للوصول إلى الخلية إذا كنت معتادًا على Microsoft Excel ولكنه أبطأ مقارنة بالطرق الأخرى.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AccessingCellsOfWorksheet-AccessingCellsUsingCellName.cpp" >}}
 ### **باستخدام فهرس الصف والعمود Cell**

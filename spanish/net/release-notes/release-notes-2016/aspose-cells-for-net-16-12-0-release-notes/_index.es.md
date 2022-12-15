@@ -66,7 +66,7 @@ url: /es/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44858|La devolución de datos de la barra de desplazamiento nunca termina (GridWeb)|Insecto|
 |CELLSNET-44734|El área visible de GridWeb cambia cuando se deja la celda con TAB o la tecla Intro|Insecto|
 |CELLSNET-44907|CellsException debido a un salto de línea dentro de la celda que abarca varias filas|Excepción|
-|CELLSNET-44893|Aspose.Cell ArithmeticException al llamar a Chart.ToImage a través de una DLL C++ compatible con CLR|Excepción|
+|CELLSNET-44893|Aspose.Cell ArithmeticException al llamar a Chart.ToImage a través de una DLL de C++ compatible con CLR|Excepción|
 |CELLSNET-44876|CellsException: error de forma a imagen, al convertir una hoja de cálculo a PDF|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.

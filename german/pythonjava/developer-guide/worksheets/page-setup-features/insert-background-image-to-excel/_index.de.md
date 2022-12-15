@@ -3,7 +3,7 @@ title: Hintergrundbild in Excel einfügen
 type: docs
 weight: 90
 url: /de/python-java/insert-background-image-to-excel/
-description: So fügen Sie ein Hintergrundbild in Excel ein, indem Sie Aspose.Cells für Python über Java verwenden
+description: So fügen Sie ein Hintergrundbild in Excel mit Aspose.Cells for Python via Java ein
 ---
 {{% alert color="primary" %}} 
 

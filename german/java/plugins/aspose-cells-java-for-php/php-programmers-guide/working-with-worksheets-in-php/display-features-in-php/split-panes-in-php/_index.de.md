@@ -5,7 +5,7 @@ weight: 70
 url: /de/java/split-panes-in-php/
 ---
 ## **Aspose.Cells - Geteilte Scheiben**
- So teilen Sie Fenster mit**Aspose.Cells Java für PHP** , einfach aufrufen**SplitPanes** Modul.
+ So teilen Sie Fenster mit**Aspose.Cells Java for PHP** , einfach aufrufen**SplitPanes** Modul.
 
 **PHP-Code**
 

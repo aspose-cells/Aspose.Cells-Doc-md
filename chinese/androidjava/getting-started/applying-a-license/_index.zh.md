@@ -18,7 +18,7 @@ url: /zh/java/applying-a-license/
 
 ## **加载许可证文件**
 
-在Aspose.Cells for Android via Java，license可以[作为资源嵌入](/cells/zh/java/applying-a-license/#applying-a-license-from-an-embedded-resource)，或从流中加载：
+Aspose.Cells for Android via Java，license可以[作为资源嵌入](/cells/zh/java/applying-a-license/#applying-a-license-from-an-embedded-resource)，或从流中加载：
 
 1. 把license文件放在任意位置**/mnt/SD卡/**.
 1. 创建引用文件的流。

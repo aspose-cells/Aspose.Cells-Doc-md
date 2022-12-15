@@ -12,7 +12,7 @@ url: /zh/net/export-comments-while-saving-excel-file-to/
 
 下面的示例代码解释了[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)财产。屏幕截图显示了设置为时代码对 HTML 的影响**真的**.请下载[示例 Excel 文件](50528260.xlsx)和[生成的 HTML](5052826.txt)供参考。
 
-![待办事项：图片_替代_文本](export-comments-while-saving-excel-file-to-html_1.png)
+![待办事项：图像_替代_文本](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **示例代码**
 

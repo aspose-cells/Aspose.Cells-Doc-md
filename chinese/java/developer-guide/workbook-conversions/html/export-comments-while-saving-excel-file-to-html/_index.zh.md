@@ -12,7 +12,7 @@ url: /zh/java/export-comments-while-saving-excel-file-to-html/
 
 下面的示例代码解释了[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)财产。屏幕截图显示了当属性设置为时代码对 HTML 的影响**真的**.请下载[示例 Excel 文件](50528270.xlsx)和[生成的 HTML](50528269)供参考。
 
-![待办事项：图片_替代_文本](export-comments-while-saving-excel-file-to-html_1.png)
+![待办事项：图像_替代_文本](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **示例代码**
 

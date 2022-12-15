@@ -17,7 +17,7 @@ url: /ar/net/create-pdfbookmarkentry-for-chart-sheet/
 - المرجعية- III
 - المرجعية- IV- الرسم البياني 2
 
- تُظهر لقطة الشاشة التالية ملف[إخراج PDF](61767757.pdf) تم إنشاؤها بواسطة رمز عينة كمرجع.
+تُظهر لقطة الشاشة التالية ملف[إخراج PDF](61767757.pdf) تم إنشاؤها بواسطة رمز عينة كمرجع.
 
 ![ما يجب القيام به: image_بديل_نص](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

@@ -5,7 +5,7 @@ weight: 10
 url: /fr/python-java/convert-excel-to/
 ---
 ## **Convertir Excel en HTML**
- Aspose.Cells pour Python via Java API offre la possibilité de convertir des fichiers Excel en documents HTML. Pour cela, le API fournit le[HtmlSaveOptions](https://reference.aspose.com/cells/python/asposecells.api/HtmlSaveOptions) classe qui permet aux développeurs de contrôler plusieurs aspects de la sortie HTML.
+ Aspose.Cells for Python via Java API offre la possibilité de convertir des fichiers Excel en documents HTML. Pour cela, le API fournit le[HtmlSaveOptions](https://reference.aspose.com/cells/python/asposecells.api/HtmlSaveOptions) classe qui permet aux développeurs de contrôler plusieurs aspects de la sortie HTML.
 
 L'extrait de code suivant illustre l'utilisation de[HtmlSaveOptions](https://reference.aspose.com/cells/python/asposecells.api/HtmlSaveOptions) classe pour exporter des fichiers Excel au format HTML.
 

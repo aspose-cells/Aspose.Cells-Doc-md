@@ -107,7 +107,7 @@ Klassen Worksheet tillhandahåller egenskapen PageSetup, som används för att s
 
 ## **Ställa in marginaler**
 
-Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan behöva konfigurera sidinställningar för kalkylblad för att styra utskriftsprocessen. Det här ämnet diskuterar hur du använder Aspose.Cells för att konfigurera sidmarginaler.
+Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan behöva konfigurera sidinställningar för kalkylblad för att styra utskriftsprocessen. Det här ämnet diskuterar hur man använder Aspose.Cells för att konfigurera sidmarginaler.
 
 **Sidmarginaler i Microsoft Excel**
 
@@ -136,7 +136,7 @@ Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan
 
 ### **Marginaler för sidhuvud och sidfot**
 
-Ställ in sidhuvuds- och sidfotsmarginaler med[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) medlemmar som t.ex[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) och[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+Ställ in sidhuvud och sidfotsmarginaler med[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) medlemmar som t.ex[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) och[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -182,7 +182,7 @@ Skriptkommandon är speciella kommandon som tillhandahålls av Aspose.Cells som 
 - **Sektion**, den del av sidhuvudet eller sidfoten där bilden kommer att placeras. Det finns tre sektioner: vänster, mitten och höger, representerade av de numeriska värdena 0, 1 respektive 2.
 - **File InputStream**, de grafiska uppgifterna. Den binära datan bör skrivas in i bufferten i en byte-array.
 
-När du har kört koden och öppnat filen, kontrollera kalkylbladets rubrik i Microsoft Excel:
+Efter att ha kört koden och öppnat filen, kontrollera kalkylbladets rubrik i Microsoft Excel:
 
 1.  På**Fil** menyn, välj**Utskriftsformat**.
 1.  I dialogrutan Utskriftsformat väljer du**Sidhuvud/sidfot** flik.

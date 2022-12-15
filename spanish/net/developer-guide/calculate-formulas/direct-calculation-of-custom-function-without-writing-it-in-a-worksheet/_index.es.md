@@ -6,7 +6,7 @@ url: /es/net/direct-calculation-of-custom-function-without-writing-it-in-a-works
 ---
 ## **Cálculo directo de la función personalizada sin escribirla en una hoja de trabajo**
 
- Este tema explica cómo puede calcular directamente sus funciones personalizadas sin escribirlas primero en una hoja de cálculo. Por favor use el[**Worksheet.CalculateFormula (fórmula de cadena, Opciones de cálculo opta)**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)método para este propósito.
+ Este tema explica cómo puede calcular directamente sus funciones personalizadas sin escribirlas primero en una hoja de trabajo. Por favor use el[**Worksheet.CalculateFormula (fórmula de cadena, Opciones de cálculo opta)**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)método para este propósito.
 
 Consulte el siguiente código de ejemplo que ilustra el uso de este método. Hemos utilizado una función personalizada llamada MyCompany.CustomFunction() y calculamos su valor como "Aspose.Cells". por nosotros mismos y luego este valor se concatena automáticamente con el valor de la celda A1 que es "Bienvenido a" por el motor de cálculo y el valor final calculado regresa como "Bienvenido a Aspose.Cells". Como puede ver en un código que tenemos no está escrita nuestra función personalizada en ninguna parte de una hoja de trabajo y se calcula directamente mediante nuestra propia lógica personalizada.
 

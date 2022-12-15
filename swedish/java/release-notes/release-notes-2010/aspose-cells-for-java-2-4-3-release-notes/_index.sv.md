@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 2.4.3 Release Notes
+title: Aspose.Cells for Java 2.4.3 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-java-2-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.4.3](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.4.3/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.4.3](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.4.3/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java 2.4.3!
+ Vi är glada att meddela Aspose.Cells for Java 2.4.3!
 
  Vad har ändrats:
 
@@ -24,7 +24,7 @@ url: /sv/java/aspose-cells-for-java-2-4-3-release-notes/
 - Förbättring görs för Direct Excel till PDF-funktionen.
 - 14 korrigeringar och förbättringar.
 
- Problem lösta i Aspose.Cells för Java 2.4.3
+ Problem lösta i Aspose.Cells for Java 2.4.3
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |

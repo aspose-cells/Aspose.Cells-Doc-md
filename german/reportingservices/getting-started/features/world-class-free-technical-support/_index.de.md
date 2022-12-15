@@ -14,7 +14,7 @@ Aspose ist bekannt für seinen kostenlosen und unbegrenzten technischen Support,
 
 - **Foren**
 
-[Aspose Support-Foren](https://forum.aspose.com/)ist nicht nur der Ort, um technische Probleme zu lösen, sondern auch an Diskussionen mit der lebhaften und wachsenden Community von Aspose-Benutzern teilzunehmen. Derzeit sind über 190.000 Benutzer auf der Website Aspose registriert.
+[Aspose Support-Foren](https://forum.aspose.com/) ist nicht nur der Ort, um technische Probleme zu lösen, sondern auch an Diskussionen mit der lebhaften und wachsenden Community von Aspose-Benutzern teilzunehmen. Derzeit sind über 190.000 Benutzer auf der Website Aspose registriert.
 
 - **Blogs**
 

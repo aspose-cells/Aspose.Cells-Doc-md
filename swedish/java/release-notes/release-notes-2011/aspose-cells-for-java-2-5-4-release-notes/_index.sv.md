@@ -1,17 +1,17 @@
 ﻿---
-title: Aspose.Cells för Java 2.5.4 Release Notes
+title: Aspose.Cells for Java 2.5.4 Release Notes
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-java-2-5-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.5.4](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.5.4/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.5.4](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.5.4/)
 
 {{% /alert %}} 
-## **Vi är glada att kunna meddela Aspose.Cells för Java v2.5.4!**
+## **Vi är glada att meddela Aspose.Cells for Java v2.5.4!**
 ### **Nya egenskaper**
- 25051 - Stöd för avancerade autofiltertyper: MultipleFilter, DynamicFilter, IconFilter
+25051 - Stöd för avancerade autofiltertyper: MultipleFilter, DynamicFilter, IconFilter
 
  25742 - Formatera hela pivottabellen eller cellerna i pivottabellsrapporten
 

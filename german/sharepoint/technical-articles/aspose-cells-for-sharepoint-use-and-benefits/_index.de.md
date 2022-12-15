@@ -1,15 +1,15 @@
 ﻿---
-title: Aspose.Cells für SharePoint – Verwendung und Vorteile
+title: Aspose.Cells for SharePoint - Verwendung und Nutzen
 type: docs
 weight: 10
 url: /de/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 ---
 {{% alert color="primary" %}} 
 
-SharePoint-Sites sind für die Zusammenarbeit, Kommunikation und Speicherung von Inhalten gedacht, um bestimmte Geschäftsanforderungen zu erfüllen. Aspose.Cells für SharePoint wurde eingeführt, um bestimmte Vorgänge für Microsoft Excel-Dokumente auszuführen, die in SharePoint-Dokumentbibliotheken verfügbar sind. Dieser Artikel behandelt Folgendes:
+SharePoint-Sites sind für die Zusammenarbeit, Kommunikation und Speicherung von Inhalten gedacht, um bestimmte Geschäftsanforderungen zu erfüllen. Aspose.Cells for SharePoint wurde eingeführt, um bestimmte Vorgänge für Microsoft Excel-Dokumente auszuführen, die in SharePoint-Dokumentbibliotheken verfügbar sind. Dieser Artikel behandelt Folgendes:
 
 - [Eine kurze Anmerkung zu SharePoint-Dokumentbibliotheken](/cells/de/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
-- [Die Vorteile Aspose.Cells für SharePoint](/cells/de/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
+- [Die Vorteile Aspose.Cells for SharePoint](/cells/de/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 - [So konvertieren Sie Microsoft Excel-Dokumente in andere Formate](/cells/de/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 
 {{% /alert %}} 
@@ -20,29 +20,29 @@ Die Inhalte auf SharePoint-Websites liegen in Form von Dokumenten vor, die an ei
 
 
 ### **Vorteile**
-Die folgende Liste hebt einige Vorteile der Verwendung von Aspose.Cells für SharePoint hervor:
+Die folgende Liste zeigt einige Vorteile der Verwendung von Aspose.Cells for SharePoint:
 
-- Der SharePoint-Site-Server verfügt nicht über eine integrierte Funktion zum Konvertieren von Microsoft Excel-Dateien direkt auf dem Server. Aspose.Cells für SharePoint fügt diese Funktion dem SharePoint-Siteserver hinzu.
-- Aspose.Cells für SharePoint erfordert kein Microsoft Excel, um zu funktionieren. Es wird auf dem Server installiert, sodass SharePoint-Benutzer Microsoft Excel nicht auf ihren lokalen Systemen benötigen, um Microsoft Excel-Dokumente von einem Format in ein anderes zu konvertieren.
-- Aspose.Cells für SharePoint erfordert keine Voraussetzungen außer denen, die zum Erstellen einer SharePoint-Site erforderlich sind.
--  Aspose.Cells für SharePoint ist[einfach auf einem SharePoint-Site-Server bereitzustellen](/cells/de/sharepoint/installing-aspose-cells-for-sharepoint/).
--  Aspose.Cells für SharePoint-Unterstützung[eine Reihe von Eingabe- und Ausgabeformaten](/cells/de/sharepoint/multiple-format-support/).
-- Aspose.Cells für SharePoint stellt eine öffentliche API für Entwickler bereit, die ihre eigenen SharePoint-Lösungen entwickeln müssen.
-### **Konvertieren von Microsoft Excel-Dokumenten mit Aspose.Cells für SharePoint**
- Sobald Aspose.Cells für SharePoint auf dem SharePoint-Server installiert ist, wird die Option**Konvertieren Sie mit Aspose.Cells.SharePoint** ist im Kontextmenü verfügbar:
+- Der SharePoint-Site-Server verfügt nicht über eine integrierte Funktion zum Konvertieren von Microsoft Excel-Dateien direkt auf dem Server. Aspose.Cells for SharePoint fügt diese Funktion dem SharePoint-Site-Server hinzu.
+- Aspose.Cells for SharePoint benötigt kein Microsoft Excel um zu funktionieren. Es wird auf dem Server installiert, sodass SharePoint-Benutzer Microsoft Excel nicht auf ihren lokalen Systemen benötigen, um Microsoft Excel-Dokumente von einem Format in ein anderes zu konvertieren.
+- Aspose.Cells for SharePoint erfordert keine Voraussetzungen außer denen, die zum Erstellen einer SharePoint-Website erforderlich sind.
+-  Aspose.Cells for SharePoint ist[einfach auf einem SharePoint-Site-Server bereitzustellen](/cells/de/sharepoint/installing-aspose-cells-for-sharepoint/).
+-  Aspose.Cells for SharePoint unterstützt[eine Reihe von Eingabe- und Ausgabeformaten](/cells/de/sharepoint/multiple-format-support/).
+- Aspose.Cells for SharePoint stellt eine öffentliche API für Entwickler bereit, die ihre eigenen SharePoint-Lösungen entwickeln müssen.
+### **Konvertieren von Microsoft Excel-Dokumenten mit Aspose.Cells for SharePoint**
+ Sobald Aspose.Cells for SharePoint auf dem SharePoint-Server installiert ist, wird die Option**Konvertieren Sie mit Aspose.Cells.SharePoint** ist im Kontextmenü verfügbar:
 
 **Die Option Konvertieren mit ... finden** 
 
 Führen Sie die folgenden Schritte aus, um ein Microsoft-Excel-Dokument aus Ihrer SharePoint-Dokumentbibliothek in andere Formate zu konvertieren:
 
-1. Klicken Sie auf das gewünschte Microsoft Excel-Dokument und dann auf Konvertieren mit Aspose.Cells für SharePoint
+1. Klicken Sie auf das gewünschte Microsoft Excel-Dokument und dann auf Konvertieren mit Aspose.Cells for SharePoint
  Der Bildschirm Konvertierungseinstellungen wird angezeigt.
 
    **Entscheidung zu konvertieren** 
 
 
 1. Wählen Sie das Ausgabeformat.
- Hier können Sie auch den Namen der Ausgabedatei und den Zielordner ändern.
+Hier können Sie auch den Namen der Ausgabedatei und den Zielordner ändern.
 1.  Klicken**Konvertieren**. 
 
    **Auswahl des Ausgabeformats** 
@@ -64,8 +64,8 @@ Führen Sie die folgenden Schritte aus, um ein Microsoft-Excel-Dokument aus Ihre
 ### **Zusammenfassung**
 {{% alert color="primary" %}} 
 
-Die Installation und Verwendung von Aspose.Cells für SharePoint ist einfach. Es fügt nicht nur eine Funktion zum Konvertieren von Microsoft Excel-Dateien direkt auf dem SharePoint-Server hinzu, sondern beseitigt auch die Notwendigkeit, Microsoft Excel auf den Client-Computern zu installieren. Darüber hinaus können Entwickler Aspose.Cells für die öffentliche API von SharePoint verwenden, um ihre eigenen SharePoint-Lösungen zu entwickeln.
+Die Installation und Verwendung von Aspose.Cells for SharePoint ist einfach. Es fügt nicht nur eine Funktion zum Konvertieren von Microsoft Excel-Dateien direkt auf dem SharePoint-Server hinzu, sondern beseitigt auch die Notwendigkeit, Microsoft Excel auf den Client-Computern zu installieren. Darüber hinaus können Entwickler die öffentliche API von Aspose.Cells for SharePoint verwenden, um ihre eigenen SharePoint-Lösungen zu entwickeln.
 
- Mit anderen Worten, es ist vorteilhaft für SharePoint-Site-Administratoren, Entwickler und Endbenutzer.
+ Mit anderen Worten, es ist von Vorteil for SharePoint Site-Administratoren, Entwickler und Endbenutzer.
 
 {{% /alert %}}

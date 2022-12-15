@@ -8,7 +8,7 @@ url: /sv/java/setting-pivot-table-option-for-empty-cells-show/
 
 Du kan ställa in olika pivottabellalternativ med Aspose.Cells. Ett sådant alternativ är "Visa för tomma celler". Att ställa in det här alternativet innebär att alla tomma celler i pivottabellen visas med en specificerad sträng.
 
-Så här hittar och ställer du in det här alternativet i Microsoft Excel:
+För att hitta och ställa in det här alternativet i Microsoft Excel:
 
 1. Välj en pivottabell och högerklicka på den.
 1.  Välj**Pivottabellalternativ**.

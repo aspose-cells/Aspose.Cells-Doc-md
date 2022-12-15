@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour PHP via Java 22.3 Notes de version
+title: Aspose.Cells for PHP via Java 22.3 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/php-java/aspose-cells-for-php-via-java-22-3-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Cette page contient des notes de version pour[Aspose.Cells pour PHP via Java 22.3](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.3/).
+ Cette page contient des notes de version pour[Aspose.Cells for PHP via Java 22.3](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.3/).
 
 {{% /alert %}}
 

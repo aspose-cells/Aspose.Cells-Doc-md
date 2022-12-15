@@ -6,11 +6,11 @@ url: /sv/net/resize-gridweb-and-its-header-bar/
 ---
 {{% alert color="primary" %}} 
 
-[Lägg till GridWeb till webbformulär](/cells/sv/net/add-gridweb-to-web-form/), diskuterade storleksändring av Aspose.Cells.GridWeb-kontrollen med WYSIWYG. Den här artikeln förklarar hur man gör samma sak men vid körning med Aspose.Cells.GridWeb API. Den förklarar också hur man ändrar storlek på rubrikfälten för Aspose.Cells.GridWeb-kontrollen för att göra deras data lättare att läsa.
+[Lägg till GridWeb till webbformulär](/cells/sv/net/add-gridweb-to-web-form/), diskuterade storleksändring av Aspose.Cells.GridWeb-kontrollen med WYSIWYG. Den här artikeln förklarar hur man gör samma sak men under körning med hjälp av Aspose.Cells.GridWeb API. Den förklarar också hur man ändrar storlek på rubrikfälten för Aspose.Cells.GridWeb-kontrollen för att göra deras data lättare att läsa.
 
 {{% /alert %}} 
 ## **Ändra bredd och höjd på Aspose.Cells.GridWeb**
-Ändra bredd och höjd på Aspose.Cells. GridWeb-kontroll är en enkel men viktig funktion. Aspose.Cells.GridWeb-kontrollen representeras av GridWeb-klassen i API:t. För att ändra storlek på bredden och höjden på GridWeb-kontrollen, använd helt enkelt dess egenskaper för bredd och höjd.
+Ändra bredd och höjd på Aspose.Cells. GridWeb-kontroll är en enkel men viktig funktion. Aspose.Cells.GridWeb-kontrollen representeras av GridWeb-klassen i API. För att ändra storlek på bredden och höjden på GridWeb-kontrollen, använd helt enkelt dess egenskaper för bredd och höjd.
 
 {{% alert color="primary" %}} 
 

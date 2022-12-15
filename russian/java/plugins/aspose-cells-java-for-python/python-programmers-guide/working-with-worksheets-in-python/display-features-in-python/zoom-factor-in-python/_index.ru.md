@@ -5,7 +5,7 @@ weight: 80
 url: /ru/java/zoom-factor-in-python/
 ---
 ## **Aspose.Cells - Коэффициент масштабирования**
- Чтобы установить коэффициент масштабирования с помощью**Aspose.Cells Java для Python** , просто вызовите**ZoomFactor** модуль.
+ Чтобы установить коэффициент масштабирования с помощью**Aspose.Cells Java for Python** , просто вызовите**ZoomFactor** модуль.
 
 **Python Код**
 

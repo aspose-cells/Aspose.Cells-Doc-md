@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.1.2
+title: Offentlig API Ändringar i Aspose.Cells 8.1.2
 type: docs
 weight: 60
 url: /sv/net/public-api-changes-in-aspose-cells-8-1-2/
@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.1
 
 {{% /alert %}} 
 ## **Stöd för varning om teckensnittsersättning har lagts till**
-Med Aspose.Cells för .NET 8.1.2 har WarningInfo, WarningType-klasserna, IWarningCallback-gränssnittet och SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att göra det lättare för användaren att få varningar om teckensnittsersättning eller PDF-format uppstår vid konvertering av kalkylark.
+Med Aspose.Cells for .NET 8.1.2 har WarningInfo, WarningType-klasserna, IWarningCallback-gränssnittet och SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att underlätta för användaren att ta emot varningar vid konvertering av teckensnittsformat eller PDF-format.
 
 {{% alert color="primary" %}} 
 
@@ -18,4 +18,4 @@ Med Aspose.Cells för .NET 8.1.2 har WarningInfo, WarningType-klasserna, IWarnin
 
 {{% /alert %}}
 ## **Borttagen föråldrad PdfSaveOptions.ChartImageType Property**
-Aspose.Cells för .NET 8.1.2 har tagit bort den föråldrade egenskapen PdfSaveOptions.ChartImageType från det offentliga API:et.
+Aspose.Cells for .NET 8.1.2 har tagit bort den föråldrade egenskapen PdfSaveOptions.ChartImageType från den offentliga API.

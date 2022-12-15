@@ -102,7 +102,7 @@ Vous avez ajouté avec succès le module Aspose.Cells Dynamic Form Builder for S
 
 #### **Comment appliquer la licence Aspose ?**
 
-Ce plugin utilise une version d'évaluation de Aspose.Cells. Une fois que vous êtes satisfait de votre évaluation, vous pouvez acheter une licence sur le[Aspose Site d'achat](https://purchase.aspose.com/buy).
+ Ce plugin utilise une version d'évaluation de Aspose.Cells. Une fois que vous êtes satisfait de votre évaluation, vous pouvez acheter une licence sur le[Aspose Site d'achat](https://purchase.aspose.com/buy).
 Pour supprimer le message d'évaluation et les limitations des fonctionnalités, la licence du produit doit être appliquée. Vous recevrez un fichier de licence après avoir acheté le produit. Veuillez suivre les étapes ci-dessous pour appliquer la licence
 
 -  Assurez-vous que le fichier de licence porte le nom**Aspose.Total.lic**

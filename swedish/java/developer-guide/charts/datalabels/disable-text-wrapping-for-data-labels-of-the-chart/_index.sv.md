@@ -14,13 +14,13 @@ Aspose.Cells tillhandahåller[**DataLabels.setTextWrapped()**](https://reference
 
  Använd på samma sätt[**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)metod för att ta reda på om en dataetikett redan är inslagen.
 
-Den här skärmdumpen visar ett exempel på en Microsoft Excel-fil som innehåller ett diagram där texten till dataetiketterna är inlindade. Som du kan se kan du kontrollera eller rensa**Slå in text i form** alternativet i avsnittet ALIGNMENT på panelen Formatera dataetiketter i Microsoft Excel 2013.
+Den här skärmdumpen visar ett exempel på Microsoft Excel-fil som innehåller ett diagram där texten till dataetiketterna är inlindade. Som du kan se kan du kontrollera eller rensa**Slå in text i form** alternativet i avsnittet ALIGNMENT på panelen Format Dataetiketter i Microsoft Excel 2013.
 
 **Slå in dataetiketter**
 
 ![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
 
- Exempelkoden som följer läser in exempelfilen i Microsoft Excel med Aspose.Cells och inaktiverar dataetiketttextbrytning med hjälp av[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)metod. När koden exekveras ser diagrammet ut så här. Den tidigare raderade texten är nu uppackad.
+ Exempelkoden som följer läser in exemplet Microsoft Excel-fil med Aspose.Cells och inaktiverar dataetikettstextbrytning med hjälp av[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)metod. När koden exekveras ser diagrammet ut så här. Den tidigare raderade texten är nu uppackad.
 
 **Visar endast dataetiketter på en rad**
 

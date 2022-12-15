@@ -12,7 +12,7 @@ url: /sv/jasperreports/configuration-parameters/
 
 |**Parameternamn** |**Beskrivning** |
 |:- |:- |
-| FORMAT_TYPE| Kan ställas in på "EXCEL97TO2003" eller "EXCEL2007" för att generera filer i Microsoft Excel 79 0 2003 eller Excel 2007.|
+| FORMAT_TYPE| Kan ställas in på "EXCEL97TO2003" eller "EXCEL2007" för att generera filer i formatet Microsoft Excel 79 0 2003 eller Excel 2007.|
 |ÄR_ETT_SIDA_PER_ ARK| Ett booleskt värde som anger om varje rapportsida ska skrivas till ett annat XLS-kalkylblad.|
 |ÄR_TA BORT_TÖMMA_PLATS_ BETWEEN_ROWS| Ett booleskt värde som anger om de tomma blanksteg som kan visas mellan rader ska tas bort eller inte.|
 |ÄR_TA BORT_TÖMMA_PLATS_ BETWEEN_COLUMNS|Ett booleskt värde som anger om de tomma mellanslag som kan visas mellan kolumner ska tas bort eller inte.|

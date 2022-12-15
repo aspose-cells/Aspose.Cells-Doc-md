@@ -10,7 +10,7 @@ url: /it/java/assign-macro-code-to-form-control/
 
 {{% /alert %}} 
 ## **Assegnazione del codice macro al controllo del modulo utilizzando Aspose.Cells**
-Il codice di esempio seguente crea una nuova cartella di lavoro, assegna un codice macro a un pulsante del modulo e salva l'output nel formato XLSM. Una volta, aprirai il file XLSM di output in Microsoft Excel vedrai il seguente codice macro.
+Il codice di esempio seguente crea una nuova cartella di lavoro, assegna un codice macro a un pulsante del modulo e salva l'output nel formato XLSM. Una volta, aprirai il file XLSM di output in Microsoft Excel, vedrai il seguente codice macro.
 
 {{< highlight "java" >}}
 

@@ -8,7 +8,7 @@ url: /it/reportingservices/supported-file-formats/
 |:- |:- |:- |:- |
 |RDL|Lingua di definizione del rapporto|{{< emoticons/tick >}}||
 |RDLC|Cliente della lingua di definizione del rapporto|{{< emoticons/tick >}}||
-|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Salva il documento nella cartella di lavoro Microsoft Excel 97-2003.||{{< emoticons/tick >}}|
+|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Salva il documento nella cartella di lavoro di Microsoft Excel 97-2003.||{{< emoticons/tick >}}|
 |[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Salva il documento in Office Open XML SpreadsheetML Workbook o file modello, con o senza macro.||{{< emoticons/tick >}}|
 |[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Salva il documento nella cartella di lavoro con attivazione macro di Excel.||{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Salva il documento nella cartella di lavoro binaria di Excel.||{{< emoticons/tick >}}|

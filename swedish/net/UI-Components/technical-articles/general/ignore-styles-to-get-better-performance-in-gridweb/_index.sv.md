@@ -7,7 +7,7 @@ description: Den här artikeln beskriver hur du använder IgnoreStyleWithNoData 
 keywords: performance
 ---
 ## **Möjliga användningsscenarier**
-Snälla använd[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)egenskap för att läsa in färre nödvändiga rader/kolumner från arbetsboken.
+ Snälla använd[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)egenskap för att läsa in färre nödvändiga rader/kolumner från arbetsboken.
  
 ## **Få bättre prestanda när arbetsboken laddas**
  Vänligen kontrollera[exempel på excel-fil](largerowswithstyle.xlsx) 
@@ -27,7 +27,7 @@ Från rad 16 till rad 500 har några av cellerna angett boderstilen, men cellern
 
 Från kolumn M till kolumn CZ har några av cellerna angett boderstilen, men cellerna innehåller inga data.
 
-![arbetsbok utan ignoreringsstil](ignorestylefalse.png)
+![arbetsbok utan att ignorera stil](ignorestylefalse.png)
  
  
  

@@ -28,7 +28,7 @@ Nachdem Sie mit der Erstellung Ihrer Tabelle fertig sind, möchten Sie wahrschei
 
 ### Ausgewähltes Arbeitsblatt drucken
 
-Das folgende Code-Snippet demonstriert die Verwendung von[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))-Methode, um Ihr ausgewähltes Arbeitsblatt zu drucken.
+ Das folgende Code-Snippet demonstriert die Verwendung von[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))-Methode, um Ihr ausgewähltes Arbeitsblatt zu drucken.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 

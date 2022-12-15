@@ -6,12 +6,12 @@ url: /it/net/encrypting-excel-files-in-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-Microsoft Excel (97 - 2007) consente di crittografare e proteggere con password i fogli di calcolo. Utilizza algoritmi forniti da un provider di servizi crittografici, o CSP, un insieme di algoritmi crittografici con proprietà diverse. Il CSP predefinito è "Compatibile con Office 97/2000" o "Crittografia debole (XOR)". È importante scegliere la lunghezza corretta della chiave di crittografia. Alcuni CSP non supportano più di 40 o 56 bit. Questa è considerata una crittografia debole. Per una crittografia avanzata, è richiesta una lunghezza minima della chiave di 128 bit. Microsoft Windows contiene CSP che offrono anche tipi di crittografia avanzata, ad esempio "Microsoft Strong Cryptographic Provider". Per darti un'idea, la crittografia a 128 bit è ciò che le banche usano per crittografare la connessione con i loro sistemi di Internet Banking.
+Microsoft Excel (97 - 2007) consente di crittografare e proteggere con password i fogli di calcolo. Utilizza algoritmi forniti da un provider di servizi crittografici, o CSP, un insieme di algoritmi crittografici con proprietà diverse. Il CSP predefinito è "Compatibile con Office 97/2000" o "Crittografia debole (XOR)". È importante scegliere la lunghezza corretta della chiave di crittografia. Alcuni CSP non supportano più di 40 o 56 bit. Questa è considerata una crittografia debole. Per una crittografia avanzata, è richiesta una lunghezza minima della chiave di 128 bit. Microsoft Windows contiene CSP che offrono anche tipi di crittografia avanzata, ad esempio il "Microsoft Strong Cryptographic Provider". Per darti un'idea, la crittografia a 128 bit è ciò che le banche usano per crittografare la connessione con i loro sistemi di Internet Banking.
 
-Aspose.Cells consente di crittografare e proteggere con password i file Excel Microsoft con il tipo di crittografia desiderato.
+Aspose.Cells consente di crittografare e proteggere con password i file di Microsoft Excel con il tipo di crittografia desiderato.
 
 {{% /alert %}} 
-## **Utilizzando Microsoft Excel**
+## **Utilizzo di Microsoft Excel**
 Per configurare le impostazioni di crittografia dei file in Microsoft Excel (qui Microsoft Excel 2003):
 
 1.  Dal**Strumenti** menù, selezionare**Opzioni**.
@@ -34,7 +34,7 @@ Per configurare le impostazioni di crittografia dei file in Microsoft Excel (qui
 
 
 ## **Crittografia con Aspose.Cells**
-L'esempio seguente mostra come crittografare e proteggere con password un file excel utilizzando Aspose.Cells API.
+L'esempio seguente mostra come crittografare e proteggere con password un file Excel utilizzando l'API Aspose.Cells.
 
 **C#**
 

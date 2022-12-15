@@ -30,7 +30,7 @@ Skriptbefehle sind spezielle Befehle, mit denen Sie die Formatierung von Kopf- u
 |&EIN|Der Arbeitsblattname|
 |&F|Der Dateiname ohne Pfad|
 |&"\<FontName>"|Stellt einen Schriftartnamen dar. Zum Beispiel: &"Arial"|
-|&"\<FontName>, \<FontStyle>"|Stellt den Schriftartnamen mit Stil dar. Zum Beispiel: &"Arial,Fett"|
+|&"\<FontName>, \<FontStyle>"|Stellt den Schriftartnamen mit Stil dar. Zum Beispiel: &"Arial,Bold"|
 |&\<FontSize>|Stellt die Schriftgröße dar. Beispiel: „&14abc“. Wenn diesem Befehl jedoch eine einfache Zahl folgt, die in der Kopfzeile gedruckt werden soll, sollte diese mit einem Leerzeichen von der Schriftgröße getrennt werden. Beispiel: „&14 123“.|
 
 ### **Legen Sie Kopf- und Fußzeilen fest**

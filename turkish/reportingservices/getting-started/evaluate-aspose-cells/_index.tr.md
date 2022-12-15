@@ -6,11 +6,11 @@ url: /tr/reportingservices/evaluate-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
-Değerlendirme için Raporlama Hizmetleri için Aspose.Cells numaralı telefondan kolayca indirebilirsiniz.[indirme sayfası](https://downloads.aspose.com/cells/reportingservices) . Değerlendirme indirmesi, satın alınan indirme ile aynıdır. Değerlendirme sürümü, yalnızca şu süreden sonra lisanslanır:[lisans uygulamak](/cells/tr/reportingservices/licensing/).
+ Değerlendirme için Aspose.Cells for Reporting Services adresinden kolayca indirebilirsiniz.[indirme sayfası](https://downloads.aspose.com/cells/reportingservices) . Değerlendirme indirmesi, satın alınan indirme ile aynıdır. Değerlendirme sürümü, yalnızca şu süreden sonra lisanslanır:[lisans uygulamak](/cells/tr/reportingservices/licensing/).
 
 {{% /alert %}}
 
-Raporlama Hizmetleri için Aspose.Cells değerlendirme sürümü (belirtilen bir lisans olmadan), bir dereceye kadar tam olmasa da ürün işlevselliği sağlar. Bir sınırlama, herhangi bir elektronik tablo belgesini açarken / kaydederken her zaman değerlendirme filigranı içeren fazladan bir çalışma sayfası enjekte etmesidir.
+Aspose.Cells for Reporting Services değerlendirme sürümü (belirtilen bir lisans olmadan), bir dereceye kadar tam olmasa da ürün işlevselliği sağlar. Bir sınırlama, herhangi bir elektronik tablo belgesini açarken / kaydederken her zaman değerlendirme filigranı içeren fazladan bir çalışma sayfası enjekte etmesidir.
 
 ![yapılacaklar:resim_alternatif_Metin](evaluate-aspose-cells_1.png)
 
@@ -22,4 +22,4 @@ Raporlama Hizmetleri için Aspose.Cells değerlendirme sürümü (belirtilen bir
 
 **Figür:** Değerlendirme Uyarısı – Fazladan Bir Çalışma Sayfası
 
- Raporlama Servisleri için Aspose.Cells'i değerlendirme sürümü sınırlaması olmadan test etmek istiyorsanız,[30 günlük geçici lisans talep edin](https://purchase.aspose.com/temporary-license).
+ Aspose.Cells for Reporting Services'i değerlendirme sürümü sınırlaması olmadan test etmek istiyorsanız,[30 günlük geçici lisans talep edin](https://purchase.aspose.com/temporary-license).

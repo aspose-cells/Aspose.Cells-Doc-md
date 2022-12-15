@@ -23,6 +23,6 @@ Som du kan se är target-attributet i HTML-länken ovan **_self**. Du kan styra 
 
 {{% /alert %}} 
 ## **Ändra måltyp för HTML-länk**
- Följande kod illustrerar användningen av[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) fast egendom. Det ändrar länkmåltypen till**tom**. Som standard är det**förälder** . Du kan få[source excel-fil](5472932.xlsx) från denna länk kan du dock använda vilken excel-fil som helst som innehåller en HTML-hyperlänk för att köra den här koden.
+ Följande kod illustrerar användningen av[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) fast egendom. Det ändrar länkmåltypen till**tom**. Som standard är det**förälder** . Du kan få[källkod excel-fil](5472932.xlsx) från denna länk kan du dock använda vilken excel-fil som helst som innehåller en HTML-hyperlänk för att köra den här koden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}

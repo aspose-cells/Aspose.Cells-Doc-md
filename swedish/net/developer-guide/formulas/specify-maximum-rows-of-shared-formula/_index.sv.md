@@ -12,7 +12,7 @@ De maximala standardraderna i den delade formeln är 64. Det kan vara vilket ant
 
 ## **Ange maximalt antal rader med delad formel**
 
-Följande exempelkod förklarar användningen av[**Arbetsbok.Inställningar.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula)fast egendom. Den ställer in det maximala antalet rader i den delade formeln till 5 och lägger till den delade formeln i cell D1 för 100 rader och sparar till[utdata Excel-fil](61767856.xlsx). Om du extraherar innehållet i utdata Excel-fil och kontrollerar*ark1.xml*, kommer du att se de delade formeln delas efter var 5:e rad som markerats i skärmdumpen ovan.
+Följande exempelkod förklarar användningen av[**Arbetsbok.Inställningar.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) fast egendom. Den ställer in det maximala antalet rader i den delade formeln till 5 och lägger till den delade formeln i cell D1 för 100 rader och sparar till[utdata Excel-fil](61767856.xlsx). Om du extraherar innehållet i utdata Excel-fil och kontrollerar*ark1.xml*, kommer du att se de delade formeln delas efter var 5:e rad som markerats i skärmdumpen ovan.
 
 ## **Exempelkod**
 

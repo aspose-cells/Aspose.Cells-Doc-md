@@ -14,7 +14,7 @@ Aspose es reconocido por su soporte técnico gratuito e ilimitado proporcionado 
 
 #### **Foros**
 
-[Foros de soporte de Aspose](https://forum.aspose.com/)es el lugar no solo para resolver problemas técnicos, sino también para participar en debates con la vibrante y creciente comunidad de usuarios de Aspose. Actualmente hay más de 190.000 usuarios registrados en el sitio web Aspose.
+[Foros de soporte de Aspose](https://forum.aspose.com/) es el lugar no solo para resolver problemas técnicos, sino también para participar en debates con la vibrante y creciente comunidad de usuarios de Aspose. Actualmente hay más de 190.000 usuarios registrados en el sitio web Aspose.
 
 #### **blogs**
 

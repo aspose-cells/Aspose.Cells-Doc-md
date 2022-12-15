@@ -40,8 +40,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.3.
 |CELLSJAVA-42526|Errore nella cella B4-Formula non valida: si verifica un'eccezione durante l'impostazione della formula|Eccezione|
 |CELLSJAVA-42522|ArrayIndexOutOfBoundsException all'apertura del file tramite Aspose.Cells|Eccezione|
 |CELLSJAVA-42517|Eccezione "com.aspose.cells.CellsException: formula non valida:" durante il caricamento di un file ODS|Eccezione|
-# **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+# **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HtmlSaveOptions.ExportSimilarBorderStyle**
 Indica se esportare lo stile del bordo simile quando lo stile del bordo non è supportato dai browser. Se desideri importare il file HTML o MHT in Excel, mantieni il valore predefinito. Il valore predefinito è falso.
 #### **Aggiunge la proprietà Axis.AxisLabels**

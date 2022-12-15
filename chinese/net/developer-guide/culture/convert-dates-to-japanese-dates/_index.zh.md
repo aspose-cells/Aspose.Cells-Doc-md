@@ -14,7 +14,7 @@ url: /zh/net/convert-dates-to-japanese-dates/
 
  Aspose.Cells 提供了一种将公历日期转换为日本日期的方法。在这个转换过程中，也考虑到了时代的变化。以下代码片段将[源Excel](90112015.xlsx)包含公历日期的文件[输出PDF](90112016.pdf)日本日期如下图所示。
 
-![待办事项：图片_替代_文本](convert-dates-to-japanese-dates_1.jpg)
+![待办事项：图像_替代_文本](convert-dates-to-japanese-dates_1.jpg)
 
 
 

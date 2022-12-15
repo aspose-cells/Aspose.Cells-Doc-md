@@ -24,9 +24,9 @@ Så här lägger du till delsummor i Microsoft Excel:
 
  Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. Klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad och andra objekt. Varje arbetsblad består av en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. För att lägga till delsummor till ett kalkylblad, använd[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) klass'[**Delsumma**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index)metod. Ange parametervärden till metoden för att specificera hur delsumman ska beräknas och placeras.
 
-I exemplen nedan har vi lagt till delsummor till det första kalkylbladet i mallfilen (Book1.xls) med hjälp av Aspose.Cells API. När koden körs skapas ett kalkylblad med delsummor.
+exemplen nedan har vi lagt till delsummor till det första kalkylbladet i mallfilen (Book1.xls) med hjälp av Aspose.Cells API. När koden exekveras skapas ett kalkylblad med delsummor.
 
-Kodavsnitten som följer visar hur man lägger till delsummor till ett kalkylblad med Aspose.Cells för .NET.
+Kodavsnitten som följer visar hur man lägger till delsummor till ett kalkylblad med Aspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-CreatingSubtotals-1.cs" >}}
 

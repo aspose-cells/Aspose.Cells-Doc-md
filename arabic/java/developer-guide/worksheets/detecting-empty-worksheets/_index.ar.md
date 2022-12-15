@@ -4,7 +4,7 @@ type: docs
 weight: 710
 url: /ar/java/detecting-empty-worksheets/
 ---
-## **تحقق من وجود Cells بالسكان**
+## **تحقق من عدد السكان Cells**
 يمكن أن تحتوي أوراق العمل على خلية واحدة أو أكثر مليئة بالقيم حيث يمكن أن تكون القيمة بسيطة (نصية أو رقمية أو تاريخ / وقت) أو صيغة أو قيمة قائمة على صيغة. في مثل هذه الحالة ، من السهل اكتشاف ما إذا كانت ورقة عمل معينة فارغة أم لا. كل ما علينا التحقق منه هو[Cells.MaxDataRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataRow) أو[Cells.MaxDataColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataColumn)الخصائص. إذا كانت الخصائص المذكورة أعلاه ترجع صفرًا أو قيمًا موجبة ، فهذا يعني أنه تم ملء خلية واحدة أو أكثر ، ومع ذلك ، إذا أرجع أي من هذه الخصائص -1 ، فهذا يشير إلى أنه لم يتم ملء أي خلية في ورقة العمل المحددة.
 
 {{% alert color="primary" %}} 

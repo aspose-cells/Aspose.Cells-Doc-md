@@ -5,7 +5,7 @@ weight: 1060
 url: /it/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 ## **Possibili scenari di utilizzo**
- Si prega di utilizzare[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) property durante il filtraggio dei dati dalla cartella di lavoro. Ma se vuoi filtrare i dati da singoli fogli di lavoro, dovrai eseguire l'override[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) metodo. Si prega di fornire il valore appropriato da[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumerazione durante la creazione o l'utilizzo[Carica filtro](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+ Si prega di utilizzare[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter)property durante il filtraggio dei dati dalla cartella di lavoro. Ma se vuoi filtrare i dati da singoli fogli di lavoro, dovrai eseguire l'override[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) metodo. Si prega di fornire il valore appropriato da[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumerazione durante la creazione o l'utilizzo[Carica filtro](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
  Il[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)enumerazione ha i seguenti valori.
 

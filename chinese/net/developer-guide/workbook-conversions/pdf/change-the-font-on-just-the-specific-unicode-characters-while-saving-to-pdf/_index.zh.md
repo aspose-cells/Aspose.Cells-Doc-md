@@ -24,12 +24,12 @@ url: /zh/net/change-the-font-on-just-the-specific-unicode-characters-while-savin
 
 |**第一个 PDF 文件**|
 |:- |
-|![待办事项：图片_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
+|![待办事项：图像_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
 
 
 |**第二个 PDF 文件**|
 |:- |
-|![待办事项：图片_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
+|![待办事项：图像_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
 ### **示例代码**
 
 

@@ -5,7 +5,7 @@ weight: 10
 url: /sv/reportingservices/automation-error/
 ---
 ##### **Beskrivning**
-När Microsoft Excel 2003 laddar Aspose.Cells.ReportingServices.Client-tillägg, producerar Microsoft Excel ett automatiseringsfel:
+ När Microsoft Excel 2003 laddar Aspose.Cells.ReportingServices.Client-tillägg, ger Microsoft Excel ett automatiseringsfel:
 
 ![todo:image_alt_text](automation-error_1.png)
 ##### **Lösning**

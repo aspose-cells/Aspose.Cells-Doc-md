@@ -9,7 +9,7 @@ url: /it/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
 1. Apri Visual Studio 2019.
 1. Dal**File**menù, selezionare**Nuovo**, poi**Progetto**.
  Viene aperta la finestra di dialogo Crea un nuovo progetto.
-1. Selezionare**App Moduli Windows (Framework .NET)**dai modelli di progetto installati di Visual Studio e fare clic su**Prossimo**.
+1. Selezionare**App Windows Form (.NET Framework)**dai modelli di progetto installati di Visual Studio e fare clic su**Prossimo**.
 
 ![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
 
@@ -19,7 +19,7 @@ url: /it/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
 ### **Passaggio 2: aggiungi i controlli alla casella degli strumenti**
 1.  Clicca sul**Cassetta degli attrezzi**
 1.  Scegliere**Controlli comuni**, fai clic con il pulsante destro del mouse e seleziona "**Scegli gli articoli...**" dal menu contestuale.
-1.  Nel**.NET Componenti Quadro** scheda del**Scegli Oggetti Toolbox** finestra, scorrere e selezionare**GrigliaDesktop** e**Barra della formula** componenti.
+1.  Nel**Componenti di .NET Framework** scheda del**Scegli Oggetti Toolbox** finestra, scorrere e selezionare**GrigliaDesktop** e**Barra della formula** componenti.
 
 ![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
 ### **Passaggio 3: aggiungere controlli al modulo**

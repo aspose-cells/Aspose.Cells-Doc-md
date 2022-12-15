@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.8.2
+title: Offentlig API Ändringar i Aspose.Cells 8.8.2
 type: docs
 weight: 280
 url: /sv/net/public-api-changes-in-aspose-cells-8-8-2/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Uppdatera referenser automatiskt medan du tar bort tomma rader och kolumner**
-Aspose.Cells för .NET 8.8.2 har avslöjat de överbelastade versionerna av metoderna Cells.DeleteBlankRows & Cells.DeleteBlankColumns. De nya metoderna kan acceptera en instans av DeleteOptions-klassen och kan användas för att övervinna de situationer som kan uppstå på grund av de trasiga referenserna i formler, diagramseriedata och så vidare. Klassen DeleteOptions har för närvarande bara en medlem, en egenskap av boolesk typ med namnet UpdateReference. Om nämnda egenskap är satt till true och instansen av DeleteOptions-klassen skickas till metoderna Cells.DeleteBlankRows & Cells.DeleteBlankColumns, kommer API:et internt att justera formelreferenserna (om några) för att anpassas till ändringarna.
+Aspose.Cells for .NET 8.8.2 har avslöjat de överbelastade versionerna av metoderna Cells.DeleteBlankRows & Cells.DeleteBlankColumns. De nya metoderna kan acceptera en instans av DeleteOptions-klassen och kan användas för att övervinna de situationer som kan uppstå på grund av de trasiga referenserna i formler, diagramseriedata och så vidare. Klassen DeleteOptions har för närvarande bara en medlem, en egenskap av boolesk typ med namnet UpdateReference. Om egenskapen är satt till true och instansen av DeleteOptions-klassen skickas till metoderna Cells.DeleteBlankRows & Cells.DeleteBlankColumns, kommer API internt att justera formelreferenserna (om några) för att anpassas till ändringarna.
 
 {{% alert color="primary" %}} 
 

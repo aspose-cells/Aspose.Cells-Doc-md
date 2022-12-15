@@ -37,7 +37,7 @@ Para agregar un hipervínculo de texto a una hoja de cálculo:
 
 1. Agregue el control Aspose.Cells.GridWeb a su formulario web.
 1. Accede a una hoja de trabajo.
-1. Agregue un hipervínculo a una celda en la hoja de trabajo.
+1. Agregue un hipervínculo a una celda en la hoja de cálculo.
 1. Establezca el texto que se mostrará en la celda.
 1. Establezca la URL del hipervínculo.
 1. Establezca el destino del hipervínculo, si lo desea.

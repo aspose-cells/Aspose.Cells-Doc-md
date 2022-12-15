@@ -8,7 +8,7 @@ url: /it/reportingservices/render-all-report-chart-items-to-excel-charts/
 
 Per eseguire il rendering di tutti gli elementi del grafico in un report come grafici Excel modificabili:
 
-1. Apri il**Aspose.Cells.ReportingServices.xml** file.
+1.  Apri il**Aspose.Cells.ReportingServices.xml** file.
 1.  Modificare i parametri di configurazione come segue:
 
 {{< highlight "java" >}}

@@ -5,7 +5,7 @@ weight: 10
 url: /sv/java/converting-chart-to-image-in-ruby/
 ---
 ## **Aspose.Cells - Konvertera diagram till bild**
-För att konvertera diagram till bild med Aspose.Cells för Java i Ruby, anropa helt enkelt Converter-modulen.
+För att konvertera diagram till bild med Aspose.Cells for Java i Ruby, anropa helt enkelt omvandlarmodulen.
 
 **Ruby kod**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per PHP tramite Java 22.3 Note di rilascio
+title: Aspose.Cells for PHP via Java 22.3 Note di rilascio
 type: docs
 weight: 10
 url: /it/php-java/aspose-cells-for-php-via-java-22-3-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per PHP tramite Java 22.3](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.3/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for PHP via Java 22.3](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.3/).
 
 {{% /alert %}}
 
@@ -29,9 +29,9 @@ url: /it/php-java/aspose-cells-for-php-via-java-22-3-release-notes/
 |CELLSJAVA-44323|Eccezione durante l'aggiunta della riga della firma|
 |CELLSJAVA-44361|CellsException sollevata durante la conversione di xlsx in html|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Modifica il valore predefinito di HtmlSaveOptions.ExcludeUnusedStyles.**
 

@@ -6,7 +6,7 @@ url: /es/java/move-range-of-cells-in-a-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-Este artículo muestra cómo mover un rango de celdas en una hoja de cálculo.
+Este artículo muestra cómo mover un rango de celdas en una hoja de trabajo.
 
 {{% /alert %}} 
 ## **Mover rango de Cells en una hoja de trabajo**

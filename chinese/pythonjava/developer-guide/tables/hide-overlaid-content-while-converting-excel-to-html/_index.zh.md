@@ -9,6 +9,6 @@ url: /zh/python-java/hide-overlaid-content-while-converting-excel-to/
 
 下面的示例代码加载[示例 Excel 文件](sampleHidingOverlaidContentWithCrossHideRight.xlsx)并将其保存到[输出 HTML](HTML-outputHidingOverlaidContentWithCrossHideRight.zip)设置后[HtmlSaveOptions.HtmlCrossStringType](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType)作为[叉_隐藏_正确的](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT).截图解释了如何[叉_隐藏_正确的](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)影响默认输出的输出 HTML。
 
-![待办事项：图片_替代_文本](Hiding-Overlaid-Content-With-CrossHideRight.png)
+![待办事项：图像_替代_文本](Hiding-Overlaid-Content-With-CrossHideRight.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.py" >}}

@@ -17,7 +17,7 @@ url: /fr/java/aspose-cells-for-java-8-4-2-release-notes/
 \1) Aspose.Cells 
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Nouvelles fonctionnalités**
 
@@ -56,7 +56,7 @@ url: /fr/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41284) - Workbook.copy() corrompt le fichier Excel de sortie
 
- (CELLSJAVA-41283) - Bogue de calcul avec la fonction OR
+ (CELLSJAVA-41283) - Bogue de calcul avec la fonction OU
 
  (CELLSJAVA-41281) - L'opération d'ajustement automatique des colonnes ne prend pas effet avec quelques cellules avec l'option ShrinkToFit activée
 

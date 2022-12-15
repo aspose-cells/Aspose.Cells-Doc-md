@@ -11,7 +11,7 @@ Aspose.Cells, Microsoft Excel 2013 veya önceki sürümlerde bulunmayan Microsof
 
 ![yapılacaklar:resim_alternatif_Metin](read-and-manipulate-excel-2016-charts_1.png)
 
- Aşağıdaki ekran görüntüsü[çıktı excel dosyası](23166978.xlsx) kodun yürütülmesinden sonra. Gördüğünüz gibi grafik başlığı, grafik türüne göre değiştirilir.
+Aşağıdaki ekran görüntüsü[çıktı excel dosyası](23166978.xlsx) kodun yürütülmesinden sonra. Gördüğünüz gibi grafik başlığı, grafik türüne göre değiştirilir.
 
 ![yapılacaklar:resim_alternatif_Metin](read-and-manipulate-excel-2016-charts_2.png)
 ## **Basit kod**

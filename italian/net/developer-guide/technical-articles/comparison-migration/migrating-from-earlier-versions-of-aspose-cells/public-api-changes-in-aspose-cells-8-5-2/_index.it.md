@@ -1,17 +1,17 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.5.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.5.2
 type: docs
 weight: 180
 url: /it/net/public-api-changes-in-aspose-cells-8-5-2/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.5.1 alla 8.5.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-5-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.5.1 alla 8.5.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-5-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Renderizza il foglio di lavoro nel contesto grafico**
- Questa versione di Aspose.Cells for .NET API ha esposto due nuovi overload del metodo SheetRender.ToImage che ora consente di accettare un'istanza della classe System.Drawing.Graphics per[rendere nel contesto della grafica](/cells/it/net/render-worksheet-to-graphic-context/). Le firme dei nuovi metodi aggiunti sono le seguenti.
+ Questa versione dell'API Aspose.Cells for .NET ha esposto due nuovi overload del metodo SheetRender.ToImage che ora consente di accettare un'istanza della classe System.Drawing.Graphics per[rendere nel contesto della grafica](/cells/it/net/render-worksheet-to-graphic-context/). Le firme dei nuovi metodi aggiunti sono le seguenti.
 
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
@@ -104,19 +104,19 @@ workbook.Save("output.xlsx");
 
 
 ### **Proprietà SaveOptions.MergeAreas aggiunta**
-Aspose.Cells for .NET 8.5.2 ha esposto la proprietà SaveOptions.MergeAreas che può accettare un valore di tipo booleano. Il valore predefinito è false tuttavia, se impostato su true, Aspose.Cells for .NET API tenta di unire la singola CellArea prima di salvare il file.
+Aspose.Cells for .NET 8.5.2 ha esposto la proprietà SaveOptions.MergeAreas che può accettare un valore di tipo booleano. Il valore predefinito è false tuttavia, se impostato su true, l'API Aspose.Cells for .NET tenta di unire la singola CellArea prima di salvare il file.
 
 {{% alert color="primary" %}} 
 
-Se un foglio di calcolo ha troppe singole celle con convalida applicata, è possibile che il foglio di calcolo risultante venga danneggiato. Una possibile soluzione consiste nell'unire le celle con regole di convalida identiche oppure è ora possibile utilizzare la proprietà SaveOptions.MergeAreas per indicare a API di unire automaticamente CellAreas prima dell'operazione di salvataggio.
+Se un foglio di calcolo ha troppe singole celle con convalida applicata, è possibile che il foglio di calcolo risultante venga danneggiato. Una possibile soluzione consiste nell'unire le celle con regole di convalida identiche oppure è ora possibile utilizzare la proprietà SaveOptions.MergeAreas per indirizzare l'API in modo da unire automaticamente CellAreas prima dell'operazione di salvataggio.
 
 {{% /alert %}} 
 ### **Proprietà Shape.Geometry.ShapeAdjustValues aggiunta**
- Con il rilascio della v8.5.2, Aspose.Cells API ha esposto la proprietà Shape.Geometry.ShapeAdjustValues che può essere utilizzata per[apportare modifiche ai punti di regolazione di diverse forme](/cells/it/net/change-adjustment-values-of-the-shape/).
+ Con il rilascio della v8.5.2, l'API Aspose.Cells ha esposto la proprietà Shape.Geometry.ShapeAdjustValues che può essere utilizzata per[apportare modifiche ai punti di regolazione di diverse forme](/cells/it/net/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-Nell'interfaccia Excel Microsoft, i punti di regolazione vengono visualizzati come nodi romboidali gialli.
+Nell'interfaccia di Microsoft Excel, i punti di regolazione vengono visualizzati come nodi romboidali gialli.
 
 {{% /alert %}} 
 

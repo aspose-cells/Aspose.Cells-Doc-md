@@ -6,7 +6,7 @@ url: /it/net/formatting-slicer/
 ---
 ## **Possibili scenari di utilizzo**
 
-Puoi formattare l'affettatrice in Microsoft Excel impostando il suo numero di colonne o impostandone lo stile ecc. Aspose.Cells ti consente anche di farlo usando il[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)e[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)proprietà.
+Puoi formattare l'affettatrice in Microsoft Excel impostando il numero di colonne o impostando il suo stile ecc. Aspose.Cells ti consente anche di farlo utilizzando il[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)e[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)proprietà.
 
 ## **Affettatrice di formattazione**
 

@@ -18,7 +18,7 @@ Ciò include le seguenti abbondanti funzionalità di Aspose.Cells rispetto ad Ap
   - [Motore di calcolo delle formule in Aspose.Cells](/cells/it/java/formula-calculation-engine-in-aspose-cells/)
   - [Tracciare precedenti e dipendenti utilizzando Aspose.Cells](/cells/it/java/tracing-precedents-and-dependents-using-aspose-cells/)
   - [Ordina i dati nei fogli di calcolo](/cells/it/java/sort-data-in-spreadsheets/)
-- [Lavorare con i fogli di lavoro utilizzando Aspose.Cells](/cells/it/java/working-with-worksheets-using-aspose-cells/)
+- [Lavorare con i fogli di lavoro usando Aspose.Cells](/cells/it/java/working-with-worksheets-using-aspose-cells/)
   - [Aggiungi filigrana Word Art al foglio di lavoro utilizzando Aspose.Cells](/cells/it/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
   - [Converti la cartella di lavoro in HTML usando Aspose.Cells](/cells/it/java/convert-workbook-to-html-using-aspose-cells/)
   - [Rileva Merged Cells utilizzando Aspose.Cells](/cells/it/java/detect-merged-cells-using-aspose-cells/)

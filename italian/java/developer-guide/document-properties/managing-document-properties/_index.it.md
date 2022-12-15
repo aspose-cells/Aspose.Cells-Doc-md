@@ -19,7 +19,7 @@ Il punto più importante da sapere sulle proprietà integrate e personalizzate �
 
 ## **Gestione delle proprietà del documento utilizzando Microsoft Excel**
 
- Microsoft Excel consente di gestire le proprietà dei documenti dei file Excel in modalità WYSIWYG. Si prega di seguire i passaggi seguenti per aprire il file**Proprietà** finestra di dialogo in Excel 2016.
+ Microsoft Excel consente di gestire le proprietà del documento dei file Excel in modo WYSIWYG. Si prega di seguire i passaggi seguenti per aprire il file**Proprietà** finestra di dialogo in Excel 2016.
 
 1.  Dal**File** menù, selezionare**Informazioni**.
 
@@ -44,7 +44,7 @@ Gli sviluppatori possono gestire dinamicamente le proprietà del documento utili
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java scrive direttamente le informazioni su API e il numero di versione nei documenti di output. Ad esempio, al momento del rendering del documento in PDF, Aspose.Cells for Java viene popolato**Applicazione** campo con valore 'Aspose.Cells' e**Produttore PDF** campo con il valore, ad esempio 'Aspose.Cells for Java v17.9'.
+ Aspose.Cells for Java scrive direttamente le informazioni sull'API e il numero di versione nei documenti di output. Ad esempio, dopo il rendering del documento in PDF, Aspose.Cells for Java viene popolato**Applicazione** campo con valore 'Aspose.Cells' e**Produttore PDF** campo con il valore, ad esempio 'Aspose.Cells for Java v17.9'.
 
 Si prega di notare che non è possibile incaricare Aspose.Cells for Java di modificare o rimuovere queste informazioni dai documenti di output.
 
@@ -52,7 +52,7 @@ Si prega di notare che non è possibile incaricare Aspose.Cells for Java di modi
 
 ### **Accesso alle proprietà del documento**
 
-Aspose.Cells Le API supportano entrambi i tipi di proprietà del documento, integrate e personalizzate. Aspose.Cells'[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class rappresenta un file Excel e, come un file Excel, il file[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe può contenere più fogli di lavoro, ciascuno rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class mentre la raccolta di fogli di lavoro è rappresentata dal file[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)classe.
+ Aspose.Cells Le API supportano entrambi i tipi di proprietà del documento, integrate e personalizzate. Aspose.Cells'[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class rappresenta un file Excel e, come un file Excel, il file[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)la classe può contenere più fogli di lavoro, ciascuno rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class mentre la raccolta di fogli di lavoro è rappresentata dal file[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)classe.
 
  Utilizzare il[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)per accedere alle proprietà del documento del file come descritto di seguito.
 
@@ -85,9 +85,9 @@ Come descritto in precedenza all'inizio di questo argomento, gli sviluppatori no
 
 ### **Configurazione della proprietà personalizzata "Link al contenuto".**
 
- Per creare una proprietà personalizzata collegata al contenuto di un determinato intervallo, chiama il metodo[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) metodo e passare il nome della proprietà e l'origine. Puoi verificare se una proprietà è configurata come collegata al contenuto utilizzando il file[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) proprietà. Inoltre, è anche possibile ottenere l'intervallo di origine utilizzando il file[**Fonte**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) proprietà del[**Proprietà documento**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)classe.
+ Per creare una proprietà personalizzata collegata al contenuto di un determinato intervallo, chiama il metodo[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) metodo e passare il nome della proprietà e l'origine. Puoi verificare se una proprietà è configurata come collegata al contenuto utilizzando il file[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) proprietà. Inoltre, è anche possibile ottenere l'intervallo di origine utilizzando il file[**Fonte**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) proprietà del[**Proprietà documento**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)classe.
 
- Usiamo un semplice modello di file Excel Microsoft nell'esempio. La cartella di lavoro ha un intervallo denominato definito etichettato**MyRange** che fa riferimento a un valore di cella.
+ Usiamo un semplice modello di file Microsoft Excel nell'esempio. La cartella di lavoro ha un intervallo denominato definito etichettato**MyRange** che fa riferimento a un valore di cella.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConfiguringLinkToContentCustomProperty.java" >}}
 

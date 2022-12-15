@@ -8,16 +8,16 @@ url: /it/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |:- |:- |:- |
 |CELLSPORTINGC-432|Applicare la formattazione condizionale alle celle|Nuova caratteristica|
 |CELLSPORTINGC-433|Lettura/scrittura di proprietà documento personalizzate|Nuova caratteristica|
-|CELLSPORTINGC-434|Lettura/scrittura Proprietà del documento incorporate|Nuova caratteristica|
+|CELLSPORTINGC-434|Lettura/scrittura Proprietà del documento integrate|Nuova caratteristica|
 |CELLSPORTINGC-435|Aggiungi collegamenti ipertestuali alle celle|Nuova caratteristica|
 |CELLSPORTINGC-436|Supporta i temi di MS Excel|Nuova caratteristica|
 |CELLSPORTINGC-437|Aggiungere e manipolare le tabelle pivot nel foglio di calcolo|Nuova caratteristica|
 |CELLSPORTINGC-438|Raggruppa righe e colonne nel foglio di lavoro|Nuova caratteristica|
 |CELLSPORTINGC-439|Aggiungi oggetto tabella/elenco al foglio di lavoro|Nuova caratteristica|
-|CELLSPORTINGC-426|Problema di licenza con Aspose.Cells per le API C++|Insetto|
+|CELLSPORTINGC-426|Problema di licenza con le API Aspose.Cells for C++|Insetto|
 |CELLSPORTINGC-425|Ottimizza le prestazioni del salvataggio dei file XLS|Miglioramento|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per C++. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for C++. il forum di supporto Aspose.Cells.
 #### **Rinomina il metodo ICell::SetStyle in ICell::SetIStyle**
 #### **Rinomina il metodo ICell::SetCharacters in ICell::SetIFontSettings**
 #### **Rinomina il metodo ICellsColor::SetThemeColor in ICellsColor::SetIThemeColor**

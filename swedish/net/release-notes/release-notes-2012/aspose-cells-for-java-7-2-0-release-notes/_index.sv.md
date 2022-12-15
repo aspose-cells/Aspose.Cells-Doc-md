@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 7.2.0 Release Notes
+title: Aspose.Cells for Java 7.2.0 Release Notes
 type: docs
 weight: 80
 url: /sv/net/aspose-cells-for-java-7-2-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.2.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-java-7.2.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.2.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-java-7.2.0/)
 
 {{% /alert %}} 
 
-Vi är glada att kunna meddela Aspose.Cells för .NETv7.2.0!
+ Vi är glada att kunna meddela Aspose.Cells för .NETv7.2.0!
 
 
 
@@ -43,7 +43,7 @@ Aspose.Cells
 
 
 
-- .NET C++ byggfel C2686
+- .NET C++ Build Error C2686
 - Konvertera XLS-fil till XLSX kassera textformatering
 - Kopiera diagram från en arbetsbok till en annan
 - Korrupt cellfärgning efter kopiering av kalkylblad

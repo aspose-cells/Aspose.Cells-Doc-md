@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 17.8 Release Notes
+title: Aspose.Cells for Java 17.8 Release Notes
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-java-17-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 17.8](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.8/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 17.8](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.8/).
 
 {{% /alert %}} 
 
@@ -26,14 +26,14 @@ url: /sv/java/aspose-cells-for-java-17-8-release-notes/
 |CELLSJAVA-42349|Excel till PDF-konvertering hängde för en XLSX-fil|Insekt|
 |CELLSJAVA-42348|Det går inte att importera XLSB-fil (med Aspose.Cells API:er) till MS-Access-databasen|Insekt|
 |CELLSJAVA-42357|Undantag uppstår när en Excel-fil sparas i HTML-format|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen HtmlSaveOptions.IsExportComments**
 Anger om du exporterar kommentarer när filen sparas till HTML, standardvärdet är falskt.
 ### **Lägger till egenskapen HtmlSaveOptions.DisableDownlevelRevealedComments**
 Indikerar om inaktivera Downlevel-avslöjade villkorliga kommentarer vid export av fil till HTML, standardvärdet är false.
 ### **Lägger till klassen CustomImplementationFactory**
-Tillhandahåller API för användaren att utöka/förbättra komponentens förmåga med några speciella implementeringar för vissa speciella situationer. För närvarande finns det ingen anpassad implementering som stöds för Java-versionen.
+Ger API för användaren att utöka/förbättra komponentens förmåga med några speciella implementeringar för vissa speciella situationer. För närvarande finns det ingen anpassad implementering som stöds for Java version.
 ### **Lägger till egenskapen CellsHelper.CustomImplementationFactory**
 Hämtar/ställer in CustomImplementationFactory-instansen som används av cells-komponenten.
 ### **Lägger till metoden Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**
@@ -44,7 +44,7 @@ Indikerar om en tom sida ska matas ut när det inte finns något att skriva ut.
 Skapar ett kommentarsobjekt för en cell.
 ### **Lägger till metoden GridCell.RemoveComment**
 Tar bort kommentarobjektet från cellen.
-### **Lägger till metoden GridCell.GetComment**
+### **Lägger till GridCell.GetComment-metoden**
 Hämtar kommentarobjekt på den här cellen.
 
 

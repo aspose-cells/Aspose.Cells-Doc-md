@@ -6,7 +6,7 @@ url: /tr/net/rotating-cell-text/
 ---
 {{% alert color="primary" %}}
 
-Bazen bir sütun başlığı, aşağıdaki hücrelerdeki verilerden çok daha geniştir. Bu, sayfada gereksiz boşluklara neden olabilir. Bir çözüm, daha az yatay alan kaplayacak şekilde metni dikey olarak döndürmektir. Microsoft Excel'de metni döndürmek kolaydır. Şans eseri, metni programlı olarak döndürmek de mümkündür, böylece geliştiriciler uygulamalarında oluşturdukları elektronik tablolardaki etiketleri döndürebilirler.
+Bazen bir sütun başlığı, aşağıdaki hücrelerdeki verilerden çok daha geniştir. Bu, sayfada gereksiz boşluklara neden olabilir. Bir çözüm, daha az yatay alan kaplayacak şekilde metni dikey olarak döndürmektir. Microsoft Excel'de metni döndürmek kolaydır. Şans eseri, metni programlı olarak döndürmek de mümkündür, böylece geliştiriciler uygulamalarında oluşturdukları elektronik tablolardaki etiketleri döndürebilir.
 
  Bu makale, kullanarak hücrelerdeki metnin nasıl döndürüleceğini ele almaktadır.[Aspose.Cells for .NET](/cells/tr/net/rotating-cell-text/) ile aynı şeyi yapmaya kıyasla[VSTO](/cells/tr/net/rotating-cell-text/).
 

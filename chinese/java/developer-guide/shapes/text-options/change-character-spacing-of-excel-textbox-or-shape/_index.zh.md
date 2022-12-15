@@ -14,10 +14,10 @@ url: /zh/java/change-character-spacing-of-excel-textbox-or-shape/
 
 以下屏幕截图显示了如何[示例 excel 文件](5473426.xlsx)在执行代码之前查看。
 
-![待办事项：图片_替代_文本](change-character-spacing-of-excel-textbox-or-shape_1.png)
+![待办事项：图像_替代_文本](change-character-spacing-of-excel-textbox-or-shape_1.png)
 
 以下屏幕截图显示了如何[输出excel文件](5473425.xlsx)负责代码的执行。
 
-![待办事项：图片_替代_文本](change-character-spacing-of-excel-textbox-or-shape_2.png)
+![待办事项：图像_替代_文本](change-character-spacing-of-excel-textbox-or-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeCharacterSpacing-ChangeCharacterSpacing.java" >}}

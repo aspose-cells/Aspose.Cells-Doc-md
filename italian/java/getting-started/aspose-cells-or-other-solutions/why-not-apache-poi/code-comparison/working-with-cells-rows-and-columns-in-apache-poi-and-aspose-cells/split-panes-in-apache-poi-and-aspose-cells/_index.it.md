@@ -5,9 +5,9 @@ weight: 70
 url: /it/java/split-panes-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Riquadri divisi**
-Aspose.Cells fornisce una classe, Workbook che rappresenta un file Excel Microsoft. La classe Workbook fornisce un'ampia gamma di proprietà e metodi per la gestione dei file Excel. Per implementare le visualizzazioni divise, utilizzare il metodo split della classe Worksheet. Per rimuovere i riquadri divisi, utilizzare il metodo removeSplit.
+Aspose.Cells fornisce una classe, Workbook che rappresenta un file di Microsoft Excel. La classe Workbook fornisce un'ampia gamma di proprietà e metodi per la gestione dei file Excel. Per implementare le visualizzazioni divise, utilizzare il metodo split della classe Worksheet. Per rimuovere i riquadri divisi, utilizzare il metodo removeSplit.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -25,9 +25,9 @@ book.getWorksheets().get(0).split();
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF e XSSF - Riquadri divisi**
-La funzionalità Dividi riquadri può essere ottenuta con il metodo createSplitPane durante l'utilizzo di Apache POI SS (HSSF e XSSF) API
+La funzionalità Split Panes può essere ottenuta con il metodo createSplitPane durante l'utilizzo dell'API Apache POI SS (HSSF e XSSF)
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

@@ -13,7 +13,7 @@ url: /it/net/copy-range-style-only/
 Questo esempio crea una cartella di lavoro, la popola con i dati e copia solo lo stile di un intervallo.
 
 1. Crea un intervallo.
-1.  Creare un[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style) oggetto con attributi di formattazione specificati.
+1.  Creare un[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style)oggetto con attributi di formattazione specificati.
 1. Applicare la formattazione dello stile all'intervallo.
 1. Crea un secondo intervallo di celle.
 1. Copia la formattazione del primo intervallo nel secondo intervallo.

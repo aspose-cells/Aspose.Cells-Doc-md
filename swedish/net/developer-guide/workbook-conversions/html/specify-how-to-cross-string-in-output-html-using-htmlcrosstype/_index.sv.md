@@ -18,7 +18,7 @@ När cellen innehåller text eller sträng men den är större än cellens bredd
 
 ## **Ange hur strängen ska korsas i utdata-HTML med HtmlCrossType**
 
- Följande exempelkod laddar[exempel på Excel-fil](51740732.xlsx) och sparar den i HTML-format genom att ange olika[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) Vänligen ladda ner[mata ut HTMLs](51740734.zip) genereras med denna kod. Exemplet i Excel-filen innehåller bilden kantad med röd färg som visas i den här skärmdumpen som visar effekten av[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) värden på utdata HTML.
+ Följande exempelkod laddar[exempel på Excel-fil](51740732.xlsx) och sparar den i HTML-format genom att ange olika[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) . Vänligen ladda ner[mata ut HTMLs](51740734.zip) genereras med denna kod. Exemplet i Excel-filen innehåller bilden kantad med röd färg som visas i den här skärmdumpen som visar effekten av[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) värden på utdata HTML.
 
 ![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 

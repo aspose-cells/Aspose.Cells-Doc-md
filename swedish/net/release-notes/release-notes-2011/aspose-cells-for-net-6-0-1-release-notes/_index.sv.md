@@ -1,15 +1,15 @@
 ﻿---
-title: Aspose.Cells för .NET 6.0.1 Release Notes
+title: Aspose.Cells for .NET 6.0.1 Release Notes
 type: docs
 weight: 50
 url: /sv/net/aspose-cells-for-net-6-0-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 6.0.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-6.0.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 6.0.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-6.0.1/)
 
 {{% /alert %}} 
-### **Vi är glada att kunna meddela Aspose.Cells för .NET v6.0.1!<!-?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /->**
+### **Vi är glada att kunna meddela Aspose.Cells for .NET v6.0.1!<!-?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /->**
 \1) Aspose.Cells 
 ### **Förbättringar**
  28643 Exportera kolumnindex för varje Cell i SpreadSheetML-filen
@@ -36,9 +36,9 @@ url: /sv/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **Buggar**
  29129 Teckenförklaring/Dataetiketter är fetstil på diagram när bilder genereras
 
- 28460 Utvärderar inte den INDIREKTA funktionen i funktionen VLOOKUP
+28460 Utvärderar inte den INDIREKTA funktionen i funktionen VLOOKUP
 
-Funktionen 28399 ROUND med Aspose.Cells ger ett annat värde än MS Excel
+ Funktionen 28399 ROUND med Aspose.Cells ger ett annat värde än MS Excel
 
  28523 INDIREKTA formel fungerar inte när den genereras i XLSB-format
 
@@ -70,9 +70,9 @@ Funktionen 28399 ROUND med Aspose.Cells ger ett annat värde än MS Excel
 
  28489 Problem med att konvertera tom XLSX-fil till TIFF
 
- 29058 Renderingsproblem
+29058 Renderingsproblem
 
-28929 Hämta bitmapps- eller pappersstorlek från SheetRender API-fel
+ 28929 Få bitmapp eller pappersstorlek från SheetRender API bugg
 
  24912 Att spara XLSB med datafilter lägger till ogiltigt namngivet intervall
 
@@ -102,6 +102,6 @@ Funktionen 28399 ROUND med Aspose.Cells ger ett annat värde än MS Excel
 ### **Förbättringar**
  28964 Exportera mer än 256 kolumner till Excel 2007-filer
 
- 26751 Återge formbilder med EMF-format istället för JPEG-format
+26751 Återge formbilder med EMF-format istället för JPEG-format
 ### **Buggar**
-28808 Mät strängens bredd
+ 28808 Mät strängens bredd

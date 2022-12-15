@@ -32,12 +32,12 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 17.11.
 |CELLSJAVA-42425|Eccezione nel thread "main" java.lang.OutOfMemoryError: limite di overhead GC superato - File II|Eccezione|
 |CELLSJAVA-42424|Eccezione nel thread "main" java.lang.OutOfMemoryError: limite di overhead GC superato - File I|Eccezione|
 |CELLSJAVA-42428|Chart.toImage risulta in java.lang.ArrayIndexOutOfBoundsException|Eccezione|
-|CELLSJAVA-42452|Il salvataggio di una cartella di lavoro come PDF dopo RemoveUnusedStyles API produce un'eccezione CellsException|Eccezione|
+|CELLSJAVA-42452|Il salvataggio di una cartella di lavoro come PDF dopo che l'API RemoveUnusedStyles produce un'eccezione CellsException|Eccezione|
 |CELLSJAVA-42440|Si è verificato "java.lang.IllegalArgumentException: indice di riga non valido".|Eccezione|
 |CELLSJAVA-42439|Eccezione: "java.lang.IllegalArgumentException: Invalid row index" al salvataggio di un formato di file XLSX|Eccezione|
 |CELLSJAVA-42437|Eccezione: java.lang.NumberFormatException quando si salva nuovamente un formato di file XLSB|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo Shape.GetResultOfSmartArt()**
 Converti la smart art in una forma di gruppo.
 ### **Aggiunge la proprietà Shape.IsSmartArt**

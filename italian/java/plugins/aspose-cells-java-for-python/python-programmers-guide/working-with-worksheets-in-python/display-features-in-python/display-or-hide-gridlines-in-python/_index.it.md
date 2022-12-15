@@ -6,9 +6,9 @@ url: /it/java/display-or-hide-gridlines-in-python/
 ---
 ## **Aspose.Cells - Visualizza Nascondi griglia**
 ### **Nascondere le linee della griglia**
- Per nascondere il foglio di lavoro utilizzando**Aspose.Cells Java per Rubino** , chiamata**displayhidegridlines** modulo.
+ Per nascondere il foglio di lavoro utilizzando**Aspose.Cells Java per Ruby** , chiamata**displayhidegridlines** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 
@@ -36,7 +36,7 @@ print "Grid lines are now hidden on sheet 1, please check the output document."
 ### **Rendere visibili le linee della griglia**
 Per rendere visibili le linee della griglia, utilizzare il metodo setGridlinesVisible(true) della classe Worksheet.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

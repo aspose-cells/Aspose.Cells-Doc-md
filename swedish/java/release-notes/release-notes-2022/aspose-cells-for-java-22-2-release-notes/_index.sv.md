@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 22.2 Release Notes
+title: Aspose.Cells for Java 22.2 Release Notes
 type: docs
 weight: 11
 url: /sv/java/aspose-cells-for-java-22-2-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 22.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-22.2/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 22.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-22.2/).
 
 {{% /alert %}}
 
@@ -35,9 +35,9 @@ url: /sv/java/aspose-cells-for-java-22-2-release-notes/
 |CELLSJAVA-44311|Undantag "java.lang.OutOfMemoryError: Java heap space" vid rendering till HTML-filformat|
 |CELLSJAVA-44285|Undantag "java.lang.ClassCastException: com.aspose.cells.n2f kan inte castas till com.aspose.cells.o90" när Workbook.calculateFormula() anropas|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Föråldrad Cells.AddAddInFunction()-metoden.**
 

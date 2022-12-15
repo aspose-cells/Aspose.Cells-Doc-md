@@ -9,6 +9,6 @@ Los archivos de valores separados por comas (CSV) contienen registros cuyos valo
 
 Para abrir archivos CSV, use el[Opciones de carga](https://reference.aspose.com/cells/python/asposecells.api/LoadOptions)clase y seleccione la[CSV](https://reference.aspose.com/cells/python/asposecells.api/fileformattype#CSV)valor, predefinido en el[Tipo de formato de archivo](https://reference.aspose.com/cells/python/asposecells.api/FileFormatType)enumeración.
 
-El siguiente fragmento de código muestra cómo abrir un archivo CSV con Aspose.Cells para Python a través de Java API.
+El siguiente fragmento de código muestra cómo abrir un archivo CSV con Aspose.Cells for Python via Java API.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-OpeningCSVFiles.py" >}}

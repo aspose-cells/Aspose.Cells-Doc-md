@@ -16,7 +16,7 @@ Aspose.Cells 允许您通过设置[**HtmlSaveOptions.DisableDownlevelRevealedCom
 
 以下示例代码显示了[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments)财产。屏幕截图显示了此属性未设置为 true 时的效果。请下载[示例 Excel 文件](50528257.xlsx)用于此代码和[输出 HTML](50528258.zip)由它生成以供参考。
 
-![待办事项：图片_替代_文本](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
+![待办事项：图像_替代_文本](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 
 ## **示例代码**
 

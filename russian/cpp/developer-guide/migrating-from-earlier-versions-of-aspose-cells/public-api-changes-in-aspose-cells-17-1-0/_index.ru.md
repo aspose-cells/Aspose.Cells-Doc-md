@@ -11,9 +11,9 @@ url: /ru/cpp/public-api-changes-in-aspose-cells-17-1-0/
 {{% /alert %}} 
 ## **Добавлены API**
 ### **Поддержка именованных диапазонов**
- Aspose.Cells для C++ теперь поддерживает создание и управление именованными диапазонами. Следующий фрагмент кода демонстрирует, как просто использовать Aspose.Cells вместо C++ API для[создавать именованные диапазоны](/cells/ru/cpp/create-named-range-in-a-workbook/).
+ Aspose.Cells for C++ теперь поддерживает создание и управление именованными диапазонами. Следующий фрагмент кода демонстрирует, как просто использовать Aspose.Cells for C++ API для[создавать именованные диапазоны](/cells/ru/cpp/create-named-range-in-a-workbook/).
 
-**C++**
+**С++**
 
 {{< highlight "csharp" >}}
 
@@ -57,9 +57,9 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
- Помимо создания новых именованных диапазонов, API-интерфейсы Aspose.Cells для C++ также поддерживают управление существующими именованными диапазонами. Следующий фрагмент кода использует Aspose.Cells вместо C++ API для[управлять существующим именованным диапазоном](/cells/ru/cpp/manipulate-named-range-in-a-workbook/).
+ Помимо создания новых именованных диапазонов, API-интерфейсы Aspose.Cells for C++ также поддерживают управление существующими именованными диапазонами. В следующем фрагменте кода используется Aspose.Cells for C++ API для[управлять существующим именованным диапазоном](/cells/ru/cpp/manipulate-named-range-in-a-workbook/).
 
-**C++**
+**С++**
 
 {{< highlight "csharp" >}}
 
@@ -115,19 +115,19 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **Добавлен метод IExternalLink::IsVisible.**
 Метод IsVisible получает статус видимости внешней ссылки в приложении Excel.
 ### **Добавлены методы GetScaleCrop и SetScaleCrop.**
-Aspose.Cells для C++ 17.1.0 предоставил методы GetScaleCrop и SetScaleCrop классу IBuiltInDocumentPropertyCollection. Эти методы полезны для получения или установки свойства ScaleCrop, которое указывает режим отображения миниатюры документа.
+Aspose.Cells for C++ 17.1.0 предоставил методы GetScaleCrop и SetScaleCrop классу IBuiltInDocumentPropertyCollection. Эти методы полезны для получения или установки свойства ScaleCrop, которое указывает режим отображения миниатюры документа.
 ### **Добавлены методы GetLinksUpToDate и SetLinksUpToDate.**
-Aspose.Cells для C++ 17.1.0 предоставил методы GetLinksUpToDate и SetLinksUpToDate классу IBuiltInDocumentPropertyCollection. Эти методы полезны для получения или установки свойства LinkUpToDate, которое указывает, являются ли гиперссылки в документе актуальными.
+Aspose.Cells for C++ 17.1.0 предоставил методы GetLinksUpToDate и SetLinksUpToDate классу IBuiltInDocumentPropertyCollection. Эти методы полезны для получения или установки свойства LinkUpToDate, которое указывает, являются ли гиперссылки в документе актуальными.
 ### **Добавлены методы GetAbsolutePath и SetAbsolutePath.**
-Aspose.Cells для C++ 17.1.0 предоставил методы GetAbsolutePath и SetAbsolutePath для класса IWorkbook. Эти методы полезны для получения или установки абсолютного пути к файлу, который можно использовать только для внешних ссылок.
+Aspose.Cells for C++ 17.1.0 предоставил методы GetAbsolutePath и SetAbsolutePath классу IWorkbook. Эти методы полезны для получения или установки абсолютного пути к файлу, который можно использовать только для внешних ссылок.
 ### **Добавлены методы GetFormula и SetFormula.**
-В этом выпуске Aspose.Cells для C++ представлены методы GetFormula и SetFormula для класса IListColumn. Эти методы полезны для получения или установки формулы столбца списка.
+В этом выпуске Aspose.Cells for C++ представлены методы GetFormula и SetFormula для класса IListColumn. Эти методы полезны для получения или установки формулы столбца списка.
 ### **Добавлены методы GetCheckCompatibility и SetCheckCompatibility.**
-В этом выпуске Aspose.Cells для C++ представлены методы GetCheckCompatibility и GetCheckCompatibility для класса IWorkbookSettings. Эти методы полезны для получения или установки свойства проверки совместимости, указывающего, должен ли API проверять совместимость при сохранении книги. Значение по умолчанию — true, и его можно установить на false, если приложение не требует проверки совместимости.
+В этом выпуске Aspose.Cells for C++ представлены методы GetCheckCompatibility и GetCheckCompatibility для класса IWorkbookSettings. Эти методы полезны для получения или установки свойства проверки совместимости, указывающего, должен ли API проверять совместимость при сохранении книги. Значение по умолчанию — true, и его можно установить на false, если приложение не требует проверки совместимости.
 ### **Добавлены методы GetILightCellsDataHandler и SetILightCellsDataHandler.**
-Aspose.Cells для C++ теперь предоставляет методы GetILightCellsDataHandler и SetILightCellsDataHandler для класса ILoadOptions. Эти методы обозначают обработчик данных для обработки данных ячеек при чтении файла шаблона.
+Aspose.Cells for C++ теперь предоставляет методы GetILightCellsDataHandler и SetILightCellsDataHandler для класса ILoadOptions. Эти методы обозначают обработчик данных для обработки данных ячеек при чтении файла шаблона.
 ### **Добавлены методы GetCultureInfo и SetCultureInfo.**
-Aspose.Cells для C++ предоставил методы GetCultureInfo и SetCultureInfo для класса ILoadOptions. Эти методы могут получить или установить информацию о культуре системы во время загрузки файла.
+Aspose.Cells for C++ предоставил методы GetCultureInfo и SetCultureInfo для класса ILoadOptions. Эти методы могут получить или установить информацию о культуре системы во время загрузки файла.
 ## **Удаленные API**
 ### **Удален метод ICells::MaxDataRowInColumn**
 Вместо этого рекомендуется использовать метод ICells::GetLastDataRow.
@@ -138,7 +138,7 @@ Aspose.Cells для C++ предоставил методы GetCultureInfo и Se
 
 {{% alert color="primary" %}} 
 
-С выпуском Aspose.Cells для C++ 17.1.0 мы удалили несколько методов, которые не использовались, поэтому считались ненужными. Вот список всех таких методов.
+С выпуском Aspose.Cells for C++ 17.1.0 мы удалили несколько методов, которые не использовались, поэтому считались ненужными. Вот список всех таких методов.
 
 - Методы IPaneCollection::GetAcitvePaneType и SetAcitvePaneType
 - IRange:: Метод ToString

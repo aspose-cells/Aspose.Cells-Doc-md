@@ -16,7 +16,7 @@ url: /ar/java/detecting-circular-reference/
 
 [**AbstractCalculationMonitor.onCircular (IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): سيتم استدعاؤه بواسطة محرك حساب الصيغة عند مواجهة مراجع دائرية ، يكون العنصر الموجود في العداد[**حساب الخلية**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) كائنات تمثل جميع الخلايا في دائرة واحدة. تشير القيمة التي تم إرجاعها إلى ما إذا كان محرك الصيغة يحتاج إلى حساب تلك الخلايا بشكل دائري بعد هذا الاستدعاء.
 
-يجوز للمستخدم جمع تلك المراجع المعممة في تنفيذ[**AbstractCalculationMonitor.onCircular ()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) طريقة.
+ يجوز للمستخدم جمع تلك المراجع المعممة في تنفيذ[**AbstractCalculationMonitor.onCircular ()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) طريقة.
 
 يمكن تنزيل ملف العينة المصدر من الرابط التالي:
 
@@ -24,6 +24,6 @@ url: /ar/java/detecting-circular-reference/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
- تعريف ال*CircularMonitor* فئة مشتقة من[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) الطبقة على النحو التالي:
+تعريف ال*CircularMonitor* فئة مشتقة من[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) الطبقة على النحو التالي:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

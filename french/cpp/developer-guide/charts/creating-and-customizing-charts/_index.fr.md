@@ -16,7 +16,7 @@ Un graphique est un affichage visuel d'informations. Aspose.Cells permet aux dé
 
 ## **Graphique en ligne**
 
-Dans l'exemple ci-dessus, il suffit de changer le[**Type de graphique**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)à[**Type de graphique_Ligne**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25) crée un graphique en courbes. La source complète est fournie ci-dessous. lorsque le code est exécuté, un graphique linéaire est ajouté à la feuille de calcul. Veuillez consulter le[fichier Excel de sortie](66519069.xlsx) de l'exemple de code suivant.
+Dans l'exemple ci-dessus, il suffit de changer le[**Type de graphique**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)à[**Type de graphique_Ligne**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25)crée un graphique en courbes. La source complète est fournie ci-dessous. lorsque le code est exécuté, un graphique linéaire est ajouté à la feuille de calcul. Veuillez consulter le[fichier Excel de sortie](66519069.xlsx) de l'exemple de code suivant.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart.cpp" >}}
 

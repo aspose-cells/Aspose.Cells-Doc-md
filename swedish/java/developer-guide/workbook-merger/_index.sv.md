@@ -4,7 +4,7 @@ linktitle: Sammanslagning av arbetsbok
 type: docs
 weight: 50
 url: /sv/java/combine-multiple-workbooks-into-a-single-workbook/
-description: Kombinera flera arbetsböcker till enstaka arbetsböcker genom att använda Java-kod och Aspose.Cells för Java API.
+description: Kombinera flera arbetsböcker till enstaka arbetsböcker genom att använda Java-koden och Aspose.Cells for Java API.
 keywords: combine multiple workbooks into one, combine multiple workbooks into one java, combine multiple workbooks into one with java, combine multiple workbooks into single workbook with java, combine multiple workbooks into single workbook java, java code to combine multiple workbooks into single workbook, how to combine multiple workbooks into single workbook with java, how to combine multiple workbooks into one with java, merge multiple workbooks into one with java, how to merge multiple workbooks into one java, how to merge multiple workbooks into one with java
 ---
 {{% alert color="primary" %}}
@@ -15,7 +15,7 @@ Ibland måste du kombinera arbetsböcker med olika innehåll som bilder, diagram
 
 ## **Kombinera arbetsböcker**
 
- Exempelkoden kombinerar två arbetsböcker till en enda arbetsbok med Aspose.Cells för Java. Koden laddar källarbetsböckerna, använder[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) metod för att kombinera dem och spara utdataarbetsboken.
+ Exempelkoden kombinerar två arbetsböcker till en enda arbetsbok med Aspose.Cells for Java. Koden läser in källarbetsböckerna, använder[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) metod för att kombinera dem och spara utdataarbetsboken.
 
 ### **Källarbetsböcker**
 

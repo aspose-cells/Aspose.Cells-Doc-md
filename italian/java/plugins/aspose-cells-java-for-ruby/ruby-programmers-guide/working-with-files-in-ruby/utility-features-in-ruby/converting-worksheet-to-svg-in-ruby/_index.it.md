@@ -25,7 +25,7 @@ img_options.setOnePagePerSheet(true)
 
 
 
-Converti ogni foglio di lavoro in formato svg
+# Converti ogni foglio di lavoro in formato svg
 
 sheet_count = workbook.getWorksheets().getCount()
 

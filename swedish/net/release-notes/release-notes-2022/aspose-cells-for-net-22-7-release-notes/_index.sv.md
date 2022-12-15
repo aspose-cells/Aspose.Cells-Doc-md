@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 22.7 Release Notes
+title: Aspose.Cells for .NET 22.7 Release Notes
 type: docs
 weight: 6
 url: /sv/net/aspose-cells-for-net-22-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 22.7](https://www.nuget.org/packages/Aspose.Cells/22.7.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 22.7](https://www.nuget.org/packages/Aspose.Cells/22.7.0).
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ url: /sv/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51367|Konvertera alla ark till en sida när du sparar som html.|
 |CELLSNET-51486|Texten återgiven som små rutor|
 |CELLSNET-51492|Standardteckensnitt används inte vid konvertering av XLSX till HTML|
-|CELLSNET-51306|Pivottabellstilar har inte kopierats korrekt med den senaste versionen av Aspose.Cells för .NET|
+|CELLSNET-51306|Pivottabellstilar har inte kopierats korrekt med den senaste versionen av Aspose.Cells for .NET|
 |CELLSNET-51268|Problem med att COUNTIFS-formeln behandlar 0 felaktigt|
 |CELLSNET-51297|Cell.GetPrecedents() tillhandahåller inte alla prejudikat när formeln refererar till definierat namn|
 |CELLSNET-51399|Print_Titles med namnet intervall och MATCH-funktionen returnerar #NAME-fel|
@@ -27,7 +27,7 @@ url: /sv/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51469|Text i bilden saknas efter konvertering till pdf|
 |CELLSNET-51476|Pilelementet blir förvrängt i bilden|
 |CELLSNET-51001|Formobjektet på diagrammet är inte väl placerat|
-|CELLSNET-51156|Konvertering av diagram till bild - Olika visning av diagram i utdatabilden|
+|CELLSNET-51156| Konvertering av diagram till bild - Olika visning av diagram i utdatabilden|
 |CELLSNET-51213|3D-cirkeldiagram inte korrekt renderat - Konvertering av diagram till bild|
 |CELLSNET-51472|Sjökortsetiketter saknas i SVG när de är inställda på utsidan|
 |CELLSNET-51491|Fel värden används i diagramserier vid rendering till bild eller HTML|
@@ -45,9 +45,9 @@ url: /sv/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51280|Undantag vid lagring av ODS-fil (RB-60121)|
 |CELLSNET-51483|Filinläsning misslyckas med undantaget "Källmatrisen var inte tillräckligt lång..."|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till metoden Cells.GetDependentsInCalculation(int,int,bool)**
 

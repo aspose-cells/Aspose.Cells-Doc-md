@@ -4,11 +4,11 @@ type: docs
 weight: 30
 url: /es/cpp/system-requirements/
 ---
-Aspose.Cells para C++ es una biblioteca nativa de C++ que permite a los desarrolladores de C++ crear, manipular y convertir hojas de cálculo mediante programación sin necesidad de Office Automation o la aplicación Microsoft de Excel.
+Aspose.Cells for C++ es una biblioteca nativa de C++ que permite a los desarrolladores de C++ crear, manipular y convertir hojas de cálculo mediante programación sin necesidad de Office Automation o la aplicación Microsoft Excel.
 
 ## Sistemas operativos compatibles
 
-Aspose.Cells para C++ es compatible con los siguientes sistemas operativos y plataformas de 64 o 32 bits:
+Aspose.Cells for C++ es compatible con los siguientes sistemas operativos y plataformas de 64 o 32 bits:
 
 <table>  
 	<tr>
@@ -27,11 +27,11 @@ Aspose.Cells para C++ es compatible con los siguientes sistemas operativos y pla
 
 ## Entorno de desarrollo
 
-Puede usar Aspose.Cells para C++ al desarrollar aplicaciones para Windows o Linux.
+Puede usar Aspose.Cells for C++ al desarrollar aplicaciones para Windows o Linux.
 
 ### Windows
 
- Aspose.Cells para C++ se puede utilizar para desarrollar aplicaciones en cualquier entorno de desarrollo que admita[Microsoft Conjunto de herramientas de la plataforma Visual Studio v142](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), pero los entornos enumerados en la siguiente tabla son explícitamente compatibles:
+ Aspose.Cells for C++ se puede utilizar para desarrollar aplicaciones en cualquier entorno de desarrollo que admita[Microsoft Conjunto de herramientas de la plataforma Visual Studio v142](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), pero los entornos enumerados en la siguiente tabla son explícitamente compatibles:
 
 <table>  
 	<tr>
@@ -44,7 +44,7 @@ Puede usar Aspose.Cells para C++ al desarrollar aplicaciones para Windows o Linu
 
 ### linux
 
-Aspose.Cells para C++ se puede usar para desarrollar aplicaciones en el entorno de desarrollo que admitan C++11 o superior, pero el compilador y la herramienta siguientes son explícitamente compatibles:
+Aspose.Cells for C++ se puede usar para desarrollar aplicaciones en el entorno de desarrollo que admitan C++ 11 o superior, pero el compilador y la herramienta siguientes son explícitamente compatibles:
 
 <table>  
 	<tr>
@@ -57,7 +57,7 @@ Aspose.Cells para C++ se puede usar para desarrollar aplicaciones en el entorno 
 
 ### Dependencia adicional en Linux
 
- Aspose.Cells para C++ en Linux depende de[libgdiplus](https://github.com/mono/libgdiplus//) binarios tanto biblioteca dinámica como herramienta. Instálelo antes de usar:
+ Aspose.Cells for C++ en Linux depende de[libgdiplus](https://github.com/mono/libgdiplus//) binarios tanto biblioteca dinámica como herramienta. Instálelo antes de usar:
 
 - Instalación de libgdiplus en Ubuntu o Debian</br>
 `sudo apt-get install libgif-dev autoconf libtool automake build-essential gettext libglib2.0-dev libcairo2-dev libtiff-dev libexif-dev`

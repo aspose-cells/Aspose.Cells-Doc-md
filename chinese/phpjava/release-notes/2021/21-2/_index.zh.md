@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 用于 PHP 通过 Java 21.2 发行说明
+title: Aspose.Cells for PHP via Java 21.2 发行说明
 type: docs
 weight: 10
 url: /zh/php-java/aspose-cells-for-php-via-java-21-2-release-notes/

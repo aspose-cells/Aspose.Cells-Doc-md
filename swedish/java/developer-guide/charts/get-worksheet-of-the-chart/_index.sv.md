@@ -6,7 +6,7 @@ url: /sv/java/get-worksheet-of-the-chart/
 ---
 {{% alert color="primary" %}}
 
- Ibland vill du komma åt ett kalkylblad från ett diagrams referens. Aspose.Cells tillhandahåller[**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) egenskap som returnerar referensen till kalkylbladet som innehåller diagrammet.
+Ibland vill du komma åt ett kalkylblad från ett diagrams referens. Aspose.Cells tillhandahåller[**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) egenskap som returnerar referensen till kalkylbladet som innehåller diagrammet.
 
 {{% /alert %}}
 

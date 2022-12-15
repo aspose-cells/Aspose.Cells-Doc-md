@@ -4,12 +4,12 @@ type: docs
 weight: 10
 url: /fr/java/aspose-cells-for-android-via-java-features/
 ---
-## **Aspose.Cells Android via Java Présentation des fonctionnalités**
-Cette section fournit une comparaison de la disponibilité des fonctionnalités entre Aspose.Cells for Java et Aspose.Cells pour Android via Java.
+## **Aspose.Cells Présentation des fonctionnalités Android via Java**
+Cette section fournit une comparaison de la disponibilité des fonctionnalités entre Aspose.Cells for Java et Aspose.Cells for Android via Java.
 ### **Formats de fichiers et conversions**
 De nombreux clients du monde entier font confiance aux fonctionnalités complètes d'importation et d'exportation de documents fournies par Aspose.Cells.
 
-|**Caractéristique**|**La description**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+|**Caractéristique**|**La description**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |:- |
 |Conversions de haute qualité|Convertissez rapidement et de manière fiable entre plusieurs formats de documents populaires.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Classeur Excel (XLS/XLSB)|L'implémentation de format XLS/XLSB la plus rapide et la plus complète que vous puissiez trouver.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -23,7 +23,7 @@ De nombreux clients du monde entier font confiance aux fonctionnalités complèt
 ### **Rendu et impression**
 Aspose.Cells fournit désormais un rendu haute fidélité des pages de feuille de calcul.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Disposez le document en pages avec une haute fidélité à Microsoft Excel® (exactement comme Microsoft Excel® le ferait).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendre les pages de la feuille de calcul en images raster (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -35,7 +35,7 @@ Aspose.Cells fournit désormais un rendu haute fidélité des pages de feuille d
 ### **Fonctionnalités de contenu de feuille de calcul**
 Aspose.Cells fournit un modèle d'objet riche composé de plus de 100 classes/interfaces publiques, qui vous permettent de générer, combiner, modifier, analyser ou autrement examiner par programmation des feuilles de calcul chargées. Certaines caractéristiques clés sont données dans le tableau ci-dessous.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Importer/exporter des données depuis un Array, ArrayList, ResultSet etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ajouter une copie de la feuille de calcul existante (tout le contenu, y compris les images, les graphiques, les autres objets, etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -74,7 +74,7 @@ Aspose.Cells fournit un modèle d'objet riche composé de plus de 100 classes/in
 ### **Fonctionnalités de formatage de feuille de calcul**
 Aspose.Cells fournit un accès programmatique détaillé aux propriétés de formatage de tous les éléments de la feuille de calcul.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Appliquez tous les caractères de mise en forme dans les cellules, y compris les polices, les couleurs, les effets, les bordures et l'ombrage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Appliquez tous les paramètres de format numérique (pris en charge dans Microsoft Excel) pour les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -88,7 +88,7 @@ Aspose.Cells fournit un accès programmatique détaillé aux propriétés de for
 ### **Fonctionnalités de configuration de page**
 Vous pouvez utiliser Aspose.Cells pour implémenter les options de configuration de page pour les feuilles de calcul.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Ajustez l'orientation de votre page, la mise à l'échelle, la taille du papier.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Spécifiez vos marges et le centrage de la page.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

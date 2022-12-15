@@ -6,7 +6,7 @@ url: /fr/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells pour Reporting Services est disponible sous forme d'évaluation gratuite et illimitée dans le temps auprès du[Page de téléchargement](https://downloads.aspose.com/cells/reportingservices). Les versions d'évaluation et sous licence du produit sont les mêmes.
+ Aspose.Cells for Reporting Services est disponible en tant qu'évaluation gratuite et illimitée dans le temps auprès du[Page de téléchargement](https://downloads.aspose.com/cells/reportingservices). Les versions d'évaluation et sous licence du produit sont les mêmes.
 
 Lorsque vous êtes satisfait de la version d'évaluation, achetez une licence. Assurez-vous de comprendre et d'accepter les conditions générales d'abonnement.
 
@@ -34,7 +34,7 @@ Le nom du fichier de licence peut être l'un des suivants en fonction de votre t
 
 Pour vérifier que le fichier de licence a été installé correctement, exportez n'importe quel rapport en tant que classeur Excel Microsoft. Si le classeur ne contient aucune feuille de calcul en filigrane à la fin, le fichier de licence a été activé avec succès.
 
- Aspose.Cells pour Reporting Services injecte une feuille de calcul de filigrane d'évaluation lorsque vous travaillez en mode d'évaluation. Lorsqu'un fichier de licence valide, par exemple lorsque**Aspose.Cells.ReportingServices.lic** se trouve dans le dossier $[Installation Folder]\License\, il n'y a pas de feuille de calcul de filigrane d'évaluation.
+ Aspose.Cells for Reporting Services injecte une feuille de calcul de filigrane d'évaluation lorsque vous travaillez en mode d'évaluation. Lorsqu'un fichier de licence valide, par exemple lorsque**Aspose.Cells.ReportingServices.lic** se trouve dans le dossier $[Installation Folder]\License\, il n'y a pas de feuille de calcul de filigrane d'évaluation.
 
 **Un fichier créé en mode d'évaluation. Notez la deuxième feuille de travail.** 
 

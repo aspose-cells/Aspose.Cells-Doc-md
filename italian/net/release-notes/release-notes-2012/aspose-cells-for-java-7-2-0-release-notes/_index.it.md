@@ -43,7 +43,7 @@ Aspose.Cells
 
 
 
-- .NET C++ Errore di compilazione C2686
+- Errore di compilazione di .NET C++ C2686
 - La conversione di file XLS in XLSX elimina la formattazione del testo
 - Copia i grafici da una cartella di lavoro a un'altra
 - Colorazione delle celle danneggiata dopo la copia del foglio di lavoro
@@ -80,7 +80,7 @@ Aspose.Cells
 - Il componente sta danneggiando gli oggetti che contengono le formule del componente aggiuntivo di Excel
 - Impossibile stampare accuratamente le immagini delle immagini in Aspose.Cells
 - Errore durante l'utilizzo del metodo WorkBook.Copy()
-- Microsoft Avviso componente aggiuntivo Convalida file Office
+- Avviso relativo al componente aggiuntivo di convalida file di Microsoft Office
 - Problemi con il salvataggio in formato XLS con l'opzione ClearData
 - Formattazione condizionale - Problemi di compatibilità con *.XLSB
 - Cartella di lavoro danneggiata dopo una semplice apertura\salvataggio

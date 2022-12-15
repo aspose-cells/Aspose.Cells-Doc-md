@@ -1,13 +1,13 @@
 ﻿---
-title: Blocca i riquadri in Python
+title: Congela i riquadri in Python
 type: docs
 weight: 40
 url: /it/java/freeze-panes-in-python/
 ---
 ## **Aspose.Cells - Congelamento Riquadri**
- Per bloccare i riquadri nel documento del foglio di calcolo utilizzando**Aspose.Cells Java per Python** , semplicemente invocare**FreezePanes** modulo.
+ Per bloccare i riquadri nel documento del foglio di calcolo utilizzando**Aspose.Cells Giava for Python** , semplicemente invocare**FreezePanes** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 

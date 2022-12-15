@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.5 Release Notes
+title: Aspose.Cells for .NET 17.5 Release Notes
 type: docs
 weight: 80
 url: /sv/net/aspose-cells-for-net-17-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 17.5](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.5/).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 17.5](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.5/).
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ url: /sv/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45347|Ta bort befintliga skrivarinställningar i Excel-fil|Ny funktion|
 |CELLSNET-45340|Implementera alternativ för anpassad sidstorlek för kalkylbladet|Ny funktion|
 |CELLSNET-45327|Stöd export av HTML-cellers data till DataTable|Ny funktion|
-|CELLSNET-45316|Stöd driften av GridWeb när ASP.NET Session-läge är SQL Server|Ny funktion|
+|CELLSNET-45316|Stöd driften av GridWeb när ASP.NET Sessionsläge är SQL Server|Ny funktion|
 |CELLSNET-45350|OutOfMemory-fel under bildrendering|Prestanda|
 |CELLSNET-45341|Konvertering av XLS till SpreadsheetML med filter förstör utdatafilen|Prestanda|
 |CELLSNET-45217|Om du sparar Excel till PDF roteras bilden|Insekt|
@@ -44,8 +44,8 @@ url: /sv/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45298|Förklaringsposter döljs inte korrekt i det kombinerade diagrammet|Insekt|
 |CELLSNET-45313|Undantag vid tillägg av beräknat fält till pivottabell|Undantag|
 |CELLSNET-45307|Form till bild-fel vid rendering av arbetsblad till bild|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen ExportTableOptions.ExportAsHtmlString**
 Exporterar HTML-strängvärdet för cellerna till datatabellen.
 #### **Lägger till PageSetup.Copy (PageSetup source, CopyOptions copyOptions) metod**
@@ -71,7 +71,7 @@ Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 - [Ta bort befintliga skrivarinställningar för arbetsblad i Excel-fil](/cells/sv/net/remove-existing-printersettings-of-worksheets-in-excel-file/)
 - [Flytta första raden nedåt när du infogar Cells datatabellrader](/cells/sv/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
 - [Exportera HTML-strängvärde för Cells till datatabellen](/cells/sv/net/export-html-string-value-of-the-cells-to-the-datatable/)
-- [Fungerar med GridWeb när ASP.NET Session tillståndsläge är SQL Server](/cells/sv/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
+- [Fungerar med GridWeb när ASP.NET Sessionsläge är SQL Server](/cells/sv/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
 - [Aktivera olika GridWeb-lägen](/cells/sv/net/enable-different-gridweb-modes/)
 
 

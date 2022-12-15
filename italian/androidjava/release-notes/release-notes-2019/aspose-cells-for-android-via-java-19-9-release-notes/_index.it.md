@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 19.9 Note di rilascio
+title: Aspose.Cells for Android via Java 19.9 Note di rilascio
 type: docs
 weight: 20
 url: /it/java/aspose-cells-for-android-via-java-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 19.9.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 19.9.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42949|Aspose.Cells supporta gli algoritmi ECDSA e RSA|Nuova caratteristica|
 |CELLSJAVA-42979|Ottieni il conteggio totale delle pagine prima della conversione in pdf/immagine|Nuova caratteristica|
 |CELLSJAVA-42967|Inserisci il file SVG nel foglio di lavoro|Nuova caratteristica|
-|CELLSJAVA-42969|Supporto Java 12 pollici Aspose.Cells for Java|Aumento|
+|CELLSJAVA-42969|Supporta Java 12 in Aspose.Cells for Java|Aumento|
 |CELLSJAVA-42977|Elevato consumo di CPU e memoria durante la conversione da Excel a PDF|Aumento|
 |CELLSJAVA-42861|Impossibile ottenere il testo alternativo della forma nel formato file ODS|Insetto|
 |CELLSJAVA-42929|Il titolo del grafico cambia nella conversione da XLSX a PDF|Insetto|
@@ -54,8 +54,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42991|Eccezione "La larghezza della colonna deve essere compresa tra 0 e 255" durante la conversione di Excel in PDF in macOS|Eccezione|
 |CELLSJAVA-43004|Eccezione java.lang.NumberFormatException: per la stringa di input: "0.0" durante la conversione di Excel in HTML|Eccezione|
 |CELLSJAVA-43010|IllegalArgumentException durante l'esecuzione di deleteBlankColumns()|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 ### **Aggiorna la libreria BouncyCastle di riferimento a 1.60**
 La libreria BouncyCastle utilizzata nell'archivio delle versioni è stata aggiornata alla versione 1.60.
 ### **Obsoleta la classe HTMLLoadOptions e aggiunta la classe HtmlLoadOptions**

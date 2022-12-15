@@ -18,6 +18,6 @@ url: /it/java/refresh-values-of-linked-shapes/
 
 Puoi scaricare il[file Excel di origine](5472956.xlsx) e il[uscita PDF](5472955.pdf) dai link indicati.
 
-### Java codice per aggiornare i valori delle forme collegate
+### Codice Java per aggiornare i valori delle forme collegate
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}

@@ -5,7 +5,7 @@ weight: 70
 url: /de/java/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells – Hinzufügen benutzerdefinierter Eigenschaften**
-Um benutzerdefinierte Dokumenteigenschaften mit Aspose.Cells Java für PHP hinzuzufügen, rufen Sie an**add_custom_property** Methode der**Dokumentieren** Modul.
+Um benutzerdefinierte Dokumenteigenschaften mit Aspose.Cells Java for PHP hinzuzufügen, rufen Sie an**add_custom_property** Methode der**Dokumentieren** Modul.
 
 **PHP-Code**
 

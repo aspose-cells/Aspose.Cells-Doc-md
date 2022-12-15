@@ -9,7 +9,7 @@ url: /ru/net/adding-html-rich-text-inside-the-cell/
 
 Aspose.Cells поддерживает преобразование Microsoft HTML, ориентированного на Excel, в формат XLS/XLSX. Это означает, что HTML, сгенерированный Microsoft Excel, можно преобразовать обратно в формат XLS/XLSX, используя Aspose.Cells.
 
- Точно так же, если есть какой-то простой HTML, Aspose.Cells может преобразовать его в HTML Rich Text. Aspose.Cells обеспечивает[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) свойство, которое может взять такой простой HTML и преобразовать его в отформатированный текст ячейки.
+ Точно так же, если есть какой-то простой HTML, Aspose.Cells может преобразовать его в HTML Rich Text. Aspose.Cells предоставляет[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) свойство, которое может взять такой простой HTML и преобразовать его в отформатированный текст ячейки.
 
 {{% /alert %}}
 

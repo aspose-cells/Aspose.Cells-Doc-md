@@ -6,7 +6,7 @@ url: /it/net/check-if-vba-project-is-protected-and-locked-for-viewing/
 ---
 ## Controlla se il progetto VBA è protetto e bloccato per la visualizzazione in C#
 
-Aspose.Cells consente di verificare se il progetto VBA (Visual Basic for Applications) del file Excel è protetto e bloccato per la visualizzazione. Per questo, lo API fornisce il[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) proprietà. Se è bloccato per la visualizzazione, allora il[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) resi di proprietà**VERO**.
+Aspose.Cells consente di verificare se il progetto VBA (Visual Basic for Applications) del file Excel è protetto e bloccato per la visualizzazione. Per questo, l'API fornisce il[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) proprietà. Se è bloccato per la visualizzazione, allora il[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) resi di proprietà**VERO**.
 
 ## **Codice di esempio**
 

@@ -12,7 +12,7 @@ url: /it/java/how-to-set-autorecover-property-of-workbook/
 
 {{% /alert %}}
 
-## Java codice per impostare la proprietà AutoRecover della cartella di lavoro
+## Codice Java per impostare la proprietà AutoRecover della cartella di lavoro
 
  Il codice seguente spiega come utilizzare[**Cartella di lavoro.getSettings().setAutoRecover()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) proprietà della cartella di lavoro. Il codice prima legge il valore predefinito di questa proprietà che è**VERO** , quindi lo imposta come**falso** e salva la cartella di lavoro. Quindi legge nuovamente la cartella di lavoro e legge il valore di questa proprietà che è falsa in questo momento.
 

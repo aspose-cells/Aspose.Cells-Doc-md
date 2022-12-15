@@ -40,6 +40,6 @@ url: /zh/java/create-pivot-table/
 
 **根据相应字段创建数据透视表**
 
-![待办事项：图片_替代_文本](create-pivot-table_1.png)
+![待办事项：图像_替代_文本](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}

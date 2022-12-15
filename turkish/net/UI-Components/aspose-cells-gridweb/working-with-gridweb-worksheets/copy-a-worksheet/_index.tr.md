@@ -6,7 +6,7 @@ url: /tr/net/copy-a-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-[Çalışma Sayfaları Ekle](/cells/tr/net/add-worksheets/) Aspose.Cells.GridWeb'e yeni çalışma sayfalarının nasıl ekleneceğini açıklar. Aspose.Cells.GridWeb denetimine başka bir çalışma sayfasının bir kopyasını (veya eşlemesini) eklemek de mümkündür. Bu özellik, bir çalışma sayfasındaki aynı veya benzer verilerin başka bir çalışma sayfasında da gerekli olduğu durumlarda faydalı olabilir. Bu durumda, mevcut bir çalışma sayfasını sıfırdan oluşturmak yerine kopyalayıp Aspose.Cells.GridWeb'e yeni bir çalışma sayfası olarak eklemek daha kolaydır.
+[Çalışma Sayfaları Ekle](/cells/tr/net/add-worksheets/) Aspose.Cells.GridWeb'e yeni çalışma sayfalarının nasıl ekleneceğini açıklar. Aspose.Cells.GridWeb denetimine başka bir çalışma sayfasının bir kopyasını (veya eşlemesini) eklemek de mümkündür. Bu özellik, bir çalışma sayfasındaki aynı veya benzer verilerin başka bir çalışma sayfasında da gerekli olduğu durumlarda yararlı olabilir. Bu durumda, mevcut bir çalışma sayfasını sıfırdan oluşturmak yerine kopyalayıp Aspose.Cells.GridWeb'e yeni bir çalışma sayfası olarak eklemek daha kolaydır.
 
 {{% /alert %}} 
 ## **Çalışma Sayfasını Kopyalama**

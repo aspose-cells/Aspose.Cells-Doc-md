@@ -6,22 +6,22 @@ url: /it/python-net/your-first-aspose-cells-application-hello-world/
 ---
 {{% alert color="primary" %}}
 
-Questo argomento per principianti mostra come gli sviluppatori possono creare una prima applicazione semplice (Hello World) utilizzando Aspose.Cells' semplice API. L'applicazione crea un file Excel Microsoft con le parole Hello World in una cella specificata di un foglio di lavoro.
+Questo argomento per principianti mostra come gli sviluppatori possono creare una semplice prima applicazione (Hello World) utilizzando la semplice API Aspose.Cells. L'applicazione crea un file Microsoft Excel con le parole Hello World in una cella specificata di un foglio di lavoro.
 
 {{% /alert %}}
 
 ### **Creazione dell'applicazione Hello World**
 
-Per creare l'applicazione Hello World utilizzando Aspose.Cells API:
+Per creare l'applicazione Hello World utilizzando l'API Aspose.Cells:
 
 1. Creare un'istanza della classe Workbook.
 1. Applica la licenza:
-1. Se hai acquistato una licenza, usa la licenza nella tua applicazione per ottenere l'accesso alla piena funzionalità di Aspose.Cells
- 1. Se stai utilizzando la versione di valutazione del componente (se stai utilizzando Aspose.Cells senza licenza), salta questo passaggio.
-1. Crea un nuovo file Excel Microsoft o apri un file esistente in cui desideri aggiungere/aggiornare del testo.
-1. Accedi a qualsiasi cella di un foglio di lavoro nel file Excel Microsoft.
+ 1. Se hai acquistato una licenza, usa la licenza nella tua applicazione per ottenere l'accesso alla piena funzionalità di Aspose.Cells
+1. Se stai utilizzando la versione di valutazione del componente (se stai utilizzando Aspose.Cells senza licenza), salta questo passaggio.
+1. Crea un nuovo file Microsoft Excel o apri un file esistente in cui desideri aggiungere/aggiornare del testo.
+1. Accedi a qualsiasi cella di un foglio di lavoro nel file Microsoft Excel.
 1.  Inserisci le parole**Hello World!** in una cella a cui si accede.
-1. Genera il file Excel Microsoft modificato.
+1. Genera il file Microsoft Excel modificato.
 
 Gli esempi seguenti illustrano i passaggi precedenti.
 
@@ -37,6 +37,6 @@ L'esempio seguente crea una nuova cartella di lavoro da zero, scrive le parole "
 
 #### **Apertura di un file esistente**
 
- L'esempio seguente apre un file modello Excel Microsoft esistente chiamato**libro1.xls**, scrive le parole "Hello World!" nella cella A1 nel primo foglio di lavoro e salva la cartella di lavoro come nuovo file.
+ L'esempio seguente apre un file modello di Microsoft Excel esistente denominato**libro1.xls**, scrive le parole "Hello World!" nella cella A1 nel primo foglio di lavoro e salva la cartella di lavoro come nuovo file.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}

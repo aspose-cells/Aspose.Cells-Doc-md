@@ -28,9 +28,9 @@ Bilden infogas.
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_3.png)
 
-### **Använder Aspose.Cells för Java**
+### **Använder Aspose.Cells for Java**
 
- Aspose.Cells för Java stöder att lägga till en länkad bild med metoden[**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
+ Aspose.Cells for Java stöder att lägga till en länkad bild med metoden[**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
 
  Metoden returnerar en[**Bild**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objekt.
 

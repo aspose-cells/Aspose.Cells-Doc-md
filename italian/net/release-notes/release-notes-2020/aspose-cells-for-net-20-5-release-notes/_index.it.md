@@ -23,7 +23,7 @@ url: /it/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47343|Intestazioni mancanti durante la conversione dell'area di stampa in HTML|Insetto|
 |CELLSNET-47344|L'intero foglio di lavoro esportato quando è prevista solo l'area di stampa|Insetto|
 |CELLSNET-47322|Valore errato calcolato da Aspose.Cells durante l'utilizzo della funzione OFFSET|Insetto|
-|CELLSNET-47333|Quando si utilizza CalculateFormula API su un valore del foglio di lavoro di due celle sono in errore|Insetto|
+|CELLSNET-47333|Quando si utilizza l'API CalculateFormula su un foglio di lavoro, il valore di due celle è errato|Insetto|
 |CELLSNET-46960|Formattazione e comportamento Problemi durante il caricamento del file Excel su GridWeb|Insetto|
 |CELLSNET-47096|Un problema con la barra della formula di GridDesktop con SplitterPane|Insetto|
 |CELLSNET-47200|Problema di sovrapposizione sui pulsanti di navigazione quando si imposta il foglio nascosto come foglio attivo|Insetto|
@@ -56,8 +56,8 @@ url: /it/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47351|Formattazione condizionale che causa StackOverflowException durante il salvataggio in PDF|Eccezione|
 |CELLSNET-47319|NullReferenceException su file Excel con immagine SVG collegata|Eccezione|
 |CELLSNET-47359|Eccezione durante il caricamento di un file XLSX|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo WorkbookSettings.GetThemeFont().**
 Ottiene il carattere del tema.
 #### **Aggiunge la proprietà DataLabels.LinkedSource.**

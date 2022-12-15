@@ -6,11 +6,11 @@ url: /tr/cpp/aspose-cells-for-cpp-21-11-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Linux için C++ 21.11 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa, Linux için Aspose.Cells for C++ 21.11 sürüm notlarını içerir.
 
 {{% /alert %}} 
 
-Linux için C++ 21.11 için Aspose.Cells sürümünü duyurmaktan mutluluk duyuyoruz.
+Linux için Aspose.Cells for C++ 21.11 sürümünü duyurmaktan mutluluk duyuyoruz.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |

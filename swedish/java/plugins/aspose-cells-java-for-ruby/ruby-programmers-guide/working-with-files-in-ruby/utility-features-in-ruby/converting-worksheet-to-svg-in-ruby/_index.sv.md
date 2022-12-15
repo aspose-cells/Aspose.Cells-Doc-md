@@ -5,7 +5,7 @@ weight: 70
 url: /sv/java/converting-worksheet-to-svg-in-ruby/
 ---
 ## **Aspose.Cells - Konvertera arbetsblad till SVG**
-För att konvertera kalkylblad till SVG med Aspose.Cells för Java i Ruby, anropa kalkylblad_till_svg()-metoden för omvandlarmodulen.
+För att konvertera kalkylblad till SVG med Aspose.Cells for Java i Ruby, anropa kalkylblad_till_svg()-metoden för omvandlarmodulen.
 
 **Ruby kod**
 

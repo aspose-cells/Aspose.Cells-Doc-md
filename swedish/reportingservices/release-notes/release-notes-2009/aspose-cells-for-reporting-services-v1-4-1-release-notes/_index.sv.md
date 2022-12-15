@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Reporting Services v1.4.1 Release Notes
+title: Aspose.Cells for Reporting Services v1.4.1 Release Notes
 type: docs
 weight: 30
 url: /sv/reportingservices/aspose-cells-for-reporting-services-v1-4-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Reporting Services v1.4.1](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Reporting Services v1.4.1](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.1/)
 
 {{% /alert %}} 
 
-Vi är glada att kunna meddela Aspose.Cells för Reporting Services 1.4.1!
+ Vi är glada att meddela Aspose.Cells for Reporting Services 1.4.1!
 
  Vad har förändrats
 
@@ -26,7 +26,7 @@ Vi är glada att kunna meddela Aspose.Cells för Reporting Services 1.4.1!
 
 
 
- Problem lösta i Aspose.Cells för rapporteringstjänster 1.4.1
+Problem lösta i Aspose.Cells for Reporting Services 1.4.1
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |

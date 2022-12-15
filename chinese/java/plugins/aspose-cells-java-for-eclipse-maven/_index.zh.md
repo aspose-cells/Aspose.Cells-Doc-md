@@ -17,7 +17,7 @@ Eclipse IDE 可以使用附加软件组件进行扩展。 Eclipse 将这些软�
 -  Aspose.Cells Java for Eclipse (Maven) 是一个插件**日蚀集成开发环境**经过**Aspose.**本插件面向使用Maven平台for Java开发并希望使用的开发者[Aspose.Cells for Java](http://goo.gl/gtvhlQ)在他们的项目中。该插件允许您创建 maven 项目以供使用[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)并下载[代码示例](https://goo.gl/uxznrb)API 的。
 - 该插件提供以下功能以供使用[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)内**日蚀集成开发环境**舒服地：
 
-![待办事项：图片_替代_文本](kwkgljg.png)
+![待办事项：图像_替代_文本](kwkgljg.png)
 
 
 **巫师**:
@@ -57,7 +57,7 @@ Eclipse IDE 可以使用附加软件组件进行扩展。 Eclipse 将这些软�
 下面推荐三种成功下载安装Aspose.Cells Java for Eclipse(Maven)插件的方法：
 
 - 拖放安装从[蚀市场](https://marketplace.eclipse.org/content/asposecells-java-maven-eclipse)到您的 Eclipse 工作区。
-- 或者转到**帮助** > **安装新软件...** > 输入以下更新站点 url**一起工作**:
+- 或者转到**帮助** > **安装新软件...**> 输入以下更新站点 url**一起工作**:
 cdn.aspose.com/marketplace/eclipse/java/maven/asposecells
 然后选择“Aspose.Cells Java for Eclipse (Maven)”和**结束**.接受许可协议并安装插件。
 ## **安装中**

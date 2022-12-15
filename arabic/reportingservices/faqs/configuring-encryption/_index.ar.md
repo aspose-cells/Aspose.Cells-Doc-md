@@ -6,11 +6,11 @@ url: /ar/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells لخدمات التقارير يدعم التشفير ويمكنك تقديم ملفات Excel Microsoft المشفرة.
+ Aspose.Cells for Reporting Services يدعم التشفير ويمكنك تقديم ملفات Excel Microsoft المشفرة.
 
 {{% /alert %}} 
 ### **أنواع التشفير**
-يدعم Aspose.Cells Reporting Services التشفير عند تصدير ملفات Excel. يدعم ثلاثة أنواع من التشفير:
+Aspose.Cells for Reporting Services يدعم التشفير عند تصدير ملفات Excel. يدعم ثلاثة أنواع من التشفير:
 
 - XOR
 - ضعف التشفير

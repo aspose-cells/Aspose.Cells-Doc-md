@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 22.9 Release Notes
+title: Aspose.Cells for Android via Java 22.9 Release Notes
 type: docs
 weight: 4
 url: /sv/java/aspose-cells-for-android-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.9.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.9.
 
 {{% /alert %}} 
 
@@ -35,11 +35,11 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.9
 |CELLSJAVA-44758|Kopiera kalkylblad över arbetsböcker, cellformatet är onormalt|
 |CELLSJAVA-44796|Aspose.Cells formelberäkningsmotor producerar ?#N/A? värden för vissa celler|
 |CELLSJAVA-44798|Bug för formatering 0,9999999999999999 med anpassat "#" för JDK8 eller senare versioner|
-|CELLSJAVA-44773|Data förstörs när du öppnar ett Excel-dokument med dolda kolumner i GridWeb (Java)|
+|CELLSJAVA-44773|Data är förstörda när du öppnar ett Excel-dokument med dolda kolumner i GridWeb (Java)|
 |CELLSJAVA-44781|undersök problemet med radändring av storlek när du ändrar storlek till mycket liten höjd|
 |CELLSJAVA-44787|Nedre kant som tappades vid sista raden i arbetsboken|
 |CELLSJAVA-44761|Överdriven minnesanvändning vid konvertering av Excel-fil till HTML|
-|CELLSJAVA-44801|Excel till PDF-konvertering med Aspose.Cells för Java v22.7 orsakar förvrängda tecken|
+|CELLSJAVA-44801|Excel till PDF-konvertering med Aspose.Cells for Java v22.7 orsakar förvrängda tecken|
 |CELLSJAVA-44741|Radbrytningen är inte rätt i utgången xlsx efter att ha satt html-strängen i cellen|
 |CELLSJAVA-44776|Utformning av tabellrubrikrad förlorade vid kopiering av ark|
 |CELLSJAVA-44789|Problem med teckensträngsersättning av textruta placerad i Excel-kalkylblad|
@@ -51,7 +51,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.9
 |CELLSJAVA-44860|visningen av celltext är inte samma som i excel i vissa sammanslagna områden|
 |CELLSJAVA-44832|Flera sidor matas ut istället för en sida som i Excel vid konvertering till pdf|
 |CELLSJAVA-44812|Det går inte att minska plotytan för diagrammet|
-|CELLSJAVA-44831|MS Word visar ett felmeddelande "Word hittade oläsbart innehåll i..." när den konverterade DOCX-filen från XLSX-filen öppnas av Aspose.Cells för Java|
+|CELLSJAVA-44831|MS Word visar ett felmeddelande "Word hittade oläsbart innehåll i..." när den konverterade DOCX från XLSX-filen öppnas med Aspose.Cells for Java|
 |CELLSJAVA-44833|Textfärg tillämpas inte på olika ord eller delar av innehållet i den utgående Excel-filen när du använder metoden Cell.setHtmlString()|
 |CELLSJAVA-44852| Ramen är felaktig när den statiska Excel-filen konverteras till HTML|
 |CELLSJAVA-44856| Excel till HTML-konvertering - Sparkline (minidiagram) visas/renderas inte|
@@ -62,9 +62,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.9
 |CELLSJAVA-44842|Undantag "java.lang.OutOfMemoryError: Java heap space" vid konvertering av en XLSX-fil till PDF|
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Lägger till metoden Cells.GetDependentsInCalculation(int,int,bool)**
 

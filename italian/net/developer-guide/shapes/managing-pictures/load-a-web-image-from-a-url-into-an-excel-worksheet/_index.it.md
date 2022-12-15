@@ -3,12 +3,12 @@ title: Carica un'immagine Web da un URL in un foglio di lavoro Excel
 type: docs
 weight: 30
 url: /it/net/load-a-web-image-from-a-url-into-an-excel-worksheet/
-description: Come convertire un'immagine dall'URL all'effettiva immagine di Excel? Questo articolo dimostra come raggiungere questo obiettivo utilizzando C# e il semplice da usare Aspose.Cells for .NET API.
+description: Come convertire un'immagine dall'URL all'effettiva immagine di Excel? Questo articolo illustra come ottenere questo risultato utilizzando C# e l'API Aspose.Cells for .NET semplice da usare.
 keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, C#, Excel
 ---
 ## Carica un'immagine da un URL in un foglio di lavoro Excel
 
-Aspose.Cells for .NET API fornisce un modo semplice e facile per caricare immagini da URL in fogli di lavoro Excel. Questo articolo spiega come scaricare i dati dell'immagine in un flusso e quindi inserirli nel foglio di lavoro utilizzando Aspose.Cells API. Utilizzando questo metodo, le immagini diventano parte del file excel e non vengono scaricate ogni volta che si apre il foglio di lavoro.
+L'API Aspose.Cells for .NET fornisce un modo semplice e facile per caricare le immagini dagli URL nei fogli di lavoro di Excel. Questo articolo spiega come scaricare i dati dell'immagine in un flusso e quindi inserirli nel foglio di lavoro usando l'API Aspose.Cells. Utilizzando questo metodo, le immagini diventano parte del file excel e non vengono scaricate ogni volta che si apre il foglio di lavoro.
 
 ## Codice di esempio
 

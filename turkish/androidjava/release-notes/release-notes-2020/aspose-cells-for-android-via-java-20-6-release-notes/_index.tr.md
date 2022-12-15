@@ -1,12 +1,12 @@
 ﻿---
-title: Java 20.6 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 20.6 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/java/aspose-cells-for-android-via-java-20-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 20.6 aracılığıyla Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 20.6 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -59,7 +59,7 @@ Bu sayfa, Java 20.6 aracılığıyla Android için Aspose.Cells için sürüm no
 |CELLSJAVA-43193|Bazı XLSX dosyaları yüklenirken NullPointerException oluştu|İstisna|
 |CELLSJAVA-43200|Dosya yüklenirken "java.lang.ArrayIndexOutOfBoundsException" istisnası|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 ### **ChartTextFrame.DirectionType özelliğini ekler.**
 Grafikteki metnin yönünü alır ve ayarlar.
 ### **ChartTextFrame.ReadingOrder ekler ve ChartTextFrame.TextDirection özelliğini geçersiz kılar.**

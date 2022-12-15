@@ -5,9 +5,9 @@ weight: 60
 url: /sv/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
- För att ställa in kalkylblad till förhandsgranskning av sidbrytning med**Aspose.Cells Java för Python** , helt enkelt åberopa**PageBreakPreview** modul.
+ För att ställa in kalkylblad till förhandsgranskning av sidbrytning med**Aspose.Cells Java for Python** , helt enkelt åberopa**PageBreakPreview** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

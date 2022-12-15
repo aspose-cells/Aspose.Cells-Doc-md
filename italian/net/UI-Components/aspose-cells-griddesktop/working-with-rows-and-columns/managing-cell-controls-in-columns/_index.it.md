@@ -6,7 +6,7 @@ url: /it/net/managing-cell-controls-in-columns/
 ---
 {{% alert color="primary" %}} 
 
-Questo argomento discute alcuni concetti importanti sulla gestione dei controlli cella nelle colonne usando Aspose.Cells.GridDesktop API. Spiegheremo come gli sviluppatori possono accedere, modificare e rimuovere i controlli cella dalle colonne dei loro fogli di lavoro. Diamo un'occhiata.
+In questo argomento vengono illustrati alcuni concetti importanti sulla gestione dei controlli cella nelle colonne tramite l'API Aspose.Cells.GridDesktop. Spiegheremo come gli sviluppatori possono accedere, modificare e rimuovere i controlli delle celle dalle colonne dei loro fogli di lavoro. Diamo un'occhiata.
 
 {{% /alert %}} 
 ## **Accesso ai controlli Cell**

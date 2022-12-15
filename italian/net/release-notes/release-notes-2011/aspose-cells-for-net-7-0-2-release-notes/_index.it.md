@@ -20,7 +20,7 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  Miglioramenti
 
- 30919 La proprietà TabColor del foglio di lavoro per i fogli di lavoro di tipo grafico
+ 30919 La proprietà TabColor del foglio di lavoro per i fogli di lavoro di tipo Grafico
 
  25224 Esportare i dati senza limitazioni XLS nel file SpreadsheetML
 

@@ -20,7 +20,7 @@ Nu är det dags att lägga till lite kod på sidan_Ladda händelse av webbformul
 
 {{% alert color="primary" %}} 
 
-ASP.NET-knappkontroll är en kontroll på serversidan. Närhelst den klickas utlöses en händelse på serversidan, men om du vill använda denna knappkontroll för att exekvera kod på klientsidan (normalt med javascript) måste du ändra dess onclick-attribut under Page_Load-händelse. Aspose.Cells.GridWeb tillhandahåller några funktioner som kan anropas i javascript för att hantera GridWeb-kontroll från klientsidan. I exemplet nedan har vi använt updateData & validateAll-funktioner (som är funktioner på klientsidan) i GridWeb för att uppdatera och validera Grid-data.
+ASP.NET Knappkontroll är en kontroll på serversidan. Närhelst den klickas utlöses en händelse på serversidan, men om du vill använda denna knappkontroll för att exekvera kod på klientsidan (normalt med javascript) måste du ändra dess onclick-attribut under Page_Load-händelse. Aspose.Cells.GridWeb tillhandahåller några funktioner som kan anropas i javascript för att hantera GridWeb-kontroll från klientsidan. I exemplet nedan har vi använt updateData & validateAll-funktioner (som är funktioner på klientsidan) i GridWeb för att uppdatera och validera Grid-data.
 
 {{% /alert %}} 
 #### **Kodexempel**

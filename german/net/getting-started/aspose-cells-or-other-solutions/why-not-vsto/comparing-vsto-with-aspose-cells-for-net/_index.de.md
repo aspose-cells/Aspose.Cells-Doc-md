@@ -32,7 +32,7 @@ In diesem Artikel werden VSTO und Aspose.Cells in Bezug auf verschiedene Aspekte
 
 VSTO erfordert das .NET-Framework (einschließlich Visual Studio-Tools für die Office SE-Laufzeit) auf der Clientseite, um die endgültige Anwendung auszuführen. In den meisten Unternehmensumgebungen, insbesondere in Webszenarien, können Endbenutzer keine Anwendungssoftware und die zugehörigen Laufzeitframeworks installieren. Allein diese Anforderung macht VSTO-basierte Anwendungen problematisch. Standardanwendungen auf Basis von VSTO werden damit praktisch ausgeschlossen.
 
-Im Gegensatz dazu fordert Aspose.Cells for .NET nicht unbedingt das .NET Framework auf der Client-Seite für das zugrunde liegende Szenario. Die mit der Komponente erstellten Office-Anwendungen sind leichtgewichtig und funktionieren garantiert auf Microsoft Windows-Systemen unter erheblicher Belastung.
+Im Gegensatz dazu fordert Aspose.Cells for .NET nicht unbedingt das .NET Framework auf der Client-Seite für das zugrunde liegende Szenario. Die mit der Komponente erstellten Office-Anwendungen sind leichtgewichtig und funktionieren garantiert auf Microsoft Windows-Systemen unter erheblicher Last.
 
 ### **Merkmale**
 

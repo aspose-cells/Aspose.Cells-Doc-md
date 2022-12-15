@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /es/sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/
 ---
-Aspose.Cells para SharePoint proporciona una barra de herramientas que incluye algunas opciones y comandos valiosos:
+Aspose.Cells for SharePoint proporciona una barra de herramientas que incluye algunas opciones y comandos valiosos:
 
 - Convertir con Aspose.Cells
 - Vista previa del documento con Aspose.Cells

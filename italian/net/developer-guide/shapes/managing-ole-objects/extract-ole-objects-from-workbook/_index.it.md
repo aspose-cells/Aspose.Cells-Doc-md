@@ -16,8 +16,8 @@ Questo articolo mostra come creare un'applicazione console in Visual Studio.Net 
 
 ### **Creazione di una cartella di lavoro modello**
 
-1. Creata una cartella di lavoro in Microsoft Excel.
-1. Aggiungi un documento Word Microsoft, una cartella di lavoro Excel e un documento PDF come oggetti OLE nel primo foglio di lavoro.
+1. Creato una cartella di lavoro in Microsoft Excel.
+1. Aggiungi un documento Microsoft Word, una cartella di lavoro Excel e un documento PDF come oggetti OLE nel primo foglio di lavoro.
 
 |**Documento modello con oggetti OLE (OleFile.xls)**|
 |:- |
@@ -34,7 +34,7 @@ Tutti i componenti Aspose, una volta installati, funzionano in modalità di valu
 
 ### **Crea un progetto**
 
-Inizio**Visual Studio.Net** e creare una nuova applicazione console. Questo esempio mostrerà un'applicazione console C#, ma puoi usare anche VB.NET.
+ Inizio**Visual Studio.Net** e creare una nuova applicazione console. Questo esempio mostrerà un'applicazione console C#, ma puoi usare anche VB.NET.
 
 1. Aggiungi riferimenti
  1. Aggiungi un riferimento al componente Aspose.Cells al tuo progetto, ad esempio aggiungi un riferimento a ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll

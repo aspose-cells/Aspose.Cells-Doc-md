@@ -9,6 +9,6 @@ Microsoft Excel 支持 Web 浏览器不支持的某些类型的虚线边框。�
 
 下面的示例代码加载[示例 Excel 文件](sampleExportSimilarBorderStyle.xlsx)包含一些不受支持的边框，如以下屏幕截图所示。截图进一步说明了效果[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle)里面的财产[输出 HTML](outputExportSimilarBorderStyle.zip).
 
-![待办事项：图片_替代_文本](Export-Similar-Border-Style.png)
+![待办事项：图像_替代_文本](Export-Similar-Border-Style.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-ExportSimilarBorderStyle.py" >}}

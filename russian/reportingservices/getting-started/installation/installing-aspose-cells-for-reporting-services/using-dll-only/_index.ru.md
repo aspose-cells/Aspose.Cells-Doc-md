@@ -4,24 +4,24 @@ type: docs
 weight: 20
 url: /ru/reportingservices/using-dll-only/
 ---
-## Как установить Aspose.Cells для служб Reporting Services, используя только DLL:
+## Как установить Aspose.Cells for Reporting Services, используя только DLL:
 
--  Посетите Aspose.Cells для Reporting Services[страница загрузки](https://downloads.aspose.com/cells/reportingservices) и скачать**Aspose.Cells для служб Reporting Services (zip)** архив, содержащий последнюю версию компонента и установленную документацию.
+- Посетите Aspose.Cells for Reporting Services[страница загрузки](https://downloads.aspose.com/cells/reportingservices) и скачать**Aspose.Cells for Reporting Services (почтовый индекс)** архив, содержащий последнюю версию компонента и установленную документацию.
  - Существует 7 видов версий Aspose.Cells.ReprotingServices.dll в Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. Они поддерживают различные продукты сервера отчетов Microsoft.
  - Aspose.Cells.ReportingServices.dll в папке SSRS2005 поддерживает службы отчетов SQL Server 2005 Microsoft.
  - Aspose.Cells.ReportingServices.dll в папке SSRS2008 поддерживает службы отчетов SQL Server 2008 Microsoft.
  - Aspose.Cells.ReportingServices.dll в папке SSRS2008R2 поддерживает службы отчетов Microsoft SQL Server 2008R2/2012/2014.
- Aspose.Cells.ReportingServices.dll в папке SSRS2016 поддерживает службы отчетов Microsoft SQL Server 2016/2017/2019.
+ - Aspose.Cells.ReportingServices.dll в папке SSRS2016 поддерживает службы отчетов Microsoft SQL Server 2016/2017/2019.
    
 - Распаковать архив в директорию на жестком диске.
 
-- Установите Aspose.Cells для конструктора отчетов служб Reporting Services:
- - Регистр**Aspose.Cells.ReportingServices.Client.dll** с помощью утилиты Regasm.exe.
- - Добавьте Aspose.Cells для надстройки Reporting Services в Excel.
+- Установите Aspose.Cells for Reporting Services Дизайнер отчетов:
+ - Регистр**Aspose.Cells.ReportingServices.Client.dll**с помощью утилиты Regasm.exe.
+ - Добавить надстройку Aspose.Cells for Reporting Services в Excel.
    
-- Установите Aspose.Cells для служб Reporting Services для Microsoft SQL Server Reporting Services компонента служб:
+- Установите Aspose.Cells for Reporting Services для Microsoft SQL Server Reporting Services компонент служб:
  - Положите**Aspose.Cells.ReportingServices.dll** в папку установки ${Microsoft SQL Server Reporting Services}\ReportServer\bin.
- - Добавлено Aspose.Cells для расширений рендеринга служб Reporting Services:
+ - Добавлено Aspose.Cells for Reporting Services расширений рендерера:
  - Открытым**${Microsoft Папка установки SQL Server Reporting Services}\ReportServer\rsreportserver.config**
  - Добавьте следующие строки в<Render>……</Render> элемент:
 {{< highlight "xml" >}}
@@ -76,7 +76,7 @@ url: /ru/reportingservices/using-dll-only/
 </Render>
 
 {{< /highlight >}}
- - Добавьте Aspose.Cells для разрешений служб Reporting Services на выполнение:
+ - Добавить Aspose.Cells for Reporting Services разрешения на выполнение:
  - Открытым**${Microsoft Папка установки SQL Server Reporting Services}\ReportServer\rssrvpolicy.config** и
  - Добавьте следующее как последний элемент во втором к внешнему<CodeGroup> элемент (который должен быть<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
@@ -106,16 +106,16 @@ url: /ru/reportingservices/using-dll-only/
 
 {{< /highlight >}}
 
-## Убедитесь, что Aspose.Cells для служб Reporting Services успешно установлен:
- 1. Откройте диспетчер отчетов и проверьте список доступных типов экспорта для отчета. (Запустите диспетчер отчетов, открыв браузер и введите URL-адрес диспетчера отчетов в адресную строку. (По умолчанию URL-адрес — http://<ComputerName>/Отчеты).
+## Убедитесь, что Aspose.Cells for Reporting Services успешно установлен:
+1. Откройте диспетчер отчетов и проверьте список доступных типов экспорта для отчета. (Запустите диспетчер отчетов, открыв браузер и введите URL-адрес диспетчера отчетов в адресную строку. (По умолчанию URL-адрес — http://<ComputerName>/Отчеты).
  1. Выберите один из отчетов на сервере и откройте**Выберите формат** список.
- Вы должны увидеть список форматов экспорта, предоставленный Aspose.Cells для Reporting Services.
+ Вы должны увидеть список форматов экспорта, предоставленный Aspose.Cells for Reporting Services.
  1. Выберите**XLS – Книга Excel по телефону Aspose.Cells**.
  1. Нажмите**Экспорт**.
  Отчет формируется в выбранном формате.
  1. Отправьте его клиенту и откройте в соответствующем приложении. В этом случае отчет открывается в Microsoft Excel.
 
-Поздравляем, вы успешно установили Aspose.Cells для Reporting Services и создали отчет в виде файла Microsoft Excel!
+Поздравляем, вы успешно установили Aspose.Cells for Reporting Services и создали отчет в виде файла Excel Microsoft!
 
 
  Существует 7 видов версий Aspose.Cells.ReprotingServices.dll в Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. Они поддерживают различные продукты сервера отчетов Microsoft.

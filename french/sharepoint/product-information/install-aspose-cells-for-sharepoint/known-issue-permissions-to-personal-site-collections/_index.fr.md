@@ -14,7 +14,7 @@ Lorsque ce problème se produit lors de l'installation, une exception Unauthoriz
 
 Pour éviter ce problème, accordez aux administrateurs du portail l'autorisation de gérer l'application Web MySite :
 
-1.  Aller à**Administration centrale de SharePoint** et sélectionnez le**Gestion des applications** languette.
+1.  Aller à**Administration centrale de SharePoint**et sélectionnez le**Gestion des applications** languette.
 1.  Choisir**Politique pour les applications Web** sous le**Sécurité des applications** groupe.
 1.  Assurez-vous de sélectionner la bonne application Web pour votre « Mon site » dans la**Application Web** liste à droite.
 1.  Sélectionner**Ajouter des utilisateurs** en haut à gauche.

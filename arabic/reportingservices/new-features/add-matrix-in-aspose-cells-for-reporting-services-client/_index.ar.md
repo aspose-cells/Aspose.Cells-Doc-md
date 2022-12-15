@@ -1,5 +1,5 @@
 ﻿---
-title: أضف مصفوفة في Aspose.Cells لعملاء خدمات التقارير
+title: أضف مصفوفة في Aspose.Cells for Reporting Services عميل
 type: docs
 weight: 80
 url: /ar/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/

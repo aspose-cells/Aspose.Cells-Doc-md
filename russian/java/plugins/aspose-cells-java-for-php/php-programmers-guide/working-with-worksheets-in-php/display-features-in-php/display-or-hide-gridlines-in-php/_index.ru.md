@@ -6,7 +6,7 @@ url: /ru/java/display-or-hide-gridlines-in-php/
 ---
 ## **Aspose.Cells — Показать или скрыть линии сетки**
 ### **Скрытие линий сетки**
- Чтобы скрыть рабочий лист, используя**Aspose.Cells Java для PHP** , вызов**displayhidegridlines** модуль.
+ Чтобы скрыть рабочий лист, используя**Aspose.Cells Java for PHP** , вызов**displayhidegridlines** модуль.
 
 **PHP-код**
 

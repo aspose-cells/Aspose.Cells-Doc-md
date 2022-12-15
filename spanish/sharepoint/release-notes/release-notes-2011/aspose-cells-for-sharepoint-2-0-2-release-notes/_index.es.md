@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells para las notas de la versión de SharePoint 2.0.2
+title: Aspose.Cells for SharePoint 2.0.2 Notas de la versión
 type: docs
 weight: 20
 url: /es/sharepoint/aspose-cells-for-sharepoint-2-0-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Esta página contiene notas de la versión para[Aspose.Cells para SharePoint 2.0.2](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-2.0.2/)
+ Esta página contiene notas de la versión para[Aspose.Cells for SharePoint 2.0.2](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-2.0.2/)
 
 {{% /alert %}} 
 
-¡Nos complace anunciar Aspose.Cells para SharePoint v2.0.2!
+¡Nos complace anunciar Aspose.Cells for SharePoint v2.0.2!
 
 
 

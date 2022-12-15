@@ -1,16 +1,16 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.9.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.9.2
 type: docs
 weight: 330
 url: /it/java/public-api-changes-in-aspose-cells-8-9-2/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.9.1 alla 8.9.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.9.1 alla 8.9.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Si prega di controllare anche il[Pubblico API Modifiche introdotte in Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
+ Si prega di controllare anche il[API pubblica Modifiche introdotte in Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -19,7 +19,7 @@ Aspose.Cells for Java ha esposto la classe TextOptions insieme alla proprietà F
 
 Ecco un semplice scenario di utilizzo della proprietà FontSettings.TextOptions.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -49,7 +49,7 @@ TextOptions textOptions =  ((FontSetting)shape.getCharacters().get(0)).getTextOp
 
 Ecco un semplice scenario di utilizzo delle proprietà di cui sopra.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -93,7 +93,7 @@ Aspose.Cells for Java ha esposto la proprietà Shape.Line che restituisce un'ist
 
 Ecco un semplice scenario di utilizzo della proprietà Shape.Line.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -123,7 +123,7 @@ Aspose.Cells for Java 8.9.2 ha esposto la proprietà Shape.Fill che restituisce 
 
 Di seguito è riportato il semplice scenario di utilizzo della proprietà Shape.Fill.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

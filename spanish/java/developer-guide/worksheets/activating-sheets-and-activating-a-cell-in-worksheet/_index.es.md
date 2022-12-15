@@ -15,7 +15,7 @@ A veces, necesita que una hoja de trabajo específica esté activa y se muestre 
 
 ## **Activando Hojas y Activando un Cell**
 
-Aspose.Cells proporciona llamadas API específicas para activar una hoja y una celda. Por ejemplo, el[**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex)La propiedad es útil para configurar la hoja activa en un libro de trabajo. Del mismo modo, el[**Hoja de trabajo.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell)La propiedad se puede usar para establecer y obtener una celda activa en la hoja de trabajo.
+Aspose.Cells proporciona llamadas API específicas para activar una hoja y una celda. Por ejemplo, el[**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex)La propiedad es útil para configurar la hoja activa en un libro de trabajo. Del mismo modo, el[**Hoja de trabajo.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell)La propiedad se puede usar para establecer y obtener una celda activa en la hoja de cálculo.
 
 Para asegurarse de que las barras de desplazamiento horizontal o vertical estén en la posición del índice de fila y columna en la que desea mostrar datos específicos, use el[**Hoja de trabajo.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow)y[**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn)propiedades.
 
@@ -25,7 +25,7 @@ El siguiente ejemplo muestra cómo activar una hoja de trabajo y hacer una celda
 
 ![todo:imagen_alternativa_texto](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
 
-## Java código para configurar una hoja de trabajo activa en Excel
+## Java código para configurar una hoja de cálculo activa en Excel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ActivatingSheetsandActivatingCell-ActivatingSheetsandActivatingCell.java" >}}
 

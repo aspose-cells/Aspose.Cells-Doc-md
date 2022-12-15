@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.02.0 Release Notes
+title: Aspose.Cells for .NET 17.02.0 Release Notes
 type: docs
 weight: 110
 url: /sv/net/aspose-cells-for-net-17-02-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 17.02.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.02.0/).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 17.02.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.02.0/).
 
 {{% /alert %}} 
 
@@ -42,7 +42,7 @@ url: /sv/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45095|Bilden från kalkylarket har inte renderats till PDF|Insekt|
 |CELLSNET-45075|Hyperlänkar från kalkylarket exporteras inte till PDF|Insekt|
 |CELLSNET-45074|Formateringsproblem i Excel till PDF-rendering|Insekt|
-|CELLSNET-45070|3D-cirkeldiagram återges inte när kalkylblad konverteras till PDF på Mono|Insekt|
+|CELLSNET-45070|3D-cirkeldiagram återges inte vid konvertering av kalkylblad till PDF på Mono|Insekt|
 |CELLSNET-41283|PDF skiljer sig när den sparas från Excel och Aspose.Cells|Insekt|
 |CELLSNET-41196|ToTiff-funktionsproblem - Extra kolumn visas|Insekt|
 |CELLSNET-41195|ToTiff-funktionsproblem - Förlust av data|Insekt|
@@ -72,10 +72,10 @@ url: /sv/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45103|Range.MoveTo() ger undantag|Undantag|
 |CELLSNET-45088|Undantag vid rendering av ett kalkylblad till PDF-filformat|Undantag|
 |CELLSNET-45080|Undantag vid laddning av ett HTML-filformat|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det i supportforumet Aspose.Cells.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring i listan, vänligen ta upp det i supportforumet Aspose.Cells.
 #### **Tillagd HTMLLoadOptions.AutoFitColsAndRows-egenskap**
-Den här versionen av Aspose.Cells för .NET API har lagt till egenskapen HTMLLoadOptions.AutoFitColsAndRows som indikerar om API:et ska anpassa kolumner och rader automatiskt medan HTML importeras i objektläget. Egenskapen boolesk typ har standardvärdet som false vilket innebär att cellhöjderna och -bredderna kommer att importeras som de är, men när ovannämnda egenskap är satt till true försöker API:et justera kolumnbredderna och radhöjderna enligt innehållet .
+Den här versionen av Aspose.Cells for .NET API har lagt till egenskapen HTMLLoadOptions.AutoFitColsAndRows som indikerar om API automatiskt ska anpassa kolumner och rader när HTML-koden importeras i objektläget. Egenskapen boolesk typ har standardvärdet som false vilket innebär att cellhöjderna och -bredderna kommer att importeras som de är, men när ovannämnda egenskap är satt till true försöker API justera kolumnbredderna och radhöjderna enligt innehållet .
 
 Här är det enkla användningsscenariot för HTMLLoadOptions.AutoFitColsAndRows-egenskapen.
 
@@ -97,7 +97,7 @@ var book = new Workbook(dir + "sample.htm", loadOptions);
 
 {{< /highlight >}}
 #### **Lade till LoadOptions.WarningCallback & WorkbookSettings.WarningCallback Properties**
-Aspose.Cells för .NET 17.02.0 har exponerat egenskapen WarningCallback för klasserna LoadOptions och WorkbookSettings för att få eller ställa in varningsåteruppringningen. Utvecklare måste implementera IWarningCallback-gränssnittet för att få anpassade varningar i sina applikationer.
+Aspose.Cells for .NET 17.02.0 har exponerat egenskapen WarningCallback för klasserna LoadOptions och WorkbookSettings för att få eller ställa in varningsåteruppringningen. Utvecklare måste implementera IWarningCallback-gränssnittet för att få anpassade varningar i sina applikationer.
 
 Här är ett enkelt användningsscenario för LoadOptions.WarningCallback-egenskapen för att få varningar när ett indatakalkylblad innehåller dubbletter av namngivna intervall.
 
@@ -145,7 +145,7 @@ var book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 #### **Lade till Cells.TextToColumns Method**
- Den senaste versionen av Aspose.Cells för .NET API:er har exponerat metoden Cells.TextToColumns för att efterlikna Excels**Text till kolumner** funktion. Excel tillhandahåller den här funktionen från**Dataverktyg** under**Data** flik. Observera att för att dela upp innehållet i en kolumn till flera kolumner bör data innehålla en specifik avgränsare som ett kommatecken (eller något annat tecken) baserat på vilket API:et försöker dela upp innehållet i en cell till flera celler.
+ Senaste revisionen av Aspose.Cells for .NET API:er har exponerat metoden Cells.TextToColumns för att efterlikna Excels**Text till kolumner** funktion. Excel tillhandahåller den här funktionen från**Dataverktyg** under**Data** flik. Observera att för att dela upp innehållet i en kolumn till flera kolumner bör data innehålla en specifik avgränsare som ett kommatecken (eller något annat tecken) baserat på vilket API försöker dela upp innehållet i en cell till flera celler.
 
 Här är ett enkelt användningsscenario för att demonstrera användningen av nyligen exponerade API.
 
@@ -173,7 +173,7 @@ cells.TextToColumns(1, 1, 3, options);
 
 {{< /highlight >}}
 #### **Lade till Workbook.GetFonts Method**
-Aspose.Cells för .NET 17.02.0 har exponerat GetFonts-metoden för Workbook-klassen. Metoden Workbook.GetFonts returnerar listan över individuella teckensnitt som används för att formatera cellinnehållet i ett visst kalkylblad. Returtypen för ovannämnda metod är en array av typen Aspose.Cells.Font class.
+Aspose.Cells for .NET 17.02.0 har exponerat GetFonts-metoden för Workbook-klassen. Metoden Workbook.GetFonts returnerar listan över individuella teckensnitt som används för att formatera cellinnehållet i ett visst kalkylblad. Returtypen för ovannämnda metod är en array av typen Aspose.Cells.Font class.
 
 Följande kodavsnitt demonstrerar användningen av Workbook.GetFonts-metoden.
 
@@ -199,7 +199,7 @@ foreach (Aspose.Cells.Font font in fonts)
 
 {{< /highlight >}}
 #### **Lagt till egenskapen TxtSaveOptions.TrimLeadingBlankRowAndColumn**
-Denna revidering av Aspose.Cells för .NET har exponerat den booleska typen TrimLeadingBlankRowAndColumn för klassen TxtSaveOptions som anger om ledande tomma rader och kolumner ska trimmas som Excel gör när data exporteras till CSV- eller tabbavgränsade format. Standardvärdet för ovannämnda egenskap är falskt. . Om data i kalkylbladet inte startar från den första cellen, det vill säga: A1, tar Excel-applikationen bort de ledande tomma raderna och kolumnerna medan data exporteras till CSV- eller tabbavgränsade format, men Aspose.Cells API:er som standard behåller de tomma raderna och kolumnerna för samma prov för att behålla dataplatsen om de exporterade CSV- eller tabbavgränsade filerna måste importeras tillbaka med Aspose.Cells API:er.
+Denna revidering av Aspose.Cells for .NET har exponerat den booleska typen TrimLeadingBlankRowAndColumn-egenskap för klassen TxtSaveOptions som anger om ledande tomma rader och kolumner ska trimmas som Excel gör när data exporteras till CSV- eller tabbavgränsade format. Standardvärdet för falsement är falsement. Om data i kalkylbladet inte startar från den första cellen, det vill säga: A1, tar Excel-applikationen bort de inledande tomma raderna och kolumnerna medan data exporteras till CSV- eller tabbavgränsade format, men Aspose.Cells API:er som standard behåller de tomma raderna och kolumnerna för samma prov för att behålla dataplatsen om de exporterade CSV- eller tabbavgränsade filerna måste importeras tillbaka med Aspose.Cells API:er.
 
 Här är ett enkelt användningsscenario för egenskapen TrimLeadingBlankRowAndColumn.
 
@@ -227,7 +227,7 @@ Använd egenskapen BuiltInDocumentPropertyCollection.Revision istället.
 #### **Lade till Shape.TextShapeType-egenskap**
 Egenskapen Shape.TextShapeType hämtar eller ställer in den förinställda textformtypen från en lista med fördefinierade typer lagrade i AutoShapeType-uppräkning.
 #### **Lade till ExportTableOptions.RenameStrategy Property och RenameStrategy Enumeration**
-Aspose.Cells för .NET 17.02.0 har exponerat egenskapen ExportTableOptions.RenameStrategy tillsammans med RenameStrategy-uppräkningen för att hantera scenario där den första raden med data som ska exporteras innehåller dubbla poster. Om egenskapen ExportTableOptions.ExportColumnName är inställd på true, kommer API:et att orsaka undantag som indikerar att en DataTable inte kan ha kolumner med samma namn. Med nya ändringar på plats tillåter API:et att antingen lägga till siffror eller bokstäver till dubblettkolumnnamnen, medan lämpligt värde från RenameStrategy-uppräkningen avgör hur man byter namn på dubblettkolumnnamnen.
+Aspose.Cells for .NET 17.02.0 har exponerat egenskapen ExportTableOptions.RenameStrategy tillsammans med RenameStrategy-uppräkningen för att hantera scenario där den första raden med data som ska exporteras innehåller dubbla poster. Om egenskapen ExportTableOptions.ExportColumnName är satt till true, kommer API att orsaka undantag som indikerar att en DataTable inte kan ha kolumner med samma namn. Med nya ändringar på plats tillåter API att antingen lägga till siffror eller bokstäver till dubblettkolumnnamnen medan det lämpliga värdet från RenameStrategy-uppräkningen avgör hur man byter namn på dubblettkolumnnamnen.
 
 Här är ett enkelt användningsscenario som visar de nyligen exponerade API:erna.
 
@@ -281,7 +281,7 @@ var table = cells.ExportDataTable(0, 0, 2, 3, options);
 
 {{< /highlight >}}
 #### **Lade till metoderna GridDesktop.DoSplit & GridDesktop.UnDoSplit**
-Aspose.Cells.GridDesktop för .NET 17.02.0 har tillhandahållit två nya metoder som antingen kan dela upp innehållet i kalkylbladet till rutor eller slå samman befintliga rutor.
+Aspose.Cells.GridDesktop for .NET 17.02.0 har tillhandahållit två nya metoder som antingen kan dela upp innehållet i kalkylbladet till rutor eller slå samman befintliga rutor.
 #### **Användningsexempel**
 Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 

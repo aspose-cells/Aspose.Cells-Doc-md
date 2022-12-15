@@ -25,7 +25,7 @@ Sono necessarie solo le seguenti semplici righe di codice per implementare la pr
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Protect-Workbook-Structure.java" >}}
 
 ## **Rimuovere la protezione della struttura della cartella di lavoro utilizzando Aspose.Cell for Java**
-La struttura della cartella di lavoro non protetta è facile con Aspose.Cells API.
+Non proteggere la struttura della cartella di lavoro è facile con l'API Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Unprotect-Workbook-Structure.java" >}}
 {{% alert color="primary" %}}

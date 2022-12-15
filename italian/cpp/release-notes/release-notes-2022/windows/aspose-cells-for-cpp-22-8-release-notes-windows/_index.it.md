@@ -6,12 +6,12 @@ url: /it/cpp/aspose-cells-for-cpp-22-8-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per C++ 22.8 per Windows.
+Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.8 per Windows.
 
 {{% /alert %}}
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|CELLSCPP-859| Risolto il problema di riferimento API|Insetto|
+|CELLSCPP-859|Risolto il problema di riferimento dell'API|Insetto|
 |CELLSCPP-880| Correggi l'errore di formato del file fods aperto|Insetto|
 |CELLSCPP-881| Sincronizza le funzionalità con la versione .Net|Supporto|

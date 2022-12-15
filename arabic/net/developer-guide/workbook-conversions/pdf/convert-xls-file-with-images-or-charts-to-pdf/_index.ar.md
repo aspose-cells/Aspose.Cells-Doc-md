@@ -1,5 +1,5 @@
 ﻿---
-title: قم بتحويل ملف XLS بالصور أو المخططات إلى PDF
+title: قم بتحويل ملف XLS بالصور أو الرسوم البيانية إلى PDF
 type: docs
 weight: 50
 url: /ar/net/convert-xls-file-with-images-or-charts-to-pdf/
@@ -16,6 +16,6 @@ url: /ar/net/convert-xls-file-with-images-or-charts-to-pdf/
 
 {{% alert color="primary" %}} 
 
- إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل استدعاء[المصنف. احسب الصيغة](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) الطريقة فقط قبل التقديم إلى PDF. يضمن القيام بذلك إعادة حساب القيم التابعة للصيغة ، وتجسيد القيم الصحيحة في ملف PDF.
+ إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل استدعاء[المصنف. احسب الصيغة](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) طريقة قبل التقديم مباشرة إلى PDF. يضمن القيام بذلك إعادة حساب القيم التابعة للصيغة ، وتجسيد القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}

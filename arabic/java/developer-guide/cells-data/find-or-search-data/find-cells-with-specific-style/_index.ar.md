@@ -29,7 +29,7 @@ keywords: find cells with specific style, find cells with specific style excel, 
 
 ### عينة من الرموز
 
- يجد مقتطف الشفرة التالي جميع الخلايا التي لها نفس نمط الخلية**أ 1** ويغير النص داخل تلك الخلايا. يرجى الاطلاع على لقطة الشاشة للملفات المصدر والمخرجات لتحليل إخراج نموذج التعليمات البرمجية.
+ يجد مقتطف الشفرة التالي جميع الخلايا التي لها نفس نمط الخلية**أ 1** وتغيير النص داخل تلك الخلايا. يرجى الاطلاع على لقطة الشاشة للملفات المصدر والمخرجات لتحليل إخراج نموذج التعليمات البرمجية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindCellsWithSpecificStyle-FindCellsWithSpecificStyle.java" >}}
 

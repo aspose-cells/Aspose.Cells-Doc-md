@@ -6,7 +6,7 @@ url: /sv/net/insert-rows-and-columns/
 ---
 {{% alert color="primary" %}} 
 
-Det här avsnittet förklarar hur du infogar nya rader och kolumner i ett kalkylblad med Aspose.Cells.GridWeb API. Rader eller kolumner kan infogas var som helst i kalkylbladet.
+Det här avsnittet förklarar hur man infogar nya rader och kolumner i ett kalkylblad med hjälp av Aspose.Cells.GridWeb API. Rader eller kolumner kan infogas var som helst i kalkylbladet.
 
 {{% /alert %}} 
 ## **Infoga rader**

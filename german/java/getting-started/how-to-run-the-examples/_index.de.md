@@ -9,9 +9,9 @@ url: /de/java/how-to-run-the-examples/
 
  Extrahieren Sie den Inhalt der ZIP-Datei in einen beliebigen Ordner auf Ihrem Computer. Alle Beispiele befinden sich in der**Beispiele** Mappe.
 
- Das**Ressourcen**Ordner enthält Eingabedokumente oder Dateien, die in den Beispielen verwendet werden.
+ Das**Ressourcen** Ordner enthält Eingabedokumente oder Dateien, die in den Beispielen verwendet werden.
 
- Sie können diese Beispiele mit jeder IDE Ihrer Wahl ausführen/ausführen, wir verwenden sie jedoch zu Demonstrationszwecken**Finsternis** . Verwenden Sie die**Datei -> Importieren** Möglichkeit, das Beispiel Ihrer Wahl zu importieren und den Pfad anzugeben.
+Sie können diese Beispiele mit jeder IDE Ihrer Wahl ausführen/ausführen, wir verwenden sie jedoch zu Demonstrationszwecken**Finsternis** . Verwenden Sie die**Datei -> Importieren** Möglichkeit, das Beispiel Ihrer Wahl zu importieren und den Pfad anzugeben.
 
 Fügen Sie die erforderlichen JAR-Dateien (Bibliotheken) im Projekt hinzu.
 

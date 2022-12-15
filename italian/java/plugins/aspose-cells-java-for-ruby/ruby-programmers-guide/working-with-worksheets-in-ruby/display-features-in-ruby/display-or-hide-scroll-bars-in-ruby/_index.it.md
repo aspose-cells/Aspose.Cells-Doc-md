@@ -6,7 +6,7 @@ url: /it/java/display-or-hide-scroll-bars-in-ruby/
 ---
 ## **Aspose.Cells - Mostra o nascondi le barre di scorrimento**
 ### **Nascondere le barre di scorrimento**
- Per nascondere le barre di scorrimento utilizzando**Aspose.Cells Java per Rubino** , chiamata**displayhidescrollbars** modulo.
+ Per nascondere le barre di scorrimento utilizzando**Aspose.Cells Java per Ruby** , chiamata**displayhidescrollbars** modulo.
 
 **Codice Rubino**
 

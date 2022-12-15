@@ -8,8 +8,8 @@ url: /tr/net/aspose-cells-for-net-8-7-2-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-44242 | CustomXmlParts desteği ve kullanımı| Yeni özellik|
-|CELLSNET-44313 | GridWeb'de filtreyi uyguladıktan sonra satır sayısını alın| Yeni özellik|
+|CELLSNET-44242 | CustomXmlParts desteği ve kullanımı|Yeni özellik|
+|CELLSNET-44313 | GridWeb'de filtreyi uyguladıktan sonra satır sayısını alın|Yeni özellik|
 |CELLSNET-44307 | Bir ODS dosyasında şifreleme algılama çalışmıyor| Artırma|
 |CELLSNET-44301 | Dizin yerine ad açısından TextBox'u seçin| Artırma|
 |CELLSNET-44260 | Çalışma Kitabında varolan OleObject'ler için OleObject.ImageData'yı ayarlama| Artırma|

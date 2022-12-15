@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells для конструктора отчетов служб Reporting Services
+title: Aspose.Cells for Reporting Services Дизайнер отчетов
 type: docs
 weight: 100
 url: /ru/reportingservices/aspose-cells-for-reporting-services-report-designer/

@@ -14,11 +14,11 @@ url: /ru/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/) for Java — это компонент отчетности по электронным таблицам Excel®, который позволяет приложениям Java создавать электронные таблицы Excel® и управлять ими без использования Microsoft Excel®. Aspose.Cells for Java — это невероятно многофункциональный компонент, который предлагает гораздо больше, чем просто основные функции экспорта данных.
+[Aspose.Cells](https://products.aspose.com/cells/java/)for Java — это компонент отчетности по электронным таблицам Excel®, который позволяет приложениям Java создавать электронные таблицы Excel® и управлять ими без использования Microsoft Excel®. Aspose.Cells for Java — это невероятно многофункциональный компонент, который предлагает гораздо больше, чем просто основные функции экспорта данных.
 
 ### **Aspose.Cells Java для IntelliJ IDEA - Maven**
 
-- Aspose.Cells Java для IntelliJ IDEA (Maven) — это**Плагин IntelliJ IDEA** который позволяет создавать проекты maven (т.е. созданный проект содержит зависимость Aspose.Cells for Java API maven) и загружать примеры исходного кода API для использования**Aspose.Cells for Java API**.
+-  Aspose.Cells Java для IntelliJ IDEA (Maven) — это**Плагин IntelliJ IDEA** который позволяет создавать проекты maven (т.е. созданный проект содержит зависимость Aspose.Cells for Java API maven) и загружать примеры исходного кода API для использования**Aspose.Cells for Java API**.
 
 -  Этот плагин поможет вам работать с**Aspose.Cells for Java API** внутри вашей любимой IntelliJ IDEA.
 
@@ -64,7 +64,7 @@ url: /ru/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **Загрузка IntelliJ IDEA**
 
-Вам нужно будет сначала установить IntelliJ IDEA CE / UE перед загрузкой**Aspose.Cells Java для IntelliJ IDEA (Maven)** плагин.
+ Вам нужно будет сначала установить IntelliJ IDEA CE / UE перед загрузкой**Aspose.Cells Java для IntelliJ IDEA (Maven)** плагин.
 
 Чтобы скачать IntelliJ IDEA
 
@@ -94,13 +94,13 @@ url: /ru/java/aspose-cells-java-for-intellij-idea-maven/
 
 ## **Демонстрационное видео**
 
- пожалуйста, проверьте[видео](https://www.youtube.com/watch?v=8sHoB5Isq-A)ниже, чтобы увидеть мастер проектов Aspose.Cells Maven и мастер примеров Aspose.Cells в действии.
+ пожалуйста, проверьте[видео](https://www.youtube.com/watch?v=8sHoB5Isq-A) ниже, чтобы увидеть мастер проектов Aspose.Cells Maven и мастер примеров Aspose.Cells в действии.
 
 ## **Поддержка, расширение и участие**
 
 ### **Поддерживать**
 
-- Если вы хотите видеть известные / зарегистрированные проблемы (пользователями или командой QA) в плагине.
+- Если вы хотите видеть известные / зарегистрированные проблемы (пользователями или командой контроля качества) в плагине.
 - Или вы хотите сообщить о любой проблеме, которую вы обнаружили в плагине.
 - У вас есть предложения по улучшению или вы хотели бы сделать запрос на какую-либо функцию
 

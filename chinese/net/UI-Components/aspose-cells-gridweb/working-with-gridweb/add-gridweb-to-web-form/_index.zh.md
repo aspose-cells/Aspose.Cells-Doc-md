@@ -16,7 +16,7 @@ url: /zh/net/add-gridweb-to-web-form/
 1. 打开视觉工作室。
 1. 来自**文件**菜单，选择**新的**其次是**项目**. 
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_1.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_1.png)
 
 
 
@@ -24,17 +24,17 @@ url: /zh/net/add-gridweb-to-web-form/
 
 1. 选择**ASP.NET 网络应用程序**所需的语言。
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_2.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_2.png)
 
 1. 选择**网页表格**模板。
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_3.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_3.png)
 
 1. 向项目中添加一个新的 Web 表单。
 ### **第 2 步：将控件嵌入 Web 窗体**
 将 Aspose.Cells.GridWeb 控件从 Visual Studio 工具箱拖放到 Web 窗体。
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_4.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_4.png)
 
 {{% alert color="primary" %}} 
 
@@ -44,15 +44,15 @@ url: /zh/net/add-gridweb-to-web-form/
 
 将控件添加到窗体后，它呈现如下：
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_5.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_5.png)
 ### **第 3 步：调整控件大小**
 表单以默认大小呈现。通过拖动边框或角来调整大小。
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_6.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_6.png)
 ### **第 4 步：设置控件属性**
 Aspose.Cells.GridWeb 控件也可以使用各种属性进行配置。
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_7.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_7.png)
 
 可以使用“属性”对话框调整控件的许多属性。基本属性包括高度、宽度、颜色和视觉样式。高级属性包括编辑模式、会话模式和双击模式。此外，可以在“属性”对话框中设置自定义事件处理程序。
 
@@ -63,13 +63,13 @@ Aspose.Cells.GridWeb 控件也可以使用各种属性进行配置。
 要打开自定义命令按钮编辑器：
 右键单击 GridWeb 控件并选择**自定义命令按钮**. 
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_8.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_8.png)
 
 
 
 显示 CustomCommandButton 集合编辑器对话框。
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_9.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_9.png)
 
 该对话框允许开发人员在 GridWeb 控件中添加和删除自定义命令按钮。
 
@@ -95,4 +95,4 @@ Aspose.Cells.GridWeb也提供了它的资源文件与控件。 “acw_client”�
 
 **GridWeb 控件的上下文菜单** 
 
-![待办事项：图片_替代_文本](add-gridweb-to-web-form_10.png)
+![待办事项：图像_替代_文本](add-gridweb-to-web-form_10.png)

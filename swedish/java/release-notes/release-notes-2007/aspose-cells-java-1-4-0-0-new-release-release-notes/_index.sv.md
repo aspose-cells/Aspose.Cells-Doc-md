@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 1.4.0.0 Releaseinformation för nya versioner
+title: Aspose.Cells Java 1.4.0.0 Releaseinformation för nya utgåvor
 type: docs
 weight: 170
 url: /sv/java/aspose-cells-java-1-4-0-0-new-release-release-notes/
@@ -12,7 +12,7 @@ url: /sv/java/aspose-cells-java-1-4-0-0-new-release-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.4.0.0!
+ Vi har släppt Aspose.Cells for Java V1.4.0.0!
 
  Följande förbättringar och korrigeringar ingår:
 
@@ -23,6 +23,6 @@ url: /sv/java/aspose-cells-java-1-4-0-0-new-release-release-notes/
 
  Namnbyte
 
- Observera att Aspose.Excel för Java har bytt namn till Aspose.Cells för Java.
+ Observera att Aspose.Excel for Java har bytt namn till Aspose.Cells for Java.
 
-Om du uppgraderar från Aspose.Excel för Java, måste du ersätta Aspose.Excel.jar med Aspose.Cells.jar i CLASSPATH. Du måste även ändra alla "import"-paket com.aspose.excel till com.aspose.cells i din kod.
+Om du uppgraderar från Aspose.Excel for Java måste du ersätta Aspose.Excel.jar med Aspose.Cells.jar i CLASSPATH. Du måste även ändra alla "import"-paket com.aspose.excel till com.aspose.cells i din code.

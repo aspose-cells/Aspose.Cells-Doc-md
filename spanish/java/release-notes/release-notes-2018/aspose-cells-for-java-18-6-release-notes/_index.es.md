@@ -88,7 +88,7 @@ Obtiene o establece la profundidad de bits para que se aplique solo al guardar p
 
 ### **Sobrecarga el método WorkbookRender.ToImage()**
 
-Representa el libro de trabajo en una imagen por el índice de la página.
+Representa el libro de trabajo en imagen por el índice de la página.
 
 ### **Agrega el método Legend.LegendEntriesLabels()**
 

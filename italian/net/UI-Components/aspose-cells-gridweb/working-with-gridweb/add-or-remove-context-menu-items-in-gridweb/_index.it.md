@@ -9,7 +9,7 @@ url: /it/net/add-or-remove-context-menu-items-in-gridweb/
 È possibile aggiungere voci di menu di scelta rapida utilizzando il markup ASP.NET o utilizzando il codice .NET. Puoi anche rimuovere le voci del menu di scelta rapida utilizzando il codice .NET. Utilizzare i metodi GridWeb.CustomCommandButtons.Add() e GridWeb.CustomCommandButtons.Remove() o RemoveAt() per questi scopi.
 
 {{% /alert %}} 
-## **Aggiungi la voce del menu di scelta rapida utilizzando il markup ASP.NET**
+## **Aggiunta di una voce di menu contestuale utilizzando il markup ASP.NET**
 Il markup ASP.NET seguente aggiunge una voce di menu di scelta rapida in GridWeb.
 
 
@@ -18,7 +18,7 @@ Il markup ASP.NET seguente aggiunge una voce di menu di scelta rapida in GridWeb
 
 
 
-Ecco il markup ASP.NET completo che crea un GridWeb con la voce del menu di scelta rapida sopra. Si prega di notare l'attributo OnCustomCommand="GridWeb1_CustomCommand". È il nome del gestore eventi che verrà chiamato quando si fa clic sulla voce del menu contestuale.
+Ecco il markup ASP.NET completo che crea un GridWeb con la voce del menu di scelta rapida precedente. Si prega di notare l'attributo OnCustomCommand="GridWeb1_CustomCommand". È il nome del gestore eventi che verrà chiamato quando si fa clic sulla voce del menu contestuale.
 
 
 
@@ -26,7 +26,7 @@ Ecco il markup ASP.NET completo che crea un GridWeb con la voce del menu di scel
 
 
 
-Ecco come appare la voce del menu di scelta rapida dopo essere stata aggiunta utilizzando il markup ASP.NET sopra.
+Ecco come appare la voce del menu di scelta rapida dopo essere stata aggiunta utilizzando il markup ASP.NET precedente.
 
 ![cose da fare:immagine_alt_testo](add-or-remove-context-menu-items-in-gridweb_1.png)
 

@@ -6,7 +6,7 @@ url: /es/java/add-and-retrieve-data/
 ---
 {{% alert color="primary" %}} 
 
- En[Acceso a Cells de una hoja de trabajo](/cells/es/java/accessing-cells-of-a-worksheet/)discutimos enfoques básicos para acceder a las celdas en una hoja de cálculo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a las celdas.
+ En[Acceso a Cells de una hoja de trabajo](/cells/es/java/accessing-cells-of-a-worksheet/), discutimos enfoques básicos para acceder a las celdas en una hoja de cálculo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a las celdas.
 
 {{% /alert %}} 
 ## **Agregando datos al Cells**
@@ -37,7 +37,7 @@ Mientras trabajan en hojas de trabajo, los usuarios pueden agregar diferentes ti
 
  Además, el tipo de datos contenidos en una celda también se puede verificar usando el[Escribe](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) propiedad de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase. De hecho, el[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase'[Escribe](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) propiedad se basa en[Tipo de valor de celda](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueType)enumeración cuyos valores predefinidos se enumeran a continuación:
 
-|**Cell Tipos de valores**|**Descripción**|
+|**Cell Tipos de valor**|**Descripción**|
 |:- |:- |
 |[ES_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|Especifica que el valor de la celda es booleano.|
 |[ES_FECHA_TIEMPO](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|Especifica que el valor de la celda es fecha/hora.|

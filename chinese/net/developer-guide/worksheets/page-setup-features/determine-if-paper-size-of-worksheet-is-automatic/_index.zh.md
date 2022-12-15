@@ -17,7 +17,7 @@ url: /zh/net/determine-if-paper-size-of-worksheet-is-automatic/
 
 并查看他们的第一个工作表的纸张大小是否是自动的。在 Microsoft Excel 中，您可以通过页面设置窗口检查纸张大小是否自动，如屏幕截图所示。
 
-![待办事项：图片_替代_文本](determine-if-paper-size-of-worksheet-is-automatic_1.png)
+![待办事项：图像_替代_文本](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
 ## **示例代码**
 

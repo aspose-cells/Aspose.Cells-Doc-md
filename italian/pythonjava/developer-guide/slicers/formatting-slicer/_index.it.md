@@ -5,7 +5,7 @@ weight: 30
 url: /it/python-java/formatting-slicer/
 ---
 ## **Affettatrice di formattazione**
-Utilizzando Microsoft Excel, è possibile formattare l'affettatrice impostandone il numero di colonne, stili, ecc. Aspose.Cells per Python tramite Java fornisce le proprietà Slicer.NumberOfColumns e Slicer.StyleType per ottenere questo risultato.
+Usando Microsoft Excel, puoi formattare l'affettatrice impostando il suo numero di colonne, stili, ecc. Aspose.Cells for Python via Java fornisce le proprietà Slicer.NumberOfColumns e Slicer.StyleType per raggiungere questo obiettivo.
 
 Il seguente frammento di codice carica il file[esempio di file Excel](106364964.xlsx)che contiene un'affettatrice. Accede all'affettatrice e imposta il numero di colonne e il tipo di stile e lo salva come[file Excel di output](106364965.xlsx). Lo screenshot mostra come l'affettatrice si occupa dell'esecuzione del codice di esempio.
 

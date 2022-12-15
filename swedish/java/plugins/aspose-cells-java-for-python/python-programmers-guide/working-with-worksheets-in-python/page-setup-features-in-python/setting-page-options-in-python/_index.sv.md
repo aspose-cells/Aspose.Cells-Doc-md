@@ -8,7 +8,7 @@ url: /sv/java/setting-page-options-in-python/
 ### **Sidorientering**
  För att tillämpa inställningar för sidorientering med**Aspose.Cells Java för Ruby** , ringa upp**page_orientation** metod av**utskriftsformat** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 
@@ -43,9 +43,9 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Skalningsfaktor**
- För att tillämpa skalning med hjälp av**Aspose.Cells Java för Python** , ringa upp**skalning** metod av**utskriftsformat** modul.
+ För att tillämpa skalning med**Aspose.Cells Java for Python** , ringa upp**skalning** metod av**utskriftsformat** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

@@ -86,7 +86,7 @@ Il file verrà aperto nell'editor.
 
 **Caricamento e scaricamento**
 
- Il metodo***LoaderService.fromInputStream*** legge il***InputStream*** fornito da fileUpload***componente*** creare un'istanza di***com.aspose.cells.Workbook***classe. Questa istanza viene mantenuta in memoria finché l'utente continua a visualizzare o modificare il foglio di calcolo nel browser Web. Quando l'utente lascia l'editor o chiude il browser, le istanze inutilizzate vengono automaticamente scaricate dalla memoria per mantenere pulito il server.
+ Il metodo***LoaderService.fromInputStream*** legge il***InputStream*** fornito da fileUpload***componente*** creare un'istanza di***com.aspose.cells.Workbook*** classe. Questa istanza viene mantenuta in memoria finché l'utente continua a visualizzare o modificare il foglio di calcolo nel browser web. Quando l'utente lascia l'editor o chiude il browser, le istanze inutilizzate vengono automaticamente scaricate dalla memoria per mantenere pulito il server.
 
 
 
@@ -278,7 +278,7 @@ Il file selezionato verrà aperto da Dropbox.
 
 **Come funziona?**
 
- Il**Apri da Dropbox** pulsante utilizza**Selettore JavaScript di Dropbox API** per aprire la finestra di dialogo di Dropbox Chooser. Il Chooser fornisce l'URL del file selezionato, che viene acquisito dalla funzione di callback e rispedito al server. Il server crea un'istanza di foglio di calcolo dall'URL, inizializza alcune cose di pulizia e invia gli aggiornamenti DOM al browser. Il browser esegue il rendering e aggiorna l'HTML e l'utente è pronto per modificare il documento caricato.
+ Il**Apri da Dropbox** pulsante utilizza**API di selezione JavaScript di Dropbox**per aprire la finestra di dialogo di Dropbox Chooser. Il Chooser fornisce l'URL del file selezionato, che viene acquisito dalla funzione di callback e rispedito al server. Il server crea un'istanza di foglio di calcolo dall'URL, inizializza alcune cose di pulizia e invia gli aggiornamenti DOM al browser. Il browser esegue il rendering e aggiorna l'HTML e l'utente è pronto per modificare il documento caricato.
 ### **Apri dall'URL**
  I file possono essere aperti direttamente dagli URL. Ciò consente all'utente di modificare qualsiasi file pubblicamente disponibile su Internet. Per aprire il file append**?url=posizione** parametro con il valore desiderato**Posizione** durante il caricamento dell'editor. Per esempio:
 
@@ -298,7 +298,7 @@ Il file selezionato verrà aperto da Dropbox.
 
 **Cache**
 
- La memorizzazione nella cache avviene subito dopo il caricamento del foglio di calcolo. Il**LoaderService** chiamate**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** e**LoaderService.buildRowHeightCache** uno a uno per memorizzare nella cache il contenuto del foglio di calcolo e mantenere tutte le operazioni veloci e fluide.
+ La memorizzazione nella cache avviene subito dopo il caricamento del foglio di calcolo. Il**LoaderService** chiamate**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** e**LoaderService.buildRowHeightCache**uno a uno per memorizzare nella cache il contenuto del foglio di calcolo e mantenere tutte le operazioni veloci e fluide.
 
 **Aggiornamenti DOM**
 
@@ -517,7 +517,7 @@ L'editor chiuderà il foglio di calcolo aperto, se presente, e ne aprirà uno nu
 
 **Cache**
 
- La memorizzazione nella cache avviene subito dopo il caricamento del foglio di calcolo. Il**LoaderService** chiamate**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** e**LoaderService.buildRowHeightCache** uno a uno per memorizzare nella cache il contenuto del foglio di calcolo e mantenere tutte le operazioni veloci e fluide.
+ La memorizzazione nella cache avviene subito dopo il caricamento del foglio di calcolo. Il**LoaderService** chiamate**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** e**LoaderService.buildRowHeightCache**uno a uno per memorizzare nella cache il contenuto del foglio di calcolo e mantenere tutte le operazioni veloci e fluide.
 
 **Aggiornamenti DOM**
 

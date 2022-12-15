@@ -38,19 +38,19 @@ keywords: combine multiple workbooks into one, combine multiple workbooks into o
 
 **图表工作簿的第一个工作表 - 堆叠**
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
 **图表工作簿的第二个工作表 - 线**
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
 **图片工作簿的第一个工作表——图片**
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
 **组合工作簿中的所有三个工作表 - 堆叠、线条、图片**
 
-![待办事项：图片_替代_文本](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![待办事项：图像_替代_文本](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 下面的代码片段展示了如何将多个工作簿组合成一个工作簿。
 

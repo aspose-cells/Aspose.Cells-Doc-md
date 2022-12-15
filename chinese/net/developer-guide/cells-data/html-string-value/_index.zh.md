@@ -15,7 +15,7 @@ Aspose.Cells 支持将 Microsoft 面向 Excel 的 HTML 转换为 XLS/XLSX 格式
 
 下面的代码示例向您展示了如何在单元格内添加 HTML 富文本。请查看输出 Excel 文件的屏幕截图。
 
-![待办事项：图片_替代_文本](adding-html-rich-text-inside-the-cell_1)
+![待办事项：图像_替代_文本](adding-html-rich-text-inside-the-cell_1)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AddingHTMLRichTextInCell-AddingHTMLRichTextInCell.cs" >}}
 

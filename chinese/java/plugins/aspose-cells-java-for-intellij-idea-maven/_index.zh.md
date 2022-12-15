@@ -14,15 +14,15 @@ url: /zh/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/) for Java 是一个 Excel® 电子表格报告组件，使 Java 应用程序无需使用 Microsoft Excel® 即可创建和管理 Excel® 电子表格。 Aspose.Cells for Java 是一个功能非常丰富的组件，它提供的不仅仅是基本的数据导出功能。
+[Aspose.Cells](https://products.aspose.com/cells/java/)for Java 是一个 Excel® 电子表格报告组件，使 Java 应用程序无需使用 Microsoft Excel® 即可创建和管理 Excel® 电子表格。 Aspose.Cells for Java 是一个功能非常丰富的组件，它提供的不仅仅是基本的数据导出功能。
 
 ### **Aspose.Cells Java 用于 IntelliJ IDEA - Maven**
 
-- Aspose.Cells Java 对于 IntelliJ IDEA (Maven) 是一个**IntelliJ IDEA 插件**它允许您创建 maven 项目（即创建的项目包含 Aspose.Cells for Java API maven 依赖项）并下载 API 的源代码示例以供使用**Aspose.Cells for Java API**.
+-  Aspose.Cells Java 对于 IntelliJ IDEA (Maven) 是一个**IntelliJ IDEA 插件**它允许您创建 maven 项目（即创建的项目包含 Aspose.Cells for Java API maven 依赖项）并下载 API 的源代码示例以供使用**Aspose.Cells for Java API**.
 
 - 该插件可帮助您使用**Aspose.Cells for Java API**在你最喜欢的 IntelliJ IDEA 中。
 
-![待办事项：图片_替代_文本](kwkgljg.png)
+![待办事项：图像_替代_文本](kwkgljg.png)
 
 **巫师**:
 该插件包含两个向导 -----

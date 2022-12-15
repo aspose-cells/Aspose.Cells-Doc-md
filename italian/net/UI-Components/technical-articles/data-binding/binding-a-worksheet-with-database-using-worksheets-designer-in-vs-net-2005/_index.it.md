@@ -12,7 +12,7 @@ url: /it/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 ## **Associare un foglio di lavoro al database utilizzando Worksheets Designer in VS.Net 2005**
 
- Lo scopo di questo articolo è consentire a tutti gli sviluppatori di apprendere come creare un'applicazione di data binding in**VS.Net 2005** e comprendere l'uso e il ruolo di**Progettista di fogli di lavoro** editore. Il modo migliore per imparare e capire qualsiasi cosa è attraverso esempi. Quindi, in questo articolo, sarebbe anche meglio per noi creare un'applicazione di esempio per dimostrare l'uso di**Progettista di fogli di lavoro**in fogli di lavoro vincolanti con database. Creiamo un'applicazione passo dopo passo.
+ Lo scopo di questo articolo è consentire a tutti gli sviluppatori di apprendere come creare un'applicazione di data binding in**VS.Net 2005** e comprendere l'uso e il ruolo di**Progettista di fogli di lavoro** editore. Il modo migliore per imparare e capire qualsiasi cosa è attraverso esempi. Quindi, in questo articolo, sarebbe anche meglio per noi creare un'applicazione di esempio per dimostrare l'uso di**Progettista di fogli di lavoro** in fogli di lavoro vincolanti con database. Creiamo un'applicazione passo dopo passo.
 
 ### **Passaggio 1: creazione di un database di esempio**
 
@@ -30,7 +30,7 @@ url: /it/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 ### **Passaggio 2: progettazione dell'applicazione di esempio**
 
- Un**ASP.NET Applicazione web** è creato e progettato in Visual Studio.NET 2005 come mostrato nelle figure seguenti. Queste schermate sono utili per quegli sviluppatori che non hanno molta familiarità con l'utilizzo di Aspose.Cells.GridWeb in Visual Studio.Net 2005.
+ Un**Applicazione Web ASP.NET** è creato e progettato in Visual Studio.NET 2005 come mostrato nelle figure seguenti. Queste schermate sono utili per quegli sviluppatori che non hanno molta familiarità con l'utilizzo di Aspose.Cells.GridWeb in Visual Studio.Net 2005.
 
 Primo avvio VS.Net 2005.
 
@@ -48,9 +48,9 @@ Crea un nuovo sito Web dal menu File|Nuovo|Sito Web....
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_5.png)
 
-**Figura:**Finestra di dialogo Nuovo sito Web
+**Figura:** Finestra di dialogo Nuovo sito Web
 
- Dopo aver cliccato sul**Navigare** pulsante, scegliere la cartella di posizione nell'IIS locale. È possibile creare una nuova cartella e renderla come cartella virtuale come mostrato nella figura.
+ Dopo aver cliccato sul**Navigare**pulsante, scegliere la cartella di posizione nell'IIS locale. È possibile creare una nuova cartella e renderla come cartella virtuale come mostrato nella figura.
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_6.png)
 
@@ -123,7 +123,7 @@ Una volta trovato quel tag, seleziona quel tag completo nel codice sorgente come
 
 **Figura:** Selezione**GrigliaWeb** componente nella finestra di dialogo del componente
 
- Ora il**GrigliaWeb** viene aggiunto come mostrato nella figura sottostante.
+ Ora il**GrigliaWeb** viene aggiunto come mostrato nella figura seguente.
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_13.png)
 
@@ -143,7 +143,7 @@ Una volta trovato quel tag, seleziona quel tag completo nel codice sorgente come
 
 ##### **Passaggio 3: connessione al database tramite Esplora server e impostazione dell'oggetto di connessione**
 
- Per prima cosa aggiungiamo il database MS Access al progetto che abbiamo precedentemente creato**Passo 1** . Potresti vederlo**db.mdb** il file viene aggiunto al progetto.
+Per prima cosa aggiungiamo il database MS Access al progetto che abbiamo precedentemente creato**Passo 1** . Potresti vederlo**db.mdb** il file viene aggiunto al progetto.
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_15.png)
 
@@ -167,14 +167,14 @@ La finestra Component Designer è mostrata come sotto.
 
 **Figura:** oggetto oleDbConnection1
 
- Ora è il momento di connettersi con il database. Possiamo farlo facilmente usando**Esplora server** in Visual Studio.NET 2005. Basta selezionare**Connessione dati** in**Esplora server** e clic destro. Vedrai apparire un menu contestuale davanti a te. Selezionare**Aggiungi connessione...**opzione dal menu come mostrato di seguito nella figura:
+ Ora è il momento di connettersi con il database. Possiamo farlo facilmente usando**Esplora server** in Visual Studio.NET 2005. Basta selezionare**Connessione dati** in**Esplora server** e clic destro. Vedrai apparire un menu contestuale davanti a te. Selezionare**Aggiungi connessione...** opzione dal menu come mostrato di seguito nella figura:
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_19.png)
 
 **Figura:** Selezione**Aggiungi connessione...** opzione dal menu
 
 
- Dopo aver selezionato**Aggiungi connessione...** opzione dal menu,**Aggiungi connessione** si aprirà la finestra di dialogo e**Navigare** per selezionare il file del database come mostrato di seguito.
+ Dopo aver selezionato**Aggiungi connessione...**opzione dal menu,**Aggiungi connessione** si aprirà la finestra di dialogo e**Navigare** per selezionare il file del database come mostrato di seguito.
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_20.png)
 
@@ -206,7 +206,7 @@ Puoi sfogliare la connessione per controllare la tabella e i suoi campi.
 
 ##### **Passaggio 4: configurazione dell'oggetto adattatore dati**
 
- Ora, aggiungi un**OleDbDataAdapter** componente dal pannello Dati nella casella degli strumenti per configurarlo. Fare doppio clic su**OleDbDataAdapter** nel pannello Dati del toolbox, avvierà la sua procedura guidata di configurazione e selezionerà la connessione esistente come mostrato in figura:
+ Ora, aggiungi un**OleDbDataAdapter** componente dal pannello Dati nella casella degli strumenti per configurarlo. Fare doppio clic su**OleDbDataAdapter**nel pannello Dati del toolbox, avvierà la sua procedura guidata di configurazione e selezionerà la connessione esistente come mostrato in figura:
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_25.png)
 
@@ -236,7 +236,7 @@ Puoi sfogliare la connessione per controllare la tabella e i suoi campi.
 
 ##### **Passaggio 5: generazione del set di dati**
 
- Poiché abbiamo creato la connessione al database e gli oggetti dell'adattatore dati, abbiamo ancora bisogno di qualcosa in cui possiamo archiviare i dati dopo la connessione al database. UN**Set di dati**oggetto può memorizzare i dati con precisione e possiamo anche generarli facilmente utilizzando VS.NET 2005 IDE. Per farlo, seleziona**oleDbDataAdaper1** e clic destro. Verrà visualizzato un menu contestuale con alcune opzioni. Selezionare**creare** **Set di dati...** opzione dal menu come mostrato sotto nella figura.
+ Poiché abbiamo creato la connessione al database e gli oggetti dell'adattatore dati, abbiamo ancora bisogno di qualcosa in cui possiamo archiviare i dati dopo la connessione al database. UN**Set di dati** oggetto può memorizzare i dati con precisione e possiamo anche generarli facilmente utilizzando VS.NET 2005 IDE. Per farlo, seleziona**oleDbDataAdaper1** clic destro. Verrà visualizzato un menu contestuale con alcune opzioni. Selezionare**creare** **Set di dati...** opzione dal menu come mostrato sotto nella figura.
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_30.png)
 
@@ -262,7 +262,7 @@ Determinato codice viene generato automaticamente nella connessione correlata al
 
 ##### **Passaggio 6: utilizzo di Designer di fogli di lavoro**
 
- Ora è il momento di aprire il segreto. Selezionare il controllo e fare clic con il tasto destro. Si aprirà un menu contestuale. Selezionare l'opzione Worksheets Designer... dal menu come mostrato di seguito nella figura.
+Ora è il momento di aprire il segreto. Selezionare il controllo e fare clic con il tasto destro. Si aprirà un menu contestuale. Selezionare l'opzione Worksheets Designer... dal menu come mostrato di seguito nella figura.
 
 ![cose da fare:immagine_alt_testo](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_34.png)
 
@@ -394,7 +394,7 @@ End Sub
 
 Di gran lunga, abbiamo creato un'applicazione di database molto utile. Ma questa applicazione ti consente solo di visualizzare i dati della tabella. Sebbene sia possibile modificare i dati in**GrigliaWeb** controllo ma quando chiuderai la finestra del browser e aprirai il tuo database. Scoprirai che non è cambiato nulla. Significa che le modifiche apportate non vengono salvate nel database. Quindi, c'è qualcosa che devi fare.
 
- Ora aggiungeremo del codice alla nostra applicazione in modo che**GrigliaWeb** può salvare le sue modifiche al database effettivo. Apriamo**Proprietà** riquadro e selezionare**SalvaComando** evento del**GrigliaWeb** controllo dall'elenco dei relativi eventi. Se fai doppio clic su**SalvaComando** evento quindi VS.NET 2005 IDE creerà**GridWeb1_SaveCommand** gestore di eventi per te. Aggiungi del codice a questo gestore di eventi per l'aggiornamento del database con i dati modificati contenuti in**Set di dati** (legato con il foglio di lavoro) utilizzando**oleDbDataAdapter1**.
+ Ora aggiungeremo del codice alla nostra applicazione in modo che**GrigliaWeb** può salvare le sue modifiche al database effettivo. Apriamo**Proprietà** riquadro e selezionare**SalvaComando** evento del**GrigliaWeb** controllo dall'elenco dei relativi eventi. Se fai doppio clic su**SalvaComando** verrà creato l'evento VS.NET 2005 IDE**GridWeb1_SaveCommand** gestore di eventi per te. Aggiungi del codice a questo gestore di eventi per l'aggiornamento del database con i dati modificati contenuti in**Set di dati** (legato con il foglio di lavoro) utilizzando**oleDbDataAdapter1**.
 
 ##### **Esempio:**
 

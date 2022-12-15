@@ -18,7 +18,7 @@ Debe configurar una licencia antes de realizar cualquier operación con document
 
 ## **Cargando el archivo de licencia**
 
- En Aspose.Cells para Android a través de Java, la licencia puede ser[incrustado como un recurso](/cells/es/java/applying-a-license/#applying-a-license-from-an-embedded-resource), o cargado desde una secuencia:
+ En Aspose.Cells for Android via Java, la licencia puede ser[incrustado como un recurso](/cells/es/java/applying-a-license/#applying-a-license-from-an-embedded-resource), o cargado desde una secuencia:
 
 1.  Coloque el archivo de licencia en cualquier ubicación en**/mnt/tarjeta sd/**.
 1. Cree una secuencia que haga referencia al archivo.

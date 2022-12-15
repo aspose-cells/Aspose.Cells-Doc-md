@@ -15,14 +15,14 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 18.4.
 |CELLSCPP-53|Prend en charge les fonctions/modules de dessin|Nouvelle fonctionnalité|
 |CELLSCPP-57|Implémenter la bibliothèque System.Drawing|Nouvelle fonctionnalité|
 |CELLSCPP-68|Déboguer le module System.Drawing|Nouvelle fonctionnalité|
-|CELLSCPP-69|Résoudre les problèmes dans les cas de test C++|Nouvelle fonctionnalité|
+|CELLSCPP-69|Résoudre des problèmes dans des cas de test C++|Nouvelle fonctionnalité|
 |CELLSCPP-70|Résoudre les fuites de mémoire dans les classes du module System.Drawing|Nouvelle fonctionnalité|
 |CELLSCPP-73|Écrire une méthode dans la publication de fichiers .h|Nouvelle fonctionnalité|
 |CELLSCPP-75|Implémenter la fonction C++ : Dessiner une image à partir du flux|Nouvelle fonctionnalité|
 |CELLSCPP-76|Implémenter les classes C++ : ComIStreamWrapper, Metafile|Nouvelle fonctionnalité|
-|CELLSCPP-77|Cas de test de débogage C++ : copies|Nouvelle fonctionnalité|
+|CELLSCPP-77|Scénario de test C++ de débogage : copies|Nouvelle fonctionnalité|
 |CELLSCPP-78|Résoudre les problèmes dans les cas de test C++ : modules DigitalSignature, EnumTypes, Finds, Formulas, Hyperlinks|Nouvelle fonctionnalité|
-|CELLSCPP-79|Résoudre le problème de lien de la version C++|Nouvelle fonctionnalité|
+|CELLSCPP-79|Résoudre le problème de lien de la version de C++|Nouvelle fonctionnalité|
 |CELLSCPP-81|Correction du problème FillPath dans le module graphique|Nouvelle fonctionnalité|
 |CELLSCPP-82|Résoudre le problème du module System.Drawing par cas de test|Nouvelle fonctionnalité|
 |CELLSCPP-83|Correction du problème gppoint FillPath dans le module graphique|Nouvelle fonctionnalité|
@@ -39,7 +39,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 18.4.
 |CELLSCPP-108|Ouvrir les fichiers et vérifier les problèmes liés aux graphiques|Nouvelle fonctionnalité|
 |CELLSCPP-106|Problème de fuite de mémoire|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
-Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
+Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 #### **Renomme toutes les méthodes comme 'SetIs*' en méthodes 'Set*'**
 Renomme les méthodes, telles que SetIsOutlineShown en SetIsOutlineShown, SetIsSelected en SetSelected dans IWorksheet, etc. Pour plus de détails, voir le guide de référence API.
 #### **Change la couleur en System::Drawing::Color**

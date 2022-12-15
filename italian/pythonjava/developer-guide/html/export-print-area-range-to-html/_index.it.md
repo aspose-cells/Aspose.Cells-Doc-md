@@ -5,7 +5,7 @@ weight: 70
 url: /it/python-java/export-print-area-range-to/
 ---
 ## **Esporta l'intervallo dell'area di stampa in HTML**
-Aspose.Cells per Python tramite Java supporta l'esportazione in HTML solo dell'area di stampa, ad esempio l'intervallo selezionato di celle anziché l'intera she'st. Per questo, lo API fornisce il[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) proprietà. Impostando questa proprietà su**Vero** esporterà solo l'area di stampa.
+Aspose.Cells for Python via Java supporta l'esportazione in HTML solo dell'area di stampa, cioè l'intervallo di celle selezionato invece dell'intera shest. Per questo, l'API fornisce il[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) proprietà. Impostando questa proprietà su**Vero** esporterà solo l'area di stampa.
 
 Il codice di esempio seguente illustra l'utilizzo di[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly)proprietà per esportare solo l'area di stampa in HTML.
 

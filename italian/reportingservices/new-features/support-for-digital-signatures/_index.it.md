@@ -8,18 +8,18 @@ url: /it/reportingservices/support-for-digital-signatures/
 
  Una firma digitale garantisce che una cartella di lavoro sia valida e che nessuno l'abbia modificata. Allegare una firma digitale è simile a sigillare una busta. Se una busta arriva sigillata, hai un certo livello di sicurezza che nessuno ha manomesso il suo contenuto.
 
- Puoi creare una firma digitale personale utilizzando Microsoft Selfcert.exe o qualsiasi altro strumento, oppure puoi acquistare una firma digitale. Per firmare un foglio di calcolo, allegare una firma alle cartelle di lavoro dopo aver creato una firma digitale.
+ È possibile creare una firma digitale personale utilizzando Microsoft Selfcert.exe o qualsiasi altro strumento oppure è possibile acquistare una firma digitale. Per firmare un foglio di calcolo, allegare una firma alle cartelle di lavoro dopo aver creato una firma digitale.
 
- Aspose.Cells per Reporting Services supporta le firme digitali.
+ Aspose.Cells for Reporting Services supporta le firme digitali.
 
 {{% /alert %}} 
 ### **Lavorare con le firme digitali**
 #### **Formati Excel supportati per le firme digitali**
-Aspose.Cells per Reporting Services supporta le firme digitali durante l'esportazione nei formati di file Excel 2007 e ODS.
+Aspose.Cells for Reporting Services supporta le firme digitali durante l'esportazione nei formati di file Excel 2007 e ODS.
 #### **Configurazione delle firme digitali**
  Il**Aspose.Cells.ReportingServices.xml** contiene le informazioni di configurazione e il testo di una firma digitale nel formato<DigitalSignature> etichetta:
 
-- Quando DigitalSignature è disattivato, Aspose.Cells per Reporting Services disattiva la funzionalità di firma digitale.
+- Quando DigitalSignature è disattivato, Aspose.Cells for Reporting Services disattiva la funzionalità di firma digitale.
  Per esempio:
 
 {{< highlight "java" >}}

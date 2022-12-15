@@ -3,7 +3,7 @@ title: Unisci o separa l'intervallo di Cells
 type: docs
 weight: 190
 url: /it/net/merge-or-unmerge-range-of-cells/
-description: Unisci e separa Cells in un intervallo in Excel con il codice C#.
+description: Unisci e separa Cells in un intervallo in Excel con codice C#.
 keywords: c# merge and unmerge cells in a range, c# merge and unmerge cells in range, merge and unmerge cells in range with c#, merge and unmerge cells in range using c#, merge and unmerge cells in excel using c#, merge and unmerge cells in excel with c#, c# merge and unmerge cells in excel, c# merge cells in excel, c# unmerge cells in excel, merge cells in range with c#
 ---
 {{% alert color="primary" %}}

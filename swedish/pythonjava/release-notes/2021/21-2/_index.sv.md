@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Python via Java 21.2 Release Notes
+title: Aspose.Cells for Python via Java 21.2 Release Notes
 type: docs
 weight: 12
 url: /sv/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Python via Java 21.2.
+Den här sidan innehåller utgåvor för Aspose.Cells for Python via Java 21.2.
 
 {{% /alert %}}
 
@@ -18,9 +18,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Python via Java 21.2.
 |CELLSJAVA-43392|Kopiering av ark ger en korrupt arbetsbok|
 |CELLSJAVA-43387|Export av ett ark till HTML ger undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Ändrar beteendet för Cells.DeleteBlankRows()/Cells.DeleteBlankRows(DeleteOptions)**
 

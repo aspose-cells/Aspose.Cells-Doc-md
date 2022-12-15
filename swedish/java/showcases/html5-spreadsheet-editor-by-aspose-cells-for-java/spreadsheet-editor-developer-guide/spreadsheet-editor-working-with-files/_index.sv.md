@@ -278,9 +278,9 @@ Din valda fil kommer att öppnas från Dropbox.
 
 **Hur det fungerar?**
 
- De**Öppna från Dropbox** knappen använder**Dropbox JavaScript Chooser API** för att öppna dialogrutan Dropbox Väljare. Väljaren tillhandahåller URL till den valda filen, som fångas upp av återuppringningsfunktionen och skickas tillbaka till servern. Servern skapar en instans av kalkylblad från URL, initierar några hushållsgrejer och skickar DOM-uppdateringar tillbaka till webbläsaren. Webbläsaren renderar och uppdaterar HTML-koden och användaren är redo att redigera det laddade dokumentet.
+ De**Öppna från Dropbox** knappen använder**Dropbox JavaScript-väljare API**för att öppna dialogrutan Dropbox Väljare. Väljaren tillhandahåller URL till den valda filen, som fångas upp av återuppringningsfunktionen och skickas tillbaka till servern. Servern skapar en instans av kalkylblad från URL, initierar några hushållsgrejer och skickar DOM-uppdateringar tillbaka till webbläsaren. Webbläsaren renderar och uppdaterar HTML-koden och användaren är redo att redigera det laddade dokumentet.
 ### **Öppna från URL**
- Filer kan öppnas direkt från URL:er. Detta tillåter användaren att redigera alla offentligt tillgängliga filer på Internet. För att öppna filen lägg till**?url=plats** parameter med värdet på önskat värde**plats** medan du laddar redigeraren. Till exempel:
+ Filer kan öppnas direkt från URL:er. Detta tillåter användaren att redigera alla offentligt tillgängliga filer på Internet. För att öppna filen lägg till**?url=plats** parameter med värdet av önskat värde**plats** medan du laddar redigeraren. Till exempel:
 
 {{< highlight "java" >}}
 
@@ -294,11 +294,11 @@ Din valda fil kommer att öppnas från Dropbox.
 
 **Instantiera under uppstart**
 
- När**Arbetsbladsvy**backend bean instansieras av JSF**PostConstruct** metod**i det** kallas som laddar kalkylarket med LoaderService.fromUrl.
+ När**Arbetsbladsvy** backend bean instansieras av JSF**PostConstruct** metod**i det** kallas som laddar kalkylarket med LoaderService.fromUrl.
 
 **Cachning**
 
- Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache** en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
+ Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache**en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
 
 **DOM-uppdateringar**
 
@@ -517,7 +517,7 @@ Redaktören stänger det öppnade kalkylarket, om det finns, och öppnar ett nyt
 
 **Cachning**
 
- Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache** en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
+ Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache**en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
 
 **DOM-uppdateringar**
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Hantera data för Excel-filer.
+title: Hantera data i Excel-filer.
 linktitle: Cells Data
 type: docs
 weight: 110
@@ -16,7 +16,7 @@ description: Den här artikeln beskriver hur du visar och redigerar data i Excel
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
 
- Aspose.Cells tillåter utvecklare att lägga till data till cellerna i kalkylblad genom att anropa[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod. Aspose.Cells tillhandahåller överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod som låter utvecklare lägga till olika typer av data till celler. Genom att använda dessa överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod är det möjligt att lägga till ett booleskt, sträng-, dubbel-, heltal eller datum/tid, etc. värden till cellen.
+Aspose.Cells tillåter utvecklare att lägga till data till cellerna i kalkylblad genom att anropa[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod. Aspose.Cells tillhandahåller överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod som låter utvecklare lägga till olika typer av data till celler. Genom att använda dessa överbelastade versioner av[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod är det möjligt att lägga till ett booleskt, sträng-, dubbel-, heltal eller datum/tid, etc. värden till cellen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
@@ -31,7 +31,7 @@ description: Den här artikeln beskriver hur du visar och redigerar data i Excel
  De[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)class tillhandahåller flera egenskaper som gör att utvecklare kan hämta värden från cellerna enligt deras datatyper. Dessa egenskaper inkluderar:
 
 - [**Strängvärde**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): returnerar strängvärdet för cellen.
-- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): returnerar cellens dubbla värde.
+- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): returnerar det dubbla värdet för cellen.
 - [**BoolValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): returnerar cellens booleska värde.
 - [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): returnerar cellens datum/tidsvärde.
 - [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): returnerar flytvärdet för cellen.
@@ -39,7 +39,7 @@ description: Den här artikeln beskriver hur du visar och redigerar data i Excel
 
  När ett fält inte är ifyllt, celler med[**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) eller[**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)ger ett undantag.
 
-Typen av data som finns i en cell kan också kontrolleras med hjälp av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) fast egendom. Faktum är att[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) egendom är baserad på[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)uppräkning vars fördefinierade värden är listade nedan:
+ Typen av data som finns i en cell kan också kontrolleras med hjälp av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) fast egendom. Faktum är att[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) egendom är baserad på[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)uppräkning vars fördefinierade värden är listade nedan:
 
 |**Cell Värdetyper**|**Beskrivning**|
 |:- |:- |

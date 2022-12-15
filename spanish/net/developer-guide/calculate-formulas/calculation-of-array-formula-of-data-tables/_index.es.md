@@ -16,6 +16,6 @@ En el siguiente código de ejemplo, usamos el[archivo fuente excel](5115535.xlsx
 
 ![todo:imagen_alternativa_texto](calculation-of-array-formula-of-data-tables_2.png)
 
-Aquí está el código de muestra utilizado para generar el[PDF de salida](5115538.pdf) desde el[archivo fuente excel](5115535.xlsx). Por favor, lea los comentarios para obtener más información.
+ Aquí está el código de muestra utilizado para generar el[PDF de salida](5115538.pdf) desde el[archivo fuente excel](5115535.xlsx). Por favor, lea los comentarios para obtener más información.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

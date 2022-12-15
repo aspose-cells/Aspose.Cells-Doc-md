@@ -54,7 +54,7 @@ Microsoft Excel позволяет добавлять свойства в фай
 
 ### **Доступ к свойствам документа**
 
-Aspose.Cells API поддерживают оба типа свойств документа, встроенные и настраиваемые. Aspose.Cells'[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс представляет файл Excel и, как и файл Excel,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс может содержать несколько рабочих листов, каждый из которых представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс, тогда как набор рабочих листов представлен[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)учебный класс.
+ Aspose.Cells API поддерживают оба типа свойств документа, встроенные и настраиваемые. Aspose.Cells'[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс представляет файл Excel и, как и файл Excel,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)класс может содержать несколько рабочих листов, каждый из которых представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс, тогда как набор рабочих листов представлен[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)учебный класс.
 
  Использовать[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)для доступа к свойствам документа файла, как описано ниже.
 

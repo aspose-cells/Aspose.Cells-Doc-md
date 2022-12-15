@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 17.12 发行说明
+title: Aspose.Cells for Android via Java 17.12 发行说明
 type: docs
 weight: 10
 url: /zh/java/aspose-cells-for-android-via-java-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Aspose.Cells for Android 的发行说明，通过 Java 17.12。
+此页面包含 Aspose.Cells for Android via Java 17.12 的发行说明。
 
 {{% /alert %}} 
 
@@ -69,7 +69,7 @@ url: /zh/java/aspose-cells-for-android-via-java-17-12-release-notes/
 |CELLSJAVA-42439|异常：“java.lang.IllegalArgumentException：无效的行索引”|例外|
 |CELLSJAVA-42437|异常：重新保存 XLSB 文件格式时出现 java.lang.NumberFormatException|例外|
 ## **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 ### **添加 AbstractCalculationMonitor.Interrupt(string) 方法**
 允许用户中断公式计算的进度。
 ### **添加 HtmlCrossType.MSExport 枚举**
@@ -137,6 +137,6 @@ LoadDataFilterOptions.None 给出了模棱两可的指示并造成了混乱。�
 
 {{% alert color="primary" %}} 
 
-由于 Aspose.Cells for Android 的代码库通过 Java 与相关 .NET 和 Java 版本的代码相匹配，因此大部分更改、增强和修复包含在 Aspose.Cells for .NET v17.10、Aspose.Cells for .NET v17.14181 v17.14183、4716181 v17.14186 中12、Aspose.Cells for Java v17.10、Aspose.Cells for Java v17.11 和 Aspose.Cells for Java v17.12 也包含在这个 Aspose.Cells for Android via Java v17.12.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.10, Aspose.Cells for .NET v17.11, Aspose.Cells for .NET v17.12, Aspose.Cells for Java v17.10、Aspose.Cells for Java v17.11和Aspose.Cells for Java v17.12也包含在这个Aspose.Cells for Android 076119.3421.v17.
 
 {{% /alert %}}

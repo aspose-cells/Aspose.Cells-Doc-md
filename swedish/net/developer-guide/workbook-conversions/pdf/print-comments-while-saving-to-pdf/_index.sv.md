@@ -6,7 +6,7 @@ url: /sv/net/print-comments-while-saving-to-pdf/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel låter dig skriva ut kommentarer medan du skriver ut eller sparar till PDF-format med följande alternativ
+Microsoft Excel låter dig skriva ut kommentarer samtidigt som du skriver ut eller sparar till PDF-format med följande alternativ
 
 - Ingen
 - I slutet av arket

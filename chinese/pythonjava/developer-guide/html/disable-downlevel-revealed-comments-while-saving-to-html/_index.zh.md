@@ -13,6 +13,6 @@ url: /zh/python-java/disable-downlevel-revealed-comments-while-saving-to/
 
 下图显示了将在输出 HTML 文件中删除的 Downlevel-revealed 条件注释
 
-![待办事项：图片_替代_文本](Disable-Downlevel-Revealed-Comments.png)
+![待办事项：图像_替代_文本](Disable-Downlevel-Revealed-Comments.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-DisableDownlevelRevealedCommentsWhileSavingToHTML.py" >}}

@@ -5,8 +5,8 @@ weight: 10
 url: /sv/java/managing-worksheets-in-php/
 ---
 ## **Aspose.Cells - Hantera arbetsblad**
-### **Lägga till arbetsblad i en ny Excel-fil**
-För att lägga till kalkylblad i en ny Excel-fil med**Aspose.Cells Java för PHP** , ring helt enkelt**add_worksheet** metod av**Hantera arbetsblad** modul.
+### **Lägga till kalkylblad till en ny Excel-fil**
+ För att lägga till kalkylblad i en ny Excel-fil med**Aspose.Cells Java for PHP** , ring helt enkelt**add_worksheet** metod av**Hantera arbetsblad** modul.
 
 **PHP-kod**
 
@@ -34,7 +34,7 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ### **Ta bort kalkylblad med Sheet Name**
- För att ta bort kalkylblad efter arknamn med**Aspose.Cells Java för PHP** , ring helt enkelt**remove_worksheet_by_name** metod av**Hantera arbetsblad** modul.
+ För att ta bort kalkylblad efter arknamn med**Aspose.Cells Java for PHP** , ring helt enkelt**remove_worksheet_by_name** metod av**Hantera arbetsblad** modul.
 
 **PHP-kod**
 
@@ -62,7 +62,7 @@ $fstream->close();
 
 {{< /highlight >}}
 ### **Ta bort kalkylblad med Sheet Index**
- För att ta bort kalkylblad för ark index med**Aspose.Cells Java för PHP** , ring helt enkelt**remove_worksheet_by_index** metod av**Hantera arbetsblad** modul.
+ För att ta bort kalkylblad för ark index med**Aspose.Cells Java for PHP** , ring helt enkelt**remove_worksheet_by_index** metod av**Hantera arbetsblad** modul.
 
 **PHP-kod**
 

@@ -15,7 +15,7 @@ Microsoft يسمح Excel للمستخدمين بتنسيق الخلايا عن �
 
 باستخدام Aspose.Cells ، يمكن للمطورين إضافة حدود وتخصيص شكلها بنفس الطريقة المرنة التي يمكنهم بها في Microsoft Excel.
 ### **إضافة الحدود إلى Cells**
- Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) الذي يمثل ملف إكسل Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة. كل عنصر في[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) تمثل المجموعة كائنًا من[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)صف دراسي.
+ Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة. كل عنصر في[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) تمثل المجموعة كائنًا من[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)صف دراسي.
 
  يوفر Aspose.Cells ملف[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ) الطريقة في[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) فئة تستخدم لتعيين نمط تنسيق الخلية. أيضا ، موضوع[أسلوب](https://reference.aspose.com/cells/java/com.aspose.cells/Style)يتم استخدام class وتوفر خصائص لتكوين إعدادات الخط.
 #### **إضافة حدود إلى Cell**
@@ -73,7 +73,7 @@ Microsoft يسمح Excel للمستخدمين بتنسيق الخلايا عن �
 
 يتم إنشاء الإخراج التالي عند تنفيذ الكود أدناه.
 
-**حدود مطبقة على نطاق من الخلايا** 
+**تم تطبيق الحدود على نطاق من الخلايا** 
 
 ![ما يجب القيام به: image_بديل_نص](cells-formatting_3.png)
 

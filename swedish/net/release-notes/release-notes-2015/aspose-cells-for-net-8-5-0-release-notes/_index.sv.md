@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 8.5.0 Release Notes
+title: Aspose.Cells for .NET 8.5.0 Release Notes
 type: docs
 weight: 70
 url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 8.5.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.5.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 8.5.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.5.0/)
 
 {{% /alert %}} 
 
@@ -48,11 +48,11 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43584) - Sjökortetiketter går förlorade vid konvertering till PDF
 
-(CELLSNET-43705) - Datumformatet är annorlunda i utdata-pdf
+ (CELLSNET-43705) - Datumformatet är annorlunda i utdata-pdf
 
  (CELLSNET-43658) - Fel vid beräkning av cellundantag uppstår vid beräkningsformel
 
- (CELLSNET-43329) - Beräkna formel med SUMIF ger ett annat resultat än Excel
+(CELLSNET-43329) - Beräkna formel med SUMIF ger ett annat resultat än Excel
 
  (CELLSNET-42598) - Problem i formelberäkning
 
@@ -74,11 +74,11 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43644) - Texten återges inte korrekt
 
-(CELLSNET-43600) - Excel-filen är inte korrekt renderad
+ (CELLSNET-43600) - Excel-filen är inte korrekt renderad
 
  (CELLSNET-43593) - Text är ovanför linjen och andra formateringsproblem i Excel till PDF
 
- (CELLSNET-43481) - Cells med hebreiska ord har förlorat RTL-konsistensen
+(CELLSNET-43481) - Cells med hebreiska ord har förlorat RTL-konsistensen
 
  (CELLSNET-43457) - Arabisk valutasymbol är på fel sida
 
@@ -102,11 +102,11 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-42537) - Understryka överlappningar med dubbel bottenkant
 
-(CELLSNET-42474) - Teckenstorlek ändrad efter konvertering till PDF
+ (CELLSNET-42474) - Teckenstorlek ändrad efter konvertering till PDF
 
  (CELLSNET-42260) - Jämförelse av PDF genererad med Aspose.Cells med MS Excel
 
- (CELLSNET-41519) - Sidorna ställs inte i rad när man konverterar XLSX-fil till PDF
+(CELLSNET-41519) - Sidorna ställs inte i rad när man konverterar XLSX-fil till PDF
 
  (CELLSNET-43683) - Aspose 8.4.2 läser diagramegenskaper felaktigt och byts ut
 
@@ -124,11 +124,11 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-42922) - Ledarlinjer är dolda vid rendering till PDF-filformat
 
-(CELLSNET-42376) - Text skärs bort från TextBox medan XLSX renderas till PDF
+ (CELLSNET-42376) - Text skärs bort från TextBox medan XLSX renderas till PDF
 
  (CELLSNET-42369) - PDF-filen återges inte korrekt
 
- (CELLSNET-43714) - Custom Ribbon tas bort när XLSM-filen bearbetas
+(CELLSNET-43714) - Custom Ribbon tas bort när XLSM-filen bearbetas
 
  (CELLSNET-43711) - Nyinfogad bild i kalkylbladet sträcks ut vertikalt
 
@@ -142,7 +142,7 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43649) - IsEncrypted är falskt för .xlsx men sant för .xls
 
- (CELLSNET-43641) - Problem med beräkningsformler när iterativ beräkning aktiveras
+(CELLSNET-43641) - Problem med beräkningsformler när iterativ beräkning aktiveras
 
  (CELLSNET-43618) - Värdet hämtas inte bra av Aspose.Cells API:er
 
@@ -166,19 +166,19 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 ## **Nya egenskaper**
 
 
-(CELLSNET-43692) - Bygg ett zoomreglage i GridDesktop som det i Excel
+ (CELLSNET-43692) - Bygg ett zoomreglage i GridDesktop som det i Excel
 
 
 ## **Buggar**
 
 
- (CELLSNET-43688) - Radhöjden för vissa sammanslagna celler är inte korrekt när filen laddas in i GridDesktop-kontrollen
+(CELLSNET-43688) - Radhöjden för vissa sammanslagna celler är inte korrekt när filen laddas in i GridDesktop-kontrollen
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 

@@ -34,9 +34,9 @@ url: /it/java/aspose-cells-for-java-21-4-release-notes/
 |CELLSJAVA-43431|java.lang.NullPointerException sollevata durante la chiamata a Cells.deleteColumn() con l'ultima versione 21.3 mentre funziona con 21.2|
 |CELLSJAVA-43437|IndexOutOfBoundsException quando si fa clic su altre pagine del foglio in modalità di valutazione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi StartAccessCache()/CloseAccessCache() per la cartella di lavoro e il foglio di lavoro.**
 

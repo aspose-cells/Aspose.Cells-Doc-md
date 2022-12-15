@@ -3,12 +3,12 @@ title: Converti dati numerici di testo in numeri
 type: docs
 weight: 150
 url: /it/java/convert-text-numeric-data-to-number/
-description: Scopri come convertire i numeri memorizzati come testo in numeri utilizzando Aspose.Cells for Java API.
+description: Scopri come convertire i numeri memorizzati come testo in numeri utilizzando l'API Aspose.Cells for Java.
 keywords: excel convert text to number, excel convert text to number java, excel convert text numeric data to number, excel convert text numeric data to number java, excel convert numeric text to number, excel convert numeric text to number java, excel convert numeric text to number with java, convert numeric text to number in excel with java, convert numeric text to number in excel with java, convert numeric string to number in excel with java, excel convert text numeric data to number java, excel convert numeric string to number java
 ---
 {{% alert color="primary" %}}
 
- A volte, vuoi convertire i dati numerici inseriti come testo in numeri. È possibile inserire numeri come testo in Microsoft Excel inserendo un apostrofo prima di un numero, ad esempio**'12345**. Excel quindi tratta il numero come una stringa. Aspose.Cells consente di convertire le stringhe in numeri.
+ A volte, vuoi convertire i dati numerici inseriti come testo in numeri. È possibile inserire numeri come testo in Microsoft Excel, ad esempio inserendo un apostrofo prima di un numero**'12345**. Excel quindi tratta il numero come una stringa. Aspose.Cells consente di convertire le stringhe in numeri.
 
 {{% /alert %}}
 

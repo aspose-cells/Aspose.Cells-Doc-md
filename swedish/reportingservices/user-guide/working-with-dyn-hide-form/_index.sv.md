@@ -12,7 +12,7 @@ Dialogrutan "Dyn-Göm" låter dig dölja information dynamiskt från en rapport.
 
 Så här döljer du information:
 
-1.  Klicka på i Microsoft Excel**Dyn-Hide** på kommandofältet Aspose.Cells.
+1.  I Microsoft Excel klickar du**Dyn-Hide** på kommandofältet Aspose.Cells.
  Dialogrutan Dyn-Hide visas.
 
 ![todo:image_alt_text](working-with-dyn-hide-form_1.png)

@@ -6,7 +6,7 @@ url: /it/net/add-borders-to-cells-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET consente di eseguire quasi tutte le attività tramite l'applicazione che un utente può eseguire in Microsoft Excel. Aspose.Cells è performante e robusto e ha l'ulteriore vantaggio di lavorare indipendentemente dall'automazione Microsoft. Questo articolo mostra come aggiungere bordi alle celle in un foglio di lavoro utilizzando Aspose.Cells for .NET rispetto a VSTO.
+Aspose.Cells for .NET consente di eseguire quasi tutte le attività tramite l'applicazione che un utente può eseguire in Microsoft Excel. Aspose.Cells è performante e robusto e ha l'ulteriore vantaggio di lavorare indipendentemente da Microsoft Automation. Questo articolo mostra come aggiungere bordi alle celle in un foglio di lavoro utilizzando Aspose.Cells for .NET rispetto a VSTO.
 
 {{% /alert %}}
 

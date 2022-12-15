@@ -16,6 +16,6 @@ Aşağıdaki örnek kodda,[kaynak excel dosyası](5115535.xlsx) . B1 hücresinin
 
 ![yapılacaklar:resim_alternatif_Metin](calculation-of-array-formula-of-data-tables_2.png)
 
-İşte oluşturmak için kullanılan örnek kod[çıktı PDF](5115538.pdf) dan[kaynak excel dosyası](5115535.xlsx). Daha fazla bilgi için lütfen yorumları okuyunuz.
+ İşte oluşturmak için kullanılan örnek kod[çıktı PDF](5115538.pdf) dan[kaynak excel dosyası](5115535.xlsx). Daha fazla bilgi için lütfen yorumları okuyunuz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

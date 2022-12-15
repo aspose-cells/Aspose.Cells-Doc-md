@@ -15,7 +15,7 @@ Impostare la larghezza di una colonna chiamando il metodo setColumnWidth della r
 - **Indice di colonna**, l'indice della colonna di cui stai modificando la larghezza.
 - **Larghezza della colonna**, la larghezza della colonna desiderata.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -47,7 +47,7 @@ cells.setColumnWidth(1, 17.5);
 ## **xlsx4j - Regolazione altezza colonna riga**
 Row.setHt viene utilizzato per impostare l'altezza personalizzata per le righe utilizzando xlsx4j. setCustomHeight deve essere impostato su TRUE.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

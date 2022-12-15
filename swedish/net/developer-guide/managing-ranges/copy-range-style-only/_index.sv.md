@@ -13,7 +13,7 @@ url: /sv/net/copy-range-style-only/
 Det här exemplet skapar en arbetsbok, fyller den med data och kopierar endast ett intervalls stil.
 
 1. Skapa ett intervall.
-1.  Skapa en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)objekt med specificerade formateringsattribut.
+1.  Skapa en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt med specificerade formateringsattribut.
 1. Använd stilformateringen på intervallet.
 1. Skapa ett andra cellområde.
 1. Kopiera det första intervallets formatering till det andra intervallet.

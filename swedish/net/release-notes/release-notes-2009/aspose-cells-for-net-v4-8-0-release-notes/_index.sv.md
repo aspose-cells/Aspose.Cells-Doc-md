@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET v4.8.0 Release Notes
+title: Aspose.Cells for .NET v4.8.0 Release Notes
 type: docs
 weight: 10
 url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET v4.8.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-v4.8.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET v4.8.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-v4.8.0/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v4.8.0.0!
+ Vi är glada att meddela Aspose.Cells for .NET v4.8.0.0!
 
  Vad har ändrats:
 
@@ -24,9 +24,9 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  l Lägg till WordArt-former i XLS-filen
 
- l Läs Gradient Fill-effekter för diagrammet
+ Läs Gradient Fill-effekter för diagrammet
 
- Skapa kalkylblad med attribut för första sidan eller jämn/udda sidhuvud/sidfot för sidinställningar
+ l Skapa kalkylblad med attribut för första sidan eller jämn/udda sidhuvud/sidfot för sidinställningar
 
  l Stöd för flera utskriftsområden i kalkylblad-till-bild-funktionen
 
@@ -40,7 +40,7 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 
 
 
- Problem lösta i Aspose.Cells för .NET v4.8.0.0
+ Problem lösta i Aspose.Cells for .NET v4.8.0.0
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
@@ -57,8 +57,8 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 |8678 | Pdf| Cells Till PDF, sidfotsbilden är suddig|
 |8749 | Pdf| Diagram visas inte i Excel PDF|
 |8986 | Pdf| Konvertera från Excel till PDF|
-|8988 | Pdf| spara arbetsbok som PDF trasig|
-|9608 | Pdf|XLS-konverteringsproblem (negativ längd?)|
+|8988 | Pdf|spara arbetsbok som PDF trasig|
+|9608 | Pdf| XLS-konverteringsproblem (negativ längd?)|
 |9609 | Pdf| Spara till FileFormatType.Pdf med flertrådsimplementering|
 |9670 | Pdf| Excel2PDF med problem med grupperad form|
 |9761 | Pdf| Fel när spara som Aspose.Pdf.xml|
@@ -79,8 +79,8 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 |7916 | Xls| Uppdatera Frys rutor när du infogar/tar bort rader/kolumner|
 |8588 | Xls| Problem med att beräkna matrisformler|
 |8590 | Xls| Kopiera ark|
-|8604 | Xls| Problem med att kopiera rader.|
-|8668 | Xls|Problem med smarta markörer grupp med merge|
+|8604 | Xls|Problem med att kopiera rader.|
+|8668 | Xls| Problem med smarta markörer grupp med merge|
 |8673 | Xls| Bugg med SUMIF och beräkningsformel|
 |8676 | Xls| Cirkeldiagrammets dataetiketter|
 |8677 | Xls| Länkar tas bort från min formel|

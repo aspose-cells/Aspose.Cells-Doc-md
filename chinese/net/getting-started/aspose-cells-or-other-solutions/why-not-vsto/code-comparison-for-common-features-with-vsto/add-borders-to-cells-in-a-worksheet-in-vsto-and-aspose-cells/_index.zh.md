@@ -23,7 +23,7 @@ url: /zh/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 
 该代码生成一个 Excel 文件，其中第一个工作表上有许多单元格，每个单元格具有不同的边框：
 
-![待办事项：图片_替代_文本](picture1.png)
+![待办事项：图像_替代_文本](picture1.png)
 
 Cells 应用了边框。
 ## **VSTO**
@@ -211,5 +211,5 @@ objBook.Save("ApplyBorders.xls");
 {{< /highlight >}}
 ## **下载示例代码**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/下载)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/下载）
 - [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\)。压缩）

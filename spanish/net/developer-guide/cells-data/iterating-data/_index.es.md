@@ -70,7 +70,7 @@ Para discutir las ventajas de usar enumeradores, tomemos un ejemplo en tiempo re
 Como puede observar, los dos enfoques mencionados anteriormente utilizan una lógica más o menos similar, es decir; recorra todas las celdas de la colección para leer los valores de las celdas. Esto podría ser problemático por varias razones, como se analiza a continuación.
 
 1.  API como[**MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**MaxColumna**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)requieren tiempo adicional para recopilar las estadísticas correspondientes. En caso de que la matriz de datos (filas x columnas) sea grande, el uso de estas API podría imponer una penalización en el rendimiento.
-1. En la mayoría de los casos, no se instancian todas las celdas en un rango determinado. En tales situaciones, verificar cada celda de la matriz no es tan eficiente en comparación con verificar solo las celdas inicializadas.
+1. En la mayoría de los casos, no se instancian todas las celdas en un rango dado. En tales situaciones, verificar cada celda de la matriz no es tan eficiente en comparación con verificar solo las celdas inicializadas.
 1. Acceder a una celda en un bucle como Cells fila, columna hará que se creen instancias de todos los objetos de celda en un rango, lo que eventualmente puede causar OutOfMemoryException.
 
 ## **Conclusión**

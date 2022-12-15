@@ -33,13 +33,13 @@ url: /zh/java/controls-in-charts/
 
 **设计师图表**
 
-![待办事项：图片_替代_文本](controls-in-charts_1.png)
+![待办事项：图像_替代_文本](controls-in-charts_1.png)
 
 下面是向图表添加标签的原始代码。执行代码时会生成以下输出。
 
 **图表中添加了标签**
 
-![待办事项：图片_替代_文本](controls-in-charts_2.png)
+![待办事项：图像_替代_文本](controls-in-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingLabelControl-AddingLabelControl.java" >}}
 
@@ -60,7 +60,7 @@ url: /zh/java/controls-in-charts/
 
 **图表中添加了一个文本框**
 
-![待办事项：图片_替代_文本](controls-in-charts_3.png)
+![待办事项：图像_替代_文本](controls-in-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingTextBoxControl-AddingTextBoxControl.java" >}}
 
@@ -84,7 +84,7 @@ Aspose.Cells 允许您将图像插入图表。例如，添加图片以强调或�
 
 **图表中插入了一张图片**
 
-![待办事项：图片_替代_文本](controls-in-charts_4.png)
+![待办事项：图像_替代_文本](controls-in-charts_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingPictureToChart-AddingPictureToChart.java" >}}
 
@@ -94,7 +94,7 @@ Aspose.Cells 允许您使用[**Mso绘图类型**](https://reference.aspose.com/c
 
 下图显示了输出文件中带有复选框的图表工作表。
 
-![待办事项：图片_替代_文本](controls-in-charts_5.jpg)
+![待办事项：图像_替代_文本](controls-in-charts_5.jpg)
 
 这[输出文件](InsertCheckboxInChartSheet_out.xlsx)附上由以下代码片段生成的代码供您参考。
 

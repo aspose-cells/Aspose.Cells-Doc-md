@@ -6,13 +6,13 @@ url: /sv/net/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}} 
 
-Ibland, när du renderar en Microsoft Excel-fil till PDF, ersätter Aspose.Cells teckensnitt. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta vilket typsnitt som har ersatts av en varning. Det här är en användbar funktion som kan hjälpa dig att identifiera varför en Aspose.Cells-renderad PDF ser annorlunda ut än den ursprungliga Microsoft Excel-filen så att du kan vidta lämpliga åtgärder. Till exempel att installera de saknade typsnitten så att renderingsresultaten ser likadana ut.
+Ibland, när du renderar en Microsoft Excel-fil till PDF, ersätter Aspose.Cells teckensnitt. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta vilket typsnitt som har ersatts genom att avfyra en varning. Det här är en användbar funktion som kan hjälpa dig att identifiera varför en Aspose.Cells-renderad PDF ser annorlunda ut än den ursprungliga Excel-filen Microsoft så att du kan vidta lämpliga åtgärder. Till exempel att installera de saknade typsnitten så att renderingsresultaten ser likadana ut.
 
 {{% /alert %}} 
 
 För att få varningar för teckensnittsersättning när du renderar Excel-filer till PDF, implementera IWarningCallback-gränssnittet och ställ in egenskapen PdfSaveOptions.WarningCallback med ditt implementerade gränssnitt.
 
-Skärmdumpen nedan visar en Excel-källfil som vi kommer att använda i följande kod. Den har en del text i cellerna A6 och A7 i typsnitt som inte renderas bra av Microsoft Excel.
+Skärmdumpen nedan visar en Excel-källfil som vi kommer att använda i följande kod. Den har en del text i cellerna A6 och A7 i teckensnitt som inte renderas bra av Microsoft Excel.
 
 |**Alla teckensnitt renderas inte korrekt**|
 |:- |

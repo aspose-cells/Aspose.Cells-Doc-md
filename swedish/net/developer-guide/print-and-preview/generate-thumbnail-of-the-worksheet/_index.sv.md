@@ -10,7 +10,7 @@ Det kan vara användbart att generera miniatyrer från kalkylblad. En miniatyr �
 
 {{% /alert %}} 
 
-Aspose.Cells för .NET låter dig mata ut kalkylblad till bildfiler så att det är enkelt att skapa en miniatyr. Exempelkoden nedan visar hur du matar ut kalkylblad till bildfiler.
+Aspose.Cells for .NET låter dig mata ut kalkylblad till bildfiler så att det är enkelt att skapa en miniatyr. Exempelkoden nedan visar hur du matar ut kalkylblad till bildfiler.
 
 
 

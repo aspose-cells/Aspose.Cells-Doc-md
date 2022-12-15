@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells per Reporting Services V2.0.0 Note sulla versione
+title: Aspose.Cells for Reporting Services V2.0.0 Note di rilascio
 type: docs
 weight: 10
 url: /it/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- Diamo il benvenuto a una nuova versione di Aspose.Cells per Reporting Services V2.0.0.
+ Si prega di dare il benvenuto a una nuova versione di Aspose.Cells for Reporting Services V2.0.0.
 ## **Caratteristiche principali**
-Aspose.Cells per l'ottimizzazione di Progettazione report di Reporting Services.
+Aspose.Cells for Reporting Services Ottimizzazione Report Designer.
 ## **Altri miglioramenti e modifiche**
  ` `Nuove funzionalità
 
@@ -20,7 +20,7 @@ Aspose.Cells per l'ottimizzazione di Progettazione report di Reporting Services.
 - ` `(SSRS-40144) Configurazione dei server di report per archiviare/memorizzare nella cache i dati del server di report
 - ` `(SSRS-40142) Supporta set di dati condivisi
 - ` `(SSRS-40113) Valori negativi nelle perantesi
-- ` `(SSRS-40103) Aspose.Cells per Reporting Services Report Designer import report define file per SQL Server 2008
+- ` `(SSRS-40103) Aspose.Cells for Reporting Services Report Designer import report define file per SQL Server 2008
 
  Insetti
 
@@ -29,7 +29,7 @@ Aspose.Cells per l'ottimizzazione di Progettazione report di Reporting Services.
 - ` `(SSRS-40148) Errore elemento principale mancante quando il report contiene righe di gruppo
 - ` `(SSRS-40141) Carattere CLS non valido nel nome Tablix
 - ` `(SSRS-40140) Rendering non corretto durante l'output in Excel 2007
-- ` `(SSRS-40138) Errore "Lo stesso nome del foglio di lavoro esiste già" durante il rendering del report
+- ` `(SSRS-40138) Errore "Lo stesso nome del foglio di lavoro esiste già" durante il rendering del rapporto
 - ` `(SSRS-40137) Alcune colonne del rapporto ssrs si uniscono in tre celle in xlsx.
 - ` `(SSRS-40134) Diverse stringhe di formattazione non vengono interpretate correttamente quando vengono aperte su un iPhone
 - ` `(SSRS-40133) Aspose Problema collegamento ipertestuale Excel
@@ -66,7 +66,7 @@ Aspose.Cells per l'ottimizzazione di Progettazione report di Reporting Services.
 - ` `(SSRS-40095) Errore su Aspose.Cells SSRS
 - ` `(SSRS-40094) Dyn nascondi con parametri
 - ` `(SSRS-40093) Problema con il software di prova - Torna indietro solo di una riga
-- ` `(SSRS-40092) Problemi di formato con Aspose.Cells per Reporting Services
+- ` `(SSRS-40092) Problemi di formato con Aspose.Cells for Reporting Services
 - ` `(SSRS-40091) Salvataggio del file di report non riuscito - Rendering di Excel utilizzando l'immagine
 - ` `(SSRS-40089) problema di visibilità con tablix in SSRS
 - ` `(SSRS-40087) Nessuna "mappa documento" Excel disponibile in Aspose Cells per SSRS 2005?

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لـ PHP عبر Java 19.8 ملاحظات الإصدار
+title: Aspose.Cells for PHP via Java 19.8 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/php-java/aspose-cells-for-php-via-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ PHP عبر Java 19.8.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for PHP via Java 19.8.
 
 {{% /alert %}} 
 
@@ -28,7 +28,7 @@ url: /ar/php-java/aspose-cells-for-php-via-java-19-8-release-notes/
 |CELLSJAVA-42954|تم رفع الاستثناء أثناء تحميل XLSX وحفظه|استثناء|
 |CELLSJAVA-42957|تم طرح قيمة FontUnderlineType غير صالحة عند حفظ XLSX|استثناء|
 ### **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لـ PHP عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for PHP Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 #### **يقوم بترقية مكتبة BouncyCastle المشار إليها إلى 1.60**
 تمت ترقية مكتبة BouncyCastle المرفقة في أرشيف الإصدارات إلى الإصدار 1.60. ومع ذلك ، فإن Aspose.Cells متوافق مع الإصدارات القديمة أيضًا ، لذلك لا يزال بإمكان المستخدم استخدام الإصدارات القديمة مثل 1.46.
 #### **يتخلى عن فئة HTMLLoadOptions ويضيف فئة HtmlLoadOptions**

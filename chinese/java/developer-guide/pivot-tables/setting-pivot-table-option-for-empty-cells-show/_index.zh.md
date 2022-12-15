@@ -15,7 +15,7 @@ url: /zh/java/setting-pivot-table-option-for-empty-cells-show/
 1. 选择**布局和格式**标签。
 1. 选择**对于空单元格显示**选项并指定一个字符串。
 
-![待办事项：图片_替代_文本](setting-pivot-table-option-for-empty-cells-show_1.png)
+![待办事项：图像_替代_文本](setting-pivot-table-option-for-empty-cells-show_1.png)
 
 {{% /alert %}}
 

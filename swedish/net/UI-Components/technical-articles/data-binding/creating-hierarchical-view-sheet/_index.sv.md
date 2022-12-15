@@ -24,7 +24,7 @@ url: /sv/net/creating-hierarchical-view-sheet/
 ## **Skapa relationer för datatabeller**
 Till exempel använder du ADO.Net API och extraherar data från databastabellerna. För att skapa hierarkiskt vyblad måste du designa en datauppsättning
 
- objekt baserat på vissa tabeller och skapa en relation mellan dem först. Använd VS.NET**Dataset Designer** att skapa relationen. I
+ objekt baserat på vissa tabeller och skapa en relation mellan dem först. Använd VS.NET**Dataset designer** att skapa relationen. I
 
  I det här exemplet finns det tre datatabeller: kunder, beställningar, beställningsdetaljer. Arket visar all kundinformation som standard. När
 
@@ -41,13 +41,13 @@ För att detta ska fungera måste följande till relationer upprättas mellan da
 
 
 
-1.  Skapa en främmande nyckel på DataTable Order Details, nyckelfältet är OrderID.
+1. Skapa en främmande nyckel på DataTable Order Details, nyckelfältet är OrderID.
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
 
 
-DataSet Designer ser nu ut så här:
+ DataSet Designer ser nu ut så här:
 
 ![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
 ### **Bind arbetsblad**
@@ -115,7 +115,7 @@ End Sub
 
 {{< /highlight >}}
 ### **Ladda data från databas och bindning**
- Som beskrivs i[Bindning av kalkylblad till en datauppsättning med hjälp av GridWebs kalkylbladsdesigner](/cells/sv/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
+Som beskrivs i[Bindning av kalkylblad till en datauppsättning med hjälp av GridWebs kalkylbladsdesigner](/cells/sv/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
  du måste lägga till kod i blocket Page_Load för att ladda data till datamängden från en databas och binda datamängden till bladet i
 
  Nästa steg.
@@ -253,13 +253,13 @@ Private Sub BindWithoutInSheetHeaders()
 
  Dim db As DemoDatabase2 = New DemoDatabase2()
 
- Dim sökväg As String = MapPath(".")
+Dim sökväg As String = MapPath(".")
 
-path = path.Substring(0, path.LastIndexOf("\"))
+ path = path.Substring(0, path.LastIndexOf("\"))
 
-path = path.Substring(0, path.LastIndexOf("\"))
+ path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Datakälla=" + sökväg + "\Database\Northwind.mdb"
+ db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Datakälla=" + sökväg + "\Databas\Northwind.mdb"
 
  Prova
 

@@ -6,7 +6,7 @@ url: /it/net/specifying-dbnum-custom-pattern-formatting/
 ---
 ## **Possibili scenari di utilizzo**
 
-Aspose.Cells supporta il*DBNum*formattazione del modello personalizzato. Ad esempio, se il valore della tua cella è 123 e ne specifichi la formattazione personalizzata come [DBNum2][$-804]Generale, verrà visualizzato come 壹佰贰拾叁. È possibile specificare la formattazione personalizzata della cella utilizzando[**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) metodo e[**Stile.Personalizzato**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)proprietà.
+ Aspose.Cells supporta il*DBNum*formattazione del modello personalizzato. Ad esempio, se il valore della tua cella è 123 e ne specifichi la formattazione personalizzata come [DBNum2][$-804]Generale, verrà visualizzato come 壹佰贰拾叁. È possibile specificare la formattazione personalizzata della cella utilizzando[**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) metodo e[**Stile.Personalizzato**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)proprietà.
 
 ## **Codice di esempio**
 

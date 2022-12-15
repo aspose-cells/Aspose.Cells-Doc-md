@@ -16,11 +16,11 @@ url: /zh/net/set-default-font-while-rendering-spreadsheet-to-images/
 
 这是设置后的输出图像[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)财产给*快递新*.
 
-![待办事项：图片_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![待办事项：图像_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
 这是设置后的输出图像[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)财产给*英语字体格式一种*.
 
-![待办事项：图片_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![待办事项：图像_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 ## 示例代码
 

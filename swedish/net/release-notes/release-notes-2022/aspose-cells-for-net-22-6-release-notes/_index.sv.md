@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 22.6 Release Notes
+title: Aspose.Cells for .NET 22.6 Release Notes
 type: docs
 weight: 7
 url: /sv/net/aspose-cells-for-net-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 22.6](https://www.nuget.org/packages/Aspose.Cells/22.6.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 22.6](https://www.nuget.org/packages/Aspose.Cells/22.6.0).
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ url: /sv/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50880|Nytt api för att konvertera data till ICellsDataTable för användarens bekvämlighet|
 |CELLSNET-51140|Stöd datalagring 5.0 av .numbers|
 |CELLSNET-51144|Stöd för att läsa bilder av Numbers13|
-|CELLSNET-51230| Stöd för att ställa in stil för CellRange|
+|CELLSNET-51230|Stöd för att ställa in stil för CellRange|
 |CELLSNET-50996|Lägg till ChartCollection.Add (ChartType, String, Boolean, Int32, Int32, Int32, Int32) överbelastad metod|
 |CELLSNET-51184| Stöd import av matrisvärde om intervallet är en enkel cell|
 |CELLSNET-51215|Stöd för att spara tabellformler till xlsb|
@@ -46,7 +46,7 @@ url: /sv/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51159| Buggar med Chart.Title.IsVisible=false när du sparar pdf|
 |CELLSNET-51211| Saknade siffror när du skapar bild från Excel-diagram|
 |CELLSNET-49105|Sparad .ods-fil är skadad när filen innehåller listvalidering|
-|CELLSNET-50691| Förlora intervall för ErrorCheckOption|
+|CELLSNET-50691|Förlora intervall för ErrorCheckOption|
 |CELLSNET-50995| Chart.SetChartDataRange hoppar över tomma celler i dataintervallet|
 |CELLSNET-51056|Chart.SetChartDataRange kände inte igen sammanslagna celler|
 |CELLSNET-51062|Typen av tomt diagram ska vara ChartType.Line om den innehåller Marker-nod|
@@ -58,9 +58,9 @@ url: /sv/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-47960|ny arbetsbok misslyckas höjning undantag: Denna Excel-fil innehåller (Excel4.0 eller tidigare filformat) poster.|
 |CELLSNET-51227| System.FormatException. Strängen kändes inte igen som en giltig DateTime när Suomi Excel-fil laddades|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till klassen CellsDataTableFactory**
 

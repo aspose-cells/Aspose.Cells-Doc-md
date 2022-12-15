@@ -34,7 +34,7 @@ url: /it/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45035|Il contenuto dell'intera cella diventa in grassetto quando parte di esso si trova tra i tag STRONG|Insetto|
 |CELLSNET-45033|Cell i contenuti vengono ritagliati durante l'importazione dell'HTML|Insetto|
 |CELLSNET-44336|Impossibile convertire correttamente Html in XLSX|Insetto|
-|CELLSNET-45096|Dopo che CalculateFormula() è stato chiamato, il risultato della formula è sbagliato|Insetto|
+|CELLSNET-45096|Dopo che CalculateFormula() è stato chiamato, il risultato della formula è errato|Insetto|
 |CELLSNET-45093|La funzione SUMPRODUCT non funziona|Insetto|
 |CELLSNET-45085|Il valore calcolato della funzione LOGNORM.DIST non è corretto nel PDF|Insetto|
 |CELLSNET-44740|Il modello DateTime personalizzato non può essere applicato a GridColumn|Insetto|
@@ -72,10 +72,10 @@ url: /it/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45103|Range.MoveTo() genera un'eccezione|Eccezione|
 |CELLSNET-45088|Eccezione durante il rendering di un foglio di calcolo in formato file PDF|Eccezione|
 |CELLSNET-45080|Eccezione durante il caricamento di un formato di file HTML|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica, ad esempio membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, segnalarla a il forum di supporto Aspose.Cells.
 #### **Aggiunta proprietà HTMLLoadOptions.AutoFitColsAndRows**
-Questa versione di Aspose.Cells for .NET API ha aggiunto la proprietà HTMLLoadOptions.AutoFitColsAndRows che indica se API deve adattare automaticamente colonne e righe durante l'importazione dell'HTML nella sua modalità oggetto. La proprietà di tipo booleano ha il valore predefinito come false, il che significa che le altezze e le larghezze delle celle verranno importate così come sono, tuttavia, quando la suddetta proprietà è impostata su true, API tenta di regolare le larghezze delle colonne e le altezze delle righe in base al contenuto .
+Questa versione dell'API Aspose.Cells for .NET ha aggiunto la proprietà HTMLLoadOptions.AutoFitColsAndRows che indica se l'API deve adattare automaticamente colonne e righe durante l'importazione dell'HTML nella sua modalità oggetto. La proprietà di tipo booleano ha il valore predefinito come false, il che significa che le altezze e le larghezze delle celle verranno importate così come sono, tuttavia, quando la suddetta proprietà è impostata su true, l'API tenta di regolare le larghezze delle colonne e le altezze delle righe in base al contenuto .
 
 Di seguito è riportato il semplice scenario di utilizzo della proprietà HTMLLoadOptions.AutoFitColsAndRows.
 
@@ -145,9 +145,9 @@ var book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 #### **Aggiunto il metodo Cells.TextToColumns**
- L'ultima revisione delle API Aspose.Cells for .NET ha esposto il metodo Cells.TextToColumns per imitare il metodo Excel**Testo in colonne** caratteristica. Excel fornisce questa funzionalità da**Strumenti dati** sotto il**Dati** scheda. Si prega di notare che per dividere il contenuto di una colonna in più colonne, i dati devono contenere un delimitatore specifico come una virgola (o qualsiasi altro carattere) in base al quale API tenta di dividere il contenuto di una cella in più celle.
+ L'ultima revisione delle API Aspose.Cells for .NET ha esposto il metodo Cells.TextToColumns per imitare il metodo Excel**Testo in colonne** caratteristica. Excel fornisce questa funzionalità da**Strumenti dati** sotto il**Dati** scheda. Tieni presente che, per suddividere il contenuto di una colonna in più colonne, i dati devono contenere un delimitatore specifico come una virgola (o qualsiasi altro carattere) in base al quale l'API tenta di suddividere il contenuto di una cella in più celle.
 
-Ecco un semplice scenario di utilizzo per dimostrare l'utilizzo di API appena esposto.
+Ecco un semplice scenario di utilizzo per dimostrare l'utilizzo dell'API appena esposta.
 
 {{< highlight "java" >}}
 
@@ -227,7 +227,7 @@ Utilizzare invece la proprietà BuiltInDocumentPropertyCollection.Revision.
 #### **Aggiunta proprietà Shape.TextShapeType**
 La proprietà Shape.TextShapeType ottiene o imposta il tipo di forma di testo preimpostato da un elenco di tipi predefiniti archiviati nell'enumerazione AutoShapeType.
 #### **Aggiunta della proprietà ExportTableOptions.RenameStrategy e dell'enumerazione RenameStrategy**
-Aspose.Cells for .NET 17.02.0 ha esposto la proprietà ExportTableOptions.RenameStrategy insieme all'enumerazione RenameStrategy per gestire lo scenario in cui la prima riga di dati da esportare contiene voci duplicate. Se la proprietà ExportTableOptions.ExportColumnName è impostata su true, API genererà un'eccezione che indica che un DataTable non può avere colonne con gli stessi nomi. Con le nuove modifiche in atto, API consente di aggiungere cifre o lettere ai nomi di colonna duplicati mentre il valore appropriato dall'enumerazione RenameStrategy decide come rinominare i nomi di colonna duplicati.
+Aspose.Cells for .NET 17.02.0 ha esposto la proprietà ExportTableOptions.RenameStrategy insieme all'enumerazione RenameStrategy per gestire lo scenario in cui la prima riga di dati da esportare contiene voci duplicate. Se la proprietà ExportTableOptions.ExportColumnName è impostata su true, l'API causerà un'eccezione che indica che un DataTable non può avere colonne con gli stessi nomi. Con le nuove modifiche in atto, l'API consente di aggiungere cifre o lettere ai nomi di colonna duplicati mentre il valore appropriato dall'enumerazione RenameStrategy decide come rinominare i nomi di colonna duplicati.
 
 Di seguito è riportato un semplice scenario di utilizzo che illustra le API appena esposte.
 

@@ -6,11 +6,11 @@ url: /sv/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells för Reporting Services stöder kryptering och du kan rendera krypterade Microsoft Excel-filer.
+ Aspose.Cells for Reporting Services stöder kryptering och du kan rendera krypterade Microsoft Excel-filer.
 
 {{% /alert %}} 
 ### **Typer av kryptering**
-Aspose.Cells för Reporting Services stöder kryptering vid export av Excel-filer. Den stöder tre krypteringstyper:
+Aspose.Cells for Reporting Services stöder kryptering vid export av Excel-filer. Den stöder tre krypteringstyper:
 
 - XOR
 - SVAG KRYPTERING

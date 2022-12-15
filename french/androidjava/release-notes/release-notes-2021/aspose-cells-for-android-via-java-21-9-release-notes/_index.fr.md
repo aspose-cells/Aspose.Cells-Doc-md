@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 21.9 Notes de version
+title: Aspose.Cells for Android via Java 21.9 Notes de mise à jour
 type: docs
 weight: 4
 url: /fr/java/aspose-cells-for-android-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 21.9.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 21.9.
 
 {{% /alert %}} 
 
@@ -90,7 +90,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 
 ### **Ajoute la propriété PasteOptions.OperationType et l'énumération PasteOperationType .**
 

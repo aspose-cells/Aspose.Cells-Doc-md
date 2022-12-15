@@ -11,7 +11,7 @@ Manchmal sehen sich Benutzer System.StackOverFlowException in der Workbook.Calcu
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
 ## **Problem mit der Linienstärke beim Rendern von Excel in PDF**
-Manchmal, wenn eine Excel-Datei in PDF konvertiert wird, ist die Dicke der Linien in der Ausgabe-PDF unterschiedlich. Dieses Problem wird nicht durch Aspose.Cells verursacht. Es wird verursacht durch**Adobe Reader** wenn seine Einstellungen**"Glatte Strichzeichnungen"** und**"Dünne Linien verstärken"** werden überprüft. Wenn Sie diese Optionen deaktivieren, wird PDF fein angezeigt.
+Manchmal, wenn eine Excel-Datei in PDF konvertiert wird, ist die Dicke der Linien in der Ausgabe-PDF unterschiedlich. Dieses Problem wird nicht durch Aspose.Cells verursacht. Es wird verursacht durch**Adobe Reader** wenn seine Einstellungen**"Glatte Strichzeichnungen"** und**"Dünne Linien verstärken"** werden geprüft. Wenn Sie diese Optionen deaktivieren, wird PDF fein angezeigt.
 
  Wenn prüfen**"Glatte Strichzeichnungen"** und**"Dünne Linien verstärken"**, die Dicke der Linien ist unterschiedlich. Sehen Sie sich die folgenden Schritte an, wie es gemacht wird:
 
@@ -45,7 +45,7 @@ Benutzer können die Stapelgröße mithilfe der APIs selbst verfolgen. Bitte bea
 
 {{% alert color="primary" %}} 
 
-Es gibt keinen besseren Weg, um die zur Laufzeit verwendete Stapelgröße zu ermitteln. Der obige Code, den wir bereitgestellt haben, ist nur ein Beispiel. Die Leistung wird mit Sicherheit erheblich beeinträchtigt. Wir glauben also, dass der Code von Benutzern (die ihn wirklich verwenden wollen) entsprechend ihren unterschiedlichen Szenarien und Anforderungen optimiert werden kann. Beispielsweise das Überprüfen des Stacks, wenn die Anzahl der rekursiven Zellen eine bestimmte Zahl erreicht, das Erfassen der durchschnittlichen Steigerungsrate des Stacks für eine rekursive Zelle und das Bestimmen der Häufigkeit zum Überprüfen des Stacks usw.
+Es gibt keinen besseren Weg, um die zur Laufzeit verwendete Stapelgröße zu erhalten. Der obige Code, den wir bereitgestellt haben, ist nur ein Beispiel. Die Leistung wird mit Sicherheit erheblich beeinträchtigt. Wir glauben also, dass der Code von Benutzern (die ihn wirklich verwenden wollen) entsprechend ihren unterschiedlichen Szenarien und Anforderungen optimiert werden kann. Beispielsweise das Überprüfen des Stacks, wenn die Anzahl der rekursiven Zellen eine bestimmte Zahl erreicht, das Erfassen der durchschnittlichen Steigerungsrate des Stacks für eine rekursive Zelle und das Bestimmen der Häufigkeit zum Überprüfen des Stacks usw.
 
 {{% /alert %}}
 

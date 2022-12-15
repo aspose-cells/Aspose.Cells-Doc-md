@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för .NET 16.12.0 Release Notes
+title: Aspose.Cells for .NET 16.12.0 Release Notes
 type: docs
 weight: 10
 url: /sv/net/aspose-cells-for-net-16-12-0-release-notes/
@@ -46,7 +46,7 @@ url: /sv/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44890|Serie DataLabel värde och procent som visar VALUE och PROCENT efter enkel återsparning|Insekt|
 |CELLSNET-44883|X-axeln (datatabell) är inte densamma i den renderade PDF-filen|Insekt|
 |CELLSNET-44833|Felaktig rendering av rader vid konvertering av kalkylblad till PDF|Insekt|
-|CELLSNET-44831|API renderar extra förklaring med SheetRender när ImageOrPrintOptions.OnlyArea är inställt på false|Insekt|
+|CELLSNET-44831|API återger extra förklaring med SheetRender när ImageOrPrintOptions.OnlyArea är inställt på false|Insekt|
 |CELLSNET-44803|Diagrammets datastaplade del saknas i utdatadiagrammet efter att ha använt metoden Chart.Calculate().|Insekt|
 |CELLSNET-44979|Aspose aktiverar delat alternativ på frysrutor samtidigt som det sparas i XLSB-format|Insekt|
 |CELLSNET-44953|Cell.Copy kopierar inte format från en arbetsbok till en annan|Insekt|
@@ -56,7 +56,7 @@ url: /sv/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44918|Ersättningsfunktioner för formbilder fungerar felaktigt på x86 OS|Insekt|
 |CELLSNET-44915|Stilen har inte tillämpats korrekt på Excel-raden vid inställning av standardstil|Insekt|
 |CELLSNET-44913|Problem med diagramnamn: kan inte generera ett unikt namn|Insekt|
-|CELLSNET-44911|Inkonsekventa resultat för API-anrop i cellstil angående gränser|Insekt|
+|CELLSNET-44911|Inkonsekvent cellstil API samtalsresultat angående gränser|Insekt|
 |CELLSNET-44904|Att öppna och spara omodifierad Excel-fil får en uppmaning|Insekt|
 |CELLSNET-44959|Innehållet försvinner efter att ha rullat ner och sedan uppåt igen medan du byter ett annat kalkylblad (GridWeb)|Insekt|
 |CELLSNET-44925|Innehållet försvinner efter att ha rullat ner och sedan upp igen i ett kalkylblad (GridWeb)|Insekt|
@@ -68,8 +68,8 @@ url: /sv/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44907|CellsException på grund av radbrytning i cell som spänner över flera rader|Undantag|
 |CELLSNET-44893|Aspose.Cell ArithmeticException vid anrop av Chart.ToImage genom en CLR-kompatibel C++ DLL|Undantag|
 |CELLSNET-44876|CellsException: Form till bild-fel vid konvertering av kalkylblad till PDF|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskaperna BuiltInDocumentPropertyCollection.ScaleCrop och BuiltInDocumentPropertyCollection.LinksUpToDate.**
 Hämtar och ställer in några inbyggda dokumentegenskaper.
 #### **Tar bort föråldrad DataLabels.Rotation-egenskap.**

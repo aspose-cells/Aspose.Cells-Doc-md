@@ -5,7 +5,7 @@ weight: 40
 url: /sv/net/aspose-cells-forms-for-dnn/
 ---
 ## **Introduktion**
-Aspose.Cells Dynamic Forms for DNN Module låter användare skapa dynamiska frågeformulär och enkäter, spara användarinput i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av 08716123. NETTO.
+Aspose.Cells Dynamic Forms for DNN Module låter användare skapa dynamiska frågeformulär och enkäter, spara användarinmatning i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av 07316236.1814.
 ### **Modulfunktioner**
 Denna initiala version av modulen är berikad med följande funktioner för att göra formulärbyggandet och exportprocessen enkel och lätt att använda
 
@@ -52,7 +52,7 @@ När du har laddat ned, följ dessa steg för att installera modulen på din DNN
 
  Vänligen kontrollera[denna modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) från DNN för mer information.
 ## **Använder sig av**
-Efter att du har installerat modulen Aspose .NET Dynamic Forms Builder för DNN är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
+Efter att du har installerat modulen Aspose .NET Dynamic Forms Builder för DNN, är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
 
 1. Se till att du är inloggad på DNN med ett konto på värd- eller administratörsnivå.
 1. Navigera till sidan där du vill lägga till modulen.
@@ -61,7 +61,7 @@ Efter att du har installerat modulen Aspose .NET Dynamic Forms Builder för DNN 
 
 ![todo:image_alt_text](aspose-cells-forms-for-dnn_2)
 
-Du har framgångsrikt lagt till modulen Aspose .NET Dynamic Forms Builder för DNN på din sida.
+Du har framgångsrikt lagt till Aspose .NET Dynamic Forms Builder för DNN-modul till din sida.
 
 ![todo:image_alt_text](aspose-cells-forms-for-dnn_1)
 ### **Dynamiska formulärinställningar**
@@ -98,7 +98,7 @@ Det är därför vi erbjuder gratis support. Alla som använder vår produkt, oa
 Du kan logga alla problem eller förslag relaterade till Aspose.Cells .NET för DNN-moduler med någon av följande plattformar
 - [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ### **Utöka och bidra**
-Aspose .NET Dynamic Forms Builder-modulen för DNN är en öppen källkod och deras källkod är tillgänglig på de stora sociala kodningswebbplatserna nedan. Utvecklare uppmanas att ladda ner källkoden och utöka funktionaliteten enligt sina egna krav.
+Aspose .NET Dynamic Forms Builder-modul för DNN är en öppen källkod och deras källkod är tillgänglig på de stora sociala kodningswebbplatserna nedan. Utvecklare uppmanas att ladda ner källkoden och utöka funktionaliteten enligt sina egna krav.
 #### **Källkod**
 Du kan få den senaste källkoden från en av följande platser
 

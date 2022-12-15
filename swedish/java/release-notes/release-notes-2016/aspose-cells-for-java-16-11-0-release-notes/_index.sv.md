@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Java 16.11.0 Release Notes
+title: Aspose.Cells for Java 16.11.0 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-java-16-11-0-release-notes/
@@ -24,8 +24,8 @@ url: /sv/java/aspose-cells-for-java-16-11-0-release-notes/
 |CELLSJAVA-42021 | Problem med att utöka innehållet i Excel-tabell/listobjekt gällande formler| Insekt|
 |CELLSJAVA-42019 | Felaktig formel returnerades från en kalkylbladscell| Insekt|
 |CELLSJAVA-42004 |java.lang.NullPointerException, i Workbook ctor när du laddar XLSX-filen| Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till Workbook.AbsolutePath-egenskapen**
 Hämtar och ställer in den absoluta sökvägen för filen. Används endast för externa länkar.
 #### **Lägger till GlobalizationSettings-klassen och WorkbookSettings.GlobalizationSettings-egenskapen**

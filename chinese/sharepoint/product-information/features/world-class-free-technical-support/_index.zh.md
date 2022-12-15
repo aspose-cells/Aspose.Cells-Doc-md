@@ -26,4 +26,4 @@ Aspose 以其产品开发人员直接提供的免费和无限制的技术支持�
 
 **Aspose.Support 论坛中有很多活动。**
 
-![待办事项：图片_替代_文本](world-class-free-technical-support_1.png)
+![待办事项：图像_替代_文本](world-class-free-technical-support_1.png)

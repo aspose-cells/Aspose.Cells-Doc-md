@@ -12,7 +12,7 @@ Microsoft Excel 支持 Web 浏览器不支持的某些类型的虚线边框。�
 
 下面的示例代码加载[示例 Excel 文件](64716832.xlsx)包含一些不受支持的边框，如以下屏幕截图所示。截图进一步说明了效果[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)里面的财产[输出 HTML](64716831.zip).
 
-![待办事项：图片_替代_文本](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
+![待办事项：图像_替代_文本](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 
 ## **示例代码**
 

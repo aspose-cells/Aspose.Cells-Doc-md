@@ -6,22 +6,22 @@ url: /sv/net/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells för .NET-komponenter kräver inte att Microsoft Excel installeras vare sig på klienten eller på serversidan.
+Komponenterna Aspose.Cells for .NET kräver inte att Microsoft Excel installeras vare sig på klienten eller på serversidan.
 
 {{% /alert %}} 
 ## **Operativsystem som stöds**
 ### **Windows**
 - Microsoft Windows 2000 ( x64, x86)
-- Microsoft Windows XP (x64, x86)
+- Microsoft Windows XP ( x64, x86)
 - Microsoft Windows Server 2003 ( x64, x86)
-- Microsoft Windows Server 2008 (x64, x86)
-- Microsoft Windows Server 2012 (x64, x86)
-- Microsoft Windows Server 2016 (x64, x86)
-- Microsoft Windows Server 2019 (x64, x86)
-- Microsoft Windows Vista (x64, x86)
-- Microsoft Windows 7 (x64, x86)
-- Microsoft Windows 8 (x64, x86)
-- Microsoft Windows 10 (x64, x86)
+- Microsoft Windows Server 2008 ( x64, x86)
+- Microsoft Windows Server 2012 ( x64, x86)
+- Microsoft Windows Server 2016 ( x64, x86)
+- Microsoft Windows Server 2019 ( x64, x86)
+- Microsoft Windows Vista ( x64, x86)
+- Microsoft Windows 7 ( x64, x86)
+- Microsoft Windows 8 ( x64, x86)
+- Microsoft Windows 10 ( x64, x86)
 - Microsoft Windows 11
 - Windows Azure
 ### **Linux**
@@ -29,35 +29,35 @@ Aspose.Cells för .NET-komponenter kräver inte att Microsoft Excel installeras 
 ### **Mac**
 - Mac OS X, macOS High Sierra, etc.
 ## **.NET Framework-versioner stöds**
-Aspose.Cells för .NET stöder .NET- och Mono-ramverk enligt följande:
-### **.NET Frameworks**
+Aspose.Cells for .NET stöder .NET och Mono ramar enligt följande:
+### **.NET Ramar**
 - .NET Framework 2.0
 - .NET Framework 3.0
-- .NET Framework 3.5
-- .NET Framework 4.0
-- .NET Framework 4.5
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6
-- .NET Framework 4.6.1
-- .NET Framework 4.6.2
-- .NET Framework 4.7.1
-- .NET Framework 4.7.2
-- .NET Framework 4.8
-- .NET Framework 4.8.1
+- .NET Ramverk 3.5
+- .NET Ramverk 4.0
+- .NET Ramverk 4.5
+- .NET Ramverk 4.5.1
+- .NET Ramverk 4.5.2
+- .NET Ramverk 4.6
+- .NET Ramverk 4.6.1
+- .NET Ramverk 4.6.2
+- .NET Ramverk 4.7.1
+- .NET Ramverk 4.7.2
+- .NET Ramverk 4.8
+- .NET Ramverk 4.8.1
 ### **.NET Standard**
 - .NET Standard 2.0 (.NET Core 2.1/3.1).
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
-#### **Nuget-paketen som refereras av Aspose.Cells för .NET Standard**
+#### **nuget-paketen som refereras av Aspose.Cells för .NET Standard**
 - System.Drawing.Common, 4.7.0.
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.1.
-### **Mono ramverk**
-- Mono 1.2 eller senare.
+### **Mono Ramverk**
+- Mono 1.2 eller nyare.
 ## **Utvecklingsmiljöer**
-Du kan använda Aspose.Cells för .NET för att utveckla applikationer i alla utvecklingsmiljöer som är inriktade på .NET-plattformen, men följande miljöer stöds uttryckligen:
+Du kan använda Aspose.Cells for .NET för att utveckla applikationer i alla utvecklingsmiljöer som är inriktade på .NET-plattformen, men följande miljöer stöds uttryckligen:
 
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
@@ -71,7 +71,7 @@ Du kan använda Aspose.Cells för .NET för att utveckla applikationer i alla ut
 
 {{% alert color="primary" %}} 
 
-För att använda Aspose.Cells behöver maskinen inte ha Microsoft Excel installerat för själva biblioteket är en kalkylbladshanteringsmotor. Men för att se excel-filen som genereras av komponenten måste du ha åtminstone Microsoft Excel Viewer installerat på din dator.
+För att använda Aspose.Cells behöver maskinen inte ha Microsoft Excel installerat för själva biblioteket är en kalkylbladshanteringsmotor. Men för att se excel-filen som genereras av komponenten måste du ha minst Microsoft Excel Viewer installerat på din dator.
 
 {{% /alert %}} 
 ## **Aspose.Cells Grid Suite Systemkrav**
@@ -84,25 +84,25 @@ Systemkraven för båda kontrollerna beskrivs separat.
 
 {{% alert color="primary" %}} 
 
-För att använda dessa två kontroller, maskinen för att köra Aspose.Cells.GridDesktop och Aspose.Cells.GridWeb behöver inte ha Microsoft Excel installerat eftersom Aspose.Cells.GridDesktop och Aspose.Cells.GridWeb kan öppna och spara Excel-kalkylblad utan behov av Microsoft Excel.
+För att använda dessa två kontroller, maskinen för att köra Aspose.Cells.GridDesktop och Aspose.Cells.GridWeb behöver inte ha Microsoft Excel installerat som Aspose.Cells.GridDesktop och Aspose.Cells.GridWeb kan öppnas 3 utan Excel-kalkylblad071 utan Excel-kalkylblad071.
 
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
-#### **.NET Framework**
+#### **.NET Ramverk**
 - .NET Framework 2.0
 - .NET Framework 3.0
-- .NET Framework 3.5
-- .NET Framework 4.0
-- .NET Framework 4.5
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6
-- .NET Framework 4.6.1
-- .NET Framework 4.6.2
-- .NET Framework 4.7.1
-- .NET Framework 4.7.2
-- .NET Framework 4.8
-- .NET Framework 4.8.1
+- .NET Ramverk 3.5
+- .NET Ramverk 4.0
+- .NET Ramverk 4.5
+- .NET Ramverk 4.5.1
+- .NET Ramverk 4.5.2
+- .NET Ramverk 4.6
+- .NET Ramverk 4.6.1
+- .NET Ramverk 4.6.2
+- .NET Ramverk 4.7.1
+- .NET Ramverk 4.7.2
+- .NET Ramverk 4.8
+- .NET Ramverk 4.8.1
 
 #### **Utvecklings verktyg**
 - Microsoft Visual Studio 2005
@@ -120,26 +120,26 @@ För att använda dessa två kontroller, maskinen för att köra Aspose.Cells.Gr
 - Microsoft Windows Server 2008
 - Microsoft Windows Server 2012
 - Microsoft Windows Vista
-- Microsoft Windows 7,
+- Microsoft Windows 7, 
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
-#### **.NET Framework**
+#### **.NET Ramverk**
 - .NET Framework 2.0
 - .NET Framework 3.0
-- .NET Framework 3.5
-- .NET Framework 4.0
-- .NET Framework 4.5
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6
-- .NET Framework 4.6.1
-- .NET Framework 4.6.2
-- .NET Framework 4.7.1
-- .NET Framework 4.7.2
-- .NET Framework 4.8
-- .NET Framework 4.8.1
+- .NET Ramverk 3.5
+- .NET Ramverk 4.0
+- .NET Ramverk 4.5
+- .NET Ramverk 4.5.1
+- .NET Ramverk 4.5.2
+- .NET Ramverk 4.6
+- .NET Ramverk 4.6.1
+- .NET Ramverk 4.6.2
+- .NET Ramverk 4.7.1
+- .NET Ramverk 4.7.2
+- .NET Ramverk 4.8
+- .NET Ramverk 4.8.1
 #### **Utvecklings verktyg**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
@@ -163,7 +163,7 @@ För att använda dessa två kontroller, maskinen för att köra Aspose.Cells.Gr
 - Microsoft Windows Server 2008
 - Microsoft Windows Server 2012
 - Microsoft Windows Vista
-- Microsoft Windows 7,
+- Microsoft Windows 7, 
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11

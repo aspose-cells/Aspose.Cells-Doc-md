@@ -3,7 +3,7 @@ title: Visualizza elenchi puntati impostando il valore Cell utilizzando HTML
 type: docs
 weight: 120
 url: /it/java/display-bullets-by-setting-cell-value-using/
-description: Scopri come aggiungere punti elenco a Excel Cells utilizzando HTML e Aspose.Cells for Java API.
+description: Scopri come aggiungere elenchi puntati a Excel Cells utilizzando HTML e Aspose.Cells for Java API.
 keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
 ---
 {{% alert color="primary" %}}

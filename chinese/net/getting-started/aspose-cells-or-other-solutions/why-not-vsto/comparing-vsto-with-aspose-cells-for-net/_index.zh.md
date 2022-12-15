@@ -72,7 +72,7 @@ Aspose.Cells for .NET 可以在中信任安全级别下运行。在托管环境�
 
 VSTO 有一长串先决条件：
 
-- **支持的操作系统**: Windows 2000; Windows 服务器 2003； Windows 远景; Windows 经验值
+- **支持的操作系统**: Windows 2000; Windows 服务器 2003； Windows 远景； Windows 经验值
 - **.NET 支持的框架版本**只有 .NET 框架 2.0 或更高版本。
 - 以下一个或多个版本的 Visual Studio Tools for Office：
  - Microsoft 用于 Microsoft 办公系统的 Visual Studio 2005 工具
@@ -85,7 +85,7 @@ VSTO 有一长串先决条件：
 
 Aspose.Cells 不需要在客户端或服务器上安装 Microsoft Excel，因为它是一个电子表格创建引擎。但是，要查看 Microsoft Excel 文档，您至少需要在系统上安装 Microsoft Excel Viewer。
 
-- **支持的操作系统**: Windows 2000; Windows 服务器 2003； Windows 远景; Windows 经验值
+- **支持的操作系统**: Windows 2000; Windows 服务器 2003； Windows 远景； Windows 经验值
 - **.NET 支持的框架版本**: 支持所有 .NET 框架，1.0、1.1、2.0、3.x 等。
 
 ### **安装部署**

@@ -11,7 +11,7 @@ Aspose.Cells stöder läsning och manipulering av Microsoft Excel 2016-diagram s
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_1.png)
 
- Följande skärmdump visar[utdata Excel-fil](66519073.xlsx) efter exekvering av kod. Som du kan se ändras diagramtiteln enligt dess diagramtyp.
+Följande skärmdump visar[utdata Excel-fil](66519073.xlsx) efter exekvering av kod. Som du kan se ändras diagramtiteln enligt dess diagramtyp.
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_2.png)
 ## **Exempelkod**

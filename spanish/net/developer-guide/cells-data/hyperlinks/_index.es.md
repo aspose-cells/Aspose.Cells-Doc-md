@@ -57,7 +57,7 @@ Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToExternalFile-1.cs" >}}
 
 ## **Temas avanzados**
-- [Agregar hipervínculos de imagen](/cells/es/net/add-image-hyperlinks/)
+- [Agregar hipervínculos de imágenes](/cells/es/net/add-image-hyperlinks/)
 - [Detectar tipo de hipervínculo](/cells/es/net/detect-hyperlink-type/)
 - [Edición de hipervínculos de la hoja de trabajo](/cells/es/net/editing-hyperlinks-of-worksheet/)
 - [Obtener hipervínculos en rango](/cells/es/net/get-hyperlinks-in-range/)

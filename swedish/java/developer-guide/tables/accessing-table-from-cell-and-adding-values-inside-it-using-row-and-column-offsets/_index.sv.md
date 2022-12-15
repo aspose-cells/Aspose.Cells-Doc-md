@@ -24,7 +24,7 @@ Följande skärmdump visar utdata Excel-filen som genereras av koden. Som du kan
 
 ![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)
 
-### Java-kod för att komma åt tabell från cell och för att lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar
+### Java kod för att komma åt tabell från cell och för att lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar
 
 Följande exempelkod laddar källfilen för Excel som visas i skärmdumpen ovan och lägger till värden i tabellen och genererar utdata Excel-filen som visas ovan.
 

@@ -10,7 +10,7 @@ Questo argomento discute le celle, esaminando la funzionalità più basilare di 
 
 {{% /alert %}} 
 ## **Accesso a Cells in un foglio di lavoro**
-Ogni foglio di lavoro contiene una proprietà con il nome di Cells che in realtà è una raccolta di oggetti GridCell in cui un oggetto GridCell rappresenta una cella in Aspose.Cells.GridWeb. È possibile accedere a qualsiasi cella utilizzando Aspose.Cells.GridWeb. Ci sono due metodi preferiti, ognuno dei quali è discusso di seguito.
+Ogni foglio di lavoro contiene una proprietà con il nome di Cells che è in realtà una raccolta di oggetti GridCell in cui un oggetto GridCell rappresenta una cella in Aspose.Cells.GridWeb. È possibile accedere a qualsiasi cella utilizzando Aspose.Cells.GridWeb. Ci sono due metodi preferiti, ognuno dei quali è discusso di seguito.
 
 
 ### **Utilizzando il nome Cell**

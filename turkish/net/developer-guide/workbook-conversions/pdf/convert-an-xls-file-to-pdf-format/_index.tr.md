@@ -43,7 +43,7 @@ Bu örnek, şablon olarak bir Excel dosyası (SampleInput.xlsx) kullanır. Çal�
 
 {{% alert color="primary" %}}
 
-Elektronik tablo formüller içeriyorsa, elektronik tabloyu PDF'ye dönüştürmeden hemen önce Workbook.CalculateFormula() öğesini çağırmak en iyisidir. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de oluşturulmasını sağlar.
+Elektronik tablo formüller içeriyorsa, elektronik tabloyu PDF'ye dönüştürmeden hemen önce Workbook.CalculateFormula() öğesini çağırmak en iyisidir. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de işlenmesini sağlar.
 
 {{% /alert %}}
 

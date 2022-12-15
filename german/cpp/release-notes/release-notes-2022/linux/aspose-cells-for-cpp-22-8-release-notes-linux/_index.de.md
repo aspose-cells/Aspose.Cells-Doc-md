@@ -6,11 +6,11 @@ url: /de/cpp/aspose-cells-for-cpp-22-8-release-notes-linux/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für C++ 22.8 für Linux.
+Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 22.8 für Linux.
 
 {{% /alert %}}
 
-Wir freuen uns, die Veröffentlichung von Aspose.Cells für C++ 22.8 für Linux bekannt zu geben.
+Wir freuen uns, die Veröffentlichung von Aspose.Cells for C++ 22.8 für Linux bekannt zu geben.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSCPP-859| Referenzproblem API behoben|Insekt|

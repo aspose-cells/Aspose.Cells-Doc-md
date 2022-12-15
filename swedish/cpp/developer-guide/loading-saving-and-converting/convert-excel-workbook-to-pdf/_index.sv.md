@@ -11,9 +11,9 @@ Aspose.Cells stöder konvertering av Excel-filer till PDF och bibehåller hög v
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, vid rendering av dokument till PDF, fyller Aspose.Cells för C++**Ansökan** fält med värdet 'Aspose.Cells' och**PDF-producent**fält med värde, t.ex. 'Aspose.Cells v18.5.0'.
+ Aspose.Cells skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, när du renderar dokument till PDF, fyller Aspose.Cells for C++**Ansökan** fält med värdet 'Aspose.Cells' och**PDF-producent** fält med värde, t.ex. 'Aspose.Cells v18.5.0'.
 
-Observera att du inte kan instruera Aspose.Cells för C++ att ändra eller ta bort denna information från utdatadokument.
+Observera att du inte kan instruera Aspose.Cells for C++ att ändra eller ta bort denna information från utdatadokument.
 
 {{% /alert %}} 
 ### **Direkt konvertering**
@@ -40,7 +40,7 @@ Följande kodavsnitt visar hur du använder**IPdfSaveOptions**klass för att spa
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_A_CompliedFiles.cpp" >}}
 #### **Ställ in tid för att skapa PDF**
-Med**IPdfSaveOptions**klass, kan du hämta eller ställa in PDF-genereringstiden.
+Med**IPdfSaveOptions** klass, kan du hämta eller ställa in PDF-genereringstiden.
 
  Se följande exempelkod och dess[mata ut PDF](67338371.pdf) för din kännedom.
 

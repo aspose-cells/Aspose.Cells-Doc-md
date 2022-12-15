@@ -1,24 +1,24 @@
 ﻿---
-title: Raporlama Hizmetleri için Aspose.Cells 1.4.3 Sürüm Notları
+title: Aspose.Cells for Reporting Services 1.4.3 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa [ Reporting Services 1.4.3 için Aspose.Cells|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/] için sürüm notları içerir.{{% /alert %}} 
+Bu sayfa [ Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/] için sürüm notları içerir{{% /alert %}} 
 
- Raporlama Hizmetleri v1.4.3 için Aspose.Cells'i duyurmaktan mutluluk duyuyoruz!
+ Aspose.Cells for Reporting Services v1.4.3'ü duyurmaktan mutluluk duyuyoruz!
 
  ne değişti
 
 ? 
 
-· Aspose.Cells.ReportingServices Client, Reporting Services 2008 rapor biçimini destekler.
+ · Aspose.Cells.ReportingServices Client, Reporting Services 2008 rapor biçimini destekler.
 
  · Oluşturma Performansı iyileştirildi.
 
- · Rapor tasarımcısı tarafından oluşturulan rapordaki rapor öğeleri stilini içerir.
+· Rapor tasarımcısı tarafından oluşturulan rapordaki rapor öğeleri stilini içerir.
 
  · Aspose.Cells.ReportingServices İstemcisi, Raporlama Sunucusunun bağlanabilirliği ile ilgili olarak geliştirilmiştir.
 
@@ -26,7 +26,7 @@ Bu sayfa [ Reporting Services 1.4.3 için Aspose.Cells|https://downloads.aspose.
 
 
 
- Raporlama Hizmetleri 1.4 için Aspose.Cells'de Çözülen Sorunlar.
+ Aspose.Cells for Reporting Services'de Çözülen Sorunlar 1.4.
 
 \3. 
 

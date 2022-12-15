@@ -95,7 +95,7 @@ El siguiente ejemplo muestra cómo aplicar estilos a las celdas de un rango.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **Eliminar un rango con nombre**
- Aspose.Cells proporciona el[NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\) ) para borrar el nombre del rango. Para borrar el contenido del rango, utilice[Cells.ClearRango()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) método.
+ Aspose.Cells proporciona el[NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\) ) para borrar el nombre del rango. Para borrar el contenido del rango, use[Cells.ClearRango()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) método.
 El siguiente ejemplo muestra cómo eliminar un rango con nombre con su contenido.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}

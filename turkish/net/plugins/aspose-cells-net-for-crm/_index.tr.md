@@ -7,7 +7,7 @@ url: /tr/net/aspose-cells-net-for-crm/
 # **Microsoft Dynamics CRM nedir?**
 Microsoft Dynamics CRM, Microsoft tarafından geliştirilen bir müşteri ilişkileri yönetimi yazılım paketidir. Kutudan çıktığında, ürün esas olarak Satış, Pazarlama ve Hizmet (yardım masası) sektörlerine odaklanır, ancak Microsoft, Dynamics CRM'yi bir XRM platformu olarak pazarlamaktadır ve iş ortaklarını özelleştirmek için kendi tescilli (.NET tabanlı) çerçevesini kullanmaya teşvik etmek. Microsoft Dynamics iş uygulamaları ailesinin bir parçasıdır.
 
-Dynamics CRM, Microsoft SharePoint gibi, öncelikle kapsamlı web hizmetleri arayüzlerini de destekleyen IIS tabanlı bir web uygulaması olan bir sunucu-istemci uygulamasıdır. İstemciler, Dynamics CRM'ye bir Tarayıcı kullanarak veya Microsoft Outlook'a kalın bir istemci eklentisi aracılığıyla erişir.
+Dynamics CRM, Microsoft SharePoint gibi, öncelikle kapsamlı web hizmetleri arayüzlerini de destekleyen IIS tabanlı bir web uygulaması olan bir sunucu-istemci uygulamasıdır. İstemciler, Dynamics CRM'ye bir Tarayıcı kullanarak veya Microsoft Outlook'a kalın bir istemci eklentisi aracılığıyla erişirler.
 # **.Net için Aspose.Cells**
 Aspose.Cells for .NET, .NET Uygulamasının sunucuda Microsoft Excel'in yüklenmesini gerektirmeden Excel Elektronik Tabloları oluşturmasını ve yönetmesini sağlayan en esnek bileşen grubunu sağlar. Aspose.Cells, her tür Excel formatı işleme için önde gelen bileşenlerden biridir.
 

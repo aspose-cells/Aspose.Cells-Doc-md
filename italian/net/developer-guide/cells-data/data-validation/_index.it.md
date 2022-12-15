@@ -6,7 +6,7 @@ url: /it/net/data-validation/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel fornisce alcune buone funzionalità per filtrare o convalidare automaticamente i dati del foglio di lavoro.Aspose.Cells supporta completamente Microsoft la convalida dei dati di Excel e le funzionalità di filtro automatico. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
+Microsoft Excel fornisce alcune buone funzionalità per filtrare o convalidare automaticamente i dati del foglio di lavoro.Aspose.Cells supporta completamente la convalida dei dati di Microsoft Excel e le funzionalità di filtro automatico. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
 
 {{% /alert %}}
 
@@ -23,7 +23,7 @@ Microsoft Excel supporta diversi tipi di convalida dei dati. Ogni tipo viene uti
 - Un tempo è all'interno di un intervallo specifico.
 - Un testo si trova all'interno di una determinata lunghezza di caratteri.
 
-### **Convalida dati con Microsoft Excel**
+### **Convalida dei dati con Microsoft Excel**
 
 Per creare convalide utilizzando Microsoft Excel:
 
@@ -92,7 +92,7 @@ Con questo tipo di convalida, gli utenti possono inserire valori di testo di una
 
 ### **Regole di convalida dei dati**
 
-Quando vengono implementate le convalide dei dati, la convalida può essere verificata assegnando valori diversi nelle celle.[**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) può essere utilizzato per recuperare il risultato della convalida. L'esempio seguente mostra questa funzionalità con valori diversi. Il file di esempio può essere scaricato dal seguente link per il test:
+ Quando vengono implementate le convalide dei dati, la convalida può essere verificata assegnando valori diversi nelle celle.[**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) può essere utilizzato per recuperare il risultato della convalida. L'esempio seguente mostra questa funzionalità con valori diversi. Il file di esempio può essere scaricato dal seguente link per il test:
 
 [sampleDataValidationRules.xlsx](77496339.xlsx)
 
@@ -108,7 +108,7 @@ Quando vengono implementate le convalide dei dati, la convalida può essere veri
 
 ## **Aggiungi CellArea alla convalida esistente**
 
- Potrebbero esserci casi in cui potresti voler aggiungere[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)all'esistente[**Convalida**](https://reference.aspose.com/cells/net/aspose.cells/validation). Quando aggiungi[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) utilizzando[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells controlla tutte le aree esistenti per vedere se la nuova area esiste già. Se il file ha un numero elevato di convalide, ciò subisce un calo delle prestazioni. Per ovviare a questo, lo API mette a disposizione il[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) metodo. Il*checkIntersezione* parametro indica se controllare l'intersezione di una determinata area con le aree di validazione esistenti. Impostandolo su**falso** disabiliterà il controllo di altre aree. Il*checkEdge* parametro indica se controllare le aree applicate. Se la nuova area diventa l'area in alto a sinistra, le impostazioni interne vengono ricostruite. Se sei sicuro che la nuova area non sia l'area in alto a sinistra, puoi impostare questo parametro come**falso**.
+ Potrebbero esserci casi in cui potresti voler aggiungere[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)all'esistente[**Convalida**](https://reference.aspose.com/cells/net/aspose.cells/validation). Quando aggiungi[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) utilizzando[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells controlla tutte le aree esistenti per vedere se la nuova area esiste già. Se il file ha un numero elevato di convalide, ciò subisce un calo delle prestazioni. Per ovviare a questo, l'API fornisce il[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) metodo. Il*checkIntersezione* parametro indica se controllare l'intersezione di una determinata area con le aree di validazione esistenti. Impostandolo su**falso** disabiliterà il controllo di altre aree. Il*checkEdge* parametro indica se controllare le aree applicate. Se la nuova area diventa l'area in alto a sinistra, le impostazioni interne vengono ricostruite. Se sei sicuro che la nuova area non sia l'area in alto a sinistra, puoi impostare questo parametro come**falso**.
 
 Il seguente frammento di codice illustra l'uso di[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) metodo per aggiungere nuovo[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)all'esistente[**Convalida**](https://reference.aspose.com/cells/net/aspose.cells/validation).
 

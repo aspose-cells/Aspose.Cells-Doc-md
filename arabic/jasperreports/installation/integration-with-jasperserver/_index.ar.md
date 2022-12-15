@@ -6,7 +6,7 @@ url: /ar/jasperreports/integration-with-jasperserver/
 ---
 {{% alert color="primary" %}} 
 
-لدمج Aspose.Cells لـ JasperReports مع JasperServer ، قم بتنفيذ الخطوات أدناه.
+لدمج Aspose.Cells for JasperReports مع JasperServer ، قم بتنفيذ الخطوات أدناه.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ url: /ar/jasperreports/integration-with-jasperserver/
 
 {{% /alert %}} 
 
-1.  أضف خصائص المُصدِّر الجديدة التالية إلى ملف**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ Flows \ viewReportBeans.xml** ملف.
+1. أضف خصائص المُصدِّر الجديدة التالية إلى ملف**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ Flows \ viewReportBeans.xml** ملف.
 
 **XML**
 
@@ -84,7 +84,7 @@ url: /ar/jasperreports/integration-with-jasperserver/
 1.  انسخ جميع صور GIF من ملف**\ ليب** مجلد في**aspose.cells.jasperreports.zip** الى*<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ images* مجلد.
 1.  انسخ ال**aspose.cells.jasperreports.jar** ملف من**\ ليب** مجلد في**aspose.cells.jasperreports.zip** الى**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ lib \.** مجلد.
 1.  أضف الأسطر التالية إلى ملف**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ applicationContext.xml** ملف.
- (قد تحتوي هذه الوحدة على إعدادات تكوين مختلفة تهدف إلى تكوين التصدير. على سبيل المثال ، يمكنك استخدام ميزة تعيين خط JasperReports أو تحديد موقع ملف ترخيص Aspose.Cells لملف ترخيص JasperReports.)
+ (قد تحتوي هذه الوحدة على إعدادات تكوين مختلفة تهدف إلى تكوين التصدير. على سبيل المثال ، يمكنك استخدام ميزة تعيين خط JasperReports أو تحديد موقع ملف ترخيص Aspose.Cells for JasperReports.)
 
 **XML**
 
@@ -105,9 +105,9 @@ url: /ar/jasperreports/integration-with-jasperserver/
 
 
 
-1.  قم بتشغيل JasperServer وافتح أي تقرير لعرضه. إذا تم تنفيذ الخطوات السابقة بشكل صحيح ، فستتوفر رموز تنسيق إضافية.
+1. قم بتشغيل JasperServer وافتح أي تقرير لعرضه. إذا تم تنفيذ الخطوات السابقة بشكل صحيح ، فستتوفر رموز تنسيق إضافية.
 
-**تتوفر تنسيقات تصدير جديدة (على اليمين) بعد تثبيت Aspose.Cells لـ JasperReports على JasperServer** 
+**تتوفر تنسيقات تصدير جديدة (على اليمين) بعد تثبيت Aspose.Cells for JasperReports على JasperServer** 
 
 ![ما يجب القيام به: image_بديل_نص](integration-with-jasperserver_1.png)
 

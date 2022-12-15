@@ -14,7 +14,7 @@ Aspose.Cells supporta la conversione di un file Json (JavaScript Object Notation
 
 ## **Converti JSON in cartella di lavoro Excel**
 
- Non c'è bisogno di chiedersi come convertire JSON in file Excel, perché la libreria Aspose.Cells Java ha la decisione migliore. Il Aspose.Cells Java API fornisce supporto per la conversione del formato JSON in fogli di calcolo. Puoi usare[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions) class per specificare impostazioni aggiuntive per l'importazione di JSON nella cartella di lavoro.
+ Non c'è bisogno di chiedersi come convertire JSON in file Excel, perché la libreria Java Aspose.Cells ha la decisione migliore. L'API Java Aspose.Cells fornisce il supporto per la conversione del formato JSON in fogli di calcolo. Puoi usare[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions) class per specificare impostazioni aggiuntive per l'importazione di JSON nella cartella di lavoro.
 
 L'esempio di codice seguente illustra l'importazione di JSON nella cartella di lavoro di Excel. Si prega di consultare il codice per convertire[file sorgente](sample.json) al file xlsx generato dal codice per riferimento.
 

@@ -6,7 +6,7 @@ url: /it/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells consente di importare la mappa XML all'interno della cartella di lavoro utilizzando il file[**Cartella di lavoro.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)) metodo. È possibile importare la mappa XML utilizzando Excel Microsoft con i seguenti passaggi
+ Aspose.Cells consente di importare la mappa XML all'interno della cartella di lavoro utilizzando il file[**Cartella di lavoro.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)) metodo. È possibile importare XML Map utilizzando Microsoft Excel con i seguenti passaggi
 
 -  Selezionare**Sviluppatore** scheda
 -  Clic**Importare** nella sezione XML e seguire i passaggi richiesti.

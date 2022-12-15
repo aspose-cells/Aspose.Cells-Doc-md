@@ -17,11 +17,11 @@ Ambos son valores booleanos. Puede verlos en Microsoft Excel a través de Datos 
 ## **Tabla de consulta de lectura y escritura de la hoja de trabajo**
  El siguiente código de ejemplo lee el primer[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)de la primera hoja de trabajo y luego imprime las dos[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) propiedades. Luego establece el[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) a**verdadero**.
 
- La siguiente captura de pantalla muestra la[archivo fuente excel](5472578.xlsx) utilizado en el código y sus propiedades que muestran tanto el[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valores.
+La siguiente captura de pantalla muestra la[archivo fuente excel](5472578.xlsx) utilizado en el código y sus propiedades que muestran tanto el[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valores.
 
 ![todo:imagen_alternativa_texto](reading-and-writing-query-table-of-worksheet_1.png)
 
- La siguiente captura de pantalla muestra la[archivo de salida de Excel](5472574.xlsx) generado por el código y sus propiedades que muestran tanto el[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valores. Como puede ver, la casilla de verificación Formato conservado está marcada ahora.
+La siguiente captura de pantalla muestra la[archivo de salida de Excel](5472574.xlsx) generado por el código y sus propiedades que muestran tanto el[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valores. Como puede ver, la casilla de verificación Formato conservado está marcada ahora.
 
 ![todo:imagen_alternativa_texto](reading-and-writing-query-table-of-worksheet_2.png)
 

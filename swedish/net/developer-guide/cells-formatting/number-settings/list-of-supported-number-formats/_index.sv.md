@@ -186,7 +186,7 @@ Aspose.Cells.GridWeb stöder också 59 typer av talformat som listas nedan:
 | Bokföring 1|_ * #,##0_ ;_ * "_ ;_ @_ |
 | Bokföring 2|_ $* #,##0_ ;_ $* "_ ;_ @_ |
 | Bokföring 3|_ * #,##0.00_ ;_ * "??_ ;_ @_ |
-| Bokföring4|_ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
+| Bokföring 4|_ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
 | Text|@ |
 | EasternDate1| ÅÅÅÅ?M?|
 | EasternDate2| M?D?|

@@ -1,5 +1,5 @@
 ﻿---
-title: Clasificación de datos de la hoja de cálculo
+title: Clasificación de datos de la hoja de trabajo
 type: docs
 weight: 80
 url: /es/net/sorting-worksheet-data/
@@ -9,7 +9,7 @@ url: /es/net/sorting-worksheet-data/
 La clasificación es una tarea rutinaria importante que utilizamos principalmente al procesar datos. En este tema, discutiremos con la ayuda de un ejemplo simple cómo podemos ordenar los datos en una hoja de trabajo.
 
 {{% /alert %}} 
-## **Clasificación de datos de la hoja de cálculo**
+## **Clasificación de datos de la hoja de trabajo**
 Para ordenar datos en una hoja de trabajo utilizando API de Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
 -  En primer lugar, cree un objeto global de**rango de celdas** para que se pueda acceder a ella desde cualquier lugar del ámbito de su clase

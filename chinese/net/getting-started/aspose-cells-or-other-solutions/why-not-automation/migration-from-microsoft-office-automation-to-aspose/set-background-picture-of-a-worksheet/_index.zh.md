@@ -26,7 +26,7 @@ url: /zh/net/set-background-picture-of-a-worksheet/
 
 **已为工作表设置背景。**
 
-![待办事项：图片_替代_文本](set-background-picture-of-a-worksheet_1.png)
+![待办事项：图像_替代_文本](set-background-picture-of-a-worksheet_1.png)
 
 ### **使用 VSTO 设置背景图片**
 

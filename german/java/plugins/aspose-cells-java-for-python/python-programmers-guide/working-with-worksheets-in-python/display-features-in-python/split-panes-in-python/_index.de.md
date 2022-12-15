@@ -5,7 +5,7 @@ weight: 70
 url: /de/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - Geteilte Scheiben**
- So teilen Sie Fenster mit**Aspose.Cells Java für Python** , einfach aufrufen**SplitPanes** Modul.
+ So teilen Sie Fenster mit**Aspose.Cells Java for Python** , einfach aufrufen**SplitPanes** Modul.
 
 **Python Code**
 

@@ -8,7 +8,7 @@ url: /it/net/wrapping-cell-text/
 
 Il testo a capo facilita la lettura: una cella con testo a capo si espande per adattarsi al testo in modo che il testo non venga visualizzato sopra le altre celle.
 
-Con Aspose.Cells for .NET, gli sviluppatori possono eseguire la maggior parte delle attività nelle loro applicazioni che gli utenti possono eseguire con Microsoft Excel, incluso il testo a capo nelle celle. Questo articolo spiega come e confronta l'attività utilizzando VSTO e Aspose.Cells. Aspose.Cells è ottimizzato per una codifica efficiente e funziona senza Microsoft Automation.
+Con Aspose.Cells for .NET, gli sviluppatori possono eseguire la maggior parte delle attività nelle loro applicazioni che gli utenti possono eseguire con Microsoft Excel, incluso il testo a capo nelle celle. Questo articolo spiega come e confronta l'attività usando VSTO e Aspose.Cells. Aspose.Cells è ottimizzato per una codifica efficiente e funziona senza Microsoft Automation.
 
 {{% /alert %}}
 
@@ -24,7 +24,7 @@ Per creare un foglio di lavoro con due celle, una con testo a capo e una senza:
  1. Aggiungi testo a capo alla cella A5.
 1. Salva il foglio di calcolo.
 
- Gli esempi di codice seguenti mostrano come eseguire questi passaggi utilizzando[VSTO](/cells/it/net/wrapping-cell-text/) con C# o Visual Basic. Esempi di codice che mostrano come eseguire la stessa operazione utilizzando[Aspose.Cells for .NET](/cells/it/net/wrapping-cell-text/), sempre utilizzando C# o Visual Basic seguire immediatamente dopo.
+ Gli esempi di codice seguenti mostrano come eseguire questi passaggi utilizzando[VSTO](/cells/it/net/wrapping-cell-text/) con C# o Visual Basic. Esempi di codice che mostrano come eseguire la stessa operazione utilizzando[Aspose.Cells for .NET](/cells/it/net/wrapping-cell-text/), sempre usando C# o Visual Basic segui subito dopo.
 
 L'esecuzione del codice genera un foglio di calcolo con due celle, una con testo che non è stato racchiuso e una con:
 

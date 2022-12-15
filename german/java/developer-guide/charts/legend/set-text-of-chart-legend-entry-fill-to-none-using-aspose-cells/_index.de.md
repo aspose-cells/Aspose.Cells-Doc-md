@@ -10,7 +10,7 @@ url: /de/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}} 
 ## **Setzen Sie den Text der Eintragsfüllung der Diagrammlegende mit Aspose.Cells auf „Keine“.**
- Der folgende Beispielcode legt den Text der zweiten Legendeneintragsfüllung des Diagramms auf „none“ fest. Bitte laden Sie die herunter[Excel-Beispieldatei](5473437.xlsx) in diesem Code verwendet und die[Excel-Datei ausgeben](5473440.xlsx)von ihm für Ihre Referenz generiert.
+ Der folgende Beispielcode legt den Text der zweiten Legendeneintragsfüllung des Diagramms auf „none“ fest. Bitte laden Sie die herunter[Excel-Beispieldatei](5473437.xlsx) in diesem Code verwendet und die[Excel-Datei ausgeben](5473440.xlsx) von ihm für Ihre Referenz generiert.
 
 Der folgende Screenshot hebt die Wirkung dieses Codes hervor[Excel-Beispieldatei](5473437.xlsx).
 

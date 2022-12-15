@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells för Java 8.0.0 Release Notes
+title: Aspose.Cells for Java 8.0.0 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-8-0-0-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 8.0.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.0.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 8.0.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.0.0/)
 
 {{% /alert %}}
 
-Aspose.Cells för Java har uppdaterats till version 8.0.0 och vi är glada att kunna meddela att denna utgåva innehåller över 30 nya användbara förbättringar.
-Med Aspose.Cells för Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
-Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells för Java.
+Aspose.Cells for Java har uppdaterats till version 8.0.0 och vi är glada att kunna meddela att denna utgåva kommer med över 30 nya användbara förbättringar.
+Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
-Följande är en lista över ändringar i denna version av Aspose.Cells för Java.
+Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
 
 Huvudfunktioner
 
@@ -70,9 +70,9 @@ Undantag
 (CELLSJAVA-40755) - CellsException: Överflöde i sträng till int-konvertering. Strängvärde: #N/A.
 (CELLSJAVA-40761) - CellsException: Form till bild Fel!
 
-Public API och bakåtinkompatibla ändringar
+Offentlig API och bakåtinkompatibla ändringar
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 Föråldrade egenskapen AutoFilter.FilterColumnCollection
 Använder AutoFilter.FilterColumns istället.
@@ -99,4 +99,4 @@ Cell.StringValue ändras för speciellt formateringsmönster med '*' och '_'
 I gamla versioner, specialmönster '* kommer att ignoreras vid formatering av cellvärde för Cell.StringValue och '** producerar alltid ett tecken i det formaterade resultatet. Från den här versionen ändrar vi logiken för att göra med '* och '**' för att göra det formaterade resultatet samma som det du kan få från ms excel när du kopierar en cell som text (som att kopiera en cell till en textredigerare eller exportera cellen till csv). Använd till exempel det anpassade "*($* #,##0.00*)" för att formatera cellvärdet 123, med gamla versioner Cell. StringValue kommer att ge resultatet som "$ 123.00". Nu med nya versioner kommer Cell.StringValue att ge resultatet som " $123.00 " vilket är samma sak som du kan få från ms excel genom att kopiera denna cell till text.
 
 Notera
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.0.0 också i denna Aspose.Cells för Java v8.0.0.
+Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells for .NET v8.0.0 också inkluderade i denna 076153480.0.4816.

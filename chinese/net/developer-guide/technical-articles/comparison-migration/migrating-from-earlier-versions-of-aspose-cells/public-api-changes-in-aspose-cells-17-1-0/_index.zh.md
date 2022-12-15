@@ -23,7 +23,7 @@ Aspose.Cells API 通过增强 ChartType 枚举添加了对一些 Excel 2016 图�
 
 {{% alert color="primary" %}} 
 
-查看详细文章[阅读 Excel 2016 图表类型](/cells/zh/net/read-and-manipulate-excel-2016-charts/)
+查看详细文章[读取 Excel 2016 图表类型](/cells/zh/net/read-and-manipulate-excel-2016-charts/)
 
 {{% /alert %}} 
 ### **为 LoadFilter.LoadDataFilterOptions 属性添加了 Setter**

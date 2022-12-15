@@ -9,7 +9,7 @@ url: /zh/reportingservices/creating-report-parameters/
 1. 打开 Microsoft Excel。
 1. 点击**报表参数**在 Aspose.Cells.Report.Designer 工具栏上。 (
 
-![待办事项：图片_替代_文本](creating-report-parameters_1.png)
+![待办事项：图像_替代_文本](creating-report-parameters_1.png)
 
 )
 在对话框中，所有报告参数都列在左侧面板中。
@@ -18,7 +18,7 @@ url: /zh/reportingservices/creating-report-parameters/
 
    **报表参数配置表单** 
 
-![待办事项：图片_替代_文本](creating-report-parameters_2.png)
+![待办事项：图像_替代_文本](creating-report-parameters_2.png)
 
 
 
@@ -27,7 +27,7 @@ url: /zh/reportingservices/creating-report-parameters/
 
    **添加参数信息** 
 
-![待办事项：图片_替代_文本](creating-report-parameters_3.png)
+![待办事项：图像_替代_文本](creating-report-parameters_3.png)
 
 
 
@@ -38,7 +38,7 @@ url: /zh/reportingservices/creating-report-parameters/
 
    **添加标签和值** 
 
-![待办事项：图片_替代_文本](creating-report-parameters_4.png)
+![待办事项：图像_替代_文本](creating-report-parameters_4.png)
 
 
 
@@ -51,4 +51,4 @@ url: /zh/reportingservices/creating-report-parameters/
 
    **新参数** 
 
-![待办事项：图片_替代_文本](creating-report-parameters_5.png)
+![待办事项：图像_替代_文本](creating-report-parameters_5.png)

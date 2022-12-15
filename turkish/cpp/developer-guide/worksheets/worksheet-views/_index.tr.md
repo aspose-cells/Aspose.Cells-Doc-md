@@ -47,7 +47,7 @@ Bölmeleri dondur, Microsoft Excel tarafından sağlanan bir özelliktir. Bölme
 - **Donmuş satırlar**, üst bölmedeki görünür satırların sayısı.
 - **Dondurulmuş sütunlar**, sol bölmedeki görünür sütunların sayısı
 
- nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[Donma bölmeleri](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)Excel dosyasının ilk çalışma sayfasının satırlarını ve sütunlarını (4. satır ve 3. sütunla temsil edilen, satır ve sütunların 0 dizininden başladığı C4'ten başlayarak) dondurma yöntemi.
+ nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[Donma bölmeleri](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)Excel dosyasının ilk çalışma sayfasının satırlarını ve sütunlarını dondurma yöntemi (C4'ten başlayarak, 4. satır ve 3. sütunla temsil edilir, burada satırlar ve sütunlar 0 dizininden başlar).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-FreezePanes.cpp" >}}
 ## **Bölme Bölmeleri**

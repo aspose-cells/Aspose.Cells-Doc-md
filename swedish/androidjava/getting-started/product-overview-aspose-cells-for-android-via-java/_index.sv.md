@@ -1,5 +1,5 @@
 ﻿---
-title: Produktöversikt - Aspose.Cells för Android via Java
+title: Produktöversikt - Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /sv/java/product-overview-aspose-cells-for-android-via-java/
@@ -8,7 +8,7 @@ url: /sv/java/product-overview-aspose-cells-for-android-via-java/
 
 ![celler-logotyp](50528297.png)
 
-Välkommen till Aspose.Cells för Android via Java-dokumentationen!
+Välkommen till Aspose.Cells for Android via Java dokumentationen!
 
 Aspose.Cells är en flexibel komponent som gör det möjligt för Android-applikationer att skapa och hantera Excel-kalkylblad utan att behöva Microsoft Excel installerat på systemet. Till skillnad från liknande produkter från andra leverantörer stöder Aspose.Cells inte bara generering av kalkylblad och andra grundläggande filformateringsfunktioner, utan också ett antal avancerade funktioner. Dessa avancerade funktioner gör det enkelt för utvecklare att manipulera kalkylbladsinnehåll, cellformatering och filskydd. Aspose.Cells låter dig också importera data till kalkylblad från olika datakällor, lägga till vanliga och komplexa matematiska formler, datum och tid, ekonomiska eller textformler och funktioner. Den stöder vidare manipulering av diagram, bilder, kommentarer, ritobjekt och kontroller.
 

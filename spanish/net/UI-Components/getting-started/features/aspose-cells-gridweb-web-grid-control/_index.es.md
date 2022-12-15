@@ -14,7 +14,7 @@ url: /es/net/aspose-cells-gridweb-web-grid-control/
 - Admite la paginación de la hoja de trabajo.
 - Crea hojas de cálculo desde cero.
 ### **Funciones de fila y columna**
-- Agregue, inserte y elimine filas y columnas en una hoja de trabajo.
+- Agregue, inserte y elimine filas y columnas en una hoja de cálculo.
 - Ocultar y mostrar filas y columnas.
 - Congelar y descongelar filas y columnas.
 - Personaliza los encabezados de filas y columnas.

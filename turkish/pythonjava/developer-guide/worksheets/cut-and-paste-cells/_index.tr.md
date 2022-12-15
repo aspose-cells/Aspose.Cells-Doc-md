@@ -5,7 +5,7 @@ weight: 30
 url: /tr/python-java/cut-and-paste-cells/
 ---
 ## **Kes Yapıştır Cells**
-Java üzerinden Python için Aspose.Cells, hücreleri kesme ve yapıştırma yeteneği sağlar. Bunun için API,[ekleCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) yöntemi[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)Toplamak. bu[ekleCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) yöntemi aşağıdaki parametreleri kabul eder.
+Aspose.Cells for Python via Java hücreleri kesme ve yapıştırma imkanı sağlar. Bunun için API,[ekleCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) yöntemi[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)Toplamak. bu[ekleCutCells](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) yöntemi aşağıdaki parametreleri kabul eder.
 
 - [Menzil](https://reference.aspose.com/cells/python/asposecells.api/Range)Kesilecek hücre aralığı.
 - Satır Dizini: Hücrelerin ekleneceği satırın dizini.

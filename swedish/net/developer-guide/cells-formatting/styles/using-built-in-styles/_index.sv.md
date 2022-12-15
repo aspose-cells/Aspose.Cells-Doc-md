@@ -3,7 +3,7 @@ title: Använda inbyggda stilar
 type: docs
 weight: 80
 url: /sv/net/using-built-in-styles/
-description: C#-kod för att använda inbyggda Excel-stilar med Aspose.Cells för .NET API
+description: C# kod för att använda Excel inbyggda stilar med Aspose.Cells for .NET API
 keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
 ---
 {{% alert color="primary" %}}
@@ -68,6 +68,6 @@ Aspose.Cells tillhandahåller en stor samling återanvändbara stilar för att f
 - ROW_LEVEL
 - COLUMN_LEVEL
 
-## C#-kod för att använda inbyggda stilar
+## C# kod för att använda inbyggda stilar
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Android über Java 21.3 Versionshinweise
+title: Aspose.Cells for Android via Java 21.3 Versionshinweise
 type: docs
 weight: 10
 url: /de/java/aspose-cells-for-android-via-java-21-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für Android über Java 21.3.
+Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 21.3.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für Android über Java 
 |CELLSJAVA-43382|Kopieren erzeugt beschädigte Arbeitsmappe|
 |CELLSJAVA-43364|Problem beim Speichern eines Diagramms mit Bild in der Markierung als Bild|
 |CELLSJAVA-43389|Arbeitsmappen-/Arbeitsblatt-Kennwortschutzeinstellungen gehen beim Speichern im XLSB-Dateiformat verloren|
-|CELLSJAVA-43392| Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
+|CELLSJAVA-43392|Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
 |CELLSJAVA-43388|Die Ausgabedatei ist nach dem Kopieren der Arbeitsmappe beschädigt|
 |CELLSJAVA-43406|Probleme beim Konvertieren von HTML in Excel|
 |CELLSJAVA-43399|CalculateFormula() erstellt viele Fehlertypwerte #VALUE|
@@ -44,7 +44,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für Android über Java 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 
-Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells für Android über Java vorgenommen wurden. Wenn Sie Bedenken hinsichtlich einer der aufgeführten Änderungen haben, wenden Sie sich bitte an uns Erheben Sie es im Aspose.Cells Support-Forum.
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Android via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
 
 ### **Veralteter PdfSaveOptions(SaveFormat)-Konstruktor.**
 

@@ -28,11 +28,11 @@ url: /it/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43361|Colore della cella errato nella conversione da xls a xlsx|
 |CELLSJAVA-43366|La proprietà SetAsTotal non viene aggiornata|
 |CELLSJAVA-43348|Conversione da XLSB a PDF: CellsException: -2147483648|
-|CELLSJAVA-43343| Eccezione durante l'esportazione di un file in PDF che non ha un elemento selezionato per una forma|
+|CELLSJAVA-43343|Eccezione durante l'esportazione di un file in PDF che non ha un elemento selezionato per una forma|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cell.SetDynamicArrayFormula(string arrayFormula, Opzioni FormulaParseOptions, bool calcola).**
 

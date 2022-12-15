@@ -5,9 +5,9 @@ weight: 50
 url: /es/cpp/licensing/
 ---
 ## **Limitaciones de la versión de evaluación**
- Se puede descargar una versión de evaluación gratuita de Aspose.Cells para C++ desde la sección de descargas del sitio web de Aspose en:<https://downloads.aspose.com/cells/cpp>.
+ Se puede descargar una versión de evaluación gratuita de Aspose.Cells for C++ desde la sección de descargas del sitio web de Aspose en:<https://downloads.aspose.com/cells/cpp>.
 ## **Aplicar licencia usando archivo o objeto de transmisión**
-La licencia se puede cargar desde un archivo o un objeto de flujo. Aspose.Cells para C++ intentará encontrar la licencia en las siguientes ubicaciones:
+La licencia se puede cargar desde un archivo o un objeto de flujo. Aspose.Cells for C++ intentará encontrar la licencia en las siguientes ubicaciones:
 
 1. Camino explícito.
 1. La carpeta que contiene Aspose.Cells.dll.

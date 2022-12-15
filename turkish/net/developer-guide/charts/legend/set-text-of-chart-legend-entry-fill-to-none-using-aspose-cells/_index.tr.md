@@ -10,7 +10,7 @@ url: /tr/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}}
 
- Aşağıdaki örnek kod, grafiğin ikinci gösterge girişi dolgu metnini yok olarak ayarlar. Lütfen indirin[örnek excel dosyası](5115219.xlsx) Bu kodda kullanılan ve[çıktı excel dosyası](5115217.xlsx)referansınız için onun tarafından oluşturulmuştur.
+ Aşağıdaki örnek kod, grafiğin ikinci gösterge girişi dolgu metnini yok olarak ayarlar. Lütfen indirin[örnek excel dosyası](5115219.xlsx) Bu kodda kullanılan ve[çıktı excel dosyası](5115217.xlsx) referansınız için onun tarafından oluşturulmuştur.
 
 Aşağıdaki ekran görüntüsü, bu kodun etkisini vurgulamaktadır.[örnek excel dosyası](5115219.xlsx).
 

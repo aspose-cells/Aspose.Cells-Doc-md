@@ -6,7 +6,7 @@ url: /sv/net/creating-a-named-range/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells för .NET låter utvecklare utföra de flesta av de uppgifter som användare kan utföra i Microsoft Excel genom sina applikationer. Den här artikeln förklarar hur du tillämpar ett namngivet intervall programmatiskt.
+Aspose.Cells for .NET låter utvecklare utföra de flesta av de uppgifter som användare kan utföra i Microsoft Excel genom sina applikationer. Den här artikeln förklarar hur du tillämpar ett namngivet intervall programmatiskt.
 
 Ett namngivet intervall är en Excel-funktion som låter dig tilldela ett namn till en cell, eller ett intervall av celler, i ett Excel-kalkylblad. Du kan sedan använda namnet i formler för att referera till cellen (eller området). Förnuftigt namngivna intervall gör formler lättare att förstå.
 
@@ -28,7 +28,7 @@ Så här skapar du ett namngivet intervall:
  1. Namnge intervallet.
 1. Spara filen.
 
- Kodexemplen nedan visar hur du utför dessa steg med hjälp av[VSTO](/cells/sv/net/creating-a-named-range/) med antingen C# eller Visual Basic. Kodexemplen som följer visar hur man gör samma sak med hjälp av[Aspose.Cells för .NET](/cells/sv/net/creating-a-named-range/), igen med antingen C# eller Visual Basic.
+ Kodexemplen nedan visar hur du utför dessa steg med hjälp av[VSTO](/cells/sv/net/creating-a-named-range/) med antingen C# eller Visual Basic. Kodexemplen som följer visar hur man gör samma sak med hjälp av[Aspose.Cells for .NET](/cells/sv/net/creating-a-named-range/), igen med antingen C# eller Visual Basic.
 ### **Skapa ett namngivet intervall med VSTO**
 
 **C#**
@@ -93,7 +93,7 @@ xl.Quit();
 
 {{< /highlight >}}
 
-### **Skapa ett namngivet intervall med Aspose.Cells för .NET**
+### **Skapa ett namngivet intervall med Aspose.Cells for .NET**
 
 **C#**
 

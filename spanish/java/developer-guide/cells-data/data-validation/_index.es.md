@@ -8,7 +8,7 @@ url: /es/java/data-validation/
 
 Microsoft Excel proporciona algunas buenas funciones para filtrar automáticamente o validar datos de hojas de cálculo.
 
-[Validación de datos](/cells/es/java/data-validation/) es la capacidad de establecer reglas relacionadas con los datos ingresados en una hoja de cálculo. Por ejemplo, utilice la validación para asegurarse de que una columna etiquetada como FECHA contenga solo fechas o que otra columna contenga solo números. Incluso podría asegurarse de que una columna etiquetada como FECHA contenga solo fechas dentro de un cierto rango. Con la validación de datos, puede controlar lo que se ingresa en las celdas de la hoja de trabajo. Aspose.Cells es totalmente compatible con las funciones de autofiltro y validación de datos de Microsoft de Excel. Este artículo explica cómo usar las funciones en Microsoft Excel y cómo codificarlas usando Aspose.Cells.
+[Validación de datos](/cells/es/java/data-validation/) es la capacidad de establecer reglas relacionadas con los datos ingresados en una hoja de trabajo. Por ejemplo, utilice la validación para asegurarse de que una columna etiquetada como FECHA contenga solo fechas o que otra columna contenga solo números. Incluso podría asegurarse de que una columna etiquetada como FECHA contenga solo fechas dentro de un cierto rango. Con la validación de datos, puede controlar lo que se ingresa en las celdas de la hoja de trabajo. Aspose.Cells es totalmente compatible con las funciones de autofiltro y validación de datos de Microsoft de Excel. Este artículo explica cómo usar las funciones en Microsoft Excel y cómo codificarlas usando Aspose.Cells.
 
 {{% /alert %}} 
 ## **Tipos de validación de datos y ejecución**
@@ -64,7 +64,7 @@ Con este tipo de validación, los usuarios pueden ingresar solo números enteros
 
 
 #### **Ejemplo de programación: validación de datos decimales**
-Con este tipo de validación, el usuario puede ingresar números decimales en las celdas validadas. En el ejemplo, el usuario está restringido a ingresar solo el valor decimal y el área de validación es A1:A10.
+Con este tipo de validación, el usuario puede ingresar números decimales en las celdas validadas. En el ejemplo, el usuario está restringido a ingresar solo el valor decimal y el área de validación es A1: A10.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-DecimalDataValidation-DecimalDataValidation.java" >}}
 

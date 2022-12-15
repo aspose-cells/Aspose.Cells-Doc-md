@@ -27,7 +27,7 @@ url: /it/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43037|Problema di carattere nella conversione PDF|Insetto|
 |CELLSJAVA-43249|Problemi di stampa durante l'utilizzo di stampanti fisiche, XPS e stampante PDF|Insetto|
 |CELLSJAVA-43254|Differenza di carattere durante la conversione del foglio di calcolo in immagine|Insetto|
-|CELLSJAVA-43266|La versione Java non supporta il caricamento del carattere dalla cartella dei caratteri dell'utente corrente per impostazione predefinita|Insetto|
+|CELLSJAVA-43266|Per impostazione predefinita, la versione Java non supporta il caricamento dei caratteri dalla cartella dei caratteri dell'utente corrente|Insetto|
 |CELLSJAVA-43268|Rendering da Excel a TIFF: alcuni valori vengono sostituiti con caratteri "#".|Insetto|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: errore per ZipFile|Insetto|
 |CELLSJAVA-43277|Problema con il rapporto tra altezza e larghezza|Insetto|
@@ -41,13 +41,13 @@ url: /it/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43290|L'elaborazione non viene ripristinata durante il salvataggio del file XML Spreadsheet 2003 in formato cartella di lavoro MS Excel|Insetto|
 |CELLSJAVA-43267|Eccezione "java.lang.NullPointerException" durante il calcolo della tabella pivot nel foglio|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà AbstractCalculationEngine.ProcessBuiltInFunctions**
 
- Per considerazioni relative alle prestazioni e alla comodità dell'utente, aggiungiamo questa proprietà e impostiamo il suo valore predefinito su false in modo che l'utente possa concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di AbstractCalculationEngine ha modificato il calcolo di alcune funzioni integrate, l'utente deve eseguire l'override di questa proprietà per renderla come**VERO** da**20.9**.
+Per considerazioni relative alle prestazioni e alla comodità dell'utente, aggiungiamo questa proprietà e impostiamo il suo valore predefinito su false in modo che l'utente possa concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di AbstractCalculationEngine ha modificato il calcolo di alcune funzioni integrate, l'utente deve eseguire l'override di questa proprietà per renderla come**VERO** da**20.9**.
 
 ### **Aggiunge la proprietà TxtLoadOptions.HasTextQualifier**
 
@@ -127,7 +127,7 @@ Usare invece FilterColumn.IsDropdownVisible.
 
 ### **Aggiunge la proprietà CopyOptions.KeepMacros.**
 
-Indica se mantenere le macro nella cartella di lavoro di destinazione. Ha effetto solo quando la cartella di lavoro originale non contiene macro.
+Indica se conservare le macro nella cartella di lavoro di destinazione. Ha effetto solo quando la cartella di lavoro originale non contiene macro.
 
 ### **Aggiunge il metodo Workbook.Copy(Workbook,CopyOptions) di overload.**
 

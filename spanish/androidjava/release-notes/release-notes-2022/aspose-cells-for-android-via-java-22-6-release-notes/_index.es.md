@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 22.6 Notas de la versión
+title: Aspose.Cells for Android via Java 22.6 Notas de la versión
 type: docs
 weight: 7
 url: /es/java/aspose-cells-for-android-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 22.6.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 22.6.
 
 {{% /alert %}} 
 
@@ -56,14 +56,14 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-44661|Problema al cargar el archivo et en Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|El título del eje en el gráfico se rota en la imagen de salida - Conversión de gráfico a imagen|
 |CELLSJAVA-44615|Línea gris dibujada en la imagen de salida del archivo XLS|
-|CELLSJAVA-44665|La carga del archivo ODS se cuelga|
+|CELLSJAVA-44665|La carga del archivo ODS se bloquea|
 |CELLSJAVA-44404|Excepción "java.lang.IllegalArgumentException: índice de columna no válido" al cargar un archivo XLSX en GridWeb|
 |CELLSJAVA-44651|Error "No es un valor numérico" al convertir una hoja de Excel a HTML/PDF|
 
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
 ### **Agrega la clase DefaultStyleSettings.**
 

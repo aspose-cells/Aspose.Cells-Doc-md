@@ -12,6 +12,6 @@ url: /sv/net/refresh-and-calculate-pivot-table-having-calculated-items/
 
 ## **Uppdatera och beräkna pivottabellen med beräknade objekt**
 
- Följande exempelkod laddar[source excel-fil](5115238.xlsx)som innehåller en pivottabell med tre beräknade poster såsom "add", "div", "div2". Vi ändrar först värdet på cell D2 till 20 och uppdaterar och beräknar sedan pivottabellen med Aspose.Cells API:er och sparar arbetsboken i PDF-format. Resultaten i[mata ut PDF](5115229.pdf) visar att Aspose.Cells uppdaterade och beräknade pivottabellen efter att ha beräknat objekt framgångsrikt. Du kan verifiera det med Microsoft Excel genom att manuellt sätta värdet 20 i cell D2 och sedan uppdatera pivottabellen via Alt+F5 genvägstangent eller klicka på pivottabellen Uppdatera-knappen.
+ Följande exempelkod laddar[källkod excel-fil](5115238.xlsx)som innehåller en pivottabell med tre beräknade poster såsom "add", "div", "div2". Vi ändrar först värdet på cell D2 till 20 och uppdaterar och beräknar sedan pivottabellen med Aspose.Cells API:er och sparar arbetsboken i PDF-format. Resultaten i[mata ut PDF](5115229.pdf) visar att Aspose.Cells uppdaterade och beräknade pivottabellen efter att ha beräknat objekt framgångsrikt. Du kan verifiera det med Microsoft Excel genom att manuellt sätta värdet 20 i cell D2 och sedan uppdatera pivottabellen via Alt+F5 genvägstangent eller klicka på pivottabellen Uppdatera-knappen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-RefreshAndCalculateItems-1.cs" >}}

@@ -17,6 +17,6 @@ Microsoft Excel dinamik formülleri hesaplanmaz, belirli kurallar ve düzenlemel
 
 {{% /alert %}} 
 - **Formül Çıktısı**
-**Formülleri (hesaplanan) içeren örnek bir rapor, Reporting Services için Aspose.Cells kullanılarak dışa aktarılır** 
+**Formülleri (hesaplanan) içeren örnek bir rapor, Aspose.Cells for Reporting Services kullanılarak dışa aktarılır.** 
 
 ![yapılacaklar:resim_alternatif_Metin](advanced-formula-calculation_1.png)

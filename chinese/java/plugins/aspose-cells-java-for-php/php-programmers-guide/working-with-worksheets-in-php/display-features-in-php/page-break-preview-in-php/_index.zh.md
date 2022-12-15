@@ -5,7 +5,7 @@ weight: 60
 url: /zh/java/page-break-preview-in-php/
 ---
 ## **Aspose.Cells - 分页预览**
-将工作表设置为分页预览使用**Aspose.Cells Java 用于 PHP** 只需调用**分页预览**模块。
+将工作表设置为分页预览使用**Aspose.Cells Java for PHP** 只需调用**分页预览**模块。
 
 **PHP代码**
 

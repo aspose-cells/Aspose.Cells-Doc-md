@@ -79,7 +79,7 @@ url: /es/net/grid-features/
 | Agregar eliminar**Botón** , **Caja** & **Caja combo** controles en Cells|**X**|||
 |**Seguridad**||||
 | Bloquear u ocultar Cells|**X**|||
-|**Funciones y fórmulas**||||
+|**Funciones y Fórmulas**||||
 | Crear y calcular fórmulas|**X**|**X**|**X**|
 |Más de 80 funciones predefinidas|**X**|**X**|**X**|
 | Motor de cálculo personalizado||**X**|**X**|

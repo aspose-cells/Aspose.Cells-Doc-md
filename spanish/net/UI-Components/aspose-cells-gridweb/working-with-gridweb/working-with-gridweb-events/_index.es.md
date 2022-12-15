@@ -38,7 +38,7 @@ Esta lista no incluye eventos heredados por Aspose.Cells.GridWeb de la clase Con
 | FilaDobleClic|Ocurre cuando se hace doble clic en el encabezado de la fila.|
 | FilaInsertado| Ocurre cuando un usuario inserta una fila en la hoja de trabajo usando el menú del lado del cliente.|
 | GuardarComando| Ocurre cuando el**Ahorrar** se hace clic en el botón.|
-| SheetDataUpdated| Ocurre cuando el control cargó los datos publicados y actualizó los datos de la hoja de cálculo.|
+| SheetDataUpdated| Ocurre cuando el control cargó los datos publicados y actualizó los datos de la hoja de trabajo.|
 | FichaHojaClic| Ocurre cuando se hace clic en la pestaña de una hoja.|
 | EnviarComando| Ocurre cuando el**Enviar** se hace clic en el botón.|
 | DeshacerComando| Ocurre cuando el**Deshacer** se hace clic en el botón.|

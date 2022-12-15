@@ -10,7 +10,7 @@ Namngivna destinationer är speciella typer av bokmärken eller länkar i PDF so
 
 ## **Lägg till PDF-bokmärken med namngivna destinationer**
 
- Se följande exempelkod, dess[källfil för Excel](50528348.xlsx) , och dess[utdata PDF-fil](50528349.pdf). Skärmdumpen visar bokmärkena och namngivna destinationer i utdata-PDF-filen. Skärmdumpen beskriver också hur du visar namngivna destinationer och att du behöver en professionell version av Acrobat Reader.
+ Se följande exempelkod, dess[käll Excel-fil](50528348.xlsx) , och dess[utdata PDF-fil](50528349.pdf). Skärmdumpen visar bokmärkena och namngivna destinationer i utdata-PDF-filen. Skärmdumpen beskriver också hur du visar namngivna destinationer och att du behöver en professionell version av Acrobat Reader.
 
 ![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
 

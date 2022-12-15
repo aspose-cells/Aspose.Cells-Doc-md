@@ -114,7 +114,7 @@ url: /it/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27835 Supporta IE9 senza utilizzare la modalità di compatibilità
 
- 28145 Problemi con il browser Chrome Google
+ 28145 Problemi con il browser Google Chrome
 
  26368 Impossibile individuare una cella facendo clic su un collegamento ipertestuale
 

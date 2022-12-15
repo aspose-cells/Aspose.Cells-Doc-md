@@ -15,7 +15,7 @@ Så här skapar du en ny tabell:
 
 ![todo:image_alt_text](adding-base-information-for-table_2.png)
 
-1. Öppna ett Microsoft Excel-kalkylblad och utforma tabellhuvudet enligt följande:
+1. Öppna ett Microsoft Excel-kalkylblad och designa tabellhuvudet enligt följande:
 
    **Designa tabellhuvudet** 
 

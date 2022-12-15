@@ -6,7 +6,7 @@ url: /sv/java/display-or-hide-tabs-in-php/
 ---
 ## **Aspose.Cells - Visa eller dölj flikar**
 ### **Döljer flikar**
- För att dölja flikar med**Aspose.Cells Java för PHP** , ringa upp**visagömflikar** modul.
+ För att dölja flikar med**Aspose.Cells Java for PHP** , ringa upp**visagömflikar** modul.
 
 **PHP-kod**
 

@@ -17,7 +17,7 @@ Den här artikeln visar hur du:
 1. Ändra datajustering och orientering.
 1. Ställ in radhöjd och kolumnbredd.
 
-Exempelprojektet utför alla dessa uppgifter och ger utvecklare en detaljerad beskrivning av hur man skapar en arbetsbok, lägger till data i och tillämpar formatering med Aspose.Cells för Java.
+Exempelprojektet utför alla dessa uppgifter och ger utvecklare en detaljerad beskrivning av hur man skapar en arbetsbok, lägger till data i och tillämpar formatering med Aspose.Cells for Java.
 
 {{% /alert %}}
 

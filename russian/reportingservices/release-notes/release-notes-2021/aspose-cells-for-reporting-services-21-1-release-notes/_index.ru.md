@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для примечаний к выпуску служб Reporting Services 21.1
+title: Aspose.Cells for Reporting Services 21.1 Примечания к выпуску
 type: docs
 weight: 20
 url: /ru/reportingservices/aspose-cells-for-reporting-services-21-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-На этой странице содержатся примечания к выпуску Aspose.Cells для Reporting Services 21.1.
+Эта страница содержит примечания к выпуску для Aspose.Cells for Reporting Services 21.1.
 
 {{% /alert %}} 
 

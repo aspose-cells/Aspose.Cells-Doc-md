@@ -8,13 +8,13 @@ url: /sv/net/hide-and-unhide-worksheets-in-a-workbook/
 
 När du presenterar arbetsböcker för kunder, eller gör en presentation, kan det vara användbart att dölja arbetsblad i en arbetsbok. Ett strukturerat tillvägagångssätt för kalkylbladsmodellering föreslår att data, formler och visualiseringar som diagram hålls på separata ark. Detta tillvägagångssätt håller layouten ren och enkel och gör arbetsboken lättare att navigera. När du presenterar resultat kanske du vill dölja data eller formelblad för att undvika distraktion.
 
-Användare som arbetar i Microsoft Excel kan enkelt dölja och sedan visa (visa) kalkylblad. Samma funktioner är tillgängliga för utvecklare som programmerar med Excel-kalkylblad. Det finns olika sätt att arbeta med kalkylblad inifrån mjukvaruapplikationer. En metod är att använda VSTO, en annan är Aspose.Cells för .NET.
+Användare som arbetar i Microsoft Excel kan enkelt dölja och sedan visa (visa) kalkylblad. Samma funktioner är tillgängliga för utvecklare som programmerar med Excel-kalkylblad. Det finns olika sätt att arbeta med kalkylblad inifrån mjukvaruapplikationer. En metod är att använda VSTO, en annan är Aspose.Cells for .NET.
 
 {{% /alert %}}
 
 ## **Dölja och visa arbetsblad**
 
- Den här artikeln jämför[gömmer sig](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) och[gömmer upp sig](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) arbetsblad med[VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) , med antingen C# eller Visual Basic, för att utföra samma uppgift med[Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/)återigen med antingen C# eller Visual Basic. Aspose.Cells låter dig arbeta utan Microsoft Excel installerat.
+ Den här artikeln jämför[gömmer sig](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) och[gömmer upp sig](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) arbetsblad med[VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) , med antingen C# eller Visual Basic, för att utföra samma uppgift med[Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/), återigen med antingen C# eller Visual Basic. Aspose.Cells låter dig arbeta utan Microsoft Excel installerat.
 
 Stegen för att dölja ett kalkylblad är:
 
@@ -108,7 +108,7 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **Döljer kalkylblad med Aspose.Cells för .NET**
+### **Döljer arbetsblad med Aspose.Cells for .NET**
 
 **C#**
 
@@ -177,7 +177,7 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-### **Visa ett kalkylblad med Aspose.Cells för .NET**
+### **Visa ett kalkylblad med Aspose.Cells for .NET**
 
 **C#**
 

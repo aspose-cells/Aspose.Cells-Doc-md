@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 5.1.4 Release Notes
+title: Aspose.Cells for .NET 5.1.4 Release Notes
 type: docs
 weight: 20
 url: /sv/net/aspose-cells-for-net-5-1-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 5.1.4](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.4/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 5.1.4](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-5.1.4/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v5.1.4!
+ Vi är glada att meddela Aspose.Cells for .NET v5.1.4!
 
  Vad har ändrats i Aspose.Cells:
 
@@ -30,7 +30,7 @@ url: /sv/net/aspose-cells-for-net-5-1-4-release-notes/
 - Stöder import/export av autofilter i Excel-filer.
 - 1 fix och 1 förbättring.
 
- Problem lösta i Aspose.Cells för .NET v5.1.4.
+ Problem lösta i Aspose.Cells for .NET v5.1.4.
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
@@ -40,7 +40,7 @@ url: /sv/net/aspose-cells-for-net-5-1-4-release-notes/
 |19883 | Pdf| Det gick inte att hitta objektreferens fel|
 |20011 | Pdf| Sidbrytningar med tom sida fungerar inte|
 |20057 | Pdf| Excel till PDF-konverteringsproblem|
-|20070 | Pdf| Multibyte-teckensnitt|
+|20070 | Pdf| Multibyte teckensnitt|
 |20071 | Pdf| Multibyte teckensnittsfärg|
 |20450 | Pdf| Ogiltigt radindex|
 |20590 | Pdf| Trunkerad text i vissa celler efter konvertering till PDF|

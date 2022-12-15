@@ -13,7 +13,7 @@ url: /sv/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
  De[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) class erbjuder för närvarande följande 3 metoder som kan åsidosättas i en anpassad klass för att få önskade etiketter för delsummorna eller för att återge anpassad text för**Övrig** etikett för ett cirkeldiagram.
 
 1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): Hämtar det totala namnet på funktionen.
-1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)Hämtar det totala namnet på funktionen.
+1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): Hämtar det totala namnet på funktionen.
 1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername): Hämtar namnet på "Andra"-etiketter för cirkeldiagram.
 
 ### **Anpassade etiketter för delsummor**
@@ -34,7 +34,7 @@ url: /sv/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **Anpassad text för annan etikett av cirkeldiagram**
 
- De[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) klasserbjudanden[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername) metod som är användbar för att ge etiketten "Övrigt" för cirkeldiagram ett anpassat värde. Följande kodavsnitt definierar en anpassad klass och åsidosätter[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)metod för att få en anpassad etikett baserad på systemets kulturidentifierare.
+ De[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) klasserbjudanden[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)metod som är användbar för att ge etiketten "Övrigt" för cirkeldiagram ett anpassat värde. Följande kodavsnitt definierar en anpassad klass och åsidosätter[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)metod för att få en anpassad etikett baserad på systemets kulturidentifierare.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-GlobalizationSettings.cs" >}}
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.7.0
+title: Offentlig API Ändringar i Aspose.Cells 8.7.0
 type: docs
 weight: 230
 url: /sv/net/public-api-changes-in-aspose-cells-8-7-0/
@@ -11,9 +11,9 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för VBA Project Digital Signing, Detection & Extraction**
-Den här versionen av Aspose.Cells för .NET har avslöjat några nya egenskaper och metoder för att hjälpa användarna i uppgifter som att digitalt signera ett VBA-projekt, upptäcka om ett VBA-projekt är signerat och giltigt. Dessutom tillåter det nya API:et att extrahera certifikatet som rådata från digitalt signerade VBA-projekt i Workbook.
+Den här utgåvan av Aspose.Cells for .NET har avslöjat några nya egenskaper och metoder för att hjälpa användarna i uppgifter som att digitalt signera ett VBA-projekt, upptäcka om ett VBA-projekt är signerat och giltigt. Dessutom tillåter den nya API att extrahera certifikatet som rådata från digitalt signerade VBA-projekt i Workbook.
 ###### **Signera VBA-projekt digitalt**
- Aspose.Cells för .NET 8.7.0 har exponerat metoden VbaProject.Sign som kan användas för att[signera VBA-projektet digitalt i en arbetsbok](/cells/sv/net/digitally-sign-a-vba-code-project-with-certificate/). Den nämnda metoden accepterar en instans av klassen DigitalSignature som finns i namnområdet Aspose.Cells.DigitalSignatures.
+ Aspose.Cells for .NET 8.7.0 har exponerat metoden VbaProject.Sign som kan användas för att[signera VBA-projektet digitalt i en arbetsbok](/cells/sv/net/digitally-sign-a-vba-code-project-with-certificate/). Den nämnda metoden accepterar en instans av klassen DigitalSignature som finns i namnområdet Aspose.Cells.DigitalSignatures.
 
 Följande är det enkla användningsscenariot.
 
@@ -77,7 +77,7 @@ else
 
 
 ###### **Extrahering av digital signatur från VBA Project**
-Denna revidering av API:et har också avslöjat egenskapen VbaProject.CertRawData som tillåter[extrahera det digitala certifikatets rådata från VBA-projektet](/cells/sv/net/export-vba-certificate-to-file-or-stream/). Egenskapen VbaProject.CertRawData är av typen byte array, som kommer att innehålla råcertifikatdata om VBA-projektet är digitalt signerat, annars kommer nämnda egenskap att vara null.
+Denna revidering av API har också avslöjat egenskapen VbaProject.CertRawData som tillåter att[extrahera det digitala certifikatets rådata från VBA-projektet](/cells/sv/net/export-vba-certificate-to-file-or-stream/). Egenskapen VbaProject.CertRawData är av typen byte array, som kommer att innehålla råcertifikatdata om VBA-projektet är digitalt signerat, annars kommer nämnda egenskap att vara null.
 
 Följande är det enkla användningsscenariot.
 
@@ -101,7 +101,7 @@ var cert = vbaProject.CertRawData;
 
 
 ###### **Validera den digitala signaturen för VBA-projektet**
- Ett annat tillägg till det offentliga API:t är egenskapen VbaProject.IsValidSigned som kan vara användbar i[validering av VBA-projektets digitala signatur](/cells/sv/net/check-if-digital-signature-of-vba-code-is-valid/). Den nämnda egenskapen returnerar true om den digitala signaturen är giltig och falsk om signaturen är ogiltig.
+ Ett annat tillägg till allmänheten API är egenskapen VbaProject.IsValidSigned som kan vara användbar i[validering av VBA-projektets digitala signatur](/cells/sv/net/check-if-digital-signature-of-vba-code-is-valid/). Den nämnda egenskapen returnerar true om den digitala signaturen är giltig och falsk om signaturen är ogiltig.
 
 Följande är det enkla användningsscenariot.
 
@@ -139,7 +139,7 @@ if (vbaProject.IsSigned)
 
 
 ### **Metod Protection.VerifyPassword har lagts till**
- Aspose.Cells för .NET 8.7.0 har exponerat metoden Protection.VerifyPassword som kan användas för att[verifiera lösenordet som används för att skydda arbetsbladet](/cells/sv/net/verify-password-used-to-protect-the-worksheet/)Den här metoden accepterar en instans av sträng som parameter och returnerar true om det angivna lösenordet matchar lösenordet som används för att skydda arbetsbladet.
+ Aspose.Cells for .NET 8.7.0 har exponerat metoden Protection.VerifyPassword som kan användas för att[verifiera lösenordet som används för att skydda arbetsbladet](/cells/sv/net/verify-password-used-to-protect-the-worksheet/)Den här metoden accepterar en instans av sträng som parameter och returnerar true om det angivna lösenordet matchar lösenordet som används för att skydda arbetsbladet.
 
 Följande är det enkla användningsscenariot.
 
@@ -181,7 +181,7 @@ else
 
 
 ### **Property Protection.IsProtectedWithPassword Added**
- Den här versionen av Aspose.Cells för .NET API har också avslöjat egenskapen Protection.IsProtectedWithPassword som kan vara användbar i[upptäcka om ett arbetsblad är lösenordsskyddat eller inte](/cells/sv/net/detect-if-worksheet-is-password-protected/).
+ Den här utgåvan av Aspose.Cells for .NET API har också avslöjat egenskapen Protection.IsProtectedWithPassword som kan vara användbar i[upptäcka om ett arbetsblad är lösenordsskyddat eller inte](/cells/sv/net/detect-if-worksheet-is-password-protected/).
 
 Följande är det enkla användningsscenariot.
 
@@ -223,7 +223,7 @@ else
 
 
 ### **Egenskapen ColorScale.Is3ColorScale tillagd**
- Aspose.Cells för .NET 8.7.0 har avslöjat egenskapen ColorScale.Is3ColorScale som kan användas för att skapa villkorsformat 2-Color Scale. Den nämnda egenskapen är av typen Boolean med standardvärdet true vilket betyder att det villkorliga formatet kommer att vara i 3-färgsskala som standard. Ändrar dock egenskapen ColorScale.Is3ColorScale till falsk vilja[generera ett villkorligt format med 2-färgsskala](/cells/sv/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
+ Aspose.Cells for .NET 8.7.0 har exponerat egenskapen ColorScale.Is3ColorScale som kan användas för att skapa villkorsformat för 2-färgskala. Den nämnda egenskapen är av typen Boolean med standardvärdet true vilket betyder att det villkorliga formatet kommer att vara i 3-färgsskala som standard. Ändrar dock egenskapen ColorScale.Is3ColorScale till falsk vilja[generera ett villkorligt format med 2-färgsskala](/cells/sv/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
 
 Följande är det enkla användningsscenariot.
 
@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **Property TxtLoadOptions.HasFormula Added**
- Aspose.Cells för .NET 8.7.0 har tillhandahållit support för[identifiera och analysera formlerna medan du laddar CSV/TXT-filer med avgränsade vanliga data](/cells/sv/net/load-or-import-csv-file-with-formulas/). Nyligen exponerade egenskapen TxtLoadOptions.HasFormula när den är satt till true dirigerar API:et att tolka formlerna från den indataavgränsade filen och ställa in dem på relevanta celler utan att kräva ytterligare bearbetning.
+ Aspose.Cells for .NET 8.7.0 har tillhandahållit support till[identifiera och analysera formlerna medan du laddar CSV/TXT-filer med avgränsade vanliga data](/cells/sv/net/load-or-import-csv-file-with-formulas/). Den nyligen exponerade egenskapen TxtLoadOptions.HasFormula när den är satt till true dirigerar API att tolka formlerna från den indataavgränsade filen och ställa in dem på relevanta celler utan att kräva ytterligare bearbetning.
 
 Följande är det enkla användningsscenariot.
 
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Egenskap DataLabels.IsResizeShapeToFitText tillagd**
- En annan användbar funktion som Aspose.Cells för .NET 8.7.0 har exponerat är egenskapen DataLabels.IsResizeShapeToFitText som kan aktivera[Ändra storlek på form för att passa text](/cells/sv/net/resize-chart-s-data-label-shape-to-fit-text/) funktion i Excel-applikationen för diagrammets dataetiketter.
+ En annan användbar funktion som Aspose.Cells for .NET 8.7.0 har exponerat är egenskapen DataLabels.IsResizeShapeToFitText som kan aktivera[Ändra storlek på form för att passa text](/cells/sv/net/resize-chart-s-data-label-shape-to-fit-text/) funktion i Excel-applikationen för diagrammets dataetiketter.
 
 Följande är det enkla användningsscenariot.
 
@@ -347,7 +347,7 @@ chart.Calculate();
 
 
 ### **Egenskap PdfSaveOptions.OptimizationType tillagd**
- Aspose.Cells för .NET 8.7.0 har exponerat egenskapen PdfSaveOptions.OptimizationType tillsammans med PdfOptimizationType-uppräkningen för att underlätta för användarna att[välj önskad optimeringsalgoritm medan du exporterar kalkylblad till PDF-format](/cells/sv/net/save-excel-into-pdf-with-standard-or-minimum-size/). Det finns två möjliga värden för egenskapen PdfSaveOptions.OptimizationType enligt beskrivningen nedan.
+Aspose.Cells for .NET 8.7.0 har exponerat egenskapen PdfSaveOptions.OptimizationType tillsammans med PdfOptimizationType-uppräkningen för att underlätta för användarna att[välj önskad optimeringsalgoritm medan du exporterar kalkylblad till PDF-format](/cells/sv/net/save-excel-into-pdf-with-standard-or-minimum-size/). Det finns två möjliga värden för egenskapen PdfSaveOptions.OptimizationType enligt beskrivningen nedan.
 
 1. PdfOptimizationType.MinimumSize: Kvaliteten äventyras för den resulterande filstorleken.
 1. PdfOptimizationType.Standard: Kvaliteten äventyras inte så den resulterande filstorleken blir stor.
@@ -379,4 +379,4 @@ book.Save(outFilePath, pdfSaveOptions);
 {{< /highlight >}}
 ## **Borttagna API:er**
 ### **Egenskapsarbetsbok.Sparaalternativ har tagits bort**
-Egenskapen Workbook.SaveOptions markerades som föråldrad för en tid sedan. Med den här utgåvan har den tagits bort helt från det offentliga API:t, därför rekommenderas att använda metoden Workbook.Save(Stream, SaveOptions) eller Workbook.Save(string, SaveOptions) som alternativ.
+Egenskapen Workbook.SaveOptions markerades som föråldrad för en tid sedan. Med den här utgåvan har den tagits bort helt från den offentliga API, därför rekommenderas att använda metoden Workbook.Save(Stream, SaveOptions) eller Workbook.Save(string, SaveOptions) som alternativ.

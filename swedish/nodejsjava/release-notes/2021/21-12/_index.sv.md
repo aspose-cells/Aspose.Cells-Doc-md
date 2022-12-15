@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Node.js via Java 21.12 Release Notes
+title: Aspose.Cells for Node.js via Java 21.12 Release Notes
 type: docs
 weight: 1
 url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Node.js via Java 21.12](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.12/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Node.js via Java 21.12](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.12/).
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 |CELLSJAVA-43469|Möjlig regression: Prestandaförsämring av FormatConditionCollection.addArea()|
 |CELLSJAVA-43983|Regression: Oändlig loop vid konvertering av XLSX till PDF|
 |CELLSJAVA-44029|XLSX till PDF: Bilden konverteras inte|
-|CELLSJAVA-44093| Problem med textavkortning med rektangelformer vid rendering till bild i nyare Aspose.Cells för Java-versioner|
+|CELLSJAVA-44093| Problem med textavkortning med rektangelformer vid rendering till bild i nyare Aspose.Cells for Java versioner|
 |CELLSJAVA-44089|DataLabels.setShadow() är inte tillgänglig och den är inte lika med metoden Series.setShadow()|
 |CELLSJAVA-44000|Cells stil är felaktig i HTML när man använder ikonuppsättning och annan villkorlig formatering samtidigt|
 |CELLSJAVA-43932|Problem med att ställa in dataetiketternas position för exploderade munkdiagram i utdatabilden|
@@ -29,9 +29,9 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 |CELLSJAVA-44071|com.aspose.cells.CellsException: Du har angett för få parametrar för funktionen IF när du anropar Workbook.calculateFormula()|
 |CELLSJAVA-44104|NullPointerException vid import av SpreadSheetML|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Fler begränsningar för att lägga till områden för validering.**
 
@@ -39,7 +39,7 @@ Vi har ändrat områdesmodellen för validering och villkorlig formatering för 
 
 ### **Ändrat beteende för att ändra områden av Validation/ConditionalFormatting.**
 
-För validering och villkorlig formatering, i gamla versioner kan deras områden backas upp av CellArea-objektet som hämtats från eller ställts in på dem. Så om användaren ändrar fältvärdet för CellArea-objektet kan områdena också ändras, och vice versa. I själva verket är detta ett oväntat resultat från synen på API-design. Från denna version har denna bieffekt tagits bort och användaren kan inte ändra områdena genom att ändra CellArea-objektet längre.
+För validering och villkorlig formatering, i gamla versioner kan deras områden backas upp av CellArea-objektet som hämtats från eller ställts in på dem. Så om användaren ändrar fältvärdet för CellArea-objektet kan områdena också ändras, och vice versa. I själva verket är detta ett oväntat resultat från synen på API design. Från denna version har denna bieffekt tagits bort och användaren kan inte ändra områdena genom att ändra CellArea-objektet längre.
 
 ### **Ändrade beteende för att lägga till formatvillkor i FormatConditionCollection.**
 

@@ -5,7 +5,7 @@ weight: 10
 url: /it/python-java/accessing-cells-of-a-worksheet/
 ---
 ## **Accedendo allo Cells**
-Aspose.Cells per Python tramite Java consente di accedere alle celle in un foglio di lavoro utilizzando il nome della cella o utilizzando l'indice della riga e della colonna. Questo articolo mostra entrambi questi approcci usati per accedere alle celle in un foglio di lavoro
+Aspose.Cells for Python via Java consente di accedere alle celle in un foglio di lavoro utilizzando il nome della cella o utilizzando l'indice della riga e della colonna. Questo articolo mostra entrambi questi approcci usati per accedere alle celle in un foglio di lavoro
 ### **Accedere alla cella utilizzando il nome della cella**
 Il seguente frammento di codice illustra l'accesso alla cella utilizzando il nome della cella. Il codice di esempio accede alla cella "C5" e ne stampa il valore.
 

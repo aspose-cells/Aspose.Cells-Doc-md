@@ -1,5 +1,5 @@
 ﻿---
-title: إنشاء جدول باستخدام خطوط الحدود لنطاق
+title: قم بإنشاء جدول باستخدام خطوط الحدود لنطاق
 type: docs
 weight: 50
 url: /ar/java/create-table-by-using-border-lines-for-a-range/

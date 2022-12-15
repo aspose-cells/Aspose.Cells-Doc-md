@@ -23,22 +23,22 @@ På samma sätt, anta att C1 innehåller formeln "=(B1*22)/(M2*N32)". Jag vill h
 
 Du kan behöva spåra beroendet av en viss cell till andra celler. Om affärsregler är inbäddade i formler vill vi ta reda på beroendet och exekvera några regler baserat på det. På samma sätt, om värdet på en viss cell ändras, vilka celler i kalkylbladet påverkas av den ändringen?
 
-Microsoft Excel tillåter användare att spåra prejudikat och anhöriga.
+Microsoft Excel tillåter användare att spåra prejudikat och beroende.
 
 1.  På**Visa verktygsfält** , Välj**Formelrevision**. Dialogrutan Formelrevision kommer att visas.
 1. Spåra prejudikat:
- 1. Välj cellen som innehåller formeln som du vill hitta prejudikatceller för.
+1. Välj cellen som innehåller formeln som du vill hitta prejudikatceller för.
  1. För att visa en spårningspil för varje cell som direkt tillhandahåller data till den aktiva cellen, klicka**Spåra prejudikat** på**Formelrevision** verktygsfältet.
 1. Spåra formler som refererar till en viss cell (beroende)
  1. Välj den cell som du vill identifiera de beroende cellerna för.
-1. För att visa en spårningspil för varje cell som är beroende av den aktiva cellen, klicka på Spåra beroende i verktygsfältet Formula Auditing.
+ 1. För att visa en spårningspil för varje cell som är beroende av den aktiva cellen, klicka på Spåra beroende i verktygsfältet Formula Auditing.
 ## **Spårande prejudikat och beroende Cells: Aspose.Cells**
 ### **Spåra prejudikat**
 Aspose.Cells gör det enkelt att få prejudikatceller. Det kan inte bara hämta celler som tillhandahåller data till enkla formelprejudikat utan också hitta celler som tillhandahåller data till komplexa formelprejudikat med namngivna intervall.
 
-exemplet nedan används en excel-mall, Book1.xls. Kalkylarket har data och formler på det första kalkylbladet.
+I exemplet nedan används en excel-mall, Book1.xls. Kalkylarket har data och formler på det första kalkylbladet.
 
- Aspose.Cells tillhandahåller[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[GetPrecedents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedents) metod som används för att spåra en cells prejudikat. Den returnerar en[ReferredAreaCollection](https://reference.aspose.com/cells/net/aspose.cells/referredareacollection). Som du kan se ovan, i Book1.xls, innehåller cell B7 en formel "=SUMMA(A1:A3)". Så cellerna A1:A3 är prejudikatcellerna till cell B7. Följande exempel visar spårningsprejudikatfunktionen med hjälp av mallfilen Book1.xls.
+ Aspose.Cells tillhandahåller[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[GetPrecedents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedents) metod som används för att spåra en cells prejudikat. Den returnerar en[ReferredAreaCollection](https://reference.aspose.com/cells/net/aspose.cells/referredareacollection)Som du kan se ovan, i Book1.xls, innehåller cell B7 en formel "=SUMMA(A1:A3)". Så cellerna A1:A3 är prejudikatcellerna till cell B7. Följande exempel visar spårningsprejudikatfunktionen med hjälp av mallfilen Book1.xls.
 
 
 
@@ -52,7 +52,7 @@ Aspose.Cells låter dig få beroende celler i kalkylblad. Aspose.Cells kan inte 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependents-1.cs" >}}
 ### **Spåra prejudikat- och beroendeceller enligt beräkningskedja**
- Ovanför apis av spårande prejudikat och beroende är enligt formeluttrycket själv. De ger helt enkelt ett bekvämt sätt för användaren att spåra ömsesidiga beroenden för ett fåtal formler. Om det finns stora mängder formler i arbetsboken och användaren behöver spåra prejudikat och beroenden för varje cell, kommer de att ge dålig prestanda. För en sådan situation bör användaren överväga att använda[GetPrecedentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedentsincalculation/) och[GetDependentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependentsincalculation/) metoder. Dessa två metoder spårar beroenden enligt beräkningskedjan. Så för att använda dem måste du först och främst aktivera beräkningskedjan med[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/enablecalculationchain/) . Då bör du utföra fullständig beräkning för arbetsboken genom[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1)Efter det kan du spåra prejudikat eller beroende för alla de celler du behöver.
+Ovanför apis av spårande prejudikat och beroende är enligt formeluttrycket själv. De ger helt enkelt ett bekvämt sätt för användaren att spåra ömsesidiga beroenden för ett fåtal formler. Om det finns stora mängder formler i arbetsboken och användaren behöver spåra prejudikat och beroenden för varje cell, kommer de att ge dålig prestanda. För en sådan situation bör användaren överväga att använda[GetPrecedentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedentsincalculation/) och[GetDependentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependentsincalculation/) metoder. Dessa två metoder spårar beroenden enligt beräkningskedjan. Så för att använda dem måste du först och främst aktivera beräkningskedjan med[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/enablecalculationchain/) . Då bör du utföra fullständig beräkning för arbetsboken genom[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1). Efter det kan du spåra prejudikat eller beroende för alla de celler du behöver.
 
 För vissa formler kan de resulterande prejudikaten vara olika för GetPrecedents och GetPrecedentsInCalculation, och de resulterande beroenden kan vara olika för GetDependents och GetDependentsInCalculation. Till exempel, om cell A1:s formel är "=OM(TRUE,B2,C3)", kommer GetPrecedents att tillhandahålla B2 och C3 som A1:s prejudikat. Följaktligen har B2 och C3 båda den beroende A1 vid kontroll av GetDependents. Men för beräkningen av denna formel är det uppenbart att endast B2 kan påverka det beräknade resultatet. Så GetPrecedentsInCalculation kommer inte att tillhandahålla C3 för A1, och GetDependentsInCalculation kommer inte att tillhandahålla A1 för C3. Ibland kan användaren bara ha kravet att spåra de ömsesidiga beroenden som faktiskt påverkar det beräknade resultatet av formler baserat på aktuella data i arbetsboken, då måste de också använda GetDependentsInCalculation/GetPrecedentsInCalculation istället för GetDependents/GetPrecedents.
 

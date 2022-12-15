@@ -48,7 +48,7 @@ I passaggi iniziali sono gli stessi per tutti gli esempi.
 1. Estrarre Aspose.Cells.jar e dom4j_1.6.1.jar da Aspose.Cells.zip.
  1. Imposta il classpath del progetto in Eclipse:
  1. Seleziona il tuo progetto in Eclipse e fai clic sui menu**Progetto** , poi**Proprietà**.
- 1. Selezionare**Java Costruisci Percorso** nella parte sinistra della finestra di dialogo, quindi seleziona la scheda Librerie,
+ 1. Selezionare**Percorso di compilazione Java** nella parte sinistra della finestra di dialogo, quindi seleziona la scheda Librerie,
  1. Fare clic**Aggiungi JAR** o**Aggiungi JAR esterni** per selezionare Aspose.Cells.jar e dom4j_1.6.1.jar e aggiungerli nei percorsi di compilazione.
 
 {{% alert color="primary" %}}
@@ -65,7 +65,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Copia il foglio di lavoro all'interno di una cartella di lavoro:
- Di seguito è riportato il codice utilizzato da per eseguire l'operazione. Copia il foglio di lavoro Copia all'interno di FirstWorkbook.xls.
+ Di seguito è riportato il codice utilizzato da per eseguire l'attività. Copia il foglio di lavoro Copia all'interno di FirstWorkbook.xls.
 
 L'esecuzione del codice sposta il foglio di lavoro denominato Copia all'interno di FirstWorkbook.xls con il nuovo nome Last Sheet.
 

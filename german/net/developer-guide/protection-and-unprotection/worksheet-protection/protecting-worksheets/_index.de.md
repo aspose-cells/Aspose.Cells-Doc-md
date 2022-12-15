@@ -26,7 +26,7 @@ Geschützte Arbeitsblätter verstecken oder schützen sensible Daten nicht und u
 
  Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse.
 
- Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse bietet die[**Beschützen**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) Methode, die zum Anwenden des Schutzes auf das Arbeitsblatt verwendet wird.[**Beschützen**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) Die Methode akzeptiert die folgenden Parameter:
+ Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet die[**Beschützen**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) Methode, die zum Anwenden des Schutzes auf das Arbeitsblatt verwendet wird.[**Beschützen**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) Die Methode akzeptiert die folgenden Parameter:
 
 -  Schutztyp, der auf das Arbeitsblatt anzuwendende Schutztyp. Die Schutzart wird mit Hilfe der angewendet[**Schutztyp**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)Aufzählung.
 - Neues Passwort, das neue Passwort, das zum Schutz des Arbeitsblatts verwendet wird.
@@ -36,7 +36,7 @@ Geschützte Arbeitsblätter verstecken oder schützen sensible Daten nicht und u
 
 |**Schutztypen**|**Beschreibung**|
 |:- |:- |
-|Alle|Der Benutzer kann auf diesem Arbeitsblatt nichts ändern|
+|Alle|Der Benutzer kann nichts auf diesem Arbeitsblatt ändern|
 |Inhalt|Der Benutzer kann keine Daten in dieses Arbeitsblatt eingeben|
 |Objekte|Der Benutzer kann Zeichnungsobjekte nicht ändern|
 |Szenarien|Der Benutzer kann gespeicherte Szenarien nicht ändern|

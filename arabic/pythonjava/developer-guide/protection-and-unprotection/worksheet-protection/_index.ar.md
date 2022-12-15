@@ -3,7 +3,7 @@ title: حماية وإلغاء حماية ورقة العمل
 type: docs
 weight: 40
 url: /ar/python-java/protect-and-unprotect-worksheet/
-description: حماية وإلغاء حماية ورقة عمل ملفات Excel باستخدام Aspose.Cells لـ Python عبر Java.
+description: قم بحماية ورقة عمل ملفات Excel وإلغاء حمايتها باستخدام Aspose.Cells for Python via Java.
 ---
 {{% alert color="primary" %}}
 لمنع المستخدمين الآخرين من تغيير البيانات في ورقة عمل أو نقلها أو حذفها عن طريق الخطأ أو عن عمد ، يمكنك قفل الخلايا في ورقة عمل Excel ثم حماية الورقة بكلمة مرور.
@@ -20,12 +20,12 @@ description: حماية وإلغاء حماية ورقة عمل ملفات Excel
 1.  يختار**نعم** ، وأعد إدخال كلمة المرور لتأكيدها ، ثم حدد**نعم** تكرارا.
 
 
-## **قم بحماية ورقة العمل باستخدام Aspose.Cell لـ Python**
+## **حماية ورقة العمل باستخدام Aspose.Cell for Python**
 تحتاج فقط إلى الأسطر البسيطة التالية من التعليمات البرمجية لتنفيذ حماية هيكل مصنف ملفات Excel.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Worksheet.py" >}}
 
-## **إلغاء حماية ورقة العمل باستخدام Aspose.Cell لـ Python**
+## **قم بإلغاء حماية ورقة العمل باستخدام Aspose.Cell for Python**
 يعد إلغاء حماية ورقة العمل أمرًا سهلاً باستخدام Aspose.Cells API. إذا كانت ورقة العمل محمية بكلمة مرور ، يلزم إدخال كلمة مرور صحيحة.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Worksheet.py" >}}

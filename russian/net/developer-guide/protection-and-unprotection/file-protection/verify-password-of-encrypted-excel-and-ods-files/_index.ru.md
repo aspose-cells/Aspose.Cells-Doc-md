@@ -12,7 +12,7 @@ description: Проверьте пароль зашифрованных файл
 ## **Проверьте пароль зашифрованного файла**
 
  Чтобы проверить пароль зашифрованного файла, Aspose.Cells for .NET предоставляет[**Подтвердите пароль**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) метод. Эти методы принимают два параметра: файловый поток и пароль, который необходимо проверить.
-Следующий фрагмент кода демонстрирует использование[**Подтвердите пароль**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) метод, чтобы проверить, является ли предоставленный пароль действительным или нет.
+ Следующий фрагмент кода демонстрирует использование[**Подтвердите пароль**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) метод, чтобы проверить, является ли предоставленный пароль действительным или нет.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 

@@ -352,7 +352,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - RSQ
 #### **S**
 - RICERCA
-- CERCA B
+- CERCAB
 - SECONDO
 - SEQUENZA
 - SERIESUM

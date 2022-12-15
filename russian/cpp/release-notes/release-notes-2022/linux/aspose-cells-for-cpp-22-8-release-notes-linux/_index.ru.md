@@ -6,11 +6,11 @@ url: /ru/cpp/aspose-cells-for-cpp-22-8-release-notes-linux/
 ---
 {{% alert color="primary" %}}
 
-На этой странице содержатся примечания к выпуску Aspose.Cells для C++ 22.8 для Linux.
+На этой странице содержатся примечания к выпуску Aspose.Cells for C++ 22.8 для Linux.
 
 {{% /alert %}}
 
-Мы рады объявить о выпуске Aspose.Cells для C++ 22.8 для Linux.
+Мы рады сообщить о выпуске Aspose.Cells for C++ 22.8 для Linux.
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSCPP-859| Исправить проблему со ссылкой API|Ошибка|

@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /sv/sharepoint/search-in-a-document/
 ---
-Aspose.Cells för SharePoint stöder sökningar i dokument lagrade på SharePoint-webbplatser. Aspose.Cells för Share Point stöder följande inmatningsformat för att förhandsgranska dokument:
+Aspose.Cells for SharePoint stöder sökningar i dokument lagrade på SharePoint-webbplatser. Aspose.Cells för Share Point stöder följande inmatningsformat för att förhandsgranska dokument:
 
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML

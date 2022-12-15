@@ -6,13 +6,13 @@ url: /zh/net/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![待办事项：图片_替代_文本](product-overview_1.png)
+![待办事项：图像_替代_文本](product-overview_1.png)
 
 **欢迎使用 Aspose.Cells for .NET 文档**
 
 Aspose.Cells for .NET 提供最灵活的组件组，使 .NET 应用程序能够创建和管理 Excel 电子表格，而无需在服务器上安装 Microsoft Excel。 Aspose.Cells for .NET 的任何功能也不依赖于 Office Interop 库，因此它是完全独立且强大的 API 集。
 
-Aspose.Cells 是处理所有 Excel 电子表格格式的主要组件之一。与其他供应商的类似产品不同，Aspose.Cells 不仅支持电子表格生成和其他基本文件格式设置功能，而且还支持许多高级功能。这些高级功能使开发人员可以更方便地处理电子表格内容、单元格格式、文件保护等。 Aspose.Cells 还允许从不同的数据源将数据导入工作表，添加常见和复杂的数学、日期时间、财务、文本公式，支持图表、图片、评论、绘图对象和控件的操作。
+Aspose.Cells 是处理所有 Excel 电子表格格式的领先组件之一。与其他供应商的类似产品不同，Aspose.Cells 不仅支持电子表格生成和其他基本文件格式设置功能，而且还支持许多高级功能。这些高级功能使开发人员可以更方便地处理电子表格内容、单元格格式、文件保护等。 Aspose.Cells 还允许从不同的数据源将数据导入工作表，添加常见和复杂的数学、日期时间、财务、文本公式，支持图表、图片、评论、绘图对象和控件的操作。
 
 Aspose.Cells for .NET 为客户提供完整的电网解决方案；它有两个基于 GUI 的 .NET 控件，如下所示：
 

@@ -6,7 +6,7 @@ url: /ar/cpp/aspose-cells-for-cpp-21-11-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ C++ 21.11 لـ Windows.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for C++ 21.11 لـ Windows.
 
 {{% /alert %}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 21.12 Note di rilascio
+title: Aspose.Cells for Android via Java 21.12 Note di rilascio
 type: docs
 weight: 1
 url: /it/java/aspose-cells-for-android-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 21.12.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 21.12.
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |:- |:- |:- |
 |CELLSJAVA-43994|Supporto per interrompere l'esecuzione di WorkbookDesigner.process in SmarkMarker|
 |CELLSJAVA-44039|Modifica l'attributo PDF Producer dal PDF generato|
-|CELLSJAVA-43768|Java Problema di spazio nell'heap durante la conversione del file XLSX in PDF|
+|CELLSJAVA-43768|Problema di spazio heap Java viene osservato durante la conversione di file XLSX in PDF|
 |CELLSJAVA-43875|Eccezione "Invalid FontUnderlineType string val" durante il caricamento del file XLSX|
 |CELLSJAVA-43876|Eccezione "java.lang.ArrayIndexOutOfBoundsException" durante il caricamento di un file XLSX|
 |CELLSJAVA-43844|Un miglioramento necessario per il formato dei numeri contabili|
@@ -36,7 +36,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43892|Mancano i bordi di Excel convertito in HTML|
 |CELLSJAVA-43935|Problema relativo alla dimensione del carattere del testo durante il salvataggio e il caricamento del file XLS|
 |CELLSJAVA-43952|Problema di scadenza della licenza temporanea|
-|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java spazio heap"|
+|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java heap space"|
 |CELLSJAVA-43902|Alcuni bordi di Excel convertiti in HTML sono ridondanti|
 |CELLSJAVA-43933|Quando si esporta in HTML con un solo dato, il formato condizionale è diverso da Excel|
 |CELLSJAVA-43878| Posizione errata delle etichette dei dati del grafico a barre del cluster di Excel|
@@ -62,9 +62,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-44071|com.aspose.cells.CellsException: hai inserito troppi pochi parametri per la funzione IF quando chiami Workbook.calculateFormula()|
 |CELLSJAVA-44104|NullPointerException durante l'importazione di SpreadSheetML|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo di overload Name.GetRefersTo().**
 
@@ -88,7 +88,7 @@ Restituisce un intervallo delimitato da qualsiasi combinazione di righe e colonn
 
 ### **Aggiunge la classe AxisBins.**
 
- Rappresenta i contenitori degli assi per i grafici a istogramma.
+ Rappresenta i contenitori degli assi per i grafici a istogrammi.
 
 ### **Aggiunge il metodo SheetRender.GetPageSizeInch(int pageIndex)**
 
@@ -132,7 +132,7 @@ Abbiamo modificato il modello di area per la convalida e la formattazione condiz
 
 ### **Comportamento modificato per la modifica delle aree di convalida/formattazione condizionale.**
 
-Per Validation e ConditionalFormatting, nelle vecchie versioni le loro aree possono essere supportate dall'oggetto CellArea ottenuto o impostato su di esse. Quindi, se l'utente modifica il valore del campo dell'oggetto CellArea, anche le aree possono essere modificate e viceversa. In realtà questo è un risultato inaspettato dal punto di vista del design API. Da questa versione, questo effetto collaterale è stato rimosso e l'utente non può più modificare le aree modificando l'oggetto CellArea.
+Per Validation e ConditionalFormatting, nelle vecchie versioni le loro aree possono essere supportate dall'oggetto CellArea ottenuto o impostato su di esse. Quindi, se l'utente modifica il valore del campo dell'oggetto CellArea, anche le aree possono essere modificate e viceversa. In realtà questo è un risultato inaspettato dal punto di vista del design dell'API. Da questa versione, questo effetto collaterale è stato rimosso e l'utente non può più modificare le aree modificando l'oggetto CellArea.
 
 ### **Comportamento modificato per l'aggiunta della condizione di formato in FormatConditionCollection.**
 

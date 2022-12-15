@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.4.0
+title: Offentlig API Ändringar i Aspose.Cells 8.4.0
 type: docs
 weight: 130
 url: /sv/net/public-api-changes-in-aspose-cells-8-4-0/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.3
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Mekanism för att ändra VBA/makrokoden i kalkylblad**
- För att ge funktionen av[VBA/makrokodshantering](/cells/sv/net/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells för .NET 8.4.0 har exponerat en serie nya klasser och egenskaper i namnområdet Aspose.Cells.Vba. Några av de viktiga detaljerna i dessa nya klasser är följande.
+ För att ge funktionen av[VBA/makrokodshantering](/cells/sv/net/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for .NET 8.4.0 har exponerat en serie nya klasser och egenskaper i namnområdet Aspose.Cells.Vba. Några av de viktiga detaljerna i dessa nya klasser är följande.
 
 - VbaProject-klassen kan användas för att hämta VBA-projektet från ett givet kalkylblad.
 - Klassen VbaModuleCollection representerar samlingen av VBA-moduler som är en del av ett givet VbaProject.
@@ -57,7 +57,7 @@ workbook.Save("output.xlsm");
 
 
 ### **Möjlighet att ta bort pivottabell**
-Aspose.Cells för .NET 8.4.0 har avslöjat två metoder för PivotTableCollection för att tillhandahålla funktionen för borttagning av pivottabell från ett givet kalkylblad. Detaljerna för ovannämnda metoder är som följer.
+Aspose.Cells for .NET 8.4.0 har visat två metoder för PivotTableCollection för att tillhandahålla funktionen för borttagning av pivottabell från ett givet kalkylblad. Detaljerna för ovannämnda metoder är som följer.
 
 - Metoden PivotTableCollection.Remove accepterar ett objekt från PivotTable och tar bort det från samlingen.
 - PivotTableCollection.RemoveAt-metoden accepterar ett nollindexbaserat heltalsvärde och tar bort den specifika pivottabellen från samlingen.
@@ -96,7 +96,7 @@ workbook.Save("output.xlsx");
 
 
 ### **Stöd för olika pivottabellslayouter**
-Aspose.Cells för .NET 8.4.0 ger stöd för olika fördefinierade layouter för pivottabeller. För att tillhandahålla den här funktionen har API:erna Aspose.Cells exponerat tre metoder för PivotTable-klassen som beskrivs nedan.
+Aspose.Cells for .NET 8.4.0 ger stöd för olika fördefinierade layouter för pivottabeller. För att tillhandahålla den här funktionen har API:erna Aspose.Cells exponerat tre metoder för PivotTable-klassen som beskrivs nedan.
 
 - PivotTable.ShowInCompactForm-metoden återger pivottabellen i kompakt layout.
 - Metoden PivotTable.ShowInOutlineForm återger pivottabellen i Outline-layouten.
@@ -172,9 +172,9 @@ workbook.Save("TabularForm.xlsx");
 
 
 ### **Klass TxtLoadStyleStrategy & Property TxtLoadOptions.LoadStyleStrategy tillagd**
-Aspose.Cells för .NET 8.4.0 har exponerat klassen TxtLoadStyleStrategy och TxtLoadOptions.LoadStyleStrategy-egenskapen för att specificera strategin för att formatera de analyserade värdena samtidigt som strängvärdet konverteras till nummer eller datum och tid.
+Aspose.Cells for .NET 8.4.0 har exponerat klassen TxtLoadStyleStrategy och TxtLoadOptions.LoadStyleStrategy-egenskapen för att specificera strategin för att formatera de analyserade värdena samtidigt som strängvärdet konverteras till nummer eller datum och tid.
 ### **Metod DataBar.ToImage tillagd**
-Med lanseringen av v8.4.0 har API:et Aspose.Cells tillhandahållit DataBar.ToImage-metoden för att spara de villkorligt formaterade DataBars i bildformat. Metoden {DataBar.ToImage}} accepterar två parametrar som beskrivs nedan.
+Med lanseringen av v8.4.0 har Aspose.Cells API tillhandahållit DataBar.ToImage-metoden för att spara de villkorligt formaterade DataBars i bildformat. Metoden {DataBar.ToImage}} accepterar två parametrar som beskrivs nedan.
 
 - Den första parametern är av typen Aspose.Cells.Cell på vilken villkorlig formatering har tillämpats.
 - Den andra parametern är av typen Aspose.Cells.Rendering.ImageOrPrintOptions för att ställa in olika parametrar för den resulterande bilden.
@@ -223,11 +223,11 @@ File.WriteAllBytes("databar.png", imgBytes);
 
 
 ### **Egenskap Border.ThemeColor tillagd**
-Aspose.Cells API:er gör det möjligt att extrahera temarelaterade formateringsdata från kalkylarken. I och med lanseringen av Aspose.Cells för .NET 8.4.0 har API:t exponerat egenskapen Border.ThemeColor som kan användas för att hämta temafärgsattributen för Cell-gränser.
+Aspose.Cells API:er gör det möjligt att extrahera temarelaterade formateringsdata från kalkylarken. Med lanseringen av Aspose.Cells for .NET 8.4.0 har API exponerat egenskapen Border.ThemeColor som kan användas för att hämta temafärgsattributen för Cell kanter.
 ### **Egenskapen DrawObject.ImageBytes tillagd**
-Aspose.Cells för .NET 8.4.0 har exponerat egenskapen DrawObject.ImageBytes för att hämta bilddata från Chart eller Shape.
+Aspose.Cells for .NET 8.4.0 har exponerat egenskapen DrawObject.ImageBytes för att hämta bilddata från Chart eller Shape.
 ### **Egenskapen HtmlSaveOptions.ExportBogusRowData tillagd**
-Aspose.Cells för .NET 8.4.0 har tillhandahållit egenskapen {HtmlSaveOptions.ExportBogusRowData}}. Egenskapen boolesk typ avgör om API kommer att injicera falska nedre raddata när kalkylark exporteras till HTML-format.
+Aspose.Cells for .NET 8.4.0 har tillhandahållit egenskapen {HtmlSaveOptions.ExportBogusRowData}}. Egenskapen boolesk typ avgör om API kommer att injicera falska nedre raddata när kalkylark exporteras till HTML-format.
 
 {{% alert color="primary" %}} 
 

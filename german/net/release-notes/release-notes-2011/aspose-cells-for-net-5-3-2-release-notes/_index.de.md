@@ -76,7 +76,7 @@ url: /de/net/aspose-cells-for-net-5-3-2-release-notes/
 |25421 | XLSX| Diagram: Art der Achsänderungen|
 |25430 | XLSX| RadioButtons funktionieren nicht wie erwartet|
 |25508 | XLSX| Excel 2007-Diagramm mit VBA-Code-Problem|
-|25510 | XLSX| Eingebettete Objekte bleiben nicht am selben Ort|
+|25510 | XLSX| Eingebettete Objekte bleiben nicht am gleichen Ort|
 |25555 | XLSX| Diagramme werden nicht korrekt kopiert|
 |25677 | XLSX|Aspose.Cells fügt Bitmaps beim Speichern in Excel 2007-Formaten einen Rand hinzu|
 |25906 | XLSX| Ungültige Rotation der Teilstrichbeschriftungen|

@@ -7,8 +7,8 @@ url: /fr/sharepoint/product-overview/
 {{% alert color="primary" %}} 
 
 ![tâche : image_autre_texte](product-overview_1)
-### **Bienvenue sur le Aspose.Cells pour la documentation SharePoint !**
-Aspose.Cells pour SharePoint est une solution flexible prenant en charge la conversion de feuilles de calcul qui permet de convertir des documents MS Excel dans les applications Microsoft SharePoint.
+### **Bienvenue dans la Documentation Aspose.Cells for SharePoint !**
+Aspose.Cells for SharePoint est une solution flexible prenant en charge la conversion de feuilles de calcul qui permet de convertir des documents MS Excel dans les applications Microsoft SharePoint.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Vous pouvez convertir plusieurs formats de documents, tels que :
 - SVG - Graphiques vectoriels évolutifs
 - DIF - Format d'échange de dessins
 
-Aspose.Cells pour SharePoint est conçu pour être utilisé avec les produits suivants :
+Aspose.Cells for SharePoint est conçu pour être utilisé avec les produits suivants :
 
 - Windows SharePoint Services 3.0 (WSS)
 - Microsoft Norme Office SharePoint Server 2007 (MOSS)
@@ -43,9 +43,9 @@ Aspose.Cells pour SharePoint est conçu pour être utilisé avec les produits su
 
 Il n'y a pas d'exigences système supplémentaires au-delà des produits ci-dessus.
 
- Cette documentation décrit les[Caractéristiques](/cells/fr/sharepoint/features/), [installation](/cells/fr/sharepoint/install-aspose-cells-for-sharepoint/), [évaluation](/cells/fr/sharepoint/evaluate-aspose-cells/), [licence](/cells/fr/sharepoint/license-aspose-cells-for-sharepoint/), cas d'utilisation courants et paramètres de Aspose.Cells pour SharePoint.
+ Cette documentation décrit les[Caractéristiques](/cells/fr/sharepoint/features/), [installation](/cells/fr/sharepoint/install-aspose-cells-for-sharepoint/), [évaluation](/cells/fr/sharepoint/evaluate-aspose-cells/), [licence](/cells/fr/sharepoint/license-aspose-cells-for-sharepoint/), cas d'utilisation courants et paramètres de Aspose.Cells for SharePoint.
 
-**Utilisez Aspose.Cells pour SharePoint à partir de la bibliothèque de documents de SharePoint pour convertir des documents**
+**Utilisez Aspose.Cells for SharePoint de la bibliothèque de documents de SharePoint pour convertir des documents**
 
 **![todo:image_alt_text](product-overview_2.png)**
 

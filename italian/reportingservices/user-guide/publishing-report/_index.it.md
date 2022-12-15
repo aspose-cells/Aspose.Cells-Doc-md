@@ -27,7 +27,7 @@ Per pubblicare un report su Report Server, attenersi alla seguente procedura:
 
 ![cose da fare:immagine_alt_testo](publishing-report_3.png)
 
-1.  Seleziona una cartella di destinazione e inserisci il nome del report. Clicca il**Configurazione dell'origine dati** pulsante per impostare le origini dati.
+1.  Seleziona una cartella di destinazione e inserisci il nome del rapporto. Clicca il**Configurazione dell'origine dati** pulsante per impostare le origini dati.
 
 ![cose da fare:immagine_alt_testo](publishing-report_4.png)
 

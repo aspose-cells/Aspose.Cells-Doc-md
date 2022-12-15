@@ -9,8 +9,8 @@ url: /es/python-java/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - [TextCrossType.DEFAULT](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#DEFAULT): Mostrar como MS Excel, depende de la siguiente celda. Si la siguiente celda es nula, la cadena se cruzará o se truncará.
 - [Tipo de cruz de texto. CROSS_KEEP](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_KEEP): Muestra la cadena similar a MS Excel exportando PDF/Imagen
-- [TextoCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE): muestra todo el texto cruzando otras celdas y anula el texto de las celdas cruzadas
-- [TextCrossType.ESTRICTO_EN_CÉLULA](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL)solo muestra la cadena dentro del ancho de la celda.
+- [TextoCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE)muestra todo el texto cruzando otras celdas y anula el texto de las celdas cruzadas
+- [TextCrossType.ESTRICTO_EN_CÉLULA](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL): solo muestra la cadena dentro del ancho de la celda.
 
 El siguiente código de muestra carga el archivo de muestra de Excel y lo guarda en formato PDF/Imagen especificando diferentes TextCrossType. El archivo de muestra de Excel y los archivos de salida se pueden descargar desde los siguientes enlaces:
 

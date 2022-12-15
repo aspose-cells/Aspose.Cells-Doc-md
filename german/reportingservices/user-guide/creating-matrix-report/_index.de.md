@@ -6,7 +6,7 @@ url: /de/reportingservices/creating-matrix-report/
 ---
 {{% alert color="primary" %}} 
 
- Mit Aspose.Cells für Reporting Services können Sie eine Matrix in Microsoft Excel entwerfen.
+ Mit Aspose.Cells for Reporting Services können Sie eine Matrix in Microsoft Excel entwerfen.
 
 {{% /alert %}} 
 ### **Matrix-Vorlage**

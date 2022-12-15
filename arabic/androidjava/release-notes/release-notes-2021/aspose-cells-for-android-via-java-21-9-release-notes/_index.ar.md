@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 21.9 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 21.9 ملاحظات الإصدار
 type: docs
 weight: 4
 url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 21.9.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 21.9.
 
 {{% /alert %}} 
 
@@ -22,7 +22,7 @@ url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 |CELLSJAVA-41887|لا تظهر بيانات النسبة المئوية من Pivot Table بشكل صحيح في HTML|
 |CELLSJAVA-43482|لم يتم تنسيق النصوص المرتفعة والمنخفضة بشكل صحيح عند تحويل مستند HTML إلى مصنف|
 |CELLSJAVA-43501|تمت قراءة قيمة غير صحيحة باستخدام دالة getStringValue ()|
-|CELLSJAVA-43515|مشكلة صيغة MDURATION|
+|CELLSJAVA-43515|قضية صيغة MDURATION|
 |CELLSJAVA-43528|لا يمكن استخراج تاريخ ووقت الإنشاء وتاريخ التحديث|
 |CELLSJAVA-43529|تعذر استخراج خصائص BuiltInDocumentProperties|
 |CELLSJAVA-43530|نتائج خصائص التاريخ والوقت مختلفة|
@@ -90,7 +90,7 @@ url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 
 ### **إضافة خاصية PasteOptions.OperationType وتعداد PasteOperationType.**
 

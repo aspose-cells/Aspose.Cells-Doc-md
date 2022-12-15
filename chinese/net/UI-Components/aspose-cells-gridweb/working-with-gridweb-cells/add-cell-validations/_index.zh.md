@@ -30,7 +30,7 @@ Aspose.Cells.GridWeb 的高级功能之一是为单元格添加输入验证规�
 
 **输出：从列表中选择一个值** 
 
-![待办事项：图片_替代_文本](add-cell-validations_1.png)
+![待办事项：图像_替代_文本](add-cell-validations_1.png)
 
 
 
@@ -48,7 +48,7 @@ Aspose.Cells.GridWeb 的高级功能之一是为单元格添加输入验证规�
 
 **从下拉列表中选择一个值** 
 
-![待办事项：图片_替代_文本](add-cell-validations_2.png)
+![待办事项：图像_替代_文本](add-cell-validations_2.png)
 
 
 
@@ -66,7 +66,7 @@ Aspose.Cells.GridWeb 的高级功能之一是为单元格添加输入验证规�
 
 **根据正则表达式向 C1 添加日期值** 
 
-![待办事项：图片_替代_文本](add-cell-validations_3.png)
+![待办事项：图像_替代_文本](add-cell-validations_3.png)
 
 
 
@@ -78,4 +78,4 @@ Aspose.Cells.GridWeb 的高级功能之一是为单元格添加输入验证规�
 
 **GridWeb 突出显示的错误输入值** 
 
-![待办事项：图片_替代_文本](add-cell-validations_4.png)
+![待办事项：图像_替代_文本](add-cell-validations_4.png)

@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-for-net-v4-4-3-hotfix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET V4.4.3!
+ Vi har släppt Aspose.Cells for .NET V4.4.3!
 
  Vad är nytt?
 

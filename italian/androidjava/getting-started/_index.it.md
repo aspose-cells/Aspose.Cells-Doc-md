@@ -4,28 +4,28 @@ type: docs
 weight: 10
 url: /it/java/aspose-cells-for-android-via-java-features/
 ---
-## **Aspose.Cells Android tramite Java Panoramica delle funzionalità**
-Questa sezione fornisce un confronto della disponibilità delle funzionalità tra Aspose.Cells for Java e Aspose.Cells per Android tramite Java.
+## **Aspose.Cells Android via Java Panoramica delle funzionalità**
+Questa sezione fornisce un confronto della disponibilità delle funzioni tra Aspose.Cells for Java e Aspose.Cells for Android via Java.
 ### **Formati di file e conversioni**
 Molti clienti in tutto il mondo si affidano alle complete funzionalità di importazione ed esportazione di documenti fornite da Aspose.Cells.
 
-|**Caratteristica**|**Descrizione**|**Aspose.Cells for Java**|**Aspose.Cells per Android tramite Java**|
+|**Caratteristica**|**Descrizione**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |:- |
 |Conversioni di alta qualità|Converti in modo rapido e affidabile tra diversi formati di documenti popolari.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Cartella di lavoro Excel (XLS/XLSB)|L'implementazione del formato XLS/XLSB più veloce e completa che puoi trovare.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Cartella di lavoro Microsoft Excel (XLS/XLSB)|L'implementazione del formato XLS/XLSB più veloce e completa che puoi trovare.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells supporta OOXML, Flat OPC e anche Excel 2003 XML. Inoltre,<br>il componente supporta tutti i principali formati di file di Excel 2007 e versioni successive, ad esempio XLSX, XLTX, XLSM, XLTM ecc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Valore separato da virgola (CSV)|Supporto completo del formato CSV per interagire con una varietà di applicazioni.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|Salva come HTML è disponibile.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Documento aperto (ODS)|Aspose.Cells può caricare e salvare documenti nel formato OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Formato documento portatile Adobe (PDF)|Converti qualsiasi foglio di calcolo in PDF con alta fedeltà.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Delimitato da tabulazioni|Carica e salva i documenti nel formato di file delimitato da tabulazioni.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Testo semplice (TXT)|Estrai facilmente il testo salvandolo in formato testo normale.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Testo normale (TXT)|Estrai facilmente il testo salvandolo in formato testo normale.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Rendering e stampa**
 Aspose.Cells ora fornisce un rendering ad alta fedeltà delle pagine dei fogli di calcolo.
 
-|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells per Android tramite Java**|
+|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
-|Layout del documento in pagine con alta fedeltà a Microsoft Excel® (esattamente come farebbe Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Impagina il documento in pagine con un'elevata fedeltà a Microsoft Excel® (esattamente come farebbe Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Renderizza le pagine del foglio di lavoro in immagini raster (PNG, JPEG, ecc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Renderizza le pagine del foglio di lavoro in immagini raster (TIFF multipagina, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Renderizza le pagine del foglio di calcolo in immagini vettoriali (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -35,16 +35,16 @@ Aspose.Cells ora fornisce un rendering ad alta fedeltà delle pagine dei fogli d
 ### **Caratteristiche del contenuto del foglio di calcolo**
 Aspose.Cells fornisce un ricco modello di oggetti costituito da oltre 100 classi/interfacce pubbliche, che consentono di generare, combinare, modificare, analizzare o esaminare in altro modo i fogli di calcolo caricati in modo programmatico. Alcune caratteristiche chiave sono riportate nella tabella sottostante.
 
-|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells per Android tramite Java**|
+|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Importa/esporta dati da Array, ArrayList, ResultSet ecc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Aggiungi una copia del foglio di lavoro esistente (tutti i contenuti incluse immagini, grafici, altri oggetti ecc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Copia o sposta i fogli di lavoro all'interno o tra le cartelle di lavoro|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Inserisci immagini|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea grafici|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Imposta lo sfondo sfumato per i grafici utilizzando API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Imposta lo sfondo sfumato per i grafici utilizzando l'API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Aggiungi commenti alle celle|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 2007 e versioni successive temi e colori|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Temi e colori di Microsoft Excel 2007 e versioni successive|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea filtri automatici|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implementare le convalide dei dati|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implementare l'ordinamento dei dati|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -61,7 +61,7 @@ Aspose.Cells fornisce un ricco modello di oggetti costituito da oltre 100 classi
 |Specificare le impostazioni delle proprietà del documento|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Proteggere/rimuovere la protezione dei fogli di lavoro|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Specificare le opzioni di protezione avanzate introdotte in Excel XP e versioni successive|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Crea oggetto elenco/Microsoft Tabelle Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Crea oggetti elenco/tabelle di Microsoft Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea subtotali|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Inserisci i controlli del modulo e altre forme/oggetti di disegno|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea tabelle pivot e grafici pivot|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -74,7 +74,7 @@ Aspose.Cells fornisce un ricco modello di oggetti costituito da oltre 100 classi
 ### **Funzionalità di formattazione del foglio di calcolo**
 Aspose.Cells fornisce un accesso programmatico dettagliato alle proprietà di formattazione di tutti gli elementi del foglio di calcolo.
 
-|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells per Android tramite Java**|
+|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Applica la formattazione di tutti i caratteri nelle celle inclusi caratteri, colori, effetti, bordi e ombreggiatura.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Applicare tutte le impostazioni del formato numerico (supportate in Microsoft Excel) per le celle.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -88,7 +88,7 @@ Aspose.Cells fornisce un accesso programmatico dettagliato alle proprietà di fo
 ### **Funzionalità di PageSetup**
 È possibile utilizzare Aspose.Cells per implementare le opzioni di impostazione della pagina per i fogli di lavoro.
 
-|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells per Android tramite Java**|
+|**Caratteristica**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Regola l'orientamento della pagina, il ridimensionamento, il formato della carta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Specifica i margini e la centratura della pagina.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

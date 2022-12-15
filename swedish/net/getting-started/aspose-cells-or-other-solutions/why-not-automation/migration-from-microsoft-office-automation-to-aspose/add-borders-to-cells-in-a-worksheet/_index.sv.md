@@ -6,7 +6,7 @@ url: /sv/net/add-borders-to-cells-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells för .NET låter dig utföra nästan alla uppgifter via din applikation som en användare kan utföra i Microsoft Excel. Aspose.Cells är prestanda och robust och har den extra fördelen att arbeta oberoende av Microsoft Automation. Den här artikeln visar hur du lägger till gränser till celler i ett kalkylblad med Aspose.Cells för .NET jämfört med VSTO.
+Aspose.Cells for .NET låter dig utföra nästan alla uppgifter via din applikation som en användare kan utföra i Microsoft Excel. Aspose.Cells är prestanda och robust och har den extra fördelen att arbeta oberoende av Microsoft Automation. Den här artikeln visar hur du lägger till kanter till celler i ett kalkylblad med Aspose.Cells for .NET jämfört med VSTO.
 
 {{% /alert %}}
 
@@ -23,12 +23,12 @@ För att lägga till kanter till celler i ett kalkylblad, gör följande:
 1. Lägg till kanter:
  1. Definiera ett intervall.
  1. Använd en kantstil på intervallet.
- Upprepa för varje område och varje kantstil du vill ställa in. Detta exempel gäller hårlinjer, tunna, medelstora och tjocka linjer.
+Upprepa för varje område och varje kantstil du vill ställa in. Detta exempel gäller hårlinjer, tunna, medelstora och tjocka linjer.
 1. Avsluta:
  1. Anpassa kolumnen som cellerna är i automatiskt för att passa texten snyggt.
  1. Spara dokumentet.
 
-Dessa steg visas i koden nedan. De första kodexemplen visar hur man implementerar dem med hjälp av[VSTO](/cells/sv/net/add-borders-to-cells-in-a-worksheet/) med antingen C# eller Visual Basic. Efter VSTO-exemplen finns exempel som visar hur man utför samma steg med hjälp av[Aspose.Cells för .NET](/cells/sv/net/add-borders-to-cells-in-a-worksheet/), återigen med antingen C# eller Visual Basic. Aspose.Cells-kodexemplen är mycket kortare eftersom Aspose.Cells är optimerad för effektiv kodning.
+ Dessa steg visas i koden nedan. De första kodexemplen visar hur man implementerar dem med hjälp av[VSTO](/cells/sv/net/add-borders-to-cells-in-a-worksheet/) med antingen C# eller Visual Basic. Efter VSTO-exemplen finns exempel som visar hur man utför samma steg med hjälp av[Aspose.Cells for .NET](/cells/sv/net/add-borders-to-cells-in-a-worksheet/), återigen med antingen C# eller Visual Basic. Aspose.Cells-kodexemplen är mycket kortare eftersom Aspose.Cells är optimerad för effektiv kodning.
 
 Koden genererar en Excel-fil med ett antal celler på det första arket, var och en med olika ramar:
 
@@ -186,7 +186,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Lägger till gränser med Aspose.Cells för .NET**
+### **Lägger till gränser med Aspose.Cells for .NET**
 
 **C#**
 

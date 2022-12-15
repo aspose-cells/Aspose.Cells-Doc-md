@@ -6,7 +6,7 @@ url: /sv/java/merging-and-unmerging-cells/
 ---
 {{% alert color="primary" %}}
 
-Du vill inte alltid ha samma antal celler i varje rad eller kolumn. Du kanske till exempel vill sätta en titel i en cell som sträcker sig över flera kolumner. Eller, om du skapar en faktura, kanske du vill ha färre kolumner för summan. För att göra en cell från två eller flera celler, slå samman dem. Microsoft Excel låter användare välja celler och slå samman dem för att strukturera kalkylarket som de vill.
+Du vill inte alltid ha samma antal celler i varje rad eller kolumn. Du kanske till exempel vill sätta en titel i en cell som sträcker sig över flera kolumner. Eller, om du skapar en faktura, kanske du vill ha färre kolumner för summan. För att göra en cell från två eller flera celler, slå samman dem. Microsoft Excel låter användare markera celler och slå samman dem för att strukturera kalkylarket som de vill.
 
 **Resultatet av att slå samman och sedan dela upp ett cellområde formaterat som cellerna till vänster i Microsoft Excel** 
 

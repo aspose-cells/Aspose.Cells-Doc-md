@@ -6,7 +6,7 @@ url: /tr/net/remove-duplicate-rows-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Yinelenen satırları kaldırma, Microsoft Excel'in birçok yararlı özelliğinden biridir. Kullanıcıların bir Çalışma Sayfasındaki yinelenen satırları kaldırmasına olanak tanır, yinelenen bilgiler için hangi sütunların kontrol edileceğini seçebilirsiniz.
+Yinelenen satırları kaldırma, Microsoft Excel'in birçok kullanışlı özelliğinden biridir. Kullanıcıların bir Çalışma Sayfasındaki yinelenen satırları kaldırmasına olanak tanır, yinelenen bilgiler için hangi sütunların kontrol edileceğini seçebilirsiniz.
 
 Aspose.Cells, bu amaç için Cells.RemoveDuplicates() yöntemini sağlar. Sütunları almak için startRow, startColumn, endRow, endColumn'u da ayarlayabilirsiniz.
 

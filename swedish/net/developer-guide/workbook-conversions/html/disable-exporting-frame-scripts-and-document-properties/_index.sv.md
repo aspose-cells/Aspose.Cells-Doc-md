@@ -6,7 +6,7 @@ url: /sv/net/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells exporterar ramskript och dokumentegenskaper samtidigt som en arbetsbok konverteras till HTML. 8.6.0-versionen av Aspose.Cells för .NET introducerar ett alternativ som låter dig valfritt inaktivera export av ramskript och dokumentegenskaper. Använd egenskapen HtmlSaveOptions.ExportFrameScriptsAndProperties för att inaktivera exporten.
+Aspose.Cells exporterar ramskript och dokumentegenskaper samtidigt som en arbetsbok konverteras till HTML. 8.6.0-versionen av Aspose.Cells for .NET introducerar ett alternativ som låter dig valfritt inaktivera export av ramskript och dokumentegenskaper. Använd egenskapen HtmlSaveOptions.ExportFrameScriptsAndProperties för att inaktivera exporten.
 
 {{% /alert %}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 7.3.0 Release Notes
+title: Aspose.Cells for .NET 7.3.0 Release Notes
 type: docs
 weight: 50
 url: /sv/net/aspose-cells-for-net-7-3-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.3.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.3.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.0/)
 
 {{% /alert %}} 
 
@@ -28,7 +28,7 @@ url: /sv/net/aspose-cells-for-net-7-3-0-release-notes/
 
  Förbättringar
 
-- Problem med version som stöds av mono
+- Mono versionsproblem som stöds
 - Kan inte använda formeln som parameter för
 - Kan anpassade funktioner returnera intervall som kan användas för att SUMMA på
 - Tillämpa teman på diagram

@@ -23,7 +23,7 @@ På samma sätt, anta att C1 innehåller formeln "=(B1*22)/(M2*N32)". Jag vill h
 
 Du kan behöva spåra beroendet av en viss cell till andra celler. Om affärsregler är inbäddade i formler vill vi ta reda på beroendet och exekvera några regler baserat på det. På samma sätt om värdet på en viss cell ändras, vilka celler i kalkylbladet påverkas av den ändringen?
 
-Microsoft Excel tillåter användare att spåra prejudikat och anhöriga.
+Microsoft Excel tillåter användare att spåra prejudikat och beroende.
 
 1.  På**Visa verktygsfält** , Välj**Formelrevision**.
  Dialogrutan Formelrevision visas.
@@ -32,16 +32,16 @@ Microsoft Excel tillåter användare att spåra prejudikat och anhöriga.
 ![todo:image_alt_text](tracing-precedents-and-dependents-in-aspose-cells_1.png)
 
 1. Spåra prejudikat:
- 1. Välj cellen som innehåller formeln som du vill hitta prejudikatceller för.
+1. Välj cellen som innehåller formeln som du vill hitta prejudikatceller för.
  1. För att visa en spårningspil för varje cell som direkt tillhandahåller data till den aktiva cellen, klicka**Spåra prejudikat** på**Formelrevision** verktygsfältet.
 1. Spåra formler som refererar till en viss cell (beroende)
  1. Välj den cell som du vill identifiera de beroende cellerna för.
-1. För att visa en spårningspil för varje cell som är beroende av den aktiva cellen, klicka på Spåra beroende i verktygsfältet Formula Auditing.
+ 1. För att visa en spårningspil för varje cell som är beroende av den aktiva cellen, klicka på Spåra beroende i verktygsfältet Formula Auditing.
 ## **Spårande prejudikat och beroende Cells: Aspose.Cells**
 ### **Spåra prejudikat**
 Aspose.Cells gör det enkelt att få prejudikatceller. Den kan inte bara hämta celler som tillhandahåller data till en enkel formelprejudikat utan också hitta celler som tillhandahåller data till komplexa formelprejudikat med namngivna intervall.
 
-exemplet nedan används en excel-mall, Book1.xls. Kalkylarket har data och formler på det första kalkylbladet.
+I exemplet nedan används en excel-mall, Book1.xls. Kalkylarket har data och formler på det första kalkylbladet.
 
 **Indatakalkylarket** 
 

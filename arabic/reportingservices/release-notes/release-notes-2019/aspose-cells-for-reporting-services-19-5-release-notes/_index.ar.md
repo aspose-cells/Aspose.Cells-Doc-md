@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لخدمات التقارير 19.5 ملاحظات الإصدار
+title: Aspose.Cells for Reporting Services 19.5 ملاحظات الإصدار
 type: docs
 weight: 20
 url: /ar/reportingservices/aspose-cells-for-reporting-services-19-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ Reporting Services 19.5.
+تحتوي هذه الصفحة على ملاحظات إصدار for Reporting Services Aspose.Cells 19.5.
 
 {{% /alert %}} 
 

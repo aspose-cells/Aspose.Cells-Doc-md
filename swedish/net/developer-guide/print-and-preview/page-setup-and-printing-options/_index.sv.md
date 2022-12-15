@@ -8,7 +8,7 @@ url: /sv/net/page-setup-and-printing-options/
 
 Ibland måste utvecklare konfigurera sidinställningar och utskriftsinställningar för att styra utskriftsprocessen. Sidinställningar och utskriftsinställningar erbjuder olika alternativ och stöds fullt ut i Aspose.Cells.
 
-Den här artikeln visar hur du skapar en konsolapplikation i Visual Studio.Net och använder sidinställningar och utskriftsalternativ på ett kalkylblad med några enkla rader kod med hjälp av Aspose.Cells API.
+Den här artikeln visar hur du skapar en konsolapplikation i Visual Studio.Net och tillämpar sidinställningar och utskriftsalternativ på ett kalkylblad med några enkla rader kod med hjälp av Aspose.Cells API.
 
 {{% /alert %}}
 
@@ -24,7 +24,7 @@ Skapa först ett enkelt kalkylblad i Microsoft Excel. Använd sedan sidinställn
 |:- |
 |![todo:image_alt_text](page-setup-and-printing-options_1.png)|
 
-1. Skapa ett kalkylblad med vissa data i Microsoft Excel:
+1. Skapa ett kalkylblad med lite data i Microsoft Excel:
  1. Öppna en ny arbetsbok i Microsoft Excel.
  1. Lägg till några data.
 1. Ange alternativ för sidinställningar:
@@ -37,15 +37,15 @@ Skapa först ett enkelt kalkylblad i Microsoft Excel. Använd sedan sidinställn
 1. Ladda ner och installera Aspose.Cells:
    1. [Ladda ner](https://downloads.aspose.com/cells/net) Aspose.Cells för .Net.
  1. Installera det på din utvecklingsdator.
-Alla Aspose-komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
+ Alla Aspose-komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
 1. Skapa ett projekt:
  1. Starta Visual Studio. Netto.
  1. Skapa en ny konsolapplikation.
- Det här exemplet visar en C#-konsolapplikation, men du kan också använda VB.NET.
+ Det här exemplet visar en C# konsolapplikation, men du kan också använda VB.NET.
 1. Lägg till referenser:
  1. Det här exemplet använder Aspose.Cells så lägg till en referens till den komponenten i projektet. Till exempel:
  …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
-1. Skriv programmet som anropar API:et:
+1. Skriv applikationen som anropar API:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPageSetup-1.cs" >}}
 

@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /it/sharepoint/preview-document/
 ---
-Per visualizzare in anteprima un documento Excel Microsoft nella raccolta documenti:
+Per visualizzare l'anteprima di un documento Microsoft Excel nella raccolta documenti:
 
 1.  Selezionare**Anteprima documento con Aspose.Cells** dall'Edit Control Block (ECB) del documento.
 

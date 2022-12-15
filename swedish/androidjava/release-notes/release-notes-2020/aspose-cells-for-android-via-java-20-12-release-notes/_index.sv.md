@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 20.12 Release Notes
+title: Aspose.Cells for Android via Java 20.12 Release Notes
 type: docs
 weight: 8
 url: /sv/java/aspose-cells-for-android-via-java-20-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.12.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.12.
 
 {{% /alert %}}
 
@@ -61,11 +61,11 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.1
 |CELLSJAVA-43296|ArrayIndexOutOfBoundsException medan pivottabellen uppdateras|Undantag|
 |CELLSJAVA-43298|Aspose.Cells 20.8: Undantag vid spara till PDF.|Undantag|
 |CELLSJAVA-43348|XLSB till PDF-konvertering: CellsException: -2147483648|
-|CELLSJAVA-43343| Undantag vid export av en fil till PDF som inte har ett markerat objekt för en form|
+|CELLSJAVA-43343|Undantag vid export av en fil till PDF som inte har ett markerat objekt för en form|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Lägger till ExceptionType.Permission enum**
 
@@ -137,7 +137,7 @@ Representerar att spara som .docx-filer.
 
 ### **Lägger till ImageType.OfficeCompatibleEmf enum.**
 
-Windows Enhanced Metafile som är mer kompatibel med Office.
+Windows Förbättrad metafil som är mer kompatibel med Office.
 
 ### **Lägger till metoden Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, bool calculate).**
 

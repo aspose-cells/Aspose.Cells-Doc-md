@@ -5,9 +5,9 @@ weight: 40
 url: /sv/java/converting-worksheet-to-image-in-python/
 ---
 ## **Aspose.Cells - Konvertera arbetsblad till bild**
-För att konvertera kalkylblad till bild med Aspose.Cells för Java i Ruby, anropa omvandlarmodulen.
+För att konvertera kalkylblad till bild med Aspose.Cells for Java i Ruby, anropa omvandlarmodulen.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

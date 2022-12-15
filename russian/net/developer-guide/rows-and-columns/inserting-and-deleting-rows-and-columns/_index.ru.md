@@ -33,7 +33,7 @@ Aspose.Cells предоставляет класс[**Рабочая тетрад
 
 ### **Вставить несколько строк**
 
- Чтобы вставить несколько строк на лист, вызовите метод[**Инсерровс**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) метод[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция.[**Инсерровс**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)метод принимает два параметра:
+ Чтобы вставить несколько строк на лист, вызовите функцию[**Инсерровс**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) метод[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция.[**Инсерровс**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)метод принимает два параметра:
 
 - Индекс строки, индекс строки, из которой будут вставлены новые строки.
 - Количество строк, общее количество строк, которые необходимо вставить.

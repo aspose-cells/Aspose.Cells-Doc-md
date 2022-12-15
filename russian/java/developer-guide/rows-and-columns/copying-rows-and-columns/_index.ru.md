@@ -101,7 +101,7 @@ url: /ru/java/copying-rows-and-columns/
 
 
 ## **Вставка строк/столбцов с параметрами вставки**
- Aspose.Cells теперь предоставляет[Параметры вставки](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) при использовании функций[КопиРовс](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\) ) а также[КопиКолонкс](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)). Это позволяет установить соответствующие параметры вставки, аналогичные Excel.
+ Aspose.Cells теперь обеспечивает[Параметры вставки](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) при использовании функций[КопиРовс](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\) ) а также[КопиКолонкс](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)). Это позволяет установить соответствующие параметры вставки, аналогичные Excel.
 
 
 

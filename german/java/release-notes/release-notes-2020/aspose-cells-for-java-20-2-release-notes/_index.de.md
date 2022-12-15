@@ -42,7 +42,7 @@ url: /de/java/aspose-cells-for-java-20-2-release-notes/
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.
 ### **Fügt die FormulaParseOptions.Parse-Eigenschaft hinzu.**
- Gibt an, ob die Formel analysiert wird, während ein Formelausdruck für die Zelle festgelegt wird. Die Voreinstellung ist**Stimmt** . Wenn**FALSCH**, dann wird der Eingabeformelausdruck für die Zelle unverändert beibehalten, bis der Benutzer andere Methoden aufruft, um sie zu analysieren, oder geparste Formeldaten für andere Vorgänge wie das Berechnen von Formeln erforderlich sind.
+ Gibt an, ob die Formel analysiert wird, während ein Formelausdruck für die Zelle festgelegt wird. Die Voreinstellung ist**Stimmt** . Wenn**FALSCH**dann wird der Eingabeformelausdruck für die Zelle unverändert beibehalten, bis der Benutzer andere Methoden aufruft, um sie zu analysieren, oder geparste Formeldaten für andere Vorgänge wie das Berechnen von Formeln erforderlich sind.
 ### **Fügt die Methode Workbook.ParseFormulas(boolignoreError) hinzu.**
 Parst alle Formeln, die nicht geparst wurden, als sie geladen oder auf eine Zelle gesetzt wurden.
 ### **Fügt die PivotTable.ExternalConnectionDataSource-Eigenschaft hinzu.**

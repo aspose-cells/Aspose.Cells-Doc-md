@@ -18,7 +18,7 @@ Para establecer formatos de visualización en Microsoft Excel:
 
  En el lado izquierdo del cuadro de diálogo, hay muchas categorías de valores como**General**, **Número**, **Divisa**, **Contabilidad**, **Fecha**, **Tiempo**, **Porcentaje,**etc. Aspose.Cells admite todos estos formatos de visualización.
 
-## **Uso de formatos numéricos incorporados**
+## **Uso de formatos numéricos integrados**
 
  Aspose.Cells ofrece algunos formatos de números incorporados para configurar los formatos de visualización de los números y las fechas. Todos los formatos de números incorporados reciben valores numéricos únicos. Los desarrolladores pueden asignar cualquier valor numérico deseado al[**Número**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) metodo de la[**Estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/style) objeto para aplicar el formato de visualización. Este enfoque es rápido. Los formatos de números incorporados admitidos por Aspose.Cells se enumeran a continuación.
 

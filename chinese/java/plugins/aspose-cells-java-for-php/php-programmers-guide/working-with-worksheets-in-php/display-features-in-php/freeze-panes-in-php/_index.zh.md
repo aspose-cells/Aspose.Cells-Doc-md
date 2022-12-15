@@ -5,7 +5,7 @@ weight: 40
 url: /zh/java/freeze-panes-in-php/
 ---
 ## **Aspose.Cells - 冻结窗格**
-要冻结电子表格文档中的窗格，请使用**Aspose.Cells Java 用于 PHP** 只需调用**冻结窗格**模块。
+要冻结电子表格文档中的窗格，请使用**Aspose.Cells Java for PHP** 只需调用**冻结窗格**模块。
 
 **PHP代码**
 

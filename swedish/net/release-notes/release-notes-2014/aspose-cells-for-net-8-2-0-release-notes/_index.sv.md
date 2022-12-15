@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells för .NET 8.2.0 Release Notes
+title: Aspose.Cells for .NET 8.2.0 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-8-2-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 8.2.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.2.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 8.2.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-8.2.0/)
 
 {{% /alert %}} 
 
- Aspose.Cells för .NET har uppdaterats till version 8.2.0 och vi är glada att kunna meddela att denna utgåva innehåller över 40 nya användbara förbättringar.
-Med Aspose.Cells för .NET kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
-Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells för .NET.
+ Aspose.Cells for .NET har uppdaterats till version 8.2.0 och vi är glada att kunna meddela att denna utgåva kommer med över 40 nya användbara förbättringar.
+Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
  Följande är en lista över ändringar i denna version av Aspose.Cells.
 
@@ -32,7 +32,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 ## **Prestanda**
 
 
- (CELLSNET-42876) - Aspose.Cells hänger på metoden Workbook.Save()
+(CELLSNET-42876) - Aspose.Cells hänger på metoden Workbook.Save()
 
  (CELLSNET-42840) - Stor Excel-fil är skadad när fler än 45 000 rader läggs till
 
@@ -48,7 +48,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42526) - Pilobjekt är inte korrekt placerade i utdata-pdf
 
-(CELLSNET-42322) - Om du tar bort rader och uppdaterar pivottabellen kraschar utdatafilen
+ (CELLSNET-42322) - Om du tar bort rader och uppdaterar pivottabellen kraschar utdatafilen
 
  (CELLSNET-42827) - Problem med flertrådsläsningsvärden för celler i kalkylbladet
 
@@ -60,7 +60,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42833) - Form som överlappar texten i den resulterande PDF-filen
 
- (CELLSNET-42829) - Kryssrutorna är inte korrekt justerade i den resulterande PDF-filen
+(CELLSNET-42829) - Kryssrutorna är inte korrekt justerade i den resulterande PDF-filen
 
  (CELLSNET-42776) - Bildkvaliteten har minskat när kalkylblad sparats till PDF
 
@@ -74,7 +74,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42830) - Ändra i pilens riktning i den resulterande PDF-filen
 
-(CELLSNET-42828) - Den resulterande PDF-filen har en beskuren form med en del av korset som inte visas
+ (CELLSNET-42828) - Den resulterande PDF-filen har en beskuren form med en del av korset som inte visas
 
  (CELLSNET-42798) - Bubbeldiagramsbild skapas inte korrekt (diagram till bild)
 
@@ -86,7 +86,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42907) - Aspose.Cells tog bort tidsperiodfiltren
 
- (CELLSNET-42904) - DeleteRange-problem med hyperlänksamling
+(CELLSNET-42904) - DeleteRange-problem med hyperlänksamling
 
  (CELLSNET-42900) - Inbyggda och anpassade dokumentegenskaper går förlorade
 
@@ -98,7 +98,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42874) - Worksheet.Copy bevarar inte diagrammet korrekt
 
-(CELLSNET-42872) - Felaktiga värden vid läsning av linjediagram från arbetsbok
+ (CELLSNET-42872) - Felaktiga värden vid läsning av linjediagram från arbetsbok
 
  (CELLSNET-42851) - VLOOKUP-funktionen utvärderas som 0 i motsats till MS Excel
 
@@ -114,7 +114,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 ## **Undantag**
 
 
- (CELLSNET-41952) - "Undantag för slut på minne" när du sparar arbetsbok som PDF
+(CELLSNET-41952) - "Undantag för slut på minne" när du sparar arbetsbok som PDF
 
  (CELLSNET-42891) - CellsException: Sådan sidhuvud eller sidfot stöds inte ännu!
 
@@ -143,14 +143,14 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
  (CELLSNET-42879) - Undantag för att spara Excel med bild i GridWeb
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 
-Lägger till egenskapen Cells.MultiThreadReading
+ Lägger till egenskapen Cells.MultiThreadReading
 
  Indikerar om celldatamodellen ska stödja flertrådsläsning.
 

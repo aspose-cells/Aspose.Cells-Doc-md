@@ -80,5 +80,5 @@ url: /sv/net/microsoft-excel-spreadsheet-management-library/
 - Skapa och manipulera pivottabeller.
 - Manipulera VBA-kod eller makron.
 ### **Plattformar som stöds**
-- Desktop Windows-applikation
+- Desktop Windows Applikation
 - Webbapplikation för företag

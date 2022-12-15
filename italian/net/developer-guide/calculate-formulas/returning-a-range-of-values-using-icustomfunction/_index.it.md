@@ -14,7 +14,7 @@ url: /it/net/returning-a-range-of-values-using-icustomfunction/
 
 {{% alert color="primary" %}}
 
- Aspose.Cells fornisce[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)interfaccia utilizzata per implementare funzioni definite dall'utente o personalizzate che non sono supportate da Microsoft Excel come funzioni predefinite.
+ Aspose.Cells fornisce[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)interfaccia utilizzata per implementare funzioni definite dall'utente o personalizzate che non sono supportate da Microsoft Excel come funzioni integrate.
 
  Principalmente quando si implementa il[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) metodo di interfaccia, è necessario restituire un singolo valore di cella. Ma a volte è necessario restituire un intervallo di valori. Questo articolo spiegherà come restituire l'intervallo di valori da[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
@@ -22,7 +22,7 @@ url: /it/net/returning-a-range-of-values-using-icustomfunction/
 
  Il codice seguente implementa[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)e restituisce l'intervallo di valori tramite il suo metodo.
 
-Crea una classe con una funzione*Calcola funzione personalizzata*. Questa classe implementa[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+ Crea una classe con una funzione*Calcola funzione personalizzata*. Questa classe implementa[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 22.2 Release Notes
+title: Aspose.Cells for .NET 22.2 Release Notes
 type: docs
 weight: 11
 url: /sv/net/aspose-cells-for-net-22-2-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 22.2](https://www.nuget.org/packages/Aspose.Cells/22.2.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 22.2](https://www.nuget.org/packages/Aspose.Cells/22.2.0).
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ url: /sv/net/aspose-cells-for-net-22-2-release-notes/
 |CELLSNET-50266|Chart.ToImage() Trådsäkerhetsproblem|
 |CELLSNET-50302|Regression: Konvertering till HTML-nummer renderade inte korrekt|
 |CELLSNET-50328|Cell bakgrunden blir svart efter konvertering till pdf|
-|CELLSNET-50225| Diagramförklaring återställs när Excel sparas till PDF|
+|CELLSNET-50225|Diagramförklaring återställs när Excel sparas till PDF|
 |CELLSNET-50247|Genom att infoga rader i arket tappar serien av diagram sina XValues|
 |CELLSNET-50295|Chart.SetChartDataRange(area, false) känner inte igen sammanslagna celler|
 |CELLSNET-50308|Område till PNG: utdata inte som förväntat|
@@ -40,9 +40,9 @@ url: /sv/net/aspose-cells-for-net-22-2-release-notes/
 |CELLSNET-50293|ExportXml med XML Map kastar "NullReferenceException" för en annan komplex fil|
 |CELLSNET-50352|NullReferenceException vid konvertering av XLSM-fil till XLS|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Föråldrad Cells.AddAddInFunction()-metoden.**
 

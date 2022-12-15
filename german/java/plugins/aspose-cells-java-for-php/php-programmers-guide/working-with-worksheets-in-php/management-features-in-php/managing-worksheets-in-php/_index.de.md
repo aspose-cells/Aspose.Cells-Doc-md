@@ -6,7 +6,7 @@ url: /de/java/managing-worksheets-in-php/
 ---
 ## **Aspose.Cells – Verwalten von Arbeitsblättern**
 ### **Hinzufügen von Arbeitsblättern zu einer neuen Excel-Datei**
-Um ein Arbeitsblatt zu einer neuen Excel-Datei hinzuzufügen, verwenden Sie**Aspose.Cells Java für PHP** , einfach anrufen**add_worksheet** Methode von**Arbeitsblätter verwalten** Modul.
+ Um ein Arbeitsblatt zu einer neuen Excel-Datei hinzuzufügen, verwenden Sie**Aspose.Cells Java for PHP** , einfach anrufen**add_worksheet** Methode von**Arbeitsblätter verwalten** Modul.
 
 **PHP-Code**
 
@@ -34,7 +34,7 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ### **Entfernen von Arbeitsblättern unter Verwendung des Blattnamens**
- So entfernen Sie Arbeitsblätter nach Blattnamen mit**Aspose.Cells Java für PHP** , einfach anrufen**remove_worksheet_by_name** Methode von**Arbeitsblätter verwalten** Modul.
+ So entfernen Sie Arbeitsblätter nach Blattnamen mit**Aspose.Cells Java for PHP** , einfach anrufen**remove_worksheet_by_name** Methode von**Arbeitsblätter verwalten** Modul.
 
 **PHP-Code**
 
@@ -62,7 +62,7 @@ $fstream->close();
 
 {{< /highlight >}}
 ### **Arbeitsblätter mit Blattindex entfernen**
- Um Arbeitsblatt für Blattindex zu entfernen, verwenden Sie**Aspose.Cells Java für PHP** , einfach anrufen**remove_worksheet_by_index** Methode von**Arbeitsblätter verwalten** Modul.
+ Um Arbeitsblatt für Blattindex zu entfernen, verwenden Sie**Aspose.Cells Java for PHP** , einfach anrufen**remove_worksheet_by_index** Methode von**Arbeitsblätter verwalten** Modul.
 
 **PHP-Code**
 

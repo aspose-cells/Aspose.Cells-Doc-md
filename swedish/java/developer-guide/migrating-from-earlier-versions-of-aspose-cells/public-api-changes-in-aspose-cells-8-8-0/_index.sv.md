@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.8.0
+title: Offentlig API Ändringar i Aspose.Cells 8.8.0
 type: docs
 weight: 270
 url: /sv/java/public-api-changes-in-aspose-cells-8-8-0/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.7
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Få Cell referenser för extern anslutning**
- Aspose.Cells för Java 8.8.0 har avslöjat följande nya egenskaper som är användbara för att hämta mål- och utdatacellreferenser för externa anslutningar lagrade i kalkylarket.
+ Aspose.Cells for Java 8.8.0 har avslöjat följande nya egenskaper som är användbara för att hämta mål- och utdatacellreferenser för externa anslutningar lagrade i kalkylarket.
 
 1. QueryTable.ConnectionId: Hämtar anslutnings-ID för frågetabellen.
 1. ExternalConnection.Id: Hämtar ID för den externa anslutningen.
@@ -23,7 +23,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.7
 
 {{% /alert %}} 
 ### **Tillagd HTMLLoadOptions.KeepPrecision-egenskap**
-Aspose.Cells för Java 8.8.0 har lagt till egenskapen HTMLLoadOptions.KeepPrecision för att kontrollera konverteringen av långa numeriska värden till exponentiell notation vid import av HTML-filer. Som standard konverteras alla värden som är längre än 15 siffror till exponentiell notation om data importeras från HTML-sträng eller -fil. Men nu kan användarna kontrollera detta beteende med hjälp av HTMLLoadOptions.KeepPrecision-egenskapen. Om egenskapen är satt till true kommer värdena att importeras som de är i källan.
+Aspose.Cells for Java 8.8.0 har lagt till egenskapen HTMLLoadOptions.KeepPrecision för att kontrollera konverteringen av långa numeriska värden till exponentiell notation vid import av HTML-filer. Som standard konverteras alla värden som är längre än 15 siffror till exponentiell notation om data importeras från HTML-sträng eller -fil. Men nu kan användarna kontrollera detta beteende med hjälp av HTMLLoadOptions.KeepPrecision-egenskapen. Om egenskapen är satt till true kommer värdena att importeras som de är i källan.
 
 {{% alert color="primary" %}} 
 
@@ -81,7 +81,7 @@ workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **Tillagd HTMLLoadOptions.DeleteRedundantSpaces-egenskap**
-Aspose.Cells för Java 8.8.0 har avslöjat egenskapen HTMLLoadOptions.DeleteRedundantSpaces för att behålla eller ta bort de extra mellanslagen efter radbrytningstaggen (<br>Tag) medan du importerar data från HTML-strängen eller filen. Egenskapen HTMLLoadOptions.DeleteRedundantSpaces har standardvärdet som false, vilket betyder att alla extra mellanslag kommer att bevaras och importeras till Workbook-objektet, men när den är satt till true, kommer API:et att ta bort alla redundanta mellanslag som kommer efter radbrytningstaggen.
+Aspose.Cells for Java 8.8.0 har avslöjat egenskapen HTMLLoadOptions.DeleteRedundantSpaces för att behålla eller ta bort de extra mellanslagen efter radbrytningstaggen (<br>Tag) medan du importerar data från HTML-strängen eller filen. Egenskapen HTMLLoadOptions.DeleteRedundantSpaces har standardvärdet som false, vilket betyder att alla extra mellanslag kommer att bevaras och importeras till Workbook-objektet, men när den är satt till true, kommer API att ta bort alla redundanta mellanslag som kommer efter radbrytningstaggen.
 
 {{% alert color="primary" %}} 
 
@@ -155,7 +155,7 @@ workbook.save(dataDir + "output-" + loadOptions.getDeleteRedundantSpaces() + ".x
 
 {{< /highlight >}}
 ### **Tillagd Style.QuotePrefix-egenskap**
- Aspose.Cells för Java 8.8.0 har exponerat egenskapen Style.QuotePrefix för att upptäcka om ett cellvärde börjar med ett enda citattecken.
+ Aspose.Cells for Java 8.8.0 har exponerat egenskapen Style.QuotePrefix för att upptäcka om ett cellvärde börjar med ett enda citattecken.
 
 {{% alert color="primary" %}} 
 

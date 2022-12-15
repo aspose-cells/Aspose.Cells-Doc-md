@@ -38,7 +38,7 @@ url: /tr/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 ![yapılacaklar:resim_alternatif_Metin](project_4.png)
 
 1.  oluşturulan**Maven Proje** kullanmak için yapılandırılmış**Aspose.Cells for Java API** ve Proje gereksinimlerinize göre geliştirilmeye hazır.
-İndirmeyi seçtiyseniz[Kod Örnekleri](https://github.com/aspose-cells/Aspose.Cells-for-Java) , kullanabilirsiniz**Aspose.Cells Kod Örneği (sihirbaz)**İthalat için gerekli**Kod Örnekleri** Aspose.Cells for Java API numaralı telefonu projenize ekleyin.
+ İndirmeyi seçtiyseniz[Kod Örnekleri](https://github.com/aspose-cells/Aspose.Cells-for-Java) , kullanabilirsiniz**Aspose.Cells Kod Örneği (sihirbaz)**İthalat için gerekli**Kod Örnekleri** Aspose.Cells for Java API numaralı telefonu projenize ekleyin.
 
 ### **Aspose.Cells Kod Örneği (sihirbaz)**
 

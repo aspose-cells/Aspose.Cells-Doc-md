@@ -16,7 +16,7 @@ url: /ru/java/detecting-circular-reference/
 
 [**AbstractCalculationMonitor.OnCircular (IEnumerator circleCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): будет вызываться механизмом вычисления формулы при обнаружении циклических ссылок, элемент в перечислителе[**Расчетная ячейка**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) объекты, которые представляют все клетки в одном круге. Возвращаемое значение указывает, нужно ли обработчику формул вычислять эти ячейки по кругу после этого вызова.
 
-Пользователь может собирать эти циклические ссылки при реализации[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) метод.
+ Пользователь может собирать эти циклические ссылки при реализации[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) метод.
 
 Исходный образец файла можно скачать по следующей ссылке:
 
@@ -24,6 +24,6 @@ url: /ru/java/detecting-circular-reference/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
- Значение*ЦиркулярМонитор* класс, производный от[**АннотацияРасчетМонитор**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) класс выглядит следующим образом:
+Значение*ЦиркулярМонитор* класс, производный от[**АннотацияРасчетМонитор**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) класс выглядит следующим образом:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

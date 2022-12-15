@@ -6,7 +6,7 @@ url: /tr/net/pivot-table-and-source-data/
 ---
 ## **Pivot Tablonun Kaynak Verileri**
 
-Tasarım zamanında bilinmeyen farklı veri kaynaklarından (veritabanı gibi) veri alan pivot tablolarla Microsoft Excel raporları oluşturmak istediğiniz zamanlar olabilir. Bu makale, bir pivot tablonun veri kaynağını dinamik olarak değiştirmek için bir yaklaşım sunar.
+Tasarım zamanında bilinmeyen farklı veri kaynaklarından (veritabanı gibi) veri alan pivot tablolarla Microsoft Excel raporları oluşturmak istediğiniz zamanlar olabilir. Bu makale, bir pivot tablonun veri kaynağını dinamik olarak değiştirmek için bir yaklaşım sağlar.
 
 ### **Pivot Tablonun Kaynak Verilerini Değiştirme**
 

@@ -32,8 +32,8 @@ url: /it/java/aspose-cells-for-java-8-7-1-release-notes/
 |CELLSJAVA-41731 | La formula della forma non si aggiorna durante il salvataggio di XLS in XLSB| Insetto|
 |CELLSJAVA-41733 | Cell.getFormula restituisce la formula con il nome del foglio tra parentesi quadre e il percorso del file del foglio di calcolo| Insetto|
 |CELLSJAVA-41732 | Eccezione: "[0]Foglio1!B2-Formula non valida: più di un token nello stack" nel metodo Workbook.calculateFormula()| Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà LookInType.OriginalValues.**
 Trova solo l'oggetto dai valori originali senza formato.
 ## **Nota**

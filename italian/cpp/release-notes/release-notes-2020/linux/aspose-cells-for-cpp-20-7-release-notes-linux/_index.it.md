@@ -6,17 +6,17 @@ url: /it/cpp/aspose-cells-for-cpp-20-7-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per C++ 20.7 per Linux.
+Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 20.7 per Linux.
 
 {{% /alert %}} 
 
-Siamo lieti di annunciare il rilascio di Aspose.Cells per C++ 20.7 per Linux.
+Siamo lieti di annunciare il rilascio di Aspose.Cells for C++ 20.7 per Linux.
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-6|Applicare la formattazione condizionale alle celle|Nuova caratteristica|
 |CELLSCPP-7|Lettura/scrittura di proprietà documento personalizzate|Nuova caratteristica|
-|CELLSCPP-8|Lettura/scrittura Proprietà del documento incorporate|Nuova caratteristica|
+|CELLSCPP-8|Lettura/scrittura Proprietà del documento integrate|Nuova caratteristica|
 |CELLSCPP-9|Aggiungi collegamenti ipertestuali alle celle|Nuova caratteristica|
 |CELLSCPP-11|Supporta i temi di MS Excel|Nuova caratteristica|
 |CELLSCPP-12|Aggiungere e manipolare le tabelle pivot nei fogli di calcolo|Nuova caratteristica|

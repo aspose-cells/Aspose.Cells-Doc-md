@@ -8,7 +8,7 @@ url: /sv/java/calculate-formulas/
 
 Aspose.Cells har en inbäddad formelberäkningsmotor. Det kan inte bara räkna om formler som importerats från designermallar utan det stöder också att beräkna resultaten av formler som läggs till vid körning.
 
- Aspose.Cells stöder de flesta formler eller funktioner som ingår i Microsoft Excel (Läs[en lista över de funktioner som stöds av beräkningsmotorn](/cells/sv/java/supported-formula-functions/)). Dessa funktioner kan användas via API:er eller designerkalkylblad. Aspose.Cells stöder en stor uppsättning matematiska formler, sträng-, booleska-, datum/tid-, statistiska, databas-, uppslags- och referensformler.
+ Aspose.Cells stöder de flesta formler eller funktioner som ingår i Microsoft Excel(Läs[en lista över de funktioner som stöds av beräkningsmotorn](/cells/sv/java/supported-formula-functions/)). Dessa funktioner kan användas via API:er eller designerkalkylblad. Aspose.Cells stöder en stor uppsättning matematiska formler, sträng-, booleska-, datum/tid-, statistiska, databas-, uppslags- och referensformler.
 
  Använd[**Formel**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) egendom eller[**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object) ) metoder för[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)klass för att lägga till en formel i en cell. När du använder en formel, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel och använd ett kommatecken (,) för att avgränsa funktionsparametrar.
 
@@ -56,7 +56,7 @@ Som standard är beräkningskedjan inaktiverad. Eftersom att skapa kedjan också
 {{% /alert %}}
 
 ## **Förhandsämnen**
-- [Lägg till Cells i Microsoft Excel Formula Watch Window](/cells/sv/java/add-cells-to-microsoft-excel-formula-watch-window/)
+- [Lägg till Cells till Microsoft Excel Formula Watch Window](/cells/sv/java/add-cells-to-microsoft-excel-formula-watch-window/)
 - [Aspose.Cells Formelberäkningsmotor](/cells/sv/java/aspose-cells-formula-calculation-engine/)
 - [Beräknar IFNA-funktion med Aspose.Cells](/cells/sv/java/calculating-ifna-function-using-aspose-cells/)
 - [Beräkning av matrisformel för datatabeller](/cells/sv/java/calculation-of-array-formula-of-data-tables/)

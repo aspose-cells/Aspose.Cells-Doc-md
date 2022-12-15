@@ -3,12 +3,12 @@ title: Konvertera XLS med bilder och diagram till PDF
 type: docs
 weight: 230
 url: /sv/java/convert-xls-with-images-and-charts-to-pdf/
-description: Java-koden för att konvertera Excel-filer med bilder och diagram till PDF-format med hjälp av Aspose.Cells för Java API.
+description: Java-koden för att konvertera Excel-filer med bilder och diagram till PDF-format genom att använda Aspose.Cells for Java API.
 keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, convert excel with images to pdf java, convert excel with charts to pdf java, convert xls to pdf, convert xlsx to pdf, xls to pdf java, xlsx to pdf java, excel to pdf
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder konvertering av XLS-filer som innehåller bilder och diagram till PDF-dokument. Aspose.Cells för Java kan arbeta självständigt för att konvertera ett kalkylblad till PDF: Aspose.PDF API:er krävs inte för konverteringen.
+Aspose.Cells stöder konvertering av XLS-filer som innehåller bilder och diagram till PDF-dokument. Aspose.Cells for Java kan arbeta självständigt för att konvertera ett kalkylblad till PDF: Aspose.PDF API:er krävs inte för konverteringen.
 
 {{% /alert %}}
 

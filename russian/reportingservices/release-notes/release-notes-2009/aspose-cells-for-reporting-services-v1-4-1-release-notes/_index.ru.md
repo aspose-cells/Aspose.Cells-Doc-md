@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells для Reporting Services v1.4.1 Примечания к выпуску
+title: Aspose.Cells for Reporting Services v1.4.1 Примечания к выпуску
 type: docs
 weight: 30
 url: /ru/reportingservices/aspose-cells-for-reporting-services-v1-4-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для служб Reporting Services v1.4.1](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.1/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Reporting Services v1.4.1](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.1/)
 
 {{% /alert %}} 
 
-Мы рады объявить Aspose.Cells для Reporting Services 1.4.1!
+ Мы рады сообщить Aspose.Cells for Reporting Services 1.4.1!
 
  Что изменилось
 
@@ -26,7 +26,7 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-v1-4-1-release-no
 
 
 
- Проблемы, решенные в Aspose.Cells для Reporting Services 1.4.1
+Проблемы, решенные в Aspose.Cells for Reporting Services 1.4.1
 
 |**Идентификатор проблемы** |**Составная часть** |**Резюме** |
 |:- |:- |:- |

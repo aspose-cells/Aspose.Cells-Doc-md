@@ -37,4 +37,4 @@ Estimados clientes, ¡Hemos lanzado Aspose.Cells for Java V1.9.3!
 
  Comentarios
 
-- Para agregar textBox, en la nueva versión, los métodos add(...) solo son válidos en la hoja de trabajo. El método addInChart() solo es válido en la hoja de gráficos.
+- Para agregar textBox, en la nueva versión, los métodos add(...) solo son válidos en la hoja de trabajo. El método addInChart() solo es válido en la hoja de gráfico.

@@ -10,7 +10,7 @@ L'ordinamento è un'attività di routine importante che utilizziamo principalmen
 
 {{% /alert %}} 
 ## **Ordinamento dei dati del foglio di lavoro**
-Per ordinare i dati in un foglio di lavoro utilizzando API di Aspose.Cells.GridDesktop, procedi nel seguente modo:
+Per ordinare i dati in un foglio di lavoro utilizzando l'API di Aspose.Cells.GridDesktop, procedi nel seguente modo:
 
 -  Prima di tutto crea un oggetto globale di**CellRange** in modo che sia possibile accedervi ovunque nell'ambito della classe
 -  Crea un gestore di eventi per**SelectedCellRangeChanged** evento di**GrigliaDesktop**. **SelectedCellRangeChanged** L'evento viene attivato ogni volta che viene modificato un intervallo di celle selezionato da un utente. Ad esempio, se un utente seleziona celle (contenenti dati da ordinare), ogni volta che il suo intervallo di selezione cambia, questo evento viene attivato.

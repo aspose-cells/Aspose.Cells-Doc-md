@@ -84,7 +84,7 @@ m_workbook.Save("output.xlsx")
 
 {{% /alert %}} 
 
-### **Methoden Cell.GetTable & ListObject.PutCellValue Hinzugefügt**
+### **Methoden Cell.GetTable & ListObject.PutCellValue hinzugefügt**
 Die Methoden Cell.GetTable & ListObject.PutCellValue wurden mit Aspose.Cells for .NET 8.3.1 hinzugefügt, um den Benutzern den Zugriff auf das ListObject von einer Zelle aus zu erleichtern und darin mithilfe der Zeilen- und Spaltenoffsets Werte hinzuzufügen. Der folgende Beispielcode lädt die Quelltabelle und fügt Werte in die Tabelle ein.
 
 **C#**

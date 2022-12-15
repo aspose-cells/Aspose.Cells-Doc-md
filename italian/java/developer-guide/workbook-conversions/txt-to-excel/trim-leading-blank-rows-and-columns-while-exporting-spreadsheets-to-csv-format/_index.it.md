@@ -16,7 +16,7 @@ A volte, il tuo file Excel o CSV ha colonne o righe vuote iniziali. Ad esempio, 
 
 Qui le prime tre celle o colonne sono vuote. Quando apri un file CSV di questo tipo in Microsoft Excel, Microsoft Excel scarta queste righe e colonne vuote iniziali.
 
- Per impostazione predefinita, Aspose.Cells non elimina le colonne e le righe vuote iniziali durante il salvataggio, ma se si desidera rimuoverle proprio come fa Excel Microsoft, Aspose.Cells fornisce**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** proprietà. Si prega di impostarlo su**VERO**e quindi tutte le righe e le colonne vuote iniziali verranno scartate durante il salvataggio.
+ Per impostazione predefinita, Aspose.Cells non elimina le colonne e le righe vuote iniziali durante il salvataggio, ma se si desidera rimuoverle proprio come fa Microsoft Excel, Aspose.Cells fornisce**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** proprietà. Si prega di impostarlo su**VERO**e quindi tutte le righe e le colonne vuote iniziali verranno scartate durante il salvataggio.
 
 {{% alert color="primary" %}}
 

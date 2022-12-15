@@ -6,7 +6,7 @@ url: /it/net/data-filtering/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel fornisce alcune buone funzionalità per filtrare automaticamente i dati del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di filtro automatico di Microsoft di Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
+Microsoft Excel offre alcune buone funzionalità per filtrare automaticamente i dati del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di filtro automatico di Microsoft Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
 
 {{% /alert %}}
 
@@ -53,7 +53,7 @@ Nell'esempio fornito di seguito, abbiamo creato lo stesso filtro automatico util
 
 #### **Diversi tipi di filtro**
 
-Aspose.Cells offre più opzioni per applicare diversi tipi di filtri come filtro colore, filtro data, filtro numero, filtro testo, filtri vuoti e nessuno filtri vuoti.
+Aspose.Cells offre più opzioni per applicare diversi tipi di filtri come Filtro colore, Filtro data, Filtro numero, Filtro testo, Filtri vuoti e Nessuno Filtri vuoti.
 
 ##### **Colore di riempimento**
 
@@ -152,5 +152,5 @@ Excel fornisce filtri personalizzati come righe di filtro che terminano con una 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}
 
 ## **Argomenti avanzati**
-- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi](/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico](/cells/it/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)

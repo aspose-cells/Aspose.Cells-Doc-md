@@ -6,7 +6,7 @@ url: /sv/java/hide-or-unhide-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Dölj eller visa ett kalkylblad**
 ### **Dölja ett arbetsblad**
- För att dölja kalkylblad med Aspose.Cells Java för PHP, ring**hideunhideworksheet** modul.
+ För att dölja kalkylblad med Aspose.Cells Java for PHP, ring**hideunhideworksheet** modul.
 
 **PHP-kod**
 

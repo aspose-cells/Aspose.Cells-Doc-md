@@ -1,5 +1,5 @@
 ﻿---
-title: Uso de estilos incorporados
+title: Uso de estilos integrados
 type: docs
 weight: 80
 url: /es/net/using-built-in-styles/

@@ -5,9 +5,9 @@ weight: 50
 url: /sv/cpp/licensing/
 ---
 ## **Begränsningar för utvärderingsversion**
- En gratis utvärderingsversion av Aspose.Cells för C++ kan laddas ner från nedladdningssektionen på Aspose:s webbplats på:<https://downloads.aspose.com/cells/cpp>.
+ En gratis utvärderingsversion av Aspose.Cells for C++ kan laddas ner från nedladdningssektionen på Aspose:s webbplats på:<https://downloads.aspose.com/cells/cpp>.
 ## **Tillämpa licens med File eller Stream Object**
-Licensen kan laddas från en fil eller ett strömobjekt. Aspose.Cells för C++ kommer att försöka hitta licensen på följande platser:
+Licensen kan laddas från en fil eller ett strömobjekt. Aspose.Cells for C++ kommer att försöka hitta licensen på följande platser:
 
 1. Explicit väg.
 1. Mappen som innehåller Aspose.Cells.dll.

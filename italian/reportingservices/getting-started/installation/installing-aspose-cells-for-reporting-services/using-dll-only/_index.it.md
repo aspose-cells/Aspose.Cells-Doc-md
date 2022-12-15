@@ -4,25 +4,25 @@ type: docs
 weight: 20
 url: /it/reportingservices/using-dll-only/
 ---
-## Come installare Aspose.Cells per Reporting Services utilizzando solo la DLL:
+## Come installare Aspose.Cells for Reporting Services utilizzando solo la DLL:
 
--  Visita lo Aspose.Cells per i servizi di segnalazione[pagina di download](https://downloads.aspose.com/cells/reportingservices) e scarica il**Aspose.Cells per Reporting Services (zip)** archivio che contiene l'ultima versione del componente e la documentazione installata.
+- Visita il Aspose.Cells for Reporting Services[pagina di download](https://downloads.aspose.com/cells/reportingservices) e scarica il**Aspose.Cells for Reporting Services (cap)** archivio che contiene l'ultima versione del componente e la documentazione installata.
  - Esistono 7 tipi di versioni Aspose.Cells.ReprotingSerivces.dll in Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. Supportano diversi prodotti del server di report Microsoft.
  - Aspose.Cells.ReportingServices.dll nella cartella SSRS2005 supporta Microsoft SQL Server 2005 Reporting Services.
  - Aspose.Cells.ReportingServices.dll nella cartella SSRS2008 supporta Microsoft SQL Server 2008 Reporting Services.
  - Aspose.Cells.ReportingServices.dll nella cartella SSRS2008R2 supporta Microsoft SQL Server 2008R2/2012/2014 Reporting Services.
- Aspose.Cells.ReportingServices.dll nella cartella SSRS2016 supporta Microsoft SQL Server 2016/2017/2019 Reporting Services.
+ - Aspose.Cells.ReportingServices.dll nella cartella SSRS2016 supporta Microsoft SQL Server 2016/2017/2019 Reporting Services.
    
 - Decomprimere l'archivio in una directory sul disco rigido.
 
-- Installare Aspose.Cells per Reporting Services Report Designer:
- - Registrati**Aspose.Cells.ReportingServices.Client.dll** utilizzando l'utilità Regasm.exe.
- - Aggiungere Aspose.Cells per il componente aggiuntivo Reporting Services in Excel.
+- Installa Aspose.Cells for Reporting Services Report Designer:
+ - Registrati**Aspose.Cells.ReportingServices.Client.dll**utilizzando l'utilità Regasm.exe.
+ - Aggiungere il componente aggiuntivo Aspose.Cells for Reporting Services in Excel.
    
-- Installare Aspose.Cells per Reporting Services per Microsoft SQL Server Reporting Services il componente dei servizi:
- - Metti il**Aspose.Cells.ReportingServices.dll** nella cartella ${Microsoft cartella di installazione di SQL Server Reporting Services}\ReportServer\bin.
- - Aggiungere Aspose.Cells per le estensioni del renderer di Reporting Services:
- - Aprire**${Microsoft cartella di installazione di SQL Server Reporting Services}\ReportServer\rsreportserver.config**
+- Installare Aspose.Cells for Reporting Services per Microsoft SQL Server Reporting Services il componente dei servizi:
+ - Metti il**Aspose.Cells.ReportingServices.dll** nella cartella ${cartella di installazione di Microsoft SQL Server Reporting Services}\ReportServer\bin.
+ - Aggiungi le estensioni del renderer Aspose.Cells for Reporting Services :
+ - Aprire**${cartella di installazione di Microsoft SQL Server Reporting Services}\ReportServer\rsreportserver.config**
  - Aggiungere le seguenti righe nel file<Render>……</Render> elemento:
 {{< highlight "xml" >}}
 
@@ -76,8 +76,8 @@ url: /it/reportingservices/using-dll-only/
 </Render>
 
 {{< /highlight >}}
- - Aggiungere Aspose.Cells per le autorizzazioni di Reporting Services per eseguire:
- - Aprire**${Microsoft cartella di installazione di SQL Server Reporting Services}\ReportServer\rssrvpolicy.config** e un
+ - Aggiungi Aspose.Cells for Reporting Services autorizzazioni per eseguire:
+ - Aprire**${cartella di installazione di Microsoft SQL Server Reporting Services}\ReportServer\rssrvpolicy.config** e un
  - Aggiungi quanto segue come ultimo elemento nel secondo verso l'esterno<CodeGroup> elemento (che dovrebbe essere<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
 {{< highlight "xml" >}}
@@ -106,16 +106,16 @@ url: /it/reportingservices/using-dll-only/
 
 {{< /highlight >}}
 
-## Verificare che Aspose.Cells per Reporting Services sia installato correttamente:
- 1. Aprire Report Manager e controllare l'elenco dei tipi di esportazione disponibili per un report. (Avvia Report Manager aprendo un browser e digita l'URL di Report Manager nella barra degli indirizzi. (Per impostazione predefinita, l'URL è http://<ComputerName>/Rapporti).
+## Verificare che Aspose.Cells for Reporting Services sia installato correttamente:
+1. Aprire Report Manager e controllare l'elenco dei tipi di esportazione disponibili per un report. (Avvia Report Manager aprendo un browser e digita l'URL di Report Manager nella barra degli indirizzi. (Per impostazione predefinita, l'URL è http://<ComputerName>/Rapporti).
  1. Selezionare uno dei report sul server e aprire il file**Seleziona Formato** elenco.
- Dovresti vedere l'elenco dei formati di esportazione forniti da Aspose.Cells per Reporting Services.
+ Dovresti vedere l'elenco dei formati di esportazione fornito da Aspose.Cells for Reporting Services.
  1. Selezionare**XLS – Cartella di lavoro Excel tramite Aspose.Cells**.
  1. Fare clic**Esportare**.
  Il report viene generato nel formato selezionato.
  1. Inviarlo al client e aprirlo in un'applicazione appropriata. In questo caso, il report si apre in Microsoft Excel.
 
-Congratulazioni, hai installato correttamente Aspose.Cells per Reporting Services e hai generato un report come file Excel Microsoft!
+Congratulazioni, hai installato correttamente Aspose.Cells for Reporting Services e hai generato un report come file Microsoft Excel!
 
 
  Esistono 7 tipi di versioni Aspose.Cells.ReprotingSerivces.dll in Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. Supportano diversi prodotti del server di report Microsoft.

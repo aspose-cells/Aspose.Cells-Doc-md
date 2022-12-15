@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Python via Java 21.6 Notes de mise à jour
+title: Aspose.Cells for Python via Java 21.6 Notes de mise à jour
 type: docs
 weight: 7
 url: /fr/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Cette page contient des notes de version pour[Aspose.Cells pour Python via Java 21.6](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.6/).
+ Cette page contient des notes de version pour[Aspose.Cells for Python via Java 21.6](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.6/).
 
 {{% /alert %}}
 
@@ -33,7 +33,7 @@ url: /fr/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 
-Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Python via Java. soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Python via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 
 ### **Modifie le comportement de la propriété Cell.IsErrorValue.**
 

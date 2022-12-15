@@ -12,7 +12,7 @@ url: /it/java/grouping-and-ungrouping-rows-and-columns-in-python/
 - Indice dell'ultima riga/colonna, l'ultima riga o colonna del gruppo.
 - È nascosto, un parametro booleano che specifica se nascondere o meno righe/colonne dopo il raggruppamento.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 
@@ -49,7 +49,7 @@ Separa le righe o le colonne raggruppate chiamando i metodi UngroupRows e Ungrou
 - Indice della prima riga o colonna, la prima riga/colonna da separare.
 - Indice dell'ultima riga o colonna, l'ultima riga/colonna da separare.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

@@ -6,14 +6,14 @@ url: /es/cpp/aspose-cells-for-cpp-21-7-release-notes-linux/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión Aspose.Cells para C++ 21.7 para Linux.
+Esta página contiene notas de la versión Aspose.Cells for C++ 21.7 para Linux.
 
 {{% /alert %}} 
 
-Nos complace anunciar el lanzamiento de Aspose.Cells para C++ 21.7 para Linux.
+Nos complace anunciar el lanzamiento de Aspose.Cells for C++ 21.7 para Linux.
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSCPP-288| Solucionar el problema del recuento de referencias|Insecto|
-|CELLSCPP-301|Arreglar pérdida de memoria|Insecto|
+|CELLSCPP-301| Arreglar pérdida de memoria|Insecto|
 |CELLSCPP-302| Solucionar el problema de copia de archivos|Insecto|

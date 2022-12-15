@@ -6,7 +6,7 @@ url: /sv/java/generate-conditional-formatting-databars-images/
 ---
 {{% alert color="primary" %}}
 
- Ibland måste du skapa bilder av datafält för villkorlig formatering. Du kan använda Aspose.Cells[**DataBar.toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/databar#toImage(com.aspose.cells.Cell,%20com.aspose.cells.ImageOrPrintOptions)) metod för att generera dessa bilder. Den här artikeln visar hur du genererar en DataBar-bild med Aspose.Cells.
+ Ibland måste du skapa bilder av datafält för villkorlig formatering. Du kan använda Aspose.Cells[**DataBar.toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/databar#toImage(com.aspose.cells.Cell,%20com.aspose.cells.ImageOrPrintOptions)metod för att generera dessa bilder. Den här artikeln visar hur du genererar en DataBar-bild med Aspose.Cells.
 
 {{% /alert %}}
 

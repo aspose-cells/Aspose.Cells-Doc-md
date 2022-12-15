@@ -16,7 +16,7 @@ url: /ru/cpp/creating-and-customizing-charts/
 
 ## **Линейный график**
 
-В приведенном выше примере простое изменение[**Тип диаграммы**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)к[**ChartType_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25) создает линейную диаграмму. Полный источник приведен ниже. когда код выполняется, на лист добавляется линейная диаграмма. Пожалуйста, смотрите[выходной файл Excel](66519069.xlsx) из следующего примера кода.
+В приведенном выше примере простое изменение[**Тип диаграммы**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)к[**ChartType_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25)создает линейную диаграмму. Полный источник приведен ниже. когда код выполняется, на лист добавляется линейная диаграмма. Пожалуйста, смотрите[выходной файл Excel](66519069.xlsx) из следующего примера кода.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart.cpp" >}}
 

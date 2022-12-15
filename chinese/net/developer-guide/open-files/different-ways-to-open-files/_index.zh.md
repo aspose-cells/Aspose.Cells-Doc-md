@@ -1,5 +1,5 @@
 ﻿---
-title: 打开文件的不同方法
+title: 打开文件的不同方式
 type: docs
 weight: 10
 url: /zh/net/different-ways-to-open-files/

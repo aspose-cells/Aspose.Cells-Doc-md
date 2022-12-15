@@ -13,7 +13,7 @@ Textens utseende och känsla kan styras genom att ändra dess teckensnittsinstä
 
 ![todo:image_alt_text](dealing-with-font-settings_1.png)
 
-Precis som Microsoft Excel stöder Aspose.Cells också konfigurering av teckensnittsinställningarna för cellerna.
+Precis som Microsoft Excel, stöder Aspose.Cells också konfigurering av teckensnittsinställningarna för cellerna.
 
 {{% /alert %}} 
 ## **Konfigurera teckensnittsinställningar**

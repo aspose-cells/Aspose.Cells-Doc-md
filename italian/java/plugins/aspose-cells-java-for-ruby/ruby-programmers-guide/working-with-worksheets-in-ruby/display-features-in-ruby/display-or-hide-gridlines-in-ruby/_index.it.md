@@ -6,7 +6,7 @@ url: /it/java/display-or-hide-gridlines-in-ruby/
 ---
 ## **Aspose.Cells - Visualizza o nascondi griglia**
 ### **Nascondere le linee della griglia**
- Per nascondere il foglio di lavoro utilizzando**Aspose.Cells Java per Rubino** , chiamata**displayhidegridlines** modulo.
+ Per nascondere il foglio di lavoro utilizzando**Aspose.Cells Java per Ruby** , chiamata**displayhidegridlines** modulo.
 
 **Codice Rubino**
 

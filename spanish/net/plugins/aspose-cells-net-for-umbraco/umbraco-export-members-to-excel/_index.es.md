@@ -68,7 +68,7 @@ Una vez descargado, siga estos pasos para instalar este paquete en su sitio web 
 Una vez que haya instalado la macro, es realmente simple comenzar a usarla en su sitio web:
 
 1. Asegúrese de haber iniciado sesión en Umbraco**Desarrollador** sección, por ejemplo `http://www.myblog.com/umbraco/`
-1.  Hacer clic**Miembros** en la lista de secciones en la parte inferior izquierda de la pantalla.
+1.  Hacer clic**miembros** en la lista de secciones en la parte inferior izquierda de la pantalla.
 1.  Al final del árbol, verá un nodo titulado**Exportar miembros a Excel** haga clic en él para iniciar el complemento Exportar a Excel.
 1. Seleccione el formato de documento de salida deseado y seleccione Miembros para exportar. Si desea exportar todos los miembros, deje la selección de miembros o haga clic en la casilla de verificación en la fila del encabezado.
 1.  Hacer clic**Exportar** en la parte inferior y se le pedirá que descargue el archivo exportado.

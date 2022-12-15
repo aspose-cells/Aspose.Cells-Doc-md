@@ -19,5 +19,5 @@ Per cercare più file contemporaneamente:
 
 Sono disponibili le seguenti opzioni:
 
-- **Trova opzioni**: focalizza la tua ricerca cercando nelle celle, per formule o trovando formule che contengono un'espressione specifica.
+- **Trova opzioni**focalizza la tua ricerca cercando nelle celle, per formule o trovando formule che contengono un'espressione specifica.
 - **Maiuscole e minuscole**: Quando è selezionata l'opzione con distinzione tra maiuscole e minuscole, la ricerca corrisponde esattamente ai caratteri, comprese le lettere minuscole e maiuscole.

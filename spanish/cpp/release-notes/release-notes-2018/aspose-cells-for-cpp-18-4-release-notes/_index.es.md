@@ -15,14 +15,14 @@ Esta página contiene notas de la versión Aspose.Cells para CPP 18.4.
 |CELLSCPP-53|Admite funciones/módulos de dibujo|Nueva caracteristica|
 |CELLSCPP-57|Implementar la biblioteca System.Drawing|Nueva caracteristica|
 |CELLSCPP-68|Sistema de depuración. Módulo de dibujo|Nueva caracteristica|
-|CELLSCPP-69|Resolver problemas en C++ casos de prueba|Nueva caracteristica|
+|CELLSCPP-69|Resolver problemas en casos de prueba de C++|Nueva caracteristica|
 |CELLSCPP-70|Resuelva la fuga de memoria en las clases del módulo System.Drawing|Nueva caracteristica|
 |CELLSCPP-73|Escriba un método para publicar archivos .h|Nueva caracteristica|
-|CELLSCPP-75|Implementar la función C++: Dibujar imagen de Stream|Nueva caracteristica|
-|CELLSCPP-76|Implementar clases C++: ComIStreamWrapper, Metafile|Nueva caracteristica|
-|CELLSCPP-77|Caso de prueba de depuración C++: Copias|Nueva caracteristica|
-|CELLSCPP-78|Resuelva problemas en los casos de prueba C++: módulos DigitalSignature, EnumTypes, Finds, Formulas, Hyperlinks|Nueva caracteristica|
-|CELLSCPP-79|Resuelva el problema del enlace de la versión de lanzamiento C++|Nueva caracteristica|
+|CELLSCPP-75|Implementar la función C ++: Dibujar imagen de Stream|Nueva caracteristica|
+|CELLSCPP-76|Implementar clases de C++: ComIStreamWrapper, Metafile|Nueva caracteristica|
+|CELLSCPP-77|Caso de prueba de depuración de C++: Copias|Nueva caracteristica|
+|CELLSCPP-78|Resolver problemas en casos de prueba de C++: módulos DigitalSignature, EnumTypes, Finds, Formulas, Hyperlinks|Nueva caracteristica|
+|CELLSCPP-79|Resolver el problema de enlace de la versión de lanzamiento de C ++|Nueva caracteristica|
 |CELLSCPP-81|Solucionar el problema de FillPath en el módulo gráfico|Nueva caracteristica|
 |CELLSCPP-82|Arreglar el problema del módulo System.Drawing por caso de prueba|Nueva caracteristica|
 |CELLSCPP-83|Solucionar el problema de gppoint FillPath en el módulo gráfico|Nueva caracteristica|
@@ -39,7 +39,7 @@ Esta página contiene notas de la versión Aspose.Cells para CPP 18.4.
 |CELLSCPP-108|Abrir archivos y consultar problemas relacionados con los gráficos|Nueva caracteristica|
 |CELLSCPP-106|Problema de pérdida de memoria|Insecto|
 ### **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Cambia el nombre de todos los métodos como 'SetIs*' a métodos 'Set*'**
 Cambia el nombre de los métodos, como SetIsOutlineShown a SetIsOutlineShown, SetIsSelected a SetSelected en IWorksheet, etc. Para obtener más detalles, consulte la guía de referencia API.
 #### **Cambia de color a Sistema::Dibujo::Color**

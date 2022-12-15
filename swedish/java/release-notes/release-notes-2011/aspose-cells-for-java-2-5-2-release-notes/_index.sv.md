@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 2.5.2 Release Notes
+title: Aspose.Cells for Java 2.5.2 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-2-5-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.5.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.5.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.5.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.5.2/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java 2.5.2!
+ Vi är glada att meddela Aspose.Cells for Java 2.5.2!
 
  Vad har ändrats:
 
@@ -22,9 +22,9 @@ url: /sv/java/aspose-cells-for-java-2-5-2-release-notes/
  Förbättringar görs för funktionerna diagram-till-bild, ark-till-bild och Excel-till-PDF.
  Förbättring görs för att analysera formler.
  Förbättring är gjord för kopiering Cells.
-31 korrigeringar och förbättringar.
+ 31 korrigeringar och förbättringar.
 
- Problem lösta i Aspose.Cells för Java 2.5.2.
+Problem lösta i Aspose.Cells for Java 2.5.2.
 
 
 

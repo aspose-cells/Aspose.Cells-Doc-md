@@ -6,6 +6,6 @@ url: /es/reportingservices/extended-rendering-extensions-support/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells para Reporting Services admite la exportación a formatos XLSM y HTML, así como Microsoft formatos de hoja de cálculo de Excel (XLS, XLSX, XLSB) y otros formatos como ODS, SpreadsheetML, CSV y TXT.
+Aspose.Cells for Reporting Services admite la exportación a formatos XLSM y HTML, así como Microsoft formatos de hoja de cálculo de Excel (XLS, XLSX, XLSB) y otros formatos como ODS, SpreadsheetML, CSV y TXT.
 
 {{% /alert %}}

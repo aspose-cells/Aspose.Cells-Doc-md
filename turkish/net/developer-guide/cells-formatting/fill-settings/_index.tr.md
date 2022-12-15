@@ -23,7 +23,7 @@ Aspose.Cells de bu özellikleri esnek bir şekilde destekler. Bu konuda Aspose.C
 |Gri6|%6,25 gri deseni temsil eder|
 |Gray12|%12,5 gri deseni temsil eder|
 |Gri25|%25 gri deseni temsil eder|
-|gri50|%50 gri modeli temsil eder|
+|gri50|%50 gri deseni temsil eder|
 |gri75|%75 gri deseni temsil eder|
 |Yatay Şerit|Yatay şerit desenini temsil eder|
 |Hiçbiri|arka planı temsil etmez|

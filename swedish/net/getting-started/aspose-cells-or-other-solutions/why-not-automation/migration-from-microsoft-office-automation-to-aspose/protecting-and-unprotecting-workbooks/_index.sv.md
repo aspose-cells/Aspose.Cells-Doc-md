@@ -8,7 +8,7 @@ url: /sv/net/protecting-and-unprotecting-workbooks/
 
 För att förhindra att någon av misstag eller avsiktligt ändrar, flyttar eller tar bort kalkylblad kan du skydda arbetsbokselement med eller utan lösenord. För att skydda en arbetsboks struktur så att kalkylblad i arbetsboken inte kan flyttas, raderas, gömmas, döljas eller bytas namn, och nya kalkylblad inte kan infogas, anger du ProtectionType som Structure.
 
- För att skydda Windows så att de har samma storlek och position varje gång arbetsboken öppnas, anger du ProtectionType som Windows. I den här artikeln visar vi hur[skydda](/cells/sv/net/protecting-and-unprotecting-workbooks/) och[oskydda](/cells/sv/net/protecting-and-unprotecting-workbooks/)arbetsböcker med VSTO och Aspose.Cells för .NET så att du kan jämföra de två metoderna.
+ För att skydda Windows så att de har samma storlek och position varje gång arbetsboken öppnas, ange ProtectionType som Windows. I den här artikeln visar vi hur du[skydda](/cells/sv/net/protecting-and-unprotecting-workbooks/) och[oskydda](/cells/sv/net/protecting-and-unprotecting-workbooks/) arbetsböcker med VSTO och Aspose.Cells for .NET för att låta dig jämföra de två metoderna.
 
 Aspose.Cells fungerar oberoende av Microsoft Office Automation och är utvecklad för att vara enkel att använda och producera snygg kod.
 
@@ -18,7 +18,7 @@ Att skydda en arbetsbok hindrar inte användare från att redigera celler. För 
 ## **Skydda en arbetsbok**
 För att öppna en befintlig Microsoft Excel-fil, skydda arbetsboken med struktur och Windows-attribut och spara filen.
 
-Nedan finns parallella kodavsnitt för VSTO (C#, VB) och Aspose.Cells för .NET (C#, VB) som visar hur man skyddar en arbetsbok.
+Nedan finns parallella kodavsnitt för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB) som visar hur man skyddar en arbetsbok.
 ### **VSTO**
 **C#**
 
@@ -77,7 +77,7 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **Aspose.Cells för .NET**
+### **Aspose.Cells for .NET**
 **C#**
 
 {{< highlight "csharp" >}}
@@ -111,7 +111,7 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 ## **Ta bort skyddet av en arbetsbok**
-För att avskydda en arbetsbok, använd följande kodrader för VSTO (C#, VB) och Aspose.Cells för .NET (C#, VB).
+För att avskydda en arbetsbok, använd följande kodrader för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB).
 ### **VSTO**
 **C#**
 
@@ -126,7 +126,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 {{< /highlight >}}
 
 
-### **Aspose.Cells för .NET**
+### **Aspose.Cells for .NET**
 **C#**
 
 {{< highlight "csharp" >}}

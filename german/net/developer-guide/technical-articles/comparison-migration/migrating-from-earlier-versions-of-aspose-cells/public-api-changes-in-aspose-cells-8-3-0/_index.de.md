@@ -118,7 +118,7 @@ foreach(Chart chart in book.Worksheets[0].Charts)
 {{< /highlight >}}
 
 
-### **Methode PlotArea.SetPositionAuto hinzugefügt**
+### **Methode PlotArea.SetPositionAuto Hinzugefügt**
 Die Methode SetPositionAuto wurde der Klasse PlotArea hinzugefügt, die dabei hilft, den Plotbereich des Diagramms in den automatischen Modus zu versetzen.
 
 **C#**

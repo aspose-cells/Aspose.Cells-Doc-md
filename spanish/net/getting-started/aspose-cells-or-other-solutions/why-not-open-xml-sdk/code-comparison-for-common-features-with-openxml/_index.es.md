@@ -12,7 +12,7 @@ Esta sección incluye los siguientes temas
 - [Obtener un encabezado de columna](/cells/es/net/get-a-column-heading/)
 - [Obtener información de la hoja de trabajo](/cells/es/net/get-worksheet-information/)
 - [Insertar un gráfico](/cells/es/net/insert-a-chart/)
-- [Insertar una nueva hoja de cálculo](/cells/es/net/insert-a-new-worksheet/)
+- [Insertar una nueva hoja de trabajo](/cells/es/net/insert-a-new-worksheet/)
 - [Insertar texto en una celda](/cells/es/net/insert-text-into-a-cell/)
 - [Combinar dos celdas adyacentes](/cells/es/net/merge-two-adjacent-cells/)
 - [Abrir un documento de hoja de cálculo para acceso de solo lectura](/cells/es/net/open-a-spreadsheet-document-for-read-only-access/)

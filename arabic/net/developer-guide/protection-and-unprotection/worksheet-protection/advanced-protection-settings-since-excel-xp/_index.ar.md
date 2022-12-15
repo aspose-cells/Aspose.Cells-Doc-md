@@ -42,7 +42,7 @@ Aspose.Cells يدعم كل إعدادات الحماية المتقدمة.
 
  Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)صف دراسي.
 
- ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)فئة توفر[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) الخاصية المستخدمة لتطبيق إعدادات الحماية المتقدمة هذه. ال[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) الخاصية هي في الواقع كائن من[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/protection)فئة تضم العديد من الخصائص المنطقية لتعطيل القيود أو تمكينها.
+ ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) الخاصية المستخدمة لتطبيق إعدادات الحماية المتقدمة هذه. ال[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) الخاصية هي في الواقع كائن من[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/protection)فئة تضم العديد من الخصائص المنطقية لتعطيل القيود أو تمكينها.
 
 يوجد أدناه مثال صغير للتطبيق. يفتح ملف Excel ويستخدم معظم إعدادات الحماية المتقدمة التي يدعمها Excel XP والإصدارات الأحدث.
 

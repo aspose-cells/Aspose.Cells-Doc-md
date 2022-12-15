@@ -5,7 +5,7 @@ weight: 30
 url: /sv/net/dnn-import-users-from-excel/
 ---
 ## **Introduktion**
-Aspose .NET Importera användare från Excel-modulen tillåter utvecklare att importera bulk-användare från Excel-fil. Den här modulen visar den kraftfulla kalkylbladsfunktionen av Aspose.Cells.
+Aspose .NET Importera användare från Excel-modulen låter utvecklare importera bulk-användare från Excel-fil. Den här modulen visar den kraftfulla kalkylbladsfunktionen av Aspose.Cells.
 ### **Modulfunktioner**
 Denna första version av modulen är berikad med följande coola funktioner för att göra importprocessen enkel och lätt att använda:
 
@@ -41,7 +41,7 @@ När du har laddat ned, följ dessa steg för att installera modulen på din DNN
 
  Vänligen kontrollera[denna modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) från DNN för mer information.
 ## **Använder sig av**
-När du har installerat modulen Aspose .NET Cells Importera användare från Excel för DNN är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
+Efter att du har installerat modulen Aspose .NET Cells Importera användare från Excel för DNN-modulen är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
 
 1. Se till att du är inloggad på DNN med ett konto på värd- eller administratörsnivå.
 1. Navigera till sidan där du vill lägga till exportmodulen.

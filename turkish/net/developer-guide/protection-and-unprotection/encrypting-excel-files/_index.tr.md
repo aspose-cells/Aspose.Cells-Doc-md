@@ -6,7 +6,7 @@ url: /tr/net/encrypting-excel-files/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel (97 - 365), elektronik tablolarınızı şifrelemenizi ve parolayla korumanızı sağlar. Bir şifreleme hizmeti sağlayıcısı tarafından sağlanan algoritmaları veya farklı özelliklere sahip bir dizi şifreleme algoritması olan CSP'yi kullanır. Varsayılan CSP, "Office 97/2000 Uyumlu" veya "Zayıf Şifreleme (XOR)" şeklindedir. Uygun şifreleme anahtarı uzunluğunu seçmek önemlidir. Bazı CSP'ler 40 veya 56 bitten fazlasını desteklemez. Bu, zayıf şifreleme olarak kabul edilir. Güçlü şifreleme için minimum 128 bit anahtar uzunluğu gereklidir. Microsoft Windows, güçlü şifreleme türleri de sunan CSP'ler içerir, örneğin 'Microsoft Güçlü Şifreleme Sağlayıcı'. Size bir fikir vermesi için, bankaların İnternet Bankacılığı sistemleriyle bağlantıyı şifrelemek için kullandıkları 128 bit şifrelemedir.
+Microsoft Excel (97 - 365), elektronik tablolarınızı şifrelemenizi ve parolayla korumanızı sağlar. Bir şifreleme hizmeti sağlayıcısı tarafından sağlanan algoritmaları veya farklı özelliklere sahip bir dizi şifreleme algoritması olan CSP'yi kullanır. Varsayılan CSP, "Office 97/2000 Uyumlu" veya "Zayıf Şifreleme (XOR)" şeklindedir. Uygun şifreleme anahtarı uzunluğunu seçmek önemlidir. Bazı CSP'ler 40 veya 56 bitten fazlasını desteklemez. Bu, zayıf şifreleme olarak kabul edilir. Güçlü şifreleme için minimum 128 bit anahtar uzunluğu gerekir. Microsoft Windows, güçlü şifreleme türleri de sunan CSP'ler içerir, örneğin 'Microsoft Güçlü Şifreleme Sağlayıcı'. Size bir fikir vermesi için, bankaların İnternet Bankacılığı sistemleriyle bağlantıyı şifrelemek için kullandıkları 128 bit şifrelemedir.
 
 Aspose.Cells, Microsoft Excel dosyalarını istediğiniz şifreleme türüyle şifrelemenizi ve parola korumanızı sağlar.
 
@@ -36,7 +36,7 @@ Aşağıdaki örnek, Aspose.Cells API kullanılarak bir excel dosyasının nası
 ## **Şifrelenmiş dosyanın parolasını doğrulayın**
 
  Aspose.Cells for .NET, şifrelenmiş dosyanın parolasını doğrulamak için şu bilgileri sağlar:[**Parolayı Doğrula**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) yöntem. Bu yöntemler, dosya akışı ve doğrulanması gereken parola olmak üzere iki parametreyi kabul eder.
-Aşağıdaki kod parçacığı,[**Parolayı Doğrula**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) Sağlanan parolanın geçerli olup olmadığını doğrulama yöntemi.
+ Aşağıdaki kod parçacığı,[**Parolayı Doğrula**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) Sağlanan parolanın geçerli olup olmadığını doğrulama yöntemi.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 

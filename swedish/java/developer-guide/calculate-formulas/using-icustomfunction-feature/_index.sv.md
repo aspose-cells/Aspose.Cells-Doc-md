@@ -8,13 +8,13 @@ url: /sv/java/using-icustomfunction-feature/
 
 Den här artikeln ger en detaljerad förståelse för hur du använder ICustomFunction-funktionen för att implementera anpassade funktioner med Aspose.Cells API:er.
 
-ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som alla andra standardfunktioner i Microsoft Excel.
+ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standard Microsoft Excel-funktion som helst.
 
- Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om det nya API:et:[här](/cells/sv/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om den nya API:[här](/cells/sv/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Om du är ny på Aspose.Cells för Java API:er, kontrollera[detta](https://docs.aspose.com/cells/java/installation/) artikel för att veta hur du kan förvärva och referera till Aspose.Cells för Java i ditt projekt.
+ Om du är ny med Aspose.Cells for Java API:er, kontrollera[detta](https://docs.aspose.com/cells/java/installation/) artikel för att veta hur du kan förvärva och referera till Aspose.Cells for Java i ditt projekt.
 
 {{% /alert %}} 
 ## **Skapa och utvärdera en användardefinierad funktion**

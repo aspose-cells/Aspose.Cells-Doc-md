@@ -6,7 +6,7 @@ url: /tr/jasperreports/feature-overview/
 ---
 {{% alert color="primary" %}}
 
-JasperReports için Aspose.Cells, raporları JasperReports ve JasperServer'dan Microsoft Excel formatına dışa aktarmak için kullanılan bir üründür. JasperReports için Aspose.Cells, yerleşik dışa aktarıcının tüm özelliklerini devralır ve ayrıca JasperReports'un orijinal XLS oluşturucusunun bazı zayıflıklarını giderir. Bu bölüm, JasperReports özellikleri için Aspose.Cells'in ayrıntılı açıklamasını sağlar. Özellikler hakkında daha fazla bilgi edinmek için tablodaki ilgili bağlantılara tıklayın.
+Aspose.Cells for JasperReports, raporları JasperReports ve JasperServer'dan Microsoft Excel formatına dışa aktarmak için kullanılan bir üründür. Aspose.Cells for JasperReports yerleşik ihracatçının tüm özelliklerini devralır ve ayrıca JasperReports'un orijinal XLS oluşturucusunun bazı zayıflıklarını giderir. Bu bölüm, Aspose.Cells for JasperReports özelliklerinin ayrıntılı açıklamasını sağlar. Özellikler hakkında daha fazla bilgi edinmek için tablodaki ilgili bağlantılara tıklayın.
 
 {{% /alert %}}
 

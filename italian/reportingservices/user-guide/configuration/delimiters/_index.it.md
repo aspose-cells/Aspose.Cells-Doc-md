@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /it/reportingservices/delimiters/
 ---
-Aspose.Cells per Reporting Services supporta un delimitatore specificato durante il rendering del formato TXT o CSV. Due impostazioni controllano il delimitatore di campo in Aspose.Cells per Reporting Services.
+Aspose.Cells for Reporting Services supporta un delimitatore specificato durante il rendering del formato TXT o CSV. Due impostazioni controllano il delimitatore di campo in Aspose.Cells for Reporting Services.
 
 1.  Il parametro del delimitatore di campo in**rsreportserver.config** può controllare solo un'estensione per il rendering specificata.
 

@@ -10,7 +10,7 @@ url: /zh/java/find-or-search-data/
 
 **使用“查找”对话框查找包含特定值的单元格** 
 
-![待办事项：图片_替代_文本](find-or-search-data_1.png)
+![待办事项：图像_替代_文本](find-or-search-data_1.png)
 
 在此示例中，搜索值为“Oranges”。
 
@@ -34,7 +34,7 @@ Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/
 
 **示例工作表数据** 
 
-![待办事项：图片_替代_文本](find-or-search-data_2.png)
+![待办事项：图像_替代_文本](find-or-search-data_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsContainingFormula-FindingCellsContainingFormula.java" >}}
 ## **搜索字符串**

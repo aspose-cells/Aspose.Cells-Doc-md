@@ -1,20 +1,20 @@
 ﻿---
-title: Raporlama Hizmetleri v1.4.0 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services v1.4.0 Sürüm Notları
 type: docs
 weight: 40
 url: /tr/reportingservices/aspose-cells-for-reporting-services-v1-4-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[Raporlama Hizmetleri v1.4.0 için Aspose.Cells](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.0/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Reporting Services v1.4.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.0/)
 
 {{% /alert %}} 
 
- Raporlama Hizmetleri 1.4.0 için Aspose.Cells'i duyurmaktan mutluluk duyuyoruz!
+ Aspose.Cells for Reporting Services 1.4.0'ı duyurmaktan mutluluk duyuyoruz!
 
  Ne değişti?
 
- l Microsoft SQL Server 2008 Raporlama Hizmetlerini destekler.
+ Microsoft SQL Server 2008 Raporlama Hizmetlerini destekler.
 
  l Microsoft SQL Server 2000 Raporlama Hizmetlerini destekler.
 
@@ -22,7 +22,7 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-v1-4-0-release-no
 
  l 9 düzeltme ve geliştirme.
 
- Raporlama Hizmetleri 1.4.0 için Aspose.Cells'deki düzeltmeler ve geliştirmeler
+ Aspose.Cells for Reporting Services 1.4.0'daki düzeltmeler ve geliştirmeler
 
 |**Sorun Kimliği** |**Bileşen** |**Özet** |
 |:- |:- |:- |

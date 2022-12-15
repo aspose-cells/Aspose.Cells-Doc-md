@@ -9,13 +9,13 @@ url: /it/java/sort-data-in-spreadsheets/
 
 Per ordinare i dati nel foglio di calcolo utilizzando Aspose.Cells, è sufficiente richiamare il metodo DataSorter.sorter() dopo aver impostato alcune proprietà facili da impostare dell'area della cella.
 
-Java è riportato di seguito.
+Il codice Java è menzionato di seguito.
 
 {{% /alert %}} 
 
 Ordina i dati utilizzando Aspose.Cells
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

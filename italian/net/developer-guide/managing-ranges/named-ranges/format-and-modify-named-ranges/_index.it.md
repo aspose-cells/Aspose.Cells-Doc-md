@@ -4,7 +4,7 @@ type: docs
 weight: 85
 url: /it/net/format-and-modify-named-ranges/
 ---
-## **Intervalli di formati**
+## **Intervalli di formato**
 
 ### **Impostazione del colore di sfondo e degli attributi dei caratteri su un intervallo denominato**
 
@@ -38,7 +38,7 @@ L'esempio seguente mostra come impostare i bordi intorno a ogni cella dell'inter
 
 ## **Unione delle gamme**
 
- Aspose.Cells fornisce[**Intervallo.Unione**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union)metodo per prendere l'unione per gli intervalli, il metodo restituisce un[*Lista di array*](https://docs.microsoft.com/en-gb/dotnet/api/system.collections.arraylist?view=netframework-4.8)oggetto. L'esempio seguente mostra come prendere l'unione per gli intervalli.
+ Aspose.Cells fornisce[**Intervallo.Unione**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union) metodo per prendere l'unione per gli intervalli, il metodo restituisce un[*Lista di array*](https://docs.microsoft.com/en-gb/dotnet/api/system.collections.arraylist?view=netframework-4.8)oggetto. L'esempio seguente mostra come prendere l'unione per gli intervalli.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-UnionOfRanges-1.cs" >}}
 

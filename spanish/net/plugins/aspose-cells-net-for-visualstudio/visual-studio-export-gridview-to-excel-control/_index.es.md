@@ -10,7 +10,7 @@ url: /es/net/visual-studio-export-gridview-to-excel-control/
 Esta versión inicial del control proporciona las siguientes características:
 
 - Obtenga una copia sin conexión de su contenido GridView en línea favorito para editar, compartir e imprimir.
-- Se hereda del control GridView ASP.NET predeterminado y, por lo tanto, tiene todas sus características y propiedades.
+- Se hereda del control GridView ASP.NET predeterminado y, por lo tanto, tiene todas sus funciones y propiedades.
 - Exporte GridView a Xlsx, Xlsb, Xls, Txt, Csv, Ods.
 - Funciona con todas las versiones .NET a partir de .NET 2.0.
 - Posibilidad de personalizar/localizar el texto del botón Exportar.
@@ -118,7 +118,7 @@ Las siguientes propiedades están expuestas para configurar y usar funciones gen
 | Formato de salida de exportación| enumeración| Xlsx, Xlsb, Xls, Txt, Csv, Ods| Formato de salida del documento exportado. Los formatos admitidos son Xlsx, Xlsb, Xls, Txt, Csv, Ods|
 | ExportOutputPathOnServerExportOutputPathOnServer| cuerda| C:<br> temperatura| Salida local Ruta del disco en el servidor donde se guarda automáticamente una copia de la exportación. La aplicación debe tener acceso de escritura a esta ruta.|
 | ExportDataSource| objeto| allRowsDataTable|Establece el objeto del que este control de enlace de datos recupera su lista de elementos de datos. El objeto debe tener todos los datos que necesitan ser exportados. Esta propiedad se usa además de la propiedad DataSource normal y es útil cuando la paginación personalizada está habilitada y la página actual solo obtiene filas para mostrarlas en la pantalla.|
-| LicenseFilePath| cuerda|| Ruta local en el servidor al archivo de licencia. Por ejemplo c:<br> inetpub<br> Aspose.Cells.lic|
+| LicenseFilePath| cuerda|| Ruta local en el servidor al archivo de licencia. Por ejemplo C:<br> inetpub<br> Aspose.Cells.lic|
 A continuación se muestra un ejemplo del control Exportar GridView a Excel con todas las propiedades utilizadas.
 
 {{< highlight "java" >}}

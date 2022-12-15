@@ -6,7 +6,7 @@ url: /sv/net/set-default-font-while-rendering-spreadsheet-to-images/
 ---
 {{% alert color="primary" %}}
 
- Vänligen använd[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) egenskap för att ställa in standardteckensnittet medan kalkylblad renderas till bilder. Den här egenskapen kommer bara att vara effektiv när standardteckensnittet i arbetsboken inte kunde återge dina tecken. Standardteckensnittet som anges med[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)egenskapen används för alla de celler som har ogiltiga eller obefintliga teckensnitt.
+ Vänligen använd[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) egenskap för att ställa in standardteckensnittet medan kalkylblad renderas till bilder. Den här egenskapen kommer bara att vara effektiv när standardteckensnittet i arbetsboken inte kunde återge dina tecken. Standardteckensnittet som anges med[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) egenskapen används för alla de celler som har ogiltiga eller obefintliga teckensnitt.
 
 {{% /alert %}}
 

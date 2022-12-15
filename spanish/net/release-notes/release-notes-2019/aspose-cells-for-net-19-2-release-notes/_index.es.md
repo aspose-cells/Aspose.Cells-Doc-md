@@ -44,7 +44,7 @@ Funcionalmente es lo mismo que la propiedad Count, excepto que la propiedad Coun
 #### **Añade el método Hyperlink.Delete()**
 Elimina este hipervínculo.
 #### **Agrega la propiedad Range.Hyperlinks**
-Obtiene todos los hipervínculos del intervalo.
+Obtiene todos los hipervínculos del rango.
 #### **Agrega enumeración CopyFormatType**
 Representa el tipo de formato de copia al insertar filas.
 #### **Agrega la clase InsertOptions y el método Cells.InsertRows(int, int, InsertOptions)**

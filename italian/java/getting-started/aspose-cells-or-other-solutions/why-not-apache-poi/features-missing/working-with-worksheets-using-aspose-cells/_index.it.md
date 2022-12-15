@@ -1,5 +1,5 @@
 ﻿---
-title: Lavorare con i fogli di lavoro utilizzando Aspose.Cells
+title: Lavorare con i fogli di lavoro usando Aspose.Cells
 type: docs
 weight: 20
 url: /it/java/working-with-worksheets-using-aspose-cells/

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells для Android через Java 8.8.0 Примечания к выпуску
+title: Aspose.Cells for Android via Java 8.8.0 Примечания к выпуску
 type: docs
 weight: 40
 url: /ru/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
@@ -80,7 +80,7 @@ url: /ru/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 |CELLSJAVA-41809|Worksheet.calculateFormula выдает исключение нулевого указателя, когда формула устанавливается через NameCollection|Исключение|
 |CELLSJAVA-41808|java.lang.NullPointerException в Workbook.save|Исключение|
 ## **Public API и обратно несовместимые изменения**
-Ниже приведен список любых изменений, внесенных в общедоступный API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в Aspose.Cells для Android. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Android. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форум поддержки Aspose.Cells.
 ### **Добавляет свойство HTMLLoadOptions.DeleteRedundantSpaces.**
  Указывает, удаляются ли лишние пробелы, когда текст переносит строки с помощью<br>ярлык.
 ### **Устарело свойство LoadOptions.ConvertNumericData и добавлено свойство TxtLoadOptions.ConvertNumericData.**
@@ -100,6 +100,6 @@ url: /ru/java/aspose-cells-for-android-via-java-8-8-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.7.1, Aspose.Cells for .NET v8.7.2, Aspose.Cells for .NET v8.8.0, Aspose.Cells for Java v8 .7.1, Aspose.Cells for Java v8.7.2 и Aspose.Cells for Java v8.8.0 также включены в этот Aspose.Cells для Android v8.8.0.
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.7.1, Aspose.Cells for .NET v8.7.2, Aspose.Cells for .NET v8.8.0, Aspose.Cells for Java v8. 7.1, Aspose.Cells for Java v8.7.2 и Aspose.Cells for Java v8.8.0 также включены в этот Aspose.Cells for Android v8.8.0.
 
 {{% /alert %}}

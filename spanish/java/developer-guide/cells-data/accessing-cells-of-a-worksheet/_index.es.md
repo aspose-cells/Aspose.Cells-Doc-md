@@ -19,7 +19,7 @@ Sabemos que todas las hojas de cálculo pueden contener datos que básicamente s
 ### **Usando Cell Nombre**
  Los desarrolladores pueden acceder a cualquier celda específica pasando su nombre de celda al[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) colección de la[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase.
 
- Si crea una hoja de cálculo en blanco al principio, el recuento de[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) la recaudación es cero. Cuando utiliza este enfoque para acceder a una celda, verificará si esta celda existe en la colección o no. En caso afirmativo, devuelve el objeto de celda en la colección; de lo contrario, crea una nueva[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objeto, añade el objeto al[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)colección y luego devuelve el objeto. Este enfoque es la forma más fácil de acceder a la celda si está familiarizado con Microsoft Excel, pero es más lento que otros enfoques.
+ Si crea una hoja de cálculo en blanco al principio, el recuento de[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)la recaudación es cero. Cuando utiliza este enfoque para acceder a una celda, verificará si esta celda existe en la colección o no. En caso afirmativo, devuelve el objeto de celda en la colección; de lo contrario, crea una nueva[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objeto, añade el objeto al[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)colección y luego devuelve el objeto. Este enfoque es la forma más fácil de acceder a la celda si está familiarizado con Microsoft Excel, pero es más lento que otros enfoques.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
 
@@ -40,7 +40,7 @@ Este enfoque funciona de la misma manera que el primer enfoque.
 
 {{% /alert %}} 
 ## **Acceso al rango máximo de visualización de la hoja de trabajo**
-Aspose.Cells permite a los desarrolladores acceder al rango máximo de visualización de una hoja de trabajo. El rango de visualización máximo, el rango de celdas entre la primera y la última celda con contenido, es útil cuando necesita copiar, seleccionar o mostrar todo el contenido de una hoja de cálculo en una imagen.
+Aspose.Cells permite a los desarrolladores acceder al rango máximo de visualización de una hoja de trabajo. El rango de visualización máximo, el rango de celdas entre la primera y la última celda con contenido, es útil cuando necesita copiar, seleccionar o mostrar todo el contenido de una hoja de trabajo en una imagen.
 
  Puede acceder al rango máximo de visualización de una hoja de trabajo usando[Hoja de trabajo.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange).
 

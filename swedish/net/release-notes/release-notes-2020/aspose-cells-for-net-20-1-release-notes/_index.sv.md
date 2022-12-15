@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 20.1 Release Notes
+title: Aspose.Cells for .NET 20.1 Release Notes
 type: docs
 weight: 70
 url: /sv/net/aspose-cells-for-net-20-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 20.1](https://www.nuget.org/packages/Aspose.Cells/20.1.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 20.1](https://www.nuget.org/packages/Aspose.Cells/20.1.0).
 
 {{% /alert %}} 
 
@@ -34,12 +34,12 @@ url: /sv/net/aspose-cells-for-net-20-1-release-notes/
 |CELLSNET-47040|Nätdiagram i ODS-filen renderas inte bra|Insekt|
 |CELLSNET-47060|Stöd anpassad XY av titel i ods-fil|Insekt|
 |CELLSNET-47072|Skillnaden i länksökvägen hämtad av Aspose.Cells jämfört med Excel|Insekt|
-|CELLSNET-47087|Har ett problem när du skriver ut excel-filen som sparats av Aspose.Cells för .NET|Insekt|
+|CELLSNET-47087|Har ett problem när du skriver ut excel-filen som sparats av Aspose.Cells for .NET|Insekt|
 |CELLSNET-47082|Beräkning av formel hänger|Insekt|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen ReplaceOptions.RegexKey.**
- Indikerar om den sökta nyckeln är regex. Om**Sann** då kommer den sökta nyckeln (som ska ersättas del) att tas som ett användarspecificerat regex.
+ Indikerar om den sökta nyckeln är regex. Om**Sann**då kommer den sökta nyckeln (som ska ersättas del) att tas som ett användarspecificerat regex.
 #### **Lägger till metoden CustomImplementationFactory.CreateCultureInfo.**
 Vissa kulturer kanske inte stöds av användarens miljö. För att undvika undantag för sådana situationer kan användaren åsidosätta denna metod för att tillhandahålla en giltig CultureInfo-instans istället.
 #### **Tar bort den föråldrade metoden ValidationCollection.Add(Aspose.Cells.Validation).**

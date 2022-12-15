@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 18.1 Release Notes
+title: Aspose.Cells for Java 18.1 Release Notes
 type: docs
 weight: 120
 url: /sv/java/aspose-cells-for-java-18-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.1.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.1.
 
 {{% /alert %}} 
 
@@ -29,8 +29,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.1.
 |CELLSJAVA-42499|Marginaler och layoutskillnader vid jämförelse av utdata-PDF (av Aspose.Cells) med MS Excel-genererad PDF|Insekt|
 |CELLSJAVA-42486|Funktionen fungerar inte i Java - ResultSet|Insekt|
 |CELLSJAVA-42500|NullPointerException inträffar när MS Excel-filen laddas|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen LoadOptions.ParsingPivotCachedRecords**
 Indikerar om tolkning av pivotcachade poster när filen laddas. Standardvärdet är falskt. Gäller endast filformaten Excel Xlsx, Xltx, Xltm, Xlsm och Xlsb.
 ### **Lägger till egenskapen HtmlSaveOptions.ExcludeUnusedStyles**

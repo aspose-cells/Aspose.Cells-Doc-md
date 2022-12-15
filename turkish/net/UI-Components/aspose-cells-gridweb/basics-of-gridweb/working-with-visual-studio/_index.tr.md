@@ -75,7 +75,7 @@ IIS kök klasörünüzde saklanan tüm klasörler ve web uygulamaları görünt�
 
 
 
-Tüm web sayfaları (ASP.NET dahil) iki modda açılabilir. Biri, geliştiricilerin kaynak koduna erişmesine ve değiştirmesine izin veren kaynak görünümüdür. İkinci mod, web sayfalarını WYSIWYG tarzında tasarlamak için kullanılabilen tasarım görünümüdür. Yukarıdaki ekran görüntüsü default.aspx web sayfasının kaynak görünümünü göstermektedir. Tasarım görünümünü görüntülemek için tıklayın**Tasarım**. 
+Tüm web sayfaları (ASP.NET dahil) iki modda açılabilir. Biri, geliştiricilerin kaynak koduna erişmesine ve değiştirmesine izin veren kaynak görünümüdür. İkinci mod, web sayfalarını WYSIWYG tarzında tasarlamak için kullanılabilen tasarım görünümüdür. Yukarıdaki ekran görüntüsü default.aspx web sayfasının kaynak görünümünü gösterir. Tasarım görünümünü görüntülemek için tıklayın**Tasarım**. 
 
 **default.aspx sayfasının tasarım görünümü** 
 

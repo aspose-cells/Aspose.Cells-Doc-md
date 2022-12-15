@@ -133,7 +133,7 @@ Para convertir hojas de cálculo a PDF con Aspose.Cells y Aspose.PDF:
 
 1.  Instanciar un objeto de la**[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**clase llamando a su constructor vacío.
 1. Realice el trabajo deseado en la hoja de cálculo utilizando el Aspose.Cells API.
-1. Llama a**[Libro de trabajo.guardar](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**método para guardar la hoja de cálculo:
+1. Llama a**[Libro de trabajo.guardar](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**Método para guardar la hoja de cálculo:
 1. Establezca el formato de archivo en XML.
  1. Seleccione Aspose_Pdf (un valor predefinido) en la interfaz FileFormatType. Esto indica al método de guardado que genere una hoja de cálculo en formato XML compatible con el esquema Aspose.PDF para que Aspose.PDF for Java pueda generar un documento PDF.
 1. Cuando se haya creado el archivo XML, cree un objeto de la clase Pdf en el paquete aspose.pdf.

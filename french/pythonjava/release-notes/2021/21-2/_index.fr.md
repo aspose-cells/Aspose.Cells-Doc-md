@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Python via Java 21.2 Notes de mise à jour
+title: Aspose.Cells for Python via Java 21.2 Notes de mise à jour
 type: docs
 weight: 12
 url: /fr/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Python via Java 21.2.
+Cette page contient les notes de version pour Aspose.Cells for Python via Java 21.2.
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Python via Java 
 |CELLSJAVA-43382|La copie produit un classeur corrompu|
 |CELLSJAVA-43364|Problème lors de l'enregistrement d'un graphique ayant une image dans le marqueur à l'image|
 |CELLSJAVA-43389|Paramètres de protection par mot de passe du classeur/feuille de calcul perdus lors de l'enregistrement au format de fichier XLSB|
-|CELLSJAVA-43392| La copie de la feuille produit un classeur corrompu|
+|CELLSJAVA-43392|La copie de la feuille produit un classeur corrompu|
 |CELLSJAVA-43387|L'exportation d'une seule feuille au format HTML soulève une exception|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
@@ -24,7 +24,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 
 ### **Modifie le comportement de Cells.DeleteBlankRows()/Cells.DeleteBlankRows(DeleteOptions)**
 
-Dans les anciennes versions, nous supprimons tous les paramètres de colonne tout en supprimant les lignes vides si la feuille de calcul est vide (pas de données de cellules). Cela rend impossible pour l'utilisateur de supprimer uniquement les lignes vides et de conserver tous les paramètres de colonne. À partir de 21.2, nous n'effaçons plus les paramètres de colonne. Si l'utilisateur doit supprimer les paramètres de colonne pour une feuille de calcul vide, il doit vérifier qu'il n'y a pas de données dans la feuille, puis effacer manuellement ColumnCollection.
+Dans les anciennes versions, nous supprimons tous les paramètres de colonne tout en supprimant les lignes vides si la feuille de calcul est vide (pas de données de cellules). Cela rend impossible pour l'utilisateur de supprimer uniquement les lignes vides et de conserver tous les paramètres de colonne. À partir de 21.2, nous n'effaçons plus les paramètres de colonne. Si l'utilisateur doit supprimer les paramètres de colonne pour une feuille de calcul vide, il doit vérifier qu'il n'y a pas de données dans la feuille, puis effacer manuellement la ColumnCollection.
 Dans les anciennes versions, nous ne supprimons pas les lignes vides sous forme. Cela rend impossible pour l'utilisateur de supprimer toutes les lignes vides comme prévu. À partir de 12.2, nous supprimons ces lignes vides sous forme avec d'autres lignes vides communes.
 
 ### **Propriété Range.CellCount obsolète.**

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Java 17.1.0 Release Notes
+title: Aspose.Cells for Java 17.1.0 Release Notes
 type: docs
 weight: 120
 url: /sv/java/aspose-cells-for-java-17-1-0-release-notes/
@@ -45,12 +45,12 @@ url: /sv/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-41739|Transparensen av formerna återställs till 0 medan XLS konverteras till XLSB|Insekt|
 |CELLSJAVA-42122|NullPointerException när du öppnar en stor Excel-fil|Undantag|
 |CELLSJAVA-42123|Form till bild-fel - vid rendering av en Excel-fil|Undantag|
-|CELLSJAVA-42144|new Workbook() kan skapa ett undantag i Aspose.Cells för Java 16.12.6|Undantag|
+|CELLSJAVA-42144|new Workbook() kan skapa ett undantag i Aspose.Cells for Java 16.12.6|Undantag|
 |CELLSJAVA-42143|Undantag: java.lang.ArrayIndexOutOfBoundsException på metoden Workbook.save()|Undantag|
 |CELLSJAVA-42137|Ogiltigt undantag för kolumnindex vid rendering av Excel|Undantag|
 |CELLSJAVA-42111|Ogiltigt formelundantag för den sista cellen|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till setter för egenskapen LoadFilter.LoadDataFilterOptions för att ersätta variabeln m_LoadDataFilterOptions.**
 Användaren kan ändra egenskapen LoadDataFilterOptions i sin implementering av LoadFilter för att ändra beteendet för att ladda arbetsboken.
 ### **Lägger till egenskapen CellsHelper.SignificantDigits.**

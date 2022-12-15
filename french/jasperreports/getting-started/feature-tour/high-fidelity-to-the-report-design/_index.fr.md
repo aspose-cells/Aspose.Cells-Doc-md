@@ -6,9 +6,9 @@ url: /fr/jasperreports/high-fidelity-to-the-report-design/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells pour JasperReports exporte les rapports sous la forme de feuilles de calcul Excel Microsoft qui semblent identiques aux rapports exportés par les exportateurs intégrés de[JasperReports](https://community.jaspersoft.com/project/jasperreports-library).
+ Aspose.Cells for JasperReports exporte les rapports sous forme de feuilles de calcul Excel Microsoft qui semblent identiques aux rapports exportés par les exportateurs intégrés de[JasperReports](https://community.jaspersoft.com/project/jasperreports-library).
 
-**Un exemple de rapport XLS exporté à l'aide de Aspose.Cells pour JasperReports** 
+**Un exemple de rapport XLS exporté à l'aide de Aspose.Cells for JasperReports** 
 
 ![tâche : image_autre_texte](high-fidelity-to-the-report-design_1.png)
 

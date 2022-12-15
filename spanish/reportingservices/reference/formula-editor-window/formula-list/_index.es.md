@@ -8,7 +8,7 @@ url: /es/reportingservices/formula-list/
 
 |**Escoger un nombre** |**Nombre de fórmula**|**Descripción**|
 |:- |:- |:- |
-| Campos globales| Tiempo de ejecución| La fecha y la hora en que comenzó a ejecutarse el informe.|
+| Campos globales| Tiempo de ejecución|La fecha y la hora en que comenzó a ejecutarse el informe.|
 || URL del servidor de informes| La URL del servidor de informes en el que se está ejecutando el informe.|
 || Reportar nombre| El nombre del informe tal como está almacenado en la base de datos del servidor de informes.|
 || InformeCarpeta| La ruta completa a la carpeta que contiene el informe. Esto no incluye la URL del servidor de informes.|
@@ -49,6 +49,6 @@ Los operadores aritméticos se utilizan para combinar números, variables numér
 || xor| Realiza una exclusión lógica en dos expresiones booleanas o una exclusión bit a bit en dos expresiones numéricas.|
 || Y también| Realiza una conjunción lógica de cortocircuito en dos expresiones.|
 || Si no|Realiza la disyunción lógica inclusiva de cortocircuito en dos expresiones.|
-| Cambio de bits|>> | Realiza un desplazamiento aritmético a la izquierda en un patrón de bits.|
+| Cambio de bit|>> | Realiza un desplazamiento aritmético a la izquierda en un patrón de bits.|
 ||<< | Realiza un desplazamiento aritmético a la derecha en un patrón de bits.|
 

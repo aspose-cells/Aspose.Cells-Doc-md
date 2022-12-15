@@ -20,7 +20,7 @@ Il gruppo di righe segue da vicino la riga di dati della tabella e comprende due
 
 Il tag di gruppo deve essere posizionato a sinistra della prima colonna di dati della tabella per indicare che la riga è la riga di dati del gruppo di righe. Il formato del tag di gruppo è ##group{GroupColumn}, ad esempio ##group{SalesOrderNumber} dove SalesOrderNumber è uno dei nomi di colonna del set di dati. Una tabella può contenere solo un gruppo di righe, ma un gruppo di righe può contenere più di una riga di dati di gruppo. Il tag di gruppo può essere posizionato solo nella prima riga di dati, come mostrato nell'esempio precedente.
 
-Il tag di gruppo viene rimosso dal file Excel di output Microsoft al momento del rendering. I gruppi di righe sono facoltativi.
+Il tag di gruppo viene rimosso dal file Microsoft Excel di output al momento del rendering. I gruppi di righe sono facoltativi.
 #### **Piè di pagina**
  I piè di pagina vengono dopo il gruppo di righe e comprendono tre parti: tag del piè di pagina, riga di dati del piè di pagina e area di testo del piè di pagina.
 
@@ -28,7 +28,7 @@ Il tag del piè di pagina deve essere posizionato a sinistra della prima colonna
 
 L'area di testo del piè di pagina può contenere testo statico, parametri del report e variabili globali del report, come mostrato nell'esempio precedente.
 
-Il tag piè di pagina viene rimosso dal file Excel di output Microsoft al momento del rendering. I piè di pagina sono facoltativi.
+Il tag piè di pagina viene rimosso dal file Microsoft Excel di output al momento del rendering. I piè di pagina sono facoltativi.
 
 L'output del modello di esempio è mostrato di seguito.
 

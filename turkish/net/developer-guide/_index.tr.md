@@ -355,7 +355,7 @@ Bu Geliştirici Kılavuzu, Aspose.Cells'in çeşitli pratik senaryolarda MS Exce
         <ul>
          <li><a href="/cells/tr/net/worksheet-views/#zoom-factor">yakınlaştır</a></li>
         </ul>
-        <p>Pencere</p>
+        <p>pencere</p>
         <ul>
         <li><a href="/cells/tr/net/working-with-freeze-panes/">Donma bölmeleri</a></li>
         <li><a href="/cells/tr/net/split-cells-in-worksheet/">Çalışma Sayfasında Cells'i Böl</a></li>

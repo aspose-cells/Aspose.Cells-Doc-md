@@ -6,7 +6,7 @@ url: /ar/reportingservices/preface/
 ---
 {{% alert color="primary" %}} 
 
-يحتوي Aspose.Cells لخدمات التقارير بشكل أساسي على مكونين: Aspose.Cells.Report.Designer و Aspose.Cells مقدم لخدمات التقارير. الأول يستخدم لتصميم التقارير مباشرة في Microsoft Excel والأخير مسؤول عن تقديم تقرير RDL إلى Microsoft Excel.
+يحتوي Aspose.Cells for Reporting Services بشكل أساسي على مكونين: Aspose.Cells.Report.Designer و Aspose.Cells.Renderer for Reporting Services. الأول يستخدم لتصميم التقارير مباشرة في Microsoft Excel والأخير مسؤول عن تقديم تقرير RDL إلى Microsoft Excel.
 
 {{% /alert %}} 
 ### **تصميم تقرير باستخدام مصمم التقارير**

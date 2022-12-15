@@ -6,7 +6,7 @@ url: /tr/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- JasperReports için Aspose.Cells numaralı telefondan ücretsiz, sınırsız süreli bir değerlendirme olarak edinilebilir.[indirme sayfası](https://downloads.aspose.com/cells/jasperreports). Ürünün değerlendirme ve lisanslı sürümleri aynı indirmedir.
+ Aspose.Cells for JasperReports ücretsiz, sınırsız süreli değerlendirme olarak mevcuttur.[indirme sayfası](https://downloads.aspose.com/cells/jasperreports). Ürünün değerlendirme ve lisanslı sürümleri aynı indirmedir.
 
  Değerlendirme sürümünden memnun olduğunuzda şunları yapabilirsiniz:[lisans satın al](https://purchase.aspose.com/). Lisans koşullarını anladığınızdan ve kabul ettiğinizden emin olun.
 
@@ -31,7 +31,7 @@ Bu yöntem, JasperReports ile kullanım için geçerlidir.
 
 {{% /alert %}}
 
-Lisansı bilgisayarınıza indirin ve uygun klasöre kopyalayın (örneğin, uygulamanızın klasörü veya**JasperReports\lib**).
+ Lisansı bilgisayarınıza indirin ve uygun klasöre kopyalayın (örneğin, uygulamanızın klasörü veya**JasperReports\lib**).
 Aşağıdaki kodu projenize ekleyin:
 
 {{< highlight "csharp" >}}
@@ -58,7 +58,7 @@ Bu yöntem, JasperServer ile kullanım için geçerlidir.
 
 {{% /alert %}}
 
-1.  Lisansı bilgisayarınıza indirin ve kopyalayın.**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** klasör, nerede**\<Yükleme Dizini>** JasperServer kurulum dizini anlamına gelir.
+1.  Lisansı bilgisayarınıza indirin ve kopyalayın.**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**klasör, nerede**\<Yükleme Dizini>** JasperServer kurulum dizini anlamına gelir.
 1.  bulun**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** dosyasını açın ve aşağıdaki satırları ekleyin:
 
 **xml**
@@ -77,7 +77,7 @@ Bu yöntem, JasperServer ile kullanım için geçerlidir.
 
 Herhangi bir raporu XLS formatına aktarın ve raporun bir değerlendirme mesajı içerip içermediğini kontrol edin. Değerlendirme mesajı yoksa, lisans düzgün çalışıyor demektir.
 
-**JasperReports için Aspose.Cells, değerlendirme modunda bir değerlendirme çalışma sayfası ekler** 
+**Aspose.Cells for JasperReports, değerlendirme modunda bir değerlendirme çalışma sayfası enjekte eder** 
 
 ![yapılacaklar:resim_alternatif_Metin](licensing_1.png)
 

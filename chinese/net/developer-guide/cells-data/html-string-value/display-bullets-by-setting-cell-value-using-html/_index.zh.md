@@ -22,4 +22,4 @@ keywords: add bullets in excel, add bullets in excel c#, display bullets in exce
 
 以下屏幕截图显示了上述示例代码的输出。
 
-![待办事项：图片_替代_文本](display-bullets-by-setting-cell-value-using-html_1.png)
+![待办事项：图像_替代_文本](display-bullets-by-setting-cell-value-using-html_1.png)

@@ -6,14 +6,14 @@ url: /tr/reportingservices/introduction/
 ---
 {{% alert color="primary" %}}
 
-Bu bölümde, Raporlama Servisleri için Aspose.Cells'in nasıl kurulacağı ve kaldırılacağı açıklanmaktadır.
+Bu bölümde Aspose.Cells for Reporting Services'in nasıl kurulacağı ve kaldırılacağı açıklanmaktadır.
 
-Raporlama Hizmetleri için Aspose.Cells iki şekilde dağıtılabilir:
+Aspose.Cells for Reporting Services iki şekilde dağıtılabilir:
 
 - tam bir MSI yükleyici kullanarak veya
 - tek bir DLL kullanarak.
 
-Hem yükleyici hem de DLL, Raporlama Hizmetleri için Aspose.Cells numaralı telefondan ücretsiz olarak indirilebilir.[indirme sayfası](https://downloads.aspose.com/cells/reportingservices).
+ Hem yükleyici hem de DLL, Aspose.Cells for Reporting Services adresinden ücretsiz olarak indirilebilir.[indirme sayfası](https://downloads.aspose.com/cells/reportingservices).
 
 Yükleyiciyi kullanmanın birkaç avantajı vardır:
 

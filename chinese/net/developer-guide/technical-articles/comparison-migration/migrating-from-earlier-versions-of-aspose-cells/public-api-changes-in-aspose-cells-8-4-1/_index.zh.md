@@ -158,9 +158,9 @@ renderer.ToImage(0, "output.png");
 
 
 ### **将注释呈现为 PDF**
-随着 v8.4.1 的发布，Aspose.Cells API 提供了 PageSetup.PrintComments 属性和 PrintCommentsType 枚举，以便在将电子表格转换为 PDF 格式时方便地呈现注释。 PrintCommentsType 枚举具有以下常量。
+随着 v8.4.1 的发布，Aspose.Cells API 提供了 PageSetup.PrintComments 属性和 PrintCommentsType 枚举，以便在将电子表格转换为 PDF 格式时方便地呈现评论。 PrintCommentsType 枚举具有以下常量。
 
-- PrintCommentsType.PrintNoComments：不呈现注释。
+- PrintCommentsType.PrintNoComments：不呈现评论。
 - PrintCommentsType.PrintInPlace：注释将在放置它们的地方呈现。
 - PrintCommentsType.PrintSheetEnd：注释将在工作表末尾呈现。
 
@@ -206,7 +206,7 @@ workbook.Save("printsheetend.pdf");
 
 
 ### **在 Aspose.Cells.GridDesktop 中移动工作表**
-Aspose.Cells.GridDesktop 提供WorksheetCollection.MoveTo 方法，可用于将工作表移动到指定索引。上述方法以源工作表和目标工作表的索引（从零开始）作为参数。
+Aspose.Cells.GridDesktop 提供WorksheetCollection.MoveTo 方法，可用于将工作表移动到指定索引。上述方法以源工作表和目标工作表的索引（从零开始）为参数。
 
 以下示例代码演示了 WorksheetCollection.MoveTo 属性的用法。
 

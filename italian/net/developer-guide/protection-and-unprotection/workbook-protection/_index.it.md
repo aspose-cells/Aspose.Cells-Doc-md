@@ -25,7 +25,7 @@ Sono necessarie solo le seguenti semplici righe di codice per implementare la pr
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Workbook-Structure.cs" >}}
 
 ## **Rimuovere la protezione della struttura della cartella di lavoro utilizzando Aspose.Cell per .Net**
-La struttura della cartella di lavoro non protetta è facile con Aspose.Cells API.
+Non proteggere la struttura della cartella di lavoro è facile con l'API Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-Unprotect-Workbook-Structure.cs" >}}
 

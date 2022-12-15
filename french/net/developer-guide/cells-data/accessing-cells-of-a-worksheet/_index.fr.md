@@ -1,5 +1,5 @@
 ﻿---
-title: Accéder au Cells d'une feuille de travail
+title: Accéder au Cells d'une feuille de calcul
 type: docs
 weight: 10
 url: /fr/net/accessing-cells-of-a-worksheet/
@@ -26,7 +26,7 @@ Nous savons que toutes les feuilles de calcul peuvent contenir des données qui 
 
  Les développeurs peuvent accéder à n'importe quelle cellule spécifique en transmettant son nom de cellule au[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collecte de la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe comme index.
 
- Si vous créez une feuille de calcul vierge au début, le nombre de[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) la collecte est nulle. Lorsque vous utilisez cette approche pour accéder à une cellule, il vérifie si cette cellule existe dans la collection ou non. Si oui, il renvoie l'objet cellule dans la collection sinon, il crée un nouveau[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) objet, ajoute l'objet au[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection, puis retourne l'objet. Cette approche est le moyen le plus simple d'accéder à la cellule si vous connaissez Excel Microsoft, mais c'est la plus lente par rapport aux autres approches.
+ Si vous créez une feuille de calcul vierge au début, le nombre de[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)la collecte est nulle. Lorsque vous utilisez cette approche pour accéder à une cellule, il vérifie si cette cellule existe dans la collection ou non. Si oui, il renvoie l'objet cellule dans la collection sinon, il crée un nouveau[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) objet, ajoute l'objet au[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection, puis retourne l'objet. Cette approche est le moyen le plus simple d'accéder à la cellule si vous connaissez Excel Microsoft, mais c'est la plus lente par rapport aux autres approches.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 

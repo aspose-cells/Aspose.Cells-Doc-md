@@ -5,7 +5,7 @@ weight: 160
 url: /ar/reportingservices/working-with-table-hide-attributes/
 ---
 1.  في Microsoft Excel ، انقر فوق**تعديل السمة** على شريط الأوامر Aspose.Cells.
- يظهر مربع الحوار "تعديل التقرير".
+يظهر مربع الحوار "تعديل التقرير".
 1. حدد عنصر تقرير الجدول.
 1.  انقر على**يخفي** التبويب.
 

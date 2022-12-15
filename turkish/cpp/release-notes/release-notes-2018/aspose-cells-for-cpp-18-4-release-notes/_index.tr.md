@@ -18,11 +18,11 @@ Bu sayfa, CPP 18.4 için Aspose.Cells sürüm notlarını içerir.
 |CELLSCPP-69|C++ test senaryolarındaki sorunları çözün|Yeni özellik|
 |CELLSCPP-70|System.Drawing modülü sınıflarında bellek sızıntısını çözün|Yeni özellik|
 |CELLSCPP-73|.h dosyalarını yayınlamak için bir yöntem yazın|Yeni özellik|
-|CELLSCPP-75|C++ işlevini uygulayın: Akıştan Görüntü Çiz|Yeni özellik|
-|CELLSCPP-76|C++ sınıflarını uygulayın: ComIStreamWrapper, Metafile|Yeni özellik|
+|CELLSCPP-75|C++ işlevini uygulama: Akıştan Görüntü Çiz|Yeni özellik|
+|CELLSCPP-76|C++ sınıflarını uygulama: ComIStreamWrapper, Metafile|Yeni özellik|
 |CELLSCPP-77|C++ test senaryosunda hata ayıklama: Kopyalar|Yeni özellik|
 |CELLSCPP-78|C++ test durumlarında sorunları çözün: DigitalSignature, EnumTypes, Finds, Formulas, Hyperlinks modülleri|Yeni özellik|
-|CELLSCPP-79|C++ sürüm sürümünün bağlantı sorununu çözün|Yeni özellik|
+|CELLSCPP-79|C++ yayın sürümünün bağlantı sorununu çözün|Yeni özellik|
 |CELLSCPP-81|Grafik modülünde FillPath sorununu düzeltin|Yeni özellik|
 |CELLSCPP-82|System.Drawing modülü sorununu test senaryosuna göre düzeltin|Yeni özellik|
 |CELLSCPP-83|Grafik modülünde gppoint FillPath sorununu düzeltin|Yeni özellik|
@@ -39,7 +39,7 @@ Bu sayfa, CPP 18.4 için Aspose.Cells sürüm notlarını içerir.
 |CELLSCPP-108|Dosyaları açın ve grafiklerle ilgili sorunları kontrol edin|Yeni özellik|
 |CELLSCPP-106|Bellek sızıntısı sorunu|Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi halka açık API'de yapılan tüm değişikliklerin ve C++ için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen dile getirin Aspose.Cells destek forumunda.
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for C++ numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **'SetIs*' gibi tüm yöntemleri 'Set*' yöntemleri olarak yeniden adlandırır**
 IWorksheet'te SetIsOutlineShown'dan SetIsOutlineShown'a, SetIsSelected'den SetSelected'e vb. gibi yöntemleri yeniden adlandırır. Daha fazla ayrıntı için API Referans kılavuzuna bakın.
 #### **Rengi System::Drawing::Color Olarak Değiştirir**

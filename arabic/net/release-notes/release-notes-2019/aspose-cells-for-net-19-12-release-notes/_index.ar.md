@@ -75,7 +75,7 @@ url: /ar/net/aspose-cells-for-net-19-12-release-notes/
 الرجاء استخدام (LoadDataFilterOptions.Drawing & ~ LoadDataFilterOptions.Chart) بدلاً من LoadDataFilterOptions.Shape.
 #### **يضيف فئة FormulaParseOptions**
 يوفر خيارات للمستخدم لإعداد الصيغ.
-#### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (سلسلة sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
+#### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (string sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
 يضبط الصيغ مع الخيارات.
 #### **الطرق القديمة: Cell.SetFormula (صيغة سلسلة ، منطقي هو R1C1 ، منطقي isLocal ، قيمة الكائن) ، SetArrayFormula (string arrayFormula ، int rowNumber ، int columnNumber ، bool isR1C1 ، bool isLocal) ، SetSharedFormula (string sharedFormula، int rowNumber ، int row) isR1C1 ، منطقي isLocal)**
 استخدم الطرق المقابلة مع FormulaParseOptions بدلاً من ذلك.

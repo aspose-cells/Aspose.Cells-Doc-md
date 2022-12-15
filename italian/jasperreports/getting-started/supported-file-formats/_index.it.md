@@ -6,7 +6,7 @@ url: /it/jasperreports/supported-file-formats/
 ---
 |**Formato**|**Descrizione**|**Carico**|**Salva**|
 |:- |:- |:- |:- |
-|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Salva il documento nella cartella di lavoro Microsoft Excel 97-2003.||{{< emoticons/tick >}}|
+|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Salva il documento nella cartella di lavoro di Microsoft Excel 97-2003.||{{< emoticons/tick >}}|
 |[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Salva il documento in Office Open XML SpreadsheetML Workbook o file modello, con o senza macro.||{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|Salva il documento in ODS (OpenDocument Spreadsheet).||{{< emoticons/tick >}}|
 |[XML](https://docs.fileformat.com/web/xml/)|Linguaggio di marcatura estensibile||{{< emoticons/tick >}}|

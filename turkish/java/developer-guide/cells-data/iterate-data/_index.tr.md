@@ -102,7 +102,7 @@ Yukarıda bahsedilen yaklaşımların her ikisinin de aşağı yukarı benzer bi
 
 1. MaxRow, MaxDataRow, MaxColumn, MaxDataColumn ve MaxDisplayRange gibi API'ler ilgili istatistikleri toplamak için fazladan zaman gerektirir. Veri matrisinin (satır x sütun) büyük olması durumunda, bu API'lerin kullanılması performans düşüşüne neden olabilir.
 1. Çoğu durumda, belirli bir aralıktaki tüm hücreler örneklenmez. Bu gibi durumlarda, matristeki her hücreyi kontrol etmek, yalnızca başlatılmış hücreleri kontrol etmeye kıyasla o kadar verimli değildir.
-1. Döngüdeki bir hücreye Cells.get(rowIndex, columnIndex) olarak erişilmesi, bir aralıktaki tüm hücre nesnelerinin somutlaştırılmasına neden olur ve bu da sonunda OutOfMemoryError'a neden olabilir.
+1. Bir döngüdeki bir hücreye Cells.get(rowIndex, columnIndex) olarak erişilmesi, bir aralıktaki tüm hücre nesnelerinin somutlaştırılmasına neden olur ve bu da sonunda OutOfMemoryError'a neden olabilir.
 ##### **Çözüm**
 Yukarıda belirtilen gerçeklere dayanarak, yineleyicilerin kullanılması gereken olası senaryolar aşağıdadır.
 

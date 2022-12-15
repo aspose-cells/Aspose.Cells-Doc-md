@@ -16,7 +16,7 @@ Så här implementerar du 1904-datumsystemet i Microsoft Excel (till exempel Mic
 1.  Välj**1904 års datumsystem** alternativ.
 1.  Klick**OK**.
 
-   **Välja 1904 datumsystem i Microsoft Excel** 
+   **Väljer 1904 datumsystem i Microsoft Excel** 
 
 ![todo:image_alt_text](implement-1904-date-system_1.png)
 

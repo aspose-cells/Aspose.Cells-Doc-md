@@ -25,7 +25,7 @@ Innan du skapar diagram är det viktigt att förstå några grundläggande begre
 
 #### **Kartlägga objekt**
 
- Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) namnutrymme som används för att skapa diagram som stöds av Aspose.Cells. Dessa klasser används för att skapa**kartlägga objekt**, som fungerar som diagrammets byggstenar. Kartobjekten listas nedan:
+Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) namnutrymme som används för att skapa diagram som stöds av Aspose.Cells. Dessa klasser används för att skapa**kartlägga objekt**, som fungerar som diagrammets byggstenar. Kartobjekten listas nedan:
 
 - Serier, en enda dataserie i ett diagram.
 - Axis, ett diagrams axel.

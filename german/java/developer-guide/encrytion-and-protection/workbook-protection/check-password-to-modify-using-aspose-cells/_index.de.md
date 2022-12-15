@@ -6,7 +6,7 @@ url: /de/java/check-password-to-modify-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- Sie können a zuweisen**Passwort zum öffnen** und ein**Zu änderndes Passwort** beim Erstellen Ihrer Arbeitsmappen in Microsoft Excel. Bitte sehen Sie sich diesen Screenshot an, der die Schnittstelle Microsoft zeigt, die Excel bereitstellt, um diese Passwörter anzugeben.
+ Sie können a zuweisen**Passwort zum Öffnen** und ein**Zu änderndes Passwort** beim Erstellen Ihrer Arbeitsmappen in Microsoft Excel. Bitte sehen Sie sich diesen Screenshot an, der die Schnittstelle Microsoft zeigt, die Excel bereitstellt, um diese Passwörter anzugeben.
 
 ![todo: Bild_alt_Text](check-password-to-modify-using-aspose-cells_1.png)
 

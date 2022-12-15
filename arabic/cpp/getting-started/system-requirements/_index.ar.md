@@ -4,11 +4,11 @@ type: docs
 weight: 30
 url: /ar/cpp/system-requirements/
 ---
-Aspose.Cells لـ C++ هي مكتبة C++ أصلية تمكن مطوري C++ من إنشاء جداول البيانات ومعالجتها وتحويلها برمجيًا دون الحاجة إلى Office Automation أو Microsoft تطبيق Excel.
+Aspose.Cells for C++ هي مكتبة C ++ أصلية تمكن مطوري C ++ من إنشاء جداول البيانات ومعالجتها وتحويلها برمجيًا دون الحاجة إلى Office Automation أو تطبيق Excel Microsoft.
 
 ## أنظمة التشغيل المدعومة
 
-Aspose.Cells لـ C++ يدعم أنظمة وأنظمة التشغيل 64 بت أو 32 بت التالية:
+Aspose.Cells for C++ يدعم أنظمة وأنظمة التشغيل 64 بت أو 32 بت التالية:
 
 <table>  
 	<tr>
@@ -27,11 +27,11 @@ Aspose.Cells لـ C++ يدعم أنظمة وأنظمة التشغيل 64 بت أ
 
 ## بيئة التطوير
 
-يمكنك استخدام Aspose.Cells لـ C++ عند تطوير تطبيقات لـ Windows أو Linux.
+يمكنك استخدام Aspose.Cells for C++ عند تطوير تطبيقات Windows أو Linux.
 
 ### Windows
 
- يمكن استخدام Aspose.Cells لـ C++ لتطوير التطبيقات في أي بيئة تطوير تدعمها[Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)، ولكن البيئات المدرجة في الجدول التالي مدعومة بشكل صريح:
+ يمكن استخدام Aspose.Cells for C++ لتطوير التطبيقات في أي بيئة تطوير تدعمها[Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)، ولكن البيئات المدرجة في الجدول التالي مدعومة بشكل صريح:
 
 <table>  
 	<tr>
@@ -44,7 +44,7 @@ Aspose.Cells لـ C++ يدعم أنظمة وأنظمة التشغيل 64 بت أ
 
 ### لينكس
 
-يمكن استخدام Aspose.Cells لـ C++ لتطوير التطبيق في بيئة التطوير التي تدعم C++11 أو أعلى ، لكن المترجم والأداة التالية مدعومان بشكل صريح:
+يمكن استخدام Aspose.Cells for C++ لتطوير التطبيق في بيئة التطوير التي تدعم C ++ 11 أو أعلى ، لكن المترجم والأداة التاليين مدعومان بشكل صريح:
 
 <table>  
 	<tr>
@@ -57,7 +57,7 @@ Aspose.Cells لـ C++ يدعم أنظمة وأنظمة التشغيل 64 بت أ
 
 ### اعتماد إضافي على Linux
 
- Aspose.Cells لـ C++ على Linux يعتمد على[libgdiplus](https://github.com/mono/libgdiplus//) ثنائيات مكتبة ديناميكية وأداة. الرجاء تثبيته قبل استخدام:
+ يعتمد Aspose.Cells for C++ على Linux على[libgdiplus](https://github.com/mono/libgdiplus//) ثنائيات مكتبة ديناميكية وأداة. الرجاء تثبيته قبل استخدام:
 
 - تثبيت libgdiplus على Ubuntu أو Debian</br>
 `sudo apt-get install libgif-dev autoconf libtool automake build-essential gettext libglib2.0-dev libcairo2-dev libtiff-dev libexif-dev`

@@ -52,7 +52,7 @@ Aspose.Cells
 
  31266 XLS a PDF o XPS lleva mucho tiempo
 
- 40053 El rendimiento de Excel a PDF disminuye a medida que aumenta el número de hojas de cálculo
+ 40053 El rendimiento de Excel a PDF disminuye a medida que aumenta el número de hojas de trabajo
 
  Insectos
 

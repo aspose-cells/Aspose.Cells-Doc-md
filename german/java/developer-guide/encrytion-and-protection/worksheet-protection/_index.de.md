@@ -176,7 +176,7 @@ So zeigen Sie die in Excel XP verfügbaren Schutzeinstellungen an:
 
 ### **Erweiterte Schutzeinstellungen mit Aspose.Cells**
 
-Aspose.Cells unterstützt alle erweiterten Schutzeinstellungen.
+Aspose.Cells unterstützen alle erweiterten Schutzeinstellungen.
 
  Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse enthält eine WorksheetCollection-Auflistung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
 

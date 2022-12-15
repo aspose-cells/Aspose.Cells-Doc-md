@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 用于 Node.js 通过 Java 21.7 发行说明
+title: Aspose.Cells for Node.js via Java 21.7 发行说明
 type: docs
 weight: 6
 url: /zh/nodejs-java/aspose-cells-for-node-js-via-java-21-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含发行说明[Aspose.Cells 用于 Node.js 通过 Java 21.7](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.7/).
+此页面包含发行说明[Aspose.Cells for Node.js via Java 21.7](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.7/).
 
 {{% /alert %}}
 

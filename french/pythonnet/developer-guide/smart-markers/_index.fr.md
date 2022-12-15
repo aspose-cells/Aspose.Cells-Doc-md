@@ -4,7 +4,7 @@ linktitle: Marqueurs intelligents
 type: docs
 weight: 190
 url: /fr/python-net/using-smart-markers/
-description: Importer et placer intelligemment des données selon les modèles de fichiers Excel avec Aspose.Cells pour Python via la bibliothèque .Net.
+description: Importer et placer intelligemment des données selon les modèles de fichiers Excel avec Aspose.Cells for Python via la bibliothèque .Net.
 ---
 ## **Introduction**
 **Marqueurs intelligents**sont utilisés pour indiquer au Aspose.Cells quelles informations placer dans une feuille de calcul de concepteur Excel Microsoft. Les marqueurs intelligents vous permettent de créer des modèles contenant uniquement des informations et une mise en forme spécifiques.

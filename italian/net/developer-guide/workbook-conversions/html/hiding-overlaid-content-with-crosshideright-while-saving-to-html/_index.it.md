@@ -6,7 +6,7 @@ url: /it/net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 ---
 ## **Possibili scenari di utilizzo**
 
-Quando salvi il tuo file Excel in HTML, puoi specificare diversi tipi incrociati per le stringhe di celle. Per impostazione predefinita, Aspose.Cells genera HTML come per Microsoft Excel ma quando si modifica il tipo incrociato in[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype), quindi nasconde tutte le stringhe sul lato destro della cella che sono sovrapposte o sovrapposte alla stringa di cella.
+Quando salvi il tuo file Excel in HTML, puoi specificare diversi tipi incrociati per le stringhe di celle. Per impostazione predefinita, Aspose.Cells genera HTML come per Microsoft Excel ma quando si modifica il tipo incrociato in[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)quindi nasconde tutte le stringhe sul lato destro della cella che sono sovrapposte o sovrapposte alla stringa di cella.
 
 ## **Nascondere il contenuto sovrapposto con CrossHideRight durante il salvataggio in Html**
 

@@ -4,22 +4,22 @@ type: docs
 weight: 10
 url: /tr/reportingservices/getting-started/
 ---
- Raporlama Hizmetleri için Aspose.Cells numaralı telefondan oluşmaktadır.**iki parça** aşağıdaki gibi:
+ Aspose.Cells for Reporting Services oluşur**iki parça** aşağıdaki gibi:
 
 - ***Aspose.Cells.Report.Designer***
 
 &nbsp;&nbsp;&nbsp;&nbsp;Bu, Eklentiler… formunda MS Excel ile entegre edilmiş bir rapor tasarlama aracıdır. Aspose.Cells.Report.Designer ile kullanıcılar, Visual Studio yerine MS Excel'de bir rapor şablonu tasarlayabilir. Rapor şablonu daha sonra Reporting Services RDL dosyasına gömülür ve Report Server'da yayınlanabilir. Kullanıcılar ayrıca raporu Aspose.Cells.Report.Designer'da önizleyebilir ve dışa aktarabilir.
 
-- ***Aspose.Cells.Raporlama Hizmetleri için İşleyici***
+- ***Aspose.Cells.İşleyici for Reporting Services***
 
-&nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services aslında Microsoft Reporting Services Rendering Extension'ın bir uygulamasıdır. Hem Visual Studio hem de Aspose.Cells.Report.Designer tarafından tasarlanan RDL raporlarını işleyebilir.
+&nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services aslında Microsoft Reporting Services Rendering Uzantısının bir uygulamasıdır. Hem Visual Studio hem de Aspose.Cells.Report.Designer tarafından tasarlanan RDL raporlarını işleyebilir.
 
 
-**Raporlama Hizmetleri için Aspose.Cells nasıl alınır.** 
+**Aspose.Cells for Reporting Services nasıl alınır.** 
 
 - [İndirmek]( https://downloads.aspose.com/cells/reportingservices/ )
 
-**Raporlama Servisleri için Aspose.Cells nasıl kurulur.**
+**Aspose.Cells for Reporting Services nasıl kurulur.**
 
 - [MSI Kurulumu](/cells/tr/reportingservices/using-msi-installer/)
 - [Manuel Kurulum](/cells/tr/reportingservices/using-dll-only/)

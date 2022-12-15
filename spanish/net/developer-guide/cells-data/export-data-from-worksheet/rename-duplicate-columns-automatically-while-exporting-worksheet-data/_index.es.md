@@ -20,7 +20,7 @@ url: /es/net/rename-duplicate-columns-automatically-while-exporting-worksheet-da
 
 ## **Salida de consola**
 
-Aquí está la salida de la consola del código de ejemplo anterior como referencia.
+Aquí está la salida de la consola del código de muestra anterior como referencia.
 
 {{< highlight "java" >}}
 

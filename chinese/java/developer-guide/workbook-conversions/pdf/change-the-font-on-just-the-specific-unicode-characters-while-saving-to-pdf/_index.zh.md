@@ -20,6 +20,6 @@ url: /zh/java/change-the-font-on-just-the-specific-unicode-characters-while-savi
 
 下面的屏幕截图比较了下面示例代码生成的两个输出 PDF。一个没有设置就生成了[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)属性，另一个是在设置后生成的[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)财产给**真的**.正如您在第一个 PDF 中看到的那样，由于不间断连字符，整个句子的字体已从 Times New Roman 更改为 Arial Unicode MS。而在第二个 PDF 中，只有 Non-Breaking Hyphen 的字体发生了变化。
 
-![待办事项：图片_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
+![待办事项：图像_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeFontonspecificUnicodecharacters-ChangeFontonspecificUnicodecharacters.java" >}}

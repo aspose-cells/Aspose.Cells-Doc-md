@@ -11,9 +11,9 @@ Este documento describe los cambios al Aspose.Cells API de la versión 16.11.0 a
 {{% /alert %}} 
 ## **API añadidas**
 ### **Soporte para tablas dinámicas**
-La segunda versión de Aspose.Cells para C++ admite la creación y la manipulación de tablas dinámicas. Aspose.Cells para C++ proporciona la clase IPivotTable que representa un objeto de tabla dinámica, mientras que IPivotTableCollection representa una colección de tablas dinámicas. Se puede acceder a IPivotTableCollection a través del objeto IWorksheet y se puede agregar una nueva tabla dinámica a la colección mientras se usa el método IPivotTableCollection.Add.
+La segunda versión de Aspose.Cells for C++ admite la creación y la manipulación de tablas dinámicas. Aspose.Cells for C++ proporciona la clase IPivotTable que representa un objeto de tabla dinámica, mientras que IPivotTableCollection representa una colección de tablas dinámicas. Se puede acceder a IPivotTableCollection a través del objeto IWorksheet y se puede agregar una nueva tabla dinámica a la colección mientras se usa el método IPivotTableCollection.Add.
 
- El siguiente fragmento de código demuestra lo simple que es usar Aspose.Cells para C++ API para[crear tablas dinámicas desde cero](/cells/es/cpp/create-pivot-table/).
+ El siguiente fragmento de código demuestra lo simple que es usar Aspose.Cells for C++ API para[crear tablas dinámicas desde cero](/cells/es/cpp/create-pivot-table/).
 
 **C++**
 
@@ -85,9 +85,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-Además de crear nuevas tablas dinámicas, las API Aspose.Cells para C++ también admiten la manipulación de tablas dinámicas existentes. El API actualmente admite cambiar los datos en el rango de origen de la tabla dinámica y luego actualizarlos. Una vez que la tabla dinámica se haya manipulado como se desea, es mejor usar los métodos IPivotTable.RefreshData e IPivotTable.CalculateData para actualizar la tabla dinámica con el origen de datos actualizado.
+Además de crear nuevas tablas dinámicas, las API Aspose.Cells for C++ también admiten la manipulación de tablas dinámicas existentes. El API actualmente admite cambiar los datos en el rango de origen de la tabla dinámica y luego actualizarlos. Una vez que la tabla dinámica se haya manipulado como se desea, es mejor usar los métodos IPivotTable.RefreshData e IPivotTable.CalculateData para actualizar la tabla dinámica con el origen de datos actualizado.
 
- El siguiente fragmento de código usa Aspose.Cells para C++ API para[manipular una tabla dinámica existente](/cells/es/cpp/manipulate-pivot-table/).
+El siguiente fragmento de código utiliza Aspose.Cells for C++ API para[manipular una tabla dinámica existente](/cells/es/cpp/manipulate-pivot-table/).
 
 **C++**
 
@@ -133,7 +133,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Compatibilidad con reglas de formato condicional**
- Aspose.Cells para C++ ahora brinda la capacidad de agregar reglas de formato condicional a la hoja de trabajo al exponer la clase IFormatCondition. La clase antes mencionada proporciona además los siguientes métodos para[aplicar las reglas de formato condicional](/cells/es/cpp/apply-conditional-formatting-in-worksheet/) según los requisitos de la aplicación.
+ Aspose.Cells for C++ ahora brinda la capacidad de agregar reglas de formato condicional a la hoja de trabajo al exponer la clase IFormatCondition. La clase antes mencionada proporciona además los siguientes métodos para[aplicar las reglas de formato condicional](/cells/es/cpp/apply-conditional-formatting-in-worksheet/) según los requisitos de la aplicación.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -191,7 +191,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Soporte para hipervínculos**
- Aspose.Cells para C++ ahora es compatible[agregar hipervínculos a las celdas de la hoja de trabajo](/cells/es/cpp/add-hyperlinks-to-the-cells/). Para proporcionar esta característica, el Aspose.Cells para C++ 16.12.0 ha expuesto la clase IHyperlinkCollection a la que se puede acceder a través del objeto IWorksheet, mientras que se puede agregar un hipervínculo a la colección al usar el método IHyperlinkCollection.Add como se muestra a continuación.
+ Aspose.Cells for C++ ahora es compatible[agregar hipervínculos a las celdas de la hoja de trabajo](/cells/es/cpp/add-hyperlinks-to-the-cells/)Para proporcionar esta función, el Aspose.Cells for C++ 16.12.0 ha expuesto la clase IHyperlinkCollection a la que se puede acceder a través del objeto IWorksheet, mientras que se puede agregar un hipervínculo a la colección al usar el método IHyperlinkCollection.Add como se muestra a continuación.
 
 **C++**
 
@@ -230,7 +230,7 @@ La aplicación de Excel admite 2 tipos de propiedades de documentos que se enume
 - Propiedades definidas por el sistema (integradas): las propiedades integradas contienen información general sobre el documento, como el título del documento, el nombre del autor, las estadísticas del documento, etc.
 - Propiedades definidas por el usuario (personalizadas): propiedades personalizadas definidas por el usuario final en forma de par de nombre y valor.
 
-Aspose.Cells para soportes C++[administrar ambos tipos de propiedades de documentos, integradas y personalizadas](/cells/es/cpp/managing-document-properties/). Aspose.Cells' La clase IWorkbook representa un archivo de Excel. Para acceder a las propiedades del documento integrado, utilice IWorkbook.GetBuiltInDocumentProperties mientras que se puede acceder a las propiedades del documento personalizado utilizando el método IWorkbook.GetCustomDocumentProperties.
+ Aspose.Cells for C++ apoya[administrar ambos tipos de propiedades de documentos, integradas y personalizadas](/cells/es/cpp/managing-document-properties/)Aspose.Cells' La clase IWorkbook representa un archivo de Excel. Para acceder a las propiedades del documento integrado, utilice IWorkbook.GetBuiltInDocumentProperties mientras que se puede acceder a las propiedades del documento personalizado utilizando el método IWorkbook.GetCustomDocumentProperties.
 
 El siguiente código de muestra carga una hoja de cálculo de muestra existente y lee las propiedades integradas del documento, como Título, Asunto y propiedad personalizada con el nombre MyCustom1.
 
@@ -286,7 +286,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Soporte para ListObjects**
- Una tabla de Excel es una matriz de celdas que contiene cualquier cantidad de filas y columnas, mientras que la misma tabla se denomina Objeto de lista en Aspose.Cells para las API C++. El espacio de nombres Aspose::Cells::Tables contiene todas las clases necesarias que se ocupan de las operaciones relacionadas con los objetos de la lista. Las clases más dignas de mención son IListObject e IListObjectCollection que permiten[crear y formatear objetos de lista](/cells/es/cpp/create-and-format-table/) y así.
+ Una tabla de Excel es una matriz de celdas que contiene cualquier número de filas y columnas, mientras que la misma tabla se denomina Objeto de lista en las API Aspose.Cells for C++. El espacio de nombres Aspose::Cells::Tables contiene todas las clases necesarias que se ocupan de las operaciones relacionadas con los objetos de la lista. Las clases más dignas de mención son IListObject e IListObjectCollection que permiten[crear y formatear objetos de lista](/cells/es/cpp/create-and-format-table/) y así.
 
 El siguiente código de muestra carga el archivo de hoja de cálculo de muestra y luego crea un objeto de lista (tabla) en un rango A1: H10, luego utiliza sus diversos métodos para mostrar el subtotal.
 
@@ -336,7 +336,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Compatibilidad con la agrupación de filas y columnas**
- Aspose.Cells para C++ API se puede usar para agrupar filas y columnas mientras se usa la clase ICells, que es básicamente la colección de todas las celdas en una hoja de cálculo determinada. La clase ICells ofrece los métodos GroupRows y GroupColumns para[agrupar filas y columnas](/cells/es/cpp/group-rows-and-columns-of-worksheet/) respectivamente.
+ Aspose.Cells for C++ API se puede usar para agrupar filas y columnas mientras se usa la clase ICells, que es básicamente la colección de todas las celdas en una hoja de cálculo determinada. La clase ICells ofrece los métodos GroupRows y GroupColumns para[agrupar filas y columnas](/cells/es/cpp/group-rows-and-columns-of-worksheet/) respectivamente.
 
 El siguiente fragmento de código demuestra el escenario de uso simple de los dos métodos mencionados anteriormente.
 
@@ -422,7 +422,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Soporte para temas**
-Aspose.Cells para C++ Las API ahora admiten el uso y la manipulación de los temas que ofrece la aplicación Excel.
+Aspose.Cells for C++ Las API ahora admiten el uso y la manipulación de los temas que ofrece la aplicación Excel.
 #### **Capacidad para aplicar los colores del tema personalizado**
  El siguiente fragmento intenta[crear un nuevo tema con colores personalizados](/cells/es/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) para el libro de trabajo.
 
@@ -496,7 +496,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Compatibilidad con la manipulación de los colores del tema**
-El siguiente código de ejemplo muestra cómo[leer y modificar los colores del tema del libro de trabajo](/cells/es/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). El código de muestra carga una hoja de cálculo existente, lee los colores de su tema, es decir, Accent1-Accent6, y modifica los colores antes de guardar la hoja de cálculo.
+ El siguiente código de ejemplo muestra cómo[leer y modificar los colores del tema del libro de trabajo](/cells/es/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). El código de muestra carga una hoja de cálculo existente, lee los colores de su tema, es decir, Accent1-Accent6, y modifica los colores antes de guardar la hoja de cálculo.
 
 **C++**
 
@@ -562,7 +562,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Capacidad para copiar temas entre libros de trabajo**
-El siguiente código de ejemplo muestra cómo[copiar tema de un libro de trabajo a otro](/cells/es/cpp/copy-theme-from-one-workbook-to-another/), que podría ser útil para aplicar temas integrados o personalizados en varias hojas de cálculo.
+ El siguiente código de ejemplo muestra cómo[copiar tema de un libro de trabajo a otro](/cells/es/cpp/copy-theme-from-one-workbook-to-another/), que podría ser útil para aplicar temas integrados o personalizados en varias hojas de cálculo.
 
 **C++**
 
@@ -586,7 +586,7 @@ wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ## **API renombradas**
-Con el lanzamiento de Aspose.Cells para C++ 16.12.0, hemos cambiado el nombre de algunos métodos para mantener las interfaces unificadas. La lista de todas las API renombradas es la siguiente.
+Con el lanzamiento de Aspose.Cells for C++ 16.12.0, hemos cambiado el nombre de algunos métodos para mantener las interfaces unificadas. La lista de todas las API renombradas es la siguiente.
 #### **Se cambió el nombre del método ICell::SetStyle a ICell::SetIStyle**
 #### **Se cambió el nombre del método ICell::SetCharacters a ICell::SetIFontSettings**
 #### **Se cambió el nombre del método ICellsColor::SetThemeColor a ICellsColor::SetIThemeColor**

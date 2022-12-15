@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells för .NET 7.7.2 Release Notes
+title: Aspose.Cells for .NET 7.7.2 Release Notes
 type: docs
 weight: 100
 url: /sv/net/aspose-cells-for-net-7-7-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.7.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.7.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.7.2](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.7.2/)
 
 {{% /alert %}} 
 
- Aspose.Cells för .NET har uppdaterats till version 7.7.2 och vi är glada att kunna meddela att denna utgåva innehåller över 50 nya användbara förbättringar.
-Med Aspose.Cells för .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
-Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells för .NET.
+ Aspose.Cells for .NET har uppdaterats till version 7.7.2 och vi är glada att kunna meddela att denna utgåva kommer med över 50 nya användbara förbättringar.
+Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells.
 
@@ -30,9 +30,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 ## **Nya egenskaper**
 
 
-(CELLSNET-42299) - Stöd B3 (13,9 x 19,7 tum) PaperSizeType
+ (CELLSNET-42299) - Stöd B3 (13,9 x 19,7 tum) PaperSizeType
 
- (CELLSNET-42370) - Använd inställningen Justera distribuerad textjustering
+(CELLSNET-42370) - Använd inställningen Justera distribuerad textjustering
 
  (CELLSNET-42312) - Hämta inställningen RemovePersonalInformation
 
@@ -56,9 +56,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42271) - Villkorliga formateringsfunktioner som ikoner, skivor och färggradient går förlorade i XLSB-filen
 
-(CELLSNET-42261) - Problem med att spara som HTML och dolda kolumner när de har slagit samman celler som rubriker
+ (CELLSNET-42261) - Problem med att spara som HTML och dolda kolumner när de har slagit samman celler som rubriker
 
- (CELLSNET-42163) - Villkorlig formatering går förlorad när filen öppnas och sparas på nytt
+(CELLSNET-42163) - Villkorlig formatering går förlorad när filen öppnas och sparas på nytt
 
  (CELLSNET-42147) - Aspose Cells 7.6.0 - Problem med att ladda och spara XLSB-filer med Pivot inuti
 
@@ -80,9 +80,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42304) - Ikonuppsättningsjustering i PDF-export
 
-(CELLSNET-42298) - Om du ställer in PaperSizeType till PaperA6 återges PDF-filen i PaperA4-storlek
+ (CELLSNET-42298) - Om du ställer in PaperSizeType till PaperA6 återges PDF-filen i PaperA4-storlek
 
- (CELLSNET-42289) - CHAR(151) fungerar inte korrekt i PDF
+(CELLSNET-42289) - CHAR(151) fungerar inte korrekt i PDF
 
  (CELLSNET-41950) - Aspose.Cells mycket konstigt beteende på IIS 7.5 med AutoFit-operation
 
@@ -106,9 +106,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42294) - SheetRender tar inte hänsyn till valda värden i ComboBoxes
 
-(CELLSNET-42284) - VLOOKUP-formeln löses inte av Aspose.Cells
+ (CELLSNET-42284) - VLOOKUP-formeln löses inte av Aspose.Cells
 
- (CELLSNET-42283) - Stöd för MS Excel XLT-format
+(CELLSNET-42283) - Stöd för MS Excel XLT-format
 
  (CELLSNET-42282) - Laddar Excel-fil - Webbläsarens visningsalternativ återställs
 
@@ -134,19 +134,19 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42268) - Index låg utanför gränserna för arrayfelet
 
-(CELLSNET-42311) - ArgumentNullException: Bufferten kan inte vara null. Parameternamn:buffert vid Workbook.Save
+ (CELLSNET-42311) - ArgumentNullException: Bufferten kan inte vara null. Parameternamn:buffert vid Workbook.Save
 
 
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 
- Lägger till egenskapen WorkbookSettings.RemovePersonalInformation
+Lägger till egenskapen WorkbookSettings.RemovePersonalInformation
 
  Anger om personlig information kan tas bort från den angivna arbetsboken.
 

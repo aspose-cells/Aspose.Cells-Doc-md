@@ -10,16 +10,16 @@ url: /es/reportingservices/support-for-digital-signatures/
 
  Puede crear una firma digital personal utilizando Microsoft Selfcert.exe o cualquier otra herramienta, o puede comprar una firma digital. Para firmar una hoja de cálculo, adjunte una firma a sus libros de trabajo una vez que haya creado una firma digital.
 
- Aspose.Cells para Reporting Services admite firmas digitales.
+ Aspose.Cells for Reporting Services admite firmas digitales.
 
 {{% /alert %}} 
 ### **Trabajar con firmas digitales**
 #### **Formatos de Excel admitidos para firmas digitales**
-Aspose.Cells para Reporting Services admite firmas digitales al exportar a formatos de archivo Excel 2007 y ODS.
+Aspose.Cells for Reporting Services admite firmas digitales al exportar a formatos de archivo Excel 2007 y ODS.
 #### **Configuración de firmas digitales**
  los**Aspose.Cells.ReportingServices.xml** El archivo contiene la información de configuración y el texto de una firma digital en el<DigitalSignature> etiqueta:
 
-- Cuando DigitalSignature está desactivado, Aspose.Cells para Reporting Services desactiva la funcionalidad de firma digital.
+- Cuando DigitalSignature está desactivado, Aspose.Cells for Reporting Services desactiva la función de firma digital.
  Por ejemplo:
 
 {{< highlight "java" >}}

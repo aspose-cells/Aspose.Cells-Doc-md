@@ -9,6 +9,6 @@ CSV-filer (Comma Separated Values) innehåller poster vars värden är avgränsa
 
 För att öppna CSV-filer, använd[LoadOptions](https://reference.aspose.com/cells/python/asposecells.api/LoadOptions)klass och välj[CSV](https://reference.aspose.com/cells/python/asposecells.api/fileformattype#CSV)värde, fördefinierat i[FileFormatType](https://reference.aspose.com/cells/python/asposecells.api/FileFormatType)uppräkning.
 
-Följande kodsnutt visar öppning av CSV-fil med Aspose.Cells för Python via Java API.
+Följande kodavsnitt visar att CSV-filen öppnas med Aspose.Cells for Python via Java API.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-OpeningCSVFiles.py" >}}

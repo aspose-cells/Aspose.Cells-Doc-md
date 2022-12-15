@@ -16,7 +16,7 @@ url: /ar/net/setting-page-options/
 
  Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)صف دراسي.
 
- ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)فئة توفر[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) الخاصية المستخدمة لتعيين خيارات إعداد الصفحة لورقة العمل. في الواقع ، هذا[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) الخاصية هي كائن من[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فئة تستخدم لتعيين خيارات تخطيط صفحة مختلفة لورقة عمل مطبوعة. ال[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)توفر فئة الخصائص المختلفة المستخدمة لتعيين خيارات إعداد الصفحة. تمت مناقشة بعض هذه الخصائص أدناه.
+ ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) الخاصية المستخدمة لتعيين خيارات إعداد الصفحة لورقة العمل. في الواقع ، هذا[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) الخاصية هي كائن من[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فئة تستخدم لتعيين خيارات تخطيط صفحة مختلفة لورقة عمل مطبوعة. ال[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)توفر فئة الخصائص المختلفة المستخدمة لتعيين خيارات إعداد الصفحة. تمت مناقشة بعض هذه الخصائص أدناه.
 
 ### **اتجاه الصفحة**
 
@@ -154,7 +154,7 @@ url: /ar/net/setting-page-options/
 |PaperPRCE مغلف 6|ظرف PRC # 6120 × 230 مم|
 |PaperPRCE مغلف 7|ظرف PRC # 7160 × 230 مم|
 |PaperPRCE مغلف 8|مغلف PRC # 8120 × 309 مم|
-|ورقة PRCEnvelope9|مغلف PRC # 9229 × 324 مم|
+|ورقة PRCEnvelope9|ظرف PRC # 9229 × 324 مم|
 |ورقة PRCEnvelope10|مغلف PRC # 10324 × 458 مم|
 |الورق|PRC 16K مستدير|
 |الورق|PRC 32K مستدير|

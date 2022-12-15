@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Android через Java 22.9 Примечания к выпуску
+title: Aspose.Cells for Android via Java 22.9 Примечания к выпуску
 type: docs
 weight: 4
 url: /ru/java/aspose-cells-for-android-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску Aspose.Cells для Android через Java 22.9.
+Эта страница содержит примечания к выпуску для Aspose.Cells for Android via Java 22.9.
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ url: /ru/java/aspose-cells-for-android-via-java-22-9-release-notes/
 
 ## **Public API и обратно несовместимые изменения**
 
-Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие элементы, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells для Android через номер Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, пожалуйста, поднимите его на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Android via Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом. на форуме поддержки Aspose.Cells.
 
 ### **Добавляет метод Cells.GetDependentsInCalculation(int,int,bool)**
 
@@ -112,7 +112,7 @@ url: /ru/java/aspose-cells-for-android-via-java-22-9-release-notes/
 
 ### **Добавьте базовый класс PaginatedSaveOptions для PdfSaveOptions и XpsSaveOptions.**
 
-Представляет параметры разбиения на страницы.
+Представляет параметры разбивки на страницы.
 
 ### **Добавьте класс SheetSet.**
 
@@ -150,7 +150,7 @@ url: /ru/java/aspose-cells-for-android-via-java-22-9-release-notes/
 
 Поддержка установки формул для диапазона ячеек для создания таблицы данных с двумя переменными и таблицы данных с одной переменной.
 
-### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, CalculationOptions copys)**
+### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, копты CalculationOptions)**
 
 Поддержка установки формулы динамического массива с настраиваемыми параметрами для расчета, особенно когда есть функции, которым требуется пользовательский движок для расчета в формуле.
 

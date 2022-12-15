@@ -1,5 +1,5 @@
 ﻿---
-title: Agregar función de grupo en Aspose.Cells para Reporting Services Client
+title: Agregar función de grupo en Aspose.Cells for Reporting Services Cliente
 type: docs
 weight: 120
 url: /es/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/

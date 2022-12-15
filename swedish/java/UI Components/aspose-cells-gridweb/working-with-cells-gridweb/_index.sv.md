@@ -28,7 +28,7 @@ En cell kan också kännas igen på sin plats i termer av rad- och kolumnindex. 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyrowandcolumnindices-Accessingcellbyrowandcolumnindices.jsp" >}}
 ## **Få åtkomst till och ändra värdet på en Cell**
-[Åtkomst till Cells i arbetsbladet](/cells/sv/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) diskuterade tillgång till celler. Det här ämnet utökar den diskussionen för att visa hur man kommer åt och ändrar cellvärden med GridWeb API.
+[Åtkomst till Cells i arbetsbladet](/cells/sv/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) diskuterade tillgång till celler. Det här ämnet utökar den diskussionen till att visa hur man kommer åt och ändrar cellvärden med hjälp av GridWeb API.
 ### **Få åtkomst till och ändra en Cells värde**
 #### **Strängvärden**
  Innan du kommer åt och ändrar värdet på en cell måste du veta hur du kommer åt celler. För detaljer om de olika metoderna för att komma åt celler, se[Åtkomst till Cells i arbetsbladet](/cells/sv/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet).
@@ -63,7 +63,7 @@ Den mest värdefulla funktionen som erbjuds av Aspose.Cells.GridWeb är stöd f�
 
 {{% alert color="primary" %}} 
 
-Formelsyntaxen bör vara kompatibel med Microsoft Excel-syntaxen. Till exempel måste alla formler börja med ett likhetstecken (=).
+Formelsyntaxen bör vara kompatibel med Microsoft Excel-syntax. Till exempel måste alla formler börja med ett likhetstecken (=).
 
 För att lägga till en formel programmatiskt kommer Aspose.Cells.GridWeb att känna igen den som en formel även om du inte använder ett **=**-tecken, men om slutanvändare som arbetar i GUI måste använda den.
 

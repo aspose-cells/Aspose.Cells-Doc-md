@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Reporting Services 1.7.0 Release Notes
+title: Aspose.Cells for Reporting Services 1.7.0 Release Notes
 type: docs
 weight: 10
 url: /sv/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /sv/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
  Vad är nytt?
 
-- Aspose.Cells för Reporting Services-designern stöder för att skapa matrismall i Excel.
+- Aspose.Cells for Reporting Services designer stöder för att skapa matrismall i Excel.
 - Stöder villkorlig formatering för tabell- och matrisrapportobjekt.
 - Lägger till renderingstablix-rapportobjekt endast för CSV- och TXT-format i SQL Server 2008 Reporting Services.
 
@@ -26,11 +26,11 @@ url: /sv/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-- Fixat Aspose.Cells för Reporting Services rapportdesigner och rapportformatfel.
-- Fixat gömrad bugg.
+- Fixat Aspose.Cells for Reporting Services rapportdesigner och rapportformatfel.
+- Fixat gömma rad bugg.
 - Fast sammanslagningsradalgoritm.
 
- Problem lösta i Aspose.Cells för Reporting Services 1.7.0.
+ Problem lösta i Aspose.Cells for Reporting Services 1.7.0.
 
 
 

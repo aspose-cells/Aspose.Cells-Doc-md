@@ -25,7 +25,7 @@ Aspose .NET Exportera användare till Excel för SiteFinity Module tillåter utv
 
 ## **Systemkrav och plattformar som stöds**
 ### **Systemkrav**
-För att konfigurera Aspose.Cells .NET för Sitefinity-tillägg måste du ha följande krav uppfyllda:
+För att ställa in Aspose.Cells .NET för Sitefinity-tillägg måste du ha följande krav uppfyllda:
 
 - Sitefinity CMS körs på ASP.NET 4.0
 
@@ -50,7 +50,7 @@ Följ dessa enkla steg för att komma igång
 1.  Bläddra till den senaste källkoden som du har laddat ner och öppna**.sln** fil.
 ## **Installation och användning**
 ### **Laddar ner**
-Du kan ladda ner modulen Aspose .NET Content Exporter for Sitefinity från en av följande platser
+Du kan ladda ner Aspose .NET Content Exporter for Sitefinity-modulen från en av följande platser
 
 - [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
 ### **Installerar**
@@ -61,13 +61,13 @@ När du har laddat ned, följ dessa steg för att installera tillägget på din 
 Extrahera den nedladdade ZIP-filen. Du behöver FTP eller direktåtkomst till Sitefinitys installationsmapp på servern för att utföra följande:
 
 1.  Kopiera Aspose.Cells.dll och Aspose.SiteFinity.ExportUsersToExcel.dll till**bin** mapp för Sitefinity-installationen.
-1.  Kopiera**Tillägg** mapp i roten av Sitefinity-installationen där**bin**mappen finns.
+1.  Kopiera**Tillägg** mapp i roten av Sitefinity-installationen där**bin** mappen finns.
 
 **Steg 2: Registrera tillägget Aspose Sitefinity Content Export i Sitefinity**
 
 1. Logga in på ditt Sitefinity CMS med en '**Administratör** ' konto. Inloggningssidan nås av<http://www.mywebsite.com/sitefinity>
 1.  Klick**Administrering** och då**inställningar**.
- Sidan Grundinställningar visas.
+Sidan Grundinställningar visas.
 1.  Klicka på**Avancerad** länk.
  Inställningar-sidan visas.
 1.  Klicka på i den vänstra rutan**Verktygslådor** följd av**Verktygslådor** , då**Sidkontroller**, **Avsnitt** och**ContentToolboxSection** , då**Verktyg.**

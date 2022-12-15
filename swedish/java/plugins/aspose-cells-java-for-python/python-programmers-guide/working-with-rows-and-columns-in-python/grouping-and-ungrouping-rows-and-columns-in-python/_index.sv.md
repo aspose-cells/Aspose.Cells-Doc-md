@@ -12,7 +12,7 @@ Det är möjligt att gruppera rader eller kolumner genom att anropa metoderna gr
 - Sista raden/kolumnindex, den sista raden eller kolumnen i gruppen.
 - Är dold, en boolesk parameter som anger om rader/kolumner ska döljas efter gruppering eller inte.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -49,7 +49,7 @@ Dela upp grupperade rader eller kolumner genom att anropa Cells-samlingens metod
 - Första raden eller kolumnindex, den första raden/kolumnen som ska delas upp.
 - Sista raden eller kolumnindex, den sista raden/kolumnen som ska delas upp.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

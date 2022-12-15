@@ -6,7 +6,7 @@ url: /sv/net/sort-worksheet-data/
 ---
 {{% alert color="primary" %}} 
 
-Sortering är en mycket värdefull funktion när det kommer till databehandling. Osorterade data är jobbigt för användare när de söker efter specifik information. Aspose.Cells.GridWeb stöder kraftfulla sorteringsfunktioner. Det här ämnet diskuterar sortering av data med Aspose.Cells.GridWeb API.
+Sortering är en mycket värdefull funktion när det kommer till databehandling. Osorterade data är jobbigt för användare när de söker efter specifik information. Aspose.Cells.GridWeb stöder kraftfulla sorteringsfunktioner. Det här ämnet diskuterar sortering av data med hjälp av Aspose.Cells.GridWeb API.
 
 {{% /alert %}} 
 ## **Sortering av data**

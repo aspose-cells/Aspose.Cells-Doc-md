@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 8.7.0 Release Notes
+title: Aspose.Cells for Java 8.7.0 Release Notes
 type: docs
 weight: 140
 url: /sv/java/aspose-cells-for-java-8-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 8.7.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.7.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 8.7.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.7.0/)
 
 {{% /alert %}} 
 
@@ -22,7 +22,7 @@ url: /sv/java/aspose-cells-for-java-8-7-0-release-notes/
 ## **Nya egenskaper**
 
 
- (CELLSJAVA-41672) - Exponera API för egenskapen "Ändra storlek på form för att passa text" för diagrammets dataetiketter
+ (CELLSJAVA-41672) - Visa API för egenskapen "Ändra storlek på form för att passa text" för diagrammets dataetiketter
 
  (CELLSJAVA-41655) - Cells.importCSV() metod som inte känner igen formler
 
@@ -141,10 +141,10 @@ url: /sv/java/aspose-cells-for-java-8-7-0-release-notes/
  (CELLSJAVA-41598) - Efter att ha laddat mallfilen till GridWeb och klickat på Reload-knappen flera gånger, ökar minnet
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
 
- Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 
 
@@ -188,4 +188,4 @@ Tar bort föråldrad Workbook.SaveOptions-egenskap.
 
  Notera
 
- Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.7.0 också i denna Aspose.Cells för Java v8.7.0.
+ Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta av ändringarna, förbättringarna och korrigeringarna som ingår i Aspose.Cells for .NET v8.7.0 också inkluderade i denna 076157316.0.481.

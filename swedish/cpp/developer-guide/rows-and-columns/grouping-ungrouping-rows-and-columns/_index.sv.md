@@ -1,5 +1,5 @@
 ﻿---
-title: Gruppera, dela upp rader och kolumner
+title: Gruppering, dela upp rader och kolumner
 type: docs
 weight: 30
 url: /sv/cpp/grouping-ungrouping-rows-and-columns/

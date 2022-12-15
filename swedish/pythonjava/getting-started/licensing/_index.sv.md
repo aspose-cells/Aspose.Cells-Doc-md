@@ -6,7 +6,7 @@ url: /sv/python-java/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Du kan installera en utvärderingsversion av**Aspose.Cells** för Python via Java med `pip install aspose-cells`. Utvärderingsversionen ger absolut samma möjligheter som den licensierade versionen av produkten. Dessutom blir utvärderingsversionen helt enkelt licensierad när du köper en licens och lägger till ett par rader kod för att tillämpa licensen.
+ Du kan installera en utvärderingsversion av**Aspose.Cells** for Python via Java med `pip install aspose-cells`. Utvärderingsversionen ger absolut samma möjligheter som den licensierade versionen av produkten. Dessutom blir utvärderingsversionen helt enkelt licensierad när du köper en licens och lägger till ett par rader kod för att tillämpa licensen.
 
  När du är nöjd med din utvärdering av**Aspose.Cells** , du kan[köpa en licens](https://purchase.aspose.com)på webbplatsen Aspose. Bekanta dig med de olika prenumerationstyperna som erbjuds. Om du har några frågor, tveka inte att kontakta Aspose säljteamet.
 

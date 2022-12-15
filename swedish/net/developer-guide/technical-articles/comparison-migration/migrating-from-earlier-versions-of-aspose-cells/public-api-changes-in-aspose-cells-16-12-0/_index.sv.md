@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 16.12.0
+title: Offentlig API Ändringar i Aspose.Cells 16.12.0
 type: docs
 weight: 360
 url: /sv/net/public-api-changes-in-aspose-cells-16-12-0/
@@ -171,7 +171,7 @@ Debug.Assert(fileFormatInfo.FileFormatType == FileFormatType.OTS);
 
 
 ### **Lade till FontConfigs.PreferSystemFontSubstitutes Property**
-Aspose.Cells 16.12.0 har exponerat egenskapen PreferSystemFontSubstitutes för FontConfigs-klassen. Egenskapen FontConfigs.PreferSystemFontSubstitutes är av typen Boolean, vilket indikerar om API:et ska använda systemets teckensnittsersättningsmekanism först, om ett obligatoriskt teckensnitt inte finns och ingen ersättning för det specifika teckensnittet har definierats. Standardvärdet för egenskapen FontConfigs.PreferSystemFontSubstitutes är falskt.
+Aspose.Cells 16.12.0 har exponerat egenskapen PreferSystemFontSubstitutes för FontConfigs-klassen. Egenskapen FontConfigs.PreferSystemFontSubstitutes är av typen Boolean, vilket indikerar om API ska använda systemets teckensnittsersättningsmekanism först, ifall ett obligatoriskt teckensnitt inte finns och ingen ersättning för det specifika teckensnittet har definierats. Standardvärdet för egenskapen FontConfigs.PreferSystemFontSubstitutes är falskt.
 ### **Lade till egenskapen BuiltInDocumentPropertyCollection.ScaleCrop**
 Aspose.Cells 16.12.0 har lagt till egenskapen ScaleCrop till klassen BuiltInDocumentPropertyCollection. ScaleCrop indikerar visningsläget för dokumentminiatyren. Om du ställer in det här elementet på sant möjliggör skalning av dokumentminiatyrbilden enligt visningen, medan om du ställer in den på false kan du beskära dokumentminiatyren för att visa avsnittet som passar skärmen.
 ### **Lade till egenskapen BuiltInDocumentPropertyCollection.LinksUpToDate**

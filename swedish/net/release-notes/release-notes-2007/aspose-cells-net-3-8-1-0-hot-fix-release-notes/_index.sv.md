@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-3-8-1-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v3.8.1!
+ Vi har släppt Aspose.Cells for .NET v3.8.1!
 
 - Stöder för att ställa in dataseriens felfält
 - Optimera formelberäkningen

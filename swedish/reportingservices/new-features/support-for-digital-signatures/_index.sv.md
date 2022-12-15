@@ -10,16 +10,16 @@ url: /sv/reportingservices/support-for-digital-signatures/
 
  Du kan skapa en personlig digital signatur genom att använda Microsoft Selfcert.exe eller något annat verktyg, eller så kan du köpa en digital signatur. För att signera ett kalkylblad, bifoga en signatur till dina arbetsböcker när du har skapat en digital signatur.
 
- Aspose.Cells för Reporting Services stöder digitala signaturer.
+ Aspose.Cells for Reporting Services stöder digitala signaturer.
 
 {{% /alert %}} 
 ### **Arbeta med digitala signaturer**
 #### **Excel-format som stöds för digitala signaturer**
-Aspose.Cells för Reporting Services stöder digitala signaturer vid export till Excel 2007 och ODS-filformat.
+Aspose.Cells for Reporting Services stöder digitala signaturer vid export till Excel 2007 och ODS-filformat.
 #### **Konfigurera digitala signaturer**
  De**Aspose.Cells.ReportingServices.xml** filen innehåller konfigurationsinformationen och texten för en digital signatur i<DigitalSignature> märka:
 
-- När DigitalSignature är avstängd stänger Aspose.Cells för Reporting Services av den digitala signaturfunktionen.
+- När DigitalSignature är avstängd stänger Aspose.Cells for Reporting Services av den digitala signaturfunktionen.
  Till exempel:
 
 {{< highlight "java" >}}

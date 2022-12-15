@@ -14,7 +14,7 @@ url: /it/net/returning-a-range-of-values-using-abstractcalculationengine/
 
  Il codice seguente illustra l'uso di[**Motore di calcolo astratto**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) class e restituisce l'intervallo di valori tramite il suo metodo.
 
-Crea una classe con una funzione*Calcola funzione personalizzata*. Questa classe implementa[**Motore di calcolo astratto**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+ Crea una classe con una funzione*Calcola funzione personalizzata*. Questa classe implementa[**Motore di calcolo astratto**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

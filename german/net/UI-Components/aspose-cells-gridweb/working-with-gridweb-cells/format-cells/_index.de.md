@@ -135,7 +135,7 @@ So legen Sie Rahmen für einen Zellbereich fest:
 1. Legen Sie die Farbe des Rahmens fest
 1. Wenden Sie die im WebBorderStyle-Objekt gespeicherten Rahmeneinstellungen auf einen angegebenen Zellbereich an
 
-**Eine Reihe von Zellen mit benutzerdefinierten Rahmeneinstellungen** 
+**Eine Reihe von Zellen mit benutzerdefinierten Randeinstellungen** 
 
 ![todo: Bild_alt_Text](format-cells_9.png)
 

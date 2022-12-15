@@ -6,7 +6,7 @@ url: /de/java/saving-files-in-php/
 ---
 ## **Aspose.Cells – Speichern von Dateien**
 ### **Datei an einem Ort speichern**
- Wenn Entwickler ihre Dateien mit speichern müssen**Aspose.Cells Java für PHP** zu einem Speicherort, dann können sie einfach den Dateinamen (mit vollständigem Speicherpfad) und das gewünschte Dateiformat (mithilfe der**Dateiformattyp**Aufzählung) beim Aufrufen der**sparen**Methode von**Arbeitsmappe**Objekt.
+ Wenn Entwickler ihre Dateien mit speichern müssen**Aspose.Cells Java for PHP** zu einem Speicherort, dann können sie einfach den Dateinamen (mit vollständigem Speicherpfad) und das gewünschte Dateiformat (mithilfe der**Dateiformattyp**Aufzählung) beim Aufrufen der**sparen**Methode von**Arbeitsmappe**Objekt.
 
 **PHP-Code**
 

@@ -5,13 +5,13 @@ weight: 100
 url: /sv/java/how-to-run-the-examples/
 ---
 ## **Ladda ner från GitHub**
- Alla exempel på Aspose.Cells för Java finns på[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Du kan antingen klona förvaret med din favorit GitHub-klient eller ladda ner ZIP-filen från[här](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
+ Alla exempel på Aspose.Cells for Java finns på[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Du kan antingen klona förvaret med din favorit GitHub-klient eller ladda ner ZIP-filen från[här](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
 
  Extrahera innehållet i ZIP-filen till valfri mapp på din dator. Alla exempel finns i**Exempel** mapp.
 
- De**Resurser**mappen innehåller indatadokument eller filer som används i exemplen.
+ De**Resurser** mappen innehåller indatadokument eller filer som används i exemplen.
 
- Du kan köra/köra dessa exempel med vilken IDE du vill, men för demonstrationsändamål använder vi**Förmörkelse** . Använd**Arkiv -> Importera** alternativet för att importera det valda exemplet och ange sökvägen.
+Du kan köra/köra dessa exempel med vilken IDE du vill, men för demonstrationsändamål använder vi**Förmörkelse** . Använd**Arkiv -> Importera** alternativet för att importera det valda exemplet och ange sökvägen.
 
 Lägg till de nödvändiga jar-filerna (bibliotek) i projektet.
 

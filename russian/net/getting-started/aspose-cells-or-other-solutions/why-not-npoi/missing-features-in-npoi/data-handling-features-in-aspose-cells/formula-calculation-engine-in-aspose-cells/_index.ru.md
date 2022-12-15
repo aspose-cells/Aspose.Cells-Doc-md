@@ -59,12 +59,12 @@ book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
 ## **Скачать рабочий код**
- Скачать**Механизм расчета формулы** сформировать любой из перечисленных ниже сайтов социального кодирования:
+ Скачать**Механизм вычисления формулы** сформировать любой из перечисленных ниже сайтов социального кодирования:
 
 - [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Механизм расчета формулы](/cells/ru/net/formula-calculation-engine/).
+ Для получения более подробной информации посетите[Механизм вычисления формулы](/cells/ru/net/formula-calculation-engine/).
 
 {{% /alert %}}

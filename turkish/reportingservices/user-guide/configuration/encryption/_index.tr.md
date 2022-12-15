@@ -4,9 +4,9 @@ type: docs
 weight: 40
 url: /tr/reportingservices/encryption/
 ---
- Raporlama Hizmetleri için Aspose.Cells, üç tür şifrelemeyi destekler: XOR, WEAK ENCRYPTION ve Microsoft Strong Cryptographic Provider. bölümündeki şifreleme yapılandırma bilgilerine bakın.**Aspose.Cells.ReportingServices.xml** dosya.
+ Aspose.Cells for Reporting Services, üç tür şifrelemeyi destekler: XOR, WEAK ENCRYPTION ve Microsoft Strong Cryptographic Provider. bölümündeki şifreleme yapılandırma bilgilerine bakın.**Aspose.Cells.ReportingServices.xml** dosya.
 
- Şifreleme değeri şu olduğunda**kapalı**, Raporlama Hizmetleri için Aspose.Cells, şifreleme özelliklerini kapatır.
+ Şifreleme değeri şu olduğunda**kapalı**, Aspose.Cells for Reporting Services şifreleme özelliklerini kapatır.
 
 {{< highlight "java" >}}
 
@@ -26,7 +26,7 @@ url: /tr/reportingservices/encryption/
 
 {{< /highlight >}}
 
- Şifreleme değeri şu olduğunda**üzerinde**, Raporlama Hizmetleri için Aspose.Cells şifrelemeyi açar.
+ Şifreleme değeri şu olduğunda**üzerinde**, Aspose.Cells for Reporting Services şifrelemeyi açar.
 
 {{< highlight "java" >}}
 
@@ -37,7 +37,7 @@ url: /tr/reportingservices/encryption/
 Şifreleme bölümünde dört parametre vardır:
 
 - **Rapor Adı**: şifreleme gerektiren bir rapora işaret eder. Parametre boş bırakılırsa tüm raporlar aynı şifreleme yöntemini kullanır.
-- **Şifre**: şifreyi ayarlar. Boş bırakılamaz.
+- **Şifre**parolayı ayarlar. Boş bırakılamaz.
 - **Şifreleme tipi**: bir şifreleme türü ayarlar. Boş bırakılamaz.
 - **Anahtar Uzunluğu**: anahtar uzunluğunu ayarlar. Boş bırakılamaz.
 

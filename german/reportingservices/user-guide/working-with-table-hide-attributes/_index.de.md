@@ -5,7 +5,7 @@ weight: 160
 url: /de/reportingservices/working-with-table-hide-attributes/
 ---
 1.  Klicken Sie in Microsoft Excel auf**Attribut ändern** in der Aspose.Cells-Befehlsleiste.
- Das Dialogfeld „Bericht ändern“ wird angezeigt.
+Das Dialogfeld „Bericht ändern“ wird angezeigt.
 1. Wählen Sie ein Tabellenberichtselement aus.
 1.  Drücke den**Ausblenden** Tab.
 

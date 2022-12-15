@@ -40,9 +40,9 @@ url: /it/net/aspose-cells-for-net-22-2-release-notes/
 |CELLSNET-50293|ExportXml con XML Map genera "NullReferenceException" per un altro file complesso|
 |CELLSNET-50352|NullReferenceException durante la conversione del file XLSM in XLS|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Metodo Cells.AddAddInFunction() obsoleto.**
 

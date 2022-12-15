@@ -6,7 +6,7 @@ url: /sv/net/encrypting-excel-files/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel (97 - 365) gör att du kan kryptera och lösenordsskydda dina kalkylblad. Den använder algoritmer som tillhandahålls av en kryptografisk tjänsteleverantör, eller CSP, en uppsättning kryptografiska algoritmer med olika egenskaper. Standard-CSP är 'Office 97/2000 Compatible' eller 'Weak Encryption (XOR)'. Det är viktigt att välja rätt längd på krypteringsnyckeln. Vissa CSP:er stöder inte mer än 40 eller 56 bitar. Det anses vara svag kryptering. För stark kryptering krävs en minsta nyckellängd på 128 bitar. Microsoft Windows innehåller CSP:er som också erbjuder starka krypteringstyper, till exempel "Microsoft Strong Cryptographic Provider". För att ge dig en uppfattning är 128-bitars kryptering vad banker använder för att kryptera anslutningen till sina Internetbanksystem.
+Microsoft Excel (97 - 365) gör att du kan kryptera och lösenordsskydda dina kalkylblad. Den använder algoritmer som tillhandahålls av en kryptografisk tjänsteleverantör, eller CSP, en uppsättning kryptografiska algoritmer med olika egenskaper. Standard-CSP är 'Office 97/2000 Compatible' eller 'Weak Encryption (XOR)'. Det är viktigt att välja rätt längd på krypteringsnyckeln. Vissa CSP:er stöder inte mer än 40 eller 56 bitar. Det anses vara svag kryptering. För stark kryptering krävs en minsta nyckellängd på 128 bitar. Microsoft Windows innehåller CSP:er som också erbjuder starka krypteringstyper, till exempel 'Microsoft Strong Cryptographic Provider'. För att ge dig en uppfattning är 128-bitars kryptering vad banker använder för att kryptera anslutningen till sina Internetbanksystem.
 
 Aspose.Cells låter dig kryptera och lösenordsskydda Microsoft Excel-filer med önskad krypteringstyp.
 
@@ -35,8 +35,8 @@ Följande exempel visar hur man krypterar och lösenordsskyddar en excel-fil med
 
 ## **Verifiera lösenordet för den krypterade filen**
 
- För att verifiera lösenordet för den krypterade filen tillhandahåller Aspose.Cells för .NET[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod. Dessa metoder accepterar två parametrar, filströmmen och lösenordet som måste verifieras.
-Följande kodavsnitt visar användningen av[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod för att verifiera om det angivna lösenordet är giltigt eller inte.
+ För att verifiera lösenordet för den krypterade filen tillhandahåller Aspose.Cells for .NET[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod. Dessa metoder accepterar två parametrar, filströmmen och lösenordet som måste verifieras.
+ Följande kodavsnitt visar användningen av[**Verifiera lösenord**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword) metod för att verifiera om det angivna lösenordet är giltigt eller inte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 

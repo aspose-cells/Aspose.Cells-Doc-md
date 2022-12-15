@@ -22,7 +22,7 @@ Följande exempel förklarar användningen av ovanstående API:er, det laddar de
 ## **Manipulera designerdiagram**
 Det finns tillfällen då du behöver manipulera eller ändra diagram i designermallfiler. Aspose.Cells stöder fullt ut manipulering av designerdiagraminnehåll och element. Data, diagraminnehåll, bakgrundsbild och formatering kan bevaras med noggrannhet.
 ### **Manipulera designerdiagram i mallfiler**
-För att manipulera designerdiagram i mallfiler, använd diagramrelaterade API. Du kan till exempel använda egenskapen Worksheet.Charts för att hämta den befintliga diagramsamlingen i mallfilen.
+För att manipulera designerdiagram i mallfiler, använd diagramrelaterade API. Till exempel kan du använda egenskapen Worksheet.Charts för att hämta den befintliga diagramsamlingen i mallfilen.
 #### **Skapa ett diagram**
 Följande exempel visar hur man skapar ett pyramiddiagram. Vi kommer att manipulera detta diagram senare.
 

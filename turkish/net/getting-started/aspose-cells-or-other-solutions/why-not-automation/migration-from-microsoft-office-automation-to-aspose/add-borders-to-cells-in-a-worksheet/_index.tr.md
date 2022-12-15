@@ -12,7 +12,7 @@ Aspose.Cells for .NET, bir kullanıcının Microsoft Excel'de gerçekleştirebil
 
 ## **Cells'e Kenarlık Ekleme**
 
-Elektronik tablodaki hücrelere kenarlık eklemek için aşağıdaki adımları uygulayın:
+Elektronik tablodaki hücrelere kenarlık eklemek için aşağıdaki adımları izleyin:
 
 1. Çalışma sayfasını ayarlayın:
  1. Bir Uygulama nesnesi oluşturun.

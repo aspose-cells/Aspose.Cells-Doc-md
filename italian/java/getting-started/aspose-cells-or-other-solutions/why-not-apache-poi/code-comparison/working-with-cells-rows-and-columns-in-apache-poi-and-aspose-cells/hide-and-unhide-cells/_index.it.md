@@ -5,9 +5,9 @@ weight: 30
 url: /it/java/hide-and-unhide-cells/
 ---
 ## **Aspose.Cells - Nascondi e mostra righe e colonne**
-Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. La classe Worksheet fornisce una raccolta Cells che rappresenta tutte le celle del foglio di lavoro. La raccolta Cells fornisce diversi metodi per la gestione di righe o colonne in un foglio di lavoro.
+Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. La classe Worksheet fornisce una raccolta Cells che rappresenta tutte le celle del foglio di lavoro. La raccolta Cells fornisce diversi metodi per la gestione di righe o colonne in un foglio di lavoro.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -27,7 +27,7 @@ cells.hideColumn(1); //Hiding the 2nd column of the worksheet
 ## **Apache POI SS - HSSF XSSF - Nascondi/Mostra Cells**
 Per nascondere una riga o una colonna, Apache POI SS fornisce il metodo Row.setZeroHeight(boolean).
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

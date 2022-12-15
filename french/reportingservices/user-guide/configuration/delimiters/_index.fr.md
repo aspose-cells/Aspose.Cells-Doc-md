@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /fr/reportingservices/delimiters/
 ---
-Aspose.Cells pour Reporting Services prend en charge un délimiteur spécifié lors du rendu au format TXT ou CSV. Deux paramètres contrôlent le délimiteur de champ dans Aspose.Cells pour Reporting Services.
+Aspose.Cells for Reporting Services prend en charge un délimiteur spécifié lors du rendu au format TXT ou CSV. Deux paramètres contrôlent le délimiteur de champ dans Aspose.Cells for Reporting Services.
 
 1.  Le paramètre de délimiteur de champ dans**rsreportserver.config** ne peut contrôler qu'une extension de rendu spécifiée.
 

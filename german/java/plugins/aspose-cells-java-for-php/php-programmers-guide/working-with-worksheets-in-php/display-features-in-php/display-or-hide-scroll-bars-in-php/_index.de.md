@@ -6,7 +6,7 @@ url: /de/java/display-or-hide-scroll-bars-in-php/
 ---
 ## **Aspose.Cells – Bildlaufleisten anzeigen oder ausblenden**
 ### **Bildlaufleisten ausblenden**
- So blenden Sie Bildlaufleisten mit aus**Aspose.Cells Java für PHP** , Anruf**Bildlaufleisten ausblenden** Modul.
+ So blenden Sie Bildlaufleisten mit aus**Aspose.Cells Java for PHP** , Anruf**Bildlaufleisten ausblenden** Modul.
 
 **PHP-Code**
 

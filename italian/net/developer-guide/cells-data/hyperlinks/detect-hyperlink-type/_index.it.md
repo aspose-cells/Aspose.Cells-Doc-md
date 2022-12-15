@@ -6,7 +6,7 @@ url: /it/net/detect-hyperlink-type/
 ---
 ## **Rileva il tipo di collegamento ipertestuale**
 
- Un file Excel può avere diversi tipi di collegamenti ipertestuali come esterno, riferimento di cella, percorso file, ecc. Aspose.Cells supporta la funzione per rilevare il tipo di collegamento ipertestuale. I tipi di collegamenti ipertestuali sono rappresentati dal[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Enumerazione. Il[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)L'enumerazione ha i seguenti membri.
+Un file Excel può avere diversi tipi di collegamenti ipertestuali come esterno, riferimento di cella, percorso file, ecc. Aspose.Cells supporta la funzione per rilevare il tipo di collegamento ipertestuale. I tipi di collegamenti ipertestuali sono rappresentati dal[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Enumerazione. Il[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)L'enumerazione ha i seguenti membri.
 
 - Esterno: collegamento esterno
 - FilePath: percorso locale e completo di file\cartelle.

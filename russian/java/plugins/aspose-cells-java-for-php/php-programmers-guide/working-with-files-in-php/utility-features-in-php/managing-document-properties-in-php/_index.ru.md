@@ -5,7 +5,7 @@ weight: 70
 url: /ru/java/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells — Добавление пользовательских свойств**
-Чтобы добавить пользовательские свойства документа, используя Aspose.Cells Java для PHP, вызовите**add_custom_property** метод**Документ** модуль.
+Чтобы добавить пользовательские свойства документа, используя Aspose.Cells Java for PHP, позвоните**add_custom_property** метод**Документ** модуль.
 
 **PHP-код**
 

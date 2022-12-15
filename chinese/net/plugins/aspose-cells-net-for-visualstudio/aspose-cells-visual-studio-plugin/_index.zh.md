@@ -29,7 +29,7 @@ Aspose Visual Studio 插件 -**探索 Aspose.Cells for .NET 例子**是快速下
 - 选定的项目会在 Visual Studio 中自动打开，并设置所有必需的引用，为您提供一个随时可以运行和探索的环境。
 - 自动下载最新的 API 库**NuGet**和例子来自**GitHub**.
 
-![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_1)
+![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_1)
 
 ## **系统要求和支持的平台**
 
@@ -54,7 +54,7 @@ Aspose Visual Studio 插件 -**探索 Aspose.Cells for .NET 例子**是快速下
 
 安装完成后，您将看到一个成功对话框。
 
-![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_2)
+![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_2)
 
 **笔记：**请确保重新启动 Visual Studio 以使更改生效。
 
@@ -63,21 +63,21 @@ Aspose Visual Studio 插件 -**探索 Aspose.Cells for .NET 例子**是快速下
 安装后，您可以轻松启动和使用交互式插件，如下所述：
 **1.**通过选择打开插件**文件 > Aspose**其次是**新的 Aspose.Cells 示例项目**在 Visual Studio 中。
 
-![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_3)
+![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_3)
 
 **2.**第一次打开插件时，您会看到 API 选择对话框，如下所示。下载最新的 API 及其库需要几分钟时间**NuGet**和最新的示例源代码来自**GitHub**.
 
-![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_4)
+![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_4)
 
 **3.**在 Select an API to View Examples 对话框中，选择或更改将创建示例项目的位置，同时选择或更改示例项目类型为**C#**或者**VB.NET**然后点击**继续**在 Visual Studio 中打开示例项目。
 
-![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_1)
+![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_1)
 
 **4.**根据项目类型选择的新示例项目**C#**或者**VB.NET**在 Visual Studio 中。
 
 |**C# 例子** |**VB.NET实例** |
 |:- |:- |
-|![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_6)|![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_7)|
+|![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_6)|![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_7)|
 
 ## **视频演示**
 

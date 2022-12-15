@@ -6,7 +6,7 @@ url: /it/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells per Reporting Services è disponibile come valutazione gratuita e illimitata dal[Scarica la pagina](https://downloads.aspose.com/cells/reportingservices). Le versioni di valutazione e con licenza del prodotto sono le stesse.
+ Aspose.Cells for Reporting Services è disponibile come valutazione gratuita a tempo illimitato dal[Scarica la pagina](https://downloads.aspose.com/cells/reportingservices). Le versioni di valutazione e con licenza del prodotto sono le stesse.
 
 Quando sei soddisfatto della versione di valutazione, acquista una licenza. Assicurati di comprendere e accettare i termini e le condizioni dell'abbonamento.
 
@@ -32,9 +32,9 @@ Il nome del file di licenza può essere uno dei seguenti in base al tipo di abbo
 - Aspose.Cells.Reporting.Services - Multiple Deployment Subscription.lic
 - Aspose.Cells.Reporting.Services - Abbonamento distribuzione server singolo.lic
 
-Per verificare che il file di licenza sia stato installato correttamente, esportare qualsiasi report come cartella di lavoro Excel Microsoft. Se la cartella di lavoro non contiene alcun foglio di lavoro filigrana alla fine, il file di licenza è stato attivato correttamente.
+Per verificare che il file di licenza sia stato installato correttamente, esportare qualsiasi report come cartella di lavoro di Microsoft Excel. Se la cartella di lavoro non contiene alcun foglio di lavoro filigrana alla fine, il file di licenza è stato attivato correttamente.
 
- Aspose.Cells per Reporting Services inserisce un foglio di lavoro filigrana di valutazione quando si lavora in modalità di valutazione. Quando un file di licenza valido, ad esempio quando**Aspose.Cells.ReportingServices.lic** si trova nella cartella $[Cartella di installazione]\License\, non esiste un foglio di lavoro con filigrana di valutazione.
+ Aspose.Cells for Reporting Services inietta un foglio di lavoro con filigrana di valutazione quando si lavora in modalità di valutazione. Quando un file di licenza valido, ad esempio quando**Aspose.Cells.ReportingServices.lic** si trova nella cartella $[Cartella di installazione]\License\, non esiste un foglio di lavoro con filigrana di valutazione.
 
 **Un file creato in modalità di valutazione. Nota il secondo foglio di lavoro.** 
 

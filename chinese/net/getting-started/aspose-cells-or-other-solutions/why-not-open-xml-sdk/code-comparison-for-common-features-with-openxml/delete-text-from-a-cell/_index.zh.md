@@ -264,5 +264,5 @@ private static void DeleteTextFromCell(string docName, string sheetName, string 
 {{< /highlight >}}
 ## **下载示例代码**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Delete%20text%20from%20a%20cell%20\(Aspose.Cells\).zip/下载)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Delete%20text%20from%20a%20cell%20\(Aspose.Cells\).zip/下载）
 - [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Delete%20text%20from%20a%20cell%20\(Aspose.Cells\)。压缩）

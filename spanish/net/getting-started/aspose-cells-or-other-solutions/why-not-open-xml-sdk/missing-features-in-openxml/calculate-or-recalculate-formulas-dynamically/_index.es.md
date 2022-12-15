@@ -94,7 +94,7 @@ workbook.Save(FileName);
 {{< /highlight >}}
 ## **Cálculo directo de fórmula**
 El motor de cálculo de fórmulas está integrado en Aspose.Cells. Además, al volver a calcular la fórmula importada del archivo del diseñador, Aspose.Cells también permite calcular los resultados de las fórmulas directamente.
-A veces, necesita calcular los resultados de las fórmulas directamente sin agregarlos realmente en una hoja de trabajo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de trabajo y todo lo que necesita es encontrar el resultado de esos valores en función de alguna fórmula de Ms-Excel sin agregar la fórmula en una hoja de trabajo.
+A veces, necesita calcular los resultados de las fórmulas directamente sin agregarlos realmente en una hoja de cálculo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de trabajo y todo lo que necesita es encontrar el resultado de esos valores en función de alguna fórmula de Ms-Excel sin agregar la fórmula en una hoja de trabajo.
 
  Puede usar Aspose.Cells Motor de cálculo de fórmula API, es decir**hoja de trabajo. Calcular (fórmula de cadena)**para calcular los resultados de tales fórmulas sin agregarlas realmente en la hoja de trabajo.
 

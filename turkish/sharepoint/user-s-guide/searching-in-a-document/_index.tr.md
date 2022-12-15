@@ -19,5 +19,5 @@ Birkaç dosyayı aynı anda aramak için:
 
 Aşağıdaki seçenekler mevcuttur:
 
-- **Bul Seçenekleri**: Hücrelerde formül arayarak veya belirli bir ifade içeren formüller bularak aramanıza odaklanın.
+- **Bul Seçenekleri**Hücrelerde formül arayarak veya belirli bir ifade içeren formüller bularak aramanıza odaklanın.
 - **Harfe duyarlı**: Büyük/küçük harfe duyarlı seçeneği seçildiğinde, arama, küçük ve büyük harfler dahil olmak üzere karakterleri tam olarak eşleştirir.

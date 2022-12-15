@@ -91,4 +91,4 @@ Representa las opciones de archivos R/W xml.
 
 ### **Agrega los métodos ListColumn.GetCustomTotalsRowFormula() y ListColumn.SetCustomTotalsRowFormula()**
 
- Obtiene y establece la fórmula personalizada de la fila de totales en la tabla.
+ Obtiene y establece la fórmula personalizada de la fila de totales de la tabla.

@@ -27,7 +27,7 @@ Följande parametrar är tillåtna:
 - skip:n - Hoppa över n antal rader för varje rad med data.
 - stigande:n eller fallande:n - Sortera data i smarta markörer. Om n är 1, är kolumnen den första nyckeln i sorteraren. Data sorteras efter bearbetning av datakällan. T.ex. &=Tabell1.Fält3(stigande:1).
 - horisontell - Skriv data från vänster till höger, istället för uppifrån och ner.
-- numerisk - Konvertera text till nummer om möjligt. Stöds endast i .NET-version.
+- numerisk - Konvertera text till nummer om möjligt. Stöds endast i versionen .NET.
 - shift - Skift ner eller höger, skapa extra rader eller kolumner för att passa data. Skiftparametern fungerar på samma sätt som i Microsoft Excel. Till exempel i MS Excel, när du markerar ett cellintervall, högerklickar du och väljer Infoga och anger flytta celler nedåt, flytta celler åt höger och andra alternativ. Kort sagt, skiftparametern fyller samma funktion för vertikala/normala (uppifrån och ned) eller horisontella (vänster till höger) smarta markörer.
 - copystyle - Kopiera bascellens stil till alla celler i den kolumnen.
 

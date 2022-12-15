@@ -5,9 +5,9 @@ weight: 10
 url: /sv/java/download-and-configure-aspose-cells-in-ruby/
 ---
 ## **Ladda ner obligatoriska bibliotek**
-Ladda ner nödvändiga bibliotek som nämns nedan. Dessa är nödvändiga för att exekvera Aspose.Cells Java för Ruby-exempel.
+Ladda ner nödvändiga bibliotek som nämns nedan. Dessa är nödvändiga för att köra Aspose.Cells Java för Ruby-exempel.
 
-- [Aspose.Cell för Java-komponent](https://downloads.aspose.com/cells/java/)
+- [Aspose.Cell for Java Komponent](https://downloads.aspose.com/cells/java/)
 ## **Ladda ner exempel från webbplatser för social kodning**
 Följande versioner av löpande exempel finns att ladda ner på nedan nämnda webbplatser för social kodning:
 
@@ -35,7 +35,7 @@ Det är väldigt enkelt och lätt att installera Aspose.cells Java för Ruby gem
 
 **ELLER**
 
-1. Kör följande kommando.
+1.  Kör följande kommando.
 
 {{< highlight "java" >}}
 

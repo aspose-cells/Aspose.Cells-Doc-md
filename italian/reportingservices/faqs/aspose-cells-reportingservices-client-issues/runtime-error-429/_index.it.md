@@ -5,7 +5,7 @@ weight: 60
 url: /it/reportingservices/runtime-error-429/
 ---
 ##### **Descrizione**
- Errore di runtime: '429'
+Errore di runtime: '429'
  Il componente ActiveX non può creare l'oggetto
  La riga che causa l'errore è:
  Impostare AsposeClientTools = CreateObject("Aspose.Cells.ReportingServices.Client.AsposeClient").
@@ -15,7 +15,7 @@ url: /it/reportingservices/runtime-error-429/
  Registrati di nuovo**Aspose.Cells.ReportingServices.Client.dll** usando il**Regasm.exe** utilità:
 
 1. Eseguire cmd.exe come amministratore.
-1. cd $(Aspose.Cells per la cartella di installazione di Reporting Services).
+1. cd $(Aspose.Cells for Reporting Services cartella di installazione).
 1.  Eseguire**regasm.exe** registrare**Aspose.Cells.ReportingServices.Client.dll** manualmente.
 
 {{< highlight "java" >}}
@@ -34,7 +34,7 @@ url: /it/reportingservices/runtime-error-429/
 
 {{< /highlight >}}
 
--  Se il tuo Office Microsoft è x86, esegui il comando
+-  Se il tuo Microsoft Office è x86, esegui il comando
 
 {{< highlight "java" >}}
 

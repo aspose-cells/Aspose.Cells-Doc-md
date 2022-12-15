@@ -20,14 +20,14 @@ url: /it/java/aspose-cells-for-java-22-11-release-notes/
 |CELLSJAVA-44910|Converti Excel in HTML produce migliaia di piccole immagini simili|
 |CELLSJAVA-44944|Il ridimensionamento delle tabelle modifica la formattazione delle celle|
 |CELLSJAVA-44948| Le immagini non possono essere visualizzate nel foglio durante la conversione da HTML a Excel|
-|CELLSJAVA-44908|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il caricamento di file XLSB di grandi dimensioni|
+|CELLSJAVA-44908|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il caricamento di file XLSB di grandi dimensioni|
 |CELLSJAVA-44929|Regressione: "java.lang.NullPointerException" su Workbook.calculateFormula()|
 |CELLSJAVA-44927|Eccezione "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" durante la conversione di file Excel in HTML|
 |CELLSJAVA-44939|Errore "java.lang.StringIndexOutOfBoundsException: Indice stringa fuori intervallo: 0" durante il tentativo di leggere un file Excel|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà Cell.IsDynamicArrayFormula**
 

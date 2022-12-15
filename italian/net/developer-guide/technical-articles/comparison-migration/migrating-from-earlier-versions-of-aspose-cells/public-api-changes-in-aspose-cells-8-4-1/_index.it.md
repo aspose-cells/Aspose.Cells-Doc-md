@@ -1,17 +1,17 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.4.1
+title: Modifiche all'API pubblica in Aspose.Cells 8.4.1
 type: docs
 weight: 140
 url: /it/net/public-api-changes-in-aspose-cells-8-4-1/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.4.0 alla 8.4.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-1/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.4.0 alla 8.4.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-1/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Meccanismo per modificare la connessione al database**
-La classe Aspose.Cells.ExternalConnections.ExternalConnection conteneva già il metodo e le proprietà che potevano essere utilizzate per ispezionare i dettagli della connessione al database archiviati in un foglio di calcolo. La maggior parte delle proprietà associate alla classe Aspose.Cells.ExternalConnections.ExternalConnection erano di sola lettura fino al rilascio di Aspose.Cells for .NET 8.4.1. Con questa versione, lo API ha fornito il supporto per manipolare anche le impostazioni di connessione al database.
+La classe Aspose.Cells.ExternalConnections.ExternalConnection conteneva già il metodo e le proprietà che potevano essere utilizzate per ispezionare i dettagli della connessione al database archiviati in un foglio di calcolo. La maggior parte delle proprietà associate alla classe Aspose.Cells.ExternalConnections.ExternalConnection erano di sola lettura fino al rilascio di Aspose.Cells for .NET 8.4.1. Con questa versione, l'API ha fornito il supporto per manipolare anche le impostazioni di connessione al database.
 
 Il frammento di codice seguente mostra come modificare dinamicamente le impostazioni di connessione al database.
 
@@ -158,7 +158,7 @@ La stessa proprietà può essere utilizzata anche per convertire i grafici in im
 
 
 ### **Rendering di commenti in PDF**
-Con il rilascio di v8.4.1, Aspose.Cells API ha fornito la proprietà PageSetup.PrintComments e l'enumerazione PrintCommentsType per facilitare il rendering dei commenti durante la conversione dei fogli di calcolo in formato PDF. L'enumerazione PrintCommentsType ha le seguenti costanti.
+Con il rilascio di v8.4.1, l'API Aspose.Cells ha fornito la proprietà PageSetup.PrintComments e l'enumerazione PrintCommentsType per facilitare il rendering dei commenti durante la conversione dei fogli di calcolo in formato PDF. L'enumerazione PrintCommentsType ha le seguenti costanti.
 
 - PrintCommentsType.PrintNoComments: i commenti non devono essere visualizzati.
 - PrintCommentsType.PrintInPlace: i commenti devono essere visualizzati nel punto in cui sono inseriti.

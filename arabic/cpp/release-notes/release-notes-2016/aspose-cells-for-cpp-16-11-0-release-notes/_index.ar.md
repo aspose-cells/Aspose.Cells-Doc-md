@@ -6,7 +6,7 @@ url: /ar/cpp/aspose-cells-for-cpp-16-11-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-يسعدنا إطلاق منتجنا الجديد ، Aspose.Cells مقابل C++!
+يسعدنا إطلاق منتجنا الجديد ، Aspose.Cells for C++!
 
 {{% /alert %}} 
 

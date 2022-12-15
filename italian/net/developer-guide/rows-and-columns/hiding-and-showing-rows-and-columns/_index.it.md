@@ -6,13 +6,13 @@ url: /it/net/hiding-and-showing-rows-and-columns/
 ---
 {{% alert color="primary" %}}
 
-A volte, ha senso nascondere determinate righe o colonne in un foglio di lavoro e visualizzarle in un secondo momento. Microsoft Excel fornisce questa funzionalità, così come Aspose.Cells.
+A volte, ha senso nascondere determinate righe o colonne in un foglio di lavoro e visualizzarle in un secondo momento. Microsoft Excel fornisce questa funzionalità e anche Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Controllo della visibilità di righe e colonne**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) che consente agli sviluppatori di accedere a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) raccolta che rappresenta tutte le celle del foglio di lavoro. Il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fornisce diversi metodi per la gestione di righe o colonne in un foglio di lavoro. Alcuni di questi sono discussi di seguito.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) che consente agli sviluppatori di accedere a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) raccolta che rappresenta tutte le celle del foglio di lavoro. Il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fornisce diversi metodi per la gestione di righe o colonne in un foglio di lavoro. Alcuni di questi sono discussi di seguito.
 
 ### **Nascondere righe e colonne**
 

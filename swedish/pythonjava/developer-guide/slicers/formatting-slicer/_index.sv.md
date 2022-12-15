@@ -5,7 +5,7 @@ weight: 30
 url: /sv/python-java/formatting-slicer/
 ---
 ## **Formatera Slicer**
-Med Microsoft Excel kan du formatera slicern genom att ställa in dess antal kolumner, stilar etc. Aspose.Cells för Python via Java tillhandahåller egenskaperna Slicer.NumberOfColumns och Slicer.StyleType för att uppnå detta.
+Med Microsoft Excel kan du formatera slicern genom att ställa in dess antal kolumner, stilar etc. Aspose.Cells for Python via Java tillhandahåller egenskaperna Slicer.NumberOfColumns och Slicer.StyleType för att uppnå detta.
 
 Följande kodavsnitt laddar[exempel på Excel-fil](106364964.xlsx)som innehåller en skivare. Den kommer åt skivaren och ställer in dess antal kolumner och stiltyp och sparar den som[utdata Excel-fil](106364965.xlsx). Skärmdumpen visar hur slicern ser ut efter exekveringen av exempelkoden.
 

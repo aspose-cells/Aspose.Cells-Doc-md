@@ -263,7 +263,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 ### **الخطوة الخامسة: تشغيل التطبيق**
  قم بتشغيل التطبيق إما بالضغط على**السيطرة + F5** أو النقر فوق**بداية** زر في VS.NET. يتم فتح نموذج الويب في نافذة متصفح جديدة.
 
-**ورقة العمل مرتبطة بمجموعة مخصصة** 
+**ورقة عمل مرتبطة بمجموعة مخصصة** 
 
 ![ما يجب القيام به: image_بديل_نص](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
 

@@ -4,7 +4,7 @@ linktitle: 智能标记
 type: docs
 weight: 190
 url: /zh/python-java/using-smart-markers/
-description: Python通过java库根据Aspose.Cells模板Excel文件智能导入和放置数据。
+description: 通过 java 库根据 Aspose.Cells for Python 模板 Excel 文件智能导入和放置数据。
 ---
 ## **介绍**
 **智能标记**用于让 Aspose.Cells 知道在 Microsoft Excel 设计器电子表格中放置哪些信息。智能标记允许您创建仅包含特定信息和格式的模板。
@@ -41,7 +41,7 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 |**模板文件**|**输出文件**|
 |:- |:- |
-|![待办事项：图片_替代_文本](using-smart-markers_1.jpg)|![待办事项：图片_替代_文本](using-smart-markers_2.jpg)|
+|![待办事项：图像_替代_文本](using-smart-markers_1.jpg)|![待办事项：图像_替代_文本](using-smart-markers_2.jpg)|
 ### **动态公式**
 动态公式允许您将 Excel 公式插入到单元格中，即使公式引用了将在导出过程中插入的行。动态公式可以为每个插入的行重复或仅使用放置数据标记的单元格。
 
@@ -72,7 +72,7 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 |**模板文件**|**输出文件**|
 |:- |:- |
-|![待办事项：图片_替代_文本](using-smart-markers_3.jpg)|![待办事项：图片_替代_文本](using-smart-markers_4.jpg)|
+|![待办事项：图像_替代_文本](using-smart-markers_3.jpg)|![待办事项：图像_替代_文本](using-smart-markers_4.jpg)|
 Cell “C1”包含公式**A1*B1** ，单元格“C2”包含**A2*B2**单元格“C3”包含**A3*B3**.
 
 处理智能标记非常容易。以下是 Python via Java 中的代码片段，展示了它是如何完成的。

@@ -6,7 +6,7 @@ url: /sv/net/remove-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-Det här avsnittet ger information om hur du tar bort kalkylblad från Microsoft Excel-filer med Aspose.Cells.GridWeb API. Det är möjligt att antingen ta bort ett kalkylblad genom att ange dess arkindex eller namn.
+Det här avsnittet ger information om hur du tar bort kalkylblad från Microsoft Excel-filer med hjälp av Aspose.Cells.GridWeb API. Det är möjligt att antingen ta bort ett kalkylblad genom att ange dess arkindex eller namn.
 
 {{% /alert %}} 
 ## **Ta bort ett arbetsblad**

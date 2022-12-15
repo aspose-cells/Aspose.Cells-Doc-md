@@ -15,7 +15,7 @@ url: /zh/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 |CELLSCPP-41|计算 Excel 电子表格中的公式|新功能|
 |CELLSCPP-42|提高读取 XLSX 文件的性能|改进|
 ### **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells 为 C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **添加 IWorkbook::CalculateFormula() 方法**
 CPP API 的 Aspose.Cells 的最新版本 17.02.0 添加了 IWorkbook::CalculateFormula() 方法。它可以帮助开发人员计算公式的结果并将其存储在工作表的适当单元格中。开发人员还可以计算自定义公式。
 

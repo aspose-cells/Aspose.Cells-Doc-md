@@ -6,7 +6,7 @@ url: /tr/reportingservices/preface/
 ---
 {{% alert color="primary" %}} 
 
-Raporlama Hizmetleri için Aspose.Cells esas olarak iki bileşen içerir: Aspose.Cells.Report.Designer ve Aspose.Cells.Renderer for Reporting Services. İlki, doğrudan Microsoft Excel'de raporları tasarlamak için kullanılır ve ikincisi, bir RDL raporunu Microsoft Excel'de işlemekten sorumludur.
+Aspose.Cells for Reporting Services temel olarak iki bileşen içerir: Aspose.Cells.Report.Designer ve Aspose.Cells.Renderer for Reporting Services. İlki, doğrudan Microsoft Excel'de raporları tasarlamak için kullanılır ve ikincisi, Microsoft Excel'e bir RDL raporu oluşturmaktan sorumludur.
 
 {{% /alert %}} 
 ### **Rapor Tasarımcısı ile Rapor Tasarlama**

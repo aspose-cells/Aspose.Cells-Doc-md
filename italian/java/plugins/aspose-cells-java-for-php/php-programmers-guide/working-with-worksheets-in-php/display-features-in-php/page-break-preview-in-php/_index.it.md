@@ -5,7 +5,7 @@ weight: 60
 url: /it/java/page-break-preview-in-php/
 ---
 ## **Aspose.Cells - Anteprima interruzione di pagina**
- Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Java per PHP** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
+ Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Giava for PHP** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
 
 **Codice PHP**
 

@@ -196,7 +196,7 @@ Exécutez le code ci-dessus, vous obtiendrez les résultats suivants :
 
 
 
-## **Insertion d'un signe de multiplication dans la feuille de calcul**
+## **Insertion d'un signe de multiplication dans la feuille de travail**
 
  La forme du signe de multiplication appartient au**Formes d'équation** Catégorie.
 

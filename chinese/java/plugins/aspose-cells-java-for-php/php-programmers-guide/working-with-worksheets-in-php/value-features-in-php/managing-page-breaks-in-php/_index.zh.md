@@ -6,7 +6,7 @@ url: /zh/java/managing-page-breaks-in-php/
 ---
 ## **Aspose.Cells - 管理分页符**
 ### **添加分页符**
-添加分页符使用**Aspose.Cells Java 用于 PHP**， 称呼**添加分页符**的方法**分页符**模块。您可以在下面看到代码示例。
+添加分页符使用**Aspose.Cells Java for PHP**， 称呼**添加分页符**的方法**分页符**模块。您可以在下面看到代码示例。
 
 **PHP代码**
 
@@ -30,7 +30,7 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **清除所有分页符**
-使用清除所有分页符**Aspose.Cells Java 用于 PHP**， 称呼**clear_all_page_breaks**的方法**分页符**模块。您可以在下面看到代码示例。
+使用清除所有分页符**Aspose.Cells Java for PHP**， 称呼**clear_all_page_breaks**的方法**分页符**模块。您可以在下面看到代码示例。
 
 **PHP代码**
 
@@ -46,7 +46,7 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
 ### **删除特定分页符**
-使用删除特定分页符**Aspose.Cells Java 用于 PHP**， 称呼**删除分页符**的方法**分页符**模块。您可以在下面看到代码示例。
+使用删除特定分页符**Aspose.Cells Java for PHP**， 称呼**删除分页符**的方法**分页符**模块。您可以在下面看到代码示例。
 
 **PHP代码**
 

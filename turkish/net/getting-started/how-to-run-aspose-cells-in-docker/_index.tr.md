@@ -71,7 +71,7 @@ namespace Aspose.Cells.Docker
 Bir sonraki adım, Dockerfile dosyasını oluşturmak ve yapılandırmaktır.
 
 1. Dockerfile dosyasını oluşturun ve uygulamanızın çözüm dosyasının yanına yerleştirin. Bu dosya adını uzantısız tutun (varsayılan).
-1. Dockerfile'da şunları belirtin:
+1. Dockerfile'da şunu belirtin:
 
 {{< highlight "plain" >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 

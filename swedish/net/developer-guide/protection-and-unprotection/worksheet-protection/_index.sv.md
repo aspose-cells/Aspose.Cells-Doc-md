@@ -6,7 +6,7 @@ url: /sv/net/protect-and-unprotect-worksheets/
 description: Skydda och avskydda kalkylblad av Excel-filer med Aspose.Cells för .Net.
 ---
 {{% alert color="primary" %}}
- För att förhindra att andra användare av misstag eller avsiktligt ändrar, flyttar eller tar bort data i ett kalkylblad kan du låsa cellerna i ditt Excel-kalkylblad och sedan skydda bladet med ett lösenord.
+För att förhindra att andra användare av misstag eller avsiktligt ändrar, flyttar eller tar bort data i ett kalkylblad kan du låsa cellerna i ditt Excel-kalkylblad och sedan skydda bladet med ett lösenord.
 {{% /alert %}}
 
 

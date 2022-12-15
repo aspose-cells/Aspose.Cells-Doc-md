@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 20.3 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 20.3 ملاحظات الإصدار
 type: docs
 weight: 20
 url: /ar/java/aspose-cells-for-android-via-java-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 20.3.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 20.3.
 
 {{% /alert %}} 
 
@@ -71,7 +71,7 @@ url: /ar/java/aspose-cells-for-android-via-java-20-3-release-notes/
 |CELLSJAVA-43140|IllegalArgumentException أثناء استدعاء calculateFormula ()|استثناء|
 |CELLSJAVA-43110|التحويل إلى ملف PDF - java.lang.NullPointerException|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 ### **يضيف خاصية ReplaceOptions.RegexKey.**
 يشير إلى ما إذا كان المفتاح الذي تم البحث عنه هو regex أم لا. إذا كان هذا صحيحًا ، فسيتم اعتبار المفتاح الذي تم البحث عنه (الذي سيتم استبدال جزء منه) بمثابة regex محدد من قبل المستخدم.
 ### **يحذف طريقة ValidationCollection.Add (Aspose.Cells.Validation) القديمة.**

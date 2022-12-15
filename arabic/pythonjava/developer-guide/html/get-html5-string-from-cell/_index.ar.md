@@ -5,7 +5,7 @@ weight: 40
 url: /ar/python-java/get-html5-string-from-cell/
 ---
 ## **احصل على سلسلة HTML5 من Cell**
-باستخدام Aspose.Cells لـ Python عبر Java ، يمكنك الحصول على سلسلة HTML من الخلية. يمكن تحقيق ذلك باستخدام ملف[getHtmlString (قيمة منطقية html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) المقدمة من API. إذا نجحت**خاطئة**كمعامل ، سيعود لك HTML عادي ولكن إذا نجحت**حقيقي**كمعامل ، فإنه سيعيد سلسلة HTML5.
+باستخدام Aspose.Cells for Python via Java ، يمكنك الحصول على سلسلة HTML من الخلية. يمكن تحقيق ذلك باستخدام ملف[getHtmlString (قيمة منطقية html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) المقدمة من API. إذا نجحت**خاطئة**كمعامل ، سيعود لك HTML عادي ولكن إذا نجحت**حقيقي**كمعامل ، فإنه سيعيد سلسلة HTML5.
 
 نموذج التعليمات البرمجية التالي ينشئ كائن مصنف ويضيف بعض النص في الخلية A1 من ورقة العمل الأولى. ثم تحصل على سلسلة HTML5 و HTML العادية من الخلية A1 باستخدام الامتداد[getHtmlString (قيمة منطقية html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) طريقة وطبعها.
 ## **عينة من الرموز**

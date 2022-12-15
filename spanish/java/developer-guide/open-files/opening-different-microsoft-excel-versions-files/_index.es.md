@@ -42,7 +42,7 @@ Para abrir un archivo Microsoft Excel 95/5.0, utilice**[Opciones de carga](https
 
 ### **Apertura Microsoft Excel 97 - 2003 Archivos**
 
- Para abrir un archivo Microsoft Excel 97 - 2003, utilice**[Opciones de carga](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** y establecer el atributo relacionado para el**Opciones de carga**class para que se cargue el archivo de plantilla.
+ Para abrir un archivo Microsoft Excel 97 - 2003, use**[Opciones de carga](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** y establecer el atributo relacionado para el**Opciones de carga**class para que se cargue el archivo de plantilla.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel97-2003Files.java" >}}
 

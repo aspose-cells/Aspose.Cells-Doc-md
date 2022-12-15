@@ -7,7 +7,7 @@ url: /sv/java/opening-files-in-python/
 ## **Aspose.Cells - Öppna filer i Python**
 För att öppna en fil med Aspose.Cells Java i Python, anropa helt enkelt metoden openfile() i klassen Document och ange det andra dokumentet som ska läggas till i slutet.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

@@ -6,7 +6,7 @@ url: /sv/net/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
 ## **Möjliga användningsscenarier**
 
- Du kan automatiskt anpassa kolumner och rader medan du laddar din HTML-fil inuti Workbook-objektet. Vänligen ställ in**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** egendom till**Sann**för det här syftet.
+Du kan automatiskt anpassa kolumner och rader medan du laddar din HTML-fil inuti Workbook-objektet. Vänligen ställ in**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** egendom till**Sann**för det här syftet.
 
 ## **Anpassa kolumner och rader automatiskt när du laddar HTML i arbetsboken**
 

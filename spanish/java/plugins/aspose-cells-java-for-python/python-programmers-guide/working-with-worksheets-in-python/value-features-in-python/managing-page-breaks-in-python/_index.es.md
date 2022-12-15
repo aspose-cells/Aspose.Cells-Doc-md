@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Borrar todos los saltos de página**
- Para borrar todos los saltos de página usando**Aspose.Cells Java para Python** , llamar**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para borrar todos los saltos de página usando**Aspose.Cells Java for Python** , llamar**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **Código Python**
 
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Eliminación de un salto de página específico**
- Para eliminar un salto de página específico usando**Aspose.Cells Java para Python** , llamar**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para eliminar un salto de página específico usando**Aspose.Cells Java for Python** , llamar**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **Código Python**
 

@@ -4,9 +4,9 @@ type: docs
 weight: 40
 url: /sv/reportingservices/encryption/
 ---
- Aspose.Cells för Reporting Services stöder tre typer av kryptering: XOR, WEAK CRYPTION och Microsoft Strong Cryptographic Provider. Se krypteringskonfigurationsinformationen i**Aspose.Cells.ReportingServices.xml** fil.
+ Aspose.Cells for Reporting Services stöder tre typer av kryptering: XOR, WEAK ENCRYPTION och Microsoft Strong Cryptographic Provider. Se krypteringskonfigurationsinformationen i**Aspose.Cells.ReportingServices.xml** fil.
 
- När värdet på kryptering är**av**, Aspose.Cells för Reporting Services stänger av krypteringsfunktioner.
+ När värdet på kryptering är**av**, Aspose.Cells for Reporting Services stänger av krypteringsfunktioner.
 
 {{< highlight "java" >}}
 
@@ -26,7 +26,7 @@ url: /sv/reportingservices/encryption/
 
 {{< /highlight >}}
 
- När värdet på kryptering är**på**, Aspose.Cells för Reporting Services aktiverar kryptering.
+ När värdet på kryptering är**på**, Aspose.Cells for Reporting Services aktiverar kryptering.
 
 {{< highlight "java" >}}
 
@@ -37,7 +37,7 @@ url: /sv/reportingservices/encryption/
 Det finns fyra parametrar i krypteringssektionen:
 
 - **Rapportnamn**: pekar på en rapport som behöver kryptering. Om parametern lämnas tom använder alla rapporter samma krypteringsmetod.
-- **Lösenord**: ställer in lösenordet. Kan inte vara tom.
+- **Lösenord**ställer in lösenordet. Kan inte vara tom.
 - **EncryptionType**: ställer in en krypteringstyp. Kan inte vara tom.
 - **KeyLength**: ställer in nyckellängden. Kan inte vara tom.
 

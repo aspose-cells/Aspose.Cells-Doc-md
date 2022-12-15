@@ -17,11 +17,11 @@ Html5 Spreadsheet Editor è un'applicazione Web in grado di visualizzare e modif
 
 ![cose da fare:immagine_alt_testo](aowcrc1.png)
 
- HTML5 Spreadsheet Editor utilizza molte funzionalità di[Aspose.Cells for Java](https://products.aspose.com/cells/java/) mostra come usarli per creare, manipolare e rendere un foglio di calcolo nella tua applicazione Java.
+ HTML5 Spreadsheet Editor utilizza molte funzionalità di[Aspose.Cells for Java](https://products.aspose.com/cells/java/) e mostra come usarli per creare, manipolare e rendere un foglio di calcolo nella tua applicazione Java.
 
 **Caratteristiche**
 
--  Lavorare con i file
+- Lavorare con i file
  - Formati supportati
  - Apri file locali
  - Apri da Dropbox
@@ -53,27 +53,27 @@ Html5 Spreadsheet Editor è un'applicazione Web in grado di visualizzare e modif
 ### **Requisiti di sistema**
 **Requisiti software**
 
-- CDI ha supportato il server delle applicazioni Java
+- Server di applicazioni Java supportato da CDI
 - [Aspose.Cells for Java](https://products.aspose.com/cells/java/)
 - [JavaServer Faces 2.0](https://javaee.github.io/javaserverfaces-spec/)
 - [Prime facce 5.1](https://www.primefaces.org/)
 
 **Requisiti hardware**
 
-I requisiti hardware variano in base all'application server Java che scegliamo di distribuire HTML5 Spreadsheet Editor e al numero di fogli di calcolo che apriamo contemporaneamente. Di seguito è riportato un preventivo, che aiuterà inizialmente a configurare l'ambiente.
+requisiti hardware variano in base al server delle applicazioni Java che scegliamo per distribuire HTML5 Spreadsheet Editor e al numero di fogli di calcolo che apriamo contemporaneamente. Di seguito è riportato un preventivo, che aiuterà inizialmente a configurare l'ambiente.
 
 - Processore da 2 GHz
 - RAM da 2GB
-- Disco da 500MB
+- Disco da 500 MB
 ### **Download e installazione**
- L'editor di fogli di calcolo HTML5 è un'applicazione EE Java e può essere distribuito a qualsiasi profilo Web del server delle applicazioni Java con supporto CDI. È stato testato con[Pesce vetro](https://javaee.github.io/glassfish/).
+ HTML5 Spreadsheet Editor è un'applicazione Java EE e può essere distribuito a qualsiasi profilo Web del server di applicazioni Java con supporto CDI. È stato testato con[Pesce vetro](https://javaee.github.io/glassfish/).
 
 **Codice sorgente**
 
  La fonte del progetto è disponibile su[Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/). Stiamo anche mantenendo i mirror Git nei seguenti siti:
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [Google Cod](https://code.google.com/archive/p/html5-spreadsheet-editor/)
+- [Codice Google](https://code.google.com/archive/p/html5-spreadsheet-editor/)
 - [FonteForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
 Utilizzare uno dei seguenti comandi per scaricare il codice sorgente tramite la riga di comando:
@@ -94,7 +94,7 @@ Utilizzare uno dei seguenti comandi per scaricare il codice sorgente tramite la 
 
 {{< /highlight >}}
 
-**Google Cod**
+**Codice Google**
 
 {{< highlight "bash" >}}
 
@@ -110,9 +110,9 @@ Utilizzare uno dei seguenti comandi per scaricare il codice sorgente tramite la 
 
 {{< /highlight >}}
 
-**Costruisci utilizzando Maven**
+**Costruisci usando Maven**
 
-Il processo di compilazione del progetto è gestito utilizzando Maven. Quindi puoi preparare un file WAR dalla riga di comando senza alcun IDE. Utilizzare il seguente comando per generare un WAR per la distribuzione. La documentazione del server delle applicazioni corrispondente ti aiuterà a distribuire il WAR generato e le sue dipendenze.
+Il processo di compilazione del progetto è gestito tramite Maven. Quindi puoi preparare un file WAR dalla riga di comando senza alcun IDE. Utilizzare il seguente comando per generare un WAR per la distribuzione. La documentazione del server delle applicazioni corrispondente ti aiuterà a distribuire il WAR generato e le sue dipendenze.
 
 {{< highlight "java" >}}
 
@@ -131,12 +131,12 @@ Il processo di compilazione del progetto è gestito utilizzando Maven. Quindi pu
 
 **Usando Eclipse**
 
-[Eclipse IDE](http://www.eclipse.org/ide/) fornisce l'integrazione ufficiale per importare Maven progetti chiamati[M2Eclipse](http://www.eclipse.org/m2e/):
+[Eclipse IDE](http://www.eclipse.org/ide/) fornisce l'integrazione ufficiale per importare i progetti Maven chiamati[M2Eclipse](http://www.eclipse.org/m2e/):
 
 1. Installa M2Eclipse nel tuo IDE Eclipse. La procedura di installazione è descritta sul loro sito web.
 1. Scarica il codice sorgente del progetto.
-1. Apri il***Importare*** dialogo dal menu File.
-1.  Selezionare***Maven Progetto*** dalla finestra di dialogo di importazione.
+1.  Apri il***Importare*** dialogo dal menu File.
+1.  Selezionare***Progetto Maven*** dalla finestra di dialogo di importazione.
 1.  Clic***Prossimo***.
 1.  Clic***Navigare*** per selezionare la posizione del codice sorgente.
 1.  Selezionare***pom.xml*** dall'elenco sottostante.
@@ -166,7 +166,7 @@ L'IDE Eclipse dovrebbe importare e caricare il progetto.
 ### **Contribuire**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
-[!\[tutto:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Foglio di calcolo_Editore_di_Aspose.Cells_per_Java)
+[!\[tutto:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Foglio di calcolo_Editore_di_Aspose.Cells_per_Giava)
 
 
 HTML5 Spreadsheet Editor è un progetto open source che consente a tutti le massime opzioni di contribuire al progetto.

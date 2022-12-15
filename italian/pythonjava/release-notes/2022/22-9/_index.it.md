@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Python tramite Java 22.9 Note di rilascio
+title: Aspose.Cells for Python via Java 22.9 Note di rilascio
 type: docs
 weight: 4
 url: /it/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Python tramite Java 22,9](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.9/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Python via Java 22.9](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.9/).
 
 {{% /alert %}}
 
@@ -25,11 +25,11 @@ url: /it/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 |CELLSJAVA-44852| Il bordo non è corretto quando il file Excel statico viene convertito in HTML|
 |CELLSJAVA-44856| Conversione da Excel a HTML - Sparkline (mini grafico) non viene visualizzato/renderizzato|
 |CELLSJAVA-44859|Alcune formattazioni Html non funzionano per le celle del foglio di lavoro in un file Excel esistente|
-|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante la conversione di un file XLSX in PDF|
+|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante la conversione di un file XLSX in PDF|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi Cell.SetTableFormula(...).**
 

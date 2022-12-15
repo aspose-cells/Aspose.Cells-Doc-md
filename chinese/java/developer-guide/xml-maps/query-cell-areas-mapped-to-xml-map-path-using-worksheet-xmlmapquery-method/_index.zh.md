@@ -12,7 +12,7 @@ url: /zh/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 以下屏幕截图显示了 Microsoft Excel 在[示例 Excel 文件](55541818.xlsx)在代码中使用。该代码查询 XML 映射两次并打印返回的单元格区域列表[**工作表.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)方法在控制台上，如下所示。
 
-![待办事项：图片_替代_文本](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
+![待办事项：图像_替代_文本](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
 ## **示例代码**
 

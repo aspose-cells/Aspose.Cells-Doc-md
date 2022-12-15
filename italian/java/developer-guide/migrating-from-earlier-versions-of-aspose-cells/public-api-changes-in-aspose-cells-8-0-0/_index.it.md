@@ -1,5 +1,5 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.0.0
+title: Modifiche all'API pubblica in Aspose.Cells 8.0.0
 type: docs
 weight: 20
 url: /it/java/public-api-changes-in-aspose-cells-8-0-0/
@@ -14,7 +14,7 @@ A partire dalla v8.0.0 di Aspose.Cells for Java abbiamo fornito le opzioni di ut
 ### **Esempio**
 Dimostra come leggere un file Excel (di grandi dimensioni) in modalità ottimizzata.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -34,7 +34,7 @@ Workbook book = new Workbook(myDir + "large.xlsx", options);
 
 Illustra come scrivere un set di dati di grandi dimensioni in un foglio di lavoro in modalità ottimizzata.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -62,7 +62,7 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 ### **Esempio**
 Dimostra come confrontare gli oggetti Cell e Row da ora in poi.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -81,7 +81,7 @@ Poiché gli oggetti Row e Cell vengono istanziati in base all'invocazione, non v
 ### **Esempio**
 Ad esempio, il seguente frammento di codice restituirà risultati non validi utilizzando 8.0.0 e versioni successive,
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -97,7 +97,7 @@ System.out.println(cell.getName() + ":" + cell.getValue());
 
 Con la nuova versione l'oggetto Cell non sarà più valido o farà riferimento ad A2 con un valore indesiderato. Per evitare tale situazione, ottenere nuovamente gli oggetti Row o Cell dalla raccolta di celle per recuperare il risultato corretto.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

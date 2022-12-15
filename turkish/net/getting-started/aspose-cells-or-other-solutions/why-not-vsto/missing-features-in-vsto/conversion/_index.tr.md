@@ -27,7 +27,7 @@ SaveFormat, aşağıdaki tabloda verilen uzantılardaki belgeyi dönüştürebil
 | XPS|20 | Bir XPS dosyasını temsil eder.|
 | TIFF|21 | Bir TIFF dosyasını temsil eder.|
 | SVG|22 | Bir SVG dosyasını temsil eder.|
-| Fark|30 | Veri Değişim Formatı.|
+| fark|30 | Veri Değişim Formatı.|
 Aşağıda, xls'den xlsx'e dönüşümü gösteren kod parçacığı bulunmaktadır, bunun tersini de yapabilirsiniz
 
 {{< highlight "csharp" >}}

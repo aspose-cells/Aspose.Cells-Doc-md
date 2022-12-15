@@ -1,63 +1,63 @@
 ﻿---
-title: Aspose.Cells för Java 8.8.3 Release Notes
+title: Aspose.Cells for Java 8.8.3 Notas de la versión
 type: docs
 weight: 80
 url: /sv/java/aspose-cells-for-java-8-8-3-release-notes/
 ---
 ## **1) Aspose.Cells**
 
-|**Nyckel**|**Sammanfattning**|**Kategori**|
+|**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-41866|Hur man ställer in egenskaper för textinmatning för textalternativ|Ny funktion|
-|CELLSJAVA-41865|Skapa textruta där varje rad har olika horisontell justering|Ny funktion|
-|CELLSJAVA-41873|Konvertering till HTML gör överflödiga tomma rader|Insekt|
-|CELLSJAVA-41869|Textjusteringen ändras efter att en mall XLS-fil har sparats på nytt|Insekt|
-|CELLSJAVA-41854|Excel-fil med DataBars som inte konverterats till HTML korrekt|Insekt|
-|CELLSJAVA-41851|Pivotdiagram skapat med Aspose.Cells visas inte i Excel 2016 för MAC|Insekt|
-|CELLSJAVA-41840|Aspose.Cells lägger till null i slutet av sökvägen för resurser HTML|Insekt|
-|CELLSJAVA-41878|LightCells API:er genererar endast händelser för den första kolumnen i raden|Insekt|
-|CELLSJAVA-41859|Cell kanter visas efter att XLS har sparats om|Insekt|
-|CELLSJAVA-41888|Logotypbild försvinner när XLS konverteras till PDF|Insekt|
-|CELLSJAVA-41874|Teckenpositionen skiljer sig i den renderade PDF-filen från en XLS-fil|Insekt|
-|CELLSJAVA-41852|Text överlappar när kalkylblad konverteras till EMF på Linux|Insekt|
-|CELLSJAVA-41823|Textdensitet och radbrytningar är olika jämfört med Excel-genererade PDF|Insekt|
-|CELLSJAVA-41822|Text beskärs och överlappas medan kalkylarket renderas till PDF|Insekt|
-|CELLSJAVA-41856|Problem med att rendera diagram till PDF|Insekt|
-|CELLSJAVA-41855|Att öppna och spara Excel-filen ändrar trendlinjerna|Insekt|
-|CELLSJAVA-41890|Spara arbetsbok två gånger, innehållet som sparas andra gången kommer att skilja sig från första gången|Insekt|
-|CELLSJAVA-41884|Problem med PageBreaks som inte sorteras innan du sparar till Excel-fil|Insekt|
-|CELLSJAVA-41876|Fil korrupt om den öppnas, sparas, öppnas igen och sparas av Aspose.Cells API:er|Insekt|
-|CELLSJAVA-41867|Diagramaxelvärden har ändrats efter att en XLS-fil har sparats på nytt|Insekt|
-|CELLSJAVA-41861|NullReferenceException när en Excel XLS-fil laddas|Insekt|
-|CELLSJAVA-41298|Får inte korrekt information om WordArt-formformatering från Aspose.Cells API:er|Insekt|
-|CELLSJAVA-40366|Inbäddad ikon - inte utskrift|Insekt|
-|CELLSJAVA-41883|CellsException: Okänd typ av tilläggsfunktion: 9, på Workbook.calculateFormula|Undantag|
-|CELLSJAVA-41858|CellsException: Fel vid beräkning av Cell[0BMW CAN Bus Codes V0.4!R4], på Workbook.calculateFormula|Undantag|
-|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 på Workbook.save medan XLS sparas på nytt|Undantag|
-|CELLSJAVA-41864|Undantag: java.lang.IllegalStateException: Ogiltig kodning: null vid omspara av en XLS-fil|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
-### **Lägger till metoden Cell.GetCharacters(flagga).**
-Returnerar alla teckenobjekt.
-### **Lägger till egenskapen OleObject.AutoLoad**
-Anger om värdapplikationen för det inbäddade objektet ska anropas för att ladda objektdata automatiskt när den överordnade arbetsboken öppnas.
-### **Lägger till egenskapen HTMLLoadOptions.SupportDivTag**
- Anger om layouten för<div> taggen när html-filen innehåller<div> tags.Standardvärdet är false.
-### **Lägger till egenskapen HtmlSaveOptions.ExportGridLines**
-Indikerar om rutnätslinjerna ska exporteras. Standardvärdet är falskt.
-### **Lägger till egenskapen ShapeTextAlignment.TextShapeType**
-Anger den förinställda geometrin som kommer att användas för en formförvrängning på ett textstycke.
-### **Lägger till metoden LoadOptions.SetPaperSize(PaperSizeType-typ).**
-Ställer in standardstorleken för utskriftspapper från standardskrivarens inställning.
-### **Tar bort föråldrad Workbook.Decrypt()-metod**
-Vänligen ställ in WorkbookSettings.Password som null.
-### **Lägger till egenskapen ListObject.Comment**
-Får och ställer tabellens kommentar.
-### **Lägger till metoden ShapeCollection.AddActiveXControl().**
-Lägger till ActiveX-kontroll.
+|CELLSJAVA-41866|Cómo configurar las propiedades de entrada de leyenda para las opciones de texto|Nueva caracteristica|
+|CELLSJAVA-41865|Cree un cuadro de texto en el que cada línea tenga una alineación horizontal diferente|Nueva caracteristica|
+|CELLSJAVA-41873|La conversión a HTML genera filas vacías redundantes|Insecto|
+|CELLSJAVA-41869|La alineación del texto se cambia después de volver a guardar un archivo XLS de plantilla|Insecto|
+|CELLSJAVA-41854|Archivo de Excel con DataBars no convertido a HTML correctamente|Insecto|
+|CELLSJAVA-41851|El gráfico dinámico creado con Aspose.Cells no se muestra en Excel 2016 para MAC|Insecto|
+|CELLSJAVA-41840|Aspose.Cells agrega nulo al final de la ruta para recursos HTML|Insecto|
+|CELLSJAVA-41878|Las API de LightCells solo generan eventos para la primera columna de la fila|Insecto|
+|CELLSJAVA-41859|Cell aparecen bordes después de volver a guardar XLS|Insecto|
+|CELLSJAVA-41888|La imagen del logotipo se pierde al convertir XLS a PDF|Insecto|
+|CELLSJAVA-41874|La posición del carácter es diferente en el PDF renderizado de un archivo XLS|Insecto|
+|CELLSJAVA-41852|El texto se superpone cuando las hojas de trabajo se convierten a EMF en Linux|Insecto|
+|CELLSJAVA-41823|La densidad del texto y los saltos de línea son diferentes en comparación con el PDF generado por Excel|Insecto|
+|CELLSJAVA-41822|El texto se recorta y se superpone al representar la hoja de cálculo en PDF|Insecto|
+|CELLSJAVA-41856|Problemas al renderizar el gráfico a PDF|Insecto|
+|CELLSJAVA-41855|Abrir y guardar el archivo de Excel cambia las líneas de tendencia|Insecto|
+|CELLSJAVA-41890|Libro de trabajo guardado dos veces, el contenido guardado la segunda vez será diferente de la primera vez|Insecto|
+|CELLSJAVA-41884|Problema con PageBreaks que no se ordenan antes de guardar en un archivo de Excel|Insecto|
+|CELLSJAVA-41876|Archivo corrupto si se abre, se guarda, se vuelve a abrir y se guarda con las API Aspose.Cells|Insecto|
+|CELLSJAVA-41867|Los valores del eje del gráfico cambiaron después de volver a guardar un archivo XLS|Insecto|
+|CELLSJAVA-41861|NullReferenceException al cargar un archivo Excel XLS|Insecto|
+|CELLSJAVA-41298|No obtener información precisa sobre el formato de forma de WordArt de las API Aspose.Cells|Insecto|
+|CELLSJAVA-40366|Icono incrustado: no se imprime|Insecto|
+|CELLSJAVA-41883|CellsException: tipo de función de complemento desconocido: 9, en Workbook.calculateFormula|Excepción|
+|CELLSJAVA-41858|CellsException: Error al calcular Cell[0BMW CAN Bus Codes V0.4!R4], en Workbook.calculateFormula|Excepción|
+|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 en Workbook.save al volver a guardar XLS|Excepción|
+|CELLSJAVA-41864|Excepción: java.lang.IllegalStateException: codificación no válida: nulo al volver a guardar un archivo XLS|Excepción|
+## **Public API y cambios incompatibles con versiones anteriores**
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+### **Añade el método Cell.GetCharacters(flag)**
+Devuelve todos los objetos Characters.
+### **Agrega la propiedad OleObject.AutoLoad**
+Especifica si se llamará a la aplicación host para el objeto incrustado para cargar los datos del objeto automáticamente cuando se abra el libro principal.
+### **Agrega la propiedad HTMLLoadOptions.SupportDivTag**
+ Indica si admitir el diseño de<div> etiqueta cuando el archivo html contiene<div> etiquetas. El valor predeterminado es falso.
+### **Agrega la propiedad HtmlSaveOptions.ExportGridLines**
+Indicando si exportar las líneas de cuadrícula. El valor predeterminado es falso.
+### **Agrega la propiedad ShapeTextAlignment.TextShapeType**
+Especifica la geometría preestablecida que se utilizará para deformar una forma en un fragmento de texto.
+### **Agrega el método LoadOptions.SetPaperSize (tipo PaperSizeType)**
+Establece el tamaño de papel de impresión predeterminado a partir de la configuración predeterminada de la impresora.
+### **Elimina el método obsoleto Workbook.Decrypt()**
+Establezca WorkbookSettings.Password como nulo.
+### **Agrega la propiedad ListObject.Comment**
+Obtiene y establece el comentario de la tabla.
+### **Agrega el método ShapeCollection.AddActiveXControl()**
+Añade control ActiveX.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.8.3 också i denna Aspose.Cells för Java v8.8.3.
+Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v8.8.3 también se incluyen en este Aspose.Cells for Java v8.8.3.
 
 {{% /alert %}}

@@ -3,11 +3,11 @@ title: Commencer
 type: docs
 weight: 10
 url: /fr/cpp/getting-started/
-description: Comment installer Aspose Cells pour C++ et créer une application Hello World.
+description: Comment installer Aspose Cells for C++ et créer une application Hello World.
 ---
 {{% alert color="primary" %}} 
 
-Cette page vous montrera comment installer Aspose Cells pour C++ et créer une application Hello World.
+Cette page vous montrera comment installer Aspose Cells for C++ et créer une application Hello World.
 
 {{% /alert %}}
 
@@ -15,34 +15,34 @@ Cette page vous montrera comment installer Aspose Cells pour C++ et créer une a
 
 ### **Installez Aspose Cells à NuGet**
 
- NuGet est le moyen le plus simple de télécharger et d'installer Aspose.Cells pour C++.
-1. Créez un projet Visual Studio Microsoft pour C++.
+NuGet est le moyen le plus simple de télécharger et d'installer Aspose.Cells for C++.
+1. Créez un projet Visual Studio Microsoft for C++.
 2. Inclure le fichier d'en-tête "Aspose.Cells.h".
 3. Ouvrez Microsoft Visual Studio et le gestionnaire de packages NuGet.
- 4. Recherchez "aspose.cells.cpp" pour trouver le Aspose.Cells souhaité pour C++.
-5. Cliquez sur "Installer", Aspose.Cells pour C++ sera téléchargé et référencé dans votre projet.
+ 4. Recherchez "aspose.cells.cpp" pour trouver le Aspose.Cells for C++ souhaité.
+5. Cliquez sur "Installer", Aspose.Cells for C++ sera téléchargé et référencé dans votre projet.
 
 **![Installer Aspose Cells à NuGet](InstallThroughNuget.png)**
 
  Vous pouvez également le télécharger à partir de la page Web nuget pour aspose.cells :
-[Aspose.Cells pour C++ NuGet Forfait](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
+[Aspose.Cells for C++ NuGet Colis](https://www.nuget.org/packages/Aspose.Cells.Cpp/)
 
 [Plus d'étape pour les détails](/cells/fr/cpp/installation/)
 
-### **Une démo pour utiliser Aspose.Cells pour C++ sur Windows**
+### **Une démo pour utiliser Aspose.Cells for C++ sur Windows**
 
-1. Téléchargez Aspose.Cells pour C++ à partir de la page suivante :
-[Télécharger Aspose.Cells pour C++(Windows)](https://downloads.aspose.com/cells/cpp/)
-2. Décompressez le package et vous trouverez une démo expliquant comment utiliser Aspose.Cells pour C++.
+1. Téléchargez Aspose.Cells for C++ à partir de la page suivante :
+[Télécharger Aspose.Cells for C++(Windows)](https://downloads.aspose.com/cells/cpp/)
+2. Décompressez le package et vous trouverez une démo expliquant comment utiliser Aspose.Cells for C++.
 3. Ouvrez le Demo.sln avec Visual Studio 2017 ou une version supérieure
-4. main.cpp : ce fichier montre comment coder pour tester Aspose.Cells pour C++
+4. main.cpp : ce fichier montre comment coder pour tester Aspose.Cells for C++
  5. sourceFile/resultFile : ces deux dossiers sont des répertoires de stockage utilisés dans main.cpp
 
-### **Comment utiliser Aspose.Cells pour C++ sur le système d'exploitation Linux**
+### **Comment utiliser Aspose.Cells for C++ sur le système d'exploitation Linux**
 
-1. Téléchargez Aspose.Cells pour C++ à partir de la page suivante :
-[Télécharger Aspose.Cells pour C++ (Linux)](https://downloads.aspose.com/cells/cpp/)
-2. Décompressez le package et vous trouverez une démo expliquant comment utiliser Aspose.Cells pour C++ pour Linux.
+1. Téléchargez Aspose.Cells for C++ à partir de la page suivante :
+[Télécharger Aspose.Cells for C++ (Linux)](https://downloads.aspose.com/cells/cpp/)
+2. Décompressez le package et vous trouverez une démo expliquant comment utiliser Aspose.Cells for C++ pour Linux.
 3. Exécutez "cd Demo" dans votre ligne de commande Linux
 4. Exécutez "rm -rf build;mkdir build;cd build"
 5. Exécutez "cmake .." créera un Makefile par CMakeLists.txt dans le dossier Demo

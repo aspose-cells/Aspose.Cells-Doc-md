@@ -5,7 +5,7 @@ weight: 10
 url: /tr/python-java/accessing-cells-of-a-worksheet/
 ---
 ## **Cells'e erişim**
-Python için Java aracılığıyla Aspose.Cells, hücre adını kullanarak veya satır ve sütun indeksini kullanarak bir çalışma sayfasındaki hücrelere erişmenizi sağlar. Bu makale, bir çalışma sayfasındaki hücrelere erişmek için kullanılan bu iki yaklaşımı da göstermektedir.
+Aspose.Cells for Python via Java, bir çalışma sayfasındaki hücrelere, hücre adını veya satır ve sütun indeksini kullanarak erişmenizi sağlar. Bu makale, bir çalışma sayfasındaki hücrelere erişmek için kullanılan bu iki yaklaşımı da göstermektedir.
 ### **Hücre adını kullanarak hücreye erişme**
 Aşağıdaki kod parçacığı, hücre adını kullanarak hücreye erişmeyi gösterir. Örnek kod, "C5" hücresine erişir ve değerini yazdırır.
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Reporting Services 21.12 Nota di rilascio
+title: Aspose.Cells for Reporting Services 21.12 Nota di rilascio
 second_title: Aspose.Cells for Reporting Services Documen
 type: docs
 url: /it/reportingservices/aspose-cells-for-reporting-services-21-12-release-notes/
 weight: 10
 ---
 {{% alert color="primary" %}} 
-Questa pagina contiene le note sulla versione per Aspose.Cells per Reporting Services 21.12
+Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Services 21.12
 {{% /alert %}} 
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
 |**ID**|**Riepilogo**|**Categoria**|

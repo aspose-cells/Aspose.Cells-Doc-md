@@ -10,6 +10,6 @@ url: /sv/java/copy-row-heights-of-source-range-to-destination-range/
 
 {{% /alert %}} 
 ## **Kopiera radhöjder för källintervall till destinationsintervall**
- Följande exempelkod förklarar hur du använder[PasteType.ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS)enum för att kopiera radhöjder för källintervall till destinationsintervall. När du väl har öppnat excel-filen som genereras av den här koden i Microsoft Excel, kommer du att se att destinationsintervallets radhöjder är exakt samma som källintervallets radhöjder.
+ Följande exempelkod förklarar hur du använder[PasteType.ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS)enum för att kopiera radhöjder för källintervall till destinationsintervall. När du öppnar excel-filen som genereras av den här koden i Microsoft Excel, kommer du att se att destinationsintervallets radhöjder är exakt samma som källintervallets radhöjder.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRowHeights-CopyRowHeights.java" >}}

@@ -8,7 +8,7 @@ url: /sv/java/managing-controls/
 
 Utvecklare kan lägga till olika ritobjekt såsom textrutor, kryssrutor, radioknappar, kombinationsrutor, etiketter, knappar, linjer, rektanglar, bågar, ovaler, spinnare, rullningslister, grupprutor etc. Aspose.Cells tillhandahåller namnutrymmet Aspose.Cells.Drawing som innehåller alla ritobjekt. Det finns dock några ritobjekt eller former som inte stöds ännu. Skapa dessa ritobjekt i ett designerkalkylblad med Microsoft Excel och importera sedan designerkalkylarket till Aspose.Cells. Med Aspose.Cells kan du ladda dessa ritobjekt från ett designerkalkylblad och skriva dem till en genererad fil.
 
-## **Lägga till TextBox Control till arbetsbladet**
+## **Lägger till TextBox Control till arbetsbladet**
 
 Ett sätt att betona viktig information i en rapport är att använda en textruta. Till exempel, lägg till text för att markera företagsnamnet eller för att ange den geografiska region med högst försäljning etc. Aspose.Cells tillhandahåller klassen TextBoxes, som används för att lägga till en ny textruta i samlingen. Det finns en annan klass,[**Textruta**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox), som representerar en textruta som används för att definiera alla typer av inställningar. Den har några viktiga medlemmar:
 
@@ -34,7 +34,7 @@ Följande utdata genereras genom att exekvera koden:
 
  Aspose.Cells låter dig också komma åt textrutor i designerkalkylbladen och manipulera dem. Använd[**Worksheet.getTextBoxes**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) egenskap för att få textboxsamlingen i arket.
 
-Följande exempel använder Microsoft Excel-filen – tsttextboxes.xls – som vi skapade i exemplet ovan. Den hämtar textsträngarna för de två textrutorna och ändrar texten i den andra textrutan för att spara filen.
+Följande exempel använder Excel-filen Microsoft – tsttextboxes.xls – som vi skapade i exemplet ovan. Den hämtar textsträngarna för de två textrutorna och ändrar texten i den andra textrutan för att spara filen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-ManipulatingTextBoxControls-1.java" >}}
 
@@ -217,7 +217,7 @@ Aspose.Cells låter dig rita autoformer i dina kalkylblad. Du kan enkelt skapa e
 
 ### **Använder Microsoft Excel**
 
-1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**, och välj den linjestil du vill ha.
+1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**och välj den linjestil du vill ha.
 1. Dra för att rita linjen.
 1. Gör ett eller båda av följande:
  1. För att begränsa linjen att rita i 15 graders vinkel från dess startpunkt, håll ned SKIFT medan du drar.

@@ -32,11 +32,11 @@ Aspose.Cells 支持在工作簿内或工作簿之间复制或移动工作表。�
 
   **FirstWorkbook.xls**
 
-![待办事项：图片_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_1.png)
+![待办事项：图像_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_1.png)
 
 **第二工作簿.xls**
 
-![待办事项：图片_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_2.png)
+![待办事项：图像_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_2.png)
 
 1. 下载并安装 Aspose.Cells：
    1. [下载 Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
@@ -48,7 +48,7 @@ Aspose.Cells 支持在工作簿内或工作簿之间复制或移动工作表。�
 1. 从 Aspose.Cells.zip 中提取 Aspose.Cells.jar 和 dom4j_1.6.1.jar。
  1、在Eclipse中设置项目的类路径：
  1. 在 Eclipse 中选择您的项目并单击菜单**项目**， 然后**特性**.
-1.选择**Java 构建路径**在对话框的左侧，然后选择库选项卡，
+1. 选择**Java 构建路径**在对话框的左侧，然后选择库选项卡，
  1.点击**添加 JAR**或者**添加外部 JAR**选择 Aspose.Cells.jar 和 dom4j_1.6.1.jar 并将它们添加到构建路径中。
 
 {{% alert color="primary" %}}
@@ -71,7 +71,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 **输出文件**
 
-![待办事项：图片_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_3.png)
+![待办事项：图像_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWithinWorkbook-1.java" >}}
 
@@ -83,7 +83,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 **输出文件**
 
-![待办事项：图片_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_4.png)
+![待办事项：图像_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
@@ -93,7 +93,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 **输出文件**
 
-![待办事项：图片_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_5.png)
+![待办事项：图像_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.java" >}}
 
@@ -103,11 +103,11 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 **输出 FirstWorkbook.xls**
 
-![待办事项：图片_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_6.png)
+![待办事项：图像_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_6.png)
 
 **输出 SecondWorkbook.xls**
 
-![待办事项：图片_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_7.png)
+![待办事项：图像_替代_文本](copy-and-move-worksheets-within-and-between-workbooks_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 

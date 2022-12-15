@@ -55,7 +55,7 @@ Efter att ha kört koden nedan sorteras data på lämpligt sätt som du kan se f
 
 {{% alert color="primary" %}}
 
- Att sortera*Vänster till höger* , Använd[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight)attribut.
+ Att sortera*Vänster till höger* , Använd[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight) attribut.
 
 {{% /alert %}}
 

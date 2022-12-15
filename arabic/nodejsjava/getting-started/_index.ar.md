@@ -4,12 +4,12 @@ type: docs
 weight: 5
 url: /ar/nodejs-java/getting-started/
 keywords: nodejs, excel, instal
-description: قم بإعداد Aspose.Cells لـ Node.js عبر Java وإرشادات التثبيت
+description: الإعداد Aspose.Cells for Node.js via Java وإرشادات التثبيت
 ---
 ## **متطلبات النظام**
- Aspose.Cells لـ Node.js عبر Java هو API مستقل عن النظام الأساسي ويمكن استخدامه على أي منصة (Windows و Linux و MacOS) حيث[Node.js](https://nodejs.org/en/download/) و[عقدة جافا](https://github.com/joeferner/node-java)يتم تثبيت الجسر. يجب أن يحتوي الجهاز على Oracle JDK 7 أو إصدارات أحدث قبل إعداد التثبيت.
+ Aspose.Cells for Node.js via Java مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux و MacOS) حيث[Node.js](https://nodejs.org/en/download/) و[عقدة جافا](https://github.com/joeferner/node-java) يتم تثبيت الجسر. يجب أن يحتوي الجهاز على Oracle JDK 7 أو إصدارات أحدث قبل إعداد التثبيت.
 ## **التثبيت من NPM**
- يمكنك بسهولة استخدام Aspose.Cells لـ Node.js عبر Java من[NPM](https://www.npmjs.com/package/aspose.cells) بالأمر التالي.
+ يمكنك بسهولة استخدام Aspose.Cells for Node.js via Java من[NPM](https://www.npmjs.com/package/aspose.cells) بالأمر التالي.
 {{< highlight "java" >}}
 
  $ npm install aspose.cells
@@ -19,7 +19,7 @@ description: قم بإعداد Aspose.Cells لـ Node.js عبر Java وإرشا�
 إذا واجهت أي مشاكل أثناء عملية التثبيت ، فيرجى الرجوع إلى https://www.npmjs.com/package/java.
 
 ## **التثبيت من أرشيف ZIP**
-لتثبيت واستخدام Aspose.Cells لـ Node.js عبر Java من أرشيف ZIP ، اتبع الإرشادات التالية:
+لتثبيت واستخدام Aspose.Cells for Node.js via Java من أرشيف ZIP ، اتبع الإرشادات التالية:
 ### **لينكس:**
 -  تنزيل وتثبيت[Node.js](https://nodejs.org/en/download/).
 - قم بتثبيت Oracle JDK (1.7 أو 1.8) لنظام Linux ، قم بتكوين متغير بيئة JAVA_HOME.
@@ -40,7 +40,7 @@ $ npm install java
 
 
 
-- قم بتنزيل "Aspose.Cells لـ Node.js عبر Java" واستخرجه في "aspose.cells.js.java/node_modules".
+- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخرجه في "aspose.cells.js.java/node_modules".
 - قم بإنشاء ملف اختبار باسم**مرحبًا**باستخدام نموذج التعليمات البرمجية التالي في مجلد "aspose.cells.js.java":
 
 {{< highlight "java" >}}
@@ -83,7 +83,7 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- قم بتنزيل "Aspose.Cells لـ Node.js عبر Java" واستخرجه في "aspose.cells.js.java/node_modules".
+- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخرجه في "aspose.cells.js.java/node_modules".
 -  قم بإنشاء ملف باسم**مرحبًا**في مجلد "aspose.cells.js.java" باستخدام نموذج التعليمات البرمجية التالي:
 
 {{< highlight "java" >}}
@@ -141,7 +141,7 @@ console.log("hello world");
 
 `         ` $ npm تثبيت جافا
 
-- قم بتنزيل "Aspose.Cells لـ Node.js عبر Java" واستخرجه في "aspose.cells.js.java/node_modules".
+- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخرجه في "aspose.cells.js.java/node_modules".
 -  قم بإنشاء ملف اختبار باسم**مرحبًا** باستخدام نموذج التعليمات البرمجية التالي في مجلد "aspose.cells.js.java":
 
 

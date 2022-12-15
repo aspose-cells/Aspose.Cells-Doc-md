@@ -4,7 +4,7 @@ linktitle: Intelligente Markierungen
 type: docs
 weight: 190
 url: /de/python-net/using-smart-markers/
-description: Intelligentes Importieren und Platzieren von Daten gemäß den Vorlagen-Excel-Dateien mit Aspose.Cells für Python über die .Net-Bibliothek.
+description: Intelligentes Importieren und Platzieren von Daten gemäß den Excel-Vorlagendateien mit Aspose.Cells for Python über die .Net-Bibliothek.
 ---
 ## **Einführung**
 **Intelligente Markierungen**werden verwendet, um Aspose.Cells mitzuteilen, welche Informationen in einer Microsoft Excel-Designertabelle platziert werden sollen. Mit intelligenten Markierungen können Sie Vorlagen erstellen, die nur bestimmte Informationen und Formatierungen enthalten.

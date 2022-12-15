@@ -131,7 +131,7 @@ Le processus de construction du projet est géré à l'aide de Maven. Vous pouve
 
 **Utiliser Éclipse**
 
-[Eclipse EDI](http://www.eclipse.org/ide/) fournit une intégration officielle pour importer des projets Maven appelés[M2Eclipse](http://www.eclipse.org/m2e/):
+[Eclipse EDI](http://www.eclipse.org/ide/) fournit une intégration officielle pour importer des projets Maven appelés[M2Éclipse](http://www.eclipse.org/m2e/):
 
 1. Installez M2Eclipse dans votre IDE Eclipse. La procédure d'installation est décrite sur leur site internet.
 1. Téléchargez le code source du projet.
@@ -188,6 +188,6 @@ HTML5 Spreadsheet Editor est un projet open source qui offre un maximum d'option
 
 **Aspose Licence**
 
- Le produit fonctionne sans licence Aspose,[avec des limites](/cells/fr/java/licensing/) . Pour supprimer les limitations, vous pouvez acquérir un[licence temporaire gratuite](https://purchase.aspose.com/temporary-license) ou[acheter la licence complète](https://purchase.aspose.com/buy).
+ Le produit fonctionne sans licence Aspose,[avec des restrictions](/cells/fr/java/licensing/) . Pour supprimer les limitations, vous pouvez acquérir un[licence temporaire gratuite](https://purchase.aspose.com/temporary-license) ou[acheter la licence complète](https://purchase.aspose.com/buy).
 
  Par défaut, l'éditeur essaiera de charger**Aspose.Total.Java.lic** fichier de**src/main/resources/com/aspose/spreadsheeteditor** annuaire. Copiez simplement le fichier de licence dans ce répertoire. Le comportement par défaut peut être modifié en modifiant le**AsposeLicence** classer.

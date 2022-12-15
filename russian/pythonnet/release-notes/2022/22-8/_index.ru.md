@@ -1,13 +1,13 @@
 ﻿---
-title: Aspose.Cells для Python через .NET 22.8 Примечания к выпуску
+title: Aspose.Cells for Python via .NET 22.8 Примечания к выпуску
 type: docs
 weight: 9
 url: /ru/python-net/aspose-cells-for-python-net-22-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Это первая версия для Aspose.Cells для Python через .NET.
-Эта страница содержит примечания к выпуску Aspose.Cells для Python через .NET 22.8.
+Это первая версия для Aspose.Cells for Python via .NET.
+Эта страница содержит примечания к выпуску для Aspose.Cells for Python via .NET 22.8.
 
 {{% /alert %}} 
 

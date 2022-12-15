@@ -6,7 +6,7 @@ url: /zh/python-java/licensing/
 ---
 {{% alert color="primary" %}} 
 
-您可以安装评估版**Aspose.Cells**对于 Python 通过 Java 和 `pip install aspose-cells`。评估版提供与产品许可版完全相同的功能。此外，当您购买许可证并添加几行代码来应用该许可证时，评估版就会成为许可证。
+您可以安装评估版**Aspose.Cells**for Python via Java 和 `pip install aspose-cells`。评估版提供与产品许可版完全相同的功能。此外，当您购买许可证并添加几行代码来应用该许可证时，评估版就会成为许可证。
 
 一旦您对您的评价感到满意**Aspose.Cells**， 你可以[购买许可证](https://purchase.aspose.com)在 Aspose 网站上。让自己熟悉所提供的不同订阅类型。如有任何疑问，请随时联系 Aspose 销售团队。
 
@@ -30,7 +30,7 @@ url: /zh/python-java/licensing/
 
 ### **第二个限制：带有评估水印的工作表**
 
-![待办事项：图片_替代_文本](licensing_1.png)
+![待办事项：图像_替代_文本](licensing_1.png)
 
 此工作表将始终显示为活动工作表。只有在授权版本中，您可以将活动工作表设置为其他工作表。
 

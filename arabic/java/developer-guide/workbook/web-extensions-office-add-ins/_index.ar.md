@@ -12,7 +12,7 @@ url: /ar/java/web-extensions-office-add-ins/
 
 يمكنك إضافة ملحقات ويب (وظائف Office الإضافية) في Excel بالنقر فوق**إدراج**علامة التبويب ثم النقر فوق**متجر**/**احصل على الوظائف الإضافية**حلقة الوصل. في مربع الوظائف الإضافية ، استعرض للوصول إلى الوظيفة الإضافية التي تريدها وقم بإضافتها.
 
-يوفر Aspose.Cells أيضًا ميزة إضافة ملحقات ويب باستخدام فئات WebExtension و WebExtensionTaskPane. يوضح نموذج التعليمات البرمجية التالي استخدام فئات WebExtension و WebExtensionTaskPane لإضافة ملحق ويب إلى ملف Excel. الرجاء مراجعة[إخراج ملف Excel](AddWebExtension_Out.xlsx)تم إنشاؤها بواسطة رمز كمرجع.
+يوفر Aspose.Cells أيضًا ميزة إضافة ملحقات ويب باستخدام فئات WebExtension و WebExtensionTaskPane. يوضح نموذج التعليمات البرمجية التالي استخدام فئات WebExtension و WebExtensionTaskPane لإضافة ملحق ويب إلى ملف Excel. الرجاء مراجعة[إخراج ملف Excel](AddWebExtension_Out.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 ### **عينة من الرموز**
 

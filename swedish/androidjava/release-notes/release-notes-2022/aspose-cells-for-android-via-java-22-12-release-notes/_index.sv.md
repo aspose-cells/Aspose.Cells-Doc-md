@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 22.12 Release Notes
+title: Aspose.Cells for Android via Java 22.12 Release Notes
 type: docs
 weight: 1
 url: /sv/java/aspose-cells-for-android-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.12.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.12.
 
 {{% /alert %}} 
 
@@ -25,7 +25,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.1
 |CELLSJAVA-44854|Data på y-axelsteget är inte samma som Excel i diagram-till-bild-rendering|
 |CELLSJAVA-44904|Problem vid rendering av Excel-diagram till JPG-konvertering|
 |CELLSJAVA-44850|När du importerar en XLT-fil, visas inte texten helt med de senaste demos med senaste Aspose.Cells.GridWeb-versionen med senaste resursfiler|
-|CELLSJAVA-44857|När du använder versionen Aspose.Cells.GridWeb för Java v22.8 med de senaste resursfilerna för att öppna ett Excel-dokument, skiljer sig effekten av cellerna från originaldokumentet|
+|CELLSJAVA-44857|När du använder versionen Aspose.Cells.GridWeb for Java v22.8 med senaste resursfiler för att öppna ett Excel-dokument, är effekten av cellerna annorlunda än originaldokumentet|
 |CELLSJAVA-44903|SVG-återgivningen fungerar inte som förväntat|
 |CELLSJAVA-44909| När flera rader är fetstilade verkar det svämma över till de andra raderna i onödan|
 |CELLSJAVA-44888|"+" och "-" försvann efter konvertering - Excel till HTML-rendering|
@@ -39,7 +39,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.1
 |CELLSJAVA-44970|Optimera skuggeffekten|
 |CELLSJAVA-44967|Diagram getDataLabels().getText() som returnerar ett annat värde i v22.6.0 och senare versioner|
 |CELLSJAVA-44969|Konvertera Excel till HTML, dataetiketterna visar fel|
-|CELLSJAVA-44949|Transparensen ändrades när Excel-intervall infogades som bild med annat format i PowerPoint-bilden|
+|CELLSJAVA-44949|Transparens ändrades när Excel-intervall infogades som bild med annat format i PowerPoint slide|
 |CELLSJAVA-44985|Excel till HTML-konvertering - grafförklaringen visas inte och plotområdet är trunkerat|
 |CELLSJAVA-44952|Problem med DataBar.toImage-metoden angående bredd|
 |CELLSJAVA-44986|De importerade bilderna är inte justerade i en linje när bilderna är i Div|
@@ -50,15 +50,15 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 22.1
 |CELLSJAVA-44999| Aspose.Cells Anpassade globaliseringsinställningar fungerar inte för större delen av pivottabellen|
 |CELLSJAVA-44898|Att läsa från GZIPInputStream ger ibland falskt "Filen är skadad" fel i 22.7 och nyare versioner|
 |CELLSJAVA-44881|Undantag "java.lang.ArrayIndexOutOfBoundsException: 15070" vid inläsning av en XLS-fil|
-|CELLSJAVA-44908|Undantag "java.lang.OutOfMemoryError: Java heap space" vid laddning av stora XLSB-filer|
+|CELLSJAVA-44908|Undantag "java.lang.OutOfMemoryError: Java heap space" när stora XLSB-filer laddas|
 |CELLSJAVA-44929|Regression: "java.lang.NullPointerException" på Workbook.calculateFormula()|
 |CELLSJAVA-44927|Undantag "java.lang.IndexOutOfBoundsException: Index: 5, Storlek: 5" vid konvertering av Excel-fil till HTML|
 |CELLSJAVA-44939|Fel "java.lang.StringIndexOutOfBoundsException: Strängindex utanför intervallet: 0" vid försök att läsa en Excel-fil|
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 ### **Ändrade gränsen för att flytta celler ut från arket för att infoga rader**
 

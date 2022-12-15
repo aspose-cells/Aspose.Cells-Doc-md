@@ -16,7 +16,7 @@ Följande API:er är tillgängliga för uppgiften. Beskrivningen ges med varje A
 - **UndoManager** – klass: Den används för att hantera operationen ångra/gör om.
 - **GridDesktop.UndoManager** – attribut: Den får instansen av**UndoManager** objekt.
 - **UndoManager.Ångra** – metod: Den utför en ångra-operation.
-- **UndoManager.Redo -**metod: Den utför redo-operationen.
+- **UndoManager.Redo -** metod: Den utför redo-operationen.
 - **UndoManager.ClearStack** – metod: Den rensar ångra/gör om-stacken.
 - **UndoManager.UndoStepsCount** – attribut: Den får räkningen av aktuella tillgängliga ångra steg.
 - **UndoManager.RedoStepsCount** – attribut: Den får räkningen av aktuella tillgängliga redo-steg.

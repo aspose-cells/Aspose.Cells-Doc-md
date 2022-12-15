@@ -6,7 +6,7 @@ url: /de/net/converting-chart-to-image-in-svg-format/
 ---
 {{% alert color="primary" %}} 
 
-Scalable Vector Graphics (SVG) ist ein XML-basiertes Vektorbildformat für zweidimensionale Grafiken, das auch Interaktivität und Animation unterstützt. Die SVG-Spezifikation ist ein offener Standard, der seit 1999 vom World Wide Web Consortium (W3C) entwickelt wird.
+Scalable Vector Graphics (SVG) ist ein XML-basiertes Vektorbildformat für zweidimensionale Grafiken, das auch Interaktivität und Animation unterstützt. Die SVG-Spezifikation ist ein offener Standard, der seit 1999 vom World Wide Web Consortium (W3C) entwickelt wurde.
 
 SVG-Bilder und ihr Verhalten werden in XML-Textdateien definiert. Das bedeutet, dass sie durchsucht, indiziert, mit Skripten versehen und komprimiert werden können. Als XML-Dateien können SVG-Bilder mit jedem Texteditor erstellt und bearbeitet werden, werden aber häufiger mit Zeichensoftware erstellt.
 

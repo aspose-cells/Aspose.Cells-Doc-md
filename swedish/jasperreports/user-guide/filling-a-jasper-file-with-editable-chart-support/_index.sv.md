@@ -6,7 +6,7 @@ url: /sv/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells för JasperReports kräver att en .jasper-fil fylls i till ett .jrprint- eller ett JasperPrint-objekt innan den kan exporteras till en XLS-fil. Det behövs ingen modifiering alls för .jrxml-filen. Ifyllningsproceduren lagrar interna representationer av diagram i JasperPrint-objektet som sedan används för att generera redigerbara diagram.
+ Aspose.Cells for JasperReports kräver att en .jasper-fil fylls i ett .jrprint- eller ett JasperPrint-objekt innan den kan exporteras till en XLS-fil. Det behövs ingen modifiering alls för .jrxml-filen. Ifyllningsproceduren lagrar interna representationer av diagram i JasperPrint-objektet som sedan används för att generera redigerbara diagram.
 
 {{% /alert %}} 
 

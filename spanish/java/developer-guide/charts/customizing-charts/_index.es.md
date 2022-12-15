@@ -21,11 +21,11 @@ Antes de crear gráficos, es importante comprender algunos conceptos básicos qu
 
 #### **Objetos de gráficos**
 
- Aspose.Cells proporciona un conjunto especial de clases que se utilizan para crear todo tipo de gráficos. Estas clases se utilizan para crear**graficar objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
+ Aspose.Cells proporciona un conjunto especial de clases que se utilizan para crear todo tipo de gráficos. Estas clases se utilizan para crear**graficando objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
 
 - [**Eje**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis), el eje de un gráfico.
 - [**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart), un único gráfico de Excel.
-- [**Área de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea), el área del gráfico en la hoja de trabajo.
+- [**Área de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea), el área del gráfico en la hoja de cálculo.
 - [**ChartDataTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable), una tabla de datos de gráficos.
 - [**GráficoMarco**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame), el objeto de marco en un gráfico.
 - [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), un solo punto en una serie en un gráfico.

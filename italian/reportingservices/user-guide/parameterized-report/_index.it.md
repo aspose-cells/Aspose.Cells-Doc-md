@@ -20,5 +20,5 @@ url: /it/reportingservices/parameterized-report/
 {{% /alert %}} 
 ###### **Questa sezione include i seguenti argomenti:**
 - [Creazione dei parametri del rapporto](/cells/it/reportingservices/creating-report-parameters/)
-- [Modifica dei parametri del rapporto](/cells/it/reportingservices/modifying-report-parameters/)
+- [Modifica dei parametri del report](/cells/it/reportingservices/modifying-report-parameters/)
 - [Mappatura dei parametri della query ai parametri del report](/cells/it/reportingservices/mapping-query-parameters-to-report-parameters/)

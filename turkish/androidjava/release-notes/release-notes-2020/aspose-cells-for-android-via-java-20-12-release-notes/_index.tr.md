@@ -1,12 +1,12 @@
 ﻿---
-title: Java 20.12 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 20.12 Sürüm Notları
 type: docs
 weight: 8
 url: /tr/java/aspose-cells-for-android-via-java-20-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 20.12 aracılığıyla Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 20.12 için sürüm notları içerir.
 
 {{% /alert %}}
 
@@ -61,11 +61,11 @@ Bu sayfa, Java 20.12 aracılığıyla Android için Aspose.Cells için sürüm n
 |CELLSJAVA-43296|Pivot tablo yenilenirken ArrayIndexOutOfBoundsException|İstisna|
 |CELLSJAVA-43298|Aspose.Cells 20.8: PDF'ye kaydederken istisna.|İstisna|
 |CELLSJAVA-43348|XLSB'den PDF'e dönüştürme: CellsException: -2147483648|
-|CELLSJAVA-43343| Şekil için seçili bir öğeye sahip olmayan bir dosyayı PDF'ye dışa aktarırken istisna|
+|CELLSJAVA-43343|Şekil için seçili bir öğeye sahip olmayan bir dosyayı PDF'ye dışa aktarırken istisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 
 ### **ExceptionType.Permission numaralandırması ekler**
 

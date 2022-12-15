@@ -23,7 +23,7 @@ url: /ru/java/inserting-and-deleting-rows-and-columns/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
 ## **Вставка нескольких строк**
- Чтобы вставить несколько строк на лист, вызовите метод[вставить ряды](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\) ) метод[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) коллекция.[вставить ряды](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) принимает два параметра:
+ Чтобы вставить несколько строк на лист, вызовите функцию[вставить ряды](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\) ) метод[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) коллекция.[вставить ряды](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) принимает два параметра:
 
 - Индекс строки: индекс строки, из которой будут вставлены новые строки.
 - Количество строк: общее количество строк, которые необходимо вставить.

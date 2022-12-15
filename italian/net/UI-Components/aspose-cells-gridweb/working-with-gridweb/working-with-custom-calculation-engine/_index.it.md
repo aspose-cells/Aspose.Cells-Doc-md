@@ -6,9 +6,9 @@ url: /it/net/working-with-custom-calculation-engine/
 ---
 ## **Implementa il motore di calcolo personalizzato**
 
-Aspose.Cells.Gridweb ha un potente motore di calcolo in grado di calcolare quasi tutte le formule Excel Microsoft. Nonostante ciò, ti consente anche di estendere il motore di calcolo predefinito che ti offre maggiore potenza e flessibilità.
+Aspose.Cells.Gridweb ha un potente motore di calcolo in grado di calcolare quasi tutte le formule di Microsoft Excel. Nonostante ciò, ti consente anche di estendere il motore di calcolo predefinito che ti offre maggiore potenza e flessibilità.
 
-Le seguenti proprietà e classi vengono utilizzate per implementare questa funzione.
+Le seguenti proprietà e classi vengono utilizzate per implementare questa funzionalità.
 
  
 - **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)**

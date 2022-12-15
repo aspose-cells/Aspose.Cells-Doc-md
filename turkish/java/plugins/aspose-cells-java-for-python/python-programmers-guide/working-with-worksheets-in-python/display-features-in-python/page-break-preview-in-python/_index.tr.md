@@ -5,7 +5,7 @@ weight: 60
 url: /tr/java/page-break-preview-in-python/
 ---
 ## **Aspose.Cells - Hello World**
- Çalışma sayfasını kullanarak sayfa sonu önizlemesini ayarlamak için**Aspose.Cells Java için Python** , sadece çağırmak**PageBreakÖnizleme** modül.
+ Çalışma sayfasını kullanarak sayfa sonu önizlemesini ayarlamak için**Aspose.Cells Java for Python** , sadece çağırmak**PageBreakÖnizleme** modül.
 
 **Python Kod**
 

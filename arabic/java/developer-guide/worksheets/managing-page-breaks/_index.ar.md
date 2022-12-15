@@ -38,13 +38,13 @@ url: /ar/java/managing-page-breaks/
 
 ## **مسح كافة فواصل الصفحات**
 
- لمسح كل فواصل الصفحات في ورقة عمل ، قم باستدعاء[**أفقي بيجبريككولكشن**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) المجموعات**صافي**طُرق.
+ لمسح كل فواصل الصفحات في ورقة عمل ، قم باستدعاء[**أفقي صفحة بريككولكشن**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) المجموعات**صافي**طُرق.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ClearAllPageBreaks-ClearAllPageBreaks.java" >}}
 
 ## **إزالة فاصل صفحة معين**
 
- لإزالة فاصل صفحات معين في ورقة العمل ، قم باستدعاء[**أفقي بيجبريككولكشن**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) المجموعات**إزالة** طُرق. كل**إزالة**ستأخذ الطريقة فهرس فاصل الصفحة المراد إزالته.
+ لإزالة فاصل صفحات معين في ورقة العمل ، قم باستدعاء[**أفقي صفحة بريككولكشن**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) المجموعات**إزالة** طُرق. كل**إزالة**ستأخذ الطريقة فهرس فاصل الصفحة المراد إزالته.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemoveSpecificPageBreak-RemoveSpecificPageBreak.java" >}}
 

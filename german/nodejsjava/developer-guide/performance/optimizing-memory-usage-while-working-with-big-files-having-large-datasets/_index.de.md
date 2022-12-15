@@ -14,7 +14,7 @@ Beim Erstellen einer Arbeitsmappe mit großen Datensätzen oder beim Lesen einer
 
 ## **Speicher optimieren**
 
-Das folgende Beispiel zeigt, wie Sie die Speichernutzung optimieren, während Sie mit großen Daten in Aspose.Cells für Node.js über Java arbeiten.
+Das folgende Beispiel zeigt, wie Sie die Speichernutzung optimieren, während Sie mit großen Datenmengen in Aspose.Cells for Node.js via Java arbeiten.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 

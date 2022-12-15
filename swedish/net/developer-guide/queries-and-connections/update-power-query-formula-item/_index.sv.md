@@ -6,11 +6,11 @@ url: /sv/net/update-power-query-formula-item/
 ---
 ## **Användningsscenario**
 
- Det kan finnas fall där datakällfilerna flyttas och excel-filen inte kan hitta filen. I sådana fall ger Aspose.Cells API möjlighet att uppdatera Power Query Formula-objektet genom att använda[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) klass för att uppdatera platsen för källfilen.
+ Det kan finnas fall där datakällfilerna flyttas och excel-filen inte kan hitta filen. I sådana fall ger Aspose.Cells API alternativet att uppdatera Power Query Formula-objektet genom att använda[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) klass för att uppdatera platsen för källfilen.
 
 ## **Uppdaterar Power Query Formel Objekt**
 
- Aspose.Cells API ger möjlighet att uppdatera Power Query Formula Items. Följande kodavsnitt visar uppdatering av datakällans filplats i excel-filen med hjälp av[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value) fast egendom. Käll- och utdatafilerna bifogas för din referens.
+ Aspose.Cells API ger möjlighet att uppdatera Power Query Formula Items. Följande kodavsnitt visar uppdatering av datakällans filplats i excel-filen med hjälp av[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)fast egendom. Käll- och utdatafilerna bifogas för din referens.
 
 - [Källfil 1](106364953.xlsx)
 - [Källfil 2](106364954.xlsx)

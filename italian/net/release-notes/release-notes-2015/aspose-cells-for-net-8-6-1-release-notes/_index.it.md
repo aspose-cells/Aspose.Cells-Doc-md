@@ -34,9 +34,9 @@ url: /it/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **Miglioramenti**
 
 
- (CELLSNET-43933) - Cell.Formula può accettare una formula non valida e API prova a correggerla
+ (CELLSNET-43933) - Cell. La formula può accettare una formula non valida e l'API tenta di correggerla
 
- (CELLSNET-43476) - API necessario per verificare se la licenza è caricata o meno
+ (CELLSNET-43476) - API necessaria per verificare se la licenza è caricata o meno
 
  (CELLSNET-43310) - Ridenominazione di nomi di fogli di lavoro duplicati durante la combinazione di cartelle di lavoro
 
@@ -152,15 +152,15 @@ url: /it/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43970) - Problema di regressione durante l'aggiornamento da 8.4.2.0 a 8.6.0
 
- (CELLSNET-43952) - LoadValueList API manca nella classe Aspose.Cells.GridWeb.Validation
+ (CELLSNET-43952) - L'API LoadValueList non è presente nella classe Aspose.Cells.GridWeb.Validation
 
  (CELLSNET-43859) - Cell riempito con il colore giallo non viene esportato nel file XLSX
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 
 

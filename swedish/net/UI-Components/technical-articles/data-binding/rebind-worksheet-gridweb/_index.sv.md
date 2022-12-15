@@ -26,7 +26,7 @@ EnableCreateBindColumnHeader="True" DataSource='<%# dataSet11 %>'>
 
  När du anropar GridWeb1.DataBind() eller WebWorksheet.DataBind(), kommer kalkylbladet att fyllas med data i dataSet11.
 
- Ibland kanske du vill binda om kalkylbladet:
+ Ibland kanske du vill binda om arbetsbladet:
 
 **C#]**
 

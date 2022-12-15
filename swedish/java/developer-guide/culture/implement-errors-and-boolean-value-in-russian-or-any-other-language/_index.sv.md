@@ -5,7 +5,7 @@ weight: 30
 url: /sv/java/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 ---
 ## **Möjliga användningsscenarier**
- Om du använder Microsoft Excel på ryska språket eller språket eller något annat språk, kommer det att visa fel och booleska värden enligt det språket eller språket. Du kan uppnå liknande beteende genom att använda Aspose.Cells[Workbook.getSettings().setGlobalizationSettings()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) metod eller egenskap. Du måste åsidosätta följande metoder för[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)klass.
+ Om du använder Microsoft Excel i ryska språket eller språket eller något annat språk, kommer det att visa fel och booleska värden enligt det språket eller språket. Du kan uppnå liknande beteende genom att använda Aspose.Cells[Workbook.getSettings().setGlobalizationSettings()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) metod eller egenskap. Du måste åsidosätta följande metoder för[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)klass.
 
 - [GlobalizationSettings.getErrorValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getErrorValueString\(java.lang.String\))
 - [GlobalizationSettings.getBooleanValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getBooleanValueString\(boolean\))

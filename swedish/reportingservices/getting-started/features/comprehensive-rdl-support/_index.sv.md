@@ -6,7 +6,7 @@ url: /sv/reportingservices/comprehensive-rdl-support/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells för Reporting Services stöder fullt ut RDL-specifikationen. Detta innebär att du enkelt kan porta befintliga RDL-rapporter till en Aspose-lösning.
+Aspose.Cells for Reporting Services stöder RDL-specifikationen fullt ut. Detta innebär att du enkelt kan porta befintliga RDL-rapporter till en Aspose-lösning.
 
 {{% /alert %}} 
 **RDL-element som stöds**

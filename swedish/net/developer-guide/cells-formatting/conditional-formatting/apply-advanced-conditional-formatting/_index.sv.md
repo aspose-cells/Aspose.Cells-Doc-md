@@ -22,7 +22,7 @@ Aspose.Cells stöder fullt ut den villkorliga formateringen som tillhandahålls 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormatting-1.cs" >}}
 ### **Beräkna färgen vald av Microsoft Excel för ColorScale villkorlig formatering**
-Aspose.Cells låter dig beräkna färgen som valts av Microsoft Excel när ColorScale villkorlig formatering används i en mallfil. Se exempelkoden nedan för att lära dig hur du beräknar färgen som valts av Microsoft Excel.
+Aspose.Cells låter dig beräkna färgen vald av Microsoft Excel när ColorScale villkorlig formatering används i en mallfil. Se exempelkoden nedan för att lära dig hur du beräknar färgen som valts av Microsoft Excel.
 
 
 

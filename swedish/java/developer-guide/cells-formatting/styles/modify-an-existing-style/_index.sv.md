@@ -3,7 +3,7 @@ title: Ändra en befintlig stil
 type: docs
 weight: 50
 url: /sv/java/modify-an-existing-style/
-description: Lär dig hur du ändrar stilar i Excel med Microsoft Excel och med Aspose.Cells för Java API.
+description: Lär dig hur du ändrar stilar i Excel med Microsoft Excel och med Aspose.Cells for Java API.
 keywords: modify an existing style excel, modify an existing style excel java, modify existing style excel, modify existing style excel java, change existing style in excel, change existing style in excel java, how to change style in excel, how to change style in excel with java, how to change style in excel with java, how to change style in excel using java, changing existing style in excel java, changing existing style in excel
 ---
 {{% alert color="primary" %}}
@@ -12,7 +12,7 @@ Om du vill använda samma formateringsalternativ på celler skapar du ett nytt f
 
 Du kan också använda en befintlig stil, spara den med arbetsboken och använda den för att formatera information med samma attribut.
 
- När celler inte är explicit formaterade,**Vanligt** stil (arbetsbokens standardstil) tillämpas. Microsoft Excel fördefinierar flera stilar utöver den normala stilen inklusive komma, valuta och procent.
+ När celler inte är explicit formaterade,**Vanligt** stil (arbetsbokens standardstil) tillämpas. Microsoft Excel fördefinierar flera stilar utöver stilen Normal, inklusive komma, valuta och procent.
 
 Aspose.Cells tillåter modifiering av någon av dessa stilar eller någon annan stil som du definierar med dina önskade attribut.
 

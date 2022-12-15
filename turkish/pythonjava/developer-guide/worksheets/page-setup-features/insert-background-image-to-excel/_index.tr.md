@@ -3,7 +3,7 @@ title: Arka Plan Resmini Excel'e Ekle
 type: docs
 weight: 90
 url: /tr/python-java/insert-background-image-to-excel/
-description: Java aracılığıyla Python için Aspose.Cells kullanarak Excel'e arka plan resmi nasıl eklenir
+description: Aspose.Cells for Python via Java kullanarak Excel'e arka plan resmi nasıl eklenir
 ---
 {{% alert color="primary" %}} 
 

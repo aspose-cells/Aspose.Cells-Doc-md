@@ -5,7 +5,7 @@ weight: 60
 url: /it/reportingservices/set-deviceinfo-in-rsreportserver-config/
 ---
 - **Estensione del file** 
- Quando il valore è null, il nome dell'estensione del file di report esportato sarà il valore predefinito. Quando il valore non è nullo, il nome dell'estensione del file di report esportato è valore.
+ Quando il valore è null, il nome dell'estensione del file di report esportato sarà il valore predefinito. Quando il valore non è nullo, il nome dell'estensione del file di report esportato è value.
 - **SimplePageHeaders** 
 Quando il valore è true, esegue il rendering dell'elemento dell'intestazione del report nell'intestazione della pagina di Excel. Il valore predefinito è falso.
 - **SimplePageFooters** 

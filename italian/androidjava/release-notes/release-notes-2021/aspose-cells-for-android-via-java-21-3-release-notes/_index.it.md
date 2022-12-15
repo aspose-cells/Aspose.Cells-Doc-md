@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 21.3 Note di rilascio
+title: Aspose.Cells for Android via Java 21.3 Note di rilascio
 type: docs
 weight: 10
 url: /it/java/aspose-cells-for-android-via-java-21-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 21.3.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 21.3.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43382|La copia produce una cartella di lavoro danneggiata|
 |CELLSJAVA-43364|Problema durante il salvataggio del grafico con un'immagine nel marcatore dell'immagine|
 |CELLSJAVA-43389|Impostazioni di protezione password cartella di lavoro/foglio di lavoro perse durante il salvataggio come formato di file XLSB|
-|CELLSJAVA-43392| La copia del foglio produce una cartella di lavoro danneggiata|
+|CELLSJAVA-43392|La copia del foglio produce una cartella di lavoro danneggiata|
 |CELLSJAVA-43388|Il file di output è danneggiato dopo aver copiato la cartella di lavoro|
 |CELLSJAVA-43406|Problemi durante la conversione di HTML in Excel|
 |CELLSJAVA-43399|CalculateFormula() crea molti valori di tipo di errore #VALUE|
@@ -42,9 +42,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43387|L'esportazione di un singolo foglio in HTML genera un'eccezione|
 |CELLSJAVA-43412|CellsException nella conversione da xlsx a html|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Costruttore PdfSaveOptions(SaveFormat) obsoleto.**
 

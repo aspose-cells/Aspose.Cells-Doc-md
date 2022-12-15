@@ -6,17 +6,17 @@ url: /sv/jasperreports/integration-with-jasperserver/
 ---
 {{% alert color="primary" %}} 
 
-För att integrera Aspose.Cells för JasperReports med JasperServer, utför stegen nedan.
+För att integrera Aspose.Cells for JasperReports med JasperServer, utför stegen nedan.
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}} 
 
- I alla följande steg<InstallDir>står för installationskatalogen JasperServer.
+ I alla följande steg<InstallDir> står för installationskatalogen JasperServer.
 
 {{% /alert %}} 
 
-1.  Lägg till följande nya exportöregenskaper till**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** fil.
+1. Lägg till följande nya exportöregenskaper till**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** fil.
 
 **XML**
 
@@ -84,7 +84,7 @@ För att integrera Aspose.Cells för JasperReports med JasperServer, utför steg
 1.  Kopiera alla GIF-bilder från**\lib** mapp i**aspose.cells.jasperreports.zip** till*<InstallDir>\apache-tomcat\webapps\jasperserver\images* mapp.
 1.  Kopiera**aspose.cells.jasperreports.jar** fil från**\lib** mapp i**aspose.cells.jasperreports.zip** till**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** mapp.
 1.  Lägg till följande rader till**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** fil.
- (Den här bönan kan innehålla olika konfigurationsinställningar som är avsedda att konfigurera exporten. Du kan till exempel använda JasperReports teckensnittsmappningsfunktion eller ange platsen för licensfilen Aspose.Cells för JasperReports.)
+ (Den här bönan kan innehålla olika konfigurationsinställningar som är avsedda att konfigurera exporten. Du kan till exempel använda JasperReports teckensnittsmappningsfunktion eller ange platsen för licensfilen Aspose.Cells for JasperReports.)
 
 **XML**
 
@@ -107,7 +107,7 @@ För att integrera Aspose.Cells för JasperReports med JasperServer, utför steg
 
 1. Kör JasperServer och öppna valfri rapport att visa. Om de föregående stegen utfördes korrekt finns ytterligare formatikoner tillgängliga.
 
-**Nya exportformat tillgängliga (till höger) efter installation av Aspose.Cells för JasperReports på JasperServer** 
+**Nya exportformat tillgängliga (till höger) efter installation av Aspose.Cells for JasperReports på JasperServer** 
 
 ![todo:image_alt_text](integration-with-jasperserver_1.png)
 

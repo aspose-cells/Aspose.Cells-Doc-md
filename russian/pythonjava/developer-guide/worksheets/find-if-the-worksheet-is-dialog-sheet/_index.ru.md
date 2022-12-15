@@ -9,7 +9,7 @@ url: /ru/python-java/find-if-the-worksheet-is-dialog-sheet/
 
 ![дело:изображение_альтернативный_текст](DialogSheet.png)
 ## **Найдите, является ли рабочий лист диалоговым листом**
-Aspose.Cells для Python через Java предоставляет вам возможность проверить, является ли рабочий лист диалоговым листом. Для этого он предоставляет[Рабочий лист.Тип](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)имущество. Если[Рабочий лист.Тип](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)возвращает значение перечисления[Тип Листа.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), то это означает, что вы имеете дело с диалоговым листом.
+Aspose.Cells for Python via Java предоставляет вам возможность проверить, является ли рабочий лист диалоговым листом. Для этого он предоставляет[Рабочий лист.Тип](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)имущество. Если[Рабочий лист.Тип](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)возвращает значение перечисления[Тип Листа.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), то это означает, что вы имеете дело с диалоговым листом.
 
 В следующем фрагменте кода показано, как проверить диалоговое окно. Вывод консоли, сгенерированный кодом, приведен ниже для справки.
 

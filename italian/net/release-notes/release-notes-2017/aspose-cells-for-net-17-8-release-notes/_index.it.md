@@ -61,8 +61,8 @@ url: /it/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45550 |System.NullReferenceException all'apertura del file Excel di origine|Eccezione|
 |CELLSNET-45526 |Eccezione durante il salvataggio di file XLSX nel formato file XLSB|Eccezione|
 |CELLSNET-45519 |Eccezione all'apertura del file XLSB modello (Office 365 (aggiornamento 1707))|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 ## **Aggiunge la proprietà HtmlSaveOptions.IsExportComments**
 Indica se durante l'esportazione dei commenti durante il salvataggio del file in html, il valore predefinito è false.
 ## **Aggiunge la proprietà HtmlSaveOptions.DisableDownlevelRevealedComments**

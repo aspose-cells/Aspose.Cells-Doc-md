@@ -7,7 +7,7 @@ url: /it/java/add-comments-in-spreadsheet-in-xlsx4j/
 ## **Aspose.Cells - Aggiungi commenti nel foglio di calcolo**
 Aggiungi un commento a una cella chiamando il metodo addComments della raccolta Shapes (incapsulato nell'oggetto Worksheet). È possibile accedere al nuovo oggetto Comment dalla raccolta Comments passando l'indice dei commenti. Dopo aver effettuato l'accesso all'oggetto Comment, personalizzare la nota di commento utilizzando il metodo setNote dell'oggetto Comment.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -33,7 +33,7 @@ comment.setNote("Hello Aspose!");
 ## **xlsx4j - Aggiungi commenti nel foglio di calcolo**
 La classe CommentsPart è disponibile per aggiungere commenti nel foglio di calcolo utilizzando xlsx4j.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

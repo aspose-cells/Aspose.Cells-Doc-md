@@ -6,7 +6,7 @@ url: /sv/java/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells exporterar ramskript och dokumentegenskaper samtidigt som en arbetsbok konverteras till HTML. 8.6.0-versionen av Aspose.Cells för Java introducerar ett alternativ som låter dig valfritt inaktivera export av ramskript och dokumentegenskaper. Vänligen använd[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) egenskap för att inaktivera exporten.
+ Aspose.Cells exporterar ramskript och dokumentegenskaper samtidigt som en arbetsbok konverteras till HTML. 8.6.0-versionen av Aspose.Cells for Java introducerar ett alternativ som låter dig valfritt inaktivera export av ramskript och dokumentegenskaper. Vänligen använd[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) egenskap för att inaktivera exporten.
 
 {{% /alert %}} 
 ## **Inaktivera export av ramskript och dokumentegenskaper**

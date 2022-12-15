@@ -4,8 +4,8 @@ type: docs
 weight: 100
 url: /sv/cpp/faq/
 ---
-## **Kryptering och dekryptering stöds inte för Aspose.Cells för C++ nu**
-Nu stöds inte kryptering och dekryptering för Aspose.Cells för C++, så om du vill öppna en fil med lösenord kommer koden att skapa undantag.
+## **Kryptering och dekryptering stöds inte för Aspose.Cells for C++ nu**
+Nu stöds inte kryptering och dekryptering för Aspose.Cells for C++, så om du vill öppna en fil med lösenord kommer koden att skapa undantag.
 
 
 

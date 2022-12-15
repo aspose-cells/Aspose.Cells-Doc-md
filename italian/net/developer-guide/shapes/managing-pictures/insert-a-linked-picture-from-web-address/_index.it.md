@@ -10,7 +10,7 @@ A volte è necessario inserire un'immagine dal Web (http://) in un foglio di lav
 
 {{% /alert %}}
 
-## **Utilizzando Microsoft Excel**
+## **Utilizzo di Microsoft Excel**
 
 In Microsoft Excel (ad esempio 2007):
 

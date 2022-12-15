@@ -1,16 +1,16 @@
 ﻿---
-title: JasperReports 1.0.1 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for JasperReports 1.0.1 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/jasperreports/aspose-cells-for-jasperreports-1-0-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Bu sayfa için sürüm notları içerir[JasperReports 1.0.1 için Aspose.Cells](https://downloads.aspose.com/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-1.0.1/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for JasperReports 1.0.1](https://downloads.aspose.com/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-1.0.1/)
 
 {{% /alert %}}
 
-JasperReports 1.0.1 için Aspose.Cells'i duyurmaktan mutluluk duyuyoruz!
+Aspose.Cells for JasperReports 1.0.1'i duyurmaktan mutluluk duyuyoruz!
 
 Ne var ne yok:
 

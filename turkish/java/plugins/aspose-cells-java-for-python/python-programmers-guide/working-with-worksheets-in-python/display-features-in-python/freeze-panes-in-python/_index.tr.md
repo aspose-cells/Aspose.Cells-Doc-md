@@ -5,7 +5,7 @@ weight: 40
 url: /tr/java/freeze-panes-in-python/
 ---
 ## **Aspose.Cells - Bölmeleri Dondur**
- Kullanarak Elektronik Tablo Belgesindeki Bölmeleri Dondurmak için**Aspose.Cells Java için Python** , sadece çağırmak**Donma bölmeleri** modül.
+ Kullanarak Elektronik Tablo Belgesindeki Bölmeleri Dondurmak için**Aspose.Cells Java for Python** , sadece çağırmak**Donma bölmeleri** modül.
 
 **Python Kod**
 

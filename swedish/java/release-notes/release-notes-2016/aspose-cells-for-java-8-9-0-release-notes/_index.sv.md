@@ -1,51 +1,51 @@
 ﻿---
-title: Aspose.Cells för Java 8.9.0 Release Notes
+title: Aspose.Cells for Java 8.9.0 Notas de la versión
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-8-9-0-release-notes/
 ---
 ## **1) Aspose.Cells**
 
-|**Nyckel** |**Sammanfattning** |**Kategori** |
+|**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSJAVA-41901 | Staplar rör sig uppåt i utdata-PDF-filen| Förbättring|
-|CELLSJAVA-41909 | Det fungerar inte att ange anpassade decimaler och gruppseparatorer för arbetsbok| Insekt|
-|CELLSJAVA-41895 | Resultatet av formelberäkningen skiljer sig från den inbyggda Excel-beräkningen| Insekt|
-|CELLSJAVA-41917 | Kryssrutor renderas inte korrekt när du använder metoden SheetRender.toImage().| Insekt|
-|CELLSJAVA-41903 | Teckenorienteringen är annorlunda vid rendering till PDF| Insekt|
-|CELLSJAVA-41896 | Vissa tecken saknas eller har inte klistrats in direkt i Excel till PDF-konvertering| Insekt|
-|CELLSJAVA-41740 | Vissa av DataBar-bilderna är tomma| Insekt|
-|CELLSJAVA-41769 | Staplarna i diagrammet är inte korrekt justerade med celler i PDF| Insekt|
-|CELLSJAVA-41905 | Feljusterade staplar efter rendering av kalkylark till EMF| Insekt|
-|CELLSJAVA-41894 |Teckenutrymmesproblem vid rendering av kalkylark till PDF| Insekt|
-|CELLSJAVA-41893 | Bakgrundsbilden är förvrängd eller suddig i den utgående PDF-filen| Insekt|
-|CELLSJAVA-41892 | Bakgrundsbilden sträcks ut i PDF-filen| Insekt|
-|CELLSJAVA-41916 | Trasiga externa formelreferenser när du använder Cells.copyColumns| Insekt|
-|CELLSJAVA-41915 | Skadad XLSX-fil efter textersättning| Insekt|
-|CELLSJAVA-41912 | Problem med removeFormula på ett kalkylblad som hänvisar till Named Ranges| Insekt|
-|CELLSJAVA-41899 | Kan inte upptäcka XLSX-laddningsformat med FileFormatUtil.detectFileFormat| Insekt|
-|CELLSJAVA-41328 | Förlust av textblock i frenchCommonWords.xlsx| Insekt|
-|CELLSJAVA-40307 | Problem med textspillningskontroll| Insekt|
-|CELLSJAVA-41919 | CellsException: 2"="Stra?e zu breit",", vid Workbook ctor| Undantag|
-|CELLSJAVA-41914 | java.lang.ArrayIndexOutOfBoundsException: 4 när teckensnittet för cellen hämtas| Undantag|
-|CELLSJAVA-41920 | StringIndexOutOfBoundsException: Strängindex utanför intervallet: 7, vid export av diagram till bild| Undantag|
-|CELLSJAVA-41913 | Undantag: "IllegalArgumentException: length" vid laddning av en Excel-fil (XLS).| Undantag|
-|CELLSJAVA-41911 | Undantag: "Fel i Cell: ... -Ogiltig formel" när en Excel-fil laddas via Aspose.Cells API:er| Undantag|
-|CELLSJAVA-41906 |Arbetsbokskonstruktorn kastar undantag: "java.lang.NumberFormatException: tom sträng"| Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
-### **Lägger till egenskapen HtmlSaveOptions.DefaultFontName**
-Anger standardteckensnittsnamnet vid export av HTML, standardteckensnittet kommer att användas när stiltypsnittet inte finns. Om den här egenskapen är null kommer Aspose.Cells att använda universellt teckensnitt som har samma familj som det ursprungliga teckensnittet, standardvärdet är null.
-### **Lägger till egenskapen PivotTable.IsExcel2003Compatible**
-Anger om pivottabellen är kompatibel med Excel2003 vid uppdatering av pivottabell. Om sant måste en sträng vara mindre än eller lika med 255 tecken, så om strängen är större än 255 tecken kommer den att trunkeras. Om det är falskt kommer en sträng inte att ha den ovannämnda begränsningen. Standardvärdet är sant.
-### **Lägger till egenskapen ImageOrPrintOptions.DefaultFont**
-När tecken i Excel är unicode och inte ska ställas in med korrekt typsnitt i cellstil, kan de visas som block i PDF och bild.
-Ställ in standardteckensnittet som MingLiu eller MS Gothic för att visa dessa tecken. Om den här egenskapen inte är inställd kommer Aspose.Cells att använda systemets standardteckensnitt för att visa dessa unicode-tecken.
-### **Lägger till GetVersion-metoden i GridWeb.**
-Hämta releaseversionen.
+|CELLSJAVA-41901 | Las barras se mueven hacia arriba en el PDF de salida| Mejora|
+|CELLSJAVA-41909 | La especificación de decimales numéricos personalizados y separadores de grupos para el libro de trabajo no funciona| Insecto|
+|CELLSJAVA-41895 | El resultado del cálculo de la fórmula difiere del cálculo nativo de Excel| Insecto|
+|CELLSJAVA-41917 | Las casillas de verificación no se representan correctamente cuando se usa el método SheetRender.toImage()| Insecto|
+|CELLSJAVA-41903 | La orientación de los caracteres es diferente al renderizar a PDF| Insecto|
+|CELLSJAVA-41896 | Faltan algunos caracteres o no se pegaron correctamente en la conversión de Excel a PDF| Insecto|
+|CELLSJAVA-41740 | Algunas de las imágenes de DataBar están en blanco| Insecto|
+|CELLSJAVA-41769 | Las barras del gráfico no están alineadas correctamente con las celdas en PDF| Insecto|
+|CELLSJAVA-41905 | Barras desalineadas después de renderizar la hoja de cálculo a EMF| Insecto|
+|CELLSJAVA-41894 |Problema de espacios de caracteres al representar la hoja de cálculo en PDF| Insecto|
+|CELLSJAVA-41893 | La imagen de fondo está distorsionada o borrosa en el PDF de salida| Insecto|
+|CELLSJAVA-41892 | La imagen de fondo se estira en el PDF de salida| Insecto|
+|CELLSJAVA-41916 | Referencias de fórmulas externas rotas al usar Cells.copyColumns| Insecto|
+|CELLSJAVA-41915 | Archivo XLSX dañado después de reemplazar el texto| Insecto|
+|CELLSJAVA-41912 | Problema con removeFormula en una hoja de cálculo que hace referencia a rangos con nombre| Insecto|
+|CELLSJAVA-41899 | No se puede detectar el formato de carga XLSX con FileFormatUtil.detectFileFormat| Insecto|
+|CELLSJAVA-41328 | Pérdida de bloque de texto en frenchCommonWords.xlsx| Insecto|
+|CELLSJAVA-40307 | Problema con la verificación de desbordamiento de texto| Insecto|
+|CELLSJAVA-41919 | CellsException: 2"="Stra?e zu breit",", en Workbook ctor| Excepción|
+|CELLSJAVA-41914 | java.lang.ArrayIndexOutOfBoundsException: 4 al obtener la fuente de la celda| Excepción|
+|CELLSJAVA-41920 | StringIndexOutOfBoundsException: índice de cadena fuera de rango: 7, al exportar el gráfico a la imagen| Excepción|
+|CELLSJAVA-41913 | Excepción: "IllegalArgumentException: longitud" al cargar un archivo de Excel (XLS)| Excepción|
+|CELLSJAVA-41911 | Excepción: "Error en Cell: ... -Fórmula no válida" al cargar un archivo de Excel a través de las API Aspose.Cells| Excepción|
+|CELLSJAVA-41906 |El constructor del libro de trabajo arroja una excepción: "java.lang.NumberFormatException: cadena vacía"| Excepción|
+## **Public API y cambios incompatibles con versiones anteriores**
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+### **Agrega la propiedad HtmlSaveOptions.DefaultFontName**
+Especifica el nombre de la fuente predeterminada al exportar HTML, la fuente predeterminada se utilizará cuando la fuente del estilo no exista. Si esta propiedad es nula, Aspose.Cells utilizará una fuente universal que tiene la misma familia que la fuente original, el valor predeterminado es nulo.
+### **Agrega la propiedad PivotTable.IsExcel2003Compatible**
+Especifica si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica. Si es verdadero, una cadena debe tener menos o igual a 255 caracteres, por lo que si la cadena tiene más de 255 caracteres, se truncará. Si es falso, una cadena no tendrá la restricción mencionada anteriormente. El valor por defecto es verdadero.
+### **Agrega la propiedad ImageOrPrintOptions.DefaultFont**
+Cuando los caracteres en Excel son unicode y no deben configurarse con la fuente correcta en el estilo de celda, pueden aparecer como bloques en PDF e imagen.
+Establezca DefaultFont como MingLiu o MS Gothic para mostrar estos caracteres. Si no se establece esta propiedad, Aspose.Cells utilizará la fuente predeterminada del sistema para mostrar estos caracteres Unicode.
+### **Agrega el método GetVersion en GridWeb.**
+Obtenga la versión de lanzamiento.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, ingår de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.9.0 också i denna Aspose.Cells för Java v8.9.0.
+Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v8.9.0 también se incluyen en este Aspose.Cells for Java v8.9.0.
 
 {{% /alert %}}

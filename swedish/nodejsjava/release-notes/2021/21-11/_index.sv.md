@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells för Node.js via Java 21.11 Release Notes
+title: Aspose.Cells for Node.js via Java 21.11 Release Notes
 type: docs
 weight: 2
 url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Node.js via Java 21.11](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.11/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Node.js via Java 21.11](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.11/).
 
 {{% /alert %}}
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-43844| En förbättring som behövs för bokföringsnummerformat|
+|CELLSJAVA-43844|En förbättring som behövs för bokföringsnummerformat|
 |CELLSJAVA-43953|Återge specifik text/del "Cell" och "Kommentar" för att översättas till japanska i Excel till PDF-konvertering|
 |CELLSJAVA-43935|Forma text teckensnittsstorlek när du sparar och laddar XLS-fil|
 |CELLSJAVA-43952|Tillfällig licens Utgångsfråga|
@@ -28,9 +28,9 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
 |CELLSJAVA-43969|Ett namn med COUNTIF-funktionen och extern referens ger ett NullPointerException|
 |CELLSJAVA-43903|java.lang.NumberFormatException: För inmatningssträng vid rendering av Excel-fil till HTML|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till enum CellValueFormatStrategy.DisplayString.**
 

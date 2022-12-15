@@ -6,11 +6,11 @@ url: /ru/cpp/aspose-cells-for-cpp-22-6-release-notes-linux/
 ---
 {{% alert color="primary" %}}
 
-На этой странице содержатся примечания к выпуску Aspose.Cells для C++ 22.6 для Linux.
+На этой странице содержатся примечания к выпуску Aspose.Cells for C++ 22.6 для Linux.
 
 {{% /alert %}}
 
-Мы рады объявить о выпуске Aspose.Cells для C++ 22.6 для Linux.
+Мы рады сообщить о выпуске Aspose.Cells for C++ 22.6 для Linux.
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSCPP-759| Поддержка класса SHA512Managed|Поддерживать|

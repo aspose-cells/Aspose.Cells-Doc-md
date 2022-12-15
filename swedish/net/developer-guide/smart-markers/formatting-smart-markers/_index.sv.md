@@ -7,7 +7,7 @@ url: /sv/net/formatting-smart-markers/
 ## **Kopiera stilattribut**
 Ibland, när du använder smarta markörer, vill du kopiera stilen på cellen som innehåller smarta markörtaggar. Du kan använda CopyStyle-attributet för smartmarkörens taggar för detta ändamål.
 ### **Kopiera stilar från Cells med smarta markörer**
- Det här exemplet använder en enkel Microsoft Excel-mall med två markörer i A2- och B2-cellerna. Markören som klistras in i cell B2 använder CopyStyle-attributet, medan markören i cell A2 inte gör det. Använd enkel formatering (ställ till exempel teckensnittsfärgen till**röd** och ställ in cellfyllningsfärgen till**gul**).
+ Det här exemplet använder en enkel mall Microsoft Excel-fil med två markörer i A2- och B2-cellerna. Markören som klistras in i cell B2 använder CopyStyle-attributet, medan markören i cell A2 inte gör det. Använd enkel formatering (ställ till exempel teckensnittsfärgen till**röd** och ställ in cellfyllningsfärgen till**gul**).
 
 När koden körs kopierar Aspose.Cells formateringen till alla poster i kolumn B men behåller inte formateringen i kolumn A.
 

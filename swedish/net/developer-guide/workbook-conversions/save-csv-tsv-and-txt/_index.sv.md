@@ -13,7 +13,7 @@ Aspose.Cells gör det möjligt att konvertera excel, ods, json och andra formatf
 
 ## **Spara arbetsbok i text- eller CSV-format**
 
-Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till textformat. För textformat (till exempel TXT, TabDelim, CSV, etc.) sparar både Microsoft Excel och Aspose.Cells endast innehållet i det aktiva kalkylbladet som standard.
+Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till textformat. För textformat (till exempel TXT, TabDelim, CSV, etc.), sparar både Microsoft Excel och Aspose.Cells endast innehållet i det aktiva kalkylbladet som standard.
 
 Följande kodexempel förklarar hur man sparar en hel arbetsbok i textformat. Ladda källarbetsboken som kan vara valfri Microsoft Excel- eller OpenOffice-kalkylarksfil (såsom XLS, XLSX, XLSM, XLSB, ODS och så vidare) med valfritt antal kalkylblad.
 

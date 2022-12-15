@@ -18,7 +18,7 @@ url: /zh/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteve
 
 - 高度：高度[**绘图对象**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
 
-如果您将 Excel 文件渲染为 PDF，那么您可以利用[**绘图对象事件处理器**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)类[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler).同样，如果您将 Excel 文件渲染为图像，您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)类[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/drawobjecteventhandler).
+如果您将 Excel 文件渲染为 PDF，那么您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)类[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler).同样，如果您将 Excel 文件渲染为图像，您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)类[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/drawobjecteventhandler).
 
 ## **使用 DrawObjectEventHandler 类在渲染到 Pdf 时获取 DrawObject 和 Bound**
 

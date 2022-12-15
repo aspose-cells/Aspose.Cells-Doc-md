@@ -19,7 +19,7 @@ Die Aspose.Cells for .NET Komponenten erfordern keine Installation von Microsoft
 - Microsoft Windows Server 2016 (x64, x86)
 - Microsoft Windows Server 2019 (x64, x86)
 - Microsoft Windows Vista (x64, x86)
-- Microsoft Windows 7 ( x64, x86)
+- Microsoft Windows 7 (x64, x86)
 - Microsoft Windows 8 ( x64, x86)
 - Microsoft Windows 10 ( x64, x86)
 - Microsoft Windows 11

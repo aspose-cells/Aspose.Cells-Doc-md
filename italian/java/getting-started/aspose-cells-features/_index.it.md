@@ -15,31 +15,31 @@ Il prodotto Aspose.Cells for Java copre la maggior parte degli ambienti di svilu
 
 |**Caratteristica**|**Descrizione**|
 |:- |:- |
-|[Java](/cells/it/java/installation/)|Aspose.Cells for Java è disponibile per le versioni 1.6 e successive e funzionerà ovunque sia installato Java.|
+|[Giava](/cells/it/java/installation/)|Aspose.Cells for Java è disponibile per le versioni 1.6 e successive e funzionerà ovunque sia installato Java.|
 ## **Formati di file e conversioni**
 Molti clienti in tutto il mondo si affidano alle complete funzionalità di importazione ed esportazione di documenti fornite da Aspose.Cells for Java.
 
 |**Caratteristica**|**Descrizione**|**Aspose.Cells for Java**|
 |:- |:- |:- |
 |Conversioni di alta qualità|Converti in modo rapido e affidabile tra diversi formati di documenti popolari.|sì|
-|Microsoft Cartella di lavoro Excel (XLS)|L'implementazione del formato XLS più veloce e completa che puoi trovare.|sì|
+|Cartella di lavoro Microsoft Excel (XLS)|L'implementazione del formato XLS più veloce e completa che puoi trovare.|sì|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells supporta OOXML, Flat OPC e anche Excel 2003 XML. Inoltre,<br>il componente supporta tutti i principali formati di file di Excel 2007 e versioni successive, ad esempio XLSX, XLTX, XLSM, XLTM, XLSB ecc.|sì|
 |Valore separato da virgola (CSV)|Supporto completo del formato CSV per interagire con una varietà di applicazioni.|sì|
 |HTML|Salva come HTML è disponibile.|sì|
 |Documento aperto (ODS)|Aspose.Cells può caricare e salvare documenti nel formato OpenDocument Spreadsheet (.ods).|sì|
 |Formato documento portatile Adobe (PDF)|Converti qualsiasi foglio di calcolo in PDF con alta fedeltà.|sì|
 |Delimitato da tabulazioni|Carica e salva i documenti nel formato di file delimitato da tabulazioni.|sì|
-|Testo semplice (TXT)|Estrai facilmente il testo salvandolo in formato testo normale.|sì|
+|Testo normale (TXT)|Estrai facilmente il testo salvandolo in formato testo normale.|sì|
 ## **Rendering e stampa**
 Aspose.Cells for Java ora fornisce un rendering ad alta fedeltà delle pagine dei fogli di calcolo.
 
 |**Caratteristica**|**Aspose.Cells for Java**|
 |:- |:- |
-|Layout del documento in pagine con alta fedeltà a Microsoft Excel® (esattamente come farebbe Microsoft Excel®).|sì|
+|Impagina il documento in pagine con un'elevata fedeltà a Microsoft Excel® (esattamente come farebbe Microsoft Excel®).|sì|
 |Renderizza le pagine del foglio di lavoro in immagini raster (PNG, JPEG, BMP ecc.).|sì|
 |Renderizza le pagine del foglio di calcolo in immagini vettoriali (EMF).|sì|
 |Specifica la risoluzione dell'immagine, la qualità, la compressione e altre opzioni.|sì|
-| Stampa fogli di calcolo utilizzando l'infrastruttura di stampa Java. Il componente ha un metodo di stampa integrato per stampare<br>fogli di lavoro come mostrato nell'anteprima di stampa di Excel Microsoft.|sì|
+| Stampa fogli di calcolo utilizzando l'infrastruttura di stampa Java. Il componente ha un metodo di stampa integrato per stampare<br>fogli di lavoro come mostrato nell'anteprima di stampa di Microsoft Excel.|sì|
 |Aggiorna i numeri di pagina e altri campi prima del rendering o della stampa.|sì|
 ## **Caratteristiche del contenuto del foglio di calcolo**
 Aspose.Cells for Java fornisce un ricco modello di oggetti costituito da oltre 100 classi/interfacce pubbliche, che consentono di generare, combinare, modificare, analizzare o esaminare in altro modo i fogli di calcolo caricati in modo programmatico. Alcune caratteristiche chiave sono riportate nella tabella sottostante.
@@ -51,9 +51,9 @@ Aspose.Cells for Java fornisce un ricco modello di oggetti costituito da oltre 1
 |Copia o sposta i fogli di lavoro all'interno o tra le cartelle di lavoro|sì|
 |Inserisci immagini|sì|
 |Crea grafici|sì|
-|Imposta lo sfondo sfumato per i grafici utilizzando API|sì|
+|Imposta lo sfondo sfumato per i grafici utilizzando l'API|sì|
 |Aggiungi commenti alle celle|sì|
-|Microsoft Excel 2007 e versioni successive temi e colori|sì|
+|Temi e colori di Microsoft Excel 2007 e versioni successive|sì|
 |Crea filtri automatici|sì|
 |Implementare le convalide dei dati|sì|
 |Implementare l'ordinamento dei dati|sì|
@@ -70,7 +70,7 @@ Aspose.Cells for Java fornisce un ricco modello di oggetti costituito da oltre 1
 |Specificare le impostazioni delle proprietà del documento|sì|
 |Proteggere/rimuovere la protezione dei fogli di lavoro|sì|
 |Specificare le opzioni di protezione avanzate introdotte in Excel XP e versioni successive|sì|
-|Crea oggetto elenco/Microsoft Tabelle Excel|sì|
+|Crea oggetti elenco/tabelle di Microsoft Excel|sì|
 |Crea subtotali|sì|
 |Inserisci i controlli del modulo e altre forme/oggetti di disegno|sì|
 |Crea tabelle pivot e grafici pivot|sì|

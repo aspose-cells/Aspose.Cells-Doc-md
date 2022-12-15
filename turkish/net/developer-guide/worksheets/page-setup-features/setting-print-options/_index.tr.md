@@ -77,7 +77,7 @@ Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek
 
 ### **Sayfa Sırasını Ayarla**
 
- bu[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)sınıf sağlar[**Emir**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)çalışma sayfanızın birden çok sayfasının yazdırılmasını sıralamak için kullanılan özellik. Sayfaları aşağıdaki gibi sıralamak için iki olasılık vardır.
+ bu[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf sağlar[**Emir**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)çalışma sayfanızın birden çok sayfasının yazdırılmasını sıralamak için kullanılan özellik. Sayfaları aşağıdaki gibi sıralamak için iki olasılık vardır.
 
 - **Aşağı ve yukarı:** herhangi bir sayfayı sağa yazdırmadan önce tüm sayfaları aşağıya doğru yazdırır.
 - **Sonra aşağı:** aşağıdaki sayfaları yazdırmadan önce sayfaları soldan sağa yazdırır.

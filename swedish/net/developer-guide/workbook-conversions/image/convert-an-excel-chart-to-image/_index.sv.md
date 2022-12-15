@@ -35,14 +35,14 @@ Skapa först ett cirkeldiagram i Microsoft Excel och konvertera det sedan till e
 |![todo:image_alt_text](convert-an-excel-chart-to-image_2.png)|
 
 1. Ladda ner och installera Aspose.Cells:
-   1. [Ladda ner Aspose.Cells för .NET](https://downloads.aspose.com/cells/net).
+   1. [Ladda ner Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
  1. Installera det på din utvecklingsdator.
 
  Allt[Aspose](http://www.aspose.com/) komponenter fungerar i utvärderingsläge när de först installeras. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i utdatadokument.
 
 1. Skapa ett projekt:
  1. Starta Visual Studio.Net.
- 1. Skapa en ny konsolapplikation. Det här exemplet använder en C#-konsolapplikation, men du kan också använda VB.NET.
+ 1. Skapa en ny konsolapplikation. Det här exemplet använder en konsolapplikation C#, men du kan också använda VB.NET.
  1. Lägg till en referens. Detta projekt använder Aspose.Cells så lägg till en referens till Aspose.Cells, till exempel ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 1. Skriv koden som hittar och konverterar diagrammet. Nedan visas koden som används av komponenten för att utföra uppgiften. Mycket få rader kod används.
 

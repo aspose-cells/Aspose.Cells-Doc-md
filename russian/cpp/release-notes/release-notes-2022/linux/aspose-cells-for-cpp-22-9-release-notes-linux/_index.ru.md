@@ -6,11 +6,11 @@ url: /ru/cpp/aspose-cells-for-cpp-22-9-release-notes-linux/
 ---
 {{% alert color="primary" %}}
 
-На этой странице содержатся примечания к выпуску Aspose.Cells для C++ 22.9 для Linux.
+На этой странице содержатся примечания к выпуску Aspose.Cells for C++ 22.9 для Linux.
 
 {{% /alert %}}
 
-Мы рады объявить о выпуске Aspose.Cells для C++ 22.9 для Linux.
+Мы рады объявить о выпуске Aspose.Cells for C++ 22.9 для Linux.
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSCPP-920| Функции синхронизации с версией .Net|Поддерживать|

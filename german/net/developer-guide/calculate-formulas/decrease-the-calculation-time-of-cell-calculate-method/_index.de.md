@@ -18,7 +18,7 @@ Normalerweise empfehlen wir Benutzern anzurufen[**Workbook.CalculateFormula()**]
 
 ## **Konsolenausgabe**
 
- Dies ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit dem angegebenen ausgeführt wird[Excel-Beispieldatei](5113710.xlsx)auf unserer Maschine. Bitte beachten Sie, dass Ihre Ausgabe abweichen kann, aber die verstrichene Zeit nach dem Setzen der rekursiven Eigenschaft auf**FALSCH** wird immer kleiner sein als eingestellt**Stimmt**.
+ Dies ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit dem angegebenen ausgeführt wird[Excel-Beispieldatei](5113710.xlsx) auf unserer Maschine. Bitte beachten Sie, dass Ihre Ausgabe abweichen kann, aber die verstrichene Zeit nach dem Setzen der rekursiven Eigenschaft auf**FALSCH** wird immer kleiner sein als eingestellt**Stimmt**.
 
 {{< highlight "java" >}}
 

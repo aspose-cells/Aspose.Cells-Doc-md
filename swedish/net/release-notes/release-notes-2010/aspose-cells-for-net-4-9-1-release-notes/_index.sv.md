@@ -1,22 +1,22 @@
 ﻿---
-title: Aspose.Cells för .NET 4.9.1 Release Notes
+title: Aspose.Cells for .NET 4.9.1 Release Notes
 type: docs
 weight: 80
 url: /sv/net/aspose-cells-for-net-4-9-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 4.9.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-4.9.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 4.9.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-4.9.1/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v!
+ Vi är glada att meddela Aspose.Cells for .NET v!
 
 
 
  Vad har ändrats i Aspose.Cells:
 
-- Inkluderar Aspose.Cells för montering av .NET Framework Client Profile
+- Inkluderar Aspose.Cells for .NET Framework Client Profile assembly
 - Förbättrar prestandan hos Formula Calculation Engine
 - Förbättrar prestandan för att öppna xlsx-filer
 - Stöder för att skapa namngivna intervall baserat på adress
@@ -41,7 +41,7 @@ url: /sv/net/aspose-cells-for-net-4-9-1-release-notes/
 
 
 
- Problem lösta i Aspose.Cells för .NET v4.9.1
+ Problem lösta i Aspose.Cells for .NET v4.9.1
 
 
 
@@ -51,10 +51,10 @@ url: /sv/net/aspose-cells-for-net-4-9-1-release-notes/
 |14888 | Chart2Image| PlotArea positioneringsproblem med Chart.ToImage|
 |16011 | CSV| Läs CSV med ny rad|
 |14183 | Pdf| Sidhuvud/sidfot är inte i linje med sidmarginalerna|
-|14501 | Pdf|Fel vid konvertering av excel-filen till pdf|
+|14501 | Pdf| Fel vid konvertering av excel-filen till pdf|
 |15741 | Pdf| Rutnätslinjer visas inte|
 |15910 | Pdf| Saknar länk mellan bokmärke och sida|
-|16207 | Pdf| Det gick inte att spara PDF-filen|
+|16207 | Pdf|Det gick inte att spara PDF-filen|
 |16260 | Pdf| Konvertera olika filtyper till tif|
 |16328 | Pdf| XLS till PDF-konverteringsproblem|
 |16377 | Pdf| En del text i cellerna försvinner|

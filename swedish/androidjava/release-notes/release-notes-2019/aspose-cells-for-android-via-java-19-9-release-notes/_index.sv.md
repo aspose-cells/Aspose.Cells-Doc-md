@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 19.9 Release Notes
+title: Aspose.Cells for Android via Java 19.9 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-android-via-java-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.9.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.9.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.9
 |CELLSJAVA-42949|Stöder Aspose.Cells ECDSA- och RSA-algoritmer|Ny funktion|
 |CELLSJAVA-42979|Få totalt sidantal innan du konverterar till pdf/bild|Ny funktion|
 |CELLSJAVA-42967|Infoga SVG-filen i kalkylbladet|Ny funktion|
-|CELLSJAVA-42969|Stöd Java 12 i Aspose.Cells för Java|Förbättring|
+|CELLSJAVA-42969|Support Java 12 i Aspose.Cells for Java|Förbättring|
 |CELLSJAVA-42977|Hög CPU- och minnesförbrukning under konvertering av Excel till PDF|Förbättring|
 |CELLSJAVA-42861|Det gick inte att hämta formens alternativa text i ODS-filformat|Insekt|
 |CELLSJAVA-42929|Graftiteländringar vid konvertering av XLSX till PDF|Insekt|
@@ -54,8 +54,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.9
 |CELLSJAVA-42991|Undantaget "Kolumnbredd måste vara mellan 0 och 255" vid konvertering av Excel till PDF i macOS|Undantag|
 |CELLSJAVA-43004|Undantag java.lang.NumberFormatException: För inmatningssträng: "0.0" vid konvertering av Excel till HTML|Undantag|
 |CELLSJAVA-43010|IllegalArgumentException när deleteBlankColumns() körs|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 ### **Uppgraderar det refererade BouncyCastle-biblioteket till 1.60**
 Det använda BouncyCastle-biblioteket i releasearkivet har uppgraderats till version 1.60.
 ### **Föråldrar HTMLLoadOptions-klassen och lägger till HtmlLoadOptions-klassen**

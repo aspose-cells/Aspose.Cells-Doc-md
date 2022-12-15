@@ -10,7 +10,7 @@ url: /sv/java/check-custom-number-format-when-setting-style-custom-property/
 
 ## **Kontrollera Custom Number Format när du ställer in Style.Custom-egenskapen**
 
- Följande exempelkod tilldelar ett ogiltigt anpassat nummerformat till[**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) fast egendom. Eftersom vi redan har satt[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) egendom till**Sann** , därför kommer API:t att kasta CellsException t.ex*Ogiltigt nummerformat*.
+ Följande exempelkod tilldelar ett ogiltigt anpassat nummerformat till[**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) fast egendom. Eftersom vi redan har satt[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) egendom till**Sann** , därför kommer API att kasta CellsException t.ex*Ogiltigt nummerformat*.
 
 ## **Exempelkod**
 

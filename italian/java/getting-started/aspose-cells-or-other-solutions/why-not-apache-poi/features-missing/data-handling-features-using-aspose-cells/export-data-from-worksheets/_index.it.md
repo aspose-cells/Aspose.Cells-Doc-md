@@ -7,7 +7,7 @@ url: /it/java/export-data-from-worksheets/
 ## **Aspose.Cells - Esporta dati da fogli di lavoro**
 Aspose.Cells non solo consente ai suoi utenti di importare dati in fogli di lavoro da fonti di dati esterne, ma consente anche loro di esportare i dati del foglio di lavoro in un array.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

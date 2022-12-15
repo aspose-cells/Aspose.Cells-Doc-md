@@ -5,9 +5,9 @@ weight: 70
 url: /sv/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - Delade rutor**
- För att dela fönster med**Aspose.Cells Java för Python** , helt enkelt åberopa**SplitPanes** modul.
+ För att dela fönster med**Aspose.Cells Java for Python** , helt enkelt åberopa**SplitPanes** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

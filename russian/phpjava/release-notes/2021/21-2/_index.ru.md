@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для PHP через Java 21.2 Примечания к выпуску
+title: Aspose.Cells for PHP via Java 21.2 Примечания к выпуску
 type: docs
 weight: 10
 url: /ru/php-java/aspose-cells-for-php-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску Aspose.Cells для PHP через Java 21.2.
+Эта страница содержит примечания к выпуску для Aspose.Cells for PHP via Java 21.2.
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ url: /ru/php-java/aspose-cells-for-php-via-java-21-2-release-notes/
 |CELLSJAVA-43382|Копия создает поврежденную книгу|
 |CELLSJAVA-43364|Проблема при сохранении диаграммы с изображением в маркере в изображение|
 |CELLSJAVA-43389|Настройки защиты паролем рабочей книги/листа теряются при сохранении в формате файла XLSB|
-|CELLSJAVA-43392| Копирование листа приводит к повреждению книги|
+|CELLSJAVA-43392|Копирование листа приводит к повреждению книги|
 |CELLSJAVA-43387|Экспорт одного листа в HTML вызывает исключение|
 
 ## **Public API и обратно несовместимые изменения**

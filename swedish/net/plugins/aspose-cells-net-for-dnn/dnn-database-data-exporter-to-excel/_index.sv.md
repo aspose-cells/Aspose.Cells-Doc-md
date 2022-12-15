@@ -68,7 +68,7 @@ När du har laddat ned, följ dessa steg för att installera modulen på din DNN
 
 ## **Använder sig av**
 
-Efter att du har installerat modulen Aspose .NET Database Data Expoeter för DNN är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
+Efter att du har installerat modulen Aspose .NET Databas Data Expoeter for DNN, är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång:
 
 1. Se till att du är inloggad på DNN med ett konto på värd- eller administratörsnivå.
 1. Navigera till sidan där du vill lägga till exportmodulen.
@@ -77,7 +77,7 @@ Efter att du har installerat modulen Aspose .NET Database Data Expoeter för DNN
 
 ![todo:image_alt_text](picture2.png)
 
-Du har framgångsrikt lagt till Aspose .NET Database Data Exporter till Excel för DNN-modulen på din sida.
+Du har framgångsrikt lagt till Aspose .NET Databas Data Exporter till Excel för DNN-modulen till din sida.
 
 ![todo:image_alt_text](picture3.png)
 

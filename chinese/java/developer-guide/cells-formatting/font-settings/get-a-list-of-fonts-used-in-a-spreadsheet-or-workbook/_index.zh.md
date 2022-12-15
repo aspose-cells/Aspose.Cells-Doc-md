@@ -16,7 +16,7 @@ Aspose.Cells 提供了[工作簿.getFonts()](https://reference.aspose.com/cells/
 
 以下示例代码加载源 excel 文件并检索其中使用的字体列表。它有一个虚拟工作表，其中添加了一些用于说明目的的虚拟字体。当代码打印工作簿中的所有字体时，它还会打印那些虚拟字体。以下屏幕截图显示了[示例 excel 文件](sampleGetFonts.xlsx)以及如何列出虚拟字体。
 
-![待办事项：图片_替代_文本](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
+![待办事项：图像_替代_文本](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 
 ## **示例代码**
 

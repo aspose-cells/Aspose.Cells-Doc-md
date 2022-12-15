@@ -37,7 +37,7 @@ clase ConvertingWorksheetToSVG:
 
  libro de trabajo = Libro de trabajo (dataDir + "Book1.xls")
 
-#Convierta cada hoja de trabajo en formato svg en una sola página.
+ #Convierta cada hoja de trabajo en formato svg en una sola página.
 
  imgOptions = ImageOrPrintOptions()
 

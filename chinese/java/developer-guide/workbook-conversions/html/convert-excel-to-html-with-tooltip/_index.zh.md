@@ -10,7 +10,7 @@ url: /zh/java/convert-excel-to-html-with-tooltip/
 
 下图显示了生成的 HTML 文件中的工具提示。
 
-![待办事项：图片_替代_文本](convert-excel-to-html-with-tooltip_1.jpg)
+![待办事项：图像_替代_文本](convert-excel-to-html-with-tooltip_1.jpg)
 
 以下代码示例加载[源文件](AddTooltipToHtmlSample.xlsx)并生成[输出 HTML 文件](AddTooltipToHtmlSample_out.zip)与工具提示。
 

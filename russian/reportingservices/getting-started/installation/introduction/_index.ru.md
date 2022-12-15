@@ -6,14 +6,14 @@ url: /ru/reportingservices/introduction/
 ---
 {{% alert color="primary" %}}
 
-В этом разделе описывается, как установить и удалить Aspose.Cells для служб Reporting Services.
+В этом разделе описывается, как установить и удалить Aspose.Cells for Reporting Services.
 
-Aspose.Cells для Reporting Services можно развернуть двумя способами:
+Aspose.Cells for Reporting Services можно развернуть двумя способами:
 
 - используя полный установщик MSI или
 - с помощью одной DLL.
 
-И установщик, и DLL доступны для бесплатной загрузки по адресу Aspose.Cells для служб Reporting Services.[страница загрузки](https://downloads.aspose.com/cells/reportingservices).
+ И установщик, и DLL доступны для бесплатной загрузки по адресу Aspose.Cells for Reporting Services.[страница загрузки](https://downloads.aspose.com/cells/reportingservices).
 
 Использование установщика имеет несколько преимуществ:
 

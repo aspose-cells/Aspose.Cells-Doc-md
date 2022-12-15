@@ -43,7 +43,7 @@ url: /ar/net/threaded-comments/
 - نص التعليق: نص التعليق.
 - [**مؤلف**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): كاتب التعليق
 
-يوضح نموذج التعليمات البرمجية التالي استخدام[**التعليقات. AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)طريقة لإضافة تعليق مترابط إلى الخلية A1. الرجاء مراجعة[إخراج ملف Excel](89849859.xlsx) تم إنشاؤها بواسطة رمز كمرجع.
+يوضح نموذج التعليمات البرمجية التالي استخدام[**التعليقات. AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)طريقة لإضافة تعليق مترابط إلى الخلية A1. الرجاء مراجعة[إخراج ملف Excel](89849859.xlsx) التي تم إنشاؤها بواسطة رمز كمرجع.
 
 #### **عينة من الرموز**
 
@@ -121,7 +121,7 @@ url: /ar/net/threaded-comments/
 
 يوفر Aspose.Cells[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)طريقة لإزالة التعليقات للعمود المحدد.[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)يقبل الأسلوب اسم العمود كمعامل يزيل التعليقات الموجودة في هذا العمود.
 
-يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](89849861.xlsx). الرجاء مراجعة[إخراج ملف Excel](89849864.xlsx)تم إنشاؤها بواسطة رمز كمرجع.
+يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](89849861.xlsx). الرجاء مراجعة[إخراج ملف Excel](89849864.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 #### **عينة من الرموز**
 

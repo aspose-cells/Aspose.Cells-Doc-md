@@ -32,15 +32,15 @@ url: /it/java/aspose-cells-for-java-8-9-0-release-notes/
 |CELLSJAVA-41913 | Eccezione: "IllegalArgumentException: length" durante il caricamento di un file Excel (XLS).| Eccezione|
 |CELLSJAVA-41911 | Eccezione: "Errore in Cell: ... -Formula non valida" durante il caricamento di un file Excel tramite API Aspose.Cells| Eccezione|
 |CELLSJAVA-41906 |Il costruttore della cartella di lavoro genera l'eccezione: "java.lang.NumberFormatException: stringa vuota"| Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HtmlSaveOptions.DefaultFontName**
 Specifica il nome del carattere predefinito durante l'esportazione HTML, il carattere predefinito verrà utilizzato quando il carattere di stile non esiste. Se questa proprietà è nulla, Aspose.Cells utilizzerà il carattere universale che ha la stessa famiglia con il carattere originale, il valore predefinito è nullo.
 ### **Aggiunge la proprietà PivotTable.IsExcel2003Compatible**
 Specifica se la tabella pivot è compatibile con Excel2003 durante l'aggiornamento della tabella pivot. Se vero, una stringa deve essere inferiore o uguale a 255 caratteri, quindi se la stringa è maggiore di 255 caratteri, verrà troncata. Se false, una stringa non avrà la suddetta restrizione. Il valore predefinito è vero.
 ### **Aggiunge la proprietà ImageOrPrintOptions.DefaultFont**
 Quando i caratteri in Excel sono unicode e non devono essere impostati con il carattere corretto nello stile della cella, possono apparire come blocchi in PDF e immagine.
-Imposta il DefaultFont come MingLiu o MS Gothic per mostrare questi caratteri. Se questa proprietà non è impostata, Aspose.Cells utilizzerà il carattere predefinito di System per mostrare questi caratteri Unicode.
+Imposta il DefaultFont come MingLiu o MS Gothic per mostrare questi caratteri. Se questa proprietà non è impostata, Aspose.Cells utilizzerà il carattere predefinito di System per mostrare questi caratteri unicode.
 ### **Aggiunge il metodo GetVersion in GridWeb.**
 Ottieni la versione di rilascio.
 

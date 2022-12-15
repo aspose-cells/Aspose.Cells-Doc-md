@@ -6,9 +6,9 @@ url: /it/net/implement-custom-calculation-engine-to-extend-the-default-calculati
 ---
 ## **Implementa il motore di calcolo personalizzato**
 
-Aspose.Cells ha un potente motore di calcolo in grado di calcolare quasi tutte le formule Excel Microsoft. Nonostante ciò, ti consente anche di estendere il motore di calcolo predefinito che ti offre maggiore potenza e flessibilità.
+Aspose.Cells ha un potente motore di calcolo in grado di calcolare quasi tutte le formule di Microsoft Excel. Nonostante ciò, ti consente anche di estendere il motore di calcolo predefinito che ti offre maggiore potenza e flessibilità.
 
-Le seguenti proprietà e classi vengono utilizzate per implementare questa funzione.
+Le seguenti proprietà e classi vengono utilizzate per implementare questa funzionalità.
 
 - **[CalculationOptions.CustomEngine](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/customengine)**
 - **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**

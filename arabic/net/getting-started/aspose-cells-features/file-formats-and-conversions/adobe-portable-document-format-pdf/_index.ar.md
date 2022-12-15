@@ -1,5 +1,5 @@
 ﻿---
-title: تنسيق المستندات المحمولة من Adobe - PDF
+title: تنسيق Adobe Portable Document Format - PDF
 type: docs
 weight: 40
 url: /ar/net/adobe-portable-document-format-pdf/

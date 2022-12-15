@@ -12,7 +12,7 @@ Aspose.Cells puede abrir un rango de diferentes Microsoft archivos de versiones 
 
 ## **Abrir archivos de diferentes versiones de Excel Microsoft**
 
- Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Utilice el constructor o especifique el**Libro de trabajo** clase'**formato de archivo** atributo de tipo que especifica el formato usando el**Tipo de formato de archivo**enumeración.
+Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Utilice el constructor o especifique el**Libro de trabajo** clase'**formato de archivo** atributo de tipo que especifica el formato usando el**Tipo de formato de archivo**enumeración.
 
  los**Tipo de formato de archivo**La enumeración contiene muchos formatos de archivo predefinidos, algunos de los cuales se indican a continuación.
 
@@ -42,7 +42,7 @@ Para abrir un archivo Microsoft Excel 95/5.0, utilice**Opciones de carga**y esta
 
 ### **Apertura Microsoft Excel 97 - 2003 Archivos**
 
- Para abrir un archivo Microsoft Excel 97 - 2003, utilice**Opciones de carga** y establecer el atributo relacionado para el**Opciones de carga**class para que se cargue el archivo de plantilla.
+ Para abrir un archivo Microsoft Excel 97 - 2003, use**Opciones de carga** y establecer el atributo relacionado para el**Opciones de carga**class para que se cargue el archivo de plantilla.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenExcel97-2003Files.py" >}}
 

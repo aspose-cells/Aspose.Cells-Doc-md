@@ -201,7 +201,7 @@ workbook.save("printsheetend.pdf");
 ### **Se agregó la propiedad Workbook.isLicensed**
 Aspose.Cells for Java 8.4.1 ha expuesto Workbook.isLicensed, que podría ser de gran ayuda para determinar si la licencia se cargó correctamente o no. Si accede a esta propiedad antes de establecer la licencia, devolverá falso y viceversa, sin embargo, la licencia debería ser válida.
 
-El siguiente código de ejemplo demuestra el uso de la propiedad Workbook.isLicensed.
+El siguiente código de ejemplo muestra el uso de la propiedad Workbook.isLicensed.
 
 **Java**
 

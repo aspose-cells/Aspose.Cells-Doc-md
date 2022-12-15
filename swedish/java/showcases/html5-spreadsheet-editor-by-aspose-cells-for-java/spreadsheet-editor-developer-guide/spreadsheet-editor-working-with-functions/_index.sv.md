@@ -14,7 +14,7 @@ Formelfältet är en textruta ovanpå arkområdet. Den visar formeln för aktuel
 
 **Hur det fungerar?**
 
-När en cell är markerad synkroniseras formelfältet med cellen och formeln visas. Användaren får redigera. När användaren redigerar och trycker på enter-tangenten, JavaScript-funktionen**saveFormulaBarContents** avrättas
+ När en cell är markerad synkroniseras formelfältet med cellen och formeln visas. Användaren får redigera. När användaren redigerar och trycker på enter-tangenten, JavaScript-funktionen**saveFormulaBarContents** avrättas
 #### **saveFormulaBarContents**
 {{< highlight "java" >}}
 
@@ -36,4 +36,4 @@ Så här infogar du en funktion eller formel:
 
 1. Klicka på en cell för att markera den.
 1.  Klick**Infoga funktion** knappen på toppen.
-1.  Följ instruktionerna på**Infoga funktion** dialog.
+1.  Följ instruktionerna på**Infoga funktion**dialog.

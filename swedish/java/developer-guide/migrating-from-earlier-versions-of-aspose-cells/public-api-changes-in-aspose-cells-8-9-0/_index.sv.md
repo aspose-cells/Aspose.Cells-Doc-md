@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.9.0
+title: Offentlig API Ändringar i Aspose.Cells 8.9.0
 type: docs
 weight: 310
 url: /sv/java/public-api-changes-in-aspose-cells-8-9-0/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Lagt till egenskapen HtmlSaveOptions.DefaultFontName**
-Aspose.Cells för Java 8.9.0 har exponerat egenskapen DefaultFontName för klassen HtmlSaveOptions som gör det möjligt att ange standardteckensnittsnamnet samtidigt som kalkylblad renderas till HTML-format. Standardteckensnittet kommer endast att användas när stiltypsnittet inte finns. Standardvärdet för egenskapen HtmlSaveOptions.DefaultFontName är null, vilket betyder att Aspose.Cells för Java API kommer att använda det universella teckensnittet som har samma familj som det ursprungliga teckensnittet.
+Aspose.Cells for Java 8.9.0 har exponerat egenskapen DefaultFontName för klassen HtmlSaveOptions som gör det möjligt att ange standardteckensnittsnamnet samtidigt som kalkylblad renderas till HTML-format. Standardteckensnittet kommer endast att användas när stiltypsnittet inte finns. Standardvärdet för egenskapen HtmlSaveOptions.DefaultFontName är null, vilket betyder att Aspose.Cells for Java API kommer att använda det universella teckensnittet som har samma familj som det ursprungliga teckensnittet.
 
 {{% alert color="primary" %}} 
 
@@ -43,7 +43,7 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **Lagt till egenskapen ImageOrPrintOptions.DefaultFont**
-Aspose.Cells för Java 8.9.0 gör det möjligt att ställa in standardteckensnittsnamnet för klassen ImageOrPrintOptions genom att exponera egenskapen DefaultFont. Den nämnda egenskapen kan användas när Unicode-tecken i kalkylarket inte är inställda med korrekt typsnitt i cellstil, därför kan sådana tecken visas som block i de resulterande bilderna.
+Aspose.Cells for Java 8.9.0 tillåter att ställa in standardteckensnittsnamnet för klassen ImageOrPrintOptions genom att exponera egenskapen DefaultFont. Den nämnda egenskapen kan användas när Unicode-tecken i kalkylarket inte är inställda med korrekt typsnitt i cellstil, därför kan sådana tecken visas som block i de resulterande bilderna.
 
 {{% alert color="primary" %}} 
 
@@ -87,7 +87,7 @@ render.toImage(0, dir + "output.png");
 
 {{< /highlight >}}
 ### **Lade till pivottabell.Excel2003kompatibel egendom**
-Aspose.Cells för Java API har exponerat den booleska typen Excel2003Compatible-egenskapen för PivotTable-klassen som gör det möjligt att ange om PivotTable är Excel 2003-kompatibel för uppdateringsändamål. Standardvärdet för egenskapen Excel2003Compatible är sant, det betyder att en sträng måste vara mindre än eller lika med 255 tecken. Om strängen är större än 255 tecken kommer den att trunkeras. Om det är falskt kommer den ovannämnda begränsningen inte att införas.
+Aspose.Cells for Java API har exponerat den booleska typen Excel2003Compatible-egenskapen för PivotTable-klassen som gör det möjligt att ange om pivottabellen är Excel 2003-kompatibel för uppdateringsändamål. Standardvärdet för egenskapen Excel2003Compatible är sant, det betyder att en sträng måste vara mindre än eller lika med 255 tecken. Om strängen är större än 255 tecken kommer den att trunkeras. Om det är falskt kommer den ovannämnda begränsningen inte att införas.
 
 {{% alert color="primary" %}} 
 

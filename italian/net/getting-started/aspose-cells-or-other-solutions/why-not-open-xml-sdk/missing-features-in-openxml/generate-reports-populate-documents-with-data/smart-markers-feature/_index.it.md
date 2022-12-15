@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /it/net/smart-markers-feature-in-aspose-cells/
 ---
-**Marcatori intelligenti** vengono utilizzati per consentire a Aspose.Cells di sapere quali informazioni inserire in un foglio di calcolo Excel Designer Microsoft. I marcatori intelligenti consentono di creare modelli che contengono solo informazioni e formattazioni specifiche.
+**Marcatori intelligenti** vengono utilizzati per consentire a Aspose.Cells di sapere quali informazioni inserire in un foglio di calcolo di Microsoft Excel Designer. I marcatori intelligenti consentono di creare modelli che contengono solo informazioni e formattazioni specifiche.
 ## **Foglio di calcolo per designer e marcatori intelligenti**
 I fogli di calcolo per designer sono file Excel standard che contengono formattazione visiva, formule e marcatori intelligenti. Possono contenere marcatori intelligenti che fanno riferimento a una o più origini dati, ad esempio informazioni da un progetto e informazioni per i contatti correlati. I marcatori intelligenti vengono scritti nelle celle in cui desideri le informazioni.
 
@@ -27,7 +27,7 @@ Sono ammessi i seguenti parametri:
 - skip:n - Salta n numero di righe per ogni riga di dati.
 - ascendente:n o discendente:n - Ordina i dati in marcatori intelligenti. Se n è 1, la colonna è la prima chiave dell'ordinatore. I dati vengono ordinati dopo l'elaborazione dell'origine dati. Ad esempio &=Tabella1.Campo3(crescente:1).
 - orizzontale - Scrivi i dati da sinistra a destra, invece che dall'alto verso il basso.
-- numerico - Converti testo in numero se possibile. Supportato solo nella versione .NET.
+- numeric - Converti testo in numero se possibile. Supportato solo nella versione .NET.
 - shift - Sposta in basso oa destra, creando righe o colonne aggiuntive per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio in MS Excel, quando si seleziona un intervallo di celle, fare clic con il pulsante destro del mouse e selezionare Inserisci e specificare sposta le celle in basso, sposta le celle a destra e altre opzioni. In breve, il parametro shift svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
 - copystyle - Copia lo stile della cella di base in tutte le celle in quella colonna.
 

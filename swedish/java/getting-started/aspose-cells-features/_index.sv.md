@@ -3,26 +3,26 @@ title: Aspose.Cells Funktioner
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-features/
-description: Sammanfatta Aspose.Cells för Java-funktioner och tillhandahåll länkar till detaljerade funktionsbeskrivningar.
+description: Sammanfatta Aspose.Cells for Java funktioner och tillhandahåll länkar till detaljerade funktionsbeskrivningar.
 ---
 {{% alert color="primary" %}} 
 
-Tabellerna nedan sammanfattar Aspose.Cells för Java-funktioner och ger länkar till detaljerade funktionsbeskrivningar.
+Tabellerna nedan sammanfattar Aspose.Cells for Java funktioner och ger länkar till detaljerade funktionsbeskrivningar.
 
 {{% /alert %}} 
 ## **Plattformar som stöds**
-Aspose.Cells för Java-produkten täcker de flesta populära utvecklingsmiljöer och distributionsplattformar som stöder Java.
+Aspose.Cells for Java-produkten täcker de flesta populära utvecklingsmiljöer och distributionsplattformar som stöder Java.
 
 |**Funktion**|**Beskrivning**|
 |:- |:- |
-|[Java](/cells/sv/java/installation/)|Aspose.Cells för Java är tillgänglig för 1.6 och senare versioner och kommer att köras var som helst där Java är installerat.|
+|[Java](/cells/sv/java/installation/)|Aspose.Cells for Java är tillgänglig för 1.6 och senare versioner och kommer att köras var som helst där Java är installerat.|
 ## **Filformat och konverteringar**
-Många kunder över hela världen litar på de grundliga dokumentimport- och exportfunktionerna som tillhandahålls av Aspose.Cells för Java.
+Många kunder över hela världen litar på de grundliga dokumentimport- och exportfunktionerna som tillhandahålls av Aspose.Cells for Java.
 
-|**Funktion**|**Beskrivning**|**Aspose.Cells för Java**|
+|**Funktion**|**Beskrivning**|**Aspose.Cells for Java**|
 |:- |:- |:- |
 |Högkvalitativa omvandlingar|Snabbt och tillförlitligt, konvertera mellan flera populära dokumentformat.|Ja|
-|Microsoft Excel Workbook (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|Ja|
+|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|Ja|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom,<br>komponenten stöder alla större filformat av Excel 2007 och senare versioner, t.ex. XLSX, XLTX, XLSM, XLTM, XLSB etc.|Ja|
 |Kommaseparerat värde (CSV)|Omfattande stöd för CSV-formatet för att interagera med en mängd olika applikationer.|Ja|
 |HTML|Spara som HTML är tillgängligt.|Ja|
@@ -31,20 +31,20 @@ Många kunder över hela världen litar på de grundliga dokumentimport- och exp
 |Tabbavgränsad|Ladda och spara dokument i det tabbavgränsade filformatet.|Ja|
 |Oformaterad text (TXT)|Extrahera enkelt text genom att spara i vanligt textformat.|Ja|
 ## **Rendering och tryckning**
-Aspose.Cells för Java tillhandahåller nu högtrogen återgivning av kalkylbladssidor.
+Aspose.Cells for Java ger nu högtrogen återgivning av kalkylbladssidor.
 
-|**Funktion**|**Aspose.Cells för Java**|
+|**Funktion**|**Aspose.Cells for Java**|
 |:- |:- |
-|Lägg upp dokument till sidor med hög trohet mot Microsoft Excel® (precis som Microsoft Excel® skulle göra det).|Ja|
+|Lägg upp dokument till sidor med hög trohet till Microsoft Excel® (exakt som Microsoft Excel® skulle göra det).|Ja|
 |Rendera kalkylbladssidor till rasterbilder (PNG, JPEG, BMP etc.).|Ja|
 |Gör kalkylbladssidor till vektorbilder (EMF).|Ja|
 |Ange bildupplösning, kvalitet, komprimering och andra alternativ.|Ja|
-| Skriv ut kalkylblad med Java-utskriftsinfrastruktur. Komponenten har inbyggd utskriftsmetod för att skriva ut<br>kalkylblad som visas i Microsoft Excels förhandsgranskning.|Ja|
+| Skriv ut kalkylblad med Java utskriftsinfrastruktur. Komponenten har inbyggd utskriftsmetod för att skriva ut<br>kalkylblad som visas i Microsoft Excels förhandsgranskning.|Ja|
 |Uppdatera sidnummer och andra fält innan du renderar eller skriver ut.|Ja|
 ## **Kalkylbladsinnehållsfunktioner**
-Aspose.Cells för Java tillhandahåller en rik objektmodell som består av över 100 publika klasser/gränssnitt, som låter dig generera, kombinera, modifiera, analysera eller på annat sätt undersöka laddade kalkylblad. Några nyckelfunktioner ges i tabellen nedan.
+Aspose.Cells for Java tillhandahåller en rik objektmodell som består av över 100 publika klasser/gränssnitt, som låter dig generera, kombinera, modifiera, analysera eller på annat sätt undersöka laddade kalkylblad. Några nyckelfunktioner ges i tabellen nedan.
 
-|**Funktion**|**Aspose.Cells för Java**|
+|**Funktion**|**Aspose.Cells for Java**|
 |:- |:- |
 |Importera/exportera data från en Array, ArrayList, ResultSet etc.|Ja|
 |Lägg till en kopia av befintligt kalkylblad (allt innehåll inklusive bilder, diagram, andra objekt etc.)|Ja|
@@ -63,7 +63,7 @@ Aspose.Cells för Java tillhandahåller en rik objektmodell som består av över
 |Skapa anpassade sidbrytningar|Ja|
 |Infoga/ta bort eller dölj rader, kolumner och ark|Ja|
 |Beräkna komplexa Excel-formler|Ja|
-|Stöd avancerad villkorlig formatering som stöds i Microsoft Excel 2007 och senare versioner|Ja|
+|Stöd för avancerad villkorlig formatering som stöds i Microsoft Excel 2007 och senare versioner|Ja|
 |Frys/avfrys rutor|Ja|
 |Infoga hyperlänkar för att länka data|Ja|
 |Implementera smarta markörer|Ja|
@@ -81,9 +81,9 @@ Aspose.Cells för Java tillhandahåller en rik objektmodell som består av över
 |Implementera sparklines|Ja|
 |Kryptera filer|Ja|
 ## **Kalkylbladsformateringsfunktioner**
-Aspose.Cells för Java ger detaljerad programmatisk åtkomst till formateringsegenskaper för alla kalkylbladselement.
+Aspose.Cells for Java ger detaljerad programmatisk åtkomst till formateringsegenskaper för alla kalkylbladselement.
 
-|**Funktion**|**Aspose.Cells för Java**|
+|**Funktion**|**Aspose.Cells for Java**|
 |:- |:- |
 |Använd alla teckenformatering i cellerna inklusive teckensnitt, färger, effekter, ramar och skuggningar.|Ja|
 |Tillämpa alla inställningar för talformat (stöds i Microsoft Excel) för cellerna.|Ja|
@@ -95,9 +95,9 @@ Aspose.Cells för Java ger detaljerad programmatisk åtkomst till formateringseg
 |Applicera olika bakgrundsmönster på celler.|Ja|
 |Tillämpa formatinställningar på ett kalkylblad, rad, kolumn eller ett cellintervall etc.|Ja|
 ## **PageSetup-funktioner**
-Du kan använda Aspose.Cells för Java för att implementera sidinställningar för kalkylblad.
+Du kan använda Aspose.Cells for Java för att implementera sidinställningar för kalkylblad.
 
-|**Funktion**|**Aspose.Cells för Java**|
+|**Funktion**|**Aspose.Cells for Java**|
 |:- |:- |
 |Justera sidans orientering, skalning, pappersstorlek.|Ja|
 |Ange dina marginaler och sidcentrering.|Ja|

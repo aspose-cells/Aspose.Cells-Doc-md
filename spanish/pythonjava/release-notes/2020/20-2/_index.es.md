@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Python a través de Java 20.2 Notas de la versión
+title: Aspose.Cells for Python via Java 20.2 Notas de la versión
 type: docs
 weight: 10
 url: /es/python-java/aspose-cells-for-python-via-java-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Python a través de Java 20.2.
+Esta página contiene notas de la versión para Aspose.Cells for Python via Java 20.2.
 
 {{% /alert %}} 
 
@@ -40,9 +40,9 @@ Esta página contiene notas de la versión para Aspose.Cells para Python a trav�
 |CELLSJAVA-43116|Conversión a PDF: java.lang.IllegalStateException: el almacenamiento estructurado parece estar corrupto.|Excepción|
 |CELLSJAVA-43120|java.lang.NumberFormatException al convertir el libro de trabajo a PDF|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Python a través de Java. Si tiene inquietudes sobre cualquier cambio enumerado, por favor plantéelo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Python via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega la propiedad FormulaParseOptions.Parse.**
- Indica si se analiza la fórmula al establecer una expresión de fórmula en la celda. El valor predeterminado es**verdadero** . Si**falso**, la expresión de la fórmula de entrada se mantendrá tal como está para la celda hasta que el usuario llame a otros métodos para analizarlos o hasta que otras operaciones, como el cálculo de fórmulas, requieran los datos de la fórmula analizada.
+ Indica si se analiza la fórmula al establecer una expresión de fórmula en la celda. El valor predeterminado es**verdadero** . Si**falso**la expresión de la fórmula de entrada se mantendrá tal como está para la celda hasta que el usuario llame a otros métodos para analizarlos o hasta que otras operaciones, como el cálculo de fórmulas, requieran los datos de la fórmula analizada.
 #### **Agrega el método Workbook.ParseFormulas(bool ignoreError).**
 Analiza todas las fórmulas que no se analizaron cuando se cargaron o se establecieron en una celda.
 #### **Agrega la propiedad PivotTable.ExternalConnectionDataSource.**

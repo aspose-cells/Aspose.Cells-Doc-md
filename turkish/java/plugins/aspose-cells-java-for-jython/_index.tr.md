@@ -10,9 +10,9 @@ url: /tr/java/aspose-cells-java-for-jython/
 
 Jython, ifade gücünü netlikle birleştiren, Python'in Java uygulamasıdır. Jython, hem ticari hem de ticari olmayan kullanım için ücretsiz olarak mevcuttur ve kaynak koduyla birlikte dağıtılır. Jython, Java'i tamamlayıcı niteliktedir ve özellikle aşağıdaki görevler için uygundur:
 
-- **Gömülü komut dosyası** Java programcılar, son kullanıcıların uygulamaya işlevsellik katan basit veya karmaşık komut dosyaları yazmasına izin vermek için Jython kitaplıklarını sistemlerine ekleyebilirler.
+- **Gömülü komut dosyası** - Java programcılar, son kullanıcıların uygulamaya işlevsellik katan basit veya karmaşık komut dosyaları yazmasına izin vermek için Jython kitaplıklarını sistemlerine ekleyebilirler.
 - **Etkileşimli deney** - Jython, Java paketleriyle veya çalışan Java uygulamalarıyla etkileşime geçmek için kullanılabilecek etkileşimli bir tercüman sağlar. Bu, programcıların Jython kullanarak herhangi bir Java sistemini denemesine ve hata ayıklamasına olanak tanır.
-- **Hızlı uygulama geliştirme** - Python programları genellikle eşdeğer Java programından 2-10 kat daha kısadır. Bu, doğrudan artan programcı üretkenliği anlamına gelir. Python ve Java arasındaki kusursuz etkileşim, geliştiricilerin hem geliştirme sırasında hem de ürünleri gönderirken iki dili serbestçe karıştırmalarına olanak tanır.
+- **Hızlı uygulama geliştirme** Python programları genellikle eşdeğer Java programından 2-10 kat daha kısadır. Bu, doğrudan artan programcı üretkenliği anlamına gelir. Python ve Java arasındaki kusursuz etkileşim, geliştiricilerin hem geliştirme sırasında hem de ürünleri gönderirken iki dili serbestçe karıştırmalarına olanak tanır.
 
 ### **Aspose.Cells for Java**
 

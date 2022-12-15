@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لـ Python عبر Java 20.2 ملاحظات الإصدار
+title: Aspose.Cells for Python via Java 20.2 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/python-java/aspose-cells-for-python-via-java-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ Python عبر Java 20.2.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Python via Java 20.2.
 
 {{% /alert %}} 
 
@@ -40,7 +40,7 @@ url: /ar/python-java/aspose-cells-for-python-via-java-20-2-release-notes/
 |CELLSJAVA-43116|التحويل إلى ملف PDF - java.lang.IllegalStateException: يبدو أن التخزين المهيكل تالف.|استثناء|
 |CELLSJAVA-43120|java.lang.NumberFormatException أثناء تحويل المصنف إلى PDF|استثناء|
 ### **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لـ Python عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Python Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 #### **يضيف خاصية FormulaParseOptions.Parse.**
  يشير إلى ما إذا كان سيتم تحليل الصيغة أثناء تعيين تعبير صيغة إلى الخلية. الافتراضي هو**حقيقي** . إذا**خاطئة**، ثم سيتم الاحتفاظ بتعبير صيغة الإدخال كما هو الحال بالنسبة للخلية حتى يقوم المستخدم باستدعاء طرق أخرى لتحليلها أو أن بيانات الصيغة المحللة مطلوبة من قبل عمليات أخرى مثل حساب الصيغ.
 #### **يضيف طريقة Workbook.ParseFormulas (bool ignoreError).**

@@ -23,11 +23,11 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls：修改前的Excel文件**
 
-![待办事项：图片_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![待办事项：图像_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
 **output.xls：修改后的Excel文件**
 
-![待办事项：图片_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![待办事项：图像_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 

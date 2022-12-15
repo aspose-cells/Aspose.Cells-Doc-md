@@ -20,7 +20,7 @@ url: /es/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
 
 
- Para poder inyectar etiquetas personalizadas, se requiere asignar el[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) propiedad a una instancia de la*Ajustes personalizados*definida anteriormente antes de agregar los subtotales a la hoja de trabajo.
+ Para poder inyectar etiquetas personalizadas, se requiere asignar el[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) propiedad a una instancia de la*Ajustes personalizados*definida anteriormente antes de agregar los subtotales a la hoja de cálculo.
 
 
 

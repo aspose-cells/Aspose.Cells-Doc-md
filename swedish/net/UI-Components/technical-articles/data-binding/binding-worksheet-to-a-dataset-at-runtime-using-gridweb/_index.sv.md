@@ -5,7 +5,7 @@ weight: 70
 url: /sv/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
 ---
 ## **Möjliga användningsscenarier**
-Aspose.Cells.GridWeb tillhandahåller ett enkelt API som kan användas för att dynamiskt binda en datauppsättning till arbetsblad.
+Aspose.Cells.GridWeb tillhandahåller ett enkelt API som kan användas för att dynamiskt binda en datamängd till arbetsblad.
 ## **Bindning av ett kalkylblad till datauppsättning**
 Följande exempelkod förklarar hur man binder ett kalkylblad till en datauppsättning vid körning.
 ## **Exempelkod**

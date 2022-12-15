@@ -5,7 +5,7 @@ weight: 10
 url: /it/net/encrypting-files-in-php/
 ---
 ## **Aspose.Cells - Crittografa file Excel**
-Crittografia di un file Excel Microsoft
+Crittografia di un file Microsoft Excel
 
 **Codice PHP**
 

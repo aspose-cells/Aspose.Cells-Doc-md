@@ -24,11 +24,11 @@ Supporta l'esportazione dell'oggetto Nome con riferimenti esterni per il file Sp
  Supporta l'aggiunta di campi calcolati per una tabella pivot.
  Supporta per ottenere/impostare la proprietà VeryHidden per un foglio di lavoro.
  Aggiunge una nuova formula all'elenco delle formule supportate: FREQUENZA
- Riconosce automaticamente il formato del file per LightCells API.
+ Riconosce automaticamente il formato del file per l'API LightCells.
  Migliora il modello di stile per la considerazione delle prestazioni.
- Migliora il API relativo al commento per considerazioni sulle prestazioni.
+ Migliora l'API relativa ai commenti per considerazioni sulle prestazioni.
  Migliora le prestazioni di lettura di file Excel 2007 di grandi dimensioni.
- Potenzia le prestazioni di LightCells API per file Excel 2007 di grandi dimensioni.
+ Aumenta le prestazioni dell'API LightCells per file Excel 2007 di grandi dimensioni.
  L'operazione di lettura per le proprietà di un documento è migliorata.
 L'operazione di importazione dei file CSV è migliorata.
  67 correzioni e miglioramenti.

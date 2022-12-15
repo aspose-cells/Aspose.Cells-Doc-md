@@ -9,7 +9,7 @@ url: /it/net/tables-and-ranges/
 A volte crei una tabella in Microsoft Excel e non vuoi continuare a lavorare con la funzionalità della tabella che ne deriva. Invece, vuoi qualcosa che assomigli a un tavolo. Per mantenere i dati in una tabella senza perdere la formattazione, convertire la tabella in un normale intervallo di dati.
 Aspose.Cells supporta questa funzionalità di Microsoft Excel per tabelle e oggetti elenco.
 
-## **Utilizzando Microsoft Excel**
+## **Utilizzo di Microsoft Excel**
 
  Utilizzare il**Converti in intervallo** funzionalità per convertire rapidamente una tabella in un intervallo senza perdere la formattazione. In Microsoft Excel 2007/2010:
 

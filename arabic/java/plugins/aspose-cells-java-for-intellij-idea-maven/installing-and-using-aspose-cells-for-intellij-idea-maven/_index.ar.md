@@ -17,7 +17,7 @@ url: /ar/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 
 ![ما يجب القيام به: image_بديل_نص](lbtci11.jpg)
 ### **Aspose.Cells Maven معالج المشروع**
- سيؤدي تثبيت هذا المكون الإضافي إلى إدخال نوع مشروع جديد -
+سيؤدي تثبيت هذا المكون الإضافي إلى إدخال نوع مشروع جديد -
 
 ![ما يجب القيام به: image_بديل_نص](aspose_small.png)
 
@@ -52,14 +52,14 @@ url: /ar/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 
 `    ` يمكنك تحديد خانة الاختيار "تنزيل أمثلة رمز المصدر أيضًا" لتنزيل نماذج استخدام أمثلة لـ API (كما هو موضح في اللقطة أعلاه)
 
- \ 6. توفير**اسم المشروع** و**موقع** تمامًا كما هو الحال عند إنشاء أي تطبيق Java
+ \ 6. توفير**اسم المشروع** و**موقع**تمامًا كما هو الحال عند إنشاء أي تطبيق Java
 
 ![ما يجب القيام به: image_بديل_نص](0gszuiu.jpg)
 
 
  \ 7. انقر**إنهاء**.
  `    ` سيؤدي هذا إلى استرداد ملف[Aspose.Cells for Java API](http://goo.gl/c1eSD2) أحدث مرجع تبعية maven من مستودع Aspose Cloud Maven وقم بتكوينه في pom.xml
-`     ` إذا قمت بتحديد خانة الاختيار "تنزيل رمز المصدر أمثلة أيضًا". سيبدأ تنزيل الأمثلة أيضًا من ملف[Aspose.Cells for Java API مستودع جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+ `     ` إذا قمت بتحديد خانة الاختيار "تنزيل رمز المصدر أمثلة أيضًا". سيبدأ تنزيل الأمثلة أيضًا من ملف[Aspose.Cells for Java API مستودع جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
 ![ما يجب القيام به: image_بديل_نص](eezoq3s.jpg)
 
@@ -82,7 +82,7 @@ url: /ar/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 ![ما يجب القيام به: image_بديل_نص](n8tt9q0.jpg)
 
 
- `    `-أو-**انقر على اليمين** (في نافذة المشروع) =>**جديد** كما هو مبين أدناه:
+ `    `-أو-**انقر على اليمين** (في نافذة المشروع) =>**جديد** - كما هو مبين أدناه:
 
 ![ما يجب القيام به: image_بديل_نص](aubwkhp.jpg)
 
@@ -110,7 +110,7 @@ url: /ar/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 
 
 
- `       ` ألف مبروك!{{< emoticons/cross >}} لقد قمت بما يلي بنجاح:
+ `       ` ألف مبروك!{{< emoticons/cross >}}لقد قمت بما يلي بنجاح:
 
 `       `1. لقد قمت بإنشاء Aspose.Cells Maven Project باستخدام Aspose.Cells Maven Project Wizard.
 

@@ -41,7 +41,7 @@ url: /ar/java/threaded-comments/
 - نص التعليق: نص التعليق.
 - [مؤلف](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentAuthor): كاتب التعليق
 
-يوضح نموذج التعليمات البرمجية التالي استخدام[التعليقات. AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) طريقة لإضافة تعليق مترابط إلى الخلية A1. الرجاء مراجعة[إخراج ملف Excel](AddThreadedComments_out.xlsx)تم إنشاؤها بواسطة رمز كمرجع.
+يوضح نموذج التعليمات البرمجية التالي استخدام[التعليقات. AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) طريقة لإضافة تعليق مترابط إلى الخلية A1. الرجاء مراجعة[إخراج ملف Excel](AddThreadedComments_out.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
 #### **عينة من الرموز**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddThreadedComments-1.java" >}}
 ## **قراءة التعليقات المترابطة**
@@ -90,7 +90,7 @@ url: /ar/java/threaded-comments/
 ### **إزالة التعليقات المترابطة باستخدام Aspose.Cells**
 يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) طريقة لإزالة التعليقات للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) تقبل طريقة اسم العمود حيث تقوم معلمة بإزالة التعليقات الموجودة في هذا العمود.
 
-يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](ThreadedCommentsSample.xlsx). الرجاء مراجعة[إخراج ملف Excel](ThreadedCommentsSample_Out.xlsx)تم إنشاؤها بواسطة رمز كمرجع.
+يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](ThreadedCommentsSample.xlsx). الرجاء مراجعة[إخراج ملف Excel](ThreadedCommentsSample_Out.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
 #### **عينة من الرموز**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "RemoveThreadedComments-1.java" >}}
 

@@ -14,7 +14,7 @@ Cuando se produce este problema durante la instalación, se registra una Unautho
 
 Para evitar este problema, otorgue a los administradores del portal el permiso para administrar la aplicación web MySite:
 
-1.  Ir**Administración central de SharePoint** y seleccione el**Gestión de aplicaciones** pestaña.
+1.  Ir**Administración central de SharePoint** seleccione el**Gestión de aplicaciones** pestaña.
 1.  Elegir**Política para la aplicación web** bajo la**Seguridad de la aplicación** grupo.
 1.  Asegúrese de seleccionar la aplicación web correcta para su "Mi sitio" en el**Aplicación web** lista de la derecha.
 1.  Seleccione**Agregar usuarios** en la parte superior izquierda.

@@ -1,28 +1,28 @@
 ﻿---
-title: Utilizzando LightCells API
+title: Utilizzo dell'API LightCells
 type: docs
 weight: 80
 url: /it/java/using-lightcells-api/
 ---
 {{% alert color="primary" %}}
 
-A volte è necessario leggere e scrivere file Excel Microsoft di grandi dimensioni con un enorme elenco di dati o contenuti nel foglio di lavoro. Il LightCells API è utile per creare enormi fogli di calcolo Excel: con esso, hai bisogno di memoria e ottieni migliori prestazioni ed efficienza.
+A volte è necessario leggere e scrivere file Microsoft Excel di grandi dimensioni con un enorme elenco di dati o contenuti nel foglio di lavoro. L'API di LightCells è utile per creare enormi fogli di calcolo Excel: con essa, hai bisogno di memoria e ottieni prestazioni ed efficienza migliori.
 
 {{% /alert %}}
 
 ## **Architettura guidata dagli eventi**
 
-Aspose.Cells fornisce le LightCells API, progettate principalmente per manipolare i dati delle celle uno per uno senza creare un blocco completo del modello di dati (utilizzando la raccolta Cell ecc.) in memoria. Funziona in una modalità guidata dagli eventi.
+Aspose.Cells fornisce l'API LightCells, progettata principalmente per manipolare i dati delle celle uno per uno senza creare un blocco completo del modello di dati (utilizzando la raccolta Cell ecc.) in memoria. Funziona in una modalità guidata dagli eventi.
 
 Per salvare le cartelle di lavoro, fornisci il contenuto della cella cella per cella durante il salvataggio e il componente lo salva direttamente nel file di output.
 
 Durante la lettura dei file modello, il componente analizza ogni cella e ne fornisce il valore uno per uno.
 
-In entrambe le procedure, un oggetto Cell viene elaborato e quindi eliminato, l'oggetto Workbook non contiene la raccolta. In questa modalità, quindi, la memoria viene salvata durante l'importazione e l'esportazione del file Excel Microsoft che ha un set di dati di grandi dimensioni che altrimenti utilizzerebbe molta memoria.
+In entrambe le procedure, un oggetto Cell viene elaborato e quindi eliminato, l'oggetto Workbook non contiene la raccolta. In questa modalità, quindi, la memoria viene salvata durante l'importazione e l'esportazione di file Microsoft Excel che hanno un set di dati di grandi dimensioni che altrimenti utilizzerebbe molta memoria.
 
-Anche se LightCells API elabora le celle allo stesso modo per i file XLSX e XLS (in realtà non carica tutte le celle in memoria ma elabora una cella e poi la scarta), salva la memoria in modo più efficace per i file XLSX rispetto ai file XLS a causa di i diversi modelli di dati e le strutture dei due formati.
+Anche se l'API LightCells elabora le celle allo stesso modo per i file XLSX e XLS (in realtà non carica tutte le celle in memoria ma elabora una cella e poi la scarta), salva la memoria in modo più efficace per i file XLSX rispetto ai file XLS a causa di i diversi modelli di dati e le strutture dei due formati.
 
- Tuttavia,**per i file XLS** , per risparmiare più memoria, gli sviluppatori possono specificare una posizione temporanea per il salvataggio dei dati temporanei generati durante il processo di salvataggio. Comunemente,**l'utilizzo di LightCells API per salvare il file XLSX può far risparmiare il 50% o più di memoria** piuttosto che usare il modo comune,**salvare XLS può far risparmiare circa il 20-40% di memoria**.
+ Tuttavia,**per i file XLS** per risparmiare più memoria, gli sviluppatori possono specificare una posizione temporanea per il salvataggio dei dati temporanei generati durante il processo di salvataggio. Comunemente,**l'utilizzo dell'API LightCells per salvare il file XLSX può far risparmiare il 50% o più di memoria** piuttosto che usare il modo comune,**salvare XLS può far risparmiare circa il 20-40% di memoria**.
 
 ### **Scrittura di file Excel di grandi dimensioni**
 
@@ -32,7 +32,7 @@ Quando si salva una cartella di lavoro in questa modalità, startSheet(int) vien
 
 Per una riga, nextCell() viene controllato per primo. Se viene restituito un indice di colonna valido (l'indice di colonna deve essere in ordine crescente per salvare tutte le celle di una riga), viene fornito un oggetto Cell che rappresenta questa cella per impostare i dati e le proprietà tramite startCell(Cell). Dopo aver impostato i dati di questa cella, questa cella viene salvata direttamente nel file del foglio di calcolo generato e la cella successiva verrà controllata ed elaborata.
 
-L'esempio seguente mostra come funziona LightCells API.
+L'esempio seguente mostra come funziona l'API LightCells.
 
 Il seguente programma crea un file enorme con 100.000 record in un foglio di lavoro, pieno di dati. Abbiamo aggiunto alcuni collegamenti ipertestuali, valori stringa, valori numerici e anche formule a determinate celle nel foglio di lavoro. Inoltre, abbiamo anche formattato un intervallo di celle.
 

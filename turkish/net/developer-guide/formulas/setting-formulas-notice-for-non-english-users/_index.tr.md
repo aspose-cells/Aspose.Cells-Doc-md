@@ -6,7 +6,7 @@ url: /tr/net/setting-formulas-notice-for-non-english-users/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells, Microsoft Excel'in parçası olan formüllerin/işlevlerin çoğunu destekler. Geliştiriciler bu formülleri API veya[tasarımcı elektronik tabloları](/cells/tr/net/what-is-a-designer-spreadsheet/). Aspose.Cells, çok sayıda matematiksel, dizi, Boolean, tarih/saat, istatistik, veritabanı, arama ve referans formüllerini destekler. Formüller, İngilizce (ABD) stili kullanılarak belirtilmelidir.
+ Aspose.Cells, Microsoft Excel'in parçası olan formüllerin/işlevlerin çoğunu destekler. Geliştiriciler bu formülleri API veya[tasarımcı elektronik tabloları](/cells/tr/net/what-is-a-designer-spreadsheet/)Aspose.Cells, çok sayıda matematiksel, dizi, Boolean, tarih/saat, istatistik, veritabanı, arama ve referans formüllerini destekler. Formüller, İngilizce (ABD) stili kullanılarak belirtilmelidir.
 
 {{% /alert %}} 
 ## **İngilizce Dışı Kullanıcılar İçin Bildirim**

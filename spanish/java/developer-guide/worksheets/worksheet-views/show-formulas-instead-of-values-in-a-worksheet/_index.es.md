@@ -6,7 +6,7 @@ url: /es/java/show-formulas-instead-of-values-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Es posible mostrar fórmulas en lugar de valores calculados en Microsoft Excel usando t*Mostrar fórmulas* opción de la**Fórmulas**cinta. Cuando se muestran fórmulas, Microsoft Excel muestra fórmulas en la hoja de trabajo. Puede lograr lo mismo usando Aspose.Cells.
+Es posible mostrar fórmulas en lugar de valores calculados en Microsoft Excel usando t*Mostrar fórmulas* opción de la**Fórmulas**cinta. Cuando se muestran fórmulas, Microsoft Excel muestra fórmulas en la hoja de cálculo. Puede lograr lo mismo usando Aspose.Cells.
 
 {{% /alert %}} 
 

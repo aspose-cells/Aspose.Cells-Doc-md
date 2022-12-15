@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.8.0
+title: Modifiche all'API pubblica in Aspose.Cells 8.8.0
 type: docs
 weight: 260
 url: /it/net/public-api-changes-in-aspose-cells-8-8-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.7.2 alla 8.8.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.7.2 alla 8.8.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -77,7 +77,7 @@ workbook.Save(dir + "output.xlsx");
 
 
 ### **Aggiunta proprietà HTMLLoadOptions.DeleteRedundantSpaces**
-Aspose.Cells for .NET 8.8.0 ha esposto la proprietà HTMLLoadOptions.DeleteRedundantSpaces per mantenere o eliminare gli spazi extra dopo il tag di interruzione di riga (<br>Tag) durante l'importazione dei dati dalla stringa o dal file HTML. La proprietà HTMLLoadOptions.DeleteRedundantSpaces ha il valore predefinito false, il che significa che tutti gli spazi extra verranno conservati e importati nell'oggetto Workbook, tuttavia, se impostata su true, API eliminerà tutti gli spazi ridondanti che seguono il tag di interruzione di riga.
+Aspose.Cells for .NET 8.8.0 ha esposto la proprietà HTMLLoadOptions.DeleteRedundantSpaces per mantenere o eliminare gli spazi extra dopo il tag di interruzione di riga (<br>Tag) durante l'importazione dei dati dalla stringa o dal file HTML. La proprietà HTMLLoadOptions.DeleteRedundantSpaces ha il valore predefinito false, il che significa che tutti gli spazi extra verranno conservati e importati nell'oggetto Workbook, tuttavia, se impostata su true, l'API eliminerà tutti gli spazi ridondanti che seguono il tag di interruzione di riga.
 
 {{% alert color="primary" %}} 
 

@@ -166,7 +166,7 @@ Skriptbefehle sind spezielle Befehle, die von Aspose.Cells bereitgestellt werden
 |&EIN|Der Name des Arbeitsblatts.|
 |&F|Der Dateiname ohne den Pfad.|
 |&"\<FontName>"|Ein Schriftartname. Zum Beispiel: &"Arial"|
-|&"\<FontName>, \<FontStyle>"|Ein Schriftartname mit einem Stil. Zum Beispiel: &"Arial,Fett"|
+|&"\<FontName>, \<FontStyle>"|Ein Schriftartname mit einem Stil. Zum Beispiel: &"Arial,Bold"|
 |&\<FontSize>|Stellt die Schriftgröße dar. Beispiel: „&14abc“. Wenn diesem Befehl jedoch eine einfache Zahl folgt, die in der Kopfzeile gedruckt werden soll, sollte diese mit einem Leerzeichen von der Schriftgröße getrennt werden. Beispiel: „&14 123“.|
 
 ### **Legen Sie Kopf- und Fußzeilen fest**

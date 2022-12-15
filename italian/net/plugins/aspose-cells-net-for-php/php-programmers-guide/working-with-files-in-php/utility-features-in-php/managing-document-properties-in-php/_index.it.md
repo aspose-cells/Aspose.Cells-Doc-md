@@ -5,7 +5,7 @@ weight: 30
 url: /it/net/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells - Gestione Proprietà Documento**
-Gestione delle proprietà del documento del file Excel Microsoft
+Gestione delle proprietà del documento del file Microsoft Excel
 
 **Codice PHP**
 

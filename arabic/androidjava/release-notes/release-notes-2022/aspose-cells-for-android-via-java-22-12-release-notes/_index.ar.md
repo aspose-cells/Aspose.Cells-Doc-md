@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 22.12 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 22.12 ملاحظات الإصدار
 type: docs
 weight: 1
 url: /ar/java/aspose-cells-for-android-via-java-22-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 22.12.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 22.12.
 
 {{% /alert %}} 
 
@@ -58,7 +58,7 @@ url: /ar/java/aspose-cells-for-android-via-java-22-12-release-notes/
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 
 ### **تم تغيير حد نقل الخلايا خارج الورقة لإدراج الصفوف**
 

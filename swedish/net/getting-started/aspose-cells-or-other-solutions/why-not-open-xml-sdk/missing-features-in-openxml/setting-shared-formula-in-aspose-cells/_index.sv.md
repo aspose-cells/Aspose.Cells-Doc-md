@@ -8,7 +8,7 @@ url: /sv/net/setting-shared-formula-in-aspose-cells/
 
 Anta att du har ett kalkylblad fyllt med data.
 
- Du vill lägga till en funktion i B2 som kommer att beräkna momsen för den första raden med data. Skatten är**9%** . Formeln som beräknar momsen är:**"=A2*0,09"**. Den här artikeln förklarar hur du använder den här formeln med Aspose.Cells.
+ Du vill lägga till en funktion i B2 som kommer att beräkna momsen för den första raden med data. Skatten är**9%** Formeln som beräknar momsen är:**"=A2*0,09"**. Den här artikeln förklarar hur du använder den här formeln med Aspose.Cells.
 
 {{% /alert %}} 
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.9 Release Notes
+title: Aspose.Cells for .NET 17.9 Release Notes
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-for-net-17-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 17.9](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.9/).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 17.9](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.9/).
 
 {{% /alert %}} 
 
@@ -73,8 +73,8 @@ url: /sv/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45589|Objektet har redan lagts till. Ange ordbok: 'Sheet1' Nyckel som läggs till: 'Sheet1'|Undantag|
 |CELLSNET-45647|Undantag uppstår vid öppning av "BUDGET RH 3_1.xlsm" i GridWeb|Undantag|
 |CELLSNET-45646|Undantag vid import av XLSM-filer till GridWeb|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen HTMLLoadOptions.LoadStyleStrategy**
 Indikerar strategin för att tillämpa stil för analyserade värden vid konvertering av strängvärde till nummer eller DateTime.
 #### **Lägger till klass AbstractCalculationMonitor**

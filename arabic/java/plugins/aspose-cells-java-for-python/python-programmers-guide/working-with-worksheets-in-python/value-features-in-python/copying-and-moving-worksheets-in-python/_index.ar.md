@@ -62,7 +62,7 @@ workbook.save(self.dataDir + "Move_Worksheet.xls")
 print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**نسخ أوراق العمل ونقلها (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

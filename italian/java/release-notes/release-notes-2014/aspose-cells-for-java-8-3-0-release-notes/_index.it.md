@@ -78,9 +78,9 @@ Insetti
 (CELLSJAVA-41071) - Formato numerico errato in customformat.jsp
 (CELLSJAVA-41079) - Le demo DateAndTime e CustomFormat forniscono risultati non formattati quando si specifica una data personalizzata
 
-Pubblico API e modifiche incompatibili con le versioni precedenti
+API pubblica e modifiche non compatibili con le versioni precedenti
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
  Aggiunge la proprietà TxtLoadOptions.KeepExactFormat
 Indica se la formattazione esatta deve essere mantenuta per la cella durante la conversione del valore stringa in numero o data/ora.

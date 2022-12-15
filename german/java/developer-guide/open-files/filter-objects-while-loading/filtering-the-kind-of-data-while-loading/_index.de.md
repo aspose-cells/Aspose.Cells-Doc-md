@@ -12,11 +12,11 @@ url: /de/java/filtering-the-kind-of-data-while-loading-the-workbook-from-templat
 ## **Filtern der Datenart beim Laden der Arbeitsmappe aus einer Vorlagendatei**
 Der folgende Beispielcode lädt nur Shape-Objekte, während die Arbeitsmappe aus der geladen wird[Vorlagendatei](5472556.xlsx)die Sie unter dem angegebenen Link herunterladen können.
 
- Der folgende Screenshot zeigt die[Vorlagendatei](5472556.xlsx) Inhalt und erklärt auch, dass die Daten in roter Farbe und gelbem Hintergrund nicht geladen werden, weil die[LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#LoadDataFilterOptions)Eigenschaft eingestellt wurde[LoadDataFilterOptions.SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE).
+Der folgende Screenshot zeigt die[Vorlagendatei](5472556.xlsx) Inhalt und erklärt auch, dass die Daten in roter Farbe und gelbem Hintergrund nicht geladen werden, weil die[LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#LoadDataFilterOptions)Eigenschaft eingestellt wurde[LoadDataFilterOptions.SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE).
 
 ![todo: Bild_alt_Text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- Der folgende Screenshot zeigt die[PDF ausgeben](5472554.pdf) die Sie unter dem angegebenen Link herunterladen können. Hier können Sie sehen, dass die Daten in roter Farbe und gelbem Hintergrund nicht vorhanden sind, aber alle Formen vorhanden sind.
+Der folgende Screenshot zeigt die[PDF ausgeben](5472554.pdf) die Sie unter dem angegebenen Link herunterladen können. Hier können Sie sehen, dass die Daten in roter Farbe und gelbem Hintergrund nicht vorhanden sind, aber alle Formen vorhanden sind.
 
 ![todo: Bild_alt_Text](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

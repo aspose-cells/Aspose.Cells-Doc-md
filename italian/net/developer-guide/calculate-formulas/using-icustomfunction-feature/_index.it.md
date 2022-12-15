@@ -8,7 +8,7 @@ url: /it/net/using-icustomfunction-feature/
 
 Questo articolo fornisce informazioni dettagliate su come utilizzare la funzionalità ICustomFunction per implementare funzioni personalizzate con le API Aspose.Cells.
 
-L'interfaccia ICustomFunction consente di aggiungere funzioni di calcolo delle formule personalizzate per estendere il motore di calcolo principale Aspose.Cells al fine di soddisfare determinati requisiti. Questa funzionalità è utile per definire funzioni personalizzate (definite dall'utente) in un file modello o nel codice in cui la funzione personalizzata può essere implementata e valutata utilizzando le API Aspose.Cells come qualsiasi altra funzione Excel Microsoft predefinita.
+L'interfaccia ICustomFunction consente di aggiungere funzioni di calcolo delle formule personalizzate per estendere il motore di calcolo principale Aspose.Cells al fine di soddisfare determinati requisiti. Questa funzionalità è utile per definire funzioni personalizzate (definite dall'utente) in un file modello o nel codice in cui la funzione personalizzata può essere implementata e valutata utilizzando le API Aspose.Cells come qualsiasi altra funzione predefinita di Microsoft Excel.
 
 {{% /alert %}} 
 ## **Creazione e valutazione di una funzione definita dall'utente**

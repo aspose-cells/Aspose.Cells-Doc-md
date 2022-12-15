@@ -18,7 +18,7 @@ url: /it/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines non sembra funzionare per un particolare foglio di calcolo|Insetto|
 |CELLSJAVA-42131|Il ricalcolo di un numero di formule utilizzando le API Aspose Cells restituisce "#NUM!" errore|Insetto|
 |CELLSJAVA-42124|Problema di formato della data durante l'importazione di CSV con ICustomParser|Insetto|
-|CELLSJAVA-42118|Name.getRanges() API produce risultati imprevisti|Insetto|
+|CELLSJAVA-42118|L'API Name.getRanges() produce risultati imprevisti|Insetto|
 |CELLSJAVA-42117|Impossibile accedere alla variabile di istanza m_LoadDataFilterOptions durante l'override del metodo startSheet della classe LoadFilter|Insetto|
 |CELLSJAVA-41882|Cell valore stringa e problema di arrotondamento basato su diverse versioni JDK|Insetto|
 |CELLSJAVA-42142|I caratteri di controllo da destra a sinistra e da sinistra a destra non vengono visualizzati correttamente in PDF quando la conversione viene eseguita su Linux|Insetto|
@@ -33,14 +33,14 @@ url: /it/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42078|Le etichette dei grafici non vengono visualizzate/renderizzate allo stesso modo (come per il file Excel originale) nel file PDF di output|Insetto|
 |CELLSJAVA-42076|L'angolo delle etichette dell'asse x non è corretto nel PDF del grafico|Insetto|
 |CELLSJAVA-42065|Rendering errato dei grafici a barre durante il rendering del foglio di calcolo in HTML|Insetto|
-|CELLSJAVA-42152|L'impostazione della formula che fa riferimento alla cartella di lavoro esterna crea una formula 3d|Insetto|
+|CELLSJAVA-42152|L'impostazione della formula che fa riferimento alla cartella di lavoro esterna crea una formula 3D|Insetto|
 |CELLSJAVA-42146|Errore di contenuto illeggibile in Excel 2007 dopo aver salvato nuovamente un foglio di calcolo|Insetto|
 |CELLSJAVA-42121|L'espressione di formato condizionale cambia all'eliminazione delle righe|Insetto|
 |CELLSJAVA-42114|Cell.getFormula() restituisce una formula scomposta per una cella|Insetto|
 |CELLSJAVA-42112|Il file di output viene danneggiato dopo l'esecuzione del metodo DataLabels.setPosition()|Insetto|
 |CELLSJAVA-42108|L'ordine di priorità del formato condizionale cambia nel metodo Cells.deleteRows()|Insetto|
 |CELLSJAVA-42069|Il modulo Vba viene perso durante il salvataggio di un file XLSM su Linux|Insetto|
-|CELLSJAVA-42025|API aggiunge ulteriori apostrofi alla formula modificata|Insetto|
+|CELLSJAVA-42025|L'API aggiunge ulteriori apostrofi alla formula modificata|Insetto|
 |CELLSJAVA-41984|Formula dinamica nel foglio di lavoro del designer utilizzando {-1} {-2} restituisce Errore di formula non valida|Insetto|
 |CELLSJAVA-41739|La trasparenza delle forme viene reimpostata su 0 durante la conversione da XLS a XLSB|Insetto|
 |CELLSJAVA-42122|NullPointerException quando si apre un file Excel di grandi dimensioni|Eccezione|
@@ -49,8 +49,8 @@ url: /it/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42143|Eccezione: java.lang.ArrayIndexOutOfBoundsException sul metodo Workbook.save()|Eccezione|
 |CELLSJAVA-42137|Eccezione dell'indice di colonna non valida durante il rendering di Excel|Eccezione|
 |CELLSJAVA-42111|Eccezione formula non valida per l'ultima cella|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge il setter per la proprietà LoadFilter.LoadDataFilterOptions per sostituire la variabile m_LoadDataFilterOptions.**
 L'utente può modificare la proprietà LoadDataFilterOptions nell'implementazione di LoadFilter per modificare il comportamento del caricamento della cartella di lavoro.
 ### **Aggiunge la proprietà CellsHelper.SignificantDigits.**

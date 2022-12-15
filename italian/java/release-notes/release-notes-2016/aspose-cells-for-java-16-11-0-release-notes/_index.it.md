@@ -24,8 +24,8 @@ url: /it/java/aspose-cells-for-java-16-11-0-release-notes/
 |CELLSJAVA-42021 | Problema con l'estensione del contenuto dell'oggetto tabella/elenco di Excel relativo alle formule| Insetto|
 |CELLSJAVA-42019 | Formula errata restituita da una cella del foglio di lavoro| Insetto|
 |CELLSJAVA-42004 |java.lang.NullPointerException, in Workbook ctor durante il caricamento del file XLSX| Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà Workbook.AbsolutePath**
 Ottiene e imposta il percorso assoluto del file. Utilizzato solo per collegamenti esterni.
 #### **Aggiunge la classe GlobalizationSettings e la proprietà WorkbookSettings.GlobalizationSettings**

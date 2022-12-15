@@ -14,7 +14,7 @@ Aspose, doğrudan ürünlerin geliştiricileri tarafından sağlanan ücretsiz v
 
 #### **Forumlar**
 
-[Aspose Destek Forumları](https://forum.aspose.com/)yalnızca teknik sorunları çözmek için değil, aynı zamanda canlı ve büyüyen Aspose kullanıcı topluluğuyla tartışmalara katılmak için de yerdir. Şu anda Aspose web sitesinde kayıtlı 190.000'den fazla kullanıcı var.
+[Aspose Destek Forumları](https://forum.aspose.com/) yalnızca teknik sorunları çözmek için değil, aynı zamanda canlı ve büyüyen Aspose kullanıcı topluluğuyla tartışmalara katılmak için de yerdir. Şu anda Aspose web sitesinde kayıtlı 190.000'den fazla kullanıcı var.
 
 #### **Bloglar**
 

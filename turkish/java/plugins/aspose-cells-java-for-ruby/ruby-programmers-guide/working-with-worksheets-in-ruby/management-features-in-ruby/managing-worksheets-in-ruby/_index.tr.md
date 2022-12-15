@@ -6,7 +6,7 @@ url: /tr/java/managing-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Çalışma Sayfalarını Yönetme**
 ### **Çalışma Sayfalarını Yeni Bir Excel Dosyasına Ekleme**
-Çalışma Sayfası'nı kullanarak yeni bir Excel dosyasına eklemek için**Yakut için Aspose.Cells Java** , aramanız yeterli**add_worksheet** yöntemi**YönetimÇalışma Sayfaları** modül.
+ Çalışma Sayfası'nı kullanarak yeni bir Excel dosyasına eklemek için**Yakut için Aspose.Cells Java** , aramanız yeterli**add_worksheet** yöntemi**YönetimÇalışma Sayfaları** modül.
 
 **Yakut Kodu**
 

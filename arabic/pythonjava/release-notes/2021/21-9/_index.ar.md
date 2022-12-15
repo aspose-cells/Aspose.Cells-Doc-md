@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لـ Python عبر Java 21.9 ملاحظات الإصدار
+title: Aspose.Cells for Python via Java 21.9 ملاحظات الإصدار
 type: docs
 weight: 5
 url: /ar/python-java/aspose-cells-for-python-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لـ Python عبر Java 21.9](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.9/).
+ تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for Python via Java 21.9](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.9/).
 
 {{% /alert %}}
 

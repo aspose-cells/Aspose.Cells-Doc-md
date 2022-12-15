@@ -10,7 +10,7 @@ Aspose.Cells le permite desplazar la primera fila hacia abajo al insertar la tab
 
 ## **Desplace la primera fila hacia abajo al insertar Cells Filas de la tabla de datos**
 
- El siguiente código de ejemplo ilustra cómo desplazar la primera fila hacia abajo al insertar una tabla en la hoja de cálculo. Usamos un archivo de Excel de plantilla simple en el código para demostrar la función. Puede ejercer la función configurando el valor booleano[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#ShiftFirstRowDown) atribuir a**Verdadero Falso** para entenderlo mejor. Por favor vea el[ejemplo de archivo de Excel](45056043.xlsx), [Salida de archivo falso de Excel](45056044.xlsx) , y[archivo de salida Excel True](45056045.xlsx)para tu referencia.
+ El siguiente código de ejemplo ilustra cómo desplazar la primera fila hacia abajo al insertar una tabla en la hoja de cálculo. Usamos un archivo de Excel de plantilla simple en el código para demostrar la característica. Puede ejercer la función configurando el valor booleano[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#ShiftFirstRowDown) atribuir a**Verdadero Falso** para entenderlo mejor. Por favor vea el[ejemplo de archivo de Excel](45056043.xlsx), [Salida de archivo falso de Excel](45056044.xlsx) , y[archivo de salida Excel True](45056045.xlsx)para tu referencia.
 
 ## **Captura de pantalla**
 

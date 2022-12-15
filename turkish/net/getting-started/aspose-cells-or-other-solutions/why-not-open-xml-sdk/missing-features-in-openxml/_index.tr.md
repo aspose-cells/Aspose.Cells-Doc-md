@@ -32,7 +32,7 @@ Bu bölüm aşağıdaki konuları içerir
 - [Aspose.Cells'de Oluşturma ve Yazdırma](/cells/tr/net/rendering-and-printing-in-aspose-cells/)
   - [Grafikleri resimlere dönüştürün](/cells/tr/net/convert-charts-to-images/)
   - [Elektronik tabloları yazdır](/cells/tr/net/print-spreadsheets/)
-  - [Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirleyin](/cells/tr/net/specify-image-resolution-quality-compression-and-other-options/)
+  - [Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirtin](/cells/tr/net/specify-image-resolution-quality-compression-and-other-options/)
 - [Aspose.Cells'i kullanarak Çalışma Kitabını Metin veya CSV Biçiminde Kaydetme](/cells/tr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Aspose.Cells'de Formüllerde Dış Bağlantıları Ayarlayın](/cells/tr/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Aspose.Cells'de Çalışma Kitabının Formül Hesaplama Modunu Ayarlama](/cells/tr/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)

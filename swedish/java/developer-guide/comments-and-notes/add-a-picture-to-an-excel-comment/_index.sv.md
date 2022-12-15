@@ -12,7 +12,7 @@ Kommentarer läggs till i celler för att spela in kommentarer, allt från detal
 
 {{% /alert %}}
 
-## Lägg till bild i Excel Comment med Microsoft Excel
+## Lägg till bild i Excel Kommentera med Microsoft Excel
 
 Med Microsoft Excel 2007 är det möjligt att ha en bild som bakgrund till en cellkommentar. I Excel 2007 görs detta (förutsatt att kommentaren redan har lagts till) på detta sätt:
 

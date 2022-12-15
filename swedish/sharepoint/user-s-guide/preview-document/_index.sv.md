@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /sv/sharepoint/preview-document/
 ---
-Så här förhandsgranskar du ett Microsoft Excel-dokument i dokumentbiblioteket:
+För att förhandsgranska ett Microsoft Excel-dokument i dokumentbiblioteket:
 
 1.  Välj**Förhandsgranska dokument med Aspose.Cells** från dokumentets redigeringskontrollblock (ECB).
 

@@ -6,9 +6,9 @@ url: /es/net/group-rows-and-create-subtotal/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells. GridWeb puede crear un esquema para sus datos. Esto le permite mostrar y ocultar niveles de detalle haciendo clic en los símbolos de esquema "+" y "-" para mostrar solo las filas que proporcionan resúmenes o encabezados para las secciones de una hoja de cálculo. Puede usar los símbolos para ver detalles bajo un resumen o encabezado individual.
+Aspose.Cells. GridWeb puede crear un esquema para sus datos. Esto le permite mostrar y ocultar niveles de detalle haciendo clic en los símbolos de esquema "+" y "-" para mostrar solo las filas que proporcionan resúmenes o encabezados para las secciones de una hoja de trabajo. Puede usar los símbolos para ver detalles bajo un resumen o encabezado individual.
 
-Al agrupar filas, es importante seleccionar solo las filas de detalles que componen el grupo. No incluya la fila de resumen relacionada. Por ejemplo, si la fila 6 contiene totales para los datos de las filas 3 a 5, seleccione solo las filas 3 a 5 para definir el grupo. El control Aspose.Cells.GridWeb muestra el**mostrar detalle** (+) y**ocultar detalle** (-) símbolos junto a los encabezados de fila que especifican los grupos en la hoja de trabajo.
+Al agrupar filas, es importante seleccionar solo las filas de detalles que componen el grupo. No incluya la fila de resumen relacionada. Por ejemplo, si la fila 6 contiene totales para los datos de las filas 3 a 5, seleccione solo las filas 3 a 5 para definir el grupo. El control Aspose.Cells.GridWeb muestra el**mostrar detalle** (+) y**ocultar detalle** (-) símbolos junto a los encabezados de fila que especifican los grupos en la hoja de cálculo.
 
 Aspose.Cells.GridWeb también le permite crear subtotales basados en cualquier campo de datos. Un subtotal no es necesariamente una suma: puede ser un promedio, un conteo, un mínimo, un máximo u otro cálculo estadístico.
 

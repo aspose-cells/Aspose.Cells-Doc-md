@@ -4,9 +4,9 @@ type: docs
 weight: 50
 url: /sv/reportingservices/digital-signatures/
 ---
- Aspose.Cells för Reporting Services stöder digitala signaturer vid export av Microsoft Excel 2007-filer eller ODS-filer. Vi har en del konfigurationsinformation för digitala signaturer som kan ställas in i**Aspose.Cells.ReportingServices.xml** fil.
+ Aspose.Cells for Reporting Services stöder digitala signaturer vid export av Microsoft Excel 2007-filer eller ODS-filer. Vi har en del konfigurationsinformation för digitala signaturer som kan ställas in i**Aspose.Cells.ReportingServices.xml** fil.
 
- När värdet på DigitalSignature är**av**, Aspose.Cells för Reporting Services stänger av digitala signaturer.
+ När värdet på DigitalSignature är**av**, Aspose.Cells for Reporting Services stänger av digitala signaturer.
 
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ url: /sv/reportingservices/digital-signatures/
 
 {{< /highlight >}}
 
- När värdet på DigitalSignature är**på**, Aspose.Cells för Reporting Services aktiverar digitala signaturer.
+ När värdet på DigitalSignature är**på**, Aspose.Cells for Reporting Services aktiverar digitala signaturer.
 
 {{< highlight "java" >}}
 

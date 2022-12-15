@@ -5,7 +5,7 @@ weight: 70
 url: /fr/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - Vitres fractionnées**
- Pour diviser les volets à l'aide de**Aspose.Cells Java pour Python** , invoquez simplement**SplitPanes** module.
+ Pour diviser les volets à l'aide de**Aspose.Cells Java for Python** , invoquez simplement**SplitPanes** module.
 
 **Code Python**
 

@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /ar/reportingservices/delimiters/
 ---
-Aspose.Cells لخدمات التقارير يدعم محددًا محددًا عند تحويل تنسيق TXT أو CSV. يتحكم إعدادان في محدد الحقل في Aspose.Cells لخدمات التقارير.
+Aspose.Cells for Reporting Services يدعم المحدد المحدد عند تحويل نسق TXT أو CSV. يتحكم إعدادان في محدد المجال في Aspose.Cells for Reporting Services.
 
 1.  معلمة محدد الحقل في**rsreportserver.config** يمكن فقط التحكم في امتداد العرض المحدد.
 

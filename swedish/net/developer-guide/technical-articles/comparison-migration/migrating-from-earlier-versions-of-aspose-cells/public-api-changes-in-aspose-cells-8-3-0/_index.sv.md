@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.3.0
+title: Offentlig API Ändringar i Aspose.Cells 8.3.0
 type: docs
 weight: 100
 url: /sv/net/public-api-changes-in-aspose-cells-8-3-0/
@@ -96,7 +96,7 @@ var book = new Workbook("sample.csv", options);
 {{< /highlight >}}
 
 
-### **Property Shape.Id tillagd**
+### **Egenskap Shape.Id tillagd**
 Egenskapen Id har lagts till i Shape-klassen för att unikt identifiera varje formobjekt i ett givet kalkylblad. Den här nya egenskapen hjälper också till att identifiera diagramobjekt i ett kalkylblad som visas nedan.
 
 **C#**

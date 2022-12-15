@@ -16,7 +16,7 @@ keywords: printing workbooks, printing worksheets, printing workbook sheets, pri
 
 完成电子表格创建后，您可能需要根据需要打印一份工作表的硬拷贝。打印时，MS Excel 假定您要打印整个工作表区域，除非您指定了您的选择。以下屏幕截图显示了使用 Excel 打印工作簿的对话框。
 
-![待办事项：图片_替代_文本](printing-workbooks_1.png)
+![待办事项：图像_替代_文本](printing-workbooks_1.png)
 
 **数字：**打印对话框
 

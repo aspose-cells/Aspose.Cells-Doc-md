@@ -6,7 +6,7 @@ url: /sv/net/setting-margins/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan behöva konfigurera sidinställningar för kalkylblad för att styra utskriftsprocessen. Det här ämnet diskuterar hur du använder Aspose.Cells för att konfigurera sidmarginaler.
+Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan behöva konfigurera sidinställningar för kalkylblad för att styra utskriftsprocessen. Det här ämnet diskuterar hur man använder Aspose.Cells för att konfigurera sidmarginaler.
 
 {{% /alert %}}
 
@@ -14,7 +14,7 @@ Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass.
 
- De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass ger[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) egenskap som används för att ställa in sidinställningar för ett kalkylblad. De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) attribut är ett objekt för[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) klass som gör det möjligt för utvecklare att ställa in olika sidlayoutalternativ för ett utskrivet kalkylblad. De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)klass tillhandahåller olika egenskaper och metoder som används för att ställa in sidinställningar.
+ De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) egenskap som används för att ställa in sidinställningar för ett kalkylblad. De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) attribut är ett objekt för[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) klass som gör det möjligt för utvecklare att ställa in olika sidlayoutalternativ för ett utskrivet kalkylblad. De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)klass tillhandahåller olika egenskaper och metoder som används för att ställa in sidinställningar.
 
 ### **Sidmarginaler**
 

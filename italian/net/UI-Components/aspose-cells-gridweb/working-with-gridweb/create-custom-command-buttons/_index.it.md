@@ -6,7 +6,7 @@ url: /it/net/create-custom-command-buttons/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb contiene pulsanti speciali come**Invia**, **Salva** e**Annullare**. Tutti questi pulsanti eseguono attività specifiche per Aspose.Cells.GridWeb.
+ Aspose.Cells.GridWeb contiene pulsanti speciali come**Invia**, **Salva** e**Annullare**. Tutti questi pulsanti eseguono compiti specifici per Aspose.Cells.GridWeb.
 È anche possibile aggiungere pulsanti personalizzati che eseguono attività personalizzate. Questo argomento spiega come utilizzare questa funzione.
 
 {{% /alert %}} 

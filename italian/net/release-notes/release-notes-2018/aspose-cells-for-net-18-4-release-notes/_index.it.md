@@ -56,8 +56,8 @@ url: /it/net/aspose-cells-for-net-18-4-release-notes/
 |CELLSNET-46008|Stringa non valida nel file: si verifica un'eccezione all'apertura del file XLS|Eccezione|
 |CELLSNET-46004|Eccezione "La stringa di input non era in un formato corretto" all'apertura di un file XLSX|Eccezione|
 |CELLSNET-45992|Aspose.Cells 18.2: l'apertura di un particolare file XLS causa ArgumentOutOfRangeException|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il nuovo elemento "CrossHideRight" per l'enumerazione HtmlCrossType**
 Visualizza la stringa incrociata HTML e nasconde la stringa destra quando il testo è sovrapposto.
 #### **Aggiunge il nuovo elemento "TSV" per le enumerazioni LoadFormat, SaveFormat e FileFormatType**

@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.9.1
+title: Modifiche all'API pubblica in Aspose.Cells 8.9.1
 type: docs
 weight: 310
 url: /it/net/public-api-changes-in-aspose-cells-8-9-1/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.9.0 alla 8.9.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.9.0 alla 8.9.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -207,7 +207,7 @@ Ecco come implementare l'interfaccia IFilePathProvider.
 
 {{% /alert %}} 
 ### **Aggiunta proprietà CopyOptions.ReferToDestinationSheet e sovraccarico per il metodo Cells.CopyRows**
-Aspose.Cells for .NET API ha esposto la proprietà CopyOptions.ReferToDestinationSheet di tipo booleano insieme al metodo un overload di Cells.CopyRows per facilitare l'operazione di copia delle righe quando le righe da copiare contengono anche un grafico e la sua origine dati. Gli sviluppatori possono utilizzare queste nuove API per indirizzare l'origine dati del grafico ai fogli di lavoro di origine o di destinazione.
+Aspose.Cells for .NET L'API ha esposto la proprietà CopyOptions.ReferToDestinationSheet di tipo booleano insieme al metodo un overload di Cells.CopyRows per facilitare l'operazione di copia delle righe quando le righe da copiare contengono anche un grafico e la sua origine dati. Gli sviluppatori possono utilizzare queste nuove API per indirizzare l'origine dati del grafico ai fogli di lavoro di origine o di destinazione.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 

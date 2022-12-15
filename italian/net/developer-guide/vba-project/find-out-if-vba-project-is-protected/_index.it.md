@@ -6,7 +6,7 @@ url: /it/net/find-out-if-vba-project-is-protected/
 ---
 ## **Scopri se il progetto VBA è protetto in C#**
 
- Puoi scoprire se il progetto VBA (Visual Basic Applications) del tuo file Excel è protetto o meno con Aspose.Cells utilizzando[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)proprietà.
+ Puoi scoprire se il progetto VBA (Visual Basic Applications) del tuo file Excel è protetto o meno con Aspose.Cells usando[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)proprietà.
 
 ## **Codice di esempio**
 

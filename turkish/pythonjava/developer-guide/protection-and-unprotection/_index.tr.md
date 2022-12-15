@@ -7,7 +7,7 @@ url: /tr/python-java/protect-and-unprotect/
 description: Bu pasaj, excel dosyalarının nasıl şifreleneceğini ve şifresinin çözüleceğini, excel dosyalarındaki verilerin python kodlarını kullanarak nasıl korunacağını ve korumasının nasıl kaldırılacağını tanıtır.
 ---
 {{% alert color="primary" %}}
-Python için Aspose.Cells, MS Excel gibi dosyadan veri düzeyine kadar çok çeşitli koruma ve koruma kaldırma sunar:
+Aspose.Cells for Python, MS Excel gibi dosyadan veri düzeyine kadar geniş bir yelpazede koruma ve koruma kaldırma sunar:
 {{% /alert %}}
 
 

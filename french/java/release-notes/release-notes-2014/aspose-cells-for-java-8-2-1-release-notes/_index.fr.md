@@ -18,7 +18,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
 \1) Aspose.Cells
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 

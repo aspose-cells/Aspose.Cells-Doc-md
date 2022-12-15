@@ -27,21 +27,21 @@ description: 如何在 Aspose.Cells.GridWeb 客户端脚本中自定义初始化
 
 **needInitAlignmentAdjust=真** 
 
-![待办事项：图片_替代_文本](align_true.png)
+![待办事项：图像_替代_文本](align_true.png)
 
 **needInitAlignmentAdjust=假** 
 
-![待办事项：图片_替代_文本](align_false.png)
+![待办事项：图像_替代_文本](align_false.png)
 
 **focusinside=真** 
 内部编辑方式——输入文本时，旧的单元格值仍然保留
 
-![待办事项：图片_替代_文本](focus_inside_true.png)
+![待办事项：图像_替代_文本](focus_inside_true.png)
 
 **focusinside=假** 
 快速编辑方式——输入文本时，旧的单元格值将被覆盖，如果你想根据旧的单元格值进行编辑，你可以点击单元格
 
-![待办事项：图片_替代_文本](focus_inside_false.png)
+![待办事项：图像_替代_文本](focus_inside_false.png)
 
  
  

@@ -4,15 +4,15 @@ type: docs
 weight: 10
 url: /it/java/introduction-of-gridweb/
 ---
-## **Come eseguire Aspose.Cells per GridWeb Java Demo**
+## **Come eseguire Aspose.Cells per GridWeb Java Demos**
 {{% alert color="primary" %}} 
 
- Aspose.Cells per GridWeb Java le demo sono facili da eseguire. Devi solo schierare**gridwebdemo.war** nel tuo server web. Si prega di scaricare le demo da questo[collegamento](https://forum.aspose.com/uploads/discourse_instance3/22292).
+ Aspose.Cells per GridWeb Le demo Java sono facili da eseguire. Devi solo schierare**gridwebdemo.war** nel tuo server web. Si prega di scaricare le demo da questo[collegamento](https://forum.aspose.com/uploads/discourse_instance3/22292).
 
-Questo articolo descrive come eseguire Aspose.Cells per GridWeb Java demo in Apache Tomcat Server.
+Questo articolo descrive come eseguire Aspose.Cells per GridWeb Java Demos in Apache Tomcat Server.
 
 {{% /alert %}} 
-### **Guida passo passo per eseguire le demo di GridWeb Java**
+### **Guida passo passo per eseguire le demo Java di GridWeb**
 1.  Estratto**apache-tomcat-7.0.52.zip** in qualsiasi directory, ad esempio C:\Tomcat
 
 ![cose da fare:immagine_alt_testo](introduction-of-gridweb_1.png)
@@ -29,7 +29,7 @@ Questo articolo descrive come eseguire Aspose.Cells per GridWeb Java demo in Apa
 
 ![cose da fare:immagine_alt_testo](introduction-of-gridweb_3.png)
 
-1. Apri il**tomcat-users.xml** file.
+1.  Apri il**tomcat-users.xml** file.
 
 ![cose da fare:immagine_alt_testo](introduction-of-gridweb_4.png)
 
@@ -115,7 +115,7 @@ Questo articolo descrive come eseguire Aspose.Cells per GridWeb Java demo in Apa
 ## **Aspose.Cells.GridWeb - Demo**
 {{% alert color="primary" %}} 
 
-Per metterti in funzione rapidamente, forniamo una serie di esempi di codice e demo che mostrano come utilizzare Aspose.Cells.GridWeb API.
+Per consentirti di essere subito operativo, forniamo una serie di esempi di codice e demo che mostrano come utilizzare l'API Aspose.Cells.GridWeb.
 
 Si prega di scaricare le demo dal link sottostante:
 [Aspose.Cells.GridWeb Demo](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
@@ -126,7 +126,7 @@ Aspose.Cells.GridWeb è un controllo Web basato su GUI che può essere incorpora
 ### **Confronto**
 Aspose.Cells.GridWeb è completamente supportato su Internet Explorer (IE) di Microsoft. Tuttavia, su altri browser, presenta limitazioni minori. Questo argomento fornisce un confronto dettagliato delle funzionalità supportate da diversi browser.
 
-|**Funzionalità lato client**|**Microsoft Internet Explorer**|**Google Cromo**|**Mozilla Firefox**|**musica lirica**|
+|**Funzionalità lato client**|**Microsoft Internet Explorer**|**Google Chrome**|**Mozilla Firefox**|**musica lirica**|
 |:- |:- |:- |:- |:- |
 |Menu contestuale di Cell|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Convalida lato client|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

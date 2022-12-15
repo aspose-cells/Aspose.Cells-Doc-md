@@ -6,11 +6,11 @@ url: /es/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells para Reporting Services admite el cifrado y puede generar archivos Microsoft de Excel cifrados.
+ Aspose.Cells for Reporting Services admite el cifrado y puede procesar archivos Microsoft de Excel cifrados.
 
 {{% /alert %}} 
 ### **Tipos de cifrado**
-Aspose.Cells para Reporting Services admite el cifrado al exportar archivos de Excel. Admite tres tipos de cifrado:
+Aspose.Cells for Reporting Services admite el cifrado al exportar archivos de Excel. Admite tres tipos de cifrado:
 
 - XOR
 - CIFRADO DÉBIL

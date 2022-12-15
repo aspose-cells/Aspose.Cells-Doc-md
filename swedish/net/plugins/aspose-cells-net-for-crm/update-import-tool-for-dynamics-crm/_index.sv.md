@@ -17,7 +17,7 @@ url: /sv/net/update-import-tool-for-dynamics-crm/
 - [Stöd](#UpdateImportToolforDynamicsCRM-Support)
 - [Utöka och bidra](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
 ## **Introduktion**
-Aspose Update Import Tool är ett tillägg med öppen källkod som ska användas i Microsoft Dynamic CRM. Detta tillägg kan automatiskt uppdatera och/eller exportera data från CRM till Aspose.Cells Spreadsheets. Vi behöver inte göra något manuellt och installera detta tillägg och göra vårt arbete enklare och snabbare.
+Aspose Update Import Tool är ett tillägg med öppen källkod som ska användas i Microsoft Dynamic CRM. Detta tillägg kan automatiskt uppdatera och/eller exportera data från CRM till Aspose.Cells Kalkylblad. Vi behöver inte göra något manuellt och installera detta tillägg och göra vårt arbete enklare och snabbare.
 
 Detta tillägg ger funktionalitet för att automatiskt uppdatera och/eller exportera från CRM. Ett klick importerar/exporterar posten till/från CRM.
 
@@ -45,7 +45,7 @@ Detta tillägg kommer att fungera med alla versioner av Microsoft Dynamics CRM:
 - Microsoft Dynamics CRM 2015.
 - Microsoft Dynamics CRM Online.
 ## **Laddar ner**
-Du kan ladda ner Aspose .NET Document Generator for CRM från en av följande platser:
+Du kan ladda ner Aspose .NET Document Generator för CRM från en av följande platser:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
 ## **Installera eller avinstallera**

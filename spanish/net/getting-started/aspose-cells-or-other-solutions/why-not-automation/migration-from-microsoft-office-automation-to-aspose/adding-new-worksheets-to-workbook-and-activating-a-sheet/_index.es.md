@@ -6,7 +6,7 @@ url: /es/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
 {{% alert color="primary" %}} 
 
-Cuando se trabaja con un archivo de plantilla, a veces es necesario agregar hojas de trabajo adicionales al libro de trabajo para recopilar datos. Las nuevas celdas se llenarán con datos en posiciones y ubicaciones específicas en cada hoja de cálculo.
+Cuando se trabaja con un archivo de plantilla, a veces es necesario agregar hojas de trabajo adicionales al libro de trabajo para recopilar datos. Las nuevas celdas se llenarán con datos en posiciones y ubicaciones específicas en cada hoja de trabajo.
 
 Del mismo modo, es posible que necesite que una hoja de trabajo específica esté activa y se vea primero cuando se abre el archivo en Microsoft Excel. Una "hoja activa" es la hoja en la que está trabajando en un libro de trabajo. El nombre en la pestaña de la hoja activa está en negrita por defecto.
 

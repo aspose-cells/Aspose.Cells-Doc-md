@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.4.1
+title: Offentlig API Ändringar i Aspose.Cells 8.4.1
 type: docs
 weight: 150
 url: /sv/java/public-api-changes-in-aspose-cells-8-4-1/
@@ -11,7 +11,7 @@ url: /sv/java/public-api-changes-in-aspose-cells-8-4-1/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Mekanism för att ändra databasanslutningen**
-Klassen com.aspose.cells.ExternalConnection innehöll redan metoden och egenskaperna som kunde användas för att inspektera databasanslutningsdetaljer lagrade i ett kalkylblad. De flesta egenskaper som är associerade med klassen ExternalConnection var skrivskyddade fram till utgivningen av Aspose.Cells för Java 8.4.1. Med den här utgåvan har API:et gett stöd för att manipulera databasanslutningsinställningarna också.
+Klassen com.aspose.cells.ExternalConnection innehöll redan metoden och egenskaperna som kunde användas för att inspektera databasanslutningsdetaljer lagrade i ett kalkylblad. De flesta egenskaper som är associerade med klassen ExternalConnection var läsbara tills Aspose.Cells for Java släpptes 8.4.1. Med den här utgåvan har API gett stöd för att manipulera databasanslutningsinställningarna också.
 
 Följande kodavsnitt visar hur du dynamiskt ändrar databasanslutningsinställningar.
 
@@ -68,7 +68,7 @@ Här är några av de viktigaste egenskaperna som exponeras av klassen {External
 | Typ| Anger datakällans typ.|
 
 ### **Möjlighet att formatera understräng av DataLabels text**
-Aspose.Cells för Java 8.4.1 har exponerat metoden DataLabels.characters för att hämta en instans av FontSetting-klassen som motsvarar understrängen i en ChartPoints.DataLabels. I sin tur kan instansen av FontSetting-klassen användas för att formatera understrängen för DataLabels med olika teckensnittsinställningar och färg.
+Aspose.Cells for Java 8.4.1 har exponerat metoden DataLabels.characters för att hämta en instans av FontSetting-klassen som motsvarar understrängen i en ChartPoints.DataLabels. I sin tur kan instansen av FontSetting-klassen användas för att formatera understrängen för DataLabels med olika teckensnittsinställningar och färg.
 
 Följande kodavsnitt visar hur du använder metoden DataLabels.characters.
 
@@ -111,7 +111,7 @@ workbook.save(output);
 {{< /highlight >}}
 
 ### **Möjlighet att ställa in önskade bildmått för kalkylblad och diagramexport**
-Aspose.Cells för Java 8.4.1 har exponerat metoden ImageOrPrintOptions.setDesiredSize för att ställa in dimensionerna för den resulterande bilden samtidigt som kalkylblad och diagram exporteras till bilder. Metoden ImageOrPrintOptions.setDesiredSize accepterar två parametrar av heltalstyp, där den första är den önskade bredden och den andra är den önskade höjden.
+Aspose.Cells for Java 8.4.1 har exponerat metoden ImageOrPrintOptions.setDesiredSize för att ställa in dimensionerna för den resulterande bilden samtidigt som kalkylblad och diagram exporteras till bilder. Metoden ImageOrPrintOptions.setDesiredSize accepterar två parametrar av heltalstyp, där den första är den önskade bredden och den andra är den önskade höjden.
 
 Följande kodavsnitt visar hur du ställer in önskade dimensioner när du exporterar kalkylblad till PNG.
 
@@ -152,7 +152,7 @@ renderer.toImage(0, "output.png");
 {{% /alert %}} 
 
 ### **Återge kommentarer till PDF**
- Med utgåvan av v8.4.1 har API:et Aspose.Cells tillhandahållit egenskapen PageSetup.PrintComments & PrintCommentsType för att underlätta renderingen av kommentarer samtidigt som kalkylblad konverteras till PDF-format. PrintCommentsType-uppräkningen har följande konstanter.
+ Med lanseringen av v8.4.1 har Aspose.Cells API tillhandahållit egenskapen PageSetup.PrintComments & PrintCommentsType för att underlätta renderingen av kommentarer samtidigt som kalkylblad konverteras till PDF-format. PrintCommentsType-uppräkningen har följande konstanter.
 
 - PrintCommentsType.PRINT_NEJ_KOMMENTARER: Kommentarer får inte återges.
 - PrintCommentsType.PRINT_I_PLATS: Kommentarer ska återges där de placeras.
@@ -199,7 +199,7 @@ workbook.save("printsheetend.pdf");
 {{< /highlight >}}
 
 ### **Lade till Workbook.isLicensed Property**
-Aspose.Cells för Java 8.4.1 har avslöjat Workbook.isLicensed som kan vara till stor hjälp för att avgöra om licensen har laddats eller inte. Om du kommer åt den här egenskapen innan du ställer in licensen kommer den att returnera falskt och vice versa, dock bör licensen vara giltig.
+Aspose.Cells for Java 8.4.1 har avslöjat Workbook.isLicensed som kan vara till stor hjälp för att avgöra om licensen har laddats eller inte. Om du kommer åt den här egenskapen innan du ställer in licensen kommer den att returnera falskt och vice versa, dock bör licensen vara giltig.
 
 Följande exempelkod visar användningen av egendomen Workbook.isLicensed.
 
@@ -236,7 +236,7 @@ else
 {{< /highlight >}}
 
 ### **Lagt till egenskapen ImageOrPrintOptions.SVGFitToViewPort**
-Aspose.Cells för Java 8.4.1 har exponerat egenskapen SVGFitToViewPort för klassen ImageOrPrintOptions som kan användas för att aktivera viewBox-attributet för SVG-filformatet medan kalkylblad eller diagram exporteras till SVG-format. Standardvärdet för den här egenskapen är falskt, därför kommer bas-XML för SVG-filen som genereras utan att ställa in ovannämnda egenskap inte att inkludera viewBox-attributet.
+Aspose.Cells for Java 8.4.1 har exponerat egenskapen SVGFitToViewPort för klassen ImageOrPrintOptions som kan användas för att aktivera viewBox-attributet för SVG-filformatet medan kalkylblad eller diagram exporteras till SVG-format. Standardvärdet för den här egenskapen är falskt, därför kommer bas-XML för SVG-filen som genereras utan att ställa in ovannämnda egenskap inte att inkludera viewBox-attributet.
 
 Följande exempelkod visar användningen av egenskapen ImageOrPrintOptions.SVGFitToViewPort.
 

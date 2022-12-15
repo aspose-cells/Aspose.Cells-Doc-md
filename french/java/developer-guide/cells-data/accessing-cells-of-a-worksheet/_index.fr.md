@@ -1,5 +1,5 @@
 ﻿---
-title: Accéder au Cells d'une feuille de travail
+title: Accéder au Cells d'une feuille de calcul
 type: docs
 weight: 10
 url: /fr/java/accessing-cells-of-a-worksheet/
@@ -19,7 +19,7 @@ Nous savons que toutes les feuilles de calcul peuvent contenir des données qui 
 ### **Utilisation du nom Cell**
  Les développeurs peuvent accéder à n'importe quelle cellule spécifique en transmettant son nom de cellule au[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collecte de la[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classer.
 
- Si vous créez une feuille de calcul vierge au début, le nombre de[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) la collecte est nulle. Lorsque vous utilisez cette approche pour accéder à une cellule, il vérifie si cette cellule existe dans la collection ou non. Si oui, il renvoie l'objet cellule dans la collection sinon, il crée un nouveau[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objet, ajoute l'objet au[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection, puis retourne l'objet. Cette approche est le moyen le plus simple d'accéder à la cellule si vous connaissez Excel Microsoft, mais elle est plus lente que les autres approches.
+ Si vous créez une feuille de calcul vierge au début, le nombre de[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)la collecte est nulle. Lorsque vous utilisez cette approche pour accéder à une cellule, il vérifie si cette cellule existe dans la collection ou non. Si oui, il renvoie l'objet cellule dans la collection sinon, il crée un nouveau[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objet, ajoute l'objet au[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection, puis retourne l'objet. Cette approche est le moyen le plus simple d'accéder à la cellule si vous connaissez Excel Microsoft, mais elle est plus lente que les autres approches.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
 

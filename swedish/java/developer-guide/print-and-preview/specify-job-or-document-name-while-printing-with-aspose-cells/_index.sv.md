@@ -12,7 +12,7 @@ url: /sv/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 
 ## **Ange jobb- eller dokumentnamn vid utskrift med Aspose.Cells**
 
- Exempelkoden laddar källfilen i Excel och skickar den sedan till skrivaren genom att ange jobbet eller dokumentnamnet med[**WorkbookRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) och[**SheetRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)metoder. Skärmdumpen visar hur jobbnamnet ser ut i skrivarkön.
+ Exempelkoden laddar källfilen i Excel och skickar den sedan till skrivaren genom att ange jobbet eller dokumentnamnet med[**WorkbookRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) och[**SheetRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) metoder. Skärmdumpen visar hur jobbnamnet ser ut i skrivarkön.
 
 ![todo:image_alt_text](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 

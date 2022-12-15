@@ -12,7 +12,7 @@ url: /fr/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 |CELLSCPP-38|Créer et manipuler des plages nommées|Nouvelle fonctionnalité|
 |CELLSCPP-39|Format de fichier délimité par des tabulations en lecture/écriture|Nouvelle fonctionnalité|
 ### **Public API et modifications incompatibles avec les versions antérieures**
-Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
+Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 #### **Supprime la méthode IPageSetup::GetDraft()/SetDraft()**
 Utilisez plutôt la méthode IPageSetup::GetPrintDraft()/SetPrintDraft().
 #### **Supprime la méthode ICell :: GetConditionalIStyle()**

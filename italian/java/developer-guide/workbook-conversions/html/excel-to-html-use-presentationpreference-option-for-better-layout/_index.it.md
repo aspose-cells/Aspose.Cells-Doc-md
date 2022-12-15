@@ -6,7 +6,7 @@ url: /it/java/excel-to-html-use-presentationpreference-option-for-better-layout/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells fornisce una proprietà utile,[**HtmlSaveOptions.PresentationPreference**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#PresentationPreference) che gli sviluppatori possono utilizzare per ottenere un layout migliore durante il salvataggio di un file Excel Microsoft in formato HTML o MHT. Il valore predefinito della proprietà è**falso** . Si consiglia di impostare questa proprietà su**VERO** per ottenere presentazioni dall'aspetto migliore da un report di Excel.
+ Aspose.Cells fornisce una proprietà utile,[**HtmlSaveOptions.PresentationPreference**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#PresentationPreference) che gli sviluppatori possono utilizzare per ottenere un layout migliore durante il salvataggio di un file Microsoft Excel in formato HTML o MHT. Il valore predefinito della proprietà è**falso** . Si consiglia di impostare questa proprietà su**VERO** per ottenere presentazioni dall'aspetto migliore da un report di Excel.
 
 {{% /alert %}}
 

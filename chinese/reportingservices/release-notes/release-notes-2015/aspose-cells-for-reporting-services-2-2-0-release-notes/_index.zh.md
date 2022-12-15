@@ -1,16 +1,16 @@
 ﻿---
-title: Reporting Services 2.2.0 发行说明的 Aspose.Cells
+title: Aspose.Cells for Reporting Services 2.2.0 发行说明
 type: docs
 weight: 10
 url: /zh/reportingservices/aspose-cells-for-reporting-services-2-2-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含发行说明[Aspose.Cells 报告服务 2.2.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-2.2.0/)
+此页面包含发行说明[Aspose.Cells for Reporting Services 2.2.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-2.2.0/)
 
 {{% /alert %}} 
 
-欢迎使用 Reporting Services V2.2.0 的新版本 Aspose.Cells。
+请欢迎新版本 Aspose.Cells for Reporting Services V2.2.0。
 
 主要特点
 

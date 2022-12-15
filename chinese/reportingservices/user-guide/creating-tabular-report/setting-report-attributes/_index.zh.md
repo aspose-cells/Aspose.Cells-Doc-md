@@ -14,7 +14,7 @@ url: /zh/reportingservices/setting-report-attributes/
 
 1. 点击**设置属性**在 Aspose.Cells.Report.Designer 工具栏上（
 
-![待办事项：图片_替代_文本](setting-report-attributes_1.png)
+![待办事项：图像_替代_文本](setting-report-attributes_1.png)
 
 ).
 
@@ -22,7 +22,7 @@ url: /zh/reportingservices/setting-report-attributes/
 
    **设置报告名称** 
 
-![待办事项：图片_替代_文本](setting-report-attributes_2.png)
+![待办事项：图像_替代_文本](setting-report-attributes_2.png)
 
 
 
@@ -34,7 +34,7 @@ url: /zh/reportingservices/setting-report-attributes/
 
    **定义报告范围** 
 
-![待办事项：图片_替代_文本](setting-report-attributes_3.png)
+![待办事项：图像_替代_文本](setting-report-attributes_3.png)
 
 
 
@@ -45,7 +45,7 @@ url: /zh/reportingservices/setting-report-attributes/
 
    **选择用于分组数据的字段** 
 
-![待办事项：图片_替代_文本](setting-report-attributes_4.png)
+![待办事项：图像_替代_文本](setting-report-attributes_4.png)
 
 
 
@@ -55,7 +55,7 @@ url: /zh/reportingservices/setting-report-attributes/
 
    **选择字段以对数据进行排序** 
 
-![待办事项：图片_替代_文本](setting-report-attributes_5.png)
+![待办事项：图像_替代_文本](setting-report-attributes_5.png)
 
 
 
@@ -65,6 +65,6 @@ url: /zh/reportingservices/setting-report-attributes/
 显示报告摘要。
    **报告摘要** 
 
-![待办事项：图片_替代_文本](setting-report-attributes_6.png)
+![待办事项：图像_替代_文本](setting-report-attributes_6.png)
 
 1. 点击**结束**.

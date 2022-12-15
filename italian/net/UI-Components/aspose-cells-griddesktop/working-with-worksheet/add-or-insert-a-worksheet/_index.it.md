@@ -37,6 +37,6 @@ Per inserire un foglio di lavoro utilizzando Aspose.Cells.GridDesktop, procedi n
 
 {{% alert color="primary" %}} 
 
-IMPORTANTE: Microsoft Excel (97-2003 XLS) supporta fogli Excel con un massimo di 65.536 righe e 256 colonne. Aspose.Cells.GridDesktop segue gli stessi standard. Nel controllo Aspose.Cells.GridDesktop, gli sviluppatori possono aggiungere o inserire fogli di lavoro con più righe e colonne rispetto al limite standard, ma quando tentano di salvare i dati Grid in un file Excel, verrà generata un'eccezione. Significa che solo i dati contenuti nelle 65.536 righe e 256 colonne possono essere salvati in un file XLS di Excel utilizzando Aspose.Cells.GridDesktop, se si utilizza il formato di file XLSX (MS Excel 2007/2010), tuttavia non esiste tale limitazione.
+IMPORTANTE: Microsoft Excel (97-2003 XLS) supporta fogli Excel con un massimo di 65.536 righe e 256 colonne. Aspose.Cells.GridDesktop segue gli stessi standard. Nel controllo Aspose.Cells.GridDesktop, gli sviluppatori possono aggiungere o inserire fogli di lavoro con più righe e colonne rispetto al limite standard, ma quando tentano di salvare i dati Grid in un file Excel, verrà generata un'eccezione. Significa che solo i dati contenuti nelle 65.536 righe e 256 colonne possono essere salvati in un file Excel XLS utilizzando Aspose.Cells.GridDesktop, se si utilizza il formato di file XLSX (MS Excel 2007/2010), tuttavia non esiste tale limitazione.
 
 {{% /alert %}}

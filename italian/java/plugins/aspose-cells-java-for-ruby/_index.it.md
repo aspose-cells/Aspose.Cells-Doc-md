@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells Java Per Rubino
+title: Aspose.Cells Java Per Ruby
 type: docs
 weight: 40
 url: /it/java/aspose-cells-java-for-ruby/
 ---
 ## **introduzione**
 
-### **Rjb - Ponte Rubino Java**
-RJB è un programma bridge che collega Ruby e Java con Java Native Interface. Rake + Rjb è lo strumento di costruzione più potente e utile sia di Maven che di Ant. Puoi testare la tua stessa classe di logica aziendale Java con il mock di Rjb. Aiuta a migrare l'oggetto modello di Struts nella tua applicazione RoR. Ma attenzione all'applicazione buildSwing, Ruby (e Rjb) non considera la gestione dei thread nativi di JVM ...
+### **Rjb - Rubino Java Bridge**
+RJB è un programma bridge che collega Ruby e Java con Java Native Interface. Rake + Rjb è lo strumento di costruzione più potente e utile di Maven e Ant. Puoi testare la tua stessa classe di logica aziendale Java con il mock di Rjb. Aiuta a migrare l'oggetto modello di Struts nella tua applicazione RoR. Ma attenzione all'applicazione buildSwing, Ruby (e Rjb) non considera la gestione dei thread nativi di JVM ...
 
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java è un pluripremiato componente Excel Spreadsheet che consente agli sviluppatori Java di incorporare la capacità di leggere, scrivere e manipolare fogli di calcolo Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF e formati di file immagine nelle proprie applicazioni Java senza dover fare affidamento su Microsoft Excel®.
+Aspose.Cells for Java è un pluripremiato componente Excel Spreadsheet che consente agli sviluppatori Java di integrare la capacità di leggere, scrivere e manipolare fogli di calcolo Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF e formati di file immagine nelle proprie applicazioni Java senza dover fare affidamento su Microsoft Excel®.
 
-Aspose.Cells for Java è un componente maturo, scalabile e ricco di funzionalità che offre molte funzioni che vanno ben oltre le semplici capacità di esportazione dei dati di altri fornitori. Con Aspose.Cells for Java gli sviluppatori possono esportare dati, formattare fogli di calcolo al livello più granulare, importare immagini, creare grafici, applicare e calcolare formule complesse, eseguire lo streaming di dati Excel®, salvare in vari formati e molto altro - tutto questo senza bisogno di Microsoft Excel® o Microsoft Domotica.
-### **Aspose.Cells Java per Rubino**
-Il progetto Aspose.Cells Java per Ruby mostra come diverse attività possono essere eseguite utilizzando le API Aspose.Cells Java in Ruby. Questo progetto ha lo scopo di fornire esempi utili per gli sviluppatori Ruby che vogliono utilizzare Aspose.Cells for Java nei loro progetti Ruby usando Rjb (Ruby Java Bridge).
+Aspose.Cells for Java è un componente maturo, scalabile e ricco di funzionalità che offre molte funzioni che vanno ben oltre le semplici capacità di esportazione dei dati di altri fornitori. Con Aspose.Cells for Java gli sviluppatori possono esportare dati, formattare fogli di calcolo al livello più granulare, importare immagini, creare grafici, applicare e calcolare formule complesse, eseguire lo streaming di dati Excel®, salvare in vari formati e molto altro - tutto questo senza la necessità di Microsoft Excel® o Microsoft Office Automation.
+### **Aspose.Cells Java per Ruby**
+Il progetto Aspose.Cells Java per Ruby mostra come è possibile eseguire diverse attività utilizzando le API Java Aspose.Cells in Ruby. Questo progetto ha lo scopo di fornire esempi utili per gli sviluppatori Ruby che vogliono utilizzare Aspose.Cells for Java nei loro progetti Ruby usando Rjb (Ruby Java Bridge).
 ## **Requisiti di sistema e piattaforme supportate**
 ### **Requisiti di sistema**
 **Di seguito sono riportati i requisiti di sistema per utilizzare Aspose.Cells Java per Ruby:**
@@ -28,7 +28,7 @@ Il progetto Aspose.Cells Java per Ruby mostra come diverse attività possono ess
 - Java 1.5 o superiore
 ## **Download**
 ### **Scarica le librerie richieste**
-Scarica le librerie richieste menzionate di seguito. Questi sono i requisiti per l'esecuzione di Aspose.Cells Java per gli esempi di Ruby.
+Scarica le librerie richieste menzionate di seguito. Questi sono i requisiti per eseguire Aspose.Cells Java per esempi Ruby.
 
 - [Aspose.Cell for Java Componente](https://downloads.aspose.com/cells/java/)
 ### **Scarica esempi dai siti di codifica sociale**
@@ -36,7 +36,7 @@ Le seguenti versioni di esempi in esecuzione sono disponibili per il download su
 
 **Git Hub**
 
-- [Aspose.Cells Java per Rubino](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
+- [Aspose.Cells Java per Ruby](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
 ## **Installazione e utilizzo**
 ### **Installazione**
 È molto semplice e facile da installare Aspose.cells Java per Ruby gem, segui questi semplici passaggi:

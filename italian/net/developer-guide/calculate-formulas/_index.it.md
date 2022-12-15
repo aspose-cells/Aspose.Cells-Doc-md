@@ -8,7 +8,7 @@ url: /it/net/calculate-formulas/
 
 Aspose.Cells ha un motore di calcolo delle formule integrato. Non solo può ricalcolare le formule importate dai modelli di designer, ma supporta anche il calcolo dei risultati delle formule aggiunte in fase di esecuzione.
 
- Aspose.Cells supporta la maggior parte delle formule o delle funzioni che fanno parte di Microsoft Excel(Leggi[un elenco delle funzioni supportate dal motore di calcolo](/cells/it/net/supported-formula-functions/)). Tali funzioni possono essere utilizzate tramite le API o i fogli di calcolo dei designer. Aspose.Cells supporta un enorme set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
+ Aspose.Cells supporta la maggior parte delle formule o delle funzioni che fanno parte di Microsoft Excel (Read[un elenco delle funzioni supportate dal motore di calcolo](/cells/it/net/supported-formula-functions/)). Tali funzioni possono essere utilizzate tramite le API o i fogli di calcolo dei progettisti. Aspose.Cells supporta un enorme set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
 
  Utilizzare il[**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) proprietà o[**ImpostaFormula(...)**](https://reference.aspose.com/cells/net/aspose.cells.cell/setformula/methods/2) metodi del[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)class per aggiungere una formula a una cella. Quando si applica una formula, iniziare sempre la stringa con un segno di uguale (=) come si fa quando si crea una formula in Microsoft Excel e utilizzare una virgola (,) per delimitare i parametri della funzione.
 
@@ -28,7 +28,7 @@ Aspose.Cells ha un motore di calcolo delle formule integrato. Non solo può rica
 
 Aspose.Cells ha un motore di calcolo delle formule integrato. Oltre a calcolare le formule importate da un file di progettazione, Aspose.Cells può calcolare direttamente i risultati delle formule.
 
-volte, è necessario calcolare direttamente i risultati delle formule senza aggiungerli a un foglio di lavoro. I valori delle celle utilizzate nella formula esistono già in un foglio di lavoro e tutto ciò che serve è trovare il risultato di quei valori in base a una formula di Excel Microsoft senza aggiungere la formula in un foglio di lavoro.
+A volte, è necessario calcolare direttamente i risultati delle formule senza aggiungerli a un foglio di lavoro. I valori delle celle utilizzate nella formula esistono già in un foglio di lavoro e tutto ciò che serve è trovare il risultato di quei valori in base a una formula di Microsoft Excel senza aggiungere la formula in un foglio di lavoro.
 
  È possibile utilizzare le API del motore di calcolo della formula Aspose.Cells per[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) a[**calcolare**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3) i risultati di tali formule senza aggiungerli al foglio di lavoro:
 
@@ -57,7 +57,7 @@ Di default la catena di calcolo è disabilitata. Poiché la creazione della cate
 
 
 ## **Argomenti avanzati**
-- [Aggiungi Cells a Microsoft Finestra di controllo della formula di Excel](/cells/it/net/add-cells-to-microsoft-excel-formula-watch-window/)
+- [Aggiungi Cells alla finestra di controllo della formula di Microsoft Excel](/cells/it/net/add-cells-to-microsoft-excel-formula-watch-window/)
 - [Calcolo della funzione IFNA utilizzando Aspose.Cells](/cells/it/net/calculating-ifna-function-using-aspose-cells/)
 - [Calcolo della formula di matrice delle tabelle di dati](/cells/it/net/calculation-of-array-formula-of-data-tables/)
 - [Calcolo delle funzioni MINIFS e MAXIFS di Excel 2016](/cells/it/net/calculation-of-excel-2016-minifs-and-maxifs-functions/)

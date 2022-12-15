@@ -25,6 +25,6 @@ För att ta reda på vilken version av Aspose.Cells du använder manuellt:
 
 ## **Kontrollera versionsnummer med Aspose.Cells API**
 
- För att ta reda på vilken version av Aspose.Cells du använder via API:t, använd[CellsHelper](https://reference.aspose.com/cells/python-java/asposecells.api/cellshelper) klass GetVersion statisk metod för att få Aspose.Cells versionsnummer.
+ För att ta reda på vilken version av Aspose.Cells du använder via API, använd[CellsHelper](https://reference.aspose.com/cells/python-java/asposecells.api/cellshelper) klass GetVersion statisk metod för att få Aspose.Cells versionsnummer.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CheckVersionNumber.py" >}}

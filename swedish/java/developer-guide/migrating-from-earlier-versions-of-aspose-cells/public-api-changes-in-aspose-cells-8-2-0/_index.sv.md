@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.2.0
+title: Offentlig API Ändringar i Aspose.Cells 8.2.0
 type: docs
 weight: 80
 url: /sv/java/public-api-changes-in-aspose-cells-8-2-0/
@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.2
 
 {{% /alert %}} 
 ## **Lade till MultiThreadReading-egenskap för Cells Class**
-Med Aspose.Cells för Java 8.2.0 har egenskapen MultiThreadReading lagts till i klassen Cells för att ge en mer robust mekanism för att läsa cellvärden med flera trådar samtidigt. Om du ställer in egenskapen Boolean type till true i det flertrådade programmet säkerställer du att varje tråd får rätt cellvärde.
+Med Aspose.Cells for Java 8.2.0 har egenskapen MultiThreadReading lagts till i klassen Cells för att ge en mer robust mekanism för att läsa cellvärden med flera trådar samtidigt. Om du ställer in egenskapen Boolean type till true i det flertrådade programmet säkerställer du att varje tråd får rätt cellvärde.
 
 {{% alert color="primary" %}} 
 

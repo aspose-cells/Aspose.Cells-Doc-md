@@ -28,7 +28,7 @@ Aspose .NET DNN 数据导出器到 Excel 模块允许用户直接从本地或远
 - 导出前选择所需输出格式的选项。
 - 导出的文档会自动发送到浏览器进行下载。
 
-![待办事项：图片_替代_文本](picture1.png)
+![待办事项：图像_替代_文本](picture1.png)
 
 ## **系统要求和支持的平台**
 
@@ -75,11 +75,11 @@ Aspose.Cells .NET 目前支持的DNN模块
 1. 选择**模块**其次是**添加新模块**从顶部功能区。
 1. 从列表中选择“Aspose.NET DNN Data Exporter to Excel Using Aspose.Cells”并将其拖动到位。
 
-![待办事项：图片_替代_文本](picture2.png)
+![待办事项：图像_替代_文本](picture2.png)
 
 您已成功将 Aspose .NET Database Data Exporter to Excel for DNN 模块添加到您的页面。
 
-![待办事项：图片_替代_文本](picture3.png)
+![待办事项：图像_替代_文本](picture3.png)
 
 1. 输入或使用预填充的 MS SQL Server 连接字符串
 1. 选择数据源类型（表、视图、自定义查询）

@@ -80,7 +80,7 @@ Die Seite Grundeinstellungen wird angezeigt.
          1. **Seitenname** Form Builder & Exporter für Sitefinity.
  1. Alle anderen Felder können Sie unverändert lassen.
  1. Wenn Sie fertig sind, klicken Sie auf**Änderungen speichern**.
- 1. Das Widget wird in der Toolbox registriert und kann in Sitefinity verwendet werden. (**Sehen** **unter Bild**)
+ 1. Das Widget wird in der Toolbox registriert und kann in Sitefinity verwendet werden. (**Sehen** **unten Bild**)
 
 |<p>![todo: Bild_alt_Text](picture1.png)</p><p></p>|
 |:- |
@@ -93,7 +93,7 @@ Nachdem Sie das Add-On Aspose.Cells Dynamic Forms Builder für Sitefinity-Benutz
 
 1. Stellen Sie sicher, dass Sie mit einem Konto auf Administratorebene bei Sitefinity angemeldet sind.
 1. Navigieren Sie zu der Seite, auf der Sie das Plugin hinzufügen möchten. Stellen Sie sicher, dass die Seite im Bearbeitungsmodus geöffnet ist.
-1.  Von dem**Ziehen Sie Widgets** Menü auf der rechten Seite, wählen Sie Aspose Formular bearbeiten/anzeigen/exportieren und ziehen Sie es an die gewünschte Position. (**Sehen** **unter Bild** )
+1.  Von dem**Ziehen Sie Widgets** Menü auf der rechten Seite, wählen Sie Aspose Formular bearbeiten/anzeigen/exportieren und ziehen Sie es an die gewünschte Position. (**Sehen** **unten Bild** )
 
 |<p>![todo: Bild_alt_Text](aspose-cells-forms-for-sitefinity_2)</p><p></p>|
 |:- |
@@ -102,7 +102,7 @@ Sie haben das Modul Aspose.Cells Dynamic Form Builder for Sitefinity erfolgreich
 
 #### **Wie beantrage ich die Aspose-Lizenz?**
 
-Dieses Plugin verwendet eine Evaluierungsversion von Aspose.Cells. Sobald Sie mit Ihrer Evaluierung zufrieden sind, können Sie eine Lizenz unter erwerben[Aspose Kauf-Website](https://purchase.aspose.com/buy).
+ Dieses Plugin verwendet eine Evaluierungsversion von Aspose.Cells. Sobald Sie mit Ihrer Evaluierung zufrieden sind, können Sie eine Lizenz unter erwerben[Aspose Kauf-Website](https://purchase.aspose.com/buy).
 Um Evaluierungsmeldungen und Funktionseinschränkungen zu entfernen, sollte eine Produktlizenz angewendet werden. Sie erhalten eine Lizenzdatei, nachdem Sie das Produkt gekauft haben. Bitte befolgen Sie die nachstehenden Schritte, um die Lizenz anzuwenden
 
 -  Stellen Sie sicher, dass die Lizenzdatei benannt ist als**Aspose.Total.lic**

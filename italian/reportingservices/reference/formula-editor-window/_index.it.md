@@ -10,7 +10,7 @@ L'editor di formule consente di creare formule per un report.
 
 {{% /alert %}} 
 
-Per modificare una formula in una cella Excel Microsoft:
+Per modificare una formula in una cella di Microsoft Excel:
 
 1. In Microsoft Excel selezionare una cella.
 1.  Aprire la finestra di dialogo Modifica formula facendo clic**Modifica Formula** sulla barra degli strumenti.

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 20.9 Note di rilascio
+title: Aspose.Cells for Android via Java 20.9 Note di rilascio
 type: docs
 weight: 9
 url: /it/java/aspose-cells-for-android-via-java-20-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 20.9.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 20.9.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43037|Problema di carattere nella conversione PDF|Insetto|
 |CELLSJAVA-43249|Problemi di stampa durante l'utilizzo di stampanti fisiche, XPS e stampante PDF|Insetto|
 |CELLSJAVA-43254|Differenza di carattere durante la conversione del foglio di calcolo in immagine|Insetto|
-|CELLSJAVA-43266|La versione Java non supporta il caricamento del carattere dalla cartella dei caratteri dell'utente corrente per impostazione predefinita|Insetto|
+|CELLSJAVA-43266|Per impostazione predefinita, la versione Java non supporta il caricamento dei caratteri dalla cartella dei caratteri dell'utente corrente|Insetto|
 |CELLSJAVA-43268|Rendering da Excel a TIFF: alcuni valori vengono sostituiti con caratteri "#".|Insetto|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: errore per ZipFile|Insetto|
 |CELLSJAVA-43277|Problema con il rapporto tra altezza e larghezza|Insetto|
@@ -71,9 +71,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43170|CellsException sul metodocalcFormula|Eccezione|
 |CELLSJAVA-43267|Eccezione "java.lang.NullPointerException" durante il calcolo della tabella pivot nel foglio|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Contrassegna l'interfaccia ICustomFunction come obsoleta.**
 

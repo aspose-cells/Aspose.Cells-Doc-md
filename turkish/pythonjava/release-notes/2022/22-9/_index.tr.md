@@ -1,12 +1,12 @@
 ﻿---
-title: Java üzerinden Python için Aspose.Cells 22.9 Sürüm Notları
+title: Aspose.Cells for Python via Java 22.9 Sürüm Notları
 type: docs
 weight: 4
 url: /tr/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Bu sayfa için sürüm notları içerir[Java üzerinden Python için Aspose.Cells 22.9](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.9/).
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Python via Java 22.9](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.9/).
 
 {{% /alert %}}
 

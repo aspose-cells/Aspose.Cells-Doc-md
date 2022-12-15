@@ -52,7 +52,7 @@ Questo mostra la sezione Prestazioni così com'è per impostazione predefinita.
  - Quando il parametro Performance è impostato su 'off', il valore predefinito è false.
  - Quando il parametro Performance è impostato su 'on', il valore predefinito è true.
  - Quando il parametro Performance è impostato su "on", un report di sottoelemento può reimpostare il parametro AutoRowFile del report.
-Si prega di fare riferimento alla seguente configurazione.
+ Si prega di fare riferimento alla seguente configurazione.
 
 **XML**
 
@@ -82,7 +82,7 @@ Si prega di fare riferimento alla seguente configurazione.
  - Quando il parametro Performance è impostato su 'off', il valore predefinito è false.
  - Quando il parametro Performance è impostato su 'on', il valore predefinito è true.
  - Quando il parametro Performance è impostato su "on", un report di sottoelemento può reimpostare il parametro AutoRowFile del report.
-Si prega di fare riferimento alla seguente configurazione.
+ Si prega di fare riferimento alla seguente configurazione.
 
 **XML**
 
@@ -112,7 +112,7 @@ Si prega di fare riferimento alla seguente configurazione.
  - Quando il parametro Performance è impostato su 'off', il valore predefinito è false.
  - Quando il parametro Performance è impostato su 'on', il valore predefinito è true.
  - Quando il parametro Performance è impostato su "on", un report di sottoelemento può reimpostare il parametro AutoRowFile del report.
-Si prega di fare riferimento alla seguente configurazione.
+ Si prega di fare riferimento alla seguente configurazione.
 
 **XML**
 
@@ -141,9 +141,9 @@ Si prega di fare riferimento alla seguente configurazione.
 -  IsConditionalFormatting – Può essere vero o falso:
  - Quando il parametro Performance è impostato su 'off', il valore predefinito è false.
  - Quando il parametro Performance è impostato su 'on', il valore predefinito è true.
- - Quando il parametro Performance è impostato su 'on', il sottoelemento report può reimpostare il parametro AutoRowFile del report punto.
+ Quando il parametro Performance è impostato su 'on', il sottoelemento report può reimpostare il parametro AutoRowFile del report punto.
  - Quando il parametro IsSetStyle è impostato su false, il valore del parametro Performance non è valido.
-Si prega di fare riferimento alla seguente configurazione.
+ Si prega di fare riferimento alla seguente configurazione.
 
 **XML**
 

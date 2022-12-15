@@ -6,7 +6,7 @@ url: /it/java/get-the-version-number-of-the-application-that-created-the-excel-d
 ---
 {{% alert color="primary" %}}
 
- Spesso è necessario conoscere il numero di versione dell'applicazione che ha creato un documento Excel Microsoft. Aspose.Cells fornisce il[**Cartella di lavoro.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) proprietà a tale scopo.
+ Spesso è necessario conoscere il numero di versione dell'applicazione che ha creato un documento Microsoft Excel. Aspose.Cells fornisce il[**Cartella di lavoro.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) proprietà a tale scopo.
 
 {{% /alert %}}
 

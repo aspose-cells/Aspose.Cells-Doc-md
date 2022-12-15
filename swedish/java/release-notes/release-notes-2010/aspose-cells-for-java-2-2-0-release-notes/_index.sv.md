@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 2.2.0 Release Notes
+title: Aspose.Cells for Java 2.2.0 Release Notes
 type: docs
 weight: 80
 url: /sv/java/aspose-cells-for-java-2-2-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.2.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.2.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.2.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.2.0/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java 2.2.0!
+ Vi är glada att meddela Aspose.Cells for Java 2.2.0!
 
  Vad har ändrats:
 
@@ -20,8 +20,8 @@ url: /sv/java/aspose-cells-for-java-2-2-0-release-notes/
  Ger utökade stilar sparade av MS Excel 2007 för XLS-filer
  Stöder för att automatiskt upptäcka filformatstyp när du öppnar mallfil utan att ange format för HTML- och SpreadSheeML-filer
  Tar bort ett diagram från diagramsamlingen
-Tillåter att radera tomma rader/kolumner i kalkylbladet
- Stöder för att spara färgen till närmaste matchande färg i paletten när den användarspecificerade färgen inte finns i standardpaletten.
+ Tillåter att radera tomma rader/kolumner i kalkylbladet
+Stöder för att spara färgen till närmaste matchande färg i paletten när den användarspecificerade färgen inte finns i standardpaletten.
  Exporterar rotationsattribut för text för Excel till Pdf-funktion
  Exporterar diagram som bilder för Excel till Pdf-funktion
  Tar bort befintligt utskriftsområde

@@ -12,7 +12,7 @@ Aspose.Cells, Microsoft Excel 95/97 - 2003, SpreadsheetML, Açılış Microsoft 
 
 ## **Farklı Microsoft Excel Sürümlerinin Dosyalarını Açma**
 
- Bir uygulamanın genellikle farklı sürümlerde oluşturulan Microsoft Excel dosyalarını açabilmesi gerekir, örneğin Microsoft Excel 95,97 veya Microsoft Excel 2007/2010/2013/2016/2019 ve Office 365 . XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited veya TSV, CSV, ODS vb. dahil çeşitli biçimlerden herhangi birinde bir dosya yüklemeniz gerekebilir. Yapıcıyı kullanın veya**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** sınıf'**[DosyaFormat](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** kullanarak formatı belirten type özelliği**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**numaralandırma.
+Bir uygulamanın genellikle farklı sürümlerde oluşturulan Microsoft Excel dosyalarını açabilmesi gerekir, örneğin Microsoft Excel 95,97 veya Microsoft Excel 2007/2010/2013/2016/2019 ve Office 365 . XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited veya TSV, CSV, ODS vb. dahil çeşitli biçimlerden herhangi birinde bir dosya yüklemeniz gerekebilir. Yapıcıyı kullanın veya**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)** sınıf'**[DosyaFormat](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** kullanarak formatı belirten type özelliği**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**numaralandırma.
 
  bu**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**numaralandırma, bazıları aşağıda verilen önceden tanımlanmış birçok dosya formatını içerir.
 

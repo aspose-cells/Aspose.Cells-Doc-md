@@ -102,7 +102,7 @@ Aspose.Cells Java for Apache POI (HSSF+XSSF) 是开源的，其源代码可在�
     - [在工作簿中复制工作表](/cells/zh/java/copy-sheet-within-workbook/)
     - [在工作簿中重新排序工作表](/cells/zh/java/re-order-sheets-within-workbook/)
     - [页眉和页脚](/cells/zh/java/header-and-footers/)
-    - [使用 Apache POI 和 Aspose.Cells 的缩放系数](/cells/zh/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+    - [使用 Apache POI 和 Aspose.Cells 的缩放因子](/cells/zh/java/zoom-factor-using-apache-poi-and-aspose-cells/)
   - [在 Apache POI 和 Aspose.Cells 中使用工作簿](/cells/zh/java/working-with-workbooks-in-apache-poi-and-aspose-cells/)
     - [在 Cells 中添加数据](/cells/zh/java/add-data-in-cells/)
     - [创建新工作簿](/cells/zh/java/create-new-workbook/)

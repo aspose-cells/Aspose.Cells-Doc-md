@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /sv/reportingservices/delimiters/
 ---
-Aspose.Cells för Reporting Services stöder en specificerad avgränsare vid rendering av TXT- eller CSV-format. Två inställningar styr fältavgränsaren i Aspose.Cells för Reporting Services.
+Aspose.Cells for Reporting Services stöder en specificerad avgränsare vid rendering av TXT- eller CSV-format. Två inställningar styr fältavgränsaren i Aspose.Cells for Reporting Services.
 
 1.  Fältavgränsningsparametern i**rsreportserver.config** kan bara styra en specificerad renderingstillägg.
 

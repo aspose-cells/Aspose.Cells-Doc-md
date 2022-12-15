@@ -7,11 +7,11 @@ url: /it/net/creating-pie-chart-with-leader-lines/
 ---
 {{% alert color="primary" %}}
 
- Questo articolo spiega come creare un grafico a torta con linee guida da zero utilizzando Aspose.Cells for .NET API. In Excel, l'opzione "Mostra linee guida" è impostata per impostazione predefinita, quindi quando crei un grafico a torta in Excel vengono mostrate le linee guida. Tuttavia, durante la creazione di un grafico simile con le API Aspose.Cells, è necessario impostare in modo esplicito il file[**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) proprietà.
+ Questo articolo spiega come creare da zero un grafico a torta con linee guida durante l'utilizzo dell'API Aspose.Cells for .NET. In Excel, l'opzione "Mostra linee guida" è impostata per impostazione predefinita, quindi quando crei un grafico a torta in Excel vengono mostrate le linee guida. Tuttavia, durante la creazione di un grafico simile con le API Aspose.Cells, è necessario impostare in modo esplicito il file[**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) proprietà.
 
 {{% /alert %}}
 
-Per dimostrare l'utilizzo di Aspose.Cells for .NET API per creare un grafico a torta con linee guida, creeremo prima un nuovo[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) e inserisci alcuni dati che serviranno come origine dati della serie. Una volta inseriti i dati, aggiungeremo a[**Grafico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) di tipo[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)alla raccolta di grafici e impostarne i diversi aspetti per ottenere la vista del grafico desiderata.
+Per dimostrare l'utilizzo dell'API Aspose.Cells for .NET per creare un grafico a torta con linee guida, creeremo prima un nuovo[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) e inserisci alcuni dati che serviranno come origine dati della serie. Una volta inseriti i dati, aggiungeremo a[**Grafico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) di tipo[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)alla raccolta di grafici e impostarne i diversi aspetti per ottenere la vista del grafico desiderata.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-CreateWorkbook.cs" >}}
 

@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Elektronik tablodaki hücrelere kenarlık eklemek için aşağıdaki adımları uygulayın:
+Elektronik tablodaki hücrelere kenarlık eklemek için aşağıdaki adımları izleyin:
 
 1.  Çalışma sayfasını ayarlayın:
  1. Bir Uygulama nesnesinin örneğini oluşturun (yalnızca VSTO)

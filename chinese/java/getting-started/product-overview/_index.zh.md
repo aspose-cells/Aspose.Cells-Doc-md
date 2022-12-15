@@ -6,7 +6,7 @@ url: /zh/java/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![待办事项：图片_替代_文本](product-overview_1.png)
+![待办事项：图像_替代_文本](product-overview_1.png)
 ## **欢迎使用 Aspose.Cells 文档**
 **Aspose.Cells**是最灵活的组件，它使 Java 应用程序能够创建和管理 Excel 电子表格，而无需**Microsoft Excel**安装在系统上。与其他供应商的同类产品不同，Aspose.Cells 不仅支持电子表格生成和其他基本的文件格式设置功能，还支持许多高级功能。这些高级功能使开发人员可以更方便地处理电子表格内容、单元格格式和文件保护。 Aspose.Cells 还允许从不同的数据源将数据导入电子表格，添加常见和复杂的数学、日期时间、财务、文本公式/函数，支持图表、图片、评论、绘图对象和控件等操作。
 

@@ -6,7 +6,7 @@ url: /it/cpp/creating-and-customizing-charts/
 ---
 ## **Possibili scenari di utilizzo**
 
-Un grafico è una visualizzazione visiva di informazioni. Aspose.Cells consente agli sviluppatori di visualizzare le informazioni nei grafici proprio come fa Microsoft Excel. La presentazione delle informazioni nei grafici è sempre utile ai decisori per prendere decisioni rapide e tempestive. È più facile vedere rapidamente confronti, modelli e tendenze nei dati con grafici piuttosto che numeri grezzi. La creazione di grafici in fase di esecuzione, basati sui dati in un foglio di calcolo, è una delle funzionalità utili di Aspose.Cells. Aspose.Cells supporta la creazione di grafici standard e personalizzati. Di seguito, mostreremo alcuni esempi con file di esempio su come creare alcuni tipi di grafici MS-Excel comuni utilizzando Aspose.Cells API.
+Un grafico è una visualizzazione visiva di informazioni. Aspose.Cells consente agli sviluppatori di visualizzare le informazioni nei grafici proprio come fa Microsoft Excel. La presentazione delle informazioni nei grafici è sempre utile ai decisori per prendere decisioni rapide e tempestive. È più facile vedere rapidamente confronti, modelli e tendenze nei dati con grafici piuttosto che numeri grezzi. La creazione di grafici in fase di esecuzione, basati sui dati in un foglio di calcolo, è una delle funzionalità utili di Aspose.Cells. Aspose.Cells supporta la creazione di grafici standard e personalizzati. Di seguito, mostreremo alcuni esempi con file di esempio su come creare alcuni tipi di grafici MS-Excel comuni utilizzando l'API Aspose.Cells.
 
 ## **Grafico a piramide**
 
@@ -16,7 +16,7 @@ Un grafico è una visualizzazione visiva di informazioni. Aspose.Cells consente 
 
 ## **Grafico a linee**
 
-Nell'esempio sopra, semplicemente cambiando il file[**Tipo di grafico**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)a[**GraficoTipo_Linea**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25) crea un grafico a linee. La fonte completa è fornita di seguito. quando il codice viene eseguito, al foglio di lavoro viene aggiunto un grafico a linee. Si prega di consultare il[file Excel di output](66519069.xlsx) del seguente codice di esempio.
+Nell'esempio sopra, semplicemente cambiando il file[**Tipo di grafico**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)a[**GraficoTipo_Linea**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25)crea un grafico a linee. La fonte completa è fornita di seguito. quando il codice viene eseguito, al foglio di lavoro viene aggiunto un grafico a linee. Si prega di consultare il[file Excel di output](66519069.xlsx) del seguente codice di esempio.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart.cpp" >}}
 

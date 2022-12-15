@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 22.4 Release Notes
+title: Aspose.Cells for .NET 22.4 Release Notes
 type: docs
 weight: 9
 url: /sv/net/aspose-cells-for-net-22-4-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 22.4](https://www.nuget.org/packages/Aspose.Cells/22.4.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 22.4](https://www.nuget.org/packages/Aspose.Cells/22.4.0).
 
 {{% /alert %}}
 
@@ -27,7 +27,7 @@ url: /sv/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50622|Rubrik tom rad/kolumn med anpassad stil exporteras inte till csv|
 |CELLSNET-50645|Felaktiga resultat med Workbook.CalculateFormula-metoden|
 |CELLSNET-50695|Name.RefersTo/R1C1RefersTo ändras när man refererar till en celladress|
-|CELLSNET-50553|Kolumnstil tillämpas inte på hela kolumnen i GridDesktop|
+|CELLSNET-50553| Kolumnstil tillämpas inte på hela kolumnen i GridDesktop|
 |CELLSNET-50641|Problem med att öppna en lösenordsskyddad fil med tomt lösenord ("") till Aspose.Cells.GridDesktop|
 |CELLSNET-50672| lägg till händelsen FailLoadFile|
 |CELLSNET-50815| dubbelklicka på redigera cellvärde beteende är inte korrekt|
@@ -42,7 +42,7 @@ url: /sv/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50610|RecalculateBeforeSave alltid falskt i nyare version|
 |CELLSNET-50611|Problem med booleskt värde i Excel till PDF-rendering|
 |CELLSNET-50706| Filstorleken minskas många gånger när du sparar med SaveToStream() vid andra gången|
-|CELLSNET-50749| DeleteBlankColumns(options)-metoden tar bort kolumner som bara har kommentarer|
+|CELLSNET-50749|DeleteBlankColumns(options)-metoden tar bort kolumner som bara har kommentarer|
 |CELLSNET-50759|Formler sparas inte korrekt när en arbetsbok har externa länkar till en arbetsbok som inte har sparats|
 |CELLSNET-50776|Smarta markörer bearbetas inte när en generisk lista av typen System.Dynamic.ExpandoObject används som datakälla för ett kapslat objekt|
 |CELLSNET-50779| Potentiell dataförlust angående inbäddade objekt vid konvertering av XLS -> XLSX -> XLS|
@@ -51,9 +51,9 @@ url: /sv/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50275|Undantaget "Objektreferens inte satt till en instans av ett objekt" när ODS renderas till HTML|
 |CELLSNET-50713|System.NullReferenceException när en XLSB-fil laddas|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till klassen DefaultStyleSettings.**
 

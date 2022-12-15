@@ -22,4 +22,4 @@ L'exemple de code suivant illustre l'utilisation de[**ExportRangeToJsonOptions**
 
 ### **Sortie console**
 
-[ { "id": 1, "language": "Java", "edition": "troisième", "author": "Herbert Schildt", "streetAddress": 126, "city": "San Jone", "state": "CA", "postalCode": 394221 }, { "id": 2, "language": "C++", "edition": "deuxième", "author": "EAAAA", "streetAddress": 126, "city": "San Jones", "state": "CA", "postalCode": 394221 }, { "id": 3 , "language": ".Net", "edition": "second", "author": "E.Balagurusamy", "streetAddress": 126, "city": "San Jone", " état": "CA", "code postal": 394221 } ]
+[ { "id": 1, "language": "Java", "edition": "troisième", "author": "Herbert Schildt", "streetAddress": 126, "city": "San Jone", "état": "CA", "code postal": 394221 }, { "id": 2, "langue": "C++", "édition": "deuxième", "author": "EAAAA", "streetAddress": 126, "city": "San Jones", "state": "CA", "postalCode": 394221 }, { "id": 3 , "language": ".Net", "edition": "second", "author": "E.Balagurusamy", "streetAddress": 126, "city": "San Jone", " état": "CA", "code postal": 394221 } ]

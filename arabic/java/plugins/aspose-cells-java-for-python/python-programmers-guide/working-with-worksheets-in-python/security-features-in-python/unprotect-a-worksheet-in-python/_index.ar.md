@@ -5,7 +5,7 @@ weight: 20
 url: /ar/java/unprotect-a-worksheet-in-python/
 ---
 ## **Aspose.Cells - إلغاء حماية ورقة العمل**
- لحماية ورقة العمل باستخدام**Aspose.Cells Java لـ Python** ، مكالمة**unotect_worksheet** طريقة**الحماية** وحدة.
+ لحماية ورقة العمل باستخدام**Aspose.Cells Java for Python** ، مكالمة**unotect_worksheet** طريقة**الحماية** وحدة.
 
 **Python كود**
 
@@ -44,7 +44,7 @@ workbook.save(self.dataDir + "output.xls", filesFormatType.EXCEL_97_TO_2003)
 print "Worksheet unprotected successfully."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**إلغاء حماية ورقة العمل (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

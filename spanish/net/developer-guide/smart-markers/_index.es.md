@@ -112,7 +112,7 @@ subtotalN:Ref donde Ref se refiere al grupo por columna.
 
 Por ejemplo,
 
--  &=Productos.Unidades(subtotal9:Productos.ProductID) especifica la función de resumen en**Unidades** campo con respecto a la**Identificación de producto** campo en el**productos** mesa.
+-  &=Productos.Unidades(subtotal9:Productos.ProductID) especifica la función de resumen en**Unidades** campo con respecto a la**Identificación de producto** campo en el**Productos** mesa.
 -  &=Tabx.Col3(subtotal9:Tabx.Col1) especifica la función de resumen en el**Col3** grupo de campo por**Col1** en la mesa**Tabx**.
 -  &=Table1.ColumnD(subtotal9:Table1.ColumnA&Table1.ColumnB) especifica la función de resumen en**columnaD** grupo de campo por**columnaA** y**columnaB** en la mesa**Tabla 1**.
 

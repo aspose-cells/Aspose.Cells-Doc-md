@@ -16,7 +16,7 @@ Consultez la documentation pour savoir comment démarrer avec Aspose.Cells for J
 Notez que ce téléchargement contient une version entièrement fonctionnelle du produit, mais sans jeu de licences, il fonctionnera en mode d'évaluation avec certaines limitations. Pour tester Aspose.Cells sans ces limitations d'évaluation, vous pouvez demander une licence temporaire gratuite de 30 jours.
  Voici une liste des modifications apportées à cette version de Aspose.Cells for Java.
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Améliorations
 

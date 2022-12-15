@@ -16,7 +16,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 ## **Spécification de séparateurs personnalisés à l'aide de Microsoft Excel**
 
- La capture d'écran suivante montre le**Options Excel avancées** et met en surbrillance la section pour spécifier le**Séparateurs personnalisés**.
+La capture d'écran suivante montre le**Options Excel avancées** et met en surbrillance la section pour spécifier le**Séparateurs personnalisés**.
 
 ![tâche : image_autre_texte](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 

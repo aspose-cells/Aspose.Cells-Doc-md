@@ -3,7 +3,7 @@ title: Cerca e sostituisci i dati in un intervallo
 type: docs
 weight: 170
 url: /it/net/search-and-replace-data-in-a-range/
-description: Questo articolo mostra come cercare e sostituire i dati in un intervallo in Excel utilizzando il codice C#.
+description: Questo articolo mostra come cercare e sostituire i dati in un intervallo in Excel usando il codice C#.
 keywords: c# search and replace data in excel, c# search data in excel, c# search and replace data in a range, c# search data in a range, c# searching data in a range, c# searching data in range, c# searching data in excel, c# search data in range, search and replace data in excel with c#, search and replace data in a range with c#, search and replace data in range with c#
 ---
 {{% alert color="primary" %}}

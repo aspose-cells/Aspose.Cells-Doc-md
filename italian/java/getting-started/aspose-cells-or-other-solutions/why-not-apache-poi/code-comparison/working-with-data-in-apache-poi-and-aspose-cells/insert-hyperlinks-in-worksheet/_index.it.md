@@ -9,7 +9,7 @@ url: /it/java/insert-hyperlinks-in-worksheet/
 
 È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della raccolta Hyperlink. Il metodo Add funziona sia per i collegamenti ipertestuali interni che per quelli esterni.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -57,7 +57,7 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 - Numero di colonne, il numero di colonne in questo intervallo di collegamenti ipertestuali.
 - URL, l'indirizzo del file Excel esterno di destinazione.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -75,7 +75,7 @@ hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Inserisci collegamenti ipertestuali nel foglio di lavoro**
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

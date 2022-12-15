@@ -4,12 +4,12 @@ type: docs
 weight: 130
 url: /fr/net/aspose-cells-for-net-8-7-1-release-notes/
 ---
-### **Autres améliorations et changements**
+### **Autres améliorations et modifications**
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |
-|CELLSNET-44154 | Prise en charge de la lecture/écriture de la table de requête.| Nouvelle fonctionnalité|
-|CELLSNET-43616 | Prend en charge la formule Array impliquant la fonction "TABLE".| Nouvelle fonctionnalité|
+|CELLSNET-44154 | Prise en charge de la lecture/écriture de la table de requête.|Nouvelle fonctionnalité|
+|CELLSNET-43616 | Prend en charge la formule Array impliquant la fonction "TABLE".|Nouvelle fonctionnalité|
 |CELLSNET-44195 | Le fichier est ouvert en mode protégé après la conversion au format de fichier XLS| Renforcement|
 |CELLSNET-44182 | Cells find avec une mise en forme personnalisée fonctionne dans l'ancienne version mais pas dans la nouvelle version| Renforcement|
 |CELLSNET-44187 | Cell les valeurs sont incorrectement remplacées par # lorsqu'elles sont converties en HTML| Punaise|
@@ -34,7 +34,7 @@ url: /fr/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44223 | NullReferenceException lors du chargement d'un fichier XLSX spécifique| Exception|
 |CELLSNET-44212 | Exception NullReference à l'ouverture du fichier Excel source| Exception|
 |CELLSNET-44204 | CellsException : la taille de la police est hors limites, au niveau du classeur| Exception|
-|CELLSNET-44196 | Fournir la possibilité de détecter quelle colonne est filtrée et quelle valeur filtrer sur l'interface GridWeb| Nouvelle fonctionnalité|
+|CELLSNET-44196 | Fournir la possibilité de détecter quelle colonne est filtrée et quelle valeur filtrer sur l'interface GridWeb|Nouvelle fonctionnalité|
 |CELLSNET-44232 | Problème GridDesktop avec RemoveRow (index) où l'index est "0"| Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.

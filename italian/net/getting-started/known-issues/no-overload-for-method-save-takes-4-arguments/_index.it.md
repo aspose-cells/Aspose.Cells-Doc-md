@@ -16,9 +16,9 @@ url: /it/net/no-overload-for-method-save-takes-4-arguments/
 
  Si prega di utilizzare**.NET 2.0** versione compilata del prodotto poiché funziona correttamente su VS.NET 2008/2010. In realtà forniamo DLL separate per diversi ambienti, tipi di progetto e sistemi ecc. Per riferimento, controllare:<https://docs.aspose.com/cells/net/using-aspose-cells-on-32-bit-and-64-bit-platforms/>
 
- Aspose.Cells for .NET è compatibile e funziona perfettamente con tutte le versioni del framework .NET, ad esempio 2.x, 3.x, 4.x ecc. ecc. Forniamo diverse DLL per diverse versioni del framework .NET. Per maggiori informazioni, leggi il**leggimi.txt** file nella cartella "\Bin" nella directory di installazione. Ma questo**leggimi.txt** file è presente.
+ Aspose.Cells for .NET è compatibile e funziona perfettamente con tutte le versioni del framework .NET, ad esempio 2.x, 3.x, 4.x ecc. per qualsiasi tipo di progetto, ad esempio Asp.NET/Winforms, progetto Web, Windows/Servizio Web, applicazione console o altri progetti ecc. Forniamo DLL diverse per diverse versioni di .NET Framework. Per maggiori informazioni, leggi il**leggimi.txt** file nella cartella "\Bin" nella directory di installazione. Ma questo**leggimi.txt** file è presente.
 
- Quando si utilizza il nostro prodotto in un'applicazione Web, utilizzare Aspose.Cells.dll dal**NET 2.0**cartella nella directory "/bin". Per tua informazione, la dll in**.NET 3.5 Profilo Cliente** La directory viene utilizzata solo per l'applicazione console con il profilo client frame di rete come framework di destinazione di VS.NET. Controlla il tuo progetto, è possibile che il tuo progetto faccia riferimento a questa dll.
+ Quando si utilizza il nostro prodotto in un'applicazione Web, utilizzare Aspose.Cells.dll dal**RETE 2.0**cartella nella directory "/bin". Per tua informazione, la dll in**Profilo cliente .NET 3.5** La directory viene utilizzata solo per l'applicazione console con il profilo client frame Net come framework di destinazione di VS.NET. Controlla il tuo progetto, è possibile che il tuo progetto faccia riferimento a questa dll.
 
 ### **Riferimenti**
 

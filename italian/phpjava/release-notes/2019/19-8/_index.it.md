@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per PHP tramite Java 19.8 Note di rilascio
+title: Aspose.Cells for PHP via Java 19.8 Note di rilascio
 type: docs
 weight: 10
 url: /it/php-java/aspose-cells-for-php-via-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per PHP tramite Java 19.8.
+Questa pagina contiene le note di rilascio per Aspose.Cells for PHP via Java 19.8.
 
 {{% /alert %}} 
 
@@ -27,8 +27,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per PHP tramite Java
 |CELLSJAVA-42951|java.lang.NullPointerException viene generata da comment.setHtmlNote()|Eccezione|
 |CELLSJAVA-42954|Eccezione sollevata durante il caricamento e il salvataggio di XLSX|Eccezione|
 |CELLSJAVA-42957|Viene generato un valore FontUnderlineType non valido durante il salvataggio di XLSX|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per PHP tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for PHP via Java. sul forum di supporto Aspose.Cells.
 #### **Aggiorna la libreria BouncyCastle di riferimento a 1.60**
 La libreria BouncyCastle allegata nell'archivio di rilascio è stata aggiornata alla versione 1.60. Tuttavia, Aspose.Cells è compatibile anche con le vecchie versioni, quindi l'utente può ancora utilizzare le vecchie versioni come 1.46.
 #### **Obsoleta la classe HTMLLoadOptions e aggiunta la classe HtmlLoadOptions**

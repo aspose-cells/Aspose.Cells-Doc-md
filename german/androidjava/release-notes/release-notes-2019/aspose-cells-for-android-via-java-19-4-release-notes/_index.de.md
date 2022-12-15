@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Android über Java 19.4 Versionshinweise
+title: Aspose.Cells for Android via Java 19.4 Versionshinweise
 type: docs
 weight: 40
 url: /de/java/aspose-cells-for-android-via-java-19-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für Android über Java 19.4.
+Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.4.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für Android über Java 
 |CELLSJAVA-42860|java.lang.NullPointerException beim Laden eines ODS-Dateiformats|Ausnahme|
 |CELLSJAVA-42871|java.lang.Exception: Nicht unterstützter Klon für gesicherten Stream beim Konvertieren von XLSX in PDF|Ausnahme|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
-Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells für Android über Java vorgenommen wurden. Wenn Sie Bedenken hinsichtlich einer der aufgeführten Änderungen haben, wenden Sie sich bitte an uns Erheben Sie es im Aspose.Cells Support-Forum.
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Android via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
 ### **Fügt APIs zum Speichern von Markdown-Dokumenten hinzu: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Unterstützt das Speichern von Zelleninhalten als Markdown-Tabelle. Mit der Methode Workbook.Save() werden alle Zelleninhalte im aktiven Blatt als Tabelle im Markdown-Dokument exportiert.
 ### **Entfernt veraltete Eigenschaften von TxtLoadOptions**

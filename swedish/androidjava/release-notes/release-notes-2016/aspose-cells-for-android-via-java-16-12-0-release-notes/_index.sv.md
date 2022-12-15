@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Android via Java 16.12.0 Release Notes
+title: Aspose.Cells for Android via Java 16.12.0 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
@@ -77,8 +77,8 @@ url: /sv/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-41968|IndexOutOfBoundsException: Index: 23, Storlek: 14 medan pivotdiagram uppdateras|Undantag|
 |CELLSJAVA-42014|ClassCastException samtidigt som du sparar XLSX igen|Undantag|
 |CELLSJAVA-42004|java.lang.NullPointerException, i Workbook ctor när du laddar XLSX-filen|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över alla ändringar som har gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Android. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen Shape.Reflection och klassen ReflectionEffect.**
 Representerar reflektionseffekt för diagramelementet eller formen.
 ### **Lägger till egenskaperna Shape.Glow,GlowEffect.Size och GlowEffect.Transparency.**
@@ -160,6 +160,6 @@ Ange om du ska använda systemteckensnittsersättning först eller inte när ett
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Android matchar koden för relevant .NET- och Java-version, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v16.10.0, Aspose.Cells för .NET v16.11.0, 07161348.NET v16.12.0, Aspose.Cells för Java v16.10.0, Aspose.Cells för Java v16.11.0 och Aspose.Cells för Java v16.12.0 ingår också i denna Aspose.Cells för Android v16.12.0.
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v16.10.0, Aspose.Cells for .NET v16.11.0, Aspose.Cells for .NET v16.12.0, Aspose.Cells for Java v16. 10.0, Aspose.Cells for Java v16.11.0 och Aspose.Cells for Java v16.12.0 ingår också i denna Aspose.Cells for Android v16.06.
 
 {{% /alert %}}

@@ -6,7 +6,7 @@ url: /it/java/find-if-the-worksheet-is-dialog-sheet/
 ---
 ## **Possibili scenari di utilizzo**
 
-Foglio di dialogo è un vecchio formato del foglio che contiene una finestra di dialogo. Tale foglio potrebbe essere inserito da una versione precedente di Excel Microsoft, ad esempio 2003, come mostrato in questa schermata. Può anche essere inserito con VBA nelle versioni più recenti, ad esempio Microsoft Excel 2016.
+Foglio di dialogo è un vecchio formato del foglio che contiene una finestra di dialogo. Tale foglio potrebbe essere inserito da una versione precedente di Microsoft Excel, ad esempio 2003, come mostrato in questa schermata. Può anche essere inserito con VBA nelle versioni più recenti, ad esempio Microsoft Excel 2016.
 
 ![cose da fare:immagine_alt_testo](find-if-the-worksheet-is-dialog-sheet_1.png)
 

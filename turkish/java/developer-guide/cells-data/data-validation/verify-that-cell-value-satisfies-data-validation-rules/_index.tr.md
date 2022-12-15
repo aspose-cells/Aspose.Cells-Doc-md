@@ -6,7 +6,7 @@ url: /tr/java/verify-that-cell-value-satisfies-data-validation-rules/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel, kullanıcıların çalışma sayfası hücrelerine veri doğrulama kuralları eklemesine izin verir. Örneğin, 10 ile 20 arasındaki sayıları kısıtlamak için bir ondalık doğrulama uygulanabilir. Bu belirtilen aralığın dışında herhangi bir sayı girilirse, Microsoft Excel bir hata mesajı gösterir ve kullanıcıdan doğru aralıktan bir sayı girmesini ister. Kullanıcı kopyası hücreye bir sayı, örneğin 3 yapıştırırsa, Excel doğrulama denetimini çalıştırmaz veya bir hata mesajı göstermez.
+Microsoft Excel, kullanıcıların çalışma sayfası hücrelerine veri doğrulama kuralları eklemesine izin verir. Örneğin, 10 ile 20 arasındaki sayıları kısıtlamak için bir ondalık doğrulama uygulanabilir. Belirtilen aralığın dışında herhangi bir sayı girilirse, Microsoft Excel bir hata mesajı gösterir ve kullanıcıdan doğru aralıktan bir sayı girmesini ister. Kullanıcı kopyası hücreye bir sayı, örneğin 3 yapıştırırsa, Excel doğrulama denetimini çalıştırmaz veya bir hata mesajı göstermez.
 
 {{% /alert %}}
 

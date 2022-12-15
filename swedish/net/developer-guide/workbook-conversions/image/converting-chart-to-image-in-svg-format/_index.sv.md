@@ -14,7 +14,7 @@ Aspose.Cells kan spara diagram i bilder i olika format som BMP, JPEG, PNG, GIF, 
 
 {{% /alert %}} 
 
-Följande exempelkod förklarar hur du använder Aspose.Cells för att konvertera ett diagram till en bild i SVG-format. Koden laddar Microsoft Excel-källfilen och sparar sedan det första diagrammet som finns på det första kalkylbladet till SVG.
+Följande exempelkod förklarar hur du använder Aspose.Cells för att konvertera ett diagram till en bild i SVG-format. Koden laddar källfilen Microsoft Excel-fil och sparar sedan det första diagrammet som finns på det första kalkylbladet till SVG.
 
 
 

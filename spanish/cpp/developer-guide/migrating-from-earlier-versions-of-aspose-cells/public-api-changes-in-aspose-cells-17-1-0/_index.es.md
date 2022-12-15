@@ -11,7 +11,7 @@ Este documento describe los cambios al Aspose.Cells API de la versión 16.12.0 a
 {{% /alert %}} 
 ## **API añadidas**
 ### **Compatibilidad con rangos con nombre**
- Aspose.Cells para C++ ahora admite la creación y la manipulación de rangos con nombre. El siguiente fragmento de código demuestra lo simple que es usar Aspose.Cells para C++ API para[crear rangos con nombre](/cells/es/cpp/create-named-range-in-a-workbook/).
+ Aspose.Cells for C++ ahora admite la creación y la manipulación de rangos con nombre. El siguiente fragmento de código demuestra lo simple que es usar Aspose.Cells for C++ API para[crear rangos con nombre](/cells/es/cpp/create-named-range-in-a-workbook/).
 
 **C++**
 
@@ -57,7 +57,7 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
- Además de crear nuevos rangos con nombre, las API Aspose.Cells para C++ también admiten la manipulación de rangos con nombre existentes. El siguiente fragmento de código usa Aspose.Cells para C++ API para[manipular un rango con nombre existente](/cells/es/cpp/manipulate-named-range-in-a-workbook/).
+ Además de crear nuevos rangos con nombre, las API Aspose.Cells for C++ también admiten la manipulación de rangos con nombre existentes. El siguiente fragmento de código utiliza Aspose.Cells for C++ API para[manipular un rango con nombre existente](/cells/es/cpp/manipulate-named-range-in-a-workbook/).
 
 **C++**
 
@@ -101,7 +101,7 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **Se agregó el método ICells::LinkToXmlMap**
 El método LinkToXmlMap se ha agregado a la clase ICells, que es útil para vincular un mapa XML.
 ### **Agregado método ICells::ImportCSV**
-El método ImportCSV se ha agregado a la clase ICells, que es útil para importar un archivo CSV a las celdas de una hoja de trabajo.
+El método ImportCSV se ha agregado a la clase ICells, que es útil para importar un archivo CSV a las celdas de una hoja de cálculo.
 ### **Se agregó el método ICells::ImportTwoDimensionArray**
 El método GetIProtectedRangeCollection se ha agregado a la clase ICells, que es útil para importar una matriz bidimensional de datos en una hoja de trabajo.
 ### **Se agregó el método IWorksheet::GetIProtectedRangeCollection**
@@ -115,19 +115,19 @@ El método CreateIRange se ha agregado a la clase IWorksheetCollection, que es �
 ### **Se agregó el método IExternalLink::IsVisible**
 El método IsVisible obtiene el estado de visibilidad de un enlace externo en la aplicación de Excel.
 ### **Se agregaron los métodos GetScaleCrop y SetScaleCrop**
-Aspose.Cells para C++ 17.1.0 ha expuesto los métodos GetScaleCrop y SetScaleCrop a la clase IBuiltInDocumentPropertyCollection. Estos métodos son útiles para obtener o establecer la propiedad ScaleCrop que indica el modo de visualización de la miniatura del documento.
+Aspose.Cells for C++ 17.1.0 ha expuesto los métodos GetScaleCrop y SetScaleCrop a la clase IBuiltInDocumentPropertyCollection. Estos métodos son útiles para obtener o establecer la propiedad ScaleCrop que indica el modo de visualización de la miniatura del documento.
 ### **Se agregaron los métodos GetLinksUpToDate y SetLinksUpToDate**
-Aspose.Cells para C++ 17.1.0 ha expuesto los métodos GetLinksUpToDate y SetLinksUpToDate a la clase IBuiltInDocumentPropertyCollection. Estos métodos son útiles para obtener o establecer la propiedad LinkUpToDate que indica si los hipervínculos de un documento están actualizados.
+Aspose.Cells for C++ 17.1.0 ha expuesto los métodos GetLinksUpToDate y SetLinksUpToDate a la clase IBuiltInDocumentPropertyCollection. Estos métodos son útiles para obtener o establecer la propiedad LinkUpToDate que indica si los hipervínculos de un documento están actualizados.
 ### **Se agregaron los métodos GetAbsolutePath y SetAbsolutePath**
-Aspose.Cells para C++ 17.1.0 ha expuesto los métodos GetAbsolutePath y SetAbsolutePath a la clase IWorkbook. Estos métodos son útiles para obtener o establecer la ruta absoluta del archivo que solo se puede usar para enlaces externos.
+Aspose.Cells for C++ 17.1.0 ha expuesto los métodos GetAbsolutePath y SetAbsolutePath a la clase IWorkbook. Estos métodos son útiles para obtener o establecer la ruta absoluta del archivo que solo se puede usar para enlaces externos.
 ### **Métodos GetFormula y SetFormula agregados**
-Esta versión de Aspose.Cells para C++ ha expuesto los métodos GetFormula y SetFormula para la clase IListColumn. Estos métodos son útiles para obtener o establecer la fórmula de una columna de lista.
+Esta versión de Aspose.Cells for C++ ha expuesto los métodos GetFormula y SetFormula para la clase IListColumn. Estos métodos son útiles para obtener o establecer la fórmula de una columna de lista.
 ### **Se agregaron los métodos GetCheckCompatibility y SetCheckCompatibility**
-Esta versión de Aspose.Cells para C++ ha expuesto los métodos GetCheckCompatibility y GetCheckCompatibility para la clase IWorkbookSettings. Estos métodos son útiles para obtener o establecer la propiedad de verificación de compatibilidad que indica si API debe verificar la compatibilidad al guardar el libro de trabajo. El valor predeterminado es verdadero y se puede establecer en falso si el requisito de la aplicación no es verificar la compatibilidad.
+Esta versión de Aspose.Cells for C++ ha expuesto los métodos GetCheckCompatibility y GetCheckCompatibility para la clase IWorkbookSettings. Estos métodos son útiles para obtener o establecer la propiedad de verificación de compatibilidad que indica si API debe verificar la compatibilidad al guardar el libro de trabajo. El valor predeterminado es verdadero y se puede establecer en falso si el requisito de la aplicación no es verificar la compatibilidad.
 ### **Se agregaron los métodos GetILightCellsDataHandler y SetILightCellsDataHandler**
-Aspose.Cells para C++ ahora ha expuesto los métodos GetILightCellsDataHandler y SetILightCellsDataHandler para la clase ILoadOptions. Estos métodos denotan el controlador de datos para procesar datos de celdas mientras se lee el archivo de plantilla.
+Aspose.Cells for C++ ahora ha expuesto los métodos GetILightCellsDataHandler y SetILightCellsDataHandler para la clase ILoadOptions. Estos métodos denotan el controlador de datos para procesar datos de celdas mientras se lee el archivo de plantilla.
 ### **Se agregaron los métodos GetCultureInfo y SetCultureInfo**
-Aspose.Cells para C++ ha expuesto los métodos GetCultureInfo y SetCultureInfo para la clase ILoadOptions. Estos métodos pueden obtener o configurar la información cultural del sistema en el momento de la carga del archivo.
+Aspose.Cells for C++ ha expuesto los métodos GetCultureInfo y SetCultureInfo para la clase ILoadOptions. Estos métodos pueden obtener o configurar la información cultural del sistema en el momento de la carga del archivo.
 ## **API eliminadas**
 ### **Método ICells::MaxDataRowInColumn eliminado**
 Se recomienda utilizar el método ICells::GetLastDataRow en su lugar.
@@ -138,7 +138,7 @@ Se recomienda utilizar los métodos IPageSetup::GetPrintDraft & IPageSetup::SetP
 
 {{% alert color="primary" %}} 
 
-Con el lanzamiento de Aspose.Cells para C++ 17.1.0, hemos eliminado algunos métodos que no estaban en uso, por lo que se consideraron innecesarios. Aquí está la lista de todos estos métodos.
+Con el lanzamiento de Aspose.Cells for C++ 17.1.0, hemos eliminado algunos métodos que no estaban en uso, por lo que se consideraron innecesarios. Aquí está la lista de todos estos métodos.
 
 - Métodos IPaneCollection::GetAcitvePaneType y SetAcitvePaneType
 - Método IRange::ToString

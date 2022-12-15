@@ -1,21 +1,21 @@
 ﻿---
-title: تثبيت Aspose.Cells ل SharePoint
+title: تركيب Aspose.Cells for SharePoint
 type: docs
 weight: 10
 url: /ar/sharepoint/installing-aspose-cells-for-sharepoint/
 ---
 {{% alert color="primary" %}} 
 
- يمكن تنزيل Aspose.Cells لـ SharePoint كأرشيف Aspose.Cells.SharePoint.zip.
+يمكن تنزيل Aspose.Cells for SharePoint مثل أرشيف Aspose.Cells.SharePoint.zip.
 
 {{% /alert %}} 
 ### **محتويات الأرشيف**
 يحتوي أرشيف Aspose.Cells.SharePoint.zip على:
 
-- Aspose.Cells.SharePoint.wsp - ملف حل SharePoint. يتم حزم Aspose.Cells لـ SharePoint كحل SharePoint لتسهيل النشر / التراجع وتنشيط / إلغاء تنشيط الميزة عبر مزرعة الخوادم.
+- Aspose.Cells.SharePoint.wsp - ملف حل SharePoint. يتم حزم Aspose.Cells for SharePoint كحل SharePoint لتسهيل النشر / التراجع وتنشيط / إلغاء تنشيط الميزة عبر مزرعة الخوادم.
 - Aspose_LicenseAgreement.rtf - اتفاقية ترخيص المستخدم النهائي
 - Aspose.Cells for SharePoint.pdf - وثائق المستخدم
-- Aspose.Cells for SharePoint Documentation.chm - وثائق المستخدم ذات المرجع العام API
+- Aspose.Cells for SharePoint Documentation.chm - توثيق المستخدم بالمرجع العام API
 - setup.exe - برنامج الإعداد
 - setup.exe.config - ملف تكوين الإعداد
 
@@ -23,18 +23,18 @@ url: /ar/sharepoint/installing-aspose-cells-for-sharepoint/
 
 - تم تثبيت WSS 3.0 أو MOSS 2007 أو SharePoint 2010.
 - لدى المستخدم إذن لتثبيت حلول SharePoint.
-- قاعدة بيانات SharePoint متصلة بالإنترنت.
+- قاعدة بيانات SharePoint على الإنترنت.
 - بدأت خدمة إدارة WSS.
 - بدأت خدمة WSS Timer.
 
- هناك حاجة إلى خدمة إدارة WSS وخدمة المؤقت نظرًا لأن بعض إجراءات الإعداد تعتمد على وظيفة مؤقت للنشر إلى جميع الخوادم في مزرعة الخوادم.
-#### **لتثبيت Aspose.Cells لـ SharePoint**
+هناك حاجة إلى خدمة إدارة WSS وخدمة المؤقت نظرًا لأن بعض إجراءات الإعداد تعتمد على وظيفة مؤقت للنشر إلى جميع الخوادم في مزرعة الخوادم.
+#### **لتثبيت Aspose.Cells for SharePoint**
 1. قم بفك ضغط Aspose.Cells.SharePoint zip إلى محرك الأقراص المحلي لخادم MOSS 7.0 أو WSS 3.0.
 1. قم بتشغيل setup.exe واتبع التعليمات التي تظهر على الشاشة.
 
 يقوم برنامج الإعداد بتنفيذ الإجراءات التالية:
 
-1.  تحقق من متطلبات التثبيت الأساسية. لن يستمر الإعداد إذا فشل أي فحص.
+1.  تحقق من متطلبات التثبيت. لن يستمر الإعداد إذا فشل أي فحص.
 
    **فحص النظام** 
 
@@ -52,7 +52,7 @@ url: /ar/sharepoint/installing-aspose-cells-for-sharepoint/
 
 
 
-1. عرض مربع حوار تحديد هدف النشر. يختار المستخدم تطبيقات الويب ومجموعات المواقع حيث سيتم تنشيط الميزة. انظر الشكل أدناه.
+1.  عرض مربع حوار تحديد هدف النشر. يختار المستخدم تطبيقات الويب ومجموعات المواقع حيث سيتم تنشيط الميزة. انظر الشكل أدناه.
 
    **أهداف النشر** 
 
@@ -71,7 +71,7 @@ url: /ar/sharepoint/installing-aspose-cells-for-sharepoint/
 
 
 1. قم بتنشيط الميزة لمجموعات الموقع المحددة وتكوين تطبيقات الويب الأصلية الخاصة بهم.
-1.  عرض قائمة بتطبيقات الويب ومجموعات المواقع حيث تم نشر الميزة وتنشيطها.
+1. عرض قائمة بتطبيقات الويب ومجموعات المواقع حيث تم نشر الميزة وتنشيطها.
 
    **اكتمل التثبيت** 
 

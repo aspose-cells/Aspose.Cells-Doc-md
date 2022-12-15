@@ -8,7 +8,7 @@ url: /sv/reportingservices/supported-file-formats/
 |:- |:- |:- |:- |
 |RDL|Rapportens definitionsspråk|{{< emoticons/tick >}}||
 |RDLC|Rapportdefinition Språkklient|{{< emoticons/tick >}}||
-|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Sparar dokumentet i Microsoft Excel 97-2003-arbetsboken.||{{< emoticons/tick >}}|
+|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Sparar dokumentet i arbetsboken Microsoft Excel 97-2003.||{{< emoticons/tick >}}|
 |[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Sparar dokumentet i Office Open XML SpreadsheetML-arbetsbok eller mallfil, med eller utan makron.||{{< emoticons/tick >}}|
 |[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Sparar dokumentet i Excel Macro-Enabled Workbook.||{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Sparar dokumentet i Excel Binary Workbook.||{{< emoticons/tick >}}|

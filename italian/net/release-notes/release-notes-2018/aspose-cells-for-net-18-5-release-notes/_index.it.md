@@ -42,10 +42,10 @@ url: /it/net/aspose-cells-for-net-18-5-release-notes/
 |CELLSNET-46059|Impossibile aprire il file XLS poiché genera un'eccezione durante il caricamento|Eccezione|
 |CELLSNET-46097|Eccezione "Formula non valida:"'Nuovo' nome'!G11:G15"." durante l'aggiornamento dei dati del grafico pivot|Eccezione|
 |CELLSNET-46075|Eccezione durante il rendering di un file Excel in PDF|Eccezione|
-|CELLSNET-46101|NullReferenceExceptions all'apertura di file MS Excel su Mono Ubuntu Linux|Eccezione|
+|CELLSNET-46101|NullReferenceExceptions sull'apertura di file MS Excel su Mono Ubuntu Linux|Eccezione|
 |CELLSNET-46085|Eccezione quando si utilizza il metodo ListObject.ConvertToRange|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge nuove proprietà Cell.IsTableFormula/IsArrayFormula per sostituire Cell.IsInTable/IsInArray**
 Indica se una cella fa parte della formula della tabella o della formula di matrice. I vecchi nomi creano ambiguità, quindi li abbiamo resi obsoleti e ne abbiamo forniti di nuovi.
 #### **Aggiunge la classe IndividualFontConfigs**

@@ -56,11 +56,11 @@ url: /zh/java/apply-conditional-formatting-in-worksheets/
 
 **输出A1值小于50的Excel文件**
 
-![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_1.png)
+![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_1.png)
 
 **输出 A1 在 50 到 100 之间的 Excel 文件**
 
-![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_2.png)
+![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_2.png)
 
 ### **任务 2：使用 Aspose.Cells 应用基于公式的条件格式**
 
@@ -73,11 +73,11 @@ url: /zh/java/apply-conditional-formatting-in-worksheets/
 
 **输出B3值小于100的Excel文件**
 
-![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_3.png)
+![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_3.png)
 
 **输出B3大于100的Excel文件**
 
-![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_4.png)
+![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_4.png)
 
 ### **结论**
 

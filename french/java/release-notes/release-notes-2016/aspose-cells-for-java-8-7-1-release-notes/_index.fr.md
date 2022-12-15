@@ -4,11 +4,11 @@ type: docs
 weight: 130
 url: /fr/java/aspose-cells-for-java-8-7-1-release-notes/
 ---
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |
-|CELLSJAVA-41747 | Prise en charge du calcul de la fonction FORMULATEXT| Nouvelle fonctionnalité|
+|CELLSJAVA-41747 | Prise en charge du calcul de la fonction FORMULATEXT|Nouvelle fonctionnalité|
 |CELLSJAVA-41702 | Des colonnes supplémentaires sont ajoutées dans le fichier HTML de sortie| Punaise|
 |CELLSJAVA-41708 | Les colonnes sont manquantes dans la sortie HTML| Punaise|
 |CELLSJAVA-41720 | L'enregistrement d'une image au format SVG lors de la conversion d'une feuille de calcul en HTML entraîne une extension de fichier image incorrecte| Punaise|

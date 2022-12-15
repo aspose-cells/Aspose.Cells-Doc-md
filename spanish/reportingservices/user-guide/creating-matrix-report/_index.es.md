@@ -6,7 +6,7 @@ url: /es/reportingservices/creating-matrix-report/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells para Reporting Services le permite diseñar una matriz en Microsoft Excel.
+ Aspose.Cells for Reporting Services le permite diseñar una matriz en Microsoft Excel.
 
 {{% /alert %}} 
 ### **Plantilla de matriz**
@@ -69,7 +69,7 @@ Una vez que el archivo se ha abierto con éxito, toda su información está disp
 
 Consta de nombre, rango, grupo y orden.
 
-1. Al hacer clic en modificar atributos, se verifican y modifican todos los atributos de matriz de la hoja de cálculo actual.
+1. Al hacer clic en modificar atributos, se verifican y modifican todos los atributos de matriz de la hoja de trabajo actual.
 
 ![todo:imagen_alternativa_texto](creating-matrix-report_8.png)
 

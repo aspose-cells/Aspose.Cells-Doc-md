@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/reportingservices/delimiters/
 ---
-Raporlama Hizmetleri için Aspose.Cells, TXT veya CSV biçimini işlerken belirli bir sınırlayıcıyı destekler. Raporlama Servisleri için Aspose.Cells'deki alan sınırlayıcıyı iki ayar kontrol eder.
+Aspose.Cells for Reporting Services, TXT veya CSV biçimini işlerken belirli bir sınırlayıcıyı destekler. Aspose.Cells for Reporting Services'de alan sınırlayıcıyı iki ayar kontrol eder.
 
 1.  Alan sınırlayıcı parametresi**rsreportserver.config** yalnızca belirli bir işleme uzantısını kontrol edebilir.
 

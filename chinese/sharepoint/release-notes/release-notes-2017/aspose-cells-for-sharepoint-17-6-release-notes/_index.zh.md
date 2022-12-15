@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 用于 SharePoint 17.6 发行说明
+title: Aspose.Cells for SharePoint 17.6 发行说明
 type: docs
 weight: 40
 url: /zh/sharepoint/aspose-cells-for-sharepoint-17-6-release-notes/

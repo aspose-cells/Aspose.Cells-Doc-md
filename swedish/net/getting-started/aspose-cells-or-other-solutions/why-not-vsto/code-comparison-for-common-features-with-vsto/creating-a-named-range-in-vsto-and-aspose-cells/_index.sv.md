@@ -15,7 +15,7 @@ Så här skapar du ett namngivet intervall:
  1. Namnge intervallet.
  1. Spara filen.
 
-Kodexemplen nedan visar hur man utför dessa steg med VSTO med antingen C#. Kodexemplen som följer visar hur man gör samma sak med Aspose.Cells för .NET, igen med antingen C#.
+Kodexemplen nedan visar hur man utför dessa steg med VSTO med antingen C#. Kodexemplen som följer visar hur man gör samma sak med Aspose.Cells for .NET, igen med antingen C#.
 ## **VSTO**
 {{< highlight "csharp" >}}
 

@@ -18,7 +18,7 @@ url: /tr/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
 {{% /alert %}} 
 ## **Şeklin veya Metin Kutusunun Metin Efektlerinin Gölgesini Ayarlama**
- Aşağıdaki ekran görüntüsü[çıktı excel dosyası](5473446.xlsx) aşağıdaki örnek kod ile oluşturulmuştur. Ekran görüntüsü aynı zamanda değerini de gösterir.**Gölge** olarak ayarlanan**Ofset Alt**.
+Aşağıdaki ekran görüntüsü[çıktı excel dosyası](5473446.xlsx) aşağıdaki örnek kod ile oluşturulmuştur. Ekran görüntüsü aynı zamanda değerini de gösterir.**Gölge** olarak ayarlanan**Ofset Alt**.
 
 ![yapılacaklar:resim_alternatif_Metin](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 

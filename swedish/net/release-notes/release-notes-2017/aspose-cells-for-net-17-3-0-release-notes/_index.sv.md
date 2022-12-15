@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.3.0 Release Notes
+title: Aspose.Cells for .NET 17.3.0 Release Notes
 type: docs
 weight: 100
 url: /sv/net/aspose-cells-for-net-17-3-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 17.3.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.3.0/).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 17.3.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.3.0/).
 
 {{% /alert %}} 
 
@@ -70,12 +70,12 @@ url: /sv/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-43722|Filfel: data kan ha gått förlorade, kastade av Excel när du öppnade XLS|Insekt|
 |CELLSNET-45190|Undantag inträffade vid beräkning av formeln WORKDAY|Undantag|
 |CELLSNET-45199|Excel till PDF - Undantag för index utanför array|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Anpassa globaliseringsinställningarna för en pivottabell**
 Med den senaste versionen 17.3.0 eller senare kan utvecklare anpassa globaliseringsinställningarna för en pivottabell i en Excel-fil. De kan ändra pivotsumman, delsumman, totalsumman, alla artiklar, flera artiklar, kolumnetiketter, radetiketter, tomma värden enligt kraven. Utvecklare kan införliva den här funktionen i sina .NET-applikationer, oavsett Excel-textspråk. Det kan vara arabiska, hindi, polska, etc. Alla nya metoder som stöds listas nedan:
 
-1. **Lägger till metoden GlobalizationSettings.GetPivotTotalName().** Den får namnet "Total"-etiketten i pivottabellen. Utvecklare kan åsidosätta denna metod när pivottabellen innehåller två eller flera pivotfält i dataområdet.
+1. **Lägger till metoden GlobalizationSettings.GetPivotTotalName().** - Den får namnet "Total"-etiketten i pivottabellen. Utvecklare kan åsidosätta denna metod när pivottabellen innehåller två eller flera pivotfält i dataområdet.
 1. **Lägger till metoden GlobalizationSettings.GetPivotGrandTotalName().** - Den får namnet "Grand Total"-etiketten i pivottabellen.
 1. **Lägger till metoden GlobalizationSettings.GetMultipleItemsName().** - Den får namnet "(Flera artiklar)"-etiketten i pivottabellen.
 1. **Lägger till metoden GlobalizationSettings.GetAllName().** - Den får namnet "(Alla)"-etiketten i pivottabellen.

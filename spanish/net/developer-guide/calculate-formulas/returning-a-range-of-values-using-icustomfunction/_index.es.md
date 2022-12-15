@@ -22,7 +22,7 @@ url: /es/net/returning-a-range-of-values-using-icustomfunction/
 
  El siguiente código implementa[**IFunciónPersonalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)y devuelve el rango de valores a través de su método.
 
-Crear una clase con una función.*CalculateCustomFunction*. Esta clase implementa[**IFunciónPersonalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+ Crear una clase con una función.*CalculateCustomFunction*. Esta clase implementa[**IFunciónPersonalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 

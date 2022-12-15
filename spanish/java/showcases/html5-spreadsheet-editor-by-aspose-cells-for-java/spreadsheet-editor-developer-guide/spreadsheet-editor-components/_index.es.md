@@ -36,7 +36,7 @@ El WorkbookService es un bean back-end JSF con ámbito de vista. Funciona como u
 
 **en eso**
 
- los**en eso** es**PostConstrucción** método que se ejecuta justo después de que el servidor de aplicaciones Java complete la creación del objeto. comprueba si**URL** parámetro en el mapa de parámetros de solicitud y carga la hoja de cálculo correspondiente desde la ubicación dada, si es posible.
+ los**en eso** es**PostConstrucción** método que se ejecuta justo después de que el servidor de aplicaciones Java complete la creación del objeto. comprueba si**URL**parámetro en el mapa de parámetros de solicitud y carga la hoja de cálculo correspondiente desde la ubicación dada, si es posible.
 
 **destruir**
 

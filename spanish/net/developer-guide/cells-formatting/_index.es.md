@@ -20,7 +20,7 @@ Aplique diferentes tipos de estilos de formato en las celdas para establecer col
 
 ### **Uso de los métodos GetStyle y SetStyle**
 
- Si los desarrolladores necesitan aplicar diferentes estilos de formato a diferentes celdas, entonces es mejor obtener el[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) de la celda utilizando[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) método, especifique los atributos de estilo y luego aplique el formato usando[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)método. A continuación se proporciona un ejemplo para demostrar este enfoque para aplicar varios formatos en una celda.
+ Si los desarrolladores necesitan aplicar diferentes estilos de formato a diferentes celdas, entonces es mejor obtener el[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) de la celda usando[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) método, especifique los atributos de estilo y luego aplique el formato usando[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)método. A continuación se proporciona un ejemplo para demostrar este enfoque para aplicar varios formatos en una celda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingGetStyleSetStyle-1.cs" >}}
 
@@ -55,7 +55,7 @@ Aspose.Cells también admite esta función. Este tema explica cómo usamos esta 
 
  Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase contiene el[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. Cada artículo en el[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) colección representa un objeto de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)clase.
 
- los[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)la clase proporciona la[**Caracteres**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)método que toma los siguientes parámetros para seleccionar un rango de caracteres dentro de una celda:
+ los[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) la clase proporciona la[**Caracteres**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)método que toma los siguientes parámetros para seleccionar un rango de caracteres dentro de una celda:
 
 - **Índice de comienzo**, el índice del carácter desde el que comienza la selección.
 - **Número de caracteres**, el número de caracteres a seleccionar.
@@ -77,11 +77,11 @@ Para abordar este problema, Aspose.Cells proporciona una forma simple y rápida 
 
 ### **Formateo de filas y columnas**
 
- Aspose.Cells proporciona una clase, el[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. los[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)colección proporciona una[**Filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows)recopilación.
+ Aspose.Cells proporciona una clase, el[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. los[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)colección proporciona una[**filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows)recopilación.
 
 ### **Dar formato a una fila**
 
- Cada artículo en el[**Filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) colección representa un[**Fila**](https://reference.aspose.com/cells/net/aspose.cells/row) objeto. los[**Fila**](https://reference.aspose.com/cells/net/aspose.cells/row)objeto ofrece la[**AplicarEstilo**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) método utilizado para establecer el formato de la fila. Para aplicar el mismo formato a una fila, utilice el[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)objeto. Los pasos a continuación muestran cómo usarlo.
+ Cada artículo en el[**filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) colección representa un[**Fila**](https://reference.aspose.com/cells/net/aspose.cells/row) objeto. los[**Fila**](https://reference.aspose.com/cells/net/aspose.cells/row)objeto ofrece la[**AplicarEstilo**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) método utilizado para establecer el formato de la fila. Para aplicar el mismo formato a una fila, utilice el[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)objeto. Los pasos a continuación muestran cómo usarlo.
 
 1.  Agrega un[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objetar a la[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase llamando a su[**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle)método.
 1.  Selecciona el[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)propiedades del objeto para aplicar la configuración de formato.
@@ -102,7 +102,7 @@ Para abordar este problema, Aspose.Cells proporciona una forma simple y rápida 
 - [Establecer formatos condicionales de archivos Excel y ODS.](/cells/es/net/conditional-formatting/)
 - [Temas y colores de Excel](/cells/es/net/excel-themes-and-colors/)
 - [Ajustes de relleno](/cells/es/net/cells-fill-settings/)
-- [Configuración de fuente](/cells/es/net/cells-font-settings/)
+- [Configuración de fuentes](/cells/es/net/cells-font-settings/)
 - [Dar formato a la hoja de trabajo Cells en un libro de trabajo](/cells/es/net/format-worksheet-cells-in-a-workbook/)
 - [Implementar el sistema de fechas de 1904](/cells/es/net/implement-1904-date-system/)
 - [Fusión y desfusión Cells](/cells/es/net/merging-and-unmerging-cells/)

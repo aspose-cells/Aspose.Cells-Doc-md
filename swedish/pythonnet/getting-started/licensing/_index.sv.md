@@ -6,13 +6,13 @@ url: /sv/python-net/licensing/
 ---
 {{% alert color="primary" %}}
 
- Du kan enkelt ladda ner en utvärderingsversion av Aspose.Cells Python via .Net från dess[nedladdningssida](https://pypi.org/project/aspose-cells-python/) @ Pypi repos. Utvärderingsversionen ger absolut samma möjligheter som den licensierade versionen av komponenten. Dessutom blir utvärderingsversionen helt enkelt licensierad när du köper en licens och lägger till ett par rader kod för att tillämpa licensen.
+ Du kan enkelt ladda ner en utvärderingsversion av Aspose.Cells Python via .Net från dess[nedladdningssida](https://pypi.org/project/aspose-cells-python/) Pypi repos. Utvärderingsversionen ger absolut samma möjligheter som den licensierade versionen av komponenten. Dessutom blir utvärderingsversionen helt enkelt licensierad när du köper en licens och lägger till ett par rader kod för att tillämpa licensen.
 
 {{% /alert %}}
 
 ## **Begränsningar för utvärderingsversion**
 
-Utvärderingsversion av Aspose.Cells Python via .Net-produkt (utan angiven licens) ger full produktfunktionalitet, men den är begränsad till att öppna 100 filer i ett program och ett extra kalkylblad med utvärderingsvattenstämpel.
+Utvärderingsversionen av Aspose.Cells Python via .Net-produkt (utan en angiven licens) ger full produktfunktionalitet, men den är begränsad till att öppna 100 filer i ett program och ett extra kalkylblad med utvärderingsvattenstämpel.
 
 Begränsningarna visas nedan:
 
@@ -20,7 +20,7 @@ Begränsningarna visas nedan:
  När du kör ditt program kan du bara öppna 100 Excel-filer med Aspose.Cells Python via .Net-biblioteket. Om din ansökan överstiger detta antal kommer ett undantag att kastas.
 
 
-Dessutom kommer ett kalkylblad med utvärderingsvattenstämpel alltid att visas som det aktiva kalkylbladet i den genererade excel-filen med Aspose.Cells Python via bibliotek. Endast i licensierad version kan du ställa in det aktiva kalkylbladet till andra kalkylblad. I utdata-PDF- eller bildfilen av Aspose.Cells Python via, skulle en utvärderingsvattenstämpel klistras överst i dokumentet/bilden.
+Dessutom kommer ett kalkylblad med utvärderingsvattenstämpel alltid att visas som det aktiva kalkylbladet i den genererade excel-filen med Aspose.Cells Python via bibliotek. Endast i licensierad version kan du ställa in det aktiva kalkylbladet till andra kalkylblad. I utdata-PDF- eller bildfilen med Aspose.Cells Python via, skulle en utvärderingsvattenstämpel klistras överst i dokumentet/bilden.
 
 {{% alert color="primary" %}}
 
@@ -28,7 +28,7 @@ Dessutom kommer ett kalkylblad med utvärderingsvattenstämpel alltid att visas 
 
 {{% /alert %}}
 
-## **Applicera en licens i Aspose.Cells Python via komponent**
+## **Ansöka om en licens i Aspose.Cells Python via Component**
 
 Licensen är en XML-fil i vanlig text som innehåller detaljer som produktnamn, antal utvecklare den är licensierad till, prenumerationsutgångsdatum och så vidare. Filen är digitalt signerad, så ändra inte filen. Även oavsiktligt tillägg av en extra radbrytning i filen kommer att ogiltigförklara den. Du måste ställa in en licens innan du använder Aspose.Cells Python via om du vill undvika dess utvärderingsbegränsning. Det krävs bara att ställa in en licens en gång per ansökan (eller process). Licensen kan laddas från en fil.
 

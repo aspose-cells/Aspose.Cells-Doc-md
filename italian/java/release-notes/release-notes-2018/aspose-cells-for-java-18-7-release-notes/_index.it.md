@@ -24,8 +24,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.7.
 |CELLSJAVA-42669|Eccezione "java.lang.NullPointerException" durante il calcolo delle formule nella cartella di lavoro|Eccezione|
 |CELLSJAVA-42663|Chart.calculate() genera un'eccezione IndexOutOfBoundsException|Eccezione|
 |CELLSJAVA-42655|Eccezione: "Codifica non valida: null" durante il caricamento di un file XLS - II|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge enum StyleFlag.Alignments**
 Rappresenta tutte le impostazioni di allineamento.
 ### **Aggiunge le proprietà WorkbookSettings.MaxRow e WorkbookSettings.MaxColumn**

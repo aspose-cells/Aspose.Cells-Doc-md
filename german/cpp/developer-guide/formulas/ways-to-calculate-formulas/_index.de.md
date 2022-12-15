@@ -11,7 +11,7 @@ Aspose.Cells unterstützt die meisten Formeln oder Funktionen, die Teil von Micr
 
 Verwenden Sie die Methode Cell.Formula, um einer Zelle eine Formel hinzuzufügen. Wenn Sie eine Formel auf eine Zelle anwenden, beginnen Sie die Zeichenfolge immer mit einem Gleichheitszeichen (=), wie Sie es auch beim Erstellen einer Formel in Microsoft Excel tun. Verwenden Sie ein Komma (,), um Funktionsparameter zu begrenzen.
 
- Um die Ergebnisse von Formeln zu berechnen, rufen Sie die Methode Workbook.CalculateFormula() auf, die alle in einer Excel-Datei eingebetteten Formeln verarbeitet. Bitte sehen Sie sich den folgenden Beispielcode an, der die Formel hinzufügt und ihre Ergebnisse berechnet. Bitte überprüfen Sie die[Excel-Datei ausgeben](38109185.xlsx) mit diesem Code generiert.
+Um die Ergebnisse von Formeln zu berechnen, rufen Sie die Methode Workbook.CalculateFormula() auf, die alle in einer Excel-Datei eingebetteten Formeln verarbeitet. Bitte sehen Sie sich den folgenden Beispielcode an, der die Formel hinzufügt und ihre Ergebnisse berechnet. Bitte überprüfen Sie die[Excel-Datei ausgeben](38109185.xlsx) mit diesem Code generiert.
 
 **Beispielcode**
 

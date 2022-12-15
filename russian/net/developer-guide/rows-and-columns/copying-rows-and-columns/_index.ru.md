@@ -91,7 +91,7 @@ url: /ru/net/copying-rows-and-columns/
 
 ## **Вставка строк/столбцов с параметрами вставки**
 
- Aspose.Cells теперь предоставляет[**Параметры вставки**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) при использовании функций[**КопиРовс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) а также[**КопиКолонкс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). Это позволяет установить соответствующий параметр вставки, аналогичный Excel.
+ Aspose.Cells теперь обеспечивает[**Параметры вставки**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) при использовании функций[**КопиРовс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) а также[**КопиКолонкс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). Это позволяет установить соответствующий параметр вставки, аналогичный Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
 

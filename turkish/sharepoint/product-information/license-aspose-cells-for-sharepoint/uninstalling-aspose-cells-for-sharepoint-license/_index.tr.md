@@ -1,17 +1,17 @@
 ﻿---
-title: SharePoint Lisansı için Aspose.Cells'i Kaldırma
+title: Aspose.Cells for SharePoint Lisansını Kaldırma
 type: docs
 weight: 30
 url: /tr/sharepoint/uninstalling-aspose-cells-for-sharepoint-license/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells for SharePoint lisansını kaldırmak için lütfen sunucu konsolundan aşağıdaki adımları kullanın.
+ Aspose.Cells for SharePoint lisansını kaldırmak için lütfen sunucu konsolundan aşağıdaki adımları uygulayınız.
 
 {{% /alert %}} 
 
 1. Lisans çözümünü gruptan geri çekin:
-stsadm.exe -o retractsolution -adı Aspose.Cells.SharePoint.License.wsp -hemen
+ stsadm.exe -o retractsolution -adı Aspose.Cells.SharePoint.License.wsp -hemen
 1. Geri çekmeyi hemen tamamlamak için idari zamanlayıcı işlerini yürütün:
  stsadm.exe -o execadmsvcjobs
 1. Geri çekme işleminin tamamlanmasını bekleyin.

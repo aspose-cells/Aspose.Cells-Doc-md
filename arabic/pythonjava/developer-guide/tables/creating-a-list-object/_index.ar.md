@@ -43,7 +43,7 @@ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://refe
 
 وفقًا لنطاق الخلايا المحدد ، يتم إنشاء كائن القائمة في ورقة العمل بواسطة Aspose.Cells. استخدم السمات (على سبيل المثال ، ShowTotals و ListColumns وما إلى ذلك) من[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)فئة للسيطرة على القائمة.
 
-في المثال الموضح أدناه ، أنشأنا نفس الشيء[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)باستخدام Aspose.Cells لـ Python عبر Java API كما أنشأنا باستخدام Microsoft Excel في القسم أعلاه.
+في المثال الموضح أدناه ، أنشأنا نفس الشيء[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)باستخدام Aspose.Cells for Python via Java API كما أنشأنا باستخدام Microsoft Excel في القسم أعلاه.
 
 ## مصدر الرمز
 

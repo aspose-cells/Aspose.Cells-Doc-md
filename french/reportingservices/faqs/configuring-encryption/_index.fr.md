@@ -6,11 +6,11 @@ url: /fr/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells pour Reporting Services prend en charge le cryptage et vous pouvez restituer des fichiers Excel Microsoft cryptés.
+ Aspose.Cells for Reporting Services prend en charge le cryptage et vous pouvez afficher des fichiers Excel Microsoft cryptés.
 
 {{% /alert %}} 
 ### **Types de chiffrement**
-Aspose.Cells pour Reporting Services prend en charge le chiffrement lors de l'exportation de fichiers Excel. Il prend en charge trois types de chiffrement :
+Aspose.Cells for Reporting Services prend en charge le cryptage lors de l'exportation de fichiers Excel. Il prend en charge trois types de chiffrement :
 
 - XOR
 - CHIFFREMENT FAIBLE

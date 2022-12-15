@@ -7,7 +7,7 @@ description: Python kodlarını kullanarak Excel dosyalarının çalışma kitab
 ---
 {{% alert color="primary" %}}
 Diğer kullanıcıların gizli çalışma sayfalarını görüntülemesini, çalışma sayfalarını eklemesini, taşımasını, silmesini veya gizlemesini ve çalışma sayfalarını yeniden adlandırmasını engellemek için, Excel çalışma kitabınızın yapısını bir parola ile koruyabilirsiniz.
-Python için Aspose.Cells, Excel dosyalarının çalışma kitabı yapısını korumayı ve korumayı kaldırmayı destekler.
+Aspose.Cells for Python, Excel dosyalarının çalışma kitabı yapısını korumayı ve korumayı kaldırmayı destekler.
 {{% /alert %}}
 
 
@@ -20,12 +20,12 @@ Python için Aspose.Cells, Excel dosyalarının çalışma kitabı yapısını k
 1.  Seçme**TAMAM** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**TAMAM** Yeniden.
 
 
-## **Python için Aspose.Cell Kullanarak Çalışma Kitabı Yapısını Koruyun**
+## **Aspose.Cell for Python Kullanarak Çalışma Kitabı Yapısını Koruyun**
 Excel dosyalarının koruma çalışma kitabı yapısını uygulamak için yalnızca aşağıdaki basit kod satırlarına ihtiyaç vardır.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Workbook-Structure.py" >}}
 
-## **Python için Aspose.Cell Kullanarak Çalışma Kitabı Yapısının Korumasını Kaldırın**
+## **Aspose.Cell for Python Kullanarak Çalışma Kitabı Yapısının Korumasını Kaldırın**
 Aspose.Cells API ile çalışma kitabı yapısını korumadan kaldırmak kolaydır.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Workbook-Structure.py" >}}

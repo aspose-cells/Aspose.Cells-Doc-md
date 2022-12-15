@@ -6,7 +6,7 @@ url: /ar/java/display-or-hide-scroll-bars-in-php/
 ---
 ## **Aspose.Cells - عرض أو إخفاء أشرطة التمرير**
 ### **إخفاء أشرطة التمرير**
- لإخفاء أشرطة التمرير باستخدام ملفات**Aspose.Cells Java لـ PHP** ، مكالمة**أشرطة التمرير** وحدة.
+ لإخفاء أشرطة التمرير باستخدام ملفات**Aspose.Cells Java for PHP** ، مكالمة**أشرطة التمرير** وحدة.
 
 **كود PHP**
 
@@ -29,7 +29,7 @@ $workbook->getSettings()->setHScrollBarVisible(false);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**عرض أو إخفاء أشرطة التمرير (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)

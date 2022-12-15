@@ -55,7 +55,7 @@ Aspose.Cells bu özelliği de desteklemektedir. Bu konuda, bu özelliği nasıl 
 
  Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf bir sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
 
- bu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf sağlar[**Karakterler**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)bir hücre içindeki bir karakter aralığını seçmek için aşağıdaki parametreleri alan yöntem:
+ bu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf sağlar[**Karakterler**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)bir hücre içindeki bir karakter aralığını seçmek için aşağıdaki parametreleri alan yöntem:
 
 - **Dizini başlat**, seçimin başladığı karakterin dizini.
 - **Karakter sayısı**, seçilecek karakter sayısı.

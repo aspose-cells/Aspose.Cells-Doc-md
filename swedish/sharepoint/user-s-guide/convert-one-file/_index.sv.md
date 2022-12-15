@@ -10,7 +10,7 @@ url: /sv/sharepoint/convert-one-file/
 
 {{% /alert %}} 
 ### **Konvertera enskilda filer**
- Så här konverterar du ett visst dokument i ett dokumentbibliotek:
+Så här konverterar du ett visst dokument i ett dokumentbibliotek:
 
 1.  Välj**Konvertera med Aspose.Cells.SharePoint** i dokumentets redigeringskontrollblock (ECB).
 
@@ -24,7 +24,7 @@ Skärmen för konverteringsinställningar visas. Här kan du finjustera konverte
 
 1.  Välj destinationsfilformatet från**Konvertera till** lista.
 1.  Ange utdatafilens namn i**Destinationsfil** fält.
- Som standard fyller Aspose.Cells för SharePoint detta fält i förväg med namnet på källfilen.
+ Som standard fyller Aspose.Cells for SharePoint i detta fält med namnet på källfilen.
  Tillägget läggs till automatiskt enligt valt format.
 1.  Starta konverteringen genom att klicka**Konvertera**.
  (Eller gå tillbaka till biblioteket, avvisa dina inställningar, genom att klicka**Avbryt**.)

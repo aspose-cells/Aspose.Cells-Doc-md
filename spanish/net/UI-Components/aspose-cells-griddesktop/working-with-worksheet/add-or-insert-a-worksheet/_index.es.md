@@ -37,6 +37,6 @@ Para insertar una hoja de trabajo usando Aspose.Cells.GridDesktop, siga los paso
 
 {{% alert color="primary" %}} 
 
-IMPORTANTE: Microsoft Excel (97-2003 XLS) admite hojas de Excel con hasta 65 536 filas y 256 columnas. Aspose.Cells. GridDesktop sigue los mismos estándares. En el control Aspose.Cells.GridDesktop, los desarrolladores pueden agregar o insertar hojas de trabajo con más filas y columnas que el límite estándar, pero cuando intentan guardar los datos de Grid en un archivo de Excel, se genera una excepción. Significa que solo los datos contenidos en las 65 536 filas y las 256 columnas se pueden guardar en un archivo XLS de Excel usando Aspose.Cells.GridDesktop, si usa el formato de archivo XLSX (MS Excel 2007/2010), no existe tal limitación.
+IMPORTANTE: Microsoft Excel (97-2003 XLS) admite hojas de Excel con hasta 65 536 filas y 256 columnas. Aspose.Cells. GridDesktop sigue los mismos estándares. En el control Aspose.Cells.GridDesktop, los desarrolladores pueden agregar o insertar hojas de trabajo con más filas y columnas que el límite estándar, pero cuando intentan guardar los datos de Grid en un archivo de Excel, se genera una excepción. Significa que solo los datos contenidos en las 65 536 filas y las 256 columnas se pueden guardar en un archivo XLS de Excel usando Aspose.Cells.GridDesktop, si usa el formato de archivo XLSX (MS Excel 2007/2010), no existe tal limitación.
 
 {{% /alert %}}

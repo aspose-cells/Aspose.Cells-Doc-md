@@ -6,7 +6,7 @@ url: /sv/java/setting-page-options-in-php/
 ---
 ## **Aspose.Cells - Ställa in sidalternativ**
 ### **Sidorientering**
- För att tillämpa inställningar för sidorientering med**Aspose.Cells Java för PHP** , ringa upp**page_orientation** metod av**utskriftsformat** modul.
+ För att tillämpa inställningar för sidorientering med**Aspose.Cells Java for PHP** , ringa upp**page_orientation** metod av**utskriftsformat** modul.
 
 **PHP-kod**
 
@@ -46,7 +46,7 @@ url: /sv/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **Skalningsfaktor**
- För att tillämpa skalning med hjälp av**Aspose.Cells Java för PHP** , ringa upp**skalning** metod av**utskriftsformat** modul.
+ För att tillämpa skalning med**Aspose.Cells Java for PHP** , ringa upp**skalning** metod av**utskriftsformat** modul.
 
 **PHP-kod**
 

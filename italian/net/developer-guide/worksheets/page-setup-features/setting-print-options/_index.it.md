@@ -6,7 +6,7 @@ url: /it/net/setting-print-options/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Le impostazioni di impostazione della pagina di Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro.
+Le impostazioni di impostazione della pagina di Microsoft Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro.
 
 {{% /alert %}}
 
@@ -77,7 +77,7 @@ Le righe o le colonne che verranno ripetute vengono definite passando i loro num
 
 ### **Imposta l'ordine delle pagine**
 
- Il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)la classe fornisce il[**Ordine**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)proprietà utilizzata per ordinare la stampa di più pagine del foglio di lavoro. Ci sono due possibilità per ordinare le pagine come segue.
+ Il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la classe fornisce il[**Ordine**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)proprietà utilizzata per ordinare la stampa di più pagine del foglio di lavoro. Ci sono due possibilità per ordinare le pagine come segue.
 
 - **Giù poi sopra:** stampa tutte le pagine in basso prima di stampare quelle a destra.
 - **Sopra e poi giù:** stampa le pagine da sinistra a destra prima di stampare le pagine sottostanti.

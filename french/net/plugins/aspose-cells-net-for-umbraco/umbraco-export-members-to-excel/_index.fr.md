@@ -65,7 +65,7 @@ Une fois téléchargé, veuillez suivre ces étapes pour installer ce package su
 
 ## **Utilisant**
 
-Après avoir installé la macro, il est très simple de commencer à l'utiliser sur votre site Web :
+Après avoir installé la macro, il est très simple de commencer à l'utiliser sur votre site Web :
 
 1. Assurez-vous que vous êtes connecté à Umbraco**Développeur** section, par exemple `http://www.myblog.com/umbraco/`
 1.  Cliquez sur**Membres** dans la liste des rubriques en bas à gauche de l'écran.

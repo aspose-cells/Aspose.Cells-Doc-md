@@ -24,7 +24,7 @@ url: /ar/net/display-or-hide-row-column-headers-in-aspose-cells/
 
 ![ما يجب القيام به: image_بديل_نص](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
-يتم فتح Book1.xls عن طريق استدعاء الأسلوب Open لفئة المصنفات ويتم إخفاء رؤوس الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل باسم output.xls.
+يتم فتح Book1.xls عن طريق استدعاء الأسلوب Open لفئة المصنفات ويتم إخفاء رؤوس الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل كملف output.xls.
 
 **Output.xls: ورقة عمل بعد التعديل** 
 
@@ -62,7 +62,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Row%20Column%20Headers)
 
 ## **تنزيل نموذج التعليمات البرمجية**

@@ -8,7 +8,7 @@ description: Hantera dokumentegenskaper för kalkylbladsfiler.
 ---
 ## **Introduktion**
 
-Microsoft Excel ger möjlighet att lägga till egenskaper till kalkylbladsfiler. Dessa dokumentegenskaper ger användbar information och är indelade i två kategorier enligt beskrivningen nedan.
+Microsoft Excel ger möjlighet att lägga till egenskaper till kalkylarksfiler. Dessa dokumentegenskaper ger användbar information och är indelade i två kategorier enligt beskrivningen nedan.
 
 - Systemdefinierade (inbyggda) egenskaper: Inbyggda egenskaper innehåller allmän information om dokumentet som dokumenttitel, författarens namn, dokumentstatistik och så vidare.
 - Användardefinierade (anpassade) egenskaper: Anpassade egenskaper definierade av slutanvändaren i form av namn-värdepar.
@@ -46,15 +46,15 @@ Utvecklare kan hantera dokumentegenskaperna dynamiskt med hjälp av Aspose.Cells
 
 {{% alert color="primary" %}}
 
- Aspose.Cells för .NET skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, vid rendering av dokument till PDF, fylls Aspose.Cells för .NET**Ansökan** fält med värdet 'Aspose.Cells' och**PDF-producent** fält med värdet, t.ex. 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, vid rendering av dokument till PDF, fylls Aspose.Cells for .NET**Ansökan** fält med värdet 'Aspose.Cells' och**PDF-producent** fält med värdet, t.ex. 'Aspose.Cells v17.9'.
 
-Observera att du inte kan instruera Aspose.Cells för .NET att ändra eller ta bort denna information från utdatadokument.
+Observera att du inte kan instruera Aspose.Cells for .NET att ändra eller ta bort denna information från utdatadokument.
 
 {{% /alert %}}
 
 ### **Åtkomst till dokumentegenskaper**
 
-Aspose.Cells API:er stöder båda typerna av dokumentegenskaper, inbyggda och anpassade. Aspose.Cells'[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass representerar en Excel-fil och, liksom en Excel-fil, den[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass kan innehålla flera kalkylblad, var och en representerad av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass medan samlingen av kalkylblad representeras av[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)klass.
+ Aspose.Cells API:er stöder båda typerna av dokumentegenskaper, inbyggda och anpassade. Aspose.Cells'[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass representerar en Excel-fil och, liksom en Excel-fil, den[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass kan innehålla flera kalkylblad, var och en representerad av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass medan samlingen av kalkylblad representeras av[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)klass.
 
  Använd[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)för att komma åt filens dokumentegenskaper enligt beskrivningen nedan.
 
@@ -82,7 +82,7 @@ Aspose.Cells API:er stöder båda typerna av dokumentegenskaper, inbyggda och an
 |**Medlemsnamn**|**Beskrivning**|**ToXXX-metoden**|
 |:- |:- |:- |
 |Boolean|Egenskapsdatatypen är boolesk|ToBool|
-|Datum| Egenskapsdatatypen är DateTime. Observera att Microsoft Excel endast lagrar<br>datumdelen, ingen tid kan lagras i en anpassad egenskap av denna typ|ToDateTime|
+|Datum|Egenskapsdatatypen är DateTime. Observera att endast Microsoft Excel-butiker<br>datumdelen, ingen tid kan lagras i en anpassad egenskap av denna typ|ToDateTime|
 |Flyta|Egenskapsdatatypen är dubbel|Att dubblera|
 |siffra|Egenskapsdatatypen är Int32|ToInt|
 |Sträng|Egenskapens datatyp är String|Att stränga|
@@ -95,7 +95,7 @@ Som vi har beskrivit tidigare i början av detta ämne kan utvecklare inte lägg
 
 ### **Lägga till anpassade egenskaper**
 
- Aspose.Cells API:er har avslöjat[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index)metod för[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) klass för att lägga till anpassade egenskaper till samlingen. De[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) metod lägger till egenskapen i Excel-filen och returnerar en referens för den nya dokumentegenskapen som en[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)objekt.
+ Aspose.Cells API:er har avslöjat[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) metod för[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) klass för att lägga till anpassade egenskaper till samlingen. De[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) metod lägger till egenskapen i Excel-filen och returnerar en referens för den nya dokumentegenskapen som en[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)objekt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
 

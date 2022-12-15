@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Reporting Services 21.8 Release Notes
+title: Aspose.Cells for Reporting Services 21.8 Release Notes
 type: docs
 url: /sv/reportingservices/aspose-cells-for-reporting-services-21-8-release-notes/
 weight: 14
@@ -11,5 +11,5 @@ Den här sidan innehåller utgåvor för Aspose.Cells Reporting Services 21.8
 |**ID**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |19820 |Uppdatering Aspose.Cells ReportingService MSI eula| Uppgift|
-|19860 |Stöd för att exportera JPG-fil.| Ny funktion|
+|19860 |Stöd för att exportera JPG-fil.|Ny funktion|
 |20608 |Uppgradera Aspose.Cells.DLL till 21.8.| Förbättring|

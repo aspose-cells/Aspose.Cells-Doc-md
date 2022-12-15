@@ -6,7 +6,7 @@ url: /tr/cpp/manage-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-Geliştiriciler, Microsoft Excel dosyalarındaki çalışma sayfalarını programlı olarak Aspose.Cells esnek API kullanarak kolayca oluşturabilir ve yönetebilir. Bu konuda, Microsoft Excel dosyalarına çalışma sayfası ekleme ve kaldırma yaklaşımları açıklanmaktadır.
+Geliştiriciler, Microsoft Excel dosyalarındaki çalışma sayfalarını programlı olarak Aspose.Cells esnek API kullanarak kolayca oluşturabilir ve yönetebilir. Bu konu, Microsoft Excel dosyalarına çalışma sayfası ekleme ve kaldırma yaklaşımlarını açıklamaktadır.
 
 {{% /alert %}} 
 

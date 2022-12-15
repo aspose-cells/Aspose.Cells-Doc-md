@@ -16,9 +16,9 @@ Så här konfigurerar du en klientrapportserver-URL:
 
 1. Mata in information om rapportserverns konfiguration (URL, användarnamn och lösenord).
  1. Rapportserverns URL måste vara i formatet http://host/ReportServer. Till exempel http://172.16.204.11/ReportServer.
-1. Användarnamnet är Window Server-användarnamnet. Till exempel administratör.
+ 1. Användarnamnet är Window Server-användarnamnet. Till exempel administratör.
  1. Lösenordet är användarlösenordet för Windows Server. Till exempel 123456.
- 1. Standardvärdet för domänen är null.
+1. Standardvärdet för domänen är null.
 1.  Klicka på**Testa** för att kontrollera konfigurationsinformation.
 1.  Klick**Spara** och spara rapportserverns konfigurationsinformation.
 

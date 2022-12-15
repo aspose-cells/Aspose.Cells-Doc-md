@@ -1,5 +1,5 @@
 ﻿---
-title: Raporlama Hizmetleri 21.8 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 21.8 Sürüm Notları
 type: docs
 url: /tr/reportingservices/aspose-cells-for-reporting-services-21-8-release-notes/
 weight: 14
@@ -11,5 +11,5 @@ Bu sayfa Aspose.Cells Reporting Services 21.8 için sürüm notları içerir
 |**İD**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |19820 |Güncelleme Aspose.Cells ReportingService MSI eula| Görev|
-|19860 |JPG dosyasını dışa aktarma desteği.| Yeni özellik|
+|19860 |JPG dosyasını dışa aktarma desteği.|Yeni özellik|
 |20608 |Aspose.Cells.DLL'yi 21.8'e yükseltin.| Gelişme|

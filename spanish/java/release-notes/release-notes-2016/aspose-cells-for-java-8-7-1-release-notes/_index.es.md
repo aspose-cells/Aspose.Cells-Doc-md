@@ -8,7 +8,7 @@ url: /es/java/aspose-cells-for-java-8-7-1-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSJAVA-41747 | Soporte para calcular la función FORMULATEXTO| Nueva caracteristica|
+|CELLSJAVA-41747 | Soporte para calcular la función FORMULATEXTO|Nueva caracteristica|
 |CELLSJAVA-41702 | Se agregan columnas adicionales en el archivo HTML de salida| Insecto|
 |CELLSJAVA-41708 | Faltan columnas en la salida HTML| Insecto|
 |CELLSJAVA-41720 | Guardar la imagen en SVG al convertir la hoja de cálculo a HTML da como resultado una extensión de archivo de imagen incorrecta| Insecto|

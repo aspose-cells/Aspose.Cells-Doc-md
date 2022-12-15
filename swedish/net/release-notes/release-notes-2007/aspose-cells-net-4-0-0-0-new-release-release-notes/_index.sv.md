@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-4-0-0-0-new-release-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET V4.0!
+ Vi har släppt Aspose.Cells for .NET V4.0!
 
 - Klassnamnsändring: ExcelHelper->CellsHelper, ExcelException->CellsException
 - Formad AutoFitRow-metod för att göra den mer exakt

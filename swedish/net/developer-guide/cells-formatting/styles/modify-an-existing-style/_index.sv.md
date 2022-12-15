@@ -10,7 +10,7 @@ Om du vill använda samma formateringsalternativ på celler skapar du ett nytt f
 
 Du kan också använda en befintlig stil, spara den med arbetsboken och använda för att formatera information med samma attribut.
 
- När celler inte är explicit formaterade,**Vanligt** stil (arbetsbokens standardstil) tillämpas. Microsoft Excel fördefinierar flera stilar utöver den normala stilen inklusive komma, valuta och procent.
+ När celler inte är explicit formaterade,**Vanligt** stil (arbetsbokens standardstil) tillämpas. Microsoft Excel fördefinierar flera stilar utöver stilen Normal, inklusive komma, valuta och procent.
 
 Aspose.Cells tillåter modifiering av någon av dessa stilar eller någon annan stil som du definierar med dina önskade attribut.
 

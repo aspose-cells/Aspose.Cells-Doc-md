@@ -16,7 +16,7 @@ Les références circulaires ne peuvent être détectées que lorsque la formule
 
 [**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) : sera invoqué par le moteur de calcul de formule lorsqu'il rencontrera des références circulaires, l'élément dans l'énumérateur est[**CelluleCalcul**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) objets qui représentent toutes les cellules d'un cercle. La valeur renvoyée indique si le moteur de formule doit calculer ces cellules en circulaire après cet appel.
 
-L'utilisateur peut rassembler ces références circulaires dans la mise en œuvre de[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) méthode.
+ L'utilisateur peut rassembler ces références circulaires dans la mise en œuvre de[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) méthode.
 
 Le fichier d'exemple source peut être téléchargé à partir du lien suivant :
 
@@ -24,6 +24,6 @@ Le fichier d'exemple source peut être téléchargé à partir du lien suivant 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
- Définition de*CirculaireMoniteur* classe dérivée de[**RésuméCalculMoniteur**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) classe est la suivante :
+Définition de*CirculaireMoniteur* classe dérivée de[**RésuméCalculMoniteur**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) classe est la suivante :
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

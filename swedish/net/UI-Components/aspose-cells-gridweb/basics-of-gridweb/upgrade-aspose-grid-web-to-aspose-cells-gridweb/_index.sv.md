@@ -20,7 +20,7 @@ Det är inte svårt att uppgradera till den senaste Aspose.Cells.GridWeb-kompone
 
 {{% alert color="primary" %}}
 
-Det finns några ändringar i API:t eftersom klasserna med medlemmarna, strukturerna, uppräkningarna etc. förblir desamma. De flesta ändringarna har gjorts i kontrollens namnrymder och andra taggar eller attribut.
+Det finns några ändringar i API eftersom klasserna med medlemmarna, strukturer, uppräkningar etc. förblir desamma. De flesta ändringarna har gjorts i kontrollens namnrymder och andra taggar eller attribut.
 
 {{% /alert %}}
 
@@ -29,7 +29,7 @@ Följande är namnutrymmeslistan och andra attribut/taggar som ändras nu:
 1. Namnutrymmet Aspose.Grid.Web har bytt namn till Aspose.Cells.GridWeb.
 1. Namnutrymmet Aspose.Grid.Web.Data har bytt namn till Aspose.Cells.GridWeb.Data.
 1. Namnutrymmet Aspose.Grid.Web.Design har bytt namn till Aspose.Cells.GridWeb.Design.
-1. Namnutrymmet Aspose.Grid.Formula bytte namn till Aspose.Cells.GridFormula, och med de senaste utgåvorna av komponenten togs nämnda namnutrymme helt bort från det offentliga API:et.
+1. Namnutrymmet Aspose.Grid.Formula bytte namn till Aspose.Cells.GridFormula, och med de senaste utgåvorna av komponenten togs nämnda namnutrymme helt bort från det offentliga API.
 1. Taggen agw:GridWeb har ändrats till acw:GridWeb i aspx-formen.
 1. Den äldre Aspose.Grid.Webklientsökvägen, agw_klient, har ändrats till acw_klient för Aspose.Cells.GridWeb .
 1.  Klientsökvägsinställningen i web.config-filen, till exempel:

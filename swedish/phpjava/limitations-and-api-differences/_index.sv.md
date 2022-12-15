@@ -1,18 +1,18 @@
 ﻿---
-title: Begränsningar och API-skillnader
+title: Begränsningar och API Skillnader
 type: docs
 weight: 10
 url: /sv/php-java/limitations-and-api-differences/
 keywords: php, excel, limitation, api, difference
-description: Aspose.Cells för PHP via Java-begränsningar och api-skillnader
+description: Aspose.Cells for PHP via Java begränsningar och API-skillnader
 ---
-## **Offentliga API-skillnader**
+## **Offentlig API Skillnader**
 
 
-Följande lista (med exempelkodsegment) visar några skillnader mellan Aspose.Cells för Java och Aspose.Cells för PHP via Java API:er.
+Följande lista (med exempelkodsegment) visar några skillnader mellan Aspose.Cells for Java och Aspose.Cells for PHP via Java API:er.
 ### **Importera bibliotek (paketjämförelser)**
 
-**Aspose.Cells för Java**
+**Aspose.Cells for Java**
 
 {{< highlight "java" >}}
 
@@ -20,7 +20,7 @@ Följande lista (med exempelkodsegment) visar några skillnader mellan Aspose.Ce
 
 {{< /highlight >}}
 
-**Aspose.Cells för PHP via Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -37,7 +37,7 @@ use aspose\cells\Workbook;
 
 ### **Instantierar en ny arbetsbok**
 
-**Aspose.Cells för Java**
+**Aspose.Cells for Java**
 
 {{< highlight "java" >}}
 
@@ -46,7 +46,7 @@ use aspose\cells\Workbook;
 {{< /highlight >}}
 
 
-**Aspose.Cells för PHP via Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -57,7 +57,7 @@ use aspose\cells\Workbook;
 
 ### **Uppräkningar eller konstanter**
 
-**Aspose.Cells för Java**
+**Aspose.Cells for Java**
 
 {{< highlight "java" >}}
 
@@ -67,7 +67,7 @@ use aspose\cells\Workbook;
 
 
 
-**Aspose.Cells för PHP via Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -78,7 +78,7 @@ use aspose\cells\Workbook;
 
 ### **Exempel**
 
-**Aspose.Cells för Java**
+**Aspose.Cells for Java**
 
 {{< highlight "java" >}}
 
@@ -118,7 +118,7 @@ public class Test1 {
 
 
 
-**Aspose.Cells för PHP via Java**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -159,7 +159,7 @@ $workbook->save("out1.xlsx");
 {{< /highlight >}}
 
 
-## **Andra begränsningar av Aspose.Cells för PHP via Java API jämfört med Aspose.Cells för Java API**
+## **Andra begränsningar för Aspose.Cells for PHP via Java API jämfört med Aspose.Cells for Java API**
 1. Import/export av data från en Array, ArrayList, ResultSet etc. stöds inte.
 1. Utskrift stöds inte.
 

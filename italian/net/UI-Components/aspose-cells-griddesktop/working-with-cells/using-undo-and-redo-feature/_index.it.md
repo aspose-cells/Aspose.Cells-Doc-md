@@ -10,25 +10,25 @@ La funzione Annulla/Ripristina di GridDesktop è molto utile. Il nome spiega la 
 
 {{% /alert %}} 
 ## **Esecuzione di operazioni di annullamento e ripristino**
-Le seguenti API sono disponibili per l'attività. La descrizione è data con ogni API, si prega di controllarli.
+Le seguenti API sono disponibili per l'attività. La descrizione è fornita con ciascuna API, controllale.
 
 - **GridDesktop.EnableAnnulla** - attributo: indica se la funzione Undo è abilitata, il valore di default è "false".
 - **Annulla Manager** – classe: viene utilizzata per gestire l'operazione di annullamento/ripristino.
 - **GridDesktop.UndoManager** – attributo: ottiene l'istanza di the**Annulla Manager** oggetto.
 - **AnnullaManager.Annulla** – metodo: esegue un'operazione di annullamento.
-- **UndoManager.Redo -** metodo: esegue l'operazione di ripristino.
+- **UndoManager.Redo -**metodo: esegue l'operazione di ripristino.
 - **UndoManager.ClearStack** – metodo: cancella lo stack annulla/ripristina.
 - **UndoManager.UndoStepsCount** – attributo: ottiene il conteggio degli attuali passaggi di annullamento disponibili.
 - **UndoManager.RedoStepsCount** – attributo: ottiene il conteggio degli attuali passaggi di ripetizione disponibili.
 - **UndoManager.UndoStackSize** – attributo: ottiene/imposta la dimensione dello stack di annullamento.
 ### **Annullare**
-Il codice di esempio seguente mostra come implementare l'operazione Annulla usando GridDesktop API.
+Il codice di esempio seguente mostra come implementare l'operazione Undo usando l'API GridDesktop.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UndoRedoFeature-Undo.cs" >}}
 ### **Rifare**
-Il codice di esempio seguente mostra come implementare l'operazione Redo usando GridDesktop API.
+Il codice di esempio seguente mostra come implementare l'operazione Redo usando l'API GridDesktop.
 
 
 

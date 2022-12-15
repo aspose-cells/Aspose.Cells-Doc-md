@@ -8,10 +8,10 @@ url: /it/net/aspose-cells-for-net-8-9-1-release-notes/
 
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
-|CELLSNET-44274 |Supporta il tipo di carattere TTE durante il rendering dei fogli di calcolo in PDF| Nuova caratteristica|
+|CELLSNET-44274 | Supporta il tipo di carattere TTE durante il rendering dei fogli di calcolo in PDF| Nuova caratteristica|
 |CELLSNET-42277 | Usa caratteri privati nel rendering PDF| Aumento|
 |CELLSNET-44630 | Formattazione numeri (DateTime) persa durante l'importazione di dati da DataGrid (.NET)| Aumento|
-|CELLSNET-44626 | Il grafico copiato con CopyRows fa ancora riferimento al foglio di lavoro di origine in Intervallo dati grafico| Aumento|
+|CELLSNET-44626 |Il grafico copiato con CopyRows fa ancora riferimento al foglio di lavoro di origine in Intervallo dati grafico| Aumento|
 |CELLSNET-44619 | Converti stringa di data in formato data| Aumento|
 |CELLSNET-44625 | Colspan as 2 aumenta drasticamente il tempo di caricamento e conversione dell'HTML| Prestazione|
 |CELLSNET-44338 | Degrado delle prestazioni durante il rendering dei fogli di calcolo in PDF| Prestazione|
@@ -24,9 +24,9 @@ url: /it/net/aspose-cells-for-net-8-9-1-release-notes/
 |CELLSNET-44579 | Da MHTML a XLS/XLSX torna come documento vuoto| Insetto|
 |CELLSNET-44572 | Problema con i collegamenti ipertestuali che fanno riferimento a un foglio di lavoro nello stesso documento| Insetto|
 |CELLSNET-44617 | La formula SumProduct non è calcolata correttamente| Insetto|
-|CELLSNET-44604 |Testo mancante dopo la conversione da XLS a Pdf/A| Insetto|
+|CELLSNET-44604 | Testo mancante dopo la conversione da XLS a Pdf/A| Insetto|
 |CELLSNET-44603 | Problema di allineamento verticale con il contenuto della cella che tocca il bordo superiore durante il rendering dei fogli di calcolo in PDF| Insetto|
-|CELLSNET-44602 | Problema di allineamento orizzontale con valori preceduti dal segno $ durante il rendering dei fogli di calcolo in PDF| Insetto|
+|CELLSNET-44602 |Problema di allineamento orizzontale con valori preceduti dal segno $ durante il rendering dei fogli di calcolo in PDF| Insetto|
 |CELLSNET-42715 | Font persi nel PDF| Insetto|
 |CELLSNET-44637 | Il risultato di CalculateTextSize è sempre l'altezza predefinita se il testo in un TextBox contiene nuove righe| Insetto|
 |CELLSNET-44635 | Il grafico non è corretto nel sample2.xlsx (conversione da Excel a PDF)| Insetto|
@@ -37,8 +37,8 @@ url: /it/net/aspose-cells-for-net-8-9-1-release-notes/
 |CELLSNET-44570 | Problema con la formattazione della forma WordArt nel file PDF sottoposto a rendering| Insetto|
 |CELLSNET-44655 | L'allineamento non funziona all'interno di un TextBox| Insetto|
 |CELLSNET-44646 | Il file è danneggiato (con il collegamento ipertestuale diventa testo normale) dopo essere stato elaborato dalle API Aspose.Cells| Insetto|
-|CELLSNET-44639 |Reincorporando la diapositiva della presentazione in XLS si ottiene la visualizzazione della presentazione con un doppio clic| Insetto|
-|CELLSNET-44631 | Errore di Excel "Impossibile avviare l'applicazione di origine per questo oggetto" dopo aver reinserito l'OleObject di tipo Bitmap| Insetto|
+|CELLSNET-44639 | Reincorporando la diapositiva della presentazione in XLS si ottiene la visualizzazione della presentazione con un doppio clic| Insetto|
+|CELLSNET-44631 |Errore di Excel "Impossibile avviare l'applicazione di origine per questo oggetto" dopo aver reinserito l'OleObject di tipo Bitmap| Insetto|
 |CELLSNET-44629 | La formula genera un errore #REF dopo aver copiato le righe e aver calcolato le formule| Insetto|
 |CELLSNET-44624 | Il formato della data non viene mantenuto durante il salvataggio come file SpeadsheetML| Insetto|
 |CELLSNET-44618 | L'inserimento di un intervallo di celle fa scomparire lo sfondo per alcune celle| Insetto|
@@ -54,13 +54,13 @@ url: /it/net/aspose-cells-for-net-8-9-1-release-notes/
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 |CELLSNET-41833 | Problema durante l'utilizzo del formato numerico Percentage2| Nuova caratteristica|
-|CELLSNET-44592 |La barra di scorrimento verticale viene visualizzata per il contenitore quando l'altezza di GridWeb è impostata su 100%| Insetto|
-|CELLSNET-44576 | Il cursore non si sposta quando ShowCellEditBox è impostato su true| Insetto|
+|CELLSNET-44592 | La barra di scorrimento verticale viene visualizzata per il contenitore quando l'altezza di GridWeb è impostata su 100%| Insetto|
+|CELLSNET-44576 |Il cursore non si sposta quando ShowCellEditBox è impostato su true| Insetto|
 |CELLSNET-44575 | L'unione delle celle la seconda volta non funziona| Insetto|
 |CELLSNET-44555 | Problema nell'impostazione del valore di una cella con formato percentuale| Insetto|
 |CELLSNET-44652 | GridDesktop non ha limiti di valutazione se utilizzato nell'applicazione WPF| Insetto|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà CopyOptions.ReferToDestinationSheet e il metodo Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)**
 Specifica se fare riferimento al foglio di lavoro di destinazione (come origine dati per il grafico) durante la copia di righe/intervallo.
 Quando si copia l'intervallo e il grafico fa riferimento al foglio di origine, False significa che l'origine dati del grafico copiato non verrà modificata. True significa che l'origine dati del grafico copiato fa riferimento al foglio di destinazione.

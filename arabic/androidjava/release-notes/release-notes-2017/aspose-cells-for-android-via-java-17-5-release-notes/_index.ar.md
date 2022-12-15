@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 17.5 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 17.5 ملاحظات الإصدار
 type: docs
 weight: 30
 url: /ar/java/aspose-cells-for-android-via-java-17-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لنظام Android عبر Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
+تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for Android via Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
 
 {{% /alert %}} 
 
@@ -168,7 +168,7 @@ url: /ar/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42278|استثناء: "java.lang.IndexOutOfBoundsException: الفهرس: 12 ، الحجم: 12" عند الحفظ بتنسيق ملف HTML|استثناء|
 |CELLSJAVA-42274|استثناء: "java.lang.StringIndexOutOfBoundsException: فهرس السلسلة خارج النطاق: 0" عند تحميل ملف XLSX|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 ### **إضافة أداة ضبط الخاصية LoadFilter.LoadDataFilterOptions لاستبدال متغير m_LoadDataFilterOptions**
 يجوز للمستخدم تغيير خاصية LoadDataFilterOptions في تطبيق LoadFilter لتغيير سلوك تحميل المصنف.
 ### **يضيف خاصية CellsHelper.SignificantDigits.**
@@ -245,6 +245,6 @@ url: /ar/java/aspose-cells-for-android-via-java-17-5-release-notes/
 
 {{% alert color="primary" %}} 
 
-نظرًا لأن قاعدة رمز Aspose.Cells لنظام Android عبر Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v17.1.0 و Aspose.Cells for .NET v17.2.0 for .NET v17.2.0 for .NET 3.0 ، Aspose.Cells for .NET v17.4.0 ، Aspose.Cells for .NET v17.5 ، Aspose.Cells for Java v17.1.0 ، Aspose.Cells for Java v17.2.0 ، Aspose.Cells for Java v17.3.0 ، Aspose.Cells 07.41348 Android عبر Java v17.5.
+نظرًا لأن قاعدة الكود الخاصة بـ Aspose.Cells for Android via Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v17.1.0 ، Aspose.Cells for .NET v17348.21 ، 07.361.0 Aspose.Cells for .NET v17.4.0 ، Aspose.Cells for .NET v17.5 ، Aspose.Cells for Java v17.1.0 ، Aspose.Cells for Java v17.2.0 ، Aspose.Cells for Java v17.3.0 ، Aspose.Cells 07612.523 v1.761213481 07648.023 v17.3.0 ، Aspose.Cells 07612.548 .5.
 
 {{% /alert %}}

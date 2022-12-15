@@ -18,13 +18,13 @@ Aspose.Cells 提供了[**FindOptions.setRange()**](https://reference.aspose.com/
 
 **输入文件**
 
-![待办事项：图片_替代_文本](search-and-replace-data-in-a-range_1.png)
+![待办事项：图像_替代_文本](search-and-replace-data-in-a-range_1.png)
 
 代码执行后，输出文件如下所示。范围内的所有“搜索”字符串都已替换为“替换”。
 
 **输出文件**
 
-![待办事项：图片_替代_文本](search-and-replace-data-in-a-range_2.png)
+![待办事项：图像_替代_文本](search-and-replace-data-in-a-range_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchReplaceDataInRange-SearchReplaceDataInRange.java" >}}
 

@@ -32,7 +32,7 @@ description: حماية وإلغاء حماية ورقة عمل ملفات Excel
 
 ## **موضوعات مسبقة**
 - [إعدادات الحماية المتقدمة منذ Excel XP](/cells/ar/net/advanced-protection-settings-since-excel-xp/)
-- [اكتشف ما إذا كانت ورقة العمل محمية بكلمة مرور](/cells/ar/net/detect-if-worksheet-is-password-protected/)
+- [اكتشاف ما إذا كانت ورقة العمل محمية بكلمة مرور](/cells/ar/net/detect-if-worksheet-is-password-protected/)
 - [حماية أوراق العمل](/cells/ar/net/protecting-worksheets/)
 - [قم بإلغاء حماية ورقة العمل](/cells/ar/net/unprotect-a-worksheet/)
 - [تحقق من كلمة المرور المستخدمة لحماية ورقة العمل](/cells/ar/net/verify-password-used-to-protect-the-worksheet/)

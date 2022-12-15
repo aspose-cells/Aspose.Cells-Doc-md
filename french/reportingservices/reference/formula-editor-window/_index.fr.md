@@ -1,5 +1,5 @@
 ﻿---
-title: Fenêtre de l'éditeur de formule
+title: Fenêtre de l'éditeur de formules
 type: docs
 weight: 20
 url: /fr/reportingservices/formula-editor-window/
@@ -44,7 +44,7 @@ La boîte de dialogue comporte plusieurs contrôles :
 | annuler| Annule une action.|
 | Pâte| Colle une chaîne de caractères composée des composants répertoriés dans la zone de formule dans la zone d'édition.|
 | Insérer| Prend la valeur dans la zone d'édition et l'insère sous forme de formule dans une cellule.|
-| Sortir| Ferme l'Editeur de formules.|
+| Sortir| Ferme l'Editeur de formule.|
 {{% alert color="primary" %}} 
 
 Rubriques connexes:

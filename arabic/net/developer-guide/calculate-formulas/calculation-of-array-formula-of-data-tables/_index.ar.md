@@ -16,6 +16,6 @@ url: /ar/net/calculation-of-array-formula-of-data-tables/
 
 ![ما يجب القيام به: image_بديل_نص](calculation-of-array-formula-of-data-tables_2.png)
 
-فيما يلي نموذج التعليمات البرمجية المستخدمة لإنشاء ملف[إخراج PDF](5115538.pdf) من[ملف اكسل المصدر](5115535.xlsx). يرجى قراءة التعليقات لمزيد من المعلومات.
+ فيما يلي نموذج التعليمات البرمجية المستخدمة لإنشاء ملف[إخراج PDF](5115538.pdf) من[ملف اكسل المصدر](5115535.xlsx). يرجى قراءة التعليقات لمزيد من المعلومات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

@@ -22,7 +22,7 @@ Aspose.Cells for .NET prend en charge la conversion de feuilles de calcul en PDF
 1.  Instancier un objet de la**Cahier** classe en appelant son constructeur vide.
 1.  Tu peux**ouvrir/charger** un fichier de modèle existant ou ignorez cette étape si vous créez le classeur à partir de rien.
 1. Effectuez le travail souhaité (saisissez des données, appliquez une mise en forme, définissez des formules, insérez des images ou d'autres objets de dessin, etc.) sur la feuille de calcul à l'aide des API Aspose.Cells.
-1. Lorsque le code de la feuille de calcul est terminé, appelez le**Méthode Save de la classe Workbook** pour enregistrer la feuille de calcul. Le format de fichier doit être PDF. Sélectionnez donc Pdf (une valeur prédéfinie) dans l'énumération SaveFormat pour générer le document PDF final.
+1.  Lorsque le code de la feuille de calcul est terminé, appelez le**Méthode Save de la classe Workbook** pour enregistrer la feuille de calcul. Le format de fichier doit être PDF. Sélectionnez donc Pdf (une valeur prédéfinie) dans l'énumération SaveFormat pour générer le document PDF final.
 
 {{< highlight "csharp" >}}
 

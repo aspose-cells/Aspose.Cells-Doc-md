@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells لخدمات التقارير V2.0.0 ملاحظات الإصدار
+title: Aspose.Cells for Reporting Services V2.0.0 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/reportingservices/aspose-cells-for-reporting-services-v2-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لخدمات التقارير V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
+ تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for Reporting Services V2.0.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v2.0.0/)
 
 {{% /alert %}} 
 
- الرجاء الترحيب بالإصدار الجديد Aspose.Cells لخدمات التقارير V2.0.0.
+ برجاء الترحيب بالإصدار الجديد Aspose.Cells for Reporting Services V2.0.0.
 ## **الميزات الرئيسية**
-Aspose.Cells لتحسين أمثلية Reporting Services Report Designer.
+Aspose.Cells for Reporting Services تحسين مصمم التقارير.
 ## **تحسينات وتغييرات أخرى**
  الميزات الجديدة
 
@@ -20,7 +20,7 @@ Aspose.Cells لتحسين أمثلية Reporting Services Report Designer.
 - ` ` (SSRS-40144) تكوين خوادم التقرير لتخزين / تخزين بيانات خادم التقرير
 - ` ` (SSRS-40142) يدعم مجموعات البيانات المشتركة
 - ` ` (SSRS-40113) القيم السلبية في البرنث
-- ` ` (SSRS-40103) Aspose.Cells لتقرير استيراد تقرير مصمم تقارير خدمات تقرير تعريف ملف لـ SQL Server 2008
+- ` ` (SSRS-40103) Aspose.Cells for Reporting Services تقرير استيراد تقرير مصمم تقرير تحديد ملف لـ SQL Server 2008
 
  البق
 
@@ -66,7 +66,7 @@ Aspose.Cells لتحسين أمثلية Reporting Services Report Designer.
 - ` ` (SSRS-40095) خطأ في Aspose.Cells SSRS
 - ` ` (SSRS-40094) Dyn إخفاء مع المعلمات
 - ` ` (SSRS-40093) مشكلة في البرنامج التجريبي - استعادة صف واحد فقط
-- ` ` (SSRS-40092) مشكلات التنسيق مع Aspose.Cells لخدمات التقارير
+- ` ` (SSRS-40092) مشكلات التنسيق مع Aspose.Cells for Reporting Services
 - ` ` (SSRS-40091) فشل حفظ ملف التقرير - تحويل Excel باستخدام الصورة
 - ` ` (SSRS-40089) مشكلة في الرؤية مع tablix في SSRS
 - ` ` (SSRS-40087) لا يتوفر برنامج Excel "Document Map" في Aspose Cells لـ SSRS 2005؟

@@ -4,14 +4,14 @@ type: docs
 weight: 5
 url: /de/php-java/features/
 keywords: php, excel, api, feature
-description: Aspose.Cells für PHP über Java-Funktionen
+description: Aspose.Cells for PHP via Java Merkmale
 ---
-## **Aspose.Cells für PHP über Java Funktionsübersicht**
-Dieser Abschnitt bietet einen Vergleich der Verfügbarkeit von Funktionen zwischen Aspose.Cells for Java und Aspose.Cells für PHP über Java.
+## **Aspose.Cells for PHP via Java Funktionsübersicht**
+Dieser Abschnitt bietet einen Vergleich der Verfügbarkeit von Funktionen zwischen Aspose.Cells for Java und Aspose.Cells for PHP via Java.
 ### **Dateiformate und Konvertierungen**
 Viele Kunden weltweit verlassen sich auf die umfassenden Funktionen zum Importieren und Exportieren von Dokumenten, die von Aspose.Cells bereitgestellt werden.
 
-|**Feature**|**Beschreibung**|**Aspose.Cells for Java**|**Aspose.Cells für PHP über Java**|
+|**Feature**|**Beschreibung**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |:- |
 |Hochwertige Konvertierungen|Konvertieren Sie schnell und zuverlässig zwischen mehreren gängigen Dokumentformaten.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel-Arbeitsmappe (XLS)|Die schnellste und vollständigste Implementierung des XLS-Formats, die Sie finden können.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -25,7 +25,7 @@ Viele Kunden weltweit verlassen sich auf die umfassenden Funktionen zum Importie
 ### **Rendern und Drucken**
 Aspose.Cells bietet jetzt High-Fidelity-Rendering von Tabellenkalkulationsseiten.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für PHP über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Gestalten Sie das Dokument in Seiten mit hoher Wiedergabetreue zu Microsoft Excel® (genau wie Microsoft Excel® das tun würde).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendern Sie Arbeitsblattseiten in Rasterbilder (PNG, JPEG usw.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -35,9 +35,9 @@ Aspose.Cells bietet jetzt High-Fidelity-Rendering von Tabellenkalkulationsseiten
 |Drucken Sie Tabellenkalkulationsseiten mit der Druckinfrastruktur Java.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Aktualisieren Sie Seitenzahlen und andere Felder vor dem Rendern oder Drucken.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Inhaltsfunktionen für Tabellenkalkulationen**
-Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlichen Klassen/Schnittstellen besteht, mit denen Sie geladene Tabellenkalkulationen programmgesteuert generieren, kombinieren, ändern, analysieren oder anderweitig untersuchen können. Einige Hauptmerkmale sind in der folgenden Tabelle aufgeführt.
+Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlichen Klassen/Schnittstellen besteht, mit denen Sie geladene Tabellen programmgesteuert generieren, kombinieren, ändern, analysieren oder anderweitig untersuchen können. Einige Hauptmerkmale sind in der folgenden Tabelle aufgeführt.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für PHP über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Import/Export von Daten aus einem Array, ArrayList, ResultSet usw.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Fügen Sie eine Kopie des vorhandenen Arbeitsblatts hinzu (alle Inhalte einschließlich Bilder, Diagramme, andere Objekte usw.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -76,7 +76,7 @@ Aspose.Cells bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlic
 ### **Formatierungsfunktionen für Tabellenkalkulationen**
 Aspose.Cells bietet detaillierten programmgesteuerten Zugriff auf die Formatierungseigenschaften aller Tabellenkalkulationselemente.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für PHP über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Wenden Sie alle Zeichenformatierungen in den Zellen an, einschließlich Schriftarten, Farben, Effekte, Rahmen und Schattierungen.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Wenden Sie alle Zahlenformateinstellungen (unterstützt in Microsoft Excel) für die Zellen an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -90,7 +90,7 @@ Aspose.Cells bietet detaillierten programmgesteuerten Zugriff auf die Formatieru
 ### **PageSetup-Funktionen**
 Sie können Aspose.Cells verwenden, um Seiteneinrichtungsoptionen für Arbeitsblätter zu implementieren.
 
-|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells für PHP über Java**|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
 |:- |:- |:- |
 |Passen Sie Ihre Seitenausrichtung, Skalierung und Papiergröße an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Geben Sie Ihre Ränder und Seitenzentrierung an.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

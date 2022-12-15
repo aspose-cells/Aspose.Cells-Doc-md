@@ -50,7 +50,7 @@ I kodavsnittet nedan har vi implementerat en anpassad validering för att utför
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ValidationInWorksheets-ImplementingICustomInterface.cs" >}}
-### **Åtkomst till validering**
+### **Få åtkomst till validering**
 När en validering har lagts till i en specifik kalkylbladscell kan det krävas av utvecklare att få tillgång till och ändra attributen för en specifik validering under körning. Så, Aspose.Cells.GridDesktop har gjort det enkelt för utvecklare att utföra denna uppgift.
 
 För att komma åt en specifik validering, följ stegen nedan:

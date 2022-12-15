@@ -1,12 +1,12 @@
 ﻿---
-title: Java 22.3 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 22.3 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/java/aspose-cells-for-android-via-java-22-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 22.3 üzerinden Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 22.3 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -69,7 +69,7 @@ Bu sayfa, Java 22.3 üzerinden Android için Aspose.Cells için sürüm notları
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 
 ### **Dış bağlantıları çalışma kitabından kaldırma davranışını değiştirir.**
 

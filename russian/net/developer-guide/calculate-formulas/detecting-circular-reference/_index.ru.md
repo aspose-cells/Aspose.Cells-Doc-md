@@ -16,7 +16,7 @@ url: /ru/net/detecting-circular-reference/
 
 [**AbstractCalculationMonitor.OnCircular (IEnumerator circleCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): будет вызываться механизмом расчета формулы при встрече с циклическими ссылками, элемент в перечислителе[**Расчетная ячейка**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) объекты, которые представляют все клетки в одном круге. Возвращаемое значение указывает, нужно ли обработчику формул вычислять эти ячейки по кругу после этого вызова.
 
-Пользователь может собирать эти циклические ссылки при реализации[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) метод.
+ Пользователь может собирать эти циклические ссылки при реализации[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) метод.
 
 Исходный образец файла можно скачать по следующей ссылке:
 
@@ -24,6 +24,6 @@ url: /ru/net/detecting-circular-reference/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-1.cs" >}}
 
- Значение*ЦиркулярМонитор* класс, производный от[**АннотацияРасчетМонитор**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) класс выглядит следующим образом:
+Значение*ЦиркулярМонитор* класс, производный от[**АннотацияРасчетМонитор**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) класс выглядит следующим образом:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}

@@ -6,7 +6,7 @@ url: /it/net/adding-or-inserting-a-row-into-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-Analogamente a uno dei nostri argomenti precedenti, questo argomento descrive la funzionalità di aggiunta e inserimento di righe nei fogli di lavoro in fase di esecuzione utilizzando API di Aspose.Cells.GridDesktop. La differenza fondamentale tra addizione e inserimento è che, inoltre, viene aggiunta una riga alla fine della raccolta di righe del foglio di lavoro dove, come nell'inserimento, è possibile aggiungere una riga in qualsiasi posizione specificata nel foglio di lavoro.
+Simile a uno dei nostri argomenti precedenti, questo argomento descrive la funzionalità di aggiunta e inserimento di righe nei fogli di lavoro in fase di esecuzione utilizzando l'API di Aspose.Cells.GridDesktop. La differenza fondamentale tra addizione e inserimento è che, inoltre, viene aggiunta una riga alla fine della raccolta di righe del foglio di lavoro dove, come nell'inserimento, è possibile aggiungere una riga in qualsiasi posizione specificata nel foglio di lavoro.
 
 {{% /alert %}} 
 ## **Aggiunta di una riga al foglio di lavoro**

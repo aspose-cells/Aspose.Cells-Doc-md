@@ -77,12 +77,12 @@ Die Zeilen oder Spalten, die wiederholt werden, werden durch die Übergabe ihrer
 
 ### **Seitenreihenfolge festlegen**
 
- Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)Klasse bietet die[**Befehl**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)-Eigenschaft, die verwendet wird, um mehrere Seiten Ihres Arbeitsblatts zum Drucken anzuordnen. Es gibt zwei Möglichkeiten, die Seiten wie folgt anzuordnen.
+ Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) Klasse bietet die[**Befehl**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)-Eigenschaft, die verwendet wird, um mehrere Seiten Ihres Arbeitsblatts zum Drucken anzuordnen. Es gibt zwei Möglichkeiten, die Seiten wie folgt anzuordnen.
 
 - **Runter dann rüber:** druckt alle Seiten nach unten, bevor Seiten nach rechts gedruckt werden.
 - **Über dann nach unten:** druckt Seiten von links nach rechts, bevor die folgenden Seiten gedruckt werden.
 
- Aspose.Cells liefert eine Aufzählung,[**Druckauftragstyp**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)die alle vordefinierten Auftragsarten enthält.
+ Aspose.Cells liefert eine Aufzählung,[**Druckauftragstyp**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)die alle vordefinierten Auftragstypen enthält.
 
  Die vordefinierten Werte der[**Druckauftragstyp**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)Aufzählung sind unten aufgeführt.
 

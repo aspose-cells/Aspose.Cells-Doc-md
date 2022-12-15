@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /fr/python-java/recognize-self-closing-tags/
 ---
-HTML peut avoir une variété de formats de balises pour les balises vides comme \<td>\</td> ou \<td/>Aspose.Cells prend en charge ces deux formats. Cette fonctionnalité peut être testée en convertissant l'exemple de fichier HTML joint en fichier Excel. L'exemple de fichier HTML et les fichiers de sortie peuvent être téléchargés à partir des liens suivants à des fins de test.
+HTML peut avoir une variété de formats de balises pour les balises vides comme \<td>\</td> ou \<td/>. Aspose.Cells prend en charge ces deux formats. Cette fonctionnalité peut être testée en convertissant l'exemple de fichier HTML joint en fichier Excel. L'exemple de fichier HTML et les fichiers de sortie peuvent être téléchargés à partir des liens suivants à des fins de test.
 
 [Fichier source](sampleSelfClosingTags.zip)
 

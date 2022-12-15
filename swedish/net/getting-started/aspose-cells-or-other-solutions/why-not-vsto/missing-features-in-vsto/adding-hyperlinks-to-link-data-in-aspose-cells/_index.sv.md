@@ -20,7 +20,7 @@ Tre typer av hyperlänkar kan läggas till i en cell med Aspose.Cells:
 - [Lägga till en länk till en annan cell i samma fil](#adding-a-link-to-a-cell-in-the-same-file).
 - [Lägga till en länk till en extern fil](#adding-a-link-to-an-external-file).
 
-Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer antingen med hjälp av API eller[designerkalkylblad](/cells/sv/net/what-is-a-designer-spreadsheet/)(kalkylblad där hyperlänkar skapas manuellt och Aspose.Cells används för att importera dem till andra kalkylblad).
+ Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer antingen med hjälp av API eller[designerkalkylblad](/cells/sv/net/what-is-a-designer-spreadsheet/)(kalkylblad där hyperlänkar skapas manuellt och Aspose.Cells används för att importera dem till andra kalkylblad).
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class tillhandahåller olika metoder för att lägga till olika hyperlänkar till Excel-filer.
 

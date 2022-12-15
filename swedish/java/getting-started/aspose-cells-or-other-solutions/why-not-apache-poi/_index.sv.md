@@ -22,10 +22,10 @@ HSSF och XSSF ger sätt att läsa kalkylblad skapa, ändra, läsa och skriva XLS
 - en fullständig användarmodell api för att skapa, läsa och ändra XLS-filer
 
  Läs mer på[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
-## **Aspose.Cells för Java**
-Aspose.Cells för Java är en prisbelönt Excel-kalkylbladskomponent som låter Java-utvecklare bädda in möjligheten att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF- och bildfilformat till sina egna Java-applikationer utan att behöva lita på Microsoft Excel®.
+## **Aspose.Cells for Java**
+Aspose.Cells for Java är en prisbelönt Excel-kalkylbladskomponent som gör det möjligt för Java-utvecklare att bädda in förmågan att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML), HTML, ODS, PDF, ODS, PDF och bildfilformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
 
-Aspose.Cells för Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver de enkla dataexporteringsmöjligheterna hos andra leverantörer. Med Aspose.Cells för Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel ® eller Microsoft Office Automation.
+Aspose.Cells for Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver andra leverantörers enkla dataexporteringsmöjligheter. Med Aspose.Cells for Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel® eller Microsoft Office Automation.
 
  Läs mer på[aspose.com](https://products.aspose.com/cells/java/)
 
@@ -33,15 +33,15 @@ Aspose.Cells för Java är en mogen, skalbar och funktionsrik komponent som erbj
 
 Det är värt att notera att vissa uppgifter kan uppnås med Aspose.Cells, men inte kan utföras med Apache POI. Till exempel, om du behöver konvertera Excel-filer till Pdf, JSON och bilder, kan du inte bara använda Apache POI, du behöver också Microsoft Excel 365 eller andra verktyg.
 
-Du kan jämföra POI med Aspose.Cells För att göra detta föreslår vi att du bekantar dig med Aspose.Cells för POI-projektet (HSSF och XSSF) – det visar hur olika uppgifter kan utföras med Aspose.Cells för .Java API kontra POI. Projektet omfattar även funktioner för att arbeta med textdokument som endast är tillgängliga i Aspose.Cells, men inte i Apache POI.
+Du kan jämföra POI med Aspose.Cells För att göra detta föreslår vi att du bekantar dig med Aspose.Cells för POI-projektet (HSSF och XSSF) – det visar hur olika uppgifter kan utföras med Aspose.Cells för .Java 07161434I. Projektet omfattar även funktioner för att arbeta med textdokument som endast är tillgängliga i Aspose.Cells, men inte i Apache POI.
 
 Det här projektet är också användbart för utvecklare som vill migrera från POI till Aspose.Cells.
 
 {{% alert color="primary" %}}
 
- Utforska[plugin med källkodsexempel på Aspose.Cells för Java-funktioner i jämförelse med POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
+ Utforska[plugin med källkodsexempel på Aspose.Cells for Java funktioner i jämförelse med POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
 
- Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/java/licensing/) artikel för att göra detta.
+Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) . För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/java/licensing/) artikel för att göra detta.
 
 {{% /alert %}}
 
@@ -53,7 +53,7 @@ Aspose komponenter är noggrant testade. Eftersom Aspose komponenter är förpac
 
 ### Skalbarhet och hastighet
 
-Aspose komponenter är mycket skalbara och blixtsnabba. De är en sann .NET-lösning och fungerar felfritt på antingen en enda server som driver en enda applikation eller en lastbalanserad webbfarm som driver en företagsapplikation.
+Aspose komponenter är mycket skalbara och blixtsnabba. De är en äkta .NET-lösning och fungerar felfritt på antingen en enda server som driver en enda applikation eller en lastbalanserad webbfarm som driver en företagsapplikation.
 
 ### Funktioner
 
@@ -87,7 +87,7 @@ Följ dessa enkla steg för att öppna och utöka källkoden medan du använder:
 #### **NetBeans IDE**
 1. Ladda ner/klona källkoden.
 1. Öppna NetBeans och välj**Fil** > **Nytt projekt...**
-1.  I**Välj Projekt** flik: Välj**Java** > **Java-projekt med befintliga källor**.
+1.  I**Välj Projekt** flik: Välj**Java** > **Java Projekt med befintliga källor**.
 1.  I**Namn och plats** tab: Ange önskat**Projektnamn** och**Projektmapp**.
 1.  I**Befintliga källor** flik: Klicka**Lägg till mapp...** och bläddra för att välja rotkatalogen för den senaste källkoden som du har laddat ner.
 1.  Klick**Avsluta** för att framgångsrikt skapa det nedladdade projektet.

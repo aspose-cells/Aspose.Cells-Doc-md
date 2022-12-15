@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Node.js über Java 19.8 Versionshinweise
+title: Aspose.Cells for Node.js via Java 19.8 Versionshinweise
 type: docs
 weight: 10
 url: /de/nodejs-java/aspose-cells-for-node-js-via-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für Node.js über Java 19.8.
+Diese Seite enthält Versionshinweise für Aspose.Cells for Node.js via Java 19.8.
 
 {{% /alert %}} 
 
@@ -28,7 +28,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für Node.js über Java 
 |CELLSJAVA-42954|Ausnahme beim Laden und Speichern der XLSX-Datei ausgelöst|Ausnahme|
 |CELLSJAVA-42957|Beim Speichern der XLSX-Datei wird ein ungültiger FontUnderlineType-Wert ausgegeben|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
-Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells für Node.js über Java vorgenommen wurden , wenden Sie sich bitte an das Support-Forum Aspose.Cells.
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Node.js via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
 #### **Aktualisiert die referenzierte BouncyCastle-Bibliothek auf 1.60**
 Die beigefügte BouncyCastle-Bibliothek im Release-Archiv wurde auf die Version 1.60 aktualisiert. Aspose.Cells ist jedoch auch mit alten Versionen kompatibel, sodass der Benutzer weiterhin die alten Versionen wie 1.46 verwenden kann.
 #### **Veraltet die HTMLLoadOptions-Klasse und fügt die HtmlLoadOptions-Klasse hinzu**

@@ -11,9 +11,9 @@ Aspose.Cells unterstützt die Konvertierung von Excel-Dateien in PDF und behält
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells schreibt die Informationen über API und die Versionsnummer direkt in Ausgabedokumente. Beispielsweise wird beim Rendern von Document in PDF Aspose.Cells für C++ ausgefüllt**Anwendung** Feld mit dem Wert 'Aspose.Cells' und**PDF-Produzent**Feld mit Wert, zB 'Aspose.Cells v18.5.0'.
+ Aspose.Cells schreibt die Informationen über API und die Versionsnummer direkt in Ausgabedokumente. Beim Rendern von Document in PDF wird beispielsweise Aspose.Cells for C++ ausgefüllt**Anwendung** Feld mit dem Wert 'Aspose.Cells' und**PDF-Produzent** Feld mit Wert, zB 'Aspose.Cells v18.5.0'.
 
-Bitte beachten Sie, dass Sie Aspose.Cells nicht für C++ anweisen können, diese Informationen aus Ausgabedokumenten zu ändern oder zu entfernen.
+Bitte beachten Sie, dass Sie Aspose.Cells for C++ nicht anweisen können, diese Informationen aus Ausgabedokumenten zu ändern oder zu entfernen.
 
 {{% /alert %}} 
 ### **Direkte Konvertierung**
@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um die Excel-Tabellen direkt in das PDF-
 1.  Instanziieren Sie ein Objekt der[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)Klasse, indem Sie ihren leeren Konstruktor aufrufen.
 1. Sie können eine vorhandene Vorlagendatei öffnen/laden oder diesen Schritt überspringen, wenn Sie die Arbeitsmappe von Grund auf neu erstellen.
 1. Führen Sie alle Arbeiten (Daten eingeben, Formatierung anwenden, Formeln festlegen, Bilder oder andere Zeichnungsobjekte einfügen usw.) in der Tabelle mithilfe von Aspose.Cells-APIs durch.
-1. Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie die auf[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)Klasse'[Speichern](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)Methode zum Speichern der Tabelle.
+1.  Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie die auf[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)Klasse'[Speichern](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)Methode zum Speichern der Tabelle.
 
 Das Dateiformat sollte PDF sein, also wählen Sie relevantes PDF (ein vordefinierter Wert) aus der SaveFormat-Enumeration aus, um das endgültige PDF-Dokument zu generieren
 

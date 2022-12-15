@@ -3,7 +3,7 @@ title: Öppna filer med olika format
 type: docs
 weight: 30
 url: /sv/python-java/opening-files-with-different-formats/
-description: Aspose.Cells för .NET API låter dig öppna/läsa olika format som XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
+description: Aspose.Cells for .NET API låter dig öppna/läsa olika format som XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
 keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
 ---
 {{% alert color="primary" %}}
@@ -21,13 +21,13 @@ Aspose.Cells tillåter utvecklare att öppna kalkylbladsfiler med olika format s
 
 ### **Öppna SpreadsheetML-filer**
 
-SpreadsheetML-filer är XML-representationer av kalkylblad inklusive all information om det, såsom formatering, formler etc. Sedan Microsoft Excel XP läggs ett XML-exportalternativ till i Microsoft Excel som exporterar dina kalkylblad till SpreadsheetML-filer.
+SpreadsheetML-filer är XML-representationer av kalkylblad inklusive all information om det, såsom formatering, formler etc. Sedan Microsoft Excel XP har ett XML-exportalternativ lagts till i Microsoft Excel som exporterar dina kalkylblad till SpreadsheetML-filer.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenSpreadsheetMLFile.py" >}}
 
 ### **Öppna HTML-filer**
 
-Aspose.Cells låter dig öppna HTML-fil i Workbook-objekt. HTML-filen ska vara Microsoft Excel-orienterad dvs MS-Excel ska kunna öppna den.
+Aspose.Cells låter dig öppna HTML-fil i Workbook-objekt. HTML-filen ska Microsoft Excel-orienterad dvs MS-Excel ska kunna öppna den.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenHTMLFile.py" >}}
 
@@ -39,7 +39,7 @@ CSV-filer (Comma Separated Values) innehåller poster där värdena separeras me
 
 #### **Öppnar CSV-filer och ersätter ogiltiga tecken**
 
-I Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API som visas i kodexemplet nedan.
+Excel, när CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API vilket visas i kodexemplet nedan.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenCSVFileAndReplaceInvalidCharacters.py" >}}
 

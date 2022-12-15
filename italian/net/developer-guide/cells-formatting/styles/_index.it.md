@@ -29,7 +29,7 @@ Con il seguente pezzo di codice, viene avviato un oggetto Style per ogni cella d
 ### **Usando SetStyle()**
 Il primo approccio è semplice e diretto, quindi perché abbiamo aggiunto il secondo approccio?
 
-Abbiamo aggiunto il secondo approccio per ottimizzare l'utilizzo della memoria. Dopo aver utilizzato il metodo Cell.GetStyle per recuperare un oggetto Style, modificarlo e utilizzare il metodo Cell.SetStyle per reimpostarlo su questa cella. Questo oggetto Style non verrà conservato e .NET GC lo raccoglierà quando non viene referenziato.
+Abbiamo aggiunto il secondo approccio per ottimizzare l'utilizzo della memoria. Dopo aver utilizzato il metodo Cell.GetStyle per recuperare un oggetto Style, modificarlo e utilizzare il metodo Cell.SetStyle per reimpostarlo su questa cella. Questo oggetto Style non verrà conservato e .NET GC lo raccoglierà quando non vi si fa riferimento.
 
 Quando si chiama il metodo Cell.SetStyle, l'oggetto Style non viene salvato per ogni cella. Invece, confrontiamo questo oggetto Style con un pool di oggetti Style interno per vedere se può essere riutilizzato. Per ogni oggetto Workbook vengono mantenuti solo gli oggetti Style diversi da quelli esistenti. Ciò significa che ci sono solo diverse centinaia di oggetti Style per ogni file Excel invece di migliaia. Per ogni cella viene conservato solo un indice del pool di oggetti Style.
 

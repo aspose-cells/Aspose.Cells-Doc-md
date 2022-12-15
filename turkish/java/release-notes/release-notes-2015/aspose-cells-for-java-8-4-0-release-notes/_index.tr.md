@@ -55,7 +55,7 @@ Hatalar
 
 Diğer İyileştirmeler ve Değişiklikler
 
-(CELLSJAVA-41202) - GridWeb bileşeninde Cell Yorumları görüntüle
+(CELLSJAVA-41202) - GridWeb bileşeninde Cell Yorumları göster
 
 Hatalar
 
@@ -98,7 +98,7 @@ Dosyadaki VBA projesini okumak ve değiştirmek için kullanılırlar.
 Kenarlığın tema rengini alır ve ayarlar.
 
  TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini ekler.
-Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini gösterir.
+Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini belirtir.
 
  Eski TxtLoadOptions.KeepExactFormat yöntemleri.
 Lütfen bunun yerine TxtLoadOptions.LoadStyleStrategy özelliğini kullanın.

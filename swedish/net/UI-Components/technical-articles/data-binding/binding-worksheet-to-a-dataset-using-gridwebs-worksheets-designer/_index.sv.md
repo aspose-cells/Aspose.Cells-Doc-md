@@ -24,7 +24,7 @@ url: /sv/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_2.png)
 ### **Steg 2: Designa exempelapplikation**
- En ASP.NET-webbapplikation skapas och designas i Visual Studio.NET som visas nedan.
+ En ASP.NET webbapplikation skapas och designas i Visual Studio.NET som visas nedan.
 **Designad exempelapplikation** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_3.png)
@@ -58,7 +58,7 @@ url: /sv/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
  De**Förbindelse** fliksidan öppnas.
 
-1.  Välj Microsoft Access-databasfilen (i vårt fall db.mdb) och klicka**OK**.
+1.  Välj Microsoft Access-databasfilen (i vårt fall db.mdb) och klicka på**OK**.
    **Klicka på OK-knappen efter att ha valt databasfil** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_7.png)
@@ -119,7 +119,7 @@ Ett dataSet11-objekt läggs till i designern.
 **Dataset genereras och läggs till designern** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_13.png)
-### **Steg 6: Använda kalkylbladsdesignern**
+### **Steg 6: Använda Worksheets Designer**
  Nu är det dags att öppna hemligheten.
 
 1. Välj GridWeb-kontrollen och högerklicka.
@@ -141,7 +141,7 @@ Ett dataSet11-objekt läggs till i designern.
 Dialogrutan innehåller flera egenskaper som kan konfigureras för att binda Sheet1 till valfri tabell i databasen.
 
 1.  Välj**Datakälla** fast egendom.
-DataSet11-objektet som genererades i föregående steg listas på menyn.
+ DataSet11-objektet som genererades i föregående steg listas på menyn.
 1. Välj datamängd 11.
 1.  Klicka på**DataMember** fast egendom.
  Kalkylbladsdesignern visar automatiskt en lista med tabeller i datamängd 11. Det finns bara ett bord, produkter.
@@ -186,7 +186,7 @@ DataSet11-objektet som genererades i föregående steg listas på menyn.
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_20.png)
 
 
-Ovan visas produkttabellens kolumnnamn. Kolumnernas bredd är liten så de fullständiga namnen på vissa kolumner är inte helt synliga.
+ Ovan visas produkttabellens kolumnnamn. Kolumnernas bredd är liten så de fullständiga namnen på vissa kolumner är inte helt synliga.
 ### **Steg 7: Lägga till kod till Page_Load Event Handler**
  Vi har använt kalkylbladsdesignern och måste nu bara lägga till kod till händelsehanteraren Page_Load för att fylla dataSet11-objektet med data från databasen (med oleDbDataAdapter1) och binda GridWeb-kontrollen till dataSet11 genom att anropa dess DataBind-metod.
 
@@ -295,7 +295,7 @@ Efter kompileringen öppnas sidan WebForm1.aspx i ett webbläsarfönster med all
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_23.png)
 ## **Arbeta med GridWeb Control**
-När data läses in i GridWeb-kontrollen ger det användarna kontroll över datan. Ett antal olika typer av datamanipuleringsfunktioner erbjuds av GridWeb.
+ När data läses in i GridWeb-kontrollen ger det användarna kontroll över datan. Ett antal olika typer av datamanipuleringsfunktioner erbjuds av GridWeb.
 ### **Datavalidering**
 Aspose.Cells.GridWeb skapar automatiskt lämpliga valideringsregler för alla bundna kolumner enligt de datatyper som definieras i databasen. Se valideringstypen för en cell genom att föra markören över den.
 **Kontrollerar valideringstyp för en cell** 
@@ -315,7 +315,7 @@ Raden skulle raderas omedelbart.
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
 ### **Redigera rader**
- Redigera data i celler eller rader och klicka sedan**Spara** eller**Skicka in**för att spara ändringarna.
+Redigera data i celler eller rader och klicka sedan**Spara** eller**Skicka in** för att spara ändringarna.
 ### **Lägga till rader**
 1.  För att lägga till en rad, högerklicka på en cell och välj**Lägg till rad**.
    **Välj alternativet Lägg till rad från menyn** 
@@ -365,12 +365,12 @@ En ny rad läggs till i arket i slutet av andra rader.
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_32.png)
 ### **Redigera data**
-Applikationen låter än så länge endast dess användare se tabelldata. Användare kan redigera data i GridWeb-kontrollen, men när man stänger webbläsaren och öppnar databasen har ingenting förändrats. Ändringarna som görs sparas inte i databasen.
+ Applikationen låter än så länge endast dess användare se tabelldata. Användare kan redigera data i GridWeb-kontrollen, men när man stänger webbläsaren och öppnar databasen har ingenting förändrats. De ändringar som görs sparas inte i databasen.
 
  Följande exempel lägger till kod till applikationen så att GridWeb kan spara ändringar i databasen.
 
-1.  Öppna**Egenskaper** och välj GridWeb-kontrollens SaveCommand-händelse från listan.
-   **Att välja SaveCommand-händelse för GridWeb** 
+1. Öppna**Egenskaper** och välj GridWeb-kontrollens SaveCommand-händelse från listan.
+   **Väljer SaveCommand-händelse för GridWeb** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)
 

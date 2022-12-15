@@ -6,6 +6,6 @@ url: /tr/jasperreports/introduction/
 ---
 {{% alert color="primary" %}} 
 
- JasperReports için Aspose.Cells, yalnızca yayınlanan JAR dosyasını sınıf yolunuza ekleyerek bilgisayarınıza dağıtılabilir.
+ Aspose.Cells for JasperReports, serbest bırakılan JAR dosyasını sınıf yolunuza ekleyerek bilgisayarınıza dağıtılabilir.
 
 {{% /alert %}}

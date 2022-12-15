@@ -121,7 +121,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 }
 
 {{< /highlight >}}
-### **Propriété Protection.isProtectedWithPassword ajoutée**
+### **Propriété Protection.isProtectedWithPassword ajouté**
  Cette version de Aspose.Cells for Java a également exposé le champ Protection.isProtectedWithPassword qui peut être utile dans[détecter si une feuille de travail est protégée par un mot de passe ou non](/cells/fr/java/detect-if-worksheet-is-password-protected/).
 
 Voici le scénario d'utilisation simple.

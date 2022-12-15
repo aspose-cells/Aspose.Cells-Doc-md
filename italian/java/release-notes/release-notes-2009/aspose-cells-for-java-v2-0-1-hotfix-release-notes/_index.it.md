@@ -34,7 +34,7 @@ url: /it/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
  l Supporta il tema colore R/W per il formato file 2007
 
- l Supporta il tipo di crittografia: Microsoft Forte provider di crittografia
+ l Supporta il tipo di crittografia: Microsoft Strong Cryptographic Provider
 
  l 27 correzioni e miglioramenti.
 

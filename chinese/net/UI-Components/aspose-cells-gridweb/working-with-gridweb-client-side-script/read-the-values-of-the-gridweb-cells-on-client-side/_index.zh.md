@@ -14,7 +14,7 @@ url: /zh/net/read-the-values-of-the-gridweb-cells-on-client-side/
 ## **在客户端读取 GridWeb 单元格的值**
 以下示例代码检索所有单元格，然后打印它们的名称、值、行和列。您可以在本文底部看到它的控制台输出。以下屏幕截图显示了示例代码在 Google Chrome 上的控制台输出。
 ## **截屏**
-![待办事项：图片_替代_文本](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+![待办事项：图像_替代_文本](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 

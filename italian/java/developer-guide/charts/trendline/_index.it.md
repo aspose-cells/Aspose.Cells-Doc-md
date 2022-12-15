@@ -17,7 +17,7 @@ url: /it/java/get-equation-text-of-chart-trendline/
 
 ![cose da fare:immagine_alt_testo](get-equation-text-of-chart-trendline_1.png)
 
-### Java codice per ottenere il testo dell'equazione della linea di tendenza del grafico
+### Codice Java per ottenere il testo dell'equazione della linea di tendenza del grafico
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetEquationText-GetEquationText.java" >}}
 

@@ -5,7 +5,7 @@ weight: 80
 url: /it/java/freeze-panes-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Congelamento Riquadri**
-Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
+Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
 
 Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per configurare i riquadri bloccati, chiama il metodo freezePanes della classe Worksheet. Il metodo FreezePanes accetta i seguenti parametri:
 
@@ -14,7 +14,7 @@ Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com
 - **Righe congelate**, il numero di righe visibili nel riquadro superiore.
 - **Colonne congelate**, il numero di colonne visibili nel riquadro sinistro
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -26,7 +26,7 @@ worksheet2.freezePanes(2,0,2,0); // Freezing Rows
 ## **Apache POI SS - HSSF XSSF - Blocca i riquadri**
 sheet.createFreezePane è disponibile per ottenere la funzionalità FreezePane durante l'utilizzo di Apache POI SS - HSSF e XSSF
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

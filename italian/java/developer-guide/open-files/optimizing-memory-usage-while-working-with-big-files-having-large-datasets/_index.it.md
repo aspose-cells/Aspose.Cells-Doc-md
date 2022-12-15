@@ -6,7 +6,7 @@ url: /it/java/optimizing-memory-usage-while-working-with-big-files-having-large-
 ---
 {{% alert color="primary" %}}
 
-Quando si crea una cartella di lavoro con set di dati di grandi dimensioni o si legge un file Excel di grandi dimensioni Microsoft, la quantità totale di RAM occupata dal processo è sempre un problema. Esistono misure che possono essere adattate per far fronte alla sfida. Aspose.Cells fornisce alcune opzioni rilevanti e API chiama per ridurre, ridurre e ottimizzare l'utilizzo della memoria. Inoltre, può aiutare il processo a funzionare in modo più efficiente e a funzionare più velocemente.
+Quando si crea una cartella di lavoro con set di dati di grandi dimensioni o si legge un file di Microsoft Excel di grandi dimensioni, la quantità totale di RAM occupata dal processo è sempre un problema. Esistono misure che possono essere adattate per far fronte alla sfida. Aspose.Cells fornisce alcune opzioni rilevanti e chiamate API per abbassare, ridurre e ottimizzare l'utilizzo della memoria. Inoltre, può aiutare il processo a funzionare in modo più efficiente e a funzionare più velocemente.
 
  Uso[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) opzione per ottimizzare la memoria utilizzata per i dati delle celle per ridurre il costo complessivo della memoria. Quando si creano set di dati di grandi dimensioni per le celle, è possibile risparmiare una certa quantità di memoria rispetto all'utilizzo dell'impostazione predefinita[**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL).
 
@@ -16,7 +16,7 @@ Quando si crea una cartella di lavoro con set di dati di grandi dimensioni o si 
 
 ### **Lettura di file Excel di grandi dimensioni**
 
-L'esempio seguente mostra come leggere un file Excel di grandi dimensioni Microsoft in modalità ottimizzata.
+L'esempio seguente mostra come leggere un file Microsoft Excel di grandi dimensioni in modalità ottimizzata.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadLargeExcelFiles-ReadLargeExcelFiles.java" >}}
 

@@ -18,7 +18,7 @@ Aspose.Cells 提供了一些有用的调用，用于从链接到模板 Excel 文
 
 **SQL连接信息** 
 
-![待办事项：图片_替代_文本](retrieving-external-data-sources-details_1.png)
+![待办事项：图像_替代_文本](retrieving-external-data-sources-details_1.png)
 
 
 

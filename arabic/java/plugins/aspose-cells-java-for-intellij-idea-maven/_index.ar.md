@@ -14,11 +14,11 @@ url: /ar/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/) for Java هو أحد مكونات تقارير جداول بيانات Excel® الذي يمكّن تطبيقات Java من إنشاء وإدارة جداول بيانات Excel® بدون استخدام Microsoft Excel®. Aspose.Cells for Java هو مكون غني بالميزات بشكل لا يصدق يقدم أكثر بكثير من مجرد وظائف تصدير البيانات الأساسية.
+[Aspose.Cells](https://products.aspose.com/cells/java/)for Java هو أحد مكونات تقارير جداول بيانات Excel® الذي يمكّن تطبيقات Java من إنشاء وإدارة جداول بيانات Excel® بدون استخدام Microsoft Excel®. Aspose.Cells for Java هو مكون غني بالميزات بشكل لا يصدق يقدم أكثر بكثير من مجرد وظائف تصدير البيانات الأساسية.
 
 ### **Aspose.Cells Java لـ IntelliJ IDEA - Maven**
 
-- Aspose.Cells Java لـ IntelliJ IDEA (Maven) هو**البرنامج المساعد IntelliJ IDEA** الذي يتيح لك إنشاء مشاريع maven (أي يحتوي المشروع الذي تم إنشاؤه على Aspose.Cells for Java API maven التبعية) وتنزيل أمثلة التعليمات البرمجية المصدر لـ API للاستخدام**Aspose.Cells for Java API**.
+-  Aspose.Cells Java لـ IntelliJ IDEA (Maven) هو**البرنامج المساعد IntelliJ IDEA** الذي يتيح لك إنشاء مشاريع maven (أي يحتوي المشروع الذي تم إنشاؤه على Aspose.Cells for Java API maven التبعية) وتنزيل أمثلة التعليمات البرمجية المصدر لـ API للاستخدام**Aspose.Cells for Java API**.
 
 -  هذا البرنامج المساعد يساعدك على العمل مع**Aspose.Cells for Java API** داخل فكرة IntelliJ IDEA المفضلة لديك.
 
@@ -64,7 +64,7 @@ url: /ar/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **تنزيل IntelliJ IDEA**
 
-ستحتاج أولاً إلى تثبيت IntelliJ IDEA CE / UE قبل تنزيل ملف**Aspose.Cells Java لـ IntelliJ IDEA (Maven)** توصيل في.
+ ستحتاج أولاً إلى تثبيت IntelliJ IDEA CE / UE قبل تنزيل ملف**Aspose.Cells Java لـ IntelliJ IDEA (Maven)** توصيل في.
 
 لتحميل IntellliJ IDEA
 
@@ -94,7 +94,7 @@ url: /ar/java/aspose-cells-java-for-intellij-idea-maven/
 
 ## **فيديو تجريبي**
 
- يرجى المراجعة[الفيديو](https://www.youtube.com/watch?v=8sHoB5Isq-A)أدناه لمشاهدة Aspose.Cells Maven Project Wizard و Aspose.Cells Example Wizard قيد التشغيل.
+ يرجى المراجعة[الفيديو](https://www.youtube.com/watch?v=8sHoB5Isq-A) أدناه لمشاهدة Aspose.Cells Maven Project Wizard و Aspose.Cells Example Wizard قيد التشغيل.
 
 ## **الدعم والتوسيع والمساهمة**
 

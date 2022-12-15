@@ -4,11 +4,11 @@ type: docs
 weight: 30
 url: /tr/cpp/system-requirements/
 ---
-C++ için Aspose.Cells, C++ geliştiricilerinin Office Otomasyonu veya Microsoft Excel uygulaması gerektirmeden elektronik tabloları programlı olarak oluşturmasını, değiştirmesini ve dönüştürmesini sağlayan yerel bir C++ kitaplığıdır.
+Aspose.Cells for C++, C++ geliştiricilerinin Office Otomasyonu veya Microsoft Excel uygulaması gerektirmeden elektronik tabloları programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak sağlayan yerel bir C++ kitaplığıdır.
 
 ## Desteklenen İşletim Sistemleri
 
-C++ için Aspose.Cells, aşağıdaki 64 bit veya 32 bit işletim sistemini ve platformları destekler:
+Aspose.Cells for C++, aşağıdaki 64 bit veya 32 bit işletim sistemlerini ve platformları destekler:
 
 <table>  
 	<tr>
@@ -27,11 +27,11 @@ C++ için Aspose.Cells, aşağıdaki 64 bit veya 32 bit işletim sistemini ve pl
 
 ## Geliştirme Ortamı
 
-Windows veya Linux için uygulama geliştirirken C++ için Aspose.Cells'i kullanabilirsiniz.
+Windows veya Linux için uygulama geliştirirken Aspose.Cells for C++'i kullanabilirsiniz.
 
 ### Windows
 
- C++ için Aspose.Cells, destekleyen herhangi bir geliştirme ortamında uygulama geliştirmek için kullanılabilir.[Microsoft Visual Studio v142 Platform Araç Seti](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), ancak aşağıdaki tabloda listelenen ortamlar açıkça desteklenmektedir:
+ Aspose.Cells for C++, destekleyen herhangi bir geliştirme ortamında uygulama geliştirmek için kullanılabilir.[Microsoft Visual Studio v142 Platform Araç Seti](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), ancak aşağıdaki tabloda listelenen ortamlar açıkça desteklenmektedir:
 
 <table>  
 	<tr>
@@ -44,7 +44,7 @@ Windows veya Linux için uygulama geliştirirken C++ için Aspose.Cells'i kullan
 
 ### linux
 
-C++ için Aspose.Cells, geliştirme ortamında C++11 veya üstünü destekleyen uygulama geliştirmek için kullanılabilir, ancak aşağıdaki derleyici ve araç açıkça desteklenir:
+Aspose.Cells for C++, C++11 veya üstünü destekleyen geliştirme ortamında uygulama geliştirmek için kullanılabilir, ancak aşağıdaki derleyici ve araç açıkça desteklenir:
 
 <table>  
 	<tr>
@@ -57,7 +57,7 @@ C++ için Aspose.Cells, geliştirme ortamında C++11 veya üstünü destekleyen 
 
 ### Linux'a Ek Bağımlılık
 
- Linux'ta C++ için Aspose.Cells şuna bağlıdır:[libgdiplus](https://github.com/mono/libgdiplus//) ikili dosyalar hem dinamik kitaplık hem de araç. Lütfen kullanmadan önce kurun:
+ Aspose.Cells for C++ Linux üzerinde bağlıdır[libgdiplus](https://github.com/mono/libgdiplus//) ikili dosyalar hem dinamik kitaplık hem de araç. Lütfen kullanmadan önce kurun:
 
 - Ubuntu veya Debian'a libgdiplus kurulumu</br>
 `sudo apt-get install libgif-dev autoconf libtool automake build-essential gettext libglib2.0-dev libcairo2-dev libtiff-dev libexif-dev`

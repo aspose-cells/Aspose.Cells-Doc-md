@@ -8,7 +8,7 @@ url: /fr/reportingservices/preparing-for-creating-table-report/
 
 Ci-dessous, nous utilisons l'exemple de base de données AdventureWorks fourni avec SQL Server Reporting Services 2005.
 
-1. Créez un jeu de données nommé EmpSalesDetail. Nous l'utiliserons comme source de données de la table. L'ensemble de données a trois paramètres : ReportYear, ReportMonth et EmpID.
+1. Créez un ensemble de données nommé EmpSalesDetail. Nous l'utiliserons comme source de données de la table. L'ensemble de données a trois paramètres : ReportYear, ReportMonth et EmpID.
  Le SQL qui définit EmpSalesDetail est le suivant :
 
 **SQL**
@@ -83,7 +83,7 @@ PC.Name
 
 {{< /highlight >}}
 
-1. Créez un jeu de données nommé SalesEmps. Nous l'utiliserons comme valeurs valides pour le paramètre EmpID.
+1. Créez un ensemble de données nommé SalesEmps. Nous l'utiliserons comme valeurs valides pour le paramètre EmpID.
  Le SQL qui définit SalesEmps est :
 
 **SQL**

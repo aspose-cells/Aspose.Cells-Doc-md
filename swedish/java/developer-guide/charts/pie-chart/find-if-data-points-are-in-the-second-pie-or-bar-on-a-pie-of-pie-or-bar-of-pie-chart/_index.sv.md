@@ -13,7 +13,7 @@ url: /sv/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-o
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **Konsolutgång**
- Se följande konsolutgång som genereras efter exekveringen av ovanstående exempelkod med[exempel på excel-fil](5473373.xlsx) . Om[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) är**falsk** , är datapunkten inne i cirkeln eller om den är det**Sann**då finns datapunkten inuti fältet.
+ Se följande konsolutgång som genereras efter exekveringen av ovanstående exempelkod med[exempel på excel-fil](5473373.xlsx) . Om[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) är**falsk** , är datapunkten inne i cirkeln eller om den är det**Sann**, då finns datapunkten inuti fältet.
 
 {{< highlight "java" >}}
 

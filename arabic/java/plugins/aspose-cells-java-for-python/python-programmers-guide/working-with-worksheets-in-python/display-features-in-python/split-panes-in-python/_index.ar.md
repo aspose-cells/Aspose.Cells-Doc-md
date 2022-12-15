@@ -5,7 +5,7 @@ weight: 70
 url: /ar/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - تقسيم الأجزاء**
- لتقسيم الأجزاء باستخدام**Aspose.Cells Java لـ Python** ، ببساطة استدعاء**SplitPanes** وحدة.
+ لتقسيم الأجزاء باستخدام**Aspose.Cells Java for Python** ، ببساطة استدعاء**SplitPanes** وحدة.
 
 **Python كود**
 
@@ -32,7 +32,7 @@ workbook.save(self.dataDir + "book.out.xls", saveFormat.EXCEL_97_TO_2003);
 print "Panes split successfully."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**تقسيم الأجزاء (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

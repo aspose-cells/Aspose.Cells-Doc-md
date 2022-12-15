@@ -6,7 +6,7 @@ url: /zh/java/display-or-hide-gridlines-in-php/
 ---
 ## **Aspose.Cells - 显示或隐藏网格线**
 ### **隐藏网格线**
-使用隐藏工作表**Aspose.Cells Java 用于 PHP**， 称呼**显示隐藏网格线**模块。
+使用隐藏工作表**Aspose.Cells Java for PHP**， 称呼**显示隐藏网格线**模块。
 
 **PHP代码**
 

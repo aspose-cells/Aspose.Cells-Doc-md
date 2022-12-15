@@ -1,14 +1,14 @@
 ﻿---
-title: Begränsningar och API-skillnader
+title: Begränsningar och API Skillnader
 type: docs
 weight: 10
 url: /sv/python-java/limitations-and-api-differences/
 keywords: python, excel, limitation, api, difference
-description: Aspose.Cells för Python via Java-begränsningar och api-skillnader
+description: Aspose.Cells for Python via Java begränsningar och API-skillnader
 ---
-## **Offentliga API-skillnader**
+## **Offentlig API Skillnader**
 ### **Exempel**
-**Aspose.Cells för Java**
+**Aspose.Cells for Java**
 
 {{< highlight "java" >}}
 
@@ -32,7 +32,7 @@ public class Test1 {
 
 
 
-**Aspose.Cells för Python via Java**
+**Aspose.Cells for Python via Java**
 
 {{< highlight "python" >}}
 

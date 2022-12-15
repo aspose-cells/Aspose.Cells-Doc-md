@@ -27,7 +27,7 @@ Aspose.Cells.GridWeb 提供的最有价值的功能是支持公式或函数。 A
 
 **公式添加到 B3 单元格但未由 GridWeb 计算** 
 
-![待办事项：图片_替代_文本](add-cell-formulas_1.png)
+![待办事项：图像_替代_文本](add-cell-formulas_1.png)
 
 在上面的截图中，可以看到B3中已经添加了一个公式，但是还没有进行计算。要计算所有公式，请在将公式添加到工作表后调用 GridWeb 控件的 GridWorksheetCollection 的 CalculateFormula 方法，如下所示。
 
@@ -41,13 +41,13 @@ Aspose.Cells.GridWeb 提供的最有价值的功能是支持公式或函数。 A
 
 **单击 GridWeb 的提交按钮** 
 
-![待办事项：图片_替代_文本](add-cell-formulas_2.png)
+![待办事项：图像_替代_文本](add-cell-formulas_2.png)
 
 **重要的**：如果用户点击**节省**或者**撤消**按钮或工作表选项卡，所有公式均由 GridWeb 自动计算。
 
 **计算后的公式结果** 
 
-![待办事项：图片_替代_文本](add-cell-formulas_3.png)
+![待办事项：图像_替代_文本](add-cell-formulas_3.png)
 
 {{% /alert %}} 
 ### **从其他工作表中引用 Cells**

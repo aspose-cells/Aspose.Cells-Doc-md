@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 17.4.0 Release Notes
+title: Aspose.Cells for Java 17.4.0 Release Notes
 type: docs
 weight: 90
 url: /sv/java/aspose-cells-for-java-17-4-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 17.4.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.4.0/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 17.4.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.4.0/).
 
 {{% /alert %}} 
 
@@ -43,8 +43,8 @@ url: /sv/java/aspose-cells-for-java-17-4-0-release-notes/
 |CELLSJAVA-42217|Efter åtkomst till VbaModule via Aspose API har den resulterande Excel-filen brutit vba-projektet|Insekt|
 |CELLSJAVA-42213|Teckensnittet ändrar oavsiktligt sin storlek i kommentaren med en CR inbäddad i den|Insekt|
 |CELLSJAVA-42231|Undantag förekommer vid infogning av rader|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till metoden VbaProject.Protect (bool islockedForViewing, stränglösenord).**
 Skyddar eller avskyddar VBA-projektet.
 ### **Lägger till egenskapen VbaProject.IsProtected**

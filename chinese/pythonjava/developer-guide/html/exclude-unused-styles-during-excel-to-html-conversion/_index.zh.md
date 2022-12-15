@@ -9,7 +9,7 @@ Microsoft Excel 文件可能包含许多未使用的样式。当这些文件被�
 
 以下屏幕截图显示了 HTML 文件中未使用的样式，这些样式将通过设置值来删除[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)财产给**真的**.
 
-![待办事项：图片_替代_文本](HtmlSaveOptions-Exclude-Unused-Styles.png)
+![待办事项：图像_替代_文本](HtmlSaveOptions-Exclude-Unused-Styles.png)
 
 以下示例代码演示了在 Excel 到 HTML 的转换过程中删除未使用的样式。
 

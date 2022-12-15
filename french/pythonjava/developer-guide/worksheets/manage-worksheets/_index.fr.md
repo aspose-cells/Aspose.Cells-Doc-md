@@ -1,10 +1,10 @@
 ﻿---
-title: Gérer les feuilles de travail
+title: Gérer les feuilles de calcul
 type: docs
 weight: 10
 url: /fr/python-java/manage-worksheets/
 ---
-La gestion des feuilles de calcul en utilisant Aspose.Cells pour Python via Java est très simple. Dans cet article, nous allons démontrer l'ajout, l'accès et la suppression de feuilles de calcul à l'aide du Aspose.Cells API.
+La gestion des feuilles de calcul à l'aide de Aspose.Cells for Python via Java est très simple. Dans cet article, nous allons démontrer l'ajout, l'accès et la suppression de feuilles de calcul à l'aide du Aspose.Cells API.
 ## **Ajout de feuilles de calcul à un nouveau fichier Excel**
  Pour créer un nouveau classeur, créez un objet du[Cahier](https://reference.aspose.com/cells/python/asposecells.api/Workbook) classer. La[Cahier](https://reference.aspose.com/cells/python/asposecells.api/Workbook) classe représente un fichier Excel. Puis en utilisant le[ajouter](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) ) méthode de la[WorksheetCollection](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) , de nouvelles feuilles de calcul sont ajoutées au fichier Excel. Enfin, pour enregistrer le fichier Excel nouvellement créé, appelez le[enregistrer](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) ) méthode de la[Cahier](https://reference.aspose.com/cells/python/asposecells.api/Workbook)classer.
 

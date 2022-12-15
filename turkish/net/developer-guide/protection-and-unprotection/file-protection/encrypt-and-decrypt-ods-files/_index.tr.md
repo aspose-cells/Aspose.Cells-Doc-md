@@ -6,7 +6,7 @@ url: /tr/net/encrypt-and-decrypt-ods-files/
 description: Saf bir ağ kitaplığı olan .Net için Aspose.Cells'i kullanarak ODS dosyalarını parolayla koruyun ve şifreleyin.
 ---
 {{% alert color="primary" %}}
-OpenOffice.org, parola korumayı ve dosyaları şifrelemeyi destekleyen tam özellikli bir ofis paketidir. Ancak şifreli ODS dosyası, şifre girildikten sonra yalnızca OpenOffice tarafından açılabilir. Excel, şifrelenmiş ODS dosyasını açamaz ve uyarı mesajı verebilir. Şifreleme seçenekleri, diğer dosya türlerinden farklı olarak ODS dosyası için geçerli değildir.
+ OpenOffice.org, parola korumayı ve dosyaları şifrelemeyi destekleyen tam özellikli bir ofis paketidir. Ancak şifreli ODS dosyası, şifre girildikten sonra yalnızca OpenOffice tarafından açılabilir. Excel, şifrelenmiş ODS dosyasını açamaz ve uyarı mesajı verebilir. Şifreleme seçenekleri, diğer dosya türlerinden farklı olarak ODS dosyası için geçerli değildir.
  Aspose.Cells, ODS dosyasını şifrelemeye ve şifresini çözmeye izin verir. Şifresi çözülmüş ODS dosyası hem Excel'de hem de OpenOffice'te açılabilir,
 {{% /alert %}}
 

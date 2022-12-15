@@ -4,12 +4,12 @@ type: docs
 weight: 5
 url: /sv/nodejs-java/getting-started/
 keywords: nodejs, excel, instal
-description: setup Aspose.Cells för Node.js via Java och installationsriktlinjer
+description: installation Aspose.Cells for Node.js via Java och installationsriktlinjer
 ---
 ## **Systemkrav**
- Aspose.Cells för Node.js via Java är plattformsoberoende API och kan användas på alla plattformar (Windows, Linux och MacOS) där[Node.js](https://nodejs.org/en/download/) och[nod-java](https://github.com/joeferner/node-java) bro installeras. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
+ Aspose.Cells for Node.js via Java är plattformsoberoende API och kan användas på vilken plattform som helst (Windows, Linux och MacOS) där[Node.js](https://nodejs.org/en/download/) och[nod-java](https://github.com/joeferner/node-java) bro installeras. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
 ## **Installera från NPM**
- Du kan enkelt använda Aspose.Cells för Node.js via Java från[NPM](https://www.npmjs.com/package/aspose.cells) med följande kommando.
+ Du kan enkelt använda Aspose.Cells for Node.js via Java från[NPM](https://www.npmjs.com/package/aspose.cells) med följande kommando.
 {{< highlight "java" >}}
 
  $ npm install aspose.cells
@@ -19,7 +19,7 @@ description: setup Aspose.Cells för Node.js via Java och installationsriktlinje
 Om du stöter på några problem under installationsprocessen, se https://www.npmjs.com/package/java.
 
 ## **Installera från ZIP-arkiv**
-För att installera och använda Aspose.Cells för Node.js via Java från ett ZIP-arkiv, följ följande instruktioner:
+För att installera och använda Aspose.Cells for Node.js via Java från ett ZIP-arkiv, följ följande instruktioner:
 ### **Linux:**
 -  ladda ner och installera[Node.js](https://nodejs.org/en/download/).
 - Installera Oracle JDK (1.7 eller 1.8) för Linux, konfigurera miljövariabeln JAVA_HOME.
@@ -40,7 +40,7 @@ $ npm install java
 
 
 
-- Ladda ner "Aspose.Cells för Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
+- Ladda ner "Aspose.Cells for Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
 - Skapa en testfil med namnet**hej.js**med följande exempelkod i mappen "aspose.cells.js.java":
 
 {{< highlight "java" >}}
@@ -64,7 +64,7 @@ console.log("hello world");
 - Installera Oracle JDK8 och konfigurera miljövariabeln JAVA_HOME.
 - Installera Node.js och lägg till node.exe till PATH.
 - Installera node-gyp.
-- Installera Windows Build Tools.
+- Installera Windows Byggverktyg.
 -  Installera[nod-java brygga](https://www.npmjs.com/package/java) och kör nedan kommandon @ kommandotolken som administratör:
 
 
@@ -83,8 +83,8 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- Ladda ner "Aspose.Cells för Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
--  Skapa en fil med namnet**hej.js**i mappen "aspose.cells.js.java" med följande exempelkod:
+- Ladda ner "Aspose.Cells for Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
+-  Skapa en fil med namnet**hej.js**mappen "aspose.cells.js.java" med följande exempelkod:
 
 {{< highlight "java" >}}
 
@@ -141,7 +141,7 @@ console.log("hello world");
 
 `         `$ npm installera java
 
-- Ladda ner "Aspose.Cells för Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
+- Ladda ner "Aspose.Cells for Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
 -  Skapa en testfil med namnet**hej.js** med följande exempelkod i mappen "aspose.cells.js.java":
 
 

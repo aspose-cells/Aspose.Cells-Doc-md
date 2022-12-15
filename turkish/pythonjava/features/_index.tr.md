@@ -4,11 +4,11 @@ type: docs
 weight: 5
 url: /tr/python-java/features/
 keywords: python, excel, api, feature
-description: Java üzerinden Python için Aspose.Cells özellikleri
+description: Aspose.Cells for Python via Java özellikler
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java aracılığıyla Python için Aspose.Cells'i özetlemektedir.
+Bu sayfada Aspose.Cells for Python via Java özellikleri özetlenmektedir.
 
 {{% /alert %}} 
 ## **Dosya Biçimleri ve Dönüşümler**

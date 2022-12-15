@@ -10,7 +10,7 @@ keywords: open xlsx files, open html files, read fods files, read ods files, rea
 
  En utilisant Aspose.Cells, vous pouvez ouvrir des fichiers avec différents formats.**Aspose.Cells** peut ouvrir une gamme de formats de fichiers tels que des feuilles de calcul Excel Microsoft (XLS, XLSX, XLSM, XLSB), SpreadsheetML, des fichiers de valeurs séparées par des virgules (CSV), des fichiers de valeurs séparées par des tabulations ou des valeurs séparées par des tabulations (TSV), etc.
 
-Si vous avez besoin de connaître tous les formats de fichiers pris en charge, veuillez vous référer aux pages suivantes :
+Si vous avez besoin de connaître tous les formats de fichiers pris en charge, veuillez vous référer aux pages suivantes :
 [Formats de fichiers pris en charge](https://docs.aspose.com/cells/python-net/supported-file-formats/)
 
 {{% /alert %}}

@@ -16,6 +16,6 @@ url: /ru/net/calculation-of-array-formula-of-data-tables/
 
 ![дело:изображение_альтернативный_текст](calculation-of-array-formula-of-data-tables_2.png)
 
-Вот пример кода, используемый для создания[вывод PDF](5115538.pdf) от[исходный файл excel](5115535.xlsx). Пожалуйста, прочитайте комментарии для получения дополнительной информации.
+ Вот пример кода, используемый для создания[вывод PDF](5115538.pdf) от[исходный файл excel](5115535.xlsx). Пожалуйста, прочитайте комментарии для получения дополнительной информации.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

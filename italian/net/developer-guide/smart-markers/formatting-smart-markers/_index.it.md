@@ -7,7 +7,7 @@ url: /it/net/formatting-smart-markers/
 ## **Copia attributo stile**
 A volte, quando si utilizzano i marcatori intelligenti, si desidera copiare lo stile della cella che contiene i tag dei marcatori intelligenti. È possibile utilizzare l'attributo CopyStyle dei tag del marcatore intelligente per questo scopo.
 ### **Copia di stili da Cells con Smart Marker**
- Questo esempio utilizza un semplice file Excel modello Microsoft con due marcatori nelle celle A2 e B2. Il marcatore incollato nella cella B2 utilizza l'attributo CopyStyle, mentre il marcatore nella cella A2 no. Applicare una formattazione semplice (ad esempio, impostare il colore del carattere su**rosso** e imposta il colore di riempimento della cella su**giallo**).
+ Questo esempio usa un semplice modello di file Microsoft Excel con due marcatori nelle celle A2 e B2. Il marcatore incollato nella cella B2 utilizza l'attributo CopyStyle, mentre il marcatore nella cella A2 no. Applicare una formattazione semplice (ad esempio, impostare il colore del carattere su**rosso** e imposta il colore di riempimento della cella su**giallo**).
 
 Durante l'esecuzione del codice, Aspose.Cells copia la formattazione in tutti i record nella colonna B ma non mantiene la formattazione nella colonna A.
 

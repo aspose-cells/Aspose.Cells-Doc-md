@@ -6,7 +6,7 @@ url: /sv/java/display-or-hide-gridlines-in-php/
 ---
 ## **Aspose.Cells - Visa eller dölj rutnätslinjer**
 ### **Dölja rutnät**
- För att dölja kalkylblad med**Aspose.Cells Java för PHP** , ringa upp**visahidegridlines** modul.
+ För att dölja kalkylblad med**Aspose.Cells Java for PHP** , ringa upp**visahidegridlines** modul.
 
 **PHP-kod**
 

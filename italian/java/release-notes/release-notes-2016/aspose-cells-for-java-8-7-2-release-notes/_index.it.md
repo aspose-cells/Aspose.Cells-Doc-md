@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-8-7-2-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41334 | Formula/funzione COLLEGAMENTO IPERTESTUALE: estende la raccolta Collegamento ipertestuale del foglio di lavoro per ottenere l'oggetto| Nuova caratteristica|
 |CELLSJAVA-41788 | La proprietà Start' di un elenco ordinato non funziona correttamente| Insetto|
-|CELLSJAVA-41763 | Aspose Cells API non è in grado di convertire ogni contenuto del file HTML in file Excel| Insetto|
+|CELLSJAVA-41763 | Aspose Cells API non in grado di convertire ogni contenuto del file HTML in file Excel| Insetto|
 |CELLSJAVA-41759 |Il layout è diverso durante il salvataggio del foglio di calcolo in HTML| Insetto|
 |CELLSJAVA-41677 | Il collegamento ipertestuale che punta a nomi definiti risulta in un collegamento interrotto quando il foglio di calcolo viene convertito in HTML| Insetto|
 |CELLSJAVA-41774 | Calcolo errato sull'analisi what-if| Insetto|
@@ -32,12 +32,12 @@ url: /it/java/aspose-cells-for-java-8-7-2-release-notes/
 |CELLSJAVA-41636 | Cell problema di formato - il valore visualizzato non è corretto in GridWeb (JAVA)| Insetto|
 |CELLSJAVA-41746 | java.lang.OutOfMemoryError: limite di overhead GC superato, durante il salvataggio del foglio di calcolo in PDF| Eccezione|
 |CELLSJAVA-41768 | com.aspose.cells.Name non può essere trasmesso a java.lang.Integer durante la copia dei fogli di lavoro| Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà TextBoxCollection[string].**
 Ottiene la casella di testo in base al nome.
 ### **Aggiunge la classe AbstractCalculationEngine e CalculationData.**
-Nuovo API per consentire all'utente di implementare il proprio motore di calcolo per estendere il motore di calcolo predefinito di Aspose.Cells.
+Nuova API per consentire all'utente di implementare il proprio motore di calcolo per estendere il motore di calcolo predefinito di Aspose.Cells.
 ### **Aggiunge la proprietà CalculationOptions.CustomEngine.**
 Consenti all'utente di utilizzare il nuovo motore di calcolo personalizzato per calcolare le formule.
 

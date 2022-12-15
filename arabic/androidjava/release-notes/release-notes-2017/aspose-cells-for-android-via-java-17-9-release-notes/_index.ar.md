@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 17.9 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 17.9 ملاحظات الإصدار
 type: docs
 weight: 20
 url: /ar/java/aspose-cells-for-android-via-java-17-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells لنظام Android عبر Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
+تحتوي هذه الصفحة على ملاحظات الإصدار لـ[Aspose.Cells for Android via Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
 
 {{% /alert %}} 
 
@@ -161,6 +161,6 @@ url: /ar/java/aspose-cells-for-android-via-java-17-9-release-notes/
 
 {{% alert color="primary" %}} 
 
-نظرًا لأن قاعدة رمز Aspose.Cells لنظام Android عبر Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v17.6 ، Aspose.Cells for .NET v17.7 ، for .NET for .NET v17.7 ، for .NET for .NET v17.7. تم تضمين 8 ، Aspose.Cells for .NET v17.9 ، Aspose.Cells for Java v17.6 ، Aspose.Cells for Java v17.7 ، Aspose.Cells for Java v17.8 و Aspose.Cells for Java v17.9 في هذا Aspose.Cells لنظام Android عبر Aspose.Cells.
+نظرًا لأن قاعدة الكود الخاصة بـ Aspose.Cells for Android via Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتعزيزات والإصلاحات المضمنة في Aspose.Cells for .NET v17.6 ، Aspose.Cells for .NET v171.7 ، 0717.8193 Aspose.Cells for .NET v17.9 و Aspose.Cells for Java v17.6 و Aspose.Cells for Java v17.7 و Aspose.Cells for Java v17.8 و Aspose.Cells for Java v17.9 مدرجة أيضًا في هذا Aspose.Cells via Java
 
 {{% /alert %}}

@@ -6,7 +6,7 @@ url: /zh/java/managing-worksheets-in-php/
 ---
 ## **Aspose.Cells - 管理工作表**
 ### **将工作表添加到新的 Excel 文件**
-使用以下方法将工作表添加到新的 Excel 文件**Aspose.Cells Java 用于 PHP** 只需调用**添加工作表**的方法**管理工作表**模块。
+使用以下方法将工作表添加到新的 Excel 文件**Aspose.Cells Java for PHP** 只需调用**添加工作表**的方法**管理工作表**模块。
 
 **PHP代码**
 
@@ -34,7 +34,7 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ### **使用工作表名称删除工作表**
-要使用工作表名称删除工作表**Aspose.Cells Java 用于 PHP** 只需调用**按名称删除工作表**的方法**管理工作表**模块。
+要使用工作表名称删除工作表**Aspose.Cells Java for PHP** 只需调用**按名称删除工作表**的方法**管理工作表**模块。
 
 **PHP代码**
 
@@ -62,7 +62,7 @@ $fstream->close();
 
 {{< /highlight >}}
 ### **使用工作表索引删除工作表**
-要按工作表索引删除工作表，请使用**Aspose.Cells Java 用于 PHP** 只需调用**按索引删除工作表**的方法**管理工作表**模块。
+要按工作表索引删除工作表，请使用**Aspose.Cells Java for PHP** 只需调用**按索引删除工作表**的方法**管理工作表**模块。
 
 **PHP代码**
 

@@ -6,7 +6,7 @@ url: /it/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}} 
 
-Quando si lavora con file Excel di grandi dimensioni Microsoft (ad esempio una cartella di lavoro con molti fogli, ciascuno con 50 colonne e 300 o più righe di dati), è possibile che l'output PDF mostri una pagina per foglio di lavoro, indipendentemente dalle dimensioni del foglio di lavoro . Ciò significherebbe che è probabile che ogni pagina abbia una dimensione di pagina radicalmente diversa. Ciò può essere ottenuto utilizzando Aspose.Cells for .NET.
+Quando si lavora con file Microsoft Excel di grandi dimensioni (ad esempio una cartella di lavoro con molti fogli, ciascuno con 50 colonne e 300 o più righe di dati), è possibile che l'output PDF mostri una pagina per foglio di lavoro, indipendentemente dalle dimensioni del foglio di lavoro . Ciò significherebbe che è probabile che ogni pagina abbia una dimensione di pagina radicalmente diversa. Ciò può essere ottenuto utilizzando Aspose.Cells for .NET.
 
 {{% /alert %}} 
 

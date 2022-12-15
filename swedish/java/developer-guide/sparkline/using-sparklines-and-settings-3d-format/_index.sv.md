@@ -7,7 +7,7 @@ url: /sv/java/using-sparklines-and-settings-3d-format/
 ## **Använder Sparklines**
 Microsoft Excel 2010 kan analysera information på fler sätt än någonsin tidigare. Det låter användare spåra och lyfta fram viktiga datatrender med nya verktyg för dataanalys och visualisering. Sparklines är minidiagram som du kan placera inuti celler så att du kan se data och diagram på samma tabell. När sparklines används på rätt sätt går dataanalysen snabbare och mer rakt på sak. De ger också en enkel bild av information, och undviker överfulla kalkylblad med många upptagna diagram.
 
-Aspose.Cells tillhandahåller ett API för att manipulera sparklines i kalkylblad.
+Aspose.Cells tillhandahåller en API för att manipulera sparklines i kalkylblad.
 ### **Sparklines i Microsoft Excel**
 Så här infogar du sparklines i Microsoft Excel 2010:
 
@@ -17,7 +17,7 @@ Så här infogar du sparklines i Microsoft Excel 2010:
 
 Sparklines hjälper dig att se trender, till exempel vinst- eller förlustrekord för en softballliga. Sparklines kan till och med summera hela säsongen för varje lag i ligan.
 ### **Sparklines med Aspose.Cells**
- Utvecklare kan skapa, ta bort eller läsa sparklines (i mallfilen) med API:et som tillhandahålls av Aspose.Cells. Klasserna som hanterar sparklines finns i[Aspose.Cells.Charts](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)namnutrymme så du måste importera detta namnutrymme innan du använder dessa funktioner.
+ Utvecklare kan skapa, ta bort eller läsa sparklines (i mallfilen) med hjälp av API från Aspose.Cells. Klasserna som hanterar sparklines finns i[Aspose.Cells.Charts](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)namnutrymme så du måste importera detta namnutrymme innan du använder dessa funktioner.
 
 Genom att lägga till anpassad grafik för ett givet dataintervall har utvecklarna friheten att lägga till olika typer av små diagram till utvalda cellområden.
 
@@ -34,7 +34,7 @@ Exemplet nedan visar Sparklines-funktionen. Exemplet visar hur man:
 ## **Ställa in 3D-format**
 Du kanske behöver 3D-diagramstilar så att du kan få precis resultaten för ditt scenario. Aspose.Cells tillhandahåller relevant API för att tillämpa Microsoft Excel 2007 3D-formatering.
 
-Ett komplett exempel ges nedan för att visa hur man skapar ett diagram och använder Microsoft Excel 2007 3D-formatering. Efter exekvering av exempelkoden kommer ett kolumndiagram (med 3D-effekter) att läggas till i kalkylbladet.
+Ett komplett exempel ges nedan för att visa hur man skapar ett diagram och tillämpar Microsoft Excel 2007 3D-formatering. Efter exekvering av exempelkoden kommer ett kolumndiagram (med 3D-effekter) att läggas till i kalkylbladet.
 
 
 

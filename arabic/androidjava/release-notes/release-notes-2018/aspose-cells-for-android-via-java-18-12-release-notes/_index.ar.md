@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 18.12 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 18.12 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 18.12.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 18.12.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 
 **يضيف خاصية HtmlSaveOptions.WidthScalable**
 
@@ -155,7 +155,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 
 يشير إلى ما إذا كان يجب أن يكون نوع قيمة الخلية التي تم البحث عنها هو نفسه مع المفتاح الذي تم البحث عنه.
 
-**تقادم FindOptions.SearchNext خاصية**
+**تقادم FindOptions.SearchNext الخاصية**
 
 استخدم خاصية FindOptions.SearchBackward بدلاً من ذلك ، القيمة الحقيقية لهذه الخاصية الجديدة تقابل false لـ SearchNext.
 
@@ -195,12 +195,12 @@ url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 
 استخدم طريقة PivotItem.Move (int ، bool) بدلاً من ذلك.
 
-**حذف Cells.ExportDataTable (int، int، int، int، bool، bool)، Cells.ExportDataTable (int، int، int، int، object [])، Cells.ExportDataTable (int، int، int، int، bool) ، Cells.ExportDataTable (DataTable، int، int []، int، bool) و Cells.ExportDataTable (DataTable، int، int، int، bool، bool)**
+**يحذف Cells.ExportDataTable (int، int، int، int، bool، bool)، Cells.ExportDataTable (int، int، int، int، object [])، Cells.ExportDataTable (int، int، int، int، bool) ، Cells.ExportDataTable (DataTable، int، int []، int، bool) و Cells.ExportDataTable (DataTable، int، int، int، bool، bool)**
 
 استخدم طريقة ExportDataTable (firstRow و firstColumn و totalRows و totalColumns و ExportTableOptions) بدلاً من ذلك.
 
 {{% alert color="primary" %}}
 
-نظرًا لأن قاعدة رمز Aspose.Cells لنظام Android عبر Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v18.10 ، Aspose.Cells for .NET v18.11 ، for .NET for .NET v18.11 ، for .NET for .NET v18.11. تم تضمين 12 و Aspose.Cells for Java v18.10 و Aspose.Cells for Java v18.11 و Aspose.Cells for Java v18.12 أيضًا في Aspose.Cells لنظام Android عبر Java v18.12.
+نظرًا لأن قاعدة الكود Aspose.Cells for Android via Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v18.10 ، Aspose.Cells for .NET v181481 ، 0718103481 Aspose.Cells for Java v18.10 و Aspose.Cells for Java v18.11 و Aspose.Cells for Java v18.12 تم تضمينها أيضًا في Aspose.Cells for Android via Java v18.12.
 
 {{% /alert %}}

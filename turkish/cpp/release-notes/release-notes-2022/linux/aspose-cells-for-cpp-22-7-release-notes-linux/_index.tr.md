@@ -6,11 +6,11 @@ url: /tr/cpp/aspose-cells-for-cpp-22-7-release-notes-linux/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Linux için C++ 22.7 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa, Linux için Aspose.Cells for C++ 22.7 sürüm notlarını içerir.
 
 {{% /alert %}}
 
-Linux için C++ 22.7 için Aspose.Cells sürümünü duyurmaktan mutluluk duyuyoruz.
+Linux için Aspose.Cells for C++ 22.7 sürümünü duyurmaktan mutluluk duyuyoruz.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSCPP-829| IWarningCallback arayüzü ekleyin|Destek|

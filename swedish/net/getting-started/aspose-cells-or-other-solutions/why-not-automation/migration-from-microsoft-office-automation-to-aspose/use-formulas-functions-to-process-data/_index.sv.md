@@ -6,7 +6,7 @@ url: /sv/net/use-formulas-functions-to-process-data/
 ---
 {{% alert color="primary" %}}
 
- Detta tekniska tips kommer att illustrera hur du kan använda formler/funktioner för att bearbeta data med**VSTO** och**Aspose.Cells för .NET** genom kod.
+ Detta tekniska tips kommer att illustrera hur du kan använda formler/funktioner för att bearbeta data med**VSTO** och**Aspose.Cells for .NET** genom kod.
 
 {{% /alert %}}
 
@@ -85,7 +85,7 @@ void AddingCellFormula()
 
 {{< /highlight >}}
 
-## **2) Aspose.Cells för .NET**
+## **2) Aspose.Cells for .NET**
 
 **C#**
 
@@ -155,8 +155,8 @@ void AddingCellFormula()
 
 **Figur 1:** Utdata med formler med VSTO
 
-### **2) Aspose.Cells för .NET**
+### **2) Aspose.Cells for .NET**
 
 ![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
-**Figur 2:** Utdata med formler med Aspose.Cells för .NET
+**Figur 2:** Utdata med formler med Aspose.Cells for .NET

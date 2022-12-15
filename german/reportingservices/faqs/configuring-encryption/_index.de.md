@@ -6,11 +6,11 @@ url: /de/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells für Reporting Services unterstützt die Verschlüsselung und Sie können verschlüsselte Microsoft Excel-Dateien rendern.
+ Aspose.Cells for Reporting Services unterstützt Verschlüsselung und Sie können verschlüsselte Microsoft Excel-Dateien rendern.
 
 {{% /alert %}} 
 ### **Arten der Verschlüsselung**
-Aspose.Cells für Reporting Services unterstützt die Verschlüsselung beim Exportieren von Excel-Dateien. Es unterstützt drei Verschlüsselungsarten:
+Aspose.Cells for Reporting Services unterstützt die Verschlüsselung beim Export von Excel-Dateien. Es unterstützt drei Verschlüsselungsarten:
 
 - XOR
 - SCHWACHE VERSCHLÜSSELUNG

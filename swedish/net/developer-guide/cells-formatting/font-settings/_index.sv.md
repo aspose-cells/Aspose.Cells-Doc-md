@@ -6,7 +6,7 @@ url: /sv/net/cells-font-settings/
 ---
 {{% alert color="primary" %}}
 
-Utseendet och känslan av en text kan styras genom att ändra teckensnittsinställningar. Teckensnittsinställningarna kan inkludera namn, stil, storlek, färg och andra effekter av typsnitten. Precis som Microsoft Excel stöder Aspose.Cells också konfigurering av teckensnittsinställningarna för cellerna.
+Utseendet och känslan av en text kan styras genom att ändra teckensnittsinställningar. Teckensnittsinställningarna kan inkludera namn, stil, storlek, färg och andra effekter av typsnitten. Precis som Microsoft Excel, stöder Aspose.Cells också konfigurering av teckensnittsinställningarna för cellerna.
 
 {{% /alert %}}
 
@@ -36,7 +36,7 @@ Ställ in teckenstorleken med[**Style.Font**](https://reference.aspose.com/cells
 
 ### **Ställa in teckensnittsfärg**
 
-Använd[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) objekt[**Färg**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)egenskap för att ställa in teckensnittsfärgen. Välj valfri färg från färguppräkningen (en del av .NET-ramverket) och tilldela den till[**Färg**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)fast egendom.
+Använd[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) objekt[**Färg**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)egenskap för att ställa in teckensnittsfärgen. Välj valfri färg från färguppräkningen (en del av ramverket .NET) och tilldela den till[**Färg**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
 
@@ -54,7 +54,7 @@ Använd[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/styl
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontUnderlineType-1.cs" >}}
 
-### **Ställa in överstruken effekt**
+### **Ställa in genomstruken effekt**
 
 Använd genomstruken genom att ställa in[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) objekt[**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)egendom till**Sann**.
 
@@ -68,7 +68,7 @@ Använd prenumeration genom att ställa in[**Style.Font**](https://reference.asp
 
 ### **Ställa in upphöjd effekt på teckensnitt**
 
-Utvecklare kan tillämpa den upphöjda effekten på teckensnittet genom att ställa in[**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) egendom av[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) invända mot**Sann**.
+ Utvecklare kan tillämpa den upphöjda effekten på teckensnittet genom att ställa in[**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) egendom av[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) invända mot**Sann**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}
 

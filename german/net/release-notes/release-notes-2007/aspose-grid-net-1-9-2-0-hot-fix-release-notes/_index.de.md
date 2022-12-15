@@ -6,7 +6,7 @@ url: /de/net/aspose-grid-net-1-9-2-0-hot-fix-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Grid .Net 1.9.2.0 Hot Fix
+Diese Seite enthält Versionshinweise für Aspose.Grid .Net 1.9.2.0 Hotfix
 
 {{% /alert %}}
 

@@ -6,7 +6,7 @@ url: /sv/net/adding-cell-controls-in-columns/
 ---
 {{% alert color="primary" %}} 
 
-våra senare diskussioner har vi diskuterat om att lägga till och hantera cellkontroller i kalkylbladet. Men med dessa metoder kan vi lägga till cellkontroller till enstaka celler en efter en. Vad händer om någon skulle vilja lägga till cellkontroller till alla celler i en eller flera kolumner? I sådana fall, för att minska utvecklarnas ansträngningar, tillhandahåller Aspose.Cells.GridDesktop funktionen att lägga till cellkontroller per kolumnbasis. Det betyder att utvecklare bara kan välja en önskad kolumn och ange valfri cellkontroll. Den angivna cellkontrollen kommer att läggas till i alla celler i den angivna kolumnen. Låt oss se hur vi kan använda den här funktionen.
+I våra senare diskussioner har vi diskuterat om att lägga till och hantera cellkontroller i kalkylbladet. Men med dessa metoder kan vi lägga till cellkontroller till enstaka celler en efter en. Vad händer om någon skulle vilja lägga till cellkontroller till alla celler i en eller flera kolumner? I sådana fall, för att minska utvecklarnas ansträngningar, tillhandahåller Aspose.Cells.GridDesktop funktionen att lägga till cellkontroller per kolumnbasis. Det betyder att utvecklare bara kan välja en önskad kolumn och ange valfri cellkontroll. Den angivna cellkontrollen kommer att läggas till i alla celler i den angivna kolumnen. Låt oss se hur vi kan använda den här funktionen.
 
 {{% /alert %}} 
 ## **Introduktion**

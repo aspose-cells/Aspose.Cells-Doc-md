@@ -34,7 +34,7 @@ Lo screenshot seguente mostra il file Excel di output generato dal codice di ese
 
 ![cose da fare:immagine_alt_testo](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-## C# per applicare il subtotale e modificare la direzione delle righe di riepilogo del contorno
+## Codice C# per applicare il subtotale e modificare la direzione delle righe di riepilogo del contorno
 
 Ecco il codice di esempio per ottenere l'output mostrato sopra.
 

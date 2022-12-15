@@ -15,7 +15,7 @@ url: /zh/java/spreadsheet-editor-getting-started/
 ### **介绍**
 Html5 电子表格编辑器是一个网络应用程序，可以在网络浏览器中查看和编辑电子表格文档。它支持 Excel、SpreadsheetML、CVS、OpenDocument 和 Microsoft Excel 支持的许多其他格式。支持所有基本功能，包括单元格编辑、格式设置、公式编辑、行和列管理等。
 
-![待办事项：图片_替代_文本](aowcrc1.png)
+![待办事项：图像_替代_文本](aowcrc1.png)
 
  HTML5 电子表格编辑器使用了很多功能[Aspose.Cells for Java](https://products.aspose.com/cells/java/)并展示如何使用它们在 Java 应用程序中创建、操作和呈现电子表格。
 

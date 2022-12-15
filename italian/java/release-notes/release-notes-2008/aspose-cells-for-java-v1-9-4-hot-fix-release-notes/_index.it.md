@@ -20,8 +20,8 @@ url: /it/java/aspose-cells-for-java-v1-9-4-hot-fix-release-notes/
  Cosa è migliorato?
 
 - Aggiunti nuovi metodi per manipolare la posizione e le dimensioni della forma e deprecati alcuni vecchi metodi
- Aggiungi alcuni codici demo e modelli per il nuovo API
- Sostituisci l'invocazione obsoleta API con la nuova API nelle demo
+ Aggiungi alcuni codici demo e modelli per la nuova API
+ Sostituisci la chiamata API obsoleta con la nuova API nelle demo
 
  Cosa è stato risolto?
 

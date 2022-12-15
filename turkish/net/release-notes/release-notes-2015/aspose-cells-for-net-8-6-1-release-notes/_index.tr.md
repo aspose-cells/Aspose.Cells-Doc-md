@@ -146,7 +146,7 @@ url: /tr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43997) - Bir XLSX dosyası yüklenirken/kaydedilirken sayfadaki etkin hücre doğru konumda değil - GridWeb
 
- (CELLSNET-43993) - VS2008 C++'i griddesktop.dll ile derlerken C2686 hatası
+ (CELLSNET-43993) - VS2008 C++ ile griddesktop.dll'yi derlerken C2686 hatası
 
  (CELLSNET-43986) - WebWorksheet veya GridWorkSheet'te SetReadonlyRange yöntemi yok
 

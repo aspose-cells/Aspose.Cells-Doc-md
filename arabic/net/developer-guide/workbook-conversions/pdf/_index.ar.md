@@ -33,7 +33,7 @@ Aspose.Cells يدعم تحويل مصنف Excel إلى PDF. في هذا المث
 1.  إنشاء كائن من**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)**فئة عن طريق استدعاء مُنشئها الفارغ.
 1. يمكنك فتح / تحميل ملف قالب موجود أو تخطي هذه الخطوة إذا كنت تقوم بإنشاء المصنف من البداية.
 1. قم بأي عمل (إدخال البيانات ، وتطبيق التنسيق ، وتعيين الصيغ ، وإدراج الصور أو الكائنات الرسومية الأخرى ، وما إلى ذلك) في جدول البيانات باستخدام واجهات برمجة التطبيقات Aspose.Cells '.
-1. عندما يكتمل رمز جدول البيانات ، اتصل بـ**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** صف دراسي'**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**طريقة لحفظ جدول البيانات.
+1.  عندما يكتمل رمز جدول البيانات ، اتصل بـ**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** صف دراسي'**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**طريقة لحفظ جدول البيانات.
 
  يجب أن يكون تنسيق الملف PDF ، لذا حدده*بي دي إف* (قيمة محددة مسبقًا) من**[SaveFormat] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**التعداد لإنشاء وثيقة PDF النهائية.
 
@@ -127,7 +127,7 @@ Aspose.Cells يدعم تحويل مصنف Excel إلى PDF. في هذا المث
 - [التحكم في تحميل الموارد الخارجية في مصنف MS Excel أثناء التقديم إلى PDF](/cells/ar/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [قم بتحويل ملف XLS إلى تنسيق PDF](/cells/ar/net/convert-an-xls-file-to-pdf-format/)
 - [قم بتحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a](/cells/ar/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [قم بتحويل ملف XLS بالصور أو المخططات إلى PDF](/cells/ar/net/convert-xls-file-with-images-or-charts-to-pdf/)
+- [قم بتحويل ملف XLS بالصور أو الرسوم البيانية إلى PDF](/cells/ar/net/convert-xls-file-with-images-or-charts-to-pdf/)
 - [قم بإنشاء PdfBookmarkEntry لورقة الرسم البياني](/cells/ar/net/create-pdfbookmarkentry-for-chart-sheet/)
 - [احتواء جميع أعمدة ورقة العمل في صفحة PDF واحدة](/cells/ar/net/fit-all-worksheet-columns-on-single-pdf-page/)
 - [احصل على DrawObject و Bound أثناء التقديم إلى PDF باستخدام فئة DrawObjectEventHandler](/cells/ar/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)

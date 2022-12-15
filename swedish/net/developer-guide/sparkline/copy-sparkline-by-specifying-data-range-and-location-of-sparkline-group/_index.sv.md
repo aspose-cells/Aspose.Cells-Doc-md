@@ -6,7 +6,7 @@ url: /sv/net/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-g
 ---
 {{% alert color="primary" %}}
 
-Med Microsoft Excel kan du kopiera en sparkline genom att ange dataintervallet och platsen för en sparkline-grupp. Aspose.Cells stöder den här funktionen.
+Microsoft Excel låter dig kopiera en sparkline genom att ange dataintervallet och platsen för en sparkline-grupp. Aspose.Cells stöder den här funktionen.
 
 {{% /alert %}}
 

@@ -8,7 +8,7 @@ url: /sv/java/autofit-rows-and-columns-in-python/
 ### **Autofit rad**
 Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att anropa Worksheet-klassens autoFitRow-metod. AutoFitRow-metoden tar ett radindex (för raden som ska ändras storlek) som en parameter.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 
@@ -42,7 +42,7 @@ print "Autofit Row Successfully."
 ### **Autofit kolumn**
 Det enklaste sättet att automatiskt anpassa bredden och höjden på en kolumn är att anropa Worksheet-klassens autoFitColumn-metod. AutoFitColumn-metoden tar kolumnindex (för kolumnen som ska ändras storlek) som en parameter.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

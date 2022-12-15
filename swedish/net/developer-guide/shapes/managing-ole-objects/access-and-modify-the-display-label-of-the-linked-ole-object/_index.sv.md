@@ -6,7 +6,7 @@ url: /sv/net/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
 ## **Möjliga användningsscenarier**
 
-Microsoft Excel låter dig ändra visningsetiketten för Ole-objektet som visas i följande skärmdump. Du kan också komma åt eller ändra visningsetiketten för Ole-objektet med hjälp av Aspose.Cells API:er med[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)fast egendom.
+ Microsoft Excel låter dig ändra visningsetiketten för Ole-objektet som visas i följande skärmdump. Du kan också komma åt eller ändra visningsetiketten för Ole-objektet med hjälp av Aspose.Cells API:er med[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)fast egendom.
 
 ![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 

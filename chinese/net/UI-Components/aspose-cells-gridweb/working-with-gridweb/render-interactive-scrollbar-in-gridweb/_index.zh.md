@@ -23,13 +23,13 @@ Aspose.Cells for GridWeb 可以在 GridWeb 工作表内呈现交互式滚动条�
 ## **在 GridWeb 中渲染交互式滚动条**
 下面的示例代码加载[示例 Excel 文件](61767764.xlsx)包含滚动条，如以下屏幕截图所示。其他屏幕截图显示了 GridWeb 如何呈现交互式滚动条并在单元格 B3 中显示滚动条的值。无论何时滚动滚动条，单元格 B3 的值都会显示结果值。
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_1.png)
+![待办事项：图像_替代_文本](render-interactive-scrollbar-in-gridweb_1.png)
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_2.png)
+![待办事项：图像_替代_文本](render-interactive-scrollbar-in-gridweb_2.png)
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_3.png)
+![待办事项：图像_替代_文本](render-interactive-scrollbar-in-gridweb_3.png)
 
-![待办事项：图片_替代_文本](render-interactive-scrollbar-in-gridweb_4.png)
+![待办事项：图像_替代_文本](render-interactive-scrollbar-in-gridweb_4.png)
 ## **示例代码**
 {{< highlight "java" >}}
 

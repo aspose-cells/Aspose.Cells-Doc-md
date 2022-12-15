@@ -11,9 +11,9 @@ Aspose.Cells, Excel dosyalarının PDF'ye dönüştürülmesini destekler ve dö
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, Belgeyi PDF'ye dönüştürürken, C++ için Aspose.Cells,**Başvuru** 'Aspose.Cells' değerine sahip alan ve**PDF Yapımcısı**değeri olan alan, örneğin 'Aspose.Cells v18.5.0'.
+ Aspose.Cells, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, Belgeyi PDF'ye dönüştürürken Aspose.Cells for C++,**Başvuru** 'Aspose.Cells' değerine sahip alan ve**PDF Yapımcısı** değeri olan alan, örneğin 'Aspose.Cells v18.5.0'.
 
-C++ için Aspose.Cells'e bu bilgileri çıktı Belgelerinden değiştirme veya kaldırma talimatı veremeyeceğinizi lütfen unutmayın.
+Lütfen Aspose.Cells for C++'e bu bilgileri çıktı Belgelerinden değiştirme veya kaldırma talimatı veremeyeceğinizi unutmayın.
 
 {{% /alert %}} 
 ### **Doğrudan Dönüşüm**
@@ -24,7 +24,7 @@ Excel elektronik tablolarını doğrudan PDF formatına dönüştürmek için a�
 1.  nesnesinin örneğini oluşturun[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)boş kurucusunu çağırarak sınıf.
 1. Mevcut bir şablon dosyasını açabilir/yükleyebilir veya çalışma kitabını sıfırdan oluşturuyorsanız bu adımı atlayabilirsiniz.
 1. Aspose.Cells' API'lerini kullanarak elektronik tablo üzerinde herhangi bir iş yapın (verileri girin, biçimlendirmeyi uygulayın, formülleri ayarlayın, resimler veya başka çizim nesneleri ekleyin, vb.).
-1. Elektronik tablo kodu tamamlandığında,[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)sınıf'[Kaydetmek](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)elektronik tabloyu kaydetme yöntemi.
+1.  Elektronik tablo kodu tamamlandığında,[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)sınıf'[Kaydetmek](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)elektronik tabloyu kaydetme yöntemi.
 
 Dosya formatı PDF olmalıdır, bu nedenle son PDF belgesini oluşturmak için SaveFormat numaralandırmasından ilgili PDF'yi (önceden tanımlanmış bir değer) seçin.
 

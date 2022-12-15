@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.11 Release Notes
+title: Aspose.Cells for .NET 17.11 Release Notes
 type: docs
 weight: 20
 url: /sv/net/aspose-cells-for-net-17-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för .NET 17.11.
+Den här sidan innehåller utgåvor för Aspose.Cells for .NET 17.11.
 
 {{% /alert %}} 
 
@@ -52,8 +52,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för .NET 17.11.
 |CELLSNET-45751|ExportTableOptions.Index-egenskapen som används i metoden ExportDataTable() orsakar undantag|Undantag|
 |CELLSNET-45726|Undantag vid laddning av utdata-XLS-filen (med OLE-objekt, bilder etc. uteslutna)|Undantag|
 |CELLSNET-45723|R1C1Formula ger undantag om formeln innehåller tecknet "[" ]|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoden Shape.GetResultOfSmartArt().**
 Konvertera den smarta konsten till en gruppform.
 #### **Lägger till egenskapen Shape.IsSmartArt**

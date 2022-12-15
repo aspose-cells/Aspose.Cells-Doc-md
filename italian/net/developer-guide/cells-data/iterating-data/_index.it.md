@@ -47,7 +47,7 @@ Nell'esempio di codice seguente viene illustrata l'implementazione dell'interfac
 
 ### **Enumeratore di colonne**
 
- È possibile accedere all'enumeratore di colonne durante l'utilizzo di[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) metodo. Nell'esempio di codice seguente viene illustrata l'implementazione dell'interfaccia IEnumerator per[**Raccolta di colonne**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
+È possibile accedere all'enumeratore di colonne durante l'utilizzo di[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) metodo. Nell'esempio di codice seguente viene illustrata l'implementazione dell'interfaccia IEnumerator per[**Raccolta di colonne**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 

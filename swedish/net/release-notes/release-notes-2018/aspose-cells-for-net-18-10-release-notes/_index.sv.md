@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 18.10 Release Notes
+title: Aspose.Cells for .NET 18.10 Release Notes
 type: docs
 weight: 30
 url: /sv/net/aspose-cells-for-net-18-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 18.10](https://www.nuget.org/packages/Aspose.Cells/18.10.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 18.10](https://www.nuget.org/packages/Aspose.Cells/18.10.0).
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ url: /sv/net/aspose-cells-for-net-18-10-release-notes/
 |CELLSNET-46194|Ändra kolumnernas fasta storleksbredd (dvs. pt/px) till skalbar enhet som "em" eller "procent"|Förbättring|
 |CELLSNET-46383|Problem med bildkällan när du renderar Excel till HTML-filformat|Insekt|
 |CELLSNET-46367|Teckenstorleken ändrades från 6,5 till 6 när XLSX konverterades till HTML|Insekt|
-|CELLSNET-46353| Känn igen tomma taggar som<td />medan du konverterar HTML till MS Excel-filformat|Insekt|
+|CELLSNET-46353| Känn igen tomma taggar som<td /> medan du konverterar HTML till MS Excel-filformat|Insekt|
 |CELLSNET-46341|Delsumma saknas när rader kollapsade efter uppdatering|Insekt|
 |CELLSNET-46330|Utfärda i nummerfält när du anropar Worksheet.AutoFitColumns()|Insekt|
 |CELLSNET-42681|XLSB-filen blir korrupt när den öppnas och sparas|Insekt|
@@ -45,8 +45,8 @@ url: /sv/net/aspose-cells-for-net-18-10-release-notes/
 |CELLSNET-46344|Smart Marker utvärderar inte ISBLANK korrekt|Insekt|
 |CELLSNET-46319|FilterOperatorType.Innehåller saknas från API|Insekt|
 |CELLSNET-46354|Undantag inträffade när en Excel-fil laddades|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen HtmlSaveOptions.WidthScalable**
 Anger om skalbar enhet används för att beskriva kolumnbredden vid export av fil till HTML. Standardvärdet är falskt.
 #### **Lägger till egenskapen WorkbookDesigner.UpdateEmptyStringAsNull**

@@ -6,14 +6,14 @@ url: /sv/cpp/manage-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer programmatiskt med hjälp av Aspose.Cells flexibelt API. Det här avsnittet beskriver metoder för att lägga till och ta bort kalkylblad i Microsoft Excel-filer.
+Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer programmatiskt med Aspose.Cells flexibel API. Det här avsnittet beskriver metoder för att lägga till och ta bort kalkylblad i Microsoft Excel-filer.
 
 {{% /alert %}} 
 
  Aspose.Cells tillhandahåller en klass[IArbetsbok](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) som representerar en Excel-fil. De[IArbetsbok](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) klass innehåller en[Arbetsblad](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)samling som ger åtkomst till varje kalkylblad i Excel-filen.
 
  Ett arbetsblad representeras av[IArbetsblad](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) klass. De[IArbetsblad](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)klass tillhandahåller ett brett utbud av metoder för att hantera kalkylblad.
-## **Lägga till arbetsblad i en ny Excel-fil**
+## **Lägga till kalkylblad till en ny Excel-fil**
 Så här skapar du en ny Excel-fil programmatiskt:
 
 1.  Skapa ett objekt av[IArbetsblad](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)klass.

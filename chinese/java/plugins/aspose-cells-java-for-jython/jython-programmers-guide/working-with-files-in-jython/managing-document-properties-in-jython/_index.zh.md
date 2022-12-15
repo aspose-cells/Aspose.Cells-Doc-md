@@ -5,7 +5,7 @@ weight: 60
 url: /zh/java/managing-document-properties-in-jython/
 ---
 ## **Aspose.Cells - 管理文档属性**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+使用附加文件**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
 
 **Jython代码**
 

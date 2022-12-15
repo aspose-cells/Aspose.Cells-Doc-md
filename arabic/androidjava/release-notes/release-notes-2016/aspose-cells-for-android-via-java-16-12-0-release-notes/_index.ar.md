@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 16.12.0 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 16.12.0 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
@@ -78,7 +78,7 @@ url: /ar/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-42014|ClassCastException أثناء إعادة حفظ XLSX|استثناء|
 |CELLSJAVA-42004|java.lang.NullPointerException ، في Workbook ctor أثناء تحميل ملف XLSX|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى طرحه على منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for Android. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
 ### **يضيف خاصية Shape.Reflection وفئة ReflectionEffect.**
 يمثل تأثير الانعكاس لعنصر المخطط أو شكله.
 ### **يضيف الشكل ، الانحدار ، GlowEffect ، الحجم والتوهج ، إجراءات الشفافية.**
@@ -160,6 +160,6 @@ url: /ar/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-نظرًا لأن قاعدة رمز Aspose.Cells لنظام Android تتطابق مع رمز إصدار .NET و Java ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v16.10.0 ، Aspose.Cells for .NET v16.11.0 ، Aspose.Cells 0761831661 v193.12 .10.0 و Aspose.Cells for Java v16.11.0 و Aspose.Cells for Java v16.12.0 مدرجة أيضًا في Aspose.Cells لنظام Android v16.12.0.
+نظرًا لأن قاعدة الكود Aspose.Cells for Android تتطابق مع رمز الإصدارين .NET و Java ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v16.10.0 ، Aspose.Cells for .NET v16.11.0 ، Aspose.Cells 076193. 10.0 و Aspose.Cells for Java v16.11.0 و Aspose.Cells for Java v16.12.0 مدرجة أيضًا في Aspose.Cells for Android v16.12.0.
 
 {{% /alert %}}

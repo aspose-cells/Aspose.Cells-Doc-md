@@ -17,7 +17,7 @@ Tidigare skulle Aspose.Cells skapa[**Pdf BookmarkEntry**](https://reference.aspo
 - Bokmärke-III
 - Bokmärke-IV-diagram2
 
- Följande skärmdump visar[mata ut PDF](61767757.pdf) genereras av exempelkoden för en referens.
+Följande skärmdump visar[mata ut PDF](61767757.pdf) genereras av exempelkoden för en referens.
 
 ![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

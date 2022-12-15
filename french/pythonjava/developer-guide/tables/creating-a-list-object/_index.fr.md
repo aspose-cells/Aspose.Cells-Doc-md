@@ -43,7 +43,7 @@ Une feuille de calcul est représentée par le[**Feuille de travail**](https://r
 
 Selon la plage de cellules spécifiée, l'objet List est créé dans la feuille de calcul par Aspose.Cells. Utilisez les attributs (par exemple, ShowTotals, ListColumns, etc.)[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)classe pour contrôler la liste.
 
-Dans l'exemple ci-dessous, nous avons créé le même[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)en utilisant Aspose.Cells pour Python via Java API comme nous l'avons créé en utilisant Microsoft Excel dans la section ci-dessus.
+Dans l'exemple ci-dessous, nous avons créé le même[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)en utilisant Aspose.Cells for Python via Java API comme nous l'avons créé en utilisant Microsoft Excel dans la section ci-dessus.
 
 ## Code source
 

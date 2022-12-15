@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Android через Java 18.3 Примечания к выпуску
+title: Aspose.Cells for Android via Java 18.3 Примечания к выпуску
 type: docs
 weight: 40
 url: /ru/java/aspose-cells-for-android-via-java-18-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску Aspose.Cells для Android через Java 18.3.
+Эта страница содержит примечания к выпуску для Aspose.Cells for Android via Java 18.3.
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ url: /ru/java/aspose-cells-for-android-via-java-18-3-release-notes/
 |CELLSJAVA-42522|ArrayIndexOutOfBoundsException при открытии файла через Aspose.Cells|Исключение|
 |CELLSJAVA-42517|Исключение "com.aspose.cells.CellsException: Недопустимая формула:" при загрузке файла ODS|Исключение|
 # **Public API и обратно несовместимые изменения**
-Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие элементы, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells для Android через номер Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, пожалуйста, поднимите его на форуме поддержки Aspose.Cells.
+Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Android via Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом. на форуме поддержки Aspose.Cells.
 #### **Добавляет свойство LoadOptions.ParsingPivotCachedRecords.**
 Указывает, анализируются ли сводные кэшированные записи при загрузке файла. Значение по умолчанию — false. Применяется только к форматам файлов Excel Xlsx, Xltx, Xltm, Xlsm и Xlsb.
 #### **Добавляет свойство HtmlSaveOptions.ExcludeUnusedStyles.**
@@ -112,6 +112,6 @@ url: /ru/java/aspose-cells-for-android-via-java-18-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-Поскольку кодовая база Aspose.Cells для Android через Java совпадает с кодом соответствующих версий .NET и Java, большинство изменений, улучшений и исправлений включены в Aspose.Cells for .NET v18.1, Aspose.Cells for .NET v18.18, 4716 18.18, 07163481 for .NET 198.48. 3, Aspose.Cells for Java v18.1, Aspose.Cells for Java v18.2 и Aspose.Cells for Java v18.3 также включены в этот Aspose.Cells для Android через Java v18.3.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.1, Aspose.Cells for .NET v18.2, Aspose.Cells for .NET v18.3, Aspose.Cells for Java v18.1, Aspose.Cells for Java v18.2 и Aspose.Cells for Java v18.3 также включены в этот Aspose.Cells for Android via Java v18.3.
 
 {{% /alert %}}

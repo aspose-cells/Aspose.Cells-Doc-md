@@ -12,7 +12,7 @@ Du kan tillämpa tema på din arbetsbok med Microsoft Excel via kommandot Sidlay
 
 {{% /alert %}}
 
-## C#-kod för att extrahera temadata från Excel-fil
+## C# kod för att extrahera temadata från Excel-fil
 
 Följande exempelkod extraherar temanamnet som tillämpas på källarbetsboken och extraherar sedan temafärgen som tillämpas på cell A1 och temafärgen som tillämpas på cellens nedre kant.
 

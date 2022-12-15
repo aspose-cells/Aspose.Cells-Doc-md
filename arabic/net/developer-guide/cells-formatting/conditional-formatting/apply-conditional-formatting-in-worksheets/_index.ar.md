@@ -27,7 +27,7 @@ url: /ar/net/apply-conditional-formatting-in-worksheets/
 1. **أضف المراجع**.
  أضف مرجعًا إلى Aspose.Cells إلى مشروعك ، على سبيل المثال أضف مرجعًا إلى…. \ Program Files \ Aspose \ Aspose.Cells \ Bin \ Net1.0 \ Aspose.Cells.dll
 1. * تطبيق التنسيق الشرطي على أساس قيمة الخلية.
- فيما يلي الكود المستخدم لإنجاز المهمة. أقوم بتطبيق التنسيق الشرطي على خلية.
+ يوجد أدناه الكود المستخدم لإنجاز المهمة. أقوم بتطبيق التنسيق الشرطي على خلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplyConditionalFormatting-ApplyConditionalFormattingCellValue-1.cs" >}}
 

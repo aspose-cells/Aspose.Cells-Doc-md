@@ -16,7 +16,7 @@ Aspose.Cells 允许您在将电子表格呈现为 HTML 时设置默认字体。�
 
 截图显示了通过设置不同的默认字体名称的效果[**HtmlSaveOptions.DefaultFontName**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/defaultfontname)财产。
 
-![待办事项：图片_替代_文本](set-default-font-while-rendering-spreadsheet-to-html_1.png)
+![待办事项：图像_替代_文本](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
 该代码生成[使用 Courier New 输出 HTML 文件](5115516) ， 这[用 Arial 输出 HTML](5115518) 和[使用 Times New Roman 输出 HTML 文件](5115517).
 

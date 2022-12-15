@@ -8,7 +8,7 @@ url: /sv/java/display-or-hide-tabs-in-python/
 ### **Döljer flikar**
  För att dölja flikar med**Aspose.Cells Java för Ruby** , ringa upp**visagömflikar** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 
@@ -30,7 +30,7 @@ print "Tabs are now hidden, please check the output file."
 ### **Göra flikar synliga**
 Gör flikar synliga med arbetsboksklassens setSheetTabBarHidden(false) metod.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

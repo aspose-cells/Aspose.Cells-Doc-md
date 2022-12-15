@@ -19,7 +19,7 @@ url: /tr/java/aspose-cells-for-java-2-4-3-release-notes/
 - İlk/çift/tek sayfalar için farklı üst bilgileri/alt bilgileri okumayı/yazmayı destekler.
 - Excel 2007 dosyalarını okuma/kaydetmeyle ilgili bazı dahili hataları düzeltir.
 - ODS dosyalarını okuma/kaydetmeyle ilgili bazı dahili hataları düzeltir.
-- Excel 97-2003 dosyalarını okuma/kaydetmeyle ilgili bazı dahili hataları düzeltir.
+- Excel 97-2003 dosyalarını okuma/kaydetmeyle ilgili bazı dahili hataları giderir.
 - Chart to Image özelliği için iyileştirme yapıldı.
 - Direct Excel to PDF özelliği için iyileştirme yapıldı.
 - 14 düzeltme ve geliştirme.

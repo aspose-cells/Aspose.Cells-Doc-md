@@ -1,142 +1,142 @@
 ﻿---
-title: Aspose.Cells för Android via Java 17.12 Release Notes
+title: Aspose.Cells for Android via Java 17.12 Notas de la versión
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-android-via-java-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 17.12.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 17.12.
 
 {{% /alert %}} 
 
-|**Nyckel**|**Sammanfattning**|**Kategori**|
+|**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-42423|Avbryt långvarig beräkning av Workbook.calculateFormula-metoden|Ny funktion|
-|CELLSJAVA-42414|Få SheetId-fältet i MS Excel-kalkylbladet|Ny funktion|
-|CELLSJAVA-42433|ImageOrPrintOptions.PageIndex och ImageOrPrintOptions.Count egenskaper som behövs för att få bilden av önskade sidor|Ny funktion|
-|CELLSJAVA-42402|Bra HTML behövs för den bifogade HTML-koden|Förbättring|
-|CELLSJAVA-42372|Positionen för långa bindestreck är inte samma som Microsoft Excel|Förbättring|
-|CELLSJAVA-42479|Förbättrad LoadDataFilterOptions-uppräkning och oklarhet har tagits bort|Förbättring|
-|CELLSJAVA-42460|CSV-format - D2 och D6 är IsString men Aspose.Cells behandlar dem som IsNumeric|Förbättring|
-|CELLSJAVA-42399|Pilpunkterna är inte tydliga i utdata-Pdf|Insekt|
-|CELLSJAVA-42419|Text trunkeras i utdata-HTML|Insekt|
-|CELLSJAVA-42418|Kantfärgen matchar inte som MS Excel i utdata HTML|Insekt|
-|CELLSJAVA-42417|Bakgrundsfärgen matchar inte som Excel i utdata HTML|Insekt|
-|CELLSJAVA-42385|callback IFilePathProvider anropas aldrig och då har HTML-filen "null" i sökvägen|Insekt|
-|CELLSJAVA-42412|Värdeaxeletiketter saknas vid konvertering av Excel till PDF|Insekt|
-|CELLSJAVA-42408|Textöverlappning Problem efter rendering av kalkylblad till bild|Insekt|
-|CELLSJAVA-42420|Problem med annullering och slut på minne på grund av stort dataområde i diagrammet|Insekt|
-|CELLSJAVA-42415|Utdatadiagram är inte som originaldiagrammet i utdata-HTML|Insekt|
-|CELLSJAVA-42410|Kartområdet, etiketter, förklaringar etc. återges felaktigt i utdata-PDF och PNG|Insekt|
-|CELLSJAVA-42409|Diagramområdet återges inte korrekt i PDF- och PNG-utdata i MS Excel-diagrammet|Insekt|
-|CELLSJAVA-41046|Diagrammets förklaringssekvens har ändrats när kalkylbladet renderades till PDF-format|Insekt|
-|CELLSJAVA-40416|Färger och stil på diagrammet går förlorade|Insekt|
-|CELLSJAVA-42427|Att exportera rutnät med kanter visar inte rutnät innanför gränsen i Excel till HTML-rendering|Insekt|
-|CELLSJAVA-42438|LightCellsDataProvider tar bort ledande och efterföljande utrymmen|Insekt|
-|CELLSJAVA-42422|Felaktigt teckensnitt används i PDF-utdata från MS Excel-diagrammet|Insekt|
-|CELLSJAVA-42353|Några pilar eller anrop saknas i HTML-utdata|Insekt|
-|CELLSJAVA-42455|Den andra kommentaren saknas i kalkylbladets kommentarsamling|Insekt|
-|CELLSJAVA-42454|Skapandet av arbetsbok verkar hänga sig när man läser från en XLSM-fil|Insekt|
-|CELLSJAVA-42450|Style.QuotePrefix-egenskapen fungerar inte för XLSB-fil|Insekt|
-|CELLSJAVA-42445|Inställning av bilddata påverkar det andra diagrammet och det visas fel|Insekt|
-|CELLSJAVA-42444|CheckBox.setName()-metoden fungerar i MS Excel 2016 men fungerar inte i MS Excel 2007|Insekt|
-|CELLSJAVA-42443|MS Excel-filter konverteras inte korrekt - XLSB till XLSM konvertering|Insekt|
-|CELLSJAVA-42442|Att ändra värdet på ComboBoxActiveXControl ändrar inte värdet på den länkade cellen|Insekt|
-|CELLSJAVA-42435|Cells.setColumnWidthPixel och Cells.setRowHeightPixel har olika beteenden|Insekt|
-|CELLSJAVA-42431|Om du utökar tabellintervallet muteras cellinnehållet oväntat|Insekt|
-|CELLSJAVA-42457|När XLSX konverteras till PDF är vissa linjer i diagram annorlunda|Insekt|
-|CELLSJAVA-42465|Vissa CSS-klassdeklarationer har inte prefix i HTML-utdata|Insekt|
-|CELLSJAVA-42456|HTML-utdata inkonsekvent med källan - Excel till HTML-konvertering|Insekt|
-|CELLSJAVA-42478|Import av långa värden från HSQL DB ger ett undantag|Insekt|
-|CELLSJAVA-42466|Ekvationen återges inte bra i den utgående PDF-filen|Insekt|
-|CELLSJAVA-42475|Diagram saknas i utdata-PDF-filen|Insekt|
-|CELLSJAVA-42459|Dataetiketter för diagrammet saknas i utdata PDF/bild|Insekt|
-|CELLSJAVA-42453|Diagrambilden är inte lik Microsoft Excel|Insekt|
-|CELLSJAVA-42447|Dataetiketter visas felaktigt i HTML-utdatafilformatet|Insekt|
-|CELLSJAVA-42481|Ange kombinationsrutanamn fungerar inte för Excel-källfilen men om den sparas på nytt av Microsoft Excel fungerar det ok|Insekt|
-|CELLSJAVA-42476|Microsoft Excel Macro-Enabled Worksheet (.xlsm) blir skadad efter att ha öppnats och sparats via Aspose.Cells API:er|Insekt|
-|CELLSJAVA-42470|Om du ställer in en kryssruta länkad cell får MS Excel att få ett felmeddelande när utdatafilen öppnas i den|Insekt|
-|CELLSJAVA-42462|Att läsa XLSB-filen kastar NullPointerException|Undantag|
-|CELLSJAVA-42434|Undantag: "java.lang.NumberFormatException" när ett HTML-filformat laddas|Undantag|
-|CELLSJAVA-42448|Cells.deleteBlankRows orsakar undantaget "java.lang.ArrayIndexOutOfBoundsException: 1937"|Undantag|
-|CELLSJAVA-42426|Undantag i tråden "huvud" java.lang.OutOfMemoryError: GC overhead-gränsen har överskridits - fil III|Undantag|
-|CELLSJAVA-42425|Undantag i tråden "huvud" java.lang.OutOfMemoryError: GC overhead-gränsen har överskridits - Fil II|Undantag|
-|CELLSJAVA-42424|Undantag i tråden "huvud" java.lang.OutOfMemoryError: GC overheadgränsen överskrids - Fil I|Undantag|
-|CELLSJAVA-42428|Chart.toImage resulterar i java.lang.ArrayIndexOutOfBoundsException|Undantag|
-|CELLSJAVA-42452|Att spara en arbetsbok som PDF efter RemoveUnusedStyles API producerar ett CellsException|Undantag|
-|CELLSJAVA-42440|"java.lang.IllegalArgumentException: Ogiltigt radindex" inträffade|Undantag|
-|CELLSJAVA-42439|Undantag: "java.lang.IllegalArgumentException: Ogiltigt radindex"|Undantag|
-|CELLSJAVA-42437|Undantag: java.lang.NumberFormatException när du sparar ett XLSB-filformat igen|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
-### **Lägger till AbstractCalculationMonitor.Interrupt(string)-metoden**
-Tillåter användare att avbryta fortskridandet av formelberäkningar.
-### **Lägger till HtmlCrossType.MSExport enum**
-Visar strängen som MS Excel exporterar HTML.
-### **Lägger till egenskapen Worksheet.TabId**
-Hämtar den interna identifieraren för arket.
-### **Lägger till enum OLEDBCommandType.None**
-Kommandotypen är inte specificerad.
-### **Lägger till enum ConnectionDataSourceType**
-Representerar datakällans typ av anslutning.
-### **Föråldrade egenskapen ExternalConnection.Credentials och ExternalConnection.ReConnectionMethod**
-Använd egenskapen ExternalConnection.CredentialsMethodType och ExternalConnection.ReconnectionMethodType istället.
-### **Föråldrade egenskapen WebQueryConnection.EditPage**
-Använd egenskapen WebQueryConnection.EditWebPage istället.
-### **Lägger till egenskapen Series.ValuesFormatCode**
-Representerar nummerformatets kod för serievärden.
-### **Lägger till metoden Shape.GetResultOfSmartArt().**
-Konvertera den smarta konsten till en gruppform.
-### **Lägger till egenskapen Shape.IsSmartArt**
-Indikerar om formen är smart konst.
-### **Lägger till metoderna Workbook.ProtectSharedWorkbook() och Workbook.UnprotectSharedWorkbook()**
-Skyddar och tar bort skyddet för den delade arbetsboken.
-### **Lägger till enum StyleModifyFlag.Spacing**
-Anger avståndet mellan tecken i en textkörning.
-### **Lägger till egenskapen PdfSaveOptions.IgnoreError**
-Indikerar om du behöver dölja felet under renderingen.
-### **Lägger till egenskapen ImageOrPrintOptions.PageIndex**
-Hämtar eller ställer in det 0-baserade indexet för den första sidan som ska sparas.
-### **Lägger till egenskapen ImageOrPrintOptions.PageCount**
-Hämtar eller ställer in antalet sidor som ska sparas.
-### **Lägger till egenskapen XmlMap.RootElementName**
-Hämtar namnet på rotelementet.
-### **Lägger till metoden Worksheet.XmlMapQuery(strängsökväg, XmlMap xmlMap).**
-Fråga cellområden som mappade/länkade till den specifika sökvägen för xml-kartan.
-### **Lägger till egenskapen LoadOptions.AutoFitterOptions**
-Hämtar och ställer in alternativen för automatisk montering.
-### **Lägger till egenskapen HtmlSaveOptions.TableCssId**
-Hämtar och ställer in prefixet för typen css-namn som tr,col,td och så vidare, de finns i tabellelementet som har det specifika TableCssId-attributet. Standardvärdet är "".
-### **Lägger till Cell.FormulaLocal egendom**
-Får den lokalt formaterade formeln som kan variera beroende på olika språkinställningar för separatorer, inbyggda namn, funktionsnamn, ... etc. Dessa platser är beroende.
-### **Lägger till metoden GlobalizationSettings.GetLocalFunctionName(sträng standardnamn).**
-Hämtar det språkberoende funktionsnamnet enligt givet standardfunktionsnamn.
-### **Lägger till metoden GlobalizationSettings.GetLocalBuiltInName(string standardName).**
-Hämtar den språkberoende texten för inbyggt Namn enligt given standardtext.
-### **Lägger till egenskapen GlobalizationSettings.ListSeparator**
-Hämtar separatorn för lista, funktionsparametrar, ... etc.
-### **Lägger till egenskapen GlobalizationSettings.RowSeparatorOfFormulaArray**
-Hämtar avgränsaren för rader i matrisdata i formel.
-### **Lägger till egenskapen GlobalizationSettings.ColumnSeparatorOfFormulaArray**
-Hämtar avgränsaren för objekten i arrayens raddata i formel.
-### **Lägger till egenskapen HtmlSaveOptions.ExportWorksheetCSSSeparately**
-Anger om kalkylbladets css exporteras separat. Standardvärdet är falskt.
-### **Lägger till LoadDataFilterOptions.Structure för att ersätta LoadDataFilterOptions.None**
-LoadDataFilterOptions.None gav tvetydiga anvisningar och orsakade förvirring. Den var utformad för att ange att ingenting laddas för kalkylbladsdata. Nu tillhandahåller vi en ny (medlem), dvs. Struktur för att ersätta den.
-### **Lägger till DataLabelShapeType enum**
-Anger den förinställda formgeometrin som ska användas för ett diagram.
-### **Lägger till egenskapen DataLabels.ShapeType**
-Hämtar eller ställer in formtyp för dataetikett.
-### **Tar bort vissa föråldrade FileFormatType**
-Tar bort föråldrade filformattyper.
-### **Lade till egenskapen WorksheetCollection.RevisionLogs, klassen RevisionLogCollection och klassen Revisions.RevisionLog**
-Får inställning av revisionslogg.
-### **Lägger till enum MsoDrawingType.WebExtension**
-Representerar webbförlängningsformen.
+|CELLSJAVA-42423|Cancele el cálculo de ejecución prolongada del método Workbook.calculateFormula|Nueva caracteristica|
+|CELLSJAVA-42414|Obtenga el campo SheetId de la hoja de trabajo de MS Excel|Nueva caracteristica|
+|CELLSJAVA-42433|Las propiedades ImageOrPrintOptions.PageIndex e ImageOrPrintOptions.Count necesarias para obtener la imagen de las páginas deseadas|Nueva caracteristica|
+|CELLSJAVA-42402|Buen HTML necesario para el HTML adjunto|Mejora|
+|CELLSJAVA-42372|La posición de los guiones largos no es la misma que Microsoft Excel|Mejora|
+|CELLSJAVA-42479|Se eliminó la enumeración y la ambigüedad de LoadDataFilterOptions mejoradas|Mejora|
+|CELLSJAVA-42460|Formato CSV: D2 y D6 son IsString pero Aspose.Cells los trata como IsNumeric|Mejora|
+|CELLSJAVA-42399|Los puntos de las flechas no están claros en el PDF de salida|Insecto|
+|CELLSJAVA-42419|El texto se trunca en el HTML de salida|Insecto|
+|CELLSJAVA-42418|El color del borde no coincide con MS Excel en el HTML de salida|Insecto|
+|CELLSJAVA-42417|El color de fondo no coincide con el de MS Excel en el HTML de salida|Insecto|
+|CELLSJAVA-42385|callback IFilePathProvider nunca se llama y luego el archivo HTML tiene 'nulo' en la ruta|Insecto|
+|CELLSJAVA-42412|Faltan las etiquetas del eje de valor al convertir Excel a PDF|Insecto|
+|CELLSJAVA-42408|Problema de superposición de texto después de representar la hoja de trabajo en la imagen|Insecto|
+|CELLSJAVA-42420|Cancelación y problema de falta de memoria debido al gran rango de datos del gráfico|Insecto|
+|CELLSJAVA-42415|El gráfico de salida no es como el gráfico original en el HTML de salida|Insecto|
+|CELLSJAVA-42410|El área del gráfico, las etiquetas, las leyendas, etc. se representan incorrectamente en el PDF y PNG de salida|Insecto|
+|CELLSJAVA-42409|El área del gráfico no se representa correctamente en las salidas PDF y PNG del gráfico de MS Excel|Insecto|
+|CELLSJAVA-41046|La secuencia de la leyenda del gráfico ha cambiado al representar la hoja de cálculo en formato PDF|Insecto|
+|CELLSJAVA-40416|Se pierden los colores y el estilo del gráfico.|Insecto|
+|CELLSJAVA-42427|La exportación de líneas de cuadrícula con bordes no muestra líneas de cuadrícula dentro del borde en la representación de Excel a HTML|Insecto|
+|CELLSJAVA-42438|LightCellsDataProvider está eliminando los espacios iniciales y finales|Insecto|
+|CELLSJAVA-42422|Se utiliza una fuente incorrecta en la salida PDF del gráfico de MS Excel|Insecto|
+|CELLSJAVA-42353|Faltan algunas flechas o llamadas en el HTML de salida|Insecto|
+|CELLSJAVA-42455|Falta el segundo comentario en la colección de comentarios de la hoja de trabajo|Insecto|
+|CELLSJAVA-42454|La creación del libro de trabajo parece bloquearse cuando se lee desde un archivo XLSM|Insecto|
+|CELLSJAVA-42450|La propiedad Style.QuotePrefix no funciona para el archivo XLSB|Insecto|
+|CELLSJAVA-42445|La configuración de los datos de la imagen afecta al otro gráfico y se muestra incorrectamente|Insecto|
+|CELLSJAVA-42444|El método CheckBox.setName() funciona en MS Excel 2016 pero no funciona en MS Excel 2007|Insecto|
+|CELLSJAVA-42443|Los filtros de MS Excel no se convierten correctamente: conversión de XLSB a XLSM|Insecto|
+|CELLSJAVA-42442|Cambiar el valor de ComboBoxActiveXControl no cambia el valor de la celda vinculada|Insecto|
+|CELLSJAVA-42435|Cells.setColumnWidthPixel y Cells.setRowHeightPixel tienen comportamientos diferentes|Insecto|
+|CELLSJAVA-42431|Extender el rango de la tabla muta inesperadamente el contenido de la celda|Insecto|
+|CELLSJAVA-42457|Cuando XLSX se convierte a PDF, algunas líneas en los gráficos son diferentes|Insecto|
+|CELLSJAVA-42465|Algunas declaraciones de clase CSS no tienen prefijo en el HTML de salida|Insecto|
+|CELLSJAVA-42456|Salida HTML inconsistente con la fuente: conversión de Excel a HTML|Insecto|
+|CELLSJAVA-42478|Importar valor largo de HSQL DB genera una excepción|Insecto|
+|CELLSJAVA-42466|La ecuación no se representa correctamente en el PDF de salida|Insecto|
+|CELLSJAVA-42475|Falta el gráfico en el PDF de salida|Insecto|
+|CELLSJAVA-42459|Faltan etiquetas de datos para el gráfico en el PDF/imagen de salida|Insecto|
+|CELLSJAVA-42453|La imagen del gráfico no es igual Microsoft Excel|Insecto|
+|CELLSJAVA-42447|Las etiquetas de datos se muestran incorrectamente en el formato de archivo HTML de salida|Insecto|
+|CELLSJAVA-42481|Establecer el nombre del cuadro combinado no funciona para el archivo de origen de Excel, pero si se vuelve a guardar con Microsoft Excel, funciona bien|Insecto|
+|CELLSJAVA-42476|Microsoft La hoja de cálculo habilitada para macros de Excel (.xlsm) se daña después de abrirla y guardarla a través de las API Aspose.Cells|Insecto|
+|CELLSJAVA-42470|La configuración de una celda vinculada a una casilla de verificación hace que MS Excel muestre un mensaje de error al abrir el archivo de salida en ella|Insecto|
+|CELLSJAVA-42462|La lectura del archivo XLSB genera la NullPointerException|Excepción|
+|CELLSJAVA-42434|Excepción: "java.lang.NumberFormatException" al cargar un formato de archivo HTML|Excepción|
+|CELLSJAVA-42448|Cells.deleteBlankRows está causando la excepción "java.lang.ArrayIndexOutOfBoundsException: 1937"|Excepción|
+|CELLSJAVA-42426|Excepción en el subproceso "principal" java.lang.OutOfMemoryError: se excedió el límite de sobrecarga de GC - Archivo III|Excepción|
+|CELLSJAVA-42425|Excepción en el subproceso "principal" java.lang.OutOfMemoryError: se excedió el límite de sobrecarga de GC - Archivo II|Excepción|
+|CELLSJAVA-42424|Excepción en el subproceso "principal" java.lang.OutOfMemoryError: se excedió el límite de sobrecarga de GC - Archivo I|Excepción|
+|CELLSJAVA-42428|Chart.toImage da como resultado java.lang.ArrayIndexOutOfBoundsException|Excepción|
+|CELLSJAVA-42452|Guardar un libro de trabajo como PDF después de RemoveUnusedStyles API produce una CellsException|Excepción|
+|CELLSJAVA-42440|Se produjo "java.lang.IllegalArgumentException: índice de fila no válido"|Excepción|
+|CELLSJAVA-42439|Excepción: "java.lang.IllegalArgumentException: índice de fila no válido"|Excepción|
+|CELLSJAVA-42437|Excepción: java.lang.NumberFormatException al volver a guardar un formato de archivo XLSB|Excepción|
+## **Public API y cambios incompatibles con versiones anteriores**
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+### **Agrega el método AbstractCalculationMonitor.Interrupt(string)**
+Permite a los usuarios interrumpir el progreso de los cálculos de fórmulas.
+### **Agrega la enumeración HtmlCrossType.MSExport**
+Muestra la cadena como MS Excel exportando HTML.
+### **Agrega la propiedad Worksheet.TabId**
+Obtiene el identificador interno de la hoja.
+### **Agrega enumeración OLEDBCommandType.None**
+No se especifica el tipo de comando.
+### **Agrega la enumeración ConnectionDataSourceType**
+Representa el tipo de conexión del origen de datos.
+### **Obsoleta la propiedad ExternalConnection.Credentials y ExternalConnection.ReConnectionMethod**
+Utilice la propiedad ExternalConnection.CredentialsMethodType y ExternalConnection.ReconnectionMethodType en su lugar.
+### **Obsoleta la propiedad WebQueryConnection.EditPage**
+Utilice la propiedad WebQueryConnection.EditWebPage en su lugar.
+### **Agrega la propiedad Series.ValuesFormatCode**
+Representa el código de formato de número de valores de serie.
+### **Agrega el método Shape.GetResultOfSmartArt()**
+Convierta el arte inteligente en una forma de grupo.
+### **Agrega la propiedad Shape.IsSmartArt**
+Indica si la forma es arte inteligente.
+### **Agrega los métodos Workbook.ProtectSharedWorkbook() y Workbook.UnprotectSharedWorkbook()**
+Protege y desprotege el libro compartido.
+### **Agrega la enumeración StyleModifyFlag.Spacing**
+Especifica el espacio entre caracteres dentro de una secuencia de texto.
+### **Agrega la propiedad PdfSaveOptions.IgnoreError**
+Indica si necesita ocultar el error durante el renderizado.
+### **Agrega la propiedad ImageOrPrintOptions.PageIndex**
+Obtiene o establece el índice basado en 0 de la primera página que se va a guardar.
+### **Agrega la propiedad ImageOrPrintOptions.PageCount**
+Obtiene o establece el número de páginas que se van a guardar.
+### **Agrega la propiedad XmlMap.RootElementName**
+Obtiene el nombre del elemento raíz.
+### **Agrega el método Worksheet.XmlMapQuery (ruta de cadena, XmlMap xmlMap)**
+Consulta las áreas de las celdas que se asignaron o vincularon a la ruta específica del mapa xml.
+### **Agrega la propiedad LoadOptions.AutoFitterOptions**
+Obtiene y establece las opciones de ajuste automático.
+### **Agrega la propiedad HtmlSaveOptions.TableCssId**
+Obtiene y establece el prefijo del nombre del tipo css, como tr, col, td, etc. Están contenidos en el elemento de la tabla que tiene el atributo TableCssId específico. El valor predeterminado es "".
+### **Agrega la propiedad Cell.FormulaLocal**
+Obtiene la fórmula formateada local que puede variar de acuerdo con las diferentes configuraciones regionales para separadores, nombres integrados, nombres de funciones, etc. Esas configuraciones regionales son dependientes.
+### **Agrega el método GlobalizationSettings.GetLocalFunctionName(string standardName)**
+Obtiene el nombre de la función dependiente de la configuración regional de acuerdo con el nombre de la función estándar dada.
+### **Agrega el método GlobalizationSettings.GetLocalBuiltInName(string standardName)**
+Obtiene el texto dependiente de la configuración regional para el nombre integrado de acuerdo con el texto estándar proporcionado.
+### **Agrega la propiedad GlobalizationSettings.ListSeparator**
+Obtiene el separador de lista, parámetros de función, etc.
+### **Agrega la propiedad GlobalizationSettings.RowSeparatorOfFormulaArray**
+Obtiene el separador de filas en los datos de matriz en la fórmula.
+### **Agrega la propiedad GlobalizationSettings.ColumnSeparatorOfFormulaArray**
+Obtiene el separador de los elementos en los datos de la fila de la matriz en la fórmula.
+### **Agrega la propiedad HtmlSaveOptions.ExportWorksheetCSSSeparately**
+Indica si exportar la hoja de trabajo css por separado. El valor predeterminado es falso.
+### **Agrega LoadDataFilterOptions.Structure para reemplazar LoadDataFilterOptions.None**
+LoadDataFilterOptions.None dio instrucciones ambiguas y causó confusión. Fue diseñado para indicar que no carga nada para los datos de la hoja de trabajo. Ahora proporcionamos uno nuevo (miembro), es decir, Estructura para reemplazarlo.
+### **Agrega la enumeración DataLabelShapeType**
+Especifica la geometría de forma preestablecida que se utilizará para un gráfico.
+### **Agrega la propiedad DataLabels.ShapeType**
+Obtiene o establece el tipo de forma de la etiqueta de datos.
+### **Elimina algunos FileFormatType obsoletos**
+Elimina tipos de formato de archivo obsoletos.
+### **Se agregó la propiedad WorksheetCollection.RevisionLogs, la clase RevisionLogCollection y la clase Revisions.RevisionLog**
+Obtiene la configuración del registro de revisión.
+### **Agrega enumeración MsoDrawingType.WebExtension**
+Representa la forma de la extensión web.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Android via Java matchar koden för relevanta .NET- och Java-versioner, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v17.10, Aspose.Cells för .NET v17.11 , Aspose.Cells för .NET v17.12, Aspose.Cells för Java v17.10, Aspose.Cells för Java v17.11 och Aspose.Cells för Java v17.12 ingår också i denna Aspose.Cells för Android via Java.
+Dado que la base de código de Aspose.Cells for Android via Java coincide con el código de .NET y 0761434341 Versiones (s), la mayoría de los cambios, mejoras y correcciones incluidos en el Aspose.Cells for .NET v17.10, 0761734481 0761811111111011101101101111011110111TA1TA1TA1TA1TA. Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 y Aspose.Cells for Java v17.12 también se incluyen en este Aspose.Cells for Android 0761193121 v17.12.
 
 {{% /alert %}}

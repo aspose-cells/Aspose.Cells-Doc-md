@@ -12,7 +12,7 @@ Aspose.Cells puede abrir un rango de diferentes Microsoft archivos de versiones 
 
 ## **Abrir archivos de diferentes versiones de Excel Microsoft**
 
- Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Utilice el constructor o especifique el**[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)** clase'**[Establecer formato de archivo] (https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#aa74a10e0aa88e3a8386ea328165896dc)** método para especificar el formato usando el**[Tipo de formato de archivo] (https://reference.aspose.com/cells/cpp/namespace/aspose.cells#a7831f25a251b1cd95079f091aa1faf40)**enumeración.
+Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Utilice el constructor o especifique el**[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)** clase'**[Establecer formato de archivo] (https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#aa74a10e0aa88e3a8386ea328165896dc)** método para especificar el formato usando el**[Tipo de formato de archivo] (https://reference.aspose.com/cells/cpp/namespace/aspose.cells#a7831f25a251b1cd95079f091aa1faf40)**enumeración.
 	
  los**[Tipo de formato de archivo] (https://reference.aspose.com/cells/cpp/namespace/aspose.cells#a7831f25a251b1cd95079f091aa1faf40)**La enumeración contiene muchos formatos de archivo predefinidos, algunos de los cuales se indican a continuación.
 
@@ -42,7 +42,7 @@ Para abrir un archivo Microsoft Excel 95/5.0, utilice**[Opciones de carga] (http
 
 ### **Apertura Microsoft Excel 97 - 2003 Archivos**
 
- Para abrir un archivo Microsoft Excel 97 - 2003, utilice**[Opciones de carga] (https://reference.aspose.com/cells/cpp/class/aspose.cells.i_load_options)** y establecer el atributo relacionado para el**ILoadOptions**class para que se cargue el archivo de plantilla.
+ Para abrir un archivo Microsoft Excel 97 - 2003, use**[Opciones de carga] (https://reference.aspose.com/cells/cpp/class/aspose.cells.i_load_options)** y establecer el atributo relacionado para el**ILoadOptions**class para que se cargue el archivo de plantilla.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenExcel97-2003Files.cpp" >}}
 

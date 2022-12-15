@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 22.1 Release Notes
+title: Aspose.Cells for .NET 22.1 Release Notes
 type: docs
 weight: 12
 url: /sv/net/aspose-cells-for-net-22-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 22.1](https://www.nuget.org/packages/Aspose.Cells/22.1.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 22.1](https://www.nuget.org/packages/Aspose.Cells/22.1.0).
 
 {{% /alert %}}
 
@@ -41,7 +41,7 @@ url: /sv/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50165|Fonetisk guidefont ändras efter att filen har sparats|Insekt|
 |CELLSNET-50208|En del text går förlorad när du sparar som HTML|Insekt|
 |CELLSNET-50095|Undantag för att öppna XSLB-filen|Undantag|
-|CELLSNET-50096|StackOverflowException när tomma kolumner tas bort|Undantag|
+|CELLSNET-50096| StackOverflowException när tomma kolumner tas bort|Undantag|
 |CELLSNET-50071|Konvertering till HTML-undantag "Unsupported function: CUBESET"|Undantag|
 |CELLSNET-50097|Undantag för att öppna XSLX-filen via Aspose.Cells|Undantag|
 |CELLSNET-50133|NullReferenceException vid jämförelse av FillFormat|Undantag|
@@ -50,9 +50,9 @@ url: /sv/net/aspose-cells-for-net-22-1-release-notes/
 |
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Ändrar beteende för att ta bort externa länkar från arbetsboken.**
 
@@ -60,7 +60,7 @@ I gamla versioner tar vi inte bort den externa länken vars url innehåller "Add
 
 ### **Ändrar beteende för Cell. Typ för ogiltigt datum och tid.**
 
-I gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas för att få cellvärdet genom korrekt API.
+I gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas att få cellvärdet med korrekt API.
 
 ### **Ändrar beteende för Cells.MaxDisplayRange.**
 

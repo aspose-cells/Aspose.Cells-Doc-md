@@ -161,7 +161,7 @@ else
 }
 
 {{< /highlight >}}
-### **Propiedad ColorScale.Is3ColorScale añadido**
+### **Propiedad ColorScale.Is3ColorScale agregado**
  Aspose.Cells for Java 8.7.0 ha expuesto la propiedad ColorScale.Is3ColorScale que se puede utilizar para[crear formato condicional de escala de 2 colores](/cells/es/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). Dicha propiedad es de tipo booleano con valor predeterminado de verdadero, lo que significa que el formato condicional será de escala de 3 colores de forma predeterminada. Sin embargo, cambiar la propiedad ColorScale.Is3ColorScale a false generará un formato condicional de escala de 2 colores.
 
 El siguiente es el escenario de uso simple.

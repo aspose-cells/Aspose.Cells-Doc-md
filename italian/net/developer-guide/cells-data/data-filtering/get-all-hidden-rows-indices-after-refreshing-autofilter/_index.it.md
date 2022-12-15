@@ -10,7 +10,7 @@ Quando applichi il filtro automatico alle celle del foglio di lavoro, alcune rig
 
 ## **Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico**
 
- Vedere il seguente codice di esempio che carica il file[esempio di file Excel](64716909.xlsx) che contiene alcune delle righe nascoste manualmente dall'utente finale di Excel. Il codice applica il filtro automatico e lo aggiorna utilizzando int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo che restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico. Quindi stampa gli indici delle righe nascoste sulla console insieme ai nomi e ai valori delle celle.
+ Vedere il seguente codice di esempio che carica il file[esempio di file Excel](64716909.xlsx)che contiene alcune delle righe nascoste manualmente dall'utente finale di Excel. Il codice applica il filtro automatico e lo aggiorna utilizzando int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo che restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico. Quindi stampa gli indici delle righe nascoste sulla console insieme ai nomi e ai valori delle celle.
 
 ## **Codice di esempio**
 

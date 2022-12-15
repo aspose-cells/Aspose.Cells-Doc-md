@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /fr/sharepoint/search-in-a-document/
 ---
-Aspose.Cells pour SharePoint prend en charge les recherches dans les documents stockés dans les sites SharePoint. Aspose.Cells pour Share Point prend en charge les formats d'entrée suivants pour prévisualiser les documents :
+Aspose.Cells for SharePoint prend en charge les recherches dans les documents stockés dans les sites SharePoint. Aspose.Cells pour Share Point prend en charge les formats d'entrée suivants pour prévisualiser les documents :
 
 - XLS-Microsoft Excel 97-2003
 - XLSX – Office Open XML

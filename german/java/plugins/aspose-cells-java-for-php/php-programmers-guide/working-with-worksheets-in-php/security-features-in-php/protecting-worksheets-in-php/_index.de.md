@@ -5,7 +5,7 @@ weight: 10
 url: /de/java/protecting-worksheets-in-php/
 ---
 ## **Aspose.Cells – Arbeitsblätter schützen**
- Arbeitsblatt mit schützen**Aspose.Cells Java für PHP** , Anruf**protect_worksheet** Methode von**Schutz** Modul.
+ Arbeitsblatt mit schützen**Aspose.Cells Java for PHP** , Anruf**protect_worksheet** Methode von**Schutz** Modul.
 
 **PHP-Code**
 

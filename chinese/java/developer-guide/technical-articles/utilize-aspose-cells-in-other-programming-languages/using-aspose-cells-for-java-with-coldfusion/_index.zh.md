@@ -32,7 +32,7 @@ url: /zh/java/using-aspose-cells-for-java-with-coldfusion/
 
 **生成的输出.xls**
 
-![待办事项：图片_替代_文本](using-aspose-cells-for-java-with-coldfusion_1.png)
+![待办事项：图像_替代_文本](using-aspose-cells-for-java-with-coldfusion_1.png)
 
 **Java**
 

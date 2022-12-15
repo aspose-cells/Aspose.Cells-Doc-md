@@ -26,7 +26,7 @@ url: /it/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51471|l'elenco di convalida non viene visualizzato nella cella vuota|
 |CELLSNET-51469|Manca il testo nell'immagine dopo la conversione in pdf|
 |CELLSNET-51476|L'elemento freccia diventa distorto nell'immagine|
-|CELLSNET-51001|L'oggetto forma sul grafico non è posizionato bene|
+|CELLSNET-51001|L'oggetto forma sul grafico non è posizionato correttamente|
 |CELLSNET-51156| Conversione da grafico a immagine - Visualizzazione diversa del grafico nell'immagine di output|
 |CELLSNET-51213|Grafico a torta 3D non correttamente visualizzato - Conversione da grafico a immagine|
 |CELLSNET-51472|Le etichette del grafico non sono presenti in SVG quando sono impostate sull'estremità esterna|
@@ -45,9 +45,9 @@ url: /it/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51280|Eccezione durante il salvataggio del file ODS (RB-60121)|
 |CELLSNET-51483|Il caricamento del file non riesce con l'eccezione "L'array di origine non era abbastanza lungo..."|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cells.GetDependentsInCalculation(int,int,bool)**
 

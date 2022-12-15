@@ -9,11 +9,11 @@ Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, un
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.
 
-Sie können alle Probleme oder Vorschläge im Zusammenhang mit Aspose.Cells Java für Python über eine der folgenden Plattformen protokollieren:
+Sie können alle Probleme oder Vorschläge im Zusammenhang mit Aspose.Cells Java for Python über eine der folgenden Plattformen melden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ## **Erweitern und beitragen**
-Aspose.Cells Java für Python ist Open Source und sein Quellcode ist auf den unten aufgeführten wichtigen Social-Coding-Websites verfügbar. Entwickler werden ermutigt, den Quellcode herunterzuladen und einen Beitrag zu leisten, indem sie neue Funktionen vorschlagen oder hinzufügen oder die vorhandenen verbessern, damit auch andere davon profitieren können.
+Aspose.Cells Java for Python ist Open Source und sein Quellcode ist auf den wichtigsten unten aufgeführten Social-Coding-Websites verfügbar. Entwickler werden ermutigt, den Quellcode herunterzuladen und einen Beitrag zu leisten, indem sie neue Funktionen vorschlagen oder hinzufügen oder die vorhandenen verbessern, damit auch andere davon profitieren können.
 ## **Quellcode**
 Den neuesten Quellcode erhalten Sie von einer der folgenden Stellen
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 20.9 Release Notes
+title: Aspose.Cells for Java 20.9 Release Notes
 type: docs
 weight: 7
 url: /sv/java/aspose-cells-for-java-20-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 20.9](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.9/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 20.9](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.9/).
 
 {{% /alert %}}
 
@@ -27,9 +27,9 @@ url: /sv/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43037|Teckensnittsproblem vid PDF-konvertering|Insekt|
 |CELLSJAVA-43249|Utskriftsproblem när du använder fysiska skrivare, XPS- och PDF-skrivare|Insekt|
 |CELLSJAVA-43254|Teckensnittsskillnad vid konvertering av kalkylblad till bild|Insekt|
-|CELLSJAVA-43266|Java-versionen stöder inte inläsning av teckensnitt från aktuell användartypsnittsmapp som standard|Insekt|
+|CELLSJAVA-43266|Java-versionen stöder inte inläsning av teckensnitt från den aktuella användarens teckensnittsmapp som standard|Insekt|
 |CELLSJAVA-43268|Excel till TIFF-rendering - några av värdena ersätts med " #" tecken|Insekt|
-|CELLSJAVA-43275|Aspose.Cell för Java 20.8 com.aspose.cells.CellsException: Fel för ZipFile|Insekt|
+|CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Fel för ZipFile|Insekt|
 |CELLSJAVA-43277|Problem med höjd breddförhållande|Insekt|
 |CELLSJAVA-43245|Kombinationsdiagrammet visas inte korrekt efter konvertering av Excel-fil till PDF|Insekt|
 |CELLSJAVA-43276|Radbrytningsproblem vid konvertering av XLSX till PDF|Insekt|
@@ -41,9 +41,9 @@ url: /sv/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43290|Bearbetning returneras inte när XML Spreadsheet 2003-fil sparas i MS Excel-arbetsboksformat|Insekt|
 |CELLSJAVA-43267|Undantag "java.lang.NullPointerException" vid beräkning av pivottabell i arket|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till egenskapen AbstractCalculationEngine.ProcessBuiltInFunctions**
 

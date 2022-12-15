@@ -6,7 +6,7 @@ url: /sv/java/custom-slice-or-sector-colors-in-pie-chart/
 ---
 {{% alert color="primary" %}}
 
-Den här artikeln förklarar hur du lägger till anpassade färger till cirkeldiagramsegment/sektorer. Som standard använder cirkeldiagram standardmallen för Microsoft Excel. För att använda andra färger är det möjligt att omdefiniera färgerna i diagrammet.
+Den här artikeln förklarar hur du lägger till anpassade färger till cirkeldiagramsegment/sektorer. Som standard använder cirkeldiagram standardmallen Microsoft Excel. För att använda andra färger är det möjligt att omdefiniera färgerna i diagrammet.
 
 {{% /alert %}}
 
@@ -24,7 +24,7 @@ Den här artikeln förklarar också hur du ställer in:
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)är inte specifik för cirkeldiagram men kan användas för alla typer av diagram.
+[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) är inte specifik för cirkeldiagram men kan användas för alla typer av diagram.
 
 {{% /alert %}}
 

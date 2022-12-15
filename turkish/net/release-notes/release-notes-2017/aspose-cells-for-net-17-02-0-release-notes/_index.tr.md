@@ -227,7 +227,7 @@ Lütfen bunun yerine BuiltInDocumentPropertyCollection.Revision özelliğini kul
 #### **Shape.TextShapeType Özelliği Eklendi**
 Shape.TextShapeType özelliği, hazır metin şekli türünü AutoShapeType numaralandırmasında depolanan önceden tanımlanmış türler listesinden alır veya ayarlar.
 #### **ExportTableOptions.RenameStrategy Özelliği ve RenameStrategy Numaralandırması Eklendi**
-Aspose.Cells for .NET 17.02.0, dışa aktarılacak ilk veri satırının yinelenen girişler içerdiği senaryoyla başa çıkmak için, RenameStrategy numaralandırmasıyla birlikte ExportTableOptions.RenameStrategy özelliğini kullanıma sundu. ExportTableOptions.ExportColumnName özelliği true olarak ayarlanırsa API, bir DataTable'ın aynı ada sahip sütunlara sahip olamayacağını belirten istisnaya neden olur. Yapılan yeni değişikliklerle, API, yinelenen sütun adlarına rakam veya harf eklenmesine izin verirken, RenameStrategy numaralandırmasındaki uygun değer, yinelenen sütun adlarının nasıl yeniden adlandırılacağına karar verir.
+Aspose.Cells for .NET 17.02.0, dışa aktarılacak ilk veri satırının yinelenen girişler içerdiği senaryoyla başa çıkmak için ExportTableOptions.RenameStrategy özelliğini ve RenameStrategy numaralandırmasını kullanıma sundu. ExportTableOptions.ExportColumnName özelliği true olarak ayarlanırsa API, bir DataTable'ın aynı ada sahip sütunlara sahip olamayacağını belirten istisnaya neden olur. Yerinde yapılan yeni değişikliklerle, API, yinelenen sütun adlarına rakam veya harf eklenmesine izin verirken, RenameStrategy numaralandırmasındaki uygun değer, yinelenen sütun adlarının nasıl yeniden adlandırılacağına karar verir.
 
 İşte yeni ortaya çıkan API'leri gösteren basit bir kullanım senaryosu.
 

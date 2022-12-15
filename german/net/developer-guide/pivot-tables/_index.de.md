@@ -21,7 +21,7 @@ Aspose.Cells bietet eine spezielle Reihe von Klassen in der[**Aspose.Cells.Pivot
 
 ### **Erstellen einer einfachen Pivot-Tabelle mit Aspose.Cells**
 
-1. Fügen Sie mithilfe von Daten zu einem Arbeitsblatt hinzu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode.
+1. Fügen Sie mithilfe von Daten zu einem Arbeitsblatt hinzu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt[**PutWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode.
  Diese Daten werden als Datenquelle der Pivot-Tabelle verwendet.
 1.  Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die aufrufen[**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) Sammlung[**hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)-Methode, die im Worksheet-Objekt gekapselt ist.
 1.  Greifen Sie auf das Neue zu[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) Objekt aus der[**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)-Auflistung durch Übergeben des PivotTable-Index.

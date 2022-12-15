@@ -18,7 +18,7 @@ url: /sv/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
 {{% /alert %}} 
 ## **Ställa in skugga av text Effekter av form eller textruta**
- Följande skärmdump visar[output excel-fil](5473446.xlsx) genereras med följande exempelkod. Skärmdumpen visar också värdet på**Skugga** som har satts som**Offset Botten**.
+Följande skärmdump visar[output excel-fil](5473446.xlsx) genereras med följande exempelkod. Skärmdumpen visar också värdet på**Skugga** som har satts som**Offset Botten**.
 
 ![todo:image_alt_text](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 

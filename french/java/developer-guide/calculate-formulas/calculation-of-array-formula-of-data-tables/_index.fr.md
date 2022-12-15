@@ -6,7 +6,7 @@ url: /fr/java/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}} 
 
- Vous pouvez créer un tableau de données dans Microsoft Excel à l'aide de Données> Analyse de simulation> Tableau de données.... Aspose.Cells vous permet désormais de calculer la formule matricielle du tableau de données. Veuillez utiliser[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) comme d'habitude pour calculer tout type de formules.
+Vous pouvez créer un tableau de données dans Microsoft Excel à l'aide de Données> Analyse de simulation> Tableau de données.... Aspose.Cells vous permet désormais de calculer la formule matricielle du tableau de données. Veuillez utiliser[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) comme d'habitude pour calculer tout type de formules.
 
 {{% /alert %}} 
 ## **Calcul de la formule matricielle des tableaux de données**
@@ -18,6 +18,6 @@ url: /fr/java/calculation-of-array-formula-of-data-tables/
 
 ![tâche : image_autre_texte](calculation-of-array-formula-of-data-tables_2.png)
 
-Voici l'exemple de code utilisé pour générer le[PDF de sortie](5472577.pdf) du[fichier excel source](5472579.xlsx). Veuillez lire les commentaires pour plus d'informations.
+ Voici l'exemple de code utilisé pour générer le[PDF de sortie](5472577.pdf) du[fichier excel source](5472579.xlsx). Veuillez lire les commentaires pour plus d'informations.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

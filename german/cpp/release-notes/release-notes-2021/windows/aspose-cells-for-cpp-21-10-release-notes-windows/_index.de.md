@@ -6,7 +6,7 @@ url: /de/cpp/aspose-cells-for-cpp-21-10-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für C++ 21.10 für Windows.
+Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 21.10 für Windows.
 
 {{% /alert %}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 19.8 Release Notes
+title: Aspose.Cells for Java 19.8 Release Notes
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.8.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.8.
 
 {{% /alert %}} 
 
@@ -15,7 +15,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.8.
 |CELLSJAVA-42949|Stöd för ECDSA- och RSA-algoritmer|Ny funktion|
 |CELLSJAVA-42979|Få totalt sidantal innan du konverterar till PDF/bild|Ny funktion|
 |CELLSJAVA-42967|Infoga SVG-filen i kalkylbladet|Ny funktion|
-|CELLSJAVA-42969|Stöd Java 12 i Aspose.Cells för Java|Förbättring|
+|CELLSJAVA-42969|Support Java 12 i Aspose.Cells for Java|Förbättring|
 |CELLSJAVA-42977|Hög CPU- och minnesförbrukning under konvertering av Excel till PDF|Förbättring|
 |CELLSJAVA-42902|Vattenfallsdiagramsstil kopieras inte korrekt när arbetsboken kopieras|Insekt|
 |CELLSJAVA-42944|Fel vid konvertering av XLSX till HTML|Insekt|
@@ -29,8 +29,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.8.
 |CELLSJAVA-42980|Transparent bild ändras till ogenomskinlig under bildkopiering|Insekt|
 |CELLSJAVA-42959|Undantag "Shape to image Error" när en XLSX-fil renderas till PDF|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till klass SheetPrintingPreview**
 Representerar förhandsvisningen av kalkylbladsutskrift.
 ### **Lägger till klass WorkbookPrintingPreview**

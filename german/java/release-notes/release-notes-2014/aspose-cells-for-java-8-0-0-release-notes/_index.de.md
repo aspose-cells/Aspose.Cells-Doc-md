@@ -66,7 +66,7 @@ Fehler
 Ausnahmen
 
 (CELLSJAVA-40736) – com.aspose.cells.CellsException: Ungültiger Zellenname
-(CELLSJAVA-40767) – NullpointerException beim Speichern eines Buches
+(CELLSJAVA-40767) – NullpointerException beim Speichern eines Buchs
 (CELLSJAVA-40755) – CellsException: Überlauf bei der Konvertierung von String in Int. Zeichenfolgenwert: #N/A.
 (CELLSJAVA-40761) – CellsException: Form-zu-Bild-Fehler!
 

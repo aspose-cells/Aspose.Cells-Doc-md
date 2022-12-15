@@ -64,7 +64,7 @@ workbook.Save(MyDir+"DataImport from Array.xls");
 
 ### **Importieren aus ArrayList**
 
- Entwickler können Daten aus einer ArrayList in ihre Arbeitsblätter importieren, indem sie die aufrufen**ArrayListe importieren** Methode der Sammlung Cells. Die ImportArray-Methode akzeptiert die folgenden Parameter:**Anordnungsliste** , stellt das ArrayList-Objekt dar, dessen Inhalt importiert werden muss
+ Entwickler können Daten aus einer ArrayList in ihre Arbeitsblätter importieren, indem sie die aufrufen**ArrayListe importieren** Methode der Sammlung Cells. Die ImportArray-Methode übernimmt die folgenden Parameter:**Anordnungsliste** , stellt das ArrayList-Objekt dar, dessen Inhalt importiert werden muss
 
 - Zeilennummer stellt die Zeilennummer der ersten Zelle dar, in die die Daten importiert werden
 - Spaltennummer stellt die Spaltennummer der ersten Zelle dar, in die die Daten importiert werden

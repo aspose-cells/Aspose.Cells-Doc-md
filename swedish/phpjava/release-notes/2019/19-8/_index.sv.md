@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för PHP via Java 19.8 Release Notes
+title: Aspose.Cells for PHP via Java 19.8 Release Notes
 type: docs
 weight: 10
 url: /sv/php-java/aspose-cells-for-php-via-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för PHP via Java 19.8.
+Den här sidan innehåller utgåvor för Aspose.Cells for PHP via Java 19.8.
 
 {{% /alert %}} 
 
@@ -27,8 +27,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för PHP via Java 19.8.
 |CELLSJAVA-42951|java.lang.NullPointerException kastas av comment.setHtmlNote()|Undantag|
 |CELLSJAVA-42954|Undantag höjdes när du laddade och sparade XLSX|Undantag|
 |CELLSJAVA-42957|Ogiltigt FontUnderlineType-värde visas när XLSX sparas|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för PHP via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for PHP via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 #### **Uppgraderar det refererade BouncyCastle-biblioteket till 1.60**
 Det bifogade BouncyCastle-biblioteket i releasearkivet har uppgraderats till version 1.60. Men Aspose.Cells är kompatibel med gamla versioner också, så användaren kan fortfarande använda de gamla versionerna som 1.46.
 #### **Föråldrar HTMLLoadOptions-klassen och lägger till HtmlLoadOptions-klassen**

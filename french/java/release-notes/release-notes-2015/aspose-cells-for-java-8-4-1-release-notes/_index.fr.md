@@ -18,7 +18,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 Déplacement de la base de code principale vers Java 6 (Java 7 et 8 sont également pris en charge). Abandon du support for Java 5 et 1.4.
 
-### **Autres améliorations et changements**
+### **Autres améliorations et modifications**
 
 ### **Nouvelles fonctionnalités**
 
@@ -70,7 +70,7 @@ Déplacement de la base de code principale vers Java 6 (Java 7 et 8 sont égalem
 
 ## Aspose.Cells Grille Suite
 
-### **Autres améliorations et changements**
+### **Autres améliorations et modifications**
 
 ### **Améliorations**
 

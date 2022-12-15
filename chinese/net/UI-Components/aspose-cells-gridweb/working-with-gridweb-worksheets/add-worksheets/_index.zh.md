@@ -15,7 +15,7 @@ url: /zh/net/add-worksheets/
 
 **输出：具有默认名称的工作表已添加到 GridWeb** 
 
-![待办事项：图片_替代_文本](add-worksheets_1.png)
+![待办事项：图像_替代_文本](add-worksheets_1.png)
 
 
 
@@ -31,7 +31,7 @@ url: /zh/net/add-worksheets/
 
 **输出：具有指定名称的工作表已添加到 GridWeb** 
 
-![待办事项：图片_替代_文本](add-worksheets_2.png)
+![待办事项：图像_替代_文本](add-worksheets_2.png)
 
 
 

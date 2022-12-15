@@ -16,7 +16,7 @@ url: /it/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  *Cosa c'è di nuovo?
 
-- Supporta il riconoscimento automatico del formato di file Excel per Workbook.open(String) e Workbook.open(InputStream)* Supporta l'elaborazione delle celle nel file del foglio di calcolo in modalità Event-Driven introducendo il nuovo API (LightCells)* Supporta la rimozione di oggetti correlati alla forma, inclusi commenti, immagini e così via* Supporta la copia di forme quando si copia cartella di lavoro o foglio di lavoro* Supporta il controllo se una cella o uno stile è Percentuale o Data
+- Supporta il riconoscimento automatico del formato di file Excel per Workbook.open(String) e Workbook.open(InputStream)* Supporta l'elaborazione delle celle nel file del foglio di calcolo in modalità Event-Driven introducendo nuove API (LightCells)* Supporta la rimozione di oggetti correlati alla forma, inclusi commenti, immagini e così via* Supporta la copia di forme quando si copia cartella di lavoro o foglio di lavoro* Supporta il controllo se una cella o uno stile è Percentuale o Data
 
  *Cosa è migliorato?
 

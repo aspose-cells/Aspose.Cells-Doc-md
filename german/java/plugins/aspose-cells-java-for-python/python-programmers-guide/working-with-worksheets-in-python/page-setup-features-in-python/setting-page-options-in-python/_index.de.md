@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Vergößerungsfaktor, Verkleinerungsfaktor**
- Skalierung anwenden mit**Aspose.Cells Java für Python** , Anruf**Skalierung** Methode von**Seiteneinrichtung** Modul.
+ Skalierung anwenden mit**Aspose.Cells Java for Python** , Anruf**Skalierung** Methode von**Seiteneinrichtung** Modul.
 
 **Python Code**
 

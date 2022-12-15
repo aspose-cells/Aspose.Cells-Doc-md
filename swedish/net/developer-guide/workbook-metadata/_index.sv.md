@@ -11,6 +11,6 @@ url: /sv/net/using-workbookmetadata/
 
 {{% /alert %}}
 
- Följande exempelkod använder[**ArbetsbokMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) klass för att redigera anpassade dokumentegenskaper för en arbetsbok. När du öppnar arbetsboken med[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass, kommer du att kunna läsa dokumentets egenskaper. Här är en exempelkod med hjälp av[**ArbetsbokMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)klass.
+ Följande exempelkod använder[**ArbetsbokMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) klass för att redigera anpassade dokumentegenskaper för en arbetsbok. När du öppnar arbetsboken med[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass, kommer du att kunna läsa dokumentets egenskaper. Här är en exempelkod med hjälp av[**ArbetsbokMetadata**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)klass.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingWorkbookMetadata-1.cs" >}}

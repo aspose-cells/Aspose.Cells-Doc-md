@@ -14,7 +14,7 @@ Aşağıdaki örnek kod, çalışma kitabını bilgisayardan yüklerken yalnızc
 
 ![yapılacaklar:resim_alternatif_Metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- Aşağıdaki ekran görüntüsü[çıktı PDF](5115555.pdf) verilen linkten indirebilirsiniz. Burada kırmızı renkteki ve Sarı arka plandaki verilerin mevcut olmadığını ancak tüm şekillerin orada olduğunu görebilirsiniz.
+Aşağıdaki ekran görüntüsü[çıktı PDF](5115555.pdf) verilen linkten indirebilirsiniz. Burada kırmızı renkteki ve Sarı arka plandaki verilerin mevcut olmadığını ancak tüm şekillerin orada olduğunu görebilirsiniz.
 
 ![yapılacaklar:resim_alternatif_Metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

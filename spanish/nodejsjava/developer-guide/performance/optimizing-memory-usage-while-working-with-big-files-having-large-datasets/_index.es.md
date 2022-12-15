@@ -14,7 +14,7 @@ Al crear un libro de trabajo con grandes conjuntos de datos, o al leer un gran a
 
 ## **Optimización de la memoria**
 
-El siguiente ejemplo muestra cómo optimizar el uso de la memoria al trabajar con datos de gran tamaño en Aspose.Cells para Node.js a través de Java.
+El siguiente ejemplo muestra cómo optimizar el uso de la memoria mientras se trabaja con datos de gran tamaño en Aspose.Cells for Node.js via Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 

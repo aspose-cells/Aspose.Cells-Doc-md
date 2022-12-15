@@ -79,7 +79,7 @@ Följande utdata genereras när koden nedan exekveras.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBorderstoRange-AddingBorderstoRange.java" >}}
 ## **Färger och palett**
-En palett är antalet tillgängliga färger för att skapa en bild. Användningen av en standardiserad palett i en presentation gör att användaren kan skapa ett konsekvent utseende. Varje Microsoft Excel (97-2003)-fil har en palett med 56 färger som kan appliceras på celler, teckensnitt, rutnät, grafiska objekt, fyllningar och linjer i ett diagram.
+En palett är antalet tillgängliga färger för att skapa en bild. Användningen av en standardiserad palett i en presentation gör att användaren kan skapa ett konsekvent utseende. Varje Microsoft Excel-fil (97-2003) har en palett med 56 färger som kan appliceras på celler, teckensnitt, rutnät, grafiska objekt, fyllningar och linjer i ett diagram.
 
 **Palettinställningar i Microsoft Excel** 
 
@@ -106,7 +106,7 @@ Exemplet nedan lägger till en anpassad färg till paletten innan den appliceras
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ColorsAndPalette-ColorsAndPalette.java" >}}
 ## **Färger och bakgrundsmönster**
-Microsoft Excel kan ställa in förgrunds- (kontur) och bakgrunds- (fyllnads) färger för celler och bakgrundsmönster som visas nedan.
+Microsoft Excel kan ställa in förgrunds- (kontur) och bakgrunds- (fyll) färger för celler och bakgrundsmönster som visas nedan.
 
 **Ställa in färger och bakgrundsmönster i Microsoft Excel** 
 
@@ -120,7 +120,7 @@ Aspose.Cells tillhandahåller[setStyle](https://reference.aspose.com/cells/java/
 
 {{% alert color="primary" %}} 
 
- För att ställa in förgrunds- eller bakgrundsfärgen för en cell, använd[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setBakgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) eller[setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) egenskaper. Dessa egenskaper träder i kraft endast om[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) egenskapen är konfigurerad.
+ För att ställa in förgrunds- eller bakgrundsfärgen för en cell, använd[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setBakgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) eller[setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) egenskaper. Dessa egenskaper träder endast i kraft om[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) egenskapen är konfigurerad.
 
 {{% /alert %}} 
 
@@ -141,7 +141,7 @@ De[setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pa
 |[INGEN](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)|Representerar ingen bakgrund|
 |[OMVÄND_DIAGONAL_RAND](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE_DIAGONAL_STRIPE)|Representerar omvänt diagonalt randmönster|
 |[FAST](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)|Representerar ett fast mönster|
-|[TJOCK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Representerar ett tjockt diagonalt rutmönster|
+|[TJOCK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Representerar ett tjockt diagonalt kryssmönster|
 |[TUNN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|Representerar ett tunt diagonalt streckmönster|
 |[TUNN_DIAGONAL_RAND](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|Representerar ett tunt diagonalt randmönster|
 |[TUNN_HORISONTELL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)|Representerar ett tunt horisontellt streckmönster|

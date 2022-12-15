@@ -8,37 +8,37 @@ url: /sv/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **IntelliJ IDÉ**
 
-**IntelliJ IDÉ** är en Java integrerad utvecklingsmiljö (IDE) för mjukvaruutvecklare. Den är utvecklad av JetBrains. Ursprungligen skapad för Java, stöder den för närvarande en mängd olika språk, inklusive JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure och Kotlin.
+**IntelliJ IDÉ** är en Java integrerad utvecklingsmiljö (IDE) för mjukvaruutvecklare. Den är utvecklad av JetBrains. Ursprungligen skapad for Java, den stöder för närvarande en mängd olika språk, inklusive JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure och Kotlin.
 
- Under 2010**Infoworld** Rapporten fick IntelliJ det högsta testcentrets poäng av de fyra bästa Java-programmeringsverktygen: Eclipse, IntelliJ IDEA, NetBeans och Oracle JDeveloper.
+ Under 2010**Infoworld** Rapporten fick IntelliJ det högsta testcentrets poäng av de fyra främsta Java programmeringsverktygen: Eclipse, IntelliJ IDEA, NetBeans och Oracle JDeveloper.
 
-### **Aspose.Cells för Java**
+### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/) för Java är en Excel®-kalkylbladsrapporteringskomponent som gör det möjligt för Java-applikationer att skapa och hantera Excel®-kalkylblad utan att använda Microsoft Excel®. Aspose.Cells för Java är en otroligt funktionsrik komponent som erbjuder mycket mer än bara grundläggande dataexportfunktioner.
+[Aspose.Cells](https://products.aspose.com/cells/java/)for Java är en Excel®-kalkylbladsrapporteringskomponent som gör det möjligt för Java-applikationer att skapa och hantera Excel®-kalkylblad utan att använda Microsoft Excel®. Aspose.Cells for Java är en otroligt funktionsrik komponent som erbjuder mycket mer än bara grundläggande dataexportfunktioner.
 
 ### **Aspose.Cells Java för IntelliJ IDEA - Maven**
 
--  Aspose.Cells Java för IntelliJ IDEA (Maven) är en**IntelliJ IDEA Plugin** som låter dig skapa maven-projekt (dvs. skapat projekt innehåller Aspose.Cells för Java API maven-beroende) och ladda ner källkodsexempel på API:et för användning**Aspose.Cells för Java API**.
+-  Aspose.Cells Java för IntelliJ IDEA (Maven) är en**IntelliJ IDEA Plugin** som låter dig skapa maven-projekt (dvs. skapat projekt innehåller Aspose.Cells for Java API maven beroende) och ladda ner källkodsexempel på API för att använda**Aspose.Cells for Java API**.
 
--  Denna plugin hjälper dig att arbeta med**Aspose.Cells för Java API** inuti din favorit IntelliJ IDÉ.
+-  Denna plugin hjälper dig att arbeta med**Aspose.Cells for Java API** inuti din favorit IntelliJ IDÉ.
 
 ![todo:image_alt_text](kwkgljg.png)
 
 **Trollkarlar**:
 Plugin-programmet innehåller två guider -----
 
-**Wizard 1:** Aspose.Cells Maven Project
+**Wizard 1:** Aspose.Cells Maven Projekt
 
--  Plugins**Aspose Maven Project Wizard** låter utvecklare skapa Aspose.Cells för Java Maven-projektet.
--  Referensen till**Aspose.Cells för Java API** maven-beroende hämtas automatiskt från[Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) och läggs till i pom.xml.
-- Det skapade projektet kommer alltid att innehålla den senaste tillgängliga versionen Maven Dependency för Aspose.Cells för Java.
--  Stegen i guiden finns också med alternativet för nedladdning[Källkodsexempel för användning av Aspose.Cells för Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+-  Plugins**Aspose Maven Projektguide** låter utvecklare skapa Aspose.Cells for Java Maven projekt.
+-  Referensen till**Aspose.Cells for Java API** maven beroende hämtas automatiskt från[Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) och läggs till i pom.xml.
+- Det skapade projektet kommer alltid att innehålla den senaste tillgängliga versionen Maven Beroende för Aspose.Cells for Java.
+-  Stegen i guiden finns också med alternativet för nedladdning[Källkodsexempel för användning av Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
 **Wizard 2:** Aspose.Cells Exempel
 
-- **Aspose.Cells Exempel Wizard** låter dig skapa / kopiera nedladdade[Källkodsexempel på Aspose.Cells för Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)in i ditt projekt. Alla exempel för den valda kategorin kommer att kopieras till projektets "com.aspose.cells.examples"-paketmapp tillsammans med de nödvändiga resurserna i "src/main/resources"-mappen som behövs för att köra exemplen.
+- **Aspose.Cells Exempel Wizard** låter dig skapa / kopiera nedladdade[Exempel på källkod på Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) in i ditt projekt. Alla exempel för den valda kategorin kommer att kopieras till projektets "com.aspose.cells.examples"-paketmapp tillsammans med de nödvändiga resurserna i "src/main/resources"-mappen som behövs för att köra exemplen.
 
-- [Källkodsexempel på Aspose.Cells för Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) är avsedda för att demonstrera de olika användningarna av API.
+- [Exempel på källkod på Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) är avsedda för att demonstrera olika användningsområden för API.
 
 ## **Systemkrav och plattformar som stöds**
 

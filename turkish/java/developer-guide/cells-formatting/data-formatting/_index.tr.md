@@ -87,7 +87,7 @@ TextAlignmentType numaralandırmasını kullanarak herhangi bir metin hizalama t
 |**Metin Hizalama Türleri**|**Tanım**|
 |:- |:- |
 |Alt|Alt metin hizalamasını temsil eder|
-|Merkez|Merkez metin hizalamasını temsil eder|
+|merkez|Merkez metin hizalamasını temsil eder|
 |Merkez Boyunca|Metin hizalaması boyunca merkezi temsil eder|
 |dağıtılmış|Dağıtılmış metin hizalamasını temsil eder|
 |Doldurmak|Dolgu metni hizalamasını temsil eder|
@@ -383,7 +383,7 @@ Cells koleksiyonu, bir Sütun koleksiyonu sağlar. Columns koleksiyonundaki her 
 
 
 #### **Satırlar ve Sütunlar İçin Sayıların ve Tarihlerin Görüntüleme Biçimini Ayarlama**
-Gereksinim, tam bir satır veya sütun için sayıların ve tarihlerin görüntülenme biçimini ayarlamaksa, süreç aşağı yukarı yukarıda tartışılanla aynıdır, ancak metin içerikleri için parametreler ayarlamak yerine, sayılar için biçimlendirmeyi ayarlıyor olacaksınız. ve Style.Number veya Style.Custom kullanarak tarihler. Lütfen, Style.Number özelliğinin tamsayı türünde olduğunu ve yerleşik sayı ve tarih biçimlerine atıfta bulunduğunu, oysa Style.Custom özelliğinin dize türünde olduğunu ve geçerli kalıpları kabul ettiğini unutmayın.
+Gereksinim, tam bir satır veya sütun için sayıların ve tarihlerin görüntülenme biçimini ayarlamaksa, süreç aşağı yukarı yukarıda tartışılanla aynıdır, ancak metin içerikleri için parametreler ayarlamak yerine, sayılar için biçimlendirmeyi ayarlıyor olacaksınız. ve Style.Number veya Style.Custom kullanarak tarihler. Lütfen unutmayın, Style.Number özelliği tamsayı türündedir ve yerleşik sayı ve tarih biçimlerini ifade eder, oysa Style.Custom özelliği dize türündedir ve geçerli kalıpları kabul eder.
 
 
 

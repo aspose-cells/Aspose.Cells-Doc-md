@@ -14,7 +14,7 @@ El formateo lleva tiempo. ¿Qué podría acelerar el desarrollo?
 
 ## **La solución - Hojas de cálculo de diseño**
 
-Para acelerar su desarrollo, Aspose.Cells ofrece la emocionante hoja de cálculo del diseñador de funciones.
+Para acelerar su desarrollo, Aspose.Cells ofrece la emocionante hoja de cálculo del diseñador de características.
 
 ### **¿Qué es una hoja de cálculo de diseñador?**
 

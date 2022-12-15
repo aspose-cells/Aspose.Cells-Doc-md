@@ -4,17 +4,17 @@ type: docs
 weight: 10
 url: /sv/net/grid-features/
 ---
- Följande tabell sammanfattar funktionerna som är tillgängliga i**Aspose.Cells.GridDesktop**  , **Aspose.Cells.GridWeb** och**Aspose.Cells.GridJs** kontroller tillhandahållna av Aspose.Cells för .NET.
+ Följande tabell sammanfattar funktionerna som är tillgängliga i**Aspose.Cells.GridDesktop**  , **Aspose.Cells.GridWeb** och**Aspose.Cells.GridJs** kontroller tillhandahållna av Aspose.Cells for .NET.
 
 |**Funktioner**|**Aspose.Cells.GridDesktop**|**Aspose.Cells.GridWeb**|**Aspose.Cells.GridJs**|
 |:- |:- |:- |:- |
 |**Allmän**||||
-| Skrivet helt i C#|**X**|**X**|**X**|
+| Helt skrivet på C#|**X**|**X**|**X**|
 | Fungerar med .NET Framework 1.1 och 2.0|**X**|**X**||
-| Fungerar med .NET Standard &Core||**X**|**X**|
+|Fungerar med .NET Standard &Core||**X**|**X**|
 |**Plattformar som stöds**||||
-| Windows Forms-applikationer|**X**|||
-|Webbformulärapplikationer||**X**||
+| Windows Blanketter ansökningar|**X**|||
+| Webbformulärapplikationer||**X**||
 | Asp.Net kärnapplikationer|||**X**|
 |**Dokumentation**||||
 | Microsoft Hjälp 2|**X**|**X**|**X**|
@@ -22,7 +22,7 @@ url: /sv/net/grid-features/
 | Online programmerares guide i HTML-format|**X**|**X**|**X**|
 |**Fullständiga demos**||||
 | Visual Basic.NET|**X**|**X**||
-| C#|**X**|**X**|**X**|
+|C# |**X**|**X**|**X**|
 |**Microsoft Excel stöds**||||
 | Microsoft Excel 97|**X**|**X**|**X**|
 | Microsoft Excel 2000|**X**|**X**|**X**|
@@ -48,9 +48,9 @@ url: /sv/net/grid-features/
 | Stöder kalkylbladspaginering||**X**||
 |**Hantera rader och kolumner**||||
 | Lägg till/infoga/ta bort rader och kolumner|**X**|**X**|**X**|
-| Dölj/visa rader och kolumner|**X**|**X**||
+|Dölj/visa rader och kolumner|**X**|**X**||
 | Frys/lås upp rader och kolumner|**X**|**X**|**X**|
-|Anpassa rubriker för rader och kolumner||**X**||
+| Anpassa rubriker för rader och kolumner||**X**||
 |**Hantering Cells**||||
 | Standardformatinställningar för Cells|**X**|**X**|**X**|
 | Anpassade formatinställningar för Cells||**X**||
@@ -81,10 +81,10 @@ url: /sv/net/grid-features/
 | Lås eller dölj Cells|**X**|||
 |**Funktioner & formler**||||
 | Skapa och beräkna formler|**X**|**X**|**X**|
-| 80+ fördefinierade funktioner|**X**|**X**|**X**|
+|80+ fördefinierade funktioner|**X**|**X**|**X**|
 | Anpassad beräkningsmotor||**X**|**X**|
 |**Pivottabeller**||||
-|Skapa dynamiska pivottabeller||**X**||
+| Skapa dynamiska pivottabeller||**X**||
 |**Grid Events**||||
 | Hantera Grid Events|**X**|**X**||
 |**Sessionslöst läge**||||

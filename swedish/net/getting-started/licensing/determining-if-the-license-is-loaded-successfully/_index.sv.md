@@ -10,7 +10,7 @@ url: /sv/net/determining-if-the-license-is-loaded-successfully/
 
 {{% /alert %}}
 
-## C#-kod för att avgöra om licensen har laddats
+## C#-kod för att avgöra om licensen har lästs in
 
  Följande kod ger åtkomst till[**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) egendom innan du ställer in en licens och den kommer tillbaka**falsk** . Sedan laddar den in licensen och kommer åt fastigheten igen som nu återkommer**Sann**.
 

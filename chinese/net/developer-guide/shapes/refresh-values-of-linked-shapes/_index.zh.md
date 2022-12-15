@@ -14,7 +14,7 @@ url: /zh/net/refresh-values-of-linked-shapes/
 
 以下屏幕截图显示了以下示例代码中使用的源 Excel 文件。它具有链接到单元格 A1 到 E4 的链接图片。我们将使用 Aspose.Cells 更改单元格 B4 的值，然后调用[**工作表.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)方法刷新图片的值并保存为PDF格式。
 
-![待办事项：图片_替代_文本](refresh-values-of-linked-shapes_1.jpg)
+![待办事项：图像_替代_文本](refresh-values-of-linked-shapes_1.jpg)
 
 您可以下载[源Excel文件](95584291.xlsx)和[输出PDF](95584292.pdf)从给定的链接。
 

@@ -22,7 +22,7 @@ Aspose.Cells for .NET, diğer yazılımlardan bağımsız olarak elektronik tabl
 1.  nesnesinin örneğini oluşturun**Çalışma kitabı** boş kurucusunu çağırarak sınıf.
 1.  Yapabilirsin**aç/yükle** varolan bir şablon dosyası oluşturun veya çalışma kitabını sıfırdan oluşturuyorsanız bu adımı atlayın.
 1. Aspose.Cells' API'lerini kullanarak e-tabloda istediğiniz işi yapın (verileri girin, biçimlendirme uygulayın, formüller ayarlayın, resimler veya diğer çizim nesneleri ekleyin, vb.).
-1. Elektronik tablo kodu tamamlandığında,**Çalışma kitabı sınıfının Kaydetme yöntemi** e-tabloyu kaydetmek için. Dosya biçimi PDF olmalıdır, bu nedenle son PDF belgesini oluşturmak için SaveFormat numaralandırmasından Pdf'yi (önceden tanımlanmış bir değer) seçin.
+1.  Elektronik tablo kodu tamamlandığında,**Çalışma kitabı sınıfının Kaydetme yöntemi** e-tabloyu kaydetmek için. Dosya biçimi PDF olmalıdır, bu nedenle son PDF belgesini oluşturmak için SaveFormat numaralandırmasından Pdf'yi (önceden tanımlanmış bir değer) seçin.
 
 {{< highlight "csharp" >}}
 

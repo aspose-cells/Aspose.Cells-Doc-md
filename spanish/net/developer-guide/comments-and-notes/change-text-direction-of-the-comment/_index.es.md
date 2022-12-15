@@ -10,6 +10,6 @@ Microsoft Excel permite a los usuarios agregar comentarios a las celdas para agr
 
 {{% /alert %}}
 
- Aspose.Cells proporciona un[**Forma.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)propiedad para establecer la dirección del texto de un comentario. El siguiente código de ejemplo demuestra el uso de[**Forma.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)propiedad para establecer la dirección del texto de un comentario.
+ Aspose.Cells proporciona un[**Forma.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)propiedad para establecer la dirección del texto para un comentario. El siguiente código de ejemplo demuestra el uso de[**Forma.TextDirection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textdirection)propiedad para establecer la dirección del texto para un comentario.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeTextDirection-1.cs" >}}

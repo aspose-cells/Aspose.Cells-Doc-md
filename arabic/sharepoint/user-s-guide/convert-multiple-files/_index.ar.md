@@ -8,7 +8,7 @@ url: /ar/sharepoint/convert-multiple-files/
 
 1.  يختار**قم بالتحويل باستخدام Aspose.Cells** من البنك المركزي الأوروبي للمجلد الذي تريده أثناء البقاء في الوالد.
 
-لتحويل عدة ملفات:
+ لتحويل عدة ملفات:
 
 1.  حدد عدة ملفات في المكتبة وحدد**قم بالتحويل باستخدام Aspose.Cells**. 
 
@@ -27,6 +27,6 @@ url: /ar/sharepoint/convert-multiple-files/
 ### **استخدام زر شريط الخادم ضمن SharePoint 2010**
  ضمن SharePoint 2010 ، يتوفر زر شريط الخادم بدلاً من قائمة الإجراءات المخصصة المستخدمة مع SharePoint 2007 / WSS 3.
 
-**تحويل المستندات باستخدام Aspose.Cells لـ SharePoint على SharePoint 2010** 
+**تحويل المستندات باستخدام Aspose.Cells for SharePoint على SharePoint 2010** 
 
 ![ما يجب القيام به: image_بديل_نص](convert-multiple-files_3.png)

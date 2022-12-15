@@ -6,7 +6,7 @@ url: /de/reportingservices/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells für Reporting Services (einschließlich des Aspose.Cells.ReportingServices-Clients, Add-Ins für Microsoft Excel und Aspose.Cells.ReportingServices Server) muss ordnungsgemäß installiert werden. Darüber hinaus sollte Microsoft SQL Server installiert werden, bevor Aspose.Cells für Reporting Services installiert wird.
+Aspose.Cells for Reporting Services (einschließlich Aspose.Cells.ReportingServices-Client, Add-Ins für Microsoft Excel und Aspose.Cells.ReportingServices Server) muss ordnungsgemäß installiert werden. Außerdem sollte Microsoft SQL Server installiert werden, bevor Aspose.Cells for Reporting Services installiert wird.
 
 {{% /alert %}} 
 ### **Office-System**

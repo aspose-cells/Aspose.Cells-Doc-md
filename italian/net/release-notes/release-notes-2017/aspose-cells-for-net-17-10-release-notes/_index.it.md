@@ -40,8 +40,8 @@ url: /it/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45645|L'eccezione si verifica all'apertura di BUDGET RH 3_0.xlsm in GridWeb|Insetto|
 |CELLSNET-45657|La stringa di input non era in un formato corretto - Eccezione sul metodo Pivot.CalculateData()|Eccezione|
 |CELLSNET-45703|Eccezione durante la conversione del file XLSM nel formato file XLS|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo AbstractCalculationMonitor.Interrupt(string).**
 Consente agli utenti di interrompere l'avanzamento dei calcoli delle formule.
 #### **Aggiunge l'enumerazione HtmlCrossType.MSExport**

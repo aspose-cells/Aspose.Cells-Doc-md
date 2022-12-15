@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Python tramite Java 22.10 Note di rilascio
+title: Aspose.Cells for Python via Java 22.10 Note di rilascio
 type: docs
 weight: 3
 url: /it/python-java/aspose-cells-for-python-via-java-22-10-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Python via Java 22.10](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.10/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Python via Java 22.10](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.10/).
 
 {{% /alert %}}
 
@@ -27,9 +27,9 @@ url: /it/python-java/aspose-cells-for-python-via-java-22-10-release-notes/
 |CELLSJAVA-44898|La lettura da GZIPInputStream a volte genera un falso errore "File danneggiato" nelle versioni 22.7 e successive|
 |CELLSJAVA-44881|Eccezione "java.lang.ArrayIndexOutOfBoundsException: 15070" durante il caricamento di un file XLS|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Modificato il limite di spostamento delle celle fuori dal foglio per l'inserimento di righe**
 

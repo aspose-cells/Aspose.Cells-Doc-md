@@ -27,13 +27,13 @@ Aspose.Cells.GridWeb 提供了一个上下文菜单，最终用户可以使用�
 
 **完整的上下文选项** 
 
-![待办事项：图片_替代_文本](protect-rows-and-columns_1.png)
+![待办事项：图像_替代_文本](protect-rows-and-columns_1.png)
 
 通过限制上下文菜单中可用的选项，可以限制任何类型的客户端对行和列的操作。这可以通过将 GridWeb 控件的 EnableClientColumnOperations 和 EnableClientRowOperations 属性设置为 false 来完成。也可以通过将 GridWeb 控件的 EnableClientFreeze 属性设置为 false 来限制用户冻结行和列。
 
 **限制行和列选项后的上下文菜单** 
 
-![待办事项：图片_替代_文本](protect-rows-and-columns_2.png)
+![待办事项：图像_替代_文本](protect-rows-and-columns_2.png)
 
 
 

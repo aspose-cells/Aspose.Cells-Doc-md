@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /it/net/set-custom-datasource-for-workbookdesigner/
 ---
-Aspose.Cells offre la possibilità di impostare DataSource personalizzato per WorkbookDesigner. Il API fornisce un metodo sovraccarico[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)che prende il nome della sorgente come primo parametro e l'istanza della classe che implementa[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)come secondo parametro.
+Aspose.Cells offre la possibilità di impostare DataSource personalizzato per WorkbookDesigner. L'API fornisce un metodo in overload[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)che prende il nome della sorgente come primo parametro e l'istanza della classe che implementa[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)come secondo parametro.
 
 Il seguente frammento di codice illustra l'uso di[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)metodo per impostare il DataSource personalizzato.
 ## **Codice di esempio**

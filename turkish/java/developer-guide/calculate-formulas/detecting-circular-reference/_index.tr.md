@@ -16,7 +16,7 @@ Dairesel referanslar yalnızca formül hesaplandığında algılanabilir çünk�
 
 [**AbstractCalculationMonitor.OnCircular(IEnumerator daireselCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): döngüsel başvurularla karşılaşıldığında formül hesaplama motoru tarafından çağrılacak, numaralandırıcıdaki öğe[**Hesaplama Hücresi**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) tek bir dairedeki tüm hücreleri temsil eden nesneler. Döndürülen değer, formül motorunun bu aramadan sonra bu hücreleri döngüsel olarak hesaplaması gerekip gerekmediğini gösterir.
 
-Kullanıcı, bu döngüsel referansları aşağıdakilerin uygulanmasında toplayabilir:[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) yöntem.
+ Kullanıcı, bu döngüsel referansları aşağıdakilerin uygulanmasında toplayabilir:[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) yöntem.
 
 Kaynak örnek dosya aşağıdaki bağlantıdan indirilebilir:
 
@@ -24,6 +24,6 @@ Kaynak örnek dosya aşağıdaki bağlantıdan indirilebilir:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
- Tanımı*Dairesel Monitör* türetilen sınıf[**ÖzetHesaplamaMonitör**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) sınıf aşağıdaki gibidir:
+Tanımı*Dairesel Monitör* türetilen sınıf[**ÖzetHesaplamaMonitör**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) sınıf aşağıdaki gibidir:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

@@ -1,13 +1,13 @@
 ﻿---
-title: Dividi riquadri in Python
+title: Dividi i riquadri in Python
 type: docs
 weight: 70
 url: /it/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - Riquadri divisi**
- Per dividere i riquadri utilizzando**Aspose.Cells Java per Python** , semplicemente invocare**SplitPanes** modulo.
+ Per dividere i riquadri utilizzando**Aspose.Cells Giava for Python** , semplicemente invocare**SplitPanes** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 

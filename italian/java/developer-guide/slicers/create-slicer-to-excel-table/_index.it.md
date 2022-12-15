@@ -6,7 +6,7 @@ url: /it/java/create-slicer-to-excel-table/
 ---
 ## **Possibili scenari di utilizzo**
 
- Un'affettatrice viene utilizzata per filtrare rapidamente i dati. Può essere utilizzato per filtrare i dati sia in una tabella che in una tabella pivot. Microsoft Excel consente di creare un'affettatrice selezionando una tabella o una tabella pivot e quindi facendo clic sull'icona*Inserisci > Affettatrice*. Aspose.Cells permette anche di creare affettatrici utilizzando il[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add(com.aspose.cells.ListObject,%20com.aspose.cells.ListColumn,%20int,%20int)) metodo.
+ Un'affettatrice viene utilizzata per filtrare rapidamente i dati. Può essere utilizzato per filtrare i dati sia in una tabella che in una tabella pivot. Microsoft Excel consente di creare un'affettatrice selezionando una tabella o una tabella pivot e quindi facendo clic su*Inserisci > Affettatrice*. Aspose.Cells permette anche di creare affettatrici utilizzando il[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add(com.aspose.cells.ListObject,%20com.aspose.cells.ListColumn,%20int,%20int)) metodo.
 
 ## **Crea affettatrice in tabella Excel**
 

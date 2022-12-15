@@ -5,7 +5,7 @@ weight: 80
 url: /zh/java/saving-files-in-jython/
 ---
 ## **Aspose.Cells - 保存文件**
-使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+使用附加文件**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
 
 **Jython代码**
 

@@ -10,7 +10,7 @@ Aspose.Cells 可用于将 ConsolidationFunction 应用于数据透视表的数�
 
 Aspose.Cells提供[**整合功能**](https://reference.aspose.com/cells/net/aspose.cells/consolidationfunction)支持以下合并功能的枚举。
 
-- 合并函数.平均
+- 整合函数.平均
 - ConsolidationFunction.Count
 - ConsolidationFunction.CountNums 函数
 - ConsolidationFunction.DistinctCount

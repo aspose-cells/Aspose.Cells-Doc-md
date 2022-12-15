@@ -35,7 +35,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Trabajo con bordes**
+## **NPOI - HSSF XSSF - Trabajar con bordes**
 **C#**
 
 {{< highlight "cs" >}}

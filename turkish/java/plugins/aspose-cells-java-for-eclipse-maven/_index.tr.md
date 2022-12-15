@@ -14,7 +14,7 @@ Eclipse IDE ek yazılım bileşenleri ile genişletilebilir. Eclipse bu yazılı
 
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ)diğer satıcıların basit veri dışa aktarma yeteneklerinin çok ötesinde birçok işlev sunan olgun, ölçeklenebilir ve zengin özelliklere sahip bir bileşendir. Aspose.Cells for Java ile geliştiriciler, Microsoft Excel®'e ihtiyaç duymadan verileri dışa aktarabilir, elektronik tabloları en ayrıntılı düzeyde biçimlendirebilir, görüntüleri içe aktarabilir, grafikler oluşturabilir, karmaşık formüller uygulayabilir ve hesaplayabilir, Excel® verilerini aktarabilir, çeşitli biçimlerde kaydedebilir ve çok daha fazlasını yapabilir. veya Microsoft Ofis Otomasyonu.
 ### **Tutulma için Aspose.Cells Java (Maven)**
--  Eclipse için Aspose.Cells Java (Maven) için bir Eklentidir**Eclipse IDE'si** ile**Aspose.** Bu Eklenti, Maven platformu for Java geliştirmelerini kullanan ve kullanmak isteyen geliştiriciler için tasarlanmıştır.[Aspose.Cells for Java](http://goo.gl/gtvhlQ)projelerinde. Eklenti, kullanmak için maven proje oluşturmanıza izin verir.[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) ve ayrıca indir[Kod Örnekleri](https://goo.gl/uxznrb)API.
+-  Eclipse için Aspose.Cells Java (Maven) için bir Eklentidir**Eclipse IDE'si** ile**Aspose.** Bu Eklenti, Maven platformu for Java geliştirmelerini kullanan ve kullanmak isteyen geliştiriciler için tasarlanmıştır.[Aspose.Cells for Java](http://goo.gl/gtvhlQ) projelerinde. Eklenti, kullanmak için maven proje oluşturmanıza izin verir.[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) ve ayrıca indir[Kod Örnekleri](https://goo.gl/uxznrb)API.
 -  Eklenti, çalışmak için aşağıdaki özellikleri sağlar[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) içinde**Eclipse IDE'si** rahatça:
 
 ![yapılacaklar:resim_alternatif_Metin](kwkgljg.png)
@@ -39,7 +39,7 @@ Eklenti iki sihirbaz içerir -----
 - Sihirbaz ayrıca yeni kullanılabilir olanları arayacak ve güncellemeler yapacaktır.[Kod Örnekleri](https://goo.gl/uxznrb)itibaren[Aspose.Cells for Java örnek deposu.](https://goo.gl/uxznrb)
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 ### **sistem gereksinimleri**
-- **Sistem belleği:**2 GB veya üzeri (Önerilen)
+- **Sistem belleği:**2 GB veya üzeri (Önerilir)
 - **İŞLETİM SİSTEMİ:**Java VM'yi (Sanal Makine) destekleyen herhangi bir işletim sistemi
 - **İnternet bağlantısı:**2 MB veya daha hızlı (Önerilir)
 ### **Desteklenen Platformlar**
@@ -51,13 +51,13 @@ Aspose.Cells Java for Eclipse (Maven) eklentisini indirmeden önce Eclipse IDE'y
 
 Eclipse IDE'yi indirmek için
 
-1.  git[https://eclipse.org](https://eclipse.org/).
+1.  Git[https://eclipse.org](https://eclipse.org/).
 1. Önerilen Eclipse IDE for Java SE/EE geliştiricilerini indirin ve kurun.
 ### **Eclipse için Aspose.Cells Java'i indirin (Maven)**
 Aspose.Cells Java for Eclipse (Maven) eklentisinin başarıyla indirilmesi ve kurulması için önerilen üç yöntem aşağıdadır:
 
 -  Sürükle ve bırak kurulumu[Tutulma Pazaryeri](https://marketplace.eclipse.org/content/asposecells-java-maven-eclipse) Eclipse çalışma alanınıza.
--  Veya git**Yardım** > **Yeni Yazılım Yükle...** > Aşağıdaki güncelleme sitesi url'sini girin**Birlikte çalışmak**:
+-  Veya git**Yardım** > **Yeni Yazılım Yükle...**> Aşağıdaki güncelleme sitesi url'sini girin**Birlikte çalışmak**:
  cdn.aspose.com/marketplace/eclipse/java/maven/asposecells
  Ardından "Eclipse için Aspose.Cells Java (Maven)" öğesini seçin ve**Bitiş**. Lisans Sözleşmesini kabul edin ve eklentiyi yükleyin.
 ## **yükleme**
@@ -65,7 +65,7 @@ Aspose.Cells Java for Eclipse (Maven) eklentisinin başarıyla indirilmesi ve ku
 ## **Eklentiyi Kullanma**
 [Eclipse için Aspose.Cells Java kullanma - Maven](/cells/tr/java/installing-and-using-aspose-cells-java-for-eclipse-maven/#using)
 ### **Aspose Lisans başvurusu nasıl yapılır?**
-Bu Eklenti, Aspose.Cells'in bir değerlendirme sürümünü kullanır. Değerlendirmenizden memnun kaldığınızda, şu adresten bir lisans satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy).
+ Bu Eklenti, Aspose.Cells'in bir değerlendirme sürümünü kullanır. Değerlendirmenizden memnun kaldığınızda, şu adresten bir lisans satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy).
 Değerlendirme mesajını ve özellik sınırlamalarını kaldırmak için ürün lisansı uygulanmalıdır. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lisansı uygulamak için lütfen aşağıdaki adımları izleyin
 
 -  Lisans dosyasının şu şekilde adlandırıldığından emin olun:**Aspose.Cells.Java.lic**

@@ -16,7 +16,7 @@ Grafik, bilgilerin görsel bir gösterimidir. Aspose.Cells, geliştiricilerin t�
 
 ## **Çizgi grafik**
 
-Yukarıdaki örnekte, basitçe değiştirmek[**Grafik türü**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)ile[**ChartType_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25) bir çizgi grafiği oluşturur. Tam kaynak aşağıda verilmiştir. kod yürütüldüğünde, çalışma sayfasına bir çizgi grafik eklenir. Lütfen bkz[çıktı excel dosyası](66519069.xlsx) aşağıdaki örnek koddan.
+Yukarıdaki örnekte, basitçe değiştirmek[**Grafik türü**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)ile[**ChartType_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25)bir çizgi grafiği oluşturur. Tam kaynak aşağıda verilmiştir. kod yürütüldüğünde, çalışma sayfasına bir çizgi grafik eklenir. Lütfen bkz[çıktı excel dosyası](66519069.xlsx) aşağıdaki örnek koddan.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart.cpp" >}}
 

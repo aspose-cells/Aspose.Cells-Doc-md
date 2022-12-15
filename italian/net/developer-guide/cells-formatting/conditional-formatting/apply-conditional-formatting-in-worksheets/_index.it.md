@@ -8,11 +8,11 @@ url: /it/net/apply-conditional-formatting-in-worksheets/
 
 Questo articolo è progettato per fornire informazioni dettagliate su come aggiungere la formattazione condizionale a un intervallo di celle in un foglio di lavoro.
 
-La formattazione condizionale è una funzionalità avanzata in Microsoft Excel che consente di applicare formati a un intervallo di celle e di modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, lo sfondo di una cella potrebbe essere rosso per evidenziare un valore negativo oppure il colore del testo potrebbe essere verde per un valore positivo. Quando il valore della cella soddisfa la condizione del formato, viene applicato il formato. Se il valore della cella non soddisfa la condizione del formato, viene utilizzata la formattazione predefinita della cella.
+La formattazione condizionale è una funzionalità avanzata di Microsoft Excel che consente di applicare formati a un intervallo di celle e di modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, lo sfondo di una cella potrebbe essere rosso per evidenziare un valore negativo oppure il colore del testo potrebbe essere verde per un valore positivo. Quando il valore della cella soddisfa la condizione del formato, viene applicato il formato. Se il valore della cella non soddisfa la condizione del formato, viene utilizzata la formattazione predefinita della cella.
 
-È possibile applicare la formattazione condizionale con Microsoft Office Automation ma questo ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio, sicurezza, stabilità, scalabilità e velocità. Il motivo principale per trovare un'altra soluzione è che lo stesso Microsoft sconsiglia vivamente Office Automation per le soluzioni software.
+È possibile applicare la formattazione condizionale con Microsoft Office Automation, ma questo ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio, sicurezza, stabilità, scalabilità e velocità. Il motivo principale per trovare un'altra soluzione è che la stessa Microsoft sconsiglia vivamente Office Automation per le soluzioni software.
 
-Questo articolo mostra come creare un'applicazione console, aggiungere la formattazione condizionale alle celle con poche semplici righe di codice utilizzando Aspose.Cells API.
+Questo articolo mostra come creare un'applicazione console, aggiungere la formattazione condizionale alle celle con poche semplici righe di codice utilizzando l'API Aspose.Cells.
 
 {{% /alert %}}
 

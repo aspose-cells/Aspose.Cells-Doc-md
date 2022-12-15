@@ -14,7 +14,7 @@ url: /ru/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 
 ![дело:изображение_альтернативный_текст](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- На следующем снимке экрана показано[вывод PDF](5115555.pdf) который вы можете скачать по указанной ссылке. Здесь вы можете видеть, что данных красного цвета и желтого фона нет, но все фигуры есть.
+На следующем снимке экрана показано[вывод PDF](5115555.pdf) который вы можете скачать по указанной ссылке. Здесь вы можете видеть, что данных красного цвета и желтого фона нет, но все фигуры есть.
 
 ![дело:изображение_альтернативный_текст](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

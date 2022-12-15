@@ -4,7 +4,7 @@ type: docs
 weight: 90
 url: /ar/sharepoint/add-watermark-to-multiple-documents/
 ---
-إذا كنت تريد إضافة علامة مائية في ملفات Excel متعددة ، فالرجاء اختيار خيار "إضافة علامة مائية مع Aspose.Cells" في شريط الشريط.
+إذا كنت تريد إضافة علامة مائية في ملفات Excel متعددة ، فالرجاء اختيار خيار "Add WaterMark with Aspose.Cells" في شريط الشريط.
 
 ![ما يجب القيام به: image_بديل_نص](add-watermark-to-multiple-documents_1.png)
 

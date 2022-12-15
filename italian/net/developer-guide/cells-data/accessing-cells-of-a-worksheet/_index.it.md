@@ -26,7 +26,7 @@ Sappiamo che tutti i fogli di lavoro possono contenere dati che sono sostanzialm
 
  Gli sviluppatori possono accedere a qualsiasi cella specifica passando il nome della cella al file[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) raccolta del[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe come indice.
 
- Se crei un foglio di lavoro vuoto all'inizio, il conteggio di[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) la riscossione è zero. Quando si utilizza questo approccio per accedere a una cella, verificherà se questa cella esiste o meno nella raccolta. In caso affermativo, restituisce l'oggetto cella nella raccolta, altrimenti ne crea uno nuovo[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) oggetto, aggiunge l'oggetto al file[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection e quindi restituisce l'oggetto. Questo approccio è il modo più semplice per accedere alla cella se hai familiarità con Microsoft Excel ma è il più lento rispetto ad altri approcci.
+ Se crei un foglio di lavoro vuoto all'inizio, il conteggio di[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)la riscossione è zero. Quando si utilizza questo approccio per accedere a una cella, verificherà se questa cella esiste o meno nella raccolta. In caso affermativo, restituisce l'oggetto cella nella raccolta, altrimenti ne crea uno nuovo[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) oggetto, aggiunge l'oggetto al file[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection e quindi restituisce l'oggetto. Questo approccio è il modo più semplice per accedere alla cella se si ha familiarità con Microsoft Excel, ma è il più lento rispetto ad altri approcci.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
@@ -48,7 +48,7 @@ Questo approccio funziona allo stesso modo di quello del primo approccio.
 
 ## **Accesso all'intervallo massimo di visualizzazione del foglio di lavoro**
 
-Aspose.Cells consente agli sviluppatori di accedere all'intervallo di visualizzazione massimo di un foglio di lavoro. L'intervallo di visualizzazione massimo, ovvero l'intervallo di celle compreso tra la prima e l'ultima cella con contenuto, è utile quando è necessario copiare, selezionare o visualizzare l'intero contenuto di un foglio di lavoro in un'immagine.
+Aspose.Cells consente agli sviluppatori di accedere all'intervallo di visualizzazione massimo di un foglio di lavoro. L'intervallo di visualizzazione massimo, ovvero l'intervallo di celle tra la prima e l'ultima cella con contenuto, è utile quando è necessario copiare, selezionare o visualizzare l'intero contenuto di un foglio di lavoro in un'immagine.
 
  È possibile accedere all'intervallo di visualizzazione massimo di un foglio di lavoro utilizzando[**Foglio di lavoro.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . Il codice di esempio seguente illustra come accedere a[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)proprietà.
 

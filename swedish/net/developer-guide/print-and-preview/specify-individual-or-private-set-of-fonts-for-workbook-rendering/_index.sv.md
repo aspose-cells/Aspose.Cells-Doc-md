@@ -6,7 +6,7 @@ url: /sv/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ---
 ## **Möjliga användningsscenarier**
 
-allmänhet anger du typsnittskatalogen eller listan med teckensnitt för alla arbetsböcker, men ibland måste du ange individuella eller privata teckensnitt för dina arbetsböcker. Aspose.Cells tillhandahåller ****[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** klass som kan användas för att specificera den individuella eller privata uppsättningen teckensnitt för din arbetsbok.
+I allmänhet anger du typsnittskatalogen eller listan med teckensnitt för alla arbetsböcker, men ibland måste du ange individuella eller privata teckensnitt för dina arbetsböcker. Aspose.Cells tillhandahåller ****[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** klass som kan användas för att specificera den individuella eller privata uppsättningen teckensnitt för din arbetsbok.
 
 ## **Ange individuell eller privat uppsättning teckensnitt för arbetsbokrendering**
 

@@ -416,7 +416,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |**Funzione**|**Riepilogo**|
 |:- |:- |
 |RICERCA|
-|CERCA B|
+|CERCAB|
 |SECONDO|
 |SEQUENZA|
 |SERIESUM|

@@ -15,7 +15,7 @@ url: /sv/reportingservices/runtime-error-429/
  Omregistrera dig**Aspose.Cells.ReportingServices.Client.dll** använda**Regasm.exe** verktyg:
 
 1. Kör cmd.exe som administratör.
-1. cd $(Aspose.Cells för installationsmappen för Reporting Services).
+1. cd $(Aspose.Cells for Reporting Services installationsmapp).
 1.  Kör**regasm.exe** att registrera**Aspose.Cells.ReportingServices.Client.dll** manuellt.
 
 {{< highlight "java" >}}

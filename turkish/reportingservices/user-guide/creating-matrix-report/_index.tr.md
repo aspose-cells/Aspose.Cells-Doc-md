@@ -6,7 +6,7 @@ url: /tr/reportingservices/creating-matrix-report/
 ---
 {{% alert color="primary" %}} 
 
- Raporlama Hizmetleri için Aspose.Cells, Microsoft Excel'de bir matris tasarlamanızı sağlar.
+ Aspose.Cells for Reporting Services, Microsoft Excel'de bir matris tasarlamanızı sağlar.
 
 {{% /alert %}} 
 ### **Matris Şablonu**

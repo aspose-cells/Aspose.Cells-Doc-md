@@ -32,7 +32,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42800) - PivotTable PDF'ye dönüştürüldüğünde Toplam Başlık eksik
 
-(CELLSNET-42799) - Cell PivotTable PDF'ye dönüştürüldüğünde Birleşme Sorunu
+(CELLSNET-42799) - Cell PivotTable PDF'ye dönüştürüldüğünde Birleştirme Sorunu
 
  (CELLSNET-42775) - Alt toplamlarla ilgili PivotTable hatası
 

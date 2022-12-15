@@ -14,7 +14,7 @@ url: /zh/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 
 示例代码加载源 Excel 文件，然后通过使用[**WorkbookRender.toPrinter（打印机名称，作业名称）**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)） 和[**SheetRender.toPrinter（打印机名称，作业名称）**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)） 方法。屏幕截图显示了作业名称在打印机队列中的样子。
 
-![待办事项：图片_替代_文本](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
+![待办事项：图像_替代_文本](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyJoborDocumentName-SpecifyJoborDocumentName.java" >}}
 

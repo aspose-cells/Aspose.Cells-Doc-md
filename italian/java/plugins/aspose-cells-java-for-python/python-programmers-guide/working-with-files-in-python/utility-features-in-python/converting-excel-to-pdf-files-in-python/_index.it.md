@@ -5,9 +5,9 @@ weight: 20
 url: /it/java/converting-excel-to-pdf-files-in-python/
 ---
 ## **Aspose.Cells - Conversione da Excel a Pdf**
-Per convertire Excel in file Pdf utilizzando Aspose.Cells for Java in Python, basta invocare excel_a_pdf() del modulo Converter.
+Per convertire Excel in file Pdf usando Aspose.Cells for Java in Python, basta invocare excel_a_pdf() del modulo Converter.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

@@ -58,7 +58,7 @@ Fügen Sie einem Arbeitsblatt mithilfe von beliebige Diagrammtypen hinzu[**Diagr
 
 **Schritte:**
 
-1.  Fügen Sie einige Daten zu Arbeitsblattzellen mit hinzu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Methode.
+1.  Fügen Sie einige Daten zu Arbeitsblattzellen mit hinzu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt[**PutWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Methode.
  Dies wird als Datenquelle für das Diagramm verwendet.
 1.  Fügen Sie dem Arbeitsblatt ein Diagramm hinzu, indem Sie die aufrufen[**Diagramme**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) Sammlung[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) Methode, gekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Objekt.
 1.  Geben Sie den Diagrammtyp mit an[**Diagramm Typ**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)Aufzählung.

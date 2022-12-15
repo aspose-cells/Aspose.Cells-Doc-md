@@ -12,7 +12,7 @@ Aspose.Cells supporta la conversione di una cartella di lavoro in un file Json (
 
 ## **Converti la cartella di lavoro di Excel in JSON**
 
-Il Aspose.Cells API fornisce supporto per la conversione di fogli di calcolo in formato JSON. Per esportare la cartella di lavoro in JSON, passare[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodo. Puoi anche usare[**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in JSON.
+L'API Aspose.Cells fornisce supporto per la conversione di fogli di calcolo in formato JSON. Per esportare la cartella di lavoro in JSON, passare[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodo. Puoi anche usare[**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in JSON.
 
  L'esempio di codice seguente illustra l'esportazione del foglio di lavoro attivo in Json utilizzando[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) membro di enumerazione. Si prega di consultare il codice per convertire[file sorgente](book1.xlsx) al[file Json di output](book1.Json)generato dal codice per riferimento.
 

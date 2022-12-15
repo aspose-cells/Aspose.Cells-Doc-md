@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Python için Aspose.Cells 21.11 Sürüm Notları
+title: Aspose.Cells for Python via Java 21.11 Sürüm Notları
 type: docs
 weight: 2
 url: /tr/python-java/aspose-cells-for-python-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Bu sayfa için sürüm notları içerir[Java 21.11 üzerinden Python için Aspose.Cells](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.11/).
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Python via Java 21.11](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-21.11/).
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
 
 ### **Enum CellValueFormatStrategy.DisplayString ekler.**
 
-Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücre değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
+Bu strateji ile Cell.GetStringValue(CellValueFormatStrategy), hücrenin değerlerini görüntüleme stiliyle biçimlendirirken sütun genişliği sınırını dikkate alacaktır. Biçimlendirilmiş sonuç mevcut genişliği aşarsa, ms excel'in bu tür hücreler için gösterdiği gibi bir veya daha fazla "#" döndürülebilir.
 
 ### **WorksheetCollection.ActiveSheetName özelliğini ekler.**
 

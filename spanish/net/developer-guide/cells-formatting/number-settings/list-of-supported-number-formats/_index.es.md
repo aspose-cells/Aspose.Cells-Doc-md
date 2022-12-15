@@ -54,7 +54,7 @@ url: /es/net/list-of-supported-number-formats/
 |48 | Científico|## 0.0E+00
 |
 |49 | Texto|@ |
-## **Aspose.Cells Suite de rejilla**
+## **Aspose.Cells Suite de cuadrícula**
 Como sabemos, hay dos controles Grid Aspose.Cells: Aspose.Cells.GridDesktop y Aspose.Cells.GridWeb. Ambos controles admiten una gran cantidad de formatos de números, que se dividen en dos secciones con respecto a cada control de la siguiente manera:
 
 - Formatos de número admitidos en Aspose.Cells.GridDesktop
@@ -62,7 +62,7 @@ Como sabemos, hay dos controles Grid Aspose.Cells: Aspose.Cells.GridDesktop y As
 ### **Formatos de número admitidos en Aspose.Cells.GridDesktop**
 Aspose.Cells.GridWeb también admite 59 tipos de formatos de números que se enumeran a continuación:
 
-|**Índice**|**Formatos de números**|
+|**Índice**|**Formatos de número**|
 |:- |:- |
 |0 | General|
 |1 |0 |
@@ -137,7 +137,7 @@ En algunos formatos de número, es posible que observe algunos caracteres como �
 ### **Formatos de número admitidos en Aspose.Cells.GridWeb**
 Aspose.Cells.GridWeb también admite 59 tipos de formatos de números que se enumeran a continuación:
 
-|**Tipos de formato de número**|**Formatos de números**|
+|**Tipos de formato de número**|**Formatos de número**|
 |:- |:- |
 | General| General|
 | decimal1|0 |

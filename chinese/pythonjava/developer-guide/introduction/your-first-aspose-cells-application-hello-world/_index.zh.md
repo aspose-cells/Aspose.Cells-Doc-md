@@ -31,7 +31,7 @@ url: /zh/python-java/your-first-aspose-cells-application-hello-world/
 
 **生成的电子表格** 
 
-![待办事项：图片_替代_文本](your-first-aspose-cells-application-hello-world_1.png)
+![待办事项：图像_替代_文本](your-first-aspose-cells-application-hello-world_1.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 

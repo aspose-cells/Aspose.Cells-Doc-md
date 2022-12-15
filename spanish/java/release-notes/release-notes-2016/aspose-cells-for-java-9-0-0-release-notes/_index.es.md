@@ -8,7 +8,7 @@ url: /es/java/aspose-cells-for-java-9-0-0-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSJAVA-41947 | Habilidad para detectar si un DataPoint está en Pie o Bar| Nueva caracteristica|
+|CELLSJAVA-41947 | Habilidad para detectar si un DataPoint está en Pie o Bar|Nueva caracteristica|
 |CELLSJAVA-41827 | La hoja de cálculo tarda más de 3 minutos en calcular fórmulas cuando se usa el método Workbook.calculateFormula()| Mejora|
 |CELLSJAVA-41969 | Falta el sombreado Cell al convertir HTML a formato de archivo XLSX| Insecto|
 |CELLSJAVA-41955 | Libro de trabajo a HTML muestra '#' en las celdas| Insecto|

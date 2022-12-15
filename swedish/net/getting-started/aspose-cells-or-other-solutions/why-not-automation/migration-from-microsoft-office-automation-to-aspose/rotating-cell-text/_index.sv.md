@@ -8,7 +8,7 @@ url: /sv/net/rotating-cell-text/
 
 Ibland är en kolumnrubrik mycket bredare än data i cellerna nedan. Detta kan orsaka onödigt blanksteg på sidan. En lösning är att rotera texten vertikalt så att den tar mindre horisontellt utrymme. I Microsoft Excel är det lätt att rotera text. Lyckligtvis är det möjligt att rotera text programmässigt också, så att utvecklare kan rotera etiketter i de kalkylblad som de skapar i sina applikationer.
 
- Den här artikeln tittar på hur man roterar text i celler med hjälp av[Aspose.Cells för .NET](/cells/sv/net/rotating-cell-text/) jämfört med att göra samma sak med[VSTO](/cells/sv/net/rotating-cell-text/).
+ Den här artikeln tittar på hur man roterar text i celler med hjälp av[Aspose.Cells for .NET](/cells/sv/net/rotating-cell-text/) jämfört med att göra samma sak med[VSTO](/cells/sv/net/rotating-cell-text/).
 
 {{% /alert %}}
 
@@ -21,7 +21,7 @@ För att rotera text i en cell på ett kalkylblad, utför följande steg:
 1. Formatera texten: rotera, lägg till bakgrundsfärg.
 1. Spara filen.
 
- Kodexemplen som följer visar hur du utför dessa steg först[VSTO](/cells/sv/net/rotating-cell-text/) , med antingen C# eller Visual Basic, och sedan in[Aspose.Cells](/cells/sv/net/rotating-cell-text/)återigen med antingen C# eller Visual Basic.
+ Kodexemplen som följer visar hur du utför dessa steg först[VSTO](/cells/sv/net/rotating-cell-text/) , med antingen C# eller Visual Basic, och sedan in[Aspose.Cells](/cells/sv/net/rotating-cell-text/), återigen med antingen C# eller Visual Basic.
 
 Kodexemplen i den här artikeln ger utdata som visas nedan.
 **En cell med roterad text.**
@@ -90,7 +90,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **Roterande text med Aspose.Cells för .NET**
+#### **Roterande text med Aspose.Cells for .NET**
 
 **C#**
 

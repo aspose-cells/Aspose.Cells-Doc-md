@@ -50,7 +50,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
 ```
 
-- ta bort anpassade kontextmenyobjekt
+- ta bort anpassade snabbmenyalternativ
 ```javascript
  xs.sheet.delCustomContextMenuItems(keysarray)()
  // the parameter is:

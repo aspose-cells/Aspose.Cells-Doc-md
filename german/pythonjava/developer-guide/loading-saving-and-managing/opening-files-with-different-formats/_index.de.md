@@ -8,7 +8,7 @@ keywords: open xlsx files, open html files, read fods files, read ods files, rea
 ---
 {{% alert color="primary" %}}
 
- Mit Aspose.Cells können Sie Dateien mit verschiedenen Formaten öffnen.**Aspose.Cells** kann eine Reihe von Dateiformaten wie Microsoft Excel-Tabellen (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Dateien mit kommagetrennten Werten (CSV), Dateien mit tabulatorgetrennten oder tabulatorgetrennten Werten (TSV) usw. öffnen.
+ Mit Aspose.Cells können Sie Dateien mit verschiedenen Formaten öffnen.**Aspose.Cells** kann eine Reihe von Dateiformaten öffnen, z. B. Microsoft Excel-Tabellen (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Dateien mit kommagetrennten Werten (CSV), Dateien mit tabulatorgetrennten oder tabulatorgetrennten Werten (TSV) usw.
 
 Wenn Sie alle unterstützten Dateiformate kennen möchten, lesen Sie bitte die folgenden Seiten:
 [Unterstützte Dateiformate](https://docs.aspose.com/cells/python-java/supported-file-formats/)

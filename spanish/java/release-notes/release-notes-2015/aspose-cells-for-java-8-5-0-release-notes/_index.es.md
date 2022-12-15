@@ -112,7 +112,7 @@ url: /es/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41359): aparece un pequeño punto en el centro del gráfico circular mientras se guarda en la imagen
 
- (CELLSJAVA-41358): el gráfico solía poder aceptar una fórmula de serie con valores vacíos, pero ahora genera una excepción.
+ (CELLSJAVA-41358): el gráfico solía poder aceptar una fórmula de serie con valores vacíos, pero ahora arroja una excepción.
 
  (CELLSJAVA-41356): problemas de representación al convertir un gráfico en una imagen
 

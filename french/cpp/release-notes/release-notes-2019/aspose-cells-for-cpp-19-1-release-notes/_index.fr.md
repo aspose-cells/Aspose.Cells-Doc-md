@@ -18,7 +18,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 19.1.
 |CELLSCPP-124|Supprimer la référence de cycle pour Shape 2007|Punaise|
 |CELLSCPP-184|Problème avec la traduction des variables de membre statique|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
-Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
+Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 
 {{% alert color="primary" %}} 
 

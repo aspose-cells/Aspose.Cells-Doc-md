@@ -33,7 +33,7 @@ Siga los pasos a continuación para convertir directamente las hojas de cálculo
 1.  Instanciar un objeto de la**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)**clase llamando a su constructor vacío.
 1. Puede abrir/cargar un archivo de plantilla existente u omitir este paso si está creando el libro de trabajo desde cero.
 1. Realice cualquier trabajo (ingresar datos, aplicar formato, establecer fórmulas, insertar imágenes u otros objetos de dibujo, etc.) en la hoja de cálculo utilizando las API Aspose.Cells.
-1. Cuando el código de la hoja de cálculo esté completo, llame al**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)** clase'**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**método para guardar la hoja de cálculo.
+1.  Cuando el código de la hoja de cálculo esté completo, llame al**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)** clase'**[Guardar](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**método para guardar la hoja de cálculo.
 
  El formato de archivo debe ser PDF, así que seleccione*pdf* (un valor predefinido) de la**[Guardar formato] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**enumeración para generar el documento PDF final.
 

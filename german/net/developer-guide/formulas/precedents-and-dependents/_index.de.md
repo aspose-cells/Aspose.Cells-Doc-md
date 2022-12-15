@@ -27,11 +27,11 @@ Microsoft Excel ermöglicht es Benutzern, Präzedenzfälle und Abhängige zu ver
 
 1.  Auf der**Symbolleiste anzeigen** , auswählen**Formel Auditing**. Das Dialogfeld "Formelüberwachung" wird angezeigt.
 1. Präzedenzfälle verfolgen:
- 1. Wählen Sie die Zelle aus, die die Formel enthält, für die Sie vorangegangene Zellen suchen möchten.
+1. Wählen Sie die Zelle aus, die die Formel enthält, für die Sie vorangegangene Zellen suchen möchten.
  1. Um einen Verfolgungspfeil zu jeder Zelle anzuzeigen, die direkt Daten für die aktive Zelle bereitstellt, klicken Sie auf**Präzedenzfälle verfolgen** auf der**Formel Auditing** Symbolleiste.
 1. Verfolgen Sie Formeln, die auf eine bestimmte Zelle verweisen (abhängige Zellen)
  1. Wählen Sie die Zelle aus, für die Sie die abhängigen Zellen identifizieren möchten.
-1. Um einen Verfolgungspfeil zu jeder Zelle anzuzeigen, die von der aktiven Zelle abhängig ist, klicken Sie in der Symbolleiste „Formelprüfung“ auf Abhängigkeiten verfolgen.
+ 1. Um einen Verfolgungspfeil zu jeder Zelle anzuzeigen, die von der aktiven Zelle abhängig ist, klicken Sie in der Symbolleiste „Formelprüfung“ auf Abhängigkeiten verfolgen.
 ## **Verfolgung von Präzedenzfällen und abhängigen Cells: Aspose.Cells**
 ### **Präzedenzfälle verfolgen**
 Aspose.Cells macht es einfach, Präzedenzzellen zu erhalten. Es kann nicht nur Zellen abrufen, die Daten für einfache Formelpräzedenzfälle bereitstellen, sondern auch Zellen finden, die Daten für komplexe Formelpräzedenzfälle mit benannten Bereichen bereitstellen.

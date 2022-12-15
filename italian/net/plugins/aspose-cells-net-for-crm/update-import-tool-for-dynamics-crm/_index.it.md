@@ -17,7 +17,7 @@ url: /it/net/update-import-tool-for-dynamics-crm/
 - [Supporto](#UpdateImportToolforDynamicsCRM-Support)
 - [Estendi e contribuisci](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
 ## **introduzione**
-Lo strumento di importazione dell'aggiornamento Aspose è un componente aggiuntivo open source da utilizzare in Microsoft Dynamic CRM. Questo componente aggiuntivo è in grado di aggiornare e/o esportare automaticamente i dati dal CRM ai fogli di calcolo Aspose.Cells. Non è necessario fare nulla manualmente e installare questo componente aggiuntivo e rendere il nostro lavoro più semplice e veloce.
+Lo strumento di importazione degli aggiornamenti Aspose è un componente aggiuntivo open source da utilizzare in Microsoft Dynamic CRM. Questo componente aggiuntivo è in grado di aggiornare e/o esportare automaticamente i dati dal CRM ai fogli di calcolo Aspose.Cells. Non è necessario fare nulla manualmente e installare questo componente aggiuntivo e rendere il nostro lavoro più semplice e veloce.
 
 Questo componente aggiuntivo fornisce funzionalità per aggiornare e/o esportare automaticamente da CRM. Un clic importerà/esporterà il record in/da CRM.
 
@@ -33,19 +33,19 @@ Le caratteristiche principali di questo componente aggiuntivo sono:
 ### **Requisiti di sistema**
 Per installare e utilizzare Aspose .Net Update Import Tool per Microsoft Dynamics CRM è necessario che sia installata una delle seguenti versioni di CRM
 
-- Microsoft Dinamica CRM 2013.
-- Microsoft Dinamica CRM 2015.
-- Microsoft Dinamica CRM Online.
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
 
 Non esitate a contattarci se riscontrate problemi nell'installazione o nell'utilizzo di questo componente aggiuntivo.
 ### **Piattaforme supportate**
 Questo componente aggiuntivo funzionerà con tutte le versioni di Microsoft Dynamics CRM:
 
-- Microsoft Dinamica CRM 2013.
-- Microsoft Dinamica CRM 2015.
-- Microsoft Dinamica CRM Online.
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
 ## **Download**
-Puoi scaricare Aspose .NET Document Generator for CRM da una delle seguenti posizioni:
+È possibile scaricare Aspose .NET Document Generator per CRM da una delle seguenti posizioni:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
 ## **Installazione o disinstallazione**
@@ -70,7 +70,7 @@ Aggiungi il seguente codice nel modulo fornendo il percorso del file di licenza:
 ## **Usando**
  Configura e utilizza facilmente Aspose .NET Update Import Tool per Dynamics CRM seguendo le istruzioni[qui](/cells/it/net/using-and-configuring-crm-update-import-tool/).
 ## **Supporto**
-Offriamo supporto gratuito. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
+Offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
 
 È possibile registrare eventuali problemi o suggerimenti relativi a Aspose .Net Update Import Tool utilizzando una delle seguenti piattaforme:
 

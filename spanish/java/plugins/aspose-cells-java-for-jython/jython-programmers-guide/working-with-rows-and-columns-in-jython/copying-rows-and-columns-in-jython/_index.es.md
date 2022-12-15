@@ -43,7 +43,7 @@ clase filas y columnas:
 
  libro = Workbook(dataDir + 'Book1.xls')
 
- # Accediendo a la primera hoja de trabajo en el archivo de Excel
+ Accediendo a la primera hoja de trabajo en el archivo de Excel
 
  hoja de trabajo = libro de trabajo.getWorksheets().get(0)
 
@@ -55,7 +55,7 @@ clase filas y columnas:
 
  # Guardar el archivo de Excel modificado en formato predeterminado (es decir, Excel 2003)
 
-libro de trabajo. guardar (dataDir + "Copiar filas.xls")
+ libro de trabajo. guardar (dataDir + "Copiar filas.xls")
 
  imprimir "Copiar filas con éxito".
 
@@ -69,7 +69,7 @@ libro de trabajo. guardar (dataDir + "Copiar filas.xls")
 
  libro de trabajo = libro de trabajo()
 
- # Accediendo a la primera hoja de trabajo en el archivo de Excel
+ Accediendo a la primera hoja de trabajo en el archivo de Excel
 
  hoja de trabajo = libro de trabajo.getWorksheets().get(0)
 

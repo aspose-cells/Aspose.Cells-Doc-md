@@ -13,5 +13,5 @@ Questa pagina contiene le note sulla versione per Aspose.Cells Reporting Service
 |**ID**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |35094 | Esporta in CSV (ACCSV): problemi di codifica|
-|35344 |Correggi il formato personalizzato per l'elemento del report della casella di testo.|
+|35344 | Correggi il formato personalizzato per l'elemento del report della casella di testo.|
 |35345 | Supporto per il rendering del formato dei numeri.|

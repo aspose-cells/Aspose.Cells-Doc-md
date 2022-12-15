@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.8.1
+title: Offentlig API Ändringar i Aspose.Cells 8.8.1
 type: docs
 weight: 270
 url: /sv/net/public-api-changes-in-aspose-cells-8-8-1/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Filtrera data för laddning**
-Aspose.Cells för .NET 8.8.1 har exponerat LoadDataFilterOptions-uppräkningen tillsammans med LoadOptions.LoadDataFilterOptions-egenskapen som kan användas för att ange vilken datatyp som ska laddas när arbetsboken byggs från en mallfil. Filtrering av laddade data kan förbättra prestandan för speciella ändamål, särskilt när du använder LightCells API:er.
+Aspose.Cells for .NET 8.8.1 har exponerat LoadDataFilterOptions-uppräkningen tillsammans med LoadOptions.LoadDataFilterOptions-egenskapen som kan användas för att specificera datatypen som ska laddas när arbetsboken byggs från en mallfil. Filtrering av laddade data kan förbättra prestandan för speciella ändamål, särskilt när du använder LightCells API:er.
 
 Uppräkningen LoadDataFilterOptions ger följande val.
 
@@ -64,7 +64,7 @@ var book = new Workbook(filePath, options);
 
 
 ### **Konvertera diagram direkt till PDF**
-Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.ToPdf. Med den här utgåvan har API:et avslöjat en annan överbelastad version av nämnda metod som kan acceptera en instans av Stream, vilket gör att användarna kan spara diagrammets PDF i en instans av MemoryStream.
+Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.ToPdf. Med den här utgåvan har API avslöjat en annan överbelastad version av nämnda metod som kan acceptera en instans av Stream, vilket gör att användarna kan spara diagrammets PDF i en instans av MemoryStream.
 
 Följande är det enkla användningsscenariot.
 
@@ -98,7 +98,7 @@ using (MemoryStream stream = new MemoryStream())
 
 
 ### **Lade till WorkbookSettings.PaperSize-egenskap**
-Aspose.Cells för .NET 8.8.1 har exponerat egenskapen WorkbookSettings.PaperSize för att ställa in standardstorleken för utskriftspapper för hela kalkylarket. Egenskapen WorkbookSettings.PaperSize accepterar ett värde från PaperSizeType-uppräkningen som innehåller de fördefinierade storlekarna för de mest använda utskriftspapperstyperna.
+Aspose.Cells for .NET 8.8.1 har exponerat egenskapen WorkbookSettings.PaperSize för att ställa in standardstorleken för utskriftspapper för hela kalkylarket. Egenskapen WorkbookSettings.PaperSize accepterar ett värde från PaperSizeType-uppräkningen som innehåller de fördefinierade storlekarna för de mest använda utskriftspapperstyperna.
 
 **C#**
 
@@ -122,7 +122,7 @@ settings.PaperSize = PaperSizeType.PaperA4;
 
 
 ### **Lade till Shape.TextBody-egenskap**
-Denna version av Aspose.Cells för .NET API har exponerat Shape.TextBody för att manipulera textens aspekter i en former. Följande utdrag använder nämnda egenskap för att ställa in skuggeffekten för texten i en textruta.
+Den här versionen av Aspose.Cells for .NET API har exponerat Shape.TextBody för att manipulera textens aspekter i en former. Följande utdrag använder nämnda egenskap för att ställa in skuggeffekten för texten i en textruta.
 
 {{% alert color="primary" %}} 
 
@@ -134,7 +134,7 @@ Denna version av Aspose.Cells för .NET API har exponerat Shape.TextBody för at
 
 {{< highlight "csharp" >}}
 
-//Skapa en instans av Workbook
+ //Skapa en instans av Workbook
 
 var book = new Workbook();
 
@@ -164,7 +164,7 @@ textBox.Text = "Denna text har följande inställningar.\n\nTexteffekter > Skugg
 
 
 ### **Lade till Worksheet.CalculateFormula(strängformel, CalculationOptions opts) Metod**
-Aspose.Cells för .NET 8.8.1 har avslöjat ytterligare en överbelastning för metoden CalculateFormula som ger möjlighet att beräkna en given formel direkt med anpassade alternativ.
+Aspose.Cells for .NET 8.8.1 har avslöjat ytterligare en överbelastning för metoden CalculateFormula som ger möjlighet att beräkna en given formel direkt med anpassade alternativ.
 
 {{% alert color="primary" %}} 
 

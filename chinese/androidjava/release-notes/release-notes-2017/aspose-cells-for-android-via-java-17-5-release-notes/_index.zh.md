@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 17.5 发行说明
+title: Aspose.Cells for Android via Java 17.5 发行说明
 type: docs
 weight: 30
 url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含发行说明[Aspose.Cells Android 通过 Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
+此页面包含发行说明[Aspose.Cells for Android via Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
 
 {{% /alert %}} 
 
@@ -168,7 +168,7 @@ url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42278|异常：保存为 HTML 文件格式时出现“java.lang.IndexOutOfBoundsException：索引：12，大小：12”|例外|
 |CELLSJAVA-42274|异常：加载 XLSX 文件时出现“java.lang.StringIndexOutOfBoundsException：字符串索引超出范围：0”|例外|
 ## **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及通过 Java 对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 ### **为 LoadFilter.LoadDataFilterOptions 属性添加设置器以替换 m_LoadDataFilterOptions 变量**
 用户可以在 LoadFilter 的实现中更改 LoadDataFilterOptions 属性以更改加载工作簿的行为。
 ### **添加 CellsHelper.SignificantDigits 属性。**
@@ -245,6 +245,6 @@ url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 
 {{% alert color="primary" %}} 
 
-由于使用Java的Aspose.Cells代码库与相关代码匹配.NET和Java版本（s），因此大多数更改，增强和修复程序包括Aspose.Cells Aspose.Cells for .NET V17.17.176161616161616161616161616161616107.07.07.07.07.07.07.07.07.07.16，07.07.07.07.16，07.07.07.07.16，07.07.07.07.16，07.07.07.07.07.16，07.07.07.07.16，07.07.16.10.10.1n.bist in 3.0, Aspose.Cells for .NET v17.4.0, Aspose.Cells for .NET v17.5, Aspose.Cells for Java v17.1.0, Aspose.Cells for Java v17.2.0, Aspose.Cells for Java v17.3.0, Aspose.Cells for Java v17.4.0 and Aspose.Cells for Java v17.5 are also included in this Aspose.Cells for安卓通过 Java v17.5。
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.1.0, Aspose.Cells for .NET v17.2.0, Aspose.Cells for .NET v17.3.0, Aspose.Cells for .NET v17.4.0, Aspose.Cells for .NET v17.5, Aspose.Cells for Java v17.1.0, Aspose.Cells for Java v17.2.0, Aspose.Cells for Java v17.3.0, Aspose.Cells for Java v17.4.0 and Aspose.Cells for Java v17.5 are also included in this Aspose.Cells for Android via Java v17 .5.
 
 {{% /alert %}}

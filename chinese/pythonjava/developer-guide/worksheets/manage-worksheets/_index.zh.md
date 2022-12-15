@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /zh/python-java/manage-worksheets/
 ---
-通过 Java 为 Python 使用 Aspose.Cells 管理工作表非常容易。在本文中，我们将演示使用 Aspose.Cells API 添加、访问和删除工作表。
+使用 Aspose.Cells for Python via Java 管理工作表非常容易。在本文中，我们将演示使用 Aspose.Cells API 添加、访问和删除工作表。
 ## **将工作表添加到新的 Excel 文件**
 要创建一个新的工作簿，请创建一个对象[工作簿](https://reference.aspose.com/cells/python/asposecells.api/Workbook)班级。这[工作簿](https://reference.aspose.com/cells/python/asposecells.api/Workbook)类代表一个 Excel 文件。然后通过使用[添加](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) 的方法[工作表集合](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) 新工作表被添加到 Excel 文件中。最后，要保存新创建的 Excel 文件，请调用[节省](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) 的方法[工作簿](https://reference.aspose.com/cells/python/asposecells.api/Workbook)班级。
 

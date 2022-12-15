@@ -7,11 +7,11 @@ url: /it/java/zoom-factor-using-apache-poi-and-aspose-cells/
 ## **Aspose.Cells - Fattore di ingrandimento**
 Microsoft Excel fornisce una funzionalità che consente agli utenti di impostare lo zoom o il fattore di ridimensionamento di un foglio di lavoro. Questa funzione aiuta gli utenti a vedere i contenuti del foglio di lavoro in viste più piccole o più grandi.
 
-Aspose.Cells fornisce una classe, Workbook, che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
+Aspose.Cells fornisce una classe, Workbook, che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
 
 Un foglio di lavoro è rappresentato dalla classe Worksheet. La classe Worksheet fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per impostare il fattore di zoom di un foglio di lavoro, utilizzare il metodo setZoom della classe Worksheet.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ worksheet.setZoom(75);
 ## **Apache POI SS - HSSF XSSF - Fattore di zoom**
 Apache POI fornisce la funzione di zoom dell'avail del metodo Sheet.setZoom().
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

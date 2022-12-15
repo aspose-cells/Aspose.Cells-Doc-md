@@ -6,15 +6,15 @@ url: /sv/reportingservices/edition-types/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells för Reporting Services erbjuder endast en typ av utgåva. Funktionerna sammanfattas nedan.
+Aspose.Cells for Reporting Services erbjuder endast en upplaga. Funktionerna sammanfattas nedan.
 
-|**Funktioner** |**Aspose.Cells för Rapporteringstjänster** |
+|**Funktioner** |**Aspose.Cells for Reporting Services** |
 |:- |:- |
 | Aspose.Cells.Report.Designer| Ja|
-| Aspose.Cells.Utförare för rapporteringstjänster.| Ja|
+| Aspose.Cells.Renderare for Reporting Services.| Ja|
 | Skapande av datakällor och frågor.| Ja|
 | Reporting Services-parametrar som rapportdatakälla.| Ja|
-|Reporting Services globala variabler som rapportdatakälla.| Ja|
+| Reporting Services globala variabler som rapportdatakälla.| Ja|
 | Reporting Services-formler som rapportdatakälla.| Ja|
 | Microsoft Excel dynamisk formel.| Ja|
 | Anger delad datakälla som rapportdatakälla vid publiceringstidpunkten.| Ja|

@@ -17,7 +17,7 @@ Det här exemplet visar hur man:
 1. Skapa en arbetsbok.
 1. Lägg till data i celler i det första kalkylbladet.
 1.  Skapa en[**Räckvidd**](https://reference.aspose.com/cells/net/aspose.cells/range).
-1.  Skapa en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)objekt med specificerade formateringsattribut.
+1.  Skapa en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt med specificerade formateringsattribut.
 1. Använd stilformateringen på intervallet.
 1. Skapa ytterligare ett cellområde.
 1. Kopiera data från det första intervallet till detta andra intervall.

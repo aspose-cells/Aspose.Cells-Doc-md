@@ -12,13 +12,13 @@ Med Aspose.Cells är det enkelt att öppna filer, till exempel för att hämta d
 
 ## **Öppna en fil via en sökväg**
 
- Utvecklare kan öppna en Microsoft Excel-fil med hjälp av dess sökväg på den lokala datorn genom att ange den i**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**klass konstruktör. Passera helt enkelt vägen i konstruktorn som en*sträng*. Aspose.Cells kommer automatiskt att upptäcka filformatstypen.
+ Utvecklare kan öppna en Microsoft Excel-fil med dess sökväg på den lokala datorn genom att ange den i**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**klass konstruktör. Passera helt enkelt vägen i konstruktorn som en*sträng*. Aspose.Cells kommer automatiskt att upptäcka filformatstypen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
 ## **Öppna en fil via en ström**
 
- Det är också enkelt att öppna en Excel-fil som en stream. För att göra det, använd en överbelastad version av konstruktorn som tar*Ström*objekt som innehåller filen.
+Det är också enkelt att öppna en Excel-fil som en stream. För att göra det, använd en överbelastad version av konstruktorn som tar*Ström*objekt som innehåller filen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 

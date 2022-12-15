@@ -5,7 +5,7 @@ weight: 20
 url: /ar/net/saving-files-in-php/
 ---
 ## **Aspose.Cells - حفظ ملفات Excel**
-### **فتح طريق**
+### **فتح من خلال المسار**
 حفظ ملف إكسل Microsoft بالرجوع إلى مسار الملف
 
 **كود PHP**
@@ -31,7 +31,7 @@ url: /ar/net/saving-files-in-php/
         print "File saved successfully!" . PHP_EOL;
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**حفظ الملفات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

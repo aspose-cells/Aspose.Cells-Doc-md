@@ -19,11 +19,11 @@ url: /zh/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 
 ## **使用 VSTO Excel 输出**
 
-![待办事项：图片_替代_文本](picture1.png)
+![待办事项：图像_替代_文本](picture1.png)
 
 ## **输出使用 Aspose.Cells for .NET**
 
-![待办事项：图片_替代_文本](picture2.png)
+![待办事项：图像_替代_文本](picture2.png)
 
 ## **VSTO**
 
@@ -118,5 +118,5 @@ app.Quit();
 ## **下载示例代码**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/下载)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/下载）
 - [比特桶](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\)。压缩）

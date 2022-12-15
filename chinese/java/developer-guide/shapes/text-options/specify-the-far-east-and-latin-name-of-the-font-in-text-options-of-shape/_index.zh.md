@@ -12,7 +12,7 @@ url: /zh/java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of
 
 以下示例代码创建一个文本框并在其中添加一些日语文本。然后指定文本的拉丁字体和远东字体名称并将工作簿另存为[输出Excel文件](67338341.xlsx).以下屏幕截图显示了 Microsoft Excel 中输出文本框的拉丁字体和远东字体名称。
 
-![待办事项：图片_替代_文本](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+![待办事项：图像_替代_文本](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
 ## **示例代码**
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.2.1
+title: Offentlig API Ändringar i Aspose.Cells 8.2.1
 type: docs
 weight: 90
 url: /sv/java/public-api-changes-in-aspose-cells-8-2-1/
@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.2.0
 
 {{% /alert %}} 
 ## **Lade till metoden getValidation() för klassen Cell**
-Datavalidering är en av funktionerna som kalkylbladsdesigners använder för att hindra användare från att infoga ogiltiga värden i en viss cell. Med Aspose.Cells för Java 8.2.1 har API:et avslöjat en enkel mekanism som identifierar om datavalidering har tillämpats på en cell. Använd getValidation-metoden för klassen Cell för att skaffa eventuell tillämpad validering. Om det inte finns någon validering returnerar metoden null. På samma sätt kan du använda metoden getValidationInCell i klassen ValidationCollection för att få valideringen som tillämpas på valfri cell genom att tillhandahålla dess rad- och kolumnindex.
+Datavalidering är en av funktionerna som kalkylbladsdesigners använder för att hindra användare från att infoga ogiltiga värden i en viss cell. Med Aspose.Cells for Java 8.2.1 har API avslöjat en enkel mekanism som identifierar om datavalidering har tillämpats på en cell. Använd getValidation-metoden för klassen Cell för att skaffa eventuell tillämpad validering. Om det inte finns någon validering returnerar metoden null. På samma sätt kan du använda metoden getValidationInCell i klassen ValidationCollection för att få valideringen som tillämpas på valfri cell genom att tillhandahålla dess rad- och kolumnindex.
 
 {{% alert color="primary" %}} 
 
@@ -18,7 +18,7 @@ Datavalidering är en av funktionerna som kalkylbladsdesigners använder för at
 
 {{% /alert %}}
 ## **Lade till metoden getValidationValue() för klassen Cell**
-Förutom att avgöra om validering har tillämpats kan du också verifiera om ett givet värde uppfyller datavalideringsreglerna för en viss cell. Den här funktionen är användbar i scenarier när du vill verifiera om värdet som anges i cellen uppfyller reglerna för datavalidering direkt. Aspose.Cells API har exponerat getValidationValue-metoden för klassen Cell. Om värdet som angetts i en cell inte uppfyller datavalideringsreglerna, returnerar getValidationValue-metoden för klassen Cell false.
+Förutom att avgöra om validering har tillämpats kan du också verifiera om ett givet värde uppfyller datavalideringsreglerna för en viss cell. Den här funktionen är användbar i scenarier när du vill verifiera om värdet som anges i cellen uppfyller reglerna för datavalidering direkt. Aspose.Cells API har exponerat getValidationValue-metoden för klassen Cell. Om värdet som anges i en cell inte uppfyller datavalideringsreglerna, returnerar getValidationValue-metoden för klassen Cell false.
 
 {{% alert color="primary" %}} 
 

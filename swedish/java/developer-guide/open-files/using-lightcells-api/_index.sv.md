@@ -6,13 +6,13 @@ url: /sv/java/using-lightcells-api/
 ---
 {{% alert color="primary" %}}
 
-Ibland behöver du läsa och skriva stora Microsoft Excel-filer med en enorm lista över data eller innehåll i kalkylbladet. LightCells API är användbart för att skapa enorma Excel-kalkylblad: med det behöver du minne och få bättre prestanda och effektivitet.
+Ibland behöver du läsa och skriva stora Microsoft Excel-filer med en enorm lista med data eller innehåll i kalkylbladet. LightCells API är användbar för att skapa enorma Excel-kalkylblad: med den behöver du minne och få bättre prestanda och effektivitet.
 
 {{% /alert %}}
 
 ## **Händelsedriven arkitektur**
 
-Aspose.Cells tillhandahåller LightCells API, huvudsakligen utformat för att manipulera celldata en efter en utan att bygga ett komplett datamodellblock (med Cell-samlingen etc.) i minnet. Det fungerar i ett händelsestyrt läge.
+Aspose.Cells tillhandahåller LightCells API, huvudsakligen utformade för att manipulera celldata en efter en utan att bygga ett komplett datamodellblock (med Cell-samlingen etc.) i minnet. Det fungerar i ett händelsestyrt läge.
 
 För att spara arbetsböcker, ange cellinnehållet cell för cell när du sparar, och komponenten sparar det direkt i utdatafilen.
 
@@ -20,9 +20,9 @@ När du läser mallfiler analyserar komponenten varje cell och ger deras värde 
 
 I båda procedurerna bearbetas ett Cell-objekt och kasseras sedan, Workbook-objektet innehåller inte samlingen. I detta läge sparas därför minne vid import och export av Microsoft Excel-fil som har en stor datamängd som annars skulle använda mycket minne.
 
-Även om LightCells API bearbetar cellerna på samma sätt för XLSX- och XLS-filer (det laddar faktiskt inte alla celler i minnet utan bearbetar en cell och kasserar den), sparar det minne mer effektivt för XLSX-filer än XLS-filer på grund av de olika datamodellerna och strukturerna för de två formaten.
+Även om LightCells API bearbetar cellerna på samma sätt för XLSX- och XLS-filer (den laddar faktiskt inte alla celler i minnet utan bearbetar en cell och kasserar den), sparar den minne mer effektivt för XLSX-filer än XLS-filer på grund av de olika datamodellerna och strukturerna för de två formaten.
 
- I alla fall,**för XLS-filer** för att spara mer minne kan utvecklare ange en tillfällig plats för att spara temporär data som genereras under Spara-processen. Vanligen,**att använda LightCells API för att spara XLSX-fil kan spara 50 % eller mer minne** än att använda det vanliga sättet,**Att spara XLS kan spara cirka 20-40 % minne**.
+ I alla fall,**för XLS-filer** , för att spara mer minne kan utvecklare ange en tillfällig plats för att spara temporär data som genereras under Spara-processen. Vanligen,**att använda LightCells API för att spara XLSX-fil kan spara 50 % eller mer minne** än att använda det vanliga sättet,**Att spara XLS kan spara cirka 20-40 % minne**.
 
 ### **Skriva stora Excel-filer**
 

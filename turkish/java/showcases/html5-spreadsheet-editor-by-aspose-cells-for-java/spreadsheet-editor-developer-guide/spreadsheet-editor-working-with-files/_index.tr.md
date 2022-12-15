@@ -86,7 +86,7 @@ Dosya düzenleyicide açılacaktır.
 
 **Yükleme ve boşaltma**
 
- yöntem***LoaderService.fromInputStream*** okur***Giriş Akışı*** fileUpload tarafından sağlanan***bileşen*** örneğini oluştur***com.aspose.cells.Workbook***sınıf. Bu örnek, kullanıcı e-tabloyu web tarayıcısında görüntülemeye veya düzenlemeye devam ettiği sürece bellekte tutulur. Kullanıcı editörden ayrıldığında veya tarayıcıyı kapattığında, sunucuyu temiz tutmak için kullanılmayan örnekler otomatik olarak bellekten kaldırılır.
+ yöntem***LoaderService.fromInputStream*** okur***Giriş Akışı*** fileUpload tarafından sağlanan***bileşen*** örneğini oluştur***com.aspose.cells.Workbook*** sınıf. Bu örnek, kullanıcı e-tabloyu web tarayıcısında görüntülemeye veya düzenlemeye devam ettiği sürece bellekte tutulur. Kullanıcı editörden ayrıldığında veya tarayıcıyı kapattığında, sunucuyu temiz tutmak için kullanılmayan örnekler otomatik olarak bellekten kaldırılır.
 
 
 
@@ -278,7 +278,7 @@ Seçtiğiniz dosya Dropbox'tan açılacaktır.
 
 **Nasıl çalışır?**
 
- bu**Dropbox'tan aç** düğme kullanır**Dropbox JavaScript Seçici API** Dropbox Seçici iletişim kutusunu açmak için. Seçici, geri arama işlevi tarafından yakalanan ve sunucuya geri gönderilen seçili dosyanın URL'sini sağlar. Sunucu, URL'den bir elektronik tablo örneği oluşturur, bazı temizlik işlerini başlatır ve DOM güncellemelerini tarayıcıya geri gönderir. Tarayıcı HTML'yi işler ve yeniler ve kullanıcı yüklenen belgeyi düzenlemeye hazırdır.
+ bu**Dropbox'tan aç** düğme kullanır**Dropbox JavaScript Seçici API**Dropbox Seçici iletişim kutusunu açmak için. Seçici, geri arama işlevi tarafından yakalanan ve sunucuya geri gönderilen seçili dosyanın URL'sini sağlar. Sunucu, URL'den bir elektronik tablo örneği oluşturur, bazı temizlik işlerini başlatır ve DOM güncellemelerini tarayıcıya geri gönderir. Tarayıcı HTML'yi işler ve yeniler ve kullanıcı yüklenen belgeyi düzenlemeye hazırdır.
 ### **URL'den aç**
  Dosyalar doğrudan URL'lerden açılabilir. Bu, kullanıcının İnternet üzerindeki herkese açık herhangi bir dosyayı düzenlemesine izin verir. Dosya ekini açmak için**?url=konum** İstediğiniz değere sahip parametre**yer** editör yüklenirken. Örneğin:
 
@@ -298,7 +298,7 @@ Seçtiğiniz dosya Dropbox'tan açılacaktır.
 
 **Önbelleğe almak**
 
- Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache** elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
+ Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache**elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
 
 **DOM güncellemeleri**
 
@@ -517,7 +517,7 @@ Düzenleyici, varsa açılan elektronik tabloyu kapatır ve yeni bir hesap tablo
 
 **Önbelleğe almak**
 
- Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache** elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
+ Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache**elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
 
 **DOM güncellemeleri**
 

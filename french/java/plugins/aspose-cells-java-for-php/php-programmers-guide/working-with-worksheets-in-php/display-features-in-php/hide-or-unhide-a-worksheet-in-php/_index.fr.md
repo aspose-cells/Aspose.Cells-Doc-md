@@ -6,7 +6,7 @@ url: /fr/java/hide-or-unhide-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Masquer ou afficher une feuille de calcul**
 ### **Masquer une feuille de calcul**
- Pour masquer la feuille de calcul à l'aide de Aspose.Cells Java pour PHP, appelez**masquerafficher la feuille de travail** module.
+ Pour masquer la feuille de calcul en utilisant Aspose.Cells Java for PHP, appelez**masquerafficher la feuille de travail** module.
 
 **Code PHP**
 

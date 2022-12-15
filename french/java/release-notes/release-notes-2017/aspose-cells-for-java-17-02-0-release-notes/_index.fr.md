@@ -168,7 +168,7 @@ L'extrait de code suivant illustre l'utilisation de la méthode Workbook.getFont
 
 {{< highlight "java" >}}
 
- // Crée une instance de Workbook et charge un exemple
+ // Crée une instance de Workbook et charge un échantillon
 
 Workbook book = new Workbook(dir + "sample.xlsx");
 

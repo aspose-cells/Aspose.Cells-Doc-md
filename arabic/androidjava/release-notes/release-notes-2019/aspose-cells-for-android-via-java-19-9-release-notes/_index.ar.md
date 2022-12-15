@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 19.9 Release Notes
+title: Aspose.Cells for Android via Java 19.9 ملاحظات الإصدار
 type: docs
 weight: 20
 url: /ar/java/aspose-cells-for-android-via-java-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 19.9.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 19.9.
 
 {{% /alert %}} 
 
@@ -55,7 +55,7 @@ url: /ar/java/aspose-cells-for-android-via-java-19-9-release-notes/
 |CELLSJAVA-43004|استثناء java.lang.NumberFormatException: لسلسلة الإدخال: "0.0" أثناء تحويل Excel إلى HTML|استثناء|
 |CELLSJAVA-43010|IllegalArgumentException أثناء تنفيذ deleteBlankColumns ()|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 ### **Ugrades مكتبة BouncyCastle المشار إليها إلى 1.60**
 تمت ترقية مكتبة BouncyCastle المستخدمة في أرشيف الإصدارات إلى الإصدار 1.60.
 ### **يتخلى عن فئة HTMLLoadOptions ويضيف فئة HtmlLoadOptions**

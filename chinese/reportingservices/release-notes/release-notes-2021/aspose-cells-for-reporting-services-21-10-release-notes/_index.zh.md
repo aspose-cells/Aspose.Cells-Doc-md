@@ -1,5 +1,5 @@
 ﻿---
-title: Reporting Services 21.10 发行说明 Aspose.Cells
+title: Aspose.Cells for Reporting Services 21.10 发行说明
 second_title: Aspose.Cells Reporting Services Documen
 type: docs
 url: /zh/reportingservices/aspose-cells-for-reporting-services-21-10-release-notes/

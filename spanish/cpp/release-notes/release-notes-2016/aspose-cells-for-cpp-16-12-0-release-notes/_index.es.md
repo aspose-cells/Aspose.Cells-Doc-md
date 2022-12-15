@@ -14,10 +14,10 @@ url: /es/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-437|Agregar y manipular tablas dinámicas en la hoja de cálculo|Nueva caracteristica|
 |CELLSPORTINGC-438|Agrupar filas y columnas en la hoja de trabajo|Nueva caracteristica|
 |CELLSPORTINGC-439|Agregar objeto de tabla/lista a la hoja de trabajo|Nueva caracteristica|
-|CELLSPORTINGC-426|Problema de licencia con Aspose.Cells para las API C++|Insecto|
+|CELLSPORTINGC-426|Problema de licencia con las API Aspose.Cells for C++|Insecto|
 |CELLSPORTINGC-425|Optimice el rendimiento de guardar archivos XLS|Mejora|
 ### **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Cambia el nombre del método ICell::SetStyle a ICell::SetIStyle**
 #### **Cambia el nombre del método ICell::SetCharacters a ICell::SetIFontSettings**
 #### **Cambia el nombre del método ICellsColor::SetThemeColor a ICellsColor::SetIThemeColor**

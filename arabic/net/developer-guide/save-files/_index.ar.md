@@ -13,7 +13,7 @@ Aspose.Cells يجعل من الممكن تكوين وحفظ الملفات. تش
 
 ## **طرق مختلفة لحفظ الملفات**
 
- يوفر Aspose.Cells ملف**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** والذي يمثل ملف Excel Microsoft ويوفر الخصائص والأساليب اللازمة للعمل مع ملفات Excel. ال**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)**فئة توفر**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** الطريقة المستخدمة لحفظ ملفات Excel. ال**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**الأسلوب يحتوي على العديد من التحميلات الزائدة التي تُستخدم لحفظ الملفات بطرق مختلفة.
+ يوفر Aspose.Cells ملف**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** والذي يمثل ملف Excel Microsoft ويوفر الخصائص والأساليب اللازمة للعمل مع ملفات Excel. ال**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** فئة توفر**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** الطريقة المستخدمة لحفظ ملفات Excel. ال**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**الأسلوب يحتوي على العديد من التحميلات الزائدة التي تُستخدم لحفظ الملفات بطرق مختلفة.
 
  يتم تحديد تنسيق الملف الذي تم حفظ الملف به بواسطة ملف**[SaveFormat] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**تعداد
 
@@ -38,7 +38,7 @@ Aspose.Cells يجعل من الممكن تكوين وحفظ الملفات. تش
 
 ## **حفظ الملف كتنسيقات مختلفة**
 
- لحفظ الملفات في موقع تخزين ، حدد اسم الملف (مكتمل بمسار التخزين) وتنسيق الملف المطلوب (من ملف**[SaveFormat] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** تعداد) عند استدعاء**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** أشياء**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**طريقة.
+ لحفظ الملفات في موقع تخزين ، حدد اسم الملف (مكتمل بمسار التخزين) وتنسيق الملف المطلوب (من ملف**[SaveFormat] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**تعداد) عند استدعاء**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** أشياء**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**طريقة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 

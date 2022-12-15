@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 为 Python 通过 Java 20.2 发行说明
+title: Aspose.Cells for Python via Java 20.2 发行说明
 type: docs
 weight: 10
 url: /zh/python-java/aspose-cells-for-python-via-java-20-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Aspose.Cells 的发行说明，适用于 Python via Java 20.2。
+此页面包含 Aspose.Cells for Python via Java 20.2 的发行说明。
 
 {{% /alert %}} 
 
@@ -40,7 +40,7 @@ url: /zh/python-java/aspose-cells-for-python-via-java-20-2-release-notes/
 |CELLSJAVA-43116|转换为 PDF - java.lang.IllegalStateException：结构化存储似乎已损坏。|例外|
 |CELLSJAVA-43120|将工作簿转换为 PDF 时出现 java.lang.NumberFormatException|例外|
 ### **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及通过 Java 对 Aspose.Cells 为 Python 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Python via Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
 #### **添加 FormulaParseOptions.Parse 属性。**
 指示是否在为单元格设置公式表达式时解析公式。默认是**真的**.如果**错误的**，则输入的公式表达式将保持原样，直到用户调用其他方法解析它们或其他操作（例如计算公式）需要解析的公式数据。
 #### **添加 Workbook.ParseFormulas(bool ignoreError) 方法。**

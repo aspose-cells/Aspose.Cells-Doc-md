@@ -10,7 +10,7 @@ url: /ar/java/accessing-cells-of-a-worksheet/
 
 {{% /alert %}} 
 ## **الوصول إلى Cells**
- Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) الذي يمثل ملف إكسل Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)مجموعة تمثل جميع الخلايا في ورقة العمل.
+ Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)مجموعة تمثل جميع الخلايا في ورقة العمل.
 
  يمكننا استخدام[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)جمع للوصول إلى الخلايا في ورقة عمل. يوفر Aspose.Cells طرقًا أساسية مختلفة للوصول إلى الخلايا:
 
@@ -19,7 +19,7 @@ url: /ar/java/accessing-cells-of-a-worksheet/
 ### **باستخدام Cell الاسم**
  يمكن للمطورين الوصول إلى أي خلية محددة عن طريق تمرير اسم الخلية الخاص بها إلى[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) جمع[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)صف دراسي.
 
- إذا قمت بإنشاء ورقة عمل فارغة في البداية ، فسيتم حساب عدد[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المجموعة صفر. عند استخدام هذا الأسلوب للوصول إلى خلية ، فإنه سيتحقق مما إذا كانت هذه الخلية موجودة في المجموعة أم لا. إذا كانت الإجابة بنعم ، فإنه يعيد كائن الخلية في المجموعة وإلا فإنه ينشئ كائنًا جديدًا[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) كائن ، يضيف الكائن إلى[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)جمع ثم إرجاع الكائن. هذا الأسلوب هو أسهل طريقة للوصول إلى الخلية إذا كنت معتادًا على Microsoft Excel ولكنه أبطأ من الطرق الأخرى.
+ إذا قمت بإنشاء ورقة عمل فارغة في البداية ، فسيتم حساب عدد[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)المجموعة صفر. عند استخدام هذا الأسلوب للوصول إلى خلية ، فإنه سيتحقق مما إذا كانت هذه الخلية موجودة في المجموعة أم لا. إذا كانت الإجابة بنعم ، فإنه يعيد كائن الخلية في المجموعة وإلا فإنه ينشئ كائنًا جديدًا[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) كائن ، يضيف الكائن إلى[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)جمع ثم إرجاع الكائن. هذا الأسلوب هو أسهل طريقة للوصول إلى الخلية إذا كنت معتادًا على Microsoft Excel ولكنه أبطأ من الطرق الأخرى.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
 

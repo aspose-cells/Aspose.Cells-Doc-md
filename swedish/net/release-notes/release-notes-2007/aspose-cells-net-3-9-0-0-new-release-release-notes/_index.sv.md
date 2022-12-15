@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-3-9-0-0-new-release-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v3.9!
+ Vi har släppt Aspose.Cells for .NET v3.9!
 
 - Av några externa skäl byts nu klass Excel om till Workbook och klass ExcelDesigner byts om till WorkbookDesigner. Alla egenskaper och metoder för dessa två klasser ändras inte.
 - Stöder för att lägga till EMF-bilder i deras råformat

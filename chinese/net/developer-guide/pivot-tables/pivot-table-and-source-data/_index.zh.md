@@ -16,7 +16,7 @@ url: /zh/net/pivot-table-and-source-data/
 
       **创建设计器模板并定义命名范围、DataSource** 
 
-![待办事项：图片_替代_文本](pivot-table-and-source-data_1.png)
+![待办事项：图像_替代_文本](pivot-table-and-source-data_1.png)
    
 1. 基于这个命名范围创建数据透视表。
  1. 在 Microsoft Excel 中，选择**数据**， 然后**数据透视表**和**数据透视图报表**.
@@ -24,14 +24,14 @@ url: /zh/net/pivot-table-and-source-data/
 
       **基于命名范围 DataSource 创建数据透视表** 
 
-![待办事项：图片_替代_文本](pivot-table-and-source-data_2.png)
+![待办事项：图像_替代_文本](pivot-table-and-source-data_2.png)
 
    
  1. 将相应的字段拖到数据透视表的行和列中，然后创建结果数据透视表，如下图所示。
 
    **根据相应字段创建数据透视表** 
 
-![待办事项：图片_替代_文本](pivot-table-and-source-data_3.png)
+![待办事项：图像_替代_文本](pivot-table-and-source-data_3.png)
 
    
 1. 右键单击数据透视表并选择**表格选项**.
@@ -39,7 +39,7 @@ url: /zh/net/pivot-table-and-source-data/
 
       **设置数据透视表选项** 
 
-![待办事项：图片_替代_文本](pivot-table-and-source-data_4.png)
+![待办事项：图像_替代_文本](pivot-table-and-source-data_4.png)
 
 
 现在，您可以将此文件保存为设计器模板文件。

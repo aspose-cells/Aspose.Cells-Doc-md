@@ -6,7 +6,7 @@ url: /sv/net/create-transparent-image-of-excel-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Ibland måste du skapa bilden av ditt kalkylblad som en transparent bild. Du vill tillämpa genomskinlighet på alla celler som inte har några fyllningsfärger. Aspose.Cells tillhandahåller[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) egenskap för att tillämpa transparens på kalkylbladsbilden. När denna fastighet är**falsk** , sedan ritas celler utan fyllningsfärger med vit färg och när det är det**Sann**, celler utan fyllningsfärger ritas genomskinliga.
+ Ibland måste du skapa bilden av ditt kalkylblad som en transparent bild. Du vill tillämpa genomskinlighet på alla celler som inte har några fyllningsfärger. Aspose.Cells tillhandahåller[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)egenskap för att tillämpa transparens på kalkylbladsbilden. När denna fastighet är**falsk** , sedan ritas celler utan fyllningsfärger med vit färg och när det är det**Sann**, celler utan fyllningsfärger ritas genomskinliga.
 
 {{% /alert %}} 
 

@@ -10,7 +10,7 @@ url: /sv/net/export-worksheet-css-separately-in-output/
 
 ## **Exportera arbetsblad CSS separat i utdata HTML**
 
-Följande exempelkod skapar en Excel-fil, lägger till lite text i cellen**B5** i**Röd** färg och sparar den sedan i HTML-format med hjälp av[**HtmlSaveOptions.ExportWorksheetCSSSeparat**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately) fast egendom. Vänligen se[mata ut HTML](60489766.zip) genereras av koden för referens. Du kommer hitta**stilark.css**inuti den som ett resultat av exempelkoden.
+Följande exempelkod skapar en Excel-fil, lägger till lite text i cellen**B5** i**Röd** färg och sparar den sedan i HTML-format med hjälp av[**HtmlSaveOptions.ExportWorksheetCSSSeparat**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately)fast egendom. Vänligen se[mata ut HTML](60489766.zip) genereras av koden för referens. Du kommer hitta**stilark.css**inuti den som ett resultat av exempelkoden.
 
 ## **Exempelkod**
 

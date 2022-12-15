@@ -3,16 +3,16 @@ title: تحويل Excel إلى PDF
 type: docs
 weight: 50
 url: /ar/python-java/convert-excel-to-pdf/
-description: كيفية تحويل ملفات Excel إلى PDF باستخدام Python. يوضح هذا المقال تحويل ملفات Excel إلى PDF باستخدام Python وسهل الاستخدام Aspose.Cells لـ Python عبر Java API.
+description: كيفية تحويل ملفات Excel إلى PDF باستخدام Python. توضح هذه المقالة تحويل ملفات Excel إلى PDF باستخدام Python وسهلة الاستخدام Aspose.Cells via Java API.
 keywords: excel to pdf python, python convert excel to pdf, python excel to pdf, convert excel to pdf python, convert excel to pdf in python, convert excel to pdf using python, excel to pdf in python, excel to pdf using python, aspose excel to pdf, aspose convert excel to pdf
 ---
 ## **تحويل Excel إلى PDF**
 
-تُستخدم مستندات PDF على نطاق واسع كتنسيق قياسي لتبادل المستندات بين المنظمات والقطاعات الحكومية والأفراد. غالبًا ما يُطلب من مطوري البرامج ابتكار طريقة لتحويل ملفات Excel Microsoft بسهولة إلى مستندات PDF. يوفر Aspose.Cells لـ Python عبر Java API القدرة على تحويل ملفات Excel إلى مستندات PDF (بما في ذلك PDF / A). يقوم Aspose.Cell بتحويل جداول البيانات إلى PDF بدرجة عالية من الدقة والإخلاص.
+تُستخدم مستندات PDF على نطاق واسع كتنسيق قياسي لتبادل المستندات بين المنظمات والقطاعات الحكومية والأفراد. غالبًا ما يُطلب من مطوري البرامج ابتكار طريقة لتحويل ملفات Excel Microsoft بسهولة إلى مستندات PDF. يوفر Aspose.Cells for Python via Java API القدرة على تحويل ملفات Excel إلى مستندات PDF (بما في ذلك PDF / A). يقوم Aspose.Cell بتحويل جداول البيانات إلى PDF بدرجة عالية من الدقة والإخلاص.
 
 ### **التحويل المباشر**
 
-لحفظ ملف Excel مباشرة في PDF ، يمكنك استخدام امتداد[**مصنف**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)طريقة وتمرير[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) كمعامل ثاني.
+لحفظ ملف Excel مباشرة في PDF ، يمكنك استخدام امتداد[**مصنف**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) طريقة وتمرير[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) كمعامل ثاني.
 
 يوضح مقتطف الشفرة التالي استخدام[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)و ال[**مصنف**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) طريقة لتحويل Excel إلى تنسيق PDF.
 

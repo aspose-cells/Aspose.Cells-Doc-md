@@ -82,7 +82,7 @@ row.createCell(4).setCellValue(true);
 row.createCell(5).setCellType(Cell.CELL_TYPE_ERROR);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تنزيل أمثلة تشغيل لـ**قم بإنشاء أنواع Cell مختلفة في Aspose.Cells و Apache POI** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)

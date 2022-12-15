@@ -14,11 +14,11 @@ Aspose.Cells supporta la conversione tra molti formati. Tecnicamente, la convers
 
 Il formato del documento XPS è costituito da markup XML strutturato che definisce il layout di un documento e l'aspetto visivo di ogni pagina, insieme alle regole di rendering per la distribuzione, l'archiviazione, il rendering, l'elaborazione e la stampa dei documenti.
 
-Il linguaggio di markup per XPS è un sottoinsieme di XAML che gli consente di incorporare elementi di grafica vettoriale nei documenti, utilizzando XAML per contrassegnare le primitive Windows Presentation Foundation (WPF). Gli elementi utilizzati sono descritti in termini di percorsi e altre primitive geometriche.
+Il linguaggio di markup per XPS è un sottoinsieme di XAML che consente di incorporare elementi di grafica vettoriale nei documenti, utilizzando XAML per contrassegnare le primitive Windows Presentation Foundation (WPF). Gli elementi utilizzati sono descritti in termini di percorsi e altre primitive geometriche.
 
 Un file XPS è infatti un archivio ZIP Unicoded che utilizza le Open Packaging Conventions, contenente i file che compongono il documento. Questi includono un file di markup XML per ogni pagina, testo, caratteri incorporati, immagini raster, grafica vettoriale 2D, nonché informazioni sulla gestione dei diritti digitali. Il contenuto di un file XPS può essere esaminato semplicemente aprendolo in un'applicazione che supporti i file ZIP.
 
-Da Aspose.Cells 6.0.0, Microsoft Excel tp conversione XPS è supportata.
+Da Aspose.Cells 6.0.0, è supportata la conversione di Microsoft Excel tp XPS.
 
 ### **Conversione di un singolo foglio di lavoro in XPS**
 
@@ -58,7 +58,7 @@ L'esempio di codice seguente mostra come salvare una cartella di lavoro come fil
 
  Le API Aspose.Cells forniscono supporto per l'esportazione di fogli di calcolo in formato HTML. A tale scopo Aspose.Cells utilizza il**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**class che consente agli sviluppatori di controllare diversi aspetti dell'output HTML.
 
-Il codice seguente mostra come utilizzare il**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**class per esportare i file Excel Microsoft in formato HTML senza specificare parametri aggiuntivi.
+Il codice seguente mostra come utilizzare il**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**class per esportare file Microsoft Excel in formato HTML senza specificare parametri aggiuntivi.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToHTMLFiles-ConvertingToHTMLFiles.java" >}}
 
@@ -91,17 +91,17 @@ Le impostazioni dell'immagine che possono essere applicate sono:
 
 ## **Conversione di file Excel in PDF**
 
-I documenti PDF sono ampiamente utilizzati come formato standard per lo scambio di documenti tra organizzazioni, settori governativi e individui. Agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire facilmente i file Excel Microsoft in documenti PDF. Aspose.Cells supporta queste funzionalità. Questo articolo mostra come.
+I documenti PDF sono ampiamente utilizzati come formato standard per lo scambio di documenti tra organizzazioni, settori governativi e individui. Agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire facilmente i file Microsoft Excel in documenti PDF. Aspose.Cells supporta queste funzionalità. Questo articolo mostra come.
 
-### **Conversione di Excel in PDF**
+### **Conversione da Excel a PDF**
 
- Microsoft La conversione da Excel a PDF è stata introdotta con Aspose.Cells for Java 2.3.0. Da quella versione, Aspose.Cells can[convertire fogli di calcolo direttamente in PDF](#direct-conversion) (Compreso[PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files)), senza un altro prodotto. Per convertire fogli di calcolo con versioni precedenti di Aspose.Cells,[utilizzare Aspose.PDF per la conversione](#conversion-with-asposepdf-asposecells-prior-to-230).
+ La conversione da Microsoft Excel a PDF è stata introdotta con Aspose.Cells for Java 2.3.0. Da quella versione, Aspose.Cells can[convertire fogli di calcolo direttamente in PDF](#direct-conversion) (Compreso[PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files)), senza un altro prodotto. Per convertire fogli di calcolo con versioni precedenti di Aspose.Cells,[utilizzare Aspose.PDF per la conversione](#conversion-with-asposepdf-asposecells-prior-to-230).
 
  Aspose.Cell's converte i fogli di calcolo in PDF con un alto grado di accuratezza e fedeltà. Tuttavia, ce ne sono alcuni[limitazioni](/cells/it/java/converting-workbook-to-different-formats/#conversion-attributes), elencati alla fine di questo articolo.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java scrive direttamente le informazioni su API e il numero di versione nei documenti di output. Ad esempio, al momento del rendering del documento in PDF, Aspose.Cells for Java viene popolato**Applicazione** campo con valore 'Aspose.Cells' e**Produttore PDF** campo con un valore, ad esempio 'Aspose.Cells for Java v17.9'.
+ Aspose.Cells for Java scrive direttamente le informazioni sull'API e il numero di versione nei documenti di output. Ad esempio, dopo il rendering del documento in PDF, Aspose.Cells for Java viene popolato**Applicazione** campo con valore 'Aspose.Cells' e**Produttore PDF** campo con un valore, ad esempio 'Aspose.Cells for Java v17.9'.
 
 Si prega di notare che non è possibile incaricare Aspose.Cells for Java di modificare o rimuovere queste informazioni dai documenti di output.
 
@@ -132,7 +132,7 @@ Il frammento di codice fornito di seguito dimostra l'utilizzo di**[PdfSaveOption
 Per convertire fogli di calcolo in PDF con Aspose.Cells e Aspose.PDF:
 
 1.  Istanziare un oggetto di**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**class chiamando il suo costruttore vuoto.
-1. Esegui il lavoro desiderato sul foglio di calcolo utilizzando Aspose.Cells API.
+1. Esegui il lavoro desiderato sul foglio di calcolo utilizzando l'API Aspose.Cells.
 1. Chiama il**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**metodo per salvare il foglio di calcolo:
 1. Impostare il formato del file su XML.
  1. Selezionare Aspose_Pdf (un valore predefinito) dall'interfaccia FileFormatType. Questo dirige il metodo di salvataggio per generare un foglio di calcolo nel formato XML compatibile con lo schema Aspose.PDF in modo che Aspose.PDF for Java possa quindi generare un documento PDF.

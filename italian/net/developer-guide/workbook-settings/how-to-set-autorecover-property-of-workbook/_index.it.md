@@ -14,7 +14,7 @@ url: /it/net/how-to-set-autorecover-property-of-workbook/
 
  Il codice seguente spiega come utilizzare[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) proprietà della cartella di lavoro. Il codice prima legge il valore predefinito di questa proprietà che è**VERO** , quindi lo imposta come**falso** e salva la cartella di lavoro. Quindi legge di nuovo la cartella di lavoro e legge il valore di questa proprietà che è**falso** A quest'ora.
 
-## C# per impostare la proprietà AutoRecover di Workbook
+## Codice C# per impostare la proprietà AutoRecover di Workbook
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SetAutoRecovery-SetAutoRecovery.cs" >}}
 

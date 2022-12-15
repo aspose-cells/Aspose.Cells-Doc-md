@@ -30,7 +30,7 @@ Aspose.Cells.CellArea(D1:D8)[0,3,7,3]{{< /highlight >}}
 
 ## **Obtenga la ruta XML de la lista de objetos/tablas**
 
-Los datos XML se pueden importar a hojas de trabajo. A veces, se requiere una ruta XML de ListObjects de la hoja de trabajo. Esta función está disponible en Excel mediante una expresión como Sheet1.ListObjects(1).XmlMap.DataBinding. La misma función está disponible en Aspose.Cells llamando[**ListObject.XmlMap.DataBinding.Url**](https://reference.aspose.com/cells/net/aspose.cells/xmldatabinding/properties/url). El siguiente ejemplo demuestra esta característica. El archivo de plantilla y otros archivos fuente se pueden descargar desde los siguientes enlaces:
+Los datos XML se pueden importar a hojas de cálculo. A veces, se requiere una ruta XML de ListObjects de la hoja de trabajo. Esta función está disponible en Excel mediante una expresión como Sheet1.ListObjects(1).XmlMap.DataBinding. La misma función está disponible en Aspose.Cells llamando[**ListObject.XmlMap.DataBinding.Url**](https://reference.aspose.com/cells/net/aspose.cells/xmldatabinding/properties/url). El siguiente ejemplo demuestra esta característica. El archivo de plantilla y otros archivos fuente se pueden descargar desde los siguientes enlaces:
 
 1. [Datos XML.xlsx](72417285.xlsx)
 1. [Lista de países.xml](72417287.xml)

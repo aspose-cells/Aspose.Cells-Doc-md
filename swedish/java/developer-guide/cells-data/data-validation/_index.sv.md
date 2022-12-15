@@ -8,14 +8,14 @@ url: /sv/java/data-validation/
 
 Microsoft Excel tillhandahåller några bra funktioner för att automatiskt filtrera eller validera kalkylbladsdata.
 
-[Datavalidering](/cells/sv/java/data-validation/)är möjligheten att ställa in regler som hänför sig till data som matas in på ett kalkylblad. Använd till exempel validering för att säkerställa att en kolumn märkt DATUM bara innehåller datum, eller att en annan kolumn bara innehåller siffror. Du kan till och med se till att en kolumn märkt DATUM endast innehåller datum inom ett visst intervall. Med datavalidering kan du styra vad som skrivs in i celler i kalkylbladet. Aspose.Cells stöder fullt ut Microsoft Excels datavalidering och autofilterfunktioner. Den här artikeln förklarar hur du använder funktionerna i Microsoft Excel och hur du kodar dem med Aspose.Cells.
+[Datavalidering](/cells/sv/java/data-validation/) är möjligheten att ställa in regler som hänför sig till data som matas in på ett kalkylblad. Använd till exempel validering för att säkerställa att en kolumn märkt DATUM bara innehåller datum, eller att en annan kolumn bara innehåller siffror. Du kan till och med se till att en kolumn märkt DATUM endast innehåller datum inom ett visst intervall. Med datavalidering kan du styra vad som skrivs in i celler i kalkylbladet. Aspose.Cells stöder fullt ut Microsoft Excels datavaliderings- och autofilterfunktioner. Den här artikeln förklarar hur du använder funktionerna i Microsoft Excel och hur du kodar dem med Aspose.Cells.
 
 {{% /alert %}} 
 ## **Datavalideringstyper och exekvering**
 Microsoft Excel stöder ett antal olika typer av datavalidering. Varje typ används för att styra vilken typ av data som matas in i en cell eller cellintervall. Nedan illustrerar kodavsnitt hur man validerar det:
 
-- [Siffror är hela](/cells/sv/java/data-validation/), det vill säga att de inte har en decimaldel.
-- [Decimaltal följer rätt struktur](/cells/sv/java/data-validation/)Kodexemplet definierar att ett cellområde ska ha två decimaler.
+- [Siffror är hela](/cells/sv/java/data-validation/)det vill säga att de inte har en decimaldel.
+- [Decimaltal följer rätt struktur](/cells/sv/java/data-validation/). Kodexemplet definierar att ett cellområde ska ha två decimaler.
 - [Värden är begränsade till en lista med värden](/cells/sv/java/data-validation/). Listvalidering definierar en separat lista med värden som kan tillämpas på en cell eller cellintervall.
 - [Datum faller inom ett specifikt intervall](/cells/sv/java/data-validation/).
 - [Tiden ligger inom ett visst intervall](/cells/sv/java/data-validation/).
@@ -98,7 +98,7 @@ Med denna typ av validering kan användare ange textvärden av en angiven längd
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **Regler för datavalidering**
- När datavalideringar implementeras kan valideringen kontrolleras genom att tilldela olika värden i cellerna.[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) kan användas för att hämta valideringsresultatet. Följande exempel visar denna funktion med olika värden. Exempelfilen kan laddas ner från följande länk för testning:
+När datavalideringar implementeras kan valideringen kontrolleras genom att tilldela olika värden i cellerna.[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) kan användas för att hämta valideringsresultatet. Följande exempel visar denna funktion med olika värden. Exempelfilen kan laddas ner från följande länk för testning:
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -106,13 +106,13 @@ Med denna typ av validering kan användare ange textvärden av en angiven längd
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-VerifyCellValueSatisfiesDataValidationRules-1.java" >}}
 ## **Kontrollera om validering i en cell är rullgardinsmeny**
- Som vi har sett finns det många typer av valideringar som kan implementeras inom en cell. Om du vill kontrollera om validering är rullgardinsmeny eller inte,[Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) egenskap kan användas för att testa detta. Följande exempelkod visar användningen av den här egenskapen. Exempelfilen för testning kan laddas ner från följande länk:
+ Som vi har sett finns det många typer av valideringar som kan implementeras inom en cell. Om du vill kontrollera om validering är rullgardinsmeny eller inte,[Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) egenskapen kan användas för att testa detta. Följande exempelkod visar användningen av den här egenskapen. Exempelfilen för testning kan laddas ner från följande länk:
 
 [sampleDataValidationRules.xlsx](77987849.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **Lägg till CellArea till befintlig validering**
-Det kan finnas fall där du kanske vill lägga till[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)att existera[Godkännande](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). När du lägger till[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)använder sig av[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells kontrollerar alla befintliga områden för att se om det nya området redan finns. Om filen har ett stort antal valideringar tar detta en prestandaträff. För att övervinna detta tillhandahåller API:n[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) metod. De*check Intersection*parametern anger om skärningspunkten mellan ett givet område och befintliga valideringsområden ska kontrolleras. Ställer in den på**falsk**kommer att inaktivera kontrollen av andra områden. De*checkEdge*parametern indikerar om de applicerade områdena ska kontrolleras. Om det nya området blir det övre vänstra området byggs interna inställningar om. Om du är säker på att det nya området inte är det övre vänstra området kan du ställa in denna parameter som**falsk**.
+Det kan finnas fall där du kanske vill lägga till[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)att existera[Godkännande](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). När du lägger till[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)använder sig av[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells kontrollerar alla befintliga områden för att se om det nya området redan finns. Om filen har ett stort antal valideringar tar detta en prestandaträff. För att övervinna detta tillhandahåller API[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) metod. De*check Intersection*parametern anger om skärningspunkten mellan ett givet område och befintliga valideringsområden ska kontrolleras. Ställer in den på**falsk**kommer att inaktivera kontrollen av andra områden. De*checkEdge*parametern indikerar om de applicerade områdena ska kontrolleras. Om det nya området blir det övre vänstra området byggs interna inställningar om. Om du är säker på att det nya området inte är det övre vänstra området kan du ställa in denna parameter som**falsk**.
 
 Följande kodavsnitt visar användningen av[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) metod för att lägga till ny[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)att existera[Godkännande](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 

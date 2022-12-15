@@ -1,17 +1,17 @@
 ﻿---
-title: Aspose.Cells för .NET 7.3.3 Release Notes
+title: Aspose.Cells for .NET 7.3.3 Release Notes
 type: docs
 weight: 20
 url: /sv/net/aspose-cells-for-net-7-3-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.3.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.3/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.3.3](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.3/)
 
 {{% /alert %}} 
 
 Vi är
- glad att kunna meddela Aspose.Cells för .NET v7.3.3!
+ glad att meddela Aspose.Cells for .NET v7.3.3!
 
 \1) Aspose.Cells 
 
@@ -67,7 +67,7 @@ Vi är
 
 
 Ny
- Funktioner
+Funktioner
 
 - GridDesktop Scrollbars - Hur man visar/döljer vertikala och horisontella rullningslister
 - Infoga rad-/kolumnhändelser

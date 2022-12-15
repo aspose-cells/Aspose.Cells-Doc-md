@@ -14,7 +14,7 @@ När du arbetar med stora Microsoft Excel-filer med många bilder kan du behöva
 
 ## **Sampla om bilder för konvertering av Excel till PDF**
 
-Se följande exempelkod som beskriver hur du utför uppgiften med Aspose.Cells API. Exemplet konverterar en Microsoft Excel-fil till en PDF-fil samtidigt som bilderna i filen komprimeras.
+Se följande exempelkod som beskriver hur du utför uppgiften med hjälp av Aspose.Cells API. Exemplet konverterar en Microsoft Excel-fil till en PDF-fil samtidigt som bilderna i filen komprimeras.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ResampleImagesforExceltoPDFConversion-ResampleImagesforExceltoPDFConversion.java" >}}
 

@@ -27,14 +27,14 @@ Extrahera sedan OLE-objekten och spara dem på hårddisken med sina respektive f
 
 ### **Ladda ner och installera Aspose.Cells**
 
-1. [Ladda ner Aspose.Cells för .NET](https://downloads.aspose.com/cells/net).
+1. [Ladda ner Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
 1. Installera det på din utvecklingsdator.
 
 Alla Aspose-komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
 
 ### **Skapa ett projekt**
 
- Start**Visual Studio.Net** och skapa en ny konsolapplikation. Det här exemplet visar en C#-konsolapplikation, men du kan också använda VB.NET.
+Start**Visual Studio.Net** och skapa en ny konsolapplikation. Det här exemplet visar en C# konsolapplikation, men du kan också använda VB.NET.
 
 1. Lägg till referenser
  1. Lägg till en referens till komponenten Aspose.Cells till ditt projekt, till exempel lägg till en referens till ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll

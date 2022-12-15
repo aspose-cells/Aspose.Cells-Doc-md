@@ -35,12 +35,12 @@ url: /it/java/aspose-cells-for-java-8-8-3-release-notes/
 |CELLSJAVA-41858|CellsException: Errore nel calcolo di Cell[0BMW CAN Bus Codes V0.4!R4], in Workbook.calculateFormula|Eccezione|
 |CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 in Workbook.save durante il nuovo salvataggio di XLS|Eccezione|
 |CELLSJAVA-41864|Eccezione: java.lang.IllegalStateException: codifica non valida: null al nuovo salvataggio di un file XLS|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo Cell.GetCharacters(flag).**
 Restituisce tutti gli oggetti Characters.
 ### **Aggiunge la proprietà OleObject.AutoLoad**
-Specifica se l'applicazione host per l'oggetto incorporato deve essere richiamata per caricare automaticamente i dati dell'oggetto all'apertura della cartella di lavoro padre.
+Specifica se l'applicazione host per l'oggetto incorporato deve essere chiamata per caricare automaticamente i dati dell'oggetto all'apertura della cartella di lavoro padre.
 ### **Aggiunge la proprietà HTMLLoadOptions.SupportDivTag**
  Indica se supportare il layout di<div> tag quando il file html contiene<div> tags.Il valore predefinito è false.
 ### **Aggiunge la proprietà HtmlSaveOptions.ExportGridLines**

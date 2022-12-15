@@ -20,7 +20,7 @@ Följande skärmdump visar ett diagram som endast har den primära kategorin och
 
  Följande exempelkod visar användningen av[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)för att avgöra om provdiagrammet har primär och sekundär kategori och värdeaxel. Konsolutmatningen av koden har visats nedan som visar sant för primär kategori och värdeaxel och falskt för sekundär kategori och värdeaxel.
 
-### Java-kod för att avgöra vilken axel som finns i diagrammet
+### Java kod för att avgöra vilken axel som finns i diagrammet
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetermineWhichAxisExistsInChart-DetermineWhichAxisExistsInChart.java" >}}
 

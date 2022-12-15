@@ -55,206 +55,206 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells para C++ Logotipo del producto](home_3.png)**
+**![Aspose.Cells for C++ Logotipo del producto](home_3.png)**
 
-**Bienvenido al Aspose.Cells para C++**
+**Bienvenido al Aspose.Cells for C++**
 
-Aspose.Cells para C++ es una biblioteca nativa de C++ que permite a los desarrolladores de C++ crear, manipular y convertir hojas de cálculo mediante programación sin necesidad de Office Automation o la aplicación Microsoft de Excel. Aspose.Cells para C++ admite formatos de hoja de cálculo como MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML y otros formatos. También puede renderizar imágenes de hojas de trabajo y convertir hojas de cálculo de MS Excel a formato PDF. El API también le permite crear, manipular y representar gráficos y formas. Además, los cálculos de fórmulas son otro buen aspecto proporcionado por el componente y puede utilizarlo.
+Aspose.Cells for C++ es una biblioteca nativa de C++ que permite a los desarrolladores de C++ crear, manipular y convertir hojas de cálculo mediante programación sin necesidad de Office Automation o la aplicación Microsoft Excel. Aspose.Cells for C++ admite formatos de hoja de cálculo como MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML y otros formatos. También puede renderizar imágenes de hojas de trabajo y convertir hojas de cálculo de MS Excel a formato PDF. El API también le permite crear, manipular y representar gráficos y formas. Además, los cálculos de fórmulas son otro buen aspecto proporcionado por el componente y puede utilizarlo.
 
 {{% /alert %}}
 
-## **Aspose.Cells para C++ Recursos**
+## **Aspose.Cells for C++ Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells para C++ Documentación en línea](/cells/es/cpp/)
-- [Aspose.Cells para C++ Características](/cells/es/cpp/product-overview/)
-- [Aspose.Cells para C++ Notas de la versión](/cells/es/cpp/release-notes/)
-- [Aspose.Cells para C++ Página del producto](https://products.aspose.com/cells/cpp/)
-- [Instalar Aspose.Cells para C++ NuGet Paquete](https://www.nuget.org/packages/Aspose.Cells.CPP/)
-- [Aspose.Cells para C++ API Guía de referencia](https://reference.aspose.com/cells/cpp)
+- [Aspose.Cells for C++ Documentación en línea](/cells/es/cpp/)
+- [Aspose.Cells for C++ Características](/cells/es/cpp/product-overview/)
+- [Aspose.Cells for C++ Notas de la versión](/cells/es/cpp/release-notes/)
+- [Aspose.Cells for C++ Página del producto](https://products.aspose.com/cells/cpp/)
+- [Instalar Aspose.Cells for C++ NuGet Paquete](https://www.nuget.org/packages/Aspose.Cells.CPP/)
+- [Aspose.Cells for C++ API Guía de referencia](https://reference.aspose.com/cells/cpp)
 - [Descargar ejemplos en el repositorio de GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C)
-- [Aspose.Cells para C++ Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para C++ Soporte técnico de pago](https://helpdesk.aspose.com/)
+- [Aspose.Cells for C++ Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for C++ Soporte técnico de pago](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells para Android a través de Java Logotipo del producto](home_4.png)**
+**![Aspose.Cells for Android via Java Logotipo del producto](home_4.png)**
 
-**Bienvenido al Aspose.Cells para Android a través de Java**
+**Bienvenido al Aspose.Cells for Android via Java**
 
-Aspose.Cells para Android a través de Java es un componente flexible que permite que las aplicaciones de Android creen y administren hojas de cálculo de Excel sin necesidad de Microsoft Excel. Aspose.Cells para Android a través de Java El objetivo final es llevar todas las características impresionantes de Aspose.Cells for Java a la plataforma Android que hace posible el desarrollo nativo de Android en Java, ya sea con Android Studio o cualquier IDE que admita el desarrollo de Android. Aspose.Cells para Android a través de Java es una biblioteca de clases que permite que sus aplicaciones nativas de Android realicen una gran variedad de tareas de procesamiento de documentos. Aspose.Cells para Android a través de Java admite XLS, XLSX, CSV, SpreadsheetML, ODS, delimitado por tabulaciones, HTML, PDF, XPS y otros formatos. Con Aspose.Cells para Android a través de Java puede generar, modificar, convertir y renderizar hojas de cálculo.
+Aspose.Cells for Android via Java es un componente flexible que permite que las aplicaciones de Android creen y administren hojas de cálculo de Excel sin necesidad de Microsoft Excel. El objetivo final de Aspose.Cells for Android via Java es traer todas las características impresionantes de Aspose.Cells for Java a la plataforma Android que hace posible el desarrollo nativo de Android en Java, ya sea con Android Studio o cualquier IDE que admita el desarrollo de Android. Aspose.Cells for Android via Java es una biblioteca de clases que permite que sus aplicaciones nativas de Android realicen una gran variedad de tareas de procesamiento de documentos. Aspose.Cells for Android via Java admite XLS, XLSX, CSV, SpreadsheetML, ODS, delimitado por tabuladores, HTML, PDF, XPS y otros formatos. Con Aspose.Cells for Android via Java puede generar, modificar, convertir y renderizar hojas de cálculo.
 
 {{% /alert %}}
 
-## **Aspose.Cells para Android vía Java Recursos**
+## **Aspose.Cells for Android via Java Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells para Android a través de Java es muy similar a Aspose.Cells for Java. Por lo tanto, puede usar la misma documentación)
-- [Aspose.Cells para Android a través de Java Características](/cells/es/java/aspose-cells-for-android-via-java-features/)
-- [Aspose.Cells para Android a través de Java Limitaciones y API Diferencias](/cells/es/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
-- [Aspose.Cells para Android a través de Java Notas de la versión](/cells/es/java/aspose-cells-for-android-via-java/)
-- [Aspose.Cells para Android a través de la página del producto Java](https://products.aspose.com/cells/android-java/)
-- [Descargue Aspose.Cells para Android a través de Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
-- [Instale Aspose.Cells para Android a través de Java desde Maven](/cells/es/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
-- [Aspose.Cells para Android a través de Java API Guía de referencia](https://reference.aspose.com/cells/java)(Aspose.Cells para Android a través de Java es muy similar a Aspose.Cells for Java. Por lo tanto, puede usar la misma Guía de referencia API)
+- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells for Android via Java es muy similar a Aspose.Cells for Java. Entonces, puede usar la misma documentación)
+- [Aspose.Cells for Android via Java Características](/cells/es/java/aspose-cells-for-android-via-java-features/)
+- [Aspose.Cells for Android via Java Limitaciones y API Diferencias](/cells/es/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
+- [Aspose.Cells for Android via Java Notas de la versión](/cells/es/java/aspose-cells-for-android-via-java/)
+- [Aspose.Cells for Android via Java Página del producto](https://products.aspose.com/cells/android-java/)
+- [Descargar Aspose.Cells for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)
+- [Instalar Aspose.Cells for Android via Java desde Maven](/cells/es/java/aspose-cells-for-android-via-java-installation/#install-asposecells-for-android-via-java-from-maven-repository)
+- [Aspose.Cells for Android via Java API Guía de referencia](https://reference.aspose.com/cells/java)(Aspose.Cells for Android via Java es muy similar a Aspose.Cells for Java. Por lo tanto, puede usar la misma Guía de referencia API)
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells para Node.js a través de Java Logotipo del producto](home_5.png)**
+**![Aspose.Cells for Node.js via Java Logotipo del producto](home_5.png)**
 
-**Bienvenido a Aspose.Cells para Node.js a través de Java**
+**Bienvenido a Aspose.Cells for Node.js via Java**
 
-Aspose.Cells para Node.js a través de Java presenta todas las características útiles de Aspose.Cells for Java usando Node.js. Aspose.Cells para Node.js a través de Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells para Node.js a través de Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, estilo de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro motor de cálculo de fórmula confiable. Aspose.Cells para Node.js a través de Java admite XLS, XLSX, ODS, SpreadsheetML, CSV, delimitado por tabulaciones, HTML/MHTML, PDF, XPS y otros formatos. Con Aspose.Cells para Node.js a través de Java puede generar, modificar, convertir y renderizar documentos de Excel.
+Aspose.Cells for Node.js via Java presenta todas las características útiles de Aspose.Cells for Java usando Node.js. Aspose.Cells for Node.js via Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Node.js via Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, estilo de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro confiable motor de cálculo de fórmulas. Aspose.Cells for Node.js via Java admite XLS, XLSX, ODS, SpreadsheetML, CSV, delimitado por tabuladores, HTML/MHTML, PDF, XPS y otros formatos. Con Aspose.Cells for Node.js via Java puede generar, modificar, convertir y renderizar documentos de Excel.
 
 {{% /alert %}}
 
-## **Aspose.Cells para Node.js a través de Java Recursos**
+## **Aspose.Cells for Node.js via Java Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells para Node.js a través de Java se transfiere desde Aspose.Cells for Java. Por lo tanto, puede usar la misma documentación)
-- [Aspose.Cells para Node.js a través de Java Características](/cells/es/nodejsjava/features/)
-- [Aspose.Cells para Node.js a través de Java Limitaciones y API Diferencias](/cells/es/nodejsjava/limitations-and-api-differences/)
-- [Aspose.Cells para Node.js a través de Java Notas de la versión](/cells/es/nodejsjava/release-notes/)
-- [Aspose.Cells para Node.js a través de Java Página del producto](https://products.aspose.com/cells/nodejs-java/)
-- [Descargue Aspose.Cells para Node.js a través de Java](https://downloads.aspose.com/cells/nodejs)
-- [Aspose.Cells para Node.js a través de Java API Guía de referencia](https://reference.aspose.com/cells/nodejs)
-- [Aspose.Cells para Node.js a través de Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para Node.js a través de Java Servicio de asistencia técnica de pago](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells for Node.js a través de Java se transfiere desde Aspose.Cells for Java. Por lo tanto, puede usar la misma documentación)
+- [Aspose.Cells for Node.js via Java Características](/cells/es/nodejsjava/features/)
+- [Aspose.Cells for Node.js via Java Limitaciones y API Diferencias](/cells/es/nodejsjava/limitations-and-api-differences/)
+- [Aspose.Cells for Node.js via Java Notas de la versión](/cells/es/nodejsjava/release-notes/)
+- [Aspose.Cells for Node.js via Java Página del producto](https://products.aspose.com/cells/nodejs-java/)
+- [Descargar Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
+- [Aspose.Cells for Node.js via Java API Guía de referencia](https://reference.aspose.com/cells/nodejs)
+- [Aspose.Cells for Node.js via Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Node.js via Java Soporte técnico de pago](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells para PHP a través de Java Logotipo del producto](home_6.png)**
+**![Aspose.Cells for PHP via Java Logotipo del producto](home_6.png)**
 
-**Bienvenido a Aspose.Cells para PHP a través de Java**
+**Bienvenido a Aspose.Cells for PHP via Java**
 
-Aspose.Cells para PHP a través de Java proporciona todas las características valiosas de Aspose.Cells for Java usando JavaBridge. Aspose.Cells para PHP a través de Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells para PHP a través de Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, diseño de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro confiable motor de cálculo de fórmulas. Aspose.Cells para PHP a través de Java admite XLS, XLSX, ODS, SpreadsheetML, CSV, delimitado por tabulaciones, HTML/MHTML, PDF, XPS y otros formatos. Con Aspose.Cells para PHP a través de Java puede generar, modificar, convertir y renderizar documentos de Excel.
+Aspose.Cells for PHP via Java proporciona todas las características valiosas de Aspose.Cells for Java usando JavaBridge. Aspose.Cells for PHP via Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for PHP via Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, diseño de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro motor de cálculo de fórmula confiable. Aspose.Cells for PHP via Java admite XLS, XLSX, ODS, SpreadsheetML, CSV, delimitado por tabuladores, HTML/MHTML, PDF, XPS y otros formatos. Con Aspose.Cells for PHP via Java puede generar, modificar, convertir y renderizar documentos de Excel.
 
 {{% /alert %}}
 
-## **Aspose.Cells para PHP a través de Java Recursos**
+## **Aspose.Cells for PHP via Java Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells para PHP a través de Java se transfiere desde Aspose.Cells for Java. Por lo tanto, puede usar la misma documentación)
-- [Aspose.Cells para PHP a través de Java Características](/cells/es/phpjava/features/)
-- [Aspose.Cells para PHP a través de Java Limitaciones y API Diferencias](/cells/es/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
-- [Aspose.Cells para PHP a través de Java Notas de la versión](/cells/es/phpjava/release-notes/)
-- [Aspose.Cells para PHP a través de Java Página del producto](https://products.aspose.com/cells/php-java/)
-- [Descargue Aspose.Cells para PHP a través de Java](https://downloads.aspose.com/cells/php)
-- [Aspose.Cells para PHP a través de Java API Guía de referencia](https://reference.aspose.com/cells/php)
-- [Aspose.Cells para PHP a través de Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para PHP a través de Java Servicio de asistencia técnica de pago](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells for PHP a través de Java se transfiere desde Aspose.Cells for Java. Por lo tanto, puede usar la misma documentación)
+- [Aspose.Cells for PHP via Java Características](/cells/es/phpjava/features/)
+- [Aspose.Cells for PHP via Java Limitaciones y API Diferencias](/cells/es/java/aspose-cells-for-php-via-java-limitations-and-api-differences/)
+- [Aspose.Cells for PHP via Java Notas de la versión](/cells/es/phpjava/release-notes/)
+- [Aspose.Cells for PHP via Java Página del producto](https://products.aspose.com/cells/php-java/)
+- [Descargar Aspose.Cells for PHP via Java](https://downloads.aspose.com/cells/php)
+- [Aspose.Cells for PHP via Java API Guía de referencia](https://reference.aspose.com/cells/php)
+- [Aspose.Cells for PHP via Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for PHP via Java Soporte técnico de pago](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells para Python a través de Java Logotipo del producto](home_7.png)**
+**![Aspose.Cells for Python via Java Logotipo del producto](home_7.png)**
 
-**Bienvenido a Aspose.Cells para Python vía Java**
+**Bienvenido a Aspose.Cells for Python via Java**
 
-Aspose.Cells para Python a través de Java permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells para Python a través de Java es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que usa su empresa todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for Python via Java permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via Java es compatible con los formatos de archivo de hoja de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa utiliza todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
 
 {{% /alert %}}
 
-## **Aspose.Cells para Python vía Java Recursos**
+## **Aspose.Cells for Python via Java Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells para Python vía Java es muy similar a Aspose.Cells for Java. Entonces, puede usar la misma documentación)
-- [Aspose.Cells para Python vía Java Características](/cells/es/python-java/features/)
-- [Aspose.Cells para Python a través de Java Notas de la versión](/cells/es/python-java/release-notes/)
-- [Aspose.Cells para Python vía Java Página del producto](https://products.aspose.com/cells/python-java/)
-- [Descargar Aspose.Cells para Python vía Java](https://downloads.aspose.com/cells/python-java)
-- [Aspose.Cells para Python a través de Java API Guía de referencia](https://reference.aspose.com/cells/python-java)
-- [Aspose.Cells para Python a través de Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para Python a través de Java Servicio de asistencia técnica de pago](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells for Python via Java es muy similar a Aspose.Cells for Java. Entonces, puede usar la misma documentación)
+- [Aspose.Cells for Python via Java Características](/cells/es/python-java/features/)
+- [Aspose.Cells for Python via Java Notas de la versión](/cells/es/python-java/release-notes/)
+- [Aspose.Cells for Python via Java Página del producto](https://products.aspose.com/cells/python-java/)
+- [Descargar Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
+- [Aspose.Cells for Python via Java API Guía de referencia](https://reference.aspose.com/cells/python-java)
+- [Aspose.Cells for Python via Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Python via Java Soporte técnico de pago](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-![Aspose.Cells para el logotipo del producto de servicios de informes](aspose-cells-for-ssrs.png)
+![Aspose.Cells for Reporting Services Logotipo del producto](aspose-cells-for-ssrs.png)
 
-**Bienvenido al Aspose.Cells para servicios de informes** 
+**Bienvenido a Aspose.Cells for Reporting Services** 
 
-Aspose.Cells para Reporting Services es una solución para desarrolladores que necesitan entregar Microsoft informes de Excel en Reporting Services. Agrega funciones flexibles y fáciles de usar a los Servicios de informes a través de la herramienta Aspose.Cells.Report.Designer. El API puede realizar todas las tareas relacionadas con el desarrollo de informes en Reporting Services, como configurar fuentes de datos, crear consultas, diseñar informes y publicar informes en Report Server. Dado que Aspose.Cells.Report.Designer utiliza Microsoft Excel como plantilla de informe, los usuarios pueden aprovechar las potentes funciones disponibles en Microsoft Excel.
+Aspose.Cells for Reporting Services es una solución para desarrolladores que necesitan entregar Microsoft informes de Excel en Reporting Services. Agrega características flexibles y fáciles de usar a Reporting Services a través de la herramienta Aspose.Cells.Report.Designer. El API puede realizar todas las tareas relacionadas con el desarrollo de informes en Reporting Services, como configurar fuentes de datos, crear consultas, diseñar informes y publicar informes en Report Server. Dado que Aspose.Cells.Report.Designer utiliza Microsoft Excel como plantilla de informe, los usuarios pueden aprovechar las potentes funciones disponibles en Microsoft Excel.
 
 {{% /alert %}}
 
-## **Aspose.Cells para recursos de servicios de informes**
+## **Aspose.Cells for Reporting Services Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells para la documentación en línea de Reporting Services](/cells/es/reportingservices/)
-- [Aspose.Cells para funciones de servicios de informes](/cells/es/reportingservices/features/)
-- [Aspose.Cells para las notas de la versión de Reporting Services](/cells/es/reportingservices/release-notes/)
-- [Aspose.Cells para la página de productos de servicios de informes](https://products.aspose.com/cells/reporting-services/)
-- [Descargar Aspose.Cells para servicios de informes](https://downloads.aspose.com/cells/reportingservices)
-- [Aspose.Cells para Reporting Services Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para el servicio de asistencia técnica de pago de Reporting Services](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Reporting Services Documentación en línea](/cells/es/reportingservices/)
+- [Aspose.Cells for Reporting Services Características](/cells/es/reportingservices/features/)
+- [Aspose.Cells for Reporting Services Notas de la versión](/cells/es/reportingservices/release-notes/)
+- [Aspose.Cells for Reporting Services Página del producto](https://products.aspose.com/cells/reporting-services/)
+- [Descargar Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
+- [Aspose.Cells for Reporting Services Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Reporting Services Soporte técnico de pago](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells para el logotipo del producto de SharePoint](sharepoint_logo.png)**
+**![Aspose.Cells for SharePoint Logotipo del producto](sharepoint_logo.png)**
 
-**Bienvenido a Aspose.Cells para SharePoint**
+**Bienvenido a Aspose.Cells for SharePoint**
 
-Aspose.Cells para SharePoint es una solución flexible compatible con la conversión de hojas de cálculo que permite convertir documentos de MS Excel dentro de las aplicaciones Microsoft de SharePoint.
+Aspose.Cells for SharePoint es una solución flexible compatible con la conversión de hojas de cálculo que permite convertir documentos de MS Excel dentro de las aplicaciones Microsoft de SharePoint.
 
 {{% /alert %}}
 
-## **Aspose.Cells para recursos de SharePoint**
+## **Aspose.Cells for SharePoint Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells para documentación en línea de SharePoint](/cells/es/sharepoint/)
-- [Aspose.Cells para características de SharePoint](/cells/es/sharepoint/features/)
-- [Aspose.Cells para las notas de la versión de SharePoint](/cells/es/sharepoint/release-notes/)
-- [Aspose.Cells para la página de productos de SharePoint](https://products.aspose.com/cells/sharepoint/)
-- [Descargar Aspose.Cells para SharePoint](https://downloads.aspose.com/cells/sharepoint)
-- [Aspose.Cells para el foro de soporte gratuito de SharePoint](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para el servicio de asistencia técnica de pago de SharePoint](https://helpdesk.aspose.com/)
+- [Aspose.Cells for SharePoint Documentación en línea](/cells/es/sharepoint/)
+- [Aspose.Cells for SharePoint Características](/cells/es/sharepoint/features/)
+- [Aspose.Cells for SharePoint Notas de la versión](/cells/es/sharepoint/release-notes/)
+- [Aspose.Cells for SharePoint Página del producto](https://products.aspose.com/cells/sharepoint/)
+- [Descargar Aspose.Cells for SharePoint](https://downloads.aspose.com/cells/sharepoint)
+- [Aspose.Cells for SharePoint Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for SharePoint Soporte técnico de pago](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
 **![todo:image_alt_text](jasperreports_logo.png)**
 
-**Bienvenido a Aspose.Cells para JasperReports**
+**Bienvenido a Aspose.Cells for JasperReports**
 
- Aspose.Cells para JasperReports es una biblioteca que funciona como reemplazo de[JasperInformes](https://community.jaspersoft.com/project/jasperreports-library)El exportador de Excel original Microsoft, incluido con algunas mejoras excelentes. Elimina la dependencia de la biblioteca de puntos de interés y utiliza Aspose.Cells for Java en el back-end para exportar informes en Microsoft formatos de Excel (XLS, XLSX).
+ Aspose.Cells for JasperReports es una biblioteca que funciona como reemplazo de[JasperInformes](https://community.jaspersoft.com/project/jasperreports-library)El exportador de Excel original Microsoft, incluido con algunas mejoras excelentes. Elimina la dependencia de la biblioteca de puntos de interés y utiliza Aspose.Cells for Java en el back-end para exportar informes en Microsoft formatos de Excel (XLS, XLSX).
 
 {{% /alert %}}
 
-## **Aspose.Cells para JasperReports Recursos**
+## **Aspose.Cells for JasperReports Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells para la documentación en línea de JasperReports](/cells/es/jasperreports/)
-- [Aspose.Cells para funciones de JasperReports](/cells/es/jasperreports/feature-overview/)
-- [Aspose.Cells para las notas de la versión de JasperReports](/cells/es/jasperreports/release-notes/)
-- [Aspose.Cells para la página del producto JasperReports](https://products.aspose.com/cells/jasperreports/)
-- [Descargar Aspose.Cells para JasperReports](https://downloads.aspose.com/cells/jasperreports)
-- [Aspose.Cells para JasperReports Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para el servicio de asistencia técnica de pago de JasperReports](https://helpdesk.aspose.com/)
+- [Aspose.Cells for JasperReports Documentación en línea](/cells/es/jasperreports/)
+- [Aspose.Cells for JasperReports Características](/cells/es/jasperreports/feature-overview/)
+- [Aspose.Cells for JasperReports Notas de la versión](/cells/es/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports Página del producto](https://products.aspose.com/cells/jasperreports/)
+- [Descargar Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
+- [Aspose.Cells for JasperReports Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for JasperReports Soporte técnico de pago](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells para Python a través de .NET Logotipo del producto](home_8.png)**
+**![Aspose.Cells for Python via .NET Logotipo del producto](home_8.png)**
 
-**Bienvenido a Aspose.Cells para Python vía .NET**
+**Bienvenido a Aspose.Cells for Python via .NET**
 
-Aspose.Cells para Python a través de .NET permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells para Python a través de .NET es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que usa su empresa todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for Python via .NET permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via .NET es compatible con los formatos de archivo de hoja de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa utiliza todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
 
 {{% /alert %}}
 
-## **Aspose.Cells para Python vía .NET Recursos**
+## **Aspose.Cells for Python via .NET Recursos**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Cells para Python vía .NET Características](/cells/es/python-net/features/)
-- [Aspose.Cells para Python a través de .NET Notas de la versión](/cells/es/python-net/release-notes/)
-- [Aspose.Cells para Python vía .NET Página del producto](https://products.aspose.com/cells/python-net/)
-- [Descargar Aspose.Cells para Python vía .NET](https://downloads.aspose.com/cells/python-net)
-- [Aspose.Cells para Python a través de .NET Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells para Python a través de .NET Servicio de asistencia técnica de pago](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Python via .NET Características](/cells/es/python-net/features/)
+- [Aspose.Cells for Python via .NET Notas de la versión](/cells/es/python-net/release-notes/)
+- [Aspose.Cells for Python via .NET Página del producto](https://products.aspose.com/cells/python-net/)
+- [Descargar Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
+- [Aspose.Cells for Python via .NET Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Python via .NET Soporte técnico de pago](https://helpdesk.aspose.com/)
 

@@ -8,7 +8,7 @@ url: /it/java/choose-the-platform-and-other-interoperability-technology/
 
  Aspose.Cells è un componente di elaborazione di fogli di calcolo che consente di generare, leggere, modificare e scrivere fogli di calcolo Excel® senza utilizzare Microsoft Excel®.
 
-- Aspose.Cells for Java - una libreria di classi Java ed è progettata per funzionare nelle applicazioni Java.
+- Aspose.Cells for Java - una libreria di classi Java ed è progettata per funzionare in applicazioni Java.
 
 {{% /alert %}} 
 
@@ -16,9 +16,9 @@ url: /it/java/choose-the-platform-and-other-interoperability-technology/
 
 |**Linguaggio di programmazione** |**Aspose.Cells da utilizzare** |**Tecnologia di interoperabilità** |
 |:- |:- |:- |
-| Perle|Java | Inline::Java|
-| PHP|Java |Java Ponte|
-|Python |Java | JPype|
+| Perle| Giava| Inline::Java|
+| PHP| Giava|Ponte di Giava|
+| Pitone| Giava| JPype|
  Dalla tabella sopra puoi vedere che per alcuni linguaggi di programmazione è possibile utilizzare Aspose.Cells for Java. La tabella seguente può aiutarti nella scelta:
 
 |**Scenario** |**Quando usare** |

@@ -5,17 +5,17 @@ type: docs
 weight: 4
 url: /tr/python-net/getting-started/ 
 keywords: python, excel, instal
-description: .NET aracılığıyla Python için Aspose.Cells kurulumu ve kurulum yönergeleri.
+description: Kurulum Aspose.Cells for Python via .NET ve kurulum yönergeleri.
 ---
 ## **sistem gereksinimleri**
- Python üzerinden .NET için Aspose.Cells, platformdan bağımsız API'dir ve herhangi bir platformda (Windows ve Linux) kullanılabilir.[Python](https://www.python.org/downloads/) kurulur.
+ Aspose.Cells for Python via .NET platformdan bağımsızdır API ve herhangi bir platformda (Windows ve Linux) kullanılabilir.[Python](https://www.python.org/downloads/) kurulur.
 
 ## **Python Versiyon**
 - Python 3.6 veya üstü
 
 ## **Kurulum**
 ### **Windows:**
- .NET üzerinden Python için Aspose.Cells'i rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
+ Aspose.Cells for Python via .NET den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -23,7 +23,7 @@ description: .NET aracılığıyla Python için Aspose.Cells kurulumu ve kurulum
 {{< /highlight >}}
 
 ### **Linux:**
- .NET üzerinden Python için Aspose.Cells'i rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
+ Aspose.Cells for Python via .NET den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python
@@ -31,7 +31,7 @@ description: .NET aracılığıyla Python için Aspose.Cells kurulumu ve kurulum
 {{< /highlight >}}
 
 ### **Mac os işletim sistemi:**
- .NET üzerinden Python için Aspose.Cells'i rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
+ Aspose.Cells for Python via .NET den rahatlıkla ulaşabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
 {{< highlight "NET" >}}
 
  $ pip install aspose-cells-python

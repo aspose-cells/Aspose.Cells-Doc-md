@@ -6,7 +6,7 @@ url: /it/net/remove-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-Questo argomento fornisce informazioni su come rimuovere i fogli di lavoro dai file Excel Microsoft utilizzando Aspose.Cells.GridWeb API. È possibile rimuovere un foglio di lavoro specificandone l'indice o il nome.
+Questo argomento fornisce informazioni su come rimuovere i fogli di lavoro dai file di Microsoft Excel utilizzando l'API Aspose.Cells.GridWeb. È possibile rimuovere un foglio di lavoro specificandone l'indice o il nome.
 
 {{% /alert %}} 
 ## **Rimozione di un foglio di lavoro**

@@ -19,5 +19,5 @@ Mehrere Dateien gleichzeitig durchsuchen:
 
 Folgende Optionen stehen zur Verfügung:
 
-- **Optionen finden**: Konzentrieren Sie Ihre Suche, indem Sie in Zellen, nach Formeln oder Formeln suchen, die einen bestimmten Ausdruck enthalten.
+- **Optionen finden**Konzentrieren Sie Ihre Suche, indem Sie in Zellen, nach Formeln oder Formeln suchen, die einen bestimmten Ausdruck enthalten.
 - **Groß-/Kleinschreibung beachten**: Wenn die Option „Groß-/Kleinschreibung beachten“ ausgewählt ist, stimmt die Suche exakt mit Zeichen überein, einschließlich Klein- und Großbuchstaben.

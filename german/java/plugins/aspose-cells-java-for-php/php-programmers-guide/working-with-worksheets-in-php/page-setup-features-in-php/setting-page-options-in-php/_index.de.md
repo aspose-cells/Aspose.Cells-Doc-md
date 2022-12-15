@@ -6,7 +6,7 @@ url: /de/java/setting-page-options-in-php/
 ---
 ## **Aspose.Cells – Festlegen von Seitenoptionen**
 ### **Seitenausrichtung**
- So wenden Sie Seitenausrichtungseinstellungen an mit**Aspose.Cells Java für PHP** , Anruf**Seitenausrichtung** Methode von**Seiteneinrichtung** Modul.
+ So wenden Sie Seitenausrichtungseinstellungen an mit**Aspose.Cells Java for PHP** , Anruf**Seitenausrichtung** Methode von**Seiteneinrichtung** Modul.
 
 **PHP-Code**
 
@@ -46,7 +46,7 @@ url: /de/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **Vergößerungsfaktor, Verkleinerungsfaktor**
- Skalierung anwenden mit**Aspose.Cells Java für PHP** , Anruf**Skalierung** Methode von**Seiteneinrichtung** Modul.
+ Skalierung anwenden mit**Aspose.Cells Java for PHP** , Anruf**Skalierung** Methode von**Seiteneinrichtung** Modul.
 
 **PHP-Code**
 

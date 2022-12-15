@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java v2.1.0 Release Notes
+title: Aspose.Cells for Java v2.1.0 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-java-v2-1-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java v2.1.0 (ny version)](https://releases.aspose.com/cells/java/new-releases/aspose.cells-for-java-v2.1.0-new-release/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java v2.1.0 (ny version)](https://releases.aspose.com/cells/java/new-releases/aspose.cells-for-java-v2.1.0-new-release/)
 
 {{% /alert %}} 
 
-Vi är glada att kunna meddela Aspose.Cells för Java v2.1.0!
+Vi är glada att kunna meddela Aspose.Cells for Java v2.1.0!
 
 Vad har ändrats:
 
@@ -38,7 +38,7 @@ l Fixat några buggar för R/W ODS.
 
 l 48 korrigeringar och andra förbättringar.
 
-Problem lösta i Aspose.Cells för Java v2.1.0
+Problem lösta i Aspose.Cells for Java v2.1.0
 
 |**Utfärdande ID**|**Komponent**|**Sammanfattning**|
 |:- |:- |:- |

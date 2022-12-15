@@ -16,7 +16,7 @@ url: /ru/net/setting-page-options/
 
  Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)учебный класс.
 
-[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)класс обеспечивает[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) свойство, которое используется для установки параметров настройки страницы рабочего листа. На самом деле это[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) имущество – это объект[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) класс, используемый для установки различных параметров макета страницы для печатного листа.[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)Класс предоставляет различные свойства, используемые для установки параметров настройки страницы. Некоторые из этих свойств обсуждаются ниже.
+[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) свойство, которое используется для установки параметров настройки страницы рабочего листа. На самом деле это[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) имущество – это объект[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) класс, используемый для установки различных параметров макета страницы для печатного листа.[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)Класс предоставляет различные свойства, используемые для установки параметров настройки страницы. Некоторые из этих свойств обсуждаются ниже.
 
 ### **Ориентация страницы**
 
@@ -76,7 +76,7 @@ url: /ru/net/setting-page-options/
 |БумагаКонверт11|Конверт №11 (4-1/2 дюйма x 10-3/8 дюйма)|
 |БумагаКонверт12|Конверт №12 (4-1/2 дюйма x 11 дюймов)|
 |БумагаКонверт14|Конверт №14 (5 дюймов x 11-1/2 дюйма)|
-|БумагаCЛист|Лист размера С|
+|БумагаCЛист|Лист размера C|
 |БумагаDЛист|Лист размера D|
 |БумагаEЛист|лист размера Е|
 |PaperEnvelopeDL|Конверт DL (110 мм x 220 мм)|
@@ -178,7 +178,7 @@ url: /ru/net/setting-page-options/
 
 ### **Качество печати**
 
- Установите качество печати рабочих листов, которые будут напечатаны с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Качество печати**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)имущество. Единицей измерения качества печати является количество точек на дюйм (DPI).
+ Установите качество печати рабочих листов, которые будут напечатаны с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Качество печати**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)имущество. Единицей измерения качества печати является число точек на дюйм (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 

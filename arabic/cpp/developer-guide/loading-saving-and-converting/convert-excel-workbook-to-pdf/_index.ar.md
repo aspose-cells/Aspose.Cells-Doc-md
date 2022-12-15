@@ -11,9 +11,9 @@ url: /ar/cpp/convert-excel-workbook-to-pdf/
 
 {{% alert color="primary" %}} 
 
- يقوم Aspose.Cells بكتابة المعلومات حول API ورقم الإصدار مباشرة في وثائق المخرجات. على سبيل المثال ، عند تقديم المستند إلى PDF ، يقوم Aspose.Cells لـ C++ بتعبئة ملف**طلب** حقل بقيمة "Aspose.Cells" و**منتج PDF**حقل بقيمة ، على سبيل المثال "Aspose.Cells v18.5.0".
+ يقوم Aspose.Cells بكتابة المعلومات حول API ورقم الإصدار مباشرة في وثائق المخرجات. على سبيل المثال ، عند تحويل المستند إلى PDF ، يقوم Aspose.Cells for C++ بتعبئة ملف**طلب** حقل بقيمة "Aspose.Cells" و**منتج PDF** حقل بقيمة ، على سبيل المثال "Aspose.Cells v18.5.0".
 
-يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Cells لـ C++ لتغيير أو إزالة هذه المعلومات من مستندات الإخراج.
+يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Cells for C++ لتغيير أو إزالة هذه المعلومات من مستندات الإخراج.
 
 {{% /alert %}} 
 ### **التحويل المباشر**
@@ -24,7 +24,7 @@ Aspose.Cells يدعم التحويل من جداول البيانات إلى PDF
 1.  إنشاء كائن من[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)فئة عن طريق استدعاء مُنشئها الفارغ.
 1. يمكنك فتح / تحميل ملف قالب موجود أو تخطي هذه الخطوة إذا كنت تقوم بإنشاء المصنف من البداية.
 1. قم بأي عمل (إدخال البيانات ، وتطبيق التنسيق ، وتعيين الصيغ ، وإدراج الصور أو الكائنات الرسومية الأخرى ، وما إلى ذلك) في جدول البيانات باستخدام واجهات برمجة التطبيقات Aspose.Cells '.
-1. عندما يكتمل رمز جدول البيانات ، اتصل بـ[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)صف دراسي'[يحفظ](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)طريقة لحفظ جدول البيانات.
+1.  عندما يكتمل رمز جدول البيانات ، اتصل بـ[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)صف دراسي'[يحفظ](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)طريقة لحفظ جدول البيانات.
 
 يجب أن يكون تنسيق الملف PDF ، لذا حدد ملف PDF ذي الصلة (قيمة محددة مسبقًا) من تعداد SaveFormat لإنشاء مستند PDF النهائي
 

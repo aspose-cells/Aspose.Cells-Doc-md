@@ -72,7 +72,7 @@ url: /es/net/aspose-cells-for-net-6-0-1-release-notes/
 
 29058 Problema de renderizado
 
- 28929 Obtener mapa de bits o tamaño de papel de SheetRender API bug
+ 28929 Obtener mapa de bits o tamaño de papel de SheetRender API error
 
  24912 Guardar XLSB con filtros de datos agrega un rango con nombre no válido
 

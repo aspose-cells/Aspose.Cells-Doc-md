@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java 1.4.1.0 Hot Fix Release Notes
+title: Aspose.Cells Java 1.4.1.0 Versionsinformation om hotfix
 type: docs
 weight: 160
 url: /sv/java/aspose-cells-java-1-4-1-0-hot-fix-release-notes/
@@ -12,11 +12,11 @@ url: /sv/java/aspose-cells-java-1-4-1-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för Java V1.4.1.0!
+ Vi har släppt Aspose.Cells for Java V1.4.1.0!
 
  Följande förbättringar och korrigeringar ingår:
 
 - Alla standardtyper av diagram stöds
  Lade till metoden Worksheets.addCopy().
- Lade till metoden Protection.getPasswordHash().
-Uppdaterade objektmodellen så att den liknar .NET-versionen
+Lade till metoden Protection.getPasswordHash().
+ Uppdaterad objektmodell för att göra den lik .NET-versionen

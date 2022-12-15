@@ -6,7 +6,7 @@ url: /sv/java/copying-and-moving-worksheets-in-php/
 ---
 ## **Aspose.Cells - Kopiera och flytta arbetsblad**
 ### **Kopiera arbetsblad i en arbetsbok**
- För att kopiera kalkylblad med**Aspose.Cells för Java i PHP** , ringa upp**copy_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
+ För att kopiera kalkylblad med**Aspose.Cells for Java i PHP** , ringa upp**copy_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
 
 **PHP-kod**
 
@@ -27,7 +27,7 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 {{< /highlight >}}
 ### **Flytta kalkylblad i en arbetsbok**
- För att flytta kalkylblad med**Aspose.Cells för Java i PHP** , ringa upp**move_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
+ För att flytta kalkylblad med**Aspose.Cells for Java i PHP** , ringa upp**move_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
 
 **PHP-kod**
 

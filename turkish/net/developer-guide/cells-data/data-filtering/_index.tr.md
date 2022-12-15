@@ -86,7 +86,7 @@ Bazen, yıldan bağımsız olarak Ocak ayında tarihleri olan tüm hücreler gib
 
 Belirli bir aralık arasında sayıya sahip hücrelerin seçilmesi gibi Aspose.Cells kullanılarak özel filtreler uygulanabilir. Aşağıdaki örnek, sayıları filtrelemek için Custom() işlevinin kullanımını göstermektedir. Örnek dosyalar aşağıda verilmiştir.
 
-1. [Numara.xlsx](72417320.xlsx)
+1. [Sayı.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterNumber-1.cs" >}}

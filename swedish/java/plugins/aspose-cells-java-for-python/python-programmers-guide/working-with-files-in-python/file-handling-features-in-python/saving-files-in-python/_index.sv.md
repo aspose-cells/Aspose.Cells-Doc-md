@@ -1,14 +1,14 @@
 ﻿---
-title: Spara filer i Python
+title: Sparar filer i Python
 type: docs
 weight: 20
 url: /sv/java/saving-files-in-python/
 ---
 ## **Aspose.Cells - Spara filer**
 ### **Sparar filen på någon plats**
- Om utvecklare behöver spara sina filer med**Aspose.Cells Java för Python** till någon lagringsplats kan de helt enkelt ange filnamnet (med dess fullständiga lagringssökväg) och önskat filformat (med hjälp av**FileFormatType**uppräkning) medan du anropar**spara**metod av**Arbetsbok**objekt.
+ Om utvecklare behöver spara sina filer med**Aspose.Cells Java for Python** till någon lagringsplats kan de helt enkelt ange filnamnet (med dess fullständiga lagringssökväg) och önskat filformat (med hjälp av**FileFormatType**uppräkning) medan du anropar**spara**metod av**Arbetsbok**objekt.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

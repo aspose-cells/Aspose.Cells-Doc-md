@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 20.3 Note di rilascio
+title: Aspose.Cells for Android via Java 20.3 Note di rilascio
 type: docs
 weight: 20
 url: /it/java/aspose-cells-for-android-via-java-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 20.3.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 20.3.
 
 {{% /alert %}} 
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41325|Il metodo Cell.getValidation restituisce null per ODS|Nuova caratteristica|
-|CELLSJAVA-43137|Light Cells API: elaborazione fogli in un ordine specifico|Nuova caratteristica|
+|CELLSJAVA-43137|Light Cells API: elaborazione di fogli in un ordine specifico|Nuova caratteristica|
 |CELLSJAVA-43135|Rimuovi ActiveXControl dalla forma dell'immagine|Nuova caratteristica|
 |CELLSJAVA-43141|Aggiungere la proprietà ThreadedComment.CreatedTime|Nuova caratteristica|
 |CELLSJAVA-43074|Da XLSX a PDF, differenza nell'output PDF quando si utilizza Oracle JDK rispetto a Open JDK|Aumento|
@@ -70,8 +70,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43120|java.lang.NumberFormatException durante la conversione della cartella di lavoro in PDF|Eccezione|
 |CELLSJAVA-43140|IllegalArgumentException durante la chiamata acalcFormula()|Eccezione|
 |CELLSJAVA-43110|Conversione in PDF - java.lang.NullPointerException|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà ReplaceOptions.RegexKey.**
 Indica se la chiave cercata è regex. Se vero, la chiave cercata (da sostituire parte) verrà considerata come regex specificata dall'utente.
 ### **Elimina il metodo ValidationCollection.Add(Aspose.Cells.Validation) obsoleto.**
@@ -87,7 +87,7 @@ Tipo di firma elettronica avanzata XML (XAdES).
 ### **Aggiunge la proprietà DigitalSignature.XAdESTType**
 Ottiene e imposta il tipo di firma elettronica avanzata XML (XAdES). Il valore predefinito è Nessuno (XAdES è disattivato).
 ### **Aggiunge la proprietà FormulaParseOptions.Parse.**
- Indica se analizzare la formula durante l'impostazione di un'espressione di formula nella cella. L'impostazione predefinita è**VERO** . Se**falso**, l'espressione della formula di input verrà mantenuta così com'è per la cella finché l'utente non chiama altri metodi per analizzarli o i dati della formula analizzati sono richiesti da altre operazioni come il calcolo delle formule.
+ Indica se analizzare la formula durante l'impostazione di un'espressione di formula nella cella. L'impostazione predefinita è**VERO** . Se**falso**l'espressione della formula di input verrà mantenuta così com'è per la cella finché l'utente non chiama altri metodi per analizzarli o i dati della formula analizzati sono richiesti da altre operazioni come il calcolo delle formule.
 ### **Aggiunge il metodo Workbook.ParseFormulas(bool ignoreError).**
 Analizza tutte le formule che non sono state analizzate quando sono state caricate o impostate su una cella.
 ### **Aggiunge la proprietà PivotTable.ExternalConnectionDataSource.**

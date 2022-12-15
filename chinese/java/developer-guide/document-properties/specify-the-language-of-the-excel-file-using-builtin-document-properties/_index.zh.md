@@ -12,7 +12,7 @@ url: /zh/java/specify-the-language-of-the-excel-file-using-builtin-document-prop
 
 以下示例代码创建一个工作簿并更改其名为*语*.请参阅[输出Excel文件](outputSpecifyLanguageOfExcelFile.xlsx)由显示修改后的代码和屏幕截图生成*语*字段依据[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)财产。
 
-![待办事项：图片_替代_文本](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+![待办事项：图像_替代_文本](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **示例代码**
 

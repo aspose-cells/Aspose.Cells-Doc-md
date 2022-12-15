@@ -6,7 +6,7 @@ url: /ar/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells لـ JasperReports متاح كتقييم مجاني لوقت غير محدود من[صفحة التحميل](https://downloads.aspose.com/cells/jasperreports). التقييم والإصدارات المرخصة للمنتج هي نفس التنزيل.
+ Aspose.Cells for JasperReports متاح كتقييم مجاني غير محدود للوقت من[صفحة التحميل](https://downloads.aspose.com/cells/jasperreports). التقييم والإصدارات المرخصة للمنتج هي نفس التنزيل.
 
  عندما تكون سعيدًا بإصدار التقييم ، يمكنك ذلك[شراء رخصة](https://purchase.aspose.com/). تأكد من أنك تفهم وتوافق على شروط الترخيص.
 
@@ -31,7 +31,7 @@ url: /ar/jasperreports/licensing/
 
 {{% /alert %}}
 
-قم بتنزيل الترخيص على جهاز الكمبيوتر الخاص بك وانسخه إلى المجلد المناسب (على سبيل المثال مجلد التطبيق الخاص بك أو**جاسبر ريبورتس \ ليب**).
+ قم بتنزيل الترخيص على جهاز الكمبيوتر الخاص بك وانسخه إلى المجلد المناسب (على سبيل المثال مجلد التطبيق الخاص بك أو**جاسبر ريبورتس \ ليب**).
 أضف الكود التالي إلى مشروعك:
 
 {{< highlight "csharp" >}}
@@ -58,7 +58,7 @@ license.setLicense(fstream);
 
 {{% /alert %}}
 
-1.  قم بتنزيل الترخيص على جهاز الكمبيوتر الخاص بك وانسخه إلى ملف**\ <InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF** المجلد ، حيث**\ <InstallDir>** لتقف على دليل التثبيت JasperServer.
+1.  قم بتنزيل الترخيص على جهاز الكمبيوتر الخاص بك وانسخه إلى ملف**\ <InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF**المجلد ، حيث**\ <InstallDir>** لتقف على دليل التثبيت JasperServer.
 1.  حدد موقع ملف**\ <InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ applicationContext.xml** ملف وإضافة الأسطر التالية:
 
 **XML**
@@ -77,7 +77,7 @@ license.setLicense(fstream);
 
 قم بتصدير أي تقرير إلى تنسيق XLS وتحقق مما إذا كان التقرير يحتوي على رسالة تقييم. إذا لم تكن هناك رسالة تقييم ، فهذا يعني أن الترخيص يعمل بشكل صحيح.
 
-**يقوم Aspose.Cells الخاص بـ JasperReports بضخ ورقة عمل تقييم في وضع التقييم** 
+**Aspose.Cells for JasperReports يضخ ورقة عمل التقييم في وضع التقييم** 
 
 ![ما يجب القيام به: image_بديل_نص](licensing_1.png)
 

@@ -12,10 +12,10 @@ url: /de/reportingservices/runtime-error-429/
 ##### **Lösung**
 {{% alert color="primary" %}} 
 
- Registrieren Sie sich erneut**Aspose.Cells.ReportingServices.Client.dll** Verwendung der**Regasm.exe** Dienstprogramm:
+ Registrieren Sie sich neu**Aspose.Cells.ReportingServices.Client.dll** Verwendung der**Regasm.exe** Dienstprogramm:
 
 1. Führen Sie cmd.exe als Administrator aus.
-1. cd $(Aspose.Cells für den Installationsordner von Reporting Services).
+1. cd $(Aspose.Cells for Reporting Services Installationsordner).
 1.  Ausführen**regasm.exe** zu registrieren**Aspose.Cells.ReportingServices.Client.dll** manuell.
 
 {{< highlight "java" >}}

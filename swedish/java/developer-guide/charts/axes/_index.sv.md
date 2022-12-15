@@ -33,4 +33,4 @@ Följande kodavsnitt visar hur du ställer in alternativen för X- och Y-axlar.
 ## **Förhandsämnen**
 - [Ändra kryssetikettens riktning](/cells/sv/java/change-tick-label-direction/)
 - [Bestäm vilken axel som finns i diagrammet](/cells/sv/java/determine-which-axis-exists-in-the-chart/)
-- [Hantera automatiska enheter av diagramaxeln som Microsoft Excel](/cells/sv/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+- [Hantera automatiska enheter för diagramaxeln som Microsoft Excel](/cells/sv/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)

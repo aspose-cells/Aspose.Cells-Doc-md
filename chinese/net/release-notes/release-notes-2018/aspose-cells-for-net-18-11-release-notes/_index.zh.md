@@ -13,7 +13,7 @@ url: /zh/net/aspose-cells-for-net-18-11-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSNET-46377|检查单元格是否有循环公式|新功能|
-|CELLSNET-46399|调用 PivotTable.RefreshData() 时发生异常|新功能|
+|CELLSNET-46399|调用 PivotTable.RefreshData() 时出现异常|新功能|
 |CELLSNET-46394|获取类似于 Interop.Excel 的数据透视表刷新日期|新功能|
 |CELLSNET-46261|替换 SmartArt 中的文本不起作用|新功能|
 |CELLSNET-46435|GetValidationValue 为大数返回错误值|强化|

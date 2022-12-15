@@ -6,7 +6,7 @@ url: /de/java/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}} 
 
- Sie können eine Datentabelle in Microsoft Excel erstellen, indem Sie Daten > Was-wäre-wenn-Analyse > Datentabelle ... verwenden. Mit Aspose.Cells können Sie jetzt die Matrixformel der Datentabelle berechnen. Bitte verwende[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) wie gewohnt für die Berechnung beliebiger Formeln.
+Sie können eine Datentabelle in Microsoft Excel erstellen, indem Sie Daten > Was-wäre-wenn-Analyse > Datentabelle ... verwenden. Mit Aspose.Cells können Sie jetzt die Matrixformel der Datentabelle berechnen. Bitte verwende[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) wie gewohnt für die Berechnung beliebiger Formeln.
 
 {{% /alert %}} 
 ## **Berechnung der Array-Formel von Datentabellen**
@@ -18,6 +18,6 @@ url: /de/java/calculation-of-array-formula-of-data-tables/
 
 ![todo: Bild_alt_Text](calculation-of-array-formula-of-data-tables_2.png)
 
-Hier ist der Beispielcode, der zum Generieren der[PDF ausgeben](5472577.pdf) von dem[Excel-Quelldatei](5472579.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
+ Hier ist der Beispielcode, der zum Generieren der[PDF ausgeben](5472577.pdf) von dem[Excel-Quelldatei](5472579.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

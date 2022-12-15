@@ -5,11 +5,11 @@ weight: 40
 url: /it/java/open-and-save-spreadsheet-in-xlsx4j/
 ---
 ## **Aspose.Cells - Apri e salva foglio elettronico**
-Gli sviluppatori utilizzano Aspose.Cells per aprire file per scopi diversi. Ad esempio, apri un file per recuperare i dati da esso o utilizza un file di foglio di calcolo predefinito per designer per velocizzare il processo di sviluppo. Aspose.Cells consente agli sviluppatori di aprire diversi tipi di file sorgente. Questi file di origine possono essere Microsoft report Excel, SpreadsheetML, CSV o file delimitati da tabulazioni.
+Gli sviluppatori utilizzano Aspose.Cells per aprire file per scopi diversi. Ad esempio, apri un file per recuperare i dati da esso o utilizza un file di foglio di calcolo predefinito per designer per velocizzare il processo di sviluppo. Aspose.Cells consente agli sviluppatori di aprire diversi tipi di file sorgente. Questi file di origine possono essere report Microsoft Excel, SpreadsheetML, CSV o file delimitati da tabulazioni.
 
-**Aspose.Cells**consente agli sviluppatori di creare file Excel da zero utilizzando il suo flessibile API. Una volta creati i file Excel, dovrai anche salvare la tua cartella di lavoro (file). Aspose.Cells fornisce una varietà di modi per salvare questi file.
+**Aspose.Cells**consente agli sviluppatori di creare file Excel da zero utilizzando la sua API flessibile. Una volta creati i file Excel, dovrai anche salvare la tua cartella di lavoro (file). Aspose.Cells fornisce una varietà di modi per salvare questi file.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ workbook.save(dataDir + "pivot-rtt-Aspose.xlsm");
 ## **xlsx4j - Apri e salva foglio di calcolo**
 L'esempio seguente mostra come aprire e salvare fogli di calcolo durante l'utilizzo di xlsx4j.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

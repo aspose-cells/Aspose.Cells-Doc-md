@@ -27,17 +27,17 @@ Microsoft Excel 提供了向电子表格文件添加属性的功能。这些文�
 
 |**选择信息菜单**|
 |:- |
-|![待办事项：图片_替代_文本](managing-document-properties_1.png)|
+|![待办事项：图像_替代_文本](managing-document-properties_1.png)|
 1. 点击**特性**标题并选择“高级属性”。
 
 |**单击高级属性选择**|
 |:- |
-|![待办事项：图片_替代_文本](managing-document-properties_2.png)|
+|![待办事项：图像_替代_文本](managing-document-properties_2.png)|
 1. 管理文件的文档属性。
 
 |**属性对话框**|
 |:- |
-|![待办事项：图片_替代_文本](managing-document-properties_3.png)|
+|![待办事项：图像_替代_文本](managing-document-properties_3.png)|
 在 Properties 对话框中，有不同的选项卡，如 General、Summary、Statistics、Contents 和 Customs。每个选项卡都有助于配置与文件相关的不同类型的信息。自定义选项卡用于管理自定义属性。
 
 ## **使用 Aspose.Cells 处理文档属性**
@@ -46,7 +46,7 @@ Microsoft Excel 提供了向电子表格文件添加属性的功能。这些文�
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for .NET 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作器**具有值的字段，例如“Aspose.Cells v17.9”。
+ Aspose.Cells for .NET 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for .NET 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作人**具有值的字段，例如“Aspose.Cells v17.9”。
 
 请注意，您不能指示 Aspose.Cells for .NET 更改或从输出文档中删除此信息。
 
@@ -71,7 +71,7 @@ Aspose.Cells API 支持两种类型的文档属性，内置的和自定义的。
 
 - 要获取属性名称，请使用[**文档属性.名称**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/name).
 - 要获取属性值，请使用[**文档属性.值**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value). [**文档属性.值**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value)将值作为对象返回。
-- 要获取属性类型，请使用[**文档属性.Type**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/type) .这将返回其中一个[**财产种类**](https://reference.aspose.com/cells/net/aspose.cells.properties/propertytype)枚举值。获得属性类型后，使用其中一种**文档属性.ToXXX**方法来获取适当类型的值而不是使用[**文档属性.值**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value).这**文档属性.ToXXX**方法如下表所述。
+- 要获取属性类型，请使用[**文档属性.类型**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/type).这将返回其中一个[**财产种类**](https://reference.aspose.com/cells/net/aspose.cells.properties/propertytype)枚举值。获得属性类型后，使用其中一种**文档属性.ToXXX**方法来获取适当类型的值而不是使用[**文档属性.值**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value).这**文档属性.ToXXX**方法如下表所述。
 
 {{% alert color="primary" %}}
 

@@ -12,13 +12,13 @@ Con Aspose.Cells è semplice aprire file, ad esempio, per recuperare dati o util
 
 ## **Apertura di un file tramite un percorso**
 
- Gli sviluppatori possono aprire un file Excel Microsoft utilizzando il percorso del file sul computer locale specificandolo nel**Cartella di lavoro**costruttore di classe. Basta passare il percorso nel costruttore come a*corda*. Aspose.Cells rileverà automaticamente il tipo di formato del file.
+ Gli sviluppatori possono aprire un file Microsoft Excel utilizzando il percorso del file sul computer locale specificandolo nel file**Cartella di lavoro**costruttore di classe. Basta passare il percorso nel costruttore come a*corda*. Aspose.Cells rileverà automaticamente il tipo di formato del file.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenFileViaPath.py" >}}
 
 ## **Apertura di un file tramite un flusso**
 
-È anche semplice aprire un file Excel come flusso. Per fare ciò, usa una versione sovraccaricata del costruttore che accetta il*BufferStream*oggetto che contiene il file.
+ È anche semplice aprire un file Excel come flusso. Per fare ciò, usa una versione sovraccaricata del costruttore che accetta il*BufferStream*oggetto che contiene il file.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenFileViaStream.py" >}}
 

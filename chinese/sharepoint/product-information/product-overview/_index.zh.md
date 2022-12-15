@@ -6,9 +6,9 @@ url: /zh/sharepoint/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![待办事项：图片_替代_文本](product-overview_1)
-### **欢迎使用 SharePoint 文档 Aspose.Cells！**
-Aspose.Cells for SharePoint 是一种支持电子表格转换的灵活解决方案，可以在 Microsoft SharePoint 应用程序中转换 MS Excel 文档。
+![待办事项：图像_替代_文本](product-overview_1)
+### **欢迎使用 Aspose.Cells for SharePoint 文档！**
+Aspose.Cells for SharePoint 是支持电子表格转换的灵活解决方案，可以在 Microsoft SharePoint 应用程序中转换 MS Excel 文档。
 
 {{% /alert %}} 
 
@@ -43,7 +43,7 @@ Aspose.Cells for SharePoint 设计用于以下产品：
 
 除上述产品外，没有其他系统要求。
 
-本文档描述了[特征](/cells/zh/sharepoint/features/), [安装](/cells/zh/sharepoint/install-aspose-cells-for-sharepoint/), [评估](/cells/zh/sharepoint/evaluate-aspose-cells/), [许可](/cells/zh/sharepoint/license-aspose-cells-for-sharepoint/)SharePoint Aspose.Cells 的常见用例和设置。
+本文档描述了[特征](/cells/zh/sharepoint/features/), [安装](/cells/zh/sharepoint/install-aspose-cells-for-sharepoint/), [评估](/cells/zh/sharepoint/evaluate-aspose-cells/), [许可](/cells/zh/sharepoint/license-aspose-cells-for-sharepoint/)Aspose.Cells for SharePoint 的常见用例和设置。
 
 **使用 SharePoint 文档库中的 Aspose.Cells for SharePoint 转换文档**
 

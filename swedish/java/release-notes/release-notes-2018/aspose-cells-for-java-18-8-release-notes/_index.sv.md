@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 18.8 Release Notes
+title: Aspose.Cells for Java 18.8 Release Notes
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-java-18-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.8.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.8.
 
 {{% /alert %}} 
 
@@ -33,8 +33,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.8.
 |CELLSJAVA-42689|NullPointerException undantag uppstod när CalculateFormula anropades|Undantag|
 |CELLSJAVA-42678|Undantag vid rendering av kalkylblad till PNG-filformat|Undantag|
 |CELLSJAVA-42411|Fel i Cell: E22-Ogiltig formel - undantag vid öppning av MS Excel-fil|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen PdfSecurityOptions.AccessibilityExtractContent**
 Tillstånd att kopiera eller extrahera innehåll (till stöd för tillgänglighet för funktionshindrade användare eller för andra ändamål).
 ### **Lägger till klassen SubtotalSetting**

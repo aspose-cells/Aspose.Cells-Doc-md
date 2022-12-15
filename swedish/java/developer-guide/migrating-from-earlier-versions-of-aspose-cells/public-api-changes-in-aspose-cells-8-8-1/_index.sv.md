@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.8.1
+title: Offentlig API Ändringar i Aspose.Cells 8.8.1
 type: docs
 weight: 280
 url: /sv/java/public-api-changes-in-aspose-cells-8-8-1/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Filtrera data för laddning**
-Aspose.Cells för Java 8.8.1 har exponerat LoadDataFilterOptions-uppräkningen tillsammans med LoadOptions.LoadDataFilterOptions-egenskapen som kan användas för att specificera datatypen som ska laddas när arbetsboken byggs från en mallfil. Filtrering av laddade data kan förbättra prestandan för speciella ändamål, särskilt när du använder LightCells API:er.
+Aspose.Cells for Java 8.8.1 har exponerat LoadDataFilterOptions-uppräkningen tillsammans med LoadOptions.LoadDataFilterOptions-egenskapen som kan användas för att specificera datatypen som ska laddas när arbetsboken byggs från en mallfil. Filtrering av laddade data kan förbättra prestandan för speciella ändamål, särskilt när du använder LightCells API:er.
 
 Uppräkningen LoadDataFilterOptions ger följande val.
 
@@ -62,7 +62,7 @@ Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
 ### **Konvertera diagram direkt till PDF**
-Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.toPdf. Med den här utgåvan har API:et avslöjat en annan överbelastad version av nämnda metod som kan acceptera en instans av OutputStream, vilket gör att användarna kan spara diagrammets PDF i en instans av ByteArrayOutputStream.
+Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.toPdf. Med den här utgåvan har API avslöjat en annan överbelastad version av nämnda metod som kan acceptera en instans av OutputStream, vilket gör att användarna kan spara diagrammets PDF i en instans av ByteArrayOutputStream.
 
 Följande är det enkla användningsscenariot.
 
@@ -90,7 +90,7 @@ chart.toPdf(outStream);
 
 {{< /highlight >}}
 ### **Lade till WorkbookSettings.PaperSize-egenskap**
-Aspose.Cells för Java 8.8.1 har exponerat egenskapen WorkbookSettings.PaperSize för att ställa in standardstorleken för utskriftspapper för hela kalkylarket. Egenskapen WorkbookSettings.PaperSize accepterar ett värde från PaperSizeType-uppräkningen som innehåller de fördefinierade storlekarna för de mest använda utskriftspapperstyperna.
+Aspose.Cells for Java 8.8.1 har exponerat egenskapen WorkbookSettings.PaperSize för att ställa in standardstorleken för utskriftspapper för hela kalkylarket. Egenskapen WorkbookSettings.PaperSize accepterar ett värde från PaperSizeType-uppräkningen som innehåller de fördefinierade storlekarna för de mest använda utskriftspapperstyperna.
 
 **Java**
 
@@ -112,7 +112,7 @@ settings.setPaperSize(PaperSizeType.PAPER_A_4);
 
 {{< /highlight >}}
 ### **Lade till Shape.TextBody-egenskap**
-Denna version av Aspose.Cells för Java API har exponerat Shape.TextBody för att manipulera textens aspekter i en former. Följande utdrag använder nämnda egenskap för att ställa in skuggeffekten för texten i en textruta.
+Den här versionen av Aspose.Cells for Java API har exponerat Shape.TextBody för att manipulera textens aspekter i en former. Följande utdrag använder nämnda egenskap för att ställa in skuggeffekten för texten i en textruta.
 
 {{% alert color="primary" %}} 
 
@@ -124,7 +124,7 @@ Denna version av Aspose.Cells för Java API har exponerat Shape.TextBody för at
 
 {{< highlight "csharp" >}}
 
-//Skapa en instans av Workbook
+ //Skapa en instans av Workbook
 
 Arbetsbok bok = ny arbetsbok();
 
@@ -154,7 +154,7 @@ textBox.setText("Denna text har följande inställningar.\n\nTexteffekter > Skug
 
 {{< /highlight >}}
 ### **Lade till Worksheet.calculateFormula(strängformel, CalculationOptions opts) Metod**
-Aspose.Cells för Java 8.8.1 har avslöjat ytterligare en överbelastning för metoden Worksheet.calculateFormula som ger möjlighet att beräkna en given formel direkt med anpassade alternativ.
+Aspose.Cells for Java 8.8.1 har avslöjat ytterligare en överbelastning för metoden Worksheet.calculateFormula som ger möjlighet att beräkna en given formel direkt med anpassade alternativ.
 
 {{% alert color="primary" %}} 
 

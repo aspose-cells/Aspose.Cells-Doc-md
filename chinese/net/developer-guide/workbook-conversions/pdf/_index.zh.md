@@ -18,7 +18,7 @@ Aspose.Cells 支持将Excel文件转换为PDF，并在转换过程中保持高�
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for .NET 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作器**具有值的字段，例如“Aspose.Cells v17.9”。
+ Aspose.Cells for .NET 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for .NET 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作人**具有值的字段，例如“Aspose.Cells v17.9”。
 
 请注意，您不能指示 Aspose.Cells for .NET 更改或从输出文档中删除此信息。
 
@@ -71,7 +71,7 @@ Aspose.Cells 支持将Excel文件转换为PDF，并在转换过程中保持高�
 
 随着**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**类，您可以将源工作簿中的自定义属性导出到 PDF。**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**枚举器用于指定导出属性的方式。可以在 Adobe Acrobat Reader 中通过单击“文件”然后单击“属性”选项来观察这些属性，如下图所示。可以下载模板文件“sourceWithCustProps.xlsx”[这里](sourceWithCustProps.xlsx)用于测试和输出 PDF 文件“outSourceWithCustProps”可用[这里](outSourceWithCustProps.pdf)进行分析。
 
-![待办事项：图片_替代_文本](convert-excel-workbook-to-pdf_1.png)
+![待办事项：图像_替代_文本](convert-excel-workbook-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ExportCustomPropertiesToPdf-1.cs" >}}
 

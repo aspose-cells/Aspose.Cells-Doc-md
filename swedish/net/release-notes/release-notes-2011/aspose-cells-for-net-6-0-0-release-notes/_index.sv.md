@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 6.0.0 Release Notes
+title: Aspose.Cells for .NET 6.0.0 Release Notes
 type: docs
 weight: 60
 url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 6.0.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-6.0.0/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 6.0.0](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-6.0.0/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v6.0.0 för användarna!
+ Vi är glada att kunna meddela Aspose.Cells for .NET v6.0.0 för användarna!
 
 \1) Aspose.Cells 
 
@@ -52,9 +52,9 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27382 Trasig bild får Aspose.Cells att krascha
 
- 27998 Undantag vid öppning av legitim XLSX-fil
+27998 Undantag vid öppning av legitim XLSX-fil
 
-28318 Ett undantag inträffade när en XLS-arbetsbok sparades i XLSM-format
+ 28318 Ett undantag inträffade när en XLS-arbetsbok sparades i XLSM-format
 
  Buggar
 
@@ -86,9 +86,9 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27956 Ställ in en befintlig tabelldatakälla till namngivna intervall
 
- 28045 Pivottabell skadad efter uppdatering av källdatabladet
+28045 Pivottabell skadad efter uppdatering av källdatabladet
 
-27687 Kanter saknas till höger och längst ned på bilden i funktionen Ark till bild
+ 27687 Kanter saknas till höger och längst ned på bilden i funktionen Ark till bild
 
  27951 Punkter saknas i den exporterade bilden i funktionen Ark till bild
 
@@ -114,7 +114,7 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27835 Stöd IE9 utan att använda kompatibilitetsläge
 
- 28145 Problem med webbläsaren Google Chrome
+ 28145 Problem med webbläsaren Chrome Google
 
  26368 Det går inte att hitta en cell genom att klicka på en hyperlänk
 

@@ -21,6 +21,6 @@ url: /es/java/digitally-sign-a-vba-code-project-with-certificate/
 
 - [Archivo Excel de origen](5115028.xlsm) utilizado en el código de ejemplo.
 - [Ejemplo de archivo pfx](5115039.pfx) para crear Firma Digital. Instálelo en su computadora para ejecutar este código. Su contraseña es 1234.
-- [Archivo de Excel de salida](5115029.xlsm) generado por el código de muestra.
+- [Archivo de Excel de salida](5115029.xlsm) generado por el código de ejemplo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ManagingVBAModules-DigitallySignVbaProjectWithCertificate.java" >}}

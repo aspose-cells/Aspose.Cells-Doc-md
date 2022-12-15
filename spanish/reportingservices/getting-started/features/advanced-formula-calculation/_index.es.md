@@ -17,6 +17,6 @@ Microsoft Las fórmulas dinámicas de Excel no se calculan, sino que se conviert
 
 {{% /alert %}} 
 - **Salida de fórmula**
-**Un informe de muestra que contiene fórmulas (calculadas) se exporta mediante Aspose.Cells para Reporting Services** 
+**Un informe de muestra que contiene fórmulas (calculadas) se exporta usando Aspose.Cells for Reporting Services** 
 
 ![todo:imagen_alternativa_texto](advanced-formula-calculation_1.png)

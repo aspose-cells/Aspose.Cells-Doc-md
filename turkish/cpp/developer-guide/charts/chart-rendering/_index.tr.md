@@ -6,7 +6,7 @@ url: /tr/cpp/chart-rendering/
 ---
 ## **Grafik Oluşturma**
 
-Aspose.Cells API'ler, konu altında ayrıntılı olarak açıklandığı gibi çeşitli Excel grafikleri oluşturmayı destekler[Excel Grafikleri Oluşturma ve Özelleştirme](/cells/tr/cpp/creating-and-customizing-charts/)Grafikleri resim ve PDF formatında işlemek için Aspose.Cells API'lerinin kullanımını göstermek için, aşağıdaki parçacığa göre Sütun türünde bir grafik oluşturacağız.
+Aspose.Cells API'ler, konu altında ayrıntılı olarak açıklandığı gibi çeşitli Excel grafikleri oluşturmayı destekler[Excel Grafikleri Oluşturma ve Özelleştirme](/cells/tr/cpp/creating-and-customizing-charts/). Grafikleri resim ve PDF formatında işlemek için Aspose.Cells API'lerinin kullanımını göstermek için, aşağıdaki parçacığa göre Sütun türünde bir grafik oluşturacağız.
 
 {{< highlight "cpp" >}}
 

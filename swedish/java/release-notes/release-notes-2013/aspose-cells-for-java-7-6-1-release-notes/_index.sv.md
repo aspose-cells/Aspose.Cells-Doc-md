@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 7.6.1 Release Notes
+title: Aspose.Cells for Java 7.6.1 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-java-7-6-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.6.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.6.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.6.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.6.1/)
 
 {{% /alert %}} 
 
@@ -24,6 +24,6 @@ url: /sv/java/aspose-cells-for-java-7-6-1-release-notes/
 
 : 
 
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för
+Eftersom kodbasen för Aspose.Cells for Java matchar koden för
 
 .

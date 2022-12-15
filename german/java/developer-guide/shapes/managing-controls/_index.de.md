@@ -55,7 +55,7 @@ Gehen Sie folgendermaßen vor, um ein Kontrollkästchen-Steuerelement in Ihr Arb
 
 ### **Mit Aspose.Cells**
 
- Aspose.Cells bietet die[**CheckBoxCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/checkboxcollection) Klasse, die verwendet wird, um der Sammlung ein neues Kontrollkästchen hinzuzufügen. Es gibt eine andere Klasse,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/java/com.aspose.cells/CheckBox), das ein Kontrollkästchen darstellt. Es hat einige wichtige Mitglieder:
+ Aspose.Cells bietet die[**CheckBoxCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/checkboxcollection) Klasse, die verwendet wird, um der Auflistung ein neues Kontrollkästchen hinzuzufügen. Es gibt eine andere Klasse,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/java/com.aspose.cells/CheckBox), das ein Kontrollkästchen darstellt. Es hat einige wichtige Mitglieder:
 
 -  Das[**setLinkedCell**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#LinkedCell) Methode gibt eine Zelle an, die mit dem Kontrollkästchen verknüpft ist.
 -  Das[**Text setzen**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Text) Methode gibt die dem Kontrollkästchen zugeordnete Textzeichenfolge an. Es ist die Bezeichnung des Kontrollkästchens.

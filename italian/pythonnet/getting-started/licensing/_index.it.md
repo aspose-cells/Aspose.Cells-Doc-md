@@ -6,7 +6,7 @@ url: /it/python-net/licensing/
 ---
 {{% alert color="primary" %}}
 
- Puoi facilmente scaricare una versione di valutazione di Aspose.Cells Python tramite .Net dal suo[pagina di download](https://pypi.org/project/aspose-cells-python/) @ Pypi repository. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del componente. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
+Puoi facilmente scaricare una versione di valutazione di Aspose.Cells Python tramite .Net dal suo[pagina di download](https://pypi.org/project/aspose-cells-python/) @ Pypi repository. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del componente. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
 
 {{% /alert %}}
 
@@ -17,14 +17,14 @@ La versione di valutazione di Aspose.Cells Python tramite il prodotto .Net (senz
 Le limitazioni sono mostrate di seguito:
 
 - **Numero di file aperti** (Aspose.Cells Python tramite .Net)
-Quando si esegue il programma, è possibile aprire solo 100 file Excel utilizzando Aspose.Cells Python tramite la libreria .Net. Se la tua applicazione supera questo numero, verrà generata un'eccezione.
+ Quando esegui il tuo programma, puoi aprire solo 100 file Excel usando Aspose.Cells Python tramite la libreria .Net. Se la tua applicazione supera questo numero, verrà generata un'eccezione.
 
 
 Inoltre, un foglio di lavoro con filigrana di valutazione verrà sempre visualizzato come foglio di lavoro attivo nel file excel generato utilizzando Aspose.Cells Python tramite libreria. Solo nella versione con licenza, puoi impostare il foglio di lavoro attivo su altri fogli di lavoro. Nel file PDF o immagine di output di Aspose.Cells Python tramite, una filigrana di valutazione verrebbe incollata nella parte superiore del documento/immagine.
 
 {{% alert color="primary" %}}
 
- Se vuoi testare Aspose.Cells Python tramite senza limitazioni della versione di valutazione, puoi anche richiedere un[Licenza temporanea di 30 giorni](https://purchase.aspose.com/temporary-license).
+ Se vuoi testare Aspose.Cells Python tramite senza limitazioni della versione di valutazione, puoi anche richiedere a[Licenza temporanea di 30 giorni](https://purchase.aspose.com/temporary-license).
 
 {{% /alert %}}
 

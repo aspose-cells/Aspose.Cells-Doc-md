@@ -23,7 +23,7 @@ Aspose.Cells stöder villkorlig formatering på flera sätt:
 
 ### **Använder Designer-kalkylblad**
 
-Utvecklare kan skapa ett designerkalkylblad som innehåller villkorlig formatering i Microsoft Excel och sedan öppna det kalkylarket med Aspose.Cells. Aspose.Cells laddar och sparar designerkalkylarket, och behåller alla villkorsinställningar för formatering.
+Utvecklare kan skapa ett designerkalkylblad som innehåller villkorlig formatering i Microsoft Excel och sedan öppna det kalkylarket med Aspose.Cells. Aspose.Cells läser in och sparar designerkalkylarket och behåller alla inställningar för villkorlig formatering.
 
 ### **Använda kopieringsmetoden**
 
@@ -36,14 +36,14 @@ Utvecklare kan skapa ett designerkalkylblad som innehåller villkorlig formateri
 Aspose.Cells låter dig både lägga till och ta bort villkorlig formatering under körning. Kodexemplen nedan visar hur du ställer in villkorlig formatering:
 
 1. Instantiera en arbetsbok.
-1. Lägg till ett tomt villkorligt format.
+1. Lägg till ett tomt villkorsformat.
 1. Ställ in intervallet som formateringen ska gälla för.
 1. Definiera formateringsvillkoren.
 1. Spara filen.
 
 Efter det här exemplet kommer ett antal andra mindre exempel som visar hur man använder teckensnittsinställningar, raminställningar och mönster.
 
-Microsoft Excel 2007 lade till mer avancerad villkorlig formatering som Aspose.Cells också stöder. Exemplen här illustrerar hur man använder enkel formatering, Microsoft Excel 2007-exemplen visar hur man tillämpar mer avancerad villkorlig formatering.
+Microsoft Excel 2007 lade till mer avancerad villkorlig formatering som Aspose.Cells också stöder. Exemplen här illustrerar hur man använder enkel formatering, exemplen Microsoft Excel 2007 visar hur man tillämpar mer avancerad villkorlig formatering.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormattingatRuntime-1.cs" >}}
 

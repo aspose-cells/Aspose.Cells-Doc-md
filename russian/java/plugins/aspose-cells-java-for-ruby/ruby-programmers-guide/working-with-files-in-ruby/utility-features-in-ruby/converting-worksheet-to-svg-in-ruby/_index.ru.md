@@ -25,7 +25,7 @@ img_options.setOnePagePerSheet (истина)
 
 
 
-Конвертируем каждый рабочий лист в формат svg
+# Конвертируем каждый рабочий лист в формат svg
 
 sheet_count = рабочая книга.getWorksheets().getCount()
 

@@ -4,7 +4,7 @@ linktitle: Conversioni della cartella di lavoro
 type: docs
 weight: 65
 url: /it/net/convert-workbook-to-different-formats/
-description: Converti file Excel in Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS, JSON, SQL, XML e altro.
+description: Converti file Excel in Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS, JSON, SQL, XML e altro ancora.
 ---
 {{% alert color="primary" %}}
 
@@ -14,7 +14,7 @@ Aspose.Cells supporta la conversione tra molti formati. Tecnicamente, la convers
 
 ## **Converti la cartella di lavoro di Excel in PDF**
 
-I file PDF sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato di documento standard e agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire i file Excel Microsoft in documenti PDF.
+I file PDF sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato di documento standard e agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire i file Microsoft Excel in documenti PDF.
 
 Aspose.Cells supporta la conversione di file Excel in PDF e mantiene un'elevata fedeltà visiva nella conversione.
 
@@ -40,7 +40,7 @@ Il linguaggio di markup per XPS è un sottoinsieme di XAML che consente di incor
 
 Un file XPS è, infatti, un archivio ZIP unicode che utilizza le Open Packaging Conventions, contenente i file che compongono il documento. Questi includono un file di markup XML per ogni pagina, testo, caratteri incorporati, immagini raster, grafica vettoriale 2D, nonché informazioni sulla gestione dei diritti digitali. Il contenuto di un file XPS può essere esaminato semplicemente aprendolo in un'applicazione che supporti i file ZIP.
 
-Da Aspose.Cells 6.0.0, Microsoft è supportata la conversione da Excel a XPS.
+Da Aspose.Cells 6.0.0, è supportata la conversione da Microsoft Excel a XPS.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
 
@@ -62,7 +62,7 @@ L'esempio di codice seguente mostra come salvare una cartella di lavoro come fil
 
 ## **Conversione della cartella di lavoro di Excel in HTML**
 
- Il Aspose.Cells API fornisce supporto per l'esportazione di fogli di calcolo in formato HTML. A tale scopo Aspose.Cells utilizza il**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**class per fornire la flessibilità necessaria per controllare diversi aspetti dell'output HTML.
+ L'API Aspose.Cells fornisce supporto per l'esportazione di fogli di calcolo in formato HTML. A tale scopo Aspose.Cells utilizza il**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**class per fornire la flessibilità necessaria per controllare diversi aspetti dell'output HTML.
 
 L'esempio di codice seguente mostra come salvare una cartella di lavoro come file HTML.
 
@@ -89,7 +89,7 @@ Di seguito sono riportati i dettagli di alcune delle impostazioni dell'immagine 
 
 ## **Converti la cartella di lavoro di Excel in Markdown**
 
-Il Aspose.Cells API fornisce supporto per l'esportazione di fogli di calcolo in formato Markdown. Per esportare il foglio di lavoro attivo in Markdown, passare**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** come secondo parametro di**[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** metodo. Puoi anche usare**[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)** class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in Markdown.
+L'API Aspose.Cells fornisce supporto per l'esportazione di fogli di calcolo in formato Markdown. Per esportare il foglio di lavoro attivo in Markdown, passare**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** come secondo parametro di**[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** metodo. Puoi anche usare**[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)** class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in Markdown.
 
  L'esempio di codice seguente illustra l'esportazione del foglio di lavoro attivo in Markdown utilizzando**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** membro di enumerazione. Si prega di consultare il[output file Markdown](md_sample.txt)generato dal codice per riferimento.
 
@@ -117,7 +117,7 @@ Il frammento di codice seguente mostra come convertire Excel in TIFF:
 
 ## **Converti la cartella di lavoro di Excel in DOCX**
 
-Il Aspose.Cells API fornisce il supporto per la conversione di fogli di calcolo in formato DOCX. Per esportare la cartella di lavoro in DOCX, passare[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodo. Puoi anche usare[**DocxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/docxsaveoptions) class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in DOCX.
+L'API Aspose.Cells fornisce supporto per la conversione di fogli di calcolo in formato DOCX. Per esportare la cartella di lavoro in DOCX, passare[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodo. Puoi anche usare[**DocxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/docxsaveoptions) class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in DOCX.
 
  L'esempio di codice seguente illustra l'esportazione del foglio di lavoro attivo in DOCX utilizzando[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) membro di enumerazione. Si prega di consultare il[file DOCX di output](Book1.docx)generato dal codice per riferimento.
 
@@ -125,7 +125,7 @@ Il Aspose.Cells API fornisce il supporto per la conversione di fogli di calcolo 
 
 ## **Converti la cartella di lavoro di Excel in PPTX**
 
-Il Aspose.Cells API fornisce il supporto per la conversione di fogli di calcolo in formato PPTX. Per esportare la cartella di lavoro in PPTX, passare[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodo. Puoi anche usare[**PptxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pptxsaveoptions) class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in PPTX.
+L'API Aspose.Cells fornisce supporto per la conversione di fogli di calcolo in formato PPTX. Per esportare la cartella di lavoro in PPTX, passare[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodo. Puoi anche usare[**PptxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pptxsaveoptions) class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in PPTX.
 
  L'esempio di codice seguente illustra l'esportazione del foglio di lavoro attivo in PPTX utilizzando[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) membro di enumerazione. Si prega di consultare il[file di output PPTX](Book1.pptx)generato dal codice per riferimento.
 

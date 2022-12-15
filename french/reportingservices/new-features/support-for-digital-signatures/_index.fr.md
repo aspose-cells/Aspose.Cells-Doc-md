@@ -10,16 +10,16 @@ url: /fr/reportingservices/support-for-digital-signatures/
 
  Vous pouvez créer une signature numérique personnelle en utilisant le Microsoft Selfcert.exe ou tout autre outil, ou vous pouvez acheter une signature numérique. Pour signer une feuille de calcul, attachez une signature à vos classeurs une fois que vous avez créé une signature numérique.
 
- Aspose.Cells pour Reporting Services prend en charge les signatures numériques.
+ Aspose.Cells for Reporting Services prend en charge les signatures numériques.
 
 {{% /alert %}} 
 ### **Travailler avec des signatures numériques**
 #### **Formats Excel pris en charge pour les signatures numériques**
-Aspose.Cells pour Reporting Services prend en charge les signatures numériques lors de l'exportation vers les formats de fichier Excel 2007 et ODS.
+Aspose.Cells for Reporting Services prend en charge les signatures numériques lors de l'exportation vers les formats de fichier Excel 2007 et ODS.
 #### **Configuration des signatures numériques**
  La**Aspose.Cells.ReportingServices.xml** contient les informations de configuration et le texte d'une signature numérique dans le<DigitalSignature> étiquette:
 
-- Lorsque DigitalSignature est désactivé, Aspose.Cells pour Reporting Services désactive la fonctionnalité de signature numérique.
+- Lorsque DigitalSignature est désactivé, Aspose.Cells for Reporting Services désactive la fonctionnalité de signature numérique.
  Par exemple:
 
 {{< highlight "java" >}}

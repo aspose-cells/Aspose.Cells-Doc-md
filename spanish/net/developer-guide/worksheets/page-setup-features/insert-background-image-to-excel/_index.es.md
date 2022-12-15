@@ -24,7 +24,7 @@ Para configurar la imagen de fondo de una hoja en Microsoft Excel (por ejemplo, 
 
 ## **Configuración de fondo de hoja con Aspose.Cells**
 
-El siguiente código establece una imagen de fondo utilizando una imagen de una transmisión.
+El siguiente código establece una imagen de fondo utilizando una imagen de una secuencia.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetBackgroundPicture-1.cs" >}}
 

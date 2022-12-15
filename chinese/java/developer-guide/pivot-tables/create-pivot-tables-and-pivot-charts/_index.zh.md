@@ -61,11 +61,11 @@ Aspose.Cells 提供了一组用于创建数据透视表的特殊类。这些类�
 
 **输入数据** 
 
-![待办事项：图片_替代_文本](create-pivot-tables-and-pivot-charts_1.png)
+![待办事项：图像_替代_文本](create-pivot-tables-and-pivot-charts_1.png)
 
 **输出数据透视表**
 
-![待办事项：图片_替代_文本](create-pivot-tables-and-pivot-charts_2.png)
+![待办事项：图像_替代_文本](create-pivot-tables-and-pivot-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotTable-CreatePivotTable.java" >}}
 
@@ -81,7 +81,7 @@ Aspose.Cells 提供了一组用于创建数据透视表的特殊类。这些类�
 
 **枢轴图表表**
 
-![待办事项：图片_替代_文本](create-pivot-tables-and-pivot-charts_3.png)
+![待办事项：图像_替代_文本](create-pivot-tables-and-pivot-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotChartbasedonPivotTable-CreatePivotChartbasedonPivotTable.java" >}}
 

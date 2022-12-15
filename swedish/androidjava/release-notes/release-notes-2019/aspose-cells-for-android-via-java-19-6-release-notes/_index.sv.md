@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 19.6 Release Notes
+title: Aspose.Cells for Android via Java 19.6 Release Notes
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-for-android-via-java-19-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.6.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.6.
 
 {{% /alert %}} 
 
@@ -27,7 +27,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.6
 |CELLSJAVA-42909|Problem med funktionen DATUMVÄRDE|Insekt|
 |CELLSJAVA-42910|Problem med VLOOKUP-funktionen när ett tecken finns i strängen|Insekt|
 |CELLSJAVA-42911|Problem när du använder TEXT-funktionen för datum|Insekt|
-|CELLSJAVA-42896|Konvertering till PDF vänder telefonnummer|Insekt|
+|CELLSJAVA-42896|Konvertering till PDF vänder över telefonnummer|Insekt|
 |CELLSJAVA-42900|Konvertering till PDF ändrar textordning|Insekt|
 |CELLSJAVA-42932|Villkorligt formateringsfel med metoden Style.getDisplayStyle|Insekt|
 |CELLSJAVA-42928|Vissa rader återspeglas inte i XLSX till PDF-konvertering|Insekt|
@@ -41,8 +41,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.6
 |CELLSJAVA-42859|CellsException för att ladda namn från ODS-fil|Undantag|
 |CELLSJAVA-42908|Undantag vid anrop av Name.getRefersTo()|Undantag|
 |CELLSJAVA-42926|IllegalStateException vid inläsning av arbetsbok|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 ### **Lägger till StreamProviderOptions konstruktor**
 Nya StreamProviderOptions.
 ### **Lägger till FileFormatType.GraphChart enum**

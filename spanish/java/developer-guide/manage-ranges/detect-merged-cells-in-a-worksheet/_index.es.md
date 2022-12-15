@@ -8,7 +8,7 @@ url: /es/java/detect-merged-cells-in-a-worksheet/
 
 En Microsoft Excel, se pueden combinar varias celdas en una sola. Esto se usa a menudo para crear tablas complejas o para crear una celda que contiene un encabezado que abarca varias columnas.
 
-Aspose.Cells le permite identificar áreas de celdas combinadas en una hoja de cálculo. También puedes separarlos. Este artículo proporciona las líneas de código más simples para realizar la tarea usando Aspose.Cells.
+Aspose.Cells le permite identificar áreas de celdas combinadas en una hoja de trabajo. También puedes separarlos. Este artículo proporciona las líneas de código más simples para realizar la tarea usando Aspose.Cells.
 
 Este artículo proporciona instrucciones compactas sobre cómo encontrar y luego deshacer la combinación de celdas en una hoja de trabajo.
 

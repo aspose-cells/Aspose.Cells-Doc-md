@@ -29,6 +29,6 @@ Microsoft Excel允许设置公式计算方式，即公式的计算方式。存�
 
 **输出文件。注意公式计算方式。**
 
-![待办事项：图片_替代_文本](setting-formula-calculation-mode-of-workbook_1.png)
+![待办事项：图像_替代_文本](setting-formula-calculation-mode-of-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetFormulaCalculationMode-SetFormulaCalculationMode.java" >}}

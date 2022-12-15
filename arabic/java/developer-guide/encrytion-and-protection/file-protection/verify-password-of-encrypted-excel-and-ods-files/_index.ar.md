@@ -12,7 +12,7 @@ description: تحقق من كلمة مرور ملفات Excel المشفرة (xl
 ## **تحقق من كلمة مرور الملف المشفر**
 
  للتحقق من كلمة المرور الخاصة بالملف المشفر ، يوفر Aspose.Cells for Java الامتداد[**اكد كلمة المرور**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) طريقة. تقبل الطرق معلمتين ، دفق الملف وكلمة المرور التي يجب التحقق منها.
-يوضح مقتطف الشفرة التالي استخدام ملف[**اكد كلمة المرور**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) طريقة للتحقق مما إذا كانت كلمة المرور المقدمة صالحة أم لا.
+ يوضح مقتطف الشفرة التالي استخدام ملف[**اكد كلمة المرور**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) طريقة للتحقق مما إذا كانت كلمة المرور المقدمة صالحة أم لا.
 
 ### **عينة من الرموز:**
 

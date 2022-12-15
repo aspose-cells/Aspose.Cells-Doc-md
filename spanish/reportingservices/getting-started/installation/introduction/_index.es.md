@@ -6,14 +6,14 @@ url: /es/reportingservices/introduction/
 ---
 {{% alert color="primary" %}}
 
-Esta sección describe cómo instalar y desinstalar Aspose.Cells para Reporting Services.
+Esta sección describe cómo instalar y desinstalar Aspose.Cells for Reporting Services.
 
-Aspose.Cells para Reporting Services se puede implementar de dos maneras:
+Aspose.Cells for Reporting Services se puede implementar de dos maneras:
 
 - utilizando un instalador MSI completo o
 - usando una sola DLL.
 
-Tanto el instalador como la DLL están disponibles para su descarga gratuita en el Aspose.Cells para Reporting Services[página de descarga](https://downloads.aspose.com/cells/reportingservices).
+ Tanto el instalador como la DLL están disponibles para su descarga gratuita en el Aspose.Cells for Reporting Services[página de descarga](https://downloads.aspose.com/cells/reportingservices).
 
 Usar el instalador tiene un par de ventajas:
 

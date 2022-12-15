@@ -6,7 +6,7 @@ url: /ar/cpp/aspose-cells-for-cpp-22-8-1-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لـ C++ 22.8.1 لـ Windows.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for C++ 22.8.1 لـ Windows.
 
 {{% /alert %}}
 

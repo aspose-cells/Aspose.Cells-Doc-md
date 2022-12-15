@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 19.6 Notes de version
+title: Aspose.Cells for Android via Java 19.6 Notes de mise à jour
 type: docs
 weight: 30
 url: /fr/java/aspose-cells-for-android-via-java-19-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Cells pour Android via Java 19.6.
+Cette page contient les notes de version pour Aspose.Cells for Android via Java 19.6.
 
 {{% /alert %}} 
 
@@ -42,7 +42,7 @@ Cette page contient les notes de version pour Aspose.Cells pour Android via Java
 |CELLSJAVA-42908|Exception lors de l'appel de Name.getRefersTo()|Exception|
 |CELLSJAVA-42926|IllegalStateException lors du chargement du classeur|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 ### **Ajoute le constructeur StreamProviderOptions**
 Nouvelles options de fournisseur de flux.
 ### **Ajoute l'énumération FileFormatType.GraphChart**

@@ -29,7 +29,7 @@ url: /zh/net/how-to-use-aspose-cells-griddesktop/
 ### **运行应用程序**
 最后，按**Ctrl+F5**或点击**开始**按钮。当应用程序运行时，我们会看到一个包含空 Aspose.Cells.GridDesktop 控件的窗体。现在您可以通过单击向单元格添加值。以下屏幕截图显示了您的应用程序最终的外观。
 
-![待办事项：图片_替代_文本](how-to-use-aspose-cells-griddesktop_1.png)
+![待办事项：图像_替代_文本](how-to-use-aspose-cells-griddesktop_1.png)
 
 不仅可以向控件添加值，还可以执行其他任务，例如更改行高或列宽、复制 (Ctrl+C) 或剪切 (Ctrl+X) 单元格数据到剪贴板和将 (Ctrl+V) 数据粘贴到单元格等。要执行更多操作，请右键单击控件以查看其上下文菜单。
 

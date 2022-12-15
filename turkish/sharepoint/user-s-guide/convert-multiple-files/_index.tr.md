@@ -8,7 +8,7 @@ url: /tr/sharepoint/convert-multiple-files/
 
 1.  Seçme**Aspose.Cells ile dönüştürün** ebeveynde kalırken istediğiniz klasörün ECB'sinden.
 
-Birden çok dosyayı dönüştürmek için:
+ Birden çok dosyayı dönüştürmek için:
 
 1.  Kitaplıkta birkaç dosya seçin ve seçin**Aspose.Cells ile dönüştürün**. 
 
@@ -27,6 +27,6 @@ Birden çok dosyayı dönüştürmek için:
 ### **SharePoint 2010 altında Sunucu Şerit Düğmesini Kullanma**
  SharePoint 2010 altında, SharePoint 2007 / WSS 3 ile kullanılan özel eylem menüsü yerine sunucu şeridi düğmesi mevcuttur.
 
-**SharePoint 2010'da SharePoint için Aspose.Cells ile belgeleri dönüştürme** 
+**SharePoint 2010'da Aspose.Cells for SharePoint ile belgeleri dönüştürme** 
 
 ![yapılacaklar:resim_alternatif_Metin](convert-multiple-files_3.png)

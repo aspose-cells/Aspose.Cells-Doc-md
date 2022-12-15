@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 19.12 Release Notes
+title: Aspose.Cells for Android via Java 19.12 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.12.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.12.
 
 {{% /alert %}} 
 
@@ -45,7 +45,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.1
 |CELLSJAVA-43056|Cell.setFormula() uppdateras inte för externa länkar|Insekt|
 |CELLSJAVA-42767|Bild missade under konvertering av Excel till PDF|Insekt|
 |CELLSJAVA-42913|Inbäddade Visio objekt renderade felaktigt till PDF|Insekt|
-|CELLSJAVA-42883|Problem med att extrahera graftext från Aspose.Cells för fil i Java 95-format|Insekt|
+|CELLSJAVA-42883|Problem med att extrahera graftext från Aspose.Cells for Java fil i 95-format|Insekt|
 |CELLSJAVA-42931|Bilagor/objekt hämtade inte från Excel95|Insekt|
 |CELLSJAVA-43051|Bildförhållande bibehålls inte för bilden|Insekt|
 |CELLSJAVA-43057|Problem med att lägga till rubrikbild på första sidan i utdata Excel|Insekt|
@@ -53,8 +53,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.1
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException när Excel-filen laddas|Undantag|
 |CELLSJAVA-43060|Undantag "java.lang.NullPointerException" på Workbook.save efter att ha ställt in extern datakälla som tom|Undantag|
 |CELLSJAVA-42923|Undantag vid laddning av XLS-dokument|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 ### **Lägger till metoden Cells.RemoveDuplicates().**
 Tar bort dubbletter av data från intervallet.
 ### **Lägger till egenskapen OleObject.FullObjectBin**

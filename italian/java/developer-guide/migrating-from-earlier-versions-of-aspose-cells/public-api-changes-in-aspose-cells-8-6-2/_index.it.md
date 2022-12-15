@@ -1,19 +1,19 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.6.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.6.2
 type: docs
 weight: 220
 url: /it/java/public-api-changes-in-aspose-cells-8-6-2/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.1 alla 8.6.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.6.1 alla 8.6.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per la richiamata con marcatori intelligenti**
-Questa versione di Aspose.Cells for Java API ha esposto il campo WorkbookDesigner.CallBack e l'interfaccia ISmartMarkerCallBack che insieme consentono di[ricevere le notifiche relative al riferimento di cella e/o al marcatore intelligente in fase di elaborazione](/cells/it/java/getting-notifications-while-merging-data-with-smart-markers/) . La parte di codice seguente illustra l'utilizzo dell'interfaccia ISmartMarkerCallBack per definire una nuova classe che gestisce la richiamata per il metodo WorkbookDesigner.process.
+Questa versione dell'API Aspose.Cells for Java ha esposto il campo WorkbookDesigner.CallBack e l'interfaccia ISmartMarkerCallBack che insieme consentono di[ricevere le notifiche relative al riferimento di cella e/o al marcatore intelligente in fase di elaborazione](/cells/it/java/getting-notifications-while-merging-data-with-smart-markers/) . La parte di codice seguente illustra l'utilizzo dell'interfaccia ISmartMarkerCallBack per definire una nuova classe che gestisce la richiamata per il metodo WorkbookDesigner.process.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -51,7 +51,7 @@ Questa versione di Aspose.Cells for Java API ha esposto il campo WorkbookDesigne
 
 Il resto del processo include il caricamento del foglio di calcolo del designer contenente gli Smart Marker con WorkbookDesigner o la creazione di uno da zero e l'elaborazione impostando l'origine dati. Tuttavia, per abilitare le notifiche, è necessario impostare la proprietà WorkbookDesigner.CallBack prima di chiamare il metodo WorkbookDesigner.process come illustrato di seguito.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -87,7 +87,7 @@ Aspose.Cells for Java 8.6.2 ha esposto il metodo Chart.toPdf che può essere uti
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -113,7 +113,7 @@ chart.toPdf(outputFilePath);
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -131,7 +131,7 @@ La proprietà Cells.Style può essere utilizzata per accedere allo stile per il 
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

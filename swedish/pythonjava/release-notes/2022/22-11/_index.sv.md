@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Python via Java 22.11 Release Notes
+title: Aspose.Cells for Python via Java 22.11 Release Notes
 type: docs
 weight: 2
 url: /sv/python-java/aspose-cells-for-python-via-java-22-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Python via Java 22.11](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.11/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Python via Java 22.11](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.11/).
 
 {{% /alert %}}
 
@@ -20,14 +20,14 @@ url: /sv/python-java/aspose-cells-for-python-via-java-22-11-release-notes/
 |CELLSJAVA-44910|Konvertera Excel till HTML resulterar i tusentals liknande små bilder|
 |CELLSJAVA-44944|Ändra storlek på tabeller ändra formateringen av celler|
 |CELLSJAVA-44948| Bilder kan inte visas i arket när HTML konverteras till Excel|
-|CELLSJAVA-44908|Undantag "java.lang.OutOfMemoryError: Java heap space" vid laddning av stora XLSB-filer|
+|CELLSJAVA-44908|Undantag "java.lang.OutOfMemoryError: Java heap space" när stora XLSB-filer laddas|
 |CELLSJAVA-44929|Regression: "java.lang.NullPointerException" på Workbook.calculateFormula()|
 |CELLSJAVA-44927|Undantag "java.lang.IndexOutOfBoundsException: Index: 5, Storlek: 5" vid konvertering av Excel-fil till HTML|
 |CELLSJAVA-44939|Fel "java.lang.StringIndexOutOfBoundsException: Strängindex utanför intervallet: 0" vid försök att läsa en Excel-fil|
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till egenskapen Cell.IsDynamicArrayFormula**
 

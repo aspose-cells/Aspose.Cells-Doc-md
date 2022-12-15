@@ -8,7 +8,7 @@ url: /zh/net/find-if-the-worksheet-is-dialog-sheet/
 
 对话框工作表是一种包含对话框的旧工作表格式。此类工作表可以由旧版本的 Microsoft Excel（例如 2003）插入，如屏幕截图所示。它也可以在较新版本中使用 VBA 插入，例如 Microsoft Excel 2016。
 
-![待办事项：图片_替代_文本](find-if-the-worksheet-is-dialog-sheet_1.png)
+![待办事项：图像_替代_文本](find-if-the-worksheet-is-dialog-sheet_1.png)
 
 您可以找到工作表是对话框工作表还是其他类型的工作表[**工作表.类型**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)Aspose.Cells提供的属性，如果返回枚举值[**图纸类型.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype)，那么这意味着，你正在处理对话框表。
 

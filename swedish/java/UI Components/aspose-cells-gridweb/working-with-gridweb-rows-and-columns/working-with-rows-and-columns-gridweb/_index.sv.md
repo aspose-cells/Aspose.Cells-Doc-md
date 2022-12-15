@@ -5,7 +5,7 @@ weight: 20
 url: /sv/java/working-with-rows-and-columns-gridweb/
 ---
 ## **Infoga rader och kolumner**
-Det här avsnittet förklarar hur du infogar nya rader och kolumner i ett kalkylblad med Aspose.Cells.GridWeb API. Rader eller kolumner kan infogas var som helst i kalkylbladet.
+Det här avsnittet förklarar hur man infogar nya rader och kolumner i ett kalkylblad med hjälp av Aspose.Cells.GridWeb API. Rader eller kolumner kan infogas var som helst i kalkylbladet.
 ### **Infoga rader**
 Så här infogar du en rad var som helst i ett kalkylblad:
 
@@ -33,7 +33,7 @@ Du kan också använda insertRows()/insertColumns() metoder för att infoga fler
 
 {{% /alert %}} 
 ## **Ta bort rader och kolumner**
-Det här avsnittet visar hur man tar bort rader och kolumner från ett kalkylblad med Aspose.Cells.GridWeb API. Med hjälp av den här funktionen kan utvecklare ta bort rader eller kolumner vid körning.
+Det här avsnittet visar hur man tar bort rader och kolumner från ett kalkylblad med hjälp av Aspose.Cells.GridWeb API. Med hjälp av den här funktionen kan utvecklare ta bort rader eller kolumner under körning.
 ### **Ta bort rader**
 Så här tar du bort en rad från ditt kalkylblad:
 
@@ -88,7 +88,7 @@ Så här ställer du in bredden på en kolumn:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingColumnWidth-SettingColumnWidth.jsp" >}}
 ## **Anpassa rad- och kolumnrubriker**
-Liksom Microsoft Excel, Aspose.Cells.GridWeb använder också standardrubriker eller bildtexter för rader (siffror som 1, 2, 3 och så vidare) och kolumner (alfabetiska som A, B, C och så vidare). Aspose.Cells.GridWeb gör det också möjligt att anpassa bildtexter. Det här ämnet diskuterar anpassning av rad- och kolumnrubriker vid körning med Aspose.Cells.GridWeb API.
+Som Microsoft Excel, Aspose.Cells.GridWeb använder också standardrubriker eller bildtexter för rader (siffror som 1, 2, 3 och så vidare) och kolumner (alfabetiska som A, B, C och så vidare). Aspose.Cells.GridWeb gör det också möjligt att anpassa bildtexter. Det här ämnet diskuterar anpassning av rad- och kolumnrubriker vid körning med Aspose.Cells.GridWeb API.
 ### **Anpassa radhuvud**
 Så här anpassar du rubriken eller bildtexten för en rad:
 

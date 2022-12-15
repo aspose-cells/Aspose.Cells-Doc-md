@@ -10,7 +10,7 @@ url: /it/java/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquer
 
 ## **Query Cell Aree mappate su XML Map Path utilizzando il metodo Worksheet.XmlMapQuery**
 
-Lo screenshot seguente mostra l'Excel Microsoft che mostra la mappa XML all'interno del file[esempio di file Excel](55541818.xlsx)utilizzato nel codice. Il codice interroga due volte la mappa XML e stampa l'elenco delle aree delle celle restituite da[**Foglio di lavoro.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) sulla console come mostrato di seguito.
+Lo screenshot seguente mostra Microsoft Excel che visualizza la mappa XML all'interno del file[esempio di file Excel](55541818.xlsx)utilizzato nel codice. Il codice interroga due volte la mappa XML e stampa l'elenco delle aree delle celle restituite da[**Foglio di lavoro.xmlMapQuery()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#xmlMapQuery(java.lang.String,%20com.aspose.cells.XmlMap)) sulla console come mostrato di seguito.
 
 ![cose da fare:immagine_alt_testo](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 

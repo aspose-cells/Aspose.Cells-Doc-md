@@ -6,13 +6,13 @@ url: /sv/jasperreports/demos-setup/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells för JasperReports innehåller ett antal demoprojekt som hjälper dig att komma igång med att exportera rapporter till Microsoft Excel-dokumentformat från din applikation.
+Aspose.Cells for JasperReports innehåller ett antal demoprojekt som hjälper dig att komma igång med att exportera rapporter till Microsoft Excel-dokumentformat från din applikation.
 
-Demos som tillhandahålls med Aspose.Cells för JasperReports är standarddemos från JasperReports modifierade för att visa användningen av de nya exportörerna.
+Demos som tillhandahålls med Aspose.Cells for JasperReports är standarddemos från JasperReports modifierade för att visa användningen av de nya exportörerna.
 
 {{% /alert %}}
 
-För att köra Aspose.Cells för JasperReports-demos, utför följande steg:
+För att köra Aspose.Cells for JasperReports demos, utför följande steg:
 
 1.  Ladda ner JasperReports (t.ex<https://sourceforge.net/projects/jasperreports/files/archive/>). Se till att ladda ner hela det arkiverade projektet med källkoden och demos, inte bara en enda JAR.
 1. Packa upp det arkiverade projektet till någon plats på din hårddisk, till exempel C:\.
@@ -23,6 +23,6 @@ För att köra Aspose.Cells för JasperReports-demos, utför följande steg:
    **\<path id="project-classpath"> ... \<pathelement location="../../lib/aspose.cells.jasperreports.jar"/> </path>**.
 1.  Ändra den aktuella katalogen till**\<InstallDir>\demo\hsqldb** och kör följande kommandorad:
    **ant runServer**
-1.  Ändra den aktuella katalogen till en av Aspose.Cells för JasperReports-demos, till exempel**\<InstallDir>\demo\samples\ac.charts** och kör följande kommandon på kommandoraden:
+1.  Ändra den aktuella katalogen till en av Aspose.Cells for JasperReports demos, till exempel**\<InstallDir>\demo\samples\ac.charts** och kör följande kommandon på kommandoraden:
    **myrtest** - att producera rapportfiler med hjälp av Aspose XLS exporter.
 1.  Öppna ett av de resulterande dokumenten för att se till exempel**\<InstallDir>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** i Microsoft Excel eller annan applikation.

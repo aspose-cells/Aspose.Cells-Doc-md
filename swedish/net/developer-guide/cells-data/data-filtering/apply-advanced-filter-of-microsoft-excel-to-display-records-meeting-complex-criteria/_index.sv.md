@@ -1,5 +1,5 @@
 ﻿---
-title: Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier
+title: Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier
 type: docs
 weight: 280
 url: /sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
@@ -26,13 +26,13 @@ Kriterierna varierar.
 
 **kopia till**
 
-Området dit kopiering av data till.
+Området dit data kopieras till.
 
 **Endast unikaRecord**
 
 Visar eller kopierar endast unika rader.
 
-## **Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier**
+## **Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier**
 
 Följande exempelkod tillämpar det avancerade filtret på[Exempel på Excel-fil](48496692.xlsx) och genererar[Utdata Excel-fil](48496691.xlsx). Skärmdumpen visar båda filerna för jämförelse. Som du kan se inuti skärmdumpen har data filtrerats in i Excel-utdatafilen enligt komplexa kriterier.
 

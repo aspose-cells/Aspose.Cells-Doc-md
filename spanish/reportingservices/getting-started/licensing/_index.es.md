@@ -6,7 +6,7 @@ url: /es/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells para Reporting Services está disponible como una evaluación gratuita e ilimitada de la[Página de descarga](https://downloads.aspose.com/cells/reportingservices). Las versiones de evaluación y con licencia del producto son las mismas.
+ Aspose.Cells for Reporting Services está disponible como una evaluación gratuita e ilimitada del[Página de descarga](https://downloads.aspose.com/cells/reportingservices). Las versiones de evaluación y con licencia del producto son las mismas.
 
 Cuando esté satisfecho con la versión de evaluación, compre una licencia. Asegúrese de comprender y aceptar los términos y condiciones de la suscripción.
 
@@ -34,7 +34,7 @@ El nombre del archivo de licencia puede ser uno de los siguientes según su tipo
 
 Para probar que el archivo de licencia se instaló correctamente, exporte cualquier informe como un libro de Excel Microsoft. Si el libro de trabajo no contiene una hoja de trabajo con marca de agua al final, el archivo de licencia se activó correctamente.
 
- Aspose.Cells para Reporting Services inyecta una hoja de cálculo de marca de agua de evaluación cuando se trabaja en el modo de evaluación. Cuando un archivo de licencia válido, por ejemplo cuando**Aspose.Cells.ReportingServices.lic** está en la carpeta $[Carpeta de instalación]\License\, no hay ninguna hoja de evaluación de marca de agua.
+ Aspose.Cells for Reporting Services inyecta una hoja de trabajo de marca de agua de evaluación cuando se trabaja en el modo de evaluación. Cuando un archivo de licencia válido, por ejemplo cuando**Aspose.Cells.ReportingServices.lic** está en la carpeta $[Carpeta de instalación]\License\, no hay ninguna hoja de evaluación de marca de agua.
 
 **Un archivo creado en modo de evaluación. Tenga en cuenta la segunda hoja de trabajo.** 
 

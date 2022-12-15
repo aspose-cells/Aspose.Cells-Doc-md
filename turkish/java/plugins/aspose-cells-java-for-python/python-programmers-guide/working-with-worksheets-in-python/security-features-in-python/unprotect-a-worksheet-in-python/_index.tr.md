@@ -5,7 +5,7 @@ weight: 20
 url: /tr/java/unprotect-a-worksheet-in-python/
 ---
 ## **Aspose.Cells - Bir Çalışma Sayfasının korumasını kaldırın**
- Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java için Python** , aramak**unprotect_worksheet** yöntemi**koruma** modül.
+ Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for Python** , aramak**unprotect_worksheet** yöntemi**koruma** modül.
 
 **Python Kod**
 

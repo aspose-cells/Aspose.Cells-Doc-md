@@ -31,7 +31,7 @@ Pour ajouter des pieds de tableau :
 1. Ajoutez la ligne de données de pied de page.
  Les lignes de données de pied de page peuvent contenir du texte statique, des marqueurs de données, des formules Reporting Services, etc. Ici, nous avons ajouté une ligne de pied de page qui contient une cellule de texte statique fusionnée et une cellule de formule Reporting Services.
 
-   **Le pied de page complété** 
+   **Le pied de page terminé** 
 
 ![tâche : image_autre_texte](adding-table-footers_4.png)
 

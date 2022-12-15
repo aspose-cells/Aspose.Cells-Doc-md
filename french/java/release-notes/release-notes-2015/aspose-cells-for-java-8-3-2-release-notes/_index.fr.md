@@ -19,7 +19,7 @@ Modifications des archives publiées pour le JDK pris en charge
 
 À partir de maintenant, nous ne fournissons qu'un seul fichier Jar pour 1.6 et supérieur dans l'archive.
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 

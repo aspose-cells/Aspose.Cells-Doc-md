@@ -3,7 +3,7 @@ title: Crea tabelle pivot e grafici pivot
 type: docs
 weight: 10
 url: /it/java/create-pivot-tables-and-pivot-charts/
-description: Crea tabelle pivot e grafici pivot con Aspose.Cells for Java API.
+description: Crea tabelle pivot e grafici pivot con l'API Aspose.Cells for Java.
 keywords: excel create pivot table java, excel create pivot chart java, excel create pivot table and pivot chart java, create excel pivot table java, create excel pivot chart java, create excel pivot table and pivot chart java, java create excel pivot table and pivot chart, how to create excel pivot table and pivot chart java
 ---
 {{% alert color="primary" %}}

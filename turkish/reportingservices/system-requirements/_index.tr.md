@@ -6,7 +6,7 @@ url: /tr/reportingservices/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Raporlama Hizmetleri için Aspose.Cells (Aspose.Cells.ReportingServices istemcisi, Microsoft Excel eklentileri ve Aspose.Cells.ReportingServices Sunucusu dahil) düzgün şekilde kurulmalıdır. Ayrıca, Raporlama Servisleri için Aspose.Cells kurulmadan önce Microsoft SQL Server kurulmalıdır.
+Aspose.Cells for Reporting Services (Aspose.Cells.ReportingServices istemcisi, Microsoft Excel eklentileri ve Aspose.Cells.ReportingServices Sunucusu dahil) düzgün şekilde yüklenmelidir. Ayrıca, Aspose.Cells for Reporting Services kurulumundan önce Microsoft SQL Server kurulumu yapılmalıdır.
 
 {{% /alert %}} 
 ### **Ofis Sistemi**

@@ -5,7 +5,7 @@ weight: 20
 url: /ru/java/unprotect-a-worksheet-in-python/
 ---
 ## **Aspose.Cells - Снять защиту с рабочего листа**
- Чтобы защитить рабочий лист с помощью**Aspose.Cells Java для Python** , вызов**unprotect_worksheet** метод**защита** модуль.
+ Чтобы защитить рабочий лист с помощью**Aspose.Cells Java for Python** , вызов**unprotect_worksheet** метод**защита** модуль.
 
 **Python Код**
 

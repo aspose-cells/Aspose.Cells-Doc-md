@@ -6,7 +6,7 @@ url: /tr/java/managing-page-breaks-in-php/
 ---
 ## **Aspose.Cells - Sayfa Sonlarını Yönetme**
 ### **Sayfa Sonları Ekleme**
- kullanarak sayfa sonları eklemek için**PHP için Aspose.Cells Java** , aramak**add_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ kullanarak sayfa sonları eklemek için**Aspose.Cells Java for PHP** , aramak**add_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **PHP Kodu**
 
@@ -30,7 +30,7 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **Tüm Sayfa Sonlarını Temizleme**
- kullanarak tüm sayfa sonlarını temizlemek için**PHP için Aspose.Cells Java** , aramak**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ kullanarak tüm sayfa sonlarını temizlemek için**Aspose.Cells Java for PHP** , aramak**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **PHP Kodu**
 
@@ -46,7 +46,7 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
 ### **Belirli Sayfa Sonunu Kaldırma**
- Kullanarak belirli sayfa sonunu kaldırmak için**PHP için Aspose.Cells Java** , aramak**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ Kullanarak belirli sayfa sonunu kaldırmak için**Aspose.Cells Java for PHP** , aramak**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **PHP Kodu**
 

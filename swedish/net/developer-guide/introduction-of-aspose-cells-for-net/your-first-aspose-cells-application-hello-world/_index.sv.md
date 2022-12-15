@@ -6,13 +6,13 @@ url: /sv/net/your-first-aspose-cells-application-hello-world/
 ---
 {{% alert color="primary" %}}
 
-Denna handledning visar hur man skapar en allra första applikation (Hello World) med Aspose.Cells' enkla API. Denna enkla applikation skapar en Microsoft Excel-fil med texten 'Hello World' i en specificerad kalkylbladscell.
+Denna handledning visar hur man skapar en allra första applikation (Hello World) med Aspose.Cells' simple API. Denna enkla applikation skapar en Microsoft Excel-fil med texten 'Hello World' i en specificerad kalkylbladscell.
 
 {{% /alert %}}
 
 ## **Skapar Hello World-applikationen**
 
-Stegen nedan skapar applikationen Hello World med Aspose.Cells API:
+Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
 
 1.  Skapa en instans av[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass.
 1.  Om du har en licens, då[tillämpa den](/cells/sv/net/licensing/).

@@ -13,7 +13,7 @@ Per applicare il filtro automatico a una colonna:
 1. Colonne di adattamento automatico per rendere attraente il display.
 1. Salva il foglio di calcolo.
 
-Gli esempi di codice in questo articolo mostrano come eseguire questi passaggi utilizzando VSTO con C# o utilizzando Apose.Cells, sempre con C#.
+Gli esempi di codice in questo articolo mostrano come eseguire questi passaggi usando VSTO con C# o usando Apose.Cells, sempre con C#.
 ## **VSTO**
 {{< highlight "csharp" >}}
 

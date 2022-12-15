@@ -52,6 +52,6 @@ Så här lägger du till rapportparametrar till rapporter:
 1.  Klick**OK**.
  Den markerade cellen innehåller en rapportparametermarkör.
 
-   **En rapportparameter infogat i cellen** 
+   **En rapportparameter infogas i cellen** 
 
 ![todo:image_alt_text](adding-report-parameters-to-report_5.png)

@@ -23,7 +23,7 @@ Aspose.Cells 提供用于激活工作表和单元格的特定 API 调用。例�
 
 **将 B2 单元格设置为活动单元格**
 
-![待办事项：图片_替代_文本](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
+![待办事项：图像_替代_文本](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
 
 ## Java 在 Excel 中设置活动工作表的代码
 

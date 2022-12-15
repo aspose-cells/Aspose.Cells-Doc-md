@@ -26,7 +26,7 @@ Området med flikar i verktygsfältet ovanpå kallas band, tekniskt sett. Den in
 
 **Ark**
 
-Arket är raderna och kolumnerna. När celler klickas uppdateras menyfliksområdet utan att skicka förfrågningar till servern eftersom all data som behövs av menyfliksområdet är kopplad till varje cell. Menyfliksområdet håller också koll på den valda cellen, raden och kolumnen när användaren navigerar genom arket.
+Arket är rader och kolumner. När celler klickas uppdateras menyfliksområdet utan att skicka förfrågningar till servern eftersom all data som behövs av menyfliksområdet är kopplad till varje cell. Menyfliksområdet håller också koll på den valda cellen, raden och kolumnen när användaren navigerar genom arket.
 
 Varje cell har sin egen inline-editor som blir synlig när en cell är i redigeringsläge.
 ### **Arbetsbladsvy**
@@ -36,7 +36,7 @@ WorkbookService är en JSF-backend-böna med vyer. Den fungerar som en tjänstek
 
 **i det**
 
- De**i det** är**PostConstruct** metod som exekveras direkt efter att objektskapandet har slutförts av Java Application Server. Det kollar efter**url** parameter i begäran parametrar kartlägger och laddar motsvarande kalkylblad från given plats, om möjligt.
+ De**i det** är**PostConstruct** metod som exekveras direkt efter att objektskapandet har slutförts av Java Application Server. Det kollar efter**url**parameter i begäran parametrar kartlägger och laddar motsvarande kalkylblad från given plats, om möjligt.
 
 **förstöra**
 

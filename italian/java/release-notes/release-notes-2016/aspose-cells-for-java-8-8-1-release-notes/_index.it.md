@@ -35,8 +35,8 @@ url: /it/java/aspose-cells-for-java-8-8-1-release-notes/
 |CELLSJAVA-41719 | Come creare pulsanti di comando personalizzati in GridWeb (JAVA)| Nuova caratteristica|
 |CELLSJAVA-41718 | Il metodo GridCell.createValidation() non è presente in GridWeb| Aumento|
 |CELLSJAVA-41649 | Lo scorrimento non si ferma a volte - Aspose.Cells.GridWeb per JAVA| Insetto|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà WorkbookSettings.PaperSize.**
 Viene utilizzato per impostare il formato carta della stampante predefinita come formato carta predefinito della cartella di lavoro.
 ### **Aggiunge la classe LoadDataFilterOptions e la proprietà LoadOptions.LoadDataFilterOptions.**

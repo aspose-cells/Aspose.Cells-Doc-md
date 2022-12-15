@@ -29,7 +29,7 @@ url: /ar/java/creating-subtotals/
 
 ## **باستخدام Aspose.Cells API**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) الذي يمثل ملف إكسل Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
  يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)صف دراسي. يوفر الفصل مجموعة واسعة من الخصائص والأساليب لإدارة ورقة العمل والكائنات الأخرى. تتكون كل ورقة عمل من ملف[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة. لإنشاء مجاميع فرعية في ورقة عمل ، استخدم ملحق[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)طريقة المجموع الفرعي للفئة. قم بتوفير القيم المناسبة لمعلمات الطريقة للحصول على النتيجة التي تريدها.
 

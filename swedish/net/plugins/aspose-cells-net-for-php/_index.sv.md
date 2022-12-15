@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells .NET för PHP
+title: Aspose.Cells .NET for PHP
 type: docs
 weight: 40
 url: /sv/net/aspose-cells-net-for-php/
@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-for-php/
 
 #### **Systemkrav**
 
-**Följande är systemkraven för att använda Aspose.Cells .NET för PHP:**
+**Följande är systemkraven för att använda Aspose.Cells .NET for PHP:**
 
 - IIS med PHP och PHP Manager installerat.
 - Aspose.Total API:er.
@@ -29,12 +29,12 @@ url: /sv/net/aspose-cells-net-for-php/
 
 #### **Ladda ner obligatoriska bibliotek**
 
-Ladda ner nödvändiga bibliotek som nämns nedan. Dessa är nödvändiga för att exekvera Aspose.Cells Java för PHP-exempel.
+Ladda ner nödvändiga bibliotek som nämns nedan. Dessa är nödvändiga för att exekvera Aspose.Cells Java for PHP exempel.
 
-- [Ladda ner Aspose.Cells för .NET (DLL eller MSI) filer från nedladdningssektionen](https://downloads.aspose.com/cells/net)
-- [Ladda ner Aspose.Cells för .NET interop dll](https://downloads.aspose.com/cells/net)
+- [Ladda ner Aspose.Cells for .NET (DLL eller MSI) filer från nedladdningssektionen](https://downloads.aspose.com/cells/net)
+- [Ladda ner Aspose.Cells for .NET interop dll](https://downloads.aspose.com/cells/net)
 
-Om du laddar ner MSI-versionen hittar du Aspose.Cells.dll på den installerade platsen som är mappen C:\Program Files (x86)\Aspose\Aspose.Cells för .NET\Bin\net2.0 som standard.
+Om du laddar ner MSI-versionen hittar du Aspose.Cells.dll på den installerade platsen som är mappen C:\Program Files (x86)\Aspose\Aspose.Cells Aspose.Cells for .NET\Bin\net2.0 som standard.
 Men om du har laddat ner DLL-versionen kan du extrahera den och sedan kopiera Aspose.Cells.dll från .NET 2.0-mappen till din c:\temp-mapp för enkel användning.
 Extrahera på liknande sätt interop zip-fil och kopiera Aspose.Inteop.dll till c:\temp
 
@@ -46,9 +46,9 @@ Följande versioner av löpande exempel finns att ladda ner på nedan nämnda we
 
 ##### **GitHub**
 
-- **Aspose.Cells .NET för PHP-exempel**
+- **Aspose.Cells .NET for PHP Exempel**
 
-  - [Aspose.Cells .NET för PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+  - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
 #### **Hur man konfigurerar källkoden på Windows-plattformen**
 
@@ -76,7 +76,7 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 Öppna PHP Manager i IIS och klicka sedan på "Aktivera för att inaktivera och tillägg". Hitta php_com_dotnet.dll och se till att den är aktiverad.
 
-##### **3. Konfigurera Aspose.Cells .NET för PHP-exempel**
+##### **3. Konfigurera Aspose.Cells .NET for PHP Exempel**
 
 ###### **Metod 1**
 
@@ -125,13 +125,13 @@ Från de allra första dagarna av Aspose visste vi att det inte skulle räcka at
 
 Det är därför vi erbjuder gratis support. Alla som använder vår produkt, oavsett om de har köpt dem eller använder en utvärdering, förtjänar vår fulla uppmärksamhet och respekt.
 
-Du kan logga alla problem eller förslag relaterade till Aspose.Cells .NET för PHP med någon av följande plattformar:
+Du kan logga alla problem eller förslag relaterade till Aspose.Cells .NET for PHP med någon av följande plattformar:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 #### **Utöka och bidra**
 
-Aspose.Cells .NET för PHP är öppen källkod och dess källkod är tillgänglig på de stora sociala kodningswebbplatserna nedan. Utvecklare uppmuntras att ladda ner källkoden och bidra genom att föreslå eller lägga till nya funktioner eller förbättra de befintliga, så att andra också kan dra nytta av den.
+Aspose.Cells .NET for PHP är öppen källkod och dess källkod är tillgänglig på de stora sociala kodningswebbplatserna nedan. Utvecklare uppmuntras att ladda ner källkoden och bidra genom att föreslå eller lägga till nya funktioner eller förbättra de befintliga, så att andra också kan dra nytta av den.
 
 #### **Källkod**
 

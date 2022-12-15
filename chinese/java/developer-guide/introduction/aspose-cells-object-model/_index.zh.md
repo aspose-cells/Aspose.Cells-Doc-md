@@ -14,7 +14,7 @@ Aspose.Cells 对象模型的顶层结构如下图所示。
 
 |**Aspose.Cells对象模型的顶层结构**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_1.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_1.png)|
 从上图可以看出，对象模型的根是Workbook对象。为了介绍的目的，下面提供了一些对象的简要描述。
 
 ## **WorksheetCollection/工作表**
@@ -23,7 +23,7 @@ Workbook 对象包含 WorksheetCollection，它表示电子表格中所有 Works
 
 |**工作表和工作表对象**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_2.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_2.png)|
 
 ## **Cells/Cell**
 
@@ -31,7 +31,7 @@ Workbook 对象包含 WorksheetCollection，它表示电子表格中所有 Works
 
 |**Cells & Cell 对象**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_3.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_3.png)|
 您可以使用 Cell 对象获取和设置单个单元格的值、样式、公式和其他属性。
 
 ## **ChartCollection/图表**
@@ -40,7 +40,7 @@ Charts 对象表示 Worksheet 中所有 Chart 对象的集合。每个 Chart 对
 
 |**图表的对象模型**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_4.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_4.png)|
 
 ## **评论收藏/评论**
 
@@ -48,7 +48,7 @@ Charts 对象表示 Worksheet 中所有 Chart 对象的集合。每个 Chart 对
 
 |**评论和评论对象**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_5.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_5.png)|
 Comment 对象用于向工作表中的任何指定单元格添加注释。
 
 ## **HorizontalPageBreakCollection/HorizontalPageBreak**
@@ -57,7 +57,7 @@ Comment 对象用于向工作表中的任何指定单元格添加注释。
 
 |**HPageBreaks & HPageBreak 对象**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_6.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_6.png)|
 HorizontalPageBreak 对象用于在工作表中创建水平分页符。
 
 ## **HyperlinkCollection/超链接**
@@ -66,7 +66,7 @@ Worksheet 对象还包含一个 HyperlinkCollection，它表示工作表中所�
 
 |**超链接和超链接对象**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_7.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_7.png)|
 超链接对象表示工作表中的超链接。开发者可以使用 Hyperlink 对象设置超链接地址和其他相关属性。
 
 ## **图片集/图片**
@@ -75,8 +75,8 @@ Worksheet 对象还包含一个 HyperlinkCollection，它表示工作表中所�
 
 |**图片和图片对象**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_8.png)|
-Picture 对象表示工作表中的图片。使用 Picture 对象，开发人员不仅可以将图片添加到他们的工作表中，还可以将这些图片放置在任意位置。还可以设置图片的边框或其他属性。
+|![待办事项：图像_替代_文本](aspose-cells-object-model_8.png)|
+Picture 对象表示工作表中的图片。使用 Picture 对象，开发人员不仅可以将图片添加到他们的工作表中，还可以将这些图片放置在任何位置。还可以设置图片的边框或其他属性。
 
 ## **VerticalPageBreakCollection/VerticalPageBreak**
 
@@ -84,5 +84,5 @@ Picture 对象表示工作表中的图片。使用 Picture 对象，开发人员
 
 |**VPageBreaks & VPageBreak 对象**|
 |:- |
-|![待办事项：图片_替代_文本](aspose-cells-object-model_9.png)|
+|![待办事项：图像_替代_文本](aspose-cells-object-model_9.png)|
 VerticalPageBreak 对象用于在工作表中创建垂直分页符。

@@ -17,7 +17,7 @@ Per impostare la formattazione condizionale per gli elementi del report:
 
 1.  Selezionare la cella I6 e aggiungere la formattazione condizionale a questa cella per l'elemento del report tabella.
  1. Formattare le celle inferiori a 1000 con riempimento rosso chiaro con testo rosso scuro.
-1. Formattare le celle maggiori di 1000 con riempimento giallo chiaro con testo giallo scuro.
+ 1. Formattare le celle maggiori di 1000 con riempimento giallo chiaro con testo giallo scuro.
 1.  Imposta più formattazione condizionale per una cella.
 
 ![cose da fare:immagine_alt_testo](setting-conditional-formatting-for-report-item_2.png)
@@ -30,7 +30,7 @@ Per impostare la formattazione condizionale per gli elementi del report:
 
 
 
-1.  Salva, pubblica e rivedi il report.
+1.  Salva, pubblica e rivedi il rapporto.
 
 ![cose da fare:immagine_alt_testo](setting-conditional-formatting-for-report-item_4.png)
 
@@ -44,6 +44,6 @@ Per impostare la formattazione condizionale per gli elementi del report:
 
 
 
-1.  Salva, pubblica e rivedi il report.
+1.  Salva, pubblica e rivedi il rapporto.
 
 ![cose da fare:immagine_alt_testo](setting-conditional-formatting-for-report-item_6.png)

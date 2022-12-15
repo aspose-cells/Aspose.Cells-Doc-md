@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 18.6 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 18.6 ملاحظات الإصدار
 type: docs
 weight: 30
 url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 18.6.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 18.6.
 
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 
 ### **إضافة عنصر جديد "CrossHideRight" لتعداد HtmlCrossType**
 
@@ -127,7 +127,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **إضافة خاصية ChartPoint.XValueType**
 
-الحصول على نوع القيمة X لنقطة المخطط.
+يحصل على نوع القيمة X لنقطة المخطط.
 
 ### **إضافة خاصية ChartPoint.YValueType**
 
@@ -258,6 +258,6 @@ GlobalizationSettings.GetStandardBuiltInName (سلسلة localName)
 
 {{% alert color="primary" %}}
 
-نظرًا لأن قاعدة رمز Aspose.Cells لنظام Android عبر Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v18.4 ، Aspose.Cells for .NET v18.5 ، for .NET for .NET v18.5 ، for .NET for .NET تم تضمين 6 و Aspose.Cells for Java v18.4 و Aspose.Cells for Java v18.5 و Aspose.Cells for Java v18.6 أيضًا في Aspose.Cells لنظام Android عبر Java v18.6.
+نظرًا لأن قاعدة الكود الخاصة بـ Aspose.Cells for Android via Java تتطابق مع رمز الإصدارات ذات الصلة .NET و Java ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v18.4 ، Aspose.Cells for .NET v181.5 ، 0718.6193 Aspose.Cells for Java v18.4 و Aspose.Cells for Java v18.5 و Aspose.Cells for Java v18.6 تم تضمينها أيضًا في Aspose.Cells for Android via Java v18.6.
 
 {{% /alert %}}

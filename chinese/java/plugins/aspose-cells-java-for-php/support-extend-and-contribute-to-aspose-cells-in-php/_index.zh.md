@@ -13,7 +13,7 @@ url: /zh/java/support-extend-and-contribute-to-aspose-cells-in-php/
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ## **扩展和贡献**
-Aspose.Cells Java for PHP 是开源的，其源代码可在下面列出的主要社交编码网站上获得。鼓励开发人员下载源代码并通过建议或添加新功能或改进现有功能来做出贡献，以便其他人也可以从中受益。
+Aspose.Cells Java for PHP 是开源的，其源代码可以在下面列出的主要社交编码网站上找到。鼓励开发人员下载源代码并通过建议或添加新功能或改进现有功能来做出贡献，以便其他人也可以从中受益。
 ## **源代码**
 您可以从以下位置之一获取最新的源代码
 

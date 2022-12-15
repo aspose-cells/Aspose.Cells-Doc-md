@@ -15,7 +15,7 @@ Den här artikeln ger dig en detaljerad förståelse för hur du kopierar former
 
 ## **Kopiera en bild från ett arbetsblad till ett annat**
 
-För att kopiera en bild från ett kalkylblad till ett annat, använd[**Arbetsblad.Bilder.Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metod som visas i exempelkoden nedan.
+ För att kopiera en bild från ett kalkylblad till ett annat, använd[**Arbetsblad.Bilder.Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metod som visas i exempelkoden nedan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyPictureBetweenWorksheets.cs" >}}
 

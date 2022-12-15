@@ -23,15 +23,15 @@ Allo stesso modo, supponiamo che C1 contenga la formula "=(B1*22)/(M2*N32)". Vog
 
 Potrebbe essere necessario tracciare la dipendenza di una particolare cella da altre celle. Se le regole aziendali sono incorporate nelle formule, vorremmo scoprire la dipendenza ed eseguire alcune regole basate su di essa. Allo stesso modo, se il valore di una particolare cella viene modificato, quali celle nel foglio di lavoro sono interessate da tale modifica?
 
-Microsoft Excel consente agli utenti di rintracciare precedenti e dipendenti.
+Microsoft Excel consente agli utenti di tracciare precedenti e dipendenti.
 
 1.  Sul**Visualizza la barra degli strumenti** , Selezionare**Controllo delle formule**
 1. Traccia precedenti:
- 1. Seleziona la cella che contiene la formula per la quale desideri trovare le celle precedenti.
+1. Seleziona la cella che contiene la formula per la quale desideri trovare le celle precedenti.
  1. Per visualizzare una freccia tracciante su ciascuna cella che fornisce dati direttamente alla cella attiva, fare clic su**Traccia i precedenti** sul**Controllo delle formule** barra degli strumenti.
 1. Traccia formule che fanno riferimento a una particolare cella (dipendenti)
  1. Selezionare la cella per la quale si desidera identificare le celle dipendenti.
-1. Per visualizzare una freccia tracciante su ciascuna cella che dipende dalla cella attiva, fare clic su Trace Dependents sulla barra degli strumenti Formula Auditing.
+ 1. Per visualizzare una freccia tracciante su ciascuna cella che dipende dalla cella attiva, fare clic su Trace Dependents sulla barra degli strumenti Formula Auditing.
 ## **Tracing precedente e dipendente Cells: Aspose.Cells**
 ### **Rintracciare i precedenti**
 Aspose.Cells rende facile ottenere celle precedenti. Non solo può recuperare celle che forniscono dati a precedenti di formule semplici, ma anche trovare celle che forniscono dati a precedenti di formule complesse con intervalli denominati.

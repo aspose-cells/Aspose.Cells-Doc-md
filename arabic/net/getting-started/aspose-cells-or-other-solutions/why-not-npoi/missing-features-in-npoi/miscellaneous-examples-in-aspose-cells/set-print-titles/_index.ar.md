@@ -30,7 +30,7 @@ pageSetup.PrintTitleColumns = "$A:$B";
 pageSetup.PrintTitleRows= "$1:$2";
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**تعيين عناوين الطباعة** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)

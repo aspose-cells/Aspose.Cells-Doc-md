@@ -10,7 +10,7 @@ När du använder autofiltret på kalkylbladsceller döljs några av raderna aut
 
 ## **Få alla dolda rader efter att ha uppdaterat autofiltret**
 
- Se följande exempelkod som laddar[exempel på Excel-fil](64716909.xlsx)som innehåller några av raderna som döljs manuellt av Excel-slutanvändare. Koden tillämpar autofiltret och uppdaterar det med int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metod som returnerar radindexen för alla dolda rader av autofiltret. Den skriver sedan ut indexen för de dolda raderna på konsolen tillsammans med cellnamn och värden.
+ Se följande exempelkod som laddar[exempel på Excel-fil](64716909.xlsx) som innehåller några av raderna som döljs manuellt av Excel-slutanvändare. Koden tillämpar autofiltret och uppdaterar det med int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metod som returnerar radindexen för alla dolda rader av autofiltret. Den skriver sedan ut indexen för de dolda raderna på konsolen tillsammans med cellnamn och värden.
 
 ## **Exempelkod**
 

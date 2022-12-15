@@ -7,7 +7,7 @@ url: /it/java/re-order-sheets-within-workbook/
 ## **Aspose.Cells - Riordina i fogli all'interno della cartella di lavoro**
 Aspose.Cells fornisce un metodo, Worksheet.moveTo(), utilizzato per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ workbook.save(dataDir + "AsposeMoveSheet.xls");
 ## **Apache POI SS - HSSF XSSF - Riordina i fogli all'interno della cartella di lavoro**
 Apache POI fornisce il metodo Workbook.setSheetOrder() per impostare i fogli di lavoro nell'ordine richiesto.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

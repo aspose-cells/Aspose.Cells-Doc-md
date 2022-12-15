@@ -37,7 +37,7 @@ url: /ru/java/converting-worksheet-to-svg-in-jython/
 
  рабочая книга = рабочая книга (каталог данных + "Book1.xls")
 
-#Преобразуйте каждый рабочий лист в формат svg на одной странице.
+ #Преобразуйте каждый рабочий лист в формат svg на одной странице.
 
  imgOptions = ImageOrPrintOptions()
 

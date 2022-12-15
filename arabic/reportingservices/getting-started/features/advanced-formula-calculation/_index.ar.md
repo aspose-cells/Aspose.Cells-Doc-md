@@ -17,6 +17,6 @@ url: /ar/reportingservices/advanced-formula-calculation/
 
 {{% /alert %}} 
 - **إخراج الصيغة**
-**يتم تصدير نموذج تقرير يحتوي على معادلات (محسوبة) باستخدام Aspose.Cells لخدمات التقارير** 
+**يتم تصدير نموذج تقرير يحتوي على معادلات (محسوبة) باستخدام Aspose.Cells for Reporting Services** 
 
 ![ما يجب القيام به: image_بديل_نص](advanced-formula-calculation_1.png)

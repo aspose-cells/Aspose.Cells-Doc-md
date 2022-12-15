@@ -21,7 +21,7 @@ klass RowsAndColumns:
 
 
 
-dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
+ dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
@@ -43,7 +43,7 @@ dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
  arbetsbok = Arbetsbok(dataDir + 'Book1.xls')
 
- # Åtkomst till det första kalkylbladet i Excel-filen
+ Åtkomst till det första kalkylbladet i Excel-filen
 
  arbetsblad = workbook.getWorksheets().get(0)
 
@@ -61,7 +61,7 @@ dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
-def copy_columns(dataDir):
+ def copy_columns(dataDir):
 
  dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
 
@@ -69,7 +69,7 @@ def copy_columns(dataDir):
 
  arbetsbok = Arbetsbok()
 
- # Åtkomst till det första kalkylbladet i Excel-filen
+ Åtkomst till det första kalkylbladet i Excel-filen
 
  arbetsblad = workbook.getWorksheets().get(0)
 

@@ -43,10 +43,10 @@ url: /it/net/aspose-cells-for-net-18-10-release-notes/
 |CELLSNET-46350|La visualizzazione viene modificata in protetta durante la conversione di XLS -> XLSM -> XLS|Insetto|
 |CELLSNET-46347|Il file XLSX è corrotto dopo la conversione da un file XML (SpreadsheetML).|Insetto|
 |CELLSNET-46344|Smart Marker non valuta correttamente ISBLANK|Insetto|
-|CELLSNET-46319|FilterOperatorType.Contains mancante da API|Insetto|
+|CELLSNET-46319|FilterOperatorType.Contains mancante dall'API|Insetto|
 |CELLSNET-46354|Si è verificata un'eccezione durante il caricamento di un file Excel|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HtmlSaveOptions.WidthScalable**
 Indica se si utilizza l'unità scalabile per descrivere la larghezza della colonna durante l'esportazione del file in HTML. Il valore predefinito è falso.
 #### **Aggiunge la proprietà WorkbookDesigner.UpdateEmptyStringAsNull**

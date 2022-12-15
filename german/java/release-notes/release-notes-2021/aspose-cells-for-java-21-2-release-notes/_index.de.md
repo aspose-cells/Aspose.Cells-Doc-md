@@ -15,7 +15,7 @@ url: /de/java/aspose-cells-for-java-21-2-release-notes/
 |CELLSJAVA-43382|Kopieren erzeugt beschädigte Arbeitsmappe|
 |CELLSJAVA-43364|Problem beim Speichern eines Diagramms mit Bild in der Markierung als Bild|
 |CELLSJAVA-43389|Arbeitsmappen-/Arbeitsblatt-Kennwortschutzeinstellungen gehen beim Speichern im XLSB-Dateiformat verloren|
-|CELLSJAVA-43392| Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
+|CELLSJAVA-43392|Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
 |CELLSJAVA-43387|Das Exportieren eines einzelnen Blatts in HTML löst eine Ausnahme aus|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

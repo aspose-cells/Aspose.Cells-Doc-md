@@ -5,7 +5,7 @@ weight: 70
 url: /es/java/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells - Adición de propiedades personalizadas**
-Para agregar propiedades de documentos personalizadas usando Aspose.Cells Java para PHP, llame**agregar_propiedad_personalizada** metodo de la**Documento** módulo.
+Para agregar propiedades de documentos personalizados usando Aspose.Cells Java for PHP, llame**agregar_propiedad_personalizada** metodo de la**Documento** módulo.
 
 **Código PHP**
 

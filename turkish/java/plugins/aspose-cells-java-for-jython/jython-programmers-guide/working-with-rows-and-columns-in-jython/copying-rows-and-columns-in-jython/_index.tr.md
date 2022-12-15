@@ -43,7 +43,7 @@ sınıf RowsAndColumns:
 
  çalışma kitabı = Çalışma Kitabı(dataDir + 'Book1.xls')
 
- # Excel dosyasındaki ilk çalışma sayfasına erişim
+ Excel dosyasındaki ilk çalışma sayfasına erişim
 
  çalışma sayfası = çalışma kitabı.getWorksheets().get(0)
 
@@ -55,7 +55,7 @@ sınıf RowsAndColumns:
 
  # Değiştirilen Excel dosyasını varsayılan (yani Excel 2003) biçiminde kaydetme
 
-workbook.save(dataDir + "Rows.xls'yi Kopyala")
+ workbook.save(dataDir + "Rows.xls'yi Kopyala")
 
  "Satırları Başarıyla Kopyala" yazdırın.
 
@@ -69,7 +69,7 @@ workbook.save(dataDir + "Rows.xls'yi Kopyala")
 
  çalışma kitabı = Çalışma kitabı()
 
- # Excel dosyasındaki ilk çalışma sayfasına erişim
+ Excel dosyasındaki ilk çalışma sayfasına erişim
 
  çalışma sayfası = çalışma kitabı.getWorksheets().get(0)
 

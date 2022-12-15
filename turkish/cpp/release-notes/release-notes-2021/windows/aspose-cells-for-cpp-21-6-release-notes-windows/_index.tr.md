@@ -6,7 +6,7 @@ url: /tr/cpp/aspose-cells-for-cpp-21-6-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa Aspose.Cells için C++ 21.6 için Windows için sürüm notları içerir.
+Bu sayfa Aspose.Cells for C++ 21.6 için Windows için sürüm notları içerir.
 
 {{% /alert %}}
 
@@ -14,4 +14,4 @@ Bu sayfa Aspose.Cells için C++ 21.6 için Windows için sürüm notları içeri
 |:- |:- |:- |
 |CELLSCPP-292| nuget'de arama sonuçlarını optimize edin|Gelişme|
 |CELLSCPP-283| ArrayList yapıcı hatasını düzeltin|Böcek|
-|CELLSCPP-284| PathHelper başlatma sorunu|Böcek|
+|CELLSCPP-284|PathHelper başlatma sorunu|Böcek|

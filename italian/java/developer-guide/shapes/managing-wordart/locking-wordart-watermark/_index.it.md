@@ -12,6 +12,6 @@ Aspose.Cells Le API consentono di aggiungere filigrane WordArt al foglio di lavo
 
 ## **Blocco della filigrana WordArt**
 
-Aspose.Cells Le API consentono di bloccare alcuni aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente frammento di codice illustra l'utilizzo di Aspose.Cells for Java API per creare una filigrana per ogni foglio di lavoro nel foglio di calcolo caricato e bloccare la selezione, lo spostamento, la modifica e il ridimensionamento della filigrana.
+Aspose.Cells Le API consentono di bloccare alcuni aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente frammento di codice illustra l'utilizzo dell'API Aspose.Cells for Java per creare una filigrana per ogni foglio di lavoro nel foglio di calcolo caricato e bloccare la selezione, lo spostamento, la modifica e il ridimensionamento della filigrana.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LockWordArtWatermark-LockWordArtWatermark.java" >}}

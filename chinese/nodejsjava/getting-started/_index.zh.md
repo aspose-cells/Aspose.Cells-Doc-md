@@ -4,12 +4,12 @@ type: docs
 weight: 5
 url: /zh/nodejs-java/getting-started/
 keywords: nodejs, excel, instal
-description: 通过 Java 和安装指南为 Node.js 设置 Aspose.Cells
+description: 设置 Aspose.Cells for Node.js via Java 和安装指南
 ---
 ## **系统要求**
- Aspose.Cells for Node.js via Java 与平台无关 API 并且可以在任何平台（Windows，Linux 和 MacOS）上使用，其中[节点.js](https://nodejs.org/en/download/)和[节点java](https://github.com/joeferner/node-java)桥被安装。在设置安装之前，机器必须具有 Oracle JDK 7 或更高版本。
+Aspose.Cells for Node.js via Java 与平台无关 API 可以在任何平台（Windows，Linux 和 MacOS）上使用，其中[节点.js](https://nodejs.org/en/download/)和[节点java](https://github.com/joeferner/node-java)桥被安装。在设置安装之前，机器必须具有 Oracle JDK 7 或更高版本。
 ## **从 NPM 安装**
-您可以通过 Java 轻松地将 Aspose.Cells 用于 Node.js[NPM](https://www.npmjs.com/package/aspose.cells)使用以下命令。
+您可以轻松地使用 Aspose.Cells for Node.js via Java 来自[NPM](https://www.npmjs.com/package/aspose.cells)使用以下命令。
 {{< highlight "java" >}}
 
  $ npm install aspose.cells
@@ -19,7 +19,7 @@ description: 通过 Java 和安装指南为 Node.js 设置 Aspose.Cells
 如果在安装过程中遇到任何问题，请参考https://www.npmjs.com/package/java。
 
 ## **从 ZIP 存档安装**
-要通过 ZIP 存档中的 Java 安装和使用 Aspose.Cells for Node.js，请按照以下说明操作：
+要从 ZIP 存档安装和使用 Aspose.Cells for Node.js via Java，请按照以下说明操作：
 ### **Linux：**
 - 下载并安装[节点.js](https://nodejs.org/en/download/).
 - 安装适用于 Linux 的 Oracle JDK（1.7 或 1.8），配置 JAVA_HOME 环境变量。

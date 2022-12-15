@@ -6,15 +6,15 @@ url: /es/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- A*tabla dinámica* es una tabla interactiva que resume los datos y los presenta de manera significativa. SQL Server Reporting Services no puede exportar un informe al formato de Microsft Excel mientras mantiene una tabla dinámica. Los usuarios de informes deben crear manualmente tablas dinámicas cada vez que exportan un informe de tabla dinámica de Reporting Services a Microsoft Excel. Con Aspose.Cells para Reporting Services, puede diseñar una tabla dinámica una vez en el momento del diseño del informe. Cada vez que se ejecuta el informe, Aspose.Cells para Reporting Services exporta el informe a Microsoft Excel y actualiza los datos en la tabla dinámica.
+ A*tabla dinámica* es una tabla interactiva que resume los datos y los presenta de manera significativa. SQL Server Reporting Services no puede exportar un informe al formato de Microsft Excel mientras mantiene una tabla dinámica. Los usuarios de informes deben crear manualmente tablas dinámicas cada vez que exportan un informe de tabla dinámica de Reporting Services a Microsoft Excel. Con Aspose.Cells for Reporting Services, puede diseñar una tabla dinámica una vez en el momento del diseño del informe. Cada vez que se ejecuta el informe, Aspose.Cells for Reporting Services exporta el informe a Microsoft Excel y actualiza los datos en la tabla dinámica.
 
 {{% /alert %}} 
 
 Para crear un informe de tabla dinámica:
 
 1. Cree un conjunto de datos como fuente de datos para la tabla dinámica.
- continuación, usamos la base de datos de ejemplo AdventureWorks que se incluye con SQL Server Reporting Services 2005 y creamos un conjunto de datos denominado "ventas".
- El SQL para el conjunto de datos es el siguiente:
+ A continuación, usamos la base de datos de ejemplo AdventureWorks que se incluye con SQL Server Reporting Services 2005 y creamos un conjunto de datos denominado "ventas".
+El SQL para el conjunto de datos es el siguiente:
 
 **sql**
 
@@ -106,7 +106,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-La tabla dinámica diseñada se muestra a continuación.
+ La tabla dinámica diseñada se muestra a continuación.
 
 ![todo:imagen_alternativa_texto](working-with-pivottable_7.png)
 

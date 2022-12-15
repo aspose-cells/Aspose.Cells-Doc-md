@@ -6,7 +6,7 @@ url: /sv/java/export-similar-border-style-when-border-style-is-not-supported-by-
 ---
 ## **Möjliga användningsscenarier**
 
-Microsoft Excel stöder vissa typer av streckade gränser som inte stöds av webbläsare. När du konverterar en sådan Excel-fil till HTML med Aspose.Cells tas sådana gränser bort. Aspose.Cells kan dock också stödja att visa liknande ramar med[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)fast egendom. Vänligen ställ in dess värde som**Sann**och gränserna som inte stöds kommer också att exporteras till HTML-fil.
+Microsoft Excel stöder någon typ av streckade kanter som inte stöds av webbläsare. När du konverterar en sådan Excel-fil till HTML med Aspose.Cells tas sådana gränser bort. Aspose.Cells kan dock också stödja att visa liknande ramar med[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)fast egendom. Vänligen ställ in dess värde som**Sann**och gränserna som inte stöds kommer också att exporteras till HTML-fil.
 
 ## **Exportera liknande kantstil när kantstil inte stöds av webbläsare**
 

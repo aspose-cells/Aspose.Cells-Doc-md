@@ -14,10 +14,10 @@ url: /fr/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-437|Ajouter et manipuler des tableaux croisés dynamiques dans la feuille de calcul|Nouvelle fonctionnalité|
 |CELLSPORTINGC-438|Regrouper les lignes et les colonnes dans la feuille de calcul|Nouvelle fonctionnalité|
 |CELLSPORTINGC-439|Ajouter un objet tableau/liste à la feuille de calcul|Nouvelle fonctionnalité|
-|CELLSPORTINGC-426|Problème de licence avec Aspose.Cells pour les API C++|Punaise|
+|CELLSPORTINGC-426|Problème de licence avec les API Aspose.Cells for C++|Punaise|
 |CELLSPORTINGC-425|Optimisez les performances d'enregistrement des fichiers XLS|Amélioration|
 ### **Public API et modifications incompatibles avec les versions antérieures**
-Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
+Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 #### **Renomme la méthode ICell :: SetStyle en ICell :: SetIStyle**
 #### **Renomme la méthode ICell :: SetCharacters en ICell :: SetIFontSettings**
 #### **Renomme la méthode ICellsColor::SetThemeColor en ICellsColor::SetIThemeColor**

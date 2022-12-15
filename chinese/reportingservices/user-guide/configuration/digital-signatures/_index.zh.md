@@ -4,9 +4,9 @@ type: docs
 weight: 50
 url: /zh/reportingservices/digital-signatures/
 ---
-Aspose.Cells for Reporting Services 在导出 Microsoft Excel 2007 文件或 ODS 文件时支持数字签名。我们有一些数字签名的配置信息，可以在**Aspose.Cells.ReportingServices.xml**文件。
+Aspose.Cells for Reporting Services Microsoft Excel 2007文件或ODS文件导出时支持数字签名。我们有一些数字签名的配置信息，可以在**Aspose.Cells.ReportingServices.xml**文件。
 
-当 DigitalSignature 的值为**离开**Aspose.Cells 用于 Reporting Services 关闭数字签名。
+当 DigitalSignature 的值为**离开**Aspose.Cells for Reporting Services 关闭数字签名。
 
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ Aspose.Cells for Reporting Services 在导出 Microsoft Excel 2007 文件或 ODS
 
 {{< /highlight >}}
 
-当 DigitalSignature 的值为**上**Reporting Services 的 Aspose.Cells 打开数字签名。
+当 DigitalSignature 的值为**上**Aspose.Cells for Reporting Services 打开数字签名。
 
 {{< highlight "java" >}}
 

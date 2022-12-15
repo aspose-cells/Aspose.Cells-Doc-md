@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells para Reporting Services 21.11 Nota de la versión
+title: Aspose.Cells for Reporting Services 21.11 Nota de publicación
 second_title: Aspose.Cells Reporting Services Documen
 type: docs
 url: /es/reportingservices/aspose-cells-for-reporting-services-21-11-release-notes/
@@ -11,4 +11,4 @@ Esta página contiene notas de la versión para Aspose.Cells Reporting Services 
 ## **Lista completa de problemas y mejoras cubiertas en esta versión**
 |**IDENTIFICACIÓN**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|24992 |Admite exportar formato PDF.| Nueva caracteristica|
+|24992 |Admite exportar formato PDF.|Nueva caracteristica|

@@ -16,4 +16,4 @@ url: /fr/reportingservices/deviceinfo-in-rsreportserver-config-file/
 - **NoOutPutGroupForSimpleOutPut**: **faux** par défaut. La valeur prend uniquement en charge l'extension Excel 2007 XLSX (données uniquement).
 - **NoDoGroupPageForSimpleOutPut**: **vrai** par défaut. La valeur prend uniquement en charge l'extension Excel 2007 XLSX (données uniquement).
 - **NoDoPageForSimpleOutPut**: **vrai** par défaut. La valeur prend uniquement en charge l'extension Excel 2007 XLSX (données uniquement).
-- **Délimiteur de champ**: définit les délimiteurs de champ. La valeur prend en charge les extensions CSV et TXT.
+- **Délimiteur de champ**: définit les délimiteurs de champs. La valeur prend en charge les extensions CSV et TXT.

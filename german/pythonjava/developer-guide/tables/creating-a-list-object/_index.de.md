@@ -43,7 +43,7 @@ Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspo
 
 Gemäß dem angegebenen Zellbereich wird das Listenobjekt im Arbeitsblatt von Aspose.Cells erstellt. Verwenden Sie Attribute (z. B. ShowTotals, ListColumns usw.) der[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Klasse, um die Liste zu steuern.
 
-In dem unten angegebenen Beispiel haben wir dasselbe erstellt[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Verwenden Sie Aspose.Cells für Python über Java API, wie wir es mit Microsoft Excel im obigen Abschnitt erstellt haben.
+In dem unten angegebenen Beispiel haben wir dasselbe erstellt[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Verwenden Sie Aspose.Cells for Python via Java API, wie wir es mit Microsoft Excel im obigen Abschnitt erstellt haben.
 
 ## Quellcode
 

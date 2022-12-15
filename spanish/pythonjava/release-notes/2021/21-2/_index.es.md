@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Python a través de Java 21.2 Notas de la versión
+title: Aspose.Cells for Python via Java 21.2 Notas de la versión
 type: docs
 weight: 12
 url: /es/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Python a través de Java 21.2.
+Esta página contiene notas de la versión para Aspose.Cells for Python via Java 21.2.
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Python a trav�
 |CELLSJAVA-43382|La copia produce un libro de trabajo dañado|
 |CELLSJAVA-43364|Problema al guardar el gráfico con una imagen en el marcador en la imagen|
 |CELLSJAVA-43389|Se pierde la configuración de protección con contraseña del libro de trabajo/hoja de trabajo al guardar como formato de archivo XLSB|
-|CELLSJAVA-43392| La hoja de copia produce un libro de trabajo corrupto|
+|CELLSJAVA-43392|La hoja de copia produce un libro de trabajo corrupto|
 |CELLSJAVA-43387|Exportar una sola hoja a HTML genera una excepción|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

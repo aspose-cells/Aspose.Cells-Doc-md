@@ -1,5 +1,5 @@
 ﻿---
-title: Raporlama Hizmetleri İstemcisi için Aspose.Cells'de Grup işlevi ekleyin
+title: Aspose.Cells for Reporting Services İstemci'de Grup işlevi ekleyin
 type: docs
 weight: 120
 url: /tr/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/

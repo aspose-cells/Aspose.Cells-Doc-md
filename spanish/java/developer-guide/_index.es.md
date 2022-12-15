@@ -142,7 +142,7 @@ url: /es/java/developer-guide/
 		    <p>Enlaces</p>
         <ul>
             <li><a href="/cells/es/java/working-with-hyperlinks-to-link-data/">Trabajar con hipervínculos para vincular datos</a></li>
-            <li><a href="/cells/es/java/add-image-hyperlinks/">Agregar hipervínculos de imagen</a></li>
+            <li><a href="/cells/es/java/add-image-hyperlinks/">Agregar hipervínculos de imágenes</a></li>
             <li><a href="/cells/es/java/editing-hyperlinks-of-worksheet/">Edición de hipervínculos de la hoja de trabajo</a></li>
         </ul>
         <p>Comentarios</p>

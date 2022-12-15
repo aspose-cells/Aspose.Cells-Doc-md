@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 21.3 Notas de la versión
+title: Aspose.Cells for Android via Java 21.3 Notas de la versión
 type: docs
 weight: 10
 url: /es/java/aspose-cells-for-android-via-java-21-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 21.3.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 21.3.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-43382|La copia produce un libro de trabajo dañado|
 |CELLSJAVA-43364|Problema al guardar el gráfico con una imagen en el marcador en la imagen|
 |CELLSJAVA-43389|Se pierde la configuración de protección con contraseña del libro de trabajo/hoja de trabajo al guardar como formato de archivo XLSB|
-|CELLSJAVA-43392| La hoja de copia produce un libro de trabajo corrupto|
+|CELLSJAVA-43392|La hoja de copia produce un libro de trabajo corrupto|
 |CELLSJAVA-43388|El archivo de salida está dañado después de copiar el libro de trabajo|
 |CELLSJAVA-43406|Problemas al convertir HTML a Excel|
 |CELLSJAVA-43399|CalculateFormula() crea muchos valores de tipo de error #VALOR|
@@ -44,7 +44,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
 ### **Constructor PdfSaveOptions(SaveFormat) obsoleto.**
 

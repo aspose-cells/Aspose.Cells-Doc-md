@@ -10,7 +10,7 @@ Excel dosyanızı HTML'ye dönüştürürken DataBar, ColorScale ve IconSet Koş
 
 {{% /alert %}} 
 ## **Excel'den HTML'ye Dönüştürme Sırasında DataBar, ColorScale ve IconSet Koşullu Biçimlendirmeyi Dışa Aktarma**
- Aşağıdaki ekran görüntüsü[örnek excel dosyası](5115558.xlsx) DataBar, ColorScale ve IconSet Koşullu Biçimlendirme ile. indirebilirsiniz[örnek excel dosyası](5115558.xlsx) verilen linkten
+Aşağıdaki ekran görüntüsü[örnek excel dosyası](5115558.xlsx) DataBar, ColorScale ve IconSet Koşullu Biçimlendirme ile. indirebilirsiniz[örnek excel dosyası](5115558.xlsx) verilen linkten
 
 ![yapılacaklar:resim_alternatif_Metin](conversion_1.png)
 

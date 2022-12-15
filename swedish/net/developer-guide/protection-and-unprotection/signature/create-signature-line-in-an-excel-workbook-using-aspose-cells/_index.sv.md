@@ -6,7 +6,7 @@ url: /sv/net/create-signature-line-in-an-excel-workbook-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel tillhandahåller en funktion att lägga till**Signaturlinje** i Excel-arbetsböcker. Du kan lägga till en signaturrad genom att klicka på**Föra in** Tab och välj sedan**Signaturlinje** från**Text** grupp.
+ Microsoft Excel innehåller en funktion att lägga till**Signaturlinje** i Excel-arbetsböcker. Du kan lägga till en signaturrad genom att klicka på**Föra in** Tab och välj sedan**Signaturlinje** från**Text** grupp.
 
  Aspose.Cells tillhandahåller också denna funktion och har avslöjat[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) egendom för detta ändamål. Den här artikeln kommer att förklara hur du använder den här egenskapen för att lägga till en signaturrad med Aspose.Cells.
 

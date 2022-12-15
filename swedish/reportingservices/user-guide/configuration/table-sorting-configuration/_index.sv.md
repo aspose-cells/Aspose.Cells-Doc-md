@@ -8,7 +8,7 @@ Konfigurationen inkluderar 5 typer av egenskaper. Dessa inkluderar rapportnamn, 
 
 - **namn** representerar rapportnamn och tabellnamn. namn representerar hela rapporten när namnet är tomt.
 - **värde** representerar radförskjutning.
-- **Index** representerar kolumnposition i tabellen.
+- **Index** representerar kolumnpositionen i tabellen.
 - **Ordning** representerar sorteringsordningstyp.
 
 TabellSorterad konfigurationsexempel:

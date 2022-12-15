@@ -22,7 +22,7 @@ l Soporte para actualizar los controles a través de las celdas vinculadas y vic
 
 l Accede a las propiedades de Shape: Name, ZOrderPosition.
 
-l Aplicar subtotales a tablas de hojas de cálculo.
+l Aplicar subtotales a tablas de hojas de trabajo.
 
 l Calcular la función de hipervínculo.
 

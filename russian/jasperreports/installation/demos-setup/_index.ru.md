@@ -6,13 +6,13 @@ url: /ru/jasperreports/demos-setup/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells для JasperReports включает ряд демонстрационных проектов, которые помогут вам приступить к экспорту отчетов в форматы документов Excel Microsoft из вашего приложения.
+Aspose.Cells for JasperReports включает ряд демонстрационных проектов, которые помогут вам начать экспортировать отчеты в форматы документов Excel Microsoft из вашего приложения.
 
-Демонстрации, поставляемые с Aspose.Cells для JasperReports, являются стандартными демонстрациями JasperReports, модифицированными для демонстрации использования новых экспортеров.
+Демонстрации, предоставленные с номером Aspose.Cells for JasperReports, являются стандартными демонстрациями JasperReports, модифицированными для демонстрации использования новых экспортеров.
 
 {{% /alert %}}
 
-Чтобы запустить Aspose.Cells для демонстраций JasperReports, выполните следующие действия:
+Чтобы запустить демоверсии Aspose.Cells for JasperReports, выполните следующие действия:
 
 1.  Загрузите JasperReports (например,<https://sourceforge.net/projects/jasperreports/files/archive/>). Обязательно загрузите весь заархивированный проект с исходным кодом и демоверсиями, а не только один JAR.
 1. Распакуйте заархивированный проект в какое-нибудь место на жестком диске, например C:\.
@@ -21,8 +21,8 @@ Aspose.Cells для JasperReports включает ряд демонстраци
 1.  Подготовьте Ant Build Tool и Ivy Dependency Manager, см.**\<Каталог_установки>\readme.txt**.
 1.  Изменить**build.xml** в**\<InstallDir>\demo\samples**, добавьте aspose.cells.jasperreports.jar в путь к классам:
    **\<path id="project-classpath"> ... \<pathelement location="../../lib/aspose.cells.jasperreports.jar"/> </path>**.
-1. Измените текущий каталог на**\<InstallDir>\demo\hsqldb** и запустите следующую командную строку:
+1.  Измените текущий каталог на**\<InstallDir>\demo\hsqldb** и запустите следующую командную строку:
    **муравей**
-1.  Измените текущий каталог на один из Aspose.Cells для демонстрации JasperReports, например**\<InstallDir>\demo\samples\ac.charts** и выполните следующие команды в командной строке:
+1.  Измените текущий каталог на одну из демонстраций Aspose.Cells for JasperReports, например**\<InstallDir>\demo\samples\ac.charts** и выполните следующие команды в командной строке:
    **муравьиный тест** - для создания файлов отчетов с помощью экспортера XLS Aspose.
 1.  Откройте один из полученных документов для просмотра, например**\<InstallDir>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** в Microsoft Excel или другом приложении.

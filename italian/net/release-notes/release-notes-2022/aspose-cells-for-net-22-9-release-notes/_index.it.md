@@ -46,7 +46,7 @@ url: /it/net/aspose-cells-for-net-22-9-release-notes/
 |CELLSNET-51736| I bordi Cell si sono persi nel PDF risultante|
 |CELLSNET-51738|Il record non valido per una singola cella ha causato il danneggiamento del file generato|
 |CELLSNET-51760|Worksheet.AutoFitColumns non funziona correttamente|
-|CELLSNET-51770|Cells unito non funziona bene quando si salva come file PowerPoint|
+|CELLSNET-51770|Unire Cells non funziona correttamente quando si salva come file PowerPoint|
 |CELLSNET-51771|Dopo che le celle sono state unite, alcuni dati vengono persi nel file PowerPoint generato|
 |CELLSNET-51772|Le informazioni sulla connessione vengono modificate durante la conversione del file XLS in XLSM|
 |CELLSNET-51778|La conversione di un file XLS in XLSM elimina alcuni caratteri alla fine del collegamento negli intervalli denominati|
@@ -67,9 +67,9 @@ url: /it/net/aspose-cells-for-net-22-9-release-notes/
 |CELLSNET-51961|Eccezione "Indice non compreso nell'intervallo" durante il rendering di un ODS in PDF|
 |CELLSNET-51863|System.StackOverflowException in CollectionBase.Exists|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi Cell.SetTableFormula(...).**
 

@@ -26,7 +26,7 @@ Per unire le celle in un'unica cella grande, procedi nel seguente modo:
 Per separare una cella grande in più celle, procedi nel seguente modo:
 
 -  Accedi a qualsiasi desiderato**Foglio di lavoro**
-- Accedi alla cella unita che deve essere divisa
+- Accedi alla cella unita che deve essere separata
 - **Separa** la cella grande in molte celle utilizzando la posizione della cella unita
 
  Puoi usare**Separa** metodo di**Foglio di lavoro** separare una cella usando la sua posizione.

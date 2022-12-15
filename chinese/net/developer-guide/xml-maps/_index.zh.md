@@ -21,14 +21,14 @@ description: 将数据从 XML 数据文件导入 Microsoft Excel。
 
 以下屏幕截图显示了如何使用 Microsoft Excel 导入 XML 地图。
 
-|![待办事项：图片_替代_文本](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
+|![待办事项：图像_替代_文本](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
 |:- |
 
 ## **使用 Aspose.Cells 导入 XML 映射**
 
 以下示例代码显示了如何使用[**工作簿.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index).它生成[输出excel文件](5115036.xlsx)如这个屏幕截图所示。
 
-|![待办事项：图片_替代_文本](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
+|![待办事项：图像_替代_文本](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
 |:- |
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}

@@ -13,8 +13,8 @@ url: /it/net/aspose-cells-for-net-20-8-release-notes/
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47524|Supporta affettatrici nelle tabelle di Excel|Nuova caratteristica|
-|CELLSNET-47512|Client API per l'impostazione diretta dei caratteri per GridWeb|Nuova caratteristica|
-|CELLSNET-47513|Client API per l'aggiunta/rimozione di collegamenti ipertestuali per GridWeb|Nuova caratteristica|
+|CELLSNET-47512|API client per l'impostazione diretta dei caratteri per GridWeb|Nuova caratteristica|
+|CELLSNET-47513|API client per l'aggiunta/rimozione di collegamenti ipertestuali per GridWeb|Nuova caratteristica|
 |CELLSNET-47514|Aggiungi la proprietà ShowAddButton per supportare l'aggiunta/eliminazione del foglio di lavoro per GridWeb|Nuova caratteristica|
 |CELLSNET-43975|Supporto per tipi di font OTF con API Aspose.Cells per scopi di rendering|Nuova caratteristica|
 |CELLSNET-47445|Tabella pivot non visualizzata quando salvata come file ODS|Nuova caratteristica|
@@ -64,9 +64,9 @@ url: /it/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-47530|Eccezione "Il livello di rientro deve essere compreso tra 0 e 250" durante il rendering di un file Excel in PDF|Eccezione|
 |CELLSNET-47541|Eccezione "Nome cella non valido" durante il caricamento di un file XLSX|Eccezione|
 
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 #### **Contrassegna l'interfaccia ICustomFunction come obsoleta.**
 

@@ -29,14 +29,14 @@ Microsoft Excel 允许用户追踪先例和相关信息。
 显示公式审核对话框。
    **公式审核对话框** 
 
-![待办事项：图片_替代_文本](tracing-precedents-and-dependents-in-aspose-cells_1.png)
+![待办事项：图像_替代_文本](tracing-precedents-and-dependents-in-aspose-cells_1.png)
 
 1. 追溯先例：
- 1. 选择包含要为其查找引用单元格的公式的单元格。
+1. 选择包含要为其查找引用单元格的公式的单元格。
  1. 要向直接向活动单元格提供数据的每个单元格显示示踪箭头，请单击**追溯先例**在**配方审核**工具栏。
 1. 引用特定单元格（依赖项）的跟踪公式
 1. 选择要为其标识依赖单元格的单元格。
-1. 要向依赖于活动单元格的每个单元格显示示踪箭头，请单击公式审核工具栏上的跟踪依赖项。
+ 1. 要向依赖于活动单元格的每个单元格显示示踪箭头，请单击公式审核工具栏上的跟踪依赖项。
 ## **追溯先例和从属 Cells: Aspose.Cells**
 ### **追溯先例**
 Aspose.Cells 可以轻松获得先例单元格。它不仅可以检索为简单公式引用提供数据的单元格，还可以找到为具有命名范围的复杂公式引用提供数据的单元格。
@@ -45,7 +45,7 @@ Aspose.Cells 可以轻松获得先例单元格。它不仅可以检索为简单�
 
 **输入电子表格** 
 
-![待办事项：图片_替代_文本](tracing-precedents-and-dependents-in-aspose-cells_2.png)
+![待办事项：图像_替代_文本](tracing-precedents-and-dependents-in-aspose-cells_2.png)
 
 Aspose.Cells 提供了 Cell 类的 GetPrecedents 方法，用于跟踪单元格的先例。它返回一个 ReferredAreaCollection。正如您在上面看到的，在 Book1.xls 中，单元格 B7 包含一个公式“=SUM(A1:A3)”。因此，单元格 A1:A3 是单元格 B7 的先行单元格。以下示例使用模板文件 Book1.xls 演示了跟踪先例功能。
 

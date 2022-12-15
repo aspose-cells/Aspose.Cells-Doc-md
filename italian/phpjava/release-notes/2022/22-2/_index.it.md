@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per PHP tramite Java 22.2 Note di rilascio
+title: Aspose.Cells for PHP via Java 22.2 Note di rilascio
 type: docs
 weight: 11
 url: /it/php-java/aspose-cells-for-php-via-java-22-2-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per PHP tramite Java 22.2](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.2/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for PHP via Java 22.2](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.2/).
 
 {{% /alert %}}
 
@@ -32,12 +32,12 @@ url: /it/php-java/aspose-cells-for-php-via-java-22-2-release-notes/
 |CELLSJAVA-44302|La direzione del testo dell'asse delle coordinate è errata dopo che il file Excel è stato convertito in HTML|
 |CELLSJAVA-44314|Etichette dell'asse delle categorie del grafico errate nel rendering dal grafico all'immagine|
 |CELLSJAVA-44274|Il formato SVG è supportato per la lettura o il rendering in PDF|
-|CELLSJAVA-44311|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il rendering nel formato di file HTML|
+|CELLSJAVA-44311|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il rendering nel formato di file HTML|
 |CELLSJAVA-44285|Eccezione "java.lang.ClassCastException: impossibile eseguire il cast di com.aspose.cells.n2f su com.aspose.cells.o90" quando si chiama Workbook.calculateFormula()|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Metodo Cells.AddAddInFunction() obsoleto.**
 

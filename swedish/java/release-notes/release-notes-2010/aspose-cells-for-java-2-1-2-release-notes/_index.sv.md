@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 2.1.2 Release Notes
+title: Aspose.Cells for Java 2.1.2 Release Notes
 type: docs
 weight: 90
 url: /sv/java/aspose-cells-for-java-2-1-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 2.1.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.1.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 2.1.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-2.1.2/)
 
 {{% /alert %}} 
 
@@ -26,14 +26,14 @@ Stöder export av namnobjekt med externa referenser för SpreadSheetML-fil.
  Lägger till ny formel till listan med formler som stöds: FREKVENS
  Känner igen filformatet automatiskt för LightCells API.
  Förbättrar stilens modell för prestationsövervägande.
- Förbättrar API:et för kommentar för prestandaövervägande.
+ Förbättrar API angående Kommentar för prestationsövervägande.
  Förbättrar prestandan för att läsa stora Excel 2007-filer.
  Ökar prestanda för LightCells API för stora Excel 2007-filer.
  Läsoperationen för ett dokuments egenskaper förbättras.
 Att importera CSV-filer förbättras.
  67 korrigeringar och förbättringar.
 
- Problem lösta i Aspose.Cells för Java 2.1.2
+ Problem lösta i Aspose.Cells for Java 2.1.2
 
 
 

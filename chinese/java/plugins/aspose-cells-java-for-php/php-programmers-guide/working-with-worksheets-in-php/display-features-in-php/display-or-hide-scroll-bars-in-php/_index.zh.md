@@ -6,7 +6,7 @@ url: /zh/java/display-or-hide-scroll-bars-in-php/
 ---
 ## **Aspose.Cells - 显示或隐藏滚动条**
 ### **隐藏滚动条**
-隐藏滚动条使用**Aspose.Cells Java 用于 PHP**， 称呼**显示隐藏滚动条**模块。
+隐藏滚动条使用**Aspose.Cells Java for PHP**， 称呼**显示隐藏滚动条**模块。
 
 **PHP代码**
 

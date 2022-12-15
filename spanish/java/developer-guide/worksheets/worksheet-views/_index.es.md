@@ -10,7 +10,7 @@ Todas las hojas de trabajo se pueden ver en dos modos:
 - Vista normal.
 - La previsualización del salto de página.
 
-Una vista normal es la vista predeterminada de una hoja de cálculo. La vista previa de salto de página es una vista de edición que muestra una hoja de trabajo tal como se imprimirá. La vista previa de salto de página muestra qué datos irán en cada página para que pueda ajustar el área de impresión y los saltos de página. Usando Aspose.Cells, los desarrolladores pueden habilitar la vista normal o los modos de vista previa de salto de página.
+Una vista normal es la vista predeterminada de una hoja de trabajo. La vista previa de salto de página es una vista de edición que muestra una hoja de trabajo tal como se imprimirá. La vista previa de salto de página muestra qué datos irán en cada página para que pueda ajustar el área de impresión y los saltos de página. Usando Aspose.Cells, los desarrolladores pueden habilitar la vista normal o los modos de vista previa de salto de página.
 ### **Modos de vista de control**
  Aspose.Cells proporciona un[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en un archivo de Excel.
 
@@ -66,7 +66,7 @@ En la siguiente captura de pantalla, puede ver el archivo Book1.xls en la vista 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}
 ## **Congelar paneles**
-Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de trabajo.
+Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de cálculo.
 
 **Uso de paneles congelados en Microsoft Excel** 
 
@@ -107,7 +107,7 @@ Los paneles funcionan simultáneamente. Si realiza un cambio en uno, el cambio a
 #### **División de paneles**
 Aspose.Cells proporciona un[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)La clase proporciona una amplia gama de propiedades y métodos para administrar archivos de Excel. Para implementar vistas divididas, use el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[separar](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) método. Para eliminar los paneles divididos, use el[eliminarDividir](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) método.
 
-En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de trabajo. El archivo actualizado se guarda.
+En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de cálculo. El archivo actualizado se guarda.
 
 
 

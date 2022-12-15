@@ -8,7 +8,7 @@ url: /sv/java/create-dynamic-charts/
 
 Dynamiska (eller interaktiva) diagram har möjlighet att ändras när du ändrar dataomfånget. Med andra ord kan de dynamiska diagrammen automatiskt återspegla ändringar när datakällan ändras. För att utlösa förändringen av datakällan kan man använda filtreringsalternativet i Excel-tabeller eller använda en kontroll som ComboBox eller Dropdown-lista.
 
-Den här artikeln visar användningen av Aspose.Cells för Java API:er för att skapa dynamiska diagram med båda de ovannämnda metoderna.
+Den här artikeln visar användningen av Aspose.Cells for Java API:er för att skapa dynamiska diagram med båda de ovannämnda metoderna.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Den här artikeln visar användningen av Aspose.Cells för Java API:er för att 
 
 {{% alert color="primary" %}}
 
- Excel-tabeller hänvisas till som ListObjects i Aspose.Cells' perspektiv, därför kommer vi att använda termen "ListObject" istället för "Tabell" för tydlighetens skull. Läs i detalj hur du gör[skapa ListObjects](/cells/sv/java/creating-a-list-object/) med Aspose.Cells för .NET API.
+ Excel-tabeller hänvisas till som ListObjects i Aspose.Cells' perspektiv, därför kommer vi att använda termen "ListObject" istället för "Tabell" för tydlighetens skull. Läs i detalj hur du gör[skapa ListObjects](/cells/sv/java/creating-a-list-object/) med Aspose.Cells for .NET API.
 
 {{% /alert %}}
 

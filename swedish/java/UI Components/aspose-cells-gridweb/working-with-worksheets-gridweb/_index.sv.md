@@ -16,7 +16,7 @@ Utvecklare kan komma åt ett specifikt kalkylblad genom att ange dess arkindex s
 
 ## **Ta bort ett arbetsblad**
 
-Det här avsnittet ger kort information om hur du tar bort kalkylblad från Microsoft Excel-filer med GridWeb API. Ta bort ett kalkylblad genom att ange dess arkindex.
+Det här avsnittet ger kort information om hur du tar bort kalkylblad från Microsoft Excel-filer med hjälp av GridWeb API. Ta bort ett kalkylblad genom att ange dess arkindex.
 
 Utvecklare kan ta bort ett specifikt kalkylblad genom att ange dess arkindex med hjälp av GridWorksheetCollection-samlingens removeAt-metod som visas nedan i exempelkodavsnittet.
 
@@ -195,7 +195,7 @@ Exemplet nedan lägger till hyperlänk för bildadress till ett kalkylblad.
 
 ## **Sortering av data**
 
-Sortering är en mycket värdefull funktion när det kommer till databehandling. Osorterade data är jobbigt för användare när de söker efter specifik information. Aspose.Cells.GridWeb stöder kraftfulla sorteringsfunktioner. Det här ämnet diskuterar sortering av data med Aspose.Cells.GridWeb API.
+Sortering är en mycket värdefull funktion när det kommer till databehandling. Osorterade data är jobbigt för användare när de söker efter specifik information. Aspose.Cells.GridWeb stöder kraftfulla sorteringsfunktioner. Det här ämnet diskuterar sortering av data med hjälp av Aspose.Cells.GridWeb API.
 
 Aspose.Cells.GridWeb låter utvecklare sortera data horisontellt och vertikalt så att utvecklare kan sortera data från topp till botten eller vänster till höger.
 

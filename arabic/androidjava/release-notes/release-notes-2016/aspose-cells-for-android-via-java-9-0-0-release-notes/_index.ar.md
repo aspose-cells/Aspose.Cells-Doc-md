@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 9.0.0 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 9.0.0 ملاحظات الإصدار
 type: docs
 weight: 20
 url: /ar/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
@@ -13,7 +13,7 @@ url: /ar/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41936|لا تنتهي طريقة Workbook.calculateFormula () مطلقًا لملف Excel المصدر|التعزيز|
 |CELLSJAVA-41827|يستغرق جدول البيانات أكثر من 3 دقائق لحساب الصيغ بواسطة طريقة Workbook.calculateFormula ()|التعزيز|
 |CELLSJAVA-41928|تعذر التقاط مورد الصورة أثناء عرض جدول البيانات على HTML باستخدام IStreamProvider|حشرة|
-|CELLSJAVA-41841|مشكلة في تحويل مربعات الاختيار إلى HTML|حشرة|
+|CELLSJAVA-41841|مشكلة في عرض مربعات الاختيار على HTML|حشرة|
 |CELLSJAVA-41932|مشكلة في getDisplayStringValue () لقيم تنسيق التاريخ|حشرة|
 |CELLSJAVA-41930|باستخدام Light Cells APIs لمعالجة ملف XLS ، يتم دائمًا معالجة الخلية الأولى من الورقة الأولى|حشرة|
 |CELLSJAVA-41931|تباعد الحروف وانفصالها غير صحيحين للنص الرأسي أثناء تقديم جدول البيانات إلى PDF|حشرة|
@@ -47,7 +47,7 @@ url: /ar/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41960|يحدث استثناء NegativeArraySizeException أثناء فتح المصدر a2.xls|استثناء|
 |CELLSJAVA-41959|يحدث استثناء NullPointerException أثناء فتح المصدر a1.xlsx|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى طرحه على منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for Android. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
 ### **إضافة خاصية CopyOptions.ReferToDestinationSheet و Cells.CopyRows (Cells sourceCells ، int sourceRowIndex ، int destinationRowIndex ، int rowNumber ، CopyOptions copyOptions)**
 عند نسخ النطاق والمخطط يشير إلى الورقة المصدر ، فإن خطأ يعني أن مصدر بيانات المخطط المنسوخ لن يتغير. صحيح يعني أن مصدر بيانات المخطط المنسوخ يشير إلى الورقة الوجهة.
 ### **إضافة خاصية HtmlSaveOptions.FilePathProvider**
@@ -117,6 +117,6 @@ url: /ar/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-نظرًا لأن قاعدة الشفرة Aspose.Cells لنظام Android تتطابق مع كود إصدار .NET و Java ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v8.9.1 ، Aspose.Cells for .NET v8.9.2 ، Aspose.Cells for .NET v9.019 تم تضمين .9.1 و Aspose.Cells for Java v8.9.2 و Aspose.Cells for Java v9.0.0 أيضًا في Aspose.Cells لنظام Android v9.0.0.
+نظرًا لأن قاعدة الكود Aspose.Cells for Android تتطابق مع رمز الإصدارين .NET و Java ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v8.9.1 ، Aspose.Cells for .NET v8.9.2 ، Aspose.Cells 076.0193. يتم تضمين 9.1 و Aspose.Cells for Java v8.9.2 و Aspose.Cells for Java v9.0.0 أيضًا في Aspose.Cells for Android v9.0.0.
 
 {{% /alert %}}

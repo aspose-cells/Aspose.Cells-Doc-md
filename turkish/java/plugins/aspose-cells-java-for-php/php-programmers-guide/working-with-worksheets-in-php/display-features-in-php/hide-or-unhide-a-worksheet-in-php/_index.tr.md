@@ -6,7 +6,7 @@ url: /tr/java/hide-or-unhide-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Bir Çalışma Sayfasını Gizle veya Göster**
 ### **Bir Çalışma Sayfasını Gizleme**
- PHP için Aspose.Cells Java kullanarak çalışma sayfasını gizlemek için arayın**çalışma sayfasını gizle** modül.
+ Aspose.Cells Java for PHP'i kullanarak çalışma sayfasını gizlemek için arayın**çalışma sayfasını gizle** modül.
 
 **PHP Kodu**
 

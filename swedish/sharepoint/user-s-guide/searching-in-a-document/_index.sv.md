@@ -19,5 +19,5 @@ Så här söker du efter flera filer samtidigt:
 
 Följande alternativ är tillgängliga:
 
-- **Hitta alternativ**: Fokusera din sökning genom att söka i celler, efter formler eller hitta formler som innehåller ett specifikt uttryck.
+- **Hitta alternativ**Fokusera din sökning genom att söka i celler, efter formler eller hitta formler som innehåller ett specifikt uttryck.
 - **Skiftlägeskänsliga**: När det skiftlägeskänsliga alternativet är valt matchar sökningen tecken exakt, inklusive gemener och versaler.

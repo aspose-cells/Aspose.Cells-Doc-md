@@ -265,7 +265,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 **与自定义集合绑定的工作表** 
 
-![待办事项：图片_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
+![待办事项：图像_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
 
 
 
@@ -273,7 +273,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 **从菜单中选择添加行选项** 
 
-![待办事项：图片_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+![待办事项：图像_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
 
 
 
@@ -281,7 +281,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 **使用默认数据添加到工作表的新行** 
 
-![待办事项：图片_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
+![待办事项：图像_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
 
 
 
@@ -289,7 +289,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 **通过单击保存按钮保存更改** 
 
-![待办事项：图片_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
+![待办事项：图像_替代_文本](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
 ## **结论**
 {{% alert color="primary" %}} 
 

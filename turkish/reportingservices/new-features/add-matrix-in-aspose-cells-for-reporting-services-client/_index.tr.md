@@ -1,5 +1,5 @@
 ﻿---
-title: Raporlama Hizmetleri İstemcisi için Aspose.Cells'de Matris Ekleme
+title: Aspose.Cells for Reporting Services İstemcide Matrix Ekle
 type: docs
 weight: 80
 url: /tr/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/

@@ -1,5 +1,5 @@
 ﻿---
-title: Ürüne Genel Bakış - Aspose.Cells Android için Java üzerinden
+title: Ürüne Genel Bakış - Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /tr/java/product-overview-aspose-cells-for-android-via-java/
@@ -8,7 +8,7 @@ url: /tr/java/product-overview-aspose-cells-for-android-via-java/
 
 ![hücre logosu](50528297.png)
 
-Java belgeleri aracılığıyla Android için Aspose.Cells'e hoş geldiniz!
+Aspose.Cells for Android via Java belgelerine hoş geldiniz!
 
 Aspose.Cells, Android uygulamalarının sistemde Microsoft Excel'in yüklü olmasını gerektirmeden Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells yalnızca elektronik tablo oluşturmayı ve diğer temel dosya biçimlendirme özelliklerini değil, aynı zamanda bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriklerini, hücre biçimlendirmesini ve dosya korumasını değiştirmesini kolaylaştırır. Aspose.Cells ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarmanıza, yaygın ve karmaşık matematiksel, tarih ve saat, finansal veya metin formülleri ve işlevleri eklemenize olanak tanır. Ayrıca çizelgelerin, resimlerin, yorumların, çizim nesnelerinin ve kontrollerin manipüle edilmesini destekler.
 

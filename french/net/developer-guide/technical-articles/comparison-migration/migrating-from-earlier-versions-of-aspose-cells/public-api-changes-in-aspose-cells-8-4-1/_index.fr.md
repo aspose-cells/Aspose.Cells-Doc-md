@@ -160,7 +160,7 @@ La même propriété peut également être utilisée pour convertir des graphiqu
 ### **Rendu des commentaires au format PDF**
 Avec la version v8.4.1, le Aspose.Cells API a fourni la propriété PageSetup.PrintComments et l'énumération PrintCommentsType afin de faciliter le rendu des commentaires lors de la conversion des feuilles de calcul au format PDF. L'énumération PrintCommentsType a les constantes suivantes.
 
-- PrintCommentsType.PrintNoComments : les commentaires ne doivent pas être rendus.
+- PrintCommentsType.PrintNoComments : les commentaires ne doivent pas être affichés.
 - PrintCommentsType.PrintInPlace : les commentaires doivent être rendus là où ils sont placés.
 - PrintCommentsType.PrintSheetEnd : les commentaires doivent être rendus à la fin de la feuille de calcul.
 

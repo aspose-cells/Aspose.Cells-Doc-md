@@ -43,7 +43,7 @@ url: /ar/java/copying-rows-and-columns-in-jython/
 
  المصنف = المصنف (dataDir + 'Book1.xls')
 
- # الوصول إلى ورقة العمل الأولى في ملف Excel
+ الوصول إلى ورقة العمل الأولى في ملف Excel
 
  ورقة العمل = workbook.getWorksheets (). get (0)
 
@@ -55,7 +55,7 @@ url: /ar/java/copying-rows-and-columns-in-jython/
 
  # حفظ ملف Excel المعدل في تنسيق افتراضي (أي Excel 2003)
 
-workbook.save (dataDir + "Copy Rows.xls")
+ workbook.save (dataDir + "Copy Rows.xls")
 
  طباعة "نسخ الصفوف بنجاح."
 
@@ -69,7 +69,7 @@ workbook.save (dataDir + "Copy Rows.xls")
 
  المصنف = المصنف ()
 
- # الوصول إلى ورقة العمل الأولى في ملف Excel
+ الوصول إلى ورقة العمل الأولى في ملف Excel
 
  ورقة العمل = workbook.getWorksheets (). get (0)
 
@@ -128,7 +128,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

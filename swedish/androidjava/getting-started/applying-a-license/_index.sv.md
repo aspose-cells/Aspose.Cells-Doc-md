@@ -18,7 +18,7 @@ Du måste ange en licens innan du utför några operationer med dokument. Se til
 
 ## **Laddar licensfilen**
 
- I Aspose.Cells för Android via Java kan licensen vara[inbäddad som en resurs](/cells/sv/java/applying-a-license/#applying-a-license-from-an-embedded-resource), eller laddas från en stream:
+ I Aspose.Cells for Android via Java kan licensen vara[inbäddad som en resurs](/cells/sv/java/applying-a-license/#applying-a-license-from-an-embedded-resource), eller laddas från en stream:
 
 1.  Placera licensfilen var som helst på**/mnt/sdcard/**.
 1. Skapa en ström som refererar till fil.

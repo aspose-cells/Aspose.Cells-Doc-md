@@ -30,7 +30,7 @@ url: /ar/cpp/converting-worksheet-to-different-image-formats/
 ## **تحويل ورقة العمل إلى SVG**
 يرمز SVG إلى Scalable Vector Graphics. SVG هي مواصفات تستند إلى معايير XML للرسومات المتجهة ثنائية الأبعاد. إنه معيار مفتوح قيد التطوير من قبل World Wide Web Consortium (W3C) منذ 1999.
 
-تمكّن Aspose.Cells لـ C++ من تحويل أوراق العمل إلى صورة SVG منذ الإصدار 18.5.0.
+Aspose.Cells for C++ تمكن من تحويل أوراق العمل إلى صورة SVG منذ الإصدار 18.5.0.
 
 لاستخدام هذه الميزة ، قم باستيراد مساحة الاسم `Aspose.Cells.Rendering` إلى البرنامج أو المشروع الخاص بك. لديها العديد من الفئات القيمة للتصيير والطباعة ، على سبيل المثال ، `ISheetRender` ، `IImageOrPrintOptions` ، وغيرها.
 

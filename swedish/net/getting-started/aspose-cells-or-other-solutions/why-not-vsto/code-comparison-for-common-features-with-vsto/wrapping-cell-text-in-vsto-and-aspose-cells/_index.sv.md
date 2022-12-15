@@ -13,7 +13,7 @@ Så här skapar du ett kalkylblad med två celler, en med radbruten text och en 
  1. Lägg till text i cell A1.
  1. Lägg till radbruten text i cell A5.
 1. Spara kalkylarket.
- Kodexemplen nedan visar hur man utför dessa steg med VSTO med antingen C#. Kodexempel som visar hur man gör samma sak med Aspose.Cells för .NET, igen med antingen C# följer omedelbart efter.
+ Kodexemplen nedan visar hur man utför dessa steg med VSTO med antingen C#. Kodexempel som visar hur man gör samma sak med Aspose.Cells for .NET, återigen med antingen C# följer omedelbart efter.
 
 Att köra koden resulterar i ett kalkylblad med två celler, en som har text som inte har raderats och en som har:
 
@@ -21,7 +21,7 @@ Att köra koden resulterar i ett kalkylblad med två celler, en som har text som
 
 ![todo:image_alt_text](picture1.png)
 
-## **Utdata med Aspose.Cells för .NET**
+## **Utdata med Aspose.Cells for .NET**
 
 ![todo:image_alt_text](picture2.png)
 

@@ -5,7 +5,7 @@ weight: 60
 url: /es/java/page-break-preview-in-php/
 ---
 ## **Aspose.Cells - Vista previa de salto de página**
- Para configurar la hoja de trabajo para la vista previa de salto de página usando**Aspose.Cells Java para PHP** , simplemente invocar**La previsualización del salto de página** módulo.
+ Para configurar la hoja de trabajo para la vista previa de salto de página usando**Aspose.Cells Java for PHP** , simplemente invocar**La previsualización del salto de página** módulo.
 
 **Código PHP**
 

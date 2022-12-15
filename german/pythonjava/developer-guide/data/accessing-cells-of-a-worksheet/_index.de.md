@@ -5,7 +5,7 @@ weight: 10
 url: /de/python-java/accessing-cells-of-a-worksheet/
 ---
 ## **Zugriff auf Cells**
-Mit Aspose.Cells für Python über Java können Sie auf Zellen in einem Arbeitsblatt zugreifen, indem Sie den Zellennamen oder den Index der Zeile und Spalte verwenden. Dieser Artikel zeigt diese beiden Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt
+Mit Aspose.Cells for Python via Java können Sie auf Zellen in einem Arbeitsblatt zugreifen, indem Sie den Zellennamen oder den Index der Zeile und Spalte verwenden. Dieser Artikel zeigt diese beiden Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt
 ### **Greifen Sie mit dem Zellennamen auf die Zelle zu**
 Der folgende Codeausschnitt veranschaulicht den Zugriff auf die Zelle über den Namen der Zelle. Der Beispielcode greift auf die Zelle "C5" zu und gibt ihren Wert aus.
 

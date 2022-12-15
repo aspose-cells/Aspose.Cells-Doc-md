@@ -27,11 +27,11 @@ Microsoft Excel permet aux utilisateurs de retracer les antécédents et les per
 
 1.  Sur le**Afficher la barre d'outils** , sélectionner**Audit de formule**
 1. Tracez des précédents :
- 1. Sélectionnez la cellule contenant la formule pour laquelle vous souhaitez rechercher des cellules précédentes.
+1. Sélectionnez la cellule contenant la formule pour laquelle vous souhaitez rechercher des cellules précédentes.
  1. Pour afficher une flèche de suivi sur chaque cellule qui fournit directement des données à la cellule active, cliquez sur**Tracer des précédents** sur le**Audit de formule** barre d'outils.
 1. Formules de trace qui font référence à une cellule particulière (dépendants)
  1. Sélectionnez la cellule pour laquelle vous souhaitez identifier les cellules dépendantes.
-1. Pour afficher une flèche de suivi sur chaque cellule qui dépend de la cellule active, cliquez sur Tracer les dépendants dans la barre d'outils Audit de formule.
+ 1. Pour afficher une flèche de suivi sur chaque cellule qui dépend de la cellule active, cliquez sur Tracer les dépendants dans la barre d'outils Audit de formule.
 ## **Recherche de précédent et de personne à charge Cells : Aspose.Cells**
 ### **Retrouver les précédents**
 Aspose.Cells facilite l'obtention de cellules précédentes. Non seulement il peut récupérer des cellules qui fournissent des données à des précédents de formules simples, mais également trouver des cellules qui fournissent des données à des précédents de formules complexes avec des plages nommées.

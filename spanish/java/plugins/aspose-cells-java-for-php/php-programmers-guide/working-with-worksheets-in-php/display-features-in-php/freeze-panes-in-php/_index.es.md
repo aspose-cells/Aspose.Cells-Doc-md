@@ -5,7 +5,7 @@ weight: 40
 url: /es/java/freeze-panes-in-php/
 ---
 ## **Aspose.Cells - Congelar paneles**
- Para congelar paneles en el documento de hoja de cálculo usando**Aspose.Cells Java para PHP** , simplemente invocar**FreezePanes** módulo.
+ Para congelar paneles en el documento de hoja de cálculo usando**Aspose.Cells Java for PHP** , simplemente invocar**FreezePanes** módulo.
 
 **Código PHP**
 

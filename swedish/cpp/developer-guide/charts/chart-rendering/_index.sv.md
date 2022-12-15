@@ -6,7 +6,7 @@ url: /sv/cpp/chart-rendering/
 ---
 ## **Skapa diagram**
 
-Aspose.Cells API:er stöder för att skapa en mängd Excel-diagram som beskrivs under ämnet[Skapa och anpassa Excel-diagram](/cells/sv/cpp/creating-and-customizing-charts/)För att demonstrera användningen av Aspose.Cells API:er för att rendera diagrammen i bild- och PDF-format, kommer vi att skapa ett diagram av typen Kolumn enligt följande utdrag.
+Aspose.Cells API:er stöder för att skapa en mängd Excel-diagram som beskrivs under ämnet[Skapa och anpassa Excel-diagram](/cells/sv/cpp/creating-and-customizing-charts/). För att demonstrera användningen av Aspose.Cells API:er för att rendera diagrammen i bild- och PDF-format, kommer vi att skapa ett diagram av typen Kolumn enligt följande utdrag.
 
 {{< highlight "cpp" >}}
 

@@ -16,10 +16,10 @@ url: /zh/java/format-pivot-table-cells/
 
 **输入数据透视表，在执行代码之前**
 
-![待办事项：图片_替代_文本](format-pivot-table-cells_1.png)
+![待办事项：图像_替代_文本](format-pivot-table-cells_1.png)
 
 **执行代码后的输出数据透视表**
 
-![待办事项：图片_替代_文本](format-pivot-table-cells_2.png)
+![待办事项：图像_替代_文本](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FormatPivotTableCells-FormatPivotTableCells.java" >}}

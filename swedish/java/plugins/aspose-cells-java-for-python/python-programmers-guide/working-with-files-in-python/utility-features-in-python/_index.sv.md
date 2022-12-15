@@ -10,4 +10,4 @@ url: /sv/java/utility-features-in-python/
 - [Konvertera till MHTML-filer i Python](/cells/sv/java/converting-to-mhtml-files-in-python/)
 - [Konvertera arbetsblad till bild i Python](/cells/sv/java/converting-worksheet-to-image-in-python/)
 - [Konvertera arbetsblad till SVG i Python](/cells/sv/java/converting-worksheet-to-svg-in-python/)
-- [Hantera dokumentegenskaper i Python](/cells/sv/java/managing-document-properties-in-python/)
+- [Hantera dokumentegenskaper på Python](/cells/sv/java/managing-document-properties-in-python/)

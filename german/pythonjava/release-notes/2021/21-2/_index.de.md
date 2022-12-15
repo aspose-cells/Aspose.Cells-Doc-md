@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Python über Java 21.2 Versionshinweise
+title: Aspose.Cells for Python via Java 21.2 Versionshinweise
 type: docs
 weight: 12
 url: /de/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für Python über Java 21.2.
+Diese Seite enthält Versionshinweise für Aspose.Cells for Python via Java 21.2.
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für Python über Java 2
 |CELLSJAVA-43382|Kopieren erzeugt beschädigte Arbeitsmappe|
 |CELLSJAVA-43364|Problem beim Speichern eines Diagramms mit Bild in der Markierung als Bild|
 |CELLSJAVA-43389|Arbeitsmappen-/Arbeitsblatt-Kennwortschutzeinstellungen gehen beim Speichern im XLSB-Dateiformat verloren|
-|CELLSJAVA-43392| Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
+|CELLSJAVA-43392|Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
 |CELLSJAVA-43387|Das Exportieren eines einzelnen Blatts in HTML löst eine Ausnahme aus|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

@@ -12,17 +12,17 @@ Den här sidan visar hur du installerar Aspose Cells och skapar en Hello World-a
 
 ## **Installation**
 
-### **Installera Aspose.Cells genom NuGet**
+### **Installera Aspose.Cells till NuGet**
 
- NuGet är det enklaste sättet att ladda ner och installera Aspose.Cells för .NET.
+NuGet är det enklaste sättet att ladda ner och installera Aspose.Cells for .NET.
 
-1.  Öppna Microsoft Visual Studio och NuGet-pakethanteraren.
-1.  Sök "aspose.cells" för att hitta önskad Aspose.Cells för .NET.
-1. Klicka på "Installera", Aspose.Cells för .NET kommer att laddas ner och refereras till i ditt projekt.
-**![Installera Aspose Cells genom NuGet](install-through-nuget.png)**
+1.  Öppna Microsoft Visual Studio och NuGet pakethanterare.
+1.  Sök "aspose.cells" för att hitta önskad Aspose.Cells for .NET.
+1. Klicka på "Installera", Aspose.Cells for .NET kommer att laddas ner och refereras till i ditt projekt.
+**![Installera Aspose Cells till NuGet](install-through-nuget.png)**
 
- Du kan också ladda ner den från nuget-webbsidan för aspose.cells:
-[Aspose.Cells för .NET NuGet-paket](https://www.nuget.org/packages/Aspose.Cells/)
+ Du kan också ladda ner den från webbsidan nuget för aspose.cells:
+[Aspose.Cells for .NET NuGet Paket](https://www.nuget.org/packages/Aspose.Cells/)
 
 [Fler steg för detaljer](/cells/sv/net/installation/)
 
@@ -61,7 +61,7 @@ Gäller: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 och avancerad ve
 I det här exemplet använder jag macOS High Sierra för att visa hur man börjar använda Aspose.Cells på MAC OS.
 
 1. Skapa en .netcore-applikation med namnet "AsposeCellsTest".
-2. Öppna programmet med Visual Studio för Mac och installera sedan Aspose Cells genom NuGet:
+2. Öppna programmet med Visual Studio för Mac och installera sedan Aspose Cells till NuGet:
 **![Installera Aspose Cells på macOS](install-på-mac-os.png)**
 3. kör testet med följande kod:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
@@ -76,11 +76,11 @@ Gäller: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 och avancerad ve
 
 ### **Hur man använder grafikbibliotek på icke-Windows-plattformar med Net6**
 
- Aspose.Cells för Net6 använder nu SkiaSharp som grafikbibliotek, som rekommenderas i[Microsofts officiella uttalande](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) . För mer information om hur du använder Aspose.Cells med NET6, se[Hur man kör Aspose.Cells för .Net6](/cells/sv/net/how-to-run-aspose-cells-for-net6/).
+ Aspose.Cells för Net6 använder nu SkiaSharp som grafikbibliotek, som rekommenderas i[officiellt uttalande på Microsoft](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) . För mer information om hur du använder Aspose.Cells med NET6, se[Hur man kör Aspose.Cells för .Net6](/cells/sv/net/how-to-run-aspose-cells-for-net6/).
 
 ## **Skapar Hello World-applikationen**
 
-Stegen nedan skapar applikationen Hello World med Aspose.Cells API:
+Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
 
 1.  Om du har en licens, då[tillämpa den](/cells/sv/net/licensing/).
  Om du använder utvärderingsversionen, hoppa över de licensrelaterade kodraderna.

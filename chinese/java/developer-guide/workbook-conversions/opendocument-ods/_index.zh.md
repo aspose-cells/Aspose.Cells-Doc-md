@@ -15,4 +15,4 @@ url: /zh/java/opendocument-ods/
 
 **由 Aspose.Cells 生成并在 OpenOffice Writer 中打开的示例 ODS 文档** 
 
-![待办事项：图片_替代_文本](opendocument-ods_1.png)
+![待办事项：图像_替代_文本](opendocument-ods_1.png)

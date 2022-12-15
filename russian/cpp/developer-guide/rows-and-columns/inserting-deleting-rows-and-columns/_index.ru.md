@@ -25,7 +25,7 @@ url: /ru/cpp/inserting-deleting-rows-and-columns/
 
 
 #### **Вставка нескольких строк**
- Чтобы вставить несколько строк на лист, вызовите метод[Инсерровс](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a61e4cd6dcaeeb0d11afd54616df75ee0) метод[ICells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) коллекция.[Инсерровс](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a61e4cd6dcaeeb0d11afd54616df75ee0)метод принимает два параметра:
+ Чтобы вставить несколько строк на лист, вызовите функцию[Инсерровс](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a61e4cd6dcaeeb0d11afd54616df75ee0) метод[ICells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) коллекция.[Инсерровс](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a61e4cd6dcaeeb0d11afd54616df75ee0)метод принимает два параметра:
 
 - Индекс строки, индекс строки, из которой будут вставлены новые строки.
 - Количество строк, общее количество строк, которые необходимо вставить.

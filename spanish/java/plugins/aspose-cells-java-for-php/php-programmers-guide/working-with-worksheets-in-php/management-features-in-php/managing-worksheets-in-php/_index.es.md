@@ -6,7 +6,7 @@ url: /es/java/managing-worksheets-in-php/
 ---
 ## **Aspose.Cells - Gestión de hojas de trabajo**
 ### **Agregar hojas de trabajo a un nuevo archivo de Excel**
-Para agregar una hoja de trabajo a un nuevo archivo de Excel usando**Aspose.Cells Java para PHP** , simplemente llama**añadir_hoja de trabajo** método de**Gestión de hojas de trabajo** módulo.
+ Para agregar una hoja de trabajo a un nuevo archivo de Excel usando**Aspose.Cells Java for PHP** , simplemente llama**añadir_hoja de trabajo** método de**Gestión de hojas de trabajo** módulo.
 
 **Código PHP**
 
@@ -34,7 +34,7 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ### **Eliminación de hojas de trabajo usando el nombre de la hoja**
- Para eliminar la hoja de trabajo por nombre de hoja usando**Aspose.Cells Java para PHP** , simplemente llama**remove_worksheet_by_name** método de**Gestión de hojas de trabajo** módulo.
+ Para eliminar la hoja de trabajo por nombre de hoja usando**Aspose.Cells Java for PHP** , simplemente llama**remove_worksheet_by_name** método de**Gestión de hojas de trabajo** módulo.
 
 **Código PHP**
 
@@ -62,7 +62,7 @@ $fstream->close();
 
 {{< /highlight >}}
 ### **Eliminación de hojas de cálculo mediante el índice de hojas**
- Para eliminar hoja de trabajo por índice de hoja usando**Aspose.Cells Java para PHP** , simplemente llama**remove_worksheet_by_index** método de**Gestión de hojas de trabajo** módulo.
+ Para eliminar hoja de trabajo por índice de hoja usando**Aspose.Cells Java for PHP** , simplemente llama**remove_worksheet_by_index** método de**Gestión de hojas de trabajo** módulo.
 
 **Código PHP**
 

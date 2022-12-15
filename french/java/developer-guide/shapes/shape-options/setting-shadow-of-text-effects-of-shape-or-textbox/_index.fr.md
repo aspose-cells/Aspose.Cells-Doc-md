@@ -18,7 +18,7 @@ url: /fr/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
 {{% /alert %}} 
 ## **Définition de l'ombre des effets de texte de Shape ou TextBox**
- La capture d'écran suivante montre le[fichier excel de sortie](5473446.xlsx) généré avec l'exemple de code suivant. La capture d'écran montre également la valeur du**Ombre** qui a été défini comme**Bas décalé**.
+La capture d'écran suivante montre le[fichier excel de sortie](5473446.xlsx) généré avec l'exemple de code suivant. La capture d'écran montre également la valeur du**Ombre** qui a été défini comme**Bas décalé**.
 
 ![tâche : image_autre_texte](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 

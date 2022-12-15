@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 7.2.1 Release Notes
+title: Aspose.Cells for .NET 7.2.1 Release Notes
 type: docs
 weight: 70
 url: /sv/net/aspose-cells-for-net-7-2-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.2.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.2.1/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.2.1](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.2.1/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v7.2.1!
+ Vi är glada att kunna meddela Aspose.Cells for .NET v7.2.1!
 
 
 

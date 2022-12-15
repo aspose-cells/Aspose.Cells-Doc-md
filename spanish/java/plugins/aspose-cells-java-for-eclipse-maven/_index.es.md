@@ -14,7 +14,7 @@ El IDE de Eclipse se puede ampliar con componentes de software adicionales. Ecli
 
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ)es un componente maduro, escalable y rico en características que ofrece muchas funciones que van mucho más allá de las capacidades simples de exportación de datos de otros proveedores. Con Aspose.Cells for Java, los desarrolladores pueden exportar datos, formatear hojas de cálculo al nivel más granular, importar imágenes, crear gráficos, aplicar y calcular fórmulas complejas, transmitir datos de Excel®, guardar en varios formatos y mucho más, todo esto sin necesidad de Microsoft Excel® o Microsoft Ofimática.
 ### **Aspose.Cells Java para eclipse (Maven)**
--  Aspose.Cells Java para Eclipse (Maven) es un complemento para**Eclipse IDE** por**Aspose.** Este complemento está destinado a desarrolladores que utilizan la plataforma Maven for Java desarrollos y desean utilizar[Aspose.Cells for Java](http://goo.gl/gtvhlQ)en sus proyectos. El complemento le permite crear proyectos maven para usar[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) y también descargar[Ejemplos de código](https://goo.gl/uxznrb)del API.
+-  Aspose.Cells Java para Eclipse (Maven) es un complemento para**Eclipse IDE** por**Aspose.** Este complemento está destinado a desarrolladores que utilizan la plataforma Maven for Java desarrollos y desean utilizar[Aspose.Cells for Java](http://goo.gl/gtvhlQ) en sus proyectos. El complemento le permite crear proyectos maven para usar[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) y también descargar[Ejemplos de código](https://goo.gl/uxznrb)del API.
 -  El complemento proporciona las siguientes características para trabajar con[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) dentro de**Eclipse IDE** cómodamente:
 
 ![todo:imagen_alternativa_texto](kwkgljg.png)
@@ -57,7 +57,7 @@ Para descargar el IDE de Eclipse
 Los siguientes son tres métodos recomendados para descargar e instalar correctamente el complemento Aspose.Cells Java para Eclipse (Maven):
 
 -  Arrastrar y soltar la instalación desde[Mercado de Eclipse](https://marketplace.eclipse.org/content/asposecells-java-maven-eclipse) a su espacio de trabajo de Eclipse.
--  O ir a**Ayuda** > **Instalar nuevo software...** > Ingrese la siguiente URL del sitio de actualización en**Trabajar con**:
+-  O ir a**Ayuda** > **Instalar nuevo software...**> Ingrese la siguiente URL del sitio de actualización en**Trabajar con**:
  cdn.aspose.com/marketplace/eclipse/java/maven/asposecells
  Luego seleccione "Aspose.Cells Java para Eclipse (Maven)" y**Finalizar**. Acepte el Acuerdo de licencia e instale el complemento.
 ## **Instalando**
@@ -65,7 +65,7 @@ Los siguientes son tres métodos recomendados para descargar e instalar correcta
 ## **Uso del complemento**
 [Usando Aspose.Cells Java para Eclipse - Maven](/cells/es/java/installing-and-using-aspose-cells-java-for-eclipse-maven/#using)
 ### **¿Cómo solicitar la licencia Aspose?**
-Este complemento utiliza una versión de evaluación de Aspose.Cells. Una vez que esté satisfecho con su evaluación, puede comprar una licencia en el[Aspose sitio web](https://purchase.aspose.com/buy).
+ Este complemento utiliza una versión de evaluación de Aspose.Cells. Una vez que esté satisfecho con su evaluación, puede comprar una licencia en el[Aspose sitio web](https://purchase.aspose.com/buy).
 Para eliminar el mensaje de evaluación y las limitaciones de funciones, se debe aplicar la licencia del producto. Recibirá un archivo de licencia después de haber comprado el producto. Siga los pasos a continuación para aplicar la licencia
 
 -  Asegúrese de que el archivo de licencia se llame como**Aspose.Cells.Java.lic**

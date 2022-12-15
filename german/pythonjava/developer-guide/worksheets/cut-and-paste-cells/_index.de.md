@@ -5,7 +5,7 @@ weight: 30
 url: /de/python-java/cut-and-paste-cells/
 ---
 ## **Ausschneiden und Einfügen Cells**
-Aspose.Cells für Python über Java bietet die Möglichkeit, Zellen auszuschneiden und einzufügen. Dafür sorgt die API[CutCells einfügen](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) Methode der[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)Sammlung. Das[CutCells einfügen](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) akzeptiert die folgenden Parameter.
+Aspose.Cells for Python via Java bietet die Möglichkeit, Zellen auszuschneiden und einzufügen. Dafür sorgt die API[CutCells einfügen](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) Methode der[Cells](https://reference.aspose.com/cells/python/asposecells.api/Cells)Sammlung. Das[CutCells einfügen](https://reference.aspose.com/cells/python/asposecells.api/cells#insertCutCells\(com.aspose.cells.Range,%20int,%20int,%20int\)) akzeptiert die folgenden Parameter.
 
 - [Bereich](https://reference.aspose.com/cells/python/asposecells.api/Range)Der Bereich der auszuschneidenden Zellen.
 - Zeilenindex: Der Index der Zeile zum Einfügen von Zellen.

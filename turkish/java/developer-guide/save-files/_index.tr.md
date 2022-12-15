@@ -49,7 +49,7 @@ url: /tr/java/saving-excel-files-to-csv-pdf-and-other-formats/
 1. **Dosyayı bir konuma kaydetme**
 1. **Dosyayı bir akışa kaydetme**
 
-## **Dosyayı Bir Konuma Kaydetmek**
+## **Dosyayı Bir Konuma Kaydetme**
 
  Geliştiricilerin dosyalarını bir depolama konumuna kaydetmeleri gerekiyorsa, dosya adını (tam depolama yolu ile birlikte) ve istenen dosya biçimini (kullanarak) belirtebilirler.[**Biçimi Kaydet**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) numaralandırma) çağrılırken[**kaydetmek**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) yöntemi[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)nesne.
 

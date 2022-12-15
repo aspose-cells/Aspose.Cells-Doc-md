@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.5.2
+title: Offentlig API Ändringar i Aspose.Cells 8.5.2
 type: docs
 weight: 180
 url: /sv/net/public-api-changes-in-aspose-cells-8-5-2/
@@ -11,7 +11,7 @@ url: /sv/net/public-api-changes-in-aspose-cells-8-5-2/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Återge arbetsblad till grafisk kontext**
- Den här utgåvan av Aspose.Cells för .NET API har exponerat två nya överbelastningar av SheetRender.ToImage-metoden som nu gör det möjligt att acceptera en instans av klassen System.Drawing.Graphics till[rendera i grafiksammanhang](/cells/sv/net/render-worksheet-to-graphic-context/). Signaturerna för nyligen tillagda metoder är följande.
+ Denna utgåva av Aspose.Cells for .NET API har exponerat två nya överbelastningar av SheetRender.ToImage-metoden som nu tillåter att acceptera en instans av klassen System.Drawing.Graphics till[rendera i grafiksammanhang](/cells/sv/net/render-worksheet-to-graphic-context/). Signaturerna för nyligen tillagda metoder är följande.
 
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float höjd)
@@ -60,7 +60,7 @@ bmp.Save("test.png", ImageFormat.Png);
 
 
 ### **Metod PivotTable.GetCellByDisplayName tillagd**
-Aspose.Cells för .NET 8.5.2 har exponerat metoden PivotTable.GetCellByDisplayName som kan användas för att[hämta objektet Cell med namnet PivotField](/cells/sv/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Den här metoden kan vara användbar i scenarier där du vill markera eller formatera PivotField-huvudet.
+ Aspose.Cells for .NET 8.5.2 har exponerat metoden PivotTable.GetCellByDisplayName som kan användas för att[hämta objektet Cell med namnet PivotField](/cells/sv/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Den här metoden kan vara användbar i scenarier där du vill markera eller formatera PivotField-huvudet.
 
 Följande är det enkla användningsscenariot.
 
@@ -104,19 +104,19 @@ workbook.Save("output.xlsx");
 
 
 ### **Property SaveOptions.MergeAreas tillagd**
-Aspose.Cells för .NET 8.5.2 har avslöjat egenskapen SaveOptions.MergeAreas som kan acceptera booleskt typvärde. Standardvärdet är falskt, men om det är satt till true, försöker Aspose.Cells för .NET API att slå samman den enskilda CellArea innan filen sparas.
+Aspose.Cells for .NET 8.5.2 har avslöjat egenskapen SaveOptions.MergeAreas som kan acceptera booleskt typvärde. Standardvärdet är falskt, men om det är satt till sant, försöker Aspose.Cells for .NET API slå samman den individuella CellArea innan filen sparas.
 
 {{% alert color="primary" %}} 
 
-Om ett kalkylark har för många enskilda celler med validering, finns det chanser att det resulterande kalkylarket kan skadas. En möjlig lösning är att slå samman cellerna med identiska valideringsregler eller så kan du nu använda egenskapen SaveOptions.MergeAreas för att styra API:et att automatiskt sammanfoga CellAreas innan du sparar.
+Om ett kalkylark har för många enskilda celler med validering, finns det chanser att det resulterande kalkylarket kan skadas. En möjlig lösning är att slå samman cellerna med identiska valideringsregler eller så kan du nu använda egenskapen SaveOptions.MergeAreas för att styra API för att automatiskt sammanfoga CellAreas innan sparaoperationen.
 
 {{% /alert %}} 
 ### **Egenskap Shape.Geometry.ShapeAdjustValues Added**
- Med lanseringen av v8.5.2 har Aspose.Cells API exponerat egenskapen Shape.Geometry.ShapeAdjustValues som kan användas för att[gör ändringar i justeringspunkterna för olika former](/cells/sv/net/change-adjustment-values-of-the-shape/).
+ Med lanseringen av v8.5.2 har Aspose.Cells API avslöjat egenskapen Shape.Geometry.ShapeAdjustValues som kan användas för att[gör ändringar i justeringspunkterna för olika former](/cells/sv/net/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-I Microsoft Excel-gränssnittet visas justeringspunkterna som gula diamantnoder.
+Microsoft Excel-gränssnittet visas justeringspunkterna som gula diamantnoder.
 
 {{% /alert %}} 
 
@@ -165,7 +165,7 @@ workbook.Save("output.xls);
 
 
 ### **Enumeration Field ConsolidationFunction.DistinctCount lagt till**
- Aspose.Cells för .NET 8.5.2 har exponerat fältet ConsolidationFunction.DistinctCount som kan användas för att[tillämpa konsolideringsfunktionen Distinct Count](/cells/sv/net/consolidation-function/) på datafältet i en pivottabell.
+ Aspose.Cells for .NET 8.5.2 har exponerat fältet ConsolidationFunction.DistinctCount som kan användas för att[tillämpa konsolideringsfunktionen Distinct Count](/cells/sv/net/consolidation-function/) på datafältet i en pivottabell.
 
 {{% alert color="primary" %}} 
 

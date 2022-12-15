@@ -17,7 +17,7 @@ Aspose.Cells 同时支持 32 位和 64 位环境。当您使用 Aspose.Cells MSI
 |net2.0|包含用于 .NET Framework 2.0、3.0、3.5、4.0 和 Mono 的程序集。这些程序集通常应用于 32 位和 64 位环境。|
 |net2.0_AuthenticodeSigned|同上，但程序集使用 Authenticode 进行了数字签名。签名程序集的加载速度可能比没有 Authenticode 时慢|
 |net3.5_ClientProfile|包含与 .NET Framework 3.5 或 4.0 客户端配置文件一起使用的程序集。|
-|net3.5_客户档案_验证码签名|同上，但程序集使用 Authenticode 进行了数字签名。签名程序集的加载速度可能比没有 Authenticode 时慢。|
+|net3.5_客户资料_验证码签名|同上，但程序集使用 Authenticode 进行了数字签名。签名程序集的加载速度可能比没有 Authenticode 时慢。|
 |net3.5|包含用于 .NET Framework 3.5 或 4.0 的程序集。|
 |net3.5_AuthenticodeSigned|同上，但程序集使用 Authenticode 进行了数字签名。签名程序集的加载速度可能比没有 Authenticode 时慢。|
 |net4.0|包含用于 .NET Framework 4.0 和 4.5 的程序集。|

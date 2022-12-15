@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-43616 |支持涉及“TABLE”函数的数组公式。|新功能|
 |CELLSNET-44195 |转换为 XLS 文件格式后，文件在受保护的视图中打开|强化|
 |CELLSNET-44182 |Cells 使用自定义格式查找在旧版本中有效但在新版本中无效|强化|
-|CELLSNET-44187 |Cell 值在转换为 HTML 时被错误地替换为 #|漏洞|
+|CELLSNET-44187 |Cell 值在转换为 HTML 时被错误地替换为#|漏洞|
 |CELLSNET-44161 | Aspose.Cells 生成的XLSX导致Excel 2007修复电子表格|漏洞|
 |CELLSNET-44063 |使用输入文件后数据透视表丢失标题的顺序|漏洞|
 |CELLSNET-44215 |保存为 pdf，在表格右侧显示无关数据|漏洞|

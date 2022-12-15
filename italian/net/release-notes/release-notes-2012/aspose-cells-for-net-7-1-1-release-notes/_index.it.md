@@ -72,7 +72,7 @@ url: /it/net/aspose-cells-for-net-7-1-1-release-notes/
 
 - Estrai lo stile pivot personalizzato dal file modello
 - Problema riscontrato in MS Excel: "Excel trovato contenuto illeggibile..."
-- Allineamento delle colonne nell'immagine quando si utilizza SheetRender API
+- Allineamento delle colonne nell'immagine quando si utilizza l'API SheetRender
 - Problema di rendering di Excel
 
 \2)

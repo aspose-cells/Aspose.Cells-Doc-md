@@ -6,11 +6,11 @@ url: /fr/cpp/aspose-cells-for-cpp-22-1-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Cette page contient les notes de version pour Aspose.Cells pour C++ 22.1 pour Windows.
+Cette page contient les notes de version pour Aspose.Cells for C++ 22.1 pour Windows.
 
 {{% /alert %}}
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-637| Optimiser les E/S de fichiers pour améliorer les performances de Windows|Amélioration|
-|CELLSCPP-645| Fournir une signature numérique Aspose.Cells pour la bibliothèque C++|Amélioration|
+|CELLSCPP-645| Fournir une bibliothèque signée numériquement Aspose.Cells for C++|Amélioration|

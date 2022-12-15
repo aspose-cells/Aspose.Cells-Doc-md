@@ -39,7 +39,7 @@ Lors de l'appel de la m√©thode Cell.SetStyle, l'objet Style n'est pas enregistr√
 
 {{< highlight "csharp" >}}
 
- Style style = cellule.GetStyle();
+ Style style = cell.GetStyle();
 
 style.Font.IsBold = true;
 

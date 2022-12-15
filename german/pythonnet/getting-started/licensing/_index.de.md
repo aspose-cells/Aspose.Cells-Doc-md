@@ -6,7 +6,7 @@ url: /de/python-net/licensing/
 ---
 {{% alert color="primary" %}}
 
- Sie können eine Evaluierungsversion von Aspose.Cells Python einfach über .Net von herunterladen[Download-Seite](https://pypi.org/project/aspose-cells-python/) @ Pypi-Repos. Die Evaluierungsversion bietet absolut dieselben Funktionen wie die lizenzierte Version der Komponente. Darüber hinaus wird die Evaluierungsversion einfach lizenziert, wenn Sie eine Lizenz erwerben und ein paar Codezeilen hinzufügen, um die Lizenz anzuwenden.
+ Sie können eine Evaluierungsversion von Aspose.Cells Python einfach über .Net von herunterladen[Download-Seite](https://pypi.org/project/aspose-cells-python/) Pypi-Repos. Die Evaluierungsversion bietet absolut dieselben Funktionen wie die lizenzierte Version der Komponente. Darüber hinaus wird die Evaluierungsversion einfach lizenziert, wenn Sie eine Lizenz erwerben und ein paar Codezeilen hinzufügen, um die Lizenz anzuwenden.
 
 {{% /alert %}}
 
@@ -17,7 +17,7 @@ Die Evaluierungsversion von Aspose.Cells Python über das .Net-Produkt (ohne Ang
 Die Einschränkungen sind unten aufgeführt:
 
 - **Anzahl der geöffneten Dateien** (Aspose.Cells Python über .Net)
-Wenn Sie Ihr Programm ausführen, können Sie nur 100 Excel-Dateien mit Aspose.Cells Python über die .Net-Bibliothek öffnen. Wenn Ihre Anwendung diese Zahl überschreitet, wird eine Ausnahme ausgelöst.
+ Wenn Sie Ihr Programm ausführen, können Sie nur 100 Excel-Dateien mit Aspose.Cells Python über die .Net-Bibliothek öffnen. Wenn Ihre Anwendung diese Zahl überschreitet, wird eine Ausnahme ausgelöst.
 
 
 Darüber hinaus wird ein Arbeitsblatt mit Bewertungswasserzeichen immer als aktives Arbeitsblatt in der generierten Excel-Datei mit Aspose.Cells Python über die Bibliothek angezeigt. Nur in der lizenzierten Version können Sie das aktive Arbeitsblatt auf andere Arbeitsblätter setzen. In der Ausgabe-PDF- oder Bilddatei von Aspose.Cells Python über würde ein Bewertungswasserzeichen am oberen Rand des Dokuments/Bilds eingefügt.

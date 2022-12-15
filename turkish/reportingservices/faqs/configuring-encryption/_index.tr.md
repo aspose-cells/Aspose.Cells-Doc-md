@@ -6,11 +6,11 @@ url: /tr/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Raporlama Hizmetleri için Aspose.Cells, şifrelemeyi destekler ve şifrelenmiş Microsoft Excel dosyalarını işleyebilirsiniz.
+ Aspose.Cells for Reporting Services şifrelemeyi destekler ve şifreli Microsoft Excel dosyalarını işleyebilirsiniz.
 
 {{% /alert %}} 
 ### **Şifreleme Türleri**
-Raporlama Hizmetleri için Aspose.Cells, Excel dosyalarını dışa aktarırken şifrelemeyi destekler. Üç şifreleme türünü destekler:
+Aspose.Cells for Reporting Services, Excel dosyalarını dışa aktarırken şifrelemeyi destekler. Üç şifreleme türünü destekler:
 
 - XOR
 - ZAYIF ŞİFRELEME

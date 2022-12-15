@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Reporting Services 1.7.0 Примечания к выпуску
+title: Aspose.Cells for Reporting Services 1.7.0 Примечания к выпуску
 type: docs
 weight: 10
 url: /ru/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для служб Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
  Какие новости?
 
-- Aspose.Cells для конструктора служб Reporting Services поддерживает создание шаблона матрицы в Excel.
+- Aspose.Cells for Reporting Services дизайнер поддерживает создание шаблона матрицы в Excel.
 - Поддерживает условное форматирование для табличных и матричных элементов отчета.
 - Добавляет элемент отчета табликса рендеринга только для форматов CSV и TXT в службах отчетов SQL Server 2008.
 
@@ -26,11 +26,11 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-- Исправлена ошибка Aspose.Cells для конструктора отчетов и формата отчетов служб Reporting Services.
+- Исправлена ошибка дизайнера отчетов и формата отчетов Aspose.Cells for Reporting Services.
 - Исправлена ошибка скрытия строк.
 - Исправлен алгоритм слияния строк.
 
- Проблемы, решенные в Aspose.Cells для Reporting Services 1.7.0.
+ Проблемы, решенные в Aspose.Cells for Reporting Services 1.7.0.
 
 
 

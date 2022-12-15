@@ -53,7 +53,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
  (CELLSNET-42228) - L'intégration d'un fichier DOC dans un format XSLX ne démarre pas MS Word pour charger le DOC intégré
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Insectes**
 
@@ -211,7 +211,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 \2) Suite de grille Aspose.Cells
 
 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Insectes**
 

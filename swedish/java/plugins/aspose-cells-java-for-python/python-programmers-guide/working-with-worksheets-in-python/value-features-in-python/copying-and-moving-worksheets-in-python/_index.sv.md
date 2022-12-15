@@ -1,14 +1,14 @@
 ﻿---
-title: Kopiera och flytta arbetsblad i Python
+title: Kopiera och flytta arbetsblad på Python
 type: docs
 weight: 10
 url: /sv/java/copying-and-moving-worksheets-in-python/
 ---
 ## **Aspose.Cells - Kopiera och flytta arbetsblad**
 ### **Kopiera arbetsblad i en arbetsbok**
- För att kopiera kalkylblad med**Aspose.Cells för Java i Ruby** , ringa upp**copy_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
+ För att kopiera kalkylblad med**Aspose.Cells for Java i Ruby** , ringa upp**copy_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

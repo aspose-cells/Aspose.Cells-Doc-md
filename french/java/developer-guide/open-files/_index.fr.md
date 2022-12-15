@@ -9,7 +9,7 @@ url: /fr/java/opening-files-with-different-formats/
 
 Les développeurs utilisent Aspose.Cells pour ouvrir des fichiers à des fins différentes. Par exemple, ouvrez un fichier pour en extraire des données ou utilisez une feuille de calcul de concepteur prédéfinie pour accélérer votre processus de développement. Aspose.Cells permet aux développeurs d'ouvrir différents types de fichiers source. Ces fichiers sources peuvent être des rapports Excel Microsoft, SpreadsheetML, des fichiers de valeurs séparées par des virgules (CSV), des fichiers de valeurs séparées par des tabulations ou des fichiers TSV. Cet article traite de l'ouverture de ces différents fichiers source à l'aide de Aspose.Cells.
 
-Si vous avez besoin de connaître tous les formats de fichiers pris en charge, veuillez vous référer aux pages suivantes :
+Si vous avez besoin de connaître tous les formats de fichiers pris en charge, veuillez vous référer aux pages suivantes :
 [Formats de fichiers pris en charge](https://docs.aspose.com/cells/java/supported-file-formats/)
 
 {{% /alert %}}

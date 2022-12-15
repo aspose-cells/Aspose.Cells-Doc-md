@@ -1,13 +1,13 @@
 ﻿---
-title: Skydda arbetsblad i Python
+title: Skyddar arbetsblad på Python
 type: docs
 weight: 10
 url: /sv/java/protecting-worksheets-in-python/
 ---
 ## **Aspose.Cells - Skydda arbetsblad**
- För att skydda kalkylblad med hjälp av**Aspose.Cells Java för Python** , ringa upp**protect_worksheet** metod av**skydd** modul.
+ För att skydda kalkylblad med hjälp av**Aspose.Cells Java for Python** , ringa upp**protect_worksheet** metod av**skydd** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

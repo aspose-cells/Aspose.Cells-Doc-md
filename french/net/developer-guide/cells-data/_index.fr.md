@@ -8,7 +8,7 @@ description: Cet article décrit comment afficher et modifier les données des f
 ---
 {{% alert color="primary" %}}
 
- Dans[Accéder au Cells d'une feuille de travail](/cells/fr/net/accessing-cells-of-a-worksheet/)nous avons discuté des approches de base pour accéder aux cellules d'une feuille de calcul. Cet article utilise l'une de ces approches pour ajouter différents types de données aux cellules.
+ Dans[Accéder au Cells d'une feuille de calcul](/cells/fr/net/accessing-cells-of-a-worksheet/), nous avons discuté des approches de base pour accéder aux cellules d'une feuille de calcul. Cet article utilise l'une de ces approches pour ajouter différents types de données aux cellules.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ description: Cet article décrit comment afficher et modifier les données des f
 
  Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classer.
 
- Aspose.Cells permet aux développeurs d'ajouter des données aux cellules des feuilles de calcul en appelant le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) méthode. Aspose.Cells fournit des versions surchargées du[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) méthode qui permet aux développeurs d'ajouter différents types de données aux cellules. L'utilisation de ces versions surchargées du[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index), il est possible d'ajouter une valeur booléenne, chaîne, double, entier ou date/heure, etc. à la cellule.
+Aspose.Cells permet aux développeurs d'ajouter des données aux cellules des feuilles de calcul en appelant le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) méthode. Aspose.Cells fournit des versions surchargées du[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) méthode qui permet aux développeurs d'ajouter différents types de données aux cellules. L'utilisation de ces versions surchargées du[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index), il est possible d'ajouter une valeur booléenne, chaîne, double, entier ou date/heure, etc. à la cellule.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
@@ -39,7 +39,7 @@ description: Cet article décrit comment afficher et modifier les données des f
 
  Lorsqu'un champ n'est pas rempli, les cellules avec[**DoubleValeur**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) ou[**Valeurflottante**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)lève une exception.
 
-Le type de données contenues dans une cellule peut également être vérifié à l'aide de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**Taper**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) propriété. En fait, le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**Taper**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) la propriété est basée sur[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)énumération dont les valeurs prédéfinies sont listées ci-dessous :
+ Le type de données contenues dans une cellule peut également être vérifié à l'aide de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**Taper**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) propriété. En fait, le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**Taper**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) la propriété est basée sur[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)énumération dont les valeurs prédéfinies sont listées ci-dessous :
 
 |**Cell Types de valeur**|**La description**|
 |:- |:- |
@@ -61,7 +61,7 @@ Lorsqu'ils travaillent sur des feuilles de calcul, les utilisateurs peuvent ajou
 {{% /alert %}}
 
 ## **Sujets avancés**
-- [Accéder au Cells d'une feuille de travail](/cells/fr/net/accessing-cells-of-a-worksheet/)
+- [Accéder au Cells d'une feuille de calcul](/cells/fr/net/accessing-cells-of-a-worksheet/)
 - [Convertir des données numériques de texte en nombre](/cells/fr/net/convert-text-numeric-data-to-number/)
 - [Création de sous-totaux](/cells/fr/net/creating-subtotals/)
 - [Filtrage des données](/cells/fr/net/data-filtering/)

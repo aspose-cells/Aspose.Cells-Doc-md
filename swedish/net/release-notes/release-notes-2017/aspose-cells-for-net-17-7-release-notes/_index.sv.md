@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.7 Release Notes
+title: Aspose.Cells for .NET 17.7 Release Notes
 type: docs
 weight: 60
 url: /sv/net/aspose-cells-for-net-17-7-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 17.7](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.7/).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 17.7](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.7/).
 
 {{% /alert %}} 
 
@@ -54,8 +54,8 @@ url: /sv/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45432|Undantag förekommer vid öppning av 0c29bc12429844fe983c2a152fa9b744.xlsb|Undantag|
 |CELLSNET-45431|Undantag förekommer vid öppning av 000bc1ec5fda4528a18f267f4dfe4a98.xlsb|Undantag|
 |CELLSNET-45430|Undantag inträffar vid öppning misslyckades_till_sparat_i_xlsb_type.xlsx|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoderna GlobalizationSettings.GetBooleanValueString()/GetErrorValueString()**
 Hämtar anpassat visningssträngvärde för cellens booleska värde och felvärde vid formatering/rendering.
 #### **Tar bort föråldrad ValidationCollection.Add() metod**
@@ -76,7 +76,7 @@ Hämtar allt område som innehåller datavalideringsinställningarna.
 Indikerar om pappersstorleken är automatisk.
 #### **Lägger till metoden FontSettingCollection.Replace().**
 Ersätter formens text.
-#### **Lägger till Cells.importResultSet(ResultSet rs, int rowIndex, int columnIndex, ImportTableOptions options)/Cells.importResultSet(ResultSet rs, String startCell, ImportTableOptions options) (endast för Java)**
+#### **Lägger till Cells.importResultSet(ResultSet rs, int rowIndex, int columnIndex, ImportTableOptions options)/Cells.importResultSet(ResultSet rs, String startCell, ImportTableOptions options) (endast for Java)**
 Stöder import av ResultSet med fler alternativ.
 #### **Lägger till egenskapen GridWorksheet.CustomColumnCaption**
 Hämtar eller ställer in den anpassade kolumntexten för kalkylbladet - Aspose.Cells.GridDesktop.
@@ -93,7 +93,7 @@ Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 
 - [Läs Numbers-kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Ställ in egenskapen DefaultFont för PdfSaveOptions och ImageOrPrintOptions att ha prioritet](/cells/sv/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
-- [Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementera fel och booleskt värde på ryska eller något annat språk](/cells/sv/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)
 - [Bestäm om arbetsbladets pappersstorlek är Automatisk](/cells/sv/net/determine-if-paper-size-of-worksheet-is-automatic/)
 - [Rendera pivottabell i GridDesktop](/cells/sv/net/render-pivottable-in-griddesktop/)

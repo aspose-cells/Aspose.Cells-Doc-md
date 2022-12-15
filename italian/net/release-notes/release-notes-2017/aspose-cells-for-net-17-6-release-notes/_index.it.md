@@ -67,8 +67,8 @@ url: /it/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45407|Eccezione: "La stringa di input non era in un formato corretto" durante il caricamento di un formato di file XLSX|Eccezione|
 |CELLSNET-45386|Eccezione durante la copia di un foglio con una casella di testo|Eccezione|
 |CELLSNET-45379|Si è verificata un'eccezione all'apertura del file Excel|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà Gridweb.OnAjaxCallFinishedClientFunction**
 Ottiene o imposta il nome della funzione lato client da chiamare al termine di ajaxcall.
 #### **Aggiunge enum StyleModifyFlag.RelativeIndent**

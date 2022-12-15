@@ -21,7 +21,7 @@ Aspose.Cells stöder villkorlig formatering på två sätt:
 - [Använda ett designerkalkylblad](/cells/sv/java/conditional-formatting/).
 - [Skapar villkorlig formatering vid körning](/cells/sv/java/conditional-formatting/).
 ### **Använder Designer-kalkylblad**
-Utvecklare kan skapa ett designerkalkylblad som innehåller villkorlig formatering i Microsoft Excel och sedan öppna det kalkylarket med Aspose.Cells. Aspose.Cells laddar och sparar designerkalkylarket, och behåller alla villkorsinställningar för formatering. För att ta reda på mer om designerkalkylblad, läs[Vad är ett designerkalkylblad](/cells/sv/java/what-is-a-designer-spreadsheet/).
+Utvecklare kan skapa ett designerkalkylblad som innehåller villkorlig formatering i Microsoft Excel och sedan öppna det kalkylarket med Aspose.Cells. Aspose.Cells läser in och sparar designerkalkylarket och behåller alla inställningar för villkorlig formatering. För att ta reda på mer om designerkalkylblad, läs[Vad är ett designerkalkylblad](/cells/sv/java/what-is-a-designer-spreadsheet/).
 ## **Använda villkorlig formatering vid körning**
 Aspose.Cells stöder tillämpning av villkorlig formatering vid körning.
 

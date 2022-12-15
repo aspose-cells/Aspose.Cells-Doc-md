@@ -12,7 +12,7 @@ A volte, si desidera stampare un intervallo di pagine su un file PDF di output. 
 
 ## **Limitazione del numero di pagine generate**
 
-L'esempio seguente mostra come eseguire il rendering di un intervallo di pagine (3 e 4) in un file Excel Microsoft in PDF.
+L'esempio seguente mostra come eseguire il rendering di un intervallo di pagine (3 e 4) in un file Microsoft Excel in PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LimitNumberofPagesGenerated-LimitNumberofPagesGenerated.java" >}}
 

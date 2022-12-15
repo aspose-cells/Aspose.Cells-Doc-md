@@ -1,12 +1,12 @@
 ﻿---
-title: Java 21.2 Sürüm Notları aracılığıyla PHP için Aspose.Cells
+title: Aspose.Cells for PHP via Java 21.2 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/php-java/aspose-cells-for-php-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 21.2 aracılığıyla PHP için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for PHP via Java 21.2 için sürüm notları içerir.
 
 {{% /alert %}}
 
@@ -15,7 +15,7 @@ Bu sayfa, Java 21.2 aracılığıyla PHP için Aspose.Cells sürüm notlarını 
 |CELLSJAVA-43382|Kopya bozuk çalışma kitabı üretir|
 |CELLSJAVA-43364|İşaretçide resim bulunan grafiği resme kaydederken sorun|
 |CELLSJAVA-43389|XLSB dosya biçimi olarak kaydederken Çalışma Kitabı/Çalışma Sayfası Parola Koruması ayarları kayboldu|
-|CELLSJAVA-43392| Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
+|CELLSJAVA-43392|Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
 |CELLSJAVA-43387|Tek sayfayı HTML'ye dışa aktarmak İstisna'yı yükseltir|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

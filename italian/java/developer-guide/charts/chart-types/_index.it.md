@@ -143,7 +143,7 @@ I seguenti grafici radar sono supportati in Aspose.Cells:
 #### **Grafici di superficie 3D**
 Come altri grafici 3D, i grafici 3D di superficie si basano sugli assi X, Y e Z. Questi grafici sono utili per mostrare una variazione della variabile "Z" in funzione delle altre due variabili, "X" e "Y".
 
-**Grafici 3D di superficie supportati in Microsoft Excel** 
+**Grafici Surface 3D supportati in Microsoft Excel** 
 
 ![cose da fare:immagine_alt_testo](chart-types_9.png)
 
@@ -154,7 +154,7 @@ I seguenti grafici 3D di superficie sono supportati in Aspose.Cells:
 - Grafico del contorno della superficie
 - Grafico di contorno wireframe
 #### **Grafici a bolle**
-Un grafico a bolle è una variazione di un grafico a dispersione in cui i punti dati vengono sostituiti con bolle. Un grafico a bolle può essere utilizzato al posto di un grafico a dispersione se i dati hanno tre serie di dati, ognuna delle quali contiene un insieme di valori. I grafici a bolle vengono utilizzati principalmente per visualizzare dati finanziari.
+Un grafico a bolle è una variazione di un grafico a dispersione in cui i punti dati vengono sostituiti con bolle. Un grafico a bolle può essere utilizzato al posto di un grafico a dispersione se i dati hanno tre serie di dati, ognuna delle quali contiene un set di valori. I grafici a bolle vengono utilizzati principalmente per visualizzare dati finanziari.
 
 **Grafici a bolle supportati in Microsoft Excel** 
 

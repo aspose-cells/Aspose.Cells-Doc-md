@@ -22,7 +22,7 @@ Di seguito sono riportati alcuni metodi e proprietà che implementano i colori d
 
 L'esempio seguente mostra come ottenere e impostare i colori del tema.
 
-L'esempio seguente utilizza un file XLSX modello, ottiene i colori per i diversi tipi di colore del tema, modifica i colori e salva il file Excel Microsoft.
+L'esempio seguente utilizza un file XLSX modello, ottiene i colori per i diversi tipi di colore del tema, modifica i colori e salva il file Microsoft Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 

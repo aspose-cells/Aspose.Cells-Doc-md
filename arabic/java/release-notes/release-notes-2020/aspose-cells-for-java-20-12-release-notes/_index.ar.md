@@ -28,7 +28,7 @@ url: /ar/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43361|لون خلية غير صحيح في تحويل xls إلى xlsx|
 |CELLSJAVA-43366|لا يتم تحديث خاصية SetAsTotal|
 |CELLSJAVA-43348|تحويل XLSB إلى PDF: CellsException: -2147483648|
-|CELLSJAVA-43343| استثناء عند تصدير ملف إلى PDF لا يحتوي على عنصر محدد للشكل|
+|CELLSJAVA-43343|استثناء عند تصدير ملف إلى PDF لا يحتوي على عنصر محدد للشكل|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 

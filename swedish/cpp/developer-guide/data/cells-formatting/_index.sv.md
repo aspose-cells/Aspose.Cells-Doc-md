@@ -15,7 +15,7 @@ url: /sv/cpp/cells-formatting/
 
  Om du vill ställa in stilen för en enskild cell, använd[ICell->SetIStyle()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#afa3d5b2aa5e90b286effc9e92de59dd5) metod och om du vill ställa in stilen för ett cellintervall, använd då[IRange->ApplyIStyle()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_range#aaad6703b803565b674999bbaf5eed3a0)metod.
 ## **Exempelkod**
- Följande exempelkod formaterar cell C4 i kalkylbladet på olika sätt och skärmdumpen visar[output excel-fil](21266438.xlsx)genereras av den för din referens.
+ Följande exempelkod formaterar cell C4 i kalkylbladet på olika sätt och skärmdumpen visar[output excel-fil](21266438.xlsx) genereras av den för din referens.
 
 ![todo:image_alt_text](cells-formatting_1.png)
 

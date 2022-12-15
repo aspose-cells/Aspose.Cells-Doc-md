@@ -9,7 +9,7 @@ url: /zh/reportingservices/modifying-report-parameters/
 1. 打开 Microsoft Excel。
 1. 点击**报表参数**在 Aspose.Cells.Report.Designer 工具栏上（
 
-![待办事项：图片_替代_文本](modifying-report-parameters_1.png)
+![待办事项：图像_替代_文本](modifying-report-parameters_1.png)
 
 ).
 
@@ -18,7 +18,7 @@ url: /zh/reportingservices/modifying-report-parameters/
 
    **选择参数** 
 
-![待办事项：图片_替代_文本](modifying-report-parameters_2.png)
+![待办事项：图像_替代_文本](modifying-report-parameters_2.png)
 
 
 
@@ -27,6 +27,6 @@ url: /zh/reportingservices/modifying-report-parameters/
 
    **修改参数** 
 
-![待办事项：图片_替代_文本](modifying-report-parameters_3.png)
+![待办事项：图像_替代_文本](modifying-report-parameters_3.png)
 
 1. 点击**节省**.

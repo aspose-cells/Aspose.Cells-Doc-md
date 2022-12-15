@@ -6,9 +6,9 @@ url: /it/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells - Mostra o nascondi le barre di scorrimento**
 ### **Nascondere le intestazioni di riga/colonna**
- Per nascondere le intestazioni di riga/colonna utilizzando**Aspose.Cells Java per Python** , chiamata**DisplayHideRowColumnHeaders** modulo.
+ Per nascondere le intestazioni di riga/colonna utilizzando**Aspose.Cells Giava for Python** , chiamata**DisplayHideRowColumnHeaders** modulo.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 
@@ -34,7 +34,7 @@ print "Scroll bars are now hidden, please check the output document."
 ### **Rendere visibili le intestazioni di riga/colonna**
 Rendi visibili le intestazioni di righe e colonne utilizzando il metodo setRowColumnHeadersVisible(true) della classe Worksheet.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "python" >}}
 

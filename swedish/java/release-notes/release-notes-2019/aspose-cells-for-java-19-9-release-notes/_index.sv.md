@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 19.9 Release Notes
+title: Aspose.Cells for Java 19.9 Release Notes
 type: docs
 weight: 40
 url: /sv/java/aspose-cells-for-java-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.9.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.9.
 
 {{% /alert %}} 
 
@@ -24,8 +24,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.9.
 |CELLSJAVA-43004|Undantag java.lang.NumberFormatException: För inmatningssträng: "0.0" vid konvertering av Excel till HTML|Undantag|
 |CELLSJAVA-43010|IllegalArgumentException när deleteBlankColumns() körs|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Tar bort föråldrad Chart.Rotation-egenskap**
 Använd egenskapen Chart.RotationAngle istället.
 ### **Tar bort föråldrad Chart.IsDataTableShown-egenskap**

@@ -174,7 +174,7 @@ Hittills, när vi har diskuterat diagram, har vi tittat på standarddiagram som 
 
 ### **Skapa anpassade diagram**
 
-Utvecklare kan skapa anpassade diagram vid körning med Aspose.Cells enkelt API.
+Utvecklare kan skapa anpassade diagram vid körning med Aspose.Cells enkel API.
 
  Ett diagram är sammansatt av en dataserie. Varje dataserie i Aspose.Cells representeras av en[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objekt medan[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) objekt fungerar som en samling av[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)objekt. När du skapar ett anpassat diagram har utvecklare friheten att använda olika typer av diagram för olika dataserier (samlade i en[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)objekt).
 

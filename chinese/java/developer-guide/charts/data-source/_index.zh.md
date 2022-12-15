@@ -32,7 +32,7 @@ url: /zh/java/data-formatting-in-charts/
 
 **包含图表和类别数据的柱形图** 
 
-![待办事项：图片_替代_文本](data-formatting-in-charts_1.png)
+![待办事项：图像_替代_文本](data-formatting-in-charts_1.png)
 
 ## **推进主题**
 - [创建动态图表](/cells/zh/java/create-dynamic-charts/)

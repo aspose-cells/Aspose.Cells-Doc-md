@@ -18,7 +18,7 @@ url: /zh/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47373|将工作簿保存到 PDF MemoryStream 持续超过 2 分钟|强化|
 |CELLSNET-43418|复制并粘贴（仅限数据）一个不连续的范围|强化|
 |CELLSNET-47315|保存为 zip64 时无法打开文件|强化|
-|CELLSNET-47384|提高加载图片/形状性能|表现|
+|CELLSNET-47384|改进加载图片/形状性能|表现|
 |CELLSNET-47382|HTML 到 Excel 的转换会丢失格式|漏洞|
 |CELLSNET-47390|HTML转ODS渲染部分文字颜色错误|漏洞|
 |CELLSNET-47385|Cells.InsertCutCells 在具有范围交集的工作簿上中断|漏洞|

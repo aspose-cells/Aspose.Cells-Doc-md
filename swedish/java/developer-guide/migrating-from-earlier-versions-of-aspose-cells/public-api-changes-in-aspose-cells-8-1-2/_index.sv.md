@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.1.2
+title: Offentlig API Ändringar i Aspose.Cells 8.1.2
 type: docs
 weight: 70
 url: /sv/java/public-api-changes-in-aspose-cells-8-1-2/
@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.1
 
 {{% /alert %}} 
 ## **Stöd för varning om teckensnittsersättning har lagts till**
-Med Aspose.Cells för Java 8.1.2, har klasserna WarningInfo och WarningType, IWarningCallback-gränssnittet och SaveOptions.WarningCallback och ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att göra det möjligt för utvecklarna att ta emot varningar när teckensnittsersättning sker vid konvertering av kalkylblad, XPS och XPS. .
+Med Aspose.Cells for Java 8.1.2 har klasserna WarningInfo och WarningType, IWarningCallback-gränssnittet och SaveOptions.WarningCallback och ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att göra det möjligt för utvecklarna att ta emot varningar när de konverterar teckensnittsersättningar, XPS-format och kalkylblad.
 
 {{% alert color="primary" %}} 
 
@@ -18,4 +18,4 @@ Med Aspose.Cells för Java 8.1.2, har klasserna WarningInfo och WarningType, IWa
 
 {{% /alert %}}
 ## **Borttagen föråldrad PdfSaveOptions.ChartImageType Property**
-Aspose.Cells för Java 8.1.2 har tagit bort den föråldrade egenskapen PdfSaveOptions.ChartImageType från det offentliga API:et.
+Aspose.Cells for Java 8.1.2 har tagit bort den föråldrade egenskapen PdfSaveOptions.ChartImageType från den offentliga API.

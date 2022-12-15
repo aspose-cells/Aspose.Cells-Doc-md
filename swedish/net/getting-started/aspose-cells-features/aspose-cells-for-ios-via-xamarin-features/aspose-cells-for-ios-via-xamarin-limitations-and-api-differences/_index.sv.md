@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för iOS via Xamarin-begränsningar och API-skillnader
+title: Aspose.Cells för iOS via Xamarin-begränsningar och API Skillnader
 type: docs
 weight: 10
 url: /sv/net/aspose-cells-for-ios-via-xamarin-limitations-and-api-differences/
@@ -25,7 +25,7 @@ Observera att Aspose.Cells för iOS via Xamarin alltid byggs med de senaste stab
 - Implementering av Microsoft Excel 2010 gnistlinjer - stöds inte.
 - Kryptera filer - Stöds inte.
 ## Offentliga API (namnutrymme) skillnader
-I Aspose.Cells för iOS via Xamarin används Aspose.Cells.Drawing namespace istället för System.Drawing i .NET API. Listan över berörda objekt är följande:
+I Aspose.Cells för iOS via Xamarin används Aspose.Cells.Drawing namespace istället för System.Drawing in .NET API. Listan över berörda objekt är följande:
 
 - Aspose.Cells.Drawing.Color
 - Aspose.Cells.Drawing.ColorConverter

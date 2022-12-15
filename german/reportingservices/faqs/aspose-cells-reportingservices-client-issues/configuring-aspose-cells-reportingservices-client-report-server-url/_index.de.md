@@ -16,9 +16,9 @@ So konfigurieren Sie eine Client-Berichtsserver-URL:
 
 1. Geben Sie die Konfigurationsinformationen des Berichtsservers ein (URL, Benutzername und Kennwort).
  1. Die URL des Berichtsservers muss das Format http://host/ReportServer haben. Zum Beispiel http://172.16.204.11/ReportServer.
-1. Der Benutzername ist der Windows Server-Benutzername. Zum Beispiel Verwalter.
+ 1. Der Benutzername ist der Windows Server-Benutzername. Zum Beispiel Verwalter.
  1. Das Passwort ist das Windows Server-Benutzerpasswort. Zum Beispiel 123456.
- 1. Der Standardwert der Domäne ist null.
+1. Der Standardwert der Domäne ist null.
 1.  Drücke den**Prüfen** Schaltfläche, um die Konfigurationsinformationen zu überprüfen.
 1.  Klicken**Speichern** und speichern Sie die Konfigurationsinformationen des Berichtsservers.
 

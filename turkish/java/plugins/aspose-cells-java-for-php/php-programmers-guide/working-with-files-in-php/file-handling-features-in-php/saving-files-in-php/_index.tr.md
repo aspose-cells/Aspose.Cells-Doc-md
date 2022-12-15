@@ -1,12 +1,12 @@
 ﻿---
-title: PHP'de Dosyaları Kaydetme
+title: PHP'de Dosyaları Kaydetmek
 type: docs
 weight: 20
 url: /tr/java/saving-files-in-php/
 ---
 ## **Aspose.Cells - Dosyaları Kaydetme**
 ### **Dosyayı bir konuma kaydetme**
- Geliştiricilerin dosyalarını kullanarak kaydetmeleri gerekiyorsa**PHP için Aspose.Cells Java** bir depolama konumuna daha sonra dosya adını (tam depolama yolu ile birlikte) ve istenen dosya formatını (kullanarak) belirtebilirler.**Dosya Biçimi Türü**numaralandırma) çağrılırken**kaydetmek**yöntemi**Çalışma kitabı**nesne.
+ Geliştiricilerin dosyalarını kullanarak kaydetmeleri gerekiyorsa**Aspose.Cells Java for PHP** bir depolama konumuna daha sonra dosya adını (tam depolama yolu ile birlikte) ve istenen dosya formatını (kullanarak) belirtebilirler.**Dosya Biçimi Türü**numaralandırma) çağrılırken**kaydetmek**yöntemi**Çalışma kitabı**nesne.
 
 **PHP Kodu**
 

@@ -12,17 +12,17 @@ Aspose.Cells låter dig exportera ett kalkylblad från arbetsboken och konverter
 
 ## **Konvertera arbetsblad till bild**
 
-Ibland är det användbart att spara en bild av ett kalkylblad. Bilder kan delas online, infogas i andra dokument (rapporter skrivna i Microsoft Word, till exempel, eller PowerPoint-presentationer).
+Ibland är det användbart att spara en bild av ett kalkylblad. Bilder kan delas online, infogas i andra dokument (rapporter skrivna i Microsoft Word, till exempel, eller PowerPoint presentationer).
 
-Aspose.Cells tillhandahåller bildexport via**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** klass. Den här klassen representerar kalkylbladet som kommer att renderas till en bild. De**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**klass ger**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**metod för att konvertera ett kalkylblad till en bildfil. BMP, PNG, JPEG, TIFF och EMF-format stöds.
+Aspose.Cells tillhandahåller bildexport via**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** klass. Den här klassen representerar kalkylbladet som kommer att renderas till en bild. De**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** klass ger**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**metod för att konvertera ett kalkylblad till en bildfil. BMP, PNG, JPEG, TIFF och EMF-format stöds.
 
 {{% alert color="primary" %}}
 
-Aspose.Cells för Java stöder även konvertering till TIFF-format. För att konvertera ett kalkylblad till en TIFF-bild, lägg till JAI-biblioteket i din klassväg.
+Aspose.Cells for Java stöder även konvertering till TIFF-format. För att konvertera ett kalkylblad till en TIFF-bild, lägg till JAI-biblioteket i din klassväg.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-För närvarande stöder inte API:et för konvertering av kalkylblad till bild 3D-bubbeldiagram.
+För närvarande stöder inte kalkylbladet för konvertering till bild API 3D-bubbeldiagram.
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ Koden nedan visar hur man konverterar ett kalkylblad i en Microsoft Excel-fil ti
 
  SVG står för**Skalbar vektorgrafik**. SVG är en specifikation baserad på XML-standarder för tvådimensionell vektorgrafik. Det är en öppen standard som har varit under utveckling av World Wide Web Consortium (W3C) sedan 1999.
 
-Sedan versionen av v7.1.0,**Aspose.Cells för Java** kan konvertera kalkylblad till SVG-bilder.
+Sedan versionen av v7.1.0,**Aspose.Cells for Java** kan konvertera kalkylblad till SVG-bilder.
 
 För att använda den här funktionen måste du importera namnutrymmet com.aspose.cells till ditt program eller projekt. Den har flera värdefulla klasser för rendering och utskrift, till exempel,**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**, **[ImageOrPrintOptions](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**, **[WorkbookRender](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender)**, och andra.
 

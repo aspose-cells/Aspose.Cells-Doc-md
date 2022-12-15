@@ -4,11 +4,11 @@ type: docs
 weight: 5
 url: /sv/python-net/features/
 keywords: python, excel, api, feature
-description: Aspose.Cells för Python via .NET-funktioner
+description: Aspose.Cells for Python via .NET funktioner
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan sammanfattar Aspose.Cells för Python via .NET-funktioner.
+Den här sidan sammanfattar Aspose.Cells for Python via .NET funktioner.
 
 {{% /alert %}} 
 ## **Filformat och konverteringar**
@@ -31,7 +31,7 @@ Den här sidan sammanfattar Aspose.Cells för Python via .NET-funktioner.
 - Gruppera/dela upp rader och kolumner
 - Skapa anpassade sidbrytningar
 - Beräkna komplexa Excel-formler
-- Stöd avancerad villkorlig formatering som stöds i Microsoft Excel 2007 och senare versioner
+- Stöd för avancerad villkorlig formatering som stöds i Microsoft Excel 2007 och senare versioner
 - Frys/avfrys rutor
 - Infoga hyperlänkar för att länka data
 - Implementera smarta markörer

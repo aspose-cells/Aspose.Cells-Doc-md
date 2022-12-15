@@ -17,7 +17,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
  Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 \1) Aspose.Cells 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Nouvelles fonctionnalités**
 
@@ -44,7 +44,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42676) - L'épaisseur des lignes fléchées du diagramme visio est incorrecte dans le pdf de sortie
 
- (CELLSNET-41568) - Excel vers une image avec une forme pivotée n'est pas rendue correctement
+ (CELLSNET-41568) - Excel vers une image avec une forme pivotée n'est pas rendu correctement
 
  (CELLSNET-40931) - Mauvaises formes exportées vers l'image
 

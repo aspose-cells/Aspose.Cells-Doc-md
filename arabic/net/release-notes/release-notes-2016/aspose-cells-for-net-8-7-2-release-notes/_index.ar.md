@@ -8,8 +8,8 @@ url: /ar/net/aspose-cells-for-net-8-7-2-release-notes/
 
 |**مفتاح** |**ملخص** |**فئة** |
 |:- |:- |:- |
-|CELLSNET-44242 | دعم واستخدام CustomXmlParts| ميزة جديدة|
-|CELLSNET-44313 | احصل على عدد الصفوف بعد تطبيق المرشح على GridWeb| ميزة جديدة|
+|CELLSNET-44242 | دعم واستخدام CustomXmlParts|ميزة جديدة|
+|CELLSNET-44313 | احصل على عدد الصفوف بعد تطبيق المرشح على GridWeb|ميزة جديدة|
 |CELLSNET-44307 | كشف التشفير في ملف ODS لا يعمل| التعزيز|
 |CELLSNET-44301 | اختر TextBox من حيث الاسم بدلاً من الفهرس| التعزيز|
 |CELLSNET-44260 | تعيين OleObject.ImageData لـ OleObjects الموجودة في المصنف| التعزيز|

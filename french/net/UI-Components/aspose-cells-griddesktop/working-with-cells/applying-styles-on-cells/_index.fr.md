@@ -26,7 +26,7 @@ Pour modifier la police et la couleur d'une cellule à l'aide de Aspose.Cells.Gr
 ## **Bordures de dessin de Cells**
  Utilisant**Style**objet, nous pouvons dessiner les bordures d'une cellule très facilement. Les bordures peuvent être dessinées dans n'importe quelle couleur. De plus, les développeurs ont également la possibilité de choisir un type de ligne spécifique qui sera utilisé pour tracer des bordures autour de la cellule. Les développeurs peuvent utiliser**SetBorderLine** et**Définir la couleur de la bordure** Méthodes de**Style** objet pour dessiner des bordures de tout type et couleurs. De même, pour obtenir des informations sur les frontières de n'importe quelle cellule, les développeurs peuvent également utiliser**GetBorderLine** et**GetBorderColor** Méthodes de**Style** objet.
 ### **Types de bordures**
-Il existe six types de bordures pris en charge par Aspose.Cells.GridDesktop comme suit :
+Il existe six types de bordures pris en charge par Aspose.Cells.GridDesktop comme suit :
 
 - **La gauche** , représente la bordure gauche
 - **Droit** , représente la bordure droite

@@ -43,7 +43,7 @@ Aspose.Cells
 
 
 
-- .NET C++ Build-Fehler C2686
+- .NET C++-Buildfehler C2686
 - Beim Konvertieren einer XLS-Datei in XLSX wird die Textformatierung verworfen
 - Kopieren Sie Diagramme von einer Arbeitsmappe in eine andere
 - Beschädigte Zellfärbung nach dem Kopieren des Arbeitsblatts

@@ -6,7 +6,7 @@ url: /ar/java/managing-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - إدارة أوراق العمل**
 ### **إضافة أوراق عمل إلى ملف Excel جديد**
-لإضافة ورقة عمل إلى ملف Excel جديد باستخدام**Aspose.Cells Java لروبي** ، ببساطة اتصل**add_worksheet** طريقة**أوراق العمل** وحدة.
+ لإضافة ورقة عمل إلى ملف Excel جديد باستخدام**Aspose.Cells Java لروبي** ، ببساطة اتصل**add_worksheet** طريقة**أوراق العمل** وحدة.
 
 **كود روبي**
 
@@ -174,7 +174,7 @@ end
 end 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
 تحميل**إدارة أوراق العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

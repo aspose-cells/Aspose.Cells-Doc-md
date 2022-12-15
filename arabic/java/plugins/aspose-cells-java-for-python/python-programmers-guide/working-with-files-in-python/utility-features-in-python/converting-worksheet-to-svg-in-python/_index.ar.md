@@ -52,7 +52,7 @@ sr.toImage(k, self.dataDir + sheet.getName() + ".out.svg")
 print "Excel to SVG conversion completed successfully."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**تحويل ورقة العمل إلى SVG (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

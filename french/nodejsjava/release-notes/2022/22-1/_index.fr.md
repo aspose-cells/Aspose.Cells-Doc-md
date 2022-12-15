@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Node.js via Java 22.1 Notes de publication
+title: Aspose.Cells for Node.js via Java 22.1 Notes de mise à jour
 type: docs
 weight: 12
 url: /fr/nodejsjava/aspose-cells-for-node-js-via-java-22-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Cette page contient des notes de version pour[Aspose.Cells pour Node.js via Java 22.1](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.1/).
+ Cette page contient des notes de version pour[Aspose.Cells for Node.js via Java 22.1](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-22.1/).
 
 {{% /alert %}}
 

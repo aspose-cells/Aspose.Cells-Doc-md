@@ -77,7 +77,7 @@ else
 }
 
 {{< /highlight >}}
-### **Methode Protection.verifyPassword hinzugefügt**
+### **Methode Protection.verifyPassword Hinzugefügt**
 Aspose.Cells APIs haben die Protection-Klasse erweitert, indem sie die Methode verifyPassword eingeführt haben, die es ermöglicht, ein Passwort als Instanz von String und anzugeben[überprüft, ob das gleiche Passwort verwendet wurde, um das Arbeitsblatt zu schützen](/cells/de/java/verify-password-used-to-protect-the-worksheet/). Die Methode Protection.verifyPassword gibt „true“ zurück, wenn das angegebene Kennwort mit dem Kennwort übereinstimmt, das zum Schutz des angegebenen Arbeitsblatts verwendet wird, und „false“, wenn das angegebene Kennwort nicht übereinstimmt. Der folgende Codeabschnitt verwendet die Protection.verifyPassword-Methode in Verbindung mit dem Protection.isProtectedWithPassword-Feld, um den Kennwortschutz zu erkennen, und überprüft das Kennwort.
 
 Es folgt das einfache Nutzungsszenario.

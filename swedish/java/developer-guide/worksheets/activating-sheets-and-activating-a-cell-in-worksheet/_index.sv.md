@@ -25,7 +25,7 @@ Följande exempel visar hur man aktiverar ett kalkylblad och gör en aktiv cell 
 
 ![todo:image_alt_text](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
 
-## Java-kod för att ställa in ett aktivt kalkylblad i Excel
+## Java kod för att ställa in ett aktivt kalkylblad i Excel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ActivatingSheetsandActivatingCell-ActivatingSheetsandActivatingCell.java" >}}
 

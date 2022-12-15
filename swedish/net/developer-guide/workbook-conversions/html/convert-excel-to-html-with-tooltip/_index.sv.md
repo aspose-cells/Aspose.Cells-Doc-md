@@ -12,7 +12,7 @@ Följande bild visar verktygstipset i den genererade HTML-filen.
 
 ![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
- Följande kodexempel laddar[source excel-fil](98107416.xlsx) och genererar[utdata HTML-fil](98107417.zip) med verktygstipset.
+ Följande kodexempel laddar[källkod excel-fil](98107416.xlsx) och genererar[utdata HTML-fil](98107417.zip) med verktygstipset.
 
 Exempelkod
 

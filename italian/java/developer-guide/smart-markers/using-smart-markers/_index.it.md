@@ -8,7 +8,7 @@ url: /it/java/using-smart-markers/
 
 {{% alert color="primary" %}}
 
-**Marcatori intelligenti** vengono utilizzati per far sapere a Aspose.Cells quali informazioni inserire in un Microsoft Excel[foglio di calcolo del progettista](/cells/it/java/what-is-a-designer-spreadsheet/). I marcatori intelligenti ti consentono di creare modelli che contengono solo informazioni e formattazione rilevanti.
+**Marcatori intelligenti** vengono utilizzati per far sapere a Aspose.Cells quali informazioni inserire in un Microsoft Excel[foglio di calcolo del progettista](/cells/it/java/what-is-a-designer-spreadsheet/). I marcatori intelligenti ti consentono di creare modelli che contengono solo informazioni e formattazione pertinenti.
 
 {{% /alert %}}
 
@@ -39,8 +39,8 @@ Sono ammessi i seguenti parametri:
 - *crescente:n o discendente:n - Ordina i dati in marcatori intelligenti. Se n è 1, la colonna è la prima chiave dell'ordinatore. I dati vengono ordinati dopo l'elaborazione dell'origine dati. Ad esempio: &=Tabella1.Campo3(crescente:1).
 - **orizzontale** - Scrivi i dati da sinistra a destra, invece che dall'alto verso il basso.
 - **numerico** - Converti testo in numero, se possibile.
-- **spostare** - Sposta in basso oa destra, creando righe o colonne extra per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare**spostare le celle verso il basso**, **sposta le celle a destra** e altre opzioni. In breve, il parametro shift svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
-- **fagiolo** - Indica che l'origine dati è un semplice POJO. Supportato solo nel Java API.
+- **spostare** - Sposta in basso oa destra, creando righe o colonne extra per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio, in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare**spostare le celle verso il basso**, **sposta le celle a destra** e altre opzioni. In breve, il parametro shift svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
+- **fagiolo** - Indica che l'origine dati è un semplice POJO. Supportato solo nell'API Java.
 
 parametri noadd e skip possono essere combinati per inserire dati su righe alternate. Poiché il modello viene elaborato dal basso verso l'alto, è necessario aggiungere noadd sulla prima riga per evitare che vengano inserite righe aggiuntive prima della riga alternativa.
 
@@ -85,7 +85,7 @@ Il codice di esempio seguente mostra come utilizzare le matrici di variabili neg
 
 ## **Raggruppamento dei dati**
 
-In alcuni report di Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ogni gruppo di record.
+In alcuni report di Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ciascun gruppo di record.
 
 marcatori intelligenti Aspose.Cells consentono di raggruppare i dati per set di campi e posizionare righe di riepilogo tra set di dati o gruppi di dati. Ad esempio, se si raggruppano i dati per Customers.CustomerID, è possibile aggiungere un record di riepilogo ogni volta che il gruppo cambia.
 
@@ -111,7 +111,7 @@ Ad esempio &=Employees.EmployeeID(group:normal,skip:1)
 
 #### **subtotaleN**
 
-Esegue un'operazione di riepilogo per i dati di un campo specificato relativi a un raggruppamento per campo. La N rappresenta i numeri compresi tra 1 e 11 che specificano la funzione utilizzata durante il calcolo dei subtotali all'interno di un elenco di dati. (1=MEDIA, 2=COUNT, 3=COUNTA, 4=MAX, 5=MIN,...9=SOMMA ecc.) Fare riferimento al riferimento Subtotale nella guida di Excel Microsoft per ulteriori dettagli.
+Esegue un'operazione di riepilogo per i dati di un campo specificato relativi a un raggruppamento per campo. La N rappresenta i numeri compresi tra 1 e 11 che specificano la funzione utilizzata durante il calcolo dei subtotali all'interno di un elenco di dati. (1=MEDIA, 2=COUNT, 3=COUNTA, 4=MAX, 5=MIN,...9=SOMMA ecc.) Fare riferimento al subtotale di riferimento nella guida di Microsoft Excel per ulteriori dettagli.
 
 Il formato in realtà indica come:
 subtotalN:Ref dove Ref fa riferimento al gruppo per colonna.

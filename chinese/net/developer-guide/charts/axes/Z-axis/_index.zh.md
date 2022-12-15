@@ -9,6 +9,6 @@ url: /zh/net/z-axis/
 ## **处理主轴和第二轴，如 Microsoft Excel**
 请查看以下创建新 Excel 文件并将图表值放入第一个工作表的示例代码。然后我们添加一个图表并将图表类型设置为Column3D，然后你可以看到Z轴也称为深度轴。
 
-![待办事项：图片_替代_文本](excel.png)
+![待办事项：图像_替代_文本](excel.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ZAxis.cs" >}}

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.3.1
+title: Offentlig API Ändringar i Aspose.Cells 8.3.1
 type: docs
 weight: 110
 url: /sv/net/public-api-changes-in-aspose-cells-8-3-1/
@@ -85,7 +85,7 @@ m_workbook.Save("output.xlsx")
 {{% /alert %}} 
 
 ### **Metoder Cell.GetTable & ListObject.PutCellValue Added**
-Metoderna Cell.GetTable & ListObject.PutCellValue har lagts till med Aspose.Cells för .NET 8.3.1 för att underlätta för användarna att komma åt ListObject från en cell och lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar. Följande exempelkod läser in källkalkylarket och lägger till värden i tabellen.
+Metoderna Cell.GetTable & ListObject.PutCellValue har lagts till med Aspose.Cells for .NET 8.3.1 för att underlätta för användarna att komma åt ListObject från en cell och lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar. Följande exempelkod läser in källkalkylarket och lägger till värden i tabellen.
 
 **C#**
 

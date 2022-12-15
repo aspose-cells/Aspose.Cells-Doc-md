@@ -1,5 +1,5 @@
 ﻿---
-title: Configuración de fuente
+title: Configuración de fuentes
 type: docs
 weight: 30
 url: /es/net/cells-font-settings/

@@ -9,7 +9,7 @@ url: /ru/cpp/how-to-run-the-examples/
 
 - Visual Studio 2015 или выше
 ## **Скачать с GitHub**
- Все примеры Aspose.Cells для C++ размещены на[Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-C/).
+ Все примеры Aspose.Cells for C++ размещены на[Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-C/).
 
 -  Вы можете клонировать репозиторий с помощью своего любимого клиента GitHub или загрузить ZIP-файл с[здесь](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
 -  Извлеките содержимое ZIP-файла в любую папку на вашем компьютере. Все примеры находятся в**Примеры** папка.

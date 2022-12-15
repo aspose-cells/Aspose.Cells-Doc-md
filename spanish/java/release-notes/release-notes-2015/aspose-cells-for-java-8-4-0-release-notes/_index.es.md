@@ -80,7 +80,7 @@ Obtiene y establece el prefijo del nombre css, el valor predeterminado es "".
 Presenta la tabla dinámica en formato compacto.
 
  Agrega el método PivotTable.ShowInOutlineForm()
-Presenta la tabla dinámica en forma de esquema.
+Diseña la tabla dinámica en forma de esquema.
 
 Agrega el método PivotTable.ShowInTabularForm()
 Presenta la tabla dinámica en formato tabular.

@@ -8,7 +8,7 @@ url: /fr/reportingservices/formula-list/
 
 |**Définir le nom** |**Nom de la formule**|**La description**|
 |:- |:- |:- |
-| Champs globaux| Temps d'exécution| La date et l'heure auxquelles le rapport a commencé à s'exécuter.|
+| Champs globaux| Temps d'exécution|La date et l'heure auxquelles le rapport a commencé à s'exécuter.|
 || ReportServerUrl| URL du serveur de rapports sur lequel le rapport est exécuté.|
 || NomRapport| Nom du rapport tel qu'il est stocké dans la base de données du serveur de rapports.|
 || RapportDossier| Chemin d'accès complet au dossier contenant le rapport. Cela n'inclut pas l'URL du serveur de rapports.|

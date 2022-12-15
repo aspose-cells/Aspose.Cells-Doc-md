@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells для Python через Java 22.8 Примечания к выпуску
+title: Aspose.Cells for Python via Java 22.8 Примечания к выпуску
 type: docs
 weight: 5
 url: /ru/python-java/aspose-cells-for-python-via-java-22-8-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Эта страница содержит примечания к выпуску для[Aspose.Cells для Python через Java 22,8](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.8/).
+ Эта страница содержит примечания к выпуску для[Aspose.Cells for Python via Java 22.8](https://releases.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.8/).
 
 {{% /alert %}}
 
@@ -49,7 +49,7 @@ url: /ru/python-java/aspose-cells-for-python-via-java-22-8-release-notes/
 
 ### **Добавьте базовый класс PaginatedSaveOptions для PdfSaveOptions и XpsSaveOptions.**
 
-Представляет параметры разбиения на страницы.
+Представляет параметры разбивки на страницы.
 
 ### **Добавьте класс SheetSet.**
 

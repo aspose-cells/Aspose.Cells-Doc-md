@@ -6,7 +6,7 @@ url: /tr/reportingservices/comprehensive-rdl-support/
 ---
 {{% alert color="primary" %}} 
 
-Raporlama Servisleri için Aspose.Cells, RDL spesifikasyonunu tamamen destekler. Bu, mevcut RDL raporlarını kolayca bir Aspose çözümüne taşıyabileceğiniz anlamına gelir.
+Aspose.Cells for Reporting Services, RDL spesifikasyonunu tamamen destekler. Bu, mevcut RDL raporlarını kolayca bir Aspose çözümüne taşıyabileceğiniz anlamına gelir.
 
 {{% /alert %}} 
 **Desteklenen RDL Öğeleri**

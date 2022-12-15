@@ -6,7 +6,7 @@ url: /ru/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells — Показать или скрыть полосы прокрутки**
 ### **Скрытие заголовков строк/столбцов**
- Чтобы скрыть заголовки строк/столбцов с помощью**Aspose.Cells Java для Python** , вызов**DisplayHideRowColumnHeaders** модуль.
+Чтобы скрыть заголовки строк/столбцов с помощью**Aspose.Cells Java for Python** , вызов**DisplayHideRowColumnHeaders** модуль.
 
 **Python Код**
 

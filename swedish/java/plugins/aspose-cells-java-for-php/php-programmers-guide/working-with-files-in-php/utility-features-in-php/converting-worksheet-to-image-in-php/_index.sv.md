@@ -5,7 +5,7 @@ weight: 50
 url: /sv/java/converting-worksheet-to-image-in-php/
 ---
 ## **Aspose.Cells - Konvertera arbetsblad till bild**
-För att konvertera kalkylblad till bild med hjälp av Aspose.Cells för Java i PHP, anropa omvandlarmodulen.
+För att konvertera kalkylblad till bild med Aspose.Cells for Java i PHP, anropa omvandlarmodulen.
 
 **PHP-kod**
 

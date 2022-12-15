@@ -6,15 +6,15 @@ url: /fr/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- UN*tableau croisé dynamique* est un tableau interactif qui résume les données et les présente de manière significative. SQL Server Reporting Services ne peut pas exporter un rapport au format Microsoft Excel tout en conservant un tableau croisé dynamique. Les utilisateurs de rapports doivent créer manuellement des tableaux croisés dynamiques chaque fois qu'ils exportent un rapport de tableau croisé dynamique de Reporting Services vers Microsoft Excel. Avec Aspose.Cells pour Reporting Services, vous pouvez concevoir un tableau croisé dynamique une seule fois au moment de la conception du rapport. Chaque fois que le rapport s'exécute, Aspose.Cells pour Reporting Services exporte le rapport vers Microsoft Excel et actualise les données dans le tableau croisé dynamique.
+ UN*tableau croisé dynamique* est un tableau interactif qui résume les données et les présente de manière significative. SQL Server Reporting Services ne peut pas exporter un rapport au format Microsoft Excel tout en conservant un tableau croisé dynamique. Les utilisateurs de rapports doivent créer manuellement des tableaux croisés dynamiques chaque fois qu'ils exportent un rapport de tableau croisé dynamique de Reporting Services vers Microsoft Excel. Avec Aspose.Cells for Reporting Services, vous pouvez concevoir un tableau croisé dynamique une seule fois au moment de la conception du rapport. Chaque fois que le rapport s'exécute, Aspose.Cells for Reporting Services exporte le rapport vers Microsoft Excel et actualise les données dans le tableau croisé dynamique.
 
 {{% /alert %}} 
 
 Pour créer un rapport de tableau croisé dynamique :
 
 1. Créez un jeu de données comme source de données pour le tableau croisé dynamique.
-Ci-dessous, nous utilisons l'exemple de base de données AdventureWorks fourni avec SQL Server Reporting Services 2005 et créons un jeu de données nommé "ventes".
- Le SQL du jeu de données est le suivant :
+ Ci-dessous, nous utilisons l'exemple de base de données AdventureWorks fourni avec SQL Server Reporting Services 2005 et créons un jeu de données nommé "ventes".
+Le SQL du jeu de données est le suivant :
 
 **SQL**
 
@@ -106,7 +106,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-Le tableau croisé dynamique conçu est illustré ci-dessous.
+ Le tableau croisé dynamique conçu est illustré ci-dessous.
 
 ![tâche : image_autre_texte](working-with-pivottable_7.png)
 

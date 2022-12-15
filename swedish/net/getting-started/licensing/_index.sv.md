@@ -145,10 +145,10 @@ Console.WriteLine(amountAfter);
 
 Ett annat snyggt sätt att paketera licensen med din applikation och se till att den inte går förlorad, är att inkludera den som en inbäddad resurs i en av sammansättningarna som anropar Aspose.Cells. För att inkludera licensfilen som en inbäddad resurs, utför följande steg :
 
-1.  I Visual Studio .NET, inkludera licensfilen (.lic) i projektet genom val**Lägg till befintligt objekt** från**Fil** meny.
+1.  I Visual Studio .NET, inkludera licensfilen (.lic) i projektet genom att välja**Lägg till befintligt objekt** från**Fil** meny.
 1. Välj filen i Solution Explorer och ställ in**Bygg Action** till**Inbäddad resurs** i fönstret Egenskaper
 
- För att få åtkomst till licensen som är inbäddad i sammansättningen (som inbäddad resurs) behöver du inte anropa metoderna GetExecutingAssembly och GetManifestResourceStream i klassen System.Reflection.Assembly i Microsoft .NET Framework. Allt du behöver göra är att bara lägga till licensfilen som en inbäddad resurs till ditt projekt och skicka in namnet på licensfilen till SetLicense-metoden. De**Aspose.Cells.License** class hittar automatiskt licensfilen i de inbäddade resurserna. Vänligen granska exemplet nedan för att förstå denna metod för att ställa in licens (inbäddad) i dina applikationer.
+ För att få åtkomst till licensen som är inbäddad i sammansättningen (som inbäddad resurs) behövs det inte anropas GetExecutingAssembly och GetManifestResourceStream metoder för System.Reflection.Assembly klass Microsoft .NET Framework. Allt du behöver göra är att bara lägga till licensfilen som en inbäddad resurs till ditt projekt och skicka in namnet på licensfilen till SetLicense-metoden. De**Aspose.Cells.License** class hittar automatiskt licensfilen i de inbäddade resurserna. Vänligen granska exemplet nedan för att förstå denna metod för att ställa in licens (inbäddad) i dina applikationer.
 
 {{< highlight "csharp" >}}
 
@@ -216,7 +216,7 @@ Ett annat snyggt sätt att paketera licensen med din applikation och se till att
 
 1.  I Visual Studio .NET, inkludera licensfilen (.lic) i projektet med hjälp av**Lägg till befintligt objekt** alternativ på**Fil** meny.
 1. Välj filen i Solution Explorer och ställ in Build Action till Embedded Resource i fönstret Egenskaper.
-1. För att komma åt licensen som är inbäddad i sammansättningen (som inbäddad resurs) behöver du inte anropa metoderna GetExecutingAssembly och GetManifestResourceStream för klassen System.Reflection.Assembly i Microsoft .NET Framework. Lägg istället till licensfilen som en inbäddad resurs i ditt projekt och skicka in namnet på licensfilen till SetLicense-metoden. Klassen License hittar automatiskt licensfilen i de inbäddade resurserna.
+1. För att få åtkomst till licensen som är inbäddad i sammansättningen (som inbäddad resurs) behövs det inte anropas metoderna GetExecutingAssembly och GetManifestResourceStream för klassen System.Reflection.Assembly av Microsoft .NET Framework. Lägg istället till licensfilen som en inbäddad resurs som en inbäddad resurs. projekt och skicka namnet på licensfilen till SetLicense-metoden. Klassen License hittar automatiskt licensfilen i de inbäddade resurserna.
 
 Vänligen granska exemplet nedan för att förstå denna metod för att tillämpa en licens som en inbäddad resurs till dina applikationer.
 
@@ -234,7 +234,7 @@ license.SetLicense("Aspose.Total.lic");
 
 ## **Ansöka om en licens i Aspose.Cells.GridDesktop för en WinForm-applikation**
 
-Det rekommenderas att du lägger in din licenskod innan din ansökan startar och att du bara använder den en gång. Till exempel, för ett Windows C#-program, lägg in licenskoden i Main-metoden.
+Det rekommenderas att du lägger in din licenskod innan din ansökan startar och att du bara använder den en gång. Till exempel, för ett Windows C#-program, lägg in licenskoden i huvudmetoden.
 
 {{< highlight "csharp" >}}
 

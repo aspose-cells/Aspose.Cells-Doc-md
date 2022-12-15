@@ -8,11 +8,11 @@ url: /sv/net/group-rows-and-create-subtotal/
 
 Aspose.Cells.GridWeb kan skapa en disposition för dina data. Detta låter dig visa och dölja detaljnivåer genom att klicka på kontursymbolerna "+" och "-" för att endast visa de rader som ger sammanfattningar eller rubriker för avsnitt i ett kalkylblad. Du kan använda symbolerna för att se detaljer under en enskild sammanfattning eller rubrik.
 
- När du grupperar rader är det viktigt att endast välja de detaljrader som utgör gruppen. Inkludera inte den relaterade sammanfattningsraden. Till exempel, om rad 6 innehåller summor för data i rad 3 till 5, välj endast rad 3 till 5 för att definiera gruppen. Kontrollen Aspose.Cells.GridWeb visar**visa detaljer** (+) och**dölja detaljer** (-) symboler bredvid radrubrikerna som anger grupperna i kalkylbladet.
+När du grupperar rader är det viktigt att endast välja de detaljrader som utgör gruppen. Inkludera inte den relaterade sammanfattningsraden. Till exempel, om rad 6 innehåller summor för data i rad 3 till 5, välj endast rad 3 till 5 för att definiera gruppen. Kontrollen Aspose.Cells.GridWeb visar**visa detaljer** (+) och**dölja detaljer** (-) symboler bredvid radrubrikerna som anger grupperna i kalkylbladet.
 
 Aspose.Cells.GridWeb låter dig också skapa delsummor baserat på vilket datafält som helst. En delsumma är inte nödvändigtvis en summa: Det kan vara ett medelvärde, antal, minimum, maximum eller annan statistisk beräkning.
 
-Det här ämnet diskuterar gruppering av rader och skapande av delsummor med Aspose.Cells.GridWeb API. Utvecklare kan gruppera rader med valfri kapslingsnivå och enkelt skapa delsummor.
+Det här ämnet diskuterar gruppering av rader och skapa delsummor med hjälp av Aspose.Cells.GridWeb API. Utvecklare kan gruppera rader med valfri kapslingsnivå och enkelt skapa delsummor.
 
 {{% /alert %}} 
 ## **Gruppera rader**

@@ -9,7 +9,7 @@ url: /tr/cpp/how-to-run-the-examples/
 
 - Visual Studio 2015 veya üzeri
 ## **GitHub'dan indirin**
- C++ için Aspose.Cells'in tüm örnekleri şu adreste barındırılır:[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
+ Aspose.Cells for C++'in tüm örnekleri şu adreste barındırılmaktadır:[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
 
 -  Favori GitHub istemcinizi kullanarak depoyu klonlayabilir veya ZIP dosyasını adresinden indirebilirsiniz.[burada](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
 -  ZIP dosyasının içeriğini bilgisayarınızdaki herhangi bir klasöre çıkarın. Tüm örnekler şu adreste yer almaktadır:**örnekler** dosya.

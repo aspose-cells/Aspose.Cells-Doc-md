@@ -6,7 +6,7 @@ url: /it/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
 {{% alert color="primary" %}}
 
-Questo articolo spiega come aggiungere colori personalizzati alle fette/settori del grafico a torta. Per impostazione predefinita, i grafici a torta utilizzano il modello predefinito di Excel Microsoft. Per utilizzare altri colori, ridefinisci i colori nel grafico.
+Questo articolo spiega come aggiungere colori personalizzati alle fette/settori del grafico a torta. Per impostazione predefinita, i grafici a torta utilizzano il modello predefinito di Microsoft Excel. Per utilizzare altri colori, ridefinisci i colori nel grafico.
 
 {{% /alert %}}
 

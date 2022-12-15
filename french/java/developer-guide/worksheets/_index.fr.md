@@ -1,5 +1,5 @@
 ﻿---
-title: Gérer les feuilles de travail
+title: Gérer les feuilles de calcul
 linktitle: Des feuilles de calcul
 type: docs
 weight: 60

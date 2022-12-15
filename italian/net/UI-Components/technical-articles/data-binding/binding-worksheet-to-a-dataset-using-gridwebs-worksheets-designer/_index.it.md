@@ -11,7 +11,7 @@ url: /it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 {{% /alert %}} 
 ## **Associare un foglio di lavoro al database utilizzando Worksheets Designer**
 	**Passaggio 1: creazione di un database di esempio**
-1. Innanzitutto, creiamo il database di esempio che verrà utilizzato in questo articolo. Stiamo usando Microsoft Access per creare un database che contiene una tabella chiamata Products. Il suo schema è mostrato di seguito.
+1. Innanzitutto, creiamo il database di esempio che verrà utilizzato in questo articolo. Stiamo usando Microsoft Access per creare un database che contiene una tabella chiamata Prodotti. Il suo schema è mostrato di seguito.
    **Informazioni di progettazione della tabella Prodotti** 
 
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_1.png)
@@ -29,7 +29,7 @@ url: /it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_3.png)
 ### **Passaggio 3: connessione al database tramite Esplora server**
- È ora di connettersi al database. Possiamo farlo facilmente utilizzando Server Explorer in Visual Studio.NET.
+ È ora di connettersi al database. Possiamo farlo facilmente utilizzando il Server Explorer in Visual Studio.NET.
 
 1.  Selezionare**Connessione dati** in**Esplora server** e fare clic con il pulsante destro del mouse.
 1.  Selezionare**Aggiungi connessione** dal menù.
@@ -46,10 +46,10 @@ url: /it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 
 
- Usando questa finestra di dialogo, puoi connetterti a qualsiasi database. Per impostazione predefinita, consente di connettersi a un database SQL Server. Per questo esempio, dobbiamo connetterci con un database Access Microsoft.
+ Usando questa finestra di dialogo, puoi connetterti a qualsiasi database. Per impostazione predefinita, consente di connettersi a un database SQL Server. Per questo esempio, dobbiamo connetterci con un database di Microsoft Access.
 
 1.  Clicca il**Fornitore** scheda.
-1.  Selezionare**Microsoft Jet 4.0 provider OLE DB** dal**Provider OLE DB** elenco.
+1.  Selezionare**Provider Microsoft Jet 4.0 OLE DB** dal**Provider OLE DB** elenco.
 1.  Clic**Prossimo**.
    **Facendo clic su Avanti dopo aver selezionato un provider OLE DB** 
 
@@ -58,14 +58,14 @@ url: /it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
  Il**Connessione** si apre la scheda.
 
-1.  Selezionare il file del database Access Microsoft (nel nostro caso, db.mdb) e fare clic su**OK**.
+1.  Selezionare il file del database di Microsoft Access (nel nostro caso, db.mdb) e fare clic**OK**.
    **Facendo clic sul pulsante OK dopo aver selezionato il file di database** 
 
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_7.png)
 
 {{% alert color="primary" %}} 
 
- Dopo aver cliccato**OK** , verrà creata una connessione al database al database Access Microsoft nel file**Esplora server**Fare doppio clic sulla connessione per visualizzare tutte le tabelle, le viste e le procedure memorizzate nel database.
+ Dopo aver cliccato**OK** , verrà creata una connessione di database al database di Microsoft Access nel file**Esplora server**Fare doppio clic sulla connessione per visualizzare tutte le tabelle, le viste e le procedure memorizzate nel database.
 
 {{% /alert %}} 
 ### **Passaggio 4: creazione grafica di oggetti di connessione al database**
@@ -141,7 +141,7 @@ Un oggetto dataSet11 viene aggiunto alla finestra di progettazione.
 La finestra di dialogo contiene diverse proprietà che possono essere configurate per associare Sheet1 a qualsiasi tabella nel database.
 
 1.  Seleziona il**Fonte di dati** proprietà.
- L'oggetto dataSet11 generato nel passaggio precedente è elencato nel menu.
+L'oggetto dataSet11 generato nel passaggio precedente è elencato nel menu.
 1. Seleziona DataSet11.
 1.  Clicca il**DataMember** proprietà.
  Worksheets Designer mostra automaticamente un elenco di tabelle in dataSet11. C'è solo una tabella, Prodotti.
@@ -186,7 +186,7 @@ La finestra di dialogo contiene diverse proprietà che possono essere configurat
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_20.png)
 
 
- Sopra, viene mostrato il nome della colonna della tabella Prodotti. La larghezza delle colonne è piccola, quindi i nomi completi di alcune colonne non sono completamente visibili.
+Sopra, viene mostrato il nome della colonna della tabella Prodotti. La larghezza delle colonne è piccola, quindi i nomi completi di alcune colonne non sono completamente visibili.
 ### **Passaggio 7: aggiunta di codice al gestore dell'evento Page_Load**
  Abbiamo utilizzato Worksheets Designer e ora dobbiamo solo aggiungere il codice al gestore dell'evento Page_Load per riempire l'oggetto dataSet11 con i dati del database (utilizzando oleDbDataAdapter1) e associare il controllo GridWeb a dataSet11 chiamando il relativo metodo DataBind.
 
@@ -295,7 +295,7 @@ Dopo la compilazione, la pagina WebForm1.aspx viene aperta in una finestra del b
 
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_23.png)
 ## **Utilizzo del controllo GridWeb**
- Quando i dati vengono caricati nel controllo GridWeb, fornisce agli utenti il controllo sui dati. GridWeb offre diversi tipi di funzionalità di manipolazione dei dati.
+Quando i dati vengono caricati nel controllo GridWeb, fornisce agli utenti il controllo sui dati. GridWeb offre diversi tipi di funzionalità di manipolazione dei dati.
 ### **Convalida dei dati**
 Aspose.Cells.GridWeb crea automaticamente regole di convalida appropriate per tutte le colonne associate in base ai tipi di dati definiti nel database. Visualizza il tipo di convalida di una cella passando il cursore su di essa.
 **Verifica del tipo di convalida di una cella** 
@@ -315,7 +315,7 @@ La riga verrebbe eliminata all'istante.
 
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
 ### **Modifica righe**
-Modificare i dati in celle o righe e quindi fare clic**Salva** o**Invia** per salvare le modifiche.
+ Modificare i dati in celle o righe e quindi fare clic**Salva** o**Invia**per salvare le modifiche.
 ### **Aggiunta di righe**
 1.  Per aggiungere una riga, fai clic con il pulsante destro del mouse su una cella e seleziona**Aggiungi riga**.
    **Selezionando l'opzione Aggiungi riga dal menu** 
@@ -365,11 +365,11 @@ Una nuova riga viene aggiunta al foglio alla fine delle altre righe.
 
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_32.png)
 ### **Modifica dei dati**
- L'applicazione finora consente solo ai suoi utenti di visualizzare i dati della tabella. Gli utenti possono modificare i dati nel controllo GridWeb ma, chiudendo il browser e aprendo il database, non è cambiato nulla. Le modifiche apportate non vengono salvate nel database.
+L'applicazione finora consente solo ai suoi utenti di visualizzare i dati della tabella. Gli utenti possono modificare i dati nel controllo GridWeb ma, chiudendo il browser e aprendo il database, non è cambiato nulla. Le modifiche apportate non vengono salvate nel database.
 
  L'esempio seguente aggiunge codice all'applicazione in modo che GridWeb possa salvare le modifiche apportate al database.
 
-1. Apri il**Proprietà** riquadro e selezionare l'evento SaveCommand del controllo GridWeb dall'elenco.
+1.  Apri il**Proprietà** riquadro e selezionare l'evento SaveCommand del controllo GridWeb dall'elenco.
    **Selezione dell'evento SaveCommand di GridWeb** 
 
 ![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)

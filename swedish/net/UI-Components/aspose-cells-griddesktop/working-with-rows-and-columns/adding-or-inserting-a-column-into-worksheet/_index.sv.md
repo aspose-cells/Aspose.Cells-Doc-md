@@ -6,7 +6,7 @@ url: /sv/net/adding-or-inserting-a-column-into-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-I det här ämnet kommer vi att beskriva den grundläggande funktionen för att lägga till och infoga kolumner i kalkylbladen vid körning med hjälp av API:et för Aspose.Cells.GridDesktop. Den grundläggande skillnaden mellan tillägg och infogning är att dessutom läggs kolumn till i slutet av kolumnsamlingen i kalkylbladet, där kolumnen, precis som vid infogning, kan läggas till på valfri specificerad position i kalkylbladet.
+I det här ämnet kommer vi att beskriva den grundläggande funktionen för att lägga till och infoga kolumner i kalkylbladen vid körning med hjälp av API eller Aspose.Cells.GridDesktop. Den grundläggande skillnaden mellan tillägg och infogning är att dessutom läggs kolumn till i slutet av kolumnsamlingen i kalkylbladet, där kolumnen, precis som vid infogning, kan läggas till på valfri specificerad position i kalkylbladet.
 
 {{% /alert %}} 
 ## **Lägga till en kolumn i arbetsbladet**

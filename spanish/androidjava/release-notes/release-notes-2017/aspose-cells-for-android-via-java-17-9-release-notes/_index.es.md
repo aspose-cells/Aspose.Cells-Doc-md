@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 17.9 Notas de la versión
+title: Aspose.Cells for Android via Java 17.9 Notas de la versión
 type: docs
 weight: 20
 url: /es/java/aspose-cells-for-android-via-java-17-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para[Aspose.Cells para Android a través de Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
+Esta página contiene notas de la versión para[Aspose.Cells for Android via Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
 
 {{% /alert %}} 
 
@@ -161,6 +161,6 @@ Obtiene y establece el almacenamiento del diseñador del proyecto de VBA.
 
 {{% alert color="primary" %}} 
 
-Dado que el código base de Aspose.Cells para Android a través de Java coincide con el código de las versiones .NET y Java relevantes, la mayoría de los cambios, mejoras y correcciones se incluyen en Aspose.Cells for .NET v17.6, Aspose.Cells 076173461 v17.18, 473 47 8, Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
+Dado que la base de código de Aspose.Cells for Android via Java coincide con el código de .NET y Java versión (s), la mayoría de los cambios, mejoras y correcciones incluidos en el Aspose.Cells for .NET v17.6, 0761734481 07618 Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
 
 {{% /alert %}}

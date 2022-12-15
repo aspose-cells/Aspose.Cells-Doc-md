@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.10 Release Notes
+title: Aspose.Cells for .NET 17.10 Release Notes
 type: docs
 weight: 30
 url: /sv/net/aspose-cells-for-net-17-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 17.10](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.10/).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 17.10](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-17.10/).
 
 {{% /alert %}} 
 
@@ -40,8 +40,8 @@ url: /sv/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45645|Undantag uppstår vid öppning av BUDGET RH 3_0.xlsm i GridWeb|Insekt|
 |CELLSNET-45657|Inmatningssträngen var inte i ett korrekt format - Undantag på metoden Pivot.CalculateData().|Undantag|
 |CELLSNET-45703|Undantag vid konvertering av XLSM-fil tillbaka till XLS-filformat|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till AbstractCalculationMonitor.Interrupt(string)-metoden**
 Tillåter användare att avbryta fortskridandet av formelberäkningar.
 #### **Lägger till HtmlCrossType.MSExport enum**

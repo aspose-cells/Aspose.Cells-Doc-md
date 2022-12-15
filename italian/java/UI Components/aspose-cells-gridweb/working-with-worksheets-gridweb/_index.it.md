@@ -16,7 +16,7 @@ Gli sviluppatori possono accedere a un foglio di lavoro specifico specificandone
 
 ## **Rimozione di un foglio di lavoro**
 
-In questo argomento vengono fornite brevi informazioni sulla rimozione dei fogli di lavoro dai file Excel Microsoft utilizzando GridWeb API. Rimuovere un foglio di lavoro specificandone l'indice del foglio.
+Questo argomento fornisce brevi informazioni sulla rimozione di fogli di lavoro dai file di Microsoft Excel tramite l'API GridWeb. Rimuovere un foglio di lavoro specificandone l'indice del foglio.
 
 Gli sviluppatori possono rimuovere un foglio di lavoro specifico specificandone l'indice del foglio utilizzando il metodo removeAt della raccolta GridWorksheetCollection, come illustrato di seguito nel frammento di codice di esempio.
 
@@ -195,7 +195,7 @@ L'esempio seguente aggiunge il collegamento ipertestuale dell'URL dell'immagine 
 
 ## **Ordinamento dei dati**
 
-L'ordinamento è una caratteristica molto preziosa quando si tratta di elaborazione dei dati. I dati non ordinati sono una seccatura per gli utenti durante la ricerca di informazioni specifiche. Aspose.Cells.GridWeb supporta potenti funzionalità di ordinamento. Questo argomento illustra l'ordinamento dei dati utilizzando Aspose.Cells.GridWeb API.
+L'ordinamento è una caratteristica molto preziosa quando si tratta di elaborazione dei dati. I dati non ordinati sono una seccatura per gli utenti durante la ricerca di informazioni specifiche. Aspose.Cells.GridWeb supporta potenti funzionalità di ordinamento. Questo argomento illustra l'ordinamento dei dati tramite l'API Aspose.Cells.GridWeb.
 
 Aspose.Cells.GridWeb consente agli sviluppatori di ordinare i dati orizzontalmente e verticalmente in modo che gli sviluppatori possano ordinare i dati dall'alto verso il basso o da sinistra a destra.
 
@@ -319,7 +319,7 @@ Per sostituire il testo:
 
 ## Aggiungi/Rimuovi collegamenti ipertestuali dal lato client
 
-Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client. Per questo, lo API mette a disposizione le funzioni "addCelllink" e "delCelllink". I seguenti frammenti di codice illustrano l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client in GridWeb.
+Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client. Per questo, l'API fornisce le funzioni "addCelllink" e "delCelllink". I seguenti frammenti di codice illustrano l'aggiunta e la rimozione di collegamenti ipertestuali dal lato client in GridWeb.
 
 ### Codice di esempio
 
@@ -331,7 +331,7 @@ Puoi anche collegarti al foglio utilizzando il seguente frammento di codice.
 
 ## Aggiorna le impostazioni dei caratteri dal lato client
 
-Aspose.Cells GridWeb ora supporta la modifica delle impostazioni dei caratteri dal lato client. Per questo, il API fornisce le seguenti funzioni
+Aspose.Cells GridWeb ora supporta la modifica delle impostazioni dei caratteri dal lato client. Per questo, l'API fornisce le seguenti funzioni
 
 - **updateCellFontStyle**: Params - r/i/b/ib per regolare/corsivo/grassetto/corsivo&&grassetto
 - **updateCellFontSize**: Params - nome carattere, ecc. 'Sistema'
@@ -348,7 +348,7 @@ Il frammento di codice seguente illustra la modifica delle impostazioni dei cara
 
 ## Aggiungi/Rimuovi commenti dal lato client
 
-Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di commenti dal lato client. Per questo lo API mette a disposizione le funzioni "aggiungicommenti" e "cancellacommenti". Il frammento di codice seguente illustra l'aggiunta e la rimozione di commenti dal lato client in GridWeb.
+Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di commenti dal lato client. Per questo, l'API fornisce le funzioni "addcomments" e "delcomments". Il frammento di codice seguente illustra l'aggiunta e la rimozione di commenti dal lato client in GridWeb.
 
 ### Codice di esempio
 

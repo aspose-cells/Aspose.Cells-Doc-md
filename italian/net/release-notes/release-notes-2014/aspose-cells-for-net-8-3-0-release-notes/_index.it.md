@@ -96,7 +96,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43120) - Calcolo errato della formula SumProduct
 
-(CELLSNET-43118) - API restituisce #N/D per formula valida
+(CELLSNET-43118) - L'API restituisce #N/D per una formula valida
 
 (CELLSNET-43116) - "CELLRANGE" viene visualizzato al posto delle etichette in Excel 2013
 
@@ -156,9 +156,9 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-42745) - Problemi di allineamento e formato di visualizzazione durante l'importazione di file XLSX in GridWeb
 
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 Aggiunge la proprietà TxtLoadOptions.KeepExactFormat
 

@@ -18,7 +18,7 @@ url: /it/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45434|GridWeb ViewPanel non è sempre visibile|Nuova caratteristica|
 |CELLSNET-45224|Rendering della tabella pivot in GridDesktop|Nuova caratteristica|
 |CELLSNET-45490|Genera errore o eccezione quando viene assegnato un nome errato alla proprietà ListObject.DisplayName|Aumento|
-|CELLSNET-45470|Link Source DataSource vs. OriginalDataSource vs. Excel=>Dati => Modifica collegamenti|Aumento|
+|CELLSNET-45470|Link Source DataSource vs. OriginalDataSource vs. Excel=>Dati => Modifica link|Aumento|
 |CELLSNET-45439|GridDesktop.GetVersion() necessario per verificare il numero di versione di GridDesktop in fase di esecuzione|Aumento|
 |CELLSNET-45457|L'applicazione si blocca durante il tentativo di ottenere la proprietà dell'immagine|Prestazione|
 |CELLSNET-45388|La forma della freccia non viene visualizzata correttamente nei rendering da foglio a immagine (.jpg).|Insetto|
@@ -54,8 +54,8 @@ url: /it/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45432|L'eccezione si verifica all'apertura di 0c29bc12429844fe983c2a152fa9b744.xlsb|Eccezione|
 |CELLSNET-45431|L'eccezione si verifica all'apertura di 000bc1ec5fda4528a18f267f4dfe4a98.xlsb|Eccezione|
 |CELLSNET-45430|L'eccezione si verifica in caso di apertura non riuscita_a_salvato_in_xlsb_type.xlsx|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge i metodi GlobalizationSettings.GetBooleanValueString()/GetErrorValueString()**
 Ottiene il valore della stringa di visualizzazione personalizzata per il valore booleano e di errore della cella durante la formattazione/il rendering.
 #### **Rimuove il metodo ValidationCollection.Add() obsoleto**
@@ -93,7 +93,7 @@ Si prega di controllare l'elenco degli argomenti della guida aggiunti nei docume
 
 - [Leggi il foglio di calcolo dei numeri sviluppato da Apple Inc. utilizzando Aspose.Cells](/cells/it/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Impostare la proprietà DefaultFont di PdfSaveOptions e ImageOrPrintOptions in modo che abbia la priorità](/cells/it/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
-- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi](/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementa errori e valore booleano in russo o in qualsiasi altra lingua](/cells/it/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)
 - [Determinare se il formato carta del foglio di lavoro è automatico](/cells/it/net/determine-if-paper-size-of-worksheet-is-automatic/)
 - [Rendering della tabella pivot in GridDesktop](/cells/it/net/render-pivottable-in-griddesktop/)

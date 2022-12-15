@@ -10,7 +10,7 @@ url: /fr/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}} 
 ## **Définissez le texte du remplissage de l'entrée de légende du graphique sur aucun à l'aide de Aspose.Cells**
- L'exemple de code suivant définit le texte de remplissage de la deuxième entrée de légende du graphique sur aucun. Veuillez télécharger le[exemple de fichier excel](5473437.xlsx) utilisé dans ce code et le[fichier excel de sortie](5473440.xlsx)généré par celui-ci pour votre référence.
+ L'exemple de code suivant définit le texte de remplissage de la deuxième entrée de légende du graphique sur aucun. Veuillez télécharger le[exemple de fichier excel](5473437.xlsx) utilisé dans ce code et le[fichier excel de sortie](5473440.xlsx) généré par celui-ci pour votre référence.
 
 La capture d'écran suivante met en évidence l'effet de ce code sur[exemple de fichier excel](5473437.xlsx).
 

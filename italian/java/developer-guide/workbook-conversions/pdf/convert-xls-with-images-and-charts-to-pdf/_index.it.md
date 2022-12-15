@@ -3,7 +3,7 @@ title: Converti XLS con immagini e grafici in PDF
 type: docs
 weight: 230
 url: /it/java/convert-xls-with-images-and-charts-to-pdf/
-description: Il codice Java per convertire i file Excel con immagini e grafici in formato PDF utilizzando il codice Aspose.Cells for Java API.
+description: Il codice Java per convertire i file Excel con immagini e grafici in formato PDF utilizzando l'API Aspose.Cells for Java.
 keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, convert excel with images to pdf java, convert excel with charts to pdf java, convert xls to pdf, convert xlsx to pdf, xls to pdf java, xlsx to pdf java, excel to pdf
 ---
 {{% alert color="primary" %}}

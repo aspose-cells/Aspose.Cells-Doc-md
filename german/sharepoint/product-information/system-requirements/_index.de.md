@@ -5,7 +5,7 @@ weight: 40
 url: /de/sharepoint/system-requirements/
 ---
 ### **Serveranforderungen**
-Um Aspose.Cells für SharePoint zu installieren, benötigen Sie einen Computer, auf dem eines der folgenden ausgeführt wird:
+Um Aspose.Cells for SharePoint zu installieren, benötigen Sie einen Computer mit einem der folgenden Betriebssysteme:
 
 - Windows SharePoint-Dienste 3.0
 - Microsoft Office SharePoint-Server 2007
@@ -18,7 +18,7 @@ Wir empfehlen Ihnen, für diese Produkte Service Pack 2 oder höher zu installie
 
 {{% /alert %}}
 ### **Kundenanforderungen**
-Sie benötigen einen Browser, um auf SharePoint-Websites zuzugreifen. Aspose.Cells für SharePoint wurde getestet mit:
+Sie benötigen einen Browser, um auf SharePoint-Websites zuzugreifen. Aspose.Cells for SharePoint ist getestet mit:
 
 - Microsoft Internet Explorer
 - Mozilla Firefox

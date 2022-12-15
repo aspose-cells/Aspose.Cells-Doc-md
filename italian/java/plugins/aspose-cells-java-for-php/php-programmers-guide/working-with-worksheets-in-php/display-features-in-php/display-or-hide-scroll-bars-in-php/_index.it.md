@@ -6,7 +6,7 @@ url: /it/java/display-or-hide-scroll-bars-in-php/
 ---
 ## **Aspose.Cells - Mostra o nascondi le barre di scorrimento**
 ### **Nascondere le barre di scorrimento**
- Per nascondere le barre di scorrimento utilizzando**Aspose.Cells Java per PHP** , chiamata**displayhidescrollbars** modulo.
+ Per nascondere le barre di scorrimento utilizzando**Aspose.Cells Giava for PHP** , chiamata**displayhidescrollbars** modulo.
 
 **Codice PHP**
 

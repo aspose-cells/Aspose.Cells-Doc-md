@@ -10,7 +10,7 @@ Puede leer las etiquetas de los ejes de su gráfico después de calcular sus val
 
 ## **Lea las etiquetas de los ejes después de calcular el gráfico**
 
-Consulte el siguiente código de ejemplo que carga el[ejemplo de archivo de Excel](64716829.xlsx)lee las etiquetas del eje de categorías del gráfico en la primera hoja de trabajo. Luego imprime los valores de las etiquetas de los ejes en la consola. Consulte la salida de la consola del código de muestra que se proporciona a continuación para obtener una referencia.
+Consulte el siguiente código de ejemplo que carga el[ejemplo de archivo de Excel](64716829.xlsx)lee las etiquetas del eje de categorías del gráfico en la primera hoja de cálculo. Luego imprime los valores de las etiquetas de los ejes en la consola. Consulte la salida de la consola del código de muestra que se proporciona a continuación para obtener una referencia.
 
 ## **Código de muestra**
 

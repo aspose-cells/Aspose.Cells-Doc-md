@@ -4,12 +4,12 @@ type: docs
 weight: 10
 url: /tr/php-java/limitations-and-api-differences/
 keywords: php, excel, limitation, api, difference
-description: Java sınırlamaları ve api farklılıkları aracılığıyla PHP için Aspose.Cells
+description: Aspose.Cells for PHP via Java kısıtlamalar ve api farklılıkları
 ---
 ## **Kamu API Farklar**
 
 
-Aşağıdaki liste (örnek kod bölümleriyle birlikte), Java API'leri aracılığıyla PHP için Aspose.Cells for Java ve Aspose.Cells arasındaki bazı farklılıkları göstermektedir.
+Aşağıdaki liste (örnek kod segmentleriyle birlikte), Aspose.Cells for Java ve Aspose.Cells for PHP via Java API'ler arasındaki bazı farklılıkları göstermektedir.
 ### **Kitaplığı içe aktarma (Paket Karşılaştırmaları)**
 
 **Aspose.Cells for Java**
@@ -20,7 +20,7 @@ Aşağıdaki liste (örnek kod bölümleriyle birlikte), Java API'leri aracılı
 
 {{< /highlight >}}
 
-**Java aracılığıyla PHP için Aspose.Cells**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -46,7 +46,7 @@ use aspose\cells\Workbook;
 {{< /highlight >}}
 
 
-**Java aracılığıyla PHP için Aspose.Cells**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -67,7 +67,7 @@ use aspose\cells\Workbook;
 
 
 
-**Java aracılığıyla PHP için Aspose.Cells**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -118,7 +118,7 @@ public class Test1 {
 
 
 
-**Java aracılığıyla PHP için Aspose.Cells**
+**Aspose.Cells for PHP via Java**
 
 {{< highlight "java" >}}
 
@@ -159,7 +159,7 @@ $workbook->save("out1.xlsx");
 {{< /highlight >}}
 
 
-## **Java API aracılığıyla PHP için Aspose.Cells'in Diğer Sınırlamaları, Aspose.Cells for Java API ile karşılaştırıldığında**
+## **Aspose.Cells for PHP via Java API'in Aspose.Cells for Java API ile karşılaştırıldığında Diğer Sınırlamaları**
 1. Array, ArrayList, ResultSet vb.'den veri içe/dışa aktarma desteklenmez.
 1. Yazdırma desteklenmiyor.
 

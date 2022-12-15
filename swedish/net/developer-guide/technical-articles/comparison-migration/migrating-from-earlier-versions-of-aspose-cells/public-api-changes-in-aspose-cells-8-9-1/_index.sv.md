@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.9.1
+title: Offentlig API Ändringar i Aspose.Cells 8.9.1
 type: docs
 weight: 310
 url: /sv/net/public-api-changes-in-aspose-cells-8-9-1/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Konfigurerbara teckensnittskällor**
-Aspose.Cells för .NET har exponerat ett antal klasser för att ge stöd för konfigurerbara teckensnittskällor för rendering av kalkylblad. Här är listan över klasser som har lagts till med Aspose.Cells för .NET 8.9.1.
+Aspose.Cells for .NET har exponerat ett antal klasser för att ge stöd för konfigurerbara teckensnittskällor för rendering av kalkylblad. Här är listan över klasser som har lagts till med Aspose.Cells for .NET 8.9.1.
 
 1. FontConfigs-klassen anger teckensnittsinställningarna.
 1. FontSourceBase-klassen är en abstrakt basklass för klasserna som låter användaren specificera olika teckensnittskällor.
@@ -20,7 +20,7 @@ Aspose.Cells för .NET har exponerat ett antal klasser för att ge stöd för ko
 1. MemoryFontSource-klassen representerar den enda TrueType-teckensnittsfilen som är lagrad i minnet.
 1. FontSourceType-uppräkning anger typen av en teckensnittskälla.
 
-Med ovannämnda ändringar på plats, tillåter Aspose.Cells för .NET att ställa in typsnitten enligt nedan.
+Med ovan nämnda ändringar på plats, tillåter Aspose.Cells for .NET att ställa in typsnitten enligt nedan.
 
 1. Ställ in en anpassad typsnittsmapp när du använder metoden FontConfigs.SetFontFolder.
 1. Ställ in flera anpassade teckensnittsmappar medan du använder metoden FontConfigs.SetFontFolders.
@@ -76,7 +76,7 @@ Både FontConfigs.SetFontFolder och FontConfigs.SetFontFolders metoder acceptera
 
 {{% /alert %}} 
 
-Aspose.Cells för .NET gör det också möjligt att konfigurera teckensnittsersättningen. Denna mekanism är användbar när ett önskat teckensnitt inte är tillgängligt på maskinen där konvertering måste ske. Användare kan tillhandahålla en lista med teckensnittsnamn som alternativ till det ursprungliga teckensnittet. För att uppnå detta har API:erna Aspose.Cells exponerat metoden FontConfigs.SetFontSubstitutes som accepterar 2 parametrar. Den första parametern är av typen string, som ska vara namnet på teckensnittet som måste ersättas. Den andra parametern är en array av typen sträng. Användare kan tillhandahålla en lista med teckensnittsnamn som ersättning för det ursprungliga teckensnittsnamnet (anges i den första parametern).
+Aspose.Cells for .NET gör det också möjligt att konfigurera teckensnittsersättningen. Denna mekanism är användbar när ett önskat teckensnitt inte är tillgängligt på maskinen där konvertering måste ske. Användare kan tillhandahålla en lista med teckensnittsnamn som alternativ till det ursprungliga teckensnittet. För att uppnå detta har API:erna Aspose.Cells exponerat metoden FontConfigs.SetFontSubstitutes som accepterar 2 parametrar. Den första parametern är av typen string, som ska vara namnet på teckensnittet som måste ersättas. Den andra parametern är en array av typen sträng. Användare kan tillhandahålla en lista med teckensnittsnamn som ersättning för det ursprungliga teckensnittsnamnet (anges i den första parametern).
 
 Här är ett enkelt användningsscenario för metoden FontConfigs.SetFontSubstitutes.
 
@@ -92,7 +92,7 @@ FontConfigs.SetFontSubstitutes("Arial", new string[]{ "Times New Roman", "Calibr
 
 
 
-Aspose.Cells för .NET har också tillhandahållit sätt att samla information om vilka källor och ersättningar som har ställts in.
+Aspose.Cells for .NET har också tillhandahållit medel för att samla information om vilka källor och ersättningar som har ställts in.
 
 1. Metoden FontConfigs.GetFontSources returnerar en array av typen FontSourceBase som innehåller listan över angivna teckensnittskällor. Om inga källor har ställts in kommer metoden FontConfigs.GetFontSources att returnera en tom array.
 1. Metoden FontConfigs.GetFontSubstitutes accepterar en parameter av typen sträng som gör det möjligt att ange teckensnittsnamnet för vilket en ersättning har ställts in. Om ingen ersättning har ställts in för det angivna teckensnittsnamnet kommer FontConfigs.GetFontSubstitutes-metoden att returnera null.
@@ -103,7 +103,7 @@ Aspose.Cells för .NET har också tillhandahållit sätt att samla information o
 
 {{% /alert %}} 
 ### **Lade till IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider egendom**
-Aspose.Cells för .NET 8.9.1 gör det möjligt att hämta/ställa in IFilePathProvider för export av kalkylblad till separata HTML-filer. Dessa nya API:er är användbara i scenarier där hyperlänkar i ett kalkylblad pekar till en plats i ett annat kalkylblad, där applikationskravet är att rendera varje kalkylblad till en separat HTML-fil. Genom att implementera IFilePathProvider kan de ovannämnda hyperlänkarna hållas intakta oavsett att de pekar på en plats i en separat resulterande HTML-fil.
+Aspose.Cells for .NET 8.9.1 gör det möjligt att hämta/ställa in IFilePathProvider för att exportera kalkylblad till separata HTML-filer. Dessa nya API:er är användbara i scenarier där hyperlänkar i ett kalkylblad pekar till en plats i ett annat kalkylblad, där applikationskravet är att rendera varje kalkylblad till en separat HTML-fil. Genom att implementera IFilePathProvider kan de ovannämnda hyperlänkarna hållas intakta oavsett att de pekar på en plats i en separat resulterande HTML-fil.
 
 Följande är det enkla användningsscenariot för egenskapen HtmlSaveOptions.FilePathProvider.
 
@@ -207,7 +207,7 @@ Så här implementerar du gränssnittet IFlePathProvider.
 
 {{% /alert %}} 
 ### **Lade till CopyOptions.ReferToDestinationSheet Property & Overload för Cells.CopyRows Method**
-Aspose.Cells för .NET API har avslöjat den booleska typen CopyOptions.ReferToDestinationSheet-egenskapen tillsammans med en överbelastning på Cells.CopyRows-metoden för att underlätta kopiering av rader när rader som ska kopieras också innehåller ett diagram och dess datakälla. Utvecklare kan använda dessa nya API:er för att peka diagrammets datakälla till käll- eller målarbetsbladen.
+Aspose.Cells for .NET API har avslöjat den booleska typen CopyOptions.ReferToDestinationSheet-egenskapen tillsammans med en överbelastning på Cells.CopyRows-metoden för att underlätta kopieringsoperationen av rader när rader innehåller datakälla ett diagram och dess datakälla. Utvecklare kan använda dessa nya API:er för att peka diagrammets datakälla till käll- eller målarbetsbladen.
 
 Följande är det enkla användningsscenariot.
 
@@ -249,7 +249,7 @@ book.Save(dir + "output.xlsx");
 
 {{% /alert %}} 
 ### **Lade till CalculationOptions.Rekursiv egenskap**
-Aspose.Cells för .NET 8.9.1 har exponerat den booleska typen CalculationOptions.Recursive-egenskapen. Att ställa in egenskapen CalculationOptions.Recursive till true och skicka objektet till Workbook.CalculateFormula-metoden styr API:erna Aspose.Cells att beräkna de beroende cellerna rekursivt vid beräkning av celler som beror på andra celler.
+Aspose.Cells for .NET 8.9.1 har exponerat den booleska typen CalculationOptions.Rekursiv egenskap. Att ställa in egenskapen CalculationOptions.Recursive till true och skicka objektet till Workbook.CalculateFormula-metoden styr API:erna Aspose.Cells att beräkna de beroende cellerna rekursivt vid beräkning av celler som beror på andra celler.
 
 Följande är det enkla användningsscenariot.
 

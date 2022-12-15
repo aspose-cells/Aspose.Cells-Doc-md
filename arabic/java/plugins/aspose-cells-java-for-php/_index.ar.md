@@ -1,10 +1,10 @@
 ﻿---
-title: Aspose.Cells Java لـ PHP
+title: Aspose.Cells Java for PHP
 type: docs
 weight: 80
 url: /ar/java/aspose-cells-java-for-php/
 ---
-## **مقدمة إلى Aspose.Cells Java لـ PHP**
+## **مقدمة إلى Aspose.Cells Java for PHP**
 ### **جسر PHP / Java**
 PHP / Java Bridge هو تطبيق لبث يعتمد على XML[بروتوكول الشبكة](http://php-java-bridge.sourceforge.net/pjb/PROTOCOL.TXT)، والتي يمكن استخدامها لتوصيل محرك نصي أصلي ، على سبيل المثال PHP أو Scheme أو Python ، بجهاز ظاهري Java. إنه أسرع بما يصل إلى 50 مرة من RPC المحلي عبر SOAP ، ويتطلب موارد أقل على جانب خادم الويب. إنها[أسرع](http://php-java-bridge.sourceforge.net/pjb/FAQ.html#performance)وأكثر موثوقية من الاتصال المباشر عبر الواجهة الأصلية Java ، ولا يتطلب أي مكونات إضافية لاستدعاء إجراءات Java من إجراءات PHP أو PHP من Java.
 
@@ -13,8 +13,8 @@ PHP / Java Bridge هو تطبيق لبث يعتمد على XML[بروتوكول 
 Aspose.Cells for Java هو مكون جداول بيانات Excel حائز على جوائز يسمح لمطوري Java بتضمين القدرة على قراءة جداول بيانات Excel® وكتابتها ومعالجتها (XLS و XLSX و XLSM و XLSB و XLTX و SpreadsheetML و CSV و ODS) و HTML و MHTML و PDF وتنسيقات ملفات الصور في تطبيقات Java الخاصة بهم دون الحاجة إلى الاعتماد على Microsoft Excel®.
 
 Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني بالميزات يقدم العديد من الوظائف التي تفوق بكثير قدرات تصدير البيانات البسيطة للبائعين الآخرين. مع Aspose.Cells for Java يمكن للمطورين تصدير البيانات وتنسيق جداول البيانات إلى المستوى الأكثر دقة واستيراد الصور وإنشاء المخططات وتطبيق وحساب الصيغ المعقدة ودفق بيانات Excel® وحفظها بتنسيقات مختلفة وغير ذلك الكثير - كل هذا دون الحاجة إلى Microsoft Excel® أو Microsoft أتمتة المكاتب.
-### **Aspose.Cells Java لـ PHP**
-يوضح المشروع Aspose.Cells لـ PHP كيف يمكن تنفيذ المهام المختلفة باستخدام Aspose.Cells Java APIs في PHP. يهدف هذا المشروع إلى تقديم أمثلة مفيدة لمطوري PHP الذين يرغبون في استخدام Aspose.Cells for Java في مشاريع PHP الخاصة بهم باستخدام[جسر PHP / Java](http://php-java-bridge.sourceforge.net/pjb/).
+### **Aspose.Cells Java for PHP**
+ يوضح المشروع Aspose.Cells for PHP كيف يمكن تنفيذ المهام المختلفة باستخدام Aspose.Cells Java APIs في PHP. يهدف هذا المشروع إلى تقديم أمثلة مفيدة for PHP للمطورين الذين يرغبون في الاستفادة من Aspose.Cells for Java في مشاريع PHP الخاصة بهم باستخدام[جسر PHP / Java](http://php-java-bridge.sourceforge.net/pjb/).
 
 **يتضمن هذا القسم المواضيع التالية:**
 
@@ -63,7 +63,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 - [ادعم ووسع وساهم في Aspose.Cells بلغة PHP](/cells/ar/java/support-extend-and-contribute-to-aspose-cells-in-php/)
 ## **متطلبات النظام والأنظمة الأساسية المدعومة**
 ### **متطلبات النظام**
-**فيما يلي متطلبات النظام لاستخدام Aspose.Cells Java لـ PHP:**
+**فيما يلي متطلبات النظام لاستخدام Aspose.Cells Java for PHP:**
 
 - تم تثبيت Tomcat Server 8.0 أو أعلى.
 - تم تكوين PHP / JavaBridge.
@@ -76,7 +76,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 - Java 1.8 أو أعلى
 ## **التنزيلات والتكوين**
 ### **تحميل المكتبات المطلوبة**
-تحميل المكتبات المطلوبة المذكورة أدناه. هذه هي المطلوبة لتنفيذ Aspose.Cells Java لأمثلة PHP.
+تحميل المكتبات المطلوبة المذكورة أدناه. هذه هي المطلوبة لتنفيذ Aspose.Cells Java for PHP أمثلة.
 
 - **Aspose:** [Aspose.Cells for Java مكون](https://downloads.aspose.com/cells/java)
 - [جسر PHP / Java](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_7.2.1/php-java-bridge_7.2.1_documentation.zip/download)
@@ -85,8 +85,8 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 
 -----
 #### **جيثب**
-- **Aspose.Cells Java لأمثلة PHP** 
-  - [Aspose.Cells Java لـ PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
+- **Aspose.Cells Java for PHP أمثلة** 
+  - [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
 ### **كيفية تكوين الكود المصدري على منصة Linux**
 يرجى اتباع هذه الخطوات البسيطة لفتح كود المصدر وتوسيعه أثناء استخدام:
 #### **1. قم بتثبيت خادم Tomcat**
@@ -107,7 +107,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 {{< /highlight >}}
 
 
- قم بفك ضغط ثنائيات PHP / JavaBridge بإصدار الأمر التالي على وحدة تحكم Linux.
+قم بفك ضغط ثنائيات PHP / JavaBridge بإصدار الأمر التالي على وحدة تحكم Linux.
 
 {{< highlight "actionscript3" >}}
 
@@ -125,7 +125,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 {{< /highlight >}}
 
 
-عن طريق النسخ ، سيقوم tomcat8 بإنشاء مجلد جديد تلقائيًا "**جافا بريدج**" في**تطبيقات الويب**. بمجرد إنشاء المجلد ، تأكد من تشغيل tomcat8 ثم تحقق**المضيف المحلي: 8080 / JavaBridge**في المتصفح ، يجب أن يفتح صفحة افتراضية من JavaBridge.
+عن طريق النسخ ، سيقوم tomcat8 بإنشاء مجلد جديد تلقائيًا "**جافا بريدج**" في**تطبيقات الويب**. بمجرد إنشاء المجلد ، تأكد من تشغيل tomcat8 ثم تحقق**المضيف المحلي: 8080 / JavaBridge** في المتصفح ، يجب أن يفتح صفحة افتراضية من JavaBridge.
 
  إذا ظهرت أي رسالة خطأ ، فقم بالتثبيت**FastCGI**بإصدار الأمر التالي على وحدة تحكم Linux.
 
@@ -138,7 +138,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 بعد تثبيت php5.5 cgi ، أعد تشغيل خادم tomcat8 وتحقق من**المضيف المحلي: 8080 / JavaBridge**مرة أخرى في المتصفح.
 
 إذا**JAVA_HOME**يتم عرض خطأ ، ثم افتح ملف / etc / default / tomcat8 وأزل التعليق عن السطر الذي يحدد JAVA_HOME. تحقق من ** localhost: 8080 / JavaBridge ** في المتصفح مرة أخرى ، يجب أن يأتي مصحوبًا بصفحة أمثلة PHP / JavaBridge.
-#### **3. قم بتكوين Aspose.Cells Java لأمثلة PHP**
+#### **3. قم بتكوين Aspose.Cells Java for PHP أمثلة**
  استنساخ ، أمثلة PHP عن طريق إصدار الأوامر التالية داخل مجلد webapps / JavaBridge.
 
 {{< highlight "actionscript3" >}}
@@ -151,7 +151,7 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
 برجاء اتباع الخطوات البسيطة التالية لتهيئة PHP / Java Bridge على النظام الأساسي Windows
 
 \ 1. قم بتثبيت PHP5 وتكوينه كما تفعل عادةً
-2. قم بتثبيت JRE 6 (Java Runtime Environment) إذا لم يكن لديك بالفعل. يمكنك التحقق من ذلك في C: \ Program Files وما إلى ذلك. يمكنك تنزيله من هنا. أنا أستخدم JRE 6 لأنه متوافق مع PHP Java Bridge (PJB).
+\ 2. قم بتثبيت JRE 6 (Java Runtime Environment) إذا لم يكن لديك بالفعل. يمكنك التحقق من ذلك في C: \ Program Files وما إلى ذلك. يمكنك تنزيله من هنا. أنا أستخدم JRE 6 لأنه متوافق مع PHP Java Bridge (PJB).
 
 \ 3. قم بتثبيت Apache Tomcat 8.0. يمكنك تحميله من هنا
 
@@ -164,9 +164,9 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
 
  7. انسخ ملف[Aspose.Cells Java](https://downloads.aspose.com/cells/java) jar إلى C: \ Program Files \ Apache Software Foundation \ Tomcat 8.0 \ webapps \ JavaBridge \ WEB-INF \ lib
 
- \ 8. استنساخ[Aspose.Cells Java لـ PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) أمثلة داخل المجلد C: \ Program Files \ Apache Software Foundation \ Tomcat 8.0 \ webapps \ folder.
+ \ 8. استنساخ[Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) أمثلة داخل المجلد C: \ Program Files \ Apache Software Foundation \ Tomcat 8.0 \ webapps \ folder.
 
-\ 8. انسخ المجلد C: \ Program Files \ Apache Software Foundation \ Tomcat 8.0 \ webapps \ JavaBridge \ java إلى Aspose.Cells Java لمجلد أمثلة PHP.
+\ 8. انسخ المجلد C: \ Program Files \ Apache Software Foundation \ Tomcat 8.0 \ webapps \ JavaBridge \ java إلى مجلد الأمثلة Aspose.Cells Java for PHP.
 
  \ 10. أعد تشغيل خدمة apache tomcat وابدأ في استخدام الأمثلة.
 ## **الدعم والتوسيع والمساهمة**
@@ -175,11 +175,11 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
 
 هذا هو السبب في أننا نقدم الدعم المجاني. أي شخص يستخدم منتجاتنا ، سواء اشتراها أو استخدم تقييمًا ، يستحق كامل اهتمامنا واحترامنا.
 
-يمكنك تسجيل أي مشكلات أو اقتراحات تتعلق بـ Aspose.Cells Java لـ PHP باستخدام أي من الأنظمة الأساسية التالية:
+يمكنك تسجيل أي مشكلات أو اقتراحات تتعلق بـ Aspose.Cells Java for PHP باستخدام أي من الأنظمة الأساسية التالية:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ### **تمديد والمساهمة**
-Aspose.Cells Java لـ PHP مفتوح المصدر وكود المصدر الخاص به متاح على مواقع الترميز الاجتماعي الرئيسية المدرجة أدناه. يتم تشجيع المطورين على تنزيل الكود المصدري والمساهمة من خلال اقتراح أو إضافة ميزة جديدة أو تحسين الميزات الموجودة ، بحيث يمكن للآخرين الاستفادة منها أيضًا.
+Aspose.Cells Java for PHP مفتوح المصدر وكود المصدر الخاص به متاح على مواقع الترميز الاجتماعي الرئيسية المدرجة أدناه. يتم تشجيع المطورين على تنزيل الكود المصدري والمساهمة من خلال اقتراح أو إضافة ميزة جديدة أو تحسين الميزات الموجودة ، بحيث يمكن للآخرين الاستفادة منها أيضًا.
 ### **مصدر الرمز**
 يمكنك الحصول على أحدث كود مصدر من أحد المواقع التالية
 

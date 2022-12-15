@@ -5,7 +5,7 @@ weight: 10
 url: /sv/python-java/create-slicer-to-a-pivot-table/
 ---
 ## **Möjliga användningsscenarier**
-Slicers används för att snabbt filtrera data. De kan användas för att filtrera data både i en tabell eller pivottabell. Microsoft Excel låter dig skapa en slicer genom att välja en tabell eller pivottabell och sedan klicka på*Infoga > Slicer*. Aspose.Cells för Python via Java tillhandahåller metoden Worksheet.getSlicers().add() för att skapa slicer.
+Slicers används för att snabbt filtrera data. De kan användas för att filtrera data både i en tabell eller pivottabell. Microsoft Excel låter dig skapa en slicer genom att välja en tabell eller pivottabell och sedan klicka på*Infoga > Slicer*. Aspose.Cells for Python via Java tillhandahåller metoden Worksheet.getSlicers().add() för att skapa slicer.
 ## **Skapa en skivare till en pivottabell**
 Följande kodavsnitt laddar[exempel på Excel-fil](106364966.xlsx)som innehåller pivottabellen. Den skapar sedan slicer baserat på det första baspivotfältet. Slutligen sparar den arbetsboken[utgång XLSX](106364967.xlsx)formatera. Följande skärmdump visar slicer skapad av Aspose.Cells i utdata Excel-fil.
 

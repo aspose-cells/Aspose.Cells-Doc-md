@@ -6,7 +6,7 @@ url: /tr/cpp/aspose-cells-for-cpp-22-12-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa Aspose.Cells için C++ için sürüm notları içerir 22.12 için Windows.
+Bu sayfa Aspose.Cells for C++ 22.12 için Windows için sürüm notları içerir.
 
 {{% /alert %}}
 

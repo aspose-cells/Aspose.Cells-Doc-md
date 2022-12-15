@@ -9,14 +9,14 @@ url: /zh/reportingservices/add-sub-report-item/
 1. 选择将引用子报表项的单元格。
 1. 点击**子报告** (
 
-![待办事项：图片_替代_文本](add-sub-report-item_1.png)
+![待办事项：图像_替代_文本](add-sub-report-item_1.png)
 
 ).
 显示子报表。
 
 **子报表** 
 
-![待办事项：图片_替代_文本](add-sub-report-item_2.png)
+![待办事项：图像_替代_文本](add-sub-report-item_2.png)
 
 
 
@@ -27,7 +27,7 @@ url: /zh/reportingservices/add-sub-report-item/
 
    **选择报告** 
 
-![待办事项：图片_替代_文本](add-sub-report-item_3.png)
+![待办事项：图像_替代_文本](add-sub-report-item_3.png)
 
 
 
@@ -36,7 +36,7 @@ url: /zh/reportingservices/add-sub-report-item/
 
    **已选择子报表** 
 
-![待办事项：图片_替代_文本](add-sub-report-item_4.png)
+![待办事项：图像_替代_文本](add-sub-report-item_4.png)
 
 
 
@@ -45,7 +45,7 @@ url: /zh/reportingservices/add-sub-report-item/
 
    **编辑公式对话框** 
 
-![待办事项：图片_替代_文本](add-sub-report-item_5.png)
+![待办事项：图像_替代_文本](add-sub-report-item_5.png)
 
 
 
@@ -54,7 +54,7 @@ url: /zh/reportingservices/add-sub-report-item/
 
    **命名子报表** 
 
-![待办事项：图片_替代_文本](add-sub-report-item_6.png)
+![待办事项：图像_替代_文本](add-sub-report-item_6.png)
 
 
 
@@ -63,4 +63,4 @@ url: /zh/reportingservices/add-sub-report-item/
 
    **插入报表的子报表** 
 
-![待办事项：图片_替代_文本](add-sub-report-item_7.png)
+![待办事项：图像_替代_文本](add-sub-report-item_7.png)

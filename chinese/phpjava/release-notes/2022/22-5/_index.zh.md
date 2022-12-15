@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 用于 PHP 通过 Java 22.5 发行说明
+title: Aspose.Cells for PHP via Java 22.5 发行说明
 type: docs
 weight: 8
 url: /zh/php-java/aspose-cells-for-php-via-java-22-5-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含发行说明[Aspose.Cells 用于 PHP 通过 Java 22.5](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.5/).
+此页面包含发行说明[Aspose.Cells for PHP via Java 22.5](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-22.5/).
 
 {{% /alert %}}
 

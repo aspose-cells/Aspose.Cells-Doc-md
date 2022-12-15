@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells pour Android via Java 17.5 Notes de version
+title: Aspose.Cells for Android via Java 17.5 Notes de mise à jour
 type: docs
 weight: 30
 url: /fr/java/aspose-cells-for-android-via-java-17-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient des notes de version pour[Aspose.Cells pour Android via Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
+Cette page contient des notes de version pour[Aspose.Cells for Android via Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
 
 {{% /alert %}} 
 
@@ -168,7 +168,7 @@ Cette page contient des notes de version pour[Aspose.Cells pour Android via Java
 |CELLSJAVA-42278|Exception : "java.lang.IndexOutOfBoundsException : Index : 12, Taille : 12" lors de l'enregistrement au format de fichier HTML|Exception|
 |CELLSJAVA-42274|Exception : "java.lang.StringIndexOutOfBoundsException : index de chaîne hors plage : 0" lors du chargement d'un fichier XLSX|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
-Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour Android via Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez soulevez-le sur le forum de support Aspose.Cells.
+Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android via Java. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez le signaler. sur le forum d'assistance Aspose.Cells.
 ### **Ajoute un setter pour la propriété LoadFilter.LoadDataFilterOptions pour remplacer la variable m_LoadDataFilterOptions**
 L'utilisateur peut modifier la propriété LoadDataFilterOptions dans son implémentation de LoadFilter pour modifier le comportement de chargement du classeur.
 ### **Ajoute la propriété CellsHelper.SignificantDigits.**
@@ -245,6 +245,6 @@ Représente le format PDF compatible avec PDFA-1a.
 
 {{% alert color="primary" %}} 
 
-Depuis la base de code du Aspose.Cells pour Android via Java correspond au code de la version pertinente .NET et Java, la plupart des modifications, améliorations et correctifs inclus dans le Aspose.Cells for .NET V17.1.0, Aspose.Cells for .NET.0761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761761.0.0761.0. 3.0, Aspose.Cells for .NET v17.4.0, Aspose.Cells for .NET v17.5, Aspose.Cells for Java v17.1.0, Aspose.Cells for Java v17.2.0, Aspose.Cells for Java v17.3.0, Aspose.Cells for Java v17.4.0 and Aspose.Cells for Java v17.5 are also included in this Aspose.Cells for Android via Java v17.5.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.1.0, Aspose.Cells for .NET v17.2.0, Aspose.Cells for .NET v17.3.0, Aspose.Cells for .NET v17.4.0, Aspose.Cells for .NET v17.5, Aspose.Cells for Java v17.1.0, Aspose.Cells for Java v17.2.0, Aspose.Cells for Java v17.3.0, Aspose.Cells for Java v17.4.0 and Aspose.Cells for Java v17.5 are also included in this Aspose.Cells for Android via Java v17 .5.
 
 {{% /alert %}}

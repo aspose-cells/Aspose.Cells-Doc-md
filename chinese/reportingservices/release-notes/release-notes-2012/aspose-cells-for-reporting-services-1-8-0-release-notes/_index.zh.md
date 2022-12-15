@@ -1,16 +1,16 @@
 ﻿---
-title: Reporting Services 1.8.0 发行说明的 Aspose.Cells
+title: Aspose.Cells for Reporting Services 1.8.0 发行说明
 type: docs
 weight: 10
 url: /zh/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含发行说明[Aspose.Cells 报告服务 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
+此页面包含发行说明[Aspose.Cells for Reporting Services 1.8.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.8.0/)
 
 {{% /alert %}} 
 
-我们很高兴地宣布 Aspose.Cells 用于 Reporting Services v1.8.0。它包括多项改进并解决了多项修复。
+我们很高兴地宣布 Aspose.Cells for Reporting Services v1.8.0。它包括多项改进并解决了多项修复。
 
 一般特征
 
@@ -19,9 +19,9 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 - 支持保护工作簿
 - 支持保护工作表
 - 添加过滤功能
-Aspose.Cells 用于 Reporting Services 客户端组件
+Aspose.Cells for Reporting Services 客户端组件
 - 包括 Office 2010 x64
- Reporting Services 客户端组件支持 Aspose.Cells
+支持 Aspose.Cells for Reporting Services 客户端组件
 
 
 
@@ -61,7 +61,7 @@ Aspose.Cells 用于 Reporting Services 客户端组件
 
 
 - 服务器组件 - 字段在呈现为 XLSX 时合并
-- 服务器组件 - Reporting Services 的 Aspose.Cells 导出问题
+- 服务器组件 - Aspose.Cells for Reporting Services 的导出问题
 - 服务器组件 - 隐藏列在呈现后可见
 - 服务器组件 - 列组标题丢失
 - 服务器组件 - 分页实现问题 (XL#38567)

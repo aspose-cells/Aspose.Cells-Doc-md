@@ -5,7 +5,7 @@ weight: 40
 url: /fr/java/freeze-panes-in-python/
 ---
 ## **Aspose.Cells - Figer les volets**
- Pour figer des volets dans le document de feuille de calcul à l'aide de**Aspose.Cells Java pour Python** , invoquez simplement**FreezePanes** module.
+ Pour figer des volets dans le document de feuille de calcul à l'aide de**Aspose.Cells Java for Python** , invoquez simplement**FreezePanes** module.
 
 **Code Python**
 

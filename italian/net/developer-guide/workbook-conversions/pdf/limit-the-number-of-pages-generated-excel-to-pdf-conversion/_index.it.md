@@ -12,7 +12,7 @@ A volte, si desidera stampare un intervallo di pagine su un file PDF di output. 
 
 ## **Limitazione del numero di pagine generate**
 
-L'esempio seguente mostra come eseguire il rendering di un intervallo di pagine (3 e 4) in un file Excel Microsoft in PDF.
+L'esempio seguente mostra come eseguire il rendering di un intervallo di pagine (3 e 4) in un file Microsoft Excel in PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LimitNumberOfPagesGenerated-1.cs" >}}
 

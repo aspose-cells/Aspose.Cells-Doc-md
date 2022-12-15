@@ -11,11 +11,11 @@ url: /ar/cpp/public-api-changes-in-aspose-cells-16-12-0/
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
 ### **دعم الجداول المحورية**
-يدعم الإصدار الثاني من Aspose.Cells لـ C++ الإنشاء بالإضافة إلى معالجة الجداول المحورية. يوفر Aspose.Cells لـ C++ فئة IPivotTable التي تمثل كائن Pivot Table بينما تمثل IPivotTableCollection مجموعة من الجداول المحورية. يمكن الوصول إلى IPivotTableCollection عبر كائن IWorksheet ويمكن إضافة جدول Pivot Table جديد إلى المجموعة أثناء استخدام أسلوب IPivotTableCollection.Add.
+يدعم الإصدار الثاني من Aspose.Cells for C++ الإنشاء بالإضافة إلى معالجة الجداول المحورية. يوفر Aspose.Cells for C++ فئة IPivotTable التي تمثل كائن Pivot Table بينما تمثل IPivotTableCollection مجموعة من الجداول المحورية. يمكن الوصول إلى IPivotTableCollection عبر كائن IWorksheet ويمكن إضافة جدول Pivot Table جديد إلى المجموعة أثناء استخدام أسلوب IPivotTableCollection.Add.
 
- يوضح مقتطف الشفرة التالي مدى سهولة استخدام Aspose.Cells لـ C++ API[إنشاء جداول محورية من البداية](/cells/ar/cpp/create-pivot-table/).
+ يوضح مقتطف الكود التالي مدى سهولة استخدام Aspose.Cells for C++ API[إنشاء جداول محورية من البداية](/cells/ar/cpp/create-pivot-table/).
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -85,11 +85,11 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-إلى جانب إنشاء جداول محورية جديدة ، تدعم Aspose.Cells لواجهات برمجة التطبيقات C++ أيضًا معالجة الجداول المحورية الموجودة. يدعم API حاليًا تغيير البيانات في النطاق المصدر للجدول المحوري ثم تحديثه. بمجرد معالجة Pivot Table كما هو مطلوب ، من الأفضل استخدام أساليب IPivotTable.RefreshData و IPivotTable.CalculateData لتحديث Pivot Table مقابل مصدر البيانات المحدث.
+إلى جانب إنشاء جداول محورية جديدة ، تدعم واجهات برمجة التطبيقات Aspose.Cells for C++ أيضًا معالجة الجداول المحورية الموجودة. يدعم API حاليًا تغيير البيانات في النطاق المصدر للجدول المحوري ثم تحديثه. بمجرد معالجة Pivot Table كما هو مطلوب ، من الأفضل استخدام أساليب IPivotTable.RefreshData و IPivotTable.CalculateData لتحديث Pivot Table مقابل مصدر البيانات المحدث.
 
- يستخدم مقتطف الكود التالي Aspose.Cells لـ C++ API إلى[معالجة جدول محوري موجود](/cells/ar/cpp/manipulate-pivot-table/).
+يستخدم مقتطف التعليمات البرمجية التالي Aspose.Cells for C++ API إلى[معالجة جدول محوري موجود](/cells/ar/cpp/manipulate-pivot-table/).
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -133,7 +133,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **دعم قواعد التنسيق الشرطي**
- يوفر Aspose.Cells لـ C++ الآن إمكانية إضافة قواعد التنسيق الشرطي إلى ورقة العمل عن طريق عرض فئة IFormatCondition. توفر الفئة المذكورة أعلاه كذلك الطرق التالية لـ[تطبيق قواعد التنسيق الشرطي](/cells/ar/cpp/apply-conditional-formatting-in-worksheet/) حسب متطلبات التطبيق.
+ يوفر Aspose.Cells for C++ الآن إمكانية إضافة قواعد التنسيق الشرطي إلى ورقة العمل عن طريق عرض فئة IFormatCondition. توفر الفئة المذكورة أعلاه كذلك الطرق التالية لـ[تطبيق قواعد التنسيق الشرطي](/cells/ar/cpp/apply-conditional-formatting-in-worksheet/) حسب متطلبات التطبيق.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -143,7 +143,7 @@ wb->Save(outputPath);
 
 يوضح نموذج التعليمات البرمجية التالي كيفية إضافة قاعدة تنسيق شرطي من النوع Cell القيمة على الخلايا A1 و B2.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -191,9 +191,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **دعم الارتباطات التشعبية**
- Aspose.Cells لـ C++ يدعم الآن[إضافة ارتباطات تشعبية إلى خلايا ورقة العمل](/cells/ar/cpp/add-hyperlinks-to-the-cells/). من أجل توفير هذه الميزة ، كشف Aspose.Cells لـ C++ 16.12.0 فئة IHyperlinkCollection التي يمكن الوصول إليها عبر كائن IWorksheet بينما يمكن إضافة ارتباط تشعبي إلى المجموعة أثناء استخدام طريقة IHyperlinkCollection.Add كما هو موضح أدناه.
+ Aspose.Cells for C++ يدعم الآن[إضافة ارتباطات تشعبية إلى خلايا ورقة العمل](/cells/ar/cpp/add-hyperlinks-to-the-cells/)من أجل توفير هذه الميزة ، كشف Aspose.Cells for C++ 16.12.0 فئة IHyperlinkCollection التي يمكن الوصول إليها عبر كائن IWorksheet بينما يمكن إضافة ارتباط تشعبي إلى المجموعة أثناء استخدام طريقة IHyperlinkCollection.Add كما هو موضح أدناه.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -230,11 +230,11 @@ wb->Save(dirPath->Append(new String("output.xlsx")), SaveFormat_Xlsx);
 - الخصائص المحددة من قبل النظام (المضمنة): تحتوي الخصائص المضمنة على معلومات عامة حول المستند مثل عنوان المستند واسم المؤلف وإحصائيات المستند وما إلى ذلك.
 - الخصائص المعرفة من قبل المستخدم (المخصصة): الخصائص المخصصة التي يحددها المستخدم النهائي في شكل زوج قيمة الاسم.
 
-Aspose.Cells لدعم C++[إدارة كلا النوعين من خصائص المستندات المضمنة والمخصصة](/cells/ar/cpp/managing-document-properties/). Aspose.Cells 'فئة IWorkbook تمثل ملف Excel. من أجل الوصول إلى خصائص المستند المضمنة ، استخدم IWorkbook.GetBuiltInDocumentProperties بينما يمكن الوصول إلى خصائص المستند المخصصة أثناء استخدام أسلوب IWorkbook.GetCustomDocumentProperties.
+ Aspose.Cells for C++ يدعم[إدارة كلا النوعين من خصائص المستندات المضمنة والمخصصة](/cells/ar/cpp/managing-document-properties/)Aspose.Cells 'فئة IWorkbook تمثل ملف Excel. من أجل الوصول إلى خصائص المستند المضمنة ، استخدم IWorkbook.GetBuiltInDocumentProperties بينما يمكن الوصول إلى خصائص المستند المخصصة أثناء استخدام أسلوب IWorkbook.GetCustomDocumentProperties.
 
 يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج جدول بيانات موجود ويقرأ خصائص المستند المضمنة مثل العنوان والموضوع والخصائص المخصصة حسب الاسم MyCustom1.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -286,11 +286,11 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **دعم ListObjects**
- جدول Excel هو مصفوفة من الخلايا تحتوي على أي عدد من الصفوف والأعمدة بينما يشار إلى نفس الجدول على أنه كائن قائمة في Aspose.Cells لواجهات برمجة التطبيقات C++. تحتوي مساحة الاسم Aspose :: Cells :: Tables على كافة الفئات الضرورية التي تتعامل مع العمليات المتعلقة بكائنات القائمة. أكثر الفئات الجديرة بالذكر هي IListObject و IListObjectCollection التي تسمح بذلك[إنشاء وتنسيق قائمة كائنات](/cells/ar/cpp/create-and-format-table/) وهلم جرا.
+ جدول Excel عبارة عن مصفوفة من الخلايا تحتوي على أي عدد من الصفوف والأعمدة بينما يشار إلى نفس الجدول على أنه كائن قائمة في واجهات برمجة التطبيقات Aspose.Cells for C++. تحتوي مساحة الاسم Aspose :: Cells :: Tables على كافة الفئات الضرورية التي تتعامل مع العمليات المتعلقة بكائنات القائمة. أكثر الفئات الجديرة بالذكر هي IListObject و IListObjectCollection التي تسمح بذلك[إنشاء وتنسيق قائمة كائنات](/cells/ar/cpp/create-and-format-table/) وهلم جرا.
 
 يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف جدول البيانات ثم يقوم بإنشاء "كائن قائمة" (جدول) في نطاق A1: H10 ، ثم استخدم طرقه المختلفة لإظهار الإجمالي الفرعي.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -336,11 +336,11 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **دعم تجميع الصف والعمود**
- يمكن استخدام Aspose.Cells لـ C++ API لتجميع الصفوف والأعمدة أثناء استخدام فئة ICells والتي تمثل أساسًا مجموعة كل الخلايا في ورقة عمل معينة. تقدم فئة ICells أساليب GroupRows و GroupColumns من أجل[مجموعة الصفوف والأعمدة](/cells/ar/cpp/group-rows-and-columns-of-worksheet/) على التوالى.
+ يمكن استخدام Aspose.Cells for C++ API لتجميع الصفوف والأعمدة أثناء استخدام فئة ICells والتي تمثل أساسًا مجموعة كل الخلايا في ورقة عمل معينة. تقدم فئة ICells أساليب GroupRows و GroupColumns من أجل[مجموعة الصفوف والأعمدة](/cells/ar/cpp/group-rows-and-columns-of-worksheet/) على التوالى.
 
 يوضح مقتطف الشفرة التالي سيناريو الاستخدام البسيط للطريقتين المذكورتين أعلاه.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -422,11 +422,11 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **دعم الثيمات**
-Aspose.Cells لـ C++ APIs تدعم الآن استخدام ومعالجة السمات التي يقدمها تطبيق Excel.
+Aspose.Cells for C++ تدعم واجهات برمجة التطبيقات الآن استخدام ومعالجة السمات التي يوفرها تطبيق Excel.
 #### **القدرة على تطبيق ألوان السمة المخصصة**
  يحاول المقتطف التالي[قم بإنشاء نسق جديد بألوان مخصصة](/cells/ar/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) للمصنف.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -496,9 +496,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **دعم معالجة ألوان النسق**
-يوضح نموذج التعليمات البرمجية التالي كيفية[قراءة وتعديل ألوان نسق المصنف](/cells/ar/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). يقوم نموذج التعليمات البرمجية بتحميل جدول بيانات موجود ، وقراءة ألوان السمات الخاصة به ، مثل Accent1-Accent6 ، وتعديل الألوان قبل حفظ جدول البيانات.
+ يوضح نموذج التعليمات البرمجية التالي كيفية[قراءة وتعديل ألوان نسق المصنف](/cells/ar/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). يقوم نموذج التعليمات البرمجية بتحميل جدول بيانات موجود ، وقراءة ألوان السمات الخاصة به ، مثل Accent1-Accent6 ، وتعديل الألوان قبل حفظ جدول البيانات.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -562,9 +562,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **القدرة على نسخ المظاهر عبر المصنفات**
-يوضح نموذج التعليمات البرمجية التالي كيفية[نسخ النسق من مصنف إلى آخر](/cells/ar/cpp/copy-theme-from-one-workbook-to-another/)، والتي يمكن أن تكون مفيدة في تطبيق سمات مضمنة أو مخصصة على جداول بيانات متعددة.
+ يوضح نموذج التعليمات البرمجية التالي كيفية[نسخ النسق من مصنف إلى آخر](/cells/ar/cpp/copy-theme-from-one-workbook-to-another/)، والتي يمكن أن تكون مفيدة في تطبيق سمات مضمنة أو مخصصة على جداول بيانات متعددة.
 
-**C++**
+**C ++**
 
 {{< highlight "csharp" >}}
 
@@ -586,7 +586,7 @@ wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ## **إعادة تسمية واجهات برمجة التطبيقات**
-مع إصدار Aspose.Cells لـ C++ 16.12.0 ، قمنا بإعادة تسمية بعض الطرق من أجل الحفاظ على توحيد الواجهات. قائمة جميع واجهات برمجة التطبيقات المعاد تسميتها كما يلي.
+مع إصدار Aspose.Cells for C++ 16.12.0 ، قمنا بإعادة تسمية بعض الطرق من أجل الحفاظ على توحيد الواجهات. قائمة جميع واجهات برمجة التطبيقات المعاد تسميتها كما يلي.
 #### **تمت إعادة تسمية طريقة ICell :: SetStyle إلى ICell :: SetIStyle**
 #### **تمت إعادة تسمية طريقة ICell :: SetCharacters إلى ICell :: SetIFontSettings**
 #### **تمت إعادة تسمية طريقة ICellsColor :: SetThemeColor إلى ICellsColor :: SetIThemeColor**

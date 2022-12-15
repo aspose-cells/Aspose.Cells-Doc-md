@@ -23,7 +23,7 @@ Det finns en hel del fördelar när du konverterar en lista med data till ett fa
 - Namngivna intervall som tilldelats rader och kolumner kommer att utökas automatiskt.
 - Listan är skyddad från oavsiktlig radering och radering.
 
-### **Skapa ett listobjekt med hjälp av Microsoft Excel**
+### **Skapa ett listobjekt med Microsoft Excel**
 
 - Välja dataintervall för att skapa ett listobjekt
 - Detta visar dialogrutan Skapa lista.
@@ -37,7 +37,7 @@ Det finns en hel del fördelar när du konverterar en lista med data till ett fa
 
 Enligt det angivna cellintervallet skapas List-objektet av Aspose.Cells. Använd attribut (t.ex.[**ShowTotals**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/showtotals), [**Lista kolumner**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/listcolumns) , etc.) av[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)klass för att kontrollera listan.
 
- I exemplet nedan har vi skapat detsamma[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)använder Aspose.Cells API som vi skapade med Microsoft Excel i avsnittet ovan.
+ I exemplet nedan har vi skapat detsamma[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)med Aspose.Cells API som vi skapade med Microsoft Excel i avsnittet ovan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-CreatingListObject-1.cs" >}}
 

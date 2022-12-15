@@ -79,7 +79,7 @@ cell1.equals(cell2);
 
 Da die Row- und Cell-Objekte gemäß dem Aufruf instanziiert werden, werden sie nicht von der Cells-Komponente im Arbeitsspeicher gehalten und verwaltet. Daher werden nach einigen Einfüge- und Löschvorgängen die Zeilen- und Spaltenindizes möglicherweise nicht aktualisiert oder noch schlimmer, diese Objekte werden ungültig.
 ### **Beispiel**
-Beispielsweise gibt das folgende Code-Snippet mit 8.0.0 und höher ungültige Ergebnisse zurück,
+Beispielsweise gibt das folgende Code-Snippet mit 8.0.0 und höher ungültige Ergebnisse zurück.
 
 **Java**
 

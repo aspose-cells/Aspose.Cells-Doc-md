@@ -6,7 +6,7 @@ url: /fr/python-java/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Vous pouvez installer une version d'évaluation de**Aspose.Cells** pour Python via Java avec `pip install aspose-cells`. La version d'évaluation fournit absolument les mêmes fonctionnalités que la version sous licence du produit. De plus, la version d'évaluation devient simplement sous licence lorsque vous achetez une licence et ajoutez quelques lignes de code pour appliquer la licence.
+ Vous pouvez installer une version d'évaluation de**Aspose.Cells** for Python via Java avec `pip install aspose-cells`. La version d'évaluation fournit absolument les mêmes fonctionnalités que la version sous licence du produit. De plus, la version d'évaluation devient simplement sous licence lorsque vous achetez une licence et ajoutez quelques lignes de code pour appliquer la licence.
 
  Une fois que vous êtes satisfait de votre évaluation de**Aspose.Cells** , tu peux[acheter une licence](https://purchase.aspose.com)sur le site Aspose. Familiarisez-vous avec les différents types d'abonnements proposés. Si vous avez des questions, n'hésitez pas à contacter l'équipe commerciale au Aspose.
 
@@ -49,7 +49,7 @@ La licence peut être chargée à partir d'un fichier aux emplacements suivants�
 
 ### **Exemple**
 
- Dans cet exemple**Aspose.Cells**tentera de trouver le fichier de licence dans votre dossier de travail.
+ Dans cet exemple**Aspose.Cells** tentera de trouver le fichier de licence dans votre dossier de travail.
 
 {{< highlight "python" >}}
 

@@ -14,10 +14,10 @@ Questo articolo discute alcune tecniche di importazione dei dati a cui gli svilu
 
 Quando apri un file Excel con Aspose.Cells, tutti i dati nel file vengono importati automaticamente. Aspose.Cells può anche importare dati da altre fonti di dati.
 
-Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collezione.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection fornisce metodi utili per importare dati da diverse origini dati. Questo articolo spiega come utilizzare questi metodi.
+Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe che rappresenta un file di Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collezione.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection fornisce metodi utili per importare dati da diverse origini dati. Questo articolo spiega come utilizzare questi metodi.
 
 ## **Importazione dati int Excel con interfaccia ICellsDataTable**
- Strumento[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) per eseguire il wrapping delle varie origini dati, quindi utilizzare[Cells.ImportaDati()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata) per importare i dati nel foglio di lavoro di Excel.
+ Strumento[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) per eseguire il wrapping delle varie origini dati, quindi utilizzare[Cells.ImportaDati()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata)per importare i dati nel foglio di lavoro di Excel.
 ### **Codice di esempio**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ImportICellsDataTableIntoWorksheet.cs" >}}
 
@@ -56,7 +56,7 @@ L'implementazione di*CustomerDataSource*, *Cliente*, e*Elenco clienti* classi �
 
 ## **Importazione da oggetti personalizzati nell'area unita**
 
-Per importare dati da una raccolta di oggetti in un foglio di lavoro contenente celle unite, utilizzare[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) proprietà. Se il modello di Excel ha celle unite, impostare il valore di[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)proprietà su true. Passa il[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) oggetto insieme all'elenco di colonne/proprietà al metodo per visualizzare l'elenco di oggetti desiderato. L'esempio di codice seguente illustra l'utilizzo di[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) proprietà per importare i dati dagli oggetti personalizzati alle celle unite. Per favore vedere l'allegato[fonte Excel](90112033.xlsx) file e il[uscita Excel](90112034.xlsx) file per riferimento.
+Per importare dati da una raccolta di oggetti in un foglio di lavoro contenente celle unite, utilizzare[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) proprietà. Se il modello di Excel ha celle unite, impostare il valore di[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)proprietà su true. Passa il[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)oggetto insieme all'elenco di colonne/proprietà al metodo per visualizzare l'elenco di oggetti desiderato. L'esempio di codice seguente illustra l'utilizzo di[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) proprietà per importare i dati dagli oggetti personalizzati alle celle unite. Per favore vedere l'allegato[fonte Excel](90112033.xlsx) file e il[uscita Excel](90112034.xlsx) file per riferimento.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportCustomObjectsToMergedArea-1.cs" >}}
 
@@ -66,7 +66,7 @@ Per importare dati da una raccolta di oggetti in un foglio di lavoro contenente 
 
 - **Tabella dati** , il*Tabella dati* oggetto da cui stai importando il contenuto.
 - **Viene visualizzato il nome del campo** , specifica se i nomi di*Tabella dati*le colonne devono essere importate nel foglio di lavoro come prima riga o meno.
-- **Inizio cella** rappresenta il nome della cella iniziale (ad esempio "A1") da cui importare il contenuto della*Tabella dati*.
+- **Inizio cella** , rappresenta il nome della cella iniziale (ad esempio "A1") da cui importare il contenuto della*Tabella dati*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
@@ -106,7 +106,7 @@ Il codice di esempio fornito di seguito dimostra l'uso di[**ImportTableOptions.C
 - **Griglia dati** , il*DataGrid*oggetto da cui stai importando il contenuto.
 - **Numero riga**il numero di riga della prima cella in cui verranno importati i dati.
 - **Numero di colonna**, il numero di colonna della prima cella in cui verranno importati i dati.
-- **Inserisci righe**, una proprietà booleana che indica se è necessario aggiungere righe aggiuntive al foglio di lavoro per adattare o meno i dati.
+- **Inserisci righe**una proprietà booleana che indica se è necessario aggiungere righe aggiuntive al foglio di lavoro per adattare o meno i dati.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
 
@@ -127,7 +127,7 @@ Aspose.Cells ci consente di rispettare i valori in formato HTML durante l'import
 Aspose.Cells fornisce a[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) classe per l'elaborazione di JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) la classe ha un[**Importa dati**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) metodo per l'importazione di dati JSON. Aspose.Cells fornisce anche a[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) classe che rappresenta le opzioni del layout JSON. Il[**Importa dati**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)metodo accetta[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)come parametro. Il[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)class fornisce le seguenti proprietà.
 
 - [**ArrayComeTabella**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): indica che l'array deve essere elaborato come tabella o meno.
-- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Ottiene o imposta un valore che indica se la stringa in JSON deve essere convertita in numerico o data.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate)Ottiene o imposta un valore che indica se la stringa in JSON deve essere convertita in numerico o data.
 - [**Formato data**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): Ottiene e imposta il formato del valore della data.
 - [**IgnoreArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): Indica se ignorare il titolo se la proprietà dell'oggetto è un array
 - [**IgnoraNull**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): Indica se il valore null deve essere ignorato o meno.

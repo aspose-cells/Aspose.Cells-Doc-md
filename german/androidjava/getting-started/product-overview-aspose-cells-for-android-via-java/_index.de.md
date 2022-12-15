@@ -1,5 +1,5 @@
 ﻿---
-title: Produktübersicht - Aspose.Cells für Android über Java
+title: Produktübersicht - Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /de/java/product-overview-aspose-cells-for-android-via-java/
@@ -8,7 +8,7 @@ url: /de/java/product-overview-aspose-cells-for-android-via-java/
 
 ![Zellen-Logo](50528297.png)
 
-Willkommen bei der Dokumentation Aspose.Cells für Android über Java!
+Willkommen bei der Aspose.Cells for Android via Java Dokumentation!
 
 Aspose.Cells ist eine flexible Komponente, mit der Android-Anwendungen Excel-Tabellen erstellen und verwalten können, ohne dass Microsoft Excel auf dem System installiert sein muss. Im Gegensatz zu ähnlichen Produkten anderer Anbieter unterstützt Aspose.Cells nicht nur die Erstellung von Tabellenkalkulationen und andere grundlegende Dateiformatierungsfunktionen, sondern auch eine Reihe erweiterter Funktionen. Diese erweiterten Funktionen machen es Entwicklern leicht, den Inhalt von Tabellenkalkulationen, die Zellenformatierung und den Dateischutz zu manipulieren. Mit Aspose.Cells können Sie auch Daten aus verschiedenen Datenquellen in Tabellenkalkulationen importieren und allgemeine und komplexe mathematische, Datums- und Zeit-, Finanz- oder Textformeln und -funktionen hinzufügen. Es unterstützt außerdem das Manipulieren von Diagrammen, Bildern, Kommentaren, Zeichnen von Objekten und Steuerelementen.
 

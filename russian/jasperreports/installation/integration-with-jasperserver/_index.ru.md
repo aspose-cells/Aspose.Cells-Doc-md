@@ -6,7 +6,7 @@ url: /ru/jasperreports/integration-with-jasperserver/
 ---
 {{% alert color="primary" %}} 
 
-Чтобы интегрировать Aspose.Cells для JasperReports с JasperServer, выполните следующие действия.
+Чтобы интегрировать Aspose.Cells for JasperReports с JasperServer, выполните следующие действия.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ url: /ru/jasperreports/integration-with-jasperserver/
 
 {{% /alert %}} 
 
-1.  Добавьте следующие новые свойства экспортера в**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** файл.
+1. Добавьте следующие новые свойства экспортера в**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** файл.
 
 **XML**
 
@@ -84,7 +84,7 @@ url: /ru/jasperreports/integration-with-jasperserver/
 1.  Скопируйте все изображения GIF из**\lib** папка в**aspose.cells.jasperreports.zip** к*<InstallDir>\apache-tomcat\webapps\jasperserver\images* папка.
 1.  Скопируйте**aspose.cells.jasperreports.jar** файл из**\lib** папка в**aspose.cells.jasperreports.zip** к**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** папка.
 1.  Добавьте следующие строки в**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** файл.
- (Этот bean-компонент может содержать различные параметры конфигурации, предназначенные для настройки экспорта. Например, вы можете использовать функцию сопоставления шрифтов JasperReports или указать расположение файла лицензии Aspose.Cells для JasperReports.)
+ (Этот bean-компонент может содержать различные параметры конфигурации, предназначенные для настройки экспорта. Например, вы можете использовать функцию сопоставления шрифтов JasperReports или указать расположение файла лицензии Aspose.Cells for JasperReports.)
 
 **XML**
 
@@ -105,9 +105,9 @@ url: /ru/jasperreports/integration-with-jasperserver/
 
 
 
-1.  Запустите JasperServer и откройте любой отчет для просмотра. Если предыдущие шаги были выполнены правильно, доступны дополнительные значки формата.
+1. Запустите JasperServer и откройте любой отчет для просмотра. Если предыдущие шаги были выполнены правильно, доступны дополнительные значки формата.
 
-**Доступны новые форматы экспорта (справа) после установки Aspose.Cells для JasperReports на JasperServer** 
+**Доступны новые форматы экспорта (справа) после установки Aspose.Cells for JasperReports на JasperServer** 
 
 ![дело:изображение_альтернативный_текст](integration-with-jasperserver_1.png)
 

@@ -24,6 +24,6 @@ url: /zh/net/load-or-import-csv-file-with-formulas/
 
 代码首先加载 CSV 文件，然后在单元格 D4 中再次导入它。最后，它以 XSLX 格式保存工作簿对象。这[输出 XLSX 文件](5115052.xlsx)看起来像这样。如您所见，单元格 C3 和 F4 包含公式及其结果 800。
 
-|![待办事项：图片_替代_文本](load-or-import-csv-file-with-formulas_1.png)|
+|![待办事项：图像_替代_文本](load-or-import-csv-file-with-formulas_1.png)|
 |:- |
 

@@ -10,7 +10,7 @@ url: /de/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 {{% /alert %}}
 
- Der folgende Beispielcode legt den Text der zweiten Legendeneintragsfüllung des Diagramms auf „none“ fest. Bitte laden Sie die herunter[Excel-Beispieldatei](5115219.xlsx) in diesem Code verwendet und die[Excel-Datei ausgeben](5115217.xlsx)von ihm für Ihre Referenz generiert.
+ Der folgende Beispielcode legt den Text der zweiten Legendeneintragsfüllung des Diagramms auf „none“ fest. Bitte laden Sie die herunter[Excel-Beispieldatei](5115219.xlsx) in diesem Code verwendet und die[Excel-Datei ausgeben](5115217.xlsx) von ihm für Ihre Referenz generiert.
 
 Der folgende Screenshot hebt die Wirkung dieses Codes hervor[Excel-Beispieldatei](5115219.xlsx).
 

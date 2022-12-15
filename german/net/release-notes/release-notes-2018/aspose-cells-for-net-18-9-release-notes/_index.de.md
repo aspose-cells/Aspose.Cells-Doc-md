@@ -43,7 +43,7 @@ url: /de/net/aspose-cells-for-net-18-9-release-notes/
 |CELLSNET-46305|Vergriffener Textbereich in PDF gerendert|Insekt|
 |CELLSNET-46296|Spalten oder Zeilen automatisch anpassen, die die gruppierten Formen stören|Insekt|
 |CELLSNET-46292|Unterschied in XML-Dateien|Insekt|
-|CELLSNET-46283|Fehlender Rahmen in der ODS-Excel-Ausgabe|Insekt|
+|CELLSNET-46283|Fehlender Rand in der ODS-Excel-Ausgabe|Insekt|
 |CELLSNET-46331|Ausnahme beim Konvertieren einer XLSX-Datei in das PDF-Dateiformat|Ausnahme|
 |CELLSNET-46270|ArgumentOutOfRangeException beim Aufrufen von Slicer.Refresh() ausgelöst|Ausnahme|
 |CELLSNET-46323|Datenvalidierungsproblem beim Versuch, den Zellenwert mit einem der Dropdown-Werte zu ändern|Ausnahme|

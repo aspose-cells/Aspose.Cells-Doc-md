@@ -5,7 +5,7 @@ weight: 70
 url: /sv/java/split-panes-in-php/
 ---
 ## **Aspose.Cells - Delade rutor**
- För att dela fönster med**Aspose.Cells Java för PHP** , helt enkelt åberopa**SplitPanes** modul.
+ För att dela fönster med**Aspose.Cells Java for PHP** , helt enkelt åberopa**SplitPanes** modul.
 
 **PHP-kod**
 

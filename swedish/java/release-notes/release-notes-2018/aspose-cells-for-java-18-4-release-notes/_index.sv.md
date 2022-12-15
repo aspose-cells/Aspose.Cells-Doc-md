@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 18.4 Release Notes
+title: Aspose.Cells for Java 18.4 Release Notes
 type: docs
 weight: 90
 url: /sv/java/aspose-cells-for-java-18-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.4.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.4.
 
 {{% /alert %}} 
 
@@ -34,8 +34,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.4.
 |CELLSJAVA-42573|Aspose.Cells 18.3 rotation för en TextBox fungerar inte för EXCEL_97_TO_2003 spara format|Insekt|
 |CELLSJAVA-42570|En tom ny rad visas inuti textrutan efter att du har bearbetat och sparat Excel-filen|Insekt|
 |CELLSJAVA-42563|Undantag "java.lang.NullPointerException" vid digital signering av en XLSX-fil|Undantag|
-# **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+# **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till nytt objekt "CrossHideRight" för HtmlCrossType enum**
 Visar HTML-korssträng och döljer den högra strängen när texten överlappas.
 #### **Lägger till nytt objekt "TSV" för LoadFormat, SaveFormat och FileFormatType enums**

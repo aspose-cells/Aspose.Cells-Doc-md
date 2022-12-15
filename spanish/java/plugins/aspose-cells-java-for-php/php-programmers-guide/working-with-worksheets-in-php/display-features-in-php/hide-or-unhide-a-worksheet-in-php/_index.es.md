@@ -6,7 +6,7 @@ url: /es/java/hide-or-unhide-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Ocultar o mostrar una hoja de trabajo**
 ### **Ocultar una hoja de trabajo**
- Para ocultar la hoja de trabajo usando Aspose.Cells Java para PHP, llame**ocultarunhideworksheet** módulo.
+ Para ocultar la hoja de trabajo usando Aspose.Cells Java for PHP, llame**ocultarunhideworksheet** módulo.
 
 **Código PHP**
 

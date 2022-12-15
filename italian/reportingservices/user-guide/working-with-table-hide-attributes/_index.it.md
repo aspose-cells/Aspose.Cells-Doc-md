@@ -5,7 +5,7 @@ weight: 160
 url: /it/reportingservices/working-with-table-hide-attributes/
 ---
 1.  In Microsoft Excel, fare clic su**Modifica attributo** sulla barra dei comandi Aspose.Cells.
- Viene visualizzata la finestra di dialogo Modifica rapporto.
+Viene visualizzata la finestra di dialogo Modifica rapporto.
 1. Seleziona un elemento del rapporto tabella.
 1.  Clicca il**Nascondere** scheda.
 
@@ -55,4 +55,4 @@ url: /it/reportingservices/working-with-table-hide-attributes/
 
 
 
-1. Salva e pubblica il report.
+1. Salva e pubblica il rapporto.

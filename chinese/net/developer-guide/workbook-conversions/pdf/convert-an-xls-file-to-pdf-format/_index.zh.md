@@ -22,10 +22,10 @@ PDF（便携式文档格式）表示独立于用于创建这些文档的软件�
 
 模板文件包含三个工作表，包括图表和图像作为媒体。第一个工作表有图表，最后一个工作表有一个图像，如下面的屏幕截图所示。
 
-|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Sheet1.png)|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Sheet2.png)|
+|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Sheet1.png)|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Sheet2.png)|
 |:- |:- |
 |第一张工作表**（销售预测）**|第二张工作表**（销售报告）**|
-|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Sheet3.png)|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Sheet4.png)|
+|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Sheet3.png)|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Sheet4.png)|
 |第三张工作表**（数据输入）**|最后一张工作表**（图片）**|
 
 ### **转换过程**
@@ -52,8 +52,8 @@ PDF（便携式文档格式）表示独立于用于创建这些文档的软件�
 运行上述代码后，将在应用程序目录的 Files 文件夹中创建一个 PDF 文件。
 以下屏幕截图显示了 PDF 页面。请注意，页眉和页脚也保留在输出 PDF 文件中。
 
-|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Converted1.png)|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Converted2.png)|
+|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Converted1.png)|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Converted2.png)|
 |:- |:- |
 |第一张工作表**（销售预测）**|第二张工作表**（销售报告）**|
-|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Converted3.png)|![待办事项：图片_替代_文本](Convert_an_XLS_File_to_PDF_Converted4.png)|
+|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Converted3.png)|![待办事项：图像_替代_文本](Convert_an_XLS_File_to_PDF_Converted4.png)|
 |第三张工作表**（数据输入）**|最后一张工作表**（图片）**|

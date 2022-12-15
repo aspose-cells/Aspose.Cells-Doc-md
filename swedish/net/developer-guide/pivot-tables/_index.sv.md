@@ -12,7 +12,7 @@ Det är möjligt att använda Aspose.Cells för att lägga till pivottabeller ti
 
 ### **Pivottabellobjektmodell**
 
- Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot) namnutrymme som används för att skapa och kontrollera pivottabeller. Dessa klasser används för att skapa och ställa in[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)objekt, byggstenarna i en pivottabell. Objekten är:
+Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot) namnutrymme som används för att skapa och kontrollera pivottabeller. Dessa klasser används för att skapa och ställa in[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)objekt, byggstenarna i en pivottabell. Objekten är:
 
 - [**Pivotfält**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) representerar ett fält i en[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
 - [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) representerar en samling av alla[**Pivotfält**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) föremål i[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
@@ -25,7 +25,7 @@ Det är möjligt att använda Aspose.Cells för att lägga till pivottabeller ti
  Dessa data kommer att användas som pivottabellens datakälla.
 1.  Lägg till en pivottabell till kalkylbladet genom att anropa[**Pivottabeller**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) samlingens[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)metod, som är inkapslad i Worksheet-objektet.
 1.  Få tillgång till det nya[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objekt från[**Pivottabeller**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)samling genom att skicka pivottabellindexet.
-1.  Använd någon av[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)objekt (förklarat ovan) för att hantera pivottabellen.
+1.  Använd någon av de[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)objekt (förklarat ovan) för att hantera pivottabellen.
 
 Efter exekvering av exempelkoden läggs en pivottabell till i kalkylbladet.
 

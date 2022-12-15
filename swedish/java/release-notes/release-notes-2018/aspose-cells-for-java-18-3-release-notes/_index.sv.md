@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 18.3 Release Notes
+title: Aspose.Cells for Java 18.3 Release Notes
 type: docs
 weight: 100
 url: /sv/java/aspose-cells-for-java-18-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.3.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.3.
 
 {{% /alert %}} 
 
@@ -32,16 +32,16 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 18.3.
 |CELLSJAVA-42546|Bilder förlorade vid konvertering av ODS till XLSX|Insekt|
 |CELLSJAVA-42538|Egenskaper extraheras inte från XLS- och XLSX-filer|Insekt|
 |CELLSJAVA-42534|Att spara XLS till XLSB tar bort allowEditRanges|Insekt|
-|CELLSJAVA-42532|Styr externa resurser med WorkbookSetting.StreamProvider - det fungerar för .NET men fungerar inte för Java|Insekt|
-|CELLSJAVA-42525|Ange formelfält när du importerar data till kalkylblad - det fungerar för .NET men fungerar inte för Java|Insekt|
+|CELLSJAVA-42532|Styr externa resurser med WorkbookSetting.StreamProvider - det fungerar for .NET men fungerar inte for Java|Insekt|
+|CELLSJAVA-42525|Ange formelfält när du importerar data till kalkylblad - det fungerar for .NET men fungerar inte for Java|Insekt|
 |CELLSJAVA-42521|Kinesiska tecken i det inbäddade filnamnet (titel) visas inte väl i anteckningsblocket|Insekt|
 |CELLSJAVA-42533|Undantag "NullPointerException" inträffade vid extrahering av SmartArt-formtext|Undantag|
 |CELLSJAVA-42545|Undantag "ReadElementString kan endast anropas när innehållet är enkelt eller tomt" när en ODS-fil laddas|Undantag|
 |CELLSJAVA-42526|Fel i cell B4 - Ogiltig formel - undantag inträffar vid inställning av formel|Undantag|
 |CELLSJAVA-42522|ArrayIndexOutOfBoundsException vid öppning av fil via Aspose.Cells|Undantag|
 |CELLSJAVA-42517|Undantag "com.aspose.cells.CellsException: Ogiltig formel:" när en ODS-fil laddas|Undantag|
-# **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+# **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen HtmlSaveOptions.ExportSimilarBorderStyle**
 Anger om liknande kantstil exporteras när kantstilen inte stöds av webbläsare. Om du vill importera HTML- eller MHT-filen till Excel, behåll standardvärdet. Standardvärdet är falskt.
 #### **Lägger till egenskapen Axis.AxisLabels**

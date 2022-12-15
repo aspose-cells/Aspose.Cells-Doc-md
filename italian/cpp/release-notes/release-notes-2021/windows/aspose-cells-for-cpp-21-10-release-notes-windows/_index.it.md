@@ -6,7 +6,7 @@ url: /it/cpp/aspose-cells-for-cpp-21-10-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per C++ 21.10 per Windows.
+Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 21.10 per Windows.
 
 {{% /alert %}}
 

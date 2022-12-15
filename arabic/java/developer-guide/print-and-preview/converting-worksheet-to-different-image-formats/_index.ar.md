@@ -14,7 +14,7 @@ url: /ar/java/converting-worksheet-to-different-image-formats/
 
 في بعض الأحيان ، يكون من المفيد حفظ صورة لورقة العمل. يمكن مشاركة الصور عبر الإنترنت ، وإدراجها في مستندات أخرى (التقارير المكتوبة في Microsoft Word ، على سبيل المثال ، أو PowerPoint العروض التقديمية).
 
-يوفر Aspose.Cells تصدير الصور من خلال ملف**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** صف دراسي. تمثل هذه الفئة ورقة العمل التي سيتم عرضها على صورة. ال**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**فئة توفر**[toImage ()] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage (int،٪ 20java.io.OutputStream))**طريقة لتحويل ورقة العمل إلى ملف صورة. يتم دعم تنسيقات BMP و PNG و JPEG و TIFF و EMF.
+يوفر Aspose.Cells تصدير الصور من خلال ملف**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** صف دراسي. تمثل هذه الفئة ورقة العمل التي سيتم عرضها على صورة. ال**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** فئة توفر**[toImage ()] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage (int،٪ 20java.io.OutputStream))**طريقة لتحويل ورقة العمل إلى ملف صورة. يتم دعم تنسيقات BMP و PNG و JPEG و TIFF و EMF.
 
 {{% alert color="primary" %}}
 

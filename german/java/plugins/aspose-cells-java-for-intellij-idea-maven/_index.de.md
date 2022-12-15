@@ -14,11 +14,11 @@ url: /de/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/) for Java ist eine Berichtskomponente für Excel®-Tabellenkalkulationen, mit der Java-Anwendungen Excel®-Tabellen erstellen und verwalten können, ohne Microsoft Excel® zu verwenden. Aspose.Cells for Java ist eine unglaublich funktionsreiche Komponente, die viel mehr als nur grundlegende Datenexportfunktionen bietet.
+[Aspose.Cells](https://products.aspose.com/cells/java/)for Java ist eine Berichtskomponente für Excel®-Tabellenkalkulationen, mit der Java-Anwendungen Excel®-Tabellen erstellen und verwalten können, ohne Microsoft Excel® zu verwenden. Aspose.Cells for Java ist eine unglaublich funktionsreiche Komponente, die viel mehr als nur grundlegende Datenexportfunktionen bietet.
 
 ### **Aspose.Cells Java für IntelliJ IDEA - Maven**
 
-- Aspose.Cells Java für IntelliJ IDEA (Maven) ist ein**IntelliJ IDEA-Plugin** Damit können Sie maven-Projekte erstellen (dh das erstellte Projekt enthält Aspose.Cells for Java API maven-Abhängigkeiten) und Quellcodebeispiele von API zur Verwendung herunterladen**Aspose.Cells for Java API**.
+-  Aspose.Cells Java für IntelliJ IDEA (Maven) ist ein**IntelliJ IDEA-Plugin** Damit können Sie maven-Projekte erstellen (dh das erstellte Projekt enthält Aspose.Cells for Java API maven-Abhängigkeiten) und Quellcodebeispiele von API zur Verwendung herunterladen**Aspose.Cells for Java API**.
 
 -  Dieses Plugin hilft Ihnen, damit zu arbeiten**Aspose.Cells for Java API** in Ihrer bevorzugten IntelliJ-IDEE.
 
@@ -64,7 +64,7 @@ Das Plugin unterstützt die folgenden IntelliJ IDEA-Versionen:
 
 ### **Herunterladen von IntelliJ IDEA**
 
-Sie müssen zuerst IntelliJ IDEA CE / UE installieren, bevor Sie die herunterladen können**Aspose.Cells Java für IntelliJ IDEA (Maven)** Plugin.
+ Sie müssen zuerst IntelliJ IDEA CE / UE installieren, bevor Sie die herunterladen können**Aspose.Cells Java für IntelliJ IDEA (Maven)** Plugin.
 
 Zum Herunterladen von IntelliJ IDEA
 
@@ -94,7 +94,7 @@ Zum Herunterladen von IntelliJ IDEA
 
 ## **Video-Demo**
 
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=8sHoB5Isq-A)unten, um Aspose.Cells Maven Project Wizard und Aspose.Cells Example Wizard in Aktion zu sehen.
+ Bitte prüfen[das Video](https://www.youtube.com/watch?v=8sHoB5Isq-A) unten, um Aspose.Cells Maven Project Wizard und Aspose.Cells Example Wizard in Aktion zu sehen.
 
 ## **Unterstützen, erweitern und beitragen**
 

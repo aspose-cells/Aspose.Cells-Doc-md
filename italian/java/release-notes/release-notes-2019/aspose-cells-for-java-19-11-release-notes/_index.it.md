@@ -29,8 +29,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.11.
 |CELLSJAVA-43038|I collegamenti ipertestuali non vengono esportati utilizzando Cell.setHtmlString()|Insetto|
 |CELLSJAVA-43039|Cell.setHtmlString() non esegue il rendering di determinati tag/script HTML nell'esportazione in Excel|Insetto|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge metodi: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
 Aggiunge/rimuove le impostazioni di convalida da determinate aree tenendo conto delle prestazioni.
 ### **Aggiunge il metodo Workbook.ImportXml(Stream stream, string sheetName, int row, int col).**

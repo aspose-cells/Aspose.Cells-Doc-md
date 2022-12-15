@@ -6,6 +6,6 @@ url: /ru/jasperreports/edition-types/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells для JasperReports предлагает только один тип редакции: Корпоративная версия.
+Aspose.Cells for JasperReports предлагает только один тип выпуска: выпуск Enterprise.
 
 {{% /alert %}}

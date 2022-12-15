@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Node.js için Aspose.Cells 19.8 Sürüm Notları
+title: Aspose.Cells for Node.js via Java 19.8 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 19.8 aracılığıyla Node.js için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for Node.js via Java 19.8 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -28,7 +28,7 @@ Bu sayfa, Java 19.8 aracılığıyla Node.js için Aspose.Cells sürüm notları
 |CELLSJAVA-42954|XLSX dosyası yüklenirken ve kaydedilirken istisna oluştu|İstisna|
 |CELLSJAVA-42957|XLSX dosyası kaydedilirken geçersiz FontUnderlineType değeri atılıyor|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, Java aracılığıyla Node.js için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin yanı sıra eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa , lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Node.js Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 #### **Başvurulan BouncyCastle kitaplığını 1.60'a yükseltir**
 Sürüm arşivindeki ekteki BouncyCastle kitaplığı 1.60 sürümüne yükseltildi. Ancak Aspose.Cells eski sürümlerle de uyumludur, bu nedenle kullanıcı 1.46 gibi eski sürümleri kullanmaya devam edebilir.
 #### **HTMLLoadOptions sınıfını geçersiz kılar ve HtmlLoadOptions sınıfını ekler**

@@ -7,7 +7,7 @@ url: /it/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/
 ## **Aspose.Cells - Mostra e nascondi le barre di scorrimento delle cartelle di lavoro**
  Aspose.Cells offre un corso,**Cartella di lavoro** che rappresenta un file Excel.**Cartella di lavoro** class fornisce un'ampia gamma di proprietà e metodi per gestire un file Excel. Tuttavia, per controllare la visibilità delle barre di scorrimento nel file Excel, gli sviluppatori possono utilizzare**setVScrollBarVisible** & **setHScrollBarVisible** metodi del**Cartella di lavoro** classe.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

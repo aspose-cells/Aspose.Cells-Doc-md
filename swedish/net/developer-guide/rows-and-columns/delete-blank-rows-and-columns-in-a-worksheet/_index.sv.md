@@ -15,10 +15,10 @@ Använd följande Aspose.Cells-metoder för att ta bort tomma rader och kolumner
 
 {{% /alert %}}
 
-## C#-kod för att radera tomma rader
+## C# kod för att radera tomma rader
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankRows-1.cs" >}}
 
-## C#-kod för att ta bort tomma kolumner
+## C# kod för att ta bort tomma kolumner
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}

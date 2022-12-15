@@ -6,7 +6,7 @@ url: /it/java/managing-controls/
 ---
 ## **introduzione**
 
-Gli sviluppatori possono aggiungere diversi oggetti di disegno come caselle di testo, caselle di controllo, pulsanti di opzione, caselle combinate, etichette, pulsanti, linee, rettangoli, archi, ovali, caselle di selezione, barre di scorrimento, caselle di gruppo ecc. Aspose.Cells fornisce lo spazio dei nomi Aspose.Cells.Drawing che contiene tutti gli oggetti di disegno. Tuttavia, ci sono alcuni oggetti o forme di disegno che non sono ancora supportati. Creare questi oggetti di disegno in un foglio di calcolo del progettista utilizzando Microsoft Excel e quindi importare il foglio di calcolo del progettista in Aspose.Cells. Aspose.Cells consente di caricare questi oggetti di disegno da un foglio di calcolo del progettista e scriverli in un file generato.
+Gli sviluppatori possono aggiungere diversi oggetti di disegno come caselle di testo, caselle di controllo, pulsanti di opzione, caselle combinate, etichette, pulsanti, linee, rettangoli, archi, ovali, caselle di selezione, barre di scorrimento, caselle di gruppo ecc. Aspose.Cells fornisce lo spazio dei nomi Aspose.Cells.Drawing che contiene tutti gli oggetti di disegno. Tuttavia, ci sono alcuni oggetti o forme di disegno che non sono ancora supportati. Creare questi oggetti di disegno in un foglio di calcolo del designer utilizzando Microsoft Excel e quindi importare il foglio di calcolo del designer in Aspose.Cells. Aspose.Cells consente di caricare questi oggetti di disegno da un foglio di calcolo del designer e scriverli in un file generato.
 
 ## **Aggiunta del controllo TextBox al foglio di lavoro**
 
@@ -34,7 +34,7 @@ Il seguente output viene generato eseguendo il codice:
 
  Aspose.Cells consente inoltre di accedere alle caselle di testo nei fogli di lavoro del designer e di manipolarle. Utilizzare il[**Foglio di lavoro.getTextBoxes**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) property per ottenere la raccolta di caselle di testo nel foglio.
 
-L'esempio seguente utilizza il file Excel Microsoft – tsttextboxes.xls – creato nell'esempio precedente. Ottiene le stringhe di testo delle due caselle di testo e modifica il testo della seconda casella di testo per salvare il file.
+L'esempio seguente utilizza il file di Microsoft Excel, tsttextboxes.xls, creato nell'esempio precedente. Ottiene le stringhe di testo delle due caselle di testo e modifica il testo della seconda casella di testo per salvare il file.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-ManipulatingTextBoxControls-1.java" >}}
 
@@ -42,7 +42,7 @@ L'esempio seguente utilizza il file Excel Microsoft – tsttextboxes.xls – cre
 
 Le caselle di controllo sono utili se si desidera fornire a un utente un modo per scegliere tra due opzioni, come true o false; sì o no. Aspose.Cells consente di utilizzare le caselle di controllo nei fogli di lavoro. Ad esempio, potresti aver sviluppato un foglio di lavoro per la proiezione finanziaria in cui puoi tenere conto di una particolare acquisizione o meno. In questo caso, potresti voler inserire una casella di controllo nella parte superiore del foglio di lavoro. È quindi possibile collegare lo stato di questa casella di controllo a un'altra cella, in modo che se la casella di controllo è selezionata, il valore della cella sia True; se non è selezionato, il valore della cella è False.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 Per posizionare un controllo casella di controllo nel foglio di lavoro, attenersi alla seguente procedura:
 
@@ -73,7 +73,7 @@ L'esempio seguente mostra come aggiungere una casella di controllo al foglio di 
 
 Un pulsante di opzione, o pulsante di opzione, è un controllo costituito da una casella rotonda. L'utente prende la sua decisione selezionando la casella rotonda. Un pulsante radio è solitamente, se non sempre, accompagnato da altri. Tali pulsanti di opzione appaiono e si comportano come un gruppo. L'utente decide quale pulsante è valido selezionandone solo uno. Quando l'utente fa clic su un pulsante, viene riempito. Quando viene selezionato un pulsante nel gruppo, i pulsanti dello stesso gruppo sono vuoti.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 Per posizionare un controllo Pulsante di opzione nel foglio di lavoro, attenersi alla seguente procedura:
 
@@ -106,7 +106,7 @@ L'esempio seguente mostra come aggiungere pulsanti di opzione a un foglio di lav
 
 Per semplificare l'immissione dei dati o per limitare le voci a determinati elementi definiti dall'utente, è possibile creare una casella combinata o un elenco a discesa di voci valide compilato da celle in altre parti del foglio di lavoro. Quando crei un elenco a discesa per una cella, viene visualizzata una freccia accanto a tale cella. Per immettere informazioni in tale cella, fare clic sulla freccia e quindi sulla voce desiderata.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 Per inserire un controllo casella combinata nel foglio di lavoro, attenersi alla seguente procedura:
 
@@ -153,7 +153,7 @@ L'esempio seguente mostra come aggiungere un'etichetta al foglio di lavoro. Il s
 
 Un controllo casella di riepilogo crea un controllo elenco che consente la selezione di uno o più elementi.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 Per posizionare un controllo casella di riepilogo in un foglio di lavoro:
 
@@ -185,7 +185,7 @@ L'esempio seguente mostra come aggiungere una casella di riepilogo al foglio di 
 
 pulsanti sono utili per eseguire alcune azioni. A volte è utile assegnare una macro VBA al pulsante o assegnare un collegamento ipertestuale per aprire una pagina web.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 Per posizionare un controllo pulsante nel foglio di lavoro:
 
@@ -213,9 +213,9 @@ L'esempio seguente mostra come aggiungere un pulsante al foglio di lavoro. Il se
 
 ## **Aggiunta del controllo di linea a un foglio di lavoro**
 
-Aspose.Cells ti consente di disegnare forme automatiche nei tuoi fogli di lavoro. Puoi creare una linea con facilità. Puoi anche formattare la linea. Ad esempio, puoi cambiare il colore della linea, specificare il peso e lo stile della linea per le tue necessità.
+Aspose.Cells ti consente di disegnare forme automatiche nei tuoi fogli di lavoro. Puoi creare una linea con facilità. Puoi anche formattare la riga. Ad esempio, puoi cambiare il colore della linea, specificare il peso e lo stile della linea per le tue necessità.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 1.  Sul**Disegno** barra degli strumenti, fare clic su**AutoForme** , indicare**Linee**e selezionare lo stile di linea desiderato.
 1. Trascina per tracciare la linea.
@@ -254,7 +254,7 @@ L'esempio seguente mostra come aggiungere una freccia a una linea. Il seguente o
 
 Aspose.Cells ti consente di disegnare forme rettangolari nei tuoi fogli di lavoro. Puoi creare un rettangolo, un quadrato, ecc. Puoi anche formattare il colore di riempimento e il colore della linea del bordo del controllo. Ad esempio, puoi cambiare il colore del rettangolo, impostare il colore dell'ombreggiatura, specificare il peso e lo stile del rettangolo per le tue necessità.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 1.  Sul**Disegno** barra degli strumenti, fare clic su**Rettangolo**.
 1. Trascina per disegnare il rettangolo.
@@ -282,7 +282,7 @@ L'esempio seguente mostra come aggiungere un rettangolo al foglio di lavoro. Il 
 
 Aspose.Cells ti consente di disegnare forme ad arco nei tuoi fogli di lavoro. Puoi creare archi semplici e pieni. Puoi formattare il colore di riempimento e il colore della linea del bordo del controllo. Ad esempio, puoi specificare / modificare il colore dell'arco, impostare il colore dell'ombreggiatura, specificare il peso e lo stile della forma per le tue necessità.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 1.  Sul**Disegno** barra degli strumenti, fare clic su**Arco** nel**AutoForme**.
 1. Trascina per disegnare l'arco.
@@ -307,7 +307,7 @@ L'esempio seguente mostra come aggiungere forme ad arco al foglio di lavoro. L'e
 
 Aspose.Cells consente di disegnare forme ovali nei fogli di lavoro. Crea forme ovali semplici e piene e formatta il colore di riempimento e il colore della linea del bordo del controllo. Ad esempio, puoi specificare / modificare il colore dell'ovale, impostare il colore dell'ombreggiatura, specificare il peso e lo stile della forma.
 
-### **Utilizzando Microsoft Excel**
+### **Utilizzo di Microsoft Excel**
 
 1.  Sul**Disegno** barra degli strumenti, fare clic su**Ovale** .
 1. Trascina per disegnare l'ovale.

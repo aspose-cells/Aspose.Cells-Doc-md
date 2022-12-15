@@ -8,7 +8,7 @@ keywords: modify an existing style excel, modify an existing style excel java, m
 ---
 {{% alert color="primary" %}}
 
-Aynı biçimlendirme seçeneklerini hücrelere uygulamak için yeni bir biçimlendirme stili nesnesi oluşturun. Biçimlendirme stili nesnesi, bir küme olarak adlandırılan ve depolanan yazı tipi, yazı tipi boyutu, girinti, sayı, kenarlık, desenler vb. gibi biçimlendirme özelliklerinin bir kombinasyonudur. Uygulandığında, o stildeki biçimlendirmenin tümü uygulanır.
+Aynı biçimlendirme seçeneklerini hücrelere uygulamak için yeni bir biçimlendirme stili nesnesi oluşturun. Biçimlendirme stili nesnesi, bir küme olarak adlandırılan ve saklanan yazı tipi, yazı tipi boyutu, girinti, sayı, kenarlık, desenler vb. gibi biçimlendirme özelliklerinin bir kombinasyonudur. Uygulandığında, o stildeki biçimlendirmenin tümü uygulanır.
 
 Ayrıca mevcut bir stili kullanabilir, çalışma kitabıyla kaydedebilir ve aynı özniteliklere sahip bilgileri biçimlendirmek için kullanabilirsiniz.
 

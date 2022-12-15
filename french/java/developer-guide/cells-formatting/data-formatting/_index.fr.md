@@ -268,7 +268,7 @@ La sortie suivante est obtenue si l'ordre de lecture du texte est défini de dro
 ## **Formatage des caractères sélectionnés dans un Cell**
 [Gestion des paramètres de police](/cells/fr/java/dealing-with-font-settings/)expliqué comment formater les cellules, mais seulement comment formater le contenu de toutes les cellules. Que faire si vous souhaitez formater uniquement les caractères sélectionnés ?
 
-Aspose.Cells prend en charge cette fonctionnalité. Cette rubrique explique comment utiliser cette fonction.
+Aspose.Cells prend en charge cette fonctionnalité. Cette rubrique explique comment utiliser cette fonctionnalité.
 ### **Formatage des caractères sélectionnés**
  Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une collection Worksheets qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer. La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classer.
 

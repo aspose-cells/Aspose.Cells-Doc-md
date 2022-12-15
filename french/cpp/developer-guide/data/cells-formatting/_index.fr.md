@@ -15,7 +15,7 @@ url: /fr/cpp/cells-formatting/
 
  Si vous souhaitez définir le style d'une seule cellule, veuillez utiliser[ICell->SetIStyle()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#afa3d5b2aa5e90b286effc9e92de59dd5) méthode et si vous souhaitez définir le style d'une plage de cellules, veuillez utiliser[IRange->AppliquerIStyle()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_range#aaad6703b803565b674999bbaf5eed3a0)méthode.
 ## **Exemple de code**
- L'exemple de code suivant met en forme la cellule C4 de la feuille de calcul de différentes manières et la capture d'écran montre le[fichier excel de sortie](21266438.xlsx)généré par celui-ci pour votre référence.
+ L'exemple de code suivant met en forme la cellule C4 de la feuille de calcul de différentes manières et la capture d'écran montre le[fichier excel de sortie](21266438.xlsx) généré par celui-ci pour votre référence.
 
 ![tâche : image_autre_texte](cells-formatting_1.png)
 

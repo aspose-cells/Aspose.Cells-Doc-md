@@ -38,7 +38,7 @@ Améliorations
 (CELLSJAVA-40391) - Utilisation de Aspose dans un environnement OSGi
 (CELLSJAVA-40418) - Comment définir la qualité des graphiques enregistrés
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Insectes
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Reporting Services 2.5.0 发行说明 Aspose.Cells
+title: Aspose.Cells for Reporting Services 2.5.0 发行说明
 type: docs
 weight: 20
 url: /zh/reportingservices/aspose-cells-for-reporting-services-2-5-0-release-notes/

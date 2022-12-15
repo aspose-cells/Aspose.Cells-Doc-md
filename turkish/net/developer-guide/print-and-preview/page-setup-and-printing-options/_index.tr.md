@@ -18,7 +18,7 @@ Bu örnek için, Microsoft Excel'de bir çalışma kitabı oluşturduk ve sayfa 
 
 ### **Sayfa Yapısı Seçeneklerini ayarlamak için Aspose.Cells'i kullanma**
 
-Önce Microsoft Excel'de basit bir çalışma sayfası oluşturun. Ardından ona sayfa yapısı seçeneklerini uygulayın. Kodu çalıştırmak, aşağıdaki ekran görüntüsündeki gibi Sayfa Yapısı seçeneklerini değiştirir.
+Önce Microsoft Excel'de basit bir çalışma sayfası oluşturun. Ardından ona sayfa yapısı seçeneklerini uygulayın. Kodu çalıştırmak, aşağıdaki ekran görüntüsündeki gibi Sayfa Düzeni seçeneklerini değiştirir.
 
 |**Çıktı dosyası.**|
 |:- |

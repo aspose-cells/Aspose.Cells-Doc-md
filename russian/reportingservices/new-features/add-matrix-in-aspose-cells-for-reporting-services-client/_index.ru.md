@@ -1,5 +1,5 @@
 ﻿---
-title: Добавить матрицу в Aspose.Cells для клиента служб Reporting Services
+title: Добавить матрицу в клиент Aspose.Cells for Reporting Services
 type: docs
 weight: 80
 url: /ru/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/

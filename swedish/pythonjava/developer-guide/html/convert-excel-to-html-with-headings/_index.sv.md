@@ -5,7 +5,7 @@ weight: 10
 url: /sv/python-java/convert-excel-to-html-with-headings/
 ---
 ## **Konvertera Excel till HTML med rubriker**
-Aspose.Cells ger möjlighet att exportera rad- och kolumnrubriker samtidigt som Excel konverteras till HTML. Detta kan uppnås genom att använda[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)egendom som tillhandahålls av API:et. Standardvärdet för[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) är**Falsk** . Passera**Sann** som parameter för att rendera rubriker i HTML-utdatafilen. Följande bild visar utdatafilen som genereras av följande kod.
+Aspose.Cells ger möjlighet att exportera rad- och kolumnrubriker samtidigt som Excel konverteras till HTML. Detta kan uppnås genom att använda[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)egenskapen tillhandahållen av API. Standardvärdet för[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) är**Falsk** . Passera**Sann** som parameter för att rendera rubriker i HTML-utdatafilen. Följande bild visar utdatafilen som genereras av följande kod.
 
 ![todo:image_alt_text](PrintHeadings.jpg)
 

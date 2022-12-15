@@ -6,7 +6,7 @@ url: /fr/reportingservices/preface/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells pour Reporting Services contient principalement deux composants : Aspose.Cells.Report.Designer et Aspose.Cells.Renderer pour Reporting Services. Le premier est utilisé pour concevoir des rapports directement dans Microsoft Excel et le second est responsable du rendu d'un rapport RDL vers Microsoft Excel.
+Aspose.Cells for Reporting Services contient principalement deux composants : Aspose.Cells.Report.Designer et Aspose.Cells.Renderer for Reporting Services. Le premier est utilisé pour concevoir des rapports directement dans Microsoft Excel et le second est responsable du rendu d'un rapport RDL vers Microsoft Excel.
 
 {{% /alert %}} 
 ### **Conception d'un rapport avec le concepteur de rapport**

@@ -7,13 +7,13 @@ url: /it/net/how-to-run-aspose-cells-in-docker/
 ---
 I microservizi, insieme alla containerizzazione, consentono di combinare facilmente le tecnologie. Docker ti consente di integrare facilmente la funzionalità Aspose.Cells nella tua applicazione, indipendentemente dalla tecnologia presente nel tuo stack di sviluppo.
 
-Se stai prendendo di mira i microservizi o se la tecnologia principale nel tuo stack non è .NET, C++ o Java, ma hai bisogno della funzionalità Aspose.Cells o se usi già Docker nel tuo stack, allora potresti essere interessato a utilizzare Aspose.Cells in un Docker contenitore.
+Se stai prendendo di mira i microservizi o se la tecnologia principale nel tuo stack non è .NET, C++ o Java, ma hai bisogno della funzionalità Aspose.Cells o se utilizzi già Docker nel tuo stack, allora potresti essere interessato a utilizzare Aspose.Cells in un Contenitore Docker.
 
 ## Prerequisiti
 
 - Docker deve essere installato sul tuo sistema. Per informazioni su come installare Docker su Windows o Mac, fare riferimento ai collegamenti nella sezione "Vedi anche".
 
-- Si noti inoltre che nell'esempio fornito di seguito viene utilizzato l'SDK di Visual Studio 2019, .NET Core 3.1.
+- Si noti inoltre che nell'esempio fornito di seguito viene usato Visual Studio 2019, .NET Core 3.1 SDK.
 
 
 ## Hello World Richiesta
@@ -24,13 +24,13 @@ In questo esempio, crei una semplice applicazione console Hello World che crea u
 
 Per creare il programma Hello World, attenersi alla seguente procedura:
 1. Una volta installato Docker, assicurati che utilizzi i contenitori Linux (impostazione predefinita). Se necessario, seleziona l'opzione Passa ai contenitori Linux dal menu Docker Desktop.
-1. In Visual Studio creare un'applicazione console principale .NET.<br>
+1. In Visual Studio creare un'applicazione console .NET Core.<br>
 ![cose da fare:immagine_alt_testo](create-a-new-project.png)<br>
 1. Installa l'ultima versione Aspose.Cells da NuGet. System.Drawing.Common e System.Text.Encoding.CodePages verranno installati come dipendenza di Aspose.Cells.<br>
 ![cose da fare:immagine_alt_testo](nuget-aspose-cells.png)<br>
 1. Poiché l'applicazione verrà eseguita su Linux, è necessario installare le risorse Linux native appropriate. Iniziare con l'immagine di base dotnet core sdk 3.1 e installare libgdiplus libc6-dev.
 1. Quando tutte le dipendenze richieste sono state aggiunte, scrivi un semplice programma che crei un "Hello World!" cartella di lavoro e la salva in tutti i formati di salvataggio supportati:<br>
-**.NET**<br>
+**.RETE**<br>
 {{< highlight "csharp" >}}
 using System;
 namespace Aspose.Cells.Docker

@@ -1,20 +1,20 @@
 ﻿---
-title: Reporting Services v1.4.0 发行说明的 Aspose.Cells
+title: Aspose.Cells for Reporting Services v1.4.0 发行说明
 type: docs
 weight: 40
 url: /zh/reportingservices/aspose-cells-for-reporting-services-v1-4-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含发行说明[Aspose.Cells 报告服务 v1.4.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.0/)
+此页面包含发行说明[Aspose.Cells for Reporting Services v1.4.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.0/)
 
 {{% /alert %}} 
 
-我们很高兴为 Reporting Services 1.4.0 发布 Aspose.Cells！
+我们很高兴地宣布 Aspose.Cells for Reporting Services 1.4.0！
 
 有什么变化？
 
- l 支持Microsoft SQL Server 2008 Reporting Services。
+ 支持Microsoft SQL Server 2008 Reporting Services。
 
  l 支持Microsoft SQL Server 2000 Reporting Services。
 
@@ -22,7 +22,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-v1-4-0-release-no
 
  l 9 个修复和改进。
 
- Aspose.Cells 中针对 Reporting Services 1.4.0 的修复和增强
+ Aspose.Cells for Reporting Services 1.4.0 中的修复和增强
 
 |**问题编号** |**零件** |**概括** |
 |:- |:- |:- |

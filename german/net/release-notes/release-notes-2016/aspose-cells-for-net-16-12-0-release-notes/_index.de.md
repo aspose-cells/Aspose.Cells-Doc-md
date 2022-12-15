@@ -66,7 +66,7 @@ url: /de/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44858|Scrollbar-Postback endet nie (GridWeb)|Insekt|
 |CELLSNET-44734|Der sichtbare Bereich von GridWeb ändert sich, wenn die Zelle mit der TAB- oder Eingabetaste verlassen wird|Insekt|
 |CELLSNET-44907|CellsException aufgrund eines Zeilenumbruchs innerhalb einer Zelle, die sich über mehrere Zeilen erstreckt|Ausnahme|
-|CELLSNET-44893|Aspose.Cell ArithmeticException beim Aufrufen von Chart.ToImage über eine CLR-kompatible C++ DLL|Ausnahme|
+|CELLSNET-44893|Aspose.Cell ArithmeticException beim Aufrufen von Chart.ToImage über eine CLR-kompatible C++-DLL|Ausnahme|
 |CELLSNET-44876|CellsException: Form-zu-Bild-Fehler beim Konvertieren der Tabelle in PDF|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.

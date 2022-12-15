@@ -8,8 +8,8 @@ Aşağıdaki tabloda, Aspose.Cells.Report.Designer eklentisinin araç çubuğund
 
 |**Emretmek** |**resim** |**Tanım** |
 |:- |:- |:- |
-| Yerel Raporu Aç|![yapılacaklar:resim_alternatif_Metin](command-bars_1.png)|Yerel PC'den bir RDL dosyası açar ve dosya içeriğini yükler.|
-| Uzak Raporu Aç|![yapılacaklar:resim_alternatif_Metin](command-bars_2.png)| Rapor Sunucusundan bir RDL dosyası açar ve dosya içeriğini yükler.|
+| Yerel Raporu Aç|![yapılacaklar:resim_alternatif_Metin](command-bars_1.png)| Yerel PC'den bir RDL dosyası açar ve dosya içeriğini yükler.|
+| Uzak Raporu Aç|![yapılacaklar:resim_alternatif_Metin](command-bars_2.png)|Rapor Sunucusundan bir RDL dosyası açar ve dosya içeriğini yükler.|
 | Raporu Kaydet|![yapılacaklar:resim_alternatif_Metin](command-bars_3.png)| Tasarım raporunu yerel olarak veya sunucuda kaydeder.|
 | Raporu Yayınla|![yapılacaklar:resim_alternatif_Metin](command-bars_4.png)| RDL dosyasını sunucuya yükler.|
 | Raporu görüntüle|![yapılacaklar:resim_alternatif_Metin](command-bars_5.png)| Raporun sunucudan önizlemesini görüntüler.|

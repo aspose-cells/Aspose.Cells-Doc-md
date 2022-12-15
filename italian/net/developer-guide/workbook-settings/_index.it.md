@@ -4,5 +4,5 @@ linktitle: Impostazioni della cartella di lavoro
 type: docs
 weight: 185
 url: /it/net/workbook-settings/
-description: Gestisci le impostazioni dei file Excel Microsoft.
+description: Gestisci le impostazioni dei file di Microsoft Excel.
 ---

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 20.6 Release Notes
+title: Aspose.Cells for Android via Java 20.6 Release Notes
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-android-via-java-20-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.6.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.6.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.6
 |CELLSJAVA-43173|När gruppfältet har ett nollvärde förlorar resultatet av delsummanN delsumman för nollgruppen|Förbättring|
 |CELLSJAVA-43186|Beräkna totalsumman för varje rad med utökad kolumn|Förbättring|
 |CELLSJAVA-43191|Tillhandahåll ett sätt att hantera scenarier när du anger felaktiga teckensnittstyper|Förbättring|
-|CELLSJAVA-43187|Undantag när en XLS "Microsoft Excel 5.0 / 95 Workbook"-filer laddas|Förbättring|
+|CELLSJAVA-43187|Undantag vid laddning av en XLS "Microsoft Excel 5.0 / 95 Workbook"-filer|Förbättring|
 |CELLSJAVA-43142|Excel till HTML-rendering - vissa celler är inte justerade efter konvertering|Insekt|
 |CELLSJAVA-43155|Roterad text placeras utanför cellen när den renderas som HTML|Insekt|
 |CELLSJAVA-43161|Felaktig återgivning av ekvationen|Insekt|
@@ -38,7 +38,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.6
 |CELLSJAVA-43180|HTML till Excel-konvertering skapar svart kalkylblad|Insekt|
 |CELLSJAVA-43181|Det finns en skillnad i radhöjd vid konvertering av Excel till HTML|Insekt|
 |CELLSJAVA-43188|Bakgrundsfärgstilen behålls inte under konvertering av HTML till Excel|Insekt|
-|CELLSJAVA-43196|Det finns ett annat antal VBA-moduler som detekteras genom att använda Aspose.Cells för Java 20.4 och 20.5|Insekt|
+|CELLSJAVA-43196|Det finns ett annat antal VBA-moduler som detekteras genom att använda Aspose.Cells for Java 20.4 och 20.5|Insekt|
 |CELLSJAVA-43202|Resurserna släpps inte när arbetsboken har skapats|Insekt|
 |CELLSJAVA-43203|Det går inte att bearbeta vissa Excel-valideringslistor baserat på de namngivna intervallen med Unicode-namn|Insekt|
 |CELLSJAVA-43185|JPEG-kvalitet är alltid 75 på setImageResample på Linux|Insekt|
@@ -58,8 +58,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.6
 |CELLSJAVA-43189|Undantag uppstod när XLS-filen laddades|Undantag|
 |CELLSJAVA-43193|NullPointerException inträffade när några XLSX-filer laddades|Undantag|
 |CELLSJAVA-43200|Undantag "java.lang.ArrayIndexOutOfBoundsException" vid inläsning av filen|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen ChartTextFrame.DirectionType.**
 Hämtar och ställer in textens riktning i diagrammet.
 ### **Lägger till ChartTextFrame.ReadingOrder och föråldrar egenskapen ChartTextFrame.TextDirection.**

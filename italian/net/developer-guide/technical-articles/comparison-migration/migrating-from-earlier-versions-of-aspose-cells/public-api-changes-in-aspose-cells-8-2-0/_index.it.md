@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.2.0
+title: Modifiche all'API pubblica in Aspose.Cells 8.2.0
 type: docs
 weight: 70
 url: /it/net/public-api-changes-in-aspose-cells-8-2-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche al Aspose.Cells API dalla versione 8.1.2 alla 8.2.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.1.2 alla 8.2.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Aggiunta proprietà MultiThreadReading per la classe Cells**

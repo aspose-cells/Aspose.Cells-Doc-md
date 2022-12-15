@@ -1,5 +1,5 @@
 ﻿---
-title: 为 SharePoint 许可证安装 Aspose.Cells
+title: 安装 Aspose.Cells for SharePoint 许可证
 type: docs
 weight: 10
 url: /zh/sharepoint/installing-aspose-cells-for-sharepoint-license/
@@ -16,8 +16,8 @@ url: /zh/sharepoint/installing-aspose-cells-for-sharepoint-license/
 
 许可证 ZIP 包含：
 
-- **Aspose.Cells.SharePoint.License.wsp** – SharePoint 解决方案包文件。 SharePoint 许可证的 Aspose.Cells 打包为 SharePoint 解决方案，以促进跨服务器场的部署和收回。
-- **自述文件.txt** – 许可证安装说明。许可证安装是通过服务器控制台执行的**stsadm.exe**.安装许可证所需的步骤如下。
+- **Aspose.Cells.SharePoint.License.wsp** – SharePoint 解决方案包文件。 Aspose.Cells for SharePoint 许可证被打包为 SharePoint 解决方案，以方便跨服务器场的部署和收回。
+- **自述文件.txt**– 许可证安装说明。许可证安装是通过服务器控制台执行的**stsadm.exe**.安装许可证所需的步骤如下。
 
 #### **安装许可证**
 
@@ -30,7 +30,7 @@ url: /zh/sharepoint/installing-aspose-cells-for-sharepoint-license/
 1. 运行 stsadm 以将解决方案添加到 SharePoint 解决方案存储区：
  stsadm.exe -o addsolution -文件名 Aspose.Cells.SharePoint.License.wsp
 1. 将解决方案部署到场中的所有服务器：
-stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force
+ stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force
 1. 执行管理计时器作业以立即完成部署：
  stsadm.exe -o execadmsvcjobs
 

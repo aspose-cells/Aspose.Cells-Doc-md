@@ -45,7 +45,7 @@ Aşağıdaki örnek, düzenleme modunun programlı olarak nasıl etkinleştirile
 
 {{% /alert %}} 
 ## **Görünüm Modu**
-GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kaydetmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**Kopyala** seçenek.
+GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kaydetmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**kopyala** seçenek.
 
 **Görüntüleme Modunda GridWeb kontrolü** 
 

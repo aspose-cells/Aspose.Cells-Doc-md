@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.6.1
+title: Offentlig API Ändringar i Aspose.Cells 8.6.1
 type: docs
 weight: 210
 url: /sv/java/public-api-changes-in-aspose-cells-8-6-1/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för HTML-länkmåltyp**
-Den här versionen av Aspose.Cells för Java API har avslöjat en uppräkning nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans gör det möjligt att[ställ in måltypen för länkarna i kalkylbladet vid konvertering till HTML-format](/cells/sv/java/change-the-html-link-target-type/). De möjliga värdena för HtmlLinkTargetType-uppräkningen följer där standardvärdet är SELF.
+Den här utgåvan av Aspose.Cells for Java API har avslöjat en uppräkning nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans tillåter att[ställ in måltypen för länkarna i kalkylbladet vid konvertering till HTML-format](/cells/sv/java/change-the-html-link-target-type/). De möjliga värdena för HtmlLinkTargetType-uppräkningen följer där standardvärdet är SELF.
 
 1. HtmlLinkTargetType.BLANK: Öppnar det länkade dokumentet/sidan i ett nytt fönster eller en ny flik.
 1. HtmlLinkTargetType.PARENT: Öppnar det länkade dokumentet/sidan i den överordnade ramen.
@@ -43,7 +43,7 @@ workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
 ### **Metod VbaModuleCollection.remove Tillagd**
-Aspose.Cells för Java 8.6.1 har avslöjat ytterligare en överbelastning av metoden VbaModuleCollection.remove som nu kan acceptera en instans av Worksheet för att ta bort alla VBA-moduler som är associerade med det angivna arbetsbladet.
+Aspose.Cells for Java 8.6.1 har avslöjat ytterligare en överbelastning av metoden VbaModuleCollection.remove som nu kan acceptera en instans av Worksheet för att ta bort alla VBA-moduler som är associerade med det specificerade arbetsbladet.
 
 Följande är det enkla användningsscenariot.
 
@@ -65,7 +65,7 @@ modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
 ### **Metod RangeCollection.add tillagd**
-Aspose.Cells för Java 8.6.1 har avslöjat metoden RangeCollection.Add som kan användas för att lägga till Range-objekt till samlingen av intervall för ett visst kalkylblad.
+Aspose.Cells for Java 8.6.1 har exponerat metoden RangeCollection.Add som kan användas för att lägga till Range-objekt till samlingen av intervall för ett visst kalkylblad.
 
 Följande är det enkla användningsscenariot.
 
@@ -125,7 +125,7 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Egenskapen VbaProject.isSignad tillagd**
- Aspose.Cells för Java 8.6.1 har exponerat egenskapen VbaProject.isSigned som kan användas för att[testa om ett VbaProject i en arbetsbok är signerat eller inte](/cells/sv/java/check-if-vba-project-in-a-workbook-is-signed/). Boolesk typ egenskap returnerar true om projektet är signerat.
+ Aspose.Cells for Java 8.6.1 har exponerat egenskapen VbaProject.isSigned som kan användas för att[testa om ett VbaProject i en arbetsbok är signerat eller inte](/cells/sv/java/check-if-vba-project-in-a-workbook-is-signed/). Boolesk typ egenskap returnerar true om projektet är signerat.
 
 Följande är det enkla användningsscenariot.
 
@@ -162,7 +162,7 @@ else
 {{< /highlight >}}
 ## **Ändrade API:er**
 ### **Metod Cell.getFormatConditions Modified**
-Med lanseringen av v8.6.1 har API:et Aspose.Cells för Java ändrat returtypen för metoden Cell.getFormatConditions som nu returnerar en array av typen FormatConditionCollection.
+Med lanseringen av v8.6.1 har Aspose.Cells for Java API ändrat returtypen för metoden Cell.getFormatConditions som nu returnerar en array av typen FormatConditionCollection.
 ## **Föråldrade API:er**
 ### **Metod Workbook.checkWriteProtectedPassword föråldrat**
 Med lanseringen av v8.6.1 har metoden Workbook.checkWriteProtectedPassword markerats som avskriven. Det rekommenderas att använda metoden WorkbookSettings.WriteProtection.validatePassword som kan acceptera ett strängvärde som parameter och returnerar booleskt om lösenordet matchar det förinställda lösenordet för kalkylarket.

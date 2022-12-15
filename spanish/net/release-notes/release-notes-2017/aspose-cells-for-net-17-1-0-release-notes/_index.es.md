@@ -68,7 +68,7 @@ El usuario puede cambiar la propiedad LoadDataFilterOptions en su implementació
 #### **Agrega la propiedad CellsHelper.SignificantDigits**
 Obtiene y establece el número de dígitos significativos.
 #### **Agrega la propiedad GlowEffect.Color**
-Obtiene el color del efecto de brillo.
+Obtiene el color del efecto de resplandor.
 #### **Agrega la propiedad PageSetup.PaperWidth**
 Representa el ancho en pulgadas del papel, considerando la orientación de la página.
 #### **Agrega la propiedad PageSetup.PaperHeight**

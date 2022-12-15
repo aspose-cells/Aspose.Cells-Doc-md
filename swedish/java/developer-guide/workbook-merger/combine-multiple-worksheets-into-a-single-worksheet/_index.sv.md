@@ -3,12 +3,12 @@ title: Slå samman flera kalkylblad till ett enda kalkylblad
 type: docs
 weight: 70
 url: /sv/java/combine-multiple-worksheets-into-a-single-worksheet/
-description: Kombinera flera kalkylblad till ett enda kalkylblad genom att använda Java-kod och Aspose.Cells för Java API.
+description: Kombinera flera kalkylblad till ett enda kalkylblad genom att använda Java-koden och Aspose.Cells for Java API.
 keywords: combine multiple worksheets into one, combine multiple worksheets into one java, combine multiple worksheets into one with java, combine multiple worksheets into single worksheet with java, combine multiple worksheets into single worksheet java, java code to combine multiple worksheets into single worksheet, how to combine multiple worksheets into single worksheet with java, how to combine multiple worksheets into one with java, merge multiple worksheets into one with java, how to merge multiple worksheets into one java, how to merge multiple worksheets into one with java
 ---
 {{% alert color="primary" %}}
 
-Ibland måste du kombinera flera kalkylblad till ett enda kalkylblad. Detta kan enkelt uppnås med Aspose.Cells API. Den här artikeln visar dig ett kodexempel som läser en källarbetsbok och kombinerar data från alla källarbetsblad till ett enda kalkylblad i en målarbetsbok.
+Ibland måste du kombinera flera kalkylblad till ett enda kalkylblad. Detta kan enkelt uppnås med Aspose.Cells API. Den här artikeln visar ett kodexempel som läser en källarbetsbok och kombinerar data från alla källarbetsblad till ett enda kalkylblad i en målarbetsbok.
 
 {{% /alert %}}
 

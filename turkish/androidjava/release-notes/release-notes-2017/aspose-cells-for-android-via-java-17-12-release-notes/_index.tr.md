@@ -1,12 +1,12 @@
 ﻿---
-title: Java 17.12 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 17.12 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/java/aspose-cells-for-android-via-java-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Java 17.12 aracılığıyla Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 17.12 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -69,7 +69,7 @@ Bu sayfa, Java 17.12 aracılığıyla Android için Aspose.Cells için sürüm n
 |CELLSJAVA-42439|İstisna: "java.lang.IllegalArgumentException: Geçersiz satır dizini"|İstisna|
 |CELLSJAVA-42437|İstisna: Bir XLSB dosya formatını yeniden kaydederken java.lang.NumberFormatException|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 ### **AbstractCalculationMonitor.Interrupt(string) yöntemini ekler**
 Kullanıcıların formül hesaplamalarının ilerlemesini kesmesine izin verir.
 ### **HtmlCrossType.MSExport numaralandırmasını ekler**
@@ -137,6 +137,6 @@ Web uzantısı şeklini temsil eder.
 
 {{% alert color="primary" %}} 
 
-Java üzerinden Android için Aspose.Cells kod tabanı, ilgili .NET ve 07613481 sürüm (ler) koduyla eşleştiğinden, Aspose.Cells for .NET v17.10, for .NET V17.10, for .NET V17.10, for .NET V17.10, 0763101. 12, Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 ve Aspose.Cells for Java v17.12 de Java v17.12 aracılığıyla Android için bu Aspose.Cells'e dahildir.
+Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0731,1631. 0761. 0711631. 0731. 0731. 0731. 0731. 0731. 0731,1631. 0731,1631,1631. 0731. Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 ve Aspose.Cells for Java v17.12 de buna dahildir Aspose.Cells for Android 0761193121.v17.
 
 {{% /alert %}}

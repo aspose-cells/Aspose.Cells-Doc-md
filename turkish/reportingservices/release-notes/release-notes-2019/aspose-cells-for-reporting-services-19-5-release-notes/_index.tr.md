@@ -1,12 +1,12 @@
 ﻿---
-title: Raporlama Hizmetleri 19.5 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 19.5 Sürüm Notları
 type: docs
 weight: 20
 url: /tr/reportingservices/aspose-cells-for-reporting-services-19-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Reporting Services 19.5 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for Reporting Services 19.5 için sürüm notları içerir.
 
 {{% /alert %}} 
 

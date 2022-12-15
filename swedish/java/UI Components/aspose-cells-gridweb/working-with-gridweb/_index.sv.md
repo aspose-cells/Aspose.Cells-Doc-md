@@ -6,7 +6,7 @@ url: /sv/java/working-with-gridweb/
 ---
 ## **Öppna en Microsoft Excel-fil**
 
-Aspose.Cells.GridWeb-kontroll kan öppna och ladda Microsoft Excel-filer - komplett med data, formatering, diagram, bilder etc. Det här avsnittet förklarar hur.
+Aspose.Cells.GridWeb-kontroll kan öppna och ladda Microsoft Excel-filer - komplett med data, formatering, diagram, bilder etc. Detta ämne förklarar hur.
 
 Så här öppnar du en Excel-fil med GridWeb-kontroll:
 
@@ -24,9 +24,9 @@ Ovanstående kodavsnitt kan användas hur du vill. Till exempel, för att ladda 
 
 ![todo:image_alt_text](working-with-gridweb_1.png)
 
-## **Spara en Microsoft Excel-fil**
+## **Sparar en Microsoft Excel-fil**
 
-Det är möjligt att skapa nya eller manipulera befintliga Microsoft Excel-filer, på webbplatser i GUI-läge med hjälp av Aspose.Cells.GridWeb-kontroll. Filerna kan sedan sparas i Excel-filer. Aspose.Cells.GridWeb fungerar effektivt som kalkylarksredigerare online. Det här avsnittet beskriver hur du sparar rutnätsinnehåll i Excel-filer.
+Det är möjligt att skapa nya eller manipulera befintliga Microsoft Excel-filer på webbplatser i GUI-läge med Aspose.Cells.GridWeb-kontroll. Filerna kan sedan sparas i Excel-filer. Aspose.Cells.GridWeb fungerar effektivt som kalkylarksredigerare online. Det här avsnittet beskriver hur du sparar rutnätsinnehåll i Excel-filer.
 
 ### **Sparar som en fil**
 
@@ -44,11 +44,11 @@ Kodexemplet nedan illustrerar hur man sparar rutnätsinnehåll till en Excel-fil
 
 ## **Ändra storlek på Aspose.Cells.GridWeb och dess huvudfält**
 
-Den här artikeln förklarar hur du ändrar storlek på GridWeb under körning med Aspose.Cells.GridWeb API. Den förklarar också hur man ändrar storlek på rubrikfälten för Aspose.Cells.GridWeb-kontrollen för att göra deras data lättare att läsa.
+Den här artikeln förklarar hur man ändrar storlek på GridWeb under körning med hjälp av Aspose.Cells.GridWeb API. Den förklarar också hur man ändrar storlek på rubrikfälten för Aspose.Cells.GridWeb-kontrollen för att göra deras data lättare att läsa.
 
 ### **Ändra bredd och höjd på Aspose.Cells.GridWeb**
 
-Ändra bredd och höjd på Aspose.Cells. GridWeb-kontroll är en enkel men viktig funktion. Aspose.Cells.GridWeb-kontrollen representeras av GridWeb-klassen i API:t. För att ändra storlek på bredden och höjden på GridWeb-kontrollen, använd helt enkelt dess egenskaper för bredd och höjd.
+Ändra bredd och höjd på Aspose.Cells. GridWeb-kontroll är en enkel men viktig funktion. Aspose.Cells.GridWeb-kontrollen representeras av GridWeb-klassen i API. För att ändra storlek på bredden och höjden på GridWeb-kontrollen, använd helt enkelt dess egenskaper för bredd och höjd.
 
 {{% alert color="primary" %}}
 
@@ -188,7 +188,7 @@ För att spara på utvecklarnas ansträngningar erbjuder Aspose.Cells.GridWeb n�
 |Traditionell 1|Mörk|
 |Traditionell 2|grå|
 |Beställnings|Anpassat|
-När en viss stil väljs ändrar den hela utseendet på GridWeb-kontrollen. Utvecklare kan välja en förinställd stil som ska tillämpas under körning med det flexibla API:et Aspose.Cells.GridWeb.
+När en viss stil väljs ändrar den hela utseendet på GridWeb-kontrollen. Utvecklare kan välja en förinställd stil som ska tillämpas under körning med den flexibla API eller Aspose.Cells.GridWeb.
 
 GridWeb-kontrollen tillhandahåller PresetStyle-egenskapen som utvecklare kan tilldela vilken förinställd stil som helst.
 
@@ -246,7 +246,7 @@ Här är ett exempel på mallen för anpassad stil. Du kan ändra det enligt din
 
 ## **Skapa kontroll på ett webbformulär**
 
-Den här artikeln kommer att guida dig om hur du skapar ett enkelt webbformulär JSP (Java Server Page) med GridWeb-kontroll.
+Den här artikeln kommer att guida dig om hur du skapar ett enkelt webbformulär JSP (Java Server Page) med GridWeb-kontroll på den.
 
 **Steg 1 - Skapa katalogstruktur**
 
@@ -254,7 +254,7 @@ Den här artikeln kommer att guida dig om hur du skapar ett enkelt webbformulär
 
 ![todo:image_alt_text](working-with-gridweb_7.png)
 
- Det här är katalogerna och filerna du behöver skapa. Läs kommentarerna och följ dem. Du kan hämta de senaste Aspose.Cells.GridWeb för Java-versionsarkiven från[den här länken](https://downloads.aspose.com/cells/java).
+ Det här är katalogerna och filerna du behöver skapa. Läs kommentarerna och följ dem. Du kan hämta de senaste Aspose.Cells.GridWeb for Java utgivningsarkiven från[den här länken](https://downloads.aspose.com/cells/java).
 
 {{< highlight "java" >}}
 

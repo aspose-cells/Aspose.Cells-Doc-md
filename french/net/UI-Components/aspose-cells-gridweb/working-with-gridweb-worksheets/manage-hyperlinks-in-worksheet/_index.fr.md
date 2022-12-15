@@ -6,7 +6,7 @@ url: /fr/net/manage-hyperlinks-in-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-Cette rubrique explique quels types de liens hypertexte sont pris en charge dans Aspose.Cells.GridWeb et comment les gérer par programmation. Les hyperliens peuvent être utilisés pour créer des liens vers des URL Web ou pour effectuer une publication sur un serveur.
+Cette rubrique explique quels types de liens hypertexte sont pris en charge dans Aspose.Cells.GridWeb et comment les gérer par programme. Les hyperliens peuvent être utilisés pour créer des liens vers des URL Web ou pour effectuer une publication sur un serveur.
 
 {{% /alert %}} 
 ## **Travailler avec des hyperliens**

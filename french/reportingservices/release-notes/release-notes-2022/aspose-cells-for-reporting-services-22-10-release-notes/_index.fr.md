@@ -13,5 +13,5 @@ Cette page contient les notes de version pour Aspose.Cells Reporting Services 22
 |**IDENTIFIANT**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |35094 | Exporter vers CSV (ACCSV) - problèmes d'encodage|
-|35344 |Correction du format personnalisé pour l'élément de rapport de zone de texte.|
+|35344 | Correction du format personnalisé pour l'élément de rapport de zone de texte.|
 |35345 | Prise en charge du format de rendu des nombres.|

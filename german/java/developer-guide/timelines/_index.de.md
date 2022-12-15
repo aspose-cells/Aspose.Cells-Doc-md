@@ -1,5 +1,5 @@
 ﻿---
-title: Zeitachse einfügen
+title: Zeitleiste einfügen
 linktitle: Zeitleisten
 type: docs
 weight: 170
@@ -8,7 +8,7 @@ description: Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Zeitleiste er
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Anstatt Filter anzupassen, um Datumsangaben anzuzeigen, können Sie eine PivotTable-Zeitachse verwenden – eine dynamische Filteroption, mit der Sie einfach nach Datum/Uhrzeit filtern und mit einem Schieberegler den gewünschten Zeitraum vergrößern können. Microsoft Mit Excel können Sie eine Zeitleiste erstellen, indem Sie eine Pivot-Tabelle auswählen und dann auf klicken*Einfügen > Zeitleiste*. Aspose.Cells für Java ermöglicht es Ihnen auch, eine Zeitleiste mit der Methode [**Worksheet.getTimelines.add()**] zu erstellen.
+ Anstatt Filter anzupassen, um Datumsangaben anzuzeigen, können Sie eine PivotTable-Zeitachse verwenden – eine dynamische Filteroption, mit der Sie einfach nach Datum/Uhrzeit filtern und mit einem Schieberegler den gewünschten Zeitraum vergrößern können. Microsoft Mit Excel können Sie eine Zeitleiste erstellen, indem Sie eine Pivot-Tabelle auswählen und dann auf klicken*Einfügen > Zeitachse*. Aspose.Cells für Java ermöglicht es Ihnen auch, eine Zeitleiste mit der Methode [**Worksheet.getTimelines.add()**] zu erstellen.
 
 ## **Erstellen Sie eine Zeitachse zu einer Pivot-Tabelle**
 

@@ -12,7 +12,7 @@ Aspose.Cells consente agli utenti di estrarre i dati relativi al tema dal file E
 
 {{% /alert %}}
 
-## C# codice per estrarre i dati del tema dal file Excel
+## Codice C# per estrarre i dati del tema dal file Excel
 
 Il codice di esempio seguente estrae il nome del tema applicato alla cartella di lavoro di origine, quindi estrae il colore del tema applicato alla cella A1 e il colore del tema applicato al bordo inferiore della cella.
 

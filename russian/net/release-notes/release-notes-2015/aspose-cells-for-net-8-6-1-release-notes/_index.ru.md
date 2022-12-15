@@ -146,7 +146,7 @@ url: /ru/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43997) — активная ячейка на листе находится в неправильном положении при загрузке/сохранении файла XLSX — GridWeb
 
- (CELLSNET-43993) — ошибка C2686 при компиляции VS2008 C++ с griddesktop.dll
+ (CELLSNET-43993) — Ошибка C2686 при компиляции VS2008 C++ с griddesktop.dll
 
  (CELLSNET-43986) — WebWorksheet или GridWorkSheet не имеют метода SetReadonlyRange.
 

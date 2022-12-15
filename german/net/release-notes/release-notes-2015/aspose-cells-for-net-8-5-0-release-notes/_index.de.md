@@ -144,7 +144,7 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-43641) – Problem mit der Berechnung von Formeln, wenn die iterative Berechnung aktiviert ist
 
- (CELLSNET-43618) – Der Wert wird von Aspose.Cells-APIs nicht ordnungsgemäß abgerufen
+ (CELLSNET-43618) – Der Wert wird von Aspose.Cells-APIs nicht korrekt abgerufen
 
  (CELLSNET-42995) – Workbook.HasRevisions ist wahr, hat aber keine Revisionen
 

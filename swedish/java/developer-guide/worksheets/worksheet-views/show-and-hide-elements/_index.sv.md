@@ -26,7 +26,7 @@ Aspose.Cells låter användaren visa och dölja delar av en arbetsbok inklusive 
 
 ### **Dölja ett arbetsblad**
 
- Utvecklare kan dölja ett kalkylblad genom att passera**falsk** som en parameter till[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) metod för[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
+ Utvecklare kan dölja ett kalkylblad genom att skicka det**falsk** som en parameter till[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) metod för[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
 
 **Exempel:**
 
@@ -48,7 +48,7 @@ Aspose.Cells låter användaren visa och dölja delar av en arbetsbok inklusive 
 
 ![todo:image_alt_text](show-and-hide-elements_2.png)
 
-**Figur:** Arbetsbladsvy efter modifiering
+**Figur:** Arbetsbladsvy efter ändring
 
 **Ställa in VisibilityType**
 
@@ -94,7 +94,7 @@ Du kan se att filen Book1.xls innehåller flikar i figuren nedan. Efter att exem
 
 ![todo:image_alt_text](show-and-hide-elements_4.png)
 
-**output.xls: Excel-fil efter ändring**
+**output.xls: Excel-fil efter modifiering**
 
 ![todo:image_alt_text](show-and-hide-elements_5.png)
 
@@ -128,7 +128,7 @@ Skärmdumpen nedan visar att Book1.xls innehåller tre arbetsblad: Blad1, Blad2 
 
  Book1.xls öppnas med hjälp av[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' och rad- och kolumnrubriken på det första kalkylbladet är dolda. Den ändrade filen sparas som output.xls.
 
-**Arbetsbladsvy efter modifiering**
+**Arbetsbladsvy efter ändring**
 
 ![todo:image_alt_text](show-and-hide-elements_7.png)
 
@@ -141,7 +141,7 @@ Rullningslister är mycket använda för att navigera i innehållet i alla filer
 - Vertikala rullningslister
 - Horisontella rullningslister
 
-Microsoft Excel har även horisontella och vertikala rullningslister så att användare kan rulla igenom kalkylbladets innehåll. Med hjälp av Aspose.Cells kan utvecklare kontrollera synligheten för båda typerna av rullningslister i Excel-filer.
+Microsoft Excel tillhandahåller även horisontella och vertikala rullningslister så att användare kan rulla igenom kalkylbladets innehåll. Med hjälp av Aspose.Cells kan utvecklare kontrollera synligheten för båda typerna av rullningslister i Excel-filer.
 
 **Styra synligheten för rullningslisterna:**
 
@@ -165,7 +165,7 @@ Skärmdumpen nedan visar filen Book1.xls som innehåller båda rullningslisterna
 
 ![todo:image_alt_text](show-and-hide-elements_8.png)
 
-**output.xls: Excel-fil efter ändring**
+**output.xls: Excel-fil efter modifiering**
 
 ![todo:image_alt_text](show-and-hide-elements_9.png)
 
@@ -209,7 +209,7 @@ Skärmdumpen nedan visar att Book1.xls-filen innehåller tre kalkylblad: Sheet1,
 
  Book1.xls-filen öppnas med hjälp av[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass och sedan döljs rutnätslinjerna för det första kalkylbladet. Den ändrade filen sparas som output.xls-fil.
 
-**Arbetsbladsvy efter modifiering**
+**Arbetsbladsvy efter ändring**
 
 ![todo:image_alt_text](show-and-hide-elements_11.png)
 

@@ -18,7 +18,7 @@ Normalt rekommenderar vi användare att ringa[**Workbook.CalculateFormula()**](h
 
 ## **Konsolutgång**
 
- Detta är konsolutgången för ovanstående exempelkod när den körs med den givna[exempel på excel-fil](5113710.xlsx)på vår maskin. Observera att din utdata kan skilja sig men den förflutna tiden efter att den rekursiva egenskapen ställts in på**falsk** kommer alltid att vara mindre än att ställa in den på**Sann**.
+ Detta är konsolutgången för ovanstående exempelkod när den körs med den givna[exempel på excel-fil](5113710.xlsx) på vår maskin. Observera att din utdata kan skilja sig men den förflutna tiden efter att den rekursiva egenskapen ställts in på**falsk** kommer alltid att vara mindre än att ställa in den på**Sann**.
 
 {{< highlight "java" >}}
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.5.2
+title: Offentlig API Ändringar i Aspose.Cells 8.5.2
 type: docs
 weight: 190
 url: /sv/java/public-api-changes-in-aspose-cells-8-5-2/
@@ -11,7 +11,7 @@ url: /sv/java/public-api-changes-in-aspose-cells-8-5-2/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Återge arbetsblad till grafisk kontext**
-Den här utgåvan av Aspose.Cells för Java API har avslöjat ytterligare en överbelastning av SheetRender.toImage-metoden som nu gör det möjligt att acceptera en instans av Graphics2D-klassen till[rendera arbetsbladet i grafiksammanhang](/cells/sv/java/render-worksheet-to-graphic-context/). Signaturerna för den nyligen tillagda metoden är följande.
+Den här utgåvan av Aspose.Cells for Java API har exponerat ytterligare en överbelastning av SheetRender.toImage-metoden som nu tillåter att en instans av Graphics2D-klassen accepteras till[rendera arbetsbladet i grafiksammanhang](/cells/sv/java/render-worksheet-to-graphic-context/). Signaturerna för den nyligen tillagda metoden är följande.
 
 - SheetRender.toImage(int pageIndex, Graphics2D-grafik)
 
@@ -63,7 +63,7 @@ ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
 ### **Metod PivotTable.getCellByDisplayName tillagd**
- Aspose.Cells för Java 8.5.2 har exponerat metoden PivotTable.getCellByDisplayName som kan användas för att[hämta objektet Cell med namnet PivotField](/cells/sv/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Den här metoden kan vara användbar i scenarier där du vill markera eller formatera PivotField-huvudet.
+ Aspose.Cells for Java 8.5.2 har exponerat metoden PivotTable.getCellByDisplayName som kan användas för att[hämta objektet Cell med namnet PivotField](/cells/sv/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Den här metoden kan vara användbar i scenarier där du vill markera eller formatera PivotField-huvudet.
 
 Följande är det enkla användningsscenariot.
 
@@ -107,15 +107,15 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Property SaveOptions.MergeAreas tillagd**
-Aspose.Cells för Java 8.5.2 har avslöjat egenskapen SaveOptions.MergeAreas som kan acceptera booleskt typvärde. Standardvärdet är falskt, men om det är satt till true, försöker API:et Aspose.Cells för Java att slå samman den enskilda CellArea innan filen sparas.
+Aspose.Cells for Java 8.5.2 har avslöjat egenskapen SaveOptions.MergeAreas som kan acceptera booleskt typvärde. Standardvärdet är falskt, men om det är satt till sant, försöker Aspose.Cells for Java API slå samman den individuella CellArea innan filen sparas.
 
 {{% alert color="primary" %}} 
 
-Om ett kalkylark har för många enskilda celler med validering, finns det chanser att det resulterande kalkylarket kan skadas. En möjlig lösning är att slå samman cellerna med identiska valideringsregler eller så kan du nu använda egenskapen SaveOptions.MergeAreas för att styra API:et att automatiskt sammanfoga CellAreas innan du sparar.
+Om ett kalkylark har för många enskilda celler med validering, finns det chanser att det resulterande kalkylarket kan skadas. En möjlig lösning är att slå samman cellerna med identiska valideringsregler eller så kan du nu använda egenskapen SaveOptions.MergeAreas för att styra API för att automatiskt sammanfoga CellAreas innan sparaoperationen.
 
 {{% /alert %}} 
 ### **Property Geometry.ShapeAdjustValues Added**
- Med lanseringen av v8.5.2 har API:et Aspose.Cells avslöjat Geometry.getShapeAdjustValues-metoden som kan användas för att[komma åt och göra ändringar i justeringspunkterna för olika former](/cells/sv/java/change-adjustment-values-of-the-shape/).
+ Med lanseringen av v8.5.2 har Aspose.Cells API avslöjat metoden Geometry.getShapeAdjustValues som kan användas för att[komma åt och göra ändringar i justeringspunkterna för olika former](/cells/sv/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
@@ -166,7 +166,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Uppräkningsfält ConsolidationFunction.DISTINCT_COUNT har lagts till**
-Aspose.Cells för Java 8.5.2 har exponerat fältet ConsolidationFunction.DISTINCT_COUNT som kan användas för att tillämpa den konsoliderade funktionen Distinct Count på DataField i en pivottabell.
+Aspose.Cells for Java 8.5.2 har exponerat fältet ConsolidationFunction.DISTINCT_COUNT som kan användas för att tillämpa den konsoliderade funktionen Distinct Count på DataField i en pivottabell.
 
 {{% alert color="primary" %}} 
 

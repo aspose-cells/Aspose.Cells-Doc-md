@@ -69,7 +69,7 @@ sheet.Cells.GroupRows(4, 6);
 
 {{< /highlight >}}
 ### **Dahili Süreç: Kontrol Nasıl Çalışır?**
-Sayfanın her satırının bir anahat numarası vardır. Anahat numarasının varsayılan değeri sıfırdır. Satırları her grupladığınızda anahat numarası 1 artar. Anahat numarasını GridWorksheet.Cells.GetRowOutlineLevel() yöntemini çağırarak alabilirsiniz.
+Sayfanın her satırının bir anahat numarası vardır. Ana hat numarasının varsayılan değeri sıfırdır. Satırları her grupladığınızda anahat numarası 1 artar. Anahat numarasını GridWorksheet.Cells.GetRowOutlineLevel() yöntemini çağırarak alabilirsiniz.
 ## **Satırların Grubunu Çöz**
 Aspose.Cells.GridWeb, gruplandırılmış satırların grubunu çözmenizi sağlar.
 

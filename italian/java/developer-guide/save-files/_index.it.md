@@ -7,7 +7,7 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 ---
 {{% alert color="primary" %}}
 
-**Aspose.Cells**consente agli sviluppatori di creare file Excel da zero utilizzando il suo flessibile API. Una volta creati i file Excel, dovrai anche salvare la tua cartella di lavoro (file). Aspose.Cells fornisce una varietà di modi per salvare questi file. In questo argomento tratteremo tutti quei possibili modi che possono essere adottati dagli sviluppatori per salvare i propri file.
+**Aspose.Cells**consente agli sviluppatori di creare file Excel da zero utilizzando la sua API flessibile. Una volta creati i file Excel, dovrai anche salvare la tua cartella di lavoro (file). Aspose.Cells fornisce una varietà di modi per salvare questi file. In questo argomento tratteremo tutti quei possibili modi che possono essere adottati dagli sviluppatori per salvare i propri file.
 
 {{% /alert %}}
 
@@ -21,7 +21,7 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 |**Tipi di formati di file**|**Descrizione**|
 |:- |:- |
-|[**AUTO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#AUTO)|API tenta di rilevare il formato appropriato dall'estensione file specificata nel primo parametro al metodo di salvataggio|
+|[**AUTO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#AUTO)|L'API tenta di rilevare il formato appropriato dall'estensione file specificata nel primo parametro al metodo di salvataggio|
 |[**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#CSV)|Rappresenta un file CSV|
 |[**XLSX**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSX)|Rappresenta un file Office Open XML SpreadsheetML|
 |[**XLSM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSM)|Rappresenta il file XLSM basato su XML|
@@ -61,7 +61,7 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 A volte, vuoi convertire o salvare una cartella di lavoro con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV ecc.), per impostazione predefinita sia Microsoft Excel che Aspose.Cells salvano solo il contenuto del foglio di lavoro attivo.
 
-L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo Excel o OpenOffice Microsoft (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
+L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo di Microsoft Excel o OpenOffice (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
 
 Quando il codice viene eseguito, converte i dati di tutti i fogli nella cartella di lavoro in formato TXT.
 
@@ -115,7 +115,7 @@ Con il[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.ce
 
 ## **Converti la cartella di lavoro di Excel in Markdown**
 
-Il Aspose.Cells API fornisce supporto per l'esportazione di fogli di calcolo in formato Markdown. Per esportare il foglio di lavoro attivo in Markdown, passare[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) metodo. Puoi anche usare[**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in Markdown.
+L'API Aspose.Cells fornisce supporto per l'esportazione di fogli di calcolo in formato Markdown. Per esportare il foglio di lavoro attivo in Markdown, passare[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) metodo. Puoi anche usare[**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in Markdown.
 
 L'esempio di codice seguente illustra l'esportazione del foglio di lavoro attivo in Markdown utilizzando[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)membro di enumerazione. Si prega di consultare il[output file Markdown](Book1.txt)generato dal codice per riferimento.
 

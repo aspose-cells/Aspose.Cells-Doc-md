@@ -130,7 +130,7 @@ book.Save("output.xlsx");
 
 
 ### **Unterstützung für Leuchteffekte**
-Aspose.Cells 16.10.0 hat die Shape.Glow-Eigenschaft zusammen mit der GlowEffect-Klasse verfügbar gemacht, die es zusammen ermöglicht, den Glüheffekt eines Shape-Objekts festzulegen. Die GlowEffect-Klasse gibt einen Glüheffekt an, bei dem mithilfe der folgenden Eigenschaften ein farblich unscharfer Umriss außerhalb der Kanten des Objekts hinzugefügt wird.
+Aspose.Cells 16.10.0 hat die Shape.Glow-Eigenschaft zusammen mit der GlowEffect-Klasse verfügbar gemacht, die es zusammen ermöglicht, den Glüheffekt eines Shape-Objekts festzulegen. Die GlowEffect-Klasse gibt einen Glüheffekt an, bei dem mithilfe der folgenden Eigenschaften ein farblich unscharfer Umriss außerhalb der Ränder des Objekts hinzugefügt wird.
 
 - GlowEffect.Size: Ermittelt/setzt den Radius des Glühens in Punkteinheiten.
 - GlowEffect.Transparency: Ermittelt/legt den Transparenzgrad des Glow-Effekts im Bereich von 0,0 (undurchsichtig) bis 1,0 (klar) fest.

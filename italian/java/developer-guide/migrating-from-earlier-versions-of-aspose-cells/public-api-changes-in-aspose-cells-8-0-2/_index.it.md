@@ -1,18 +1,18 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.0.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.0.2
 type: docs
 weight: 40
 url: /it/java/public-api-changes-in-aspose-cells-8-0-2/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche al Aspose.Cells API dalla versione 8.0.1 alla 8.0.2, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.0.1 alla 8.0.2, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Aggiunta proprietà TextDirection alla classe Shape**
 La classe Shape ha esposto la proprietà TextDirection che può essere utilizzata per ottenere o impostare la direzione del flusso di testo per l'oggetto Shape. La proprietà TextDirection può essere utilizzata anche per impostare la direzione del testo desiderata per i commenti in un foglio di calcolo, come illustrato di seguito.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -54,7 +54,7 @@ book.save(myDir + "output.xlsx");
 ## **Aggiunta la proprietà ConvertFormulasData alla classe HTMLLoadOptions**
 La proprietà ConvertFormulasData è stata aggiunta alla classe HTMLLoadOptions, per facilitare agli sviluppatori il caricamento di formule Excel da file HTML. La proprietà booleana ConvertFormulasData indica se convertire o meno la stringa in una formula quando il valore della stringa inizia con il carattere '='.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

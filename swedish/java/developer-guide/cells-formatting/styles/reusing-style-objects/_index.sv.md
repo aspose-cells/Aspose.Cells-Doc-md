@@ -1,5 +1,5 @@
 ﻿---
-title: Återanvändning av stilobjekt
+title: Återanvända stilobjekt
 type: docs
 weight: 60
 url: /sv/java/reusing-style-objects/

@@ -16,7 +16,7 @@ url: /zh/java/finding-absolute-position-of-shape-inside-the-worksheet/
 
 **测量绝对位置**
 
-![待办事项：图片_替代_文本](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
+![待办事项：图像_替代_文本](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 
 以下示例代码显示工作表中第一个形状的绝对位置（以像素为单位）。该代码在控制台中显示以下输出：
 

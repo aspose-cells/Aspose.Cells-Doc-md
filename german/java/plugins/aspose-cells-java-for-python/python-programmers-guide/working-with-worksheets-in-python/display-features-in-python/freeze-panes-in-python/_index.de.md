@@ -5,7 +5,7 @@ weight: 40
 url: /de/java/freeze-panes-in-python/
 ---
 ## **Aspose.Cells - Fenster einfrieren**
- So frieren Sie Fenster im Tabellenkalkulationsdokument ein**Aspose.Cells Java für Python** , einfach aufrufen**FreezePanes** Modul.
+ So frieren Sie Fenster im Tabellenkalkulationsdokument ein**Aspose.Cells Java for Python** , einfach aufrufen**FreezePanes** Modul.
 
 **Python Code**
 

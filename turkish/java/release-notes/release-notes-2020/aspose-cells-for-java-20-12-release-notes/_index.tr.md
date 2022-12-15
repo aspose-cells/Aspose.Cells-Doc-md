@@ -28,7 +28,7 @@ url: /tr/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43361|xls'den xlsx'e dönüştürmede yanlış hücre rengi|
 |CELLSJAVA-43366|SetAsTotal özelliği güncellenmiyor|
 |CELLSJAVA-43348|XLSB'den PDF'e dönüştürme: CellsException: -2147483648|
-|CELLSJAVA-43343| Şekil için seçili bir öğeye sahip olmayan bir dosyayı PDF'ye dışa aktarırken istisna|
+|CELLSJAVA-43343|Şekil için seçili bir öğeye sahip olmayan bir dosyayı PDF'ye dışa aktarırken istisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 17.11 Release Notes
+title: Aspose.Cells for Java 17.11 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-java-17-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 17.11.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 17.11.
 
 {{% /alert %}} 
 
@@ -32,12 +32,12 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 17.11.
 |CELLSJAVA-42425|Undantag i tråden "huvud" java.lang.OutOfMemoryError: GC overhead-gränsen har överskridits - Fil II|Undantag|
 |CELLSJAVA-42424|Undantag i tråden "huvud" java.lang.OutOfMemoryError: GC overheadgränsen överskrids - Fil I|Undantag|
 |CELLSJAVA-42428|Chart.toImage resulterar i java.lang.ArrayIndexOutOfBoundsException|Undantag|
-|CELLSJAVA-42452|Att spara en arbetsbok som PDF efter RemoveUnusedStyles API producerar ett CellsException|Undantag|
+|CELLSJAVA-42452|Att spara en arbetsbok som PDF efter RemoveUusedStyles API producerar ett CellsException|Undantag|
 |CELLSJAVA-42440|"java.lang.IllegalArgumentException: Ogiltigt radindex" inträffade|Undantag|
 |CELLSJAVA-42439|Undantag: "java.lang.IllegalArgumentException: Ogiltigt radindex" när du sparar ett XLSX-filformat|Undantag|
 |CELLSJAVA-42437|Undantag: java.lang.NumberFormatException när du sparar ett XLSB-filformat igen|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till metoden Shape.GetResultOfSmartArt().**
 Konvertera den smarta konsten till en gruppform.
 ### **Lägger till egenskapen Shape.IsSmartArt**

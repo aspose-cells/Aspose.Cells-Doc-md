@@ -1,16 +1,16 @@
 ﻿---
-title: Raporlama Hizmetleri v1.4.1 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services v1.4.1 Sürüm Notları
 type: docs
 weight: 30
 url: /tr/reportingservices/aspose-cells-for-reporting-services-v1-4-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[Raporlama Hizmetleri v1.4.1 için Aspose.Cells](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.1/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Reporting Services v1.4.1](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.4.1/)
 
 {{% /alert %}} 
 
-Raporlama Hizmetleri 1.4.1 için Aspose.Cells'i duyurmaktan mutluluk duyuyoruz!
+ Aspose.Cells for Reporting Services 1.4.1'i duyurmaktan mutluluk duyuyoruz!
 
  ne değişti
 
@@ -26,7 +26,7 @@ Raporlama Hizmetleri 1.4.1 için Aspose.Cells'i duyurmaktan mutluluk duyuyoruz!
 
 
 
- Raporlama Hizmetleri 1.4.1 için Aspose.Cells'de Çözülen Sorunlar
+Aspose.Cells for Reporting Services 1.4.1'de Çözülen Sorunlar
 
 |**Sorun Kimliği** |**Bileşen** |**Özet** |
 |:- |:- |:- |

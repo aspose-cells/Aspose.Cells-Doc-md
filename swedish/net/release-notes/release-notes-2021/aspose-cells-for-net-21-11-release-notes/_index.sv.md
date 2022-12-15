@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 21.11 Release Notes
+title: Aspose.Cells for .NET 21.11 Release Notes
 type: docs
 weight: 2
 url: /sv/net/aspose-cells-for-net-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 21.11](https://www.nuget.org/packages/Aspose.Cells/21.11.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 21.11](https://www.nuget.org/packages/Aspose.Cells/21.11.0).
 
 {{% /alert %}}
 
@@ -20,7 +20,7 @@ url: /sv/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-48646|StackOverflow undantag medan Excel till PDF-konvertering|Prestanda|
 |CELLSNET-49378|Problem med Excel till HTML-konverteringsprestanda och tomma celler|Prestanda|
 |CELLSNET-49453|Förbättra prestanda samtidigt som du konverterar Excel till HTML|Prestanda|
-|CELLSNET-48095|3D, formen på molnet förändrades|Insekt|
+|CELLSNET-48095|3D ändrades formen på molnet|Insekt|
 |CELLSNET-49544|Bugg för att spara extern NamedRange som refererar till ett intervall med flera ark|Insekt|
 |CELLSNET-49588|Enstaka data sparas annorlunda än det ursprungliga värdet|Insekt|
 |CELLSNET-49667|Resultatet av ColorScale villkorlig formatering är felaktigt|Insekt|
@@ -39,7 +39,7 @@ url: /sv/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49671|Text med Windings-teckensnitt renderas inte korrekt till bilder/HTML|Insekt|
 |CELLSNETCORE-278|XLSX till PDF-konverteringsresultat är inte öppningsbara när kultur är inställd på norska|Insekt|
 |CELLSNET-49560|Skillnader i XML|Insekt|
-|CELLSNET-49598|Regression: Skillnader i XML efter att ha sparats|Insekt|
+|CELLSNET-49598|Regression: Skillnader i XML efter lagring|Insekt|
 |CELLSNET-49630|Felaktiga kryss vid konvertering till EMF|Insekt|
 |CELLSNET-49673|Vissa delar av prickade linjer blev heldragna linjer vid konvertering av diagram till bilder|Insekt|
 |CELLSNET-49545|Typerna HtmlCrossType.Default och HtmlCrossType.FitToCell är trasiga|Insekt|
@@ -55,9 +55,9 @@ url: /sv/net/aspose-cells-for-net-21-11-release-notes/
 |
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till enum CellValueFormatStrategy.DisplayString.**
 

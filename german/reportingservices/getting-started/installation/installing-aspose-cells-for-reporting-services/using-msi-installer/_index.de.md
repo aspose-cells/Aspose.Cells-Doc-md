@@ -6,8 +6,8 @@ url: /de/reportingservices/using-msi-installer/
 ---
 {{% alert color="primary" %}} 
 
--  Wenn Sie eine frühere Version von Aspose.Cells für Reporting Services installiert haben, deinstallieren Sie diese bitte zuerst. Sehen[Deinstallieren von Aspose.Cells für Reporting Services](/cells/de/reportingservices/uninstalling-aspose-cells-for-reporting-services/) Thema zum Entfernen der Komponente.
-- [Besuchen Sie die Downloadseite für Reporting Services unter Aspose.Cells](https://downloads.aspose.com/cells/reportingservices) und laden Sie das MSI-Installationsprogramm Aspose.Cells für Reporting Services mit der neuesten Version der Komponente herunter.
+- Wenn Sie eine frühere Version von Aspose.Cells for Reporting Services installiert haben, deinstallieren Sie diese bitte zuerst. Sehen[Aspose.Cells for Reporting Services deinstallieren](/cells/de/reportingservices/uninstalling-aspose-cells-for-reporting-services/) Thema zum Entfernen der Komponente.
+- [Besuchen Sie die Download-Seite Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices) und laden Sie das Aspose.Cells for Reporting Services MSI-Installationsprogramm mit der neuesten Version der Komponente herunter.
  - Aspose.Cells für ReportingServices Msi unterstützt nur Microsoft SQL Server 2008 Reporting Services und spätere Produkte.
 - Führen Sie die heruntergeladene Datei aus und befolgen Sie die Anweisungen des Installationsprogramms.
 
@@ -22,7 +22,7 @@ So installieren Sie Aspose.Cells mit dem MSI-Installationsprogramm:
 
 
 
-1. Lesen und akzeptieren Sie die Lizenzvereinbarung und klicken Sie auf**Nächste**.
+1.  Lesen und akzeptieren Sie die Lizenzvereinbarung und klicken Sie auf**Nächste**.
 
 ![todo: Bild_alt_Text](using-msi-installer_2.png)
 
@@ -36,7 +36,7 @@ So installieren Sie Aspose.Cells mit dem MSI-Installationsprogramm:
 
 
 
-1.  Bestätigen Sie, dass Sie Aspose.Cells für Reporting Services installieren möchten, indem Sie auf klicken**Installieren**. 
+1.  Bestätigen Sie, dass Sie Aspose.Cells for Reporting Services installieren möchten, indem Sie auf klicken**Installieren**. 
 
 ![todo: Bild_alt_Text](using-msi-installer_4.png)
 

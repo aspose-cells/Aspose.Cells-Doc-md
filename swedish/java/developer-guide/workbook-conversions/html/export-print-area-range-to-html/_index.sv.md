@@ -8,7 +8,7 @@ url: /sv/java/export-print-area-range-to-html/
 
 Detta är ett mycket vanligt scenario att vi endast behöver exportera utskriftsområdet, dvs valt cellområde istället för hela arket till HTML. Den här funktionen är redan tillgänglig för PDF-rendering, men nu kan du utföra den här uppgiften även för HTML. Ställ först in utskriftsområdet i sidinställningarna i kalkylbladet. Senare användning[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly)egenskap för att endast exportera valt intervall.
 
-## Java-kod för att exportera utskriftsområde till HTML
+## Java kod för att exportera utskriftsområdesintervall till HTML
 
 Följande exempelkod läser in en arbetsbok och exporterar sedan utskriftsområdet till HTML. Exempelfilen för att testa den här funktionen kan laddas ner från följande länk:
 

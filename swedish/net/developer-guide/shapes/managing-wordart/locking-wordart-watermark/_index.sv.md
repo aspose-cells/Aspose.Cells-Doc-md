@@ -10,6 +10,6 @@ url: /sv/net/locking-wordart-watermark/
 
 {{% /alert %}}
 
-Aspose.Cells API:er tillåter låsning av vissa aspekter av vattenstämpeln så att användarinteraktionen kan begränsas eller helt blockeras. Följande kodsnutt demonstrerar användningen av Aspose.Cells för .NET API för att låsa val, rörelse, redigering och ändra storlek på vattenstämpeln genom att skapa ett kalkylblad från början.
+Aspose.Cells API:er tillåter låsning av vissa aspekter av vattenstämpeln så att användarinteraktionen kan begränsas eller helt blockeras. Följande kodavsnitt visar användningen av Aspose.Cells for .NET API för att låsa val, förflyttning, redigering och ändra storlek på vattenstämpeln genom att skapa ett kalkylblad från början.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-LockingWordartWatermark-LockingWordartWatermark.cs" >}}

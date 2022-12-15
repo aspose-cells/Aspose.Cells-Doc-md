@@ -30,7 +30,7 @@ url: /ru/java/aspose-cells-for-java-8-8-3-release-notes/
 |CELLSJAVA-41867|Значения оси диаграммы изменились после повторного сохранения файла XLS|Ошибка|
 |CELLSJAVA-41861|NullReferenceException при загрузке файла Excel XLS|Ошибка|
 |CELLSJAVA-41298|Не удается получить точную информацию о форматировании формы WordArt из API-интерфейсов Aspose.Cells|Ошибка|
-|CELLSJAVA-40366|Встроенная иконка - не печатается|Ошибка|
+|CELLSJAVA-40366|Встроенная иконка - не печатает|Ошибка|
 |CELLSJAVA-41883|CellsException: неизвестный тип функции надстройки: 9, в Workbook.calculateFormula|Исключение|
 |CELLSJAVA-41858|CellsException: ошибка при расчете Cell [0BMW CAN Bus Codes V0.4! R4], в Workbook.calculateFormula|Исключение|
 |CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 в Workbook.save при повторном сохранении XLS|Исключение|

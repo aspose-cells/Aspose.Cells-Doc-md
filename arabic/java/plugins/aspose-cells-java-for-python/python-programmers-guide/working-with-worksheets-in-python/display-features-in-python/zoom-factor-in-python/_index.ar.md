@@ -5,7 +5,7 @@ weight: 80
 url: /ar/java/zoom-factor-in-python/
 ---
 ## **Aspose.Cells - عامل التكبير**
- لتعيين عامل التكبير باستخدام**Aspose.Cells Java لـ Python** ، ببساطة استدعاء**عامل التكبير** وحدة.
+ لتعيين عامل التكبير باستخدام**Aspose.Cells Java for Python** ، ببساطة استدعاء**عامل التكبير** وحدة.
 
 **Python كود**
 
@@ -32,7 +32,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Zoom factor set to 75% for sheet 1, please check the output document."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**عامل التكبير (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

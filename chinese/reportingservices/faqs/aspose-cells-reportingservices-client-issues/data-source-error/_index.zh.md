@@ -7,7 +7,7 @@ url: /zh/reportingservices/data-source-error/
 ##### **描述**
 发布报表时，Aspose.Cells.ReportingServices Client 产生错误：
 
-![待办事项：图片_替代_文本](data-source-error_1.png)
+![待办事项：图像_替代_文本](data-source-error_1.png)
 ##### **解决方案**
 {{% alert color="primary" %}} 
 
@@ -15,6 +15,6 @@ url: /zh/reportingservices/data-source-error/
 1. 选择**共享数据源**.
 1. 重新发布报告。
 
-![待办事项：图片_替代_文本](data-source-error_2.png)
+![待办事项：图像_替代_文本](data-source-error_2.png)
 
 {{% /alert %}}

@@ -14,7 +14,7 @@ url: /it/java/spreadsheet-editor-working-with-sheets/
 - [Passa da un foglio all'altro](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
  - WorksheetView.setActiveSheet
 ### **Aggiungere e rimuovere fogli?**
-Microsoft Excel consente più fogli in un unico file. HTML5 Spreadsheet Editor consente all'utente di aggiungere e rimuovere fogli. Nella scheda Fogli abbiamo un elenco a discesa di fogli. Il foglio selezionato è quello che viene aperto dall'editor.
+Microsoft Excel consente più fogli in un singolo file. HTML5 Spreadsheet Editor consente all'utente di aggiungere e rimuovere fogli. Nella scheda Fogli abbiamo un elenco a discesa di fogli. Il foglio selezionato è quello che viene aperto dall'editor.
 
 Per aggiungere un nuovo foglio:
 

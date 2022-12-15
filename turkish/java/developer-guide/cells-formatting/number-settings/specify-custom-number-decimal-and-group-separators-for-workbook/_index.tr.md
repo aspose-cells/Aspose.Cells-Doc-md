@@ -20,7 +20,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 1. Aç**Gelişmiş** sekme.
 1.  içindeki ayarları değiştirin**Düzenleme Seçenekleri** bölüm.
 
- Aşağıdaki ekran görüntüsü**Gelişmiş Excel Seçenekleri** ve belirtmek için bölümü vurgular**Özel Ayırıcılar**.
+Aşağıdaki ekran görüntüsü**Gelişmiş Excel Seçenekleri** ve belirtmek için bölümü vurgular**Özel Ayırıcılar**.
 
 ![yapılacaklar:resim_alternatif_Metin](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 

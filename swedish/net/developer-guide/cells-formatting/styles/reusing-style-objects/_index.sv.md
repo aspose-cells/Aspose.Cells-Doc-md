@@ -1,5 +1,5 @@
 ﻿---
-title: Återanvändning av stilobjekt
+title: Återanvända stilobjekt
 type: docs
 weight: 3000
 url: /sv/net/reusing-style-objects/

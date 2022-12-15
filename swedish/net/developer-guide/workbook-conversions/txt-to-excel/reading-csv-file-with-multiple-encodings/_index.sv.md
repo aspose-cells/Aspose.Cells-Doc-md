@@ -10,7 +10,7 @@ Ibland innehåller din CSV-fil flera kodningar (Unicode, ANSI, UTF8, UTF7, etc).
 
 {{% /alert %}}
 
- Aspose.Cells tillhandahåller[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) egenskap som du måste ställa in på**Sann** för att ladda din CSV-fil med flera kodningar korrekt.
+ Aspose.Cells tillhandahåller[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)egenskap som du måste ställa in på**Sann** för att ladda din CSV-fil med flera kodningar korrekt.
 
  Följande skärmdump visar ett exempel på en CSV-fil som innehåller två rader. Första raden är inne**ANSI** kodning och den andra raden är inne**Unicode** kodning
 

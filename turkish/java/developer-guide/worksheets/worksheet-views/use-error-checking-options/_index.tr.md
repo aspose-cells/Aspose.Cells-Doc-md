@@ -22,7 +22,7 @@ Metin olarak saklanan sayıları hızla gerçek sayılara dönüştürmek için 
 
 1.  Üzerinde**Aletler** menü, tıklayın**Seçenekler**.
 1. Hata Denetimi sekmesini seçin.
-   **Metin olarak saklanan numara** seçeneği varsayılan olarak işaretlidir.
+   **Metin olarak saklanan sayı** seçeneği varsayılan olarak işaretlidir.
 1. Devre dışı bırakın.
  MS Excel'deki veriler için yeşil üçgenin nasıl görüntülendiğini gösteren aşağıdaki resme bakın.
 

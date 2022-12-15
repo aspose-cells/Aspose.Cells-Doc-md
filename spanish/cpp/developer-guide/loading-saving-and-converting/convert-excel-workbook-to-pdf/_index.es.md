@@ -11,9 +11,9 @@ Aspose.Cells admite la conversión de archivos de Excel a PDF y mantiene una alt
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells escribe directamente la información sobre API y el número de versión en los documentos de salida. Por ejemplo, al renderizar Documento a PDF, Aspose.Cells para C++ llena el**Solicitud** campo con valor 'Aspose.Cells' y**Productor de PDF**campo con valor, por ejemplo, 'Aspose.Cells v18.5.0'.
+ Aspose.Cells escribe directamente la información sobre API y el número de versión en los documentos de salida. Por ejemplo, al renderizar Documento a PDF, Aspose.Cells for C++ llena el**Solicitud** campo con valor 'Aspose.Cells' y**Productor de PDF** campo con valor, por ejemplo, 'Aspose.Cells v18.5.0'.
 
-Tenga en cuenta que no puede indicar a Aspose.Cells por C++ que cambie o elimine esta información de los documentos de salida.
+Tenga en cuenta que no puede indicar al Aspose.Cells for C++ que cambie o elimine esta información de los documentos de salida.
 
 {{% /alert %}} 
 ### **Conversión Directa**
@@ -24,7 +24,7 @@ Siga los pasos a continuación para convertir directamente las hojas de cálculo
 1.  Instanciar un objeto de la[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)clase llamando a su constructor vacío.
 1. Puede abrir/cargar un archivo de plantilla existente u omitir este paso si está creando el libro de trabajo desde cero.
 1. Realice cualquier trabajo (ingresar datos, aplicar formato, establecer fórmulas, insertar imágenes u otros objetos de dibujo, etc.) en la hoja de cálculo utilizando las API Aspose.Cells.
-1. Cuando el código de la hoja de cálculo esté completo, llame al[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)clase'[Ahorrar](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)método para guardar la hoja de cálculo.
+1.  Cuando el código de la hoja de cálculo esté completo, llame al[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)clase'[Ahorrar](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)método para guardar la hoja de cálculo.
 
 El formato de archivo debe ser PDF, así que seleccione el PDF relevante (un valor predefinido) de la enumeración SaveFormat para generar el documento PDF final
 

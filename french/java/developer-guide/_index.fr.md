@@ -59,7 +59,7 @@ url: /fr/java/developer-guide/
     <div class="col-md-6">
         <p>Données</p>
         <ul>
-		 <li><a href="/cells/fr/java/accessing-cells-of-a-worksheet/">Accéder au Cells d'une feuille de travail</a></li>
+		 <li><a href="/cells/fr/java/accessing-cells-of-a-worksheet/">Accéder au Cells d'une feuille de calcul</a></li>
 		 <li><a href="/cells/fr/java/add-and-retrieve-data/">Ajouter et récupérer des données</a></li>
 		 <li><a href="/cells/fr/java/worksheets/">Des feuilles de calcul</a></li>
 		 <li><a href="/cells/fr/java/rows-and-columns/">Lignes et colonnes</a></li>
@@ -134,7 +134,7 @@ url: /fr/java/developer-guide/
             <li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-rectangle-to-worksheet">Insertion d'un rectangle dans la feuille de calcul</a></li>
             <li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-cube-to-worksheet">Insertion d'un cube dans une feuille de calcul</a></li>
 						<li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-callout-quad-arrow-to-worksheet">Insertion d'une flèche quadruple de légende dans la feuille de calcul</a></li>
-						<li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multiplication-sign-to-worksheet">Insertion d'un signe de multiplication dans la feuille de calcul</a></li>
+						<li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multiplication-sign-to-worksheet">Insertion d'un signe de multiplication dans la feuille de travail</a></li>
 						<li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multidocument-to-worksheet">Insertion d'un multidocument dans Worksheet</a></li>
 						<li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-five-pointed-star-to-worksheet">Insertion d'une étoile à cinq branches dans la feuille de calcul</a></li>
 						<li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-thought-bubble-cloud-to-worksheet">Insertion d'un nuage de bulles de pensée dans la feuille de calcul</a></li>
@@ -274,7 +274,7 @@ url: /fr/java/developer-guide/
         </ul>
         <p><a href="/cells/fr/java/managing-database-connections/">Requêtes et connexions</a></p>
         <ul>
-		 <li><a href="/cells/fr/java/reading-and-writing-query-table-of-worksheet/">Table de requête de lecture et d'écriture de la feuille de calcul</a></li>
+		 <li><a href="/cells/fr/java/reading-and-writing-query-table-of-worksheet/">Table de requête de lecture et d'écriture de la feuille de travail</a></li>
         </ul>
         <p>Trier</p>
         <ul>

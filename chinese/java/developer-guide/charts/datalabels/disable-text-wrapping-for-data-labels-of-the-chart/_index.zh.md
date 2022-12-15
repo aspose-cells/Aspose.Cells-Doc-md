@@ -18,12 +18,12 @@ Aspose.Cells 提供了[**DataLabels.setTextWrapped()**](https://reference.aspose
 
 **包装数据标签**
 
-![待办事项：图片_替代_文本](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
+![待办事项：图像_替代_文本](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
 
 下面的示例代码使用 Aspose.Cells 加载示例 Microsoft Excel 文件并使用禁用数据标签文本换行[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)方法。执行代码时，图表如下所示。先前换行的文本现在已展开。
 
 **仅在一行中显示数据标签**
 
-![待办事项：图片_替代_文本](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
+![待办事项：图像_替代_文本](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableTextWrapping-DisableTextWrapping.java" >}}

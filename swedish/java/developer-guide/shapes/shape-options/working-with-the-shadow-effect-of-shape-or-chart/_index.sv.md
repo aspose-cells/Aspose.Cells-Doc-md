@@ -19,6 +19,6 @@ url: /sv/java/working-with-the-shadow-effect-of-shape-or-chart/
 
 ![todo:image_alt_text](working-with-the-shadow-effect-of-shape-or-chart_1.png)
 ## **Arbeta med skuggeffekten av form eller diagram**
- Följande exempelkod laddar[source excel-fil](5472531.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)egenskapen och sparar sedan arbetsboken i[output excel-fil](5472530.xlsx).
+ Följande exempelkod laddar[källkod excel-fil](5472531.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)egenskapen och sparar sedan arbetsboken i[output excel-fil](5472530.xlsx).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}

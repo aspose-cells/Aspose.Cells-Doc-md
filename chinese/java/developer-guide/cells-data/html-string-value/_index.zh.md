@@ -17,7 +17,7 @@ Aspose.Cells 支持将 Microsoft 面向 Excel 的 HTML 转换为 XLS/XLSX 格式
 
 以下屏幕截图显示了使用 Aspose.Cells 生成的输出 Excel 文件。如您所见，它显示了使用[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)财产。
 
-![待办事项：图片_替代_文本](adding-html-rich-text-inside-the-cell_1.png)
+![待办事项：图像_替代_文本](adding-html-rich-text-inside-the-cell_1.png)
 
 这是生成输出 Excel 文件的示例代码，如上面的屏幕截图所示。
 

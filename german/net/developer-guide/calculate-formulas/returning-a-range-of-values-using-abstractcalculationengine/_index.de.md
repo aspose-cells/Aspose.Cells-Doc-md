@@ -14,7 +14,7 @@ url: /de/net/returning-a-range-of-values-using-abstractcalculationengine/
 
  Der folgende Code demonstriert die Verwendung von[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) Klasse und gibt den Wertebereich über ihre Methode zurück.
 
-Erstellen Sie eine Klasse mit einer Funktion*Benutzerdefinierte Funktion berechnen*. Diese Klasse implementiert[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+ Erstellen Sie eine Klasse mit einer Funktion*Benutzerdefinierte Funktion berechnen*. Diese Klasse implementiert[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

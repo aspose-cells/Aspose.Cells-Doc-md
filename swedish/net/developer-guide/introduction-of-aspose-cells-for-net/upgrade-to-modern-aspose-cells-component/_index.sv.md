@@ -6,7 +6,7 @@ url: /sv/net/upgrade-to-modern-aspose-cells-component/
 ---
 {{% alert color="primary" %}} 
 
- För att hjälpa användarna att uppgradera underhåller vi ett dokument som beskriver information som är viktig för befintliga användare, särskilt de som har använt den äldre Aspose.Excel och nu vill uppgradera till nyare Aspose.Cells. Dessa är avsedda att vara korta anteckningar, och du bör kunna hitta mer information genom att kontrollera alla avsnitt i**Programmerares guide** och**Aspose.Cells API-referens**.
+ För att hjälpa användarna att uppgradera underhåller vi ett dokument som beskriver information som är viktig för befintliga användare, särskilt de som har använt den äldre Aspose.Excel och nu vill uppgradera till nyare Aspose.Cells. Dessa är avsedda att vara korta anteckningar, och du bör kunna hitta mer information genom att kontrollera alla avsnitt i**Programmerares guide** och**Aspose.Cells API Referens**.
 
 {{% /alert %}} 
 ## **Uppgraderar till Aspose.Cells**

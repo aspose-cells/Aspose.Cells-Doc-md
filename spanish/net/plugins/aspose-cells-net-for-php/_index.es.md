@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells .NET para PHP
+title: Aspose.Cells .NET for PHP
 type: docs
 weight: 40
 url: /es/net/aspose-cells-net-for-php/
@@ -12,7 +12,7 @@ url: /es/net/aspose-cells-net-for-php/
 
 #### **Requisitos del sistema**
 
-**Los siguientes son los requisitos del sistema para usar Aspose.Cells .NET para PHP:**
+**Los siguientes son los requisitos del sistema para usar Aspose.Cells .NET for PHP:**
 
 - IIS con PHP y PHP Manager instalado.
 - Aspose.Total API.
@@ -29,7 +29,7 @@ url: /es/net/aspose-cells-net-for-php/
 
 #### **Descargar bibliotecas requeridas**
 
-Descargue las bibliotecas necesarias que se mencionan a continuación. Estos son los necesarios para ejecutar Aspose.Cells Java para ejemplos de PHP.
+Descargue las bibliotecas necesarias que se mencionan a continuación. Estos son los necesarios para ejecutar Aspose.Cells Java for PHP ejemplos.
 
 - [Descargue los archivos Aspose.Cells for .NET (DLL o MSI) de la sección de descargas](https://downloads.aspose.com/cells/net)
 - [Descargar Aspose.Cells for .NET dll de interoperabilidad](https://downloads.aspose.com/cells/net)
@@ -46,9 +46,9 @@ Las siguientes versiones de ejemplos en ejecución están disponibles para desca
 
 ##### **GitHub**
 
-- **Aspose.Cells .NET para ejemplos de PHP**
+- **Aspose.Cells .NET for PHP Ejemplos**
 
-  - [Aspose.Cells .NET para PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+  - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
 #### **Cómo configurar el código fuente en la plataforma Windows**
 
@@ -76,7 +76,7 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 En IIS, abra PHP Manager y luego haga clic en 'Habilitar para deshabilitar y extensión'. encontrar php_com_dotnet.dll y asegúrese de que esté habilitado.
 
-##### **3. Configure Aspose.Cells .NET para ejemplos de PHP**
+##### **3. Configurar Aspose.Cells .NET for PHP Ejemplos**
 
 ###### **Método 1**
 
@@ -125,13 +125,13 @@ Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nu
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
 
-Puede registrar cualquier problema o sugerencia relacionada con Aspose.Cells .NET para PHP utilizando cualquiera de las siguientes plataformas:
+Puede registrar cualquier problema o sugerencia relacionada con Aspose.Cells .NET for PHP utilizando cualquiera de las siguientes plataformas:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
 #### **Extender y contribuir**
 
-Aspose.Cells .NET para PHP es de código abierto y su código fuente está disponible en los principales sitios web de codificación social que se enumeran a continuación. Se alienta a los desarrolladores a descargar el código fuente y contribuir sugiriendo o agregando nuevas funciones o mejorando las existentes, para que otros también puedan beneficiarse de ellas.
+Aspose.Cells .NET for PHP es de código abierto y su código fuente está disponible en los principales sitios web de codificación social que se enumeran a continuación. Se alienta a los desarrolladores a descargar el código fuente y contribuir sugiriendo o agregando nuevas funciones o mejorando las existentes, para que otros también puedan beneficiarse de ellas.
 
 #### **Código fuente**
 

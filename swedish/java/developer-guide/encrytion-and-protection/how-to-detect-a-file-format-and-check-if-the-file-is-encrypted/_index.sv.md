@@ -6,11 +6,11 @@ url: /sv/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/
 ---
 {{% alert color="primary" %}}
 
- Ibland behöver du upptäcka en fils format innan du öppnar den eftersom filtillägget inte garanterar att filinnehållet är lämpligt. Filen kan vara krypterad (en lösenordsskyddad fil) så att den inte kan läsas direkt, eller så ska vi inte läsa den. Aspose.Cells tillhandahåller[**FileFormatUtil.detectFileFormat()**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat(java.io.InputStream)) statisk metod och några relevanta API:er som du kan använda för att bearbeta dokument.
+ Ibland behöver du upptäcka en fils format innan du öppnar den eftersom filtillägget inte garanterar att filinnehållet är lämpligt. Filen kan vara krypterad (en lösenordsskyddad fil) så att den inte kan läsas direkt, eller så ska vi inte läsa den. Aspose.Cells tillhandahåller[**FileFormatUtil.detectFileFormat()**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat(java.io.InputStream)statisk metod och några relevanta API:er som du kan använda för att bearbeta dokument.
 
 {{% /alert %}}
 
-## **Java-kod för att identifiera filformat och kontrollera om filen är krypterad**
+## **Java kod för att identifiera filformat och kontrollera om filen är krypterad**
 
 Följande exempelkod illustrerar hur man upptäcker ett filformat (med sökvägen) och kontrollerar dess tillägg. Du kan också avgöra om filen är krypterad.
 

@@ -10,7 +10,7 @@ url: /sv/net/aspose-cells-for-net-v4-7-0-new-release-release-notes/
 
 {{% /alert %}}
 
-Vi är glada att kunna meddela Aspose.Cells för .NET 4.7.0!
+Vi är glada att meddela Aspose.Cells for .NET 4.7.0!
 
 Vad har ändrats:
 

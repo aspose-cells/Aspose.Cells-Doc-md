@@ -6,7 +6,7 @@ url: /zh/reportingservices/preface/
 ---
 {{% alert color="primary" %}} 
 
-Reporting Services 的 Aspose.Cells 主要包含两个组件：Aspose.Cells.Report.Designer 和 Aspose.Cells.Renderer for Reporting Services。前者用于直接在Microsoft Excel中设计报表，后者负责渲染一个RDL报表到Microsoft Excel。
+Aspose.Cells for Reporting Services主要包含两个组件：Aspose.Cells.Report.Designer和Aspose.Cells.Renderer for Reporting Services。前者用于直接在Microsoft Excel中设计报表，后者负责将RDL报表渲染到Microsoft Excel。
 
 {{% /alert %}} 
 ### **使用报表设计器设计报表**

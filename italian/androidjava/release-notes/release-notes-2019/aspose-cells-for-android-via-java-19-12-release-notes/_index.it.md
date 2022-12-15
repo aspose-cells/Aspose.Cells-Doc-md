@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 19.12 Note di rilascio
+title: Aspose.Cells for Android via Java Note sulla versione 19.12
 type: docs
 weight: 10
 url: /it/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 19.12.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 19.12.
 
 {{% /alert %}} 
 
@@ -53,8 +53,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException durante il caricamento del file Excel|Eccezione|
 |CELLSJAVA-43060|Eccezione "java.lang.NullPointerException" su Workbook.save dopo aver impostato l'origine dati esterna come vuota|Eccezione|
 |CELLSJAVA-42923|Eccezioni durante il caricamento del documento XLS|Eccezione|
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo Cells.RemoveDuplicates()**
 Rimuove i dati duplicati dell'intervallo.
 ### **Aggiunge la proprietà OleObject.FullObjectBin**
@@ -104,7 +104,7 @@ Utilizzare invece la proprietà DataLabels.ShowSeriesName.
 ### **Elimina la proprietà DataLabels.IsLegendKeyShown obsoleta**
 Usare invece la proprietà DataLabels.ShowLegendKey.
 ### **Aggiunge l'opzione LoadOptions.KeepUnparsedData**
-L'opzione indica se conservare i dati non analizzati in memoria per la cartella di lavoro quando viene caricata da un file modello. Se gli utenti non hanno bisogno di salvare completamente la cartella di lavoro, specialmente quando hanno solo bisogno di leggere alcuni contenuti speciali della cartella di lavoro (come da qualche tipo di LoadFilter), i dati non analizzati non sono più necessari e possono impostare questa proprietà come false per ottenere prestazioni migliori. Per le versioni precedenti, durante il caricamento della cartella di lavoro da un file modello con LoadFilter specificato dall'utente, per motivi di prestazioni i dati non analizzati non venivano conservati. Ora forniamo questa opzione e rendiamo vero il suo valore predefinito, potrebbe influenzare le prestazioni dei casi di utilizzo di LoadFilter da parte degli utenti. In tal caso, gli utenti devono impostare questa proprietà come false in modo esplicito nella loro applicazione.
+L'opzione indica se conservare i dati non analizzati in memoria per la cartella di lavoro quando viene caricata da un file modello. Se gli utenti non hanno bisogno di salvare completamente la cartella di lavoro, specialmente quando hanno solo bisogno di leggere alcuni contenuti speciali della cartella di lavoro (come da qualche tipo di LoadFilter), i dati non analizzati non sono più necessari e possono impostare questa proprietà come false per ottenere prestazioni migliori. Per le versioni precedenti, durante il caricamento della cartella di lavoro da un file modello con LoadFilter specificato dall'utente, per considerazioni sulle prestazioni i dati non analizzati non venivano conservati. Ora forniamo questa opzione e rendiamo vero il suo valore predefinito, potrebbe influenzare le prestazioni dei casi di utilizzo di LoadFilter da parte degli utenti. In tal caso, gli utenti devono impostare questa proprietà come false in modo esplicito nella loro applicazione.
 ### **Aggiunge l'opzione LoadDataFilterOptions.Picture**
 L'opzione che indica se l'immagine deve essere caricata.
 ### **Aggiunge l'opzione LoadDataFilterOptions.OleObject**

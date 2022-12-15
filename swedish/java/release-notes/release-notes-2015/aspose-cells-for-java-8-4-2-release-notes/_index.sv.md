@@ -1,131 +1,131 @@
 ﻿---
-title: Aspose.Cells för Java 8.4.2 Release Notes
+title: Aspose.Cells for Java 8.4.2 Notas de la versión
 type: docs
 weight: 60
 url: /sv/java/aspose-cells-for-java-8-4-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 8.4.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.4.2/)
+ Esta página contiene notas de la versión para[Aspose.Cells for Java 8.4.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.4.2/)
 
 {{% /alert %}} 
 
- Följande är en lista över förbättringar och ändringar i denna version av Aspose.Cells
+ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 
 
 \1) Aspose.Cells 
 
 
-## **Andra förbättringar och förändringar**
+## **Otras mejoras y cambios**
 
-## **Nya egenskaper**
+## **Nuevas características**
 
 
- (CELLSJAVA-41289) - Enkelt sätt för sjökortsinställning
+ (CELLSJAVA-41289): forma fácil de configurar el gráfico
 
 
-## **Buggar**
+## **Insectos**
 
 
- (CELLSJAVA-41323) - Vattenstämplar visas inte korrekt
+ (CELLSJAVA-41323) - Las marcas de agua no se muestran correctamente
 
- (CELLSJAVA-41319) - Slicer tas bort i Excel 2010/2013 efter spara
+ (CELLSJAVA-41319): la segmentación se elimina en Excel 2010/2013 después de guardar
 
- (CELLSJAVA-41317) - Versaler som skapats med funktionen "versaler" i Excel bevaras inte i PDF
+ (CELLSJAVA-41317): los caracteres en mayúsculas creados a través de la funcionalidad "Todo en mayúsculas" en Excel no se conservan en PDF
 
- (CELLSJAVA-41315) - Återgivning av former på sidan 5 är inte korrekt
+ (CELLSJAVA-41315): la representación de formas en la página 5 no es correcta
 
- (CELLSJAVA-41308) - Formplatsen är fel vid rendering av kalkylark till PDF-format
+ (CELLSJAVA-41308): la ubicación de la forma es incorrecta al representar la hoja de cálculo en formato PDF
 
- (CELLSJAVA-41282) - Pilhuvuden förstoras när kalkylblad med ritningar konverteras till PDF
+ (CELLSJAVA-41282): las puntas de flecha se amplían al convertir una hoja de cálculo con dibujos a PDF
 
-(CELLSJAVA-41249) - WordArt återges inte bra i utdata-PDF-filen
+(CELLSJAVA-41249) - WordArt no se muestra bien en el archivo PDF de salida
 
- (CELLSJAVA-41243) - Horisontell text i formerna renderas vertikalt medan kalkylblad konverteras till PDF
+ (CELLSJAVA-41243): el texto horizontal en las formas se representa verticalmente al convertir la hoja de cálculo a PDF
 
- (CELLSJAVA-41242) - Ritningen är förstörd när kalkylarket renderas till PDF
+ (CELLSJAVA-41242): el dibujo se desordena al procesar la hoja de cálculo en PDF
 
- (CELLSJAVA-41241) - Cirkelformer konverteras till ovaler samtidigt som kalkylbladet renderas till PDF
+ (CELLSJAVA-41241): las formas circulares se convierten en óvalos al representar la hoja de cálculo en PDF
 
- (CELLSJAVA-41233) - Ritobjekt och former i Excel-mall renderas inte bra i utdata-PDF med Aspose.Cells
+ (CELLSJAVA-41233): los objetos de dibujo y las formas en la plantilla de Excel no se representan correctamente en el PDF de salida con Aspose.Cells
 
- (CELLSJAVA-41302) - Senaste Aspose-versionen misslyckas med att spara filen som sparats genom tidigare version
+ (CELLSJAVA-41302) - La última versión Aspose no puede guardar el archivo guardado en la versión anterior
 
- (CELLSJAVA-41299) - Filen blir korrupt när xls sparas i xlsx-format
+ (CELLSJAVA-41299) - El archivo se corrompe cuando xls se guarda en formato xlsx
 
- (CELLSJAVA-41284) - Workbook.copy() korrumperar utdata excel-filen
+ (CELLSJAVA-41284) - Workbook.copy() corrompe el archivo de salida de Excel
 
- (CELLSJAVA-41283) - Beräkningsbugg med ELLER-funktion
+ (CELLSJAVA-41283): error de cálculo con la función OR
 
- (CELLSJAVA-41281) - Automatisk anpassning av kolumner träder inte i kraft med ett fåtal celler med alternativet ShrinkToFit på
+ (CELLSJAVA-41281): la operación de ajuste automático de columnas no tiene efecto con algunas celdas con la opción ShrinkToFit activada
 
- (CELLSJAVA-41313) - Heldragna linjer visas som prickade linjer
+ (CELLSJAVA-41313): las líneas sólidas se muestran como líneas punteadas
 
-(CELLSJAVA-41306) - Excel till PDF-konverteringsproblem - höger sida avskuren
+(CELLSJAVA-41306) - Problema de conversión de Excel a PDF - lado derecho cortado
 
- (CELLSJAVA-41316) - Vissa dataetiketter saknas i den renderade HTML-filen vid kopiering av arbetsbok
+ (CELLSJAVA-41316): faltan algunas etiquetas de datos en el archivo HTML representado al copiar el libro de trabajo
 
- (CELLSJAVA-41314) - DataLabels i diagrammet visas inte i den renderade EMF-bilden
+ (CELLSJAVA-41314): las etiquetas de datos en el gráfico no se muestran en la imagen EMF renderizada.
 
- (CELLSJAVA-41311) - Saknar diagrams axeletiketter vid konvertering till EMF
+ (CELLSJAVA-41311): faltan las etiquetas del eje del gráfico al convertir a EMF
 
- (CELLSJAVA-41301) - Hebreiska tecken i "smart art" som finns i excel speglas i PDF-återgivning
+ (CELLSJAVA-41301): los caracteres hebreos en 'arte inteligente' presentes en Excel se reflejan en la versión PDF
 
- (CELLSJAVA-41300) - Felaktiga cirkeldiagramdata när de återges via Aspose
+ (CELLSJAVA-41300): datos de gráfico circular incorrectos cuando se procesan a través de Aspose
 
- (CELLSJAVA-41285) - Höjd på diagrammets plotområde ökar efter att ha kombinerat arbetsböcker
+ (CELLSJAVA-41285): la altura del área de trazado del gráfico aumenta después de combinar libros de trabajo
 
- (CELLSJAVA-41277) - Att endast rendera cirkeldiagram resulterar i en tom PDF
+ (CELLSJAVA-41277): la representación de un gráfico circular solo da como resultado un PDF en blanco
 
- (CELLSJAVA-41276) - Chart.toImage genererar en tom bild för cirkeldiagram
+ (CELLSJAVA-41276): Chart.toImage genera una imagen en blanco para el gráfico circular
 
- (CELLSJAVA-41275) - Två av axeletiketterna saknas i den resulterande EMF vid konvertering av diagram till bild
+ (CELLSJAVA-41275): faltan dos de las etiquetas del eje en el EMF resultante al convertir el gráfico en imagen
 
- (CELLSJAVA-40606) - Den renderade bilden av diagrammet stämmer inte (diagram till bild)
+ (CELLSJAVA-40606): la imagen renderizada del gráfico no es correcta (Gráfico a imagen)
 
-(CELLSJAVA-40368) - Chart.calculate() förlägger X- och Y-axeletiketter
+(CELLSJAVA-40368) - Chart.calculate() extravía las etiquetas de los ejes X e Y
 
 
-## **Undantag**
+## **Excepciones**
 
 
- (CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Index: 2, Storlek: 2, vid Workbook ctro
+ (CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Índice: 2, Tamaño: 2, en Workbook ctro
 
- (CELLSJAVA-41307) - java.lang.ArrayIndexOutOfBoundsException: -1 vid Workbook ctor när filen laddas som sparats med Aspose.Cells
+ (CELLSJAVA-41307) - java.lang.ArrayIndexOutOfBoundsException: -1 en Workbook ctor al cargar el archivo guardado con Aspose.Cells
 
- (CELLSJAVA-41280) - Undantag "java.lang.ArrayIndexOutOfBoundsException" inträffade för ett udda anpassat datumformat
+ (CELLSJAVA-41280): se produjo la excepción "java.lang.ArrayIndexOutOfBoundsException" para un formato de fecha personalizado impar
 
- (CELLSJAVA-41274) - java.lang.NullPointerException vid Workbook.save efter upprepade laddnings- och sparaåtgärder
+ (CELLSJAVA-41274) - java.lang.NullPointerException en Workbook.save después de operaciones repetidas de carga y guardado
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Public API y cambios incompatibles con versiones anteriores**
 
 
- Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+ La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 
 
 
- Lägger till VbaModuleCollection.Add metoder
+ Agrega métodos VbaModuleCollection.Add
 
- Lägger till VBA-modul.
+ Agrega módulo VBA.
 
 
 
- Lägger till åsidosättande Cells.CopyColumns() metoder.
+ Agrega la anulación de los métodos Cells.CopyColumns().
 
- Kopierar några kolumner.
+ Copia algunas columnas.
 
 
 
-Lägger till PasteType.Default och PasteType.DefaultExceptBorders uppräkningar.
+Agrega las enumeraciones PasteType.Default y PasteType.DefaultExceptBorders.
 
- Den används för att kopiera intervall som "Alla" och "Alla utom gränser" i MS Excel.
+ Se usa para copiar el rango como "Todos" y "Todos excepto los bordes" en MS Excel.
 
 
 
 
 
- Notera
+ Nota
 
- Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.4.2 också inkluderade i denna Aspose.Cells för Java v8.4.2.
+ Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v8.4.2 también se incluyen en este Aspose.Cells for Java v8.4.2.

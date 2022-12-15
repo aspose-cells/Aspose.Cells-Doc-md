@@ -30,6 +30,6 @@ url: /ar/cpp/manage-worksheets/
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-AccessingWorksheetsUsingSheetIndex.cpp" >}}
 ## **إزالة أوراق العمل باستخدام فهرس الورقة**
- تعمل إزالة أوراق العمل حسب الاسم بشكل جيد عندما يكون اسم ورقة العمل معروفًا. إذا كنت لا تعرف اسم ورقة العمل ، فاستخدم إصدارًا محملاً بشكل زائد من ملف[RemoveAt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection#addabcc7d7d76874694018fb3ba37b72c)الأسلوب الذي يأخذ فهرس ورقة ورقة العمل بدلاً من اسم الورقة الخاص بها.
+ تعمل إزالة أوراق العمل حسب الاسم بشكل جيد عندما يكون اسم ورقة العمل معروفًا. إذا كنت لا تعرف اسم ورقة العمل ، فاستخدم إصدارًا محملاً بشكل زائد من ملف[RemoveAt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection#addabcc7d7d76874694018fb3ba37b72c)الطريقة التي تأخذ فهرس ورقة العمل بدلاً من اسم الورقة الخاص بها.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex.cpp" >}}

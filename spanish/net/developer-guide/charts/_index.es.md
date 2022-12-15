@@ -25,13 +25,13 @@ Antes de crear gráficos, es importante comprender algunos conceptos básicos qu
 
 #### **Objetos de gráficos**
 
-Aspose.Cells proporciona un conjunto especial de clases en el[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) espacio de nombres utilizado para crear los gráficos admitidos por Aspose.Cells. Estas clases se utilizan para crear**graficar objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
+Aspose.Cells proporciona un conjunto especial de clases en el[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) espacio de nombres utilizado para crear los gráficos admitidos por Aspose.Cells. Estas clases se utilizan para crear**graficando objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
 
-- Serie, una sola serie de datos en un gráfico.
+- Serie, una única serie de datos en un gráfico.
 - Axis, el eje de un gráfico.
 - Gráfico, un solo gráfico de Excel.
 - ChartArea, el área del gráfico en la hoja de cálculo.
-- ChartDataTable, una tabla de datos de gráfico.
+- ChartDataTable, una tabla de datos de gráficos.
 - ChartFrame, el objeto de marco en un gráfico.
 - ChartPoint, un solo punto en una serie en un gráfico.
 - ChartPointCollection, una colección que contiene todos los puntos de una serie.
@@ -154,7 +154,7 @@ Cuando asigna un rango de celdas como fuente de datos, solo puede establecer el 
 
 #### **Gráfico piramidal**
 
-Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de trabajo.
+Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
 

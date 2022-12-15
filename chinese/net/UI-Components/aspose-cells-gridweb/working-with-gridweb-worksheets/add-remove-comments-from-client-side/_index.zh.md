@@ -10,7 +10,7 @@ url: /zh/net/add-remove-comments-from-client-side/
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb 现在支持从客户端添加和删除评论。为此，API 提供了“addcomments”和“delcomments”功能。以下代码片段演示了在 GridWeb 中从客户端添加和删除注释。
+Aspose.Cells GridWeb 现在支持从客户端添加和删除评论。为此，API 提供了“addcomments”和“delcomments”功能。以下代码片段演示了在 GridWeb 中从客户端添加和删除评论。
 
 ## 示例代码
 

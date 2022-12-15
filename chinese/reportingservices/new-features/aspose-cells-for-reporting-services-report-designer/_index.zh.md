@@ -1,5 +1,5 @@
 ﻿---
-title: Reporting Services 报表设计器 Aspose.Cells
+title: Aspose.Cells for Reporting Services 报表设计器
 type: docs
 weight: 100
 url: /zh/reportingservices/aspose-cells-for-reporting-services-report-designer/

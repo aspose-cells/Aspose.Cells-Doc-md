@@ -38,7 +38,7 @@ Cell cell = cells.Find("SH", null, findOptions);
 Console.WriteLine("Name of the cell containing String: " + cell.Name);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**أوجد القيمة في Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 21.9 Release Notes
+title: Aspose.Cells for .NET 21.9 Release Notes
 type: docs
 weight: 4
 url: /sv/net/aspose-cells-for-net-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 21.9](https://www.nuget.org/packages/Aspose.Cells/21.9.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 21.9](https://www.nuget.org/packages/Aspose.Cells/21.9.0).
 
 {{% /alert %}}
 
@@ -20,7 +20,7 @@ url: /sv/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49011|Snabba upp celliteratoråtkomst för rendering för GridDesktop|Prestanda|
 |CELLSNET-48915|Minneslöst undantag vid återgivning av kalkylblad till bild|Prestanda|
 |CELLSNET-47663|Excel-dokument konverteras inte till html|Prestanda|
-|CELLSNET-48506|Förbättra prestanda för att skriva .ods-fil.|Prestanda|
+|CELLSNET-48506|Förbättra prestandan för att skriva .ods-fil.|Prestanda|
 |CELLSNET-48645| Text inuti en pilform fick fel position|Insekt|
 |CELLSNET-48475|Pivottabellens uppdatering fungerar inte korrekt|Insekt|
 |CELLSNET-48711|Exportera den zoomade xlsx till html.|Insekt|
@@ -30,7 +30,7 @@ url: /sv/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNETCORE-137|Pilspets saknas vid konvertering av Excel till SVG|Insekt|
 |CELLSNET-49045|Felaktig cellhöjd observerades i GridWeb när den bifogade filen laddades|Insekt|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode fungerar inte|Insekt|
-|CELLSNET-40974| Excel till Xps-konvertering: länken är inte klickbar efter konverteringen .NET|Insekt|
+|CELLSNET-40974| Excel till Xps-konvertering: länken är inte klickbar efter konvertering gjord .NET|Insekt|
 |CELLSNET-48540| Linjer blev prickade på datafält i Emf/OfficeCompatibleEmf|Insekt|
 |CELLSNET-48609|Problem med teckensnittsskillnad när man jämför det med ExcelInterop-bilden|Insekt|
 |CELLSNET-48983| Ark till Emf lämnar kantkanterna felaktigt ritade|Insekt|
@@ -62,9 +62,9 @@ url: /sv/net/aspose-cells-for-net-21-9-release-notes/
 |
 
 
-## **Public API och bakåtinkompatibla ändringar**
+## **Offentlig API och bakåtinkompatibla ändringar**
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 ### **Lägger till egenskapen AutoFitterOptions.FormatStrategy.**
 

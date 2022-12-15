@@ -88,7 +88,7 @@ Mejora para el rango de procesamiento.
 #### **Agrega la enumeración ColorDepth y la propiedad ImageOrPrintOptions.TiffColorDepth**
 Obtiene o establece la profundidad de bits para que se aplique solo al guardar páginas en formato Tiff.
 #### **Sobrecarga el método WorkbookRender.ToImage()**
-Representa el libro de trabajo en una imagen por el índice de la página.
+Representa el libro de trabajo en imagen por el índice de la página.
 #### **Agrega el método Legend.LegendEntriesLabels()**
 Obtiene las etiquetas de las entradas de la leyenda después de llamar al método Chart.Calculate().
 #### **Añade el método CustomFilter.SetCriteria(FilterOperatorType filterOperator, criterio de objeto)**

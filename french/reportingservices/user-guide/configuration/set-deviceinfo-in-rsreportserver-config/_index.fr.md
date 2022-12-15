@@ -25,4 +25,4 @@ Lorsque la valeur est true, elle affiche l'élément d'en-tête de rapport dans 
 - **NoDoPageForSimpleOutPut** 
  La valeur par défaut est true. La valeur prend uniquement en charge l'extension Excel2007Xlsx (données uniquement).
 - **Délimiteur de champ** 
- Il définit les délimiteurs de champs. La valeur prend en charge les extensions CSV et TXT.
+ Il définit les délimiteurs de champ. La valeur prend en charge les extensions CSV et TXT.

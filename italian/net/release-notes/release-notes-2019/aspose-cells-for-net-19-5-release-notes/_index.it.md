@@ -28,16 +28,16 @@ url: /it/net/aspose-cells-for-net-19-5-release-notes/
 |CELLSNET-46720|La struttura della pagina è danneggiata nell'ultima pagina nella conversione da Excel a PDF|Insetto|
 |CELLSNET-46727|Numerazione delle pagine errata durante il salvataggio della cartella di lavoro come PDF|Insetto|
 |CELLSNET-46700|Le etichette dei dati del grafico a torta si sovrappongono l'una all'altra|Insetto|
-|CELLSNET-46696|La conversione di XLS con grafico grafico Microsoft in XLSX e XLSM causa un errore di contenuto illeggibile|Insetto|
+|CELLSNET-46696|La conversione di XLS con Microsoft graph chart in XLSX e XLSM causa un errore di contenuto illeggibile|Insetto|
 |CELLSNET-46697|La conversione di XLSM con oggetto OLE in XLS causa un errore|Insetto|
-|CELLSNET-46712|La conversione di XLS con grafico grafico Microsoft in XLSX e XLSM causa un errore di contenuto illeggibile|Insetto|
+|CELLSNET-46712|La conversione di XLS con Microsoft graph chart in XLSX e XLSM causa un errore di contenuto illeggibile|Insetto|
 |CELLSNET-46715|Cells.InsertCutCells() Problema|Insetto|
 |CELLSNET-46725|"_x000a_" la stringa viene aggiunta nella descrizione del testo alternativo del grafico multilinea|Insetto|
 |CELLSNET-46683|Eccezione durante il rendering di un file Excel in PDF|Eccezione|
 |CELLSNET-46690|Viene generata un'eccezione durante il caricamento della cartella di lavoro di Excel da Shape.ForeignData (Diagram)|Eccezione|
 |CELLSNET-46728|Eccezione durante il salvataggio del flusso come cartella di lavoro|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il costruttore StreamProviderOptions**
 Nuove opzioni StreamProvider.
 #### **Aggiunge l'enumerazione FileFormatType.GraphChart**

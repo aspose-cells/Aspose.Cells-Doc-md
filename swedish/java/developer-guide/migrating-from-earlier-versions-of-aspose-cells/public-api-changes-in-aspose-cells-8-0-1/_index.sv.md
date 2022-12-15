@@ -1,12 +1,12 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.0.1
+title: Offentlig API Ändringar i Aspose.Cells 8.0.1
 type: docs
 weight: 30
 url: /sv/java/public-api-changes-in-aspose-cells-8-0-1/
 ---
 {{% alert color="primary" %}} 
 
-Dessa sidor listar offentliga API-ändringar som introducerades i Aspose.Cells 8.0.1. Den innehåller inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka befintlig kod. Varje beteende som introduceras som kan ses som en regression och modifierar existerande beteende är särskilt viktigt och dokumenteras här.
+Dessa sida listar offentliga API ändringar som infördes i Aspose.Cells 8.0.1. Den innehåller inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka befintlig kod. Varje beteende som introduceras som kan ses som en regression och modifierar existerande beteende är särskilt viktigt och dokumenteras här.
 
 {{% /alert %}} 
 ## **MemorySetting-egenskap tillagd till Cells-klassen**

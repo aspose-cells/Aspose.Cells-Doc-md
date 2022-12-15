@@ -12,7 +12,7 @@ Aspose.Cells permet à l'utilisateur d'afficher et de masquer les éléments d'u
 
 ## **Afficher et masquer une feuille de calcul**
 
- Un fichier Excel peut contenir une ou plusieurs feuilles de calcul. Chaque fois que nous créons un fichier Excel, nous ajoutons des feuilles de calcul au fichier Excel dans lequel nous travaillons. Chaque feuille de calcul dans un fichier Excel est indépendante de l'autre feuille de calcul en ayant ses propres données et paramètres de formatage, etc. Parfois, les développeurs peuvent avoir besoin de masquer quelques feuilles de calcul et d'autres visibles dans le fichier Excel pour leur propre intérêt. Alors,**Aspose.Cells** permet aux développeurs de contrôler la visibilité des feuilles de calcul dans leurs fichiers Excel.
+ Un fichier Excel peut contenir une ou plusieurs feuilles de calcul. Chaque fois que nous créons un fichier Excel, nous ajoutons des feuilles de calcul au fichier Excel dans lequel nous travaillons. Chaque feuille de calcul dans un fichier Excel est indépendante de l'autre feuille de calcul en ayant ses propres paramètres de données et de formatage, etc. Parfois, les développeurs peuvent avoir besoin de masquer quelques feuilles de calcul et d'autres visibles dans le fichier Excel pour leur propre intérêt. Alors,**Aspose.Cells** permet aux développeurs de contrôler la visibilité des feuilles de calcul dans leurs fichiers Excel.
 
 **Contrôle de la visibilité des feuilles de travail :**
 

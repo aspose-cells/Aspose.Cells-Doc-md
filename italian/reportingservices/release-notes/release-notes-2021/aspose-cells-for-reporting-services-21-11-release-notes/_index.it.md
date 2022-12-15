@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells per Reporting Services 21.11 Nota di rilascio
+title: Aspose.Cells for Reporting Services Nota di rilascio 21.11
 second_title: Aspose.Cells Reporting Services Documen
 type: docs
 url: /it/reportingservices/aspose-cells-for-reporting-services-21-11-release-notes/

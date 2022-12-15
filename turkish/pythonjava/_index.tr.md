@@ -1,30 +1,30 @@
 ﻿---
-title: Java üzerinden Python için Aspose.Cells
+title: Aspose.Cells for Python via Java
 type: docs
 weight: 70
 url: /tr/python-java/
 is_root: true
-description: Python için Aspose.Cells, işletmenizin her gün kullandığı popüler elektronik tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya formatlarını destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+description: Aspose.Cells for Python, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
 ---
 {{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_1)**
 
-**Java aracılığıyla Python için Aspose.Cells'e hoş geldiniz**
+**Hoşgeldiniz Aspose.Cells for Python via Java**
 
-Java aracılığıyla Python için Aspose.Cells, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Python üzerinden Java için Aspose.Cells, işletmenizin her gün kullandığı popüler elektronik tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya formatlarını destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+Aspose.Cells for Python via Java, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Aspose.Cells for Python via Java, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
 
 {{% /alert %}}
 
-## **Java Kaynakları aracılığıyla Python için Aspose.Cells**
+## **Aspose.Cells for Python via Java Kaynaklar**
 
 Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz bazı yararlı kaynakların bağlantıları bulunmaktadır.
 
-- [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Python üzerinden Java için Aspose.Cells, Aspose.Cells for Java'e çok benzer. Yani aynı belgeleri kullanabilirsiniz)
-- [Java aracılığıyla Python için Aspose.Cells Özellikler](/cells/tr/pythonjava/features/)
-- [Java aracılığıyla Python için Aspose.Cells Sürüm Notları](/cells/tr/pythonjava/release-notes/)
-- [Java Ürün Sayfası aracılığıyla Python için Aspose.Cells](https://products.aspose.com/cells/python-java/)
-- [Java aracılığıyla Python için Aspose.Cells'i indirin](https://downloads.aspose.com/cells/python-java)
-- [Java API üzerinden Python için Aspose.Cells Referans Kılavuzu](https://reference.aspose.com/cells/python)
-- [Java Ücretsiz Destek Forumu aracılığıyla Python için Aspose.Cells](https://forum.aspose.com/c/cells/9)
-- [Java Ücretli Destek Yardım Masası aracılığıyla Python için Aspose.Cells](https://helpdesk.aspose.com/)
+- [Aspose.Cells for Java Çevrimiçi Dokümantasyon](/cells/tr/java/)(Aspose.Cells for Python via Java, Aspose.Cells for Java'e çok benzer. Yani aynı belgeleri kullanabilirsiniz)
+- [Aspose.Cells for Python via Java Özellikler](/cells/tr/pythonjava/features/)
+- [Aspose.Cells for Python via Java Sürüm Notları](/cells/tr/pythonjava/release-notes/)
+- [Aspose.Cells for Python via Java Ürün Sayfası](https://products.aspose.com/cells/python-java/)
+- [İndir Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
+- [Aspose.Cells for Python via Java API Başvuru Kılavuzu](https://reference.aspose.com/cells/python)
+- [Aspose.Cells for Python via Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Python via Java Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)

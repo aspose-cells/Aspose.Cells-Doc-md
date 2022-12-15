@@ -1,5 +1,5 @@
 ﻿---
-title: HTML5-kalkylarksredigerare av Aspose.Cells för Java
+title: HTML5-kalkylarksredigerare av Aspose.Cells for Java
 type: docs
 weight: 10
 url: /sv/java/html5-spreadsheet-editor-by-aspose-cells-for-java/

@@ -4,24 +4,24 @@ type: docs
 weight: 20
 url: /tr/reportingservices/using-dll-only/
 ---
-## Yalnızca DLL kullanılarak Raporlama Hizmetleri için Aspose.Cells nasıl kurulur:
+## Yalnızca DLL kullanılarak Aspose.Cells for Reporting Services nasıl kurulur:
 
--  Raporlama Hizmetleri için Aspose.Cells'i ziyaret edin[indirme sayfası](https://downloads.aspose.com/cells/reportingservices) ve indir**Raporlama Hizmetleri için Aspose.Cells (zip)** bileşenin en son sürümünü ve yüklü belgeleri içeren arşiv.
+- Aspose.Cells for Reporting Services'i ziyaret edin[indirme sayfası](https://downloads.aspose.com/cells/reportingservices) ve indir**Aspose.Cells for Reporting Services (zip)** bileşenin en son sürümünü ve yüklü belgeleri içeren arşiv.
  - Aspose.Cells.ReportingServices.DLLs_xx.xx.zip içinde 7 çeşit Aspose.Cells.ReprotingSerivces.dll sürümü vardır. Farklı Microsoft rapor sunucusu ürünlerini desteklerler.
  - SSRS2005 klasöründeki Aspose.Cells.ReportingServices.dll Microsoft SQL Server 2005 Raporlama Hizmetlerini destekler.
  - SSRS2008 klasöründeki Aspose.Cells.ReportingServices.dll Microsoft SQL Server 2008 Raporlama Hizmetlerini destekler.
  - SSRS2008R2 klasöründeki Aspose.Cells.ReportingServices.dll Microsoft SQL Server 2008R2/2012/2014 Raporlama Servislerini destekler.
- SSRS2016 klasöründeki Aspose.Cells.ReportingServices.dll Microsoft SQL Server 2016/2017/2019 Raporlama Servislerini destekler.
+ - SSRS2016 klasöründeki Aspose.Cells.ReportingServices.dll Microsoft SQL Server 2016/2017/2019 Raporlama Servislerini destekler.
    
 - Arşivi, sabit sürücünüzdeki bir dizine paketinden çıkarın.
 
-- Raporlama Hizmetleri Rapor Tasarımcısı için Aspose.Cells'i yükleyin:
- - Kayıt ol**Aspose.Cells.ReportingServices.Client.dll** Regasm.exe yardımcı programını kullanarak.
- - Excel'de Raporlama Hizmetleri eklentisi için Aspose.Cells ekleyin.
+- Aspose.Cells for Reporting Services Rapor Tasarımcısını yükleyin:
+ - Kayıt ol**Aspose.Cells.ReportingServices.Client.dll**Regasm.exe yardımcı programını kullanarak.
+ - Excel'de Aspose.Cells for Reporting Services eklentisini ekleyin.
    
-- Microsoft SQL Server Raporlama Hizmetleri için Raporlama Hizmetleri için Aspose.Cells'i yükleyin hizmetler bileşeni:
+- Microsoft SQL Server Reporting Services için Aspose.Cells for Reporting Services'i yükleyin hizmetler bileşeni:
  - Koy**Aspose.Cells.ReportingServices.dll** ${Microsoft SQL Server Reporting Services kurulum klasörü}\ReportServer\bin klasörüne.
- - Raporlama Hizmetleri oluşturucu uzantıları için Aspose.Cells ekleyin:
+ - Aspose.Cells for Reporting Services işleyici uzantılarını ekleyin:
  - Açık**${Microsoft SQL Server Raporlama Hizmetleri kurulum klasörü}\ReportServer\rsreportserver.config**
  - Aşağıdaki satırları içine ekleyin<Render>……</Render> eleman:
 {{< highlight "xml" >}}
@@ -76,7 +76,7 @@ url: /tr/reportingservices/using-dll-only/
 </Render>
 
 {{< /highlight >}}
- - Yürütmek üzere Raporlama Hizmetleri izinleri için Aspose.Cells ekleyin:
+ - Yürütmek için Aspose.Cells for Reporting Services izinlerini ekleyin:
  - Açık**${Microsoft SQL Server Raporlama Hizmetleri kurulum klasörü}\ReportServer\rssrvpolicy.config** ve bir
  - Dışa ikincideki son öğe olarak aşağıdakini ekleyin<CodeGroup> eleman (olması gereken<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
@@ -106,16 +106,16 @@ url: /tr/reportingservices/using-dll-only/
 
 {{< /highlight >}}
 
-## Raporlama Hizmetleri için Aspose.Cells'in başarıyla yüklendiğini doğrulayın:
- 1. Rapor Yöneticisini açın ve bir rapor için mevcut dışa aktarma türleri listesini kontrol edin. (Bir tarayıcı açarak Rapor Yöneticisi'ni başlatın ve adres çubuğuna Rapor Yöneticisi URL'sini yazın. (Varsayılan olarak, URL http:// şeklindedir.)<ComputerName>/Raporlar).
+## Aspose.Cells for Reporting Services'in başarıyla yüklendiğini doğrulayın:
+1. Rapor Yöneticisini açın ve bir rapor için mevcut dışa aktarma türleri listesini kontrol edin. (Bir tarayıcı açarak Rapor Yöneticisi'ni başlatın ve adres çubuğuna Rapor Yöneticisi URL'sini yazın. (Varsayılan olarak, URL http:// şeklindedir.)<ComputerName>/Raporlar).
  1. Sunucudaki raporlardan birini seçin ve**Format Seç** liste.
- Raporlama Hizmetleri için Aspose.Cells tarafından sağlanan dışa aktarma biçimlerinin listesini görmelisiniz.
+ Aspose.Cells for Reporting Services tarafından sağlanan dışa aktarma biçimlerinin listesini görmelisiniz.
  1. Seçin**XLS – Aspose.Cells aracılığıyla Excel Çalışma Kitabı**.
  1. tıklayın**İhracat**.
  Rapor seçilen formatta oluşturulur.
  1. İstemciye gönderin ve uygun bir uygulamada açın. Bu durumda rapor Microsoft Excel'de açılır.
 
-Tebrikler, Reporting Services için Aspose.Cells'i başarıyla yüklediniz ve Microsoft Excel dosyası olarak bir rapor oluşturdunuz!
+Tebrikler, Aspose.Cells for Reporting Services'i başarıyla yüklediniz ve Microsoft Excel dosyası olarak bir rapor oluşturdunuz!
 
 
  Aspose.Cells.ReportingServices.DLLs_xx.xx.zip dosyasında 7 çeşit Aspose.Cells.ReprotingSerivces.dll sürümü vardır. Farklı Microsoft rapor sunucusu ürünlerini desteklerler.

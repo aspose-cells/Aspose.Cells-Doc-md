@@ -31,7 +31,7 @@ Bu hizalama ayarlarının tümü Aspose.Cells tarafından tam olarak desteklenme
 |**Metin Hizalama Türleri**|**Tanım**|
 |:- |:- |
 |Alt|Alt metin hizalamasını temsil eder|
-|Merkez|Merkez metin hizalamasını temsil eder|
+|merkez|Merkez metin hizalamasını temsil eder|
 |Merkez Boyunca|Metin hizalaması boyunca merkezi temsil eder|
 |dağıtılmış|Dağıtılmış metin hizalamasını temsil eder|
 |Doldurmak|Dolgu metni hizalamasını temsil eder|
@@ -91,7 +91,7 @@ Aşağıdaki bölümde, metin kaydırma, sığdırmak için küçültme ve diğe
 
 ##### **Birleştirme Cells**
 
- Microsoft Excel gibi, Aspose.Cells de birkaç hücrenin tek hücrede birleştirilmesini destekler. Aspose.Cells, bu görev için iki yaklaşım sunar. Bunun bir yolu,[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonun[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) yöntem. bu[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)yöntemi, hücreleri birleştirmek için aşağıdaki parametreleri alır:
+ Microsoft Excel gibi, Aspose.Cells de birkaç hücrenin tek hücrede birleştirilmesini destekler. Aspose.Cells, bu görev için iki yaklaşım sağlar. Bunun bir yolu,[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonun[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) yöntem. bu[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)yöntemi, hücreleri birleştirmek için aşağıdaki parametreleri alır:
 
 - İlk satır: Birleştirmenin başlayacağı ilk satır.
 - İlk sütun: birleştirmeye başlayacağınız ilk sütun.

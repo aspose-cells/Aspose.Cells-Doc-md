@@ -15,13 +15,13 @@ url: /zh/cpp/aspose-cells-for-cpp-18-4-release-notes/
 |CELLSCPP-53|支持绘图功能/模块|新功能|
 |CELLSCPP-57|实施 System.Drawing 库|新功能|
 |CELLSCPP-68|调试System.Drawing模块|新功能|
-|CELLSCPP-69|解决C++测试用例中的问题|新功能|
+|CELLSCPP-69|解决 C++ 测试用例中的问题|新功能|
 |CELLSCPP-70|解决System.Drawing模块类内存泄露问题|新功能|
 |CELLSCPP-73|写一个发布.h文件的方法|新功能|
-|CELLSCPP-75|实现C++功能：从流中绘制图像|新功能|
+|CELLSCPP-75|实现C++函数：从流中绘制图像|新功能|
 |CELLSCPP-76|实施 C++ 类：ComIStreamWrapper、Metafile|新功能|
 |CELLSCPP-77|调试 C++ 测试用例：副本|新功能|
-|CELLSCPP-78|解决C++测试用例中的问题：DigitalSignature、EnumTypes、Finds、Formulas、Hyperlinks模块|新功能|
+|CELLSCPP-78|解决 C++ 测试用例中的问题：DigitalSignature、EnumTypes、Finds、Formulas、Hyperlinks 模块|新功能|
 |CELLSCPP-79|解决C++发布版链接问题|新功能|
 |CELLSCPP-81|修复图形模块中的 FillPath 问题|新功能|
 |CELLSCPP-82|通过测试用例修复 System.Drawing 模块问题|新功能|
@@ -39,7 +39,7 @@ url: /zh/cpp/aspose-cells-for-cpp-18-4-release-notes/
 |CELLSCPP-108|打开文件并检查图表相关问题|新功能|
 |CELLSCPP-106|内存泄漏问题|漏洞|
 ### **公共 API 和向后不兼容的更改**
-以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells 为 C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请提出在 Aspose.Cells 支持论坛上。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **将所有方法（如“SetIs*”）重命名为“Set*”方法**
 重命名方法，例如在 IWorksheet 中将 SetIsOutlineShown 重命名为 SetIsOutlineShown，将 SetIsSelected 重命名为 SetSelected 等。有关详细信息，请参阅 API 参考指南。
 #### **将颜色更改为 System::Drawing::Color**

@@ -16,9 +16,9 @@ url: /sv/net/generate-chart-by-processing-smart-markers/
 
 ## Skapande av designerkalkylblad
 
-Ett designerkalkylblad är en enkel Excel-fil skapad med Microsoft Excel-applikationen eller Aspose.Cells API:er som innehåller visuell formatering, formler och smarta markörer, där innehållet kan fyllas i under körning.
+Ett designerkalkylblad är en enkel Excel-fil skapad med Microsoft Excel-applikation eller Aspose.Cells API:er som innehåller visuell formatering, formler och smarta markörer, där innehållet kan fyllas i under körning.
 
-För enkelhetens skull kommer vi att skapa designerkalkylarket med hjälp av Aspose.Cells för .NET API och senare bearbeta det mot en dynamiskt skapad datakälla för demonstrationsändamål.
+För enkelhetens skull kommer vi att skapa designerkalkylarket med hjälp av Aspose.Cells for .NET API och senare bearbeta det mot en dynamiskt skapad datakälla för demonstrationsändamål.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfDesignerSpreadsheet.cs" >}}
 

@@ -58,9 +58,9 @@ url: /it/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-47960|la nuova cartella di lavoro non riesce a generare un'eccezione: questo file Excel contiene record (Excel4.0 o formato di file precedente).|
 |CELLSNET-51227| System.FormatException. La stringa non è stata riconosciuta come DateTime valido durante il caricamento del file Excel di Suomi|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la classe CellsDataTableFactory**
 

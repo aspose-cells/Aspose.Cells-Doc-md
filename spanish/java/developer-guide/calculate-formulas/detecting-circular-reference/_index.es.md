@@ -16,7 +16,7 @@ Las referencias circulares solo se pueden detectar cuando se calcula la fórmula
 
 [**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): será invocado por el motor de cálculo de fórmulas cuando encuentre referencias circulares, el elemento en el enumerador es[**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) objetos que representan todas las celdas en un círculo. El valor devuelto indica si el motor de fórmulas necesita calcular esas celdas en circular después de esta llamada.
 
-El usuario podrá recoger dichas referencias circulares en la ejecución de[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) método.
+ El usuario podrá recoger dichas referencias circulares en la ejecución de[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) método.
 
 El archivo de muestra de origen se puede descargar desde el siguiente enlace:
 
@@ -24,6 +24,6 @@ El archivo de muestra de origen se puede descargar desde el siguiente enlace:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
- Definicion de*Monitor circular* clase que se deriva de[**ResumenCálculoMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) clase es la siguiente:
+Definicion de*Monitor circular* clase que se deriva de[**ResumenCálculoMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) clase es la siguiente:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

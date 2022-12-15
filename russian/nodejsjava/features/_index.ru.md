@@ -4,14 +4,14 @@ type: docs
 weight: 5
 url: /ru/nodejs-java/features/
 keywords: nodejs, excel, api, feature
-description: Aspose.Cells для Node.js через функции Java
+description: Aspose.Cells for Node.js via Java особенности
 ---
-## **Aspose.Cells для Node.js через Java Обзор функций**
-В этом разделе представлено сравнение доступности функций между Aspose.Cells for Java и Aspose.Cells для Node.js через Java.
+## **Aspose.Cells for Node.js via Java Обзор функций**
+В этом разделе представлено сравнение доступности функций между Aspose.Cells for Java и Aspose.Cells for Node.js via Java.
 ### **Форматы файлов и преобразования**
 Многие клиенты по всему миру полагаются на подробные функции импорта и экспорта документов, предоставляемые Aspose.Cells.
 
-|**Особенность**|**Описание**|**Aspose.Cells for Java**|**Aspose.Cells для Node.js через Java**|
+|**Особенность**|**Описание**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |:- |
 |Качественные конверсии|Быстро и надежно конвертируйте между несколькими популярными форматами документов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Книга Excel (XLS)|Самая быстрая и наиболее полная реализация формата XLS, которую вы можете найти.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -25,7 +25,7 @@ description: Aspose.Cells для Node.js через функции Java
 ### **Рендеринг и печать**
 Aspose.Cells теперь обеспечивает высокоточную визуализацию страниц электронных таблиц.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells для Node.js через Java**|
+|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |Разложите документ на страницы с высокой точностью до Microsoft Excel® (точно так же, как это сделает Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Преобразование страниц рабочего листа в растровые изображения (PNG, JPEG и т. д.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -37,7 +37,7 @@ Aspose.Cells теперь обеспечивает высокоточную ви
 ### **Особенности содержимого электронной таблицы**
 Aspose.Cells предоставляет богатую объектную модель, состоящую из более чем 100 общедоступных классов/интерфейсов, которые позволяют программно генерировать, комбинировать, изменять, анализировать или иным образом проверять загруженные электронные таблицы. Некоторые ключевые характеристики приведены в таблице ниже.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells для Node.js через Java**|
+|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |Импорт/экспорт данных из Array, ArrayList, ResultSet и т. д.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Добавьте копию существующего рабочего листа (все содержимое, включая изображения, диаграммы, другие объекты и т. д.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -76,7 +76,7 @@ Aspose.Cells предоставляет богатую объектную мод
 ### **Возможности форматирования электронных таблиц**
 Aspose.Cells обеспечивает подробный программный доступ к свойствам форматирования всех элементов электронной таблицы.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells для Node.js через Java**|
+|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |Примените форматирование всех символов в ячейках, включая шрифты, цвета, эффекты, границы и заливку.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Примените все настройки числового формата (поддерживаемые в Microsoft Excel) для ячеек.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -90,7 +90,7 @@ Aspose.Cells обеспечивает подробный программный 
 ### **Особенности настройки страницы**
 Вы можете использовать Aspose.Cells для реализации параметров настройки страницы для рабочих листов.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells для Node.js через Java**|
+|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |
 |Отрегулируйте ориентацию страницы, масштабирование, размер бумаги.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Укажите поля и центрирование страницы.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

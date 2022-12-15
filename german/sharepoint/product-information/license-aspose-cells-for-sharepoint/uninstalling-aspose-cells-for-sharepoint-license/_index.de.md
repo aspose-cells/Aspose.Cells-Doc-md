@@ -1,17 +1,17 @@
 ﻿---
-title: Deinstallieren von Aspose.Cells für die SharePoint-Lizenz
+title: Aspose.Cells for SharePoint Lizenz deinstallieren
 type: docs
 weight: 30
 url: /de/sharepoint/uninstalling-aspose-cells-for-sharepoint-license/
 ---
 {{% alert color="primary" %}} 
 
- Um die Lizenz Aspose.Cells für SharePoint zu deinstallieren, führen Sie bitte die folgenden Schritte von der Serverkonsole aus aus.
+ Um die Lizenz Aspose.Cells for SharePoint zu deinstallieren, führen Sie bitte die folgenden Schritte von der Serverkonsole aus aus.
 
 {{% /alert %}} 
 
 1. Ziehen Sie die Lizenzlösung aus der Farm zurück:
-stsadm.exe -o RetractSolution -Name Aspose.Cells.SharePoint.License.wsp -Immediate
+ stsadm.exe -o RetractSolution -Name Aspose.Cells.SharePoint.License.wsp -Immediate
 1. Führen Sie administrative Zeitgeberaufträge aus, um das Zurückziehen sofort abzuschließen:
  stsadm.exe -o execadmsvcjobs
 1. Warten Sie, bis das Zurückziehen abgeschlossen ist.

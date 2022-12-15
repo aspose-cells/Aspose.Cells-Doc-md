@@ -15,13 +15,13 @@ Bazen, Excel dosyası PDF'ye dönüştürüldüğünde, çıktı PDF'sinde çizg
 
  eğer kontrol**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**, çizgilerin kalınlığı farklıdır. Nasıl yapıldığını aşağıdaki adımlara bakın:
 
--  git**Düzenlemek**
+-  Git**Düzenlemek**
 -  Seçme**Tercihler**
 -  İçinde**Sayfa Görünümü** Kategori Kontrol et**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**
 
  İşareti kaldırırsanız**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**, çizgilerin kalınlığı aynıdır. Bunu başarmak için aşağıdaki adımları uygulamanız yeterlidir:
 
--  git**Düzenlemek**
+-  Git**Düzenlemek**
 -  Seçme**Tercihler**
 -  İçinde**Sayfa Görünümü** Kategori İşaretini kaldırın**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**
 ## **Büyük Elektronik Tabloları Yüklerken System.OutOfMemoryException Nasıl Düzeltilir?**

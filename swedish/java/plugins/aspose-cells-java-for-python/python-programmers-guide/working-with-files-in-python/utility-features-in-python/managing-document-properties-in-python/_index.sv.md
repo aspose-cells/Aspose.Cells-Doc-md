@@ -1,5 +1,5 @@
 ﻿---
-title: Hantera dokumentegenskaper i Python
+title: Hantera dokumentegenskaper på Python
 type: docs
 weight: 60
 url: /sv/java/managing-document-properties-in-python/
@@ -7,7 +7,7 @@ url: /sv/java/managing-document-properties-in-python/
 ## **Aspose.Cells - Hantera dokumentegenskaper**
 Utvecklare kan använda sig av**Index**eller**namn** av fastigheten för att få en specifik fastighet från en**anpassade_egenskaper**insamling som visas nedan i exemplet.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "python" >}}
 

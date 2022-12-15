@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 用于 Reporting Services 20.3 发行说明
+title: Aspose.Cells for Reporting Services 20.3 发行说明
 type: docs
 weight: 10
 url: /zh/reportingservices/aspose-cells-for-reporting-services-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Reporting Services 20.3 的 Aspose.Cells 发行说明。
+此页面包含 Aspose.Cells for Reporting Services 20.3 的发行说明。
 
 {{% /alert %}} 
 

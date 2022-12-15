@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 为 Python 通过 Java 21.2 发行说明
+title: Aspose.Cells for Python via Java 21.2 发行说明
 type: docs
 weight: 12
 url: /zh/python-java/aspose-cells-for-python-via-java-21-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Aspose.Cells 的发行说明，适用于 Python via Java 21.2。
+此页面包含 Aspose.Cells for Python via Java 21.2 的发行说明。
 
 {{% /alert %}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Raporlama Hizmetleri 19.9 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 19.9 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/reportingservices/aspose-cells-for-reporting-services-19-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, Reporting Services 19.9 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for Reporting Services 19.9 için sürüm notları içerir.
 
 {{% /alert %}} 
 
@@ -16,5 +16,5 @@ Bu sayfa, Reporting Services 19.9 için Aspose.Cells sürüm notlarını içerir
 |CELLSRS-562|Kenarlık stili, dışa aktarılan raporlardaki bir formülden ayarlanır.|Böcek|
 |CELLSRS-559|Önceki sürümle oluşturulan rapor açılmayacak.|Böcek|
 |CELLSRS-550|Aspose.Cells RS istemci aracından rapor açılırken çalışma zamanı hatası 429.|Böcek|
-|CELLSRS-543|Raporlama Hizmetleri için Aspose.Cells yüklendikten sonra işleme seçeneği yok.|Böcek|
+|CELLSRS-543|Aspose.Cells for Reporting Services yüklendikten sonra görüntü oluşturma seçeneği yok.|Böcek|
 

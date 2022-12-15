@@ -40,7 +40,7 @@ url: /it/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30809 - Includi più tipi di condizioni di formato (per la funzione di formattazione condizionale) durante il salvataggio del file XLS
 
- 31192 - Supporta il tipo di crittografia: RC4, Microsoft Provider crittografico avanzato 1.0 128 bit
+ 31192 - Supporta il tipo di crittografia: RC4, Microsoft Enhanced Cryptographic Provider 1.0 a 128 bit
 
  Eccezioni
 

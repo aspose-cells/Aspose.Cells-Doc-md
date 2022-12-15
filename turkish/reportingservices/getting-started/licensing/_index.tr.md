@@ -6,7 +6,7 @@ url: /tr/reportingservices/licensing/
 ---
 {{% alert color="primary" %}} 
 
- Raporlama Hizmetleri için Aspose.Cells numaralı telefondan ücretsiz, süresiz bir değerlendirme yapılabilir.[İndirme Sayfası](https://downloads.aspose.com/cells/reportingservices). Ürünün değerlendirme ve lisanslı versiyonları aynıdır.
+ Aspose.Cells for Reporting Services ücretsiz, sınırsız süreli değerlendirme olarak mevcuttur.[İndirme Sayfası](https://downloads.aspose.com/cells/reportingservices). Ürünün değerlendirme ve lisanslı versiyonları aynıdır.
 
 Değerlendirme sürümünden memnun olduğunuzda bir lisans satın alın. Abonelik hüküm ve koşullarını anladığınızdan ve kabul ettiğinizden emin olun.
 
@@ -34,7 +34,7 @@ Abonelik türünüze bağlı olarak lisans dosyasının adı aşağıdakilerden 
 
 Lisans dosyasının doğru yüklenip yüklenmediğini test etmek için herhangi bir raporu Microsoft Excel çalışma kitabı olarak dışa aktarın. Çalışma kitabı sonunda filigran çalışma sayfası içermiyorsa, lisans dosyası başarıyla etkinleştirilmiştir.
 
- Raporlama Hizmetleri için Aspose.Cells, değerlendirme modunda çalışırken bir değerlendirme filigranı çalışma sayfası enjekte eder. Geçerli bir lisans dosyası olduğunda, örneğin**Aspose.Cells.ReportingServices.lic** $[Kurulum Klasörü]\License\ klasöründeyse, değerlendirme filigranı çalışma sayfası yoktur.
+ Aspose.Cells for Reporting Services, değerlendirme modunda çalışırken bir değerlendirme filigranı çalışma sayfası enjekte eder. Geçerli bir lisans dosyası olduğunda, örneğin**Aspose.Cells.ReportingServices.lic** $[Kurulum Klasörü]\License\ klasöründeyse, değerlendirme filigranı çalışma sayfası yoktur.
 
 **Değerlendirme modunda oluşturulmuş bir dosya. İkinci çalışma sayfasını not edin.** 
 

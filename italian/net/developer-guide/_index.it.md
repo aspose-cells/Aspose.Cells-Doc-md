@@ -21,7 +21,7 @@ Questa Guida per gli sviluppatori fornisce informazioni sull'utilizzo di Aspose.
         <p>Aprire</p>
         <ul>
             <li><a href="/cells/it/net/different-ways-to-open-files/">Diversi modi per aprire i file</a></li>
-            <li><a href="/cells/it/net/opening-different-microsoft-excel-versions-files/">Apertura di diversi file di versioni di Excel Microsoft</a></li>
+            <li><a href="/cells/it/net/opening-different-microsoft-excel-versions-files/">Apertura di diversi file di versioni di Microsoft Excel</a></li>
             <li><a href="/cells/it/net/opening-files-with-different-formats/">Apertura di file con formati diversi</a></li>
             <li><a href="/cells/it/net/get-warnings-while-loading-excel-file/">Ricevi avvisi durante il caricamento del file Excel</a></li>
             <li><a href="/cells/it/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Leggi il foglio di calcolo dei numeri sviluppato da Apple Inc. utilizzando Aspose.Cells</a></li>
@@ -90,7 +90,7 @@ Questa Guida per gli sviluppatori fornisce informazioni sull'utilizzo di Aspose.
 		 <p>Filtro</p>
         <ul>
 		 <li><a href="/cells/it/net/data-filtering/">Filtraggio dei dati</a></li>
-         <li><a href="/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi</a></li>
+         <li><a href="/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi</a></li>
 		 <li><a href="/cells/it/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico</a></li>
         </ul>
         <p>Trova e seleziona</p>

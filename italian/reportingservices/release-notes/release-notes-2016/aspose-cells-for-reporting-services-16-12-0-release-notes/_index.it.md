@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells per Reporting Services 16.12.0 Note sulla versione
+title: Aspose.Cells for Reporting Services 16.12.0 Note di rilascio
 type: docs
 weight: 10
 url: /it/reportingservices/aspose-cells-for-reporting-services-16-12-0-release-notes/

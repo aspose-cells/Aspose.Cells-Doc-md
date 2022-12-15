@@ -13,7 +13,7 @@ Aspose.Cells fornisce il metodo setStyle nella classe Cell che viene utilizzato 
 
 Selezionare qualsiasi tipo di allineamento del testo utilizzando l'enumerazione TextAlignmentType.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF e XSSF - Cell Impostazioni di allineamento**
 HSSFCellStyle fornisce lo stile per l'allineamento nelle celle utilizzando Apache POI API.
 
-**Java**
+**Giava**
 
 {{< highlight "java" >}}
 

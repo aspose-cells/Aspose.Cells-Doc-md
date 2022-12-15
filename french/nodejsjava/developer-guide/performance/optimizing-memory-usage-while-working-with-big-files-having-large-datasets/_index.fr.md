@@ -14,7 +14,7 @@ Lors de la création d'un classeur avec de grands ensembles de données ou de la
 
 ## **Optimisation de la mémoire**
 
-L'exemple suivant montre comment optimiser l'utilisation de la mémoire tout en travaillant avec des données volumineuses dans Aspose.Cells pour Node.js via Java.
+L'exemple suivant montre comment optimiser l'utilisation de la mémoire tout en travaillant avec des données volumineuses dans Aspose.Cells for Node.js via Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 

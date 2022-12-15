@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Android über Java 18.12 Versionshinweise
+title: Aspose.Cells for Android via Java 18.12 Versionshinweise
 type: docs
 weight: 10
 url: /de/java/aspose-cells-for-android-via-java-18-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für Android über Java 18.12.
+Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.12.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für Android über Java 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 
-Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells für Android über Java vorgenommen wurden. Wenn Sie Bedenken hinsichtlich einer der aufgeführten Änderungen haben, wenden Sie sich bitte an uns Erheben Sie es im Aspose.Cells Support-Forum.
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Android via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
 
 **Fügt die HtmlSaveOptions.WidthScalable-Eigenschaft hinzu**
 
@@ -201,6 +201,6 @@ Verwenden Sie stattdessen die Methode ExportDataTable(firstRow,firstColumn, tota
 
 {{% alert color="primary" %}}
 
-Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.10, Aspose.Cells for .NET v18.11, Aspose.Cells for .NET v18. 12, Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 und Aspose.Cells for Java v18.12 sind ebenfalls in diesem Aspose.Cells für Android über Java v18.12 enthalten.
+Da die Codebasis von Aspose.Cells for Android via Java mit dem Code von Relevanten .NET und Java -Version (s), die meisten Änderungen, Verbesserungen und Fixes in der Aspose.Cells 076163381,, 076176183381, übereinstimmt, entspricht der Relevanz. Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 und Aspose.Cells for Java v18.12 sind ebenfalls in diesem Aspose.Cells for Android 0761193421 v18 enthalten.
 
 {{% /alert %}}

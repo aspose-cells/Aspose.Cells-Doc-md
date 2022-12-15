@@ -17,7 +17,7 @@ url: /tr/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 
 ![yapılacaklar:resim_alternatif_Metin](lbtci11.jpg)
 ### **Aspose.Cells Maven Proje Sihirbazı**
- Bu eklentiyi yüklemek yeni bir proje türü sunacak –
+Bu eklentiyi yüklemek yeni bir proje türü sunacak –
 
 ![yapılacaklar:resim_alternatif_Metin](aspose_small.png)
 
@@ -52,14 +52,14 @@ Ardından aşağıdaki adımları izleyin:
 
 `    `API'in örnek kullanım örneklerini indirmek için "Örnek Kaynak Kodunu da İndir" onay kutusunu seçebilirsiniz (yukarıdaki anlık görüntüde gösterildiği gibi)
 
- \6. sağlamak**proje Adı** ve**Konum** tıpkı herhangi bir Java uygulaması oluştururken olduğu gibi
+ \6. sağlamak**proje Adı** ve**Konum**tıpkı herhangi bir Java uygulaması oluştururken olduğu gibi
 
 ![yapılacaklar:resim_alternatif_Metin](0gszuiu.jpg)
 
 
  \7. Tıklamak**Bitiş**.
  `    `Bu,[Aspose.Cells for Java API](http://goo.gl/c1eSD2) Aspose Cloud Maven Repository'den en son maven bağımlılık referansı ve pom.xml'de yapılandırın
-`     `Eğer "Örnek Kaynak Kodlarını da İndir" onay kutusunu seçtiyseniz. Örneklerin indirilmesi de şu adresten başlayacaktır:[Aspose.Cells for Java API GitHub Deposu](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+ `     `Eğer "Örnek Kaynak Kodlarını da İndir" onay kutusunu seçtiyseniz. Örneklerin indirilmesi de şu adresten başlayacaktır:[Aspose.Cells for Java API GitHub Deposu](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
 ![yapılacaklar:resim_alternatif_Metin](eezoq3s.jpg)
 
@@ -73,7 +73,7 @@ Ardından aşağıdaki adımları izleyin:
 
  `      `İndirmeyi seçtiyseniz[Örnek Kaynak Kodları](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples), indirilen örnekleri projenize kopyalamak / oluşturmak için Aspose.Cells Örnek Sihirbazını kullanabilirsiniz.
 ### **Aspose.Cells Örnek Sihirbazı**
- oluşturmak / kopyalamak için[ Örnek Kaynak Kodları](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) kullanarak projeye**Aspose.Cells Örnek Sihirbazı**, öncelikle Aspose.Cells Maven Proje Sihirbazı üzerinden "Örnek Kaynak Kodlarını da İndir" seçeneğini işaretleyerek örnekleri indirmeniz gerekmektedir.
+ oluşturmak / kopyalamak için[ Örnek Kaynak Kodları](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) kullanarak projeye**Aspose.Cells Örnek Sihirbazı**öncelikle Aspose.Cells Maven Proje Sihirbazı üzerinden "Örnek Kaynak Kodlarını da İndir" seçeneğini işaretleyerek örnekleri indirmeniz gerekmektedir.
 
 Ardından IntelliJ IDEA'da aşağıdaki adımları izleyin:
 
@@ -82,7 +82,7 @@ Ardından IntelliJ IDEA'da aşağıdaki adımları izleyin:
 ![yapılacaklar:resim_alternatif_Metin](n8tt9q0.jpg)
 
 
- `    `-VEYA-**Sağ tık** (proje penceresinde) =>**Yeni** Aşağıda gösterildiği gibi:
+ `    `-VEYA-**Sağ tık** (proje penceresinde) =>**Yeni** - Aşağıda gösterildiği gibi:
 
 ![yapılacaklar:resim_alternatif_Metin](aubwkhp.jpg)
 
@@ -110,7 +110,7 @@ Ardından IntelliJ IDEA'da aşağıdaki adımları izleyin:
 
 
 
- `       `Tebrikler!{{< emoticons/cross >}} Aşağıdakileri başarıyla yaptınız:
+ `       `Tebrikler!{{< emoticons/cross >}}Aşağıdakileri başarıyla yaptınız:
 
 `       `1. Aspose.Cells Maven Proje Sihirbazını kullanarak Aspose.Cells Maven Projesini oluşturdunuz.
 

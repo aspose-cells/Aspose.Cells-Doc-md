@@ -5,7 +5,7 @@ weight: 10
 url: /sv/java/protecting-worksheets-in-php/
 ---
 ## **Aspose.Cells - Skydda arbetsblad**
- För att skydda kalkylblad med hjälp av**Aspose.Cells Java för PHP** , ringa upp**protect_worksheet** metod av**skydd** modul.
+ För att skydda kalkylblad med hjälp av**Aspose.Cells Java for PHP** , ringa upp**protect_worksheet** metod av**skydd** modul.
 
 **PHP-kod**
 

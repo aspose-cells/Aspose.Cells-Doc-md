@@ -4,12 +4,12 @@ type: docs
 weight: 120
 url: /fr/net/aspose-cells-for-net-8-7-2-release-notes/
 ---
-### **Autres améliorations et changements**
+### **Autres améliorations et modifications**
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |
-|CELLSNET-44242 | Prise en charge et utilisation de CustomXmlParts| Nouvelle fonctionnalité|
-|CELLSNET-44313 | Obtenir le nombre de lignes après avoir appliqué le filtre sur GridWeb| Nouvelle fonctionnalité|
+|CELLSNET-44242 | Prise en charge et utilisation de CustomXmlParts|Nouvelle fonctionnalité|
+|CELLSNET-44313 | Obtenir le nombre de lignes après avoir appliqué le filtre sur GridWeb|Nouvelle fonctionnalité|
 |CELLSNET-44307 | La détection du chiffrement sur un fichier ODS ne fonctionne pas| Renforcement|
 |CELLSNET-44301 | Choisissez TextBox en termes de nom au lieu d'index| Renforcement|
 |CELLSNET-44260 | Définition de OleObject.ImageData pour les OleObjects existants dans le classeur| Renforcement|

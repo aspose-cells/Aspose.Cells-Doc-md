@@ -15,7 +15,7 @@ url: /zh/java/save-excel-into-pdf-with-standard-or-minimum-size/
 ## **使用 Microsoft Excel 将 Excel 保存为标准或最小尺寸的 PDF**
 以下屏幕截图显示了如何使用 Microsoft Excel 将 Excel 保存为标准或最小尺寸的 PDF。
 
-![待办事项：图片_替代_文本](save-excel-into-pdf-with-standard-or-minimum-size_1.png)
+![待办事项：图像_替代_文本](save-excel-into-pdf-with-standard-or-minimum-size_1.png)
 ## **使用 Aspose.Cells 将 Excel 保存为标准或最小尺寸的 PDF**
 以下示例代码显示了如何使用标准或最小尺寸将 Excel 保存为 PDF[PdfSaveOptions.优化类型](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OptimizationType)财产。
 

@@ -1,12 +1,12 @@
 ﻿---
-title: SharePoint 17.6 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for SharePoint 17.6 Sürüm Notları
 type: docs
 weight: 40
 url: /tr/sharepoint/aspose-cells-for-sharepoint-17-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, SharePoint 17.6 için Aspose.Cells sürüm notlarını içerir.
+Bu sayfa Aspose.Cells for SharePoint 17.6 için sürüm notları içerir.
 
 {{% /alert %}} 
 

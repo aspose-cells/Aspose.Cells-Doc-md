@@ -342,7 +342,7 @@ Utför koden ovan, du får följande resultat:
 
 
 
-## **Infoga en femuddig stjärna i Excel-kalkylblad i C#**
+## **Infoga en femuddig stjärna i Excel-arbetsbladet i C#**
 
  Formen på en femuddig stjärna tillhör**Stjärnor och banderoller** kategori.
 
@@ -384,7 +384,7 @@ Utför koden ovan, du får följande resultat:
 
 
 
-## **Infoga ett tankebubbelmoln i Excel-arbetsblad i C#**
+## **Infogar ett tankebubbelmoln i Excel-arbetsblad i C#**
 
  Formen på tankebubbelmoln tillhör**Bildtexter** kategori.
 

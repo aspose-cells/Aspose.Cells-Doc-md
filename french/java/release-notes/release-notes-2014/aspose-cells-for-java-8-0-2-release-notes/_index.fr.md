@@ -17,7 +17,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 Voici une liste des modifications apportées à cette version de Aspose.Cells for Java.
 
 
-Autres améliorations et changements
+Autres améliorations et modifications
 
 Améliorations
 

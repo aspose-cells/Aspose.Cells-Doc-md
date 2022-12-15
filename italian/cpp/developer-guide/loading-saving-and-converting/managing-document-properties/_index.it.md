@@ -5,11 +5,11 @@ weight: 30
 url: /it/cpp/managing-document-properties/
 ---
 ## **Possibile scenario di utilizzo**
- Aspose.Cells consente di lavorare con le proprietà del documento integrate e personalizzate. Ecco l'interfaccia Excel Microsoft per aprirli*Proprietà del documento* . Basta cliccare sul*Proprietà avanzate*come mostrato in questo screenshot e visualizzarli.
+ Aspose.Cells consente di lavorare con le proprietà del documento integrate e personalizzate. Ecco l'interfaccia di Microsoft Excel per aprirli*Proprietà del documento* . Basta cliccare sul*Proprietà avanzate*come mostrato in questo screenshot e visualizzarli.
 
 ![cose da fare:immagine_alt_testo](managing-document-properties_1.png)
 ## **Gestione delle proprietà del documento**
- Viene caricato il codice di esempio seguente[file excel di esempio](23166989.xlsx) e legge le proprietà del documento integrate, ad es*Titolo, Soggetto* e poi li cambia. Quindi legge anche la proprietà del documento personalizzato, ad es*MyCustom1* e quindi aggiunge una nuova proprietà del documento personalizzata, ad es*MyCustom5* e scrive il[file excel di output](23166986.xlsx)Lo screenshot seguente mostra l'effetto del codice di esempio sul file Excel di esempio.
+ Viene caricato il codice di esempio seguente[file excel di esempio](23166989.xlsx) e legge le proprietà del documento integrate, ad es*Titolo, Soggetto* e poi li cambia. Quindi legge anche la proprietà del documento personalizzato, ad es*MyCustom1* e quindi aggiunge una nuova proprietà del documento personalizzata, ad es*MyCustom5* e scrive il[file excel di output](23166986.xlsx). Lo screenshot seguente mostra l'effetto del codice di esempio sul file excel di esempio.
 
 ![cose da fare:immagine_alt_testo](managing-document-properties_2.png)
 ## **Codice di esempio**

@@ -6,7 +6,7 @@ url: /it/net/add-cell-formulas/
 ---
 {{% alert color="primary" %}} 
 
-La caratteristica più preziosa offerta da Aspose.Cells.GridWeb è il supporto per formule o funzioni. Aspose.Cells.GridWeb ha il proprio Formula Engine che calcola le formule nei fogli di lavoro. Aspose.Cells.GridWeb supporta funzioni o formule sia integrate che definite dall'utente. Questo argomento illustra in dettaglio l'aggiunta di formule alle celle utilizzando Aspose.Cells.GridWeb API.
+La caratteristica più preziosa offerta da Aspose.Cells.GridWeb è il supporto per formule o funzioni. Aspose.Cells.GridWeb ha il proprio Formula Engine che calcola le formule nei fogli di lavoro. Aspose.Cells.GridWeb supporta funzioni o formule sia integrate che definite dall'utente. Questo argomento illustra in dettaglio l'aggiunta di formule alle celle utilizzando l'API Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
 ## **Aggiunta di formule a Cells**
@@ -15,7 +15,7 @@ La caratteristica più preziosa offerta da Aspose.Cells.GridWeb è il supporto p
 
 {{% alert color="primary" %}} 
 
-La sintassi della formula deve essere compatibile con la sintassi di Excel Microsoft. Ad esempio, tutte le formule devono iniziare con un segno di uguale (=).
+La sintassi della formula deve essere compatibile con la sintassi di Microsoft Excel. Ad esempio, tutte le formule devono iniziare con un segno di uguale (=).
 
 Per aggiungere dinamicamente una formula, Aspose.Cells.GridWeb la riconoscerà come formula anche se non si utilizza un segno **=**, ma se gli utenti finali lavorano nella GUI, deve utilizzare il segno "=".
 

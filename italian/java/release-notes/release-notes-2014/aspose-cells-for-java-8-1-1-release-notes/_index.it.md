@@ -11,7 +11,7 @@ url: /it/java/aspose-cells-for-java-8-1-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java è stato aggiornato alla versione 8.1.1 e siamo lieti di annunciare che questa versione porta l'aggiunta di 8 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, visualizzare e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Utilizzando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for Java.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
  Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells for Java.
@@ -44,9 +44,9 @@ Caratteristiche principali
 Supporto GridWeb for Java
 
 
-Pubblico API e modifiche incompatibili con le versioni precedenti
+API pubblica e modifiche non compatibili con le versioni precedenti
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 Aggiunta della proprietà HtmlSaveOptions.PresentationPreference
 Indica se il file html o mht è la preferenza di presentazione. Il valore predefinito è false. Se vuoi ottenere una presentazione più bella, imposta il valore su true.

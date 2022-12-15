@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för SharePoint 17.6 Release Notes
+title: Aspose.Cells for SharePoint 17.6 Release Notes
 type: docs
 weight: 40
 url: /sv/sharepoint/aspose-cells-for-sharepoint-17-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för SharePoint 17.6.
+Den här sidan innehåller utgåvor för Aspose.Cells for SharePoint 17.6.
 
 {{% /alert %}} 
 

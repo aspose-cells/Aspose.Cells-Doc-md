@@ -94,7 +94,7 @@ url: /ar/java/worksheet-views/
 
 ![ما يجب القيام به: image_بديل_نص](worksheet-views_7.png)
 
- يتم فتح الملف Book1.xls بامتداد[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)يتم تجميد فئة ثم بعض الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل باسم output.xls.
+ يتم فتح الملف Book1.xls بامتداد[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)يتم تجميد فئة ثم بعض الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل كملف output.xls.
 
 **Outlook.xls: طريقة عرض ورقة العمل بعد التعديل** 
 

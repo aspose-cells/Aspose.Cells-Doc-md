@@ -6,11 +6,11 @@ url: /sv/java/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}} 
 
- Du kan skapa datatabell i Microsoft Excel med Data > Vad-om-analys > Datatabell.... Aspose.Cells låter dig nu beräkna matrisformeln för datatabellen. Snälla använd[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) som normalt för att beräkna alla typer av formler.
+Du kan skapa datatabell i Microsoft Excel med Data > Vad-om-analys > Datatabell.... Aspose.Cells låter dig nu beräkna matrisformeln för datatabellen. Snälla använd[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) som normalt för att beräkna alla typer av formler.
 
 {{% /alert %}} 
 ## **Beräkning av matrisformel för datatabeller**
- I följande exempelkod använde vi detta[source excel-fil](5472579.xlsx) som också visas i följande bild.
+ I följande exempelkod använde vi detta[källkod excel-fil](5472579.xlsx) som också visas i följande bild.
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_1.png)
 
@@ -18,6 +18,6 @@ url: /sv/java/calculation-of-array-formula-of-data-tables/
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_2.png)
 
- Här är exempelkoden som används för att generera[mata ut PDF](5472577.pdf) från[source excel-fil](5472579.xlsx). Läs kommentarerna för mer information.
+ Här är exempelkoden som används för att generera[mata ut PDF](5472577.pdf) från[källkod excel-fil](5472579.xlsx). Läs kommentarerna för mer information.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

@@ -8,7 +8,7 @@ url: /tr/java/aspose-cells-for-java-8-7-1-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSJAVA-41747 | FORMÜLMETNİ işlevini hesaplamak için destek| Yeni özellik|
+|CELLSJAVA-41747 | FORMÜLMETNİ işlevini hesaplamak için destek|Yeni özellik|
 |CELLSJAVA-41702 | Çıktı HTML dosyasına ekstra sütunlar eklendi| Böcek|
 |CELLSJAVA-41708 | Sütunlar HTML çıktısında kayboluyor| Böcek|
 |CELLSJAVA-41720 | E-tabloyu HTML'ye dönüştürürken resmin SVG'ye kaydedilmesi, yanlış resim dosyası uzantısına neden oluyor| Böcek|

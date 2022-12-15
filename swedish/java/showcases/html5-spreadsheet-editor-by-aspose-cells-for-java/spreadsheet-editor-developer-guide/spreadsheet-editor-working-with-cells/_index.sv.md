@@ -103,7 +103,7 @@ Redaktören tar bort den markerade cellen. De intilliggande cellerna kommer auto
 
 **Hur det fungerar?**
 
- De**Skift Cells Upp** och**Skift Cells Vänster** hanteras av JSF backend bean**Arbetsbladsvy**Källkoden för respektive metoder är följande:
+ De**Skift Cells Upp** och**Skift Cells Vänster** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
 #### **WorksheetView.removeCellShiftUp**
 {{< highlight "java" >}}
 
@@ -153,7 +153,7 @@ Redaktören rensar den markerade cellen.
 
 **Hur det fungerar?**
 
- De**Format**, **Innehåll** och**Både** hanteras av JSF backend bean**Arbetsbladsvy**Källkoden för respektive metoder är följande:
+ De**Format**, **Innehåll** och**Både** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
 #### **WorksheetView.clearCurrentCellFormatting**
 {{< highlight "java" >}}
 

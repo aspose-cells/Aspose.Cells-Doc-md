@@ -7,7 +7,7 @@ url: /sv/net/styling-and-data-formatting/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells för .NET 4.4.2 introducerade två nya metoder för att formatera celler: Cell.GetStyle och Cell.SetStyle. Den här artikeln undersöker metoden Cell.GetStyle/SetStyle för att hjälpa dig att bedöma vilken teknik som passar dig bäst.
+Aspose.Cells for .NET 4.4.2 introducerade två nya metoder för att formatera celler: Cell.GetStyle och Cell.SetStyle. Den här artikeln undersöker metoden Cell.GetStyle/SetStyle för att hjälpa dig att bedöma vilken teknik som passar dig bäst.
 
 {{% /alert %}} 
 ## **Formatering Cells**
@@ -49,7 +49,7 @@ cell.SetStyle(stil);
 ## **Förhandsämnen**
 - [Skapa Style-objekt med klassen CellsFactory](/cells/sv/net/create-style-object-using-cellsfactory-class/)
 - [Ändra en befintlig stil](/cells/sv/net/modify-an-existing-style/)
-- [Återanvändning av stilobjekt](/cells/sv/net/reusing-style-objects/)
+- [Återanvända stilobjekt](/cells/sv/net/reusing-style-objects/)
 - [Använda inbyggda stilar](/cells/sv/net/using-built-in-styles/)
 
 

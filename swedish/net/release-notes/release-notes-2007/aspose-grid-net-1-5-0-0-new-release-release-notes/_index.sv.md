@@ -17,11 +17,11 @@ url: /sv/net/aspose-grid-net-1-5-0-0-new-release-release-notes/
 Aspose.Grid 
  är din totala nätlösning. Aspose.Grid levereras med två olika GUI .NET-komponenter: en för att stödja skrivbordsapplikationer (Aspose.Grid. Desktop
  och en annan för att stödja webbapplikationer(Aspose.Grid.Web
- ). Båda versionerna är lika matchade för att göra implementering i båda plattformarna på ett kick. Aspose.Grid ger möjlighet att importera från och exportera till Excel®-kalkylblad. Att göra det innebär att alla som är bekanta med Excel (även slutanvändare) kan designa utseendet och känslan av ett rutnät. Aspose.Grid erbjuder också ett lättanvänt, funktionsrikt API som ger utvecklare fullständig kontroll över utseendet, känslan och beteendet i deras rutnät. Och viktigast av allt är Aspose.Grid prissatt för att passa din budget. Ingen annanstans hittar du en komponent som är så funktionsrik, lättanvänd och så bra prissatt som Aspose.Grid.
+ ). Båda versionerna är lika matchade för att göra implementering i båda plattformarna på ett kick. Aspose.Grid ger möjlighet att importera från och exportera till Excel®-kalkylblad. Att göra det innebär att alla som är bekanta med Excel (även slutanvändare) kan designa utseendet och känslan av ett rutnät. Aspose.Grid erbjuder också en lättanvänd, funktionsrik API som ger utvecklare fullständig kontroll över utseendet, känslan och beteendet i deras rutnät. Och viktigast av allt är Aspose.Grid prissatt för att passa din budget. Ingen annanstans hittar du en komponent som är så funktionsrik, lättanvänd och så bra prissatt som Aspose.Grid.
 ## **Allmänna funktioner**
 - Tillhandahåller komponenter för både skrivbords- och webbapplikationer
  Ger stöd för import från och export till Excel-kalkylblad
- Ger ett lättanvänt, funktionsrikt API för fullständig kontroll över rutnätets utseende, känsla och beteende.
+ Ger en lättanvänd, funktionsrik API för fullständig kontroll över rutnätets utseende, känsla och beteende.
  Ger lätt att applicera skinn
 Ger omfattande stöd för formler
  Ger stöd för flera sidor

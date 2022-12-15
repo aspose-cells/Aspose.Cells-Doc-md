@@ -20,7 +20,7 @@ Aspose.Cells 允许您识别工作表中的合并单元格区域。您也可以�
 
 **模板文件**
 
-![待办事项：图片_替代_文本](detect-merged-cells-in-a-worksheet_1.png)
+![待办事项：图像_替代_文本](detect-merged-cells-in-a-worksheet_1.png)
 
 Aspose.Cells 提供了[**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells)用于获取合并单元格区域的 ArrayList 的方法。
 
@@ -28,7 +28,7 @@ Aspose.Cells 提供了[**Cells.getMergedCells**](https://reference.aspose.com/ce
 
 **输出文件**
 
-![待办事项：图片_替代_文本](detect-merged-cells-in-a-worksheet_2.png)
+![待办事项：图像_替代_文本](detect-merged-cells-in-a-worksheet_2.png)
 
 ## **代码示例**
 

@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för Java 7.0.2 Release Notes
+title: Aspose.Cells for Java 7.0.2 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-java-7-0-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 7.0.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.0.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 7.0.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.0.2/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Java v7.0.2!
+ Vi är glada att meddela Aspose.Cells for Java v7.0.2!
 
  Allmänna funktioner / förbättringar
 
@@ -40,11 +40,11 @@ url: /sv/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30809 - Inkludera fler formatvillkorstyper (för funktionen för villkorlig formatering) medan du sparar XLS-fil
 
-31192 - Stöd för krypteringstyp: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-bitars
+ 31192 - Stöd för krypteringstyp: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-bitars
 
  Undantag
 
- 30733 - Få ett undantag när du använder vetenskapliga värden för Validations formel
+30733 - Få ett undantag när du använder vetenskapliga värden för Validations formel
 
  30748 - Läsning av krypterad Excel2007-mallfil orsakar undantag
 
@@ -70,11 +70,11 @@ url: /sv/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30911 - TextBox.setHtmlText() analyserade inte rich text korrekt
 
-30479 - Extra parentes har lagts till för cellvärde i den genererade PDF-filen
+ 30479 - Extra parentes har lagts till för cellvärde i den genererade PDF-filen
 
  30899 - Skalat värde för den nyligen tillagda bilden ändrades i sparad XLS-fil
 
- 30972 - Innehållet i textrutan återgavs inte korrekt i PDF-filen
+30972 - Innehållet i textrutan återgavs inte korrekt i PDF-filen
 
  31050 - Cell.getStringValue() gav inte rätt dubbelvärde
 

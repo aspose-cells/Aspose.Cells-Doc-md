@@ -14,7 +14,7 @@ Aspose.Cells le permite exportar una hoja de trabajo del libro de trabajo y conv
 
 A veces, es útil guardar una imagen de una hoja de trabajo. Las imágenes pueden compartirse en línea, insertarse en otros documentos (informes escritos en Microsoft Word, por ejemplo, o PowerPoint presentaciones).
 
-Aspose.Cells proporciona exportación de imágenes a través del**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** clase. Esta clase representa la hoja de trabajo que se representará en una imagen. los**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**la clase proporciona la**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**método para convertir una hoja de cálculo en un archivo de imagen. Se admiten los formatos BMP, PNG, JPEG, TIFF y EMF.
+Aspose.Cells proporciona exportación de imágenes a través del**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** clase. Esta clase representa la hoja de trabajo que se representará en una imagen. los**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** la clase proporciona la**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**método para convertir una hoja de cálculo en un archivo de imagen. Se admiten los formatos BMP, PNG, JPEG, TIFF y EMF.
 
 {{% alert color="primary" %}}
 
@@ -48,7 +48,7 @@ El siguiente fragmento de código muestra cómo convertir una hoja de trabajo en
 
 ### **Renderizar hoja de trabajo activa en un libro de trabajo**
 
-Una forma sencilla de convertir una hoja de trabajo activa en un libro de trabajo es establecer el índice de la hoja activa y luego guardar el libro de trabajo como SVG. Representará la hoja activa en SVG. El siguiente código de ejemplo demuestra esta función:
+Una forma sencilla de convertir una hoja de trabajo activa en un libro de trabajo es establecer el índice de la hoja activa y luego guardar el libro de trabajo como SVG. Representará la hoja activa en SVG. El siguiente código de ejemplo demuestra esta característica:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertActiveWorksheetToSVG-1.java" >}}
 

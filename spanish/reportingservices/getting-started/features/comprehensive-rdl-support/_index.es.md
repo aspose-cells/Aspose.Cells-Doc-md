@@ -6,7 +6,7 @@ url: /es/reportingservices/comprehensive-rdl-support/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells para Reporting Services es totalmente compatible con la especificación RDL. Esto significa que puede transferir fácilmente informes RDL existentes a una solución Aspose.
+Aspose.Cells for Reporting Services es totalmente compatible con la especificación RDL. Esto significa que puede transferir fácilmente informes RDL existentes a una solución Aspose.
 
 {{% /alert %}} 
 **Elementos RDL compatibles**

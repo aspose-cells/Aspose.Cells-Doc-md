@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-net-3-7-2-0-hot-fix-release-notes/
 
  Kära kunder,
 
- Vi har släppt Aspose.Cells för .NET v3.7.2!
+ Vi har släppt Aspose.Cells for .NET v3.7.2!
 
 - Förbättrad formelberäkningsmotor för att stödja fler Excel-funktioner
 - Optimerad prestanda när Excel-filer laddas

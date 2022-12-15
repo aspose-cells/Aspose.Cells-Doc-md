@@ -14,8 +14,8 @@ url: /it/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 |:- |:- |:- |
 |CELLSCPP-41|Calcola formule in fogli di calcolo Excel|Nuova caratteristica|
 |CELLSCPP-42|Prestazioni migliorate nella lettura di file XLSX|Miglioramento|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per C++. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for C++. il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo IWorkbook::CalculateFormula()**
 La recente versione 17.02.0 di Aspose.Cells per CPP API ha aggiunto il metodo IWorkbook::CalculateFormula(). Aiuta gli sviluppatori a calcolare il risultato delle formule e memorizzarlo nella cella appropriata di un foglio di lavoro. Gli sviluppatori possono anche calcolare le formule personalizzate.
 
@@ -109,7 +109,7 @@ Questo esempio di codice mostra come calcolare le formule e ignorare gli errori 
 #### **Aggiunge il metodo IWorkbook::CalculateFormula(intrusive_ptr<Aspose::Cells::ICalculationOptions>)**
 Calcola le formule nella cartella di lavoro.
 #### **Aggiunge il metodo IWorkbook::CalculateFormula(bool ignoreError,intrusive_ptr<Aspose::Cells::ICustomFunction> customFunction)**
- Aspose.Cells per CPP API offre l'interfaccia ICustomFunction. Gli sviluppatori possono chiamare il metodo IWorkbook.CalculateFormula(false, ICustomFunction) per richiamare l'implementazione del metodo ICustomFunction.CalculateCustomFunction(). Il metodo ICustomFunction.CalculateCustomFunction() consente di manipolare i valori di ritorno delle funzioni personalizzate. Nell'esempio di codice riportato di seguito, l'implementazione dell'interfaccia ICustomFunction valuta e restituisce i valori di due funzioni personalizzate, ovvero MySampleFunc() e YourSampleFunc(). Queste funzioni personalizzate si trovano rispettivamente all'interno delle celle A1 e A2. Stampa i valori di A1 e A2 su una console, che in realtà sono i valori restituiti da ICustomFunction.CalculateCustomFunction().
+Aspose.Cells per l'API CPP offre l'interfaccia ICustomFunction. Gli sviluppatori possono chiamare il metodo IWorkbook.CalculateFormula(false, ICustomFunction) per richiamare l'implementazione del metodo ICustomFunction.CalculateCustomFunction(). Il metodo ICustomFunction.CalculateCustomFunction() consente di manipolare i valori di ritorno delle funzioni personalizzate. Nell'esempio di codice riportato di seguito, l'implementazione dell'interfaccia ICustomFunction valuta e restituisce i valori di due funzioni personalizzate, ovvero MySampleFunc() e YourSampleFunc(). Queste funzioni personalizzate si trovano rispettivamente all'interno delle celle A1 e A2. Stampa i valori di A1 e A2 su una console, che in realtà sono i valori restituiti da ICustomFunction.CalculateCustomFunction().
 
 
 Questo esempio di codice mostra come calcolare le formule, ignorare gli errori e manipolare i valori restituiti delle funzioni personalizzate in un Excel:
@@ -221,7 +221,7 @@ void Run()
 {{< /highlight >}}
 
 #### **Aggiunge il metodo IWorksheet::CalculateFormula(intrusive_ptr<Aspose::Cells::System::String> formula)**
-Il metodo IWorksheet::CalculateFormula(intrusive_ptr<Aspose::Cells::System::String> formula) consente agli sviluppatori di calcolare direttamente i risultati della formula senza aggiungerli a un foglio di lavoro. I valori delle celle utilizzate nella formula esistono già in un foglio di lavoro e gli sviluppatori devono solo trovare il risultato di tali valori in base a una formula di Excel Microsoft senza aggiungere la formula in un foglio di lavoro.
+Il metodo IWorksheet::CalculateFormula(intrusive_ptr<Aspose::Cells::System::String> formula) consente agli sviluppatori di calcolare direttamente i risultati della formula senza aggiungerli a un foglio di lavoro. I valori delle celle utilizzate nella formula esistono già in un foglio di lavoro e gli sviluppatori devono solo trovare il risultato di tali valori in base a una formula di Microsoft Excel senza aggiungere la formula in un foglio di lavoro.
 
 Questo esempio di codice mostra come calcolare direttamente le formule senza aggiungerle in un foglio di lavoro in Excel:
 

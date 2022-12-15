@@ -25,17 +25,17 @@ Microsoft Excel 允许以所见即所得的方式管理 Excel 文件的文档属
 
 |**选择信息菜单**|
 |:- |
-|![待办事项：图片_替代_文本](managing-document-properties_1.png)|
+|![待办事项：图像_替代_文本](managing-document-properties_1.png)|
 1. 点击**特性**标题并选择“高级属性”。
 
 |**单击高级属性选择**|
 |:- |
-|![待办事项：图片_替代_文本](managing-document-properties_2.png)|
+|![待办事项：图像_替代_文本](managing-document-properties_2.png)|
 1. 管理文件的文档属性。
 
 |**属性对话框**|
 |:- |
-|![待办事项：图片_替代_文本](managing-document-properties_3.png)|
+|![待办事项：图像_替代_文本](managing-document-properties_3.png)|
 在 Properties 对话框中，有不同的选项卡，如 General、Summary、Statistics、Contents 和 Customs。每个选项卡都有助于配置与文件相关的不同类型的信息。自定义选项卡用于管理自定义属性。
 
 ## **使用 Aspose.Cells 处理文档属性**
@@ -44,7 +44,7 @@ Microsoft Excel 允许以所见即所得的方式管理 Excel 文件的文档属
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for Java 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作器**具有值的字段，例如“Aspose.Cells for Java v17.9”。
+ Aspose.Cells for Java 直接在输出文件中写入API和Version Number的信息。例如，在将文档呈现为 PDF 时，Aspose.Cells for Java 会填充**应用**值为“Aspose.Cells”的字段和**PDF制作人**具有值的字段，例如“Aspose.Cells for Java v17.9”。
 
 请注意，您不能指示 Aspose.Cells for Java 更改或从输出文档中删除此信息。
 
@@ -69,7 +69,7 @@ Aspose.Cells API 支持两种类型的文档属性，内置的和自定义的。
 
 - 要获取属性名称，请使用[**文档属性.名称**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Name).
 - 要获取属性值，请使用[**文档属性.值**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value). [**文档属性.值**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value)将值作为对象返回。
-- 要获取属性类型，请使用[**文档属性.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Type) .这将返回其中一个[**财产种类**](https://reference.aspose.com/cells/java/com.aspose.cells/PropertyType)枚举值。
+- 要获取属性类型，请使用[**文档属性.类型**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Type).这将返回其中一个[**财产种类**](https://reference.aspose.com/cells/java/com.aspose.cells/PropertyType)枚举值。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentPropertyValue.java" >}}
 
@@ -85,7 +85,7 @@ Aspose.Cells API 支持两种类型的文档属性，内置的和自定义的。
 
 ### **配置“内容链接”自定义属性**
 
-要创建链接到给定范围内容的自定义属性，请调用[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) 方法并传递属性名称和来源。您可以使用[**文档属性.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)财产。此外，还可以使用[**资源**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)的财产[**文档属性**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)班级。
+要创建链接到给定范围内容的自定义属性，请调用[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) 方法并传递属性名称和来源。您可以使用[**文档属性.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)财产。此外，还可以使用[**资源**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)的财产[**文档属性**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)班级。
 
 我们在示例中使用一个简单的模板 Microsoft Excel 文件。工作簿有一个定义的命名范围标记**我的范围**这是指单元格值。
 

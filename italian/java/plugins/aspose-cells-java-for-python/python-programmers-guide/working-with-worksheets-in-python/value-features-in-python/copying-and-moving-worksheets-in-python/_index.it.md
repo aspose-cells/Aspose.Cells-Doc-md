@@ -1,5 +1,5 @@
 ﻿---
-title: Copia e spostamento di fogli di lavoro in Python
+title: Copiare e spostare fogli di lavoro in Python
 type: docs
 weight: 10
 url: /it/java/copying-and-moving-worksheets-in-python/
@@ -8,7 +8,7 @@ url: /it/java/copying-and-moving-worksheets-in-python/
 ### **Copia i fogli di lavoro all'interno di una cartella di lavoro**
  Per copiare il foglio di lavoro utilizzando**Aspose.Cells for Java in Rubino** , chiamata**copy_worksheet** metodo di**fogli di lavoro** modulo. Di seguito puoi vedere un esempio di codice.
 
-**Python Cod**
+**Codice Pitone**
 
 {{< highlight "java" >}}
 

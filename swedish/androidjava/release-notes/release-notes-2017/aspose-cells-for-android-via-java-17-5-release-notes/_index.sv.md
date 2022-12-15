@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 17.5 Release Notes
+title: Aspose.Cells for Android via Java 17.5 Release Notes
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-for-android-via-java-17-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller release notes för[Aspose.Cells för Android via Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
+Den här sidan innehåller release notes för[Aspose.Cells for Android via Java 17.5](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.5/)
 
 {{% /alert %}} 
 
@@ -130,7 +130,7 @@ Den här sidan innehåller release notes för[Aspose.Cells för Android via Java
 |CELLSJAVA-42241|Excel till PDF - parenteser kommer på nästa rad|Insekt|
 |CELLSJAVA-42234|Att spara XLSM-filen som XLS tar bort makroåtgärder från knappen|Insekt|
 |CELLSJAVA-42233|Uppgradera koden - Tillämpa 3D-format på diagram|Insekt|
-|CELLSJAVA-42225|Det gick inte att ställa in forminmatningsintervall|Insekt|
+|CELLSJAVA-42225|Det gick inte att ange forminmatningsintervall|Insekt|
 |CELLSJAVA-42224|Problem med sortering Kommentarer|Insekt|
 |CELLSJAVA-42221|Kritisk regression med anpassade kontroller|Insekt|
 |CELLSJAVA-42220|Problem med att ställa in sidlayoutvy för XLSB-filer|Insekt|
@@ -154,7 +154,7 @@ Den här sidan innehåller release notes för[Aspose.Cells för Android via Java
 |CELLSJAVA-42264|Nedsänkta och upphöjda problem i OpenOffice ODS-fil vid konvertering till HTML eller PDF|Insekt|
 |CELLSJAVA-42122|NullPointerException när du öppnar en stor Excel-fil|Undantag|
 |CELLSJAVA-42123|Form till bild-fel - vid rendering av en Excel-fil|Undantag|
-|CELLSJAVA-42144|new Workbook() kan skapa ett undantag i Aspose.Cells för Java 16.12.6|Undantag|
+|CELLSJAVA-42144|new Workbook() kan skapa ett undantag i Aspose.Cells for Java 16.12.6|Undantag|
 |CELLSJAVA-42143|Undantag: java.lang.ArrayIndexOutOfBoundsException på metoden Workbook.save()|Undantag|
 |CELLSJAVA-42137|Ogiltigt undantag för kolumnindex vid rendering av Excel|Undantag|
 |CELLSJAVA-42111|Ogiltigt formelundantag för den sista cellen|Undantag|
@@ -167,8 +167,8 @@ Den här sidan innehåller release notes för[Aspose.Cells för Android via Java
 |CELLSJAVA-42268|Undantag: "java.lang.NullPointerException" vid rendering av ett diagram till bild|Undantag|
 |CELLSJAVA-42278|Undantag: "java.lang.IndexOutOfBoundsException: Index: 12, Storlek: 12" när du sparar till HTML-filformat|Undantag|
 |CELLSJAVA-42274|Undantag: "java.lang.StringIndexOutOfBoundsException: Strängindex utanför intervallet: 0" när en XLSX-fil laddas|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 ### **Lägger till setter för LoadFilter.LoadDataFilterOptions-egenskapen för att ersätta variabeln m_LoadDataFilterOptions**
 Användaren kan ändra egenskapen LoadDataFilterOptions i sin implementering av LoadFilter för att ändra beteendet för att ladda arbetsboken.
 ### **Lägger till egenskapen CellsHelper.SignificantDigits.**
@@ -245,6 +245,6 @@ Representerar PDF-format som är kompatibelt med PDFA-1a.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Android via Java matchar koden för relevant(a) .NET- och Java-version(er), ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v17.1.0, Aspose.Cells för .NET v17.2.0 , Aspose.Cells för .NET v17.3.0, Aspose.Cells för .NET v17.4.0, Aspose.Cells för .NET v17.5, Aspose.Cells för Java v17.1.0, 076173471 för Java 17.1.0, 076173471 för v7.3481 för Java 17.1.0, Aspose.Cells för .4.0 och Aspose.Cells för Java v17.5 ingår också i denna Aspose.Cells för Android via Java v17.5.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.1.0, Aspose.Cells for .NET v17.2.0, Aspose.Cells for .NET v17.3.0, Aspose.Cells for .NET v17.4.0, Aspose.Cells for .NET v17.5, Aspose.Cells for Java v17.1.0, Aspose.Cells for Java v17.2.0, Aspose.Cells for Java v17.3.0, Aspose.Cells for Java v17.4.0 and Aspose.Cells for Java v17.5 are also included in this Aspose.Cells for Android via Java v17 .5.
 
 {{% /alert %}}

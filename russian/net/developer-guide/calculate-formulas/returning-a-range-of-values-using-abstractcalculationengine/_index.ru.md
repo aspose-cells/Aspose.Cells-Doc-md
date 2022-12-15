@@ -14,7 +14,7 @@ url: /ru/net/returning-a-range-of-values-using-abstractcalculationengine/
 
  Следующий код демонстрирует использование[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) class и возвращает диапазон значений через свой метод.
 
-Создайте класс с функцией*ВычислитьПользовательскуюФункция*. Этот класс реализует[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+ Создайте класс с функцией*ВычислитьПользовательскуюФункция*. Этот класс реализует[**АннотацияРасчетДвигатель**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

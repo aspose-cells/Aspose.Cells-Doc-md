@@ -22,7 +22,7 @@ url: /zh/java/page-setup-and-printing-options/
 
 **输出文件** 
 
-![待办事项：图片_替代_文本](page-setup-and-printing-options_1.png)
+![待办事项：图像_替代_文本](page-setup-and-printing-options_1.png)
 
 1. 在 Microsoft Excel 中创建包含一些数据的工作表：
  1.在Microsoft Excel中打开一个新的工作簿。
@@ -31,14 +31,14 @@ url: /zh/java/page-setup-and-printing-options/
 
       **输入文件**
 
-![待办事项：图片_替代_文本](page-setup-and-printing-options_2.png)
+![待办事项：图像_替代_文本](page-setup-and-printing-options_2.png)
 
 1. 设置页面设置选项：
 将页面设置选项应用于文件。下面是默认选项的屏幕截图，在应用新选项之前。
 
    **默认页面设置选项**
 
-![待办事项：图片_替代_文本](page-setup-and-printing-options_3.png)
+![待办事项：图像_替代_文本](page-setup-and-printing-options_3.png)
 
 1. 下载并安装 Aspose.Cells：
    1. [下载](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
@@ -81,12 +81,12 @@ url: /zh/java/page-setup-and-printing-options/
 下面的示例将打印选项应用于在上例中创建的文件 (PageSetup.xls)。下面的屏幕截图显示了应用新选项之前的默认打印选项。
 **输入文档**
 
-![待办事项：图片_替代_文本](page-setup-and-printing-options_4.png)
+![待办事项：图像_替代_文本](page-setup-and-printing-options_4.png)
 
 执行代码会更改打印选项。
 **输出文件**
 
-![待办事项：图片_替代_文本](page-setup-and-printing-options_5.png)
+![待办事项：图像_替代_文本](page-setup-and-printing-options_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
 

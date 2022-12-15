@@ -102,7 +102,7 @@ Ha agregado con éxito el módulo Aspose.Cells Dynamic Form Builder for Sitefini
 
 #### **¿Cómo solicitar la licencia Aspose?**
 
-Este complemento utiliza una versión de evaluación de Aspose.Cells. Una vez que esté satisfecho con su evaluación, puede comprar una licencia en el[Aspose Sitio web de compra](https://purchase.aspose.com/buy).
+ Este complemento utiliza una versión de evaluación de Aspose.Cells. Una vez que esté satisfecho con su evaluación, puede comprar una licencia en el[Aspose Sitio web de compra](https://purchase.aspose.com/buy).
 Para eliminar el mensaje de evaluación y las limitaciones de funciones, se debe aplicar la licencia del producto. Recibirá un archivo de licencia después de haber comprado el producto. Siga los pasos a continuación para aplicar la licencia
 
 -  Asegúrese de que el archivo de licencia se llame como**Aspose.Total.lic**

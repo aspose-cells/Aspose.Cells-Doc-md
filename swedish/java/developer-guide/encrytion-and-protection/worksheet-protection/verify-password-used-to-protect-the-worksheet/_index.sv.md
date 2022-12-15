@@ -6,7 +6,7 @@ url: /sv/java/verify-password-used-to-protect-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells API:er har förbättrat[**Skydd**](https://reference.aspose.com/cells/java/com.aspose.cells/Protection) klass genom att introducera några användbara egenskaper och metoder. En sådan metod är[**verifiera lösenord**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)) som gör det möjligt att ange ett lösenord som en instans av String och verifierar om samma lösenord har använts för att skydda arbetsbladet.
+ Aspose.Cells API:er har förbättrat[**Skydd**](https://reference.aspose.com/cells/java/com.aspose.cells/Protection) klass genom att introducera några användbara egenskaper och metoder. En sådan metod är[**verifiera lösenord**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)som gör det möjligt att ange ett lösenord som en instans av String och verifierar om samma lösenord har använts för att skydda arbetsbladet.
 
 {{% /alert %}}
 

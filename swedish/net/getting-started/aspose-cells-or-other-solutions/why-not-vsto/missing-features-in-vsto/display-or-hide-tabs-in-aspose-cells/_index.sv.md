@@ -17,7 +17,7 @@ Bladflikar representerar kalkylbladen i Excel-filen. Klicka på valfri flik för
 
 ![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_1.png)
 
- Med hjälp av Aspose.Cells kan utvecklare styra synligheten för arkflikar och flikars rullningsknappar i Excel-filer.
+Med hjälp av Aspose.Cells kan utvecklare styra synligheten för arkflikar och flikars rullningsknappar i Excel-filer.
 
 {{% /alert %}} 
 
@@ -29,7 +29,7 @@ Du kan se att filen Book1.xls innehåller flikar i figuren nedan. Efter att exem
 
 ![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_2.png)
 
-**output.xls: Excel-fil efter ändring** 
+**output.xls: Excel-fil efter modifiering** 
 
 ![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_3.png)
 

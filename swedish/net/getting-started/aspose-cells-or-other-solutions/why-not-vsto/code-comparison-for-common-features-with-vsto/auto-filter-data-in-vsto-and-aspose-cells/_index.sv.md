@@ -13,7 +13,7 @@ Så här tillämpar du automatisk filtrering på en kolumn:
 1. Autopassa kolumner för att göra skärmen attraktiv.
 1. Spara kalkylarket.
 
-Kodexemplen i den här artikeln visar hur du utför dessa steg med VSTO med antingen C#, eller med Apose.Cells, igen med antingen C#.
+Kodexemplen i den här artikeln visar hur du utför dessa steg med VSTO med antingen C# eller med Apose.Cells, igen med antingen C#.
 ## **VSTO**
 {{< highlight "csharp" >}}
 

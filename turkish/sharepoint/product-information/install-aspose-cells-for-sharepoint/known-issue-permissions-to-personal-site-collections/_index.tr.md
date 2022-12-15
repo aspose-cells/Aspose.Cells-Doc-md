@@ -14,7 +14,7 @@ Yükleme sırasında bu sorun oluştuğunda, SharePoint izleme günlüğüne Mic
 
 Bu sorunu önlemek için portal yöneticilerine MySite Web uygulamasını yönetme izni verin:
 
-1.  git**SharePoint Merkezi Yönetimi** ve öğesini seçin**Uygulama yönetimi** sekme.
+1.  git**SharePoint Merkezi Yönetimi**ve öğesini seçin**Uygulama yönetimi** sekme.
 1.  Seçmek**Web Uygulaması Politikası** altında**Uygulama Güvenliği** grup.
 1.  "Benim Sitem" için doğru Web Uygulamasını seçtiğinizden emin olun.**İnternet Uygulaması** sağdaki liste.
 1.  Seçme**Kullanıcı Ekle** sol üstte

@@ -12,7 +12,7 @@ url: /zh/net/control-loading-of-external-resources-in-ms-excel-workbook-while-re
 
 下面的示例代码解释了如何使用[**工作簿设置.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)控制外部资源的加载和操作。请检查[示例 Excel 文件](50528322.xlsx)在代码中使用[输出PDF](50528325.pdf)由代码生成。这[截屏](50528326.png)展示了如何[旧的外部图像](50528324.png)示例 Excel 文件中的替换为[新图片](50528323.png)在输出 PDF 中。
 
-![待办事项：图片_替代_文本](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
+![待办事项：图像_替代_文本](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
 
 ## **示例代码**
 

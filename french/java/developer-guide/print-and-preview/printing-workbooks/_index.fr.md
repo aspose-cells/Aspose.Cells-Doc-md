@@ -28,7 +28,7 @@ Après avoir fini de créer votre feuille de calcul, vous souhaiterez probableme
 
 ### Imprimer la feuille de calcul sélectionnée
 
-L'extrait de code suivant illustre l'utilisation de[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) méthode pour imprimer votre feuille de calcul sélectionnée.
+ L'extrait de code suivant illustre l'utilisation de[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) méthode pour imprimer votre feuille de calcul sélectionnée.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 

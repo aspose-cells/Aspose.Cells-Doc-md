@@ -9,7 +9,7 @@ url: /fr/cpp/managing-document-properties/
 
 ![tâche : image_autre_texte](managing-document-properties_1.png)
 ## **Gestion des propriétés du document**
- L'exemple de code suivant se charge[exemple de fichier excel](23166989.xlsx) et lit les propriétés de document intégrées, par exemple*Titre, sujet* puis les modifie. Ensuite, il lit également la propriété de document personnalisée, c'est-à-dire*MaPersonnalisée1* puis ajoute une nouvelle propriété de document personnalisée, c'est-à-dire*MaPersonnalisée5* et écrit le[fichier excel de sortie](23166986.xlsx)La capture d'écran suivante montre l'effet de l'exemple de code sur l'exemple de fichier Excel.
+ L'exemple de code suivant se charge[exemple de fichier excel](23166989.xlsx) et lit les propriétés de document intégrées, par exemple*Titre, sujet* puis les modifie. Ensuite, il lit également la propriété de document personnalisée, c'est-à-dire*MaPersonnalisée1* puis ajoute une nouvelle propriété de document personnalisée, c'est-à-dire*MaPersonnalisée5* et écrit le[fichier excel de sortie](23166986.xlsx). La capture d'écran suivante montre l'effet de l'exemple de code sur l'exemple de fichier Excel.
 
 ![tâche : image_autre_texte](managing-document-properties_2.png)
 ## **Exemple de code**

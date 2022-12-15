@@ -36,7 +36,7 @@ Der WorkbookService ist eine JSF-Backend-Bean mit Ansichtsbereich. Es funktionie
 
 **drin**
 
- Das**drin** ist**PostKonstrukt** Methode, die unmittelbar nach Abschluss der Objekterstellung durch den Java Application Server ausgeführt wird. Es prüfen**URL** -Parameter in der Anforderungsparameterzuordnung und lädt die entsprechende Tabelle von der angegebenen Stelle, falls möglich.
+ Das**drin** ist**PostKonstrukt** Methode, die unmittelbar nach Abschluss der Objekterstellung durch den Java Application Server ausgeführt wird. Es prüfen**URL**-Parameter in der Anforderungsparameterzuordnung und lädt die entsprechende Tabelle von der angegebenen Stelle, falls möglich.
 
 **zerstören**
 

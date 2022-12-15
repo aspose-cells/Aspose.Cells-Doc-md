@@ -8,7 +8,7 @@ url: /sv/java/setting-strong-encryption-type/
 
 Microsoft Excel (97-2007/2010) gör att du kan kryptera och lösenordsskydda kalkylblad. Den använder algoritmer som tillhandahålls av en kryptotjänstleverantör. En Crypto Service Provider (eller CSP) är en uppsättning kryptografiska algoritmer med olika egenskaper. Standard CSP är "Office 97/2000 Compatible". Detta är en CSP med några allmänt kända säkerhetsproblem. Kalkylblad som är säkrade med krypteringstypen "svag kryptering (XOR)" eller med "Office 97/2000-kompatibel" krypteringstyp kan lätt knäckas.
 
-För att lösa detta problem, använd en av de starka krypteringstyperna som tillhandahålls av Microsoft Excel. Du kan ändra krypteringstypen till den starkaste tillgängliga CSP. För stark kryptering krävs en minsta nyckellängd på 128 bitar, till exempel "Microsoft Strong Cryptographic Provider".
+För att lösa detta problem, använd en av de starka krypteringstyperna som tillhandahålls av Microsoft Excel. Du kan ändra krypteringstypen till den starkaste tillgängliga CSP. För stark kryptering krävs en minsta nyckellängd på 128 bitar, till exempel 'Microsoft Strong Cryptographic Provider'.
 
 Du kan också kryptera och lösenordsskydda Excel-filer med stark krypteringstyp med hjälp av Aspose.Cells API.
 

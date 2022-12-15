@@ -5,7 +5,7 @@ weight: 150
 url: /sv/net/change-the-decimal-separator-from-numeric-keypad/
 ---
 ## **Möjliga användningsscenarier**
-Som standard visar Aspose.Cells.GridWeb numeriska data baserat på lokala/regionala inställningar på maskinen. Du kan ändra decimalavgränsaren från det numeriska tangentbordet programmatiskt med Aspose.Cells.GridWeb API. Så när en fil importeras till GridWeb-matrisen eller du matar in några numeriska data (från det numeriska tangentbordet) i en ny kalkylbladscell, bör den ha önskad decimalavgränsare inställd visuellt.
+Som standard visar Aspose.Cells.GridWeb numeriska data baserat på lokala/regionala inställningar på maskinen. Du kan ändra decimalavgränsaren från det numeriska tangentbordet programmatiskt med Aspose.Cells.GridWeb API. Så när en fil importeras till GridWeb-matrisen eller när du matar in några numeriska data (från det numeriska tangentbordet) i en ny kalkylbladscell, bör den ha önskad decimal separator inställd visuellt.
 ## **Ändra decimalavgränsaren från det numeriska tangentbordet**
 Använda**GridWorksheetCollection.NumberDecimalSeparator**egenskap, kan du ändra decimalavgränsaren från den numeriska knappsatsen programmatiskt. Se skärmdumparna som visar hur det fungerar
 

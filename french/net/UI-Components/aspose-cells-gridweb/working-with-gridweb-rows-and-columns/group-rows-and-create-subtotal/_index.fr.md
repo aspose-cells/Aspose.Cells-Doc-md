@@ -69,7 +69,7 @@ sheet.Cells.GroupRows(4, 6);
 
 {{< /highlight >}}
 ### **Processus interne : comment fonctionne le contrôle ?**
-Chaque ligne de la feuille a un numéro de plan. La valeur par défaut du numéro de contour est zéro. Chaque fois que vous regroupez les lignes, le numéro de plan est augmenté de 1. Vous pouvez obtenir le numéro de plan en appelant la méthode GridWorksheet.Cells.GetRowOutlineLevel().
+Chaque ligne de la feuille a un numéro de contour. La valeur par défaut du numéro de contour est zéro. Chaque fois que vous regroupez les lignes, le numéro de plan est augmenté de 1. Vous pouvez obtenir le numéro de plan en appelant la méthode GridWorksheet.Cells.GetRowOutlineLevel().
 ## **Dissocier les lignes**
 Aspose.Cells.GridWeb vous permet de dissocier des lignes groupées.
 

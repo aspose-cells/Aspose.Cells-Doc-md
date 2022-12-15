@@ -1,12 +1,12 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.2.2
+title: Modifiche all'API pubblica in Aspose.Cells 8.2.2
 type: docs
 weight: 100
 url: /it/java/public-api-changes-in-aspose-cells-8-2-2/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.2.1 alla 8.2.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.2.1 alla 8.2.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -19,7 +19,7 @@ La nuova proprietà Version è stata aggiunta alla classe BuiltInDocumentPropert
 
 {{% /alert %}} 
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -40,7 +40,7 @@ Prima del rilascio di Aspose.Cells 8.2.2, non era possibile recuperare l'istanza
 
 {{% /alert %}} 
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 

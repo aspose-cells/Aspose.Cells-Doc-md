@@ -6,7 +6,7 @@ url: /de/java/applying-a-license/
 ---
 {{% alert color="primary" %}}
 
- Sobald Sie mit Ihrer Bewertung von Aspose.Cells zufrieden sind,[eine Lizenz kaufen](https://purchase.aspose.com/buy) auf der Website Aspose. Machen Sie sich mit den Unterschieden vertraut[Lizenztypen](https://purchase.aspose.com/policies/license-types/) angeboten. Wenn Sie Fragen haben, zögern Sie nicht[Wenden Sie sich an das Verkaufsteam unter Aspose](https://about.aspose.com/contact).
+ Sobald Sie mit Ihrer Bewertung von Aspose.Cells zufrieden sind,[eine Lizenz erwerben](https://purchase.aspose.com/buy) auf der Website Aspose. Machen Sie sich mit den Unterschieden vertraut[Lizenztypen](https://purchase.aspose.com/policies/license-types/) angeboten. Wenn Sie Fragen haben, zögern Sie nicht[Wenden Sie sich an das Verkaufsteam unter Aspose](https://about.aspose.com/contact).
 
 Jede Aspose-Lizenz enthält ein einjähriges Abonnement für kostenlose Upgrades auf alle neuen Versionen oder Fixes, die während dieser Zeit herauskommen. Der technische Support ist kostenlos und unbegrenzt und wird sowohl lizenzierten als auch Testbenutzern zur Verfügung gestellt.
 
@@ -18,7 +18,7 @@ Sie müssen eine Lizenz festlegen, bevor Sie Vorgänge mit Dokumenten durchführ
 
 ## **Laden der Lizenzdatei**
 
- In Aspose.Cells für Android über Java kann die Lizenz sein[als Ressource eingebettet](/cells/de/java/applying-a-license/#applying-a-license-from-an-embedded-resource), oder aus einem Stream geladen:
+ In Aspose.Cells for Android via Java kann die Lizenz sein[als Ressource eingebettet](/cells/de/java/applying-a-license/#applying-a-license-from-an-embedded-resource), oder aus einem Stream geladen:
 
 1.  Legen Sie die Lizenzdatei an einer beliebigen Stelle ab**/mnt/sdcard/**.
 1. Erstellen Sie einen Stream, der auf eine Datei verweist.

@@ -13,7 +13,7 @@ url: /it/java/aspose-cells-for-java-interruptible-library/
 
  Il seguente programma mostra come interrompere il processo di salvataggio utilizzando**InterruptMonitor.interrupt()** metodo.
 
-[**Java**]{{< highlight "java" >}}
+[**Giava**]{{< highlight "java" >}}
 
  //Crea una nuova cartella di lavoro
 

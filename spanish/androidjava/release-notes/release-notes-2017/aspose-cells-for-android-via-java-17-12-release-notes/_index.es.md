@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para Android a través de Java 17.12 Notas de la versión
+title: Aspose.Cells for Android via Java 17.12 Notas de la versión
 type: docs
 weight: 10
 url: /es/java/aspose-cells-for-android-via-java-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Cells para Android a través de Java 17.12.
+Esta página contiene notas de la versión para Aspose.Cells for Android via Java 17.12.
 
 {{% /alert %}} 
 
@@ -69,7 +69,7 @@ Esta página contiene notas de la versión para Aspose.Cells para Android a trav
 |CELLSJAVA-42439|Excepción: "java.lang.IllegalArgumentException: índice de fila no válido"|Excepción|
 |CELLSJAVA-42437|Excepción: java.lang.NumberFormatException al volver a guardar un formato de archivo XLSB|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para Android a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 ### **Agrega el método AbstractCalculationMonitor.Interrupt(string)**
 Permite a los usuarios interrumpir el progreso de los cálculos de fórmulas.
 ### **Agrega la enumeración HtmlCrossType.MSExport**
@@ -111,7 +111,7 @@ Obtiene y establece el prefijo del nombre del tipo css, como tr, col, td, etc. E
 ### **Agrega la propiedad Cell.FormulaLocal**
 Obtiene la fórmula formateada local que puede variar de acuerdo con las diferentes configuraciones regionales para separadores, nombres integrados, nombres de funciones, etc. Esas configuraciones regionales son dependientes.
 ### **Agrega el método GlobalizationSettings.GetLocalFunctionName(string standardName)**
-Obtiene el nombre de la función dependiente de la configuración regional de acuerdo con el nombre de la función estándar dado.
+Obtiene el nombre de la función dependiente de la configuración regional de acuerdo con el nombre de la función estándar dada.
 ### **Agrega el método GlobalizationSettings.GetLocalBuiltInName(string standardName)**
 Obtiene el texto dependiente de la configuración regional para el nombre integrado de acuerdo con el texto estándar proporcionado.
 ### **Agrega la propiedad GlobalizationSettings.ListSeparator**
@@ -137,6 +137,6 @@ Representa la forma de la extensión web.
 
 {{% alert color="primary" %}} 
 
-Dado que la base de código de Aspose.Cells para Android a través de Java coincide con el código de la versión .NET y Java, la mayoría de los cambios, mejoras y correcciones incluidas en el Aspose.Cells for .NET V17.10, Aspose.Cells 07617317117110171011017101101101TRA DELCOMENTE. 12, Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 y Aspose.Cells for Java v17.12 también se incluyen en este Aspose.Cells para Android a través de Java v17.12.
+Dado que la base de código de Aspose.Cells for Android via Java coincide con el código de .NET y 0761434341 Versiones (s), la mayoría de los cambios, mejoras y correcciones incluidos en el Aspose.Cells for .NET v17.10, 0761734481 0761811111111011101101101111011110111TA1TA1TA1TA1TA. Aspose.Cells for Java v17.10, Aspose.Cells for Java v17.11 y Aspose.Cells for Java v17.12 también se incluyen en este Aspose.Cells for Android 0761193121 v17.12.
 
 {{% /alert %}}

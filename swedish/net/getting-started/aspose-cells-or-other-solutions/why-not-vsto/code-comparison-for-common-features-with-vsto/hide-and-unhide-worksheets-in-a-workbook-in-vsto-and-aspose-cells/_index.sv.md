@@ -14,7 +14,7 @@ Stegen för att dölja ett kalkylblad är:
 1. Spara filen.
  För att visa ett kalkylblad igen, aktivera bara synligheten för det dolda bladet.
 
-Kodexemplen nedan visar först hur man döljer ett kalkylblad. De första exemplen visar processen med VSTO, med antingen C#, jämfört med att använda Aspose.Cells, återigen med endera C#.
+Kodexemplen nedan visar först hur man döljer ett kalkylblad. De första exemplen visar processen med VSTO, med antingen C#, jämfört med att använda Aspose.Cells, återigen med antingen C#.
 
 Den andra uppsättningen kodexempel visar raden som används för att visa kalkylbladet i VSTO eller Aspose.Cells.
 ## **Döljer arbetsblad**

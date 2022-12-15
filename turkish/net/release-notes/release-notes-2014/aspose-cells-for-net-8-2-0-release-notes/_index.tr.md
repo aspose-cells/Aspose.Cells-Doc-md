@@ -10,7 +10,7 @@ url: /tr/net/aspose-cells-for-net-8-2-0-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for .NET, 8.2.0 sürümüne güncellendi ve bu sürümün 40'tan fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
+ Aspose.Cells for .NET, 8.2.0 sürümüne güncellendi ve bu sürümün 40'tan fazla yeni kullanışlı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
 Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.

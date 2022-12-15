@@ -41,7 +41,7 @@ url: /ar/net/managing-page-breaks/
 
 ### **مسح كافة فواصل الصفحات**
 
- لمسح كل فواصل الصفحات في ورقة عمل ، قم باستدعاء[**أفقي بيجبريككولكشن**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) المجموعات[**صافي()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)طُرق.
+ لمسح كل فواصل الصفحات في ورقة عمل ، قم باستدعاء[**أفقي صفحة بريككولكشن**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) المجموعات[**صافي()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)طُرق.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 

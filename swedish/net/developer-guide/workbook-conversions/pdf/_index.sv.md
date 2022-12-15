@@ -18,15 +18,15 @@ Aspose.Cells stöder konvertering av Excel-filer till PDF och bibehåller hög v
 
 {{% alert color="primary" %}}
 
- Aspose.Cells för .NET skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, vid rendering av dokument till PDF, fylls Aspose.Cells för .NET**Ansökan** fält med värdet 'Aspose.Cells' och**PDF-producent** fält med värde, t.ex. 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, vid rendering av dokument till PDF, fylls Aspose.Cells for .NET**Ansökan** fält med värdet 'Aspose.Cells' och**PDF-producent**fält med värde, t.ex. 'Aspose.Cells v17.9'.
 
-Observera att du inte kan instruera Aspose.Cells för .NET att ändra eller ta bort denna information från utdatadokument.
+Observera att du inte kan instruera Aspose.Cells for .NET att ändra eller ta bort denna information från utdatadokument.
 
 {{% /alert %}}
 
 ### **Direkt konvertering**
 
- Aspose.Cells för .NET stöder konvertering från kalkylblad till PDF oberoende av annan programvara. Spara helt enkelt en Excel-fil till PDF med hjälp av**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** klass'**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod. De**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metoden ger**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkningsmedlem som konverterar de ursprungliga Excel-filerna till PDF-format.
+ Aspose.Cells for .NET stöder konvertering från kalkylblad till PDF oberoende av annan programvara. Spara helt enkelt en Excel-fil till PDF med hjälp av**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** klass'**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod. De**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metoden ger**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkningsmedlem som konverterar de ursprungliga Excel-filerna till PDF-format.
 
 Följ stegen nedan för att direkt konvertera Excel-kalkylbladen till PDF-format:
 
@@ -41,7 +41,7 @@ Följ stegen nedan för att direkt konvertera Excel-kalkylbladen till PDF-format
 
 ### **Avancerad konvertering**
 
-Du kan också välja att använda**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass för att ställa in olika attribut för konverteringen. Ställa in olika egenskaper för**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass ger dig kontroll över utskrifts-, teckensnitts-, säkerhets- och komprimeringsinställningar för utdata-PDF. Den viktigaste egendomen är**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**som gör att du kan spara Excel-filerna till PDF/A-kompatibla PDF-filer.
+ Du kan också välja att använda**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass för att ställa in olika attribut för konverteringen. Ställa in olika egenskaper för**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass ger dig kontroll över utskrifts-, teckensnitts-, säkerhets- och komprimeringsinställningar för utdata-PDF. Den viktigaste egendomen är**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**som gör att du kan spara Excel-filerna till PDF/A-kompatibla PDF-filer.
 
 #### **Spara arbetsbok till PDF/A-kompatibla filer**
 
@@ -51,7 +51,7 @@ Du kan också välja att använda**[PdfSaveOptions](https://reference.aspose.com
 
 {{% alert color="primary" %}}
 
- Observera att**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**Egenskapen lades till med utgåvan av Aspose.Cells för .NET 5.3.0.
+ Observera att**[Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**egendom lades till när Aspose.Cells for .NET 5.3.0 släpptes.
 
 {{% /alert %}}
 
@@ -63,13 +63,13 @@ Du kan också välja att använda**[PdfSaveOptions](https://reference.aspose.com
 
 #### **Ställ in alternativet ContentCopyForAccessibility**
 
-Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du hämta eller ställa in PDF:en**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)**alternativet för att kontrollera innehållsåtkomsten i den konverterade PDF-filen.
+Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du hämta eller ställa in PDF:en**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** alternativet för att kontrollera innehållsåtkomsten i den konverterade PDF-filen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
 #### **Exportera anpassade egenskaper till PDF**
 
-Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du exportera de anpassade egenskaperna i källarbetsboken till PDF:en.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)** Enumerator tillhandahålls för att specificera hur egenskaper exporteras. Dessa egenskaper kan observeras i Adobe Acrobat Reader genom att klicka på Arkiv och sedan egenskaper alternativ som visas i följande bild. Mallfilen "sourceWithCustProps.xlsx" kan laddas ner[här](sourceWithCustProps.xlsx) för testning och utdata PDF-filen "outSourceWithCustProps" är tillgänglig[här](outSourceWithCustProps.pdf) för analys.
+Med**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** klass, kan du exportera de anpassade egenskaperna i källarbetsboken till PDF:en.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**Enumerator tillhandahålls för att specificera hur egenskaper exporteras. Dessa egenskaper kan observeras i Adobe Acrobat Reader genom att klicka på Arkiv och sedan egenskaper alternativ som visas i följande bild. Mallfilen "sourceWithCustProps.xlsx" kan laddas ner[här](sourceWithCustProps.xlsx) för testning och utdata PDF-filen "outSourceWithCustProps" är tillgänglig[här](outSourceWithCustProps.pdf) för analys.
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 

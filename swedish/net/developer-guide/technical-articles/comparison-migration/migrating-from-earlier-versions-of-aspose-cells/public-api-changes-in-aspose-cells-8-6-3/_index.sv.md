@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.6.3
+title: Offentlig API Ändringar i Aspose.Cells 8.6.3
 type: docs
 weight: 220
 url: /sv/net/public-api-changes-in-aspose-cells-8-6-3/
@@ -11,7 +11,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för HTML-tolkning vid import av data**
-Den här versionen av Aspose.Cells för .NET API har avslöjat egenskapen ImportTableOptions.IsHtmlString som styr API:et att tolka HTML-taggarna samtidigt som data importeras till kalkylbladet och ställer in det analyserade resultatet som cellvärde. Observera att Aspose.Cells API:er redan tillhandahåller Cell.HtmlString för att utföra den här uppgiften för en enskild cell, men samtidigt som man importerar data i bulk, t.ex. från en DataTable, försöker egenskapen ImportTableOptions.IsHtmlString (när den är satt till true) att analysera alla de stödda HTML taggar och ställer in de analyserade resultaten till motsvarande celler.
+Den här versionen av Aspose.Cells for .NET API har exponerat egenskapen ImportTableOptions.IsHtmlString som styr API att tolka HTML-taggarna medan data importeras till kalkylbladet och ställer in det analyserade resultatet som cellvärde. Observera att Aspose.Cells API:er redan tillhandahåller Cell.HtmlString för att utföra denna uppgift för en enskild cell, men samtidigt som man importerar data i bulk, t.ex. från en DataTable, försöker egenskapen ImportTableOptions.IsHtmlString (när den är inställd på true) att analysera alla de stödda HTML taggar och ställer in de analyserade resultaten till motsvarande celler.
 
 Här är det enklaste användningsscenariot.
 
@@ -35,7 +35,7 @@ cells.ImportData(table, 0, 0, importOptions);
 
 
 ### **Metod Workbook.CreateBuiltinStyle tillagd**
- Aspose.Cells för .NET 8.6.3 har exponerat metoden Workbook.CreateBuiltinStyle som kan användas för att skapa ett objekt av klassen Style som motsvarar en av[inbyggda stilar som erbjuds av Excel-applikationen](/cells/sv/net/using-built-in-styles/)Metoden Workbook.CreateBuiltinStyle accepterar en konstant från uppräkningen BuiltinStyleType. Observera att med tidigare utgåvor av API:erna Aspose.Cells kan samma uppgift utföras via metoden StyleCollection.CreateBuiltinStyle, men eftersom de senaste utgåvorna av Aspose.Cells API:er har tagit bort StyleCollection-klassen kan den nyligen exponerade Workbook.CreateBuiltinStyle-metoden betraktas som en alternativ metod. uppnå detsamma.
+ Aspose.Cells for .NET 8.6.3 har exponerat metoden Workbook.CreateBuiltinStyle som kan användas för att skapa ett objekt av klassen Style som motsvarar en av[inbyggda stilar som erbjuds av Excel-applikationen](/cells/sv/net/using-built-in-styles/)Metoden Workbook.CreateBuiltinStyle accepterar en konstant från uppräkningen BuiltinStyleType. Observera att med tidigare utgåvor av API:erna Aspose.Cells kan samma uppgift utföras via metoden StyleCollection.CreateBuiltinStyle, men eftersom de senaste utgåvorna av Aspose.Cells API:er har tagit bort StyleCollection-klassen kan den nyligen exponerade Workbook.CreateBuiltinStyle-metoden betraktas som en alternativ metod. uppnå detsamma.
 
 Följande är det enkla användningsscenariot.
 
@@ -57,7 +57,7 @@ var style = book.CreateBuiltinStyle(BuiltinStyleType.Title);
 
 
 ### **Metod Cells.ImportGridView tillagd**
-Aspose.Cells för .NET 8.6.3 har avslöjat en överbelastad version av Cells.ImportGridView som nu kan acceptera en instans av ImportTableOptions för att ge mer kontroll över importprocessen.
+Aspose.Cells for .NET 8.6.3 har avslöjat en överbelastad version av Cells.ImportGridView som nu kan acceptera en instans av ImportTableOptions för att ge mer kontroll över importprocessen.
 
 Följande är det enkla användningsscenariot.
 
@@ -91,7 +91,7 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 
 
 ### **Property ImportTableOptions.ConvertGridStyle tillagd**
-Som referens till de ovan nämnda förbättringarna har den senaste versionen av Aspose.Cells för .NET API också avslöjat egenskapen ImportTableOptions.ConvertGridStyle. Denna egenskap av boolesk typ tillåter utvecklarna att kontrollera utseendet på den importerade datan, där inställning av egenskapen ImportTableOptions.ConvertGridStyle till true indikerar att API:et kommer att tillämpa stilen för GridView på cellerna där data har importerats.
+Som referens till ovan nämnda förbättringar har den senaste versionen av Aspose.Cells for .NET API också exponerat egenskapen ImportTableOptions.ConvertGridStyle. Den här egenskapen av boolesk typ tillåter utvecklarna att kontrollera utseendet på importerade data, där inställning av egenskapen ImportTableOptions.ConvertGridStyle till true indikerar att API kommer att tillämpa stilen för GridView på cellerna där data har importerats.
 
 Följande är det enkla användningsscenariot.
 
@@ -127,7 +127,7 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 
 
 ### **Egenskap LoadDataOption.OnlyVisibleWorksheet har lagts till**
- Aspose.Cells för .NET 8.6.3 har avslöjat egenskapen LoadDataOption.OnlyVisibleWorksheet som vid inställning till true kommer att påverka laddningsmekanismen för Aspose.Cells för .NET API, som ett resultat kommer endast synliga kalkylblad från ett givet kalkylblad att laddas. Vänligen kontrollera[detaljerad artikel](/cells/sv/net/different-ways-to-open-files/) på det här ämnet.
+ Aspose.Cells for .NET 8.6.3 har avslöjat egenskapen LoadDataOption.OnlyVisibleWorksheet som vid inställning till true kommer att påverka laddningsmekanismen för Aspose.Cells for .NET API, som ett resultat av detta kommer endast ett visst kalkylblad att vara synligt. Vänligen kontrollera[detaljerad artikel](/cells/sv/net/different-ways-to-open-files/) på det här ämnet.
 
 Följande är det enkla användningsscenariot.
 

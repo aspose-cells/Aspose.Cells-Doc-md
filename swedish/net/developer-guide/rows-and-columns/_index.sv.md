@@ -52,7 +52,7 @@ När du arbetar med kalkylblad och lägger till data i rader eller kolumner kan 
 Ställ in bredden på en kolumn genom att anropa[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samlingens[**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)metod. De[**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)metoden tar följande parametrar:
 
 - **Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
-- **Kolumnbredd**, önskad kolumnbredd i pixlar.
+- **Kolumnbredd**önskad kolumnbredd i pixlar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SetColumnWidthInPixels-1.cs" >}}
 

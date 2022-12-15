@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 19.3 Release Notes
+title: Aspose.Cells for Android via Java 19.3 Release Notes
 type: docs
 weight: 50
 url: /sv/java/aspose-cells-for-android-via-java-19-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.3.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.3.
 
 {{% /alert %}} 
 
@@ -16,7 +16,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.3
 |CELLSJAVA-42827|Infoga rad med InsertOptions liknande MS Excel|Ny funktion|
 |CELLSJAVA-42845|Behåll avgränsare för tomma rader när du exporterar en XLS-fil till CSV|Ny funktion|
 |CELLSJAVA-42778|Undantag "stil textRotation måste vara mellan 0 och 180" när XLSM laddas|Förbättring|
-|CELLSJAVA-42712|Förbättra JavaDocs för Aspose.Cells för Java|Förbättring|
+|CELLSJAVA-42712|Förbättra JavaDocs för Aspose.Cells for Java|Förbättring|
 |CELLSJAVA-42823|Användning av FontUnderlineType.WORDS skapar undantag|Förbättring|
 |CELLSJAVA-42846|Resultaten för textextraktion skiljer sig åt|Förbättring|
 |CELLSANDROID-85|Problem med omvandling av ark till bild med transparenta bilder ovanför andra bilder|Insekt|
@@ -58,8 +58,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 19.3
 |CELLSJAVA-42820|Undantag "Invalid IMEModeType string val" när ett XLSX-filformat laddas|Undantag|
 |CELLSJAVA-42849|IndexOutOfBoundsException undantag vid konvertering av XLSX till HTML|Undantag|
 |CELLSJAVA-42831|Undantag har tagits upp av Excel efter att ha tillämpat stil på intervallet av rubrikceller|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 
 **Lägger till metoden PivotTable.ShowReportFilterPageByName(strängfältnamn).**
 
@@ -125,6 +125,6 @@ Konverterar tabellen till intervall med alternativ.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Android via Java matchar koden för relevanta .NET- och Java-versioner, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v19.1, Aspose.Cells för .NET v19.2 , Aspose.Cells för .NET v19.3, Aspose.Cells för Java v19.1, Aspose.Cells för Java v19.2 och Aspose.Cells för Java v19.3 ingår också i denna Aspose.Cells för Android3 Java v19.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v19.1, Aspose.Cells for .NET v19.2, Aspose.Cells for .NET v19.3, Aspose.Cells for Java v19.1, Aspose.Cells for Java v19.2 och Aspose.Cells for Java v19.3 är också inkluderade i denna 07611073411 0761107311 19.39.
 
 {{% /alert %}}

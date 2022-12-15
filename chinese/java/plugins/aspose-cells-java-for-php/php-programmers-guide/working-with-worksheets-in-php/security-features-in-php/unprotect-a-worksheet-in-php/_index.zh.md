@@ -5,7 +5,7 @@ weight: 20
 url: /zh/java/unprotect-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - 取消保护工作表**
-保护工作表使用**Aspose.Cells Java 用于 PHP**， 称呼**取消保护工作表**的方法**保护**模块。
+保护工作表使用**Aspose.Cells Java for PHP**， 称呼**取消保护工作表**的方法**保护**模块。
 
 **PHP代码**
 

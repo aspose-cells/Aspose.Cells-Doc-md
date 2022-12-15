@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.5.0
+title: Offentlig API Ändringar i Aspose.Cells 8.5.0
 type: docs
 weight: 160
 url: /sv/net/public-api-changes-in-aspose-cells-8-5-0/
@@ -11,11 +11,11 @@ url: /sv/net/public-api-changes-in-aspose-cells-8-5-0/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Ändrade parametrar för ICustomFunction.CalculateCustomFunction**
-Om en parameter för den anpassade funktionen är cellreferens, används API:er i den gamla versionen Aspose.Cells för att konvertera cellreferensen till ett cellvärde eller en objektmatris med alla cellvärden i det refererade området. För många funktioner och användare krävs dock inte cellvärdesmatrisen för alla celler i det refererade området, de behöver bara en enda cell som motsvarar formelns position, eller behöver bara referensen i sig istället för cellvärdet eller värdematrisen . För vissa situationer ökade hämtning av alla cellvärden till och med risken för cirkulära referensfel.
+Om en parameter för den anpassade funktionen är cellreferens, används i den gamla versionen Aspose.Cells API:er för att konvertera cellreferensen till ett cellvärde eller en objektmatris med alla cellvärden i det refererade området. För många funktioner och användare krävs dock inte cellvärdesmatrisen för alla celler i det refererade området, de behöver bara en enda cell som motsvarar formelns position, eller behöver bara referensen i sig istället för cellvärdet eller värdematrisen . För vissa situationer ökade hämtning av alla cellvärden till och med risken för cirkulära referensfel.
 
-För att stödja en sådan typ av krav har Aspose.Cells för .NET 8.5.0 ändrat parametervärdet till "paramsList" för refererat område. Sedan v8.5.0 lägger API:et bara ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är referens. Om du behöver själva referensen kan du använda ReferredArea direkt. Om du behöver få ett enskilt cellvärde från referensen som motsvarar formelns position, kan du använda metoden ReferredArea.GetValue(rowOffset, int colOffset). Om du behöver en cellvärdesarray för hela området kan du använda metoden ReferredArea.GetValues.
+För att stödja en sådan typ av krav har Aspose.Cells for .NET 8.5.0 ändrat parametervärdet till "paramsList" för refererat område. Sedan v8.5.0 lägger API bara in ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är referens. Om du behöver själva referensen kan du använda ReferredArea direkt. Om du behöver få ett enskilt cellvärde från referensen som motsvarar formelns position, kan du använda metoden ReferredArea.GetValue(rowOffset, int colOffset). Om du behöver en cellvärdesarray för hela området kan du använda metoden ReferredArea.GetValues.
 
-Nu när Aspose.Cells för .NET 8.5.0 ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte att behövas längre (i gamla versioner kunde den inte alltid ge en-till-en-karta till parametrarna för den anpassade funktionen ), så den här versionen har också tagit bort den från "contextObjects" nu.
+Nu när Aspose.Cells for .NET 8.5.0 ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte att behövas längre (i gamla versioner kunde den inte alltid ge en-till-en-karta till parametrarna för den anpassade funktionen), så den här versionen har också tagit bort den från "contextObjects" nu.
 
 Denna ändring kräver ändringar av koden för implementeringen för ICustomFunction lite när du behöver värdet/värdena för referensparametern.
 
@@ -101,20 +101,20 @@ Denna ändring kräver ändringar av koden för implementeringen för ICustomFun
 
 
 ### **Klassberäkningsalternativ har lagts till**
-Aspose.Cells för .NET 8.5.0 har exponerat klassen CalculationOptions för att lägga till mer flexibilitet och utökningsbarhet för formelberäkningsmotorn. Den nyligen tillagda klassen har följande egenskaper.
+Aspose.Cells for .NET 8.5.0 har exponerat klassen CalculationOptions för att lägga till mer flexibilitet och utökningsbarhet för formelberäkningsmotorn. Den nyligen tillagda klassen har följande egenskaper.
 
 1. CalculationOptions.CalcStackSize: Angav stackstorleken för att beräkna celler rekursivt. -1 anger att beräkningen kommer att använda WorkbookSettings.CalcStackSize för motsvarande arbetsbok.
 1. CalculationOptions.CustomFunction: Utökar formelberäkningsmotorn med anpassad formel.
 1. CalculationOptions.IgnoreError: Boolesk typvärde indikerar om fel ska döljas vid beräkning av formlerna, där felen kan bero på funktionen som inte stöds, extern länk eller mer.
 1. CalculationOptions.PrecisionStrategy: CalculationPrecisionStrategy-typvärde som anger strategin för bearbetningsprecision i beräkningen.
 ### **Uppräkning BeräkningPrecisionStrategy tillagd**
-Aspose.Cells för .NET 8.5.0 har exponerat uppräkningen CalculationPrecisionStrategy för att lägga till mer flexibilitet till formelberäkningsmotorn för att få önskade resultat. Denna uppräkning strategier hanteringen av beräkningsprecisionen. Eftersom precisionsproblemet med IEEE 754 Floating-Point Arithmetic, kanske vissa till synes enkla formler inte beräknas för att ge förväntade resultat, därför har den senaste API-byggnaden exponerat följande fält för att få önskade resultat enligt urvalet.
+Aspose.Cells for .NET 8.5.0 har exponerat uppräkningen CalculationPrecisionStrategy för att lägga till mer flexibilitet till formelberäkningsmotorn för att få önskade resultat. Denna uppräkning strategier hanteringen av beräkningsprecisionen. På grund av precisionsproblemet med IEEE 754 Floating-Point Arithmetic, kanske vissa till synes enkla formler inte beräknas för att ge förväntade resultat, därför har den senaste API-byggnaden exponerat följande fält för att få önskade resultat enligt urvalet.
 
 1. CalculationPrecisionStrategy.Decimal: Använder decimal som operand där det är möjligt, och är mest ineffektivt utifrån prestanda.
 1. CalculationPrecisionStrategy.Round: Avrundar beräkningsresultaten enligt signifikant siffra.
 1. CalculationPrecisionStrategy.None: Ingen strategi används därför under beräkningen använder motorn det ursprungliga dubbelvärdet som operand och returnerar resultatet direkt. Det här alternativet är mest effektivt och kan användas i de flesta fall.
 ### **Metoder tillagda för att använda beräkningsalternativ**
-Med lanseringen av v8.5.0 har API:et Aspose.Cells lagt till överbelastningsversioner av CalculateFormula-metoden enligt listan nedan.
+Med lanseringen av v8.5.0 har Aspose.Cells API lagt till överbelastningsversioner av CalculateFormula-metoden enligt listan nedan.
 
 - Workbook.CalculateFormula(CalculationOptions)
 - Worksheet.CalculateFormula(Alternativ för beräkningsalternativ, bool rekursiv)
@@ -174,7 +174,7 @@ workbook.Save("output.xlsx", SaveFormat.Xlsx);
 
 
 ### **Property SheetRender.PageScale tillagd**
-När du ställer in Skalning av sidinställningar med**Passar till n sida/sidor bred och m hög**Alternativet beräknar Microsoft Excel skalningsfaktorn för sidinställningar. Samma kan uppnås med egenskapen SheetRender.PageScale exponerad av Aspose.Cells för .NET 8.5.0. Den här egenskapen returnerar ett dubbelt värde som kan konverteras till procentuellt värde. Till exempel, om den returnerar 0,507968245 betyder det att skalfaktorn är 51 %.
+När du ställer in Skalning av sidinställningar med**Passar till n sida/sidor bred och m hög** option, Microsoft Excel beräknar skalfaktorn för sidinställningar. Samma kan uppnås med egenskapen SheetRender.PageScale exponerad av Aspose.Cells for .NET 8.5.0. Den här egenskapen returnerar ett dubbelt värde som kan konverteras till procentuellt värde. Till exempel, om den returnerar 0,507968245 betyder det att skalfaktorn är 51 %.
 
 **C#**
 
@@ -218,7 +218,7 @@ Console.WriteLine(strPageScale);
 
 
 ### **Uppräkning CellValueFormatStrategy tillagd**
-Aspose.Cells för .NET 8.5.0 har lagt till en ny uppräkning CellValueFormatStrategy för att hantera situationer där cellvärden måste extraheras med eller utan formatering. Enumeration CellValueFormatStrategy har följande fält.
+Aspose.Cells for .NET 8.5.0 har lagt till en ny uppräkning CellValueFormatStrategy för att hantera situationer där cellvärden måste extraheras med eller utan formatering. Enumeration CellValueFormatStrategy har följande fält.
 
 1. CellValueFormatStrategy.CellStyle: Endast formaterad med cellens ursprungliga format.
 1. CellValueFormatStrategy.DisplayStyle: Formaterad med cellens visade stil.
@@ -272,7 +272,7 @@ Console.WriteLine(value);
 
 
 ### **Egenskap ExportTableOptions.FormatStrategy tillagd**
-Aspose.Cells för .NET 8.5.0 har exponerat egenskapen ExportTableOptions.FormatStrategy för de användare som vill exportera data till DataTable med eller utan formatering. Den här egenskapen använder CellValueFormatStrategy-uppräkningen och exporterar data enligt angivet alternativ.
+Aspose.Cells for .NET 8.5.0 har exponerat egenskapen ExportTableOptions.FormatStrategy för de användare som vill exportera data till DataTable med eller utan formatering. Den här egenskapen använder CellValueFormatStrategy-uppräkningen och exporterar data enligt angivet alternativ.
 
 Följande kod förklarar användningen av egenskapen ExportTableOptions.FormatStrategy.
 

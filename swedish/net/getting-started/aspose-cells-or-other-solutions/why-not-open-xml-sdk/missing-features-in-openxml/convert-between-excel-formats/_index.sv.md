@@ -9,7 +9,7 @@ url: /sv/net/convert-between-excel-formats/
 **PDF** filer används i stor utsträckning för att utbyta dokument mellan organisationer, statliga sektorer och individer. Det är ett standarddokumentformat och mjukvaruutvecklare uppmanas ofta att hitta ett sätt att konvertera Microsoft Excel-filer till**PDF** dokument.
 **Aspose.Cells** stöder konvertering av Excel-filer till PDF och bibehåller hög visuell trohet i konverteringen.
 
-Aspose.Cells för .NET stöder konvertering från kalkylblad till PDF oberoende av annan programvara. Spara en Excel-fil till PDF med hjälp av arbetsbokklassens Spara-metod. Spara-metoden tillhandahåller enum-medlemmen SaveFormat.Pdf som konverterar de ursprungliga Excel-filerna till PDF-format.
+Aspose.Cells for .NET stöder konvertering från kalkylblad till PDF oberoende av annan programvara. Spara en Excel-fil till PDF med hjälp av arbetsbokklassens Spara-metod. Spara-metoden tillhandahåller enum-medlemmen SaveFormat.Pdf som konverterar de ursprungliga Excel-filerna till PDF-format.
 
 **Konverterar** direkt från kalkylblad till PDF, istället för att använda ett tredjepartsverktyg eller extern API, har flera**fördelar**:
 

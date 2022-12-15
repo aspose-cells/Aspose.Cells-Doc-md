@@ -30,12 +30,12 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.4.
 |CELLSJAVA-42577|Ottieni/estrai i valori (0 per 0 e vuoto per vuoto) utilizzando il metodo DataPoint.getYValue() per un dato grafico|Insetto|
 |CELLSJAVA-42566|Inversione dei sottotitoli (voci della legenda) nel grafico MS Excel|Insetto|
 |CELLSJAVA-42560|Le frecce non sono presenti nell'output PNG del grafico Excel|Insetto|
-|CELLSJAVA-42508|Java metodo 'Shape.toImage' funziona diversamente con lo stesso metodo in .NET|Insetto|
+|CELLSJAVA-42508|Il metodo Java 'Shape.toImage' funziona in modo diverso con lo stesso metodo in .NET|Insetto|
 |CELLSJAVA-42573|Aspose.Cells 18.3 rotazione per un TextBox non funziona per EXCEL_97_Formato di salvataggio TO_2003|Insetto|
 |CELLSJAVA-42570|Una nuova riga vuota viene visualizzata all'interno del TextBox dopo l'elaborazione e il salvataggio del file Excel|Insetto|
 |CELLSJAVA-42563|Eccezione "java.lang.NullPointerException" durante la firma digitale di un file XLSX|Eccezione|
-# **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+# **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 #### **Aggiunge il nuovo elemento "CrossHideRight" per l'enumerazione HtmlCrossType**
 Visualizza la stringa incrociata HTML e nasconde la stringa destra quando il testo è sovrapposto.
 #### **Aggiunge il nuovo elemento "TSV" per le enumerazioni LoadFormat, SaveFormat e FileFormatType**

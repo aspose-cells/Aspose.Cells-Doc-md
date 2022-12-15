@@ -1,5 +1,5 @@
 ﻿---
-title: Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi
+title: Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi
 type: docs
 weight: 280
 url: /it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
@@ -14,7 +14,7 @@ Aspose.Cells consente inoltre di applicare il Filtro Avanzato utilizzando il[**F
 
 **isFilter**
 
-Indica se filtrare l'elenco in posizione.
+Indica se filtrare l'elenco in atto.
 
 **listRange**
 
@@ -32,7 +32,7 @@ L'intervallo in cui copiare i dati.
 
 Solo visualizzazione o copia di righe univoche.
 
-## **Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi**
+## **Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi**
 
 Il codice di esempio seguente applica il filtro avanzato su[Esempio di file Excel](48496692.xlsx) e genera il[File Excel di output](48496691.xlsx). Lo screenshot mostra entrambi i file per il confronto. Come puoi vedere all'interno dello screenshot, i dati sono stati filtrati all'interno del file Excel di output secondo criteri complessi.
 

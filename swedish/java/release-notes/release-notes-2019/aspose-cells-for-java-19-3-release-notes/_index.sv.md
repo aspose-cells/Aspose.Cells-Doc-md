@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 19.3 Release Notes
+title: Aspose.Cells for Java 19.3 Release Notes
 type: docs
 weight: 100
 url: /sv/java/aspose-cells-for-java-19-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.3.
+Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.3.
 
 {{% /alert %}} 
 
@@ -25,8 +25,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Java 19.3.
 |CELLSJAVA-42849|IndexOutOfBoundsException undantag vid konvertering av XLSX till HTML|Undantag|
 |CELLSJAVA-42831|Undantag har tagits upp av MS Excel efter att ha applicerat styling på intervall av rubrikceller|Undantag|
 
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Ändringar för standardteckensnitt för laddad XLS-mallfil**
 äldre versioner stödde vi inte att använda teckensnittet som definierats i temat (avancerad funktion i MS Excel 2007 och senare versioner) enligt regionen när XLS-mallfilerna laddas. På vissa användares krav har vi stött det från v19.3. Om regionen har specificerats i XLS-mallfilen kommer vi att tillämpa teckensnittet som definierats i temat enligt det sparade specificerade regionvärdet. Annars kommer vi att tillämpa typsnittet som definieras i temat enligt applikationsmiljöns regionala inställningar. Detta kommer att göra att standardteckensnittet för arbetsboken (laddat från XLS-mallfil som har specificerat temadata) ändras och sedan påverka andra funktioner, såsom kolumnbredd, formstorlek, renderingseffekt, ... etc.
 ### **Lägger till metoden Name.GetReferredAreas(bool recalculate).**

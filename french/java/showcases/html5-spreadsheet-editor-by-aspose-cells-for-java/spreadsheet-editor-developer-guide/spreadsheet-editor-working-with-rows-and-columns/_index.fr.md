@@ -248,7 +248,7 @@ Pour modifier la largeur d'une colonne :
 1. Cliquez sur n'importe quelle cellule à l'intérieur de la colonne.
 1.  Basculer vers**Onglet Format**.
 1.  Cliquez sur**Largeur de colonne** bouton pour ouvrir**Largeur de colonne**dialogue.
-1. Entrez une nouvelle valeur dans la boîte de dialogue.
+1. Saisissez une nouvelle valeur dans la boîte de dialogue.
 1.  Cliquez sur**proche**.
 
 L'éditeur modifiera la largeur de la colonne.
@@ -260,7 +260,7 @@ Pour modifier la hauteur d'une ligne :
 1. Cliquez sur n'importe quelle cellule à l'intérieur de la ligne.
 1.  Basculer vers**Onglet Format**.
 1.  Cliquez sur**Hauteur de ligne** bouton pour ouvrir**Hauteur de ligne**dialogue.
-1. Entrez une nouvelle valeur dans la boîte de dialogue.
+1. Saisissez une nouvelle valeur dans la boîte de dialogue.
 1.  Cliquez sur**proche**.
 
 L'éditeur modifiera la hauteur de la ligne.

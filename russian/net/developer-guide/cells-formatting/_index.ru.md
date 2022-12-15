@@ -55,7 +55,7 @@ Aspose.Cells также поддерживает эту функцию. В эт�
 
  Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) который представляет собой файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс предоставляет[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция. Каждый элемент в[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция представляет собой объект[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)учебный класс.
 
-[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)класс обеспечивает[**Персонажи**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)метод, который принимает следующие параметры для выбора диапазона символов внутри ячейки:
+[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) класс обеспечивает[**Персонажи**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)метод, который принимает следующие параметры для выбора диапазона символов внутри ячейки:
 
 - **Начальный индекс**, индекс символа, с которого начинается выделение.
 - **Количество символов**, количество символов для выбора.
@@ -98,7 +98,7 @@ Aspose.Cells также поддерживает эту функцию. В эт�
 
 ## **Предварительные темы**
 - [Настройки выравнивания](/cells/ru/net/cells-alignment-settings/)
-- [Настройки границ](/cells/ru/net/cells-border-settings/)
+- [Настройки границы](/cells/ru/net/cells-border-settings/)
 - [Установите условные форматы файлов Excel и ODS.](/cells/ru/net/conditional-formatting/)
 - [Темы и цвета Excel](/cells/ru/net/excel-themes-and-colors/)
 - [Настройки заполнения](/cells/ru/net/cells-fill-settings/)

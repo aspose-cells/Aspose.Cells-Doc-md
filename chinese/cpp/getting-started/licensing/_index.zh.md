@@ -5,7 +5,7 @@ weight: 50
 url: /zh/cpp/licensing/
 ---
 ## **评估版限制**
-可从 Aspose 网站的下载部分下载适用于 C++ 的 Aspose.Cells 的免费评估版：<https://downloads.aspose.com/cells/cpp>.
+可以从 Aspose 网站的下载部分下载 Aspose.Cells for C++ 的免费评估版：<https://downloads.aspose.com/cells/cpp>.
 ## **使用文件或流对象申请许可证**
 许可证可以从文件或流对象中加载。 Aspose.Cells for C++ 将尝试在以下位置查找许可证：
 

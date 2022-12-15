@@ -10,7 +10,7 @@ url: /ar/java/export-databar-colorscale-and-iconset-conditional-formatting-while
 
 {{% /alert %}} 
 ## **تصدير التنسيق الشرطي DataBar و ColorScale و IconSet أثناء تحويل Excel إلى HTML**
- تُظهر لقطة الشاشة التالية ملف[نموذج ملف اكسل](5473447.xlsx) باستخدام التنسيق الشرطي DataBar و ColorScale و IconSet. يمكنك تنزيل ملف[نموذج ملف اكسل](5473447.xlsx) من الارتباط المحدد.
+تُظهر لقطة الشاشة التالية ملف[نموذج ملف اكسل](5473447.xlsx) باستخدام التنسيق الشرطي DataBar و ColorScale و IconSet. يمكنك تنزيل ملف[نموذج ملف اكسل](5473447.xlsx) من الارتباط المحدد.
 
 ![ما يجب القيام به: image_بديل_نص](conversion_1.png)
 

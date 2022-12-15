@@ -6,7 +6,7 @@ url: /ar/jasperreports/feature-overview/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells لـ JasperReports هو منتج لتصدير التقارير من JasperReports و JasperServer إلى تنسيق Microsoft Excel. Aspose.Cells لـ JasperReports يرث جميع ميزات المصدر المدمج بالإضافة إلى تعويض بعض نقاط الضعف في عارض XLS الأصلي لـ JasperReports. يقدم هذا القسم وصفًا تفصيليًا لـ Aspose.Cells لميزات JasperReports. انقر فوق الروابط المعنية في الجدول لمعرفة المزيد حول الميزات.
+Aspose.Cells for JasperReports هو منتج لتصدير التقارير من JasperReports و JasperServer إلى تنسيق Microsoft Excel. Aspose.Cells for JasperReports يرث جميع ميزات المصدر المدمج بالإضافة إلى تعويض بعض نقاط الضعف في عارض XLS الأصلي لـ JasperReports. يقدم هذا القسم وصفاً مفصلاً لميزات Aspose.Cells for JasperReports. انقر فوق الروابط المعنية في الجدول لمعرفة المزيد حول الميزات.
 
 {{% /alert %}}
 

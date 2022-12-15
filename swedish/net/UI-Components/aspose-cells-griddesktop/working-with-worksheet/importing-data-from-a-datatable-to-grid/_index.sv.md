@@ -6,7 +6,7 @@ url: /sv/net/importing-data-from-a-datatable-to-grid/
 ---
 {{% alert color="primary" %}} 
 
-Sedan lanseringen av .NET Framework har Microsoft tillhandahållit ett utmärkt sätt att lagra data i offlineläge i form av ett DataTable-objekt. För att förstå utvecklarnas behov stöder Aspose.Cells.GridDesktop även import av data från en datatabell. Det här ämnet diskuterar hur man gör detta.
+Sedan släppet av ramverket .NET har Microsoft varit ett utmärkt sätt att lagra data i offlineläge i form av ett DataTable-objekt. För att förstå utvecklarnas behov stöder Aspose.Cells.GridDesktop också import av data från en datatabell. Det här ämnet diskuterar hur man gör detta.
 
 {{% /alert %}} 
 ## **Exempel**

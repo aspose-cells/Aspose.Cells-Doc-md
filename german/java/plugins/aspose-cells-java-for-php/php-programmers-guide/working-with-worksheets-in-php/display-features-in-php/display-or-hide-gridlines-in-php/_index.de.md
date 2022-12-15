@@ -6,7 +6,7 @@ url: /de/java/display-or-hide-gridlines-in-php/
 ---
 ## **Aspose.Cells – Rasterlinien anzeigen oder ausblenden**
 ### **Ausblenden von Gitternetzlinien**
- Arbeitsblatt ausblenden mit**Aspose.Cells Java für PHP** , Anruf**Rasterlinien ausblenden** Modul.
+ Arbeitsblatt ausblenden mit**Aspose.Cells Java for PHP** , Anruf**Rasterlinien ausblenden** Modul.
 
 **PHP-Code**
 

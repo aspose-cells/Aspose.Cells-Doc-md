@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 17.6 Release Notes
+title: Aspose.Cells for Java 17.6 Release Notes
 type: docs
 weight: 70
 url: /sv/java/aspose-cells-for-java-17-6-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 17.6](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.6/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 17.6](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-17.6/).
 
 {{% /alert %}} 
 
@@ -43,8 +43,8 @@ url: /sv/java/aspose-cells-for-java-17-6-release-notes/
 |CELLSJAVA-42318|Ett undantag skapas när du försöker öppna Workbook|Undantag|
 |CELLSJAVA-42311|Undantag: "java.lang.NullPointerException" när en ODS-fil öppnas via Aspose.Cells API:er|Undantag|
 |CELLSJAVA-42302|NullPointerException om att skapa arbetsboksinstans från källexcelfil|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen Gridweb.OnAjaxCallFinishedClientFunction**
 Hämtar eller ställer in klientsidans funktionsnamn som ska anropas när ajaxcall avslutats.
 ### **Lägger till enum StyleModifyFlag.RelativeIndent**

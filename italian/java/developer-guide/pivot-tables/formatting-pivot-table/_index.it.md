@@ -57,7 +57,7 @@ L'esempio di codice seguente mostra come cancellare tutti i campi pivot nell'are
 
 ### **Applicazione di ConsolidationFunction ai campi dati della tabella pivot**
 
- Aspose.Cells può essere utilizzato per applicare ConsolidationFunction ai campi dati (o campi valore) della tabella pivot. In Microsoft Excel, puoi fare clic con il pulsante destro del mouse sul campo del valore e quindi selezionare**Impostazioni campo valore...** opzione e quindi selezionare la scheda**Riepiloga valori per**. Da lì, puoi selezionare qualsiasi ConsolidationFunction di tua scelta come Sum, Count, Average, Max, Min, Product, Distinct Count ecc.
+ Aspose.Cells può essere utilizzato per applicare ConsolidationFunction ai campi dati (o campi valore) della tabella pivot. In Microsoft Excel è possibile fare clic con il pulsante destro del mouse sul campo del valore e quindi selezionare**Impostazioni campo valore...** opzione e quindi selezionare la scheda**Riepiloga valori per**. Da lì, puoi selezionare qualsiasi ConsolidationFunction di tua scelta come Sum, Count, Average, Max, Min, Product, Distinct Count ecc.
 
  Aspose.Cells fornisce[**Funzione di consolidamento**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) enumerazione per supportare le seguenti funzioni di consolidamento.
 

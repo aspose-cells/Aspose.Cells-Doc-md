@@ -67,7 +67,7 @@ Bieten Sie Benutzern die Möglichkeit zu entscheiden, wie mit dem führenden ein
 
 ### **Fügt die Methoden GlobalizationSettings.GetCollationKey(string,bool) und Compare(string,string,bool) hinzu.**
 
-Bieten Sie Benutzern die Möglichkeit, die Standardregeln des Zeichenfolgenvergleichs zu überschreiben. Für einige Gebietsschemas oder Zeichenfolgenwerte ist die Standardregel des Zeichenfolgenvergleichs möglicherweise nicht die erwartete (das Ergebnis einiger Funktionen, wie Formelberechnung, Sortierung usw., unterscheidet sich von dem, was in MS Excel erhalten werden sollte). Wenn dies der Fall ist, kann der Benutzer diese Methoden mit der erwarteten Regel überschreiben (z. B. kann der Benutzer die Implementierung der icu-Bibliothek verwenden).
+Bieten Sie Benutzern die Möglichkeit, die Standardregeln des Zeichenfolgenvergleichs zu überschreiben. Für einige Gebietsschemata oder Zeichenfolgenwerte ist die Standardregel des Zeichenfolgenvergleichs möglicherweise nicht die erwartete (das Ergebnis einiger Funktionen, wie Formelberechnung, Sortierung usw., unterscheidet sich von dem, was in MS Excel erhalten werden sollte). Wenn dies der Fall ist, kann der Benutzer diese Methoden mit der erwarteten Regel überschreiben (z. B. kann der Benutzer die Implementierung der icu-Bibliothek verwenden).
 
 ### **Fügt Aufzählung ImageType.WebP hinzu.**
 

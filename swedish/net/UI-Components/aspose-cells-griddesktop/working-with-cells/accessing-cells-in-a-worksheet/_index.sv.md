@@ -10,7 +10,7 @@ Vi har diskuterat om att arbeta med kalkylblad, rader och kolumner hittills men 
 
 {{% /alert %}} 
 ## **Åtkomst till Cells i ett arbetsblad**
-Vi kan komma åt vilken cell som helst i ett kalkylblad med API:et Aspose.Cells.GridDesktop. Det kan finnas tre möjliga sätt att komma åt celler enligt följande:
+Vi kan komma åt vilken cell som helst i ett kalkylblad med hjälp av API eller Aspose.Cells.GridDesktop. Det kan finnas tre möjliga sätt att komma åt celler enligt följande:
 
 - **Använder Cell Namn**
 - **Använder Cell:s rad- och kolumnindex**

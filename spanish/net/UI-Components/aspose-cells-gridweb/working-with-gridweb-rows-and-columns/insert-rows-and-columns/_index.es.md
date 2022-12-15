@@ -10,7 +10,7 @@ Este tema explica cómo insertar nuevas filas y columnas en una hoja de cálculo
 
 {{% /alert %}} 
 ## **Insertar filas**
-Para insertar una fila en cualquier posición de una hoja de trabajo:
+Para insertar una fila en cualquier posición de una hoja de cálculo:
 
 1. Agregue el control Aspose.Cells.GridWeb al formulario web.
 1. Acceda a la hoja de trabajo a la que está agregando filas.

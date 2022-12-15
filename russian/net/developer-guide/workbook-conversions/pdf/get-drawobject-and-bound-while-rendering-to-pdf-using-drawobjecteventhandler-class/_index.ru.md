@@ -16,7 +16,7 @@ url: /ru/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteve
 
 - ширина: Ширина[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
 
-- высота: высота[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
+- высота: Высота[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
 
 Если вы конвертируете файл Excel в PDF, вы можете использовать[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)класс с[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler) . Точно так же, если вы визуализируете файл Excel в изображение, вы можете использовать[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)класс с[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/drawobjecteventhandler).
 

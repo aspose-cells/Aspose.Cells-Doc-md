@@ -6,7 +6,7 @@ url: /sv/net/using-style-dialog/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop är en GUI-baserad kontroll som låter sina användare arbeta med sina data i ett WYSIWYG-läge. Vi har utforskat API:et för Aspose.Cells.GridDesktop mycket för att utföra olika typer av uppgifter. Vi har också diskuterat hur man styr formateringsinställningarna för Grid, Worksheets, Rows & Columns och Cells programmatiskt med hjälp av det robusta och enklare API:et Aspose.Cells.GridDesktop. Men allt detta var ur programmeringssynpunkt. I det här ämnet kommer vi att diskutera hur en enkel slutanvändare kan styra formateringsinställningarna för Aspose.Cells.GridDesktop med hjälp av dess**Stildialog**.
+Aspose.Cells.GridDesktop är en GUI-baserad kontroll som låter sina användare arbeta med sina data i ett WYSIWYG-läge. Vi har utforskat API av Aspose.Cells.GridDesktop mycket för att utföra olika typer av uppgifter. Vi har också diskuterat hur man styr formateringsinställningarna för Grid, Worksheets, Rows & Columns och Cells programmatiskt med den robusta och enklare API av Aspose.Cells.GridDesktop. Men allt detta var ur programmeringssynpunkt. I det här ämnet kommer vi att diskutera hur en enkel slutanvändare kan styra formateringsinställningarna för Aspose.Cells.GridDesktop med hjälp av dess**Stildialog**.
 
 {{% /alert %}} 
 ## **Använder Style Dialog**
@@ -24,7 +24,7 @@ Aspose.Cells.GridDesktop är en GUI-baserad kontroll som låter sina användare 
 
  Låt oss diskutera och se varje flik i**Stildialog** en och en.
 ### **Nummerfliken**
-**siffra**fliken används för att ställa in**Nummerformat** inställningar för en cell. Du kan välja en nummerformatkategori, ange decimaler för värdet, välja en symboluppsättning och även välja hur negativt värde ska visas i cellen.
+**siffra** fliken används för att ställa in**Nummerformat** inställningar för en cell. Du kan välja en nummerformatkategori, ange decimaler för värdet, välja en symboluppsättning och även välja hur negativt värde ska visas i cellen.
 ### **Fliken Justering**
  Använder sig av**Inriktning** fliken kan användare ställa in den horisontella och vertikala justeringen av texten. Även de kan också använda andra textstyrningsalternativ som att radbryta text, krympa cell för att passa text och slå samman celler.
 ### **Border Tab**

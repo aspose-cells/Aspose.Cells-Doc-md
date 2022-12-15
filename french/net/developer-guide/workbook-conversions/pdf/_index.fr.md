@@ -32,8 +32,8 @@ Suivez les étapes ci-dessous pour convertir directement les feuilles de calcul 
 
 1.  Instancier un objet de la**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)**classe en appelant son constructeur vide.
 1. Vous pouvez ouvrir/charger un fichier de modèle existant ou ignorer cette étape si vous créez le classeur à partir de zéro.
-1. Effectuez n'importe quel travail (saisissez des données, appliquez une mise en forme, définissez des formules, insérez des images ou d'autres objets de dessin, etc.) sur la feuille de calcul à l'aide des API Aspose.Cells.
-1. Lorsque le code de la feuille de calcul est terminé, appelez le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** classer'**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode pour enregistrer la feuille de calcul.
+1. Effectuez n'importe quel travail (saisir des données, appliquer une mise en forme, définir des formules, insérer des images ou d'autres objets de dessin, etc.) sur la feuille de calcul à l'aide des API Aspose.Cells.
+1.  Lorsque le code de la feuille de calcul est terminé, appelez le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** classer'**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode pour enregistrer la feuille de calcul.
 
  Le format de fichier doit être PDF donc sélectionnez*PDF* (une valeur prédéfinie) à partir du**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**énumération pour générer le document PDF final.
 

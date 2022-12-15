@@ -6,7 +6,7 @@ url: /it/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 ---
 {{% alert color="primary" %}}
 
- A volte, si desidera specificare quale tipo di dati deve essere caricato durante la creazione della cartella di lavoro dal file modello. Il filtraggio dei dati caricati può migliorare le prestazioni per il tuo scopo speciale, specialmente durante l'utilizzo[API di LightCells](/cells/it/net/using-lightcells-api/) . Si prega di utilizzare il[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) proprietà a tale scopo.
+ volte, si desidera specificare quale tipo di dati deve essere caricato durante la creazione della cartella di lavoro dal file modello. Il filtraggio dei dati caricati può migliorare le prestazioni per il tuo scopo speciale, specialmente durante l'utilizzo[API di LightCells](/cells/it/net/using-lightcells-api/) . Si prega di utilizzare il[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) proprietà a tale scopo.
 
 {{% /alert %}}
 
@@ -14,7 +14,7 @@ Il codice di esempio seguente carica solo oggetti shape durante il caricamento d
 
 ![cose da fare:immagine_alt_testo](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
- Lo screenshot seguente mostra il[uscita PDF](5115555.pdf) che puoi scaricare dal link indicato. Qui puoi vedere, i dati in colore rosso e sfondo giallo non sono presenti ma tutte le forme sono presenti.
+Lo screenshot seguente mostra il[uscita PDF](5115555.pdf) che puoi scaricare dal link indicato. Qui puoi vedere, i dati in colore rosso e sfondo giallo non sono presenti ma tutte le forme sono presenti.
 
 ![cose da fare:immagine_alt_testo](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

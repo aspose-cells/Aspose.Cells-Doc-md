@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Reporting Services 21.4 Versionshinweise
+title: Aspose.Cells for Reporting Services 21.4 Versionshinweise
 type: docs
 weight: 17
 url: /de/reportingservices/aspose-cells-for-reporting-services-21-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für Reporting Services 21.4.
+Diese Seite enthält Versionshinweise für Aspose.Cells for Reporting Services 21.4.
 
 {{% /alert %}} 
 

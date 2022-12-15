@@ -5,7 +5,7 @@ weight: 10
 url: /sv/java/converting-chart-to-image-in-php/
 ---
 ## **Aspose.Cells - Konvertera diagram till bild**
-För att konvertera diagram till bild med Aspose.Cells för Java i PHP, anropa omvandlarmodulen.
+För att konvertera diagram till bild med hjälp av Aspose.Cells for Java i PHP, anropa omvandlarmodulen.
 
 **PHP-kod**
 

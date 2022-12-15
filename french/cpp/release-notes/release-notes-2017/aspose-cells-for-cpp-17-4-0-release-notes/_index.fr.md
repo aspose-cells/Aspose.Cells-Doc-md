@@ -14,10 +14,10 @@ url: /fr/cpp/aspose-cells-for-cpp-17-4-0-release-notes/
 |:- |:- |:- |
 |CELLSCPP-62|Prise en charge des versions 64 bits de Windows|Nouvelle fonctionnalité|
 ### **Public API et modifications incompatibles avec les versions antérieures**
-Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells pour C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
+Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for C++. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 
 {{% alert color="primary" %}} 
 
-Il n'y a pas de modifications publiques API dans Aspose.Cells pour C++ 17.4.0.
+Il n'y a pas de modifications publiques API dans Aspose.Cells for C++ 17.4.0.
 
 {{% /alert %}}

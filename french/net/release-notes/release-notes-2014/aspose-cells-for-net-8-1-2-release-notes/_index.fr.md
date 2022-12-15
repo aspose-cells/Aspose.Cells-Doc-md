@@ -17,7 +17,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
  Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 \1) Aspose.Cells 
-## **Autres améliorations et changements**
+## **Autres améliorations et modifications**
 
 ## **Performance**
 
@@ -84,6 +84,6 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
 
 
- Supprimez la propriété obsolète PdfSaveOptions.ChartImageType.
+ Supprimez la propriété PdfSaveOptions.ChartImageType obsolète.
 
 

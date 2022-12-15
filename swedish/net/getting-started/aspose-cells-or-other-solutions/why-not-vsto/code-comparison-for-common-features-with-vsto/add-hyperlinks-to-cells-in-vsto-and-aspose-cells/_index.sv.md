@@ -10,11 +10,11 @@ För att lägga till hyperlänkar till celler i ett kalkylblad, gör följande:
  1. Instantiera ett applikationsobjekt.(endast VSTO.)
  1. Lägg till en arbetsbok.
  1. Skaffa det första arket.
-1. Lägg till text i cellerna som du ska lägga till en hyperlänk till.
+ 1. Lägg till text i cellerna som du ska lägga till en hyperlänk till.
 1. Lägg till hyperlänk.
 1. Spara dokumentet.
 
-Dessa steg visas i kodexemplen nedan. De första exemplen visar hur man använder VSTO med antingen C# för att lägga till en hyperlänk till en cell. Exemplen som följer visar hur man gör samma sak med Aspose.Cells för .NET, igen med C#.
+Dessa steg visas i kodexemplen nedan. De första exemplen visar hur man använder VSTO med antingen C# för att lägga till en hyperlänk till en cell. Exemplen som följer visar hur man gör samma sak med Aspose.Cells for .NET, igen med C#.
 
 Kodexemplen genererar en Excel-fil som har en hyperlänk i cell A1 på det första kalkylbladet.
 

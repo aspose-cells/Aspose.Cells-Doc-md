@@ -27,8 +27,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.6.
 |CELLSJAVA-42908|Eccezione durante la chiamata a Name.getRefersTo()|Eccezione|
 |CELLSJAVA-42926|IllegalStateException durante il caricamento della cartella di lavoro|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 ### **Aggiunge enum FileFormatType.FODS,FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS e SaveFormat.SXC**
 Rappresenta i tipi di formato file .FODS e .SXC.
 ### **Aggiunge enum WarningType.UnsupportedFileFormat**

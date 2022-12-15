@@ -25,7 +25,7 @@ La siguiente captura de pantalla muestra cómo se ven C:\Temp\Sheet1.html y sus 
 
 ![todo:imagen_alternativa_texto](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Código de muestra**
- Tenga en cuenta que el directorio C:\Temp es solo para fines ilustrativos. Puede utilizar cualquier directorio de su elección y lugar[ejemplo de archivo de Excel](5115211.xlsx)dentro de allí y ejecute el código de muestra provisto. Luego creará el subdirectorio OtherSheets dentro de su directorio y exportará la segunda y tercera hojas de trabajo HTML dentro de él. Cambie la variable dirPath dentro del código provisto y consúltelo con el directorio de su elección antes de la ejecución.
+ Tenga en cuenta que el directorio C:\Temp es solo para fines ilustrativos. Puede utilizar cualquier directorio de su elección y lugar[ejemplo de archivo de Excel](5115211.xlsx)dentro de allí y ejecute el código de muestra proporcionado. Luego creará el subdirectorio OtherSheets dentro de su directorio y exportará la segunda y tercera hojas de trabajo HTML dentro de él. Cambie la variable dirPath dentro del código provisto y consúltelo con el directorio de su elección antes de la ejecución.
 
 {{% alert color="primary" %}} 
 

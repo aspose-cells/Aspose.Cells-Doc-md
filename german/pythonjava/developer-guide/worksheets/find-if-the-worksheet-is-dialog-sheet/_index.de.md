@@ -9,7 +9,7 @@ Dialogblatt ist ein altes Blattformat, das ein Dialogfeld enthält. Ein solches 
 
 ![todo: Bild_alt_Text](DialogSheet.png)
 ## **Finden Sie heraus, ob das Arbeitsblatt ein Dialogblatt ist**
-Aspose.Cells für Python über Java bietet Ihnen die Möglichkeit zu überprüfen, ob das Arbeitsblatt ein Dialogblatt ist. Dafür bietet es die[Arbeitsblatt.Typ](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)Eigentum. Wenn[Arbeitsblatt.Typ](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)gibt den Aufzählungswert zurück[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), dann handelt es sich um ein Dialogblatt.
+Aspose.Cells for Python via Java bietet Ihnen die Möglichkeit zu prüfen, ob das Arbeitsblatt ein Dialogblatt ist. Dafür bietet es die[Arbeitsblatt.Typ](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)Eigentum. Wenn[Arbeitsblatt.Typ](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)gibt den Aufzählungswert zurück[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), dann handelt es sich um ein Dialogblatt.
 
 Das folgende Code-Snippet zeigt, wie nach einem Dialogblatt gesucht wird. Die vom Code generierte Konsolenausgabe wird unten als Referenz angegeben.
 

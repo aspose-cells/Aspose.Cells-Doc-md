@@ -25,7 +25,7 @@ url: /zh/reportingservices/formula-editor-window/
 
 **编辑公式对话框** 
 
-![待办事项：图片_替代_文本](formula-editor-window_1.png)
+![待办事项：图像_替代_文本](formula-editor-window_1.png)
 
 编辑公式对话框分为多个部分，如下所述。
 #### **编辑区**

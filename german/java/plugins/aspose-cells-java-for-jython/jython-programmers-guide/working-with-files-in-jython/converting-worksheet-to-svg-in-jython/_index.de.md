@@ -37,7 +37,7 @@ Klasse ConvertingWorksheetToSVG:
 
  Arbeitsmappe = Arbeitsmappe(dataDir + "Book1.xls")
 
-#Konvertieren Sie jedes Arbeitsblatt auf einer einzigen Seite in das SVG-Format.
+ #Konvertieren Sie jedes Arbeitsblatt auf einer einzigen Seite in das SVG-Format.
 
  imgOptions = ImageOrPrintOptions()
 

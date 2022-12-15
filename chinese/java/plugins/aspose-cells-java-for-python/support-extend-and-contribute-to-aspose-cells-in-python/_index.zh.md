@@ -9,7 +9,7 @@ url: /zh/java/support-extend-and-contribute-to-aspose-cells-in-python/
 
 这就是我们提供免费支持的原因。凡是使用过我们产品的人，无论是购买过的还是正在评价中的，都值得我们充分的关注和尊重。
 
-您可以使用以下任何平台为 Python 记录与 Aspose.Cells Java 相关的任何问题或建议：
+您可以使用以下任何平台记录与 Aspose.Cells Java for Python 相关的任何问题或建议：
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ## **扩展和贡献**

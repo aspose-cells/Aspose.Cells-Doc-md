@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Cells per Node.js tramite Java 21.10 Note di rilascio
+title: Aspose.Cells for Node.js via Java 21.10 Note di rilascio
 type: docs
 weight: 3
 url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-10-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells per Node.js via Java 21.10](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.10/).
+ Questa pagina contiene le note di rilascio per[Aspose.Cells for Node.js via Java 21.10](https://downloads.aspose.com/cells/nodejs/new-releases/aspose.cells-for-node.js-via-java-21.10/).
 
 {{% /alert %}}
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-43768|Java Problema di spazio nell'heap durante la conversione del file XLSX in PDF|
+|CELLSJAVA-43768|Problema di spazio heap Java viene osservato durante la conversione di file XLSX in PDF|
 |CELLSJAVA-43875|Eccezione "Invalid FontUnderlineType string val" durante il caricamento del file XLSX|
 |CELLSJAVA-43876|Eccezione "java.lang.ArrayIndexOutOfBoundsException" durante il caricamento di un file XLSX|
 |CELLSJAVA-43646|L'effetto ombra del testo non è reso correttamente|
@@ -33,9 +33,9 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-10-release-notes/
 |CELLSJAVA-43885|IllegalArgumentException durante la conversione di excel|
 |CELLSJAVA-43874|Workbook.save genera un'eccezione su un file specifico entro Aspose.Cells solo quando viene applicata la licenza Aspose|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo di overload Name.GetRefersTo().**
 
@@ -59,7 +59,7 @@ Restituisce un intervallo delimitato da qualsiasi combinazione di righe e colonn
 
 ### **Aggiunge la classe AxisBins.**
 
- Rappresenta i contenitori degli assi per i grafici a istogramma.
+ Rappresenta i contenitori degli assi per i grafici a istogrammi.
 
 ### **Metodo obsoleto SheetRender.GetPageSize(int pageIndex)**
 

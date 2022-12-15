@@ -47,7 +47,7 @@ Alla datakällor och frågor listas i dialogrutan.
 
 
 
- Aspose.Cells.Report.Designer startar Microsoft Query.
+ Aspose.Cells.Report.Designer startar Microsoft Fråga.
 
 1.  Välj i dialogrutan Välj datakälla**Ny datakälla**.
 1.  Klick**OK**.
@@ -100,7 +100,7 @@ Den nya datakällan visas i**Välj Datakälla** dialog.
 
 
 
-1.  Klick**OK** för att öppna Microsoft Query.
+1.  Klick**OK** för att öppna Microsoft Fråga.
 1.  För att skapa en fråga i Microsoft Query, se Microsoft Query Helper. I följande exempel skapar vi en fråga med parametrar.
 
    **Skapa en fråga** 

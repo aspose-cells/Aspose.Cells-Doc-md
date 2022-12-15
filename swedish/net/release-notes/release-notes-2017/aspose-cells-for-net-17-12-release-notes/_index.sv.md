@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 17.12 Release Notes
+title: Aspose.Cells for .NET 17.12 Release Notes
 type: docs
 weight: 10
 url: /sv/net/aspose-cells-for-net-17-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för .NET 17.12.
+Den här sidan innehåller utgåvor för Aspose.Cells for .NET 17.12.
 
 {{% /alert %}} 
 
@@ -43,8 +43,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för .NET 17.12.
 |CELLSNET-45798|Index var utanför gränserna för arrayen - Undantag vid rendering av Excel-fil|Undantag|
 |CELLSNET-45795|Du måste ange data för valideringskriterier - undantag inträffar när arbetsboken sparas|Undantag|
 |CELLSNET-45781|ArgumentOutOfRangeException uppstår när kalkylblad kopieras till en annan arbetsbok|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen HtmlSaveOptions.TableCssId**
 Hämtar och ställer in prefixet för typen css-namn som tr,col,td och så vidare, de finns i tabellelementet som har det specifika TableCssId-attributet. Standardvärdet är "".
 #### **Lägger till Cell.FormulaLocal egendom**

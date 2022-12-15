@@ -6,7 +6,7 @@ url: /sv/java/copying-and-moving-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Kopiera och flytta arbetsblad**
 ### **Kopiera arbetsblad i en arbetsbok**
- För att kopiera kalkylblad med**Aspose.Cells för Java i Ruby** , ringa upp**copy_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
+ För att kopiera kalkylblad med**Aspose.Cells for Java i Ruby** , ringa upp**copy_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
 
 **Ruby kod**
 
@@ -32,7 +32,7 @@ end 
 
 {{< /highlight >}}
 ### **Flytta kalkylblad i en arbetsbok**
- För att flytta kalkylblad med**Aspose.Cells för Java i Ruby** , ringa upp**move_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
+ För att flytta kalkylblad med**Aspose.Cells for Java i Ruby** , ringa upp**move_worksheet** metod av**copyworksheets** modul. Nedan kan du se kodexempel.
 
 **Ruby kod**
 

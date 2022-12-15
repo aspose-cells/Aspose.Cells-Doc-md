@@ -8,10 +8,10 @@ url: /tr/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-44376 | HTML'den içe aktarırken uzun sayısal değerlerin üstel gösterime dönüştürülmesini yasaklama yeteneği sağlayın| Yeni özellik|
-|CELLSNET-44360 | Hücrede önde gelen tek tırnak işaretini algılama| Yeni özellik|
-|CELLSNET-44356 | Bir ExternalConnection için hedef veya çıkış hücresi adresini alın| Yeni özellik|
-|CELLSNET-44340 | İstemci tarafı doğrulamasının yerelleştirilmesi (Almanca) desteği| Yeni özellik|
+|CELLSNET-44376 | HTML'den içe aktarırken uzun sayısal değerlerin üstel gösterime dönüştürülmesini yasaklama yeteneği sağlayın|Yeni özellik|
+|CELLSNET-44360 | Hücrede önde gelen tek tırnak işaretini algılama|Yeni özellik|
+|CELLSNET-44356 | Bir ExternalConnection için hedef veya çıkış hücresi adresini alın|Yeni özellik|
+|CELLSNET-44340 | İstemci tarafı doğrulamasının yerelleştirilmesi (Almanca) desteği|Yeni özellik|
 |CELLSNET-44345 | WordArt için Formül, XLS'yi XLSB'ye dönüştürürken bağımsız değişken değişikliğine tepki vermiyor| Artırma|
 |CELLSNET-44342 | İşlem, tek sayfa elektronik tabloyu PDF'ye dönüştürmek için %100 CPU kullanımıyla askıda kalıyor gibi görünüyor| Verim|
 |CELLSNET-44324 | Veriler yeniden doldurulduktan ve Özet Tablo yenilendikten sonra XLSM bozuluyor| Böcek|
@@ -42,7 +42,7 @@ url: /tr/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-44350 | GridWeb için oturum zaman aşımı uyarısı ekle| Yeni özellik|
+|CELLSNET-44350 | GridWeb için oturum zaman aşımı uyarısı ekle|Yeni özellik|
 |CELLSNET-44339 | 500 Dahili Hata: GridWeb Kullanıcı Arayüzüne geçersiz formül ekleyerek "Cell'de Hata: Geçersiz Formül"| İstisna|
 |CELLSNET-44326 | Bir hücreye tıklamak biçimlendirilmiş metni HTML kaynağına değiştirir| Böcek|
 |CELLSNET-44325 | GridWeb, veri doğrulama Listesinin/açılır menüsünün içeriğini değiştirir| Böcek|

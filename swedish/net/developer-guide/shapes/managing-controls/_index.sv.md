@@ -16,7 +16,7 @@ Utvecklare kan lägga till olika ritobjekt såsom textrutor, kryssrutor, radiokn
 -  De[**Placering**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) egenskapen anger placeringstypen.
 -  De[**Font**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) egenskapen anger teckensnittsattributen.
 -  De[**Lägg till hyperlänk**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) metod lägger till en hyperlänk för textrutan.
--  De[**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)egendom returnerar en[**MsoFillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat) objekt som används för att ställa in fyllningsformatet för textrutan.
+-  De[**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) egendom returnerar en[**MsoFillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat) objekt som används för att ställa in fyllningsformatet för textrutan.
 -  De[**Linjeformat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) egendom returnerar[**MsoLineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msolineformat) objekt som vanligtvis används för stil och vikt på textrutans rad.
 -  De[**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) egenskapen anger inmatningstexten för textrutan.
 
@@ -28,7 +28,7 @@ Följande exempel skapar två textrutor i det första kalkylbladet i arbetsboken
 
  Aspose.Cells låter dig också komma åt textrutor i designerkalkylbladen och manipulera dem. Använd[**Arbetsblad. Textrutor**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) egenskap för att få textboxsamlingen i arket.
 
-Följande exempel använder Microsoft Excel-filen som vi skapade i exemplet ovan. Den hämtar textsträngarna för de två textrutorna och ändrar texten i den andra textrutan för att spara filen.
+Följande exempel använder Excel-filen Microsoft som vi skapade i exemplet ovan. Den hämtar textsträngarna för de två textrutorna och ändrar texten i den andra textrutan för att spara filen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-ManipulatingTextBoxControls-1.cs" >}}
 
@@ -76,10 +76,10 @@ För att placera en radioknappkontroll i ditt kalkylblad, följ dessa steg:
 
 ### **Använder Aspose.Cells**
 
-[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddRadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton) , som används för att lägga till en alternativknappskontroll till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) objekt. Klassen[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton)representerar en alternativknapp. Den har några viktiga medlemmar:
+[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddRadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton) , som används för att lägga till en alternativknappskontroll till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) objekt. Klassen[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) representerar en alternativknapp. Den har några viktiga medlemmar:
 
 -  De[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) egenskapen anger en cell som är länkad till alternativknappen.
--  De[**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) egenskapen anger textsträngen som är kopplad till alternativknappen. Det är radioknappens etikett.
+-  De[**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)egenskapen anger textsträngen som är kopplad till alternativknappen. Det är radioknappens etikett.
 -  De[**Är kontrollerad**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked) egenskapen anger om alternativknappen är markerad eller inte.
 -  De[**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) egenskapen anger fyllningsformatet för alternativknappen.
 -  De[**Linjeformat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) egenskapen anger linjeformatstilarna för alternativknappen.
@@ -109,7 +109,7 @@ För att placera en kombinationsrutakontroll i ditt kalkylblad, följ dessa steg
 
 -  De[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) egenskapen anger en cell som är länkad till kombinationsrutan.
 -  De[**Input Range**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) egenskapen anger kalkylbladsintervallet av celler som används för att fylla kombinationsrutan.
--  De[**DropDownLines**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines)egenskapen anger antalet listrader som visas i rullgardinsmenyn i en kombinationsruta.
+-  De[**DropDownLines**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines) egenskapen anger antalet listrader som visas i rullgardinsmenyn i en kombinationsruta.
 -  De[**Skugga**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/shadow) egenskap anger om kombinationsrutan har 3D-skuggning.
 
 Följande exempel visar hur man lägger till en kombinationsruta i kalkylbladet.
@@ -146,9 +146,9 @@ Så här placerar du en listboxkontroll i ett kalkylblad:
 
  De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlistbox) , som används för att lägga till en listboxkontroll till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) objekt. Klassen[**ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) representerar en listruta. Den har några viktiga medlemmar:
 
--  De[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell)metod anger en cell som är länkad till listrutan.
+-  De[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) metod anger en cell som är länkad till listrutan.
 -  De[**Input Range**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) metod anger kalkylbladsintervallet av celler som används för att fylla listrutan.
--  De[**SelectionType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype) metod anger valläget för listrutan.
+-  De[**SelectionType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype)metod anger valläget för listrutan.
 -  De[**Skugga**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow) metod anger om listrutan har 3D-skuggning.
 
 Följande exempel visar hur man lägger till en listruta i kalkylbladet.
@@ -186,7 +186,7 @@ Följande exempel visar hur man lägger till en knapp i kalkylbladet.
 
 ### **Använder Microsoft Excel**
 
-1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**, och välj den linjestil du vill ha.
+1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**och välj den linjestil du vill ha.
 1. Dra för att rita linjen.
 1. Gör ett eller båda av följande:
  1. För att begränsa linjen att rita i 15 graders vinkel från dess startpunkt, håll ned SKIFT medan du drar.
@@ -194,16 +194,16 @@ Följande exempel visar hur man lägger till en knapp i kalkylbladet.
 
 ### **Använder Aspose.Cells**
 
- De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline) som används för att lägga till en linjeform till kalkylbladet. Metoden returnerar en[**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objekt. Klassen[**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) representerar en linje. Den har några viktiga medlemmar:
+ De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline) , som används för att lägga till en linjeform till kalkylbladet. Metoden returnerar en[**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objekt. Klassen[**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) representerar en linje. Den har några viktiga medlemmar:
 
 -  De[**Linjeformat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) metod anger formatet för en rad.
--  De[**Placering**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) metoden specificerar[**Placeringstyp**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), hur linjen är fäst vid cellerna i kalkylbladet.
+-  De[**Placering**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) metoden specificerar[**Placeringstyp**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)hur linjen är fäst vid cellerna i kalkylbladet.
 
 Följande exempel visar hur man lägger till rader i kalkylbladet. Det skapar tre linjer med olika stilar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLineControl-1.cs" >}}
 
-### **Lägga till ett pilhuvud på en linje**
+### **Lägga till ett pilhuvud till en linje**
 
 Aspose.Cells låter dig också rita pillinjer. Det är möjligt att lägga till en pilspets på en linje och att formatera linjen. Du kan till exempel ändra färgen på linjen eller ange linjens vikt och stil.
 
@@ -246,11 +246,11 @@ Aspose.Cells låter dig rita bågformer i dina kalkylblad. Du kan skapa enkla oc
 
 ### **Använder Aspose.Cells**
 
- De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddArc**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc) , som används för att lägga till en bågform till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) objekt. Klassen[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape)representerar en båge. Den har några viktiga medlemmar:
+ De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddArc**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc) , som används för att lägga till en bågform till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) objekt. Klassen[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) representerar en båge. Den har några viktiga medlemmar:
 
 -  De[**Linjeformat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) egenskapen anger linjeformatattributen för en bågform.
 -  De[**Placering**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) egenskapen specificerar[**Placeringstyp**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), hur bågen är fäst vid cellerna i arbetsbladet.
--  De[**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) egenskapen anger formens fyllningsformatstilar.
+-  De[**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)egenskapen anger formens fyllningsformatstilar.
 -  De[**Nedre högerrad**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) egenskapen anger radindexet i det nedre högra hörnet.
 -  De[**Nedre högerkolumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) egenskapen anger kolumnindex i det nedre högra hörnet.
 
@@ -275,8 +275,8 @@ Aspose.Cells låter dig rita ovala former i kalkylblad. Skapa enkla och fyllda o
  De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**Lägg till Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addoval) , som används för att lägga till en oval form till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) objekt. Klassen[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) representerar en oval form. Den har några viktiga medlemmar:
 
 -  De[**Linjeformat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) egenskapen anger linjeformatattributen för en oval form.
--  De[**Placering**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) egenskapen specificerar[**Placeringstyp**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)hur ovalen är fäst vid cellerna i arbetsbladet.
--  De[**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) egenskapen anger formens fyllningsformatstilar.
+-  De[**Placering**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) egenskapen specificerar[**Placeringstyp**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), hur ovalen är fäst vid cellerna i arbetsbladet.
+-  De[**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)egenskapen anger formens fyllningsformatstilar.
 -  De[**Nedre högerrad**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) egenskapen anger radindexet i det nedre högra hörnet.
 -  De[**Nedre högerkolumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) egenskapen anger kolumnindex i det nedre högra hörnet.
 
@@ -295,13 +295,13 @@ Så här placerar du en spin box-kontroll i ditt kalkylblad:
 -  Se till att*Blanketter* verktygsfältet visas.
 -  Klicka på*Spinnare* verktyg.
 - Klicka och dra i ditt kalkylbladsområde för att definiera rektangeln som ska hålla spinnern.
-- När spinnern är placerad i kalkylbladet högerklickar du på kontrollen och klickar*Formatkontroll* och ange maximi-, lägsta- och inkrementella värden.
+-  När spinnern är placerad i kalkylbladet högerklickar du på kontrollen och klickar*Formatkontroll* och ange maximi-, lägsta- och inkrementella värden.
 -  I den*Cell Länk* fältet, ange adressen till cellen som denna spin-box ska länkas till.
 -  Klicka på*OK*.
 
 ### **Använder Aspose.Cells**
 
- De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddSpinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner) , som används för att lägga till en spin box-kontroll till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) objekt. Klassen[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) representerar en spin box. Den har några viktiga medlemmar:
+ De[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) klass tillhandahåller en metod som heter[**AddSpinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner) som används för att lägga till en spin box-kontroll till ett kalkylblad. Metoden returnerar en[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) objekt. Klassen[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) representerar en spin box. Den har några viktiga medlemmar:
 
 -  De[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) egenskapen anger en cell som är länkad till spin-rutan.
 -  De[**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/max) egenskapen anger det maximala värdet för spin box-intervallet.
@@ -320,16 +320,16 @@ En rullningslistskontroll används för att hjälpa till att välja data på ett
 
 ### **Använder Microsoft Excel**
 
--  För att lägga till en rullningslist i Excel 2003 och i tidigare versioner, klicka på*Rullningslist* knappen på*Blanketter* verktygsfältet och skapa sedan en rullningslist som täcker cellerna B2:B6 på höjden och är ungefär en fjärdedel av spaltens bredd.
+- För att lägga till en rullningslist i Excel 2003 och i tidigare versioner, klicka på*Rullningslist* knappen på*Blanketter* verktygsfältet och skapa sedan en rullningslist som täcker cellerna B2:B6 på höjden och är ungefär en fjärdedel av spaltens bredd.
 -  För att lägga till en rullningslist i Excel 2007, klicka på*Utvecklaren* fliken, klicka*Föra in* , och klicka sedan*Rullningslist* i avsnittet Formulärkontroller.
 -  Högerklicka på rullningslisten och klicka sedan*Formatkontroll*.
 -  Skriv in följande information och klicka*OK*:
  - I*Nuvarande värde* box, typ 1.
  - I*Minsta värde* rutan, skriv 1. Detta värde begränsar toppen av rullningslisten till det första objektet i listan.
  - I*Maximalt värde* rutan, skriv 20. Detta nummer anger det maximala antalet poster i listan.
- - I*Inkrementell förändring*ruta, skriv 1. Detta värde styr hur många siffror rullningslistens kontroll ökar det aktuella värdet.
+ - I*Inkrementell förändring* ruta, skriv 1. Detta värde styr hur många siffror rullningslistens kontroll ökar det aktuella värdet.
  - I*Sidbyte* rutan, skriv 5. Den här posten styr hur mycket det aktuella värdet kommer att ökas om du klickar inuti rullningslisten på vardera sidan av rullningsrutan.
- - För att sätta ett talvärde i cell G1 (beroende på vilket objekt som är markerat i listan), skriv G1 i*Cell länk* låda.
+ För att sätta ett talvärde i cell G1 (beroende på vilket objekt som är markerat i listan), skriv G1 i*Cell länk* låda.
 - Klicka på valfri cell så att rullningslisten inte är markerad.
 
 När du klickar på upp- eller nedkontrollen på rullningslisten uppdateras cell G1 till ett nummer som anger det aktuella värdet på rullningslisten plus eller minus den inkrementella förändringen av rullningslisten.
@@ -340,11 +340,11 @@ När du klickar på upp- eller nedkontrollen på rullningslisten uppdateras cell
 
 -  De[**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) egenskapen anger en cell som är länkad till rullningslisten.
 -  De[**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/max) egenskapen anger det maximala värdet för rullningslistens intervall.
--  De[**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min)egenskapen anger det lägsta värdet för rullningslistens intervall.
+-  De[**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min) egenskapen anger det lägsta värdet för rullningslistens intervall.
 -  De[**Inkrementell förändring**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/incrementalchange) egenskapen anger värdebeloppet för vilket en rullningslist inkrementeras en radrullning.
 -  De[**Skugga**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/shadow) egenskapen indikerar om rullningslisten har 3D-skuggning.
 -  De[**Nuvarande värde**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/currentvalue) egenskapen anger det aktuella värdet på rullningslisten.
--  De[**Page Change**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange) egenskapen anger hur mycket det aktuella värdet kommer att ökas om du klickar inuti rullningslisten på vardera sidan av rullningsrutan.
+-  De[**Page Change**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange)egenskapen anger hur mycket det aktuella värdet kommer att ökas om du klickar inuti rullningslisten på vardera sidan av rullningsrutan.
 
 Följande exempel visar hur man lägger till en rullningslist i kalkylbladet.
 
@@ -358,11 +358,11 @@ Ibland behöver du implementera radioknappar eller andra kontroller som tillhör
 
 Så här placerar du en grupprutakontroll i ditt kalkylblad och placerar kontroller i den:
 
-- För att starta ett formulär, klicka på huvudmenyn*Se* , följd av*Verktygsfält* och*Blanketter*.
+-  För att starta ett formulär, klicka på huvudmenyn*Se* , följd av*Verktygsfält* och*Blanketter*.
 -  På*Blanketter* verktygsfältet, klicka på*Grupplåda* och rita en rektangel på arbetsbladet.
 - Skriv en bildtextsträng för rutan.
 -  På*Blanketter* verktygsfältet, klicka*Alternativknapp* och klicka inuti*Grupplåda* precis under bildtextsträngen.
--  Från*Blanketter* verktygsfältet igen, klicka*Alternativknapp* och klicka inuti*Grupplåda* under den första alternativknappen.
+-  Från*Blanketter* verktygsfältet igen, klicka*Alternativknapp* och klicka inuti*Grupplåda*under den första alternativknappen.
 -  Än en gång på*Blanketter* verktygsfältet, klicka*Alternativknapp* och klicka inuti*Grupplåda* under föregående alternativknapp.
 
 ### **Använder Aspose.Cells**

@@ -4,5 +4,5 @@ type: docs
 weight: 20
 url: /ar/nodejs-java/developer-guide/
 keywords: nodejs, excel, api, develope
-description: Aspose.Cells لـ Node.js عبر دليل المطور Java
+description: Aspose.Cells for Node.js via Java دليل المطور
 ---

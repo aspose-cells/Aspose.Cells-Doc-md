@@ -29,7 +29,7 @@ url: /ar/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/
   - [احفظ كل ورقة عمل إلى PDF مختلف باستخدام Aspose.Cells](/cells/ar/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
   - [قم بتعيين لون علامة تبويب ورقة العمل في Aspose.Cells](/cells/ar/java/set-worksheet-tab-color-in-aspose-cells/)
 - [العمل مع المخططات في Aspose.Cells](/cells/ar/java/working-with-charts-in-aspose-cells/)
-  - [إضافة علامة مائية Word Art إلى التخطيط](/cells/ar/java/add-word-art-watermark-to-chart/)
+  - [إضافة علامة مائية Word Art إلى مخطط](/cells/ar/java/add-word-art-watermark-to-chart/)
   - [تغيير موضع المخطط وحجمه](/cells/ar/java/change-chart-position-and-size/)
   - [تحويل الرسم البياني إلى صور باستخدام Aspose.Cells](/cells/ar/java/convert-chart-to-images-using-aspose-cells/)
   - [قم بإنشاء مخططات محورية باستخدام Aspose.Cells](/cells/ar/java/create-pivot-charts-using-aspose-cells/)

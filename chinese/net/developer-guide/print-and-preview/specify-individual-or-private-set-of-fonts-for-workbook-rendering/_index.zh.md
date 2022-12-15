@@ -12,7 +12,7 @@ url: /zh/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 
 下面的示例代码加载[示例 Excel 文件](67338268.xlsx)及其使用指定的单独或私有字体集**[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)**班级。请参阅[样本字体](67338271.zip)在代码中使用以及[输出PDF](67338269.pdf)由它产生。以下屏幕截图显示了如果成功找到字体，输出 PDF 的外观。
 
-![待办事项：图片_替代_文本](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+![待办事项：图像_替代_文本](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
 ## **示例代码**
 

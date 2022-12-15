@@ -18,7 +18,7 @@ url: /ar/java/applying-a-license/
 
 ## **تحميل ملف الترخيص**
 
- في Aspose.Cells لنظام Android عبر Java ، يمكن أن يكون الترخيص[جزءا لا يتجزأ من الموارد](/cells/ar/java/applying-a-license/#applying-a-license-from-an-embedded-resource)، أو محملة من دفق:
+ في Aspose.Cells for Android via Java ، يمكن أن يكون الترخيص[جزءا لا يتجزأ من الموارد](/cells/ar/java/applying-a-license/#applying-a-license-from-an-embedded-resource)، أو محملة من دفق:
 
 1.  ضع ملف الترخيص في أي مكان على**/ mnt / sdcard /**.
 1. قم بإنشاء دفق يشير إلى ملف.

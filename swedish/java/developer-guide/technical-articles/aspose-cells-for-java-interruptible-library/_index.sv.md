@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java - Avbrottsbart bibliotek
+title: Aspose.Cells for Java - Avbrottsbart bibliotek
 type: docs
 weight: 1090
 url: /sv/java/aspose-cells-for-java-interruptible-library/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells för Java stöder för att avbryta laddnings-/sparprocessen när du arbetar med stora Excel-filer. Ibland vill du göra biblioteken/komponenterna avbrottsbara. Detta skulle säkerligen förbättra effektiviteten och tillförlitligheten för dina tjänster/processer. Du kan på ett tillförlitligt sätt ge upp en konvertering halvvägs när du upptäcker att det tar för lång tid. Det skulle spara CPU-användning, RAM etc. Det betyder att du inte behöver ta drastiska steg som att döda hela servern bara för att avbryta konverteringen.
+ Aspose.Cells for Java stöder för att avbryta laddnings-/sparprocessen när du arbetar med stora Excel-filer. Ibland vill du göra biblioteken/komponenterna avbrottsbara. Detta skulle säkerligen förbättra effektiviteten och tillförlitligheten för dina tjänster/processer. Du kan på ett tillförlitligt sätt ge upp en konvertering halvvägs när du upptäcker att det tar för lång tid. Det skulle spara CPU-användning, RAM etc. Det betyder att du inte behöver ta drastiska steg som att döda hela servern bara för att avbryta konverteringen.
 {{% /alert %}}
 
 ## **Exempel:**

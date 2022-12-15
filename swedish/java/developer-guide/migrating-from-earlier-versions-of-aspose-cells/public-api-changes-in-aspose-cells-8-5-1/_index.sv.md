@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.5.1
+title: Offentlig API Ändringar i Aspose.Cells 8.5.1
 type: docs
 weight: 180
 url: /sv/java/public-api-changes-in-aspose-cells-8-5-1/
@@ -11,7 +11,7 @@ url: /sv/java/public-api-changes-in-aspose-cells-8-5-1/
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Metod Workbook. Dispose tillagd**
-Aspose.Cells för Java 8.5.1 har exponerat metoden Workbook.dispose för att frigöra de ohanterade resurserna för Workbook-objektet. Avyttringsmönstret används endast för objekt som har åtkomst till ohanterade resurser, såsom fil- och pipe-handtag, registerhandtag, väntehandtag eller pekare till block av ohanterat minne. Detta beror på att sopsamlaren är mycket effektiv på att återta oanvända hanterade objekt, men den kan inte återta oanvända hanterade objekt.
+Aspose.Cells for Java 8.5.1 har exponerat metoden Workbook.dispose för att frigöra de ohanterade resurserna för Workbook-objektet. Avyttringsmönstret används endast för objekt som har åtkomst till ohanterade resurser, såsom fil- och pipe-handtag, registerhandtag, väntehandtag eller pekare till block av ohanterat minne. Detta beror på att sopsamlaren är mycket effektiv på att återta oanvända hanterade objekt, men den kan inte återta oanvända hanterade objekt.
 
 **Java**
 
@@ -27,16 +27,16 @@ book.dispose();
 
 {{< /highlight >}}
 ### **Metod Cell.getHeightOfValue Added**
- Aspose.Cells för Java 8.5.1 har exponerat metoden Cell.getHeightOfValue för att få höjden på cellvärdet. Genom att använda den här metoden kan du beräkna höjden på cellvärdet och sedan ställa in höjden på raden i den cellen. Kolla den detaljerade artikeln om[hur man beräknar cellens höjd och bredd](/cells/sv/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+ Aspose.Cells for Java 8.5.1 har exponerat metoden Cell.getHeightOfValue för att få höjden på cellvärdet. Genom att använda den här metoden kan du beräkna höjden på cellvärdet och sedan ställa in höjden på raden i den cellen. Kolla den detaljerade artikeln om[hur man beräknar cellens höjd och bredd](/cells/sv/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
 ### **Enumeration TableDataSourceType tillagd**
-Aspose.Cells för Java 8.5.1 har avslöjat uppräkningen com.aspose.cells.TableDataSourceType för att hämta datakälltypen för ett ListObject. Uppräkningen av TableDataSourceType enligt följande fält.
+Aspose.Cells for Java 8.5.1 har avslöjat uppräkningen com.aspose.cells.TableDataSourceType för att hämta datakällstypen för ett ListObject. Uppräkningen av TableDataSourceType enligt följande fält.
 
 1. TableDataSourceType.QUERY_TABLE
 1. TableDataSourceType.SHARE_POINT
 1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
 ### **Property ListObject.DataSourceType tillagd**
-Med utgåvan av v8.5.1 har API:et Aspose.Cells avslöjat den skrivskyddade ListObject.DataSourceType-egenskapen som kan användas för att detektera datakällans typ av ett ListObject.
+Med lanseringen av v8.5.1 har Aspose.Cells API avslöjat den skrivskyddade ListObject.DataSourceType-egenskapen som kan användas för att upptäcka datakällans typ för ett ListObject.
 
 Här är det enklaste användningsscenariot.
 

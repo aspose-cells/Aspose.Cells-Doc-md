@@ -10,7 +10,7 @@ url: /ar/jasperreports/evaluate-aspose-cells/
 
 {{% /alert %}}
 
-يوفر إصدار التقييم Aspose.Cells لـ JasperReports (بدون ترخيص محدد) وظائف المنتج غير مكتملة إلى حد ما. أحد القيود هو أنه يقوم دائمًا بحقن ورقة عمل إضافية مع علامة مائية للتقييم عند فتح / حفظ أي مستند جدول بيانات.
+يوفر إصدار التقييم Aspose.Cells for JasperReports (بدون ترخيص محدد) وظائف المنتج غير كاملة إلى حد ما. أحد القيود هو أنه يقوم دائمًا بحقن ورقة عمل إضافية مع علامة مائية للتقييم عند فتح / حفظ أي مستند جدول بيانات.
 
 ![ما يجب القيام به: image_بديل_نص](evaluate-aspose-cells_1.png)
 
@@ -22,4 +22,4 @@ url: /ar/jasperreports/evaluate-aspose-cells/
 
 **شكل:** تحذير التقييم - ورقة عمل إضافية
 
- إذا كنت ترغب في اختبار Aspose.Cells لـ JasperReports بدون قيود إصدار التقييم ، فيمكنك ذلك[طلب ترخيص مؤقت لمدة 30 يومًا](https://purchase.aspose.com/temporary-license).
+ إذا كنت ترغب في اختبار Aspose.Cells for JasperReports بدون قيود إصدار التقييم ، فيمكنك ذلك[طلب ترخيص مؤقت لمدة 30 يومًا](https://purchase.aspose.com/temporary-license).

@@ -7,7 +7,7 @@ url: /sv/java/hello-world-in-python/
 ## **Aspose.Cells - Hello World**
 Hello World med Aspose.Cells Java i Python, anropa helt enkelt HelloWorld()-metoden i klassen Document och ange det andra dokumentet som ska läggas till i slutet.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

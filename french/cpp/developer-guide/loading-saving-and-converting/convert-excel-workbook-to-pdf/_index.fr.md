@@ -11,9 +11,9 @@ Aspose.Cells prend en charge la conversion de fichiers Excel en PDF et maintient
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells écrit directement les informations sur API et le numéro de version dans les documents de sortie. Par exemple, lors du rendu du document au format PDF, Aspose.Cells pour C++ remplit le**Application** champ avec la valeur 'Aspose.Cells' et**Producteur PDF**champ avec valeur, par exemple 'Aspose.Cells v18.5.0'.
+ Aspose.Cells écrit directement les informations sur API et le numéro de version dans les documents de sortie. Par exemple, lors du rendu du document au format PDF, Aspose.Cells for C++ remplit le**Application** champ avec la valeur 'Aspose.Cells' et**Producteur PDF** champ avec valeur, par exemple 'Aspose.Cells v18.5.0'.
 
-Veuillez noter que vous ne pouvez pas demander au Aspose.Cells pour C++ de modifier ou de supprimer ces informations des documents de sortie.
+Veuillez noter que vous ne pouvez pas demander au Aspose.Cells for C++ de modifier ou de supprimer ces informations des documents de sortie.
 
 {{% /alert %}} 
 ### **Conversion directe**
@@ -23,8 +23,8 @@ Suivez les étapes ci-dessous pour convertir directement les feuilles de calcul 
 
 1.  Instancier un objet de la[IClasseur](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)classe en appelant son constructeur vide.
 1. Vous pouvez ouvrir/charger un fichier de modèle existant ou ignorer cette étape si vous créez le classeur à partir de zéro.
-1. Effectuez n'importe quel travail (saisissez des données, appliquez une mise en forme, définissez des formules, insérez des images ou d'autres objets de dessin, etc.) sur la feuille de calcul à l'aide des API Aspose.Cells.
-1. Lorsque le code de la feuille de calcul est terminé, appelez le[IClasseur](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)classer'[sauvegarder](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)méthode pour enregistrer la feuille de calcul.
+1. Effectuez n'importe quel travail (saisir des données, appliquer une mise en forme, définir des formules, insérer des images ou d'autres objets de dessin, etc.) sur la feuille de calcul à l'aide des API Aspose.Cells.
+1.  Lorsque le code de la feuille de calcul est terminé, appelez le[IClasseur](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)classer'[sauvegarder](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)méthode pour enregistrer la feuille de calcul.
 
 Le format de fichier doit être PDF, donc sélectionnez le PDF pertinent (une valeur prédéfinie) dans l'énumération SaveFormat pour générer le document PDF final
 

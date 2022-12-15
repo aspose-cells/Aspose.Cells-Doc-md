@@ -5,7 +5,7 @@ weight: 20
 url: /fr/java/unprotect-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Déprotéger une feuille de calcul**
- Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java pour PHP** , appel**unprotect_worksheet** méthode de**protection** module.
+ Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java for PHP** , appel**unprotect_worksheet** méthode de**protection** module.
 
 **Code PHP**
 

@@ -6,7 +6,7 @@ url: /sv/net/updating-slicer/
 ---
 ## **Möjliga användningsscenarier**
 
-Om du vill uppdatera slicer i Microsoft Excel, välj eller avmarkera dess objekt, det kommer sedan att uppdatera slicer-tabellen eller pivottabellen därefter. Snälla använd[**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems)för att välja eller avmarkera skivningsobjekt med Aspose.Cells och sedan ringa[**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh)metod för att uppdatera skivningstabellen eller pivottabellen.
+Om du vill uppdatera slicer i Microsoft Excel, välj eller avmarkera dess objekt, den kommer sedan att uppdatera slicer-tabellen eller pivottabellen i enlighet med detta. Snälla använd[**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems)för att välja eller avmarkera skivningsobjekt med Aspose.Cells och sedan ringa[**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh)metod för att uppdatera skivningstabellen eller pivottabellen.
 
 ## **Uppdaterar Slicer**
 

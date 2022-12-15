@@ -7,7 +7,7 @@ url: /es/net/create-custom-command-buttons/
 {{% alert color="primary" %}} 
 
  Aspose.Cells.GridWeb contiene botones especiales como**Enviar**, **Ahorrar** y**Deshacer**. Todos estos botones realizan tareas específicas para Aspose.Cells.GridWeb.
-También es posible agregar botones personalizados que realizan tareas personalizadas. Este tema explica cómo utilizar esta característica.
+También es posible agregar botones personalizados que realizan tareas personalizadas. Este tema explica cómo utilizar esta función.
 
 {{% /alert %}} 
 ## **Creación de botones de comando personalizados**

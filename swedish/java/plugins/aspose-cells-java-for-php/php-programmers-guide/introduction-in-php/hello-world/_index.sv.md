@@ -5,7 +5,7 @@ weight: 10
 url: /sv/java/hello-world/
 ---
 ## **Aspose.Cells - Hello World**
-För att skriva något i kalkylarksdokumentet med Aspose.Cells för Java i PHP, anropa helt enkelt HelloWorld-modulen.
+För att skriva något i kalkylarksdokumentet med Aspose.Cells for Java i PHP, anropa helt enkelt HelloWorld-modulen.
 
 **PHP-kod**
 

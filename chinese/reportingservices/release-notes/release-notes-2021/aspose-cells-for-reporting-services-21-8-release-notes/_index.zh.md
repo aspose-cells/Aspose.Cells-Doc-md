@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 用于 Reporting Services 21.8 发行说明
+title: Aspose.Cells for Reporting Services 21.8 发行说明
 type: docs
 url: /zh/reportingservices/aspose-cells-for-reporting-services-21-8-release-notes/
 weight: 14

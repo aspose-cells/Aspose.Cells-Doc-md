@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 17.9 Release Notes
+title: Aspose.Cells for Android via Java 17.9 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-android-via-java-17-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller release notes för[Aspose.Cells för Android via Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
+Den här sidan innehåller release notes för[Aspose.Cells for Android via Java 17.9](https://downloads.aspose.com/cells/androidjava/new-releases/aspose.cells-for-android-via-java-17.9/).
 
 {{% /alert %}} 
 
@@ -88,8 +88,8 @@ Den här sidan innehåller release notes för[Aspose.Cells för Android via Java
 |CELLSJAVA-42334|Undantaget "Error for ZipFile" visas när du använder OutputFileStream|Undantag|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: Ogiltigt lösenord när Excel-filen öppnas|Undantag|
 |CELLSJAVA-42357|Undantag uppstår när en Excel-fil sparas i HTML-format|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till enum StyleModifyFlag.RelativeIndent**
 Representerar relativ indrag.
 ### **Lägger till egenskapen TextureFill.IsTiling**
@@ -121,7 +121,7 @@ Anger om du exporterar kommentarer när filen sparas till HTML, standardvärdet 
 ### **Lägger till egenskapen HtmlSaveOptions.DisableDownlevelRevealedComments**
 Indikerar om inaktivera Downlevel-avslöjade villkorliga kommentarer vid export av fil till HTML, standardvärdet är false.
 ### **Lägger till klassen CustomImplementationFactory**
-Tillhandahåller API för användaren att utöka/förbättra komponentens förmåga med några speciella implementeringar för vissa speciella situationer. För närvarande finns det ingen anpassad implementering som stöds för Java-versionen.
+Ger API för användaren att utöka/förbättra komponentens förmåga med några speciella implementeringar för vissa speciella situationer. För närvarande finns det ingen anpassad implementering som stöds for Java version.
 ### **Lägger till egenskapen CellsHelper.CustomImplementationFactory**
 Hämtar/ställer in CustomImplementationFactory-instansen som används av cells-komponenten.
 ### **Lägger till metoden Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**
@@ -161,6 +161,6 @@ Får och ställer in designerlagringen för VBA-projektet.
 
 {{% alert color="primary" %}} 
 
-Eftersom kodbasen för Aspose.Cells för Android via Java matchar koden för relevanta .NET- och Java-versioner, ingår de flesta ändringar, förbättringar och korrigeringar i Aspose.Cells för .NET v17.6, Aspose.Cells för .NET v17.7 , Aspose.Cells för .NET v17.8, Aspose.Cells för .NET v17.9, Aspose.Cells för Java v17.6, Aspose.Cells för Java v17.7, Aspose.Cells för Java v17.8 och 176173481 för Java v17.8 och 64 för Java v17.8 och 64 för Java v17.8 ingår också för Android via Java v17.9.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.6, Aspose.Cells for .NET v17.7, Aspose.Cells for .NET v17.8, Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
 
 {{% /alert %}}

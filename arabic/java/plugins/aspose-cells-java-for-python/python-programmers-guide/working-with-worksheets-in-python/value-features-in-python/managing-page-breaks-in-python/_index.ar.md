@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **مسح كافة فواصل الصفحات**
- لمسح كافة فواصل الصفحات باستخدام**Aspose.Cells Java لـ Python** ، مكالمة**clear_all_page_breaks** طريقة**فواصل الصفحة** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+ لمسح كافة فواصل الصفحات باستخدام**Aspose.Cells Java for Python** ، مكالمة**clear_all_page_breaks** طريقة**فواصل الصفحة** وحدة. أدناه يمكنك مشاهدة مثال رمز.
 
 **Python كود**
 
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **إزالة فاصل صفحة معين**
- لإزالة فاصل صفحة معين باستخدام**Aspose.Cells Java لـ Python** ، مكالمة**remove_page_break** طريقة**فواصل الصفحة** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+ لإزالة فاصل صفحة معين باستخدام**Aspose.Cells Java for Python** ، مكالمة**remove_page_break** طريقة**فواصل الصفحة** وحدة. أدناه يمكنك مشاهدة مثال رمز.
 
 **Python كود**
 
@@ -101,7 +101,7 @@ print "Remove page break, please check the output file."
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**إدارة فواصل الصفحات (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

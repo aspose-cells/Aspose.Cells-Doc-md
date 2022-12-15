@@ -6,7 +6,7 @@ url: /sv/java/add-a-library-reference-to-vba-project-in-workbook/
 ---
 {{% alert color="primary" %}}
 
- Microsoft Excel kan du lägga till en biblioteksreferens till VBA-projektet genom att klicka på**Verktyg > Referenser...** manuellt. Den öppnar följande dialogruta som hjälper dig att välja från befintliga referenser eller bläddra i ditt bibliotek själv.
+ I Microsoft Excel kan du lägga till en biblioteksreferens till VBA-projektet genom att klicka på**Verktyg > Referenser...** manuellt. Den öppnar följande dialogruta som hjälper dig att välja från befintliga referenser eller bläddra i ditt bibliotek själv.
 
 ![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 

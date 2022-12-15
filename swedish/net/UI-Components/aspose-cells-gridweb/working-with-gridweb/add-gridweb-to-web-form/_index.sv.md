@@ -22,7 +22,7 @@ Skapa först ett webbapplikationsprojekt där du kan använda Aspose.Cells.GridW
 
 En dialogruta för nytt projekt visas.
 
-1.  Välj**ASP.NET webbapplikation** för önskat språk.
+1.  Välj**ASP.NET Webbapplikation** för önskat språk.
 
 ![todo:image_alt_text](add-gridweb-to-web-form_2.png)
 
@@ -38,7 +38,7 @@ En dialogruta för nytt projekt visas.
 
 {{% alert color="primary" %}} 
 
- För att lära dig hur du lägger till Aspose.Cells Grid-kontroller till Visual Studio Toolbox, läs[Integrera Aspose.Cells.Grid Controls med Visual Studio.NET](/cells/sv/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/).
+ För att lära dig hur du lägger till Aspose.Cells Grid-kontroller till Visual Studio Toolbox, läs[Integrera Aspose.Cells.Grid-kontroller med Visual Studio.NET](/cells/sv/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/).
 
 {{% /alert %}} 
 
@@ -75,7 +75,7 @@ Dialogrutan låter utvecklare lägga till och ta bort anpassade kommandoknappar 
 
 
 ### **Viktig**
-Aspose.Cells.GridWeb tillhandahåller också sina resursfiler med kontrollen. Den "acw_client" är en mapp (@ din installationskatalog) som innehåller filer och Aspose.Cells. GridWeb använder denna mapp för att hantera sin interna konfiguration och andra funktioner, den har skriptfiler, bildfiler och andra filer för att specificera GridWebs beteende och ställa in andra operationer. config-filen används för att hantera de inbäddade klientresurserna (bilder, skript, etc.). Dessutom, när du behöver distribuera webbapplikationen med GridWeb-kontroll, skulle du också kopiera "acw_client"-katalogen till din projektmapp åtminstone kunde din webbapplikation (utplacerad över servern) inte hitta den. Du kan alltid ange resursmappen genom att lägga till följande kodrader i konfigurationssektionen (t.ex. i web.config-filen i din VS.NET-projekt):
+Aspose.Cells.GridWeb tillhandahåller också sina resursfiler med kontrollen. Den "acw_client" är en mapp (@ din installationskatalog) som innehåller filer och Aspose.Cells. GridWeb använder denna mapp för att hantera sin interna konfiguration och andra funktioner, den har skriptfiler, bildfiler och andra filer för att specificera GridWebs beteende och ställa in andra operationer. config-filen används för att hantera de inbäddade klientresurserna (bilder, skript, etc.). Dessutom, när du behöver distribuera webbapplikationen med GridWeb-kontroll, skulle du också kopiera "acw_client"-katalogen till din projektmapp åtminstone kunde din webbapplikation (utplacerad över servern) inte hitta den. Du kan alltid ange resursmappen genom att lägga till följande kodrader i konfigurationssektionen (t.ex. i web.config-filen i din VS.NET Projekt):
 
 
 

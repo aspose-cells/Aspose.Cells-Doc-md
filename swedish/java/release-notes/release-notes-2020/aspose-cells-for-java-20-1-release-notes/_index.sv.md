@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Java 20.1 Release Notes
+title: Aspose.Cells for Java 20.1 Release Notes
 type: docs
 weight: 60
 url: /sv/java/aspose-cells-for-java-20-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 20.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.1/).
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 20.1](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-20.1/).
 
 {{% /alert %}}
 
@@ -27,10 +27,10 @@ url: /sv/java/aspose-cells-for-java-20-1-release-notes/
 |CELLSJAVA-43073|DataMashup-information är inte tillgänglig i arbetsboken|Insekt|
 |CELLSJAVA-43092|Kan inte bearbeta Excel-fil|Insekt|
 
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen ReplaceOptions.RegexKey.**
- Indikerar om den sökta nyckeln är regex. Om**Sann** då kommer den sökta nyckeln (som ska ersättas del) att tas som ett användarspecificerat regex.
+ Indikerar om den sökta nyckeln är regex. Om**Sann**då kommer den sökta nyckeln (som ska ersättas del) att tas som ett användarspecificerat regex.
 ### **Tar bort föråldrad ValidationCollection.Add(Aspose.Cells.Validation) metod.**
 Använd metoden ValidationCollection.Add(CellArea) istället.
 ### **Lägger till egenskapen PowerQueryFormula.FormulaDefinition.**

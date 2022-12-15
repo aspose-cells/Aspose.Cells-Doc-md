@@ -14,12 +14,12 @@ url: /zh/net/move-range-of-cells-in-a-worksheet/
 
 **输入文件** 
 
-![待办事项：图片_替代_文本](move-range-of-cells-in-a-worksheet_1.png)
+![待办事项：图像_替代_文本](move-range-of-cells-in-a-worksheet_1.png)
 
 请查看以下生成的文件，范围 A1:B5 已移至 C1:D5。
 
 **输出文件** 
 
-![待办事项：图片_替代_文本](move-range-of-cells-in-a-worksheet_2.png)
+![待办事项：图像_替代_文本](move-range-of-cells-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Move-Range.cs" >}}

@@ -112,7 +112,7 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43518) - XLSM'yi yüklemek ve kaydetmek sonucu bozuyor
 
- (CELLSNET-43515) - Adlandırılmış aralık hücresini içeren formül iyi okunmadı
+ (CELLSNET-43515) - Adlandırılmış aralık hücresini içeren formül iyi okunmuyor
 
  (CELLSNET-43494) - Radyo Düğmesinin Bağlantılı Cell değeri yanlış
 

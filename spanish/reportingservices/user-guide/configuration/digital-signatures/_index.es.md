@@ -4,9 +4,9 @@ type: docs
 weight: 50
 url: /es/reportingservices/digital-signatures/
 ---
- Aspose.Cells para Reporting Services admite firmas digitales al exportar Microsoft archivos de Excel 2007 o archivos ODS. Tenemos alguna información de configuración para firmas digitales que se puede establecer en el**Aspose.Cells.ReportingServices.xml** expediente.
+ Aspose.Cells for Reporting Services admite firmas digitales al exportar Microsoft archivos de Excel 2007 o archivos ODS. Tenemos alguna información de configuración para firmas digitales que se puede establecer en el**Aspose.Cells.ReportingServices.xml** expediente.
 
- Cuando el valor de DigitalSignature es**apagado**, Aspose.Cells para Reporting Services desactiva las firmas digitales.
+ Cuando el valor de DigitalSignature es**apagado**, Aspose.Cells for Reporting Services desactiva las firmas digitales.
 
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ url: /es/reportingservices/digital-signatures/
 
 {{< /highlight >}}
 
- Cuando el valor de DigitalSignature es**en**, Aspose.Cells para Reporting Services activa las firmas digitales.
+ Cuando el valor de DigitalSignature es**en**, Aspose.Cells for Reporting Services activa las firmas digitales.
 
 {{< highlight "java" >}}
 

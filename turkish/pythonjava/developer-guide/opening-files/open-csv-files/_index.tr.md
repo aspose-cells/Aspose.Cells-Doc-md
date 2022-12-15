@@ -9,6 +9,6 @@ Virgülle Ayrılmış Değerler (CSV) dosyaları, değerleri virgülle ayrılmı
 
 CSV dosyalarını açmak için[Yükleme Seçenekleri](https://reference.aspose.com/cells/python/asposecells.api/LoadOptions)sınıfını seçin ve[CSV'ler](https://reference.aspose.com/cells/python/asposecells.api/fileformattype#CSV)değer, önceden tanımlanmış[Dosya Biçimi Türü](https://reference.aspose.com/cells/python/asposecells.api/FileFormatType)numaralandırma.
 
-Aşağıdaki kod parçacığı, Java API aracılığıyla Python için Aspose.Cells ile CSV dosyasını açmayı gösterir.
+Aşağıdaki kod parçacığı, Aspose.Cells for Python via Java API ile CSV dosyasını açmayı gösterir.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-OpeningCSVFiles.py" >}}

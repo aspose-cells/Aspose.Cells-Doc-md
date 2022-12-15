@@ -25,7 +25,7 @@ Den här artikeln förklarar hur du använder Aspose.Cells för att:
 
 De första stegen är desamma för alla exempel.
 
-1. Skapa två arbetsböcker med lite data i Microsoft Excel. För detta exempel skapade vi två nya arbetsböcker i Microsoft Excel och matade in en del data i kalkylbladen.
+1. Skapa två arbetsböcker med lite data i Microsoft Excel. För detta exempel skapade vi två nya arbetsböcker i Microsoft Excel och matade in lite data i kalkylbladen.
 
 - FirstWorkbook.xls (3 kalkylblad)
 - SecondWorkbook.xls (1 kalkylblad).
@@ -39,16 +39,16 @@ De första stegen är desamma för alla exempel.
 ![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_2.png)
 
 1. Ladda ner och installera Aspose.Cells:
-   1. [Ladda ner Aspose.Cells för Java](https://downloads.aspose.com/cells/java).
+   1. [Ladda ner Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
  1. Packa upp det på din utvecklingsdator.
  Allt[Aspose](http://www.aspose.com/) komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
 1. Skapa ett projekt:
  1. Skapa ett projekt med en Java-redigerare som Eclipse eller skapa ett enkelt program med en textredigerare.
 1. Lägg till en klasssökväg:
- 1. Extrahera Aspose.Cells.jar och dom4j_1.6.1.jar från Aspose.Cells.zip.
+1. Extrahera Aspose.Cells.jar och dom4j_1.6.1.jar från Aspose.Cells.zip.
  1. Ställ in klassvägen för projektet i Eclipse:
  1. Välj ditt projekt i Eclipse och klicka på menyer**Projekt** , då**Egenskaper**.
- 1. Välj**Java Build Path** i den vänstra sidan av dialogrutan, välj sedan fliken Bibliotek,
+ 1. Välj**Java Byggväg** i den vänstra sidan av dialogrutan, välj sedan fliken Bibliotek,
  1. Klicka**Lägg till JAR** eller**Lägg till externa JAR** för att välja Aspose.Cells.jar och dom4j_1.6.1.jar och lägga till dem i byggvägar.
 
 {{% alert color="primary" %}}

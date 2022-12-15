@@ -49,12 +49,12 @@ url: /it/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-47694|Eccezione quando si apre il file XLSX del documento|Eccezioni|
 |CELLSNET-47695|Nome cella non valido dopo DeleteRange|Eccezioni|
 |CELLSNET-47699|Eccezione quando si apre il file ODS|Eccezioni|
-|CELLSNET-47702| Si è verificata un'eccezione durante il caricamento dei file crittografati "Microsoft Excel 5.0/95 Workbook"|Eccezioni|
+|CELLSNET-47702| Si è verificata un'eccezione durante il caricamento dei file crittografati "Microsoft Excel 5.0/95 Workbook".|Eccezioni|
 
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 
 ### **Elimina il metodo CellsHelper.IsProtectedByRMS() obsoleto**
 
@@ -102,5 +102,5 @@ Rappresenta il salvataggio come file .docx.
 
 ### **Aggiunge ImageType.OfficeCompatibleEmf enum.**
 
-Windows Enhanced Metafile che è più compatibile con Office.
+Metafile avanzato di Windows che è più compatibile con Office.
 

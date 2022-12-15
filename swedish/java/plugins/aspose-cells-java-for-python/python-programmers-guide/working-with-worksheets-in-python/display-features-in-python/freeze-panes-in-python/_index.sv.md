@@ -5,9 +5,9 @@ weight: 40
 url: /sv/java/freeze-panes-in-python/
 ---
 ## **Aspose.Cells - Frys rutor**
- För att frysa rutor i kalkylarksdokumentet med**Aspose.Cells Java för Python** , helt enkelt åberopa**FreezePanes** modul.
+ För att frysa rutor i kalkylarksdokumentet med**Aspose.Cells Java for Python** , helt enkelt åberopa**FreezePanes** modul.
 
-**Python-kod**
+**Python Kod**
 
 {{< highlight "java" >}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för Android via Java 20.3 Release Notes
+title: Aspose.Cells for Android via Java 20.3 Release Notes
 type: docs
 weight: 20
 url: /sv/java/aspose-cells-for-android-via-java-20-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.3.
+Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.3.
 
 {{% /alert %}} 
 
@@ -56,7 +56,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.3
 |CELLSJAVA-43098|Att ersätta inbäddat objekt med en bild fungerar inte för XLS-filformat|Insekt|
 |CELLSJAVA-43122|Problem med ordning av trådade kommentarer efter import till Office365 XLSX-filformat|Insekt|
 |CELLSJAVA-43134|Strängvärdet för en cell är tomt i Apple Numbers'09|Insekt|
-|CELLSJAVA-43144|IsItalic-egenskapen upptäcktes annorlunda än MS Excel (Java)|Insekt|
+|CELLSJAVA-43144|IsItalic-egenskapen har upptäckts på ett annat sätt än MS Excel (Java)|Insekt|
 |CELLSJAVA-43094|Undantag vid laddning av ett XLSX-filformat|Undantag|
 |CELLSJAVA-43100|Undantag "java.lang.ArrayIndexOutOfBoundsException" när Workbook.calculateFormula() anropas i en Excel-fil|Undantag|
 |CELLSJAVA-43123|ArrayIndexOutOfBoundsException när du använder MEMORY_PREFERENCE|Undantag|
@@ -70,8 +70,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för Android via Java 20.3
 |CELLSJAVA-43120|java.lang.NumberFormatException vid konvertering av arbetsbok till PDF|Undantag|
 |CELLSJAVA-43140|IllegalArgumentException vid anrop av calculateFormula()|Undantag|
 |CELLSJAVA-43110|Konvertering till PDF - java.lang.NullPointerException|Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för Android via Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen ReplaceOptions.RegexKey.**
 Indikerar om den sökta nyckeln är regex. Om sant kommer den sökta nyckeln (som ska ersättas del) tas som användarspecificerat regex.
 ### **Tar bort den föråldrade metoden ValidationCollection.Add(Aspose.Cells.Validation).**
@@ -87,7 +87,7 @@ Typ av XML Advanced Electronic Signature (XAdES).
 ### **Lägger till egenskapen DigitalSignature.XAdESType**
 Hämtar och ställer in typen av XML Advanced Electronic Signature (XAdES). Standardvärdet är None (XAdES är avstängt).
 ### **Lägger till egenskapen FormulaParseOptions.Parse.**
- Anger om formeln tolkas när ett formeluttryck ställs in i cellen. Standard är**Sann** . Om**falsk**, då kommer det inmatade formeluttrycket att behållas som det är för cellen tills användaren anropar andra metoder för att analysera dem eller tills tolkad formeldata krävs av andra operationer, såsom beräkning av formler.
+ Anger om formeln tolkas när ett formeluttryck ställs in i cellen. Standard är**Sann** . Om**falsk**då kommer det inmatade formeluttrycket att behållas som det är för cellen tills användaren anropar andra metoder för att analysera dem eller tills tolkad formeldata krävs av andra operationer, såsom beräkning av formler.
 ### **Lägger till metoden Workbook.ParseFormulas(bool ignoreError).**
 Analyserar alla formler som inte har analyserats när de laddades eller sattes till en cell.
 ### **Lägger till egenskapen PivotTable.ExternalConnectionDataSource.**

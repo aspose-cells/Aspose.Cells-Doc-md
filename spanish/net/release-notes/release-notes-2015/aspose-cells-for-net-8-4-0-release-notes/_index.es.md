@@ -226,7 +226,7 @@ url: /es/net/aspose-cells-for-net-8-4-0-release-notes/
 
  Agrega el método PivotTable.ShowInOutlineForm()
 
- Presenta la tabla dinámica en forma de esquema.
+ Diseña la tabla dinámica en forma de esquema.
 
 
 

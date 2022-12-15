@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells pour les notes de publication de JasperReports 1.0.1
+title: Aspose.Cells for JasperReports 1.0.1 Notes de mise à jour
 type: docs
 weight: 10
 url: /fr/jasperreports/aspose-cells-for-jasperreports-1-0-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
- Cette page contient des notes de version pour[Aspose.Cells pour JasperReports 1.0.1](https://downloads.aspose.com/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-1.0.1/)
+ Cette page contient des notes de version pour[Aspose.Cells for JasperReports 1.0.1](https://downloads.aspose.com/cells/jasperreports/new-releases/aspose.cells-for-jasperreports-1.0.1/)
 
 {{% /alert %}}
 
-Nous sommes heureux d'annoncer le Aspose.Cells pour JasperReports 1.0.1 !
+Nous sommes heureux d'annoncer Aspose.Cells for JasperReports 1.0.1 !
 
 Quoi de neuf:
 

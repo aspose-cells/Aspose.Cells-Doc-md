@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 报告服务 V1.1.1 已发布！发行说明
+title: Aspose.Cells for Reporting Services V1.1.1 发布！发行说明
 type: docs
 weight: 20
 url: /zh/reportingservices/aspose-cells-for-reporting-services-v1-1-1-released-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含发行说明[Aspose.Cells 报告服务 V1.1.1 已发布！](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
+此页面包含发行说明[Aspose.Cells for Reporting Services V1.1.1 发布！](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
 
 {{% /alert %}} 
 

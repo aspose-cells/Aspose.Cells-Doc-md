@@ -22,7 +22,7 @@ Aspose.Cells for .NET unterstützt die Konvertierung von Tabellenkalkulationen i
 1.  Instanziieren Sie ein Objekt der**Arbeitsmappe** Klasse, indem Sie ihren leeren Konstruktor aufrufen.
 1.  Du könntest**öffnen/laden** eine vorhandene Vorlagendatei oder überspringen Sie diesen Schritt, wenn Sie die Arbeitsmappe von Grund auf neu erstellen.
 1. Führen Sie Ihre gewünschte Arbeit (Daten eingeben, Formatierung anwenden, Formeln festlegen, Bilder oder andere Zeichenobjekte einfügen usw.) in der Tabelle mithilfe von Aspose.Cells-APIs aus.
-1. Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie die auf**Die Save-Methode der Workbook-Klasse** um die Tabelle zu speichern. Das Dateiformat sollte PDF sein, also wählen Sie Pdf (ein vordefinierter Wert) aus der SaveFormat-Enumeration, um das endgültige PDF-Dokument zu generieren.
+1.  Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie die auf**Die Save-Methode der Workbook-Klasse** um die Tabelle zu speichern. Das Dateiformat sollte PDF sein, also wählen Sie Pdf (ein vordefinierter Wert) aus der SaveFormat-Enumeration, um das endgültige PDF-Dokument zu generieren.
 
 {{< highlight "csharp" >}}
 

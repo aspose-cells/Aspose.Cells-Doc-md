@@ -91,7 +91,7 @@ Aspose.Cells يدعم قراءة وكتابة ملفات MHTML.
 
 يوفر Aspose.Cells API دعمًا لتصدير جداول البيانات إلى تنسيق Markdown. لتصدير ورقة العمل النشطة إلى Markdown ، قم بتمرير**[SaveFormat.Markdown] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** كمعامل ثاني لـ**[Workbook.Save] (https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** طريقة. يمكنك أيضًا استخدام ملفات**[MarkdownSaveOptions] (https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)** فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى Markdown.
 
- يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى Markdown باستخدام**[SaveFormat.Markdown] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** عضو التعداد. الرجاء مراجعة[إخراج ملف Markdown](md_sample.txt)تم إنشاؤها بواسطة رمز كمرجع.
+ يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى Markdown باستخدام**[SaveFormat.Markdown] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** عضو التعداد. الرجاء مراجعة[إخراج ملف Markdown](md_sample.txt)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.cs" >}}
 
@@ -99,7 +99,7 @@ Aspose.Cells يدعم قراءة وكتابة ملفات MHTML.
 
 يدعم Aspose.Cells تحويل مصنف إلى ملف Json (JavaScript Object Notation).
 
- يوضح مثال التعليمات البرمجية التالي تصدير ورقة العمل النشطة إلى Json باستخدام[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. يرجى الاطلاع على الكود للتحويل[مصدر الملف](Book1.xlsx) الى[إخراج ملف Json](Book1.Json)تم إنشاؤها بواسطة رمز كمرجع.
+ يوضح مثال التعليمات البرمجية التالي تصدير ورقة العمل النشطة إلى Json باستخدام[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. يرجى الاطلاع على الكود للتحويل[مصدر الملف](Book1.xlsx) الى[إخراج ملف Json](Book1.Json)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
@@ -119,7 +119,7 @@ Aspose.Cells يدعم قراءة وكتابة ملفات MHTML.
 
 يوفر Aspose.Cells API دعمًا لتحويل جداول البيانات إلى تنسيق DOCX. لتصدير المصنف إلى DOCX ، قم بتمرير[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كمعامل ثاني لـ[**المصنف**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) طريقة. يمكنك أيضًا استخدام ملفات[**DocxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/docxsaveoptions) فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى DOCX.
 
- يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى DOCX باستخدام[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. الرجاء مراجعة[إخراج ملف DOCX](Book1.docx)تم إنشاؤها بواسطة رمز كمرجع.
+ يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى DOCX باستخدام[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. الرجاء مراجعة[إخراج ملف DOCX](Book1.docx)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToDocx-1.cs" >}}
 
@@ -127,7 +127,7 @@ Aspose.Cells يدعم قراءة وكتابة ملفات MHTML.
 
 يوفر Aspose.Cells API دعمًا لتحويل جداول البيانات إلى تنسيق PPTX. لتصدير المصنف إلى PPTX ، قم بتمرير[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كمعامل ثاني لـ[**المصنف**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) طريقة. يمكنك أيضًا استخدام ملفات[**خيارات PptxSaveOpt**](https://reference.aspose.com/cells/net/aspose.cells/pptxsaveoptions) فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى PPTX.
 
- يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى PPTX باستخدام[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. الرجاء مراجعة[إخراج ملف PPTX](Book1.pptx)تم إنشاؤها بواسطة رمز كمرجع.
+ يوضح المثال التالي من التعليمات البرمجية تصدير ورقة العمل النشطة إلى PPTX باستخدام[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عضو التعداد. الرجاء مراجعة[إخراج ملف PPTX](Book1.pptx)التي تم إنشاؤها بواسطة رمز كمرجع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 

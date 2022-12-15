@@ -32,7 +32,7 @@ Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler
 
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **Cells.CountLarge özelliğini ekler**
-İşlevsel olarak, Count özelliğiyle aynıdır, ancak Count özelliği, çok fazla örneklenmiş Cell nesnesi olduğunda bir taşma hatası oluşturabilir.
+İşlevsel olarak, Count özelliğiyle aynıdır, tek fark, Count özelliği, çok fazla örneği oluşturulmuş Cell nesnesi olduğunda bir taşma hatası oluşturabilir.
 #### **Hyperlink.Delete() yöntemini ekler**
 Bu köprüyü siler.
 #### **Range.Hyperlinks özelliğini ekler**
@@ -42,7 +42,7 @@ Satır eklerken kopyalama biçiminin türünü temsil eder.
 #### **InsertOptions sınıfını ve Cells.InsertRows(int, int , InsertOptions) yöntemini ekler**
 Bazı seçeneklerle satır ekleme.
 #### **FileFormatUtil.DetectFileFormat(Stream,String) ve FileFormatUtil.DetectFileFormat(String,String) yöntemlerini ekler**
-Şifrelenmiş OOXML dosyasının dosya biçimini algılar.
+Şifreli OOXML dosyasının dosya biçimini algılar.
 #### **ListObject.AlternativeDescription ve ListObject.AlternativeText özelliklerini ekler**
 Tablonun alternatif metnini ve açıklamasını alır ve ayarlar.
 #### **Line.ThemeColor özelliğini ekler**

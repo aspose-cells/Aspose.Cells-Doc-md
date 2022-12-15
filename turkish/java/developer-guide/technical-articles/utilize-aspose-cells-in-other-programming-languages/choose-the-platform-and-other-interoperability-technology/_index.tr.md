@@ -23,6 +23,6 @@ url: /tr/java/choose-the-platform-and-other-interoperability-technology/
 
 |**Senaryo** |**Ne Zaman Kullanılır?** |
 |:- |:- |
-| Aspose.Cells for Java üzerinden Java Köprü veya Satır içi::Java|<p>**Artıları**:</p><p>- Java'in mevcut olduğu herhangi bir platformda mevcuttur.</p><p>- Çağrılması kolay statik yöntemler, parametreli yapıcılar, aşırı yüklenmiş yöntemler ve numaralandırılmış değerleri kullanın.</p>|
+| Aspose.Cells for Java via Java Köprü veya Satır İçi::Java|<p>**Artıları**:</p><p>- Java'in mevcut olduğu herhangi bir platformda mevcuttur.</p><p>- Çağrılması kolay statik yöntemler, parametreli yapıcılar, aşırı yüklenmiş yöntemler ve numaralandırılmış değerleri kullanın.</p>|
 ||<p>**Eksileri**: </p><p>- Aspose.Cells for .NET'den daha seyrek sürümlere ve daha az özelliğe sahiptir.</p>|
  Lütfen Aspose.Cells for Java'in for Java uygulamaları olarak tasarlandığını ve diğer programlama dillerinde kullanılmasının bazı teknik sınırlamalara veya geçici çözümlere tabi olduğunu unutmayın.

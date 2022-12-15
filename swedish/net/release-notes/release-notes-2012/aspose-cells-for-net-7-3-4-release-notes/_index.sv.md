@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Cells för .NET 7.3.4 Release Notes
+title: Aspose.Cells for .NET 7.3.4 Release Notes
 type: docs
 weight: 10
 url: /sv/net/aspose-cells-for-net-7-3-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 7.3.4](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.4/)
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 7.3.4](https://downloads.aspose.com/cells/net/new-releases/aspose.cells-for-.net-7.3.4/)
 
 {{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för .NET v7.3.4!
+ Vi är glada att kunna meddela Aspose.Cells for .NET v7.3.4!
 
 
 
@@ -84,7 +84,7 @@ url: /sv/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Buggar
 
- 40838 - GridWeb - Formateringen har inte sparats korrekt
+40838 - GridWeb - Formateringen har inte sparats korrekt
 
  41140 - Problem när du använder alternativet "Lägg till rad".
 
@@ -106,6 +106,6 @@ url: /sv/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Buggar
 
-40709 - GridDesktops renderingsproblem
+ 40709 - GridDesktops renderingsproblem
 
 41098 - Cell Skydds-/låsningsproblem med GridDesktop

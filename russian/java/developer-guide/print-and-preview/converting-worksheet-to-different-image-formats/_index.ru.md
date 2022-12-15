@@ -14,7 +14,7 @@ Aspose.Cells позволяет экспортировать рабочий ли
 
 Иногда бывает полезно сохранить изображение рабочего листа. Изображения можно публиковать в Интернете, вставлять в другие документы (например, отчеты, написанные в Word Microsoft, или презентации PowerPoint).
 
-Aspose.Cells обеспечивает экспорт изображения через**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** учебный класс. Этот класс представляет рабочий лист, который будет преобразован в изображение.**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**класс обеспечивает**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**метод преобразования рабочего листа в файл изображения. Поддерживаются форматы BMP, PNG, JPEG, TIFF и EMF.
+Aspose.Cells обеспечивает экспорт изображения через**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** учебный класс. Этот класс представляет рабочий лист, который будет преобразован в изображение.**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)** класс обеспечивает**[toImage()](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))**метод преобразования рабочего листа в файл изображения. Поддерживаются форматы BMP, PNG, JPEG, TIFF и EMF.
 
 {{% alert color="primary" %}}
 

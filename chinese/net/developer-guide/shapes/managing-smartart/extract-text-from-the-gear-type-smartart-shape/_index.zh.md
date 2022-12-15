@@ -6,7 +6,7 @@ url: /zh/net/extract-text-from-the-gear-type-smartart-shape/
 ---
 ## **可能的使用场景**
 
-Aspose.Cells 可以从齿轮类型智能艺术形状中提取文本。为此，您应该首先使用[**形状.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)方法。然后你应该使用[**组形.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes)方法。最后，您可以在一个循环中一个一个地迭代所有单独的形状，并使用[**形状.文本**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)财产。
+Aspose.Cells 可以从齿轮类型智能艺术形状中提取文本。为此，您应该首先使用[**形状.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)方法。然后你应该使用[**组形.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes)方法。最后，您可以在一个循环中一个一个地迭代所有单独的形状，并使用[**形状.文字**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)财产。
 
 ## **从齿轮类型 SmartArt 形状中提取文本**
 

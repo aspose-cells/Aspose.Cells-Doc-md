@@ -5,7 +5,7 @@ weight: 70
 url: /es/java/split-panes-in-python/
 ---
 ## **Aspose.Cells - Paneles divididos**
- Para dividir paneles usando**Aspose.Cells Java para Python** , simplemente invocar**paneles divididos** módulo.
+ Para dividir paneles usando**Aspose.Cells Java for Python** , simplemente invocar**paneles divididos** módulo.
 
 **Código Python**
 

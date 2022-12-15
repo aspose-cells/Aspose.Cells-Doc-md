@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells 适用于 Android，通过 Java 9.0.0 发行说明
+title: Aspose.Cells for Android via Java 9.0.0 发行说明
 type: docs
 weight: 20
 url: /zh/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
@@ -47,7 +47,7 @@ url: /zh/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41960|打开源a2.xls时出现NegativeArraySizeException异常|例外|
 |CELLSJAVA-41959|打开源a1.xlsx时出现NullPointerException异常|例外|
 ## **公共 API 和向后不兼容的更改**
-以下是对公共 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及对 Android 的 Aspose.Cells 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Cells 支持论坛上提出。
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Android 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 ### **添加 CopyOptions.ReferToDestinationSheet 属性和 Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) 方法**
 复制范围且图表引用源工作表时，False表示复制图表的数据源不会改变。 True 表示复制图表的数据源引用目标工作表。
 ### **添加 HtmlSaveOptions.FilePathProvider 属性**
@@ -117,6 +117,6 @@ url: /zh/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.9.1, Aspose.Cells for .NET v8.9.2, Aspose.Cells for .NET v9.0.0, Aspose.Cells for Java v8 .9.1、Aspose.Cells for Java v8.9.2 和 Aspose.Cells for Java v9.0.0 也包含在这个 Aspose.Cells for Android v9.0.0 中。
+Since the code base of Aspose.Cells for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v8.9.1, Aspose.Cells for .NET v8.9.2, Aspose.Cells for .NET v9.0.0, Aspose.Cells for Java v8. 9.1、Aspose.Cells for Java v8.9.2和Aspose.Cells for Java v9.0.0也包含在这个Aspose.Cells for Android v9.0.0中。
 
 {{% /alert %}}

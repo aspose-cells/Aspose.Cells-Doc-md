@@ -1,5 +1,5 @@
 ﻿---
-title: Fügen Sie Matrix in Aspose.Cells für den Reporting Services-Client hinzu
+title: Matrix in Aspose.Cells for Reporting Services Client hinzufügen
 type: docs
 weight: 80
 url: /de/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/

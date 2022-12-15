@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /sv/java/developer-guide/
 ---
-## Arbetar med Aspose.Cells Java API:er.
+## Arbeta med Aspose.Cells Java API:er.
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
@@ -91,7 +91,7 @@ url: /sv/java/developer-guide/
 		 <p>Filtrera</p>
         <ul>
 		 <li><a href="/cells/sv/java/data-filtering/">Datafiltrering</a></li>
-         <li><a href="/cells/sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Använd avancerat filter i Microsoft Excel för att visa poster som uppfyller komplexa kriterier</a></li>
+         <li><a href="/cells/sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier</a></li>
 		 <li><a href="/cells/sv/java/get-all-hidden-rows-indices-after-refreshing-autofilter/">Få alla dolda rader efter att ha uppdaterat autofiltret</a></li>
         </ul>
         <p>Hitta&Välj</p>

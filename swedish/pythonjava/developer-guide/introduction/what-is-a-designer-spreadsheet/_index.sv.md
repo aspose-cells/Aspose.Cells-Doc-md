@@ -20,7 +20,7 @@ För att påskynda din utveckling erbjuder Aspose.Cells det spännande kalkylbla
 
 ### **Vad är ett designerkalkylblad?**
 
-Ett designerkalkylblad är en Excel-fil skapad med Microsoft Excel där all formatering redan tillämpas och innehållet kan bestämmas vid designtillfället. Det är mer som en mallfil som inte innehåller några data utan bara formateringen, som visas nedan:
+Ett designerkalkylblad är en Excel-fil skapad med Microsoft Excel där all formatering redan är tillämpad och innehållet kan bestämmas vid designtillfället. Det är mer som en mallfil som inte innehåller några data utan bara formateringen, som visas nedan:
 
 **Designer kalkylblad**
 

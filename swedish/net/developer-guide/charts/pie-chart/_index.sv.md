@@ -7,11 +7,11 @@ url: /sv/net/creating-pie-chart-with-leader-lines/
 ---
 {{% alert color="primary" %}}
 
-Den här artikeln förklarar hur du skapar ett cirkeldiagram med ledarlinjer från början när du använder Aspose.Cells för .NET API. I Excel är alternativet "Visa ledarlinjer" inställt som standard så när du skapar ett cirkeldiagram i Excel visas ledarlinjerna. Men när du skapar ett liknande diagram med Aspose.Cells API:er måste du uttryckligen ställa in[**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) fast egendom.
+ Den här artikeln förklarar hur du skapar ett cirkeldiagram med ledarlinjer från början medan du använder Aspose.Cells for .NET API. I Excel är alternativet "Visa ledarlinjer" inställt som standard så när du skapar ett cirkeldiagram i Excel visas ledarlinjerna. Men när du skapar ett liknande diagram med Aspose.Cells API:er måste du uttryckligen ställa in[**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) fast egendom.
 
 {{% /alert %}}
 
- För att demonstrera användningen av Aspose.Cells för .NET API för att skapa ett cirkeldiagram med ledarlinjer, kommer vi först att skapa ett nytt[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) och mata in några data som kommer att fungera som seriedatakällan. När uppgifterna är på plats kommer vi att lägga till en[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) av typ[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)till samlingen av sjökort och ställ in dess olika aspekter för att få önskad sjökortsvy.
+För att demonstrera användningen av Aspose.Cells for .NET API för att skapa ett cirkeldiagram med ledarlinjer, kommer vi först att skapa ett nytt[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) och mata in några data som kommer att fungera som seriedatakällan. När uppgifterna är på plats kommer vi att lägga till en[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) av typ[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)till samlingen av sjökort och ställ in dess olika aspekter för att få önskad sjökortsvy.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-CreateWorkbook.cs" >}}
 

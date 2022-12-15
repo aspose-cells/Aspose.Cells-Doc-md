@@ -42,7 +42,7 @@ url: /tr/java/aspose-cells-for-java-20-2-release-notes/
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **FormulaParseOptions.Parse özelliğini ekler.**
- Hücreye bir formül ifadesi ayarlarken formülün ayrıştırılıp ayrıştırılmayacağını gösterir. varsayılan**doğru** . Eğer**yanlış**, ardından giriş formülü ifadesi, kullanıcı bunları ayrıştırmak için diğer yöntemleri çağırana veya formül hesaplama gibi diğer işlemler için ayrıştırılmış formül verileri gerekinceye kadar hücre için olduğu gibi tutulur.
+ Hücreye bir formül ifadesi ayarlarken formülün ayrıştırılıp ayrıştırılmayacağını gösterir. varsayılan**doğru** . Eğer**yanlış**ardından giriş formülü ifadesi, kullanıcı bunları ayrıştırmak için diğer yöntemleri çağırana veya formül hesaplama gibi diğer işlemler için ayrıştırılmış formül verileri gerekinceye kadar hücre için olduğu gibi tutulur.
 ### **Workbook.ParseFormulas(bool ignoreError) yöntemini ekler.**
 Yüklendiklerinde veya bir hücreye ayarlandıklarında ayrıştırılmamış tüm formülleri ayrıştırır.
 ### **PivotTable.ExternalConnectionDataSource özelliğini ekler.**

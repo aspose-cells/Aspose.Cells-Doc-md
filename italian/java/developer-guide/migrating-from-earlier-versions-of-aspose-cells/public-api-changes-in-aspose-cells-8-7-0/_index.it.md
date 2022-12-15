@@ -1,24 +1,24 @@
 ﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.7.0
+title: Modifiche all'API pubblica in Aspose.Cells 8.7.0
 type: docs
 weight: 240
 url: /it/java/public-api-changes-in-aspose-cells-8-7-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.3 alla 8.7.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.6.3 alla 8.7.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per l'ottimizzazione PDF**
- Le API Aspose.Cells forniscono già la funzione di conversione dei fogli di calcolo in PDF. Con questa versione di API, gli utenti possono ora[ottimizzare la dimensione del PDF risultante](/cells/it/java/save-excel-into-pdf-with-standard-or-minimum-size/)anche. Aspose.Cells for Java 8.7.0 ha esposto la proprietà PdfSaveOptions.OptimizationType insieme all'enumerazione PdfOptimizationType per facilitare agli utenti la scelta dell'algoritmo di ottimizzazione desiderato durante l'esportazione dei fogli di calcolo in formato PDF. Esistono 2 valori possibili per la proprietà PdfSaveOptions.OptimizationType come descritto di seguito.
+ Le API Aspose.Cells forniscono già la funzione di conversione dei fogli di calcolo in PDF. Con questa versione dell'API, gli utenti possono ora[ottimizzare la dimensione del PDF risultante](/cells/it/java/save-excel-into-pdf-with-standard-or-minimum-size/)anche. Aspose.Cells for Java 8.7.0 ha esposto la proprietà PdfSaveOptions.OptimizationType insieme all'enumerazione PdfOptimizationType per facilitare agli utenti la scelta dell'algoritmo di ottimizzazione desiderato durante l'esportazione dei fogli di calcolo in formato PDF. Esistono 2 valori possibili per la proprietà PdfSaveOptions.OptimizationType come descritto di seguito.
 
 1. PdfOptimizationType.MINIMUM_SIZE: la qualità è compromessa per la dimensione del file risultante.
 1. PdfOptimizationType.STANDARD: la qualità non è compromessa quindi la dimensione del file risultante sarà grande.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -46,7 +46,7 @@ book.save(outFilePath, pdfSaveOptions);
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -78,11 +78,11 @@ else
 
 {{< /highlight >}}
 ### **Metodo Protection.verifyPassword aggiunto**
-Aspose.Cells Le API hanno potenziato la classe Protection introducendo il metodo verifyPassword che permette di specificare una password come istanza di String e[verifica se la stessa password è stata utilizzata per proteggere il foglio di lavoro](/cells/it/java/verify-password-used-to-protect-the-worksheet/). Il metodo Protection.verifyPassword restituisce true se la password specificata corrisponde alla password utilizzata per proteggere il foglio di lavoro specificato e false se la password specificata non corrisponde. La parte di codice seguente usa il metodo Protection.verifyPassword insieme al campo Protection.isProtectedWithPassword per rilevare la protezione tramite password e verifica la password.
+Aspose.Cells Le API hanno potenziato la classe Protection introducendo il metodo verifyPassword che permette di specificare una password come istanza di String e[verifica se la stessa password è stata utilizzata per proteggere il foglio di lavoro](/cells/it/java/verify-password-used-to-protect-the-worksheet/). Il metodo Protection.verifyPassword restituisce true se la password specificata corrisponde alla password utilizzata per proteggere il foglio di lavoro specificato e false se la password specificata non corrisponde. La parte di codice seguente utilizza il metodo Protection.verifyPassword insieme al campo Protection.isProtectedWithPassword per rilevare la protezione tramite password e verifica la password.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -126,7 +126,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -166,7 +166,7 @@ else
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -212,11 +212,11 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Proprietà TxtLoadOptions.HasFormula aggiunto**
- Aspose.Cells for Java 8.7.0 ha fornito supporto a[identificare e analizzare le formule durante il caricamento di file CSV/TXT con dati semplici delimitati](/cells/it/java/load-or-import-csv-file-with-formulas/). La proprietà TxtLoadOptions.HasFormula appena esposta quando impostata su true indica a API di analizzare le formule dal file delimitato di input e di impostarle sulle celle pertinenti senza richiedere alcuna elaborazione aggiuntiva.
+ Aspose.Cells for Java 8.7.0 ha fornito supporto a[identificare e analizzare le formule durante il caricamento di file CSV/TXT con dati semplici delimitati](/cells/it/java/load-or-import-csv-file-with-formulas/). La proprietà TxtLoadOptions.HasFormula appena esposta quando impostata su true indica all'API di analizzare le formule dal file delimitato di input e di impostarle sulle celle pertinenti senza richiedere alcuna elaborazione aggiuntiva.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -250,7 +250,7 @@ book.save(outFilePath);
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Java**
+**Giava**
 
 {{< highlight "csharp" >}}
 
@@ -281,4 +281,4 @@ chart.calculate();
 {{< /highlight >}}
 ## **API rimosse**
 ### **Proprietà Workbook.SaveOptions Rimosso**
-La proprietà Workbook.SaveOptions è stata contrassegnata come obsoleta qualche tempo fa. Con questa release è stato completamente rimosso dal pubblico API pertanto si consiglia di utilizzare in alternativa il metodo Workbook.save(Stream, SaveOptions) o Workbook.save(string, SaveOptions).
+La proprietà Workbook.SaveOptions è stata contrassegnata come obsoleta qualche tempo fa. Con questa release è stato completamente rimosso dall'API pubblica pertanto si consiglia di utilizzare in alternativa il metodo Workbook.save(Stream, SaveOptions) o Workbook.save(string, SaveOptions).

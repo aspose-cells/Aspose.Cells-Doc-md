@@ -18,7 +18,7 @@ Normalement, nous recommandons aux utilisateurs d'appeler[**Workbook.CalculateFo
 
 ## **Sortie console**
 
- Ceci est la sortie de la console de l'exemple de code ci-dessus lorsqu'il est exécuté avec le[exemple de fichier excel](5113710.xlsx)sur notre appareil. Veuillez noter que votre sortie peut différer, mais le temps écoulé après avoir défini la propriété récursive sur**faux** sera toujours inférieur au réglage**vrai**.
+ Ceci est la sortie de la console de l'exemple de code ci-dessus lorsqu'il est exécuté avec le[exemple de fichier excel](5113710.xlsx) sur notre appareil. Veuillez noter que votre sortie peut différer, mais le temps écoulé après avoir défini la propriété récursive sur**faux** sera toujours inférieur au réglage**vrai**.
 
 {{< highlight "java" >}}
 

@@ -6,7 +6,7 @@ url: /de/cpp/aspose-cells-for-cpp-22-6-2-release-notes-windows/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Cells für C++ 22.6.2 für Windows.
+Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 22.6.2 für Windows.
 
 {{% /alert %}}
 

@@ -1,24 +1,24 @@
 ﻿---
-title: Aspose.Cells för Reporting Services 1.4.3 Release Notes
+title: Aspose.Cells for Reporting Services 1.4.3 Release Notes
 type: docs
 weight: 10
 url: /sv/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för [ Aspose.Cells för Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
+Den här sidan innehåller releasenotes för [ Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/]{{% /alert %}} 
 
- Vi är glada att kunna meddela Aspose.Cells för Reporting Services v1.4.3!
+ Vi är glada att meddela Aspose.Cells for Reporting Services v1.4.3!
 
  Vad har förändrats
 
 ? 
 
-· Aspose.Cells.ReportingServices Client stöder Reporting Services 2008 rapportformat.
+ · Aspose.Cells.ReportingServices Client stöder Reporting Services 2008 rapportformat.
 
  · Återgivningsprestanda förbättras.
 
- · Inkluderar stil för rapportobjekt i rapport som skapats av rapportdesignern.
+· Inkluderar stil för rapportobjekt i rapport som skapats av rapportdesignern.
 
  · Aspose.Cells.ReportingServices Client är förbättrad när det gäller Reporting Servers anslutning.
 
@@ -26,7 +26,7 @@ Den här sidan innehåller utgåvor för [ Aspose.Cells för Reporting Services 
 
 
 
- Problem lösta i Aspose.Cells för rapporteringstjänster 1.4.
+ Problem lösta i Aspose.Cells for Reporting Services 1.4.
 
 \3. 
 

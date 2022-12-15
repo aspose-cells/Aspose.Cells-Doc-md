@@ -14,5 +14,5 @@ Aspose.Cells 的评估版（即未应用许可证的 Aspose.Cells）提供了大
 
 |**评估警告——额外的工作表**|
 |:- |
-|![待办事项：图片_替代_文本](evaluate-aspose-cells_1.png)|
+|![待办事项：图像_替代_文本](evaluate-aspose-cells_1.png)|
 如果你想在没有评估版本限制的情况下测试 Aspose.Cells，[申请 30 天的临时许可证](https://purchase.aspose.com/temporary-license).

@@ -5,7 +5,7 @@ weight: 10
 url: /ar/java/protecting-worksheets-in-python/
 ---
 ## **Aspose.Cells - حماية أوراق العمل**
- لحماية ورقة العمل باستخدام**Aspose.Cells Java لـ Python** ، مكالمة**حماية_ورقة العمل** طريقة**الحماية** وحدة.
+ لحماية ورقة العمل باستخدام**Aspose.Cells Java for Python** ، مكالمة**حماية_ورقة العمل** طريقة**الحماية** وحدة.
 
 **Python كود**
 
@@ -44,7 +44,7 @@ excel.save(self.dataDir + "output.xls")
 print "Sheet protected successfully."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**حماية أوراق العمل (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

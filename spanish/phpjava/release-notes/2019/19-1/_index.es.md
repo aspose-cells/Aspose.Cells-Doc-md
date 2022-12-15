@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para PHP a través de Java 19.1 Notas de la versión
+title: Aspose.Cells for PHP via Java 19.1 Notas de la versión
 type: docs
 weight: 20
 url: /es/php-java/aspose-cells-for-php-via-java-19-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión Aspose.Cells para PHP a través de Java 19.1.
+Esta página contiene notas de la versión para Aspose.Cells for PHP via Java 19.1.
 
 {{% /alert %}} 
 
@@ -30,7 +30,7 @@ Esta página contiene notas de la versión Aspose.Cells para PHP a través de Ja
 |CELLSJAVA-42799|Excepción "java.lang.ArrayIndexOutOfBoundsException: -32768" al cargar un formato de archivo XLSX|Excepción|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException al cargar un libro de trabajo|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
-La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells para PHP a través de Java. Si tiene inquietudes sobre cualquier cambio en la lista, por favor plantealo en el foro de soporte Aspose.Cells.
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for PHP via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega el método PivotTable.ShowReportFilterPageByName(string fieldName)**
 Muestra todas las páginas de filtro del informe según el nombre de PivotField, el PivotField debe estar ubicado en PageFields.
 #### **Agrega el método PivotTable.ShowReportFilterPageByIndex(int posIndex)**

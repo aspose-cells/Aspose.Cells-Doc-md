@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 18.6 Note di rilascio
+title: Aspose.Cells for Android via Java 18.6 Note di rilascio
 type: docs
 weight: 30
 url: /it/java/aspose-cells-for-android-via-java-18-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 18.6.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 18.6.
 
 {{% /alert %}}
 
@@ -38,7 +38,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42577|Ottieni/estrai i valori (0 per 0 e vuoto per vuoto) utilizzando il metodo DataPoint.getYValue() per un dato grafico|Insetto|
 |CELLSJAVA-42566|Inversione dei sottotitoli (voci della legenda) nel grafico MS Excel|Insetto|
 |CELLSJAVA-42560|Le frecce non sono presenti nell'output PNG del grafico Excel|Insetto|
-|CELLSJAVA-42508|Java metodo 'Shape.toImage' funziona diversamente con lo stesso metodo in .NET|Insetto|
+|CELLSJAVA-42508|Il metodo Java 'Shape.toImage' funziona in modo diverso con lo stesso metodo in .NET|Insetto|
 |CELLSJAVA-42573|Aspose.Cells 18.3 rotazione per un TextBox non funziona per EXCEL_97_Formato di salvataggio TO_2003|Insetto|
 |CELLSJAVA-42570|Una nuova riga vuota viene visualizzata all'interno del TextBox dopo l'elaborazione e il salvataggio del file Excel|Insetto|
 |CELLSJAVA-42604|La formattazione e il comportamento della tabella pivot sono cambiati dopo l'apertura/salvataggio del file modello|Insetto|
@@ -81,9 +81,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42649|Eccezione: "Il conteggio di HPageBreaks non può essere maggiore di 1024" durante il caricamento di un file XLS|Eccezione|
 |CELLSJAVA-42648|Eccezione: "Impossibile leggere i dati dell'immagine" su Picture.getData()|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge il nuovo elemento "CrossHideRight" per l'enumerazione HtmlCrossType**
 
@@ -258,6 +258,6 @@ GlobalizationSettings.ColumnSeparatorOfFormulaArray
 
 {{% alert color="primary" %}}
 
-Poiché la base di codice di Aspose.Cells per Android tramite Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, miglioramenti e correzioni inclusi in Aspose.Cells for .NET v18.4, Aspose.Cells 0761734481 v18.581 for .NET v18.4, Aspose.Cells 0761734481 v18.581 48186 v18.4, Aspose.Cells 0761734481 v18.581 08186 v18.5 6, Aspose.Cells for Java v18.4, Aspose.Cells for Java v18.5 e Aspose.Cells for Java v18.6 sono inclusi anche in questo Aspose.Cells per Android tramite Java v18.6.
+Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni sono incluse in Aspose.Cells for .NET v18.4, Aspose.Cells for .NET v18.5, 07617634181 v18.4, Aspose.Cells for .NET v18.5, 07617634181 v186 , Aspose.Cells for Java v18.4, Aspose.Cells for Java v18.5 e Aspose.Cells for Java v18.6 sono inclusi anche in questo Aspose.Cells for Android via Java v18.6.
 
 {{% /alert %}}

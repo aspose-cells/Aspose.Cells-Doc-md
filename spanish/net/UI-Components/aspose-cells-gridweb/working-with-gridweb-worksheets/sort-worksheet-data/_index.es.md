@@ -1,5 +1,5 @@
 ﻿---
-title: Ordenar datos de la hoja de cálculo
+title: Ordenar datos de la hoja de trabajo
 type: docs
 weight: 80
 url: /es/net/sort-worksheet-data/

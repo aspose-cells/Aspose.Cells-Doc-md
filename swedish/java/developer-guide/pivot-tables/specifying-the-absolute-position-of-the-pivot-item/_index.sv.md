@@ -6,7 +6,7 @@ url: /sv/java/specifying-the-absolute-position-of-the-pivot-item/
 ---
 {{% alert color="primary" %}}
 
-Ibland måste användaren specificera den absoluta positionen för pivotposterna, Aspose.Cells API har avslöjat några nya egenskaper och en metod för att uppnå detta användarkrav.
+Ibland behöver användaren specificera den absoluta positionen för pivotposterna, Aspose.Cells API har exponerat några nya egenskaper och en metod för att uppnå detta användarkrav.
 
 -  Lagt till[**PivotItem.setPosition()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#Position) egenskap som kan användas för att ange positionsindex i alla PivotItems oavsett föräldernod. Lagt till[**PivotItem.setPositionInSameParentNode()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#PositionInSameParentNode) egenskap som kan användas för att ange positionsindex i PivotItems under samma överordnade nod.
 -  Lagt till[**PivotItem.move(int count, boolean isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)metod för att flytta objektet uppåt eller nedåt baserat på räknevärdet, där antalet är antalet positioner för att flytta PivotItem uppåt eller nedåt. Om räknevärdet är mindre än noll kommer objektet att flyttas uppåt, medan om räknevärdet är större än noll kommer PivotItem att flyttas nedåt, boolesk typ isSameParent parameter som anger om flyttoperationen måste utföras i samma överordnade nod eller inte.

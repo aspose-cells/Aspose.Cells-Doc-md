@@ -4,7 +4,7 @@ linktitle: akıllı işaretçiler
 type: docs
 weight: 190
 url: /tr/python-net/using-smart-markers/
-description: .Net kitaplığı aracılığıyla Python için Aspose.Cells ile şablon Excel dosyalarına göre verileri akıllıca içe aktarın ve yerleştirin.
+description: .Net kütüphanesi üzerinden Aspose.Cells for Python ile şablon Excel dosyalarına göre verileri akıllı bir şekilde içe aktarın ve yerleştirin.
 ---
 ## **giriiş**
 **akıllı işaretçiler**Aspose.Cells'in bir Microsoft Excel tasarımcı elektronik tablosuna hangi bilgilerin yerleştirileceğini bilmesini sağlamak için kullanılır. Akıllı işaretçiler, yalnızca belirli bilgileri ve biçimlendirmeyi içeren şablonlar oluşturmanıza olanak tanır.

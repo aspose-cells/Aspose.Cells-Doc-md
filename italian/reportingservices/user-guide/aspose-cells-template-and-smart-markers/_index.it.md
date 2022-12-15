@@ -6,7 +6,7 @@ url: /it/reportingservices/aspose-cells-template-and-smart-markers/
 ---
 {{% alert color="primary" %}} 
 
-Un modello Aspose.Cells è una cartella di lavoro di Excel Microsoft che contiene marcatori intelligenti. Gli indicatori intelligenti fungono da segnaposto dei dati per gli elementi del report e vengono sostituiti con i dati corrispondenti al momento del rendering. Esistono cinque tipi di marcatori intelligenti, elencati di seguito. Tutti i marcatori possono essere inseriti in un modello da Aspose.Cells.Report.Designer. Il può anche essere modificato manualmente.
+Un modello Aspose.Cells è una cartella di lavoro di Microsoft Excel che contiene marcatori intelligenti. Gli indicatori intelligenti fungono da segnaposto dei dati per gli elementi del report e vengono sostituiti con i dati corrispondenti al momento del rendering. Esistono cinque tipi di marcatori intelligenti, elencati di seguito. Tutti i marcatori possono essere inseriti in un modello da Aspose.Cells.Report.Designer. Il può anche essere modificato manualmente.
 
 {{% /alert %}} 
 ### **Marcatori intelligenti**
@@ -19,7 +19,7 @@ Un modello Aspose.Cells è una cartella di lavoro di Excel Microsoft che contien
 #### **Indicatori dei parametri di Reporting Services**
  Un parametro di report ha due attributi: valore ed etichetta. Di conseguenza,**marcatori di parametri** hanno due formati: &= Parametri! ParamName.Value e &=Parametri! ParamName.Label. Indicano rispettivamente il nome e l'etichetta del parametro. Al momento del rendering, i contrassegni dei parametri vengono sostituiti con i valori dei parametri immessi dall'utente.
 #### **Formule dinamiche**
- Per eseguire calcoli su righe inserite, utilizzare formule dinamiche.**Formule dinamiche** consentono di inserire le formule di Excel Microsoft nelle celle anche quando una formula fa riferimento a righe che verranno inserite durante il processo di esportazione. Possono essere ripetuti per ogni riga inserita o utilizzati solo con le celle in cui sono posizionati i marcatori di dati per loro.
+ Per eseguire calcoli su righe inserite, utilizzare formule dinamiche.**Formule dinamiche** consentono di inserire le formule di Microsoft Excel nelle celle anche quando una formula fa riferimento a righe che verranno inserite durante il processo di esportazione. Possono essere ripetuti per ogni riga inserita o utilizzati solo con le celle in cui sono posizionati i marcatori di dati per loro.
 
 Il formato delle formule dinamiche è &=&=RepeatDynamicFormula.
 

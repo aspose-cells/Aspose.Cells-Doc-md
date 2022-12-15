@@ -12,4 +12,4 @@ url: /zh/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 - [在工作簿中复制工作表](/cells/zh/java/copy-sheet-within-workbook/)
 - [在工作簿中重新排序工作表](/cells/zh/java/re-order-sheets-within-workbook/)
 - [页眉和页脚](/cells/zh/java/header-and-footers/)
-- [使用 Apache POI 和 Aspose.Cells 的缩放系数](/cells/zh/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+- [使用 Apache POI 和 Aspose.Cells 的缩放因子](/cells/zh/java/zoom-factor-using-apache-poi-and-aspose-cells/)

@@ -5,7 +5,7 @@ weight: 10
 url: /sv/python-java/accessing-cells-of-a-worksheet/
 ---
 ## **Tillgång till Cells**
-Aspose.Cells för Python via Java låter dig komma åt celler i ett kalkylblad genom att använda cellnamnet eller genom att använda indexet för raden och kolumnen. Den här artikeln visar båda dessa metoder som används för att komma åt celler i ett kalkylblad
+Aspose.Cells for Python via Java låter dig komma åt celler i ett kalkylblad genom att använda cellnamnet eller genom att använda indexet för raden och kolumnen. Den här artikeln visar båda dessa metoder som används för att komma åt celler i ett kalkylblad
 ### **Åtkomst till cell med cellnamn**
 Följande kodsnutt visar åtkomst till cellen med cellens namn. Exempelkoden kommer åt cellen "C5" och skriver ut dess värde.
 

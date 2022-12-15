@@ -17,7 +17,7 @@ url: /es/java/aspose-cells-java-1-4-3-0-hot-fix-release-notes/
 - Admite agregar cuadros de texto, comentarios en tiempo de ejecución
 - Compatibilidad con las propiedades de los documentos
 - Configuración del punto del gráfico
-- Configuración del esquema en una hoja de cálculo
+- Configuración del esquema en una hoja de trabajo
 - Configuración de la posición y el tamaño del área del gráfico y del área de trazado del gráfico
 - Configuración de posición, relleno, color y tamaño de la forma.
 - Importación de datos de matriz y colección

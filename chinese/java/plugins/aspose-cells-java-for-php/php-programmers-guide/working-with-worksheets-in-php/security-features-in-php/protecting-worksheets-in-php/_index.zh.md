@@ -5,7 +5,7 @@ weight: 10
 url: /zh/java/protecting-worksheets-in-php/
 ---
 ## **Aspose.Cells - 保护工作表**
-保护工作表使用**Aspose.Cells Java 用于 PHP**， 称呼**保护工作表**的方法**保护**模块。
+保护工作表使用**Aspose.Cells Java for PHP**， 称呼**保护工作表**的方法**保护**模块。
 
 **PHP代码**
 

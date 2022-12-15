@@ -41,7 +41,7 @@ Questa tabella elenca alcuni dei problemi che potresti riscontrare durante il re
 
 |**Problema** |**Motivo** |**Soluzione** |
 |:- |:- |:- |
-| Il layout e i caratteri nel documento renderizzato sono diversi dall'originale.| Stai utilizzando Aspose.Cells su Linux o Mac OS dove i font TureType non sono presenti per impostazione predefinita, quindi Aspose.Cells non può individuare i font sul tuo computer.|Copia i file di font TrueType da una macchina Windows o installa un pacchetto di font TrueType. Utilizzare il metodo factory FontConfigs.setFontFolder per specificare la posizione dei file dei font.|
+| Il layout e i caratteri nel documento renderizzato sono diversi dall'originale.| Stai utilizzando Aspose.Cells su Linux o Mac OS dove i font TureType non sono presenti per impostazione predefinita, quindi Aspose.Cells non può individuare i font sul tuo computer.|Copia i file di font TrueType da un computer Windows o installa un pacchetto di font TrueType. Utilizzare il metodo factory FontConfigs.setFontFolder per specificare la posizione dei file dei font.|
 
 {{% alert color="primary" %}}
 

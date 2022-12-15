@@ -27,7 +27,7 @@ Estamos
  Excepciones
 
 - NullReferenceException al abrir/guardar un archivo XLSX
-- Excepción: hay demasiados formatos en la hoja de trabajo
+- Excepción: Hay demasiados formatos en la hoja de trabajo
 
  -La operación aritmetica resulto en un desbordamiento
 

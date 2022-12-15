@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 为 Python 通过 Java 22.5 发行说明
+title: Aspose.Cells for Python via Java 22.5 发行说明
 type: docs
 weight: 8
 url: /zh/python-java/aspose-cells-for-python-via-java-22-5-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含发行说明[Aspose.Cells 为 Python 通过 Java 22.5](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.5/).
+此页面包含发行说明[Aspose.Cells for Python via Java 22.5](https://downloads.aspose.com/cells/python-java/new-releases/aspose.cells-for-python-via-java-22.5/).
 
 {{% /alert %}}
 

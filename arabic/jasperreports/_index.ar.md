@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells لـ JasperReports
+title: Aspose.Cells for JasperReports
 type: docs
 weight: 100
 url: /ar/jasperreports/
@@ -9,20 +9,20 @@ is_root: true
 
 **! [todo: image_alt_text] (jasperreports_logo.png)**
 
-**مرحبًا بك في Aspose.Cells لتطبيق JasperReports**
+**مرحبا بكم في Aspose.Cells for JasperReports**
 
- Aspose.Cells لـ JasperReports هي مكتبة تعمل كبديل لـ[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library)مصدر Excel أصلي Microsoft ، مرفق ببعض التحسينات الرائعة. إنه يلغي التبعية على مكتبة POI ، ويستخدم Aspose.Cells for Java على النهاية الخلفية لتصدير التقارير بتنسيقات Microsoft Excel (XLS ، XLSX).
+ Aspose.Cells for JasperReports هي مكتبة تعمل كبديل ل[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library)مصدر Excel أصلي Microsoft ، مرفق ببعض التحسينات الرائعة. إنه يلغي التبعية على مكتبة POI ، ويستخدم Aspose.Cells for Java على النهاية الخلفية لتصدير التقارير بتنسيقات Microsoft Excel (XLS ، XLSX).
 
 {{% /alert %}}
 
-## **Aspose.Cells لـ JasperReports Resources**
+## **Aspose.Cells for JasperReports الموارد**
 
 فيما يلي روابط لبعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
 
-- [Aspose.Cells لوثائق JasperReports عبر الإنترنت](/cells/ar/jasperreports/)
-- [Aspose.Cells لميزات JasperReports](/cells/ar/jasperreports/feature-overview/)
-- [Aspose.Cells لملاحظات إصدار JasperReports](/cells/ar/jasperreports/release-notes/)
-- [Aspose.Cells لصفحة منتج JasperReports](https://products.aspose.com/cells/jasperreports/)
-- [تنزيل Aspose.Cells لـ JasperReports](https://downloads.aspose.com/cells/jasperreports)
-- [Aspose.Cells لـ JasperReports Free Support Forum](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells لمكتب دعم JasperReports المدفوع](https://helpdesk.aspose.com/)
+- [Aspose.Cells for JasperReports التوثيق عبر الإنترنت](/cells/ar/jasperreports/)
+- [Aspose.Cells for JasperReports الميزات](/cells/ar/jasperreports/feature-overview/)
+- [Aspose.Cells for JasperReports ملاحظات الإصدار](/cells/ar/jasperreports/release-notes/)
+- [Aspose.Cells for JasperReports صفحة المنتج](https://products.aspose.com/cells/jasperreports/)
+- [تحميل Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)
+- [Aspose.Cells for JasperReports منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for JasperReports مكتب مساعدة الدعم المدفوع](https://helpdesk.aspose.com/)

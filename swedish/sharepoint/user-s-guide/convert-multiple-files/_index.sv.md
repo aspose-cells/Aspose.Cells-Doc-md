@@ -8,7 +8,7 @@ url: /sv/sharepoint/convert-multiple-files/
 
 1.  Välj**Konvertera med Aspose.Cells** från ECB för din önskade mapp medan du bor i föräldern.
 
-Så här konverterar du flera filer:
+ Så här konverterar du flera filer:
 
 1.  Välj flera filer i biblioteket och välj**Konvertera med Aspose.Cells**. 
 
@@ -27,6 +27,6 @@ Så här konverterar du flera filer:
 ### **Använda Server Ribbon Button under SharePoint 2010**
  Under SharePoint 2010 är serverbandsknappen tillgänglig istället för den anpassade åtgärdsmenyn som används med SharePoint 2007 / WSS 3.
 
-**Konvertera dokument med Aspose.Cells för SharePoint på SharePoint 2010** 
+**Konvertera dokument med Aspose.Cells for SharePoint på SharePoint 2010** 
 
 ![todo:image_alt_text](convert-multiple-files_3.png)

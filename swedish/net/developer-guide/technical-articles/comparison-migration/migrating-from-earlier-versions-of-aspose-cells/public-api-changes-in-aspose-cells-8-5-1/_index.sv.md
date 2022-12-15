@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 8.5.1
+title: Offentlig API Ändringar i Aspose.Cells 8.5.1
 type: docs
 weight: 170
 url: /sv/net/public-api-changes-in-aspose-cells-8-5-1/
@@ -39,16 +39,16 @@ using (Workbook book = new Workbook())
 
 
 ### **Metod Cell.GetHeightOfValue Added**
- Aspose.Cells för .NET 8.5.1 har exponerat metoden Cell.GetHeightOfValue för att få höjden på cellvärdet. Genom att använda den här metoden kan du beräkna höjden på cellvärdet och sedan ställa in höjden på raden i den cellen. Kolla den detaljerade artikeln om[hur man beräknar cellens höjd och bredd](/cells/sv/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+ Aspose.Cells for .NET 8.5.1 har exponerat metoden Cell.GetHeightOfValue för att få höjden på cellvärdet. Genom att använda den här metoden kan du beräkna höjden på cellvärdet och sedan ställa in höjden på raden i den cellen. Kolla den detaljerade artikeln om[hur man beräknar cellens höjd och bredd](/cells/sv/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
 ### **Enumeration TableDataSourceType tillagd**
-Aspose.Cells för .NET 8.5.1 har avslöjat uppräkningen Aspose.Cells.Tables.TableDataSourceType för att hämta datakälltypen för ett ListObject. Uppräkningen av TableDataSourceType enligt följande fält.
+Aspose.Cells for .NET 8.5.1 har avslöjat uppräkningen Aspose.Cells.Tables.TableDataSourceType för att hämta datakällans typ för ett ListObject. Uppräkningen av TableDataSourceType enligt följande fält.
 
 1. TableDataSourceType.QueryTable
 1. TableDataSourceType.SharePoint
 1. TableDataSourceType.Worksheet
 1. TableDataSourceType.XML
 ### **Property ListObject.DataSourceType tillagd**
-Med utgåvan av v8.5.1 har API:et Aspose.Cells avslöjat den skrivskyddade ListObject.DataSourceType-egenskapen som kan användas för att detektera datakällans typ av ett ListObject.
+Med lanseringen av v8.5.1 har Aspose.Cells API avslöjat den skrivskyddade ListObject.DataSourceType-egenskapen som kan användas för att upptäcka datakällans typ för ett ListObject.
 
 Här är det enklaste användningsscenariot.
 

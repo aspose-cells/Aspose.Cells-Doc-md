@@ -13,7 +13,7 @@ Le barre di scorrimento sono utili per navigare nei contenuti di fogli di calcol
 
 Entrambi si trovano in Microsoft Excel.
 
-GridDesktop API di Aspose.Cell fornisce barre di scorrimento orizzontali e verticali per scorrere il contenuto di un foglio di lavoro. Con le API Aspose.Cells.GridDesktop, gli sviluppatori possono controllare la visibilità di entrambe queste barre di scorrimento.
+L'API GridDesktop di Aspose.Cell fornisce barre di scorrimento orizzontali e verticali per scorrere il contenuto di un foglio di lavoro. Con le API Aspose.Cells.GridDesktop, gli sviluppatori possono controllare la visibilità di entrambe queste barre di scorrimento.
 
 {{% /alert %}}
 

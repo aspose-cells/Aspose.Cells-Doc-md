@@ -1,12 +1,12 @@
 ﻿---
-title: Inserción y eliminación de comentarios Cell en una hoja de trabajo
+title: Inserción y eliminación de comentarios Cell en una hoja de cálculo
 type: docs
 weight: 30
 url: /es/net/inserting-and-removing-cell-comments-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Generalmente, los comentarios se utilizan para agregar información adicional a las celdas de una hoja de cálculo. Los usamos de vez en cuando y los eliminamos cuando ya no los necesitamos. Los comentarios son útiles si necesita documentar un valor particular o para recordar lo que hace una fórmula. Cuando mueve el puntero del mouse sobre una celda que tiene un comentario, el comentario aparece en un cuadro pequeño.
+Generalmente, los comentarios se utilizan para agregar información adicional a las celdas de una hoja de trabajo. Los usamos de vez en cuando y los eliminamos cuando ya no los necesitamos. Los comentarios son útiles si necesita documentar un valor particular o para recordar lo que hace una fórmula. Cuando mueve el puntero del mouse sobre una celda que tiene un comentario, el comentario aparece en un cuadro pequeño.
 
 En este artículo, comparamos cómo agregar y quitar comentarios de celdas usando VSTO y Aspose.Cells for .NET. Aspose.Cells for .NET funciona con archivos de Excel Microsoft independientemente de Office Automation y le brinda herramientas poderosas para crear y manipular hojas de cálculo.
 

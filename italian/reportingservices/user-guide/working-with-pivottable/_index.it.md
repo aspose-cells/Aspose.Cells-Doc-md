@@ -6,15 +6,15 @@ url: /it/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- UN*tabella pivot* è una tabella interattiva che riassume i dati e li presenta in modo significativo. SQL Server Reporting Services non può esportare un report nel formato Excel di Microsft mantenendo una tabella pivot. Gli utenti dei report devono creare manualmente tabelle pivot ogni volta che esportano un report tabella pivot da Reporting Services a Microsoft Excel. Con Aspose.Cells per Reporting Services, puoi progettare una tabella pivot una sola volta al momento della progettazione del report. Ogni volta che viene eseguito il report, Aspose.Cells per Reporting Services esporta il report in Microsoft Excel e aggiorna i dati nella tabella pivot.
+ UN*tabella pivot* è una tabella interattiva che riassume i dati e li presenta in modo significativo. SQL Server Reporting Services non può esportare un report nel formato Excel di Microsft mantenendo una tabella pivot. Gli utenti dei report devono creare manualmente tabelle pivot ogni volta che esportano un report tabella pivot da Reporting Services a Microsoft Excel. Con Aspose.Cells for Reporting Services, puoi progettare una tabella pivot una sola volta al momento della progettazione del report. Ogni volta che viene eseguito il report, Aspose.Cells for Reporting Services esporta il report in Microsoft Excel e aggiorna i dati nella tabella pivot.
 
 {{% /alert %}} 
 
 Per creare un rapporto tabella pivot:
 
 1. Crea un set di dati come origine dati per la tabella pivot.
-Di seguito viene utilizzato il database di esempio AdventureWorks fornito con SQL Server Reporting Services 2005 e viene creato un set di dati denominato "sales".
- L'SQL per il set di dati è il seguente:
+ Di seguito viene utilizzato il database di esempio AdventureWorks fornito con SQL Server Reporting Services 2005 e viene creato un set di dati denominato "sales".
+L'SQL per il set di dati è il seguente:
 
 **SQL**
 
@@ -64,7 +64,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-1.  In Microsoft Excel, dal**Inserire** menù, selezionare**Nome** poi**Definire**.
+1.  In Microsoft Excel, dal file**Inserire** menù, selezionare**Nome** poi**Definire**.
 1. Definire un nome come "vendite".
  L'intervallo del nome inizia con la prima cella del titolo dell'intestazione e termina con l'ultima cella della riga di dati della tabella, come mostrato di seguito.
 
@@ -77,7 +77,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 1. Crea un nuovo foglio per la tabella pivot.
 1.  Dal**Dati** menù, selezionare**Rapporto tabella pivot e grafico pivot** per aggiungere una tabella pivot.
  Viene visualizzata una finestra di dialogo.
-1.  Selezionare**Microsoft Elenco o database di Office Excel** come fonte di dati e**tabella pivot** come tipo di rapporto.
+1.  Selezionare**Elenco o database di Microsoft Office Excel** come fonte di dati e**tabella pivot** come tipo di rapporto.
 1.  Clic**Prossimo** continuare.
 
 ![cose da fare:immagine_alt_testo](working-with-pivottable_3.png)
@@ -106,7 +106,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-La tabella pivot progettata è mostrata di seguito.
+ La tabella pivot progettata è mostrata di seguito.
 
 ![cose da fare:immagine_alt_testo](working-with-pivottable_7.png)
 

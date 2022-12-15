@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java för Ruby
+title: Aspose.Cells Java För Ruby
 type: docs
 weight: 40
 url: /sv/java/aspose-cells-java-for-ruby/
@@ -9,12 +9,12 @@ url: /sv/java/aspose-cells-java-for-ruby/
 ### **Rjb - Ruby Java Bridge**
 RJB är ett bryggprogram som ansluter mellan Ruby och Java med Java Native Interface. Rake + Rjb är det kraftfullare och mer användbara byggverktyget än både Maven och Ant. Du kan testa din Java affärslogikklass själv med Rjbs mock. Det hjälper till att migrera Struts modellobjekt till din RoR-applikation. Men se upp med buildSwing-applikationen, Ruby (och Rjb) anser inte att JVM:s inbyggda trådar hanterar...
 
-### **Aspose.Cells för Java**
-Aspose.Cells för Java är en prisbelönt Excel-kalkylbladskomponent som låter Java-utvecklare bädda in möjligheten att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF- och bildfilformat till sina egna Java-applikationer utan att behöva lita på Microsoft Excel®.
+### **Aspose.Cells for Java**
+Aspose.Cells for Java är en prisbelönt Excel-kalkylbladskomponent som gör det möjligt för Java-utvecklare att bädda in förmågan att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML), HTML, ODS, PDF, ODS, PDF och bildfilformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
 
-Aspose.Cells för Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver de enkla dataexporteringsmöjligheterna hos andra leverantörer. Med Aspose.Cells för Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel ® eller Microsoft Office Automation.
+Aspose.Cells for Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver andra leverantörers enkla dataexporteringsmöjligheter. Med Aspose.Cells for Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel® eller Microsoft Office Automation.
 ### **Aspose.Cells Java för Ruby**
-Projekt Aspose.Cells Java för Ruby visar hur olika uppgifter kan utföras med Aspose.Cells Java API:er i Ruby. Detta projekt syftar till att ge användbara exempel för Ruby-utvecklare som vill använda Aspose.Cells för Java i sina Ruby-projekt med Rjb (Ruby Java Bridge).
+Projekt Aspose.Cells Java för Ruby visar hur olika uppgifter kan utföras med Aspose.Cells Java API:er i Ruby. Detta projekt syftar till att ge användbara exempel för Ruby-utvecklare som vill använda Aspose.Cells for Java i sina Ruby-projekt med Rjb (Ruby Java Bridge).
 ## **Systemkrav och plattformar som stöds**
 ### **Systemkrav**
 **Följande är systemkraven för att använda Aspose.Cells Java för Ruby:**
@@ -25,12 +25,12 @@ Projekt Aspose.Cells Java för Ruby visar hur olika uppgifter kan utföras med A
 **Följande är de plattformar som stöds:**
 
 - Ruby 2.2.x eller högre och respektive DevKit.
-- Java 1.5 eller högre
+- Java 1,5 eller högre
 ## **Nedladdningar**
 ### **Ladda ner obligatoriska bibliotek**
-Ladda ner nödvändiga bibliotek som nämns nedan. Dessa är nödvändiga för att exekvera Aspose.Cells Java för Ruby-exempel.
+Ladda ner nödvändiga bibliotek som nämns nedan. Dessa är nödvändiga för att köra Aspose.Cells Java för Ruby-exempel.
 
-- [Aspose.Cell för Java-komponent](https://downloads.aspose.com/cells/java/)
+- [Aspose.Cell for Java Komponent](https://downloads.aspose.com/cells/java/)
 ### **Ladda ner exempel från webbplatser för social kodning**
 Följande versioner av löpande exempel finns att ladda ner på nedan nämnda webbplatser för social kodning:
 
@@ -59,7 +59,7 @@ Det är väldigt enkelt och lätt att installera Aspose.cells Java för Ruby gem
 
 **ELLER**
 
-1. Kör följande kommando.
+1.  Kör följande kommando.
 
 {{< highlight "java" >}}
 
@@ -92,7 +92,7 @@ Från de allra första dagarna av Aspose visste vi att det inte skulle räcka at
 
 Det är därför vi erbjuder gratis support. Alla som använder vår produkt, oavsett om de har köpt dem eller använder en utvärdering, förtjänar vår fulla uppmärksamhet och respekt.
 
-Du kan logga alla problem eller förslag relaterade till Aspose.Cells Java for Ruby med någon av följande plattformar:
+Du kan logga eventuella problem eller förslag relaterade till Aspose.Cells Java för Ruby med någon av följande plattformar:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 ### **Utöka och bidra**

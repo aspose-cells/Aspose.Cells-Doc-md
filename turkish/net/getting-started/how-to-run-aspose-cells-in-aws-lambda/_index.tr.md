@@ -28,7 +28,7 @@ url: /tr/net/how-to-run-aspose-cells-in-aws-lambda/
 1. Visual Studio'da bir ASP.NET Çekirdek Web Uygulaması oluşturun, test kodu yazın, nuget'den Aspose.Cells'i alın.
 
 1. Test projesinin yerel makinenizde iyi çalıştığından emin olun, ardından onu AWS Elastic Beanstalk'a dağıtın:
- Proje adına sağ tıklayın, "AWS Elastic Beanstalk'ta Yayınla"yı seçin. (Bu seçenek yalnızca AWS Toolkit for Visual Studio'yu yükledikten sonra mevcut olacaktır).
+Proje adına sağ tıklayın, "AWS Elastic Beanstalk'ta Yayınla"yı seçin. (Bu seçenek yalnızca AWS Toolkit for Visual Studio'yu yükledikten sonra mevcut olacaktır).
 1.  AWS hesabınız ve IAM kullanıcınızla yeni bir kullanıcı eklemeniz gerekecek, önceki adımda aldığınız "credentials.csv" dosyasını içe aktarabilirsiniz.
 1. Yayın başarılı, şöyle bir link adresi alacaksınız: `http://testprojectaspose-test.us-west-2.elasticbeanstalk.com/`
  Bağlantının etkinleşmesi için 10 dakika bekleyin, ardından ziyaret edebilirsiniz!

@@ -57,7 +57,7 @@ Aspose .NET Content Exporter for Sitefinity modülünü aşağıdaki konumlardan
 
 Lütfen indirilen ZIP dosyasını çıkartın. Aşağıdakileri gerçekleştirmek için FTP'ye veya sunucudaki Sitefinity kurulum klasörüne doğrudan erişime ihtiyacınız olacak:
 
-1.  Kopyala**Aspose.Cells.dll** & **Aspose.Sitefinity.FormBuilder.dll**Sitefinity kurulumunun bin klasörü klasörüne.
+1.  kopyala**Aspose.Cells.dll** & **Aspose.Sitefinity.FormBuilder.dll**Sitefinity kurulumunun bin klasörü klasörüne.
 1. Kopyala**Eklentiler**Sitefinity kurulumunun kök dizinindeki klasör**çöp Kutusu**klasör bulunur.
 
 **2. Adım: Aspose Sitefinity İçerik Dışa Aktarma eklentisini Sitefinity'ye kaydedin**
@@ -102,7 +102,7 @@ Aspose.Cells Sitefinity için Dinamik Form Oluşturucu modülünü sayfanıza ba
 
 #### **Aspose Lisans başvurusu nasıl yapılır?**
 
-Bu Eklenti, Aspose.Cells'in bir değerlendirme sürümünü kullanır. Değerlendirmenizden memnun kaldığınızda, şu adresten bir lisans satın alabilirsiniz:[Aspose Satın Alma Sitesi](https://purchase.aspose.com/buy).
+ Bu Eklenti, Aspose.Cells'in bir değerlendirme sürümünü kullanır. Değerlendirmenizden memnun kaldığınızda, şu adresten bir lisans satın alabilirsiniz:[Aspose Satın Alma Sitesi](https://purchase.aspose.com/buy).
 Değerlendirme mesajını ve özellik sınırlamalarını kaldırmak için ürün lisansı uygulanmalıdır. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lisansı uygulamak için lütfen aşağıdaki adımları izleyin
 
 -  Lisans dosyasının şu şekilde adlandırıldığından emin olun:**Aspose.Total.lic**

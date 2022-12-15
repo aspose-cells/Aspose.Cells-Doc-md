@@ -12,7 +12,7 @@ Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslara sahip f
 ## **Microsoft Excel ile Satırları ve Sütunları Kopyalama**
 
 1. Kopyalamak istediğiniz satırı veya sütunu seçin.
-1.  Satırları veya sütunları kopyalamak için tıklayın**Kopyala** üzerinde**Standart** araç çubuğu veya tuşuna basın**CTRL**+**C**.
+1.  Satırları veya sütunları kopyalamak için tıklayın**kopyala** üzerinde**Standart** araç çubuğu veya tuşuna basın**CTRL**+**C**.
 1. Seçiminizi kopyalamak istediğiniz yerin altından veya sağından bir satır veya sütun seçin.
 1.  Satırları veya sütunları kopyalarken,**Cells kopyalandı** üzerinde**Sokmak** Menü.
 
@@ -25,7 +25,7 @@ Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslara sahip f
 ## **Microsoft Excel ile Yapıştırma Seçeneklerini Kullanarak Satırları ve Sütunları Yapıştırma**
 
 1. Kopyalamak istediğiniz verileri veya diğer öznitelikleri içeren hücreleri seçin.
-1.  Giriş sekmesinde,**Kopyala**.
+1.  Giriş sekmesinde,**kopyala**.
 1.  İstediğiniz alandaki ilk hücreye tıklayın.**yapıştırmak** ne kopyaladın
 1.  Giriş sekmesinde, yanındaki oka tıklayın.**Yapıştırmak** ve ardından seçin**Yapıştırmak** Özel.
 1.  seçin**seçenekler** İstediğiniz.

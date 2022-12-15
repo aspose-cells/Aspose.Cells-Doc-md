@@ -8,7 +8,7 @@ description: توضح هذه المقالة كيفية استخدام مكتبة
 # العمل مع جانب خادم GridJs
 
 ## 1. تنفيذ GridCacheForStream
-لتخزين الملفات المحلية ، هذا مثال:
+بالنسبة لتخزين الملفات المحلية ، إليك مثال:
 
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "LocalFileCache.cs" >}}
 

@@ -14,7 +14,7 @@ url: /fr/net/returning-a-range-of-values-using-abstractcalculationengine/
 
  Le code suivant illustre l'utilisation du[**RésuméCalculMoteur**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) classe et renvoie la plage de valeurs via sa méthode.
 
-Créer une classe avec une fonction*CalculateCustomFunction*. Cette classe implémente[**RésuméCalculMoteur**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+ Créer une classe avec une fonction*CalculateCustomFunction*. Cette classe implémente[**RésuméCalculMoteur**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 

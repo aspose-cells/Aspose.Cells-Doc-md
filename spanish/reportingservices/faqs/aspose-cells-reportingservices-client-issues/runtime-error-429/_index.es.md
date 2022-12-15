@@ -15,7 +15,7 @@ url: /es/reportingservices/runtime-error-429/
  volver a registrarse**Aspose.Cells.ReportingServices.Client.dll** utilizando el**Regasm.exe** utilidad:
 
 1. Ejecute cmd.exe como administrador.
-1. cd $(Aspose.Cells para la carpeta de instalación de Reporting Services).
+1. cd $(Aspose.Cells for Reporting Services carpeta de instalación).
 1.  Ejecutar**regasm.exe** registrarse**Aspose.Cells.ReportingServices.Client.dll** a mano.
 
 {{< highlight "java" >}}

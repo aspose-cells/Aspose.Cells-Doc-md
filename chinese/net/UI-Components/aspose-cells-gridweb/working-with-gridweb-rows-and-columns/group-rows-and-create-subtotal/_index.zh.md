@@ -29,7 +29,7 @@ Aspose.Cells.GridWeb 还允许您根据任何数据字段创建小计。小计�
 
 **分组行** 
 
-![待办事项：图片_替代_文本](group-rows-and-create-subtotal_1.png)
+![待办事项：图像_替代_文本](group-rows-and-create-subtotal_1.png)
 
 
 
@@ -49,7 +49,7 @@ sheet.Cells.GroupRows(1, 9);
 
 **分组行** 
 
-![待办事项：图片_替代_文本](group-rows-and-create-subtotal_2.png)
+![待办事项：图像_替代_文本](group-rows-and-create-subtotal_2.png)
 
 
 
@@ -148,7 +148,7 @@ sheet.Cells.UngroupRows(1, 9); 
 
 **小计** 
 
-![待办事项：图片_替代_文本](group-rows-and-create-subtotal_3.png)
+![待办事项：图像_替代_文本](group-rows-and-create-subtotal_3.png)
 
 
 

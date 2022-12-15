@@ -1,12 +1,12 @@
 ﻿---
-title: Raporlama Hizmetleri 1.7.0 Sürüm Notları için Aspose.Cells
+title: Aspose.Cells for Reporting Services 1.7.0 Sürüm Notları
 type: docs
 weight: 10
 url: /tr/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Bu sayfa için sürüm notları içerir[Raporlama Hizmetleri 1.7.0 için Aspose.Cells](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
+ Bu sayfa için sürüm notları içerir[Aspose.Cells for Reporting Services 1.7.0](https://downloads.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-1.7.0/)
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
  Ne var ne yok?
 
-- Raporlama Hizmetleri tasarımcısı için Aspose.Cells, Excel'de matris şablonu oluşturmayı destekler.
+- Aspose.Cells for Reporting Services tasarımcı, Excel'de matris şablonu oluşturmayı destekler.
 - Tablo ve matris rapor öğeleri için Koşullu Biçimlendirmeyi destekler.
 - SQL Server 2008 Raporlama Servislerinde yalnızca CSV ve TXT formatları için işleme tablix rapor öğesi ekler.
 
@@ -26,11 +26,11 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-- Raporlama Hizmetleri rapor tasarımcısı ve rapor biçimi hatası için Aspose.Cells düzeltildi.
+- Aspose.Cells for Reporting Services rapor tasarımcısı ve rapor biçimi hatası düzeltildi.
 - Gizleme satırı hatası düzeltildi.
 - Satır birleştirme algoritması düzeltildi.
 
- Raporlama Hizmetleri 1.7.0 için Aspose.Cells'de Çözülen Sorunlar.
+ Aspose.Cells for Reporting Services 1.7.0'de Çözülen Sorunlar.
 
 
 

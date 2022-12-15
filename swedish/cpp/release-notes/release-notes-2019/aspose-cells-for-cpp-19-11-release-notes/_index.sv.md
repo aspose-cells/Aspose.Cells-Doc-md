@@ -6,7 +6,7 @@ url: /sv/cpp/aspose-cells-for-cpp-19-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller utgåvor för Aspose.Cells för C++ 19.11.
+Den här sidan innehåller utgåvor för Aspose.Cells for C++ 19.11.
 
 {{% /alert %}} 
 
@@ -14,8 +14,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells för C++ 19.11.
 |:- |:- |:- |
 |CELLSCPP-218|Stöd för att lägga till någon slags återuppringningshändelse/mekanism som meddelar konverteringens fortskridande (t.ex. Excel till PDF)|Ny funktion|
 |CELLSCPP-220|Fixa x64 debug mode crush samtidigt som du integrerar andra C++-produkter|Ny funktion|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, omdöpta, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells för C++. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for C++. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 Lägg till IPdfSaveOptions::SetIPageSavingCallback
 Lägg till IPdfSaveOptions::GetIPageSavingCallback

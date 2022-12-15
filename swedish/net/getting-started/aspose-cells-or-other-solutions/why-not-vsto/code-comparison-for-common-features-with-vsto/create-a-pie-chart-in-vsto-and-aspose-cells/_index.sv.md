@@ -4,14 +4,14 @@ type: docs
 weight: 80
 url: /sv/net/create-a-pie-chart-in-vsto-and-aspose-cells/
 ---
-Den här artikeln jämför hur man skapar ett cirkeldiagram med Office Automation och VSTO med att använda Aspose.Cells för .NET. Stegen för att skapa ett cirkeldiagram är:
+Den här artikeln jämför hur man skapar ett cirkeldiagram med Office Automation och VSTO med att använda Aspose.Cells for .NET. Stegen för att skapa ett cirkeldiagram är:
 
 1. Skapa en arbetsbok och ett arbetsblad.
 1. Lägger till exempeldata.
 1. Hänvisning till produkter Diagram.
 1. Lägga till ett cirkeldiagram, definiera dataintervallet och diagrammets titel.
 1. Sparar kalkylark.
- Kodexemplen i den här artikeln visar hur man lägger till ett cirkeldiagram med VSTO, med antingen C#, jämfört med att skapa ett med Aspose.Cells, igen med antingen C#.
+Kodexemplen i den här artikeln visar hur man lägger till ett cirkeldiagram med VSTO, med antingen C#, jämfört med att skapa ett med Aspose.Cells, återigen med antingen C#.
 ## **VSTO**
 {{< highlight "csharp" >}}
 

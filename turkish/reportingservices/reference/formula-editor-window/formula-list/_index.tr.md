@@ -8,7 +8,7 @@ url: /tr/reportingservices/formula-list/
 
 |**Set Adı** |**Formül Adı**|**Tanım**|
 |:- |:- |:- |
-| Küresel alanlar| Uygulama vakti| Raporun çalışmaya başladığı tarih ve saat.|
+| Küresel alanlar| Uygulama vakti|Raporun çalışmaya başladığı tarih ve saat.|
 || RaporSunucuUrl'si| Raporun çalıştırıldığı rapor sunucusunun URL'si.|
 || Rapor Adı| Raporun, rapor sunucusu veritabanında saklandığı şekliyle adı.|
 || Rapor Klasörü| Raporu içeren klasörün tam yolu. Bu, rapor sunucusu URL'sini içermez.|
@@ -30,7 +30,7 @@ Aritmetik işleçler, başka bir sayı elde etmek için sayıları, sayısal de�
 ||* | Çarpma, örneğin 2*3.|
 ||/ | Bölme, örneğin 2/3.|
 ||\\\ | Tamsayı bölümü, örneğin 2\\\3.|
-|| Mod| Modül, örneğin 4 Mod 3.|
+|| mod| Modül, örneğin 4 Mod 3.|
 ||+ | Toplama, örneğin 4 + 3.|
 ||- | Çıkarma, örneğin 4 – 3.|
 | Karşılaştırmak|< | Daha az, örneğin 4< 3 false. |
@@ -42,7 +42,7 @@ Aritmetik işleçler, başka bir sayı elde etmek için sayıları, sayısal de�
 || Beğenmek|Bir diziyi bir modelle karşılaştırır. Örneğin sonuç = string Benzer kalıp.|
 || Dır-dir| İki nesne referans değişkenini karşılaştırır, örneğin asp Is aspose.|
 | birleştirme|& | İki ifadeden oluşan bir dizi birleştirme oluşturur.|
-||+ | İki sayı ekler veya bir sayısal ifadenin pozitif değerini verir. İki dize ifadesini birleştirmek için de kullanılabilir.|
+||+ | İki sayı ekler veya bir sayısal ifadenin pozitif değerini döndürür. İki dize ifadesini birleştirmek için de kullanılabilir.|
 | Mantıksal/Bitsel| Ve| İki Boole ifadesinde mantıksal bağlaç veya iki sayısal ifadede bit düzeyinde bağlaç gerçekleştirir.|
 || Değil| Bir Boole ifadesinde mantıksal olumsuzlama veya sayısal bir ifadede bit düzeyinde olumsuzlama gerçekleştirir.|
 || Veya| İki Boole ifadesinde mantıksal ayırma veya iki sayısal ifadede bit düzeyinde ayırma gerçekleştirir.|

@@ -5,7 +5,7 @@ weight: 70
 url: /tr/python-java/export-print-area-range-to/
 ---
 ## **Yazdırma alanı aralığını HTML'ye aktar**
-Python üzerinden Java için Aspose.Cells, yalnızca yazdırma alanının, yani tüm hücre yerine seçili hücre aralığının HTML'ye aktarılmasını destekler. Bunun için API,[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) Emlak. Bu özellik şu şekilde ayarlanıyor:**Doğru** yalnızca yazdırma alanını dışa aktarır.
+Aspose.Cells for Python via Java, yalnızca yazdırma alanının, yani tüm hücre yerine seçili hücre aralığının HTML'ye aktarılmasını destekler. Bunun için API,[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly) Emlak. Bu özellik şu şekilde ayarlanıyor:**Doğru** yalnızca yazdırma alanını dışa aktarır.
 
 Aşağıdaki örnek kod,[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly)yalnızca yazdırma alanını HTML'ye dışa aktarma özelliği.
 

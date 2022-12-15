@@ -10,7 +10,7 @@ Du kan ändra språket för Excel-filen genom att högerklicka på filen och sed
 
 ## **Ange språket för Excel-filen med inbyggda dokumentegenskaper**
 
-Följande exempelkod skapar en arbetsbok och ändrar dess inbyggda dokumentegenskap som heter Language. Vänligen se[utdata Excel-fil](64716891.xlsx) genereras av koden och skärmdumpen som visar det ändrade språkfältet av[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)fast egendom.
+ Följande exempelkod skapar en arbetsbok och ändrar dess inbyggda dokumentegenskap som heter Language. Vänligen se[utdata Excel-fil](64716891.xlsx) genereras av koden och skärmdumpen som visar det ändrade språkfältet av[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)fast egendom.
 
 ![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 

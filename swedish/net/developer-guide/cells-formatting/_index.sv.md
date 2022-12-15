@@ -37,9 +37,9 @@ Detta tillvägagångssätt kan avsevärt förbättra effektiviteten för dina ap
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingStyleObject-1.cs" >}}
 
-### **Använda Microsoft Excel 2007 fördefinierade stilar**
+### **Använder Microsoft Excel 2007 fördefinierade stilar**
 
-Om du behöver använda olika formateringsstilar för Microsoft Excel 2007, tillämpa stilar med Aspose.Cells API. Ett exempel ges nedan för att demonstrera detta tillvägagångssätt för att tillämpa en fördefinierad stil på en cell.
+Om du behöver använda olika formateringsstilar för Microsoft Excel 2007, tillämpa stilar med hjälp av Aspose.Cells API. Ett exempel ges nedan för att demonstrera detta tillvägagångssätt för att tillämpa en fördefinierad stil på en cell.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingExcelPredefinedStyles-1.cs" >}}
 
@@ -55,7 +55,7 @@ Aspose.Cells stöder också denna funktion. Det här ämnet förklarar hur vi an
 
  Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
 
- De[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass ger[**Tecken**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)metod som använder följande parametrar för att välja ett teckenintervall inuti en cell:
+ De[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass ger[**Tecken**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)metod som använder följande parametrar för att välja ett teckenintervall inuti en cell:
 
 - **Starta index**, indexet för tecknet som valet startar från.
 - **Antal tecken**, antalet tecken att välja.

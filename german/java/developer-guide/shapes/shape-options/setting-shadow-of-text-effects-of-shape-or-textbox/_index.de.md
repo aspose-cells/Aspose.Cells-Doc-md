@@ -18,7 +18,7 @@ url: /de/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
 {{% /alert %}} 
 ## **Festlegen des Schattens von Texteffekten von Form oder TextBox**
- Der folgende Screenshot zeigt die[Excel-Datei ausgeben](5473446.xlsx) generiert mit dem folgenden Beispielcode. Der Screenshot zeigt auch den Wert der**Schatten** was eingestellt wurde als**Versatz unten**.
+Der folgende Screenshot zeigt die[Excel-Datei ausgeben](5473446.xlsx) generiert mit dem folgenden Beispielcode. Der Screenshot zeigt auch den Wert der**Schatten** was eingestellt wurde als**Versatz unten**.
 
 ![todo: Bild_alt_Text](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 

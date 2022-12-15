@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells لنظام Android عبر Java 19.12 ملاحظات الإصدار
+title: Aspose.Cells for Android via Java 19.12 ملاحظات الإصدار
 type: docs
 weight: 10
 url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells لنظام Android عبر Java 19.12.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Cells for Android via Java 19.12.
 
 {{% /alert %}} 
 
@@ -54,7 +54,7 @@ url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-43060|استثناء "java.lang.NullPointerException" في Workbook.save بعد تعيين مصدر البيانات الخارجية على أنه فارغ|استثناء|
 |CELLSJAVA-42923|استثناءات أثناء تحميل مستند XLS|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
-فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء الذين تمت إضافتهم أو إعادة تسميتهم أو إزالة أو إهمالهم بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells لنظام Android عبر Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى ارفعه في منتدى الدعم Aspose.Cells.
+فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على via Java for Android Aspose.Cells Aspose.Cells. في منتدى الدعم Aspose.Cells.
 ### **يضيف Cells.RemoveDuplicates ()**
 يزيل البيانات المكررة من النطاق.
 ### **إضافة خاصية OleObject.FullObjectBin**
@@ -104,7 +104,7 @@ url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ### **حذف خاصية DataLabels.IsLegendKeyShown القديمة**
 استخدم خاصية DataLabels.ShowLegendKey بدلاً من ذلك.
 ### **يضيف خيار LoadOptions.KeepUnparsedData**
-يشير الخيار إلى ما إذا كان سيتم الاحتفاظ بالبيانات التي لم يتم تحليلها في الذاكرة للمصنف عند تحميله من ملف قالب. إذا لم يكن المستخدمون بحاجة إلى حفظ المصنف بالكامل مرة أخرى ، خاصةً عندما يحتاجون فقط إلى قراءة بعض المحتوى الخاص بالمصنف (مثل نوع من LoadFilter) ، فلن تكون هناك حاجة إلى البيانات غير الموزعة بعد الآن وقد يقومون بتعيين هذه الخاصية على أنها خاطئة للحصول على أداء أفضل. بالنسبة للإصدارات القديمة ، عند تحميل المصنف من ملف قالب باستخدام LoadFilter المحدد من قبل المستخدم ، لا يتم الاحتفاظ بالبيانات غير المحللة للنظر في الأداء. نقدم الآن هذا الخيار ونجعل قيمته الافتراضية صحيحة ، فقد يؤثر ذلك على أداء حالات المستخدمين لاستخدام LoadFilter. إذا كان الأمر كذلك ، يجب على المستخدمين تعيين هذه الخاصية على أنها خطأ بشكل صريح في تطبيقاتهم.
+يشير الخيار إلى ما إذا كان سيتم الاحتفاظ بالبيانات التي لم يتم تحليلها في الذاكرة للمصنف عند تحميله من ملف قالب. إذا لم يكن المستخدمون بحاجة إلى حفظ المصنف بالكامل مرة أخرى ، خاصةً عندما يحتاجون فقط إلى قراءة بعض المحتوى الخاص بالمصنف (مثل نوع من LoadFilter) ، فلن تكون هناك حاجة إلى البيانات غير الموزعة بعد الآن وقد يقومون بتعيين هذه الخاصية على أنها خاطئة للحصول على أداء أفضل. بالنسبة للإصدارات القديمة ، عند تحميل المصنف من ملف قالب باستخدام LoadFilter المحدد من قبل المستخدم ، لم يتم الاحتفاظ بالبيانات غير المحللة للنظر في الأداء. نقدم الآن هذا الخيار ونجعل قيمته الافتراضية صحيحة ، فقد يؤثر ذلك على أداء حالات المستخدمين لاستخدام LoadFilter. إذا كان الأمر كذلك ، يجب على المستخدمين تعيين هذه الخاصية على أنها خطأ بشكل صريح في تطبيقاتهم.
 ### **يضيف خيار LoadDataFilterOptions.Picture**
 الخيار الذي يشير إلى ما إذا كان يجب تحميل الصورة.
 ### **يضيف خيار LoadDataFilterOptions.OleObject**
@@ -115,7 +115,7 @@ url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 الرجاء استخدام (LoadDataFilterOptions.Drawing & ~ LoadDataFilterOptions.Chart) بدلاً من LoadDataFilterOptions.Shape.
 ### **يضيف فئة FormulaParseOptions**
 يوفر خيارات المستخدم لإعداد الصيغ.
-### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (سلسلة sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
+### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (string sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
 يضبط الصيغ مع الخيارات.
 ### **الطرق القديمة: Cell.SetFormula (صيغة سلسلة ، منطقي هو R1C1 ، منطقي isLocal ، قيمة الكائن) ، SetArrayFormula (string arrayFormula ، int rowNumber ، int columnNumber ، bool isR1C1 ، bool isLocal) ، SetSharedFormula (string sharedFormula، int rowNumber ، int row) isR1C1 ، منطقي isLocal)**
 الرجاء استخدام الطرق المقابلة مع FormulaParseOptions بدلاً من ذلك.

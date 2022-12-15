@@ -16,8 +16,8 @@ Ibland har du en länkad form i din Excel-fil som är länkad till någon cell. 
 
 ![todo:image_alt_text](refresh-values-of-linked-shapes_1.jpg)
 
-Du kan ladda ner[källfil för Excel](95584291.xlsx) och den[mata ut PDF](95584292.pdf) från de angivna länkarna.
+Du kan ladda ner[käll Excel-fil](95584291.xlsx) och den[mata ut PDF](95584292.pdf) från de angivna länkarna.
 
-### C#-kod för att uppdatera värdena för länkade former
+### C# kod för att uppdatera värdena för länkade former
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}

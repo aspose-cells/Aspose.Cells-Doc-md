@@ -7,7 +7,7 @@ url: /it/java/opening-files-with-different-formats/
 ---
 {{% alert color="primary" %}}
 
-Gli sviluppatori utilizzano Aspose.Cells per aprire file per scopi diversi. Ad esempio, apri un file per recuperare i dati da esso o utilizza un file di foglio di calcolo predefinito per designer per velocizzare il processo di sviluppo. Aspose.Cells consente agli sviluppatori di aprire diversi tipi di file sorgente. Questi file di origine possono essere Microsoft report Excel, SpreadsheetML, file con valori separati da virgola (CSV), delimitati da tabulazioni o con valori separati da tabulazioni (TSV). Questo articolo discute l'apertura di questi diversi file di origine utilizzando Aspose.Cells.
+Gli sviluppatori utilizzano Aspose.Cells per aprire file per scopi diversi. Ad esempio, apri un file per recuperare i dati da esso o utilizza un file di foglio di calcolo predefinito per designer per velocizzare il processo di sviluppo. Aspose.Cells consente agli sviluppatori di aprire diversi tipi di file sorgente. Questi file di origine possono essere report di Microsoft Excel, SpreadsheetML, file con valori separati da virgola (CSV), delimitati da tabulazioni o con valori separati da tabulazioni (TSV). Questo articolo illustra l'apertura di questi diversi file di origine utilizzando Aspose.Cells.
 
 Se hai bisogno di conoscere tutti i formati di file supportati, fai riferimento alle seguenti pagine:
 [Formati di file supportati](https://docs.aspose.com/cells/java/supported-file-formats/)
@@ -18,7 +18,7 @@ Se hai bisogno di conoscere tutti i formati di file supportati, fai riferimento 
 
 ### **Apertura attraverso il percorso**
 
-Per aprire un file Excel Microsoft utilizzando il percorso del file, passare il percorso del file come parametro durante la creazione dell'istanza del**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**classe. Il codice di esempio seguente illustra l'apertura di un file di Excel utilizzando il percorso del file.
+Per aprire un file Microsoft Excel utilizzando il percorso file, passare il percorso del file come parametro durante la creazione dell'istanza di**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**classe. Il codice di esempio seguente illustra l'apertura di un file di Excel utilizzando il percorso del file.
 
 #### **Esempio**
 
@@ -32,7 +32,7 @@ A volte, il file Excel che desideri aprire viene archiviato come flusso. In tal 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningFilesThroughStream-OpeningFilesThroughStream.java" >}}
 
-### **Apertura di file di diverse versioni di Excel Microsoft**
+### **Apertura di file di diverse versioni di Microsoft Excel**
 
  L'utente può utilizzare il**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** class per specificare il formato del file Excel utilizzando l'**[Carica formato](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**enumerazione.
 
@@ -54,9 +54,9 @@ A volte, il file Excel che desideri aprire viene archiviato come flusso. In tal 
 |HTML|Rappresenta un file HTML|
 |HTML|Rappresenta un file MHTML|
 
-### **Apertura di file Excel 95/5.0 Microsoft**
+### **Apertura di file Microsoft Excel 95/5.0**
 
- Per aprire i file Excel 95 Microsoft, creare un'istanza del file**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**instance con il percorso o il flusso del file modello. Il file di esempio per testare il codice può essere scaricato dal seguente link:
+ Per aprire i file di Microsoft Excel 95, creare un'istanza del file**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**instance con il percorso o il flusso del file modello. Il file di esempio per testare il codice può essere scaricato dal seguente link:
 
 [Excel95_5.0.xls](Excel95_5.0.xls)
 
@@ -64,17 +64,17 @@ A volte, il file Excel che desideri aprire viene archiviato come flusso. In tal 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningExcel95_5_0XLSFiles-1.java" >}}
 
-### **Apertura di file XLS Microsoft Excel 97 o versioni successive**
+### **Apertura di file XLS di Microsoft Excel 97 o versioni successive**
 
- Per aprire i file XLS di Microsoft Excel XLS 97 o versioni successive, creare un'istanza del**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance con il percorso o il flusso del file modello. Oppure usa il**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** metodo e selezionare il**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** valore in**[Carica formato](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**enumerazione.
+ Per aprire i file XLS di Microsoft Excel XLS 97 o versioni successive, creare un'istanza del file**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance con il percorso o il flusso del file modello. Oppure usa il**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** metodo e selezionare il**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** valore in**[Carica formato](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**enumerazione.
 
 #### **Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
 
-### **Apertura Microsoft Excel 2007 o versioni successive File XLSX**
+### **Apertura di file XLSX di Microsoft Excel 2007 o versioni successive**
 
- Per aprire i file XLSX di Microsoft Excel 2007 o versioni successive, creare un'istanza del**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**instance con il percorso o il flusso del file modello. Oppure usa il**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** classe e selezionare il**[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** valore in**[Carica formato](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**enumerazione.
+ Per aprire i file XLSX di Microsoft Excel 2007 o versioni successive, creare un'istanza del file**[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**instance con il percorso o il flusso del file modello. Oppure usa il**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** classe e selezionare il**[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** valore in**[Carica formato](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**enumerazione.
 
 #### **Esempio**
 
@@ -82,7 +82,7 @@ A volte, il file Excel che desideri aprire viene archiviato come flusso. In tal 
 
 ### **Apertura di file con formati diversi**
 
-Aspose.Cells consente agli sviluppatori di aprire file di fogli di calcolo con diversi formati come SpreadsheetML, CSV, file delimitati da tabulazioni. Per aprire tali file, gli sviluppatori possono utilizzare la stessa metodologia utilizzata per aprire file di diverse versioni di Excel Microsoft.
+Aspose.Cells consente agli sviluppatori di aprire file di fogli di calcolo con diversi formati come SpreadsheetML, CSV, file delimitati da tabulazioni. Per aprire tali file, gli sviluppatori possono utilizzare la stessa metodologia utilizzata per aprire file di diverse versioni di Microsoft Excel.
 
 ### **Apertura di file SpreadsheetML**
 
@@ -106,7 +106,7 @@ Per aprire i file CSV, utilizzare il file**[LoadOptions](https://reference.aspos
 
 ### **Apertura di file CSV e sostituzione di caratteri non validi**
 
-In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto da Aspose.Cells API che è dimostrato nell'esempio di codice riportato di seguito.
+In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto dall'API Aspose.Cells che è dimostrato nell'esempio di codice fornito di seguito.
 
 #### **Esempio**
 
@@ -174,9 +174,9 @@ Il file FODS è un foglio di calcolo salvato in OpenDocument XML senza alcuna co
 - [Ricevi avvisi durante il caricamento del file Excel](/cells/it/java/get-warnings-while-loading-excel-file/)
 - [Mantieni i separatori per le righe vuote durante l'esportazione dei fogli di calcolo in formato CSV](/cells/it/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Carica la cartella di lavoro con il formato carta della stampante specificato](/cells/it/java/load-workbook-with-specified-printer-paper-size/)
-- [Apertura di diversi file di versioni di Excel Microsoft](/cells/it/java/opening-different-microsoft-excel-versions-files/)
+- [Apertura di diversi file di versioni di Microsoft Excel](/cells/it/java/opening-different-microsoft-excel-versions-files/)
 - [Ottimizzazione dell'utilizzo della memoria mentre si lavora con file di grandi dimensioni con set di dati di grandi dimensioni](/cells/it/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 - [Leggi il foglio di calcolo dei numeri sviluppato da Apple Inc. utilizzando Aspose.Cells](/cells/it/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Lettura di file CSV con codifiche multiple](/cells/it/java/reading-csv-file-with-multiple-encodings/)
 - [Interrompi la conversione o il caricamento utilizzando InterruptMonitor quando impiega troppo tempo](/cells/it/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
-- [Utilizzando LightCells API](/cells/it/java/using-lightcells-api/)
+- [Utilizzo dell'API LightCells](/cells/it/java/using-lightcells-api/)

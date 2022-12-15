@@ -4,8 +4,8 @@ type: docs
 weight: 100
 url: /de/cpp/faq/
 ---
-## **Verschlüsselung und Entschlüsselung werden für Aspose.Cells für C++ jetzt nicht unterstützt**
-Jetzt werden Verschlüsselung und Entschlüsselung für Aspose.Cells für C++ nicht unterstützt. Wenn Sie also eine Datei mit Kennwort öffnen möchten, löst der Code eine Ausnahme aus.
+## **Verschlüsselung und Entschlüsselung werden für Aspose.Cells for C++ jetzt nicht unterstützt**
+Jetzt werden Verschlüsselung und Entschlüsselung für Aspose.Cells for C++ nicht unterstützt. Wenn Sie also eine Datei mit Kennwort öffnen möchten, löst der Code eine Ausnahme aus.
 
 
 

@@ -150,6 +150,6 @@ url: /es/net/aspose-cells-for-net-8-6-0-release-notes/
 
  Agrega la propiedad OoxmlSaveOptions.UpdateZoom
 
-Se usa para actualizar PageSetup.Zoom si las propiedades PageSetup.FitToPagesWide y PageSetup.FitToPagesTall controlan cómo se escala la hoja de cálculo.
+Se usa para actualizar PageSetup.Zoom si las propiedades PageSetup.FitToPagesWide y PageSetup.FitToPagesTall controlan cómo se escala la hoja de trabajo.
 
 

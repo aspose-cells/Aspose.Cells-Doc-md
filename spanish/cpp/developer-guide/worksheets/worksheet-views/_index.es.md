@@ -31,12 +31,12 @@ Microsoft Excel proporciona una función que permite a los usuarios establecer e
 
  Una hoja de trabajo está representada por el[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) clase. los[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)La clase proporciona una amplia gama de métodos para administrar hojas de trabajo. Para establecer el factor de zoom de una hoja de trabajo, use el[Zoom](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ad94669a93a4324b3a4b7f9582df5b0ec) metodo de la[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) clase El factor de zoom se establece asignando un valor numérico (entero) a la[Zoom](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ad94669a93a4324b3a4b7f9582df5b0ec)método.
 
- A continuación se proporciona un ejemplo completo que demuestra cómo utilizar el[Zoom](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ad94669a93a4324b3a4b7f9582df5b0ec)método para establecer el factor de zoom de la primera hoja de trabajo del archivo de Excel.
+ A continuación se proporciona un ejemplo completo que demuestra cómo utilizar el[Zoom](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ad94669a93a4324b3a4b7f9582df5b0ec)método para establecer el factor de zoom de la primera hoja de cálculo del archivo de Excel.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-ZoomFactor.cpp" >}}
 ## **Congelar paneles**
 ### **Usando Microsoft Excel**
-Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de trabajo.
+Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de cálculo.
 ### **Aspose.Cells y congelar paneles**
  Aspose.Cells también permite a los desarrolladores aplicar paneles congelados a hojas de trabajo en tiempo de ejecución. Aspose.Cells proporciona una clase[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) que representa un archivo de Excel Microsoft. los[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) la clase contiene un[Hojas de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
 
@@ -58,7 +58,7 @@ Los paneles funcionan simultáneamente. Si realiza un cambio en uno, el cambio a
 #### **División de paneles**
  Aspose.Cells proporciona una clase[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) que representa un archivo de Excel Microsoft. los[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)class proporciona una amplia gama de métodos para administrar un archivo de Excel. Para implementar vistas divididas, use el[Separar](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#a0e581a3a9528a767c57008521ee02b6f) metodo de la[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) clase. Para quitar los paneles divididos, use el[EliminarDividir](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#a5b554108c91f686e906400c26248eee5)método.
 
-En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de trabajo. El archivo actualizado se guarda.
+En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de cálculo. El archivo actualizado se guarda.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-SplitPanes.cpp" >}}
 #### **Eliminación de paneles**

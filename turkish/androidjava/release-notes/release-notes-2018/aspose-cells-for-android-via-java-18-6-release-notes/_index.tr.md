@@ -1,12 +1,12 @@
 ﻿---
-title: Java 18.6 Sürüm Notları aracılığıyla Android için Aspose.Cells
+title: Aspose.Cells for Android via Java 18.6 Sürüm Notları
 type: docs
 weight: 30
 url: /tr/java/aspose-cells-for-android-via-java-18-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 18.6 aracılığıyla Android için Aspose.Cells için sürüm notları içerir.
+Bu sayfa Aspose.Cells for Android via Java 18.6 için sürüm notları içerir.
 
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ Bu sayfa, Java 18.6 aracılığıyla Android için Aspose.Cells için sürüm no
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
-Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin ve Java aracılığıyla Android için Aspose.Cells'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen Aspose.Cells destek forumunda yükseltin.
+Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.
 
 ### **HtmlCrossType enum için yeni öğe "CrossHideRight" ekler**
 
@@ -258,6 +258,6 @@ GlobalizationSettings.ColumnSeparatorOfFormulaArray
 
 {{% alert color="primary" %}}
 
-Java üzerinden Android için Aspose.Cells kod tabanı, ilgili .NET ve Java sürümlerinin koduyla eşleştiğinden, değişikliklerin, geliştirmelerin ve düzeltmelerin çoğu Aspose.Cells for .NET v18.4, Aspose.Cells 076173488 18.684 18.5, 076183, 076183, 076183, 076183 491184 6, Aspose.Cells for Java v18.4, Aspose.Cells for Java v18.5 ve Aspose.Cells for Java v18.6 da Java v18.6 üzerinden Android için bu Aspose.Cells'e dahildir.
+Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761,16341. 0761,16341. 0761. 0761616341. 0731,16341. 0731,16341,16341,16341,16341,16341,1631. Aspose.Cells for Java v18.4, Aspose.Cells for Java v18.5 ve Aspose.Cells for Java v18.6 da bu Aspose.Cells for Android via Java v18.6'ya dahildir.
 
 {{% /alert %}}

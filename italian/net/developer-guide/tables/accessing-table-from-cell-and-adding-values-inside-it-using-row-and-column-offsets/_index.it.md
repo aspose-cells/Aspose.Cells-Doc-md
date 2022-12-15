@@ -26,7 +26,7 @@ Lo screenshot seguente mostra il file Excel di output generato dal codice. Come 
 |![cose da fare:immagine_alt_testo](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
 |:- |
 
-### C# codice per accedere alla tabella dalla cella e aggiungere valori al suo interno utilizzando gli offset di riga e colonna
+### Codice C# per accedere alla tabella dalla cella e aggiungere valori al suo interno utilizzando gli offset di riga e colonna
 
 Il seguente codice di esempio carica il file Excel di origine come mostrato nello screenshot sopra e aggiunge valori all'interno della tabella e genera il file Excel di output come mostrato sopra.
 

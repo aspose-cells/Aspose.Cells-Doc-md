@@ -6,7 +6,7 @@ url: /es/jasperreports/licensing/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells para JasperReports está disponible como una evaluación gratuita y sin límite de tiempo de la[página de descarga](https://downloads.aspose.com/cells/jasperreports). Las versiones de evaluación y con licencia del producto es la misma descarga.
+ Aspose.Cells for JasperReports está disponible como una evaluación gratuita e ilimitada del[página de descarga](https://downloads.aspose.com/cells/jasperreports). Las versiones de evaluación y con licencia del producto es la misma descarga.
 
  Cuando esté satisfecho con la versión de evaluación, puede[comprar una licencia](https://purchase.aspose.com/). Asegúrese de comprender y aceptar los términos de la licencia.
 
@@ -31,7 +31,7 @@ Este método es aplicable para su uso con JasperReports.
 
 {{% /alert %}}
 
-Descargue la licencia a su computadora y cópiela en la carpeta adecuada (por ejemplo, la carpeta de su aplicación o**JasperReports\lib**).
+ Descargue la licencia a su computadora y cópiela en la carpeta adecuada (por ejemplo, la carpeta de su aplicación o**JasperReports\lib**).
 Agrega el siguiente código a tu proyecto:
 
 {{< highlight "csharp" >}}
@@ -58,7 +58,7 @@ Este método es aplicable para su uso con JasperServer.
 
 {{% /alert %}}
 
-1.  Descargue la licencia a su computadora y cópiela en el**\<dirección de instalación>\apache-tomcat\webapps\jasperserver\WEB-INF** carpeta, donde**\<DirInstalación>** significa el directorio de instalación de JasperServer.
+1.  Descargue la licencia a su computadora y cópiela en el**\<dirección de instalación>\apache-tomcat\webapps\jasperserver\WEB-INF**carpeta, donde**\<DirInstalación>** significa el directorio de instalación de JasperServer.
 1.  Localiza el**\<dirección de instalación>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** archivo y agregue las siguientes líneas:
 
 **XML**
@@ -77,7 +77,7 @@ Este método es aplicable para su uso con JasperServer.
 
 Exporte cualquier informe a formato XLS y compruebe si el informe contiene un mensaje de evaluación. Si no hay un mensaje de evaluación, la licencia funciona correctamente.
 
-**Aspose.Cells para JasperReports inyecta una hoja de trabajo de evaluación en modo de evaluación** 
+**Aspose.Cells for JasperReports inyecta una hoja de trabajo de evaluación en modo de evaluación** 
 
 ![todo:imagen_alternativa_texto](licensing_1.png)
 

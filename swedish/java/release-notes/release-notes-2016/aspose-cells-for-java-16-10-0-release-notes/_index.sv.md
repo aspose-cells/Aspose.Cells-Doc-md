@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells för Java 16.10.0 Release Notes
+title: Aspose.Cells for Java 16.10.0 Release Notes
 type: docs
 weight: 30
 url: /sv/java/aspose-cells-for-java-16-10-0-release-notes/
@@ -26,8 +26,8 @@ url: /sv/java/aspose-cells-for-java-16-10-0-release-notes/
 |CELLSJAVA-41987 | NullPointerException när du öppnar filen a1.xlsm| Undantag|
 |CELLSJAVA-41968 | IndexOutOfBoundsException: Index: 23, Storlek: 14 medan pivotdiagram uppdateras| Undantag|
 |CELLSJAVA-42014 | ClassCastException: com.aspose.cells.zadp kan inte castas till com.aspose.cells.zadq medan XLSX sparas på nytt| Undantag|
-## **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t som tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för Java. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+## **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen Shape.Reflection och klassen ReflectionEffect**
 Representerar reflektionseffekt för diagramelementet eller formen.
 ### **Lägger till egenskaperna Shape.Glow, GlowEffect.Size och GlowEffect.Transparency**

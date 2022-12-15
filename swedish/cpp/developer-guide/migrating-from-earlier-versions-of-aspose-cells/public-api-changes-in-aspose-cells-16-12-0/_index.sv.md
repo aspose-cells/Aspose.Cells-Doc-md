@@ -1,5 +1,5 @@
 ﻿---
-title: Offentliga API-ändringar i Aspose.Cells 16.12.0
+title: Offentlig API Ändringar i Aspose.Cells 16.12.0
 type: docs
 weight: 10
 url: /sv/cpp/public-api-changes-in-aspose-cells-16-12-0/
@@ -11,9 +11,9 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 16.
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Stöd för pivottabeller**
-Den andra versionen av Aspose.Cells för C++ stöder skapande såväl som manipulering av pivottabellerna. Aspose.Cells för C++ tillhandahåller klassen IPivotTable som representerar ett pivottabellobjekt medan IPivotTableCollection representerar en samling pivottabeller. IPivotTableCollection kan nås via IWorksheet-objektet och en ny pivottabell kan läggas till i samlingen när du använder metoden IPivotTableCollection.Add.
+Den andra versionen av Aspose.Cells for C++ stöder skapande såväl som manipulering av pivottabellerna. Aspose.Cells for C++ tillhandahåller klassen IPivotTable som representerar ett pivottabellobjekt medan IPivotTableCollection representerar en samling pivottabeller. IPivotTableCollection kan nås via IWorksheet-objektet och en ny pivottabell kan läggas till i samlingen när du använder metoden IPivotTableCollection.Add.
 
- Följande kodavsnitt visar hur enkelt det är att använda Aspose.Cells för C++ API för att[skapa pivottabeller från grunden](/cells/sv/cpp/create-pivot-table/).
+ Följande kodavsnitt visar hur enkelt det är att använda Aspose.Cells for C++ API för att[skapa pivottabeller från grunden](/cells/sv/cpp/create-pivot-table/).
 
 **C++**
 
@@ -85,9 +85,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-Förutom att skapa nya pivottabeller, stöder Aspose.Cells för C++ API:er också för att manipulera befintliga pivottabeller. API:et stöder för närvarande att ändra data vid källintervallet för pivottabellen och sedan uppdatera den. När pivottabellen har manipulerats enligt önskemål är det bäst att använda metoderna IPivotTable.RefreshData och IPivotTable.CalculateData för att uppdatera pivottabellen mot den uppdaterade datakällan.
+Förutom att skapa nya pivottabeller stöder Aspose.Cells for C++ API:er även för att manipulera befintliga pivottabeller. API stöder för närvarande att ändra data vid källintervallet för pivottabellen och sedan uppdatera den. När pivottabellen har manipulerats enligt önskemål är det bäst att använda metoderna IPivotTable.RefreshData och IPivotTable.CalculateData för att uppdatera pivottabellen mot den uppdaterade datakällan.
 
- Följande kodavsnitt använder Aspose.Cells för C++ API till[manipulera en befintlig pivottabell](/cells/sv/cpp/manipulate-pivot-table/).
+Följande kodavsnitt använder Aspose.Cells for C++ API till[manipulera en befintlig pivottabell](/cells/sv/cpp/manipulate-pivot-table/).
 
 **C++**
 
@@ -133,7 +133,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Stöd för regler för villkorlig formatering**
- Aspose.Cells för C++ ger nu möjligheten att lägga till regler för villkorlig formatering till kalkylbladet genom att exponera klassen IFormatCondition. Ovannämnda klass tillhandahåller vidare följande metoder för att[tillämpa reglerna för villkorlig formatering](/cells/sv/cpp/apply-conditional-formatting-in-worksheet/) enligt applikationskraven.
+ Aspose.Cells for C++ ger nu möjligheten att lägga till villkorliga formateringsregler till kalkylbladet genom att exponera klassen IFormatCondition. Ovannämnda klass tillhandahåller vidare följande metoder för att[tillämpa reglerna för villkorlig formatering](/cells/sv/cpp/apply-conditional-formatting-in-worksheet/) enligt applikationskraven.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -191,7 +191,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Stöd för hyperlänkar**
- Aspose.Cells för C++ stöder nu[lägga till hyperlänkar till kalkylbladets celler](/cells/sv/cpp/add-hyperlinks-to-the-cells/). För att tillhandahålla den här funktionen har Aspose.Cells för C++ 16.12.0 exponerat klassen IHyperlinkCollection som är tillgänglig via IWorksheet-objektet, medan en hyperlänk kan läggas till samlingen när man använder metoden IHyperlinkCollection.Add som visas nedan.
+ Aspose.Cells for C++ stöds nu[lägga till hyperlänkar till kalkylbladets celler](/cells/sv/cpp/add-hyperlinks-to-the-cells/)För att tillhandahålla den här funktionen har Aspose.Cells for C++ 16.12.0 exponerat klassen IHyperlinkCollection som är tillgänglig via IWorksheet-objektet medan en hyperlänk kan läggas till i samlingen med IHyperlinkCollection.Add-metoden som visas nedan.
 
 **C++**
 
@@ -230,7 +230,7 @@ Excel-applikationen stöder 2 typer av dokumentegenskaper enligt listan nedan.
 - Systemdefinierade (inbyggda) egenskaper: Inbyggda egenskaper innehåller allmän information om dokumentet som dokumenttitel, författarens namn, dokumentstatistik och så vidare.
 - Användardefinierade (anpassade) egenskaper: Anpassade egenskaper definierade av slutanvändaren i form av namnvärdepar.
 
- Aspose.Cells för C++-stöd[hantera båda typerna av dokumentegenskaper, inbyggda och anpassade](/cells/sv/cpp/managing-document-properties/). Aspose.Cells' IWorkbook-klassen representerar en Excel-fil. För att komma åt de inbyggda dokumentegenskaperna, använd IWorkbook.GetBuiltInDocumentProperties medan de anpassade dokumentegenskaperna kan nås när du använder metoden IWorkbook.GetCustomDocumentProperties.
+ Aspose.Cells for C++ stöder[hantera båda typerna av dokumentegenskaper, inbyggda och anpassade](/cells/sv/cpp/managing-document-properties/)Aspose.Cells' IWorkbook-klassen representerar en Excel-fil. För att komma åt de inbyggda dokumentegenskaperna, använd IWorkbook.GetBuiltInDocumentProperties medan de anpassade dokumentegenskaperna kan nås när du använder metoden IWorkbook.GetCustomDocumentProperties.
 
 Följande exempelkod läser in ett befintligt exempelkalkylblad och läser de inbyggda dokumentegenskaperna som Titel, Ämne och anpassad egenskap med namnet MyCustom1.
 
@@ -286,7 +286,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Stöd för ListObjects**
- En Excel-tabell är en matris av celler som innehåller valfritt antal rader och kolumner medan samma tabell hänvisas till som ett listobjekt i Aspose.Cells för C++ API:er. Namnutrymmet Aspose::Cells::Tables innehåller alla nödvändiga klasser som hanterar operationerna relaterade till listobjekten. Mest värda att nämna klasser är IListObject och IListObjectCollection som tillåter det[skapa och formatera listobjekt](/cells/sv/cpp/create-and-format-table/) och så vidare.
+ En Excel-tabell är en matris av celler som innehåller valfritt antal rader och kolumner medan samma tabell hänvisas till som ett listobjekt i Aspose.Cells for C++ API:er. Namnutrymmet Aspose::Cells::Tables innehåller alla nödvändiga klasser som hanterar operationerna relaterade till listobjekten. Mest värda att nämna klasser är IListObject och IListObjectCollection som tillåter det[skapa och formatera listobjekt](/cells/sv/cpp/create-and-format-table/) och så vidare.
 
 Följande exempelkod läser in exempelkalkylarksfilen och skapar sedan ett listobjekt (tabell) i intervallet A1:H10, och använd sedan dess olika metoder för att visa delsumman.
 
@@ -336,7 +336,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Stöd för rad- och kolumngruppering**
- Aspose.Cells för C++ API kan användas för att gruppera rader och kolumner medan du använder ICells-klassen som i princip är samlingen av alla celler i ett givet kalkylblad. Klassen ICells erbjuder metoderna GroupRows och GroupColumns för att[gruppera rader och kolumner](/cells/sv/cpp/group-rows-and-columns-of-worksheet/) respektive.
+ Aspose.Cells for C++ API kan användas för att gruppera rader och kolumner samtidigt som klassen ICells används som i princip är samlingen av alla celler i ett givet kalkylblad. Klassen ICells erbjuder metoderna GroupRows och GroupColumns för att[gruppera rader och kolumner](/cells/sv/cpp/group-rows-and-columns-of-worksheet/) respektive.
 
 Följande kodavsnitt visar det enkla användningsscenariot för båda ovannämnda metoder.
 
@@ -422,7 +422,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Stöd för teman**
-Aspose.Cells för C++ API:er stöder nu att använda och manipulera teman som erbjuds av Excel-applikationen.
+Aspose.Cells for C++ API:er stödjer nu att använda och manipulera teman som erbjuds av Excel-applikationen.
 #### **Möjlighet att applicera de anpassade temafärgerna**
  Följande utdrag försöker[skapa ett nytt tema med anpassade färger](/cells/sv/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) för arbetsboken.
 
@@ -496,7 +496,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Stöd för manipulering av temafärger**
- Följande exempelkod visar hur man[läsa och ändra temafärgerna i arbetsboken](/cells/sv/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). Exempelkoden laddar ett befintligt kalkylblad, läser dess temafärger, dvs. Accent1-Accent6, och ändrar färgerna innan kalkylarket sparas.
+ Följande exempelkod visar hur man gör[läsa och ändra temafärgerna i arbetsboken](/cells/sv/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). Exempelkoden laddar ett befintligt kalkylblad, läser dess temafärger, dvs. Accent1-Accent6, och ändrar färgerna innan kalkylarket sparas.
 
 **C++**
 
@@ -562,7 +562,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 #### **Möjlighet att kopiera teman över arbetsböcker**
- Följande exempelkod visar hur man[kopiera tema från en arbetsbok till en annan](/cells/sv/cpp/copy-theme-from-one-workbook-to-another/), vilket kan vara användbart för att tillämpa inbyggda eller anpassade teman på flera kalkylblad.
+ Följande exempelkod visar hur man gör[kopiera tema från en arbetsbok till en annan](/cells/sv/cpp/copy-theme-from-one-workbook-to-another/), vilket kan vara användbart för att tillämpa inbyggda eller anpassade teman på flera kalkylblad.
 
 **C++**
 
@@ -586,7 +586,7 @@ wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ## **Omdöpta API:er**
-Med lanseringen av Aspose.Cells för C++ 16.12.0 har vi bytt namn på några metoder för att hålla gränssnitten enhetliga. Listan över alla omdöpta API:er är följande.
+Med lanseringen av Aspose.Cells for C++ 16.12.0 har vi bytt namn på några metoder för att hålla gränssnitten enhetliga. Listan över alla omdöpta API:er är följande.
 #### **Döpte om ICell::SetStyle-metoden till ICell::SetIStyle**
 #### **Döpte om ICell::SetCharacters-metoden till ICell::SetIFontSettings**
 #### **Omdöpt ICellsColor::SetThemeColor-metoden till ICellsColor::SetIThemeColor**

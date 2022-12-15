@@ -1,14 +1,14 @@
 ﻿---
-title: Aspose.Cells 用于 Reporting Services 1.4.3 发行说明
+title: Aspose.Cells for Reporting Services 1.4.3 发行说明
 type: docs
 weight: 10
 url: /zh/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 [Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/] 的发行说明{{% /alert %}} 
+此页面包含 [ Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.com/cells/reportingservices/new-releases/-aspose.cells-for-reporting-services-1.4.3/] 的发行说明{{% /alert %}} 
 
-我们很高兴地宣布 Reporting Services v1.4.3 的 Aspose.Cells！
+我们很高兴地宣布 Aspose.Cells for Reporting Services v1.4.3！
 
 发生了什么变化
 
@@ -18,7 +18,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-not
 
  · 渲染性能得到改善。
 
- · 在报表设计者创建的报表中包含报表项样式。
+· 在报表设计者创建的报表中包含报表项样式。
 
  · Aspose.Cells.ReportingServices 客户端在报告服务器的连接性方面得到了增强。
 
@@ -26,7 +26,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-not
 
 
 
- Reporting Services 1.4 的 Aspose.Cells 中已解决的问题。
+ Aspose.Cells for Reporting Services 1.4 中已解决的问题。
 
 \3. 
 

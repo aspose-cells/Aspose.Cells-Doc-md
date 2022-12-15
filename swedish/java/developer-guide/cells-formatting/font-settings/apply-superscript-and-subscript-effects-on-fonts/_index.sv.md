@@ -3,7 +3,7 @@ title: Använd upphöjda och nedsänkta effekter på teckensnitt
 type: docs
 weight: 30
 url: /sv/java/apply-superscript-and-subscript-effects-on-fonts/
-description: Hur man applicerar upphöjd och nedsänkt effekt på text i Excel med Java. Den här artikeln tillhandahåller Java-koden för att uppnå just detta med användning av Aspose.Cells för Java API.
+description: Så här tillämpar du upphöjd och nedsänkt effekt på text i Excel med Java. Den här artikeln tillhandahåller koden Java för att uppnå just det med användning av Aspose.Cells for Java API.
 keywords: excel superscript java, excel subscript java, excel superscript and subscript java, insert subscript and superscript in excel java, add subscript and superscript in excel java, add superscript and subscript excel java, add superscript excel java, add subscript excel java
 ---
 {{% alert color="primary" %}}

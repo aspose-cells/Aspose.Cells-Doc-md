@@ -16,7 +16,7 @@ Zirkelbezüge können nur bei der Berechnung der Formel erkannt werden, da die B
 
 [**AbstractCalculationMonitor.OnCircular(IEnumerator circleCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): wird von der Formelberechnungs-Engine aufgerufen, wenn auf Zirkelverweise gestoßen wird, das Element im Enumerator ist[**Berechnungszelle**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) Objekte, die alle Zellen in einem Kreis darstellen. Der zurückgegebene Wert gibt an, ob die Formel-Engine diese Zellen nach diesem Aufruf kreisförmig berechnen muss.
 
-Der Benutzer kann diese Zirkelverweise bei der Implementierung von sammeln[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) Methode.
+ Der Benutzer kann diese Zirkelverweise bei der Implementierung von sammeln[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) Methode.
 
 Die Quellbeispieldatei kann unter folgendem Link heruntergeladen werden:
 
@@ -24,6 +24,6 @@ Die Quellbeispieldatei kann unter folgendem Link heruntergeladen werden:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
- Definition von*CircularMonitor* Klasse, von der abgeleitet wird[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) Klasse ist wie folgt:
+Definition von*CircularMonitor* Klasse, von der abgeleitet wird[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) Klasse ist wie folgt:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

@@ -1,20 +1,20 @@
 ﻿---
-title: Aspose.Cells för Java 8.0.2 Release Notes
+title: Aspose.Cells for Java 8.0.2 Release Notes
 type: docs
 weight: 60
 url: /sv/java/aspose-cells-for-java-8-0-2-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för Java 8.0.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.0.2/)
+ Den här sidan innehåller release notes för[Aspose.Cells for Java 8.0.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-8.0.2/)
 
 {{% /alert %}} 
 
- Aspose.Cells för Java har uppdaterats till version 8.0.2 och vi är glada att kunna meddela att denna utgåva innehåller över 10 nya användbara förbättringar.
-Med Aspose.Cells för Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
-Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells för Java.
+ Aspose.Cells for Java har uppdaterats till version 8.0.2 och vi är glada att kunna meddela att denna utgåva kommer med över 10 nya användbara förbättringar.
+Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
-Följande är en lista över ändringar i denna version av Aspose.Cells för Java.
+Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
 
 
 Andra förbättringar och förändringar
@@ -42,9 +42,9 @@ Undantag
 (CELLSJAVA-40797) - Cell.getDependents() kastar NullPointerException
 (CELLSJAVA-40800) - CellsException vid konvertering av kalkylblad till PDF på MAC OS
 
-Public API och bakåtinkompatibla ändringar
+Offentlig API och bakåtinkompatibla ändringar
 
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 
 Lägger till egenskapen Shape.TextDirection
 Hämtar/ställer in textflödets riktning för formen.
@@ -60,4 +60,4 @@ Använder istället HtmlSaveOptions.ImageOptions för bildformatinställningar n
 
 
 Notera
-Eftersom kodbasen för Aspose.Cells för Java matchar koden för relevant .NET-version, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells för .NET v8.0.2 också inkluderade i denna Aspose.Cells för Java v8.0.2.
+Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells for .NET v8.0.2 också inkluderade i denna 076157318.4 v.4181.

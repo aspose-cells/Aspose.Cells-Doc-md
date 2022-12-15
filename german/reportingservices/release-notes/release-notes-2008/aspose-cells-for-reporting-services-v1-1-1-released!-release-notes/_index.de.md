@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells für Reporting Services V1.1.1 freigegeben! Versionshinweise
+title: Aspose.Cells for Reporting Services V1.1.1 freigegeben! Versionshinweise
 type: docs
 weight: 20
 url: /de/reportingservices/aspose-cells-for-reporting-services-v1-1-1-released-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Diese Seite enthält Versionshinweise für[Aspose.Cells für Reporting Services V1.1.1 freigegeben!](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
+ Diese Seite enthält Versionshinweise für[Aspose.Cells for Reporting Services V1.1.1 freigegeben!](https://releases.aspose.com/cells/reportingservices/new-releases/aspose.cells-for-reporting-services-v1.1.1-released/)
 
 {{% /alert %}} 
 

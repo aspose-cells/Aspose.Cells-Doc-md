@@ -8,10 +8,10 @@ url: /fr/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |
-|CELLSNET-44376 | Fournir la possibilité d'interdire la conversion de valeurs numériques longues en notation exponentielle lors de l'importation à partir de HTML| Nouvelle fonctionnalité|
-|CELLSNET-44360 | Détection d'un guillemet simple en début de cellule| Nouvelle fonctionnalité|
-|CELLSNET-44356 | Obtenir l'adresse de cellule cible ou de sortie pour une connexion externe| Nouvelle fonctionnalité|
-|CELLSNET-44340 | Prise en charge de la localisation (allemand) de la validation côté client| Nouvelle fonctionnalité|
+|CELLSNET-44376 | Fournir la possibilité d'interdire la conversion de valeurs numériques longues en notation exponentielle lors de l'importation à partir de HTML|Nouvelle fonctionnalité|
+|CELLSNET-44360 | Détection d'un guillemet simple en début de cellule|Nouvelle fonctionnalité|
+|CELLSNET-44356 | Obtenir l'adresse de cellule cible ou de sortie pour une connexion externe|Nouvelle fonctionnalité|
+|CELLSNET-44340 | Prise en charge de la localisation (allemand) de la validation côté client|Nouvelle fonctionnalité|
 |CELLSNET-44345 | La formule pour WordArt ne réagit pas au changement d'argument lors de la conversion de XLS en XLSB| Renforcement|
 |CELLSNET-44342 | Le processus semble se bloquer avec une utilisation à 100 % du processeur pour convertir une feuille de calcul d'une seule page en PDF| Performance|
 |CELLSNET-44324 | XLSM est corrompu après avoir rempli à nouveau les données et actualisé le tableau croisé dynamique| Punaise|
@@ -42,7 +42,7 @@ url: /fr/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |
-|CELLSNET-44350 | Ajouter une alerte d'expiration de session pour GridWeb| Nouvelle fonctionnalité|
+|CELLSNET-44350 | Ajouter une alerte d'expiration de session pour GridWeb|Nouvelle fonctionnalité|
 |CELLSNET-44339 | 500 Erreur interne : "Erreur dans Cell : Formule non valide" en insérant une formule non valide dans l'interface utilisateur GridWeb| Exception|
 |CELLSNET-44326 | Cliquer sur une cellule change le texte formaté en sa source HTML| Punaise|
 |CELLSNET-44325 | GridWeb modifie le contenu de la liste de validation des données/liste déroulante| Punaise|

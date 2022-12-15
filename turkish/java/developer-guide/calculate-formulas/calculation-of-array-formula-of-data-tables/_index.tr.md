@@ -6,7 +6,7 @@ url: /tr/java/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}} 
 
- Veri > What-If Analizi > Veri Tablosu...'nu kullanarak Microsoft Excel'de Veri Tablosu oluşturabilirsiniz... Aspose.Cells artık veri tablosunun dizi formülünü hesaplamanıza izin veriyor. Lütfen kullan[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) her türlü formülü hesaplamak için normaldir.
+Veri > What-If Analizi > Veri Tablosu...'nu kullanarak Microsoft Excel'de Veri Tablosu oluşturabilirsiniz... Aspose.Cells artık veri tablosunun dizi formülünü hesaplamanıza izin veriyor. Lütfen kullan[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) her türlü formülü hesaplamak için normaldir.
 
 {{% /alert %}} 
 ## **Veri Tablolarının Dizi Formülünün Hesaplanması**
@@ -18,6 +18,6 @@ url: /tr/java/calculation-of-array-formula-of-data-tables/
 
 ![yapılacaklar:resim_alternatif_Metin](calculation-of-array-formula-of-data-tables_2.png)
 
-İşte oluşturmak için kullanılan örnek kod[çıktı PDF](5472577.pdf) dan[kaynak excel dosyası](5472579.xlsx). Daha fazla bilgi için lütfen yorumları okuyunuz.
+ İşte oluşturmak için kullanılan örnek kod[çıktı PDF](5472577.pdf) dan[kaynak excel dosyası](5472579.xlsx). Daha fazla bilgi için lütfen yorumları okuyunuz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

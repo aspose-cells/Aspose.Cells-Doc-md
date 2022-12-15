@@ -3,7 +3,7 @@ title: Skapa pivottabeller och pivotdiagram
 type: docs
 weight: 10
 url: /sv/java/create-pivot-tables-and-pivot-charts/
-description: Skapa pivottabeller och pivotdiagram med Aspose.Cells för Java API.
+description: Skapa pivottabeller och pivotdiagram med Aspose.Cells for Java API.
 keywords: excel create pivot table java, excel create pivot chart java, excel create pivot table and pivot chart java, create excel pivot table java, create excel pivot chart java, create excel pivot table and pivot chart java, java create excel pivot table and pivot chart, how to create excel pivot table and pivot chart java
 ---
 {{% alert color="primary" %}}
@@ -28,14 +28,14 @@ Aspose.Cells tillhandahåller en speciell uppsättning klasser som används för
 ### **Förbereder att använda Aspose.Cells**
 
 1. Ladda ner och installera Aspose.Cells.Zip:
-   1. [Ladda ner Aspose.Cells för Java](https://downloads.aspose.com/cells/java).
+   1. [Ladda ner Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
  1. Packa upp det på din utvecklingsdator.
  Allt[Aspose](http://www.aspose.com/) komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
 1. Skapa ett projekt
- 1. Du kan antingen skapa ett projekt med hjälp av någon Java Editor, t.ex. Eclipse, eller skapa ett enkelt program med hjälp av en NotePad.
+ 1. Du kan antingen skapa ett projekt med hjälp av någon Java Editor, t.ex. Eclipse, eller skapa ett enkelt program med en anteckningsblock.
 1. Lägg till klasssökväg:
  Så här ställer du in en klasssökväg med Eclipse:
- 1. Extrahera Aspose.Cells.jar och dom4j_1.6.1.jar från Aspose.Cells.zip.
+1. Extrahera Aspose.Cells.jar och dom4j_1.6.1.jar från Aspose.Cells.zip.
  1. Ställ in klassvägen för projektet i Eclipse:
 1. Välj ditt projekt i Eclipse och klicka sedan på menyerna Projekt-egenskaper.
  1. Välj "Java Build Path" till vänster i popup-fönstret, välj sedan fliken "Libraries", klicka på "Add JARs" eller "Add External JARs" för att välja Aspose.Cells.jar och dom4j_1.6.1.jar och lägga till dem in på byggvägar.

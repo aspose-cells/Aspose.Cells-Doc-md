@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells per Android tramite Java 18.12 Note di rilascio
+title: Aspose.Cells for Android via Java Note sulla versione 18.12
 type: docs
 weight: 10
 url: /it/java/aspose-cells-for-android-via-java-18-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite Java 18.12.
+Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java 18.12.
 
 {{% /alert %}}
 
@@ -22,14 +22,14 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42738|Il conteggio errato dei valori di convalida viene letto da XLSX|Aumento|
 |CELLSJAVA-42734|Problema durante il trattamento dei delimitatori consecutivi come distinti|Aumento|
 |CELLSJAVA-42731|Il formato della data non è corretto per le impostazioni locali giapponesi|Aumento|
-|CELLSJAVA-42748|LightCells API non riesce a caricare un file enorme|Aumento|
+|CELLSJAVA-42748|L'API LightCells non riesce a caricare un file enorme|Aumento|
 |CELLSJAVA-42728|Viene sollevata un'eccezione (StackOverFlow) durante il salvataggio nell'output PDF|Insetto|
 |CELLSJAVA-42729|Valore errato calcolato da ROUNDUP()|Insetto|
 |CELLSJAVA-42724|Copia un intervallo con PasteType.ALL (opzioni Incolla) che non copia correttamente le altezze delle righe|Insetto|
 |CELLSJAVA-42722|La formattazione del testo del collegamento ipertestuale viene persa quando viene impostato un nuovo testo|Insetto|
 |CELLSJAVA-42688|Output formato data russo non valido|Insetto|
 |CELLSJAVA-42721|Problema con i font SheetRender|Insetto|
-|CELLSJAVA-42723|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il rendering di file MS Excel in PDF|Insetto|
+|CELLSJAVA-42723|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il rendering di file MS Excel in PDF|Insetto|
 |CELLSJAVA-42725|Le virgolette appaiono nella formula quando si recupera la formula della cella tramite Aspose.Cells|Insetto|
 |CELLSJAVA-42720|Degrado delle prestazioni quando si utilizza la formattazione condizionale|Insetto|
 |CELLSJAVA-42737|Linea del grafico mancante nella conversione XLSX->PNG|Insetto|
@@ -50,9 +50,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells per Android tramite 
 |CELLSJAVA-42765|Eccezione "com.aspose.cells.CellsException" durante il rendering di un file Excel in formato file PDF|Eccezione|
 |CELLSJAVA-42754|Eccezione "IllegalStateException: codifica non valida: null" quando si crea un'istanza di un formato di file XLS|Eccezione|
 
-## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+## **API pubblica e modifiche non compatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate al numero API pubblico come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells per Android tramite Java. In caso di dubbi su qualsiasi modifica elencata, si prega di sollevalo sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
 
 **Aggiunge la proprietà HtmlSaveOptions.WidthScalable**
 
@@ -112,7 +112,7 @@ Convalida delle copie.
 
 **Aggiunge le proprietà CreatedUniversalTime, LastPrintedUniversalTime e LastSavedUniversalTime di BuiltInDocumentPropertyCollection**
 
-Restituisce l'ora UTC relativa alle proprietà predefinite.
+Restituisce l'ora UTC relativa alle proprietà integrate.
 
 **Aggiunge la proprietà OoxmlSaveOptions.UpdateSmartArt**
 
@@ -149,7 +149,7 @@ L'opzione per ignorare i progetti VBA durante il caricamento del file modello.
 
 **Aggiunge la proprietà Style.InvariantCustom**
 
-Ottiene la stringa del modello indipendente dalle impostazioni cultura per il formato numerico (inclusa la stringa del modello per il numero incorporato).
+Ottiene la stringa del modello indipendente dalle impostazioni cultura per il formato numerico (inclusa la stringa del modello per il numero predefinito).
 
 **Aggiunge la proprietà FindOptions.ValueTypeSensitive**
 
@@ -201,6 +201,6 @@ Utilizzare invece il metodo ExportDataTable(firstRow,firstColumn, totalRows, tot
 
 {{% alert color="primary" %}}
 
-Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v18.10, Aspose.Cells for .NET v18.11, Aspose.Cells for .NET v18. 12, Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 e Aspose.Cells for Java v18.12 sono inclusi anche in questo Aspose.Cells per Android tramite Java v18.12.
+Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni sono incluse in Aspose.Cells for .NET v18.10, Aspose.Cells for .NET v18.11, 07607161818 , Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 e Aspose.Cells for Java v18.12 sono inclusi anche in questo Aspose.Cells for Android 0761183482 v18.12.
 
 {{% /alert %}}

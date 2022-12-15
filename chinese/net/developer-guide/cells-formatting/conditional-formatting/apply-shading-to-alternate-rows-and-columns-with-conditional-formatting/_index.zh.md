@@ -22,11 +22,11 @@ url: /zh/net/apply-shading-to-alternate-rows-and-columns-with-conditional-format
 
 以下快照显示了在 Excel 应用程序中加载的结果电子表格。
 
-|![待办事项：图片_替代_文本](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
+|![待办事项：图像_替代_文本](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
 |:- |
 
 为了将阴影应用于替代列，您所要做的就是更改公式**=MOD(行(),2)=0**作为**=MOD(列(),2)=0** ， 那是;不是获取行索引，而是修改公式以检索列索引。
 在这种情况下，生成的电子表格将如下所示。
 
-|![待办事项：图片_替代_文本](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
+|![待办事项：图像_替代_文本](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
 |:- |

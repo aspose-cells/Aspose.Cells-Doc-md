@@ -1,5 +1,5 @@
 ﻿---
-title: Table de requête de lecture et d'écriture de la feuille de calcul
+title: Table de requête de lecture et d'écriture de la feuille de travail
 type: docs
 weight: 40
 url: /fr/net/reading-and-writing-query-table-of-worksheet/
@@ -15,7 +15,7 @@ Ce sont deux valeurs booléennes. Vous pouvez les visualiser dans Microsoft Exce
 
 {{% /alert %}}
 
-## Table de requête de lecture et d'écriture de la feuille de calcul
+## Table de requête de lecture et d'écriture de la feuille de travail
 
 L'exemple de code suivant lit le premier QueryTable de la première feuille de calcul, puis imprime les deux propriétés QueryTable. Ensuite, il définit QueryTable.PreserveFormatting sur true.
 

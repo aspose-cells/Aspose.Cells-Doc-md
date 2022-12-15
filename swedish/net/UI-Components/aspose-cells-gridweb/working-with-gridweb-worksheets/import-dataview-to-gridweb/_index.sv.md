@@ -6,7 +6,7 @@ url: /sv/net/import-dataview-to-gridweb/
 ---
 {{% alert color="primary" %}} 
 
-Med lanseringen av Microsoft .NET Framework introducerades ett nytt sätt att lagra data. Nu DataSet, DataTable och DataView objekt som lagrar data i offlineläge. Dessa objekt är mycket praktiska som datalager. Med Aspose.Cells.GridWeb är det möjligt att importera data från antingen DataTable- eller DataView-objekt till kalkylblad. Aspose.Cells.GridWeb stöder endast import av data från en DataView. objekt men ett DataTable-objekt kan också användas indirekt. Låt oss diskutera denna funktion i detalj.
+Med lanseringen av ramverket Microsoft .NET introducerades ett nytt sätt att lagra data. Nu DataSet, DataTable och DataView objekt som lagrar data i offlineläge. Dessa objekt är mycket praktiska som datalager. Med Aspose.Cells.GridWeb är det möjligt att importera data från antingen DataTable- eller DataView-objekt till kalkylblad. Aspose.Cells.GridWeb stöder endast import av data från en DataView. objekt men ett DataTable-objekt kan också användas indirekt. Låt oss diskutera denna funktion i detalj.
 
 {{% /alert %}} 
 ## **Importera data från DataView**

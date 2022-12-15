@@ -24,9 +24,9 @@ url: /ar/net/protecting-worksheets/
 
 ### **حماية ورقة العمل**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف إكسل Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)صف دراسي.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)صف دراسي.
 
- ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)فئة توفر[**يحمي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) الطريقة المستخدمة لتطبيق الحماية على ورقة العمل.[**يحمي**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) تقبل الطريقة المعلمات التالية:
+ ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر[**يحمي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) الطريقة المستخدمة لتطبيق الحماية على ورقة العمل.[**يحمي**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) تقبل الطريقة المعلمات التالية:
 
 -  نوع الحماية ، نوع الحماية المراد تطبيقها على ورقة العمل. يتم تطبيق نوع الحماية بمساعدة[**نوع الحماية**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)تعداد.
 - كلمة المرور الجديدة ، كلمة المرور الجديدة المستخدمة لحماية ورقة العمل.

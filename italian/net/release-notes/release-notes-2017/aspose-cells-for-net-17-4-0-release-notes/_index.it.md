@@ -62,7 +62,7 @@ url: /it/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45214|Il riferimento nella matrice non si aggiorna quando le celle di riferimento vengono spostate in Input.xlsx|Insetto|
 |CELLSNET-45191|Sostituire lo sfondo per la forma non funziona|Insetto|
 |CELLSNET-45183|L'attributo "Bloccato" del controllo ActiveX (ComboBox) non viene modificato durante la protezione del foglio di lavoro|Insetto|
-|CELLSNET-45276|Barra di scorrimento orizzontale persa (in Google chrome) in GridWeb|Insetto|
+|CELLSNET-45276|Barra di scorrimento orizzontale persa (in Google Chrome) in GridWeb|Insetto|
 |CELLSNET-45273|Grandi ritardi (nello scorrimento, selezione di una cella, ecc.) quando si utilizza un lungo elenco di celle unite|Insetto|
 |CELLSNET-45257|L'allineamento delle celle perso quando si inseriscono/incollano i valori nelle celle|Insetto|
 |CELLSNET-45251|Il valore percentuale cambia in NaN|Insetto|
@@ -70,8 +70,8 @@ url: /it/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-44975|Errore di formattazione all'interno dei testi delle forme quando Excel viene convertito in PDF|Eccezione|
 |CELLSNET-45266|VbaProject.Sign causa un'eccezione|Eccezione|
 |CELLSNET-45239|La nuova aggiunta di un'immagine allo stesso XLS genera un errore di riferimento nullo|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo VbaProject.Protect(bool islockedForViewing,string password).**
 Protegge o rimuove la protezione del progetto VBA.
 #### **Aggiunge la proprietà VbaProject.IsProtected**

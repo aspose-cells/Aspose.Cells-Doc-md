@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells för .NET 19.1 Release Notes
+title: Aspose.Cells for .NET 19.1 Release Notes
 type: docs
 weight: 120
 url: /sv/net/aspose-cells-for-net-19-1-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Den här sidan innehåller release notes för[Aspose.Cells för .NET 19.1](https://www.nuget.org/packages/Aspose.Cells/19.1.0).
+ Den här sidan innehåller release notes för[Aspose.Cells for .NET 19.1](https://www.nuget.org/packages/Aspose.Cells/19.1.0).
 
 {{% /alert %}} 
 
@@ -25,7 +25,7 @@ url: /sv/net/aspose-cells-for-net-19-1-release-notes/
 |CELLSNET-46531|Att byta namn på ListColumns förstör arbetsboken (när det finns en pivottabell)|Insekt|
 |CELLSNET-46511|TIFF skapad med extra tomma sidor|Insekt|
 |CELLSNET-46522|Tillämpa regionala inställningar för utskriftsinställningar|Insekt|
-|CELLSNET-46529|Bild saknas efter konvertering av XLSX till PDF|Insekt|
+|CELLSNET-46529|Bild saknas efter XLSX till PDF-konvertering|Insekt|
 |CELLSNET-46451|Problem vid återgivning av mallfilen till PDF-filformat|Insekt|
 |CELLSNET-46518|Layoutproblem (vissa axeletiketter är på två rader) när mallfilen renderas till PDF-filformat|Insekt|
 |CELLSNET-46113|Filformat stöds inte undantag för XLS-dokument|Insekt|
@@ -36,8 +36,8 @@ url: /sv/net/aspose-cells-for-net-19-1-release-notes/
 |CELLSNET-46459|Ett undantag uppstår vid konvertering till Open Strict XML-formatet|Undantag|
 |CELLSNET-46485|Undantag vid laddning av ett XLSB-filformat|Undantag|
 |CELLSNET-46508|Undantag vid laddning av ett XLSM-filformat|Undantag|
-### **Public API och bakåtinkompatibla ändringar**
-Följande är en lista över eventuella ändringar som gjorts i det offentliga API:t, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts i Aspose.Cells för .NET. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Cells supportforum.
+### **Offentlig API och bakåtinkompatibla ändringar**
+Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoden PivotTable.ShowReportFilterPageByName(strängfältnamn).**
 Visar alla rapportfiltersidor enligt PivotFields namn, PivotField måste finnas i PageFields.
 #### **Lägger till metoden PivotTable.ShowReportFilterPageByIndex(int posIndex)**

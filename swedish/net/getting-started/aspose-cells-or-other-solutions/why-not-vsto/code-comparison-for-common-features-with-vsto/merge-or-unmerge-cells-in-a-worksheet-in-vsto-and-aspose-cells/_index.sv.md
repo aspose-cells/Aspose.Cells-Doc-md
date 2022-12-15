@@ -7,7 +7,7 @@ url: /sv/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 Öppna en befintlig excel-fil, slå samman några celler i det första kalkylbladet i arbetsboken och spara excel-filen.
 ## **Slår ihop Cells**
 ### **VSTO**
-Följande är de parallella kodavsnitten för VSTO (C#) och Aspose.Cells för .NET (C#).
+Följande är de parallella kodavsnitten för VSTO (C#) och Aspose.Cells for .NET (C#).
 
 {{< highlight "csharp" >}}
 
@@ -83,7 +83,7 @@ Följande är de parallella kodavsnitten för VSTO (C#) och Aspose.Cells för .N
 
 {{< /highlight >}}
 ## **Ta bort sammanslagningen Cells**
-Använd följande kodrader för VSTO (C#) och Aspose.Cells för .NET (C#) för att ta bort sammanslagningen av cellerna.
+För att ta bort cellen/cellerna använder du följande kodrader för VSTO (C#) och Aspose.Cells for .NET (C#).
 ### **VSTO**
 {{< highlight "csharp" >}}
 

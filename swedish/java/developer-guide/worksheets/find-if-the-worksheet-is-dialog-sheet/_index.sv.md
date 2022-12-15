@@ -6,7 +6,7 @@ url: /sv/java/find-if-the-worksheet-is-dialog-sheet/
 ---
 ## **Möjliga användningsscenarier**
 
-Dialogark är ett gammalt format av arket som innehåller en dialogruta. Ett sådant ark kan infogas av en äldre version av Microsoft Excel, t.ex. 2003, som visas i denna skärmdump. Den kan även infogas med VBA i nyare versioner t.ex. Microsoft Excel 2016.
+Dialogark är ett gammalt format av arket som innehåller en dialogruta. Ett sådant blad skulle kunna infogas av en äldre version av Microsoft Excel, t.ex. 2003 som visas i denna skärmdump. Den kan även infogas med VBA i nyare versioner t.ex. Microsoft Excel 2016.
 
 ![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 

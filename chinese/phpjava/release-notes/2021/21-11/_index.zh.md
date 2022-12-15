@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells 用于 PHP 通过 Java 21.11 发行说明
+title: Aspose.Cells for PHP via Java 21.11 发行说明
 type: docs
 weight: 2
 url: /zh/php-java/aspose-cells-for-php-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含发行说明[Aspose.Cells 用于 PHP 通过 Java 21.11](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.11/).
+此页面包含发行说明[Aspose.Cells for PHP via Java 21.11](https://downloads.aspose.com/cells/php/new-releases/aspose.cells-for-php-via-java-21.11/).
 
 {{% /alert %}}
 

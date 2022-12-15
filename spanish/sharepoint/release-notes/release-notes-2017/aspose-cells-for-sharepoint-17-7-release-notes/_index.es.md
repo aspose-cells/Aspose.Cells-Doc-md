@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells para las notas de la versión de SharePoint 17.7
+title: Aspose.Cells for SharePoint 17.7 Notas de la versión
 type: docs
 weight: 30
 url: /es/sharepoint/aspose-cells-for-sharepoint-17-7-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Esta página contiene notas de la versión para[Aspose.Cells para SharePoint 17.7](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-17.7/).
+ Esta página contiene notas de la versión para[Aspose.Cells for SharePoint 17.7](https://downloads.aspose.com/cells/sharepoint/new-releases/aspose.cells-for-sharepoint-17.7/).
 
 {{% /alert %}} 
 

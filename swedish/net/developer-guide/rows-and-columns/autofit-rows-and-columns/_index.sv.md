@@ -6,7 +6,7 @@ url: /sv/net/autofit-rows-and-columns/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel låter användare automatiskt anpassa bredden och höjden på celler enligt dess innehåll. Den här funktionen är också tillgänglig via Aspose.Cells så att utvecklare kan automatiskt anpassa storleken på en cell under körning.
+Microsoft Excel låter användare automatiskt anpassa bredden och höjden på celler enligt dess innehåll. Den här funktionen är också tillgänglig via Aspose.Cells så att utvecklare kan automatiskt anpassa dimensionerna för en cell under körning.
 
 {{% /alert %}}
 
@@ -36,7 +36,7 @@ Aspose.Cells tillhandahåller en[**Arbetsbok**](https://reference.aspose.com/cel
 
  En kolumn består av många rader. Det är möjligt att automatiskt anpassa en kolumn baserat på innehållet i ett antal celler i kolumnen genom att anropa en överbelastad version av[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)metod som tar följande parametrar:
 
-- **Kolumnindex**, indexet för kolumnen som ska anpassas automatiskt.
+- **Kolumnindex**indexet för kolumnen som ska anpassas automatiskt.
 - **Första radens index**, indexet för kolumnens första rad.
 - **Sista radens index**, indexet för kolumnens sista rad.
 
@@ -46,7 +46,7 @@ Aspose.Cells tillhandahåller en[**Arbetsbok**](https://reference.aspose.com/cel
 
 ### **AutoFit-rader för sammanslagna Cells**
 
- Med Aspose.Cells är det möjligt att autopassa rader även för celler som har slagits samman med hjälp av[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)API.[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)klass ger[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) egenskap som kan användas för att automatiskt anpassa rader för sammanslagna celler.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)accepterar[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) enumerable som har följande medlemmar.
+ Med Aspose.Cells är det möjligt att autopassa rader även för celler som har slagits samman med hjälp av[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)klass ger[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) egenskap som kan användas för att automatiskt anpassa rader för sammanslagna celler.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)accepterar[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) enumerable som har följande medlemmar.
 
 - Ingen: Ignorera sammanslagna celler.
 - FirstLine: Expanderar endast höjden på den första raden.
@@ -62,7 +62,7 @@ Aspose.Cells tillhandahåller en[**Arbetsbok**](https://reference.aspose.com/cel
 Signaturerna för ovannämnda metoder är följande:
 
 1.  AutoFitRows(int startRow, int endRow,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)alternativ)
-1.  AutoFitColumns(int firstColumn, int lastColumn,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)alternativ)
+1. AutoFitColumns(int firstColumn, int lastColumn,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)alternativ)
 
 {{% /alert %}}
 
@@ -70,7 +70,7 @@ Signaturerna för ovannämnda metoder är följande:
 
 {{% alert color="primary" %}}
 
-Om en cell slås samman kommer inte AutoFit-metoderna att tillämpas, vilket är samma beteende som i Microsoft Excel. Du kan komma runt detta genom att använda Autofilter API. Dessutom, om texten i en cell är radbruten,[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) metod kommer inte heller att tillämpas. En annan sak du behöver veta är att*Autopassning*metoder är tidskrävande. Så du bör anropa dessa metoder så sällan som möjligt för att säkerställa effektiviteten i din applikation.
+ Om en cell slås samman kommer inte AutoFit-metoderna att tillämpas, vilket är samma beteende som i Microsoft Excel. Du kan komma runt detta genom att använda autofiltret API. Dessutom, om texten i en cell är radbruten,[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) metod kommer inte heller att tillämpas. En annan sak du behöver veta är att*AutoFit*metoder är tidskrävande. Så du bör anropa dessa metoder så sällan som möjligt för att säkerställa effektiviteten i din applikation.
 
 {{% /alert %}}
 

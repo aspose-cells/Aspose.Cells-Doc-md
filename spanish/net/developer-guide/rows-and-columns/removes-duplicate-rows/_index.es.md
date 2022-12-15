@@ -10,7 +10,7 @@ Eliminar filas duplicadas es una de las muchas funciones útiles de Microsoft Ex
 
 Aspose.Cells proporciona el método Cells.RemoveDuplicates() para este fin. También puede configurar startRow, startColumn, endRow, endColumn para seleccionar columnas.
 
-Los siguientes son los archivos de muestra que se pueden descargar para probar esta función:
+Los siguientes son los archivos de muestra que se pueden descargar para probar esta característica:
 
 [eliminadoduplicados.xlsx](removeduplicates.xlsx)
 

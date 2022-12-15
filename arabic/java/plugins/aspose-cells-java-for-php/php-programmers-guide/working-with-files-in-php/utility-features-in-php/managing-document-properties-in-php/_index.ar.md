@@ -5,7 +5,7 @@ weight: 70
 url: /ar/java/managing-document-properties-in-php/
 ---
 ## **Aspose.Cells - إضافة خصائص مخصصة**
-لإضافة خصائص وثيقة مخصصة باستخدام Aspose.Cells Java لـ PHP ، اتصل**add_custom_property** طريقة**وثيقة** وحدة.
+لإضافة خصائص وثيقة مخصصة باستخدام Aspose.Cells Java for PHP ، اتصل**add_custom_property** طريقة**وثيقة** وحدة.
 
 **كود PHP**
 
@@ -45,7 +45,7 @@ $customProperties->remove("Publisher");
 $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل كود الجري**
  تحميل**الوصول إلى خصائص المستند (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

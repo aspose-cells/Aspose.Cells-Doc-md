@@ -17,7 +17,7 @@ url: /it/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45855|Fornire WorkbookSetting.StreamProvider per controllare le risorse esterne|Nuova caratteristica|
 |CELLSNET-45845|Foglio di stile esterno non supportato durante la conversione di andata e ritorno|Aumento|
 |CELLSNET-45888|Il collegamento DDE non è presente all'interno di Worksheets.ExternalLinks|Aumento|
-|CELLSNET-45893|Aspose.Cells.GridWeb non inserisce testo come Microsoft Excel quando il testo a capo è abilitato|Aumento|
+|CELLSNET-45893|Aspose.Cells.GridWeb non inserisce testo come Microsoft Excel quando è abilitato il testo a capo|Aumento|
 |CELLSNET-45833|Le proprietà dell'immagine (titolo e oggetto) vengono perse nella conversione da forma a immagine|Insetto|
 |CELLSNET-45822|Caratteri invertiti nelle etichette durante la conversione da Excel a PDF|Insetto|
 |CELLSNET-45776|Alcuni dati delle colonne non vengono completamente espansi/visualizzati durante il salvataggio di un file MHtml nel formato di file Excel|Insetto|
@@ -41,8 +41,8 @@ url: /it/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45849|L'immagine esce dalle dimensioni del foglio di lavoro della griglia|Insetto|
 |CELLSNET-45824|Le immagini nel file Excel non vengono visualizzate in dimensioni normali durante l'importazione del file in Aspose.Cells.GridDesktop|Insetto|
 |CELLSNET-45874|Eccezione "La stringa di input non era in un formato corretto" durante l'importazione del file Excel in Aspose.Cells.GridWeb|Eccezione|
-### **Pubblico API e modifiche incompatibili con le versioni precedenti**
-Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+### **API pubblica e modifiche non compatibili con le versioni precedenti**
+Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
 #### **Aggiunge l'enumerazione LoadDataFilterOptions.DefinedNames**
 Indica se caricare gli oggetti Name definiti durante il caricamento del file modello.
 #### **Modifica il comportamento di LoadDataFilterOptions.Formula enum**

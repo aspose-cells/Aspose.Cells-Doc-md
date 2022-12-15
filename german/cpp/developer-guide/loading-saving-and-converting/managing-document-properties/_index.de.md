@@ -9,7 +9,7 @@ url: /de/cpp/managing-document-properties/
 
 ![todo: Bild_alt_Text](managing-document-properties_1.png)
 ## **Dokumenteigenschaften verwalten**
- Der folgende Beispielcode wird geladen[Excel-Beispieldatei](23166989.xlsx) und liest die eingebauten Dokumenteigenschaften zB*Titel, Betreff* und ändert sie dann. Dann liest es auch die benutzerdefinierte Dokumenteigenschaft, dh*MyCustom1* und fügt dann eine neue benutzerdefinierte Dokumenteigenschaft hinzu, dh*MyCustom5* und schreibt die[Excel-Datei ausgeben](23166986.xlsx)Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei.
+ Der folgende Beispielcode wird geladen[Excel-Beispieldatei](23166989.xlsx) und liest die eingebauten Dokumenteigenschaften zB*Titel, Betreff* und ändert sie dann. Dann liest es auch die benutzerdefinierte Dokumenteigenschaft, dh*MyCustom1* und fügt dann eine neue benutzerdefinierte Dokumenteigenschaft hinzu, dh*MyCustom5* und schreibt die[Excel-Datei ausgeben](23166986.xlsx). Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei.
 
 ![todo: Bild_alt_Text](managing-document-properties_2.png)
 ## **Beispielcode**

@@ -29,8 +29,8 @@ felice di annunciare Aspose.Cells for Java v7.3.1 per gli utenti!
  (Nota:
 
 Tutti i biglietti di cui sopra
-sono originariamente aggiunti per conto degli utenti .NET. Dalla nostra versione Java di
-il prodotto è ugualmente abbinato (per quanto riguarda caratteristiche e miglioramenti) con .NET
+sono originariamente aggiunti per conto degli utenti .NET. Poiché la nostra versione Java di
+il prodotto è ugualmente abbinato (per quanto riguarda funzionalità e miglioramenti) con .NET
 ora, quindi abbiamo incorporato queste nuove funzionalità/miglioramenti nella versione Java
  anche del prodotto.
 ) 
