@@ -3,6 +3,7 @@ title: Show and Hide Worksheets and Tabs
 type: docs
 weight: 10
 url: /net/show-and-hide-worksheets-and-tabs/
+description: This article provides sample code for using the C# API or .NET Library to programmatically display and hide an Excel worksheet. Additionally, how to show and hide Excel workbook tabs.
 ---
 
 {{% alert color="primary" %}}
