@@ -1,0 +1,87 @@
+﻿---
+title: 異なる形式のファイルを開く
+type: docs
+weight: 30
+url: /ja/net/opening-files-with-different-formats/
+description: Aspose.Cells for .NET API を使用すると、XLSX、HTML、CSV、ODS、TSV、SXC、FODS などのさまざまな形式を開く/読み取ることができます。
+keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
+---
+{{% alert color="primary" %}}
+
+ Aspose.Cells を使用すると、さまざまな形式のファイルを開くことができます。**Aspose.Cells** Microsoft Excel スプレッドシート (XLS、XLSX、XLSM、XLSB)、SpreadsheetML、カンマ区切り値 (CSV)、タブ区切りまたはタブ区切り値 (TSV) ファイルなど、さまざまなファイル形式を開くことができます。
+
+サポートされているすべてのファイル形式を知る必要がある場合は、次のページを参照してください。
+[サポートされているファイル形式](https://docs.aspose.com/cells/net/supported-file-formats/)
+
+{{% /alert %}}
+
+## **異なる形式のファイルを開く**
+
+Aspose.Cells を使用すると、開発者は、SpreadsheetML、カンマ区切り値 (CSV)、タブ区切りまたはタブ区切り値 (TSV)、ODS ファイルなど、さまざまな形式のスプレッドシート ファイルを開くことができます。このようなファイルを開くために、開発者は異なる Microsoft Excel バージョンのファイルを開く場合と同じ方法を使用できます。
+
+### **SpreadsheetML ファイルを開く**
+
+SpreadsheetML ファイルは、書式設定、数式など、スプレッドシートに関するすべての情報を含むスプレッドシートの XML 表現です。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningSpreadsheetMLFiles-1.cs" >}}
+
+### **HTML ファイルを開く**
+
+Aspose.Cells を使用すると、HTML ファイルを Workbook オブジェクトで開くことができます。 HTML ファイルは Microsoft Excel 向けである必要があります。つまり、MS-Excel で開くことができます。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningHTMLFile-1.cs" >}}
+
+### **CSV ファイルを開く**
+
+カンマ区切り値 (CSV) ファイルには、値がカンマで区切られたレコードが含まれています。データは、各列がコンマ文字で区切られ、二重引用符で囲まれたテーブルとして保存されます。フィールド値に二重引用符が含まれている場合は、二重引用符のペアでエスケープされます。 Microsoft Excel を使用して、スプレッドシート データを CSV にエクスポートすることもできます。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
+
+#### **CSV ファイルを開き、無効な文字を置き換える**
+
+Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動的に置き換えられます。以下のコード例で示されている Aspose.Cells API でも同じことが行われます。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
+
+#### **優先パーサーの使用**
+
+これは、CSV ファイルを開くためにデフォルトのパーサー設定を使用するために常に必要なわけではありません。 CSV ファイルをインポートしても、日付形式が期待どおりでなかったり、空のフィールドが別の方法で処理されたりするなど、予期した出力が作成されないことがあります。この目的のために**TxtLoadOptions.PreferredParsers**要件に応じてさまざまなデータ型を解析するための独自の優先パーサーを提供することができます。次のサンプル コードは、優先パーサーの使用方法を示しています。
+
+この機能をテストするためのサンプル ソース ファイルと出力ファイルは、次のリンクからダウンロードできます。
+
+[samplePreferredParser.csv](samplePreferredParser.csv)
+
+[outputsamplePreferredParser.xlsx](outputsamplePreferredParser.xlsx)
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesWithPreferredParser-1.cs" >}}
+
+### **カスタム セパレータを使用してテキスト ファイルを開く**
+
+テキスト ファイルは、書式設定なしでスプレッドシート データを保持するために使用されます。このファイルは、カスタマイズされた区切り文字を持つことができる一種のプレーン テキスト ファイルです。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTextFilewithCustomSeparator-1.cs" >}}
+
+### **タブ区切りファイルを開く**
+
+タブ区切り (テキスト) ファイルにはスプレッドシート データが含まれますが、書式設定はありません。データは、表やスプレッドシートのように行と列に配置されます。基本的に、タブ区切りファイルは、各列の間にタブがある特別な種類のプレーン テキスト ファイルです。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTabDelimitedFiles-1.cs" >}}
+
+### **タブ区切り値 (TSV) ファイルを開く**
+
+タブ区切り値 (TSV) ファイルにはスプレッドシート データが含まれていますが、書式設定はありません。テーブルやスプレッドシートのように、データが行と列に配置されるタブ区切りファイルと同じです。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTSVFiles-1.cs" >}}
+
+### **SXC ファイルを開く**
+
+StarOffice Calc は Microsoft Excel に似ており、数式、チャート、関数、およびマクロをサポートしています。このソフトウェアで作成されたスプレッドシートは、SXC 拡張子で保存されます。 SXC ファイルは、OpenOffice.org Calc スプレッドシート ファイルにも使用されます。 Aspose.Cells は、次のコード サンプルで示されているように、SXC ファイルを読み取ることができます。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningSXCFiles-1.cs" >}}
+
+### **FODS ファイルを開く**
+
+FODS ファイルは、圧縮せずに OpenDocument XML で保存されたスプレッドシートです。 Aspose.Cells は、次のコード サンプルで示されているように、FODS ファイルを読み取ることができます。
+
+{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFODSFiles-1.cs" >}}
+

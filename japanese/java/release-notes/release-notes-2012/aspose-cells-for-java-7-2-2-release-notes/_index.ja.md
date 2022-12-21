@@ -1,0 +1,40 @@
+﻿---
+title: Aspose.Cells for Java 7.2.2 リリースノート
+type: docs
+weight: 60
+url: /ja/java/aspose-cells-for-java-7-2-2-release-notes/
+---
+{{% alert color="primary" %}} 
+
+このページには、[Aspose.Cells for Java 7.2.2](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-7.2.2/)
+
+{{% /alert %}} 
+
+私たちです
+Aspose.Cells for Java v7.2.2 を発表させていただきます。
+
+新機能
+
+- Cells.Find() メソッドの正規表現テキスト検索
+
+機能強化
+
+- Aspose.Cells を古いバージョンの Woodstox jar と互換性を持たせる
+- XLS 内の OLE 埋め込み OOXML ファイルは、展開されたファイルではなく、OLE パッケージ ファイルとして公開されます。
+- HTML ファイルを保存するための ExportObjectListener のサポート
+- 行をコピーするときに条件付き書式をコピーする
+
+例外
+
+- Picture inPageSetup の Picture.isPrintable() で NullPointerException が発生する
+- ピボット テーブルを使用して暗号化されたワークブックを保存すると、java.lang.NegativeArraySizeException が発生する
+
+バグ
+
+- Cells.DateTime 形式を指定した importCustomObjects() が機能しない
+- 散布図の ChartType が正しくありません
+- CSV テンプレート ファイルからの読み取り時に倍精度値が失われる
+- チャート シリーズを画像に変換すると上下が反転する
+- XLSX ファイルを再保存すると、"Excelfound unreadable content..." エラーが発生する
+- 保存されたピボットテーブルは、MS Excel で開いたときに「ProtectionView」を引き起こしました
+- Aspose.Cellscreatesによるリスト検証を使用すると、システムのリストセパレーターを変更した後に機能しないXLSファイル

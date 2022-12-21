@@ -1,0 +1,40 @@
+﻿---
+title: Aspose.Cells for Java 8.7.1 リリースノート
+type: docs
+weight: 130
+url: /ja/java/aspose-cells-for-java-8-7-1-release-notes/
+---
+## **その他の改善と変更**
+
+|**鍵** |**概要** |**カテゴリー** |
+|:- |:- |:- |
+|CELLSJAVA-41747 |FORMULATEXT 関数の計算をサポート|新機能|
+|CELLSJAVA-41702 |出力 HTML ファイルに余分な列が追加されます|バグ|
+|CELLSJAVA-41708 |HTML 出力から列が欠落する|バグ|
+|CELLSJAVA-41720 |スプレッドシートを HTML に変換しているときに画像を SVG に保存すると、画像ファイルの拡張子が正しくなくなる|バグ|
+|CELLSJAVA-41721 |スプレッドシートを HTML に変換する際に、シェイプ内のテキストが正しくレンダリングされない|バグ|
+|CELLSJAVA-41711 |HTML に保存するときの無限ループの問題|バグ|
+|CELLSJAVA-41737 |Cell.DateTime 型の getStringValue が望ましくない値を与えている|バグ|
+|CELLSJAVA-41681 |Chart.toImage を使用すると、チャート ヘッダーがチャートの境界線を超えて拡張される|バグ|
+|CELLSJAVA-41691 |グラフの画像形式でデータ ラベルがグラフ エリアと重なっている|バグ|
+|CELLSJAVA-41692 |チャートの PDF ファイル形式でデータ ラベルがチャート エリアと重なっている|バグ|
+|CELLSJAVA-41696 |Chart の PDF ファイル形式で下枠と右枠が欠落している|バグ|
+|CELLSJAVA-41712 |棒グラフの PDF で不適切な色がレンダリングされる|バグ|
+|CELLSJAVA-41722 |生成された PDF Aspose.Cells の読み込み中に Acrobat Reader にエラーが表示される|バグ|
+|CELLSJAVA-41724 |シリーズは、スプレッドシートの元のチャートとは対照的に、SVG では完全に不透明です|バグ|
+|CELLSJAVA-41725 |SVG 画像がスプレッドシートの元のグラフと異なる|バグ|
+|CELLSJAVA-41727 |DataLabel の画像またはテクスチャの塗りつぶし効果が SVG にレンダリングされていません|バグ|
+|CELLSJAVA-41728 |結果の SVG ファイルのサイズは 0KB です|バグ|
+|CELLSJAVA-41741 |Picture to SVG が空白/間違った画像をレンダリングする|バグ|
+|CELLSJAVA-41743 |出力 PDF にグラフィック タイトルがありません|バグ|
+|CELLSJAVA-41714 |FileFormatUtil.loadFormatToExtension は、.ODP ファイルの .ODS を返します|バグ|
+|CELLSJAVA-41715 |PerformanceReport.xlsb を再保存した後、Excel 2007 でコンテンツを読み取れない|バグ|
+|CELLSJAVA-41731 |XLS を XLSB に保存する際に形状式が更新されない|バグ|
+|CELLSJAVA-41733 |Cell.getFormula は、角かっこで囲まれたシート名とスプレッドシート ファイルへのパスを含む数式を返します。|バグ|
+|CELLSJAVA-41732 |例外: Workbook.calculateFormula() メソッドの「[0]Sheet1!B2-無効な式: スタック内に複数のトークン」|例外|
+## **Public API および下位互換性のない変更**
+以下は、Aspose.Cells for Java に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
+### **LookInType.OriginalValues プロパティを追加します。**
+フォーマットなしの元の値からのみオブジェクトを検索します。
+## **ノート**
+Aspose.Cells for Java のコード ベースは関連する .NET バージョンのコードと一致するため、Aspose.Cells for .NET v8.7.1 に含まれるほとんどの変更、機能強化、および修正は、この Aspose.Cells for Java v8.7.1 にも含まれています。
