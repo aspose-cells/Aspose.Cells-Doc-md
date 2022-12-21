@@ -3,6 +3,7 @@ title: Show and Hide Gridlines and Row Column Headers
 type: docs
 weight: 30
 url: /net/show-and-hide-gridlines-and-row-column-headers/
+description: This article provides sample code for using the C# API or .NET Library to programmatically hide or show gridlines, row and column headers of an Excel worksheet.
 ---
 
 {{% alert color="primary" %}}
